@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login - JS Public School</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/modern.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --ink: #17212f;
+            --muted: #6e7a8b;
+            --navy: #10243e;
+            --teal: #1b8a8f;
+            --amber: #f2b84b;
+            --rose: #d94f70;
+            --panel: rgba(255,255,255,0.88);
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: grid;
+            place-items: center;
+            padding: 24px;
+            color: var(--ink);
+            font-family: 'Inter', sans-serif;
+            letter-spacing: 0;
+            background:
+                radial-gradient(circle at 18% 15%, rgba(242, 184, 75, 0.24), transparent 28%),
+                radial-gradient(circle at 82% 78%, rgba(27, 138, 143, 0.22), transparent 30%),
+                linear-gradient(135deg, #f5f9fb 0%, #eaf1f4 48%, #f7f1e4 100%);
+            overflow-x: hidden;
+        }
+
+        .login-stage {
+            width: min(1080px, 100%);
+            display: grid;
+            grid-template-columns: 1.08fr 0.92fr;
+            border-radius: 12px;
+            overflow: hidden;
+            background: rgba(255,255,255,0.55);
+            border: 1px solid rgba(255,255,255,0.78);
+            box-shadow: 0 28px 80px rgba(16, 36, 62, 0.16);
+            animation: rise 520ms ease both;
+        }
+
+        .login-visual {
+            min-height: 620px;
+            padding: 42px;
+            color: white;
+            background:
+                linear-gradient(135deg, rgba(16,36,62,0.92), rgba(27,138,143,0.78)),
+                url("{{ url_for('static', filename='img/02-boxed.jpg') }}") center/cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .brand-lockup {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .brand-lockup img {
+            width: 54px;
+            height: 54px;
+            border-radius: 8px;
+            background: white;
+            padding: 6px;
+        }
+
+        .brand-lockup strong {
+            display: block;
+            font-family: 'Outfit', sans-serif;
+            font-size: 20px;
+            line-height: 1.05;
+        }
+
+        .brand-lockup span { color: rgba(255,255,255,0.72); font-size: 13px; }
+
+        .hero-copy h1 {
+            margin: 0 0 14px;
+            max-width: 560px;
+            font-family: 'Outfit', sans-serif;
+            font-size: clamp(34px, 5vw, 58px);
+            line-height: 1;
+        }
+
+        .hero-copy p {
+            max-width: 520px;
+            margin: 0;
+            color: rgba(255,255,255,0.78);
+            font-size: 16px;
+            line-height: 1.7;
+        }
+
+        .metric-row {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+            margin-top: 32px;
+        }
+
+        .metric {
+            padding: 14px;
+            border-radius: 8px;
+            background: rgba(255,255,255,0.12);
+            border: 1px solid rgba(255,255,255,0.14);
+            backdrop-filter: blur(10px);
+        }
+
+        .metric i { color: var(--amber); }
+        .metric span { display: block; margin-top: 8px; font-weight: 800; }
+        .metric small { color: rgba(255,255,255,0.7); }
+
+        .login-panel {
+            display: grid;
+            place-items: center;
+            padding: 38px;
+        }
+
+        .login-card {
+            width: 100%;
+            max-width: 410px;
+            padding: 30px;
+            border-radius: 12px;
+            background: var(--panel);
+            border: 1px solid rgba(255,255,255,0.8);
+            box-shadow: 0 18px 48px rgba(16,36,62,0.12);
+            backdrop-filter: blur(18px);
+        }
+
+        .login-card h2 {
+            margin: 0;
+            color: var(--navy);
+            font-family: 'Outfit', sans-serif;
+            font-size: 30px;
+        }
+
+        .login-card p {
+            margin: 8px 0 24px;
+            color: var(--muted);
+            line-height: 1.55;
+        }
+
+        .form-group { margin-bottom: 16px; }
+        label { display: block; margin-bottom: 7px; font-size: 13px; font-weight: 800; }
+
+        .input-shell {
+            position: relative;
+        }
+
+        .input-shell i {
+            position: absolute;
+            left: 13px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--teal);
+        }
+
+        .form-control {
+            width: 100%;
+            min-height: 48px;
+            padding: 12px 12px 12px 42px;
+            border: 1px solid rgba(23,33,47,0.14);
+            border-radius: 8px;
+            background: white;
+            font-size: 15px;
+            transition: border 160ms ease, box-shadow 160ms ease;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--teal);
+            box-shadow: 0 0 0 4px rgba(27,138,143,0.14);
+        }
+
+        .login-btn {
+            width: 100%;
+            min-height: 48px;
+            margin-top: 6px;
+            border: 0;
+            border-radius: 8px;
+            color: white;
+            background: linear-gradient(135deg, var(--teal), var(--navy));
+            font-weight: 800;
+            cursor: pointer;
+            transition: transform 160ms ease, box-shadow 160ms ease;
+        }
+
+        .login-btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 16px 30px rgba(16,36,62,0.18);
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 18px;
+            color: var(--muted);
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        .back-link:hover { color: var(--teal); }
+
+        .alert {
+            padding: 12px 14px;
+            border-radius: 8px;
+            margin-bottom: 18px;
+            font-size: 14px;
+        }
+        .alert-error { background: #fde8ed; color: #9f2f48; border: 1px solid #f4bdc9; }
+        .alert-success { background: #e6f7ef; color: #176044; border: 1px solid #bce9d2; }
+
+        @keyframes rise {
+            from { opacity: 0; transform: translateY(16px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 860px) {
+            .login-stage { grid-template-columns: 1fr; }
+            .login-visual { min-height: 380px; }
+            .metric-row { grid-template-columns: 1fr; }
+        }
+
+        @media (max-width: 520px) {
+            body { padding: 12px; }
+            .login-visual, .login-panel { padding: 24px; }
+            .login-card { padding: 22px; }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="login-stage">
+        <div class="login-visual">
+            <div class="brand-lockup">
+                <img src="{{ url_for('static', filename='img/logo-free.png') }}" alt="JSPS">
+                <div>
+                    <strong>JS Public School</strong>
+                    <span>Admin Operations Suite</span>
+                </div>
+            </div>
+
+            <div class="hero-copy">
+                <h1>Run the school from one clean command center.</h1>
+                <p>Admissions, students, attendance, fees, results, transport, messages, and website content are now organized in one focused dashboard.</p>
+                <div class="metric-row">
+                    <div class="metric"><i class="fa-solid fa-shield-halved"></i><span>Secure</span><small>Role based access</small></div>
+                    <div class="metric"><i class="fa-solid fa-bolt"></i><span>Fast</span><small>Daily operations</small></div>
+                    <div class="metric"><i class="fa-solid fa-mobile-screen"></i><span>Mobile</span><small>Parent app ready</small></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="login-panel">
+            <div class="login-card">
+                <h2>Admin Login</h2>
+                <p>Use your school admin credentials to continue.</p>
+
+                {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                {% for category, message in messages %}
+                <div class="alert alert-{{ category }}">{{ message }}</div>
+                {% endfor %}
+                {% endif %}
+                {% endwith %}
+
+                <form action="{{ url_for('admin.login') }}" method="POST">
+                    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <div class="input-shell">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" id="username" name="username" class="form-control" required autocomplete="username">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <div class="input-shell">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" id="password" name="password" class="form-control" required autocomplete="current-password">
+                        </div>
+                    </div>
+                    <button type="submit" class="login-btn">Secure Login</button>
+                </form>
+
+                <a href="{{ url_for('public.home') }}" class="back-link"><i class="fa-solid fa-arrow-left"></i> Back to Website</a>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

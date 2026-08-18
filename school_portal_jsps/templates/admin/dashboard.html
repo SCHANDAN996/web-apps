@@ -1,0 +1,70 @@
+{% extends 'admin/admin_base.html' %}
+{% block title %}Dashboard Overview{% endblock %}
+{% block page_header %}Dashboard Overview{% endblock %}
+
+{% block admin_content %}
+<div class="stats-grid">
+    <div class="stat-card">
+        <div class="stat-icon"><i class="fa-solid fa-user-plus"></i></div>
+        <div class="stat-info">
+            <h3>{{ admissions_count }}</h3>
+            <p>Total Admissions</p>
+        </div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-icon"><i class="fa-solid fa-briefcase"></i></div>
+        <div class="stat-info">
+            <h3>{{ careers_count }}</h3>
+            <p>Job Applications</p>
+        </div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-icon"><i class="fa-solid fa-bell"></i></div>
+        <div class="stat-info">
+            <h3>{{ notices_count }}</h3>
+            <p>Active Notices</p>
+        </div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-icon"><i class="fa-solid fa-children"></i></div>
+        <div class="stat-info">
+            <h3>{{ students_count }}</h3>
+            <p>Students</p>
+        </div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+        <div class="stat-info">
+            <h3>{{ teachers_count }}</h3>
+            <p>Teachers</p>
+        </div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-icon"><i class="fa-solid fa-file-invoice-dollar"></i></div>
+        <div class="stat-info">
+            <h3>{{ pending_fee_count }}</h3>
+            <p>Pending Fees</p>
+        </div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-icon"><i class="fa-solid fa-person-walking-arrow-right"></i></div>
+        <div class="stat-info">
+            <h3>{{ pending_leave_count }}</h3>
+            <p>Leave Requests</p>
+        </div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-icon"><i class="fa-solid fa-comments"></i></div>
+        <div class="stat-info">
+            <h3>{{ open_messages_count }}</h3>
+            <p>Open Messages</p>
+        </div>
+    </div>
+</div>
+
+<div class="dashboard-section">
+    <h2>World-Class School Operations Hub</h2>
+    <p style="color: #666; line-height: 1.6;">Use the sidebar to manage admissions, students, teachers, attendance,
+        fee ledger, results, transport, calendar, timetable, leave requests, parent messages, and mobile notifications.</p>
+</div>
+{% endblock %}

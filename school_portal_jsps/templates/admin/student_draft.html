@@ -1,0 +1,87 @@
+{% extends 'admin/admin_base.html' %}
+{% block title %}Single Entry Admission - Admin Dashboard{% endblock %}
+{% block page_header %}Student Single Entry Draft{% endblock %}
+
+{% block admin_content %}
+<div class="dashboard-section animate-fade-in">
+    <h2 class="text-primary"><i class="fa-solid fa-user-plus"></i> Single Entry Automation</h2>
+    <p class="text-muted mb-4">Fill this draft once. The system will auto-generate the ID Card, Blank Result Sheet, Student Portal Account, and Parent Portal Account.</p>
+
+    <div class="glass-card" style="padding: 20px; border-top: 4px solid var(--primary-color);">
+        <form method="POST" action="{{ url_for('admin_auto.student_draft') }}">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+            
+            <h3 class="h5 mb-3 text-secondary border-bottom pb-2">Academic Details</h3>
+            <div class="row">
+                <div class="col-md-6 form-group">
+                    <label>Admission Number (Used as Student Login ID) *</label>
+                    <input type="text" name="admission_no" class="form-control" required placeholder="e.g., 2026001">
+                </div>
+                <div class="col-md-6 form-group">
+                    <label>Current Class *</label>
+                    <select name="current_class" class="form-control" required>
+                        <option value="">Select Class</option>
+                        <option value="Nursery">Nursery</option>
+                        <option value="LKG">LKG</option>
+                        <option value="UKG">UKG</option>
+                        <option value="1">Class 1</option>
+                        <option value="2">Class 2</option>
+                        <option value="3">Class 3</option>
+                        <option value="4">Class 4</option>
+                        <option value="5">Class 5</option>
+                        <option value="6">Class 6</option>
+                        <option value="7">Class 7</option>
+                        <option value="8">Class 8</option>
+                    </select>
+                </div>
+                <div class="col-md-6 form-group">
+                    <label>Section</label>
+                    <input type="text" name="section" class="form-control" placeholder="e.g., A">
+                </div>
+            </div>
+
+            <h3 class="h5 mb-3 mt-4 text-secondary border-bottom pb-2">Student Profile</h3>
+            <div class="row">
+                <div class="col-md-6 form-group">
+                    <label>Student Full Name *</label>
+                    <input type="text" name="student_name" class="form-control" required>
+                </div>
+                <div class="col-md-6 form-group">
+                    <label>Date of Birth (Used as Student Password) *</label>
+                    <input type="date" name="dob" class="form-control" required>
+                </div>
+                <div class="col-md-6 form-group">
+                    <label>Gender *</label>
+                    <select name="gender" class="form-control" required>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+            </div>
+
+            <h3 class="h5 mb-3 mt-4 text-secondary border-bottom pb-2">Parent/Guardian Details</h3>
+            <div class="row">
+                <div class="col-md-6 form-group">
+                    <label>Father's Name *</label>
+                    <input type="text" name="father_name" class="form-control" required>
+                </div>
+                <div class="col-md-6 form-group">
+                    <label>Mother's Name *</label>
+                    <input type="text" name="mother_name" class="form-control" required>
+                </div>
+                <div class="col-md-12 form-group">
+                    <label>Registered Mobile Number (Used as Parent Login ID) *</label>
+                    <input type="text" name="phone" class="form-control" required placeholder="10-digit number">
+                </div>
+            </div>
+
+            <div class="mt-4">
+                <button type="submit" class="btn-modern btn-primary px-4 py-2" style="width:100%; font-size:16px;">
+                    <i class="fa-solid fa-magic"></i> Submit & Automate Everything
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,179 @@
+{% extends 'base.html' %}
+{% block title %}Admission Form - JS PUBLIC SCHOOL{% endblock %}
+
+{% block content %}
+
+Content
+<article>
+    <header class="section background-primary text-center">
+        <h1 class="text-white margin-bottom-0 text-size-30 text-strong text-line-height-1">Admission Form</h1>
+    </header>
+    <div class="section background-white">
+        <div class="line">
+            <div class="margin">
+                <!-- Admission Form Content -->
+                <div class="s-12 l-8 center">
+                    <div class="box shadow-sm padding-2x border-radius">
+                        <h3 class="text-primary border-bottom pb-2 mb-4">Student Details</h3>
+                        <form method="POST" action="{{ url_for('public.submit_admission') }}" enctype="multipart/form-data"
+                            class="customform">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+
+                            <div class="line margin-bottom">
+                                <div class="margin">
+                                    <div class="s-12 m-12 l-6">
+                                        <label class="text-strong">Student Name *</label>
+                                        <input name="student_name" class="name border-radius" placeholder="Full Name"
+                                            type="text" required />
+                                    </div>
+                                    <div class="s-12 m-12 l-6">
+                                        <label class="text-strong">Date of Birth *</label>
+                                        <input name="dob" class="border-radius" type="date" required />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="line margin-bottom">
+                                <div class="margin">
+                                    <div class="s-12 m-12 l-6">
+                                        <label class="text-strong">Father's Name *</label>
+                                        <input name="father_name" class="border-radius" placeholder="Father's Full Name"
+                                            type="text" required />
+                                    </div>
+                                    <div class="s-12 m-12 l-6">
+                                        <label class="text-strong">Mother's Name *</label>
+                                        <input name="mother_name" class="border-radius" placeholder="Mother's Full Name"
+                                            type="text" required />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="line margin-bottom">
+                                <div class="margin">
+                                    <div class="s-12 m-12 l-6">
+                                        <label class="text-strong">Gender *</label>
+                                        <select name="gender" class="border-radius" required
+                                            style="padding: 10px; width: 100%; border: 1px solid #ccc;">
+                                            <option value="">Select Gender</option>
+                                            <option value="Male">Male</option>
+                                            <option value="Female">Female</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                    </div>
+                                    <div class="s-12 m-12 l-6">
+                                        <label class="text-strong">Class Applying For *</label>
+                                        <select name="class_applied" class="border-radius" required
+                                            style="padding: 10px; width: 100%; border: 1px solid #ccc;">
+                                            <option value="">Select Class</option>
+                                            <option value="PG">Play Group</option>
+                                            <option value="LKG">LKG</option>
+                                            <option value="UKG">UKG</option>
+                                            <option value="1">Class 1</option>
+                                            <option value="2">Class 2</option>
+                                            <option value="3">Class 3</option>
+                                            <option value="4">Class 4</option>
+                                            <option value="5">Class 5</option>
+                                            <option value="6">Class 6</option>
+                                            <option value="7">Class 7</option>
+                                            <option value="8">Class 8</option>
+                                            <option value="9">Class 9</option>
+                                            <option value="11">Class 11</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="line margin-bottom">
+                                <div class="margin">
+                                    <div class="s-12 m-12 l-6">
+                                        <label class="text-strong">Contact Phone *</label>
+                                        <input name="phone" class="border-radius" placeholder="10-digit Phone No"
+                                            type="tel" pattern="[0-9]{10}" required />
+                                    </div>
+                                    <div class="s-12 m-12 l-6">
+                                        <label class="text-strong">Email Address</label>
+                                        <input name="email" class="border-radius" placeholder="Email (Optional)"
+                                            type="email" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="line margin-bottom">
+                                <div class="s-12">
+                                    <label class="text-strong">Full Address *</label>
+                                    <textarea name="address" class="border-radius" rows="3"
+                                        placeholder="Locality, City, State, PIN" required></textarea>
+                                </div>
+                            </div>
+
+                            <div class="line margin-bottom">
+                                <div class="s-12">
+                                    <label class="text-strong">Previous School Attended (If any)</label>
+                                    <input name="previous_school" class="border-radius"
+                                        placeholder="Name of Previous School" type="text" />
+                                </div>
+                            </div>
+
+                            <h3 class="text-primary border-bottom pb-2 margin-top-2x mb-4">Required Documents</h3>
+
+                            <div class="line margin-bottom">
+                                <div class="margin">
+                                    <div class="s-12 m-12 l-4 margin-bottom">
+                                        <label class="text-strong">Student Photo * <small>(JPG/PNG)</small></label>
+                                        <input type="file" name="student_photo" accept=".png, .jpg, .jpeg"
+                                            class="border-radius" style="padding:8px; border:1px solid #ccc; width:100%"
+                                            required>
+                                    </div>
+                                    <div class="s-12 m-12 l-4 margin-bottom">
+                                        <label class="text-strong">Aadhar Card * <small>(PDF/JPG)</small></label>
+                                        <input type="file" name="aadhar_card" accept=".pdf, .png, .jpg, .jpeg"
+                                            class="border-radius" style="padding:8px; border:1px solid #ccc; width:100%"
+                                            required>
+                                    </div>
+                                    <div class="s-12 m-12 l-4 margin-bottom">
+                                        <label class="text-strong">Previous Marksheet / TC</label>
+                                        <input type="file" name="previous_marksheet" accept=".pdf, .png, .jpg, .jpeg"
+                                            class="border-radius"
+                                            style="padding:8px; border:1px solid #ccc; width:100%">
+                                    </div>
+                                </div>
+                            </div>
+
+                            {% if settings and settings.admission_fee > 0 and settings.payment_upi_id %}
+                            <h3 class="text-primary border-bottom pb-2 margin-top-2x mb-4">Admission Fee Payment</h3>
+                            <div class="line margin-bottom"
+                                style="background:#f9f9f9; padding:20px; border-radius:8px; border:1px solid #eee;">
+                                <div class="margin">
+                                    <div class="s-12 m-12 l-6 text-center">
+                                        <p class="text-strong text-size-16 mb-2">Admission Registration Fee: <span
+                                                class="text-primary">₹{{ settings.admission_fee }}</span></p>
+                                        <p class="text-size-12 margin-bottom">Please scan the QR code to pay the
+                                            admission fee via GPay, PhonePe, Paytm, or any UPI app.</p>
+                                        <img src="{{ url_for('public.generate_qr', upi_id=settings.payment_upi_id, amount=settings.admission_fee) }}"
+                                            alt="Payment QR Code"
+                                            style="max-width:200px; display:inline-block; border:1px solid #ccc; border-radius:10px; padding:10px; background:white;">
+                                    </div>
+                                    <div class="s-12 m-12 l-6">
+                                        <label class="text-strong margin-top" style="display:block;">Upload Payment
+                                            Screenshot *</label>
+                                        <p class="text-size-12 text-muted">Upload successful transaction receipt to
+                                            verify payment.</p>
+                                        <input type="file" name="payment_receipt" accept=".png, .jpg, .jpeg, .pdf"
+                                            class="border-radius margin-top-10"
+                                            style="padding:10px; border:1px solid #ccc; width:100%" required>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endif %}
+
+                            <div class="line margin-top-2x text-center">
+                                <button
+                                    class="submit-form button background-primary border-radius text-white text-size-16 padding-2x"
+                                    style="min-width: 250px;" type="submit">Submit Application</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+                {% endblock %}

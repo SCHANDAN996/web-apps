@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+{% block title %}Chairman Desk - JS Public School{% endblock %}
+
+{% block content %}
+
+{% if page and page.banner_image %}
+<div class="page-banner" style="width: 100%; height: 300px; overflow: hidden; position: relative;">
+    <img src="{{ url_for('static', filename=page.banner_image) }}" alt="{{ page.title }}"
+        style="width: 100%; height: 100%; object-fit: cover;">
+    <div
+        style="position: absolute; bottom: 0; left: 0; width: 100%; background: linear-gradient(transparent, rgba(0,0,0,0.7)); padding: 20px;">
+        <h1 style="color: white; margin: 0; padding-left: 20px; font-family: 'Outfit', sans-serif;">{{ page.title }}
+        </h1>
+    </div>
+</div>
+{% endif %}
+
+{% if page and page.content %}
+<div class="section background-white">
+    <div class="line">
+        <div class="margin">
+            {{ page.content | safe }}
+        </div>
+    </div>
+</div>
+{% else %}
+
+
+Content
+<article>
+    <header class="section background-primary text-center">
+        <h1 class="text-white margin-bottom-0 text-size-30 text-strong text-line-height-1">Chairman's Desk</h1>
+    </header>
+    <div class="section background-white">
+        <div class="line">
+            <h2 class="text-size-20 text-center"><strong>Message from Chairman</strong></h2>
+            <div class="line">
+                <div class="margin">
+                    <div class="s-12 m-12 l-6 margin-m-bottom-30">
+                        <div class="margin-bottom-20">
+                            <div align="center" class="s-12 l-12 margin-bottom-20">
+                                <img alt="" src="{{ url_for('static', filename='img/chairman.jpg') }}" />
+                            </div>
+                        </div>
+                        <h2 class="text-size-20 text-center margin-bottom-20"><strong>Dr. Vidhu Bhushan Singh</strong>
+                        </h2>
+                    </div>
+                    <div class="s-12 m-12 l-6 margin-m-bottom-30">
+                        <p class="margin-bottom-20 text-size-15 text-justify">J S Public School, stands committed to
+                            provide value- based quality education of global standards to the students. We all are aware
+                            that our country is the land of a very diverse and rich cultural heritage. With the advent
+                            of modern science and technology, a sea change has taken place in our society. The need of
+                            the hour, is thus, to provide an educational system which amalgamates the aspirations of the
+                            present generation without distorting our value system. Needless to stress, the educational
+                            system has to keep pace with the change in sociological order with an eye on scientific
+                            temper without hampering the spiritual growth.</p>
+                        <p class="margin-bottom-20 text-size-15 text-justify">J S Public School aims to do just that by
+                            providing a âholistic education for an integrated personality by striking an equilibrium
+                            between a modern outlook and traditional values.</p>
+                        <p class="margin-bottom-20 text-size-15 text-justify">It shall be our Endeavour to promote an
+                            educational ambience conducive to the growth of a child so that he metamorphoses from a mere
+                            physical form to an intellectual individual. The aim is to help students develop physical
+                            and spiritual facets of their personality on the right lines.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+
+
+{% endif %}
+{% endblock %}

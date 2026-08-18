@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDFKaro - Super PDF Compressor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #6C63FF;
+            --secondary: #FF6584;
+            --bg-color: #0f172a;
+            --surface: rgba(255, 255, 255, 0.05);
+            --surface-hover: rgba(255, 255, 255, 0.1);
+            --text: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(135deg, var(--bg-color), #1e1b4b);
+            color: var(--text);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Abstract Background blobs */
+        .blob {
+            position: absolute;
+            filter: blur(80px);
+            z-index: 0;
+            opacity: 0.5;
+            animation: float 10s ease-in-out infinite alternate;
+        }
+        .blob-1 {
+            width: 400px;
+            height: 400px;
+            background: var(--primary);
+            top: -100px;
+            left: -100px;
+            border-radius: 50%;
+        }
+        .blob-2 {
+            width: 500px;
+            height: 500px;
+            background: var(--secondary);
+            bottom: -150px;
+            right: -100px;
+            border-radius: 50%;
+            animation-delay: -5s;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0) scale(1); }
+            100% { transform: translateY(50px) scale(1.1); }
+        }
+
+        .container {
+            position: relative;
+            z-index: 10;
+            width: 90%;
+            max-width: 800px;
+            background: var(--surface);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 24px;
+            padding: 3rem;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(to right, #a78bfa, #f472b6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        p.subtitle {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            font-weight: 300;
+        }
+
+        .upload-area {
+            border: 2px dashed rgba(255, 255, 255, 0.2);
+            border-radius: 16px;
+            padding: 3rem 2rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            background: rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .upload-area.dragover {
+            border-color: var(--primary);
+            background: rgba(108, 99, 255, 0.1);
+            transform: scale(1.02);
+        }
+
+        .upload-icon {
+            width: 64px;
+            height: 64px;
+            fill: var(--text-muted);
+            transition: fill 0.3s ease;
+        }
+
+        .upload-area:hover .upload-icon {
+            fill: var(--primary);
+        }
+
+        .upload-area p {
+            font-size: 1.2rem;
+            color: var(--text);
+        }
+        
+        .upload-area span {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        input[type="file"] {
+            display: none;
+        }
+
+        .file-list {
+            margin-top: 2rem;
+            text-align: left;
+            max-height: 200px;
+            overflow-y: auto;
+            padding-right: 0.5rem;
+        }
+
+        .file-list::-webkit-scrollbar {
+            width: 6px;
+        }
+        .file-list::-webkit-scrollbar-thumb {
+            background: rgba(255,255,255,0.2);
+            border-radius: 6px;
+        }
+
+        .file-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.75rem 1rem;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 8px;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        .btn-compress {
+            margin-top: 2rem;
+            background: linear-gradient(135deg, #6C63FF, #FF6584);
+            color: white;
+            border: none;
+            padding: 1rem 3rem;
+            font-size: 1.2rem;
+            font-weight: 600;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 10px 20px -10px rgba(108, 99, 255, 0.5);
+            width: 100%;
+            display: none;
+        }
+
+        .btn-compress:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 25px -10px rgba(108, 99, 255, 0.7);
+        }
+
+        .btn-compress:active {
+            transform: translateY(0);
+        }
+
+        /* Loading UI */
+        .loading-container {
+            display: none;
+            margin-top: 2rem;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid rgba(255,255,255,0.1);
+            border-left-color: var(--primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .loading-text {
+            margin-top: 1rem;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <div class="container">
+        <h1>PDF Compressor</h1>
+        <p class="subtitle">Compress multiple PDFs to &lt; 250 KB automatically in one click</p>
+
+        <form id="uploadForm">
+            <div class="upload-area" id="dropZone" onclick="document.getElementById('fileInput').click()">
+                <svg class="upload-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19 13v5c0 1.103-.897 2-2 2H7c-1.103 0-2-.897-2-2v-5H3l8.5-8.5L20 13h-1zm-6-6v5h-2V7h2z"/>
+                </svg>
+                <p>Drag & Drop your PDFs here</p>
+                <span>or click to browse files</span>
+            </div>
+            
+            <input type="file" id="fileInput" name="pdfs" accept=".pdf" multiple>
+            
+            <div class="file-list" id="fileList"></div>
+
+            <button type="button" class="btn-compress" id="compressBtn">Compress PDFs Now</button>
+        </form>
+
+        <div class="loading-container" id="loadingContainer">
+            <div class="spinner"></div>
+            <div class="loading-text" id="loadingText">Compressing your PDFs exactly under 250KB... Please wait.</div>
+        </div>
+    </div>
+
+    <script>
+        const dropZone = document.getElementById('dropZone');
+        const fileInput = document.getElementById('fileInput');
+        const fileList = document.getElementById('fileList');
+        const compressBtn = document.getElementById('compressBtn');
+        const loadingContainer = document.getElementById('loadingContainer');
+        const uploadForm = document.getElementById('uploadForm');
+        let selectedFiles = [];
+
+        // Drag & Drop events
+        ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+            dropZone.addEventListener(eventName, preventDefaults, false);
+            document.body.addEventListener(eventName, preventDefaults, false);
+        });
+
+        function preventDefaults(e) {
+            e.preventDefault();
+            e.stopPropagation();
+        }
+
+        ['dragenter', 'dragover'].forEach(eventName => {
+            dropZone.addEventListener(eventName, () => dropZone.classList.add('dragover'), false);
+        });
+
+        ['dragleave', 'drop'].forEach(eventName => {
+            dropZone.addEventListener(eventName, () => dropZone.classList.remove('dragover'), false);
+        });
+
+        dropZone.addEventListener('drop', (e) => {
+            handleFiles(e.dataTransfer.files);
+        });
+
+        fileInput.addEventListener('change', (e) => {
+            handleFiles(e.target.files);
+        });
+
+        function handleFiles(files) {
+            files = [...files].filter(file => file.type === "application/pdf");
+            if(files.length > 0) {
+                selectedFiles = [...selectedFiles, ...files];
+                updateUI();
+            }
+        }
+
+        function updateUI() {
+            fileList.innerHTML = '';
+            selectedFiles.forEach((file, index) => {
+                const doc = document.createElement('div');
+                doc.className = 'file-item';
+                
+                const sizeKB = (file.size / 1024).toFixed(1);
+                
+                doc.innerHTML = `
+                    <span>📄 ${file.name}</span>
+                    <span style="color: var(--text-muted)">${sizeKB} KB</span>
+                `;
+                fileList.appendChild(doc);
+            });
+
+            if(selectedFiles.length > 0) {
+                compressBtn.style.display = 'block';
+            } else {
+                compressBtn.style.display = 'none';
+            }
+        }
+
+        compressBtn.addEventListener('click', async () => {
+            if(selectedFiles.length === 0) return;
+
+            // UI Changes
+            compressBtn.style.display = 'none';
+            dropZone.style.display = 'none';
+            loadingContainer.style.display = 'flex';
+
+            const formData = new FormData();
+            selectedFiles.forEach(file => {
+                formData.append('pdfs', file);
+            });
+
+            try {
+                const response = await fetch('/compress', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                if(!response.ok) {
+                    throw new Error('Compression failed');
+                }
+
+                // Download the file
+                const blob = await response.blob();
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'compressed_pdfs.zip';
+                document.body.appendChild(a);
+                a.click();
+                a.remove();
+                
+                document.getElementById('loadingText').innerText = "Compression Success! Download started.";
+                document.querySelector('.spinner').style.display = "none";
+                
+                setTimeout(() => {
+                    // Reset UI
+                    selectedFiles = [];
+                    updateUI();
+                    dropZone.style.display = 'flex';
+                    loadingContainer.style.display = 'none';
+                    document.getElementById('loadingText').innerText = "Compressing your PDFs exactly under 250KB... Please wait.";
+                    document.querySelector('.spinner').style.display = "block";
+                }, 3000);
+
+            } catch (error) {
+                alert("Error during compression. Please try again.");
+                compressBtn.style.display = 'block';
+                dropZone.style.display = 'flex';
+                loadingContainer.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>

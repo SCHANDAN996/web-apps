@@ -1,0 +1,39 @@
+{% extends 'admin/admin_base.html' %}
+{% block title %}Job Applications{% endblock %}
+{% block page_header %}Job Applications (Careers){% endblock %}
+
+{% block admin_content %}
+<div class="dashboard-section">
+    <h2>Recent Job Applications</h2>
+    {% if careers %}
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Applicant Name</th>
+                <th>Contact</th>
+                <th>Position Applied</th>
+                <th>Resume Link</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in careers %}
+            <tr>
+                <td><strong>{{ item.name }}</strong></td>
+                <td>{{ item.phone }}<br><small style="color: #888;">{{ item.email }}</small></td>
+                <td><span
+                        style="background: #e1f5fe; color: #0288d1; padding: 3px 8px; border-radius: 4px; font-size: 12px;">{{
+                        item.position }}</span></td>
+                <td><a href="{{ item.resume_link }}" target="_blank"
+                        style="color: var(--primary); text-decoration: none; font-weight: 600;"><i
+                            class="fa-solid fa-link"></i> View CV</a></td>
+                <td>{{ item.date.split()[0] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% else %}
+    <p style="color: #666; font-style: italic;">No job applications yet.</p>
+    {% endif %}
+</div>
+{% endblock %}

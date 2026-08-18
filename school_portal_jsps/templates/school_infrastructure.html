@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% block title %}School Infra - JS Public School{% endblock %}
+
+{% block content %}
+
+{% if page and page.banner_image %}
+<div class="page-banner" style="width: 100%; height: 300px; overflow: hidden; position: relative;">
+    <img src="{{ url_for('static', filename=page.banner_image) }}" alt="{{ page.title }}"
+        style="width: 100%; height: 100%; object-fit: cover;">
+    <div
+        style="position: absolute; bottom: 0; left: 0; width: 100%; background: linear-gradient(transparent, rgba(0,0,0,0.7)); padding: 20px;">
+        <h1 style="color: white; margin: 0; padding-left: 20px; font-family: 'Outfit', sans-serif;">{{ page.title }}
+        </h1>
+    </div>
+</div>
+{% endif %}
+
+{% if page and page.content %}
+<div class="section background-white">
+    <div class="line">
+        <div class="margin">
+            {{ page.content | safe }}
+        </div>
+    </div>
+</div>
+{% else %}
+
+
+Content
+<article>
+    <header class="section background-primary text-center">
+        <h1 class="text-white margin-bottom-0 text-size-30 text-strong text-line-height-1">School Infrastructure</h1>
+    </header>
+    <div class="section background-white">
+        <div class="line">
+            <div class="margin">
+                <div class="s-12 l-12">
+                    <iframe height="800" src="cbse/infrastructure.pdf" type="application/pdf" width="100%"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+
+
+{% endif %}
+{% endblock %}

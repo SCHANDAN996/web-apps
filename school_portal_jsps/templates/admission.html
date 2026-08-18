@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+{% block title %}Admissions - JS Public School{% endblock %}
+
+{% block content %}
+<article>
+    <header class="section background-primary text-center">
+        <h1 class="text-white margin-bottom-0 text-size-30 text-strong text-line-height-1">Admissions 2026-27</h1>
+        <p class="text-white">Take the first step towards a bright future.</p>
+    </header>
+    <div class="section background-white">
+        <div class="line">
+            <div class="margin">
+                <div class="s-12 m-12 l-7 margin-m-bottom-2x">
+                    <h2 class="text-uppercase text-strong margin-bottom-30">Online Admission Inquiry</h2>
+                    <form class="customform" action="{{ url_for('public.admission') }}" method="POST">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+                        <div class="line">
+                            <div class="margin">
+                                <div class="s-12 m-12 l-6">
+                                    <input name="student_name" class="name border-radius"
+                                        placeholder="Student's Full Name *" title="Student's Name" type="text"
+                                        required />
+                                </div>
+                                <div class="s-12 m-12 l-6">
+                                    <input name="parent_name" class="name border-radius"
+                                        placeholder="Parent's/Guardian's Name *" title="Parent's Name" type="text"
+                                        required />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="line">
+                            <div class="margin">
+                                <div class="s-12 m-12 l-6">
+                                    <input name="phone" class="mobile border-radius" placeholder="Phone Number *"
+                                        title="Phone Number" type="tel" required />
+                                </div>
+                                <div class="s-12 m-12 l-6">
+                                    <select name="class_applied" class="border-radius margin-bottom-20" required
+                                        style="padding: 10px; width: 100%; border: 1px solid rgba(0, 38, 51, 0.15); background: #fff; color: inherit;">
+                                        <option value="" disabled selected>Class Applied For *</option>
+                                        <option value="Nursery">Nursery</option>
+                                        <option value="LKG">LKG</option>
+                                        <option value="UKG">UKG</option>
+                                        <option value="Class 1">Class 1</option>
+                                        <option value="Class 2 to 5">Class 2 to 5</option>
+                                        <option value="Class 6 to 8">Class 6 to 8</option>
+                                        <option value="Class 9">Class 9</option>
+                                        <option value="Class 11 (Science)">Class 11 (Science streams)</option>
+                                        <option value="Class 11 (Commerce)">Class 11 (Commerce streams)</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="s-12 m-12 l-6">
+                            <button class="submit-form button background-primary border-radius text-white"
+                                type="submit">Submit Inquiry</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="s-12 m-12 l-5">
+                    <h3 class="text-uppercase text-primary text-size-14 letter-spacing-2">Admission Process</h3>
+                    <p class="margin-bottom-20 text-size-16">
+                        Our admission process is simple and transparent. After filling this inquiry form, our front desk
+                        will
+                        contact you to schedule an interaction session and a campus tour.
+                    </p>
+                    <a class="button border-radius background-dark text-white margin-top-20" href="#">Download detailed
+                        e-Prospectus (PDF)</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+{% endblock %}

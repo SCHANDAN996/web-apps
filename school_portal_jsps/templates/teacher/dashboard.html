@@ -1,0 +1,25 @@
+{% extends 'teacher/base.html' %}
+{% block title %}Dashboard{% endblock %}
+{% block teacher_content %}
+<div class="panel">
+    <h2 style="margin-top:0;">Welcome, {{ teacher.full_name }}</h2>
+    <p>Subject: {{ teacher.subject or 'General' }} | Classes: {{ classes|join(', ') if classes else 'None assigned' }}</p>
+</div>
+<div class="grid">
+    <div class="panel"><h3>{{ students_count }}</h3><p>Assigned Students</p></div>
+    <div class="panel"><h3>{{ assignments|length }}</h3><p>Recent Assignments</p></div>
+</div>
+<div class="panel">
+    <h3>Recent Assignments</h3>
+    <table>
+        <thead><tr><th>Class</th><th>Title</th><th>Subject</th><th>Due</th></tr></thead>
+        <tbody>
+        {% for item in assignments %}
+        <tr><td>{{ item.target_class }}</td><td>{{ item.title }}</td><td>{{ item.subject }}</td><td>{{ item.due_date.strftime('%d %b') if item.due_date else '-' }}</td></tr>
+        {% else %}
+        <tr><td colspan="4">No assignments yet.</td></tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

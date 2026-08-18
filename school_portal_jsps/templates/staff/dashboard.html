@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Dashboard - JSPS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root { --navy:#10243e; --teal:#1b8a8f; --amber:#f2b84b; --ink:#17212f; --muted:#6f7d8f; --panel:rgba(255,255,255,.88); }
+        * { box-sizing:border-box; }
+        body { margin:0; min-height:100vh; font-family:Inter,sans-serif; color:var(--ink); background:linear-gradient(135deg,#f7fbfc,#edf3f5 52%,#f7f0e4); }
+        .topbar { position:sticky; top:0; z-index:5; display:flex; justify-content:space-between; align-items:center; gap:16px; padding:16px 24px; background:rgba(16,36,62,.96); color:white; box-shadow:0 14px 34px rgba(16,36,62,.18); }
+        .topbar strong { font-family:Outfit,sans-serif; font-size:20px; }
+        .topbar a { color:white; text-decoration:none; background:rgba(255,255,255,.12); padding:9px 12px; border-radius:8px; }
+        .wrap { max-width:1180px; margin:28px auto; padding:0 18px; }
+        .hero, .card { background:var(--panel); border:1px solid rgba(255,255,255,.75); border-radius:10px; box-shadow:0 22px 58px rgba(16,36,62,.12); backdrop-filter:blur(16px); animation:fadeUp .42s ease both; }
+        .hero { padding:24px; margin-bottom:22px; }
+        h1, h2, h3 { font-family:Outfit,sans-serif; color:var(--navy); margin-top:0; }
+        p { color:var(--muted); line-height:1.6; }
+        .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:16px; }
+        .card { padding:18px; }
+        .stat { display:flex; gap:14px; align-items:center; }
+        .icon { width:48px; height:48px; border-radius:8px; display:grid; place-items:center; color:white; background:linear-gradient(135deg,var(--teal),var(--navy)); }
+        .stat b { display:block; font-size:28px; font-family:Outfit,sans-serif; }
+        .actions { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:14px; margin-top:22px; }
+        .action { display:flex; align-items:center; gap:12px; padding:16px; border-radius:10px; background:white; color:var(--navy); text-decoration:none; border:1px solid rgba(16,36,62,.08); transition:.18s ease; }
+        .action:hover { transform:translateY(-2px); box-shadow:0 16px 30px rgba(16,36,62,.12); }
+        .action i { color:var(--teal); }
+        @keyframes fadeUp { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:translateY(0); } }
+    </style>
+</head>
+<body>
+    <div class="topbar">
+        <strong><i class="fa-solid fa-briefcase"></i> JSPS Staff Workspace</strong>
+        <a href="{{ url_for('auth.logout') }}"><i class="fa-solid fa-right-from-bracket"></i> Logout</a>
+    </div>
+    <main class="wrap">
+        <section class="hero">
+            <h1>Welcome, {{ staff.full_name if staff else 'Staff Member' }}</h1>
+            <p>{{ staff.designation if staff else 'School Operations' }} | Permissions: {{ permissions|join(', ') if permissions else 'Standard office access' }}</p>
+        </section>
+
+        <section class="grid">
+            <div class="card stat"><div class="icon"><i class="fa-solid fa-children"></i></div><div><b>{{ stats.students }}</b><span>Students</span></div></div>
+            <div class="card stat"><div class="icon"><i class="fa-solid fa-user-graduate"></i></div><div><b>{{ stats.online_admissions }}</b><span>Pending Admissions</span></div></div>
+            <div class="card stat"><div class="icon"><i class="fa-solid fa-file-invoice-dollar"></i></div><div><b>{{ stats.pending_fees }}</b><span>Pending Fees</span></div></div>
+            <div class="card stat"><div class="icon"><i class="fa-solid fa-comments"></i></div><div><b>{{ stats.open_messages }}</b><span>Open Messages</span></div></div>
+        </section>
+
+        <section class="hero" style="margin-top:22px;">
+            <h2>Quick Work Access</h2>
+            <div class="actions">
+                <a class="action" href="{{ url_for('admin.admin_online_admissions') }}"><i class="fa-solid fa-user-check"></i> Online Admissions</a>
+                <a class="action" href="{{ url_for('admin_auto.manage_students') }}"><i class="fa-solid fa-children"></i> Student Records</a>
+                <a class="action" href="{{ url_for('admin_erp.attendance') }}"><i class="fa-solid fa-clipboard-check"></i> Attendance</a>
+                <a class="action" href="{{ url_for('admin_erp.fee_invoices') }}"><i class="fa-solid fa-file-invoice-dollar"></i> Fee Ledger</a>
+                <a class="action" href="{{ url_for('admin.admin_fee_records') }}"><i class="fa-solid fa-receipt"></i> Fee Receipts</a>
+                <a class="action" href="{{ url_for('admin_erp.messages') }}"><i class="fa-solid fa-comments"></i> Parent Messages</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

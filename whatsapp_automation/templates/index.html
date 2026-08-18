@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Auto-Engine - Premium</title>
+    <style>
+        :root {
+            --bg-dark: #0f172a;
+            --bg-card: rgba(30, 41, 59, 0.7);
+            --primary: #10b981;
+            --primary-hover: #059669;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent: #3b82f6;
+            --danger: #ef4444;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: 
+                radial-gradient(circle at 15% 50%, rgba(16, 185, 129, 0.15), transparent 25%),
+                radial-gradient(circle at 85% 30%, rgba(59, 130, 246, 0.15), transparent 25%);
+            padding: 20px;
+        }
+
+        .main-container {
+            width: 100%;
+            max-width: 1200px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            height: 90vh;
+        }
+        
+        @media (max-width: 900px) {
+            .main-container {
+                grid-template-columns: 1fr;
+                height: auto;
+            }
+        }
+
+        .glass-panel {
+            background: var(--bg-card);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 28px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        h2.title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 24px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #fff;
+        }
+
+        .form-group { margin-bottom: 18px; }
+        .form-group label {
+            display: block; margin-bottom: 8px; font-size: 0.9rem; font-weight: 500; color: var(--text-muted);
+        }
+
+        .form-group input, .form-group textarea {
+            width: 100%; padding: 12px 16px; background: rgba(15, 23, 42, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 10px;
+            color: var(--text-main); font-size: 1rem; transition: all 0.3s ease;
+        }
+
+        .form-group input:focus, .form-group textarea:focus {
+            outline: none; border-color: var(--primary); box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.2);
+        }
+
+        .form-group textarea { resize: vertical; min-height: 100px; }
+        
+        input[type="file"] {
+            border: 1px dashed rgba(255, 255, 255, 0.2); padding: 20px; text-align: center;
+            cursor: pointer; background: rgba(255,255,255,0.02); color: var(--text-muted);
+        }
+        
+        input[type="file"]::-webkit-file-upload-button { visibility: hidden; display: none; }
+        input[type="file"]::before {
+            content: 'Select Multiple Files';
+            display: inline-block; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 6px; padding: 8px 12px; outline: none; white-space: nowrap; cursor: pointer;
+            font-weight: 500; color: white; margin-right: 15px;
+        }
+
+        .submit-btn {
+            background: linear-gradient(135deg, var(--primary), var(--primary-hover));
+            color: white; border: none; padding: 14px; width: 100%; border-radius: 10px;
+            font-size: 1.1rem; font-weight: 600; cursor: pointer; transition: transform 0.2s, box-shadow 0.2s;
+            margin-top: 10px;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px); box-shadow: 0 10px 20px -10px var(--primary);
+        }
+
+        .dashboard-section { display: flex; flex-direction: column; gap: 20px; height: 100%; }
+        
+        .box-panel {
+            background: rgba(15, 23, 42, 0.5); border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 12px; padding: 16px; flex: 1; overflow-y: auto;
+        }
+        
+        .box-header {
+            display: flex; justify-content: space-between; align-items: center;
+            margin-bottom: 12px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px;
+        }
+
+        .box-title { color: white; font-size: 1rem; font-weight: 600; }
+        .refresh-btn { background: transparent; color: var(--accent); border: none; cursor: pointer; font-weight: 600; font-size: 0.85rem;}
+        
+        table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+        th { text-align: left; padding: 8px; color: var(--text-muted); font-weight: 500; }
+        td { padding: 10px 8px; border-top: 1px solid rgba(255,255,255,0.05); vertical-align: top;}
+        
+        .cancel-btn {
+            background: rgba(239, 68, 68, 0.2); color: #fca5a5; border: 1px solid rgba(239, 68, 68, 0.5);
+            padding: 4px 8px; border-radius: 4px; cursor: pointer; font-size: 0.75rem; transition: 0.2s;
+        }
+        .cancel-btn:hover { background: rgba(239, 68, 68, 0.4); }
+
+        #toast {
+            position: fixed; top: 20px; right: 20px; background: #10b981; color: white; padding: 12px 24px;
+            border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.3); transform: translateX(150%);
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); z-index: 1000; font-weight: 500;
+        }
+        
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.1); border-radius: 10px; }
+        
+        ::-webkit-calendar-picker-indicator { opacity: 0.7; cursor: pointer; transition: 0.2s;}
+        ::-webkit-calendar-picker-indicator:hover { opacity: 1; }
+        
+        .badge {
+            background: rgba(59, 130, 246, 0.2); color: #93c5fd; padding: 3px 10px; border-radius: 12px;
+            font-size: 0.75rem; float: right; margin-top: -2px; transition: 0.3s;
+        }
+        .warning-box {
+            margin-top:15px; padding: 12px; background: rgba(59, 130, 246, 0.1); 
+            border: 1px solid rgba(59, 130, 246, 0.2); border-radius: 8px; font-size: 0.8rem; color: #bae6fd;
+        }
+    </style>
+</head>
+<body>
+    <div id="toast">Ready</div>
+
+    <div class="main-container">
+        <!-- Unified Send Form -->
+        <div class="glass-panel">
+            <h2 class="title">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"></path><path d="M22 2l-7 20-4-9-9-4 20-7z"></path></svg>
+                Deploy WhatsApp Action
+            </h2>
+            
+            <div style="flex:1; overflow-y: auto; padding-right: 5px;">
+                <div class="form-group">
+                    <label>Target 
+                        <span id="target-badge" class="badge">Type to Auto-detect</span>
+                    </label>
+                    <input type="text" id="target" placeholder="Phone No (10-digits) or Group Invite ID (AB123...)" oninput="detectTarget()">
+                </div>
+
+                <div class="form-group">
+                    <label>Schedule Task <span style="font-size: 0.8rem; color: var(--text-muted);">(Leave Time empty for Instant Deploy)</span></label>
+                    <div style="display: flex; gap: 15px;">
+                        <div style="flex: 1; position: relative;">
+                            <span style="position:absolute; left:14px; top:12px; font-size:1.1rem;">📅</span>
+                            <input type="date" id="date" style="padding-left: 45px; color-scheme: dark; font-weight: 500;">
+                        </div>
+                        <div style="flex: 1; position: relative;">
+                            <span style="position:absolute; left:14px; top:12px; font-size:1.1rem;">⏰</span>
+                            <input type="time" id="time" style="padding-left: 45px; color-scheme: dark; font-weight: 500;">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Attach Documents / Media <span style="font-size: 0.8rem; color: var(--text-muted);">(Optional)</span></label>
+                    <input type="file" id="files" multiple="multiple">
+                    <small id="file-count" style="display:block; margin-top:6px; color: var(--primary); font-size: 0.85rem; font-weight: 500;"></small>
+                </div>
+
+                <div class="form-group">
+                    <label>Text Message / Image Caption</label>
+                    <textarea id="message" placeholder="Type your core message here..."></textarea>
+                </div>
+            </div>
+
+            <button class="submit-btn" id="send-btn" onclick="sendData()">Execute Task</button>
+            <div class="warning-box">
+                <strong>Attention:</strong> Automation hijacks the mouse momentarily. Please do not interrupt the computer screen when it runs!
+            </div>
+        </div>
+
+        <!-- Dashboard Panel -->
+        <div class="glass-panel dashboard-section">
+            
+            <!-- Pending Queue -->
+            <div class="box-panel">
+                <div class="box-header">
+                    <span class="box-title">⏳ Pending Queue</span>
+                    <button class="refresh-btn" onclick="loadPending()">↻ Refresh</button>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Trigger Time</th>
+                            <th>Target</th>
+                            <th>Cancel</th>
+                        </tr>
+                    </thead>
+                    <tbody id="pending-body">
+                        <tr><td colspan="3" style="text-align:center; padding: 15px; color:#64748b;">Loading queue...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- History Logs -->
+            <div class="box-panel">
+                <div class="box-header">
+                    <span class="box-title">📜 Action History</span>
+                    <button class="refresh-btn" onclick="loadHistory()">↻ Refresh</button>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Target Info</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="history-body">
+                        <tr><td colspan="3" style="text-align:center; padding: 15px; color:#64748b;">Loading history...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+        <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            loadPending();
+            loadHistory();
+            
+            // Auto-fill today's date
+            const today = new Date();
+            const yyyy = today.getFullYear();
+            const mm = String(today.getMonth() + 1).padStart(2, '0');
+            const dd = String(today.getDate()).padStart(2, '0');
+            document.getElementById('date').value = `${yyyy}-${mm}-${dd}`;
+            
+            // Auto-refresh loops
+            setInterval(() => loadPending(), 15000);
+            
+            document.getElementById('files').addEventListener('change', function(e) {
+                const count = e.target.files.length;
+                document.getElementById('file-count').innerText = count > 0 ? `📁 ${count} file(s) ready for clipboard insertion` : '';
+            });
+        });
+
+        function detectTarget() {
+            const val = document.getElementById('target').value.replace(/ /g,'').replace(/-/g,'');
+            const badge = document.getElementById('target-badge');
+            if(val === '') {
+                badge.innerText = 'Type to Auto-detect';
+                badge.style.background = 'rgba(59, 130, 246, 0.2)'; badge.style.color = '#93c5fd';
+            } else if (/^\+?[0-9]+$/.test(val)) {
+                badge.innerText = '📱 Direct Message';
+                badge.style.background = 'rgba(16, 185, 129, 0.2)'; badge.style.color = '#6ee7b7';
+            } else {
+                badge.innerText = '👥 Group Broadcast';
+                badge.style.background = 'rgba(245, 158, 11, 0.2)'; badge.style.color = '#fcd34d';
+            }
+        }
+
+        function showToast(msg, isError=false) {
+            const t = document.getElementById('toast');
+            t.innerText = msg;
+            t.style.background = isError ? '#ef4444' : '#10b981';
+            t.style.transform = 'translateX(0)';
+            setTimeout(() => { t.style.transform = 'translateX(150%)'; }, 4000);
+        }
+
+        async function sendData() {
+            const btn = document.getElementById('send-btn');
+            const target = document.getElementById('target').value;
+            const dateVal = document.getElementById('date').value;
+            const timeVal = document.getElementById('time').value;
+            const time = timeVal ? `${dateVal}T${timeVal}` : '';
+            const message = document.getElementById('message').value;
+            const files = document.getElementById('files').files;
+
+            if(!target) return showToast('Error: Target is required!', true);
+            if(!message && files.length === 0) return showToast('Error: Provide message or files!', true);
+
+            btn.innerText = 'Dispatching Backend...';
+            btn.disabled = true;
+
+            const formData = new FormData();
+            formData.append('target', target);
+            formData.append('message', message);
+            formData.append('time', time);
+            for(let i=0; i<files.length; i++) formData.append('files', files[i]);
+
+            try {
+                const res = await fetch('/api/send', { method: 'POST', body: formData });
+                const data = await res.json();
+                showToast(data.message || data.error, !data.success);
+                
+                if(data.success) {
+                    document.getElementById('message').value = '';
+                    document.getElementById('files').value = '';
+                    document.getElementById('file-count').innerText = '';
+                    setTimeout(() => { loadPending(); loadHistory(); }, 500);
+                }
+            } catch(e) { showToast('Connection Error. Ensure python is running.', true); }
+            
+            btn.innerText = 'Execute Task';
+            btn.disabled = false;
+        }
+
+        async function loadPending() {
+            const tbody = document.getElementById('pending-body');
+            try {
+                const res = await fetch('/api/pending');
+                const data = await res.json();
+                
+                if(data.length === 0) {
+                    tbody.innerHTML = '<tr><td colspan="3" style="text-align:center; padding:15px; color:#64748b;">Queue is empty</td></tr>'; return;
+                }
+                
+                tbody.innerHTML = '';
+                data.forEach(item => {
+                    const row = `
+                        <tr>
+                            <td style="color:#fcd34d;">${item.time}</td>
+                            <td><strong style="color:white">${item.target}</strong><br><span style="font-size:0.75rem;color:#94a3b8">${item.type}</span></td>
+                            <td><button class="cancel-btn" onclick="cancelTask('${item.id}')">Drop</button></td>
+                        </tr>
+                    `;
+                    tbody.innerHTML += row;
+                });
+            } catch(e) {}
+        }
+
+        async function cancelTask(id) {
+            try {
+                const res = await fetch(`/api/pending/${id}`, { method: 'DELETE' });
+                const data = await res.json();
+                showToast(data.message || data.error, !data.success);
+                loadPending(); loadHistory();
+            } catch(e) { showToast('Error cancelling task', true); }
+        }
+
+        async function loadHistory() {
+            const tbody = document.getElementById('history-body');
+            try {
+                const res = await fetch('/api/history');
+                const data = await res.json();
+                if(data.length === 0) {
+                    tbody.innerHTML = '<tr><td colspan="3" style="text-align:center; padding:15px; color:#64748b;">No History found</td></tr>'; return;
+                }
+                
+                tbody.innerHTML = '';
+                data.forEach(item => {
+                    const statusColor = item.status==='Sent' ? '#34d399' : (item.status==='Cancelled' ? '#94a3b8' : '#ef4444');
+                    const row = `
+                        <tr>
+                            <td>${item.time.split(' ')[1]}<br><span style="font-size:0.7rem;color:#64748b;">${item.time.split(' ')[0]}</span></td>
+                            <td><strong style="color:white">${item.target}</strong><br><span style="font-size:0.75rem;color:#94a3b8">${item.type}</span></td>
+                            <td style="color: ${statusColor}; font-weight:500;">${item.status}</td>
+                        </tr>
+                    `;
+                    tbody.innerHTML += row;
+                });
+            } catch(e) {}
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% block title %}Feedback - JS PUBLIC SCHOOL{% endblock %}
+
+{% block content %}
+
+ Content 
+<article>
+<header class="section background-primary text-center">
+<h1 class="text-white margin-bottom-0 text-size-30 text-strong text-line-height-1">Feedback Form</h1>
+</header>
+<div class="section background-white">
+<div class="line">
+<div class="margin">
+<!-- Feedback Form -->
+<div class="s-12 m-12 l-12">
+<h2 class="text-uppercase text-strong margin-bottom-30">Contact Us</h2>
+<form class="customform">
+<div class="line">
+<div class="s-12 m-12 l-6">
+<input class="name border-radius" name="name" placeholder="Your name" title="Your name" type="text"/>
+</div>
+</div>
+<div class="line">
+<div class="s-12 m-12 l-6">
+<input class="required email border-radius" name="email" placeholder="Your e-mail" title="Your e-mail" type="text"/>
+</div>
+</div>
+<div class="line">
+<div class="s-12 m-12 l-6">
+<input class="mobile border-radius" name="mobile" placeholder="Mobile" title="Mobile" type="number"/>
+</div>
+</div>
+<div class="line">
+<div class="s-12 m-12 l-6">
+<textarea class="required message border-radius" name="message" placeholder="Your message" rows="10"></textarea>
+</div>
+</div>
+<div class="line">
+<div class="s-12 m-12 l-4"><button class="submit-form button background-primary border-radius text-white" type="submit">Submit</button></div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div class="background-primary padding text-center">
+<a href="https://www.facebook.com/jspschandauli" target="_blank"><i class="icon-facebook_circle icon2x text-white"></i></a>
+<a href="https://twitter.com/jspschandauli" target="_blank"><i class="icon-twitter_circle icon2x text-white"></i></a>
+<a href="https://www.instagram.com/jspschandauli/" target="_blank"><i class="icon-instagram_circle icon2x text-white"></i></a>
+<a href="/"><i class="icon-linked_in_circle icon2x text-white"></i></a>
+</div>
+
+{% endblock %}

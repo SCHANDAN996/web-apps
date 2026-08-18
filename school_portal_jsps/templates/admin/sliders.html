@@ -1,0 +1,85 @@
+{% extends 'admin/admin_base.html' %}
+{% block title %}Hero Sliders Manager - Admin Dashboard{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Homepage Sliders Manager</h1>
+</div>
+
+<div class="row mb-5">
+    <div class="col-md-5">
+        <div class="card shadow-sm">
+            <div class="card-header bg-primary text-white">
+                <i class="fa-solid fa-cloud-upload-alt"></i> Upload New Slider
+            </div>
+            <div class="card-body">
+                <form method="POST" action="{{ url_for('admin.admin_sliders') }}" enctype="multipart/form-data">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+                    <div class="mb-3">
+                        <label class="form-label fw-bold">Select Banner Image</label>
+                        <input type="file" class="form-control" name="image" required accept="image/*">
+                        <small class="text-muted">Recommended size: 1920x800px. Formats: JPG, PNG, WEBP.</small>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label fw-bold">Primary Title (Optional)</label>
+                        <input type="text" class="form-control" name="title" placeholder="e.g. JS PUBLIC SCHOOL">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label fw-bold">Subtitle Element (Optional)</label>
+                        <textarea class="form-control" name="subtitle" rows="2" placeholder="e.g. A Flagship of Jhamar Singh Educational Trust"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100 fw-bold">Upload Slider & Save</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-7">
+        <div class="card shadow-sm">
+            <div class="card-header bg-white">
+                <h5 class="mb-0 text-primary">Active Sliders</h5>
+            </div>
+            <div class="card-body">
+                {% if sliders %}
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Preview</th>
+                                <th>Overlay Text Details</th>
+                                <th class="text-end">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for slider in sliders %}
+                            <tr>
+                                <td style="width: 150px;">
+                                    <img src="{{ url_for('static', filename=slider.image_path) }}" alt="Slider Image" class="img-thumbnail" style="max-height: 80px; object-fit: cover; width: 100%;">
+                                </td>
+                                <td>
+                                    {% if slider.title %}<strong>{{ slider.title }}</strong><br>{% endif %}
+                                    <small class="text-muted">{{ slider.subtitle }}</small>
+                                </td>
+                                <td class="text-end">
+                                    <form method="POST" action="{{ url_for('admin.delete_slider', slider_id=slider.id) }}" onsubmit="return confirm('Are you sure you want to delete this slider image? This cannot be undone.');">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+                                        <button type="submit" class="btn btn-sm btn-outline-danger">
+                                            <i class="fa-solid fa-trash"></i> Delete
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                {% else %}
+                <div class="alert alert-warning text-center">
+                    <i class="fa-solid fa-info-circle"></i> No sliders uploaded yet. Upload your first homepage banner to the left!
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

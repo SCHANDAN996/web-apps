@@ -1,0 +1,54 @@
+{% extends 'admin/admin_base.html' %}
+{% block title %}Photo Gallery{% endblock %}
+{% block page_header %}Upload to Photo Gallery{% endblock %}
+
+{% block admin_content %}
+<div class="dashboard-section" style="max-width: 600px;">
+    <h2>Upload New Photo</h2>
+    <form action="{{ url_for('admin.upload_photo') }}" method="POST" enctype="multipart/form-data">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+        <div class="form-group">
+            <label>Select Photo (JPG, PNG)</label>
+            <input type="file" name="photo" class="form-control" accept="image/png, image/jpeg, image/jpg, image/gif"
+                required style="padding: 10px; background: #fafafa;">
+        </div>
+        <div class="form-group">
+            <label>Photo Category</label>
+            <select name="category" class="form-control" required>
+                <option value="All" selected>All</option>
+                <option value="Annual Function">Annual Function</option>
+                <option value="Sports Day">Sports Day</option>
+                <option value="Infrastructure">Infrastructure</option>
+            </select>
+        </div>
+        <button type="submit" class="btn-submit" style="background: #20bf6b; width: 100%;"><i
+                class="fa-solid fa-upload"></i> Upload & Save</button>
+    </form>
+</div>
+
+<div class="dashboard-section mt-4">
+    <h2>Uploaded Photos</h2>
+    {% if photos %}
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px;">
+        {% for photo in photos %}
+        <div style="border: 1px solid #ddd; border-radius: 8px; overflow: hidden; position: relative;">
+            <img src="{{ url_for('static', filename='images/gallery/' + photo.filename) }}" alt="Gallery Image"
+                style="width: 100%; height: 150px; object-fit: cover;">
+            <div
+                style="padding: 10px; background: #fff; display: flex; justify-content: space-between; align-items: center;">
+                <span class="badge bg-secondary">{{ photo.category }}</span>
+                <form action="{{ url_for('admin.delete_photo', photo_id=photo.id) }}" method="POST"
+                    onsubmit="return confirm('Are you sure you want to delete this photo?');" style="margin: 0;">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+                    <button type="submit" class="btn btn-sm btn-outline-danger" title="Delete Photo"
+                        style="border: none; padding: 5px;"><i class="fa-solid fa-trash"></i></button>
+                </form>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% else %}
+    <div class="alert alert-info border-0"><i class="fa-solid fa-info-circle"></i> No photos uploaded yet.</div>
+    {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,82 @@
+{% extends 'admin/admin_base.html' %}
+{% block title %}Fee Records - Admin Dashboard{% endblock %}
+
+{% block page_header %}Fee Records (Online Payments){% endblock %}
+
+{% block admin_content %}
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Fee Records (Online Payments)</h1>
+</div>
+
+<div class="card shadow-sm mb-4">
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle">
+                <thead class="table-light">
+                    <tr>
+                        <th>Date</th>
+                        <th>Student Name</th>
+                        <th>Admission No</th>
+                        <th>Class</th>
+                        <th>Amount Paid</th>
+                        <th>Status</th>
+                        <th>Receipt</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for fee in fees %}
+                    <tr>
+                        <td>{{ fee.payment_date.strftime('%Y-%m-%d') }}</td>
+                        <td><strong>{{ fee.student_name }}</strong></td>
+                        <td>{{ fee.admission_no }}</td>
+                        <td>{{ fee.class_name }}</td>
+                        <td><strong class="text-success">₹{{ fee.amount_paid }}</strong></td>
+                        <td>
+                            {% if fee.payment_status == 'Pending' %}
+                            <span class="badge bg-warning text-dark">Pending</span>
+                            {% elif fee.payment_status == 'Approved' %}
+                            <span class="badge bg-success">Approved</span>
+                            {% else %}
+                            <span class="badge bg-danger">Rejected</span>
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if fee.payment_receipt %}
+                            <a href="/static/{{ fee.payment_receipt }}" target="_blank"
+                                class="btn btn-sm btn-outline-primary"><i class="fa-solid fa-eye"></i> View Receipt</a>
+                            {% else %}
+                            <span class="text-muted">No Receipt</span>
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if fee.payment_status == 'Pending' %}
+                            <div class="btn-group btn-group-sm">
+                                <form action="{{ url_for('admin.approve_fee', fee_id=fee.id) }}" method="POST"
+                                    style="display:inline;">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+                                    <button type="submit" class="btn btn-success"><i class="fa-solid fa-check"></i>
+                                        Approve</button>
+                                </form>
+                                <form action="{{ url_for('admin.reject_fee', fee_id=fee.id) }}" method="POST"
+                                    style="display:inline;">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+                                    <button type="submit" class="btn btn-danger"
+                                        onclick="return confirm('Are you sure you want to reject this payment?');"><i
+                                            class="fa-solid fa-times"></i> Reject</button>
+                                </form>
+                            </div>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% else %}
+                    <tr>
+                        <td colspan="8" class="text-center text-muted py-4">No online fee records found.</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}

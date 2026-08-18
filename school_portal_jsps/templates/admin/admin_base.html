@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Admin Dashboard{% endblock %} - JS Public School</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/modern.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --admin-ink: #17212f;
+            --admin-muted: #6f7d8f;
+            --admin-bg: #eef3f6;
+            --admin-panel: rgba(255, 255, 255, 0.88);
+            --admin-line: rgba(23, 33, 47, 0.1);
+            --admin-navy: #10243e;
+            --admin-teal: #1b8a8f;
+            --admin-amber: #f2b84b;
+            --admin-rose: #d94f70;
+            --admin-green: #208a61;
+            --admin-shadow: 0 20px 55px rgba(16, 36, 62, 0.12);
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            color: var(--admin-ink);
+            background:
+                radial-gradient(circle at top left, rgba(27, 138, 143, 0.16), transparent 30%),
+                linear-gradient(135deg, #f7fafb 0%, var(--admin-bg) 55%, #f6f2e8 100%);
+            font-family: 'Inter', sans-serif;
+            letter-spacing: 0;
+        }
+
+        .admin-shell {
+            display: grid;
+            grid-template-columns: 284px minmax(0, 1fr);
+            min-height: 100vh;
+        }
+
+        .sidebar {
+            position: sticky;
+            top: 0;
+            height: 100vh;
+            padding: 20px 16px;
+            overflow-y: auto;
+            background:
+                linear-gradient(180deg, rgba(16, 36, 62, 0.98), rgba(20, 73, 85, 0.96)),
+                var(--admin-navy);
+            color: white;
+        }
+
+        .brand {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            padding: 8px 8px 22px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+            margin-bottom: 18px;
+        }
+
+        .brand-mark {
+            width: 44px;
+            height: 44px;
+            border-radius: 8px;
+            display: grid;
+            place-items: center;
+            background: linear-gradient(135deg, var(--admin-amber), #fff0b8);
+            color: var(--admin-navy);
+            box-shadow: 0 12px 28px rgba(242, 184, 75, 0.28);
+        }
+
+        .brand h2 {
+            margin: 0;
+            font-family: 'Outfit', sans-serif;
+            font-size: 19px;
+            line-height: 1.1;
+        }
+
+        .brand span {
+            display: block;
+            color: rgba(255, 255, 255, 0.68);
+            font-size: 12px;
+            margin-top: 4px;
+        }
+
+        .nav-group-title {
+            color: rgba(255, 255, 255, 0.52);
+            font-size: 11px;
+            font-weight: 700;
+            margin: 18px 10px 8px;
+            text-transform: uppercase;
+        }
+
+        .nav a {
+            position: relative;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            min-height: 40px;
+            color: rgba(255, 255, 255, 0.82);
+            text-decoration: none;
+            padding: 10px 12px;
+            margin-bottom: 4px;
+            border-radius: 8px;
+            transition: transform 180ms ease, background 180ms ease, color 180ms ease;
+        }
+
+        .nav a i { width: 18px; text-align: center; color: var(--admin-amber); }
+
+        .nav a:hover,
+        .nav a.active {
+            background: rgba(255, 255, 255, 0.12);
+            color: white;
+            transform: translateX(3px);
+        }
+
+        .nav a.active::before {
+            content: "";
+            position: absolute;
+            left: -6px;
+            width: 3px;
+            height: 22px;
+            border-radius: 999px;
+            background: var(--admin-amber);
+        }
+
+        .main-content {
+            min-width: 0;
+            padding: 24px;
+        }
+
+        .header {
+            position: sticky;
+            top: 0;
+            z-index: 5;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 18px;
+            padding: 18px 20px;
+            margin-bottom: 22px;
+            border: 1px solid rgba(255, 255, 255, 0.72);
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.74);
+            backdrop-filter: blur(18px);
+            box-shadow: 0 10px 34px rgba(16, 36, 62, 0.08);
+            animation: adminSlideDown 420ms ease both;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-family: 'Outfit', sans-serif;
+            font-size: clamp(22px, 3vw, 32px);
+            color: var(--admin-navy);
+        }
+
+        .header-subtitle {
+            margin: 4px 0 0;
+            color: var(--admin-muted);
+            font-size: 13px;
+        }
+
+        .header-actions {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .quick-chip,
+        .logout-btn,
+        .btn-submit,
+        .btn-modern,
+        .btn {
+            border-radius: 8px !important;
+            border: 0;
+            font-weight: 700;
+            letter-spacing: 0;
+        }
+
+        .quick-chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            min-height: 38px;
+            padding: 8px 12px;
+            color: var(--admin-navy);
+            background: rgba(242, 184, 75, 0.18);
+            text-decoration: none;
+            border: 1px solid rgba(242, 184, 75, 0.28);
+        }
+
+        .logout-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            min-height: 38px;
+            padding: 9px 13px;
+            color: white;
+            background: linear-gradient(135deg, var(--admin-rose), #b73854);
+            text-decoration: none;
+        }
+
+        .dashboard-section,
+        .card,
+        .glass-card,
+        .stat-card {
+            border-radius: 8px !important;
+            border: 1px solid rgba(255, 255, 255, 0.72) !important;
+            background: var(--admin-panel) !important;
+            box-shadow: var(--admin-shadow) !important;
+            animation: adminFadeUp 420ms ease both;
+        }
+
+        .dashboard-section {
+            padding: 22px;
+            margin-bottom: 22px;
+        }
+
+        .dashboard-section h2,
+        .card-header {
+            margin-top: 0;
+            color: var(--admin-navy);
+            font-family: 'Outfit', sans-serif;
+            font-size: 18px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 16px;
+            margin-bottom: 22px;
+        }
+
+        .stat-card {
+            position: relative;
+            overflow: hidden;
+            padding: 18px;
+            display: flex;
+            gap: 16px;
+            align-items: center;
+            min-height: 112px;
+        }
+
+        .stat-card::after {
+            content: "";
+            position: absolute;
+            right: -36px;
+            top: -36px;
+            width: 110px;
+            height: 110px;
+            border-radius: 999px;
+            background: rgba(27, 138, 143, 0.12);
+        }
+
+        .stat-icon {
+            width: 54px;
+            height: 54px;
+            border-radius: 8px;
+            display: grid;
+            place-items: center;
+            color: white;
+            background: linear-gradient(135deg, var(--admin-teal), var(--admin-navy));
+            font-size: 22px;
+        }
+
+        .stat-info h3 {
+            margin: 0;
+            font-family: 'Outfit', sans-serif;
+            font-size: 28px;
+            color: var(--admin-ink);
+        }
+
+        .stat-info p {
+            margin: 3px 0 0;
+            color: var(--admin-muted);
+            font-size: 13px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            overflow: hidden;
+        }
+
+        th,
+        td {
+            padding: 13px 12px;
+            border-bottom: 1px solid var(--admin-line);
+            text-align: left;
+            vertical-align: top;
+        }
+
+        th {
+            color: var(--admin-muted);
+            font-size: 12px;
+            font-weight: 800;
+            text-transform: uppercase;
+            background: rgba(16, 36, 62, 0.04);
+        }
+
+        tr:hover td { background: rgba(27, 138, 143, 0.035); }
+
+        .form-group { margin-bottom: 14px; }
+
+        label,
+        .form-group label {
+            display: block;
+            margin-bottom: 6px;
+            color: var(--admin-ink);
+            font-size: 13px;
+            font-weight: 700;
+        }
+
+        .form-control,
+        .form-select,
+        input[type="text"],
+        input[type="date"],
+        input[type="number"],
+        input[type="file"],
+        input[type="password"],
+        select,
+        textarea {
+            width: 100%;
+            min-height: 42px;
+            padding: 10px 12px;
+            border: 1px solid rgba(23, 33, 47, 0.14);
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.92);
+            color: var(--admin-ink);
+            font-family: 'Inter', sans-serif;
+            transition: border 160ms ease, box-shadow 160ms ease, background 160ms ease;
+        }
+
+        textarea { min-height: 88px; resize: vertical; }
+
+        .form-control:focus,
+        .form-select:focus,
+        input:focus,
+        select:focus,
+        textarea:focus {
+            outline: none;
+            border-color: var(--admin-teal);
+            box-shadow: 0 0 0 4px rgba(27, 138, 143, 0.14);
+            background: white;
+        }
+
+        .btn-submit,
+        .btn-primary {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            min-height: 42px;
+            padding: 10px 16px;
+            color: white !important;
+            background: linear-gradient(135deg, var(--admin-teal), var(--admin-navy)) !important;
+            cursor: pointer;
+            text-decoration: none;
+            transition: transform 160ms ease, box-shadow 160ms ease;
+        }
+
+        .btn-submit:hover,
+        .btn-primary:hover,
+        .logout-btn:hover,
+        .quick-chip:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 12px 24px rgba(16, 36, 62, 0.14);
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            min-height: 24px;
+            padding: 4px 8px;
+            border-radius: 999px;
+            font-size: 12px;
+            font-weight: 800;
+            background: rgba(27, 138, 143, 0.12);
+            color: var(--admin-teal);
+        }
+
+        .alert {
+            padding: 14px 16px;
+            border-radius: 8px;
+            margin-bottom: 18px;
+            border: 1px solid transparent;
+            animation: adminFadeUp 360ms ease both;
+        }
+
+        .alert-success { background: #e6f7ef; color: #176044; border-color: #bce9d2; }
+        .alert-error { background: #fde8ed; color: #9f2f48; border-color: #f4bdc9; }
+        .alert-info { background: #e6f4f5; color: #155f63; border-color: #b6e2e5; }
+        .alert-warning { background: #fff5dd; color: #815710; border-color: #f4d79c; }
+
+        .table-responsive { width: 100%; overflow-x: auto; }
+        .text-muted { color: var(--admin-muted) !important; }
+        .text-primary { color: var(--admin-teal) !important; }
+        .text-success { color: var(--admin-green) !important; }
+        .text-danger { color: var(--admin-rose) !important; }
+        .mt-2 { margin-top: 8px; }
+        .mt-4 { margin-top: 18px; }
+        .mb-3 { margin-bottom: 12px; }
+        .mb-4 { margin-bottom: 16px; }
+
+        @keyframes adminFadeUp {
+            from { opacity: 0; transform: translateY(12px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes adminSlideDown {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 1020px) {
+            .admin-shell { grid-template-columns: 1fr; }
+            .sidebar {
+                position: relative;
+                height: auto;
+                display: block;
+                border-bottom-left-radius: 18px;
+                border-bottom-right-radius: 18px;
+            }
+            .nav {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(178px, 1fr));
+                gap: 4px;
+            }
+            .nav-group-title { grid-column: 1 / -1; }
+        }
+
+        @media (max-width: 720px) {
+            .main-content { padding: 14px; }
+            .sidebar {
+                max-height: 48vh;
+                overflow-y: auto;
+            }
+            .nav {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+            .nav a {
+                font-size: 14px;
+                padding: 9px 10px;
+            }
+            .header { align-items: flex-start; flex-direction: column; }
+            .header-actions { width: 100%; }
+            .quick-chip, .logout-btn { flex: 1; justify-content: center; }
+            th, td { padding: 10px 8px; }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="admin-shell">
+        <aside class="sidebar">
+            <div class="brand">
+                <div class="brand-mark"><i class="fa-solid fa-school"></i></div>
+                <div>
+                    <h2>JSPS Admin</h2>
+                    <span>School ERP Command Center</span>
+                </div>
+            </div>
+            <nav class="nav">
+                <div class="nav-group-title">Overview</div>
+                <a href="{{ url_for('admin.admin_dashboard') }}" class="{% if request.endpoint == 'admin.admin_dashboard' %}active{% endif %}"><i class="fa-solid fa-chart-line"></i> Dashboard</a>
+                <a href="{{ url_for('admin.admin_admissions') }}" class="{% if request.endpoint == 'admin.admin_admissions' %}active{% endif %}"><i class="fa-solid fa-users"></i> Admissions</a>
+                <a href="{{ url_for('admin.admin_online_admissions') }}" class="{% if request.endpoint == 'admin.admin_online_admissions' %}active{% endif %}"><i class="fa-solid fa-user-graduate"></i> Online Admissions</a>
+                <a href="{{ url_for('admin_auto.manage_students') }}" class="{% if request.endpoint and request.endpoint.startswith('admin_auto.') %}active{% endif %}"><i class="fa-solid fa-children"></i> Students</a>
+                <a href="{{ url_for('admin_erp.teachers') }}" class="{% if request.endpoint == 'admin_erp.teachers' %}active{% endif %}"><i class="fa-solid fa-chalkboard-user"></i> Teachers</a>
+
+                <div class="nav-group-title">Operations</div>
+                <a href="{{ url_for('admin_erp.attendance') }}" class="{% if request.endpoint == 'admin_erp.attendance' %}active{% endif %}"><i class="fa-solid fa-clipboard-check"></i> Attendance</a>
+                <a href="{{ url_for('admin_erp.exam_results') }}" class="{% if request.endpoint == 'admin_erp.exam_results' %}active{% endif %}"><i class="fa-solid fa-square-poll-vertical"></i> Exam Results</a>
+                <a href="{{ url_for('admin.admin_fee_records') }}" class="{% if request.endpoint == 'admin.admin_fee_records' %}active{% endif %}"><i class="fa-solid fa-money-bill-wave"></i> Fee Records</a>
+                <a href="{{ url_for('admin_erp.fee_invoices') }}" class="{% if request.endpoint == 'admin_erp.fee_invoices' %}active{% endif %}"><i class="fa-solid fa-file-invoice-dollar"></i> Fee Ledger</a>
+                <a href="{{ url_for('admin_erp.transport') }}" class="{% if request.endpoint == 'admin_erp.transport' %}active{% endif %}"><i class="fa-solid fa-bus"></i> Transport</a>
+                <a href="{{ url_for('admin_erp.school_calendar') }}" class="{% if request.endpoint == 'admin_erp.school_calendar' %}active{% endif %}"><i class="fa-solid fa-calendar-days"></i> Calendar</a>
+                <a href="{{ url_for('admin_erp.timetable') }}" class="{% if request.endpoint == 'admin_erp.timetable' %}active{% endif %}"><i class="fa-solid fa-table-list"></i> Timetable</a>
+                <a href="{{ url_for('admin_erp.leave_requests') }}" class="{% if request.endpoint == 'admin_erp.leave_requests' %}active{% endif %}"><i class="fa-solid fa-person-walking-arrow-right"></i> Leave Requests</a>
+                <a href="{{ url_for('admin_erp.messages') }}" class="{% if request.endpoint == 'admin_erp.messages' %}active{% endif %}"><i class="fa-solid fa-comments"></i> Messages</a>
+                <a href="{{ url_for('admin_erp.notifications') }}" class="{% if request.endpoint == 'admin_erp.notifications' %}active{% endif %}"><i class="fa-solid fa-paper-plane"></i> Notifications</a>
+
+                <div class="nav-group-title">Website</div>
+                <a href="{{ url_for('admin.admin_notices') }}" class="{% if request.endpoint == 'admin.admin_notices' %}active{% endif %}"><i class="fa-solid fa-bullhorn"></i> Notices</a>
+                <a href="{{ url_for('admin.admin_pages') }}" class="{% if request.endpoint == 'admin.admin_pages' %}active{% endif %}"><i class="fa-solid fa-file-alt"></i> Page Content</a>
+                <a href="{{ url_for('admin.admin_sliders') }}" class="{% if request.endpoint == 'admin.admin_sliders' %}active{% endif %}"><i class="fa-solid fa-desktop"></i> Hero Sliders</a>
+                <a href="{{ url_for('admin.admin_documents') }}" class="{% if request.endpoint == 'admin.admin_documents' %}active{% endif %}"><i class="fa-solid fa-file-pdf"></i> Documents</a>
+                <a href="{{ url_for('admin.admin_gallery') }}" class="{% if request.endpoint == 'admin.admin_gallery' %}active{% endif %}"><i class="fa-solid fa-images"></i> Gallery</a>
+                <a href="{{ url_for('admin.admin_careers') }}" class="{% if request.endpoint == 'admin.admin_careers' %}active{% endif %}"><i class="fa-solid fa-briefcase"></i> Careers</a>
+                <a href="{{ url_for('admin.admin_settings') }}" class="{% if request.endpoint == 'admin.admin_settings' %}active{% endif %}"><i class="fa-solid fa-cog"></i> Settings</a>
+                <a href="{{ url_for('public.home') }}"><i class="fa-solid fa-globe"></i> View Website</a>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <header class="header">
+                <div>
+                    <h1>{% block page_header %}Dashboard Overview{% endblock %}</h1>
+                    <p class="header-subtitle">Manage academics, finance, communication, transport, and website content from one place.</p>
+                </div>
+                <div class="header-actions">
+                    <a href="{{ url_for('auth.login') }}" class="quick-chip"><i class="fa-solid fa-right-to-bracket"></i> Portals</a>
+                    <a href="{{ url_for('admin.logout') }}" class="logout-btn"><i class="fa-solid fa-sign-out-alt"></i> Logout</a>
+                </div>
+            </header>
+
+            {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+            {% for category, message in messages %}
+            <div class="alert alert-{{ category }}">{{ message }}</div>
+            {% endfor %}
+            {% endif %}
+            {% endwith %}
+
+            {% block admin_content %}{% block content %}{% endblock %}{% endblock %}
+        </main>
+    </div>
+</body>
+
+</html>

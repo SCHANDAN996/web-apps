@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+{% block title %}MD Desk - JS Public School{% endblock %}
+
+{% block content %}
+
+{% if page and page.banner_image %}
+<div class="page-banner" style="width: 100%; height: 300px; overflow: hidden; position: relative;">
+    <img src="{{ url_for('static', filename=page.banner_image) }}" alt="{{ page.title }}"
+        style="width: 100%; height: 100%; object-fit: cover;">
+    <div
+        style="position: absolute; bottom: 0; left: 0; width: 100%; background: linear-gradient(transparent, rgba(0,0,0,0.7)); padding: 20px;">
+        <h1 style="color: white; margin: 0; padding-left: 20px; font-family: 'Outfit', sans-serif;">{{ page.title }}
+        </h1>
+    </div>
+</div>
+{% endif %}
+
+{% if page and page.content %}
+<div class="section background-white">
+    <div class="line">
+        <div class="margin">
+            {{ page.content | safe }}
+        </div>
+    </div>
+</div>
+{% else %}
+
+
+Content
+<article>
+    <header class="section background-primary text-center">
+        <h1 class="text-white margin-bottom-0 text-size-30 text-strong text-line-height-1">Chairman's Desk</h1>
+    </header>
+    <div class="section background-white">
+        <div class="line">
+            <h2 class="text-size-20 text-center"><strong>Message from Chairman</strong></h2>
+            <div class="line">
+                <div class="margin">
+                    <div class="s-12 m-12 l-6 margin-m-bottom-30">
+                        <div class="margin-bottom-20">
+                            <div align="center" class="s-12 l-12 margin-bottom-20">
+                                <img alt="" src="{{ url_for('static', filename='img/mds-desk.jpg') }}" />
+                            </div>
+                        </div>
+                        <h2 class="text-size-20 text-center"><strong>Rajaneesh Singh</strong></h2>
+                        <p class="margin-bottom-20 text-size-15 text-center">Manager - <strong>J S Public
+                                School</strong></p>
+                    </div>
+                    <div class="s-12 m-12 l-6 margin-m-bottom-30">
+                        <p class="margin-bottom-20 text-size-15 text-justify">Education is not just a process of
+                            imparting knowledge but to nurture the child for a lifelong process which creates an
+                            understanding of moral and ethical values to guide once life on a righteous path.</p>
+                        <p class="margin-bottom-20 text-size-15 text-justify">We at J S Public School focus both on the
+                            scholastic and co-scholastic activities of the students to build a sound mind in a sound
+                            body. The school has a vision to reach out to every learner by adapting to different types
+                            of instructional strategies â âProject Based Learningâ, âStudent Led Conferenceâ,
+                            âCommunication &amp; Presentationâ, âCritical Thinkingâ, âReflective
+                            Questioningâ, âTier 1 and Tier 2 Teachingâ and so on..</p>
+                        <p class="margin-bottom-20 text-size-15 text-justify">The school does not believe in rote
+                            memorization and encourages students to showcase their learning outcomes through the various
+                            means.</p>
+                        <p class="margin-bottom-20 text-size-15 text-justify">We are a progressive school, who believes
+                            in effective and innovative professional development that encourages teachers to reflective
+                            and to continuously examine our practice to provide quality teaching and learning to each
+                            JSian.</p>
+                        <p class="margin-bottom-20 text-size-15 text-justify">J S Public School has a history of
+                            academic excellence as well as in arenas such as Sport, Dance, Music, Social Skills and
+                            more. We have been able to achieve these solely by the commitment and have been able to
+                            achieve these solely by the commitment and enthusiasm of students, staff, and parents, all
+                            these supported by very strong Management.</p>
+                        <h2 class="text-size-20 text-center margin-bottom-20">Thank you for sharing your children with
+                            us.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+
+
+{% endif %}
+{% endblock %}

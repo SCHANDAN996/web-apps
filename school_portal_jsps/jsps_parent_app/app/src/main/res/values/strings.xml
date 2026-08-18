@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Student Station</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_study">Study</string>
+    <string name="nav_practice">Practice</string>
+    <string name="nav_jobs">Jobs</string>
+    <string name="nav_focus">Focus</string>
+    <string name="nav_forest">Forest</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Notification Channels -->
+    <string name="channel_pomodoro">Focus Timer</string>
+    <string name="channel_pomodoro_desc">Shows focus session progress</string>
+    <string name="channel_blocking">App Blocking</string>
+    <string name="channel_blocking_desc">Notifications when distracting apps are blocked</string>
+    <string name="channel_streak">Streak Updates</string>
+    <string name="channel_streak_desc">Daily streak and achievement notifications</string>
+
+    <!-- Accessibility Service -->
+    <string name="accessibility_service_description">Student Station monitors YouTube, Instagram, and Facebook to detect Shorts and Reels. It only reads app names and UI component IDs — never your personal content. All processing happens on your device only.</string>
+
+    <!-- Overlay Messages -->
+    <string name="overlay_title">Wait! Think about it…</string>
+    <string name="overlay_go_back">Go Back to Study 📚</string>
+    <string name="overlay_proceed">Proceed Anyway</string>
+    <string name="check_answer">Check Answer ✓</string>
+
+    <!-- Device Admin -->
+    <string name="device_admin_enabled">Uninstall protection enabled</string>
+    <string name="device_admin_disabled">Uninstall protection disabled</string>
+    <string name="device_admin_disable_warning">Disabling this will remove uninstall protection. Your focus buddy won\'t be protected anymore!</string>
+
+    <!-- General -->
+    <string name="focus_score">Focus Score</string>
+    <string name="blocks_resisted">Blocks Resisted</string>
+    <string name="day_streak">Day Streak</string>
+    <string name="level">Level</string>
+</resources>

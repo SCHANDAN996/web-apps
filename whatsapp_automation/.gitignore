@@ -1,0 +1,29 @@
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Uploads & Private Documents
+uploads/
+uploads/*
+*.xlsx
+*.docx
+*.pdf
+*.jpg
+*.jpeg
+*.png
+history.json
+PyWhatKit_DB.txt
+
+# Virtual Environments
+.env
+.venv/
+venv/
+env/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log

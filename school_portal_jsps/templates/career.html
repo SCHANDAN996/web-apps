@@ -1,0 +1,88 @@
+{% extends 'base.html' %}
+{% block title %}Career with Us - JS Public School{% endblock %}
+
+{% block content %}
+<article>
+    <header class="section background-primary text-center">
+        <h1 class="text-white margin-bottom-0 text-size-30 text-strong text-line-height-1">Career Opportunities</h1>
+        <p class="text-white">Join our team of dedicated educators and professionals.</p>
+    </header>
+    <div class="section background-white">
+        <div class="line">
+            <div class="margin">
+                <div class="s-12 m-12 l-7 margin-m-bottom-2x">
+                    <h2 class="text-uppercase text-strong margin-bottom-30">Apply Online</h2>
+                    <form class="customform" action="{{ url_for('public.career_submit') }}" method="POST">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+                        <div class="line">
+                            <div class="margin">
+                                <div class="s-12 m-12 l-6">
+                                    <input name="name" class="name border-radius" placeholder="Full Name *"
+                                        title="Full Name" type="text" required />
+                                </div>
+                                <div class="s-12 m-12 l-6">
+                                    <input name="email" class="required email border-radius"
+                                        placeholder="Email Address *" title="Email Address" type="email" required />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="line">
+                            <div class="margin">
+                                <div class="s-12 m-12 l-6">
+                                    <input name="phone" class="mobile border-radius" placeholder="Mobile Number *"
+                                        title="Mobile Number" type="tel" required />
+                                </div>
+                                <div class="s-12 m-12 l-6">
+                                    <select name="position" class="border-radius margin-bottom-20" required
+                                        style="padding: 10px; width: 100%; border: 1px solid rgba(0, 38, 51, 0.15); background: #fff; color: inherit;">
+                                        <option value="" disabled selected>Select Position *</option>
+                                        <option value="PGT (Science)">PGT (Science)</option>
+                                        <option value="PGT (Commerce)">PGT (Commerce)</option>
+                                        <option value="TGT (All Subjects)">TGT (All Subjects)</option>
+                                        <option value="PRT / Mother Teacher">PRT / Mother Teacher</option>
+                                        <option value="Non-Teaching Staff">Non-Teaching Staff (Admin/Accounts)</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="s-12">
+                            <input name="resume_link" class="subject border-radius"
+                                placeholder="Resume / CV Link (Google Drive / DropBox) *" title="Resume Link" type="url"
+                                required />
+                        </div>
+                        <div class="s-12 m-12 l-6">
+                            <button class="submit-form button background-primary border-radius text-white"
+                                type="submit">Submit Application</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="s-12 m-12 l-5">
+                    <h3 class="text-uppercase text-primary text-size-14 letter-spacing-2">Why JSPS?</h3>
+                    <h2 class="text-size-30 margin-bottom-20">Build a Rewarding Career</h2>
+                    <p class="margin-bottom-20 text-size-16">
+                        At JS Public School, we believe that exceptional educators build an exceptional school. We seek
+                        passionate, innovative, and dedicated professionals who are committed to nurturing the next
+                        generation.
+                    </p>
+                    <div class="padding background-white border-radius margin-bottom-20"
+                        style="border-left: 4px solid #ff7a59; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                        <h4 class="text-strong margin-bottom-10">Work Environment</h4>
+                        <p class="text-size-14">A supportive and collaborative atmosphere encouraging professional
+                            growth.</p>
+                    </div>
+                    <div class="padding background-white border-radius margin-bottom-20"
+                        style="border-left: 4px solid #002633; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                        <h4 class="text-strong margin-bottom-10">Training Programs</h4>
+                        <p class="text-size-14">Regular CBSE-sponsored and internal workshops to keep you updated with
+                            modern pedagogy.</p>
+                    </div>
+                    <h4 class="text-strong margin-top-30 margin-bottom-10"><i class="icon-mail text-primary"></i> Direct
+                        HR Contact</h4>
+                    <p class="text-size-15">Send queries to: <strong>rajaneeshsingh@gmail.com</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+{% endblock %}

@@ -1,0 +1,132 @@
+{% extends 'base.html' %}
+{% block title %}Online Fee Payment - JS PUBLIC SCHOOL{% endblock %}
+
+{% block content %}
+<article>
+    <header class="section background-primary text-center">
+        <h1 class="text-white margin-bottom-0 text-size-30 text-strong text-line-height-1">Online Fee Payment</h1>
+    </header>
+    <div class="section background-white">
+        <div class="line">
+            <div class="margin">
+                <div class="s-12 l-8 center">
+
+                    <div class="box shadow-sm padding-2x border-radius">
+                        <h3 class="text-primary border-bottom pb-2 mb-4">Pay Tuition / Monthly Fees</h3>
+
+                        {% with messages = get_flashed_messages(with_categories=true) %}
+                        {% if messages %}
+                        {% for category, message in messages %}
+                        <div class="alert alert-{{ category }} margin-bottom">{{ message }}</div>
+                        {% endfor %}
+                        {% endif %}
+                        {% endwith %}
+
+                        {% if not settings or not settings.payment_upi_id %}
+                        <div class="alert alert-warning text-center padding"><i
+                                class="icon-sli-info margin-right-10"></i> Online fee payment is currently unavailable.
+                            Please contact the school reception.</div>
+                        {% else %}
+                        <form method="POST" action="{{ url_for('public.fee_payment') }}" enctype="multipart/form-data"
+                            class="customform">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+
+                            <div class="line margin-bottom">
+                                <div class="margin">
+                                    <div class="s-12 m-12 l-6">
+                                        <label class="text-strong">Student Name *</label>
+                                        <input name="student_name" class="name border-radius" placeholder="Full Name"
+                                            type="text" required />
+                                    </div>
+                                    <div class="s-12 m-12 l-6">
+                                        <label class="text-strong">Admission Number *</label>
+                                        <input name="admission_no" class="border-radius" placeholder="e.g. 10452"
+                                            type="text" required />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="line margin-bottom">
+                                <div class="margin">
+                                    <div class="s-12 m-12 l-6">
+                                        <label class="text-strong">Class *</label>
+                                        <select name="class_name" class="border-radius" required
+                                            style="padding: 10px; width: 100%; border: 1px solid #ccc;">
+                                            <option value="">Select Class</option>
+                                            <option value="PG">Play Group</option>
+                                            <option value="LKG">LKG</option>
+                                            <option value="UKG">UKG</option>
+                                            <option value="1">Class 1</option>
+                                            <option value="2">Class 2</option>
+                                            <option value="3">Class 3</option>
+                                            <option value="4">Class 4</option>
+                                            <option value="5">Class 5</option>
+                                            <option value="6">Class 6</option>
+                                            <option value="7">Class 7</option>
+                                            <option value="8">Class 8</option>
+                                            <option value="9">Class 9</option>
+                                            <option value="11">Class 11</option>
+                                        </select>
+                                    </div>
+                                    <div class="s-12 m-12 l-6">
+                                        <label class="text-strong">Amount Paying (₹) *</label>
+                                        <input name="amount_paid" id="fee_amount" class="border-radius"
+                                            placeholder="Enter amount" type="number" min="1" required
+                                            oninput="updateQR()" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h3 class="text-primary border-bottom pb-2 margin-top-2x mb-4">Payment Scan & Upload</h3>
+                            <div class="line margin-bottom"
+                                style="background:#f9f9f9; padding:20px; border-radius:8px; border:1px solid #eee;">
+                                <div class="margin">
+                                    <div class="s-12 m-12 l-6 text-center">
+                                        <p class="text-size-14 margin-bottom">Enter the amount above and scan this QR
+                                            code to pay via UPI.</p>
+                                        <img id="qr_img"
+                                            src="{{ url_for('public.generate_qr', upi_id=settings.payment_upi_id, amount=0) }}"
+                                            alt="Payment QR Code"
+                                            style="max-width:200px; display:inline-block; border:1px solid #ccc; border-radius:10px; padding:10px; background:white;">
+                                    </div>
+                                    <div class="s-12 m-12 l-6">
+                                        <label class="text-strong margin-top" style="display:block;">Upload Payment
+                                            Screenshot *</label>
+                                        <p class="text-size-12 text-muted">Upload successful transaction receipt to
+                                            verify payment.</p>
+                                        <input type="file" name="payment_receipt" accept=".png, .jpg, .jpeg, .pdf"
+                                            class="border-radius margin-top-10"
+                                            style="padding:10px; border:1px solid #ccc; width:100%" required>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="line margin-top-2x text-center">
+                                <button
+                                    class="submit-form button background-primary border-radius text-white text-size-16 padding-2x"
+                                    style="min-width: 250px;" type="submit">Submit Fee Record</button>
+                            </div>
+
+                        </form>
+                        {% endif %}
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+
+<script>
+    function updateQR() {
+        const amount = document.getElementById('fee_amount').value;
+        const qrImg = document.getElementById('qr_img');
+        const upiId = "{{ settings.payment_upi_id if settings else '' }}";
+        if (amount && amount > 0 && upiId) {
+            qrImg.src = "/generate_qr?upi_id=" + encodeURIComponent(upiId) + "&amount=" + encodeURIComponent(amount);
+        } else {
+            qrImg.src = "/generate_qr?upi_id=" + encodeURIComponent(upiId) + "&amount=0";
+        }
+    }
+</script>
+{% endblock %}

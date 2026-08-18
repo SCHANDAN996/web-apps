@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Login - JS Public School</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/modern.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --ink: #17212f;
+            --muted: #6e7a8b;
+            --navy: #10243e;
+            --teal: #1b8a8f;
+            --amber: #f2b84b;
+            --rose: #d94f70;
+            --panel: rgba(255,255,255,0.9);
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: grid;
+            place-items: center;
+            padding: 24px;
+            color: var(--ink);
+            font-family: 'Inter', sans-serif;
+            letter-spacing: 0;
+            background:
+                radial-gradient(circle at 18% 16%, rgba(242,184,75,0.22), transparent 28%),
+                radial-gradient(circle at 82% 78%, rgba(27,138,143,0.22), transparent 30%),
+                linear-gradient(135deg, #f8fbfc 0%, #eaf1f4 54%, #f6f0e4 100%);
+        }
+
+        .portal-card {
+            width: min(520px, 100%);
+            padding: 32px;
+            border-radius: 12px;
+            background: var(--panel);
+            border: 1px solid rgba(255,255,255,0.8);
+            box-shadow: 0 28px 80px rgba(16,36,62,0.16);
+            backdrop-filter: blur(18px);
+            animation: rise 480ms ease both;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 24px;
+        }
+
+        .brand img {
+            width: 58px;
+            height: 58px;
+            border-radius: 8px;
+            background: white;
+            padding: 6px;
+            box-shadow: 0 12px 28px rgba(16,36,62,0.1);
+        }
+
+        h2 {
+            margin: 0;
+            color: var(--navy);
+            font-family: 'Outfit', sans-serif;
+            font-size: 30px;
+        }
+
+        .subtitle {
+            margin: 6px 0 0;
+            color: var(--muted);
+            line-height: 1.5;
+        }
+
+        .role-selector {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 8px;
+            margin: 24px 0;
+            padding: 6px;
+            border-radius: 10px;
+            background: rgba(16,36,62,0.06);
+        }
+
+        .role-btn {
+            min-height: 42px;
+            padding: 8px;
+            border: 0;
+            border-radius: 8px;
+            background: transparent;
+            color: var(--navy);
+            cursor: pointer;
+            font-weight: 800;
+            transition: background 160ms ease, color 160ms ease, transform 160ms ease;
+        }
+
+        .role-btn.active {
+            background: linear-gradient(135deg, var(--teal), var(--navy));
+            color: white;
+            box-shadow: 0 12px 24px rgba(16,36,62,0.14);
+        }
+
+        .role-btn:hover { transform: translateY(-1px); }
+
+        .form-group { margin-bottom: 16px; }
+        label { display: block; margin-bottom: 7px; font-size: 13px; font-weight: 800; }
+
+        .input-shell { position: relative; }
+        .input-shell i {
+            position: absolute;
+            left: 13px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--teal);
+        }
+
+        .form-control {
+            width: 100%;
+            min-height: 48px;
+            padding: 12px 12px 12px 42px;
+            border: 1px solid rgba(23,33,47,0.14);
+            border-radius: 8px;
+            background: white;
+            font-size: 15px;
+            transition: border 160ms ease, box-shadow 160ms ease;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--teal);
+            box-shadow: 0 0 0 4px rgba(27,138,143,0.14);
+        }
+
+        .login-btn {
+            width: 100%;
+            min-height: 48px;
+            margin-top: 6px;
+            border: 0;
+            border-radius: 8px;
+            color: white;
+            background: linear-gradient(135deg, var(--teal), var(--navy));
+            font-weight: 800;
+            cursor: pointer;
+            transition: transform 160ms ease, box-shadow 160ms ease;
+        }
+
+        .login-btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 16px 30px rgba(16,36,62,0.18);
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 18px;
+            color: var(--muted);
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        .alert {
+            padding: 12px 14px;
+            border-radius: 8px;
+            margin-bottom: 18px;
+            font-size: 14px;
+        }
+
+        .alert-error { background: #fde8ed; color: #9f2f48; border: 1px solid #f4bdc9; }
+        .alert-success { background: #e6f7ef; color: #176044; border: 1px solid #bce9d2; }
+
+        @keyframes rise {
+            from { opacity: 0; transform: translateY(16px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 560px) {
+            body { padding: 12px; }
+            .portal-card { padding: 22px; }
+            .role-selector { grid-template-columns: repeat(2, 1fr); }
+        }
+    </style>
+</head>
+
+<body>
+    <main class="portal-card">
+        <div class="brand">
+            <img src="{{ url_for('static', filename='img/logo-free.png') }}" alt="JSPS">
+            <div>
+                <h2>JSPS Portal</h2>
+                <p class="subtitle">Student, parent, teacher, and admin access.</p>
+            </div>
+        </div>
+
+        <div class="role-selector">
+            <button type="button" class="role-btn active" onclick="setRole('student', this)">Student</button>
+            <button type="button" class="role-btn" onclick="setRole('parent', this)">Parent</button>
+            <button type="button" class="role-btn" onclick="setRole('teacher', this)">Teacher</button>
+            <button type="button" class="role-btn" onclick="setRole('staff', this)">Staff</button>
+            <button type="button" class="role-btn" onclick="setRole('driver', this)">Driver</button>
+            <button type="button" class="role-btn" onclick="setRole('admin', this)">Admin</button>
+        </div>
+
+        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+        {% for category, message in messages %}
+        <div class="alert alert-{{ category }}">{{ message }}</div>
+        {% endfor %}
+        {% endif %}
+        {% endwith %}
+
+        <form action="{{ url_for('auth.login') }}" method="POST">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+            <input type="hidden" name="role" id="roleInput" value="student">
+
+            <div class="form-group">
+                <label id="usernameLabel" for="username">Admission Number</label>
+                <div class="input-shell">
+                    <i class="fa-solid fa-id-card"></i>
+                    <input type="text" id="username" name="username" class="form-control" required placeholder="Enter ID" autocomplete="username">
+                </div>
+            </div>
+            <div class="form-group">
+                <label id="passwordLabel" for="password">Password (DOB: DDMMYYYY)</label>
+                <div class="input-shell">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" id="password" name="password" class="form-control" required autocomplete="current-password">
+                </div>
+            </div>
+            <button type="submit" class="login-btn">Secure Login</button>
+        </form>
+
+        <a href="{{ url_for('public.home') }}" class="back-link"><i class="fa-solid fa-arrow-left"></i> Back to Website</a>
+    </main>
+
+    <script>
+        function setRole(role, btn) {
+            document.querySelectorAll('.role-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            document.getElementById('roleInput').value = role;
+
+            const uLabel = document.getElementById('usernameLabel');
+            const pLabel = document.getElementById('passwordLabel');
+            const username = document.getElementById('username');
+
+            if (role === 'student') {
+                uLabel.innerText = 'Admission Number';
+                pLabel.innerText = 'Password (DOB: DDMMYYYY)';
+                username.placeholder = 'Enter admission number';
+            } else if (role === 'parent') {
+                uLabel.innerText = 'Registered Mobile Number';
+                pLabel.innerText = 'Password';
+                username.placeholder = 'Enter mobile number';
+            } else if (role === 'teacher') {
+                uLabel.innerText = 'Employee Code';
+                pLabel.innerText = 'Teacher Password';
+                username.placeholder = 'Enter employee code';
+            } else if (role === 'staff') {
+                uLabel.innerText = 'Staff User ID';
+                pLabel.innerText = 'Staff Password';
+                username.placeholder = 'Enter staff ID';
+            } else if (role === 'driver') {
+                uLabel.innerText = 'Driver User ID';
+                pLabel.innerText = 'Driver Password';
+                username.placeholder = 'Enter driver ID';
+            } else {
+                uLabel.innerText = 'Admin Username';
+                pLabel.innerText = 'Admin Password';
+                username.placeholder = 'Enter admin username';
+            }
+        }
+    </script>
+</body>
+
+</html>

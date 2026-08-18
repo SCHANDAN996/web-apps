@@ -1,0 +1,108 @@
+{% extends 'base.html' %}
+{% block title %}School Facilities - JS PUBLIC SCHOOL{% endblock %}
+
+{% block content %}
+
+{% if page and page.banner_image %}
+<div class="page-banner" style="width: 100%; height: 300px; overflow: hidden; position: relative;">
+    <img src="{{ url_for('static', filename=page.banner_image) }}" alt="{{ page.title }}"
+        style="width: 100%; height: 100%; object-fit: cover;">
+    <div
+        style="position: absolute; bottom: 0; left: 0; width: 100%; background: linear-gradient(transparent, rgba(0,0,0,0.7)); padding: 20px;">
+        <h1 style="color: white; margin: 0; padding-left: 20px; font-family: 'Outfit', sans-serif;">{{ page.title }}
+        </h1>
+    </div>
+</div>
+{% endif %}
+
+{% if page and page.content %}
+<div class="section background-white">
+    <div class="line">
+        <div class="margin">
+            {{ page.content | safe }}
+        </div>
+    </div>
+</div>
+{% else %}
+
+
+Content
+<article>
+    <header class="section background-primary text-center">
+        <h1 class="text-white margin-bottom-0 text-size-30 text-strong text-line-height-1">School Facilities</h1>
+    </header>
+    <div class="section background-white">
+        <div class="line">
+            <div class="line">
+                <div class="margin-bottom-20">
+                    <div class="s-12 l-12 margin-bottom-20">
+                        <img alt="" src="{{ url_for('static', filename='img/01-boxed.jpg') }}" />
+                    </div>
+                </div>
+            </div>
+            <p class="margin-bottom-20 text-size-15 text-justify">The school has its own water supply and stand by
+                generators to ensure uninterrupted power supply even for the air-conditioning units. Fire fighting
+                equipments as per norms fixed by the U.P. Government have been installed. The building has a unique
+                Gothic architecture. The Furniture is specially designed to cater to the needs of growing children of
+                ever age group. The aesthetic layout and furnishing of each classroom makes it a beautiful home away
+                from home. A specious elegant eruption hall and the lush green playground provide a very welcoming
+                ambience the school.</p>
+            <h1 class="margin-bottom-0 text-size-20 text-strong">Classroom</h1>
+            <p class="margin-bottom-20 text-size-15 text-justify">Properly ventilated classrooms, laboratories; activity
+                rooms etc. are designed for greater efficiency, and to protect children from air and noise pollution. A
+                class student ratio of 1:40 ensures individual attention to the pupils. Our pupils are encouraged and
+                guided to develop their analytical and problem solving skills.</p>
+            <p class="margin-bottom-20 text-size-15 text-justify">Special/remedial teaching both during and after school
+                hours will be arranged according to the need of each child.</p>
+            <h1 class="margin-bottom-0 text-size-20 text-strong">Smart Class</h1>
+            <p class="margin-bottom-20 text-size-15 text-justify">Smart classes provide tools &amp; content for
+                interactive self- paced learning guided by teachers. Itâs an ultimate technology that allows learning
+                through audio-visual stimulation coupled with freedom to manipulate and modify the lessons as per
+                individual needs.</p>
+            <h1 class="margin-bottom-0 text-size-20 text-strong">Play Ground</h1>
+            <p class="margin-bottom-20 text-size-15 text-justify">Growing children need to be provided with avenues to
+                channelize their abundant energy resources. Sports and games provide appropriate learning platform to
+                imbibe essential life skills. School has a large playground for outdoor games and provides facilities
+                such as tennis courts, semi-Olympic size swimming pool (Coming-up), basketball court, skating rink,
+                volley ball, soccer and cricket field. Besides these facilities for indoor games like Table tennis,
+                chess, carom, badminton and squash are also provided.</p>
+            <h1 class="margin-bottom-0 text-size-20 text-strong">Activity Room</h1>
+            <p class="margin-bottom-20 text-size-15 text-justify">The school has aesthetically designed well equipped
+                rooms for activities such as Art and Craft, Theatre, Indian dance, Western dance, Instrumental music,
+                vocal, yoga, aerobics and Gymnasium.</p>
+            <h1 class="margin-bottom-0 text-size-20 text-strong">Computer Lab</h1>
+            <p class="margin-bottom-20 text-size-15 text-justify">Computer science is a compulsory subject in the school
+                and computer labs offer a lot of scope for all children to acquire hands-on training.</p>
+            <p class="margin-bottom-20 text-size-15 text-justify">Computer education begins right from class LKG.
+                Computer is also used as a means to learn other subjects.</p>
+            <h1 class="margin-bottom-0 text-size-20 text-strong">Infirmary</h1>
+            <p class="margin-bottom-20 text-size-15 text-justify">A well equipped medical room with a doctor and a nurse
+                caters to medical needs of students during school hours. The nurse will maintain health record of all
+                students &amp; conducts regular health checkups. The school is having a tie-up with leading nursing
+                homes to cater to emergency services for our students.</p>
+            <h1 class="margin-bottom-0 text-size-20 text-strong">Library</h1>
+            <p class="margin-bottom-20 text-size-15 text-justify">The school is coming up with a state- of- the art
+                computerized library which will stock a wide collection of books and CDs on a variety of subjects. Each
+                student-computer station will have access to the internet for reference work to prepare projects which
+                are a regular feature of our research based learning system. Surveillance stations to ensure that
+                undesirable sites are not open to studentâs accessâ¦</p>
+            <h1 class="margin-bottom-0 text-size-20 text-strong">Transport</h1>
+            <p class="margin-bottom-20 text-size-15 text-justify">The school owns a fleet of buses running as per the
+                directives of U.P Govt. A GPS wireless system is followed round the clock for the tracking of the buses.
+                In case of any delay or mishap, a message will be flashed to the school which informs the parents and
+                send a relief bus if necessary.</p>
+            <h1 class="margin-bottom-0 text-size-20 text-strong">Cafeteria</h1>
+            <p class="margin-bottom-20 text-size-15 text-justify">The School Cafeteria is managed by a reputed caterer.
+                It provides nourishing wholesome snacks and lunch in the most hygienic conditions. Students will come
+                and eat in the cafeteria during their respective breaks.</p>
+            <h1 class="margin-bottom-0 text-size-20 text-strong">Security</h1>
+            <p class="margin-bottom-20 text-size-15 text-justify">The school is well guarded round-the- clock by
+                security guards, not only at the entry gate but also across the entire campus. Every corner of the
+                campus is on surveillance by close circuit camera round the clock.</p>
+        </div>
+    </div>
+</article>
+
+
+{% endif %}
+{% endblock %}

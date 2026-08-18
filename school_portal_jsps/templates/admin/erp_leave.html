@@ -1,0 +1,34 @@
+{% extends 'admin/admin_base.html' %}
+{% block title %}Leave Requests{% endblock %}
+{% block page_header %}Leave Applications{% endblock %}
+
+{% block admin_content %}
+<div class="dashboard-section">
+    <h2>Parent Leave Requests</h2>
+    <table>
+        <thead><tr><th>Student</th><th>Dates</th><th>Reason</th><th>Status</th><th>Decision</th></tr></thead>
+        <tbody>
+        {% for leave in leaves %}
+        <tr>
+            <td>{{ leave.student.full_name }}<br><small>{{ leave.student.admission_no }}</small></td>
+            <td>{{ leave.from_date.strftime('%d %b') }} - {{ leave.to_date.strftime('%d %b %Y') }}</td>
+            <td>{{ leave.reason }}</td>
+            <td>{{ leave.status }}</td>
+            <td>
+                <form method="POST" action="{{ url_for('admin_erp.decide_leave', leave_id=leave.id, decision='approve') }}" style="display:inline;">
+                    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                    <button class="btn-submit" type="submit">Approve</button>
+                </form>
+                <form method="POST" action="{{ url_for('admin_erp.decide_leave', leave_id=leave.id, decision='reject') }}" style="display:inline;">
+                    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                    <button class="btn-submit" style="background:#b91c1c;" type="submit">Reject</button>
+                </form>
+            </td>
+        </tr>
+        {% else %}
+        <tr><td colspan="5">No leave requests yet.</td></tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

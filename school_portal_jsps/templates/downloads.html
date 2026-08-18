@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+{% block title %}Downloads - JS Public School{% endblock %}
+
+{% block content %}
+<article>
+    <header class="section background-primary text-center">
+        <h1 class="text-white margin-bottom-0 text-size-30 text-strong text-line-height-1">Downloads Hub</h1>
+        <p class="text-white">Access TC, Circulars, Holiday Lists, and Assignments.</p>
+    </header>
+    <div class="section background-white">
+        <div class="line">
+            <div class="margin">
+                <!-- TC Downloads -->
+                <div class="s-12 m-12 l-6 margin-m-bottom-2x">
+                    <div class="border-radius"
+                        style="box-shadow: 0 4px 6px rgba(0,0,0,0.1); overflow: hidden; border: 1px solid #eee;">
+                        <div class="padding background-dark">
+                            <h3 class="margin-bottom-0 text-size-20 text-white"><i
+                                    class="icon-sli-docs text-primary margin-right-10"></i> TC Downloads</h3>
+                        </div>
+                        <div class="padding background-white">
+                            <p class="margin-bottom-20 text-size-14">Search and download digitally generated Transfer
+                                Certificates.</p>
+
+                            <form class="customform margin-bottom-20" action="#" method="GET">
+                                <div class="s-12 margin-bottom-10">
+                                    <input type="text" placeholder="Enter Admission Number"
+                                        class="border-radius text-size-14"
+                                        style="padding: 10px; width: 100%; border: 1px solid #ddd;">
+                                </div>
+                                <div class="s-12">
+                                    <button type="button" class="button background-primary border-radius text-white"
+                                        style="width: 100%;">Search TC</button>
+                                </div>
+                            </form>
+
+                            <div class="padding text-center border-radius"
+                                style="background: #fafafa; border: 1px dashed #ccc; color: #888;">
+                                No results found.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Other Downloads -->
+                <div class="s-12 m-12 l-6">
+                    <div class="border-radius"
+                        style="box-shadow: 0 4px 6px rgba(0,0,0,0.1); overflow: hidden; border: 1px solid #eee;">
+                        <div class="padding background-dark">
+                            <h3 class="margin-bottom-0 text-size-20 text-white"><i
+                                    class="icon-sli-folder text-primary margin-right-10"></i> Other Resources</h3>
+                        </div>
+                        <div class="padding background-white">
+                            <div class="margin-bottom-10 padding border-radius"
+                                style="background: #fdfdfd; border: 1px solid #eee; display: flex; align-items: center; justify-content: space-between;">
+                                <div class="text-strong">Holiday List (2026-27)</div>
+                                <div><a href="#"
+                                        class="button background-dark text-white border-radius margin-bottom-0 text-size-12"><i
+                                            class="icon-sli-cloud-download"></i> PDF</a></div>
+                            </div>
+
+                            <div class="margin-bottom-10 padding border-radius"
+                                style="background: #fdfdfd; border: 1px solid #eee; display: flex; align-items: center; justify-content: space-between;">
+                                <div class="text-strong">School Transport Routes</div>
+                                <div><a href="#"
+                                        class="button background-dark text-white border-radius margin-bottom-0 text-size-12"><i
+                                            class="icon-sli-cloud-download"></i> PDF</a></div>
+                            </div>
+
+                            <div class="margin-bottom-10 padding border-radius"
+                                style="background: #fdfdfd; border: 1px solid #eee; display: flex; align-items: center; justify-content: space-between;">
+                                <div class="text-strong">School Book List (Classes I-XII)</div>
+                                <div><a href="#"
+                                        class="button background-dark text-white border-radius margin-bottom-0 text-size-12"><i
+                                            class="icon-sli-cloud-download"></i> PDF</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</article>
+{% endblock %}

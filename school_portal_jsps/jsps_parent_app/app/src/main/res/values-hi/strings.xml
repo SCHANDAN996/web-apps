@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">स्टूडेंट स्टेशन</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">डैशबोर्ड</string>
+    <string name="nav_focus">फोकस</string>
+    <string name="nav_forest">जंगल</string>
+    <string name="nav_settings">सेटिंग्स</string>
+
+    <!-- Notification Channels -->
+    <string name="channel_pomodoro">फोकस टाइमर</string>
+    <string name="channel_pomodoro_desc">फोकस सत्र की प्रगति दिखाता है</string>
+    <string name="channel_blocking">ऐप ब्लॉकिंग</string>
+    <string name="channel_blocking_desc">जब ध्यान भटकाने वाले ऐप्स ब्लॉक होते हैं तब सूचना</string>
+    <string name="channel_streak">स्ट्रीक अपडेट</string>
+    <string name="channel_streak_desc">दैनिक स्ट्रीक और उपलब्धि सूचनाएं</string>
+
+    <!-- Accessibility Service -->
+    <string name="accessibility_service_description">स्टूडेंट स्टेशन YouTube, Instagram और Facebook पर शॉर्ट्स और रील्स की पहचान करता है। यह केवल ऐप के नाम और UI कॉम्पोनेंट ID पढ़ता है — कभी भी आपका व्यक्तिगत कंटेंट नहीं। सारी प्रोसेसिंग केवल आपके डिवाइस पर होती है।</string>
+
+    <!-- Overlay Messages -->
+    <string name="overlay_title">रुको! सोचो…</string>
+    <string name="overlay_go_back">पढ़ाई पर वापस जाओ 📚</string>
+    <string name="overlay_proceed">फिर भी आगे बढ़ो</string>
+    <string name="check_answer">उत्तर जाँचें ✓</string>
+
+    <!-- Device Admin -->
+    <string name="device_admin_enabled">अनइंस्टॉल सुरक्षा चालू</string>
+    <string name="device_admin_disabled">अनइंस्टॉल सुरक्षा बंद</string>
+    <string name="device_admin_disable_warning">इसे बंद करने से अनइंस्टॉल सुरक्षा हट जाएगी। आपका फोकस दोस्त असुरक्षित हो जाएगा!</string>
+
+    <!-- General -->
+    <string name="focus_score">फोकस स्कोर</string>
+    <string name="blocks_resisted">प्रलोभन रोके</string>
+    <string name="day_streak">दिन स्ट्रीक</string>
+    <string name="level">लेवल</string>
+</resources>

@@ -1,0 +1,50 @@
+{% extends 'admin/admin_base.html' %}
+{% block title %}Fee Invoices{% endblock %}
+{% block page_header %}Smart Fee Ledger{% endblock %}
+
+{% block admin_content %}
+<div style="display:grid; grid-template-columns: 360px 1fr; gap:20px;">
+    <div class="dashboard-section">
+        <h2>Create Fee Invoice</h2>
+        <form method="POST">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+            <div class="form-group"><label>Admission No</label><input name="admission_no" class="form-control" required></div>
+            <div class="form-group"><label>Invoice Title</label><input name="title" class="form-control" placeholder="April Tuition Fee" required></div>
+            <div class="form-group"><label>Amount</label><input name="amount" type="number" class="form-control" required></div>
+            <div class="form-group"><label>Paid Amount</label><input name="paid_amount" type="number" value="0" class="form-control"></div>
+            <div class="form-group"><label>Due Date</label><input name="due_date" type="date" class="form-control"></div>
+            <div class="form-group">
+                <label>Status</label>
+                <select name="status" class="form-control">
+                    <option>Pending</option>
+                    <option>Partial</option>
+                    <option>Paid</option>
+                    <option>Overdue</option>
+                </select>
+            </div>
+            <div class="form-group"><label>Notes</label><textarea name="notes" class="form-control"></textarea></div>
+            <button class="btn-submit" type="submit">Add Invoice</button>
+        </form>
+    </div>
+    <div class="dashboard-section">
+        <h2>Fee Ledger</h2>
+        <table>
+            <thead><tr><th>Student</th><th>Invoice</th><th>Amount</th><th>Paid</th><th>Due</th><th>Status</th></tr></thead>
+            <tbody>
+            {% for invoice in invoices %}
+                <tr>
+                    <td>{{ invoice.student.full_name }}<br><small>{{ invoice.student.admission_no }}</small></td>
+                    <td>{{ invoice.title }}</td>
+                    <td>Rs {{ invoice.amount }}</td>
+                    <td>Rs {{ invoice.paid_amount }}</td>
+                    <td>{{ invoice.due_date.strftime('%d %b %Y') if invoice.due_date else '-' }}</td>
+                    <td>{{ invoice.status }}</td>
+                </tr>
+            {% else %}
+                <tr><td colspan="6">No invoices created yet.</td></tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

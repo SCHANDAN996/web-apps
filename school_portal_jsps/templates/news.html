@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block title %}News & Events - JS Public School{% endblock %}
+
+{% block content %}
+<article>
+    <header class="section background-primary text-center">
+        <h1 class="text-white margin-bottom-0 text-size-30 text-strong text-line-height-1">News & Events Timeline</h1>
+        <p class="text-white">Stay updated with all the latest happenings at JSPS.</p>
+    </header>
+    <div class="section background-white">
+        <div class="line">
+            <div class="s-12 m-12 l-8 center">
+                {% if notices %}
+                {% for notice in notices %}
+                <div class="padding background-white border-radius margin-bottom-30"
+                    style="box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-left: 5px solid #ff7a59;">
+                    <div class="text-size-14 text-strong text-uppercase margin-bottom-10" style="color: #888;">
+                        <i class="icon-sli-calendar text-primary margin-right-10"></i> {{ notice.date.split()[0] }}
+                    </div>
+                    <h2 class="text-size-20 text-strong margin-bottom-20">{{ notice.title }}</h2>
+                    {% if notice.content %}
+                    <p class="text-size-15" style="line-height: 1.8;">{{ notice.content }}</p>
+                    {% endif %}
+                </div>
+                {% endfor %}
+                {% else %}
+                <div class="text-center padding-2x background-light border-radius">
+                    <i class="icon-sli-book-open text-size-50 margin-bottom-20" style="color: #ccc;"></i>
+                    <h3 style="color: #666;">No recent news or events.</h3>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</article>
+{% endblock %}

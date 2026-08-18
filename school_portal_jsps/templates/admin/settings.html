@@ -1,0 +1,92 @@
+{% extends 'admin/admin_base.html' %}
+{% block title %}Settings - Admin Dashboard{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Global Settings</h1>
+</div>
+
+<div class="card shadow-sm mb-4">
+    <div class="card-body">
+        <form method="POST" action="{{ url_for('admin.admin_settings') }}">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+
+            <h5 class="mb-3 text-primary border-bottom pb-2">Contact Information</h5>
+            <div class="row g-3">
+                <div class="col-md-6 mb-3">
+                    <label class="form-label fw-bold">Primary Phone</label>
+                    <input type="text" class="form-control" name="phone1" value="{{ settings.phone1 }}"
+                        placeholder="08125043333">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label class="form-label fw-bold">Secondary Phone</label>
+                    <input type="text" class="form-control" name="phone2" value="{{ settings.phone2 }}">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label class="form-label fw-bold">Email Address</label>
+                    <input type="email" class="form-control" name="email" value="{{ settings.email }}"
+                        placeholder="jspublicschool9@gmail.com">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label class="form-label fw-bold">Address</label>
+                    <input type="text" class="form-control" name="address" value="{{ settings.address }}">
+                </div>
+            </div>
+
+            <h5 class="mb-3 mt-4 text-primary border-bottom pb-2">Branding</h5>
+            <div class="row g-3">
+                <div class="col-md-12 mb-3">
+                    <label class="form-label fw-bold">School Motto / Tagline</label>
+                    <input type="text" class="form-control" name="motto" value="{{ settings.motto }}">
+                </div>
+                <div class="col-md-12 mb-3">
+                    <label class="form-label fw-bold">Header Marquee Text (Scrolling News)</label>
+                    <input type="text" class="form-control" name="marquee_text" value="{{ settings.marquee_text }}">
+                </div>
+            </div>
+
+            <h5 class="mb-3 mt-4 text-primary border-bottom pb-2">Social Media Links</h5>
+            <div class="row g-3">
+                <div class="col-md-6 mb-3">
+                    <label class="form-label fw-bold">Facebook URL</label>
+                    <input type="url" class="form-control" name="facebook" value="{{ settings.facebook }}">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label class="form-label fw-bold">Twitter URL</label>
+                    <input type="url" class="form-control" name="twitter" value="{{ settings.twitter }}">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label class="form-label fw-bold">Instagram URL</label>
+                    <input type="url" class="form-control" name="instagram" value="{{ settings.instagram }}">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label class="form-label fw-bold">YouTube URL</label>
+                    <input type="url" class="form-control" name="youtube" value="{{ settings.youtube }}">
+                </div>
+            </div>
+
+            <h5 class="mb-3 mt-4 text-primary border-bottom pb-2">Admission & Payment Configuration</h5>
+            <div class="row g-3">
+                <div class="col-md-6 mb-3">
+                    <label class="form-label fw-bold"><i class="fa-solid fa-indian-rupee-sign"></i> Admission Form Fee
+                        (₹)</label>
+                    <input type="number" min="0" class="form-control" name="admission_fee"
+                        value="{{ settings.admission_fee }}">
+                    <small class="text-muted">Enter 0 if admission forms should be free.</small>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label class="form-label fw-bold"><i class="fa-solid fa-qrcode"></i> School Payment UPI ID</label>
+                    <input type="text" class="form-control" name="payment_upi_id" value="{{ settings.payment_upi_id }}"
+                        placeholder="e.g. jspublic@sbi">
+                    <small class="text-muted">Used to dynamically generate QR codes for students to pay fees.</small>
+                </div>
+            </div>
+
+            <div class="mt-4">
+                <button type="submit" class="btn btn-primary px-5 py-2 fw-bold">Save Settings</button>
+            </div>
+
+        </form>
+    </div>
+</div>
+{% endblock %}

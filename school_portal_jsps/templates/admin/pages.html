@@ -1,0 +1,89 @@
+{% extends 'admin/admin_base.html' %}
+{% block title %}Page Content Manager - Admin Dashboard{% endblock %}
+
+{% block admin_content %}
+<div class="dashboard-section d-flex justify-content-between flex-wrap align-items-center mb-3 border-bottom">
+    <h1 class="h2 text-primary">Page Content Manager</h1>
+</div>
+
+<div class="stats-grid" style="grid-template-columns: 1fr 3fr;">
+    <!-- Page Selector Sidebar -->
+    <div class="glass-card mb-4" style="padding: 15px;">
+        <div class="card-header bg-primary text-white" style="padding: 10px; border-radius: 5px; margin-bottom: 10px;">
+            <i class="fa-solid fa-file-alt"></i> Select Page
+        </div>
+        <div class="list-group">
+            {% for p in pages %}
+            <a href="{{ url_for('admin.admin_pages', page=p.slug) }}"
+                class="list-group-item {% if selected_page and selected_page.slug == p.slug %}active fw-bold text-primary{% endif %}" style="display: block; padding: 10px; text-decoration: none; border-bottom: 1px solid #eee; color: var(--text-primary);">
+                {{ p.title }}
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- WYSIWYG Editor -->
+    <div class="col-md-9">
+        {% if selected_page %}
+        <div class="glass-card shadow-sm" style="padding: 20px;">
+            <div class="card-header bg-white">
+                <h2 class="mb-0 text-primary">Editing: <strong>{{ selected_page.title }}</strong></h2>
+            </div>
+            <div class="card-body">
+                <form method="POST" action="{{ url_for('admin.admin_pages') }}" enctype="multipart/form-data">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+                    <input type="hidden" name="page_slug" value="{{ selected_page.slug }}">
+
+                    <div class="form-group mb-3">
+                        <label class="form-label fw-bold">Page Content</label>
+                        <textarea id="page_content" name="content">{{ selected_page.content }}</textarea>
+                    </div>
+
+                    <div class="form-group mb-4 p-3 border rounded bg-light" style="margin-top: 20px;">
+                        <label class="form-label fw-bold"><i class="fa-solid fa-image text-primary"></i> Page Banner
+                            Image (Optional)</label>
+                        {% if selected_page.banner_image %}
+                        <div class="mb-2">
+                            <p class="mb-1 small text-muted">Current Banner:</p>
+                            <img src="{{ url_for('static', filename=selected_page.banner_image) }}" alt="Current Banner"
+                                class="img-thumbnail" style="max-height: 100px;">
+                        </div>
+                        {% endif %}
+                        <input type="file" name="banner_image" class="form-control"
+                            accept="image/png, image/jpeg, image/jpg, image/webp">
+                        <small class="text-muted">Upload a new image to replace the current banner. Recommended size:
+                            1920x600px.</small>
+                    </div>
+
+                    <div style="margin-top: 20px;">
+                        <button type="submit" class="btn-modern btn-primary px-4 py-2 fw-bold">
+                            <i class="fa-solid fa-save"></i> Save Content
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        {% else %}
+        <div class="alert alert-info">
+            <i class="fa-solid fa-info-circle"></i> Please select a page from the left sidebar to edit its content.
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<!-- Include TinyMCE WYSIWYG Editor -->
+<script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+<script>
+    tinymce.init({
+        selector: '#page_content',
+        height: 500,
+        plugins: 'advlist autolink lists link image charmap preview anchor pagebreak searchreplace wordcount visualblocks visualchars code fullscreen insertdatetime media nonbreaking table emoticons template help',
+        toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table mergetags | align lineheight | tinycomments | checklist numlist bullist indent outdent | emoticons charmap | removeformat',
+        menubar: true,
+        branding: false,
+        placeholder: "Write your page content here..."
+    });
+</script>
+{% endblock %}

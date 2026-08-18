@@ -1,0 +1,34 @@
+{% extends 'admin/admin_base.html' %}
+{% block title %}Timetable{% endblock %}
+{% block page_header %}Class Timetable{% endblock %}
+
+{% block admin_content %}
+<div class="dashboard-section">
+    <h2>Add Period</h2>
+    <form method="POST" style="display:grid; grid-template-columns: repeat(4, 1fr); gap:12px; align-items:end;">
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+        <div class="form-group"><label>Class</label><input name="class_name" class="form-control" required></div>
+        <div class="form-group"><label>Section</label><input name="section" class="form-control"></div>
+        <div class="form-group"><label>Weekday</label><select name="weekday" class="form-control">{% for day in ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'] %}<option>{{ day }}</option>{% endfor %}</select></div>
+        <div class="form-group"><label>Period No</label><input name="period_no" type="number" value="1" class="form-control"></div>
+        <div class="form-group"><label>Subject</label><input name="subject" class="form-control" required></div>
+        <div class="form-group"><label>Teacher</label><input name="teacher_name" class="form-control"></div>
+        <div class="form-group"><label>Start</label><input name="starts_at" class="form-control" placeholder="09:00 AM"></div>
+        <div class="form-group"><label>End</label><input name="ends_at" class="form-control" placeholder="09:40 AM"></div>
+        <button class="btn-submit" type="submit">Add Period</button>
+    </form>
+</div>
+<div class="dashboard-section">
+    <h2>Timetable Entries</h2>
+    <table>
+        <thead><tr><th>Class</th><th>Day</th><th>Period</th><th>Subject</th><th>Teacher</th><th>Time</th></tr></thead>
+        <tbody>
+        {% for item in entries %}
+            <tr><td>{{ item.class_name }} {{ item.section }}</td><td>{{ item.weekday }}</td><td>{{ item.period_no }}</td><td>{{ item.subject }}</td><td>{{ item.teacher_name }}</td><td>{{ item.starts_at }} - {{ item.ends_at }}</td></tr>
+        {% else %}
+            <tr><td colspan="6">No timetable entries yet.</td></tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

@@ -1,0 +1,16 @@
+{
+    "name": "vishwakarma-hms",
+    "version": "1.0.0",
+    "private": true,
+    "workspaces": [
+        "frontend",
+        "backend"
+    ],
+    "scripts": {
+        "dev": "npm run dev --workspace=frontend",
+        "dev:backend": "npm run start:dev --workspace=backend",
+        "build": "npm run build --workspaces",
+        "start": "npm run start --workspaces"
+    },
+    "devDependencies": {}
+}

@@ -1,0 +1,36 @@
+{% extends 'teacher/base.html' %}
+{% block title %}Results{% endblock %}
+{% block teacher_content %}
+<div class="panel">
+    <h2 style="margin-top:0;">Results</h2>
+    <form method="GET" style="display:grid; grid-template-columns:1fr 1fr auto; gap:12px; align-items:end;">
+        <div><label>Class</label><select name="class_name" class="form-control">{% for class_name in classes %}<option value="{{ class_name }}" {% if class_name == selected_class %}selected{% endif %}>{{ class_name }}</option>{% endfor %}</select></div>
+        <div><label>Term</label><input name="term" value="{{ term }}" class="form-control"></div>
+        <button class="btn" type="submit">Load</button>
+    </form>
+</div>
+<div class="panel">
+    <table>
+        <thead><tr><th>Student</th><th>Marks JSON</th><th>Total</th><th>%</th><th>Grade</th><th>Publish</th><th></th></tr></thead>
+        <tbody>
+        {% for student in students %}
+        {% set result = results.get(student.id) %}
+        <tr>
+            <form method="POST">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                <input type="hidden" name="student_id" value="{{ student.id }}">
+                <input type="hidden" name="term" value="{{ term }}">
+                <td>{{ student.full_name }}<br><small>{{ student.admission_no }}</small></td>
+                <td><textarea name="subject_marks" class="form-control" rows="2">{{ result.subject_marks if result else '{}' }}</textarea></td>
+                <td><input name="total_marks" type="number" class="form-control" value="{{ result.total_marks if result else '' }}"></td>
+                <td><input name="percentage" type="number" step="0.01" class="form-control" value="{{ result.percentage if result else '' }}"></td>
+                <td><input name="grade" class="form-control" value="{{ result.grade if result else '' }}"></td>
+                <td><input name="is_published" type="checkbox" {% if result and result.is_published %}checked{% endif %}></td>
+                <td><button class="btn" type="submit">Save</button></td>
+            </form>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

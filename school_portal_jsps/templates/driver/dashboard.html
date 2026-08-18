@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driver Dashboard - JSPS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root { --navy:#10243e; --teal:#1b8a8f; --amber:#f2b84b; --ink:#17212f; --muted:#6f7d8f; }
+        * { box-sizing:border-box; }
+        body { margin:0; min-height:100vh; font-family:Inter,sans-serif; color:var(--ink); background:linear-gradient(135deg,#f7fbfc,#e9f2f4 55%,#f8f0df); }
+        .topbar { display:flex; justify-content:space-between; align-items:center; padding:16px 22px; background:var(--navy); color:white; }
+        .topbar strong { font-family:Outfit,sans-serif; font-size:20px; }
+        .topbar a { color:white; text-decoration:none; background:rgba(255,255,255,.12); padding:9px 12px; border-radius:8px; }
+        .wrap { max-width:900px; margin:28px auto; padding:0 18px; }
+        .card { padding:22px; border-radius:12px; background:rgba(255,255,255,.9); border:1px solid rgba(255,255,255,.75); box-shadow:0 22px 58px rgba(16,36,62,.12); margin-bottom:18px; animation:fadeUp .42s ease both; }
+        h1,h2 { margin-top:0; color:var(--navy); font-family:Outfit,sans-serif; }
+        p { color:var(--muted); line-height:1.6; }
+        .button { border:0; min-height:48px; border-radius:8px; color:white; background:linear-gradient(135deg,var(--teal),var(--navy)); padding:12px 16px; font-weight:800; cursor:pointer; }
+        input { width:100%; min-height:44px; padding:10px 12px; border:1px solid rgba(16,36,62,.15); border-radius:8px; margin-bottom:10px; }
+        .map-link { display:inline-flex; align-items:center; gap:8px; margin-top:10px; color:var(--teal); font-weight:800; text-decoration:none; }
+        .alert { padding:12px; border-radius:8px; margin-bottom:14px; background:#e6f7ef; color:#176044; }
+        .alert-error { background:#fde8ed; color:#9f2f48; }
+        @keyframes fadeUp { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:translateY(0); } }
+    </style>
+</head>
+<body>
+    <div class="topbar">
+        <strong><i class="fa-solid fa-bus"></i> JSPS Driver Console</strong>
+        <a href="{{ url_for('auth.logout') }}"><i class="fa-solid fa-right-from-bracket"></i> Logout</a>
+    </div>
+    <main class="wrap">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% for category, message in messages %}
+        <div class="alert alert-{{ category }}">{{ message }}</div>
+        {% endfor %}
+        {% endwith %}
+
+        <section class="card">
+            <h1>{{ driver.driver_name }}</h1>
+            <p>Vehicle: {{ driver.vehicle_no or driver.route.vehicle_no if driver.route else '-' }} | Route: {{ driver.route.route_name if driver.route else 'Not assigned' }}</p>
+        </section>
+
+        <section class="card">
+            <h2>Share Live Bus Location</h2>
+            <p>Allow location permission and press the button. Parents will see the latest bus position for the assigned route.</p>
+            <form id="locationForm" method="POST" action="{{ url_for('driver.update_location') }}">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                <input id="latitude" name="latitude" placeholder="Latitude" required>
+                <input id="longitude" name="longitude" placeholder="Longitude" required>
+                <input id="accuracy" name="accuracy" placeholder="Accuracy">
+                <button class="button" type="button" onclick="captureLocation()"><i class="fa-solid fa-location-crosshairs"></i> Use Current Location</button>
+                <button class="button" type="submit" style="margin-top:10px; background:linear-gradient(135deg,var(--amber),#c68400); color:var(--navy);"><i class="fa-solid fa-paper-plane"></i> Update Location</button>
+            </form>
+        </section>
+
+        <section class="card">
+            <h2>Last Location</h2>
+            {% if last_location %}
+            <p>Latitude: {{ last_location.latitude }}<br>Longitude: {{ last_location.longitude }}<br>Updated: {{ last_location.recorded_at.strftime('%d %b %Y %H:%M') }}</p>
+            <a class="map-link" href="https://www.google.com/maps?q={{ last_location.latitude }},{{ last_location.longitude }}" target="_blank"><i class="fa-solid fa-map-location-dot"></i> Open in Google Maps</a>
+            {% else %}
+            <p>No location shared yet.</p>
+            {% endif %}
+        </section>
+    </main>
+    <script>
+        function captureLocation() {
+            if (!navigator.geolocation) {
+                alert('Location is not supported on this device.');
+                return;
+            }
+            navigator.geolocation.getCurrentPosition(function(pos) {
+                document.getElementById('latitude').value = pos.coords.latitude;
+                document.getElementById('longitude').value = pos.coords.longitude;
+                document.getElementById('accuracy').value = pos.coords.accuracy;
+            }, function() {
+                alert('Please allow location permission.');
+            }, { enableHighAccuracy: true, timeout: 12000 });
+        }
+    </script>
+</body>
+</html>

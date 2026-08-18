@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block title %}Propectus - JS Public School{% endblock %}
+
+{% block content %}
+
+ Content 
+<article>
+<header class="section background-primary text-center">
+<h1 class="text-white margin-bottom-0 text-size-30 text-strong text-line-height-1">e-Prospectus</h1>
+</header>
+<div class="section background-white">
+<div class="line">
+<div class="margin">
+<div class="s-12 l-12">
+{% if document %}
+<iframe height="800" src="{{ url_for('static', filename=document.file_path) }}" type="application/pdf" width="100%"></iframe>
+{% else %}
+<div class="alert alert-warning text-center padding"><i class="icon-sli-doc margin-right-10"></i> No PDF uploaded yet. Please check back later or contact administration.</div>
+{% endif %}
+</div>
+</div>
+</div>
+</div>
+</article>
+
+{% endblock %}

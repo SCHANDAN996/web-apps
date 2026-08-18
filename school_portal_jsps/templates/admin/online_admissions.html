@@ -1,0 +1,105 @@
+{% extends 'admin/admin_base.html' %}
+{% block title %}Online Admissions - Admin Dashboard{% endblock %}
+
+{% block page_header %}Online Admissions{% endblock %}
+
+{% block admin_content %}
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Online Admissions</h1>
+</div>
+
+<div class="card shadow-sm mb-4">
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle">
+                <thead class="table-light">
+                    <tr>
+                        <th>Date</th>
+                        <th>Student Name</th>
+                        <th>Class Applied</th>
+                        <th>Phone</th>
+                        <th>Status</th>
+                        <th>Fee Paid</th>
+                        <th>Documents</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for admission in admissions %}
+                    <tr>
+                        <td>{{ admission.application_date.strftime('%Y-%m-%d') }}</td>
+                        <td>
+                            <strong>{{ admission.student_name }}</strong><br>
+                            <small class="text-muted">Parent: {{ admission.father_name }}</small>
+                        </td>
+                        <td>{{ admission.class_applied }}</td>
+                        <td>{{ admission.phone }}</td>
+                        <td>
+                            {% if admission.application_status == 'Pending' %}
+                            <span class="badge bg-warning text-dark">Pending</span>
+                            {% elif admission.application_status == 'Approved' %}
+                            <span class="badge bg-success">Approved</span>
+                            {% else %}
+                            <span class="badge bg-danger">Rejected</span>
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if admission.admission_fee_paid %}
+                            <span class="badge bg-success">Yes</span>
+                            {% else %}
+                            <span class="badge bg-secondary">No</span>
+                            {% endif %}
+                        </td>
+                        <td>
+                            <div class="btn-group btn-group-sm">
+                                {% if admission.student_photo %}
+                                <a href="/static/{{ admission.student_photo }}" target="_blank"
+                                    class="btn btn-outline-primary" title="Photo"><i class="fa-solid fa-user"></i></a>
+                                {% endif %}
+                                {% if admission.aadhar_card %}
+                                <a href="/static/{{ admission.aadhar_card }}" target="_blank"
+                                    class="btn btn-outline-info" title="Aadhar"><i class="fa-solid fa-id-card"></i></a>
+                                {% endif %}
+                                {% if admission.previous_marksheet %}
+                                <a href="/static/{{ admission.previous_marksheet }}" target="_blank"
+                                    class="btn btn-outline-secondary" title="Marksheet"><i
+                                        class="fa-solid fa-file-lines"></i></a>
+                                {% endif %}
+                                {% if admission.payment_receipt %}
+                                <a href="/static/{{ admission.payment_receipt }}" target="_blank"
+                                    class="btn btn-outline-success" title="Fee Receipt"><i
+                                        class="fa-solid fa-receipt"></i></a>
+                                {% endif %}
+                            </div>
+                        </td>
+                        <td>
+                            {% if admission.application_status == 'Pending' %}
+                            <div class="btn-group btn-group-sm">
+                                <form action="{{ url_for('admin.approve_online_admission', admission_id=admission.id) }}"
+                                    method="POST" style="display:inline;">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+                                    <button type="submit" class="btn btn-success"><i class="fa-solid fa-check"></i>
+                                        Approve</button>
+                                </form>
+                                <form action="{{ url_for('admin.reject_online_admission', admission_id=admission.id) }}"
+                                    method="POST" style="display:inline;">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+                                    <button type="submit" class="btn btn-danger"
+                                        onclick="return confirm('Are you sure you want to reject this admission?');"><i
+                                            class="fa-solid fa-times"></i> Reject</button>
+                                </form>
+                            </div>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% else %}
+                    <tr>
+                        <td colspan="8" class="text-center text-muted py-4">No online admissions found.</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}

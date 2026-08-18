@@ -1,0 +1,106 @@
+{% extends 'admin/admin_base.html' %}
+{% block title %}Manage Students - Admin Dashboard{% endblock %}
+{% block page_header %}Student Records{% endblock %}
+
+{% block admin_content %}
+<div class="dashboard-section animate-fade-in">
+    <div class="d-flex justify-content-between align-items-center mb-4 border-bottom pb-2">
+        <h2 class="text-primary mb-0"><i class="fa-solid fa-users-viewfinder"></i> Student Master Database</h2>
+        <div>
+            <a href="{{ url_for('admin_auto.promote_students') }}" class="btn-modern text-decoration-none" style="background: var(--accent-color); color: white; margin-right: 10px;">
+                <i class="fa-solid fa-arrow-up-right-dots"></i> Bulk Promote
+            </a>
+            <a href="{{ url_for('admin_auto.student_draft') }}" class="btn-modern btn-secondary text-decoration-none">
+                <i class="fa-solid fa-plus"></i> Add New Student
+            </a>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <div class="glass-card p-3" style="border-top: 3px solid var(--secondary-color);">
+                <h4 class="h6 text-primary mb-3"><i class="fa-solid fa-file-zipper"></i> Bulk Download ID Cards</h4>
+                <form method="POST" action="{{ url_for('admin_auto.bulk_download_ids') }}" class="d-flex gap-2">
+                    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+                    <select name="class_name" class="form-control" required style="max-width: 200px;">
+                        <option value="">Select Class...</option>
+                        <option value="Nursery">Nursery</option>
+                        <option value="LKG">LKG</option>
+                        <option value="UKG">UKG</option>
+                        <option value="1">Class 1</option>
+                        <option value="2">Class 2</option>
+                        <option value="3">Class 3</option>
+                        <option value="4">Class 4</option>
+                        <option value="5">Class 5</option>
+                        <option value="6">Class 6</option>
+                        <option value="7">Class 7</option>
+                        <option value="8">Class 8</option>
+                    </select>
+                    <button type="submit" class="btn-modern btn-secondary py-1 px-3"><i class="fa-solid fa-download"></i> Download ZIP</button>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="glass-card p-3" style="border-top: 3px solid var(--primary-color);">
+                <h4 class="h6 text-primary mb-3"><i class="fa-solid fa-file-contract"></i> Bulk Download Results</h4>
+                <form method="POST" action="{{ url_for('admin_auto.bulk_download_results') }}" class="d-flex gap-2">
+                    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+                    <select name="class_name" class="form-control" required style="max-width: 200px;">
+                        <option value="">Select Class...</option>
+                        <option value="Nursery">Nursery</option>
+                        <option value="LKG">LKG</option>
+                        <option value="UKG">UKG</option>
+                        <option value="1">Class 1</option>
+                        <option value="2">Class 2</option>
+                        <option value="3">Class 3</option>
+                        <option value="4">Class 4</option>
+                        <option value="5">Class 5</option>
+                        <option value="6">Class 6</option>
+                        <option value="7">Class 7</option>
+                        <option value="8">Class 8</option>
+                    </select>
+                    <button type="submit" class="btn-modern btn-primary py-1 px-3"><i class="fa-solid fa-download"></i> Download ZIP</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="table-responsive glass-card" style="padding: 15px;">
+        <table class="table" style="width: 100%; border-collapse: collapse;">
+            <thead>
+                <tr style="background: rgba(13, 59, 102, 0.05);">
+                    <th>Adm. No</th>
+                    <th>Student Name</th>
+                    <th>Class</th>
+                    <th>Parent Name</th>
+                    <th>Phone</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for s in students %}
+                <tr>
+                    <td><strong>{{ s.admission_no }}</strong></td>
+                    <td>{{ s.full_name }}</td>
+                    <td>{{ s.current_class }} {{ s.section }}</td>
+                    <td>{{ s.parent.father_name }}</td>
+                    <td>{{ s.parent.primary_phone }}</td>
+                    <td>
+                        <a href="{{ url_for('admin_auto.edit_student', student_id=s.id) }}" class="btn-modern btn-primary text-decoration-none" style="padding: 5px 10px; font-size:12px; margin-right: 5px;">
+                            <i class="fa-solid fa-pen-to-square"></i> Edit
+                        </a>
+                        <a href="{{ url_for('admin_auto.generate_id_card', student_id=s.id) }}" target="_blank" class="btn-modern" style="background: var(--secondary-color); color:var(--text-primary); padding: 5px 10px; font-size:12px; text-decoration:none;">
+                            <i class="fa-solid fa-id-card"></i> Print ID
+                        </a>
+                    </td>
+                </tr>
+                {% else %}
+                <tr>
+                    <td colspan="6" class="text-center text-muted py-4">No students enrolled yet. Add a new student to get started.</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,380 @@
+{% extends 'base.html' %}
+
+{% block title %}JS Public School - Chandauli{% endblock %}
+
+{% block content %}
+<style>
+    .hero {
+        position: relative;
+        min-height: min(520px, calc(100vh - 184px));
+        display: grid;
+        align-items: center;
+        overflow: hidden;
+        color: white;
+        background:
+            linear-gradient(90deg, rgba(16,36,62,.92), rgba(16,36,62,.58), rgba(16,36,62,.22)),
+            url("{{ url_for('static', filename=(sliders[0].image_path if sliders else 'img/02-boxed.jpg')) }}") center/cover;
+    }
+
+    .hero::after {
+        content: "";
+        position: absolute;
+        inset: auto 0 0 0;
+        height: 36%;
+        background: linear-gradient(transparent, var(--site-bg));
+    }
+
+    .hero-inner {
+        position: relative;
+        z-index: 1;
+        width: min(1180px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 54px 0 58px;
+    }
+
+    .hero-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 1.1fr) 0.9fr;
+        gap: 28px;
+        align-items: end;
+    }
+
+    .hero h1 {
+        max-width: 760px;
+        margin: 16px 0;
+        color: white;
+        font-size: clamp(42px, 7vw, 82px);
+        line-height: 0.95;
+    }
+
+    .hero p {
+        max-width: 680px;
+        color: rgba(255,255,255,.82);
+        font-size: clamp(17px, 2vw, 21px);
+    }
+
+    .hero-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 7px 11px;
+        border-radius: 999px;
+        background: rgba(255,255,255,.14);
+        border: 1px solid rgba(255,255,255,.2);
+        backdrop-filter: blur(12px);
+        color: white;
+        font-weight: 800;
+    }
+
+    .hero-actions {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+        margin-top: 28px;
+    }
+
+    .hero-panel {
+        padding: 20px;
+        border-radius: 12px;
+        background: rgba(255,255,255,.14);
+        border: 1px solid rgba(255,255,255,.22);
+        backdrop-filter: blur(18px);
+        box-shadow: 0 24px 60px rgba(0,0,0,.2);
+    }
+
+    .hero-panel h3 { color:white; margin-top:0; }
+
+    .hero-stat-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .hero-stat {
+        padding: 14px;
+        border-radius: 8px;
+        background: rgba(255,255,255,.12);
+        border: 1px solid rgba(255,255,255,.14);
+    }
+
+    .hero-stat b {
+        display: block;
+        color: white;
+        font: 800 28px 'Outfit', sans-serif;
+    }
+
+    .hero-stat span { color: rgba(255,255,255,.72); font-size: 13px; }
+
+    .notice-strip {
+        position: relative;
+        z-index: 2;
+        margin-top: -34px;
+    }
+
+    .notice-card {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        gap: 16px;
+        align-items: center;
+        padding: 18px;
+    }
+
+    .notice-icon {
+        width: 48px;
+        height: 48px;
+        border-radius: 8px;
+        display: grid;
+        place-items: center;
+        color: white;
+        background: linear-gradient(135deg, var(--school-rose), var(--school-navy));
+    }
+
+    .bento-grid {
+        display: grid;
+        grid-template-columns: 1.1fr .9fr .9fr;
+        gap: 18px;
+        margin-top: 28px;
+    }
+
+    .bento-card {
+        min-height: 230px;
+        padding: 22px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .bento-card.large {
+        grid-row: span 2;
+        min-height: 478px;
+    }
+
+    .bento-card img {
+        width: 100%;
+        height: 190px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: 18px;
+    }
+
+    .bento-card.large img {
+        height: 300px;
+    }
+
+    .bento-card i {
+        color: var(--school-teal);
+        font-size: 24px;
+    }
+
+    .bento-card p,
+    .feature-card p,
+    .timeline-card p {
+        color: var(--site-muted);
+    }
+
+    .feature-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+        gap: 16px;
+        margin-top: 28px;
+    }
+
+    .feature-card {
+        padding: 22px;
+    }
+
+    .feature-icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 8px;
+        display: grid;
+        place-items: center;
+        color: white;
+        background: linear-gradient(135deg, var(--school-teal), var(--school-navy));
+        margin-bottom: 16px;
+    }
+
+    .timeline {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 16px;
+        margin-top: 28px;
+    }
+
+    .timeline-card {
+        padding: 20px;
+        border-left: 4px solid var(--school-gold) !important;
+    }
+
+    .portal-band {
+        color: white;
+        background:
+            linear-gradient(135deg, rgba(16,36,62,.96), rgba(27,138,143,.88)),
+            url("{{ url_for('static', filename='img/03-boxed.jpg') }}") center/cover;
+    }
+
+    .portal-grid {
+        display: grid;
+        grid-template-columns: .9fr 1.1fr;
+        gap: 26px;
+        align-items: center;
+    }
+
+    .portal-band h2,
+    .portal-band p { color:white; }
+
+    .portal-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .portal-pill {
+        padding: 15px;
+        border-radius: 8px;
+        background: rgba(255,255,255,.13);
+        border: 1px solid rgba(255,255,255,.16);
+        backdrop-filter: blur(10px);
+        font-weight: 800;
+    }
+
+    @media (max-width: 920px) {
+        .hero-grid,
+        .portal-grid,
+        .bento-grid { grid-template-columns: 1fr; }
+        .bento-card.large { grid-row: auto; min-height: auto; }
+        .notice-card { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 560px) {
+        .hero { min-height: auto; }
+        .hero-panel { display: none; }
+        .hero-stat-grid,
+        .portal-list { grid-template-columns: 1fr; }
+    }
+</style>
+
+<section class="hero">
+    <div class="hero-inner">
+        <div class="hero-grid">
+            <div class="reveal">
+                <span class="hero-badge"><i class="fa-solid fa-star"></i> CBSE-aligned learning environment</span>
+                <h1>JS Public School</h1>
+                <p>Modern education, transparent school operations, parent app access, and a connected campus experience for Chandauli families.</p>
+                <div class="hero-actions">
+                    <a class="site-btn gold" href="{{ url_for('public.admission_form') }}"><i class="fa-solid fa-file-pen"></i> Apply for Admission</a>
+                    <a class="site-btn" href="{{ url_for('auth.login') }}"><i class="fa-solid fa-mobile-screen"></i> Open Portal</a>
+                </div>
+            </div>
+            <div class="hero-panel reveal" style="animation-delay:120ms;">
+                <h3>Smart School Dashboard</h3>
+                <div class="hero-stat-grid">
+                    <div class="hero-stat"><b>ERP</b><span>Attendance, fees, results</span></div>
+                    <div class="hero-stat"><b>App</b><span>Parent & student access</span></div>
+                    <div class="hero-stat"><b>GPS</b><span>Transport tracking ready</span></div>
+                    <div class="hero-stat"><b>CBSE</b><span>Public disclosures</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% if notices %}
+<section class="notice-strip">
+    <div class="site-container">
+        <div class="notice-card glass-card reveal">
+            <div class="notice-icon"><i class="fa-solid fa-bullhorn"></i></div>
+            <div>
+                <strong>Latest Notice</strong>
+                <h3 style="margin:4px 0;">{{ notices[0].title }}</h3>
+                <p style="margin:0; color:var(--site-muted);">{{ notices[0].content[:180] }}{% if notices[0].content|length > 180 %}...{% endif %}</p>
+            </div>
+            <a class="site-btn" href="{{ url_for('public.news') }}">View Notices</a>
+        </div>
+    </div>
+</section>
+{% endif %}
+
+<section class="site-section">
+    <div class="site-container">
+        <span class="section-kicker"><i class="fa-solid fa-school"></i> Campus Experience</span>
+        <h2 class="section-title">A school website that now feels like a living digital campus.</h2>
+        <p class="section-copy">Parents, students, staff, and drivers get dedicated spaces while visitors get a polished, fast, transparent school experience.</p>
+
+        <div class="bento-grid">
+            <a class="bento-card large premium-card reveal" href="{{ url_for('public.about') }}">
+                <img src="{{ url_for('static', filename='img/img-01.jpg') }}" alt="School">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h3>Holistic Learning</h3>
+                <p>Academic discipline, moral values, activities, and parent-school communication in one connected system.</p>
+            </a>
+            <a class="bento-card premium-card reveal" href="{{ url_for('public.cbse_info') }}" style="animation-delay:80ms;">
+                <i class="fa-solid fa-file-shield"></i>
+                <h3>CBSE Transparency</h3>
+                <p>Mandatory public disclosures, documents, and school information available online.</p>
+            </a>
+            <a class="bento-card premium-card reveal" href="{{ url_for('public.fee_payment') }}" style="animation-delay:120ms;">
+                <i class="fa-solid fa-receipt"></i>
+                <h3>Digital Fee Desk</h3>
+                <p>Online fee receipt submission and admin verification workflow.</p>
+            </a>
+            <a class="bento-card premium-card reveal" href="{{ url_for('public.gallery') }}" style="animation-delay:160ms;">
+                <i class="fa-solid fa-images"></i>
+                <h3>Gallery & Events</h3>
+                <p>A modern gallery space for school life, achievements, and campus activities.</p>
+            </a>
+            <a class="bento-card premium-card reveal" href="{{ url_for('auth.login') }}" style="animation-delay:200ms;">
+                <i class="fa-solid fa-users-gear"></i>
+                <h3>Role-Based Portals</h3>
+                <p>Separate dashboards for admin, staff, driver, parent, student, and teacher users.</p>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="site-section portal-band">
+    <div class="site-container portal-grid">
+        <div class="reveal">
+            <span class="section-kicker" style="background:rgba(255,255,255,.16); color:white;"><i class="fa-solid fa-lock"></i> Secure Access</span>
+            <h2 class="section-title">Everyone sees only the workspace made for them.</h2>
+            <p>After login, the system opens the right area: full admin, staff operations, driver GPS console, parent dashboard, student dashboard, or teacher workspace.</p>
+            <a class="site-btn gold" href="{{ url_for('auth.login') }}">Go to Login</a>
+        </div>
+        <div class="portal-list reveal" style="animation-delay:120ms;">
+            <div class="portal-pill"><i class="fa-solid fa-user-shield"></i> Super Admin</div>
+            <div class="portal-pill"><i class="fa-solid fa-briefcase"></i> Staff / Second Admin</div>
+            <div class="portal-pill"><i class="fa-solid fa-bus"></i> Driver GPS</div>
+            <div class="portal-pill"><i class="fa-solid fa-users"></i> Parent Dashboard</div>
+            <div class="portal-pill"><i class="fa-solid fa-user-graduate"></i> Student Area</div>
+            <div class="portal-pill"><i class="fa-solid fa-chalkboard-user"></i> Teacher Portal</div>
+        </div>
+    </div>
+</section>
+
+<section class="site-section">
+    <div class="site-container">
+        <span class="section-kicker"><i class="fa-solid fa-sparkles"></i> Features</span>
+        <h2 class="section-title">World-class school management features are now built into the platform.</h2>
+        <div class="feature-grid">
+            <div class="feature-card premium-card reveal"><div class="feature-icon"><i class="fa-solid fa-clipboard-check"></i></div><h3>Attendance</h3><p>Daily attendance marking and parent visibility through portal/app.</p></div>
+            <div class="feature-card premium-card reveal"><div class="feature-icon"><i class="fa-solid fa-square-poll-vertical"></i></div><h3>Results</h3><p>Published report data, subject marks, grades, and academic remarks.</p></div>
+            <div class="feature-card premium-card reveal"><div class="feature-icon"><i class="fa-solid fa-file-invoice-dollar"></i></div><h3>Fee Ledger</h3><p>Invoices, pending fees, payment receipt status, and admin verification.</p></div>
+            <div class="feature-card premium-card reveal"><div class="feature-icon"><i class="fa-solid fa-location-dot"></i></div><h3>Transport GPS</h3><p>Driver location update console and route assignment foundation.</p></div>
+            <div class="feature-card premium-card reveal"><div class="feature-icon"><i class="fa-solid fa-comments"></i></div><h3>Messages</h3><p>Parent-school communication and admin reply workflow.</p></div>
+            <div class="feature-card premium-card reveal"><div class="feature-icon"><i class="fa-solid fa-calendar-days"></i></div><h3>Calendar</h3><p>Events, holidays, class-wise activities, and timetable support.</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="site-section" style="padding-top:0;">
+    <div class="site-container">
+        <span class="section-kicker"><i class="fa-solid fa-route"></i> Admission Journey</span>
+        <h2 class="section-title">Simple, transparent and trackable.</h2>
+        <div class="timeline">
+            <div class="timeline-card premium-card reveal"><h3>1. Apply Online</h3><p>Parents can submit admission forms and upload documents directly.</p></div>
+            <div class="timeline-card premium-card reveal"><h3>2. Office Review</h3><p>Staff or second admin can check application details and fee receipts.</p></div>
+            <div class="timeline-card premium-card reveal"><h3>3. Student Account</h3><p>Student and parent portal access can be created for daily academic updates.</p></div>
+            <div class="timeline-card premium-card reveal"><h3>4. Connected Schooling</h3><p>Attendance, assignments, results, fees, transport, and messages stay available.</p></div>
+        </div>
+    </div>
+</section>
+{% endblock %}

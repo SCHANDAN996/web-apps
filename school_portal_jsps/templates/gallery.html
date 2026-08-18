@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% block title %}Gallery - JS PUBLIC SCHOOL{% endblock %}
+
+{% block content %}
+<!-- Include Fancybox CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+
+<article>
+    <header class="section background-primary text-center">
+        <h1 class="text-white margin-bottom-0 text-size-30 text-strong text-line-height-1">Photo Gallery</h1>
+    </header>
+    <div class="section background-white">
+        <div class="line">
+            <div class="margin">
+                {% if photos %}
+                    {% for photo in photos %}
+                    <div class="s-12 m-6 l-3">
+                        <div class="image-with-hover-overlay image-hover-zoom margin-bottom glass-card" style="border-radius: 8px; overflow: hidden;">
+                            <a href="{{ url_for('static', filename='images/gallery/' + photo.filename) }}" data-fancybox="gallery" data-caption="{{ photo.category }}">
+                                <img alt="{{ photo.category }}" src="{{ url_for('static', filename='images/gallery/' + photo.filename) }}" style="width: 100%; height: 200px; object-fit: cover;">
+                            </a>
+                        </div>
+                    </div>
+                    {% endfor %}
+                {% else %}
+                    <div class="s-12 text-center">
+                        <p class="text-size-20">No photos available in the gallery.</p>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</article>
+
+{% endblock %}
+
+{% block scripts %}
+<!-- Include Fancybox JS -->
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<script>
+    Fancybox.bind('[data-fancybox="gallery"]', {
+        Toolbar: {
+            display: [
+                "zoom",
+                "slideShow",
+                "fullScreen",
+                "download",
+                "thumbs",
+                "close",
+            ],
+        },
+    });
+</script>
+{% endblock %}

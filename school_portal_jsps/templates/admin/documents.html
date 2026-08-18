@@ -1,0 +1,95 @@
+{% extends 'admin/admin_base.html' %}
+{% block title %}Document & PDF Manager - Admin Dashboard{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Document & PDF Manager</h1>
+</div>
+
+<div class="row mb-5">
+    <div class="col-md-4">
+        <div class="card shadow-sm">
+            <div class="card-header bg-primary text-white">
+                <i class="fa-solid fa-file-pdf"></i> Upload Document
+            </div>
+            <div class="card-body">
+                <form method="POST" action="{{ url_for('admin.admin_documents') }}" enctype="multipart/form-data">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+                    <div class="mb-3">
+                        <label class="form-label fw-bold">Select File (PDF, DOC)</label>
+                        <input type="file" class="form-control" name="document" required accept=".pdf, .doc, .docx">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label fw-bold">Document Title</label>
+                        <input type="text" class="form-control" name="title" required placeholder="e.g. 2026 e-Prospectus">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label fw-bold">Category Assignment</label>
+                        <select class="form-select" name="category" required>
+                            <option value="cbse_mandatory">CBSE Mandatory Disclosure</option>
+                            <option value="tc_download">TC Download</option>
+                            <option value="prospectus">e-Prospectus</option>
+                            <option value="admission_form">Admission Form</option>
+                            <option value="general">General Document</option>
+                        </select>
+                        <small class="text-muted mt-2 d-block">This category decides which page the document appears on.</small>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100 fw-bold">Upload Document</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-8">
+        <div class="card shadow-sm">
+            <div class="card-header bg-white">
+                <h5 class="mb-0 text-primary">Managed Documents Repository</h5>
+            </div>
+            <div class="card-body">
+                {% if documents %}
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Category</th>
+                                <th>Title</th>
+                                <th>File Preview</th>
+                                <th class="text-end">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for doc in documents %}
+                            <tr>
+                                <td>
+                                    <span class="badge bg-secondary">{{ doc.category.replace('_', ' ').title() }}</span>
+                                </td>
+                                <td><strong>{{ doc.title }}</strong></td>
+                                <td>
+                                    <a href="{{ url_for('static', filename=doc.file_path) }}" target="_blank" class="text-decoration-none">
+                                        <i class="fa-solid fa-eye"></i> View PDF
+                                    </a>
+                                </td>
+                                <td class="text-end">
+                                    <form method="POST" action="{{ url_for('admin.delete_document', doc_id=doc.id) }}" onsubmit="return confirm('Delete this document? Links on the website might break if not replaced.');" style="display:inline;">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+                                        <button type="submit" class="btn btn-sm btn-outline-danger">
+                                            <i class="fa-solid fa-trash"></i> Delete
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                {% else %}
+                <div class="alert alert-warning text-center">
+                    <i class="fa-solid fa-folder-open mb-2 fs-3"></i><br>
+                    No documents uploaded yet. Upload CBSE disclosures or Prospectus PDFs on the left.
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,32 @@
+{% extends 'teacher/base.html' %}
+{% block title %}Assignments{% endblock %}
+{% block teacher_content %}
+<div style="display:grid; grid-template-columns:360px 1fr; gap:20px;">
+    <div class="panel">
+        <h2 style="margin-top:0;">Post Assignment</h2>
+        <form method="POST" enctype="multipart/form-data">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+            <p><label>Class</label><select name="target_class" class="form-control">{% for class_name in classes %}<option>{{ class_name }}</option>{% endfor %}</select></p>
+            <p><label>Title</label><input name="title" class="form-control" required></p>
+            <p><label>Subject</label><input name="subject" value="{{ teacher.subject }}" class="form-control"></p>
+            <p><label>Due Date</label><input type="date" name="due_date" class="form-control"></p>
+            <p><label>Description</label><textarea name="description" class="form-control"></textarea></p>
+            <p><label>File</label><input type="file" name="file" class="form-control"></p>
+            <button class="btn" type="submit">Publish</button>
+        </form>
+    </div>
+    <div class="panel">
+        <h2 style="margin-top:0;">Assignments</h2>
+        <table>
+            <thead><tr><th>Class</th><th>Title</th><th>Subject</th><th>Due</th></tr></thead>
+            <tbody>
+            {% for item in assignments %}
+            <tr><td>{{ item.target_class }}</td><td>{{ item.title }}</td><td>{{ item.subject }}</td><td>{{ item.due_date.strftime('%d %b %Y') if item.due_date else '-' }}</td></tr>
+            {% else %}
+            <tr><td colspan="4">No assignments yet.</td></tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

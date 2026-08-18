@@ -1,0 +1,45 @@
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Android / Mobile Builds
+**/build/
+build/
+**/.gradle/
+.gradle/
+*.class
+*.dex
+*.apk
+*.aab
+local.properties
+**/local.properties
+
+# Databases & Instances
+instance/
+*.db
+*.sqlite
+*.sqlite3
+school.db
+
+# Environment & Secrets
+.env
+.env.*
+
+# Scrape & Temporary Files
+scrape_log.txt
+tmp_*.html
+tmp_*.py
+*.log
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo

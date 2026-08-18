@@ -1,0 +1,65 @@
+{% extends 'admin/admin_base.html' %}
+{% block title %}Transport{% endblock %}
+{% block page_header %}Transport Routes{% endblock %}
+
+{% block admin_content %}
+<div style="display:grid; grid-template-columns: 1fr 1fr; gap:20px;">
+    <div class="dashboard-section">
+        <h2>Add Route</h2>
+        <form method="POST">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+            <input type="hidden" name="action" value="add_route">
+            <div class="form-group"><label>Route Name</label><input name="route_name" class="form-control" required></div>
+            <div class="form-group"><label>Vehicle No</label><input name="vehicle_no" class="form-control"></div>
+            <div class="form-group"><label>Driver Name</label><input name="driver_name" class="form-control"></div>
+            <div class="form-group"><label>Driver Phone</label><input name="driver_phone" class="form-control"></div>
+            <div class="form-group"><label>Attendant Phone</label><input name="attendant_phone" class="form-control"></div>
+            <div class="form-group"><label>Start Point</label><input name="start_point" class="form-control"></div>
+            <div class="form-group"><label>End Point</label><input name="end_point" class="form-control"></div>
+            <div class="form-group"><label>Pickup Time</label><input name="pickup_time" class="form-control"></div>
+            <div class="form-group"><label>Drop Time</label><input name="drop_time" class="form-control"></div>
+            <div class="form-group"><label>Live Tracking URL</label><input name="live_tracking_url" class="form-control"></div>
+            <button class="btn-submit" type="submit">Save Route</button>
+        </form>
+    </div>
+    <div class="dashboard-section">
+        <h2>Assign Student</h2>
+        <form method="POST">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+            <input type="hidden" name="action" value="assign_student">
+            <div class="form-group"><label>Admission No</label><input name="admission_no" class="form-control" required></div>
+            <div class="form-group">
+                <label>Route</label>
+                <select name="route_id" class="form-control" required>
+                    {% for route in routes %}
+                    <option value="{{ route.id }}">{{ route.route_name }} - {{ route.vehicle_no }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="form-group"><label>Pickup Point</label><input name="pickup_point" class="form-control"></div>
+            <div class="form-group"><label>Drop Point</label><input name="drop_point" class="form-control"></div>
+            <button class="btn-submit" type="submit">Assign Transport</button>
+        </form>
+    </div>
+</div>
+
+<div class="dashboard-section">
+    <h2>Current Assignments</h2>
+    <table>
+        <thead><tr><th>Student</th><th>Route</th><th>Vehicle</th><th>Pickup</th><th>Driver</th></tr></thead>
+        <tbody>
+        {% for item in assignments %}
+            <tr>
+                <td>{{ item.student.full_name }}<br><small>{{ item.student.admission_no }}</small></td>
+                <td>{{ item.route.route_name }}</td>
+                <td>{{ item.route.vehicle_no }}</td>
+                <td>{{ item.pickup_point }}</td>
+                <td>{{ item.route.driver_name }} {{ item.route.driver_phone }}</td>
+            </tr>
+        {% else %}
+            <tr><td colspan="5">No transport assignments yet.</td></tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

@@ -1,0 +1,33 @@
+{
+  "name": "mechanic-core-return-tracker",
+  "version": "1.0.0",
+  "description": "Track auto parts with core deposits, recover refunds on time.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build:android": "vite build && npx cap sync android && cd android && .\\gradlew assembleDebug",
+    "open:android": "npx cap open android"
+  },
+  "keywords": [
+    "mechanic",
+    "core-return",
+    "tracker",
+    "pwa"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@capacitor/android": "^6.2.1",
+    "@capacitor/camera": "^6.1.3",
+    "@capacitor/cli": "^6.2.1",
+    "@capacitor/core": "^6.2.1",
+    "@capacitor/filesystem": "^6.0.4",
+    "@capacitor/preferences": "^6.0.4",
+    "@ericblade/quagga2": "^1.8.4",
+    "@supabase/supabase-js": "^2.49.4",
+    "tesseract.js": "^7.0.0",
+    "vite": "^6.3.5"
+  }
+}

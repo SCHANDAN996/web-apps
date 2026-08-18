@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test & generated PDF outputs
+*.pdf
+test_*.pdf
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log

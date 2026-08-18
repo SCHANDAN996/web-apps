@@ -1,0 +1,91 @@
+{% extends 'admin/admin_base.html' %}
+{% block title %}Edit Student - Admin Dashboard{% endblock %}
+{% block page_header %}Edit Student Data{% endblock %}
+
+{% block admin_content %}
+<div class="dashboard-section animate-fade-in">
+    <div class="d-flex justify-content-between align-items-center mb-4 border-bottom pb-2">
+        <h2 class="text-primary"><i class="fa-solid fa-pen-to-square"></i> Edit Student: {{ student.full_name }}</h2>
+        <a href="{{ url_for('admin_auto.manage_students') }}" class="btn-modern btn-secondary text-decoration-none">
+            <i class="fa-solid fa-arrow-left"></i> Back
+        </a>
+    </div>
+
+    <div class="glass-card" style="padding: 20px; border-top: 4px solid var(--primary-color);">
+        <form method="POST" action="{{ url_for('admin_auto.edit_student', student_id=student.id) }}">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+            
+            <h3 class="h5 mb-3 text-secondary border-bottom pb-2">Academic Details</h3>
+            <div class="row">
+                <div class="col-md-6 form-group">
+                    <label>Admission Number (Read Only)</label>
+                    <input type="text" class="form-control" value="{{ student.admission_no }}" disabled>
+                </div>
+                <div class="col-md-6 form-group">
+                    <label>Current Class *</label>
+                    <select name="current_class" class="form-control" required>
+                        <option value="Nursery" {% if student.current_class == 'Nursery' %}selected{% endif %}>Nursery</option>
+                        <option value="LKG" {% if student.current_class == 'LKG' %}selected{% endif %}>LKG</option>
+                        <option value="UKG" {% if student.current_class == 'UKG' %}selected{% endif %}>UKG</option>
+                        <option value="1" {% if student.current_class == '1' %}selected{% endif %}>Class 1</option>
+                        <option value="2" {% if student.current_class == '2' %}selected{% endif %}>Class 2</option>
+                        <option value="3" {% if student.current_class == '3' %}selected{% endif %}>Class 3</option>
+                        <option value="4" {% if student.current_class == '4' %}selected{% endif %}>Class 4</option>
+                        <option value="5" {% if student.current_class == '5' %}selected{% endif %}>Class 5</option>
+                        <option value="6" {% if student.current_class == '6' %}selected{% endif %}>Class 6</option>
+                        <option value="7" {% if student.current_class == '7' %}selected{% endif %}>Class 7</option>
+                        <option value="8" {% if student.current_class == '8' %}selected{% endif %}>Class 8</option>
+                        <option value="Passed Out" {% if student.current_class == 'Passed Out' %}selected{% endif %}>Passed Out</option>
+                    </select>
+                </div>
+                <div class="col-md-6 form-group">
+                    <label>Section</label>
+                    <input type="text" name="section" class="form-control" value="{{ student.section }}">
+                </div>
+            </div>
+
+            <h3 class="h5 mb-3 mt-4 text-secondary border-bottom pb-2">Student Profile</h3>
+            <div class="row">
+                <div class="col-md-6 form-group">
+                    <label>Student Full Name *</label>
+                    <input type="text" name="student_name" class="form-control" value="{{ student.full_name }}" required>
+                </div>
+                <div class="col-md-6 form-group">
+                    <label>Date of Birth *</label>
+                    <input type="date" name="dob" class="form-control" value="{{ student.dob.strftime('%Y-%m-%d') }}" required>
+                </div>
+                <div class="col-md-6 form-group">
+                    <label>Gender *</label>
+                    <select name="gender" class="form-control" required>
+                        <option value="Male" {% if student.gender == 'Male' %}selected{% endif %}>Male</option>
+                        <option value="Female" {% if student.gender == 'Female' %}selected{% endif %}>Female</option>
+                        <option value="Other" {% if student.gender == 'Other' %}selected{% endif %}>Other</option>
+                    </select>
+                </div>
+            </div>
+
+            <h3 class="h5 mb-3 mt-4 text-secondary border-bottom pb-2">Parent/Guardian Details</h3>
+            <div class="row">
+                <div class="col-md-6 form-group">
+                    <label>Father's Name *</label>
+                    <input type="text" name="father_name" class="form-control" value="{{ student.parent.father_name }}" required>
+                </div>
+                <div class="col-md-6 form-group">
+                    <label>Mother's Name *</label>
+                    <input type="text" name="mother_name" class="form-control" value="{{ student.parent.mother_name }}" required>
+                </div>
+                <div class="col-md-12 form-group">
+                    <label>Registered Mobile Number (Read Only)</label>
+                    <input type="text" class="form-control" value="{{ student.parent.primary_phone }}" disabled>
+                </div>
+            </div>
+
+            <div class="mt-4">
+                <button type="submit" class="btn-modern btn-primary px-4 py-2" style="width:100%; font-size:16px;">
+                    <i class="fa-solid fa-save"></i> Save Changes
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,70 @@
+{% extends 'admin/admin_base.html' %}
+{% block title %}Promote Students - Admin Dashboard{% endblock %}
+{% block page_header %}Bulk Class Promotion{% endblock %}
+
+{% block admin_content %}
+<div class="dashboard-section animate-fade-in">
+    <div class="d-flex justify-content-between align-items-center mb-4 border-bottom pb-2">
+        <h2 class="text-primary"><i class="fa-solid fa-arrow-up-right-dots"></i> Promote Students to Next Class</h2>
+        <a href="{{ url_for('admin_auto.manage_students') }}" class="btn-modern btn-secondary text-decoration-none">
+            <i class="fa-solid fa-arrow-left"></i> Back
+        </a>
+    </div>
+
+    <div class="glass-card" style="padding: 20px; border-top: 4px solid var(--accent-color);">
+        <p class="text-muted mb-4">Select the current class and the class to promote them to. This will update the records of all students currently in the 'From' class.</p>
+        
+        <form method="POST" action="{{ url_for('admin_auto.promote_students') }}">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+            
+            <div class="row align-items-end">
+                <div class="col-md-5 form-group mb-0">
+                    <label class="fw-bold text-primary">From Class (Current)</label>
+                    <select name="from_class" class="form-control" required>
+                        <option value="">Select Class</option>
+                        <option value="Nursery">Nursery</option>
+                        <option value="LKG">LKG</option>
+                        <option value="UKG">UKG</option>
+                        <option value="1">Class 1</option>
+                        <option value="2">Class 2</option>
+                        <option value="3">Class 3</option>
+                        <option value="4">Class 4</option>
+                        <option value="5">Class 5</option>
+                        <option value="6">Class 6</option>
+                        <option value="7">Class 7</option>
+                        <option value="8">Class 8</option>
+                    </select>
+                </div>
+                
+                <div class="col-md-2 text-center form-group mb-0 pb-2">
+                    <i class="fa-solid fa-arrow-right-long text-size-25 text-muted"></i>
+                </div>
+                
+                <div class="col-md-5 form-group mb-0">
+                    <label class="fw-bold" style="color:var(--secondary-color);">To Class (Next Year)</label>
+                    <select name="to_class" class="form-control" required>
+                        <option value="">Select Class</option>
+                        <option value="LKG">LKG</option>
+                        <option value="UKG">UKG</option>
+                        <option value="1">Class 1</option>
+                        <option value="2">Class 2</option>
+                        <option value="3">Class 3</option>
+                        <option value="4">Class 4</option>
+                        <option value="5">Class 5</option>
+                        <option value="6">Class 6</option>
+                        <option value="7">Class 7</option>
+                        <option value="8">Class 8</option>
+                        <option value="Passed Out">Passed Out (Alumni)</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="mt-4 pt-3 border-top text-center">
+                <button type="submit" class="btn-modern px-5 py-2" style="background: var(--accent-color); color: white; font-size:16px;" onclick="return confirm('Are you sure you want to promote all students from the selected class? This action will update their current class in the database.');">
+                    <i class="fa-solid fa-bolt"></i> Execute Bulk Promotion
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

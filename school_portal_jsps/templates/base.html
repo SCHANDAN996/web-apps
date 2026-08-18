@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{% block meta_description %}JS Public School, Chandauli - holistic education, modern facilities, parent app, and transparent school management.{% endblock %}">
+    <meta name="keywords" content="{% block meta_keywords %}JS Public School, Chandauli, CBSE School, Parent App, School ERP{% endblock %}">
+    <title>{% block title %}JS PUBLIC SCHOOL - Chandauli, U.P.{% endblock %}</title>
+    <script>
+        (function () {
+            var theme = localStorage.getItem('jsps-theme') || 'light';
+            document.documentElement.setAttribute('data-theme', theme);
+        })();
+    </script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/components.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/icons.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/responsee.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='owl-carousel/owl.carousel.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='owl-carousel/owl.theme.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/modern.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/premium-site.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="size-1280">
+    <div class="page-loader" id="pageLoader" aria-hidden="true">
+        <div class="skeleton-stack">
+            <div class="skeleton-line" style="width: 54%;"></div>
+            <div class="skeleton-card"></div>
+            <div class="skeleton-line"></div>
+            <div class="skeleton-line" style="width: 72%;"></div>
+        </div>
+    </div>
+
+    <div class="site-shell">
+        <header role="banner">
+            <div class="site-topline">
+                <div class="site-container">
+                    <div class="topline-left">
+                        <span><i class="fa-solid fa-phone"></i> {% if settings and settings.phone1 %}{{ settings.phone1 }}{% else %}+91-81270 63333{% endif %}</span>
+                        <a href="mailto:{% if settings and settings.email %}{{ settings.email }}{% else %}jspublicschool9@gmail.com{% endif %}"><i class="fa-solid fa-envelope"></i> {% if settings and settings.email %}{{ settings.email }}{% else %}jspublicschool9@gmail.com{% endif %}</a>
+                    </div>
+                    <div class="topline-right">
+                        <a href="{{ url_for('auth.login') }}"><i class="fa-solid fa-right-to-bracket"></i> Portal Login</a>
+                        <a href="{% if settings and settings.facebook %}{{ settings.facebook }}{% else %}#{% endif %}" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="{% if settings and settings.instagram %}{{ settings.instagram }}{% else %}#{% endif %}" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="{% if settings and settings.youtube %}{{ settings.youtube }}{% else %}#{% endif %}" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="site-nav">
+                <div class="site-container site-nav-inner">
+                    <a href="{{ url_for('public.home') }}" class="site-brand">
+                        <img src="{{ url_for('static', filename='img/logo-free.png') }}" alt="JS Public School Logo">
+                        <span><strong>JS Public School</strong><span>Chandauli, Uttar Pradesh</span></span>
+                    </a>
+
+                    <ul class="site-menu" id="siteMenu">
+                        <li><a href="{{ url_for('public.home') }}">Home</a></li>
+                        <li>
+                            <button type="button">About <i class="fa-solid fa-chevron-down"></i></button>
+                            <ul>
+                                <li><a href="{{ url_for('public.about') }}">About School</a></li>
+                                <li><a href="{{ url_for('public.chairmans_desk') }}">Chairman's Desk</a></li>
+                                <li><a href="{{ url_for('public.mds_desk') }}">M.D's Desk</a></li>
+                                <li><a href="{{ url_for('public.mission_vision') }}">Vision & Mission</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <button type="button">School <i class="fa-solid fa-chevron-down"></i></button>
+                            <ul>
+                                <li><a href="{{ url_for('public.school_info') }}">School Info</a></li>
+                                <li><a href="{{ url_for('public.school_infrastructure') }}">Infrastructure</a></li>
+                                <li><a href="{{ url_for('public.school_facilities') }}">Facilities</a></li>
+                                <li><a href="{{ url_for('public.cbse_info') }}">CBSE Disclosure</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <button type="button">Admission <i class="fa-solid fa-chevron-down"></i></button>
+                            <ul>
+                                <li><a href="{{ url_for('public.about_the_admission') }}">About Admission</a></li>
+                                <li><a href="{{ url_for('public.subject_offered') }}">Subjects Offered</a></li>
+                                <li><a href="{{ url_for('public.admission_form') }}">Admission Form</a></li>
+                                <li><a href="{{ url_for('public.prospectus') }}">e-Prospectus</a></li>
+                                <li><a href="{{ url_for('public.fee_payment') }}">Online Fee Payment</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <button type="button">Updates <i class="fa-solid fa-chevron-down"></i></button>
+                            <ul>
+                                <li><a href="{{ url_for('public.gallery') }}">Photo Gallery</a></li>
+                                <li><a href="{{ url_for('public.news') }}">News & Events</a></li>
+                                <li><a href="{{ url_for('public.tc_downloads') }}">TC Downloads</a></li>
+                                <li><a href="{{ url_for('public.other_downloads') }}">Other Downloads</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="{{ url_for('public.contact') }}">Contact</a></li>
+                    </ul>
+
+                    <div class="site-actions">
+                        <button class="site-icon-btn" type="button" id="themeToggle" aria-label="Toggle dark mode"><i class="fa-solid fa-moon"></i></button>
+                        <a class="site-cta" href="{{ url_for('public.admission_form') }}">Apply Now</a>
+                        <button class="site-menu-toggle" type="button" id="menuToggle" aria-label="Open menu"><i class="fa-solid fa-bars"></i></button>
+                    </div>
+                </div>
+            </nav>
+
+            {% if settings and settings.marquee_text %}
+            <div class="announcement">
+                <div class="announcement-track">
+                    <span><i class="fa-solid fa-bullhorn"></i> {{ settings.marquee_text }}</span>
+                    <span><i class="fa-solid fa-bullhorn"></i> {{ settings.marquee_text }}</span>
+                </div>
+            </div>
+            {% endif %}
+        </header>
+
+        <div class="site-alerts">
+            {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+            {% for category, message in messages %}
+            <div class="site-alert {{ category }}">
+                {{ message }}
+                <a href="#" style="float:right; text-decoration:none;" onclick="this.parentElement.style.display='none'; return false;">&times;</a>
+            </div>
+            {% endfor %}
+            {% endif %}
+            {% endwith %}
+        </div>
+
+        <main role="main">
+            {% block content %}{% endblock %}
+        </main>
+
+        <footer class="site-footer">
+            <div class="site-container">
+                <div class="footer-grid">
+                    <div>
+                        <h3>JS Public School</h3>
+                        <p>{% if settings and settings.motto %}{{ settings.motto }}{% else %}Practice patience perseverance.{% endif %}</p>
+                        <p>{% if settings and settings.address %}{{ settings.address }}{% else %}Village Kasimpur-Pandeypur, Mughalsarai-Chakia Road, Chandauli{% endif %}</p>
+                    </div>
+                    <div>
+                        <h4>Quick Links</h4>
+                        <div class="footer-links">
+                            <a href="{{ url_for('public.admission_form') }}">Admission Form</a>
+                            <a href="{{ url_for('public.cbse_info') }}">CBSE Disclosure</a>
+                            <a href="{{ url_for('public.fee_payment') }}">Fee Payment</a>
+                            <a href="{{ url_for('auth.login') }}">Portal Login</a>
+                        </div>
+                    </div>
+                    <div>
+                        <h4>Contact</h4>
+                        <p><i class="fa-solid fa-phone"></i> {% if settings and settings.phone1 %}{{ settings.phone1 }}{% else %}+91-81270 43333{% endif %}</p>
+                        <p><i class="fa-solid fa-phone"></i> {% if settings and settings.phone2 %}{{ settings.phone2 }}{% else %}+91-81270 63333{% endif %}</p>
+                        <p><i class="fa-solid fa-envelope"></i> {% if settings and settings.email %}{{ settings.email }}{% else %}jspublicschool9@gmail.com{% endif %}</p>
+                    </div>
+                </div>
+                <div class="footer-bottom">Copyright 2026, JS Public School, Chandauli. All rights reserved.</div>
+            </div>
+        </footer>
+    </div>
+
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery-1.8.3.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='owl-carousel/owl.carousel.js') }}"></script>
+    <script>
+        window.addEventListener('load', function () {
+            setTimeout(function () {
+                var loader = document.getElementById('pageLoader');
+                if (loader) loader.classList.add('is-hidden');
+            }, 220);
+        });
+
+        var menuToggle = document.getElementById('menuToggle');
+        var siteMenu = document.getElementById('siteMenu');
+        if (menuToggle && siteMenu) {
+            menuToggle.addEventListener('click', function () {
+                siteMenu.classList.toggle('is-open');
+            });
+        }
+
+        var themeToggle = document.getElementById('themeToggle');
+        if (themeToggle) {
+            themeToggle.addEventListener('click', function () {
+                var current = document.documentElement.getAttribute('data-theme') || 'light';
+                var next = current === 'dark' ? 'light' : 'dark';
+                document.documentElement.setAttribute('data-theme', next);
+                localStorage.setItem('jsps-theme', next);
+                themeToggle.innerHTML = next === 'dark' ? '<i class="fa-solid fa-sun"></i>' : '<i class="fa-solid fa-moon"></i>';
+            });
+            if (document.documentElement.getAttribute('data-theme') === 'dark') {
+                themeToggle.innerHTML = '<i class="fa-solid fa-sun"></i>';
+            }
+        }
+    </script>
+    {% block scripts %}{% endblock %}
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+{% block title %}CBSE Mandatory Public Disclosure - JS Public School{% endblock %}
+
+{% block content %}
+<article>
+    <header class="section background-primary text-center">
+        <h1 class="text-white margin-bottom-0 text-size-30 text-strong text-line-height-1">Mandatory Public Disclosure
+        </h1>
+        <p class="text-white">As per Central Board of Secondary Education (CBSE) Norms</p>
+    </header>
+    <div class="section background-white">
+        <div class="line">
+            <div class="margin">
+                <!-- Documents List -->
+                <div class="s-12 m-12 l-7 margin-bottom-10 padding-2x block-bordered border-radius background-primary">
+                    <h3 class="margin-bottom-20 text-white text-strong"><i
+                            class="icon-sli-docs text-size-20 margin-right-10"></i> CBSE Disclosures & Certificates</h3>
+                    <ul class="margin-bottom-0">
+    {% if documents %}
+        {% for doc in documents %}
+        <li class="margin-bottom-10">
+            <a class="button border-radius background-dark text-white padding" href="{{ url_for('static', filename=doc.file_path) }}" target="_blank" style="display:block;">
+                <i class="icon-sli-doc margin-right-10"></i> {{ doc.title|upper }}
+            </a>
+        </li>
+        {% endfor %}
+    {% else %}
+        <li class="margin-bottom-10"><p>No documents uploaded in this category yet.</p></li>
+    {% endif %}
+</ul>
+                </div>
+
+                <!-- Useful Links Overlay -->
+                <div class="s-12 m-12 l-5 margin-bottom-10 padding-2x">
+                    <h4 class="text-uppercase text-strong margin-bottom-20"><i
+                            class="icon-sli-link text-primary margin-right-10"></i> Useful Links</h4>
+                    <div class="line">
+                        <div class="margin-bottom-10 padding background-white border-radius"
+                            style="border-left: 4px solid #ff7a59; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                            <a href="https://www.cbse.gov.in/" class="text-strong" target="_blank">www.cbse.nic.in</a>
+                        </div>
+                        <div class="margin-bottom-10 padding background-white border-radius"
+                            style="border-left: 4px solid #002633; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                            <a href="https://www.cbseresults.nic.in/" class="text-strong"
+                                target="_blank">www.cbseresults.nic.in</a>
+                        </div>
+                        <div class="margin-bottom-10 padding background-white border-radius"
+                            style="border-left: 4px solid #f9cd48; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                            <a href="https://www.icbse.com/" class="text-strong" target="_blank">www.icbse.com</a>
+                        </div>
+                        <div class="margin-bottom-10 padding background-white border-radius"
+                            style="border-left: 4px solid #27ae60; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                            <a href="https://www.ncert.nic.in/" class="text-strong" target="_blank">www.ncert.nic.in</a>
+                        </div>
+                        <div class="margin-bottom-10 padding background-white border-radius"
+                            style="border-left: 4px solid #9b59b6; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                            <a href="https://www.indiaresults.com/" class="text-strong"
+                                target="_blank">www.indiaresults.com</a>
+                        </div>
+                        <div class="margin-bottom-10 padding background-white border-radius"
+                            style="border-left: 4px solid #e74c3c; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                            <a href="https://www.mycbseguide.com/" class="text-strong"
+                                target="_blank">www.mycbseguide.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+{% endblock %}

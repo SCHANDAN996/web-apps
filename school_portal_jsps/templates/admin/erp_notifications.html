@@ -1,0 +1,41 @@
+{% extends 'admin/admin_base.html' %}
+{% block title %}Notifications{% endblock %}
+{% block page_header %}Notifications & Automation{% endblock %}
+
+{% block admin_content %}
+<div style="display:grid; grid-template-columns: 360px 1fr; gap:20px;">
+    <div class="dashboard-section">
+        <h2>Queue Notification</h2>
+        <form method="POST">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+            <div class="form-group"><label>Title</label><input name="title" class="form-control" required></div>
+            <div class="form-group"><label>Body</label><textarea name="body" class="form-control" required></textarea></div>
+            <div class="form-group">
+                <label>Target Role</label>
+                <select name="target_role" class="form-control">
+                    <option value="">All</option>
+                    <option>parent</option>
+                    <option>student</option>
+                    <option>teacher</option>
+                </select>
+            </div>
+            <div class="form-group"><label>Target Class</label><input name="target_class" class="form-control" placeholder="Optional"></div>
+            <div class="form-group"><label>Channel</label><select name="channel" class="form-control"><option>in_app</option><option>fcm_ready</option><option>sms_ready</option><option>whatsapp_ready</option></select></div>
+            <button class="btn-submit" type="submit">Queue</button>
+        </form>
+    </div>
+    <div class="dashboard-section">
+        <h2>Notification Log</h2>
+        <table>
+            <thead><tr><th>Date</th><th>Title</th><th>Target</th><th>Channel</th><th>Status</th></tr></thead>
+            <tbody>
+            {% for log in logs %}
+            <tr><td>{{ log.created_at.strftime('%d %b %H:%M') }}</td><td>{{ log.title }}</td><td>{{ log.target_role or 'All' }} {{ log.target_class or '' }}</td><td>{{ log.channel }}</td><td>{{ log.delivery_status }}</td></tr>
+            {% else %}
+            <tr><td colspan="5">No notifications yet.</td></tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

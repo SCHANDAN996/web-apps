@@ -1,0 +1,33 @@
+{% extends 'admin/admin_base.html' %}
+{% block title %}Messages{% endblock %}
+{% block page_header %}Parent Messages{% endblock %}
+
+{% block admin_content %}
+<div class="dashboard-section">
+    <h2>Message Inbox</h2>
+    <table>
+        <thead><tr><th>Date</th><th>Student</th><th>From</th><th>Message</th><th>Status</th><th>Reply</th></tr></thead>
+        <tbody>
+        {% for item in messages %}
+        <tr>
+            <td>{{ item.created_at.strftime('%d %b %H:%M') }}</td>
+            <td>{{ item.student.full_name if item.student else '-' }}</td>
+            <td>{{ item.sender_role }}</td>
+            <td><strong>{{ item.category }}</strong><br>{{ item.message }}</td>
+            <td>{{ item.status }}</td>
+            <td>
+                <form method="POST">
+                    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                    <input type="hidden" name="message_id" value="{{ item.id }}">
+                    <textarea name="message" class="form-control" rows="2" placeholder="Write reply"></textarea>
+                    <button class="btn-submit" style="margin-top:6px;" type="submit">Reply</button>
+                </form>
+            </td>
+        </tr>
+        {% else %}
+        <tr><td colspan="6">No messages yet.</td></tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}
