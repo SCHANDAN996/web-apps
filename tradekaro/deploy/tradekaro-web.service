@@ -1,0 +1,14 @@
+[Unit]
+Description=TradeKaro Web Dashboard
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/var/www/tradekaro/Trading_AI_Project
+ExecStart=/var/www/tradekaro/Trading_AI_Project/venv/bin/python app.py
+Restart=always
+Slice=shared-projects.slice
+
+[Install]
+WantedBy=multi-user.target

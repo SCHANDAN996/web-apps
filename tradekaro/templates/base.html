@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en" data-density="normal">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TradeKaro AI | {% block title %}Terminal{% endblock %}</title>
+    <meta name="description" content="TradeKaro AI — Institutional-grade trading terminal with AI Brain integration">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="https://unpkg.com/lightweight-charts@3.8.0/dist/lightweight-charts.standalone.production.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    {% block head %}{% endblock %}
+    <style>
+    /* ═══ TOP NAVBAR LAYOUT (replaces left sidebar) ═══ */
+    .app-shell {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    /* ─── Top Navigation Bar ─── */
+    .top-navbar {
+        height: 52px;
+        background: rgba(12,16,24,0.95);
+        backdrop-filter: blur(16px);
+        border-bottom: 1px solid var(--border-subtle);
+        display: flex;
+        align-items: center;
+        padding: 0 var(--space-4);
+        z-index: var(--z-topbar);
+        flex-shrink: 0;
+        gap: var(--space-2);
+    }
+
+    .navbar-brand {
+        display: flex;
+        align-items: center;
+        gap: var(--space-2);
+        margin-right: var(--space-4);
+        flex-shrink: 0;
+    }
+    .navbar-brand .brand-icon {
+        width: 30px; height: 30px;
+        background: linear-gradient(135deg, var(--neon-cyan), var(--neon-purple));
+        border-radius: var(--radius-sm);
+        display: flex; align-items: center; justify-content: center;
+        font-size: 14px;
+    }
+    .navbar-brand .brand-text {
+        font-size: var(--text-sm);
+        font-weight: 800;
+        letter-spacing: 1.5px;
+    }
+
+    /* Nav links - horizontal */
+    .navbar-links {
+        display: flex;
+        align-items: center;
+        gap: var(--space-1);
+        flex: 1;
+        overflow-x: auto;
+    }
+    .navbar-links::-webkit-scrollbar { display: none; }
+    .navbar-links { -ms-overflow-style: none; scrollbar-width: none; }
+
+    .nav-link {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        padding: 6px 12px;
+        border-radius: var(--radius-sm);
+        font-size: var(--text-xs);
+        font-weight: 500;
+        color: var(--text-secondary);
+        white-space: nowrap;
+        transition: all var(--transition-fast);
+        text-decoration: none;
+    }
+    .nav-link:hover { background: rgba(255,255,255,0.05); color: var(--text-primary); }
+    .nav-link.active {
+        background: var(--cyan-bg);
+        color: var(--neon-cyan);
+    }
+    .nav-link i { font-size: 12px; }
+
+    .nav-divider {
+        width: 1px;
+        height: 20px;
+        background: var(--border-default);
+        margin: 0 var(--space-1);
+        flex-shrink: 0;
+    }
+
+    /* Right side of navbar */
+    .navbar-right {
+        display: flex;
+        align-items: center;
+        gap: var(--space-3);
+        margin-left: auto;
+        flex-shrink: 0;
+    }
+
+    /* ─── Main Content Area ─── */
+    .main-wrapper {
+        flex: 1;
+        display: flex;
+        min-height: 0;
+        position: relative;
+    }
+
+    .content-area {
+        flex: 1;
+        overflow: auto;
+        padding: var(--space-4);
+    }
+
+    /* ─── AI Panel on right ─── */
+    .ai-panel {
+        width: 0;
+        overflow: hidden;
+        background: var(--bg-surface);
+        border-left: 1px solid var(--border-subtle);
+        display: flex;
+        flex-direction: column;
+        transition: width var(--transition-base);
+        flex-shrink: 0;
+    }
+    .ai-panel.open { width: var(--ai-panel-width); }
+
+    /* ─── Bottom Blotter ─── */
+    .blotter {
+        background: var(--bg-surface);
+        border-top: 1px solid var(--border-subtle);
+        z-index: var(--z-blotter);
+        display: flex;
+        flex-direction: column;
+        transition: height var(--transition-base);
+        flex-shrink: 0;
+    }
+    .blotter.collapsed { height: var(--blotter-collapsed); }
+    .blotter.expanded { height: var(--blotter-expanded); }
+
+    /* Mobile */
+    @media (max-width: 767px) {
+        .nav-link span { display: none; }
+        .nav-link { padding: 6px 8px; }
+        .navbar-right .cmd-search, .navbar-right .topbar-stat { display: none; }
+        .ai-panel.open { width: 100%; position: fixed; right: 0; top: 52px; bottom: 0; z-index: 200; }
+    }
+    @media (max-width: 480px) {
+        .nav-divider { display: none; }
+        .pnl-badge span:first-child { display: none; }
+    }
+    </style>
+</head>
+<body x-data="appShell()" @keydown.window="handleKeydown($event)">
+
+    <div class="app-shell">
+        <!-- ═══ TOP NAVIGATION BAR ═══ -->
+        <nav class="top-navbar">
+            <!-- Brand -->
+            <div class="navbar-brand">
+                <div class="brand-icon">⚡</div>
+                <span class="brand-text">TRADE<span style="color:var(--neon-cyan)">KARO</span></span>
+            </div>
+
+            <!-- Navigation Links -->
+            <div class="navbar-links">
+                <a href="/" class="nav-link {% if active_page == 'dashboard' %}active{% endif %}">
+                    <i class="fa-solid fa-chart-pie"></i> <span>Dashboard</span>
+                </a>
+                <a href="/terminal" class="nav-link {% if active_page == 'terminal' %}active{% endif %}">
+                    <i class="fa-solid fa-chart-line"></i> <span>Terminal</span>
+                </a>
+                <a href="/journal" class="nav-link {% if active_page == 'journal' %}active{% endif %}">
+                    <i class="fa-solid fa-book"></i> <span>Journal</span>
+                </a>
+
+                <div class="nav-divider"></div>
+
+                <a href="/brain" class="nav-link {% if active_page == 'brain' %}active{% endif %}">
+                    <i class="fa-solid fa-brain"></i> <span>AI Brain</span>
+                </a>
+                <a href="/options" class="nav-link {% if active_page == 'options' %}active{% endif %}">
+                    <i class="fa-solid fa-layer-group"></i> <span>Options</span>
+                </a>
+                <a href="/news" class="nav-link {% if active_page == 'news' %}active{% endif %}">
+                    <i class="fa-solid fa-newspaper"></i> <span>Intel</span>
+                </a>
+
+                <div class="nav-divider"></div>
+
+                <a href="/portfolio" class="nav-link {% if active_page == 'portfolio' %}active{% endif %}">
+                    <i class="fa-solid fa-wallet"></i> <span>Portfolio</span>
+                </a>
+                <a href="/settings" class="nav-link {% if active_page == 'settings' %}active{% endif %}">
+                    <i class="fa-solid fa-sliders"></i> <span>Settings</span>
+                </a>
+            </div>
+
+            <!-- Right Side -->
+            <div class="navbar-right">
+                <!-- Command Search -->
+                <div class="cmd-search" @click="commandPalette=true" id="cmd-search">
+                    <i class="fa-solid fa-search" style="font-size:11px;"></i>
+                    <span>Search...</span>
+                    <kbd>⌘K</kbd>
+                </div>
+                <!-- P&L Badge -->
+                <div class="pnl-badge" :class="globalPnl >= 0 ? 'profit' : 'loss'" id="pnl-badge">
+                    <i class="fa-solid" :class="globalPnl >= 0 ? 'fa-arrow-trend-up' : 'fa-arrow-trend-down'"></i>
+                    <span>₹<span x-text="formatNum(globalPnl)">0</span></span>
+                </div>
+                <!-- Status -->
+                <div class="topbar-stat">
+                    <span class="status-dot" :class="connected ? 'live' : 'offline'"></span>
+                    <span x-text="connected ? 'LIVE' : 'OFF'">OFF</span>
+                </div>
+                <!-- Clock -->
+                <div class="topbar-clock" x-text="clock">--:--:--</div>
+                <!-- AI Toggle -->
+                <button class="btn-ai-toggle" :class="{ 'active': aiPanelOpen }" @click="aiPanelOpen = !aiPanelOpen" title="AI Copilot (⌘B)">
+                    <i class="fa-solid fa-brain"></i>
+                </button>
+            </div>
+        </nav>
+
+        <!-- ═══ MAIN WRAPPER (Content + AI Panel) ═══ -->
+        <div class="main-wrapper">
+            <!-- Content -->
+            <main class="content-area" id="main-content">
+                {% block content %}{% endblock %}
+            </main>
+
+            <!-- AI Copilot Panel -->
+            <aside class="ai-panel" :class="{ 'open': aiPanelOpen }">
+                <div class="ai-panel-header">
+                    <h3><i class="fa-solid fa-brain text-purple"></i> AI Copilot</h3>
+                    <button @click="aiPanelOpen=false" class="btn-ghost" style="padding:4px 8px;font-size:11px;">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+                <div class="ai-chat-area" id="ai-chat-area">
+                    <div class="ai-message">
+                        <div class="ai-msg-avatar bot"><i class="fa-solid fa-robot"></i></div>
+                        <div class="ai-msg-bubble">
+                            Namaste! I'm your AI Trading Assistant.<br>
+                            <span style="font-size:10px;color:var(--text-muted);">Try: "status", "portfolio update", "analyze NIFTY"</span>
+                        </div>
+                    </div>
+                    <template x-for="msg in aiMessages" :key="msg.id">
+                        <div class="ai-message" :class="{ 'user': msg.sender === 'user' }">
+                            <div class="ai-msg-avatar" :class="msg.sender === 'user' ? 'human' : 'bot'">
+                                <i class="fa-solid" :class="msg.sender === 'user' ? 'fa-user' : 'fa-robot'"></i>
+                            </div>
+                            <div class="ai-msg-bubble" x-text="msg.text"></div>
+                        </div>
+                    </template>
+                    <div class="ai-message" x-show="aiTyping" x-cloak>
+                        <div class="ai-msg-avatar bot"><i class="fa-solid fa-robot"></i></div>
+                        <div class="ai-msg-bubble" style="display:flex;gap:4px;align-items:center;">
+                            <span class="status-dot live"></span>
+                            <span style="font-size:10px;color:var(--text-muted);">Thinking...</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="ai-input-area">
+                    <div class="ai-input-wrap">
+                        <input type="text" x-model="aiInput" @keydown.enter="sendAiMessage()" placeholder="Ask AI anything..." class="input" id="ai-input">
+                        <button @click="sendAiMessage()"><i class="fa-solid fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </aside>
+        </div>
+
+        <!-- ═══ BOTTOM BLOTTER ═══ -->
+        <div class="blotter" :class="blotterOpen ? 'expanded' : 'collapsed'">
+            <div class="blotter-header" @click="blotterOpen = !blotterOpen">
+                <div class="blotter-tabs">
+                    <button class="blotter-tab" :class="{ 'active': blotterTab === 'positions' }" @click.stop="blotterTab='positions'; blotterOpen=true">
+                        <i class="fa-solid fa-briefcase"></i> Positions
+                    </button>
+                    <button class="blotter-tab" :class="{ 'active': blotterTab === 'logs' }" @click.stop="blotterTab='logs'; blotterOpen=true">
+                        <i class="fa-solid fa-server"></i> System
+                    </button>
+                    <button class="blotter-tab" :class="{ 'active': blotterTab === 'ai' }" @click.stop="blotterTab='ai'; blotterOpen=true">
+                        <i class="fa-solid fa-brain"></i> AI Thoughts
+                    </button>
+                </div>
+                <i class="fa-solid text-muted" :class="blotterOpen ? 'fa-chevron-down' : 'fa-chevron-up'" style="font-size:10px;"></i>
+            </div>
+            <div class="blotter-body" x-show="blotterOpen" x-cloak>
+                <div x-show="blotterTab === 'positions'" style="overflow:auto;height:100%;">
+                    <table class="data-table">
+                        <thead><tr><th>Symbol</th><th>Side</th><th class="center">Qty</th><th class="right">Entry</th><th class="right">LTP</th><th class="right">P&L</th></tr></thead>
+                        <tbody>
+                            <template x-for="p in positions" :key="p.symbol + p.time">
+                                <tr>
+                                    <td style="color:var(--text-primary);font-weight:600;" x-text="p.symbol"></td>
+                                    <td><span class="badge" :class="p.action==='B' ? 'badge-buy' : 'badge-sell'" x-text="p.action==='B' ? '▲ BUY' : '▼ SELL'"></span></td>
+                                    <td class="center" x-text="p.qty"></td>
+                                    <td class="right" x-text="'₹'+Number(p.entry||0).toFixed(2)"></td>
+                                    <td class="right" style="color:var(--text-primary);" x-text="'₹'+Number(p.current||0).toFixed(2)"></td>
+                                    <td class="right font-bold" :class="p.pnl >= 0 ? 'text-profit' : 'text-loss'" x-text="(p.pnl>=0?'+':'')+' ₹'+Math.abs(p.pnl||0).toFixed(2)"></td>
+                                </tr>
+                            </template>
+                            <tr x-show="positions.length === 0"><td colspan="6" class="text-center text-muted" style="padding:24px;font-style:italic;">No active positions</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div x-show="blotterTab === 'logs'" style="overflow:auto;height:100%;padding:8px 12px;font-family:var(--font-mono);font-size:11px;">
+                    <template x-for="log in systemLogs" :key="log.id">
+                        <div style="padding:2px 4px;display:flex;gap:8px;" class="truncate">
+                            <span class="text-muted" style="flex-shrink:0;width:50px;" x-text="log.time"></span>
+                            <span :style="log.text.includes('ERROR') ? 'color:var(--color-loss)' : log.text.includes('SIGNAL') ? 'color:var(--color-profit)' : 'color:var(--text-secondary)'" x-text="log.text"></span>
+                        </div>
+                    </template>
+                </div>
+                <div x-show="blotterTab === 'ai'" style="overflow:auto;height:100%;padding:8px 12px;font-family:var(--font-mono);font-size:11px;">
+                    <template x-for="log in aiLogs" :key="log.id">
+                        <div style="padding:2px 4px;display:flex;gap:8px;" class="truncate">
+                            <span class="text-muted" style="flex-shrink:0;width:50px;" x-text="log.time"></span>
+                            <span class="text-cyan" x-text="log.text"></span>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══ COMMAND PALETTE ═══ -->
+    <div x-show="commandPalette" x-cloak @keydown.escape.window="commandPalette=false" style="display:none;">
+        <div class="modal-backdrop" @click="commandPalette=false"></div>
+        <div class="modal-content">
+            <div class="command-palette">
+                <input type="text" class="command-palette-input" placeholder="Search pages, symbols, commands..." x-model="cmdQuery" @input="filterCommands()" x-ref="cmdInput" autofocus>
+                <div class="command-results">
+                    <template x-for="item in cmdResults" :key="item.label">
+                        <a :href="item.href" class="command-result-item" @click="commandPalette=false">
+                            <i :class="item.icon"></i>
+                            <span x-text="item.label"></span>
+                            <span style="margin-left:auto;font-size:10px;color:var(--text-muted);" x-text="item.hint||''"></span>
+                        </a>
+                    </template>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══ KILL SWITCH MODAL ═══ -->
+    <div x-show="killModal" x-cloak style="display:none;">
+        <div class="kill-modal">
+            <div class="kill-modal-box">
+                <i class="fa-solid fa-triangle-exclamation text-loss" style="font-size:48px;margin-bottom:16px;"></i>
+                <h2 style="font-size:var(--text-xl);font-weight:800;margin-bottom:8px;">EMERGENCY STOP</h2>
+                <p class="text-secondary text-xs" style="margin-bottom:20px;">Type <strong class="text-loss">KILL</strong> to confirm.</p>
+                <input type="text" class="input" style="text-align:center;font-size:var(--text-lg);font-weight:700;letter-spacing:4px;margin-bottom:16px;" x-model="killConfirmText" placeholder="Type KILL">
+                <div class="flex gap-3 justify-center">
+                    <button class="btn btn-ghost" @click="killModal=false; killConfirmText=''">Cancel</button>
+                    <button class="btn btn-kill" :disabled="killConfirmText !== 'KILL'" :style="killConfirmText !== 'KILL' ? 'opacity:0.3;cursor:not-allowed;' : ''" @click="executeKill()">⚠️ KILL ALL</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══ TOASTS ═══ -->
+    <div class="toast-container" id="toast-container">
+        <template x-for="t in toasts" :key="t.id">
+            <div class="toast" :class="t.type" x-show="t.visible" x-transition>
+                <i class="fa-solid" :class="t.type==='success'?'fa-check-circle text-profit':t.type==='error'?'fa-times-circle text-loss':t.type==='warning'?'fa-exclamation-triangle text-yellow':'fa-info-circle text-cyan'"></i>
+                <span x-text="t.message" style="flex:1;"></span>
+                <button @click="removeToast(t.id)" style="color:var(--text-muted);font-size:11px;padding:2px;"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+        </template>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+    {% block scripts %}{% endblock %}
+</body>
+</html>

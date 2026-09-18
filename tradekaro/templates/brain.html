@@ -1,0 +1,161 @@
+{% extends "base.html" %}
+{% block title %}AI Brain{% endblock %}
+{% block page_title %}<i class="fa-solid fa-brain text-purple"></i> AI Brain — Neural Monitor{% endblock %}
+
+{% block content %}
+<div x-data="brainPage()" x-init="init()" class="animate-fade-in">
+
+    <!-- ═══ Brain Stats Cards ═══ -->
+    <div class="grid grid-6 mb-4">
+        <div class="glass-card text-center">
+            <div class="card-label">Model Version</div>
+            <div class="stat-value sm font-mono text-purple" x-text="brain.model_version || 'N/A'">N/A</div>
+        </div>
+        <div class="glass-card text-center">
+            <div class="card-label">Accuracy</div>
+            <div class="stat-value sm font-mono text-cyan" x-text="brain.accuracy? brain.accuracy+'%' : 'N/A'">N/A</div>
+        </div>
+        <div class="glass-card text-center">
+            <div class="card-label">Parameters</div>
+            <div class="stat-value sm font-mono" style="color:var(--text-primary);" x-text="brain.model_params ? Number(brain.model_params).toLocaleString() : '0'">0</div>
+        </div>
+        <div class="glass-card text-center">
+            <div class="card-label">Win Rate</div>
+            <div class="stat-value sm font-mono text-profit" x-text="brain.win_rate ? brain.win_rate+'%' : '0%'">0%</div>
+        </div>
+        <div class="glass-card text-center">
+            <div class="card-label">Total Trades</div>
+            <div class="stat-value sm font-mono" style="color:var(--text-primary);" x-text="brain.total_trades || 0">0</div>
+        </div>
+        <div class="glass-card text-center">
+            <div class="card-label">Uptime</div>
+            <div class="stat-value sm font-mono text-muted" x-text="formatUptime(brain.uptime_seconds)">--</div>
+        </div>
+    </div>
+
+    <div class="grid grid-12" style="gap:16px;">
+        <!-- LEFT: Confidence Heatmap (8 cols) -->
+        <div class="col-span-8 glass-card">
+            <div class="section-header">
+                <div class="section-title"><i class="fa-solid fa-fire text-yellow"></i> Stock Confidence Heatmap</div>
+                <span class="badge badge-ai"><i class="fa-solid fa-brain"></i> NEURAL</span>
+            </div>
+            <div class="grid grid-4" style="gap:8px;max-height:280px;overflow:auto;">
+                <template x-for="(data, symbol) in brain.stocks" :key="symbol">
+                    <div class="heatmap-cell" :class="data.signal === 'BUY' ? 'bullish' : data.signal === 'SELL' ? 'bearish' : 'neutral'">
+                        <div style="font-weight:700;font-size:var(--text-sm);color:var(--text-primary);" x-text="symbol"></div>
+                        <div class="font-mono" style="font-size:var(--text-2xs);margin-top:4px;" :class="data.signal === 'BUY' ? 'text-profit' : data.signal === 'SELL' ? 'text-loss' : 'text-muted'" x-text="data.signal + ' (' + (data.confidence * 100).toFixed(0) + '%)'"></div>
+                        <div class="text-muted" style="font-size:9px;margin-top:2px;" x-text="'Score: '+data.score"></div>
+                    </div>
+                </template>
+                <div x-show="Object.keys(brain.stocks || {}).length === 0" class="col-span-4">
+                    <div class="empty-state"><i class="fa-solid fa-brain"></i><p>Brain idle — no predictions</p></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- RIGHT: The Council (4 cols) -->
+        <div class="col-span-4 flex flex-col gap-4">
+            <div class="glass-card">
+                <div class="section-header">
+                    <div class="section-title"><i class="fa-solid fa-people-arrows text-cyan"></i> The Council</div>
+                </div>
+                <div class="flex flex-col gap-3">
+                    <template x-for="(data, name) in council" :key="name">
+                        <div class="flex items-center gap-3" style="background:var(--bg-card);padding:10px 14px;border-radius:var(--radius-sm);border:1px solid var(--border-subtle);">
+                            <div style="width:36px;height:36px;border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:center;font-size:16px;"
+                                :class="data.status === 'BULLISH' || data.status === 'GREED' ? 'text-profit' : data.status === 'BEARISH' || data.status === 'FEAR' ? 'text-loss' : 'text-yellow'"
+                                :style="'background:' + (data.status === 'BULLISH' || data.status === 'GREED' ? 'var(--color-profit-bg)' : data.status === 'BEARISH' || data.status === 'FEAR' ? 'var(--color-loss-bg)' : 'rgba(251,191,36,0.1)')">
+                                <i class="fa-solid" :class="name.includes('MACRO') ? 'fa-earth-americas' : name.includes('TECH') ? 'fa-brain' : 'fa-newspaper'"></i>
+                            </div>
+                            <div style="flex:1;min-width:0;">
+                                <div class="font-mono" style="font-size:10px;color:var(--text-muted);text-transform:uppercase;" x-text="name"></div>
+                                <div class="font-bold font-mono text-sm" :class="data.status === 'BULLISH' || data.status === 'GREED' ? 'text-profit' : data.status === 'BEARISH' || data.status === 'FEAR' ? 'text-loss' : 'text-yellow'" x-text="data.status || 'WAITING'"></div>
+                            </div>
+                            <div class="text-muted truncate" style="font-size:9px;max-width:80px;" x-text="data.details || '--'"></div>
+                        </div>
+                    </template>
+                    <div x-show="Object.keys(council).length === 0" class="text-muted text-xs text-center" style="padding:20px;">Council offline</div>
+                </div>
+            </div>
+
+            <!-- Symbol Stats -->
+            <div class="glass-card" style="max-height:220px;overflow:auto;">
+                <div class="section-header">
+                    <div class="section-title"><i class="fa-solid fa-chart-bar text-cyan"></i> Per Symbol Stats</div>
+                </div>
+                <div class="flex flex-col gap-1" style="font-size:var(--text-2xs);font-family:var(--font-mono);">
+                    <template x-for="(stats, sym) in (brain.symbol_stats || {})" :key="sym">
+                        <div class="flex justify-between items-center" style="padding:4px 0;border-bottom:1px solid var(--border-subtle);">
+                            <span style="color:var(--text-primary);font-weight:600;" x-text="sym"></span>
+                            <span :class="stats.pnl >= 0 ? 'text-profit' : 'text-loss'" x-text="'₹' + stats.pnl + ' (' + stats.winRate + '%)'"></span>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══ Training Monitor ═══ -->
+    <div class="glass-card" style="margin-top:16px;">
+        <div class="section-header">
+            <div class="section-title"><i class="fa-solid fa-graduation-cap text-purple"></i> Neural Training Monitor</div>
+            <div class="flex items-center gap-2">
+                <span class="status-dot" :class="training.running ? 'live' : 'offline'"></span>
+                <span class="font-mono text-muted" style="font-size:10px;" x-text="training.running ? 'TRAINING ONLINE' : 'IDLE'"></span>
+            </div>
+        </div>
+        <div class="grid grid-3" style="gap:12px;margin-bottom:12px;">
+            <div class="text-center"><div class="card-label">Accuracy</div><div class="font-mono text-cyan text-sm font-bold" x-text="training.accuracy ? (training.accuracy * 100).toFixed(1)+'%' : 'N/A'"></div></div>
+            <div class="text-center"><div class="card-label">Versions</div><div class="font-mono text-sm font-bold" style="color:var(--text-primary);" x-text="training.versions || 0"></div></div>
+            <div class="text-center"><div class="card-label">Profit Factor</div><div class="font-mono text-profit text-sm font-bold" x-text="brain.profit_factor || '0'"></div></div>
+        </div>
+        <div style="background:rgba(0,0,0,0.4);border-radius:var(--radius-sm);padding:8px;max-height:150px;overflow:auto;font-family:var(--font-mono);font-size:10px;color:var(--text-muted);">
+            <template x-for="log in training.logs" :key="Math.random()">
+                <div class="truncate" style="padding:1px 0;" x-text="log"></div>
+            </template>
+            <div x-show="!training.logs || training.logs.length===0" style="padding:16px;text-align:center;font-style:italic;">No training log stream...</div>
+        </div>
+    </div>
+</div>
+
+<script>
+function brainPage() {
+    return {
+        brain: { stocks: {}, model_version: '', accuracy: 0, model_params: 0, win_rate: 0, total_trades: 0, uptime_seconds: 0, profit_factor: 0, symbol_stats: {} },
+        council: {},
+        training: { running: false, accuracy: null, versions: 0, logs: [] },
+
+        init() {
+            this.fetchAll();
+            setInterval(() => { if (!document.hidden) this.fetchAll(); }, 5000);
+            window.addEventListener('brain-update', (e) => {
+                Object.assign(this.brain, e.detail);
+            });
+        },
+
+        async fetchAll() {
+            const [state, cncl, trn] = await Promise.all([
+                smartFetch('/api/brain-state', {}),
+                smartFetch('/api/council_status', {}),
+                smartFetch('/api/training-status', {})
+            ]);
+            if (state) Object.assign(this.brain, state);
+            if (cncl) this.council = cncl;
+            if (trn && !trn.error) {
+                this.training.running = trn.trainer_running || false;
+                this.training.accuracy = trn.model?.accuracy || null;
+                this.training.versions = trn.total_versions || 0;
+                if (trn.recent_logs) this.training.logs = trn.recent_logs;
+            }
+        },
+
+        formatUptime(s) {
+            if (!s) return '--';
+            const h = Math.floor(s / 3600), m = Math.floor((s % 3600) / 60);
+            return `${h}h ${m}m`;
+        }
+    };
+}
+</script>
+{% endblock %}

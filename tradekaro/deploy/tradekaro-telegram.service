@@ -1,0 +1,18 @@
+[Unit]
+Description=TradeKaro Telegram Listener (emergency KILL ALL)
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/var/www/tradekaro/Trading_AI_Project
+ExecStart=/var/www/tradekaro/Trading_AI_Project/venv/bin/python telegram_listener.py
+Restart=always
+RestartSec=10
+Slice=projects.slice
+Environment=PYTHONUNBUFFERED=1
+CPUQuota=50%
+MemoryMax=2G
+
+[Install]
+WantedBy=multi-user.target

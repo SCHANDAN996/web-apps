@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+{% block title %}Trade Journal{% endblock %}
+{% block page_title %}<i class="fa-solid fa-book text-cyan"></i> Trade Journal{% endblock %}
+
+{% block content %}
+<div x-data="journalPage()" x-init="init()" class="animate-fade-in">
+
+    <!-- Stats Row -->
+    <div class="grid grid-4 mb-4">
+        <div class="glass-card text-center"><div class="card-label">Total Trades</div><div class="stat-value md font-mono" style="color:var(--text-primary);" x-text="stats.total">0</div></div>
+        <div class="glass-card text-center"><div class="card-label">Win Rate</div><div class="stat-value md font-mono text-cyan" x-text="stats.winRate + '%'">0%</div></div>
+        <div class="glass-card text-center"><div class="card-label">Total P&L</div>
+            <div class="stat-value md font-mono" :class="stats.pnl >= 0 ? 'text-profit' : 'text-loss'" x-text="'₹' + formatNum(stats.pnl)">₹0</div>
+        </div>
+        <div class="glass-card text-center"><div class="card-label">Avg R:R</div><div class="stat-value md font-mono text-purple" x-text="stats.avgRR">0</div></div>
+    </div>
+
+    <!-- Tabs -->
+    <div class="tabs">
+        <button class="tab" :class="{ 'active': tab === 'all' }" @click="tab='all'">All Trades</button>
+        <button class="tab" :class="{ 'active': tab === 'paper' }" @click="tab='paper'">Paper</button>
+        <button class="tab" :class="{ 'active': tab === 'live' }" @click="tab='live'">Live</button>
+    </div>
+
+    <!-- Trade Table -->
+    <div class="glass-card p-0" style="overflow:auto;max-height:calc(100vh - 350px);">
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Date</th><th>Symbol</th><th>Type</th><th>Side</th>
+                    <th class="right">Entry</th><th class="right">Exit</th>
+                    <th class="right">P&L</th><th class="right">R:R</th>
+                    <th>Reason</th><th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <template x-for="trade in filteredTrades" :key="trade.id || Math.random()">
+                    <tr>
+                        <td class="text-muted" x-text="trade.date || '--'"></td>
+                        <td style="color:var(--text-primary);font-weight:600;" x-text="trade.symbol"></td>
+                        <td><span class="badge badge-ai" x-text="trade.tradeType || 'PAPER'"></span></td>
+                        <td><span class="badge" :class="trade.side === 'B' ? 'badge-buy' : 'badge-sell'" x-text="trade.side === 'B' ? '▲ BUY' : '▼ SELL'"></span></td>
+                        <td class="right" x-text="'₹' + Number(trade.entry || 0).toFixed(2)"></td>
+                        <td class="right" x-text="trade.exit ? '₹'+Number(trade.exit).toFixed(2) : '--'"></td>
+                        <td class="right font-bold" :class="(trade.pnl||0) >= 0 ? 'text-profit' : 'text-loss'"
+                            x-text="(trade.pnl>=0?'+':'')+' ₹'+Math.abs(trade.pnl||0).toFixed(0)"></td>
+                        <td class="right" x-text="trade.rr ? Number(trade.rr).toFixed(1) : '--'"></td>
+                        <td class="truncate text-muted" style="max-width:120px;" x-text="trade.exitReason || trade.reason || '--'"></td>
+                        <td><span class="badge" :class="trade.status === 'CLOSED' ? 'badge-sell' : 'badge-live'" x-text="trade.status"></span></td>
+                    </tr>
+                </template>
+                <tr x-show="filteredTrades.length === 0">
+                    <td colspan="10" style="padding:48px;text-align:center;">
+                        <div class="empty-state" style="padding:0;"><i class="fa-solid fa-book-open"></i><p>No trades in journal</p></div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script>
+function journalPage() {
+    return {
+        tab: 'all',
+        trades: [],
+        stats: { total: 0, winRate: 0, pnl: 0, avgRR: 0 },
+
+        get filteredTrades() {
+            if (this.tab === 'all') return this.trades;
+            return this.trades.filter(t => t.tradeType === (this.tab === 'paper' ? 'PAPER' : 'LIVE'));
+        },
+
+        init() { this.fetchJournal(); },
+
+        async fetchJournal() {
+            const data = await smartFetch('/api/trade-journal', {});
+            if (data && data.trades && Array.isArray(data.trades)) {
+                this.trades = data.trades;
+            }
+            if (data && data.summary) {
+                const s = data.summary;
+                this.stats.total = s.total || 0;
+                this.stats.winRate = Math.round(s.winRate || 0);
+                this.stats.pnl = Math.round(s.pnl || 0);
+                this.stats.avgRR = (s.avgRR || 0).toFixed ? Number(s.avgRR || 0).toFixed(1) : '0';
+            }
+        },
+
+        formatNum(n) { return formatNum(n); }
+    };
+}
+</script>
+{% endblock %}

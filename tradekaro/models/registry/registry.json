@@ -1,0 +1,2662 @@
+{
+  "versions": [
+    {
+      "version_id": "v001",
+      "filename": "v001_20260311_1602.pth",
+      "timestamp": "2026-03-11T16:02:35.312171",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 4.22
+    },
+    {
+      "version_id": "v002",
+      "filename": "v002_20260311_1602.pth",
+      "timestamp": "2026-03-11T16:02:35.331899",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 4.22
+    },
+    {
+      "version_id": "v003",
+      "filename": "v003_20260312_1602.pth",
+      "timestamp": "2026-03-12T16:02:35.952351",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 4.22
+    },
+    {
+      "version_id": "v004",
+      "filename": "v004_20260312_1602.pth",
+      "timestamp": "2026-03-12T16:02:35.997201",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 4.22
+    },
+    {
+      "version_id": "v005",
+      "filename": "v005_20260314_1600.pth",
+      "timestamp": "2026-03-14T16:00:29.685965",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 4.22
+    },
+    {
+      "version_id": "v006",
+      "filename": "v006_20260314_1600.pth",
+      "timestamp": "2026-03-14T16:00:29.892442",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 4.22
+    },
+    {
+      "version_id": "v007",
+      "filename": "v007_20260315_1600.pth",
+      "timestamp": "2026-03-15T16:00:31.802308",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 4.22
+    },
+    {
+      "version_id": "v008",
+      "filename": "v008_20260315_1600.pth",
+      "timestamp": "2026-03-15T16:00:32.291216",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 4.22
+    },
+    {
+      "version_id": "v009",
+      "filename": "v009_20260317_1602.pth",
+      "timestamp": "2026-03-17T16:02:48.868416",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 4.22
+    },
+    {
+      "version_id": "v010",
+      "filename": "v010_20260317_1602.pth",
+      "timestamp": "2026-03-17T16:02:48.876296",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 4.22
+    },
+    {
+      "version_id": "v011",
+      "filename": "v011_20260318_1602.pth",
+      "timestamp": "2026-03-18T16:02:48.921161",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 4.22
+    },
+    {
+      "version_id": "v012",
+      "filename": "v012_20260318_1602.pth",
+      "timestamp": "2026-03-18T16:02:48.927904",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 4.22
+    },
+    {
+      "version_id": "v013",
+      "filename": "v013_20260319_1602.pth",
+      "timestamp": "2026-03-19T16:02:48.955273",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 4.22
+    },
+    {
+      "version_id": "v014",
+      "filename": "v014_20260319_1602.pth",
+      "timestamp": "2026-03-19T16:02:48.969250",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 4.22
+    },
+    {
+      "version_id": "v015",
+      "filename": "v015_20260320_1602.pth",
+      "timestamp": "2026-03-20T16:02:48.999757",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 4.22
+    },
+    {
+      "version_id": "v016",
+      "filename": "v016_20260320_1602.pth",
+      "timestamp": "2026-03-20T16:02:49.009661",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 4.22
+    },
+    {
+      "version_id": "v017",
+      "filename": "v017_20260323_1602.pth",
+      "timestamp": "2026-03-23T16:02:11.560478",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 4.22
+    },
+    {
+      "version_id": "v018",
+      "filename": "v018_20260323_1602.pth",
+      "timestamp": "2026-03-23T16:02:11.575792",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 4.22
+    },
+    {
+      "version_id": "v019",
+      "filename": "v019_20260324_1602.pth",
+      "timestamp": "2026-03-24T16:02:11.720515",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 4.22
+    },
+    {
+      "version_id": "v020",
+      "filename": "v020_20260324_1602.pth",
+      "timestamp": "2026-03-24T16:02:11.727276",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 4.22
+    },
+    {
+      "version_id": "v021",
+      "filename": "v021_20260325_1602.pth",
+      "timestamp": "2026-03-25T16:02:11.863318",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 4.22
+    },
+    {
+      "version_id": "v022",
+      "filename": "v022_20260325_1602.pth",
+      "timestamp": "2026-03-25T16:02:11.872836",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 4.22
+    },
+    {
+      "version_id": "v023",
+      "filename": "v023_20260326_1602.pth",
+      "timestamp": "2026-03-26T16:02:11.975477",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 4.22
+    },
+    {
+      "version_id": "v024",
+      "filename": "v024_20260326_1602.pth",
+      "timestamp": "2026-03-26T16:02:11.991560",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 4.22
+    },
+    {
+      "version_id": "v025",
+      "filename": "v025_20260327_1602.pth",
+      "timestamp": "2026-03-27T16:02:12.142938",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 4.22
+    },
+    {
+      "version_id": "v026",
+      "filename": "v026_20260327_1602.pth",
+      "timestamp": "2026-03-27T16:02:12.152775",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 4.22
+    },
+    {
+      "version_id": "v027",
+      "filename": "v027_20260328_1602.pth",
+      "timestamp": "2026-03-28T16:02:12.162754",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.03
+    },
+    {
+      "version_id": "v028",
+      "filename": "v028_20260328_1602.pth",
+      "timestamp": "2026-03-28T16:02:12.166095",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.03
+    },
+    {
+      "version_id": "v029",
+      "filename": "v029_20260329_1602.pth",
+      "timestamp": "2026-03-29T16:02:12.183275",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.03
+    },
+    {
+      "version_id": "v030",
+      "filename": "v030_20260329_1602.pth",
+      "timestamp": "2026-03-29T16:02:12.188466",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.03
+    },
+    {
+      "version_id": "v031",
+      "filename": "v031_20260330_1602.pth",
+      "timestamp": "2026-03-30T16:02:12.215035",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.03
+    },
+    {
+      "version_id": "v032",
+      "filename": "v032_20260330_1602.pth",
+      "timestamp": "2026-03-30T16:02:12.217483",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.03
+    },
+    {
+      "version_id": "v033",
+      "filename": "v033_20260331_1602.pth",
+      "timestamp": "2026-03-31T16:02:12.231481",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.03
+    },
+    {
+      "version_id": "v034",
+      "filename": "v034_20260331_1602.pth",
+      "timestamp": "2026-03-31T16:02:12.234709",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.03
+    },
+    {
+      "version_id": "v035",
+      "filename": "v035_20260401_1602.pth",
+      "timestamp": "2026-04-01T16:02:12.260649",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.03
+    },
+    {
+      "version_id": "v036",
+      "filename": "v036_20260401_1602.pth",
+      "timestamp": "2026-04-01T16:02:12.264617",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.03
+    },
+    {
+      "version_id": "v037",
+      "filename": "v037_20260402_1602.pth",
+      "timestamp": "2026-04-02T16:02:12.281267",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.03
+    },
+    {
+      "version_id": "v038",
+      "filename": "v038_20260402_1602.pth",
+      "timestamp": "2026-04-02T16:02:12.297800",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.03
+    },
+    {
+      "version_id": "v039",
+      "filename": "v039_20260403_1602.pth",
+      "timestamp": "2026-04-03T16:02:12.333900",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.03
+    },
+    {
+      "version_id": "v040",
+      "filename": "v040_20260403_1602.pth",
+      "timestamp": "2026-04-03T16:02:12.357826",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.03
+    },
+    {
+      "version_id": "v041",
+      "filename": "v041_20260404_1602.pth",
+      "timestamp": "2026-04-04T16:02:12.392707",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.03
+    },
+    {
+      "version_id": "v042",
+      "filename": "v042_20260404_1602.pth",
+      "timestamp": "2026-04-04T16:02:12.414336",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.03
+    },
+    {
+      "version_id": "v043",
+      "filename": "v043_20260405_1602.pth",
+      "timestamp": "2026-04-05T16:02:12.442728",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.03
+    },
+    {
+      "version_id": "v044",
+      "filename": "v044_20260405_1602.pth",
+      "timestamp": "2026-04-05T16:02:12.463201",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.03
+    },
+    {
+      "version_id": "v045",
+      "filename": "v045_20260406_1602.pth",
+      "timestamp": "2026-04-06T16:02:12.495758",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.03
+    },
+    {
+      "version_id": "v046",
+      "filename": "v046_20260406_1602.pth",
+      "timestamp": "2026-04-06T16:02:12.522171",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.03
+    },
+    {
+      "version_id": "v047",
+      "filename": "v047_20260407_1602.pth",
+      "timestamp": "2026-04-07T16:02:12.573029",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v048",
+      "filename": "v048_20260407_1602.pth",
+      "timestamp": "2026-04-07T16:02:12.631503",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v049",
+      "filename": "v049_20260408_1602.pth",
+      "timestamp": "2026-04-08T16:02:12.671141",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v050",
+      "filename": "v050_20260408_1602.pth",
+      "timestamp": "2026-04-08T16:02:12.690623",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v051",
+      "filename": "v051_20260409_1603.pth",
+      "timestamp": "2026-04-09T16:03:10.988429",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v052",
+      "filename": "v052_20260409_1603.pth",
+      "timestamp": "2026-04-09T16:03:10.991471",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v053",
+      "filename": "v053_20260410_1604.pth",
+      "timestamp": "2026-04-10T16:04:30.198860",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v054",
+      "filename": "v054_20260410_1604.pth",
+      "timestamp": "2026-04-10T16:04:30.204465",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v055",
+      "filename": "v055_20260411_1604.pth",
+      "timestamp": "2026-04-11T16:04:30.215185",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v056",
+      "filename": "v056_20260411_1604.pth",
+      "timestamp": "2026-04-11T16:04:30.218800",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v057",
+      "filename": "v057_20260412_1604.pth",
+      "timestamp": "2026-04-12T16:04:30.231352",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v058",
+      "filename": "v058_20260412_1604.pth",
+      "timestamp": "2026-04-12T16:04:30.236410",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v059",
+      "filename": "v059_20260413_1604.pth",
+      "timestamp": "2026-04-13T16:04:30.255606",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v060",
+      "filename": "v060_20260413_1604.pth",
+      "timestamp": "2026-04-13T16:04:30.257547",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v061",
+      "filename": "v061_20260414_1604.pth",
+      "timestamp": "2026-04-14T16:04:30.270931",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v062",
+      "filename": "v062_20260414_1604.pth",
+      "timestamp": "2026-04-14T16:04:30.275738",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v063",
+      "filename": "v063_20260415_1604.pth",
+      "timestamp": "2026-04-15T16:04:30.288134",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v064",
+      "filename": "v064_20260415_1604.pth",
+      "timestamp": "2026-04-15T16:04:30.291331",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v065",
+      "filename": "v065_20260416_1604.pth",
+      "timestamp": "2026-04-16T16:04:30.300161",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v066",
+      "filename": "v066_20260416_1604.pth",
+      "timestamp": "2026-04-16T16:04:30.302030",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v067",
+      "filename": "v067_20260417_1603.pth",
+      "timestamp": "2026-04-17T16:03:57.290326",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v068",
+      "filename": "v068_20260417_1603.pth",
+      "timestamp": "2026-04-17T16:03:57.298497",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v069",
+      "filename": "v069_20260418_1603.pth",
+      "timestamp": "2026-04-18T16:03:57.308733",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v070",
+      "filename": "v070_20260418_1603.pth",
+      "timestamp": "2026-04-18T16:03:57.315819",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v071",
+      "filename": "v071_20260419_1603.pth",
+      "timestamp": "2026-04-19T16:03:57.325329",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v072",
+      "filename": "v072_20260419_1603.pth",
+      "timestamp": "2026-04-19T16:03:57.333139",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v073",
+      "filename": "v073_20260420_1603.pth",
+      "timestamp": "2026-04-20T16:03:57.343563",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v074",
+      "filename": "v074_20260420_1603.pth",
+      "timestamp": "2026-04-20T16:03:57.351980",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v075",
+      "filename": "v075_20260421_1603.pth",
+      "timestamp": "2026-04-21T16:03:57.384921",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v076",
+      "filename": "v076_20260421_1603.pth",
+      "timestamp": "2026-04-21T16:03:57.394393",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v077",
+      "filename": "v077_20260422_1602.pth",
+      "timestamp": "2026-04-22T16:02:15.330306",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v078",
+      "filename": "v078_20260422_1602.pth",
+      "timestamp": "2026-04-22T16:02:17.233960",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v079",
+      "filename": "v079_20260423_1600.pth",
+      "timestamp": "2026-04-23T16:00:16.765855",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v080",
+      "filename": "v080_20260423_1600.pth",
+      "timestamp": "2026-04-23T16:00:16.769031",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v081",
+      "filename": "v081_20260424_1600.pth",
+      "timestamp": "2026-04-24T16:00:16.782354",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v082",
+      "filename": "v082_20260424_1600.pth",
+      "timestamp": "2026-04-24T16:00:16.794794",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v083",
+      "filename": "v083_20260425_1600.pth",
+      "timestamp": "2026-04-25T16:00:16.812892",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v084",
+      "filename": "v084_20260425_1600.pth",
+      "timestamp": "2026-04-25T16:00:16.822600",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v085",
+      "filename": "v085_20260426_1600.pth",
+      "timestamp": "2026-04-26T16:00:16.832629",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v086",
+      "filename": "v086_20260426_1600.pth",
+      "timestamp": "2026-04-26T16:00:16.842627",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v087",
+      "filename": "v087_20260427_1600.pth",
+      "timestamp": "2026-04-27T16:00:16.854720",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v088",
+      "filename": "v088_20260427_1600.pth",
+      "timestamp": "2026-04-27T16:00:16.865433",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v089",
+      "filename": "v089_20260428_1600.pth",
+      "timestamp": "2026-04-28T16:00:16.880597",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v090",
+      "filename": "v090_20260428_1600.pth",
+      "timestamp": "2026-04-28T16:00:16.901704",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v091",
+      "filename": "v091_20260429_1600.pth",
+      "timestamp": "2026-04-29T16:00:16.918835",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v092",
+      "filename": "v092_20260429_1600.pth",
+      "timestamp": "2026-04-29T16:00:16.930581",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v093",
+      "filename": "v093_20260430_1600.pth",
+      "timestamp": "2026-04-30T16:00:16.943663",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v094",
+      "filename": "v094_20260430_1600.pth",
+      "timestamp": "2026-04-30T16:00:16.950037",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v095",
+      "filename": "v095_20260501_1600.pth",
+      "timestamp": "2026-05-01T16:00:16.997865",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v096",
+      "filename": "v096_20260501_1600.pth",
+      "timestamp": "2026-05-01T16:00:17.017710",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v097",
+      "filename": "v097_20260502_1600.pth",
+      "timestamp": "2026-05-02T16:00:17.223933",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v098",
+      "filename": "v098_20260502_1600.pth",
+      "timestamp": "2026-05-02T16:00:17.264343",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v099",
+      "filename": "v099_20260503_1600.pth",
+      "timestamp": "2026-05-03T16:00:17.290602",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v100",
+      "filename": "v100_20260503_1600.pth",
+      "timestamp": "2026-05-03T16:00:17.306937",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v101",
+      "filename": "v101_20260504_1600.pth",
+      "timestamp": "2026-05-04T16:00:17.338223",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v102",
+      "filename": "v102_20260504_1600.pth",
+      "timestamp": "2026-05-04T16:00:17.375232",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v103",
+      "filename": "v103_20260505_1600.pth",
+      "timestamp": "2026-05-05T16:00:17.493691",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v104",
+      "filename": "v104_20260505_1600.pth",
+      "timestamp": "2026-05-05T16:00:17.532447",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v105",
+      "filename": "v105_20260506_1600.pth",
+      "timestamp": "2026-05-06T16:00:17.585945",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v106",
+      "filename": "v106_20260506_1600.pth",
+      "timestamp": "2026-05-06T16:00:17.609370",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v107",
+      "filename": "v107_20260507_1600.pth",
+      "timestamp": "2026-05-07T16:00:17.639318",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v108",
+      "filename": "v108_20260507_1600.pth",
+      "timestamp": "2026-05-07T16:00:17.657268",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v109",
+      "filename": "v109_20260508_1600.pth",
+      "timestamp": "2026-05-08T16:00:17.679145",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v110",
+      "filename": "v110_20260508_1600.pth",
+      "timestamp": "2026-05-08T16:00:17.692436",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v111",
+      "filename": "v111_20260509_1600.pth",
+      "timestamp": "2026-05-09T16:00:17.714513",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v112",
+      "filename": "v112_20260509_1600.pth",
+      "timestamp": "2026-05-09T16:00:17.736712",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v113",
+      "filename": "v113_20260510_1600.pth",
+      "timestamp": "2026-05-10T16:00:17.805801",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v114",
+      "filename": "v114_20260510_1600.pth",
+      "timestamp": "2026-05-10T16:00:17.823735",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v115",
+      "filename": "v115_20260511_1600.pth",
+      "timestamp": "2026-05-11T16:00:17.849457",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v116",
+      "filename": "v116_20260511_1600.pth",
+      "timestamp": "2026-05-11T16:00:17.871128",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v117",
+      "filename": "v117_20260512_1600.pth",
+      "timestamp": "2026-05-12T16:00:17.975571",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v118",
+      "filename": "v118_20260512_1600.pth",
+      "timestamp": "2026-05-12T16:00:17.997624",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v119",
+      "filename": "v119_20260513_1600.pth",
+      "timestamp": "2026-05-13T16:00:18.036116",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v120",
+      "filename": "v120_20260513_1600.pth",
+      "timestamp": "2026-05-13T16:00:18.052017",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v121",
+      "filename": "v121_20260514_1600.pth",
+      "timestamp": "2026-05-14T16:00:18.075282",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v122",
+      "filename": "v122_20260514_1600.pth",
+      "timestamp": "2026-05-14T16:00:18.090634",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v123",
+      "filename": "v123_20260515_1600.pth",
+      "timestamp": "2026-05-15T16:00:18.114760",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v124",
+      "filename": "v124_20260515_1600.pth",
+      "timestamp": "2026-05-15T16:00:18.129709",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v125",
+      "filename": "v125_20260516_1600.pth",
+      "timestamp": "2026-05-16T16:00:18.156361",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v126",
+      "filename": "v126_20260516_1600.pth",
+      "timestamp": "2026-05-16T16:00:18.173193",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v127",
+      "filename": "v127_20260517_1600.pth",
+      "timestamp": "2026-05-17T16:00:18.200987",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v128",
+      "filename": "v128_20260517_1600.pth",
+      "timestamp": "2026-05-17T16:00:18.221904",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v129",
+      "filename": "v129_20260518_1600.pth",
+      "timestamp": "2026-05-18T16:00:18.290710",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v130",
+      "filename": "v130_20260518_1600.pth",
+      "timestamp": "2026-05-18T16:00:18.341716",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v131",
+      "filename": "v131_20260519_1600.pth",
+      "timestamp": "2026-05-19T16:00:18.401529",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v132",
+      "filename": "v132_20260519_1600.pth",
+      "timestamp": "2026-05-19T16:00:18.419943",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v133",
+      "filename": "v133_20260520_1600.pth",
+      "timestamp": "2026-05-20T16:00:18.464825",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v134",
+      "filename": "v134_20260520_1600.pth",
+      "timestamp": "2026-05-20T16:00:18.494935",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v135",
+      "filename": "v135_20260521_1600.pth",
+      "timestamp": "2026-05-21T16:00:18.533778",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v136",
+      "filename": "v136_20260521_1600.pth",
+      "timestamp": "2026-05-21T16:00:18.553668",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v137",
+      "filename": "v137_20260522_1600.pth",
+      "timestamp": "2026-05-22T16:00:18.585666",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v138",
+      "filename": "v138_20260522_1600.pth",
+      "timestamp": "2026-05-22T16:00:18.601264",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v139",
+      "filename": "v139_20260523_1600.pth",
+      "timestamp": "2026-05-23T16:00:18.632449",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v140",
+      "filename": "v140_20260523_1600.pth",
+      "timestamp": "2026-05-23T16:00:18.672821",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v141",
+      "filename": "v141_20260524_1600.pth",
+      "timestamp": "2026-05-24T16:00:18.713190",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v142",
+      "filename": "v142_20260524_1600.pth",
+      "timestamp": "2026-05-24T16:00:18.735989",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v143",
+      "filename": "v143_20260525_1600.pth",
+      "timestamp": "2026-05-25T16:00:18.781640",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v144",
+      "filename": "v144_20260525_1600.pth",
+      "timestamp": "2026-05-25T16:00:18.826028",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v145",
+      "filename": "v145_20260526_1600.pth",
+      "timestamp": "2026-05-26T16:00:18.886588",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v146",
+      "filename": "v146_20260526_1600.pth",
+      "timestamp": "2026-05-26T16:00:18.907368",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v147",
+      "filename": "v147_20260527_1600.pth",
+      "timestamp": "2026-05-27T16:00:18.931885",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v148",
+      "filename": "v148_20260527_1600.pth",
+      "timestamp": "2026-05-27T16:00:18.950675",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v149",
+      "filename": "v149_20260528_1600.pth",
+      "timestamp": "2026-05-28T16:00:19.003109",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v150",
+      "filename": "v150_20260528_1600.pth",
+      "timestamp": "2026-05-28T16:00:19.021108",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v151",
+      "filename": "v151_20260529_1600.pth",
+      "timestamp": "2026-05-29T16:00:19.065794",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v152",
+      "filename": "v152_20260529_1600.pth",
+      "timestamp": "2026-05-29T16:00:19.088188",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v153",
+      "filename": "v153_20260530_1600.pth",
+      "timestamp": "2026-05-30T16:00:19.126714",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v154",
+      "filename": "v154_20260530_1600.pth",
+      "timestamp": "2026-05-30T16:00:19.144642",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v155",
+      "filename": "v155_20260531_1600.pth",
+      "timestamp": "2026-05-31T16:00:19.175488",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v156",
+      "filename": "v156_20260531_1600.pth",
+      "timestamp": "2026-05-31T16:00:19.204266",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v157",
+      "filename": "v157_20260601_1600.pth",
+      "timestamp": "2026-06-01T16:00:19.246607",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v158",
+      "filename": "v158_20260601_1600.pth",
+      "timestamp": "2026-06-01T16:00:19.267683",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v159",
+      "filename": "v159_20260602_1600.pth",
+      "timestamp": "2026-06-02T16:00:19.295577",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v160",
+      "filename": "v160_20260602_1600.pth",
+      "timestamp": "2026-06-02T16:00:19.312306",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v161",
+      "filename": "v161_20260603_1603.pth",
+      "timestamp": "2026-06-03T16:03:22.287978",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v162",
+      "filename": "v162_20260603_1603.pth",
+      "timestamp": "2026-06-03T16:03:22.300540",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v163",
+      "filename": "v163_20260604_1603.pth",
+      "timestamp": "2026-06-04T16:03:22.312300",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v164",
+      "filename": "v164_20260604_1603.pth",
+      "timestamp": "2026-06-04T16:03:22.323271",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v165",
+      "filename": "v165_20260605_1603.pth",
+      "timestamp": "2026-06-05T16:03:22.335034",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v166",
+      "filename": "v166_20260605_1603.pth",
+      "timestamp": "2026-06-05T16:03:22.347191",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v167",
+      "filename": "v167_20260606_1603.pth",
+      "timestamp": "2026-06-06T16:03:22.357531",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v168",
+      "filename": "v168_20260606_1603.pth",
+      "timestamp": "2026-06-06T16:03:22.368756",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v169",
+      "filename": "v169_20260607_1603.pth",
+      "timestamp": "2026-06-07T16:03:22.379661",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v170",
+      "filename": "v170_20260607_1603.pth",
+      "timestamp": "2026-06-07T16:03:22.390657",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v171",
+      "filename": "v171_20260608_1603.pth",
+      "timestamp": "2026-06-08T16:03:22.402705",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v172",
+      "filename": "v172_20260608_1603.pth",
+      "timestamp": "2026-06-08T16:03:22.415652",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v173",
+      "filename": "v173_20260609_1603.pth",
+      "timestamp": "2026-06-09T16:03:22.433253",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v174",
+      "filename": "v174_20260609_1603.pth",
+      "timestamp": "2026-06-09T16:03:22.445555",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v175",
+      "filename": "v175_20260610_1603.pth",
+      "timestamp": "2026-06-10T16:03:22.457155",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v176",
+      "filename": "v176_20260610_1603.pth",
+      "timestamp": "2026-06-10T16:03:22.467186",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v177",
+      "filename": "v177_20260611_1601.pth",
+      "timestamp": "2026-06-11T16:01:03.301518",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v178",
+      "filename": "v178_20260611_1601.pth",
+      "timestamp": "2026-06-11T16:01:03.322719",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v179",
+      "filename": "v179_20260612_1601.pth",
+      "timestamp": "2026-06-12T16:01:03.340326",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v180",
+      "filename": "v180_20260612_1601.pth",
+      "timestamp": "2026-06-12T16:01:03.356158",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v181",
+      "filename": "v181_20260613_1601.pth",
+      "timestamp": "2026-06-13T16:01:03.379728",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v182",
+      "filename": "v182_20260613_1601.pth",
+      "timestamp": "2026-06-13T16:01:03.400662",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v183",
+      "filename": "v183_20260614_1601.pth",
+      "timestamp": "2026-06-14T16:01:03.415867",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v184",
+      "filename": "v184_20260614_1601.pth",
+      "timestamp": "2026-06-14T16:01:03.432498",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v185",
+      "filename": "v185_20260615_1601.pth",
+      "timestamp": "2026-06-15T16:01:03.462432",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v186",
+      "filename": "v186_20260615_1601.pth",
+      "timestamp": "2026-06-15T16:01:03.482974",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v187",
+      "filename": "v187_20260616_1601.pth",
+      "timestamp": "2026-06-16T16:01:03.500522",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v188",
+      "filename": "v188_20260616_1601.pth",
+      "timestamp": "2026-06-16T16:01:03.523462",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v189",
+      "filename": "v189_20260617_1601.pth",
+      "timestamp": "2026-06-17T16:01:03.557947",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v190",
+      "filename": "v190_20260617_1601.pth",
+      "timestamp": "2026-06-17T16:01:03.576258",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v191",
+      "filename": "v191_20260618_1601.pth",
+      "timestamp": "2026-06-18T16:01:03.609379",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v192",
+      "filename": "v192_20260618_1601.pth",
+      "timestamp": "2026-06-18T16:01:03.628395",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v193",
+      "filename": "v193_20260619_1601.pth",
+      "timestamp": "2026-06-19T16:01:03.649394",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v194",
+      "filename": "v194_20260619_1601.pth",
+      "timestamp": "2026-06-19T16:01:03.670682",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v195",
+      "filename": "v195_20260620_1601.pth",
+      "timestamp": "2026-06-20T16:01:03.696302",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v196",
+      "filename": "v196_20260620_1601.pth",
+      "timestamp": "2026-06-20T16:01:03.721195",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v197",
+      "filename": "v197_20260621_1601.pth",
+      "timestamp": "2026-06-21T16:01:03.745824",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v198",
+      "filename": "v198_20260621_1601.pth",
+      "timestamp": "2026-06-21T16:01:03.768246",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v199",
+      "filename": "v199_20260622_1601.pth",
+      "timestamp": "2026-06-22T16:01:03.790244",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v200",
+      "filename": "v200_20260622_1601.pth",
+      "timestamp": "2026-06-22T16:01:03.813941",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v201",
+      "filename": "v201_20260623_1601.pth",
+      "timestamp": "2026-06-23T16:01:03.836693",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v202",
+      "filename": "v202_20260623_1601.pth",
+      "timestamp": "2026-06-23T16:01:03.861344",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v203",
+      "filename": "v203_20260624_1601.pth",
+      "timestamp": "2026-06-24T16:01:03.897092",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v204",
+      "filename": "v204_20260624_1601.pth",
+      "timestamp": "2026-06-24T16:01:03.920675",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v205",
+      "filename": "v205_20260625_1601.pth",
+      "timestamp": "2026-06-25T16:01:03.946979",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v206",
+      "filename": "v206_20260625_1601.pth",
+      "timestamp": "2026-06-25T16:01:03.966349",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v207",
+      "filename": "v207_20260626_1601.pth",
+      "timestamp": "2026-06-26T16:01:03.988458",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v208",
+      "filename": "v208_20260626_1601.pth",
+      "timestamp": "2026-06-26T16:01:04.009139",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v209",
+      "filename": "v209_20260627_1601.pth",
+      "timestamp": "2026-06-27T16:01:04.038732",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v210",
+      "filename": "v210_20260627_1601.pth",
+      "timestamp": "2026-06-27T16:01:04.057788",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v211",
+      "filename": "v211_20260628_1601.pth",
+      "timestamp": "2026-06-28T16:01:04.094659",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v212",
+      "filename": "v212_20260628_1601.pth",
+      "timestamp": "2026-06-28T16:01:04.125819",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v213",
+      "filename": "v213_20260629_1601.pth",
+      "timestamp": "2026-06-29T16:01:04.164400",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v214",
+      "filename": "v214_20260629_1601.pth",
+      "timestamp": "2026-06-29T16:01:04.184263",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v215",
+      "filename": "v215_20260630_1603.pth",
+      "timestamp": "2026-06-30T16:03:42.846517",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v216",
+      "filename": "v216_20260630_1603.pth",
+      "timestamp": "2026-06-30T16:03:42.866184",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v217",
+      "filename": "v217_20260701_1603.pth",
+      "timestamp": "2026-07-01T16:03:42.892646",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v218",
+      "filename": "v218_20260701_1603.pth",
+      "timestamp": "2026-07-01T16:03:42.910346",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v219",
+      "filename": "v219_20260702_1603.pth",
+      "timestamp": "2026-07-02T16:03:42.930265",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v220",
+      "filename": "v220_20260702_1603.pth",
+      "timestamp": "2026-07-02T16:03:42.945431",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v221",
+      "filename": "v221_20260703_1603.pth",
+      "timestamp": "2026-07-03T16:03:42.961604",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v222",
+      "filename": "v222_20260703_1603.pth",
+      "timestamp": "2026-07-03T16:03:42.981136",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v223",
+      "filename": "v223_20260704_1603.pth",
+      "timestamp": "2026-07-04T16:03:42.997960",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v224",
+      "filename": "v224_20260704_1603.pth",
+      "timestamp": "2026-07-04T16:03:43.017911",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v225",
+      "filename": "v225_20260705_1603.pth",
+      "timestamp": "2026-07-05T16:03:43.030121",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v226",
+      "filename": "v226_20260705_1603.pth",
+      "timestamp": "2026-07-05T16:03:43.050860",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v227",
+      "filename": "v227_20260706_1604.pth",
+      "timestamp": "2026-07-06T16:04:29.876281",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v228",
+      "filename": "v228_20260706_1604.pth",
+      "timestamp": "2026-07-06T16:04:29.883265",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v229",
+      "filename": "v229_20260707_1601.pth",
+      "timestamp": "2026-07-07T16:01:35.947646",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v230",
+      "filename": "v230_20260707_1601.pth",
+      "timestamp": "2026-07-07T16:01:35.951829",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v231",
+      "filename": "v231_20260708_1603.pth",
+      "timestamp": "2026-07-08T16:03:59.756709",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v232",
+      "filename": "v232_20260708_1603.pth",
+      "timestamp": "2026-07-08T16:03:59.761700",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v233",
+      "filename": "v233_20260709_1603.pth",
+      "timestamp": "2026-07-09T16:03:59.776369",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v234",
+      "filename": "v234_20260709_1603.pth",
+      "timestamp": "2026-07-09T16:03:59.792924",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v235",
+      "filename": "v235_20260710_1603.pth",
+      "timestamp": "2026-07-10T16:03:59.811040",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v236",
+      "filename": "v236_20260710_1603.pth",
+      "timestamp": "2026-07-10T16:03:59.828341",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v237",
+      "filename": "v237_20260711_1603.pth",
+      "timestamp": "2026-07-11T16:03:59.846377",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v238",
+      "filename": "v238_20260711_1603.pth",
+      "timestamp": "2026-07-11T16:03:59.862593",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v239",
+      "filename": "v239_20260712_1603.pth",
+      "timestamp": "2026-07-12T16:03:59.884804",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v240",
+      "filename": "v240_20260712_1603.pth",
+      "timestamp": "2026-07-12T16:03:59.902851",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v241",
+      "filename": "v241_20260713_1603.pth",
+      "timestamp": "2026-07-13T16:03:59.920402",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v242",
+      "filename": "v242_20260713_1603.pth",
+      "timestamp": "2026-07-13T16:03:59.941542",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v243",
+      "filename": "v243_20260714_1603.pth",
+      "timestamp": "2026-07-14T16:03:59.957591",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v244",
+      "filename": "v244_20260714_1603.pth",
+      "timestamp": "2026-07-14T16:03:59.973453",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v245",
+      "filename": "v245_20260715_1603.pth",
+      "timestamp": "2026-07-15T16:03:59.992902",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v246",
+      "filename": "v246_20260715_1604.pth",
+      "timestamp": "2026-07-15T16:04:00.018262",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v247",
+      "filename": "v247_20260716_1604.pth",
+      "timestamp": "2026-07-16T16:04:00.045017",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v248",
+      "filename": "v248_20260716_1604.pth",
+      "timestamp": "2026-07-16T16:04:00.062142",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v249",
+      "filename": "v249_20260717_1604.pth",
+      "timestamp": "2026-07-17T16:04:00.086536",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v250",
+      "filename": "v250_20260717_1604.pth",
+      "timestamp": "2026-07-17T16:04:00.102601",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v251",
+      "filename": "v251_20260718_1604.pth",
+      "timestamp": "2026-07-18T16:04:00.134888",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v252",
+      "filename": "v252_20260718_1604.pth",
+      "timestamp": "2026-07-18T16:04:00.154618",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v253",
+      "filename": "v253_20260719_1604.pth",
+      "timestamp": "2026-07-19T16:04:00.176933",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v254",
+      "filename": "v254_20260719_1604.pth",
+      "timestamp": "2026-07-19T16:04:00.199026",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v255",
+      "filename": "v255_20260720_1604.pth",
+      "timestamp": "2026-07-20T16:04:00.229791",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v256",
+      "filename": "v256_20260720_1604.pth",
+      "timestamp": "2026-07-20T16:04:00.251354",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v257",
+      "filename": "v257_20260721_1604.pth",
+      "timestamp": "2026-07-21T16:04:00.281956",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v258",
+      "filename": "v258_20260721_1604.pth",
+      "timestamp": "2026-07-21T16:04:00.298072",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v259",
+      "filename": "v259_20260723_1601.pth",
+      "timestamp": "2026-07-23T16:01:03.570259",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v260",
+      "filename": "v260_20260723_1601.pth",
+      "timestamp": "2026-07-23T16:01:03.581278",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v261",
+      "filename": "v261_20260724_1601.pth",
+      "timestamp": "2026-07-24T16:01:03.628721",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v262",
+      "filename": "v262_20260724_1601.pth",
+      "timestamp": "2026-07-24T16:01:03.641647",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v263",
+      "filename": "v263_20260725_1601.pth",
+      "timestamp": "2026-07-25T16:01:03.667240",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v264",
+      "filename": "v264_20260725_1601.pth",
+      "timestamp": "2026-07-25T16:01:03.677688",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v265",
+      "filename": "v265_20260726_1601.pth",
+      "timestamp": "2026-07-26T16:01:03.699085",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v266",
+      "filename": "v266_20260726_1601.pth",
+      "timestamp": "2026-07-26T16:01:03.711076",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v267",
+      "filename": "v267_20260727_1601.pth",
+      "timestamp": "2026-07-27T16:01:03.755574",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v268",
+      "filename": "v268_20260727_1601.pth",
+      "timestamp": "2026-07-27T16:01:03.766231",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v269",
+      "filename": "v269_20260728_1600.pth",
+      "timestamp": "2026-07-28T16:00:42.690946",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v270",
+      "filename": "v270_20260728_1600.pth",
+      "timestamp": "2026-07-28T16:00:42.709687",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v271",
+      "filename": "v271_20260729_1600.pth",
+      "timestamp": "2026-07-29T16:00:42.739094",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v272",
+      "filename": "v272_20260729_1600.pth",
+      "timestamp": "2026-07-29T16:00:42.749699",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v273",
+      "filename": "v273_20260730_1600.pth",
+      "timestamp": "2026-07-30T16:00:42.765131",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v274",
+      "filename": "v274_20260730_1600.pth",
+      "timestamp": "2026-07-30T16:00:42.773563",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v275",
+      "filename": "v275_20260731_1600.pth",
+      "timestamp": "2026-07-31T16:00:42.793482",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v276",
+      "filename": "v276_20260731_1600.pth",
+      "timestamp": "2026-07-31T16:00:42.804209",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v277",
+      "filename": "v277_20260801_1603.pth",
+      "timestamp": "2026-08-01T16:03:54.546100",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v278",
+      "filename": "v278_20260801_1603.pth",
+      "timestamp": "2026-08-01T16:03:54.555220",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v279",
+      "filename": "v279_20260802_1603.pth",
+      "timestamp": "2026-08-02T16:03:54.572720",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v280",
+      "filename": "v280_20260802_1603.pth",
+      "timestamp": "2026-08-02T16:03:54.579382",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v281",
+      "filename": "v281_20260803_1600.pth",
+      "timestamp": "2026-08-03T16:00:46.575337",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v282",
+      "filename": "v282_20260803_1600.pth",
+      "timestamp": "2026-08-03T16:00:46.581831",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v283",
+      "filename": "v283_20260804_1600.pth",
+      "timestamp": "2026-08-04T16:00:46.601839",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v284",
+      "filename": "v284_20260804_1600.pth",
+      "timestamp": "2026-08-04T16:00:46.613807",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v285",
+      "filename": "v285_20260805_1600.pth",
+      "timestamp": "2026-08-05T16:00:46.627607",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v286",
+      "filename": "v286_20260805_1600.pth",
+      "timestamp": "2026-08-05T16:00:46.638063",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v287",
+      "filename": "v287_20260806_1604.pth",
+      "timestamp": "2026-08-06T16:04:41.305278",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v288",
+      "filename": "v288_20260806_1604.pth",
+      "timestamp": "2026-08-06T16:04:41.313454",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v289",
+      "filename": "v289_20260807_1604.pth",
+      "timestamp": "2026-08-07T16:04:41.333361",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v290",
+      "filename": "v290_20260807_1604.pth",
+      "timestamp": "2026-08-07T16:04:41.342405",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v291",
+      "filename": "v291_20260808_1604.pth",
+      "timestamp": "2026-08-08T16:04:41.354809",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v292",
+      "filename": "v292_20260808_1604.pth",
+      "timestamp": "2026-08-08T16:04:41.365556",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v293",
+      "filename": "v293_20260809_1604.pth",
+      "timestamp": "2026-08-09T16:04:41.380916",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v294",
+      "filename": "v294_20260809_1604.pth",
+      "timestamp": "2026-08-09T16:04:41.388116",
+      "metrics": {},
+      "notes": "Post-evolution: IMPROVED",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v295",
+      "filename": "v295_20260810_1604.pth",
+      "timestamp": "2026-08-10T16:04:41.403810",
+      "metrics": {
+        "status": "No data"
+      },
+      "notes": "Pre-evolution snapshot. Degraded=False",
+      "file_size_mb": 0.07
+    },
+    {
+      "version_id": "v296",
+      "filename": "v296_20260810_1604.pth",
+     

@@ -1,0 +1,12 @@
+# TradeKaro — shaam ka Telegram saaransh.
+#
+# 10:15 UTC = 15:45 IST: NSE 15:30 par band hota hai, uske 15 minute baad.
+# Somvaar se Shukravaar. Trade na ho tab bhi message aata hai -- phone chup ho
+# to pata nahi chalta tha ki bot chal raha hai aur trade nahi le raha, ya
+# chal hi nahi raha.
+#
+# Nateeja logs/daily_summary.log me jaata hai.
+SHELL=/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+15 10 * * 1-5 root cd /var/www/tradekaro/Trading_AI_Project && venv/bin/python daily_summary.py >> logs/daily_summary.log 2>&1

@@ -1,0 +1,12 @@
+{
+  "brain_version": "v4.0",
+  "feature_version": "v4.0",
+  "feature_count": 18,
+  "model_architecture": "TradenetActorV4",
+  "features": [
+    "close", "sma_20", "ema_50", "macd", "macd_signal", "macd_hist",
+    "plus_di", "minus_di", "adx", "volume_shock",
+    "ema_trend", "price_vs_ema", "macd_cross", "adx_strength",
+    "di_cross", "candle_momentum", "rel_volatility", "price_velocity"
+  ]
+}

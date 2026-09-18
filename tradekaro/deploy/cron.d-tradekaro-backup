@@ -1,0 +1,12 @@
+# TradeKaro ka roz ka backup.
+#
+# 21:00 UTC = 02:30 IST — NSE band rehta hai (09:15-15:30 IST), aur Pro Kisan
+# ka backup 22:00 par chalta hai, to dono takrate nahi.
+#
+# Ye alag file isliye hai taki root ke maujooda crontab ko haath na lagana pade.
+# Script khud jagah jaanchta hai aur nakal ka quick_check karta hai;
+# nateeja /var/backups/tradekaro/backup.log me jaata hai.
+SHELL=/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+0 21 * * * root /root/tradekaro_backup.sh

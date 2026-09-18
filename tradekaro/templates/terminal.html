@@ -1,0 +1,142 @@
+{% extends "base.html" %}
+{% block title %}Market Terminal{% endblock %}
+{% block page_title %}<i class="fa-solid fa-chart-line text-cyan"></i> Market Terminal{% endblock %}
+
+{% block content %}
+<div x-data="terminalPage()" x-init="init()" class="animate-fade-in" style="height:100%;display:flex;flex-direction:column;gap:12px;">
+
+    <!-- Toolbar -->
+    <div class="flex items-center gap-3" style="flex-shrink:0;">
+        <input class="input" style="max-width:180px;" x-model="symbol" @keydown.enter="loadChart()" placeholder="Symbol (NIFTY)">
+        <div class="flex gap-1">
+            <template x-for="tf in ['1m','5m','15m','30m','1h','1d']" :key="tf">
+                <button class="btn btn-ghost" :class="{ 'btn-primary': timeframe === tf }" style="padding:4px 10px;font-size:10px;font-family:var(--font-mono);" @click="timeframe=tf; loadChart()" x-text="tf"></button>
+            </template>
+        </div>
+        <div class="flex gap-2" style="margin-left:auto;">
+            <button class="btn btn-ghost" style="padding:4px 10px;font-size:10px;" @click="showSMA=!showSMA; toggleIndicator('sma')" :class="{'text-cyan': showSMA}">SMA 20</button>
+            <button class="btn btn-ghost" style="padding:4px 10px;font-size:10px;" @click="showEMA=!showEMA; toggleIndicator('ema')" :class="{'text-yellow': showEMA}">EMA 50</button>
+        </div>
+    </div>
+
+    <!-- Chart Container -->
+    <div class="glass-card flex-1 p-0" style="min-height:400px;position:relative;overflow:hidden;">
+        <div id="tv-chart" style="width:100%;height:100%;"></div>
+        <div x-show="chartLoading" class="flex items-center justify-center" style="position:absolute;inset:0;background:rgba(6,9,15,0.8);">
+            <div class="text-muted font-mono text-sm">Loading chart...</div>
+        </div>
+    </div>
+
+    <!-- Order Entry Row -->
+    <div class="glass-card flex items-center gap-4" style="flex-shrink:0;padding:12px 20px;">
+        <span class="font-mono font-bold text-lg" x-text="symbol" style="min-width:80px;color:var(--text-primary);"></span>
+        <input class="input" style="max-width:80px;" x-model="orderQty" type="number" placeholder="Qty">
+        <select class="select" style="max-width:100px;" x-model="orderType">
+            <option value="MKT">MARKET</option>
+            <option value="LMT">LIMIT</option>
+        </select>
+        <input class="input" style="max-width:100px;" x-model="orderPrice" type="number" placeholder="Price" x-show="orderType==='LMT'">
+        <button class="btn btn-success" style="padding:8px 24px;" @click="placeTrade(symbol, orderQty, 'B', orderType)">▲ BUY</button>
+        <button class="btn btn-danger" style="padding:8px 24px;" @click="placeTrade(symbol, orderQty, 'S', orderType)">▼ SELL</button>
+    </div>
+</div>
+
+<script>
+function terminalPage() {
+    return {
+        symbol: 'NIFTY',
+        timeframe: '5m',
+        chart: null,
+        candleSeries: null,
+        volumeSeries: null,
+        smaSeries: null,
+        emaSeries: null,
+        showSMA: false,
+        showEMA: false,
+        chartLoading: true,
+        orderQty: 1,
+        orderType: 'MKT',
+        orderPrice: 0,
+
+        init() {
+            this.$nextTick(() => this.initChart());
+        },
+
+        initChart() {
+            const el = document.getElementById('tv-chart');
+            if (!el || typeof LightweightCharts === 'undefined') return;
+
+            this.chart = LightweightCharts.createChart(el, {
+                layout: { background: { color: '#0c1018' }, textColor: '#9ca3af', fontFamily: 'Inter, sans-serif' },
+                grid: { vertLines: { color: '#1a2236' }, horzLines: { color: '#1a2236' } },
+                width: el.clientWidth, height: el.clientHeight,
+                timeScale: { timeVisible: true, secondsVisible: false, borderColor: '#1f2937' },
+                rightPriceScale: { borderColor: '#1f2937' },
+                crosshair: { mode: LightweightCharts.CrosshairMode.Normal }
+            });
+
+            this.candleSeries = this.chart.addCandlestickSeries({
+                upColor: '#00ff88', downColor: '#ff3366', borderVisible: false,
+                wickUpColor: '#00ff88', wickDownColor: '#ff3366'
+            });
+            this.volumeSeries = this.chart.addHistogramSeries({
+                color: '#00e0ff', priceFormat: { type: 'volume' },
+                priceScaleId: '', scaleMargins: { top: 0.85, bottom: 0 }
+            });
+            this.smaSeries = this.chart.addLineSeries({ color: '#3b82f6', lineWidth: 1.5, visible: false });
+            this.emaSeries = this.chart.addLineSeries({ color: '#fbbf24', lineWidth: 1.5, visible: false });
+
+            new ResizeObserver(entries => {
+                const r = entries[0]?.contentRect;
+                if (r) this.chart.applyOptions({ height: r.height, width: r.width });
+            }).observe(el);
+
+            this.loadChart();
+        },
+
+        async loadChart() {
+            this.chartLoading = true;
+            try {
+                const data = await smartFetch(`/api/history/${this.symbol}?interval=${this.timeframe}`, []);
+                if (Array.isArray(data) && data.length > 0) {
+                    const candles = [], volumes = [];
+                    data.forEach(d => {
+                        if (d.time && !isNaN(d.open)) {
+                            candles.push({ time: d.time, open: d.open, high: d.high, low: d.low, close: d.close });
+                            volumes.push({ time: d.time, value: d.volume || 0, color: d.close >= d.open ? 'rgba(0,255,136,0.3)' : 'rgba(255,51,102,0.3)' });
+                        }
+                    });
+                    if (candles.length) {
+                        this.candleSeries.setData(candles);
+                        this.volumeSeries.setData(volumes);
+                        this.smaSeries.setData(this.calcSMA(candles, 20));
+                        this.emaSeries.setData(this.calcEMA(candles, 50));
+                    }
+                }
+            } catch (e) { console.error('Chart error', e); }
+            this.chartLoading = false;
+        },
+
+        toggleIndicator(type) {
+            if (type === 'sma') this.smaSeries.applyOptions({ visible: this.showSMA });
+            if (type === 'ema') this.emaSeries.applyOptions({ visible: this.showEMA });
+        },
+
+        calcSMA(data, p) {
+            let r = [];
+            for (let i = p - 1; i < data.length; i++) {
+                let s = 0; for (let j = 0; j < p; j++) s += data[i - j].close;
+                r.push({ time: data[i].time, value: s / p });
+            } return r;
+        },
+        calcEMA(data, p) {
+            let r = [], k = 2 / (p + 1), ema = data[0].close;
+            for (let i = 0; i < data.length; i++) {
+                ema = data[i].close * k + ema * (1 - k);
+                if (i >= p - 1) r.push({ time: data[i].time, value: ema });
+            } return r;
+        }
+    };
+}
+</script>
+{% endblock %}

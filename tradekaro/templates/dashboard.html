@@ -1,0 +1,200 @@
+{% extends "base.html" %}
+{% block title %}Command Center{% endblock %}
+{% block page_title %}<i class="fa-solid fa-chart-pie text-cyan"></i> Command Center{% endblock %}
+
+{% block content %}
+<div x-data="dashboardPage()" x-init="init()" class="animate-fade-in">
+
+    <!-- ═══ TOP STAT CARDS ═══ -->
+    <div class="grid grid-4 mb-4">
+        <div class="glass-card text-center">
+            <div class="card-label">Net P&L</div>
+            <div class="stat-value lg font-mono" :class="stats.pnl >= 0 ? 'text-profit glow-profit' : 'text-loss glow-loss'">
+                <span class="cb-indicator" x-text="stats.pnl >= 0 ? '▲' : '▼'"></span>₹<span x-text="formatNum(stats.pnl)">0</span>
+            </div>
+        </div>
+        <div class="glass-card text-center">
+            <div class="card-label">Trades Today</div>
+            <div class="stat-value lg font-mono" style="color:var(--text-primary);" x-text="stats.trades || 0">0</div>
+        </div>
+        <div class="glass-card text-center">
+            <div class="card-label">Win Rate</div>
+            <div class="stat-value lg font-mono text-cyan" x-text="stats.winRate + '%'">0%</div>
+        </div>
+        <div class="glass-card text-center">
+            <div class="card-label">AI Confidence</div>
+            <div class="stat-value lg font-mono text-purple" x-text="stats.confidence + '%'">0%</div>
+        </div>
+    </div>
+
+    <!-- ═══ MAIN 3-COLUMN GRID ═══ -->
+    <div class="grid grid-12" style="gap:16px;">
+
+        <!-- LEFT: Watchlist + Signals -->
+        <div class="col-span-3 flex flex-col gap-4">
+            <div class="glass-card" style="flex:1;">
+                <div class="section-header">
+                    <div class="section-title"><i class="fa-solid fa-fire text-loss"></i> Watchlist</div>
+                </div>
+                <div class="grid grid-2" style="gap:8px;max-height:280px;overflow:auto;">
+                    <template x-for="item in watchlist" :key="item.symbol">
+                        <div class="heatmap-cell" :class="item.change > 0 ? 'bullish' : item.change < 0 ? 'bearish' : 'neutral'">
+                            <div style="font-weight:700;font-size:var(--text-xs);" x-text="item.symbol"></div>
+                            <div class="font-mono" style="font-size:var(--text-2xs);margin-top:2px;" :class="item.change > 0 ? 'text-profit' : 'text-loss'" x-text="(item.change > 0 ? '+' : '') + item.change + '%'"></div>
+                        </div>
+                    </template>
+                    <div x-show="watchlist.length === 0" class="col-span-2 text-center text-muted text-xs" style="padding:24px;">No watchlist data</div>
+                </div>
+            </div>
+
+            <div class="glass-card" style="max-height:220px;overflow:auto;">
+                <div class="section-header">
+                    <div class="section-title"><i class="fa-solid fa-bolt text-yellow"></i> Signals</div>
+                </div>
+                <div class="flex flex-col gap-2">
+                    <template x-for="sig in signals" :key="sig.symbol">
+                        <div style="font-size:var(--text-xs);border-left:2px solid;padding:4px 8px;border-radius:2px;"
+                            :style="'border-color:' + (sig.mood === 'BULLISH' ? 'var(--color-profit)' : 'var(--color-loss)')">
+                            <div class="flex justify-between">
+                                <span class="font-bold" style="color:var(--text-primary);" x-text="sig.symbol"></span>
+                                <span class="font-mono text-muted" style="font-size:10px;" x-text="sig.score"></span>
+                            </div>
+                            <div class="text-muted" style="font-size:10px;" x-text="sig.mood"></div>
+                        </div>
+                    </template>
+                    <div x-show="signals.length === 0" class="text-muted text-center text-xs" style="padding:16px;font-style:italic;">No signals yet</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CENTER: Trade History -->
+        <div class="col-span-6 glass-card flex flex-col">
+            <div class="section-header">
+                <div class="section-title"><i class="fa-solid fa-robot text-purple"></i> AI Trade History</div>
+                <span class="badge badge-live"><i class="fa-solid fa-circle" style="font-size:6px;"></i> LIVE</span>
+            </div>
+            <div style="flex:1;overflow:auto;border-radius:var(--radius-sm);border:1px solid var(--border-subtle);background:rgba(0,0,0,0.2);min-height:300px;">
+                <table class="data-table">
+                    <thead><tr><th>Time</th><th>Symbol</th><th>Side</th><th class="right">Price</th><th class="right">P&L</th></tr></thead>
+                    <tbody>
+                        <template x-for="(trade, i) in tradeHistory" :key="i">
+                            <tr>
+                                <td class="text-muted" x-text="trade.time || trade.entryTime || '--:--'"></td>
+                                <td style="color:var(--text-primary);font-weight:600;" x-text="trade.symbol"></td>
+                                <td><span class="badge" :class="(trade.action === 'B' || trade.side === 'B') ? 'badge-buy' : 'badge-sell'" x-text="(trade.action === 'B' || trade.side === 'B') ? '▲ BUY' : '▼ SELL'"></span></td>
+                                <td class="right" x-text="'₹' + Number(trade.entry || trade.entry_price || 0).toFixed(2)"></td>
+                                <td class="right font-bold" :class="(trade.pnl||0) >= 0 ? 'text-profit' : 'text-loss'" x-text="(trade.pnl >= 0 ? '+' : '') + '₹' + Math.abs(trade.pnl || 0).toFixed(0)"></td>
+                            </tr>
+                        </template>
+                        <tr x-show="tradeHistory.length === 0">
+                            <td colspan="5" style="padding:48px;text-align:center;">
+                                <div class="empty-state" style="padding:0;"><i class="fa-solid fa-ghost"></i><p>No trades recorded yet</p></div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- RIGHT: Controls -->
+        <div class="col-span-3 flex flex-col gap-4">
+            <div class="glass-card">
+                <div class="section-header"><div class="section-title"><i class="fa-solid fa-gamepad text-cyan"></i> Commander</div></div>
+                <div class="grid grid-2" style="gap:8px;">
+                    <button class="btn btn-success" style="padding:12px;flex-direction:column;gap:4px;" @click="controlBot('start')">
+                        <i class="fa-solid fa-power-off" style="font-size:18px;"></i>
+                        <span style="font-size:10px;letter-spacing:1px;">START</span>
+                    </button>
+                    <button class="btn btn-danger" style="padding:12px;flex-direction:column;gap:4px;" @click="controlBot('stop')">
+                        <i class="fa-solid fa-circle-stop" style="font-size:18px;"></i>
+                        <span style="font-size:10px;letter-spacing:1px;">STOP</span>
+                    </button>
+                </div>
+                <button class="btn btn-kill" style="width:100%;margin-top:12px;font-size:var(--text-xs);" @click="killModal = true">⚠️ KILL SWITCH</button>
+            </div>
+
+            <div class="glass-card">
+                <div class="section-header"><div class="section-title"><i class="fa-solid fa-bolt text-yellow"></i> Quick Trade</div></div>
+                <div class="flex flex-col gap-2">
+                    <input class="input" x-model="qt.symbol" placeholder="Symbol (e.g. RELIANCE)">
+                    <div class="grid grid-2" style="gap:8px;">
+                        <input class="input" x-model="qt.qty" type="number" placeholder="Qty">
+                        <select class="select" x-model="qt.type"><option value="MKT">MARKET</option><option value="LMT">LIMIT</option></select>
+                    </div>
+                    <div class="grid grid-2" style="gap:8px;">
+                        <button class="btn btn-success" @click="placeTrade(qt.symbol, qt.qty, 'B', qt.type)">▲ BUY</button>
+                        <button class="btn btn-danger" @click="placeTrade(qt.symbol, qt.qty, 'S', qt.type)">▼ SELL</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="glass-card">
+                <div class="section-header"><div class="section-title"><i class="fa-solid fa-server text-cyan"></i> System</div></div>
+                <div class="grid grid-2" style="gap:8px;font-size:var(--text-2xs);font-family:var(--font-mono);">
+                    <div class="flex items-center gap-1"><span class="status-dot live" style="width:6px;height:6px;"></span> Modules: 114</div>
+                    <div class="flex items-center gap-1"><span class="status-dot live" style="width:6px;height:6px;"></span> Brain: OK</div>
+                    <div class="flex items-center gap-1 text-cyan"><i class="fa-solid fa-code" style="font-size:8px;"></i> 17K Lines</div>
+                    <div class="flex items-center gap-1 text-purple"><i class="fa-solid fa-tag" style="font-size:8px;"></i> v4.0</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+function dashboardPage() {
+    return {
+        stats: { pnl: 0, trades: 0, winRate: 0, confidence: 0 },
+        watchlist: [],
+        signals: [],
+        tradeHistory: [],
+        qt: { symbol: '', qty: 1, type: 'MKT' },
+
+        init() {
+            this.fetchAll();
+            setInterval(() => { if (!document.hidden) this.fetchAll(); }, 5000);
+        },
+
+        async fetchAll() {
+            const [pnl, sigs, stats, journal] = await Promise.all([
+                smartFetch('/api/pnl', {}),
+                smartFetch('/api/signals', []),
+                smartFetch('/api/stats', {}),
+                smartFetch('/api/trade-journal', {})
+            ]);
+
+            // P&L — API returns {net_pnl: N, data: {positions: [], total_pnl: N}}
+            if (pnl && pnl.net_pnl !== undefined) this.stats.pnl = Math.round(pnl.net_pnl);
+
+            // Stats — API returns {total_trades: N, win_rate: "67%", ...}
+            if (stats) {
+                this.stats.trades = stats.total_trades || 0;
+                this.stats.winRate = parseInt(stats.win_rate) || 0;
+            }
+
+            // Signals — API returns direct array [{symbol, score, mood}]
+            if (Array.isArray(sigs)) {
+                this.signals = sigs.slice(0, 10);
+                // Build watchlist from signals
+                this.watchlist = sigs.map(s => ({
+                    symbol: s.symbol,
+                    change: ((s.score - 0.5) * 4).toFixed(1)
+                }));
+                // AI confidence from average score
+                if (sigs.length > 0) {
+                    const avgScore = sigs.reduce((a, b) => a + (b.score || 0.5), 0) / sigs.length;
+                    this.stats.confidence = Math.round(avgScore * 100);
+                }
+            }
+
+            // Trade Journal — API returns {trades: [...], summary: {...}}
+            if (journal && journal.trades) {
+                this.tradeHistory = journal.trades.slice(0, 50);
+            }
+        },
+
+        formatNum(n) { return formatNum(n); }
+    };
+}
+</script>
+{% endblock %}

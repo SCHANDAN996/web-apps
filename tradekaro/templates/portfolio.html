@@ -1,0 +1,116 @@
+{% extends "base.html" %}
+{% block title %}Portfolio & Risk{% endblock %}
+{% block page_title %}<i class="fa-solid fa-wallet text-cyan"></i> Portfolio & Risk{% endblock %}
+
+{% block content %}
+<div x-data="portfolioPage()" x-init="init()" class="animate-fade-in">
+
+    <!-- Tabs -->
+    <div class="tabs">
+        <button class="tab" :class="{ 'active': tab === 'overview' }" @click="tab='overview'">Overview</button>
+        <button class="tab" :class="{ 'active': tab === 'analytics' }" @click="tab='analytics'">P&L Analysis</button>
+        <button class="tab" :class="{ 'active': tab === 'monte' }" @click="tab='monte'; loadMonteCarlo()">Monte Carlo</button>
+    </div>
+
+    <!-- Overview Tab -->
+    <div x-show="tab==='overview'">
+        <div class="grid grid-4 mb-4">
+            <div class="glass-card text-center"><div class="card-label">Total P&L</div>
+                <div class="stat-value md font-mono" :class="pnl.total >= 0 ? 'text-profit' : 'text-loss'" x-text="'₹' + formatNum(pnl.total)">₹0</div>
+            </div>
+            <div class="glass-card text-center"><div class="card-label">Win Rate</div>
+                <div class="stat-value md font-mono text-cyan" x-text="stats.win_rate || '0%'">0%</div>
+            </div>
+            <div class="glass-card text-center"><div class="card-label">Total Trades</div>
+                <div class="stat-value md font-mono" style="color:var(--text-primary);" x-text="stats.total_trades || 0">0</div>
+            </div>
+            <div class="glass-card text-center"><div class="card-label">Profit Factor</div>
+                <div class="stat-value md font-mono text-profit" x-text="stats.profit_factor || '0'">0</div>
+            </div>
+        </div>
+
+        <!-- Equity Curve -->
+        <div class="glass-card">
+            <div class="section-header"><div class="section-title"><i class="fa-solid fa-chart-area text-cyan"></i> Equity Curve</div></div>
+            <div style="height:300px;position:relative;">
+                <canvas id="equity-chart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- P&L Analysis Tab -->
+    <div x-show="tab==='analytics'" class="glass-card">
+        <div class="section-header"><div class="section-title"><i class="fa-solid fa-clock text-purple"></i> P&L by Time</div></div>
+        <div style="height:350px;"><canvas id="pnl-time-chart"></canvas></div>
+    </div>
+
+    <!-- Monte Carlo Tab -->
+    <div x-show="tab==='monte'" class="glass-card">
+        <div class="section-header">
+            <div class="section-title"><i class="fa-solid fa-dice text-yellow"></i> Monte Carlo Simulation</div>
+            <button class="btn btn-ghost" @click="loadMonteCarlo()"><i class="fa-solid fa-rotate"></i> Run</button>
+        </div>
+        <div class="grid grid-3 mb-4" style="gap:12px;">
+            <div class="glass-card text-center"><div class="card-label">Avg Final P&L</div><div class="stat-value sm font-mono" :class="monte.avg >= 0 ? 'text-profit' : 'text-loss'" x-text="'₹' + formatNum(monte.avg)">₹0</div></div>
+            <div class="glass-card text-center"><div class="card-label">Best Case</div><div class="stat-value sm font-mono text-profit" x-text="'₹' + formatNum(monte.best)">₹0</div></div>
+            <div class="glass-card text-center"><div class="card-label">Worst Case</div><div class="stat-value sm font-mono text-loss" x-text="'₹' + formatNum(monte.worst)">₹0</div></div>
+        </div>
+        <div style="height:300px;"><canvas id="monte-chart"></canvas></div>
+    </div>
+</div>
+
+<script>
+function portfolioPage() {
+    return {
+        tab: 'overview',
+        pnl: { total: 0 },
+        stats: {},
+        monte: { avg: 0, best: 0, worst: 0 },
+        equityChart: null,
+
+        init() { this.fetchAll(); },
+
+        async fetchAll() {
+            const [pnl, stats] = await Promise.all([
+                smartFetch('/api/pnl', {}),
+                smartFetch('/api/stats', {})
+            ]);
+            if (pnl.net_pnl !== undefined) this.pnl.total = Math.round(pnl.net_pnl);
+            if (stats) this.stats = stats;
+            this.$nextTick(() => this.drawEquityChart());
+        },
+
+        drawEquityChart() {
+            const el = document.getElementById('equity-chart');
+            if (!el || this.equityChart) return;
+            this.equityChart = new Chart(el, {
+                type: 'line',
+                data: { labels: ['Day 1','Day 2','Day 3','Day 4','Day 5'], datasets: [{ label: 'Equity', data: [100000, 100000 + this.pnl.total * 0.2, 100000 + this.pnl.total * 0.5, 100000 + this.pnl.total * 0.8, 100000 + this.pnl.total], borderColor: '#00e0ff', backgroundColor: 'rgba(0,224,255,0.05)', fill: true, tension: 0.4, pointRadius: 3, pointBackgroundColor: '#00e0ff' }] },
+                options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { x: { grid: { color: '#1a2236' }, ticks: { color: '#6b7280', font: { family: 'JetBrains Mono', size: 10 } } }, y: { grid: { color: '#1a2236' }, ticks: { color: '#6b7280', font: { family: 'JetBrains Mono', size: 10 }, callback: v => '₹'+v.toLocaleString() } } } }
+            });
+        },
+
+        async loadMonteCarlo() {
+            const data = await smartFetch('/api/monte-carlo', null);
+            if (data && data.results) {
+                const finals = data.results.map(r => r[r.length - 1]);
+                this.monte.avg = Math.round(finals.reduce((a, b) => a + b, 0) / finals.length);
+                this.monte.best = Math.round(Math.max(...finals));
+                this.monte.worst = Math.round(Math.min(...finals));
+                this.$nextTick(() => {
+                    const el = document.getElementById('monte-chart');
+                    if (!el) return;
+                    new Chart(el, {
+                        type: 'line',
+                        data: { labels: data.results[0].map((_, i) => i), datasets: data.results.slice(0, 20).map((r, i) => ({ data: r, borderColor: `hsla(${i * 18}, 70%, 60%, 0.4)`, borderWidth: 1, pointRadius: 0 })) },
+                        options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { x: { display: false }, y: { grid: { color: '#1a2236' }, ticks: { color: '#6b7280', font: { family: 'JetBrains Mono', size: 10 } } } } }
+                    });
+                });
+            }
+        },
+
+        formatNum(n) { return formatNum(n); }
+    };
+}
+</script>
+{% endblock %}

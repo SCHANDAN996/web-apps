@@ -1,0 +1,173 @@
+{% extends "base.html" %}
+{% block title %}Options Lab{% endblock %}
+{% block page_title %}<i class="fa-solid fa-layer-group text-cyan"></i> Options Lab{% endblock %}
+
+{% block content %}
+<div x-data="optionsPage()" x-init="init()" class="animate-fade-in">
+
+    <!-- Tabs -->
+    <div class="tabs">
+        <button class="tab" :class="{ 'active': tab === 'nse' }" @click="tab='nse'">NSE Options</button>
+        <button class="tab" :class="{ 'active': tab === 'crypto' }" @click="tab='crypto'; loadCrypto()">Crypto Options</button>
+    </div>
+
+    <!-- NSE Tab -->
+    <div x-show="tab==='nse'">
+        <!-- Symbol Selector -->
+        <div class="flex items-center gap-3 mb-4">
+            <template x-for="sym in ['NIFTY','BANKNIFTY']" :key="sym">
+                <button class="btn" :class="symbol === sym ? 'btn-primary' : 'btn-ghost'" @click="symbol=sym; loadNSE()" x-text="sym"></button>
+            </template>
+            <button class="btn btn-ghost" @click="loadNSE()" style="margin-left:auto;"><i class="fa-solid fa-rotate"></i> Refresh</button>
+        </div>
+
+        <!-- Metrics -->
+        <div class="grid grid-4 mb-4">
+            <div class="glass-card text-center"><div class="card-label">PCR</div><div class="stat-value sm font-mono" :class="metrics.pcr > 1 ? 'text-profit' : 'text-loss'" x-text="metrics.pcr || 'N/A'"></div></div>
+            <div class="glass-card text-center"><div class="card-label">Sentiment</div><div class="stat-value sm font-mono" :class="metrics.sentiment === 'BULLISH' ? 'text-profit' : 'text-loss'" x-text="metrics.sentiment || '--'"></div></div>
+            <div class="glass-card text-center"><div class="card-label">Support</div><div class="stat-value sm font-mono text-profit" x-text="metrics.support || '--'"></div></div>
+            <div class="glass-card text-center"><div class="card-label">Resistance</div><div class="stat-value sm font-mono text-loss" x-text="metrics.resistance || '--'"></div></div>
+        </div>
+
+        <!-- Option Chain Table -->
+        <div class="glass-card p-0" style="overflow:auto;max-height:calc(100vh - 380px);">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th class="right" style="color:var(--color-profit);">CE OI</th>
+                        <th class="right" style="color:var(--color-profit);">CE Vol</th>
+                        <th class="right" style="color:var(--color-profit);">CE LTP</th>
+                        <th class="center" style="background:var(--bg-elevated);color:var(--neon-cyan);font-weight:800;">STRIKE</th>
+                        <th class="right" style="color:var(--color-loss);">PE LTP</th>
+                        <th class="right" style="color:var(--color-loss);">PE Vol</th>
+                        <th class="right" style="color:var(--color-loss);">PE OI</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <template x-for="row in optionChain" :key="row.strike">
+                        <tr :style="row.isATM ? 'background:rgba(0,224,255,0.06);' : ''">
+                            <td class="right font-mono" x-text="Number(row.ce_oi||0).toLocaleString()"></td>
+                            <td class="right font-mono text-muted" x-text="Number(row.ce_vol||0).toLocaleString()"></td>
+                            <td class="right font-mono text-profit" x-text="Number(row.ce_ltp||0).toFixed(2)"></td>
+                            <td class="center font-mono font-bold" :style="row.isATM ? 'color:var(--neon-cyan);background:rgba(0,224,255,0.1);' : 'color:var(--text-primary);'" x-text="row.strike"></td>
+                            <td class="right font-mono text-loss" x-text="Number(row.pe_ltp||0).toFixed(2)"></td>
+                            <td class="right font-mono text-muted" x-text="Number(row.pe_vol||0).toLocaleString()"></td>
+                            <td class="right font-mono" x-text="Number(row.pe_oi||0).toLocaleString()"></td>
+                        </tr>
+                    </template>
+                    <tr x-show="optionChain.length === 0">
+                        <td colspan="7"><div class="empty-state"><i class="fa-solid fa-cubes"></i><p>No option chain data</p></div></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Crypto Tab -->
+    <div x-show="tab==='crypto'">
+        <div class="flex items-center gap-3 mb-4">
+            <template x-for="sym in ['BTC','ETH','SOL','XRP']" :key="sym">
+                <button class="btn" :class="cryptoSymbol === sym ? 'btn-primary' : 'btn-ghost'" @click="cryptoSymbol=sym; loadCrypto()" x-text="sym"></button>
+            </template>
+            <div class="nav-divider"></div>
+            <!-- Expiry Selector -->
+            <select class="select" x-model="cryptoExpiry" @change="selectCryptoExpiry()" style="min-width:180px;">
+                <template x-for="exp in cryptoExpiries" :key="exp">
+                    <option :value="exp" x-text="exp.split('T')[0]"></option>
+                </template>
+            </select>
+            <span class="text-muted font-mono" style="font-size:10px;" x-text="'Spot: $'+cryptoSpot.toFixed(2)"></span>
+        </div>
+        <div class="glass-card p-0" style="overflow:auto;max-height:calc(100vh - 300px);">
+            <table class="data-table">
+                <thead>
+                    <tr><th class="center">Strike</th><th class="right" style="color:var(--color-profit);">CE LTP</th><th class="right" style="color:var(--color-profit);">CE OI</th><th class="right" style="color:var(--color-loss);">PE LTP</th><th class="right" style="color:var(--color-loss);">PE OI</th></tr>
+                </thead>
+                <tbody>
+                    <template x-for="row in cryptoOptions" :key="row.strike">
+                        <tr :style="Math.abs(row.strike - cryptoSpot) < (cryptoSpot * 0.005) ? 'background:rgba(0,224,255,0.06);' : ''">
+                            <td class="center font-mono font-bold" :style="Math.abs(row.strike - cryptoSpot) < (cryptoSpot * 0.005) ? 'color:var(--neon-cyan);' : 'color:var(--text-primary);'" x-text="row.strike"></td>
+                            <td class="right font-mono text-profit" x-text="'$'+Number(row.ce_ltp||0).toFixed(2)"></td>
+                            <td class="right font-mono" x-text="Number(row.ce_oi||0).toLocaleString()"></td>
+                            <td class="right font-mono text-loss" x-text="'$'+Number(row.pe_ltp||0).toFixed(2)"></td>
+                            <td class="right font-mono" x-text="Number(row.pe_oi||0).toLocaleString()"></td>
+                        </tr>
+                    </template>
+                    <tr x-show="cryptoOptions.length === 0">
+                        <td colspan="5"><div class="empty-state"><i class="fa-solid fa-coins"></i><p>No crypto options data</p></div></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script>
+function optionsPage() {
+    return {
+        tab: 'nse',
+        symbol: 'NIFTY',
+        cryptoSymbol: 'BTC',
+        optionChain: [],
+        cryptoOptions: [],
+        cryptoExpiries: [],
+        cryptoExpiry: '',
+        cryptoSpot: 0,
+        cryptoAllData: {},
+        metrics: {},
+
+        init() { this.loadNSE(); },
+
+        async loadNSE() {
+            const [chain, met] = await Promise.all([
+                smartFetch(`/api/option-chain/${this.symbol}`, []),
+                smartFetch(`/api/option-metrics/${this.symbol}`, {})
+            ]);
+            if (met) this.metrics = met;
+            if (Array.isArray(chain) && chain.length > 0) {
+                const sorted = chain.sort((a, b) => a.strike - b.strike);
+                if (sorted.length > 0) {
+                    const mid = Math.floor(sorted.length / 2);
+                    sorted[mid].isATM = true;
+                }
+                this.optionChain = sorted.map(r => ({
+                    strike: r.strike,
+                    ce_ltp: r.CE?.ltp || 0,
+                    ce_oi: r.CE?.oi || 0,
+                    ce_vol: r.CE?.volume || 0,
+                    pe_ltp: r.PE?.ltp || 0,
+                    pe_oi: r.PE?.oi || 0,
+                    pe_vol: r.PE?.volume || 0,
+                    isATM: r.isATM || false
+                }));
+            }
+        },
+
+        async loadCrypto() {
+            const resp = await smartFetch(`/api/crypto/options?symbol=${this.cryptoSymbol}`, {});
+            if (resp && resp.data && resp.data[this.cryptoSymbol]) {
+                const symData = resp.data[this.cryptoSymbol];
+                this.cryptoExpiries = symData.expiries || [];
+                this.cryptoAllData = symData.data || {};
+
+                // Auto-select nearest expiry
+                if (this.cryptoExpiries.length > 0) {
+                    // Pick the 2nd expiry if available (first might be expired)
+                    this.cryptoExpiry = this.cryptoExpiries.length > 1 ? this.cryptoExpiries[1] : this.cryptoExpiries[0];
+                    this.selectCryptoExpiry();
+                }
+            }
+        },
+
+        selectCryptoExpiry() {
+            const chain = this.cryptoAllData[this.cryptoExpiry] || [];
+            if (chain.length > 0) {
+                this.cryptoSpot = chain[0].underlying_price || 0;
+            }
+            this.cryptoOptions = chain;
+        }
+    };
+}
+</script>
+
+{% endblock %}

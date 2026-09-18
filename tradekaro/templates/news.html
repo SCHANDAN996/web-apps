@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+{% block title %}Intelligence Hub{% endblock %}
+{% block page_title %}<i class="fa-solid fa-newspaper text-cyan"></i> Intelligence Hub{% endblock %}
+
+{% block content %}
+<div x-data="newsPage()" x-init="init()" class="animate-fade-in">
+
+    <!-- Tabs -->
+    <div class="tabs">
+        <button class="tab" :class="{ 'active': tab === 'news' }" @click="tab='news'">News Feed</button>
+        <button class="tab" :class="{ 'active': tab === 'heatmap' }" @click="tab='heatmap'">Sector Heatmap</button>
+        <button class="tab" :class="{ 'active': tab === 'global' }" @click="tab='global'">Global Markets</button>
+    </div>
+
+    <!-- News Feed Tab -->
+    <div x-show="tab==='news'">
+        <div class="flex flex-col gap-3">
+            <template x-for="article in news" :key="article.link || Math.random()">
+                <a :href="article.link" target="_blank" class="glass-card" style="padding:14px 18px;display:flex;gap:16px;align-items:flex-start;transition:all var(--transition-fast);" onmouseover="this.style.borderColor='var(--border-strong)'" onmouseout="this.style.borderColor='var(--border-subtle)'">
+                    <!-- Sentiment Indicator -->
+                    <div style="width:4px;border-radius:2px;align-self:stretch;flex-shrink:0;"
+                        :style="'background:' + (article.sentiment > 0.1 ? 'var(--color-profit)' : article.sentiment < -0.1 ? 'var(--color-loss)' : 'var(--text-muted)')"></div>
+                    <div style="flex:1;min-width:0;">
+                        <div style="font-size:var(--text-sm);color:var(--text-primary);font-weight:600;margin-bottom:4px;line-height:1.4;" x-text="article.title"></div>
+                        <div class="flex gap-3" style="font-size:var(--text-2xs);color:var(--text-muted);">
+                            <span x-text="article.publisher || 'Unknown'"></span>
+                            <span>•</span>
+                            <span class="badge" :class="article.sentiment > 0.1 ? 'badge-buy' : article.sentiment < -0.1 ? 'badge-sell' : ''" x-text="article.sentiment > 0.1 ? 'POSITIVE' : article.sentiment < -0.1 ? 'NEGATIVE' : 'NEUTRAL'" style="border:none;padding:0;"></span>
+                            <span style="margin-left:auto;" x-text="article.symbol || ''"></span>
+                        </div>
+                    </div>
+                </a>
+            </template>
+            <div x-show="news.length === 0" class="glass-card">
+                <div class="empty-state"><i class="fa-solid fa-newspaper"></i><p>No news articles loaded</p></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sector Heatmap Tab -->
+    <div x-show="tab==='heatmap'" class="glass-card">
+        <div class="section-header"><div class="section-title"><i class="fa-solid fa-fire text-yellow"></i> Sector Performance</div></div>
+        <div class="grid grid-4" style="gap:8px;">
+            <template x-for="sector in sectors" :key="sector.name">
+                <div class="heatmap-cell" :class="sector.change > 0 ? 'bullish' : sector.change < 0 ? 'bearish' : 'neutral'" style="padding:16px;">
+                    <div style="font-weight:700;font-size:var(--text-sm);color:var(--text-primary);" x-text="sector.name"></div>
+                    <div class="font-mono" style="font-size:var(--text-lg);margin-top:4px;" :class="sector.change > 0 ? 'text-profit' : 'text-loss'" x-text="(sector.change > 0 ? '+' : '') + sector.change + '%'"></div>
+                </div>
+            </template>
+        </div>
+    </div>
+
+    <!-- Global Markets Tab -->
+    <div x-show="tab==='global'" class="glass-card">
+        <div class="section-header"><div class="section-title"><i class="fa-solid fa-earth-americas text-cyan"></i> Global Indices</div></div>
+        <div class="grid grid-3" style="gap:12px;">
+            <template x-for="idx in globalIndices" :key="idx.name">
+                <div class="glass-card text-center" style="padding:16px;">
+                    <div class="card-label" x-text="idx.name"></div>
+                    <div class="stat-value sm font-mono" style="color:var(--text-primary);" x-text="idx.value"></div>
+                    <div class="font-mono" style="font-size:var(--text-2xs);margin-top:4px;" :class="idx.change >= 0 ? 'text-profit' : 'text-loss'" x-text="(idx.change >= 0 ? '+' : '') + idx.change + '%'"></div>
+                </div>
+            </template>
+        </div>
+    </div>
+</div>
+
+<script>
+function newsPage() {
+    return {
+        tab: 'news',
+        news: [],
+        sectors: [
+            { name: 'Banking', change: 0.8 }, { name: 'IT', change: -1.2 },
+            { name: 'Pharma', change: 0.3 }, { name: 'Auto', change: 1.1 },
+            { name: 'Metal', change: -0.5 }, { name: 'Energy', change: 0.6 },
+            { name: 'FMCG', change: 0.1 }, { name: 'Realty', change: -0.8 }
+        ],
+        globalIndices: [
+            { name: 'S&P 500', value: '5,820', change: 0.4 },
+            { name: 'NASDAQ', value: '18,340', change: 0.6 },
+            { name: 'Nikkei', value: '38,450', change: -0.3 },
+            { name: 'FTSE', value: '8,120', change: 0.2 },
+            { name: 'DAX', value: '18,780', change: 0.1 },
+            { name: 'Hang Seng', value: '17,200', change: -0.9 }
+        ],
+
+        init() { this.loadNews(); },
+
+        async loadNews() {
+            const resp = await smartFetch('/api/news', {});
+            if (resp && resp.data && Array.isArray(resp.data)) {
+                this.news = resp.data;
+            } else if (Array.isArray(resp)) {
+                this.news = resp;
+            }
+        }
+    };
+}
+</script>
+{% endblock %}
