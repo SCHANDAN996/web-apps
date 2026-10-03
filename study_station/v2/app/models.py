@@ -85,6 +85,8 @@ class Question(Base):
     review_status: Mapped[str] = mapped_column(String(20), default='unreviewed')
     review_note: Mapped[str | None] = mapped_column(String(200))
     import_key: Mapped[str | None] = mapped_column(String(200))
+    reviewed_at: Mapped[datetime | None] = mapped_column(DateTime)
+    created_at: Mapped[datetime | None] = mapped_column(DateTime, default=now)
     topic: Mapped[Topic] = relationship()
 
 
@@ -155,6 +157,8 @@ class QuestionReport(Base):
     reason: Mapped[str] = mapped_column(String(30))
     note: Mapped[str] = mapped_column(String(500), default='')
     created_at: Mapped[datetime] = mapped_column(DateTime, default=now)
+    resolved_at: Mapped[datetime | None] = mapped_column(DateTime)
+    question: Mapped[Question] = relationship()
 
 
 # ---------------------------------------------------------------- jobs

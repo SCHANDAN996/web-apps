@@ -34,6 +34,9 @@ async def lifespan(_app):
 
 app = FastAPI(title='Study Station API', version='2.0', docs_url='/api/docs', redoc_url=None, lifespan=lifespan)
 app.mount('/static', StaticFiles(directory=APP_DIR / 'static'), name='static')
+
+from .admin import router as admin_router  # noqa: E402
+app.include_router(admin_router)
 templates = Jinja2Templates(directory=APP_DIR / 'templates')
 
 
@@ -48,8 +51,10 @@ async def headers_and_csrf(request: Request, call_next):
     path = request.url.path
     response.headers.setdefault('X-Content-Type-Options', 'nosniff')
     response.headers.setdefault('Referrer-Policy', 'strict-origin-when-cross-origin')
-    if path.startswith('/api/'):
+    if path.startswith('/api/') or path.startswith('/admin'):
         response.headers['Cache-Control'] = 'no-store'
+        if path.startswith('/admin'):
+            response.headers['X-Frame-Options'] = 'DENY'
     elif path.startswith('/static/'):
         response.headers['Cache-Control'] = 'public, max-age=86400'
     elif 'Cache-Control' not in response.headers:
@@ -454,7 +459,7 @@ def page_offline(request: Request):
 
 @app.get('/robots.txt')
 def robots():
-    lines = ['User-agent: *', 'Disallow: /api/', 'Disallow: /attempt/', 'Disallow: /result/',
+    lines = ['User-agent: *', 'Disallow: /api/', 'Disallow: /admin', 'Disallow: /attempt/', 'Disallow: /result/',
              'Disallow: /revise', 'Disallow: /progress', 'Disallow: /settings']
     if SITE_URL:
         lines.append(f'Sitemap: {SITE_URL}/sitemap.xml')

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>{% block title %}Admin{% endblock %} — Study Station</title>
+  <link rel="stylesheet" href="/static/css/app.css">
+  <style>
+    body { padding-bottom: 0; }
+    .admin-nav { display: flex; gap: var(--sp-2); flex-wrap: wrap; }
+    .admin-nav a[aria-current="page"] { background: var(--brand-soft); border-color: var(--brand); color: var(--brand); }
+    .tbl { width: 100%; border-collapse: collapse; font-size: var(--fs-sm); }
+    .tbl th, .tbl td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--border); vertical-align: top; }
+    .tbl th { color: var(--text-2); font-weight: 600; }
+    .tbl tr:hover td { background: var(--surface-2); }
+    label.f { display: block; font-size: var(--fs-sm); font-weight: 600; margin-top: var(--sp-3); }
+    .f input, .f select, .f textarea, input.in, select.in, textarea.in {
+      width: 100%; margin-top: 4px; padding: 8px 10px; border-radius: var(--r-sm);
+      border: 1px solid var(--border); background: var(--surface); font: inherit; }
+    .two { display: grid; gap: var(--sp-4); grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); }
+    .wide { max-width: 1180px; }
+    pre.log { white-space: pre-wrap; font-size: 12px; background: var(--surface-2); padding: 8px; border-radius: 8px; max-height: 220px; overflow: auto; }
+  </style>
+</head>
+<body>
+<header class="topbar"><div class="wrap wide">
+  <a class="brand" href="/admin"><span class="brand-mark">⚙</span>Admin</a>
+  {% if request.cookies.get('ss_admin') %}
+  <nav class="admin-nav">
+    {% for href, label in [('/admin', 'Dashboard'), ('/admin/questions', 'Questions'), ('/admin/jobs', 'Jobs')] %}
+    <a class="chip" href="{{ href }}" {% if request.url.path == href %}aria-current="page"{% endif %}>{{ label }}</a>
+    {% endfor %}
+    <form method="post" action="/admin/logout"><button class="chip">Logout</button></form>
+  </nav>
+  {% endif %}
+</div></header>
+<main class="wrap wide">{% block main %}{% endblock %}</main>
+</body>
+</html>
