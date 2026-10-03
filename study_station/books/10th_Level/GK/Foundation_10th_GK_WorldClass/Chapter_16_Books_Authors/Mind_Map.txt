@@ -1,0 +1,45 @@
+```mermaid
+graph TD
+    A["पुस्तकें और लेखक<br>Books & Authors"]
+
+    A --> AN["प्राचीन भारत<br>Ancient India"]
+    A --> MD["मध्यकालीन भारत<br>Medieval India"]
+    A --> MO["आधुनिक भारत<br>Modern India"]
+    A --> WD["विश्व<br>World"]
+    A --> T["परीक्षक के जाल<br>Examiner's Traps"]
+    A --> ST["रणनीति<br>Strategies"]
+
+    AN --> AN1["अर्थशास्त्र - कौटिल्य<br>Indica - Megasthenes"]
+    AN --> AN2["कालिदास: शाकुंतलम्, मेघदूतम्<br>Raghuvamsham, Kumarasambhavam"]
+    AN --> AN3["हर्षचरित - बाणभट्ट<br>Mudrarakshasa - Vishakhadatta"]
+    AN --> AN4["राजतरंगिणी - कल्हण<br>Kashmir history"]
+    AN --> AN5["आर्यभटीय, चरक, सुश्रुत<br>Science and medicine"]
+    AN --> AN6["तिरुक्कुरल, शिलप्पादिकारम्<br>Tamil classics"]
+
+    MD --> MD1["यात्री: फाह्यान, ह्वेनसांग<br>Al-Biruni, Ibn Battuta, Bernier"]
+    MD --> MD2["अकबरनामा - अबुल फ़ज़ल<br>Ain-i-Akbari is Vol. 3"]
+    MD --> MD3["बाबरनामा - बाबर, तुर्की<br>Humayun-nama - Gulbadan Begum"]
+    MD --> MD4["रामचरितमानस - तुलसीदास<br>Padmavat - Jayasi"]
+    MD --> MD5["अमीर ख़ुसरो, बरनी<br>Sultanate chronicles"]
+
+    MO --> MO1["आनंदमठ - बंकिम<br>Vande Mataram, 1882"]
+    MO --> MO2["हिंद स्वराज 1909 - गांधी<br>Gita Rahasya - Tilak"]
+    MO --> MO3["गुलामगिरी - फुले<br>Annihilation of Caste - Ambedkar"]
+    MO --> MO4["नेहरू: Discovery, Glimpses<br>Autobiography"]
+    MO --> MO5["गोदान - प्रेमचंद, कामायनी - प्रसाद<br>Madhushala - Bachchan"]
+    MO --> MO6["गीतांजलि - टैगोर, नोबेल 1913<br>Booker: Rushdie, Roy, Desai, Adiga"]
+
+    WD --> WD1["दास कैपिटल - मार्क्स<br>Origin of Species - Darwin"]
+    WD --> WD2["रिपब्लिक - प्लेटो<br>The Prince - Machiavelli"]
+    WD --> WD3["आत्मकथाएँ: मंडेला, कलाम<br>Autobiographies: Mandela, Kalam"]
+
+    T --> T1["समान नाम: कालिदास बनाम कल्हण<br>Similar name: Kalidasa vs Kalhana"]
+    T --> T2["लगभग सही: आइन-ए-अकबरी अकबर की?<br>Almost true: it is Abul Fazl's"]
+    T --> T3["कालानुक्रम: इब्न बतूता मुग़ल काल में?<br>Chronology: Tughlaq period"]
+    T --> T4["नकारात्मक: कालिदास की नहीं<br>Negative: NOT by Kalidasa"]
+
+    ST --> ST1["15 सेकंड: सीधी जोड़ी<br>15 sec: direct pair"]
+    ST --> ST2["45 सेकंड: सुमेलन, क्रम<br>45 sec: matching, ordering"]
+    ST --> ST3["किताब की कहानी से जोड़ें<br>Link book to its story"]
+    ST --> ST4["डायरी या रिपोर्ट कार्ड?<br>Written by king or about king"]
+```
