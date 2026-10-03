@@ -4,6 +4,21 @@ Project का हर काम एक तय agent करता है। Agent
 `.claude/commands/` में। Claude Code में repo खोलें — agents अपने-आप मिल जाते हैं; किसी और AI में उस
 agent की `.md` file पढ़ाकर वही निर्देश दें। सभी agents `study_station/v2/CLAUDE.md` के नियम मानते हैं।
 
+## 👑 Boss — ss-boss
+
+सबका मुखिया। कोई भी बड़ा काम सिर्फ़ boss को दें — वह काम बाँटता है, सही agent चुनता है, जो काम साथ
+चल सकते हैं उन्हें **एक साथ** चलाता है, नतीजे खुद जाँचता है (tests, observe), और हिंदी में रिपोर्ट देता है।
+Deploy, data हटाना, बड़ा AI ख़र्च जैसे फ़ैसलों से पहले आपसे पूछता है।
+
+```
+/boss <काम>            # Claude Code में, जैसे: /boss नया "previous year papers" page बनाओ और deploy से पहले जाँचो
+/boss                  # खाली = रोज़ का routine
+claude --agent ss-boss # पूरा session boss mode में
+```
+
+> Boss को **main agent** की तरह चलाएँ (`/boss` या `--agent`) — Claude Code में sub-agent आगे sub-agent
+> नहीं चला सकता, इसलिए किसी दूसरे agent के अंदर से boss काम नहीं बाँट पाएगा (तब वह सिर्फ़ plan देता है)।
+
 ## कौन क्या करता है
 
 | Agent | काम | बदलाव करता है? | कब |
@@ -24,7 +39,8 @@ agent की `.md` file पढ़ाकर वही निर्देश द�
 
 | Command | क्या होता है |
 |---|---|
-| `/job` | ss-jobs-updater → पूरा नौकरी-अपडेट (research 6 lanes parallel) |
+| `/boss <काम>` | 👑 boss → plan, सही agents (parallel), जाँच, हिंदी रिपोर्ट |
+| `/job` | main agent `JOBS_AGENT.md` चलाता है — 6 ss-jobs-researcher lanes parallel |
 | `/observe` | ss-observer → हालत की रिपोर्ट + किसे क्या ठीक करना है |
 | `/review-questions` | ss-content-reviewer → reported, फिर flagged सवाल |
 | `/content` | ss-content-generator → फिर ss-content-reviewer |
@@ -35,6 +51,8 @@ agent की `.md` file पढ़ाकर वही निर्देश द�
 ## साथ में कैसे काम करते हैं
 
 ```
+                              👑 ss-boss (आपका हर काम यहीं से)
+                                          │ बाँटता · parallel चलाता · जाँचता · रिपोर्ट
             ┌──────────── ss-observer (रोज़) ────────────┐
             │  समस्या + सबूत                              │
             ▼                                             ▼
