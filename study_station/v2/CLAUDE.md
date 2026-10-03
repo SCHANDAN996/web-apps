@@ -13,7 +13,8 @@ app/importers.py    old MCQ text parser + quality checks       app/seed.py   loa
 app/admin.py        /admin panel                               app/sync.py   recovery-code progress sync
 app/ai.py           Claude: tutor, MCQ generator               app/generate.py  CLI for the generator
 app/current_affairs.py  AIR/PIB feeds → items + MCQs           app/observe.py   health/metrics (read-only)
-app/review.py       question review CLI                        app/jobs/     job engine (sources, extract, pipeline, manage, CLI)
+app/review.py       question review CLI                        app/bookcheck.py  book chapter check (../books)
+app/jobs/           job engine (sources, extract, pipeline, manage, CLI)
 templates/, static/ design system (css/app.css tokens), js/app.js, js/player.js, sw.js
 tests/              pytest (fixtures = trimmed real pages), tests/e2e/flow.mjs (Playwright)
 deploy/             systemd, nginx, cron, backup, setup         JOBS_AGENT.md  the "job" runbook
@@ -29,6 +30,7 @@ python -m app.observe [--markdown]          # health; exit 0 ok / 1 warn / 2 cri
 python -m app.jobs run|health|summary|add URL|upcoming|cleanup|digest
 python -m app.current_affairs run
 python -m app.review list|show|apply|stats
+python -m app.bookcheck ../books/<Level>/<Subject>/<Book>   # OK / TODO / FIX per chapter
 python -m app.generate --topic ga/polity --n 10 | --fill --min 60
 ```
 

@@ -200,13 +200,16 @@ LEAKED_REASONING = re.compile(
 NEEDS_CONTEXT = re.compile(
     r"same arrangement|another question|above (information|passage|data|arrangement)|"
     r"previous question|उपरोक्त|ऊपर दी|पिछले प्रश्न|इसी व्यवस्था", re.I)
+# "Consider the statements: 1… 2… Which of the above…?" carries its own context.
+STATEMENTS = re.compile(r'कथन|statements?\b', re.I)
 
 
 def quality_problem(q):
     """Return a short reason string if the question should not reach students."""
     if LEAKED_REASONING.search(q.solution) or LEAKED_REASONING.search(q.text):
         return 'leaked_reasoning'
-    if NEEDS_CONTEXT.search(q.text):
+    self_contained = STATEMENTS.search(q.text) and q.text.count('\n') >= 2
+    if NEEDS_CONTEXT.search(q.text) and not self_contained:
         return 'needs_context'
     if answer_conflicts_with_solution(q):
         return 'answer_solution_conflict'

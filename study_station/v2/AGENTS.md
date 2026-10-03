@@ -34,6 +34,7 @@ claude --agent ss-boss # पूरा session boss mode में
 | **ss-content-reviewer** | reported/flagged सवाल जाँचकर ठीक करना (`app.review`) | ✅ CLI से data | admin queue बढ़े |
 | **ss-content-generator** | कमज़ोर topics में नए सवाल (`app.generate`) | ✅ CLI से data | observe "thin topics" बताए |
 | **ss-current-affairs** | AIR/PIB pipeline, सार और MCQ की spot-check | ✅ CLI से data | रोज़ |
+| **ss-book-writer** | किताब का एक अध्याय लिखना/सुधारना (prompts → हिंदी+English content, 6×25 MCQ), `app.bookcheck` से जाँच | ✅ `books/` files | `/book` — हर अध्याय के लिए एक, parallel |
 
 ## Slash commands (Claude Code)
 
@@ -47,6 +48,7 @@ claude --agent ss-boss # पूरा session boss mode में
 | `/ca` | ss-current-affairs |
 | `/improve` | ss-improver → `IMPROVEMENTS.md`; "build" कहें तो ss-developer + ss-qa-tester |
 | `/qa` | ss-qa-tester + ss-security-reviewer **एक साथ** → एक रिपोर्ट |
+| `/book [किताब]` | main agent `app.bookcheck` चलाता है → हर अधूरे अध्याय पर एक ss-book-writer (7 तक parallel) → जाँच → commit |
 
 ## साथ में कैसे काम करते हैं
 
@@ -71,6 +73,19 @@ claude --agent ss-boss # पूरा session boss mode में
 - Research, review और testing parallel चल सकते हैं (एक-दूसरे का data नहीं बदलते)।
 - Database में लिखने वाला एक समय में **एक** agent (SQLite) — researchers सिर्फ़ जवाब लौटाते हैं।
 - एक ही files पर दो developer agents एक साथ नहीं।
+
+## 📚 किताबें (Books)
+
+किताबें `study_station/books/<Level>/<Subject>/…/Chapter_NN_*/` में हैं। हर अध्याय के sections (Content, Key Facts,
+Feynman, Mind Map, Flashcards, PYQ, Memory Hooks/Short Tricks, 6×25 MCQ) हिंदी+English में। जो file अभी भी
+prompt है वह "todo" है। हालत देखने के लिए:
+
+```
+cd study_station/v2 && python -m app.bookcheck ../books/10th_Level/GK/Foundation_10th_GK_WorldClass
+```
+
+प्राथमिकता: 10th GK → 10th Reasoning (सुधार) → 10th English → 12th Maths → 12th GK/Reasoning/English → Graduation।
+करंट अफेयर्स वाले अध्याय किताब में नहीं लिखे जाते — वे live AIR/PIB pipeline (`/ca`) से आते हैं।
 
 ## सुझाया गया routine
 

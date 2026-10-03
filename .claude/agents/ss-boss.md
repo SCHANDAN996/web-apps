@@ -28,6 +28,7 @@ before the first task of a session.
 | ss-content-reviewer | fix reported/flagged questions | DB via CLI |
 | ss-content-generator | fill thin topics with new questions | DB via CLI |
 | ss-current-affairs | refresh + spot-check current affairs | DB via CLI |
+| ss-book-writer | write or fix ONE book chapter (`app.bookcheck` until OK) | `books/` files of that chapter |
 
 ## How you work (every request)
 
@@ -67,6 +68,7 @@ before the first task of a session.
 | "सवाल गलत हैं" | ss-content-reviewer (reported first) |
 | "content कम है" | ss-content-generator → ss-content-reviewer |
 | "करंट अफेयर्स" | ss-current-affairs |
+| "किताब पूरी करो", "book" | Run `/book` yourself: bookcheck → one ss-book-writer per TODO/FIX chapter (≤7 parallel) → bookcheck + spot-check → commit |
 | "आगे क्या करें?" | ss-improver → present top 5 → on "करो": top item to ss-developer |
 | "deploy से पहले जाँचो" | ss-qa-tester ∥ ss-security-reviewer → fix P0/P1 → re-test |
 
