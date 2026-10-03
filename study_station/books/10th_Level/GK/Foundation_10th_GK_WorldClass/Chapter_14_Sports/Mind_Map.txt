@@ -1,0 +1,82 @@
+```mermaid
+graph TD
+    A["खेल और प्रतियोगिताएँ<br>Sports & Competitions"]
+
+    A --> G["खेल की बुनियाद<br>Games: Basics"]
+    A --> C["बड़ी प्रतियोगिताएँ<br>Big Competitions"]
+    A --> I["भारत की खेल व्यवस्था<br>India's Sports System"]
+    A --> T["परीक्षक के जाल<br>Examiner's Traps"]
+    A --> ST["रणनीति<br>Strategies"]
+
+    G --> G1["खिलाड़ियों की संख्या<br>Team sizes"]
+    G --> G2["शब्दावली<br>Sports terms"]
+    G --> G3["कप और ट्रॉफी<br>Cups & Trophies"]
+    G --> G4["उत्पत्ति<br>Origins"]
+
+    G1 --> G1a["पोलो 4, बास्केटबॉल 5, वॉलीबॉल 6<br>Polo 4, Basketball 5, Volleyball 6"]
+    G1 --> G1b["कबड्डी 7, खो-खो 9<br>Kabaddi 7, Kho-Kho 9"]
+    G1 --> G1c["क्रिकेट, फ़ुटबॉल, हॉकी 11<br>The 11 club"]
+
+    G2 --> G2a["गुगली, LBW - क्रिकेट<br>Googly, LBW - Cricket"]
+    G2 --> G2b["चक्कर - पोलो, पक - आइस हॉकी<br>Chukker - Polo, Puck - Ice hockey"]
+    G2 --> G2c["स्नैच - भारोत्तोलन, चेकमेट - शतरंज<br>Snatch - Weightlifting, Checkmate - Chess"]
+
+    G3 --> G3a["रणजी, ईरानी, दलीप - क्रिकेट<br>Ranji, Irani, Duleep - Cricket"]
+    G3 --> G3b["डूरंड, संतोष, सुब्रतो - फ़ुटबॉल<br>Durand, Santosh, Subroto - Football"]
+    G3 --> G3c["बेटन, आगा ख़ान - हॉकी<br>Beighton, Aga Khan - Hockey"]
+    G3 --> G3d["थॉमस, उबेर, सुदीरमन - बैडमिंटन<br>Thomas, Uber, Sudirman - Badminton"]
+    G3 --> G3e["डेविस, बिली जीन किंग - टेनिस<br>Davis, Billie Jean King - Tennis"]
+
+    G4 --> G4a["शतरंज - चतुरंग, भारत<br>Chess from Chaturanga"]
+    G4 --> G4b["आधुनिक पोलो - मणिपुर<br>Modern polo from Manipur"]
+
+    C --> O["ओलंपिक<br>Olympics"]
+    C --> AG["एशियाई खेल<br>Asian Games"]
+    C --> CW["राष्ट्रमंडल खेल<br>Commonwealth Games"]
+    C --> WC["विश्व कप<br>World Cups"]
+
+    O --> O1["1896 एथेंस, कुबर्तिन<br>IOC Lausanne"]
+    O --> O2["5 छल्ले, Together 2021<br>Five rings, new motto word"]
+    O --> O3["हॉकी के 8 स्वर्ण 1928-1980<br>8 hockey golds"]
+    O --> O4["बिंद्रा 2008, नीरज 2021<br>First individual gold, first athletics gold"]
+    O --> O5["पेरिस 2024: 6 पदक<br>Paris 2024: 1 silver, 5 bronze"]
+
+    AG --> AG1["1951 और 1982 नई दिल्ली<br>Hosted twice by India"]
+    AG --> AG2["हांगझोउ 2023: 107 पदक<br>OCA HQ Kuwait"]
+
+    CW --> CW1["1930 हैमिल्टन<br>British Empire Games"]
+    CW --> CW2["दिल्ली 2010, अहमदाबाद 2030<br>Delhi 2010, Ahmedabad 2030"]
+
+    WC --> WC1["क्रिकेट: 1983, 2011 ODI<br>T20: 2007, 2024, 2026"]
+    WC --> WC2["फ़ुटबॉल: 1930 उरुग्वे<br>Spain won 2026"]
+    WC --> WC3["हॉकी: भारत 1975<br>Captain Ajit Pal Singh"]
+
+    I --> I1["राष्ट्रीय खेल पुरस्कार<br>National Sports Awards"]
+    I --> I2["संस्थाएँ और मुख्यालय<br>Bodies & HQs"]
+    I --> I3["स्टेडियम<br>Stadiums"]
+    I --> I4["दिवस और योजनाएँ<br>Days & Schemes"]
+
+    I1 --> I1a["खेल रत्न 1991-92, नाम 2021<br>Khel Ratna - highest"]
+    I1 --> I1b["अर्जुन 1961 - खिलाड़ी<br>Arjuna - players"]
+    I1 --> I1c["द्रोणाचार्य 1985 - कोच<br>Dronacharya - coaches"]
+    I1 --> I1d["MAKA - विश्वविद्यालय<br>MAKA - university"]
+
+    I2 --> I2a["FIFA ज़्यूरिख, ICC दुबई<br>FIFA Zurich, ICC Dubai"]
+    I2 --> I2b["SAI 1984, NIS पटियाला<br>SAI 1984, NIS Patiala"]
+
+    I3 --> I3a["ईडन गार्डन्स कोलकाता<br>Eden Gardens Kolkata"]
+    I3 --> I3b["लॉर्ड्स - क्रिकेट का घर<br>Lord's - Home of Cricket"]
+
+    I4 --> I4a["राष्ट्रीय खेल दिवस 29 अगस्त<br>National Sports Day 29 Aug"]
+    I4 --> I4b["TOPS 2014, खेलो इंडिया, फ़िट इंडिया 2019<br>TOPS, Khelo India, Fit India"]
+
+    T --> T1["समान नाम: उबेर पुरुषों का?<br>Similar name: Uber is women's"]
+    T --> T2["कालानुक्रम: टोक्यो 2020 हुआ 2021 में<br>Chronology: Tokyo 2020 held in 2021"]
+    T --> T3["लगभग सही: पहला व्यक्तिगत स्वर्ण नीरज?<br>Almost true: it was Bindra"]
+    T --> T4["नकारात्मक: राष्ट्रीय खेल घोषित?<br>No official national game"]
+
+    ST --> ST1["15 सेकंड: कप, शब्द, संख्या<br>15 sec: cup, term, team size"]
+    ST --> ST2["45 सेकंड: क्रम, सुमेलन, कथन<br>45 sec: order, match, statements"]
+    ST --> ST3["सूत्र: गुरु को द्रोण, शिष्य को अर्जुन<br>Mnemonic: Guru-Drona, Shishya-Arjuna"]
+    ST --> ST4["हर ख़बर में पूछें: खेल, कप, साल<br>Ask: game, cup, year"]
+```
