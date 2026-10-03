@@ -33,8 +33,26 @@ AGGREGATOR_HOSTS = ('freejobalert', 'sarkariresult', 'indgovtjobs', 'sarkari', '
                     'adda247', 'testbook', 'jobriya', 'careerpower', 'govtjobguru', 'fresherslive')
 
 
+def safe_http_url(url):
+    """The URL if it is plain http(s) with a hostname and no user:pass@ part, else None.
+    Blocks javascript:/data: links and 'http://ssc.nic.in:@evil.com/' look-alikes."""
+    url = (url or '').strip()
+    if re.search(r'[\x00-\x20]', url):
+        return None
+    try:
+        p = urlsplit(url)
+        p.port                       # raises on garbage ports
+    except ValueError:
+        return None
+    if p.scheme.lower() not in ('http', 'https') or not p.hostname or p.username is not None or p.password is not None:
+        return None
+    return url
+
+
 def host_of(url):
-    h = urlsplit(url or '').netloc.lower().split(':')[0]
+    if not safe_http_url(url):
+        return ''
+    h = urlsplit(url).hostname.lower().rstrip('.')
     return h[4:] if h.startswith('www.') else h
 
 
@@ -56,6 +74,7 @@ class Item:
     published: date | None = None
     doc_urls: list = field(default_factory=list)   # official notice files
     hint_text: str = ''
+    origin_host: str = ''                           # discovery: the aggregator's own host
 
 
 def clean(s):
@@ -129,9 +148,11 @@ class HtmlListingSource:
 
         def add(title, href, hint=''):
             title = re.sub(r'(\s*(read\s+more|click\s+here|new|अधिक\s+पढ़ें))+$', '', clean(title), flags=re.I)
-            if not href or href.startswith(('#', 'javascript:', 'mailto:')) or '{{' in title:
+            if not href or '{{' in title:
                 return
-            url = urljoin(base_url, href)
+            url = safe_http_url(urljoin(base_url, href.strip()))
+            if not url:
+                return
             if len(title) < 12 or url in seen or not LISTING_KW.search(title + ' ' + hint):
                 return
             seen.add(url)
@@ -182,20 +203,20 @@ class RSSDiscoverySource:
         root = ET.fromstring(xml_bytes)
         out = []
         for it in root.iter('item'):
-            title, link = clean(it.findtext('title')), clean(it.findtext('link'))
+            title, link = clean(it.findtext('title')), safe_http_url(clean(it.findtext('link')))
             pub = None
             try:
                 pub = parsedate_to_datetime(it.findtext('pubDate')).date()
             except (TypeError, ValueError):
                 pass
             if title and link:
-                out.append(Item(self.name, self.kind, title, link, published=pub))
+                out.append(Item(self.name, self.kind, title, link, published=pub, origin_host=host_of(self.url)))
         atom = '{http://www.w3.org/2005/Atom}'
         for e in root.iter(atom + 'entry'):
-            link = next((l.get('href') for l in e.findall(atom + 'link') if l.get('rel') in (None, 'alternate')), None)
+            link = safe_http_url(next((l.get('href') for l in e.findall(atom + 'link') if l.get('rel') in (None, 'alternate')), None))
             title = clean(e.findtext(atom + 'title'))
             if title and link:
-                out.append(Item(self.name, self.kind, title, link))
+                out.append(Item(self.name, self.kind, title, link, origin_host=host_of(self.url)))
         return out[: self.max_items]
 
 
@@ -204,8 +225,8 @@ def official_links_from_page(html, base_url):
     soup = BeautifulSoup(html, 'html.parser')
     docs, sites = [], []
     for a in soup.find_all('a', href=True):
-        url = urljoin(base_url, a['href'])
-        if not is_official(url):
+        url = safe_http_url(urljoin(base_url, a['href'].strip()))
+        if not url or not is_official(url):
             continue
         text = a.get_text(' ').lower()
         if url.lower().split('?')[0].endswith('.pdf') or re.search(r'notification|advertisement|notice|विज्ञापन', text):

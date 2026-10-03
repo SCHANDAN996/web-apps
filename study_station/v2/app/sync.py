@@ -53,5 +53,6 @@ def restore(db: Session, current: Device | None, code: str):
             owner.level, owner.target_exams = current.level, current.target_exams
         db.flush()
         db.delete(current)
+    owner.recovery_hash = None          # single use: a code seen once (screenshot, group chat) stops working
     db.commit()
     return owner

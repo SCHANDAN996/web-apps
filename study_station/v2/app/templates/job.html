@@ -3,12 +3,12 @@
 {% block description %}{{ job.title }}{% if job.last_date_text %} · {{ tr('last_date') }}: {{ job.last_date_text }}{% endif %}{% endblock %}
 {% block robots %}{% if job.last_date and job.last_date < today %}<meta name="robots" content="noindex">{% endif %}{% endblock %}
 {% block head %}
-{% if job.status == 'verified' and job.job_type == 'latest' and job.last_date and job.last_date >= today and job.official_url %}
+{% if job.status == 'verified' and job.job_type == 'latest' and job.last_date and job.last_date >= today and job.official_url|safe_url %}
 <script type="application/ld+json">{{ {
   "@context": "https://schema.org", "@type": "JobPosting", "title": job.title,
   "description": job.eligibility or job.title,
   "datePosted": job.created_at.date().isoformat(), "validThrough": job.last_date.isoformat(),
-  "hiringOrganization": {"@type": "Organization", "name": job.org or job.title, "sameAs": job.official_url},
+  "hiringOrganization": {"@type": "Organization", "name": job.org or job.title, "sameAs": job.official_url|safe_url},
   "jobLocation": {"@type": "Place", "address": {"@type": "PostalAddress", "addressCountry": "IN"}},
   "employmentType": "FULL_TIME"
 }|tojson }}</script>
@@ -44,7 +44,7 @@
 <div class="notice" style="margin-top:var(--sp-3)"><svg class="icon"><use href="#i-info"/></svg><span>{{ tr('not_verified') }}</span></div>
 {% endif %}
 <div class="stack" style="margin-top:var(--sp-4)">
-  {% if job.notification_url %}<a class="btn btn-primary btn-block" href="{{ job.notification_url }}" target="_blank" rel="noopener nofollow">{{ tr('notification_pdf') }} <svg class="icon icon-sm"><use href="#i-external"/></svg></a>{% endif %}
-  {% if job.official_url %}<a class="btn btn-secondary btn-block" href="{{ job.official_url }}" target="_blank" rel="noopener nofollow">{{ tr('official_link') }} <svg class="icon icon-sm"><use href="#i-external"/></svg></a>{% endif %}
+  {% if job.notification_url|safe_url %}<a class="btn btn-primary btn-block" href="{{ job.notification_url|safe_url }}" target="_blank" rel="noopener nofollow">{{ tr('notification_pdf') }} <svg class="icon icon-sm"><use href="#i-external"/></svg></a>{% endif %}
+  {% if job.official_url|safe_url %}<a class="btn btn-secondary btn-block" href="{{ job.official_url|safe_url }}" target="_blank" rel="noopener nofollow">{{ tr('official_link') }} <svg class="icon icon-sm"><use href="#i-external"/></svg></a>{% endif %}
 </div>
 {% endblock %}

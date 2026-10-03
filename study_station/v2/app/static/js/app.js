@@ -2,6 +2,11 @@
 (function () {
   'use strict';
   var SS = window.SS || (window.SS = {});
+  // Boot data comes as JSON (not an inline script) so the CSP can forbid inline JS.
+  try {
+    var boot = JSON.parse(document.getElementById('ss-boot').textContent);
+    SS.lang = boot.lang; SS.t = boot.t; SS.ai = boot.ai;
+  } catch (e) { SS.lang = SS.lang || 'hi'; SS.t = SS.t || {}; }
 
   SS.api = function (method, url, body) {
     if (method !== 'GET' && !body) body = {};   // API only accepts JSON bodies (CSRF guard)

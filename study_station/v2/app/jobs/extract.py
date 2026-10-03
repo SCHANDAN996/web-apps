@@ -1,5 +1,4 @@
 """Turn an official notice (PDF or HTML) into structured facts. Hindi + English."""
-import io
 import re
 from datetime import date
 
@@ -13,12 +12,27 @@ DATE_WORDS = r'(\d{1,2})(?:st|nd|rd|th)?[\s\-]*([A-Za-z]{3,9})[,\s\-]*(\d{4})'
 DATE_WORDS_US = r'\b([A-Za-z]{3,9})\.?\s+(\d{1,2})(?:st|nd|rd|th)?,?\s+(\d{4})'
 
 
-def pdf_text(content: bytes, pages=PDF_PAGES):
-    from pypdf import PdfReader
+_PDF_WORKER = '''
+import io, resource, sys
+resource.setrlimit(resource.RLIMIT_AS, (768 * 1024 * 1024,) * 2)   # hostile PDFs can't eat the server
+from pypdf import PdfReader
+try:
+    reader = PdfReader(io.BytesIO(sys.stdin.buffer.read()))
+    sys.stdout.write("\\n".join((p.extract_text() or "") for p in reader.pages[:int(sys.argv[1])]))
+except Exception:
+    pass
+'''
+
+
+def pdf_text(content: bytes, pages=PDF_PAGES, timeout=60):
+    """Extract text in a separate, memory- and time-limited process (PDFs come from the internet)."""
+    import subprocess
+    import sys
     try:
-        reader = PdfReader(io.BytesIO(content))
-        return '\n'.join((p.extract_text() or '') for p in reader.pages[:pages])
-    except Exception:
+        r = subprocess.run([sys.executable, '-c', _PDF_WORKER, str(pages)], input=content,
+                           capture_output=True, timeout=timeout)
+        return r.stdout.decode('utf-8', errors='replace')
+    except (subprocess.TimeoutExpired, OSError):
         return ''
 
 

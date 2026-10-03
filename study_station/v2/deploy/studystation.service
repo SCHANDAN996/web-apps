@@ -15,7 +15,9 @@ Restart=always
 RestartSec=3
 NoNewPrivileges=true
 ProtectSystem=full
-ReadWritePaths=/var/lib/studystation /var/log/studystation /var/www/study_station/v2
+ProtectHome=true
+PrivateTmp=true
+ReadWritePaths=/var/lib/studystation /var/log/studystation
 
 [Install]
 WantedBy=multi-user.target

@@ -89,9 +89,14 @@ def main(argv=None):
                     Path(args.out).parent.mkdir(parents=True, exist_ok=True)
                     Path(args.out).write_text(text, encoding='utf-8')
                 print(text)
+                sent_ok = True
                 if args.telegram:
-                    print(manage.send_telegram(text))
-                if args.mark_sent:
+                    try:
+                        print(manage.send_telegram(text))
+                    except manage.TelegramError as e:
+                        print('telegram FAILED:', e)
+                        sent_ok = False
+                if args.mark_sent and sent_ok:
                     manage.mark_notified(db, d)
         return 0
 

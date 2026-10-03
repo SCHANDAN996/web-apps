@@ -41,17 +41,27 @@ app.include_router(admin_router)
 templates = Jinja2Templates(directory=APP_DIR / 'templates')
 
 
+def _safe_url_filter(url):
+    from .jobs.sources import safe_http_url
+    return safe_http_url(url) or ''
+
+
+templates.env.filters['safe_url'] = _safe_url_filter
+
+
 # ---------------------------------------------------------------- middleware
 @app.middleware('http')
 async def headers_and_csrf(request: Request, call_next):
     if request.method in ('POST', 'PUT', 'DELETE') and request.url.path.startswith('/api/'):
         # JSON-only API: a cross-site <form> cannot send application/json.
-        if 'application/json' not in request.headers.get('content-type', ''):
+        if request.headers.get('content-type', '').split(';')[0].strip().lower() != 'application/json':
             return JSONResponse({'detail': 'JSON body required'}, status_code=415)
     response = await call_next(request)
     path = request.url.path
     response.headers.setdefault('X-Content-Type-Options', 'nosniff')
     response.headers.setdefault('Referrer-Policy', 'strict-origin-when-cross-origin')
+    if response.headers.get('content-type', '').startswith('text/html'):
+        response.headers.setdefault('Content-Security-Policy', CSP)
     if path.startswith('/api/') or path.startswith('/admin'):
         response.headers['Cache-Control'] = 'no-store'
         if path.startswith('/admin'):
@@ -61,6 +71,11 @@ async def headers_and_csrf(request: Request, call_next):
     elif 'Cache-Control' not in response.headers:
         response.headers['Cache-Control'] = 'no-cache'
     return response
+
+
+CSP = ("default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; "
+       "connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; "
+       "frame-ancestors 'none'")
 
 
 class RateLimiter:
@@ -83,8 +98,19 @@ class RateLimiter:
 limiter = RateLimiter()
 
 
+def client_key(request: Request):
+    """Client address for rate limits; IPv6 users get one bucket per /64 (they own the whole block)."""
+    import ipaddress
+    host = request.client.host if request.client else 'unknown'
+    try:
+        ip = ipaddress.ip_address(host)
+    except ValueError:
+        return host
+    return str(ipaddress.ip_network(f'{ip}/64', strict=False)) if ip.version == 6 else host
+
+
 def limit(request: Request, name: str, n: int, window: int):
-    ip = request.client.host if request.client else 'unknown'
+    ip = client_key(request)
     if not limiter.allow(f'{name}:{ip}', n, window):
         raise HTTPException(429, 'Too many requests')
 

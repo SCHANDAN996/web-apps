@@ -139,9 +139,9 @@ def test_pipeline_merges_discovery_into_official_and_survives_broken_source(clea
     official = Item('ssc', 'official', 'Notice of Combined Higher Secondary (10+2) Level Examination, 2026',
                     'https://ssc.gov.in/#notice-1', org='SSC', category='ssc', doc_urls=[notice])
     discovered = Item('fja', 'discovery', 'SSC CHSL 2026 Notification Out - Apply Online for 2536 Posts',
-                      'https://www.freejobalert.com/articles/ssc-chsl-2026')
+                      'https://www.freejobalert.com/articles/ssc-chsl-2026', origin_host='freejobalert.com')
     roundup = Item('fja', 'discovery', 'Latest All India Govt Jobs 2026 Notifications List (69313+ Vacancies)',
-                   'https://www.freejobalert.com/articles/latest')
+                   'https://www.freejobalert.com/articles/latest', origin_host='freejobalert.com')
     article = f'<a href="{notice}">Download SSC CHSL Notification</a><a href="https://ssc.gov.in">Official</a>'
     http = FakeFetcher({notice: fx('ssc_chsl_2026_notice.txt'), 'https://www.freejobalert.com/articles/ssc-chsl': article})
 
@@ -167,7 +167,7 @@ def test_pipeline_merges_discovery_into_official_and_survives_broken_source(clea
 def test_discovery_without_official_link_stays_hidden(clean_jobs, client):
     db = clean_jobs
     item = Item('fja', 'discovery', 'XYZ Board Clerk Recruitment 2026 - Apply Online for 50 Posts',
-                'https://www.freejobalert.com/articles/xyz')
+                'https://www.freejobalert.com/articles/xyz', origin_host='freejobalert.com')
     http = FakeFetcher({'https://www.freejobalert.com/articles/xyz': '<a href="https://t.me/x">Telegram</a>'})
     pipeline.run(db, [StaticSource('fja', [item])], http=http)
     job = db.query(Job).one()

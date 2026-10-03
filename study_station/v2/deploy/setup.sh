@@ -9,12 +9,15 @@ apt-get update -qq
 apt-get install -y -qq python3-venv python3-pip nginx certbot python3-certbot-nginx
 id studystation >/dev/null 2>&1 || useradd --system --home /var/lib/studystation --shell /usr/sbin/nologin studystation
 mkdir -p /var/lib/studystation /var/log/studystation /var/backups/studystation
-chown -R studystation:studystation /var/lib/studystation /var/log/studystation /var/backups/studystation "$APP"
-chmod 600 .env
+# The app user may write data, logs and backups — never its own code (a file-write bug must not become code execution).
+chown -R studystation:studystation /var/lib/studystation /var/log/studystation /var/backups/studystation
+chmod 700 /var/backups/studystation
+chown -R root:root "$APP"
+chown root:studystation .env && chmod 640 .env
 chmod +x deploy/*.sh
 
-sudo -u studystation python3 -m venv venv
-sudo -u studystation ./venv/bin/pip install -q -r requirements.txt
+python3 -m venv venv
+./venv/bin/pip install -q -r requirements.txt
 sudo -u studystation deploy/run.sh python -m app.seed
 
 cp deploy/studystation.service /etc/systemd/system/

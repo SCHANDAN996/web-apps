@@ -22,10 +22,12 @@ from sqlalchemy.orm import Session
 
 from . import config
 from .db import get_db
+from .jobs.sources import safe_http_url
 from .models import (Job, JobSource, Question, QuestionReport, SourceHealth, Subject, Topic)
 
 APP_DIR = Path(__file__).resolve().parent
 templates = Jinja2Templates(directory=APP_DIR / 'templates')
+templates.env.filters['safe_url'] = lambda u: safe_http_url(u) or ''
 router = APIRouter(prefix='/admin')
 COOKIE = 'ss_admin'
 SESSION_SECONDS = 8 * 3600
@@ -42,12 +44,18 @@ def signer():
     return TimestampSigner(config.SECRET_KEY, salt='ss-admin')
 
 
+def session_value():
+    """Changes when ADMIN_PASSWORD changes, so changing the password logs every session out."""
+    import hashlib
+    return b'admin:' + hashlib.sha256(config.ADMIN_PASSWORD.encode()).hexdigest()[:16].encode()
+
+
 def is_admin(request: Request):
     token = request.cookies.get(COOKIE)
     if not configured() or not token:
         return False
     try:
-        return signer().unsign(token, max_age=SESSION_SECONDS) == b'admin'
+        return hmac.compare_digest(signer().unsign(token, max_age=SESSION_SECONDS), session_value())
     except (BadSignature, SignatureExpired):
         return False
 
@@ -99,7 +107,7 @@ def login(request: Request, password: str = Form(...), next: str = Form('/admin'
         return page(request, 'login.html', error='wrong', next=next)
     target = next if next.startswith('/admin') and not next.startswith('//') else '/admin'
     resp = back(target)
-    resp.set_cookie(COOKIE, signer().sign(b'admin').decode(), max_age=SESSION_SECONDS, httponly=True,
+    resp.set_cookie(COOKIE, signer().sign(session_value()).decode(), max_age=SESSION_SECONDS, httponly=True,
                     samesite='strict', secure=config.COOKIE_SECURE, path='/admin')
     return resp
 

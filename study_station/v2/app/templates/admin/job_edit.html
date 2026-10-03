@@ -5,7 +5,7 @@
 <h1>{{ job.title }} <span class="badge">{{ job.status }}</span></h1>
 <section class="card" style="margin-bottom:var(--sp-4)">
   <h2>Seen on</h2>
-  <ul class="list">{% for s in sources %}<li class="list-item"><span class="badge {{ 'badge-ok' if s.kind == 'official' else '' }}">{{ s.kind }}</span><span class="grow"><b>{{ s.source }}</b> — <a href="{{ s.url }}" target="_blank" rel="noopener nofollow">{{ s.title[:90] }}</a></span></li>{% endfor %}</ul>
+  <ul class="list">{% for s in sources %}<li class="list-item"><span class="badge {{ 'badge-ok' if s.kind == 'official' else '' }}">{{ s.kind }}</span><span class="grow"><b>{{ s.source }}</b> — <a href="{{ s.url|safe_url or '#' }}" target="_blank" rel="noopener nofollow">{{ s.title[:90] }}</a></span></li>{% endfor %}</ul>
 </section>
 <form method="post" class="card">
   <input type="hidden" name="back_status" value="{{ job.status }}">
@@ -29,7 +29,7 @@
     <button class="btn btn-primary" name="action" value="verify">✓ Save & publish (verified)</button>
     <button class="btn btn-secondary" name="action" value="save">Save</button>
     {% if job.status == 'verified' %}<button class="btn btn-secondary" name="action" value="unpublish">Unpublish</button>{% endif %}
-    <button class="btn btn-ghost" name="action" value="delete" onclick="return confirm('Delete this job?')">Delete</button>
+    <button class="btn btn-ghost" name="action" value="delete" data-confirm="Delete this job?">Delete</button>
   </div>
 </form>
 {% endblock %}

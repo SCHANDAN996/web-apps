@@ -29,8 +29,8 @@ sudo certbot --nginx -d studystation.in -d www.studystation.in
 ## 2. Update (नया code आने पर)
 
 ```bash
-cd /var/www/web-apps && sudo -u studystation git pull
-cd study_station/v2 && sudo -u studystation ./venv/bin/pip install -q -r requirements.txt
+cd /var/www/web-apps && sudo git pull
+cd study_station/v2 && sudo ./venv/bin/pip install -q -r requirements.txt
 sudo -u studystation deploy/run.sh python -m app.seed      # नए topics/exam patterns; data सुरक्षित रहता है
 sudo systemctl restart studystation
 ```

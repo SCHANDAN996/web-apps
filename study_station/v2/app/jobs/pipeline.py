@@ -15,7 +15,7 @@ from ..seed import slugify
 from .extract import (categorize, classify, dedupe_key, extract_facts, html_text, is_academic,
                       is_roundup, pdf_text, qualification, similar, tokens)
 from .http import FetchError, Fetcher
-from .sources import Item, enabled_sources, host_of, is_official, official_links_from_page
+from .sources import Item, enabled_sources, host_of, is_official, official_links_from_page, safe_http_url
 
 log = logging.getLogger('jobs')
 FACT_FIELDS = ('start_date', 'last_date', 'vacancies', 'age_min', 'age_max', 'min_qualification', 'advt_no')
@@ -24,6 +24,9 @@ KEEP_TYPES = {'latest', 'admit', 'results', 'answer'}
 
 def resolve_discovery(http: Fetcher, item: Item):
     """Open the aggregator's article only to find the official notice link."""
+    # A feed may only send us to pages on its own site — never to arbitrary/internal hosts.
+    if not item.origin_host or host_of(item.url) != item.origin_host:
+        raise FetchError(f'discovery link off its own site: {item.url[:120]}')
     r = http.get(item.url)
     docs, sites = official_links_from_page(r.text, r.url)
     item.doc_urls = docs[:3]
@@ -60,6 +63,8 @@ def unique_slug(db, title):
 
 
 def upsert(db: Session, item: Item, job_type, facts, notification_url, official_url, verified):
+    notification_url = safe_http_url(notification_url) if notification_url and is_official(notification_url) else None
+    official_url = safe_http_url(official_url) if official_url and is_official(official_url) else None
     org_host = host_of(notification_url or official_url) or None
     key = dedupe_key(org_host or item.source, item.title, facts.get('advt_no'))
     job = find_existing(db, key, item.title, notification_url, org_host, item.kind)
@@ -126,6 +131,9 @@ def read_official(http: Fetcher, urls, title='', advt=None):
         except FetchError as e:
             log.info('doc failed %s: %s', url, e)
             continue
+        if not is_official(r.url):              # redirected away from the official site
+            log.info('doc left official domain %s → %s', url, r.url)
+            continue
         if r.is_pdf:
             text = pdf_text(r.content)
             if text.strip():
@@ -140,7 +148,7 @@ def read_official(http: Fetcher, urls, title='', advt=None):
             for pdf in _official_pdf_links(r.text, r.url)[:1]:
                 try:
                     pr = http.get(pdf)
-                    if pr.is_pdf and (pt := pdf_text(pr.content)).strip():
+                    if pr.is_pdf and is_official(pr.url) and (pt := pdf_text(pr.content)).strip():
                         return text + '\n' + pt, pdf
                 except FetchError as e:
                     log.info('pdf failed %s: %s', pdf, e)

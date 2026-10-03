@@ -192,11 +192,24 @@ def send_telegram(text, token=None, chat_id=None):
         return 'skipped: TELEGRAM_BOT_TOKEN / TELEGRAM_CHANNEL_ID not set'
     sent = 0
     for chunk in [text[i:i + 3800] for i in range(0, len(text), 3800)]:   # Telegram limit 4096
-        r = httpx.post(f'https://api.telegram.org/bot{token}/sendMessage', timeout=20,
-                       data={'chat_id': chat_id, 'text': chunk, 'disable_web_page_preview': 'true'})
-        r.raise_for_status()
+        try:
+            r = httpx.post(f'https://api.telegram.org/bot{token}/sendMessage', timeout=20,
+                           data={'chat_id': chat_id, 'text': chunk, 'disable_web_page_preview': 'true'})
+        except httpx.HTTPError as e:
+            # The URL contains the bot token — report only the error type.
+            raise TelegramError(f'network error ({type(e).__name__})') from None
+        if r.status_code != 200:
+            try:
+                desc = r.json().get('description', '')
+            except ValueError:
+                desc = ''
+            raise TelegramError(f'Telegram HTTP {r.status_code}: {desc[:120]}')
         sent += 1
     return f'sent {sent} message(s)'
+
+
+class TelegramError(Exception):
+    pass
 
 
 def mark_notified(db: Session, d):

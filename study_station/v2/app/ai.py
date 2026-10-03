@@ -91,13 +91,13 @@ def check_budget(db: Session, device_id):
         raise AIUnavailable('daily_limit')
 
 
-def record_use(db: Session, device_id):
+def record_use(db: Session, device_id, delta=1):
     day = _today()
     row = db.scalar(select(AiUsage).where(AiUsage.day == day, AiUsage.device_id == device_id))
     if row is None:
         row = AiUsage(day=day, device_id=device_id, count=0)
         db.add(row)
-    row.count += 1
+    row.count = max(0, row.count + delta)
     db.commit()
 
 
@@ -132,8 +132,12 @@ def explain(db: Session, q: Question, lang, device_id):
     if cached:
         return cached.text, True
     check_budget(db, device_id)
-    text = call(TUTOR_SYSTEM, _question_block(q, lang), effort='low', max_tokens=2000)
-    record_use(db, device_id)
+    record_use(db, device_id)                     # reserve first so parallel requests can't overshoot
+    try:
+        text = call(TUTOR_SYSTEM, _question_block(q, lang), effort='low', max_tokens=2000)
+    except AIUnavailable:
+        record_use(db, device_id, -1)             # refund
+        raise
     if text.startswith('KEY_DOUBT:'):
         # Don't show a possibly-wrong key to more students; send it to the review queue.
         q.review_status = 'flagged'

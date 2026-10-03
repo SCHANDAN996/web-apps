@@ -62,8 +62,9 @@ def parse_feed(xml_bytes, source='pib'):
     root = ET.fromstring(xml_bytes)
     out = []
     for it in root.iter('item'):
+        from .jobs.sources import safe_http_url
         title = re.sub(r'\s+', ' ', it.findtext('title') or '').strip()
-        link = (it.findtext('link') or '').strip()
+        link = safe_http_url(it.findtext('link'))
         if not title or not link:
             continue
         if source == 'pib':

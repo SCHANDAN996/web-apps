@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Consistent SQLite backup (safe while the app is running), keeps 14 days.
 set -euo pipefail
+umask 077                      # backups contain device tokens — owner-only
 cd "$(dirname "$0")/.."
 if [ -f .env ]; then set -a; . ./.env; set +a; fi
 DB="${DATABASE_URL#sqlite:///}"
