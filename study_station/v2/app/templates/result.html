@@ -15,6 +15,18 @@
   </div>
 </section>
 
+{% set n_wrong = result.review|selectattr('status', 'equalto', 'wrong')|list|length %}
+{% set f0 = 'wrong' if n_wrong else 'all' %}
+<div class="stack" style="margin-top:var(--sp-4)">
+  {% if n_wrong %}<a class="btn btn-primary btn-block" href="/revise"><svg class="icon"><use href="#i-repeat"/></svg>{{ tr('revise_mistakes') }}</a>{% endif %}
+  <div class="row">
+    {% set again = 'btn-secondary' if n_wrong else 'btn-primary' %}
+    {% if attempt.mode == 'practice' and attempt.topic_id %}<button class="btn {{ again }}" style="flex:1" data-practice="{{ attempt.topic_id }}">{{ tr('practice_again') }}</button>
+    {% elif attempt.exam %}<button class="btn {{ again }}" style="flex:1" data-mock="{{ attempt.exam.slug }}">{{ tr('new_mock') }}</button>{% endif %}
+    <a class="btn btn-secondary" style="flex:1" href="/">{{ tr('back_home') }}</a>
+  </div>
+</div>
+
 {% if result.sections|length > 1 %}
 <section class="card enter" style="margin-top:var(--sp-4)">
   <h2>{{ L('भाग के अनुसार', 'By section') }}</h2>
@@ -27,39 +39,40 @@
 </section>
 {% endif %}
 
-<section style="margin-top:var(--sp-4)">
-  <div class="row-between"><h2>{{ tr('solution') }}</h2>
+<section id="solutions" style="margin-top:var(--sp-5)">
+  <div class="row-between" style="flex-wrap:wrap"><h2 style="margin:0">{{ tr('solution') }}</h2>
     <div class="chips" id="reviewFilter">
-      <button class="chip" aria-pressed="true" data-f="all">{{ tr('all') }}</button>
-      <button class="chip" aria-pressed="false" data-f="wrong">{{ tr('wrong') }}</button>
-      <button class="chip" aria-pressed="false" data-f="skipped">{{ tr('skipped') }}</button>
+      <button class="chip" aria-pressed="{{ 'true' if f0 == 'all' else 'false' }}" data-f="all">{{ tr('all') }} · {{ result.review|length }}</button>
+      <button class="chip" aria-pressed="{{ 'true' if f0 == 'wrong' else 'false' }}" data-f="wrong">{{ tr('wrong') }} · {{ n_wrong }}</button>
+      <button class="chip" aria-pressed="false" data-f="skipped">{{ tr('skipped') }} · {{ result.review|selectattr('status', 'equalto', 'skipped')|list|length }}</button>
     </div></div>
   {% for q in result.review %}
   {% set qtext = q.text[lang] or q.text['en' if lang == 'hi' else 'hi'] %}
   {% set qopts = q.options[lang] or q.options['en' if lang == 'hi' else 'hi'] %}
   {% set qsol = q.solution[lang] or q.solution['en' if lang == 'hi' else 'hi'] %}
-  <article class="card review-item" data-status="{{ q.status }}" style="margin-top:var(--sp-3)">
-    <div class="q-meta"><b>Q{{ q.n }}</b>
+  <details class="card review-item" data-status="{{ q.status }}" style="margin-top:var(--sp-3)" {% if f0 != 'all' and q.status != f0 %}hidden{% endif %}>
+    <summary>
+      <b>Q{{ q.n }}</b>
       <span class="badge {{ 'badge-ok' if q.status == 'correct' else ('badge-bad' if q.status == 'wrong' else '') }}">{{ tr(q.status) }}</span>
-      <span class="xs muted">{{ q.topic[lang] }} · {{ (q.time_ms / 1000)|round(0)|int }}s</span></div>
-    <p style="white-space:pre-line;font-weight:600">{{ qtext }}</p>
-    <div class="options">
-      {% for o in qopts %}
-      <div class="option {{ 'is-correct' if loop.index0 == q.answer_index else ('is-wrong' if loop.index0 == q.chosen else '') }}" aria-disabled="true">
-        <span class="key">{{ 'ABCD'[loop.index0] }}</span><span class="val">{{ o }}</span>
-        {% if loop.index0 == q.answer_index %}<span class="tag">{{ tr('right_answer') }}</span>{% elif loop.index0 == q.chosen %}<span class="tag">{{ tr('your_answer') }}</span>{% endif %}
+      <span class="grow">{{ (qtext or '').split('\n')[0] }}</span>
+      <svg class="icon icon-sm chev"><use href="#i-chev"/></svg>
+    </summary>
+    <div class="review-body">
+      <p class="xs muted" style="margin:0 0 var(--sp-2)">{{ q.topic[lang] }} · {{ (q.time_ms / 1000)|round(0)|int }}s</p>
+      <p style="white-space:pre-line;font-weight:600">{{ qtext }}</p>
+      <div class="options">
+        {% for o in qopts %}
+        <div class="option {{ 'is-correct' if loop.index0 == q.answer_index else ('is-wrong' if loop.index0 == q.chosen else '') }}" aria-disabled="true">
+          <span class="key">{{ 'ABCD'[loop.index0] }}</span><span class="val">{{ o }}</span>
+          {% if loop.index0 == q.answer_index %}<span class="tag">{{ tr('right_answer') }}</span>{% elif loop.index0 == q.chosen %}<span class="tag">{{ tr('your_answer') }}</span>{% endif %}
+        </div>
+        {% endfor %}
       </div>
-      {% endfor %}
+      {% if qsol %}<div class="solution"><b>{{ tr('solution') }}:</b> {{ qsol }}</div>{% endif %}
+      {% if ai_enabled and q.status != 'skipped' %}<button class="btn btn-secondary btn-sm" data-explain="{{ q.id }}" style="margin-top:var(--sp-2)">✨ {{ tr('ai_explain') }}</button>{% endif %}
+      <button class="btn btn-ghost btn-sm" data-report="{{ q.id }}" style="margin-top:var(--sp-2)"><svg class="icon icon-sm"><use href="#i-flag"/></svg>{{ tr('report') }}</button>
     </div>
-    {% if qsol %}<div class="solution"><b>{{ tr('solution') }}:</b> {{ qsol }}</div>{% endif %}
-    {% if ai_enabled and q.status != 'skipped' %}<button class="btn btn-secondary btn-sm" data-explain="{{ q.id }}" style="margin-top:var(--sp-2)">✨ {{ tr('ai_explain') }}</button>{% endif %}
-    <button class="btn btn-ghost btn-sm" data-report="{{ q.id }}" style="margin-top:var(--sp-2)"><svg class="icon icon-sm"><use href="#i-flag"/></svg>{{ tr('report') }}</button>
-  </article>
+  </details>
   {% endfor %}
 </section>
-<div class="row" style="margin-top:var(--sp-5)">
-  <a class="btn btn-secondary" style="flex:1" href="/">{{ tr('back_home') }}</a>
-  {% if attempt.mode == 'practice' and attempt.topic_id %}<button class="btn btn-primary" style="flex:1" data-practice="{{ attempt.topic_id }}">{{ tr('practice_again') }}</button>
-  {% elif attempt.exam %}<button class="btn btn-primary" style="flex:1" data-mock="{{ attempt.exam.slug }}">{{ L('नया मॉक', 'New mock') }}</button>{% endif %}
-</div>
 {% endblock %}

@@ -35,6 +35,11 @@
   {% endfor %}
 </div>
 {% else %}
-<div class="empty">{{ tr('jobs_empty') }}</div>
+<div class="empty">
+  <svg class="icon empty-icon"><use href="#i-briefcase"/></svg>
+  <p>{{ tr('jobs_empty') }}</p>
+  {% if suggest %}{% set names = {'active': 'jobs_active', 'upcoming': 'jobs_upcoming', 'updates': 'jobs_updates', 'closed': 'jobs_closed', 'undated': 'jobs_undated'} %}
+  <a class="btn btn-primary" data-suggest href="?status={{ suggest }}{{ q }}">{{ tr('jobs_see') }}: {{ tr(names[suggest]) }} · {{ counts[suggest] }}</a>{% endif %}
+</div>
 {% endif %}
 {% endblock %}

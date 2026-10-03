@@ -3,7 +3,7 @@
 {% block title %}{{ ename }} {{ exam.stage_en }} — {{ L('परीक्षा pattern और फ्री मॉक टेस्ट', 'exam pattern & free mock test') }} | {{ tr('brand') }}{% endblock %}
 {% block description %}{{ ename }} {{ exam.stage_en }}: {{ exam.sections|sum(attribute='questions') }} {{ L('सवाल', 'questions') }}, {{ exam.duration_min }} {{ tr('minutes') }}. {{ L('Section-wise pattern, negative marking और मुफ़्त CBT मॉक टेस्ट।', 'Section-wise pattern, negative marking and a free CBT mock test.') }}{% endblock %}
 {% block main %}
-<p class="small"><a href="/mock">{{ tr('nav_mock') }}</a> › {{ exam.body }}</p>
+<p class="small crumb"><a class="tap-link" href="/mock">{{ tr('nav_mock') }}</a> › {{ exam.body }}</p>
 <h1>{{ ename }} <span class="muted" style="font-weight:600">{{ exam.stage_en }}</span></h1>
 <section class="card">
   <h2>{{ tr('pattern') }}</h2>

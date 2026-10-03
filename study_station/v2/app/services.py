@@ -283,6 +283,13 @@ def due_cards(db: Session, device: Device, limit=20, today=None):
     ).order_by(ReviewCard.due_on, ReviewCard.box).limit(limit)))
 
 
+def next_due(db: Session, device: Device, today=None):
+    """Date the next revision card falls due (after today), or None."""
+    today = today or today_ist()
+    return db.scalar(select(func.min(ReviewCard.due_on)).where(
+        ReviewCard.device_id == device.id, ReviewCard.due_on > today))
+
+
 def review_card(db: Session, device: Device, question_id: int, chosen_index: int, today=None):
     today = today or today_ist()
     card = db.scalar(select(ReviewCard).where(ReviewCard.device_id == device.id,

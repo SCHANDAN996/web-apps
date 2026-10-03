@@ -346,9 +346,16 @@ def api_result(attempt_id: int, device: Device | None = Depends(current_device),
 @app.get('/api/v1/revise')
 def api_revise(device: Device | None = Depends(current_device), db: Session = Depends(get_db)):
     if device is None:
-        return {'cards': []}
-    return {'cards': [{**services.public_question(c.question, i + 1), 'box': c.box}
-                      for i, c in enumerate(services.due_cards(db, device))]}
+        return {'cards': [], 'next_due': None}
+    cards = [{**services.public_question(c.question, i + 1), 'box': c.box}
+             for i, c in enumerate(services.due_cards(db, device))]
+    out = {'cards': cards, 'next_due': None}
+    if not cards:
+        nxt = services.next_due(db, device)
+        if nxt:
+            out['next_due'] = nxt.isoformat()
+            out['next_due_days'] = (nxt - services.today_ist()).days
+    return out
 
 
 @app.post('/api/v1/revise/{question_id}')
@@ -421,7 +428,16 @@ def page_home(request: Request, device: Device | None = Depends(current_device),
     jobs = list(db.scalars(services.jobs_query(device.level, None, 'active').limit(3)))
     quick = db.execute(select(Topic, func.count(Question.id)).join(Question).where(services.USABLE)
                        .group_by(Topic.id).order_by(func.count(Question.id).desc()).limit(6)).all()
-    return render('home.html', request, device, stats=stats, exams=exams, jobs=jobs, quick=quick)
+    # Today's 10: weakest topic first, else the topic with the most questions.
+    today_topic = stats['weak_topics'][0]['id'] if stats['weak_topics'] else (quick[0][0].id if quick else None)
+    return render('home.html', request, device, stats=stats, exams=exams, jobs=jobs, quick=quick,
+                  today_topic=today_topic, ca_recent=has_recent_ca(db))
+
+
+def has_recent_ca(db):
+    """Only advertise current affairs when there is something from the last 14 days."""
+    from . import current_affairs as ca
+    return db.scalar(ca.feed_query(14).limit(1)) is not None
 
 
 @app.get('/settings', response_class=HTMLResponse)
@@ -438,7 +454,8 @@ def page_practice(request: Request, device: Device | None = Depends(current_devi
     if device:
         mastery = {t['id']: t for t in services.device_stats(db, device)['topics']}
     subjects = [s for s in db.scalars(select(Subject).order_by(Subject.id)) if any(counts.get(tp.id) for tp in s.topics)]
-    return render('practice.html', request, device, subjects=subjects, counts=counts, mastery=mastery)
+    return render('practice.html', request, device, subjects=subjects, counts=counts, mastery=mastery,
+                  ca_recent=has_recent_ca(db))
 
 
 @app.get('/practice/{subject}/{topic}', response_class=HTMLResponse)
@@ -518,19 +535,27 @@ def page_current_affairs(request: Request, category: str | None = None, device: 
                   categories=ca.CATEGORIES, cat_names=ca.CATEGORY_NAMES, topic=topic, q_counts=q_counts)
 
 
+JOB_TABS = ('active', 'upcoming', 'updates', 'closed', 'undated')
+
+
 @app.get('/jobs', response_class=HTMLResponse)
-def page_jobs(request: Request, status: Literal['active', 'upcoming', 'closed', 'undated', 'updates'] = 'active',
+def page_jobs(request: Request, status: Literal['active', 'upcoming', 'closed', 'undated', 'updates'] | None = None,
               qualification: str | None = None, category: str | None = None,
               device: Device | None = Depends(current_device), db: Session = Depends(get_db)):
     if qualification is None and device and device.level:
         qualification = device.level
     if qualification == 'all':
         qualification = None
-    jobs = list(db.scalars(services.jobs_query(qualification, category, status).limit(100)))
     counts = {s: db.scalar(select(func.count()).select_from(services.jobs_query(qualification, category, s).subquery()))
-              for s in ('active', 'upcoming', 'updates', 'closed', 'undated')}
+              for s in JOB_TABS}
+    if status is None:
+        # Land on the first tab that has something: open → upcoming → admit/result → closed.
+        status = next((s for s in ('active', 'upcoming', 'updates', 'closed') if counts[s]), 'active')
+    jobs = list(db.scalars(services.jobs_query(qualification, category, status).limit(100)))
+    best = max(JOB_TABS, key=lambda s: counts[s])
+    suggest = best if counts[best] and best != status else None
     return render('jobs.html', request, device, jobs=jobs, status=status, qualification=qualification,
-                  category=category, counts=counts, levels=LEVELS, today=services.today_ist())
+                  category=category, counts=counts, levels=LEVELS, today=services.today_ist(), suggest=suggest)
 
 
 @app.get('/jobs/{slug}', response_class=HTMLResponse)

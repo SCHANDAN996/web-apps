@@ -15,20 +15,27 @@
     <div class="stat"><b>{{ stats.due_reviews }}</b><span>{{ tr('due_today') }}</span></div>
   </div>
 
+  {% if not stats.due_reviews and today_topic %}
+  <button class="btn btn-primary btn-block enter" data-practice="{{ today_topic }}">{{ tr('start_today') }}</button>
+  {% endif %}
+
   {% if stats.due_reviews %}
   <a class="card card-link row-between enter" href="/revise">
-    <div><h3 style="margin:0">{{ stats.due_reviews }} {{ tr('due_today') }}</h3><p class="small muted" style="margin:0">{{ tr('revise_desc') }}</p></div>
+    <div class="grow"><h3 style="margin:0">{{ stats.due_reviews }} {{ tr('due_today') }}</h3><p class="small muted" style="margin:0">{{ tr('revise_desc') }}</p></div>
     <span class="btn btn-primary btn-sm">{{ tr('start_revision') }}</span>
   </a>
   {% endif %}
 
-  <a class="card card-link row-between enter" href="/current-affairs">
-    <div><h3 style="margin:0">📰 {{ tr('ca_today') }}</h3><p class="small muted" style="margin:0">{{ tr('ca_source') }}</p></div>
+  {% if ca_recent %}
+  <a class="card card-link row enter" href="/current-affairs">
+    <svg class="icon" style="color:var(--brand)"><use href="#i-news"/></svg>
+    <div class="grow"><h3 style="margin:0">{{ tr('ca_today') }}</h3><p class="small muted" style="margin:0">{{ tr('ca_source') }}</p></div>
     <svg class="icon chev"><use href="#i-chev"/></svg>
   </a>
+  {% endif %}
 
   <section class="enter">
-    <div class="row-between"><h2>{{ tr('your_exams') }}</h2><a class="small" href="/settings">{{ tr('settings') }}</a></div>
+    <div class="row-between"><h2>{{ tr('your_exams') }}</h2><a class="small tap-link" href="/settings">{{ tr('settings') }}</a></div>
     <div class="grid">
       {% for e in exams %}
       <a class="card card-link" href="/mock/{{ e.slug }}">
@@ -68,7 +75,7 @@
 
   {% if jobs %}
   <section class="card enter">
-    <div class="row-between"><h2>{{ tr('nav_jobs') }}</h2><a class="small" href="/jobs">{{ tr('all') }}</a></div>
+    <div class="row-between"><h2>{{ tr('nav_jobs') }}</h2><a class="small tap-link" href="/jobs">{{ tr('all') }}</a></div>
     <ul class="list">{% for j in jobs %}<li><a class="list-item" href="/jobs/{{ j.slug }}"><span class="grow">{{ j.title }}</span><svg class="icon chev"><use href="#i-chev"/></svg></a></li>{% endfor %}</ul>
   </section>
   {% endif %}

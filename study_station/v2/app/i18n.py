@@ -58,7 +58,15 @@ STRINGS = {
     'revise_title': ('ग़लतियों को दोहराएँ', 'Revise your mistakes'),
     'revise_desc': ('जो सवाल गलत हुए थे, वो सही अंतराल पर फिर आते हैं — 1, 3, 7, 16 और 35 दिन बाद।',
                     'Questions you got wrong come back at the right time — after 1, 3, 7, 16 and 35 days.'),
-    'revise_empty': ('आज दोहराने के लिए कुछ नहीं है। 🎉', 'Nothing to revise today. 🎉'),
+    'revise_empty': ('आज दोहराने के लिए कुछ नहीं है।', 'Nothing to revise today.'),
+    'revise_next_1': ('अगली दोहराई कल है', 'Your next revision is tomorrow'),
+    'revise_next': ('अगली दोहराई {n} दिन बाद — {date}', 'Your next revision is in {n} days — {date}'),
+    'revise_none': ('जो सवाल गलत होंगे, वो यहाँ सही समय पर दोहराने के लिए आएँगे।',
+                    'Questions you get wrong will come back here at the right time.'),
+    'go_practice': ('अभ्यास करें', 'Practise now'),
+    'revise_mistakes': ('गलतियाँ दोहराएँ', 'Revise mistakes'),
+    'start_today': ('आज के 10 सवाल शुरू करें', "Start today's 10 questions"),
+    'new_mock': ('नया मॉक', 'New mock'),
     'progress': ('मेरी प्रगति', 'My progress'),
     'recent_mocks': ('हाल के मॉक', 'Recent mocks'),
     'jobs_title': ('सरकारी नौकरियाँ', 'Government jobs'),
@@ -86,6 +94,7 @@ STRINGS = {
     'type_admit': ('एडमिट कार्ड', 'Admit card'),
     'type_results': ('रिज़ल्ट', 'Result'),
     'type_answer': ('आंसर की', 'Answer key'),
+    'jobs_see': ('देखें', 'See'),
     'jobs_empty': ('इस समय इस filter में कोई नौकरी नहीं है।', 'No jobs match this filter right now.'),
     'last_date': ('अंतिम तिथि', 'Last date'),
     'days_left': ('दिन बाकी', 'days left'),
@@ -148,6 +157,15 @@ STRINGS = {
     'sync_restore': ('प्रगति लाएँ', 'Restore'),
     'sync_bad': ('यह code नहीं मिला', 'Code not found'),
     'saved': ('सेव हो गया', 'Saved'),
+    'cancel': ('रद्द करें', 'Cancel'),
+    'close': ('बंद करें', 'Close'),
+    'total': ('कुल', 'Total'),
+    'st_answered': ('उत्तर दिए', 'Answered'),
+    'st_unanswered': ('उत्तर नहीं दिए', 'Not answered'),
+    'st_marked': ('रिव्यू के लिए', 'Marked for review'),
+    'st_marked_answered': ('उत्तर + रिव्यू', 'Answered & marked'),
+    'st_notvisited': ('नहीं देखे', 'Not visited'),
+    'submit_note': ('जमा करने के बाद जवाब नहीं बदल सकेंगे।', 'You cannot change answers after submitting.'),
 }
 
 
@@ -176,7 +194,9 @@ def client_strings(lang):
             'wrong', 'skipped', 'solution', 'your_answer', 'right_answer', 'report', 'ai_label',
             'verified_label', 'result', 'score', 'accuracy', 'time', 'offline', 'revise_empty', 'sync_bad',
             'ai_explain', 'ai_busy', 'ai_unavailable', 'ai_limit', 'ai_key_doubt', 'ai_note',
-            'easy', 'medium', 'hard']
+            'easy', 'medium', 'hard', 'marks', 'section', 'cancel', 'close', 'total', 'st_answered',
+            'st_unanswered', 'st_marked', 'st_marked_answered', 'st_notvisited', 'submit_note',
+            'revise_next', 'revise_next_1', 'revise_none', 'go_practice']
     out = {k: t(k, lang) for k in keys}
     out['errors'] = {k: (v[0] if lang == 'hi' else v[1]) for k, v in ERRORS.items()}
     return out

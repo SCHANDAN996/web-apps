@@ -3,7 +3,7 @@
 {% block title %}{{ tname }} — {{ L('प्रैक्टिस सवाल, हल सहित', 'practice questions with solutions') }} | {{ tr('brand') }}{% endblock %}
 {% block description %}{{ tname }}: {{ total }} {{ L('MCQ अभ्यास सवाल हल सहित, SSC, रेलवे और बैंक परीक्षा के लिए — हिंदी और English में।', 'MCQ practice questions with solutions for SSC, Railway and Bank exams — in Hindi and English.') }}{% endblock %}
 {% block main %}
-<p class="small"><a href="/practice">{{ tr('nav_practice') }}</a> › {{ L(topic.subject.name_hi, topic.subject.name_en) }}</p>
+<p class="small crumb"><a class="tap-link" href="/practice">{{ tr('nav_practice') }}</a> › {{ L(topic.subject.name_hi, topic.subject.name_en) }}</p>
 <h1>{{ tname }}</h1>
 {% if total %}
 <p class="muted">{{ total }} {{ tr('questions') }} · {{ tr('practice_desc') }}</p>

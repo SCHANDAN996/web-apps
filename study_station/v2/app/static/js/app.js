@@ -124,7 +124,7 @@
             return h('label', { class: 'chip' }, h('input', { type: 'radio', name: 'reason', value: r[0], checked: i === 0 }), r[1]);
           })), note),
         h('div', { class: 'dlg-foot' },
-          h('button', { class: 'btn btn-secondary btn-sm', value: 'cancel' }, '✕'),
+          h('button', { class: 'btn btn-secondary btn-sm', value: 'cancel' }, SS.t.cancel),
           h('button', { class: 'btn btn-primary btn-sm', value: 'send' }, SS.t.report))));
     document.body.appendChild(dlg);
     dlg.addEventListener('close', function () {

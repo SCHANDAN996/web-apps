@@ -15,14 +15,17 @@
 {% endif %}
 {% endblock %}
 {% block main %}
-<p class="small"><a href="/jobs">{{ tr('nav_jobs') }}</a></p>
-<h1>{{ job.title }}</h1>
+<p class="small crumb"><a class="tap-link" href="/jobs">{{ tr('nav_jobs') }}</a></p>
+<h1 class="h1-sm">{{ job.title }}</h1>
 <div class="row" style="flex-wrap:wrap;margin-bottom:var(--sp-4)">
   <span class="badge badge-brand">{{ job.category|upper }}</span>
   <span class="badge">{{ tr('type_' ~ job.job_type) }}</span>
   {% if job.status == 'verified' %}<span class="badge badge-ok"><svg class="icon icon-sm"><use href="#i-check"/></svg>{{ tr('verified_from') }}</span>{% endif %}
   {% include '_job_badge.html' %}
 </div>
+{% set has_facts = job.org or job.advt_no or job.job_type == 'upcoming' or job.start_date or job.last_date or job.last_date_text
+   or job.vacancies or job.age_min or job.age_max or job.min_qualification or job.eligibility %}
+{% if has_facts %}
 <section class="card">
   <dl class="stack" style="margin:0">
     {% if job.org %}<div><dt class="xs muted">{{ L('संस्था', 'Organisation') }}</dt><dd style="margin:0">{{ job.org }}</dd></div>{% endif %}
@@ -37,6 +40,7 @@
     {% if job.eligibility %}<div><dt class="xs muted">{{ tr('eligibility') }}</dt><dd style="margin:0;white-space:pre-line">{{ job.eligibility }}</dd></div>{% endif %}
   </dl>
 </section>
+{% endif %}
 {% if job.status == 'verified' %}
 <div class="notice" style="margin-top:var(--sp-3)"><svg class="icon"><use href="#i-info"/></svg><span>{{ tr('facts_note') }}
   {% if job.verified_at %}<span class="muted">({{ tr('checked_on') }} {{ job.verified_at.strftime('%d-%m-%Y') }}{% if job.sources|length > 1 %} · {{ job.sources|length }} {{ tr('seen_on') }}{% endif %})</span>{% endif %}</span></div>

@@ -19,14 +19,27 @@
     return q.text[want] != null ? want : (want === 'hi' ? 'en' : 'hi');
   }
 
+  var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // After an answer is revealed, bring the verdict + solution into view below the sticky headers.
+  function revealScroll() {
+    var el = root.querySelector('.feedback');
+    if (!el) return;
+    var top = 0;
+    document.querySelectorAll('.topbar, .player-head').forEach(function (s) { top += s.offsetHeight; });
+    el.style.scrollMarginTop = 'calc(' + top + 'px + var(--sp-2))';
+    el.scrollIntoView({ block: 'start', behavior: reduceMotion ? 'auto' : 'smooth' });
+  }
+
   function questionView(q, opts) {
     var lang = langOf(q);
     var both = q.text.hi != null && q.text.en != null;
+    // In the mock (exam hall) only the question number is shown — no topic, difficulty or AI hints.
     var meta = h('div', { class: 'q-meta' },
       h('b', null, 'Q' + q.n),
-      h('span', { class: 'xs muted' }, SS.pick(q.topic)),
-      q.difficulty ? h('span', { class: 'badge' }, t[q.difficulty] || q.difficulty) : null,
-      h('span', { class: 'badge ' + (q.verified ? 'badge-ok' : '') }, q.verified ? t.verified_label : t.ai_label),
+      opts.exam ? null : h('span', { class: 'xs muted' }, SS.pick(q.topic)),
+      !opts.exam && q.difficulty ? h('span', { class: 'badge' }, t[q.difficulty] || q.difficulty) : null,
+      opts.exam ? null : h('span', { class: 'badge ' + (q.verified ? 'badge-ok' : '') }, q.verified ? t.verified_label : t.ai_label),
       both ? h('button', {
         class: 'chip', style: 'margin-left:auto', 'aria-label': 'Switch question language',
         onclick: function () { qLang[q.id] = lang === 'hi' ? 'en' : 'hi'; opts.rerender(); }
@@ -91,6 +104,7 @@
         onChoose: function (n) { chosen = n; render(); bar.inner.querySelector('.btn-primary').focus(); },
         rerender: render
       }));
+      var scrollNow = justRevealed;
       justRevealed = false;
       clear(bar.inner);
       if (!revealed) {
@@ -100,6 +114,7 @@
       } else {
         bar.inner.append(h('button', { class: 'btn btn-primary', onclick: finish }, t.finish));
       }
+      if (scrollNow) revealScroll();
     }
 
     function check(e) {
@@ -203,10 +218,10 @@
         h('div', { class: 'row-between' }, h('b', { style: 'overflow:hidden;text-overflow:ellipsis;white-space:nowrap' }, data.title), timerEl,
           h('button', { class: 'btn btn-secondary btn-sm', onclick: openPalette, 'aria-label': 'Question palette' }, SS.icon('grid', 'icon-sm'), (i + 1) + '/' + qs.length)),
         sectionTabs(),
-        sec ? h('p', { class: 'xs muted', style: 'margin:6px 0 0' }, '+' + sec.marks + ' / −' + (Math.round(sec.negative * 100) / 100)) : null);
+        sec ? h('p', { class: 'xs muted', style: 'margin:6px 0 0' }, t.marks + ': +' + sec.marks + ' / −' + (Math.round(sec.negative * 100) / 100)) : null);
       clear(body);
       body.append(questionView(q, {
-        chosen: q.state.chosen, revealed: null,
+        chosen: q.state.chosen, revealed: null, exam: true,
         onChoose: function (n) { q.state.chosen = n; render(); },
         rerender: render
       }));
@@ -220,50 +235,62 @@
           : h('button', { class: 'btn btn-primary btn-sm', onclick: function () { save(q); confirmSubmit(); } }, t.submit));
     }
 
-    function counts() {
-      var c = { answered: 0, marked: 0, unanswered: 0, notvisited: 0 };
-      qs.forEach(function (q) {
+    // TCS iON states, per question: answered / not answered / not visited / marked / marked + answered.
+    function tally(list) {
+      var c = { answered: 0, unanswered: 0, notvisited: 0, marked: 0, onlyAnswered: 0, onlyUnanswered: 0, onlyMarked: 0, markedAnswered: 0 };
+      list.forEach(function (q) {
         var s = status(q);
-        if (s.indexOf('marked') === 0) c.marked++;
-        if (s.indexOf('answered') !== -1 && s.indexOf('unanswered') === -1) c.answered++;
-        else if (s === 'unanswered' || s === 'marked') c.unanswered++;
-        if (!s) c.notvisited++;
+        if (s === 'answered') { c.answered++; c.onlyAnswered++; }
+        else if (s === 'unanswered') { c.unanswered++; c.onlyUnanswered++; }
+        else if (s === 'marked') { c.marked++; c.unanswered++; c.onlyMarked++; }
+        else if (s === 'marked answered') { c.marked++; c.answered++; c.markedAnswered++; }
+        else c.notvisited++;
       });
       return c;
     }
+    function swatch(cls, n) { return h('span', { class: 'pal pal-mini ' + cls, 'aria-hidden': 'true' }, n === undefined ? null : String(n)); }
 
     function openPalette() {
-      var c = counts();
+      var c = tally(qs);
       var dlg = h('dialog', { 'aria-label': 'Question palette' },
         h('div', { class: 'dlg-body' },
           h('div', { class: 'legend', style: 'margin-bottom:16px' },
-            h('span', null, h('i', { style: 'background:var(--ok);border-color:var(--ok)' }), (SS.lang === 'hi' ? 'उत्तर दिया ' : 'Answered ') + c.answered),
-            h('span', null, h('i', { style: 'background:var(--bad-soft);border-color:var(--bad)' }), (SS.lang === 'hi' ? 'उत्तर नहीं ' : 'Not answered ') + c.unanswered),
-            h('span', null, h('i', { style: 'background:#7C3AED;border-color:#7C3AED;border-radius:50%' }), (SS.lang === 'hi' ? 'रिव्यू ' : 'Marked ') + c.marked),
-            h('span', null, h('i'), (SS.lang === 'hi' ? 'नहीं देखे ' : 'Not visited ') + c.notvisited)),
+            h('span', null, swatch('answered', c.onlyAnswered), t.st_answered),
+            h('span', null, swatch('unanswered', c.onlyUnanswered), t.st_unanswered),
+            h('span', null, swatch('', c.notvisited), t.st_notvisited),
+            h('span', null, swatch('marked', c.onlyMarked), t.st_marked),
+            h('span', null, swatch('marked answered', c.markedAnswered), t.st_marked_answered)),
           data.sections.map(function (s) {
             return h('section', { style: 'margin-bottom:16px' }, h('h3', null, SS.pick(s.name)),
               h('div', { class: 'palette' }, qs.slice(s.start, s.start + s.count).map(function (q, k) {
                 var n = s.start + k;
-                return h('button', { class: 'pal ' + status(q) + (n === i ? ' current' : ''), 'aria-label': 'Q' + (n + 1) + ' ' + status(q),
-                  onclick: function () { dlg.close(); go(n); } }, String(n + 1));
+                return h('button', { class: 'pal ' + status(q) + (n === i ? ' current' : ''), 'aria-label': 'Q' + (n + 1) + ' ' + (status(q) || 'not visited'),
+                  'aria-current': n === i ? 'true' : null, onclick: function () { dlg.close(); go(n); } }, String(n + 1));
               })));
           })),
         h('div', { class: 'dlg-foot' },
-          h('button', { class: 'btn btn-secondary btn-sm', onclick: function () { dlg.close(); } }, '✕'),
+          h('button', { class: 'btn btn-secondary btn-sm', onclick: function () { dlg.close(); } }, t.close),
           h('button', { class: 'btn btn-primary btn-sm', onclick: function () { dlg.close(); save(qs[i]); confirmSubmit(); } }, t.submit)));
       dlg.addEventListener('close', function () { dlg.remove(); });
       document.body.appendChild(dlg); dlg.showModal();
     }
 
+    // Exam summary before submitting, per section — like the TCS iON summary screen.
     function confirmSubmit() {
-      var c = counts();
-      var msg = SS.lang === 'hi'
-        ? 'उत्तर दिए: ' + c.answered + ' · बिना उत्तर: ' + (qs.length - c.answered) + '\nटेस्ट जमा करने के बाद बदलाव नहीं होगा।'
-        : 'Answered: ' + c.answered + ' · Unanswered: ' + (qs.length - c.answered) + '\nYou cannot change answers after submitting.';
-      var dlg = h('dialog', null, h('form', { method: 'dialog' },
-        h('div', { class: 'dlg-body' }, h('h2', null, t.submit + '?'), h('p', { style: 'white-space:pre-line' }, msg)),
-        h('div', { class: 'dlg-foot' }, h('button', { class: 'btn btn-secondary btn-sm', value: 'no' }, '✕'),
+      var cols = [['answered', 'answered', t.st_answered], ['unanswered', 'unanswered', t.st_unanswered],
+                  ['marked', 'marked', t.st_marked], ['notvisited', '', t.st_notvisited]];
+      function row(label, c, tag) {
+        return h(tag || 'tr', null, h('td', null, label), cols.map(function (col) { return h('td', { class: 'num' }, String(c[col[0]])); }));
+      }
+      var table = h('div', { class: 'table-scroll' }, h('table', { class: 'pattern sum-table' },
+        h('thead', null, h('tr', null, h('th', null, t.section),
+          cols.map(function (col) { return h('th', { class: 'num', scope: 'col' }, swatch(col[1]), col[2]); }))),
+        h('tbody', null, data.sections.map(function (s) { return row(SS.pick(s.name), tally(qs.slice(s.start, s.start + s.count))); })),
+        data.sections.length > 1 ? h('tfoot', null, row(t.total, tally(qs))) : null));
+      var dlg = h('dialog', { 'aria-label': t.submit }, h('form', { method: 'dialog' },
+        h('div', { class: 'dlg-body' }, h('h2', null, t.submit + '?'), table,
+          h('p', { class: 'small muted', style: 'margin:12px 0 0' }, t.submit_note)),
+        h('div', { class: 'dlg-foot' }, h('button', { class: 'btn btn-secondary btn-sm', value: 'no' }, t.cancel),
           h('button', { class: 'btn btn-primary btn-sm', value: 'yes' }, t.submit))));
       dlg.addEventListener('close', function () { var v = dlg.returnValue; dlg.remove(); if (v === 'yes') submit(false); });
       document.body.appendChild(dlg); dlg.showModal();
@@ -299,8 +326,25 @@
   }
 
   // ================================================================ REVISE
-  function revise(cards) {
-    if (!cards.length) { clear(root); root.appendChild(h('div', { class: 'empty' }, t.revise_empty)); return; }
+  function reviseEmpty(d) {
+    document.body.classList.remove('player-open');   // nothing to answer: give the tab bar back
+    var when = null;
+    if (d.next_due) {
+      var p = d.next_due.split('-');
+      when = d.next_due_days === 1 ? t.revise_next_1
+        : t.revise_next.replace('{n}', d.next_due_days).replace('{date}', p[2] + '-' + p[1] + '-' + p[0]);
+    }
+    clear(root);
+    root.appendChild(h('div', { class: 'empty' },
+      SS.icon('check-circle', 'empty-icon'),
+      h('p', { style: 'font-weight:700;color:var(--text)' }, t.revise_empty),
+      h('p', { class: 'small' }, when || t.revise_none),
+      h('a', { class: 'btn btn-primary', href: '/practice' }, t.go_practice)));
+  }
+
+  function revise(d) {
+    var cards = d.cards;
+    if (!cards.length) { reviseEmpty(d); return; }
     var i = 0, chosen = null, revealed = null, justRevealed = false;
     var body = h('div'), bar = actionBar();
     clear(root); root.append(body, bar.el);
@@ -310,11 +354,13 @@
       body.append(h('div', { class: 'progress-line', style: 'margin-bottom:16px' }, h('i', { style: 'width:' + (100 * i / cards.length) + '%' })),
         questionView(q, { chosen: chosen, revealed: revealed, justRevealed: justRevealed,
           onChoose: function (n) { chosen = n; render(); }, rerender: render }));
+      var scrollNow = justRevealed;
       justRevealed = false;
       clear(bar.inner);
       if (!revealed) bar.inner.append(h('button', { class: 'btn btn-primary', disabled: chosen === null, onclick: check }, t.check));
       else if (i < cards.length - 1) bar.inner.append(h('button', { class: 'btn btn-primary', onclick: function () { i++; chosen = null; revealed = null; render(); scrollTo(0, 0); } }, t.next));
       else bar.inner.append(h('a', { class: 'btn btn-primary', href: '/' }, t.finish));
+      if (scrollNow) revealScroll();
     }
     function check(e) {
       e.currentTarget.disabled = true;
@@ -325,7 +371,7 @@
     render();
   }
 
-  if (mode === 'revise') SS.api('GET', '/api/v1/revise').then(function (d) { revise(d.cards); }).catch(fail);
+  if (mode === 'revise') SS.api('GET', '/api/v1/revise').then(revise).catch(fail);
   else SS.api('GET', '/api/v1/attempts/' + attemptId).then(function (d) {
     if (d.finished) { location.href = '/result/' + d.id; return; }
     (d.mode === 'mock' ? mock : practice)(d);

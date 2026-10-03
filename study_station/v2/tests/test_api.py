@@ -102,7 +102,9 @@ def test_leitner_revision(client, db):
     qid = a['questions'][0]['id']
     key = db.get(Question, qid).answer_index
     client.post(f"/api/v1/attempts/{a['id']}/answer", json={'question_id': qid, 'chosen_index': (key + 1) % 4})
-    assert client.get('/api/v1/revise').json()['cards'] == []       # due tomorrow, not today
+    r = client.get('/api/v1/revise').json()
+    assert r['cards'] == []                                         # due tomorrow, not today
+    assert r['next_due'] == (services.today_ist() + timedelta(days=1)).isoformat() and r['next_due_days'] == 1
     me = db.query(Device).filter_by(token=client.cookies.get('ss_device')).one()
     card = db.query(ReviewCard).filter_by(device_id=me.id, question_id=qid).one()
     card.due_on = date(2000, 1, 1)
@@ -164,3 +166,19 @@ def test_pages_render(client, db):
         assert r.status_code == 200, path
     assert client.get('/practice/quant/nope').status_code == 404
     assert client.get('/api/v1/catalog').json()['exams'][0]['slug'] == 'ssc-gd'
+
+
+def test_home_today_button_and_result_defaults_to_wrong(client, db):
+    onboard(client)
+    home = client.get('/').text
+    assert 'आज के 10 सवाल शुरू करें' in home or "Start today's 10 questions" in home
+    assert 'href="/current-affairs"' not in home                 # no CA items in the last 14 days
+    a = client.post('/api/v1/practice', json={'topic_id': topic_id(db, 'analogy'), 'count': 2}).json()
+    q0, q1 = a['questions']
+    key = db.get(Question, q0['id']).answer_index
+    client.post(f"/api/v1/attempts/{a['id']}/answer", json={'question_id': q0['id'], 'chosen_index': (key + 1) % 4})
+    client.post(f"/api/v1/attempts/{a['id']}/finish", json={})
+    page = client.get(f"/result/{a['id']}").text
+    assert 'href="/revise"' in page and '<details class="card review-item" data-status="wrong"' in page
+    assert 'aria-pressed="true" data-f="wrong"' in page
+    assert 'data-status="skipped" style="margin-top:var(--sp-3)" hidden' in page

@@ -242,3 +242,24 @@ def test_upcoming_removed_when_real_notification_arrives(clean_jobs):
     db.commit()
     assert manage.resolve_upcoming(db) == 1
     assert db.query(Job).filter_by(job_type='upcoming').count() == 0
+
+
+def test_jobs_page_defaults_to_first_non_empty_tab(clean_jobs, client):
+    db = clean_jobs
+    today = today_ist()
+    db.add_all([
+        Job(slug='gone-1', title='Gone one', status='verified', job_type='latest', last_date=today - timedelta(days=3)),
+        Job(slug='gone-2', title='Gone two', status='verified', job_type='latest', last_date=today - timedelta(days=4)),
+        Job(slug='adm', title='Admit card out', status='verified', job_type='admit'),
+    ])
+    db.commit()
+    page = client.get('/jobs?qualification=all').text
+    assert 'Admit card out' in page and 'Gone one' not in page          # no open/upcoming → admit/result tab
+    # an explicit empty tab stays empty and points to the biggest non-empty one
+    page = client.get('/jobs?status=active&qualification=all').text
+    assert 'Admit card out' not in page and 'status=closed' in page and 'data-suggest' in page
+    db.add(Job(slug='open-now', title='Open right now', status='verified', job_type='latest',
+               last_date=today + timedelta(days=5)))
+    db.commit()
+    page = client.get('/jobs?qualification=all').text
+    assert 'Open right now' in page and 'Admit card out' not in page
