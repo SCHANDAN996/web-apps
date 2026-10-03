@@ -14,15 +14,16 @@ Read `study_station/v2/CLAUDE.md` first (rules 1, 2, 4 apply to books too).
 - `GOLD`: a finished chapter of the same book to copy the *format* from (not its mistakes)
 
 ## Where the content lives
-Each section is one `.txt` file. Most books keep them in `CHAPTER/Prompts/` (finished chapters overwrite the
-prompt file in place with the content); some keep them in the chapter root. Write each section **into the same
-file that holds its prompt**. `Chapter_Intro_Prompt.txt`, `Master_Prompt_*` and `README.md` stay untouched.
-A copy of every prompt also exists outside `books/` (`study_station/<Level>/<Subject>/…`), so overwriting is safe.
+**Read `study_station/books/BOOK_RULES.md` first — it overrides every prompt file.** Finished sections go in the
+chapter ROOT (`CHAPTER/Content_hi.txt`, `CHAPTER/Practice_en_Set_01.txt`, …). `Prompts/` holds only the prompts
+(the spec) — never write content there. Also create/update `CHAPTER/chapter.json` (format in BOOK_RULES §1;
+`status` stays `"draft"`; set `as_of` for time-sensitive chapters). Chapters of `type: "dynamic"` (current affairs)
+are not written — report and stop.
 
 ## Steps
 1. `cd study_station/v2 && python -m app.bookcheck "$CHAPTER"` — see what is `todo` and what is a `problem`.
-2. Read `Chapter_Intro_Prompt.txt`, then each section's prompt file — it is the spec (structure, level,
-   difficulty split, number of items). Read the same section in `GOLD` for layout.
+2. Read `Prompts/Chapter_Intro_Prompt.txt`, then each section's prompt file — it is the spec (structure, level,
+   difficulty split, number of items) wherever it does not conflict with BOOK_RULES.md. Read the same section in `GOLD` for layout.
 3. Write the section. Hindi files in natural Devanagari as used in Hindi-medium exam books (technical terms may
    carry the English in brackets); English files in plain Indian-exam English.
 4. Re-run bookcheck after each practice set and at the end; repeat until the chapter prints `OK`.
@@ -59,7 +60,7 @@ A copy of every prompt also exists outside `books/` (`study_station/<Level>/<Sub
 - **Fix mode:** change only what bookcheck or your own verification shows is wrong; keep good content.
   `answer_solution_conflict` / `hi/en answer mismatch` → decide which side is correct, fix the other.
   `needs_context` → make the question self-contained. A parse shortfall → repair the format of that question.
-- Write only inside `CHAPTER`. Never edit code, other chapters, or files outside `books/`.
+- Write only inside `CHAPTER` (root files + chapter.json). Never edit code, other chapters, or files outside `books/`.
 
 ## Report (return this, nothing else)
 ```
