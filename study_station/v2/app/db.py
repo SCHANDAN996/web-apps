@@ -16,6 +16,8 @@ def make_engine(url=DATABASE_URL):
         def _pragmas(conn, _):
             cur = conn.cursor()
             cur.execute('PRAGMA journal_mode=WAL')
+            cur.execute('PRAGMA synchronous=NORMAL')    # safe with WAL; one fsync per checkpoint, not per answer
+            cur.execute('PRAGMA busy_timeout=5000')     # concurrent writers (2 workers + cron) wait instead of failing
             cur.execute('PRAGMA foreign_keys=ON')
             cur.close()
     return engine
