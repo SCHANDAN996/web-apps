@@ -1,0 +1,93 @@
+🧒 Feynman Explanation: The Lemonade Stand Secret
+
+Imagine you have a lemonade stand. You make two kinds of lemonade.
+
+Sweet Sunny Lemonade costs $2 a glass. It’s super tasty. (This is the expensive one.)
+
+Plain Cloudy Lemonade costs $1 a glass. It’s just okay. (The cheap one.)
+
+Now, you want to sell a new mix called "Afternoon Special" for $1.60 a glass. You want to know how many glasses of Sweet Sunny and Plain Cloudy you should mix to get that exact price.
+
+Think about what happens when you mix them.
+
+If you take a glass of the expensive Sweet Sunny (
+2
+)
+𝑎
+𝑛
+𝑑
+𝑝
+𝑜
+𝑢
+𝑟
+𝑖
+𝑡
+𝑖
+𝑛
+𝑡
+𝑜
+𝑎
+𝑏
+𝑖
+𝑔
+𝑗
+𝑢
+𝑔
+,
+𝑡
+ℎ
+𝑎
+𝑡
+′
+𝑠
+2)andpouritintoabigjug,that
+′
+s2 worth. But you want the final mix to be $1.60 per glass. So the expensive glass is 40 cents too high (2.00 – 1.60 = 0.40). That extra 40 cents has to be "canceled out" by something cheaper.
+
+If you take a glass of the cheap Plain Cloudy ($1), it's 60 cents too low (1.60 – 1.00 = 0.60) compared to the mix price. That shortage needs to be balanced by the expensive lemonade.
+
+So, mixing one glass of Sweet Sunny adds 40 extra cents. One glass of Plain Cloudy adds 60 missing cents.
+
+To make the price exactly $1.60, the total extra cents must equal the total missing cents.
+
+If I use 3 glasses of Sweet Sunny, that's 3 × 40¢ = 120¢ extra. How many glasses of Plain Cloudy give 120¢ missing? 120 ÷ 60 = 2 glasses. So 3 glasses of expensive and 2 glasses of cheap. The ratio is 3:2.
+
+Notice how the numbers flipped? The difference of the expensive price from the mean (0.40) ended up being the number of cheap glasses (2), and the difference of the cheap price from the mean (0.60) ended up being the number of expensive glasses (3). They swapped places! That's the magic of the alligation cross.
+
+The "Never Forget" Seesaw Trick
+
+Picture a seesaw in a playground. The expensive lemonade sits on one end, the cheap lemonade on the other. The mix price is the balancing point in the middle.
+
+To lift the heavy expensive end down to the middle, you need a light person sitting far away on the cheap side.
+
+The distance from the expensive price to the middle (40¢) is the length of the cheap side’s seesaw arm.
+
+The distance from the cheap price to the middle (60¢) is the length of the expensive side’s arm.
+
+So, the difference of the expensive one tells you how many cheap ones you need, and vice versa. Differences swap sides, just like the lengths of a seesaw from the balance point.
+
+Remember: The rich kid’s price difference buys the poor kid’s quantity. Or as I like to say, “Extra money pays for more cheap stuff.”
+
+Your Turn!
+
+You have chocolates. Fancy ones cost
+5
+𝑒
+𝑎
+𝑐
+ℎ
+,
+𝑝
+𝑙
+𝑎
+𝑖
+𝑛
+𝑜
+𝑛
+𝑒
+𝑠
+𝑐
+𝑜
+𝑠
+𝑡
+5each,plainonescost2 each. You want to make a gift bag that averages $3 each. How many of each do you put? Try using the seesaw idea before you peek at the formula.

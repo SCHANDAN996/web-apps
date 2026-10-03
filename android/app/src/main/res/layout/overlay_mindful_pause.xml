@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <!-- App/Feature indicator -->
+    <TextView
+        android:id="@+id/tv_overlay_feature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B0BEC5"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Mindful Message -->
+    <TextView
+        android:id="@+id/tv_overlay_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:lineSpacingMultiplier="1.3"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Timer Display -->
+    <TextView
+        android:id="@+id/tv_overlay_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#00BFA5"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Progress Bar -->
+    <ProgressBar
+        android:id="@+id/progress_overlay_timer"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="240dp"
+        android:layout_height="8dp"
+        android:progressTint="#00BFA5"
+        android:progressBackgroundTint="#37474F"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Math Question (hidden by default) -->
+    <TextView
+        android:id="@+id/tv_math_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#FFD700"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Math Answer Input (hidden by default) -->
+    <EditText
+        android:id="@+id/et_math_answer"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:hint="उत्तर लिखो..."
+        android:textColorHint="#546E7A"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:inputType="number"
+        android:visibility="gone"
+        android:layout_marginBottom="24dp"
+        android:paddingBottom="8dp" />
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!-- Go Back Button (primary action) -->
+        <TextView
+            android:id="@+id/btn_go_back"
+            android:layout_width="280dp"
+            android:layout_height="56dp"
+            android:gravity="center"
+            android:text="@string/overlay_go_back"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="@drawable/btn_primary_bg"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Proceed Button (secondary, disabled initially) -->
+        <TextView
+            android:id="@+id/btn_proceed"
+            android:layout_width="280dp"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:text="@string/overlay_proceed"
+            android:textColor="#78909C"
+            android:textSize="14sp"
+            android:alpha="0.4" />
+
+    </LinearLayout>
+
+</LinearLayout>

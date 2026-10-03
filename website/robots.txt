@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# SPA chapter fragments are not standalone pages — keep crawlers out of them.
+Disallow: /books/competitive-exams/
+
+# After deploying, replace with your real domain (build with SITE_URL set to
+# auto-generate sitemap.xml):
+Sitemap: https://studystation.in/sitemap.xml

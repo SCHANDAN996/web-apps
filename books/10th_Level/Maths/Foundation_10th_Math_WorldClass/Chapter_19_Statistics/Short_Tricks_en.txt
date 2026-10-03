@@ -1,0 +1,94 @@
+Trick 1: Mean = Sum ÷ Number (Ungrouped) — "SUMO AVERAGE"
+Imagine a SUMO wrestler named Mean. He ADDs up everyone’s weight, then DIVIDES the total by the number of wrestlers to find the average. Picture him shouting: “Add All, Number All!” Acronym: AANA (Add All, Number All).
+
+Trick 2: Three Musketeers of Grouped Mean — "DAM Step"
+The three methods to find mean for grouped data are Direct, Assumed Mean, Step Deviation. Remember them as DAM Step — like a dam that steps down:
+
+Direct: Straight path, no guessing.
+
+Assumed (mean): Pretend you’re already near the answer.
+
+Step (deviation): Jump in steps of class size.
+Formula: Mean = a + (Σf d)/Σf (Assumed) or a + (Σf u)/Σf × h (Step). Just add the “step adjustment” to the assumed mean.
+
+Trick 3: Median for Ungrouped — "Odd Add 1, Even Split"
+Picture a meditating odd monk who adds 1 to his age and halves it to find his spiritual centre.
+For even numbers, two identical twins stand in the middle and average their heights.
+So:
+
+Odd n → median = (n+1)/2 th term.
+
+Even n → median = average of (n/2)th and (n/2 +1)th terms.
+
+Trick 4: Median Formula (Grouped) — "Larry Needs Cash For His House"
+Median = l + [ (n/2 – cf) / f ] × h
+Larry (lower limit) Needs (n/2) Cash (cf) For (f) His house.
+The fraction (n/2 – cf)/f tells you how far inside the class the median lies, then multiply by class size (h). Larry’s journey: from lower limit, he moves inside by that fraction of the class width.
+
+Trick 5: Mode = Most Often — "MO-DE" Fashion Show
+Mode = Most Often Data Entry.
+Think of a fashion show: the model (mode) walks the ramp most often. Shout "MO-DE!" and you instantly remember Mode is the most frequent value.
+
+Trick 6: Mode Formula (Grouped) — "Lover’s Fraction"
+Mode = l + [ (f₁ – f₀) / (2f₁ – f₀ – f₂) ] × h
+Imagine the lover (l) of fashion (the lower limit) gets a fraction from the crowd:
+
+The numerator is the difference between the modal class frequency (f₁) and the previous class (f₀).
+
+The denominator is twice f₁ minus both neighbours.
+This fraction decides how far the mode moves inside its class. It’s like the designer’s special adjustment.
+
+Trick 7: Empirical Relation — "3 Men – 2 Meals = Model"
+Mode = 3 × Median – 2 × Mean
+Picture this: Three Men (Median) go to a restaurant but two meals (Mean) are missing — the left out person becomes a Model (Mode).
+So, 3Mdn – 2Mn = Mode. Say it aloud: “Three men minus two meals equals a model.”
+
+Trick 8: Skewness Order — "Mean Moves to the Tail"
+Positively skewed (right tail): Mean > Median > Mode
+Negatively skewed (left tail): Mode > Median > Mean
+Remember: The Mean is the drama queen; it follows the tail.
+
+If the tail is on the right, Mean is the largest. Order: Mean → Median → Mode.
+
+If the tail is on the left, Mean is the smallest. Order: Mode → Median → Mean.
+Mnemonics: "Right-tailed = Mean is Right‑most" / "Left‑tailed = Mode is Left‑most".
+
+Trick 9: Ogive (Cumulative Frequency Curve) — "O Give Me Half, Then Down"
+To find median from an ogive:
+
+Locate n/2 on the y‑axis.
+
+Go horizontally to the curve.
+
+Drop vertically to the x‑axis.
+Mnemonics: "Oh, give me half (n/2), then I cross and drop down to find the middle." Or simply "Half → Across → Down → Median!"
+
+Trick 10: Frequency Polygon — "Connect the Mid‑Tops"
+A frequency polygon is drawn by joining the mid‑points of the tops of the histogram bars.
+Think of a polygon spider walking on the roof tops — it only steps on the middle of each roof.
+Memory hook: "Polygon = Mid‑points joined" – no bars, just a line connecting those points.
+
+Trick 11: Class Mark — "L + U over 2, see? (Lucy)"
+Class Mark (midvalue) = (Lower limit + Upper limit) / 2.
+Imagine the class interval as a pair of lovers: L (lower) and U (upper). Their child, the class mark, is exactly the average of their ages. Call the child Lucy (L+U/2).
+"Lucy = (L+U)/2" – catchy and unforgettable.
+
+Trick 12: Step Deviation Symbol — "u = (x – a)/h is a 'U-turn'"
+In the step deviation method, the transformed variable is uᵢ = (xᵢ – a)/h.
+Picture a car making a U‑turn: it starts at the assumed mean (a), deviates by the class size (h) to get back to the original value.
+Formula: Mean = a + (Σf u / Σf) × h.
+Acronym for the whole step deviation chain: "U-turn from a, then multiply by h and add a."
+
+Trick 13: Measures & Extremes — "Mean is Mean, Median is Moderate, Mode is Stubborn"
+Which measure is affected most by extreme values? Mean – it gets pulled like a rubber band. Median stays calm in the middle. Mode stubbornly sticks to the most frequent.
+Memory line: "Extreme values pull the Mean, but the Median stays serene, and the Mode just stays the scene."
+
+Trick 14: Cumulative Frequency — "Running Total like a Waterfall"
+Cumulative frequency is the running total of frequencies as you move from one class to the next.
+Visualise a waterfall: each level adds on top of the previous one.
+To find the median class, you look for the class where the cumulative frequency first crosses n/2. That's the waterfall reaching half the total.
+
+Trick 15: Distinguishing Median & Mode Formulas
+Median formula uses n/2, cf, f — think "Median = Middle of data, needs Cumulative (cf) and Half (n/2)."
+Mode formula uses f₁, f₀, f₂ — think "Mode = Most frequent, needs Neighbours (f before and after)."
+Acronym: "M & M": Median needs Cumulatives; Mode needs Neighbo(u)rs.

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Study Station{% endblock %}</title>
+    <meta name="description" content="{% block meta_description %}Access premium NCERT notes, summaries, and practice sets for all classes.{% endblock %}">
+    
+    <!-- Link to the original CSS which is in the static folder now, or use the absolute path if served via Flask -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+    {% block extra_css %}{% endblock %}
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="container nav-content">
+            <a href="/" class="logo">
+                <ion-icon name="school" class="logo-icon"></ion-icon>
+                Study Station
+            </a>
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <a href="{{ url_for('frontend_study') }}" class="{% if request.path.startswith('/study') %}active{% endif %}">Study Materials</a>
+                <a href="/practice">Practice Sets</a>
+                <a href="/jobs">Job Alerts</a>
+            </div>
+            <a href="#download" class="btn btn-primary">Get the App</a>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="page-header">
+        <div class="container">
+            {% block header %}
+            <h1>📚 Study <span class="highlight">Materials</span></h1>
+            <p>Access premium NCERT notes, summaries, and formulas.</p>
+            {% endblock %}
+        </div>
+    </header>
+
+    <!-- Content Section -->
+    <section style="padding-bottom: 100px;">
+        <div class="container">
+            {% block content %}
+            {% endblock %}
+        </div>
+    </section>
+
+    {% block extra_js %}{% endblock %}
+</body>
+</html>

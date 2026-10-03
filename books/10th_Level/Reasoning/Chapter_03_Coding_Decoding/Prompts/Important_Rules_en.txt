@@ -1,0 +1,24 @@
+1. Key Rules/Approaches
+Rule Name	Description	Example
+Letter-by-letter mapping	Write the original word and its code one below the other, letter by letter, and compare shifts.	C O L D → D P M E shows +1 shift.
+Uniform shift check	Check if every letter moves forward or backward by the same number of steps.	HOT → GNS : –1 on each letter.
+Reverse (mirror) coding	Use mirror positions: A↔Z, B↔Y, etc. Formula: New position = 27 – original position.	A (1) → Z (26), K (11) → P (16).
+Alternating pattern	Odd-position letters follow one rule, even-position letters follow another.	NUMBER → MVLADQ : 1st –1, 2nd +1, 3rd –1, etc.
+Vowel/consonant split	Vowels and consonants may have different shift rules.	Vowels +2, consonants –1 in some questions.
+Reversal before/after shift	Sometimes the word is reversed first, then a uniform shift is applied.	ROAD reversed → DAOR, then +2 → FCQT (conceptual).
+Number coding	Each letter is replaced by its alphabet position number.	BAT → 2120 (B=2, A=1, T=20).
+Substitution coding	Whole words are replaced by different but related words.	‘Pen’ is called ‘Book’, ‘Paper’ is called ‘Ink’.
+Mixed coding	Combination of letters, numbers, and symbols.	A=@, B=2, C=# → ABC = @2#.
+Elimination strategy	Code only the first 1–2 letters and check which option matches; skip full coding.	For TABLE with +1, code U and B only, then check options.
+2. Time Management
+Rule Name	Time Limit	Action
+15-Second Rule	15 seconds	If you cannot spot any pattern (shift, mirror, etc.) within 15 seconds, mark the question for review and move to the next.
+45-Second Rule	45 seconds per question	Once a pattern is identified, do not spend more than 45 seconds in total. If stuck in applying the pattern or decoding, skip and return later.
+Simple shift questions	10–15 seconds	If the pattern is a uniform +1/–1, solve instantly using elimination.
+Complex patterns	30–45 seconds	For double-layer, vowel/consonant, or reversal patterns, set a hard stop at 45 seconds.
+3. Logical/Mathematical Formulas
+Formula	Usage	Example
+Mirror letter position: P_mirror = 27 – P_original	Find the opposite letter in the alphabet (A↔Z).	Original letter G (7): 27–7 = 20 → T.
+Position from EJOTY landmarks	Quickly find a letter’s number without counting from A.	E=5, J=10, O=15, T=20, Y=25. M is 2 after J → 12.
+Sum of positions of mirror pairs = 27	A+Z=1+26=27, B+Y=2+25=27, etc.	Used to verify mirror coding logic.
+No universal formula for non-uniform shifts	Alternating, vowel/consonant, or multi-step patterns are logic-based, not formulaic.	—

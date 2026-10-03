@@ -1,0 +1,114 @@
+📊 PYQ Analysis: Missing Term (10-Year Trends)
+1. Yearly Frequency & Exam-Wise Distribution
+
+The frequency of Missing Term questions varies across major competitive exams. The table below presents approximate data based on 10-year trends.
+
+Year	SSC CGL	SSC CHSL	Banking (IBPS/SBI)	Railway (NTPC/Group D)	UPSC CSAT
+2015	2-3 Qs	1-2 Qs	3-5 Qs (Prelims)	1-2 Qs	0-1 Qs
+2016	2-3 Qs	1-2 Qs	3-5 Qs	1-2 Qs	0-1 Qs
+2017	2 Qs	1-2 Qs	5 Qs	1-2 Qs	0-1 Qs
+2018	2 Qs	1-2 Qs	5 Qs	1-2 Qs	1 Qs
+2019	2-3 Qs	1-2 Qs	5 Qs	1-2 Qs	1 Qs
+2020	1-2 Qs	1 Qs	3-5 Qs	1-2 Qs	0-1 Qs
+2021	1-2 Qs	1 Qs	3-5 Qs	1 Qs	0-1 Qs
+2022	1-2 Qs	1 Qs	3-5 Qs	1 Qs	1 Qs
+2023	1-2 Qs	1 Qs	3-5 Qs	1 Qs	0-1 Qs
+2024	1-2 Qs	1 Qs	3-5 Qs	1 Qs	0-1 Qs
+2025	1-2 Qs	1 Qs	3-5 Qs	1 Qs	1 Qs (Prelim)
+
+Trend Note: Over the past decade, SSC CGL and CHSL have seen a slight decline (from 2-3 to 1-2 questions per shift), while Banking exams (IBPS PO/Clerk Prelims) consistently feature 3-5 number series questions. Railway and UPSC CSAT show intermittent but predictable occurrences (typically 1 question). The overall importance of this topic remains stable.
+
+2. Sub-Topic Weightage
+Sub-Topic	SSC Weightage	Banking Weightage	Railway Weightage	UPSC Weightage	Pattern Complexity
+Number Series (Simple Difference)	20%	15%	25%	10%	Low
+Number Series (Squares/Cubes)	25%	20%	20%	25%	Medium
+Number Series (Mixed Operations)	20%	30%	15%	25%	Medium-High
+Number Series (Double Series)	10%	15%	10%	10%	High
+Alphabet Series	10%	5%	15%	10%	Low-Medium
+Alphanumeric Series	10%	5%	10%	10%	Medium
+Matrix-Based	5%	10%	5%	10%	High
+
+Key Insight: In Banking exams, mixed-operation series (e.g., ×2+1, ×3-2) and double series are heavily tested. SSC favors squares/cubes and second-order differences. UPSC CSAT prefers logic-heavy patterns (primes, alternating sequences, date series). Railway balances between simple number and alphabet series.
+
+3. Top 10 High-Yield PYQ Questions with Solutions
+Q1. SSC CGL 2015: 0, 7, 26, 63, ?
+
+Solution: Each term is n³ – 1. 1³–1=0, 2³–1=7, 3³–1=26, 4³–1=63, 5³–1=124.
+Answer: 124
+Psychological Hook/Trap: The numbers are one less than perfect cubes, but 0 may lead to confusion (0²–1 or 1³–1?). The examiner exploits the fact that 0 fits both n²–1 (n=1) and n³–1 (n=1), causing initial pattern doubt. The trap is cognitive anchoring to squares instead of exploring cubes.
+Skip Decision (45-sec rule): Solve immediately. The cube sequence is recognizable in under 15 seconds.
+
+Q2. SSC CGL 2016 (Matrix): Find missing number where column pattern is a² + c = b²
+
+Question: In a column, 1² + 120 = 121 = 11² and 2² + 45 = 49 = 7². Then 3² + x = 5² → x = 25 – 9 = 16.
+Answer: 16
+Psychological Hook/Trap: Matrix questions often mislead by suggesting row-wise patterns. The examiner deliberately formats data in rows while the logic works column-wise — a classic "direction bias" trap. Candidates waste time checking rows.
+Skip Decision (45-sec rule): Solve if column logic is spotted quickly; otherwise, this is a borderline 45-second question — mark and return if matrix pattern isn't evident in two tries.
+
+Q3. SSC CHSL 2018: HJRN, JMTQ, LPVT, NSXW, ?
+
+Solution: First letter: H→J→L→N→P (+2). Second letter: J→M→P→S→V (+3). Third: R→T→V→X→Z (+2). Fourth: N→Q→T→W→Z (+3). Answer: PVZZ.
+Answer: PVZZ
+Psychological Hook/Trap: Four-letter terms with two different increments (+2, +3) create working memory overload. Candidates tend to check all letters with a single increment, miss the dual pattern, and select a decoy option where only one or two letters match.
+Skip Decision (15-sec rule): Complex multi-letter series — if the split-pattern isn't detected in 15 seconds, skip and return.
+
+Q4. Banking (IBPS PO 2019): 56, 28, 42, 105, ?, 1653.75
+
+Solution: ×0.5, ×1.5, ×2.5, ×3.5, ×4.5. 105 × 3.5 = 367.5.
+Answer: 367.5
+Psychological Hook/Trap: The use of decimal multipliers (0.5, 1.5, 2.5...) is a "comfort zone" trap. Candidates expect integer multipliers; decimals induce anxiety. Also, the large gap between 105 and 1653.75 tests whether the candidate trusts the pattern even with extreme values.
+Skip Decision (45-sec rule): This is a classic banking pattern. If the decimal multiplier sequence is recognized, solve. Otherwise, skip if it takes more than 45 seconds.
+
+Q5. UPSC CSAT 2012: 2, 6, 30, 210, ?, 30030
+
+Solution: The multipliers are consecutive primes: ×3, ×5, ×7, ×11, ×13. 210 × 11 = 2310.
+Answer: 2310
+Psychological Hook/Trap: The numbers grow rapidly, tempting candidates to try ×2, ×3, ×4... (factorial-like). The examiner exploits the "familiar pattern bias" — most aspirants stop at multiplication by integers and fail to check primes.
+Skip Decision (45-sec rule): Solve within 30-40 seconds if prime multiplication is tested; otherwise, it's a high-difficulty UPSC question and may be skipped.
+
+Q6. UPSC CSAT 2019: 132, 129, 124, 117, 106, 93, X
+
+Solution: Differences: –3, –5, –7, –9, –11, –13 (consecutive odd numbers). 93 – 13 = 80.
+Answer: 80
+Psychological Hook/Trap: Negative differences with increasing magnitude can be mistaken for a pattern of subtracting prime numbers (–3, –5, –7, –11...). However, –9 is not prime, so the prime theory fails. The examiner embeds a "near-prime" decoy to trap those who don't verify all terms.
+Skip Decision (15-sec rule): Recognizable second-order pattern — solve in 15-20 seconds.
+
+Q7. UPSC CSAT 2018 (Date Series): 4/12/95, 1/1/96, 29/1/96, 26/2/96, ?
+
+Solution: Each date is 28 days after the previous. 26/2/96 + 28 days = 25/3/96.
+Answer: 25/3/96
+Psychological Hook/Trap: This is a "domain shift" trap — the pattern leaves the realm of pure numbers and enters calendar logic. Candidates fixated on arithmetic miss the 28-day cycle. The leap year (1996) is a subtle distractor; 29/1 confirms February has 29 days, which the examiner uses to test awareness.
+Skip Decision (45-sec rule): If the 28-day cycle isn't spotted quickly, skip. Date series is a rare but high-trap UPSC pattern.
+
+Q8. RRB NTPC (Alphanumeric): 2A11, 4D13, 12G17, ?, 240M31
+
+Solution: Prefix numbers: ×2, ×3, ×4, ×5 → 12×4=48. Letters: A(1)→D(4)→G(7)→J(10)→M(13) (+3). Suffix: primes 11, 13, 17, 23, 31 (or +2, +4, +6, +8). Answer: 48J23.
+Answer: 48J23
+Psychological Hook/Trap: Triple parallel patterns (number, letter, number) overload working memory. The suffix primes skip 19 (a "missing step" trap) — candidates who memorize consecutive primes may pick a wrong suffix. The examiner exploits premature pattern closure.
+Skip Decision (45-sec rule): High-difficulty alphanumeric; skip if not solved in 45 seconds.
+
+Q9. SSC CGL 2025 (Alphanumeric): ZE8, YJ6, VO4, ?, JY0
+
+Solution: First letter: Z→Y(–1), Y→V(–3), V→Q(–5), Q→J(–7). Second letter: E→J(+5), J→O(+5), O→T(+5), T→Y(+5). Number: 8→6→4→2→0 (–2 each). Answer: QT2.
+Answer: QT2
+Psychological Hook/Trap: Three different operations on three elements (–1,–3,–5...; +5 constant; –2 constant) demand divided attention. The examiner lures candidates into assuming uniform operation across all elements.
+Skip Decision (45-sec rule): Time-consuming multi-element series — mark and return after 45 seconds if not close to solving.
+
+Q10. Banking (SBI PO 2020): 12, 17, 24, 33, 44, ?
+
+Solution: Differences: +5, +7, +9, +11, +13 → 44 + 13 = 57.
+Answer: 57
+Psychological Hook/Trap: Simple second-order difference appears too easy, leading to overthinking. Candidates may search for a hidden complex pattern (squares, primes) and miss the obvious. The examiner's trap is the candidate's own distrust of simplicity.
+Skip Decision (15-sec rule): Solve immediately — textbook 10-second question.
+
+4. Psychological Trap Summary
+Trap Category	Description	Mitigation
+Direction Bias	Matrix logic works column-wise but data appears row-wise.	Test both row and column patterns within the first 15 seconds.
+Working Memory Overload	Multi-letter or alphanumeric series with different increments per element.	Isolate each position and solve independently.
+Familiar Pattern Bias	Candidate locks onto a familiar pattern (e.g., squares) and ignores alternatives (e.g., cubes).	Maintain a mental checklist; do not commit until 3 terms confirm.
+Decimal Anxiety	Non-integer multipliers induce panic.	Treat decimals as normal arithmetic; the logic is identical.
+Premature Closure	Candidate selects answer after matching only 2 terms.	Verify rule on minimum 3 consecutive pairs.
+Domain Shift	Pattern shifts from numbers to calendar logic or language rules.	Stay mentally flexible; not all series are arithmetic.
+Simplicity Distrust	Easy patterns are doubted, leading to overthinking.	If a simple rule fits all terms, it is correct — do not overcomplicate.
+
+Final Word: Missing Term is a high-accuracy, high-speed topic. The key is pattern recognition speed — which comes only from practicing diverse PYQs. Use the 15/45-second rule ruthlessly; never let one question consume your entire reasoning section.

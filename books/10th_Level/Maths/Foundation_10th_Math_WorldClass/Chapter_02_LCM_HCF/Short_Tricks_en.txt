@@ -1,0 +1,81 @@
+Memory Tricks for LCM & HCF — Learn Once, Never Forget!
+
+Trick 1: The Hungry Crocodile 🐊 (HCF)
+Imagine a crocodile named Harry Crocodile Ferguson. He only eats the smallest fish (lowest power) of every common prime. Why? Because if he tries to swallow a bigger one, he’ll choke! So HCF = take common primes with lowest exponent.
+Remember: Hungry Crocodile eats the Lowest (HCF = Lowest of commons).
+
+Trick 2: The Lazy Camel 🐪 (LCM)
+Meet Lionel Camel Messi — the laziest camel in the desert. He always walks on the highest dune to avoid climbing again. So for LCM, pick the highest power of every prime you see.
+Remember: Lazy Camel climbs the Highest dune (LCM = Highest of all).
+
+Trick 3: The Love & Hugs Formula 💕
+LCM × HCF = Product of the two numbers. Picture this: Leo and Hannah are in love. When they multiply their love (L × H), they create a Product — a perfect baby number! If you know one lover and the product, you can find the other.
+Formula: Love × Hug = Product. If missing one, just divide!
+
+Trick 4: The Huddle vs. Lofty Trick 🏈
+When confused between HCF and LCM, think:
+
+H for Huddle (players come close, low) → HCF takes lowest powers.
+
+L for Lofty (a tall building) → LCM takes highest powers.
+Instant recall: Huddle = short, Lofty = tall.
+
+Trick 5: The ‘ABC’ of Fraction HCF & LCM 📐
+For fractions:
+
+HCF = Numerator’s HCF / Denominator’s LCM → Think “He Needs Drugs Later” (HCF = Numerator HCF / Denominator LCM).
+
+LCM = Numerator’s LCM / Denominator’s HCF → Think “Lovely Numbers Dance Happily” (LCM = Numerator LCM / Denominator HCF).
+(Outrageous image: The numerator is dancing, the denominator is sleeping – drugs for HCF, dance for LCM!)
+
+Trick 6: The ‘Divide & Rule’ vs ‘Multiply & Meet’ 🛠️
+Use HCF when you need to divide something (cut, split, pack). Picture a Hatchet (H for Hatchet, HCF) chopping things.
+Use LCM when you need to multiply events (meet again, ring together). Picture a Loudspeaker (L for LCM) making announcements together.
+Code: Hatchet = Divide = HCF; Loudspeaker = Together = LCM.
+
+Trick 7: The ‘Same Remainder’ Spider Web 🕸️
+When a problem says “same remainder” with different numbers, imagine a spider that catches the differences, not the numbers themselves. Take the differences of the numbers and find their HCF.
+Visual: Spider (HCF) sits on the web made of differences (number1−number2, etc.) and catches the biggest thread.
+
+Trick 8: The 5-Finger Rule for Decimal LCM/HCF ✋
+Decimals? No problem! Count the maximum number of decimal places (fingers). Multiply all numbers by 10^(that many fingers) to make them whole. Find LCM/HCF, then divide by that same power of 10.
+Slogan: “Count the fingers, lift them up, do the math, and put them back down.”
+
+Trick 9: The All-In-One vs. Common-Only Game 🎯
+For three+ numbers:
+
+HCF = “What’s common to all?” (only primes that appear in every number)
+
+LCM = “All from any!” (every prime that appears in at least one number)
+Picture: HCF is a strict bouncer who only lets in those on the list (common). LCM is a party host who welcomes everyone (anyone).
+
+Trick 10: The Co-prime Kiss 💋
+When two numbers are co-prime (HCF=1), their LCM is simply their product. Think: two lonely numbers that have nothing in common, they just kiss and multiply.
+Mantra: “Co-prime? Kiss = Multiply! LCM = a × b.”
+
+Trick 11: The ‘Product ÷ Partner’ Rescue Formula ⚡
+Stuck with one number and the HCF & LCM? Don’t solve equations! Just use:
+Other number = (LCM × HCF) ÷ Given number.
+Visual: The LCM and HCF are a rescue team. They multiply their power, then divide by the known hero to find the missing partner.
+
+Trick 12: The ‘Evening the Remainder’ Balance ⚖️
+If a question says “remainder 3 when divided by 5, remainder 3 when divided by 7”, and the remainder is the same, simply add that remainder to the LCM of divisors.
+Visual: A balance scale where the LCM weight is on one side, and you add a little “remainder” weight on top to balance it. So number = LCM + r.
+
+Trick 13: The ‘Subtract the Difference’ Slide 🛝
+When remainders are different but the difference (divisor − remainder) is the same, subtract that difference from the LCM. Number = LCM − d.
+Imagine sliding down a slide: you start at LCM and slide down by the constant difference to land on the answer.
+
+Trick 14: The Perfect Square/ Cube Recipe 👨‍🍳
+To make a number a perfect square (or cube) after LCM:
+
+Get the LCM in prime factors.
+
+Look at each exponent: to make a square, all exponents must be even; to make a cube, all multiples of 3.
+
+Multiply the LCM by the missing primes to pair up (or triple up) the exponents.
+Chef’s rule: “Even for a square, Triple for a cube — fill the missing ingredients!”
+
+Trick 15: The ‘Ring Together’ Clock 🕰️
+Bells, lights, runners meeting at the start: always LCM. Picture a giant clock where all hands align at the LCM.
+Phrase: “LCM = Least Come-together Moment.”

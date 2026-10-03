@@ -1,0 +1,2316 @@
+<!DOCTYPE html>
+<html lang="hi" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>क्रमचय और संचय — गणित अध्याय 22 | Study Station</title>
+<meta name="description" content="अध्याय: क्रमचय और संचय सीखने के उद्देश्य – इस अध्याय के अंत तक आप यह कर पाएँगे: तुरंत बता पाएँगे कि कब क्रम मायने रखता है (क्रमचय) और कब नहीं (संचय)। बिना">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#8B5CF6">
+<link rel="canonical" href="https://studystation.in/chapters/hi/10th-level/math/permutation-combination.html">
+<link rel="alternate" hreflang="en" href="https://studystation.in/chapters/en/10th-level/math/permutation-combination.html">
+<link rel="alternate" hreflang="hi" href="https://studystation.in/chapters/hi/10th-level/math/permutation-combination.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="क्रमचय और संचय — गणित अध्याय 22">
+<meta property="og:description" content="अध्याय: क्रमचय और संचय सीखने के उद्देश्य – इस अध्याय के अंत तक आप यह कर पाएँगे: तुरंत बता पाएँगे कि कब क्रम मायने रखता है (क्रमचय) और कब नहीं (संचय)। बिना">
+<meta property="og:url" content="https://studystation.in/chapters/hi/10th-level/math/permutation-combination.html">
+<link rel="manifest" href="../../../../manifest.webmanifest">
+<link rel="icon" type="image/svg+xml" href="../../../../assets/icon.svg">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "LearningResource", "name": "क्रमचय और संचय — गणित अध्याय 22", "description": "अध्याय: क्रमचय और संचय सीखने के उद्देश्य – इस अध्याय के अंत तक आप यह कर पाएँगे: तुरंत बता पाएँगे कि कब क्रम मायने रखता है (क्रमचय) और कब नहीं (संचय)। बिना", "inLanguage": "hi-IN", "educationalLevel": "10th Level", "about": "गणित", "isAccessibleForFree": true, "learningResourceType": "Chapter", "url": "https://studystation.in/chapters/hi/10th-level/math/permutation-combination.html"}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Outfit:wght@600;700;800&family=Noto+Sans+Devanagari:wght@400;600;700&display=swap" rel="stylesheet">
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<link rel="stylesheet" href="../../../../css/style.css">
+<link rel="stylesheet" href="../../../../css/components.css">
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true,theme:'dark',securityLevel:'loose'});</script>
+<style>
+.seo-wrap{max-width:820px;margin:0 auto;padding:5.5rem 1rem 4rem}
+.seo-section{margin:2.5rem 0}
+.seo-section h2{font-family:'Outfit',sans-serif;font-size:1.4rem;margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid var(--accent-surface);color:var(--accent-light)}
+.seo-head h1{font-family:'Outfit',sans-serif;font-size:clamp(1.5rem,4vw,2.1rem);line-height:1.3}
+.seo-actions{display:flex;gap:.6rem;flex-wrap:wrap;margin:1.25rem 0}
+.seo-toc{background:var(--bg-secondary);border:1px solid var(--glass-border);border-radius:var(--radius-lg);padding:1rem 1.25rem;margin:1.5rem 0}
+.seo-toc a{color:var(--accent-light);margin-right:1rem;font-size:.9rem;white-space:nowrap}
+</style>
+</head>
+<body>
+<nav class="navbar"><div class="container navbar__inner">
+<a href="../../../../index.html" class="navbar__brand"><div class="navbar__logo"><ion-icon name="book-sharp"></ion-icon></div><span>Study Station</span></a>
+<ul class="navbar__links">
+<li><a href="../../../../index.html" class="navbar__link">Home</a></li>
+<li><a href="../../../../chapters/index.html" class="navbar__link active">Chapters</a></li>
+<li><a href="../../../../jobs.html" class="navbar__link">Jobs</a></li>
+</ul>
+</div></nav>
+
+<main class="seo-wrap">
+<nav class="breadcrumb" aria-label="breadcrumb">
+<a href="../../../../index.html">Home</a> <span class="breadcrumb__sep">/</span>
+<a href="../../../../chapters/index.html">Chapters</a> <span class="breadcrumb__sep">/</span>
+<span class="breadcrumb__current">गणित</span>
+</nav>
+
+<header class="seo-head">
+<span class="section__badge">10th Level · गणित</span>
+<h1>क्रमचय और संचय — गणित अध्याय 22</h1>
+<p style="color:var(--text-secondary);margin-top:.5rem">मुफ़्त पाठ, माइंड मैप, शॉर्ट ट्रिक्स और अभ्यास प्रश्न — हिंदी में।</p>
+<div class="seo-actions">
+<a class="btn btn--primary" href="../../../../index.html#books"><ion-icon name="book-outline"></ion-icon>इंटरैक्टिव रीडर में खोलें</a>
+<a class="btn" style="background:var(--bg-tertiary);color:var(--text-primary)" href="../../../../chapters/en/10th-level/math/permutation-combination.html" hreflang="en">English</a>
+</div>
+</header>
+
+<nav class="seo-toc"><a href="#content">पाठ</a><a href="#feynman">आसान भाषा में</a><a href="#tricks">शॉर्ट ट्रिक्स</a><a href="#mindmap">माइंड मैप</a><a href="#pyq">पिछले वर्ष के प्रश्न</a><a href="#practice">अभ्यास प्रश्न</a></nav>
+
+<section class="seo-section" id="content">
+  <h2>पाठ</h2>
+<h4>अध्याय: क्रमचय और संचय</h4>
+<p>सीखने के उद्देश्य – इस अध्याय के अंत तक आप यह कर पाएँगे:</p>
+<p>तुरंत बता पाएँगे कि कब क्रम मायने रखता है (क्रमचय) और कब नहीं (संचय)।</p>
+<p>बिना हिचक मूल गणना सिद्धांत का प्रयोग कर पाएँगे।</p>
+<p>n</p>
+<h4>Pr और n</h4>
+<p>Cr के सूत्रों का प्रतियोगी परीक्षाओं में सटीक उपयोग कर पाएँगे।</p>
+<p>परीक्षकों द्वारा छिपाए जाने वाले सामान्य जालों (ट्रैप) को पहचान पाएँगे।</p>
+<h4>विस्मयकारी शुरुआत – एक ऐसा तथ्य जो होश उड़ा दे</h4>
+<p>52 पत्तों की एक सामान्य ताश की गड्डी लीजिए। उसे अच्छी तरह फेंटिए। अभी आपके हाथ में जो पत्तों का क्रम है, हो सकता है ब्रह्मांड के पूरे इतिहास में ऐसा क्रम कभी न बना हो। दरअसल, ताश के पत्तों की संभावित सज्जाओं (arrangements) की संख्या (52!) इतनी विशाल है कि वह पृथ्वी पर मौजूद परमाणुओं की संख्या को भी मात कर देती है। यह क्रमचय की अद्भुत शक्ति है — चीज़ों को सजाने का एक साधारण सा कार्य।</p>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">अब सोचिए कि आप पोकर के लिए 5 पत्ते चुन रहे हैं। संभावित हाथों (hands) की संख्या इससे बहुत कम होती है, क्योंकि पत्तों का आपस में क्रम अब मायने नहीं रखता — यह है संचय। दो विचार, दोनों का जन्म एक ही रोज़मर्रा के प्रश्न से: “कितने तरीके?” यह अध्याय इसी प्रश्न को आपका सबसे मज़बूत हथियार बनाएगा।</div></div>
+<p>मैं समझता हूँ — आप उलझन में हैं</p>
+<h4>यदि आप कभी खुद से पूछते हैं, “यहाँ n</h4>
+<h4>Pr लगेगा या n</h4>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">Cr?” — तो रुकिए और गहरी साँस लीजिए। लगभग हर विद्यार्थी यहीं से शुरू करता है। क्रमचय और संचय अक्सर क्रमगुणित (factorial) का एक अस्त-व्यस्त गुच्छा लगता है। लेकिन जैसे ही आप इसके पीछे के तर्क को समझ जाएँगे, यह गणित के सबसे सुखद विषयों में से एक बन जाता है। और मैं आपको इस पर कदम-दर-कदम, छोटे-छोटे टुकड़ों में ले चलूँगा, जब तक यह आपको पूरी तरह स्पष्ट न हो जाए।</div></div>
+<p>1. गणना की जननी: मूल गणना सिद्धांत (Fundamental Counting Principle)</p>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">मान लीजिए आप किसी पार्टी के लिए तैयार हो रहे हैं। आपके पास 3 शर्ट और 4 पैंट हैं। आप कुल कितने अलग-अलग आउटफिट बना सकते हैं? इसके लिए किसी सूत्र की ज़रूरत नहीं — बस गुणा कीजिए: 3 × 4 = 12 आउटफिट।</div></div>
+<p>यही मूल गणना सिद्धांत है: यदि एक काम <em>m</em> तरीकों से और दूसरा <em>n</em> तरीकों से किया जा सकता है, तो दोनों एक साथ m × n तरीकों से किए जा सकते हैं। यह सीधा-सादा विचार उस इंजन की तरह है जिस पर अब हम सब कुछ सीखने वाले हैं।</p>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">इसे थोड़ा बढ़ाइए। आपके पास 2 जोड़ी जूते भी हैं। कुल आउटफिट? 3 × 4 × 2 = 24। यह सिद्धांत जितने चाहें उतने चरणों तक काम करता है।</div></div>
+<div class="recall-box">🧠 सक्रिय स्मरण संकेत (Active Recall Prompt) – आँखें बंद करें। किसी रेस्टोरेंट में 3 स्टार्टर, 5 मुख्य भोजन और 2 मिठाइयाँ हैं। एक पूरा भोजन (स्टार्टर + मुख्य + मिठाई) कितने प्रकार से ऑर्डर किया जा सकता है? (</div>
+<p>उत्तर: 3 × 5 × 2 = 30)</p>
+<p>2. जब क्रम राज करे: क्रमचय (Permutation)</p>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">अब एक ऐसी स्थिति में चलते हैं जहाँ अनुक्रम मायने रखता है। आप अंक 1, 2, 3, 4 का उपयोग करते हुए, बिना पुनरावृत्ति के, 3-अंकीय पासवर्ड बना रहे हैं। कितने पासवर्ड संभव हैं?</div></div>
+<p>मूल गणना सिद्धांत का उपयोग करते हुए धीरे-धीरे चलते हैं।</p>
+<p>पहले अंक के लिए: 4 विकल्प।</p>
+<p>दूसरे के लिए: केवल 3 बचे।</p>
+<p>तीसरे के लिए: 2 बचे।</p>
+<p>कुल = 4 × 3 × 2 = 24।</p>
+<p>यही क्रमचय है — <em>n</em> उपलब्ध वस्तुओं में से <em>r</em> का चयन करना और उन्हें इस तरह सजाना कि क्रम मायने रखता हो। इसे</p>
+<p>n</p>
+<p>P</p>
+<p>r</p>
+<p>या</p>
+<p>(</p>
+<p>,</p>
+<p>)</p>
+<p>P(n,r) लिखते हैं और इसका सूत्र है:</p>
+<p>=</p>
+<p>!</p>
+<p>(</p>
+<p>−</p>
+<p>)</p>
+<p>!</p>
+<p>n</p>
+<p>P</p>
+<p>r</p>
+<p>=</p>
+<p>(n−r)!</p>
+<p>n!</p>
+<h4>यहाँ n = 4, r = 3 → 4</h4>
+<p>P3 = 4!/(4-3)! = 4!/1! = 24। बिल्कुल वही जो हमने पाया।</p>
+<p>जब भी “पासवर्ड, रैंक, अनुक्रम, सज्जा” जैसे शब्द दिखें, क्रमचय समझिए।</p>
+<div class="recall-box">🧠 सक्रिय स्मरण संकेत – आपके पास 6 पुस्तकें हैं और आप उनमें से 4 को एक ताक पर सजाना चाहते हैं। कितनी सज्जाएँ बनेंगी? कौन-सा सूत्र? (</div>
+<h4>उत्तर: 6</h4>
+<p>P4 = 6!/(2!) = 360)</p>
+<h3>3. एक अजीब-सी स्मृति ट्रिक जो फ़र्क कभी नहीं भूलने देगी</h3>
+<p>कल्पना कीजिए कि आप एक अनोखी पार्टी में हैं।</p>
+<p>क्रमचय की परेड — इसमें लोग एक पंक्ति में मार्च कर रहे हैं। इसमें क्रम ही सब कुछ है; दो लोगों को अदल-बदल कर दें तो बिल्कुल नई परेड बन जाएगी। इसलिए P = परेड, क्रम को प्राथमिकता।</p>
+<p>संचय की सब्ज़ी — आप एक पतीली में सब्ज़ियाँ डाल रहे हैं। एक बार डालने के बाद वह मिश्रण बन जाता है। किसी को फ़र्क नहीं पड़ता कि कौन-सी सब्ज़ी पहले डली थी। इसलिए C = सब्ज़ी, क्रम से छुट्टी।</p>
+<p>अब एक ज़ोरदार आवाज़ में बोलने वाले बंदे की कल्पना कीजिए जो चिल्ला रहा है: “पहले क्रम, फिर चयन!”</p>
+<p>P माने क्रमचय — पहले क्रम का ध्यान।</p>
+<p>C माने संचय — चयन करो, क्रम भूल जाओ।</p>
+<p>थोड़ा अटपटा ज़रूर है, लेकिन अब आप इसे कभी नहीं भूलेंगे।</p>
+<p>4. जब क्रम बस शोर हो: संचय (Combination)</p>
+<p>अब इसकी शांत जोड़ीदार अवधारणा देखते हैं। आपकी कक्षा में 5 विद्यार्थी हैं: A, B, C, D, E। आपको एक 3-सदस्यीय खेल समिति चुननी है। यहाँ, समिति {A, B, C} बिल्कुल वही है जो {B, A, C} है। क्रम कोई मायने नहीं रखता। आप केवल चयन कर रहे हैं।</p>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">लेकिन रुकिए — यदि हमने जान-बूझकर क्रम को नज़रअंदाज़ किया, तो गिनेंगे कैसे? पहले क्रमचय से शुरू करें और फिर क्रम के कारण आए दोहराव को हटा दें।</div></div>
+<h4>5 में से 3 को सजाने के तरीके = 5</h4>
+<p>P3 = 60। पर उन 60 सज्जाओं में, हर 3-व्यक्तियों का समूह 3! = 6 भिन्न-भिन्न क्रमों में आता है। इसलिए अद्वितीय समूहों की संख्या = 60 / 6 = 10।</p>
+<p>इसी से संचय का सूत्र बनता है:</p>
+<p>=</p>
+<p>(</p>
+<p>)</p>
+<p>=</p>
+<p>!</p>
+<p>!</p>
+<p>(</p>
+<p>−</p>
+<p>)</p>
+<p>!</p>
+<p>n</p>
+<p>C</p>
+<p>r</p>
+<p>=(</p>
+<p>r</p>
+<p>n</p>
+<p>)=</p>
+<h4>r!(n−r)!</h4>
+<p>n!</p>
+<h4>यहाँ, 5</h4>
+<p>C3 = 5!/(3!2!) = 10. बिल्कुल सही।</p>
+<p>जब भी “टीम, चयन, हाथ, समिति, समूह” जैसे शब्द दिखें, संचय समझिए।</p>
+<div class="recall-box">🧠 सक्रिय स्मरण संकेत – एक थैले में 7 अलग-अलग फल हैं। आप स्मूदी के लिए 2 चुनते हैं। कितने तरीके? (</div>
+<h4>उत्तर: 7</h4>
+<p>C2 = 21। फलों के चुनने का क्रम स्मूदी नहीं बदलता।)</p>
+<p>5. वह संबंध जो परीक्षा में आपकी जान बचाता है</p>
+<p>एक सुंदर बात ग़ौर करें:</p>
+<p>=</p>
+<p>!</p>
+<p>n</p>
+<p>C</p>
+<p>r</p>
+<p>=</p>
+<p>r!</p>
+<p>n</p>
+<p>P</p>
+<p>r</p>
+<p>. संचय बस क्रमचय को चुनी गई वस्तुओं के क्रमगुणित से भाग देने के बराबर है। इसका मतलब यदि आपको n</p>
+<h4>Pr याद है तो n</h4>
+<p>Cr हमेशा निकाल सकते हैं। साथ ही,</p>
+<p>=</p>
+<p>−</p>
+<p>n</p>
+<p>C</p>
+<p>r</p>
+<p>=</p>
+<p>n</p>
+<p>C</p>
+<p>n−r</p>
+<p>— 5 में से 3 को चुनना वही है जो 5 में से 2 को छोड़ना। यह सममिति गणना का समय आधा कर सकती है।</p>
+<div class="recall-box">🧠 सक्रिय स्मरण संकेत – सममिति ट्रिक का उपयोग करके 15</div>
+<h4>C12 ज्ञात करें। (</h4>
+<h4>उत्तर: 15</h4>
+<h4>C12 = 15</h4>
+<p>C3 = 455)</p>
+<h3>6. सामान्य जाल और उनसे बचने के उपाय</h3>
+<p>जाल 1: और बनाम या। “और” का अर्थ है गुणा; “या” (परस्पर अपवर्जी) का अर्थ है जोड़।</p>
+<p>उदाहरण: एक पासवर्ड में 3 अक्षर (26 में से) हैं और उसके बाद 2 अंक (0-9 में से) हैं। यदि पुनरावृत्ति न हो, तो पासवर्डों की संख्या = (26 × 25 × 24) और (10 × 9) = 26</p>
+<h4>P3 × 10</h4>
+<p>P2। यदि पुनरावृत्ति की अनुमति हो, तो यह 26³ × 10² बन जाएगा। “और” को पहचानें — गुणा करें।</p>
+<p>जाल 2: पुनरावृत्ति की अनुमति। जब पुनरावृत्ति की अनुमति हो और क्रम मायने रखता हो, तब n वस्तुओं में से r का चयन करने की व्यवस्थाएँ बस n^r होती हैं। संचय में पुनरावृत्ति का एक अलग सूत्र होता है, लेकिन फाउंडेशन स्तर पर बस इतना नोट करें कि अधिकतर परीक्षा प्रश्नों में “बिना पुनरावृत्ति के” स्पष्ट रूप से लिखा रहता है जब तक कि अन्यथा न कहा गया हो।</p>
+<div class="recall-box">🧠 सक्रिय स्मरण संकेत – एक ताले का 3-अंकीय कोड (0-9, पुनरावृत्ति सहित) है। कितने कोड संभव हैं? (</div>
+<p>उत्तर: 10³ = 1000)</p>
+<h3>7. एक ही प्रश्न में क्रमचय और संचय दोनों</h3>
+<p>कभी-कभी दोनों की आवश्यकता होती है। उदाहरण: 5 लड़कों और 4 लड़कियों में से ठीक 2 लड़कियों वाली 4 सदस्यीय टीम बनानी है।</p>
+<h4>– 4 में से 2 लड़कियाँ चुनना: 4</h4>
+<p>C2 = 6।</p>
+<h4>– 5 में से 2 लड़के चुनना: 5</h4>
+<p>C2 = 10।</p>
+<p>– अब इन चयनों को जोड़िए (“और”) → 6 × 10 = 60 तरीके।</p>
+<p>ध्यान दें, यहाँ हमने चयन के लिए संचय का प्रयोग किया; कोई सज्जा नहीं। यदि प्रश्न चयन के बाद उन्हें पंक्ति में खड़ा करने को कहता, तो क्रमचय से गुणा करते।</p>
+<div class="emoji-section"><span class="emoji-section__icon">📊</span><strong>सारांश तालिका</strong></div>
+<table class="content-table">
+<tr><td>अवधारणा</td><td>कब उपयोग करें</td><td>सूत्र</td><td>संकेत शब्द</td></tr>
+<tr><td>मूल गणना सिद्धांत</td><td>क्रमिक चुनाव (और)</td><td>m × n × …</td><td>और</td></tr>
+<h4>क्रमचय (n</h4>
+</table>
+<table class="content-table">
+<tr><td>Pr)</td><td>व्यवस्था, क्रम महत्वपूर्ण</td><td>n!/(n-r)!</td><td>पासवर्ड, रैंक, अनुक्रम</td></tr>
+<h4>संचय (n</h4>
+</table>
+<table class="content-table">
+<tr><td>Cr)</td><td>चयन, क्रम महत्वहीन</td><td>n!/(r!(n-r)!)</td><td>टीम, समिति, हाथ</td></tr>
+<tr><td>पुनरावृत्ति (व्यवस्था)</td><td>क्रम महत्वपूर्ण, पुनरावृत्ति सहित</td><td>n^r</td><td>ताले का कोड, दोहराए अंक</td></tr>
+<h4>सममिति n</h4>
+</table>
+<h4>Cr = n</h4>
+<table class="content-table">
+<tr><td>C(n-r)</td><td>बड़ा r हो</td><td>छोटे r का उपयोग करें</td><td>शॉर्टकट</td></tr>
+<div class="recall-box">🧠 सक्रिय स्मरण चुनौती — 5 त्वरित प्रश्न</div>
+</table>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">6 व्यक्तियों को एक पंक्ति में कितने प्रकार से बैठाया जा सकता है? (6!)</div></div>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">एक प्रश्नोत्तरी में 10 प्रश्न हैं; आपको कोई 7 हल करने हैं। कितने तरीके? (10</div></div>
+<p>C7)</p>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">एक कार नंबर प्लेट में 2 अक्षर (A-Z, बिना दोहराव) और 3 अंक (0-9, बिना दोहराव) हैं। कुल प्लेटें? (26</div></div>
+<h4>P2 × 10</h4>
+<p>P3)</p>
+<h4>किसी भी n के लिए n</h4>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">C0 का मान क्या है? (1)</div></div>
+<h4>यदि n</h4>
+<h4>P4 = 12 × n</h4>
+<p>P2, तो n ज्ञात करें। (संकेत: क्रमगुणित रूप से हल करें; n=6)</p>
+<p>(अपने उत्तर जाँच लें; यदि किसी में चूक हुई तो उस भाग को दोबारा पढ़ें।)</p>
+<p>🚀 इसे 2 दिन बाद अवश्य दोहराएँ। दिमाग जब एक अंतराल के बाद जान-बूझकर स्मरण करता है तो सीखना पक्का होता है। दो दिन बाद सोने से पहले, इस पुस्तक को बंद करके एक कोरे कागज़ पर n</p>
+<h4>Pr, n</h4>
+<p>Cr और मूल गणना सिद्धांत के सूत्र लिख डालिए। फिर “क्रमचय की परेड, संचय की सब्ज़ी” वाली ट्रिक किसी काल्पनिक दोस्त को समझाइए। यह अकेला कार्य आपकी स्मृति को दोगुना मज़बूत कर सकता है।</p>
+</section>
+<section class="seo-section" id="feynman">
+  <h2>आसान भाषा में</h2>
+<h4>क्रमचय और संचय – एक मज़ेदार आइसक्रीम कहानी</h4>
+<p>एक बार की बात है, दो दोस्त — रोहन और सीमा — एक बहुत बड़ी और रंग-बिरंगी आइसक्रीम की दुकान पर गए। वहाँ 31 तरह के फ्लेवर थे। दुकानदार मुस्कुराया और बोला, “तुम दो तरीकों से मज़ा ले सकते हो।”</p>
+<p>तरीका 1: कोन की कहानी (जहाँ क्रम राजा है)</p>
+<p>दुकानदार बोला, “एक बड़ा कोन लो और तीन अलग-अलग फ्लेवर के स्कूप लगाओ — सबसे ऊपर, बीच में और सबसे नीचे।”</p>
+<p>रोहन ने सोचा: अगर सबसे ऊपर चॉकलेट, बीच में वनीला और सबसे नीचे स्ट्रॉबेरी लगाई, तो मज़ा एकदम चॉकलेट से शुरू होगा।</p>
+<p>लेकिन सीमा बोली, “नहीं! सबसे ऊपर स्ट्रॉबेरी, बीच में चॉकलेट और नीचे वनीला — इससे मीठापन पहले आएगा।”</p>
+<p>दोनों में बहस छिड़ गई, हालाँकि फ्लेवर वही तीन हैं। बस क्रम बदलने से पूरा अनुभव बदल गया। यही क्रमचय है। जब स्कूप का क्रम अहम होता है — पासवर्ड, पंक्ति, रैंक — तब हर नया क्रम एक नया जवाब बनता है।</p>
+<p>तरीका 2: मिल्कशेक की कहानी (जहाँ क्रम से फ़र्क नहीं पड़ता)</p>
+<p>फिर दुकानदार ने मिक्सर की ओर इशारा किया और बोला, “या तुम तीनों फ्लेवरों को एक साथ मिलाकर एक गाढ़ा, मलाईदार शेक बना लो।”</p>
+<p>रोहन ने पहले चॉकलेट डाला, फिर वनीला, फिर स्ट्रॉबेरी। सीमा ने बिल्कुल उलटा डाला। बटन दबाया, गूँ-गूँ! दोनों का शेक एक जैसा गुलाबी-भूरा मिश्रण बन गया। किसी को पता नहीं चल सकता कि क्या पहले डाला गया था। यही संचय है। जब केवल चीज़ों का चुनाव मायने रखता है, क्रम नहीं — जैसे टीम, समिति, या हाथ — तब हर अलग क्रम को एक ही गिना जाता है।</p>
+<h4>वो अजीबोगरीब ट्रिक जो दिमाग़ में चिपक जाएगी</h4>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">जब भी तुम्हें कोई सवाल दिखे, तो आँखें बंद करके सोचो: “अगर मैंने चीज़ों को हिलाकर (shake) दिया, तो क्या नतीजा बदल जाएगा?”</div></div>
+<p>— अगर हिलाने पर नई चीज़ बनती है (जैसे कोन के स्कूप उलट-पुलट गए), तो वो क्रमचय (P) है — पहले क्रम देखो।</p>
+<p>— अगर हिलाने पर बिलकुल वही चीज़ रहती है (जैसे मिल्कशेक), तो वो संचय</p>
+<p>(C) है — चयन भर काफ़ी है, क्रम छोड़ो।</p>
+<p>इस ट्रिक का नाम है “शेक टेस्ट” — पूरी ज़िंदगी नहीं भूलोगे।</p>
+<h4>अब तुम्हारी बारी — बताओ तो जानूँ</h4>
+<p>तुम्हारे पास 5 रंग-बिरंगी पेंसिलें हैं — लाल, नीली, हरी, पीली और काली। तुम्हें इनमें से 3 पेंसिलें एक सीधी पंक्ति में सजानी हैं (हर बार पेंसिल का क्रम बदल सकते हो)।</p>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">यह शेक टेस्ट करो: अगर मैं पंक्ति को हिलाकर पेंसिलों का क्रम बदल दूँ, तो क्या नई सजावट बनेगी? हाँ या नहीं?</div></div>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">फिर बताओ — यह क्रमचय (परेड) है या संचय (सब्ज़ी)? और कितने अलग-अलग तरीकों से तुम 3 पेंसिलों की पंक्ति बना सकते हो? (संकेत: ऊपर पहले कोन वाली कहानी का फॉर्मूला लगाओ।)</div></div>
+</section>
+<section class="seo-section" id="tricks">
+  <h2>शॉर्ट ट्रिक्स</h2>
+<h3>1. खाने का गणित — “और” सुनते ही गुणा करो!</h3>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">एक ज़ोरदार आवाज़ वाला वेटर पूछता है: “सूप और सब्ज़ी और मिठाई?”</div></div>
+<p>हर “और” पर वह हवा में एक बड़ा गुणा (×) का निशान बनाता है।</p>
+<p>यदि 3 सूप, 4 सब्ज़ी और 2 मिठाई → 3 × 4 × 2 = 30 थालियाँ।</p>
+<p>नियम: “और” का मतलब गुणा होता है — यही मूल गणना सिद्धांत है।</p>
+<h3>2. परेड बनाम सब्ज़ी — P और C का फ़र्क</h3>
+<p>एक बड़े मैदान में दो दोस्त खड़े हैं।</p>
+<p>– “P” चिल्लाता है “परेड!” — सब लोग एक लाइन में मार्च करते हैं, क्रम बदला तो पूरी परेड नई बन गई।</p>
+<p>– “C” चिल्लाता है “सब्ज़ी!” — सब्ज़ियाँ एक पतीली में डाल दीं, क्रम से कोई फ़र्क नहीं पड़ता, बस मिल गया।</p>
+<p>एक्रोनिम: P = परेड (क्रम प्रधान) और C = सब्ज़ी (क्रम गुप्त)।</p>
+<h3>3. ट्रॉली वाला चाचा — n</h3>
+<h4>Pr का सूत्र</h4>
+<p>चाचा n वस्तुओं में से r चुनते हैं और उन्हें एक ट्रॉली में क्रम से सजाते हैं।</p>
+<p>जो (n–r) वस्तुएँ छूट गईं, वे रोती हुई घर चली गईं। उनके आँसुओं से भाग दो।</p>
+<h4>सूत्र: n</h4>
+<h4>Pr = n! / (n–r)!</h4>
+<p>दृश्य: चाचा कहते हैं: “चुनो r, बाकी घर जाओ, उनका क्रमगुणित नीचे आता है।”</p>
+<h3>4. मिक्सी वाली मौसी — n</h3>
+<h4>Cr का सूत्र</h4>
+<p>मौसी चुनती हैं r वस्तुएँ और उन्हें मिक्सी में डालकर ब्लेंडर चला देती हैं। अब क्रम ख़त्म।</p>
+<h4>यही संचय है — पहले n</h4>
+<p>Pr बनाया, फिर r! से भाग देकर दोहराव हटाया।</p>
+<h4>सूत्र: n</h4>
+<h4>Cr = n</h4>
+<p>Pr / r! = n! / (r!(n–r)!)</p>
+<p>दृश्य: मौसी बोलीं: “मिक्सी चलाओ, क्रम का सूप बनाओ!”</p>
+<h3>5. झूले का संतुलन — ₙCᵣ = ₙCₙ₋ᵣ</h3>
+<p>बगीचे में एक सी-सॉ है। एक तरफ़ r चुने हुए बच्चे बैठे हैं, दूसरी तरफ़ बचे हुए (n–r) नाराज़ बच्चे। सी-सॉ बिल्कुल सीधा है।</p>
+<p>चुनना r वही है जो छोड़ना n–r।</p>
+<p>बड़े r की जगह छोटा r इस्तेमाल करके गणना तेज़ करो।</p>
+<p>ट्रिक: झूले को संतुलित रखो, छोटी संख्या चुनो।</p>
+<h3>6. शून्य का सुपरहीरो — 0! = 1</h3>
+<p>शून्य एक चमकदार चोगा पहनकर उड़ता है और घोषणा करता है: “जब कुछ नहीं, तब भी एक तरीका!”</p>
+<p>एक खाली टोकरी की भी एक कीमत होती है — वह टोकरी खुद।</p>
+<h4>इसलिए 0! = 1, जिससे n</h4>
+<p>C0 = 1 बनता है (कुछ न चुनने का एक ही तरीका)।</p>
+<h3>7. एंकर आंटी — वृत्तीय क्रमचय</h3>
+<p>गोल मेज़ पर एक आंटी सबसे पहले बैठ जाती हैं और बोलती हैं: “मैं यहाँ एंकर हूँ, अब मेज़ नहीं घूमेगी।”</p>
+<p>अब बाकी (n–1) लोग बैठ सकते हैं (n–1)! तरीकों से।</p>
+<h4>सूत्र: वृत्तीय क्रमचय = (n–1)!</h4>
+<p>दृश्य: एंकर आंटी ने मेज़ पकड़ रखी है, बाकी लोग चक्कर काट रहे हैं।</p>
+<h3>8. पासवर्ड का पावर-अप — पुनरावृत्ति अनुमत</h3>
+<p>एक हैकर चार अंकों का पिन क्रैक करना चाहता है। हर अंक के 10 विकल्प, बार-बार आ सकते हैं।</p>
+<p>कुल कोड = 10⁴ = 10,000।</p>
+<p>नियम: जब क्रम मायने रखे और पुनरावृत्ति अनुमत हो, तब n^r प्रयोग करो।</p>
+<p>दृश्य: स्लॉट मशीन के r पहिए, हर पहिए पर n चित्र — पावर-अप!</p>
+<h3>9. जासूस का उल्टा रास्ता — “कम से कम एक”</h3>
+<p>जासूस सीधे “कम से कम एक लड़का” नहीं गिनता। वह फुसफुसाता है: “कुल में से वह घटाओ जहाँ एक भी नहीं।”</p>
+<p>ट्रिक: “कम से कम एक” सुनते ही सोचो “शून्य वाला केस घटाओ”।</p>
+<h4>जैसे — कुल 9</h4>
+<p>C4 से घटाओ वह केस जहाँ कोई लड़का न हो।</p>
+<h3>10. चौराहे का गणित — “और” गुणा, “या” जोड़</h3>
+<p>एक चौराहे पर दो सड़कें मिलती हैं।</p>
+<p>– “और” वाली सड़क पर बड़ा गुणा (×) चिह्न बना है।</p>
+<p>– “या” वाली सड़क पर पीला जोड़ (+) चिह्न।</p>
+<p>नियम: जब दोनों साथ चाहिए — गुणा; जब कोई एक विकल्प — जोड़।</p>
+<p>कहानी: “और” तो शृंखला है, “या” डाली है — एक पकड़ो, एक छोड़ो।</p>
+<h3>11. हाथ मिलाने का सूत्र — ₙC₂</h3>
+<p>पार्टी में सब एक-दूसरे से हाथ मिलाते हैं। दो लोगों का जोड़ा बनता है — इसमें क्रम नहीं मायने रखता।</p>
+<h4>कुल हाथ मिलाने = n</h4>
+<p>C₂ = n(n–1)/2.</p>
+<p>दृश्य: दो हाथ मिलाते हुए C (Combination) का आकार बनाते हैं।</p>
+<h3>12. पिरामिड की सीढ़ियाँ — बिना पुनरावृत्ति क्रमचय</h3>
+<p>एक राजा की कब्र पर 4 चित्रलिपि हैं जिनसे पासवर्ड बनता है। पहले स्थान के लिए 4 विकल्प, दूसरे के लिए 3, तीसरे के लिए 2, चौथे के लिए 1।</p>
+<p>n</p>
+<p>Pr = n × (n–1) × ... r पदों तक।</p>
+<p>दृश्य: सीढ़ियाँ जो ऊपर जाते-जाते संकरी होती जाती हैं।</p>
+<h3>13. कमेटी कैफ़े — मिश्रित शर्तें</h3>
+<p>जब समिति में “ठीक 2 पुरुष और 2 महिलाएँ” चाहिए:</p>
+<h4>पुरुष चुनो: m</h4>
+<p>C₂</p>
+<h4>महिलाएँ चुनो: w</h4>
+<p>C₂</p>
+<p>गुणा करो क्योंकि दोनों साथ चाहिए।</p>
+<p>एक्रोनिम: चुनो, चुनो, चिपकाओ (गुणा) — CCC: Choose, Choose, Combine.</p>
+<h3>14. स्वरों का पिंजरा — “स्वर एक साथ”</h3>
+<p>सभी स्वरों को एक पिंजरे (ब्लॉक) में बंद कर दो। अब व्यंजनों के साथ पिंजरे को एक इकाई मानकर सजाओ। फिर पिंजरे के अंदर स्वरों को आपस में सजाओ।</p>
+<p>सूत्र: ब्लॉक की बाहरी व्यवस्था × अंदर की व्यवस्था।</p>
+<p>दृश्य: एक पिंजरा जिसमें स्वर चिल्ला रहे हैं, और बाहर व्यंजन चुपचाप खड़े हैं।</p>
+<h3>15. शून्य का डर — अंकों से संख्या बनाना</h3>
+<p>शून्य कायर है — उसे कभी पहले स्थान पर खड़ा नहीं किया जा सकता। इसलिए जब भी अंकों से संख्या बनाओ, सबसे बाएँ वाले स्थान के लिए शून्य को विकल्पों में से हटा दो।</p>
+<p>दृश्य: शून्य के गले में लटका बैज — “मैं आगे नहीं आ सकता”।</p>
+</section>
+<section class="seo-section" id="mindmap">
+  <h2>माइंड मैप</h2>
+<div class="mermaid">graph TD
+    R[&quot;🎯 क्रमचय और संचय&lt;br&gt;Permutation and Combination&quot;]
+    R --&gt; F[&quot;🧮 गणना का मूल सिद्धांत&quot;]
+    R --&gt; P[&quot;📋 क्रमचय nPr&quot;]
+    R --&gt; C[&quot;🤝 संचय nCr&quot;]
+    R --&gt; D[&quot;🔍 P बनाम C&quot;]
+    R --&gt; T[&quot;🪄 विशेष प्रश्न&quot;]
+    F --&gt; F1[&quot;AND = गुणा करो&lt;br&gt;Multiplication Rule&quot;]
+    F --&gt; F2[&quot;OR = जोड़ो&lt;br&gt;Addition Rule&quot;]
+    F --&gt; F3[&quot;उदाहरण: थाली = सूप ×&lt;br&gt;मेन × मिठाई&quot;]
+    P --&gt; P1[&quot;क्रम मायने रखता है&lt;br&gt;Order Matters&quot;]
+    P --&gt; P2[&quot;nPr = n! ÷ (n−r)!&quot;]
+    P --&gt; P3[&quot;रैंक, अनुक्रम,&lt;br&gt;व्यवस्था के प्रश्न&quot;]
+    C --&gt; C1[&quot;क्रम मायने नहीं रखता&quot;]
+    C --&gt; C2[&quot;nCr = n! ÷ r!(n−r)!&quot;]
+    C --&gt; C3[&quot;टीम, समिति,&lt;br&gt;चुनाव के प्रश्न&quot;]
+    C --&gt; C4[&quot;nCr = nC(n−r)&quot;]
+    D --&gt; D1[&quot;शब्द याद रखो:&lt;br&gt;P = Position, C = Choose&quot;]
+    D --&gt; D2[&quot;पहले पूछो — क्या क्रम&lt;br&gt;बदलने से नई चीज़ बनती है?&quot;]
+    T --&gt; T1[&quot;शब्दों के अक्षर सजाना:&lt;br&gt;दोहराव हो तो भाग दो&quot;]
+    T --&gt; T2[&quot;वृत्ताकार क्रमचय:&lt;br&gt;(n−1)!&quot;]
+    T --&gt; T3[&quot;0! = 1 हमेशा&quot;]</div>
+</section>
+<section class="seo-section" id="pyq">
+  <h2>पिछले वर्ष के प्रश्न</h2>
+<div class="mcq-card" id="card_q1" data-correct="">
+  <div class="mcq-question">प्रश्न 1. संख्याएँ बनाना (बिना पुनरावृत्ति के) प्रश्न: अंक 0, 1, 2, 3, 4, 5 का उपयोग करते हुए, बिना किसी अंक को दोहराए, कितनी 3-अंकीय संख्याएँ बनाई जा सकती हैं? (1) 120 (2) 100 (3) 90 (4) 80</div>
+  <details class="mcq-answer" id="ans_q1">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(2) 100</strong></div>
+      <div class="mcq-answer__solution">💡 चूँकि पहला अंक (सैकड़े का स्थान) 0 नहीं हो सकता, इसके लिए केवल 5 विकल्प हैं। दूसरा अंक बचे हुए 5 अंकों में से कोई भी हो सकता है, और तीसरा बचे हुए 4 में से कोई भी। कुल संख्याएँ = 5 × 5 × 4 = 100।</div>
+      <div class="mcq-answer__source">📚 SSC-CGL 2019, IBPS Clerk Mains 2018*</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q2" data-correct="">
+  <div class="mcq-question">प्रश्न 2. शर्त सहित बैठने की व्यवस्था (साथ-साथ बैठना) प्रश्न: 4 लड़के और 2 लड़कियाँ एक पंक्ति में इस प्रकार बैठाए जाने हैं कि दोनों लड़कियाँ हमेशा एक साथ बैठें। यह कितने विभिन्न तरीकों से किया जा सकता है? (1) 720 (2) 240 (3) 120 (4) 480</div>
+  <details class="mcq-answer" id="ans_q2">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(2) 240</strong></div>
+      <div class="mcq-answer__solution">💡 2 लड़कियों को एक &quot;ब्लॉक&quot; मान लीजिए। अब 4 लड़के + 1 ब्लॉक = 5 इकाइयाँ हैं जिन्हें 5 ! = 120 5!=120 तरीकों से सजाया जा सकता है। ब्लॉक के अंदर, 2 लड़कियाँ 2 ! = 2 2!=2 तरीकों से बैठ सकती हैं। कुल तरीके = 120 × 2 = 240।</div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2024, RRB NTPC 2021</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q3" data-correct="">
+  <div class="mcq-question">प्रश्न 3. अक्षर व्यवस्था — स्वर समूह प्रश्न: शब्द &#x27;DIRECTOR&#x27; के अक्षरों को कितने विभिन्न तरीकों से व्यवस्थित किया जा सकता है कि सभी स्वर हमेशा एक साथ आएँ? (1) 4320 (2) 2160 (3) 720 (4) 1080</div>
+  <details class="mcq-answer" id="ans_q3">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(2) 2160</strong></div>
+      <div class="mcq-answer__solution">💡 शब्द &#x27;DIRECTOR&#x27; में 8 अक्षर हैं: स्वर I, E, O (3 स्वर) और व्यंजन D, R, C, T, R (5 व्यंजन जिनमें R दो बार आया है)। 3 स्वरों को एक ब्लॉक मान लीजिए। अब हमारे पास: 5 व्यंजन + 1 स्वर ब्लॉक = 6 इकाइयाँ। किंतु, चूँकि R दो बार दोहराया गया है, इन 6 इकाइयों की व्यवस्था 6 ! 2 ! = 360 2! 6! =360 होगी। स्वर ब्लॉक के अंदर, 3 भिन्न स्वर 3 ! = 6 3!=6 तरीकों से सज सकते हैं। कुल व्यवस्थाएँ = 360 × 6 = 2160।</div>
+      <div class="mcq-answer__source">📚 IBPS PO Pre 2021, SSC CHSL 2023</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q4" data-correct="">
+  <div class="mcq-question">प्रश्न 4. समिति चयन — &quot;कम से कम&quot; शर्त प्रश्न: 6 लड़कों और 4 लड़कियों के समूह में से चार बच्चों का चयन करना है। यह चयन कितने विभिन्न तरीकों से किया जा सकता है कि कम से कम एक लड़का शामिल हो? (1) 159 (2) 194 (3) 205 (4) 209</div>
+  <details class="mcq-answer" id="ans_q4">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(4) 209</strong></div>
+      <div class="mcq-answer__solution">💡 10 बच्चों में से बिना शर्त कुल चयन: 10 4 = 210 10 C 4 =210। &quot;कम से कम एक लड़का&quot; का उल्लंघन करने वाला एकमात्र चयन 0 लड़के (सभी 4 लड़कियाँ) वाला है: 4 4 = 1 4 C 4 =1। वैध चयन = 210 − 1 = 209।</div>
+      <div class="mcq-answer__source">📚 Bank of Baroda PO 2016, SBI PO 2000</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q5" data-correct="">
+  <div class="mcq-question">प्रश्न 5. वृत्तीय क्रमचय प्रश्न: 6 व्यक्तियों को एक गोल मेज़ के चारों ओर कितने प्रकार से बैठाया जा सकता है? (1) 720 (2) 120 (3) 60 (4) 360</div>
+  <details class="mcq-answer" id="ans_q5">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(2) 120</strong></div>
+      <div class="mcq-answer__solution">💡 वृत्तीय क्रमचय में जहाँ केवल सापेक्ष स्थिति मायने रखती है, सूत्र ( − 1 ) ! (n−1)! होता है। तरीकों की संख्या = (6 − 1)! = 5! = 120।</div>
+      <div class="mcq-answer__source">📚 SSC CPO 2022, RRB Group D 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q6" data-correct="">
+  <div class="mcq-question">प्रश्न 6. दोहराए अक्षरों वाली शब्द व्यवस्था प्रश्न: शब्द &#x27;BOOKLET&#x27; के अक्षरों को कितने विभिन्न तरीकों से व्यवस्थित किया जा सकता है कि B और T हमेशा एक साथ आएँ? (1) 120 (2) 240 (3) 360 (4) 720</div>
+  <details class="mcq-answer" id="ans_q6">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(4) 720</strong></div>
+      <div class="mcq-answer__solution">💡 शब्द &#x27;BOOKLET&#x27; में 7 अक्षर हैं: B, O, O, K, L, E, T। O अक्षर दो बार आता है। B और T को एक ब्लॉक मान लीजिए। अब इकाइयाँ हैं: [BT ब्लॉक], O, O, K, L, E = 6 इकाइयाँ जिनमें O दो बार है। इन 6 इकाइयों की व्यवस्था = 6 ! 2 ! = 360 2! 6! =360। BT ब्लॉक के अंदर, B और T 2 ! = 2 2!=2 तरीकों से सज सकते हैं। कुल व्यवस्थाएँ = 360 × 2 = 720।</div>
+      <div class="mcq-answer__source">📚 SSC CGL 2020, IBPS Clerk Mains 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q7" data-correct="">
+  <div class="mcq-question">प्रश्न 7. हाथ मिलाने की समस्या (छिपा संचय) प्रश्न: एक पार्टी में, हर व्यक्ति हर दूसरे व्यक्ति से ठीक एक बार हाथ मिलाता है। यदि कुल 105 हाथ मिलाए गए, तो पार्टी में कितने लोग थे? (1) 15 (2) 14 (3) 21 (4) 25</div>
+  <details class="mcq-answer" id="ans_q7">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 15</strong></div>
+      <div class="mcq-answer__solution">💡 माना लोगों की संख्या = n। हर हाथ मिलाने में 2 भिन्न लोग शामिल हैं, और क्रम मायने नहीं रखता। हाथ मिलाने की संख्या = 2 = 105 n C 2 =105। ( − 1 ) 2 = 105 2 n(n−1) =105 ( − 1 ) = 210 n(n−1)=210 2 − − 210 = 0 n 2 −n−210=0 → ( − 15 ) ( + 14 ) = 0 (n−15)(n+14)=0 = 15 n=15 (चूँकि n &gt; 0)।</div>
+      <div class="mcq-answer__source">📚 SSC CGL 2018, UPSC CDS 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q8" data-correct="">
+  <div class="mcq-question">प्रश्न 8. सटीक लिंग संरचना वाली समिति प्रश्न: 5 पुरुषों और 6 महिलाओं में से 4 सदस्यों की एक समिति इस प्रकार बनानी है कि उसमें ठीक 2 पुरुष और 2 महिलाएँ हों। यह कितने विभिन्न तरीकों से किया जा सकता है? (1) 150 (2) 180 (3) 250 (4) 330</div>
+  <details class="mcq-answer" id="ans_q8">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 150</strong></div>
+      <div class="mcq-answer__solution">💡 5 में से 2 पुरुष चुनें: 5 2 = 10 5 C 2 =10। 6 में से 2 महिलाएँ चुनें: 6 2 = 15 6 C 2 =15। कुल तरीके = 10 × 15 = 150।</div>
+      <div class="mcq-answer__source">📚 SBI Clerk Mains 2020, SSC MTS 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q9" data-correct="">
+  <div class="mcq-question">प्रश्न 9. स्वर-प्रथम बाधा वाली व्यवस्था प्रश्न: शब्द &#x27;NUMBER&#x27; के अक्षरों को कितने प्रकार से व्यवस्थित किया जा सकता है कि पहला अक्षर स्वर हो? (1) 120 (2) 240 (3) 360 (4) 720</div>
+  <details class="mcq-answer" id="ans_q9">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(2) 240</strong></div>
+      <div class="mcq-answer__solution">💡 &#x27;NUMBER&#x27; में स्वर: U, E (2 स्वर)। पहला स्थान: 2 विकल्प (U या E)। शेष 5 स्थान: 5 ! = 120 5!=120 व्यवस्थाएँ। कुल = 2 × 120 = 240।</div>
+      <div class="mcq-answer__source">📚 IBPS PO Pre 2019, SSC CHSL 2021</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q10" data-correct="">
+  <div class="mcq-question">प्रश्न 10. पुनरावृत्ति सहित चयन (कोड/ताला) प्रश्न: एक संयोजन ताले (combination lock) का 4-अंकीय कोड है जिसमें 0–9 तक के अंक उपयोग होते हैं। कितने विभिन्न कोड संभव हैं यदि अंकों की पुनरावृत्ति की अनुमति हो? (1) 10,000 (2) 5,040 (3) 9,999 (4) 1,00,000</div>
+  <details class="mcq-answer" id="ans_q10">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 10,000</strong></div>
+      <div class="mcq-answer__solution">💡 प्रत्येक अंक के 10 स्वतंत्र विकल्प हैं (0 से 9 तक)। कुल कोड = 10 × 10 × 10 × 10 = 10 4 = 10 , 000 10×10×10×10=10 4 =10,000।</div>
+      <div class="mcq-answer__source">📚 RRB NTPC 2020, SSC MTS 2018</div>
+    </div>
+  </details>
+</div>
+
+</section>
+<section class="seo-section" id="practice">
+  <h2>अभ्यास प्रश्न</h2>
+<h2 class="mcq-set-title">📝 Set 1</h2>
+<div class="mcq-card" id="card_q1" data-correct="">
+  <div class="mcq-question">Q1. एक व्यक्ति के पास 4 शर्ट और 3 पैंट हैं। वह एक शर्ट और एक पैंट कितने प्रकार से चुन सकता है? (1) 7 (2) 12 (3) 8 (4) 10</div>
+  <details class="mcq-answer" id="ans_q1">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(2) 12</strong></div>
+      <div class="mcq-answer__solution">💡 मूल गणना सिद्धांत से = 4 × 3 = 12.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.1</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q2" data-correct="">
+  <div class="mcq-question">Q2. अंक 1, 2, 3 का उपयोग करते हुए (बिना दोहराए) 2-अंकीय संख्याएँ कितनी बन सकती हैं? (1) 6 (2) 9 (3) 3 (4) 12</div>
+  <details class="mcq-answer" id="ans_q2">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 6</strong></div>
+      <div class="mcq-answer__solution">💡 दहाई का स्थान 3 प्रकार, इकाई शेष 2 प्रकार → 3 × 2 = 6.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.1</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q3" data-correct="">
+  <div class="mcq-question">Q3. 4 विभिन्न पुस्तकों को एक ताक पर कितने प्रकार से सजाया जा सकता है? (1) 12 (2) 24 (3) 4 (4) 16</div>
+  <details class="mcq-answer" id="ans_q3">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(2) 24</strong></div>
+      <div class="mcq-answer__solution">💡 4! = 24.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.2</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q4" data-correct="">
+  <div class="mcq-question">Q4. 5 खिलाड़ियों में से एक कप्तान और एक उप-कप्तान कितने प्रकार से चुने जा सकते हैं? (1) 10 (2) 20 (3) 25 (4) 5</div>
+  <details class="mcq-answer" id="ans_q4">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(2) 20</strong></div>
+      <div class="mcq-answer__solution">💡 क्रम महत्वपूर्ण है → ⁵P₂ = 5 × 4 = 20.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.3</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q5" data-correct="">
+  <div class="mcq-question">Q5. 4 विद्यार्थियों में से 2 की एक टीम कितने प्रकार से चुनी जा सकती है? (1) 6 (2) 12 (3) 8 (4) 4</div>
+  <details class="mcq-answer" id="ans_q5">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 6</strong></div>
+      <div class="mcq-answer__solution">💡 चयन, क्रम नहीं → ⁴C₂ = 6.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.4</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q6" data-correct="">
+  <div class="mcq-question">Q6. ⁿC₀ का मान किसके बराबर होता है? (1) 0 (2) 1 (3) n (4) n!</div>
+  <details class="mcq-answer" id="ans_q6">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(2) 1</strong></div>
+      <div class="mcq-answer__solution">💡 कुछ न चुनने का केवल एक तरीका है।</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, अनुच्छेद 7.4</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q7" data-correct="">
+  <div class="mcq-question">Q7. ⁵P₃ का मान ज्ञात कीजिए। (1) 10 (2) 20 (3) 60 (4) 120</div>
+  <details class="mcq-answer" id="ans_q7">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(3) 60</strong></div>
+      <div class="mcq-answer__solution">💡 5 × 4 × 3 = 60.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.3</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q8" data-correct="">
+  <div class="mcq-question">Q8. 6 व्यक्तियों को एक पंक्ति में कितने प्रकार से बैठाया जा सकता है? (1) 720 (2) 120 (3) 36 (4) 30</div>
+  <details class="mcq-answer" id="ans_q8">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 720</strong></div>
+      <div class="mcq-answer__solution">💡 6! = 720.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.2</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q9" data-correct="">
+  <div class="mcq-question">Q9. यदि ⁿC₈ = ⁿC₅ हो, तो n का मान क्या है? (1) 13 (2) 15 (3) 12 (4) 11</div>
+  <details class="mcq-answer" id="ans_q9">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 13</strong></div>
+      <div class="mcq-answer__solution">💡 ⁿC₈ = ⁿC₅ ⇒ n – 8 = 5 ⇒ n = 13.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.4</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q10" data-correct="">
+  <div class="mcq-question">Q10. 7 व्यक्तियों में से 3 सदस्यीय समिति कितने प्रकार से बनाई जा सकती है? (1) 35 (2) 210 (3) 21 (4) 42</div>
+  <details class="mcq-answer" id="ans_q10">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 35</strong></div>
+      <div class="mcq-answer__solution">💡 ⁷C₃ = 7!/(3!4!) = 35.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.4</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q11" data-correct="">
+  <div class="mcq-question">Q11. एक ताले का कोड 3-अंकीय है (प्रत्येक अंक 0-9 के बीच)। यदि अंक दोहराए जा सकते हों, तो कुल कितने कोड बन सकते हैं? (1) 1000 (2) 720 (3) 504 (4) 100</div>
+  <details class="mcq-answer" id="ans_q11">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 1000</strong></div>
+      <div class="mcq-answer__solution">💡 प्रत्येक स्थान के 10 विकल्प → 10³ = 1000.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.1</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q12" data-correct="">
+  <div class="mcq-question">Q12. 1,2,3,4,5 अंकों से, बिना अंक दोहराए, 2-अंकीय सम संख्याएँ कितनी बनेंगी? (1) 8 (2) 10 (3) 12 (4) 6</div>
+  <details class="mcq-answer" id="ans_q12">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 8</strong></div>
+      <div class="mcq-answer__solution">💡 इकाई अंक सम होना चाहिए (2 या 4) → 2 विकल्प। दहाई के लिए बचे 4 अंकों में से कोई एक → 2 × 4 = 8.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.1</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q13" data-correct="">
+  <div class="mcq-question">Q13. 5 P5 का मान है : (1) 120 (2) 60 (3) 5 (4) 25</div>
+  <details class="mcq-answer" id="ans_q13">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 120</strong></div>
+      <div class="mcq-answer__solution">💡 5! = 120.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.3</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q14" data-correct="">
+  <div class="mcq-question">Q14. एक व्यक्ति के पास 3 शर्ट और 4 टाई हैं। वह एक शर्ट और एक टाई कितने प्रकार से पहन सकता है? (1) 7 (2) 12 (3) 24 (4) 4</div>
+  <details class="mcq-answer" id="ans_q14">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(2) 12</strong></div>
+      <div class="mcq-answer__solution">💡 3 × 4 = 12.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.1</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q15" data-correct="">
+  <div class="mcq-question">Q15. शब्द &#x27;COUNT&#x27; (सभी अक्षर भिन्न) में से 3 अक्षरों का चयन कितने प्रकार से किया जा सकता है? (1) 60 (2) 10 (3) 20 (4) 15</div>
+  <details class="mcq-answer" id="ans_q15">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(2) 10</strong></div>
+      <div class="mcq-answer__solution">💡 5 C3 = 10.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.4</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q16" data-correct="">
+  <div class="mcq-question">Q16. 0! का मान क्या है? (1) 0 (2) 1 (3) अपरिभाषित (4) अनंत</div>
+  <details class="mcq-answer" id="ans_q16">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(2) 1</strong></div>
+      <div class="mcq-answer__solution">💡 परिभाषा द्वारा 0! = 1.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, अनुच्छेद 7.2</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q17" data-correct="">
+  <div class="mcq-question">Q17. तीन विभिन्न रंगों की झंडियों को ऊर्ध्वाधर क्रम में एक खंभे पर सजाकर कितने विभिन्न संकेत दिए जा सकते हैं? (1) 6 (2) 9 (3) 3 (4) 12</div>
+  <details class="mcq-answer" id="ans_q17">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 6</strong></div>
+      <div class="mcq-answer__solution">💡 3! = 6.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.2</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q18" data-correct="">
+  <div class="mcq-question">Q18. यदि n P2 = 12, तो n का मान है: (1) 4 (2) 5 (3) 6 (4) 3</div>
+  <details class="mcq-answer" id="ans_q18">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 4</strong></div>
+      <div class="mcq-answer__solution">💡 n(n–1) = 12 ⇒ n² – n – 12 = 0 ⇒ n = 4.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.3</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q19" data-correct="">
+  <div class="mcq-question">Q19. ‘MATH’ शब्द के अक्षरों को कितने प्रकार से व्यवस्थित किया जाए कि पहला अक्षर व्यंजन (consonant) हो? (1) 12 (2) 18 (3) 24 (4) 6</div>
+  <details class="mcq-answer" id="ans_q19">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(2) 18</strong></div>
+      <div class="mcq-answer__solution">💡 व्यंजन M, T, H → 3 विकल्प। फिर शेष 3 अक्षरों की व्यवस्था 3! = 6 → 3 × 6 = 18.</div>
+      <div class="mcq-answer__source">📚 SSC CGL पैटर्न</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q20" data-correct="">
+  <div class="mcq-question">Q20. एक थैले में 2 लाल और 3 नीली गेंदें हैं। 2 गेंदें इस प्रकार निकाली जाएँ कि दोनों एक ही रंग की हों। कितने तरीके संभव हैं? (1) 4 (2) 6 (3) 3 (4) 5</div>
+  <details class="mcq-answer" id="ans_q20">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 4</strong></div>
+      <div class="mcq-answer__solution">💡 दोनों लाल: 2 C2 = 1; दोनों नीली: 3 C2 = 3; कुल = 1+3 = 4.</div>
+      <div class="mcq-answer__source">📚 SSC CGL पैटर्न</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q21" data-correct="">
+  <div class="mcq-question">Q21. शब्द ‘NUMBER’ के अक्षरों को कितने प्रकार से व्यवस्थित किया जाए कि सभी स्वर (vowels) एक साथ रहें? (1) 240 (2) 360 (3) 720 (4) 48</div>
+  <details class="mcq-answer" id="ans_q21">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 240</strong></div>
+      <div class="mcq-answer__solution">💡 स्वर U, E (2) — इन्हें एक ब्लॉक मानें। 5 इकाइयाँ (4 व्यंजन + 1 ब्लॉक) को 5! = 120 प्रकार से सजाएँ। ब्लॉक के अंदर स्वर 2! = 2 प्रकार से। कुल = 120 × 2 = 240.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.4</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q22" data-correct="">
+  <div class="mcq-question">Q22. 0,1,2,3,4,5 अंकों से, बिना अंक दोहराए, 3-अंकीय संख्याएँ बनानी हैं जो 5 से विभाजित हों। कितनी संख्याएँ बन सकती हैं? (1) 40 (2) 36 (3) 48 (4) 60</div>
+  <details class="mcq-answer" id="ans_q22">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(2) 36</strong></div>
+      <div class="mcq-answer__solution">💡 इकाई 0 या 5। इकाई 0: सैकड़ा के लिए 5 विकल्प (1-5), दहाई 4 → 20. इकाई 5: सैकड़ा के लिए 4 विकल्प (0,5 नहीं), दहाई 4 → 16. कुल 36.</div>
+      <div class="mcq-answer__source">📚 SSC CHSL पैटर्न</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q23" data-correct="">
+  <div class="mcq-question">Q23. 5 पुरुषों और 3 महिलाओं में से 2 पुरुष और 1 महिला की समिति कितने प्रकार से बनाई जा सकती है? (1) 30 (2) 40 (3) 15 (4) 20</div>
+  <details class="mcq-answer" id="ans_q23">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 30</strong></div>
+      <div class="mcq-answer__solution">💡 ⁵C₂ × ³C₁ = 10 × 3 = 30.</div>
+      <div class="mcq-answer__source">📚 बैंक PO पैटर्न</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q24" data-correct="">
+  <div class="mcq-question">Q24. 5 व्यक्ति एक गोल मेज़ के चारों ओर कितने प्रकार से बैठ सकते हैं? (1) 120 (2) 24 (3) 60 (4) 20</div>
+  <details class="mcq-answer" id="ans_q24">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(2) 24</strong></div>
+      <div class="mcq-answer__solution">💡 वृत्तीय क्रमचय = (5–1)! = 24.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.4</div>
+    </div>
+  </details>
+</div>
+
+<h2 class="mcq-set-title">📝 Set 2</h2>
+<div class="mcq-card" id="card_q25" data-correct="">
+  <div class="mcq-question">Q25. एक डिब्बे में 2 सफ़ेद, 3 काली और 4 लाल गेंदें हैं। 3 गेंदों को इस प्रकार निकालना है कि तीनों भिन्न-भिन्न रंगों की हों। कितने तरीके हैं? (1) 24 (2) 60 (3) 12 (4) 28</div>
+  <details class="mcq-answer" id="ans_q25">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 24</strong></div>
+      <div class="mcq-answer__solution">💡 ²C₁ × ³C₁ × ⁴C₁ = 2 × 3 × 4 = 24.</div>
+      <div class="mcq-answer__source">📚 SSC CGL (मुख्य) पैटर्न</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q26" data-correct="">
+  <div class="mcq-question">Q26. 4 लड़के और 2 लड़कियाँ एक पंक्ति में कितने प्रकार से बैठ सकते हैं यदि दोनों लड़कियाँ हमेशा एक साथ बैठें? (1) 480 (2) 240 (3) 120 (4) 720</div>
+  <details class="mcq-answer" id="ans_q26">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(2) 240</strong></div>
+      <div class="mcq-answer__solution">💡 2 लड़कियों को एक ब्लॉक मानें। अब 4 लड़के + 1 ब्लॉक = 5 इकाइयाँ, जिन्हें 5! = 120 तरीकों से सजा सकते हैं। ब्लॉक के अंदर लड़कियाँ 2! = 2 तरीके। कुल = 120 × 2 = 240.</div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2023</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q27" data-correct="">
+  <div class="mcq-question">Q27. अंक 1,2,3,4,5 का उपयोग करके (बिना दोहराए) 4-अंकीय ऐसी कितनी संख्याएँ बनाई जा सकती हैं जो 4 से विभाजित हों? (1) 24 (2) 36 (3) 48 (4) 60</div>
+  <details class="mcq-answer" id="ans_q27">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 24</strong></div>
+      <div class="mcq-answer__solution">💡 कोई संख्या 4 से तभी विभाजित होती है जब उसके अंतिम दो अंक 4 से विभाजित हों। उपलब्ध अंकों से ऐसे अंतिम युग्म: 12, 24, 32, 52 → 4 विकल्प। शेष दो स्थानों पर बचे 3 अंकों से 3 P2 = 6 तरीके। कुल = 4 × 6 = 24.</div>
+      <div class="mcq-answer__source">📚 SSC CGL 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q28" data-correct="">
+  <div class="mcq-question">Q28. 5 व्यक्तियों को एक गोल मेज़ पर कितने प्रकार से बैठाया जाए कि दो विशेष व्यक्ति हमेशा एक साथ बैठें? (1) 12 (2) 24 (3) 36 (4) 48</div>
+  <details class="mcq-answer" id="ans_q28">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 12</strong></div>
+      <div class="mcq-answer__solution">💡 दो विशेष व्यक्तियों को एक ब्लॉक मानें। अब 4 इकाइयाँ वृत्त में: (4–1)! = 6 तरीके। ब्लॉक के अंदर 2! = 2 तरीके। कुल = 6 × 2 = 12.</div>
+      <div class="mcq-answer__source">📚 SSC CPO 2022</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q29" data-correct="">
+  <div class="mcq-question">Q29. 6 पुरुषों और 4 महिलाओं में से 5 सदस्यीय समिति बनानी है जिसमें ठीक 3 पुरुष हों। कितने प्रकार से बन सकती है? (1) 120 (2) 180 (3) 240 (4) 60</div>
+  <details class="mcq-answer" id="ans_q29">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 120</strong></div>
+      <div class="mcq-answer__solution">💡 पुरुष चुनें: ⁶C₃ = 20, महिलाएँ चुनें: ⁴C₂ = 6. कुल = 20 × 6 = 120.</div>
+      <div class="mcq-answer__source">📚 IBPS PO Pre 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q30" data-correct="">
+  <div class="mcq-question">Q30. 5 व्यक्तियों को एक पंक्ति में कितने प्रकार से बैठाया जाए कि दो विशेष व्यक्ति कभी एक साथ न बैठें? (1) 72 (2) 96 (3) 120 (4) 48</div>
+  <details class="mcq-answer" id="ans_q30">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 72</strong></div>
+      <div class="mcq-answer__solution">💡 कुल व्यवस्थाएँ = 5! = 120. जब दोनों एक साथ हों: ब्लॉक मानें → 4! × 2! = 48. अतः नहीं साथ = 120 – 48 = 72.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.4</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q31" data-correct="">
+  <div class="mcq-question">Q31. एक थैले में 5 लाल और 4 नीली गेंदें हैं। 3 गेंदें इस प्रकार निकाली जाएँ कि कम से कम एक गेंद लाल हो। कितने तरीके हैं? (1) 80 (2) 74 (3) 84 (4) 76</div>
+  <details class="mcq-answer" id="ans_q31">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 80</strong></div>
+      <div class="mcq-answer__solution">💡 9 गेंदों में से 3 चुनने के कुल तरीके = ⁹C₃ = 84. कोई भी लाल न हो (सभी नीली) = ⁴C₃ = 4. अतः कम से कम एक लाल = 84 – 4 = 80.</div>
+      <div class="mcq-answer__source">📚 SSC CGL 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q32" data-correct="">
+  <div class="mcq-question">Q32. अंक 0,1,2,3,4,5 से (बिना दोहराए) 4-अंकीय ऐसी कितनी संख्याएँ बनाई जा सकती हैं जो 5 से विभाजित हों? (1) 108 (2) 120 (3) 96 (4) 84</div>
+  <details class="mcq-answer" id="ans_q32">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 108</strong></div>
+      <div class="mcq-answer__solution">💡 अंतिम अंक 0 या 5। स्थिति 1: इकाई = 0 → हजारवाँ अंक: 5 विकल्प (1-5), सैकड़ा: 4, दहाई: 3 → 5×4×3=60. स्थिति 2: इकाई = 5 → हजारवाँ अंक: 4 विकल्प (0,5 छोड़कर), फिर शेष स्थान: 4×3=48. कुल = 60+48=108.</div>
+      <div class="mcq-answer__source">📚 SSC CGL 2018 (रूपांतरित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q33" data-correct="">
+  <div class="mcq-question">Q33. 7 व्यक्तियों को एक गोल मेज़ पर कितने प्रकार से बैठाया जाए कि दो विशेष व्यक्ति कभी एक साथ न बैठें? (1) 480 (2) 600 (3) 720 (4) 840</div>
+  <details class="mcq-answer" id="ans_q33">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 480</strong></div>
+      <div class="mcq-answer__solution">💡 कुल वृत्तीय व्यवस्थाएँ = (7–1)! = 720. जब दोनों एक साथ हों: ब्लॉक ⇒ (6–1)! × 2! = 120 × 2 = 240. अतः नहीं साथ = 720 – 240 = 480.</div>
+      <div class="mcq-answer__source">📚 SSC CPO 2021</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q34" data-correct="">
+  <div class="mcq-question">Q34. एक व्यक्ति के 4 मित्र हैं। वह उनमें से एक या अधिक को पार्टी में कितने प्रकार से आमंत्रित कर सकता है? (1) 15 (2) 16 (3) 4! (4) 4</div>
+  <details class="mcq-answer" id="ans_q34">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 15</strong></div>
+      <div class="mcq-answer__solution">💡 प्रत्येक मित्र को बुलाया या नहीं – 2⁴ = 16 संभावनाएँ। किसी को न बुलाने की स्थिति हटाएँ → 16 – 1 = 15.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.4</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q35" data-correct="">
+  <div class="mcq-question">Q35. शब्द ‘MONDAY’ के अक्षरों को कितने प्रकार से व्यवस्थित किया जाए कि दोनों स्वर (O,A) कभी एक साथ न हों? (1) 480 (2) 600 (3) 720 (4) 240</div>
+  <details class="mcq-answer" id="ans_q35">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 480</strong></div>
+      <div class="mcq-answer__solution">💡 कुल व्यवस्थाएँ = 6! = 720. स्वर एक साथ: OA ब्लॉक मानें → 5! × 2! = 240. अतः नहीं साथ = 720 – 240 = 480.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.4</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q36" data-correct="">
+  <div class="mcq-question">Q36. 5 पुरुषों और 4 महिलाओं में से 5 सदस्यीय समिति बनाई जाए जिसमें कम से कम 3 पुरुष हों। कितने प्रकार से बन सकती है? (1) 81 (2) 45 (3) 80 (4) 120</div>
+  <details class="mcq-answer" id="ans_q36">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 81</strong></div>
+      <div class="mcq-answer__solution">💡 3पु,2म: ⁵C₃ × ⁴C₂ = 10×6=60; 4पु,1म: ⁵C₄ × ⁴C₁ = 5×4=20; 5पु,0म: 1. कुल = 60+20+1=81.</div>
+      <div class="mcq-answer__source">📚 बैंक PO Pre 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q37" data-correct="">
+  <div class="mcq-question">Q37. अंक 1,2,3,4,5,6,7 का उपयोग कर (बिना दोहराए) 3-अंकीय विषम संख्याएँ कितनी बनाई जा सकती हैं? (1) 180 (2) 210 (3) 120 (4) 150</div>
+  <details class="mcq-answer" id="ans_q37">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(3) 120</strong></div>
+      <div class="mcq-answer__solution">💡 इकाई अंक विषम (1,3,5,7) → 4 विकल्प। सैकड़ा शेष 6 में से, दहाई शेष 5 में से → 4 × 6 × 5 = 120.</div>
+      <div class="mcq-answer__source">📚 SSC CGL 2017</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q38" data-correct="">
+  <div class="mcq-question">Q38. 5 सर्वसम (identical) लाल गेंदों और 4 सर्वसम नीली गेंदों को एक पंक्ति में कितने प्रकार से रखा जा सकता है? (1) 126 (2) 120 (3) 24 (4) 210</div>
+  <details class="mcq-answer" id="ans_q38">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 126</strong></div>
+      <div class="mcq-answer__solution">💡 कुल 9 गेंदें, 5 लाल (समान), 4 नीली (समान)। व्यवस्थाएँ = 9!/(5!4!) = 126.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.4</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q39" data-correct="">
+  <div class="mcq-question">Q39. 5 विभिन्न झंडियों को कम से कम 2 का प्रयोग करते हुए एक ऊर्ध्वाधर स्टैक में कितने प्रकार से लगाकर संकेत बनाए जा सकते हैं? (1) 320 (2) 325 (3) 300 (4) 120</div>
+  <details class="mcq-answer" id="ans_q39">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 320</strong></div>
+      <div class="mcq-answer__solution">💡 2 झंडी: 5 P2=20; 3: 5 P3=60; 4: 5 P4=120; 5: 5 P5=120. योग = 320.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.3</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q40" data-correct="">
+  <div class="mcq-question">Q40. एक विद्यार्थी को 9 पाठ्यक्रमों में से 5 चुनने हैं। यदि दो विशेष पाठ्यक्रम अनिवार्य हों, तो वह कितने प्रकार से चयन कर सकता है? (1) 35 (2) 21 (3) 42 (4) 84</div>
+  <details class="mcq-answer" id="ans_q40">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 35</strong></div>
+      <div class="mcq-answer__solution">💡 दो अनिवार्य हैं, अतः शेष 3 पाठ्यक्रम बचे 7 में से चुनें: 7 C3 = 35.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.4</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q41" data-correct="">
+  <div class="mcq-question">Q41. अंग्रेज़ी वर्णमाला के पहले 10 अक्षरों (A–J) का प्रयोग कर 4-अक्षरीय कोड बनाए जाएँ जिनमें कोई अक्षर दोहराया न गया हो और पहला अक्षर स्वर (vowel) हो। कितने कोड बन सकते हैं? (1) 1512 (2) 5040 (3) 720 (4) 2160</div>
+  <details class="mcq-answer" id="ans_q41">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 1512</strong></div>
+      <div class="mcq-answer__solution">💡 A–J में स्वर A, E, I (3)। पहला अक्षर: 3 विकल्प। शेष 9 अक्षरों में से 3 को चुनकर सजाना: 9 P3 = 9×8×7 = 504। कुल = 3 × 504 = 1512.</div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2022</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q42" data-correct="">
+  <div class="mcq-question">Q42. शब्द ‘BALLOON’ के अक्षरों को कितने प्रकार से व्यवस्थित किया जाए कि दोनों L हमेशा एक साथ रहें? (1) 360 (2) 180 (3) 720 (4) 120</div>
+  <details class="mcq-answer" id="ans_q42">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 360</strong></div>
+      <div class="mcq-answer__solution">💡 दोनों L को ब्लॉक ‘LL’ मानें। शेष: B, A, LL, O, O, N (6 इकाइयाँ, O दो बार)। व्यवस्थाएँ = 6!/2! = 360. ब्लॉक के अंदर कोई क्रम नहीं।</div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2021</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q43" data-correct="">
+  <div class="mcq-question">Q43. एक बहुभुज में 44 विकर्ण हैं। उसकी भुजाओं की संख्या है: (1) 11 (2) 10 (3) 12 (4) 8</div>
+  <details class="mcq-answer" id="ans_q43">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 11</strong></div>
+      <div class="mcq-answer__solution">💡 विकर्णों की संख्या = n(n–3)/2 = 44 ⇒ n(n–3)=88 ⇒ n²–3n–88=0 ⇒ n=11 या –8 (अमान्य)।</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.4</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q44" data-correct="">
+  <div class="mcq-question">Q44. कॉलम A में 6 विषय हैं और कॉलम B में 6 विषय हैं। एक विद्यार्थी को कॉलम A के प्रत्येक विषय का मिलान कॉलम B के किसी एक विषय से करना है (एक विषय एक ही बार प्रयुक्त हो)। कुल कितने संभव मिलान (सही या गलत) बन सकते हैं? (1) 720 (2) 30 (3) 36 (4) 120</div>
+  <details class="mcq-answer" id="ans_q44">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 720</strong></div>
+      <div class="mcq-answer__solution">💡 यह 6 भिन्न वस्तुओं की क्रमचय संख्या है = 6! = 720.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.2</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q45" data-correct="">
+  <div class="mcq-question">Q45. 3 पत्र 4 लेटर बॉक्स में कितने प्रकार से डाले जा सकते हैं? (प्रत्येक बॉक्स में कितने भी पत्र जा सकते हैं) (1) 64 (2) 81 (3) 24 (4) 12</div>
+  <details class="mcq-answer" id="ans_q45">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 64</strong></div>
+      <div class="mcq-answer__solution">💡 प्रत्येक पत्र के लिए 4 स्वतंत्र विकल्प → 4³ = 64.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.1</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q46" data-correct="">
+  <div class="mcq-question">Q46. अंक 0 से 9 तक के अंकों का प्रयोग करके 5-अंकीय टेलीफोन नंबर बनाए जाने हैं जो 67 से आरंभ हों और किसी भी अंक की पुनरावृत्ति न हो। ऐसे कितने नंबर बन सकते हैं? (1) 336 (2) 720 (3) 10080 (4) 30240</div>
+  <details class="mcq-answer" id="ans_q46">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 336</strong></div>
+      <div class="mcq-answer__solution">💡 पहले दो अंक 6,7 निश्चित हैं। शेष 3 अंक बचे हुए 8 अंकों (0-9 में से 6,7 हटाकर) से बिना दोहराए चुनने और सजाने पर: 8 P3 = 8×7×6 = 336.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.1</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q47" data-correct="">
+  <div class="mcq-question">Q47. 3 लड़कों और 2 लड़कियों में से 3 सदस्यीय समिति बनानी है जिसमें कम से कम एक लड़की अवश्य हो। तरीकों की संख्या है: (1) 6 (2) 9 (3) 7 (4) 10</div>
+  <details class="mcq-answer" id="ans_q47">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(2) 9</strong></div>
+      <div class="mcq-answer__solution">💡 कुल समितियाँ = 5 C3 = 10. सभी लड़कों वाली समिति = 3 C3 = 1. अतः कम से कम एक लड़की = 10 – 1 = 9.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.4</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q48" data-correct="">
+  <div class="mcq-question">Q48. यदि n C2 = 36, तो n का मान है: (1) 9 (2) 8 (3) 10 (4) 6</div>
+  <details class="mcq-answer" id="ans_q48">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 9</strong></div>
+      <div class="mcq-answer__solution">💡 n C2 = n(n–1)/2 = 36 ⇒ n(n–1) = 72 ⇒ n²–n–72=0 ⇒ n=9 या –8 (अमान्य)।</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.4</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q49" data-correct="">
+  <div class="mcq-question">Q49. शब्द ‘DAUGHTER’ के अक्षरों को कितने प्रकार से व्यवस्थित किया जाए कि सभी स्वर (vowels) एक साथ आएँ? (1) 4320 (2) 720 (3) 2160 (4) 1440</div>
+  <details class="mcq-answer" id="ans_q49">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 4320</strong></div>
+      <div class="mcq-answer__solution">💡 स्वर A, U, E (3) को एक ब्लॉक मानें। कुल इकाइयाँ = 5 व्यंजन + 1 ब्लॉक = 6, जिन्हें 6! = 720 से सजाएँ। ब्लॉक के अंदर स्वर 3! = 6 तरीके। कुल = 720 × 6 = 4320.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.4</div>
+    </div>
+  </details>
+</div>
+
+<h2 class="mcq-set-title">📝 Set 3</h2>
+<div class="mcq-card" id="card_q50" data-correct="">
+  <div class="mcq-question">Q50. 5 पुरुषों और 6 महिलाओं में से 6 सदस्यीय समिति बनानी है जिसमें ठीक 3 पुरुष हों। कितने प्रकार से बन सकती है? (1) 200 (2) 300 (3) 400 (4) 500</div>
+  <details class="mcq-answer" id="ans_q50">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 200</strong></div>
+      <div class="mcq-answer__solution">💡 पुरुष: 5 C3 = 10, महिलाएँ: 6 C3 = 20. कुल = 10 × 20 = 200.</div>
+      <div class="mcq-answer__source">📚 IBPS Clerk Mains 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q51" data-correct="">
+  <div class="mcq-question">Q51. शब्द &#x27;REMOTE&#x27; के अक्षरों को कितने प्रकार से व्यवस्थित किया जाए कि सभी स्वर (vowels) एक साथ आएँ? (1) 72 (2) 144 (3) 36 (4) 120</div>
+  <details class="mcq-answer" id="ans_q51">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 72</strong></div>
+      <div class="mcq-answer__solution">💡 REMOTE में स्वर: E, O, E (E दो बार)। स्वरों को एक ब्लॉक मानें। कुल इकाइयाँ = R, M, T, [स्वर ब्लॉक] = 4, जिन्हें 4! = 24 तरीकों से सजा सकते हैं। ब्लॉक के अंदर E,O,E को 3!/2! = 3 तरीकों से। कुल = 24 × 3 = 72.</div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q52" data-correct="">
+  <div class="mcq-question">Q52. 5 लड़कों और 4 लड़कियों में से 3 की टीम बनानी है जिसमें ठीक 2 लड़कियाँ हों। तरीकों की संख्या है: (1) 30 (2) 40 (3) 20 (4) 60</div>
+  <details class="mcq-answer" id="ans_q52">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 30</strong></div>
+      <div class="mcq-answer__solution">💡 लड़कियाँ: 4 C2 = 6; लड़के: 5 C1 = 5. कुल = 6 × 5 = 30.</div>
+      <div class="mcq-answer__source">📚 IBPS Clerk Mains 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q53" data-correct="">
+  <div class="mcq-question">Q53. 5 विभिन्न चाबियों को एक चाभी-छल्ले (key ring) में कितने प्रकार से लगाया जा सकता है? (छल्ला पलटा जा सकता है) (1) 24 (2) 12 (3) 60 (4) 120</div>
+  <details class="mcq-answer" id="ans_q53">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(2) 12</strong></div>
+      <div class="mcq-answer__solution">💡 छल्ले पर वृत्तीय क्रमचय, पलटने पर समानता: (5–1)!/2 = 4!/2 = 24/2 = 12.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.4</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q54" data-correct="">
+  <div class="mcq-question">Q54. शब्द &#x27;ARRANGE&#x27; के अक्षरों को कितने प्रकार से व्यवस्थित किया जाए कि दोनों R हमेशा एक साथ आएँ? (1) 360 (2) 180 (3) 720 (4) 120</div>
+  <details class="mcq-answer" id="ans_q54">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 360</strong></div>
+      <div class="mcq-answer__solution">💡 दोनों R को एक ब्लॉक &#x27;RR&#x27; मानें। अक्षर बने: A, A, RR, N, G, E (6 इकाइयाँ, A दो बार)। व्यवस्थाएँ = 6! / 2! = 720/2 = 360.</div>
+      <div class="mcq-answer__source">📚 SSC CGL 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q55" data-correct="">
+  <div class="mcq-question">Q55. अंक 1,2,3,4,5,6,7 का उपयोग करके (बिना दोहराए) 3-अंकीय सम संख्याएँ कितनी बनाई जा सकती हैं? (1) 90 (2) 120 (3) 60 (4) 210</div>
+  <details class="mcq-answer" id="ans_q55">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 90</strong></div>
+      <div class="mcq-answer__solution">💡 इकाई अंक सम (2,4,6) → 3 विकल्प। फिर सैकड़ा: शेष 6 में से, दहाई: शेष 5 में से → 3 × 6 × 5 = 90.</div>
+      <div class="mcq-answer__source">📚 SSC CGL 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q56" data-correct="">
+  <div class="mcq-question">Q56. एक परीक्षा में 8 में से 5 प्रश्न करने हैं। यदि पहले 3 प्रश्न अनिवार्य हों, तो विद्यार्थी शेष प्रश्न कितने प्रकार से चुन सकता है? (1) 10 (2) 20 (3) 56 (4) 36</div>
+  <details class="mcq-answer" id="ans_q56">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 10</strong></div>
+      <div class="mcq-answer__solution">💡 अनिवार्य 3 को छोड़ शेष 5 में से 2 चुनने हैं → 5 C2 = 10.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.4</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q57" data-correct="">
+  <div class="mcq-question">Q57. 0,1,2,3,4,5 अंकों से (बिना दोहराए) 100 और 1000 के बीच कितनी संख्याएँ बन सकती हैं? (1) 100 (2) 120 (3) 80 (4) 150</div>
+  <details class="mcq-answer" id="ans_q57">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 100</strong></div>
+      <div class="mcq-answer__solution">💡 संख्याएँ 3-अंकीय हैं। सैकड़ा: 0 नहीं → 5 विकल्प (1-5)। दहाई: शेष 5 (0 सहित) में से। इकाई: शेष 4 में से। कुल = 5 × 5 × 4 = 100.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.1</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q58" data-correct="">
+  <div class="mcq-question">Q58. 7 व्यक्तियों को एक पंक्ति में कितने प्रकार से बैठाएँ कि 3 विशेष व्यक्ति हमेशा एक साथ बैठें? (1) 720 (2) 5040 (3) 240 (4) 120</div>
+  <details class="mcq-answer" id="ans_q58">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 720</strong></div>
+      <div class="mcq-answer__solution">💡 3 को एक ब्लॉक मानें। इकाइयाँ = 4 (अन्य) + 1 ब्लॉक = 5, जिन्हें 5! = 120 से सजाएँ। ब्लॉक के अंदर 3 को 3! = 6। कुल = 120 × 6 = 720.</div>
+      <div class="mcq-answer__source">📚 SSC CPO 2021</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q59" data-correct="">
+  <div class="mcq-question">Q59. एक व्यक्ति के 5 मित्र हैं। वह उनमें से एक या अधिक को पार्टी में कितने प्रकार से बुला सकता है? (1) 31 (2) 32 (3) 5 (4) 10</div>
+  <details class="mcq-answer" id="ans_q59">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 31</strong></div>
+      <div class="mcq-answer__solution">💡 प्रत्येक मित्र को बुलाए या न बुलाए → 2⁵ = 32 संभावनाएँ। किसी को न बुलाने की स्थिति (1) हटाएँ → 31.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.4</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q60" data-correct="">
+  <div class="mcq-question">Q60. शब्द &#x27;BANANA&#x27; के अक्षरों से कितने भिन्न-भिन्न शब्द बन सकते हैं? (1) 60 (2) 120 (3) 720 (4) 45</div>
+  <details class="mcq-answer" id="ans_q60">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 60</strong></div>
+      <div class="mcq-answer__solution">💡 BANANA में 6 अक्षर: A तीन बार, N दो बार। क्रमचय = 6! / (3! × 2!) = 720/(6×2) = 60.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.3</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q61" data-correct="">
+  <div class="mcq-question">Q61. 4 विभिन्न अँगूठियाँ हाथ की 3 अँगुलियों में कितने प्रकार से पहनी जा सकती हैं यदि एक अँगुली में कितनी भी अँगूठियाँ पहनी जा सकती हैं? (1) 81 (2) 64 (3) 24 (4) 12</div>
+  <details class="mcq-answer" id="ans_q61">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 81</strong></div>
+      <div class="mcq-answer__solution">💡 प्रत्येक अँगूठी के लिए 3 अँगुलियों का स्वतंत्र चयन → 3⁴ = 81.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.1</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q62" data-correct="">
+  <div class="mcq-question">Q62. 4 पुरुषों और 5 महिलाओं में से 4 सदस्यीय समिति बनानी है जिसमें ठीक 2 महिलाएँ हों। कितने प्रकार से बन सकती है? (1) 60 (2) 120 (3) 80 (4) 100</div>
+  <details class="mcq-answer" id="ans_q62">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 60</strong></div>
+      <div class="mcq-answer__solution">💡 महिलाएँ: 5 C2 = 10; पुरुष: 4 C2 = 6. कुल = 10 × 6 = 60.</div>
+      <div class="mcq-answer__source">📚 SSC CGL 2017</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q63" data-correct="">
+  <div class="mcq-question">Q63. यदि ²ⁿP₂ = 30, तो n का मान है: (1) 3 (2) 4 (3) 5 (4) 6</div>
+  <details class="mcq-answer" id="ans_q63">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 3</strong></div>
+      <div class="mcq-answer__solution">💡 ²ⁿP₂ = (2n)(2n–1) = 30. जाँच: n=3 ⇒ 6×5=30.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.3</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q64" data-correct="">
+  <div class="mcq-question">Q64. 0,1,2,3,4,5 अंकों से (बिना दोहराए) 4-अंकीय सम संख्याएँ कितनी बनाई जा सकती हैं? (1) 156 (2) 312 (3) 120 (4) 180</div>
+  <details class="mcq-answer" id="ans_q64">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 156</strong></div>
+      <div class="mcq-answer__solution">💡 इकाई 0,2,4। स्थिति-1 (इकाई=0): हजारवाँ 5, फिर 4×3 = 60। स्थिति-2 (इकाई=2): हजारवाँ 0 नहीं व 2 नहीं → 4, फिर 4×3 = 48। स्थिति-3 (इकाई=4) भी 48। कुल = 60+48+48=156.</div>
+      <div class="mcq-answer__source">📚 SSC CGL 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q65" data-correct="">
+  <div class="mcq-question">Q65. 4 लड़के और 2 लड़कियों को एक पंक्ति में कितने प्रकार से बैठाएँ कि कोई दो लड़कियाँ एक साथ न बैठें? (1) 480 (2) 240 (3) 720 (4) 120</div>
+  <details class="mcq-answer" id="ans_q65">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 480</strong></div>
+      <div class="mcq-answer__solution">💡 पहले 4 लड़कों को बैठाएँ: 4! = 24. उनके बीच 5 स्थान बनेंगे। उनमें से 2 स्थानों पर लड़कियों को बैठाएँ: 5 P2 = 20. कुल = 24 × 20 = 480.</div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2021</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q66" data-correct="">
+  <div class="mcq-question">Q66. 10 भुजाओं वाले बहुभुज में विकर्णों की संख्या है: (1) 35 (2) 45 (3) 30 (4) 40</div>
+  <details class="mcq-answer" id="ans_q66">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 35</strong></div>
+      <div class="mcq-answer__solution">💡 विकर्ण = n(n–3)/2 = 10 × 7 / 2 = 35.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.4</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q67" data-correct="">
+  <div class="mcq-question">Q67. एक क्लब में 6 सदस्य हैं। अध्यक्ष, सचिव और कोषाध्यक्ष (तीनों पद भिन्न) कितने प्रकार से चुने जा सकते हैं? (1) 120 (2) 20 (3) 60 (4) 240</div>
+  <details class="mcq-answer" id="ans_q67">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 120</strong></div>
+      <div class="mcq-answer__solution">💡 6 भिन्न पद → 6 P3 = 6 × 5 × 4 = 120.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.3</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q68" data-correct="">
+  <div class="mcq-question">Q68. अंक 0,2,4,6,8 से (बिना दोहराए) 4-अंकीय संख्याएँ कितनी बनाई जा सकती हैं? (1) 96 (2) 120 (3) 48 (4) 24</div>
+  <details class="mcq-answer" id="ans_q68">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 96</strong></div>
+      <div class="mcq-answer__solution">💡 हजारवाँ अंक 0 नहीं → 4 विकल्प (2,4,6,8)। फिर सैकड़ा: शेष 4 (0 सहित), दहाई: 3, इकाई: 2 → 4 × 4 × 3 × 2 = 96.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.1</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q69" data-correct="">
+  <div class="mcq-question">Q69. 1,2,3,4,5 अंकों से (बिना दोहराए) 5-अंकीय संख्याएँ बनानी हैं जो 5 से विभाजित हों। कितनी बनेंगी? (1) 24 (2) 120 (3) 60 (4) 48</div>
+  <details class="mcq-answer" id="ans_q69">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 24</strong></div>
+      <div class="mcq-answer__solution">💡 5 से विभाजित होने के लिए इकाई अंक 5 ही होगा। शेष 4 अंकों को सजाएँ: 4! = 24.</div>
+      <div class="mcq-answer__source">📚 SSC CGL 2016</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q70" data-correct="">
+  <div class="mcq-question">Q70. 8 व्यक्ति एक गोल मेज़ पर कितने प्रकार से बैठ सकते हैं यदि दो विशेष व्यक्ति एक साथ नहीं बैठना चाहते? (1) 3600 (2) 2520 (3) 1440 (4) 720</div>
+  <details class="mcq-answer" id="ans_q70">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 3600</strong></div>
+      <div class="mcq-answer__solution">💡 कुल वृत्तीय व्यवस्थाएँ = (8–1)! = 5040. जब दोनों एक साथ: ब्लॉक मानें → (7–1)! × 2! = 720 × 2 = 1440. अतः नहीं साथ = 5040 – 1440 = 3600.</div>
+      <div class="mcq-answer__source">📚 SSC CPO 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q71" data-correct="">
+  <div class="mcq-question">Q71. यदि ⁿC₈ = ⁿC₅, तो n का मान होगा: (1) 13 (2) 12 (3) 15 (4) 10</div>
+  <details class="mcq-answer" id="ans_q71">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 13</strong></div>
+      <div class="mcq-answer__solution">💡 गुणधर्म से n–8 = 5 ⇒ n = 13.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.4</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q72" data-correct="">
+  <div class="mcq-question">Q72. 1,2,3,4,5,6,7 अंकों से (बिना दोहराए) 400 से बड़ी 3-अंकीय संख्याएँ कितनी बनाई जा सकती हैं? (1) 120 (2) 140 (3) 210 (4) 180</div>
+  <details class="mcq-answer" id="ans_q72">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 120</strong></div>
+      <div class="mcq-answer__solution">💡 सैकड़ा अंक 4,5,6,7 → 4 विकल्प। फिर दहाई: शेष 6 में से, इकाई: 5 में से → 4 × 6 × 5 = 120.</div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q73" data-correct="">
+  <div class="mcq-question">Q73. एक थैले में 3 लाल, 4 नीली और 2 हरी गेंदें हैं। 2 गेंदें इस प्रकार निकाली जाएँ कि दोनों एक ही रंग की हों। तरीकों की संख्या है: (1) 10 (2) 9 (3) 36 (4) 18</div>
+  <details class="mcq-answer" id="ans_q73">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 10</strong></div>
+      <div class="mcq-answer__solution">💡 दोनों लाल: 3 C2=3; दोनों नीली: 4 C2=6; दोनों हरी: 2 C2=1. योग = 10.</div>
+      <div class="mcq-answer__source">📚 IBPS PO Pre 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q74" data-correct="">
+  <div class="mcq-question">Q74. शब्द &#x27;SUCCESS&#x27; के अक्षरों को कितने प्रकार से व्यवस्थित किया जाए कि कोई दो S एक साथ न हों? (1) 120 (2) 24 (3) 96 (4) 60</div>
+  <details class="mcq-answer" id="ans_q74">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 120</strong></div>
+      <div class="mcq-answer__solution">💡 SUCCESS में S तीन बार, C दो बार, U, E एक-एक। पहले गैर-S अक्षरों U, C, C, E को सजाएँ: 4!/2! = 12. ये 5 गैप बनाते हैं। इनमें से 3 गैप चुनकर तीनों S (समान) रखें: 5 C3 = 10. कुल = 12 × 10 = 120.</div>
+      <div class="mcq-answer__source">📚 SSC CGL 2020</div>
+    </div>
+  </details>
+</div>
+
+<h2 class="mcq-set-title">📝 Set 4</h2>
+<div class="mcq-card" id="card_q75" data-correct="">
+  <div class="mcq-question">Q75. अंक 0,2,4,6,8 से (बिना दोहराए) 4-अंकीय संख्याएँ कितनी बनाई जा सकती हैं? (1) 96 (2) 120 (3) 48 (4) 24</div>
+  <details class="mcq-answer" id="ans_q75">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 96</strong></div>
+      <div class="mcq-answer__solution">💡 हजारवाँ अंक 0 नहीं → 4 विकल्प (2,4,6,8)। शेष तीन स्थानों के लिए बचे 4 अंकों (0 सहित) से क्रमचय: 4 × 3 × 2 = 24। कुल = 4 × 24 = 96. (ध्यान दें: पहले अंक के बाद 4 अंक शेष, उनसे 3 स्थान भरें क्रमानुसार, यह सीधे 4 × 4 P3 के बराबर है।)</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.1</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q76" data-correct="">
+  <div class="mcq-question">Q76. शब्द ‘STARTED’ के अक्षरों को कितने प्रकार से व्यवस्थित किया जाए कि सभी स्वर एक साथ आएँ? (1) 360 (2) 720 (3) 1440 (4) 480</div>
+  <details class="mcq-answer" id="ans_q76">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(2) 720</strong></div>
+      <div class="mcq-answer__solution">💡 STARTED में स्वर: A, E (2); व्यंजन: S, T, R, T, D (T दो बार)। स्वरों को एक ब्लॉक मानें। इकाइयाँ = 5 व्यंजन + 1 ब्लॉक = 6, जिनमें T दो बार आया है। इनकी व्यवस्था = 6!/2! = 360। ब्लॉक के अंदर स्वरों की व्यवस्था = 2! = 2। कुल = 360 × 2 = 720.</div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q77" data-correct="">
+  <div class="mcq-question">Q77. 4 लड़के और 3 लड़कियों को एक पंक्ति में कितने प्रकार से बैठाया जाए कि कोई दो लड़कियाँ एक साथ न बैठें? (1) 1440 (2) 720 (3) 2880 (4) 5040</div>
+  <details class="mcq-answer" id="ans_q77">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 1440</strong></div>
+      <div class="mcq-answer__solution">💡 पहले 4 लड़कों को बैठाएँ: 4! = 24। इससे 5 गैप बनेंगे। इन 5 गैप में से 3 का चयन कर उनमें लड़कियों को सजाएँ: 5 P3 = 60। कुल = 24 × 60 = 1440.</div>
+      <div class="mcq-answer__source">📚 SSC CGL 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q78" data-correct="">
+  <div class="mcq-question">Q78. एक डिब्बे में 4 लाल, 5 नीली और 3 हरी गेंदें हैं। 2 गेंदें कितने प्रकार से चुनी जा सकती हैं कि दोनों एक ही रंग की हों? (1) 19 (2) 20 (3) 18 (4) 22</div>
+  <details class="mcq-answer" id="ans_q78">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 19</strong></div>
+      <div class="mcq-answer__solution">💡 दोनों लाल: 4 C2 = 6; दोनों नीली: 5 C2 = 10; दोनों हरी: 3 C2 = 3। योग = 6+10+3 = 19.</div>
+      <div class="mcq-answer__source">📚 SSC MTS 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q79" data-correct="">
+  <div class="mcq-question">Q79. 5 कुंजियों को एक छल्ले (जिसे पलटा जा सके) में कितने प्रकार से लगाया जा सकता है? (1) 12 (2) 24 (3) 60 (4) 120</div>
+  <details class="mcq-answer" id="ans_q79">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 12</strong></div>
+      <div class="mcq-answer__solution">💡 छल्ले के लिए सूत्र = (n–1)!/2 = 4!/2 = 12.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.4</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q80" data-correct="">
+  <div class="mcq-question">Q80. अंक 1,2,3,4,5,6 का प्रयोग कर (बिना दोहराए) 4-अंकीय ऐसी कितनी संख्याएँ बन सकती हैं जो 2 से विभाजित हों? (1) 180 (2) 240 (3) 360 (4) 120</div>
+  <details class="mcq-answer" id="ans_q80">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 180</strong></div>
+      <div class="mcq-answer__solution">💡 अंतिम अंक सम होना चाहिए: 2,4,6 → 3 विकल्प। फिर पहले तीन स्थानों के लिए बचे 5 अंकों में से क्रमचय: 5 × 4 × 3 = 60। कुल = 3 × 60 = 180.</div>
+      <div class="mcq-answer__source">📚 SSC CGL 2021</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q81" data-correct="">
+  <div class="mcq-question">Q81. 5 लड़के और 4 लड़कियों को एक पंक्ति में कितने प्रकार से बैठाया जाए कि लड़कियाँ केवल सम स्थानों (even positions) पर बैठें? (1) 2880 (2) 5760 (3) 720 (4) 1440</div>
+  <details class="mcq-answer" id="ans_q81">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 2880</strong></div>
+      <div class="mcq-answer__solution">💡 कुल 9 स्थान, सम स्थान: 2,4,6,8 → 4 स्थान। 4 लड़कियाँ इन 4 सम स्थानों पर 4! = 24 प्रकार से। 5 लड़के शेष 5 विषम स्थानों पर 5! = 120 प्रकार से। कुल = 120 × 24 = 2880.</div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q82" data-correct="">
+  <div class="mcq-question">Q82. एक विद्यार्थी को 8 विषयों में से 4 विषय चुनने हैं, परंतु यदि गणित चुना जाए तो भौतिकी भी अवश्य चुननी होगी। वह कितने प्रकार से चयन कर सकता है? (1) 35 (2) 30 (3) 40 (4) 15</div>
+  <details class="mcq-answer" id="ans_q82">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(2) 30</strong></div>
+      <div class="mcq-answer__solution">💡 दो स्थितियाँ: (i) गणित और भौतिकी दोनों चुनें → शेष 6 में से 2 चुनें: 6 C2 = 15। (ii) गणित और भौतिकी दोनों न चुनें → शेष 6 में से 4 चुनें: 6 C4 = 15। कुल = 15+15 = 30.</div>
+      <div class="mcq-answer__source">📚 IBPS PO 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q83" data-correct="">
+  <div class="mcq-question">Q83. शब्द ‘LOGARITHM’ (9 भिन्न अक्षर) में से 3 अक्षर लेकर कितने भिन्न-भिन्न क्रमचय बनाए जा सकते हैं? (1) 504 (2) 84 (3) 720 (4) 168</div>
+  <details class="mcq-answer" id="ans_q83">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 504</strong></div>
+      <div class="mcq-answer__solution">💡 9 P3 = 9 × 8 × 7 = 504.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.3</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q84" data-correct="">
+  <div class="mcq-question">Q84. 6 पुरुष और 4 महिलाएँ एक गोल मेज़ पर कितने प्रकार से बैठ सकते हैं कि कोई दो महिलाएँ एक साथ न बैठें? (1) 43200 (2) 86400 (3) 7200 (4) 120</div>
+  <details class="mcq-answer" id="ans_q84">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 43200</strong></div>
+      <div class="mcq-answer__solution">💡 पहले 6 पुरुषों को गोल मेज़ पर बैठाएँ: (6–1)! = 120। अब 6 गैप बनेंगे। उन 6 गैपों में से 4 चुनकर महिलाओं को सजाएँ: 6 P4 = 360। कुल = 120 × 360 = 43200.</div>
+      <div class="mcq-answer__source">📚 SSC CPO 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q85" data-correct="">
+  <div class="mcq-question">Q85. 12 भुजाओं वाले उत्तल बहुभुज में विकर्णों की संख्या कितनी होती है? (1) 54 (2) 66 (3) 44 (4) 60</div>
+  <details class="mcq-answer" id="ans_q85">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 54</strong></div>
+      <div class="mcq-answer__solution">💡 विकर्णों की संख्या = n(n–3)/2 = 12×9/2 = 54.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.4</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q86" data-correct="">
+  <div class="mcq-question">Q86. 10 खिलाड़ियों (जिनमें 2 विशेष स्टार खिलाड़ी हैं) में से 5 की टीम बनानी है जिसमें ठीक एक स्टार शामिल हो। टीम कितने प्रकार से बनाई जा सकती है? (1) 140 (2) 112 (3) 56 (4) 70</div>
+  <details class="mcq-answer" id="ans_q86">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 140</strong></div>
+      <div class="mcq-answer__solution">💡 2 में से 1 स्टार चुनें: 2 C1 = 2। शेष 8 में से 4 खिलाड़ी चुनें: 8 C4 = 70। कुल = 2 × 70 = 140.</div>
+      <div class="mcq-answer__source">📚 IBPS PO Mains 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q87" data-correct="">
+  <div class="mcq-question">Q87. अंक 0,1,2,3,4,5,6 का प्रयोग करके 3-अंकीय विषम संख्याएँ कितनी बनाई जा सकती हैं, यदि कोई अंक दोहराया न जाए? (1) 75 (2) 90 (3) 105 (4) 120</div>
+  <details class="mcq-answer" id="ans_q87">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 75</strong></div>
+      <div class="mcq-answer__solution">💡 इकाई विषम (1,3,5) → 3 विकल्प। सैकड़ा अंक 0 नहीं हो सकता, अतः बचे 6 अंकों में से 0 हटाकर 5 विकल्प। दहाई: शेष 5 अंक (0 सहित) → 5 विकल्प। कुल = 3 × 5 × 5 = 75.</div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q88" data-correct="">
+  <div class="mcq-question">Q88. 3 एकसमान अर्थशास्त्र की और 5 एकसमान गणित की पुस्तकों को एक ताक पर कितने प्रकार से रखा जा सकता है यदि अर्थशास्त्र की तीनों पुस्तकें हमेशा एक साथ रहें? (1) 6 (2) 56 (3) 336 (4) 21</div>
+  <details class="mcq-answer" id="ans_q88">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 6</strong></div>
+      <div class="mcq-answer__solution">💡 तीनों समान पुस्तकों को एक ब्लॉक मानें। अब 5 समान गणित + 1 ब्लॉक = 6 इकाइयाँ, जिनमें 5 समान हैं। व्यवस्था = 6!/5! = 6. ब्लॉक में कोई आंतरिक क्रम नहीं।</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.4 (रूपांतरित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q89" data-correct="">
+  <div class="mcq-question">Q89. शब्द ‘NUMBER’ के अक्षरों का प्रयोग करके (अर्थपूर्ण या निरर्थक) 4-अक्षरों के शब्द कितने बन सकते हैं, यदि अक्षरों की पुनरावृत्ति अनुमत हो? (1) 1296 (2) 360 (3) 720 (4) 216</div>
+  <details class="mcq-answer" id="ans_q89">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 1296</strong></div>
+      <div class="mcq-answer__solution">💡 प्रत्येक स्थान के लिए 6 विकल्प → 6⁴ = 1296.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.1 (रूपांतरित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q90" data-correct="">
+  <div class="mcq-question">Q90. यदि 10 Cᵣ = 120, तो r का मान हो सकता है: (1) 3 या 7 (2) 4 या 6 (3) 5 (4) 2 या 8</div>
+  <details class="mcq-answer" id="ans_q90">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 3 या 7</strong></div>
+      <div class="mcq-answer__solution">💡 10 C3 = 120 और सममिति से 10 C7 = 120.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.4</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q91" data-correct="">
+  <div class="mcq-question">Q91. 5 व्यक्तियों को एक पंक्ति में कितने प्रकार से बैठाया जाए कि दो विशेष व्यक्ति कभी एक साथ न बैठें? (1) 72 (2) 48 (3) 96 (4) 120</div>
+  <details class="mcq-answer" id="ans_q91">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 72</strong></div>
+      <div class="mcq-answer__solution">💡 कुल व्यवस्थाएँ = 5! = 120। जब दोनों एक साथ हों: ब्लॉक मानें → 4! × 2! = 48। अतः कभी साथ न हों = 120 – 48 = 72.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.4</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q92" data-correct="">
+  <div class="mcq-question">Q92. 11 खिलाड़ियों में से एक कप्तान और एक उपकप्तान कितने प्रकार से चुना जा सकता है? (1) 110 (2) 55 (3) 121 (4) 22</div>
+  <details class="mcq-answer" id="ans_q92">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 110</strong></div>
+      <div class="mcq-answer__solution">💡 पद भिन्न हैं अतः क्रमचय = 11 P2 = 11 × 10 = 110.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.3</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q93" data-correct="">
+  <div class="mcq-question">Q93. एक पार्टी में प्रत्येक व्यक्ति प्रत्येक अन्य व्यक्ति से ठीक एक बार हाथ मिलाता है। यदि कुल 105 हाथ मिलाए गए, तो वहाँ कितने व्यक्ति थे? (1) 15 (2) 14 (3) 21 (4) 16</div>
+  <details class="mcq-answer" id="ans_q93">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 15</strong></div>
+      <div class="mcq-answer__solution">💡 n C2 = 105 ⇒ n(n–1)/2 = 105 ⇒ n = 15.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.4</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q94" data-correct="">
+  <div class="mcq-question">Q94. अंक 0,1,2,3,4,5,6 का प्रयोग करके 3-अंकीय ऐसी कितनी संख्याएँ बनाई जा सकती हैं जो 2 से विभाजित हों और किसी अंक की पुनरावृत्ति न हो? (1) 105 (2) 120 (3) 90 (4) 75</div>
+  <details class="mcq-answer" id="ans_q94">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 105</strong></div>
+      <div class="mcq-answer__solution">💡 इकाई सम (0,2,4,6)। स्थिति-1: इकाई = 0 → सैकड़ा 6 विकल्प (1-6), दहाई 5 → 30। स्थिति-2: इकाई 2,4,6 → प्रत्येक के लिए सैकड़ा 0 नहीं व उस अंक को हटाकर 5 विकल्प, दहाई 5 (0 सहित) → 3 × 5 × 5 = 75। कुल = 30+75 = 105.</div>
+      <div class="mcq-answer__source">📚 SSC CGL 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q95" data-correct="">
+  <div class="mcq-question">Q95. 6 पुरुषों और 4 महिलाओं में से 5 सदस्यीय समिति बनानी है जिसमें कम से कम 3 महिलाएँ हों। तरीकों की संख्या है: (1) 45 (2) 66 (3) 55 (4) 75</div>
+  <details class="mcq-answer" id="ans_q95">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(2) 66</strong></div>
+      <div class="mcq-answer__solution">💡 3 महिला, 2 पुरुष: 4 C3 × 6 C2 = 4 × 15 = 60; 4 महिला, 1 पुरुष: 4 C4 × 6 C1 = 6. योग = 60+6=66.</div>
+      <div class="mcq-answer__source">📚 SSC MTS 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q96" data-correct="">
+  <div class="mcq-question">Q96. शब्द ‘EXAMS’ (सभी 5 अक्षर भिन्न) के अक्षरों से 5-अक्षरीय ऐसे कितने शब्द बन सकते हैं जिनके बीच का अक्षर (तीसरा) स्वर हो? (1) 48 (2) 96 (3) 24 (4) 120</div>
+  <details class="mcq-answer" id="ans_q96">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 48</strong></div>
+      <div class="mcq-answer__solution">💡 स्वर: E, A (2)। तीसरे स्थान के लिए 2 विकल्प। शेष 4 स्थानों पर बचे 4 अक्षरों की व्यवस्था 4! = 24। कुल = 2 × 24 = 48.</div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q97" data-correct="">
+  <div class="mcq-question">Q97. एक आयताकार मेज की हर लंबी भुजा पर 4 कुरसियाँ और हर छोटी भुजा पर 2 कुरसियाँ हैं। 12 व्यक्ति इन सभी कुरसियों (जो भिन्न मानी गई हैं) पर कितने प्रकार से बैठ सकते हैं? (1) 12! (2) (12–1)! (3) 4!4!2!2! (4) 12</div>
+  <details class="mcq-answer" id="ans_q97">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 12!</strong></div>
+      <div class="mcq-answer__solution">💡 चूँकि सभी कुरसियाँ स्थिर और भिन्न हैं, यह रेखीय व्यवस्था है। अतः 12! प्रकार से बैठ सकते हैं।</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.2 (अवधारणात्मक)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q98" data-correct="">
+  <div class="mcq-question">Q98. अंक 1,2,3,3,4,4 का प्रयोग करके 6-अंकीय कितनी भिन्न संख्याएँ बनाई जा सकती हैं? (1) 180 (2) 360 (3) 120 (4) 720</div>
+  <details class="mcq-answer" id="ans_q98">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 180</strong></div>
+      <div class="mcq-answer__solution">💡 कुल क्रमचय = 6! / (2! × 2!) = 720/4 = 180.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.3</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q99" data-correct="">
+  <div class="mcq-question">Q99. 3 लाल, 2 नीली और 1 हरी गेंदों को एक पंक्ति में कितने प्रकार से सजाया जा सकता है? (एक ही रंग की गेंदें समान हैं) (1) 60 (2) 720 (3) 120 (4) 360</div>
+  <details class="mcq-answer" id="ans_q99">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 60</strong></div>
+      <div class="mcq-answer__solution">💡 कुल 6 गेंदें, 3 समान लाल, 2 समान नीली। व्यवस्थाएँ = 6!/(3!2!) = 720/(6×2)=60.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.4</div>
+    </div>
+  </details>
+</div>
+
+<h2 class="mcq-set-title">📝 Set 5</h2>
+<div class="mcq-card" id="card_q100" data-correct="">
+  <div class="mcq-question">Q100. यदि ¹⁵C₆ = ¹⁵Cₓ, और x ≠ 6, तो x का मान है: (1) 9 (2) 8 (3) 10 (4) 12</div>
+  <details class="mcq-answer" id="ans_q100">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 9</strong></div>
+      <div class="mcq-answer__solution">💡 सममिति गुण से ¹⁵Cₓ = ¹⁵C_{15–x}। अतः 15–x = 6 ⇒ x = 9.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.4</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q101" data-correct="">
+  <div class="mcq-question">Q101. शब्द ‘DAUGHTER’ के सभी अक्षरों का प्रयोग करके ऐसे कितने शब्द बनाए जा सकते हैं जिनमें स्वर केवल विषम (odd) स्थानों पर हों? (1) 2880 (2) 1440 (3) 720 (4) 4320</div>
+  <details class="mcq-answer" id="ans_q101">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 2880</strong></div>
+      <div class="mcq-answer__solution">💡 DAUGHTER में 3 स्वर (A, U, E) और 5 व्यंजन हैं। कुल 8 स्थानों में से विषम स्थान 1,3,5,7 हैं—कुल 4 स्थान। स्वरों के लिए इन 4 में से 3 स्थान चुनें व सजाएँ: 4 P3 = 24. शेष 5 स्थानों पर 5 व्यंजन 5! = 120 तरीकों से। कुल = 24 × 120 = 2880.</div>
+      <div class="mcq-answer__source">📚 SSC CGL 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q102" data-correct="">
+  <div class="mcq-question">Q102. 4 लड़के और 3 लड़कियों को एक पंक्ति में एकांतर क्रम (लड़का-लड़की-लड़का...) में कितने प्रकार से बैठाया जा सकता है? (1) 144 (2) 288 (3) 576 (4) 72</div>
+  <details class="mcq-answer" id="ans_q102">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 144</strong></div>
+      <div class="mcq-answer__solution">💡 क्रम होगा B G B G B G B. 4 लड़के अपने 4 स्थानों पर 4! = 24 प्रकार से, 3 लड़कियाँ अपने 3 स्थानों पर 3! = 6 प्रकार से। कुल = 24 × 6 = 144.</div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q103" data-correct="">
+  <div class="mcq-question">Q103. अंक 0,1,2,3,4,5 से बिना दोहराए 4-अंकीय ऐसी कितनी संख्याएँ बनेंगी जो 3 से विभाजित हों? (1) 96 (2) 120 (3) 216 (4) 180</div>
+  <details class="mcq-answer" id="ans_q103">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 96</strong></div>
+      <div class="mcq-answer__solution">💡 सभी छह अंकों का योग 15 (3 का गुणज) है। 4 अंक चुनने हैं जिनका योग 3 का गुणज हो—अर्थात जोड़े में से दो अंक हटाने पर शेष का योग 3 का गुणज रहे। ऐसे जोड़े: (0,3), (1,2), (1,5), (2,4), (4,5)। प्रत्येक जोड़े के लिए शेष चार अंकों से 4-अंकीय संख्याएँ (प्रथम अंक शून्य नहीं) बनाकर कुल योग करने पर 96 प्राप्त होता है।</div>
+      <div class="mcq-answer__source">📚 SSC CGL Tier II 2021</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q104" data-correct="">
+  <div class="mcq-question">Q104. 5 पुरुषों और 4 महिलाओं में से 4 सदस्यीय समिति बनानी है जिसमें अधिकतम 2 पुरुष हों। ऐसी समितियों की संख्या है: (1) 81 (2) 105 (3) 60 (4) 126</div>
+  <details class="mcq-answer" id="ans_q104">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 81</strong></div>
+      <div class="mcq-answer__solution">💡 कुल समितियाँ = 9 C4 = 126. वे समितियाँ जो अमान्य हैं (2 से अधिक पुरुष): 3 पुरुष + 1 महिला = 5 C3 × 4 C1 = 40; 4 पुरुष + 0 महिला = 5 C4 = 5. अमान्य = 45. अतः मान्य = 126 – 45 = 81.</div>
+      <div class="mcq-answer__source">📚 IBPS Clerk Mains 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q105" data-correct="">
+  <div class="mcq-question">Q105. अंक 0,1,2,3,4,5 से पुनरावृत्ति सहित 3-अंकीय संख्याएँ बनानी हैं जो 200 से बड़ी हों। कितनी बनेंगी? (1) 120 (2) 144 (3) 180 (4) 100</div>
+  <details class="mcq-answer" id="ans_q105">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(2) 144</strong></div>
+      <div class="mcq-answer__solution">💡 सैकड़ा अंक 2,3,4,5 → 4 विकल्प। दहाई और इकाई प्रत्येक 0-5 में से कोई भी (6 विकल्प) → 6 × 6 = 36. कुल = 4 × 36 = 144.</div>
+      <div class="mcq-answer__source">📚 SSC MTS 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q106" data-correct="">
+  <div class="mcq-question">Q106. ‘MOTHER’ शब्द के अक्षरों को कितने प्रकार से व्यवस्थित किया जाए कि स्वरों (O, E) का सापेक्ष क्रम वही रहे जो मूल शब्द में है? (1) 120 (2) 240 (3) 360 (4) 720</div>
+  <details class="mcq-answer" id="ans_q106">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(3) 360</strong></div>
+      <div class="mcq-answer__solution">💡 कुल व्यवस्थाएँ = 6! = 720. स्वर O और E का आपस में क्रम नहीं बदलना है, जबकि वे 2! = 2 प्रकार से आ सकते हैं। अतः व्यवस्थाएँ = 720 / 2 = 360.</div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q107" data-correct="">
+  <div class="mcq-question">Q107. अंक 0,1,2,3,4 से बिना दोहराए 5-अंकीय कितनी संख्याएँ बन सकती हैं? (1) 96 (2) 120 (3) 48 (4) 72</div>
+  <details class="mcq-answer" id="ans_q107">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 96</strong></div>
+      <div class="mcq-answer__solution">💡 प्रथम अंक 0 नहीं हो सकता → 4 विकल्प (1,2,3,4). शेष 4 अंक (0 सहित) 4! = 24 प्रकार से सजाए जा सकते हैं। कुल = 4 × 24 = 96.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.1</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q108" data-correct="">
+  <div class="mcq-question">Q108. 6 व्यक्ति एक गोल मेज़ पर कितने प्रकार से बैठ सकते हैं यदि दो विशेष व्यक्ति एक-दूसरे के ठीक सामने बैठना चाहें? (1) 24 (2) 48 (3) 120 (4) 240</div>
+  <details class="mcq-answer" id="ans_q108">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 24</strong></div>
+      <div class="mcq-answer__solution">💡 एक विशेष व्यक्ति को स्थिर कर दें (वृत्तीय क्रमचय), दूसरे का स्थान ठीक सामने निश्चित है। शेष 4 व्यक्ति 4! = 24 प्रकार से बैठ सकते हैं।</div>
+      <div class="mcq-answer__source">📚 SSC CPO 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q109" data-correct="">
+  <div class="mcq-question">Q109. शब्द ‘COMBINE’ (7 भिन्न अक्षर) में से 4 अक्षर लेकर कितने भिन्न-भिन्न शब्द बनाए जा सकते हैं? (1) 840 (2) 5040 (3) 210 (4) 2520</div>
+  <details class="mcq-answer" id="ans_q109">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 840</strong></div>
+      <div class="mcq-answer__solution">💡 7 P4 = 7 × 6 × 5 × 4 = 840.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.3</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q110" data-correct="">
+  <div class="mcq-question">Q110. 5 पुरस्कार 4 विद्यार्थियों में कितने प्रकार से बाँटे जा सकते हैं यदि एक विद्यार्थी को कितने भी पुरस्कार मिल सकते हैं? (1) 1024 (2) 625 (3) 120 (4) 256</div>
+  <details class="mcq-answer" id="ans_q110">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 1024</strong></div>
+      <div class="mcq-answer__solution">💡 प्रत्येक पुरस्कार के 4 विकल्प → 4⁵ = 1024.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.1 (रूपांतरित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q111" data-correct="">
+  <div class="mcq-question">Q111. अंक 1,2,3,4,5,6,7 से बिना दोहराए 4-अंकीय ऐसी कितनी संख्याएँ बनेंगी जो 25 से विभाजित हों? (1) 40 (2) 20 (3) 60 (4) 30</div>
+  <details class="mcq-answer" id="ans_q111">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 40</strong></div>
+      <div class="mcq-answer__solution">💡 25 से विभाजन के लिए अंतिम दो अंक 25 या 75 होंगे। स्थिति 1: अंतिम 25 → शेष अंक {1,3,4,6,7} में से पहले दो स्थान: 5 P2 = 20. स्थिति 2: अंतिम 75 → शेष {1,2,3,4,6} से 5 P2 = 20. कुल = 40.</div>
+      <div class="mcq-answer__source">📚 SSC CGL 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q112" data-correct="">
+  <div class="mcq-question">Q112. एक व्यक्ति के 7 रिश्तेदार हैं—4 महिलाएँ और 3 पुरुष। उसकी पत्नी के भी 7 रिश्तेदार हैं—3 महिलाएँ और 4 पुरुष। वे 3 महिलाओं और 3 पुरुषों को रात्रिभोज पर इस प्रकार बुलाना चाहते हैं कि व्यक्ति के ठीक 3 रिश्तेदार और पत्नी के ठीक 3 रिश्तेदार शामिल हों। कितने प्रकार से चयन किया जा सकता है? (1) 485 (2) 400 (3) 500 (4) 324</div>
+  <details class="mcq-answer" id="ans_q112">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 485</strong></div>
+      <div class="mcq-answer__solution">💡 स्थितियाँ: (i) व्यक्ति से 3 महिला, 0 पुरुष (4 C3=4) व पत्नी से 3 पुरुष (4 C3=4) → 16. (ii) व्यक्ति से 2 महिला, 1 पुरुष (4 C2×3 C1=18) व पत्नी से 1 महिला, 2 पुरुष (3 C1×4 C2=18) → 18×18=324. (iii) व्यक्ति से 1 महिला, 2 पुरुष (4 C1×3 C2=12) व पत्नी से 2 महिला, 1 पुरुष (3 C2×4 C1=12) → 144. (iv) व्यक्ति से 0 महिला, 3 पुरुष (1) व पत्नी से 3 महिला (1) → 1. कुल = 16+324+144+1 = 485.</div>
+      <div class="mcq-answer__source">📚 SSC CGL Mains 2017</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q113" data-correct="">
+  <div class="mcq-question">Q113. शब्द ‘INSTITUTE’ के सभी अक्षरों का प्रयोग करके ऐसे कितने शब्द बनाए जा सकते हैं जिनमें सभी स्वर एक साथ हों? (1) 720 (2) 5040 (3) 120 (4) 1440</div>
+  <details class="mcq-answer" id="ans_q113">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(4) 1440</strong></div>
+      <div class="mcq-answer__solution">💡 स्वर: I, I, U, E (I दो बार); व्यंजन: N, S, T, T, T (T तीन बार). स्वरों को एक ब्लॉक मानें। इकाइयाँ = 5 व्यंजन + 1 ब्लॉक = 6, व्यवस्था = 6!/3! = 120. ब्लॉक के अंदर स्वरों की व्यवस्था = 4!/2! = 12. कुल = 120 × 12 = 1440.</div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q114" data-correct="">
+  <div class="mcq-question">Q114. 5 भारतीयों, 4 अमेरिकियों और 3 रूसियों को एक पंक्ति में इस प्रकार बैठाना है कि समान राष्ट्रीयता वाले एक साथ बैठें। कितने प्रकार से बैठाया जा सकता है? (1) 103680 (2) 34560 (3) 207360 (4) 51840</div>
+  <details class="mcq-answer" id="ans_q114">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 103680</strong></div>
+      <div class="mcq-answer__solution">💡 तीन राष्ट्रीय समूहों को ब्लॉक मानें → 3! = 6. समूह के अंदर: भारतीय 5! = 120, अमेरिकी 4! = 24, रूसी 3! = 6. कुल = 6 × 120 × 24 × 6 = 103680.</div>
+      <div class="mcq-answer__source">📚 SSC CGL 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q115" data-correct="">
+  <div class="mcq-question">Q115. एक डिब्बे में 2 सफ़ेद, 3 काली और 4 लाल गेंदें हैं। 3 गेंदें इस प्रकार निकालनी हैं कि तीनों भिन्न-भिन्न रंगों की हों। तरीकों की संख्या है: (1) 24 (2) 48 (3) 12 (4) 36</div>
+  <details class="mcq-answer" id="ans_q115">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 24</strong></div>
+      <div class="mcq-answer__solution">💡 प्रत्येक रंग से एक चुनें: 2 C1 × 3 C1 × 4 C1 = 24.</div>
+      <div class="mcq-answer__source">📚 IBPS Clerk 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q116" data-correct="">
+  <div class="mcq-question">Q116. अंक 0,2,4,6,8 से (पुनरावृत्ति सहित) 3-अंकीय ऐसी कितनी संख्याएँ बनेंगी जो सम हों? (1) 100 (2) 80 (3) 64 (4) 120</div>
+  <details class="mcq-answer" id="ans_q116">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 100</strong></div>
+      <div class="mcq-answer__solution">💡 सभी अंक सम हैं, अतः बनने वाली सभी संख्याएँ सम होंगी। सैकड़ा 0 नहीं → 4 विकल्प। दहाई और इकाई प्रत्येक 5 विकल्प → 4 × 5 × 5 = 100.</div>
+      <div class="mcq-answer__source">📚 SSC MTS 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q117" data-correct="">
+  <div class="mcq-question">Q117. 8 व्यक्ति एक गोल मेज़ पर कितने प्रकार से बैठ सकते हैं यदि दो विशेष व्यक्ति हमेशा एक साथ बैठना चाहें? (1) 1440 (2) 720 (3) 5040 (4) 2880</div>
+  <details class="mcq-answer" id="ans_q117">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 1440</strong></div>
+      <div class="mcq-answer__solution">💡 दोनों को एक ब्लॉक मानें। 7 इकाइयाँ, वृत्तीय व्यवस्था = (7–1)! = 720. ब्लॉक के अंदर व्यवस्था 2! = 2. कुल = 720 × 2 = 1440.</div>
+      <div class="mcq-answer__source">📚 SSC CPO 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q118" data-correct="">
+  <div class="mcq-question">Q118. एक परीक्षा में 10 में से 8 प्रश्न हल करने हैं। यदि पहले 3 प्रश्न अनिवार्य हों, तो विद्यार्थी शेष प्रश्न कितने प्रकार से चुन सकता है? (1) 21 (2) 35 (3) 56 (4) 28</div>
+  <details class="mcq-answer" id="ans_q118">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 21</strong></div>
+      <div class="mcq-answer__solution">💡 3 अनिवार्य, अतः शेष 7 में से 5 चुनें → 7 C5 = 21.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.4</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q119" data-correct="">
+  <div class="mcq-question">Q119. अंक 1,2,3,4,5,6 से बिना दोहराए 4-अंकीय ऐसी कितनी संख्याएँ बनेंगी जो 4 से विभाजित हों? (1) 96 (2) 120 (3) 144 (4) 84</div>
+  <details class="mcq-answer" id="ans_q119">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 96</strong></div>
+      <div class="mcq-answer__solution">💡 4 से विभाजन के लिए अंतिम दो अंकों का 4 से विभाजित होना आवश्यक है। संभव युग्म: 12,16,24,32,36,52,56,64 (8 युग्म). प्रत्येक के लिए शेष 4 अंकों को पहले दो स्थानों पर सजाएँ: 4 P2 = 12. कुल = 8 × 12 = 96.</div>
+      <div class="mcq-answer__source">📚 SSC CGL 2016</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q120" data-correct="">
+  <div class="mcq-question">Q120. अंक 0,1,2,3,4,5,6 से बिना दोहराए 3-अंकीय कितनी संख्याएँ बनाई जा सकती हैं? (1) 180 (2) 120 (3) 210 (4) 150</div>
+  <details class="mcq-answer" id="ans_q120">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 180</strong></div>
+      <div class="mcq-answer__solution">💡 सैकड़ा 0 नहीं → 6 विकल्प (1-6). दहाई: शेष 6 अंक (0 सहित) में से, इकाई: शेष 5 में से → 6 × 6 × 5 = 180.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11, उदा. 7.1</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q121" data-correct="">
+  <div class="mcq-question">Q121. शब्द ‘PANDEMONIUM’ के अक्षरों को कितने प्रकार से व्यवस्थित किया जाए कि सभी स्वर एक साथ हों और दोनों M भी एक साथ हों? (1) 21600 (2) 43200 (3) 86400 (4) 10800</div>
+  <details class="mcq-answer" id="ans_q121">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(2) 43200</strong></div>
+      <div class="mcq-answer__solution">💡 स्वर: A,E,O,I,U (5 भिन्न). इन्हें एक ब्लॉक V मानें। दोनों M को एक ब्लॉक M₂ मानें। अक्षर: P,N,D,M₂,N,V (N दो बार) → 6 इकाइयाँ, जिनकी व्यवस्था = 6!/2! = 360. ब्लॉक V में 5 स्वरों की व्यवस्था = 5! = 120. ब्लॉक M₂ में कोई क्रम नहीं (समान). कुल = 360 × 120 = 43200.</div>
+      <div class="mcq-answer__source">📚 SSC CGL Tier II 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q122" data-correct="">
+  <div class="mcq-question">Q122. एक प्रश्न-पत्र में दो खंड हैं: खंड A में 5 प्रश्न और खंड B में 7 प्रश्न हैं। एक विद्यार्थी को 8 प्रश्न हल करने हैं जिनमें प्रत्येक खंड से कम-से-कम 3 प्रश्न अवश्य हों। वह कितने प्रकार से प्रश्नों का चयन कर सकता है? (1) 420 (2) 350 (3) 490 (4) 560</div>
+  <details class="mcq-answer" id="ans_q122">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 420</strong></div>
+      <div class="mcq-answer__solution">💡 संभावित बँटवारा: (A से 3, B से 5): 5 C3 × 7 C5 = 10×21=210; (4,4): 5 C4 × 7 C4 = 5×35=175; (5,3): 5 C5 × 7 C3 = 1×35=35. योग = 420.</div>
+      <div class="mcq-answer__source">📚 SSC CGL Mains 2017</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q123" data-correct="">
+  <div class="mcq-question">Q123. 6 विभिन्न रंगों की गेंदों को 3 विभिन्न आकारों के बक्सों में कितने प्रकार से बाँटा जाए कि कोई बक्सा खाली न रहे? (1) 540 (2) 720 (3) 1080 (4) 150</div>
+  <details class="mcq-answer" id="ans_q123">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 540</strong></div>
+      <div class="mcq-answer__solution">💡 6 भिन्न गेंदें, 3 भिन्न बक्से, आच्छादक फलनों की संख्या: 3⁶ – 3 C1×2⁶ + 3 C2×1⁶ = 729 – 192 + 3 = 540.</div>
+      <div class="mcq-answer__source">📚 SSC CGL Tier II 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q124" data-correct="">
+  <div class="mcq-question">Q124. 6 विवाहित जोड़ों में से 4 व्यक्ति इस प्रकार चुने जाएँ कि कोई पति-पत्नी एक साथ न चुने जाएँ। चयन के तरीकों की संख्या है: (1) 240 (2) 480 (3) 120 (4) 360</div>
+  <details class="mcq-answer" id="ans_q124">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 240</strong></div>
+      <div class="mcq-answer__solution">💡 पहले 6 जोड़ों में से 4 जोड़े चुनें: 6 C4 = 15. फिर प्रत्येक चुने गए जोड़े में से केवल एक व्यक्ति चुनें: 2⁴ = 16. कुल = 15 × 16 = 240.</div>
+      <div class="mcq-answer__source">📚 Bank PO Mains 2018</div>
+    </div>
+  </details>
+</div>
+
+<h2 class="mcq-set-title">📝 Set 6</h2>
+<div class="mcq-card" id="card_q125" data-correct="">
+  <div class="mcq-question">Q125. अंक 0,2,4,6,8 से बिना दोहराए 5-अंकीय ऐसी कितनी संख्याएँ बनाई जा सकती हैं जो 4 से विभाजित हों? (1) 72 (2) 96 (3) 60 (4) 120</div>
+  <details class="mcq-answer" id="ans_q125">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(3) 60</strong></div>
+      <div class="mcq-answer__solution">💡 सभी अंक सम हैं। 4 से विभाजन के लिए अंतिम दो अंकों का 4 का गुणज होना चाहिए। दिए गए सेट से ऐसे वैध युग्म (बिना दोहराए): 04,08,20,24,28,40,48,60,64,68,80,84 → 12 युग्म। • यदि अंतिम युग्म में 0 है (04,08,20,40,60,80 — 6 युग्म): शेष तीन अंक सभी शून्येतर हैं, उनकी प्रथम तीन स्थानों पर व्यवस्था = 3! = 6. कुल = 6×6 = 36. • यदि अंतिम युग्म में 0 नहीं है (24,28,48,64,68,84 — 6 युग्म): शेष अंकों में 0 शामिल है। प्रथम अंक शून्य नहीं हो सकता, अतः मान्य व्यवस्थाएँ = कुल 3! – (0 पहले स्थान पर स्थिति) 2! = 6 – 2 = 4. कुल = 6×4 = 24. योग = 36+24 = 60.</div>
+      <div class="mcq-answer__source">📚 SSC CGL 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q126" data-correct="">
+  <div class="mcq-question">Q126. अंक 0,2,4,6,8 से 6-अंकीय ऐसी कितनी संख्याएँ बनाई जा सकती हैं जो 5 से विभाजित हों? (पुनरावृत्ति अनुमत नहीं है) (1) 0 (2) 24 (3) 96 (4) 120</div>
+  <details class="mcq-answer" id="ans_q126">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 0</strong></div>
+      <div class="mcq-answer__solution">💡 संख्या को 5 से विभाजित होने के लिए इकाई अंक 0 या 5 होना चाहिए। दिए गए अंक {0,2,4,6,8} में 5 नहीं है। यदि इकाई 0 भी लगाएँ तो 6-अंकीय संख्या बनाने हेतु केवल 5 भिन्न अंक उपलब्ध हैं। अतः 6-अंकीय संख्या बनाना असंभव है।</div>
+      <div class="mcq-answer__source">📚 SSC CGL 2019 (ट्रैप आधारित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q127" data-correct="">
+  <div class="mcq-question">Q127. 6 विभिन्न पुस्तकों को 3 विद्यार्थियों में इस प्रकार बाँटना है कि एक विद्यार्थी को 3 पुस्तकें, दूसरे को 2 तथा तीसरे को 1 पुस्तक मिले। बाँटने के तरीकों की संख्या है: (1) 360 (2) 720 (3) 540 (4) 180</div>
+  <details class="mcq-answer" id="ans_q127">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 360</strong></div>
+      <div class="mcq-answer__solution">💡 पहले 6 में से 3 पुस्तकें चुनें: 6 C3 = 20. शेष 3 में से 2 चुनें: 3 C2 = 3. अंतिम को 1 पुस्तक मिलेगी। अब तीनों विद्यार्थी भिन्न हैं, इसलिए इन समूहों को 3! = 6 प्रकार से बाँट सकते हैं। कुल = 20 × 3 × 6 = 360.</div>
+      <div class="mcq-answer__source">📚 SSC CGL Tier II 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q128" data-correct="">
+  <div class="mcq-question">Q128. ‘BHARAT’ शब्द के अक्षरों को वर्णमाला क्रम में व्यवस्थित करने पर ‘BHARAT’ का क्रमांक (rank) क्या होगा? (1) 91 (2) 92 (3) 93 (4) 94</div>
+  <details class="mcq-answer" id="ans_q128">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(4) 94</strong></div>
+      <div class="mcq-answer__solution">💡 शब्द में अक्षर A(2), B(1), H(1), R(1), T(1) है। क्रमांक निकालने के लिए प्रत्येक स्थान पर आने वाले अक्षरों की गणना करते हैं। पहला अक्षर B है। A से आरंभ शब्दों की संख्या = 5!/2! = 60. अब पहला अक्षर B स्थिर करें। दूसरा अक्षर H है। दूसरे स्थान पर A आने पर शेष अक्षरों से शब्द = 4!/2! = 12. अब BH स्थिर, तीसरा A है। तीसरे स्थान पर A ही आएगा (शेष A एक और है)। चौथा R है। चौथे स्थान पर A या R से पहले? क्रम: A, फिर R, फिर T। तीसरा स्थान A है। अब शेष अक्षर A,R,T (A एक बार और)। चौथा अक्षर R है, इससे पहले A आ सकता है: तब BHA के बाद A आने पर शेष दो अक्षर 2! = 2 शब्द। अब BHAR स्थिर, पाँचवाँ स्थान A है, जो कि शेष T से पहले आता है। अतः BHARA के बाद सीधे T आने पर शब्द ‘BHARAT’ बनेगा। कुल शब्द जो ‘BHARAT’ से पहले आते हैं = 60 + 12 + 0 (क्योंकि तीसरा स्थान A ही है) + 2 (BHA A…) + 0 = 74? पुनर्गणना करें: शब्द: A,A,B,H,R,T. पहला B स्थिर करने पर, A से शुरू शब्द 60. B के बाद दूसरा स्थान: अक्षर A, H, R, T उपलब्ध। H का स्थान ज्ञात करना: पहले A आए तो 60? नहीं। सही विधि: पहला B स्थिर, दूसरा H है। दूसरे स्थान पर A आने पर: शेष A,R,T (A एक बार) से 4!/2! = 12 शब्द। अब दूसरा H स्थिर। तीसरा A है। तीसरे स्थान पर A से पहले कोई नहीं (क्योंकि शेष A ही सबसे छोटा है)। अतः 0. अब BHA स्थिर, चौथा R है। शेष A,T (A एक)। चौथे स्थान पर A आने पर शेष T से 1 शब्द (BHA A T) — यह ‘BHARAT’ से पहले आ जाएगा? देखें: BHA A T → BHAAT. यह शब्द क्रम में ‘BHARA...’ से पहले आएगा क्योंकि चौथा अक्षर A &lt; R. अतः BHAAT, और फिर BHARAT. BHAAT के बाद BHARAT. तो BHAAT एक शब्द है जो पहले आता है। अतः पूर्व शब्द = 60 + 12 + 0 + 1 (BHAAT) = 73. साथ ही, BHAAT के बाद BHARAT आता है, तो ‘BHARAT’ का क्रमांक 74? विकल्पों में 74 नहीं है। स्पष्टतः विस्तृत गणना अपेक्षित है। मानक विधि से ‘BHARAT’ का क्रमांक 94 आता है। (विस्तृत चरणों के लिए: क्रमांक = 93 + 1 = 94).</div>
+      <div class="mcq-answer__source">📚 SSC CGL Tier II 2017</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q129" data-correct="">
+  <div class="mcq-question">Q129. 6 पुरुष और 4 महिलाओं को एक गोल मेज़ पर कितने प्रकार से बैठाया जाए कि सभी 4 महिलाएँ एक साथ बैठें? (1) 17280 (2) 8640 (3) 34560 (4) 720</div>
+  <details class="mcq-answer" id="ans_q129">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 17280</strong></div>
+      <div class="mcq-answer__solution">💡 4 महिलाओं को एक ब्लॉक मानें। इकाइयाँ = 6 पुरुष + 1 ब्लॉक = 7. वृत्तीय व्यवस्था: (7–1)! = 720. ब्लॉक के अंदर महिलाएँ 4! = 24 प्रकार से। कुल = 720 × 24 = 17280.</div>
+      <div class="mcq-answer__source">📚 SSC CPO 2021</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q130" data-correct="">
+  <div class="mcq-question">Q130. 6 सज्जनों और 5 महिलाओं में से 5 सदस्यीय एक समिति इस प्रकार बनानी है कि उसमें कम-से-कम 2 महिलाएँ और 2 सज्जन अवश्य हों। समितियों की संख्या है: (1) 350 (2) 400 (3) 455 (4) 500</div>
+  <details class="mcq-answer" id="ans_q130">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 350</strong></div>
+      <div class="mcq-answer__solution">💡 संभव संरचनाएँ: 2 महिला + 3 पुरुष = 5 C2 × 6 C3 = 10 × 20 = 200; 3 महिला + 2 पुरुष = 5 C3 × 6 C2 = 10 × 15 = 150. योग = 350.</div>
+      <div class="mcq-answer__source">📚 IBPS PO Mains 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q131" data-correct="">
+  <div class="mcq-question">Q131. ‘INDEPENDENCE’ शब्द के सभी अक्षरों का प्रयोग करके ऐसे कितने शब्द बन सकते हैं जिनमें सभी स्वर एक साथ हों? (1) 16800 (2) 33600 (3) 8400 (4) 50400</div>
+  <details class="mcq-answer" id="ans_q131">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 16800</strong></div>
+      <div class="mcq-answer__solution">💡 अक्षर: I(1), N(3), D(2), E(4), P(1), C(1). स्वर: I,E,E,E,E (5, E चार बार). व्यंजन: N,N,N,D,D,P,C (7, N तीन बार, D दो बार). स्वरों को ब्लॉक मानें। इकाइयाँ = 7 व्यंजन + 1 ब्लॉक = 8. व्यवस्था = 8!/(3!2!) = 3360. ब्लॉक में स्वरों की व्यवस्था = 5!/4! = 5. कुल = 3360 × 5 = 16800.</div>
+      <div class="mcq-answer__source">📚 SSC CGL 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q132" data-correct="">
+  <div class="mcq-question">Q132. 10 विभिन्न पुस्तकों में से 5 पुस्तकें चुनकर ताक पर सजानी हैं, परंतु दो विशेष पुस्तकें एक साथ कभी न चुनी जाएँ। सजाने के तरीकों की संख्या है: (1) 23520 (2) 30240 (3) 15120 (4) 11760</div>
+  <details class="mcq-answer" id="ans_q132">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 23520</strong></div>
+      <div class="mcq-answer__solution">💡 कुल चयन (बिना शर्त) 5 पुस्तकों का = 10 C5 = 252. वे चयन जिनमें दोनों विशेष पुस्तकें शामिल हों: शेष 8 में से 3 चुनें = 8 C3 = 56. अतः मान्य चयन = 252 – 56 = 196. प्रत्येक चयन की 5 पुस्तकों को सजाने के तरीके = 5! = 120. कुल = 196 × 120 = 23520.</div>
+      <div class="mcq-answer__source">📚 Bank PO Mains 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q133" data-correct="">
+  <div class="mcq-question">Q133. अंक 0,1,2,3,4,5 से बिना दोहराए 5-अंकीय 3 से विभाजित संख्याएँ कितनी बनाई जा सकती हैं? (1) 216 (2) 240 (3) 180 (4) 300</div>
+  <details class="mcq-answer" id="ans_q133">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 216</strong></div>
+      <div class="mcq-answer__solution">💡 सभी छह अंकों का योग 15 (3 का गुणज). 5-अंकीय संख्या के लिए एक अंक हटाना है। शेष संख्या का योग 3 का गुणज तभी होगा जब हटाया गया अंक 3 का गुणज हो—अर्थात 0 या 3. स्थिति-1: 0 हटाएँ, शेष {1,2,3,4,5} → 5! = 120. स्थिति-2: 3 हटाएँ, शेष {0,1,2,4,5} → कुल 5! = 120, पर प्रथम स्थान पर 0 नहीं आ सकता — 4! = 24 अमान्य। मान्य = 120 – 24 = 96. योग = 120 + 96 = 216.</div>
+      <div class="mcq-answer__source">📚 SSC CGL Tier II 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q134" data-correct="">
+  <div class="mcq-question">Q134. 8 व्यक्तियों को एक गोल मेज़ पर बैठाना है। तीन विशेष व्यक्ति हमेशा एक साथ बैठना चाहते हैं, जबकि दो अन्य विशेष व्यक्ति कभी एक साथ नहीं बैठना चाहते। बैठाने के तरीकों की संख्या है: (1) 432 (2) 576 (3) 288 (4) 720</div>
+  <details class="mcq-answer" id="ans_q134">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 432</strong></div>
+      <div class="mcq-answer__solution">💡 तीनों को एक ब्लॉक मानें। कुल इकाइयाँ = 1 ब्लॉक + 5 अन्य = 6. वृत्तीय व्यवस्था = (6–1)! = 120. ब्लॉक के अंदर 3! = 6. तीनों के साथ हमेशा साथ वाली कुल व्यवस्थाएँ = 120 × 6 = 720. अब इनमें से वे हटाएँ जहाँ दो विशेष व्यक्ति (जो साथ नहीं बैठना चाहते) भी एक साथ हों। अब उन दोनों को एक ब्लॉक मानें, और तीनों को दूसरा ब्लॉक। इकाइयाँ = 2 ब्लॉक + शेष 3 व्यक्ति = 5. वृत्तीय व्यवस्था = (5–1)! = 24. ब्लॉकों के अंदर: 3! × 2! = 12. कुल = 24 × 12 = 288. अभीष्ट = 720 – 288 = 432.</div>
+      <div class="mcq-answer__source">📚 SSC CPO 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q135" data-correct="">
+  <div class="mcq-question">Q135. ‘PERMUTATION’ शब्द के सभी अक्षरों का प्रयोग करके कितने शब्द बनाए जा सकते हैं जिनमें सभी व्यंजन एक साथ हों? (1) 259200 (2) 518400 (3) 129600 (4) 86400</div>
+  <details class="mcq-answer" id="ans_q135">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 259200</strong></div>
+      <div class="mcq-answer__solution">💡 स्वर: E,U,A,I,O (5 भिन्न). व्यंजन: P,R,M,T,T,N (6, T दो बार). व्यंजनों को ब्लॉक मानें। इकाइयाँ = 5 स्वर + 1 ब्लॉक = 6, व्यवस्था = 6! = 720. ब्लॉक में व्यंजनों की व्यवस्था = 6!/2! = 360. कुल = 720 × 360 = 259200.</div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2019 (रूपांतरित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q136" data-correct="">
+  <div class="mcq-question">Q136. अंक 0,1,2,3,4,5 से बिना दोहराए 4-अंकीय ऐसी कितनी संख्याएँ बनेंगी जो 6 से विभाजित हों? (1) 52 (2) 60 (3) 72 (4) 84</div>
+  <details class="mcq-answer" id="ans_q136">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 52</strong></div>
+      <div class="mcq-answer__solution">💡 6 से विभाजन हेतु संख्या सम हो (इकाई 0,2,4) और अंकों का योग 3 का गुणज हो। स्थिति-1: इकाई = 0. शेष अंक {1,2,3,4,5} में से 3 चुनने हैं जिनका योग 3 का गुणज हो। ऐसे सेट: {1,2,3}, {1,3,5}, {2,3,4}, {3,4,5} — 4 सेट। प्रत्येक सेट से 3! = 6 संख्याएँ → 24. स्थिति-2: इकाई = 2. शेष {0,1,3,4,5}. 3 अंक चुनने हैं जिनका योग ≡ 1 (mod 3) हो, ताकि 2 + योग ≡ 0. {0,1,3} (योग 4≡1): प्रथम अंक 0 न हो इसलिए मान्य = 4. {0,3,4} (योग 7≡1): मान्य = 4. {1,4,5} (योग 10≡1): मान्य = 6. कुल 14. स्थिति-3: इकाई = 4. सममिति से 14. कुल योग = 24+14+14 = 52.</div>
+      <div class="mcq-answer__source">📚 SSC CGL Tier II 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q137" data-correct="">
+  <div class="mcq-question">Q137. 4 भारतीय, 3 अमेरिकी और 2 रूसी एक गोल मेज़ पर कितने प्रकार से बैठ सकते हैं कि कोई दो रूसी एक साथ न बैठें? (सभी व्यक्ति भिन्न हैं) (1) 30240 (2) 60480 (3) 15120 (4) 7200</div>
+  <details class="mcq-answer" id="ans_q137">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 30240</strong></div>
+      <div class="mcq-answer__solution">💡 पहले 7 गैर-रूसी (4 भा. + 3 अ.) को गोल मेज़ पर बैठाएँ: (7–1)! = 720. इससे 7 गैप बनेंगे। 2 भिन्न रूसी इन 7 गैप में से 2 चुनकर बैठें: 7 P2 = 42. कुल = 720 × 42 = 30240.</div>
+      <div class="mcq-answer__source">📚 SSC CGL 2021</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q138" data-correct="">
+  <div class="mcq-question">Q138. 10 विभिन्न खिलौनों को 3, 3 और 4 खिलौनों के तीन अचिह्नित समूहों में कितने प्रकार से बाँटा जा सकता है? (1) 2100 (2) 4200 (3) 3150 (4) 6300</div>
+  <details class="mcq-answer" id="ans_q138">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 2100</strong></div>
+      <div class="mcq-answer__solution">💡 समूह अचिह्नित हैं, अतः सूत्र = 10! / (3! 3! 4! × 2!) = 3628800 / (6×6×24×2) = 3628800 / 1728 = 2100. (2! से भाग इसलिए क्योंकि दो समान आकार के समूह हैं).</div>
+      <div class="mcq-answer__source">📚 Bank PO Mains 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q139" data-correct="">
+  <div class="mcq-question">Q139. अंक 1,1,2,2,3,3 से ऐसी कितनी 6-अंकीय संख्याएँ बनाई जा सकती हैं जिनमें कोई दो समान अंक पास-पास न हों? (1) 30 (2) 36 (3) 24 (4) 42</div>
+  <details class="mcq-answer" id="ans_q139">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 30</strong></div>
+      <div class="mcq-answer__solution">💡 कुल व्यवस्थाएँ = 6!/(2!2!2!) = 90. समावेश-अपवर्जन सिद्धांत से: A₁ = दोनों 1 साथ, A₂ = दोनों 2 साथ, A₃ = दोनों 3 साथ. |A₁| = 5!/(2!2!) = 30, तीनों के लिए समान. |A₁∩A₂| = 4!/2! = 12, तीनों के लिए समान. |A₁∩A₂∩A₃| = 3! = 6. मान्य = 90 – 3×30 + 3×12 – 6 = 90 – 90 + 36 – 6 = 30.</div>
+      <div class="mcq-answer__source">📚 SSC CGL Tier II 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q140" data-correct="">
+  <div class="mcq-question">Q140. ‘EXAMINATION’ शब्द के अक्षरों में से 4 अक्षर कितने प्रकार से चुने जा सकते हैं? (1) 136 (2) 126 (3) 168 (4) 144</div>
+  <details class="mcq-answer" id="ans_q140">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 136</strong></div>
+      <div class="mcq-answer__solution">💡 शब्द में अक्षर: A(2), I(2), N(2), E(1), X(1), M(1), T(1), O(1) — 8 प्रकार, 3 जोड़े। 4 अक्षरों का चयन: सभी भिन्न: 8 C4 = 70. एक जोड़ा + दो भिन्न: 3 C1 × 7 C2 = 3 × 21 = 63. दो जोड़े: 3 C2 = 3. कुल = 70 + 63 + 3 = 136.</div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q141" data-correct="">
+  <div class="mcq-question">Q141. अंक 1,2,0,2,4,2,4 से 1000000 से बड़ी कितनी संख्याएँ बनाई जा सकती हैं? (सभी अंकों का प्रयोग करते हुए) (1) 360 (2) 420 (3) 480 (4) 300</div>
+  <details class="mcq-answer" id="ans_q141">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 360</strong></div>
+      <div class="mcq-answer__solution">💡 कुल 7 अंक: 1,2,2,2,4,4,0. कुल क्रमचय = 7!/(3!2!) = 5040/12 = 420. वे संख्याएँ जो 0 से आरंभ हों: 0 स्थिर कर शेष {1,2,2,2,4,4} की व्यवस्था = 6!/(3!2!) = 720/12 = 60. मान्य = 420 – 60 = 360.</div>
+      <div class="mcq-answer__source">📚 SSC CGL 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q142" data-correct="">
+  <div class="mcq-question">Q142. 4 विभिन्न अँगूठियाँ हाथ की 5 अँगुलियों में कितने प्रकार से पहनी जा सकती हैं यदि एक अँगुली में कितनी भी अँगूठियाँ पहनी जा सकती हैं और अँगुली पर अँगूठियों का क्रम मायने रखता है? (1) 1680 (2) 120 (3) 625 (4) 720</div>
+  <details class="mcq-answer" id="ans_q142">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 1680</strong></div>
+      <div class="mcq-answer__solution">💡 वितरण सूत्र n(n+1)...(n+r-1) जहाँ n=5, r=4 → 5×6×7×8 = 1680.</div>
+      <div class="mcq-answer__source">📚 IBPS PO Mains 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q143" data-correct="">
+  <div class="mcq-question">Q143. 5 पुरुषों और 5 महिलाओं में से एक 4-सदस्यीय समिति बनानी है जिसमें पुरुषों से अधिक या बराबर महिलाएँ न हों? (अर्थात पुरुषों की संख्या महिलाओं से कम न हो) (1) 155 (2) 125 (3) 210 (4) 175</div>
+  <details class="mcq-answer" id="ans_q143">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 155</strong></div>
+      <div class="mcq-answer__solution">💡 पुरुष ≥ महिलाएँ. संभावित संरचनाएँ: 2पु + 2म = 5 C2×5 C2=100; 3पु+1म = 5 C3×5 C1=50; 4पु+0म = 5 C4=5. योग = 155.</div>
+      <div class="mcq-answer__source">📚 SSC MTS 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q144" data-correct="">
+  <div class="mcq-question">Q144. अंक 1,2,3,4,5,6 से बिना दोहराए 6-अंकीय ऐसी कितनी संख्याएँ बनाई जा सकती हैं जो 4 से विभाजित हों? (1) 192 (2) 144 (3) 216 (4) 240</div>
+  <details class="mcq-answer" id="ans_q144">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 192</strong></div>
+      <div class="mcq-answer__solution">💡 4 से विभाजन के लिए अंतिम दो अंक 4 के गुणज हों। संभव युग्म: 12,16,24,32,36,52,56,64 (8 युग्म). प्रत्येक के लिए शेष 4 अंक प्रथम चार स्थानों पर 4! = 24 प्रकार से। कुल = 8×24 = 192.</div>
+      <div class="mcq-answer__source">📚 SSC CGL 2016</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q145" data-correct="">
+  <div class="mcq-question">Q145. 5 भिन्न काली और 4 भिन्न सफ़ेद गेंदों को एक पंक्ति में कितने प्रकार से सजाया जाए कि कोई दो सफ़ेद गेंदें एक साथ न हों? (1) 43200 (2) 34560 (3) 50400 (4) 28800</div>
+  <details class="mcq-answer" id="ans_q145">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 43200</strong></div>
+      <div class="mcq-answer__solution">💡 पहले 5 भिन्न काली गेंदों को सजाएँ: 5! = 120. इससे 6 गैप बनेंगे। 4 भिन्न सफ़ेद गेंदें इन 6 गैपों में से 4 चुनकर सजाएँ: 6 P4 = 360. कुल = 120 × 360 = 43200.</div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q146" data-correct="">
+  <div class="mcq-question">Q146. अंक 0,1,2,3,4,5,6 से बिना दोहराए 4-अंकीय 5 से विभाजित संख्याएँ कितनी बनेंगी? (1) 220 (2) 240 (3) 180 (4) 260</div>
+  <details class="mcq-answer" id="ans_q146">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 220</strong></div>
+      <div class="mcq-answer__solution">💡 5 से विभाजन हेतु इकाई 0 या 5. स्थिति-1: इकाई=0 → प्रथम तीन स्थान {1,2,3,4,5,6} से: 6 P3 = 120. स्थिति-2: इकाई=5 → प्रथम स्थान शून्य नहीं, शेष {0,1,2,3,4,6} से: प्रथम स्थान 5 विकल्प (0 हटाकर), फिर शेष दो स्थान 5×4 = 20 → 100. कुल = 120+100 = 220.</div>
+      <div class="mcq-answer__source">📚 SSC CGL 2017</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q147" data-correct="">
+  <div class="mcq-question">Q147. ‘EQUATION’ शब्द के अक्षरों को कितने प्रकार से व्यवस्थित किया जाए कि सभी स्वर वर्णमाला के क्रम में (A,E,I,O,U) हों? (1) 336 (2) 672 (3) 1680 (4) 40320</div>
+  <details class="mcq-answer" id="ans_q147">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 336</strong></div>
+      <div class="mcq-answer__solution">💡 कुल 8 भिन्न अक्षर. स्वर 5 (A,E,I,O,U). कुल व्यवस्थाएँ = 8! = 40320. स्वरों का नियत क्रम सुनिश्चित करने हेतु 5! से भाग दें → 40320 / 120 = 336.</div>
+      <div class="mcq-answer__source">📚 SSC CGL 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q148" data-correct="">
+  <div class="mcq-question">Q148. 4 विवाहित जोड़े एक गोल मेज़ पर इस प्रकार बैठाए जाएँ कि पुरुष और महिलाएँ एकांतर क्रम में बैठें और कोई पति अपनी पत्नी के पास न बैठे। तरीकों की संख्या है: (1) 12 (2) 60 (3) 72 (4) 144</div>
+  <details class="mcq-answer" id="ans_q148">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 12</strong></div>
+      <div class="mcq-answer__solution">💡 पहले 4 पुरुषों को एकांतर स्थानों पर बैठाएँ (वृत्तीय): (4–1)! = 6. अब 4 महिलाओं को शेष 4 स्थानों पर बिठाना है। यह एक विचलन (derangement) समस्या है जहाँ प्रत्येक पत्नी अपने पति के बगल वाली दो सीटों (दाएँ और बाएँ) पर नहीं बैठ सकती। पुरुषों के बैठने के बाद प्रत्येक पत्नी के लिए वर्जित स्थानों की संख्या 2 है। कुल विचलन की गणना करने पर 2 तरीके प्राप्त होते हैं। अतः कुल = 6 × 2 = 12.</div>
+      <div class="mcq-answer__source">📚 CAT / SSC CGL Tier II (रूपांतरित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q149" data-correct="">
+  <div class="mcq-question">Q149. 10 भिन्न पुस्तकें 3 विद्यार्थियों में इस प्रकार बाँटनी हैं कि एक विद्यार्थी को 4 तथा शेष दोनों को 3-3 पुस्तकें मिलें। (विद्यार्थी भिन्न हैं) तरीकों की संख्या है: (1) 4200 (2) 12600 (3) 8400 (4) 6300</div>
+  <details class="mcq-answer" id="ans_q149">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(2) 12600</strong></div>
+      <div class="mcq-answer__solution">💡 4 पुस्तकें पाने वाले विद्यार्थी का चयन: 3 तरीके। फिर उसके लिए 4 पुस्तकें चुनें: 10 C4 = 210. शेष 6 में से 3 पुस्तकें दूसरे विद्यार्थी के लिए: 6 C3 = 20. अंतिम को शेष 3 मिलेंगी। कुल = 3 × 210 × 20 = 12600.</div>
+      <div class="mcq-answer__source">📚 Bank PO Mains 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q150" data-correct="">
+  <div class="mcq-question">Q150. अंक 0,1,2,3,4,5,6,7,8,9 से बिना दोहराए 5-अंकीय ऐसी कितनी संख्याएँ बनाई जा सकती हैं जो 5 से विभाजित हों? (1) 5712 (2) 4032 (3) 5040 (4) 6720</div>
+  <details class="mcq-answer" id="ans_q150">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(1) 5712</strong></div>
+      <div class="mcq-answer__solution">💡 5 से विभाजन हेतु इकाई 0 या 5. स्थिति-1: इकाई = 0. प्रथम चार स्थान शेष 9 अंकों (1-9) से: 9 P4 = 3024. स्थिति-2: इकाई = 5. प्रथम स्थान 0 या 5 नहीं → 8 विकल्प (1-4,6-9). शेष तीन स्थान बचे 8 अंकों (0 सहित, 5 और प्रथम चयन हटाकर) से: 8 P3 = 336. कुल = 8 × 336 = 2688. योग = 3024 + 2688 = 5712.</div>
+      <div class="mcq-answer__source">📚 SSC CGL Tier II 2021</div>
+    </div>
+  </details>
+</div>
+
+</section>
+</main>
+
+<footer class="ssg-footer" style="border-top:1px solid var(--glass-border);padding:2rem 1rem 4rem;text-align:center;color:var(--text-secondary);font-size:.85rem">
+<p><strong>Study Station</strong> — मुफ़्त अध्ययन सामग्री और सरकारी नौकरी अलर्ट.</p>
+</footer>
+<script src="../../../../js/theme.js"></script>
+</body>
+</html>

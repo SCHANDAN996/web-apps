@@ -1,0 +1,18 @@
+🧒 Feynman (Fenman व्याख्या) – English
+
+Alright, imagine you have a small square plot of land for your garden. It's *a* feet long on each side. So its area is *a* × *a*, or a². Now you decide, "I want a bigger garden!" So you buy an extra strip of land that is *b* feet wide along the entire side. Now your garden is *a* feet on one side but *a+b* feet on the other side? No wait, you add *b* feet to both length and width, making a bigger square of side *a+b*. The new garden area is (*a+b*) × (*a+b*), which we write as (*a+b*)².
+
+Now here's the trick that confuses almost everyone. A lot of people think: "Simple! I had a², I added b², so the new area must be a² + b²." That sounds right, doesn't it? But it's completely wrong — and I'll show you why with a little story about tiling the floor.
+
+You decide to tile this new square garden with two colors of tiles: blue tiles for the original a×a patch, and yellow tiles for the rest. You lay the blue tiles first — that's a² tiles. Then you think you just need b² yellow tiles to fill the rest. But when you lay those b² yellow tiles as a b×b square in the corner, you're left with two empty rectangular strips! One along the bottom, size a×b, and one along the side, size b×a. Oh! You forgot those two rectangles. So the real total area is:
+
+a² + 2ab + b²
+
+That's the truth. The missing piece is 2ab — the two identical rectangular strips where the old garden meets the new extension. Never forget them again.
+
+The Feynman Trick (Visual Story):
+Draw a big square. Draw a vertical line *a* from the left, and a horizontal line *a* from the top. You'll see four pieces inside: a big square, a small square, and two identical rectangles. Label them: a² (top-left big), b² (bottom-right small), and the two rectangles are a×b and b×a, which together give 2ab. Keep that picture in your head, and you'll never make the mistake of thinking (a+b)² = a² + b².
+
+So, if your original garden was 3 feet by 3 feet (a=3) and you extend by 2 feet (b=2), what's the area? Mistake: 3²+2² = 9+4 = 13. Truth: (3+2)² = 5² = 25. The two missing rectangles: 2×3×2 = 12, and 13+12 = 25. See?
+
+Now try this: If a = 5 and b = 1, what is (a+b)² — and what would it be if you wrongly used a²+b²? Find the missing 2ab and see the difference.

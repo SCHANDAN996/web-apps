@@ -1,0 +1,539 @@
+📊 PYQ Analysis: Permutation & Combination — Foundation Level
+
+The analysis of previous year questions (PYQs) reveals 5 dominant archetypes that are tested repeatedly across SSC-CGL, CHSL, CPO, MTS, Railway NTPC, and Banking PO/Clerk exams. The questions are designed not merely to test formulaic recall but to assess your ability to recognise when order matters, identify hidden conditions, and avoid overcounting traps. The following 10 questions, drawn from actual PYQs and structured in precisely the manner they appear in examinations, represent the highest-yielding patterns you must master.
+
+Q1. Forming Numbers (Without Repetition)
+
+Question: How many 3-digit numbers can be formed using the digits 0, 1, 2, 3, 4, 5 without repeating any digit?
+(1) 120 (2) 100 (3) 90 (4) 80
+
+Solution: Since the first digit (hundreds place) cannot be 0, it has only 5 choices. The second digit can be any of the remaining 5 digits, and the third can be any of the remaining 4 digits.
+Total numbers = 5 × 5 × 4 = 100.
+Answer: (2) 100
+
+🧠 Psychological Trap — The "Zero in Front" Hook
+This question exploits a classic cognitive bias: the tendency to apply the permutation formula
+𝑛
+𝑃
+𝑟
+n
+P
+r
+	​
+
+ mechanically without considering domain restrictions. Many candidates calculate
+6
+𝑃
+3
+=
+120
+6
+P
+3
+	​
+
+=120 and move on, forgetting that a 3-digit number cannot begin with zero. The trap is deceptively simple — examiners know that after you solve multiple straightforward number-formation questions, your brain enters an auto-pilot mode where it stops checking preconditions. The "0" tests whether you possess conditional awareness under time pressure.
+
+*Source: SSC-CGL 2019, IBPS Clerk Mains 2018*
+
+Q2. Seating Arrangement with a Condition (Cohort Grouping)
+
+Question: 4 boys and 2 girls are to be seated in a row so that the two girls always sit together. In how many different ways can this be done?
+(1) 720 (2) 240 (3) 120 (4) 480
+
+Solution: Treat the 2 girls as a single "block." Now there are 4 boys + 1 block = 5 units to arrange, which can be done in
+5
+!
+=
+120
+5!=120 ways. Within the block, the 2 girls can be arranged in
+2
+!
+=
+2
+2!=2 ways.
+Total ways = 120 × 2 = 240.
+Answer: (2) 240
+
+🧠 Psychological Trap — The "Together" Optical Illusion
+When you read "always together," your brain's first instinct is to shrink the problem — fewer items, easier calculation. But the trap is forgetting to multiply by the internal arrangements within the block. The immediate visual of a single "block" is so compelling that candidates stop after arranging the 5 units and select 120. The exam setter knows that in a high-speed exam, your working memory can only hold about three chunks at once; the "block times internal factorial" step is the first to be ejected. Surviving this question requires you to pause and ask: did I forget the people inside the block?
+
+Source: SSC CHSL 2024, RRB NTPC 2021
+
+Q3. Letter Arrangement — Vowel Cohort
+
+Question: In how many different ways can the letters of the word 'DIRECTOR' be arranged such that all the vowels always come together?
+(1) 4320 (2) 2160 (3) 720 (4) 1080
+
+Solution: The word 'DIRECTOR' has 8 letters: vowels I, E, O (3 vowels) and consonants D, R, C, T, R (5 consonants including the repeated R appearing twice).
+Treat the 3 vowels as a single block. Now we have: 5 consonants + 1 vowel block = 6 units. However, since R repeats twice, the arrangement of these 6 units is
+6
+!
+2
+!
+=
+360
+2!
+6!
+	​
+
+=360.
+Within the vowel block, the 3 distinct vowels can be arranged in
+3
+!
+=
+6
+3!=6 ways.
+Total arrangements = 360 × 6 = 2160.
+Answer: (2) 2160
+
+🧠 Psychological Trap — The "Invisible Repetition" Abyss
+This question layers two traps. First, the classic "vowel cohort" treatment that requires block-and-multiply. Second, a hidden repetition — the consonant 'R' appears twice. After successfully navigating the block logic, most candidates multiply
+6
+!
+×
+3
+!
+=
+4320
+6!×3!=4320 and happily choose option (1). The exam setter deliberately places "4320" as the first option, knowing that your brain, flush with the success of correctly identifying the vowel-block strategy, will skip the final verification step. The second trap is almost never detected under time pressure. Always scan for repeated letters after forming your counting units.
+
+Source: IBPS PO Pre 2021, SSC CHSL 2023
+
+Q4. Committee Selection — "At Least" Condition
+
+Question: In a group of 6 boys and 4 girls, four children are to be selected. In how many different ways can the selection be made such that at least one boy is included?
+(1) 159 (2) 194 (3) 205 (4) 209
+
+Solution: Total unconstrained selections from 10 children:
+10
+𝐶
+4
+=
+210
+10
+C
+4
+	​
+
+=210.
+The only selection that violates "at least one boy" is the one with 0 boys (all 4 girls):
+4
+𝐶
+4
+=
+1
+4
+C
+4
+	​
+
+=1.
+Valid selections = 210 − 1 = 209.
+Answer: (4) 209
+
+🧠 Psychological Trap — The "Brute Force" Gravity Well
+When you see "at least one," the natural instinct is to enumerate: (1 boy, 3 girls) + (2 boys, 2 girls) + (3 boys, 1 girl) + (4 boys, 0 girls). This works —
+6
+𝐶
+1
+×
+4
+𝐶
+3
++
+6
+𝐶
+2
+×
+4
+𝐶
+2
++
+6
+𝐶
+3
+×
+4
+𝐶
+1
++
+6
+𝐶
+4
+6
+C
+1
+	​
+
+×
+4
+C
+3
+	​
+
++
+6
+C
+2
+	​
+
+×
+4
+C
+2
+	​
+
++
+6
+C
+3
+	​
+
+×
+4
+C
+1
+	​
+
++
+6
+C
+4
+	​
+
+ = 24 + 90 + 80 + 15 = 209 — but the computation is heavy and error-prone under time constraints. The "complement method" (total minus forbidden) is far faster, but only if your brain first asks: can I count the opposite more easily? The trap is that the four-case enumeration feels more concrete and safer, luring you away from the shortcut. The exam setter exploits the fact that most aspirants have been trained to "build cases" mechanically, and they reward the flexible thinker who momentarily steps back and inquires about the complement.
+
+Source: Bank of Baroda PO 2016, SBI PO 2000 -
+30
+
+Q5. Circular Permutation
+
+Question: In how many ways can 6 people be seated around a circular table?
+(1) 720 (2) 120 (3) 60 (4) 360
+
+Solution: For circular permutation where only relative position matters, the formula is
+(
+𝑛
+−
+1
+)
+!
+(n−1)!.
+Number of ways = (6 − 1)! = 5! = 120.
+Answer: (2) 120
+
+🧠 Psychological Trap — The "Linear Default" Fallacy
+Your brain is wired for linear arrangements — rows, queues, sequences. When the word "seated" appears without explicit qualifying language like "around a circular table," you default to
+𝑛
+!
+n!. Even when the circularity is stated, the reflex to apply
+6
+!
+=
+720
+6!=720 is powerful because 720 is almost always an option. The examiner places both 720 and 120 in the answer choices, betting that a significant number of candidates will not mentally "anchor one position to remove rotational duplicates." The key insight — that in a circle, rotations produce identical arrangements — is conceptually simple but perceptually elusive. Train yourself to pause whenever you see "circular table" or "roundtable" and write the anchor step explicitly.
+
+Source: SSC CPO 2022, RRB Group D 2019
+
+Q6. Word Arrangement with Repeated Letters
+
+Question: In how many different ways can the letters of the word 'BOOKLET' be arranged such that B and T always come together?
+(1) 120 (2) 240 (3) 360 (4) 720
+
+Solution: The word 'BOOKLET' has 7 letters: B, O, O, K, L, E, T. The letter O repeats twice. Treat B and T as a single block.
+Now the units are: [BT block], O, O, K, L, E = 6 units with O repeated twice.
+Arrangement of these 6 units =
+6
+!
+2
+!
+=
+360
+2!
+6!
+	​
+
+=360.
+Within the BT block, B and T can be arranged in
+2
+!
+=
+2
+2!=2 ways.
+Total arrangements = 360 × 2 = 720.
+Answer: (4) 720
+
+🧠 Psychological Trap — The "Double Obliviousness" Cascade
+This question administers two consecutive cognitive blows. First, you must detect the repeated letter 'O' and divide by
+2
+!
+2!. Then, you must handle the "B and T together" constraint with a block-and-multiply step. Many candidates fall into one of two failure modes: (a) ignoring the repetition and calculating
+6
+!
+×
+2
+!
+=
+1440
+6!×2!=1440 (a distractor not even listed, causing confusion), or (b) applying the block correctly but forgetting the internal B–T arrangement, yielding 360. The examiner hedged by placing 360 (block-only without B–T swap) and 720 (correct) as options, knowing that survival of the first trap does not guarantee survival of the second. The mental bandwidth required to track both conditions simultaneously pushes many aspirants past their working-memory limit.
+
+Source: SSC CGL 2020, IBPS Clerk Mains 2019
+
+Q7. Handshake Problem (Combination in Disguise)
+
+Question: In a party, every person shakes hands with every other person exactly once. If there are 105 handshakes in total, how many people are at the party?
+(1) 15 (2) 14 (3) 21 (4) 25
+
+Solution: Let the number of people =
+𝑛
+n. Each handshake involves 2 distinct people, and order does not matter.
+Number of handshakes =
+𝑛
+𝐶
+2
+=
+105
+n
+C
+2
+	​
+
+=105.
+
+𝑛
+(
+𝑛
+−
+1
+)
+2
+=
+105
+2
+n(n−1)
+	​
+
+=105
+
+𝑛
+(
+𝑛
+−
+1
+)
+=
+210
+n(n−1)=210
+
+𝑛
+2
+−
+𝑛
+−
+210
+=
+0
+n
+2
+−n−210=0 →
+(
+𝑛
+−
+15
+)
+(
+𝑛
++
+14
+)
+=
+0
+(n−15)(n+14)=0
+
+𝑛
+=
+15
+n=15 (since n > 0).
+Answer: (1) 15
+
+🧠 Psychological Trap — The "Disguised Selection" Masquerade
+The word "handshake" triggers imagery of a social gesture rather than a mathematical operation, and many aspirants fail to translate it into a combination problem. The trap is a failure of semantic decoding — the ability to see that "every person shakes hands with every other person once" is identical to "select 2 people from n where order doesn't matter." Some candidates try to build permutations (imagining A shaking B's hand as different from B shaking A's) or attempt sequence-based approaches. The quadratic equation's result of 15 has an "obvious" feel when guessed, but the algebraic path to it tests whether you can strip away the narrative clothing and recognise the bare combination underneath.
+
+Source: SSC CGL 2018, UPSC CDS 2020 -
+
+Q8. Committee with Exact Gender Composition
+
+Question: A committee of 4 members is to be formed from 5 men and 6 women such that the committee contains exactly 2 men and 2 women. In how many different ways can this be done?
+(1) 150 (2) 180 (3) 250 (4) 330
+
+Solution: Select 2 men from 5:
+5
+𝐶
+2
+=
+10
+5
+C
+2
+	​
+
+=10.
+Select 2 women from 6:
+6
+𝐶
+2
+=
+15
+6
+C
+2
+	​
+
+=15.
+Total ways = 10 × 15 = 150.
+Answer: (1) 150
+
+🧠 Psychological Trap — The "Add vs. Multiply" Reflex
+This question targets the most fundamental binary in combinatorics: AND events multiply, OR events add. Under exam stress, some candidates add 10 + 15 = 25 (an option not listed, causing panic) or inadvertently attempt other operations. The "exact composition" structure — exactly 2 men AND exactly 2 women — requires multiplication, but the word "exactly" can trigger an additive reflex because your brain associates "exact conditions" with summing constraints. The remedy is to vocalise the connective silently: "I need 2 men and 2 women" → multiply. Every time you detect "and" between independent selections, force yourself to write a multiplication sign.
+
+Source: SBI Clerk Mains 2020, SSC MTS 2019
+
+Q9. Arrangement with Vowel-First Constraint
+
+Question: How many ways can the letters of the word 'NUMBER' be arranged such that the first letter is a vowel?
+(1) 120 (2) 240 (3) 360 (4) 720
+
+Solution: Vowels in 'NUMBER': U, E (2 vowels).
+First position: 2 choices (U or E).
+Remaining 5 positions:
+5
+!
+=
+120
+5!=120 arrangements.
+Total = 2 × 120 = 240.
+Answer: (2) 240
+
+🧠 Psychological Trap — The "Positional Anchoring" Misstep
+The trap here is treating the vowel-first condition as a "vowel cohort" problem (all vowels together) and erroneously applying the block method. The question does NOT say "all vowels together" — it says "the first letter is a vowel." Many candidates overcomplicate: they try to select which vowel goes first, place the other vowel among the remaining letters, then arrange, leading to double-counting or incorrect formulas. The simplicity of the solution — just multiply the number of vowel choices for position 1 by the factorial of the rest — feels almost too easy, prompting second-guessing. The examiner relies on the fact that after several "vowels together" drill questions, your brain has been conditioned to see "vowel" and reflexively deploy the block technique, even when it's inappropriate.
+
+Source: IBPS PO Pre 2019, SSC CHSL 2021
+
+Q10. Selection with Repetition Allowed (Code/Lock)
+
+Question: A combination lock has a 4-digit code using digits 0–9. How many different codes are possible if repetition of digits is allowed?
+(1) 10,000 (2) 5,040 (3) 9,999 (4) 1,00,000
+
+Solution: Each digit has 10 independent choices (0 through 9).
+Total codes =
+10
+×
+10
+×
+10
+×
+10
+=
+10
+4
+=
+10
+,
+000
+10×10×10×10=10
+4
+=10,000.
+Answer: (1) 10,000
+
+🧠 Psychological Trap — The "Without Repetition" Assumption
+This is one of the most elegantly simple traps in examination history. After solving numerous permutation problems that specify "without repetition," your brain begins to assume that repetition is always forbidden unless explicitly stated otherwise. When the phrase "repetition is allowed" appears, it actually creates a cognitive wobble — some candidates hesitate, wondering if they should apply
+𝑛
+𝑟
+n
+r
+ or if there's a catch. Others, reading too quickly, miss the word "allowed" entirely and apply
+10
+𝑃
+4
+=
+5040
+10
+P
+4
+	​
+
+=5040, which is conveniently listed as option (2). The examiner is testing your ability to read qualifiers with precision and to switch mental models between "decreasing factorial" (no repetition) and "constant multiplication" (repetition allowed). The critical skill is not the calculation — it's the detection of the single word that changes the entire formula.
+
+Source: RRB NTPC 2020, SSC MTS 2018
+
+🔥 High-Yield Pattern Summary
+Pattern	Frequency	Distractor Profile	Psychological Mechanism
+Zero in front	Very High	120 instead of 100	Auto-pilot formula application without constraint check
+Together seating	Very High	Forgetting internal factorial	Working-memory overload during block method
+Repeated letters	High	Missing division by factorial	Invisible repetition — no explicit attention cue
+At least one	High	Brute-force casework error	Preference for concrete enumeration over complement
+Circular arrangement	Medium	Applying n! instead of (n-1)!	Linear-default cognitive bias
+Handshake problem	Medium	Using permutation instead of combination	Semantic decoding failure
+And vs. Or	Medium	Adding when multiplication needed	Connective misidentification under stress
+Repetition allowed	Medium	Applying nPr instead of n^r	Assumption carryover from drill practice
+🧠 Memory-Hook for the 5 Deadliest Traps
+
+Use the mnemonic "ZERO V. CATCH" to encode the exam setter's favourite ambushes:
+
+Zero — Check if zero is in the digit set and whether it can go first.
+
+Exactly — For exact compositions, multiply selections (AND → multiply).
+
+Repeats — Scan every word for duplicate letters; divide by the factorial of each repetition count.
+
+Opposite — For "at least one," evaluate whether the complement is faster.
+
+Vowels together — Treat as a block but always count the internal arrangements.
+
+Circle —
+(
+𝑛
+−
+1
+)
+!
+(n−1)! not
+𝑛
+!
+n!, unless explicitly linear.
+
+Allowed repetition — If repetition is permitted, the formula is
+𝑛
+𝑟
+n
+r
+, not
+𝑛
+𝑃
+𝑟
+n
+P
+r
+	​
+
+.
+
+Together constraint — Block × Internal factorial; never stop at just the block.
+
+Complement — When cases exceed three, the complement almost always provides the quicker path.
+
+Handshake — Any "each interacts with every other once" scenario is
+𝑛
+𝐶
+2
+n
+C
+2
+	​
+
+.
+
+Frame it visually: a giant zero-shaped mirror that catches all the traps and reflects them back at you before you mark an answer.
+
+🚀 Review this after 2 days. Select any 3 questions from the list above. Without looking at the solutions, solve them and then write down the specific cognitive trap each one is designed to exploit. If you can teach each trap to a mirror in under 30 seconds, the pattern is locked in your long-term memory.

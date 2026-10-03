@@ -1,0 +1,166 @@
+Time & Distance (Foundation)
+
+Imagine you are standing at a railway crossing. A train roars past. You glance at your watch. In your mind, you can almost hear the exam paper rustling: “A train crosses a pole in 9 seconds and a 200 m platform in 15 seconds. Find its length and speed.” Your heartbeat races. I have been there too. But here is the secret: every Train, Time & Distance problem is a small detective story, and you are the detective. By the end of this chapter, you will hold the magnifying glass that cracks them all.
+
+In this chapter we will master-
+
+The unbreakable triangle: Distance = Speed × Time
+
+Converting km/h to m/s without pen and paper
+
+Average speed – why you cannot just average two speeds
+
+Relative speed – when two bodies run towards or past each other
+
+The Train-Platfrom storyteller method
+
+Learning goals: You will not just mug up formulas; you will feel them. You will solve SSC, Bank, and Railway questions in half the time, and you will even enjoy it.
+
+1. The Golden Triangle (D = S × T)
+
+I want you to meet three friends: Distance, Speed, and Time. They are so close that if you cover one, the other two call out the answer.
+Write this in your memory like a photograph:
+
+text
+Copy
+Download
+Distance
+-------
+Speed | Time
+
+Meaning:
+Distance = Speed × Time
+Speed = Distance ÷ Time
+Time = Distance ÷ Speed
+
+Everything else in this chapter is just this triangle wearing different masks.
+
+🧠 Active Recall Prompt: Close your eyes. Picture the triangle. If a car travels at 60 km/h for 2 hours, what is the distance? Now, if a man walks 15 km at 5 km/h, how much time does he take? Answer silently before you read ahead.
+
+2. The Unit Trap – km/h vs m/s
+
+Examiners love to give speed in km/h but distance in metres and time in seconds. They want you to stumble. Stumble no more.
+
+Conversion rule:
+1 km/h =
+1000
+ m
+3600
+ s
+=
+5
+18
+ m/s
+3600 s
+1000 m
+	​
+
+=
+18
+5
+	​
+
+ m/s
+So to go from km/h to m/s, multiply by 5/18.
+From m/s to km/h, multiply by 18/5.
+
+But why 5 and 18? Here is your weird, never-forget mnemonic:
+
+🦎 The Lizard Feast Trick
+Imagine a 5-headed Komodo dragon (5) swallowing an 18-legged centipede (18). It does this every time you go FROM km/h TO m/s – the lizard (5) eats the centipede (18) during the conversion. The lizard is the numerator, the centipede is the denominator.
+To reverse (m/s to km/h), the lizard spits the centipede back out – 18/5.
+
+Recall it just once, and the image will make you smile inside the exam hall.
+
+🧠 Active Recall Prompt: Convert 90 km/h into m/s using the lizard feast. (90 × 5/18 = 25 m/s). Now convert 10 m/s into km/h. (10 × 18/5 = 36 km/h). Done? Good.
+
+3. Average Speed – The Cheetah That Walked
+
+A cheetah runs 100 km/h for 1 hour and then walks 10 km/h for another hour. Is the average speed (100+10)/2 = 55 km/h? Yes, because the time is same. But what if the cheetah runs 100 km at 100 km/h and the next 100 km at 10 km/h? Then time differs, and the simple average fails.
+
+When the distances are equal, use the harmonic mean:
+
+Average speed
+=
+2
+𝑥
+𝑦
+𝑥
++
+𝑦
+Average speed=
+x+y
+2xy
+	​
+
+Here, x=100, y=10 → Average speed = (2×100×10)/(110) = 2000/110 ≈ 18.18 km/h. Wow.
+
+The lesson: Average speed is never just averaging speeds unless the time periods are equal. Always find total distance and total time.
+
+Pocket rule:
+Average Speed = Total Distance ÷ Total Time. This is your eternal anchor.
+
+🧠 Active Recall Prompt: A man goes from A to B at 20 km/h and returns at 30 km/h. What is his average speed for the whole journey? Use the equal-distance formula if you remember, or total distance method. (Answer: 24 km/h)
+
+4. Relative Speed – When Two Bodies Move
+
+This is the heart of train and meeting problems. It is the speed at which one body sees the other moving.
+
+Same direction: They seem to move at the difference of speeds.
+Relative speed = Faster – Slower.
+Imagine you are in a car at 60 km/h and a car beside you is at 50 km/h in the same direction. To you, it is going backward at 10 km/h.
+
+Opposite direction: They rush towards each other. Speeds add up.
+Relative speed = Speed1 + Speed2.
+If you are at 60 km/h and a car heads straight at you at 50 km/h, your closing speed is 110 km/h. It feels faster, and it is.
+
+Story detector for trains:
+A train crossing a pole or a man – the distance to cover is the train’s own length.
+A train crossing a platform – distance = length of train + length of platform.
+Two trains crossing each other – distance = sum of their lengths; speed = relative speed (add if opposite, subtract if same direction).
+
+Now, you are the detective. The train itself becomes a measuring tape.
+
+🧠 Active Recall Prompt: A train travelling at 72 km/h crosses a pole in 12 seconds. Find its length. (Convert speed to m/s: 72×5/18=20 m/s. Distance = 20×12=240 m. That is the length.) Solve it in your head again.
+
+5. The Train-Platform Tango (One Problem, Two Scenes)
+
+Examiners’ favourite: A train crosses a pole in T1 seconds and a platform in T2 seconds. The difference in time is the time the train takes to cover the platform’s length (since the train’s own length is covered in both scenarios).
+
+Method:
+Let length of train = L, speed = v.
+Pole crossing: L = v × t1.
+Platform crossing: L + Platform = v × t2.
+Subtract: Platform = v (t2 – t1).
+From there, you can find v and then L.
+
+Visualise the train’s nose as a point. When it touches the pole, timer starts; when the tail passes, timer stops. For the platform, nose touches start of platform, timer starts; tail leaves end of platform, timer stops. This is pure cinematography.
+
+🧠 Active Recall Prompt: A train crosses a pole in 10 s and a 150 m long platform in 18 s. Can you smell the speed? (v = Platform / time difference = 150 / (18-10) = 150/8 = 18.75 m/s. Length = 18.75×10 = 187.5 m.)
+
+6. The Memory Booster – “S.O.S Triangle” Mnemonic
+
+Remember the three musketeers D, S, T with S.O.S:
+Suppose you want Speed, hide Distance and Time fights – Speed = D/T.
+If you want Distance, Speed and Time unite – D = S × T.
+If you want Time, Speed is the divider – T = D/S.
+
+But even better, store the image of a traffic signal:
+🟥 D on top, 🟡 S and 🟢 T on the two lower lights. When one light goes off, the other two make the formula. It is weird, but it works.
+
+7. Summary Table – Your Cheat Shield
+Concept	Formula	Quick Trick
+Basic relationship	D = S × T, S = D/T, T = D/S	Cover the unknown in the triangle
+km/h ↔ m/s	×5/18 (to m/s), ×18/5 (to km/h)	Lizard eats centipede (5/18)
+Average speed (unequal time)	Total distance / Total time	Never average speeds blindly
+Equal distances average	2xy / (x+y)	Think “harmonic mean” only if distances equal
+Relative speed (same dir)	Faster – Slower	One chasing, difference matters
+Relative speed (opposite)	S1 + S2	Closing speed adds up
+Train-pole distance	L = v × t (pole)	Train’s length only
+Train-platform	L + Platform = v × t (platform)	Subtract equations to get platform length
+Two trains crossing	Sum of lengths = relative speed × time	Add speeds if opposite, subtract if same direction
+8. 🧠 Review This After 2 Days
+
+Your brain builds stronger neural paths when you revisit after a gap. Two days from now, read the lizard feast mnemonic again, redraw the traffic signal triangle, and solve five new questions on trains and average speed. Watch how the fear shrinks.
+
+Remember, speed math is not a talent – it is a story you now own. The next time you see a train, you will see numbers dancing. And that is a superpower.

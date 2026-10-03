@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Station — Free SSC, Banking &amp; NCERT Prep in Hindi &amp; English</title>
+  <meta name="description" content="Free AI-powered study platform for SSC, Banking, Railway &amp; NCERT preparation. Bilingual (हिंदी + English) books, practice MCQs, mind maps and sarkari job alerts — all free.">
+  <meta name="keywords" content="SSC, Banking, Railway, NCERT, sarkari job, government job alert, free study material, Hindi study, competitive exam, practice MCQ, previous year papers">
+  <meta name="author" content="Study Station">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#8B5CF6">
+  <link rel="canonical" href="https://studystation.in/">
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="assets/icon.svg">
+  <link rel="apple-touch-icon" href="assets/icon.svg">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Study Station">
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Study Station">
+  <meta property="og:title" content="Study Station — Free SSC, Banking &amp; NCERT Prep in Hindi &amp; English">
+  <meta property="og:description" content="Free AI-powered study platform: bilingual books, practice MCQs, mind maps and sarkari job alerts.">
+  <meta property="og:url" content="https://studystation.in/">
+  <meta property="og:image" content="https://studystation.in/assets/icon.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Study Station — Free SSC, Banking &amp; NCERT Prep">
+  <meta name="twitter:description" content="Free bilingual books, practice MCQs and sarkari job alerts.">
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "Study Station",
+    "url": "https://studystation.in/",
+    "description": "Free AI-powered study platform for SSC, Banking, Railway and NCERT preparation in Hindi and English.",
+    "inLanguage": ["hi", "en"],
+    "sameAs": []
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800;900&family=Noto+Sans+Devanagari:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>mermaid.initialize({startOnLoad: false, theme: 'dark', securityLevel: 'loose'});</script>
+</head>
+<body>
+
+  <!-- LOADING SCREEN -->
+  <div class="loading-screen" id="loadingScreen">
+    <div class="navbar__logo" style="width:56px;height:56px;font-size:1.5rem;">
+      <ion-icon name="book-sharp"></ion-icon>
+    </div>
+    <div class="loader"></div>
+    <div class="loading-text">Loading Study Station...</div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="container navbar__inner">
+      <a href="#" class="navbar__brand" onclick="navigate('home')">
+        <div class="navbar__logo"><ion-icon name="book-sharp"></ion-icon></div>
+        <span>Study Station</span>
+      </a>
+      <ul class="navbar__links">
+        <li><a href="#" class="navbar__link active" data-page="home" onclick="navigate('home')">Home</a></li>
+        <li><a href="#" class="navbar__link" data-page="classes" onclick="navigate('classes')">Classes</a></li>
+        <li><a href="#" class="navbar__link" data-page="study" onclick="navigate('study')">Study</a></li>
+        <li><a href="#" class="navbar__link" data-page="practice" onclick="navigate('practice')">Practice</a></li>
+        <li><a href="#" class="navbar__link" data-page="books" onclick="navigate('books')">Books</a></li>
+        <li><a href="#" class="navbar__link" data-page="jobs" onclick="navigate('jobs')">Jobs</a></li>
+        <li><a href="#" class="navbar__link" data-page="pyq" onclick="navigate('pyq')">PYQ</a></li>
+      </ul>
+      <div class="navbar__actions">
+        <button class="lang-toggle" id="langToggle" title="Switch Language"><ion-icon name="language-outline"></ion-icon><span>EN</span></button>
+        <button class="theme-toggle" id="themeToggle" title="Toggle Theme"><ion-icon name="moon-outline"></ion-icon></button>
+        <button class="mobile-menu-btn" id="mobileMenuBtn"><ion-icon name="menu-outline"></ion-icon></button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MOBILE NAV -->
+  <div class="mobile-nav__overlay" id="mobileNavOverlay"></div>
+  <div class="mobile-nav" id="mobileNav">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1.5rem;">
+      <div class="navbar__brand"><div class="navbar__logo"><ion-icon name="book-sharp"></ion-icon></div><span>Menu</span></div>
+      <button class="mobile-nav__close" id="mobileNavClose"><ion-icon name="close-outline"></ion-icon></button>
+    </div>
+    <ul class="mobile-nav__links">
+      <li><a href="#" class="mobile-nav__link active" data-page="home" onclick="navigate('home');closeMobileNav();"><ion-icon name="home-outline"></ion-icon>Home</a></li>
+      <li><a href="#" class="mobile-nav__link" data-page="classes" onclick="navigate('classes');closeMobileNav();"><ion-icon name="school-outline"></ion-icon>Classes 1-12</a></li>
+      <li><a href="#" class="mobile-nav__link" data-page="study" onclick="navigate('study');closeMobileNav();"><ion-icon name="book-outline"></ion-icon>Study Materials</a></li>
+      <li><a href="#" class="mobile-nav__link" data-page="practice" onclick="navigate('practice');closeMobileNav();"><ion-icon name="bulb-outline"></ion-icon>Practice MCQs</a></li>
+      <li><a href="#" class="mobile-nav__link" data-page="books" onclick="navigate('books');closeMobileNav();"><ion-icon name="library-outline"></ion-icon>Books</a></li>
+      <li><a href="#" class="mobile-nav__link" data-page="jobs" onclick="navigate('jobs');closeMobileNav();"><ion-icon name="briefcase-outline"></ion-icon>Job Alerts</a></li>
+      <li><a href="#" class="mobile-nav__link" data-page="pyq" onclick="navigate('pyq');closeMobileNav();"><ion-icon name="document-text-outline"></ion-icon>Previous Papers</a></li>
+    </ul>
+  </div>
+
+  <!-- BOTTOM NAV -->
+  <nav class="bottom-nav">
+    <div class="bottom-nav__inner">
+      <a href="#" class="bottom-nav__link active" data-page="home" onclick="navigate('home')"><ion-icon name="home-outline"></ion-icon>Home</a>
+      <a href="#" class="bottom-nav__link" data-page="classes" onclick="navigate('classes')"><ion-icon name="school-outline"></ion-icon>Classes</a>
+      <a href="#" class="bottom-nav__link" data-page="study" onclick="navigate('study')"><ion-icon name="book-outline"></ion-icon>Study</a>
+      <a href="#" class="bottom-nav__link" data-page="practice" onclick="navigate('practice')"><ion-icon name="bulb-outline"></ion-icon>Practice</a>
+      <a href="#" class="bottom-nav__link" data-page="jobs" onclick="navigate('jobs')"><ion-icon name="briefcase-outline"></ion-icon>Jobs</a>
+    </div>
+  </nav>
+
+  <!-- PAGE: HOME -->
+  <div class="page active" id="page-home">
+    <section class="hero">
+      <div class="hero__bg">
+        <div class="hero__blob hero__blob--1"></div>
+        <div class="hero__blob hero__blob--2"></div>
+      </div>
+      <div class="container hero__inner">
+        <div>
+          <div class="section__badge"><ion-icon name="sparkles-outline"></ion-icon> AI-Powered Learning</div>
+          <h1 class="hero__title">Study Smarter,<br><span class="gradient-text">Not Harder</span></h1>
+          <p class="hero__desc">Free AI-powered study platform for SSC, Banking, Railway & NCERT preparation. Smart notes, practice MCQs, and sarkari job alerts — all in one place.</p>
+          <div class="hero__actions">
+            <button class="btn btn--primary btn--lg" onclick="navigate('classes')"><ion-icon name="rocket-outline"></ion-icon>Start Learning Free</button>
+            <button class="btn btn--secondary btn--lg" onclick="navigate('practice')"><ion-icon name="bulb-outline"></ion-icon>Try Practice</button>
+          </div>
+          <div class="hero__stats">
+            <div><div class="hero__stat-value">100%</div><div class="hero__stat-label">Free Forever</div></div>
+            <div><div class="hero__stat-value">22+</div><div class="hero__stat-label">Chapters (हिंदी + English)</div></div>
+            <div><div class="hero__stat-value">3,000+</div><div class="hero__stat-label">Practice Questions</div></div>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <div class="hero__mockup">
+            <div class="hero__mockup-bar">
+              <div class="hero__mockup-dot"></div><div class="hero__mockup-dot"></div><div class="hero__mockup-dot"></div>
+            </div>
+            <div style="display:flex;gap:0.75rem;margin-bottom:1rem;">
+              <div style="width:80px;height:80px;background:var(--accent-surface);border-radius:var(--radius-md);display:flex;align-items:center;justify-content:center;font-size:1.5rem;">📚</div>
+              <div style="flex:1;">
+                <div class="hero__mockup-line" style="width:80%;background:var(--accent);"></div>
+                <div class="hero__mockup-line" style="width:60%;background:var(--bg-tertiary);"></div>
+                <div class="hero__mockup-line" style="width:40%;background:var(--bg-tertiary);"></div>
+              </div>
+            </div>
+            <div class="hero__mockup-line" style="width:100%;background:var(--bg-tertiary);"></div>
+            <div class="hero__mockup-line" style="width:90%;background:var(--bg-tertiary);"></div>
+            <div class="hero__mockup-line" style="width:95%;background:var(--bg-tertiary);"></div>
+            <div class="hero__mockup-line" style="width:70%;background:var(--bg-tertiary);"></div>
+            <div style="display:flex;gap:0.5rem;margin-top:1rem;">
+              <div style="flex:1;height:36px;background:var(--accent);border-radius:var(--radius-sm);"></div>
+              <div style="flex:1;height:36px;background:var(--bg-tertiary);border-radius:var(--radius-sm);"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__badge"><ion-icon name="layers-outline"></ion-icon> Features</span>
+          <h2 class="section__title">Everything You Need to <span class="gradient-text">Succeed</span></h2>
+          <p class="section__desc">From NCERT notes to government job alerts, we've built the complete learning ecosystem.</p>
+        </div>
+        <div class="grid-3">
+          <div class="card fade-in" onclick="navigate('study')">
+            <div style="width:48px;height:48px;background:var(--accent-surface);border-radius:var(--radius-md);display:flex;align-items:center;justify-content:center;font-size:1.25rem;color:var(--accent-light);margin-bottom:1rem;"><ion-icon name="book-sharp"></ion-icon></div>
+            <h3 style="font-weight:700;margin-bottom:0.5rem;">Study Materials</h3>
+            <p style="color:var(--text-secondary);font-size:0.9rem;">NCERT notes Class 1-12 with chapter-wise content and solved examples.</p>
+            <span class="btn btn--ghost" style="padding:0;margin-top:0.75rem;">Explore Notes <ion-icon name="arrow-forward-outline"></ion-icon></span>
+          </div>
+          <div class="card fade-in" onclick="navigate('practice')">
+            <div style="width:48px;height:48px;background:var(--accent-surface);border-radius:var(--radius-md);display:flex;align-items:center;justify-content:center;font-size:1.25rem;color:var(--accent-light);margin-bottom:1rem;"><ion-icon name="bulb-sharp"></ion-icon></div>
+            <h3 style="font-weight:700;margin-bottom:0.5rem;">Practice Engine</h3>
+            <p style="color:var(--text-secondary);font-size:0.9rem;">MCQs with instant feedback, explanations, and performance tracking.</p>
+            <span class="btn btn--ghost" style="padding:0;margin-top:0.75rem;">Start Quiz <ion-icon name="arrow-forward-outline"></ion-icon></span>
+          </div>
+          <div class="card fade-in" onclick="navigate('books')">
+            <div style="width:48px;height:48px;background:var(--accent-surface);border-radius:var(--radius-md);display:flex;align-items:center;justify-content:center;font-size:1.25rem;color:var(--accent-light);margin-bottom:1rem;"><ion-icon name="library-sharp"></ion-icon></div>
+            <h3 style="font-weight:700;margin-bottom:0.5rem;">AI Books</h3>
+            <p style="color:var(--text-secondary);font-size:0.9rem;">AI-generated study books with Active Recall and PYQ integration.</p>
+            <span class="btn btn--ghost" style="padding:0;margin-top:0.75rem;">Read Books <ion-icon name="arrow-forward-outline"></ion-icon></span>
+          </div>
+          <div class="card fade-in" onclick="navigate('jobs')">
+            <div style="width:48px;height:48px;background:var(--accent-surface);border-radius:var(--radius-md);display:flex;align-items:center;justify-content:center;font-size:1.25rem;color:var(--accent-light);margin-bottom:1rem;"><ion-icon name="briefcase-sharp"></ion-icon></div>
+            <h3 style="font-weight:700;margin-bottom:0.5rem;">Job Alerts</h3>
+            <p style="color:var(--text-secondary);font-size:0.9rem;">Latest government, banking, and private job notifications.</p>
+            <span class="btn btn--ghost" style="padding:0;margin-top:0.75rem;">View Jobs <ion-icon name="arrow-forward-outline"></ion-icon></span>
+          </div>
+          <div class="card fade-in" onclick="navigate('pyq')">
+            <div style="width:48px;height:48px;background:var(--accent-surface);border-radius:var(--radius-md);display:flex;align-items:center;justify-content:center;font-size:1.25rem;color:var(--accent-light);margin-bottom:1rem;"><ion-icon name="document-text-sharp"></ion-icon></div>
+            <h3 style="font-weight:700;margin-bottom:0.5rem;">Previous Year Papers</h3>
+            <p style="color:var(--text-secondary);font-size:0.9rem;">Download PYQ papers with answer keys and detailed solutions.</p>
+            <span class="btn btn--ghost" style="padding:0;margin-top:0.75rem;">Download <ion-icon name="arrow-forward-outline"></ion-icon></span>
+          </div>
+          <div class="card fade-in" onclick="navigate('study')">
+            <div style="width:48px;height:48px;background:var(--accent-surface);border-radius:var(--radius-md);display:flex;align-items:center;justify-content:center;font-size:1.25rem;color:var(--accent-light);margin-bottom:1rem;"><ion-icon name="chatbubble-ellipses-sharp"></ion-icon></div>
+            <h3 style="font-weight:700;margin-bottom:0.5rem;">AI Chat Tutor</h3>
+            <p style="color:var(--text-secondary);font-size:0.9rem;">Per-chapter AI chatbot powered by Gemini API for doubt solving.</p>
+            <span class="btn btn--ghost" style="padding:0;margin-top:0.75rem;">Ask AI <ion-icon name="arrow-forward-outline"></ion-icon></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section" style="padding-bottom:4rem;">
+      <div class="container">
+        <div class="card" style="background:linear-gradient(135deg,var(--accent),var(--accent-light));color:#fff;border:none;text-align:center;padding:3rem;">
+          <h2 style="font-size:2rem;font-weight:900;margin-bottom:0.75rem;">Ready to Start Your Journey?</h2>
+          <p style="opacity:0.9;margin-bottom:1.5rem;font-size:1.05rem;">Study smarter with AI-powered notes, practice sets and job alerts. It's completely free!</p>
+          <div style="display:flex;gap:0.75rem;justify-content:center;flex-wrap:wrap;">
+            <button class="btn btn--lg" style="background:#fff;color:var(--accent);" onclick="navigate('classes')"><ion-icon name="rocket-outline"></ion-icon>Get Started</button>
+            <button class="btn btn--secondary btn--lg" style="background:rgba(255,255,255,0.2);border-color:rgba(255,255,255,0.3);color:#fff;" onclick="showToast('Job alerts enabled!','success')"><ion-icon name="notifications-outline"></ion-icon>Get Job Alerts</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- PAGE: CLASSES -->
+  <div class="page" id="page-classes">
+    <div class="container">
+      <div class="section__header" style="margin-bottom:2rem;">
+        <span class="section__badge"><ion-icon name="school-outline"></ion-icon> NCERT Classes</span>
+        <h2 class="section__title">Choose Your <span class="gradient-text">Class</span></h2>
+        <p class="section__desc">Select your class to access study materials, practice questions, and more.</p>
+      </div>
+      <div class="grid-6" id="classesGrid"></div>
+    </div>
+  </div>
+
+  <!-- PAGE: STUDY MATERIALS -->
+  <div class="page" id="page-study">
+    <div class="container">
+      <div class="breadcrumb" id="studyBreadcrumb">
+        <a href="#" onclick="navigate('classes')">Classes</a>
+        <span class="breadcrumb__sep">›</span>
+        <span class="breadcrumb__current" id="studyBreadcrumbCurrent">Study Materials</span>
+      </div>
+      <div class="page-title-bar">
+        <h1 class="page-title-bar__title" id="studyPageTitle">Study Materials</h1>
+        <button class="btn btn--sm btn--ghost" id="studyBackBtn" style="display:none;" onclick="studyBack()">
+          <ion-icon name="arrow-back-outline"></ion-icon> Back
+        </button>
+      </div>
+      <div id="studyClassSelect">
+        <p style="color:var(--text-secondary);margin-bottom:1.5rem;">Select a class to browse subjects:</p>
+        <div class="grid-4" id="studyClassGrid"></div>
+      </div>
+      <div id="studySubjectSelect" style="display:none;">
+        <p style="color:var(--text-secondary);margin-bottom:1.5rem;" id="studySubjectSubtitle">Select a subject:</p>
+        <div class="grid-2" id="studySubjectGrid"></div>
+      </div>
+      <div id="studyChapterSelect" style="display:none;">
+        <p style="color:var(--text-secondary);margin-bottom:1.5rem;" id="studyChapterSubtitle">Select a chapter:</p>
+        <div id="studyChapterList"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PAGE: PRACTICE -->
+  <div class="page" id="page-practice">
+    <div class="container">
+      <div id="practiceHome">
+        <div class="section__header" style="margin-bottom:2rem;">
+          <span class="section__badge"><ion-icon name="bulb-outline"></ion-icon> Practice</span>
+          <h2 class="section__title">Test Your <span class="gradient-text">Knowledge</span></h2>
+          <p class="section__desc">Practice MCQs from various subjects and track your progress.</p>
+        </div>
+        <div class="search-bar" style="max-width:500px;margin:0 auto 2rem;">
+          <ion-icon name="search-outline"></ion-icon>
+          <input type="text" placeholder="Search subjects or topics..." id="practiceSearch" oninput="filterPracticeSubjects()">
+        </div>
+        <div class="grid-3" id="practiceSubjectGrid"></div>
+      </div>
+      <div id="practiceQuiz" style="display:none;">
+        <div class="breadcrumb">
+          <a href="#" onclick="exitPractice()">Practice</a>
+          <span class="breadcrumb__sep">›</span>
+          <span class="breadcrumb__current" id="practiceQuizSubject">Subject</span>
+        </div>
+        <div class="quiz-container" id="quizContainer"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PAGE: BOOKS (Library) -->
+  <div class="page" id="page-books">
+    <div class="container">
+      <div class="section__header" style="margin-bottom:1.5rem;">
+        <span class="section__badge"><ion-icon name="library-outline"></ion-icon> Library</span>
+        <h2 class="section__title" id="bookPageTitle"><span class="gradient-text">Books</span></h2>
+        <p class="section__desc">AI-generated bilingual books with Active Recall, Feynman Technique, Mind Maps, PYQ, Short Tricks & 150 Practice MCQs per chapter.</p>
+      </div>
+      <div class="page-title-bar" style="margin-bottom:1.5rem;">
+        <button class="btn btn--sm btn--ghost" id="bookBackBtn" style="display:none;" onclick="bookBack()">
+          <ion-icon name="arrow-back-outline"></ion-icon> Back
+        </button>
+      </div>
+      <div id="bookContentArea"></div>
+    </div>
+  </div>
+
+  <!-- PAGE: JOBS -->
+  <div class="page" id="page-jobs">
+    <div class="container">
+      <div class="section__header" style="margin-bottom:2rem;">
+        <span class="section__badge"><ion-icon name="briefcase-outline"></ion-icon> Alerts</span>
+        <h2 class="section__title">Latest <span class="gradient-text">Job Alerts</span></h2>
+        <p class="section__desc">Government, Banking, and Private job notifications — updated daily.</p>
+      </div>
+      <div class="tabs" id="jobTabs" style="margin-bottom:1.5rem;">
+        <button class="tab active" data-tab="latest" onclick="switchJobTab('latest',this)">Latest Jobs</button>
+        <button class="tab" data-tab="results" onclick="switchJobTab('results',this)">Results</button>
+        <button class="tab" data-tab="admit" onclick="switchJobTab('admit',this)">Admit Cards</button>
+        <button class="tab" data-tab="answer" onclick="switchJobTab('answer',this)">Answer Keys</button>
+      </div>
+      <div class="search-bar" style="max-width:500px;margin-bottom:1.5rem;">
+        <ion-icon name="search-outline"></ion-icon>
+        <input type="text" placeholder="Search jobs..." id="jobSearch" oninput="filterJobs()">
+      </div>
+      <div class="filter-bar" id="jobCategoryFilters">
+        <button class="filter-chip active" data-cat="all" onclick="filterJobCategory('all',this)">All</button>
+        <button class="filter-chip" data-cat="govt" onclick="filterJobCategory('govt',this)">Government</button>
+        <button class="filter-chip" data-cat="banking" onclick="filterJobCategory('banking',this)">Banking</button>
+        <button class="filter-chip" data-cat="railway" onclick="filterJobCategory('railway',this)">Railway</button>
+        <button class="filter-chip" data-cat="ssc" onclick="filterJobCategory('ssc',this)">SSC</button>
+      </div>
+      <div class="grid-2" id="jobsGrid"></div>
+    </div>
+  </div>
+
+  <!-- PAGE: PYQ -->
+  <div class="page" id="page-pyq">
+    <div class="container">
+      <div class="section__header" style="margin-bottom:2rem;">
+        <span class="section__badge"><ion-icon name="document-text-outline"></ion-icon> Previous Papers</span>
+        <h2 class="section__title">Previous Year <span class="gradient-text">Question Papers</span></h2>
+        <p class="section__desc">Download solved PYQ papers from SSC, UPSC, Banking, Railway & more.</p>
+      </div>
+      <div class="tabs" id="pyqTabs" style="margin-bottom:1.5rem;">
+        <button class="tab active" data-tab="ssc" onclick="switchPyqTab('ssc',this)">SSC</button>
+        <button class="tab" data-tab="banking" onclick="switchPyqTab('banking',this)">Banking</button>
+        <button class="tab" data-tab="upsc" onclick="switchPyqTab('upsc',this)">UPSC</button>
+        <button class="tab" data-tab="railway" onclick="switchPyqTab('railway',this)">Railway</button>
+        <button class="tab" data-tab="state" onclick="switchPyqTab('state',this)">State PSC</button>
+      </div>
+      <div class="search-bar" style="max-width:500px;margin-bottom:1.5rem;">
+        <ion-icon name="search-outline"></ion-icon>
+        <input type="text" placeholder="Search papers..." id="pyqSearch" oninput="filterPyq()">
+      </div>
+      <div class="grid-3" id="pyqGrid"></div>
+    </div>
+  </div>
+
+  <!-- READER OVERLAY -->
+  <div class="reader-overlay" id="readerOverlay">
+    <div class="reader-toolbar">
+      <div class="reader-toolbar__left">
+        <button class="btn btn--icon btn--ghost" onclick="closeBookReader()"><ion-icon name="arrow-back-outline"></ion-icon></button>
+        <div>
+          <div style="font-weight:700;font-size:0.9rem;" id="readerTitle">Chapter Title</div>
+          <div style="font-size:0.75rem;color:var(--text-secondary);" id="readerSubtitle">Class 10 • Mathematics</div>
+        </div>
+      </div>
+      <div class="reader-toolbar__right">
+        <!-- 🔊 Speaker Controls -->
+        <button class="btn btn--sm btn--ghost speaker-btn" id="speakerPlayBtn" onclick="speakContent()" title="Listen"><ion-icon name="volume-high-outline"></ion-icon></button>
+        <button class="btn btn--sm btn--ghost speaker-btn" id="speakerPauseBtn" onclick="pauseSpeech()" title="Pause" style="display:none"><ion-icon name="pause"></ion-icon></button>
+        <button class="btn btn--sm btn--ghost speaker-btn speaker-btn--stop" id="speakerStopBtn" onclick="stopSpeech()" title="Stop" style="display:none"><ion-icon name="stop"></ion-icon></button>
+        <button class="btn btn--sm btn--ghost" id="speedBtn" onclick="cycleSpeechRate()" title="Speed">1x</button>
+        <button class="btn btn--sm btn--ghost" onclick="showToast('Bookmarked!','success')"><ion-icon name="bookmark-outline"></ion-icon></button>
+      </div>
+    </div>
+    <div class="reader-body" id="readerBody"></div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="navbar__brand" style="margin-bottom:0.5rem;"><div class="navbar__logo"><ion-icon name="book-sharp"></ion-icon></div><span>Study Station</span></div>
+          <p class="footer__brand-desc">Free AI-powered study platform for competitive exam preparation — in Hindi &amp; English.</p>
+          <div class="footer__socials">
+            <a href="#" class="footer__social-link"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#" class="footer__social-link"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="#" class="footer__social-link"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="#" class="footer__social-link"><ion-icon name="logo-youtube"></ion-icon></a>
+            <a href="#" class="footer__social-link"><ion-icon name="paper-plane-outline"></ion-icon></a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Study</h4>
+          <ul class="footer__links">
+            <!-- Real href (not an SPA onclick) so crawlers can reach the
+                 chapter pages — this is the entry to all 88 of them. -->
+            <li><a href="chapters/index.html" class="footer__link">All Chapters (सभी अध्याय)</a></li>
+            <li><a href="#" class="footer__link" onclick="navigate('practice')">Practice MCQs</a></li>
+            <li><a href="#" class="footer__link" onclick="navigate('books')">AI Books</a></li>
+            <li><a href="#" class="footer__link" onclick="navigate('pyq')">Previous Papers</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Resources</h4>
+          <ul class="footer__links">
+            <li><a href="#" class="footer__link" onclick="navigate('jobs')">Job Alerts</a></li>
+            <li><a href="#" class="footer__link" onclick="navigate('classes')">Class 1-12</a></li>
+            <li><a href="#" class="footer__link">Study Tips</a></li>
+            <li><a href="#" class="footer__link">Exam Calendar</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Support</h4>
+          <ul class="footer__links">
+            <li><a href="#" class="footer__link">Help Center</a></li>
+            <li><a href="#" class="footer__link">Contact Us</a></li>
+            <li><a href="#" class="footer__link">Privacy Policy</a></li>
+            <li><a href="#" class="footer__link">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2026 Study Station. All rights reserved.</p>
+        <p>Made with ❤️ for Indian Students</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- TOAST CONTAINER -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- JS FILES (order matters) -->
+  <script src="js/data.js"></script>
+  <script src="js/jobs_data.js"></script>
+  <script src="js/book-reader.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/pages.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/nav.js"></script>
+
+  <!-- PWA: register service worker + install prompt -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('sw.js').catch(function () { /* offline unavailable */ });
+      });
+    }
+    // Capture the install prompt so a custom button can trigger it later.
+    window.__deferredInstallPrompt = null;
+    window.addEventListener('beforeinstallprompt', function (e) {
+      e.preventDefault();
+      window.__deferredInstallPrompt = e;
+      var btn = document.getElementById('installAppBtn');
+      if (btn) btn.style.display = 'inline-flex';
+    });
+    function promptInstallApp() {
+      var e = window.__deferredInstallPrompt;
+      if (!e) return;
+      e.prompt();
+      e.userChoice.finally(function () { window.__deferredInstallPrompt = null; });
+    }
+  </script>
+</body>
+</html>

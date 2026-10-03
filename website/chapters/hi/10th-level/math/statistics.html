@@ -1,0 +1,2133 @@
+<!DOCTYPE html>
+<html lang="hi" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>सांख्यिकी — गणित अध्याय 19 | Study Station</title>
+<meta name="description" content="📖 सांख्यिकी अध्याय की रूपरेखा और सीखने के उद्देश्य इस अध्याय के अंत तक, आप यह कर पाएँगे: समझ पाएँगे कि आँकड़े (Data) क्या हैं और उन्हें कैसे व्यवस्थित">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#8B5CF6">
+<link rel="canonical" href="https://studystation.in/chapters/hi/10th-level/math/statistics.html">
+<link rel="alternate" hreflang="en" href="https://studystation.in/chapters/en/10th-level/math/statistics.html">
+<link rel="alternate" hreflang="hi" href="https://studystation.in/chapters/hi/10th-level/math/statistics.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="सांख्यिकी — गणित अध्याय 19">
+<meta property="og:description" content="📖 सांख्यिकी अध्याय की रूपरेखा और सीखने के उद्देश्य इस अध्याय के अंत तक, आप यह कर पाएँगे: समझ पाएँगे कि आँकड़े (Data) क्या हैं और उन्हें कैसे व्यवस्थित">
+<meta property="og:url" content="https://studystation.in/chapters/hi/10th-level/math/statistics.html">
+<link rel="manifest" href="../../../../manifest.webmanifest">
+<link rel="icon" type="image/svg+xml" href="../../../../assets/icon.svg">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "LearningResource", "name": "सांख्यिकी — गणित अध्याय 19", "description": "📖 सांख्यिकी अध्याय की रूपरेखा और सीखने के उद्देश्य इस अध्याय के अंत तक, आप यह कर पाएँगे: समझ पाएँगे कि आँकड़े (Data) क्या हैं और उन्हें कैसे व्यवस्थित", "inLanguage": "hi-IN", "educationalLevel": "10th Level", "about": "गणित", "isAccessibleForFree": true, "learningResourceType": "Chapter", "url": "https://studystation.in/chapters/hi/10th-level/math/statistics.html"}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Outfit:wght@600;700;800&family=Noto+Sans+Devanagari:wght@400;600;700&display=swap" rel="stylesheet">
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<link rel="stylesheet" href="../../../../css/style.css">
+<link rel="stylesheet" href="../../../../css/components.css">
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true,theme:'dark',securityLevel:'loose'});</script>
+<style>
+.seo-wrap{max-width:820px;margin:0 auto;padding:5.5rem 1rem 4rem}
+.seo-section{margin:2.5rem 0}
+.seo-section h2{font-family:'Outfit',sans-serif;font-size:1.4rem;margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid var(--accent-surface);color:var(--accent-light)}
+.seo-head h1{font-family:'Outfit',sans-serif;font-size:clamp(1.5rem,4vw,2.1rem);line-height:1.3}
+.seo-actions{display:flex;gap:.6rem;flex-wrap:wrap;margin:1.25rem 0}
+.seo-toc{background:var(--bg-secondary);border:1px solid var(--glass-border);border-radius:var(--radius-lg);padding:1rem 1.25rem;margin:1.5rem 0}
+.seo-toc a{color:var(--accent-light);margin-right:1rem;font-size:.9rem;white-space:nowrap}
+</style>
+</head>
+<body>
+<nav class="navbar"><div class="container navbar__inner">
+<a href="../../../../index.html" class="navbar__brand"><div class="navbar__logo"><ion-icon name="book-sharp"></ion-icon></div><span>Study Station</span></a>
+<ul class="navbar__links">
+<li><a href="../../../../index.html" class="navbar__link">Home</a></li>
+<li><a href="../../../../chapters/index.html" class="navbar__link active">Chapters</a></li>
+<li><a href="../../../../jobs.html" class="navbar__link">Jobs</a></li>
+</ul>
+</div></nav>
+
+<main class="seo-wrap">
+<nav class="breadcrumb" aria-label="breadcrumb">
+<a href="../../../../index.html">Home</a> <span class="breadcrumb__sep">/</span>
+<a href="../../../../chapters/index.html">Chapters</a> <span class="breadcrumb__sep">/</span>
+<span class="breadcrumb__current">गणित</span>
+</nav>
+
+<header class="seo-head">
+<span class="section__badge">10th Level · गणित</span>
+<h1>सांख्यिकी — गणित अध्याय 19</h1>
+<p style="color:var(--text-secondary);margin-top:.5rem">मुफ़्त पाठ, माइंड मैप, शॉर्ट ट्रिक्स और अभ्यास प्रश्न — हिंदी में।</p>
+<div class="seo-actions">
+<a class="btn btn--primary" href="../../../../index.html#books"><ion-icon name="book-outline"></ion-icon>इंटरैक्टिव रीडर में खोलें</a>
+<a class="btn" style="background:var(--bg-tertiary);color:var(--text-primary)" href="../../../../chapters/en/10th-level/math/statistics.html" hreflang="en">English</a>
+</div>
+</header>
+
+<nav class="seo-toc"><a href="#content">पाठ</a><a href="#feynman">आसान भाषा में</a><a href="#tricks">शॉर्ट ट्रिक्स</a><a href="#mindmap">माइंड मैप</a><a href="#pyq">पिछले वर्ष के प्रश्न</a><a href="#practice">अभ्यास प्रश्न</a></nav>
+
+<section class="seo-section" id="content">
+  <h2>पाठ</h2>
+<div class="emoji-section"><span class="emoji-section__icon">📖</span><strong>सांख्यिकी</strong></div>
+<h4>अध्याय की रूपरेखा और सीखने के उद्देश्य</h4>
+<p>इस अध्याय के अंत तक, आप यह कर पाएँगे:</p>
+<p>समझ पाएँगे कि आँकड़े (Data) क्या हैं और उन्हें कैसे व्यवस्थित किया जाता है।</p>
+<p>अवर्गीकृत (कच्चे) और वर्गीकृत आँकड़ों के लिए माध्य, माध्यिका और बहुलक की गणना कर पाएँगे।</p>
+<p>वास्तविक जीवन में केंद्रीय प्रवृत्ति के सही माप का चयन कर पाएँगे।</p>
+<p>आयतचित्र, बारंबारता बहुभुज और तोरण (Ogive) जैसे आधारभूत ग्राफ पढ़ और बना पाएँगे।</p>
+<p>SSC, बैंकिंग, रेलवे के प्रश्नों को आत्मविश्वास से हल कर पाएँगे।</p>
+<p>वह संख्या जो आपको करोड़पति दिखा सकती है... या पूरी तरह बेवकूफ बना सकती है</p>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">ज़रा सोचिए: आप एक छोटी-सी चाय की दुकान में बैठे हैं। अंदर बस दो लोग हैं—आप और मुकेश अंबानी। उस कमरे की औसत (माध्य) संपत्ति अचानक हज़ारों करोड़ रुपये हो जाती है। लेकिन आपकी जेब में अब भी सिर्फ पचास रुपये हैं। क्या आप अचानक करोड़पति बन गए? बिल्कुल नहीं। अगर आप संख्याओं को पढ़ना नहीं जानते तो वह &quot;औसत&quot; एक क्रूर मज़ाक है।</div></div>
+<p>सांख्यिकी ऐसे ही संख्या-जालों के खिलाफ आपकी ढाल है। यह और कुछ नहीं, बल्कि आँकड़ों को इकट्ठा करने, व्यवस्थित करने और उनका अर्थ निकालने की कला और विज्ञान है। और एक बार जब आप इसमें माहिर हो गए, तो कोई भी हेडलाइन आपको कभी मूर्ख नहीं बना पाएगी।</p>
+<div class="emoji-section"><span class="emoji-section__icon">📊</span><strong>प्रतियोगी परीक्षाएँ सांख्यिकी से इसलिए प्यार करती हैं क्योंकि यह तार्किक सोच की परीक्षा लेती है, न कि केवल गणना की। इस अध्याय को अपना &quot;डेटा-जासूस&quot; प्रशिक्षण समझिए।</strong></div>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">सांख्यिकी राक्षस क्यों लगती है?</div></div>
+<p>ईमानदार रहिए—जब आपने पहली बार 50 संख्याओं वाली तालिका और &quot;माध्यिका वर्ग&quot; शब्द देखा था, तब आपका एक हिस्सा इस अध्याय को छोड़ देना चाहता था। आप अकेले नहीं हैं। अधिकतर विद्यार्थी सूत्रों से घबरा जाते हैं। लेकिन यहाँ रहस्य है: पूरे अध्याय को तीन सरल प्रश्नों में समेटा जा सकता है—</p>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">सबसे सामान्य मान क्या है? (माध्य)</div></div>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">बीच वाला मान क्या है? (माध्यिका)</div></div>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">कौन-सा मान सबसे अधिक बार आता है? (बहुलक)</div></div>
+<p>एक बार जब आप इन तीनों का उत्तर दे सकते हैं, तब आप सांख्यिकी के 80% मालिक बन चुके हैं। बाकी बचा केवल तालिकाओं को करीने से संभालना सीखना। तो गहरी साँस लीजिए; हम यह रास्ता कदम-दर-कदम चलेंगे।</p>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">1. आँकड़े (Data) क्या हैं?</div></div>
+<p>आँकड़े संख्याओं में दी गई सूचना मात्र हैं। 40 विद्यार्थियों के टेस्ट के अंक, आपके शहर की मासिक वर्षा, या एक दिन में बिके शेयरों की संख्या—यह सब आँकड़े हैं।</p>
+<p>आँकड़े दो रूपों में आते हैं:</p>
+<p>कच्चे/अवर्गीकृत आँकड़े: अलग-अलग संख्याओं की एक सूची। उदाहरण: 12, 15, 11, 18, 12।</p>
+<p>वर्गीकृत आँकड़े: जब आँकड़े बहुत बड़े हों, तो हम उन्हें वर्ग अंतरालों में दबा देते हैं। उदाहरण: 0-10, 10-20, 20-30 आदि, बारंबारताओं के साथ।</p>
+<p>हमारा काम है एक ऐसा एकल मान खोजना जो पूरे आँकड़ों का प्रतिनिधित्व करे। सांख्यिकीविद् इसे &quot;केंद्रीय प्रवृत्ति की माप&quot; कहते हैं।</p>
+<div class="recall-box">🧠 सक्रिय स्मरण: यदि आपके पास अंक हैं: 5, 5, 5, 5, 5, तो बिना कोई गणना किए &quot;केंद्रीय&quot; मान क्या है? (</div>
+<p>उत्तर: 5, क्योंकि सभी मान समान हैं—हर माप 5 होगी।) आगे बढ़ने से पहले सोचिए।</p>
+<h3>2. केंद्रीय प्रवृत्ति के तीन स्तंभ</h3>
+<table class="content-table">
+<tr><td>स्तंभ</td><td>क्या करता है</td><td>कब सर्वोत्तम है</td></tr>
+<tr><td>माध्य (औसत)</td><td>हर मान को बराबर खींचता है</td><td>जब आँकड़ों में अतिवादी मान न हों</td></tr>
+<tr><td>माध्यिका</td><td>आँकड़ों को दो बराबर हिस्सों में बाँटती है</td><td>जब आँकड़ों में अतिवादी मान हों (आय, कीमतें)</td></tr>
+<tr><td>बहुलक</td><td>सबसे अधिक आने वाला मान बताता है</td><td>जब आँकड़े श्रेणीगत हों (पसंदीदा रंग, जूते का साइज़)</td></tr>
+</table>
+<p>स्मृति ट्रिक (Mnemonic) – &quot;पापा मोदी जी&quot;</p>
+<p>पा = पारमार्थ (Mean, जो सबको जोड़कर औसत निकालता है)</p>
+<p>प = प्रतिनिधि मध्य (Median, ठीक बीच वाला)</p>
+<p>मो = मोस्ट फ़्रीक्वेंट (Mode, सबसे ज़्यादा बार)</p>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">&quot;पापा मोदी जी&quot; बोलते ही याद रखिए—मो यानी मोड (बहुलक)। अजीब है न? अब यह ज़िंदगी भर नहीं भूलेगा।</div></div>
+<p>अब तीनों को एक-एक करके खोलते हैं।</p>
+<p>3. माध्य (संवेदनशील मित्र)</p>
+<p>माध्य की गणना सभी मानों को जोड़कर और मानों की संख्या से भाग देकर की जाती है। यह एक ऐसी पार्टी की तरह है जहाँ हर कोई बराबर पैसे देता है और कुल रकम बराबर बाँट ली जाती है।</p>
+<p>अवर्गीकृत आँकड़ों के लिए सूत्र:</p>
+<p>माध्य = (सभी प्रेक्षणों का योग) / (प्रेक्षणों की संख्या)</p>
+<p>उदाहरण: अंक 10, 20, 30 → योग = 60, संख्या = 3, माध्य = 20।</p>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">माध्य &quot;संवेदनशील&quot; क्यों है?</div></div>
+<p>एक अतिवादी मान जोड़िए और माध्य उसकी ओर भागता है। मुकेश अंबानी वाले उदाहरण में, माध्य हज़ारों करोड़ से खिसक गया। इसीलिए आय के लिए माध्य बहुत कम इस्तेमाल होता है—एक करोड़पति पूरे गाँव को अमीर दिखा सकता है।</p>
+<div class="recall-box">🧠 त्वरित जाँच: 4, 8, x, 12 का माध्य 8 है। x ज्ञात कीजिए।</div>
+<p><em>(रुकिए, हल कीजिए, फिर उत्तर पढ़िए: योग = 4+8+x+12 = 24+x। माध्य = (24+x)/4 = 8 → 24+x = 32 → x = 8)</em></p>
+<h4>वर्गीकृत आँकड़ों के लिए माध्य</h4>
+<p>जब आँकड़े बारंबारता सारणी में हों, तो हमारे पास तीन विधियाँ हैं:</p>
+<p>प्रत्यक्ष विधि: माध्य = Σ(fᵢ·xᵢ) / Σfᵢ, जहाँ xᵢ वर्ग चिह्न (मध्य-बिंदु) है।</p>
+<p>कल्पित माध्य विधि: माध्य = a + (Σfᵢ·dᵢ)/Σfᵢ, जहाँ dᵢ = xᵢ − a</p>
+<p>पद विचलन विधि: माध्य = a + (Σfᵢ·uᵢ)/Σfᵢ × h, जहाँ uᵢ = (xᵢ − a)/h</p>
+<p>(तीनों एक ही उत्तर देती हैं। जब वर्ग आकार समान हों तो पद विचलन का प्रयोग करें—यह बहुत समय बचाती है!)</p>
+<div class="recall-box">🧠 सक्रिय स्मरण: वर्ग अंतराल 20-30 के लिए वर्ग चिह्न क्या है? *(</div>
+<h4>उत्तर: (20+30)/2 = 25)*</h4>
+<p>4. माध्यिका (बीच वाला बच्चा)</p>
+<p>माध्यिका वह मान है जो आँकड़ों को आरोही क्रम में रखने पर ठीक बीच में आता है। उसे चरम मानों से कोई फ़र्क नहीं पड़ता। वह बस बीच में खड़ी रहती है—ठीक उस शांत भाई-बहन की तरह जो नखरों को अनदेखा करता है।</p>
+<p>अवर्गीकृत आँकड़े:</p>
+<p>यदि मानों की संख्या (n) विषम है, तो माध्यिका = ((n+1)/2)वाँ पद।</p>
+<p>यदि n सम है, तो माध्यिका = (n/2)वें और (n/2 +1)वें पद का औसत।</p>
+<p>उदाहरण: 7, 3, 9, 1, 5 → क्रमित: 1, 3, 5, 7, 9 → n=5 (विषम), (5+1)/2 = तीसरा पद → माध्यिका = 5।</p>
+<p>वर्गीकृत आँकड़े:</p>
+<h4>माध्यिका = l + (n/2 − cf)/f × h</h4>
+<p>जहाँ l = माध्यिका वर्ग की निचली सीमा, cf = माध्यिका वर्ग से पहले की संचयी बारंबारता, f = माध्यिका वर्ग की बारंबारता, h = वर्ग आकार।</p>
+<p>📈 माध्यिका वर्ग वह वर्ग होता है जिसकी संचयी बारंबारता पहली बार ≥ n/2 हो जाए।</p>
+<p>ग्राफीय विधि: आप तोरण (संचयी बारंबारता वक्र) से भी माध्यिका ज्ञात कर सकते हैं—y-अक्ष पर n/2 लोकित करके x-अक्ष पर लंब डालिए।</p>
+<div class="recall-box">🧠 त्वरित अभ्यास: 12, 15, 11, 18, 20, 14 की माध्यिका ज्ञात कीजिए। *(</div>
+<p>उत्तर: क्रमित: 11,12,14,15,18,20; n=6 सम → माध्यिका = तीसरे और चौथे का औसत = (14+15)/2 = 14.5)*</p>
+<p>5. बहुलक (लोकप्रिय खिलाड़ी)</p>
+<p>बहुलक वह मान है जो सबसे अधिक बार आता है। एक जूता कंपनी में, बहुलक बताता है कि कौन-सा साइज़ सबसे ज़्यादा बिकता है—तो वे उसी साइज़ का अधिक उत्पादन करते हैं।</p>
+<p>अवर्गीकृत आँकड़े: बस सबसे अधिक बारंबारता वाली संख्या ढूँढिए।</p>
+<p>उदाहरण: 2,3,2,4,2,5 → बहुलक = 2।</p>
+<p>वर्गीकृत आँकड़े:</p>
+<h4>बहुलक = l + [(f₁ − f₀) / (2f₁ − f₀ − f₂)] × h</h4>
+<p>जहाँ l = बहुलक वर्ग (अधिकतम बारंबारता वाला वर्ग) की निचली सीमा, f₁ = बहुलक वर्ग की बारंबारता, f₀ = उससे पहले की बारंबारता, f₂ = उसके बाद की बारंबारता, h = वर्ग आकार।</p>
+<p>⚠️ बहुत से विद्यार्थी माध्यिका सूत्र और बहुलक सूत्र में भ्रमित हो जाते हैं। इन्हें अलग रखिए: माध्यिका n/2 और संचयी बारंबारता का प्रयोग करती है; बहुलक तीन पड़ोसी बारंबारताओं का प्रयोग करता है।</p>
+<div class="recall-box">🧠 अजीब लेकिन अविस्मरणीय ट्रिक: बहुलक = &quot;बार-बार हुआ लगता है कमाल&quot;। बहुलक वर्ग वही जिसकी बारंबारता बहुत लंबी (सबसे ऊँची) हो। ज़ोर से बोलिए: &quot;बहु-लक!&quot; जैसे कोई जादू का मंत्र। यह हमेशा याद रहेगा।</div>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">6. कौन-सा माप कब प्रयोग करें?</div></div>
+<p>माध्य: जब आँकड़े सममित हों और अतिवादी मान अनुपस्थित हों। उदाहरण: कक्षा की औसत ऊँचाई।</p>
+<p>माध्यिका: जब आँकड़े तिरछे (विषम) हों। उदाहरण: किसी देश की औसत आय। भारत सरकार अरबपतियों के कारण विकृति से बचने के लिए माध्यिका घरेलू आय का प्रयोग करती है।</p>
+<p>बहुलक: श्रेणीगत आँकड़ों के लिए या सबसे आम मामला जानने के लिए। उदाहरण: सबसे सामान्य रक्त समूह।</p>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">📉 कहानी स्मरण: 10 लोगों की एक कंपनी में, 9 कर्मचारी ₹20,000 कमाते हैं और मालिक ₹2,00,000 कमाता है। माध्य = ₹38,000 (भ्रामक), माध्यिका = ₹20,000 (सच्ची तस्वीर), बहुलक = ₹20,000। आप किस पर विश्वास करेंगे?</div></div>
+<p>7. ग्राफीय उपकरणों की एक झलक (प्रतियोगी बढ़त के लिए)</p>
+<p>आयतचित्र: सतत वर्ग अंतरालों के लिए बार चार्ट की तरह (बार आपस में जुड़े होते हैं)।</p>
+<p>बारंबारता बहुभुज: आयतचित्र के शीर्षों के मध्य-बिंदुओं को सीधी रेखाओं से जोड़िए। बार के बिना भी खींचा जा सकता है।</p>
+<p>तोरण (संचयी बारंबारता वक्र): &quot;से कम&quot; प्रकार या &quot;से अधिक&quot; प्रकार। माध्यिका, चतुर्थक आदि ज्ञात करने में प्रयुक्त।</p>
+<p>ये सीधे प्रश्नों में कम आते हैं लेकिन डेटा इंटरप्रिटेशन खंडों में अक्सर दिखते हैं।</p>
+<div class="recall-box">🧠 बिना नोट्स के स्मरण: तोरण में आप माध्यिका कैसे लोकित करते हैं? *(</div>
+<p>उत्तर: y-अक्ष पर n/2 पर बिंदु लगाएँ, वक्र तक क्षैतिज रेखा खींचें, फिर x-अक्ष पर लंबवत रेखा गिराएँ।)*</p>
+<h4>सारांश तालिका – एक नज़र में सूत्र</h4>
+<table class="content-table">
+<tr><td>माप</td><td>अवर्गीकृत आँकड़े</td><td>वर्गीकृत आँकड़े</td></tr>
+<h4>माध्य</h4>
+<p>Σ</p>
+<p>n</p>
+<p>Σx</p>
+</table>
+<p>Σ</p>
+<p>Σ</p>
+<p>Σf</p>
+<p>i</p>
+<p>Σf</p>
+<p>i</p>
+<p>x</p>
+<p>i</p>
+<p>(प्रत्यक्ष)</p>
+<p>+</p>
+<p>Σ</p>
+<p>Σ</p>
+<p>a+</p>
+<p>Σf</p>
+<p>i</p>
+<p>Σf</p>
+<p>i</p>
+<p>d</p>
+<p>i</p>
+<p>(कल्पित माध्य)</p>
+<p>+</p>
+<p>Σ</p>
+<p>Σ</p>
+<p>⋅</p>
+<p>ℎ</p>
+<p>a+</p>
+<p>Σf</p>
+<p>i</p>
+<p>Σf</p>
+<p>i</p>
+<p>u</p>
+<p>i</p>
+<p>⋅h (पद विचलन)</p>
+<table class="content-table">
+<tr><td>माध्यिका</td><td>क्रमित करने के बाद मध्य मान</td></tr>
+<p>+</p>
+<p>2</p>
+<p>−</p>
+<p>⋅</p>
+<p>ℎ</p>
+<p>l+</p>
+<p>f</p>
+<p>2</p>
+<p>n</p>
+</table>
+<p>−cf</p>
+<p>⋅h</p>
+<table class="content-table">
+<tr><td>बहुलक</td><td>सर्वाधिक बारंबारता वाला मान</td></tr>
+<p>+</p>
+<p>1</p>
+<p>−</p>
+<p>0</p>
+<p>2</p>
+<p>1</p>
+<p>−</p>
+<p>0</p>
+<p>−</p>
+<p>2</p>
+<p>⋅</p>
+<p>ℎ</p>
+<p>l+</p>
+<p>2f</p>
+<p>1</p>
+</table>
+<p>−f</p>
+<p>0</p>
+<p>−f</p>
+<p>2</p>
+<p>f</p>
+<p>1</p>
+<p>−f</p>
+<p>0</p>
+<p>⋅h</p>
+<p>मुख्य व्याख्याएँ:</p>
+<p>माध्य &gt; माध्यिका &gt; बहुलक → धनात्मक रूप से तिरछा (दाईं ओर पूँछ, कुछ उच्च मान)।</p>
+<p>माध्य &lt; माध्यिका &lt; बहुलक → ऋणात्मक रूप से तिरछा (बाईं ओर पूँछ, कुछ निम्न मान)।</p>
+<p>माध्य = माध्यिका = बहुलक → पूर्णतः सममित।</p>
+<h4>आपकी चुनौती: 2 दिन बाद दोहराएँ</h4>
+<p>अभी अपने फ़ोन पर एक रिमाइंडर सेट करें: &quot;सांख्यिकी – 2-दिन स्मरण&quot;। जब यह बजे, आँखें बंद करके बिना देखे इनका उत्तर दें:</p>
+<p>वर्गीकृत आँकड़ों के लिए माध्यिका का सूत्र लिखिए और हर पद समझाइए।</p>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">आय के आँकड़ों के लिए माध्य के बजाय माध्यिका का प्रयोग क्यों किया जाता है?</div></div>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">हल कीजिए: 10, 20, 30, 40, 500 का माध्य और माध्यिका ज्ञात कीजिए। कौन बेहतर प्रतिनिधि है और क्यों?</div></div>
+<p>&quot;पापा मोदी जी&quot; स्मृति ट्रिक याद करके इसका विस्तार कीजिए।</p>
+<p>यदि आप इनका उत्तर दे सकते हैं, तो आपने इन अवधारणाओं को सचमुच अपना बना लिया है। यदि नहीं, तो बस 5 मिनट संबंधित भाग को दोबारा पढ़ें। यही टॉपर्स का रहस्य है—अंतरालित पुनरावृत्ति।</p>
+<p>अब आपकी सांख्यिकी की नींव चट्टान की तरह मज़बूत है। आगे बढ़ते रहिए!</p>
+</section>
+<section class="seo-section" id="feynman">
+  <h2>आसान भाषा में</h2>
+<h4>👦🏼 फ़ेनमैन समझा रहे हैं: सांख्यिकी</h4>
+<p>सबसे कठिन चीज़ जो अब इतनी आसान लगेगी कि पाँचवीं कक्षा का बच्चा भी समझ ले</p>
+<p>सांख्यिकी की सबसे कठिन बात सूत्र नहीं है — सबसे कठिन बात है इस बात पर यक़ीन करना कि एक अकेली संख्या आपसे इतनी ख़ूबसूरती से झूठ बोल सकती है कि आप उसका शुक्रिया अदा करने लगें। वह संख्या है माध्य (Mean / औसत)। और सीधी सी सच्चाई यह है: माध्य एक ड्रामेबाज़ हीरोइन है। ज़रा सी भी अजीबो-ग़रीब चीज़ आए और यह उछलकर उसके पास भागती है। चलिए एक कहानी सुनाता हूँ।</p>
+<h4>जन्मदिन की चॉकलेट तबाही</h4>
+<p>मान लीजिए, आज आपका बारहवाँ जन्मदिन है। आपने अपने 9 सबसे अच्छे दोस्तों को बुलाया है। आप सब लोग मिलकर तय करते हैं कि पिछले हफ़्ते हर किसी को कितनी चॉकलेट मिलीं, बताओ (थोड़ी अजीब पार्टी है, मगर मेरे साथ बने रहो)। सब बच्चों की संख्या कुछ ऐसी है:</p>
+<p>2, 3, 2, 4, 2, 3, 3, 2, 4, और आपको मिलीं 2.</p>
+<p>अब, औसत (माध्य) = (2+3+2+4+2+3+3+2+4+2) ÷ 10 = 27 ÷ 10 = 2.7 चॉकलेट। सब सहमत हैं, एकदम सही लग रहा है।</p>
+<p>तभी अचानक आपके सनकी चाचा अंदर आते हैं। वे चॉकलेट फ़ैक्ट्री के मालिक हैं (पूरी तरह संभव है हमारी कहानी में)। कहते हैं, “भतीजे, मुझे भी अपनी लिस्ट में जोड़ लो। मुझे पिछले हफ़्ते 500 चॉकलेट मिलीं।” सबके मुँह खुले के खुले रह गए। नई लिस्ट: वही 10 बच्चे और आपके चाचा (कुल 11 लोग)। कुल चॉकलेट = 27 + 500 = 527। माध्य = 527 ÷ 11 ≈ 47.9 चॉकलेट।</p>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">अब इसे देखिए। माध्य चिल्लाकर बोल रहा है “47.9 चॉकलेट” लेकिन हर एक बच्चे के पास या तो 2, 3 या 4 चॉकलेट थीं। क्या 47.9 उस कमरे में बैठे किसी भी इंसान का सच दिखाता है? बिलकुल नहीं। आपके चाचा, एक विशाल उल्कापिंड की तरह, माध्य को अपनी ओर खींचकर ऊपर ले गए। अगर कहीं अतिवादी मान हों, तो माध्य पक्का झूठा है।</div></div>
+<h4>बीच का रास्ता दिखाने वाला नायक: माध्यिका</h4>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">तो अगर आप सच में बताना चाहें कि “इस कमरे का एक आम इंसान कैसा दिखता है” तो क्या करें? तब आप प्रयोग करें माध्यिका (Median) का। माध्यिका को आपके चाचा की बिलकुल परवाह नहीं है। वह बस सबको छोटे से बड़े की कतार में खड़ा करती है और ठीक बीच वाले इंसान के पास जाकर खड़ी हो जाती है। यह उस शांत मित्र की तरह है जो किसी चमक-धमक से प्रभावित नहीं होता।</div></div>
+<p>बिना रोए 10 सेकंड में माध्यिका निकालना:</p>
+<p>सभी मानों को आरोही क्रम (छोटे से बड़े) में सजाओ।</p>
+<p>अगर लोगों की संख्या (n) विषम है, तो माध्यिका = ठीक (n+1)/2वें स्थान वाला इंसान।</p>
+<p>अगर n सम है, तो माध्यिका = बीच के दो लोगों का औसत।</p>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">हमारे मूल 10 बच्चे (सम संख्या): पहले इन्हें ढंग से सजाऊँ: 2,2,2,2,2,3,3,3,4,4। 5वाँ बच्चा = 2, 6वाँ बच्चा = 3। माध्यिका = (2+3)/2 = 2.5। फिर भी सच्चाई के बहुत क़रीब। अब चाचा को भी जोड़िए: सजी हुई कतार: 2,2,2,2,2,3,3,3,4,4,500। n=11 विषम, (11+1)/2 = छठा स्थान। छठा मान 3 है। माध्यिका = 3। देखा? चाचा ने माध्यिका को छुआ तक नहीं। वह अपनी जगह पर अडिग है।</div></div>
+<p>यही कारण है कि असली ज़िंदगी में अख़बार और सरकारें “औसत आय” के बजाय माध्यिका आय (Median Income) का इस्तेमाल करती हैं। क्योंकि चंद अरबपति अगर गिनती में आ गए तो “औसत आय” आसमान छूने लगेगी और आपको लगेगा कि पूरा देश अमीर हो गया है। जबकि माध्यिका ज़मीन पर टिकी रहती है।</p>
+<p>अविस्मरणीय ट्रिक (जो कभी नहीं भूलोगे)</p>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">एक गली की कल्पना करो जिसमें 9 छोटे-छोटे मकान हैं और एक बहुत बड़ी बहुमंज़िला इमारत। माध्य (औसत) एक ड्रोन की तरह है जो पूरे इलाके के ऊपर उड़ता है — वह उस ऊँची इमारत की वजह से खिंच जाता है और चिल्लाता है “यहाँ का औसत कद 100 मीटर है”। माध्यिका एक डाकिए की तरह है जो बस गली के बीच वाले घर पर चिट्ठी डालने रुकता है — उसे उस बेवकूफ़ इमारत से कोई लेना-देना नहीं; वह घर गिनता है और पाँचवें घर पर रुक जाता है। तो जब भी “औसत” सुनो, तुरंत पूछ लिया करो: किसी ने ड्रोन (माध्य) का इस्तेमाल किया या डाकिए (माध्यिका) का?</div></div>
+<p>स्मृति मंत्र: “माध्य चरम के संग उड़ जाए, माध्यिका बीच डटी रह जाए।”</p>
+<h4>तुम्हारी बारी: दिमाग़ के लिए एक सवाल</h4>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">तुम्हारी क्रिकेट टीम में 11 खिलाड़ी हैं जिनका औसत (माध्य) वज़न 55 किलोग्राम है। एक नया खिलाड़ी, जिसका वज़न 110 किलोग्राम है, टीम में शामिल होता है। बताओ, माध्य वज़न का क्या होगा? और अगर कोच ऐसा वज़न बताना चाहे जो सचमुच उसकी टीम का प्रतिनिधित्व करे, तो उसे नए खिलाड़ी के आने के बाद माध्य रिपोर्ट करना चाहिए या माध्यिका? (संकेत: डाकिए को 110 किलो वाले दैत्य से कोई फ़र्क नहीं पड़ता।)</div></div>
+<p>अब जाओ, किसी बड़े को यह समझाकर दिखाओ। अगर वे समझ गए, तो तुम सच्चे फ़ेनमैन हो।</p>
+</section>
+<section class="seo-section" id="tricks">
+  <h2>शॉर्ट ट्रिक्स</h2>
+<p>ट्रिक 1: माध्य का सूत्र (अवर्गीकृत) — &quot;जोड़ – गिन – भाग&quot;</p>
+<p>सोचिए एक जोकर (जोड़) सबके पैसे जोड़ता है, फिर गिन (गिनती) लेता है कितने लोग हैं, और अंत में भाग (भाग) देकर बराबर बाँट देता है। सूत्र: माध्य = (सबका योग) / (कुल संख्या)। एक्रोनिम: &quot;जो-गि-भा&quot; (जोड़ो, गिनो, भाग करो)।</p>
+<p>ट्रिक 2: वर्गीकृत माध्य की तीन विधियाँ — &quot;डैम पगडंडी&quot;</p>
+<p>तीन रास्ते: डायरेक्ट (D), असम्ड मीन (A), स्टेप डेविएशन (S)। इसे याद करो &quot;DAS&quot; या हिंदी में &quot;दस&quot; विधियाँ। पर हम कहते हैं &quot;डैम (D.</p>
+<p>A.</p>
+<p>M.)&quot; – डायरेक्ट, असम्ड, और फिर मतलब स्टेप (Step) पर चढ़ो। जैसे बाँध (डैम) पर चढ़कर सीढ़ी (स्टेप) से उतरना। स्टेप डेविएशन में u = (x - a)/h — इसे &quot;उ-टर्न&quot; समझो: a से x तक का सफ़र h के कदमों में।</p>
+<p>ट्रिक 3: माध्यिका (अवर्गीकृत) — &quot;विषम: बीच वाला, सम: बीच के दो&quot;</p>
+<p>कल्पना करो एक विषम (odd) संख्या वाली कतार में बीच का व्यक्ति चुपचाप खड़ा है – वही माध्यिका। और सम (even) हो तो दो बीच वाले साथ खड़े होकर हाथ मिलाते हैं, उनका औसत लेना है। ध्यान रखने का तरीका: &quot;विषम में विश्राम एक पर, सम में संगम दो का।&quot;</p>
+<p>ट्रिक 4: माध्यिका सूत्र (वर्गीकृत) — &quot;लालू की नसीहत: चाय-पानी फिर हलचल&quot;</p>
+<h4>Median = l + [ (n/2 – cf) / f ] × h</h4>
+<p>लालू (l) कहता है: &quot;नसीहत (n/2) – चाय (cf) पी, फिर (f) हलचल (h) कर।&quot;</p>
+<p>l = निम्न सीमा, n/2 = आधी कुल बारंबारता, cf = पूर्व संचयी बारंबारता, f = माध्यिका वर्ग की बारंबारता, h = वर्ग अंतराल। याद रखो — लालू का चाय-पानी और हलचल।</p>
+<p>ट्रिक 5: बहुलक = मोस्ट फ़्रीक्वेंट — &quot;मो-दे की दुकान&quot;</p>
+<p>बहुलक (Mode) = सबसे ज़्यादा बार आने वाला।</p>
+<p>एक मो (More) सामान वाली दे (दुकान) – जहाँ ग्राहक सबसे अधिक बार आते हैं। बोलो &quot;मो-दे&quot; — तुरंत याद आएगा कि बहुलक का मतलब सबसे अधिक बारंबारता।</p>
+<p>ट्रिक 6: बहुलक सूत्र (वर्गीकृत) — &quot;प्यार का फ़ॉर्मूला: f₁ का f₀ और f₂ से रिश्ता&quot;</p>
+<h4>बहुलक = l + [ (f₁ – f₀) / (2f₁ – f₀ – f₂) ] × h</h4>
+<p>सोचो: बहुलक वर्ग (f₁) अपने पिछले वर्ग (f₀) से झगड़ा करता है, और अगले (f₂) से भी। अंतर (f₁ – f₀) को दोगुने f₁ में से दोनों पड़ोसी घटाकर (2f₁ – f₀ – f₂) भाग दो। बस फिर उसे h से गुणा करके l में जोड़ दो। याद करो: &quot;प्यार में पड़ोसी का टकराव, बीच का फ़ैसला।&quot;</p>
+<p>ट्रिक 7: अनुभवजन्य संबंध — &quot;तीन पुरुष – दो भोजन = मॉडल&quot;</p>
+<h4>बहुलक = 3 × माध्यिका – 2 × माध्य</h4>
+<p>कहानी: तीन पुरुष (माध्यिका, Median) का एक समूह, जिसमें से दो भोजन (माध्य, Mean) छीन लिए गए, और बच गया एक मॉडल (बहुलक, Mode)। इसलिए: 3</p>
+<h4>Mdn – 2</h4>
+<p>Mn = एक Mode। हिंदी में: &quot;तीन मध्यस्थ – दो औसत = एक बहुलक।&quot;</p>
+<p>ट्रिक 8: तिरछापन (Skewness) — &quot;पूँछ जिधर, माध्य उधर&quot;</p>
+<p>धनात्मक तिरछा (दाहिनी पूँछ): माध्य &gt; माध्यिका &gt; बहुलक</p>
+<p>ऋणात्मक तिरछा (बाईं पूँछ): बहुलक &gt; माध्यिका &gt; माध्य</p>
+<p>याद रखो: माध्य एक ड्रामेबाज़ औरत है, वह पूँछ की दिशा में भागती है। अगर पूँछ दाहिनी ओर है, तो माध्य सबसे बड़ा। अगर बाईं ओर, तो माध्य सबसे छोटा।</p>
+<p>&quot;दाहिनी पूँछ = दाहिना माध्य; बाईं पूँछ = बायाँ माध्य।&quot;</p>
+<p>ट्रिक 9: तोरण (Ogive) से माध्यिका — &quot;आधा दो, पार करो, नीचे गिराओ&quot;</p>
+<p>तोरण (Ogive) वक्र पर माध्यिका निकालने के लिए:</p>
+<p>y-अक्ष पर n/2 (आधा) लोकेट करो।</p>
+<p>वहाँ से क्षैतिज रेखा खींचकर वक्र को पार करो।</p>
+<p>फिर उस बिंदु से x-अक्ष पर लंब गिराओ – वह माध्यिका।</p>
+<p>एक्रोनिम: &quot;आ.पा.नी&quot; — आधा → पार → नीचे।</p>
+<p>कहानी: एक पायलट आधी ऊँचाई पर उड़ता है, बादलों को पार करता है, और फिर नीचे उतरता है – लैंडिंग पॉइंट ही माध्यिका।</p>
+<p>ट्रिक 10: बारंबारता बहुभुज — &quot;मध्य-शिखर मिलन&quot;</p>
+<p>बारंबारता बहुभुज (Frequency Polygon) बनाने के लिए आयतचित्र (Histogram) के शीर्षों (tops) के मध्य-बिंदुओं को सरल रेखाओं से जोड़ते हैं।</p>
+<p>कल्पना करो एक मकड़ी जो हर छत के बीचोबीच रखे बिंदु पर पैर रखती हुई चलती है – यही बहुभुज।</p>
+<p>&quot;बहुभुज = मध्य-बिंदु शृंखला&quot; या &quot;पॉलीगॉन = पॉइंट्स जोड़ो।&quot;</p>
+<p>ट्रिक 11: वर्ग चिह्न (Class Mark) — &quot;लूसी (L+U/2)&quot;</p>
+<h4>वर्ग चिह्न = (निम्न सीमा + उच्च सीमा) / 2</h4>
+<p>L (Lower) और U (Upper) का औसत। इनकी बेटी का नाम लूसी (Lucy) रखो। लूसी बराबर है (L+U)/2।</p>
+<p>&quot;लूसी = L और U का मिलन-बिंदु।&quot;</p>
+<p>ट्रिक 12: पद विचलन विधि — &quot;उ-टर्न का खेल&quot;</p>
+<h4>Step Deviation में: uᵢ = (xᵢ – a)/h</h4>
+<p>एक गाड़ी a (assumed mean) से चलकर xᵢ तक जाती है, लेकिन रास्ते में हर h (class size) कदम पर रुकती है। यह एक &quot;उ-टर्न&quot; है।</p>
+<h4>माध्य = a + (Σf u / Σf) × h</h4>
+<p>वाक्य: &quot;पहले a से उ-टर्न मारो, फिर h से गुणा करके जोड़ो।&quot;</p>
+<p>ट्रिक 13: केंद्रीय प्रवृत्ति की पहचान — &quot;पापा मोदी जी&quot;</p>
+<p>पा – पारमार्थ (Mean) — सबको जोड़कर बाँटता है।</p>
+<p>प – प्रतिनिधि मध्य (Median) — ठीक बीच वाला।</p>
+<p>मो – मोस्ट फ़्रीक्वेंट (Mode) — सबसे ज़्यादा बार।</p>
+<p>जब भी सांख्यिकी सुनो, बुदबुदाओ &quot;पापा मोदी जी&quot; – तीनों दिमाग़ में कौंध जाएँगे।</p>
+<p>ट्रिक 14: संचयी बारंबारता — &quot;झरना (Waterfall)&quot;</p>
+<p>संचयी बारंबारता ठीक वैसे ही है जैसे कोई झरना – हर स्तर पर पानी पिछले सारे पानी को जोड़ता जाता है।</p>
+<p>जब तक झरना n/2 को पार न करे, तब तक चलते रहो; जिस स्तर पर पार करे, वही माध्यिका वर्ग।</p>
+<p>इमेज: एक व्यक्ति सीढ़ियाँ चढ़ता है, हर सीढ़ी पर पिछली सीढ़ियों की संख्या जोड़ता जाता है – आधी सीढ़ी (n/2) पार होते ही वह रुकता है और उस सीढ़ी को &quot;माध्यिका&quot; कहता है।</p>
+<p>ट्रिक 15: माध्य और माध्यिका में अंतर — &quot;ड्रोन और डाकिया&quot;</p>
+<p>माध्य (Mean) एक ड्रोन है – ऊपर उड़ता है और एक ऊँची इमारत (अतिवादी मान) देखकर पूरे इलाके का औसत बढ़ा-चढ़ाकर बताता है।</p>
+<p>माध्यिका (Median) एक डाकिया है – वह केवल गली के बीच वाले घर पर चिट्ठी डालता है, उसे किसी ऊँची इमारत से फ़र्क नहीं पड़ता।</p>
+<p>&quot;ड्रोन भटक जाता है, डाकिया सच्चा रहता है।&quot;</p>
+</section>
+<section class="seo-section" id="mindmap">
+  <h2>माइंड मैप</h2>
+<div class="mermaid">graph TD
+    R[&quot;📉 सांख्यिकी&lt;br&gt;Statistics&quot;]
+    R --&gt; D[&quot;🗃️ डेटा के प्रकार&quot;]
+    R --&gt; M[&quot;🎯 केंद्रीय प्रवृत्ति&quot;]
+    R --&gt; G[&quot;📊 वर्गीकृत डेटा&quot;]
+    R --&gt; T[&quot;🪄 ट्रिक्स&quot;]
+    D --&gt; D1[&quot;अवर्गीकृत:&lt;br&gt;सीधी सूची — 12, 15, 11&quot;]
+    D --&gt; D2[&quot;वर्गीकृत: वर्ग-अंतराल&lt;br&gt;और बारंबारता&quot;]
+    D --&gt; D3[&quot;संचयी बारंबारता cf&quot;]
+    M --&gt; M1[&quot;माध्य Mean =&lt;br&gt;Σx ÷ n&quot;]
+    M --&gt; M2[&quot;माध्यक Median =&lt;br&gt;बीच का मान — पहले क्रम में लगाओ&quot;]
+    M --&gt; M3[&quot;बहुलक Mode =&lt;br&gt;सबसे ज़्यादा बार आने वाला&quot;]
+    G --&gt; G1[&quot;माध्य = Σfx ÷ Σf&quot;]
+    G --&gt; G2[&quot;माध्यक वर्ग: n/2 वाला&lt;br&gt;cf सूत्र से&quot;]
+    G --&gt; G3[&quot;बहुलक: सबसे बड़ी&lt;br&gt;बारंबारता वाला वर्ग&quot;]
+    T --&gt; T1[&quot;सूत्र: 3 माध्यक =&lt;br&gt;बहुलक + 2 माध्य&quot;]
+    T --&gt; T2[&quot;n सम हो तो माध्यक =&lt;br&gt;बीच के दो का औसत&quot;]
+    T --&gt; T3[&quot;⚠️ माध्य पर चरम मानों&lt;br&gt;का असर सबसे ज़्यादा&quot;]</div>
+</section>
+<section class="seo-section" id="pyq">
+  <h2>पिछले वर्ष के प्रश्न</h2>
+<div class="mcq-card" id="card_q1" data-correct="">
+  <div class="mcq-question">सही</div>
+  <details class="mcq-answer" id="ans_q1">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>D. 110</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q2" data-correct="">
+  <div class="mcq-question">सही</div>
+  <details class="mcq-answer" id="ans_q2">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 16</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q3" data-correct="">
+  <div class="mcq-question">सही</div>
+  <details class="mcq-answer" id="ans_q3">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>D. 16</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q4" data-correct="">
+  <div class="mcq-question">सही</div>
+  <details class="mcq-answer" id="ans_q4">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 11</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q5" data-correct="">
+  <div class="mcq-question">सही</div>
+  <details class="mcq-answer" id="ans_q5">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 78.5</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q6" data-correct="">
+  <div class="mcq-question">सही</div>
+  <details class="mcq-answer" id="ans_q6">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 33.4</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q7" data-correct="">
+  <div class="mcq-question">सही</div>
+  <details class="mcq-answer" id="ans_q7">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 8, 9, 8</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q8" data-correct="">
+  <div class="mcq-question">सही</div>
+  <details class="mcq-answer" id="ans_q8">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 0.7</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q9" data-correct="">
+  <div class="mcq-question">सही</div>
+  <details class="mcq-answer" id="ans_q9">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 75</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q10" data-correct="">
+  <div class="mcq-question">सही</div>
+  <details class="mcq-answer" id="ans_q10">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. माध्य – बहुलक = 3 (माध्य – माध्यिका)</strong></div>
+    </div>
+  </details>
+</div>
+
+</section>
+<section class="seo-section" id="practice">
+  <h2>अभ्यास प्रश्न</h2>
+<h2 class="mcq-set-title">📝 Set 1</h2>
+<div class="mcq-card" id="card_q1" data-correct="">
+  <div class="mcq-question">प्रश्न 1. आँकड़ों के संग्रहण, व्यवस्थापन, प्रस्तुतीकरण, विश्लेषण एवं निर्वचन से संबंधित विज्ञान की शाखा कहलाती है: A. बीजगणित B. ज्यामिति C. सांख्यिकी D. अंकगणित ✅ सही</div>
+  <details class="mcq-answer" id="ans_q1">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. सांख्यिकी</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q2" data-correct="">
+  <div class="mcq-question">प्रश्न 2. 10 विद्यार्थियों के प्राप्तांक निम्नलिखित हैं: 12, 15, 11, 18, 12, 15, 12, 18, 15, 12। इन आँकड़ों का बहुलक क्या है? A. 18 B. 15 C. 12 D. 11 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q2">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 12</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q3" data-correct="">
+  <div class="mcq-question">प्रश्न 3. 2, 4, 6, 8, 10 का माध्य क्या है? A. 5 B. 6 C. 7 D. 8 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q3">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 6</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q4" data-correct="">
+  <div class="mcq-question">प्रश्न 4. आँकड़ों को आरोही क्रम में रखने पर ठीक बीच में आने वाला मान कहलाता है: A. माध्य B. बहुलक C. माध्यिका D. परिसर ✅ सही</div>
+  <details class="mcq-answer" id="ans_q4">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. माध्यिका</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q5" data-correct="">
+  <div class="mcq-question">प्रश्न 5. 3, 1, 5, 2, 4 की माध्यिका क्या है? A. 1 B. 2 C. 3 D. 5 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q5">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 3</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q6" data-correct="">
+  <div class="mcq-question">प्रश्न 6. 5, 6, 7, 6, 5, 8, 6 का बहुलक क्या है? A. 5 B. 6 C. 7 D. 8 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q6">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 6</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q7" data-correct="">
+  <div class="mcq-question">प्रश्न 7. अवर्गीकृत आँकड़ों का माध्य निकालने का सूत्र है: A. Σ Σ Σf i Σf i x i B. + / 2 − × ℎ l+ f n/2−cf ×h C. Σ n Σx D. + 1 − 0 2 1 − 0 − 2 × ℎ l+ 2f 1 −f 0 −f 2 f 1 −f 0 ×h ✅ सही</div>
+  <details class="mcq-answer" id="ans_q7">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C.</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q8" data-correct="">
+  <div class="mcq-question">प्रश्न 8. 14, 10, 12, 18, 15 की माध्यिका क्या है? A. 10 B. 12 C. 14 D. 15 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q8">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 14</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q9" data-correct="">
+  <div class="mcq-question">प्रश्न 9. सभी प्रेक्षणों के योग को प्रेक्षणों की संख्या से भाग देने पर प्राप्त होता है: A. माध्यिका B. बहुलक C. माध्य D. परिसर ✅ सही</div>
+  <details class="mcq-answer" id="ans_q9">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. माध्य</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q10" data-correct="">
+  <div class="mcq-question">प्रश्न 10. 2, 2, 3, 4, 4, 4, 5 का बहुलक क्या है? A. 2 B. 3 C. 4 D. 5 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q10">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 4</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q11" data-correct="">
+  <div class="mcq-question">प्रश्न 11. यदि 5, x, 3, 7 का माध्य 5 है, तो x का मान क्या होगा? A. 3 B. 5 C. 4 D. 6 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q11">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 5</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q12" data-correct="">
+  <div class="mcq-question">प्रश्न 12. जब प्रेक्षणों की संख्या सम (even) हो, तो माध्यिका कैसे ज्ञात करते हैं? A. पहला पद लेते हैं B. दो मध्य पदों का औसत लेते हैं C. अंतिम पद लेते हैं D. सबसे अधिक बार आने वाला पद लेते हैं ✅ सही</div>
+  <details class="mcq-answer" id="ans_q12">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. दो मध्य पदों का औसत लेते हैं</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q13" data-correct="">
+  <div class="mcq-question">प्रश्न 13. प्रथम 5 प्राकृत संख्याओं का समांतर माध्य क्या है? A. 2 B. 3 C. 4 D. 5 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q13">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 3</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q14" data-correct="">
+  <div class="mcq-question">प्रश्न 14. यदि किसी आँकड़ों का माध्य 15 और माध्यिका 17 हो, तो अनुभवजन्य संबंध द्वारा बहुलक लगभग कितना होगा? A. 21 B. 19 C. 17 D. 15 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q14">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 21</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q15" data-correct="">
+  <div class="mcq-question">प्रश्न 15. सांख्यिकीय जाँच के लिए एकत्रित संख्यात्मक तथ्यों को कहते हैं: A. बारंबारता B. आँकड़े (Data) C. परिसर D. वर्ग चिह्न ✅ सही</div>
+  <details class="mcq-answer" id="ans_q15">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. आँकड़े (Data)</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q16" data-correct="">
+  <div class="mcq-question">प्रश्न 16. एक विद्यार्थी के 6 विषयों के अंक इस प्रकार हैं: 72, 85, 90, 68, 74, 81। उसके औसत अंक (माध्य) कितने हैं? A. 76.5 B. 78.33 C. 80 D. 75 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q16">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 78.33</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q17" data-correct="">
+  <div class="mcq-question">प्रश्न 17. वर्ग अंतराल 30 – 40 का वर्ग चिह्न क्या होगा? A. 30 B. 35 C. 40 D. 10 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q17">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 35</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q18" data-correct="">
+  <div class="mcq-question">प्रश्न 18. किसी भी आँकड़ों के समूह का बहुलक वह मान है जो: A. सबसे अधिक बार आता है B. औसत होता है C. बीच का मान होता है D. सबसे छोटा होता है ✅ सही</div>
+  <details class="mcq-answer" id="ans_q18">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. सबसे अधिक बार आता है</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q19" data-correct="">
+  <div class="mcq-question">प्रश्न 19. आँकड़ों, 8, 9, 10, 11, 11, 12, 13 की माध्यिका क्या है? A. 9 B. 10 C. 11 D. 12 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q19">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 11</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q20" data-correct="">
+  <div class="mcq-question">प्रश्न 20. वर्गीकृत बारंबारता बंटन में किसी वर्ग के मध्य मान को कहते हैं: A. वर्ग सीमा B. वर्ग माप C. वर्ग चिह्न D. बारंबारता ✅ सही</div>
+  <details class="mcq-answer" id="ans_q20">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. वर्ग चिह्न</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q21" data-correct="">
+  <div class="mcq-question">प्रश्न 21. 10 प्रेक्षणों का माध्य 20 है। यदि प्रत्येक प्रेक्षण में 5 जोड़ दिया जाए, तो नया माध्य क्या होगा? A. 20 B. 25 C. 15 D. 100 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q21">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 25</strong></div>
+      <div class="mcq-answer__source">📚 SSC MTS 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q22" data-correct="">
+  <div class="mcq-question">प्रश्न 22. निम्नलिखित आँकड़ों की माध्यिका ज्ञात कीजिए: 41, 45, 32, 55, 50, 48, 50। A. 45 B. 48 C. 50 D. 55 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q22">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 48</strong></div>
+      <div class="mcq-answer__source">📚 RRB NTPC 2016</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q23" data-correct="">
+  <div class="mcq-question">प्रश्न 23. मध्यम रूप से तिरछे (moderately skewed) बंटन के लिए अनुभवजन्य संबंध है: A. बहुलक = 3 माध्य – 2 माध्यिका B. माध्यिका = 3 बहुलक – 2 माध्य C. बहुलक = 3 माध्यिका – 2 माध्य D. माध्य = 3 बहुलक – 2 माध्यिका ✅ सही</div>
+  <details class="mcq-answer" id="ans_q23">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. बहुलक = 3 माध्यिका – 2 माध्य</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q24" data-correct="">
+  <div class="mcq-question">प्रश्न 24. निम्न आँकड़ों का माध्य 6.5 है: 5, 8, 7, 6, 9, 5। यदि 5 को बदलकर 11 कर दिया जाए, तो नया माध्य क्या होगा? A. 7.0 B. 7.5 C. 8.0 D. 6.5 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q24">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 7.5</strong></div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2020</div>
+    </div>
+  </details>
+</div>
+
+<h2 class="mcq-set-title">📝 Set 2</h2>
+<div class="mcq-card" id="card_q25" data-correct="">
+  <div class="mcq-question">प्रश्न 25. आँकड़ों 10, 22, 14, 8, 20, 30, 16 की माध्यिका ज्ञात कीजिए। A. 14 B. 16 C. 15 D. 20 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q25">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 16</strong></div>
+      <div class="mcq-answer__source">📚 Bank Clerk 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q26" data-correct="">
+  <div class="mcq-question">प्रश्न 26. 15 प्रेक्षणों का माध्य 24 है। यदि पहले 8 प्रेक्षणों का माध्य 20 तथा अंतिम 8 प्रेक्षणों का माध्य 28 हो, तो आठवाँ प्रेक्षण क्या है? A. 20 B. 24 C. 28 D. 36 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q26">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 24</strong></div>
+      <div class="mcq-answer__source">📚 SSC MTS 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q27" data-correct="">
+  <div class="mcq-question">प्रश्न 27. निम्नलिखित आँकड़ों की माध्यिका क्या है: 35, 37, 32, 39, 42, 28, 33, 39, 41, 30 A. 35 B. 36 C. 37 D. 36.5 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q27">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>D. 36.5</strong></div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q28" data-correct="">
+  <div class="mcq-question">प्रश्न 28. आँकड़ों 13, 16, 12, 13, 16, 13, 14, 15, 16, 13 का बहुलक क्या है? A. 13 B. 16 C. 15 D. 14 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q28">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 13</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q29" data-correct="">
+  <div class="mcq-question">प्रश्न 29. यदि 10, 12, 13, 15, x, 17, 20 का माध्य 15 है, तो x का मान ज्ञात कीजिए। A. 15 B. 16 C. 17 D. 18 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q29">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>D. 18</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q30" data-correct="">
+  <div class="mcq-question">प्रश्न 30. नीचे दी गई सारणी किसी परीक्षा में विद्यार्थियों के प्राप्तांक दर्शाती है। प्रत्यक्ष विधि द्वारा माध्य ज्ञात कीजिए। प्राप्तांक (वर्ग)	0-10	10-20	20-30	30-40	40-50 विद्यार्थी संख्या	2	3	7	5	3 A. 26 B. 27 C. 28 D. 29 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q30">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 27</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q31" data-correct="">
+  <div class="mcq-question">प्रश्न 31. प्रश्न 30 के आँकड़ों के लिए माध्यिका वर्ग कौन-सा है? A. 10-20 B. 20-30 C. 30-40 D. 40-50 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q31">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 20-30</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q32" data-correct="">
+  <div class="mcq-question">प्रश्न 32. प्रश्न 30 के आँकड़ों की माध्यिका ज्ञात कीजिए। A. 26.43 B. 27.14 C. 28.33 D. 29.00 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q32">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 27.14</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q33" data-correct="">
+  <div class="mcq-question">प्रश्न 33. प्रश्न 30 के आँकड़ों का बहुलक ज्ञात कीजिए। A. 26.67 B. 27.5 C. 28.33 D. 25.5 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q33">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 26.67</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q34" data-correct="">
+  <div class="mcq-question">प्रश्न 34. 20 संख्याओं का माध्य 25 है। यदि उनमें से दो संख्याएँ 20 और 21 हटा दी जाएँ, तो शेष संख्याओं का माध्य क्या होगा? A. 25.2 B. 25.5 C. 26.0 D. 26.5 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q34">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 25.5</strong></div>
+      <div class="mcq-answer__source">📚 SSC MTS 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q35" data-correct="">
+  <div class="mcq-question">प्रश्न 35. निम्नलिखित वर्गीकृत आँकड़ों का पद विचलन विधि से माध्य ज्ञात कीजिए (a = 25, h = 10 लीजिए)। वर्ग	0-10	10-20	20-30	30-40	40-50 बारंबारता	4	6	10	8	2 A. 22.67 B. 23.33 C. 24.33 D. 25.33 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q35">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 24.33</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q36" data-correct="">
+  <div class="mcq-question">प्रश्न 36. माध्य, माध्यिका और बहुलक के बीच कार्ल पियर्सन का अनुभवजन्य संबंध है: A. बहुलक = 3 माध्य – 2 माध्यिका B. माध्य = 3 माध्यिका – 2 बहुलक C. बहुलक = 3 माध्यिका – 2 माध्य D. माध्यिका = 3 बहुलक – 2 माध्य ✅ सही</div>
+  <details class="mcq-answer" id="ans_q36">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. बहुलक = 3 माध्यिका – 2 माध्य</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q37" data-correct="">
+  <div class="mcq-question">प्रश्न 37. किसी मध्यम तिरछे बंटन में माध्य = 24 और बहुलक = 30 है। माध्यिका क्या होगी? A. 26 B. 27 C. 28 D. 25 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q37">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 26</strong></div>
+      <div class="mcq-answer__source">📚 SSC CGL 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q38" data-correct="">
+  <div class="mcq-question">प्रश्न 38. किसी आँकड़े का माध्य 35 और माध्यिका 40 हो, तो बहुलक का लगभग मान होगा: A. 45 B. 50 C. 55 D. 60 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q38">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 50</strong></div>
+      <div class="mcq-answer__source">📚 Bank PO 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q39" data-correct="">
+  <div class="mcq-question">प्रश्न 39. यदि किसी आँकड़े के माध्य और माध्यिका का अनुपात 2 : 3 है, तो बहुलक और माध्य का अनुपात क्या होगा? A. 5 : 2 B. 3 : 5 C. 5 : 3 D. 3 : 2 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q39">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 5 : 2</strong></div>
+      <div class="mcq-answer__source">📚 SSC CPO 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q40" data-correct="">
+  <div class="mcq-question">प्रश्न 40. निम्नलिखित बारंबारता बंटन का माध्य 7 है। p का मान ज्ञात कीजिए। x	2	4	6	8	10 f	3	5	7	p	4 A. 20 B. 25 C. 30 D. 35 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q40">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 25</strong></div>
+      <div class="mcq-answer__source">📚 Bank Clerk 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q41" data-correct="">
+  <div class="mcq-question">प्रश्न 41. श्रमिकों की दैनिक मज़दूरी (₹ में) नीचे दी गई है। माध्यिका मज़दूरी ज्ञात कीजिए। मज़दूरी (₹)	100-120	120-140	140-160	160-180	180-200 श्रमिक	5	6	10	7	2 A. 146 B. 148 C. 150 D. 152 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q41">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 148</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q42" data-correct="">
+  <div class="mcq-question">प्रश्न 42. निम्नलिखित आँकड़ों का बहुलक 156 है। अज्ञात बारंबारता &#x27;f&#x27; ज्ञात कीजिए। वर्ग	130-140	140-150	150-160	160-170	170-180 बारंबारता	4	f	10	8	5 A. 6 B. 7 C. 8 D. 9 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q42">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 7</strong></div>
+      <div class="mcq-answer__source">📚 SSC CGL 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q43" data-correct="">
+  <div class="mcq-question">प्रश्न 43. 12 विद्यार्थियों के प्राप्तांक हैं: 48, 39, 59, 33, 42, 51, 35, 53, 47, 41, 49, 45। इनका परिसर (Range) कितना है? A. 20 B. 22 C. 24 D. 26 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q43">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>D. 26</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q44" data-correct="">
+  <div class="mcq-question">प्रश्न 44. निम्नलिखित में से केंद्रीय प्रवृत्ति की माप कौन-सी है? A. परिसर B. मानक विचलन C. माध्य D. प्रसरण ✅ सही</div>
+  <details class="mcq-answer" id="ans_q44">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. माध्य</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q45" data-correct="">
+  <div class="mcq-question">प्रश्न 45. अनुभवजन्य संबंध &#x27;बहुलक = 3 माध्यिका – 2 माध्य&#x27; किसने प्रस्तुत किया? A. कार्ल पियर्सन B. फिशर C. गॉस D. यूल ✅ सही</div>
+  <details class="mcq-answer" id="ans_q45">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. कार्ल पियर्सन</strong></div>
+      <div class="mcq-answer__source">📚 सांख्यिकी परिचय / NCERT</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q46" data-correct="">
+  <div class="mcq-question">प्रश्न 46. 5 प्रेक्षणों का माध्य 12 है। उनमें से चार प्रेक्षण 10, 14, 9, और 13 हैं। पाँचवाँ प्रेक्षण कितना होगा? A. 12 B. 14 C. 15 D. 16 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q46">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 14</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q47" data-correct="">
+  <div class="mcq-question">प्रश्न 47. आँकड़ों 17, 1, 7, 13, 10, 14, 12, 3, 18, 6 की माध्यिका क्या है? A. 10 B. 11 C. 12 D. 13 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q47">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 11</strong></div>
+      <div class="mcq-answer__source">📚 RRB Group D 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q48" data-correct="">
+  <div class="mcq-question">प्रश्न 48. 12 संख्याओं का माध्य 30 है। यदि प्रत्येक संख्या को 3 से गुणा कर दिया जाए, तो नया माध्य कितना होगा? A. 30 B. 60 C. 90 D. 120 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q48">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 90</strong></div>
+      <div class="mcq-answer__source">📚 SSC MTS 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q49" data-correct="">
+  <div class="mcq-question">प्रश्न 49. एक टेस्ट में प्राप्तांकों की बारंबारता नीचे दी गई है। बहुलक प्राप्तांक क्या है? प्राप्तांक	10	12	14	16	18	20 बारंबारता	5	9	15	9	6	2 A. 12 B. 14 C. 15 D. 16 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q49">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 14</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<h2 class="mcq-set-title">📝 Set 3</h2>
+<div class="mcq-card" id="card_q50" data-correct="">
+  <div class="mcq-question">प्रश्न 50. 30 विद्यार्थियों का औसत भार 52 kg है। बाद में ज्ञात हुआ कि एक विद्यार्थी का भार गलती से 45 kg के बजाय 55 kg लिखा गया था। सही माध्य भार कितना होगा? A. 52.33 kg B. 52.67 kg C. 53 kg D. 51.67 kg ✅ सही</div>
+  <details class="mcq-answer" id="ans_q50">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 52.33 kg</strong></div>
+      <div class="mcq-answer__source">📚 Bank Clerk 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q51" data-correct="">
+  <div class="mcq-question">प्रश्न 51. 9 विद्यार्थियों के प्राप्तांक हैं: 45, 32, 37, 46, 39, 36, 41, 48, 36। इनकी माध्यिका है: A. 37 B. 38 C. 39 D. 40 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q51">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 39</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q52" data-correct="">
+  <div class="mcq-question">प्रश्न 52. 20 प्रेक्षणों का माध्य 18 है। यदि प्रत्येक प्रेक्षण में 2 जोड़ दिया जाए, तो नया माध्य होगा: A. 18 B. 19 C. 20 D. 22 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q52">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 20</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q53" data-correct="">
+  <div class="mcq-question">प्रश्न 53. माध्य, माध्यिका और बहुलक के बीच अनुभवजन्य संबंध केवल तभी मान्य होता है जब बंटन हो: A. सममित B. मध्यम रूप से तिरछा C. अत्यधिक तिरछा D. सदैव मान्य ✅ सही</div>
+  <details class="mcq-answer" id="ans_q53">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. मध्यम रूप से तिरछा</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q54" data-correct="">
+  <div class="mcq-question">प्रश्न 54. वर्ग अंतराल 25–35 का वर्ग चिह्न है: A. 25 B. 30 C. 35 D. 10 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q54">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 30</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q55" data-correct="">
+  <div class="mcq-question">प्रश्न 55. पाँच संख्याओं का माध्य 27 है। यदि एक संख्या हटा दी जाए, तो शेष चार का माध्य 25 हो जाता है। हटाई गई संख्या है: A. 30 B. 32 C. 35 D. 28 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q55">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 35</strong></div>
+      <div class="mcq-answer__source">📚 SSC MTS 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q56" data-correct="">
+  <div class="mcq-question">प्रश्न 56. आँकड़ों 20, 25, 28, 30, 32, 35, 40 की माध्यिका है: A. 28 B. 30 C. 32 D. 35 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q56">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 30</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q57" data-correct="">
+  <div class="mcq-question">प्रश्न 57. एक मध्यम रूप से तिरछे बंटन में माध्य 30 तथा माध्यिका 35 है। बहुलक लगभग होगा: A. 40 B. 45 C. 50 D. 55 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q57">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 45</strong></div>
+      <div class="mcq-answer__source">📚 SSC CGL 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q58" data-correct="">
+  <div class="mcq-question">प्रश्न 58. निम्न तालिका दैनिक मज़दूरी का बारंबारता बंटन दिखाती है। माध्यिका वर्ग कौन-सा है? मज़दूरी (₹)	50–60	60–70	70–80	80–90	90–100 श्रमिक	5	12	18	10	5 A. 60–70 B. 70–80 C. 80–90 D. 90–100 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q58">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 70–80</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q59" data-correct="">
+  <div class="mcq-question">प्रश्न 59. प्रश्न 58 के आँकड़ों से माध्यिका मज़दूरी (लगभग) ज्ञात कीजिए। A. 73.33 B. 74.44 C. 75.56 D. 76.67 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q59">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 74.44</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q60" data-correct="">
+  <div class="mcq-question">प्रश्न 60. निम्नलिखित वर्गीकृत आँकड़ों का बहुलक ज्ञात कीजिए: वर्ग	0–10	10–20	20–30	30–40	40–50 बारंबारता	4	7	12	9	5 A. 24.29 B. 25.50 C. 26.25 D. 27.00 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q60">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 26.25</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q61" data-correct="">
+  <div class="mcq-question">प्रश्न 61. प्रथम दस प्राकृत संख्याओं का माध्य है: A. 5 B. 5.5 C. 6 D. 6.5 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q61">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 5.5</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q62" data-correct="">
+  <div class="mcq-question">प्रश्न 62. आँकड़ों 11, 16, 13, 18, 15, 12, 14 की माध्यिका है: A. 13 B. 14 C. 15 D. 16 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q62">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 14</strong></div>
+      <div class="mcq-answer__source">📚 RRB NTPC 2017</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q63" data-correct="">
+  <div class="mcq-question">प्रश्न 63. एक बारंबारता बंटन में किसी वर्ग का मध्य-मान 15 तथा वर्ग माप 10 है। उस वर्ग की निम्न सीमा है: A. 5 B. 10 C. 12 D. 20 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q63">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 10</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q64" data-correct="">
+  <div class="mcq-question">प्रश्न 64. 25 लड़कों का माध्य कद 160 cm है। 15 लड़कियों का माध्य कद 150 cm है। सभी 40 विद्यार्थियों का संयुक्त माध्य कद होगा: A. 155 cm B. 156.25 cm C. 157.5 cm D. 158 cm ✅ सही</div>
+  <details class="mcq-answer" id="ans_q64">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 156.25 cm</strong></div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q65" data-correct="">
+  <div class="mcq-question">प्रश्न 65. यदि किसी बंटन का बहुलक 18 और माध्य 24 हो, तो उसकी माध्यिका होगी: A. 20 B. 21 C. 22 D. 23 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q65">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 22</strong></div>
+      <div class="mcq-answer__source">📚 Bank PO 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q66" data-correct="">
+  <div class="mcq-question">प्रश्न 66. 10 विद्यार्थियों के अंक हैं: 68, 74, 71, 69, 72, 73, 70, 75, 72, 76। इनका बहुलक है: A. 72 B. 73 C. 70 D. 68 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q66">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 72</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q67" data-correct="">
+  <div class="mcq-question">प्रश्न 67. नीचे दी गई तालिका में रोगियों की आयु दर्शाई गई है। प्रत्यक्ष विधि से माध्य आयु ज्ञात कीजिए। आयु (वर्ष)	10–20	20–30	30–40	40–50	50–60 रोगी	5	7	8	6	4 A. 33 वर्ष B. 34 वर्ष C. 35 वर्ष D. 36 वर्ष ✅ सही</div>
+  <details class="mcq-answer" id="ans_q67">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 34 वर्ष</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q68" data-correct="">
+  <div class="mcq-question">प्रश्न 68. वर्गीकृत बारंबारता बंटन में किसी वर्ग अंतराल की संचयी बारंबारता का उपयोग किया जाता है ज्ञात करने में: A. बहुलक B. माध्य C. माध्यिका D. परिसर ✅ सही</div>
+  <details class="mcq-answer" id="ans_q68">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. माध्यिका</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q69" data-correct="">
+  <div class="mcq-question">प्रश्न 69. आँकड़ों 12, 17, 21, 13, 14, 16, 19, 15 की माध्यिका है: A. 15 B. 15.5 C. 16 D. 16.5 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q69">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 15.5</strong></div>
+      <div class="mcq-answer__source">📚 SSC MTS 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q70" data-correct="">
+  <div class="mcq-question">प्रश्न 70. मध्यम तिरछे बंटन में माध्य 50 और बहुलक 44 है। माध्यिका होगी: A. 46 B. 47 C. 48 D. 49 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q70">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 48</strong></div>
+      <div class="mcq-answer__source">📚 SSC CGL 2021</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q71" data-correct="">
+  <div class="mcq-question">प्रश्न 71. 20 परिवारों में बच्चों की संख्या नीचे दी गई है: 2, 1, 3, 2, 2, 4, 1, 2, 1, 3, 2, 3, 4, 2, 0, 1, 1, 2, 3, 2। बहुलक है: A. 1 B. 2 C. 3 D. 4 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q71">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 2</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q72" data-correct="">
+  <div class="mcq-question">प्रश्न 72. 30 प्रेक्षणों का माध्य 75 है। यदि दो प्रेक्षण 82 और 68 हटा दिए जाएँ, तो शेष प्रेक्षणों का माध्य होगा: A. 74.8 B. 75.0 C. 75.2 D. 75.6 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q72">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 75.0</strong></div>
+      <div class="mcq-answer__source">📚 SSC MTS 2019 (संशोधित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q73" data-correct="">
+  <div class="mcq-question">प्रश्न 73. एक बारंबारता बंटन में माध्य 40 तथा बहुलक 50 है। माध्यिका होगी: A. 40 B. 43.33 C. 46.67 D. 45 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q73">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 43.33</strong></div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q74" data-correct="">
+  <div class="mcq-question">प्रश्न 74. तोरण (Ogive) की सहायता से माध्यिका ज्ञात करने के लिए y-अक्ष पर कौन-सा बिंदु चिह्नित किया जाता है? A. n/4 B. n/2 C. n D. 3n/4 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q74">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. n/2</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 10</div>
+    </div>
+  </details>
+</div>
+
+<h2 class="mcq-set-title">📝 Set 4</h2>
+<div class="mcq-card" id="card_q75" data-correct="">
+  <div class="mcq-question">प्रश्न 75. 15 संख्याओं का माध्य 25 है। यदि प्रत्येक संख्या में 5 जोड़ दिया जाए, तो नया माध्य होगा: A. 25 B. 30 C. 35 D. 40 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q75">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 30</strong></div>
+      <div class="mcq-answer__source">📚 SSC MTS 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q76" data-correct="">
+  <div class="mcq-question">प्रश्न 76. 12 प्रेक्षणों का माध्य 15 है। यदि प्रत्येक प्रेक्षण को 3 से गुणा कर दिया जाए, तो नया माध्य होगा: A. 15 B. 30 C. 45 D. 60 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q76">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 45</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q77" data-correct="">
+  <div class="mcq-question">प्रश्न 77. प्रथम आठ अभाज्य संख्याओं की माध्यिका क्या है? A. 7 B. 9 C. 11 D. 13 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q77">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 9</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q78" data-correct="">
+  <div class="mcq-question">प्रश्न 78. किसी बारंबारता बंटन में सबसे अधिक बारंबारता वाला वर्ग कहलाता है: A. माध्यिका वर्ग B. बहुलक वर्ग C. माध्य वर्ग D. तोरण वर्ग ✅ सही</div>
+  <details class="mcq-answer" id="ans_q78">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. बहुलक वर्ग</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q79" data-correct="">
+  <div class="mcq-question">प्रश्न 79. 10, 20, 30, 40, 50 का माध्य 30 है। यदि प्रत्येक मान में 10% की वृद्धि कर दी जाए, तो नया माध्य क्या होगा? A. 30 B. 33 C. 36 D. 39 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q79">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 33</strong></div>
+      <div class="mcq-answer__source">📚 SSC MTS 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q80" data-correct="">
+  <div class="mcq-question">प्रश्न 80. नीचे दी गई तालिका से कल्पित माध्य विधि (माना a = 25) द्वारा माध्य ज्ञात कीजिए। अंक	0‑10	10‑20	20‑30	30‑40	40‑50 विद्यार्थी	4	10	12	8	6 A. 25.5 B. 26.5 C. 27.5 D. 28.5 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q80">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 25.5</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q81" data-correct="">
+  <div class="mcq-question">प्रश्न 81. आँकड़ों 15, 18, 15, 19, 18, 20, 15, 22, 18, 15 का बहुलक क्या है? A. 15 B. 18 C. 19 D. 15 और 18 दोनों ✅ सही</div>
+  <details class="mcq-answer" id="ans_q81">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 15</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q82" data-correct="">
+  <div class="mcq-question">प्रश्न 82. &#x27;बहुलक = 3 माध्यिका – 2 माध्य&#x27; संबंध किस नाम से जाना जाता है? A. चेबीशेव का नियम B. अनुभवजन्य सूत्र (Empirical Formula) C. आधारभूत सूत्र D. कौशी का सूत्र ✅ सही</div>
+  <details class="mcq-answer" id="ans_q82">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. अनुभवजन्य सूत्र (Empirical Formula)</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q83" data-correct="">
+  <div class="mcq-question">प्रश्न 83. यदि , + 3 , + 5 , + 7 , + 9 x,x+3,x+5,x+7,x+9 की माध्यिका 12 है, तो x का मान होगा: A. 7 B. 8 C. 9 D. 10 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q83">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 7</strong></div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q84" data-correct="">
+  <div class="mcq-question">प्रश्न 84. निम्नलिखित बारंबारता बंटन का माध्य 30 है। p का मान ज्ञात कीजिए। x	10	20	30	40	50 f	5	8	12 p	6 A. 4 B. 6 C. 8 D. 10 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q84">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 6</strong></div>
+      <div class="mcq-answer__source">📚 Bank PO 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q85" data-correct="">
+  <div class="mcq-question">प्रश्न 85. आँकड़ों 25, 20, 30, 15, 35, 40, 22, 28 की माध्यिका क्या है? A. 25 B. 26 C. 26.5 D. 27 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q85">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 26.5</strong></div>
+      <div class="mcq-answer__source">📚 RRB Group D 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q86" data-correct="">
+  <div class="mcq-question">प्रश्न 86. यदि , , a,b,c का माध्य M है तथा + + = 0 ab+bc+ca=0 है, तो 2 , 2 , 2 a 2 ,b 2 ,c 2 का माध्य होगा: A. 2 M 2 B. 3 2 3 M 2 C. 2 2 2 M 2 D. 2 / 3 M 2 /3 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q86">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B.</strong></div>
+      <div class="mcq-answer__source">📚 SSC CGL 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q87" data-correct="">
+  <div class="mcq-question">प्रश्न 87. तोरण (Ogive) में माध्यिका ज्ञात करने के लिए y-अक्ष पर किस बिंदु से क्षैतिज रेखा खींची जाती है? A. / 4 n/4 B. / 2 n/2 C. n D. 3 / 4 3n/4 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q87">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B.</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q88" data-correct="">
+  <div class="mcq-question">प्रश्न 88. 50 प्रेक्षणों का माध्य 40 है। यदि 10 और प्रेक्षण, जिनका माध्य 70 है, शामिल कर लिए जाएँ, तो नया माध्य होगा: A. 45 B. 46 C. 47 D. 48 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q88">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 45</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q89" data-correct="">
+  <div class="mcq-question">प्रश्न 89. आँकड़ों 13, 17, 12, 15, 14, 19, 18, 20, 11, 16 की माध्यिका क्या है? A. 15 B. 15.5 C. 16 D. 16.5 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q89">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 15.5</strong></div>
+      <div class="mcq-answer__source">📚 SSC MTS 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q90" data-correct="">
+  <div class="mcq-question">प्रश्न 90. एक मध्यम रूप से ऋणात्मक तिरछे (negatively skewed) बंटन में सही अवरोही क्रम (घटता हुआ) होता है: A. माध्य &gt; माध्यिका &gt; बहुलक B. बहुलक &gt; माध्यिका &gt; माध्य C. माध्यिका &gt; माध्य &gt; बहुलक D. बहुलक &gt; माध्य &gt; माध्यिका ✅ सही</div>
+  <details class="mcq-answer" id="ans_q90">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. बहुलक &gt; माध्यिका &gt; माध्य</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q91" data-correct="">
+  <div class="mcq-question">प्रश्न 91. पाँच संख्याओं का माध्य 40 है। यदि एक संख्या हटा दी जाए तो शेष का माध्य 38 रह जाता है। हटाई गई संख्या है: A. 42 B. 44 C. 46 D. 48 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q91">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>D. 48</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q92" data-correct="">
+  <div class="mcq-question">प्रश्न 92. नीचे दी गई सारणी में अंकों का बारंबारता बंटन है। अधिकतम बारंबारता वाला वर्ग कौन-सा है? अंक	0‑25	25‑50	50‑75	75‑100 विद्यार्थी	8	15	22	12 A. 0‑25 B. 25‑50 C. 50‑75 D. 75‑100 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q92">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 50‑75</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q93" data-correct="">
+  <div class="mcq-question">प्रश्न 93. आँकड़ों 5, 8, 7, 6, 9, 4, 10 की माध्यिका है: A. 6 B. 7 C. 8 D. 7.5 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q93">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 7</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q94" data-correct="">
+  <div class="mcq-question">प्रश्न 94. आँकड़ों 3, 5, 7, 5, 9, 7, 10, 5, 12, 7, 14, 5 का बहुलक है: A. 5 B. 7 C. 9 D. 5 और 7 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q94">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 5</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q95" data-correct="">
+  <div class="mcq-question">प्रश्न 95. 10 संख्याओं का माध्य 55 है। यदि प्रत्येक संख्या को 5 से भाग दे दिया जाए, तो नया माध्य होगा: A. 5 B. 10 C. 11 D. 12 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q95">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 11</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q96" data-correct="">
+  <div class="mcq-question">प्रश्न 96. आँकड़ों 42, 38, 35, 40, 45, 32, 39 की माध्यिका है: A. 38 B. 39 C. 40 D. 41 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q96">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 39</strong></div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q97" data-correct="">
+  <div class="mcq-question">प्रश्न 97. पूर्णतः सममित बंटन के लिए माध्य, माध्यिका और बहुलक में क्या संबंध होता है? A. माध्य = माध्यिका = बहुलक B. माध्य &gt; माध्यिका &gt; बहुलक C. बहुलक &gt; माध्यिका &gt; माध्य D. इनमें से कोई नहीं ✅ सही</div>
+  <details class="mcq-answer" id="ans_q97">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. माध्य = माध्यिका = बहुलक</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q98" data-correct="">
+  <div class="mcq-question">प्रश्न 98. यदि किसी आँकड़े का बहुलक 25 और माध्यिका 30 हो, तो माध्य होगा: A. 30 B. 32.5 C. 35 D. 37.5 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q98">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 32.5</strong></div>
+      <div class="mcq-answer__source">📚 Bank PO 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q99" data-correct="">
+  <div class="mcq-question">प्रश्न 99. निम्नलिखित में से कौन-सी केंद्रीय प्रवृत्ति की माप नहीं है? A. परिसर B. माध्य C. माध्यिका D. बहुलक ✅ सही</div>
+  <details class="mcq-answer" id="ans_q99">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. परिसर</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<h2 class="mcq-set-title">📝 Set 5</h2>
+<div class="mcq-card" id="card_q100" data-correct="">
+  <div class="mcq-question">प्रश्न 100. आँकड़ों 100, 200, 300, 400, 500 की माध्यिका है: A. 250 B. 300 C. 350 D. 400 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q100">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 300</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q101" data-correct="">
+  <div class="mcq-question">प्रश्न 101. 20 लड़कों का औसत भार 50 kg है तथा 30 लड़कियों का औसत भार 40 kg है। सभी 50 विद्यार्थियों का संयुक्त औसत भार है: A. 42 kg B. 44 kg C. 45 kg D. 46 kg ✅ सही</div>
+  <details class="mcq-answer" id="ans_q101">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 44 kg</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q102" data-correct="">
+  <div class="mcq-question">प्रश्न 102. 15 संख्याओं का माध्य 20 है। यदि प्रत्येक संख्या में 4 जोड़कर फिर 2 से गुणा किया जाए, तो नया माध्य होगा: A. 40 B. 44 C. 48 D. 52 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q102">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 48</strong></div>
+      <div class="mcq-answer__source">📚 SSC MTS 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q103" data-correct="">
+  <div class="mcq-question">प्रश्न 103. निम्न वर्गीकृत आँकड़ों की माध्यिका ज्ञात कीजिए: वर्ग	0‑10	10‑20	20‑30	30‑40	40‑50 बारंबारता	6	8	10	8	8 A. 24.5 B. 25.0 C. 26.0 D. 27.5 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q103">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 26.0</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q104" data-correct="">
+  <div class="mcq-question">प्रश्न 104. निम्नलिखित आँकड़ों का बहुलक ज्ञात कीजिए: वर्ग	0‑10	10‑20	20‑30	30‑40	40‑50 बारंबारता	3	5	6	4	2 A. 22.33 B. 23.33 C. 24.33 D. 25.33 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q104">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 23.33</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q105" data-correct="">
+  <div class="mcq-question">प्रश्न 105. एक आँकड़े का माध्य 25 तथा माध्यिका 20 है। उसका बहुलक होगा: A. 5 B. 10 C. 15 D. 20 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q105">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 10</strong></div>
+      <div class="mcq-answer__source">📚 SSC CGL 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q106" data-correct="">
+  <div class="mcq-question">प्रश्न 106. निम्न बारंबारता बंटन का माध्य 25 है। p का मान ज्ञात कीजिए। x	10	20	30	40	50 f	5	10 p	3	2 A. 4 B. 5 C. 6 D. 7 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q106">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 6</strong></div>
+      <div class="mcq-answer__source">📚 Bank Clerk 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q107" data-correct="">
+  <div class="mcq-question">प्रश्न 107. सभी प्रेक्षणों का उनके समांतर माध्य से विचलनों का योग सदैव होता है: A. 1 B. 0 C. n D. कोई निश्चित नहीं ✅ सही</div>
+  <details class="mcq-answer" id="ans_q107">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 0</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q108" data-correct="">
+  <div class="mcq-question">प्रश्न 108. एक सममित बंटन के लिए सत्य है: A. माध्य &gt; माध्यिका &gt; बहुलक B. माध्य &lt; माध्यिका &lt; बहुलक C. माध्य = माध्यिका = बहुलक D. बहुलक = 2 माध्य – माध्यिका ✅ सही</div>
+  <details class="mcq-answer" id="ans_q108">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. माध्य = माध्यिका = बहुलक</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q109" data-correct="">
+  <div class="mcq-question">प्रश्न 109. संचयी बारंबारता वक्र को कहा जाता है: A. आयतचित्र B. बारंबारता बहुभुज C. तोरण (Ogive) D. बार चार्ट ✅ सही</div>
+  <details class="mcq-answer" id="ans_q109">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. तोरण (Ogive)</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q110" data-correct="">
+  <div class="mcq-question">प्रश्न 110. प्रथम दस पूर्ण संख्याओं (0,1,2,…,9) की माध्यिका है: A. 4.5 B. 5 C. 5.5 D. 6 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q110">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 4.5</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q111" data-correct="">
+  <div class="mcq-question">प्रश्न 111. पद विचलन विधि में = − ℎ u i = h x i −a होता है। यदि = 35 a=35, ℎ = 10 h=10, और = 55 x i =55 हो, तो u i का मान है: A. 1 B. 2 C. 3 D. 4 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q111">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 2</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q112" data-correct="">
+  <div class="mcq-question">प्रश्न 112. यदि किसी आँकड़े के प्रत्येक मान में 20% की वृद्धि की जाए, तो माध्य: A. 20% बढ़ेगा B. 20% घटेगा C. अपरिवर्तित रहेगा D. 10% बढ़ेगा ✅ सही</div>
+  <details class="mcq-answer" id="ans_q112">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 20% बढ़ेगा</strong></div>
+      <div class="mcq-answer__source">📚 SSC MTS 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q113" data-correct="">
+  <div class="mcq-question">प्रश्न 113. 9 प्रेक्षणों का माध्य 20 है। यदि दसवाँ प्रेक्षण 30 शामिल कर लिया जाए, तो नया माध्य होगा: A. 21 B. 22 C. 20 D. 23 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q113">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 21</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q114" data-correct="">
+  <div class="mcq-question">प्रश्न 114. किसी आँकड़े का बहुलक हो सकता है: A. अद्वितीय B. एक से अधिक C. अनुपस्थित D. उपरोक्त सभी ✅ सही</div>
+  <details class="mcq-answer" id="ans_q114">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>D. उपरोक्त सभी</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q115" data-correct="">
+  <div class="mcq-question">प्रश्न 115. किसी बारंबारता बंटन में अंतिम वर्ग की संचयी बारंबारता बराबर होती है: A. माध्य के B. कुल बारंबारता के C. माध्यिका के D. बहुलक के ✅ सही</div>
+  <details class="mcq-answer" id="ans_q115">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. कुल बारंबारता के</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q116" data-correct="">
+  <div class="mcq-question">प्रश्न 116. माध्य, माध्यिका और बहुलक के बीच अनुभवजन्य संबंध अच्छा कार्य करता है: A. केवल सममित बंटन के लिए B. मध्यम रूप से तिरछे बंटन के लिए C. अत्यधिक तिरछे बंटन के लिए D. सभी बंटनों के लिए ✅ सही</div>
+  <details class="mcq-answer" id="ans_q116">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. मध्यम रूप से तिरछे बंटन के लिए</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q117" data-correct="">
+  <div class="mcq-question">प्रश्न 117. 25 संख्याओं का माध्य 36 है। यदि प्रत्येक संख्या को 6 से भाग दिया जाए, तो नया माध्य है: A. 4 B. 5 C. 6 D. 7 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q117">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 6</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q118" data-correct="">
+  <div class="mcq-question">प्रश्न 118. निम्नलिखित में से कौन-सी माप अतिवादी मानों से सर्वाधिक प्रभावित होती है? A. माध्य B. माध्यिका C. बहुलक D. परिसर ✅ सही</div>
+  <details class="mcq-answer" id="ans_q118">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. माध्य</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q119" data-correct="">
+  <div class="mcq-question">प्रश्न 119. 21, 23, 25, 27, 29 की माध्यिका है: A. 23 B. 25 C. 27 D. 29 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q119">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 25</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q120" data-correct="">
+  <div class="mcq-question">प्रश्न 120. एक बारंबारता बंटन में माध्य = 28 तथा बहुलक = 34 है। माध्यिका होगी: A. 30 B. 31 C. 32 D. 33 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q120">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 30</strong></div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2021</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q121" data-correct="">
+  <div class="mcq-question">प्रश्न 121. (कठिन) 200 विद्यार्थियों की एक परीक्षा के औसत अंक 40 हैं। लड़कों के औसत अंक 45 तथा लड़कियों के औसत अंक 35 हैं। लड़कों की संख्या है: A. 80 B. 100 C. 120 D. 140 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q121">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 100</strong></div>
+      <div class="mcq-answer__source">📚 SSC CGL 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q122" data-correct="">
+  <div class="mcq-question">प्रश्न 122. (कठिन) निम्नलिखित आँकड़ों का बहुलक 36 है। अज्ञात बारंबारता f ज्ञात कीजिए। वर्ग	0‑10	10‑20	20‑30	30‑40	40‑50	50‑60 बारंबारता	4	6	5 f	6	3 A. 7 B. 8 C. 9 D. 10 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q122">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 8</strong></div>
+      <div class="mcq-answer__source">📚 SSC CGL 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q123" data-correct="">
+  <div class="mcq-question">प्रश्न 123. (कठिन) निम्नलिखित आँकड़ों की माध्यिका 24 है। अज्ञात बारंबारता f ज्ञात कीजिए। वर्ग	0‑10	10‑20	20‑30	30‑40	40‑50 बारंबारता	5 f	15	6	4 A. 6 B. 7 C. 8 D. 9 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q123">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 8</strong></div>
+      <div class="mcq-answer__source">📚 Bank PO 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q124" data-correct="">
+  <div class="mcq-question">प्रश्न 124. (कठिन) , , a,b,c का माध्य 5 है तथा 2 + 2 + 2 = 75 a 2 +b 2 +c 2 =75 है। ( + + ) (ab+bc+ca) का मान ज्ञात कीजिए। A. 65 B. 75 C. 85 D. 95 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q124">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 75</strong></div>
+      <div class="mcq-answer__source">📚 SSC CGL 2019</div>
+    </div>
+  </details>
+</div>
+
+<h2 class="mcq-set-title">📝 Set 6</h2>
+<div class="mcq-card" id="card_q125" data-correct="">
+  <div class="mcq-question">प्रश्न 125. (कठिन) 50 प्रेक्षणों का माध्य 40 है। बाद में ज्ञात हुआ कि दो प्रेक्षण गलती से 64 और 28 के बजाय 46 और 82 दर्ज हो गए थे। सही माध्य ज्ञात कीजिए। A. 40.36 B. 40.72 C. 41.12 D. 41.48 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q125">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 40.72</strong></div>
+      <div class="mcq-answer__source">📚 SSC MTS 2018 (संशोधित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q126" data-correct="">
+  <div class="mcq-question">प्रश्न 126. 20 प्रेक्षणों का माध्य 15 है। जाँच करने पर पाया गया कि दो प्रेक्षण 18 और 23 को ग़लती से 28 और 12 लिख दिया गया था। सही माध्य क्या है? A. 14.95 B. 15.05 C. 15.00 D. 15.10 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q126">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 15.05</strong></div>
+      <div class="mcq-answer__source">📚 SSC CGL 2017</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q127" data-correct="">
+  <div class="mcq-question">प्रश्न 127. पाँच संख्याओं का माध्य 27 है। यदि एक संख्या हटा दी जाए, तो शेष का माध्य 26 रह जाता है। हटाई गई संख्या है: A. 28 B. 31 C. 33 D. 35 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q127">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 31</strong></div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2016</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q128" data-correct="">
+  <div class="mcq-question">प्रश्न 128. प्रथम दस प्राकृत संख्याओं के वर्गों का समांतर माध्य है: A. 38.5 B. 42.5 C. 45.5 D. 48.5 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q128">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 38.5</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 11 (संशोधित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q129" data-correct="">
+  <div class="mcq-question">प्रश्न 129. निम्नलिखित आँकड़ों की माध्यिका क्या है: 41, 43, 127, 99, 61, 92, 71, 58, 50, 60 A. 60 B. 60.5 C. 61 D. 62 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q129">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 60.5</strong></div>
+      <div class="mcq-answer__source">📚 SSC MTS 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q130" data-correct="">
+  <div class="mcq-question">प्रश्न 130. यदि किसी बंटन का बहुलक 8 और माध्य भी 8 हो, तो उसकी माध्यिका होगी: A. 7 B. 8 C. 9 D. निर्धारित नहीं की जा सकती ✅ सही</div>
+  <details class="mcq-answer" id="ans_q130">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 8</strong></div>
+      <div class="mcq-answer__source">📚 Bank PO 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q131" data-correct="">
+  <div class="mcq-question">प्रश्न 131. 12 संख्याओं का माध्य 9 है। यदि प्रत्येक संख्या में 3 जोड़कर फिर 2 से गुणा किया जाए, तो नया माध्य होगा: A. 18 B. 21 C. 24 D. 27 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q131">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 24</strong></div>
+      <div class="mcq-answer__source">📚 SSC CPO 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q132" data-correct="">
+  <div class="mcq-question">प्रश्न 132. 50 विद्यार्थियों की एक कक्षा में 10 विद्यार्थी अनुत्तीर्ण हुए और उनके औसत अंक 28 हैं। पूरी कक्षा के औसत अंक 40 हैं। उत्तीर्ण विद्यार्थियों के औसत अंक कितने हैं? A. 42 B. 43 C. 44 D. 45 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q132">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 43</strong></div>
+      <div class="mcq-answer__source">📚 SSC CGL 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q133" data-correct="">
+  <div class="mcq-question">प्रश्न 133. a, b और c का माध्य 12 है। , , a,b,c और d का माध्य 15 है। d का मान है: A. 24 B. 18 C. 20 D. 27 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q133">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 24</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q134" data-correct="">
+  <div class="mcq-question">प्रश्न 134. निम्नलिखित सारणी 40 रोगियों की आयु (वर्षों में) दर्शाती है। माध्यिका आयु ज्ञात कीजिए। आयु (वर्ष)	0‑10	10‑20	20‑30	30‑40	40‑50 रोगी	6	7	8	9	10 A. 28.75 B. 30.00 C. 31.25 D. 32.50 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q134">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 28.75</strong></div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q135" data-correct="">
+  <div class="mcq-question">प्रश्न 135. आँकड़ों 3, 5, 7, 4, 5, 3, 5, 8, 5, 7, 5, 9 का बहुलक है: A. 3 B. 4 C. 5 D. 7 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q135">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 5</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q136" data-correct="">
+  <div class="mcq-question">प्रश्न 136. &#x27;बहुलक = 3 माध्यिका – 2 माध्य&#x27; संबंध किसने प्रतिपादित किया? A. गॉस B. पियर्सन C. लाप्लास D. फिशर ✅ सही</div>
+  <details class="mcq-answer" id="ans_q136">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. पियर्सन</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q137" data-correct="">
+  <div class="mcq-question">प्रश्न 137. निम्नलिखित आँकड़ों का माध्य 7 है। x ज्ञात कीजिए। x i 5	6	7	8	9 f i 2	3	2 x	1 A. 2 B. 3 C. 4 D. 5 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q137">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>D. 5</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q138" data-correct="">
+  <div class="mcq-question">प्रश्न 138. आँकड़ों 2, 8, 7, 5, 6, 9, 4, 3 की माध्यिका है: A. 5 B. 5.5 C. 6 D. 6.5 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q138">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 5.5</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q139" data-correct="">
+  <div class="mcq-question">प्रश्न 139. एक मध्यम तिरछे बंटन में माध्यिका 25 और बहुलक 30 है। माध्य होगा: A. 20 B. 22.5 C. 25 D. 27.5 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q139">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 22.5</strong></div>
+      <div class="mcq-answer__source">📚 SSC CPO 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q140" data-correct="">
+  <div class="mcq-question">प्रश्न 140. तीन संख्याओं का माध्य 20 है। चार अन्य संख्याओं का माध्य 27 है। सातों संख्याओं का माध्य होगा: A. 23 B. 24 C. 25 D. 26 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q140">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 24</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q141" data-correct="">
+  <div class="mcq-question">प्रश्न 141. एक बारंबारता बंटन में माध्य 25, माध्यिका 26 और बहुलक 29 है। यह बंटन है: A. सममित B. धनात्मक तिरछा C. ऋणात्मक तिरछा D. निर्धारित नहीं किया जा सकता ✅ सही</div>
+  <details class="mcq-answer" id="ans_q141">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. ऋणात्मक तिरछा</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q142" data-correct="">
+  <div class="mcq-question">प्रश्न 142. 20 कर्मचारियों का औसत मासिक वेतन ₹15,000 है। यदि मैनेजर का वेतन ₹24,500 हटा दिया जाए, तो शेष का औसत वेतन क्या होगा? A. ₹14,250 B. ₹14,500 C. ₹14,750 D. ₹15,000 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q142">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. ₹14,500</strong></div>
+      <div class="mcq-answer__source">📚 SSC MTS 2019 (संशोधित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q143" data-correct="">
+  <div class="mcq-question">प्रश्न 143. निम्नलिखित बारंबारता बंटन का बहुलक 36 है। p का मान ज्ञात कीजिए। वर्ग	0‑10	10‑20	20‑30	30‑40	40‑50 बारंबारता	4	6 p	14	10 A. 6 B. 7 C. 8 D. 9 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q143">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 8</strong></div>
+      <div class="mcq-answer__source">📚 SSC CGL 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q144" data-correct="">
+  <div class="mcq-question">प्रश्न 144. चार संख्याओं का माध्य 20 है। यदि उनमें से दो संख्याएँ 16 और 22 हैं, तो शेष दो का माध्य कितना होगा? A. 21 B. 22 C. 23 D. 24 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q144">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 21</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q145" data-correct="">
+  <div class="mcq-question">प्रश्न 145. किसी बारंबारता बंटन के अंतिम वर्ग की संचयी बारंबारता सदैव बराबर होती है: A. 0 के B. 100 के C. कुल बारंबारता के D. माध्यिका के ✅ सही</div>
+  <details class="mcq-answer" id="ans_q145">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. कुल बारंबारता के</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q146" data-correct="">
+  <div class="mcq-question">प्रश्न 146. 8 मज़दूरों की दैनिक मज़दूरी (₹ में) नीचे दी गई है: 200, 250, 300, 280, 320, 260, 310, 270। माध्यिका मज़दूरी कितनी है? A. 275 B. 280 C. 285 D. 290 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q146">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 275</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q147" data-correct="">
+  <div class="mcq-question">प्रश्न 147. यदि आँकड़ों , 2 , 3 , 4 , 5 x, 2 x , 3 x , 4 x , 5 x की माध्यिका 8 हो, तो x का मान है: A. 20 B. 24 C. 30 D. 36 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q147">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 24</strong></div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2018 (संशोधित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q148" data-correct="">
+  <div class="mcq-question">प्रश्न 148. , a,b और c का माध्य M है। यदि + = 20 a+b=20 हो, तो c को M के पदों में व्यक्त करने पर प्राप्त होगा: A. 3 − 20 3 M−20 B. 20 − 3 20−3 M C. − 20 M−20 D. 3 + 20 3 M+20 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q148">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A.</strong></div>
+      <div class="mcq-answer__source">📚 SSC CGL 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q149" data-correct="">
+  <div class="mcq-question">प्रश्न 149. 30 प्रेक्षणों का माध्य 50 है। यदि प्रत्येक प्रेक्षण को 2 से गुणा करके फिर उसमें से 5 घटा दिया जाए, तो नया माध्य होगा: A. 95 B. 100 C. 105 D. 110 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q149">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 95</strong></div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q150" data-correct="">
+  <div class="mcq-question">प्रश्न 150. निम्नलिखित सारणी में 40 विद्यार्थियों के प्राप्तांक दिए गए हैं। माध्यिका अंक ज्ञात कीजिए। अंक	0‑20	20‑40	40‑60	60‑80	80‑100 विद्यार्थी	5	12	15	6	2 A. 42.67 B. 44.00 C. 45.33 D. 46.67 ✅ सही</div>
+  <details class="mcq-answer" id="ans_q150">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 44.00</strong></div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 10</div>
+    </div>
+  </details>
+</div>
+
+</section>
+</main>
+
+<footer class="ssg-footer" style="border-top:1px solid var(--glass-border);padding:2rem 1rem 4rem;text-align:center;color:var(--text-secondary);font-size:.85rem">
+<p><strong>Study Station</strong> — मुफ़्त अध्ययन सामग्री और सरकारी नौकरी अलर्ट.</p>
+</footer>
+<script src="../../../../js/theme.js"></script>
+</body>
+</html>

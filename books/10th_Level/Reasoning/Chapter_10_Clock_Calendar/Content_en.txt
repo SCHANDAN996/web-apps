@@ -1,0 +1,52 @@
+# Clock & Calendar
+
+At 3 o'clock, what angle do the two hands of a clock make? A right angle — 90°! Clock and calendar questions are of this kind — angles between hands, or finding the day of a given date.
+
+**Definition:** This chapter has two parts — (1) Clock: angle between hands and time; (2) Calendar: the day of a given date, leap years, and odd days.
+
+🧠 Recall: What angle do the clock hands make at 3 o'clock?
+
+## Part 1: Clock
+
+A clock turns a full circle (360°) in 12 hours.
+- Each hour = 360° ÷ 12 = **30°**
+- Minute hand: **6°** per minute (360° ÷ 60)
+- Hour hand: **0.5°** per minute (30° ÷ 60)
+
+**Angle formula:** angle between hands = |30 × hours − 5.5 × minutes|
+
+```svg 3 o'clock: hour hand at 3, minute hand at 12 → 90° angle
+<svg viewBox="0 0 200 200" width="200" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Clock at 3 o'clock, 90 degree angle">
+  <circle cx="100" cy="100" r="80" style="fill:none;stroke:var(--fig-line);stroke-width:2"/>
+  <text x="100" y="32" text-anchor="middle" style="fill:var(--fig-text);font-size:13px;font-weight:700">12</text>
+  <text x="172" y="105" text-anchor="middle" style="fill:var(--fig-text);font-size:13px;font-weight:700">3</text>
+  <text x="100" y="180" text-anchor="middle" style="fill:var(--fig-text);font-size:13px;font-weight:700">6</text>
+  <text x="28" y="105" text-anchor="middle" style="fill:var(--fig-text);font-size:13px;font-weight:700">9</text>
+  <line x1="100" y1="100" x2="100" y2="45" style="stroke:var(--fig-accent);stroke-width:3"/>
+  <line x1="100" y1="100" x2="150" y2="100" style="stroke:var(--fig-accent3);stroke-width:4"/>
+  <circle cx="100" cy="100" r="4" style="fill:var(--fig-text)"/>
+  <text x="128" y="88" text-anchor="middle" style="fill:var(--fig-danger);font-size:12px">90°</text>
+</svg>
+```
+
+## Part 2: Calendar
+
+**Odd Days:** the days left over after complete weeks.
+- An ordinary year (365 days) = 52 weeks + **1 odd day**
+- A leap year (366 days) = 52 weeks + **2 odd days**
+
+**Leap Year Rule:**
+- A year exactly divisible by 4 is a leap year (like 2024, 2028).
+- A century year (100, 200…) is a leap year only if divisible by 400 (2000 is a leap year, but 1900 is not).
+
+🧠 Recall: How many odd days are there in an ordinary year?
+
+## The Examiner's Trap
+
+⚠️ **Trap 1 — forgetting the hand moves:** The hour hand keeps moving too! At 3:30 the hour hand is not at 3, but between 3 and 4.
+
+⚠️ **Trap 2 — century leap years:** 1900 is not a leap year (not divisible by 400), but 2000 is.
+
+⚠️ **Trap 3 — two possible angles:** The hands make both a smaller and a larger angle (summing to 360°); choose as the question asks.
+
+Review this after 2 days.

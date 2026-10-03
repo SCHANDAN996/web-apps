@@ -1,0 +1,55 @@
+# Puzzles — Basic
+
+A building has 5 floors and 5 people live there — Ram, Shyam, Mohan, Sita, Gita. A few clues are given: "Ram lives on the topmost floor", "Sita lives immediately below Gita". From just these clues you must fill the whole building. That is a puzzle — building the full picture from scattered clues.
+
+**Definition:** In puzzle questions, relationships between some persons/objects and their attributes (floor, day, colour, age, etc.) are given as clues, and we must work out the correct matching.
+
+🧠 Recall: What is the biggest weapon in solving puzzles — memory, or making a table?
+
+## The Golden Rule: Make a Table
+
+Draw a grid/table on paper. Persons on one side, attributes on the other. Then:
+1. **Fill the direct clues first** — "Ram on top".
+2. **Cross out cells using negative clues** — "Shyam is not on the first floor".
+3. **Fill remaining cells from relative clues** ("above/below", "between").
+
+```svg Floor-puzzle grid: fill floors from top to bottom
+<svg viewBox="0 0 260 210" width="260" height="210" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Five-floor building puzzle">
+  <rect x="60" y="20" width="150" height="34" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <rect x="60" y="54" width="150" height="34" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <rect x="60" y="88" width="150" height="34" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <rect x="60" y="122" width="150" height="34" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <rect x="60" y="156" width="150" height="34" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="42" y="41" text-anchor="end" style="fill:var(--fig-line);font-size:12px">5</text>
+  <text x="42" y="75" text-anchor="end" style="fill:var(--fig-line);font-size:12px">4</text>
+  <text x="42" y="109" text-anchor="end" style="fill:var(--fig-line);font-size:12px">3</text>
+  <text x="42" y="143" text-anchor="end" style="fill:var(--fig-line);font-size:12px">2</text>
+  <text x="42" y="177" text-anchor="end" style="fill:var(--fig-line);font-size:12px">1</text>
+  <text x="135" y="41" text-anchor="middle" style="fill:var(--fig-accent);font-size:13px;font-weight:700">Ram (top)</text>
+  <text x="135" y="177" text-anchor="middle" style="fill:var(--fig-line);font-size:12px">?</text>
+  <text x="20" y="200" style="fill:var(--fig-line);font-size:10px">Floor</text>
+</svg>
+```
+
+## Main Types
+
+**1. Floor Puzzle**
+Who lives on which floor — from above/below clues.
+
+**2. Scheduling / Day Puzzle**
+Whose task/birthday on which day — matching to days of the week.
+
+**3. Matching Puzzle**
+Person ↔ city ↔ colour ↔ liking — matching two or more attributes.
+
+🧠 Recall: Why is it important to fill the definite clues first?
+
+## The Examiner's Trap
+
+⚠️ **Trap 1 — guessing too early:** Do not guess before filling the definite clues; often only one solution is possible.
+
+⚠️ **Trap 2 — "immediately above/below" vs "above/below":** "immediately above" = the very next floor; "above" = anywhere higher.
+
+⚠️ **Trap 3 — ignoring negative clues:** Clues like "X is not on Monday" are just as important for crossing out cells.
+
+Review this after 2 days.

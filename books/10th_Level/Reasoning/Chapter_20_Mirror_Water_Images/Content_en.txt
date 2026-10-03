@@ -1,0 +1,43 @@
+# Mirror & Water Images
+
+Stand before a mirror and raise your right hand — in the mirror your left hand appears raised! In a mirror image, left and right are reversed. And a reflection in water? There, top and bottom are reversed. This chapter tests these two reversals.
+
+**Definition:** (1) **Mirror Image:** the left-right (horizontal) reversed form of an object. (2) **Water Image:** the top-bottom (vertical) reversed form of an object.
+
+🧠 Recall: In a mirror, which direction is reversed — left-right, or top-bottom?
+
+```svg Mirror image: left-right is reversed (mirror line in the middle)
+<svg viewBox="0 0 240 120" width="240" height="120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Letter R and its mirror image">
+  <text x="60" y="78" text-anchor="middle" style="fill:var(--fig-text);font-size:60px;font-weight:800">R</text>
+  <line x1="120" y1="15" x2="120" y2="105" style="stroke:var(--fig-accent);stroke-width:2;stroke-dasharray:5 4"/>
+  <text x="120" y="118" text-anchor="middle" style="fill:var(--fig-accent);font-size:10px">mirror</text>
+  <g transform="translate(240,0) scale(-1,1)">
+    <text x="60" y="78" text-anchor="middle" style="fill:var(--fig-accent2);font-size:60px;font-weight:800">R</text>
+  </g>
+</svg>
+```
+
+## Part 1: Mirror Image
+
+- **Rule:** left ↔ right changes; top-bottom stays the same.
+- **Letters that look the same (symmetric):** A, H, I, M, O, T, U, V, W, X, Y — same even in a mirror.
+- **Mirror time of a clock:** mirror time = 11:60 − actual time (or 12:00 − time).
+  Example: mirror time of 3:00 = 12:00 − 3:00 = 9:00.
+
+## Part 2: Water Image
+
+- **Rule:** top ↔ bottom changes; left-right stays the same.
+- **Letters that look the same:** C, D, E, H, I, O, X (horizontally symmetric) look almost the same in water.
+- The digits 0, 1, 8 also look almost the same in a water image.
+
+🧠 Recall: What is the mirror time of 3:00 on a clock?
+
+## The Examiner's Trap
+
+⚠️ **Trap 1 — mixing the two:** Mirror = left-right; water = top-bottom. Don't confuse them.
+
+⚠️ **Trap 2 — clock time:** For mirror time, subtract from 11:60 (or 12:00); don't just reverse it directly.
+
+⚠️ **Trap 3 — symmetric letters:** Some letters look the same even when reversed — don't change them wrongly.
+
+Review this after 2 days.

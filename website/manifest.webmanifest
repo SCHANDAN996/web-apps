@@ -1,0 +1,48 @@
+{
+  "name": "Study Station — Study Smarter, Not Harder",
+  "short_name": "Study Station",
+  "description": "Free AI-powered study platform for SSC, Banking, Railway & NCERT preparation with bilingual books, practice MCQs and sarkari job alerts.",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0F0F14",
+  "theme_color": "#8B5CF6",
+  "lang": "hi",
+  "dir": "ltr",
+  "categories": ["education", "books", "productivity"],
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/maskable-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Job Alerts",
+      "short_name": "Jobs",
+      "url": "/jobs.html",
+      "description": "Latest sarkari job alerts"
+    },
+    {
+      "name": "Books",
+      "short_name": "Books",
+      "url": "/index.html#books",
+      "description": "AI-powered bilingual books"
+    },
+    {
+      "name": "Practice MCQs",
+      "short_name": "Practice",
+      "url": "/index.html#practice",
+      "description": "Practice questions"
+    }
+  ]
+}

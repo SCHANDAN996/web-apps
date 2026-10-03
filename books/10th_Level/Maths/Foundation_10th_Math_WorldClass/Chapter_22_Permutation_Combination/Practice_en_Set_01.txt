@@ -1,0 +1,178 @@
+Set 1: Permutation & Combination — Foundation Level (Easy to Medium)
+
+Q1. How many 2-digit numbers can be formed using the digits 1, 2, 3 if repetition of digits is not allowed?
+(1) 6 (2) 9 (3) 3 (4) 12
+
+Answer: (1) 6
+Solution: Tens place: 3 choices (1,2,3). Units place: 2 remaining choices. Total = 3 × 2 = 6.
+Source: NCERT Class 11, Ex 7.1
+
+Q2. In how many ways can 4 different books be arranged on a shelf?
+(1) 12 (2) 24 (3) 4 (4) 16
+
+Answer: (2) 24
+Solution: Arranging 4 distinct items in a row = 4! = 24.
+Source: NCERT Class 11, Ex 7.2
+
+Q3. A restaurant offers 2 soups and 3 starters. How many ways can a customer choose one soup and one starter?
+(1) 5 (2) 6 (3) 8 (4) 9
+
+Answer: (2) 6
+Solution: Fundamental Counting Principle: 2 × 3 = 6.
+Source: NCERT Class 11, Ex 7.1
+
+Q4. What is the value of 5P2?
+(1) 10 (2) 20 (3) 60 (4) 120
+
+Answer: (2) 20
+Solution: 5P2 = 5!/(5-2)! = 5 × 4 = 20.
+Source: NCERT Class 11, Ex 7.3
+
+Q5. How many ways can a captain and vice-captain be chosen from 5 players?
+(1) 10 (2) 20 (3) 25 (4) 5
+
+Answer: (2) 20
+Solution: Order matters (captain, vice-captain) → 5P2 = 5 × 4 = 20.
+Source: NCERT Class 11, Ex 7.3
+
+Q6. A team of 2 students is to be selected from 4 students. How many ways?
+(1) 6 (2) 12 (3) 8 (4) 4
+
+Answer: (1) 6
+Solution: Selection, order doesn’t matter → 4C2 = 6.
+Source: NCERT Class 11, Ex 7.4
+
+Q7. nC0 is equal to:
+(1) 0 (2) 1 (3) n (4) n!
+
+Answer: (2) 1
+Solution: There is exactly one way to choose nothing.
+Source: NCERT Class 11, Section 7.4
+
+Q8. How many 3-letter words (with or without meaning) can be formed using the first 5 letters of the English alphabet if no letter is repeated?
+(1) 60 (2) 125 (3) 10 (4) 15
+
+Answer: (1) 60
+Solution: 5P3 = 5 × 4 × 3 = 60.
+Source: NCERT Class 11, Ex 7.2
+
+Q9. In how many ways can 6 people be seated in a row?
+(1) 720 (2) 120 (3) 36 (4) 30
+
+Answer: (1) 720
+Solution: 6! = 720.
+Source: NCERT Class 11, Ex 7.2
+
+Q10. If nC8 = nC5, what is the value of n?
+(1) 13 (2) 15 (3) 12 (4) 11
+
+Answer: (1) 13
+Solution: Using symmetry, nC8 = nC(n-8). Given nC8 = nC5, so n-8 = 5 → n = 13.
+Source: NCERT Class 11, Ex 7.4
+
+Q11. How many ways can a committee of 3 be formed from 7 people?
+(1) 35 (2) 210 (3) 21 (4) 42
+
+Answer: (1) 35
+Solution: 7C3 = 7!/(3!4!) = (7×6×5)/(3×2×1) = 35.
+Source: NCERT Class 11, Ex 7.4
+
+Q12. A lock code consists of 3 digits (0–9 each). If repetition is allowed, how many codes are possible?
+(1) 1000 (2) 720 (3) 504 (4) 100
+
+Answer: (1) 1000
+Solution: 10 choices for each digit, total = 10³ = 1000.
+Source: NCERT Class 11, Ex 7.1
+
+Q13. How many even numbers of 2 digits can be formed using digits 1,2,3,4,5 without repetition?
+(1) 8 (2) 10 (3) 12 (4) 6
+
+Answer: (1) 8
+Solution: Unit digit must be even: 2 or 4 (2 choices). Tens digit: any of remaining 4 digits. Total = 2 × 4 = 8.
+Source: NCERT Class 11, Ex 7.1
+
+Q14. What is the number of diagonals in a regular hexagon? (A diagonal is a line joining two non-adjacent vertices)
+(1) 9 (2) 6 (3) 12 (4) 15
+
+Answer: (1) 9
+Solution: Total ways to choose 2 vertices from 6 = 6C2 = 15. Subtract the 6 sides (adjacent pairs). Diagonals = 15 − 6 = 9.
+Source: NCERT Class 11, Ex 7.4
+
+Q15. 5P5 is equal to:
+(1) 120 (2) 60 (3) 5 (4) 25
+
+Answer: (1) 120
+Solution: 5P5 = 5! = 120.
+Source: NCERT Class 11, Ex 7.3
+
+Q16. A man has 3 shirts and 4 ties. In how many ways can he choose one shirt and one tie?
+(1) 7 (2) 12 (3) 24 (4) 4
+
+Answer: (2) 12
+Solution: 3 × 4 = 12.
+Source: NCERT Class 11, Ex 7.1
+
+Q17. How many ways can 3 letters be chosen from the word ‘COUNT’?
+(1) 60 (2) 10 (3) 20 (4) 15
+
+Answer: (2) 10
+Solution: Simply selecting 3 out of 5 distinct letters → 5C3 = 10.
+Source: NCERT Class 11, Ex 7.4
+
+Q18. 0! equals:
+(1) 0 (2) 1 (3) Undefined (4) Infinity
+
+Answer: (2) 1
+Solution: By convention, 0! = 1.
+Source: NCERT Class 11, Section 7.2
+
+Q19. How many different signals can be given using 3 flags of different colours, arranged vertically on a pole?
+(1) 6 (2) 9 (3) 3 (4) 12
+
+Answer: (1) 6
+Solution: 3 distinct flags arranged in order = 3! = 6.
+Source: NCERT Class 11, Ex 7.2
+
+Q20. If nP2 = 12, what is n?
+(1) 4 (2) 5 (3) 6 (4) 3
+
+Answer: (1) 4
+Solution: nP2 = n(n-1) = 12 → n² - n - 12 = 0 → (n-4)(n+3)=0 → n=4.
+Source: NCERT Class 11, Ex 7.3
+
+Q21. In how many ways can the letters of the word ‘MATH’ be arranged so that the first letter is a consonant?
+(1) 12 (2) 18 (3) 24 (4) 6
+
+Answer: (2) 18
+Solution: ‘MATH’ has consonants M,T,H (3) and vowel A (1). First letter must be a consonant: 3 choices. Remaining 3 letters can be arranged in 3! = 6 ways. Total = 3 × 6 = 18.
+Source: SSC CGL (P&C pattern)
+
+Q22. How many 3-digit numbers divisible by 5 can be formed using digits 0,1,2,3,4,5 without repetition?
+(1) 36 (2) 20 (3) 15 (4) 24
+
+Answer: (1) 36
+Solution: A number divisible by 5 ends with 0 or 5. Case 1: unit=0 → hundreds place 5 choices (can't be 0), tens 4 → 5×4=20. Case 2: unit=5 → hundreds 4 choices (not 0,5), tens 4 (including 0 but not taken digit) → 4×4=16. Total = 20+16=36.
+Source: SSC CHSL pattern
+
+Q23. From 5 men and 3 women, a committee of 2 men and 1 woman is to be formed. How many ways?
+(1) 30 (2) 40 (3) 15 (4) 20
+
+Answer: (1) 30
+Solution: 2 men from 5: 5C2 = 10; 1 woman from 3: 3C1 = 3; multiply = 10 × 3 = 30.
+Source: Bank PO pattern
+
+Q24. How many ways can 5 persons be seated around a circular table?
+(1) 120 (2) 24 (3) 60 (4) 20
+
+Answer: (2) 24
+Solution: Circular permutation formula: (5-1)! = 4! = 24.
+Source: NCERT Class 11, Ex 7.4
+
+Q25. A box contains 2 white, 3 black and 4 red balls. In how many ways can 3 balls be drawn such that all are of different colours?
+(1) 24 (2) 60 (3) 12 (4) 28
+
+Answer: (1) 24
+Solution: One ball from each colour: 2C1 × 3C1 × 4C1 = 2 × 3 × 4 = 24.
+Source: SSC CGL (Mains) pattern
+
+🚀 Review this set after 2 days. Pick any 5 wrong or tricky questions and re-solve them without looking; explain the trap aloud in 30 seconds.

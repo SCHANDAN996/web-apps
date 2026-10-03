@@ -1,0 +1,96 @@
+{% extends "ssg/layout.html" %}
+
+{% block nav_jobs %}active{% endblock %}
+{% block bnav_jobs %}active{% endblock %}
+
+{% block header %}
+<div style="text-align:center;">
+    <span class="section__badge"><ion-icon name="briefcase-outline"></ion-icon> Sarkari Job Alerts</span>
+    <h1>🎯 Latest <span class="gradient-text">Job Alerts</span></h1>
+    <p style="color: var(--text-secondary); margin-top: 0.6rem; font-size: 1.05rem;">Government, banking &amp; railway job updates — auto-collected from public sources.</p>
+</div>
+{% endblock %}
+
+{% block content %}
+
+<!-- Search + Category filter -->
+<div style="display: flex; flex-wrap: wrap; gap: 0.9rem; margin-bottom: 1.75rem;">
+    <div class="search-bar" style="flex-grow: 1; min-width: 250px; margin-bottom: 0;">
+        <ion-icon name="search-outline"></ion-icon>
+        <input type="text" id="jobSearch" placeholder="Search by job title...">
+    </div>
+    <select id="jobCategory" style="min-width: 190px; padding: 0.7rem 1rem; border-radius: var(--radius-lg); border: 1px solid var(--glass-border); background: var(--bg-tertiary); color: var(--text-primary); outline: none; cursor: pointer; font-family: inherit;">
+        <option value="ALL">All Categories</option>
+        <option value="SSC">SSC</option>
+        <option value="BANKING">Banking</option>
+        <option value="RAILWAY">Railway</option>
+        <option value="UPSC">UPSC</option>
+        <option value="STATE_PSC">State PSC</option>
+        <option value="POLICE_DEFENCE">Police / Defence</option>
+        <option value="TEACHING">Teaching</option>
+        <option value="GOVT">Other Govt</option>
+        <option value="PRIVATE">Private</option>
+    </select>
+</div>
+
+<div class="disclaimer-box">
+    <ion-icon name="alert-circle-outline"></ion-icon>
+    <div>आवेदन से पहले हर job की तिथियाँ और योग्यता <strong style="color: var(--text-primary);">आधिकारिक अधिसूचना</strong> से ज़रूर जाँचें। Details are auto-collected — always verify on the official website.</div>
+</div>
+
+<!-- 3-column layout: Latest Jobs / Results / Admit Cards -->
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-bottom: 3rem;">
+
+    {% set columns = [
+        ('Latest Jobs', 'LATEST_JOB', '#3b82f6', 25),
+        ('Results', 'RESULT', '#ef4444', 15),
+        ('Admit Cards', 'ADMIT_CARD', '#22c55e', 15)
+    ] %}
+    {% for col_title, col_type, col_color, col_limit in columns %}
+    <div class="ssg-card" style="padding: 1.25rem;">
+        <h2 style="color: {{ col_color }}; margin-bottom: 1rem; font-size: 1.3rem; text-align: center; border-bottom: 2px solid {{ col_color }}; padding-bottom: 0.6rem;">{{ col_title }}</h2>
+        <ul style="list-style: none; padding: 0;" class="job-list">
+            {% set col_jobs = jobs | selectattr('job_type', 'equalto', col_type) | list %}
+            {% for job in col_jobs[:col_limit] %}
+            <li class="job-item" data-search="{{ (job.title ~ ' ' ~ (job.organization or '')) | lower }}" data-category="{{ job.category }}" style="margin-bottom: 0.7rem; border-bottom: 1px solid var(--glass-border); padding-bottom: 0.55rem;">
+                <a href="{{ root_path }}jobs/job_{{ job.id }}.html" style="color: var(--text-primary); text-decoration: none; font-size: 0.92rem; display: block;">
+                    {{ job.title }}
+                </a>
+            </li>
+            {% else %}
+            <li style="color: var(--text-secondary); text-align: center; padding: 1.25rem 0;">Nothing here right now.</li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endfor %}
+
+</div>
+
+<p id="noResultsMsg" style="display: none; text-align: center; color: var(--text-secondary); padding: 1.5rem;">कोई job नहीं मिली — दूसरा keyword आज़माएँ। No matching jobs found.</p>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var searchInput = document.getElementById('jobSearch');
+        var categorySelect = document.getElementById('jobCategory');
+        var items = document.querySelectorAll('.job-item');
+        var noResultsMsg = document.getElementById('noResultsMsg');
+
+        function filterJobs() {
+            var term = searchInput.value.toLowerCase().trim();
+            var cat = categorySelect.value;
+            var visible = 0;
+            items.forEach(function (item) {
+                var matchesSearch = (item.getAttribute('data-search') || '').indexOf(term) !== -1;
+                var matchesCat = (cat === 'ALL' || (item.getAttribute('data-category') || '') === cat);
+                var show = matchesSearch && matchesCat;
+                item.style.display = show ? '' : 'none';
+                if (show) visible++;
+            });
+            noResultsMsg.style.display = (visible === 0 && items.length > 0) ? 'block' : 'none';
+        }
+
+        searchInput.addEventListener('input', filterJobs);
+        categorySelect.addEventListener('change', filterJobs);
+    });
+</script>
+{% endblock %}

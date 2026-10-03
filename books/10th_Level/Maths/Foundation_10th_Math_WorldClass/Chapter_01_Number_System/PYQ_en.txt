@@ -1,0 +1,314 @@
+Here is the PYQ analysis, based on an examination of patterns from SSC, Banking, and Railway exams over the last 10 years.
+
+🧠 PYQ Data-Driven Analysis
+
+An analysis of number system questions from the past decade reveals a consistent pattern: examiners focus on a core set of 5-6 sub-topics, but their real skill lies in setting "traps." The difficulty is rarely in the mathematical operation itself, but in decoding what is actually being asked.
+
+Recurring High-Weightage Topics: The majority of questions cluster around a few key areas:
+
+Remainders (~25%): Questions based on the remainder theorem and finding remainders when the divisor is changed are exceptionally common-
+5
+-
+6
+.
+
+Divisibility Rules (~20%): Questions involving unknown digits in a number to make it divisible by another number (like 11, 72, etc.) are a staple-
+21
+-
+22
+.
+
+LCM & HCF (~20%): This is a classic topic, often involving fractions or problems about finding the greatest number that leaves a specific remainder-
+22
+.
+
+Unit Digit / Cyclicity (~15%): Questions that ask for the unit's digit of a complex expression like
+(
+7
+1
++
+7
+2
++
+.
+.
+.
++
+7
+50
+)
+(7
+1
++7
+2
++...+7
+50
+) appear almost every year-
+21
+.
+
+Number Types (Rational/Irrational, Prime/Composite) (~10%): These are fundamental and often form the trap in a more complex problem-
+8
+.
+
+Digit-Based Problems (~10%): Classic "two-digit number and its reversed digits" problems are frequently seen, especially in banking exams-
+11
+.
+
+🎣 Top 10 High-Yield PYQs with "Hook & Trap" Analysis
+
+Here are 10 archetypal questions, each with its solution and the psychological "hook" or "trap" it uses to trick aspirants.
+
+Q1. (SSC CGL) A 4-digit number is formed by repeating a 2-digit number, e.g., 1515, 3737. Any number of this form is always exactly divisible by?
+(a) 7 (b) 11 (c) 13 (d) 101
+
+Solution: Any 4-digit number of the form 'abab' can be written as 1000a + 100b + 10a + b = 1010a + 101b = 101(10a + b). Therefore, it is always a multiple of 101. Ans: (d) 101.
+
+The Hook / Trap: The "Obvious Guess" Trap. The options 7, 11, and 13 are common divisibility rule numbers. An unprepared student guesses one of these, while the answer is the less "cool" number 101. The trick is to use algebra, not mental rules.
+
+Q2. (SSC CGL) A number when divided by 136 leaves a remainder of 36. If the same number is divided by 17, what will be the remainder?
+(a) 9 (b) 7 (c) 3 (d) 2
+
+Solution: Let the number be N. N = 136q + 36. We need to find the remainder when N is divided by 17. Note that 136 = 17 × 8 (divisible by 17). So, N = 17(8q) + 36. Now divide 36 by 17: 36 = 17 × 2 + 2. Therefore, the remainder is 2. Ans: (d) 2.
+
+The Hook / Trap: The "Complex Divisor" Trap. 136 looks random, and students get stuck trying to find the number. The key is recognizing that 136 is a multiple of the new divisor, 17. The anxiety of large numbers masks a simple logic.
+
+Q3. (Bank PO) The sum of five consecutive even numbers and four consecutive odd numbers is 96. If the smallest even number is 4, what’s the difference between the largest even number and the smallest odd number?
+(a) 0 (b) 1 (c) 2 (d) 3
+
+Solution: Five consecutive even numbers starting with 4 are 4, 6, 8, 10, 12. Their sum = 40. The sum of the four odd numbers = 96 - 40 = 56. Let the odd numbers be x, x+2, x+4, x+6. Their sum: 4x + 12 = 56 → 4x = 44 → x = 11. The odd numbers are 11, 13, 15, 17. The smallest odd is 11 and the largest even is 12. Difference = 12 - 11 = 1. Ans: (b) 1.
+
+The Hook / Trap: The "Information Overload" Trap. The question bombards you with data (five evens, four odds, sums, differences). The trap is freezing up. The solution is simple, step-by-step decoding.
+
+Q4. (Bank PO) A two-digit number becomes 63 larger when its digits are reversed. The sum of the digits is 11. Find the number.
+(a) 47 (b) 38 (c) 29 (d) 56
+
+Solution: Let the number be 10a + b. The reversed number is 10b + a. According to the problem: (10b + a) - (10a + b) = 63 → 9b - 9a = 63 → b - a = 7. Also, a + b = 11. Solving these two equations: 2b = 18 → b = 9, so a = 2. The number is 29. Ans: (c) 29.
+
+The Hook / Trap: The "Reverse and Subtract" Trap. Students often incorrectly set up the equation as (10a + b) - (10b + a) = 63, leading to a - b = 7 and getting a negative digit. The wording "becomes 63 larger" defines the correct order.
+
+Q5. (RRB NTPC) Which of the following is a prime number?
+(a) 33 (b) 87 (c) 93 (d) 97
+
+Solution: Check each number. 33 is divisible by 3 and 11. 87 is divisible by 3 (8+7=15). 93 is divisible by 3 (9+3=12). 97 is not divisible by any prime number less than its square root (~10), i.e., 2, 3, 5, 7. Therefore, 97 is prime. Ans: (d) 97.
+
+The Hook / Trap: The "Looks Like a Prime" Trap. 91 (7x13) is a famous composite "imposter," but even with other numbers, students who don't check the sum of digits for divisibility by 3 will guess wrong.
+
+Q6. (SSC CGL) The unit digit in the product
+(
+12
+)
+2173
+(12)
+2173
+ is?
+(a) 2 (b) 4 (c) 6 (d) 8
+
+Solution: The unit's digit of 12 is 2. The cyclicity of 2 is 4:
+2
+1
+=
+2
+2
+1
+=2,
+2
+2
+=
+4
+2
+2
+=4,
+2
+3
+=
+8
+2
+3
+=8,
+2
+4
+=
+6
+2
+4
+=6. To find the effective power, divide the exponent by 4: 2173 ÷ 4 gives a remainder of 1. Therefore, the unit's digit is
+2
+1
+=
+2
+2
+1
+=2. Ans: (a) 2.
+
+The Hook / Trap: The "Big Number" Intimidation Trap. The exponent 2173 looks scary. The trick is to ignore the base's tens digit and focus only on the unit digit's cyclicity. This question tests if you can see the simple pattern through the noise.
+
+Q7. (RRB NTPC) What is the largest 4-digit number exactly divisible by 9, 12, and 18?
+(a) 9936 (b) 9960 (c) 9990 (d) 9972
+
+Solution: First, find the LCM of 9, 12, and 18, which is 36. The largest 4-digit number is 9999. Divide 9999 by 36: 9999 ÷ 36 gives a quotient of 277 and a remainder of 27. The required number is 9999 - 27 = 9972. Ans: (d) 9972.
+
+The Hook / Trap: The "Direct LCM" Trap. A careless student might multiply the numbers (9x12x18=1944) and then look for multiples of 1944. The key step is finding the least common multiple first.
+
+Q8. (SSC CGL) If 'n' is any natural number, then by which largest number is
+(
+𝑛
+3
+−
+𝑛
+)
+(n
+3
+−n) always divisible?
+(a) 3 (b) 6 (c) 12 (d) 18
+
+Solution: Factorize the expression:
+𝑛
+3
+−
+𝑛
+=
+𝑛
+(
+𝑛
+2
+−
+1
+)
+=
+(
+𝑛
+−
+1
+)
+𝑛
+(
+𝑛
++
+1
+)
+n
+3
+−n=n(n
+2
+−1)=(n−1)n(n+1). This is the product of three consecutive natural numbers. The product of any three consecutive numbers is always divisible by 2 and 3, hence always divisible by 6. For n=2, (1)(2)(3)=6, which is divisible by 6 but not by 12 or 18. So, the largest number is 6. Ans: (b) 6.
+
+The Hook / Trap: The "Algebraic Forgetfulness" Trap. A student might not factorize
+𝑛
+3
+−
+𝑛
+n
+3
+−n or, after factorizing, may not recognize that the product of three consecutive integers is always a multiple of 6. They might test n=2 and n=3 and get confused by the different results.
+
+Q9. (SSC CGL) Consider the statement:
+75
+75
+	​
+
+ is a rational number. Is it true or false?
+
+Solution: The statement is false.
+75
+75
+	​
+
+ can be simplified to
+25
+×
+3
+=
+5
+3
+25×3
+	​
+
+=5
+3
+	​
+
+. Since
+3
+3
+	​
+
+ is an irrational number, and the product of a rational (5) and an irrational (
+3
+3
+	​
+
+) is irrational,
+75
+75
+	​
+
+ is an irrational number. Ans: False.
+
+The Hook / Trap: The "Imperfect Square Root" Trap. The number 75 is not a perfect square, so its square root cannot be expressed as a simple fraction of two integers, making it irrational. The trap is thinking that because 75 is a whole number, its root might be rational.
+
+Q10. (SSC CGL / RRB NTPC) A number when divided by 5 leaves a remainder of 2. What is the remainder when the square of the number (
+𝑛
+2
+n
+2
+) is divided by 5?
+(a) 2 (b) 3 (c) 1 (d) 4
+
+Solution: Use the remainder theorem. Let the number be
+𝑛
+=
+5
+𝑞
++
+2
+n=5q+2. Then,
+𝑛
+2
+=
+(
+5
+𝑞
++
+2
+)
+2
+=
+25
+𝑞
+2
++
+20
+𝑞
++
+4
+=
+5
+(
+5
+𝑞
+2
++
+4
+𝑞
+)
++
+4
+n
+2
+=(5q+2)
+2
+=25q
+2
++20q+4=5(5q
+2
++4q)+4. When this is divided by 5, the remainder is 4. You can also test with a simple example: 7 divided by 5 leaves remainder 2.
+7
+2
+=
+49
+7
+2
+=49, and 49 divided by 5 leaves remainder 4. Ans: (d) 4.
+
+The Hook / Trap: The "Formula Over Common Sense" Trap. Students try to remember complex remainder theorems and get confused. The simplest and fastest method is to take a small example (like 7), square it, and check the remainder. This trap tests whether you overcomplicate a simple idea.

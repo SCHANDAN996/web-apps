@@ -1,0 +1,143 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="mb-8">
+    <h1 class="text-3xl font-bold text-gray-800">⚙️ System Settings</h1>
+    <p class="text-gray-500 mt-2">Configure API Keys and AI Models for Automation.</p>
+</div>
+
+{% if success %}
+<div class="bg-green-100 border-l-4 border-green-500 text-green-700 p-4 mb-6" role="alert">
+    <p>Settings saved successfully!</p>
+</div>
+{% endif %}
+
+<div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
+    <form method="POST" action="/admin/settings">
+        
+        <h2 class="text-xl font-bold text-gray-800 mb-4 border-b pb-2">🤖 AI Configuration</h2>
+        
+        <div class="mb-4" id="apiKeysWrapper">
+            <label class="block text-sm font-medium text-gray-700 mb-2">Google Gemini API Keys (Multi-Key Rotation)</label>
+            
+            <div id="apiKeysList" class="space-y-2">
+                {% set api_keys_str = settings.get('gemini_api_keys', settings.get('gemini_api_key', '')) %}
+                {% set keys = api_keys_str.split('\n') if api_keys_str else [] %}
+                {% set has_keys = false %}
+                
+                {% for key in keys %}
+                    {% if key.strip() %}
+                    {% set has_keys = true %}
+                    <div class="flex items-center gap-2">
+                        <input type="password" value="{{ key.strip() }}" class="gemini-key-input flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-violet-500 focus:border-violet-500" placeholder="AIzaSy...">
+                        <button type="button" onclick="this.parentElement.remove()" class="text-red-500 hover:text-red-700 p-2"><i class="fas fa-trash"></i></button>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+                
+                {% if not has_keys %}
+                    <div class="flex items-center gap-2">
+                        <input type="password" class="gemini-key-input flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-violet-500 focus:border-violet-500" placeholder="AIzaSy...">
+                        <button type="button" onclick="this.parentElement.remove()" class="text-red-500 hover:text-red-700 p-2"><i class="fas fa-trash"></i></button>
+                    </div>
+                {% endif %}
+            </div>
+
+            <button type="button" onclick="addApiKeyField()" class="mt-3 text-sm text-violet-600 hover:text-violet-800 font-medium flex items-center">
+                <i class="fas fa-plus-circle mr-1"></i> Add Another API Key
+            </button>
+            
+            <input type="hidden" name="gemini_api_keys" id="geminiApiKeysHidden">
+
+            <hr class="my-5 border-gray-200">
+            
+            <!-- Live Status Checker Button -->
+            <button type="button" onclick="checkApiKeys()" class="text-sm bg-gray-100 hover:bg-gray-200 text-gray-700 py-2 px-4 rounded-lg border border-gray-300 transition-colors font-medium">
+                <i class="fas fa-sync-alt mr-1"></i> Check Working Status
+            </button>
+            <div id="apiStatusContainer" class="mt-3 hidden p-3 bg-gray-50 rounded border text-sm"></div>
+        </div>
+        
+        <script>
+        function addApiKeyField() {
+            const list = document.getElementById('apiKeysList');
+            const div = document.createElement('div');
+            div.className = 'flex items-center gap-2';
+            div.innerHTML = `
+                <input type="password" class="gemini-key-input flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-violet-500 focus:border-violet-500" placeholder="AIzaSy...">
+                <button type="button" onclick="this.parentElement.remove()" class="text-red-500 hover:text-red-700 p-2"><i class="fas fa-trash"></i></button>
+            `;
+            list.appendChild(div);
+        }
+
+        document.querySelector('form').addEventListener('submit', function() {
+            const inputs = document.querySelectorAll('.gemini-key-input');
+            const keys = [];
+            inputs.forEach(input => {
+                if(input.value.trim() !== '') keys.push(input.value.trim());
+            });
+            document.getElementById('geminiApiKeysHidden').value = keys.join('\n');
+        });
+
+        async function checkApiKeys() {
+            const container = document.getElementById('apiStatusContainer');
+            container.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i> Checking all keys... Please wait.';
+            container.classList.remove('hidden');
+            
+            try {
+                const response = await fetch('/admin/check_keys');
+                const result = await response.json();
+                
+                if (result.success) {
+                    let html = '<ul class="space-y-2">';
+                    result.status.forEach(k => {
+                        const icon = k.working ? '<i class="fas fa-check-circle text-green-500"></i>' : '<i class="fas fa-times-circle text-red-500"></i>';
+                        html += `<li>${icon} <strong>${k.key.substring(0, 15)}...</strong> : ${k.message}</li>`;
+                    });
+                    html += '</ul>';
+                    container.innerHTML = html;
+                } else {
+                    container.innerHTML = '<span class="text-red-500">Failed to check keys.</span>';
+                }
+            } catch(e) {
+                container.innerHTML = '<span class="text-red-500">Error connecting to server.</span>';
+            }
+        }
+        </script>
+        
+        <div class="mb-6">
+            <label class="block text-sm font-medium text-gray-700 mb-1">AI Model Name</label>
+            <select name="ai_model_name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-violet-500 focus:border-violet-500">
+                {% if available_models %}
+                    {% for model in available_models %}
+                        <option value="{{ model.name }}" {% if settings.get('ai_model_name') == model.name %}selected{% endif %}>{{ model.display_name }} ({{ model.name }})</option>
+                    {% endfor %}
+                {% else %}
+                    <option value="gemini-1.5-flash" {% if settings.get('ai_model_name') == 'gemini-1.5-flash' %}selected{% endif %}>Gemini 1.5 Flash (Default)</option>
+                    <option value="gemini-1.5-pro" {% if settings.get('ai_model_name') == 'gemini-1.5-pro' %}selected{% endif %}>Gemini 1.5 Pro</option>
+                {% endif %}
+            </select>
+        </div>
+
+        <h2 class="text-xl font-bold text-gray-800 mb-4 border-b pb-2 mt-8">📱 Telegram Bot Configuration</h2>
+        
+        <div class="mb-4">
+            <label class="block text-sm font-medium text-gray-700 mb-1">Telegram Bot Token</label>
+            <input type="password" name="telegram_bot_token" value="{{ settings.get('telegram_bot_token', '') }}" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-violet-500 focus:border-violet-500" placeholder="123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11">
+            <p class="text-xs text-gray-500 mt-1">Get this from BotFather.</p>
+        </div>
+        
+        <div class="mb-6">
+            <label class="block text-sm font-medium text-gray-700 mb-1">Telegram Channel ID</label>
+            <input type="text" name="telegram_channel_id" value="{{ settings.get('telegram_channel_id', '') }}" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-violet-500 focus:border-violet-500" placeholder="@study_station_alerts">
+            <p class="text-xs text-gray-500 mt-1">The username of your channel (must start with @) or chat ID.</p>
+        </div>
+        
+        <div class="flex justify-end mt-8">
+            <button type="submit" class="bg-violet-600 hover:bg-violet-700 text-white font-medium py-2 px-6 rounded-lg transition-colors">
+                Save Settings
+            </button>
+        </div>
+    </form>
+</div>
+{% endblock %}

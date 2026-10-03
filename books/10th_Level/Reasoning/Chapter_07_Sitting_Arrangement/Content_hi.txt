@@ -1,0 +1,55 @@
+# बैठक व्यवस्था (Sitting Arrangement)
+
+शादी के खाने में गोल मेज़ के चारों ओर 6 लोग बैठे हैं, सब बीच की ओर मुँह किए। कोई कहे "राम के ठीक बाईं ओर कौन है?" — यहीं पेच है: जो व्यक्ति मेज़ की ओर मुँह किए है, उसका बायाँ हाथ हमारे (देखने वाले के) दाईं ओर होता है! बैठक व्यवस्था इसी उलटफेर की परीक्षा है।
+
+**परिभाषा:** इन प्रश्नों में कई लोगों को एक पंक्ति, गोल मेज़, या चौकोर मेज़ के चारों ओर बैठाया जाता है, कुछ शर्तें दी जाती हैं, और हमें उनकी सही स्थिति निकालनी होती है।
+
+🧠 Recall: गोल मेज़ पर केंद्र की ओर मुँह किए व्यक्ति का बायाँ हाथ देखने वाले की किस ओर होगा?
+
+## हल का सुनहरा नियम: चित्र बनाओ
+
+काग़ज़ पर व्यवस्था (पंक्ति या वृत्त) खींचो, और शर्तें एक-एक करके भरो। पक्की शर्त पहले लगाओ, अटकल वाली बाद में।
+
+```svg गोल मेज़: 6 व्यक्ति, सब केंद्र की ओर मुँह किए (A का बायाँ = F, दायाँ = B)
+<svg viewBox="0 0 240 240" width="240" height="240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="गोल मेज़ पर छह व्यक्तियों की बैठक">
+  <circle cx="120" cy="120" r="42" style="fill:var(--fig-muted);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="120" y="124" text-anchor="middle" style="fill:var(--fig-text);font-size:12px">मेज़</text>
+  <circle cx="120" cy="42" r="16" style="fill:none;stroke:var(--fig-accent);stroke-width:2"/>
+  <text x="120" y="47" text-anchor="middle" style="fill:var(--fig-text);font-size:13px;font-weight:700">A</text>
+  <circle cx="188" cy="81" r="16" style="fill:none;stroke:var(--fig-accent);stroke-width:2"/>
+  <text x="188" y="86" text-anchor="middle" style="fill:var(--fig-text);font-size:13px;font-weight:700">B</text>
+  <circle cx="188" cy="159" r="16" style="fill:none;stroke:var(--fig-accent);stroke-width:2"/>
+  <text x="188" y="164" text-anchor="middle" style="fill:var(--fig-text);font-size:13px;font-weight:700">C</text>
+  <circle cx="120" cy="198" r="16" style="fill:none;stroke:var(--fig-accent);stroke-width:2"/>
+  <text x="120" y="203" text-anchor="middle" style="fill:var(--fig-text);font-size:13px;font-weight:700">D</text>
+  <circle cx="52" cy="159" r="16" style="fill:none;stroke:var(--fig-accent);stroke-width:2"/>
+  <text x="52" y="164" text-anchor="middle" style="fill:var(--fig-text);font-size:13px;font-weight:700">E</text>
+  <circle cx="52" cy="81" r="16" style="fill:none;stroke:var(--fig-accent);stroke-width:2"/>
+  <text x="52" y="86" text-anchor="middle" style="fill:var(--fig-text);font-size:13px;font-weight:700">F</text>
+</svg>
+```
+
+## मुख्य प्रकार
+
+**1. रैखिक व्यवस्था (Linear — एक पंक्ति)**
+सब एक ही दिशा में मुँह किए → बायाँ-दायाँ हमारे जैसा।
+आमने-सामने दो पंक्तियाँ → एक पंक्ति उत्तर मुँह, दूसरी दक्षिण मुँह।
+
+**2. वृत्ताकार व्यवस्था (Circular)**
+- **केंद्र की ओर मुँह** → व्यक्ति का बायाँ = हमारा दायाँ (उल्टा)।
+- **बाहर की ओर मुँह** → व्यक्ति का बायाँ = हमारा बायाँ (सीधा)।
+
+**3. चौकोर/आयताकार मेज़**
+कोनों और भुजाओं पर लोग; मुँह की दिशा शर्त में दी होती है।
+
+🧠 Recall: बाहर की ओर मुँह किए वृत्त में, व्यक्ति का दायाँ हाथ देखने वाले की किस ओर?
+
+## परीक्षक का जाल (Examiner's Trap)
+
+⚠️ **जाल 1 — मुँह की दिशा:** केंद्र की ओर और बाहर की ओर में बायाँ-दायाँ उलट जाता है। पहले मुँह की दिशा तय करो।
+
+⚠️ **जाल 2 — "ठीक बगल" बनाम "किसी ओर":** "ठीक बाईं ओर" (तुरंत पड़ोसी) और "बाईं ओर" (कहीं भी बाएँ) अलग हैं।
+
+⚠️ **जाल 3 — अधूरी जानकारी:** कई बार एक शर्त से दो संभावनाएँ बनती हैं; सभी शर्तें लगाकर ही अंतिम चित्र तय करो।
+
+इसे 2 दिन बाद दोहराएँ।

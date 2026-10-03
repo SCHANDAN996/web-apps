@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="mb-8">
+    <h1 class="text-3xl font-bold text-gray-800">⚡ AI Job Automation</h1>
+    <p class="text-gray-500 mt-2">Automatically scrape a job webpage, extract details using AI, and post to Telegram.</p>
+</div>
+
+{% if result %}
+<div class="{% if result.success %}bg-green-100 border-green-500 text-green-700{% else %}bg-red-100 border-red-500 text-red-700{% endif %} border-l-4 p-4 mb-6 rounded" role="alert">
+    <p class="font-bold">{% if result.success %}Success!{% else %}Error!{% endif %}</p>
+    <p>{{ result.message }}</p>
+    
+    {% if result.success and result.job %}
+    <div class="mt-4 bg-white p-4 rounded border border-gray-200">
+        <h3 class="font-bold text-sm text-gray-500 mb-2">EXTRACTED DATA:</h3>
+        <ul class="list-disc pl-5 text-sm">
+            <li><strong>Title:</strong> {{ result.job.title }}</li>
+            <li><strong>Organization:</strong> {{ result.job.organization }}</li>
+            <li><strong>Vacancies:</strong> {{ result.job.vacancies }}</li>
+            <li><strong>Last Date:</strong> {{ result.job.last_date }}</li>
+        </ul>
+    </div>
+    {% endif %}
+</div>
+{% endif %}
+
+<div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
+    <form method="POST" action="/admin/automation">
+        
+        <h2 class="text-xl font-bold text-gray-800 mb-4 border-b pb-2">Manual Scrape Trigger</h2>
+        <p class="text-sm text-gray-600 mb-6">Enter the URL of a job notification (e.g., from FreeJobAlert or SarkariResult). The AI will fetch the page, read the text, extract the details, add it to your database, and post it to Telegram.</p>
+        
+        <div class="mb-6">
+            <label class="block text-sm font-medium text-gray-700 mb-1">Job Website URL</label>
+            <input type="url" name="url" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-violet-500 focus:border-violet-500 text-lg" placeholder="https://example.com/job-post">
+        </div>
+        
+        <div class="flex items-center gap-4">
+            <button type="submit" class="bg-violet-600 hover:bg-violet-700 text-white font-bold py-3 px-8 rounded-lg transition-colors flex items-center shadow-lg shadow-violet-200">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+                Run AI Auto-Scrape
+            </button>
+            <span class="text-sm text-gray-500">This might take 5-10 seconds depending on the website and AI response time.</span>
+        </div>
+    </form>
+</div>
+{% endblock %}

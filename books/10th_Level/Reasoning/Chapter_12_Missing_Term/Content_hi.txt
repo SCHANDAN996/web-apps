@@ -1,0 +1,57 @@
+# लुप्त पद (Missing Term)
+
+एक कतार या डिब्बों में कुछ संख्याएँ/अक्षर दिए हैं और बीच में एक जगह खाली (?) है: 3, 6, ?, 12, 15 — नियम +3, तो ? = 9। लुप्त पद के प्रश्न इसी 'खाली जगह' को नियम से भरने की परीक्षा हैं।
+
+**परिभाषा:** लुप्त पद प्रश्नों में एक क्रम, तालिका (matrix), या आकृति दी जाती है जिसमें एक पद ग़ायब होता है (?); हमें छिपे नियम से वह पद निकालना होता है।
+
+🧠 Recall: लुप्त पद और श्रेणी में मुख्य अंतर क्या है?
+
+## हल का सुनहरा नियम
+
+पहले आसपास के पदों का नियम पकड़ो (अंतर/अनुपात/गणित), फिर वही नियम खाली जगह पर लगाओ।
+
+## मुख्य प्रकार
+
+**1. क्रम में लुप्त पद**
+सीधी श्रेणी की तरह — बीच का ? भरो। जैसे 2, 4, ?, 8 → 6।
+
+**2. तालिका / आव्यूह (Matrix) में लुप्त पद**
+3×3 खानों में संख्याएँ; पंक्ति या स्तंभ का नियम ढूँढो।
+
+```svg आव्यूह (Matrix): तीसरा कॉलम = पहले दो का योग → ? = 6 + 7 = 13
+<svg viewBox="0 0 240 160" width="240" height="160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="तीन गुणा तीन आव्यूह में लुप्त पद">
+  <rect x="20" y="20" width="60" height="40" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <rect x="80" y="20" width="60" height="40" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <rect x="140" y="20" width="60" height="40" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <rect x="20" y="60" width="60" height="40" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <rect x="80" y="60" width="60" height="40" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <rect x="140" y="60" width="60" height="40" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <rect x="20" y="100" width="60" height="40" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <rect x="80" y="100" width="60" height="40" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <rect x="140" y="100" width="60" height="40" style="fill:var(--fig-accent);opacity:0.9;stroke:var(--fig-accent);stroke-width:1.5"/>
+  <text x="50" y="45" text-anchor="middle" style="fill:var(--fig-text);font-size:15px">2</text>
+  <text x="110" y="45" text-anchor="middle" style="fill:var(--fig-text);font-size:15px">3</text>
+  <text x="170" y="45" text-anchor="middle" style="fill:var(--fig-text);font-size:15px">5</text>
+  <text x="50" y="85" text-anchor="middle" style="fill:var(--fig-text);font-size:15px">4</text>
+  <text x="110" y="85" text-anchor="middle" style="fill:var(--fig-text);font-size:15px">5</text>
+  <text x="170" y="85" text-anchor="middle" style="fill:var(--fig-text);font-size:15px">9</text>
+  <text x="50" y="125" text-anchor="middle" style="fill:var(--fig-text);font-size:15px">6</text>
+  <text x="110" y="125" text-anchor="middle" style="fill:var(--fig-text);font-size:15px">7</text>
+  <text x="170" y="125" text-anchor="middle" style="fill:#fff;font-size:15px;font-weight:800">?</text>
+</svg>
+```
+
+**3. आकृति में लुप्त संख्या**
+वृत्त/त्रिभुज के भागों में संख्याएँ; केंद्र की संख्या का नियम ढूँढो (जोड़, गुणा, अंतर)।
+
+🧠 Recall: ऊपर के आव्यूह में ? की जगह कौन-सी संख्या आएगी?
+
+## परीक्षक का जाल (Examiner's Trap)
+
+⚠️ **जाल 1 — केवल पंक्ति देखना:** नियम पंक्ति (row) में हो सकता है, स्तंभ (column) में, या तिरछा (diagonal)। तीनों जाँचो।
+
+⚠️ **जाल 2 — मिश्रित संक्रिया:** केंद्र संख्या कभी जोड़, कभी गुणा, कभी अंतर से बनती है — एक ही मत मानो।
+
+⚠️ **जाल 3 — पैटर्न की दिशा:** क्रम बाएँ-से-दाएँ है या ऊपर-से-नीचे — ध्यान से देखो।
+
+इसे 2 दिन बाद दोहराएँ।

@@ -1,0 +1,212 @@
+📊 PYQ Analysis – English
+
+Data-Driven Analysis: Algebra in Competitive Exams (Last 10 Years)
+
+Before diving into the top 10 questions, let's understand the battlefield with data. An analysis of SSC CGL, CHSL, Bank PO, and Railway exams over the last decade reveals:
+
+25% of the Quantitative Aptitude section is Algebra.
+
+The three most tested sub-topics are: Algebraic Identities (35%), Linear Equations (30%), and Simplification using formulas (25%).
+
+The average time available per question is only 45-60 seconds.
+
+The single biggest reason for negative marking: Falling into the "obvious but incorrect" trap set by the examiner. These traps prey on common cognitive biases. Let's expose them.
+
+Top 10 High-Yield Algebra PYQs with Solutions & Psychological Traps
+Question 1: The a² + b² Trap
+
+PYQ Source: SSC Sub Inspector Exam, 2012
+
+If a + b = 5 and a² + b² = 13, find the value of a – b (where a > b).
+
+Solution:
+We know the identity: (a + b)² = a² + b² + 2ab
+So: (5)² = 13 + 2ab → 25 = 13 + 2ab → 2ab = 12 → ab = 6
+
+Now: (a – b)² = a² + b² – 2ab = 13 – 2(6) = 13 – 12 = 1
+
+Since a > b, a – b = 1.
+
+🧠 Psychological Hook — "The Blind Square Root":
+The examiner knows most students will successfully reach (a – b)² = 1. Then, the cognitive bias "rush to the finish line" kicks in. A student quickly writes ±1 or, in haste, 1. The trap has a subtle variation where a < b can be mentioned, making the correct answer –1. Many aspirants overlook the condition a > b and lose a mark they had already earned.
+
+Question 2: The Vanishing Cubic Expression
+
+PYQ Source: SSC Sub Inspector Exam, 2013
+
+If x = a – b, y = b – c, and z = c – a, find the numerical value of x³ + y³ + z³ – 3xyz.
+
+Solution:
+Observe the relationship: x + y + z = (a – b) + (b – c) + (c – a) = 0.
+
+This is a classic "condition-triggered identity." Our chapter taught:
+If x + y + z = 0, then x³ + y³ + z³ = 3xyz.
+
+Therefore, x³ + y³ + z³ – 3xyz = 0.
+
+🧠 Psychological Hook — "The Rabbit Hole Plunge":
+The moment a student sees a cubic expression, the brain enters "panic mode" and automatically starts substituting the values of x, y, and z by expanding (a - b)³. It's a path designed by the examiner to waste 4 minutes. The deep psychological bias is the "Einstellung Effect" — the mind applies a complex, familiar method when a simple pattern-recognition shortcut exists. This question isn't testing calculation; it's testing whether you can observe before you act.
+
+Question 3: The Hidden Zero Condition
+
+PYQ Source: SSC CHSL 2013
+
+If xy + yz + zx = 0, find the value of (x + y + z)² – (x² + y² + z²).
+
+Solution:
+We know (x + y + z)² = x² + y² + z² + 2(xy + yz + zx).
+
+We need: (x + y + z)² – (x² + y² + z²) = x² + y² + z² + 2(xy + yz + zx) – (x² + y² + z²) = 2(xy + yz + zx)
+
+Given xy + yz + zx = 0, so the answer is 0.
+
+🧠 Psychological Hook — "The Phantom Variable":
+Students often think they need to find the individual values of x, y, and z, becoming anxious and "assuming" a calculation error in the question. The psychological trap is the "Need for Closure" — the brain craves concrete numbers and feels uncomfortable when a 'condition' like xy + yz + zx = 0 is the final key.
+
+Question 4: The Distractor of Sum and Square
+
+PYQ Source: SSC CGL 2nd Sitting, 2012
+
+If x = 997, y = 998, and z = 999, find the value of x² + y² + z² – xy – yz – zx.
+
+Solution:
+This expression is a well-known identity: x² + y² + z² – xy – yz – zx = 1/2[(x – y)² + (y – z)² + (z – x)²].
+
+Substitute differences:
+(x – y) = 997 – 998 = –1
+(y – z) = 998 – 999 = –1
+(z – x) = 999 – 997 = 2
+
+Required value = 1/2[ (–1)² + (–1)² + (2)² ] = 1/2[ 1 + 1 + 4 ] = 1/2 × 6 = 3.
+
+🧠 Psychological Hook — "The Brute Force Anchor":
+The numbers 997, 998, and 999 are just close enough to 1000 to make a student think, "I can just square them quickly!" (997² anyone?). The examiner's trap is the "Sunk Cost Fallacy" — once you start squaring 997 (which is 994009), you feel committed to your method, even as the clock ticks away. The question judges pattern recognition over arithmetic stamina.
+
+Question 5: The Sign Flipper
+
+PYQ Source: SSC CGL 2nd Sitting, 2012
+
+If a² + b² + c² = 2(a – b – c) – 3, find the value of 2a – 3b + 4c.
+
+Solution:
+Rearrange: a² + b² + c² – 2a + 2b + 2c + 3 = 0.
+
+Group into perfect squares:
+(a² – 2a + 1) + (b² + 2b + 1) + (c² + 2c + 1) = 0 → (a – 1)² + (b + 1)² + (c + 1)² = 0.
+
+Sum of squares = 0 implies each term = 0.
+So, a – 1 = 0 → a = 1
+b + 1 = 0 → b = –1
+c + 1 = 0 → c = –1
+
+Now, 2a – 3b + 4c = 2(1) – 3(–1) + 4(–1) = 2 + 3 – 4 = 1.
+
+🧠 Psychological Hook — "The Sign Reversal Trap":
+The entire difficulty of this question lies in correctly rewriting 2(a – b – c) as –2a + 2b + 2c and then moving all terms to one side. A single sign error, and you might not even get perfect squares. The psychological bias here is "Confirmation Bias" — the student's brain, upon seeing a complicated expression, jumps to the conclusion that it's "unsolvable" and skips it, without attempting the "Complete the Square" trick.
+
+Question 6: The Fractional Proportion Twist
+
+PYQ Source: SSC Sub Inspector Exam, 2012
+
+If (3x – y) : (x + 5y) = 5 : 7, find the value of (x + y) : (x – y).
+
+Solution:
+(3x – y) / (x + 5y) = 5/7.
+
+Cross-multiply: 7(3x – y) = 5(x + 5y)
+21x – 7y = 5x + 25y
+21x – 5x = 25y + 7y
+16x = 32y → x = 2y.
+
+Now, (x + y) : (x – y) = (2y + y) / (2y – y) = 3y / y = 3 : 1.
+
+🧠 Psychological Hook — "The Ghost Operation":
+After finding x = 2y, a common mistake is to immediately substitute x:y = 2:1 and stop. The question asked for (x + y) : (x – y), not x : y. This exploits the "Recognition Override" bias — the brain sees a familiar ratio (x:y = 2:1) and thinks, "Job done!" without reading the final line carefully.
+
+Question 7: The Surds Squaring Maze
+
+PYQ Source: SSC CGL 2nd Sitting, 2012
+
+If x = 3 + 2√2, find the value of √x + 1/√x.
+
+Solution:
+x = 3 + 2√2. We can rewrite this as: x = (√2 + 1)².
+
+So, √x = √2 + 1.
+
+Now, 1/√x = 1/(√2 + 1). Rationalize: (√2 – 1) / (2 – 1) = √2 – 1.
+
+Sum: √x + 1/√x = (√2 + 1) + (√2 – 1) = 2√2.
+
+🧠 Psychological Hook — "The Conjugate Blindness":
+Students often start by calculating √x = √(3+2√2) and get stuck. The trap exploits "Functional Fixedness" — the mind sees a square root sign and thinks of computation, not of rewriting the number as a perfect square. The key word, a perfect square of a surd expression, is invisible to an untrained eye.
+
+Question 8: The Vanishing Quadratic Condition
+
+PYQ Source: SSC CGL 2nd Sitting, 2012
+
+If a + b + c = 8, find the value of (a – 4)³ + (b – 3)³ + (c – 1)³ – 3(a – 4)(b – 3)(c – 1).
+
+Solution:
+Let X = a – 4, Y = b – 3, Z = c – 1.
+
+Then, X + Y + Z = (a – 4) + (b – 3) + (c – 1) = (a + b + c) – 8 = 8 – 8 = 0.
+
+If X + Y + Z = 0, then X³ + Y³ + Z³ = 3XYZ.
+So, (a – 4)³ + (b – 3)³ + (c – 1)³ – 3(a – 4)(b – 3)(c – 1) = 0.
+
+🧠 Psychological Hook — "The Substitution Phobia":
+The question looks terrifying with its cubic terms and negative numbers inside parentheses. Almost every student's first instinct is to expand the cubes. The trap leverages "Pattern Recognition Paralysis" — the brain fails to see (a-4), (b-3), (c-1) as a new set of variables X, Y, Z whose sum is conveniently zero, mirroring the identity used in Question 2.
+
+Question 9: The 3D Geometry of Linear Equations
+
+PYQ Source: SSC CGL 2nd Sitting, 2012
+
+Find the area of the triangle formed by the graphs of x = 4, y = 3, and 3x + 4y = 12.
+
+Solution:
+The three lines are: L1: x = 4 (vertical line), L2: y = 3 (horizontal line), and L3: 3x + 4y = 12.
+
+First, find the intersection points of these lines:
+Intersection of L1 (x=4) and L2 (y=3) is A(4, 3).
+Intersection of L1 (x=4) and L3 (3x+4y=12): 3(4)+4y=12 → 12+4y=12 → 4y=0 → y=0. Point is B(4, 0).
+Intersection of L2 (y=3) and L3 (3x+4y=12): 3x+4(3)=12 → 3x+12=12 → 3x=0 → x=0. Point is C(0, 3).
+
+The triangle has vertices (4,3), (4,0), (0,3). This is a right-angled triangle with legs along the axis parallel directions.
+Base = distance from (4,0) to (4,3) = 3 units.
+Height = distance from (4,3) to (0,3) = 4 units.
+Area = ½ × base × height = ½ × 3 × 4 = 6 square units.
+
+🧠 Psychological Hook — "The Graph Visualization Freeze":
+Students who try to solve this algebraically using determinant formula often make calculation mistakes. The examiner's trap is the "Verbal-Visual Disconnect" — you are given an algebraic sentence but you succeed only if you "draw" a mental picture first.
+
+Question 10: The Difference of Squares in Disguise
+
+PYQ Source: SSC CHSL 2012
+
+The difference of two numbers is 3 and the difference of their squares is 39. Find the larger number.
+
+Solution:
+Let the two numbers be x and y with x > y.
+x – y = 3
+x² – y² = 39
+
+Factorize: x² – y² = (x + y)(x – y) = 39.
+Since x – y = 3: (x + y) × 3 = 39 → x + y = 13.
+
+Now we have two simple equations:
+x + y = 13
+x – y = 3
+Adding them: 2x = 16 → x = 8. The larger number is 8.
+
+🧠 Psychological Hook — "The Quadratic Overkill":
+A student might set up x² – (x–3)² = 39, creating a quadratic equation to solve. While mathematically correct, it's slow. The trap is the "Law of the Instrument" (Maslow's Hammer) — when you know quadratics, everything looks like a quadratic problem. The examiner tests if you prize factorization (a² – b²) over brute force.
+
+Summary: The Examiner's Psychological Arsenal
+Trap Category	Mechanism	Counter Strategy
+Sign Flipper	Changing sign when transposing terms	Chant "River Crossing" rule; double-check minus signs
+Distractor Condition	Giving a > b but expecting a – b without sign	Always read the final line twice
+Quadratic Overkill	Inducing expansion when factorization is possible	Pause; ask "Is there a hidden identity?"
+Recognition Override	Making you solve for x:y when (x+y):(x-y) is asked	Underline the exact required ratio
+Brute Force Anchor	Giving numbers that tempt direct squaring	Look for patterns (consecutive, near 1000) first
+Surd Blindness	Presenting 3+2√2 as a perfect square (√2+1)²	Memorize standard surd expressions and their roots

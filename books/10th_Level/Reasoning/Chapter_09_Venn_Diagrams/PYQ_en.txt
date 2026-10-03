@@ -1,0 +1,63 @@
+PYQ Analysis: Venn Diagrams (SSC, Banking, Railway — last 10 years)
+
+Venn diagrams give 1–3 questions per exam. Numerical (counting) and logical-relationship types are both common. The trap is double counting and the "only" vs "whole circle" confusion.
+
+Q1. 30 children play cricket, 20 play football, and 10 play both. How many play at least one game?
+(a) 40 (b) 50 (c) 60 (d) 30
+Answer: (a) 40
+Solution: n(A∪B) = 30 + 20 − 10 = 40.
+Source: SSC CGL
+
+Q2. From Q1's data, how many play only cricket?
+(a) 30 (b) 20 (c) 10 (d) 40
+Answer: (b) 20
+Solution: Only cricket = 30 − 10 (both) = 20.
+Source: SSC MTS
+
+Q3. Which relationship fits: Dog, Cat, Animal?
+(a) Three separate circles (b) Dog and Cat separate, both inside Animal (c) All three overlapping (d) Nested one inside another
+Answer: (b) Dog and Cat separate, both inside Animal
+Solution: Dogs and cats are different, but both are animals — two separate circles inside the Animal circle.
+Source: SSC CHSL
+
+Q4. 50 people drink tea, 30 drink coffee, 20 drink both. How many drink at least one?
+(a) 60 (b) 80 (c) 100 (d) 40
+Answer: (a) 60
+Solution: n(A∪B) = 50 + 30 − 20 = 60.
+Source: RRB NTPC
+
+Q5. The formula for the number in A or B is:
+(a) n(A) + n(B) (b) n(A) + n(B) − n(A∩B) (c) n(A) − n(B) (d) n(A) × n(B)
+Answer: (b) n(A) + n(B) − n(A∩B)
+Solution: We subtract the shared part once to avoid double counting.
+Source: NCERT Reasoning
+
+Q6. In a class of 100, 60 study Hindi, 50 study English, 30 study both. How many study neither?
+(a) 20 (b) 10 (c) 30 (d) 40
+Answer: (a) 20
+Solution: At least one = 60 + 50 − 30 = 80. Neither = 100 − 80 = 20.
+Source: SSC CGL
+
+Q7. Which relationship fits: Table, Chair, Furniture?
+(a) Three separate circles (b) Table and Chair separate, both inside Furniture (c) All overlapping (d) Nested
+Answer: (b) Table and Chair separate, both inside Furniture
+Solution: A table and a chair are different, but both are furniture.
+Source: SSC MTS
+
+Q8. 40 like tea, 25 like coffee, 15 like both. How many like only coffee?
+(a) 10 (b) 15 (c) 25 (d) 40
+Answer: (a) 10
+Solution: Only coffee = 25 − 15 = 10.
+Source: Bank Clerk
+
+Q9. Which diagram shows "some doctors are men"?
+(a) Two separate circles (b) Two overlapping circles (c) One circle inside another (d) Three circles
+Answer: (b) Two overlapping circles
+Solution: "Some" means partial overlap — the two circles cross each other.
+Source: SSC CHSL
+
+Q10. The union formula for three groups is n(A∪B∪C) =
+(a) sum only (b) sum − pairwise shared + all-three shared (c) sum − all-three (d) sum + pairwise
+Answer: (b) sum − pairwise shared + all-three shared
+Solution: Subtract the pairwise overlaps, then add back the triple overlap counted out too many times.
+Source: SSC CGL

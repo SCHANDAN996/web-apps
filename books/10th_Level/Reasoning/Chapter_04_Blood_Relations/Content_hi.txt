@@ -1,0 +1,69 @@
+# रक्त संबंध (Blood Relations)
+
+किसी शादी में तुम्हारे पिता तुमसे कहें — "वो जो सामने खड़ी हैं, तुम्हारी दादी की इकलौती बहू की माँ हैं।" अब बताओ वो कौन हुईं? थोड़ा सोचो — दादी की इकलौती बहू = तुम्हारी माँ; माँ की माँ = तुम्हारी नानी। यही रक्त संबंध के प्रश्न हैं — रिश्तों की पहेली सुलझाना।
+
+**परिभाषा:** रक्त संबंध वाले प्रश्नों में परिवार के सदस्यों के बीच के रिश्ते दिए जाते हैं, और हमें कोई अनजान रिश्ता पता करना होता है — जैसे "X, Y का क्या लगता है?"
+
+🧠 Recall: रक्त संबंध हल करने में सबसे ज़रूरी क्या है — रटना, या परिवार का चित्र (tree) बनाना?
+
+## हल करने का सुनहरा नियम: परिवार का पेड़ बनाओ
+
+कभी भी सिर्फ़ दिमाग़ में मत सुलझाओ — काग़ज़ पर छोटा-सा परिवार वृक्ष (family tree) बनाओ।
+
+**संकेत (Notation):**
+- पुरुष के लिए (+) या वर्ग □
+- स्त्री के लिए (−) या वृत्त ○
+- पति-पत्नी के लिए बराबर का चिह्न (=)
+- एक ही पीढ़ी को एक ही रेखा (line) पर रखो; अगली पीढ़ी नीचे।
+
+**पीढ़ी (Generation) का ध्यान:**
+- ऊपर: दादा-दादी / नाना-नानी
+- बीच: माता-पिता, चाचा-मामा, बुआ-मौसी
+- नीचे: बेटा-बेटी, भतीजा-भांजा
+
+```svg परिवार वृक्ष: पुरुष □, स्त्री ○, दंपति = ; रेखा नीचे = संतान
+<svg viewBox="0 0 300 210" width="300" height="210" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="तीन पीढ़ियों का परिवार वृक्ष">
+  <line x1="150" y1="40" x2="150" y2="80" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <line x1="150" y1="115" x2="150" y2="155" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <line x1="112" y1="30" x2="188" y2="30" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <line x1="112" y1="105" x2="188" y2="105" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <line x1="112" y1="180" x2="188" y2="180" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <rect x="82" y="15" width="30" height="30" style="fill:none;stroke:var(--fig-accent);stroke-width:2"/>
+  <circle cx="203" cy="30" r="15" style="fill:none;stroke:var(--fig-danger);stroke-width:2"/>
+  <text x="150" y="27" text-anchor="middle" style="fill:var(--fig-text);font-size:13px">=</text>
+  <text x="97" y="60" text-anchor="middle" style="fill:var(--fig-text);font-size:11px">दादा</text>
+  <text x="203" y="60" text-anchor="middle" style="fill:var(--fig-text);font-size:11px">दादी</text>
+  <rect x="82" y="90" width="30" height="30" style="fill:none;stroke:var(--fig-accent);stroke-width:2"/>
+  <circle cx="203" cy="105" r="15" style="fill:none;stroke:var(--fig-danger);stroke-width:2"/>
+  <text x="150" y="102" text-anchor="middle" style="fill:var(--fig-text);font-size:13px">=</text>
+  <text x="97" y="135" text-anchor="middle" style="fill:var(--fig-text);font-size:11px">पिता</text>
+  <text x="203" y="135" text-anchor="middle" style="fill:var(--fig-text);font-size:11px">माता</text>
+  <rect x="82" y="165" width="30" height="30" style="fill:none;stroke:var(--fig-accent);stroke-width:2"/>
+  <circle cx="203" cy="180" r="15" style="fill:none;stroke:var(--fig-danger);stroke-width:2"/>
+  <text x="97" y="210" text-anchor="middle" style="fill:var(--fig-text);font-size:11px">आप</text>
+  <text x="203" y="210" text-anchor="middle" style="fill:var(--fig-text);font-size:11px">बहन</text>
+</svg>
+```
+
+## मुख्य प्रकार
+
+**1. सीधा संबंध (Direct Relation)**
+"A, B का भाई है और B, C की माँ है" → A, C का मामा है।
+
+**2. फ़ोटो/इशारा पहेली (Pointing to a Photo)**
+"एक आदमी ने फ़ोटो की ओर इशारा कर कहा — इसका पिता मेरे पिता का पुत्र है।" → चूँकि 'मेरे पिता का पुत्र' = वह आदमी ख़ुद (अगर उसका कोई भाई न हो), तो फ़ोटो उसके बेटे/बेटी की है।
+
+**3. कूट रक्त संबंध (Coded Relations)**
+जहाँ रिश्ते चिह्नों में दिए हों: A + B (A, B का पिता), A − B (A, B की पत्नी), आदि। पहले कूट समझो, फिर लगाओ।
+
+🧠 Recall: "मेरे पिता का इकलौता पुत्र" किसे कहते हैं (जब बोलने वाला पुरुष हो)?
+
+## परीक्षक का जाल (Examiner's Trap)
+
+⚠️ **जाल 1 — लिंग (Gender) मान लेना:** नाम से लिंग मत मानो। "किरण" पुरुष भी हो सकता है, स्त्री भी। जो दिया हो वही मानो।
+
+⚠️ **जाल 2 — पीढ़ी उलटना:** "पिता का पिता" (दादा) और "पुत्र का पुत्र" (पोता) में दिशा ध्यान से देखो।
+
+⚠️ **जाल 3 — ननिहाल बनाम ददिहाल:** माँ की ओर (नाना, मामा, मौसी) और पिता की ओर (दादा, चाचा, बुआ) के रिश्ते अलग होते हैं।
+
+इसे 2 दिन बाद दोहराएँ।

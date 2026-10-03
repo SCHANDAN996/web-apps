@@ -1,0 +1,114 @@
+🧒 Feynman (फेनमैन तकनीक + ब्लर्टिंग शीट)
+
+The Day You Were Born: How to Crack the Calendar Code Like a Time Traveler
+
+Imagine you are holding a magic diary. You open it and ask, “What day was I born?” The diary doesn’t have a computer inside — but you can answer it yourself faster than any machine, once you understand the hidden rhythm of days. We’re going to become time detectives.
+
+The Pizza Delivery Man and the Leftover Days
+
+Let me tell you a story.
+
+There was a boy named Ravi. On his 10th birthday, his uncle gave him a challenge. “Ravi, you were born on 12 March 2015. Tell me what day that was, without looking at a calendar. If you get it right, I’ll buy you a pizza every Sunday for a year.”
+
+Ravi was stuck. He knew his birthday, but not the day.
+
+Uncle laughed. “It’s easy. All you need is a pizza delivery schedule.”
+
+He explained: “Imagine every year is a pizza delivery route. There are 365 houses on the route, which means 52 full weeks and 1 extra house at the end. That extra house is an odd day. After 1 year, the weekday shifts by 1 day — if today is Monday, next year same date will be Tuesday. But every fourth year, there’s a leap year with 2 extra houses (2 odd days), so the shift jumps by 2 days. That’s the first secret.”
+
+Ravi’s eyes widened. “So it’s like counting steps from a starting point?”
+
+“Exactly! But the real trick is remembering the starting points for each month. Think of the months as houses on a pizza street. The first house is January. The delivery boy starts from house number 0 (right at the door). In February, he must walk 3 extra steps — month code 3. March: 3 steps. April: 6 steps (because April fools make you walk a lot). May: 1 step (May Day, just one step). June: 4 steps. July: 6 steps. August: 2 steps. September: 5 steps. October: 0 steps again — it’s like starting over. November: 3 steps. December: 5 steps. That’s your ordinary year pizza route.”
+
+Ravi scribbled the numbers. “But how do I remember these crazy steps?”
+
+Uncle winked. “The Pizza Mnemonic:
+
+January – No steps, pizza’s at the door. (0)
+
+February – 3 steps back because it’s cold.
+
+March – 3, same as Feb, marching in place.
+
+April – 6, an April Fool’s joke extra steps.
+
+May – 1, Maypole dance, just one twirl.
+
+June – 4, June bugs have 4 wings.
+
+July – 6, fireworks shoot 6 sparks.
+
+August – 2, two ‘u’s in August.
+
+September – 5, school starts with 5 subjects.
+
+October – 0, Halloween ghost, invisible steps.
+
+November – 3, 3 pies for Thanksgiving.
+
+December – 5, 5 golden rings.”
+
+Ravi giggled. “That’s silly, but I’ll never forget it now.”
+
+The Century’s Starting Point
+
+“There’s one more thing,” said Uncle. “You need to know where the whole century begins. For the 1900s, the dial starts at 0 (like Monday). For the 2000s, it’s at 6 (like Sunday shifted?). But you don’t have to understand why right now — just remember that since you were born in 2015, your century code is 6.”
+
+“Now, let’s find your birthday. 12 March 2015.”
+
+“First, compute the year code. Take the last two digits of the year, 15. Divide 15 by 4 and keep only the whole number: 3. Add them: 15 + 3 = 18. Now divide 18 by 7 and find the remainder. 7×2=14, remainder 4. So year code = 4.”
+
+“Now the formula:
+Day code = (Date + Month code + Year code + Century code) mod 7
+Date = 12, Month code for March = 3, Year code = 4, Century code (2000s) = 6.
+Sum = 12 + 3 + 4 + 6 = 25.
+25 mod 7 = 4 (since 21 is divisible by 7, remainder 4).”
+
+“Now what day is 4? If 0 is Sunday, 1 Monday, 2 Tuesday, 3 Wednesday, 4 Thursday, 5 Friday, 6 Saturday. So 4 means Thursday.”
+
+Ravi checked his smartphone calendar. “Yes! 12 March 2015 was a Thursday! That’s unbelievable.”
+
+The Century Leap Trap – The Pizza Delivery Skips a House
+
+Uncle leaned forward. “One more trick. You know leap years happen every 4 years. But century years like 1700, 1800, 1900 are not leap unless they can be divided by 400. So 2000 was a leap year, but 1900 was not. Why? Because the Earth doesn’t take exactly 365.25 days to go around the sun; it’s 365.2422 days. If we added a leap day every 4 years, we’d overcount by 0.0078 days per year. That tiny bit adds up. In 400 years, it’s about 3.12 extra days. So we skip 3 leap years in 400 years. That’s why century years lose their leap status unless they’re divisible by 400. It’s like the pizza delivery man skipping a house every century to keep the route fair. 1900 didn’t get that extra delivery, so the odd day count for that century is different. That’s why the century code for 1900 is 0, but for 2000 it’s 6.”
+
+Ravi nodded. “So I have to check the century rule before I count leap years.”
+
+“Exactly. Now you can find the day of any date in history or future. Try 26th January 1950.”
+
+Your Unforgettable Trick: The “Pizza Route” Method
+
+Here’s your shortcut to always remember:
+
+Pizza Month Codes: Memorise the silly story. Jan=0, Feb=3, Mar=3, Apr=6, May=1, Jun=4, Jul=6, Aug=2, Sep=5, Oct=0, Nov=3, Dec=5. (Leap year: Jan=6, Feb=2)
+
+Century Dial: 1900s → 0, 2000s → 6.
+
+Year Code: (Last two digits + last two digits ÷ 4) mod 7.
+
+Sum: Date + month code + year code + century code, then mod 7.
+
+Day Code: 0=Sun, 1=Mon, 2=Tue, 3=Wed, 4=Thu, 5=Fri, 6=Sat.
+
+That’s it. No magic, just a clever pizza delivery route that even a 12-year-old can walk.
+
+Blurting Sheet
+
+Now try to write down all key points of this chapter on a blank sheet without looking up.
+Include:
+
+The odd day rule for ordinary and leap years.
+
+The month codes with the pizza story.
+
+The century codes.
+
+The formula for year code.
+
+The final day formula.
+
+The century leap rule and why it exists.
+
+After you finish, check your notes. The spots you missed are exactly where your brain needs one more retrieval practice.
+
+And one question to test yourself: What day of the week will 15th August 2047 be? (Hint: Use the century code for 2000s, calculate step by step.) Write your answer, then verify with any calendar app. Now go, time traveler.

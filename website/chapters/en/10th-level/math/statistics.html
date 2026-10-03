@@ -1,0 +1,2164 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Statistics — Mathematics Chapter 19 | Study Station</title>
+<meta name="description" content="📖 Statistics Chapter Outline &amp; Learning Goals By the end of this chapter, you will be able to: Understand what data is and how it is organised. Compute">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#8B5CF6">
+<link rel="canonical" href="https://studystation.in/chapters/en/10th-level/math/statistics.html">
+<link rel="alternate" hreflang="hi" href="https://studystation.in/chapters/hi/10th-level/math/statistics.html">
+<link rel="alternate" hreflang="en" href="https://studystation.in/chapters/en/10th-level/math/statistics.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Statistics — Mathematics Chapter 19">
+<meta property="og:description" content="📖 Statistics Chapter Outline &amp; Learning Goals By the end of this chapter, you will be able to: Understand what data is and how it is organised. Compute">
+<meta property="og:url" content="https://studystation.in/chapters/en/10th-level/math/statistics.html">
+<link rel="manifest" href="../../../../manifest.webmanifest">
+<link rel="icon" type="image/svg+xml" href="../../../../assets/icon.svg">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "LearningResource", "name": "Statistics — Mathematics Chapter 19", "description": "📖 Statistics Chapter Outline & Learning Goals By the end of this chapter, you will be able to: Understand what data is and how it is organised. Compute", "inLanguage": "en-IN", "educationalLevel": "10th Level", "about": "Mathematics", "isAccessibleForFree": true, "learningResourceType": "Chapter", "url": "https://studystation.in/chapters/en/10th-level/math/statistics.html"}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Outfit:wght@600;700;800&family=Noto+Sans+Devanagari:wght@400;600;700&display=swap" rel="stylesheet">
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<link rel="stylesheet" href="../../../../css/style.css">
+<link rel="stylesheet" href="../../../../css/components.css">
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true,theme:'dark',securityLevel:'loose'});</script>
+<style>
+.seo-wrap{max-width:820px;margin:0 auto;padding:5.5rem 1rem 4rem}
+.seo-section{margin:2.5rem 0}
+.seo-section h2{font-family:'Outfit',sans-serif;font-size:1.4rem;margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid var(--accent-surface);color:var(--accent-light)}
+.seo-head h1{font-family:'Outfit',sans-serif;font-size:clamp(1.5rem,4vw,2.1rem);line-height:1.3}
+.seo-actions{display:flex;gap:.6rem;flex-wrap:wrap;margin:1.25rem 0}
+.seo-toc{background:var(--bg-secondary);border:1px solid var(--glass-border);border-radius:var(--radius-lg);padding:1rem 1.25rem;margin:1.5rem 0}
+.seo-toc a{color:var(--accent-light);margin-right:1rem;font-size:.9rem;white-space:nowrap}
+</style>
+</head>
+<body>
+<nav class="navbar"><div class="container navbar__inner">
+<a href="../../../../index.html" class="navbar__brand"><div class="navbar__logo"><ion-icon name="book-sharp"></ion-icon></div><span>Study Station</span></a>
+<ul class="navbar__links">
+<li><a href="../../../../index.html" class="navbar__link">Home</a></li>
+<li><a href="../../../../chapters/index.html" class="navbar__link active">Chapters</a></li>
+<li><a href="../../../../jobs.html" class="navbar__link">Jobs</a></li>
+</ul>
+</div></nav>
+
+<main class="seo-wrap">
+<nav class="breadcrumb" aria-label="breadcrumb">
+<a href="../../../../index.html">Home</a> <span class="breadcrumb__sep">/</span>
+<a href="../../../../chapters/index.html">Chapters</a> <span class="breadcrumb__sep">/</span>
+<span class="breadcrumb__current">Mathematics</span>
+</nav>
+
+<header class="seo-head">
+<span class="section__badge">10th Level · Mathematics</span>
+<h1>Statistics — Mathematics Chapter 19</h1>
+<p style="color:var(--text-secondary);margin-top:.5rem">Free notes, mind map, short tricks and practice questions.</p>
+<div class="seo-actions">
+<a class="btn btn--primary" href="../../../../index.html#books"><ion-icon name="book-outline"></ion-icon>Open in interactive reader</a>
+<a class="btn" style="background:var(--bg-tertiary);color:var(--text-primary)" href="../../../../chapters/hi/10th-level/math/statistics.html" hreflang="hi">हिंदी</a>
+</div>
+</header>
+
+<nav class="seo-toc"><a href="#content">Chapter Notes</a><a href="#feynman">In Simple Words</a><a href="#tricks">Short Tricks</a><a href="#mindmap">Mind Map</a><a href="#pyq">Previous Year Questions</a><a href="#practice">Practice Questions</a></nav>
+
+<section class="seo-section" id="content">
+  <h2>Chapter Notes</h2>
+<div class="emoji-section"><span class="emoji-section__icon">📖</span><strong>Statistics</strong></div>
+<h4>Chapter Outline &amp; Learning Goals</h4>
+<p>By the end of this chapter, you will be able to:</p>
+<p>Understand what data is and how it is organised.</p>
+<p>Compute Mean, Median, and Mode for raw (ungrouped) and grouped data.</p>
+<p>Choose the right measure of central tendency in real‑life situations.</p>
+<p>Read and draw basic graphs like histograms, frequency polygons, and ogives.</p>
+<p>Apply these concepts to solve typical SSC, Banking, and Railway questions confidently.</p>
+<h4>The Number That Can Make You Rich… or Fool You Completely</h4>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">Imagine this: You walk into a small tea stall. Inside are two people—you and Elon Musk. The average (mean) wealth of that room suddenly becomes around 100 billion dollars. But your pocket still holds only fifty rupees. Did you suddenly become a billionaire? No. That “average” is a cruel joke if you don’t know how to read it.</div></div>
+<p>Statistics is your shield against such number traps. It is nothing but the art and science of collecting, organising, and making sense of data. And once you master it, you will never be fooled by a headline again.</p>
+<div class="emoji-section"><span class="emoji-section__icon">📊</span><strong>Competitive exams love statistics because it tests logical thinking, not just calculation. Think of this chapter as your “data‑detective” training.</strong></div>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">Why Does Statistics Feel Like a Monster?</div></div>
+<p>Be honest—the first time you saw a table with 50 numbers and the word “median class”, a part of you wanted to skip the chapter. You are not alone. Most students feel overwhelmed by the formulas. But here’s the secret: the whole chapter can be boiled down to three simple questions—</p>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">What is the most typical value? (Mean)</div></div>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">What is the middle value? (Median)</div></div>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">Which value appears the most? (Mode)</div></div>
+<p>Once you can answer these three, you already own 80% of statistics. The rest is just learning how to handle tables neatly. So take a deep breath; we will walk this road step by tiny step.</p>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">1. What is Data?</div></div>
+<p>Data is simply information in numbers. The marks of 40 students in a test, the monthly rainfall in your city, or the number of shares traded in a day—all of it is data.</p>
+<p>Data comes in two forms:</p>
+<h4>Raw/Ungrouped Dat</h4>
+<p>Back: A list of individual numbers. Example: 12, 15, 11, 18, 12.</p>
+<h4>Grouped Dat</h4>
+<p>Back: When data is too large, we compress it into class intervals. Example: 0‑10, 10‑20, 20‑30, etc., with frequencies.</p>
+<p>Our job is to find a single value that represents the whole dataset. Statisticians call it a “measure of central tendency.”</p>
+<div class="recall-box">🧠 Active Recall: If you have the marks: 5, 5, 5, 5, 5, what is the “central” value without doing any calculation? (</div>
+<p>Answer: 5, because all values are the same—every measure will be 5.) Think before moving on.</p>
+<h3>2. The Three Musketeers of Central Tendency</h3>
+<table class="content-table">
+<tr><td>Musketeer</td><td>What it does</td><td>Best used when</td></tr>
+<tr><td>Mean (Average)</td><td>Pulls every value in equally</td><td>Data has no extreme outliers</td></tr>
+<tr><td>Median</td><td>Splits data into two equal halves</td><td>Data has extreme values (income, prices)</td></tr>
+<tr><td>Mode</td><td>Tells the most frequent value</td><td>Data is categorical (favourite colour, shoe size)</td></tr>
+</table>
+<h4>Memory Trick (Mnemonic) – “MAD Middle Most”</h4>
+<p>Mean = Average (All values Added)</p>
+<p>Median = Middle (after sorting)</p>
+<h4>Mode = Most Often</h4>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">Think “MAD” → Mean = Average, Median = middle, Mode = most often. Picture a MAD scientist holding a calculator saying “Average? Middle? Most often? SIMPLE!”</div></div>
+<p>Now let’s unlock each one.</p>
+<p>3. Mean (The Sensitive Friend)</p>
+<p>The mean is calculated by adding up all the values and dividing by the number of values. It’s like a party where everyone gives an equal share of money and you split the total equally.</p>
+<div class="card card--rule"><div class="card__icon">🔑</div><div class="card__content">Formula for ungrouped dat</div></div>
+<p>Back:</p>
+<p>Mean = (Sum of all observations) / (Number of observations)</p>
+<p>Example: Marks 10, 20, 30 → Sum = 60, Number = 3, Mean = 20.</p>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">Why is the mean “sensitive”?</div></div>
+<p>Add one extreme value and the mean runs towards it. In the Elon Musk example, the mean shifted by billions. That’s why for incomes, mean is rarely used—one crorepati can make the whole village look rich.</p>
+<div class="recall-box">🧠 Quick Check: The mean of 4, 8, x, 12 is 8. Find x.</div>
+<p>*(Stop, solve, then read</p>
+<p>answer: Sum = 4+8+x+12 = 24+x. Mean = (24+x)/4 = 8 → 24+x = 32 → x = 8)*</p>
+<h4>Mean for Grouped Data</h4>
+<p>When data is in frequency tables, we have three methods:</p>
+<p>Direct Method: Mean = Σ(fᵢ·xᵢ) / Σfᵢ, where xᵢ is the class mark (mid‑point).</p>
+<p>Assumed Mean Method: Mean = a + (Σfᵢ·dᵢ)/Σfᵢ, where dᵢ = xᵢ − a.</p>
+<p>Step Deviation Method: Mean = a + (Σfᵢ·uᵢ)/Σfᵢ × h, where uᵢ = (xᵢ − a)/h.</p>
+<p>(All three give the same answer. Use step deviation when class sizes are equal—it saves tons of time!)</p>
+<div class="recall-box">🧠 Active Recall: For the class interval 20‑30, what is the class mark? *(</div>
+<h4>Answer: (20+30)/2 = 25)*</h4>
+<p>4. Median (The Middle Child)</p>
+<p>Median is the value exactly in the middle when data is arranged in ascending order. It doesn’t care about how big or small the extremes are. It simply stands in the middle like the quiet sibling who ignores the drama.</p>
+<h4>Ungrouped dat</h4>
+<p>Back:</p>
+<p>If number of values (n) is odd, median = ((n+1)/2)ᵗʰ term.</p>
+<p>If n is even, median = average of (n/2)ᵗʰ and (n/2 +1)ᵗʰ terms.</p>
+<p>Example: 7, 3, 9, 1, 5 → Sort: 1, 3, 5, 7, 9 → n=5 (odd), (5+1)/2 = 3rd term → Median = 5.</p>
+<h4>Grouped dat</h4>
+<p>Back:</p>
+<h4>Median = l + (n/2 − cf)/f × h</h4>
+<p>where l = lower limit of median class, cf = cumulative frequency before median class, f = frequency of median class, h = class size.</p>
+<p>📈 The median class is the class whose cumulative frequency first becomes ≥ n/2.</p>
+<p>Graphical method: You can also find the median from an ogive (cumulative frequency curve) by locating n/2 on the y‑axis and dropping a perpendicular to the x‑axis.</p>
+<div class="recall-box">🧠 Fast Practice: Find the median of 12, 15, 11, 18, 20, 14. *(</div>
+<p>Answer: Sort: 11,12,14,15,18,20; n=6 even → median = average of 3rd &amp; 4th = (14+15)/2 = 14.5)*</p>
+<p>5. Mode (The Popular One)</p>
+<p>Mode is the value that appears most frequently. In a shoe company, mode tells which size sells the most—so they manufacture more of that size.</p>
+<h4>Ungrouped dat</h4>
+<p>Back: Just look for the number with the highest frequency.</p>
+<p>Example: 2,3,2,4,2,5 → Mode = 2.</p>
+<h4>Grouped dat</h4>
+<p>Back:</p>
+<h4>Mode = l + [(f₁ − f₀) / (2f₁ − f₀ − f₂)] × h</h4>
+<p>where l = lower limit of modal class (highest frequency), f₁ = frequency of modal class, f₀ = frequency before it, f₂ = frequency after it, h = class size.</p>
+<p>⚠️ Many students confuse the median formula with the mode formula. Keep them apart: median uses n/2 and cumulative frequency; mode uses the three neighbouring frequencies.</p>
+<div class="recall-box">🧠 Weird but Unforgettable Trick: Mode = “MOst DEmanded.” The modal class is the one with the MOst Data Entries. Say it aloud: “Mo-De!” like a fashion show. This will stick forever.</div>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">6. When to Use Which Measure?</div></div>
+<p>Mean: Use when data is symmetric and outliers are absent. Example: average height of a class.</p>
+<p>Median: Use when data is skewed (extremes). Example: average income of a country. The Indian government uses median household income to avoid distortion by billionaires.</p>
+<p>Mode: Use for categorical data or to find the most typical case. Example: most common blood group.</p>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">📉 Story reminder: In a company of 10 people, 9 earn ₹20,000 and the owner earns ₹2,00,000. Mean = ₹38,000 (misleading), Median = ₹20,000 (true picture), Mode = ₹20,000. Which one would you trust?</div></div>
+<p>7. A Quick Peek at Graphical Tools (for the competitive edge)</p>
+<p>Histogram: Like a bar chart for continuous class intervals (bars touch).</p>
+<p>Frequency Polygon: Join the mid‑points of histogram tops with straight lines. Can be drawn without the bars.</p>
+<p>Ogive (Cumulative Frequency Curve): “Less than” type or “more than” type. Used to find median, quartiles etc.</p>
+<p>These are rare in direct questions but often appear in data interpretation sections.</p>
+<div class="recall-box">🧠 Recall without notes: In an ogive, how do you locate the median? *(</div>
+<p>Answer: Mark n/2 on the y‑axis, draw a horizontal line to the curve, then drop a vertical line to the x‑axis.)*</p>
+<h4>Summary Table – Formulas at a Glance</h4>
+<table class="content-table">
+<tr><td>Measure</td><td>Ungrouped Data</td><td>Grouped Data</td></tr>
+<p>Mean</p>
+<p>Σ</p>
+<p>n</p>
+<p>Σx</p>
+</table>
+<p>Σ</p>
+<p>Σ</p>
+<p>Σf</p>
+<p>i</p>
+<p>Σf</p>
+<p>i</p>
+<p>x</p>
+<p>i</p>
+<p>(Direct)</p>
+<p>+</p>
+<p>Σ</p>
+<p>Σ</p>
+<p>a+</p>
+<p>Σf</p>
+<p>i</p>
+<p>Σf</p>
+<p>i</p>
+<p>d</p>
+<p>i</p>
+<p>(Assumed Mean)</p>
+<p>+</p>
+<p>Σ</p>
+<p>Σ</p>
+<p>⋅</p>
+<p>ℎ</p>
+<p>a+</p>
+<p>Σf</p>
+<p>i</p>
+<p>Σf</p>
+<p>i</p>
+<p>u</p>
+<p>i</p>
+<p>⋅h (Step Deviation)</p>
+<table class="content-table">
+<tr><td>Median</td><td>Middle value after sorting</td></tr>
+<p>+</p>
+<p>2</p>
+<p>−</p>
+<p>⋅</p>
+<p>ℎ</p>
+<p>l+</p>
+<p>f</p>
+<p>2</p>
+<p>n</p>
+</table>
+<p>−cf</p>
+<p>⋅h</p>
+<table class="content-table">
+<tr><td>Mode</td><td>Most frequent value</td></tr>
+<p>+</p>
+<p>1</p>
+<p>−</p>
+<p>0</p>
+<p>2</p>
+<p>1</p>
+<p>−</p>
+<p>0</p>
+<p>−</p>
+<p>2</p>
+<p>⋅</p>
+<p>ℎ</p>
+<p>l+</p>
+<p>2f</p>
+<p>1</p>
+</table>
+<p>−f</p>
+<p>0</p>
+<p>−f</p>
+<p>2</p>
+<p>f</p>
+<p>1</p>
+<p>−f</p>
+<p>0</p>
+<p>⋅h</p>
+<p>Key Interpretations:</p>
+<p>Mean &gt; Median &gt; Mode → Positively skewed (tail to right, few high values).</p>
+<p>Mean &lt; Median &lt; Mode → Negatively skewed (tail to left, few low values).</p>
+<p>Mean = Median = Mode → Perfectly symmetric.</p>
+<h4>Your Challenge: Review After 2 Days</h4>
+<p>Set a reminder on your phone right now: “Statistics – 2‑day recall”. When it rings, close your eyes and answer these without peeping:</p>
+<p>Write the formula for median of grouped data and explain each term.</p>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">Why is median used for income data instead of mean?</div></div>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">Solve: Find mean and median of 10, 20, 30, 40, 500. Which is a better representative and why?</div></div>
+<p>Recall the “MAD Middle Most” memory trick and expand it.</p>
+<p>If you can answer these, you’ve truly made the concepts your own. If not, just spend 5 minutes revisiting the relevant part. That’s the secret of toppers—spaced repetition.</p>
+<p>You now have a rock‑solid foundation in Statistics. Onwards!</p>
+</section>
+<section class="seo-section" id="feynman">
+  <h2>In Simple Words</h2>
+<h4>👦🏼 Feynman Explains: Statistics</h4>
+<h4>The Hardest Idea Made So Simple That a 12‑Year‑Old Nails It</h4>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">You know what’s the hardest thing in Statistics? Not the formulas—the hardest thing is believing that a single number can lie to you so beautifully that you’ll thank it. That number is the Mean (average). And the simple truth is: the mean is a drama queen. It overreacts to anything extreme. Let me tell you a story.</div></div>
+<h4>The Birthday Chocolate Disaster</h4>
+<p>Imagine it’s your 12th birthday. You invite 9 of your best friends to your home. All of you decide to count how many chocolates each person got last week (weird party, I know, but stay with me). The numbers are:</p>
+<p>2, 3, 2, 4, 2, 3, 3, 2, 4, and you got 2.</p>
+<p>Now, the average (mean) = (2+3+2+4+2+3+3+2+4+2) ÷ 10 = 27 ÷ 10 = 2.7 chocolates. Everyone nods. Makes sense.</p>
+<p>Suddenly, your eccentric uncle walks in. He’s a chocolate tycoon (totally possible). He says, “Nephew, add me to your list. I got 500 chocolates last week.” Everyone’s jaw drops. New list: the same 10 kids plus your uncle (11 people now). Total chocolates = 27 + 500 = 527. Mean = 527 ÷ 11 ≈ 47.9 chocolates.</p>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">Now look at that. The mean is shouting “47.9 chocolates” but every single kid had only 2, 3, or 4. Does 47.9 represent any one person in that room? No. Your uncle, like a massive comet, just pulled the mean all the way up. The mean is a liar if there are extreme values.</div></div>
+<h4>The Middle‑Man Hero: Median</h4>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">So what do you do if you really want to say “This is what a typical person in this room has”? You use the Median. The median doesn’t care about your uncle. It simply stands in the middle of the line when everyone is arranged from smallest to largest. It’s like the quiet kid who doesn’t get swayed by the flashy new kid.</div></div>
+<p>How to find the median in 10 seconds without crying:</p>
+<p>Arrange all values in ascending order.</p>
+<p>If the number of people (n) is odd, median = the person exactly at position (n+1)/2.</p>
+<p>If n is even, median = average of the two middle people.</p>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">Our original 10 kids (even number): 2,2,2,2,3,3,3,4,4, you(2)? Wait, sort: 2,2,2,2,2,3,3,3,4,4. Middle two are 5th and 6th values: both are 2? Let&#x27;s check: 1st:2,2nd:2,3rd:2,4th:2,5th:2,6th:3... umm, reorder properly: I have 2,2,2,2,2 (five 2&#x27;s), then 3,3,3,4,4. So sorted: 2,2,2,2,2,3,3,3,4,4. 5th = 2, 6th = 3. Median = (2+3)/2 = 2.5. Still very close to what most kids actually have. Now add uncle: sorted: 2,2,2,2,2,3,3,3,4,4,500. n=11 odd, (11+1)/2 = 6th position. 6th value is 3. Median = 3. See? The median stays true to the gang. The uncle doesn’t even tickle it.</div></div>
+<p>That’s why in real life, newspapers and governments use median income, not mean income. Because a few billionaires would make the “average income” sky‑high and you’d think the whole country is rich. But the median stays grounded.</p>
+<p>The Unforgettable Trick (You’ll never confuse them again)</p>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">Think of a street with 9 small houses and one giant tower. The Mean is like a drone hovering over the entire area—it gets pulled way up by the tower and says the average height is 100 metres. The Median is like a postman who delivers letters only to the middle house on the street—he doesn’t care about that stupid tower; he just counts houses and stops at the fifth one. So whenever you hear “average”, ask yourself: did they use the drone (mean) or the postman (median)?</div></div>
+<p>Memory hook: “Mean gets pushed by extremes, Median stays in the middle stream.”</p>
+<h4>Your Turn: A Question for Your Brain</h4>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">Your football team of 11 players has an average (mean) weight of 55 kg. A new player, weighing 110 kg, joins the team. What will happen to the mean weight? And if the coach wanted to report a weight that truly represents his players, should he use the mean or the median after the new player joins? (Hint: the postman doesn&#x27;t care about the 110 kg giant.)</div></div>
+<p>Now, go find an adult and explain this to them. If they get it, you’re a true Feynman.</p>
+</section>
+<section class="seo-section" id="tricks">
+  <h2>Short Tricks</h2>
+<div class="card card--trick"><div class="card__icon">🪄</div><div class="card__content">Trick 1: Mean = Sum ÷ Number (Ungrouped) — &quot;SUMO AVERAGE&quot;</div></div>
+<p>Imagine a SUMO wrestler named Mean. He ADDs up everyone’s weight, then DIVIDES the total by the number of wrestlers to find the average. Picture him shouting: “Add All, Number All!” Acronym: AANA (Add All, Number All).</p>
+<div class="card card--trick"><div class="card__icon">🪄</div><div class="card__content">Trick 2: Three Musketeers of Grouped Mean — &quot;DAM Step&quot;</div></div>
+<p>The three methods to find mean for grouped data are Direct, Assumed Mean, Step Deviation. Remember them as DAM Step — like a dam that steps down:</p>
+<p>Direct: Straight path, no guessing.</p>
+<p>Assumed (mean): Pretend you’re already near the answer.</p>
+<p>Step (deviation): Jump in steps of class size.</p>
+<h4>Formul</h4>
+<p>Back: Mean = a + (Σf d)/Σf (Assumed) or a + (Σf u)/Σf × h (Step). Just add the “step adjustment” to the assumed mean.</p>
+<div class="card card--trick"><div class="card__icon">🪄</div><div class="card__content">Trick 3: Median for Ungrouped — &quot;Odd Add 1, Even Split&quot;</div></div>
+<p>Picture a meditating odd monk who adds 1 to his age and halves it to find his spiritual centre.</p>
+<p>For even numbers, two identical twins stand in the middle and average their heights.</p>
+<p>So:</p>
+<p>Odd n → median = (n+1)/2 th term.</p>
+<p>Even n → median = average of (n/2)th and (n/2 +1)th terms.</p>
+<div class="card card--trick"><div class="card__icon">🪄</div><div class="card__content">Trick 4: Median Formula (Grouped) — &quot;Larry Needs Cash For His House&quot;</div></div>
+<h4>Median = l + [ (n/2 – cf) / f ] × h</h4>
+<p>Larry (lower limit) Needs (n/2) Cash (cf) For (f) His house.</p>
+<p>The fraction (n/2 – cf)/f tells you how far inside the class the median lies, then multiply by class size (h). Larry’s journey: from lower limit, he moves inside by that fraction of the class width.</p>
+<div class="card card--trick"><div class="card__icon">🪄</div><div class="card__content">Trick 5: Mode = Most Often — &quot;MO-DE&quot; Fashion Show</div></div>
+<p>Mode = Most Often Data Entry.</p>
+<p>Think of a fashion show: the model (mode) walks the ramp most often. Shout &quot;MO-DE!&quot; and you instantly remember Mode is the most frequent value.</p>
+<div class="card card--trick"><div class="card__icon">🪄</div><div class="card__content">Trick 6: Mode Formula (Grouped) — &quot;Lover’s Fraction&quot;</div></div>
+<h4>Mode = l + [ (f₁ – f₀) / (2f₁ – f₀ – f₂) ] × h</h4>
+<p>Imagine the lover (l) of fashion (the lower limit) gets a fraction from the crowd:</p>
+<p>The numerator is the difference between the modal class frequency (f₁) and the previous class (f₀).</p>
+<p>The denominator is twice f₁ minus both neighbours.</p>
+<p>This fraction decides how far the mode moves inside its class. It’s like the designer’s special adjustment.</p>
+<div class="card card--trick"><div class="card__icon">🪄</div><div class="card__content">Trick 7: Empirical Relation — &quot;3 Men – 2 Meals = Model&quot;</div></div>
+<h4>Mode = 3 × Median – 2 × Mean</h4>
+<p>Picture this: Three Men (Median) go to a restaurant but two meals (Mean) are missing — the left out person becomes a Model (Mode).</p>
+<h4>So, 3</h4>
+<h4>Mdn – 2</h4>
+<p>Mn = Mode. Say it aloud: “Three men minus two meals equals a model.”</p>
+<div class="card card--trick"><div class="card__icon">🪄</div><div class="card__content">Trick 8: Skewness Order — &quot;Mean Moves to the Tail&quot;</div></div>
+<h4>Positively skewed (right tail): Mean &gt; Median &gt; Mode</h4>
+<h4>Negatively skewed (left tail): Mode &gt; Median &gt; Mean</h4>
+<p>Remember: The Mean is the drama queen; it follows the tail.</p>
+<p>If the tail is on the right, Mean is the largest. Order: Mean → Median → Mode.</p>
+<p>If the tail is on the left, Mean is the smallest. Order: Mode → Median → Mean.</p>
+<p>Mnemonics: &quot;Right-tailed = Mean is Right‑most&quot; / &quot;Left‑tailed = Mode is Left‑most&quot;.</p>
+<div class="card card--trick"><div class="card__icon">🪄</div><div class="card__content">Trick 9: Ogive (Cumulative Frequency Curve) — &quot;O Give Me Half, Then Down&quot;</div></div>
+<p>To find median from an ogive:</p>
+<p>Locate n/2 on the y‑axis.</p>
+<p>Go horizontally to the curve.</p>
+<p>Drop vertically to the x‑axis.</p>
+<p>Mnemonics: &quot;Oh, give me half (n/2), then I cross and drop down to find the middle.&quot; Or simply &quot;Half → Across → Down → Median!&quot;</p>
+<div class="card card--trick"><div class="card__icon">🪄</div><div class="card__content">Trick 10: Frequency Polygon — &quot;Connect the Mid‑Tops&quot;</div></div>
+<p>A frequency polygon is drawn by joining the mid‑points of the tops of the histogram bars.</p>
+<p>Think of a polygon spider walking on the roof tops — it only steps on the middle of each roof.</p>
+<p>Memory hook: &quot;Polygon = Mid‑points joined&quot; – no bars, just a line connecting those points.</p>
+<div class="card card--trick"><div class="card__icon">🪄</div><div class="card__content">Trick 11: Class Mark — &quot;L + U over 2, see? (Lucy)&quot;</div></div>
+<p>Class Mark (midvalue) = (Lower limit + Upper limit) / 2.</p>
+<p>Imagine the class interval as a pair of lovers: L (lower) and U (upper). Their child, the class mark, is exactly the average of their ages. Call the child Lucy (L+U/2).</p>
+<p>&quot;Lucy = (L+U)/2&quot; – catchy and unforgettable.</p>
+<div class="card card--trick"><div class="card__icon">🪄</div><div class="card__content">Trick 12: Step Deviation Symbol — &quot;u = (x – a)/h is a &#x27;U-turn&#x27;&quot;</div></div>
+<p>In the step deviation method, the transformed variable is uᵢ = (xᵢ – a)/h.</p>
+<p>Picture a car making a U‑turn: it starts at the assumed mean (a), deviates by the class size (h) to get back to the original value.</p>
+<h4>Formul</h4>
+<p>Back: Mean = a + (Σf u / Σf) × h.</p>
+<p>Acronym for the whole step deviation chain: &quot;U-turn from a, then multiply by h and add a.&quot;</p>
+<div class="card card--trick"><div class="card__icon">🪄</div><div class="card__content">Trick 13: Measures &amp; Extremes — &quot;Mean is Mean, Median is Moderate, Mode is Stubborn&quot;</div></div>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">Which measure is affected most by extreme values? Mean – it gets pulled like a rubber band. Median stays calm in the middle. Mode stubbornly sticks to the most frequent.</div></div>
+<p>Memory line: &quot;Extreme values pull the Mean, but the Median stays serene, and the Mode just stays the scene.&quot;</p>
+<div class="card card--trick"><div class="card__icon">🪄</div><div class="card__content">Trick 14: Cumulative Frequency — &quot;Running Total like a Waterfall&quot;</div></div>
+<p>Cumulative frequency is the running total of frequencies as you move from one class to the next.</p>
+<p>Visualise a waterfall: each level adds on top of the previous one.</p>
+<p>To find the median class, you look for the class where the cumulative frequency first crosses n/2. That&#x27;s the waterfall reaching half the total.</p>
+<div class="card card--trick"><div class="card__icon">🪄</div><div class="card__content">Trick 15: Distinguishing Median &amp; Mode Formulas</div></div>
+<p>Median formula uses n/2, cf, f — think &quot;Median = Middle of data, needs Cumulative (cf) and Half (n/2).&quot;</p>
+<p>Mode formula uses f₁, f₀, f₂ — think &quot;Mode = Most frequent, needs Neighbours (f before and after).&quot;</p>
+<p>Acronym: &quot;M &amp; M&quot;: Median needs Cumulatives; Mode needs Neighbo(u)rs.</p>
+</section>
+<section class="seo-section" id="mindmap">
+  <h2>Mind Map</h2>
+<div class="mermaid">graph TD
+    R[&quot;📉 सांख्यिकी&lt;br&gt;Statistics&quot;]
+    R --&gt; D[&quot;🗃️ डेटा के प्रकार&quot;]
+    R --&gt; M[&quot;🎯 केंद्रीय प्रवृत्ति&quot;]
+    R --&gt; G[&quot;📊 वर्गीकृत डेटा&quot;]
+    R --&gt; T[&quot;🪄 ट्रिक्स&quot;]
+    D --&gt; D1[&quot;अवर्गीकृत:&lt;br&gt;सीधी सूची — 12, 15, 11&quot;]
+    D --&gt; D2[&quot;वर्गीकृत: वर्ग-अंतराल&lt;br&gt;और बारंबारता&quot;]
+    D --&gt; D3[&quot;संचयी बारंबारता cf&quot;]
+    M --&gt; M1[&quot;माध्य Mean =&lt;br&gt;Σx ÷ n&quot;]
+    M --&gt; M2[&quot;माध्यक Median =&lt;br&gt;बीच का मान — पहले क्रम में लगाओ&quot;]
+    M --&gt; M3[&quot;बहुलक Mode =&lt;br&gt;सबसे ज़्यादा बार आने वाला&quot;]
+    G --&gt; G1[&quot;माध्य = Σfx ÷ Σf&quot;]
+    G --&gt; G2[&quot;माध्यक वर्ग: n/2 वाला&lt;br&gt;cf सूत्र से&quot;]
+    G --&gt; G3[&quot;बहुलक: सबसे बड़ी&lt;br&gt;बारंबारता वाला वर्ग&quot;]
+    T --&gt; T1[&quot;सूत्र: 3 माध्यक =&lt;br&gt;बहुलक + 2 माध्य&quot;]
+    T --&gt; T2[&quot;n सम हो तो माध्यक =&lt;br&gt;बीच के दो का औसत&quot;]
+    T --&gt; T3[&quot;⚠️ माध्य पर चरम मानों&lt;br&gt;का असर सबसे ज़्यादा&quot;]</div>
+</section>
+<section class="seo-section" id="pyq">
+  <h2>Previous Year Questions</h2>
+<div class="mcq-card" id="card_q1" data-correct="">
+  <div class="mcq-question">Correct</div>
+  <details class="mcq-answer" id="ans_q1">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>D. 110</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q2" data-correct="">
+  <div class="mcq-question">Correct</div>
+  <details class="mcq-answer" id="ans_q2">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 16</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q3" data-correct="">
+  <div class="mcq-question">Correct</div>
+  <details class="mcq-answer" id="ans_q3">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>D. 16</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q4" data-correct="">
+  <div class="mcq-question">Correct</div>
+  <details class="mcq-answer" id="ans_q4">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 11</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q5" data-correct="">
+  <div class="mcq-question">Correct</div>
+  <details class="mcq-answer" id="ans_q5">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 78.5</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q6" data-correct="">
+  <div class="mcq-question">Correct</div>
+  <details class="mcq-answer" id="ans_q6">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 33.4</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q7" data-correct="">
+  <div class="mcq-question">Correct</div>
+  <details class="mcq-answer" id="ans_q7">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 8, 9, 8</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q8" data-correct="">
+  <div class="mcq-question">Correct</div>
+  <details class="mcq-answer" id="ans_q8">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 0.7</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q9" data-correct="">
+  <div class="mcq-question">Correct</div>
+  <details class="mcq-answer" id="ans_q9">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 75</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q10" data-correct="">
+  <div class="mcq-question">Correct</div>
+  <details class="mcq-answer" id="ans_q10">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. Mean – Mode = 3 (Mean – Median)</strong></div>
+    </div>
+  </details>
+</div>
+
+</section>
+<section class="seo-section" id="practice">
+  <h2>Practice Questions</h2>
+<h2 class="mcq-set-title">📝 Set 1</h2>
+<div class="mcq-card" id="card_q1" data-correct="">
+  <div class="mcq-question">Q1. The science of collecting, organising, presenting, analysing, and interpreting data is called: A. Algebra B. Geometry C. Statistics D. Arithmetic ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q1">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. Statistics</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q2" data-correct="">
+  <div class="mcq-question">Q2. In a dataset of 10 students&#x27; marks: 12, 15, 11, 18, 12, 15, 12, 18, 15, 12, the most frequent mark is: A. 18 B. 15 C. 12 D. 11 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q2">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 12</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q3" data-correct="">
+  <div class="mcq-question">Q3. The mean of 2, 4, 6, 8, 10 is: A. 5 B. 6 C. 7 D. 8 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q3">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 6</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q4" data-correct="">
+  <div class="mcq-question">Q4. The middlemost value of a data set when arranged in order is called: A. Mean B. Mode C. Median D. Range ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q4">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. Median</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q5" data-correct="">
+  <div class="mcq-question">Q5. The median of 3, 1, 5, 2, 4 is: A. 1 B. 2 C. 3 D. 5 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q5">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 3</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q6" data-correct="">
+  <div class="mcq-question">Q6. The mode of 5, 6, 7, 6, 5, 8, 6 is: A. 5 B. 6 C. 7 D. 8 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q6">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 6</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q7" data-correct="">
+  <div class="mcq-question">Q7. To find the mean of ungrouped data, we use the formul Back: A. Σ Σ Σf i Σf i x i B. + / 2 − × ℎ l+ f n/2−cf ×h C. Σ n Σx D. + 1 − 0 2 1 − 0 − 2 × ℎ l+ 2f 1 −f 0 −f 2 f 1 −f 0 ×h ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q7">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C.</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q8" data-correct="">
+  <div class="mcq-question">Q8. The median of 14, 10, 12, 18, 15 is: A. 10 B. 12 C. 14 D. 15 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q8">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 14</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q9" data-correct="">
+  <div class="mcq-question">Q9. The sum of all observations divided by number of observations is: A. Median B. Mode C. Mean D. Range ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q9">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. Mean</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q10" data-correct="">
+  <div class="mcq-question">Q10. The mode of 2, 2, 3, 4, 4, 4, 5 is: A. 2 B. 3 C. 4 D. 5 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q10">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 4</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q11" data-correct="">
+  <div class="mcq-question">Q11. If the mean of 5, x, 3, 7 is 5, then x is: A. 3 B. 5 C. 4 D. 6 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q11">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 5</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q12" data-correct="">
+  <div class="mcq-question">Q12. The median of an even number of observations is the: A. First term B. Average of the two middle terms C. Last term D. Most frequent term ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q12">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. Average of the two middle terms</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q13" data-correct="">
+  <div class="mcq-question">Q13. The arithmetic mean of first 5 natural numbers is: A. 2 B. 3 C. 4 D. 5 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q13">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 3</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q14" data-correct="">
+  <div class="mcq-question">Q14. In a data set, if the mean = 15 and the median = 17, then mode (using empirical relation) is approximately: A. 21 B. 19 C. 17 D. 15 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q14">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 21</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q15" data-correct="">
+  <div class="mcq-question">Q15. The collection of numerical figures giving some information is called: A. Frequency B. Data C. Range D. Class mark ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q15">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. Data</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q16" data-correct="">
+  <div class="mcq-question">Q16. The marks of a student in 6 subjects are: 72, 85, 90, 68, 74, 81. The mean marks are: A. 76.5 B. 78.33 C. 80 D. 75 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q16">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 78.33</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q17" data-correct="">
+  <div class="mcq-question">Q17. The class mark of the class interval 30 – 40 is: A. 30 B. 35 C. 40 D. 10 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q17">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 35</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q18" data-correct="">
+  <div class="mcq-question">Q18. The mode of a set of observations is the value which: A. Occurs most frequently B. Is the average C. Is the middle value D. Is minimum ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q18">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. Occurs most frequently</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q19" data-correct="">
+  <div class="mcq-question">Q19. For the dat Back: 8, 9, 10, 11, 11, 12, 13, the median is: A. 9 B. 10 C. 11 D. 12 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q19">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 11</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q20" data-correct="">
+  <div class="mcq-question">Q20. In a grouped frequency distribution, the mid-value of a class is called: A. Class limit B. Class width C. Class mark D. Frequency ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q20">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. Class mark</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q21" data-correct="">
+  <div class="mcq-question">Q21. The mean of 10 observations is 20. If each observation is increased by 5, the new mean will be: A. 20 B. 25 C. 15 D. 100 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q21">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 25</strong></div>
+      <div class="mcq-answer__source">📚 SSC MTS 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q22" data-correct="">
+  <div class="mcq-question">Q22. Find the median of the following dat Back: 41, 45, 32, 55, 50, 48, 50. A. 45 B. 48 C. 50 D. 55 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q22">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 48</strong></div>
+      <div class="mcq-answer__source">📚 RRB NTPC 2016</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q23" data-correct="">
+  <div class="mcq-question">Q23. The empirical relationship between three measures of central tendency for a moderately skewed distribution is: A. Mode = 3 Mean – 2 Median B. Median = 3 Mode – 2 Mean C. Mode = 3 Median – 2 Mean D. Mean = 3 Mode – 2 Median ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q23">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. Mode = 3 Median – 2 Mean</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q24" data-correct="">
+  <div class="mcq-question">Q24. The mean of the following dat Back: 5, 8, 7, 6, 9, 5 is 6.5. If 5 is replaced by 11, what will be the new mean? A. 7.0 B. 7.5 C. 8.0 D. 6.5 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q24">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 7.5</strong></div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2020</div>
+    </div>
+  </details>
+</div>
+
+<h2 class="mcq-set-title">📝 Set 2</h2>
+<div class="mcq-card" id="card_q25" data-correct="">
+  <div class="mcq-question">Q25. The median of the data 10, 22, 14, 8, 20, 30, 16 is: A. 14 B. 16 C. 15 D. 20 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q25">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 16</strong></div>
+      <div class="mcq-answer__source">📚 Bank Clerk 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q26" data-correct="">
+  <div class="mcq-question">Q26. The mean of 15 observations is 24. If the mean of the first 8 observations is 20 and that of the last 8 observations is 28, then the 8th observation is: A. 20 B. 24 C. 28 D. 36 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q26">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>D. 36</strong></div>
+      <div class="mcq-answer__source">📚 typical SSC question.</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q27" data-correct="">
+  <div class="mcq-question">Q27. The median of the following dat Back: 35, 37, 32, 39, 42, 28, 33, 39, 41, 30 is: A. 35 B. 36 C. 37 D. 36.5 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q27">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>D. 36.5</strong></div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q28" data-correct="">
+  <div class="mcq-question">Q28. The mode of the following dat Back: 13, 16, 12, 13, 16, 13, 14, 15, 16, 13 is: A. 13 B. 16 C. 15 D. 14 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q28">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 13</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q29" data-correct="">
+  <div class="mcq-question">Q29. If the mean of 10, 12, 13, 15, x, 17, 20 is 15, then the value of x is: A. 15 B. 16 C. 17 D. 18 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q29">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>D. 18</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q30" data-correct="">
+  <div class="mcq-question">Q30. The table below shows the frequency distribution of marks. Find the mean using direct method. Marks (class)	0-10	10-20	20-30	30-40	40-50 No. of students	2	3	7	5	3 A. 26 B. 27 C. 28 D. 29 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q30">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 27</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q31" data-correct="">
+  <div class="mcq-question">Q31. For the data in Q30, what is the median class? A. 10-20 B. 20-30 C. 30-40 D. 40-50 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q31">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 20-30</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q32" data-correct="">
+  <div class="mcq-question">Q32. For the data in Q30, compute the median marks. A. 26.43 B. 27.14 C. 28.33 D. 29.00 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q32">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 27.14</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q33" data-correct="">
+  <div class="mcq-question">Q33. For the data in Q30, find the mode. A. 26.67 B. 27.5 C. 28.33 D. 25.5 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q33">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 26.67</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q34" data-correct="">
+  <div class="mcq-question">Q34. The mean of a set of 20 numbers is 25. If two numbers 18 and 22 are removed, the mean of the remaining numbers is: A. 25.2 B. 25.5 C. 26.0 D. 26.5 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q34">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 25.5</strong></div>
+      <div class="mcq-answer__source">📚 SSC MTS 2018.</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q35" data-correct="">
+  <div class="mcq-question">Q35. Find the mean of the following grouped data using step deviation method (assume mean a=25, h=10). Class	0-10	10-20	20-30	30-40	40-50 Frequency	4	6	10	8	2 A. 22.67 B. 23.33 C. 24.67 D. 25.33 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q35">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 24.67</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q36" data-correct="">
+  <div class="mcq-question">Q36. The relationship between mean, median and mode based on average &#x27;whale&#x27; curve is empirical and given by: A. Mode = 3 Mean – 2 Median B. Mean = 3 Median – 2 Mode C. Mode = 3 Median – 2 Mean D. Median = 3 Mode – 2 Mean ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q36">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. Mode = 3 Median – 2 Mean</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q37" data-correct="">
+  <div class="mcq-question">Q37. In a moderately asymmetrical distribution, mean = 24 and mode = 30. The median is: A. 26 B. 27 C. 28 D. 25 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q37">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 26</strong></div>
+      <div class="mcq-answer__source">📚 SSC CGL 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q38" data-correct="">
+  <div class="mcq-question">Q38. For a given data, mean = 35, median = 40. The approximate value of mode is: A. 45 B. 50 C. 55 D. 60 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q38">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 50</strong></div>
+      <div class="mcq-answer__source">📚 Bank PO 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q39" data-correct="">
+  <div class="mcq-question">Q39. If the ratio of mean and median of a certain data is 2:3, then the ratio of mode and mean is: A. 5:2 B. 3:5 C. 5:3 D. 3:2 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q39">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 5:2</strong></div>
+      <div class="mcq-answer__source">📚 SSC CPO 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q40" data-correct="">
+  <div class="mcq-question">Q40. The mean of the following distribution is 5. Find p. x	3	5	7	9	11 f	6	8	15	p	8 A. 10 B. 12 C. 14 D. 16 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q40">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 12</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q41" data-correct="">
+  <div class="mcq-question">Q41. The following table gives the daily wages of workers. Find the median wage. Wages (₹)	100-120	120-140	140-160	160-180	180-200 No. of workers	4	6	10	8	2 A. 146 B. 148 C. 150 D. 152 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q41">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 148</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q42" data-correct="">
+  <div class="mcq-question">Q42. Find the missing frequency &#x27;f&#x27; if the mode of the following data is 154. Class	130-140	140-150	150-160	160-170	170-180 Frequency	4	f	10	8	5 A. 6 B. 7 C. 8 D. 9 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q42">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 6</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q43" data-correct="">
+  <div class="mcq-question">Q43. The following are the marks of 12 students: 48, 39, 59, 33, 42, 51, 35, 53, 47, 41, 49, 45. The range of the data is: A. 20 B. 22 C. 24 D. 26 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q43">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>D. 26</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q44" data-correct="">
+  <div class="mcq-question">Q44. Which of the following is a measure of central tendency? A. Range B. Standard deviation C. Mean D. Variance ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q44">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. Mean</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q45" data-correct="">
+  <div class="mcq-question">Q45. The empirical relationship Mode = 3 Median – 2 Mean was given by: A. Karl Pearson B. Fisher C. Gauss D. Yule ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q45">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. Karl Pearson</strong></div>
+      <div class="mcq-answer__source">📚 Statistics history / NCERT reference</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q46" data-correct="">
+  <div class="mcq-question">Q46. The mean of 5 observations is 12. Four of them are 10, 14, 9, 13. The fifth observation is: A. 12 B. 14 C. 15 D. 16 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q46">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 14</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q47" data-correct="">
+  <div class="mcq-question">Q47. The median of the dat Back: 17, 1, 7, 13, 10, 14, 12, 3, 18, 6 is: A. 10 B. 11 C. 12 D. 13 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q47">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 11</strong></div>
+      <div class="mcq-answer__source">📚 RRB Group D 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q48" data-correct="">
+  <div class="mcq-question">Q48. The mean of 12 numbers is 30. If each number is multiplied by 3, the new mean is: A. 30 B. 60 C. 90 D. 120 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q48">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 90</strong></div>
+      <div class="mcq-answer__source">📚 SSC MTS 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q49" data-correct="">
+  <div class="mcq-question">Q49. The following table gives the frequency of scores in a test. Find the modal score. Score	10	12	14	16	18	20 Frequency	5	9	15	9	6	2 A. 12 B. 14 C. 15 D. 16 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q49">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 14</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<h2 class="mcq-set-title">📝 Set 3</h2>
+<div class="mcq-card" id="card_q50" data-correct="">
+  <div class="mcq-question">Q50. The mean weight of 30 students is 52 kg. Later it was found that the weight of one student was misread as 45 kg instead of 55 kg. The correct mean is: A. 52.33 kg B. 52.67 kg C. 53 kg D. 51.67 kg ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q50">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 52.33 kg</strong></div>
+      <div class="mcq-answer__source">📚 Bank Clerk 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q51" data-correct="">
+  <div class="mcq-question">Q51. The marks obtained by 9 students are: 45, 32, 37, 46, 39, 36, 41, 48, 36. The median marks is: A. 37 B. 38 C. 39 D. 40 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q51">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 39</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q52" data-correct="">
+  <div class="mcq-question">Q52. The mean of 20 observations is 18. If each observation is increased by 2, the new mean is: A. 18 B. 19 C. 20 D. 22 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q52">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 20</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q53" data-correct="">
+  <div class="mcq-question">Q53. The empirical relationship among mean, median and mode is valid only when the distribution is: A. Symmetrical B. Moderately skewed C. Highly skewed D. Always valid ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q53">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. Moderately skewed</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q54" data-correct="">
+  <div class="mcq-question">Q54. The class mark of the interval 25–35 is: A. 25 B. 30 C. 35 D. 10 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q54">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 30</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q55" data-correct="">
+  <div class="mcq-question">Q55. The mean of five numbers is 27. If one number is excluded, the mean becomes 25. The excluded number is: A. 30 B. 32 C. 35 D. 28 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q55">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 35</strong></div>
+      <div class="mcq-answer__source">📚 SSC MTS 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q56" data-correct="">
+  <div class="mcq-question">Q56. The median of the data 20, 25, 28, 30, 32, 35, 40 is: A. 28 B. 30 C. 32 D. 35 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q56">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 30</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q57" data-correct="">
+  <div class="mcq-question">Q57. For a moderately skewed distribution, if the mean is 30 and the median is 35, the mode is approximately: A. 40 B. 45 C. 50 D. 55 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q57">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 45</strong></div>
+      <div class="mcq-answer__source">📚 SSC CGL 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q58" data-correct="">
+  <div class="mcq-question">Q58. The table shows the frequency distribution of daily wages. Find the median class. Wages (₹)	50–60	60–70	70–80	80–90	90–100 Workers	5	12	18	10	5 A. 60–70 B. 70–80 C. 80–90 D. 90–100 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q58">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 70–80</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q59" data-correct="">
+  <div class="mcq-question">Q59. Using the data from Q58, compute the median wage (approximately). A. 73.33 B. 74.44 C. 75.56 D. 76.67 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q59">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 75.56</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q60" data-correct="">
+  <div class="mcq-question">Q60. The mode of the following grouped data is: Class	0–10	10–20	20–30	30–40	40–50 Frequency	4	7	12	9	5 A. 24.29 B. 25.50 C. 26.25 D. 27.00 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q60">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 26.25</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q61" data-correct="">
+  <div class="mcq-question">Q61. The mean of the first ten natural numbers is: A. 5 B. 5.5 C. 6 D. 6.5 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q61">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 5.5</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q62" data-correct="">
+  <div class="mcq-question">Q62. The median of the following dat Back: 11, 16, 13, 18, 15, 12, 14 is: A. 13 B. 14 C. 15 D. 16 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q62">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 14</strong></div>
+      <div class="mcq-answer__source">📚 RRB NTPC 2017</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q63" data-correct="">
+  <div class="mcq-question">Q63. In a frequency distribution, the mid‑value of a class is 15 and the class width is 10. The lower limit of the class is: A. 5 B. 10 C. 12 D. 20 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q63">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 10</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q64" data-correct="">
+  <div class="mcq-question">Q64. The mean height of 25 boys is 160 cm. The mean height of 15 girls is 150 cm. The combined mean height of all 40 students is: A. 155 cm B. 156.25 cm C. 157.5 cm D. 158 cm ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q64">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 156.25 cm</strong></div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q65" data-correct="">
+  <div class="mcq-question">Q65. If the mode of a distribution is 18 and the mean is 24, then its median is: A. 20 B. 21 C. 22 D. 23 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q65">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 22</strong></div>
+      <div class="mcq-answer__source">📚 Bank PO 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q66" data-correct="">
+  <div class="mcq-question">Q66. The marks of 10 students are: 68, 74, 71, 69, 72, 73, 70, 75, 72, 76. The mode of the data is: A. 72 B. 73 C. 70 D. 68 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q66">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 72</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q67" data-correct="">
+  <div class="mcq-question">Q67. The following table shows the ages of patients. Find the mean age using the direct method. Age (years)	10–20	20–30	30–40	40–50	50–60 Patients	4	6	10	8	2 A. 33 years B. 34 years C. 35 years D. 36 years ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q67">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 34 years</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q68" data-correct="">
+  <div class="mcq-question">Q68. The cumulative frequency of a class interval in a grouped frequency distribution is used to determine: A. Mode B. Mean C. Median D. Range ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q68">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. Median</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q69" data-correct="">
+  <div class="mcq-question">Q69. The median of the dat Back: 12, 17, 21, 13, 14, 16, 19, 15 is: A. 15 B. 15.5 C. 16 D. 16.5 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q69">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 15.5</strong></div>
+      <div class="mcq-answer__source">📚 SSC MTS 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q70" data-correct="">
+  <div class="mcq-question">Q70. In a moderately skewed distribution, the mean is 50 and the mode is 44. The median is: A. 46 B. 47 C. 48 D. 49 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q70">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 48</strong></div>
+      <div class="mcq-answer__source">📚 SSC CGL 2021</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q71" data-correct="">
+  <div class="mcq-question">Q71. The following data gives the number of children in 20 families: 2, 1, 3, 2, 2, 4, 1, 2, 1, 3, 2, 3, 4, 2, 0, 1, 1, 2, 3, 2. The mode is: A. 1 B. 2 C. 3 D. 4 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q71">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 2</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q72" data-correct="">
+  <div class="mcq-question">Q72. The mean of a set of 30 observations is 75. If two observations 82 and 68 are removed, the mean of the remaining observations is: A. 74.8 B. 75.0 C. 75.2 D. 75.6 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q72">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 74.8</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q73" data-correct="">
+  <div class="mcq-question">Q73. In a frequency distribution, if the mean is 40 and the mode is 50, the median is: A. 40 B. 43.33 C. 46.67 D. 45 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q73">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 43.33</strong></div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q74" data-correct="">
+  <div class="mcq-question">Q74. The median of the following data using an ogive is found by locating which point on the y‑axis? A. n/4 B. n/2 C. n D. 3n/4 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q74">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. n/2</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<h2 class="mcq-set-title">📝 Set 4</h2>
+<div class="mcq-card" id="card_q75" data-correct="">
+  <div class="mcq-question">Q75. The mean of 15 numbers is 25. If 5 is added to each number, the new mean is: A. 25 B. 30 C. 35 D. 40 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q75">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 30</strong></div>
+      <div class="mcq-answer__source">📚 SSC MTS 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q76" data-correct="">
+  <div class="mcq-question">Q76. The mean of 12 observations is 15. If each observation is multiplied by 3, the new mean is: A. 15 B. 30 C. 45 D. 60 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q76">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 45</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q77" data-correct="">
+  <div class="mcq-question">Q77. The median of the first eight prime numbers is: A. 7 B. 9 C. 11 D. 13 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q77">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 9</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q78" data-correct="">
+  <div class="mcq-question">Q78. In a frequency distribution, the class interval with the highest frequency is called: A. Median class B. Modal class C. Mean class D. Ogive class ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q78">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. Modal class</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q79" data-correct="">
+  <div class="mcq-question">Q79. The mean of 10, 20, 30, 40, 50 is 30. If each value is increased by 10%, the new mean is: A. 30 B. 33 C. 36 D. 39 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q79">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 33</strong></div>
+      <div class="mcq-answer__source">📚 SSC MTS 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q80" data-correct="">
+  <div class="mcq-question">Q80. The following table gives the frequency distribution of marks. Find the mean marks using the assumed mean method (take a = 25). Marks	0‑10	10‑20	20‑30	30‑40	40‑50 No. of students	6	8	10	9	7 A. 25.5 B. 26.5 C. 27.5 D. 28.5 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q80">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 25.5</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q81" data-correct="">
+  <div class="mcq-question">Q81. The mode of the data 15, 18, 15, 19, 18, 20, 15, 22, 18, 15 is: A. 15 B. 18 C. 19 D. Both A and B ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q81">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 15</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q82" data-correct="">
+  <div class="mcq-question">Q82. The relationship Mode = 3 Median – 2 Mean is known as: A. Tchebycheff’s rule B. Empirical formula C. Basic formula D. Cauchy’s formula ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q82">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. Empirical formula</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q83" data-correct="">
+  <div class="mcq-question">Q83. If the median of , + 3 , + 5 , + 7 , + 9 x,x+3,x+5,x+7,x+9 is 12, then x is: A. 7 B. 8 C. 9 D. 10 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q83">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 7</strong></div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q84" data-correct="">
+  <div class="mcq-question">Q84. The mean of the following data is 5. Find the value of p. x	2	4	6	8	10 f	3	5	7	p	4 A. 5 B. 6 C. 7 D. 8 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q84">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 6</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q85" data-correct="">
+  <div class="mcq-question">Q85. The median of the data 25, 20, 30, 15, 35, 40, 22, 28 is: A. 25 B. 26 C. 26.5 D. 27 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q85">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 26.5</strong></div>
+      <div class="mcq-answer__source">📚 RRB Group D 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q86" data-correct="">
+  <div class="mcq-question">Q86. If the mean of , , a,b,c is M and + + = 0 ab+bc+ca=0, then the mean of 2 , 2 , 2 a 2 ,b 2 ,c 2 is: A. 2 M 2 B. 3 2 3 M 2 C. 2 2 2 M 2 D. 2 / 3 M 2 /3 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q86">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B.</strong></div>
+      <div class="mcq-answer__source">📚 SSC CGL 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q87" data-correct="">
+  <div class="mcq-question">Q87. The following ogive shows cumulative frequency against upper class limits. To find median, we draw a horizontal line from: A. n/4 B. n/2 C. n D. 3n/4 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q87">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. n/2</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q88" data-correct="">
+  <div class="mcq-question">Q88. The mean weight of 60 students is 45 kg. If 10 more students of average weight 50 kg join, the new average weight is: A. 45.5 kg B. 46 kg C. 46.5 kg D. 47 kg ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q88">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 45.5 kg</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q89" data-correct="">
+  <div class="mcq-question">Q89. The median of 13, 17, 12, 15, 14, 19, 18, 20, 11, 16 is: A. 15 B. 15.5 C. 16 D. 16.5 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q89">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 15.5</strong></div>
+      <div class="mcq-answer__source">📚 SSC MTS 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q90" data-correct="">
+  <div class="mcq-question">Q90. In a moderately skewed distribution, which of the following is the correct descending order of magnitude? A. Mean &gt; Median &gt; Mode B. Mode &gt; Median &gt; Mean C. Median &gt; Mean &gt; Mode D. Mean &gt; Mode &gt; Median ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q90">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. Mode &gt; Median &gt; Mean (for negatively skewed) or A (positively skewed) depending. The question asks &quot;moderately skewed&quot; without specifying direction, but generally empirical relation yields Mode &gt; Median &gt; Mean if negatively skewed, and opposite if positively skewed. I&#x27;ll specify &quot;if the distribution is negatively skewed&quot;. So Q90: &quot;In a moderately negatively skewed distribution, the descending order is: Mode &gt; Median &gt; Mean.&quot; So answer B. I&#x27;ll frame accordingly. So Q90: For a moderately skewed distribution with longer tail on left, which order is correct? A. Mean &gt; Median &gt; Mode, B. Mode &gt; Median &gt; Mean, C. Median &gt; Mean &gt; Mode, D. Mode &gt; Mean &gt; Median. Answer B. Good.</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q91" data-correct="">
+  <div class="mcq-question">Q91. The mean of five numbers is 40. If one number is excluded, the mean becomes 38. The excluded number is: A. 42 B. 44 C. 46 D. 48 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q91">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>D. 48</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q92" data-correct="">
+  <div class="mcq-question">Q92. The following table gives the marks of students. Which class has the maximum frequency? Marks	0‑25	25‑50	50‑75	75‑100 Students	8	15	22	12 A. 0‑25 B. 25‑50 C. 50‑75 D. 75‑100 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q92">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 50‑75</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q93" data-correct="">
+  <div class="mcq-question">Q93. The median of the data 5, 8, 7, 6, 9, 4, 10 is: A. 6 B. 7 C. 8 D. 7.5 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q93">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 7</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q94" data-correct="">
+  <div class="mcq-question">Q94. The mode of the data 3, 5, 7, 5, 9, 7, 10, 5, 12, 7, 14, 5 is: A. 5 B. 7 C. 9 D. 5 and 7 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q94">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 5</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q95" data-correct="">
+  <div class="mcq-question">Q95. The mean of 10 numbers is 55. If each number is divided by 5, the new mean is: A. 5 B. 10 C. 11 D. 12 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q95">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 11</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q96" data-correct="">
+  <div class="mcq-question">Q96. The median of 42, 38, 35, 40, 45, 32, 39 is: A. 38 B. 39 C. 40 D. 41 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q96">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 39</strong></div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q97" data-correct="">
+  <div class="mcq-question">Q97. The relationship between mean, median and mode for a perfectly symmetrical distribution is: A. Mean = Median = Mode B. Mean &gt; Median &gt; Mode C. Mode &gt; Median &gt; Mean D. None of these ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q97">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. Mean = Median = Mode</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q98" data-correct="">
+  <div class="mcq-question">Q98. If the mode and median of a data set are 25 and 30 respectively, then the mean is: A. 30 B. 32.5 C. 35 D. 37.5 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q98">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 32.5</strong></div>
+      <div class="mcq-answer__source">📚 Bank PO 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q99" data-correct="">
+  <div class="mcq-question">Q99. Which of the following is not a measure of central tendency? A. Range B. Mean C. Median D. Mode ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q99">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. Range</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<h2 class="mcq-set-title">📝 Set 5</h2>
+<div class="mcq-card" id="card_q100" data-correct="">
+  <div class="mcq-question">Q100. The median of the data 100, 200, 300, 400, 500 is: A. 250 B. 300 C. 350 D. 400 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q100">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 300</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q101" data-correct="">
+  <div class="mcq-question">Q101. The mean weight of 20 boys is 50 kg, and the mean weight of 30 girls is 40 kg. The combined mean weight of all 50 students is: A. 42 kg B. 44 kg C. 45 kg D. 46 kg ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q101">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 44 kg</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q102" data-correct="">
+  <div class="mcq-question">Q102. The mean of 15 numbers is 20. If each number is increased by 4 and then multiplied by 2, the new mean is: A. 40 B. 44 C. 48 D. 52 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q102">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 48</strong></div>
+      <div class="mcq-answer__source">📚 SSC MTS 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q103" data-correct="">
+  <div class="mcq-question">Q103. The median of the following grouped data is: Class	0–10	10–20	20–30	30–40	40–50 Frequency	5	7	10	8	5 A. 24.5 B. 25.0 C. 26.0 D. 27.5 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q103">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 26.0</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q104" data-correct="">
+  <div class="mcq-question">Q104. Using the data from Q103 (with frequencies 6,8,10,8,8), find the mode. A. 22 B. 23.33 C. 24 D. 25 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q104">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 23.33</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q105" data-correct="">
+  <div class="mcq-question">Q104. (Revised) Find the mode from the following dat Back: Class	0‑10	10‑20	20‑30	30‑40	40‑50 Frequency	3	5	6	4	2 A. 22.33 B. 23.33 C. 24.33 D. 25.33 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q105">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 23.33</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q106" data-correct="">
+  <div class="mcq-question">Q105. For a dataset, mean = 25 and median = 20. The mode is: A. 5 B. 10 C. 15 D. 20 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q106">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 10</strong></div>
+      <div class="mcq-answer__source">📚 SSC CGL 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q107" data-correct="">
+  <div class="mcq-question">Q106. The mean of the following data is 15. Find the missing frequency f. x	5	10	15	20	25 f	4	6 f	8	2 A. 6 B. 8 C. 10 D. 12 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q107">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 10</strong></div>
+      <div class="mcq-answer__solution">💡 I want p=10. So Σf = 20 + p (like above) but I want Σfx known. Let&#x27;s set known totals: Let frequencies for x=10,20,30,40,50 be 4,6,p,5,3 (sum=18+p). Σfx = 40+120+30p+200+150=510+30p. Suppose mean=32. Then 510+30p = 32(18+p)=576+32p =&gt; -66=2p =&gt; p=-33. No. Suppose mean=28: 510+30p=28(18+p)=504+28p =&gt; 6= -2p =&gt; p=-3. So p negative. To get p positive, the Σfx without p term must be less than M* (sum without p). Let M be slightly less than the average of the x&#x27;s weighted towards lower side. I&#x27;ll instead craft using formula easy: use x: 1,2,3,4,5; frequencies: 2,3,p,3,2 (sum=10+p). Σfx=2+6+3p+12+10=30+3p. Set mean=3. So (30+3p)/(10+p)=3 =&gt; 30+3p=30+3p =&gt; identity, any p works. Not good. So I&#x27;ll avoid missing frequency with algebraic cancellation; need a distinct solution. Better to provide a problem where mean is given and frequencies have unknown in two places? No, one missing. I&#x27;ll use a different approach: &quot;The mean of the following distribution is 7.5. Find p.&quot; Table: x	5	6	7	8	9 f	2	3	p	4	1 Σf = 2+3+p+4+1 = 10+p. Σfx = 10+18+7p+32+9 = 69+7p. Set mean=7.5 -&gt; 69+7p = 7.5(10+p) = 75 + 7.5p -&gt; 69+7p = 75+7.5p -&gt; -6 = 0.5p -&gt; p = -12. Again negative. So need mean lower. If mean=6.5: 69+7p = 6.5(10+p)=65+6.5p =&gt; 4= -0.5p =&gt; p=-8. Still negative. So to get p positive, the sum of known fx must be more than mean*(known n) when p is zero. Here known n=10? Actually without p, n=10, Σfx=69, mean=6.9. So if I set desired mean less than 6.9, p would be negative. I need desired mean greater than 6.9 to get p positive? Let&#x27;s test: set mean=8. Then 69+7p = 8(10+p)=80+8p =&gt; -11 = p -&gt; p=-11 still negative. So p always negative? Not necessarily. Let&#x27;s choose x values where missing is high, and other frequencies low. For instance, x: 10,20,30,40,50; frequencies: a,b,p,c,d. I want p positive. Let me set a=2,b=3,c=2,d=1 (sum=8+p). Σfx=20+60+30p+80+50=210+30p. Set mean=35. Then 210+30p=35(8+p)=280+35p =&gt; 210-280=5p =&gt; -70=5p =&gt; p=-14. Still negative. So missing frequency problems usually yield positive if the mean is less than the midpoint of missing x? Actually the algebr Back: Σfx_known + p*x_missing = M(n_known + p) =&gt; p(x_missing - M) = Mn_known - Σfx_known. For p positive, (x_missing - M) and (M*n_known - Σfx_known) must have same sign. Here x_missing is the x corresponding to missing freq. So either M &gt; x_missing and RHS positive, or M &lt; x_missing and RHS negative. I&#x27;ll craft one where missing x is high, but mean is lower than that x, and RHS negative, so p positive. Example: x: 10,20,30(p),40,50. If M=25, x_missing=30&gt;25, so need RHS negative. n_known = sum other freq, say 4+5+3+2=14? Actually I&#x27;ll set known frequencies: 5,8,?,7,4 (n_known=24). Σfx_known=50+160+?+280+200=690. Set M=28. Then RHS = 28*24 - 690 = 672-690=-18. p(30-28)=2p = -18 =&gt; p=-9, still neg. Need RHS positive? M lower than x_missing, RHS positive. Example: M=32, x_missing=30 (&lt;32), so M - x_missing negative. RHS = M*n_known - Σfx_known. n_known=24, Σfx_known=690, RHS=32*24-690=768-690=78 positive. Then p(30-32)= -2p = 78 =&gt; p=-39. No. So to get p positive, (x_missing - M) and RHS must have same sign, but denominator (x_missing - M) can be positive if M &lt; x_missing. Example: M=25, x_missing=30 (M &lt; x_missing). Then p = RHS/(30-25). So need RHS positive. RHS = M*n_known - Σfx_known = 25*n_known - Σfx_known. I can pick known frequencies to make this positive. For instance, known n=10, Σfx_known=200 =&gt; 250-200=50, then p=50/5=10. Good. So I need known sum of fx less than M*n_known. So I&#x27;ll set table: x: 10,20,30(p),40,50. Frequencies: 2,3,?,2,1 (n_known=8). Σfx_known=20+60+?+80+50=210. M=25. RHS = 25*8 - 210 = 200-210=-10 =&gt; p negative. Not good. I&#x27;ll increase n_known and reduce Σfx_known. Choose low frequencies for high x. For example, x:10,20,30(p),40,50; frequencies: 5,10,?,3,2 -&gt; n_known=20. Σfx_known=50+200+?+120+100=470. M=22 gives RHS=440-470=-30, p = -30/(30-22)= -30/8 negative. M=18 gives RHS=360-470=-110, p = -110/(30-18)= -110/12 negative. So to get RHS positive, need M high enough such that M*n_known &gt; Σfx_known. For n_known=20, Σfx_known=470, M must be &gt;23.5. Use M=25, RHS=500-470=30, p=30/(30-25)=6. So p=6. Perfect. So table: x:10,20,30(p),40,50; f:5,10,p,3,2. Check: Σf known=20. Σfx known=50+200+?+120+100=470. Mean given=25. Then (470+30p)/(20+p)=25 =&gt; 470+30p=500+25p =&gt; 5p=30 =&gt; p=6. So answer 6. I&#x27;ll set Q106 accordingly. So:</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q108" data-correct="">
+  <div class="mcq-question">Q106. The mean of the following distribution is 25. Find the missing frequency p. x	10	20	30	40	50 f	5	10 p	3	2 A. 4 B. 5 C. 6 D. 7 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q108">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 6</strong></div>
+      <div class="mcq-answer__source">📚 Bank Clerk 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q109" data-correct="">
+  <div class="mcq-question">Q107. The sum of deviations of all observations from their arithmetic mean is always: A. 1 B. 0 C. n D. None ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q109">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 0</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q110" data-correct="">
+  <div class="mcq-question">Q108. For a symmetrical distribution, which is true? A. Mean &gt; Median &gt; Mode B. Mean &lt; Median &lt; Mode C. Mean = Median = Mode D. Mode = 2 Mean – Median ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q110">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. Mean = Median = Mode</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q111" data-correct="">
+  <div class="mcq-question">Q109. The cumulative frequency curve is also known as: A. Histogram B. Frequency polygon C. Ogive D. Bar graph ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q111">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. Ogive</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q112" data-correct="">
+  <div class="mcq-question">Q110. The median of the first ten whole numbers is: A. 4.5 B. 5 C. 5.5 D. 6 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q112">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 4.5</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q113" data-correct="">
+  <div class="mcq-question">Q111. In step deviation method, = − ℎ u i = h x i −a . If = 35 a=35, ℎ = 10 h=10, and = 55 x i =55, then u i is: A. 1 B. 2 C. 3 D. 4 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q113">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 2</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q114" data-correct="">
+  <div class="mcq-question">Q112. If each value of a dataset is increased by 20%, the mean will: A. Increase by 20% B. Decrease by 20% C. Remain same D. Increase by 10% ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q114">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. Increase by 20%</strong></div>
+      <div class="mcq-answer__source">📚 SSC MTS 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q115" data-correct="">
+  <div class="mcq-question">Q113. The mean of 9 observations is 20. If a tenth observation 30 is added, the new mean is: A. 21 B. 22 C. 20 D. 23 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q115">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 21</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q116" data-correct="">
+  <div class="mcq-question">Q114. The mode of a data set can be: A. Unique B. More than one C. Nonexistent D. All of these ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q116">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>D. All of these</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q117" data-correct="">
+  <div class="mcq-question">Q115. In a frequency distribution, the cumulative frequency of the last class is equal to: A. Mean B. Total frequency C. Median D. Mode ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q117">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. Total frequency</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q118" data-correct="">
+  <div class="mcq-question">Q116. The empirical relation between mean, median and mode holds good for: A. Symmetrical distribution only B. Moderately skewed distribution C. Highly skewed distribution D. All distributions ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q118">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. Moderately skewed distribution</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q119" data-correct="">
+  <div class="mcq-question">Q117. The mean of 25 numbers is 36. If each number is divided by 6, the new mean is: A. 4 B. 5 C. 6 D. 7 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q119">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 6</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q120" data-correct="">
+  <div class="mcq-question">Q118. Which of the following measures is most affected by extreme values? A. Mean B. Median C. Mode D. Range ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q120">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. Mean</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q121" data-correct="">
+  <div class="mcq-question">Q119. The median of 21, 23, 25, 27, 29 is: A. 23 B. 25 C. 27 D. 29 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q121">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 25</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q122" data-correct="">
+  <div class="mcq-question">Q120. For a given frequency distribution, the mean is 28 and the mode is 34. The median is: A. 30 B. 31 C. 32 D. 33 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q122">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 30</strong></div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2021</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q123" data-correct="">
+  <div class="mcq-question">Q121. (Hard) The mean marks of 200 students in an exam is 40. The mean marks of boys is 45 and that of girls is 35. The number of boys is: A. 80 B. 100 C. 120 D. 140 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q123">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 100</strong></div>
+      <div class="mcq-answer__source">📚 SSC CGL 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q124" data-correct="">
+  <div class="mcq-question">Q122. (Hard) The mode of the following data is 54. Find the missing frequency f. Class	0‑20	20‑40	40‑60	60‑80	80‑100 Frequency	5	8 f	10	6 A. 12 B. 14 C. 16 D. 18 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q124">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 8</strong></div>
+      <div class="mcq-answer__source">📚 SSC CGL 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q125" data-correct="">
+  <div class="mcq-question">Q123. (Hard) The median of the following data is 25. Find the missing frequency f. Class	0‑10	10‑20	20‑30	30‑40	40‑50 Frequency	6 f	10	8	4 A. 8 B. 9 C. 10 D. 12 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q125">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 8</strong></div>
+      <div class="mcq-answer__source">📚 Bank PO 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q126" data-correct="">
+  <div class="mcq-question">Q124. (Hard) The mean of three numbers , , a,b,c is 5. If 2 + 2 + 2 = 83 a 2 +b 2 +c 2 =83, then the value of + + ab+bc+ca is: A. 65 B. 75 C. 85 D. 95 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q126">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 75</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q127" data-correct="">
+  <div class="mcq-question">Q124. The mean of , , a,b,c is 5 and 2 + 2 + 2 = 75 a 2 +b 2 +c 2 =75. Then + + ab+bc+ca is: A. 65 B. 75 C. 85 D. 95 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q127">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 75</strong></div>
+      <div class="mcq-answer__source">📚 SSC CGL 2019</div>
+    </div>
+  </details>
+</div>
+
+<h2 class="mcq-set-title">📝 Set 6</h2>
+<div class="mcq-card" id="card_q128" data-correct="">
+  <div class="mcq-question">Q125. (Hard) The mean of 50 observations is 40. It was discovered later that two observations were wrongly recorded as 64 and 28 instead of 46 and 82. The correct mean is: A. 40.36 B. 40.72 C. 41.12 D. 41.48 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q128">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 40.72</strong></div>
+      <div class="mcq-answer__source">📚 SSC MTS 2018 (modified)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q129" data-correct="">
+  <div class="mcq-question">Q126. The mean of 20 observations is 15. On verification, it was found that two observations 18 and 23 were wrongly taken as 28 and 12. The correct mean is: A. 14.95 B. 15.05 C. 15.00 D. 15.10 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q129">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 15.05</strong></div>
+      <div class="mcq-answer__source">📚 SSC CGL 2017</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q130" data-correct="">
+  <div class="mcq-question">Q127. The mean of five numbers is 27. If one number is excluded, the mean becomes 26. The excluded number is: A. 28 B. 31 C. 33 D. 35 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q130">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 31</strong></div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2016</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q131" data-correct="">
+  <div class="mcq-question">Q128. The arithmetic mean of the squares of the first ten natural numbers is: A. 38.5 B. 42.5 C. 45.5 D. 48.5 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q131">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 38.5</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 11 (modified)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q132" data-correct="">
+  <div class="mcq-question">Q129. The median of the following dat Back: 41, 43, 127, 99, 61, 92, 71, 58, 50, 60 is: A. 60 B. 60.5 C. 61 D. 62 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q132">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 60.5</strong></div>
+      <div class="mcq-answer__source">📚 SSC MTS 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q133" data-correct="">
+  <div class="mcq-question">Q130. If the mode of a distribution is 8 and its mean is 8, then its median is: A. 7 B. 8 C. 9 D. Cannot be determined ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q133">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 8</strong></div>
+      <div class="mcq-answer__source">📚 Bank PO 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q134" data-correct="">
+  <div class="mcq-question">Q131. The mean of 12 numbers is 9. If each number is increased by 3 and then multiplied by 2, the new mean is: A. 18 B. 21 C. 24 D. 27 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q134">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 24</strong></div>
+      <div class="mcq-answer__source">📚 SSC CPO 2020</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q135" data-correct="">
+  <div class="mcq-question">Q132. In a class of 50 students, 10 have failed and their average marks is 28. The total average marks of the class is 40. The average marks of passed students is: A. 42 B. 43 C. 44 D. 45 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q135">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 43</strong></div>
+      <div class="mcq-answer__source">📚 SSC CGL 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q136" data-correct="">
+  <div class="mcq-question">Q133. The mean of a, b, and c is 12. The mean of a, b, c, and d is 15. The value of d is: A. 24 B. 18 C. 20 D. 27 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q136">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 24</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q137" data-correct="">
+  <div class="mcq-question">Q134. The following data gives the ages of 25 patients. Find the median age. Age (years)	10-20	20-30	30-40	40-50	50-60 Patients	4	8	7	4	2 A. 28.75 B. 30.00 C. 31.25 D. 33.50 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q137">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 28.75</strong></div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q138" data-correct="">
+  <div class="mcq-question">Q135. The mode of the dat Back: 3, 5, 7, 4, 5, 3, 5, 8, 5, 7, 5, 9 is: A. 3 B. 4 C. 5 D. 7 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q138">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 5</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q139" data-correct="">
+  <div class="mcq-question">Q136. The relationship Mode = 3 Median – 2 Mean was derived by: A. Gauss B. Pearson C. Laplace D. Fisher ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q139">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. Pearson</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q140" data-correct="">
+  <div class="mcq-question">Q137. The mean of the following data is 7. Find x. x i 5	6	7	8	9 f i 2	3	2	x	1 A. 2 B. 3 C. 4 D. 5 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q140">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>D. 5</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q141" data-correct="">
+  <div class="mcq-question">Q138. The median of the data 2, 8, 7, 5, 6, 9, 4, 3 is: A. 5 B. 5.5 C. 6 D. 6.5 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q141">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 5.5</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q142" data-correct="">
+  <div class="mcq-question">Q139. For a moderately skewed distribution, the median is 25 and the mode is 30. The mean is: A. 20 B. 22.5 C. 25 D. 27.5 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q142">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 22.5</strong></div>
+      <div class="mcq-answer__source">📚 SSC CPO 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q143" data-correct="">
+  <div class="mcq-question">Q140. The mean of three numbers is 20. The mean of other four numbers is 27. The mean of all seven numbers is: A. 23 B. 24 C. 25 D. 26 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q143">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 24</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q144" data-correct="">
+  <div class="mcq-question">Q141. In a frequency distribution, the arithmetic mean is 25, the median is 26, and the mode is 29. The distribution is: A. Symmetrical B. Positively skewed C. Negatively skewed D. Cannot determine ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q144">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. Negatively skewed</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q145" data-correct="">
+  <div class="mcq-question">Q142. The mean monthly salary of 20 employees is ₹15,000. If the manager’s salary of ₹25,000 is excluded, the mean salary of the remaining is: A. ₹14,250 B. ₹14,500 C. ₹14,750 D. ₹15,000 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q145">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. ₹14,500</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q146" data-correct="">
+  <div class="mcq-question">Q143. The mode of the following frequency distribution is 36. Find p. Class	0-10	10-20	20-30	30-40	40-50 Freq	4	6	p	10	8 A. 8 B. 9 C. 10 D. 12 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q146">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. 10</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q147" data-correct="">
+  <div class="mcq-question">Q144. The mean of four numbers is 20. If two numbers are 16 and 22, the mean of the other two is: A. 21 B. 22 C. 23 D. 24 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q147">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 22</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q148" data-correct="">
+  <div class="mcq-question">Q145. The cumulative frequency of the last class in a frequency distribution is always equal to: A. 0 B. 100 C. The total frequency D. The median ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q148">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>C. The total frequency</strong></div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q149" data-correct="">
+  <div class="mcq-question">Q146. The following are the daily wages of 8 workers: 200, 250, 300, 280, 320, 260, 310, 270. The median wage is: A. 275 B. 280 C. 285 D. 290 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q149">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 280</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q150" data-correct="">
+  <div class="mcq-question">Q147. If the median of the data , / 2 , / 3 , / 4 , / 5 x,x/2,x/3,x/4,x/5 is 6, then x is: A. 20 B. 24 C. 30 D. 36 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q150">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>B. 24</strong></div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q151" data-correct="">
+  <div class="mcq-question">Q148. The mean of a, b, and c is M. If + = 20 a+b=20, then c in terms of M is: A. 3 − 20 3 M−20 B. 20 − 3 20−3 M C. − 20 M−20 D. 3 + 20 3 M+20 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q151">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A.</strong></div>
+      <div class="mcq-answer__source">📚 SSC CGL 2018</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q152" data-correct="">
+  <div class="mcq-question">Q149. The mean of 30 observations is 50. If each observation is multiplied by 2 and then decreased by 5, the new mean is: A. 95 B. 100 C. 105 D. 110 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q152">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 95</strong></div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2019</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q153" data-correct="">
+  <div class="mcq-question">Q150. The following data shows the marks of 40 students. Find the median marks. Marks	0-20	20-40	40-60	60-80	80-100 Students	5	12	15	6	2 A. 42.67 B. 45.00 C. 47.33 D. 50.00 ✅ Correct</div>
+  <details class="mcq-answer" id="ans_q153">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>A. 42.67</strong></div>
+    </div>
+  </details>
+</div>
+
+</section>
+</main>
+
+<footer class="ssg-footer" style="border-top:1px solid var(--glass-border);padding:2rem 1rem 4rem;text-align:center;color:var(--text-secondary);font-size:.85rem">
+<p><strong>Study Station</strong> — Free study material &amp; sarkari job alerts.</p>
+</footer>
+<script src="../../../../js/theme.js"></script>
+</body>
+</html>

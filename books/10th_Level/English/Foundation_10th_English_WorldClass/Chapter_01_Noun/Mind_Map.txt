@@ -1,0 +1,34 @@
+```mermaid
+graph TD
+    R["📛 संज्ञा<br>Noun"]
+    R --> D["📖 अर्थ<br>व्यक्ति/स्थान/वस्तु/भाव का नाम"]
+    R --> T["📂 5 प्रकार"]
+    R --> C["🔢 Countable बनाम<br>Uncountable"]
+    R --> N["#️⃣ Number<br>एक → बहुवचन"]
+    R --> P["🔗 Possessive<br>'s का नियम"]
+    R --> TR["⚠️ जाल"]
+
+    T --> T1["Proper — Ram, Delhi<br>हमेशा capital"]
+    T --> T2["Common — boy, city"]
+    T --> T3["Collective — team, family"]
+    T --> T4["Material — gold, water"]
+    T --> T5["Abstract — honesty, beauty"]
+
+    C --> C1["Countable: many books"]
+    C --> C2["Uncountable: much water"]
+    C --> C3["हमेशा Uncountable:<br>advice, information,<br>furniture, news, luggage"]
+
+    N --> N1["आम: +s"]
+    N --> N2["s,sh,ch,x,o: +es"]
+    N --> N3["व्यंजन+y → ies"]
+    N --> N4["f/fe → ves"]
+    N --> N5["अनियमित: man→men"]
+
+    P --> P1["जीवित: Ram's book"]
+    P --> P2["निर्जीव: leg of the table"]
+    P --> P3["बहुवचन s: boys' school"]
+
+    TR --> TR1["advices ❌"]
+    TR --> TR2["Collective का verb"]
+    TR --> TR3["Proper में capital"]
+```

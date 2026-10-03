@@ -1,0 +1,2626 @@
+<!DOCTYPE html>
+<html lang="hi" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>बीजगणित — गणित अध्याय 16 | Study Station</title>
+<meta name="description" content="📖 Content (मुख्य सामग्री) – हिंदी रूपरेखा और सीखने के उद्देश्य इस अध्याय को पढ़ने के बाद आप: चर और अचर का अंतर समझ जाएँगे रैखिक समीकरणों को हल करना सीख">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#8B5CF6">
+<link rel="canonical" href="https://studystation.in/chapters/hi/10th-level/math/algebra.html">
+<link rel="alternate" hreflang="en" href="https://studystation.in/chapters/en/10th-level/math/algebra.html">
+<link rel="alternate" hreflang="hi" href="https://studystation.in/chapters/hi/10th-level/math/algebra.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="बीजगणित — गणित अध्याय 16">
+<meta property="og:description" content="📖 Content (मुख्य सामग्री) – हिंदी रूपरेखा और सीखने के उद्देश्य इस अध्याय को पढ़ने के बाद आप: चर और अचर का अंतर समझ जाएँगे रैखिक समीकरणों को हल करना सीख">
+<meta property="og:url" content="https://studystation.in/chapters/hi/10th-level/math/algebra.html">
+<link rel="manifest" href="../../../../manifest.webmanifest">
+<link rel="icon" type="image/svg+xml" href="../../../../assets/icon.svg">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "LearningResource", "name": "बीजगणित — गणित अध्याय 16", "description": "📖 Content (मुख्य सामग्री) – हिंदी रूपरेखा और सीखने के उद्देश्य इस अध्याय को पढ़ने के बाद आप: चर और अचर का अंतर समझ जाएँगे रैखिक समीकरणों को हल करना सीख", "inLanguage": "hi-IN", "educationalLevel": "10th Level", "about": "गणित", "isAccessibleForFree": true, "learningResourceType": "Chapter", "url": "https://studystation.in/chapters/hi/10th-level/math/algebra.html"}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Outfit:wght@600;700;800&family=Noto+Sans+Devanagari:wght@400;600;700&display=swap" rel="stylesheet">
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<link rel="stylesheet" href="../../../../css/style.css">
+<link rel="stylesheet" href="../../../../css/components.css">
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true,theme:'dark',securityLevel:'loose'});</script>
+<style>
+.seo-wrap{max-width:820px;margin:0 auto;padding:5.5rem 1rem 4rem}
+.seo-section{margin:2.5rem 0}
+.seo-section h2{font-family:'Outfit',sans-serif;font-size:1.4rem;margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid var(--accent-surface);color:var(--accent-light)}
+.seo-head h1{font-family:'Outfit',sans-serif;font-size:clamp(1.5rem,4vw,2.1rem);line-height:1.3}
+.seo-actions{display:flex;gap:.6rem;flex-wrap:wrap;margin:1.25rem 0}
+.seo-toc{background:var(--bg-secondary);border:1px solid var(--glass-border);border-radius:var(--radius-lg);padding:1rem 1.25rem;margin:1.5rem 0}
+.seo-toc a{color:var(--accent-light);margin-right:1rem;font-size:.9rem;white-space:nowrap}
+</style>
+</head>
+<body>
+<nav class="navbar"><div class="container navbar__inner">
+<a href="../../../../index.html" class="navbar__brand"><div class="navbar__logo"><ion-icon name="book-sharp"></ion-icon></div><span>Study Station</span></a>
+<ul class="navbar__links">
+<li><a href="../../../../index.html" class="navbar__link">Home</a></li>
+<li><a href="../../../../chapters/index.html" class="navbar__link active">Chapters</a></li>
+<li><a href="../../../../jobs.html" class="navbar__link">Jobs</a></li>
+</ul>
+</div></nav>
+
+<main class="seo-wrap">
+<nav class="breadcrumb" aria-label="breadcrumb">
+<a href="../../../../index.html">Home</a> <span class="breadcrumb__sep">/</span>
+<a href="../../../../chapters/index.html">Chapters</a> <span class="breadcrumb__sep">/</span>
+<span class="breadcrumb__current">गणित</span>
+</nav>
+
+<header class="seo-head">
+<span class="section__badge">10th Level · गणित</span>
+<h1>बीजगणित — गणित अध्याय 16</h1>
+<p style="color:var(--text-secondary);margin-top:.5rem">मुफ़्त पाठ, माइंड मैप, शॉर्ट ट्रिक्स और अभ्यास प्रश्न — हिंदी में।</p>
+<div class="seo-actions">
+<a class="btn btn--primary" href="../../../../index.html#books"><ion-icon name="book-outline"></ion-icon>इंटरैक्टिव रीडर में खोलें</a>
+<a class="btn" style="background:var(--bg-tertiary);color:var(--text-primary)" href="../../../../chapters/en/10th-level/math/algebra.html" hreflang="en">English</a>
+</div>
+</header>
+
+<nav class="seo-toc"><a href="#content">पाठ</a><a href="#feynman">आसान भाषा में</a><a href="#tricks">शॉर्ट ट्रिक्स</a><a href="#mindmap">माइंड मैप</a><a href="#practice">अभ्यास प्रश्न</a></nav>
+
+<section class="seo-section" id="content">
+  <h2>पाठ</h2>
+<div class="emoji-section"><span class="emoji-section__icon">📖</span><strong>Content (मुख्य सामग्री) – हिंदी</strong></div>
+<h4>रूपरेखा और सीखने के उद्देश्य</h4>
+<p>इस अध्याय को पढ़ने के बाद आप:</p>
+<h4>चर और अचर का अंतर समझ जाएँगे</h4>
+<h4>रैखिक समीकरणों को हल करना सीख जाएँगे</h4>
+<h4>बीजीय सर्वसमिकाओं को बिना रटे याद रख पाएँगे</h4>
+<h4>दो चर वाले समीकरणों का हल निकाल सकेंगे</h4>
+<p>शब्द समस्याओं को समीकरण में ढालने का कौशल पा लेंगे</p>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">क्या आप जानते हैं?</div></div>
+<p>सन् 830 ईस्वी। बगदाद का एक विद्वान, अल-ख़्वारिज़मी, एक किताब लिखता है — &quot;अल-किताब अल-मुख्तसर फ़ी हिसाब अल-जबर वल-मुक़ाबला&quot;। इसी किताब के &quot;अल-जबर&quot; शब्द से बना है Algebra। &quot;अल-जबर&quot; का अर्थ है — &quot;टूटे हुए हिस्सों को जोड़ना&quot;। सोचिए, बीजगणित असल में कोई डरावना राक्षस नहीं, बल्कि टूटी-फूटी पहेलियों को जोड़ने की कला है। और इसी कला से आज SSC, बैंक, रेलवे जैसी हर बड़ी परीक्षा में 20-25% सवाल पूछे जाते हैं।</p>
+<p>मान लीजिए, &quot;x&quot; देखते ही दिमाग़ सुन्न हो जाता है।</p>
+<p>आप अकेले नहीं हैं। लाखों विद्यार्थियों को जब पहली बार अंकों के बीच अक्षर दिखते हैं, तो लगता है गणित ने ग़लत कमरे में क़दम रख दिया। यह डर असल में &quot;अज्ञात&quot; के डर से पैदा होता है। हमारा दिमाग़ खाली जगह देखकर असहज हो जाता है।</p>
+<p>लेकिन सच तो यह है — x कोई भूत नहीं, सिर्फ़ एक खाली डिब्बा है जिसमें कोई संख्या छिपी है। जैसे आप किसी उपहार के डिब्बे को खोलने से पहले ही डर जाएँ। बीजगणित का पूरा खेल बस इतना है — उस डिब्बे को खोलना और पता लगाना कि अंदर क्या है।</p>
+<div class="recall-box">🧠 अपने शब्दों में बताइए — बीजगणित में x असल में क्या दर्शाता है?</div>
+<h4>चर और अचर — बीजगणित के दो पाये</h4>
+<p>चर (Variable): वह राशि जिसका मान बदल सकता है। अंग्रेज़ी के vary (बदलना) से variable बना है। x, y, z — ये सब चर हैं। कभी x = 2, तो कभी x = 10। मान बदलता रहता है, इसलिए &quot;चर&quot;।</p>
+<p>अचर (Constant): वह राशि जो जस-की-तस रहती है। कभी नहीं बदलती। 5, –7, 3/4 — ये अचर हैं। सूरज हर सुबह उगता है — यह प्रकृति का अचर है।</p>
+<p>परीक्षा का पेंच: परीक्षा में अक्सर पूछा जाता है — &quot;2x + 7 में चर और अचर पहचानिए।&quot;</p>
+<p>उत्तर: x चर है, 7 अचर है।</p>
+<div class="recall-box">🧠 *प्रश्न: 3y – 9 में चर कौन-सा है और अचर कौन-सा?*</div>
+<h4>व्यंजक बनाम समीकरण — एक लकीर का फ़र्क़</h4>
+<p>4x + 9 — यह एक व्यंजक (Expression) है। इसमें कोई &quot;=&quot; नहीं है। यह गणना नहीं, सिर्फ़ एक लिखावट है। जैसे &quot;मेज़ पर रखी किताब&quot; — एक स्थिति बताई गई है, कार्य नहीं।</p>
+<p>4x + 9 = 21 — अब &quot;=&quot; आ गया। यह समीकरण (Equation) बन गया। अब इसे हल किया जा सकता है, क्योंकि एक बराबरी का दावा किया गया है। जैसे &quot;अगर मेज़ पर रखी किताब 21 पन्नों की है&quot; — अब जाँच हो सकती है।</p>
+<p>याद रखने का फ़ॉर्मूला: &quot;जहाँ बराबर का निशान, वहाँ हल का मैदान। बिना निशान के व्यंजन, हल करने का नहीं कारण।&quot;</p>
+<div class="recall-box">🧠 बिना देखे बताइए — क्या 7p – 3 को हल किया जा सकता है? कारण सहित बताइए।</div>
+<h4>रैखिक समीकरण — एक सीधा रास्ता</h4>
+<p>रैखिक समीकरण (Linear Equation) वह है जिसमें चर की घात (power) केवल 1 हो। x¹, y¹ — बस इतनी ही ताक़त। अगर x² या y³ आ गया, तो रास्ता टेढ़ा हो जाएगा (वह द्विघात या त्रिघात बन जाएगा)।</p>
+<p>उदाहरण: 5x + 7 = 22 ✅ (रैखिक है, x की घात 1)</p>
+<p>उदाहरण: 3x² + 4 = 16 ❌ (रैखिक नहीं, x की घात 2)</p>
+<p>SSC और बैंक परीक्षाओं में 80% सवाल रैखिक समीकरणों से ही आते हैं। यह सबसे सरल और सबसे ज़्यादा पूछा जाने वाला प्रकार है।</p>
+<h4>रैखिक समीकरण हल करने की पक्षांतरण विधि</h4>
+<p>यह विधि बचपन की तराज़ू जैसी है। सोचिए, आपके पास एक संतुलित तराज़ू है। बाएँ पलड़े पर 5x + 4 है, दाएँ पर 19। आपको x का भार जानना है।</p>
+<p>सुनहरा नियम: आप तराज़ू के दोनों पलड़ों से बराबर वज़न हटा सकते हैं या जोड़ सकते हैं — संतुलन नहीं बिगड़ेगा। बस यही पक्षांतरण है।</p>
+<h4>उदाहरण: 5x + 4 = 19</h4>
+<h4>चरण 1: दोनों तरफ़ से 4 घटाओ → 5x + 4 – 4 = 19 – 4</h4>
+<h4>चरण 2: 5x = 15</h4>
+<h4>चरण 3: दोनों तरफ़ 5 से भाग दो → x = 3</h4>
+<p>तेज़ तरीक़ा: &quot;+4 को दाईं तरफ़ भेजो तो –4 बन जाएगा, ×5 को भेजो तो ÷5 बन जाएगा।&quot; चिह्न बदलना ही पक्षांतरण का सार है।</p>
+<div class="recall-box">🧠 *अभी हल कीजिए: 3x – 7 = 14। हर चरण ज़ोर से बोलिए।*</div>
+<p>🎭 मजेदार स्मृति-सहायक ट्रिक — &quot;नदी पार करता x&quot;</p>
+<p>कल्पना कीजिए: &quot;=&quot; चिह्न एक जादुई नदी है। जब कोई संख्या इस नदी को पार करती है, तो उसे &quot;पुल टैक्स&quot; के रूप में अपना चिह्न बदलना पड़ता है।</p>
+<p>नदी पार करे तो – बन जाता है।</p>
+<p>– नदी पार करे तो + बन जाता है।</p>
+<p>× नदी पार करे तो ÷ बन जाता है।</p>
+<p>÷ नदी पार करे तो × बन जाता है।</p>
+<p>याद रखने का वाक्य: &quot;जोड़-घटाव पहले भेजो, गुणा-भाग बाद में।&quot; — (BODMAS नहीं, बल्कि पक्षांतरण का उल्टा क्रम।)</p>
+<p>यह चित्र मस्तिष्क में बसा लीजिए। कभी नहीं भूलेंगे।</p>
+<h4>दो चर वाले रैखिक समीकरण — एक साथ दो शिकार</h4>
+<p>जब दो चर हों (x और y) और दो समीकरण दिए हों, तो एक साथ दोनों अज्ञात पकड़े जा सकते हैं। यह ऐसा है जैसे एक ही जाल में दो मछलियाँ फँसानी हों।</p>
+<p>विलोपन विधि (Elimination Method):</p>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">दुकानदार वाला सवाल याद है?</div></div>
+<h4>5 कलम + 3 कॉपी = ₹55 → 5x + 3y = 55</h4>
+<h4>3 कलम + 5 कॉपी = ₹49 → 3x + 5y = 49</h4>
+<p>रणनीति: किसी एक चर के गुणांक बराबर करो, फिर घटाओ।</p>
+<h4>समीकरण (1) को 3 से गुणा करो: 15x + 9y = 165</h4>
+<h4>समीकरण (2) को 5 से गुणा करो: 15x + 25y = 245</h4>
+<h4>घटाने पर: (15x – 15x) + (9y – 25y) = 165 – 245</h4>
+<h4>–16y = –80 → y = 5</h4>
+<p>y = 5 समीकरण (1) में रखो: 5x + 15 = 55 → 5x = 40 → x = 8</p>
+<h4>उत्तर: कलम = ₹8, कॉपी = ₹5</h4>
+<div class="recall-box">🧠 रुकिए! अब तक आपने कितने चरों वाला समीकरण हल किया है? विलोपन विधि का सबसे पहला क़दम क्या था? बिना ऊपर देखे बताइए।</div>
+<h4>बीजीय सर्वसमिकाएँ — गणित के जादुई शॉर्टकट</h4>
+<p>सर्वसमिकाएँ (Identities) वे सूत्र हैं जो चर का कोई भी मान रखने पर सत्य रहते हैं। ये हर बार लंबी गुणा किए बिना सीधा उत्तर देते हैं। परीक्षा में ये 10-15 सेकंड बचाते हैं — और यही अंतर आपको चयनित और अचयनित के बीच का बनाता है।</p>
+<p>चार शक्तिशाली सर्वसमिकाएँ:</p>
+<table class="content-table">
+<tr><td>सर्वसमिका</td><td>सूत्र</td></tr>
+<tr><td>1. (a + b)²</td><td>a² + 2ab + b²</td></tr>
+<tr><td>2. (a – b)²</td><td>a² – 2ab + b²</td></tr>
+<tr><td>3. a² – b²</td><td>(a + b)(a – b)</td></tr>
+<tr><td>4. (x + a)(x + b)</td><td>x² + (a + b)x + ab</td></tr>
+<h4>🎭 &quot;आदमी और बिल्ली&quot; — कभी न भूलने वाली ट्रिक</h4>
+</table>
+<h4>एक आदमी</h4>
+<p>(a) और एक बिल्ली</p>
+<p>(b) साथ रहते हैं।</p>
+<p>(a + b)² की कहानी: जब दोनों साथ हों — पहले आदमी अपना घर बनाता है (a²), फिर बिल्ली अपना (b²), और बीच में दोनों के मिलने की दो जगहें बनती हैं (2ab)।</p>
+<p>(a – b)² की कहानी: जब बिल्ली भाग जाए — आदमी का घर वही (a²), बिल्ली का वही (b²), लेकिन मिलने की जगहें अब उदास हो गईं (–2ab)। नकारात्मकता फैल गई!</p>
+<p>a² – b² की कहानी: &quot;दो वर्गों का अंतर, योग और अंतर का गुणनफल होता है।&quot; — आदमी और बिल्ली अलग-अलग हो गए तो (a+b)(a–b) बन गए।</p>
+<p>इस हास्यास्पद दृश्य को मन में बसा लीजिए — सर्वसमिकाएँ हमेशा याद रहेंगी।</p>
+<div class="recall-box">🧠 अपनी आँखें बंद कीजिए — (a + b)² की कहानी दोहराइए। कितने घर बने? मिलने की जगहें कितनी?</div>
+<p>बंटन नियम (Distributive Law) — गणना का गुप्त अस्त्र</p>
+<h4>a(b + c) = ab + ac</h4>
+<p>यह नियम कहता है कि गुणा को कोष्ठक के अंदर बाँटा जा सकता है। बड़ी-बड़ी गणनाएँ चुटकियों में:</p>
+<h4>102 × 9 = (100 + 2) × 9 = 900 + 18 = 918</h4>
+<h4>98 × 7 = (100 – 2) × 7 = 700 – 14 = 686</h4>
+<p>प्रतियोगी परीक्षाओं में जहाँ कैलकुलेटर नहीं होता, यह नियम आपकी रफ़्तार दुगनी कर देता है।</p>
+<div class="recall-box">🧠 बंटन नियम से हल कीजिए: 103 × 8 और 97 × 6</div>
+<h4>शब्द समस्याएँ — शब्दों से समीकरण तक का अनुवाद</h4>
+<p>परीक्षा का सबसे बड़ा जाल शब्दों में छिपा होता है। सीधे समीकरण कम, शब्द-जाल ज़्यादा पूछे जाते हैं। इसलिए &quot;अनुवाद कौशल&quot; ही आपकी जीत का राज़ है।</p>
+<p>उदाहरण 1: &quot;एक संख्या के दोगुने में 7 जोड़ने पर 25 मिलता है।&quot;</p>
+<p>→ &quot;संख्या&quot; = x, &quot;दोगुना&quot; = 2x, &quot;में 7 जोड़ना&quot; = 2x + 7, &quot;25 मिलता है&quot; = 25</p>
+<h4>→ समीकरण: 2x + 7 = 25</h4>
+<p>उदाहरण 2: &quot;दो संख्याओं का योग 35 है और अंतर 13 है।&quot;</p>
+<h4>→ पहली संख्या = x, दूसरी = y</h4>
+<h4>→ x + y = 35, और x – y = 13</h4>
+<p>प्रमुख अनुवाद शब्दकोश:</p>
+<table class="content-table">
+<tr><td>शब्द</td><td>गणितीय चिह्न</td></tr>
+<tr><td>से अधिक, से बढ़कर</td><td>+</td></tr>
+<tr><td>से कम, घटाकर</td><td>–</td></tr>
+<tr><td>गुना, का गुणनफल</td><td>×</td></tr>
+<tr><td>भाग, का भागफल</td><td>÷</td></tr>
+<tr><td>बराबर, है, मिलता है</td><td>=</td></tr>
+<tr><td>क्रमागत संख्याएँ</td><td>x, x+1, x+2...</td></tr>
+<tr><td>क्रमागत सम/विषम</td><td>x, x+2, x+4...</td></tr>
+</table>
+<div class="recall-box">🧠 अनुवाद कीजिए: &quot;दो क्रमागत सम संख्याओं का योग 42 है।&quot; — समीकरण क्या बनेगा?</div>
+<h4>मुख्य भ्रांतियाँ और सावधानियाँ</h4>
+<table class="content-table">
+<tr><td>भ्रांति</td><td>सच्चाई</td></tr>
+<p>(a + b)² = a² + b²	(a + b)² = a² + 2ab + b²</p>
+<tr><td>–(x – y) = –x – y</td><td>–(x – y) = –x + y</td></tr>
+<tr><td>x⁰ = 0</td><td>x⁰ = 1 (जब x ≠ 0)</td></tr>
+<tr><td>2x और x² समान हैं</td><td>2x = x + x, जबकि x² = x × x</td></tr>
+<div class="emoji-section"><span class="emoji-section__icon">📊</span><strong>सारांश तालिका</strong></div>
+<tr><td>अवधारणा</td><td>मूल सूत्र/नियम</td><td>परीक्षा में पैटर्न</td></tr>
+<tr><td>रैखिक समीकरण</td><td>पक्षांतरण द्वारा चर पृथक करना</td><td>सीधा हल, शब्द समस्या</td></tr>
+<tr><td>दो चर समीकरण</td><td>विलोपन/प्रतिस्थापन</td><td>दो अज्ञात का मान</td></tr>
+<p>(a+b)²	a² + 2ab + b²	विस्तार करना, मान निकालना</p>
+<p>(a–b)²	a² – 2ab + b²	वर्ग निकालना, सरलीकरण</p>
+<tr><td>a² – b²</td><td>(a+b)(a–b)</td><td>गुणनखंड, संख्यात्मक मान</td></tr>
+<p>(x+a)(x+b)	x² + (a+b)x + ab	गुणनफल निकालना</p>
+<tr><td>बंटन नियम</td><td>a(b+c) = ab + ac</td><td>सरलीकरण, तीव्र गणना</td></tr>
+<h4>⏰ 2 दिन बाद दोहराएँ</h4>
+</table>
+<p>इस अध्याय को 2 दिन बाद अवश्य दोहराएँ। केवल 10 मिनट:</p>
+<p>ऊपर दिए सभी 🧠 प्रश्नों के उत्तर बिना देखे देने का प्रयास करें।</p>
+<p>&quot;आदमी और बिल्ली&quot; की कहानी फिर से याद करें — (a+b)², (a–b)², a²–b²।</p>
+<p>बंटन नियम से पाँच मानसिक गणनाएँ करें।</p>
+<p>एक शब्द समस्या स्वयं लिखें और समीकरण बनाएँ।</p>
+<p>याद रखें: बीजगणित जासूसी है, बोझ नहीं। जितने अधिक सुराग पकड़ेंगे, उतना ही आनंद आएगा। दो दिन बाद मिलते हैं — तब तक x को अपना दोस्त बना लीजिए।</p>
+</section>
+<section class="seo-section" id="feynman">
+  <h2>आसान भाषा में</h2>
+<div class="emoji-section"><span class="emoji-section__icon">🧒</span><strong>Feynman (फेनमैन व्याख्या) – हिंदी</strong></div>
+<p>चलो, एक खेल खेलते हैं। तुम्हारे पास एक चौकोर कागज़ है जिसकी हर भुजा <em>a</em> सेंटीमीटर लंबी है। इसका क्षेत्रफल है a × a, यानी a²। अब तुम सोचते हो, &quot;इसे और बड़ा करते हैं!&quot; तुम दोनों तरफ़ <em>b</em> सेंटीमीटर चौड़ी पट्टियाँ जोड़ते हो। अब तुम्हारे पास एक बड़ा वर्ग है जिसकी हर भुजा <em>a+b</em> लंबी है। नए कागज़ का क्षेत्रफल होगा (a+b) × (a+b), जिसे हम लिखते हैं (a+b)²।</p>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">अब यहाँ वह धोखा आता है जो हर किसी को उलझा देता है। बहुत से लोग सोचते हैं: &quot;अरे, ये तो आसान है! पहले a² था, फिर b² जोड़ दिया, तो नया क्षेत्रफल हो गया a² + b²।&quot; ठीक लगता है न? लेकिन यह बिलकुल ग़लत है। और मैं तुम्हें एक छोटी-सी कहानी सुनाकर बताता हूँ कि क्यों।</div></div>
+<p>पतंग की कहानी:</p>
+<p>एक बार की बात है, बगदाद में एक लड़का रहता था। उसका नाम था अली। अली ने एक पतंग बनाई जो <em>a</em> हाथ लंबी और <em>a</em> हाथ चौड़ी थी — एकदम चौकोर। उसका क्षेत्रफल था a²।</p>
+<p>एक दिन अली ने सोचा, &quot;मैं इस पतंग को और बड़ा करूँगा ताकि हवा में सबसे ऊँची उड़े।&quot; उसने दोनों तरफ़ <em>b</em> हाथ चौड़े कागज़ की पट्टियाँ चिपकाईं। अब पतंग की हर भुजा <em>a+b</em> हो गई।</p>
+<p>अली ने सोचा, &quot;नया क्षेत्रफल तो a² + b² होगा।&quot; उसने हिसाब लगाया — मान लो <em>a</em> = 3 हाथ और <em>b</em> = 2 हाथ, तो a² + b² = 9 + 4 = 13 वर्ग हाथ।</p>
+<p>लेकिन जब उसने असली पतंग को नापा, तो क्षेत्रफल निकला <em>(3+2)²</em> = 5² = 25 वर्ग हाथ!</p>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">अली हैरान रह गया। &quot;25 कैसे? मेरा हिसाब तो 13 बता रहा था। 12 वर्ग हाथ ग़ायब कहाँ हो गए?&quot;</div></div>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">वह ग़ायब 12 कहाँ थे?</div></div>
+<p>अली ने अपनी पतंग को ध्यान से देखा। उसने चार हिस्से पहचाने:</p>
+<p>बीच में पुरानी पतंग — a² (3×3 = 9)</p>
+<p>दाएँ-नीचे कोने में छोटा वर्ग — b² (2×2 = 4)</p>
+<p>नीचे एक आयताकार पट्टी — a × b (3×2 = 6)</p>
+<p>दाईं ओर एक और आयताकार पट्टी — b × a (2×3 = 6)</p>
+<p>दो आयताकार पट्टियाँ! इन्हीं का कुल क्षेत्रफल था 6 + 6 = 12। यही 12 वर्ग हाथ थे जो अली के हिसाब से ग़ायब थे।</p>
+<p>तो असली सूत्र है:</p>
+<p>(a + b)² = a² + 2ab + b²</p>
+<p>बीच वाला 2ab वे दो आयताकार पट्टियाँ हैं — एक नीचे, एक दाईं ओर। यही है वह जादुई टुकड़ा जो हर कोई भूल जाता है।</p>
+<p>कभी न भूलने वाली ट्रिक — &quot;पतंग के चार टुकड़े&quot;:</p>
+<p>अपनी कॉपी पर एक बड़ा वर्ग बनाओ। ऊपर से थोड़ा नीचे एक खड़ी रेखा खींचो (यह <em>a</em> का निशान है)। बाईं ओर से थोड़ा दाईं ओर एक आड़ी रेखा खींचो (यह भी <em>a</em> का निशान है)।</p>
+<p>अब तुम्हारे सामने चार टुकड़े हैं:</p>
+<p>ऊपर-बाएँ: बड़ा वर्ग (a²)</p>
+<p>नीचे-दाएँ: छोटा वर्ग (b²)</p>
+<p>ऊपर-दाएँ: आयत (a × b)</p>
+<p>नीचे-बाएँ: आयत (b × a)</p>
+<p>ये दो आयत आपस में जुड़वाँ भाई हैं — इनका क्षेत्रफल बराबर है, और दोनों मिलकर बनते हैं 2ab।</p>
+<p>मंत्र बोलो: &quot;a-वर्ग, b-वर्ग, और दो आयत — ग़ायब 2ab का यही है प्रमाण!&quot;</p>
+<p>जब भी कोई कहे (a+b)² = a² + b², तो तुरंत पतंग के वे दो आयताकार पट्टियाँ याद कर लेना। वही हैं ग़ायब टुकड़े।</p>
+<p>चलो, अब तुम्हारी बारी:</p>
+<p>मान लो, <em>a</em> = 4 और <em>b</em> = 3 है।</p>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">(a+b)² का सही मान क्या होगा?</div></div>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">अगर ग़लती से a² + b² कर दिया, तो कितना कम आएगा?</div></div>
+<div class="card card--recall"><div class="card__icon">🧠</div><div class="card__content">वह कमी किन दो टुकड़ों के कारण हुई? उन टुकड़ों का क्षेत्रफल अलग-अलग बताओ।</div></div>
+<p>(संकेत: चित्र बनाओ, चार टुकड़े गिनो, और ग़ायब 2ab को पकड़ो!)</p>
+</section>
+<section class="seo-section" id="tricks">
+  <h2>शॉर्ट ट्रिक्स</h2>
+<div class="emoji-section"><span class="emoji-section__icon">🪄</span><strong>Short Tricks – हिंदी</strong></div>
+<h3>1. &quot;जमुना पार करो&quot; — पक्षांतरण का मूलमंत्र</h3>
+<p>स्मृति ट्रिक (कीवर्ड + कहानी):</p>
+<p>बराबर (=) का चिह्न एक जादुई नदी है — मान लो यमुना जी। जो भी संख्या इस नदी को पार करेगी, उसे चुंगी (टैक्स) के रूप में अपना चिह्न बदलना होगा।</p>
+<p>&quot;धन जाए तो ऋण बने, ऋण जाए तो धन बने; गुणा जाए तो भाग बने, भाग जाए तो गुणा बने।&quot;</p>
+<p>क्रम याद रखो: पहले जोड़-घटाव वालों को नदी पार कराओ, फिर गुणा-भाग वालों को। यही है &quot;पहले जोड़-घटाव, फिर गुणा-भाग&quot; का नियम।</p>
+<p>2. (a+b)² — &quot;बंदर और भालू का घर&quot;</p>
+<p>स्मृति ट्रिक (लोकस + कहानी):</p>
+<h4>एक बंदर</h4>
+<p>(a) और एक भालू</p>
+<p>(b) साथ में घर बनाते हैं।</p>
+<h4>पहले बंदर अपना कमरा बनाता है: a²</h4>
+<h4>फिर भालू अपना कमरा बनाता है: b²</h4>
+<p>दोनों के मिलने के लिए दो बरामदे बनते हैं — एक बंदर से भालू तक, एक भालू से बंदर तक। ये दोनों बरामदे हैं 2ab।</p>
+<p>पूरा घर = (a+b)² = a² + b² + 2ab।</p>
+<p>बीच के दो बरामदे ही हैं वह 2ab जो सब भूल जाते हैं!</p>
+<p>3. (a–b)² — &quot;जब भालू भाग गया&quot;</p>
+<p>स्मृति ट्रिक (कहानी का जारी रहना):</p>
+<p>एक दिन बंदर और भालू में लड़ाई हो गई। भालू गुस्से में भाग गया।</p>
+<p>बंदर का कमरा (a²) और भालू का कमरा (b²) तो फिर भी हैं, लेकिन...</p>
+<p>बीच के दोनों बरामदे अब उदास और नकारात्मक हो गए: –2ab</p>
+<p>पूरा घर अब = (a–b)² = a² + b² – 2ab।</p>
+<h4>ऋण चिह्न ही बिछड़ने का ग़म है!</h4>
+<p>4. a² – b² — &quot;दो चौकों की सुरंग&quot;</p>
+<p>स्मृति ट्रिक (दृश्य कल्पना):</p>
+<p>दो वर्गाकार बगीचे पास-पास हैं — a² और b²। इनका अंतर कोई मामूली घटाना नहीं, बल्कि एक जादुई सुरंग है जो योग और अंतर को जोड़ती है।</p>
+<p>चित्र बनाओ: एक तरफ़ (a+b) लिखा है, दूसरी तरफ़ (a–b)।</p>
+<p>&quot;दो वर्गों का अंतर = योग × अंतर।&quot;</p>
+<p>सूत्र: a² – b² = (a+b)(a–b) — याद रखो सुरंग वाला चित्र!</p>
+<p>5. (x+a)(x+b) — &quot;सुपरहीरो x और उसके दो दोस्त&quot;</p>
+<p>स्मृति ट्रिक (एक्रोनिम + कहानी):</p>
+<p>x एक सुपरहीरो है। उसे दो दोस्त मिलते हैं — a और b।</p>
+<h4>पहले x अपनी ताकत दिखाता है: x²</h4>
+<p>फिर दोनों दोस्तों की ताकत जोड़कर x के साथ आती है: (a+b)x</p>
+<p>अंत में, दोनों दोस्त आपस में ताकत गुणा करते हैं: ab</p>
+<h4>तो, (x+a)(x+b) = x² + (a+b)x + ab</h4>
+<p>मंत्र: &quot;x-वर्ग, फिर दोस्तों का जोड़ x के साथ, फिर दोस्तों का गुणा।&quot;</p>
+<h3>6. &quot;संतुलन का खेल&quot; — समीकरण हल करने का सुनहरा नियम</h3>
+<p>स्मृति ट्रिक (गतिकीय कल्पना):</p>
+<p>तुम सर्कस के कलाकार हो, एक तंग रस्सी पर संतुलन बनाकर चल रहे हो। रस्सी ही समीकरण है — बायाँ पक्ष = दायाँ पक्ष।</p>
+<p>अगर बाएँ हाथ से कुछ हटाओगे, तो दाएँ से भी हटाना होगा, वरना गिर जाओगे।</p>
+<p>&quot;जो करो एक तरफ़, वही करो दूसरी तरफ़ — संतुलन रखो, नहीं तो चक्कर खाओगे!&quot;</p>
+<p>यह ट्रिक बीजगणित का सबसे बुनियादी और ज़रूरी नियम याद दिलाती है।</p>
+<p>7. विलोपन विधि — &quot;दो मुक्केबाज़ों की लड़ाई&quot;</p>
+<p>स्मृति ट्रिक (लोकस + कहानी):</p>
+<p>दो समीकरण, दो मुक्केबाज़ हैं। तुम्हें एक को रिंग से बाहर करना है।</p>
+<p>पहले दोनों की ताकत (गुणांक) बराबर करो, जैसे दोनों को एक जैसे दस्ताने पहनाओ।</p>
+<p>फिर एक घूँसा मारो — यानी घटाओ! एक चर ढेर हो जाता है, दूसरा अकेला खड़ा रहता है।</p>
+<p>&quot;बराबर करो, फिर घटाओ — एक गिरेगा, दूसरे का सच पाओ!&quot;</p>
+<p>8. (a+b)³ — &quot;बंदर-भालू की तिमंज़िली इमारत&quot;</p>
+<p>स्मृति ट्रिक (कहानी):</p>
+<p>बंदर</p>
+<p>(a) और भालू</p>
+<p>(b) अब एक तिमंज़िली इमारत बनाते हैं।</p>
+<h4>बंदर की मंज़िल: a³</h4>
+<h4>भालू की मंज़िल: b³</h4>
+<p>बंदर के दो और भालू के एक कमरे वाले तीन ब्लॉक: 3a²b</p>
+<p>भालू के दो और बंदर के एक कमरे वाले तीन ब्लॉक: 3ab²</p>
+<p>(a+b)³ = a³ + 3a²b + 3ab² + b³</p>
+<p>गिन लो — पहला, तीन, तीन, आखिरी।</p>
+<p>9. (a–b)³ — &quot;टूटी हुई इमारत&quot;</p>
+<p>स्मृति ट्रिक (कहानी):</p>
+<p>भालू के भाग जाने के बाद इमारत चटक गई। अब चिह्न बदलते हैं: धन, ऋण, धन, ऋण।</p>
+<h4>a³ – 3a²b + 3ab² – b³</h4>
+<p>&quot;पहला धन, फिर तीन ऋण, फिर तीन धन, आखिरी ऋण — जैसे पटाखे की आवाज़!&quot;</p>
+<h3>10. &quot;अदृश्य 1&quot; — चर का छिपा हुआ गुणांक</h3>
+<p>स्मृति ट्रिक (दृश्य कल्पना):</p>
+<p>जब कभी तुम्हें अकेला x, y, या z दिखे, तो समझ लो कि उसके पास एक भूतिया अंक 1 खड़ा है — बस दिखता नहीं!</p>
+<p>&quot;अगर अक्षर अकेला हो, तो 1 उसका साथी गोल-मोल।&quot;</p>
+<p>इसलिए x + x = 2x, लेकिन x × x = x²। वह भूतिया 1 जोड़ और गुणा में मदद करता है।</p>
+<p>11. भिन्न का रद्दीकरण — &quot;जुड़वाँ भाइयों का खेल&quot;</p>
+<p>स्मृति ट्रिक:</p>
+<p>भिन्न (x+2)(x–3)/(x+2) में तुम (x+2) को काट सकते हो, केवल तब जब वह अंश और हर दोनों में पूरा गुणनखंड हो।</p>
+<p>सोचो — ये दो जुड़वाँ भाई हैं। तुम उन्हें तभी बाहर कर सकते हो जब दोनों एक जैसे हों। अगर वे किसी और के साथ जुड़े हुए हैं (जैसे x+2+5), तो नहीं काट सकते।</p>
+<p>&quot;काटो केवल गुणनखंड, कभी नहीं पद — पद तो दूर के रिश्तेदार हैं, गुणनखंड हैं जुड़वाँ।&quot;</p>
+<h3>12. &quot;हल करो, फिर जाँच करो&quot; — आदत जो जान बचाए</h3>
+<p>स्मृति ट्रिक (तुकबंदी):</p>
+<p>&quot;हल किया तो शान से, जाँच करो तुरंत — मूल समीकरण में रखकर देखो, पक्का हो जाएगा सही पल भर में।&quot;</p>
+<p>बहुत-सी ग़लतियाँ अंत में उत्तर को मूल समीकरण में रखकर ही पकड़ी जा सकती हैं। इस आदत को कभी मत छोड़ो।</p>
+<p>13. बंटन नियम — &quot;माँ का प्यार बराबर&quot;</p>
+<p>स्मृति ट्रिक (कहानी):</p>
+<h4>a(b+c) = ab + ac</h4>
+<h4>एक माँ</h4>
+<p>(a) दो बच्चों (b और c) में मिठाई बाँट रही है। वह दोनों को बराबर प्यार करती है, इसलिए हर बच्चे को पूरी मिठाई देती है।</p>
+<p>&quot;माँ का प्यार समान, हर बच्चे को मिले a का वरदान।&quot;</p>
+<p>14. तिर्यक गुणा — &quot;X का जादू&quot;</p>
+<p>स्मृति ट्रिक (दृश्य):</p>
+<h4>जब दो भिन्न बराबर हों — a/b = c/d — तो बस X बनाओ!</h4>
+<p>a को d से और b को c से गुणा करो: ad = bc।</p>
+<p>&quot;X बनाओ, गुणा करो, बराबरी लिखो — हो गया काम!&quot;</p>
+<p>लेकिन सावधान: यह केवल तब जब दो भिन्न बराबर हों। जोड़-घटाव हो तो पहले पक्षांतरण करो, फिर यह तरीका अपनाओ।</p>
+<p>15. मूलों का योग और गुणनफल — &quot;द्विघात की पहचान&quot;</p>
+<p>स्मृति ट्रिक (तुकबंदी):</p>
+<p>जब मूल पता हों और द्विघात समीकरण बनाना हो:</p>
+<p>&quot;जोड़ का ऋण, गुणन जस का तस — यही द्विघात की असली रस।&quot;</p>
+<p>यानी x² – (मूलों का योग)x + (मूलों का गुणनफल) = 0.</p>
+<p>उदाहरण: मूल 3 और 5 हों, तो समीकरण: x² – 8x + 15 = 0.</p>
+</section>
+<section class="seo-section" id="mindmap">
+  <h2>माइंड मैप</h2>
+<div class="mermaid">graph TD
+    R[&quot;🧩 बीजगणित&lt;br&gt;Algebra&quot;]
+    R --&gt; B[&quot;🔤 मूल बातें&quot;]
+    R --&gt; I[&quot;📜 सर्वसमिकाएँ&lt;br&gt;Identities&quot;]
+    R --&gt; E[&quot;⚖️ समीकरण&quot;]
+    R --&gt; P[&quot;📈 बहुपद&lt;br&gt;Polynomials&quot;]
+    B --&gt; B1[&quot;चर x, y —&lt;br&gt;अचर 2, 5, π&quot;]
+    B --&gt; B2[&quot;पद, गुणांक, घात&quot;]
+    I --&gt; I1[&quot;a+b का वर्ग =&lt;br&gt;a² + 2ab + b²&quot;]
+    I --&gt; I2[&quot;a−b का वर्ग =&lt;br&gt;a² − 2ab + b²&quot;]
+    I --&gt; I3[&quot;a² − b² =&lt;br&gt;a+b × a−b&quot;]
+    I --&gt; I4[&quot;a³ + b³ और a³ − b³&lt;br&gt;के सूत्र&quot;]
+    I --&gt; I5[&quot;x + 1/x वाले प्रश्न:&lt;br&gt;वर्ग करके निकालो&quot;]
+    E --&gt; E1[&quot;रैखिक समीकरण:&lt;br&gt;एक चर, घात 1&quot;]
+    E --&gt; E2[&quot;युगपत समीकरण:&lt;br&gt;विलोपन / प्रतिस्थापन&quot;]
+    E --&gt; E3[&quot;द्विघात: ax² + bx + c = 0&lt;br&gt;श्रीधराचार्य सूत्र&quot;]
+    E --&gt; E4[&quot;मूलों का योग = −b/a&lt;br&gt;गुणनफल = c/a&quot;]
+    P --&gt; P1[&quot;शेषफल प्रमेय&quot;]
+    P --&gt; P2[&quot;गुणनखंड प्रमेय:&lt;br&gt;p(a) = 0 तो x−a गुणनखंड&quot;]</div>
+</section>
+<section class="seo-section" id="practice">
+  <h2>अभ्यास प्रश्न</h2>
+<h2 class="mcq-set-title">📝 Set 1</h2>
+<div class="mcq-card" id="card_q1" data-correct="">
+  <div class="mcq-question">1. हल करें: 3x + 7 = 22</div>
+  <div class="mcq-options">
+    <div class="mcq-opt" data-letter="A" data-correct="0" onclick="selectMcqOption(this, 'q1')">
+      <span class="mcq-opt__letter">A</span>
+      <span class="mcq-opt__text">3</span>
+    </div>
+    <div class="mcq-opt" data-letter="B" data-correct="0" onclick="selectMcqOption(this, 'q1')">
+      <span class="mcq-opt__letter">B</span>
+      <span class="mcq-opt__text">5</span>
+    </div>
+    <div class="mcq-opt" data-letter="C" data-correct="0" onclick="selectMcqOption(this, 'q1')">
+      <span class="mcq-opt__letter">C</span>
+      <span class="mcq-opt__text">7</span>
+    </div>
+    <div class="mcq-opt" data-letter="D" data-correct="0" onclick="selectMcqOption(this, 'q1')">
+      <span class="mcq-opt__letter">D</span>
+      <span class="mcq-opt__text">15 (B) 5</span>
+    </div>
+  </div>
+  <details class="mcq-answer" id="ans_q1">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong></strong></div>
+      <div class="mcq-answer__solution">💡 3x = 22 – 7 = 15 ⇒ x = 15/3 = 5.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 8</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q2" data-correct="">
+  <div class="mcq-question">2. a = 2, b = 3 हो, तो (a + b)² का मान क्या होगा?</div>
+  <div class="mcq-options">
+    <div class="mcq-opt" data-letter="A" data-correct="0" onclick="selectMcqOption(this, 'q2')">
+      <span class="mcq-opt__letter">A</span>
+      <span class="mcq-opt__text">13</span>
+    </div>
+    <div class="mcq-opt" data-letter="B" data-correct="0" onclick="selectMcqOption(this, 'q2')">
+      <span class="mcq-opt__letter">B</span>
+      <span class="mcq-opt__text">25</span>
+    </div>
+    <div class="mcq-opt" data-letter="C" data-correct="0" onclick="selectMcqOption(this, 'q2')">
+      <span class="mcq-opt__letter">C</span>
+      <span class="mcq-opt__text">10</span>
+    </div>
+    <div class="mcq-opt" data-letter="D" data-correct="0" onclick="selectMcqOption(this, 'q2')">
+      <span class="mcq-opt__letter">D</span>
+      <span class="mcq-opt__text">36 (B) 25</span>
+    </div>
+  </div>
+  <details class="mcq-answer" id="ans_q2">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong></strong></div>
+      <div class="mcq-answer__solution">💡 (2 + 3)² = 5² = 25.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 8</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q3" data-correct="">
+  <div class="mcq-question">3. निम्नलिखित में से कौन-सा समीकरण है?</div>
+  <div class="mcq-options">
+    <div class="mcq-opt" data-letter="A" data-correct="0" onclick="selectMcqOption(this, 'q3')">
+      <span class="mcq-opt__letter">A</span>
+      <span class="mcq-opt__text">5x + 3</span>
+    </div>
+    <div class="mcq-opt" data-letter="B" data-correct="0" onclick="selectMcqOption(this, 'q3')">
+      <span class="mcq-opt__letter">B</span>
+      <span class="mcq-opt__text">5x + 3 = 18</span>
+    </div>
+    <div class="mcq-opt" data-letter="C" data-correct="0" onclick="selectMcqOption(this, 'q3')">
+      <span class="mcq-opt__letter">C</span>
+      <span class="mcq-opt__text">5x</span>
+    </div>
+    <div class="mcq-opt" data-letter="D" data-correct="0" onclick="selectMcqOption(this, 'q3')">
+      <span class="mcq-opt__letter">D</span>
+      <span class="mcq-opt__text">3x – 7 (B) 5x + 3 = 18</span>
+    </div>
+  </div>
+  <details class="mcq-answer" id="ans_q3">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong></strong></div>
+      <div class="mcq-answer__solution">💡 समीकरण में बराबर ‘=’ का चिह्न होता है।</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 8</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q4" data-correct="">
+  <div class="mcq-question">4. यदि 2y – 5 = 11, तो y = ?</div>
+  <div class="mcq-options">
+    <div class="mcq-opt" data-letter="A" data-correct="0" onclick="selectMcqOption(this, 'q4')">
+      <span class="mcq-opt__letter">A</span>
+      <span class="mcq-opt__text">6</span>
+    </div>
+    <div class="mcq-opt" data-letter="B" data-correct="0" onclick="selectMcqOption(this, 'q4')">
+      <span class="mcq-opt__letter">B</span>
+      <span class="mcq-opt__text">8</span>
+    </div>
+    <div class="mcq-opt" data-letter="C" data-correct="0" onclick="selectMcqOption(this, 'q4')">
+      <span class="mcq-opt__letter">C</span>
+      <span class="mcq-opt__text">16</span>
+    </div>
+    <div class="mcq-opt" data-letter="D" data-correct="0" onclick="selectMcqOption(this, 'q4')">
+      <span class="mcq-opt__letter">D</span>
+      <span class="mcq-opt__text">3 (B) 8</span>
+    </div>
+  </div>
+  <details class="mcq-answer" id="ans_q4">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong></strong></div>
+      <div class="mcq-answer__solution">💡 2y = 11 + 5 = 16 ⇒ y = 8.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 8</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q5" data-correct="">
+  <div class="mcq-question">5. (x + 4)(x + 6) का विस्तार करें।</div>
+  <div class="mcq-options">
+    <div class="mcq-opt" data-letter="A" data-correct="0" onclick="selectMcqOption(this, 'q5')">
+      <span class="mcq-opt__letter">A</span>
+      <span class="mcq-opt__text">x² + 10x + 24</span>
+    </div>
+    <div class="mcq-opt" data-letter="B" data-correct="0" onclick="selectMcqOption(this, 'q5')">
+      <span class="mcq-opt__letter">B</span>
+      <span class="mcq-opt__text">x² + 24x + 10</span>
+    </div>
+    <div class="mcq-opt" data-letter="C" data-correct="0" onclick="selectMcqOption(this, 'q5')">
+      <span class="mcq-opt__letter">C</span>
+      <span class="mcq-opt__text">x² + 10x + 10</span>
+    </div>
+    <div class="mcq-opt" data-letter="D" data-correct="0" onclick="selectMcqOption(this, 'q5')">
+      <span class="mcq-opt__letter">D</span>
+      <span class="mcq-opt__text">x² + 4x + 6 (A) x² + 10x + 24</span>
+    </div>
+  </div>
+  <details class="mcq-answer" id="ans_q5">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong></strong></div>
+      <div class="mcq-answer__solution">💡 (x + a)(x + b) = x² + (a+b)x + ab में a=4, b=6 रखने पर: x² + (4+6)x + 24 = x² + 10x + 24.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 8</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q6" data-correct="">
+  <div class="mcq-question">6. सर्वसमिका की सहायता से मान ज्ञात करें: 105² – 95² = ?</div>
+  <div class="mcq-options">
+    <div class="mcq-opt" data-letter="A" data-correct="0" onclick="selectMcqOption(this, 'q6')">
+      <span class="mcq-opt__letter">A</span>
+      <span class="mcq-opt__text">200</span>
+    </div>
+    <div class="mcq-opt" data-letter="B" data-correct="0" onclick="selectMcqOption(this, 'q6')">
+      <span class="mcq-opt__letter">B</span>
+      <span class="mcq-opt__text">2000</span>
+    </div>
+    <div class="mcq-opt" data-letter="C" data-correct="0" onclick="selectMcqOption(this, 'q6')">
+      <span class="mcq-opt__letter">C</span>
+      <span class="mcq-opt__text">1000</span>
+    </div>
+    <div class="mcq-opt" data-letter="D" data-correct="0" onclick="selectMcqOption(this, 'q6')">
+      <span class="mcq-opt__letter">D</span>
+      <span class="mcq-opt__text">20000 (B) 2000</span>
+    </div>
+  </div>
+  <details class="mcq-answer" id="ans_q6">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong></strong></div>
+      <div class="mcq-answer__solution">💡 a² – b² = (a – b)(a + b) (105 – 95)(105 + 95) = 10 × 200 = 2000.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 8</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q7" data-correct="">
+  <div class="mcq-question">7. यदि x = 3, तो 2x² – 5x + 1 का मान है:</div>
+  <div class="mcq-options">
+    <div class="mcq-opt" data-letter="A" data-correct="0" onclick="selectMcqOption(this, 'q7')">
+      <span class="mcq-opt__letter">A</span>
+      <span class="mcq-opt__text">4</span>
+    </div>
+    <div class="mcq-opt" data-letter="B" data-correct="0" onclick="selectMcqOption(this, 'q7')">
+      <span class="mcq-opt__letter">B</span>
+      <span class="mcq-opt__text">10</span>
+    </div>
+    <div class="mcq-opt" data-letter="C" data-correct="0" onclick="selectMcqOption(this, 'q7')">
+      <span class="mcq-opt__letter">C</span>
+      <span class="mcq-opt__text">18</span>
+    </div>
+    <div class="mcq-opt" data-letter="D" data-correct="0" onclick="selectMcqOption(this, 'q7')">
+      <span class="mcq-opt__letter">D</span>
+      <span class="mcq-opt__text">28 (A) 4</span>
+    </div>
+  </div>
+  <details class="mcq-answer" id="ans_q7">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong></strong></div>
+      <div class="mcq-answer__solution">💡 2(3)² – 5(3) + 1 = 18 – 15 + 1 = 4.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q8" data-correct="">
+  <div class="mcq-question">8. व्यंजक 7x + 3y – 5 में y का गुणांक क्या है?</div>
+  <div class="mcq-options">
+    <div class="mcq-opt" data-letter="A" data-correct="0" onclick="selectMcqOption(this, 'q8')">
+      <span class="mcq-opt__letter">A</span>
+      <span class="mcq-opt__text">7</span>
+    </div>
+    <div class="mcq-opt" data-letter="B" data-correct="0" onclick="selectMcqOption(this, 'q8')">
+      <span class="mcq-opt__letter">B</span>
+      <span class="mcq-opt__text">3</span>
+    </div>
+    <div class="mcq-opt" data-letter="C" data-correct="0" onclick="selectMcqOption(this, 'q8')">
+      <span class="mcq-opt__letter">C</span>
+      <span class="mcq-opt__text">–5</span>
+    </div>
+    <div class="mcq-opt" data-letter="D" data-correct="0" onclick="selectMcqOption(this, 'q8')">
+      <span class="mcq-opt__letter">D</span>
+      <span class="mcq-opt__text">0 (B) 3</span>
+    </div>
+  </div>
+  <details class="mcq-answer" id="ans_q8">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong></strong></div>
+      <div class="mcq-answer__solution">💡 y वाले पद 3y में गुणांक 3 है।</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 8</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q9" data-correct="">
+  <div class="mcq-question">9. “किसी संख्या के तीन गुने में 5 जोड़ने पर 20 प्राप्त होता है।” वह संख्या है:</div>
+  <div class="mcq-options">
+    <div class="mcq-opt" data-letter="A" data-correct="0" onclick="selectMcqOption(this, 'q9')">
+      <span class="mcq-opt__letter">A</span>
+      <span class="mcq-opt__text">5</span>
+    </div>
+    <div class="mcq-opt" data-letter="B" data-correct="0" onclick="selectMcqOption(this, 'q9')">
+      <span class="mcq-opt__letter">B</span>
+      <span class="mcq-opt__text">10</span>
+    </div>
+    <div class="mcq-opt" data-letter="C" data-correct="0" onclick="selectMcqOption(this, 'q9')">
+      <span class="mcq-opt__letter">C</span>
+      <span class="mcq-opt__text">15</span>
+    </div>
+    <div class="mcq-opt" data-letter="D" data-correct="0" onclick="selectMcqOption(this, 'q9')">
+      <span class="mcq-opt__letter">D</span>
+      <span class="mcq-opt__text">6 (A) 5</span>
+    </div>
+  </div>
+  <details class="mcq-answer" id="ans_q9">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong></strong></div>
+      <div class="mcq-answer__solution">💡 माना संख्या = x. 3x + 5 = 20 ⇒ 3x = 15 ⇒ x = 5.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 8</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q10" data-correct="">
+  <div class="mcq-question">10. बंटन नियम द्वारा सरल करें: 99 × 8.</div>
+  <div class="mcq-options">
+    <div class="mcq-opt" data-letter="A" data-correct="0" onclick="selectMcqOption(this, 'q10')">
+      <span class="mcq-opt__letter">A</span>
+      <span class="mcq-opt__text">792</span>
+    </div>
+    <div class="mcq-opt" data-letter="B" data-correct="0" onclick="selectMcqOption(this, 'q10')">
+      <span class="mcq-opt__letter">B</span>
+      <span class="mcq-opt__text">782</span>
+    </div>
+    <div class="mcq-opt" data-letter="C" data-correct="0" onclick="selectMcqOption(this, 'q10')">
+      <span class="mcq-opt__letter">C</span>
+      <span class="mcq-opt__text">802</span>
+    </div>
+    <div class="mcq-opt" data-letter="D" data-correct="0" onclick="selectMcqOption(this, 'q10')">
+      <span class="mcq-opt__letter">D</span>
+      <span class="mcq-opt__text">812 (A) 792</span>
+    </div>
+  </div>
+  <details class="mcq-answer" id="ans_q10">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong></strong></div>
+      <div class="mcq-answer__solution">💡 99 × 8 = (100 – 1) × 8 = 800 – 8 = 792.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 8</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q11" data-correct="">
+  <div class="mcq-question">11. हल करें: (x/4) – 3 = 2</div>
+  <div class="mcq-options">
+    <div class="mcq-opt" data-letter="A" data-correct="0" onclick="selectMcqOption(this, 'q11')">
+      <span class="mcq-opt__letter">A</span>
+      <span class="mcq-opt__text">20</span>
+    </div>
+    <div class="mcq-opt" data-letter="B" data-correct="0" onclick="selectMcqOption(this, 'q11')">
+      <span class="mcq-opt__letter">B</span>
+      <span class="mcq-opt__text">5</span>
+    </div>
+    <div class="mcq-opt" data-letter="C" data-correct="0" onclick="selectMcqOption(this, 'q11')">
+      <span class="mcq-opt__letter">C</span>
+      <span class="mcq-opt__text">10</span>
+    </div>
+    <div class="mcq-opt" data-letter="D" data-correct="0" onclick="selectMcqOption(this, 'q11')">
+      <span class="mcq-opt__letter">D</span>
+      <span class="mcq-opt__text">8 (A) 20</span>
+    </div>
+  </div>
+  <details class="mcq-answer" id="ans_q11">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong></strong></div>
+      <div class="mcq-answer__solution">💡 x/4 = 2 + 3 = 5 ⇒ x = 20.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 8</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q12" data-correct="">
+  <div class="mcq-question">12. दो क्रमागत संख्याओं का योग 25 है। छोटी संख्या है:</div>
+  <div class="mcq-options">
+    <div class="mcq-opt" data-letter="A" data-correct="0" onclick="selectMcqOption(this, 'q12')">
+      <span class="mcq-opt__letter">A</span>
+      <span class="mcq-opt__text">12</span>
+    </div>
+    <div class="mcq-opt" data-letter="B" data-correct="0" onclick="selectMcqOption(this, 'q12')">
+      <span class="mcq-opt__letter">B</span>
+      <span class="mcq-opt__text">13</span>
+    </div>
+    <div class="mcq-opt" data-letter="C" data-correct="0" onclick="selectMcqOption(this, 'q12')">
+      <span class="mcq-opt__letter">C</span>
+      <span class="mcq-opt__text">11</span>
+    </div>
+    <div class="mcq-opt" data-letter="D" data-correct="0" onclick="selectMcqOption(this, 'q12')">
+      <span class="mcq-opt__letter">D</span>
+      <span class="mcq-opt__text">10 (A) 12</span>
+    </div>
+  </div>
+  <details class="mcq-answer" id="ans_q12">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong></strong></div>
+      <div class="mcq-answer__solution">💡 माना संख्याएँ x, x+1. x + (x+1) = 25 ⇒ 2x + 1 = 25 ⇒ x = 12.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 8</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q13" data-correct="">
+  <div class="mcq-question">13. यदि a = 5, b = –3, तो a² – b² का मान ज्ञात करें।</div>
+  <div class="mcq-options">
+    <div class="mcq-opt" data-letter="A" data-correct="0" onclick="selectMcqOption(this, 'q13')">
+      <span class="mcq-opt__letter">A</span>
+      <span class="mcq-opt__text">16</span>
+    </div>
+    <div class="mcq-opt" data-letter="B" data-correct="0" onclick="selectMcqOption(this, 'q13')">
+      <span class="mcq-opt__letter">B</span>
+      <span class="mcq-opt__text">34</span>
+    </div>
+    <div class="mcq-opt" data-letter="C" data-correct="0" onclick="selectMcqOption(this, 'q13')">
+      <span class="mcq-opt__letter">C</span>
+      <span class="mcq-opt__text">22</span>
+    </div>
+    <div class="mcq-opt" data-letter="D" data-correct="0" onclick="selectMcqOption(this, 'q13')">
+      <span class="mcq-opt__letter">D</span>
+      <span class="mcq-opt__text">4 (A) 16</span>
+    </div>
+  </div>
+  <details class="mcq-answer" id="ans_q13">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong></strong></div>
+      <div class="mcq-answer__solution">💡 a² – b² = 25 – 9 = 16.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 8</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q14" data-correct="">
+  <div class="mcq-question">14. निम्नलिखित में से कौन-सा एक चर वाला रैखिक समीकरण है?</div>
+  <div class="mcq-options">
+    <div class="mcq-opt" data-letter="A" data-correct="0" onclick="selectMcqOption(this, 'q14')">
+      <span class="mcq-opt__letter">A</span>
+      <span class="mcq-opt__text">x² + 1 = 0</span>
+    </div>
+    <div class="mcq-opt" data-letter="B" data-correct="0" onclick="selectMcqOption(this, 'q14')">
+      <span class="mcq-opt__letter">B</span>
+      <span class="mcq-opt__text">2x + 3y = 7</span>
+    </div>
+    <div class="mcq-opt" data-letter="C" data-correct="0" onclick="selectMcqOption(this, 'q14')">
+      <span class="mcq-opt__letter">C</span>
+      <span class="mcq-opt__text">3x – 5 = 0</span>
+    </div>
+    <div class="mcq-opt" data-letter="D" data-correct="0" onclick="selectMcqOption(this, 'q14')">
+      <span class="mcq-opt__letter">D</span>
+      <span class="mcq-opt__text">x + y + z = 0 (C) 3x – 5 = 0</span>
+    </div>
+  </div>
+  <details class="mcq-answer" id="ans_q14">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong></strong></div>
+      <div class="mcq-answer__solution">💡 इसमें केवल एक चर x है जिसकी घात 1 है।</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 8</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q15" data-correct="">
+  <div class="mcq-question">15. y के लिए हल करें: 5y + 9 = 34</div>
+  <div class="mcq-options">
+    <div class="mcq-opt" data-letter="A" data-correct="0" onclick="selectMcqOption(this, 'q15')">
+      <span class="mcq-opt__letter">A</span>
+      <span class="mcq-opt__text">5</span>
+    </div>
+    <div class="mcq-opt" data-letter="B" data-correct="0" onclick="selectMcqOption(this, 'q15')">
+      <span class="mcq-opt__letter">B</span>
+      <span class="mcq-opt__text">7</span>
+    </div>
+    <div class="mcq-opt" data-letter="C" data-correct="0" onclick="selectMcqOption(this, 'q15')">
+      <span class="mcq-opt__letter">C</span>
+      <span class="mcq-opt__text">9</span>
+    </div>
+    <div class="mcq-opt" data-letter="D" data-correct="0" onclick="selectMcqOption(this, 'q15')">
+      <span class="mcq-opt__letter">D</span>
+      <span class="mcq-opt__text">25 (A) 5</span>
+    </div>
+  </div>
+  <details class="mcq-answer" id="ans_q15">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong></strong></div>
+      <div class="mcq-answer__solution">💡 5y = 34 – 9 = 25 ⇒ y = 5.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 8</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q16" data-correct="">
+  <div class="mcq-question">16. (a – 4)² का विस्तार करें।</div>
+  <div class="mcq-options">
+    <div class="mcq-opt" data-letter="A" data-correct="0" onclick="selectMcqOption(this, 'q16')">
+      <span class="mcq-opt__letter">A</span>
+      <span class="mcq-opt__text">a² – 8a + 16</span>
+    </div>
+    <div class="mcq-opt" data-letter="B" data-correct="0" onclick="selectMcqOption(this, 'q16')">
+      <span class="mcq-opt__letter">B</span>
+      <span class="mcq-opt__text">a² + 8a + 16</span>
+    </div>
+    <div class="mcq-opt" data-letter="C" data-correct="0" onclick="selectMcqOption(this, 'q16')">
+      <span class="mcq-opt__letter">C</span>
+      <span class="mcq-opt__text">a² – 4a + 16</span>
+    </div>
+    <div class="mcq-opt" data-letter="D" data-correct="0" onclick="selectMcqOption(this, 'q16')">
+      <span class="mcq-opt__letter">D</span>
+      <span class="mcq-opt__text">a² – 16 (A) a² – 8a + 16</span>
+    </div>
+  </div>
+  <details class="mcq-answer" id="ans_q16">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong></strong></div>
+      <div class="mcq-answer__solution">💡 (a – b)² = a² – 2ab + b² में b=4 रखने पर: a² – 2·a·4 + 16 = a² – 8a + 16.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 8</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q17" data-correct="">
+  <div class="mcq-question">17. यदि a = 10 और b = 6, तो (a + b)(a – b) का मान क्या होगा?</div>
+  <div class="mcq-options">
+    <div class="mcq-opt" data-letter="A" data-correct="0" onclick="selectMcqOption(this, 'q17')">
+      <span class="mcq-opt__letter">A</span>
+      <span class="mcq-opt__text">64</span>
+    </div>
+    <div class="mcq-opt" data-letter="B" data-correct="0" onclick="selectMcqOption(this, 'q17')">
+      <span class="mcq-opt__letter">B</span>
+      <span class="mcq-opt__text">160</span>
+    </div>
+    <div class="mcq-opt" data-letter="C" data-correct="0" onclick="selectMcqOption(this, 'q17')">
+      <span class="mcq-opt__letter">C</span>
+      <span class="mcq-opt__text">16</span>
+    </div>
+    <div class="mcq-opt" data-letter="D" data-correct="0" onclick="selectMcqOption(this, 'q17')">
+      <span class="mcq-opt__letter">D</span>
+      <span class="mcq-opt__text">4 (A) 64</span>
+    </div>
+  </div>
+  <details class="mcq-answer" id="ans_q17">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong></strong></div>
+      <div class="mcq-answer__solution">💡 (10 + 6)(10 – 6) = 16 × 4 = 64.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 8</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q18" data-correct="">
+  <div class="mcq-question">18. यदि 2(x + 3) = 18, तो x का मान ज्ञात करें।</div>
+  <div class="mcq-options">
+    <div class="mcq-opt" data-letter="A" data-correct="0" onclick="selectMcqOption(this, 'q18')">
+      <span class="mcq-opt__letter">A</span>
+      <span class="mcq-opt__text">6</span>
+    </div>
+    <div class="mcq-opt" data-letter="B" data-correct="0" onclick="selectMcqOption(this, 'q18')">
+      <span class="mcq-opt__letter">B</span>
+      <span class="mcq-opt__text">12</span>
+    </div>
+    <div class="mcq-opt" data-letter="C" data-correct="0" onclick="selectMcqOption(this, 'q18')">
+      <span class="mcq-opt__letter">C</span>
+      <span class="mcq-opt__text">3</span>
+    </div>
+    <div class="mcq-opt" data-letter="D" data-correct="0" onclick="selectMcqOption(this, 'q18')">
+      <span class="mcq-opt__letter">D</span>
+      <span class="mcq-opt__text">9 (A) 6</span>
+    </div>
+  </div>
+  <details class="mcq-answer" id="ans_q18">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong></strong></div>
+      <div class="mcq-answer__solution">💡 2x + 6 = 18 ⇒ 2x = 12 ⇒ x = 6.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 8</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q19" data-correct="">
+  <div class="mcq-question">19. 49x² – 36 का गुणनखंड करने के लिए किस सर्वसमिका का प्रयोग होगा?</div>
+  <div class="mcq-options">
+    <div class="mcq-opt" data-letter="A" data-correct="0" onclick="selectMcqOption(this, 'q19')">
+      <span class="mcq-opt__letter">A</span>
+      <span class="mcq-opt__text">(a + b)²</span>
+    </div>
+    <div class="mcq-opt" data-letter="B" data-correct="0" onclick="selectMcqOption(this, 'q19')">
+      <span class="mcq-opt__letter">B</span>
+      <span class="mcq-opt__text">a² – b²</span>
+    </div>
+    <div class="mcq-opt" data-letter="C" data-correct="0" onclick="selectMcqOption(this, 'q19')">
+      <span class="mcq-opt__letter">C</span>
+      <span class="mcq-opt__text">(a – b)²</span>
+    </div>
+    <div class="mcq-opt" data-letter="D" data-correct="0" onclick="selectMcqOption(this, 'q19')">
+      <span class="mcq-opt__letter">D</span>
+      <span class="mcq-opt__text">(x + a)(x + b) (B) a² – b²</span>
+    </div>
+  </div>
+  <details class="mcq-answer" id="ans_q19">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong></strong></div>
+      <div class="mcq-answer__solution">💡 49x² – 36 = (7x)² – 6² = (7x – 6)(7x + 6).</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 8</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q20" data-correct="">
+  <div class="mcq-question">20. जब x = 1, y = 2 हो, तो 2x + 3y का मान ज्ञात करें।</div>
+  <div class="mcq-options">
+    <div class="mcq-opt" data-letter="A" data-correct="0" onclick="selectMcqOption(this, 'q20')">
+      <span class="mcq-opt__letter">A</span>
+      <span class="mcq-opt__text">5</span>
+    </div>
+    <div class="mcq-opt" data-letter="B" data-correct="0" onclick="selectMcqOption(this, 'q20')">
+      <span class="mcq-opt__letter">B</span>
+      <span class="mcq-opt__text">8</span>
+    </div>
+    <div class="mcq-opt" data-letter="C" data-correct="0" onclick="selectMcqOption(this, 'q20')">
+      <span class="mcq-opt__letter">C</span>
+      <span class="mcq-opt__text">7</span>
+    </div>
+    <div class="mcq-opt" data-letter="D" data-correct="0" onclick="selectMcqOption(this, 'q20')">
+      <span class="mcq-opt__letter">D</span>
+      <span class="mcq-opt__text">10 (B) 8</span>
+    </div>
+  </div>
+  <details class="mcq-answer" id="ans_q20">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong></strong></div>
+      <div class="mcq-answer__solution">💡 2(1) + 3(2) = 2 + 6 = 8.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q21" data-correct="">
+  <div class="mcq-question">21. यदि 5x + 3y = 55 और 3x + 5y = 49, तो x + y = ?</div>
+  <div class="mcq-options">
+    <div class="mcq-opt" data-letter="A" data-correct="0" onclick="selectMcqOption(this, 'q21')">
+      <span class="mcq-opt__letter">A</span>
+      <span class="mcq-opt__text">13</span>
+    </div>
+    <div class="mcq-opt" data-letter="B" data-correct="0" onclick="selectMcqOption(this, 'q21')">
+      <span class="mcq-opt__letter">B</span>
+      <span class="mcq-opt__text">10</span>
+    </div>
+    <div class="mcq-opt" data-letter="C" data-correct="0" onclick="selectMcqOption(this, 'q21')">
+      <span class="mcq-opt__letter">C</span>
+      <span class="mcq-opt__text">12</span>
+    </div>
+    <div class="mcq-opt" data-letter="D" data-correct="0" onclick="selectMcqOption(this, 'q21')">
+      <span class="mcq-opt__letter">D</span>
+      <span class="mcq-opt__text">8 (A) 13</span>
+    </div>
+  </div>
+  <details class="mcq-answer" id="ans_q21">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong></strong></div>
+      <div class="mcq-answer__solution">💡 दोनों समीकरणों को जोड़ने पर: (5x+3y) + (3x+5y) = 55 + 49 → 8x + 8y = 104 → 8(x + y) = 104 → x + y = 13.</div>
+      <div class="mcq-answer__source">📚 SSC CHSL 2012 (रूपांतरित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q22" data-correct="">
+  <div class="mcq-question">22. यदि a + b = 7 और a – b = 3, तो a² + b² का मान होगा:</div>
+  <div class="mcq-options">
+    <div class="mcq-opt" data-letter="A" data-correct="0" onclick="selectMcqOption(this, 'q22')">
+      <span class="mcq-opt__letter">A</span>
+      <span class="mcq-opt__text">29</span>
+    </div>
+    <div class="mcq-opt" data-letter="B" data-correct="0" onclick="selectMcqOption(this, 'q22')">
+      <span class="mcq-opt__letter">B</span>
+      <span class="mcq-opt__text">20</span>
+    </div>
+    <div class="mcq-opt" data-letter="C" data-correct="0" onclick="selectMcqOption(this, 'q22')">
+      <span class="mcq-opt__letter">C</span>
+      <span class="mcq-opt__text">40</span>
+    </div>
+    <div class="mcq-opt" data-letter="D" data-correct="0" onclick="selectMcqOption(this, 'q22')">
+      <span class="mcq-opt__letter">D</span>
+      <span class="mcq-opt__text">58 (A) 29</span>
+    </div>
+  </div>
+  <details class="mcq-answer" id="ans_q22">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong></strong></div>
+      <div class="mcq-answer__solution">💡 a = (7+3)/2 = 5, b = (7-3)/2 = 2 ⇒ a² + b² = 25 + 4 = 29. वैकल्पिक: (a+b)² + (a–b)² = 2(a²+b²) → 49+9 = 58 = 2(a²+b²) → a²+b² = 29.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q23" data-correct="">
+  <div class="mcq-question">23. यदि x = √3 + √2, तो x + 1/x का मान ज्ञात करें।</div>
+  <div class="mcq-options">
+    <div class="mcq-opt" data-letter="A" data-correct="0" onclick="selectMcqOption(this, 'q23')">
+      <span class="mcq-opt__letter">A</span>
+      <span class="mcq-opt__text">2√3</span>
+    </div>
+    <div class="mcq-opt" data-letter="B" data-correct="0" onclick="selectMcqOption(this, 'q23')">
+      <span class="mcq-opt__letter">B</span>
+      <span class="mcq-opt__text">2√2</span>
+    </div>
+    <div class="mcq-opt" data-letter="C" data-correct="0" onclick="selectMcqOption(this, 'q23')">
+      <span class="mcq-opt__letter">C</span>
+      <span class="mcq-opt__text">2</span>
+    </div>
+    <div class="mcq-opt" data-letter="D" data-correct="0" onclick="selectMcqOption(this, 'q23')">
+      <span class="mcq-opt__letter">D</span>
+      <span class="mcq-opt__text">√3 – √2 (A) 2√3</span>
+    </div>
+  </div>
+  <details class="mcq-answer" id="ans_q23">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong></strong></div>
+      <div class="mcq-answer__solution">💡 1/x = 1/(√3+√2) = (√3–√2)/( (√3)²–(√2)² ) = √3 – √2. x + 1/x = (√3+√2) + (√3–√2) = 2√3.</div>
+      <div class="mcq-answer__source">📚 SSC CGL 2012 (रूपांतरित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q24" data-correct="">
+  <div class="mcq-question">24. एक भिन्न का हर अंश के दोगुने से 1 अधिक है। यदि अंश और हर का योग 16 है, तो भिन्न ज्ञात करें।</div>
+  <div class="mcq-options">
+    <div class="mcq-opt" data-letter="A" data-correct="0" onclick="selectMcqOption(this, 'q24')">
+      <span class="mcq-opt__letter">A</span>
+      <span class="mcq-opt__text">5/11</span>
+    </div>
+    <div class="mcq-opt" data-letter="B" data-correct="0" onclick="selectMcqOption(this, 'q24')">
+      <span class="mcq-opt__letter">B</span>
+      <span class="mcq-opt__text">5/6</span>
+    </div>
+    <div class="mcq-opt" data-letter="C" data-correct="0" onclick="selectMcqOption(this, 'q24')">
+      <span class="mcq-opt__letter">C</span>
+      <span class="mcq-opt__text">6/7</span>
+    </div>
+    <div class="mcq-opt" data-letter="D" data-correct="0" onclick="selectMcqOption(this, 'q24')">
+      <span class="mcq-opt__letter">D</span>
+      <span class="mcq-opt__text">7/15 (A) 5/11</span>
+    </div>
+  </div>
+  <details class="mcq-answer" id="ans_q24">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong></strong></div>
+      <div class="mcq-answer__solution">💡 माना अंश = x, हर = 2x + 1. x + (2x+1) = 16 → 3x + 1 = 16 → 3x = 15 → x = 5. हर = 11. भिन्न = 5/11.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 8 (रूपांतरित)</div>
+    </div>
+  </details>
+</div>
+
+<h2 class="mcq-set-title">📝 Set 2</h2>
+<div class="mcq-card" id="card_q25" data-correct="">
+  <div class="mcq-question">25. यदि a + b + c = 0, तो a³ + b³ + c³ बराबर है:</div>
+  <div class="mcq-options">
+    <div class="mcq-opt" data-letter="A" data-correct="0" onclick="selectMcqOption(this, 'q25')">
+      <span class="mcq-opt__letter">A</span>
+      <span class="mcq-opt__text">0</span>
+    </div>
+    <div class="mcq-opt" data-letter="B" data-correct="0" onclick="selectMcqOption(this, 'q25')">
+      <span class="mcq-opt__letter">B</span>
+      <span class="mcq-opt__text">3abc</span>
+    </div>
+    <div class="mcq-opt" data-letter="C" data-correct="0" onclick="selectMcqOption(this, 'q25')">
+      <span class="mcq-opt__letter">C</span>
+      <span class="mcq-opt__text">abc</span>
+    </div>
+    <div class="mcq-opt" data-letter="D" data-correct="0" onclick="selectMcqOption(this, 'q25')">
+      <span class="mcq-opt__letter">D</span>
+      <span class="mcq-opt__text">1 (B) 3abc</span>
+    </div>
+  </div>
+  <details class="mcq-answer" id="ans_q25">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong></strong></div>
+      <div class="mcq-answer__solution">💡 सर्वसमिका: यदि a + b + c = 0, तो a³ + b³ + c³ = 3abc.</div>
+      <div class="mcq-answer__source">📚 NCERT कक्षा 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q26" data-correct="">
+  <div class="mcq-question">प्रश्न 26. यदि x + 1/x = 6 है, तो x² + 1/x² का मान क्या होगा? (क) 34 (ख) 36 (ग) 38 (घ) 32 सही</div>
+  <details class="mcq-answer" id="ans_q26">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 34</strong></div>
+      <div class="mcq-answer__solution">💡 (x + 1/x)² = x² + 1/x² + 2 ⇒ 6² = x² + 1/x² + 2 ⇒ 36 = x² + 1/x² + 2 ⇒ x² + 1/x² = 34.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q27" data-correct="">
+  <div class="mcq-question">प्रश्न 27. यदि a + b = 8 और ab = 15 है, तो a² + b² का मान ज्ञात कीजिए। (क) 34 (ख) 49 (ग) 64 (घ) 44 सही</div>
+  <details class="mcq-answer" id="ans_q27">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 34</strong></div>
+      <div class="mcq-answer__solution">💡 (a + b)² = a² + b² + 2ab ⇒ 8² = a² + b² + 2 × 15 ⇒ 64 = a² + b² + 30 ⇒ a² + b² = 34.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q28" data-correct="">
+  <div class="mcq-question">प्रश्न 28. समीकरण 2x + 3y = 13 और 5x – 4y = –2 को हल करने पर x का मान है: (क) 2 (ख) 3 (ग) 1 (घ) 4 सही</div>
+  <details class="mcq-answer" id="ans_q28">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 2</strong></div>
+      <div class="mcq-answer__solution">💡 पहले समीकरण को 4 से तथा दूसरे को 3 से गुणा करने पर: 8x + 12y = 52, 15x – 12y = –6. जोड़ने पर 23x = 46 ⇒ x = 2.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q29" data-correct="">
+  <div class="mcq-question">प्रश्न 29. समीकरण (x + 3)/2 + (x – 1)/3 = 7 को हल कीजिए। (क) 4 (ख) 5 (ग) 7 (घ) 6 सही</div>
+  <details class="mcq-answer" id="ans_q29">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(ग) 7</strong></div>
+      <div class="mcq-answer__solution">💡 दोनों पक्षों को 6 से गुणा करें: 3(x+3) + 2(x–1) = 42 ⇒ 3x + 9 + 2x – 2 = 42 ⇒ 5x + 7 = 42 ⇒ 5x = 35 ⇒ x = 7.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 8 (रूपांतरित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q30" data-correct="">
+  <div class="mcq-question">प्रश्न 30. दो अंकों की एक संख्या के अंकों का योग 9 है। यदि संख्या में 27 जोड़ दिया जाए तो अंक पलट जाते हैं। संख्या क्या है? (क) 36 (ख) 63 (ग) 45 (घ) 54 सही</div>
+  <details class="mcq-answer" id="ans_q30">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 36</strong></div>
+      <div class="mcq-answer__solution">💡 माना संख्या = 10x + y, x + y = 9. (10x + y) + 27 = 10y + x ⇒ 9x – 9y = –27 ⇒ x – y = –3. x + y = 9, x – y = –3 को जोड़ने पर 2x = 6 ⇒ x = 3, y = 6. संख्या = 36.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q31" data-correct="">
+  <div class="mcq-question">प्रश्न 31. यदि (a – b) = 4 और ab = 45 है, तो a² + b² का मान ज्ञात कीजिए। (क) 106 (ख) 61 (ग) 41 (घ) 56 सही</div>
+  <details class="mcq-answer" id="ans_q31">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 106</strong></div>
+      <div class="mcq-answer__solution">💡 (a – b)² = a² + b² – 2ab ⇒ 16 = a² + b² – 90 ⇒ a² + b² = 106.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q32" data-correct="">
+  <div class="mcq-question">प्रश्न 32. यदि x = √5 + 2 है, तो x – 1/x का मान है: (क) 4 (ख) 2√5 (ग) √5 (घ) 2 सही</div>
+  <details class="mcq-answer" id="ans_q32">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 4</strong></div>
+      <div class="mcq-answer__solution">💡 1/x = 1/(√5+2) = (√5–2)/(5–4) = √5 – 2. इसलिए x – 1/x = (√5+2) – (√5–2) = 4.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q33" data-correct="">
+  <div class="mcq-question">प्रश्न 33. यदि 3x – 4y = 10 तथा xy = –2 है, तो 9x² + 16y² का मान ज्ञात करें। (क) 52 (ख) 68 (ग) 98 (घ) 100 सही</div>
+  <details class="mcq-answer" id="ans_q33">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 52</strong></div>
+      <div class="mcq-answer__solution">💡 (3x – 4y)² = 9x² + 16y² – 24xy ⇒ 100 = 9x² + 16y² – 24(–2) = 9x² + 16y² + 48 ⇒ 9x² + 16y² = 100 – 48 = 52.</div>
+      <div class="mcq-answer__source">📚 SSC CGL (रूपांतरित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q34" data-correct="">
+  <div class="mcq-question">प्रश्न 34. एक भिन्न के अंश और हर का योग 12 है। यदि हर में 3 जोड़ दिया जाए, तो भिन्न ½ हो जाती है। भिन्न क्या है? (क) 5/7 (ख) 7/5 (ग) 3/9 (घ) 4/8 सही</div>
+  <details class="mcq-answer" id="ans_q34">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 5/7</strong></div>
+      <div class="mcq-answer__solution">💡 माना भिन्न = x/y. x + y = 12; x/(y+3) = 1/2 ⇒ 2x = y + 3. पहले से y = 12 – x, अतः 2x = 12 – x + 3 ⇒ 3x = 15 ⇒ x = 5, y = 7. भिन्न = 5/7.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q35" data-correct="">
+  <div class="mcq-question">प्रश्न 35. यदि (3x + 2y) : (3x – 2y) = 5 : 2 हो, तो x : y किसके बराबर है? (क) 7 : 6 (ख) 6 : 7 (ग) 14 : 9 (घ) 9 : 14 सही</div>
+  <details class="mcq-answer" id="ans_q35">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(ग) 14 : 9</strong></div>
+      <div class="mcq-answer__solution">💡 2(3x+2y) = 5(3x–2y) ⇒ 6x+4y = 15x–10y ⇒ 14y = 9x ⇒ x/y = 14/9.</div>
+      <div class="mcq-answer__source">📚 SSC CHSL (रूपांतरित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q36" data-correct="">
+  <div class="mcq-question">प्रश्न 36. यदि x² + y² = 29 तथा xy = 10 हो, तो x + y का मान क्या होगा? (क) ±7 (ख) 7 (ग) ±5 (घ) 5 सही</div>
+  <details class="mcq-answer" id="ans_q36">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) ±7</strong></div>
+      <div class="mcq-answer__solution">💡 (x + y)² = x² + y² + 2xy = 29 + 20 = 49 ⇒ x + y = ±7.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q37" data-correct="">
+  <div class="mcq-question">प्रश्न 37. यदि a/3 = b/4 = c/7 हो, तो (a + b + c)/c का मान क्या होगा? (क) 2 (ख) 7/2 (ग) 3 (घ) 14 सही</div>
+  <details class="mcq-answer" id="ans_q37">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 2</strong></div>
+      <div class="mcq-answer__solution">💡 मान लीजिए a = 3k, b = 4k, c = 7k. तब (a + b + c)/c = (14k)/(7k) = 2.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q38" data-correct="">
+  <div class="mcq-question">प्रश्न 38. हल कीजिए: (x + 1)/(x – 1) = 5/3. (क) 4 (ख) 2 (ग) 3 (घ) 5 सही</div>
+  <details class="mcq-answer" id="ans_q38">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 4</strong></div>
+      <div class="mcq-answer__solution">💡 तिर्यक गुणा से 3(x + 1) = 5(x – 1) ⇒ 3x + 3 = 5x – 5 ⇒ 8 = 2x ⇒ x = 4.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 8</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q39" data-correct="">
+  <div class="mcq-question">प्रश्न 39. समीकरणों x + 2y = 8 और 2x + y = 7 का हल है: (क) x = 2, y = 3 (ख) x = 3, y = 2 (ग) x = 1, y = 3.5 (घ) x = 4, y = 2 सही</div>
+  <details class="mcq-answer" id="ans_q39">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) x = 2, y = 3</strong></div>
+      <div class="mcq-answer__solution">💡 पहले को 2 से गुणा करें: 2x + 4y = 16 में से दूसरी समीकरण घटाएँ: (2x+4y) – (2x+y) = 16 – 7 ⇒ 3y = 9 ⇒ y = 3, तब x = 8 – 6 = 2.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q40" data-correct="">
+  <div class="mcq-question">प्रश्न 40. एक व्यक्ति अपने पुत्र से 5 गुना बड़ा है। 10 वर्ष बाद वह पुत्र से 3 गुना बड़ा होगा। पुत्र की वर्तमान आयु कितनी है? (क) 5 वर्ष (ख) 10 वर्ष (ग) 15 वर्ष (घ) 20 वर्ष सही</div>
+  <details class="mcq-answer" id="ans_q40">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(ख) 10 वर्ष</strong></div>
+      <div class="mcq-answer__solution">💡 माना पुत्र की वर्तमान आयु x वर्ष, तो पिता की आयु = 5x. 10 वर्ष बाद: 5x + 10 = 3(x + 10) ⇒ 5x + 10 = 3x + 30 ⇒ 2x = 20 ⇒ x = 10.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q41" data-correct="">
+  <div class="mcq-question">प्रश्न 41. यदि a + b + c = 9 और ab + bc + ca = 26 है, तो a² + b² + c² का मान ज्ञात करें। (क) 29 (ख) 35 (ग) 23 (घ) 40 सही</div>
+  <details class="mcq-answer" id="ans_q41">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 29</strong></div>
+      <div class="mcq-answer__solution">💡 (a + b + c)² = a² + b² + c² + 2(ab+bc+ca) ⇒ 81 = a²+b²+c² + 52 ⇒ a²+b²+c² = 29.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q42" data-correct="">
+  <div class="mcq-question">प्रश्न 42. यदि x – 1/x = 3 हो, तो x⁴ + 1/x⁴ का मान क्या होगा? (क) 119 (ख) 97 (ग) 47 (घ) 7 सही</div>
+  <details class="mcq-answer" id="ans_q42">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 119</strong></div>
+      <div class="mcq-answer__solution">💡 (x – 1/x)² = 9 ⇒ x² + 1/x² – 2 = 9 ⇒ x² + 1/x² = 11. पुनः वर्ग करने पर: (x² + 1/x²)² = 121 ⇒ x⁴ + 1/x⁴ + 2 = 121 ⇒ x⁴ + 1/x⁴ = 119.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q43" data-correct="">
+  <div class="mcq-question">प्रश्न 43. 4 पेन और 3 पेंसिल का मूल्य ₹26 है, जबकि 6 पेन और 5 पेंसिल का मूल्य ₹40 है। एक पेन का मूल्य (₹ में) क्या है? (क) 5 (ख) 4 (ग) 6 (घ) 3 सही</div>
+  <details class="mcq-answer" id="ans_q43">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 5</strong></div>
+      <div class="mcq-answer__solution">💡 माना पेन का मूल्य p, पेंसिल का q. समीकरण: 4p + 3q = 26, 6p + 5q = 40. पहले को 5 से व दूसरे को 3 से गुणा करें: 20p+15q=130, 18p+15q=120. घटाने पर 2p=10 ⇒ p=5.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q44" data-correct="">
+  <div class="mcq-question">प्रश्न 44. यदि (a+b) : (b+c) : (c+a) = 6 : 7 : 8 और a + b + c = 21 हो, तो a का मान ज्ञात कीजिए। (क) 7 (ख) 8 (ग) 6 (घ) 5 सही</div>
+  <details class="mcq-answer" id="ans_q44">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 7</strong></div>
+      <div class="mcq-answer__solution">💡 माना a+b = 6k, b+c = 7k, c+a = 8k. जोड़ने पर 2(a+b+c) = 21k ⇒ 42 = 21k ⇒ k = 2. अब a = [(a+b) + (c+a) – (b+c)]/2 = (12 + 16 – 14)/2 = 14/2 = 7.</div>
+      <div class="mcq-answer__source">📚 SSC CGL (रूपांतरित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q45" data-correct="">
+  <div class="mcq-question">प्रश्न 45. यदि (x + 1/x) = √5 हो, तो x² + 1/x² किसके बराबर है? (क) √5 (ख) 3 (ग) 5 (घ) 2 सही</div>
+  <details class="mcq-answer" id="ans_q45">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(ख) 3</strong></div>
+      <div class="mcq-answer__solution">💡 वर्ग करने पर: (x + 1/x)² = 5 ⇒ x² + 1/x² + 2 = 5 ⇒ x² + 1/x² = 3.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q46" data-correct="">
+  <div class="mcq-question">प्रश्न 46. सरलीकरण करें: (7.5² – 2.5²) / (7.5 – 2.5). (क) 10 (ख) 5 (ग) 7.5 (घ) 2.5 सही</div>
+  <details class="mcq-answer" id="ans_q46">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 10</strong></div>
+      <div class="mcq-answer__solution">💡 a² – b² = (a – b)(a + b); (a – b) से भाग देने पर शेष a + b = 7.5 + 2.5 = 10.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 8</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q47" data-correct="">
+  <div class="mcq-question">प्रश्न 47. k के किस मान के लिए समीकरण निकाय 3x + ky = 15 और 6x + 10y = 30 के अनंत हल होंगे? (क) 5 (ख) 10 (ग) 3 (घ) 6 सही</div>
+  <details class="mcq-answer" id="ans_q47">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 5</strong></div>
+      <div class="mcq-answer__solution">💡 अनंत हल के लिए अनुपात बराबर होंगे: 3/6 = k/10 = 15/30 ⇒ 1/2 = k/10 ⇒ k = 5.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q48" data-correct="">
+  <div class="mcq-question">प्रश्न 48. दो संख्याओं का योग 15 है और उनके व्युत्क्रमों का योग 3/10 है। संख्याएँ क्या हैं? (क) 5 और 10 (ख) 6 और 9 (ग) 7 और 8 (घ) 4 और 11 सही</div>
+  <details class="mcq-answer" id="ans_q48">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 5 और 10</strong></div>
+      <div class="mcq-answer__solution">💡 माना संख्याएँ x, y. x+y = 15, 1/x + 1/y = (x+y)/(xy) = 15/xy = 3/10 ⇒ xy = 50. संख्याएँ समीकरण t² – 15t + 50 = 0 के मूल ⇒ (t–5)(t–10)=0 ⇒ 5, 10.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q49" data-correct="">
+  <div class="mcq-question">प्रश्न 49. यदि x = 2 + √3 हो, तो x² + 1/x² का मान ज्ञात कीजिए। (क) 14 (ख) 7 (ग) 4 (घ) 2√3 सही</div>
+  <details class="mcq-answer" id="ans_q49">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 14</strong></div>
+      <div class="mcq-answer__solution">💡 1/x = 1/(2+√3) = 2–√3. तब x + 1/x = 4. वर्ग करने पर: x² + 1/x² + 2 = 16 ⇒ x² + 1/x² = 14.</div>
+      <div class="mcq-answer__source">📚 SSC CGL (रूपांतरित)</div>
+    </div>
+  </details>
+</div>
+
+<h2 class="mcq-set-title">📝 Set 3</h2>
+<div class="mcq-card" id="card_q50" data-correct="">
+  <div class="mcq-question">प्रश्न 50. एक नाव धारा के प्रतिकूल 30 km तथा अनुकूल 44 km की दूरी 10 घंटे में तय करती है। 13 घंटे में वह 40 km प्रतिकूल तथा 55 km अनुकूल जा सकती है। शांत जल में नाव की चाल (km/h में) क्या है? (क) 8 (ख) 10 (ग) 6 (घ) 12 सही</div>
+  <details class="mcq-answer" id="ans_q50">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 8</strong></div>
+      <div class="mcq-answer__solution">💡 माना शांत जल में चाल x, धारा की चाल y. प्रतिकूल चाल = x–y, अनुकूल = x+y. पहली शर्त: 30/(x–y) + 44/(x+y) = 10. दूसरी: 40/(x–y) + 55/(x+y) = 13. माना a = 1/(x–y), b = 1/(x+y). तब 30a+44b=10, 40a+55b=13. पहले को 4 से, दूसरे को 3 से गुणा कर घटाने पर 11b=1 ⇒ b=1/11. पहले में रखने पर 30a+4=10 ⇒ a=1/5. अतः x–y =5, x+y=11 ⇒ 2x=16 ⇒ x=8.</div>
+      <div class="mcq-answer__source">📚 SSC CGL (रूपांतरित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q51" data-correct="">
+  <div class="mcq-question">प्रश्न 51. यदि x + 1/x = 6 हो, तो x² + 1/x² का मान है : (क) 34 (ख) 36 (ग) 38 (घ) 32 सही</div>
+  <details class="mcq-answer" id="ans_q51">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 34</strong></div>
+      <div class="mcq-answer__solution">💡 (x + 1/x)² = x² + 1/x² + 2 ⇒ 6² = x² + 1/x² + 2 ⇒ 36 = x² + 1/x² + 2 ⇒ x² + 1/x² = 34.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q52" data-correct="">
+  <div class="mcq-question">प्रश्न 52. दो संख्याओं का योग 20 है और उनका गुणनफल 96 है। संख्याएँ हैं : (क) 8, 12 (ख) 10, 10 (ग) 6, 16 (घ) 9, 11 सही</div>
+  <details class="mcq-answer" id="ans_q52">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 8, 12</strong></div>
+      <div class="mcq-answer__solution">💡 संख्याएँ समीकरण t² – 20t + 96 = 0 के मूल हैं ⇒ (t – 8)(t – 12) = 0 ⇒ 8 और 12.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q53" data-correct="">
+  <div class="mcq-question">प्रश्न 53. समीकरण निकाय 4x + 3y = 25, 5x – 2y = 14 को हल करने पर x और y के मान हैं : (क) x = 4, y = 3 (ख) x = 3, y = 4 (ग) x = 5, y = 2 (घ) x = 2, y = 5 सही</div>
+  <details class="mcq-answer" id="ans_q53">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) x = 4, y = 3</strong></div>
+      <div class="mcq-answer__solution">💡 पहले समीकरण को 2 से, दूसरे को 3 से गुणा करें: 8x+6y = 50; 15x–6y = 42. जोड़ने पर 23x = 92 ⇒ x = 4. तब 16+3y = 25 ⇒ 3y = 9 ⇒ y = 3.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q54" data-correct="">
+  <div class="mcq-question">प्रश्न 54. यदि a² + b² = 29 तथा ab = 10 हो, तो a – b का मान है : (क) ±3 (ख) ±5 (ग) ±7 (घ) ±9 सही</div>
+  <details class="mcq-answer" id="ans_q54">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) ±3</strong></div>
+      <div class="mcq-answer__solution">💡 (a – b)² = a² + b² – 2ab = 29 – 20 = 9 ⇒ a – b = ±3.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q55" data-correct="">
+  <div class="mcq-question">प्रश्न 55. यदि x – 1/x = 2 हो, तो x³ – 1/x³ किसके बराबर है? (क) 14 (ख) 8 (ग) 6 (घ) 10 सही</div>
+  <details class="mcq-answer" id="ans_q55">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 14</strong></div>
+      <div class="mcq-answer__solution">💡 (x – 1/x)³ = x³ – 1/x³ – 3(x – 1/x) ⇒ 8 = x³ – 1/x³ – 6 ⇒ x³ – 1/x³ = 14.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q56" data-correct="">
+  <div class="mcq-question">प्रश्न 56. (2.3)² – (1.7)² का मान ज्ञात कीजिए। (क) 2.4 (ख) 4.0 (ग) 0.6 (घ) 2.0 सही</div>
+  <details class="mcq-answer" id="ans_q56">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 2.4</strong></div>
+      <div class="mcq-answer__solution">💡 a² – b² = (a – b)(a + b) = (2.3 – 1.7)(2.3 + 1.7) = 0.6 × 4 = 2.4.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 8</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q57" data-correct="">
+  <div class="mcq-question">प्रश्न 57. एक भिन्न का अंश हर से 3 कम है। यदि दोनों में 2 जोड़ दिया जाए, तो भिन्न 2/3 हो जाती है। भिन्न है : (क) 4/7 (ख) 5/8 (ग) 3/6 (घ) 7/10 सही</div>
+  <details class="mcq-answer" id="ans_q57">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 4/7</strong></div>
+      <div class="mcq-answer__solution">💡 माना हर = x, अंश = x – 3. (x – 3 + 2)/(x + 2) = 2/3 ⇒ (x – 1)/(x + 2) = 2/3 ⇒ 3(x – 1) = 2(x + 2) ⇒ 3x – 3 = 2x + 4 ⇒ x = 7. अंश = 4. भिन्न = 4/7.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q58" data-correct="">
+  <div class="mcq-question">प्रश्न 58. यदि 5x + 4y = 18 और 4x + 5y = 18 हो, तो x + y का मान है : (क) 4 (ख) 2 (ग) 3 (घ) 5 सही</div>
+  <details class="mcq-answer" id="ans_q58">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 4</strong></div>
+      <div class="mcq-answer__solution">💡 दोनों समीकरणों को जोड़ने पर: (5x+4y)+(4x+5y) = 18+18 ⇒ 9x+9y = 36 ⇒ 9(x+y) = 36 ⇒ x+y = 4.</div>
+      <div class="mcq-answer__source">📚 SSC CHSL (रूपांतरित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q59" data-correct="">
+  <div class="mcq-question">प्रश्न 59. यदि (a+b)² = 100 और ab = 20 हो, तो a² + b² का मान ज्ञात कीजिए। (क) 60 (ख) 80 (ग) 40 (घ) 90 सही</div>
+  <details class="mcq-answer" id="ans_q59">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 60</strong></div>
+      <div class="mcq-answer__solution">💡 (a+b)² = a² + b² + 2ab ⇒ 100 = a² + b² + 40 ⇒ a² + b² = 60.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q60" data-correct="">
+  <div class="mcq-question">प्रश्न 60. हल कीजिए: (2x – 1)/5 = (3x + 2)/7. (क) 17 (ख) –17 (ग) 1 (घ) –1 सही</div>
+  <details class="mcq-answer" id="ans_q60">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(ख) –17</strong></div>
+      <div class="mcq-answer__solution">💡 तिर्यक गुणा करें: 7(2x – 1) = 5(3x + 2) ⇒ 14x – 7 = 15x + 10 ⇒ 14x – 15x = 10 + 7 ⇒ –x = 17 ⇒ x = –17.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 8</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q61" data-correct="">
+  <div class="mcq-question">प्रश्न 61. दो क्रमागत सम संख्याओं का गुणनफल 168 है। छोटी संख्या है : (क) 12 (ख) 14 (ग) 10 (घ) 16 सही</div>
+  <details class="mcq-answer" id="ans_q61">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 12</strong></div>
+      <div class="mcq-answer__solution">💡 माना संख्याएँ 2n और 2n+2 हैं। 2n(2n+2) = 168 ⇒ 4n(n+1) = 168 ⇒ n(n+1) = 42 ⇒ n = 6. अतः संख्याएँ 12 और 14, छोटी = 12.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q62" data-correct="">
+  <div class="mcq-question">प्रश्न 62. यदि √x + 1/√x = 3 हो, तो x + 1/x का मान ज्ञात कीजिए। (क) 7 (ख) 9 (ग) 5 (घ) 11 सही</div>
+  <details class="mcq-answer" id="ans_q62">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 7</strong></div>
+      <div class="mcq-answer__solution">💡 वर्ग करने पर: (√x + 1/√x)² = 9 ⇒ x + 1/x + 2 = 9 ⇒ x + 1/x = 7.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q63" data-correct="">
+  <div class="mcq-question">प्रश्न 63. पाँच वर्ष पहले, एक व्यक्ति की आयु अपने पुत्र की आयु की 7 गुनी थी। 5 वर्ष बाद, उसकी आयु पुत्र की आयु की 3 गुनी होगी। पुत्र की वर्तमान आयु है : (क) 10 वर्ष (ख) 12 वर्ष (ग) 8 वर्ष (घ) 15 वर्ष सही</div>
+  <details class="mcq-answer" id="ans_q63">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 10 वर्ष</strong></div>
+      <div class="mcq-answer__solution">💡 माना पुत्र की वर्तमान आयु x वर्ष, पिता की y वर्ष। 5 वर्ष पहले: y – 5 = 7(x – 5) ⇒ y – 5 = 7x – 35 ⇒ y = 7x – 30. 5 वर्ष बाद: y + 5 = 3(x + 5) ⇒ (7x – 30) + 5 = 3x + 15 ⇒ 7x – 25 = 3x + 15 ⇒ 4x = 40 ⇒ x = 10.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q64" data-correct="">
+  <div class="mcq-question">प्रश्न 64. समीकरणों 2x + 3y = 0 और 3x – 4y = –17 का हल है : (क) x = –3, y = 2 (ख) x = 3, y = –2 (ग) x = 3, y = 2 (घ) x = –3, y = –2 सही</div>
+  <details class="mcq-answer" id="ans_q64">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) x = –3, y = 2</strong></div>
+      <div class="mcq-answer__solution">💡 पहले को 4 से, दूसरे को 3 से गुणा करें: 8x+12y = 0; 9x–12y = –51. जोड़ने पर 17x = –51 ⇒ x = –3. तब 2(–3)+3y = 0 ⇒ –6+3y = 0 ⇒ y = 2.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q65" data-correct="">
+  <div class="mcq-question">प्रश्न 65. यदि (x + 1/x) = 3 हो, तो x³ + 1/x³ किसके बराबर है? (क) 18 (ख) 27 (ग) 9 (घ) 24 सही</div>
+  <details class="mcq-answer" id="ans_q65">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 18</strong></div>
+      <div class="mcq-answer__solution">💡 (x + 1/x)³ = x³ + 1/x³ + 3(x + 1/x) ⇒ 27 = x³ + 1/x³ + 9 ⇒ x³ + 1/x³ = 18.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q66" data-correct="">
+  <div class="mcq-question">प्रश्न 66. दो संख्याएँ 3 : 4 के अनुपात में हैं। यदि प्रत्येक में 8 जोड़ दिया जाए, तो अनुपात 4 : 5 हो जाता है। संख्याएँ हैं : (क) 24, 32 (ख) 18, 24 (ग) 15, 20 (घ) 12, 16 सही</div>
+  <details class="mcq-answer" id="ans_q66">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 24, 32</strong></div>
+      <div class="mcq-answer__solution">💡 माना संख्याएँ 3x और 4x हैं। (3x+8)/(4x+8) = 4/5 ⇒ 5(3x+8) = 4(4x+8) ⇒ 15x+40 = 16x+32 ⇒ x = 8. संख्याएँ: 24, 32.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q67" data-correct="">
+  <div class="mcq-question">प्रश्न 67. यदि a = √7 + √6 हो, तो a + 1/a का मान है : (क) 2√7 (ख) 2√6 (ग) √7 – √6 (घ) 2√7 – √6 सही</div>
+  <details class="mcq-answer" id="ans_q67">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 2√7</strong></div>
+      <div class="mcq-answer__solution">💡 1/a = 1/(√7+√6) = √7–√6 (परिमेयकरण करने पर)। अतः a + 1/a = (√7+√6)+(√7–√6) = 2√7.</div>
+      <div class="mcq-answer__source">📚 SSC CGL (रूपांतरित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q68" data-correct="">
+  <div class="mcq-question">प्रश्न 68. दो अंकों की एक संख्या के अंकों का योग 11 है। यदि अंकों को उलट दिया जाए, तो नई संख्या मूल संख्या से 27 अधिक होती है। मूल संख्या है : (क) 47 (ख) 74 (ग) 56 (घ) 65 सही</div>
+  <details class="mcq-answer" id="ans_q68">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 47</strong></div>
+      <div class="mcq-answer__solution">💡 माना संख्या = 10a+b, a+b=11. उलटी संख्या = 10b+a. (10b+a) – (10a+b) = 27 ⇒ 9b – 9a = 27 ⇒ b – a = 3. a+b=11, b–a=3 को हल करने पर b=7, a=4. संख्या = 47.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q69" data-correct="">
+  <div class="mcq-question">प्रश्न 69. यदि x² + 1/x² = 27 हो, तो x – 1/x का मान ज्ञात कीजिए। (क) ±5 (ख) ±3 (ग) ±√29 (घ) ±√23 सही</div>
+  <details class="mcq-answer" id="ans_q69">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) ±5</strong></div>
+      <div class="mcq-answer__solution">💡 (x – 1/x)² = x² + 1/x² – 2 = 27 – 2 = 25 ⇒ x – 1/x = ±5.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q70" data-correct="">
+  <div class="mcq-question">प्रश्न 70. एक भिन्न के अंश में से 1 घटाने पर वह 1/3 हो जाती है, और यदि हर में 8 जोड़ दिया जाए तो भिन्न 1/4 हो जाती है। भिन्न है : (क) 5/12 (ख) 3/10 (ग) 4/9 (घ) 6/15 सही</div>
+  <details class="mcq-answer" id="ans_q70">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 5/12</strong></div>
+      <div class="mcq-answer__solution">💡 माना भिन्न = x/y. (x–1)/y = 1/3 ⇒ 3x – 3 = y. x/(y+8) = 1/4 ⇒ 4x = y+8 ⇒ 4x = 3x–3+8 ⇒ x = 5, तब y = 3(5)–3 = 12. भिन्न = 5/12.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q71" data-correct="">
+  <div class="mcq-question">प्रश्न 71. यदि 2x + 3y = 7 और 3x + 2y = 8 हो, तो x – y का मान ज्ञात कीजिए। (क) 1 (ख) –1 (ग) 0 (घ) 2 सही</div>
+  <details class="mcq-answer" id="ans_q71">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 1</strong></div>
+      <div class="mcq-answer__solution">💡 दूसरे को पहले से घटाने पर: (2x+3y) – (3x+2y) = 7 – 8 ⇒ –x + y = –1 ⇒ x – y = 1.</div>
+      <div class="mcq-answer__source">📚 SSC CHSL (रूपांतरित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q72" data-correct="">
+  <div class="mcq-question">प्रश्न 72. (2.8)² – (1.2)² का मान है : (क) 6.4 (ख) 5.6 (ग) 6.0 (घ) 7.0 सही</div>
+  <details class="mcq-answer" id="ans_q72">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 6.4</strong></div>
+      <div class="mcq-answer__solution">💡 a² – b² = (a–b)(a+b) = (2.8–1.2)(2.8+1.2) = 1.6 × 4 = 6.4.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 8</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q73" data-correct="">
+  <div class="mcq-question">प्रश्न 73. यदि (x + y) = 12 और xy = 32 हो, तो x² + y² का मान ज्ञात कीजिए। (क) 80 (ख) 48 (ग) 144 (घ) 112 सही</div>
+  <details class="mcq-answer" id="ans_q73">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 80</strong></div>
+      <div class="mcq-answer__solution">💡 x² + y² = (x+y)² – 2xy = 144 – 64 = 80.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q74" data-correct="">
+  <div class="mcq-question">प्रश्न 74. एक विद्यार्थी ने जितने प्रश्न सही किए, उससे दोगुने प्रश्न गलत किए। उसने कुल 48 प्रश्न हल किए। सही प्रश्नों की संख्या कितनी थी? (क) 16 (ख) 24 (ग) 32 (घ) 12 सही</div>
+  <details class="mcq-answer" id="ans_q74">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 16</strong></div>
+      <div class="mcq-answer__solution">💡 माना सही = x, गलत = 2x. कुल x + 2x = 3x = 48 ⇒ x = 16.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 8</div>
+    </div>
+  </details>
+</div>
+
+<h2 class="mcq-set-title">📝 Set 4</h2>
+<div class="mcq-card" id="card_q75" data-correct="">
+  <div class="mcq-question">प्रश्न 75. यदि a + b + c = 0 हो, तो a³ + b³ + c³ का मान होता है : (क) 0 (ख) 3abc (ग) abc (घ) 1 सही</div>
+  <details class="mcq-answer" id="ans_q75">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(ख) 3abc</strong></div>
+      <div class="mcq-answer__solution">💡 यदि a+b+c=0, तो सर्वसमिका से a³+b³+c³ = 3abc.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q76" data-correct="">
+  <div class="mcq-question">प्रश्न 76. समीकरण निकाय 3x + 2y = 12, 5x – 3y = 1 को हल करने पर x और y के मान हैं : (क) x = 2, y = 3 (ख) x = 3, y = 2 (ग) x = 1, y = 4 (घ) x = 4, y = 0 सही</div>
+  <details class="mcq-answer" id="ans_q76">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) x = 2, y = 3</strong></div>
+      <div class="mcq-answer__solution">💡 पहले समीकरण को 3 से, दूसरे को 2 से गुणा करें: 9x + 6y = 36; 10x – 6y = 2. जोड़ने पर 19x = 38 ⇒ x = 2. पहले समीकरण में रखने पर 3(2) + 2y = 12 ⇒ 6 + 2y = 12 ⇒ 2y = 6 ⇒ y = 3.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q77" data-correct="">
+  <div class="mcq-question">प्रश्न 77. यदि a + b = 7 और ab = 12 हो, तो a² + b² का मान है : (क) 25 (ख) 37 (ग) 49 (घ) 13 सही</div>
+  <details class="mcq-answer" id="ans_q77">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 25</strong></div>
+      <div class="mcq-answer__solution">💡 a² + b² = (a + b)² – 2ab = 7² – 2(12) = 49 – 24 = 25.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q78" data-correct="">
+  <div class="mcq-question">प्रश्न 78. दो संख्याओं का योग 8 है तथा उनके व्युत्क्रमों का योग 8/15 है। संख्याएँ हैं : (क) 3 और 5 (ख) 2 और 6 (ग) 4 और 4 (घ) 1 और 7 सही</div>
+  <details class="mcq-answer" id="ans_q78">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 3 और 5</strong></div>
+      <div class="mcq-answer__solution">💡 माना संख्याएँ x, y. x + y = 8, 1/x + 1/y = (x+y)/xy = 8/xy = 8/15 ⇒ xy = 15. संख्याएँ समीकरण t² – 8t + 15 = 0 के मूल ⇒ (t–3)(t–5)=0 ⇒ 3, 5.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q79" data-correct="">
+  <div class="mcq-question">प्रश्न 79. यदि x + 1/x = 4 है, तो x² + 1/x² का मान होगा : (क) 14 (ख) 16 (ग) 18 (घ) 12 सही</div>
+  <details class="mcq-answer" id="ans_q79">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 14</strong></div>
+      <div class="mcq-answer__solution">💡 (x + 1/x)² = x² + 1/x² + 2 ⇒ 16 = x² + 1/x² + 2 ⇒ x² + 1/x² = 14.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q80" data-correct="">
+  <div class="mcq-question">प्रश्न 80. एक पिता की वर्तमान आयु अपने पुत्र की आयु की 3 गुनी है। 12 वर्ष बाद, पिता की आयु पुत्र की आयु की दोगुनी हो जाएगी। पुत्र की वर्तमान आयु कितनी है? (क) 12 वर्ष (ख) 10 वर्ष (ग) 15 वर्ष (घ) 8 वर्ष सही</div>
+  <details class="mcq-answer" id="ans_q80">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 12 वर्ष</strong></div>
+      <div class="mcq-answer__solution">💡 माना पुत्र की वर्तमान आयु s वर्ष, पिता की 3s. 12 वर्ष बाद: 3s + 12 = 2(s + 12) ⇒ 3s + 12 = 2s + 24 ⇒ s = 12.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q81" data-correct="">
+  <div class="mcq-question">प्रश्न 81. यदि a/4 = b/5 = c/6 हो, तो (a + b + c)/b का मान क्या होगा? (क) 3 (ख) 5 (ग) 4 (घ) 2 सही</div>
+  <details class="mcq-answer" id="ans_q81">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 3</strong></div>
+      <div class="mcq-answer__solution">💡 मान लीजिए a = 4k, b = 5k, c = 6k. तब (a+b+c)/b = (4k+5k+6k)/(5k) = 15k/5k = 3.</div>
+      <div class="mcq-answer__source">📚 SSC CGL (रूपांतरित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q82" data-correct="">
+  <div class="mcq-question">प्रश्न 82. समीकरण (x+3)/2 – (x-1)/3 = 1 को हल कीजिए। (क) –5 (ख) 5 (ग) 3 (घ) –3 सही</div>
+  <details class="mcq-answer" id="ans_q82">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) –5</strong></div>
+      <div class="mcq-answer__solution">💡 पूरे समीकरण को 6 से गुणा करें: 3(x+3) – 2(x–1) = 6 ⇒ 3x + 9 – 2x + 2 = 6 ⇒ x + 11 = 6 ⇒ x = –5.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 8</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q83" data-correct="">
+  <div class="mcq-question">प्रश्न 83. यदि (x + 1/x) = √5 हो, तो x² + 1/x² का मान होगा : (क) 3 (ख) 5 (ग) √5 (घ) 7 सही</div>
+  <details class="mcq-answer" id="ans_q83">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 3</strong></div>
+      <div class="mcq-answer__solution">💡 वर्ग करने पर: (x + 1/x)² = 5 ⇒ x² + 1/x² + 2 = 5 ⇒ x² + 1/x² = 3.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q84" data-correct="">
+  <div class="mcq-question">प्रश्न 84. दो संख्याएँ 3 : 5 के अनुपात में हैं। यदि प्रत्येक में 10 जोड़ दिया जाए, तो अनुपात 5 : 7 हो जाता है। संख्याएँ हैं : (क) 15 और 25 (ख) 9 और 15 (ग) 18 और 30 (घ) 12 और 20 सही</div>
+  <details class="mcq-answer" id="ans_q84">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 15 और 25</strong></div>
+      <div class="mcq-answer__solution">💡 माना संख्याएँ 3x, 5x. (3x+10)/(5x+10) = 5/7 ⇒ 7(3x+10) = 5(5x+10) ⇒ 21x + 70 = 25x + 50 ⇒ 4x = 20 ⇒ x = 5. संख्याएँ = 15, 25.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q85" data-correct="">
+  <div class="mcq-question">प्रश्न 85. समीकरण निकाय 2x + 3y = 8, 3x + 2y = 7 को हल करने पर x और y के मान हैं : (क) x = 1, y = 2 (ख) x = 2, y = 1 (ग) x = 4, y = 0 (घ) x = 3, y = –1 सही</div>
+  <details class="mcq-answer" id="ans_q85">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) x = 1, y = 2</strong></div>
+      <div class="mcq-answer__solution">💡 दोनों समीकरणों को जोड़ें: 5x + 5y = 15 ⇒ x + y = 3. पहले में से दूसरे को घटाने पर: –x + y = 1 ⇒ y – x = 1. x+y=3, y–x=1 को जोड़ने पर 2y=4 ⇒ y=2, तब x=1.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q86" data-correct="">
+  <div class="mcq-question">प्रश्न 86. एक भिन्न का हर, अंश के दोगुने से 3 अधिक है। अंश और हर का योग 18 है। भिन्न है : (क) 5/13 (ख) 3/9 (ग) 7/17 (घ) 4/11 सही</div>
+  <details class="mcq-answer" id="ans_q86">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 5/13</strong></div>
+      <div class="mcq-answer__solution">💡 माना अंश = x, हर = 2x + 3. योग: x + (2x+3) = 18 ⇒ 3x + 3 = 18 ⇒ 3x = 15 ⇒ x = 5. हर = 13. भिन्न = 5/13.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q87" data-correct="">
+  <div class="mcq-question">प्रश्न 87. यदि (a + b)² = 49 और a² + b² = 29 हो, तो ab का मान ज्ञात कीजिए। (क) 10 (ख) 5 (ग) 20 (घ) 15 सही</div>
+  <details class="mcq-answer" id="ans_q87">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 10</strong></div>
+      <div class="mcq-answer__solution">💡 (a + b)² = a² + b² + 2ab ⇒ 49 = 29 + 2ab ⇒ 2ab = 20 ⇒ ab = 10.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q88" data-correct="">
+  <div class="mcq-question">प्रश्न 88. एक व्यक्ति की आयु अपने पुत्र की आयु की दोगुनी है। 20 वर्ष पहले, वह पुत्र की आयु का 12 गुना था। व्यक्ति की वर्तमान आयु कितनी है? (क) 44 वर्ष (ख) 48 वर्ष (ग) 40 वर्ष (घ) 36 वर्ष सही</div>
+  <details class="mcq-answer" id="ans_q88">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 44 वर्ष</strong></div>
+      <div class="mcq-answer__solution">💡 माना पुत्र की आयु = s, पिता की = 2s. 20 वर्ष पहले: 2s – 20 = 12(s – 20) ⇒ 2s – 20 = 12s – 240 ⇒ 10s = 220 ⇒ s = 22. पिता की आयु = 44.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q89" data-correct="">
+  <div class="mcq-question">प्रश्न 89. यदि a + b + c = 11 और ab + bc + ca = 28 हो, तो a² + b² + c² का मान ज्ञात कीजिए। (क) 65 (ख) 55 (ग) 75 (घ) 45 सही</div>
+  <details class="mcq-answer" id="ans_q89">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 65</strong></div>
+      <div class="mcq-answer__solution">💡 (a+b+c)² = a²+b²+c² + 2(ab+bc+ca) ⇒ 121 = a²+b²+c² + 56 ⇒ a²+b²+c² = 65.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q90" data-correct="">
+  <div class="mcq-question">प्रश्न 90. यदि x + y = 5 और xy = 6 हो, तो x³ + y³ का मान ज्ञात कीजिए। (क) 35 (ख) 25 (ग) 45 (घ) 30 सही</div>
+  <details class="mcq-answer" id="ans_q90">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 35</strong></div>
+      <div class="mcq-answer__solution">💡 x³ + y³ = (x+y)³ – 3xy(x+y) = 125 – 3×6×5 = 125 – 90 = 35.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q91" data-correct="">
+  <div class="mcq-question">प्रश्न 91. एक नाव धारा के अनुकूल 16 km जाने में 2 घंटे लेती है और वापस आने में 4 घंटे। शांत जल में नाव की चाल (km/h में) है : (क) 6 (ख) 4 (ग) 8 (घ) 5 सही</div>
+  <details class="mcq-answer" id="ans_q91">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 6</strong></div>
+      <div class="mcq-answer__solution">💡 अनुकूल चाल = 16/2 = 8 km/h, प्रतिकूल चाल = 16/4 = 4 km/h. शांत जल में चाल = (8+4)/2 = 6 km/h.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q92" data-correct="">
+  <div class="mcq-question">प्रश्न 92. दो संख्याओं का योग 9 है और उनके वर्गों का योग 41 है। संख्याएँ हैं : (क) 4 और 5 (ख) 3 और 6 (ग) 2 और 7 (घ) 1 और 8 सही</div>
+  <details class="mcq-answer" id="ans_q92">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 4 और 5</strong></div>
+      <div class="mcq-answer__solution">💡 माना संख्याएँ x, y. x+y=9, x²+y²=41. (x+y)²=81 ⇒ 2xy=81–41=40 ⇒ xy=20. संख्याएँ समीकरण t²–9t+20=0 के मूल ⇒ (t–4)(t–5)=0 ⇒ 4,5.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q93" data-correct="">
+  <div class="mcq-question">प्रश्न 93. यदि (3x – 2y) : (2x + 3y) = 5 : 6 हो, तो x : y ज्ञात कीजिए। (क) 27 : 8 (ख) 8 : 27 (ग) 5 : 6 (घ) 6 : 5 सही</div>
+  <details class="mcq-answer" id="ans_q93">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 27 : 8</strong></div>
+      <div class="mcq-answer__solution">💡 6(3x – 2y) = 5(2x + 3y) ⇒ 18x – 12y = 10x + 15y ⇒ 8x = 27y ⇒ x/y = 27/8 ⇒ x : y = 27 : 8.</div>
+      <div class="mcq-answer__source">📚 SSC CGL (रूपांतरित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q94" data-correct="">
+  <div class="mcq-question">प्रश्न 94. यदि x + 1/x = a हो, तो x² + 1/x² का मान होगा : (क) a² – 2 (ख) a² + 2 (ग) a² (घ) 1 सही</div>
+  <details class="mcq-answer" id="ans_q94">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) a² – 2</strong></div>
+      <div class="mcq-answer__solution">💡 (x + 1/x)² = x² + 1/x² + 2 ⇒ a² = x² + 1/x² + 2 ⇒ x² + 1/x² = a² – 2.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q95" data-correct="">
+  <div class="mcq-question">प्रश्न 95. 101² – 99² का मान ज्ञात कीजिए। (क) 400 (ख) 200 (ग) 2 (घ) 4 सही</div>
+  <details class="mcq-answer" id="ans_q95">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 400</strong></div>
+      <div class="mcq-answer__solution">💡 a² – b² = (a – b)(a + b) = (101 – 99)(101 + 99) = 2 × 200 = 400.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 8</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q96" data-correct="">
+  <div class="mcq-question">प्रश्न 96. यदि x/y = 3/4 हो, तो (3x + 2y)/(5x – 3y) का मान क्या होगा? (क) 17/3 (ख) 3/17 (ग) 5/7 (घ) 7/5 सही</div>
+  <details class="mcq-answer" id="ans_q96">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 17/3</strong></div>
+      <div class="mcq-answer__solution">💡 मान लीजिए x = 3k, y = 4k. तब (3(3k)+2(4k))/(5(3k)-3(4k)) = (9k+8k)/(15k-12k) = 17k/3k = 17/3.</div>
+      <div class="mcq-answer__source">📚 SSC CHSL (रूपांतरित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q97" data-correct="">
+  <div class="mcq-question">प्रश्न 97. समीकरण निकाय 0.2x + 0.3y = 1.3, 0.4x + 0.5y = 2.3 को हल कीजिए। (क) x = 2, y = 3 (ख) x = 3, y = 2 (ग) x = 1, y = 4 (घ) x = 0, y = 5 सही</div>
+  <details class="mcq-answer" id="ans_q97">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) x = 2, y = 3</strong></div>
+      <div class="mcq-answer__solution">💡 समीकरणों को 10 से गुणा करें: 2x + 3y = 13, 4x + 5y = 23. पहले को 2 से गुणा करें: 4x + 6y = 26. इसमें से दूसरे को घटाने पर y = 3. फिर 2x + 9 = 13 ⇒ x = 2.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q98" data-correct="">
+  <div class="mcq-question">प्रश्न 98. एक भिन्न के अंश में 1 जोड़ने पर वह 1/2 हो जाती है, और यदि हर में 1 जोड़ दिया जाए तो भिन्न 1/3 हो जाती है। भिन्न है : (क) 3/8 (ख) 5/12 (ग) 2/5 (घ) 4/9 सही</div>
+  <details class="mcq-answer" id="ans_q98">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 3/8</strong></div>
+      <div class="mcq-answer__solution">💡 माना भिन्न = x/y. (x+1)/y = 1/2 ⇒ 2x+2 = y. x/(y+1) = 1/3 ⇒ 3x = y+1. y का मान रखने पर 3x = 2x+2+1 ⇒ x = 3, y = 8. भिन्न = 3/8.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q99" data-correct="">
+  <div class="mcq-question">प्रश्न 99. यदि a – b = 5 और ab = 36 हो, तो a² + b² का मान ज्ञात कीजिए। (क) 97 (ख) 72 (ग) 25 (घ) 61 सही</div>
+  <details class="mcq-answer" id="ans_q99">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 97</strong></div>
+      <div class="mcq-answer__solution">💡 (a – b)² = a² + b² – 2ab ⇒ 25 = a² + b² – 72 ⇒ a² + b² = 97.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<h2 class="mcq-set-title">📝 Set 5</h2>
+<div class="mcq-card" id="card_q100" data-correct="">
+  <div class="mcq-question">प्रश्न 100. तीन क्रमागत सम संख्याओं का योग 78 है। सबसे छोटी संख्या है : (क) 24 (ख) 26 (ग) 28 (घ) 22 सही</div>
+  <details class="mcq-answer" id="ans_q100">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 24</strong></div>
+      <div class="mcq-answer__solution">💡 माना संख्याएँ x–2, x, x+2 (सम)। योग = 3x = 78 ⇒ x = 26, सबसे छोटी = 24.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 8</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q101" data-correct="">
+  <div class="mcq-question">प्रश्न 101. समीकरण (x+2)/3 + (x-3)/2 = 5 को हल कीजिए। (क) 7 (ख) 11 (ग) 5 (घ) 9 सही</div>
+  <details class="mcq-answer" id="ans_q101">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 7</strong></div>
+      <div class="mcq-answer__solution">💡 दोनों पक्षों को 6 से गुणा करें : 2(x+2) + 3(x-3) = 30 ⇒ 2x+4 + 3x-9 = 30 ⇒ 5x -5 = 30 ⇒ 5x = 35 ⇒ x = 7.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 8 (रूपांतरित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q102" data-correct="">
+  <div class="mcq-question">प्रश्न 102. यदि a + b = 9 और ab = 18 हो, तो a² + b² का मान है : (क) 45 (ख) 81 (ग) 36 (घ) 63 सही</div>
+  <details class="mcq-answer" id="ans_q102">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 45</strong></div>
+      <div class="mcq-answer__solution">💡 (a+b)² = a²+b²+2ab ⇒ 81 = a²+b²+36 ⇒ a²+b² = 45.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q103" data-correct="">
+  <div class="mcq-question">प्रश्न 103. एक व्यक्ति शांत जल में 6 km/h की चाल से नाव चला सकता है। उसे किसी दूरी तक धारा के प्रतिकूल जाने में धारा के अनुकूल जाने की तुलना में दोगुना समय लगता है। धारा की चाल (km/h में) है : (क) 2 (ख) 3 (ग) 1 (घ) 4 सही</div>
+  <details class="mcq-answer" id="ans_q103">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 2</strong></div>
+      <div class="mcq-answer__solution">💡 माना धारा की चाल y km/h, दूरी d km. अनुकूल चाल = 6 + y, प्रतिकूल चाल = 6 – y. प्रश्नानुसार, d/(6–y) = 2 × d/(6+y) ⇒ 1/(6–y) = 2/(6+y) ⇒ 6+y = 12 – 2y ⇒ 3y = 6 ⇒ y = 2.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10 (रूपांतरित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q104" data-correct="">
+  <div class="mcq-question">प्रश्न 104. यदि x + 1/x = 5 हो, तो x³ + 1/x³ किसके बराबर है? (क) 110 (ख) 125 (ग) 115 (घ) 120 सही</div>
+  <details class="mcq-answer" id="ans_q104">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 110</strong></div>
+      <div class="mcq-answer__solution">💡 (x + 1/x)³ = x³ + 1/x³ + 3(x + 1/x) ⇒ 125 = x³ + 1/x³ + 15 ⇒ x³ + 1/x³ = 110.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q105" data-correct="">
+  <div class="mcq-question">प्रश्न 105. समीकरण निकाय 3x + 2y = 11, 2x – y = 5 का हल है : (क) x = 3, y = 1 (ख) x = 1, y = 4 (ग) x = 2, y = 3 (घ) x = 4, y = –1 सही</div>
+  <details class="mcq-answer" id="ans_q105">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) x = 3, y = 1</strong></div>
+      <div class="mcq-answer__solution">💡 दूसरे समीकरण को 2 से गुणा करें : 4x – 2y = 10. इसे पहले समीकरण में जोड़ें : (3x+2y)+(4x–2y) = 11+10 ⇒ 7x = 21 ⇒ x = 3. तब 3(3)+2y = 11 ⇒ 9+2y=11 ⇒ y=1.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q106" data-correct="">
+  <div class="mcq-question">प्रश्न 106. यदि a/2 = b/3 = c/4 और a + b + c = 27 हो, तो a का मान है : (क) 6 (ख) 9 (ग) 12 (घ) 3 सही</div>
+  <details class="mcq-answer" id="ans_q106">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 6</strong></div>
+      <div class="mcq-answer__solution">💡 माना a = 2k, b = 3k, c = 4k. तब 2k+3k+4k = 27 ⇒ 9k = 27 ⇒ k = 3. अतः a = 6.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q107" data-correct="">
+  <div class="mcq-question">प्रश्न 107. दो संख्याओं का योग 25 और अंतर 5 है। उनका गुणनफल क्या होगा? (क) 150 (ख) 125 (ग) 100 (घ) 75 सही</div>
+  <details class="mcq-answer" id="ans_q107">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 150</strong></div>
+      <div class="mcq-answer__solution">💡 माना संख्याएँ x, y. x+y=25, x–y=5. जोड़ने पर 2x=30 ⇒ x=15, y=10. गुणनफल = 150.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q108" data-correct="">
+  <div class="mcq-question">प्रश्न 108. (a+b)² – (a–b)² का सरलतम मान है : (क) 4ab (ख) 2ab (ग) 2(a²+b²) (घ) 4a²b² सही</div>
+  <details class="mcq-answer" id="ans_q108">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 4ab</strong></div>
+      <div class="mcq-answer__solution">💡 (a+b)² = a²+2ab+b², (a–b)² = a²–2ab+b². घटाने पर अंतर = 4ab.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 8</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q109" data-correct="">
+  <div class="mcq-question">प्रश्न 109. एक भिन्न का हर, अंश के दोगुने से 1 अधिक है। यदि अंश और हर का योग 16 है, तो भिन्न है : (क) 5/11 (ख) 7/15 (ग) 3/7 (घ) 4/9 सही</div>
+  <details class="mcq-answer" id="ans_q109">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 5/11</strong></div>
+      <div class="mcq-answer__solution">💡 माना अंश = x, हर = 2x+1. योग : x + 2x+1 = 16 ⇒ 3x+1 = 16 ⇒ 3x = 15 ⇒ x = 5. हर = 11, भिन्न = 5/11.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q110" data-correct="">
+  <div class="mcq-question">प्रश्न 110. यदि (x + 1/x)² = 3 हो, तो x² + 1/x² का मान है : (क) 1 (ख) 3 (ग) 5 (घ) 0 सही</div>
+  <details class="mcq-answer" id="ans_q110">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 1</strong></div>
+      <div class="mcq-answer__solution">💡 (x + 1/x)² = x² + 1/x² + 2 ⇒ 3 = x² + 1/x² + 2 ⇒ x² + 1/x² = 1.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q111" data-correct="">
+  <div class="mcq-question">प्रश्न 111. एक पिता की आयु अपने पुत्र की आयु की तीन गुनी है। 12 वर्ष बाद, उसकी आयु पुत्र की आयु की दोगुनी हो जाएगी। पुत्र की वर्तमान आयु कितनी है? (क) 12 वर्ष (ख) 10 वर्ष (ग) 15 वर्ष (घ) 8 वर्ष सही</div>
+  <details class="mcq-answer" id="ans_q111">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 12 वर्ष</strong></div>
+      <div class="mcq-answer__solution">💡 माना पुत्र की वर्तमान आयु x वर्ष, पिता की 3x. 12 वर्ष बाद : 3x+12 = 2(x+12) ⇒ 3x+12 = 2x+24 ⇒ x = 12.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q112" data-correct="">
+  <div class="mcq-question">प्रश्न 112. यदि 3x – 5y = 10 और xy = 5 हो, तो 9x² + 25y² का मान है : (क) 250 (ख) 100 (ग) 50 (घ) 200 सही</div>
+  <details class="mcq-answer" id="ans_q112">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 250</strong></div>
+      <div class="mcq-answer__solution">💡 (3x–5y)² = 9x²+25y² – 30xy ⇒ 100 = 9x²+25y² – 150 ⇒ 9x²+25y² = 250.</div>
+      <div class="mcq-answer__source">📚 SSC CHSL (रूपांतरित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q113" data-correct="">
+  <div class="mcq-question">प्रश्न 113. समीकरण निकाय x/2 + y/3 = 5, x/3 + y/2 = 5 का हल है : (क) x = 6, y = 6 (ख) x = 10, y = 0 (ग) x = 0, y = 10 (घ) x = 4, y = 9 सही</div>
+  <details class="mcq-answer" id="ans_q113">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) x = 6, y = 6</strong></div>
+      <div class="mcq-answer__solution">💡 पहले समीकरण को 6 से गुणा करें : 3x+2y = 30. दूसरे को 6 से गुणा करें : 2x+3y = 30. पहले में से दूसरे को घटाने पर x–y=0 ⇒ x=y. तब 3x+2x=30 ⇒ x=6, y=6.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q114" data-correct="">
+  <div class="mcq-question">प्रश्न 114. समीकरण x² – 5x + 6 = 0 के मूल हैं : (क) 2 और 3 (ख) –2 और –3 (ग) 1 और 6 (घ) 5 और 1 सही</div>
+  <details class="mcq-answer" id="ans_q114">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 2 और 3</strong></div>
+      <div class="mcq-answer__solution">💡 गुणनखंड : (x–2)(x–3)=0 ⇒ x=2 या 3.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q115" data-correct="">
+  <div class="mcq-question">प्रश्न 115. 99² – 1² का मान है : (क) 9800 (ख) 9802 (ग) 10000 (घ) 9998 सही</div>
+  <details class="mcq-answer" id="ans_q115">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 9800</strong></div>
+      <div class="mcq-answer__solution">💡 a²–b² = (a–b)(a+b) = (99–1)(99+1) = 98×100 = 9800.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 8</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q116" data-correct="">
+  <div class="mcq-question">प्रश्न 116. दो क्रमागत विषम संख्याओं का गुणनफल 143 है। छोटी संख्या कौन-सी है? (क) 11 (ख) 13 (ग) 9 (घ) 15 सही</div>
+  <details class="mcq-answer" id="ans_q116">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 11</strong></div>
+      <div class="mcq-answer__solution">💡 माना संख्याएँ x, x+2. x(x+2) = 143 ⇒ x²+2x–143=0 ⇒ (x+13)(x–11)=0 ⇒ धनात्मक मूल x=11. संख्याएँ 11 और 13.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q117" data-correct="">
+  <div class="mcq-question">प्रश्न 117. यदि a + b = 5 और a³ + b³ = 35 हो, तो ab का मान है : (क) 6 (ख) –6 (ग) 12 (घ) 4 सही</div>
+  <details class="mcq-answer" id="ans_q117">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 6</strong></div>
+      <div class="mcq-answer__solution">💡 a³+b³ = (a+b)³ – 3ab(a+b) ⇒ 35 = 125 – 15ab ⇒ 15ab = 90 ⇒ ab = 6.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q118" data-correct="">
+  <div class="mcq-question">प्रश्न 118. समीकरण (3x+1)/(2x–1) = 4/3 को हल कीजिए। (क) –7 (ख) 7 (ग) 1 (घ) –1 सही</div>
+  <details class="mcq-answer" id="ans_q118">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) –7</strong></div>
+      <div class="mcq-answer__solution">💡 तिर्यक गुणा : 3(3x+1) = 4(2x–1) ⇒ 9x+3 = 8x–4 ⇒ x = –7.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 8</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q119" data-correct="">
+  <div class="mcq-question">प्रश्न 119. एक राशि A, B, C में इस प्रकार बाँटी जाती है कि A को B और C के योग का आधा मिलता है, तथा B को A और C के योग का एक-तिहाई मिलता है। यदि कुल राशि ₹120 है, तो A का हिस्सा (₹ में) है : (क) 40 (ख) 30 (ग) 60 (घ) 50 सही</div>
+  <details class="mcq-answer" id="ans_q119">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 40</strong></div>
+      <div class="mcq-answer__solution">💡 माना A, B, C के हिस्से. A = (1/2)(B+C) ⇒ 2 A = B+C. B = (1/3)(A+C) ⇒ 3 B = A+C. और A+B+C=120. पहले से, B+C = 120–A, अतः 2 A = 120–A ⇒ 3 A = 120 ⇒ A = 40.</div>
+      <div class="mcq-answer__source">📚 SSC CGL (रूपांतरित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q120" data-correct="">
+  <div class="mcq-question">प्रश्न 120. यदि √x + 1/√x = 3 हो, तो x² + 1/x² का मान है : (क) 47 (ख) 49 (ग) 7 (घ) 34 सही</div>
+  <details class="mcq-answer" id="ans_q120">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 47</strong></div>
+      <div class="mcq-answer__solution">💡 (√x + 1/√x)² = x + 1/x + 2 ⇒ 9 = x + 1/x + 2 ⇒ x + 1/x = 7. अब (x + 1/x)² = x² + 1/x² + 2 ⇒ 49 = x² + 1/x² + 2 ⇒ x² + 1/x² = 47.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q121" data-correct="">
+  <div class="mcq-question">प्रश्न 121. यदि x = √3 + √2 हो, तो x⁴ + 1/x⁴ का मान है : (क) 98 (ख) 100 (ग) 94 (घ) 102 सही</div>
+  <details class="mcq-answer" id="ans_q121">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 98</strong></div>
+      <div class="mcq-answer__solution">💡 1/x = 1/(√3+√2) = √3–√2. अतः x + 1/x = 2√3. वर्ग करने पर : x² + 1/x² = (2√3)² – 2 = 12 – 2 = 10. पुनः वर्ग करने पर : x⁴ + 1/x⁴ = 10² – 2 = 98.</div>
+      <div class="mcq-answer__source">📚 SSC CGL Tier II (रूपांतरित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q122" data-correct="">
+  <div class="mcq-question">प्रश्न 122. यदि a² + b² + c² = 2(a – b – c) – 3 हो, तो a + b + c का मान है : (क) 1 (ख) –1 (ग) 3 (घ) –3 सही</div>
+  <details class="mcq-answer" id="ans_q122">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(ख) –1</strong></div>
+      <div class="mcq-answer__solution">💡 दिया है : a² + b² + c² – 2a + 2b + 2c + 3 = 0 ⇒ (a²–2a+1) + (b²+2b+1) + (c²+2c+1) = 0 ⇒ (a–1)² + (b+1)² + (c+1)² = 0. वर्गों का योग शून्य हो, तो प्रत्येक पद शून्य : a=1, b=–1, c=–1. तब a+b+c = –1.</div>
+      <div class="mcq-answer__source">📚 SSC CGL (रूपांतरित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q123" data-correct="">
+  <div class="mcq-question">प्रश्न 123. समीकरण (x² – 5x + 6)(x² – 7x + 12) = 0 के भिन्न वास्तविक मूलों की संख्या है : (क) 3 (ख) 4 (ग) 2 (घ) 1 सही</div>
+  <details class="mcq-answer" id="ans_q123">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 3</strong></div>
+      <div class="mcq-answer__solution">💡 गुणनखंड करें : x²–5x+6 = (x–2)(x–3); x²–7x+12 = (x–3)(x–4). समीकरण : (x–2)(x–3)²(x–4)=0. भिन्न वास्तविक मूल 2, 3, 4 हैं। अतः संख्या 3.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q124" data-correct="">
+  <div class="mcq-question">प्रश्न 124. (1 + 1/2)(1 + 1/3)(1 + 1/4) …… (1 + 1/100) का मान है : (क) 101/2 (ख) 101/100 (ग) 100 (घ) 2 सही</div>
+  <details class="mcq-answer" id="ans_q124">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 101/2</strong></div>
+      <div class="mcq-answer__solution">💡 प्रत्येक गुणनखंड = (n+1)/n. गुणनफल = (3/2)×(4/3)×(5/4)×…×(101/100). सभी बीच की संख्याएँ कट जाती हैं, शेष बचता है 101/2.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10 (दूरबीन गुणनफल)</div>
+    </div>
+  </details>
+</div>
+
+<h2 class="mcq-set-title">📝 Set 6</h2>
+<div class="mcq-card" id="card_q125" data-correct="">
+  <div class="mcq-question">प्रश्न 125. समीकरण √(x+3) + √(x–2) = 5 को हल कीजिए। (क) 6 (ख) 7 (ग) 8 (घ) 5 सही</div>
+  <details class="mcq-answer" id="ans_q125">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 6</strong></div>
+      <div class="mcq-answer__solution">💡 दोनों ओर वर्ग करें : (x+3)+(x–2)+2√{(x+3)(x–2)} = 25 ⇒ 2x+1+2√(x²+x–6) = 25 ⇒ 2√(x²+x–6) = 24–2x ⇒ √(x²+x–6) = 12–x. पुनः वर्ग करें : x²+x–6 = 144 – 24x + x² ⇒ 25x = 150 ⇒ x = 6. जाँच : √9+√4=3+2=5. सही।</div>
+      <div class="mcq-answer__source">📚 SSC CGL (करणी)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q126" data-correct="">
+  <div class="mcq-question">प्रश्न 126. यदि a + b + c = 0 हो, तो (a+b)(b+c)(c+a)/abc का मान है : (क) 1 (ख) –1 (ग) 0 (घ) 3 सही</div>
+  <details class="mcq-answer" id="ans_q126">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(ख) –1</strong></div>
+      <div class="mcq-answer__solution">💡 a+b+c=0 ⇒ a+b = –c, b+c = –a, c+a = –b. गुणनफल = (–c)(–a)(–b) = –abc. अतः व्यंजक = –abc/abc = –1.</div>
+      <div class="mcq-answer__source">📚 SSC CGL (रूपांतरित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q127" data-correct="">
+  <div class="mcq-question">प्रश्न 127. समीकरण 4ˣ – 3·2ˣ + 2 = 0 के हल हैं : (क) केवल x = 0 (ख) केवल x = 1 (ग) x = 0, 1 (घ) x = 2 सही</div>
+  <details class="mcq-answer" id="ans_q127">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(ग) x = 0, 1</strong></div>
+      <div class="mcq-answer__solution">💡 माना 2ˣ = y. तब y² – 3y + 2 = 0 ⇒ (y–1)(y–2)=0 ⇒ y=1 या 2. 2ˣ=1 ⇒ x=0; 2ˣ=2 ⇒ x=1.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10 (घातांक)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q128" data-correct="">
+  <div class="mcq-question">प्रश्न 128. यदि x = √2 + 1 हो, तो (x – 1/x)⁴ का मान है : (क) 16 (ख) 4 (ग) 64 (घ) 256 सही</div>
+  <details class="mcq-answer" id="ans_q128">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 16</strong></div>
+      <div class="mcq-answer__solution">💡 1/x = 1/(√2+1) = √2–1. इसलिए x – 1/x = (√2+1)–(√2–1) = 2. अतः (x – 1/x)⁴ = 2⁴ = 16.</div>
+      <div class="mcq-answer__source">📚 SSC CGL (रूपांतरित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q129" data-correct="">
+  <div class="mcq-question">प्रश्न 129. यदि x² + 1/x² = 7 हो, तो x³ + 1/x³ का मान होगा : (क) 18 (ख) 21 (ग) 14 (घ) 28 सही</div>
+  <details class="mcq-answer" id="ans_q129">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 18</strong></div>
+      <div class="mcq-answer__solution">💡 (x + 1/x)² = x² + 1/x² + 2 = 9 ⇒ x + 1/x = 3 (धनात्मक मानते हुए). तब x³ + 1/x³ = (x+1/x)³ – 3(x+1/x) = 27 – 9 = 18.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9 (सर्वसमिकाएँ)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q130" data-correct="">
+  <div class="mcq-question">प्रश्न 130. दो संख्याओं का अंतर 4 है और उनके घनों का अंतर 316 है। उनके वर्गों का योग क्या है? (क) 58 (ख) 62 (ग) 50 (घ) 64 सही</div>
+  <details class="mcq-answer" id="ans_q130">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 58</strong></div>
+      <div class="mcq-answer__solution">💡 माना संख्याएँ a, b (a&gt;b). a–b = 4. a³ – b³ = (a–b)(a²+ab+b²) = 4(a²+ab+b²) = 316 ⇒ a²+ab+b² = 79. साथ ही (a–b)² = a²–2ab+b² = 16. घटाने पर 3ab = 63 ⇒ ab = 21. अतः a²+b² = 79 – 21 = 58.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9 (रूपांतरित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q131" data-correct="">
+  <div class="mcq-question">प्रश्न 131. यदि (a+b)/c = (b+c)/a = (c+a)/b = k हो, तो k के संभावित मान हैं : (क) केवल 2 (ख) केवल –1 (ग) 2 या –1 (घ) केवल 1 सही</div>
+  <details class="mcq-answer" id="ans_q131">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(ग) 2 या –1</strong></div>
+      <div class="mcq-answer__solution">💡 यदि a+b+c ≠ 0, तो अंशों और हरों का योग करने पर k = 2(a+b+c)/(a+b+c) = 2. यदि a+b+c = 0 हो, तो a+b = –c, इसलिए k = –c/c = –1. अतः k = 2 या –1.</div>
+      <div class="mcq-answer__source">📚 SSC CHSL (रूपांतरित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q132" data-correct="">
+  <div class="mcq-question">प्रश्न 132. यदि x + y + z = 0 हो, तो x²/yz + y²/zx + z²/xy का मान है : (क) 0 (ख) 1 (ग) 3 (घ) –3 सही</div>
+  <details class="mcq-answer" id="ans_q132">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(ग) 3</strong></div>
+      <div class="mcq-answer__solution">💡 व्यंजक = x³/xyz + y³/xyz + z³/xyz = (x³+y³+z³)/xyz. x+y+z=0 के लिए सर्वसमिका x³+y³+z³ = 3xyz. अतः मान = 3xyz/xyz = 3 (जब x,y,z ≠ 0).</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9 (सर्वसमिकाएँ)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q133" data-correct="">
+  <div class="mcq-question">प्रश्न 133. (1 + 1/2)(1 + 1/3)(1 + 1/4)…(1 + 1/100) का मान है : (क) 101/2 (ख) 101/100 (ग) 100/2 (घ) 101/50 सही</div>
+  <details class="mcq-answer" id="ans_q133">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 101/2</strong></div>
+      <div class="mcq-answer__solution">💡 प्रत्येक गुणनखंड = (n+1)/n. गुणनफल = (3/2)×(4/3)×(5/4)×…×(101/100) = 101/2.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10 (दूरबीन गुणनफल)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q134" data-correct="">
+  <div class="mcq-question">प्रश्न 134. यदि 2x + 3y = 78 और 3x + 2y = 72 हो, तो xy का मान है : (क) 216 (ख) 210 (ग) 196 (घ) 200 सही</div>
+  <details class="mcq-answer" id="ans_q134">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 216</strong></div>
+      <div class="mcq-answer__solution">💡 जोड़ने पर 5x+5y = 150 ⇒ x+y = 30. घटाने पर –x+y = 6 ⇒ y–x = 6. हल करने पर y = 18, x = 12. इसलिए xy = 216.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10 (रैखिक समीकरण)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q135" data-correct="">
+  <div class="mcq-question">प्रश्न 135. यदि x² – 3x + 1 = 0 हो, तो x⁵ + 1/x⁵ का मान है : (क) 123 (ख) 126 (ग) 132 (घ) 119 सही</div>
+  <details class="mcq-answer" id="ans_q135">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 123</strong></div>
+      <div class="mcq-answer__solution">💡 x²+1 = 3x ⇒ x + 1/x = 3. x²+1/x² = 3²–2 = 7. x³+1/x³ = 3³–3·3 = 18. अब (x²+1/x²)(x³+1/x³) = x⁵+1/x⁵ + x+1/x ⇒ 7×18 = x⁵+1/x⁵ + 3 ⇒ 126 = x⁵+1/x⁵ + 3 ⇒ x⁵+1/x⁵ = 123.</div>
+      <div class="mcq-answer__source">📚 SSC CGL Tier II (रूपांतरित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q136" data-correct="">
+  <div class="mcq-question">प्रश्न 136. वास्तविक x के लिए समीकरण √(x+3) + √(x–2) = 5 का हल है : (क) 6 (ख) 7 (ग) 5 (घ) 8 सही</div>
+  <details class="mcq-answer" id="ans_q136">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 6</strong></div>
+      <div class="mcq-answer__solution">💡 दोनों ओर वर्ग करें: (x+3)+(x–2)+2√((x+3)(x–2)) = 25 ⇒ 2x+1+2√(x²+x–6) = 25 ⇒ √(x²+x–6) = 12–x. पुनः वर्ग करें: x²+x–6 = 144 – 24x + x² ⇒ 25x = 150 ⇒ x = 6. जाँच: √9 + √4 = 3+2 = 5.</div>
+      <div class="mcq-answer__source">📚 SSC CGL (करणी)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q137" data-correct="">
+  <div class="mcq-question">प्रश्न 137. यदि x + 1/x = –1 हो, तो x¹² + 1/x¹² का मान है : (क) 2 (ख) –2 (ग) 1 (घ) –1 सही</div>
+  <details class="mcq-answer" id="ans_q137">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 2</strong></div>
+      <div class="mcq-answer__solution">💡 x + 1/x = –1 ⇒ x² + x + 1 = 0 (x से गुणा करने पर). ⇒ x³ – 1 = 0 पर x ≠ 1, अतः x³ = 1. तब x¹² = (x³)⁴ = 1. इसलिए x¹² + 1/x¹² = 2.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9 (सम्मिश्र मूल/चक्रीयता)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q138" data-correct="">
+  <div class="mcq-question">प्रश्न 138. यदि a² + b² = 117 और ab = 54 हो, तो a+b का मान ज्ञात कीजिए (a, b धनात्मक हैं). (क) 15 (ख) 13 (ग) 17 (घ) 9 सही</div>
+  <details class="mcq-answer" id="ans_q138">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 15</strong></div>
+      <div class="mcq-answer__solution">💡 (a+b)² = a²+b²+2ab = 117+108 = 225 ⇒ a+b = 15.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9 (सर्वसमिकाएँ)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q139" data-correct="">
+  <div class="mcq-question">प्रश्न 139. समीकरण (x–1)(x–2)(x–3) = 24 के मूलों का योग है : (क) 6 (ख) –6 (ग) 5 (घ) –5 सही</div>
+  <details class="mcq-answer" id="ans_q139">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 6</strong></div>
+      <div class="mcq-answer__solution">💡 बायाँ पक्ष = x³ – 6x² + 11x – 6. समीकरण: x³ – 6x² + 11x – 30 = 0. मूलों का योग = –(–6)/1 = 6.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10 (बहुपद)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q140" data-correct="">
+  <div class="mcq-question">प्रश्न 140. यदि a/2 = b/3 = c/4 और a + 2b + 3c = 40 हो, तो a का मान है : (क) 4 (ख) 6 (ग) 8 (घ) 2 सही</div>
+  <details class="mcq-answer" id="ans_q140">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 4</strong></div>
+      <div class="mcq-answer__solution">💡 माना a=2k, b=3k, c=4k. तब a+2b+3c = 2k+6k+12k = 20k = 40 ⇒ k=2. अतः a=4.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10 (रैखिक समीकरण)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q141" data-correct="">
+  <div class="mcq-question">प्रश्न 141. एक गुणोत्तर श्रेणी के तीन क्रमागत पदों का योग 21 और गुणनफल 216 है। सबसे बड़ा पद है : (क) 12 (ख) 9 (ग) 6 (घ) 18 सही</div>
+  <details class="mcq-answer" id="ans_q141">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 12</strong></div>
+      <div class="mcq-answer__solution">💡 माना पद a/r, a, ar. गुणनफल = a³ = 216 ⇒ a = 6. योग: 6/r + 6 + 6r = 21 ⇒ 6(1/r + 1 + r) = 21 ⇒ 1/r + r = 5/2. 2 से गुणा करने पर 2 + 2r² = 5r ⇒ 2r² – 5r + 2 = 0 ⇒ (2r–1)(r–2)=0 ⇒ r=2 या 1/2. पद 3, 6, 12. सबसे बड़ा = 12.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10 (गुणोत्तर श्रेणी)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q142" data-correct="">
+  <div class="mcq-question">प्रश्न 142. यदि √x + y = 7 और x + √y = 11 हो (x, y पूर्णांक), तो x और y के मान हैं : (क) x = 9, y = 4 (ख) x = 4, y = 9 (ग) x = 16, y = 1 (घ) x = 1, y = 16 सही</div>
+  <details class="mcq-answer" id="ans_q142">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) x = 9, y = 4</strong></div>
+      <div class="mcq-answer__solution">💡 माना a=√x, b=√y. तब a + b² = 7, a² + b = 11. प्रयास से a=3 ⇒ b²=4 ⇒ b=2. तब a²+b=9+2=11. अतः √x=3 ⇒ x=9, √y=2 ⇒ y=4.</div>
+      <div class="mcq-answer__source">📚 SSC CGL (रूपांतरित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q143" data-correct="">
+  <div class="mcq-question">प्रश्न 143. समीकरण 2ˣ⁺² + 2ˣ⁻¹ = 9 को हल कीजिए। (क) x = 0 (ख) x = 1 (ग) x = 2 (घ) x = –1 सही</div>
+  <details class="mcq-answer" id="ans_q143">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(ख) x = 1</strong></div>
+      <div class="mcq-answer__solution">💡 2ˣ⁻¹(2³ + 1) = 2ˣ⁻¹(8+1) = 9·2ˣ⁻¹ = 9 ⇒ 2ˣ⁻¹ = 1 ⇒ x–1 = 0 ⇒ x = 1.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10 (घातांक)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q144" data-correct="">
+  <div class="mcq-question">प्रश्न 144. यदि (a+b):(b+c):(c+a) = 3:4:5 और a+b+c = 24 हो, तो c का मान है : (क) 8 (ख) 12 (ग) 16 (घ) 10 सही</div>
+  <details class="mcq-answer" id="ans_q144">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(ख) 12</strong></div>
+      <div class="mcq-answer__solution">💡 माना a+b=3k, b+c=4k, c+a=5k. तीनों का योग = 2(a+b+c) = 12k ⇒ 48 = 12k ⇒ k=4. तब c = (c+a + b+c – (a+b))/2 = (5k+4k–3k)/2 = 6k/2 = 3k = 12.</div>
+      <div class="mcq-answer__source">📚 SSC CGL (रूपांतरित)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q145" data-correct="">
+  <div class="mcq-question">प्रश्न 145. यदि x + 1/x = 2 हो, तो x¹⁰⁰ + 1/x¹⁰⁰ किसके बराबर होगा? (क) 2 (ख) 1 (ग) 0 (घ) 2¹⁰⁰ सही</div>
+  <details class="mcq-answer" id="ans_q145">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 2</strong></div>
+      <div class="mcq-answer__solution">💡 x + 1/x = 2 ⇒ (x–1)²/x = 0 ⇒ x = 1. इसलिए x¹⁰⁰ + 1/x¹⁰⁰ = 1+1 = 2.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 9</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q146" data-correct="">
+  <div class="mcq-question">प्रश्न 146. (1 – 1/2²)(1 – 1/3²)…(1 – 1/100²) का मान है : (क) 101/200 (ख) 99/200 (ग) 101/100 (घ) 99/100 सही</div>
+  <details class="mcq-answer" id="ans_q146">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 101/200</strong></div>
+      <div class="mcq-answer__solution">💡 प्रत्येक गुणनखंड = (n–1)(n+1)/n². गुणनफल = (1·3/2²)(2·4/3²)(3·5/4²)…(99·101/100²). दूरबीन सरलीकरण से = (1/2)·(101/100) = 101/200.</div>
+      <div class="mcq-answer__source">📚 SSC CGL (दूरबीन गुणनफल)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q147" data-correct="">
+  <div class="mcq-question">प्रश्न 147. यदि a+b+c = 5, ab+bc+ca = 3, abc = –1 हो, तो a³+b³+c³ का मान है : (क) 77 (ख) 80 (ग) 75 (घ) 85 सही</div>
+  <details class="mcq-answer" id="ans_q147">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 77</strong></div>
+      <div class="mcq-answer__solution">💡 a²+b²+c² = (a+b+c)² – 2(ab+bc+ca) = 25 – 6 = 19. सर्वसमिका: a³+b³+c³ – 3abc = (a+b+c)(a²+b²+c² – ab–bc–ca) = 5(19–3) = 5×16 = 80. अतः a³+b³+c³ = 80 + 3(–1) = 77.</div>
+      <div class="mcq-answer__source">📚 SSC CGL (सर्वसमिकाएँ)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q148" data-correct="">
+  <div class="mcq-question">प्रश्न 148. यदि बहुपद x³+ax²+bx+c के मूल 1, 2, 3 हों, तो a+b+c का मान है : (क) –1 (ख) 1 (ग) –6 (घ) 11 सही</div>
+  <details class="mcq-answer" id="ans_q148">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) –1</strong></div>
+      <div class="mcq-answer__solution">💡 मूलों का योग = –a = 1+2+3 = 6 ⇒ a = –6. दो-दो के गुणनफल का योग = b = 1·2 + 2·3 + 3·1 = 11. मूलों का गुणनफल = –c = 1·2·3 = 6 ⇒ c = –6. अतः a+b+c = –6+11–6 = –1.</div>
+      <div class="mcq-answer__source">📚 NCERT Class 10 (बहुपद)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q149" data-correct="">
+  <div class="mcq-question">प्रश्न 149. यदि x = 2+√3 हो, तो x² – 4x + 1 का मान है : (क) 0 (ख) 1 (ग) 2 (घ) 4 सही</div>
+  <details class="mcq-answer" id="ans_q149">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(क) 0</strong></div>
+      <div class="mcq-answer__solution">💡 (2+√3)² – 4(2+√3) + 1 = 4+4√3+3 – 8 – 4√3 + 1 = 0.</div>
+      <div class="mcq-answer__source">📚 SSC CGL (करणी)</div>
+    </div>
+  </details>
+</div>
+
+<div class="mcq-card" id="card_q150" data-correct="">
+  <div class="mcq-question">प्रश्न 150. वास्तविक x, y के लिए समीकरण निकाय 2ˣ + 2ʸ = 20 और x + y = 5 का हल है : (क) (2,3) केवल (ख) (4,1) केवल (ग) (2,3) या (4,1) (घ) कोई हल नहीं सही</div>
+  <details class="mcq-answer" id="ans_q150">
+    <summary>Show Solution</summary>
+    <div class="mcq-answer__inner">
+      <div class="mcq-answer__label">✅ Answer: <strong>(ग) (2,3) या (4,1)</strong></div>
+      <div class="mcq-answer__solution">💡 y = 5–x ⇒ 2ˣ + 2⁵⁻ˣ = 20. माना t = 2ˣ. तब t + 32/t = 20 ⇒ t² – 20t + 32 = 0 ⇒ (t–16)(t–4)=0. t=16 ⇒ x=4, y=1; t=4 ⇒ x=2, y=3. दोनों हल मान्य।</div>
+      <div class="mcq-answer__source">📚 SSC CGL (घातीय समीकरण)</div>
+    </div>
+  </details>
+</div>
+
+</section>
+</main>
+
+<footer class="ssg-footer" style="border-top:1px solid var(--glass-border);padding:2rem 1rem 4rem;text-align:center;color:var(--text-secondary);font-size:.85rem">
+<p><strong>Study Station</strong> — मुफ़्त अध्ययन सामग्री और सरकारी नौकरी अलर्ट.</p>
+</footer>
+<script src="../../../../js/theme.js"></script>
+</body>
+</html>

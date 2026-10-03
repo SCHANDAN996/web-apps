@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ book.title }} | Study Station Books</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <style>
+        :root{--bg:#08080e;--bg2:#101018;--bg3:#181825;--text:#eee;--text2:#888;--accent:#673AB7;--accent2:#9C27B0;--border:rgba(255,255,255,.08);--glass:rgba(20,20,35,.8);--r:14px;--success:#4CAF50;--warn:#FF9800;--danger:#F44336}
+        *{margin:0;padding:0;box-sizing:border-box;font-family:'Outfit',sans-serif}
+        body{background:var(--bg);color:var(--text);min-height:100vh}
+
+        /* Layout */
+        .reader-layout{display:grid;grid-template-columns:280px 1fr;min-height:100vh}
+        .reader-sidebar{background:var(--bg2);border-right:1px solid var(--border);padding:20px;overflow-y:auto;position:sticky;top:0;height:100vh}
+        .reader-main{padding:40px 60px;max-width:900px;margin:0 auto}
+
+        /* Sidebar */
+        .book-cover{text-align:center;padding:24px 16px;border-radius:var(--r);margin-bottom:20px;position:relative;overflow:hidden}
+        .book-cover::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(103,58,183,.3),rgba(156,39,176,.2));z-index:0}
+        .book-cover *{position:relative;z-index:1}
+        .book-icon{font-size:3rem;margin-bottom:10px}
+        .book-title-side{font-size:1.1rem;font-weight:700}
+        .book-sub-side{font-size:.8rem;color:var(--text2);margin-top:4px}
+
+        .lang-toggle{display:flex;border-radius:8px;overflow:hidden;border:1px solid var(--border);margin-bottom:20px}
+        .lang-btn{flex:1;padding:8px;text-align:center;cursor:pointer;font-size:.85rem;font-weight:600;background:transparent;border:none;color:var(--text2);transition:.2s}
+        .lang-btn.active{background:var(--accent);color:#fff}
+
+        .toc-title{font-size:.8rem;color:var(--text2);text-transform:uppercase;letter-spacing:1px;margin-bottom:12px}
+        .toc-item{padding:10px 14px;border-radius:8px;cursor:pointer;font-size:.9rem;margin-bottom:4px;transition:.2s;display:flex;align-items:center;gap:8px;color:var(--text2)}
+        .toc-item:hover{background:rgba(255,255,255,.05);color:var(--text)}
+        .toc-item.active{background:rgba(103,58,183,.15);color:var(--accent);font-weight:600}
+        .toc-num{width:24px;height:24px;border-radius:50%;background:rgba(255,255,255,.05);display:flex;align-items:center;justify-content:center;font-size:.7rem;font-weight:700;flex-shrink:0}
+
+        /* Content Area */
+        .chapter-header{margin-bottom:40px;padding-bottom:20px;border-bottom:1px solid var(--border)}
+        .chapter-header h1{font-size:2rem;line-height:1.3}
+        .chapter-meta{display:flex;gap:16px;margin-top:10px;color:var(--text2);font-size:.85rem;flex-wrap:wrap}
+
+        /* Modules bar */
+        .modules-bar{display:flex;gap:8px;margin-bottom:30px;flex-wrap:wrap}
+        .mod-btn{padding:8px 16px;border-radius:20px;border:1px solid var(--border);background:transparent;color:var(--text2);cursor:pointer;font-size:.8rem;font-weight:500;transition:.2s;display:flex;align-items:center;gap:6px}
+        .mod-btn:hover{border-color:var(--accent);color:var(--text)}
+        .mod-btn.active{background:var(--accent);border-color:var(--accent);color:#fff}
+
+        /* Content Prose */
+        .prose{line-height:1.9;font-size:1.05rem}
+        .prose h2{font-size:1.5rem;margin:32px 0 16px;color:var(--accent);border-left:3px solid var(--accent);padding-left:12px}
+        .prose h3{font-size:1.2rem;margin:24px 0 12px}
+        .prose p{margin-bottom:16px}
+        .prose ul,.prose ol{margin:12px 0 16px 24px}
+        .prose li{margin-bottom:6px}
+        .prose strong{color:#fff}
+        .prose blockquote{border-left:3px solid var(--warn);padding:12px 16px;background:rgba(255,152,0,.06);border-radius:0 8px 8px 0;margin:16px 0;font-style:italic}
+        .prose table{width:100%;border-collapse:collapse;margin:16px 0}
+        .prose th,.prose td{border:1px solid var(--border);padding:10px 14px;text-align:left}
+        .prose th{background:rgba(103,58,183,.1);font-weight:600}
+        .prose code{background:rgba(255,255,255,.06);padding:2px 6px;border-radius:4px;font-size:.9em}
+
+        /* Recall Prompt Box */
+        .recall-box{background:linear-gradient(135deg,rgba(103,58,183,.08),rgba(156,39,176,.05));border:1px solid rgba(103,58,183,.2);border-radius:var(--r);padding:20px;margin:24px 0;position:relative}
+        .recall-box::before{content:'🤔';position:absolute;top:-14px;left:20px;font-size:1.5rem;background:var(--bg);padding:0 6px}
+        .recall-title{font-weight:700;color:var(--accent);margin-bottom:8px;font-size:1rem}
+        .recall-q{font-size:1rem;margin-bottom:12px}
+        .recall-toggle{padding:8px 16px;border-radius:8px;border:1px solid var(--accent);background:transparent;color:var(--accent);cursor:pointer;font-size:.85rem;font-weight:500;margin-right:8px;transition:.2s}
+        .recall-toggle:hover{background:var(--accent);color:#fff}
+        .recall-answer{display:none;margin-top:12px;padding:12px;background:rgba(76,175,80,.08);border-radius:8px;border:1px solid rgba(76,175,80,.2)}
+
+        /* Feynman Box */
+        .feynman-box{background:linear-gradient(135deg,rgba(255,152,0,.06),rgba(255,87,34,.04));border:1px solid rgba(255,152,0,.15);border-radius:var(--r);padding:20px;margin:24px 0}
+        .feynman-box h3{color:var(--warn);margin-bottom:10px;display:flex;align-items:center;gap:8px}
+
+        /* Formula Card */
+        .formula-card{background:var(--bg3);border:1px solid var(--border);border-radius:var(--r);padding:16px;margin:12px 0;display:flex;align-items:center;gap:16px}
+        .formula-card .f-name{font-weight:600;font-size:.9rem;min-width:120px;color:var(--accent)}
+        .formula-card .f-expr{font-size:1.1rem;flex:1}
+
+        /* Mind Map */
+        .mindmap-container{background:var(--bg2);border:1px solid var(--border);border-radius:var(--r);padding:30px;margin:24px 0;text-align:center;min-height:300px;position:relative}
+        .mm-center{display:inline-block;padding:12px 24px;background:var(--accent);color:#fff;border-radius:25px;font-weight:700;font-size:1rem;position:relative;z-index:2}
+        .mm-branch{display:inline-flex;flex-direction:column;align-items:center;gap:6px;margin:20px;vertical-align:top}
+        .mm-node{padding:8px 16px;border-radius:8px;font-size:.85rem;font-weight:500;border:1px solid var(--border)}
+        .mm-child{padding:5px 12px;border-radius:6px;font-size:.75rem;background:rgba(255,255,255,.03);border:1px solid var(--border)}
+
+        /* PYQ & Practice Box */
+        .pyq-box{background:var(--bg3);border:1px solid var(--border);border-radius:var(--r);padding:24px;margin:24px 0;box-shadow:0 4px 20px rgba(0,0,0,.2)}
+        .pyq-box h3{color:#2196F3;margin-bottom:12px}
+        .pyq-option{padding:12px 16px;border:1px solid var(--border);border-radius:10px;margin:8px 0;cursor:pointer;transition:all .2s;font-size:.95rem;display:flex;align-items:center;gap:12px;background:rgba(255,255,255,.02)}
+        .pyq-option:hover{border-color:var(--accent);background:rgba(103,58,183,.05);transform:translateX(4px)}
+        .pyq-option.correct{border-color:var(--success);background:rgba(76,175,80,.1)}
+        .pyq-option.wrong{border-color:var(--danger);background:rgba(244,67,54,.1)}
+        .pyq-option .opt-letter{background:rgba(255,255,255,.08);color:var(--text);width:28px;height:28px;display:inline-flex;align-items:center;justify-content:center;border-radius:6px;font-weight:700;font-size:.85rem}
+        .pyq-option.correct .opt-letter{background:var(--success);color:#fff}
+        .pyq-option.wrong .opt-letter{background:var(--danger);color:#fff}
+
+        /* Flashcard */
+        .flashcard{background:var(--bg3);border:1px solid var(--border);border-radius:var(--r);padding:24px;margin:12px 0;cursor:pointer;text-align:center;min-height:120px;display:flex;align-items:center;justify-content:center;transition:transform .6s;transform-style:preserve-3d;position:relative}
+        .flashcard:hover{border-color:var(--accent)}
+        .flashcard .fc-front,.flashcard .fc-back{width:100%}
+        .flashcard .fc-back{display:none;color:var(--success)}
+
+        /* Weightage Chart */
+        .weightage-chart{margin:16px 0}
+        .wt-row{display:flex;align-items:center;gap:12px;margin-bottom:8px}
+        .wt-label{width:100px;font-size:.8rem;color:var(--text2);text-align:right}
+        .wt-bar-bg{flex:1;height:22px;background:rgba(255,255,255,.04);border-radius:4px;overflow:hidden}
+        .wt-bar{height:100%;border-radius:4px;transition:width 1s ease;display:flex;align-items:center;padding-left:8px;font-size:.7rem;font-weight:600;color:#fff}
+        .wt-val{width:30px;font-size:.8rem;text-align:center}
+
+        /* Spaced Repetition Reminder */
+        .sr-reminder{position:fixed;bottom:24px;right:24px;background:var(--bg3);border:1px solid var(--accent);border-radius:var(--r);padding:16px 20px;z-index:100;display:none;max-width:300px;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+
+        /* Nav buttons */
+        .chapter-nav{display:flex;justify-content:space-between;margin-top:60px;padding-top:24px;border-top:1px solid var(--border)}
+        .nav-btn{padding:12px 24px;border-radius:8px;border:1px solid var(--border);background:transparent;color:var(--text);cursor:pointer;font-weight:500;transition:.2s;display:flex;align-items:center;gap:8px}
+        .nav-btn:hover{border-color:var(--accent);color:var(--accent)}
+
+        @media(max-width:768px){
+            .reader-layout{grid-template-columns:1fr}
+            .reader-sidebar{display:none}
+            .reader-main{padding:20px}
+        }
+    </style>
+</head>
+<body>
+<div class="reader-layout">
+    <!-- Sidebar -->
+    <div class="reader-sidebar">
+        <div class="book-cover" style="background:{{ book.cover_color or '#673AB7' }}20">
+            <div class="book-icon">{{ book.icon }}</div>
+            <div class="book-title-side">{{ book.title }}</div>
+            <div class="book-sub-side">{{ book.subtitle or book.target_exam }}</div>
+        </div>
+
+        <div class="lang-toggle">
+            <button class="lang-btn active" onclick="switchLang('en')">English</button>
+            <button class="lang-btn" onclick="switchLang('hi')">हिंदी</button>
+        </div>
+
+        <div class="toc-title">📑 Chapters</div>
+        <div id="tocList">
+            {% for ch in book.chapters %}
+            <div class="toc-item {% if loop.first %}active{% endif %}" onclick="loadChapter({{ ch.id }},this)" data-id="{{ ch.id }}">
+                <div class="toc-num">{{ ch.order }}</div>
+                <span class="toc-text-en">{{ ch.title_en }}</span>
+                <span class="toc-text-hi" style="display:none">{{ ch.title_hi or ch.title_en }}</span>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Main Reader -->
+    <div class="reader-main" id="readerMain">
+        <div id="loadingState" style="text-align:center;padding:100px 0;color:var(--text2)">
+            <div style="font-size:3rem;margin-bottom:16px">📖</div>
+            <p>Loading chapter...</p>
+        </div>
+        <div id="chapterContent" style="display:none"></div>
+    </div>
+</div>
+
+<script>
+let currentLang = 'en';
+let currentChapterId = null;
+let chapterCache = {};
+const bookChapters = [{% for ch in book.chapters %}{{ ch.id }}{% if not loop.last %},{% endif %}{% endfor %}];
+
+// Load first chapter on page load
+document.addEventListener('DOMContentLoaded', () => {
+    if (bookChapters.length > 0) loadChapter(bookChapters[0]);
+    // KaTeX auto-render
+    if (typeof renderMathInElement === 'function') {
+        setTimeout(() => renderMathInElement(document.body, {delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}]}), 1000);
+    }
+});
+
+function switchLang(lang) {
+    currentLang = lang;
+    document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+    document.querySelector(`.lang-btn[onclick="switchLang('${lang}')"]`).classList.add('active');
+    // Toggle TOC language
+    document.querySelectorAll('.toc-text-en').forEach(el => el.style.display = lang==='en'?'':'none');
+    document.querySelectorAll('.toc-text-hi').forEach(el => el.style.display = lang==='hi'?'':'none');
+    // Re-render current chapter
+    if (currentChapterId && chapterCache[currentChapterId]) renderChapter(chapterCache[currentChapterId]);
+}
+
+async function loadChapter(chId, tocEl) {
+    currentChapterId = chId;
+    // Update TOC active
+    document.querySelectorAll('.toc-item').forEach(t => t.classList.remove('active'));
+    if (tocEl) tocEl.classList.add('active');
+    else document.querySelector(`.toc-item[data-id="${chId}"]`)?.classList.add('active');
+
+    document.getElementById('loadingState').style.display = 'block';
+    document.getElementById('chapterContent').style.display = 'none';
+
+    if (chapterCache[chId]) {
+        renderChapter(chapterCache[chId]);
+        return;
+    }
+
+    try {
+        const res = await fetch(`/api/chapters/${chId}`);
+        const json = await res.json();
+        if (json.success) {
+            chapterCache[chId] = json.data;
+            renderChapter(json.data);
+        }
+    } catch(e) {
+        document.getElementById('loadingState').innerHTML = `<p style="color:var(--danger)">Failed to load: ${e.message}</p>`;
+    }
+}
+
+function renderChapter(data) {
+    const content = currentLang === 'hi' ? (data.contentHi || data.contentEn || '') : (data.contentEn || '');
+    const title = currentLang === 'hi' ? (data.titleHi || data.titleEn) : data.titleEn;
+    const feynman = currentLang === 'hi' ? (data.feynmanHi || data.feynmanEn || '') : (data.feynmanEn || '');
+    const prompts = currentLang === 'hi' ? (data.retrievalPromptsHi?.length ? data.retrievalPromptsHi : data.retrievalPromptsEn) : data.retrievalPromptsEn;
+    const cards = currentLang === 'hi' ? (data.spacedCardsHi?.length ? data.spacedCardsHi : data.spacedCardsEn) : data.spacedCardsEn;
+
+    let html = `<div class="chapter-header"><h1>${title}</h1>
+        <div class="chapter-meta">
+            <span>📖 ${data.wordCount||0} words</span>
+            <span>⏱ ${data.estimatedReadTime||0} min</span>
+            <span>📊 ${data.difficultyLevel||'—'}</span>
+            ${data.cognitiveLoadScore?`<span>🧠 CL: ${data.cognitiveLoadScore.toFixed(1)}/10</span>`:''}
+        </div></div>`;
+
+    // Modules bar
+    html += `<div class="modules-bar">
+        <button class="mod-btn active" onclick="showModule('content')">📖 Content</button>
+        ${feynman?'<button class="mod-btn" onclick="showModule(\'feynman\')">🧒 Feynman</button>':''}
+        ${data.keyFormulas?.length?'<button class="mod-btn" onclick="showModule(\'formulas\')">📐 Formulas</button>':''}
+        ${data.mindMapData?'<button class="mod-btn" onclick="showModule(\'mindmap\')">🗺️ Mind Map</button>':''}
+        ${cards?.length?'<button class="mod-btn" onclick="showModule(\'flashcards\')">🃏 Flashcards</button>':''}
+        ${data.pyqInline?.length?'<button class="mod-btn" onclick="showModule(\'pyq\')">📊 PYQ</button>':''}
+        ${(data.practiceQuestionsEn?.length || data.practiceQuestionsHi?.length) ? `<button class="mod-btn" onclick="showModule('practice')">📝 ${currentLang==='hi'?'अभ्यास':'Practice'}</button>`:''}
+    </div>`;
+
+    // Module: Content
+    html += `<div class="module" id="mod-content">${renderMarkdown(content)}`;
+    // Insert recall prompts inline
+    if (prompts?.length) {
+        prompts.forEach((p, i) => {
+            html += `<div class="recall-box"><div class="recall-title">🤔 ${currentLang==='hi'?'रुको और सोचो!':'Pause & Think!'}</div>
+                <div class="recall-q">${p.question}</div>
+                ${p.hint?`<button class="recall-toggle" onclick="this.nextElementSibling.style.display='block';this.style.display='none'">💡 ${currentLang==='hi'?'संकेत':'Hint'}</button><div style="display:none;margin-bottom:8px;color:var(--warn)">${p.hint}</div>`:''}
+                <button class="recall-toggle" onclick="this.nextElementSibling.style.display='block'">✅ ${currentLang==='hi'?'उत्तर देखें':'Show Answer'}</button>
+                <div class="recall-answer">${p.answer}</div></div>`;
+        });
+    }
+    html += `</div>`;
+
+    // Module: Feynman
+    if (feynman) {
+        html += `<div class="module" id="mod-feynman" style="display:none">
+            <div class="feynman-box"><h3>🧒 ${currentLang==='hi'?'सरल भाषा में समझें':'Explain Like I\'m 12'}</h3>${renderMarkdown(feynman)}</div></div>`;
+    }
+
+    // Module: Formulas
+    if (data.keyFormulas?.length) {
+        html += `<div class="module" id="mod-formulas" style="display:none"><h2 style="margin-bottom:16px;">📐 ${currentLang==='hi'?'मुख्य सूत्र':'Key Formulas'}</h2>`;
+        data.keyFormulas.forEach(f => {
+            html += `<div class="formula-card"><div class="f-name">${f.name}</div><div class="f-expr">${f.formula}</div></div>`;
+            if (f.when_to_use) html += `<p style="font-size:.85rem;color:var(--text2);margin:-8px 0 12px 0;padding-left:136px">📌 ${f.when_to_use}</p>`;
+        });
+        html += `</div>`;
+    }
+
+    // Module: Mind Map
+    if (data.mindMapData) {
+        const mm = data.mindMapData;
+        html += `<div class="module" id="mod-mindmap" style="display:none"><div class="mindmap-container">
+            <div class="mm-center">${mm.center||title}</div><br>`;
+        (mm.branches||[]).forEach(b => {
+            html += `<div class="mm-branch"><div class="mm-node" style="background:${b.color}22;border-color:${b.color}">${b.label}</div>`;
+            (b.children||[]).forEach(c => { html += `<div class="mm-child">${c.label}</div>`; });
+            html += `</div>`;
+        });
+        html += `</div></div>`;
+    }
+
+    // Module: Flashcards
+    if (cards?.length) {
+        html += `<div class="module" id="mod-flashcards" style="display:none"><h2 style="margin-bottom:16px;">🃏 ${currentLang==='hi'?'फ्लैशकार्ड्स':'Flashcards'}</h2>`;
+        cards.forEach((c, i) => {
+            html += `<div class="flashcard" onclick="flipCard(this)"><div class="fc-front"><strong>Q:</strong> ${c.front}</div><div class="fc-back"><strong>A:</strong> ${c.back}</div></div>`;
+        });
+        html += `</div>`;
+    }
+
+    // Module: PYQ
+    if (data.pyqInline?.length) {
+        html += `<div class="module" id="mod-pyq" style="display:none"><h2 style="margin-bottom:16px;">📊 Previous Year Questions</h2>`;
+        // Weightage chart
+        if (data.pyqWeightage && data.pyqWeightage.subConcepts) {
+            html += `<div class="weightage-chart">`;
+            data.pyqWeightage.subConcepts.forEach(sub => {
+                const name = currentLang === 'hi' ? sub.nameHi : sub.nameEn;
+                const total = sub.frequency;
+                const maxTotal = 10;
+                html += `<div class="wt-row"><div class="wt-label">${name}</div><div class="wt-bar-bg"><div class="wt-bar" style="width:${Math.min(100,total/maxTotal*100)}%;background:var(--accent)">${total}</div></div></div>`;
+            });
+            html += `</div><br>`;
+        }
+        data.pyqInline.forEach((q, i) => {
+            const questionText = currentLang === 'hi' ? (q.questionHi || q.question) : (q.questionEn || q.question);
+            const explanationText = currentLang === 'hi' ? (q.explanationHi || q.explanation) : (q.explanationEn || q.explanation);
+            const answer = q.correct || q.answer;
+
+            html += `<div class="pyq-box"><h3>📝 ${q.exam} ${q.year}</h3><p style="margin:10px 0">${questionText}</p>`;
+            (q.options||[]).forEach((opt, oi) => {
+                html += `<div class="pyq-option" onclick="checkPYQ(this,'${answer}','${String.fromCharCode(65+oi)}')">${opt}</div>`;
+            });
+            html += `<div class="recall-answer" style="margin-top:10px;display:none;">${explanationText||''}</div></div>`;
+        });
+        html += `</div>`;
+    }
+
+    // Module: Practice
+    const practiceQuestions = currentLang === 'hi' ? data.practiceQuestionsHi : data.practiceQuestionsEn;
+    
+    if (practiceQuestions?.length) {
+        const practiceTitle = currentLang === 'hi' ? '📝 अभ्यास प्रश्न' : '📝 Practice Set';
+        html += `<div class="module" id="mod-practice" style="display:none"><h2 style="margin-bottom:16px;">${practiceTitle}</h2>`;
+        
+        let currentSection = '';
+        practiceQuestions.forEach((q, i) => {
+            if (q.section && q.section !== currentSection) {
+                currentSection = q.section;
+                html += `<h3 style="margin:32px 0 16px;color:var(--accent);border-bottom:2px solid rgba(103,58,183,0.3);padding-bottom:8px;">${currentSection}</h3>`;
+            }
+            
+            html += `<div class="pyq-box">
+                <div style="font-weight:600;margin-bottom:16px;font-size:1.1rem;line-height:1.5;">Q${q.id || (i+1)}. ${q.question}</div>`;
+                
+            (q.options||[]).forEach((opt, oi) => {
+                const optLetter = opt.match(/^[A-D]/i) ? opt.charAt(0).toUpperCase() : String.fromCharCode(65+oi);
+                let optText = opt.replace(/^[A-D][\.\)]\s*/i, '');
+                html += `<div class="pyq-option" onclick="checkPractice(this,'${q.answer}','${optLetter}')">
+                            <span class="opt-letter">${optLetter}</span> 
+                            <span>${optText}</span>
+                         </div>`;
+            });
+            
+            const seeAnsText = currentLang === 'hi' ? '👀 उत्तर देखें' : '👀 See Answer';
+            html += `<button class="btn btn-outline btn-sm" style="margin-top:16px;border-color:rgba(255,255,255,0.2);background:rgba(255,255,255,0.05);" onclick="this.nextElementSibling.style.display='block'; this.style.display='none';">
+                        ${seeAnsText}
+                    </button>`;
+            
+            const solLabel = currentLang === 'hi' ? 'समाधान' : 'Solution';
+            const ansLabel = currentLang === 'hi' ? 'उत्तर' : 'Answer';
+            
+            html += `<div class="practice-answer" style="display:none;margin-top:16px;padding:16px;background:rgba(103,58,183,0.1);border-left:4px solid var(--accent);border-radius:0 8px 8px 0;line-height:1.6;">`;
+            if (q.solution) {
+                html += `<strong>${solLabel}:</strong> ${q.solution}`;
+            } else {
+                html += `<strong>${ansLabel}:</strong> ${q.answer}`;
+            }
+            html += `</div></div>`;
+        });
+        html += `</div>`;
+    }
+
+    // Chapter Navigation
+    const idx = bookChapters.indexOf(currentChapterId);
+    html += `<div class="chapter-nav">`;
+    if (idx > 0) html += `<button class="nav-btn" onclick="loadChapter(${bookChapters[idx-1]})"><ion-icon name="arrow-back"></ion-icon> Previous</button>`;
+    else html += `<div></div>`;
+    if (idx < bookChapters.length-1) html += `<button class="nav-btn" onclick="loadChapter(${bookChapters[idx+1]})">Next <ion-icon name="arrow-forward"></ion-icon></button>`;
+    html += `</div>`;
+
+    document.getElementById('chapterContent').innerHTML = html;
+    document.getElementById('chapterContent').style.display = 'block';
+    document.getElementById('loadingState').style.display = 'none';
+    window.scrollTo(0, 0);
+
+    // KaTeX render
+    if (typeof renderMathInElement === 'function') {
+        renderMathInElement(document.getElementById('chapterContent'), {delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false},{left:'\\(',right:'\\)',display:false},{left:'\\[',right:'\\]',display:true}]});
+    }
+}
+
+function showModule(mod) {
+    document.querySelectorAll('.module').forEach(m => m.style.display = 'none');
+    document.querySelectorAll('.mod-btn').forEach(b => b.classList.remove('active'));
+    const el = document.getElementById(`mod-${mod}`);
+    if (el) el.style.display = 'block';
+    event.target.classList.add('active');
+}
+
+function flipCard(el) {
+    const front = el.querySelector('.fc-front');
+    const back = el.querySelector('.fc-back');
+    if (back.style.display === 'none' || !back.style.display) {
+        front.style.display = 'none'; back.style.display = 'block';
+    } else {
+        front.style.display = 'block'; back.style.display = 'none';
+    }
+}
+
+function checkPYQ(el, correct, selected) {
+    el.parentElement.querySelectorAll('.pyq-option').forEach(o => o.style.pointerEvents = 'none');
+    if (selected === correct) { el.classList.add('correct'); }
+    else {
+        el.classList.add('wrong');
+        el.parentElement.querySelectorAll('.pyq-option').forEach(o => { if (o.textContent.trim().startsWith(correct+')')) o.classList.add('correct'); });
+    }
+    el.parentElement.querySelector('.recall-answer').style.display = 'block';
+}
+
+function checkPractice(el, correct, selected) {
+    el.parentElement.querySelectorAll('.pyq-option').forEach(o => o.style.pointerEvents = 'none');
+    if (selected.toUpperCase() === correct.toUpperCase()) { 
+        el.classList.add('correct'); 
+    } else {
+        el.classList.add('wrong');
+        el.parentElement.querySelectorAll('.pyq-option').forEach(o => { 
+            const letterEl = o.querySelector('.opt-letter');
+            if (letterEl && letterEl.textContent.trim().toUpperCase() === correct.toUpperCase()) {
+                o.classList.add('correct'); 
+            }
+        });
+    }
+    const ansDiv = el.parentElement.querySelector('.practice-answer');
+    const btn = el.parentElement.querySelector('button');
+    if(btn) btn.style.display = 'none';
+    if(ansDiv) ansDiv.style.display = 'block';
+}
+
+function renderMarkdown(md) {
+    if (!md) return '<p style="color:var(--text2)">Content not available yet.</p>';
+    let h = md.replace(/^### (.*$)/gm, '<h3>$1</h3>')
+             .replace(/^## (.*$)/gm, '<h2>$1</h2>')
+             .replace(/^# (.*$)/gm, '<h1>$1</h1>')
+             .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+             .replace(/\*(.*?)\*/g, '<em>$1</em>')
+             .replace(/^> (.*$)/gm, '<blockquote>$1</blockquote>')
+             .replace(/^- (.*$)/gm, '<li>$1</li>')
+             .replace(/(<li>.*<\/li>)/s, '<ul>$1</ul>')
+             .replace(/`([^`]+)`/g, '<code>$1</code>')
+             .replace(/\n\n/g, '</p><p>')
+             .replace(/\n/g, '<br>');
+    return `<div class="prose"><p>${h}</p></div>`;
+}
+</script>
+</body>
+</html>

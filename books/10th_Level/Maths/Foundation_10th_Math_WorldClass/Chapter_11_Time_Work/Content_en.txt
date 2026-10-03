@@ -1,0 +1,103 @@
+📖 Time & Work
+
+What You’ll Learn
+
+The core idea: Work = Rate × Time
+
+How to think in terms of one day’s work (fraction method)
+
+The powerful LCM–Total Work method
+
+The concept of Efficiency and its shortcut
+
+How to handle workers joining/leaving, alternate days, and wage problems
+
+A weird-but-unforgettable memory trick
+
+How to never confuse time and work again
+
+The King’s Wall: A Hook
+
+Imagine you are a master builder in an ancient kingdom. The King orders you to build a protective wall in 10 days. You have 20 workers. You plan, you sweat, and you finish exactly on time. The King is happy. But then he asks, “What if I gave you 30 workers tomorrow? How fast can you finish the same wall?” Your mind races... This is exactly what Time & Work is about — predicting the future when the number of hands changes. And you are about to become a prediction wizard.
+
+🧠 Pause and close your eyes: If 20 workers take 10 days, how many days will 40 workers take for the identical wall? (Answer in mind)
+
+I Know It Feels Tricky
+
+You’re not alone. Most students look at “A does in 12 days, B does in 8 days” and their brain goes fuzzy. Fraction addition? Invert the answer? Multiply? Relax. The confusion is not you — it’s the way it’s usually taught. We are going to rebuild the concept from your own common sense.
+
+Chunk 1: One Day’s Work – The Magic Ingredient
+
+Think of the whole job as one juicy pizza. If you alone can finish that pizza in 6 days, how much do you eat in one day? Exactly 1/6 of the pizza. That’s your “one day’s work”. Everything in Time & Work orbits around this tiny number.
+
+If your friend finishes the same pizza in 3 days, then her one day’s work is 1/3.
+
+Together in one day you both eat 1/6 + 1/3 = 1/6 + 2/6 = 3/6 = 1/2 of the pizza. So together you will finish the whole pizza in 2 days (because 1 ÷ (1/2) = 2). See? No magic.
+
+🧠 Active Recall: A alone can do a job in 5 days, B alone in 10 days. Without looking, find their one day’s work individually, then together, then total time. Do it mentally now.
+
+Chunk 2: The LCM–Total Work Superpower
+
+Fractions are great, but when numbers get messy (like 7 and 13 days), adding fractions feels like chewing glass. That’s why exam masters invented the Total Work (LCM) Method.
+
+Step-by-step:
+
+Take the LCM of the given days. That becomes our “Total Work” — imagine it as the number of bricks to lay.
+
+Divide Total Work by each person’s days to get their per-day Efficiency (bricks per day).
+
+Now you’re just playing with whole numbers, no fractions.
+
+Example: A takes 12 days, B takes 18 days. LCM of 12 and 18 is 36. Let total work = 36 units.
+A’s efficiency = 36/12 = 3 units/day.
+B’s efficiency = 36/18 = 2 units/day.
+Together = 5 units/day → time = 36/5 = 7.2 days. Easy numbers, happy brain.
+
+🧠 *Try it: A = 15 days, B = 10 days. Find LCM, efficiencies, and total time. Answer: LCM 30, A eff=2, B eff=3, together 5, time 6 days.*
+
+Chunk 3: Efficiency Ratio – The Silent Shortcut
+
+Often data comes as “A is twice as efficient as B”. Immediately, efficiency ratio A : B = 2 : 1. And what is the relationship between efficiency and time? Efficiency is inversely proportional to time. So if A : B efficiency = 2 : 1, then time ratio A : B = 1 : 2. This one insight solves many ‘workers replaced’ problems in seconds.
+
+🧠 Active Recall: If A is three times as efficient as B, and together they finish a job in 10 days, can you set up the ratio and find their individual days? Try before reading further.
+
+A Weird Mnemonic That Sticks
+
+Picture a grumpy chef named WERD. WERD stands for:
+
+Work done = Efficiency × Rate of time? No — here’s the silly image: Work = Man × Days is the base. For multiple persons, we use M₁D₁H₁/W₁ = M₂D₂H₂/W₂ (the “man-days” equation). To never forget the formula, imagine a giant MAN-DAYS cookie (Man × Days). The cookie has layers: Hours (H) and Work (W) as the filling. When you bite, you must keep the ratio equal on both sides.
+
+Mantra: “Men and Days are best friends; Work and Hours complete the recipe. Keep them equal on both plates, or the cookie crumbles!”
+
+That’s the Cookie Equation: M₁D₁H₁ / W₁ = M₂D₂H₂ / W₂. Whenever a problem talks about men, days, hours, and amount of work, just set up the cookie and solve.
+
+Chunk 4: Alternate Days and Leaving/Joining
+
+These are just logical extensions. If A and B work on alternate days, calculate work done in a cycle (usually 2 days) and then see how many full cycles fit. Remainder work is then done by the person whose turn it is. When a worker leaves before completion, simply add the work done together until the exit, then finish with the remaining person’s work. Always fall back on the LCM-Total Work method; it makes remainders child’s play.
+
+🧠 *Active Recall: A does a job in 20 days. He works for 5 days and leaves. B finishes the remaining in 12 days. What is B’s individual time? (Hint: Find total work = 20, A’s eff=1, work left=15, B’s eff=15/12=1.25, so B’s time=20/1.25=16 days.) Do it now.*
+
+Chunk 5: Wages and Work-Share
+
+Wages are divided in the ratio of work done, not time spent. Since work done = efficiency × time spent, the ratio of wages equals the ratio of (efficiency × days) for each worker. If efficiencies are given, you can directly find each person’s share of money.
+
+🧠 *A and B work together with efficiencies 3 and 2, finish a job in 5 days. Total wage is ₹500. What is A’s share? (Work ratio = 3:2, A gets 3/5 × 500 = ₹300.) Simple!*
+
+Summary Table: Time & Work Toolkit
+Concept	Formula/Approach	When to Use
+Basic Fraction Method	1/a + 1/b = 1/T	Simple fractions, small numbers
+LCM–Total Work Method	LCM(days) = Total Work, Eff = Work/Days	Any number, especially large/odd
+Efficiency Ratio Shortcut	Time ratio is inverse of efficiency ratio	“A is x times B” or “A is x% more efficient”
+Man-Days Cookie Equation	M₁D₁/W₁ = M₂D₂/W₂ (with H if needed)	Multiple workers, different work quantities
+Alternate Day Work	1 cycle work → full cycles → remainder	Sequential working
+Wages Split	Wages ∝ (Efficiency × Time worked)	Money division at end of job
+
+🧠 2-Day Review Prompt:
+Take a blank paper tomorrow and again after two days. Write down from memory:
+
+The three core steps of the LCM method.
+
+The crazy Cookie mnemonic and its equation.
+
+Solve one problem each of basic, efficiency ratio, alternate days, and wages without looking at the chapter.
+Your brain will thank you during the exam. You are not just learning Time & Work — you are building a problem-solving reflex. Now go own it!

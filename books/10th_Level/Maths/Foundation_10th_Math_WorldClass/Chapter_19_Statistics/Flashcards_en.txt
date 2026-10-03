@@ -1,0 +1,172 @@
+🃏 Flashcards – Statistics
+
+Card 1
+Front: What is the one number that can turn a room full of common people into billionaires on paper?
+Back: The mean (average). A single extreme value (like a billionaire’s income) pulls the mean up and makes it a liar.
+
+Card 2
+Front: If your maths marks are 5, 5, 5, 5, 5, what is the mean, median, and mode?
+Back: All three are 5. When all values are identical, the three musketeers agree perfectly.
+
+Card 3
+Front: Why do governments report median household income, not mean income?
+Back: Because a few ultra‑rich can skyrocket the mean, making the whole country look wealthy. The median stays unaffected by extremes.
+
+Card 4
+Front: A shoe company wants to know which size to manufacture most. Which central tendency should they use?
+Back: Mode. It tells the most frequent shoe size sold—exactly what they need for production planning.
+
+Card 5
+Front: What is the class mark of the interval 20–30?
+Back: 25. Class mark = (lower limit + upper limit) ÷ 2 = (20+30)/2 = 25.
+
+Card 6
+Front: Without any formula, how do you find the median of 1, 3, 5, 7, 9?
+Back: Arrange them (already sorted). Since there are 5 numbers (odd), the median is the 3rd value = 5.
+
+Card 7
+Front: In a company of 10 people, 9 earn ₹20,000 and the owner earns ₹2,00,000. Mean = ₹38,000, Median = ₹20,000. Which number tells the truth about a typical employee’s salary?
+Back: Median. The mean is pulled up by the owner’s high salary; the median sits calmly in the middle.
+
+Card 8
+Front: What does the formula
+Σ
+𝑓
+𝑖
+𝑥
+𝑖
+Σ
+𝑓
+𝑖
+Σf
+i
+	​
+
+Σf
+i
+	​
+
+x
+i
+	​
+
+	​
+
+ give you for grouped data?
+Back: It gives the mean using the direct method.
+Σ
+𝑓
+𝑖
+𝑥
+𝑖
+Σf
+i
+	​
+
+x
+i
+	​
+
+ is the sum of (frequency × class mark), and
+Σ
+𝑓
+𝑖
+Σf
+i
+	​
+
+ is total frequency.
+
+Card 9
+Front: Which part of the median formula makes sure you find the correct middle class?
+Back: The cumulative frequency (cf). The median class is the one where cf first becomes ≥ n/2.
+
+Card 10
+Front: True or False: The mode of grouped data depends on n/2 and cumulative frequency.
+Back: False. Mode uses only frequencies—
+𝑓
+1
+,
+𝑓
+0
+,
+𝑓
+2
+f
+1
+	​
+
+,f
+0
+	​
+
+,f
+2
+	​
+
+ (the modal class, the one before, and the one after).
+𝑛
+/
+2
+n/2 is used for median.
+
+Card 11
+Front: How can you spot the median from an ogive (cumulative frequency curve) without any formula?
+Back: Locate n/2 on the y‑axis, draw a horizontal line to the curve, then drop a vertical line down to the x‑axis. Where it hits is the median.
+
+Card 12
+Front: What does “MAD Middle Most” help you remember?
+Back:
+
+Mean = Average (All values Added then divided)
+
+Median = middle value (after sorting)
+
+Mode = Most Often
+Think of a MAD scientist chanting “Average, Middle, Most often!”
+
+Card 13
+Front: What is the drone‑and‑postman trick for recalling the difference between mean and median?
+Back: The mean is like a drone that gets pulled way up by a tall tower and gives a false high average. The median is like a postman who only cares about the middle house on the street—totally ignores the tower.
+
+Card 14
+Front: If mean > median > mode, is the data skewed left or right?
+Back: Positively skewed (right‑tailed). A few high values pull the mean to the right, leaving median and mode behind.
+
+Card 15
+Front: When data is symmetric, what is the relationship between mean, median, and mode?
+Back: They are equal: mean = median = mode. This is the ideal bell‑shaped curve.
+
+Card 16
+Front: You have marks: 2, 2, 2, 8, 10. Find the mode.
+Back: Mode = 2. It appears three times—more than any other value. Notice how mode can be far from the centre.
+
+Card 17
+Front: Which method for grouped mean uses
+𝑢
+𝑖
+=
+𝑥
+𝑖
+−
+𝑎
+ℎ
+u
+i
+	​
+
+=
+h
+x
+i
+	​
+
+−a
+	​
+
+ and is the fastest when class sizes are equal?
+Back: The Step Deviation Method. It reduces big numbers to simple multipliers of class size.
+
+Card 18
+Front: What is the “middle child” of central tendency that ignores the drama of extreme values?
+Back: Median. It splits the data into two equal halves and doesn’t get swayed by outliers.

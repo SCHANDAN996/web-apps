@@ -1,0 +1,101 @@
+{% extends "frontend/layout.html" %}
+
+{% block title %}Class {{ class_level }} {{ subject }} Chapters - Study Station{% endblock %}
+{% block meta_description %}Get free NCERT notes, PDF books, and AI tutoring for Class {{ class_level }} {{ subject }}. Select a chapter to start learning.{% endblock %}
+
+{% block extra_css %}
+<style>
+    .back-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        color: var(--primary-light);
+        text-decoration: none;
+        margin-bottom: 20px;
+        font-weight: 500;
+        transition: transform 0.2s;
+    }
+    .back-link:hover {
+        transform: translateX(-5px);
+        color: white;
+    }
+    
+    .chapter-list {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .chapter-item {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        background: var(--glass-bg);
+        border: 1px solid var(--glass-border);
+        border-radius: 12px;
+        text-decoration: none;
+        color: var(--text-primary);
+        transition: all 0.2s ease;
+    }
+    .chapter-item:hover {
+        background: rgba(255,255,255,0.05);
+        border-color: var(--primary-light);
+        transform: translateX(5px);
+    }
+    .chapter-number {
+        background: rgba(255,255,255,0.1);
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        margin-right: 20px;
+        flex-shrink: 0;
+        font-size: 1.1rem;
+    }
+    .chapter-info {
+        flex: 1;
+    }
+    .chapter-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 4px;
+    }
+    .chapter-desc {
+        font-size: 0.9rem;
+        color: var(--text-secondary);
+    }
+    .arrow-icon {
+        font-size: 1.5rem;
+        color: var(--text-secondary);
+    }
+</style>
+{% endblock %}
+
+{% block header %}
+<h1>📚 Class {{ class_level }} <span class="highlight">{{ subject }}</span></h1>
+<p>Select a chapter to access PDF books, AI notes, and chat tutor.</p>
+{% endblock %}
+
+{% block content %}
+<a href="{{ url_for('frontend_subjects', class_level=class_level) }}" class="back-link">
+    <ion-icon name="arrow-back-outline"></ion-icon> Back to Subjects
+</a>
+
+<div class="chapter-list">
+    {% for chapter in chapters %}
+    <a href="{{ url_for('frontend_dashboard', class_level=class_level, subject=subject|urlencode, chapter_num=chapter.chapter_number) }}" class="chapter-item">
+        <div class="chapter-number">{{ chapter.chapter_number }}</div>
+        <div class="chapter-info">
+            <div class="chapter-title">{{ chapter.title }}</div>
+            <div class="chapter-desc">{{ chapter.description or 'Detailed notes, PDF, and AI Chat' }}</div>
+        </div>
+        <div class="arrow-icon">
+            <ion-icon name="chevron-forward-outline"></ion-icon>
+        </div>
+    </a>
+    {% endfor %}
+</div>
+{% endblock %}

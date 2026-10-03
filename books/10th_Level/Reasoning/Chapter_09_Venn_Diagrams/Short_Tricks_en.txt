@@ -1,0 +1,17 @@
+# Short Tricks: Venn Diagrams
+
+Trick: For counting problems, the key formula — n(A∪B) = n(A) + n(B) − n(A∩B). Subtract the shared part once.
+
+Trick: "Only A" = n(A) − n(A∩B). "Only B" = n(B) − n(A∩B). Don't forget to remove the overlap.
+
+Trick: "Neither" = total − n(A∪B). First find the union, then subtract from the total.
+
+Trick: In logical Venn, think of the relationship between three words — nested, partial overlap, or completely separate.
+
+Trick: "All A are B" → A's circle inside B. "Some A are B" → the two circles overlap a little. "No A is B" → separate circles.
+
+Trick: For three groups — n(A∪B∪C) = sum − (pairwise shared) + (all-three shared).
+
+Skip Strategy: If a complex three-circle count takes time, skip it; do the two-circle and logical questions first.
+
+💡 Mnemonic: "Add both, subtract shared" — the whole two-group Venn formula.

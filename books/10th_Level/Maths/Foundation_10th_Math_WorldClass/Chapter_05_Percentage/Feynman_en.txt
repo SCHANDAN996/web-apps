@@ -1,0 +1,19 @@
+🧒 Feynman — The Yo-Yo Trap (English)
+
+Imagine your grandmother gives you ₹100 as pocket money. You’re thrilled. Then your father says, “Good job on your exams! I’m increasing your pocket money by 20%.” Wow! You now get ₹120.
+
+Next month, however, you leave the TV on all night. Your father frowns. “Punishment: your pocket money is reduced by 20%.” You think, “No problem, 20% up, 20% down — I’m back to ₹100.” You count the money: ₹120 minus 20%. 20% of 120 is 24, so ₹120 – ₹24 = ₹96. Wait — ₹96? That’s ₹4 less than what Granny gave you! You just got Yo-Yoed.
+
+Why did this happen? Because the 20% increase was on ₹100, but the 20% decrease was on the new, bigger amount ₹120. So the decrease took away more chips from a bigger pile. The percent rule is: never add or subtract percentages like ordinary numbers when they happen one after the other on different bases. It’s like eating half a small pizza and then half a large pizza — the halves aren’t equal because the pizzas changed size.
+
+Here’s the trick that will stick forever: convert percentages into multipliers.
+
+· For a p% increase, multiply by (1 + p/100).
+· For a q% decrease, multiply by (1 – q/100).
+  Then just chain-multiply the starting number.
+
+So ₹100 → 20% up → multiply by 1.20 → ₹120. Then 20% down → multiply that by 0.80 → ₹120 × 0.80 = ₹96. The two multipliers (1.20 × 0.80 = 0.96) tell you that you end up at 96% of the original — a net 4% loss every time, no matter what you start with. If both up-down percentages are the same number r, the net loss is always (r²/100)%. Here r=20, so r²=400, divided by 100 gives 4% loss. Magic, right?
+
+Remember this image: a Yo-Yo that goes up 20% of its string length and then down 20% — but it never comes back to your hand exactly; it stops a little lower. That’s the Yo-Yo Trap. Whenever you see back-to-back percent changes, don’t trust your gut — trust the multiplier chain.
+
+Now, try this: If a video game price first drops by 50% and then, in a strange twist, increases by 50% on the sale price, does it return to the original? Calculate with multipliers and tell me the net change.

@@ -1,0 +1,54 @@
+{% extends "frontend/layout.html" %}
+
+{% block title %}Study Materials - Study Station{% endblock %}
+{% block meta_description %}Select your class from 1 to 12 to access premium NCERT study materials, notes, and PDF books.{% endblock %}
+
+{% block extra_css %}
+<style>
+    .class-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 20px;
+        margin-top: 30px;
+    }
+    .class-card {
+        background: var(--glass-bg);
+        border: 1px solid var(--glass-border);
+        border-radius: 16px;
+        padding: 30px 20px;
+        text-align: center;
+        text-decoration: none;
+        color: var(--text-primary);
+        transition: all 0.3s ease;
+        display: block;
+    }
+    .class-card:hover {
+        transform: translateY(-5px);
+        border-color: var(--primary-light);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+    .class-icon {
+        font-size: 3rem;
+        margin-bottom: 15px;
+        color: var(--primary-light);
+    }
+    .class-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<h2 style="font-size: 2rem; margin-bottom: 10px;">Select Your Class</h2>
+<p style="color: var(--text-secondary); margin-bottom: 30px;">Choose a class to view all available subjects.</p>
+
+<div class="class-grid">
+    {% for c in classes %}
+    <a href="{{ url_for('frontend_subjects', class_level=c) }}" class="class-card">
+        <div class="class-icon"><ion-icon name="school-outline"></ion-icon></div>
+        <div class="class-title">Class {{ c }}</div>
+    </a>
+    {% endfor %}
+</div>
+{% endblock %}

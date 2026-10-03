@@ -1,0 +1,43 @@
+# Alphabet Questions
+
+What is the 10th letter from the left in the English alphabet? J! And the 5th from the right? V. Alphabet questions rest on this game of 'letter positions' — counting, position, and the distance between letters.
+
+**Definition:** In these questions, you must find a letter's position in the English alphabet (A–Z, 26 letters), count from the left/right, or find the distance between two letters.
+
+🧠 Recall: How many letters are there in the English alphabet?
+
+## The Basics: Position and Mnemonic
+
+A=1, B=2, C=3 … Z=26.
+The trick to remember — **EJOTY**: E=5, J=10, O=15, T=20, Y=25. Count the letters in between from these (for example G = E+2 = 7).
+
+Counting from the right: position from right = 27 − (position from left). For example, Z is 1st from the right = 27 − 26 = 1.
+
+## Main Types
+
+**1. Finding the Position**
+The 12th letter from the left? L (because L=12).
+
+**2. Counting from the Right**
+5th from the right = (27−5)th from the left = 22nd = V.
+
+**3. Distance Between Two Letters**
+Letters between C and H = H − C − 1 = 8 − 3 − 1 = 4 letters.
+
+**4. The nth Letter to the Left/Right**
+"The 3rd letter to the right of L" = L(12) + 3 = 15 = O.
+
+**5. The Middle Letter**
+The letter exactly between two letters = the average of the two positions.
+
+🧠 Recall: Which is the 5th letter from the right?
+
+## The Examiner's Trap
+
+⚠️ **Trap 1 — left vs right:** Counting "from the left" and "from the right" is different; for the right, use 27 − position.
+
+⚠️ **Trap 2 — "after/before" vs "nth":** "3rd after C" (C+3) and "3rd from the left" (just 3) are different.
+
+⚠️ **Trap 3 — double counting:** When counting "between" two letters, exclude both (H − C − 1).
+
+Review this after 2 days.

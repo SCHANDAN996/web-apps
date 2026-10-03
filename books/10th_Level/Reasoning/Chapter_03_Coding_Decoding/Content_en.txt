@@ -1,0 +1,46 @@
+# Coding-Decoding
+
+Remember the secret messages in spy films, where "Meet in the evening" is written as a strange code? Coding-decoding is just like that — letters or words are replaced by some rule, and we must catch that rule to open (decode) the message.
+
+**Definition:** In coding, the letters of a word are changed into other letters, numbers or symbols according to a fixed rule. From the given example, we identify the rule and then build (or read) the code of a new word.
+
+🧠 Recall: In coding-decoding, what is our real job — memorising, or catching the "rule"?
+
+## The Golden Rule
+
+**Find the relationship (rule) between the original word and its code in the given example, then apply the same rule to the new word.**
+
+First, remember the alphabet positions: A=1, B=2, C=3 … Z=26 (mnemonic: EJOTY → E=5, J=10, O=15, T=20, Y=25).
+
+## Main Types of Coding
+
+**1. Letter Shift**
+Each letter is moved forward or backward.
+CAT → DBU (each letter +1 forward: C→D, A→B, T→U).
+
+**2. Reverse Coding**
+The word is written backwards.
+MOUSE → ESUOM (the whole word is reversed).
+
+**3. Number Coding**
+Letters are replaced by their position numbers.
+CAB → 3, 1, 2 (C=3, A=1, B=2). Sometimes the sum of positions is asked.
+
+**4. Substitution Coding**
+A word is replaced entirely by another word.
+E.g. "Sky is called Sea" — then where does a bird fly? In the sea.
+
+**5. Symbol Coding**
+Letters are replaced by symbols (@, #, *).
+
+🧠 Recall: If CAT = DBU, what will be the code for DOG?
+
+## The Examiner's Trap
+
+⚠️ **Trap 1 — direction:** Whether a letter moves forward or backward, check carefully. The difference between +1 and −1 changes the whole answer.
+
+⚠️ **Trap 2 — mixed rule:** Sometimes odd-position letters shift +1 and even-position letters shift −1. Do not assume a single rule.
+
+⚠️ **Trap 3 — sum vs position:** In number coding, sometimes each letter's position is asked, sometimes their sum. Read the question carefully.
+
+Review this after 2 days.

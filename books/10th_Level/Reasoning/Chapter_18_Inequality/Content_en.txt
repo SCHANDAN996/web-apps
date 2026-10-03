@@ -1,0 +1,51 @@
+# Inequality
+
+If Ram is taller than Shyam and Shyam is taller than Mohan — is Ram taller than Mohan? Yes! Because the > relation carries forward. Inequality questions test joining relations using these >, <, = signs.
+
+**Definition:** In these questions, inequality signs (>, <, =, ≥, ≤) are given between some quantities, and we must decide which conclusion definitely follows from the statement.
+
+🧠 Recall: If A > B and B > C, what is the relation between A and C?
+
+## The Basics: Meaning of the Signs
+
+- **A > B** : A is greater than B
+- **A < B** : A is less than B
+- **A = B** : both are equal
+- **A ≥ B** : A is greater than or equal to B
+- **A ≤ B** : A is less than or equal to B
+
+```svg Number line: A > B > C means A is the greatest, C the smallest
+<svg viewBox="0 0 300 90" width="300" height="90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Positions of A B C on a number line">
+  <line x1="20" y1="55" x2="280" y2="55" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <polygon points="280,55 270,50 270,60" style="fill:var(--fig-line)"/>
+  <circle cx="70" cy="55" r="5" style="fill:var(--fig-danger)"/>
+  <text x="70" y="42" text-anchor="middle" style="fill:var(--fig-text);font-size:14px;font-weight:700">C</text>
+  <circle cx="160" cy="55" r="5" style="fill:var(--fig-accent3)"/>
+  <text x="160" y="42" text-anchor="middle" style="fill:var(--fig-text);font-size:14px;font-weight:700">B</text>
+  <circle cx="250" cy="55" r="5" style="fill:var(--fig-accent2)"/>
+  <text x="250" y="42" text-anchor="middle" style="fill:var(--fig-text);font-size:14px;font-weight:700">A</text>
+  <text x="150" y="80" text-anchor="middle" style="fill:var(--fig-line);font-size:11px">smaller ← → greater</text>
+</svg>
+```
+
+## The Golden Rule: Join the Chain
+
+**1. Same direction joins:** A > B > C → A > C (correct).
+**2. Equality in between still works:** A > B = C → A > C (correct).
+**3. If the direction changes, the relation breaks:** A > B < C → no definite relation between A and C.
+
+## The Either-Or Rule
+
+When two conclusions have > and = (or < and =) on the same pair, and neither is correct alone, they are correct as "either this or that". For example, A ≥ C gives "A > C or A = C" — together they are correct.
+
+🧠 Recall: In A > B < C, is the relation between A and C definite or not?
+
+## The Examiner's Trap
+
+⚠️ **Trap 1 — direction change:** If > and < meet, no direct conclusion follows. The direction must be the same.
+
+⚠️ **Trap 2 — ≥ vs >:** "≥" includes equality; remember this when drawing a conclusion.
+
+⚠️ **Trap 3 — forgetting Either-Or:** Sometimes both conclusions are wrong alone, but correct as "either-or".
+
+Review this after 2 days.

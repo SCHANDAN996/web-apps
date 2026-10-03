@@ -1,0 +1,52 @@
+# घन और पासा (Cubes & Dice)
+
+एक घन (cube) को रंगकर छोटे-छोटे टुकड़ों में काटो — तो कितने टुकड़ों पर 3 रंगे फलक होंगे? हमेशा 8 (कोने वाले)! और पासे (dice) में 1 के सामने कौन-सा अंक होता है? 6 (क्योंकि सामने वाले फलकों का योग 7)। घन-पासा के प्रश्न इसी स्थानिक (spatial) सोच की परीक्षा हैं।
+
+**परिभाषा:** इस अध्याय के दो भाग हैं — (1) घन: रंगे हुए घन को काटने पर रंगे फलकों की गिनती; (2) पासा: फलकों के सामने वाले (opposite) अंक पहचानना।
+
+🧠 Recall: एक मानक पासे में सामने वाले फलकों (opposite faces) का योग कितना होता है?
+
+```svg घन का जाल (Net): सामने वाले फलकों का योग 7 (1↔6, 2↔5, 3↔4)
+<svg viewBox="0 0 220 170" width="220" height="170" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="घन का खुला जाल, संख्याओं सहित">
+  <rect x="80" y="20" width="40" height="40" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <rect x="40" y="60" width="40" height="40" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <rect x="80" y="60" width="40" height="40" style="fill:var(--fig-accent);opacity:0.15;stroke:var(--fig-accent);stroke-width:1.5"/>
+  <rect x="120" y="60" width="40" height="40" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <rect x="160" y="60" width="40" height="40" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <rect x="80" y="100" width="40" height="40" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="100" y="46" text-anchor="middle" style="fill:var(--fig-text);font-size:16px;font-weight:700">2</text>
+  <text x="60" y="86" text-anchor="middle" style="fill:var(--fig-text);font-size:16px;font-weight:700">3</text>
+  <text x="100" y="86" text-anchor="middle" style="fill:var(--fig-text);font-size:16px;font-weight:700">1</text>
+  <text x="140" y="86" text-anchor="middle" style="fill:var(--fig-text);font-size:16px;font-weight:700">4</text>
+  <text x="180" y="86" text-anchor="middle" style="fill:var(--fig-text);font-size:16px;font-weight:700">6</text>
+  <text x="100" y="126" text-anchor="middle" style="fill:var(--fig-text);font-size:16px;font-weight:700">5</text>
+  <text x="110" y="160" text-anchor="middle" style="fill:var(--fig-line);font-size:11px">मोड़ने पर घन बनता है</text>
+</svg>
+```
+
+## भाग 1: रंगा हुआ घन (Painted Cube)
+
+एक घन के सभी फलक रंगकर उसे n×n×n छोटे घनों में काटो:
+- **3 रंगे फलक (कोने):** हमेशा **8** (घन के 8 कोने)।
+- **2 रंगे फलक (किनारे):** 12 × (n − 2)।
+- **1 रंगा फलक (फलक-केंद्र):** 6 × (n − 2)²।
+- **0 रंगे फलक (भीतरी):** (n − 2)³।
+
+उदाहरण (n = 3): कोने 8, किनारे 12×1 = 12, फलक-केंद्र 6×1 = 6, भीतरी 1³ = 1। कुल = 27 ✅।
+
+## भाग 2: पासा (Dice)
+
+- **मानक पासा:** सामने वाले फलकों का योग हमेशा **7** (1↔6, 2↔5, 3↔4)।
+- **दो स्थितियों से:** अगर पासे की दो तस्वीरें दी हों, तो जो अंक दोनों में समान (common) हो, उसके अगल-बगल वाले अंक घुमाकर सामने वाला अंक ढूँढो।
+
+🧠 Recall: 3×3×3 घन में कितने टुकड़ों पर सिर्फ़ 1 फलक रंगा होगा?
+
+## परीक्षक का जाल (Examiner's Trap)
+
+⚠️ **जाल 1 — योग 7 भूलना:** मानक पासे में सामने वाला अंक = 7 − दिया गया अंक।
+
+⚠️ **जाल 2 — कोने हमेशा 8:** n चाहे कुछ भी हो, 3 रंगे फलक वाले टुकड़े हमेशा 8 होते हैं।
+
+⚠️ **जाल 3 — (n−2) याद रखना:** किनारे और भीतरी की गिनती में (n−2) का उपयोग होता है; इसे भूलो मत।
+
+इसे 2 दिन बाद दोहराएँ।
