@@ -92,10 +92,11 @@ class Question(Base):
 
 
 class CAItem(Base):
-    """One current-affairs item, always tied to an official press release (PIB)."""
+    """One current-affairs item, always tied to an official government source (PIB / All India Radio)."""
     __tablename__ = 'ca_item'
     id: Mapped[int] = mapped_column(primary_key=True)
-    prid: Mapped[str] = mapped_column(String(40), unique=True)          # PIB release id
+    ext_id: Mapped[str] = mapped_column(String(300), unique=True)       # "pib:2318509", "air:<article url>"
+    source: Mapped[str] = mapped_column(String(20), default='pib')       # pib / air
     day: Mapped[date] = mapped_column(Date, index=True)
     title_hi: Mapped[str | None] = mapped_column(String(400))
     title_en: Mapped[str | None] = mapped_column(String(400))

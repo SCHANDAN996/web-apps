@@ -24,7 +24,7 @@
       <h3 style="margin:var(--sp-2) 0 4px">{{ L(it.title_hi, it.title_en) or it.title_hi or it.title_en }}</h3>
       {% set summ = L(it.summary_hi, it.summary_en) or it.summary_hi or it.summary_en %}
       {% if summ %}<p class="small" style="margin:0">{{ summ }}</p>{% else %}<p class="xs muted" style="margin:0">{{ tr('ca_headline_only') }}</p>{% endif %}
-      <p class="xs" style="margin:6px 0 0"><a href="{{ it.source_url }}" target="_blank" rel="noopener nofollow">{{ tr('ca_source') }}{% if it.ministry %} · {{ it.ministry }}{% endif %}</a></p>
+      <p class="xs" style="margin:6px 0 0"><a href="{{ it.source_url }}" target="_blank" rel="noopener nofollow">{{ L('स्रोत: ', 'Source: ') }}{{ it.source|upper }}{% if it.ministry %} · {{ it.ministry }}{% endif %}</a></p>
     </article>
   {% endfor %}
   </div>

@@ -1,5 +1,7 @@
 """
-Current affairs from official PIB press releases.
+Current affairs from official government sources: All India Radio (newsonair.gov.in, full text in
+its RSS) and PIB press releases (pib.gov.in — its firewall currently refuses non-browser clients;
+we identify ourselves honestly and skip it until it lets us in).
 
   python -m app.current_affairs run [--max 15]
 
@@ -25,7 +27,16 @@ from .db import SessionLocal, engine, ensure_schema
 from .models import CAItem, Question, Subject, Topic
 
 log = logging.getLogger('ca')
-PIB_FEEDS = ['https://pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=3']
+# name, feed url, label shown to students
+SOURCES = [
+    ('air', 'https://newsonair.gov.in/category/national/feed/', 'AIR'),
+    ('air', 'https://newsonair.gov.in/category/business/feed/', 'AIR'),
+    ('air', 'https://newsonair.gov.in/category/sports/feed/', 'AIR'),
+    ('air', 'https://newsonair.gov.in/category/science-technology/feed/', 'AIR'),
+    ('air', 'https://newsonair.gov.in/category/international/feed/', 'AIR'),
+    ('pib', 'https://pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=3', 'PIB'),
+]
+PIB_FEEDS = [u for n, u, _ in SOURCES if n == 'pib']
 CATEGORIES = ['polity', 'economy', 'schemes', 'defence', 'science', 'environment', 'sports', 'awards',
               'international', 'appointments', 'days', 'states', 'national']
 CA_TOPIC = ('ga', 'current-affairs')
@@ -33,15 +44,36 @@ CA_TOPIC = ('ga', 'current-affairs')
 MONTHS = {m: i for i, m in enumerate(['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'], 1)}
 
 
-def parse_feed(xml_bytes):
+def _strip_html(html):
+    from .jobs.extract import html_text
+    return html_text(html or '')
+
+
+def parse_feed(xml_bytes, source='pib'):
+    """RSS → [{title, url, ext_id, content?, published?}]"""
+    from email.utils import parsedate_to_datetime
     root = ET.fromstring(xml_bytes)
     out = []
     for it in root.iter('item'):
         title = re.sub(r'\s+', ' ', it.findtext('title') or '').strip()
         link = (it.findtext('link') or '').strip()
-        m = re.search(r'PRID=(\d+)', link)
-        if title and m:
-            out.append({'title': title, 'url': link, 'prid': m.group(1)})
+        if not title or not link:
+            continue
+        if source == 'pib':
+            m = re.search(r'PRID=(\d+)', link)
+            if not m:
+                continue
+            ext = f'pib:{m.group(1)}'
+        else:
+            ext = f'{source}:{link}'[:300]
+        content = it.findtext('{http://purl.org/rss/1.0/modules/content/}encoded')
+        published = None
+        try:
+            published = parsedate_to_datetime(it.findtext('pubDate')).date()
+        except (TypeError, ValueError):
+            pass
+        out.append({'title': title, 'url': link, 'ext_id': ext, 'source': source,
+                    'content': _strip_html(content)[:8000] if content else None, 'published': published})
     return out
 
 
@@ -129,18 +161,39 @@ def ca_topic(db):
     return db.scalar(select(Topic).join(Subject).where(Subject.slug == CA_TOPIC[0], Topic.slug == CA_TOPIC[1]))
 
 
+def new_row(it, score, today):
+    # Headline-only rows: AIR headlines are English, PIB's Hindi — store in the matching field.
+    is_hindi = bool(re.search('[\u0900-\u097F]', it['title']))
+    return CAItem(ext_id=it['ext_id'], source=it['source'], day=it.get('published') or today,
+                  title_hi=it['title'] if is_hindi else None, title_en=None if is_hindi else it['title'],
+                  source_url=it['url'], category=score['category'], relevance=score['relevance'])
+
+
 def run(db: Session, http=None, max_items=15, min_relevance=3, today=None):
     from .jobs.http import Fetcher
     from .services import today_ist
     http = http or Fetcher()
     today = today or today_ist()
-    feed = []
-    for url in PIB_FEEDS:
-        feed += parse_feed(http.get(url).content)
-    seen = set(db.scalars(select(CAItem.prid)))
-    new = [it for it in feed if it['prid'] not in seen]
+    from .jobs.extract import similar
+    feed, failed = [], []
+    for name, url, _label in SOURCES:
+        try:
+            feed += parse_feed(http.get(url).content, name)
+        except Exception as e:                        # one blocked/broken feed never stops the run
+            log.warning('feed failed %s: %s', url, e)
+            failed.append(name)
+    seen = set(db.scalars(select(CAItem.ext_id)))
+    recent = [t for row in db.execute(select(CAItem.title_hi, CAItem.title_en).where(CAItem.day >= today - timedelta(days=3)))
+              for t in row if t]
+    new = []
+    for it in feed:
+        if it['ext_id'] in seen or any(similar(it['title'], t, 0.7) for t in recent):
+            continue
+        seen.add(it['ext_id'])
+        recent.append(it['title'])
+        new.append(it)
     stats = {'feed': len(feed), 'new': len(new), 'summarised': 0, 'headline_only': 0, 'hidden': 0,
-             'questions': 0, 'questions_flagged': 0}
+             'questions': 0, 'questions_flagged': 0, 'feeds_failed': sorted(set(failed))}
     if not new:
         return stats
     scores = {}
@@ -153,8 +206,7 @@ def run(db: Session, http=None, max_items=15, min_relevance=3, today=None):
     budget = max_items
     for n, it in enumerate(new):
         score = scores.get(n, {'relevance': 0, 'category': 'national'})
-        row = CAItem(prid=it['prid'], day=today, title_hi=it['title'], source_url=it['url'],
-                     category=score['category'], relevance=score['relevance'])
+        row = new_row(it, score, today)
         if scores and score['relevance'] < min_relevance:
             row.status = 'hidden'
             stats['hidden'] += 1
@@ -162,7 +214,10 @@ def run(db: Session, http=None, max_items=15, min_relevance=3, today=None):
             continue
         if ai_on() and budget > 0:
             try:
-                text, posted, ministry = release_text(http.get(it['url']).text)
+                if it['content']:
+                    text, posted, ministry = it['content'], it['published'], None
+                else:
+                    text, posted, ministry = release_text(http.get(it['url']).text)
                 row.day, row.ministry = posted or today, ministry
                 data = summarise(text)
                 row.title_hi, row.title_en = data['title_hi'], data['title_en']
@@ -181,10 +236,11 @@ def run(db: Session, http=None, max_items=15, min_relevance=3, today=None):
                                     text_hi=q['text_hi'], text_en=q['text_en'], options_hi=q['options_hi'],
                                     options_en=q['options_en'], answer_index=q['answer_index'],
                                     solution_hi=q['solution_hi'], solution_en=q['solution_en'],
-                                    source_type='editorial', source_ref=f'PIB {row.day:%d-%m-%Y}: {it["url"]}'[:200],
+                                    source_type='editorial',
+                                    source_ref=f'{it["source"].upper()} {row.day:%d-%m-%Y}: {it["url"]}'[:200],
                                     review_status='unreviewed' if ok else 'flagged',
                                     review_note=None if ok else 'ca_recheck_disagrees',
-                                    import_key=f'ca/{it["prid"]}/{i}', ca_item_id=row.id))
+                                    import_key=f'ca/{row.id}/{i}', ca_item_id=row.id))
                     stats['questions' if ok else 'questions_flagged'] += 1
                 stats['summarised'] += 1
                 db.commit()
@@ -192,13 +248,11 @@ def run(db: Session, http=None, max_items=15, min_relevance=3, today=None):
             except ai.AIUnavailable as e:
                 log.warning('summary unavailable for %s: %s', it['url'], e)
                 db.rollback()
-                row = CAItem(prid=it['prid'], day=today, title_hi=it['title'], source_url=it['url'],
-                             category=score['category'], relevance=score['relevance'])
+                row = new_row(it, score, today)
             except Exception as e:                      # one bad release never stops the run
                 log.warning('release failed %s: %s', it['url'], e)
                 db.rollback()
-                row = CAItem(prid=it['prid'], day=today, title_hi=it['title'], source_url=it['url'],
-                             category=score['category'], relevance=score['relevance'])
+                row = new_row(it, score, today)
         db.add(row)
         stats['headline_only'] += 1
     db.commit()
