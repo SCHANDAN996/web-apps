@@ -4,7 +4,7 @@ from contextlib import asynccontextmanager
 import threading
 import time
 from collections import defaultdict, deque
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Literal
 
@@ -134,6 +134,7 @@ class PracticeIn(BaseModel):
     topic_id: int
     count: int = Field(default=10, ge=1, le=25)
     difficulty: Literal['easy', 'medium', 'hard'] | None = None
+    since_days: int | None = Field(default=None, ge=1, le=90)
 
 
 class MockIn(BaseModel):
@@ -269,7 +270,7 @@ def api_practice(body: PracticeIn, request: Request, device: Device = Depends(en
                  db: Session = Depends(get_db)):
     limit(request, 'start', 60, 3600)
     try:
-        a = services.start_practice(db, device, body.topic_id, body.count, body.difficulty)
+        a = services.start_practice(db, device, body.topic_id, body.count, body.difficulty, body.since_days)
     except Exception as e:
         _service_error(e)
     return services.attempt_payload(db, a)
@@ -472,6 +473,24 @@ def page_progress(request: Request, device: Device | None = Depends(current_devi
     return render('progress.html', request, device, stats=stats)
 
 
+@app.get('/current-affairs', response_class=HTMLResponse)
+def page_current_affairs(request: Request, category: str | None = None, device: Device | None = Depends(current_device),
+                         db: Session = Depends(get_db)):
+    from . import current_affairs as ca
+    from itertools import groupby
+    items = list(db.scalars(ca.feed_query(14, category).limit(200)))
+    days = [(d, list(g)) for d, g in groupby(items, key=lambda i: i.day)]
+    topic = ca.ca_topic(db)
+    q_counts = {}
+    if topic:
+        for label, n in (('week', 7), ('month', 30)):
+            q_counts[label] = db.scalar(select(func.count(Question.id)).where(
+                Question.topic_id == topic.id, services.USABLE,
+                Question.created_at >= datetime.utcnow() - timedelta(days=n)))
+    return render('current_affairs.html', request, device, days=days, category=category,
+                  categories=ca.CATEGORIES, topic=topic, q_counts=q_counts)
+
+
 @app.get('/jobs', response_class=HTMLResponse)
 def page_jobs(request: Request, status: Literal['active', 'upcoming', 'closed', 'undated', 'updates'] = 'active',
               qualification: str | None = None, category: str | None = None,
@@ -523,7 +542,7 @@ def robots():
 @app.get('/sitemap.xml')
 def sitemap(db: Session = Depends(get_db)):
     base = SITE_URL or ''
-    urls = ['/', '/practice', '/mock', '/jobs']
+    urls = ['/', '/practice', '/mock', '/jobs', '/current-affairs']
     urls += [f'/practice/{tp.subject.slug}/{tp.slug}' for tp in db.scalars(select(Topic))]
     urls += [f'/mock/{e.slug}' for e in db.scalars(select(Exam))]
     urls += [f'/jobs/{j.slug}' for j in db.scalars(services.jobs_query(status='active'))]

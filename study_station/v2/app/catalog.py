@@ -82,6 +82,7 @@ TOPICS = {
         ('awards-books', 'पुरस्कार और पुस्तकें', 'Awards, Books & Authors'),
         ('important-days', 'महत्वपूर्ण दिवस', 'Important Days'),
         ('computer-awareness', 'कंप्यूटर ज्ञान', 'Computer Awareness'),
+        ('current-affairs', 'करंट अफेयर्स', 'Current Affairs'),
     ],
     'english': [
         ('noun', 'संज्ञा (Noun)', 'Noun'),

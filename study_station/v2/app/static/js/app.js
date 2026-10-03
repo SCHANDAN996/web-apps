@@ -135,6 +135,15 @@
     if (b) { e.preventDefault(); SS.startPractice(b.getAttribute('data-practice'), null, b); return; }
     b = e.target.closest('[data-mock]');
     if (b) { e.preventDefault(); SS.startMock(b.getAttribute('data-mock'), b); return; }
+    b = e.target.closest('[data-ca-quiz]');
+    if (b) {
+      e.preventDefault(); busy(b, true);
+      var days = Number(b.getAttribute('data-ca-quiz'));
+      SS.api('POST', '/api/v1/practice', { topic_id: Number(b.getAttribute('data-topic')), count: days > 7 ? 25 : 20, since_days: days })
+        .then(function (a) { location.href = '/attempt/' + a.id; })
+        .catch(function (err) { busy(b, false); SS.toast(err.message); });
+      return;
+    }
     b = e.target.closest('[data-explain]');
     if (b) {
       e.preventDefault();

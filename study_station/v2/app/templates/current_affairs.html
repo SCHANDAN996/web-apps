@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% block title %}{{ tr('ca_title') }} — {{ tr('brand') }}{% endblock %}
+{% block description %}{{ tr('ca_desc') }}{% endblock %}
+{% block main %}
+<h1>{{ tr('ca_title') }}</h1>
+<p class="muted small">{{ tr('ca_desc') }}</p>
+{% if topic and (q_counts.get('week') or q_counts.get('month')) %}
+<div class="row" style="flex-wrap:wrap;margin:var(--sp-3) 0">
+  {% if q_counts.get('week') %}<button class="btn btn-primary btn-sm" data-ca-quiz="7" data-topic="{{ topic.id }}">{{ tr('ca_quiz_week') }} · {{ [q_counts['week'], 20]|min }}</button>{% endif %}
+  {% if q_counts.get('month') %}<button class="btn btn-secondary btn-sm" data-ca-quiz="30" data-topic="{{ topic.id }}">{{ tr('ca_quiz_month') }} · {{ [q_counts['month'], 25]|min }}</button>{% endif %}
+</div>
+{% endif %}
+<nav class="chips" style="margin:var(--sp-3) 0 var(--sp-4)">
+  <a class="chip" href="/current-affairs" {% if not category %}aria-current="true"{% endif %}>{{ tr('all') }}</a>
+  {% for c in categories %}<a class="chip" href="?category={{ c }}" {% if category == c %}aria-current="true"{% endif %}>{{ c|capitalize }}</a>{% endfor %}
+</nav>
+{% for day, items in days %}
+<section style="margin-bottom:var(--sp-5)">
+  <h2 class="small muted" style="text-transform:uppercase;letter-spacing:.05em">{{ day.strftime('%d-%m-%Y') }}</h2>
+  <div class="stack">
+  {% for it in items %}
+    <article class="card">
+      <div class="row-between"><span class="badge badge-brand">{{ it.category }}</span>{% if it.relevance >= 4 %}<span class="badge badge-warn">★ {{ it.relevance }}</span>{% endif %}</div>
+      <h3 style="margin:var(--sp-2) 0 4px">{{ L(it.title_hi, it.title_en) or it.title_hi or it.title_en }}</h3>
+      {% set summ = L(it.summary_hi, it.summary_en) or it.summary_hi or it.summary_en %}
+      {% if summ %}<p class="small" style="margin:0">{{ summ }}</p>{% else %}<p class="xs muted" style="margin:0">{{ tr('ca_headline_only') }}</p>{% endif %}
+      <p class="xs" style="margin:6px 0 0"><a href="{{ it.source_url }}" target="_blank" rel="noopener nofollow">{{ tr('ca_source') }}{% if it.ministry %} · {{ it.ministry }}{% endif %}</a></p>
+    </article>
+  {% endfor %}
+  </div>
+</section>
+{% else %}
+<div class="empty">{{ tr('ca_empty') }}</div>
+{% endfor %}
+{% endblock %}

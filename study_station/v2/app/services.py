@@ -75,13 +75,15 @@ def seen_question_ids(db: Session, device: Device):
 
 
 # ---------------------------------------------------------------- practice
-def start_practice(db: Session, device: Device, topic_id: int, count: int = 10, difficulty=None):
+def start_practice(db: Session, device: Device, topic_id: int, count: int = 10, difficulty=None, since_days=None):
     topic = db.get(Topic, topic_id)
     if topic is None:
         raise LookupError('topic')
     f = and_(Question.topic_id == topic_id, USABLE)
     if difficulty in ('easy', 'medium', 'hard'):
         f = and_(f, Question.difficulty == difficulty)
+    if since_days:   # e.g. current-affairs quiz for the last 7 / 30 days
+        f = and_(f, Question.created_at >= datetime.utcnow() - timedelta(days=since_days))
     ids = _pick(db, f, max(1, min(count, 25)), device.lang, seen_question_ids(db, device))
     if not ids:
         raise LookupError('no_questions')

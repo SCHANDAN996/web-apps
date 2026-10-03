@@ -87,7 +87,26 @@ class Question(Base):
     import_key: Mapped[str | None] = mapped_column(String(200))
     reviewed_at: Mapped[datetime | None] = mapped_column(DateTime)
     created_at: Mapped[datetime | None] = mapped_column(DateTime, default=now)
+    ca_item_id: Mapped[int | None] = mapped_column(ForeignKey('ca_item.id', ondelete='SET NULL'), index=True)
     topic: Mapped[Topic] = relationship()
+
+
+class CAItem(Base):
+    """One current-affairs item, always tied to an official press release (PIB)."""
+    __tablename__ = 'ca_item'
+    id: Mapped[int] = mapped_column(primary_key=True)
+    prid: Mapped[str] = mapped_column(String(40), unique=True)          # PIB release id
+    day: Mapped[date] = mapped_column(Date, index=True)
+    title_hi: Mapped[str | None] = mapped_column(String(400))
+    title_en: Mapped[str | None] = mapped_column(String(400))
+    summary_hi: Mapped[str | None] = mapped_column(Text)
+    summary_en: Mapped[str | None] = mapped_column(Text)
+    category: Mapped[str] = mapped_column(String(30), default='national')
+    relevance: Mapped[int] = mapped_column(Integer, default=0)          # 0 = not scored (no AI)
+    source_url: Mapped[str] = mapped_column(String(500))
+    ministry: Mapped[str | None] = mapped_column(String(200))
+    status: Mapped[str] = mapped_column(String(12), default='published')  # published / hidden
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=now)
 
 
 class QuestionExplanation(Base):
