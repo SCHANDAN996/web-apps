@@ -13,7 +13,7 @@ ADMIN_PASSWORD = os.environ.get('ADMIN_PASSWORD', '')
 
 # AI features (tutor, question & current-affairs generation) — off until a key is set.
 ANTHROPIC_API_KEY = os.environ.get('ANTHROPIC_API_KEY', '')
-AI_MODEL = os.environ.get('AI_MODEL', 'claude-sonnet-5-5')
+AI_MODEL = os.environ.get('AI_MODEL', 'claude-opus-5-5')
 AI_DAILY_LIMIT_PER_DEVICE = int(os.environ.get('AI_DAILY_LIMIT_PER_DEVICE', '20'))
 AI_DAILY_LIMIT_TOTAL = int(os.environ.get('AI_DAILY_LIMIT_TOTAL', '2000'))
 

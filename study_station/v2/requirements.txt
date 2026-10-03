@@ -7,5 +7,7 @@ python-multipart==0.0.20
 httpx==0.28.1
 beautifulsoup4==4.12.3
 pypdf==5.1.0
+# AI tutor / question & current-affairs generation (optional; needs ANTHROPIC_API_KEY)
+anthropic>=1.11,<2
 # tests
 pytest==8.3.4

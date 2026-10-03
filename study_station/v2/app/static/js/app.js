@@ -78,6 +78,29 @@
       .catch(function (e) { busy(btn, false); SS.toast(e.message); });
   };
 
+  // ---------------------------------------------------------------- AI tutor
+  // Returns a button that, when tapped, replaces itself with the AI explanation.
+  SS.explainButton = function (questionId, lang) {
+    if (!SS.ai) return null;
+    var h = SS.h;
+    var box = h('div');
+    var btn = h('button', { class: 'btn btn-secondary btn-sm', type: 'button', style: 'margin-top:8px' }, '✨ ' + SS.t.ai_explain);
+    btn.addEventListener('click', function () {
+      btn.disabled = true; btn.textContent = SS.t.ai_busy;
+      SS.api('POST', '/api/v1/questions/' + questionId + '/explain', { lang: lang || SS.lang })
+        .then(function (r) {
+          box.replaceChildren(h('div', { class: 'solution', style: 'border-left-color:var(--accent)' },
+            h('p', { class: 'xs muted', style: 'margin:0 0 6px' }, '✨ ' + SS.t.ai_note), r.text));
+        })
+        .catch(function (e) {
+          var msg = /daily_limit/.test(e.message) ? SS.t.ai_limit : /key_doubt/.test(e.message) ? SS.t.ai_key_doubt : SS.t.ai_unavailable;
+          box.replaceChildren(h('p', { class: 'small muted' }, msg));
+        });
+    });
+    box.appendChild(btn);
+    return box;
+  };
+
   // ---------------------------------------------------------------- report dialog
   SS.report = function (questionId) {
     var reasons = SS.lang === 'hi'
@@ -112,6 +135,13 @@
     if (b) { e.preventDefault(); SS.startPractice(b.getAttribute('data-practice'), null, b); return; }
     b = e.target.closest('[data-mock]');
     if (b) { e.preventDefault(); SS.startMock(b.getAttribute('data-mock'), b); return; }
+    b = e.target.closest('[data-explain]');
+    if (b) {
+      e.preventDefault();
+      var el = SS.explainButton(b.getAttribute('data-explain'));
+      if (el) { b.replaceWith(el); el.querySelector('button').click(); }
+      return;
+    }
     b = e.target.closest('[data-report]');
     if (b) { e.preventDefault(); SS.report(b.getAttribute('data-report')); return; }
     b = e.target.closest('#reviewFilter [data-f]');

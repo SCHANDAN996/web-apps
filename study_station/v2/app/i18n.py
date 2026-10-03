@@ -120,6 +120,12 @@ STRINGS = {
     'back_home': ('होम पर जाएँ', 'Go home'),
     'offline': ('आप ऑफ़लाइन हैं। इंटरनेट आने पर फिर कोशिश करें।', 'You are offline. Try again when you are back online.'),
     'save': ('सेव करें', 'Save'),
+    'ai_explain': ('AI से आसान भाषा में समझें', 'Explain simply (AI)'),
+    'ai_busy': ('AI समझा रहा है…', 'AI is explaining…'),
+    'ai_unavailable': ('अभी AI उपलब्ध नहीं है, बाद में कोशिश करें।', 'AI is not available right now — try later.'),
+    'ai_limit': ('आज की AI सीमा पूरी हो गई — कल फिर कोशिश करें।', "Today's AI limit is used up — try again tomorrow."),
+    'ai_key_doubt': ('इस सवाल के उत्तर पर संदेह है — इसे जाँच के लिए भेज दिया गया है। धन्यवाद!', 'The answer key looks doubtful — sent for review. Thank you!'),
+    'ai_note': ('AI का जवाब — गलत हो सकता है।', 'AI answer — may contain mistakes.'),
     'sync_title': ('दूसरे फ़ोन पर progress', 'Progress on another phone'),
     'sync_desc': ('इस फ़ोन पर code बनाएँ और नए फ़ोन पर डालें — आपके सवाल, मॉक और दोहराई वहाँ आ जाएँगे। Login की ज़रूरत नहीं।',
                   'Create a code on this phone and enter it on the new one — your practice, mocks and revision move over. No login needed.'),
@@ -145,5 +151,6 @@ def client_strings(lang):
     keys = ['check', 'next', 'prev', 'finish', 'submit', 'save_next', 'mark_review', 'clear', 'correct',
             'wrong', 'skipped', 'solution', 'your_answer', 'right_answer', 'report', 'ai_label',
             'verified_label', 'result', 'score', 'accuracy', 'time', 'offline', 'revise_empty', 'sync_bad',
+            'ai_explain', 'ai_busy', 'ai_unavailable', 'ai_limit', 'ai_key_doubt', 'ai_note',
             'easy', 'medium', 'hard']
     return {k: t(k, lang) for k in keys}

@@ -90,6 +90,26 @@ class Question(Base):
     topic: Mapped[Topic] = relationship()
 
 
+class QuestionExplanation(Base):
+    """AI tutor explanation, generated once per question+language and reused."""
+    __tablename__ = 'question_explanation'
+    __table_args__ = (UniqueConstraint('question_id', 'lang'),)
+    id: Mapped[int] = mapped_column(primary_key=True)
+    question_id: Mapped[int] = mapped_column(ForeignKey('question.id', ondelete='CASCADE'))
+    lang: Mapped[str] = mapped_column(String(2))
+    text: Mapped[str] = mapped_column(Text)
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=now)
+
+
+class AiUsage(Base):
+    __tablename__ = 'ai_usage'
+    __table_args__ = (UniqueConstraint('day', 'device_id'),)
+    id: Mapped[int] = mapped_column(primary_key=True)
+    day: Mapped[date] = mapped_column(Date, index=True)
+    device_id: Mapped[int | None] = mapped_column(Integer)      # None = admin/CLI jobs
+    count: Mapped[int] = mapped_column(Integer, default=0)
+
+
 # ---------------------------------------------------------------- learners
 class Device(Base):
     """Anonymous learner. A login (phase 2) will attach a user to devices."""

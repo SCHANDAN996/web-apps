@@ -55,6 +55,7 @@
         SS.icon(ok ? 'check' : 'x'), ok ? t.correct : t.wrong));
       var sol = opts.revealed.solution[lang] || SS.pick(opts.revealed.solution);
       if (sol) extra.push(h('div', { class: 'solution' }, h('b', null, t.solution + ': '), sol));
+      extra.push(SS.explainButton(q.id, lang));
       extra.push(h('button', { class: 'btn btn-ghost btn-sm', style: 'margin-top:8px', onclick: function () { SS.report(q.id); } },
         SS.icon('flag', 'icon-sm'), t.report));
     }

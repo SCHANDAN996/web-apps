@@ -52,6 +52,7 @@
       {% endfor %}
     </div>
     {% if qsol %}<div class="solution"><b>{{ tr('solution') }}:</b> {{ qsol }}</div>{% endif %}
+    {% if ai_enabled and q.status != 'skipped' %}<button class="btn btn-secondary btn-sm" data-explain="{{ q.id }}" style="margin-top:var(--sp-2)">✨ {{ tr('ai_explain') }}</button>{% endif %}
     <button class="btn btn-ghost btn-sm" data-report="{{ q.id }}" style="margin-top:var(--sp-2)"><svg class="icon icon-sm"><use href="#i-flag"/></svg>{{ tr('report') }}</button>
   </article>
   {% endfor %}

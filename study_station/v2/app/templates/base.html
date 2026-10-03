@@ -38,7 +38,7 @@
 </nav>
 {% endblock %}
 <main id="main" class="wrap">{% block main %}{% endblock %}</main>
-<script>window.SS = {lang: {{ lang|tojson }}, t: {{ strings|tojson }}};</script>
+<script>window.SS = {lang: {{ lang|tojson }}, t: {{ strings|tojson }}, ai: {{ ai_enabled|tojson }}};</script>
 <script src="/static/js/app.js" defer></script>
 {% block scripts %}{% endblock %}
 </body>

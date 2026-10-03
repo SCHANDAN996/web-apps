@@ -18,6 +18,7 @@ from sqlalchemy.orm import Session
 
 from . import services
 from .catalog import LEVEL_RANK, LEVELS, PATTERN_CHECKED
+from . import config
 from .config import COOKIE_SECURE, DEVICE_COOKIE, SITE_URL
 from .db import Base, engine, ensure_schema, get_db
 from .i18n import client_strings, t
@@ -150,6 +151,10 @@ class ReviseIn(BaseModel):
     chosen_index: int = Field(ge=0, le=3)
 
 
+class ExplainIn(BaseModel):
+    lang: Literal['hi', 'en'] = 'hi'
+
+
 class RestoreIn(BaseModel):
     code: str = Field(min_length=12, max_length=24)
 
@@ -213,6 +218,29 @@ def api_me_update(body: MeIn, response: Response, device: Device = Depends(ensur
     db.add(device)
     db.commit()
     return {'ok': True, 'lang': device.lang, 'level': device.level, 'target_exams': device.target_exams}
+
+
+@app.post('/api/v1/questions/{question_id}/explain')
+def api_explain(question_id: int, body: ExplainIn, request: Request, device: Device | None = Depends(current_device),
+                db: Session = Depends(get_db)):
+    """AI tutor. Only for questions this learner has already answered (never during a running mock)."""
+    from . import ai
+    from .models import AttemptAnswer
+    if device is None:
+        raise HTTPException(404, 'question')
+    limit(request, 'explain', 30, 3600)
+    answered = db.scalar(select(AttemptAnswer.id).join(Attempt).where(
+        Attempt.device_id == device.id, AttemptAnswer.question_id == question_id,
+        AttemptAnswer.chosen_index.is_not(None),
+        (Attempt.mode == 'practice') | Attempt.finished_at.is_not(None)).limit(1))
+    q = db.get(Question, question_id)
+    if q is None or not answered or q.review_status == 'flagged':
+        raise HTTPException(404, 'question')
+    try:
+        text, cached = ai.explain(db, q, body.lang, device.id)
+    except ai.AIUnavailable as e:
+        raise HTTPException(503, str(e))
+    return {'text': text, 'cached': cached}
 
 
 @app.post('/api/v1/sync/code')
@@ -346,7 +374,8 @@ def ctx(request: Request, device: Device | None, **extra):
     lang = device.lang if device else lang_from_request(request)
     return {'request': request, 'lang': lang, 'tr': lambda k: t(k, lang), 'device': device,
             'L': lambda hi, en: hi if lang == 'hi' else en, 'site_url': SITE_URL,
-            'strings': client_strings(lang), 'path': request.url.path, **extra}
+            'strings': client_strings(lang), 'path': request.url.path,
+            'ai_enabled': bool(config.ANTHROPIC_API_KEY), **extra}
 
 
 def render(name, request, device, http_status=200, **extra):
