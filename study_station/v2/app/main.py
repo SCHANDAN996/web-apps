@@ -315,7 +315,8 @@ def api_mock(body: MockIn, request: Request, device: Device = Depends(ensure_dev
 
 @app.get('/api/v1/attempts/{attempt_id}')
 def api_attempt(attempt_id: int, device: Device | None = Depends(current_device), db: Session = Depends(get_db)):
-    return services.attempt_payload(db, get_attempt(db, device, attempt_id))
+    a = services.close_if_expired(db, device, get_attempt(db, device, attempt_id))
+    return services.attempt_payload(db, a)
 
 
 @app.post('/api/v1/attempts/{attempt_id}/answer')
@@ -336,7 +337,7 @@ def api_finish(attempt_id: int, device: Device | None = Depends(current_device),
 
 @app.get('/api/v1/attempts/{attempt_id}/result')
 def api_result(attempt_id: int, device: Device | None = Depends(current_device), db: Session = Depends(get_db)):
-    a = get_attempt(db, device, attempt_id)
+    a = services.close_if_expired(db, device, get_attempt(db, device, attempt_id))
     if a.finished_at is None:
         raise HTTPException(409, 'not_finished')
     return services.result_payload(db, a)
@@ -473,7 +474,7 @@ def page_exam(slug: str, request: Request, device: Device | None = Depends(curre
 @app.get('/attempt/{attempt_id}', response_class=HTMLResponse)
 def page_attempt(attempt_id: int, request: Request, device: Device | None = Depends(current_device),
                  db: Session = Depends(get_db)):
-    a = get_attempt(db, device, attempt_id)
+    a = services.close_if_expired(db, device, get_attempt(db, device, attempt_id))
     if a.finished_at is not None:
         return RedirectResponse(f'/result/{a.id}', status_code=303)
     return render('player.html', request, device, attempt=a)
@@ -482,7 +483,7 @@ def page_attempt(attempt_id: int, request: Request, device: Device | None = Depe
 @app.get('/result/{attempt_id}', response_class=HTMLResponse)
 def page_result(attempt_id: int, request: Request, device: Device | None = Depends(current_device),
                 db: Session = Depends(get_db)):
-    a = get_attempt(db, device, attempt_id)
+    a = services.close_if_expired(db, device, get_attempt(db, device, attempt_id))
     if a.finished_at is None:
         return RedirectResponse(f'/attempt/{a.id}', status_code=303)
     return render('result.html', request, device, attempt=a, result=services.result_payload(db, a))

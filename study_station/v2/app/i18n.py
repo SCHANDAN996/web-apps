@@ -120,6 +120,9 @@ STRINGS = {
     'back_home': ('होम पर जाएँ', 'Go home'),
     'offline': ('आप ऑफ़लाइन हैं। इंटरनेट आने पर फिर कोशिश करें।', 'You are offline. Try again when you are back online.'),
     'save': ('सेव करें', 'Save'),
+    'skip_to_content': ('मुख्य सामग्री पर जाएँ', 'Skip to content'),
+    'official_badge': ('आधिकारिक', 'Official'),
+    'questions_col': ('सवाल', 'Questions'),
     'ca_title': ('करंट अफेयर्स', 'Current Affairs'),
     'ca_desc': ('सरकारी स्रोतों (All India Radio, PIB) से — परीक्षा के काम की ख़बरें, छोटे सार के साथ।',
                 'From official sources (All India Radio, PIB) — exam-relevant news with short summaries.'),
@@ -142,7 +145,7 @@ STRINGS = {
     'sync_warn': ('यह code किसी को न दें — इससे आपका progress खुलता है। नया code बनाने पर पुराना बंद हो जाता है।',
                   'Keep this code private — it opens your progress. Creating a new code disables the old one.'),
     'sync_enter': ('Code डालें', 'Enter code'),
-    'sync_restore': ('Progress लाएँ', 'Restore'),
+    'sync_restore': ('प्रगति लाएँ', 'Restore'),
     'sync_bad': ('यह code नहीं मिला', 'Code not found'),
     'saved': ('सेव हो गया', 'Saved'),
 }
@@ -155,6 +158,18 @@ def t(key, lang):
     return pair[0] if lang == 'hi' else pair[1]
 
 
+ERRORS = {
+    'time_up': ('समय ख़त्म हो गया — टेस्ट जमा हो रहा है।', 'Time is up — the test is being submitted.'),
+    'already_answered': ('इस सवाल का जवाब पहले ही दे चुके हैं।', 'You have already answered this question.'),
+    'finished': ('यह टेस्ट पहले ही जमा हो चुका है।', 'This test has already been submitted.'),
+    'not_due': ('यह सवाल अभी दोहराने का समय नहीं आया।', 'This card is not due yet.'),
+    'no_questions': ('इस विकल्प में अभी सवाल नहीं हैं।', 'No questions available for this choice yet.'),
+    'Too many requests': ('बहुत ज़्यादा कोशिशें — थोड़ी देर बाद करें।', 'Too many tries — please wait a little.'),
+    'code_not_found': ('यह code नहीं मिला', 'Code not found'),
+    '_default': ('कुछ गड़बड़ हुई — दोबारा कोशिश करें।', 'Something went wrong — please try again.'),
+}
+
+
 def client_strings(lang):
     """Subset sent to the browser for the JS player."""
     keys = ['check', 'next', 'prev', 'finish', 'submit', 'save_next', 'mark_review', 'clear', 'correct',
@@ -162,4 +177,6 @@ def client_strings(lang):
             'verified_label', 'result', 'score', 'accuracy', 'time', 'offline', 'revise_empty', 'sync_bad',
             'ai_explain', 'ai_busy', 'ai_unavailable', 'ai_limit', 'ai_key_doubt', 'ai_note',
             'easy', 'medium', 'hard']
-    return {k: t(k, lang) for k in keys}
+    out = {k: t(k, lang) for k in keys}
+    out['errors'] = {k: (v[0] if lang == 'hi' else v[1]) for k, v in ERRORS.items()}
+    return out

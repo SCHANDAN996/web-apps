@@ -17,7 +17,11 @@
       credentials: 'same-origin'
     }).then(function (res) {
       return res.json().catch(function () { return {}; }).then(function (data) {
-        if (!res.ok) { var e = new Error(data.detail || res.statusText); e.status = res.status; throw e; }
+        if (!res.ok) {
+          var code = typeof data.detail === 'string' ? data.detail : '';
+          var e = new Error((SS.t.errors && SS.t.errors[code]) || (SS.t.errors && SS.t.errors._default) || 'Error');
+          e.status = res.status; e.code = code; throw e;
+        }
         return data;
       });
     }, function () { var e = new Error(SS.t.offline); e.status = 0; throw e; });
@@ -98,7 +102,7 @@
             h('p', { class: 'xs muted', style: 'margin:0 0 6px' }, '✨ ' + SS.t.ai_note), r.text));
         })
         .catch(function (e) {
-          var msg = /daily_limit/.test(e.message) ? SS.t.ai_limit : /key_doubt/.test(e.message) ? SS.t.ai_key_doubt : SS.t.ai_unavailable;
+          var msg = e.code === 'daily_limit' ? SS.t.ai_limit : e.code === 'key_doubt' ? SS.t.ai_key_doubt : SS.t.ai_unavailable;
           box.replaceChildren(h('p', { class: 'small muted' }, msg));
         });
     });

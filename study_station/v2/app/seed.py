@@ -152,8 +152,9 @@ def seed_jobs(db: Session, jobs_js=PROJECT_DIR / 'website' / 'js' / 'jobs_data.j
         while slug in existing:
             slug = f'{base}-{n}'
             n += 1
+        from .jobs.sources import is_official
         official = (r.get('official') or '').strip()
-        if not official.lower().startswith(('http://', 'https://')):
+        if not is_official(official):          # old feed often pointed at aggregators
             official = None
         db.add(Job(
             slug=slug, title=r.get('title') or 'Untitled', org=r.get('org'),
@@ -170,6 +171,19 @@ def seed_jobs(db: Session, jobs_js=PROJECT_DIR / 'website' / 'js' / 'jobs_data.j
     return added
 
 
+def clean_legacy_links(db: Session):
+    """Older imports may carry aggregator links; students must only be sent to official sites."""
+    from .jobs.sources import is_official
+    n = 0
+    for j in db.scalars(select(Job).where(Job.status == 'legacy')):
+        for f in ('official_url', 'notification_url'):
+            if getattr(j, f) and not is_official(getattr(j, f)):
+                setattr(j, f, None)
+                n += 1
+    db.commit()
+    return n
+
+
 def main():
     ensure_schema(engine)
     with SessionLocal() as db:
@@ -177,6 +191,7 @@ def main():
         print('questions:', seed_questions(db))
         if db.scalar(select(Job.id).limit(1)) is None:
             print('jobs added:', seed_jobs(db))
+        print('legacy links cleaned:', clean_legacy_links(db))
 
 
 if __name__ == '__main__':

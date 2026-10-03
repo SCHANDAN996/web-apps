@@ -73,7 +73,8 @@ main { padding: var(--sp-5) 0 var(--sp-6); }
   border-bottom: 1px solid var(--border);
 }
 .topbar .wrap { height: 100%; display: flex; align-items: center; justify-content: space-between; gap: var(--sp-3); }
-.brand { display: flex; align-items: center; gap: var(--sp-2); font-weight: 800; color: var(--text); text-decoration: none; }
+.brand { display: flex; align-items: center; gap: var(--sp-2); min-height: var(--tap); font-weight: 800; color: var(--text); text-decoration: none; }
+.table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
 .brand-mark { width: 32px; height: 32px; border-radius: 10px; background: var(--brand); color: var(--on-brand); display: grid; place-items: center; }
 .top-actions { display: flex; gap: var(--sp-2); }
 
@@ -124,7 +125,7 @@ main { padding: var(--sp-5) 0 var(--sp-6); }
 .icon-btn { width: var(--tap); height: var(--tap); padding: 0; border-radius: var(--r-pill); }
 
 .chip {
-  display: inline-flex; align-items: center; gap: 6px; min-height: 36px; padding: 0 var(--sp-3);
+  display: inline-flex; align-items: center; gap: 6px; min-height: var(--tap); padding: 0 var(--sp-3);
   border-radius: var(--r-pill); border: 1px solid var(--border); background: var(--surface);
   font-size: var(--fs-sm); font-weight: 600; color: var(--text-2); text-decoration: none; cursor: pointer;
 }

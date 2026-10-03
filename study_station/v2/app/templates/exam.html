@@ -7,8 +7,8 @@
 <h1>{{ ename }} <span class="muted" style="font-weight:600">{{ exam.stage_en }}</span></h1>
 <section class="card">
   <h2>{{ tr('pattern') }}</h2>
-  <table class="pattern">
-    <thead><tr><th>{{ tr('section') }}</th><th class="num">{{ tr('questions') }}</th><th class="num">{{ tr('marks') }}</th><th class="num">{{ tr('negative') }}</th></tr></thead>
+  <div class="table-scroll"><table class="pattern">
+    <thead><tr><th>{{ tr('section') }}</th><th class="num">{{ tr('questions_col') }}</th><th class="num">{{ tr('marks') }}</th><th class="num">{{ tr('negative') }}</th></tr></thead>
     <tbody>
     {% for p in plan %}{% set s = p.section %}
       <tr><td>{{ L(s.subject.name_hi, s.subject.name_en) }}</td><td class="num">{{ s.questions }}</td>
@@ -18,7 +18,7 @@
     </tbody>
     <tfoot><tr><th>{{ L('कुल', 'Total') }} · {{ exam.duration_min }} {{ tr('minutes') }}</th><th class="num">{{ exam.sections|sum(attribute='questions') }}</th>
       <th class="num">{% set tm = namespace(v=0) %}{% for s in exam.sections %}{% set tm.v = tm.v + s.questions * s.marks_per_q %}{% endfor %}{{ tm.v|round(0)|int }}</th><th></th></tr></tfoot>
-  </table>
+  </table></div>
   {% if L(exam.pattern_note_hi, exam.pattern_note_en) %}<p class="small" style="margin-top:var(--sp-3)">{{ L(exam.pattern_note_hi, exam.pattern_note_en) }}</p>{% endif %}
   <div class="notice" style="margin-top:var(--sp-3)"><svg class="icon"><use href="#i-info"/></svg><span>{{ tr('pattern_verify') }} <span class="muted">({{ pattern_checked }})</span></span></div>
 </section>

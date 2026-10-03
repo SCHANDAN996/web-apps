@@ -126,8 +126,10 @@
   // ================================================================ CBT MOCK
   function mock(data) {
     var qs = data.questions, i = 0, visited = {}, pending = {}, shownAt = Date.now(), finishing = false;
+    var posKey = 'ss-mock-pos-' + data.id;
+    try { i = Math.min(qs.length - 1, Math.max(0, parseInt(sessionStorage.getItem(posKey) || '0', 10) || 0)); } catch (e) {}
     qs.forEach(function (q) { if (q.state.chosen !== null || q.state.marked) visited[q.id] = true; });
-    visited[qs[0].id] = true;
+    visited[qs[i].id] = true;
     var deadline = Date.now() + (data.remaining_sec || 0) * 1000;
 
     var head = h('div', { class: 'player-head' });
@@ -163,6 +165,7 @@
       if (n < 0 || n >= qs.length) return;
       save(qs[i]);
       i = n; visited[qs[i].id] = true;
+      try { sessionStorage.setItem(posKey, String(i)); } catch (e) {}
       render(); scrollTo(0, 0);
     }
 
@@ -270,10 +273,23 @@
       if (finishing) return;
       finishing = true; clearInterval(timer);
       if (auto) SS.toast(SS.lang === 'hi' ? 'समय ख़त्म — टेस्ट जमा हो रहा है' : 'Time up — submitting');
-      save(qs[i]).then(function () {
-        return SS.api('POST', '/api/v1/attempts/' + data.id + '/finish');
-      }).then(function () { window.removeEventListener('beforeunload', guard); location.href = '/result/' + data.id; })
-        .catch(function (e) { finishing = false; SS.toast(e.message); });
+      var tries = 0;
+      (function attempt() {
+        save(qs[i]).then(function () {
+          return SS.api('POST', '/api/v1/attempts/' + data.id + '/finish');
+        }).then(function () {
+          window.removeEventListener('beforeunload', guard);
+          try { sessionStorage.removeItem(posKey); } catch (e) {}
+          location.href = '/result/' + data.id;
+        }).catch(function (e) {
+          tries++;
+          // Offline at time-up: keep the answers and retry (also as soon as the network returns).
+          SS.toast(e.status === 0 ? SS.t.offline : e.message);
+          if (auto || e.status === 0) {
+            setTimeout(attempt, Math.min(30000, 2000 * tries));
+          } else { finishing = false; timer = setInterval(tick, 1000); }
+        });
+      })();
     }
 
     function guard(e) { if (!finishing) { e.preventDefault(); e.returnValue = ''; } }

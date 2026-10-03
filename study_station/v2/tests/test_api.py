@@ -73,7 +73,7 @@ def test_partial_mock_scales_time(client):
     a = client.post('/api/v1/mock', json={'exam': 'rrb-group-d'}).json()
     # science has no questions → 75 of 100 questions, 75% of 90 minutes
     assert len(a['questions']) == 75 and a['duration_sec'] == round(90 * 60 * 0.75)
-    assert 'Partial' in a['title']
+    assert 'आंशिक' in a['title'] or 'Partial' in a['title']
 
 
 def test_mock_rejects_answers_after_time_up(client, db):
@@ -100,16 +100,22 @@ def test_leitner_revision(client, db):
     onboard(client)
     a = client.post('/api/v1/practice', json={'topic_id': topic_id(db, 'polity'), 'count': 1}).json()
     qid = a['questions'][0]['id']
-    client.post(f"/api/v1/attempts/{a['id']}/answer", json={'question_id': qid, 'chosen_index': 3})
+    key = db.get(Question, qid).answer_index
+    client.post(f"/api/v1/attempts/{a['id']}/answer", json={'question_id': qid, 'chosen_index': (key + 1) % 4})
     assert client.get('/api/v1/revise').json()['cards'] == []       # due tomorrow, not today
     me = db.query(Device).filter_by(token=client.cookies.get('ss_device')).one()
     card = db.query(ReviewCard).filter_by(device_id=me.id, question_id=qid).one()
     card.due_on = date(2000, 1, 1)
     db.commit()
     assert [c['id'] for c in client.get('/api/v1/revise').json()['cards']] == [qid]
-    r = client.post(f'/api/v1/revise/{qid}', json={'chosen_index': 1}).json()
+    r = client.post(f'/api/v1/revise/{qid}', json={'chosen_index': key}).json()
     assert r['correct'] and r['box'] == 2
-    r = client.post(f'/api/v1/revise/{qid}', json={'chosen_index': 0}).json()
+    # not due again until later — an early retry is refused
+    assert client.post(f'/api/v1/revise/{qid}', json={'chosen_index': key}).status_code == 409
+    db.refresh(card)
+    card.due_on = date(2000, 1, 1)
+    db.commit()
+    r = client.post(f'/api/v1/revise/{qid}', json={'chosen_index': (key + 1) % 4}).json()
     assert not r['correct'] and r['box'] == 1
 
 

@@ -130,7 +130,8 @@ def start_mock(db: Session, device: Device, exam_slug: str):
     duration = round(exam.duration_min * 60 * used_q / total_q)
     name = exam.name_hi if device.lang == 'hi' else exam.name_en
     a = Attempt(device_id=device.id, mode='mock', exam_id=exam.id, question_ids=ids,
-                duration_sec=duration, title=name + ('' if used_q == total_q else ' (Partial)'))
+                duration_sec=duration,
+                title=name + ('' if used_q == total_q else (' (आंशिक)' if device.lang == 'hi' else ' (Partial)')))
     db.add(a)
     db.commit()
     return a
@@ -162,6 +163,13 @@ def attempt_payload(db: Session, a: Attempt):
     return {'id': a.id, 'mode': a.mode, 'title': a.title, 'questions': items, 'sections': sections,
             'duration_sec': a.duration_sec, 'remaining_sec': remaining,
             'finished': a.finished_at is not None}
+
+
+def close_if_expired(db: Session, device: Device, a: Attempt):
+    """A mock whose time (plus grace) is over is submitted by the server — the phone may have been offline."""
+    if a.finished_at is None and _mock_deadline_passed(a):
+        finish_attempt(db, device, a)
+    return a
 
 
 def _mock_deadline_passed(a: Attempt):
@@ -281,6 +289,8 @@ def review_card(db: Session, device: Device, question_id: int, chosen_index: int
                                               ReviewCard.question_id == question_id))
     if card is None:
         raise LookupError('card')
+    if card.due_on > today:
+        raise NotAllowed('not_due')     # a retry/double tap must not jump a card ahead
     q = card.question
     correct = chosen_index == q.answer_index
     if correct:
