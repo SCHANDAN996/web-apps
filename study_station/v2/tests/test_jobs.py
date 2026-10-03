@@ -173,3 +173,11 @@ def test_discovery_without_official_link_stays_hidden(clean_jobs, client):
     job = db.query(Job).one()
     assert job.status == 'pending'
     assert client.get('/api/v1/jobs?status=undated').json()['jobs'] == []   # never shown to students
+
+
+def test_similar_official_notices_stay_separate(clean_jobs):
+    db = clean_jobs
+    a = Item('ssc', 'official', 'Declaration of Result of Annual Departmental Typing Test, 2026', 'https://ssc.gov.in/#notice-a', org='SSC')
+    b = Item('ssc', 'official', 'Declaration of Result of Annual Departmental Stenography Test, 2026', 'https://ssc.gov.in/#notice-b', org='SSC')
+    pipeline.run(db, [StaticSource('ssc', [a, b])], http=FakeFetcher({}))
+    assert db.query(Job).count() == 2

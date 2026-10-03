@@ -12,7 +12,7 @@ generic HtmlListingSource). A source that breaks never stops the others.
 import re
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass, field
-from datetime import date
+from datetime import date, timedelta
 from email.utils import parsedate_to_datetime
 from urllib.parse import urljoin, urlsplit
 
@@ -69,9 +69,10 @@ class SSCSource:
     API = 'https://ssc.gov.in/api/general-website/portal/records'
     FILES = 'https://ssc.gov.in/api/attachment/'
 
-    def __init__(self, name='ssc', content_types=('notice-boards',), limit=10, pages=4):
-        # The API serves 10 records per page regardless of `limit`.
+    def __init__(self, name='ssc', content_types=('notice-boards',), limit=10, pages=4, window_days=120):
+        # The API serves 10 records per page regardless of `limit` (or everything at once).
         self.name, self.content_types, self.limit, self.pages = name, content_types, limit, pages
+        self.window_days = window_days
 
     def fetch(self, http):
         items = []
@@ -86,8 +87,11 @@ class SSCSource:
             items += batch
             if not batch or len(batch) > self.limit:   # API ignored paging and sent everything
                 break
+        # Keep everything from the last ~4 months — an open recruitment can be weeks old.
+        cutoff = date.today() - timedelta(days=self.window_days)
+        items = [i for i in items if i.published is None or i.published >= cutoff]
         items.sort(key=lambda i: i.published or date.min, reverse=True)
-        return items[: self.limit * self.pages]
+        return items[:300]
 
     def parse(self, body):
         import json
@@ -124,7 +128,7 @@ class HtmlListingSource:
         out, seen = [], set()
 
         def add(title, href, hint=''):
-            title = clean(title)
+            title = re.sub(r'(\s*(read\s+more|click\s+here|new|अधिक\s+पढ़ें))+$', '', clean(title), flags=re.I)
             if not href or href.startswith(('#', 'javascript:', 'mailto:')) or '{{' in title:
                 return
             url = urljoin(base_url, href)

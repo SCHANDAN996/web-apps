@@ -30,7 +30,7 @@ def resolve_discovery(http: Fetcher, item: Item):
     return sites[0] if sites else None
 
 
-def find_existing(db: Session, key, title, notification_url, org_host):
+def find_existing(db: Session, key, title, notification_url, org_host, kind='discovery'):
     if notification_url:
         j = db.scalar(select(Job).where(Job.notification_url == notification_url))
         if j:
@@ -38,7 +38,11 @@ def find_existing(db: Session, key, title, notification_url, org_host):
     j = db.scalar(select(Job).where(Job.dedupe_key == key))
     if j:
         return j
-    # Same organisation, similar title, seen recently → same recruitment.
+    if kind == 'official':
+        # Each official notice is its own record ("Typing Test result" ≠ "Stenography Test result");
+        # only an identical document or advt no. above merges official items.
+        return None
+    # An aggregator headline: same organisation, similar title, seen recently → same recruitment.
     since = datetime.utcnow() - timedelta(days=120)
     for cand in db.scalars(select(Job).where(Job.created_at >= since, Job.status != 'legacy')):
         same_org = org_host and org_host in (host_of(cand.notification_url), host_of(cand.official_url))
@@ -58,7 +62,7 @@ def unique_slug(db, title):
 def upsert(db: Session, item: Item, job_type, facts, notification_url, official_url, verified):
     org_host = host_of(notification_url or official_url) or None
     key = dedupe_key(org_host or item.source, item.title, facts.get('advt_no'))
-    job = find_existing(db, key, item.title, notification_url, org_host)
+    job = find_existing(db, key, item.title, notification_url, org_host, item.kind)
     created = job is None
     if created:
         job = Job(slug=unique_slug(db, item.title), title=item.title, dedupe_key=key, status='pending',
