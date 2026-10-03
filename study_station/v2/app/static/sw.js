@@ -1,6 +1,6 @@
 /* Study Station v2 service worker: offline shell, network-first pages, never caches API data.
    Book pages (/books/…) are the same for everyone, so visited ones are kept for offline reading. */
-const VERSION = 'ss2-v1';
+const VERSION = 'ss2-v2';
 const BOOKS = 'ss2-books-v1';
 const BOOKS_MAX = 80;           // pages kept for offline reading (oldest dropped first)
 const SHELL = ['/static/css/app.css', '/static/js/app.js', '/static/js/player.js', '/static/icon.svg', '/offline'];

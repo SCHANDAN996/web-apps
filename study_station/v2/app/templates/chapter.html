@@ -29,7 +29,18 @@
 {% endif %}
 
 {% if html %}
-<article class="card book-body" lang="{{ shown if shown in ('hi', 'en') else lang }}">
+<div class="reader-bar" role="group" aria-label="{{ tr('reader_settings') }}">
+  <div class="seg" role="radiogroup" aria-label="{{ tr('reader_theme') }}">
+    <button type="button" class="seg-btn" data-reader-theme="plain" aria-pressed="false">{{ tr('reader_plain') }}</button>
+    <button type="button" class="seg-btn" data-reader-theme="paper" aria-pressed="false">{{ tr('reader_paper') }}</button>
+    <button type="button" class="seg-btn" data-reader-theme="night" aria-pressed="false">{{ tr('reader_night') }}</button>
+  </div>
+  <div class="seg" role="group" aria-label="{{ tr('reader_size') }}">
+    <button type="button" class="seg-btn" data-reader-size="-1" aria-label="{{ tr('reader_smaller') }}">A−</button>
+    <button type="button" class="seg-btn" data-reader-size="1" aria-label="{{ tr('reader_bigger') }}">A+</button>
+  </div>
+</div>
+<article class="card book-body" id="reader" lang="{{ shown if shown in ('hi', 'en') else lang }}">
   {% if shown in ('hi', 'en') and shown != want %}<p class="notice">{{ tr('only_in_' + shown) }}</p>{% endif %}
   {% if other %}<p class="book-lang"><a class="tap-link small" href="?s={{ slug_of[key] }}&amp;lang={{ other }}"><svg class="icon icon-sm" aria-hidden="true"><use href="#i-globe"/></svg><span>{{ tr('read_in_' + other) }}</span></a></p>{% endif %}
   {% if key == 'Flashcards' and 'fc-list' in html %}<p class="xs muted">{{ tr('fc_hint') }}</p>{% endif %}

@@ -42,7 +42,7 @@ python -m app.generate --topic ga/polity --n 10 | --fill --min 60
 3. **Write data through the CLIs / app code**, never by editing the DB by hand. One writer at a time
    (SQLite): parallel agents research; one agent applies.
 4. **Both languages.** Every UI string goes in `app/i18n.py` as (hi, en). Hindi is the default.
-5. **Design system.** Use tokens in `static/css/app.css` (colour, spacing, radius, `--dur-*`, `--ease-*`);
+5. **Design system** (Material Design 3, see `DESIGN.md`). Use tokens in `static/css/app.css` (colour, spacing, radius, `--dur-*`, `--ease-*`);
    motion on transform/opacity only; respect `prefers-reduced-motion`; 44px touch targets; no CDN assets.
 6. **Security.** Escape all external text (Jinja autoescape; `SS.h()` in JS — never innerHTML with data);
    API POSTs are JSON-only; admin needs `SECRET_KEY` + `ADMIN_PASSWORD`; no secrets in code or logs.

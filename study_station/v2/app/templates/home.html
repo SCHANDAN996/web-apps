@@ -44,9 +44,9 @@
 
   <section class="enter">
     <div class="row-between"><h2>{{ tr('your_exams') }}</h2><a class="small tap-link" href="/settings">{{ tr('settings') }}</a></div>
-    <div class="grid">
+    <div class="hscroll">
       {% for e in exams %}
-      <a class="card card-link" href="/mock/{{ e.slug }}">
+      <a class="card card-link exam-card" href="/mock/{{ e.slug }}">
         <span class="badge badge-brand">{{ e.body }}</span>
         <h3 style="margin:var(--sp-2) 0 4px">{{ L(e.name_hi, e.name_en) }}</h3>
         <p class="small muted" style="margin:0">{{ e.stage_en }} · {{ e.duration_min }} {{ tr('minutes') }}</p>

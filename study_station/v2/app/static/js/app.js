@@ -241,6 +241,52 @@
       practiceForm.querySelector('[type=submit]'));
   });
 
+  // ---------------------------------------------------------------- book reader settings
+  var reader = document.getElementById('reader');
+  if (reader) {
+    var store = function (k, v) { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) { return null; } };
+    var applyTheme = function (t) {
+      reader.classList.toggle('reader-paper', t === 'paper');
+      reader.classList.toggle('reader-night', t === 'night');
+      document.querySelectorAll('[data-reader-theme]').forEach(function (b) { b.setAttribute('aria-pressed', String(b.getAttribute('data-reader-theme') === t)); });
+    };
+    var scale = Number(store('ss_reader_scale')) || 1;
+    var applySize = function () { reader.style.setProperty('--reader-scale', String(scale)); };
+    applyTheme(store('ss_reader_theme') || 'plain');
+    applySize();
+    document.addEventListener('click', function (e) {
+      var t = e.target.closest('[data-reader-theme]');
+      if (t) { var v = t.getAttribute('data-reader-theme'); store('ss_reader_theme', v); applyTheme(v); return; }
+      var z = e.target.closest('[data-reader-size]');
+      if (z) {
+        scale = Math.min(1.5, Math.max(0.85, Math.round((scale + 0.1 * Number(z.getAttribute('data-reader-size'))) * 100) / 100));
+        store('ss_reader_scale', String(scale)); applySize();
+      }
+    });
+  }
+
+  // ---------------------------------------------------------------- Material 3 feel
+  // Ripple on press (transform/opacity only; skipped when the user prefers reduced motion).
+  var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (!reduceMotion) document.addEventListener('pointerdown', function (e) {
+    var el = e.target.closest('.btn, .chip, .card-link, .option, .tab, .list-item, .seg-btn');
+    if (!el || el.disabled || el.getAttribute('aria-disabled') === 'true') return;
+    var r = el.getBoundingClientRect(), size = Math.max(r.width, r.height) * 2.2;
+    var dot = document.createElement('span');
+    dot.className = 'ripple';
+    dot.style.width = dot.style.height = size + 'px';
+    dot.style.left = (e.clientX - r.left - size / 2) + 'px';
+    dot.style.top = (e.clientY - r.top - size / 2) + 'px';
+    if (getComputedStyle(el).position === 'static') el.style.position = 'relative';
+    el.style.overflow = 'hidden';
+    el.appendChild(dot);
+    dot.addEventListener('animationend', function () { dot.remove(); });
+  }, { passive: true });
+  // Top app bar takes the container tint once the page scrolls (M3 "on scroll" state).
+  var onScroll = function () { document.body.classList.toggle('scrolled', window.scrollY > 4); };
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
   if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) {
     navigator.serviceWorker.register('/sw.js').catch(function () {});
   }
