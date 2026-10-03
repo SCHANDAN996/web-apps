@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block title %}{{ tr('progress') }} — {{ tr('brand') }}{% endblock %}
+{% block robots %}<meta name="robots" content="noindex">{% endblock %}
+{% block main %}
+<h1>{{ tr('progress') }}</h1>
+{% if not stats or not stats.attempted %}
+<div class="empty">{{ tr('weak_empty') }}<br><br><a class="btn btn-primary" href="/practice">{{ tr('nav_practice') }}</a></div>
+{% else %}
+<div class="stat-row">
+  <div class="stat"><b>{{ stats.attempted }}</b><span>{{ tr('answered') }}</span></div>
+  <div class="stat"><b>{{ stats.accuracy }}%</b><span>{{ tr('accuracy') }}</span></div>
+  <div class="stat"><b>{{ stats.streak_days }}</b><span>{{ tr('streak') }}</span></div>
+</div>
+<section class="card" style="margin-top:var(--sp-4)">
+  <h2>{{ tr('topics') }}</h2>
+  <ul class="list">
+  {% for tp in stats.topics %}
+    <li><div class="list-item"><div class="grow"><b>{{ tp.name[lang] }}</b>
+      <div class="xs muted">{{ tp.correct }}/{{ tp.attempted }}</div>
+      <div class="meter {{ 'ok' if tp.accuracy >= 75 else ('warn' if tp.accuracy >= 50 else 'bad') }}" style="margin-top:6px"><i style="width:{{ tp.accuracy }}%"></i></div></div>
+      <span class="badge">{{ tp.accuracy }}%</span>
+      <button class="btn btn-secondary btn-sm" data-practice="{{ tp.id }}">{{ tr('start') }}</button></div></li>
+  {% endfor %}
+  </ul>
+</section>
+{% if stats.mocks %}
+<section class="card" style="margin-top:var(--sp-4)">
+  <h2>{{ tr('recent_mocks') }}</h2>
+  <ul class="list">{% for m in stats.mocks %}
+    <li><a class="list-item" href="/result/{{ m.id }}"><span class="grow"><b>{{ m.title }}</b><br><span class="xs muted">{{ m.date }}</span></span>
+      <span class="badge badge-brand">{{ '%g'|format(m.score) }}/{{ '%g'|format(m.max_score) }}</span></a></li>
+  {% endfor %}</ul>
+</section>
+{% endif %}
+{% endif %}
+{% endblock %}

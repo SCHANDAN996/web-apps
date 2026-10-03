@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+{% block main %}
+<div class="stack">
+  <section class="row-between enter">
+    <div>
+      <h1 style="margin:0">{{ tr('hello') }}</h1>
+      <p class="muted small" style="margin:0">{{ L('आज का लक्ष्य: 10 सवाल + दोहराई', "Today's goal: 10 questions + revision") }}</p>
+    </div>
+    <span class="streak" title="{{ tr('streak') }}"><svg class="icon"><use href="#i-flame"/></svg>{{ stats.streak_days }}</span>
+  </section>
+
+  <div class="stat-row enter">
+    <div class="stat"><b>{{ stats.attempted }}</b><span>{{ tr('answered') }}</span></div>
+    <div class="stat"><b>{{ stats.accuracy if stats.accuracy is not none else '—' }}{% if stats.accuracy is not none %}%{% endif %}</b><span>{{ tr('accuracy') }}</span></div>
+    <div class="stat"><b>{{ stats.due_reviews }}</b><span>{{ tr('due_today') }}</span></div>
+  </div>
+
+  {% if stats.due_reviews %}
+  <a class="card card-link row-between enter" href="/revise">
+    <div><h3 style="margin:0">{{ stats.due_reviews }} {{ tr('due_today') }}</h3><p class="small muted" style="margin:0">{{ tr('revise_desc') }}</p></div>
+    <span class="btn btn-primary btn-sm">{{ tr('start_revision') }}</span>
+  </a>
+  {% endif %}
+
+  <section class="enter">
+    <div class="row-between"><h2>{{ tr('your_exams') }}</h2><a class="small" href="/settings">{{ tr('settings') }}</a></div>
+    <div class="grid">
+      {% for e in exams %}
+      <a class="card card-link" href="/mock/{{ e.slug }}">
+        <span class="badge badge-brand">{{ e.body }}</span>
+        <h3 style="margin:var(--sp-2) 0 4px">{{ L(e.name_hi, e.name_en) }}</h3>
+        <p class="small muted" style="margin:0">{{ e.stage_en }} · {{ e.duration_min }} {{ tr('minutes') }}</p>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="card enter">
+    <h2>{{ tr('weak_topics') }}</h2>
+    {% if stats.weak_topics %}
+    <ul class="list">
+      {% for tp in stats.weak_topics %}
+      <li><div class="list-item"><div class="grow"><b>{{ tp.name[lang] }}</b>
+        <div class="meter bad" style="margin-top:6px"><i style="width:{{ tp.accuracy }}%"></i></div></div>
+        <span class="badge badge-bad">{{ tp.accuracy }}%</span>
+        <button class="btn btn-secondary btn-sm" data-practice="{{ tp.id }}">{{ tr('start') }}</button></div></li>
+      {% endfor %}
+    </ul>
+    {% else %}<p class="muted small" style="margin:0">{{ tr('weak_empty') }}</p>{% endif %}
+  </section>
+
+  <section class="enter">
+    <h2>{{ tr('quick_practice') }}</h2>
+    <div class="grid">
+      {% for tp, n in quick %}
+      <button class="card card-link" style="text-align:left;cursor:pointer" data-practice="{{ tp.id }}">
+        <b>{{ L(tp.name_hi, tp.name_en) }}</b>
+        <p class="xs muted" style="margin:0">{{ L(tp.subject.name_hi, tp.subject.name_en) }} · {{ n }} {{ tr('questions') }}</p>
+      </button>
+      {% endfor %}
+    </div>
+  </section>
+
+  {% if jobs %}
+  <section class="card enter">
+    <div class="row-between"><h2>{{ tr('nav_jobs') }}</h2><a class="small" href="/jobs">{{ tr('all') }}</a></div>
+    <ul class="list">{% for j in jobs %}<li><a class="list-item" href="/jobs/{{ j.slug }}"><span class="grow">{{ j.title }}</span><svg class="icon chev"><use href="#i-chev"/></svg></a></li>{% endfor %}</ul>
+  </section>
+  {% endif %}
+
+  <a class="btn btn-secondary btn-block" href="/progress"><svg class="icon"><use href="#i-chart"/></svg>{{ tr('progress') }}</a>
+</div>
+{% endblock %}

@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block title %}{{ tr('practice_title') }} — {{ tr('brand') }}{% endblock %}
+{% block main %}
+<h1>{{ tr('practice_title') }}</h1>
+<p class="muted">{{ tr('practice_desc') }}</p>
+<div class="chips" role="tablist" style="margin:var(--sp-4) 0">
+  {% for s in subjects %}<a class="chip" href="#{{ s.slug }}">{{ L(s.name_hi, s.name_en) }}</a>{% endfor %}
+</div>
+{% for s in subjects %}
+<section class="card enter" id="{{ s.slug }}" style="margin-bottom:var(--sp-4);scroll-margin-top:72px">
+  <h2>{{ L(s.name_hi, s.name_en) }}</h2>
+  <ul class="list">
+    {% for tp in s.topics if counts.get(tp.id) %}
+    {% set m = mastery.get(tp.id) %}
+    <li><a class="list-item" href="/practice/{{ s.slug }}/{{ tp.slug }}">
+      <div class="grow">
+        <b>{{ L(tp.name_hi, tp.name_en) }}</b>
+        <div class="xs muted">{{ counts[tp.id] }} {{ tr('questions') }}{% if m %} · {{ tr('accuracy') }} {{ m.accuracy }}%{% endif %}</div>
+        {% if m %}<div class="meter {{ 'ok' if m.accuracy >= 75 else ('warn' if m.accuracy >= 50 else 'bad') }}" style="margin-top:6px"><i style="width:{{ m.accuracy }}%"></i></div>{% endif %}
+      </div>
+      <svg class="icon chev"><use href="#i-chev"/></svg>
+    </a></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}
+{% endblock %}

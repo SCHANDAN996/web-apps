@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block title %}{{ tr('settings') if settings_mode else tr('brand') + ' — ' + tr('tagline') }}{% endblock %}
+{% block main %}
+{% if not settings_mode %}
+<section class="hero enter">
+  <h1>{{ tr('tagline') }}</h1>
+  <p>{{ L('अभ्यास, असली परीक्षा जैसे मॉक, ग़लतियों की दोहराई और नौकरियों की जानकारी — एक जगह, मुफ़्त।', 'Practice, real exam-style mocks, mistake revision and job updates — in one place, free.') }}</p>
+</section>
+{% endif %}
+<form id="onboard" class="card stack enter" style="margin-top:var(--sp-4)">
+  <h2>{{ tr('settings') if settings_mode else tr('onb_title') }}</h2>
+  <fieldset>
+    <legend>{{ tr('onb_lang') }}</legend>
+    <div class="chips">
+      {% for code, label in [('hi', 'हिंदी'), ('en', 'English')] %}
+      <label class="chip"><input type="radio" name="lang" value="{{ code }}" {% if lang == code %}checked{% endif %}>{{ label }}</label>
+      {% endfor %}
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>{{ tr('onb_level') }}</legend>
+    <div class="chips">
+      {% for code, hi, en in levels %}
+      <label class="chip"><input type="radio" name="level" value="{{ code }}" required {% if device and device.level == code %}checked{% endif %}>{{ L(hi, en) }}</label>
+      {% endfor %}
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>{{ tr('onb_exams') }}</legend>
+    <div class="chips">
+      {% for e in exams %}
+      <label class="chip" data-level="{{ e.level }}"><input type="checkbox" name="exams" value="{{ e.slug }}" {% if device and e.slug in (device.target_exams or []) %}checked{% endif %}>{{ L(e.name_hi, e.name_en) }}</label>
+      {% endfor %}
+    </div>
+  </fieldset>
+  <button class="btn btn-primary btn-block" type="submit">{{ tr('save') if settings_mode else tr('onb_save') }}</button>
+  <p class="xs muted" style="text-align:center">{{ tr('onb_hint') }}</p>
+</form>
+{% endblock %}

@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% set ename = L(exam.name_hi, exam.name_en) %}
+{% block title %}{{ ename }} {{ exam.stage_en }} — {{ L('परीक्षा pattern और फ्री मॉक टेस्ट', 'exam pattern & free mock test') }} | {{ tr('brand') }}{% endblock %}
+{% block description %}{{ ename }} {{ exam.stage_en }}: {{ exam.sections|sum(attribute='questions') }} {{ L('सवाल', 'questions') }}, {{ exam.duration_min }} {{ tr('minutes') }}. {{ L('Section-wise pattern, negative marking और मुफ़्त CBT मॉक टेस्ट।', 'Section-wise pattern, negative marking and a free CBT mock test.') }}{% endblock %}
+{% block main %}
+<p class="small"><a href="/mock">{{ tr('nav_mock') }}</a> › {{ exam.body }}</p>
+<h1>{{ ename }} <span class="muted" style="font-weight:600">{{ exam.stage_en }}</span></h1>
+<section class="card">
+  <h2>{{ tr('pattern') }}</h2>
+  <table class="pattern">
+    <thead><tr><th>{{ tr('section') }}</th><th class="num">{{ tr('questions') }}</th><th class="num">{{ tr('marks') }}</th><th class="num">{{ tr('negative') }}</th></tr></thead>
+    <tbody>
+    {% for p in plan %}{% set s = p.section %}
+      <tr><td>{{ L(s.subject.name_hi, s.subject.name_en) }}</td><td class="num">{{ s.questions }}</td>
+        <td class="num">{{ (s.questions * s.marks_per_q)|round(0)|int }}</td>
+        <td class="num">{% if s.negative_per_q %}−{{ '%g'|format(s.negative_per_q|round(2)) if s.negative_per_q != (1/3) else '1/3' }}{% else %}0{% endif %}</td></tr>
+    {% endfor %}
+    </tbody>
+    <tfoot><tr><th>{{ L('कुल', 'Total') }} · {{ exam.duration_min }} {{ tr('minutes') }}</th><th class="num">{{ exam.sections|sum(attribute='questions') }}</th>
+      <th class="num">{% set tm = namespace(v=0) %}{% for s in exam.sections %}{% set tm.v = tm.v + s.questions * s.marks_per_q %}{% endfor %}{{ tm.v|round(0)|int }}</th><th></th></tr></tfoot>
+  </table>
+  {% if L(exam.pattern_note_hi, exam.pattern_note_en) %}<p class="small" style="margin-top:var(--sp-3)">{{ L(exam.pattern_note_hi, exam.pattern_note_en) }}</p>{% endif %}
+  <div class="notice" style="margin-top:var(--sp-3)"><svg class="icon"><use href="#i-info"/></svg><span>{{ tr('pattern_verify') }} <span class="muted">({{ pattern_checked }})</span></span></div>
+</section>
+
+{% set missing = plan|rejectattr('ok')|list %}
+{% set usable = plan|selectattr('ok')|list %}
+<section class="card" style="margin-top:var(--sp-4)">
+  {% if usable %}
+    {% if missing %}
+    <p class="small">{{ tr('partial_mock') }}</p>
+    <div class="chips" style="margin-bottom:var(--sp-4)">{% for p in missing %}<span class="badge badge-warn">{{ L(p.section.subject.name_hi, p.section.subject.name_en) }}: {{ p.available }}/{{ p.section.questions }}</span>{% endfor %}</div>
+    {% endif %}
+    <ul class="small muted">
+      <li>{{ L('टाइमर ख़त्म होते ही टेस्ट अपने-आप जमा हो जाएगा।', 'The test auto-submits when the timer ends.') }}</li>
+      <li>{{ L('Question palette से किसी भी सवाल पर जाएँ; "रिव्यू के लिए मार्क" कर सकते हैं।', 'Jump to any question from the palette; you can mark questions for review.') }}</li>
+      <li>{{ L('जवाब और हल टेस्ट जमा करने के बाद दिखेंगे।', 'Answers and solutions appear after you submit.') }}</li>
+    </ul>
+    <button class="btn btn-primary btn-block" data-mock="{{ exam.slug }}">{{ tr('start_mock') }}</button>
+  {% else %}
+    <p class="muted" style="margin:0">{{ tr('mock_unavailable') }}</p>
+  {% endif %}
+</section>
+{% endblock %}

@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block title %}{{ tr('revise_title') }} — {{ tr('brand') }}{% endblock %}
+{% block robots %}<meta name="robots" content="noindex">{% endblock %}
+{% block main %}
+<h1>{{ tr('revise_title') }}</h1>
+<p class="muted small">{{ tr('revise_desc') }}</p>
+<div id="player" class="player" data-mode="revise"><div class="empty" aria-live="polite">…</div></div>
+{% endblock %}
+{% block scripts %}<script src="/static/js/player.js" defer></script>{% endblock %}

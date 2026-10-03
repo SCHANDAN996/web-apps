@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+{% block title %}{{ tr('result') }} — {{ attempt.title }}{% endblock %}
+{% block robots %}<meta name="robots" content="noindex">{% endblock %}
+{% block main %}
+{% set pct = ((result.score / result.max_score * 100) if result.max_score else 0)|round(0)|int %}
+<section class="card enter" style="text-align:center">
+  <p class="small muted" style="margin:0">{{ attempt.title }}</p>
+  <h1>{{ tr('result') }}</h1>
+  <div class="score-ring" style="--pct: {{ [pct, 0]|max }}"><div><span><b>{{ '%g'|format(result.score) }}</b><span class="xs muted">/ {{ '%g'|format(result.max_score) }}</span></span></div></div>
+  <div class="stat-row">
+    <div class="stat"><b>{{ result.accuracy if result.accuracy is not none else '—' }}{% if result.accuracy is not none %}%{% endif %}</b><span>{{ tr('accuracy') }}</span></div>
+    <div class="stat"><b>{{ result.attempted }}/{{ result.total }}</b><span>{{ L('हल किए', 'Attempted') }}</span></div>
+    {% set ms = result.review|sum(attribute='time_ms') %}
+    <div class="stat"><b>{{ (ms / 60000)|round(1) }}</b><span>{{ tr('minutes') }}</span></div>
+  </div>
+</section>
+
+{% if result.sections|length > 1 %}
+<section class="card enter" style="margin-top:var(--sp-4)">
+  <h2>{{ L('भाग के अनुसार', 'By section') }}</h2>
+  <table class="pattern">
+    <thead><tr><th>{{ tr('section') }}</th><th class="num">{{ tr('correct') }}</th><th class="num">{{ tr('wrong') }}</th><th class="num">{{ tr('skipped') }}</th><th class="num">{{ tr('time') }}</th></tr></thead>
+    <tbody>{% for slug, s in result.sections.items() %}
+      <tr><td>{{ s.name[lang] }}</td><td class="num">{{ s.correct }}</td><td class="num">{{ s.wrong }}</td><td class="num">{{ s.skipped }}</td><td class="num">{{ (s.time_ms / 60000)|round(1) }}m</td></tr>
+    {% endfor %}</tbody>
+  </table>
+</section>
+{% endif %}
+
+<section style="margin-top:var(--sp-4)">
+  <div class="row-between"><h2>{{ tr('solution') }}</h2>
+    <div class="chips" id="reviewFilter">
+      <button class="chip" aria-pressed="true" data-f="all">{{ tr('all') }}</button>
+      <button class="chip" aria-pressed="false" data-f="wrong">{{ tr('wrong') }}</button>
+      <button class="chip" aria-pressed="false" data-f="skipped">{{ tr('skipped') }}</button>
+    </div></div>
+  {% for q in result.review %}
+  {% set qtext = q.text[lang] or q.text['en' if lang == 'hi' else 'hi'] %}
+  {% set qopts = q.options[lang] or q.options['en' if lang == 'hi' else 'hi'] %}
+  {% set qsol = q.solution[lang] or q.solution['en' if lang == 'hi' else 'hi'] %}
+  <article class="card review-item" data-status="{{ q.status }}" style="margin-top:var(--sp-3)">
+    <div class="q-meta"><b>Q{{ q.n }}</b>
+      <span class="badge {{ 'badge-ok' if q.status == 'correct' else ('badge-bad' if q.status == 'wrong' else '') }}">{{ tr(q.status) }}</span>
+      <span class="xs muted">{{ q.topic[lang] }} · {{ (q.time_ms / 1000)|round(0)|int }}s</span></div>
+    <p style="white-space:pre-line;font-weight:600">{{ qtext }}</p>
+    <div class="options">
+      {% for o in qopts %}
+      <div class="option {{ 'is-correct' if loop.index0 == q.answer_index else ('is-wrong' if loop.index0 == q.chosen else '') }}" aria-disabled="true">
+        <span class="key">{{ 'ABCD'[loop.index0] }}</span><span class="val">{{ o }}</span>
+        {% if loop.index0 == q.answer_index %}<span class="tag">{{ tr('right_answer') }}</span>{% elif loop.index0 == q.chosen %}<span class="tag">{{ tr('your_answer') }}</span>{% endif %}
+      </div>
+      {% endfor %}
+    </div>
+    {% if qsol %}<div class="solution"><b>{{ tr('solution') }}:</b> {{ qsol }}</div>{% endif %}
+    <button class="btn btn-ghost btn-sm" data-report="{{ q.id }}" style="margin-top:var(--sp-2)"><svg class="icon icon-sm"><use href="#i-flag"/></svg>{{ tr('report') }}</button>
+  </article>
+  {% endfor %}
+</section>
+<div class="row" style="margin-top:var(--sp-5)">
+  <a class="btn btn-secondary" style="flex:1" href="/">{{ tr('back_home') }}</a>
+  {% if attempt.mode == 'practice' and attempt.topic_id %}<button class="btn btn-primary" style="flex:1" data-practice="{{ attempt.topic_id }}">{{ tr('practice_again') }}</button>
+  {% elif attempt.exam %}<button class="btn btn-primary" style="flex:1" data-mock="{{ attempt.exam.slug }}">{{ L('नया मॉक', 'New mock') }}</button>{% endif %}
+</div>
+{% endblock %}

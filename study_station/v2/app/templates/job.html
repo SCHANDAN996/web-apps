@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block title %}{{ job.title }} — {{ tr('brand') }}{% endblock %}
+{% block description %}{{ job.title }}{% if job.last_date_text %} · {{ tr('last_date') }}: {{ job.last_date_text }}{% endif %}{% endblock %}
+{% block robots %}{% if job.last_date and job.last_date < today %}<meta name="robots" content="noindex">{% endif %}{% endblock %}
+{% block head %}
+{% if job.last_date and job.last_date >= today and job.official_url %}
+<script type="application/ld+json">{{ {
+  "@context": "https://schema.org", "@type": "JobPosting", "title": job.title,
+  "description": job.eligibility or job.title,
+  "datePosted": job.created_at.date().isoformat(), "validThrough": job.last_date.isoformat(),
+  "hiringOrganization": {"@type": "Organization", "name": job.org or job.title, "sameAs": job.official_url},
+  "jobLocation": {"@type": "Place", "address": {"@type": "PostalAddress", "addressCountry": "IN"}},
+  "employmentType": "FULL_TIME"
+}|tojson }}</script>
+{% endif %}
+{% endblock %}
+{% block main %}
+<p class="small"><a href="/jobs">{{ tr('nav_jobs') }}</a></p>
+<h1>{{ job.title }}</h1>
+<div class="row" style="flex-wrap:wrap;margin-bottom:var(--sp-4)"><span class="badge badge-brand">{{ job.category|upper }}</span>{% include '_job_badge.html' %}</div>
+<section class="card">
+  <dl class="stack" style="margin:0">
+    {% if job.org %}<div><dt class="xs muted">{{ L('संस्था', 'Organisation') }}</dt><dd style="margin:0">{{ job.org }}</dd></div>{% endif %}
+    {% if job.vacancies %}<div><dt class="xs muted">{{ tr('vacancies') }}</dt><dd style="margin:0">{{ job.vacancies }}</dd></div>{% endif %}
+    {% if job.last_date_text %}<div><dt class="xs muted">{{ tr('last_date') }}</dt><dd style="margin:0">{{ job.last_date_text }}</dd></div>{% endif %}
+    {% if job.eligibility %}<div><dt class="xs muted">{{ tr('eligibility') }}</dt><dd style="margin:0;white-space:pre-line">{{ job.eligibility }}</dd></div>{% endif %}
+  </dl>
+</section>
+{% if not job.verified_at %}<div class="notice" style="margin-top:var(--sp-3)"><svg class="icon"><use href="#i-info"/></svg><span>{{ tr('not_verified') }}</span></div>{% endif %}
+{% if job.official_url %}<a class="btn btn-primary btn-block" style="margin-top:var(--sp-4)" href="{{ job.official_url }}" target="_blank" rel="noopener nofollow">{{ tr('official_link') }} <svg class="icon icon-sm"><use href="#i-external"/></svg></a>{% endif %}
+{% endblock %}

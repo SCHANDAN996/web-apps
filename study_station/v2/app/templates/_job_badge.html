@@ -1,0 +1,7 @@
+{% if job.last_date %}
+  {% set left = (job.last_date - today).days %}
+  {% if left < 0 %}<span class="badge">{{ tr('closed') }}</span>
+  {% elif left == 0 %}<span class="badge badge-bad">{{ tr('last_day') }}</span>
+  {% elif left <= 7 %}<span class="badge badge-bad">{{ left }} {{ tr('days_left') }}</span>
+  {% else %}<span class="badge badge-ok">{{ left }} {{ tr('days_left') }}</span>{% endif %}
+{% endif %}
