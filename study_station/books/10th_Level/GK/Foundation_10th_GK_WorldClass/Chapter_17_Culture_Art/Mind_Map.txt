@@ -1,0 +1,56 @@
+```mermaid
+graph TD
+    A["भारतीय संस्कृति और कला<br>Indian Culture & Art"]
+
+    A --> D["नृत्य<br>Dance"]
+    A --> M["संगीत<br>Music"]
+    A --> P["चित्रकला<br>Painting"]
+    A --> AR["स्थापत्य<br>Architecture"]
+    A --> F["त्योहार<br>Festivals"]
+    A --> U["यूनेस्को<br>UNESCO"]
+    A --> T["परीक्षक के जाल<br>Examiner's Traps"]
+    A --> ST["रणनीति<br>Strategies"]
+
+    D --> D1["8 शास्त्रीय नृत्य - संगीत नाटक अकादमी<br>8 classical dances"]
+    D1 --> D1a["भरतनाट्यम - तमिलनाडु<br>Kathak - North India / UP"]
+    D1 --> D1b["कथकली, मोहिनीअट्टम - केरल<br>Two from Kerala"]
+    D1 --> D1c["कुचिपुड़ी - आंध्र, ओडिसी - ओडिशा<br>Manipuri - Manipur"]
+    D1 --> D1d["सत्रीया - असम, शंकरदेव<br>Classical status 2000"]
+    D --> D2["लोक नृत्य<br>Folk dances"]
+    D2 --> D2a["भांगड़ा-पंजाब, गरबा-गुजरात, घूमर-राजस्थान<br>Bihu-Assam, Lavani-Maharashtra"]
+    D2 --> D2b["छऊ - ओडिशा, झारखंड, प.बंगाल<br>Cheraw-Mizoram, Yakshagana-Karnataka"]
+
+    M --> M1["हिंदुस्तानी - उत्तर<br>Dhrupad, Khayal, Thumri"]
+    M --> M2["कर्नाटक - दक्षिण<br>Purandara Dasa, Trinity"]
+    M --> M3["घराने<br>Gwalior oldest Khayal, Kirana, Patiala"]
+    M --> M4["वाद्य के 4 वर्ग - नाट्यशास्त्र<br>Tata, Sushira, Avanaddha, Ghana"]
+    M4 --> M4a["शहनाई - बिस्मिल्लाह ख़ाँ<br>Sitar - Ravi Shankar"]
+    M4 --> M4b["संतूर - शिवकुमार शर्मा<br>Flute - Hariprasad Chaurasia"]
+
+    P --> P1["भीमबेटका - म.प्र.<br>Prehistoric rock shelters"]
+    P --> P2["अजंता, एलोरा - महाराष्ट्र<br>Ellora: Buddhist, Hindu, Jain"]
+    P --> P3["लघु चित्र - मुग़ल, राजपूत, पहाड़ी<br>Bani Thani - Kishangarh"]
+    P --> P4["मधुबनी-बिहार, वारली-महाराष्ट्र<br>Pattachitra-Odisha, Kalamkari-AP"]
+
+    AR --> AR1["नागर - शिखर<br>Khajuraho, Konark"]
+    AR --> AR2["द्रविड़ - विमान, गोपुरम<br>Thanjavur - Rajaraja I"]
+    AR --> AR3["वेसर - दक्कन<br>Pattadakal, Belur, Halebidu"]
+    AR --> AR4["इंडो-इस्लामिक<br>Qutb Minar: Aibak to Iltutmish"]
+    AR4 --> AR4a["ताजमहल, लाल किला - शाहजहाँ<br>Charminar 1591, Gol Gumbaz"]
+
+    F --> F1["पोंगल-तमिलनाडु, ओणम-केरल<br>Bihu-Assam, Chhath-Bihar"]
+    F --> F2["हॉर्नबिल-नागालैंड, वांगला-मेघालय<br>Nuakhai-Odisha, Losar-Ladakh"]
+
+    U --> U1["45 विश्व धरोहर स्थल - 2026<br>37 cultural, 7 natural, 1 mixed"]
+    U --> U2["पहले चार 1983<br>Ajanta, Ellora, Agra Fort, Taj"]
+    U --> U3["नए: मोइदाम 2024, मराठा किले 2025<br>Sarnath 2026"]
+    U --> U4["अमूर्त विरासत<br>Garba 2023, Deepavali 2025"]
+
+    T --> T1["समान नाम<br>Kathak vs Kathakali"]
+    T --> T2["लगभग सही कथन<br>Qutb Minar only begun by Aibak"]
+    T --> T3["कालानुक्रमिक भ्रम<br>Sattriya old dance, classical 2000"]
+    T --> T4["नकारात्मक वाक्यांश<br>Chhau is NOT among the 8"]
+
+    ST --> ST1["15 सेकंड: जोड़ी वाले प्रश्न<br>Dance-state, player-instrument"]
+    ST --> ST2["45 सेकंड: सुमेलन, क्रम, कथन<br>Match, arrange, statements"]
+```

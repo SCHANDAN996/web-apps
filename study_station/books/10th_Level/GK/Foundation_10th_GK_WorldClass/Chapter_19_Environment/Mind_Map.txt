@@ -1,0 +1,54 @@
+```mermaid
+graph TD
+    A["पर्यावरण और पारिस्थितिकी<br>Environment & Ecology"]
+
+    A --> E["पारितंत्र<br>Ecosystem"]
+    A --> B["जैव विविधता<br>Biodiversity"]
+    A --> P["प्रदूषण<br>Pollution"]
+    A --> C["ओज़ोन और जलवायु<br>Ozone & Climate"]
+    A --> L["क़ानून और समझौते<br>Laws & Treaties"]
+    A --> T["परीक्षक के जाल<br>Examiner's Traps"]
+    A --> ST["रणनीति<br>Strategies"]
+
+    E --> E1["टैन्सले 1935 - पारितंत्र<br>Haeckel - Ecology"]
+    E --> E2["उत्पादक, उपभोक्ता, अपघटक<br>Producers, Consumers, Decomposers"]
+    E --> E3["खाद्य श्रृंखला और जाल<br>Food chain & Food web"]
+    E --> E4["10% नियम - लिंडमैन 1942<br>Energy one-way, nutrients cyclic"]
+    E --> E5["पिरामिड: ऊर्जा हमेशा सीधा<br>Biomass inverted in sea"]
+    E --> E6["राइज़ोबियम - नाइट्रोजन स्थिरीकरण<br>Lichens - pioneer species"]
+
+    B --> B1["हॉटस्पॉट: हिमालय, इंडो-बर्मा<br>Western Ghats-Sri Lanka, Sundaland"]
+    B --> B2["दुष्ट चौकड़ी<br>Evil Quartet"]
+    B --> B3["स्वस्थाने: उद्यान, अभयारण्य<br>In-situ: parks, sanctuaries, BR"]
+    B --> B4["बाह्य-स्थाने: चिड़ियाघर, बीज बैंक<br>Ex-situ: zoo, seed bank"]
+    B --> B5["हेली 1936 = जिम कॉर्बेट<br>Nilgiri BR 1986"]
+    B --> B6["प्रोजेक्ट टाइगर 1973<br>Project Elephant 1992"]
+    B --> B7["चिपको 1973, अप्पिको 1983<br>Bishnoi Khejarli 1730"]
+
+    P --> P1["वायु: CO, SO2, NOx<br>Acid rain, smog, PM2.5"]
+    P --> P2["जल: सुपोषण, BOD<br>Eutrophication, BOD"]
+    P --> P3["जैव आवर्धन - DDT<br>Biomagnification"]
+    P --> P4["पारा - मिनामाटा, कैडमियम - इटाई-इटाई<br>Nitrate - Blue baby, Fluoride - Fluorosis"]
+
+    C --> C1["ओज़ोन परत - समताप मंडल<br>Ozone layer absorbs UV"]
+    C --> C2["CFCs से क्लोरीन - ओज़ोन छिद्र<br>Ozone hole over Antarctica"]
+    C --> C3["हरितगृह गैसें: CO2, CH4, N2O<br>N2 is not a GHG"]
+    C --> C4["वैश्विक तापन: हिमनद, समुद्र-तल<br>Coral bleaching"]
+
+    L --> L1["अनुच्छेद 48A, 51A-g<br>42nd Amendment 1976"]
+    L --> L2["वन्यजीव 1972, जल 1974, वन 1980<br>Air 1981, EPA 1986"]
+    L --> L3["जैव विविधता 2002, NGT 2010<br>Forest Rights 2006"]
+    L --> L4["रामसर 1971, CITES 1973<br>Stockholm 1972 - UNEP"]
+    L --> L5["मॉन्ट्रियल 1987 - ओज़ोन<br>Kyoto 1997, Paris 2015 - GHG"]
+    L --> L6["रामसर स्थल 101 - अगस्त 2026<br>Tiger reserves 58 - Dec 2025"]
+
+    T --> T1["समान नाम: मॉन्ट्रियल या क्योटो?<br>Similar name: N2 vs N2O"]
+    T --> T2["लगभग सही: जैवभार पिरामिड हमेशा सीधा?<br>Almost true: inverted in sea"]
+    T --> T3["कालक्रम: भोपाल 1984, EPA 1986<br>Chronology"]
+    T --> T4["नकारात्मक: कौन स्वस्थाने नहीं?<br>Negative: read NOT twice"]
+
+    ST --> ST1["15 सेकंड: दिवस, वर्ष, रोग<br>15 sec: days, years, diseases"]
+    ST --> ST2["45 सेकंड: गणना, कथन, क्रम<br>45 sec: 10% sums, statements"]
+    ST --> ST3["सूत्र: छाता फटा, कंबल मोटा<br>Umbrella torn, blanket thick"]
+    ST --> ST4["हरित दिवस कैलेंडर दोहराएँ<br>Revise the green-days calendar"]
+```
