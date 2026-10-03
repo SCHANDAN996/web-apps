@@ -144,6 +144,14 @@
     if (b) { e.preventDefault(); SS.startPractice(b.getAttribute('data-practice'), null, b); return; }
     b = e.target.closest('[data-mock]');
     if (b) { e.preventDefault(); SS.startMock(b.getAttribute('data-mock'), b); return; }
+    b = e.target.closest('[data-retry-wrong]');
+    if (b) {
+      e.preventDefault(); busy(b, true);
+      SS.api('POST', '/api/v1/attempts/' + Number(b.getAttribute('data-retry-wrong')) + '/retry-wrong')
+        .then(function (a) { location.href = '/attempt/' + a.id; })
+        .catch(function (err) { busy(b, false); SS.toast(err.message); });
+      return;
+    }
     b = e.target.closest('[data-ca-quiz]');
     if (b) {
       e.preventDefault(); busy(b, true);

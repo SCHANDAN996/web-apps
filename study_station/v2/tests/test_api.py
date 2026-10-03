@@ -179,6 +179,33 @@ def test_home_today_button_and_result_defaults_to_wrong(client, db):
     client.post(f"/api/v1/attempts/{a['id']}/answer", json={'question_id': q0['id'], 'chosen_index': (key + 1) % 4})
     client.post(f"/api/v1/attempts/{a['id']}/finish", json={})
     page = client.get(f"/result/{a['id']}").text
-    assert 'href="/revise"' in page and '<details class="card review-item" data-status="wrong"' in page
+    assert f'data-retry-wrong="{a["id"]}"' in page and '<details class="card review-item" data-status="wrong"' in page
     assert 'aria-pressed="true" data-f="wrong"' in page
     assert 'data-status="skipped" style="margin-top:var(--sp-3)" hidden' in page
+
+
+def test_retry_wrong_starts_same_day_practice_of_mistakes(client, db):
+    onboard(client)
+    a = client.post('/api/v1/practice', json={'topic_id': topic_id(db, 'analogy'), 'count': 3}).json()
+    qs = a['questions']
+    early = client.post(f"/api/v1/attempts/{a['id']}/retry-wrong", json={})
+    assert early.status_code == 409                                   # not finished yet
+    key = db.get(Question, qs[1]['id']).answer_index
+    client.post(f"/api/v1/attempts/{a['id']}/answer", json={'question_id': qs[1]['id'], 'chosen_index': (key + 1) % 4})
+    key0 = db.get(Question, qs[0]['id']).answer_index
+    client.post(f"/api/v1/attempts/{a['id']}/answer", json={'question_id': qs[0]['id'], 'chosen_index': key0})
+    client.post(f"/api/v1/attempts/{a['id']}/finish", json={})
+    r = client.post(f"/api/v1/attempts/{a['id']}/retry-wrong", json={})
+    assert r.status_code == 200
+    b = r.json()
+    assert b['mode'] == 'practice' and [q['id'] for q in b['questions']] == [qs[1]['id']]
+    assert b['questions'][0]['state']['chosen'] is None               # fresh attempt, nothing revealed
+
+
+def test_retry_wrong_is_private_to_the_device(client, db):
+    onboard(client)
+    a = client.post('/api/v1/practice', json={'topic_id': topic_id(db, 'analogy'), 'count': 1}).json()
+    client.post(f"/api/v1/attempts/{a['id']}/finish", json={})
+    client.cookies.clear()
+    onboard(client)
+    assert client.post(f"/api/v1/attempts/{a['id']}/retry-wrong", json={}).status_code == 404

@@ -94,6 +94,25 @@ def start_practice(db: Session, device: Device, topic_id: int, count: int = 10, 
     return a
 
 
+def start_retry_wrong(db: Session, device: Device, attempt_id: int):
+    """Practice the questions answered wrongly in a finished attempt — right away, with solutions.
+    (Revision cards for them are scheduled from tomorrow, so this is the same-day pass.)"""
+    src = db.get(Attempt, attempt_id)
+    if src is None or src.device_id != device.id:
+        raise LookupError('attempt')
+    if src.finished_at is None:
+        raise NotAllowed('not_finished')
+    wrong = {x.question_id for x in src.answers if x.correct is False}
+    ids = [q for q in src.question_ids if q in wrong][:25]
+    if not ids:
+        raise LookupError('no_questions')
+    title = ('गलतियाँ: ' if device.lang == 'hi' else 'Mistakes: ') + (src.title or '')
+    a = Attempt(device_id=device.id, mode='practice', topic_id=src.topic_id, title=title[:200], question_ids=ids)
+    db.add(a)
+    db.commit()
+    return a
+
+
 # ---------------------------------------------------------------- mock
 def section_pool_filter(subject_slug, subject_id):
     f = and_(Question.topic.has(Topic.subject_id == subject_id), USABLE)

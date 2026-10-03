@@ -64,7 +64,7 @@ STRINGS = {
     'revise_none': ('जो सवाल गलत होंगे, वो यहाँ सही समय पर दोहराने के लिए आएँगे।',
                     'Questions you get wrong will come back here at the right time.'),
     'go_practice': ('अभ्यास करें', 'Practise now'),
-    'revise_mistakes': ('गलतियाँ दोहराएँ', 'Revise mistakes'),
+    'revise_mistakes': ('गलत सवाल फिर से हल करें', 'Retry wrong questions'),
     'start_today': ('आज के 10 सवाल शुरू करें', "Start today's 10 questions"),
     'new_mock': ('नया मॉक', 'New mock'),
     'progress': ('मेरी प्रगति', 'My progress'),

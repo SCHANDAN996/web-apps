@@ -343,6 +343,18 @@ def api_result(attempt_id: int, device: Device | None = Depends(current_device),
     return services.result_payload(db, a)
 
 
+@app.post('/api/v1/attempts/{attempt_id}/retry-wrong')
+def api_retry_wrong(attempt_id: int, request: Request, device: Device | None = Depends(current_device),
+                    db: Session = Depends(get_db)):
+    limit(request, 'start', 60, 3600)
+    get_attempt(db, device, attempt_id)            # 404 unless it is this device's attempt
+    try:
+        a = services.start_retry_wrong(db, device, attempt_id)
+    except Exception as e:
+        _service_error(e)
+    return services.attempt_payload(db, a)
+
+
 @app.get('/api/v1/revise')
 def api_revise(device: Device | None = Depends(current_device), db: Session = Depends(get_db)):
     if device is None:

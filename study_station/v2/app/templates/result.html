@@ -18,7 +18,7 @@
 {% set n_wrong = result.review|selectattr('status', 'equalto', 'wrong')|list|length %}
 {% set f0 = 'wrong' if n_wrong else 'all' %}
 <div class="stack" style="margin-top:var(--sp-4)">
-  {% if n_wrong %}<a class="btn btn-primary btn-block" href="/revise"><svg class="icon"><use href="#i-repeat"/></svg>{{ tr('revise_mistakes') }}</a>{% endif %}
+  {% if n_wrong %}<button class="btn btn-primary btn-block" data-retry-wrong="{{ attempt.id }}"><svg class="icon"><use href="#i-repeat"/></svg>{{ tr('revise_mistakes') }} ({{ n_wrong }})</button>{% endif %}
   <div class="row">
     {% set again = 'btn-secondary' if n_wrong else 'btn-primary' %}
     {% if attempt.mode == 'practice' and attempt.topic_id %}<button class="btn {{ again }}" style="flex:1" data-practice="{{ attempt.topic_id }}">{{ tr('practice_again') }}</button>
