@@ -34,7 +34,8 @@ def test_practice_reveals_after_answer_and_logs_mistake(client, db):
     # answering again is refused
     again = client.post(f"/api/v1/attempts/{a['id']}/answer", json={'question_id': q['id'], 'chosen_index': 1})
     assert again.status_code == 409
-    card = db.query(ReviewCard).filter_by(question_id=q['id']).one()
+    me = db.query(Device).filter_by(token=client.cookies.get('ss_device')).one()
+    card = db.query(ReviewCard).filter_by(device_id=me.id, question_id=q['id']).one()
     assert card.box == 1 and card.due_on == services.today_ist() + timedelta(days=1)
     res = client.post(f"/api/v1/attempts/{a['id']}/finish", json={}).json()
     assert res['score'] == 0 and res['max_score'] == 5 and res['attempted'] == 1
@@ -60,7 +61,8 @@ def test_mock_hides_answers_and_applies_negative_marking(client, db):
     assert res['score'] == 2 - 0.25 and res['max_score'] == 160
     assert res['sections']['reasoning']['correct'] == 1 and res['sections']['reasoning']['wrong'] == 1
     # Wrong mock answers go to the mistake notebook too
-    assert db.query(ReviewCard).filter_by(question_id=qs[1]['id']).count() == 1
+    me = db.query(Device).filter_by(token=client.cookies.get('ss_device')).one()
+    assert db.query(ReviewCard).filter_by(device_id=me.id, question_id=qs[1]['id']).count() == 1
 
 
 def test_partial_mock_scales_time(client):
@@ -97,7 +99,8 @@ def test_leitner_revision(client, db):
     qid = a['questions'][0]['id']
     client.post(f"/api/v1/attempts/{a['id']}/answer", json={'question_id': qid, 'chosen_index': 3})
     assert client.get('/api/v1/revise').json()['cards'] == []       # due tomorrow, not today
-    card = db.query(ReviewCard).filter_by(question_id=qid).one()
+    me = db.query(Device).filter_by(token=client.cookies.get('ss_device')).one()
+    card = db.query(ReviewCard).filter_by(device_id=me.id, question_id=qid).one()
     card.due_on = date(2000, 1, 1)
     db.commit()
     assert [c['id'] for c in client.get('/api/v1/revise').json()['cards']] == [qid]
