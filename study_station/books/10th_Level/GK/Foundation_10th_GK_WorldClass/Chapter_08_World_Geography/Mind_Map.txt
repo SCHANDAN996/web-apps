@@ -1,0 +1,64 @@
+```mermaid
+graph TD
+    A["विश्व भूगोल (बुनियादी)<br>World Geography (Basic)"]
+
+    A --> B["सौरमंडल<br>Solar System"]
+    B --> B1["8 ग्रह: बुध से वरुण<br>8 planets: Mercury to Neptune"]
+    B --> B2["शुक्र सबसे गर्म, बृहस्पति सबसे बड़ा<br>Venus hottest, Jupiter largest"]
+    B --> B3["प्लूटो बौना ग्रह 2006<br>Pluto dwarf planet 2006"]
+
+    A --> C["पृथ्वी की गतियाँ<br>Motions of Earth"]
+    C --> C1["घूर्णन = दिन-रात<br>Rotation = day and night"]
+    C --> C2["परिक्रमण + झुकाव = ऋतुएँ<br>Revolution + tilt = seasons"]
+    C --> C3["21 जून कर्क, 22 दिसंबर मकर<br>21 June Cancer, 22 Dec Capricorn"]
+    C --> C4["उपसौर 3 जनवरी, अपसौर 4 जुलाई<br>Perihelion 3 Jan, Aphelion 4 July"]
+
+    A --> D["अक्षांश-देशांतर<br>Latitude and Longitude"]
+    D --> D1["कर्क/मकर 23½°, ध्रुवीय वृत्त 66½°<br>Tropics 23½°, Polar Circles 66½°"]
+    D --> D2["1° = 4 मिनट, 15° = 1 घंटा<br>1° = 4 min, 15° = 1 hour"]
+    D --> D3["IST 82°30' पूर्व, GMT +5:30<br>IST 82°30'E, GMT +5:30"]
+    D --> D4["तिथि रेखा 180°<br>Date Line 180°"]
+
+    A --> E["आंतरिक संरचना और चट्टानें<br>Interior and Rocks"]
+    E --> E1["भूपर्पटी, मैंटल, क्रोड निफ़े<br>Crust, Mantle, Core NIFE"]
+    E --> E2["आग्नेय, अवसादी, कायांतरित<br>Igneous, Sedimentary, Metamorphic"]
+
+    A --> F["स्थलरूप<br>Landforms"]
+    F --> F1["वलित: हिमालय, आल्प्स, एंडीज़<br>Fold: Himalayas, Alps, Andes"]
+    F --> F2["ब्लॉक: ब्लैक फ़ॉरेस्ट, वॉसजेस<br>Block: Black Forest, Vosges"]
+    F --> F3["ज्वालामुखी: किलिमंजारो, फ़ूजी<br>Volcanic: Kilimanjaro, Fuji"]
+
+    A --> G["महाद्वीप और महासागर<br>Continents and Oceans"]
+    G --> G1["एशिया सबसे बड़ा, ऑस्ट्रेलिया सबसे छोटा<br>Asia largest, Australia smallest"]
+    G --> G2["प्रशांत सबसे बड़ा, मारियाना गर्त<br>Pacific largest, Mariana Trench"]
+    G --> G3["हिंद महासागर देश के नाम पर<br>Indian Ocean named after a country"]
+    G --> G4["धाराएँ: गल्फ़ स्ट्रीम गर्म, लैब्राडोर ठंडी<br>Gulf Stream warm, Labrador cold"]
+
+    A --> H["वायुमंडल और पवनें<br>Atmosphere and Winds"]
+    H --> H1["N2 78%, O2 21%"]
+    H --> H2["क्षोभमंडल मौसम, समतापमंडल ओज़ोन<br>Troposphere weather, Stratosphere ozone"]
+    H --> H3["स्थानीय पवनें: लू, चिनूक, फ़ॉन, हरमट्टन<br>Loo, Chinook, Foehn, Harmattan"]
+
+    A --> I["घास के मैदान और मरुस्थल<br>Grasslands and Deserts"]
+    I --> I1["प्रेयरी, पम्पास, स्टेपीज़, वेल्ड, डाउन्स<br>Prairies, Pampas, Steppes, Velds, Downs"]
+    I --> I2["सहारा सबसे बड़ा गर्म मरुस्थल<br>Sahara largest hot desert"]
+
+    A --> J["रिकॉर्डधारी<br>Record Holders"]
+    J --> J1["नील सबसे लंबी, अमेज़न सबसे बड़ी<br>Nile longest, Amazon largest"]
+    J --> J2["कैस्पियन, सुपीरियर, बैकाल<br>Caspian, Superior, Baikal"]
+
+    A --> K["जलमार्ग और सीमाएँ<br>Waterways and Boundaries"]
+    K --> K1["स्वेज़ 1869, पनामा 1914<br>Suez 1869, Panama 1914"]
+    K --> K2["जिब्राल्टर, बेरिंग, पाक, मलक्का<br>Gibraltar, Bering, Palk, Malacca"]
+    K --> K3["डूरंड, मैकमोहन, रेडक्लिफ़, 38वाँ समानांतर<br>Durand, McMahon, Radcliffe, 38th Parallel"]
+
+    A --> L["परीक्षक के जाल<br>Examiner's Traps"]
+    L --> L1["निकट ≠ गर्म: बुध बनाम शुक्र<br>Near is not hot: Mercury vs Venus"]
+    L --> L2["दूरी से ऋतु नहीं<br>Distance does not cause seasons"]
+    L --> L3["सबसे लंबी बनाम सबसे बड़ी<br>Longest vs Largest"]
+    L --> L4["तिथि रेखा की दिशा<br>Date Line direction"]
+
+    A --> M["रणनीति<br>Strategy"]
+    M --> M1["15s: रिकॉर्ड, उपनाम, मिलान<br>15s: records, nicknames, matching"]
+    M --> M2["45s: समय-गणना, कथन<br>45s: time sums, statements"]
+```
