@@ -42,12 +42,14 @@
 {% if result.sections|length > 1 %}
 <section class="card enter" style="margin-top:var(--sp-4)">
   <h2>{{ L('भाग के अनुसार', 'By section') }}</h2>
+  <div class="table-scroll">
   <table class="pattern">
     <thead><tr><th>{{ tr('section') }}</th><th class="num">{{ tr('correct') }}</th><th class="num">{{ tr('wrong') }}</th><th class="num">{{ tr('skipped') }}</th><th class="num">{{ tr('accuracy') }}</th><th class="num">{{ tr('avg_time') }}</th></tr></thead>
     <tbody>{% for slug, s in result.sections.items() %}
       <tr><td>{{ s.name[lang] }}</td><td class="num">{{ s.correct }}</td><td class="num">{{ s.wrong }}</td><td class="num">{{ s.skipped }}</td><td class="num">{{ s.accuracy ~ '%' if s.accuracy is not none else '—' }}</td><td class="num">{{ s.avg_sec ~ 's' if s.avg_sec is not none else '—' }}</td></tr>
     {% endfor %}</tbody>
   </table>
+  </div>
 </section>
 {% endif %}
 

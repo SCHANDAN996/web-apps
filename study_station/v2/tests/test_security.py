@@ -206,3 +206,10 @@ def test_unexpected_service_errors_do_not_leak_details(client, monkeypatch):
     c.post('/api/v1/me', json={'level': '10th', 'lang': 'hi'})
     r = c.post('/api/v1/mock', json={'exam': 'ssc-gd'})
     assert r.status_code == 500 and 'SELECT' not in r.text
+
+
+def test_job_page_links_only_to_official_hosts():
+    from app.main import _official_url_filter
+    assert _official_url_filter('https://ssc.gov.in/notice.pdf') == 'https://ssc.gov.in/notice.pdf'
+    assert _official_url_filter('https://www.freejobalert.com/x') == ''
+    assert _official_url_filter('javascript:alert(1)') == ''

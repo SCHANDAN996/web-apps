@@ -7,11 +7,11 @@
     <div class="today-top">
       <div class="grow">
         <h1 class="today-hello">{{ tr(greet) }}</h1>
-        <p class="today-goal">{% if done >= 10 %}{{ tr('goal_done') }}{% else %}{{ tr('goal_line') }} · {{ tr('goal_left').format(n=10 - done) }}{% endif %}</p>
+        <p class="today-goal">{% if done >= 10 %}{{ tr('goal_done') }}{% elif done == 0 %}{{ tr('goal_line') }}{% else %}{{ tr('goal_left').format(n=10 - done) }}{% endif %}</p>
       </div>
       <div class="ring" role="img" aria-label="{{ done }}/10">
         <svg viewBox="0 0 44 44" aria-hidden="true"><circle class="ring-track" cx="22" cy="22" r="19"/>
-          <circle class="ring-fill" cx="22" cy="22" r="19" pathLength="100" style="stroke-dasharray: {{ pct }} 100"/></svg>
+          {% if pct %}<circle class="ring-fill" cx="22" cy="22" r="19" pathLength="100" style="stroke-dasharray: {{ pct }} 100"/>{% endif %}</svg>
         <span><b>{{ [done, 10]|min }}</b>/10</span>
       </div>
     </div>

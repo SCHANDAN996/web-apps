@@ -113,16 +113,17 @@
   // ---------------------------------------------------------------- report dialog
   SS.report = function (questionId) {
     var reasons = SS.lang === 'hi'
-      ? [['wrong_answer', 'सही उत्तर गलत है'], ['wrong_solution', 'हल गलत है'], ['typo', 'टाइपिंग/छपाई की गलती'], ['translation', 'अनुवाद ठीक नहीं'], ['unclear', 'सवाल साफ़ नहीं'], ['other', 'कुछ और']]
+      ? [['wrong_answer', 'सही उत्तर ग़लत है'], ['wrong_solution', 'हल ग़लत है'], ['typo', 'टाइपिंग/छपाई की ग़लती'], ['translation', 'अनुवाद ठीक नहीं'], ['unclear', 'सवाल साफ़ नहीं'], ['other', 'कुछ और']]
       : [['wrong_answer', 'Answer key is wrong'], ['wrong_solution', 'Solution is wrong'], ['typo', 'Typo'], ['translation', 'Bad translation'], ['unclear', 'Question unclear'], ['other', 'Something else']];
     var h = SS.h;
-    var note = h('textarea', { rows: 3, maxlength: 500, style: 'width:100%;margin-top:12px;padding:8px;border-radius:8px;border:1px solid var(--border);background:var(--surface)', 'aria-label': 'Note' });
+    var note = h('textarea', { id: 'reportNote', rows: 3, maxlength: 500, style: 'width:100%;padding:8px;border-radius:8px;border:1px solid var(--border);background:var(--surface-raised);color:var(--text)' });
+    var noteLabel = h('label', { for: 'reportNote', class: 'small', style: 'display:block;margin-top:12px;margin-bottom:4px' }, SS.t.report_note || 'Note');
     var dlg = h('dialog', { 'aria-label': SS.t.report },
       h('form', { method: 'dialog' },
         h('div', { class: 'dlg-body' }, h('h2', null, SS.t.report),
           h('div', { class: 'chips' }, reasons.map(function (r, i) {
             return h('label', { class: 'chip' }, h('input', { type: 'radio', name: 'reason', value: r[0], checked: i === 0 }), r[1]);
-          })), note),
+          })), noteLabel, note),
         h('div', { class: 'dlg-foot' },
           h('button', { class: 'btn btn-secondary btn-sm', value: 'cancel' }, SS.t.cancel),
           h('button', { class: 'btn btn-primary btn-sm', value: 'send' }, SS.t.report))));
@@ -286,7 +287,7 @@
   var readList = function () { try { return JSON.parse(localStorage.getItem(readKey) || '[]'); } catch (e) { return []; } };
   if (chapterMeta) {
     var curUrl = chapterMeta.getAttribute('data-chapter-url');
-    try { localStorage.setItem(lastKey, JSON.stringify({ url: curUrl, title: chapterMeta.getAttribute('data-chapter-title') })); } catch (e) {}
+    try { localStorage.setItem(lastKey, JSON.stringify({ url: curUrl, hi: chapterMeta.getAttribute('data-title-hi'), en: chapterMeta.getAttribute('data-title-en') })); } catch (e) {}
     // A chapter counts as read once the reader reaches its end.
     var markRead = function () {
       if (innerHeight + scrollY < document.documentElement.scrollHeight - 200) return;
@@ -295,6 +296,7 @@
       window.removeEventListener('scroll', markRead);
     };
     window.addEventListener('scroll', markRead, { passive: true });
+    window.addEventListener('load', markRead);     // short chapters never scroll
   }
   var readNow = readList();
   document.querySelectorAll('[data-chapter-link]').forEach(function (a) {
@@ -310,7 +312,7 @@
       if (last && /^\/books\//.test(last.url)) {
         planRead.setAttribute('href', last.url);
         var b = planRead.querySelector('[data-continue-label]');
-        b.textContent = b.getAttribute('data-continue-label') + ': ' + last.title;
+        b.textContent = b.getAttribute('data-continue-label') + ': ' + (last[SS.lang] || last.hi || last.en || last.title || '');
       }
     } catch (e) {}
   }

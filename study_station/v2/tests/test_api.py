@@ -238,3 +238,12 @@ def test_mock_result_gives_advice(client, db):
     assert 'ins_negative' in keys and 'ins_guess' in keys and 'ins_time_left' in keys
     page = client.get(f"/result/{m['id']}").text
     assert 'class="card insights' in page and ('अंक कटे' in page or 'cost you' in page)
+
+
+def test_recent_mock_dates_are_ist_dd_mm_yyyy(client, db):
+    import re
+    onboard(client)
+    m = client.post('/api/v1/mock', json={'exam': 'ssc-gd'}).json()
+    client.post(f"/api/v1/attempts/{m['id']}/finish", json={})
+    st = client.get('/api/v1/stats').json()
+    assert re.fullmatch(r'\d{2}-\d{2}-\d{4}', st['mocks'][0]['date'])

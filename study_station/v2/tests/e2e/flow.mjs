@@ -12,6 +12,7 @@ const B = (process.env.BASE_URL || 'http://localhost:8000').replace(/\/$/, '');
 const OUT = new URL('./shots/', import.meta.url).pathname;
 mkdirSync(OUT, { recursive: true });
 const results = [];
+let mockResult = null;
 const step = async (name, fn) => {
   try { await fn(); results.push({ step: name, ok: true }); }
   catch (e) { results.push({ step: name, ok: false, error: String(e).slice(0, 300) }); }
@@ -64,6 +65,7 @@ await step('mock test with palette and submit', async () => {
   await p.click('dialog .dlg-foot .btn-primary');
   await p.click('dialog button[value=yes]');
   await p.waitForURL(/\/result\/\d+/);
+  mockResult = new URL(p.url()).pathname;
   await shot('mock-result');
 });
 
@@ -122,12 +124,21 @@ await step('home plan, practice search, theme switch', async () => {
   await p.click('[data-theme-set="system"]');
 });
 
-await step('no horizontal scroll on phone', async () => {
-  for (const path of ['/', '/practice', '/jobs', '/current-affairs', '/books', '/progress', '/settings', '/revise']) {
-    await p.goto(B + path);
-    const over = await p.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
-    if (over > 1) throw new Error(path + ' overflows by ' + over + 'px');
+await step('no horizontal scroll on phone (hi + en)', async () => {
+  // A too-wide element makes a phone zoom the whole page out: then innerWidth itself grows past the
+  // device width, so compare against the viewport we asked for, not against innerWidth.
+  const device = p.viewportSize().width;
+  const paths = ['/', '/practice', '/jobs', '/current-affairs', '/books', '/progress', '/settings', '/revise'];
+  if (mockResult) paths.push(mockResult);
+  for (const lang of ['hi', 'en']) {
+    await p.evaluate((l) => fetch('/api/v1/me', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ lang: l }) }), lang);
+    for (const path of paths) {
+      await p.goto(B + path);
+      const w = await p.evaluate(() => Math.max(document.documentElement.scrollWidth, window.innerWidth));
+      if (w > device + 1) throw new Error(lang + ' ' + path + ' is ' + w + 'px wide on a ' + device + 'px phone');
+    }
   }
+  await p.evaluate(() => fetch('/api/v1/me', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ lang: 'hi' }) }));
 });
 
 await browser.close();

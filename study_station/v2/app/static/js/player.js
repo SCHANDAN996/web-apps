@@ -83,7 +83,7 @@
 
   // ================================================================ PRACTICE
   function practice(data) {
-    var qs = data.questions, i = 0, chosen = null, shownAt = Date.now(), justRevealed = false;
+    var qs = data.questions, i = 0, chosen = null, shownAt = Date.now(), justRevealed = false, keepFocus = false;
     // Resume at the first unanswered question.
     for (var k = 0; k < qs.length; k++) { if (qs[k].state.answer_index === undefined) { i = k; break; } i = k; }
     var head = h('div', { class: 'player-head' });
@@ -115,10 +115,12 @@
         bar.inner.append(h('button', { class: 'btn btn-primary', onclick: finish }, t.finish));
       }
       if (scrollNow) revealScroll();
+      if (keepFocus) { keepFocus = false; var pb = bar.inner.querySelector('.btn-primary'); if (pb) pb.focus({ preventScroll: true }); }
     }
 
     function check(e) {
       var q = qs[i], btn = e.currentTarget;
+      keepFocus = document.activeElement === btn;
       btn.disabled = true;
       SS.api('POST', '/api/v1/attempts/' + data.id + '/answer', { question_id: q.id, chosen_index: chosen, time_ms: Date.now() - shownAt })
         .then(function (r) {
@@ -131,9 +133,10 @@
     }
 
     function finish(e) {
-      e.currentTarget.disabled = true;
-      SS.api('POST', '/api/v1/attempts/' + data.id + '/finish').then(function () { location.href = '/result/' + data.id; })
-        .catch(function (err) { SS.toast(err.message); e.currentTarget.disabled = false; });
+      var btn = e.currentTarget;            // currentTarget is null by the time the promise settles
+      btn.disabled = true;
+      SS.api('POST', '/api/v1/attempts/' + data.id + '/finish').then(function () { location.replace('/result/' + data.id); })
+        .catch(function (err) { SS.toast(err.message); btn.disabled = false; });
     }
     render();
   }
@@ -307,7 +310,7 @@
         }).then(function () {
           window.removeEventListener('beforeunload', guard);
           try { sessionStorage.removeItem(posKey); } catch (e) {}
-          location.href = '/result/' + data.id;
+          location.replace('/result/' + data.id);
         }).catch(function (e) {
           tries++;
           // Offline at time-up: keep the answers and retry (also as soon as the network returns).
@@ -373,7 +376,7 @@
 
   if (mode === 'revise') SS.api('GET', '/api/v1/revise').then(revise).catch(fail);
   else SS.api('GET', '/api/v1/attempts/' + attemptId).then(function (d) {
-    if (d.finished) { location.href = '/result/' + d.id; return; }
+    if (d.finished) { location.replace('/result/' + d.id); return; }   // replace: Back must not loop here
     (d.mode === 'mock' ? mock : practice)(d);
   }).catch(fail);
 })();

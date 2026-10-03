@@ -50,7 +50,15 @@ def _safe_url_filter(url):
     return safe_http_url(url) or ''
 
 
+def _official_url_filter(url):
+    """Link only to official hosts (*.gov.in, *.nic.in, listed boards); anything else is not linked."""
+    from .jobs.sources import is_official, safe_http_url
+    u = safe_http_url(url)
+    return u if u and is_official(u) else ''
+
+
 templates.env.filters['safe_url'] = _safe_url_filter
+templates.env.filters['official_url'] = _official_url_filter
 
 
 # ---------------------------------------------------------------- middleware

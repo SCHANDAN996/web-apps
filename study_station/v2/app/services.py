@@ -422,7 +422,7 @@ def device_stats(db: Session, device: Device, today=None):
             'month': month, 'active_days_28': active_days_28, 'subjects': subjects,
             'mocks': [{'id': m.id, 'title': m.title, 'score': m.score, 'max_score': m.max_score,
                        'pct': max(0, round(100 * (m.score or 0) / m.max_score)) if m.max_score else 0,
-                       'date': m.finished_at.date().isoformat()} for m in mocks]}
+                       'date': (m.finished_at + IST).strftime('%d-%m-%Y')} for m in mocks]}
 
 
 # ---------------------------------------------------------------- jobs
