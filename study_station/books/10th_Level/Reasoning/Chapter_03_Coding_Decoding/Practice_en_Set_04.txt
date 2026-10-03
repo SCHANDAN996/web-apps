@@ -10,7 +10,7 @@
 उत्तर: (A) RBNNSDQ
 हल: CYCLE: C-1=B, Y-1=X, C-2=A, L-1=K, E-1=D. MOTOR: M-1=L, O-1=N, T-1=S, O-1=N, R-1=Q. पैटर्न: पहले दो अक्षर -1, तीसरा -2, शेष -1। SCOOTER: S-1=R, C-1=B, O-2=M, O-1=N, T-1=S, E-1=D, R-1=Q → RBMNSDQ? पर विकल्प RBNNSDQ है, जिसमें दूसरा O के लिए N है। SCOOTER में दो O हैं – पहला O (स्थान 3) -2 = M, दूसरा O (स्थान 4) -1 = N। तो कोड RBNNSDQ।
 ⚠️ परीक्षक का जाल: समान अक्षरों (O,O) के लिए अलग-अलग शिफ्ट, पहले उदाहरण CYCLE में भी C,C के लिए -1 और -2 है।
-स्रोत: (SSC CGL 2022 पर आधारित)
+स्रोत: PYQ-style
 
 77. यदि ‘BRAVE’ को ‘DTGXC’ और ‘HEART’ को ‘JGXRV’ लिखा जाए, तो ‘LOVER’ का कोड क्या होगा?
 (A) NQXGT
@@ -24,7 +24,7 @@
 त्याग कर, मैं एक स्थान-आधारित शिफ्ट (+1, +2, +3, +4, +5) का प्रश्न बनाता हूँ।
 77. यदि ‘BRAVE’ को ‘CSBZK’ लिखा जाए (B+1=C, R+2=T? S है +1? गड़बड़) — मैं सीधा +1,+2,+3,+4,+5 करता हूँ: ‘BRAVE’ = B+1=C, R+2=T, A+3=D, V+4=Z, E+5=J → CTDZJ.
 HEART = H+1=I, E+2=G, A+3=D, R+4=V, T+5=Y → IGDVY. LOVER = L+1=M, O+2=Q, V+3=Y, E+4=I, R+5=W → MQYIW. यह मध्यम है।
-स्रोत: (SSC CGL 2019 पैटर्न)
+स्रोत: PYQ-style
 
 78. एक कोड भाषा में ‘nut bolt’ को ‘ta pa’, ‘bolt key’ को ‘pa sa’, ‘key chain’ को ‘sa ma’ लिखा जाता है। ‘nut’ का कोड क्या है?
 (A) ta
@@ -34,7 +34,7 @@ HEART = H+1=I, E+2=G, A+3=D, R+4=V, T+5=Y → IGDVY. LOVER = L+1=M, O+2=Q, V+3=Y
 
 उत्तर: (A) ta
 हल: ‘nut bolt’ = ta pa, ‘bolt key’ = pa sa. ‘bolt’ दोनों में उभयनिष्ठ शब्द है, अंश pa उभयनिष्ठ है। अतः pa = bolt. ‘nut’ के लिए ta, ‘key’ के लिए sa (दूसरे वाक्य में pa sa से). ‘key chain’ = sa ma, तो ma = chain. इसलिए nut = ta.
-स्रोत: (IBPS Clerk 2020 पर आधारित)
+स्रोत: PYQ-style
 
 79. यदि ‘PENCIL’ को ‘QFOdHM’ लिखा जाए (जहाँ छोटे अक्षर स्वर को दर्शाते हैं और प्रत्येक व्यंजन में +1, स्वर अपरिवर्तित), तो ‘ERASER’ का कोड क्या होगा?
 (A) FSbTFS
@@ -56,7 +56,7 @@ HEART = H+1=I, E+2=G, A+3=D, R+4=V, T+5=Y → IGDVY. LOVER = L+1=M, O+2=Q, V+3=Y
 
 उत्तर: (A) 23 9 14 4 15 23
 हल: यहाँ प्रत्येक अक्षर का स्थितीय मान सीधे अंकों में दिया है। M=13, I=9, R=18, R=18, O=15, R=18. GLASS: G=7, L=12, A=1, S=19, S=19. WINDOW: W=23, I=9, N=14, D=4, O=15, W=23 → 23 9 14 4 15 23.
-स्रोत: (RRB NTPC 2018)
+स्रोत: PYQ-style
 
 81. यदि ‘PARK’ को ‘KRA P’ और ‘LANE’ को ‘ENAL’ लिखा जाए, तो ‘ROAD’ का कोड क्या होगा?
 (A) DAOR
@@ -66,7 +66,7 @@ HEART = H+1=I, E+2=G, A+3=D, R+4=V, T+5=Y → IGDVY. LOVER = L+1=M, O+2=Q, V+3=Y
 
 उत्तर: (A) DAOR
 हल: PARK को उलटकर KRAP लिखा गया है, लेकिन कोड ‘KRA P’ है, जिसमें स्पेस है। LANE उलटा ENAL. तो शब्द को केवल उलटा जाता है। ROAD उलटा DAOR.
-स्रोत: (SSC CHSL 2016)
+स्रोत: PYQ-style
 
 82. यदि ‘MOUNTAIN’ को ‘NPVOUCJO’ और ‘RIVER’ को ‘SJWFS’ लिखा जाए, तो ‘FOREST’ का कोड क्या होगा?
 (A) GPSFTU
@@ -77,7 +77,7 @@ HEART = H+1=I, E+2=G, A+3=D, R+4=V, T+5=Y → IGDVY. LOVER = L+1=M, O+2=Q, V+3=Y
 उत्तर: (A) GPSFTU
 हल: MOUNTAIN: M+1=N, O+1=P, U+1=V, N+1=O, T+1=U, A+1=B, I+1=J, N+1=O → NPVOUBJO, लेकिन कोड NPVOUCJO में A→C (+2) और I→J (+1) है। RIVER: R+1=S, I+1=J, V+1=W, E+1=F, R+1=S → SJWFS. MOUNTAIN में A→C क्यों? शायद स्वर होने पर +2. A स्वर +2, I स्वर +1 नहीं हुआ। तो अनियमित।
 सभी +1 मानकर FOREST: F+1=G, O+1=P, R+1=S, E+1=F, S+1=T, T+1=U → GPSFTU.
-स्रोत: (SSC CGL 2020)
+स्रोत: PYQ-style
 
 83. यदि ‘COMPUTER’ को ‘EQORWVGT’ लिखा जाए, तो ‘KEYBOARD’ का कोड क्या होगा?
 (A) MGAQDQT
@@ -88,7 +88,7 @@ HEART = H+1=I, E+2=G, A+3=D, R+4=V, T+5=Y → IGDVY. LOVER = L+1=M, O+2=Q, V+3=Y
 उत्तर: (B) MGAQDQTF
 हल: COMPUTER: C+2=E, O+2=Q, M+2=O, P+2=R, U+2=W, T+2=V, E+2=G, R+2=T. सभी +2. KEYBOARD: K+2=M, E+2=G, Y+2=A (25+2=27→1=A), B+2=D, O+2=Q, A+2=C, R+2=T, D+2=F → MGAQDQTF.
 ⚠️ परीक्षक का जाल: Y+2 = A (पुनरावृत्ति), कुछ छात्र Y+2=27 समझकर भटक सकते हैं। विकल्पों में अंतिम अक्षर F और G रखकर भ्रम।
-स्रोत: (SSC CGL 2020)
+स्रोत: PYQ-style
 
 84. यदि ‘TRUTH’ = 95 और ‘FALSE’ = 52, तो ‘HONEST’ का कोड क्या होगा, यदि कोडिंग पद्धति स्थितीय मानों का योग है?
 (A) 81
@@ -99,7 +99,7 @@ HEART = H+1=I, E+2=G, A+3=D, R+4=V, T+5=Y → IGDVY. LOVER = L+1=M, O+2=Q, V+3=Y
 उत्तर: (A) 81
 हल: TRUTH = T(20)+R(18)+U(21)+T(20)+H(8) = 87, पर 95 है (8 अधिक). FALSE = F(6)+A(1)+L(12)+S(19)+E(5) = 43, पर 52 (9 अधिक). असमान। शायद प्रत्येक अक्षर के स्थितीय मान में उसकी स्थिति क्रमांक जोड़ा गया हो। TRUTH: T(1st)+20=21, R(2nd)+18=20, U(3rd)+21=24, T(4th)+20=24, H(5th)+8=13 → योग 21+20+24+24+13=102, नहीं।
 मैं सीधे योग प्रश्न देता हूँ: यदि कोड स्थितीय मानों का योग है, तो TRUTH = 87, FALSE = 43. HONEST = H(8)+O(15)+N(14)+E(5)+S(19)+T(20) = 81.
-स्रोत: (SSC CGL 2015)
+स्रोत: PYQ-style
 
 85. एक निश्चित कोड भाषा में ‘123’ का अर्थ ‘good morning india’, ‘456’ का अर्थ ‘india is great’, ‘789’ का अर्थ ‘good night sleep’ है। ‘morning’ का कोड क्या है?
 (A) 1
@@ -118,7 +118,7 @@ HEART = H+1=I, E+2=G, A+3=D, R+4=V, T+5=Y → IGDVY. LOVER = L+1=M, O+2=Q, V+3=Y
 pa sa = books are, sa ta = are old, ta ma = old books. ‘are’ = sa (उभयनिष्ठ), ‘books’ = pa (पहले से), ‘old’ = ta, ‘old books’ = ta ma तो ma = books? विरोध। त्याग।
 मैं एक सरल वाक्य कोडिंग प्रश्न देता हूँ जो काम करे: ‘pit na som’ = ‘bring me water’, ‘na jo tod’ = ‘water is life’, ‘tub od pit’ = ‘give me toy’. ‘water’ का कोड?
 pit na som (bring me water), na jo tod (water is life). उभयनिष्ठ ‘na’, शब्द ‘water’ उभयनिष्ठ। अतः na = water.
-स्रोत: (IBPS PO 2017)
+स्रोत: PYQ-style
 
 86. यदि ‘CHAIR’ को ‘EJEMT’ और ‘TABLE’ को ‘VCDNG’ लिखा जाए, तो ‘BENCH’ का कोड क्या होगा?
 (A) DGPFI
@@ -132,7 +132,7 @@ pit na som (bring me water), na jo tod (water is life). उभयनिष्ठ
 मैं एक समान +2 पैटर्न दूंगा: CHAIR → EJEM? नहीं।
 नया प्रश्न 86: यदि ‘DRIVER’ को ‘FTKXGT’ लिखा जाए, तो ‘PILOT’ का कोड?
 DRIVER: D+2=F, R+2=T, I+2=K, V+2=X, E+2=G, R+2=T. PILOT: P+2=R, I+2=K, L+2=N, O+2=Q, T+2=V → RKNQV.
-स्रोत: (SSC CGL 2019)
+स्रोत: PYQ-style
 
 87. यदि ‘SCHOOL’ को ‘TDIPPM’ और ‘COLLEGE’ को ‘DPMNFIF’ लिखा जाए, तो ‘UNIVERSITY’ का कोड क्या होगा?
 (A) VOJWFSTJUZ
@@ -143,7 +143,7 @@ DRIVER: D+2=F, R+2=T, I+2=K, V+2=X, E+2=G, R+2=T. PILOT: P+2=R, I+2=K, L+2=N, O+
 उत्तर: (A) VOJWFSTJUZ
 हल: SCHOOL: S+1=T, C+1=D, H+1=I, O+1=P, O+1=P, L+1=M. COLLEGE: C+1=D, O+1=P, L+1=M, L+1=N? (कोड में M,N है), E+1=F, G+1=H? कोड DPMNFIF में छठा I, सातवाँ F — G→I (+2), E→F (+1). अनियमित।
 यह पैटर्न सभी +1 है परंतु COLLEGE में L→M और L→N (पहला L +1=M, दूसरा L +2=N) ताकि दोहराव टूटे। ऐसे ही UNIVERSITY में U+1=V, N+1=O, I+1=J, V+1=W, E+1=F, R+1=S, S+1=T, I+1=J, T+1=U, Y+1=Z → VOJWFSTJUZ. (कोई दोहराव न होने से सभी +1).
-स्रोत: (SSC CGL 2018)
+स्रोत: PYQ-style
 
 88. यदि ‘BANK’ = 32 और ‘LOAN’ = 43, तो ‘CASH’ का कोड उसी पद्धति में क्या होगा?
 (A) 31
@@ -158,7 +158,7 @@ CASH: C=3,A=1,S=19,H=8 → योग 31. अगर अक्षर संख्�
 बेहतर प्रश्न: यदि ‘BANK’ = 32 और ‘LOAN’ = 43, तो ‘MONEY’ = ?
 BANK: 2+1+14+11 = 28 + 4 = 32. LOAN: 12+15+1+14 = 42 + 1 = 43 (यहाँ +1 क्यों?)। शायद स्वर A के लिए +1, O के लिए +? अनिश्चित।
 मैं एक स्पष्ट योग प्रश्न: ‘BANK’ = 28, ‘LOAN’ = 42, ‘CASH’ = 31. उत्तर 31.
-स्रोत: (SSC CGL 2016)
+स्रोत: PYQ-style
 
 89. एक कोड भाषा में ‘ne la ta’ का अर्थ ‘see you there’, ‘la pa sa’ का अर्थ ‘you are good’, ‘ta ra pa’ का अर्थ ‘good there here’ है। ‘see’ का कोड क्या है?
 (A) ne
@@ -168,7 +168,7 @@ BANK: 2+1+14+11 = 28 + 4 = 32. LOAN: 12+15+1+14 = 42 + 1 = 43 (यहाँ +1 �
 
 उत्तर: (A) ne
 हल: ‘ne la ta’ = see you there, ‘la pa sa’ = you are good. उभयनिष्ठ शब्द ‘you’, उभयनिष्ठ कोड ‘la’. तो la = you. ‘ta ra pa’ = good there here, ‘ne la ta’ से ‘there’ उभयनिष्ठ शब्द, कोड ‘ta’ उभयनिष्ठ, अतः ta = there. ‘ne la ta’ में शेष ‘ne’ = see.
-स्रोत: (IBPS PO 2018)
+स्रोत: PYQ-style
 
 90. यदि ‘FROZEN’ को ‘GSPYFO’ और ‘MELTED’ को ‘NFMUFE’ लिखा जाए, तो ‘THAWED’ का कोड क्या होगा?
 (A) UIBXFE
@@ -179,7 +179,7 @@ BANK: 2+1+14+11 = 28 + 4 = 32. LOAN: 12+15+1+14 = 42 + 1 = 43 (यहाँ +1 �
 उत्तर: (A) UIBXFE
 हल: FROZEN: F+1=G, R+1=S, O+1=P, Z-1=Y, E+1=F, N+1=O. MELTED: M+1=N, E+1=F, L+1=M, T+1=U, E+1=F, D+1=E. पैटर्न: प्रत्येक अक्षर में +1, केवल Z के लिए -1 (या 26+1=27→1=A, पर Y है तो -1). THAWED: T+1=U, H+1=I, A+1=B, W+1=X, E+1=F, D+1=E → UIBXFE.
 ⚠️ परीक्षक का जाल: FROZEN में Z→Y दिया, तो कुछ छात्र THAWED में W (23) के लिए भी -1 सोच सकते हैं, पर W के लिए +1 = X. W के बाद X, Y, Z हैं, कोई समस्या नहीं।
-स्रोत: (SSC CGL 2021)
+स्रोत: PYQ-style
 
 91. यदि ‘LETTER’ को ‘KDS S F’ और ‘PAPER’ को ‘OZODQ’ लिखा जाए, तो ‘WRITER’ का कोड क्या होगा?
 (A) VQHSDS
@@ -193,7 +193,7 @@ BANK: 2+1+14+11 = 28 + 4 = 32. LOAN: 12+15+1+14 = 42 + 1 = 43 (यहाँ +1 �
 त्याग कर, नया प्रश्न: सभी -1: ‘SCHOOL’ → ‘RBGNKK’ (पहले सेट में था). ‘COLLEGE’ → ‘BNKKDFD’.
 91. यदि ‘SCHOOL’ को ‘RBGNKK’ लिखा जाए, तो ‘COLLEGE’ का कोड?
 SCHOOL: S-1=R, C-1=B, H-1=G, O-1=N, O-1=N, L-1=K → RBGNNK, लेकिन RBGNKK है (अंतिम दो अदल-बदल). COLLEGE: C-1=B, O-1=N, L-1=K, L-1=K, E-1=D, G-1=F, E-1=D → BNKKDFD.
-स्रोत: (SSC CGL 2016)
+स्रोत: PYQ-style
 
 92. यदि ‘HUNTER’ = 80 और ‘FOREST’ = 76, तो ‘RABBIT’ का कोड समान पद्धति में क्या होगा?
 (A) 54
@@ -206,7 +206,7 @@ SCHOOL: S-1=R, C-1=B, H-1=G, O-1=N, O-1=N, L-1=K → RBGNNK, लेकिन RBG
 शायद केवल व्यंजनों का योग: HUNTER: H,N,T,R = 8+14+20+18 = 60, +? =80? नहीं।
 HUNTER: स्वर U,E = 21+5=26, व्यंजन H,N,T,R=8+14+20+18=60, कुल 86. 80 प्राप्त करने के लिए 6 घटा। FOREST: स्वर O,E=15+5=20, व्यंजन F,R,S,T=6+18+19+20=63, योग 83, 76 के लिए 7 घटा। संख्या असंगत।
 त्याग कर, मैं एक सीधा योग प्रश्न दूंगा: HUNTER = 8+21+14+20+5+18 = 86, FOREST = 83, RABBIT = 52. उत्तर 52.
-स्रोत: (SSC CGL 2017)
+स्रोत: PYQ-style
 
 93. यदि ‘GREAT’ को ‘FQDBS’ और ‘SMALL’ को ‘RLBKK’ लिखा जाए, तो ‘LARGE’ का कोड क्या होगा?
 (A) KBQFD
@@ -219,7 +219,7 @@ HUNTER: स्वर U,E = 21+5=26, व्यंजन H,N,T,R=8+14+20+18=60, �
 तीसरे अक्षर पर +1, शेष -1: LARGE: L-1=K, A-1=Z, R+1=S, G-1=F, E-1=D → KZSF? विकल्प KBQFD है। तो दूसरा A के लिए B (+1) नहीं, -1 होना चाहिए तो Z. लेकिन विकल्प में B है, तो A+1. तो पैटर्न: पहला -1, दूसरा +1, तीसरा -1, चौथा -1, पाँचवाँ -1? GREAT: G-1=F (सही), R+1=S? कोड में Q है (-1). असंगत।
 मैं GREAT को ध्यान से देखूँ: G-1=F, R-1=Q, E-1=D, A+1=B, T-1=S. SMALL: S-1=R, M-1=L, A+1=B, L-1=K, L-1=K. तो पैटर्न: पहले तीन में -1, चौथा +1, पाँचवाँ -1. LARGE में 5 अक्षर: L-1=K, A-1=Z, R-1=Q, G+1=H, E-1=D → KZQHD. विकल्प KBQFD में दूसरा B है, तो A+1. तो स्थान 4 नहीं, बल्कि अक्षर A हमेशा +1? GREAT में A+1, SMALL में A+1. LARGE में A आया तो A+1=B, शेष -1. L-1=K, A+1=B, R-1=Q, G-1=F, E-1=D → KBQFD.
 ⚠️ परीक्षक का जाल: अक्षर A के लिए अपवाद (+1) जबकि बाकी सभी -1, पैटर्न अक्षर-विशिष्ट है।
-स्रोत: (SSC CGL 2019)
+स्रोत: PYQ-style
 
 94. यदि ‘BROTHER’ को ‘CSPUIFS’ और ‘SISTER’ को ‘TJTUF S’ लिखा जाए, तो ‘MOTHER’ का कोड क्या होगा?
 (A) NPUIFS
@@ -229,7 +229,7 @@ HUNTER: स्वर U,E = 21+5=26, व्यंजन H,N,T,R=8+14+20+18=60, �
 
 उत्तर: (A) NPUIFS
 हल: BROTHER: B+1=C, R+1=S, O+1=P, T+1=U, H+1=I, E+1=F, R+1=S → CSPUIFS. SISTER: S+1=T, I+1=J, S+1=T, T+1=U, E+1=F, R+1=S → TJT UFS? कोड TJTUF S में स्पेस है, लेकिन पैटर्न +1. MOTHER: M+1=N, O+1=P, T+1=U, H+1=I, E+1=F, R+1=S → NPUIFS.
-स्रोत: (SSC CHSL 2020)
+स्रोत: PYQ-style
 
 95. यदि ‘PENCIL’ को ‘QFOdHM’ और ‘ERASER’ को ‘FSbTFS’ लिखा जाए, तो ‘SHARP’ का कोड क्या होगा?
 (A) TIbSQ
@@ -249,7 +249,7 @@ HUNTER: स्वर U,E = 21+5=26, व्यंजन H,N,T,R=8+14+20+18=60, �
 
 उत्तर: (A) 50
 हल: ORANGE = 15+18+1+14+7+5 = 60. MANGO = 13+1+14+7+15 = 50. APPLE = 1+16+16+12+5 = 50.
-स्रोत: (SSC CGL 2015)
+स्रोत: PYQ-style
 
 97. यदि ‘GREEN’ = 49 और ‘BLUE’ = 40, तो ‘YELLOW’ का कोड उसी पद्धति में क्या होगा, जहाँ स्वरों का दोगुना जोड़ा जाता है?
 (A) 87
@@ -262,7 +262,7 @@ HUNTER: स्वर U,E = 21+5=26, व्यंजन H,N,T,R=8+14+20+18=60, �
 स्वरों का दोगुना और व्यंजन ज्यों के त्यों: GREEN = G(7)+R(18)+E(10)+E(10)+N(14)=59. 59-10=49? नहीं।
 अन्य पैटर्न: केवल अंग्रेजी वर्णमाला के स्वर (A,E,I,O,U) का स्थान दोगुना, शेष समान: YELLOW में Y व्यंजन (25), E(5×2=10), L(12), L(12), O(15×2=30), W(23) → 25+10+12+12+30+23=112, नहीं।
 मैं स्पष्ट पैटर्न देता हूँ: स्थितीय मान योग, जहाँ स्वरों का नहीं बल्कि सभी का योग। GREEN = 7+18+5+5+14=49. BLUE = 2+12+21+5=40. YELLOW = 25+5+12+12+15+23=92. उत्तर 92.
-स्रोत: (SSC CGL 2018)
+स्रोत: PYQ-style
 
 98. एक कोड भाषा में ‘ta pa ma’ = ‘birds fly high’, ‘ma na ka’ = ‘high in sky’, ‘pa ra na’ = ‘fly in air’. ‘sky’ का कोड क्या है?
 (A) ka
@@ -272,7 +272,7 @@ HUNTER: स्वर U,E = 21+5=26, व्यंजन H,N,T,R=8+14+20+18=60, �
 
 उत्तर: (A) ka
 हल: ‘ta pa ma’ = birds fly high, ‘ma na ka’ = high in sky. उभयनिष्ठ शब्द ‘high’, उभयनिष्ठ कोड ‘ma’ → ma = high. ‘ma na ka’ में शेष ‘na’ और ‘ka’ = in, sky. ‘pa ra na’ = fly in air, जिसमें ‘na’ (in) और ‘pa’ (fly) पहले वाक्य से मिलान। ‘ta pa ma’ में pa = fly, तो na = in. अतः ka = sky.
-स्रोत: (IBPS PO 2019)
+स्रोत: PYQ-style
 
 99. यदि ‘ELEPHANT’ को ‘FKFQIBOU’ और ‘TIGER’ को ‘UJHFS’ लिखा जाए, तो ‘LION’ का कोड क्या होगा?
 (A) MJPO
@@ -282,7 +282,7 @@ HUNTER: स्वर U,E = 21+5=26, व्यंजन H,N,T,R=8+14+20+18=60, �
 
 उत्तर: (A) MJPO
 हल: ELEPHANT: E+1=F, L+1=M? कोड FKFQIBOU में दूसरा K है (L-1). TIGER: T+1=U, I+1=J, G+1=H, E+1=F, R+1=S → UJHFS. ELEPHANT में असमानता है, पर L→K -1. यह टाइपो हो सकता है। सभी +1 मानकर LION: L+1=M, I+1=J, O+1=P, N+1=O → MJPO.
-स्रोत: (SSC CGL 2020)
+स्रोत: PYQ-style
 
 100. यदि ‘WATER’ को ‘XBUFS’ और ‘MILK’ को ‘NJML’ लिखा जाए, तो ‘DRINK’ का कोड क्या होगा?
 (A) ESJOL
@@ -293,6 +293,6 @@ HUNTER: स्वर U,E = 21+5=26, व्यंजन H,N,T,R=8+14+20+18=60, �
 उत्तर: (A) ESJOL
 हल: WATER: W+1=X, A+1=B, T+1=U, E+1=F, R+1=S. MILK: M+1=N, I+1=J, L+1=M, K+1=L. सभी +1. DRINK: D+1=E, R+1=S, I+1=J, N+1=O, K+1=L → ESJOL.
 ⚠️ परीक्षक का जाल: DRINK के कोड में O,L आते हैं, विकल्पों में ESJOL और ESJNL रखकर भ्रम किया गया है।
-स्रोत: (SSC CHSL 2022)
+स्रोत: PYQ-style
 
 सेट 4 समाप्त।

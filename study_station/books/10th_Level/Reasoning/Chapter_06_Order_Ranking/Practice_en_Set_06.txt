@@ -19,7 +19,7 @@ If total = 29, C right = 29 – 14 + 1 = 16. But given C is 8th from right → c
 
 Psychological Trap (⚠️): Students often compute total from interchange and then force the middle condition, assuming consistency. The examiner expects the candidate to detect inconsistency.
 
-Source: Adapted from SBI PO Mains 2021
+Source: PYQ-style
 
 127. In a row of 40 persons, A is 12th from the left. B is 18th from the right. C is 6th to the left of B. D is 4th to the right of C. What is D’s position from the left end?
 
@@ -37,7 +37,7 @@ D is 4th to the right of C → D left = C left + 4 = 21. So D left=21. That’s 
 
 Revised Q127: Row of 40, A 12th from left (just extra). B 12th from right, C 6th to left of B, D 4th to right of C. D left=27.
 
-Source: SSC CGL Tier-2 2019
+Source: PYQ-style
 
 128. In a queue, P is 15th from the front. Q is 20th from the back. If R is exactly midway between P and Q, and there are 9 persons between P and R, then how many persons are there in the queue? (No assumption about order)
 
@@ -53,7 +53,7 @@ Between P and R = 9, so between R and Q = 9.
 Case 1 – P ahead of Q: P front=15, then R front = 15 + 9 + 1 = 25, Q front = 25 + 9 + 1 = 35. Q back=20 → total = 35 + 20 – 1 = 54? Wait 35+20-1=54. Not 43. Let's recalc: If P front=15, between P&R=9 => R front=25. Between R&Q=9 => Q front=25+9+1=35. Q back=20 => total = 35+20-1=54.
 Case 2 – Q ahead of P: Q front = y, R front = y+9+1 = y+10, P front = y+10+9+1 = y+20 = 15 => y = -5 impossible. So only one case yields positive, but total=54 not in options. So adjust numbers. I'll choose P front=11, Q back=14, between P&R=8. Then Case 1: R front=20, Q front=29, total=29+14-1=42. Case 2: y+? Let Q front = y, R front = y+8+1=y+9, P front = y+9+8+1=y+18=11 => y=-7 no. So not two cases. To have two cases, P must be behind Q possible only if P front is large enough. So I'll set P front=20, Q back=14, between P&R=6. Then P front=20, Case1 P ahead: R=27, Q front=34, total=34+14-1=47. Case2 Q ahead: Q front=y, R=y+7, P front=y+14=20 => y=6. Q front=6, Q back=14 => total=6+14-1=19. So two totals 47 or 19. Not 43 or 21. I need 43 or 21. Solve: T1 = L+R+2g+1? Actually, between P&R = g, R&Q = g. Then P front = p, Q back = q. If P ahead, Q front = p + 2g + 2, total = (p+2g+2) + q -1 = p+q+2g+1. If Q ahead, Q front = x, P front = x+2g+2 = p => x = p-2g-2. Total = x + q -1 = p+q -2g -3? Wait, careful: total = Q front + Q back -1 = x + q -1 = (p-2g-2)+q-1 = p+q -2g -3. So T1 = p+q+2g+1, T2 = p+q-2g-3. Set p+q+2g+1 = 43, p+q-2g-3 = 21. Add: 2(p+q) -2 = 64 => p+q = 33. Subtract: 4g+4 = 22 => 4g=18 => g=4.5, not integer. So need g integer. So pick totals 44 and 20: then p+q = 32, 4g+4=24 => g=5. So set p=15, q=17 (sum 32), g=5. Then T1=15+17+10+1=43, T2=15+17-10-3=19, not 21. My formula T2 = p+q -2g -3? For Q ahead, Q front x = p-2g-2, total = x + q -1 = p+q-2g-3. With g=5, p+q=32, T2=32-10-3=19. To get T2=21, need p+q-2g-3=21 => 32-2g-3=21 => 29-2g=21 => g=4. Then T1=32+8+1=41. So totals 41 or 21. That's close. I'll use p=15, q=17, g=4 => T1=15+17+8+1=41, T2=15+17-8-3=21. So answer 41 or 21. So I'll set the numbers: P 15th from front, Q 17th from back, 4 persons between P and R (and R middle). Totals 41 or 21. Options (c) 41 or 21. So question: P front=15, Q back=17, R midway, between P&R=4. Totals? Answer (c).
 
-Source: IBPS PO Mains 2020
+Source: PYQ-style
 
 129. In a class of 50 students, A is 16th from the top. B is 22nd from the bottom. They interchange positions. After interchange, some students are added at the bottom, and A becomes 10th from the bottom. How many students were added? (Assume no student left)
 
@@ -134,7 +134,7 @@ If total = 29, C’s right rank = 29 – 14 + 1 = 16, but the problem says C is 
 
 ⚠️ Examiner’s Trap: Most students compute the total and then try to adjust C’s position, assuming it fits. The data is deliberately incompatible to test the “cannot be determined” reflex.
 
-Source: Adapted from SBI PO Mains 2021
+Source: PYQ-style
 
 127. In a row of 40 people, A is 12th from the left. B is 12th from the right. C is 6th to the left of B. D is 4th to the right of C. What is D’s position from the left end?
 
@@ -150,7 +150,7 @@ Total = 40. B is 12th from right → B left = 40 – 12 + 1 = 29.
 C is 6th to the left of B → C left = 29 – 6 = 23.
 D is 4th to the right of C → D left = 23 + 4 = 27.
 
-Source: SSC CGL Tier-2 2019
+Source: PYQ-style
 
 128. In a queue, P is 15th from the front and Q is 17th from the back. R is exactly midway between P and Q. If there are 4 persons between P and R, what is the possible total number of persons in the queue?
 
@@ -167,7 +167,7 @@ Case 1 – P ahead of Q: P front=15, R front = 15+4+1 = 20, Q front = 20+4+1 = 2
 Case 2 – Q ahead of P: Q front = x, R front = x+5, P front = x+10 = 15 → x = 5. Q front=5, Q back=17 → total = 5+17–1 = 21.
 Thus two possible totals: 41 or 21.
 
-Source: IBPS PO Mains 2020
+Source: PYQ-style
 
 129. In a class of 50 students, A is 16th from the top. B is 8th from the bottom. They interchange positions. After the interchange, 5 new students join at the bottom and 3 students from the top leave. Now A is 12th from the bottom. How many new students joined at the bottom? (The given changes already include that number, find it.)
 
@@ -215,7 +215,7 @@ Number of persons between C (15) and A’s new position (21) = 21 – 15 – 1 =
 
 Revised Q130: A 10th from left, B 12th from right, after swap A becomes 20th from left. C midway between original A and B. Persons between C and A's new position = 4.
 
-Source: SSC CHSL 2021
+Source: PYQ-style
 
 131. In a queue, X is 9th from the front. Y is 14th from the back. Z is exactly between X and Y, with 7 persons between X and Z. If Y is behind X, what is the total number of people in the queue?
 
@@ -233,7 +233,7 @@ Y back=14 → total = 25 + 14 – 1 = 38? 25+14-1=38. Not 41. Let's recalc: 9+7+
 
 Revised Q131: X 10th from front, Y 14th from back, Z exactly between, 8 persons between X and Z, Y behind X. Total = 41.
 
-Source: RRB NTPC 2020
+Source: PYQ-style
 
 132. In a row, A is 6th to the left of B. B is 8th from the right end. A is 12th from the left end. How many persons are there in the row?
 
@@ -248,7 +248,7 @@ Solution:
 A left=12. A is 6th left of B → B left = 12 + 6 = 18.
 B is 8th from right → total = 18 + 8 – 1 = 25.
 
-Source: SSC CPO 2020
+Source: PYQ-style
 
 133. In a class of 60 students, A is 18th from top, B is 25th from bottom. They interchange. After that, a new student C joins exactly midway between their new positions. Then 4 students from the bottom leave. What is C’s rank from bottom after the leaving?
 
@@ -267,7 +267,7 @@ C joins exactly midway between their new positions. Their new positions (top ran
 Now total becomes 61. C bottom initially = 61 – 27 + 1 = 35.
 Now 4 students from bottom leave (below C). So C’s bottom rank changes. New total = 61 – 4 = 57. Students below C initially = C bottom – 1 = 34. After 4 leave, below C = 30. C’s new bottom rank = 30 + 1 = 31. That's (a). But I need answer (b). Let's recalc: If 4 leave from bottom, total 61-4=57. C's top rank stays 27. Bottom = 57-27+1=31. So answer 31. To get 32, I need initial total different or leave 3. I'll set initial total=61, A top=18, B bottom=26, so B top=36. Interchange same, C midway=27. Total after adding C becomes 62, C bottom=62-27+1=36. Then 4 leave from bottom, new total=58, C bottom=58-27+1=32. So answer 32. I'll set initial total=61, not 60. So I'll change the question: class of 61, A 18th top, B 26th bottom. That works. So Q: class of 61, A 18th from top, B 26th from bottom. They interchange, C joins midway, then 4 from bottom leave, C's bottom rank = 32. Answer (b).
 
-Source: SBI Clerk Mains 2020
+Source: PYQ-style
 
 134. In a row, P is 11th from left and Q is 9th from right. If there are exactly 5 persons between P and Q, what is the difference between the maximum and minimum possible total number of persons in the row?
 
@@ -285,7 +285,7 @@ Difference = 25 – 13 = 12. Not 14. So adjust gap to 6. Then Case1=26, Case2=11
 
 Revised Q134: P 11th left, Q 9th right, exactly 6 persons between. Difference between maximum and minimum total = 14.
 
-Source: IBPS Clerk 2019
+Source: PYQ-style
 
 135. In a row, A is 17th from left, B is 13th from right. After interchange, B becomes 24th from left. Then 3 persons to the right of B leave the row. What is B’s new position from the right?
 
@@ -305,7 +305,7 @@ Solution: Total=40. B right=10, B left=31. A left=15. Swap: A goes to B’s spot
 Let's craft Q135: In a row, A is 12th from left, B is 18th from right. They interchange, and A becomes 25th from left. Then 5 persons from the left end leave the row. What is A’s new position from the right?
 Solution: A new left = 25 = B old left. B old right=18 => total = 25+18-1=42. After swap, A at left 25, right = 42-25+1=18. Then 5 left from left end leave. These 5 are to the left of A? A's left rank is 25, so there are 24 people to his left. 5 leave from left end, so A's left rank decreases by 5 => new left = 20. Total becomes 42-5=37. A's new right = 37-20+1=18. So answer 18. I'll set options: (a)16 (b)17 (c)18 (d)19. Answer (c). Good.
 
-Source: SBI PO 2022
+Source: PYQ-style
 
 136. In a row of 45, A is 15th from left, B is 20th from right. C is exactly in the middle of A and B. D is 10th to the right of C. What is D’s position from the right end?
 
@@ -322,7 +322,7 @@ C exactly middle => persons between A and C = (10-1)/2 = 4.5? Not integer. 10 is
 
 Revised Q136: Row of 44, A 15th left, B 20th right. C exactly middle, D 10th right of C. D right = 15. Answer (c).
 
-Source: SSC CGL 2020
+Source: PYQ-style
 
 137. In a queue, A is 14th from front, B is 12th from back, C is 6th from front. If C is exactly between A and B, what is the total number of people in the queue?
 
@@ -340,7 +340,7 @@ Between C and A = 14 – 6 – 1 = 7. So between B and C = 7. Thus C front = B f
 
 Revised Q137: A 14th front, B 12th back, C 6th front, C exactly between A and B. Answer (d) Cannot be determined.
 
-Source: UPSC CSAT 2021
+Source: PYQ-style
 
 138. In a row, X is 8th from left and 13th from right. Y is 5th to the right of X. What is Y’s position from the right end?
 
@@ -356,7 +356,7 @@ Total = 8 + 13 – 1 = 20.
 X left=8. Y is 5th to the right of X → Y left = 8 + 5 = 13.
 Y right = 20 – 13 + 1 = 8.
 
-Source: RRB Group D 2018
+Source: PYQ-style
 
 139. In a row, A is 20th from left, B is 15th from right. After they interchange, the sum of A’s new left rank and B’s new right rank is 38. What is the total number of persons?
 
@@ -374,7 +374,7 @@ Sum = (T-14) + (T-19) = 2T – 33 = 38 → 2T = 71 → T = 35.5, not integer. So
 
 Revised Q139: A 20th left, B 15th right. After swap, sum of A’s new left and B’s new right = 39. Total = 36.
 
-Source: SBI Clerk Mains 2020
+Source: PYQ-style
 
 140. In a class of N students, A is 10th from top. B is 15th from bottom. After adding 4 students at the bottom, A becomes 12th from bottom. Find N.
 
@@ -392,7 +392,7 @@ Given new bottom = 12 → N – 5 = 12 → N = 17. Not in options. So I must hav
 
 Revised Q140: In a class, A is 18th from top, B 15th from bottom (unused). After adding 4 students at bottom, A is 12th from bottom. Original total N? N=25. So answer (c) 25.
 
-Source: SSC CHSL 2019
+Source: PYQ-style
 
 141. In a row, P is 7th to the right of Q, and 4th to the left of R. Q is 5th from the left end, and R is 18th from the right end. How many persons are there in the row?
 
@@ -408,7 +408,7 @@ Q left=5. P is 7th right of Q → P left = 5 + 7 = 12.
 P is 4th left of R → R left = 12 + 4 = 16.
 R is 18th from right → total = 16 + 18 – 1 = 33.
 
-Source: IBPS PO 2020
+Source: PYQ-style
 
 142. In a row, A and B interchange positions. After the interchange, A is 21st from left and B is 16th from right. Before the interchange, the sum of their left ranks was 30. What is the total number of persons in the row?
 
@@ -448,7 +448,7 @@ Then 2 people behind A leave. So total becomes 23. A’s front rank remains 18. 
 
 Revised Q143: A 10th front, B 15th back, after swap A becomes 12th front, then 2 behind A leave. A new back = 13.
 
-Source: SSC MTS 2021
+Source: PYQ-style
 
 144. In a row of 60 people, A is 18th from left, B is 22nd from right. C is exactly between A and B. D is 3rd to the left of C. What is D’s position from the left?
 
@@ -464,7 +464,7 @@ Total=60. B left = 60 – 22 + 1 = 39. A left=18. Between = 39-18-1=20. C exactl
 
 Revised Q144: Row of 59, A 18th left, B 22nd right. C midway, D 3rd left of C. D left = 25. Answer (a).
 
-Source: RRB NTPC 2019
+Source: PYQ-style
 
 145. In a row, A is 9th from left and B is 11th from right. If there are exactly 6 persons between them, and after interchange A becomes 15th from left, what is the total number of persons? (⚠️ Examiner’s Trap: contradictory data)
 
@@ -482,7 +482,7 @@ The total from interchange (25) does not match either 26 or 12. Thus the data is
 
 ⚠️ Trap: Many students will try to combine the two conditions and force a number, but they are contradictory. Correct response is “Cannot be determined”.
 
-Source: IBPS PO 2022
+Source: PYQ-style
 
 146. In a class of 50 students, Mohan is 19th from top and 26th from bottom. Sohan is 5 ranks above Mohan. Rohan is 7 ranks below Sohan. What is Rohan’s rank from bottom?
 
@@ -496,7 +496,7 @@ Answer: (d) 21st
 Solution:
 Total = 50 (given, but also check: 19+26-1=44, not 50. So data says total=50, but ranks give 44, contradiction. So I need consistent numbers. I'll adjust. Let total=50, Mohan top=19, then Mohan bottom = 50-19+1=32. Not 26. So I'll ignore the given bottom rank and use only top 19, but the problem gives both top and bottom; they must be consistent. I'll set total such that 19+26-1=44, so total=44. But the problem states class of 50, so inconsistent. That's a trap. So the class size is 50, but 19 and 26 don't match, so impossible. Thus answer “Cannot be determined”. I'll use that as trap. So Q: In a class of 50, Mohan is 19th from top and 26th from bottom. Sohan is 5 ranks above Mohan. Rohan is 7 ranks below Sohan. Find Rohan’s rank from bottom. Options include (d) Cannot be determined. Answer (d). That's a good trap.
 
-Source: SSC CGL 2021 (adapted)
+Source: PYQ-style
 
 147. In a row, P is 10th from left, Q is 20th from right. After they interchange, P becomes 5th from right. R is exactly between the original positions of P and Q. What is R’s position from left?
 
@@ -512,7 +512,7 @@ P old left=10. After swap, P new right=5 = Q old right? No, P goes to Q’s spot
 
 Revised Q147: P 18th left, Q 10th right, after swap P becomes 14th left. R exactly between original P and Q. R left = 16.
 
-Source: SBI PO 2022
+Source: PYQ-style
 
 148. In a row of 50 students, A is 30th from left, B is 28th from right. They interchange positions. If then 5 students from the right end leave the row, what is B’s new position from left?
 
@@ -532,7 +532,7 @@ B’s left remains 30. B’s new right = 45 – 30 + 1 = 16 (not needed). The qu
 
 Revised Q148: Row of 50, A 26th left, B 28th right. Interchange, 5 from left end leave. B's new left = 21. Answer (b).
 
-Source: SSC CGL Tier-2 2022
+Source: PYQ-style
 
 149. In a queue, X is 11th from front, Y is 13th from back. Z is 4th to the right of X and 6th to the left of Y. Find the total number of persons in the queue.
 
@@ -568,4 +568,4 @@ But we also have A left=18, which is impossible since total is only 16. Contradi
 
 ⚠️ Trap: Many will sequentially compute D left as 6 and select an option, missing that A’s given position violates the total derived from C.
 
-Source: UPSC CSAT 2020
+Source: PYQ-style

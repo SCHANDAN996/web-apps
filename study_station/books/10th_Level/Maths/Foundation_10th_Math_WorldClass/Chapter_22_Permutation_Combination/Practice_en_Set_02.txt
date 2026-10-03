@@ -19,14 +19,14 @@ Q26. In how many ways can 4 boys and 2 girls be seated in a row such that the tw
 
 Answer: (2) 240
 Solution: Treat the 2 girls as a single block. Now we have 4 boys + 1 block = 5 units, which can be arranged in 5! = 120 ways. Within the block, the 2 girls can be arranged in 2! = 2 ways. Total = 120 × 2 = 240.
-Source: SSC CHSL 2023
+Source: PYQ-style
 
 Q27. How many 4-digit numbers can be formed using the digits 1, 2, 3, 4, 5 without repetition such that the number is divisible by 4?
 (1) 24 (2) 36 (3) 48 (4) 60
 
 Answer: (1) 24
 Solution: A number is divisible by 4 if its last two digits form a number divisible by 4. From {1,2,3,4,5}, two-digit combinations divisible by 4: 12, 24, 32, 52. So 4 possible endings. For each, the first two digits are chosen from the remaining 3 digits and arranged in 3P2 = 6 ways. Total = 4 × 6 = 24.
-Source: SSC CGL 2020
+Source: PYQ-style
 
 Q28. In how many ways can 5 persons sit around a circular table if two particular persons must always sit together?
 (1) 12 (2) 24 (3) 36 (4) 48
@@ -35,14 +35,14 @@ Answer: (3) 36? Wait, let's compute: Circular arrangement with two together. Tre
 
 Answer: (1) 12
 Solution: Treat the two particular persons as a single block. Now we have 4 units to arrange in a circle: (4-1)! = 3! = 6 ways. Within the block, the two can be arranged in 2! = 2 ways. Total = 6 × 2 = 12.
-Source: SSC CPO 2022
+Source: PYQ-style
 
 Q29. From 6 men and 4 women, a committee of 5 is to be formed containing exactly 3 men. How many ways can it be done?
 (1) 120 (2) 180 (3) 240 (4) 60
 
 Answer: (1) 120
 Solution: Choose 3 men from 6: 6C3 = 20. Choose 2 women from 4: 4C2 = 6. Total = 20 × 6 = 120.
-Source: IBPS PO Pre 2020
+Source: PYQ-style
 
 Q30. How many words (with or without meaning) can be formed using all the letters of the word ‘SUCCESS’ such that no two S’s are together?
 (1) 24 (2) 12 (3) 36 (4) 48
@@ -92,7 +92,7 @@ Q31. A bag contains 5 red and 4 blue balls. In how many ways can 3 balls be draw
 
 Answer: (1) 80 (wait, compute: total ways to draw 3 from 9 = 84. Ways with no red (all blue) = 4C3 = 4. So at least one red = 84-4=80. So 80 is option (1). Good.
 Solution: Total selections = 9C3 = 84. Selections with no red = 4C3 = 4. Therefore, at least one red = 84 – 4 = 80.
-Source: SSC CGL 2019
+Source: PYQ-style
 
 Q32. How many numbers greater than 5000 can be formed from the digits 0,1,2,3,4,5 using each digit at most once?
 (1) 600 (2) 480 (3) 360 (4) 720
@@ -161,7 +161,7 @@ Q42. In how many ways can the letters of the word ‘BALLOON’ be arranged such
 (1) 360 (2) 180 (3) 720 (4) 120
 
 Solution: ‘BALLOON’ has letters B,A,L,L,O,O,N (7 letters, L twice, O twice). Treat the two L’s as a block 'LL'. Then we have units: B, A, LL, O, O, N (6 units, with O repeated twice). Arrange 6 units = 6!/2! = 360. The block 'LL' is identical so no internal arrangement. Total = 360. Answer (1) 360.
-Source: SSC CHSL 2021
+Source: PYQ-style
 
 Q43. A polygon has 44 diagonals. The number of sides is:
 (1) 11 (2) 10 (3) 12 (4) 8
@@ -233,28 +233,28 @@ Q26. In how many ways can 4 boys and 2 girls be seated in a row such that the tw
 
 Answer: (2) 240
 Solution: Treat the 2 girls as a single block. Now we have 4 boys + 1 block = 5 units, which can be arranged in 5! = 120 ways. Within the block, the 2 girls can be arranged in 2! = 2 ways. Total = 120 × 2 = 240.
-Source: SSC CHSL 2023
+Source: PYQ-style
 
 Q27. How many 4-digit numbers can be formed using the digits 1, 2, 3, 4, 5 without repetition such that the number is divisible by 4?
 (1) 24 (2) 36 (3) 48 (4) 60
 
 Answer: (1) 24
 Solution: A number is divisible by 4 if its last two digits form a number divisible by 4. From {1,2,3,4,5}, the two-digit endings divisible by 4 are 12, 24, 32, 52 → 4 choices. For each ending, the first two digits are arranged from the remaining 3 digits in 3P2 = 6 ways. Total = 4 × 6 = 24.
-Source: SSC CGL 2020
+Source: PYQ-style
 
 Q28. In how many ways can 5 persons sit around a circular table if two particular persons must always sit together?
 (1) 12 (2) 24 (3) 36 (4) 48
 
 Answer: (1) 12
 Solution: Treat the two particular persons as a single block. Now we have 4 units in a circle: (4-1)! = 3! = 6 ways. Within the block, the two persons can be arranged in 2! = 2 ways. Total = 6 × 2 = 12.
-Source: SSC CPO 2022
+Source: PYQ-style
 
 Q29. From 6 men and 4 women, a committee of 5 is to be formed containing exactly 3 men. How many ways can it be done?
 (1) 120 (2) 180 (3) 240 (4) 60
 
 Answer: (1) 120
 Solution: Choose 3 men from 6: 6C3 = 20. Choose 2 women from 4: 4C2 = 6. Total = 20 × 6 = 120.
-Source: IBPS PO Pre 2020
+Source: PYQ-style
 
 Q30. In how many ways can 5 persons be seated in a row if two particular persons never sit together?
 (1) 72 (2) 96 (3) 120 (4) 48
@@ -268,7 +268,7 @@ Q31. A bag contains 5 red and 4 blue balls. In how many ways can 3 balls be draw
 
 Answer: (1) 80
 Solution: Total ways to draw 3 balls from 9 = 9C3 = 84. Ways with no red ball (all blue) = 4C3 = 4. Therefore, at least one red = 84 – 4 = 80.
-Source: SSC CGL 2019
+Source: PYQ-style
 
 Q32. How many 4-digit numbers divisible by 5 can be formed using the digits 0,1,2,3,4,5 without repetition?
 (1) 108 (2) 120 (3) 96 (4) 84
@@ -278,14 +278,14 @@ Solution: A number divisible by 5 ends in 0 or 5.
 Case 1: last digit 0 → thousands place: 5 choices (1-5), hundreds: 4, tens: 3 → 5×4×3 = 60.
 Case 2: last digit 5 → thousands place: 4 choices (1,2,3,4, cannot be 0 or 5), hundreds: 4 (0 allowed), tens: 3 → 4×4×3 = 48.
 Total = 60 + 48 = 108.
-Source: SSC CGL 2018 (adapted)
+Source: PYQ-style
 
 Q33. In how many ways can 7 persons be seated around a circular table such that two particular persons never sit together?
 (1) 480 (2) 600 (3) 720 (4) 840
 
 Answer: (1) 480
 Solution: Total circular arrangements = (7-1)! = 720. Arrangements with the two together: treat them as a block → (6-1)! × 2! = 120 × 2 = 240. Therefore, not together = 720 – 240 = 480.
-Source: SSC CPO 2021
+Source: PYQ-style
 
 Q34. A man has 4 friends. In how many ways can he invite one or more of them to a party?
 (1) 15 (2) 16 (3) 4! (4) 4
@@ -313,7 +313,7 @@ Q37. How many 3-digit numbers can be formed using the digits 1,2,3,4,5,6,7 witho
 
 Answer: (3) 120
 Solution: Unit digit must be odd: 4 choices (1,3,5,7). Then hundreds digit: 6 remaining choices, tens: 5 choices. Total = 4 × 6 × 5 = 120.
-Source: SSC CGL 2017
+Source: PYQ-style
 
 Q38. In how many ways can 5 identical red balls and 4 identical blue balls be arranged in a row?
 (1) 126 (2) 120 (3) 24 (4) 210
@@ -341,14 +341,14 @@ Q41. How many 4-letter codes can be formed using the first 10 letters of the Eng
 
 Answer: (1) 1512
 Solution: Vowels among A-J: A, E, I (3 vowels). First letter: 3 choices. Remaining 3 letters from the other 9 distinct letters: 9P3 = 9×8×7 = 504. Total = 3 × 504 = 1512.
-Source: SSC CHSL 2022
+Source: PYQ-style
 
 Q42. In how many ways can the letters of the word ‘BALLOON’ be arranged such that the two L’s are together?
 (1) 360 (2) 180 (3) 720 (4) 120
 
 Answer: (1) 360
 Solution: Treat the two L’s as a single block ‘LL’. Letters: B,A,LL,O,O,N (6 units, O repeated twice). Arrangements = 6!/2! = 360. The block has no internal arrangement (identical letters).
-Source: SSC CHSL 2021
+Source: PYQ-style
 
 Q43. A polygon has 44 diagonals. The number of sides is:
 (1) 11 (2) 10 (3) 12 (4) 8
@@ -404,6 +404,6 @@ Q50. A committee of 6 is to be formed from 5 men and 6 women. In how many ways c
 
 Answer: (1) 200
 Solution: Choose 3 men from 5: 5C3 = 10. Choose 3 women from 6: 6C3 = 20. Total = 10 × 20 = 200.
-Source: IBPS Clerk Mains 2020
+Source: PYQ-style
 
 🚀 Review this set after 2 days. Pick any 3 incorrect or tricky questions, re-solve them, and explain the underlying trap aloud in 30 seconds to lock in the concept.

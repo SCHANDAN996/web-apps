@@ -11,7 +11,7 @@ D) 75
 
 Answer: B) 55
 Solution: Let numbers be 3x, 5x. (3x–9)/(5x–9) = 12/23 → 23(3x–9) = 12(5x–9) → 69x – 207 = 60x – 108 → 9x = 99 → x = 11. Larger = 5×11 = 55.
-Source: SSC CHSL 2019 (adapted)
+Source: PYQ-style
 
 Q102. A bag contains 50p, 25p and 10p coins in the ratio 5:9:4, amounting to ₹103. Find the number of 25p coins.
 A) 180
@@ -21,7 +21,7 @@ D) 240
 
 Answer: A) 180
 Solution: Let coins be 5x, 9x, 4x. Value = (0.50×5x) + (0.25×9x) + (0.10×4x) = 2.5x + 2.25x + 0.4x = 5.15x = 103 → x = 103/5.15 = 20. Number of 25p coins = 9×20 = 180.
-Source: SSC CPO 2017
+Source: PYQ-style
 
 Q103. The ratio of the ages of a father and his son is 11:5. Six years ago, the ratio was 5:2. What is the son's present age?
 A) 30
@@ -31,7 +31,7 @@ D) 45
 
 Answer: A) 30
 Solution: Present: 11x, 5x. 6 years ago: (11x–6)/(5x–6) = 5/2 → 22x–12 = 25x–30 → 3x = 18 → x = 6. Son = 5×6 = 30.
-Source: Railway Group D 2018
+Source: PYQ-style
 
 Q104. If A:B = 5:7 and B:C = 8:9, find A:B:C.
 A) 40:56:63
@@ -51,7 +51,7 @@ D) ₹2,400
 
 Answer: B) ₹2,000
 Solution: Ratio = 1/2 : 1/3 : 1/5 = multiply by LCM 30 → 15 : 10 : 6. Total parts = 31. 1 part = 6200/31 = 200. Q = 10×200 = 2,000.
-Source: SSC CGL 2016
+Source: PYQ-style
 
 Q106. In a mixture of 80 litres, milk and water are in the ratio 7:3. How much water should be added to make the ratio 3:2?
 A) 10 L
@@ -63,7 +63,7 @@ Answer: C) 20 L
 Solution: Milk = (7/10)×80 = 56 L, water = 24 L. Let x litres water added. 56/(24+x) = 3/2 → 112 = 72 + 3x → 40 = 3x → x = 40/3 ≈ 13.33 not integer. I need to adjust. Instead, ensure integer. Let's re-evaluate: Milk 56, water 24, final ratio 3:2 → milk 3k, water 2k. Since milk unchanged, 3k=56 => k=56/3 not integer. So choose a different ratio such that milk is divisible by 3. Use ratio 9:4 (milk:water) with total 130? Let's craft new problem: 120 L mixture, ratio 5:3 (milk 75, water 45). Add water to make ratio 3:2. Then 75/(45+x)=3/2 → 150=135+3x → 15=3x → x=5. That's integer. I'll use that. So Q106: 120 L mixture, milk:water = 5:3, add water to make 3:2. Find water added.
 Options: 5, 10, 15, 20. Answer 5.
 I'll change the question accordingly.
-Source: SSC MTS 2019
+Source: PYQ-style
 
 Q107. The incomes of A and B are in the ratio 7:5 and their expenses are in the ratio 5:4. If each saves ₹4,000, what is A's income?
 A) ₹21,000
@@ -83,7 +83,7 @@ D) 132
 
 Answer: B) 108
 Solution: Let numbers 3k,4k,6k. Product = 3k×4k×6k = 72k³ = 20736 → k³ = 20736/72 = 288 → k³ = 288 → k = cube root of 288 = 6.64 not integer. Adjust. I need integer k. So use product 3*4*6=72, so product = 72k³. To get perfect cube, choose total product divisible by 72 and a perfect cube. For k=6, product=72*216=15552. Not. For k=8, product=72*512=36864. Not. I'll just set numbers' product that yields integer k. If ratio 2:3:4, product=24k³. For k=6, product=24*216=5184, sum=9*6=54. Not. I'll scratch and do a different one: The sum of three numbers in ratio 3:4:5 is 144. Find the largest. That's easy. But I need medium. So Q108: Three numbers are in ratio 4:5:7 and their average is 80. Find the largest. That's doable. Average 80, so sum=240. Total parts=16, 1 part=15, largest=7*15=105. So options: 90,105,112,120. Answer 105. I'll use that.
-Source: SSC CGL 2018
+Source: PYQ-style
 
 Q109. The ratio of the area of a square to the area of a rectangle is 1:2. If the side of the square is 6 cm and the length of the rectangle is 8 cm, find the breadth of the rectangle.
 A) 6 cm
@@ -113,7 +113,7 @@ D) ₹210
 
 Answer: B) ₹140
 Solution: A=7x, B=5x. After transfer: (7x-30)/(5x+30)=9/11 → 77x–330=45x+270 → 32x=600 → x=18.75, not integer. Let's adjust transfer to 24? Then (7x-24)/(5x+24)=9/11 → 77x–264=45x+216 → 32x=480 → x=15, A=105. That's integer. So I'll set transfer 24, A=105. Options: 105, 140, 175, 210. Answer A) 105. I'll change.
-Source: SSC CHSL 2018
+Source: PYQ-style
 
 Q112. A mixture contains petrol and kerosene in the ratio 8:5. When 13 litres of mixture is taken out and replaced by kerosene, the ratio becomes 1:1. Find the initial quantity of petrol.
 A) 32 L
@@ -123,7 +123,7 @@ D) 56 L
 
 Answer: C) 48 L
 Solution: Let initial total be V litres. Petrol = 8/13 V, kerosene = 5/13 V. After removing 13 L of mixture, petrol left = 8/13 (V–13). Kerosene left = 5/13 (V–13) + 13 (since added). Ratio 1:1 => 8/13 (V–13) = 5/13 (V–13) + 13. Multiply by 13: 8V – 104 = 5V – 65 + 169 → 8V – 104 = 5V + 104 → 3V = 208 → V = 69.33 not integer. So adjust. Instead, use a known pyq: Let initial ratio 5:3, removal 8 L, replacement water, final 5:3 again? Not. I'll craft differently: 60 L mixture, milk:water 2:1, 10 L removed and replaced with water, ratio becomes 5:4. That works with integers. So Q112 new: 60 L mixture, milk:water = 2:1, 10 L removed, replaced with water, final 5:4. Find initial milk. Compute: Milk=40, water=20. Remove 10 L mixture: milk removed = (2/3)*10=20/3, water removed=10/3. Milk left=40-20/3=100/3, water left=20-10/3+10=20+10-10/3? Wait: water left after removal: 20 - 10/3 = 50/3, then add 10 L water => 50/3+10=80/3. Ratio (100/3):(80/3)=100:80=5:4. So final 5:4. Works. So initial milk=40 L. I'll set options accordingly: 30,35,40,45. Answer 40.
-Source: SSC CPO 2019
+Source: PYQ-style
 
 Q113. The ratio of the heights of two cylinders is 3:5 and the ratio of their radii is 2:3. Find the ratio of their volumes.
 A) 4:15
@@ -163,7 +163,7 @@ D) 45
 
 Answer: B) 27
 Solution: (3x+15)/(7x+15) = 5/8 → 24x+120 = 35x+75 → 11x = 45 → x = 45/11 not integer. Try different increase. For integer, use 10: (3x+10)/(7x+10)=5/8 => 24x+80=35x+50 => 11x=30, no. Use 20: (3x+20)/(7x+20)=5/8 => 24x+160=35x+100 => 11x=60 no. So scrap. I'll design a clean one: numbers 2:5, increased by 10, ratio becomes 4:7. Then (2x+10)/(5x+10)=4/7 → 14x+70=20x+40 → 6x=30, x=5, smaller=10. That's 10, not in options. I'll set options around 10. So Q116: ratio 2:5, increased by 10, ratio 4:7. Smaller = 10. Options: 10, 15, 20, 25. Answer A) 10.
-Source: SSC MTS 2019
+Source: PYQ-style
 
 Q117. In a school, 20% of boys are same in number as 1/4 of the girls. What is the ratio of boys to girls?
 A) 4:5
@@ -183,7 +183,7 @@ D) 80 km/h
 
 Answer: A) 60 km/h
 Solution: Second train speed = 300/4 = 75 km/h. Ratio speed1:speed2 = 4:5, so speed1 = 4/5 × 75 = 60 km/h.
-Source: Railway Exam 2018
+Source: PYQ-style
 
 Q119. Divide ₹1,210 into three parts such that the first part is 1/3 of the second and the ratio of the second to third is 5:7. Find the first part.
 A) ₹100
@@ -193,7 +193,7 @@ D) ₹250
 
 Answer: B) ₹150
 Solution: Let second part = 5k, third = 7k. First = (1/3)×5k = 5k/3. Ratio first:second:third = 5k/3 : 5k : 7k = multiply by 3: 5:15:21. Total parts = 5+15+21=41. Total = 1210, 1 part = 1210/41=29.512, not integer. Adjust total to 1230: 1230/41=30, first=5*30=150. So set total ₹1,230, first part 150. I'll change total to 1230. Options include 150. So Q119: total 1230, first part 150. Works.
-Source: SSC CHSL 2017
+Source: PYQ-style
 
 Q120. A solution contains acid and water in the ratio 3:2. If 25% of the solution is drawn out and replaced with water, the ratio becomes 9:11. Find the initial quantity of acid.
 This is complicated. I'll just do a simpler one: Two numbers are in the ratio 5:7. If their HCF is 9, find the numbers. That yields 45 and 63. So Q120: The ratio of two numbers is 4:7 and their HCF is 13. Find the numbers.
@@ -216,7 +216,7 @@ D) 49 L
 
 Answer: D) 49 L
 Solution: Let initial mixture = V litres. Milk = 7/12 V. After removal, milk left = 7/12 (V–9). Water left = 5/12 (V–9) + 9. Ratio milk:water = 7/9 → [7/12 (V–9)] / [5/12 (V–9) + 9] = 7/9. Simplify: (7(V–9)) / (5(V–9) + 108) = 7/9 (since 5/12 (V–9)+9 = (5(V–9)+108)/12). Cancel 12. Cross multiply: 9×7(V–9) = 7(5(V–9)+108) → 63(V–9) = 35(V–9) + 756 → 28(V–9) = 756 → V–9 = 27 → V = 36. Then milk = 7/12 × 36 = 21 L. That's not 49. So reverse check. I'll redo: Let original milk 7x, water 5x, total 12x. Withdraw 9 L: milk removed = (7/12)*9 = 21/4 = 5.25, water removed = (5/12)*9 = 15/4 = 3.75. Milk left = 7x - 5.25, water left = 5x - 3.75 + 9 = 5x + 5.25. Ratio = (7x - 5.25)/(5x + 5.25) = 7/9. Multiply: 9(7x - 5.25) = 7(5x + 5.25) → 63x - 47.25 = 35x + 36.75 → 28x = 84 → x = 3. So milk initial = 7*3 = 21 L. So I need answer 21, not in options. So adjust to get larger milk. To get milk 49 (7x=49 → x=7), then total 12*7=84. Withdrawal 9 L: remove milk (7/12)*9=21/4=5.25, water remove 15/4=3.75, milk left=49-5.25=43.75, water left=35-3.75+9=40.25, ratio=43.75:40.25=1.087, not 7:9. So not. I need consistent equation. Let's keep x=3, milk 21. I'll change the final ratio to 7:9 yields V=36, milk 21. I can set options with 21. But options were 28,35,42,49. I'll change options to 21,28,35,42. Answer A) 21. So I'll adjust. But this is hard, need integer. I'll just present with correct numbers. So Q121: initial ratio 7:5, 9 L removed, replaced with water, final 7:9, initial milk = 21 L. So I'll set options: 21 L, 28 L, 35 L, 42 L. Answer A. That works.
-Source: SSC CGL 2019
+Source: PYQ-style
 
 Q122. The ratio of the incomes of A and B is 5:4, and the ratio of their expenditures is 4:3. If A saves ₹8,000 and B saves ₹6,000, what is A's expenditure?
 A) ₹28,000
@@ -226,7 +226,7 @@ D) ₹18,000
 
 Answer: B) ₹24,000
 Solution: Income: A=5x, B=4x. Expenditure: A=4y, B=3y. Savings: 5x–4y=8000, 4x–3y=6000. Solve: multiply first by 3 => 15x–12y=24000; second by 4 => 16x–12y=24000 ⇒ subtract => x=0, impossible. So adjust savings to get consistent. Let's set different savings. For hard, can be set. I'll choose numbers: Suppose x=20000, y= not integer. Let's solve generally: From equations, 5x–4y=8000, 4x–3y=6000. Subtract: (5x–4y)–(4x–3y)=8000–6000 → x–y=2000 → y=x–2000. Plug into first: 5x–4(x–2000)=8000 → 5x–4x+8000=8000 → x+8000=8000 → x=0. No. So this system is inconsistent unless savings are proportional. So I need to set savings that satisfy the proportional relation. For income ratio 5:4, expenditure ratio 4:3, savings ratio will be (5x–4y):(4x–3y). For this to be 8000:6000=4:3, we need (5x–4y)/(4x–3y)=4/3 → 15x–12y=16x–12y → x=0. So impossible. Thus, I'll change the ratios to consistent ones: income ratio 7:5, expenditure 3:2, savings 4000 each, we did earlier. That yields integer. So for hard, I'll use income ratio 9:7, expenses 4:3, savings of A 12000, B 8000. Check consistency: (9x–4y)/(7x–3y)=12000/8000=3/2 → 18x–8y=21x–9y → y=3x. Then plug into 7x–3y=8000 → 7x–9x=8000 → -2x=8000 x negative. Not. So I'll scrap and design a problem where the system yields a unique solution. Use income ratio 5:3, expenditure ratio 5:3 as well? That would mean savings are in same ratio. Not. I'll use income ratio 7:4, expenditure 5:3, savings 2000 each? Then 7x–5y=2000, 4x–3y=2000. Solve: multiply 1st by 3 -> 21x–15y=6000; 2nd by 5 -> 20x–15y=10000; subtract -> x = -4000, impossible. So not. The general condition is that income - expenditure savings must be such that the equations are independent. I'll use the classic ratio of incomes 5:4, expenditures 7:5, savings 3000 each. Then 5x–7y=3000, 4x–5y=3000. Multiply first by 5 → 25x–35y=15000; second by 7 → 28x–35y=21000; subtract → 3x=6000, x=2000. A income=10000, A expenditure = 5x–3000? No, A expenditure=7y, need y. From 5x–7y=3000 → 10000–7y=3000 → 7y=7000, y=1000. So A exp=7000. That's small. Not hard. For hard, we can have an additional condition like total income given, etc. I'll design a hard question: The ratio of incomes of A and B is 5:7, and their expenditures are in the ratio 3:4. If each saves ₹2000, find their incomes. But we solved earlier similar with different ratios. Use 2:3 and 4:5? Not. I'll use a classic: incomes 9:7, expenses 4:3, each saves ₹2000? 9x–4y=2000, 7x–3y=2000. Multiply 1st by 3 => 27x–12y=6000, 2nd by 4 => 28x–12y=8000, subtract => x=2000. A income=18000, B=14000. That works and both savings 2000: 9*2000–4y=2000 => 18000–4y=2000 => 4y=16000, y=4000, B expenditure=3y=12000, savings=14000-12000=2000. So consistent. Then A expenditure = 4y=16000. So question: Incomes A and B 9:7, expenses 4:3, each saves ₹2000. Find A's expenditure. Answer ₹16,000. I'll place that. Options: 12000, 14000, 16000, 18000. So Q122: Ratio of incomes 9:7, expenditures 4:3, each saves ₹2,000. A's expenditure? Answer C) 16,000. I'll renumber options accordingly.
-Source: SSC CGL 2017
+Source: PYQ-style
 
 Q123. A bag contains coins of ₹1, 50p, and 25p in the ratio 2:3:4. If the total value is ₹90, how many 25p coins are there?
 A) 80
@@ -236,7 +236,7 @@ D) 110
 
 Answer: A) 80
 Solution: Coins 2x,3x,4x. Value = 1*2x + 0.5*3x + 0.25*4x = 2x + 1.5x + 1x = 4.5x = 90 → x=20. 25p coins = 4*20=80.
-Source: SSC CPO 2018 (Hard version with different ratio)
+Source: PYQ-style
 
 Q124. The ratio of the ages of a mother and her daughter is 12:5. Eight years hence, the ratio will be 7:3. Find the sum of their present ages.
 A) 85
@@ -246,7 +246,7 @@ D) 100
 
 Answer: A) 85
 Solution: Present: mother 12x, daughter 5x. 8 yrs hence: (12x+8)/(5x+8)=7/3 → 36x+24=35x+56 → x=32. Then mother=384, daughter=160, sum=544 ridiculously large. So ratio periods mismatched. Use reasonable ages: ratio 9:5, 8 years hence 11:7. (9x+8)/(5x+8)=11/7 → 63x+56=55x+88 → 8x=32, x=4, sum=14*4=56. Too low. I'll craft typical: mother 7:3, 8 years hence 9:5. (7x+8)/(3x+8)=9/5 → 35x+40=27x+72 → 8x=32, x=4, sum=10*4=40. Not. For hard, I'll do a multi-step: The ratio of ages of A and B is 4:5. After 10 years, the ratio of their ages will be 6:7. Find the difference of their ages. Solve: (4x+10)/(5x+10)=6/7 → 28x+70=30x+60 → 2x=10, x=5, difference = 5 years. That's easy. Hard could be: six years ago, ratio was... etc. I'll use ages of two persons with difference this: Present A:B = 5:7. Four years ago, the ratio was 7:8. Find present age of A. Solve: (5x-4)/(7x-4)=7/8 → 40x-32=49x-28 → 9x= -4, no. So not. I'll resort to a standard hard: A's age is 3 times B's. After 5 years, A's age will be 2½ times B's age. Find A's present age. That yields A=15, B=5. Not hard. I'll use ratio of ages with difference of two people: The ratio of the present ages of A and B is 3:4. Twelve years ago, the ratio was 2:3. Find the sum of their present ages. (3x-12)/(4x-12)=2/3 → 9x-36=8x-24 → x=12, sum=7*12=84. That's integer. So Q124: Present ages ratio 3:4, 12 years ago ratio 2:3, find sum. Answer 84. Options: 70,77,84,91. I'll use that.
-Source: SSC CHSL 2018
+Source: PYQ-style
 
 Q125. A jar has a mixture of acid and water in the ratio 5:3. If 12 litres of the mixture is taken out and replaced by water, the ratio of acid to water in the final mixture becomes 5:7. Find the initial quantity of acid.
 A) 20 L
@@ -256,7 +256,7 @@ D) 35 L
 
 Answer: B) 25 L
 Solution: Let initial acid = 5x, water=3x, total 8x. Withdraw 12 L: acid removed = (5/8)*12 = 7.5 L, water removed=4.5 L. Acid left = 5x - 7.5, water left = 3x - 4.5 + 12 = 3x + 7.5. Ratio: (5x-7.5)/(3x+7.5) = 5/7 → 35x - 52.5 = 15x + 37.5 → 20x = 90 → x=4.5. Then acid = 22.5 L, not integer. To get integer, adjust withdrawal or ratio. Let withdrawal be 8 L? Then acid removed 5/8*8=5, water removed 3, acid left=5x-5, water left=3x-3+8=3x+5. Ratio (5x-5)/(3x+5)=5/7 → 35x-35=15x+25 → 20x=60 → x=3, acid=15. Not 25. To get acid 25, 5x=25 ⇒ x=5. Then total 8x=40. Withdrawal 12 L: acid removed (5/8)*12=7.5, water removed 4.5. Acid left=25-7.5=17.5, water left=15-4.5+12=22.5, ratio=17.5:22.5=7:9, not 5:7. So need different withdrawal amount. Solve for withdrawal w to get 5:7 with x=5: (5*5 - (5/8)w) / (3*5 + (3/8)w) = 5/7? Actually water after replacement: 3x - (3/8)w + w = 3x + (5/8)w. So acid = 5x - (5/8)w. Equation: (5x - (5/8)w) / (3x + (5/8)w) = 5/7. With x=5, (25 - 5w/8) / (15 + 5w/8) = 5/7 → 7(25 - 5w/8) = 5(15 + 5w/8) → 175 - 35w/8 = 75 + 25w/8 → 100 = 60w/8 → 100 = 7.5w → w = 13.33, not integer. So not. I'll craft with integer result. Let's find x, w such that (5x - (5/8)w) / (3x + (5/8)w) = 5/7. Cross-multiply: 7(5x - 5w/8) = 5(3x + 5w/8) => 35x - 35w/8 = 15x + 25w/8 => 20x = 60w/8 => 20x = 7.5w => w = (20/7.5)x = (8/3)x. To have integer w, x must be multiple of 3. Let x=3, w=8. Then acid = 15L, withdrawal 8L. That yields integer but acid 15, not 25. x=6 gives acid 30, w=16. Then acid 30, withdrawal 16L. Ratio check: acid removed (5/8)*16=10, water removed 6. Acid left 20, water left (3*6-6+16)=28, ratio 20:28=5:7 perfect. So initial acid 30, withdrawal 16 L. So I'll set Q125: initial ratio 5:3, 16 L withdrawn, replaced with water, final ratio 5:7. Initial acid = 30 L. Options: 20,25,30,35. Answer C) 30.
-Source: SSC CGL 2017
+Source: PYQ-style
 
 Now compile all questions with numbering and solutions.Set 5: Medium & Hard Level (Q101–Q125)
 Chapter: Ratio & Proportion | Language: English
@@ -271,7 +271,7 @@ D) 75
 
 Answer: B) 55
 Solution: Let numbers be 3x, 5x. (3x–9)/(5x–9) = 12/23 → 23(3x–9) = 12(5x–9) → 69x – 207 = 60x – 108 → 9x = 99 → x = 11. Larger = 5×11 = 55.
-Source: SSC CHSL 2019 (adapted)
+Source: PYQ-style
 
 Q102. A bag contains 50p, 25p and 10p coins in the ratio 5:9:4. The total amount is ₹103. Find the number of 25p coins.
 A) 180
@@ -281,7 +281,7 @@ D) 240
 
 Answer: A) 180
 Solution: Coins = 5x, 9x, 4x. Value = 0.50×5x + 0.25×9x + 0.10×4x = 2.5x + 2.25x + 0.4x = 5.15x = 103 → x = 20. 25p coins = 9×20 = 180.
-Source: SSC CPO 2017
+Source: PYQ-style
 
 Q103. The ratio of the ages of a father and his son is 11:5. Six years ago, the ratio was 5:2. What is the son's present age?
 A) 30
@@ -291,7 +291,7 @@ D) 45
 
 Answer: A) 30
 Solution: Present: 11x, 5x. Six years ago: (11x–6)/(5x–6) = 5/2 → 22x–12 = 25x–30 → 3x = 18 → x = 6. Son = 5×6 = 30.
-Source: Railway Group D 2018
+Source: PYQ-style
 
 Q104. If A:B = 5:7 and B:C = 8:9, find A:B:C.
 A) 40:56:63
@@ -311,7 +311,7 @@ D) ₹2,400
 
 Answer: B) ₹2,000
 Solution: Ratio = 1/2 : 1/3 : 1/5 = (LCM 30) 15 : 10 : 6. Total parts = 31, 1 part = 6200/31 = 200. Q = 10×200 = ₹2,000.
-Source: SSC CGL 2016
+Source: PYQ-style
 
 Q106. A 120-litre mixture has milk and water in the ratio 5:3. How much water must be added to make the ratio 3:2?
 A) 5 L
@@ -321,7 +321,7 @@ D) 20 L
 
 Answer: A) 5 L
 Solution: Milk = (5/8)×120 = 75 L, water = 45 L. Let added water = x. 75/(45+x) = 3/2 → 150 = 135 + 3x → 15 = 3x → x = 5 L.
-Source: SSC MTS 2019
+Source: PYQ-style
 
 Q107. The incomes of A and B are in the ratio 5:3 and their expenses in the ratio 9:5. If each saves ₹2,000, what is A's income?
 A) ₹15,000
@@ -341,7 +341,7 @@ D) 120
 
 Answer: B) 105
 Solution: Average = (4x+5x+7x)/3 = 16x/3 = 80 → 16x = 240 → x = 15. Largest = 7×15 = 105.
-Source: SSC CGL 2018
+Source: PYQ-style
 
 Q109. The ratio of the area of a square to that of a rectangle is 1:2. The side of the square is 6 cm, the length of the rectangle is 8 cm. Find the breadth.
 A) 6 cm
@@ -371,7 +371,7 @@ D) ₹210
 
 Answer: A) ₹105
 Solution: (7x–24)/(5x+24) = 9/11 → 77x–264 = 45x+216 → 32x = 480 → x = 15. A = 7×15 = 105.
-Source: SSC CHSL 2018
+Source: PYQ-style
 
 Q112. A 60-litre mixture has milk and water in the ratio 2:1. If 10 litres of mixture is removed and replaced with water, the ratio becomes 5:4. What was the initial quantity of milk?
 A) 30 L
@@ -381,7 +381,7 @@ D) 45 L
 
 Answer: C) 40 L
 Solution: Initial milk = (2/3)×60 = 40 L, water = 20 L. Remove 10 L: milk removed = (2/3)×10 = 20/3, water = 10/3. Milk left = 40 – 20/3 = 100/3, water left = 20 – 10/3 + 10 = 20 + 20/3 = 80/3. Ratio = (100/3):(80/3) = 5:4. Verified.
-Source: SSC CPO 2019
+Source: PYQ-style
 
 Q113. The ratio of the heights of two cylinders is 3:5 and the ratio of their radii is 2:3. The ratio of their volumes is:
 A) 4:15
@@ -421,7 +421,7 @@ D) 25
 
 Answer: A) 10
 Solution: (2x+10)/(5x+10) = 4/7 → 14x+70 = 20x+40 → 6x = 30 → x = 5, smaller = 2×5 = 10.
-Source: SSC MTS 2019
+Source: PYQ-style
 
 Q117. In a school, 20% of boys equals one-fourth of the number of girls. The ratio of boys to girls is:
 A) 4:5
@@ -441,7 +441,7 @@ D) 80 km/h
 
 Answer: A) 60 km/h
 Solution: Speed of second = 300/4 = 75 km/h. First speed = (4/5)×75 = 60 km/h.
-Source: Railway Exam 2018
+Source: PYQ-style
 
 Q119. Divide ₹1,230 into three parts such that the first part is 1/3 of the second and the second to third ratio is 5:7. Find the first part.
 A) ₹100
@@ -451,7 +451,7 @@ D) ₹250
 
 Answer: B) ₹150
 Solution: Second = 5k, third = 7k. First = 5k/3. Ratio = (5k/3):5k:7k = 5:15:21 (multiply by 3). Total parts = 41 → 1 part = 1230/41 = 30. First = 5×30 = ₹150.
-Source: SSC CHSL 2017
+Source: PYQ-style
 
 Q120. The ratio of two numbers is 4:7 and their HCF is 13. The numbers are:
 A) 52, 91
@@ -473,7 +473,7 @@ D) 42 L
 
 Answer: A) 21 L
 Solution: Let initial milk = 7x, water = 5x. After withdrawal: milk = 7x – (7/12)×9 = 7x – 6.75, water = 5x – 3.75 + 9 = 5x + 5.25. Ratio = (7x–6.75)/(5x+5.25) = 7/9 → 63x – 60.75 = 35x + 36.75 → 28x = 97.5 → x = 3.482? Wait, I'll recalc cleanly with fractions: milk removed = 7/12 ×9 = 21/4 = 5.25, water removed = 5/12×9 = 15/4 = 3.75. Milk left = 7x – 5.25, water left = 5x – 3.75 + 9 = 5x + 5.25. Equation: (7x – 5.25)/(5x + 5.25) = 7/9 → cross multiply: 9(7x–5.25) = 7(5x+5.25) → 63x – 47.25 = 35x + 36.75 → 28x = 84 → x = 3. Milk = 7×3 = 21 L. Correct.
-Source: SSC CGL 2019
+Source: PYQ-style
 
 Q122. The ratio of incomes of A and B is 9:7, and their expenditures are in the ratio 4:3. Each saves ₹2,000. What is A's expenditure?
 A) ₹12,000
@@ -483,7 +483,7 @@ D) ₹18,000
 
 Answer: C) ₹16,000
 Solution: A=9x, B=7x; expenses A=4y, B=3y. 9x–4y = 7000? Wait, savings each 2000. So 9x–4y = 2000, 7x–3y = 2000. Multiply first by 3 → 27x–12y=6000; second by 4 → 28x–12y=8000; subtract → x=2000. Then 9×2000 – 4y = 2000 → 18000 – 4y = 2000 → 4y = 16000 → y = 4000. A's expenditure = 4y = ₹16,000.
-Source: SSC CGL 2017
+Source: PYQ-style
 
 Q123. A bag contains ₹1, 50p, and 25p coins in the ratio 2:3:4. The total value is ₹90. The number of 25p coins is:
 A) 80
@@ -493,7 +493,7 @@ D) 120
 
 Answer: A) 80
 Solution: Coins: 2x, 3x, 4x. Value = 1×2x + 0.5×3x + 0.25×4x = 2x + 1.5x + 1x = 4.5x = 90 → x = 20. 25p coins = 4×20 = 80.
-Source: SSC CPO 2018
+Source: PYQ-style
 
 Q124. The ratio of the present ages of A and B is 3:4. Twelve years ago, the ratio was 2:3. The sum of their present ages is:
 A) 70
@@ -503,7 +503,7 @@ D) 91
 
 Answer: C) 84
 Solution: (3x–12)/(4x–12) = 2/3 → 9x–36 = 8x–24 → x = 12. Sum = 3×12 + 4×12 = 84.
-Source: SSC CHSL 2018
+Source: PYQ-style
 
 Q125. A jar contains acid and water in the ratio 5:3. If 16 litres of the mixture is drawn out and replaced with water, the ratio becomes 5:7. Find the initial quantity of acid.
 A) 20 L
@@ -513,4 +513,4 @@ D) 35 L
 
 Answer: C) 30 L
 Solution: Acid = 5x, water = 3x. After removal: acid = 5x – (5/8)×16 = 5x – 10; water = 3x – (3/8)×16 + 16 = 3x – 6 + 16 = 3x + 10. Ratio (5x–10)/(3x+10) = 5/7 → 35x – 70 = 15x + 50 → 20x = 120 → x = 6. Acid = 5×6 = 30 L.
-Source: SSC CGL 2017
+Source: PYQ-style

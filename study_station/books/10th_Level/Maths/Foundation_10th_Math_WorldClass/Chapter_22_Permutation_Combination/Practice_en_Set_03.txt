@@ -5,14 +5,14 @@ Q51. How many ways can the letters of the word 'REMOTE' be arranged such that th
 
 Answer: (1) 72
 Solution: Vowels in REMOTE: E, O, E (E repeated twice). Treat vowels as one block. Total units = R, M, T, [vowel block] = 4 units. These can be arranged in 4! = 24 ways. Within the block, arrange E, O, E: 3!/2! = 3 ways. Total = 24 × 3 = 72.
-Source: SSC CHSL 2020
+Source: PYQ-style
 
 Q52. From 5 boys and 4 girls, a team of 3 is to be selected such that exactly 2 are girls. Number of ways is:
 (1) 30 (2) 40 (3) 20 (4) 60
 
 Answer: (1) 30
 Solution: Choose 2 girls from 4: 4C2 = 6. Choose 1 boy from 5: 5C1 = 5. Total = 6 × 5 = 30.
-Source: IBPS Clerk Mains 2019
+Source: PYQ-style
 
 Q53. In how many ways can 5 different keys be placed on a key ring?
 (1) 24 (2) 12 (3) 60 (4) 120
@@ -26,14 +26,14 @@ Q54. In how many ways can the letters of the word 'ARRANGE' be arranged so that 
 
 Answer: (1) 360
 Solution: Treat the two R's as a single block 'RR'. Letters become A, A, RR, N, G, E (6 units, A repeated twice). Number of arrangements = 6! / 2! = 720 / 2 = 360.
-Source: SSC CGL 2018
+Source: PYQ-style
 
 Q55. How many 3-digit even numbers can be formed using the digits 1,2,3,4,5,6,7 without repetition?
 (1) 90 (2) 120 (3) 60 (4) 210
 
 Answer: (1) 90
 Solution: Unit digit must be even: 2,4,6 → 3 choices. Then hundreds digit: any of the remaining 6 digits, tens digit: any of the remaining 5 digits. Total = 3 × 6 × 5 = 90.
-Source: SSC CGL 2019
+Source: PYQ-style
 
 Q56. A student must attempt 5 out of 8 questions in an exam. If the first 3 questions are compulsory, in how many ways can the student choose the questions?
 (1) 10 (2) 20 (3) 56 (4) 36
@@ -54,7 +54,7 @@ Q58. In how many ways can 7 persons be seated in a row if 3 particular persons a
 
 Answer: (1) 720
 Solution: Treat the 3 particular persons as a block. Then we have 5 units (4 others + 1 block) which can be arranged in 5! = 120 ways. The 3 persons within the block can be arranged in 3! = 6 ways. Total = 120 × 6 = 720.
-Source: SSC CPO 2021
+Source: PYQ-style
 
 Q59. A man has 5 friends. In how many ways can he invite one or more of them to a party?
 (1) 31 (2) 32 (3) 5 (4) 10
@@ -82,7 +82,7 @@ Q62. A committee of 4 is to be formed from 4 men and 5 women. In how many ways c
 
 Answer: (1) 60
 Solution: Choose 2 women from 5: 5C2 = 10. Choose 2 men from 4: 4C2 = 6. Total = 10 × 6 = 60.
-Source: SSC CGL 2017
+Source: PYQ-style
 
 Q63. If ²ⁿP₂ = 30, then the value of n is:
 (1) 3 (2) 4 (3) 5 (4) 6
@@ -100,14 +100,14 @@ Case 1: unit=0 → thousands:5 choices, hundreds:4, tens:3 → 5×4×3 = 60.
 Case 2: unit=2 → thousands:4 (not 0,2), hundreds:4 (0 allowed), tens:3 → 4×4×3 = 48.
 Case 3: unit=4 → same as case 2: 48.
 Total = 60+48+48 = 156.
-Source: SSC CGL 2020
+Source: PYQ-style
 
 Q65. In how many ways can 4 boys and 2 girls be seated in a row such that no two girls sit together?
 (1) 480 (2) 240 (3) 720 (4) 120
 
 Answer: (1) 480
 Solution: First arrange the 4 boys: 4! = 24 ways. They create 5 gaps (_ B1 _ B2 _ B3 _ B4 _). Choose 2 of these 5 gaps for the 2 girls and arrange them: 5P2 = 20. Total = 24 × 20 = 480.
-Source: SSC CHSL 2021
+Source: PYQ-style
 
 Q66. A polygon has 10 sides. The number of its diagonals is:
 (1) 35 (2) 45 (3) 30 (4) 40
@@ -138,14 +138,14 @@ Q69. How many 5-digit numbers can be formed using digits 1,2,3,4,5 without repet
 
 Answer: (1) 24
 Solution: A number divisible by 5 must end in 5 (since 5 is the only multiple of 5 in the set). Fix unit digit = 5. Remaining 4 digits can be arranged in 4! = 24 ways.
-Source: SSC CGL 2016
+Source: PYQ-style
 
 Q70. In how many ways can 8 persons be seated around a round table if two particular persons refuse to sit together?
 (1) 3600 (2) 2520 (3) 1440 (4) 720
 
 Answer: (1) 3600
 Solution: Total circular arrangements of 8 persons = (8-1)! = 7! = 5040. Arrangements with the two together: treat them as block → (7-1)! × 2! = 6! × 2 = 720 × 2 = 1440. Therefore, not together = 5040 – 1440 = 3600.
-Source: SSC CPO 2019
+Source: PYQ-style
 
 Q71. If ⁿC₈ = ⁿC₅, then n equals:
 (1) 13 (2) 12 (3) 15 (4) 10
@@ -159,21 +159,21 @@ Q72. How many 3-digit numbers greater than 400 can be formed using the digits 1,
 
 Answer: (1) 120
 Solution: Hundreds digit must be 4,5,6,7 → 4 choices. Then tens digit: any of the remaining 6 digits, units: 5 digits. Total = 4 × 6 × 5 = 120.
-Source: SSC CHSL 2018
+Source: PYQ-style
 
 Q73. A bag contains 3 red, 4 blue, and 2 green balls. In how many ways can 2 balls be drawn such that both are of the same colour?
 (1) 10 (2) 9 (3) 36 (4) 18
 
 Answer: (1) 10
 Solution: Both red: 3C2 = 3; both blue: 4C2 = 6; both green: 2C2 = 1. Total = 3+6+1 = 10.
-Source: IBPS PO Pre 2019
+Source: PYQ-style
 
 Q74. In how many ways can the letters of the word 'SUCCESS' be arranged such that no two S's are together?
 (1) 120 (2) 24 (3) 96 (4) 60
 
 Answer: (1) 120
 Solution: SUCCESS has S (3 times), U, C (2 times), E. First arrange the non-S letters: U, C, C, E → 4!/2! = 12 ways. They create 5 gaps (U, C, C, E). Choose 3 gaps out of 5 to place the identical S's: 5C3 = 10. Total = 12 × 10 = 120.
-Source: SSC CGL 2020
+Source: PYQ-style
 
 Q75. How many 4-digit numbers can be formed from the digits 0,2,4,6,8 without repetition?
 (1) 96 (2) 120 (3) 48 (4) 24

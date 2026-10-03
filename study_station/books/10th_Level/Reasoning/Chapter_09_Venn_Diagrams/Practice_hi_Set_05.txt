@@ -14,7 +14,7 @@ Which of the following Venn diagrams best represents the relationship among: *Sh
 
 **Answer:** (A) कपास कपड़ा के अंदर, शर्ट कपड़े को काटता हुआ
 **Solution:** All cotton is fabric. Shirt is made of fabric; some shirts are cotton, some not. So Shirt partially overlaps Fabric, and Cotton is a subset of Fabric.
-**Source:** SSC MTS 2021
+**Source:PYQ-style
 
 ---
 
@@ -27,7 +27,7 @@ Choose the Venn diagram for *Tiger, Carnivore, Herbivore*।
 
 **Answer:** (B) बाघ मांसाहारी के अंदर, मांसाहारी और शाकाहारी अलग
 **Solution:** All tigers are carnivores. Carnivores and herbivores are disjoint categories. So separate circles, Tiger inside Carnivore.
-**Source:** SSC CGL 2019
+**Source:PYQ-style
 
 ---
 
@@ -40,7 +40,7 @@ In a group of 300 people, 180 know Hindi, 140 know English, 80 know both. How ma
 
 **Answer:** (B) 60
 **Solution:** n(H ∪ E) = 180+140-80 = 240. Neither = 300-240 = 60.
-**Source:** RRB Group D 2020
+**Source:PYQ-style
 
 ---
 
@@ -53,7 +53,7 @@ In the given Venn diagram, triangle = Engineers, square = MBAs, circle = Experie
 
 **Answer:** (A) 42
 **Solution:** Engineers or Experienced but not MBAs = only Engineers (15) + only Experienced (18) + (Engineers & Exp only) (9) = 42.
-**Source:** SSC CGL 2022
+**Source:PYQ-style
 
 ---
 
@@ -67,7 +67,7 @@ Which Venn diagram represents the sets *Chair, Table, Wood*?
 **Answer:** (C) कुर्सी और मेज़ अलग, लकड़ी दोनों को काटती हुई
 **Solution:** Chair and Table are distinct furniture items (disjoint). Wood is a material; not all chairs/tables are wooden, so Wood overlaps both.
 **Trap:** Many students wrongly place Chair and Table inside Wood, implying all chairs and tables are wooden.
-**Source:** SSC CGL 2020
+**Source:PYQ-style
 
 ---
 
@@ -82,7 +82,7 @@ Conclusions: I. Some flowers are coloured. II. No red thing is invisible.
 
 **Answer:** (C) दोनों अनुसरण करते हैं
 **Solution:** I: Some flowers are red, all red are coloured → those flowers are coloured. True. II: All red are coloured, coloured ∩ invisible = ∅ → red ∩ invisible = ∅. True.
-**Source:** IBPS Clerk 2020
+**Source:PYQ-style
 
 ---
 
@@ -95,7 +95,7 @@ In a Venn diagram, circle X = Smokers, circle Y = Drinkers, circle Z = Overweigh
 
 **Answer:** (A) 16
 **Solution:** Exactly two = 5+7+4 = 16.
-**Source:** SSC CHSL 2021
+**Source:PYQ-style
 
 ---
 
@@ -108,7 +108,7 @@ Which option correctly shows *Carrot, Vegetable, Orange*?
 
 **Answer:** (B) गाजर सब्जी के अंदर, संतरा अलग
 **Solution:** Carrot is a vegetable. Orange is a fruit, not a vegetable. So Carrot ⊆ Vegetable, Orange separate.
-**Source:** SSC MTS 2020
+**Source:PYQ-style
 
 ---
 
@@ -123,7 +123,7 @@ Conclusions: I. Some cats are pets. II. Some mammals are not wild.
 
 **Answer:** (B) केवल II अनुसरण करता है
 **Solution:** I: Cats may not overlap pets. Not definite. II: Some mammals are pets, pets are not wild → those mammals are not wild. True.
-**Source:** IBPS PO 2021
+**Source:PYQ-style
 
 ---
 
@@ -136,7 +136,7 @@ In a survey, 75% like coffee, 65% like tea, 50% like both. What percentage like 
 
 **Answer:** (B) 10%
 **Solution:** n(C ∪ T) = 75+65-50 = 90%. Neither = 10%.
-**Source:** RRB NTPC 2023
+**Source:PYQ-style
 
 ---
 
@@ -151,7 +151,7 @@ Conclusions: I. Some books are fictions. II. Some biographies are not novels.
 
 **Answer:** (C) दोनों अनुसरण करते हैं
 **Solution:** I: Some books are novels, novels ⊆ fictions → those books are fictions. True. II: Novels ⊆ fictions, fictions ∩ biographies = ∅ → no novel is a biography, so some biographies are not novels (all). True.
-**Source:** SSC CGL 2021
+**Source:PYQ-style
 
 ---
 
@@ -164,7 +164,7 @@ Which Venn diagram best fits *Police, Thief, Criminal*?
 
 **Answer:** (A) चोर अपराधी के अंदर, पुलिस अलग
 **Solution:** All thieves are criminals. Police are law enforcers, not criminals. So Thief ⊆ Criminal, Police separate.
-**Source:** SSC CHSL 2018
+**Source:PYQ-style
 
 ---
 
@@ -177,7 +177,7 @@ In the given figure, triangle = Males, square = Players, circle = Coaches. Numbe
 
 **Answer:** (A) 44
 **Solution:** Not players = only Males (22) + only Coaches (14) + (Males & Coaches only) (8) = 44.
-**Source:** SSC CGL 2023
+**Source:PYQ-style
 
 ---
 
@@ -192,7 +192,7 @@ Conclusions: I. Some chairs are wooden. II. Some furniture is not plastic.
 
 **Answer:** (B) केवल II अनुसरण करता है
 **Solution:** Chairs ⊆ Furniture. Some furniture wooden, but chairs may be entirely non-wooden. I false. II: Wooden furniture is not plastic, so some furniture is not plastic. True.
-**Source:** IBPS Clerk 2019
+**Source:PYQ-style
 
 ---
 
@@ -205,7 +205,7 @@ In a class of 150 students, 90 passed in English, 80 passed in Hindi, 70 passed 
 
 **Answer:** (B) 50
 **Solution:** Passed in at least one = 90+80-70 = 100. Failed in both = 150-100 = 50.
-**Source:** RRB Group D 2021
+**Source:PYQ-style
 
 ---
 
@@ -219,7 +219,7 @@ Which Venn diagram represents *Doctor, Stethoscope, Nurse*?
 **Answer:** (D) तीन अलग-अलग वृत्त
 **Solution:** Doctor (person), stethoscope (tool), nurse (person) are distinct classes. No class overlap; functional association irrelevant.
 **Trap:** Real-life association (doctor uses stethoscope, nurse assists) leads to wrong choices like (A) or (C).
-**Source:** SSC CGL 2022
+**Source:PYQ-style
 
 ---
 
@@ -234,7 +234,7 @@ Conclusions: I. Some dogs are pets. II. Some friendly animals are not dangerous.
 
 **Answer:** (C) दोनों अनुसरण करते हैं
 **Solution:** I: Some dogs are friendly, friendly ⊆ pets → those dogs are pets. True. II: Friendly ⊆ pets, pets ∩ dangerous = ∅ → no friendly is dangerous, so some are not dangerous (all). True.
-**Source:** IBPS PO 2022
+**Source:PYQ-style
 
 ---
 
@@ -247,7 +247,7 @@ Choose the diagram for *Eye, Nose, Face*।
 
 **Answer:** (A) आँख और नाक चेहरा के अंदर, अलग-अलग
 **Solution:** Eye and nose are distinct parts of the face; they are disjoint subsets of Face.
-**Source:** SSC MTS 2022
+**Source:PYQ-style
 
 ---
 
@@ -262,7 +262,7 @@ Conclusions: I. Some water bodies are not rivers. II. Some oceans are not rivers
 
 **Answer:** (A) केवल I अनुसरण करता है
 **Solution:** I: Lakes are water bodies and not rivers → some water bodies are not rivers. True. II: Oceans could intersect rivers; not definite.
-**Source:** SSC CGL 2020
+**Source:PYQ-style
 
 ---
 
@@ -275,7 +275,7 @@ In the Venn diagram, circle A = Singers, circle B = Dancers, circle C = Actors. 
 
 **Answer:** (B) 59
 **Solution:** Total = 10+12+14+5+7+8+3 = 59.
-**Source:** SSC CHSL 2023
+**Source:PYQ-style
 
 ---
 
@@ -290,7 +290,7 @@ Conclusions: I. Some green things are not fruits. II. Some apples are not vegeta
 
 **Answer:** (C) दोनों अनुसरण करते हैं
 **Solution:** I: Some vegetables are green, vegetables are not fruits → those green things are not fruits. True. II: All apples are fruits, no fruit is vegetable → no apple is vegetable, so some apples are not vegetables (all). True.
-**Source:** IBPS PO 2023
+**Source:PYQ-style
 
 ---
 
@@ -304,7 +304,7 @@ Which Venn diagram best represents *Players, Spectators, Stadium*?
 **Answer:** (D) तीन अलग-अलग वृत्त
 **Solution:** Player (person), spectator (person), stadium (place) are distinct classes. No subset relationship.
 **Trap:** Real-world scenario of players and spectators being inside a stadium leads to wrong subset choices.
-**Source:** SSC CGL 2023
+**Source:PYQ-style
 
 ---
 
@@ -320,7 +320,7 @@ Conclusions: I. Some teachers are not principals. II. Some teachers are not unde
 **Answer:** (A) केवल I अनुसरण करता है
 **Solution:** "Only a few" implies Some teachers are principals and Some teachers are not principals. Hence I follows directly. II: The teachers who are principals are graduates, thus not undergraduates. But the teachers who are not principals could be undergraduates. So not definite.
 **Trap:** Over-generalizing that all teachers must be graduates because some are principals.
-**Source:** IBPS PO 2022
+**Source:PYQ-style
 
 ---
 
@@ -333,7 +333,7 @@ In a housing society of 500 families, each family owns at most one type of vehic
 
 **Answer:** (A) 500
 **Solution:** "At most one" means sets are disjoint. Total owning = 180+210+110 = 500, exactly total families. So all own exactly one vehicle.
-**Source:** SSC CGL 2024
+**Source:PYQ-style
 
 ---
 
@@ -348,4 +348,4 @@ Conclusions: I. Some planets are not moons. II. Some stars are moons. III. No st
 
 **Answer:** (A) केवल I अनुसरण करता है
 **Solution:** I: "Some planets are moons" implies not all planets are moons, so some planets are not moons. True. II: Stars ⊆ planets, moons overlap some planets, but stars may not intersect that overlap. Not definite. III: Stars are planets; no relation given between planets and sun, so cannot conclude no star is a sun. Thus only I follows.
-**Source:** IBPS PO 2023
+**Source:PYQ-style

@@ -14,7 +14,7 @@ Which of the following Venn diagrams best represents the relationship among: *In
 
 **Answer:** (C) एक वृत्त दूसरे के अंदर और वह तीसरे के अंदर
 **Solution:** India is part of Asia, Asia is part of Earth. So nested circles: India ⊂ Asia ⊂ Earth.
-**Source:** SSC CHSL 2019
+**Source:PYQ-style
 
 ---
 
@@ -27,7 +27,7 @@ Which Venn diagram shows the correct relation among: *Pen, Pencil, Eraser*?
 
 **Answer:** (A) तीन अलग-अलग वृत्त
 **Solution:** Pen, pencil, eraser are all distinct stationery items with no class-subclass relation. So three separate circles.
-**Source:** SSC MTS 2020
+**Source:PYQ-style
 
 ---
 
@@ -40,7 +40,7 @@ Select the Venn diagram that illustrates the relationship: *Women, Mothers, Engi
 
 **Answer:** (C) तीनों वृत्त एक-दूसरे को काटते हुए
 **Solution:** All mothers are women. Some women are engineers; some mothers can be engineers; some engineers are women. So all three sets intersect.
-**Source:** IBPS Clerk 2018
+**Source:PYQ-style
 
 ---
 
@@ -53,7 +53,7 @@ Which option best fits the sets: *Doctors, Surgeons, Neurologists*?
 
 **Answer:** (C) एक बड़े वृत्त (Doctors) में दो छोटे वृत्त जो आपस में न काटते हों
 **Solution:** All surgeons and neurologists are doctors. They are distinct specializations, so disjoint subsets inside a universal set.
-**Source:** SSC CGL 2020
+**Source:PYQ-style
 
 ---
 
@@ -66,7 +66,7 @@ Choose the diagram for: *Players, Singers, Doctors*।
 
 **Answer:** (B) एक-दूसरे को काटते हुए तीन वृत्त
 **Solution:** A person can be player, singer, doctor in any combination. So all three mutually overlap.
-**Source:** IBPS PO 2019
+**Source:PYQ-style
 
 ---
 
@@ -79,7 +79,7 @@ In the given diagram, triangle = Teachers, circle = Graduates, rectangle = Women
 
 **Answer:** (A) 5
 **Solution:** Graduate women not teachers = region common to circle and rectangle but outside triangle = 5.
-**Source:** SSC CGL 2021
+**Source:PYQ-style
 
 ---
 
@@ -92,7 +92,7 @@ In the Venn diagram, circle A = Men, circle B = Employed, circle C = Educated. W
 
 **Answer:** (B) A और C का कटाव क्षेत्र जिसमें B नहीं
 **Solution:** Men (A) who are educated (C) but not employed (outside B) = A ∩ C ∩ B'.
-**Source:** IBPS Clerk 2020
+**Source:PYQ-style
 
 ---
 
@@ -105,7 +105,7 @@ The figure shows the number of students who play Cricket, Hockey, Football. How 
 
 **Answer:** (B) 4
 **Solution:** “Only Cricket and Football but not Hockey” is the region common to Cricket and Football excluding Hockey = 4.
-**Source:** SSC CHSL 2022
+**Source:PYQ-style
 
 ---
 
@@ -118,7 +118,7 @@ In a survey, 55% like tea, 45% like coffee, 20% like both. What percentage like 
 
 **Answer:** (B) 20%
 **Solution:** n(T ∪ C) = 55+45-20 = 80%. Neither = 100-80 = 20%.
-**Source:** RRB NTPC 2019
+**Source:PYQ-style
 
 ---
 
@@ -131,7 +131,7 @@ The Venn diagram gives the number of families using LPG, Electricity, and Solar.
 
 **Answer:** (A) 25
 **Solution:** Exactly two = (12+8+5) = 25.
-**Source:** SSC MTS 2021
+**Source:PYQ-style
 
 ---
 
@@ -146,7 +146,7 @@ Conclusions: I. Some flowers are trees. II. Some trees are plants.
 
 **Answer:** (B) केवल II अनुसरण करता है
 **Solution:** Flower ⊆ Plants. Some plants are trees means Plants and Trees overlap. I: Flower circle may be completely inside plants but not touch trees, so not definite. II: "Some trees are plants" is just the converse of the given statement, so it follows.
-**Source:** IBPS PO 2021
+**Source:PYQ-style
 
 ---
 
@@ -161,7 +161,7 @@ Conclusions: I. No book is a pencil. II. Some pencils are not books.
 
 **Answer:** (B) केवल II अनुसरण करता है
 **Solution:** Pen ⊆ Pencil. Book and Pen disjoint. Book could overlap Pencil? Yes, book can have a region outside pen but inside pencil. So I false. II: Since all pens are pencils and no book is pen, the pen-pencil region is separate from book, so there exist pencils (at least the pen part) that are not books. True.
-**Source:** SSC CGL 2022
+**Source:PYQ-style
 
 ---
 
@@ -176,7 +176,7 @@ Conclusions: I. Some actors are dancers. II. All dancers are singers.
 
 **Answer:** (A) केवल I अनुसरण करता है
 **Solution:** Some actors are singers, all singers are dancers → those actors are dancers. I true. II is converse of "All singers are dancers", not necessarily true.
-**Source:** IBPS Clerk 2019
+**Source:PYQ-style
 
 ---
 
@@ -191,7 +191,7 @@ Conclusions: I. No mango is a vegetable. II. Some vegetables are mangoes.
 
 **Answer:** (A) केवल I अनुसरण करता है
 **Solution:** Mango ⊆ Fruit, Fruit and Vegetable disjoint → Mango ∩ Vegetable = ∅. So I true. II false.
-**Source:** RRB Group D 2018
+**Source:PYQ-style
 
 ---
 
@@ -206,7 +206,7 @@ Conclusions: I. Some cats are rats. II. No cat is a bat.
 
 **Answer:** (A) केवल I अनुसरण करता है
 **Solution:** I: Some cats are dogs, all dogs are rats → some cats are rats. True. II: Cats could overlap bats if the part of cats outside dogs and rats touches bats. No restriction. So II not definite.
-**Source:** SSC CHSL 2023
+**Source:PYQ-style
 
 ---
 
@@ -219,7 +219,7 @@ Which Venn diagram represents the sets: *College, Principal, Students*?
 
 **Answer:** (B) एक बड़ा वृत्त (College) जिसमें दो छोटे वृत्त (Principal और Students) आपस में न काटते हों
 **Solution:** Both principal and students are part of a college, and they are disjoint (principal is not a student).
-**Source:** SSC CGL 2019
+**Source:PYQ-style
 
 ---
 
@@ -232,7 +232,7 @@ Choose the diagram for *Furniture, Chair, Table*।
 
 **Answer:** (B) एक बड़े वृत्त (Furniture) में दो छोटे वृत्त (Chair और Table) जो आपस में न काटते हों
 **Solution:** Chair and Table are distinct types of furniture. So subset relation with no intersection.
-**Source:** IBPS PO 2017
+**Source:PYQ-style
 
 ---
 
@@ -245,7 +245,7 @@ Which option fits the words *Car, Vehicle, Petrol*?
 
 **Answer:** (B) एक बड़ा वृत्त (Vehicle) जिसमें Car, और Petrol अलग वृत्त
 **Solution:** Car ⊆ Vehicle. Petrol is a fuel, not a type of vehicle, so it's a disjoint set.
-**Source:** SSC CGL 2018
+**Source:PYQ-style
 
 ---
 
@@ -271,7 +271,7 @@ If 'only A'=5, 'only B'=7, 'only C'=9, 'A and B only'=3, 'B and C only'=4, 'A an
 
 **Answer:** (A) 11
 **Solution:** Total in A = only A + (A∩B only) + (A∩C only) + (all three) = 5+3+2+1 = 11.
-**Source:** RRB NTPC 2020
+**Source:PYQ-style
 
 ---
 
@@ -285,7 +285,7 @@ Which Venn diagram correctly shows the relationship among *Paper, Book, Printer*
 **Answer:** (C) 'Paper' अंदर 'Book', 'Printer' अलग
 **Solution:** Paper is a constituent of book; printer is a device, not a subclass of book or paper. Printer is separate. Option (A) is tempting due to association.
 **Trap:** Hidden double relationship – association vs membership.
-**Source:** SSC CGL 2022
+**Source:PYQ-style
 
 ---
 
@@ -301,7 +301,7 @@ Conclusions: I. Some pencils are not erasers. II. All pencils being pens is a po
 **Answer:** (C) दोनों अनुसरण करते हैं
 **Solution:** I: The pencils that are pens are not erasers, so some pencils are not erasers. True. II: "All pencils are pens" is possible because "some" does not restrict the remaining pencils; they could all be pens. So II follows.
 **Trap:** Misconception that "some" implies "not all".
-**Source:** IBPS PO 2023
+**Source:PYQ-style
 
 ---
 
@@ -314,7 +314,7 @@ Study the diagram: Triangle = Players, Square = Graduates, Circle = Indians. Num
 
 **Answer:** (B) 18
 **Solution:** Either players or graduates but not Indians = only Players (8) + only Graduates (6) + (Players & Graduates only) (4) = 18. (Indians regions excluded.)
-**Source:** SSC CGL 2024
+**Source:PYQ-style
 
 ---
 
@@ -327,7 +327,7 @@ Which Venn diagram best represents *Males, Brothers, Sisters*?
 
 **Answer:** (B) एक बड़ा वृत्त 'Males' जिसमें 'Brothers', और 'Sisters' अलग वृत्त
 **Solution:** All brothers are males. Sisters are females, so not part of Males. So Brothers ⊆ Males, Sisters separate. Option (D) wrongly puts sisters inside males.
-**Source:** SSC CHSL 2021
+**Source:PYQ-style
 
 ---
 
@@ -342,4 +342,4 @@ Conclusions: I. Some windows are roofs. II. No window is a wall.
 
 **Answer:** (B) केवल II अनुसरण करता है
 **Solution:** Windows ⊆ Doors, Doors ∩ Walls = ∅ → Windows ∩ Walls = ∅. II true. Walls and Roofs overlap partially. Windows inside Doors, disjoint from Walls, so may not intersect Roofs. I not definite.
-**Source:** IBPS Clerk 2022
+**Source:PYQ-style

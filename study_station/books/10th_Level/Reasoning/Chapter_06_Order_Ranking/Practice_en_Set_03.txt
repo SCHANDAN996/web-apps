@@ -16,7 +16,7 @@ Case 1 – Ankit left of Sumit: Total = Left + Right + Between = 12 + 18 + 8 = 3
 Case 2 – Sumit left of Ankit: Total = Left + Right – Between – 2 = 12 + 18 – 8 – 2 = 20.
 Both are possible because the relative order is not given.
 
-Source: IBPS PO Prelims 2020
+Source: PYQ-style
 
 52. In a queue of 50 people, Rohit is 15th from the front. Soham is 20th from the back. How many people are there between them?
 
@@ -31,7 +31,7 @@ Solution:
 Soham’s position from front = 50 – 20 + 1 = 31st.
 Rohit at 15th. Between = 31 – 15 – 1 = 15.
 
-Source: SSC CGL 2021
+Source: PYQ-style
 
 53. In a row, P is 21st from the left and Q is 27th from the right. They interchange positions. Now P is 33rd from the left. What is the total number of persons in the row?
 
@@ -47,7 +47,7 @@ After interchange, P’s new left = 33 = Q’s original left.
 Q’s original right = 27.
 Total = 33 + 27 – 1 = 59.
 
-Source: SBI Clerk Mains 2021
+Source: PYQ-style
 
 54. In a class, A’s rank from top is 17th and from bottom is 23rd. B’s rank from top is 28th. How many students are there between A and B?
 
@@ -65,7 +65,7 @@ Between = 28 – 17 – 1 = 10? Wait: B=28, A=17, between = 28 – 17 – 1 = 10
 
 Revised: A top=17, bottom=23, B top=27. Between=9.
 
-Source: SSC CHSL 2022
+Source: PYQ-style
 
 55. In a row of boys, Ravi is 9th from left and 17th from right. How many boys should leave the row so that the total becomes 20?
 
@@ -80,7 +80,7 @@ Solution:
 Current total = 9 + 17 – 1 = 25.
 Required total = 20 → boys to leave = 25 – 20 = 5.
 
-Source: RRB Group D 2020
+Source: PYQ-style
 
 56. In a row, A is 14th from the left and B is 16th from the right. C is exactly between A and B. If C is 10th from the right, what is the total number of persons?
 
@@ -113,7 +113,7 @@ Answer: (b) 33
 Solution:
 X left of Y by 7 positions. Y right=12 → Y left = T – 11. X left=15. X is 7 left of Y → Y left = 15 + 7 + 1 = 23? Actually, if X is 7th to the left of Y, then Y left = X left + 7? No, "7th to the left" means there are 6 persons between them. So Y left = X left + 6 + 1 = X left + 7. So Y left = 15 + 7 = 22. Thus 22 = T – 11 → T = 33.
 
-Source: SSC CGL 2019
+Source: PYQ-style
 
 58. In a class of 60 students, A is 13th from top. B is 28th from bottom. They interchange. What is A’s new position from bottom?
 
@@ -129,7 +129,7 @@ When they interchange, A takes B’s original place. B was 28th from bottom, so 
 
 Psychological Trap (⚠️): Students start calculating using total and ranks, but the direct logic is: after interchange, the position from an end for the person moving to another's spot equals the original rank of the other person from that end.
 
-Source: IBPS Clerk 2020
+Source: PYQ-style
 
 59. In a row of 45 persons, A is 17th from left. B is 19th from right. C is exactly in the middle of A and B. What is C’s position from left?
 
@@ -145,7 +145,7 @@ B from left = 45 – 19 + 1 = 27.
 A left=17, B left=27. Persons between = 27-17-1=9.
 C exactly in middle → persons between A and C = 4 (since 9 is odd? 9, middle means unequal? "Exactly in middle" usually means equal number of persons on either side. 9 between can't split equally. So maybe they mean C is the middle position among the three, i.e., C's position = (17+27)/2 = 22. So C left = 22. That yields between A & C = 4, C & B = 4? Actually A=17, C=22, between=4; C=22, B=27, between=4. Yes, total between A&B=4+1+4=9? Wait, A to B persons between = 27-17-1=9. The split: A to C persons=22-17-1=4; C to B persons=27-22-1=4. So indeed 4+4=8, plus C is 1, total 9. So C is not exactly dividing the gap into two equal halves? It does: 4 and 4, with C in between. So C is exactly between A and B. So answer 22.
 
-Source: RRB NTPC 2021
+Source: PYQ-style
 
 60. In a row, Mohan is 8th from the left. After shifting 3 places to his right, he becomes 11th from the left. What was his original position from the right? (Total persons unknown)
 
@@ -161,7 +161,7 @@ After shifting 3 right, new left = 11 → original left = 11 – 3 = 8, which ma
 
 Psychological Trap (⚠️): Students try to assume total from shifted position, but shifting changes left rank but total remains same. Without total, right rank unknown.
 
-Source: SSC MTS 2020
+Source: PYQ-style
 
 61. In a queue, A is 14th from the front and B is 10th from the back. C is exactly between A and B, with 6 persons between C and B. If A is ahead of B, what is the total number of persons?
 
@@ -178,7 +178,7 @@ A front=14, so C front = 14 + 6 + 1 = 21.
 B front = 21 + 6 + 1 = 28.
 B back=10 → total = 28 + 10 – 1 = 37.
 
-Source: SBI PO 2021
+Source: PYQ-style
 
 62. In a row of girls, A is 11th from the left and B is 13th from the right. If they interchange, A becomes 15th from the left. What is B’s new position from the right?
 
@@ -193,7 +193,7 @@ Solution:
 A new left=15 = B original left. B original right=13 → total = 15+13-1=27.
 After swap, B takes A’s original left=11. B’s new right = 27-11+1=17.
 
-Source: IBPS RRB PO 2020
+Source: PYQ-style
 
 63. In a class, Ritika is 24th from top and 31st from bottom. How many students are there in the class?
 
@@ -207,7 +207,7 @@ Answer: (b) 54
 Solution:
 Total = 24 + 31 – 1 = 54.
 
-Source: SSC CGL 2018
+Source: PYQ-style
 
 64. In a row of 50 children, A is 10th from the left. B is 12th from the right. C is seated exactly between A and B. What is C’s position from the right?
 
@@ -225,7 +225,7 @@ C exactly middle: persons between A & C = 28/2 = 14.
 C left = 10 + 14 + 1 = 25.
 C right = 50 – 25 + 1 = 26.
 
-Source: RRB Group D 2021
+Source: PYQ-style
 
 65. In a row, P is 16th from the right and Q is 24th from the left. If they interchange, Q becomes 30th from the right. What is the total number of persons?
 
@@ -241,7 +241,7 @@ After interchange, Q’s new right = 30 = P’s original right? No, Q takes P’
 
 Revised Q65: P is 22nd from right, Q is 24th from left. They interchange, Q becomes 22nd from right. Total = 24+22-1=45. Answer 45.
 
-Source: SBI Clerk 2021
+Source: PYQ-style
 
 66. In a row, A is 13th from the left. B is 9th from the right. If there are exactly 5 persons between A and B, then what is the minimum possible total number of persons in the row?
 
@@ -258,7 +258,7 @@ Using formula: total = left + right – between – 2 = 13 + 9 – 5 – 2 = 15?
 
 Revised Q66: A left=13, B right=9, exactly 3 persons between. Minimum total = 13+9-3-2 = 17.
 
-Source: IBPS PO 2019
+Source: PYQ-style
 
 67. In a row of 35 persons, Rohan is 12th from the left. How many persons are to the right of Rohan?
 
@@ -272,7 +272,7 @@ Answer: (b) 23
 Solution:
 Right of Rohan = Total – left rank = 35 – 12 = 23.
 
-Source: SSC CHSL 2020
+Source: PYQ-style
 
 68. In a class, A is 10th from the top and B is 8th from the bottom. C is 5 ranks below A. If C is 12th from the bottom, what is B’s rank from the top?
 
@@ -304,7 +304,7 @@ G’s new left = 27 = H’s original left? Wait, after interchange, G takes H’
 
 Revised Q69: G right=20, H left=11, after swap G becomes 27th from right. Total=37.
 
-Source: RRB NTPC 2019
+Source: PYQ-style
 
 70. In a row of 40 students, A is 15th from left. B is 10th from right. They interchange. What is A’s new position from left?
 
@@ -318,7 +318,7 @@ Answer: (a) 31st
 Solution:
 B’s left = 40 – 10 + 1 = 31. After interchange, A moves to B’s place, so A’s new left = 31.
 
-Source: SSC CGL 2021
+Source: PYQ-style
 
 71. In a queue, X is 9th from the front and Y is 12th from the back. If there are 7 persons between X and Y, what is the total number of persons? ⚠️ (Examiner’s Trap – two possible totals)
 
@@ -335,7 +335,7 @@ Case 2 – Y ahead of X: total = 9 + 12 – 7 – 2 = 12? 9+12-7-2=12. But 14? I
 
 Revised Q71: X is 10th from front, Y is 12th from back, 6 persons between. Total = 28 or 14.
 
-Source: IBPS Clerk 2022
+Source: PYQ-style
 
 72. In a row, A is 14th from left, B is 11th from right. If they interchange, B becomes 20th from left. What is the new position of A from right?
 
@@ -351,7 +351,7 @@ B’s new left = 20 = A’s original left? No, B goes to A’s spot, so B’s ne
 
 Revised Q72: A left=14, B right=11. After interchange, A becomes 20th from left. B's new position from right? Total = 20+11-1=30. B new left=14, new right=30-14+1=17. Answer (a) 17th.
 
-Source: SSC CGL 2022
+Source: PYQ-style
 
 73. In a row of 48 boys, A is 19th from the left. B is 13th from the right. C is exactly midway between A and B. What is C’s position from the left?
 
@@ -369,7 +369,7 @@ C left = 19+8+1=28? Wait, 19+8+1=28. So (b) 28th. Let's compute: A=19, C=28, bet
 
 Revised Q73: In a row of 47 boys, A is 19th from left, B is 13th from right. C is exactly midway between A and B. C's position from left = 27.
 
-Source: RRB NTPC 2020
+Source: PYQ-style
 
 74. In a row, A is 18th from left and B is 21st from right. When they interchange, A becomes 27th from right. What is the total number of persons?
 
@@ -385,7 +385,7 @@ After interchange, A new right = 27 = B’s original right? No, A takes B’s pl
 
 Revised Q74: A left=18, B right=27. They interchange, A becomes 27th from right. Total = 18+27-1=44.
 
-Source: SBI PO 2020
+Source: PYQ-style
 
 75. In a row of 64 people, A is 25th from left, B is 37th from right. What is the total number of people between A and B? ⚠️ (Examiner’s Trap – off-by-one error in conversion)
 
@@ -401,4 +401,4 @@ B from left = 64 – 37 + 1 = 28. A left=25. Between = 28 – 25 – 1 = 2? Wait
 
 Revised Q75: Row of 64, A 25th left, B 38th right. B left=27, between=1.
 
-Source: SSC CPO 2021
+Source: PYQ-style

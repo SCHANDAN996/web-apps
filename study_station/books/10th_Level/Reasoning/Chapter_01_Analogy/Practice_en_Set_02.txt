@@ -14,7 +14,7 @@ Step 1: A Sculptor uses a Chisel as a primary tool to create.
 Step 2: An Author uses a Pen (or writing instrument) to create. "Book" is the output, not the tool.
 
 Examiner’s Trap: Option (A) Book seems plausible (sculptor makes statue, author makes book), but the relationship is tool-user, not product-creator. The chisel is a tool, so we need a tool.
-Source: SSC CGL 2023
+Source: PYQ-style
 
 Q27. 7 : 50 :: 9 : ?
 (A) 80 (B) 82 (C) 64 (D) 78
@@ -26,7 +26,7 @@ Step 1: 7 × 7 + 1 = 49 + 1 = 50.
 Step 2: 9 × 9 + 1 = 81 + 1 = 82.
 
 Trap: (A) 80 is 9×9-1; (C) 64 is 8²; the pattern is n²+1.
-Source: IBPS PO 2022
+Source: PYQ-style
 
 Q28. ACE : ZXV :: BDF : ?
 (A) YWU (B) YUW (C) WYU (D) UWY
@@ -36,7 +36,7 @@ Solution:
 Step 1: ACE positions: A=1→Z=26, C=3→X=24, E=5→V=22. So each letter is replaced by its opposite (sum 27).
 
 Step 2: B(2)→Y(25), D(4)→W(23), F(6)→U(21) → YWU.
-Source: SSC CHSL 2022
+Source: PYQ-style
 
 Q29. Kohinoor : Diamond :: Titanic : ?
 (A) Ship (B) Iceberg (C) Ocean (D) Luxury
@@ -48,7 +48,7 @@ Step 1: Kohinoor is a famous Diamond (specific famous example of a category).
 Step 2: Titanic is a famous Ship. (Both are famous instances; Titanic is not a category, but a specific ship).
 
 Trap: Option (B) Iceberg is related to Titanic's sinking, but not the category relationship.
-Source: UPSC CSAT 2020
+Source: PYQ-style
 
 Q30. 24 : 60 :: 36 : ?
 (A) 90 (B) 96 (C) 84 (D) 72
@@ -58,7 +58,7 @@ Solution:
 Step 1: 24 × 2.5 = 60. Or 24 × (5/2) = 60.
 
 Step 2: 36 × 2.5 = 90. (Alternatively, both divisible by 12: 24/12=2, 60/12=5 → ratio 2:5; 36/12=3, then 3×?=15? No. Actually 36 is 12*3, so 3*?=15 => ?=5, so 12*5=60? Wait that gives 60 again. Let's use proportion: 24:60 = 2:5, so 36:x => 2/5 = 36/x => x = 90. So consistent.)
-Source: SSC CGL 2021
+Source: PYQ-style
 
 Q31. Sheep : Flock :: Bees : ?
 (A) Swarm (B) Herd (C) Colony (D) School
@@ -68,7 +68,7 @@ Solution:
 Step 1: A group of Sheep is called a Flock.
 
 Step 2: A group of Bees is called a Swarm. "Colony" is also used for bees but refers to the entire hive community, while a swarm is a moving group. However, standard collective noun for bees in flight is swarm. "Colony" would be for ants or bees in a settled group, but the pair is about group names; common exam answer is swarm.
-Source: IBPS Clerk 2021
+Source: PYQ-style
 
 Q32. 0.25 : 0.0625 :: 0.5 : ?
 (A) 0.25 (B) 0.125 (C) 0.025 (D) 0.05
@@ -78,7 +78,7 @@ Solution:
 Step 1: 0.25 squared = 0.0625 (0.25²).
 
 Step 2: 0.5 squared = 0.25.
-Source: RRB NTPC 2019
+Source: PYQ-style
 
 Q33. Candle : Wax :: Tyre : ?
 (A) Rubber (B) Road (C) Wheel (D) Air
@@ -88,7 +88,7 @@ Solution:
 Step 1: Candle is made of Wax (material-product).
 
 Step 2: Tyre is made of Rubber.
-Source: SSC MTS 2020
+Source: PYQ-style
 
 Q34. AB : YZ :: KL : ?
 (A) OP (B) PQ (C) NO (D) XY
@@ -98,7 +98,7 @@ Solution:
 Step 1: AB and YZ: A(1) to Y(25) is 24 positions forward? No, they are opposite pairs: A and Y aren't opposite (A opposite is Z). Wait, AB and YZ: Let's check positions. A=1, Y=25, difference 24; B=2, Z=26, difference 24. So it's +24 shifting? Actually A+24=Y, B+24=Z. So each letter +24.
 
 Step 2: KL: K(11)+24=35 mod 26 = 9 (I)? Not N. Hmm. This might be a different pattern. Let's think again. AB : YZ – maybe the pair is the last two and first two? Or the reverse? Actually, AB are the first two, YZ are the last two letters of the alphabet. So relationship: first two letters → last two letters. KL are 11,12; what are the corresponding last two? The last two from the end would be YZ (25,26) already. If we go by distance from start and end: A and Z are opposites, B and Y are opposites. So AB (1,2) and YZ (25,26) where the sum of positions is 27. So A(1)+Z(26)=27, B(2)+Y(25)=27. So the relationship is opposite letters pairing. For KL: K(11) opposite is 27-11=16 P, L(12) opposite is 27-12=15 O. So pair would be PO, but order? In AB:YZ, AB are in increasing order, YZ are in increasing order? Y=25, Z=26, yes increasing. So KL opposite pair should be increasing order: O(15), P(16) → OP. So answer would be OP. But my earlier guess of NO is wrong. Option (A) is OP. Let's re-evaluate. K opposite is P, L opposite is O. To match the same order, we keep the order of the original letters? AB -> opposite letters ZY? Wait, AB opposite: A->Z, B->Y gives ZY, but the given is YZ, which is the reverse order. So the order reverses. So AB (1,2) opposite letters: Z(26), Y(25) -> ZY, but the answer is YZ which is the reverse order (from last to first?). Actually YZ is 25,26, which is the opposite of AB in reverse order. So pattern: for KL (11,12), opposite letters: P(16), O(15) -> PO, and then reverse order gives OP. So answer OP. So (A) OP. I need to fix my earlier solution. The answer should be OP. But I initially said (C) NO, that was a mistake. Let's correct: Q34: AB : YZ :: KL : ? Options: (A) OP (B) PQ (C) NO (D) XY. Correct answer is (A) OP. I'll adjust in the final output. The trap: reverse order of opposite letters. The step-by-step: A(1) opposite Z(26), B(2) opposite Y(25) → ZY, but the given is YZ (reverse order). So apply to KL: opposite letters are P and O → PO, reverse order gives OP. So OP.
-Source: SSC CGL 2022
+Source: PYQ-style
 
 Q35. Doctor : Stethoscope :: Gardener : ?
 (A) Plants (B) Garden (C) Spade (D) Water
@@ -108,7 +108,7 @@ Solution:
 Step 1: A Doctor uses a Stethoscope as a tool for diagnosis.
 
 Step 2: A Gardener uses a Spade as a tool for digging/planting. Plants are the object of work, not a tool.
-Source: IBPS PO 2021
+Source: PYQ-style
 
 Q36. 121 : 12 :: 169 : ?
 (A) 14 (B) 15 (C) 13 (D) 17
@@ -118,7 +118,7 @@ Solution:
 Step 1: 121 is 11², 12 = 11+1. So pattern: square root + 1.
 
 Step 2: 169 is 13², 13+1 = 14.
-Source: RRB ALP 2020
+Source: PYQ-style
 
 Q37. Rain : Flood :: Wind : ?
 (A) Storm (B) Cyclone (C) Tornado (D) Breeze
@@ -128,7 +128,7 @@ Solution:
 Step 1: Excessive Rain causes Flood (natural disaster).
 
 Step 2: Excessive Wind causes Cyclone (or storm). "Storm" is a generic term; cyclone is a specific intense wind storm. But flood is a specific disaster; cyclone matches better. However, all options are wind-related. The relationship is cause-effect (excess). Rain (excess) → Flood; Wind (excess) → Cyclone.
-Source: SSC CPO 2021
+Source: PYQ-style
 
 Q38. 64 : 8 :: 125 : ?
 (A) 5 (B) 25 (C) 12 (D) 15
@@ -145,7 +145,7 @@ Now Q38: 18 : 30 :: 24 : ?
 Options: (A) 36 (B) 40 (C) 42 (D) 38
 Answer: (A) 36
 Solution: 18 + 12 = 30, so 24 + 12 = 36.
-Source: RRB Group D 2020.
+Source: PYQ-style
 No trap.
 
 So that resolves the issue.
@@ -161,7 +161,7 @@ Step 1: A Poet creates Verses (a structured poetic composition).
 
 Step 2: A Composer creates a Symphony (a structured musical composition).
 Trap: "Notes" might be the raw material, not the finished work.
-Source: SSC CGL 2023
+Source: PYQ-style
 
 Q40. 5 : 126 :: 7 : ?
 (A) 344 (B) 342 (C) 350 (D) 343
@@ -171,7 +171,7 @@ Solution:
 Step 1: 5³ + 1 = 125 + 1 = 126.
 
 Step 2: 7³ + 1 = 343 + 1 = 344.
-Source: IBPS PO 2022
+Source: PYQ-style
 
 Q41. AK : FP :: XC : ?
 (A) YH (B) ZG (C) ZH (D) YG
@@ -192,7 +192,7 @@ Solution:
 Step 1: AB: A(1)→Z(26), B(2)→Y(25) giving ZY, but the given pair is YZ (reversed). So process: opposite letters then reverse order.
 
 Step 2: EF: E(5)→V(22), F(6)→U(21) → VU, reverse → UV.
-Source: SSC CGL 2021
+Source: PYQ-style
 
 Now I need to fill Q41 to Q50 properly. I'll renumber: Q26 to Q50 have 25 questions. After replacing Q38 and Q41, I have good ones.
 
@@ -255,7 +255,7 @@ Step 1: A Sculptor uses a Chisel as a tool to create sculptures.
 Step 2: An Author uses a Pen (writing instrument) as a tool to create written work.
 
 Examiner’s Trap: (A) Book is the output, not the tool. The relationship is tool-user, not product-creator.
-Source: SSC CGL 2023
+Source: PYQ-style
 
 Q27. 7 : 50 :: 9 : ?
 (A) 80 (B) 82 (C) 64 (D) 78
@@ -267,7 +267,7 @@ Step 1: 7 × 7 + 1 = 49 + 1 = 50.
 Step 2: 9 × 9 + 1 = 81 + 1 = 82.
 
 Trap: (A) 80 = 9²-1, (C) 64 = 8². The pattern is n²+1.
-Source: IBPS PO 2022
+Source: PYQ-style
 
 Q28. ACE : ZXV :: BDF : ?
 (A) YWU (B) YUW (C) WYU (D) UWY
@@ -277,7 +277,7 @@ Solution:
 Step 1: Each letter in ACE is replaced by its opposite (sum of positions = 27). A=1→Z(26), C=3→X(24), E=5→V(22) → ZXV.
 
 Step 2: B(2)→Y(25), D(4)→W(23), F(6)→U(21) → YWU.
-Source: SSC CHSL 2022
+Source: PYQ-style
 
 Q29. Kohinoor : Diamond :: Titanic : ?
 (A) Ship (B) Iceberg (C) Ocean (D) Luxury
@@ -287,7 +287,7 @@ Solution:
 Step 1: Kohinoor is a famous Diamond (specific famous instance of a category).
 
 Step 2: Titanic is a famous Ship (specific famous instance of a ship).
-Source: UPSC CSAT 2020
+Source: PYQ-style
 
 Q30. 24 : 60 :: 36 : ?
 (A) 90 (B) 96 (C) 84 (D) 72
@@ -297,7 +297,7 @@ Solution:
 Step 1: 24 × 2.5 = 60 (or 24 × 5/2 = 60).
 
 Step 2: 36 × 2.5 = 90.
-Source: SSC CGL 2021
+Source: PYQ-style
 
 Q31. Sheep : Flock :: Bees : ?
 (A) Swarm (B) Herd (C) Colony (D) School
@@ -307,7 +307,7 @@ Solution:
 Step 1: A group of Sheep is called a Flock.
 
 Step 2: A group of Bees in flight is called a Swarm. “Colony” refers to a settled group of bees/ants, not the moving group.
-Source: IBPS Clerk 2021
+Source: PYQ-style
 
 Q32. 0.25 : 0.0625 :: 0.5 : ?
 (A) 0.25 (B) 0.125 (C) 0.025 (D) 0.05
@@ -317,7 +317,7 @@ Solution:
 Step 1: 0.25² = 0.0625 (square of first number gives second).
 
 Step 2: 0.5² = 0.25.
-Source: RRB NTPC 2019
+Source: PYQ-style
 
 Q33. Candle : Wax :: Tyre : ?
 (A) Rubber (B) Road (C) Wheel (D) Air
@@ -327,7 +327,7 @@ Solution:
 Step 1: Candle is made of Wax (material-product).
 
 Step 2: Tyre is made of Rubber.
-Source: SSC MTS 2020
+Source: PYQ-style
 
 Q34. AB : YZ :: KL : ?
 (A) OP (B) PQ (C) NO (D) XY
@@ -337,7 +337,7 @@ Solution:
 Step 1: AB → opposite letters: A(1)→Z(26), B(2)→Y(25) giving ZY, but the given is YZ (reverse order). So pattern: take opposite letters then reverse the order.
 
 Step 2: KL: K(11)→P(16), L(12)→O(15) → PO, reverse → OP.
-Source: SSC CGL 2022
+Source: PYQ-style
 
 Q35. Doctor : Stethoscope :: Gardener : ?
 (A) Plants (B) Garden (C) Spade (D) Water
@@ -347,7 +347,7 @@ Solution:
 Step 1: A Doctor uses a Stethoscope as a diagnostic tool.
 
 Step 2: A Gardener uses a Spade as a digging/planting tool. (Not the object of work.)
-Source: IBPS PO 2021
+Source: PYQ-style
 
 Q36. 121 : 12 :: 169 : ?
 (A) 14 (B) 15 (C) 13 (D) 17
@@ -357,7 +357,7 @@ Solution:
 Step 1: 121 = 11², and 11 + 1 = 12. So pattern: square root + 1.
 
 Step 2: 169 = 13², 13 + 1 = 14.
-Source: RRB ALP 2020
+Source: PYQ-style
 
 Q37. Rain : Flood :: Wind : ?
 (A) Storm (B) Cyclone (C) Tornado (D) Breeze
@@ -367,7 +367,7 @@ Solution:
 Step 1: Excessive Rain causes Flood (a specific disaster).
 
 Step 2: Excessive Wind causes Cyclone (a specific intense windstorm). “Storm” is generic.
-Source: SSC CPO 2021
+Source: PYQ-style
 
 Q38. 18 : 30 :: 24 : ?
 (A) 36 (B) 40 (C) 42 (D) 38
@@ -377,7 +377,7 @@ Solution:
 Step 1: 18 + 12 = 30.
 
 Step 2: 24 + 12 = 36.
-Source: RRB Group D 2020
+Source: PYQ-style
 
 Q39. Poet : Verses :: Composer : ?
 (A) Symphony (B) Notes (C) Music (D) Lyrics
@@ -389,7 +389,7 @@ Step 1: A Poet creates Verses (a structured poem).
 Step 2: A Composer creates a Symphony (a structured musical composition).
 
 Examiner’s Trap: (B) Notes are the raw elements, not the finished creative work. The relationship is creator-finished product.
-Source: SSC CGL 2023
+Source: PYQ-style
 
 Q40. 5 : 126 :: 7 : ?
 (A) 344 (B) 342 (C) 350 (D) 343
@@ -399,7 +399,7 @@ Solution:
 Step 1: 5³ + 1 = 125 + 1 = 126.
 
 Step 2: 7³ + 1 = 343 + 1 = 344.
-Source: IBPS PO 2022
+Source: PYQ-style
 
 Q41. AB : YZ :: EF : ?
 (A) UV (B) VU (C) TU (D) WX
@@ -409,7 +409,7 @@ Solution:
 Step 1: AB → opposite letters: A→Z, B→Y → ZY, then reversed to YZ.
 
 Step 2: EF → E→V, F→U → VU, reversed → UV.
-Source: SSC CGL 2021
+Source: PYQ-style
 
 Q42. Car : Garage :: Aeroplane : ?
 (A) Hangar (B) Airport (C) Runway (D) Helipad
@@ -419,7 +419,7 @@ Solution:
 Step 1: A Car is parked/sheltered in a Garage.
 
 Step 2: An Aeroplane is parked/sheltered in a Hangar. “Airport” is the entire facility.
-Source: SSC CHSL 2020
+Source: PYQ-style
 
 Q43. 3 : 8 :: 5 : ?
 (A) 24 (B) 26 (C) 15 (D) 10
@@ -429,7 +429,7 @@ Solution:
 Step 1: 3² – 1 = 9 – 1 = 8.
 
 Step 2: 5² – 1 = 25 – 1 = 24.
-Source: SSC MTS 2021
+Source: PYQ-style
 
 Q44. River : Dam :: Traffic : ?
 (A) Signal (B) Policeman (C) Jam (D) Speedbreaker
@@ -439,7 +439,7 @@ Solution:
 Step 1: A Dam regulates/controls the flow of a River.
 
 Step 2: A Signal regulates/controls the flow of Traffic. (A Policeman also controls but is not a permanent device like a dam.)
-Source: IBPS PO 2020
+Source: PYQ-style
 
 Q45. 16 : 4 :: 81 : ?
 (A) 9 (B) 3 (C) 27 (D) 18
@@ -449,7 +449,7 @@ Solution:
 Step 1: √16 = 4 (square root).
 
 Step 2: √81 = 9.
-Source: RRB JE 2020
+Source: PYQ-style
 
 Q46. DEF : GHI :: JKL : ?
 (A) MNO (B) NOP (C) PQR (D) STU
@@ -459,7 +459,7 @@ Solution:
 Step 1: Each letter in DEF is moved forward by 3 positions: D→G, E→H, F→I.
 
 Step 2: J→M, K→N, L→O → MNO.
-Source: RRB ALP 2021
+Source: PYQ-style
 
 Q47. Writer : Pen :: Tailor : ?
 (A) Needle (B) Cloth (C) Scissors (D) Thread
@@ -471,7 +471,7 @@ Step 1: A Writer uses a Pen as the primary instrument for writing.
 Step 2: A Tailor uses a Needle as the primary instrument for stitching. Scissors are for cutting, but needle is to stitching as pen is to writing.
 
 Examiner’s Trap: (C) Scissors is also a tailor’s tool, but the function (joining/creating) matches better with needle.
-Source: SSC GD 2019
+Source: PYQ-style
 
 Q48. 11 : 121 :: 13 : ?
 (A) 169 (B) 156 (C) 144 (D) 196
@@ -481,7 +481,7 @@ Solution:
 Step 1: 11² = 121.
 
 Step 2: 13² = 169.
-Source: SSC CGL 2019
+Source: PYQ-style
 
 Q49. Eye : See :: Ear : ?
 (A) Hear (B) Listen (C) Sound (D) Deaf
@@ -491,7 +491,7 @@ Solution:
 Step 1: The function of an Eye is to See.
 
 Step 2: The function of an Ear is to Hear. “Listen” implies conscious effort; the organ’s natural function is hearing.
-Source: IBPS Clerk 2018
+Source: PYQ-style
 
 Q50. 25 : 36 :: 49 : ?
 (A) 64 (B) 81 (C) 100 (D) 121
@@ -501,4 +501,4 @@ Solution:
 Step 1: 25 = 5², 36 = 6². So consecutive squares.
 
 Step 2: 49 = 7², next square = 8² = 64.
-Source: SSC CGL 2019
+Source: PYQ-style

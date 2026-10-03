@@ -14,7 +14,7 @@ Which of the following Venn diagrams best represents the relationship among: *Sp
 
 **Answer:** (A) गौरैया पक्षी के अंदर, शुतुरमुर्ग पक्षी के अंदर, दोनों एक-दूसरे को न काटते हुए
 **Solution:** Both sparrow and ostrich are distinct types of birds. They are subsets of Bird and mutually exclusive. So one large circle ‘Bird’ containing two separate smaller circles.
-**Source:** SSC MTS 2020
+**Source:PYQ-style
 
 ---
 
@@ -27,7 +27,7 @@ Choose the Venn diagram that correctly depicts: *Painter, Artist, Musician*।
 
 **Answer:** (D) तीनों एक-दूसरे को काटते हुए
 **Solution:** All painters and musicians are artists. A painter can also be a musician. So the three sets mutually overlap.
-**Source:** IBPS Clerk 2021
+**Source:PYQ-style
 
 ---
 
@@ -40,7 +40,7 @@ In a group of 180 people, 100 like tea, 80 like coffee, 40 like both. How many l
 
 **Answer:** (B) 40
 **Solution:** n(T ∪ C) = 100 + 80 – 40 = 140. Neither = 180 – 140 = 40.
-**Source:** RRB Group D 2022
+**Source:PYQ-style
 
 ---
 
@@ -53,7 +53,7 @@ In the given Venn diagram, circle P = Professor, circle Q = Researcher, circle R
 
 **Answer:** (A) 19
 **Solution:** Professors not researchers = only P + (P∩R only) = 14 + 5 = 19. (All three includes researchers, so excluded.)
-**Source:** SSC CGL 2021
+**Source:PYQ-style
 
 ---
 
@@ -67,7 +67,7 @@ Which Venn diagram represents the relationship among *Fan, Table Fan, Ceiling Fa
 **Answer:** (C) टेबल फैन और सीलिंग फैन पंखा के अंदर, आपस में न काटते हुए
 **Solution:** Table fan and ceiling fan are distinct types of fans; they are subclasses of Fan but mutually exclusive. So two disjoint circles inside a larger ‘Fan’ circle.
 **Trap:** Many assume that two subcategories of a class must overlap, but here they are separate product types.
-**Source:** SSC CHSL 2019
+**Source:PYQ-style
 
 ---
 
@@ -82,7 +82,7 @@ Conclusions: I. Some actors are singers. II. Some dancers are not painters.
 
 **Answer:** (C) दोनों अनुसरण करते हैं
 **Solution:** I: Some actors are dancers, all dancers are singers → those actors are singers. True. II: All dancers are singers, singers and painters disjoint → no dancer is a painter, so some dancers are not painters (in fact all). True.
-**Source:** IBPS PO 2022
+**Source:PYQ-style
 
 ---
 
@@ -95,7 +95,7 @@ In the given Venn diagram, triangle = Engineers, rectangle = Managers, circle = 
 
 **Answer:** (A) 13
 **Solution:** Neither engineers nor managers = only PG (since that region is outside both engineer and manager sets) = 13.
-**Source:** SSC CGL 2022
+**Source:PYQ-style
 
 ---
 
@@ -108,7 +108,7 @@ Which Venn diagram fits *Fruits, Vegetables, Potatoes*?
 
 **Answer:** (A) आलू सब्जियों के अंदर, फल अलग
 **Solution:** Potato is a vegetable. Fruits and vegetables are distinct biological categories (disjoint in exam logic). So Potato inside Vegetables, Fruits separate.
-**Source:** SSC MTS 2019
+**Source:PYQ-style
 
 ---
 
@@ -123,7 +123,7 @@ Conclusions: I. Some books are words. II. Some pages are not letters.
 
 **Answer:** (B) केवल II अनुसरण करता है
 **Solution:** Books ⊆ Pages. Some pages are words, but books may not overlap words. I not definite. II: Pages that are words are not letters, so some pages are not letters. True.
-**Source:** SSC CGL 2020
+**Source:PYQ-style
 
 ---
 
@@ -136,7 +136,7 @@ In a group of 250 people, 140 can drive, 110 can swim, 60 can do both. How many 
 
 **Answer:** (C) 60
 **Solution:** n(D ∪ S) = 140 + 110 – 60 = 190. Neither = 250 – 190 = 60.
-**Source:** RRB NTPC 2021
+**Source:PYQ-style
 
 ---
 
@@ -150,7 +150,7 @@ Select the Venn diagram that represents the relationship among *Car, Steering, T
 **Answer:** (A) स्टीयरिंग और टायर कार के अंदर, आपस में न काटते हुए
 **Solution:** Steering and tyre are distinct parts of a car; both are subsets of Car and are disjoint classes.
 **Trap:** Many think tyre is separate from car or overlaps with steering, but they are components of the car.
-**Source:** SSC CGL 2018
+**Source:PYQ-style
 
 ---
 
@@ -165,7 +165,7 @@ Conclusions: I. Some shirts are fabric. II. Some synthetic is cotton.
 
 **Answer:** (A) केवल I अनुसरण करता है
 **Solution:** I: Some shirts are cotton, all cotton is fabric → those shirts are fabric. True. II: Synthetic fabric may not be cotton; overlap not forced. False.
-**Source:** IBPS Clerk 2022
+**Source:PYQ-style
 
 ---
 
@@ -178,7 +178,7 @@ Which Venn diagram correctly shows *Mango, Fruit, Sweet*?
 
 **Answer:** (A) आम फल के अंदर, मीठा फल को काटता हुआ
 **Solution:** All mangoes are fruits. Sweet is a taste; some fruits are sweet, some not. So Sweet partially overlaps Fruit.
-**Source:** SSC CHSL 2020
+**Source:PYQ-style
 
 ---
 
@@ -191,7 +191,7 @@ In the given figure, circle A = Males, circle B = Employed, circle C = Urban. Nu
 
 **Answer:** (A) 5
 **Solution:** Employed urban males = A ∩ B ∩ C = all three region = 5.
-**Source:** SSC CGL 2023
+**Source:PYQ-style
 
 ---
 
@@ -206,7 +206,7 @@ Conclusions: I. Some buses are electric. II. No bus is diesel.
 
 **Answer:** (D) कोई भी अनुसरण नहीं करता
 **Solution:** Buses ⊆ Vehicles. Some vehicles electric, but buses may be entirely non-electric. I false. II: Buses could be diesel if they are not electric; no prohibition. So false.
-**Source:** IBPS PO 2020
+**Source:PYQ-style
 
 ---
 
@@ -219,7 +219,7 @@ Which option best represents *Crow, Bird, Tree*?
 
 **Answer:** (A) कौआ पक्षी के अंदर, पेड़ अलग
 **Solution:** All crows are birds. Tree is a distinct class, not a subclass of bird. So Crow inside Bird, Tree separate.
-**Source:** SSC MTS 2021
+**Source:PYQ-style
 
 ---
 
@@ -232,7 +232,7 @@ In a school, 65% students play cricket, 55% play hockey, 30% play both. What per
 
 **Answer:** (A) 90%
 **Solution:** n(C ∪ H) = 65 + 55 – 30 = 90%.
-**Source:** RRB Group D 2023
+**Source:PYQ-style
 
 ---
 
@@ -246,7 +246,7 @@ Which Venn diagram shows *Doctor, Engineer, Profession*?
 **Answer:** (A) डॉक्टर और इंजीनियर व्यवसाय के अंदर, आपस में न काटते हुए
 **Solution:** Both doctor and engineer are professions. So they are subsets of Profession and distinct. Thus two disjoint circles inside Profession.
 **Trap:** Some might think engineer is not a profession or that only doctor is a profession.
-**Source:** SSC CGL 2021
+**Source:PYQ-style
 
 ---
 
@@ -261,7 +261,7 @@ Conclusions: I. Some pens are dark. II. Some pens are not light.
 
 **Answer:** (C) दोनों अनुसरण करते हैं
 **Solution:** I: Some pens are blue, all blue are dark → those pens are dark. True. II: Those dark pens are not light. So some pens are not light. True.
-**Source:** IBPS Clerk 2023
+**Source:PYQ-style
 
 ---
 
@@ -274,7 +274,7 @@ In the Venn diagram, circle X = Married, circle Y = Employed, circle Z = Educate
 
 **Answer:** (A) 10
 **Solution:** Married but not educated = only X (6) + (X∩Y only) (4) = 10. (X∩Z only and all three include educated, so excluded.)
-**Source:** SSC CGL 2020
+**Source:PYQ-style
 
 ---
 
@@ -287,7 +287,7 @@ Choose the diagram for *Milk, Water, Liquid*।
 
 **Answer:** (A) दूध और पानी तरल के अंदर, आपस में न काटते हुए
 **Solution:** Milk and water are both liquids, but they are distinct substances; so they are disjoint subsets of Liquid.
-**Source:** SSC CHSL 2022
+**Source:PYQ-style
 
 ---
 
@@ -302,7 +302,7 @@ Conclusions: I. Some wickets are not balls. II. No bat is a stump.
 
 **Answer:** (C) दोनों अनुसरण करते हैं
 **Solution:** II: Bat ⊆ Ball, Ball ∩ Stump = ∅ → Bat ∩ Stump = ∅. True. I: Some stumps are wickets, stumps are not balls → those wickets are not balls. True.
-**Source:** SSC CGL 2019
+**Source:PYQ-style
 
 ---
 
@@ -315,7 +315,7 @@ In a college, 300 students study Maths, 250 study Physics, 150 study both. Total
 
 **Answer:** (B) 100
 **Solution:** n(M ∪ P) = 300+250-150 = 400. Neither = 500-400 = 100.
-**Source:** RRB NTPC 2022
+**Source:PYQ-style
 
 ---
 
@@ -328,7 +328,7 @@ Which Venn diagram represents *Keyboard, Monitor, Computer*?
 
 **Answer:** (A) कीबोर्ड और मॉनिटर कंप्यूटर के अंदर, आपस में न काटते हुए
 **Solution:** Keyboard and monitor are parts/components of a computer. In class logic, they are distinct subsets of Computer.
-**Source:** SSC CGL 2017
+**Source:PYQ-style
 
 ---
 
@@ -344,4 +344,4 @@ Conclusions: I. No teacher is a student. II. Some athletes are not graduates.
 **Answer:** (C) दोनों अनुसरण करते हैं
 **Solution:** I: Teacher ⊆ Graduate, Graduate ∩ Student = ∅ → Teacher ∩ Student = ∅. True. II: Some students are athletes, and students are not graduates (since no graduate is student). So those athletes (who are students) are not graduates. Hence some athletes are not graduates. True.
 **Trap:** The possibility that athletes could also be graduates might confuse, but the existence of student-athletes forces some athletes to be non-graduates.
-**Source:** IBPS PO 2021
+**Source:PYQ-style

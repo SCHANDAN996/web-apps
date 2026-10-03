@@ -2,7 +2,7 @@ In a right-angled triangle, the hypotenuse is 25 cm and the inradius is 3 cm. Th
 (A) 84 cm² (B) 150 cm² (C) 168 cm² (D) 180 cm²
 Answer: (C) 168 cm²
 Solution: For a right triangle, inradius r = (a + b – c)/2, where c is hypotenuse. So a + b – 25 = 6 ⇒ a + b = 31. Also a² + b² = 625. (a+b)² – 2ab = 625 ⇒ 961 – 2ab = 625 ⇒ 2ab = 336 ⇒ ab = 168. Area = ½ab = 84 cm²? Wait, area = ½ab = 84. But answer options have 84. Check: r = area/s, s = (a+b+c)/2 = (31+25)/2 = 28. Area = r × s = 3 × 28 = 84 cm². So answer (A) 84 cm². I'll correct. Options: (A) 84, (B) 150, (C) 168, (D) 180. So answer (A).
-Source: NCERT Class 10 / SSC CGL Tier-II 2018
+Source: PYQ-style
 
 Two circles of radii 4 cm and 3 cm are separated by a distance of 5 cm between their centres. The length of the transverse common tangent is:
 (A) √24 cm (B) √12 cm (C) √48 cm (D) 6 cm
@@ -12,7 +12,7 @@ Question: Two circles of radii 6 cm and 2 cm have their centres 10 cm apart. The
 (A) 6 cm (B) 8 cm (C) 10 cm (D) 12 cm
 Answer: (A) 6 cm
 Solution: Length = √[d² – (r₁ + r₂)²] = √[100 – 64] = √36 = 6 cm.
-Source: NCERT Class 10 / SSC CPO 2018
+Source: PYQ-style
 
 A solid cone of height 9 cm with base radius 6 cm is melted and recast into a solid sphere. The radius of the sphere is:
 (A) 3 cm (B) 6 cm (C) 4.5 cm (D) 9 cm
@@ -22,13 +22,13 @@ Question: A solid cone of base radius 6 cm and height 3 cm is melted and recast 
 (A) 3 cm (B) 6 cm (C) 4 cm (D) 5 cm
 Answer: (A) 3 cm
 Solution: Volume of cone = ⅓π×36×3 = 36π cm³. Volume of sphere = ⁴⁄₃πR³ = 36π ⇒ R³ = 27 ⇒ R = 3 cm.
-Source: NCERT Class 10 / SSC CGL 2019
+Source: PYQ-style
 
 The sum of the interior angles of a polygon is 1800°. The number of diagonals of the polygon is:
 (A) 44 (B) 54 (C) 65 (D) 77
 Answer: (A) 44? Let's compute: (n-2)×180 = 1800 ⇒ n-2 = 10 ⇒ n = 12. Number of diagonals = n(n-3)/2 = 12×9/2 = 54. So (B) 54.
 Solution: n = 12, diagonals = 54. So answer (B). I'll set options accordingly: (A) 44, (B) 54, (C) 65, (D) 77. Answer (B).
-Source: NCERT Class 8 / SSC CGL 2020
+Source: PYQ-style
 
 A circle and a square have equal perimeters. If the area of the circle is 154 cm², the area of the square is (π = 22/7):
 (A) 121 cm² (B) 144 cm² (C) 169 cm² (D) 196 cm²
@@ -53,7 +53,7 @@ Question: A solid cylinder of base radius 6 cm and height 14 cm is melted and re
 (A) 56 cm (B) 84 cm (C) 112 cm (D) 168 cm
 Answer: (D) 168 cm
 Solution: Volume cylinder = π×6²×14 = 504π. Cone volume = ⅓π×3²×h = 3πh. 3πh = 504π ⇒ h = 168 cm.
-Source: SSC CGL 2016
+Source: PYQ-style
 
 The ratio of the length of a rectangle to its breadth is 5:3. If the perimeter of the rectangle is equal to the perimeter of a square of side 40 cm, the area of the rectangle is:
 (A) 600 cm² (B) 750 cm² (C) 937.5 cm² (D) 1500 cm²
@@ -67,7 +67,7 @@ Question: A solid hemisphere of radius 6 cm is melted and recast into a right ci
 (A) 3 cm (B) 6 cm (C) 9 cm (D) 12 cm
 Answer: (B) 6 cm
 Solution: Volume hemisphere = ⅔πr³ = ⅔π×216 = 144π. Cone volume = ⅓πR²h = ⅓πR²×12 = 4πR². Equate: 4πR² = 144π ⇒ R² = 36 ⇒ R = 6 cm.
-Source: NCERT Class 10 / SSC CGL 2018
+Source: PYQ-style
 
 A square and an equilateral triangle have equal perimeters. If the side of the square is 9 cm, the area of the triangle is:
 (A) 27√3 cm² (B) 36√3 cm² (C) 48√3 cm² (D) 54√3 cm²
@@ -77,7 +77,7 @@ Solution: side triangle = 36/3=12, area=36√3. Answer (B). It's medium.
 In a trapezium ABCD, AB || CD, AB = 20 cm, CD = 14 cm, and the non-parallel sides are 5 cm each. The area of the trapezium is:
 (A) 68 cm² (B) 72 cm² (C) 85 cm² (D) 102 cm²
 Answer: (A) 68 cm²? We need height. Drop perpendiculars from C,D to AB, forming a symmetric isosceles trapezium. The difference of parallel sides = 6 cm, so each base segment of the right triangles = 3 cm. Height = √(5² – 3²) = 4 cm. Area = ½ × (20+14) × 4 = 68 cm². Yes. So answer (A) 68 cm².
-Source: NCERT Class 8 / SSC CHSL 2018
+Source: PYQ-style
 
 A chord of a circle of radius 10 cm subtends an angle of 120° at the centre. The area of the corresponding minor segment is (π = 3.14):
 (A) 50.33 cm² (B) 40 cm² (C) 61.33 cm² (D) 80 cm²
@@ -88,7 +88,7 @@ Source: NCERT Class 10
 The distance between the centres of two circles of radii 5 cm and 3 cm is 10 cm. The length of the direct common tangent is:
 (A) 4√6 cm (B) 8 cm (C) √84 cm (D) 12 cm
 Answer: (A) 4√6 cm? Compute: d=10, r1-r2=2, direct = √(100-4)=√96=4√6. So answer (A) 4√6 cm. I'll set options as (A) 4√6 cm, (B) 8 cm, (C) 10 cm, (D) 12 cm.
-Source: SSC CGL Tier-II 2017
+Source: PYQ-style
 
 A cone and a hemisphere have equal base radii and equal volumes. The ratio of the height of the cone to the radius of the hemisphere is:
 (A) 2:1 (B) 1:2 (C) 3:2 (D) 2:3
@@ -98,7 +98,7 @@ Source: NCERT Class 10
 A circle is inscribed in an equilateral triangle of side 12 cm. The area of the inscribed circle is (π = 3.14):
 (A) 37.68 cm² (B) 113.04 cm² (C) 75.36 cm² (D) 150.72 cm²
 Answer: (A) 37.68 cm²? Inradius of equilateral triangle = a/(2√3) = 12/(2√3) = 2√3 cm ≈ 3.464 cm. Area = πr² = 3.14 × 12 ≈ 37.68 cm². Yes. So (A).
-Source: NCERT Class 10 / SSC CGL 2019
+Source: PYQ-style
 
 The volumes of two cones are in the ratio 1:4 and their heights are in the ratio 2:1. The ratio of their base radii is:
 (A) 1:√2 (B) 1:2 (C) 1:4 (D) √2:1
@@ -135,12 +135,12 @@ Question: A solid cylinder of base radius 6 cm and height 14 cm is melted and re
 (A) 6√2 cm (B) 12 cm (C) 6√3 cm (D) 18 cm
 Answer: (A) 6√2 cm
 Solution: Volume cylinder = π×36×14 = 504π. Cone volume = ⅓πR²×21 = 7πR². Equate: 7πR² = 504π ⇒ R² = 72 ⇒ R = √72 = 6√2 cm.
-Source: SSC CGL 2017
+Source: PYQ-style
 
 In a right circular cone, the slant height is 13 cm and the total surface area is 90π cm². The base radius is:
 (A) 5 cm (B) 6 cm (C) 9 cm (D) 10 cm
 Answer: (A) 5 cm. TSA = πr(l+r) = πr(13+r) = 90π ⇒ r(13+r) = 90 ⇒ r² + 13r - 90 = 0 ⇒ (r+18)(r-5)=0 ⇒ r=5. Yes.
-Source: NCERT Class 10 / SSC CHSL 2019
+Source: PYQ-style
 
 A sphere of radius 9 cm is melted and drawn into a wire of radius 3 mm. The length of the wire is:
 (A) 108 m (B) 216 m (C) 324 m (D) 432 m
@@ -159,7 +159,7 @@ Source: NCERT Class 10
 The perimeter of a rhombus is 40 cm and one of its diagonals is 16 cm. The area of the rhombus is:
 (A) 96 cm² (B) 80 cm² (C) 48 cm² (D) 64 cm²
 Answer: (A) 96 cm². Side = 10 cm. Half diagonals: one is 8 cm. Other half = √(10²-8²)=6 cm. Diagonals: 16 and 12. Area = ½×16×12=96. Yes.
-Source: NCERT Class 8 / SSC CHSL 2017
+Source: PYQ-style
 
 A right triangle with legs 7 cm and 24 cm is revolved about its hypotenuse. The volume of the solid generated is (π = 22/7):
 (A) 2587.2 cm³ (B) 3696 cm³ (C) 1232 cm³ (D) 1848 cm³
@@ -173,7 +173,7 @@ Question: Two parallel chords on the same side of the centre of a circle are 6 c
 (A) 5 cm (B) 6 cm (C) 7 cm (D) 8 cm
 Answer: (A) 5 cm
 Solution: Let distances from centre be d₁=√(r²-9), d₂=√(r²-16). Since chords on same side, d₁ - d₂ = 1. Check r=5 gives d₁=4, d₂=3, difference 1. So radius=5.
-Source: NCERT Class 9 / SSC CGL Tier-II 2019
+Source: PYQ-style
 
 A solid consists of a cylinder with a hemisphere stuck at one end and a cone at the other end. The common radius is 7 cm, cylinder height 20 cm, cone height 12 cm. The total volume is (π = 22/7):
 (A) 3080 cm³ (B) 4004 cm³ (C) 5544 cm³ (D) 6160 cm³
@@ -187,7 +187,7 @@ Question: From a point P outside a circle, secant PAB intersects the circle at A
 (A) 5 cm (B) 6 cm (C) 7 cm (D) 9 cm
 Answer: (A) 5 cm
 Solution: PA × PB = PC × PD. PB = PA+AB=12. So 3×12=36=4×PD ⇒ PD=9. CD = PD-PC=5 cm.
-Source: NCERT Class 10 / SSC CGL 2017
+Source: PYQ-style
 
 The perpendicular distance from the origin to the line 3x+4y = 10 is: That's coordinate geometry, but the chapter is pure geometry. So not. I'll stick to pure.
 
@@ -201,7 +201,7 @@ Question: The sum of the squares of the sides of a rhombus is 1600 cm² and one 
 (A) 200√3 cm² (B) 300 cm² (C) 400 cm² (D) 500 cm²
 Answer: (A) 200√3 cm²
 Solution: 4a²=1600 ⇒ a=20 cm. Half diagonal = 10 cm, half other = √(20²-10²)=10√3 cm. Area = ½×(20)×(20√3)=200√3 cm².
-Source: SSC CGL 2016
+Source: PYQ-style
 
 Now I have enough. I'll list 126-150 with all detailed.
 
@@ -281,7 +281,7 @@ cm
 =r×s=3×28=84cm
 2
 .
-Source: NCERT Class 10 / SSC CGL Tier‑II 2018
+Source: PYQ-style
 
 Two circles of radii 6 cm and 2 cm have their centres 10 cm apart. The length of the transverse common tangent is:
 (A) 6 cm (B) 8 cm (C) 10 cm (D) 12 cm
@@ -344,7 +344,7 @@ d
 	​
 
 =6cm.
-Source: NCERT Class 10 / SSC CPO 2018
+Source: PYQ-style
 
 A solid cone of base radius 6 cm and height 3 cm is melted and recast into a solid sphere. The radius of the sphere is:
 (A) 3 cm (B) 6 cm (C) 4 cm (D) 5 cm
@@ -423,7 +423,7 @@ cm
 =36π⇒R
 3
 =27⇒R=3cm.
-Source: NCERT Class 10 / SSC CGL 2019
+Source: PYQ-style
 
 The sum of the interior angles of a polygon is 1800°. The number of diagonals of the polygon is:
 (A) 44 (B) 54 (C) 65 (D) 77
@@ -482,7 +482,7 @@ n(n−3)
 	​
 
 =54.
-Source: NCERT Class 8 / SSC CGL 2020
+Source: PYQ-style
 
 In ΔABC, BC = 6 cm and ∠A = 60°. The circumradius R is:
 (A) 2√3 cm (B) 3√3 cm (C) 4√3 cm (D) 6 cm
@@ -619,7 +619,7 @@ Solution: Volume of cylinder
  
 cm
 3πh=504π⇒h=168cm.
-Source: SSC CGL 2016
+Source: PYQ-style
 
 A rectangle's length and breadth are in the ratio 5:3. If its perimeter equals the perimeter of a square of side 40 cm, the area of the rectangle is:
 (A) 600 cm² (B) 750 cm² (C) 937.5 cm² (D) 1500 cm²
@@ -675,7 +675,7 @@ cm
 =50×30=1500cm
 2
 .
-Source: SSC CHSL 2019
+Source: PYQ-style
 
 A solid hemisphere of radius 6 cm is melted and recast into a right circular cone of height 12 cm. The base radius of the cone is:
 (A) 3 cm (B) 6 cm (C) 9 cm (D) 12 cm
@@ -769,7 +769,7 @@ cm
 =144π⇒R
 2
 =36⇒R=6cm.
-Source: NCERT Class 10 / SSC CGL 2018
+Source: PYQ-style
 
 A square and an equilateral triangle have equal perimeters. If the side of the square is 9 cm, the area of the triangle is:
 (A) 27√3 cm² (B) 36√3 cm² (C) 48√3 cm² (D) 54√3 cm²
@@ -885,7 +885,7 @@ cm
 ×(20+14)×4=68cm
 2
 .
-Source: NCERT Class 8 / SSC CHSL 2018
+Source: PYQ-style
 
 A chord of a circle of radius 10 cm subtends an angle of 120° at the centre. The area of the minor segment is (π = 3.14):
 (A) 50.33 cm² (B) 40 cm² (C) 61.33 cm² (D) 80 cm²
@@ -1045,7 +1045,7 @@ d
 	​
 
 cm.
-Source: SSC CGL Tier‑II 2017
+Source: PYQ-style
 
 A cone and a hemisphere have equal base radii and equal volumes. The ratio of the height of the cone to the radius of the hemisphere is:
 (A) 2:1 (B) 1:2 (C) 3:2 (D) 2:3
@@ -1171,7 +1171,7 @@ cm
 =3.14×12=37.68cm
 2
 .
-Source: NCERT Class 10 / SSC CGL 2019
+Source: PYQ-style
 
 The volumes of two cones are in the ratio 1:4 and their heights are in the ratio 1:2. The ratio of their base radii is:
 (A) 1:√2 (B) 1:2 (C) 1:4 (D) √2:1
@@ -1497,7 +1497,7 @@ cm
 	​
 
 cm.
-Source: SSC CGL 2017
+Source: PYQ-style
 
 In a right circular cone, the slant height is 13 cm and total surface area is 90π cm². The base radius is:
 (A) 5 cm (B) 6 cm (C) 9 cm (D) 10 cm
@@ -1563,7 +1563,7 @@ cm
 r(13+r)=90⇒r
 2
 +13r–90=0⇒(r+18)(r−5)=0⇒r=5cm.
-Source: NCERT Class 10 / SSC CHSL 2019
+Source: PYQ-style
 
 A sphere of radius 9 cm is melted and drawn into a wire of radius 3 mm. The length of the wire is:
 (A) 108 m (B) 216 m (C) 324 m (D) 432 m
@@ -1702,7 +1702,7 @@ cm
 ×16×12=96cm
 2
 .
-Source: NCERT Class 8 / SSC CHSL 2017
+Source: PYQ-style
 
 Two parallel chords on the same side of the centre of a circle are 6 cm and 8 cm long, and the distance between them is 1 cm. The radius of the circle is:
 (A) 5 cm (B) 6 cm (C) 7 cm (D) 8 cm
@@ -1794,7 +1794,7 @@ d
  
 cm
 =5cm.
-Source: NCERT Class 9 / SSC CGL Tier‑II 2019
+Source: PYQ-style
 
 From an external point P, secants PAB and PCD are drawn to a circle intersecting it at A, B and C, D respectively. If PA = 3 cm, AB = 9 cm, and PC = 4 cm, then CD is:
 (A) 5 cm (B) 6 cm (C) 7 cm (D) 9 cm
@@ -1856,7 +1856,7 @@ PB=PA+AB=12. So
  
 cm
 CD=PD–PC=9–4=5cm.
-Source: NCERT Class 10 / SSC CGL 2017
+Source: PYQ-style
 
 The sum of the squares of the sides of a rhombus is 1600 cm² and one diagonal is 20 cm. The area of the rhombus is:
 (A) 200√3 cm² (B) 300 cm² (C) 400 cm² (D) 500 cm²
@@ -1957,4 +1957,4 @@ cm
 cm
 2
 .
-Source: SSC CGL 2016
+Source: PYQ-style

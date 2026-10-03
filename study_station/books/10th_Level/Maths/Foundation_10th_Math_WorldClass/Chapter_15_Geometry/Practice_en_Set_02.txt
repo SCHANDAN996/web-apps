@@ -2,7 +2,7 @@ In ΔABC, ∠A = 50° and ∠B = 60°. The measure of ∠C is:
 (A) 50° (B) 60° (C) 70° (D) 80°
 Answer: (C) 70°
 Solution: Sum of angles = 180°. So ∠C = 180° – (50° + 60°) = 180° – 110° = 70°.
-Source: NCERT Class 9 (Lines and Angles) / SSC CHSL 2018
+Source: PYQ-style
 
 A chord of length 12 cm is drawn in a circle of radius 10 cm. The distance of the chord from the centre is:
 (A) 6 cm (B) 8 cm (C) 10 cm (D) 12 cm
@@ -14,7 +14,7 @@ If the ratio of the angles of a quadrilateral is 1 : 2 : 3 : 4, then the largest
 (A) 120° (B) 144° (C) 150° (D) 160°
 Answer: (B) 144°
 Solution: Sum of angles = 360°. Let angles be x, 2x, 3x, 4x. Then 10x = 360° ⇒ x = 36°. Largest = 4x = 144°.
-Source: NCERT Class 8 (Understanding Quadrilaterals) / SSC CGL 2020
+Source: PYQ-style
 
 A rhombus has diagonals of length 16 cm and 12 cm. Its area is:
 (A) 96 cm² (B) 192 cm² (C) 48 cm² (D) 72 cm²
@@ -61,7 +61,7 @@ A ladder 25 m long is placed against a wall such that its foot is 7 m from the w
 (A) 22 m (B) 24 m (C) 20 m (D) 26 m
 Answer: (B) 24 m
 Solution: By Pythagoras, height = √(25² – 7²) = √(625 – 49) = √576 = 24 m.
-Source: NCERT Class 10 (Pythagoras Theorem) / SSC CGL 2019
+Source: PYQ-style
 
 The perimeter of a semicircle of radius 14 cm (including the diameter) is (π = 22/7):
 (A) 72 cm (B) 44 cm (C) 58 cm (D) 86 cm
@@ -73,13 +73,13 @@ Source: NCERT Class 7 (Perimeter and Area)
 (A) 2 cm (B) 3 cm (C) 4 cm (D) 5 cm
 Answer: (A) 2 cm
 Solution: Hypotenuse AC = √(6² + 8²) = 10 cm. Inradius r = (a + b – c) / 2 for right triangle? Actually for right triangle, r = (a + b – c) / 2 where c is hypotenuse. So r = (6 + 8 – 10)/2 = 4/2 = 2 cm. Alternatively, area = ½ × 6 × 8 = 24, semi-perimeter s = (6+8+10)/2 = 12, r = area/s = 24/12 = 2 cm.
-Source: SSC CGL 2017
+Source: PYQ-style
 
 A triangle has sides 5 cm, 5 cm, and 6 cm. Its area is:
 (A) 12 cm² (B) 15 cm² (C) 20 cm² (D) 24 cm²
 Answer: (A) 12 cm²
 Solution: It's isosceles. Height to base 6 cm splits into two right triangles of hypotenuse 5 and base 3. Height = √(5² – 3²) = 4 cm. Area = ½ × base × height = ½ × 6 × 4 = 12 cm².
-Source: NCERT Class 9 (Heron's formula application) / SSC CHSL 2021
+Source: PYQ-style
 
 The sum of interior angles of a heptagon (7-sided polygon) is:
 (A) 720° (B) 900° (C) 1080° (D) 1260°
@@ -92,13 +92,13 @@ A sphere and a cube have equal surface area. The ratio of their volumes is:
 Answer: (A) √π : √6 (Wait, let's actually compute: Surface area of sphere 4πr² = 6a² (cube). So a² = (2π/3)r². Volume sphere = 4/3 πr³, cube = a³ = (2π/3)^(3/2) r³. Ratio V_sph/V_cube = (4/3 π) / ( (2π/3)^(3/2) ). Simplifies to √6 : √π? Let's re-check: from equality 4πr² = 6a² => a² = (2π/3)r², so a = r√(2π/3). Cube volume = r³ (2π/3)^(3/2). Sphere volume = 4/3 π r³. Ratio = (4/3 π) / ( (2π/3)^(3/2) ) = (4/3 π) * ( (3/(2π))^(3/2) ) = (4/3 π) * (3√3)/(2√2 π√π?) Compute carefully: (2π/3)^(3/2) = (2π/3) * √(2π/3). So ratio = (4π/3) / [ (2π/3) * √(2π/3) ] = (4π/3) * (3/(2π)) * 1/√(2π/3) = 2 / √(2π/3) = 2 * √(3/(2π)) = √(4 * 3/(2π)) = √(6/π) = √6/√π? So sphere volume / cube volume = √6 / √π. Cube volume to sphere? The question asks ratio of their volumes (likely sphere : cube). So sphere : cube = √6 : √π. That's (A) if √π : √6 is reversed. Let's see options: (A) √π : √6, (B) √6 : √π. So (B) is sphere : cube? Let's check carefully: I got V_sph/V_cube = √6/√π. So sphere : cube = √6 : √π. That's (B). So answer (B). I'll provide explanation.
 Answer: (B) √6 : √π
 Solution: For equal surface area, 4πR² = 6a² ⇒ a²/R² = (2π/3). Volume ratio V_sphere/V_cube = (4/3 πR³) / a³ = (4/3 π) / (a/R)³ = (4π/3) / ( (2π/3)^(3/2) ) = √6 / √π. So sphere : cube = √6 : √π.
-Source: SSC CGL Tier-II 2018 (Conceptual)
+Source: PYQ-style
 
 If the length of a rectangle is increased by 20% and breadth is decreased by 10%, the percentage change in area is:
 (A) 8% increase (B) 8% decrease (C) 10% increase (D) 10% decrease
 Answer: (A) 8% increase
 Solution: New area = l × 1.2 × b × 0.9 = 1.08 lb, thus 8% increase.
-Source: SSC CGL 2016 (Mensuration 2D)
+Source: PYQ-style
 
 A cone and a cylinder have equal base radii and equal heights. The ratio of their volumes is:
 (A) 1 : 3 (B) 3 : 1 (C) 1 : 2 (D) 2 : 1
@@ -119,13 +119,13 @@ Solution: Median divides triangle into two equal areas: ar(ABD) = 1/2 ar(ABC). T
 
 Solution: ar(ΔABC) = S. Median AD gives ar(ΔABD) = S/2. E mid of AD, so BE is median of ΔABD, dividing it into two equal areas: ar(ΔBED) = (1/2) ar(ΔABD) = S/4.
 Answer: (A) 1/4
-Source: SSC CGL 2020
+Source: PYQ-style
 
 The length of the direct common tangent between two externally touching circles of radii 9 cm and 4 cm is:
 (A) 12 cm (B) 13 cm (C) 15 cm (D) 6 cm
 Answer: (A) 12 cm
 Solution: Direct common tangent length for externally touching circles = 2√(r₁r₂) = 2√(9×4) = 2√36 = 12 cm.
-Source: SSC CPO 2015
+Source: PYQ-style
 
 A polygon has 9 diagonals. How many sides does it have?
 (A) 6 (B) 7 (C) 8 (D) 9
@@ -143,13 +143,13 @@ In the figure, AB and CD are two parallel chords of a circle of radius 13 cm suc
 (A) 7 cm (B) 17 cm (C) 12 cm (D) 5 cm
 Answer: (B) 17 cm
 Solution: Distances from centre: d₁ = √(13² – 5²) = 12 cm for AB (half length 5), d₂ = √(13² – 12²) = 5 cm for CD (half length 12). Since opposite sides, distance = d₁ + d₂ = 17 cm.
-Source: NCERT Class 9 (Circles) / SSC CGL Tier-II 2018
+Source: PYQ-style
 
 A right circular cylinder of radius 7 cm and height 20 cm is melted and recast into a right circular cone of base radius 14 cm. The height of the cone is:
 (A) 15 cm (B) 10 cm (C) 5 cm (D) 20 cm
 Answer: (A) 15 cm
 Solution: Volume cylinder = π×7²×20 = 980π. Volume cone = 1/3 π×14²×h = (196π/3)h. Equate: 980π = (196π/3)h ⇒ h = 980×3/196 = (2940)/196 = 15 cm.
-Source: SSC CGL 2018
+Source: PYQ-style
 
 Each interior angle of a regular polygon is 156°. The number of sides is:
 (A) 12 (B) 15 (C) 18 (D) 20
@@ -159,7 +159,7 @@ Source: NCERT Class 8 (Understanding Quadrilaterals) / SSC CHSL 201926. In ΔABC
 (A) 50° (B) 60° (C) 70° (D) 80°
 Answer: (C) 70°
 Solution: Sum of angles = 180°. So ∠C = 180° – (50° + 60°) = 180° – 110° = 70°.
-Source: NCERT Class 9 (Lines and Angles) / SSC CHSL 2018
+Source: PYQ-style
 
 A chord of length 12 cm is drawn in a circle of radius 10 cm. The distance of the chord from the centre is:
 (A) 6 cm (B) 8 cm (C) 10 cm (D) 12 cm
@@ -171,7 +171,7 @@ If the ratio of the angles of a quadrilateral is 1 : 2 : 3 : 4, then the largest
 (A) 120° (B) 144° (C) 150° (D) 160°
 Answer: (B) 144°
 Solution: Sum = 360°. Let angles be x, 2x, 3x, 4x ⇒ 10x = 360° ⇒ x = 36°. Largest = 4x = 144°.
-Source: NCERT Class 8 (Understanding Quadrilaterals) / SSC CGL 2020
+Source: PYQ-style
 
 A rhombus has diagonals of length 16 cm and 12 cm. Its area is:
 (A) 96 cm² (B) 192 cm² (C) 48 cm² (D) 72 cm²
@@ -183,7 +183,7 @@ The area of an equilateral triangle of side 6 cm is:
 (A) 9√3 cm² (B) 18√3 cm² (C) 36 cm² (D) 15.57 cm²
 Answer: (A) 9√3 cm²
 Solution: Area = (√3/4) × a² = (√3/4) × 36 = 9√3 cm². This is the exact value.
-Source: NCERT Class 9 (Heron's Formula) / SSC CHSL 2022
+Source: PYQ-style
 
 O is the centre of the circle and ∠AOB = 100°. The measure of ∠ACB, where C is any point on the major arc AB, is:
 (A) 50° (B) 100° (C) 130° (D) 80°
@@ -213,7 +213,7 @@ A ladder 25 m long is placed against a wall with its foot 7 m from the wall. How
 (A) 22 m (B) 24 m (C) 20 m (D) 26 m
 Answer: (B) 24 m
 Solution: Height = √(25² – 7²) = √(625 – 49) = √576 = 24 m.
-Source: NCERT Class 10 (Pythagoras Theorem) / SSC CGL 2019
+Source: PYQ-style
 
 The perimeter of a semicircle of radius 14 cm (including the diameter) is (π = 22/7):
 (A) 72 cm (B) 44 cm (C) 58 cm (D) 86 cm
@@ -225,13 +225,13 @@ Source: NCERT Class 7 (Perimeter and Area)
 (A) 2 cm (B) 3 cm (C) 4 cm (D) 5 cm
 Answer: (A) 2 cm
 Solution: Hypotenuse AC = √(6²+8²) = 10 cm. Area = ½×6×8 = 24 cm². Semi-perimeter s = (6+8+10)/2 = 12. Inradius = Area / s = 24/12 = 2 cm.
-Source: SSC CGL 2017
+Source: PYQ-style
 
 A triangle has sides 5 cm, 5 cm, and 6 cm. Its area is:
 (A) 12 cm² (B) 15 cm² (C) 20 cm² (D) 24 cm²
 Answer: (A) 12 cm²
 Solution: Isosceles triangle, base 6, equal sides 5. Height = √(5² – 3²) = 4 cm. Area = ½ × 6 × 4 = 12 cm².
-Source: NCERT Class 9 / SSC CHSL 2021
+Source: PYQ-style
 
 The sum of interior angles of a heptagon (7-sided polygon) is:
 (A) 720° (B) 900° (C) 1080° (D) 1260°
@@ -243,13 +243,13 @@ A sphere and a cube have equal surface area. The ratio of their volumes (sphere 
 (A) √π : √6 (B) √6 : √π (C) √π : √3 (D) √3 : √π
 Answer: (B) √6 : √π
 Solution: Equate surface areas: 4πR² = 6a² ⇒ a²/R² = 2π/3. Volume ratio = (4/3 πR³) / a³ = (4π/3) / ( (a/R)³ ) = (4π/3) / ( (2π/3)^(3/2) ) = √6 / √π. Hence sphere : cube = √6 : √π.
-Source: SSC CGL Tier-II 2018 (Conceptual)
+Source: PYQ-style
 
 If length of a rectangle increases by 20% and breadth decreases by 10%, the percentage change in area is:
 (A) 8% increase (B) 8% decrease (C) 10% increase (D) 10% decrease
 Answer: (A) 8% increase
 Solution: New area = l × 1.2 × b × 0.9 = 1.08 lb → 8% increase.
-Source: SSC CGL 2016
+Source: PYQ-style
 
 A cone and a cylinder have equal base radius and height. The ratio of their volumes is:
 (A) 1 : 3 (B) 3 : 1 (C) 1 : 2 (D) 2 : 1
@@ -267,13 +267,13 @@ In ΔABC, AD is a median and E is the midpoint of AD. The area of ΔBED as a fra
 (A) 1/4 (B) 1/8 (C) 1/6 (D) 1/3
 Answer: (A) 1/4
 Solution: ar(ΔABD)=½ ar(ΔABC). In ΔABD, BE is a median (since E is mid of AD) → ar(ΔBED)=½ ar(ΔABD) = ¼ ar(ΔABC).
-Source: SSC CGL 2020
+Source: PYQ-style
 
 Two circles of radii 9 cm and 4 cm touch externally. The length of their direct common tangent is:
 (A) 12 cm (B) 13 cm (C) 15 cm (D) 6 cm
 Answer: (A) 12 cm
 Solution: For externally touching circles, direct common tangent = 2√(r₁r₂) = 2√(9×4) = 2×6 = 12 cm.
-Source: SSC CPO 2015
+Source: PYQ-style
 
 A polygon has 9 diagonals. How many sides does it have?
 (A) 6 (B) 7 (C) 8 (D) 9
@@ -291,16 +291,16 @@ AB and CD are parallel chords of a circle of radius 13 cm on opposite sides of t
 (A) 7 cm (B) 17 cm (C) 12 cm (D) 5 cm
 Answer: (B) 17 cm
 Solution: Distances from centre: for AB (half =5) d₁=√(13²–5²)=12 cm; for CD (half=12) d₂=√(13²–12²)=5 cm. Opposite sides → distance = 12+5=17 cm.
-Source: NCERT Class 9 / SSC CGL Tier-II 2018
+Source: PYQ-style
 
 A right circular cylinder of radius 7 cm and height 20 cm is melted and recast into a right circular cone of base radius 14 cm. The height of the cone is:
 (A) 15 cm (B) 10 cm (C) 5 cm (D) 20 cm
 Answer: (A) 15 cm
 Solution: Volume of cylinder = π×7²×20 = 980π. Volume of cone = ⅓π×14²×h = (196π/3) h. Equate: 980π = (196π/3) h → h = 980×3/196 = 15 cm.
-Source: SSC CGL 2018
+Source: PYQ-style
 
 Each interior angle of a regular polygon is 156°. The number of sides is:
 (A) 12 (B) 15 (C) 18 (D) 20
 Answer: (B) 15
 Solution: (n–2)×180°/n = 156° → 180n – 360 = 156n → 24n = 360 → n = 15.
-Source: NCERT Class 8 / SSC CHSL 2019
+Source: PYQ-style

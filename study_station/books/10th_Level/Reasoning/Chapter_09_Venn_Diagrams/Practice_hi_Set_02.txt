@@ -14,7 +14,7 @@ Which of the following Venn diagrams best represents the relationship among: *Cr
 
 **Answer:** (A) तीन अलग-अलग वृत्त
 **Solution:** Cricket is a sport; bat and ball are equipment. They are not subclasses of cricket. All three are disjoint classes.
-**Source:** SSC MTS 2021
+**Source:PYQ-style
 
 ---
 
@@ -27,7 +27,7 @@ Choose the Venn diagram that correctly depicts: *Doctors, Stethoscope, Hospital*
 
 **Answer:** (C) तीन अलग-अलग वृत्त
 **Solution:** Doctor (person), stethoscope (tool), hospital (place) are distinct categories; none is a subclass of another. So three separate circles.
-**Source:** IBPS Clerk 2020
+**Source:PYQ-style
 
 ---
 
@@ -40,7 +40,7 @@ Which option best represents *Players, Captains, Coaches*?
 
 **Answer:** (D) कप्तान खिलाड़ी के अंदर, कोच खिलाड़ी को काटता हुआ
 **Solution:** All captains are players (subset). Coaches are not necessarily players, but some coaches may also be players. So Coaches overlap Players.
-**Source:** SSC CGL 2023
+**Source:PYQ-style
 
 ---
 
@@ -53,7 +53,7 @@ Study the following figure: Triangle = Engineers, Square = Managers, Circle = MB
 
 **Answer:** (A) 37
 **Solution:** Exactly one = only Engineers + only Managers + only MBAs = 12+10+15 = 37.
-**Source:** SSC CHSL 2020
+**Source:PYQ-style
 
 ---
 
@@ -66,7 +66,7 @@ In a group of 150 people, 90 like tea, 70 like coffee, 50 like both. How many li
 
 **Answer:** (C) 40
 **Solution:** n(T ∪ C) = 90+70-50 = 110. Neither = 150-110 = 40.
-**Source:** RRB Group D 2019
+**Source:PYQ-style
 
 ---
 
@@ -79,7 +79,7 @@ In the given Venn diagram, circle A represents English, B Hindi, C Sanskrit read
 
 **Answer:** (A) 27
 **Solution:** Exactly two = (A∩B only)+(B∩C only)+(A∩C only) = 12+9+6 = 27.
-**Source:** SSC CGL 2021
+**Source:PYQ-style
 
 ---
 
@@ -92,7 +92,7 @@ In a Venn diagram, 'only Hindi' contains 15, Hindi and English but not Sanskrit 
 
 **Answer:** (A) 14
 **Solution:** Total Hindi = only Hindi + (Hindi∩English only) + (Hindi∩Sanskrit only) + all three. So 15+8+x+3=40 → x=14.
-**Source:** IBPS PO 2022
+**Source:PYQ-style
 
 ---
 
@@ -108,7 +108,7 @@ Conclusions: I. Some apples are fruits. II. No apple is a vegetable.
 **Answer:** (A) केवल I अनुसरण करता है
 **Solution:** I: Some apples are oranges, oranges ⊆ fruits → those apples are fruits. True. II: The apples that are not oranges could be vegetables (since they are not forced to be fruits). So II not definite.
 **Trap:** Real-world knowledge that all apples are fruits, but in syllogism only statements matter.
-**Source:** SSC CGL 2022
+**Source:PYQ-style
 
 ---
 
@@ -123,7 +123,7 @@ Conclusions: I. Some phones are expensive. II. No phone is cheap.
 
 **Answer:** (D) कोई भी अनुसरण नहीं करता
 **Solution:** Phones ⊆ Gadgets. Gadgets and Expensive overlap. Expensive ∩ Cheap = ∅. I: Phones may be entirely in the non-expensive part. Not definite. II: Phones could be cheap if they are non-expensive. No prohibition. So neither follows.
-**Source:** IBPS Clerk 2021
+**Source:PYQ-style
 
 ---
 
@@ -139,7 +139,7 @@ Conclusions: I. Some postgraduates are not students. II. No student is a graduat
 **Answer:** (D) कोई भी अनुसरण नहीं करता
 **Solution:** I: Postgraduates could all be students (if the set of postgraduates is entirely inside Students and also inside Graduates). No rule prevents. So I not definite. II: Students could be graduates; no statement forbids. So II false.
 **Trap:** Overlooking the possibility that postgraduates could be entirely within students.
-**Source:** SSC CGL 2023
+**Source:PYQ-style
 
 ---
 
@@ -154,7 +154,7 @@ Conclusions: I. Some sharpeners are not pencils. II. No pen is an eraser.
 
 **Answer:** (C) दोनों अनुसरण करते हैं
 **Solution:** Pen ⊆ Pencil, Pencil ∩ Eraser = ∅, Eraser ∩ Sharpener ≠ ∅. II: Pen ∩ Eraser = ∅, true. I: Some erasers are sharpeners, and erasers are not pencils → those sharpeners are not pencils. True.
-**Source:** RRB NTPC 2020
+**Source:PYQ-style
 
 ---
 
@@ -168,7 +168,7 @@ Which of the following diagrams represents the relationship among *Car, Engine, 
 **Answer:** (A) इंजन कार के अंदर, स्टीयरिंग व्हील कार के अंदर, दोनों आपस में न काटते हुए
 **Solution:** Both engine and steering wheel are parts of a car. They are distinct components, so both subsets of Car, disjoint.
 **Trap:** Option (B) wrongly shows Steering Wheel separate from Car.
-**Source:** SSC MTS 2022
+**Source:PYQ-style
 
 ---
 
@@ -181,7 +181,7 @@ In the given figure, triangle = Doctors, rectangle = Surgeons, circle = Females.
 
 **Answer:** (A) 10
 **Solution:** Female doctors not surgeons = Doctors & Females (not Surgeons) region = 10.
-**Source:** SSC CGL 2020
+**Source:PYQ-style
 
 ---
 
@@ -196,7 +196,7 @@ Conclusions: I. Some rivers are ponds. II. No river is an ocean.
 
 **Answer:** (A) केवल I अनुसरण करता है
 **Solution:** I: Some rivers are lakes, lakes ⊆ ponds → some rivers are ponds. True. II: Rivers that are not lakes could be oceans. Not definite.
-**Source:** IBPS PO 2019
+**Source:PYQ-style
 
 ---
 
@@ -209,7 +209,7 @@ Which Venn diagram best fits *Crows, Birds, Mammals*?
 
 **Answer:** (A) कौवे पक्षी के अंदर, स्तनधारी पक्षी से अलग
 **Solution:** All crows are birds. Birds and mammals are distinct biological classes (disjoint).
-**Source:** SSC CHSL 2019
+**Source:PYQ-style
 
 ---
 
@@ -222,7 +222,7 @@ In a class, 40% students play cricket, 30% play hockey, 20% play both. If total 
 
 **Answer:** (B) 100
 **Solution:** n(C ∪ H)% = 40+30-20 = 50%. Neither% = 50%. Number = 50% of 200 = 100.
-**Source:** RRB NTPC 2021
+**Source:PYQ-style
 
 ---
 
@@ -235,7 +235,7 @@ In the Venn diagram, triangle = Employees, square = Graduates, circle = Experien
 
 **Answer:** (A) 11
 **Solution:** "Graduates but neither employees nor experienced" is the region 'only Graduates' = 11.
-**Source:** SSC CGL 2022
+**Source:PYQ-style
 
 ---
 
@@ -250,7 +250,7 @@ Conclusions: I. Some blowers are not coolers. II. No fan is a heater.
 
 **Answer:** (C) दोनों अनुसरण करते हैं
 **Solution:** II: Fan ⊆ Cooler, Cooler ∩ Heater = ∅ → Fan ∩ Heater = ∅, true. I: Some heaters are blowers, heaters are not coolers → those blowers are not coolers. True.
-**Source:** IBPS Clerk 2023
+**Source:PYQ-style
 
 ---
 
@@ -263,7 +263,7 @@ Choose the diagram for *Laptops, Computers, Tablets*।
 
 **Answer:** (A) लैपटॉप और टैबलेट कंप्यूटर के अंदर, आपस में न काटते हुए
 **Solution:** Both laptops and tablets are types of computers, distinct from each other. So disjoint subsets of Computer.
-**Source:** SSC CGL 2018
+**Source:PYQ-style
 
 ---
 
@@ -276,7 +276,7 @@ In a survey, 60% like milk, 50% like tea, 30% like both. What percentage like at
 
 **Answer:** (A) 70%
 **Solution:** At most one = total - both = 100% - 30% = 70%.
-**Source:** RRB Group D 2020
+**Source:PYQ-style
 
 ---
 
@@ -291,7 +291,7 @@ Conclusions: I. Some grapes are sour. II. No grape is sweet.
 
 **Answer:** (D) कोई भी अनुसरण नहीं करता
 **Solution:** Grapes ⊆ Fruits. Some fruits are sour (overlap). Sour ∩ Sweet = ∅. I: Grapes could be entirely in the non-sour part of fruits. Not definite. II: Grapes could be non-sour and sweet? No restriction prevents a non-sour grape from being sweet. So II not definite.
-**Source:** IBPS PO 2022
+**Source:PYQ-style
 
 ---
 
@@ -304,7 +304,7 @@ In the Venn diagram, circle A represents car owners, B bike, C cycle. Numbers: o
 
 **Answer:** (A) 42
 **Solution:** Exactly one = 14+12+16 = 42.
-**Source:** SSC CHSL 2023
+**Source:PYQ-style
 
 ---
 
@@ -317,7 +317,7 @@ Which Venn diagram shows *Doctors, Engineers, Professionals*?
 
 **Answer:** (A) डॉक्टर और इंजीनियर दोनों पेशेवर के अंदर, आपस में न काटते हुए
 **Solution:** All doctors and engineers are professionals. They are distinct professions, so disjoint subsets of Professionals.
-**Source:** SSC CGL 2019
+**Source:PYQ-style
 
 ---
 
@@ -332,7 +332,7 @@ Conclusions: I. Some shirts are clothes. II. Some shoes are not pants.
 
 **Answer:** (C) दोनों अनुसरण करते हैं
 **Solution:** I: Some shirts are pants, pants ⊆ clothes → those shirts are clothes. True. II: No cloth is shoe, pants ⊆ clothes → pants ∩ shoe = ∅, so all shoes are not pants, hence some shoes are not pants (in fact all). True.
-**Source:** SSC CGL 2020
+**Source:PYQ-style
 
 ---
 
@@ -348,4 +348,4 @@ Conclusions: I. No rose is a fruit. II. Some apples are not flowers.
 **Answer:** (C) दोनों अनुसरण करते हैं
 **Solution:** I: Rose ⊆ Flower, Flower ∩ Fruit = ∅ → Rose ∩ Fruit = ∅. True. II: Some fruits are apples, and fruits are not flowers → those apples are not flowers. True.
 **Trap:** Some might think II doesn't follow, but the apples that are fruits are definitely not flowers.
-**Source:** IBPS Clerk 2022
+**Source:PYQ-style

@@ -14,7 +14,7 @@ Which of the following Venn diagrams best represents the relationship among: *Sq
 
 **Answer:** (D) वर्ग समचतुर्भुज के अंदर, समचतुर्भुज चतुर्भुज के अंदर
 **Solution:** All squares are rhombuses (a square is a special rhombus with right angles), and all rhombuses are quadrilaterals. So nested circles: Square ⊂ Rhombus ⊂ Quadrilateral.
-**Source:** SSC CGL 2019
+**Source:PYQ-style
 
 ---
 
@@ -29,7 +29,7 @@ Conclusions: I. Some pencils are not erasers. II. Some sharpeners are not pens. 
 
 **Answer:** (D) सभी I, II, III अनुसरण करते हैं
 **Solution:** I: The pencils that are pens are not erasers (no pen is eraser) → some pencils are not erasers. True. II: All erasers are sharpeners, and no eraser is pen, so those sharpeners (which are erasers) are not pens. Thus some sharpeners are not pens. True. III: "All sharpeners are erasers" is possible; the given statement "All erasers are sharpeners" doesn't prevent the sharpener set from being exactly the eraser set. No contradiction. So it's a possibility. Hence all follow.
-**Source:** IBPS PO 2021
+**Source:PYQ-style
 
 ---
 
@@ -42,7 +42,7 @@ In a Venn diagram, triangle = Engineers, square = Doctors, circle = Scientists. 
 
 **Answer:** (A) 22:45
 **Solution:** Exactly one = 12+15+18 = 45. At least two = exactly two (5+7+6=18) + all three (4) = 22. Ratio = 22:45.
-**Source:** SSC CGL 2023
+**Source:PYQ-style
 
 ---
 
@@ -56,7 +56,7 @@ Which Venn diagram represents *Mammal, Whale, Shark*?
 **Answer:** (C) व्हेल स्तनधारी के अंदर, शार्क अलग
 **Solution:** All whales are mammals. Sharks are fish, not mammals. So Whale ⊆ Mammal, Shark entirely separate.
 **Trap:** Many test-takers mistakenly place sharks in mammal group or overlap them with whales.
-**Source:** SSC CHSL 2020
+**Source:PYQ-style
 
 ---
 
@@ -70,7 +70,7 @@ Choose the Venn diagram for *Water, Ice, Steam*।
 **Answer:** (A) तीन अलग-अलग वृत्त
 **Solution:** Water (liquid), ice (solid), steam (gas) are distinct physical states with no class-subclass relationship. In logical classification, they are disjoint categories.
 **Trap:** Chemical composition (H₂O) can mislead into choosing overlapping/nested diagrams; Venn deals with class membership, not substance identity.
-**Source:** SSC CGL 2018
+**Source:PYQ-style
 
 ---
 
@@ -83,7 +83,7 @@ In a survey of 100 people, 50 like tea, 40 like coffee, 30 like milk. 10 like al
 
 **Answer:** (A) 36%
 **Solution:** Number who like both tea and coffee = only tea & coffee (8) + all three (10) = 18. Total tea likers = 50. Required percentage = (18/50)×100 = 36%.
-**Source:** RRB NTPC 2022
+**Source:PYQ-style
 
 ---
 
@@ -98,7 +98,7 @@ Conclusions: I. Some managers are not directors. II. Some executives are not wor
 
 **Answer:** (A) केवल I और II अनुसरण करते हैं
 **Solution:** "Only a few" implies Some managers are directors and Some managers are not directors → I follows. All directors are executives, no executive is worker, so directors are not workers. Hence the executives who are directors are not workers → some executives are not workers (II follows). III: No relation given between workers and managers; workers could all be managers or none. So false.
-**Source:** IBPS Clerk 2023
+**Source:PYQ-style
 
 ---
 
@@ -112,7 +112,7 @@ Which Venn diagram best fits *Politician, Minister, Cabinet*?
 **Answer:** (D) मंत्री राजनेता के अंदर, मंत्रिमंडल मंत्री को काटता हुआ
 **Solution:** All ministers are politicians. A cabinet is a collective body of ministers; not all ministers are in the cabinet, and the cabinet is not a subclass of politician. So Minister ⊆ Politician, Cabinet overlaps Minister.
 **Trap:** Students often think Cabinet contains all ministers (Minister inside Cabinet) or that Cabinet is a part of Politician. Overlap is correct.
-**Source:** SSC CGL 2021
+**Source:PYQ-style
 
 ---
 
@@ -125,7 +125,7 @@ Which diagram represents *Student, Intelligent, Fool*?
 
 **Answer:** (B) बुद्धिमान और मूर्ख अलग, छात्र दोनों को काटता हुआ
 **Solution:** Intelligent and Fool are opposite traits; a person cannot be both. So they are disjoint sets. A student can be either intelligent or a fool, so the Student circle overlaps both mutually exclusive circles.
-**Source:** SSC MTS 2022
+**Source:PYQ-style
 
 ---
 
@@ -140,7 +140,7 @@ Conclusions: I. Some flowers are not natural. II. Some roses are not natural. II
 
 **Answer:** (A) केवल I और III अनुसरण करते हैं
 **Solution:** I: Some flowers are artificial, artificial things are not natural → those flowers are not natural. True. II: Roses may all be natural (non‑artificial) flowers; not definite. III: "All beautiful are natural" is possible because we only know some natural things are beautiful; the beautiful set could be entirely within natural. No statement forbids it. So III follows.
-**Source:** IBPS PO 2020
+**Source:PYQ-style
 
 ---
 
@@ -153,7 +153,7 @@ In a group of 200 people, 120 like cricket, 110 like hockey, 100 like football. 
 
 **Answer:** (C) 60
 **Solution:** Only cricket = 120 – (30+10+50) = 30. Only hockey = 110 – (30+20+50) = 10. Only football = 100 – (10+20+50) = 20. Exactly one = 30+10+20 = 60.
-**Source:** SSC CGL 2022
+**Source:PYQ-style
 
 ---
 
@@ -167,7 +167,7 @@ Which Venn diagram represents *Fruit, Seed, Plant*?
 **Answer:** (A) बीज फल के अंदर, फल पौधा के अंदर
 **Solution:** Seeds are contained within fruits; fruits are produced by plants. In class‑inclusion logic, Seed is a subset of Fruit (or a part), and Fruit is a subset of Plant. So nested: Seed ⊂ Fruit ⊂ Plant.
 **Trap:** Students may think Seed is separate from Fruit or that Plant is not a superset of Fruit because not all plants bear fruit.
-**Source:** SSC CHSL 2019
+**Source:PYQ-style
 
 ---
 
@@ -182,7 +182,7 @@ Conclusions: I. Some C are not B. II. Some D are not B. III. All A being D is a 
 
 **Answer:** (B) केवल III अनुसरण करता है
 **Solution:** I: B ⊆ C, but C could be exactly equal to B. If C = B, then all C are B, so "Some C are not B" may be false. II: D is a subset of C. If C = B, then D could be entirely within B, so "Some D are not B" may be false. Hence neither I nor II is definite. III: A is separate from B. D is a subset of C. Since A can be placed entirely inside D without touching B, "All A are D" is possible. So only III follows.
-**Source:** IBPS PO 2023
+**Source:PYQ-style
 
 ---
 
@@ -197,7 +197,7 @@ Conclusions: I. Some graduates are not teachers. II. Some postgraduates are not 
 
 **Answer:** (B) केवल III अनुसरण करता है
 **Solution:** I: All teachers are graduates, but it's possible that all graduates are teachers (Graduate = Teacher). In that case, no graduate is not a teacher. So I not definite. II: No relation given between postgraduates and students; it's possible all postgraduates are students. So II not definite. III: Students and teachers are disjoint. No rule prohibits students from being postgraduates. So "All students are postgraduates" is possible. Hence only III follows.
-**Source:** SSC CGL 2022
+**Source:PYQ-style
 
 ---
 
@@ -210,7 +210,7 @@ Which Venn diagram correctly represents *Hand, Finger, Nail*?
 
 **Answer:** (A) उँगली हाथ के अंदर, नाखून उँगली के अंदर
 **Solution:** All fingers are parts of a hand; all nails are parts of fingers. So the sets nest: Nail ⊂ Finger ⊂ Hand.
-**Source:** SSC CGL 2020
+**Source:PYQ-style
 
 ---
 
@@ -225,7 +225,7 @@ Conclusions: I. Some mobiles are not toys. II. Some gadgets are not electronic. 
 
 **Answer:** (C) केवल I और III अनुसरण करते हैं
 **Solution:** I: The mobiles that are tablets are gadgets, and no gadget is a toy → those mobiles are not toys. Hence some mobiles are not toys. True. II: There is no statement linking gadgets and electronics; gadgets could all be electronic. So not definite. III: "All toys are electronic" is possible; some toys are already electronic, and no rule forbids all toys from being electronic. So it follows. Hence I and III follow.
-**Source:** IBPS PO 2020
+**Source:PYQ-style
 
 ---
 
@@ -238,7 +238,7 @@ Which Venn diagram best shows the relationship among *Building, Room, Window*?
 
 **Answer:** (A) कमरा भवन के अंदर, खिड़की कमरा के अंदर
 **Solution:** A room is a part of a building; a window is a part of a room. So nested: Window ⊂ Room ⊂ Building.
-**Source:** SSC MTS 2021
+**Source:PYQ-style
 
 ---
 
@@ -253,7 +253,7 @@ Conclusions: I. Some A are not C. II. Some D are not B. III. Some E being A is a
 
 **Answer:** (C) सभी I, II, III अनुसरण करते हैं
 **Solution:** I: All A are B, B disjoint from C → A ∩ C = ∅, so all A are not C; hence some A are not C (in fact all). True. II: Some C are D. Since C is disjoint from B, those D that are C are not B. So some D are not B. True. III: "Some E are A" is a possibility. E can overlap D, D can overlap C, but A is inside B, B disjoint from C. However, D may have a part outside C that lies in B, and E could be in that part, thus overlapping A. So it's possible. Hence all follow.
-**Source:** SSC CGL 2023
+**Source:PYQ-style
 
 ---
 
@@ -266,7 +266,7 @@ In a survey, 60% drink tea, 50% drink coffee, 40% drink milk. 20% drink all thre
 
 **Answer:** (B) 30%
 **Solution:** Only tea = 60 – (15+10+20) = 15%. Only coffee = 50 – (15+5+20) = 10%. Only milk = 40 – (10+5+20) = 5%. Exactly one = 15%+10%+5% = 30%.
-**Source:** RRB Group D 2023
+**Source:PYQ-style
 
 ---
 
@@ -280,7 +280,7 @@ Which Venn diagram correctly illustrates *Actor, Hero, Heroine*?
 **Answer:** (A) हीरो अभिनेता के अंदर, हीरोइन अभिनेता के अंदर, अलग-अलग
 **Solution:** Hero and heroine are both actors (male and female lead). They are distinct roles; one person cannot be both simultaneously. So both are disjoint subsets of Actor.
 **Trap:** Many think heroine is not an "actor" but "actress"; in logical classification, both are under the class Actor (performer). Also overlapping is a common wrong choice.
-**Source:** SSC CGL 2021
+**Source:PYQ-style
 
 ---
 
@@ -295,7 +295,7 @@ Conclusions: I. Some apples are not bananas. II. Some fruits are not vegetables.
 
 **Answer:** (C) सभी I, II, III अनुसरण करते हैं
 **Solution:** "Only a few" means Some apples are bananas and Some apples are not bananas → I follows. II: No fruit is vegetable, so all fruits are not vegetables; hence some fruits are not vegetables (in fact all). True. III: Some vegetables are green, and vegetables are not fruits → those green vegetables are not fruits. Hence some green things are not fruits. True. So all follow.
-**Source:** IBPS PO 2021
+**Source:PYQ-style
 
 ---
 
@@ -308,7 +308,7 @@ In a group of 300 students, 180 study Maths, 150 study Physics, 120 study Chemis
 
 **Answer:** (A) 120
 **Solution:** Exactly two = only M&P + only P&C + only M&C = 50+40+30 = 120. (All three is not included.)
-**Source:** SSC CGL 2020
+**Source:PYQ-style
 
 ---
 
@@ -321,7 +321,7 @@ Which Venn diagram best represents *Doctor, Nurse, Hospital*?
 
 **Answer:** (D) तीन अलग-अलग वृत्त
 **Solution:** Doctor (professional), nurse (professional), hospital (place) are three distinct classes; none is a subclass of another. So disjoint sets.
-**Source:** SSC CHSL 2022
+**Source:PYQ-style
 
 ---
 
@@ -336,7 +336,7 @@ Conclusions: I. Some cats are not animals. II. Some trees are not animals. III. 
 
 **Answer:** (B) केवल II और III अनुसरण करते हैं
 **Solution:** I: "Some cats are not dogs" does not imply they are not animals. Cats could still all be animals. So I false. II: Some plants are trees, plants are not animals (since no animal is plant) → those trees are not animals. True. III: "Some cats are plants" is a possibility. Cats are not forced to be animals by the statements (we only know some cats are not dogs, not that all cats are animals). No direct contradiction exists. So III follows. Hence II and III follow.
-**Source:** IBPS Clerk 2022
+**Source:PYQ-style
 
 ---
 
@@ -349,4 +349,4 @@ In the Venn diagram, circle P = Post‑graduates, circle Q = Govt. employees, ci
 
 **Answer:** (A) 81:27
 **Solution:** Either post‑graduate or urban but not govt. employee = (only P) + (only R) + (P∩R only) = 33+36+12 = 81. Govt. employees but neither post‑graduate nor urban = only Q = 27. Ratio = 81:27 = 3:1, but in given options, 81:27 is unsimplified.
-**Source:** SSC CGL 2023
+**Source:PYQ-style

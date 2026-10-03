@@ -12,35 +12,35 @@ Q127. In how many ways can 5 distinct prizes be distributed among 4 students so 
 
 Answer: (1) 240
 Solution: Number of onto functions from 5 distinct prizes to 4 distinct students: 4⁵ – 4·3⁵ + 6·2⁵ – 4·1⁵ = 1024 – 4×243 + 6×32 – 4 = 1024 – 972 + 192 – 4 = 240.
-Source: SSC CGL Tier II 2019
+Source: PYQ-style
 
 Q128. How many 3-digit numbers have the sum of their digits equal to 10? (Digits from 0–9, hundreds digit non-zero)
 (1) 54 (2) 63 (3) 45 (4) 72
 
 Answer: (1) 54
 Solution: Number of solutions to a+b+c=10 with a∈[1,9], b,c∈[0,9] and a,b,c ≤ 9. Using generating functions or direct counting (stars and bars with upper limits) gives 54.
-Source: SSC CGL 2017
+Source: PYQ-style
 
 Q129. In how many ways can 6 men and 4 women be seated at a round table so that all the 4 women sit together?
 (1) 17280 (2) 8640 (3) 34560 (4) 720
 
 Answer: (1) 17280
 Solution: Treat the 4 women as a block. Total units = 6 men + 1 block = 7. Circular arrangement of 7 units: (7–1)! = 720. Within the block, arrange the women: 4! = 24. Total = 720 × 24 = 17280.
-Source: SSC CPO 2021
+Source: PYQ-style
 
 Q130. A committee of 5 is to be formed from 6 gentlemen and 5 ladies. In how many ways can it be done if the committee must contain at least 2 ladies and at least 2 gentlemen?
 (1) 350 (2) 400 (3) 455 (4) 500
 
 Answer: (1) 350
 Solution: Possible compositions: 2 ladies & 3 gentlemen → 5C2 × 6C3 = 10 × 20 = 200; 3 ladies & 2 gentlemen → 5C3 × 6C2 = 10 × 15 = 150. Total = 200 + 150 = 350.
-Source: IBPS PO Mains 2018
+Source: PYQ-style
 
 Q131. How many different arrangements can be made using all the letters of the word ‘INDEPENDENCE’ such that all the vowels are together?
 (1) 16800 (2) 33600 (3) 8400 (4) 50400
 
 Answer: (1) 16800
 Solution: Letters: I, N(3), D(2), E(4), P, C. Vowels: I, E, E, E, E (5 vowels, E repeated 4 times). Consonants: N,N,N, D,D, P,C (7, N thrice, D twice). Treat vowels as a block. Units = 7 consonants + 1 block = 8. Arrange them: 8! / (3! 2!) = 3360. Inside block: 5! / 4! = 5. Total = 3360 × 5 = 16800.
-Source: SSC CGL 2019
+Source: PYQ-style
 
 Q132. In how many ways can 5 books be selected from 10 different books and then arranged on a shelf, if two particular books are never selected together?
 (1) 23520 (2) 30240 (3) 15120 (4) 11760
@@ -57,7 +57,7 @@ Solution: Total sum of all six digits = 15 (multiple of 3). To form a 5-digit nu
 Case 1: Omit 0 → digits {1,2,3,4,5}, all 5! = 120 numbers.
 Case 2: Omit 3 → digits {0,1,2,4,5}. Total arrangements = 5! = 120. Subtract those starting with 0: 4! = 24. Valid = 120 – 24 = 96.
 Total = 120 + 96 = 216.
-Source: SSC CGL Tier II 2020
+Source: PYQ-style
 
 Q134. In how many ways can 8 persons be seated at a round table if three particular persons insist on sitting together, but two other persons refuse to sit together?
 (1) 432 (2) 576 (3) 288 (4) 720
@@ -66,14 +66,14 @@ Answer: (1) 432
 Solution: First, treat the three together as a block. Units: 1 block + 5 others = 6. Circular arrangement: (6–1)! = 120. Arrange within the block: 3! = 6. Total arrangements with the three together = 120 × 6 = 720.
 Now subtract those where the two particular persons are also together (in addition to the three together). Treat the two as a block and the three as another block. Units: 2 blocks + remaining 3 persons = 5. Circular: (5–1)! = 24. Internal arrangements: 3! × 2! = 12. So 24 × 12 = 288.
 Required = 720 – 288 = 432.
-Source: SSC CPO 2020
+Source: PYQ-style
 
 Q135. In how many ways can the letters of the word ‘PERMUTATION’ be arranged so that all consonants are together?
 (1) 259200 (2) 518400 (3) 129600 (4) 86400
 
 Answer: (1) 259200
 Solution: PERMUTATION: 11 letters. Vowels: E, U, A, I, O (5 distinct). Consonants: P, R, M, T, T, N (6 letters, T repeated twice). Treat consonants as a block. Units = 5 vowels + 1 block = 6 distinct units, arrange: 6! = 720. Inside consonant block: arrange 6 letters with T twice: 6! / 2! = 360. Total = 720 × 360 = 259200.
-Source: SSC CHSL 2019 (adapted)
+Source: PYQ-style
 
 Q136. How many 4-digit numbers divisible by 6 can be formed using the digits 0,1,2,3,4,5 without repetition?
 (1) 52 (2) 60 (3) 72 (4) 84
@@ -84,14 +84,14 @@ Case 1: Unit = 0. Then we need 3 digits from {1,2,3,4,5} with sum multiple of 3.
 Case 2: Unit = 2. Digits left: {0,1,3,4,5}. Need 3 digits with sum ≡ 2 mod 3 (since 2+sum ≡ 0). Subsets with sum ≡ 2: {0,1,3} sum 4≡1? Wait recalc: 2+sum ≡0 ⇒ sum ≡ 1 mod 3? Actually 2 ≡ 2 mod 3, so need sum ≡ 1 mod 3 to total 0 mod 3 (since 2+1=3≡0). So sum ≡ 1 mod 3. Subsets from {0,1,3,4,5} with sum ≡ 1: {0,1,3} sum 4≡1, {0,3,4} sum 7≡1, {1,4,5} sum 10≡1. For subsets containing 0, remove arrangements with leading zero: {0,1,3} gives 4 valid, {0,3,4} gives 4 valid, {1,4,5} gives 6 valid. Total = 4+4+6 = 14.
 Case 3: Unit = 4. Symmetric to unit 2: 14 numbers.
 Total = 24 + 14 + 14 = 52.
-Source: SSC CGL Tier II 2018
+Source: PYQ-style
 
 Q137. In how many ways can 4 Indians, 3 Americans, and 2 Russians be seated at a round table so that no two Russians sit together? (All individuals are distinct)
 (1) 30240 (2) 60480 (3) 15120 (4) 7200
 
 Answer: (1) 30240
 Solution: First seat the 7 non-Russians (4 Indians + 3 Americans) around the table: (7–1)! = 720 ways. They create 7 gaps. Choose 2 of these gaps for the two distinct Russians and arrange them: 7P2 = 42. Total = 720 × 42 = 30240.
-Source: SSC CGL 2021
+Source: PYQ-style
 
 Q138. In how many ways can 10 different toys be divided into three groups containing 3, 3, and 4 toys if the groups are unlabelled?
 (1) 2100 (2) 4200 (3) 3150 (4) 6300
@@ -105,7 +105,7 @@ Q139. How many arrangements can be made with the digits of the number 112233 suc
 
 Answer: (1) 30
 Solution: Total arrangements = 6! / (2!2!2!) = 90. Let A₁, A₂, A₃ be the sets where the two 1’s, two 2’s, two 3’s are together respectively. |A₁| = treat two 1’s as block: 5! / (2!2!) = 30. Similarly for A₂, A₃. |A₁∩A₂| = blocks for 1 and 2, plus 3,3: 4! / 2! = 12. Same for A₁∩A₃, A₂∩A₃. |A₁∩A₂∩A₃| = 3! = 6. By inclusion-exclusion, valid = 90 – 3×30 + 3×12 – 6 = 90 – 90 + 36 – 6 = 30.
-Source: SSC CGL Tier II 2020
+Source: PYQ-style
 
 Q140. In how many ways can 4 letters be selected from the word ‘EXAMINATION’?
 (1) 136 (2) 126 (3) 168 (4) 144
@@ -116,42 +116,42 @@ Case all distinct: choose 4 from 8 types: 8C4 = 70.
 Case one pair and two distinct: choose which pair (3), then choose 2 distinct from remaining 7 types: 3 × 7C2 = 3 × 21 = 63.
 Case two pairs: choose 2 pairs from 3: 3C2 = 3.
 Total = 70 + 63 + 3 = 136.
-Source: SSC CHSL 2018
+Source: PYQ-style
 
 Q141. How many numbers greater than 1000000 can be formed by using the digits 1, 2, 0, 2, 4, 2, 4?
 (1) 360 (2) 420 (3) 480 (4) 300
 
 Answer: (1) 360
 Solution: Total digits = 7 (1,2,2,2,4,4,0). Total arrangements = 7! / (3! 2!) = 5040 / 12 = 420. Subtract arrangements with leading zero: fix 0 first, arrange rest {1,2,2,2,4,4}: 6! / (3! 2!) = 720 / 12 = 60. Valid = 420 – 60 = 360.
-Source: SSC CGL 2019
+Source: PYQ-style
 
 Q142. In how many ways can 4 different rings be worn on 5 fingers of one hand if any finger can hold any number of rings and the order of rings on a finger matters?
 (1) 1680 (2) 120 (3) 625 (4) 720
 
 Answer: (1) 1680
 Solution: Number of ways to distribute r distinct items into n distinct boxes with order within boxes = n(n+1)…(n+r−1). Here r=4, n=5 → 5 × 6 × 7 × 8 = 1680.
-Source: IBPS PO Mains 2018
+Source: PYQ-style
 
 Q143. In how many ways can a 4-member committee be formed from 5 men and 5 women such that the committee contains at least as many women as men?
 (1) 155 (2) 125 (3) 210 (4) 175
 
 Answer: (1) 155
 Solution: Cases: 2W & 2M: 5C2 × 5C2 = 10 × 10 = 100; 3W & 1M: 5C3 × 5C1 = 10 × 5 = 50; 4W & 0M: 5C4 = 5. Total = 100 + 50 + 5 = 155.
-Source: SSC MTS 2019
+Source: PYQ-style
 
 Q144. How many 6-digit numbers can be formed from the digits 1,2,3,4,5,6 without repetition that are divisible by 4?
 (1) 192 (2) 144 (3) 216 (4) 240
 
 Answer: (1) 192
 Solution: A number is divisible by 4 if the last two digits form a multiple of 4. From {1,2,3,4,5,6}, valid two-digit endings: 12,16,24,28,32,36,52,56,64 → 8 endings (cannot use 28 since 8 not in set, so 8 endings as enumerated). For each ending, arrange the remaining 4 digits in the first four places: 4! = 24. Total = 8 × 24 = 192.
-Source: SSC CGL 2016
+Source: PYQ-style
 
 Q145. In how many ways can 5 distinct black balls and 4 distinct white balls be arranged in a row such that no two white balls are together?
 (1) 43200 (2) 34560 (3) 50400 (4) 28800
 
 Answer: (1) 43200
 Solution: Arrange the 5 distinct black balls first: 5! = 120. They create 6 gaps. Choose 4 of these gaps and arrange the 4 distinct white balls in them: 6P4 = 360. Total = 120 × 360 = 43200.
-Source: SSC CHSL 2020
+Source: PYQ-style
 
 Q146. How many 4-digit numbers divisible by 5 can be formed using the digits 0,1,2,3,4,5,6 without repetition?
 (1) 220 (2) 240 (3) 180 (4) 260
@@ -161,14 +161,14 @@ Solution: Divisible by 5 ⇒ unit digit 0 or 5.
 Case 1: Unit = 0. First three digits from {1,2,3,4,5,6} with no repetition: 6P3 = 120.
 Case 2: Unit = 5. Remaining digits: {0,1,2,3,4,6}. Number of 3-digit arrangements (no leading zero): total 6P3 = 120, subtract those with 0 first: fix 0, arrange remaining 5 in tens and units? Actually first digit from 5 non-zero options, then pick two from remaining 5 and arrange: 5 × 5P2 = 5 × 20 = 100. Or directly: first digit 4 choices? Let's do: first digit cannot be 0, so 5 choices (1,2,3,4,6). Then tens digit: from remaining 5 digits (including 0). Units: remaining 4. So 5 × 5 × 4 = 100.
 Total = 120 + 100 = 220.
-Source: SSC CGL 2017
+Source: PYQ-style
 
 Q147. In how many ways can the letters of the word ‘EQUATION’ be arranged such that all vowels appear in alphabetical order (A, E, I, O, U)?
 (1) 336 (2) 672 (3) 1680 (4) 40320
 
 Answer: (1) 336
 Solution: EQUATION has 8 distinct letters: vowels A,E,I,O,U (5) and consonants Q,T,N (3). Total arrangements = 8! = 40320. To keep vowels in a fixed alphabetical order, divide by 5! (the number of ways to order the vowels). Number = 8! / 5! = 8×7×6 = 336.
-Source: SSC CGL 2018
+Source: PYQ-style
 
 Q148. In how many ways can 4 married couples be seated at a round table such that men and women sit alternately and no husband sits next to his wife?
 (1) 54 (2) 120 (3) 72 (4) 144
@@ -192,6 +192,6 @@ Solution: Multiple of 5 ⇒ unit digit 0 or 5.
 Case 1: Unit = 0. First 4 digits chosen from the remaining 9 digits (1–9) and arranged: 9P4 = 9×8×7×6 = 3024.
 Case 2: Unit = 5. First digit cannot be 0 and cannot be 5: 8 choices (1,2,3,4,6,7,8,9). Then arrange the remaining 3 digits from the remaining 8 digits (including 0, excluding 5 and the chosen first digit): 8P3 = 8×7×6 = 336. Total = 8 × 336 = 2688.
 Overall = 3024 + 2688 = 5712.
-Source: SSC CGL Tier II 2021
+Source: PYQ-style
 
 🚀 Review this set after 2 days. Pick any 5 wrong or doubtful questions, re-solve them, and explain the hidden trap aloud in 30 seconds to cement the concept.

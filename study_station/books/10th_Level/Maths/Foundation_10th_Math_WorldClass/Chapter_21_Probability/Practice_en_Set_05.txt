@@ -122,7 +122,7 @@ Source: NCERT Class 10, Ex 15.1 Q2.
 
 Answer: (A)
 Solution: Perfect square sums possible: 4, 9. Ways: sum 4 → 3, sum 9 → 4. Total favorable = 7. Probability = 7/36.
-Source: SSC MTS 2021 (Memory Based).
+Source: PYQ-style
 
 105. A bag contains 5 red, 3 green, and 2 blue balls. Two balls are drawn at random without replacement. What is the probability that both are green?
 (A)
@@ -221,7 +221,7 @@ C
 	​
 
 =45. Exactly one defective: pick 1 from 4 defectives and 1 from 6 non-defectives = 4×6 = 24. Probability = 24/45 = 8/15.
-Source: SSC GD 2022 (Memory Based).
+Source: PYQ-style
 
 107. If P(A) = 0.4, P(B) = 0.5, and A and B are mutually exclusive, find P(A ∪ B).
 (A) 0.2  (B) 0.9  (C) 0.7  (D) 0.6
@@ -293,7 +293,7 @@ Source: NCERT Class 10, Ex 15.1 Q8 (adapted).
 
 Answer: (A)
 Solution: Product even if at least one number is even. P(both odd) = 3/6 × 3/6 = 1/4. So P(even) = 1 – 1/4 = 3/4.
-Source: SSC CGL Tier 1, 2021 (Memory Based).
+Source: PYQ-style
 
 110. A bag contains 7 white and 5 black balls. Two balls are drawn with replacement. What is the probability that one is white and the other black?
 (A)
@@ -326,7 +326,7 @@ Source: SSC CGL Tier 1, 2021 (Memory Based).
 
 Answer: (B)
 Solution: Total balls = 12. P(white) = 7/12, P(black) = 5/12. P(W then B) + P(B then W) = (7/12 × 5/12) + (5/12 × 7/12) = 35/144 + 35/144 = 70/144 = 35/72.
-Source: RRB NTPC 2020 (Memory Based).
+Source: PYQ-style
 
 111. Two cards are drawn from a standard deck without replacement. What is the probability that both are face cards?
 (A)
@@ -359,7 +359,7 @@ Source: RRB NTPC 2020 (Memory Based).
 
 Answer: (A)
 Solution: Total face cards = 12 (J, Q, K of each suit). P(first face) = 12/52 = 3/13. P(second face | first face) = 11/51. P(both) = (12/52)×(11/51) = 132/2652 = 11/221.
-Source: SSC CGL Tier 2, 2020 (Memory Based).
+Source: PYQ-style
 
 112. In a single throw of three dice, what is the probability of getting a sum of 15 or more? (Hint: count ways for sums 15,16,17,18)
 (A)
@@ -550,7 +550,7 @@ Source: Based on NCERT Class 10, Ex 15.1 Q10.
 
 Answer: (A)
 Solution: Divisible by both 3 and 5 means divisible by 15. Multiples of 15 up to 30: 15, 30 → 2 numbers. Total numbers = 30. Probability = 2/30 = 1/15.
-Source: SSC CPO 2020 (Memory Based).
+Source: PYQ-style
 
 115. Two dice are thrown together. Find the probability that the sum of the numbers is a multiple of 3 or 5.
 (A)
@@ -583,7 +583,7 @@ Source: SSC CPO 2020 (Memory Based).
 
 Answer: (B)
 Solution: Multiples of 3: 3,6,9,12 → ways 2+5+4+1 =12. Multiples of 5: 5,10 → ways 4+3 =7. Overlap (multiple of 15, none in 2 dice sums because max 12). So total favorable = 12+7=19. Probability = 19/36.
-Source: SSC CHSL 2019 (Memory Based).
+Source: PYQ-style
 
 116. A bag contains 4 red, 5 blue, and 1 green ball. Two balls are drawn at random. What is the probability that they are of the same colour?
 (A)
@@ -849,7 +849,7 @@ C
 	​
 
 =455. Favourable: pick one from each colour: 6 red × 4 white × 5 blue = 120. But this counts ordered triplets; we need combination count: choose 1 red from 6, 1 white from 4, 1 blue from 5 = 6×4×5 = 120. So probability = 120/455 = 24/91.
-Source: RRB Group D 2021 (Memory Based).
+Source: PYQ-style
 
 120. A coin is tossed 5 times. What is the probability of getting exactly 3 heads?
 (A)
@@ -1025,7 +1025,7 @@ C
 	​
 
 =10, and 1 black from 8 = 8. So favorable = 10×8=80. Probability = 80/286 = 40/143. Wait, 40/143 is option A. That would be answer. I computed 10*8=80, 80/286 = 40/143. So answer A. I'll check: 5C2=10, 8C1=8, 10*8=80. 13C3=286. 80/286 = 40/143. So answer A. I'll assign (A) 40/143. So answer (A). I'll set options: (A) 40/143, (B) 70/143, (C) 28/143, (D) 35/143. So answer (A). Alright.
-Source: SSC CGL Tier 2, 2021 (Memory Based).
+Source: PYQ-style
 
 123. (Hard) A fair coin is tossed 6 times. What is the probability of getting at least 4 heads?
 (A)
@@ -1304,7 +1304,7 @@ Source: NCERT Class 10, Ex 15.1 Q2.
 
 Answer: (A)
 Solution: Perfect square sums possible: 4, 9. Ways: sum 4 → 3, sum 9 → 4. Total favorable = 7. Probability = 7/36.
-Source: SSC MTS 2021 (Memory Based).
+Source: PYQ-style
 
 105. A bag contains 5 red, 3 green, and 2 blue balls. Two balls are drawn at random without replacement. What is the probability that both are green?
 (A)
@@ -1403,7 +1403,7 @@ C
 	​
 
 =45. Exactly one defective: pick 1 from 4 defectives and 1 from 6 non-defectives = 4×6 = 24. Probability = 24/45 = 8/15.
-Source: SSC GD 2022 (Memory Based).
+Source: PYQ-style
 
 107. If P(A) = 0.4, P(B) = 0.5, and A and B are mutually exclusive, find P(A ∪ B).
 (A) 0.2  (B) 0.9  (C) 0.7  (D) 0.6
@@ -1475,7 +1475,7 @@ Source: NCERT Class 10, Ex 15.1 Q8 (adapted).
 
 Answer: (A)
 Solution: Product even if at least one number is even. P(both odd) = 3/6 × 3/6 = 1/4. So P(even) = 1 – 1/4 = 3/4.
-Source: SSC CGL Tier 1, 2021 (Memory Based).
+Source: PYQ-style
 
 110. A bag contains 7 white and 5 black balls. Two balls are drawn with replacement. What is the probability that one is white and the other black?
 (A)
@@ -1508,7 +1508,7 @@ Source: SSC CGL Tier 1, 2021 (Memory Based).
 
 Answer: (B)
 Solution: Total balls = 12. P(white) = 7/12, P(black) = 5/12. P(W then B) + P(B then W) = (7/12 × 5/12) + (5/12 × 7/12) = 35/144 + 35/144 = 70/144 = 35/72.
-Source: RRB NTPC 2020 (Memory Based).
+Source: PYQ-style
 
 111. Two cards are drawn from a standard deck without replacement. What is the probability that both are face cards?
 (A)
@@ -1541,7 +1541,7 @@ Source: RRB NTPC 2020 (Memory Based).
 
 Answer: (A)
 Solution: Total face cards = 12. P(first face) = 12/52 = 3/13. P(second face | first face) = 11/51. P(both) = (12/52)×(11/51) = 132/2652 = 11/221.
-Source: SSC CGL Tier 2, 2020 (Memory Based).
+Source: PYQ-style
 
 112. In a single throw of three dice, what is the probability of getting a sum of 15 or more?
 (A)
@@ -1640,7 +1640,7 @@ Source: Based on NCERT Class 10, Ex 15.1 Q10.
 
 Answer: (A)
 Solution: Divisible by both 3 and 5 means divisible by 15. Multiples of 15 up to 30: 15, 30 → 2. Probability = 2/30 = 1/15.
-Source: SSC CPO 2020 (Memory Based).
+Source: PYQ-style
 
 115. Two dice are thrown together. Find the probability that the sum of the numbers is a multiple of 3 or 5.
 (A)
@@ -1673,7 +1673,7 @@ Source: SSC CPO 2020 (Memory Based).
 
 Answer: (B)
 Solution: Multiples of 3: 3,6,9,12 → ways 2+5+4+1=12. Multiples of 5: 5,10 → ways 4+3=7. No overlap (no sum is multiple of both 3 and 5, i.e., 15, max sum 12). Total favorable = 19. Probability = 19/36.
-Source: SSC CHSL 2019 (Memory Based).
+Source: PYQ-style
 
 116. A bag contains 4 red, 5 blue, and 1 green ball. Two balls are drawn at random. What is the probability that they are of the same colour?
 (A)
@@ -1849,7 +1849,7 @@ C
 	​
 
 =455. Favorable: one red, one white, one blue = 6 × 4 × 5 = 120. Probability = 120/455 = 24/91.
-Source: RRB Group D 2021 (Memory Based).
+Source: PYQ-style
 
 120. A coin is tossed 5 times. What is the probability of getting exactly 3 heads?
 (A)
@@ -1981,7 +1981,7 @@ C
 	​
 
 =10) and one black from 8 (8 ways) = 10×8 = 80. Probability = 80/286 = 40/143.
-Source: SSC CGL Tier 2, 2021 (Memory Based).
+Source: PYQ-style
 
 123. A fair coin is tossed 6 times. What is the probability of getting at least 4 heads?
 (A)

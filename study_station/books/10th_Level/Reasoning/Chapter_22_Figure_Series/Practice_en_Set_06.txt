@@ -17,7 +17,7 @@ Options:
 
 Answer: (B)
 Solution: Odd positions (1,3,5): Arrow rotates 90° clockwise each time (right → down → left). The dot remains at the tail (the non‑pointed end) on odd steps. Even positions (2,4): Arrow is the mirror image of the previous odd arrow, and the dot moves to the head (pointed end). Step 5 is odd → left‑pointing arrow, dot at tail. The trap: Students who assume the dot always stays at tail will pick (A) or (C).
-Source: SSC CGL 2023 (Shift 2, adapted)
+Source: PYQ-style
 
 Question 127 (Hard)
 Type: Classification (Tiny Off‑Centre Dot)
@@ -61,7 +61,7 @@ A square divided into four quadrants (TL, TR, BR, BL). Two symbols: a black tria
 This is actually a pattern where triangle moves clockwise, and circle moves anticlockwise but always opposite? Let's check: (i) Tri TL, no circle. (ii) Tri TR, circle BL. (iii) Tri BR, circle TL. (iv) Tri BL, circle TR. (v) Tri TL, circle BR. So circle always occupies the corner diagonally opposite to the triangle? In (ii) TR vs BL diagonal. (iii) BR vs TL diagonal. (iv) BL vs TR diagonal. (v) TL vs BR diagonal. So it's consistent: triangle moves clockwise each step, and a circle appears from step 2 onward, occupying the corner diagonally opposite the triangle. So pattern: Step 1: only triangle at start; from step 2, the circle appears and both move clockwise. That's a hard pattern because of the sudden appearance. So we can ask for (v) or (vi) but they gave (i)-(iv) and ask (v). Already have (v) described. So answer would be (v) as described. That's hard, but we can set that as a question. I'll incorporate.
 
 Let's structure: Problem Figures (i)-(iv), (v) is answer. So (i) Tri TL, no circle. (ii) Tri TR, circle BL. (iii) Tri BR, circle TL. (iv) Tri BL, circle TR. (v) ? Options: (A) Tri TL, circle BR (B) Tri TR, circle BL (C) Tri BR, circle TL (D) Tri TL, no circle. Answer (A) because triangle moves to TL, circle to BR (diagonal). The trap: The circle didn't exist in step 1, so students might be confused. So that's Q128.
-Source: SSC CGL 2024 (hard)
+Source: PYQ-style
 
 Question 129 (Hard)
 Type: Figure Series (Two Arrows Rotating at Different Speeds)
@@ -73,14 +73,14 @@ Two arrows placed at the centre of a circle, both starting pointing up. The long
 (iv) L left (270°), S down‑right (135°).
 (v) L up (360°), S left (180°).
 (vi) ? – but we need a question with 4 problem figures and 5th unknown. We can use (i)-(iv) and ask (v). Then answer is (v) as above. So we need options: (A) L up, S left; (B) L up, S up‑right; (C) L right, S down; etc. I'll set problem figures (i)-(iv), then (v) ?. So answer: L up (360°), S left (180°). I'll craft options accordingly.
-Source: SSC CPO 2023 (hard)
+Source: PYQ-style
 
 Question 130 (Hard)
 Type: Classification (Number of Enclosed Regions)
 Problem Figures:
 Five figures, each formed by overlapping a square and a circle. In four of them, the overlapping arrangement creates exactly 3 distinct enclosed regions. In one figure, there are only 2 enclosed regions because the square is entirely inside the circle, so the interior of the square is not a separate region from the circle's interior (just one region outside square but inside circle, and the outside). Wait, careful: A square inside a circle: the circle's interior minus the square's interior forms one region (if square is not touching), and the square's interior is another, so total 2 regions? Actually, if the square is completely inside the circle, the boundaries separate two regions: inside the square, and between the square and the circle. So 2 regions. If they overlap partially, there can be 3 or 4. I'll design: (a) square and circle overlapping like a Venn diagram with two intersection points → 3 regions: square‑only, circle‑only, intersection. (b) same 3 regions. (c) square entirely inside circle → 2 regions. (d) 3 regions. (e) 3 regions. So odd is (c). That's hard because counting enclosed regions in overlapping shapes requires spatial reasoning.
 Options: (A) a (B) b (C) c (D) d. Answer (C).
-Source: SSC CGL 2021 (hard)
+Source: PYQ-style
 
 Question 131 (Hard) – ⚠️ Examiner's Trap (Increasing Rotation Increment with Mirror Flip)
 Type: Figure Series
@@ -132,7 +132,7 @@ Options:
 
 Answer: (A)
 Solution: ▲ moves clockwise one quadrant each step: TL→TR→BR→BL→TL. ○ appears from step 2 onward, always occupying the quadrant diagonally opposite to ▲. Step 5: ▲ back to TL, so ○ is in BR (diagonal). The trap: the sudden appearance of ○ and the missing ○ in step 1 misleads students into following only the triangle’s movement or assuming ○ was always there.
-Source: SSC CGL 2024 (pattern, hard)
+Source: PYQ-style
 
 Question 127 (Hard)
 Type: Classification (Minute Asymmetry in a ‘Perfect’ Shape)
@@ -169,7 +169,7 @@ Options:
 
 Answer: (A)
 Solution: L rotates 90° clockwise every step. S rotates 45° clockwise every step. Step 5: L completes 360° (back to up), S reaches 180° (left).
-Source: SSC CPO 2023 (hard)
+Source: PYQ-style
 
 Question 129 (Hard)
 Type: Classification (Number of Enclosed Regions)
@@ -186,7 +186,7 @@ Options (Odd):
 
 Answer: (C)
 Solution: All except (c) produce exactly three enclosed regions. Figure (c) yields only two regions because the square is entirely inside the circle, so the interior of the square is not separated from the circle’s interior by an intersection line. Counting enclosed regions is a high‑difficulty spatial task.
-Source: SSC CGL 2021 (hard)
+Source: PYQ-style
 
 Question 130 (Hard) – ⚠️ Examiner's Trap (Alternating Rule for Two Elements with a Hidden Cycle)
 Type: Figure Series
@@ -260,7 +260,7 @@ Options:
 
 Answer: (A)
 Solution: ▲ moves clockwise one quadrant each step: TL→TR→BR→BL→TL. ○ appears from step 2 onward, always occupying the quadrant diagonally opposite to ▲. Step 5: ▲ back to TL, so ○ is in BR (diagonal). The trap: the sudden appearance of ○ and the missing ○ in step 1 misleads students into following only the triangle’s movement or assuming ○ was always there.
-Source: SSC CGL 2024 (pattern, hard)
+Source: PYQ-style
 
 Question 127 (Hard)
 Type: Classification (Minute Asymmetry in a ‘Perfect’ Shape)
@@ -297,7 +297,7 @@ Options:
 
 Answer: (A)
 Solution: L rotates 90° clockwise every step. S rotates 45° clockwise every step. Step 5: L completes 360° (back to up), S reaches 180° (left).
-Source: SSC CPO 2023 (hard)
+Source: PYQ-style
 
 Question 129 (Hard)
 Type: Classification (Number of Enclosed Regions)
@@ -314,7 +314,7 @@ Options (Odd):
 
 Answer: (C)
 Solution: All except (c) produce exactly three enclosed regions. Figure (c) yields only two regions because the square is entirely inside the circle, so the interior of the square is not separated from the circle’s interior by an intersection line. Counting enclosed regions is a high‑difficulty spatial task.
-Source: SSC CGL 2021 (hard)
+Source: PYQ-style
 
 Question 130 (Hard)
 Type: Figure Series (Polygon Side Addition with Alternating Orientation)
@@ -333,7 +333,7 @@ Options:
 
 Answer: (A)
 Solution: The number of sides increases by 1 each step (3,4,5,6,7). The orientation alternates: 0° (upright) for odd steps, 45° (diagonal) for even steps. Step 5 is odd → a 7‑sided polygon (heptagon) in upright orientation.
-Source: SSC CHSL 2022 (hard)
+Source: PYQ-style
 
 Question 131 (Hard) – ⚠️ Examiner's Trap (Tiny Extra Line Segment)
 Type: Classification
@@ -350,7 +350,7 @@ Options (Odd):
 
 Answer: (C)
 Solution: The extra line is easily missed; careful counting reveals the discrepancy. This trap tests attention to minute detail.
-Source: IBPS PO Mains 2024 (hard)
+Source: PYQ-style
 
 Question 132 (Hard)
 Type: Figure Series (Rotating and Lengthening Chord)
@@ -361,7 +361,7 @@ A circle with a chord drawn inside.
 (iii) Chord rotated another 30° (60° total), longer still.
 (iv) Chord rotated another 30° (90°), almost a diameter.
 (v) Chord rotated another 30° (120°), length now starts decreasing? Or it becomes a full diameter then shrinks? The pattern: chord rotates 30° clockwise and its length increases until it becomes a diameter at 90°, then it shrinks symmetrically. So: (i) short horizontal (0°). (ii) 30°, longer. (iii) 60°, longer. (iv) 90°, diameter (maximum). (v) 120°, length same as 60° but on the other side (begins to shrink). The next step (vi) would be 150°, shorter, but we ask for (v). I'll set problem figures (i) to (iv) and ask (v). So (v) should be a chord at 120° (measured from horizontal clockwise), length equal to the chord at 60°. So the chord is longer than at 30° but shorter than diameter. That's a hard pattern of cyclic lengthening and shortening. I'll describe options: (A) chord at 120° (pointing down‑left), length medium; (B) chord at 90°; (C) chord at 150° short; (D) chord at 30° short. Answer (A).
-Source: SSC CGL 2022 (hard, adapted)
+Source: PYQ-style
 
 Question 133 (Hard)
 Type: Figure Series (4‑Cell Binary Counter)
@@ -373,7 +373,7 @@ A row of four small squares (cells). In each step, some squares are black (1) an
 (iv) 0 0 1 1.
 (v) 0 1 0 0.
 (vi) ? – but we only need up to step 5? Let's give problem figures (i) to (iv), ask (v). So (v) is 0 1 0 0. Options: (A) 0100 (B) 0011 (C) 0101 (D) 0110. Answer (A).
-Source: SSC CGL 2023 (hard, digital logic pattern)
+Source: PYQ-style
 
 Question 134 (Hard)
 Type: Classification (Intersection Count in Tangled Lines)
@@ -390,7 +390,7 @@ Options (Odd):
 
 Answer: (D)
 Solution: All except (d) have exactly 5 true crossing points. In (d), one apparent intersection is actually a point of tangency (the lines just touch), reducing the count to 4.
-Source: UPSC CSAT 2023 (hard)
+Source: PYQ-style
 
 Question 135 (Hard)
 Type: Figure Series (Stick Figure Limbs Rotating Sequentially)
@@ -413,7 +413,7 @@ A regular pentagon. A black dot moves along its perimeter in jumps of two sides 
 (iv) Dot to vertex 2 (after 5, next clockwise is 1, skip to 2).
 (v) Dot to vertex 4.
 (vi) Dot to vertex 1. If we ask for (v) with (i)‑(iv) given, that works. So (i) V1, (ii) V3, (iii) V5, (iv) V2, (v) V4. Options: (A) V4 (B) V1 (C) V3 (D) V5. Answer (A). That's medium but presented as hard with the pentagon. I'll call it hard.
-Source: SSC CPO 2022 (hard)
+Source: PYQ-style
 
 Question 136 (Hard)
 Type: Figure Series (Alternating Addition of a Petal and Rotation)
@@ -447,7 +447,7 @@ Options (Odd):
 
 Answer: (C)
 Solution: The tiny line is easily overlooked. Only by meticulously counting the line segments can one detect the difference.
-Source: IBPS PO Mains 2024 (hard)
+Source: PYQ-style
 
 Question 132 (Hard)
 Type: Figure Series (Chord Rotating and Changing Length)
@@ -467,7 +467,7 @@ Options:
 
 Answer: (A)
 Solution: The chord’s length increases from 0° to 90° and then decreases mirror‑symmetrically from 90° to 180°. At 120°, the length is the same as at 60°. The pattern of rotation and length change is a hard spatial‑temporal sequence.
-Source: SSC CGL 2022 (hard, adapted)
+Source: PYQ-style
 
 Question 133 (Hard)
 Type: Figure Series (4‑Bit Binary Counter)
@@ -488,7 +488,7 @@ Options:
 
 Answer: (A)
 Solution: The cells represent a binary number incrementing by 1 each step: 0000 → 0001 → 0010 → 0011 → 0100. This is a classic hard non‑verbal reasoning pattern disguised as a digital logic sequence.
-Source: SSC CGL 2023 (hard)
+Source: PYQ-style
 
 Question 134 (Hard)
 Type: Classification (Tangency vs. Intersection)
@@ -505,7 +505,7 @@ Options (Odd):
 
 Answer: (D)
 Solution: The point of tangency looks almost like an intersection but does not count as one. Careful inspection reveals the lines just meet and do not cross.
-Source: UPSC CSAT 2023 (hard)
+Source: PYQ-style
 
 Question 135 (Hard)
 Type: Figure Series (Dot Moving Around a Regular Pentagon in Jumps of Two)
@@ -525,7 +525,7 @@ Options:
 
 Answer: (A)
 Solution: The dot advances by two vertices clockwise each step: 1→3→5→2→4→1… So after vertex 2, the next is vertex 4. The pentagon’s geometry makes the pattern non‑obvious.
-Source: SSC CPO 2022 (hard)
+Source: PYQ-style
 
 Question 136 (Hard)
 Type: Figure Series (Alternating Shape Substitution)
@@ -544,7 +544,7 @@ Options:
 
 Answer: (A)
 Solution: Outer shape colour alternates black/white. Outer shape sequence: circle, square, triangle, pentagon, hexagon. Inner shape is the next in the shape sequence and its colour is opposite to the outer. So step 5: black outer hexagon, white inner heptagon.
-Source: SSC CGL 2024 (hard)
+Source: PYQ-style
 
 Question 137 (Hard)
 Type: Figure Series (Incrementing Rotation with a Flip)
@@ -576,7 +576,7 @@ Options:
 
 Pattern: Arrow direction alternates rotation and mirror: odd steps: rotate 90° CW from previous odd; even steps: mirror of previous odd. Number of feathers alternates: odd steps 1 feather, even steps 2 feathers. Step 5 odd: left? Wait, sequence: (i) right, (iii) down, (v) left. So step 5: left‑pointing arrow, and odd step so 1 feather. But left‑pointing with 1 feather is option (B)? Option (B) says left with 2 feathers. I need to adjust. If odd steps have 1 feather, then (i) right 1, (iii) down 1, (v) left 1. So option should be left with 1 feather. I'll make options: (A) right 1, (B) left 1, (C) left 2, (D) down 1. So answer (B). But is that hard? The alternating feather count is subtle. I'll keep it as Q137.
 
-Source: SSC CHSL 2023 (hard)
+Source: PYQ-style
 
 Question 138 (Hard)
 Type: Classification (Odd One Out by Shading Percentage)
@@ -638,7 +638,7 @@ Options:
 
 Answer: (A)
 Solution: The square alternates orientation and reduces in size linearly. After (iv) diamond, next is upright with further reduced size.
-Source: SSC CGL 2021 (hard)
+Source: PYQ-style
 
 Question 141 (Hard) – ⚠️ Examiner's Trap (One Element Stops Moving Mid‑Series)
 Type: Figure Series
@@ -658,7 +658,7 @@ Options:
 
 Solution: Dot moves 90° CW each step: 12→3→6→9→12. Triangle moves 90° CW only in steps 2 and 3; from step 4 onward it stays at its position (12 o’clock). So (v) dot at 12, triangle at 12. The trap: assuming triangle continues moving.
 Answer: (A)
-Source: SSC CGL 2023 (hard)
+Source: PYQ-style
 
 Question 142 (Hard)
 Type: Classification (Odd One Out by Number of Acute Angles)
@@ -672,7 +672,7 @@ Five star‑like polygons (various regular star polygons).
 (d) 2 acute.
 (e) 2 acute.
 Odd: (C).
-Source: UPSC CSAT 2021 (hard)
+Source: PYQ-style
 
 Question 143 (Hard)
 Type: Figure Series (Alternating Addition and Removal of a Petal)
@@ -688,7 +688,7 @@ A flower with petals around a centre.
 (iii) 2 petals (remove the original one).
 (iv) 4 petals (add two opposite to the remaining).
 (v) 3 petals (remove the one that was the first of the pair?). Complex. I'll just do a simple numerical series but with a hidden rule: the petal count is the Fibonacci sequence? 1,1,2,3,5,8. That's a hard pattern if not expected. So (i) 1, (ii) 1, (iii) 2, (iv) 3, (v) 5. So (v) 5 petals. Options: (A) 5 petals (B) 4 (C) 3 (D) 6. Answer (A). That's a clever hard non‑verbal pattern because the shapes are identical except for number.
-Source: SSC CHSL 2024 (hard)
+Source: PYQ-style
 
 Question 144 (Hard)
 Type: Figure Series (Incremental Rotation of a Polygon with Fixed Inner Dot)
@@ -728,7 +728,7 @@ Options:
 
 Answer: (A)
 Solution: Outer shape colour alternates: black (odd), white (even). Outer shape sequence: circle → square → triangle → pentagon → hexagon. Inner shape is always the next shape in that sequence, with colour opposite to the outer shape. Step 5 is odd → black outer, next shape is hexagon; inner shape is heptagon (white).
-Source: SSC CGL 2024 (hard)
+Source: PYQ-style
 
 Question 137 (Hard) – ⚠️ Examiner's Trap (Alternating Feather Count)
 Type: Figure Series
@@ -748,7 +748,7 @@ Options:
 
 Answer: (B)
 Solution: Arrow direction alternates between rotation (odd steps) and mirror (even steps). Rotation is 90° clockwise on odd steps from the previous odd: right → down → left. So step 5 should be left‑pointing. Feather count: odd steps have 1 feather, even steps have 2 feathers. Step 5 is odd → left arrow with 1 feather. The trap is that many students will expect the feather count to alternate independently or continue the 2‑feather pattern.
-Source: SSC CHSL 2023 (hard)
+Source: PYQ-style
 
 Question 138 (Hard)
 Type: Classification (Shading Percentage Deviation)
@@ -785,7 +785,7 @@ Options:
 
 Answer: (A)
 Solution: The orientation alternates upright/diamond; size decreases each step. After (iv) diamond, (v) is upright and further reduced in size.
-Source: SSC CGL 2021 (hard)
+Source: PYQ-style
 
 Question 140 (Hard) – ⚠️ Examiner's Trap (One Element Stops Moving)
 Type: Figure Series
@@ -805,7 +805,7 @@ Options:
 
 Answer: (A)
 Solution: ● moves 90° clockwise every step (12→3→6→9→12). △ moves 90° clockwise only in steps 2 and 3; from step 4 onward it stops at 12 o’clock. Thus step 5: ● returns to 12, △ stays at 12. The trap is the unexpected cessation of △’s movement.
-Source: SSC CGL 2023 (hard)
+Source: PYQ-style
 
 Question 141 (Hard)
 Type: Classification (Number of Acute Angles)
@@ -822,7 +822,7 @@ Options (Odd):
 
 Answer: (C)
 Solution: Visualising and counting acute angles in a polygon is a high‑level skill. All except (c) have two acute interior angles; (c) has three.
-Source: UPSC CSAT 2021 (hard)
+Source: PYQ-style
 
 Question 142 (Hard)
 Type: Figure Series (Fibonacci Petal Count)
@@ -842,7 +842,7 @@ Options:
 
 Answer: (A)
 Solution: The number of petals follows the Fibonacci sequence: 1, 1, 2, 3, 5. So step 5 should have 5 petals.
-Source: SSC CHSL 2024 (hard)
+Source: PYQ-style
 
 Question 143 (Hard)
 Type: Figure Series (Two Arrow Rotations with Colour Swap)
@@ -865,7 +865,7 @@ Options:
 (D) Black down, white up; medium
 
 Solution: Black rotates 90° CCW each step, white rotates 90° CW each step. Length cycles short→medium→long→short→medium. So step 5: after (iv) black right/white left, next black up/white down; length medium. Answer (A).
-Source: SSC CPO 2023 (hard)
+Source: PYQ-style
 
 Question 144 (Hard)
 Type: Classification (Parallel Line Pairs)
@@ -882,7 +882,7 @@ Options (Odd):
 
 Answer: (C)
 Solution: Detecting parallel line pairs in a complex line arrangement is challenging. The extra pair is hidden among many lines.
-Source: SSC CGL 2022 (hard)
+Source: PYQ-style
 
 Question 145 (Hard)
 Type: Figure Series (Dot Moving with Increasing Step Size)
@@ -903,7 +903,7 @@ Options:
 
 Answer: (A)
 Solution: The step size increases by 1 each time: +1, +2, +3, +4. After 6 o’clock (step iv), add 4 → 10 o’clock.
-Source: RRB NTPC 2024 (hard)
+Source: PYQ-style
 
 Question 146 (Hard)
 Type: Figure Series (Concentric Circles with Shading Cycle)
@@ -923,7 +923,7 @@ Options:
 
 Answer: (A)
 Solution: The number of concentric circles increases by 1 each step. The shading alternates starting with the outermost being black. So 5 circles would have alternating colours beginning and ending with black.
-Source: SSC CHSL 2023 (hard)
+Source: PYQ-style
 
 Question 147 (Hard)
 Type: Figure Series (Square with Rotating Internal Triangle)
@@ -943,7 +943,7 @@ Options:
 
 Answer: (A)
 Solution: The triangle moves clockwise corner to corner, always pointing toward the centre. After (iv) bottom‑left, the next is top‑left with the same centripetal orientation.
-Source: SSC CPO 2021 (hard)
+Source: PYQ-style
 
 Question 148 (Hard)
 Type: Classification (Number of Line Segments – One with a ‘Dot’ Actually a Short Line)
@@ -960,7 +960,7 @@ Options (Odd):
 
 Answer: (C)
 Solution: The almost invisible segment is easily dismissed as a dot; careful observation reveals it as a line, increasing the segment count.
-Source: IBPS PO Mains 2023 (hard)
+Source: PYQ-style
 
 Question 149 (Hard)
 Type: Figure Series (Increasing and Decreasing Petals with Rotation)
@@ -984,7 +984,7 @@ Three circles in a row (like traffic lights). Each can be either black (on) or w
 (vi) 1 0 1.
 But we ask for the 6th figure? Use problem figures (i)-(iv) and ask (v). So (v) = 1 0 0. Options: (A) 100, (B) 101, (C) 110, (D) 111. Answer (A). That's similar to Q133 but with 3 bits. That's fine.
 
-Source: SSC CGL 2024 (hard)
+Source: PYQ-style
 
 Question 150 (Hard) – ⚠️ Examiner's Trap (Hidden Diagonal Symmetry Change)
 Type: Classification

@@ -9,7 +9,7 @@ Set 4: Practice MCQs (76–100)
 
 Answer: (A) Sparrow inside Bird, Ostrich inside Bird, no overlap between Sparrow and Ostrich.
 Solution: Both sparrow and ostrich are distinct types of birds. They are subsets of Bird, and they are disjoint (a sparrow cannot be an ostrich). So the correct diagram is one large circle ‘Bird’ containing two separate smaller circles.
-Source: SSC MTS 2020
+Source: PYQ-style
 
 77. Choose the Venn diagram that correctly depicts: Painter, Artist, Musician.
 चित्रकार, कलाकार, संगीतकार के लिए सही वेन आरेख चुनें।
@@ -20,7 +20,7 @@ Source: SSC MTS 2020
 
 Answer: (D) All three overlapping.
 Solution: All painters and musicians are artists. A painter can also be a musician. So the correct diagram: three intersecting circles, all overlapping, with Artist being a broader set but in standard logical Venn, all three can mutually overlap.
-Source: IBPS Clerk 2021
+Source: PYQ-style
 
 78. In a group of 180 people, 100 like tea, 80 like coffee, 40 like both. How many like neither?
 180 लोगों के समूह में 100 चाय, 80 कॉफी, 40 दोनों पसंद करते हैं। कितने कोई भी पसंद नहीं करते?
@@ -31,7 +31,7 @@ Source: IBPS Clerk 2021
 
 Answer: (B) 40.
 Solution: n(T ∪ C) = 100 + 80 – 40 = 140. Neither = 180 – 140 = 40.
-Source: RRB Group D 2022
+Source: PYQ-style
 
 79. In the given Venn diagram, circle P = Professor, circle Q = Researcher, circle R = Scientist. Numbers: only P=14, only Q=10, only R=16, P∩Q only=6, Q∩R only=7, P∩R only=5, all three=4. How many are professors but not researchers?
 *दिए गए वेन आरेख में P = प्रोफेसर, Q = शोधकर्ता, R = वैज्ञानिक। केवल P=14, केवल Q=10, केवल R=16, P∩Q केवल=6, Q∩R केवल=7, P∩R केवल=5, तीनों=4। कितने प्रोफेसर हैं जो शोधकर्ता नहीं हैं?*
@@ -42,7 +42,7 @@ Source: RRB Group D 2022
 
 Answer: (A) 19.
 Solution: Professors not researchers = only P + (P∩R only) = 14 + 5 = 19. Note: all three includes researchers, so excluded.
-Source: SSC CGL 2021
+Source: PYQ-style
 
 80. [Trap] Which Venn diagram represents the relationship among Fan, Table Fan, Ceiling Fan?
 पंखा, टेबल फैन, सीलिंग फैन के लिए सही वेन आरेख कौन-सा है?
@@ -57,7 +57,7 @@ Solution: Table fan and ceiling fan are types of fans, so they are subsets of th
 Answer: (C) Table Fan and Ceiling Fan inside Fan, separate.
 Solution: Both are distinct types of fans; they are subclasses of Fan but mutually exclusive, so two disjoint circles within a larger ‘Fan’ circle.
 Trap: Misconception that subcategories of a class must overlap; they are disjoint in this case.
-Source: SSC CHSL 2019
+Source: PYQ-style
 
 81. Statements: Some actors are dancers. All dancers are singers. No singer is a painter.
 Conclusions: I. Some actors are singers. II. Some dancers are not painters.
@@ -70,7 +70,7 @@ Conclusions: I. Some actors are singers. II. Some dancers are not painters.
 
 Answer: (C) Both I and II follow.
 Solution: I: Some actors are dancers, all dancers are singers → those actors are singers. True. II: All dancers are singers, and singers and painters are disjoint. So no dancer is a painter, which implies some dancers are not painters (in fact, all are not). True.
-Source: IBPS PO 2022
+Source: PYQ-style
 
 82. In the given Venn diagram, triangle = Engineers, rectangle = Managers, circle = Post‑graduates. Numbers: only Engineers=11, only Managers=9, only PG=13, Engg & Mgrs only=5, Mgrs & PG only=7, Engg & PG only=6, all three=3. How many are neither engineers nor managers?
 *दिए गए वेन आरेख में त्रिभुज = इंजीनियर, आयत = प्रबंधक, वृत्त = स्नातकोत्तर। केवल इंजीनियर=11, केवल प्रबंधक=9, केवल PG=13, इंजीनियर और प्रबंधक केवल=5, प्रबंधक और PG केवल=7, इंजीनियर और PG केवल=6, तीनों=3। कितने न तो इंजीनियर हैं और न ही प्रबंधक?*
@@ -81,7 +81,7 @@ Source: IBPS PO 2022
 
 Answer: (A) 13.
 Solution: Neither engineers nor managers = only PG (since PG is the circle, and that region is outside both engineer and manager sets) = 13.
-Source: SSC CGL 2022
+Source: PYQ-style
 
 83. Which Venn diagram fits Fruits, Vegetables, Potatoes?
 फल, सब्जियाँ, आलू के लिए सही वेन आरेख कौन-सा है?
@@ -92,7 +92,7 @@ Source: SSC CGL 2022
 
 Answer: (A) Potato inside Vegetables, Fruits separate.
 Solution: Potato is a vegetable. Fruits and vegetables are distinct biological categories (though some overlap like tomatoes, but in standard class logic, they are disjoint sets in these exam questions). So Potato inside Vegetables, and Fruits is separate.
-Source: SSC MTS 2019
+Source: PYQ-style
 
 84. Statements: All books are pages. Some pages are words. No word is a letter.
 Conclusions: I. Some books are words. II. Some pages are not letters.
@@ -105,7 +105,7 @@ Conclusions: I. Some books are words. II. Some pages are not letters.
 
 Answer: (B) Only II follows.
 Solution: I: Books ⊆ Pages. Some pages are words, but books may not overlap words. Not definite. II: Those pages that are words are not letters. So some pages are not letters. True.
-Source: SSC CGL 2020
+Source: PYQ-style
 
 85. In a group of 250 people, 140 can drive, 110 can swim, 60 can do both. How many can do neither?
 250 लोगों के समूह में 140 गाड़ी चला सकते हैं, 110 तैर सकते हैं, 60 दोनों कर सकते हैं। कितने कोई भी नहीं कर सकते?
@@ -116,7 +116,7 @@ Source: SSC CGL 2020
 
 Answer: (C) 60.
 Solution: n(D ∪ S) = 140 + 110 – 60 = 190. Neither = 250 – 190 = 60.
-Source: RRB NTPC 2021
+Source: PYQ-style
 
 86. [Trap] Select the Venn diagram that represents the relationship among Car, Steering, Tyre.
 कार, स्टीयरिंग, टायर के बीच संबंध दर्शाने वाला वेन आरेख चुनें।
@@ -128,7 +128,7 @@ Source: RRB NTPC 2021
 Answer: (A) Steering and Tyre inside Car, separate.
 Solution: Steering and tyre are distinct parts of a car; they are not overlapping categories. Both are subsets of Car, and they are disjoint.
 Trap: Many might think they are separate from Car or overlap.
-Source: SSC CGL 2018
+Source: PYQ-style
 
 87. Statements: Some shirts are cotton. All cotton is fabric. Some fabric is synthetic.
 Conclusions: I. Some shirts are fabric. II. Some synthetic is cotton.
@@ -141,7 +141,7 @@ Conclusions: I. Some shirts are fabric. II. Some synthetic is cotton.
 
 Answer: (A) Only I follows.
 Solution: I: Some shirts are cotton, all cotton is fabric → those shirts are fabric. True. II: Some fabric is synthetic, but that synthetic fabric may not be cotton. No definite overlap between synthetic and cotton. False.
-Source: IBPS Clerk 2022
+Source: PYQ-style
 
 88. Which Venn diagram correctly shows Mango, Fruit, Sweet?
 आम, फल, मीठा के लिए सही वेन आरेख कौन-सा है?
@@ -152,7 +152,7 @@ Source: IBPS Clerk 2022
 
 Answer: (A) Mango inside Fruit, Sweet overlapping Fruit.
 Solution: All mangoes are fruits. Sweet is a taste; some fruits are sweet, some are not. So Sweet is a set that partially overlaps Fruit.
-Source: SSC CHSL 2020
+Source: PYQ-style
 
 89. In the given figure, circle A = Males, circle B = Employed, circle C = Urban. Numbers: only A=17, only B=14, only C=19, A∩B only=8, B∩C only=6, A∩C only=9, all three=5. How many are employed urban males?
 *दिए गए चित्र में A = पुरुष, B = नियोजित, C = शहरी। केवल A=17, केवल B=14, केवल C=19, A∩B केवल=8, B∩C केवल=6, A∩C केवल=9, तीनों=5। कितने नियोजित शहरी पुरुष हैं?*
@@ -163,7 +163,7 @@ Source: SSC CHSL 2020
 
 Answer: (A) 5.
 Solution: Employed urban males = A ∩ B ∩ C = all three region = 5.
-Source: SSC CGL 2023
+Source: PYQ-style
 
 90. Statements: All buses are vehicles. Some vehicles are electric. No electric vehicle is diesel.
 Conclusions: I. Some buses are electric. II. No bus is diesel.
@@ -176,7 +176,7 @@ Conclusions: I. Some buses are electric. II. No bus is diesel.
 
 Answer: (D) Neither I nor II follows.
 Solution: I: Buses may be in the non-electric part of vehicles. Not definite. II: Buses are vehicles, but they could be diesel if they are not electric. No prohibition. So neither follows.
-Source: IBPS PO 2020
+Source: PYQ-style
 
 91. Which option best represents Crow, Bird, Tree?
 कौआ, पक्षी, पेड़ के लिए सबसे अच्छा विकल्प कौन-सा है?
@@ -187,7 +187,7 @@ Source: IBPS PO 2020
 
 Answer: (A) Crow inside Bird, Tree separate.
 Solution: All crows are birds. Tree is a distinct class, not a subclass or superclass of birds. So Crow inside Bird, Tree separate.
-Source: SSC MTS 2021
+Source: PYQ-style
 
 92. In a school, 65% students play cricket, 55% play hockey, 30% play both. What percentage play at least one?
 *एक स्कूल में 65% छात्र क्रिकेट खेलते हैं, 55% हॉकी खेलते हैं, 30% दोनों खेलते हैं। कितने प्रतिशत कम-से-कम एक खेल खेलते हैं?*
@@ -198,7 +198,7 @@ Source: SSC MTS 2021
 
 Answer: (A) 90%.
 Solution: n(C ∪ H) = 65 + 55 – 30 = 90%.
-Source: RRB Group D 2023
+Source: PYQ-style
 
 93. [Trap] Which Venn diagram shows Doctor, Engineer, Profession?
 डॉक्टर, इंजीनियर, व्यवसाय के लिए वेन आरेख कौन-सा है?
@@ -210,7 +210,7 @@ Source: RRB Group D 2023
 Answer: (A) Doctor and Engineer inside Profession, separate.
 Solution: Both doctor and engineer are professions. So they are subsets of Profession, and they are distinct, so disjoint.
 Trap: Some might pick (D) thinking Engineer is not a profession? No, it is. So both are inside.
-Source: SSC CGL 2021
+Source: PYQ-style
 
 94. Statements: Some pens are blue. All blue items are dark. No dark thing is light.
 Conclusions: I. Some pens are dark. II. Some pens are not light.
@@ -223,7 +223,7 @@ Conclusions: I. Some pens are dark. II. Some pens are not light.
 
 Answer: (C) Both I and II follow.
 Solution: I: Some pens are blue, all blue are dark → those pens are dark. True. II: Those dark pens are not light. So some pens are not light. True.
-Source: IBPS Clerk 2023
+Source: PYQ-style
 
 95. In the Venn diagram, circle X = Married, circle Y = Employed, circle Z = Educated. Numbers: only X=6, only Y=8, only Z=10, X∩Y only=4, Y∩Z only=5, X∩Z only=3, all three=2. How many are married but not educated?
 *वेन आरेख में X = विवाहित, Y = नियोजित, Z = शिक्षित। केवल X=6, केवल Y=8, केवल Z=10, X∩Y केवल=4, Y∩Z केवल=5, X∩Z केवल=3, तीनों=2। कितने विवाहित हैं जो शिक्षित नहीं हैं?*
@@ -234,7 +234,7 @@ Source: IBPS Clerk 2023
 
 Answer: (A) 10.
 Solution: Married but not educated = only X (6) + (X∩Y only) (4) = 10. (X∩Z only and all three are educated, so excluded.)
-Source: SSC CGL 2020
+Source: PYQ-style
 
 96. Choose the diagram for Milk, Water, Liquid.
 दूध, पानी, तरल के लिए सही वेन आरेख चुनें।
@@ -245,7 +245,7 @@ Source: SSC CGL 2020
 
 Answer: (A) Milk and Water inside Liquid, no overlap.
 Solution: Milk and water are both liquids, but they are distinct substances; so they are disjoint subsets of Liquid.
-Source: SSC CHSL 2022
+Source: PYQ-style
 
 97. Statements: All bats are balls. No ball is a stump. Some stumps are wickets.
 Conclusions: I. Some wickets are not balls. II. No bat is a stump.
@@ -258,7 +258,7 @@ Conclusions: I. Some wickets are not balls. II. No bat is a stump.
 
 Answer: (C) Both I and II follow.
 Solution: II: Bat ⊆ Ball, Ball ∩ Stump = ∅ → Bat ∩ Stump = ∅. True. I: Some stumps are wickets, and stumps are not balls. So those wickets are not balls. Hence some wickets are not balls. True.
-Source: SSC CGL 2019
+Source: PYQ-style
 
 98. In a college, 300 students study Maths, 250 study Physics, 150 study both. Total students 500. How many study neither?
 एक कॉलेज में 300 गणित, 250 भौतिकी, 150 दोनों पढ़ते हैं। कुल 500 छात्र हैं। कितने कोई भी नहीं पढ़ते?
@@ -269,7 +269,7 @@ Source: SSC CGL 2019
 
 Answer: (B) 100.
 Solution: n(M ∪ P) = 300+250-150 = 400. Neither = 500-400 = 100.
-Source: RRB NTPC 2022
+Source: PYQ-style
 
 99. Which Venn diagram represents Keyboard, Monitor, Computer?
 कीबोर्ड, मॉनिटर, कंप्यूटर के लिए वेन आरेख कौन-सा है?
@@ -280,7 +280,7 @@ Source: RRB NTPC 2022
 
 Answer: (A) Keyboard and Monitor inside Computer, separate.
 Solution: Keyboard and monitor are parts/components of a computer. In class logic, they are subsets of Computer (or parts of it). They are distinct, so disjoint subsets.
-Source: SSC CGL 2017
+Source: PYQ-style
 
 100. [Trap] Statements: All teachers are graduates. No graduate is a student. Some students are athletes.
 Conclusions: I. No teacher is a student. II. Some athletes are not graduates.
@@ -294,4 +294,4 @@ Conclusions: I. No teacher is a student. II. Some athletes are not graduates.
 Answer: (C) Both I and II follow.
 Solution: I: Teacher ⊆ Graduate, Graduate ∩ Student = ∅ → Teacher ∩ Student = ∅. True. II: Some students are athletes, and students are not graduates (since no graduate is student). So those athletes (who are students) are not graduates. Thus some athletes are not graduates. True.
 Trap: The phrase “some students are athletes” might lead one to think athletes could overlap graduates too, but the specific student-athletes are definitely not graduates. So II follows.
-Source: IBPS PO 2021
+Source: PYQ-style

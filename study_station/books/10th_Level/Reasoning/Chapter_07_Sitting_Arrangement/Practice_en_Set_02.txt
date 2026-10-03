@@ -18,7 +18,7 @@ So E=6,F=5. Free seats 1,2,3,4. A 2nd left of C ⇒ C=A+2, possibilities (A=1,C=
 If A=1,C=3, B–D block must occupy 2,4 (adjacent). B=2,D=4. But B is neighbour of A=1 ⇒ violates B not neighbour of A.
 If A=2,C=4, B–D block occupies 1,3 (adjacent). B=1,D=3, B not neighbour of A (A=2) ⇒ valid.
 Arrangement: 1-B, 2-A, 3-D, 4-C, 5-F, 6-E. Third right of A (seat 2) = seat 5 = F.
-Source: SSC CGL Tier-I 2019 (Memory Based)
+Source: PYQ-style
 
 27. Six persons P, Q, R, S, T, U sit around a circular table facing the centre. P is third to the left of Q. R is immediate right of P. S is second to the right of T. U is not a neighbour of R. Who sits opposite P? (In a 6‑seat circle, opposite means 3 seats away)
 
@@ -38,7 +38,7 @@ R immediate right of P ⇒ right = anticlockwise, so R = 3.
 S 2nd right of T ⇒ S is 2 steps anticlockwise from T. U not neighbour of R (neighbours of 3 are 2 and 4).
 Remaining seats: 2,5,6. Try T=2 ⇒ S anticlockwise 2 steps: 2→1→6, S=6. U must be 5. U not neighbour of R (3) ⇒ 5 is not neighbour, ok.
 Final: 1‑Q, 2‑T, 3‑R, 4‑P, 5‑U, 6‑S. Opposite of P (4) is 1 = Q.
-Source: IBPS PO Prelims 2018 (Memory Based)
+Source: PYQ-style
 
 28. Seven persons A, B, C, D, E, F, G sit in a row facing north. D sits fourth to the left of G. B sits second to the right of A. F is immediate neighbour of C. E sits at the extreme right end. A is not a neighbour of F. Who sits second to the right of D?
 
@@ -68,7 +68,7 @@ Answer: (B) C.
 
 I'll present that.
 
-Source: SSC CGL Tier-II 2019 (Memory Based)
+Source: PYQ-style
 
 29. Eight persons P, Q, R, S, T, U, V, W sit around a circular table facing the centre. P is third to the right of Q. R is immediate left of P. S is second to the left of T. U is second to the right of V. W is an immediate neighbour of V and is not a neighbour of S. Who sits second to the right of U?
 
@@ -108,7 +108,7 @@ Let's solve: Fix B=1. A 2nd left of B: left=clockwise, so A clockwise 2 from B: 
 
 So Q29: Eight persons A, B, C, D, E, F, G, H sit around a circle facing centre. A is second to the left of B. C is third to the right of D. E is immediate neighbour of both F and G. H sits opposite F. Who sits second to the right of A?
 Answer: (A) B.
-Source: IBPS PO Prelims 2020
+Source: PYQ-style
 
 I'll use that.
 
@@ -169,7 +169,7 @@ Thus E=6,F=5. Free 1,2,3,4. A 2nd left of C ⇒ pairs (1,3) or (2,4).
 If A=1,C=3 → B-D block must occupy 2,4 → B=2,D=4, but B neighbour of A=1 ⇒ violates “B not neighbour of A”.
 If A=2,C=4 → B-D block fits 1,3 → B=1,D=3, B not neighbour of A=2 ⇒ valid.
 Arrangement: 1-B, 2-A, 3-D, 4-C, 5-F, 6-E. Third right of A(2) = seat 5 = F.
-Source: SSC CGL Tier-I 2019 (Memory Based)
+Source: PYQ-style
 
 27. Six persons P, Q, R, S, T, U sit around a circular table facing the centre. P is third to the left of Q. R is immediate right of P. S is second to the right of T. U is not a neighbour of R. Who sits opposite P? (6‑seat circle ⇒ opposite = 3 seats away)
 
@@ -189,7 +189,7 @@ R immediate right of P ⇒ anticlockwise neighbour ⇒ R=3.
 S 2nd right of T ⇒ S anticlockwise 2 steps from T. U not neighbour of R (neighbours of 3: 2,4).
 Remaining seats 2,5,6. T=2 ⇒ S anticlockwise 2→1→6, S=6. U=5 (not neighbour of 3).
 Arrangement: 1-Q, 2-T, 3-R, 4-P, 5-U, 6-S. Opposite of P(4) = 1 = Q.
-Source: IBPS PO Prelims 2018 (Memory Based)
+Source: PYQ-style
 
 28. Seven persons A, B, C, D, E, F, G sit in a row facing north. D sits fourth to the left of G. B sits second to the right of A. F is immediate neighbour of C. E sits at the extreme right end. A is not a neighbour of F. G is not an immediate neighbour of E. Who sits second to the right of D?
 
@@ -210,7 +210,7 @@ A=2 ⇒ B=4; then F–C occupy 3,6 → not adjacent.
 A=3 ⇒ B=5 conflict G.
 A=4 ⇒ B=6; then F–C occupy 2,3 (adjacent). A=4 not neighbour of F(2,3) ok.
 Arrangement: 1-D, 2-F, 3-C, 4-A, 5-G, 6-B, 7-E. Second right of D(1) = seat 3 = C.
-Source: SSC CGL Tier-II 2019 (Memory Based)
+Source: PYQ-style
 
 29. Eight persons A, B, C, D, E, F, G, H sit around a circular table facing the centre. A is second to the left of B. C is third to the right of D. E is immediate neighbour of both F and G. H sits opposite F. Who sits second to the right of A?
 
@@ -232,7 +232,7 @@ Let D=2. C 3rd right of D ⇒ anticlockwise 2→1→8→7, C=7. Remaining seats 
 Place F=4, then H=8 (opposite). E neighbour of F(4) and G ⇒ E=5, G=6.
 Arrangement: 1-B, 2-D, 3-A, 4-F, 5-E, 6-G, 7-C, 8-H.
 Second right of A(3) ⇒ anticlockwise 3→2→1 → B.
-Source: IBPS PO Prelims 2020
+Source: PYQ-style
 
 30. (Examiner’s Trap – Double Relationship)
 Six persons P, Q, R, S, T, U sit in a row facing north. P is second to the left of R and immediate right of Q. S is third to the right of T. U sits at an extreme end. Q is not a neighbour of T. Who sits second to the left of T?
@@ -274,7 +274,7 @@ Answer: (B) Q
 Solution:
 Block: Q, P, (gap), R ⇒ Q=x, P=x+1, R=x+3. S=T+2. U extreme. Q not neighbour of T.
 Seats 1–6. U=6 (as other extreme leads to conflict). Free 1–5. x=1 → Q=1,P=2,R=4. Free 3,5. T+2=S: T=3,S=5 works. Q=1, T=3 not neighbours. Arrangement: 1-Q,2-P,3-T,4-R,5-S,6-U. Second left of T(3) = 1 = Q.
-Source: SSC CGL Tier-I 2020 (Memory Based)
+Source: PYQ-style
 
 31. Seven persons A, B, C, D, E, F, G sit in a row facing north. C is third to the right of A. D is immediate left of E. F sits second to the left of G. B sits at an extreme end and is neighbour of C. E is not a neighbour of G. Who sits exactly between A and G?
 
@@ -336,7 +336,7 @@ So E=6,F=5. Free 1,2,3,4. A 2nd left of C ⇒ (A=1,C=3) or (A=2,C=4).
 A=1 ⇒ B‑D block at 2,4 ⇒ B=2,D=4 but B neighbour of A → invalid.
 A=2 ⇒ B‑D block at 1,3 ⇒ B=1,D=3, B not neighbour of A(2) → valid.
 Arrangement: 1‑B, 2‑A, 3‑D, 4‑C, 5‑F, 6‑E. Third right of A(2) = seat 5 = F.
-Source: SSC CGL Tier‑I 2019 (Memory Based)
+Source: PYQ-style
 
 27. Six persons P, Q, R, S, T, U sit around a circle facing the centre. P is third to the left of Q. R is immediate right of P. S is second to the right of T. U is not a neighbour of R. Who sits opposite P? (6‑seat circle, opposite = 3 seats away)
 
@@ -356,7 +356,7 @@ R immediate right ⇒ anticlockwise neighbour ⇒ R=3.
 S 2nd right of T ⇒ S is 2 steps anticlockwise from T. U not neighbour of R (3→2,4).
 Remaining 2,5,6. T=2 ⇒ S anticlockwise 2→1→6, S=6. U=5 (not neighbour of 3).
 Arrangement: 1‑Q,2‑T,3‑R,4‑P,5‑U,6‑S. Opposite of P(4) = 1 = Q.
-Source: IBPS PO Prelims 2018 (Memory Based)
+Source: PYQ-style
 
 28. Seven persons A, B, C, D, E, F, G sit in a row facing north. D sits fourth to the left of G. B sits second to the right of A. F is immediate neighbour of C. E sits at the extreme right end. A is not a neighbour of F. G is not an immediate neighbour of E. Who sits second to the right of D?
 
@@ -374,7 +374,7 @@ Seats 1–7, E=7. D 4th left of G ⇒ G = D+4. G≠7 ⇒ (D=1,G=5) or (D=2,G=6).
 B 2nd right of A ⇒ B = A+2. F‑C neighbours. A not neighbour of F.
 Free 2,3,4,6. A=2⇒B=4, F‑C 3,6 not adj. A=3⇒B=5 conflict. A=4⇒B=6, F‑C 2,3 adj. A=4 not neighbour of F(2,3) ok.
 Arrangement: 1‑D,2‑F,3‑C,4‑A,5‑G,6‑B,7‑E. Second right of D(1) = seat 3 = C.
-Source: SSC CGL Tier‑II 2019 (Memory Based)
+Source: PYQ-style
 
 29. Eight persons A, B, C, D, E, F, G, H sit around a circle facing the centre. A is second to the left of B. C is third to the right of D. E is immediate neighbour of both F and G. H sits opposite F. Who sits second to the right of A?
 
@@ -395,7 +395,7 @@ E neighbour of F and G ⇒ E between F and G.
 Try D=2. C 3rd right of D ⇒ anticlockwise 2→1→8→7, C=7. Free 4,5,6,8.
 F=4 ⇒ H=8 (opposite). E neighbour of F(4) and G ⇒ E=5, G=6.
 Arrangement: 1‑B,2‑D,3‑A,4‑F,5‑E,6‑G,7‑C,8‑H. Second right of A(3) ⇒ anticlockwise 3→2→1 = B.
-Source: IBPS PO Prelims 2020
+Source: PYQ-style
 
 30. (Examiner’s Trap – Double Relationship)
 Six persons P, Q, R, S, T, U sit in a row facing north. P is second to the left of R and immediate right of Q. S is second to the right of T. U sits at an extreme end. Q is not a neighbour of T. Who sits second to the left of T?
@@ -415,7 +415,7 @@ S=T+2. U extreme; Q not neighbour of T.
 Seats 1–6. U=6 (other extreme leads to conflicts). Free 1–5.
 x=1 ⇒ Q=1,P=2,R=4. Free 3,5. T+2=S: T=3,S=5 works. Q=1 not neighbour of T=3.
 Arrangement: 1‑Q,2‑P,3‑T,4‑R,5‑S,6‑U. Second left of T(3) = seat 1 = Q.
-Source: SSC CGL Tier‑I 2020 (Memory Based)
+Source: PYQ-style
 
 31. Eight persons J, K, L, M, N, O, P, Q sit around a circle facing the centre. J is third to the right of K. L is immediate left of J. M is second to the left of N. O is fourth to the right of P. Q is immediate neighbour of O and M. Who sits opposite Q? (8‑seat circle, opposite = 4 seats away)
 
@@ -457,7 +457,7 @@ Answer: (D) F sits second to the right of A.
 Solution:
 Seats 1–7. E extreme. C third right of B ⇒ C = B+3. A immediate left of D ⇒ A‑D block (A left of D). F second left of G ⇒ G = F+2. B not neighbour of E. D not neighbour of F.
 After solving, the only possible arrangement shows A at 4, F at 2, so second right of A(4) is 6 = G, not F. Hence (D) false. (Detailed diagram builds the arrangement: E=1, B=2? Let’s not fully expand here, but in test context it’s a unique solution.)
-Source: IBPS Clerk Prelims 2019
+Source: PYQ-style
 
 33. Six persons M, N, O, P, Q, R sit around a circle facing the centre. M is third to the left of N. O is second to the right of M. P is immediate neighbour of Q. R is second to the left of P. N is not neighbour of Q. Who sits immediate left of R?
 
@@ -477,7 +477,7 @@ O 2nd right of M ⇒ anticlockwise 4→3→2, O=2.
 P neighbour of Q. R 2nd left of P ⇒ R clockwise 2 from P ⇒ P = R+2.
 N not neighbour of Q. Remaining seats: 3,5,6.
 Try R=3 ⇒ P=5. Then Q must be neighbour of P(5) ⇒ Q=4(M) or 6. Q=6 works. N=1 not neighbour of Q=6 ok. So arrangement: 1‑N,2‑O,3‑R,4‑M,5‑P,6‑Q. Immediate left of R (3) = clockwise neighbour = 2 = O.
-Source: RRB NTPC 2021
+Source: PYQ-style
 
 34. Eight persons S, T, U, V, W, X, Y, Z sit in a straight line facing north. S is fourth to the right of T. U is immediate left of V. W sits second to the left of X. Y sits at an extreme end. Z is immediate neighbour of Y and third to the left of S. Who sits second to the right of W?
 
@@ -509,7 +509,7 @@ Due to time, I'll present a set of fully solved medium questions from standard P
 
 Answer: (D) S
 Solution: Seats 1–7, V=7. P 4th left of Q ⇒ Q = P+4. Possible (1,5),(2,6),(3,7). V=7 so (3,7) invalid. Q not neighbour of V? Q=6 neighbour of V=7, allowed. S= ? R=S+2. T‑U neighbours. After solving, arrangement yields T at 3, third left = 1? Need to verify. Final arrangement: 1‑S,2‑R,3‑T,4‑U,5‑P,6‑Q,7‑V → third left of T(3) = 1 = S.
-Source: SSC CGL Tier‑II 2018
+Source: PYQ-style
 
 36. Six persons A, B, C, D, E, F sit in a row facing south. (Direction trap: their right is our left). A is immediate right of B. C is second to the left of D. E sits at an extreme end. F is immediate neighbour of E and C. Who sits immediate right of C?
 
@@ -577,7 +577,7 @@ Seats 1–6. E extreme & neighbour of F → (E=1,F=2) or (E=6,F=5).
 If E=1,F=2 → free 3–6, no placement for A & C with A+2=C and B‑D block.
 Thus E=6,F=5. A 2nd left of C ⇒ A=x, C=x+2. D imm right of B ⇒ B‑D block. B not neighbour of A.
 x=2 ⇒ A=2,C=4; B‑D block at 1,3 → B=1,D=3 (B not neighbour of A). Arrangement: 1‑B,2‑A,3‑D,4‑C,5‑F,6‑E. Third right of A(2) = 5 = F.
-Source: SSC CGL Tier‑I 2019 (Memory Based)
+Source: PYQ-style
 
 27. Six persons P, Q, R, S, T, U sit around a circle facing the centre. P is third to the left of Q. R is immediate right of P. S is second to the right of T. U is not a neighbour of R. Who sits opposite P? (6‑seat circle, opposite = 3 seats away)
 
@@ -597,7 +597,7 @@ R immediate right of P ⇒ anticlockwise → R=3.
 S 2nd right of T ⇒ S anticlockwise 2 from T. U not neighbour of R (3→2,4).
 Remaining 2,5,6. T=2 ⇒ S anticlockwise 2→1→6, S=6; U=5 (not neighbour of 3).
 Arrangement: 1‑Q,2‑T,3‑R,4‑P,5‑U,6‑S. Opposite of P(4) = 1 = Q.
-Source: IBPS PO Prelims 2018 (Memory Based)
+Source: PYQ-style
 
 28. Seven persons A, B, C, D, E, F, G sit in a row facing north. D sits fourth to the left of G. B sits second to the right of A. F is immediate neighbour of C. E sits at the extreme right end. A is not a neighbour of F. G is not an immediate neighbour of E. Who sits second to the right of D?
 
@@ -615,7 +615,7 @@ Seats 1–7, E=7. D 4th left of G ⇒ G = D+4. Possible (1,5),(2,6),(3,7). E=7 �
 B=A+2. F‑C neighbours. A not neighbour of F.
 Free 2,3,4,6. A=2⇒B=4, F‑C=3,6 no. A=3⇒B=5 conflict. A=4⇒B=6, F‑C=2,3 ok. A=4 not neighbour of F(2,3).
 Arrangement: 1‑D,2‑F,3‑C,4‑A,5‑G,6‑B,7‑E. Second right of D(1) = 3 = C.
-Source: SSC CGL Tier‑II 2019 (Memory Based)
+Source: PYQ-style
 
 29. Eight persons A, B, C, D, E, F, G, H sit around a circle facing the centre. A is second to the left of B. C is third to the right of D. E is immediate neighbour of both F and G. H sits opposite F. Who sits second to the right of A?
 
@@ -633,7 +633,7 @@ Solution:
 C 3rd right of D ⇒ anticlockwise 3. Opposite A=7. H opposite F. E between F and G.
 D=2 ⇒ C anticlockwise 2→1→8→7, C=7. F=4, H=8. E=5, G=6.
 Arrangement: 1‑B,2‑D,3‑A,4‑F,5‑E,6‑G,7‑C,8‑H. Second right of A(3) ⇒ anticlockwise 3→2→1 = B.
-Source: IBPS PO Prelims 2020
+Source: PYQ-style
 
 30. (Examiner’s Trap – Double Relationship)
 Six persons P, Q, R, S, T, U sit in a row facing north. P is second to the left of R and immediate right of Q. S is second to the right of T. U sits at an extreme end. Q is not a neighbour of T. Who sits second to the left of T?
@@ -653,7 +653,7 @@ S=T+2. U extreme. Q not neighbour of T.
 Seats 1–6. U=6 (other extreme fails). Free 1–5.
 x=1 ⇒ Q=1,P=2,R=4. Free 3,5. T+2=S: T=3,S=5. Q=1 not neighbour of T=3.
 Arrangement: 1‑Q,2‑P,3‑T,4‑R,5‑S,6‑U. Second left of T(3) = 1 = Q.
-Source: SSC CGL Tier‑I 2020 (Memory Based)
+Source: PYQ-style
 
 31. Seven persons M, N, O, P, Q, R, S sit in a row facing north. O sits third to the right of M. N is immediate left of P. Q sits second to the left of R. S sits at the extreme right. M is not neighbour of N. Who sits third to the left of S?
 
@@ -708,7 +708,7 @@ Thus E=6,F=5. Free 1,2,3,4. A 2nd left of C ⇒ (1,3) or (2,4).
 A=1 ⇒ B‑D block at 2,4 → B=2,D=4 but B neighbour of A → invalid.
 A=2 ⇒ B‑D block at 1,3 → B=1,D=3; B not neighbour of A(2) → valid.
 Arrangement: 1-B, 2-A, 3-D, 4-C, 5-F, 6-E. Third right of A(2) = 5 = F.
-Source: SSC CGL Tier-I 2019
+Source: PYQ-style
 
 27. Six persons P, Q, R, S, T, U sit around a circular table facing centre. P is third to the left of Q. R is immediate right of P. S is second to the right of T. U is not a neighbour of R. Who sits opposite P? (6‑seat circle, opposite = 3 seats away)
 
@@ -728,7 +728,7 @@ R immediate right of P → anticlockwise neighbour → R=3.
 S 2nd right of T → S anticlockwise 2 from T. U not neighbour of R (neighbours of 3: 2,4).
 Remaining seats 2,5,6. T=2 ⇒ S anticlockwise 2→1→6, S=6. U=5 (not neighbour of 3).
 Arrangement: 1-Q,2-T,3-R,4-P,5-U,6-S. Opposite of P(4) = 1 = Q.
-Source: IBPS PO Prelims 2018
+Source: PYQ-style
 
 28. Seven persons A, B, C, D, E, F, G sit in a row facing north. D sits fourth to the left of G. B sits second to the right of A. F is immediate neighbour of C. E sits at extreme right end. A is not a neighbour of F. G is not an immediate neighbour of E. Who sits second to the right of D?
 
@@ -746,7 +746,7 @@ Seats 1–7, E=7. D 4th left of G ⇒ G = D+4. Possible (1,5),(2,6),(3,7). E=7 �
 B = A+2. F‑C neighbours. A not neighbour of F.
 Free seats 2,3,4,6. A=2⇒B=4, F‑C=3,6 not adjacent. A=3⇒B=5 conflict. A=4⇒B=6, F‑C=2,3 adjacent, A=4 not neighbour of F(2,3).
 Arrangement: 1-D,2-F,3-C,4-A,5-G,6-B,7-E. Second right of D(1) = 3 = C.
-Source: SSC CGL Tier-II 2019
+Source: PYQ-style
 
 29. Eight persons A, B, C, D, E, F, G, H sit around a circle facing centre. A is second to the left of B. C is third to the right of D. E is immediate neighbour of both F and G. H sits opposite F. Who sits second to the right of A?
 
@@ -765,7 +765,7 @@ Centre‑facing: left = clockwise, right = anticlockwise.
 C 3rd right of D ⇒ C anticlockwise 3 from D. Opposite A=7. H opposite F ⇒ H and F 4 apart. E between F and G.
 D=2 ⇒ C anticlockwise 2→1→8→7, C=7. F=4 ⇒ H=8. E=5, G=6.
 Arrangement: 1-B,2-D,3-A,4-F,5-E,6-G,7-C,8-H. Second right of A(3) ⇒ anticlockwise 3→2→1 = B.
-Source: IBPS PO Prelims 2020
+Source: PYQ-style
 
 30. (Examiner’s Trap – Double Relationship)
 Six persons P, Q, R, S, T, U sit in a row facing north. P is second to the left of R and immediate right of Q. S is second to the right of T. U sits at an extreme end. Q is not a neighbour of T. Who sits second to the left of T?
@@ -785,7 +785,7 @@ S = T+2. U extreme. Q not neighbour of T.
 Seats 1–6. U=6 (other extreme fails). Free 1–5.
 x=1 ⇒ Q=1,P=2,R=4. Free 3,5. T=3,S=5. Q=1 not neighbour of T=3.
 Arrangement: 1-Q,2-P,3-T,4-R,5-S,6-U. Second left of T(3) = 1 = Q.
-Source: SSC CGL Tier-I 2020
+Source: PYQ-style
 
 31. Seven persons L, M, N, O, P, Q, R sit in a row facing north. O sits third to the left of P. N is immediate right of M. Q sits second to the left of R. L sits at an extreme end. P is not neighbour of L. Who sits exactly in the middle?
 
@@ -823,7 +823,7 @@ Thus E=6,F=5. Free 1,2,3,4. A 2nd left of C ⇒ (1,3) or (2,4).
 A=1 ⇒ B‑D block at 2,4 → B=2,D=4 but B neighbour of A → invalid.
 A=2 ⇒ B‑D block at 1,3 → B=1,D=3; B not neighbour of A(2) → valid.
 Arrangement: 1-B,2-A,3-D,4-C,5-F,6-E. Third right of A(2) = 5 = F.
-Source: SSC CGL Tier-I 2019
+Source: PYQ-style
 
 27. Six persons P, Q, R, S, T, U sit around a circle facing centre. P is third to the left of Q. R is immediate right of P. S is second to the right of T. U is not a neighbour of R. Who sits opposite P? (6‑seat circle ⇒ opposite = 3 seats away)
 
@@ -843,7 +843,7 @@ R immediate right of P → anticlockwise neighbour → R=3.
 S 2nd right of T → S anticlockwise 2 from T. U not neighbour of R (neighbours 2,4).
 Remaining 2,5,6. T=2 ⇒ S anticlockwise 2→1→6, S=6. U=5 (not neighbour of 3).
 Arrangement: 1-Q,2-T,3-R,4-P,5-U,6-S. Opposite P(4) = 1 = Q.
-Source: IBPS PO Prelims 2018
+Source: PYQ-style
 
 28. Seven persons A, B, C, D, E, F, G sit in a row facing north. D sits fourth to the left of G. B sits second to the right of A. F is immediate neighbour of C. E sits at extreme right. A is not a neighbour of F. G is not an immediate neighbour of E. Who sits second to the right of D?
 
@@ -861,7 +861,7 @@ Seats 1–7, E=7. D 4th left of G ⇒ G = D+4. Possible (1,5),(2,6),(3,7). E=7 �
 B = A+2. F‑C neighbours. A not neighbour of F.
 Free seats 2,3,4,6. A=2⇒B=4, F‑C=3,6 not adj. A=3⇒B=5 conflict. A=4⇒B=6, F‑C=2,3 adj., A=4 not neighbour of F(2,3).
 Arrangement: 1-D,2-F,3-C,4-A,5-G,6-B,7-E. Second right of D(1) = 3 = C.
-Source: SSC CGL Tier-II 2019
+Source: PYQ-style
 
 29. Eight persons A, B, C, D, E, F, G, H sit around a circle facing centre. A is second to the left of B. C is third to the right of D. E is immediate neighbour of both F and G. H sits opposite F. Who sits second to the right of A?
 
@@ -880,7 +880,7 @@ B=1, A 2nd left → clockwise 1→2→3, A=3.
 C 3rd right of D ⇒ anticlockwise 3 from D. Opposite A=7. H opposite F ⇒ H & F 4 apart. E between F and G.
 D=2 ⇒ C anticlockwise 2→1→8→7, C=7. F=4, H=8. E=5, G=6.
 Arrangement: 1-B,2-D,3-A,4-F,5-E,6-G,7-C,8-H. Second right of A(3) ⇒ anticlockwise 3→2→1 = B.
-Source: IBPS PO Prelims 2020
+Source: PYQ-style
 
 30. (Examiner’s Trap – Double Relationship)
 Six persons P, Q, R, S, T, U sit in a row facing north. P is second to the left of R and immediate right of Q. S is second to the right of T. U sits at an extreme end. Q is not a neighbour of T. Who sits second to the left of T?
@@ -900,7 +900,7 @@ S = T+2. U extreme, Q not neighbour of T.
 Seats 1–6. U=6 (other extreme fails). Free 1–5.
 x=1 ⇒ Q=1,P=2,R=4. Free 3,5. T=3,S=5. Q=1 not neighbour of T=3.
 Arrangement: 1-Q,2-P,3-T,4-R,5-S,6-U. Second left of T(3) = 1 = Q.
-Source: SSC CGL Tier-I 2020
+Source: PYQ-style
 
 31. Six persons J, K, L, M, N, O sit around a circle facing centre. J is second to the right of K. L is immediate left of J. M is third to the left of N. O is immediate neighbour of M and K. Who sits opposite O? (6‑seat circle)
 
@@ -935,7 +935,7 @@ Answer: (B) R sits exactly between P and U.
 Solution:
 Seats 1–7. V extreme. R 3rd right of P ⇒ R = P+3. S immediate left of T ⇒ S‑T block (S left of T). U 2nd left of Q ⇒ Q = U+2. P not neighbour of V. T not neighbour of Q.
 Solving yields a unique arrangement where R is exactly midway between P and U.
-Source: IBPS Clerk Prelims 2020
+Source: PYQ-style
 
 33. Eight persons A, B, C, D, E, F, G, H sit around a circle facing centre. A is fourth to the right of B. C is immediate left of A. D is second to the left of E. F is third to the right of G. H is immediate neighbour of B and C. Who sits third to the left of D?
 
@@ -987,7 +987,7 @@ Solution:
 Seats 1–7, F=1. D exactly between F and G ⇒ F, D, G are equally spaced? “Exactly between” means D is in the middle of F and G, so if F=1, G=3, D=2. So D=2,G=3.
 B 3rd left of E ⇒ E = B+3. C immediate right of A ⇒ A‑C block (A left of C). G not neighbour of C.
 Remaining seats 4,5,6,7. B+3=E. Try B=4,E=7. Then A‑C block at 5,6: A=5,C=6. G=3 not neighbour of C=6 (gap), ok. Arrangement: 1-F,2-D,3-G,4-B,5-A,6-C,7-E. Second left of C(6) = 4 = B.
-Source: RRB NTPC 2020
+Source: PYQ-style
 
 36. Six persons P, Q, R, S, T, U sit around a circle facing centre. P is second to the left of Q. R is third to the right of P. S is immediate neighbour of T. U is second to the left of S. Who sits immediate right of U?
 
@@ -1020,7 +1020,7 @@ Answer: (A) P
 Solution:
 1–6 clockwise. Q=1, P=3, R=6 (as above). S neighbour of T. U 2nd left of S ⇒ U clockwise 2 from S, so S = U+2.
 Remaining 2,4,5. U=2 ⇒ S=4; T neighbour of S=4 ⇒ T=5. Arrangement: 1-Q,2-U,3-P,4-S,5-T,6-R. Immediate left of U(2) = clockwise neighbour = 3 = P.
-Source: IBPS PO Prelims 2019
+Source: PYQ-style
 
 37. Eight persons M, N, O, P, Q, R, S, T sit in a row facing north. P sits fourth to the left of T. N is immediate right of M. Q sits second to the left of S. R sits at extreme right. O is immediate neighbour of Q. M is not neighbour of P. Who sits third to the left of O?
 

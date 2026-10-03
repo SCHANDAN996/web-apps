@@ -17,7 +17,7 @@ Options:
 
 Answer: (B)
 Solution: Odd positions (1,3,5): arrow rotates 90° clockwise each time (right → down → left). Even positions (2,4): mirror image of the preceding odd figure. Position 5 is odd, so continue the rotation: down → left. The trap: students may assume the mirror pattern continues and choose (A) or (D).
-Source: SSC CGL 2022, Shift 2
+Source: PYQ-style
 
 Question 77 (Medium) – ⚠️ Contains Examiner's Trap (Tiny Gap)
 Type: Classification (Odd One Out)
@@ -34,7 +34,7 @@ Options (Odd figure):
 
 Answer: (D)
 Solution: Figure (d) is not completely closed; the tiny gap breaks the closure. All others are perfectly closed. This tests extremely careful observation, a classic trap in banking and SSC exams.
-Source: IBPS PO Mains 2023
+Source: PYQ-style
 
 Question 78 (Medium)
 Type: Figure Series (Clockwise Corner Movement with Delayed Element)
@@ -54,7 +54,7 @@ Options:
 
 Answer: (A)
 Solution: Both elements move clockwise corner to corner. After (iv) (bottom-left, top-right), both move to next corners: black dot top-left, white circle bottom-right.
-Source: RRB NTPC 2022
+Source: PYQ-style
 
 Question 79 (Medium)
 Type: Figure Series (Alternating Shape & Inner Line)
@@ -73,7 +73,7 @@ Options:
 
 Answer: (A)
 Solution: Outer shape sequence: circle (1 curved side, treated as start), square (4 sides), triangle (3), pentagon (5), so the pattern of side counts might be 1,4,3,5,... not clear. Instead, look at odd/even: odd positions (1,3,5): outer shape with a horizontal line. Even positions (2,4): outer shape with a vertical line. Shape type alternates between curved and polygonal? Actually (i) circle (curved), (ii) square, (iii) triangle, (iv) pentagon. The sequence of number of sides: 1 (circle), 4, 3, 5. Next could be 6 (hexagon) to follow increasing order of polygonal sides starting from square? Might be simpler: The outer shapes are in alphabetical order? No. I'll redesign: Use a fixed sequence: circle, square, triangle, pentagon, hexagon. The inner line alternates horizontal and vertical. So (i) circle horiz, (ii) square vert, (iii) triangle horiz, (iv) pentagon vert, (v) hexagon horiz. So answer (A). That's a clear pattern.
-Source: SSC CHSL 2021
+Source: PYQ-style
 
 Question 80 (Medium)
 Type: Classification
@@ -90,7 +90,7 @@ Options (Odd):
 
 Answer: (D)
 Solution: All except (d) have exactly one intersection point. Figure (d) has zero intersections because the lines are parallel.
-Source: SSC CPO 2020
+Source: PYQ-style
 
 Question 81 (Medium)
 Type: Figure Series (Shading Cycle in a Star)
@@ -110,7 +110,7 @@ Options:
 
 Answer: (A)
 Solution: The black point moves clockwise around the star: top → top-right → bottom-right → bottom-left → top-left.
-Source: RRB Group D 2023
+Source: PYQ-style
 
 Question 82 (Medium) – ⚠️ Contains Examiner's Trap (Two Elements, One Moves Only in Odd Steps)
 Type: Figure Series
@@ -129,7 +129,7 @@ Options:
 
 Answer: (A)
 Solution: This is a dual alternating pattern. Outer shape alternates: square (odd), circle (even). Small circle moves clockwise corner to corner every step (TL → TR → BR → BL → TL). The black dot: stays at centre for first two steps, then jumps to the corner indicated by the small circle's position? Not exactly. Track: (i) square, dot centre, small circle TL. (ii) circle, dot centre, small circle TR. (iii) square, dot moves to TL? Actually dot now at top-left (moved). (iv) circle, dot at top-left (unchanged from previous odd), small circle BL. So dot changes only on odd steps, and it moves to the position where the small circle was in the previous step? Wait: (i) small circle TL, dot centre; (iii) dot now TL (small circle's position in i). In (iii), small circle is BR. So in next odd (v), dot should move to BR (where small circle was in iii). Small circle will be at TL again (since (iv) small circle BL, (v) small circle moves clockwise to TL). So (v) square, dot BR, small circle TL. That's option (A). Trap: students may assume dot moves every step or stays at centre, leading to wrong choice.
-Source: SSC CGL 2023, Shift 3 (adapted)
+Source: PYQ-style
 
 Question 83 (Medium)
 Type: Figure Series (Line Rotation Around a Shape)
@@ -149,7 +149,7 @@ Options:
 
 Answer: (A)
 Solution: The line moves clockwise around the hexagon's sides, one side per step. The direction of the line rotates correspondingly (always pointing outward). After bottom side (step iv), next side clockwise is bottom-left, pointing down-left.
-Source: SSC CHSL 2022
+Source: PYQ-style
 
 Question 84 (Medium)
 Type: Classification
@@ -159,7 +159,7 @@ Each figure consists of overlapping shapes (a circle and a square) creating encl
 (b) Forming 3 regions.
 (c) Forming 4 regions (square completely inside circle, circle inside square? that would be 2 regions). Need all but one with same region count. I'll specify: four figures have exactly 3 enclosed regions (by overlapping a circle and a square in different ways), one has only 2 regions. Odd one is (c).
 Options: (A) a, (B) b, (C) c, (D) d with (c) odd. I'll set answer (C).
-Source: SSC CPO 2023
+Source: PYQ-style
 
 Question 85 (Medium)
 Type: Figure Series (Petal Removal)
@@ -179,7 +179,7 @@ Options:
 
 Answer: (A)
 Solution: Petals are removed one by one, in clockwise order: top, top-right, bottom-right, bottom-left, top-left. After (iv) two petals remain (bottom-left and top-left). Next (v) removes bottom-left, leaving only top-left petal. So 1 petal.
-Source: RRB NTPC 2021
+Source: PYQ-style
 
 Question 86 (Medium)
 Type: Figure Series (Clock Hand Movement)
@@ -199,7 +199,7 @@ Options:
 
 Answer: (A)
 Solution: Hand rotates 90° clockwise each step. 9 → 12.
-Source: SSC CHSL 2019
+Source: PYQ-style
 
 Question 87 (Medium)
 Type: Figure Series (Alternating Fill and Shape Change)
@@ -231,14 +231,14 @@ Options:
 (D) White square
 Answer: (A)
 Solution: Each pair of steps uses the same shape, first black then white. The shape changes after every two steps: circle, then square, then triangle. So step (v) is the first of the triangle pair, thus black triangle.
-Source: SSC CHSL 2020
+Source: PYQ-style
 
 Question 88 (Medium)
 Type: Classification
 Problem Figures:
 Five capital letters, each drawn in a block style with bilateral symmetry? Actually all letters have either vertical, horizontal, or both symmetry. Need one odd. Use: (a) A (vertical symmetry), (b) B (vertical?), B has vertical symmetry? No, B has vertical symmetry? Actually capital B has vertical symmetry if you draw it perfectly, but often considered symmetric vertically. Wait, B has a vertical axis of symmetry? No, the left side is straight, right side has two bumps, so not symmetric vertically. B has horizontal symmetry if the top and bottom are identical, but they are. Hmm. I'll use simple shapes instead of letters. But classification can be on symmetry. I'll do: Four figures have exactly one line of symmetry, one has two lines. (a) isosceles triangle (1), (b) rectangle (2), (c) isosceles trapezoid (1), (d) kite (1), (e) arrow shape (1). So odd is (b) with 2. That works. I'll describe figures.
 Options: (A) a, (B) b, (C) c, (D) d. Answer (B).
-Source: UPSC CSAT 2021
+Source: PYQ-style
 
 Question 89 (Medium)
 Type: Figure Series (Sector Shading Accumulation)
@@ -258,7 +258,7 @@ Options:
 
 Answer: (A)
 Solution: Each step adds one shaded sector in clockwise order. After 4 sectors, next adds the 5th. So (v) should have 5 sectors shaded.
-Source: RRB Group D 2022
+Source: PYQ-style
 
 Question 90 (Medium)
 Type: Figure Series (Dot Pattern Forming Polygons)
@@ -278,7 +278,7 @@ Options:
 
 Answer: (A)
 Solution: The number of dots increases by 1 each step, and the dots are placed at the vertices of the corresponding regular polygon (2 dots = line, 3 triangle, 4 square, 5 pentagon). So (v) should be 5 dots in a pentagon arrangement.
-Source: SSC CGL 2020
+Source: PYQ-style
 
 Question 91 (Medium)
 Type: Figure Series (Cross Rotation + Circle Movement)
@@ -298,7 +298,7 @@ Options:
 
 Answer: (A)
 Solution: Odd positions: cross upright; circle moves clockwise corner to corner: TL → BR? Let's track: (i) TL, (iii) BR, (v) next clockwise from BR is BL? Wait: (i) TL, (iii) BR – that's not consecutive corners, it's skipping. Actually positions 1 and 3: TL → BR (opposite). Even positions (2,4): cross X; circle TR → BL (opposite). So the circle moves to the opposite corner every two steps? Not consistent. I'll redefine: In each step, cross alternates between + and X. Circle moves clockwise corner to corner every step. So (i) +, TL; (ii) X, TR; (iii) +, BR; (iv) X, BL; (v) +, TL. Yes, that works: each step, circle moves clockwise one corner, cross flips between + and X. So (v) would be + at TL. Answer (A).
-Source: SSC CHSL 2021
+Source: PYQ-style
 
 Question 92 (Medium)
 Type: Classification
@@ -315,7 +315,7 @@ Options (Odd):
 
 Answer: (C)
 Solution: The odd figure is (c) because the triangle orientation is downward, while all others are upward.
-Source: SSC CPO 2022
+Source: PYQ-style
 
 Question 93 (Medium)
 Type: Figure Series (Line Length Increase)
@@ -335,7 +335,7 @@ Options:
 
 Answer: (A)
 Solution: The line length increases by 1 unit each step, and the arrowhead remains at the right end. So (v) is length 5 with arrowhead.
-Source: RRB NTPC 2023
+Source: PYQ-style
 
 Question 94 (Medium)
 Type: Figure Series (One Square Rotating, One Stationary)
@@ -360,7 +360,7 @@ Options:
 
 Answer: (A)
 Solution: The upright square rotates 90° clockwise each step; the dot moves with it. After 270°, next is 360° (original position).
-Source: SSC CGL 2019
+Source: PYQ-style
 
 Question 95 (Medium) – ⚠️ Contains Examiner's Trap (Near-Identical Line Count)
 Type: Classification
@@ -396,7 +396,7 @@ Options:
 
 Answer: (A)
 Solution: Limbs are added in order: right arm, left arm, left leg, right leg. So (v) adds right leg to complete the figure.
-Source: SSC CHSL 2020
+Source: PYQ-style
 
 Question 97 (Medium)
 Type: Classification
@@ -408,7 +408,7 @@ Problem Figures:
 (e) A decagon (10 sides).
 All are regular polygons. Which is odd? One might have a different property. But they are all polygons. Could be that all have even number of sides except one: (b) heptagon is 7 (odd), others are 6,8,9,10 – 9 is odd too (nonagon). So not. Need a unique property. I'll change: (a) triangle, (b) square, (c) pentagon, (d) hexagon, (e) circle. Then circle is odd because it's not a polygon. That's too easy, but fine. So I'll do that.
 Options: (A) a (B) b (C) c (D) e. Answer (D).
-Source: RRB Group D 2021
+Source: PYQ-style
 
 Question 98 (Medium)
 Type: Figure Series (Letter 'M' Rotation and Mirror)
@@ -433,7 +433,7 @@ Options:
 
 Answer: (B)
 Solution: Odd positions: flag rotates 90° clockwise (right → down → left). Even: mirror of preceding odd. So (v) left.
-Source: SSC CGL 2023
+Source: PYQ-style
 
 Question 99 (Medium)
 Type: Figure Series (Element Moving Through a 4-Position Cycle)
@@ -453,7 +453,7 @@ Options:
 
 Answer: (A)
 Solution: Triangle moves clockwise quadrant by quadrant and rotates 90° clockwise each step. After (iv) bottom-left pointing left, next is top-left pointing up.
-Source: SSC CPO 2021
+Source: PYQ-style
 
 Question 100 (Medium)
 Type: Figure Series (Alternating Black and White Triangles Forming a Square)
@@ -478,4 +478,4 @@ Options:
 
 Answer: (A)
 Solution: The pattern repeats every 4 steps. After (iv), the cycle returns to (i): diagonal TL-BR, upper black, lower white.
-Source: SSC CHSL 2023
+Source: PYQ-style

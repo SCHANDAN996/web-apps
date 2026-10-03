@@ -19,7 +19,7 @@ Q78. A box contains 4 red, 5 blue and 3 green balls. In how many ways can 2 ball
 
 Answer: (1) 19
 Solution: Both red: 4C2 = 6; both blue: 5C2 = 10; both green: 3C2 = 3. Total = 6 + 10 + 3 = 19.
-Source: SSC MTS 2019
+Source: PYQ-style
 
 Q79. In how many ways can 5 keys be arranged on a key ring (assuming the ring can be flipped)?
 (1) 12 (2) 24 (3) 60 (4) 120
@@ -33,14 +33,14 @@ Q80. How many 4-digit numbers divisible by 2 can be formed from the digits 1,2,3
 
 Answer: (1) 180
 Solution: A number divisible by 2 ends in 2,4,6 → 3 choices. Then thousands place: 5 remaining choices, hundreds: 4, tens: 3. Total = 3 × 5 × 4 × 3 = 180.
-Source: SSC CGL 2021
+Source: PYQ-style
 
 Q81. In how many ways can 5 boys and 4 girls be seated in a row so that the girls occupy the even places?
 (1) 2880 (2) 5760 (3) 720 (4) 1440
 
 Answer: (1) 2880
 Solution: There are 9 positions. Even places are 2,4,6,8 → 4 places. We must seat 4 girls in these 4 even places: 4! = 24 ways. The 5 boys occupy the remaining 5 odd places: 5! = 120 ways. Total = 120 × 24 = 2880.
-Source: SSC CHSL 2018
+Source: PYQ-style
 
 Q82. A student has to choose 4 subjects out of 8, but if Mathematics is chosen then Physics must also be chosen. In how many ways can he select the subjects?
 (1) 35 (2) 30 (3) 40 (4) 15
@@ -61,7 +61,7 @@ Q84. In how many ways can 6 men and 4 women be seated at a round table so that n
 
 Answer: (1) 43200
 Solution: First seat the 6 men around the table: (6-1)! = 120 ways. Then there are 6 gaps between men. We need to seat 4 women in 4 of these gaps, no two women together: number of ways = 6P4 = 360. Total = 120 × 360 = 43200.
-Source: SSC CPO 2020
+Source: PYQ-style
 
 Q85. How many diagonals does a convex polygon with 12 sides have?
 (1) 54 (2) 66 (3) 44 (4) 60
@@ -75,7 +75,7 @@ Q86. A team of 5 players is to be selected from 10 players, including 2 particul
 
 Answer: (1) 140
 Solution: Choose 1 star from the 2: 2C1 = 2. Then choose remaining 4 players from the other 8 (non-star) players: 8C4 = 70. Total = 2 × 70 = 140.
-Source: IBPS PO Mains 2018
+Source: PYQ-style
 
 Q87. How many 3-digit odd numbers can be formed using the digits 0, 1, 2, 3, 4, 5, 6 without repetition?
 (1) 75 (2) 90 (3) 105 (4) 120
@@ -141,7 +141,7 @@ Q96. How many 5-letter words can be formed using the letters of the word 'EXAMS'
 
 Answer: (1) 48
 Solution: Vowels in EXAMS: E, A (2 vowels). Middle (3rd position) must be a vowel: 2 choices. The remaining 4 positions can be filled by the remaining 4 distinct letters in 4! = 24 ways. Total = 2 × 24 = 48.
-Source: SSC CHSL 2019
+Source: PYQ-style
 
 Q97. A rectangular table has 4 chairs on each of its longer sides and 2 chairs on each of its shorter sides. In how many ways can 12 people be seated if there is no restriction? (Assume chairs are distinct)
 (1) 12! (2) (12-1)! (3) 4!4!2!2! (4) 12
@@ -196,7 +196,7 @@ Q78. A box contains 4 red, 5 blue and 3 green balls. In how many ways can 2 ball
 
 Answer: (1) 19
 Solution: Both red: 4C2 = 6; both blue: 5C2 = 10; both green: 3C2 = 3. Total = 6 + 10 + 3 = 19.
-Source: SSC MTS 2019
+Source: PYQ-style
 
 Q79. In how many ways can 5 keys be arranged on a key ring (assuming the ring can be flipped)?
 (1) 12 (2) 24 (3) 60 (4) 120
@@ -210,21 +210,21 @@ Q80. How many 4-digit numbers divisible by 2 can be formed from the digits 1,2,3
 
 Answer: (1) 180
 Solution: Unit digit must be even: 2,4,6 → 3 choices. Then thousands place: any of the remaining 5 digits, hundreds: 4, tens: 3. Total = 3 × 5 × 4 × 3 = 180.
-Source: SSC CGL 2021
+Source: PYQ-style
 
 Q81. In how many ways can 5 boys and 4 girls be seated in a row so that the girls occupy the even places?
 (1) 2880 (2) 5760 (3) 720 (4) 1440
 
 Answer: (1) 2880
 Solution: There are 9 positions. Even places: 2,4,6,8 → 4 places. The 4 girls can be arranged in these 4 places in 4! = 24 ways. The 5 boys occupy the remaining 5 odd places in 5! = 120 ways. Total = 120 × 24 = 2880.
-Source: SSC CHSL 2018
+Source: PYQ-style
 
 Q82. A student has to choose 4 subjects out of 8, but if Mathematics is chosen then Physics must also be chosen. In how many ways can he select the subjects?
 (1) 35 (2) 30 (3) 40 (4) 15
 
 Answer: (2) 30
 Solution: Case 1: Both Mathematics and Physics are chosen → pick 2 more from the remaining 6 subjects: 6C2 = 15. Case 2: Neither Mathematics nor Physics is chosen → pick all 4 from the remaining 6 subjects: 6C4 = 15. Total = 30.
-Source: IBPS PO 2019
+Source: PYQ-style
 
 Q83. How many different arrangements can be made by taking 3 letters from the word 'LOGARITHM' (9 distinct letters) if repetition is not allowed?
 (1) 504 (2) 84 (3) 720 (4) 168
@@ -238,7 +238,7 @@ Q84. In how many ways can 6 men and 4 women be seated at a round table so that n
 
 Answer: (1) 43200
 Solution: First seat the 6 men around the table: (6-1)! = 120 ways. Then 6 gaps are created between the men. Seat the 4 women in 4 of these gaps, no two together: 6P4 = 360. Total = 120 × 360 = 43200.
-Source: SSC CPO 2020
+Source: PYQ-style
 
 Q85. How many diagonals does a convex polygon with 12 sides have?
 (1) 54 (2) 66 (3) 44 (4) 60
@@ -252,14 +252,14 @@ Q86. A team of 5 players is to be selected from 10 players, including 2 particul
 
 Answer: (1) 140
 Solution: Choose exactly 1 star from the 2: 2C1 = 2. Then choose the remaining 4 players from the other 8: 8C4 = 70. Total = 2 × 70 = 140.
-Source: IBPS PO Mains 2018
+Source: PYQ-style
 
 Q87. How many 3-digit odd numbers can be formed using the digits 0, 1, 2, 3, 4, 5, 6 without repetition?
 (1) 75 (2) 90 (3) 105 (4) 120
 
 Answer: (1) 75
 Solution: Unit digit must be odd: 1,3,5 → 3 choices. Then hundreds digit (cannot be 0) has 5 choices among the remaining 6 digits (excluding the chosen odd digit and 0). Tens digit: any of the remaining 5 digits (including 0). Total = 3 × 5 × 5 = 75.
-Source: SSC CHSL 2020
+Source: PYQ-style
 
 Q88. In how many ways can 8 books (3 identical Economics and 5 identical Mathematics books) be arranged on a shelf if all 3 identical Economics books must always be together?
 (1) 6 (2) 56 (3) 336 (4) 21
@@ -311,21 +311,21 @@ Solution: Divisible by 2 → unit digit even: 0,2,4,6.
 Case 1: unit = 0 → hundreds: 6 choices (1-6), tens: 5 → 6×5=30.
 Case 2: unit = 2,4,6 (3 choices) → hundreds: cannot be 0 or that digit, so 5 choices; tens: 5 choices (including 0). So 3×5×5=75.
 Total = 30 + 75 = 105.
-Source: SSC CGL 2018
+Source: PYQ-style
 
 Q95. In how many ways can a committee of 5 persons be formed from 6 men and 4 women if it must contain at least 3 women?
 (1) 45 (2) 66 (3) 55 (4) 75
 
 Answer: (2) 66
 Solution: 3 women & 2 men: 4C3 × 6C2 = 4 × 15 = 60. 4 women & 1 man: 4C4 × 6C1 = 1 × 6 = 6. Total = 60 + 6 = 66.
-Source: SSC MTS 2020
+Source: PYQ-style
 
 Q96. How many 5-letter words can be formed using the letters of the word 'EXAMS' (5 distinct letters) if the middle letter must be a vowel?
 (1) 48 (2) 96 (3) 24 (4) 120
 
 Answer: (1) 48
 Solution: Vowels: E, A (2 vowels). Middle (3rd) position: 2 choices. Remaining 4 positions: arrange the remaining 4 distinct letters in 4! = 24 ways. Total = 2 × 24 = 48.
-Source: SSC CHSL 2019
+Source: PYQ-style
 
 Q97. A rectangular table has 4 chairs on each of its longer sides and 2 chairs on each of its shorter sides. In how many ways can 12 people be seated if all chairs are considered distinct and there is no further restriction?
 (1) 12! (2) (12-1)! (3) 4!4!2!2! (4) 12

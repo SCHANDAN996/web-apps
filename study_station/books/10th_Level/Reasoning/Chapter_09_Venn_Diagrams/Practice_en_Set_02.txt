@@ -9,7 +9,7 @@ Set 2: Practice MCQs (26–50)
 
 Answer: (A) Three separate circles.
 Solution: Cricket is a sport; bat and ball are pieces of equipment. They are not subclasses of cricket, nor do they share a class relationship. All three are disjoint sets.
-Source: SSC MTS 2021
+Source: PYQ-style
 
 27. Choose the Venn diagram that correctly depicts: Doctors, Stethoscope, Hospital.
 डॉक्टर, स्टेथोस्कोप, अस्पताल के लिए सही वेन आरेख चुनें।
@@ -20,7 +20,7 @@ Source: SSC MTS 2021
 
 Answer: (C) Three separate circles.
 Solution: A stethoscope is a tool, not a doctor or hospital. Doctor is a person, hospital is a place. None is a subclass of another. So all three are disjoint.
-Source: IBPS Clerk 2020
+Source: PYQ-style
 
 28. Which option best represents Players, Captains, Coaches?
 खिलाड़ी, कप्तान, कोच के लिए सबसे अच्छा विकल्प कौन-सा है?
@@ -31,7 +31,7 @@ Source: IBPS Clerk 2020
 
 Answer: (D) Captains inside Players, Coaches overlapping Players.
 Solution: All captains are players (subset). Coaches are not necessarily players; they may be former players or not, but class-wise Coach is a separate profession. So Coaches and Players can overlap (some coaches may also be players), but Captains are fully inside Players. So the correct diagram: Players large circle, Captains inside it, Coaches intersecting Players.
-Source: SSC CGL 2023
+Source: PYQ-style
 
 29. Study the following figure: Triangle = Engineers, Square = Managers, Circle = MBAs. Numbers in regions: only Engineers=12, only Managers=10, only MBAs=15, Engineers & Managers (not MBAs)=6, Managers & MBAs (not Engineers)=8, Engineers & MBAs (not Managers)=7, all three=4. How many are exactly one of these?
 *दिए गए चित्र में त्रिभुज = इंजीनियर, वर्ग = मैनेजर, वृत्त = MBA। क्षेत्रों में संख्याएँ: केवल इंजीनियर=12, केवल मैनेजर=10, केवल MBA=15, इंजीनियर और मैनेजर (MBA नहीं)=6, मैनेजर और MBA (इंजीनियर नहीं)=8, इंजीनियर और MBA (मैनेजर नहीं)=7, तीनों=4। कितने लोग ठीक एक हैं?*
@@ -42,7 +42,7 @@ Source: SSC CGL 2023
 
 Answer: (A) 37.
 Solution: Exactly one = only Engineers + only Managers + only MBAs = 12+10+15 = 37.
-Source: SSC CHSL 2020
+Source: PYQ-style
 
 30. In a group of 150 people, 90 like tea, 70 like coffee, 50 like both. How many like neither?
 150 लोगों के समूह में 90 चाय, 70 कॉफी, 50 दोनों पसंद करते हैं। कितने दोनों में से कोई भी पसंद नहीं करते?
@@ -53,7 +53,7 @@ Source: SSC CHSL 2020
 
 Answer: (C) 40.
 Solution: n(T ∪ C) = 90+70-50=110. Neither = 150-110=40.
-Source: RRB Group D 2019
+Source: PYQ-style
 
 31. In the given Venn diagram, circle A represents people who read English, circle B represents people who read Hindi, circle C represents people who read Sanskrit. Numbers: only A=25, only B=20, only C=18, A∩B only=12, B∩C only=9, A∩C only=6, A∩B∩C=5. How many read exactly two languages?
 *दिए गए वेन आरेख में A अंग्रेजी, B हिंदी, C संस्कृत पढ़ने वालों को दर्शाता है। केवल A=25, केवल B=20, केवल C=18, A∩B केवल=12, B∩C केवल=9, A∩C केवल=6, A∩B∩C=5। ठीक दो भाषाएँ पढ़ने वालों की संख्या बताएँ।*
@@ -64,7 +64,7 @@ Source: RRB Group D 2019
 
 Answer: (A) 27.
 Solution: Exactly two = (A∩B only)+(B∩C only)+(A∩C only) = 12+9+6 = 27.
-Source: SSC CGL 2021
+Source: PYQ-style
 
 32. In a Venn diagram, region representing 'only Hindi' contains 15, Hindi and English but not Sanskrit contains 8, all three contains 3. If total who know Hindi is 40, how many know Hindi and Sanskrit but not English?
 एक वेन आरेख में 'केवल हिंदी' में 15, हिंदी और अंग्रेजी लेकिन संस्कृत नहीं में 8, तीनों में 3 हैं। यदि हिंदी जानने वाले कुल 40 हैं, तो हिंदी और संस्कृत लेकिन अंग्रेजी नहीं जानने वालों की संख्या कितनी है?
@@ -75,7 +75,7 @@ Source: SSC CGL 2021
 
 Answer: (A) 14.
 Solution: Total Hindi = only Hindi + (Hindi∩English only) + (Hindi∩Sanskrit only) + (all three). Let Hindi∩Sanskrit only = x. Then 15 + 8 + x + 3 = 40 → x = 40 - 26 = 14.
-Source: IBPS PO 2022
+Source: PYQ-style
 
 33. Statements: Some apples are oranges. All oranges are fruits. No fruit is a vegetable.
 Conclusions: I. Some apples are fruits. II. No apple is a vegetable.
@@ -91,7 +91,7 @@ Solution: Some apples are oranges, and oranges are fruits → those apples are f
 
 Trap: Real-world bias: assuming "apple" is always a fruit, but syllogism only uses given statements.
 Answer: (A) Only I follows.
-Source: SSC CGL 2022
+Source: PYQ-style
 
 34. Statements: All phones are gadgets. Some gadgets are expensive. No expensive thing is cheap.
 Conclusions: I. Some phones are expensive. II. No phone is cheap.
@@ -104,7 +104,7 @@ Conclusions: I. Some phones are expensive. II. No phone is cheap.
 
 Answer: (D) Neither I nor II follows.
 Solution: Phones ⊆ Gadgets. Gadgets and Expensive overlap. Expensive ∩ Cheap = ∅. I: Phones may be entirely inside the part of gadgets that is not expensive, so not definite. II: Phones are gadgets; gadgets may not be expensive; but could phones be cheap? Cheap is disjoint from expensive, but phones might be in non-expensive gadgets, and those might be cheap? The statement doesn't forbid gadgets from being cheap, only expensive things are not cheap. A non-expensive phone could be cheap. So II not definite.
-Source: IBPS Clerk 2021
+Source: PYQ-style
 
 35. Statements: No student is a teacher. All teachers are graduates. Some graduates are postgraduates.
 Conclusions: I. Some postgraduates are not students. II. No student is a graduate.
@@ -122,7 +122,7 @@ Let's double-check: Statement: Some graduates are postgraduates. That means ther
 
 Trap: Overlooking the possibility that the overlapping part (postgraduate) might be entirely inside student, making "some not" false.
 Answer: (D) Neither I nor II follows.
-Source: SSC CGL 2023
+Source: PYQ-style
 
 36. Statements: All pens are pencils. No pencil is an eraser. Some erasers are sharpeners.
 Conclusions: I. Some sharpeners are not pencils. II. No pen is an eraser.
@@ -136,7 +136,7 @@ Conclusions: I. Some sharpeners are not pencils. II. No pen is an eraser.
 Answer: (B) Only II follows.
 Solution: Pen ⊆ Pencil. Pencil ∩ Eraser = ∅. Eraser ∩ Sharpener ≠ ∅. II: Since all pens are pencils and pencils disjoint from eraser, pens are disjoint from eraser. True. I: The sharpeners that are erasers are not pencils (because eraser and pencil are disjoint), so some sharpeners (those erasers) are not pencils. So I also follows! Wait, yes: if some erasers are sharpeners, those erasers are not pencils, so they are sharpeners that are not pencils. So I follows. Thus both follow. The trap: many think I might not follow if they don't see the chain. So answer (C) Both I and II follow. But is it that simple? Yes. So this is a straightforward medium. I'll keep it. Actually let's double-check: "Some sharpeners are not pencils" – we know some erasers are sharpeners, and no eraser is pencil. So those eraser-sharpeners are not pencils. So definitely some sharpeners are not pencils. I follows. So both follow. Good.
 
-Source: RRB NTPC 2020
+Source: PYQ-style
 
 37. [Trap Question] Which of the following diagrams represents the relationship among Car, Engine, Steering Wheel?
 कार, इंजन, स्टीयरिंग व्हील के बीच संबंध को कौन-सा वेन आरेख दर्शाता है?
@@ -148,7 +148,7 @@ Source: RRB NTPC 2020
 Answer: (A) Engine inside Car, Steering Wheel inside Car, no overlap between Engine and Steering Wheel.
 Solution: Both engine and steering wheel are parts of a car. They are distinct components, so both are subsets of Car, and they are disjoint.
 Trap: Option (B) shows Steering Wheel separate, which is wrong; it is part of Car. Many might think Car, Engine, Steering Wheel are all disjoint or that Steering Wheel is not a car part but a separate entity.
-Source: SSC MTS 2022
+Source: PYQ-style
 
 38. In the given figure, triangle = Doctors, rectangle = Surgeons, circle = Females. Numbers: only Doctors=20, only Surgeons=15, only Females=18, Doctors & Surgeons (not Females)=8, Surgeons & Females (not Doctors)=6, Doctors & Females (not Surgeons)=10, all three=5. What is the number of female doctors who are not surgeons?
 *दिए गए चित्र में त्रिभुज = डॉक्टर, आयत = सर्जन, वृत्त = महिलाएँ। केवल डॉक्टर=20, केवल सर्जन=15, केवल महिलाएँ=18, डॉक्टर और सर्जन (महिला नहीं)=8, सर्जन और महिलाएँ (डॉक्टर नहीं)=6, डॉक्टर और महिलाएँ (सर्जन नहीं)=10, तीनों=5। महिला डॉक्टर जो सर्जन नहीं हैं, उनकी संख्या कितनी है?*
@@ -159,7 +159,7 @@ Source: SSC MTS 2022
 
 Answer: (A) 10.
 Solution: Female doctors not surgeons = Doctors & Females (not Surgeons) region = 10.
-Source: SSC CGL 2020
+Source: PYQ-style
 
 39. Statements: Some rivers are lakes. All lakes are ponds. No pond is an ocean.
 Conclusions: I. Some rivers are ponds. II. No river is an ocean.
@@ -172,7 +172,7 @@ Conclusions: I. Some rivers are ponds. II. No river is an ocean.
 
 Answer: (A) Only I follows.
 Solution: Some rivers are lakes, and all lakes are ponds → some rivers are ponds. I true. Rivers that are not lakes could be oceans? Since lakes ⊆ ponds and ponds ∩ ocean = ∅, the lake part is not ocean. But other parts of rivers might be ocean. So II not definite.
-Source: IBPS PO 2019
+Source: PYQ-style
 
 40. Which Venn diagram best fits Crows, Birds, Mammals?
 कौवे, पक्षी, स्तनधारी के लिए सर्वश्रेष्ठ वेन आरेख कौन-सा है?
@@ -183,7 +183,7 @@ Source: IBPS PO 2019
 
 Answer: (A) Crows inside Birds, Mammals separate from Birds.
 Solution: All crows are birds. Birds and mammals are distinct biological classes (disjoint). So one circle Birds with Crows inside, and Mammals completely separate.
-Source: SSC CHSL 2019
+Source: PYQ-style
 
 41. In a class, 40% students play cricket, 30% play hockey, 20% play both. If total students are 200, how many play neither?
 एक कक्षा में 40% क्रिकेट, 30% हॉकी, 20% दोनों खेलते हैं। कुल 200 छात्र हैं। कितने कोई भी नहीं खेलते?
@@ -194,7 +194,7 @@ Source: SSC CHSL 2019
 
 Answer: (A) 80.
 Solution: n(C ∪ H)% = 40+30-20 = 50%. Neither% = 50%. Number = 50% of 200 = 100? Wait, 50% of 200 = 100. So neither = 100. But option B is 100. Let's check: 40% cricket = 80, 30% hockey = 60, both 20% = 40. So only cricket = 40, only hockey = 20, both = 40. Total playing = 100, neither = 100. So answer (B) 100. I need to adjust options. I'll set B as 100. I wrote A 80, B 100, C 60, D 50. So answer B 100. Yes.
-Source: RRB NTPC 2021
+Source: PYQ-style
 
 42. In the Venn diagram, triangle = Employees, square = Graduates, circle = Experienced. Numbers: only Employees=9, only Graduates=11, only Experienced=7, Employees & Graduates (not Experienced)=5, Graduates & Experienced (not Employees)=6, Employees & Experienced (not Graduates)=4, all three=3. How many are graduates but neither employees nor experienced?
 *वेन आरेख में त्रिभुज = कर्मचारी, वर्ग = स्नातक, वृत्त = अनुभवी। केवल कर्मचारी=9, केवल स्नातक=11, केवल अनुभवी=7, कर्मचारी और स्नातक (अनुभवी नहीं)=5, स्नातक और अनुभवी (कर्मचारी नहीं)=6, कर्मचारी और अनुभवी (स्नातक नहीं)=4, तीनों=3। ऐसे स्नातक जो न तो कर्मचारी हैं और न ही अनुभवी, कितने हैं?*
@@ -205,7 +205,7 @@ Source: RRB NTPC 2021
 
 Answer: (A) 11.
 Solution: "Graduates but neither employees nor experienced" is the region 'only Graduates' = 11.
-Source: SSC CGL 2022
+Source: PYQ-style
 
 43. [Trap] Statements: All fans are coolers. No cooler is a heater. Some heaters are blowers.
 Conclusions: I. Some blowers are not coolers. II. No fan is a heater.
@@ -218,7 +218,7 @@ Conclusions: I. Some blowers are not coolers. II. No fan is a heater.
 
 Answer: (C) Both I and II follow.
 Solution: II: Fan ⊆ Cooler, Cooler ∩ Heater = ∅ → Fan ∩ Heater = ∅, so II true. I: Some heaters are blowers, and heaters are not coolers, so those blowers are not coolers. So I true. Both follow. Trap: might mistakenly think I doesn't follow if forgetting the chain.
-Source: IBPS Clerk 2023
+Source: PYQ-style
 
 44. Choose the diagram for Laptops, Computers, Tablets.
 लैपटॉप, कंप्यूटर, टैबलेट के लिए आरेख चुनें।
@@ -229,7 +229,7 @@ Source: IBPS Clerk 2023
 
 Answer: (A) Laptops inside Computers, Tablets inside Computers, no overlap between Laptops and Tablets.
 Solution: Laptops and tablets are both types of computers (subsets). They are distinct types, so disjoint inside the computer circle.
-Source: SSC CGL 2018
+Source: PYQ-style
 
 45. In a survey, 60% like milk, 50% like tea, 30% like both. What percentage like at most one?
 एक सर्वेक्षण में 60% दूध, 50% चाय, 30% दोनों पसंद करते हैं। अधिकतम एक पसंद करने वालों का प्रतिशत कितना है?
@@ -240,7 +240,7 @@ Source: SSC CGL 2018
 
 Answer: (A) 70%.
 Solution: At most one = total - both = 100% - 30% = 70%.
-Source: RRB Group D 2020
+Source: PYQ-style
 
 46. Statements: All grapes are fruits. Some fruits are sour. No sour thing is sweet.
 Conclusions: I. Some grapes are sour. II. No grape is sweet.
@@ -253,7 +253,7 @@ Conclusions: I. Some grapes are sour. II. No grape is sweet.
 
 Answer: (D) Neither I nor II follows.
 Solution: Grapes ⊆ Fruits. Some fruits are sour (overlap). Sour ∩ Sweet = ∅. I: Grapes could be entirely in the non-sour part of fruits, so not definite. II: Grapes could be non-sour and sweet? But sweet is disjoint from sour, but grapes might be non-sour and possibly sweet? There's no restriction. So II not definite.
-Source: IBPS PO 2022
+Source: PYQ-style
 
 47. In the Venn diagram, circle A represents those who own a car, circle B those who own a bike, circle C those who own a cycle. Numbers: only A=14, only B=12, only C=16, A∩B only=7, B∩C only=5, A∩C only=8, all three=2. How many own exactly one vehicle?
 *वेन आरेख में A कार, B बाइक, C साइकिल स्वामियों को दर्शाता है। संख्याएँ: केवल A=14, केवल B=12, केवल C=16, A∩B केवल=7, B∩C केवल=5, A∩C केवल=8, तीनों=2। ठीक एक वाहन वालों की संख्या कितनी है?*
@@ -264,7 +264,7 @@ Source: IBPS PO 2022
 
 Answer: (A) 42.
 Solution: Exactly one = 14+12+16 = 42.
-Source: SSC CHSL 2023
+Source: PYQ-style
 
 48. Which Venn diagram shows Doctors, Engineers, Professionals?
 डॉक्टर, इंजीनियर, पेशेवर के लिए कौन-सा वेन आरेख सही है?
@@ -275,7 +275,7 @@ Source: SSC CHSL 2023
 
 Answer: (A) Doctors and Engineers both inside Professionals, no overlap between Doctors and Engineers.
 Solution: All doctors are professionals, all engineers are professionals. Doctors and engineers are distinct professions, so they are disjoint subsets of professionals.
-Source: SSC CGL 2019
+Source: PYQ-style
 
 49. Statements: Some shirts are pants. All pants are clothes. No cloth is a shoe.
 Conclusions: I. Some shirts are clothes. II. Some shoes are not pants.
@@ -288,7 +288,7 @@ Conclusions: I. Some shirts are clothes. II. Some shoes are not pants.
 
 Answer: (C) Both I and II follow.
 Solution: I: Some shirts are pants, all pants are clothes → those shirts are clothes. True. II: No cloth is shoe, and all pants are clothes, so pants ∩ shoe = ∅. That means no shoe is a pant, so definitely some shoes are not pants (in fact all shoes are not pants). So II follows.
-Source: SSC CGL 2020
+Source: PYQ-style
 
 50. [Trap] Statements: All roses are flowers. No flower is a fruit. Some fruits are apples.
 Conclusions: I. No rose is a fruit. II. Some apples are not flowers.
@@ -301,4 +301,4 @@ Conclusions: I. No rose is a fruit. II. Some apples are not flowers.
 
 Answer: (C) Both I and II follow.
 Solution: I: Rose ⊆ Flower, Flower ∩ Fruit = ∅ → Rose ∩ Fruit = ∅. True. II: Some fruits are apples, and fruits are disjoint from flowers. So those apples (which are fruits) are not flowers. So some apples are not flowers. True. Trap: Some might think II doesn't follow because they confuse "some apples are not flowers" requires that there exist apples that are not flowers, which is satisfied by the apple-fruit subset. So both follow.
-Source: IBPS Clerk 2022
+Source: PYQ-style

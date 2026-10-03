@@ -41,7 +41,7 @@ Q31. Find the next number:
 (A) 102 (B) 100 (C) 98 (D) 104
 Answer: (A) 102
 Solution: Pattern: ×2 – 1, but check: 8×2–1=15, 15×2–2=28? Actually better: differences: +7, +13, +25. Differences of differences: +6, +12 (doubling). Next diff of diff = 24, so next diff = 25+24=49. 53+49=102.
-Source: SSC CGL 2019
+Source: PYQ-style
 
 Q32. Next term:
 5, 6, 14, 45, ?

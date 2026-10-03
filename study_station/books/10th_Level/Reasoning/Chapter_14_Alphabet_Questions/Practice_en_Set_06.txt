@@ -14,7 +14,7 @@ HELLO: H+2=J, E+2=G, L+2=N, L+2=N, O+2=Q → JGNNQ, reverse → QNNGJ.
 WORLD: W+2=Y, O+2=Q, R+2=T, L+2=N, D+2=F → YQTNF, reverse → FNTQY.
 Trap: Option (B) YQTNF results if the final reversing step is skipped.
 
-Source: SSC CGL 2021 Tier-2 (Adapted)
+Source: PYQ-style
 
 127. ⚠️ Find the odd one out:
 (A) NPR (B) TVX (C) MOQ (D) PRT
@@ -25,7 +25,7 @@ Solution:
 Positions: N=14, P=16, R=18 – all even; T=20, V=22, X=24 – all even; P=16, R=18, T=20 – all even; M=13, O=15, Q=17 – all odd. MOQ is the only group with all odd-position letters.
 Trap: All groups share a constant gap of +2, so a superficial glance might suggest they are all alike. The parity of positions reveals the odd one.
 
-Source: SSC CGL 2019 Tier-2
+Source: PYQ-style
 
 128. What comes next in the series: A2, C5, F10, J17, ?
 (A) O26 (B) O25 (C) N26 (D) P26
@@ -36,7 +36,7 @@ Solution:
 Letters: A(1), C(3), F(6), J(10) → gaps +2, +3, +4 → next gap +5 → O(15).
 Numbers: 2,5,10,17 → differences +3, +5, +7 → next +9 → 26. So O26.
 
-Source: SSC CHSL 2021 Tier-1
+Source: PYQ-style
 
 129. Complete the series: AC3, CE8, EG15, GI24, ?
 (A) IK35 (B) IK36 (C) IJ35 (D) HK35
@@ -47,7 +47,7 @@ Solution:
 Letters: pair of letters skipping one: AC, CE, EG, GI → next IK.
 Numbers: 3 = 2²–1, 8 = 3²–1, 15 = 4²–1, 24 = 5²–1 → next 6²–1 = 35. So IK35.
 
-Source: SSC CGL 2020 Tier-2
+Source: PYQ-style
 
 130. ⚠️ In a certain code, 'ACT' is written as 'BEW'. How is 'DOG' written in that code?
 (A) EQJ (B) EPH (C) DPH (D) EQK
@@ -60,7 +60,7 @@ ACT: A(1st)+1=B, C(2nd)+2=E, T(3rd)+3=W → BEW.
 DOG: D(1st)+1=E, O(2nd)+2=Q, G(3rd)+3=J → EQJ.
 Trap: Option (B) EPH appears if a uniform +1 shift is applied. Option (C) DPH if no shift is applied to D.
 
-Source: SSC MTS 2020
+Source: PYQ-style
 
 131. How many such pairs of letters are there in the word 'UNDERSTAND' each of which has as many letters between them in the word as in the English alphabet?
 (A) 1 (B) 2 (C) 3 (D) 4
@@ -73,7 +73,7 @@ Positions: R=18, T=20 diff 2 → 1 letter between (S). In word, R(5) to T(7): S(
 S=19, T=20 diff 1 → 0 between. In word, S(6) and T(7) adjacent → 0. Valid.
 Thus, two pairs (R-T and S-T).
 
-Source: SSC CGL 2018 Tier-2
+Source: PYQ-style
 
 132. If the first half of the alphabet (A to M) is reversed and the second half (N to Z) is also reversed, then what will be the 9th letter to the right of the 5th letter from the left in the new arrangement?
 (A) Q (B) P (C) R (D) O
@@ -95,7 +95,7 @@ New arrangement: M L K J I H G F E D C B A N O P Q R S T U V W X Y Z.
 15th from right: Z(1), Y(2), X(3), W(4), V(5), U(6), T(7), S(8), R(9), Q(10), P(11), O(12), N(13), A(14), B(15) → B.
 7th left of B: B → A(1), N(2), O(3), P(4), Q(5), R(6), S(7) → S.
 
-Source: SSC CGL 2021 Tier-2
+Source: PYQ-style
 
 133. In a certain code, 'PRATAP' is written as 'TZGVZ'. How is 'PRAKASH' written in that code?
 (A) TZGPZBL (B) TZGPZCL (C) TZGPZBM (D) TZGPZAL
@@ -119,7 +119,7 @@ Answer: (A) GBMTZK
 Solution:
 Pattern: reverse the word, then each letter -1. PRAISE reverse = ESIARP, -1 = DRHZQO. LAUNCH reverse = HCNUAL, -1 = GBMTZK.
 
-Source: SSC CHSL 2021 Tier-2
+Source: PYQ-style
 
 134. What comes next: 2B, 4D, 8H, 16P, ?
 (A) 32X (B) 32Z (C) 32V (D) 32U
@@ -137,7 +137,7 @@ Answer: (A) R15
 Solution:
 Letters: Z, X, V, T → –2 → R. Numbers: 1, 3, 6, 10 → differences +2, +3, +4 → next +5 → 15. So R15.
 
-Source: SSC MTS 2021
+Source: PYQ-style
 
 135. In a certain code, 'CROWD' is written as 'DQPVE'. How is 'BLAZE' written?
 (A) CMBAD (B) CMBZD (C) CMBZF (D) CMBZE
@@ -156,7 +156,7 @@ Solution:
 Pattern in HUNGRY → IVMHSZ: H+1=I, U+1=V, N-1=M, G+1=H, R+1=S, Y+1=Z. So all letters +1 except the third letter which gets -1. Apply to THIRST (6 letters): T+1=U, H+1=I, I-1=H, R+1=S, S+1=T, T+1=U → UIHSTU.
 Trap: A uniform +1 shift yields UJISTU (since I+1=J, etc.), which might appear as an option.
 
-Source: SSC CGL 2022 Tier-2
+Source: PYQ-style
 
 136. How many such pairs of letters are there in the word 'SIGNIFICANT' each of which has as many letters between them in the word as in the English alphabet?
 (A) 2 (B) 3 (C) 4 (D) 5
@@ -224,7 +224,7 @@ Answer: (C) 4
 Solution:
 Valid pairs: (G and I at 5th), (I at 2nd and C), (G and A), (I at 5th and N at 10th). So total 4.
 
-Source: SSC CGL 2019 Tier-2
+Source: PYQ-style
 
 137. In a code, 'REASON' is written as 'TFBUQO'. How is 'BELIEF' written?
 (A) DGNJGH (B) DGNJHG (C) DGNJHH (D) DGNHGH
@@ -242,7 +242,7 @@ Answer: (A) WQLBN
 Solution:
 Pattern: +3, -1, +3, -1, +3. M+3=P, A-1=Z, G+3=J, I-1=H, C+3=F. TRICK: T+3=W, R-1=Q, I+3=L, C-1=B, K+3=N → WQLBN.
 
-Source: SSC CHSL 2021 Tier-2
+Source: PYQ-style
 
 138. Find the odd one out:
 (A) BDG (B) CEF (C) FHK (D) JLO
@@ -252,7 +252,7 @@ Answer: (B) CEF
 Solution:
 BDG: B(2)+2=D, D+3=G → gaps +2,+3. CEF: C(3)+2=E, E+1=F → +2,+1. FHK: F(6)+2=H, H+3=K → +2,+3. JLO: J(10)+2=L, L+3=O → +2,+3. So CEF is odd.
 
-Source: SSC MTS 2020
+Source: PYQ-style
 
 139. If the English alphabet is written in reverse order and then the first and last letters are interchanged, second and second-last interchanged, and so on, which letter will be 4th to the left of the 11th letter from the left in the final arrangement?
 (A) P (B) Q (C) R (D) S
@@ -273,7 +273,7 @@ Answer: (A) EF26
 Solution:
 Letters: AB, BC, CD, DE → next EF. Numbers: 2 = 1²+1, 5 = 2²+1, 10 = 3²+1, 17 = 4²+1 → next 5²+1 = 26. So EF26.
 
-Source: SSC CGL 2022 Tier-2
+Source: PYQ-style
 
 140. In a certain code, 'AMOUNT' is written as 'BNPSUM'. How is 'TENDER' written?
 (A) UFOFFS (B) UFOEFT (C) UFOFFT (D) UFPFFS
@@ -291,7 +291,7 @@ Answer: (A) UFOFFS
 Solution:
 Each letter +1: A→B, M→N, O→P, U→V, N→O, T→U → BNPVOU. TENDER: T→U, E→F, N→O, D→E, E→F, R→S → UFOFFS.
 
-Source: SSC MTS 2021
+Source: PYQ-style
 
 141. How many such pairs of letters are there in the word 'ELIMINATION'?
 (A) 2 (B) 3 (C) 4 (D) 5
@@ -339,7 +339,7 @@ Answer: (A) 2
 Solution:
 Word: E,L,I,M,I,N,A,T,I,O,N. Valid pairs: L(2nd) and I(5th): alphabet diff 3, word letters between M,I → 2 (same). O(10th) and N(11th): diff 1, word adjacent. So 2 pairs.
 
-Source: SSC CGL 2020 Tier-2
+Source: PYQ-style
 
 142. Series: C4, F9, I16, L25, ?
 (A) O36 (B) O35 (C) N36 (D) O38
@@ -349,7 +349,7 @@ Answer: (A) O36
 Solution:
 Letters: C(3), F(6), I(9), L(12) → +3 → O(15). Numbers: 4=2², 9=3², 16=4², 25=5² → next 6²=36. So O36.
 
-Source: SSC CHSL 2019
+Source: PYQ-style
 
 143. ⚠️ In a certain code, 'FINGER' is written as 'GHMDFS'. How is 'THUMBS' written?
 (A) UIVNCR (B) UIVNCS (C) UJVNCR (D) UIVNCR
@@ -367,7 +367,7 @@ Answer: (A) UGVLCR
 Solution:
 Pattern: alternating +1,-1,+1,-1,+1,-1. F+1=G, I-1=H, N+1=O, G-1=F, E+1=F, R-1=Q → GHOFFQ. THUMBS: T+1=U, H-1=G, U+1=V, M-1=L, B+1=C, S-1=R → UGVLCR.
 
-Source: SSC CGL 2021 Tier-2
+Source: PYQ-style
 
 144. How many such pairs of letters are there in the word 'PROVISION'?
 (A) 1 (B) 2 (C) 3 (D) 4
@@ -385,7 +385,7 @@ Answer: (A) 1
 Solution:
 Only O and N pair.
 
-Source: SSC MTS 2020
+Source: PYQ-style
 
 145. If all the letters of the word 'MENTOR' are arranged in alphabetical order and then written in reverse order, what will be the second letter from the left?
 (A) T (B) R (C) O (D) N
@@ -398,7 +398,7 @@ Letters: M,E,N,T,O,R → alphabetical: E,M,N,O,R,T → reverse: T,R,O,N,M,E → 
 145. ... second from left?
 Answer: R.
 
-Source: SSC CHSL 2019
+Source: PYQ-style
 
 146. In a code, 'BANANA' is written as 'CBDOB'. How is 'ORANGE' written?
 (A) PSCOHF (B) PSCOHG (C) PSCPHF (D) PSBOHF
@@ -416,7 +416,7 @@ Answer: (A) PSBOHF
 Solution:
 Each letter +1: B→C, A→B, N→O, A→B, N→O, A→B → CBOBOB. ORANGE: O→P, R→S, A→B, N→O, G→H, E→F → PSBOHF.
 
-Source: SSC MTS 2021
+Source: PYQ-style
 
 147. Find the odd one out:
 (A) BCD (B) FGH (C) JKL (D) PQR
@@ -443,7 +443,7 @@ Solution:
 All are three consecutive letters in reverse order. However, VUT contains the vowel U, while the others contain only consonants. Thus, VUT is the odd one.
 Trap: All groups follow the same pattern, but the presence of a vowel distinguishes VUT.
 
-Source: SSC CHSL 2020
+Source: PYQ-style
 
 148. In a certain code, 'BICYCLE' is written as 'DJAZAKD'. How is 'TRICYCLE' written?
 (A) VTKAXAKD (B) VTKAXAKE (C) VTKAXAKF (D) VTJAXAKD
@@ -463,7 +463,7 @@ Answer: (A) SHQFLO
 Solution:
 Each letter +3: P→S, A→D, P→S, E→H, R→U. PENCIL: P→S, E→H, N→Q, C→F, I→L, L→O → SHQFLO.
 
-Source: SSC CHSL 2021
+Source: PYQ-style
 
 149. How many such pairs of letters are there in the word 'CATASTROPHE' each of which has as many letters between them in the word as in the alphabet?
 (A) 3 (B) 4 (C) 2 (D) 5
@@ -473,7 +473,7 @@ Answer: (C) 2
 Solution:
 Word: C(3), A(1), T(20), A(1), S(19), T(20), R(18), O(15), P(16), H(8), E(5). Let's find pairs: T(3) and S(5): 20-19=1 → 0 between, word adjacent? T(3) to S(5): A(4) between → 1, no. T(3) and R(7): 20-18=2 → 1 between (S). Word T(3) to R(7): A,A,S,T → 4, no. S(5) and T(6): 19-20=1 → 0 between, adjacent S(5)-T(6) 0, yes! So S-T pair. Also O(8) and P(9): 15-16=1 → 0, adjacent O(8)-P(9) 0, yes. So 2 pairs.
 
-Source: SSC CGL 2022 Tier-2
+Source: PYQ-style
 
 150. ⚠️ Which letter will be 6th to the right of the 8th letter from the left in the English alphabet if the second half is reversed?
 (A) Q (B) P (C) R (D) O
@@ -502,7 +502,7 @@ Solution:
 Opposite of D is W (23), +1 = X (24). Opposite of O is L (12), +1 = M (13). Opposite of G is T (20), +1 = U (21). So XMU.
 Trap: Option (A) WLT is the result if the +1 step is skipped.
 
-Source: SSC CGL 2021 Tier-2
+Source: PYQ-style
 
 This completes Set 6. All 25 questions are hard with at least 2 traps. They include multi-step coding, tricky pairs, odd-one-out, and arrangement.### 📝 Practice Set 6 (Questions 126–150)
 
@@ -520,7 +520,7 @@ HELLO: H+2=J, E+2=G, L+2=N, L+2=N, O+2=Q → JGNNQ, reverse → QNNGJ.
 WORLD: W+2=Y, O+2=Q, R+2=T, L+2=N, D+2=F → YQTNF, reverse → FNTQY.
 Trap: Option (B) YQTNF results if the final reversing step is skipped.
 
-Source: SSC CGL 2021 Tier-2 (Adapted)
+Source: PYQ-style
 
 127. ⚠️ Find the odd one out:
 (A) NPR (B) TVX (C) MOQ (D) PRT
@@ -531,7 +531,7 @@ Solution:
 Positions: N=14, P=16, R=18 – all even; T=20, V=22, X=24 – all even; P=16, R=18, T=20 – all even; M=13, O=15, Q=17 – all odd. MOQ is the only group with all odd-position letters.
 Trap: All groups share a constant gap of +2, so a superficial glance might suggest they are all alike. The parity of positions reveals the odd one.
 
-Source: SSC CGL 2019 Tier-2
+Source: PYQ-style
 
 128. What comes next in the series: A2, C5, F10, J17, ?
 (A) O26 (B) O25 (C) N26 (D) P26
@@ -542,7 +542,7 @@ Solution:
 Letters: A(1), C(3), F(6), J(10) → gaps +2, +3, +4 → next gap +5 → O(15).
 Numbers: 2,5,10,17 → differences +3, +5, +7 → next +9 → 26. So O26.
 
-Source: SSC CHSL 2021 Tier-1
+Source: PYQ-style
 
 129. Complete the series: AC3, CE8, EG15, GI24, ?
 (A) IK35 (B) IK36 (C) IJ35 (D) HK35
@@ -553,7 +553,7 @@ Solution:
 Letters: pair of letters skipping one: AC, CE, EG, GI → next IK.
 Numbers: 3 = 2²–1, 8 = 3²–1, 15 = 4²–1, 24 = 5²–1 → next 6²–1 = 35. So IK35.
 
-Source: SSC CGL 2020 Tier-2
+Source: PYQ-style
 
 130. ⚠️ In a certain code, 'ACT' is written as 'BEW'. How is 'DOG' written in that code?
 (A) EQJ (B) EPH (C) DPH (D) EQK
@@ -566,7 +566,7 @@ ACT: A(1st)+1=B, C(2nd)+2=E, T(3rd)+3=W → BEW.
 DOG: D(1st)+1=E, O(2nd)+2=Q, G(3rd)+3=J → EQJ.
 Trap: Option (B) EPH appears if a uniform +1 shift is applied.
 
-Source: SSC MTS 2020
+Source: PYQ-style
 
 131. How many such pairs of letters are there in the word 'UNDERSTAND' each of which has as many letters between them in the word as in the English alphabet?
 (A) 1 (B) 2 (C) 3 (D) 4
@@ -579,7 +579,7 @@ Positions: R=18, T=20 diff 2 → 1 letter between (S). In word, R(5) to T(7): S(
 S=19, T=20 diff 1 → 0 between. In word, S(6) and T(7) adjacent → 0. Valid.
 Thus, two pairs (R-T and S-T).
 
-Source: SSC CGL 2018 Tier-2
+Source: PYQ-style
 
 132. If the first half of the alphabet (A to M) is reversed and the second half (N to Z) is kept unchanged, then what will be the 7th letter to the left of the 15th letter from the right in the new arrangement?
 (A) S (B) R (C) T (D) Q
@@ -591,7 +591,7 @@ New arrangement: M L K J I H G F E D C B A N O P Q R S T U V W X Y Z.
 15th from right: Z(1), Y(2), X(3), W(4), V(5), U(6), T(7), S(8), R(9), Q(10), P(11), O(12), N(13), A(14), B(15) → B.
 7th left of B: B → A(1), N(2), O(3), P(4), Q(5), R(6), S(7) → S.
 
-Source: SSC CGL 2021 Tier-2
+Source: PYQ-style
 
 133. If 'PRAISE' is written as 'DRHZQO' in a certain code, then how is 'LAUNCH' written?
 (A) GBMTZK (B) GBMTZJ (C) GBNTZK (D) GBMSZK
@@ -601,7 +601,7 @@ Answer: (A) GBMTZK
 Solution:
 Pattern: reverse the word, then each letter -1. PRAISE reverse = ESIARP, -1 = DRHZQO. LAUNCH reverse = HCNUAL, -1 = GBMTZK.
 
-Source: SSC CHSL 2021 Tier-2
+Source: PYQ-style
 
 134. What comes next: Z1, X3, V6, T10, ?
 (A) R15 (B) S15 (C) R14 (D) S14
@@ -611,7 +611,7 @@ Answer: (A) R15
 Solution:
 Letters: Z, X, V, T → –2 → R. Numbers: 1, 3, 6, 10 → differences +2, +3, +4 → next +5 → 15. So R15.
 
-Source: SSC MTS 2021
+Source: PYQ-style
 
 135. ⚠️ If 'HUNGRY' is coded as 'IVMHSZ', then 'THIRST' is coded as:
 (A) UIHSTU (B) UJHSTU (C) UIHSTV (D) UIHSSU
@@ -624,7 +624,7 @@ HUNGRY → IVMHSZ: H+1=I, U+1=V, N-1=M, G+1=H, R+1=S, Y+1=Z.
 THIRST: T+1=U, H+1=I, I-1=H, R+1=S, S+1=T, T+1=U → UIHSTU.
 Trap: A uniform +1 shift yields UJISTU, which appears as option (B).
 
-Source: SSC CGL 2022 Tier-2
+Source: PYQ-style
 
 136. How many such pairs of letters are there in the word 'SIGNIFICANT' each of which has as many letters between them in the word as in the English alphabet?
 (A) 2 (B) 3 (C) 4 (D) 5
@@ -635,7 +635,7 @@ Solution:
 Word: S(1), I(2), G(3), N(4), I(5), F(6), I(7), C(8), A(9), N(10), T(11).
 Valid pairs: (G, I at 5th) – both have N between; (I at 2nd, C) – have G,N,I,F,I between; (G, A) – have N,I,F,I,C between; (I at 5th, N at 10th) – have F,I,C,A between. Total 4 pairs.
 
-Source: SSC CGL 2019 Tier-2
+Source: PYQ-style
 
 137. If 'MAGIC' is coded as 'PZJHF', then 'TRICK' is coded as:
 (A) WQLBN (B) WQLBM (C) WQLCN (D) VQLBN
@@ -645,7 +645,7 @@ Answer: (A) WQLBN
 Solution:
 Pattern: +3, -1, +3, -1, +3. M+3=P, A-1=Z, G+3=J, I-1=H, C+3=F. TRICK: T+3=W, R-1=Q, I+3=L, C-1=B, K+3=N → WQLBN.
 
-Source: SSC CHSL 2021 Tier-2
+Source: PYQ-style
 
 138. Find the odd one out:
 (A) BDG (B) CEF (C) FHK (D) JLO
@@ -655,7 +655,7 @@ Answer: (B) CEF
 Solution:
 BDG: B+2=D, D+3=G. FHK: F+2=H, H+3=K. JLO: J+2=L, L+3=O. CEF: C+2=E, E+1=F → +2,+1. So CEF is odd.
 
-Source: SSC MTS 2020
+Source: PYQ-style
 
 139. What comes next: AB2, BC5, CD10, DE17, ?
 (A) EF26 (B) EF25 (C) FG26 (D) EF27
@@ -665,7 +665,7 @@ Answer: (A) EF26
 Solution:
 Letters: AB, BC, CD, DE → next EF. Numbers: 2 = 1²+1, 5 = 2²+1, 10 = 3²+1, 17 = 4²+1 → next 5²+1 = 26. So EF26.
 
-Source: SSC CGL 2022 Tier-2
+Source: PYQ-style
 
 140. If 'AMOUNT' is coded as 'BNPVOU', then 'TENDER' is coded as:
 (A) UFOFFS (B) UFOFFT (C) UFOGFS (D) UFOFGS
@@ -675,7 +675,7 @@ Answer: (A) UFOFFS
 Solution:
 Each letter +1: A→B, M→N, O→P, U→V, N→O, T→U → BNPVOU. TENDER: T→U, E→F, N→O, D→E, E→F, R→S → UFOFFS.
 
-Source: SSC MTS 2021
+Source: PYQ-style
 
 141. How many such pairs of letters are there in the word 'ELIMINATION' each of which has as many letters between them in the word as in the alphabet?
 (A) 2 (B) 3 (C) 4 (D) 1
@@ -685,7 +685,7 @@ Answer: (A) 2
 Solution:
 Word: E, L, I, M, I, N, A, T, I, O, N. Pairs: L(2nd) and I(5th) – diff 3, word has M,I (2 letters) – same; O(10th) and N(11th) – diff 1, adjacent – valid. Total 2.
 
-Source: SSC CGL 2020 Tier-2
+Source: PYQ-style
 
 142. Series: C4, F9, I16, L25, ?
 (A) O36 (B) O35 (C) N36 (D) O38
@@ -695,7 +695,7 @@ Answer: (A) O36
 Solution:
 Letters: C(3), F(6), I(9), L(12) → +3 → O(15). Numbers: 4=2², 9=3², 16=4², 25=5² → next 6²=36. So O36.
 
-Source: SSC CHSL 2019
+Source: PYQ-style
 
 143. If 'FINGER' is coded as 'GHOFFQ', then 'THUMBS' is coded as:
 (A) UGVLCR (B) UGVLCS (C) UHVLCR (D) UGVLDR
@@ -705,7 +705,7 @@ Answer: (A) UGVLCR
 Solution:
 Pattern: alternating +1,-1,+1,-1,+1,-1. F+1=G, I-1=H, N+1=O, G-1=F, E+1=F, R-1=Q → GHOFFQ. THUMBS: T+1=U, H-1=G, U+1=V, M-1=L, B+1=C, S-1=R → UGVLCR.
 
-Source: SSC CGL 2021 Tier-2
+Source: PYQ-style
 
 144. How many such pairs of letters are there in the word 'PASSION' each of which has as many letters between them as in the alphabet?
 (A) 1 (B) 2 (C) 3 (D) 0
@@ -715,7 +715,7 @@ Answer: (A) 1
 Solution:
 Word: P, A, S, S, I, O, N. Only O and N are adjacent and have a single position difference in the alphabet (15 and 14). So 1 pair.
 
-Source: SSC MTS 2020
+Source: PYQ-style
 
 145. If all the letters of the word 'MENTOR' are arranged in alphabetical order and then written in reverse order, what will be the second letter from the left?
 (A) T (B) R (C) O (D) N
@@ -725,7 +725,7 @@ Answer: (B) R
 Solution:
 Letters: M,E,N,T,O,R → alphabetical: E,M,N,O,R,T → reverse: T,R,O,N,M,E. Second from left: R.
 
-Source: SSC CHSL 2019
+Source: PYQ-style
 
 146. If 'BANANA' is coded as 'CBOBOB', then 'ORANGE' is coded as:
 (A) PSBOHF (B) PSBOHG (C) PSBPHF (D) PSCOHF
@@ -735,7 +735,7 @@ Answer: (A) PSBOHF
 Solution:
 Each letter +1: B→C, A→B, N→O, A→B, N→O, A→B. ORANGE: O→P, R→S, A→B, N→O, G→H, E→F → PSBOHF.
 
-Source: SSC MTS 2021
+Source: PYQ-style
 
 147. ⚠️ Find the odd one out:
 (A) HGF (B) NML (C) TSR (D) VUT
@@ -746,7 +746,7 @@ Solution:
 All are three consecutive letters in reverse order. However, VUT contains the vowel U, while the others contain only consonants.
 Trap: The pattern of consecutive reverse letters is identical, but the vowel/consonant distinction breaks it.
 
-Source: SSC CHSL 2020
+Source: PYQ-style
 
 148. If 'PAPER' is coded as 'SDSHU', then 'PENCIL' is coded as:
 (A) SHQFLO (B) SHQFLP (C) SHQGLO (D) SHQFMO
@@ -756,7 +756,7 @@ Answer: (A) SHQFLO
 Solution:
 Each letter +3: P→S, A→D, P→S, E→H, R→U. PENCIL: P→S, E→H, N→Q, C→F, I→L, L→O → SHQFLO.
 
-Source: SSC CHSL 2021
+Source: PYQ-style
 
 149. How many such pairs of letters are there in the word 'CATASTROPHE' each of which has as many letters between them in the word as in the alphabet?
 (A) 3 (B) 4 (C) 2 (D) 5
@@ -766,7 +766,7 @@ Answer: (C) 2
 Solution:
 Word: C, A, T, A, S, T, R, O, P, H, E. Pairs: S and T (adjacent, alphabet diff 1) and O and P (adjacent, diff 1). So 2 pairs.
 
-Source: SSC CGL 2022 Tier-2
+Source: PYQ-style
 
 150. ⚠️ In a certain code, letters are first replaced by their opposite letter (A↔Z, B↔Y, etc.) and then shifted forward by 1. How is 'DOG' written in this code?
 (A) WLT (B) XMU (C) WMT (D) XLT
@@ -777,4 +777,4 @@ Solution:
 Opposite of D is W (23), +1 = X. Opposite of O is L (12), +1 = M. Opposite of G is T (20), +1 = U → XMU.
 Trap: Option (A) WLT is the result if the +1 step is skipped.
 
-Source: SSC CGL 2021 Tier-2
+Source: PYQ-style
