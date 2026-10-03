@@ -89,7 +89,6 @@ STRINGS = {
     'ins_slow': ('{n} सवालों पर बहुत समय लगा और फिर भी ग़लत हुए — ऐसे सवाल पहली बार में छोड़ें, आख़िर में लौटें।', '{n} questions took long and were still wrong — skip such ones first, come back at the end.'),
     'ins_guess': ('{n} जवाब 8 सेकंड से कम में दिए और ग़लत निकले — जल्दबाज़ी और अंदाज़े से बचें।', '{n} answers given in under 8 seconds were wrong — avoid rushing and guessing.'),
     'ins_time_left': ('{min} मिनट बचे थे और {n} सवाल छोड़े — बचा समय छोड़े सवालों पर लगाएँ।', '{min} minutes were left with {n} skipped — spend spare time on skipped ones.'),
-    'avg_time': ('समय/सवाल', 'Time/Q'),
     'install_title': ('ऐप की तरह इंस्टॉल करें', 'Install as an app'),
     'install_desc': ('होम स्क्रीन से एक टैप में खुलेगा, कम डेटा में चलेगा', 'Opens from your home screen, works on low data'),
     'install_btn': ('इंस्टॉल', 'Install'),
