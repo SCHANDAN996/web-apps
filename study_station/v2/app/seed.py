@@ -193,9 +193,10 @@ def main():
     with SessionLocal() as db:
         seed_catalog(db)
         print('questions:', seed_questions(db))
-        if db.scalar(select(Job.id).limit(1)) is None:
-            print('jobs added:', seed_jobs(db))
-        print('legacy links cleaned:', clean_legacy_links(db))
+        # The old website feed (website/js/jobs_data.js) is no longer imported: its titles were copied
+        # from aggregator sites (CLAUDE.md rule 1). Jobs come only from the official job engine now.
+        from .jobs.manage import drop_legacy
+        print('legacy jobs removed:', drop_legacy(db))
 
 
 if __name__ == '__main__':

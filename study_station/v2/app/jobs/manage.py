@@ -88,12 +88,22 @@ def resolve_upcoming(db: Session):
 
 
 # ------------------------------------------------------------------ cleanup
+def drop_legacy(db: Session):
+    """Delete jobs imported from the old website feed (aggregator-copied titles, no official notice)."""
+    n = 0
+    for job in db.scalars(select(Job).where(Job.status == 'legacy')):
+        db.delete(job)
+        n += 1
+    db.commit()
+    return n
+
+
 def cleanup(db: Session, keep_closed_days=30, pending_days=30, today=None):
     """Delete what students no longer need: long-closed jobs, stale unconfirmed items,
     passed calendar entries. Returns counts."""
     today = today or today_ist()
     counts = {'closed': 0, 'pending': 0, 'upcoming_passed': 0, 'updates_old': 0,
-              'upcoming_resolved': resolve_upcoming(db)}
+              'upcoming_resolved': resolve_upcoming(db), 'legacy': drop_legacy(db)}
     stale = datetime.utcnow() - timedelta(days=pending_days)
     rules = [
         ('closed', (Job.job_type == 'latest') & (Job.last_date < today - timedelta(days=keep_closed_days))),

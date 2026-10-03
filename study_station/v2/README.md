@@ -39,7 +39,7 @@ pytest                                   # tests
 | इस्तेमाल लायक सवाल (`unreviewed`) | ~6,600 (Quant, Reasoning, GA, English-Noun) |
 | हिंदी + English दोनों में | ~1,450 |
 | छिपाए गए (`flagged`) | ~850 — AI की सोच हल में छूटी, हल और उत्तर में टकराव, या पिछले सवाल पर निर्भर |
-| Jobs | `python -m app.jobs run` से official स्रोतों से (नीचे देखें); पुराने feed की 150 jobs "legacy" label के साथ |
+| Jobs | सिर्फ़ `python -m app.jobs run` से official स्रोतों से (नीचे देखें); पुराने website feed की jobs अब import नहीं होतीं (उनके title aggregator sites से copy थे) |
 
 सभी सवाल AI से बने हैं और students को "AI से बना · समीक्षा बाकी" label के साथ दिखते हैं।
 "PYQ" label तभी लगेगा जब `source_type='pyq'` और `source_ref` (exam + साल + shift) भरा हो।

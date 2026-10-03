@@ -275,3 +275,12 @@ def test_updates_tab_shows_only_official_items(clean_jobs, client):
     db.commit()
     assert [j['slug'] for j in client.get('/api/v1/jobs?status=updates').json()['jobs']] == ['res-official']
     assert client.get('/api/v1/jobs?status=undated').json()['jobs'] == []
+
+
+def test_cleanup_and_seed_drop_legacy_jobs(clean_jobs):
+    db = clean_jobs
+    db.add_all([Job(slug='leg', title='Copied headline', status='legacy', job_type='latest'),
+                Job(slug='ok', title='SSC notice', status='verified', job_type='latest')])
+    db.commit()
+    assert manage.cleanup(db)['legacy'] == 1
+    assert {j.slug for j in db.query(Job)} == {'ok'}
