@@ -30,6 +30,10 @@ APP_DIR = Path(__file__).resolve().parent
 @asynccontextmanager
 async def lifespan(_app):
     ensure_schema(engine)
+    # Build the book index in the background so the first visitor doesn't wait for the scan.
+    import threading
+    from . import books
+    threading.Thread(target=books.index, daemon=True, name='books-index').start()
     yield
 
 
@@ -417,12 +421,26 @@ def api_jobs(qualification: str | None = None, category: str | None = None,
 
 
 # ---------------------------------------------------------------- pages
+def _asset_version():
+    """Short hash of the static files: goes into asset URLs (?v=…) and the service-worker cache name,
+    so browsers cache assets for a year and still get every new deploy at once."""
+    import hashlib
+    h = hashlib.sha1()
+    for f in sorted((APP_DIR / 'static').rglob('*')):
+        if f.is_file() and f.name != 'sw.js':
+            h.update(f.name.encode()); h.update(f.read_bytes())
+    return h.hexdigest()[:10]
+
+
+ASSET_V = _asset_version()
+
+
 def ctx(request: Request, device: Device | None, **extra):
     lang = device.lang if device else lang_from_request(request)
     return {'request': request, 'lang': lang, 'tr': lambda k: t(k, lang), 'device': device,
             'L': lambda hi, en: hi if lang == 'hi' else en, 'site_url': SITE_URL,
             'strings': client_strings(lang), 'path': request.url.path,
-            'ai_enabled': bool(config.ANTHROPIC_API_KEY), **extra}
+            'ai_enabled': bool(config.ANTHROPIC_API_KEY), 'asset_v': ASSET_V, **extra}
 
 
 def render(name, request, device, http_status=200, **extra):
@@ -650,8 +668,10 @@ def healthz(db: Session = Depends(get_db)):
 
 @app.get('/sw.js')
 def service_worker():
-    return FileResponse(APP_DIR / 'static' / 'sw.js', media_type='text/javascript',
-                        headers={'Cache-Control': 'no-cache', 'Service-Worker-Allowed': '/'})
+    # The asset version is stamped in, so a deploy that changes any static file renews the cache by itself.
+    js = (APP_DIR / 'static' / 'sw.js').read_text(encoding='utf-8').replace('__ASSET_V__', ASSET_V)
+    return Response(js, media_type='text/javascript',
+                    headers={'Cache-Control': 'no-cache', 'Service-Worker-Allowed': '/'})
 
 
 @app.get('/manifest.webmanifest')

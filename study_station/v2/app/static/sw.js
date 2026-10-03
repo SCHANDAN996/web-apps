@@ -1,9 +1,11 @@
 /* Study Station v2 service worker: offline shell, network-first pages, never caches API data.
    Book pages (/books/…) are the same for everyone, so visited ones are kept for offline reading. */
-const VERSION = 'ss2-v4';
+const V = '__ASSET_V__';                 // stamped by the server (hash of the static files)
+const VERSION = 'ss2-' + V;
 const BOOKS = 'ss2-books-v1';
 const BOOKS_MAX = 80;           // pages kept for offline reading (oldest dropped first)
-const SHELL = ['/static/css/app.css', '/static/js/app.js', '/static/js/theme.js', '/static/js/player.js', '/static/icon.svg', '/offline'];
+const SHELL = ['/static/css/app.css', '/static/js/app.js', '/static/js/theme.js', '/static/js/player.js', '/static/icon.svg']
+  .map((u) => u + '?v=' + V).concat(['/offline']);
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(VERSION).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));
@@ -36,12 +38,13 @@ self.addEventListener('fetch', (e) => {
     return;
   }
   if (url.pathname.startsWith('/static/')) {
-    e.respondWith(caches.match(req).then((hit) => {
-      const net = fetch(req).then((res) => {
-        if (res.ok) caches.open(VERSION).then((c) => c.put(req, res.clone()));
-        return res;
-      });
-      return hit || net;
-    }));
+    // Versioned assets never change: cache first, network only on a miss (saves data on every page).
+    e.respondWith(caches.match(req).then((hit) => hit || fetch(req).then((res) => {
+      if (res.ok && url.searchParams.get('v') === V) {
+        const copy = res.clone();
+        caches.open(VERSION).then((c) => c.put(req, copy));
+      }
+      return res;
+    })));
   }
 });

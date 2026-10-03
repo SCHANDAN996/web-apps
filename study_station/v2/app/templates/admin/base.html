@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex, nofollow">
   <title>{% block title %}Admin{% endblock %} — Study Station</title>
-  <link rel="stylesheet" href="/static/css/app.css">
+  <link rel="stylesheet" href="/static/css/app.css?v={{ asset_v }}">
   <style>
     body { padding-bottom: 0; }
     .admin-nav { display: flex; gap: var(--sp-2); flex-wrap: wrap; }
@@ -36,6 +36,6 @@
   {% endif %}
 </div></header>
 <main class="wrap wide">{% block main %}{% endblock %}</main>
-<script src="/static/js/admin.js" defer></script>
+<script src="/static/js/admin.js?v={{ asset_v }}" defer></script>
 </body>
 </html>

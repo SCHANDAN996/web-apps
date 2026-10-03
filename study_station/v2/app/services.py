@@ -390,8 +390,10 @@ def device_stats(db: Session, device: Device, today=None):
     attempted = sum(t['attempted'] for t in topics)
     correct = sum(t['correct'] for t in topics)
     weak = sorted([t for t in topics if t['attempted'] >= 5 and t['accuracy'] < 60], key=lambda t: t['accuracy'])
-    days = {(d + IST).date() for d in db.scalars(
-        select(AttemptAnswer.answered_at).join(Attempt).where(Attempt.device_id == device.id))}
+    # Distinct IST study days, computed in SQL (a heavy user has tens of thousands of answers).
+    ist_day = func.date(AttemptAnswer.answered_at, '+5 hours', '+30 minutes')
+    days = {date.fromisoformat(v) for v in db.scalars(
+        select(ist_day).join(Attempt).where(Attempt.device_id == device.id).distinct()) if v}
     streak, d = 0, today
     if d not in days:
         d -= timedelta(days=1)       # streak survives until the day is over

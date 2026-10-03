@@ -10,9 +10,9 @@
   <meta name="theme-color" content="#F9F9FF" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#111318" media="(prefers-color-scheme: dark)">
   <link rel="manifest" href="/manifest.webmanifest">
-  <link rel="icon" href="/static/icon.svg" type="image/svg+xml">
-  <script src="/static/js/theme.js"></script>
-  <link rel="stylesheet" href="/static/css/app.css">
+  <link rel="icon" href="/static/icon.svg?v={{ asset_v }}" type="image/svg+xml">
+  <script src="/static/js/theme.js?v={{ asset_v }}"></script>
+  <link rel="stylesheet" href="/static/css/app.css?v={{ asset_v }}">
   {% block head %}{% endblock %}
 </head>
 <body class="{% block body_class %}{% endblock %}">
@@ -41,7 +41,7 @@
 {% endblock %}
 <main id="main" class="wrap">{% block main %}{% endblock %}</main>
 <script id="ss-boot" type="application/json">{{ {'lang': lang, 't': strings, 'ai': ai_enabled}|tojson }}</script>
-<script src="/static/js/app.js" defer></script>
+<script src="/static/js/app.js?v={{ asset_v }}" defer></script>
 {% block scripts %}{% endblock %}
 </body>
 </html>

@@ -403,6 +403,17 @@ def index(force=False):
     fresh = lambda: _state['root'] == root and time.monotonic() - _state['at'] < config.BOOKS_RECHECK_SECONDS  # noqa: E731
     if not force and fresh():
         return _state['books']
+    # Stale but present: answer from the old index and refresh in the background (no request waits).
+    if not force and _state.get('books') is not None and _state['root'] == root and config.BOOKS_RECHECK_SECONDS > 0:
+        if _lock.acquire(blocking=False):
+            def refresh():
+                try:
+                    books = _scan(root)
+                    _state.update(at=time.monotonic(), root=root, books=books, by_slug={b.slug: b for b in books})
+                finally:
+                    _lock.release()
+            threading.Thread(target=refresh, daemon=True, name='books-refresh').start()
+        return _state['books']
     with _lock:
         if force or not fresh():
             books = _scan(root)

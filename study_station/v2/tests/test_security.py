@@ -129,3 +129,12 @@ def test_ai_budget_is_refunded_when_the_call_fails(client, db, monkeypatch):
     assert client.post(f'/api/v1/questions/{qid}/explain', json={'lang': 'hi'}).status_code == 503
     db.expire_all()
     assert sum(u.count for u in db.query(AiUsage).all()) == before
+
+
+def test_assets_are_versioned_and_sw_is_stamped(client):
+    from app.main import ASSET_V
+    page = client.get('/').text
+    assert f'/static/css/app.css?v={ASSET_V}' in page and f'/static/js/app.js?v={ASSET_V}' in page
+    sw = client.get('/sw.js')
+    assert sw.status_code == 200 and '__ASSET_V__' not in sw.text and ASSET_V in sw.text
+    assert sw.headers['cache-control'] == 'no-cache'
