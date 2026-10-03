@@ -1,28 +1,10 @@
-📋 Important Rules & Approaches: Figure Series/Classification
-Rule/Approach Name	Description	Example
-1. Rotation Pattern	Figure turns by a fixed angle (45°, 90°, 135°, 180°) in a consistent direction (CW/ACW).	An arrow rotates 90° clockwise in each step.
-2. Movement/Shifting Pattern	An element moves stepwise between positions (corners, sides, inside/outside).	A dot moves from top-left → top-right → bottom-right → bottom-left.
-3. Number/Element Count Pattern	Number of lines, dots, sides, or shapes changes systematically (+1, –1, ×2).	Triangle (3 sides) → Square (4) → Pentagon (5) → Hexagon (6).
-4. Shading/Fill Change Pattern	Fill style cycles among solid, striped, dotted, or blank in a fixed order.	Circle: half-shaded → fully shaded → blank → half-shaded.
-5. Addition/Deletion Pattern	A line or shape is added or removed at a specific location each step.	One line added to form a square from a 'U' shape; next, another line added to close it.
-6. Alternating (Odd-Even) Pattern	Two different rules operate on odd (1,3,5) and even (2,4,6) positions separately.	Odd: rotate 90°; Even: mirror image. Next depends on position parity.
-7. Combined Pattern	Two or more simple patterns appear simultaneously.	Rotation + element count increase, or shifting + shading change.
-8. Open vs Closed Classification	Figures with fully closed boundaries vs one with even a tiny gap.	4 fully closed polygons, 1 with a hairline opening – odd one out.
-9. Symmetry Classification	Odd figure has different number of symmetry lines or lacks symmetry entirely.	4 figures have 1 symmetry line, one has 2 – it is the odd one.
-10. Intersection Points Classification	Count of line intersections differs in the odd figure.	4 figures with 4 intersection points, one with 2 – that is odd.
-11. Shape/Type Classification	All figures are of one geometric family except one.	4 triangles, 1 square – square is odd.
-12. Position of Element Classification	An inner element (dot, arrow) is inside in all except one where it's outside.	Dot inside circle for 4, dot outside for 1 – odd figure.
+# Chapter: Figure Series/Classification, Level: foundation, Type: Non-verbal Reasoning
 
-Time Management
-
-Rule	Description	Application
-15-Second Scan Rule	If the pattern or odd-one basis isn't spotted within 15 seconds, mark the question for review and move on.	Prevents time sink; return with fresher eyes later.
-45-Second Max Rule	Do not spend more than 45 seconds on a single figure series or classification question. If no answer, use elimination and take an educated guess.	Maintains overall section pace; each question gets ≤45 sec.
-3-Second Classification Scan	For classification, ask three quick questions: "All closed?", "Same number of corners?", "Shading in same area?" This often reveals the odd one instantly.	Speeds up the odd-one-out search dramatically.
-Elimination First	In series, first eliminate answer options that clearly violate the observed rule, then compare the remaining closely.	Saves 10–15 seconds by narrowing choices quickly.
-Odd-Even Split Check	If the pattern seems broken after two steps, instantly check odd and even positions separately.	Prevents getting stuck on alternating patterns; saves time.
-
-Logical/Mathematical Formulas
-
-Formula Type	Details
-No mathematical formulas	This is a non-verbal reasoning chapter. All logic is based purely on visual observation, pattern recognition, and transformation tracking. No calculations are involved.
+@content_agent lang=en level=foundation 'List all important rules, approaches, time management tips, and logical formulas (if any) for Figure Series/Classification in a clean table.
+Instructions:
+- Table has three parts:
+  1. "Key Rules/Approaches" – Rule Name | Description | Example
+  2. "Time Management" – 15-second and 45-second rule (e.g., "If pattern not understood in 15 sec, skip").
+  3. "Logical/Mathematical Formulas" – if applicable; otherwise "No formulas for this chapter".
+- No explanation, just tabular data.
+- Keep language simple and precise.

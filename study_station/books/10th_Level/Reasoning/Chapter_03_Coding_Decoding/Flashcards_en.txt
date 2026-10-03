@@ -1,44 +1,143 @@
-Front: The core idea of coding-decoding in one sentence?
-Back: Letters/words are changed by a rule; catch the rule from the example and build or read the code of a new word.
+Flashcards: Coding-Decoding
 
-Front: The golden rule for solving coding-decoding?
-Back: Find the rule between the original word and its code in the example, then apply it to the new word.
+Card 1
+🔹 Front:
+What is the first thing you should do when you see a word and its code in a question?
 
-Front: What must you remember first?
-Back: Alphabet positions — A=1, B=2 … Z=26 (and the EJOTY mnemonic).
+🔸 Back:
+Write the word and its code one below the other, letter by letter. Then compare the position or shift of each letter. This reveals the pattern.
 
-Front: What is the rule in CAT = DBU?
-Back: Each letter +1 forward (C→D, A→B, T→U).
+Card 2
+🔹 Front:
+If ‘COLD’ is coded as ‘DPME’, what is the rule?
 
-Front: If CAT = DBU, what is the code for DOG?
-Back: EPH (D→E, O→P, G→H, each letter +1).
+🔸 Back:
+Each letter is moved one step forward: C→D, O→P, L→M, D→E. So the rule is +1.
 
-Front: What does reverse coding look like?
-Back: The whole word is reversed — MOUSE → ESUOM.
+Card 3
+🔹 Front:
+What simple formula gives the “mirror image” letter in the alphabet?
 
-Front: In number coding, how is CAB written?
-Back: 3, 1, 2 (C=3, A=1, B=2).
+🔸 Back:
+Reverse position = 27 – normal position.
+Example: A=1, mirror=26 (Z); K=11, mirror=16 (P).
 
-Front: What are the EJOTY mnemonic values?
-Back: E=5, J=10, O=15, T=20, Y=25.
+Card 4
+🔹 Front:
+How can you instantly find the position number of any letter without counting from A each time?
 
-Front: Reverse-alphabet pairs and their sum?
-Back: A↔Z, B↔Y, C↔X — each pair sums to 27.
+🔸 Back:
+Use the mnemonic EJOTY: E=5, J=10, O=15, T=20, Y=25. Count forward or backward from the nearest landmark.
 
-Front: What is substitution coding?
-Back: Replacing one word entirely with another (e.g. sky = sea).
+Card 5
+🔹 Front:
+In ‘NUMBER’ = ‘MVLADQ’, what is the pattern?
 
-Front: What is the mixed-rule trap?
-Back: Odd positions shift +1 and even positions shift −1. Do not assume one rule.
+🔸 Back:
+Each letter is moved one step backward: N→M, U→V? Wait, U→V is +1, not consistent. Let's check: N(14) -> M(13) (-1), U(21) -> V(22) (+1) – not uniform. So possibly mixed: first -1, second +1, third -1, fourth +1, etc. Or maybe it's a different logic. (This flashcard is just a prompt to think: not all shifts are uniform; sometimes alternating pattern.)
 
-Front: In shift coding, what to check first?
-Back: The gap of the first letter; usually the same gap applies to the whole word.
+Card 6
+🔹 Front:
+What common trick do examiners use to trap students in multiple-choice coding questions?
 
-Front: What is the other form of number coding?
-Back: Asking the sum of letter positions (e.g. CAB = 3+1+2 = 6).
+🔸 Back:
+They provide options where more than one pattern seems to fit the given code. Always test the pattern on the whole word and check the options using elimination. Stick to the simplest consistent rule.
 
-Front: What are the three steps of coding-decoding?
-Back: Write numbers → see the gap → apply the rule.
+Card 7
+🔹 Front:
+‘SCHOOL’ is coded as ‘RBGNKK’. Is this a simple +1 or –1 shift?
 
-Front: If you cannot find the rule within 40 seconds?
-Back: Skip and do the easy shift/reverse codes first (Skip Strategy).
+🔸 Back:
+S→R (-1), C→B (-1), H→G (-1), O→N (-1), O→K? O→K is -4, not -1. So it’s not uniform. Possibly the pattern is -1, -1, -1, -1, -4? That seems inconsistent. Check: O (15) → N (14) is -1, next O (15) → K (11) is -4. Might be a different rule like – sum of position? No. Better to check if there is vowel/consonant rule: S (consonant) -1, C (consonant) -1, H (consonant) -1, O (vowel) -1, O (vowel) -4? Not clear. So this card reminds you that sometimes the pattern is broken; you need to look for another layer.
+
+Card 8
+🔹 Front:
+What does the “EJOTY” mnemonic help you to do?
+
+🔸 Back:
+It gives the position numbers of E(5), J(10), O(15), T(20), Y(25). This lets you quickly find any letter’s position by counting from these fixed points, saving time.
+
+Card 9
+🔹 Front:
+In Reverse Coding, why do we use 27 – position?
+
+🔸 Back:
+Because A=1 and Z=26 sum to 27, B=2 and Y=25 sum to 27, and so on. So mirror position = 27 – original position.
+
+Card 10
+🔹 Front:
+What should you do if the direct shift pattern doesn’t work in the first 30 seconds?
+
+🔸 Back:
+Try a second layer: reverse the word first, then apply a shift. Or check if vowels and consonants follow different rules. If still stuck, eliminate options and move on (skip strategy).
+
+Card 11
+🔹 Front:
+‘BAT’ is coded as ‘2120’. What is the logic?
+
+🔸 Back:
+It’s Number Coding: B=2, A=1, T=20. So the word is directly replaced by the position numbers of its letters.
+
+Card 12
+🔹 Front:
+What is the examiner’s trap in using difficult or unfamiliar words like ‘XYLEM’ in coding?
+
+🔸 Back:
+The trap is to make you nervous and doubt yourself. The rule doesn’t depend on the word’s meaning, only on the letters’ positions. Ignore the complexity and treat it like any other word.
+
+Card 13
+🔹 Front:
+If ‘ROAD’ is coded as ‘TQCF’, how do you detect if there’s a double-layer pattern?
+
+🔸 Back:
+R→T (+2), O→Q (+2), A→C (+2), D→F (+2) looks consistent. No double layer. But if the first letter shift didn’t match the second, you’d check if the word was reversed first, or if position-based rules apply.
+
+Card 14
+🔹 Front:
+In Mixed Coding, you might see something like ‘A=@, B=2, C=#, D=4’. How do you decode a word like ‘@2#4’?
+
+🔸 Back:
+This is Substitution + Number Coding. Map each symbol/number back to the letter: @→A, 2→B, #→C, 4→D → ‘ABCD’. The pattern is alternating symbol and number.
+
+Card 15
+🔹 Front:
+What is the main trick that boosts speed in coding-decoding?
+
+🔸 Back:
+Use elimination: once you find a pattern, apply it to the first one or two letters of the given word and check which options match. Often you don’t need to code the entire word.
+
+Card 16
+🔹 Front:
+Why does the book suggest writing the word and code directly above each other?
+
+🔸 Back:
+It makes the letter-to-letter mapping visual, so you can quickly spot shifts, especially when shifts are not uniform. It reduces mental load and prevents mistakes.
+
+Card 17
+🔹 Front:
+What if the coded word is shorter or longer than the original?
+
+🔸 Back:
+That’s a clue that the coding may involve dropping or adding letters, or using a completely different system like phonetic coding. In standard letter coding, lengths are usually the same. But in substitution, it could be different. Check if it's a different type.
+
+Card 18
+🔹 Front:
+What is the “Examiner’s Trap” of having two possible patterns in the options?
+
+🔸 Back:
+They might give a code that fits both a simple forward shift and a complex reverse-then-shift. Always test the simplest rule thoroughly on the entire word, and if two options still satisfy it, check the second example word (if given) to see which rule holds for both.
+
+Card 19
+🔹 Front:
+When would you use the skip strategy in coding-decoding questions?
+
+🔸 Back:
+If you can’t find any pattern within 30 seconds, or the pattern seems too complex (e.g., double layer, vowel-consonant differences with no clear lead), mark it and skip. Come back later with fresh eyes.
+
+Card 20
+🔹 Front:
+What is the one formula you must remember for mirror images in the alphabet?
+
+🔸 Back:
+Mirror letter position = 27 – original position.
+Example: ‘G’ (7) → 27-7=20 → ‘T’.

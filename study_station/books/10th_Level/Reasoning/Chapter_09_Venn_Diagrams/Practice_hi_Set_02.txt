@@ -1,0 +1,351 @@
+markdown
+Copy
+Download
+**Set 2: Practice MCQs (26–50)**
+
+---
+
+**26.** *क्रिकेट, बल्ला, गेंद के बीच संबंध को सर्वोत्तम रूप से दर्शाने वाला वेन आरेख कौन-सा है?*
+Which of the following Venn diagrams best represents the relationship among: *Cricket, Bat, Ball*?
+(A) तीन अलग-अलग वृत्त (Three separate circles)
+(B) एक बड़े वृत्त में दो छोटे वृत्त (One large circle containing two separate circles)
+(C) तीनों एक-दूसरे को काटते हुए (Three overlapping circles)
+(D) एक वृत्त दूसरे के अंदर, तीसरा अलग (One circle inside another, third separate)
+
+**Answer:** (A) तीन अलग-अलग वृत्त
+**Solution:** Cricket is a sport; bat and ball are equipment. They are not subclasses of cricket. All three are disjoint classes.
+**Source:** SSC MTS 2021
+
+---
+
+**27.** *डॉक्टर, स्टेथोस्कोप, अस्पताल के लिए सही वेन आरेख चुनें।*
+Choose the Venn diagram that correctly depicts: *Doctors, Stethoscope, Hospital*।
+(A) तीनों एक-दूसरे को काटते हुए
+(B) एक बड़े वृत्त में एक वृत्त, तीसरा काटता हुआ
+(C) तीन अलग-अलग वृत्त
+(D) एक वृत्त दूसरे के अंदर, दोनों तीसरे के अंदर
+
+**Answer:** (C) तीन अलग-अलग वृत्त
+**Solution:** Doctor (person), stethoscope (tool), hospital (place) are distinct categories; none is a subclass of another. So three separate circles.
+**Source:** IBPS Clerk 2020
+
+---
+
+**28.** *खिलाड़ी, कप्तान, कोच के लिए सबसे अच्छा विकल्प कौन-सा है?*
+Which option best represents *Players, Captains, Coaches*?
+(A) तीनों एक-दूसरे को काटते हुए
+(B) कप्तान खिलाड़ी के अंदर, कोच अलग
+(C) कप्तान खिलाड़ी के अंदर, कोच भी खिलाड़ी के अंदर, दोनों आपस में न काटते हुए
+(D) कप्तान खिलाड़ी के अंदर, कोच खिलाड़ी को काटता हुआ
+
+**Answer:** (D) कप्तान खिलाड़ी के अंदर, कोच खिलाड़ी को काटता हुआ
+**Solution:** All captains are players (subset). Coaches are not necessarily players, but some coaches may also be players. So Coaches overlap Players.
+**Source:** SSC CGL 2023
+
+---
+
+**29.** *दिए गए चित्र में त्रिभुज = इंजीनियर, वर्ग = मैनेजर, वृत्त = MBA। संख्याएँ: केवल इंजीनियर=12, केवल मैनेजर=10, केवल MBA=15, इंजीनियर और मैनेजर (MBA नहीं)=6, मैनेजर और MBA (इंजीनियर नहीं)=8, इंजीनियर और MBA (मैनेजर नहीं)=7, तीनों=4। ठीक एक श्रेणी वाले कितने हैं?*
+Study the following figure: Triangle = Engineers, Square = Managers, Circle = MBAs. Numbers in regions: only Engineers=12, only Managers=10, only MBAs=15, Engineers & Managers (not MBAs)=6, Managers & MBAs (not Engineers)=8, Engineers & MBAs (not Managers)=7, all three=4. How many are exactly one of these?
+(A) 37
+(B) 41
+(C) 33
+(D) 45
+
+**Answer:** (A) 37
+**Solution:** Exactly one = only Engineers + only Managers + only MBAs = 12+10+15 = 37.
+**Source:** SSC CHSL 2020
+
+---
+
+**30.** *150 लोगों के समूह में 90 चाय, 70 कॉफी, 50 दोनों पसंद करते हैं। कितने दोनों में से कोई भी पसंद नहीं करते?*
+In a group of 150 people, 90 like tea, 70 like coffee, 50 like both. How many like neither?
+(A) 20
+(B) 30
+(C) 40
+(D) 10
+
+**Answer:** (C) 40
+**Solution:** n(T ∪ C) = 90+70-50 = 110. Neither = 150-110 = 40.
+**Source:** RRB Group D 2019
+
+---
+
+**31.** *दिए गए वेन आरेख में A अंग्रेजी, B हिंदी, C संस्कृत पढ़ने वालों को दर्शाता है। केवल A=25, केवल B=20, केवल C=18, A∩B केवल=12, B∩C केवल=9, A∩C केवल=6, A∩B∩C=5। ठीक दो भाषाएँ पढ़ने वालों की संख्या बताएँ।*
+In the given Venn diagram, circle A represents English, B Hindi, C Sanskrit readers. Numbers: only A=25, only B=20, only C=18, A∩B only=12, B∩C only=9, A∩C only=6, all three=5. How many read exactly two languages?
+(A) 27
+(B) 32
+(C) 22
+(D) 30
+
+**Answer:** (A) 27
+**Solution:** Exactly two = (A∩B only)+(B∩C only)+(A∩C only) = 12+9+6 = 27.
+**Source:** SSC CGL 2021
+
+---
+
+**32.** *एक वेन आरेख में 'केवल हिंदी' में 15, हिंदी और अंग्रेजी लेकिन संस्कृत नहीं में 8, तीनों में 3 हैं। यदि हिंदी जानने वाले कुल 40 हैं, तो हिंदी और संस्कृत लेकिन अंग्रेजी नहीं जानने वालों की संख्या कितनी है?*
+In a Venn diagram, 'only Hindi' contains 15, Hindi and English but not Sanskrit contains 8, all three contains 3. If total who know Hindi is 40, how many know Hindi and Sanskrit but not English?
+(A) 14
+(B) 11
+(C) 17
+(D) 12
+
+**Answer:** (A) 14
+**Solution:** Total Hindi = only Hindi + (Hindi∩English only) + (Hindi∩Sanskrit only) + all three. So 15+8+x+3=40 → x=14.
+**Source:** IBPS PO 2022
+
+---
+
+**33.** **[जाल]** *कथन: कुछ सेब संतरे हैं। सभी संतरे फल हैं। कोई फल सब्ज़ी नहीं है।*
+*निष्कर्ष: I. कुछ सेब फल हैं। II. कोई सेब सब्ज़ी नहीं है।*
+Statements: Some apples are oranges. All oranges are fruits. No fruit is a vegetable.
+Conclusions: I. Some apples are fruits. II. No apple is a vegetable.
+(A) केवल I अनुसरण करता है
+(B) केवल II अनुसरण करता है
+(C) दोनों अनुसरण करते हैं
+(D) कोई भी अनुसरण नहीं करता
+
+**Answer:** (A) केवल I अनुसरण करता है
+**Solution:** I: Some apples are oranges, oranges ⊆ fruits → those apples are fruits. True. II: The apples that are not oranges could be vegetables (since they are not forced to be fruits). So II not definite.
+**Trap:** Real-world knowledge that all apples are fruits, but in syllogism only statements matter.
+**Source:** SSC CGL 2022
+
+---
+
+**34.** *कथन: सभी फोन गैजेट हैं। कुछ गैजेट महँगे हैं। कोई महँगी वस्तु सस्ती नहीं है।*
+*निष्कर्ष: I. कुछ फोन महँगे हैं। II. कोई फोन सस्ता नहीं है।*
+Statements: All phones are gadgets. Some gadgets are expensive. No expensive thing is cheap.
+Conclusions: I. Some phones are expensive. II. No phone is cheap.
+(A) केवल I अनुसरण करता है
+(B) केवल II अनुसरण करता है
+(C) दोनों अनुसरण करते हैं
+(D) कोई भी अनुसरण नहीं करता
+
+**Answer:** (D) कोई भी अनुसरण नहीं करता
+**Solution:** Phones ⊆ Gadgets. Gadgets and Expensive overlap. Expensive ∩ Cheap = ∅. I: Phones may be entirely in the non-expensive part. Not definite. II: Phones could be cheap if they are non-expensive. No prohibition. So neither follows.
+**Source:** IBPS Clerk 2021
+
+---
+
+**35.** **[जाल]** *कथन: कोई छात्र शिक्षक नहीं है। सभी शिक्षक स्नातक हैं। कुछ स्नातक स्नातकोत्तर हैं।*
+*निष्कर्ष: I. कुछ स्नातकोत्तर छात्र नहीं हैं। II. कोई छात्र स्नातक नहीं है।*
+Statements: No student is a teacher. All teachers are graduates. Some graduates are postgraduates.
+Conclusions: I. Some postgraduates are not students. II. No student is a graduate.
+(A) केवल I अनुसरण करता है
+(B) केवल II अनुसरण करता है
+(C) दोनों अनुसरण करते हैं
+(D) कोई भी अनुसरण नहीं करता
+
+**Answer:** (D) कोई भी अनुसरण नहीं करता
+**Solution:** I: Postgraduates could all be students (if the set of postgraduates is entirely inside Students and also inside Graduates). No rule prevents. So I not definite. II: Students could be graduates; no statement forbids. So II false.
+**Trap:** Overlooking the possibility that postgraduates could be entirely within students.
+**Source:** SSC CGL 2023
+
+---
+
+**36.** *कथन: सभी पेन पेंसिल हैं। कोई पेंसिल इरेज़र नहीं है। कुछ इरेज़र शार्पनर हैं।*
+*निष्कर्ष: I. कुछ शार्पनर पेंसिल नहीं हैं। II. कोई पेन इरेज़र नहीं है।*
+Statements: All pens are pencils. No pencil is an eraser. Some erasers are sharpeners.
+Conclusions: I. Some sharpeners are not pencils. II. No pen is an eraser.
+(A) केवल I अनुसरण करता है
+(B) केवल II अनुसरण करता है
+(C) दोनों अनुसरण करते हैं
+(D) कोई भी अनुसरण नहीं करता
+
+**Answer:** (C) दोनों अनुसरण करते हैं
+**Solution:** Pen ⊆ Pencil, Pencil ∩ Eraser = ∅, Eraser ∩ Sharpener ≠ ∅. II: Pen ∩ Eraser = ∅, true. I: Some erasers are sharpeners, and erasers are not pencils → those sharpeners are not pencils. True.
+**Source:** RRB NTPC 2020
+
+---
+
+**37.** **[जाल]** *कार, इंजन, स्टीयरिंग व्हील के बीच संबंध को कौन-सा वेन आरेख दर्शाता है?*
+Which of the following diagrams represents the relationship among *Car, Engine, Steering Wheel*?
+(A) इंजन कार के अंदर, स्टीयरिंग व्हील कार के अंदर, दोनों आपस में न काटते हुए
+(B) इंजन कार के अंदर, स्टीयरिंग व्हील अलग
+(C) तीनों काटते हुए
+(D) कार इंजन के अंदर, स्टीयरिंग व्हील अलग
+
+**Answer:** (A) इंजन कार के अंदर, स्टीयरिंग व्हील कार के अंदर, दोनों आपस में न काटते हुए
+**Solution:** Both engine and steering wheel are parts of a car. They are distinct components, so both subsets of Car, disjoint.
+**Trap:** Option (B) wrongly shows Steering Wheel separate from Car.
+**Source:** SSC MTS 2022
+
+---
+
+**38.** *दिए गए चित्र में त्रिभुज = डॉक्टर, आयत = सर्जन, वृत्त = महिलाएँ। केवल डॉक्टर=20, केवल सर्जन=15, केवल महिलाएँ=18, डॉक्टर और सर्जन (महिला नहीं)=8, सर्जन और महिलाएँ (डॉक्टर नहीं)=6, डॉक्टर और महिलाएँ (सर्जन नहीं)=10, तीनों=5। महिला डॉक्टर जो सर्जन नहीं हैं, उनकी संख्या कितनी है?*
+In the given figure, triangle = Doctors, rectangle = Surgeons, circle = Females. Numbers: only Doctors=20, only Surgeons=15, only Females=18, Doctors & Surgeons (not Females)=8, Surgeons & Females (not Doctors)=6, Doctors & Females (not Surgeons)=10, all three=5. What is the number of female doctors who are not surgeons?
+(A) 10
+(B) 15
+(C) 18
+(D) 8
+
+**Answer:** (A) 10
+**Solution:** Female doctors not surgeons = Doctors & Females (not Surgeons) region = 10.
+**Source:** SSC CGL 2020
+
+---
+
+**39.** *कथन: कुछ नदियाँ झील हैं। सभी झीलें तालाब हैं। कोई तालाब महासागर नहीं है।*
+*निष्कर्ष: I. कुछ नदियाँ तालाब हैं। II. कोई नदी महासागर नहीं है।*
+Statements: Some rivers are lakes. All lakes are ponds. No pond is an ocean.
+Conclusions: I. Some rivers are ponds. II. No river is an ocean.
+(A) केवल I अनुसरण करता है
+(B) केवल II अनुसरण करता है
+(C) दोनों अनुसरण करते हैं
+(D) कोई भी अनुसरण नहीं करता
+
+**Answer:** (A) केवल I अनुसरण करता है
+**Solution:** I: Some rivers are lakes, lakes ⊆ ponds → some rivers are ponds. True. II: Rivers that are not lakes could be oceans. Not definite.
+**Source:** IBPS PO 2019
+
+---
+
+**40.** *कौवे, पक्षी, स्तनधारी के लिए सर्वश्रेष्ठ वेन आरेख कौन-सा है?*
+Which Venn diagram best fits *Crows, Birds, Mammals*?
+(A) कौवे पक्षी के अंदर, स्तनधारी पक्षी से अलग
+(B) कौवे पक्षी के अंदर, स्तनधारी पक्षी को काटता हुआ
+(C) कौवे पक्षी के अंदर, स्तनधारी पक्षी के अंदर
+(D) कौवे पक्षी के अंदर, स्तनधारी कौवे को काटता हुआ
+
+**Answer:** (A) कौवे पक्षी के अंदर, स्तनधारी पक्षी से अलग
+**Solution:** All crows are birds. Birds and mammals are distinct biological classes (disjoint).
+**Source:** SSC CHSL 2019
+
+---
+
+**41.** *एक कक्षा में 40% छात्र क्रिकेट, 30% हॉकी, 20% दोनों खेलते हैं। कुल 200 छात्र हैं। कितने कोई भी नहीं खेलते?*
+In a class, 40% students play cricket, 30% play hockey, 20% play both. If total students are 200, how many play neither?
+(A) 80
+(B) 100
+(C) 60
+(D) 50
+
+**Answer:** (B) 100
+**Solution:** n(C ∪ H)% = 40+30-20 = 50%. Neither% = 50%. Number = 50% of 200 = 100.
+**Source:** RRB NTPC 2021
+
+---
+
+**42.** *वेन आरेख में त्रिभुज = कर्मचारी, वर्ग = स्नातक, वृत्त = अनुभवी। केवल कर्मचारी=9, केवल स्नातक=11, केवल अनुभवी=7, कर्मचारी और स्नातक (अनुभवी नहीं)=5, स्नातक और अनुभवी (कर्मचारी नहीं)=6, कर्मचारी और अनुभवी (स्नातक नहीं)=4, तीनों=3। ऐसे स्नातक जो न तो कर्मचारी हैं और न ही अनुभवी, कितने हैं?*
+In the Venn diagram, triangle = Employees, square = Graduates, circle = Experienced. Numbers: only Employees=9, only Graduates=11, only Experienced=7, Employees & Graduates (not Experienced)=5, Graduates & Experienced (not Employees)=6, Employees & Experienced (not Graduates)=4, all three=3. How many are graduates but neither employees nor experienced?
+(A) 11
+(B) 16
+(C) 9
+(D) 5
+
+**Answer:** (A) 11
+**Solution:** "Graduates but neither employees nor experienced" is the region 'only Graduates' = 11.
+**Source:** SSC CGL 2022
+
+---
+
+**43.** *कथन: सभी पंखे कूलर हैं। कोई कूलर हीटर नहीं है। कुछ हीटर ब्लोअर हैं।*
+*निष्कर्ष: I. कुछ ब्लोअर कूलर नहीं हैं। II. कोई पंखा हीटर नहीं है।*
+Statements: All fans are coolers. No cooler is a heater. Some heaters are blowers.
+Conclusions: I. Some blowers are not coolers. II. No fan is a heater.
+(A) केवल I अनुसरण करता है
+(B) केवल II अनुसरण करता है
+(C) दोनों अनुसरण करते हैं
+(D) कोई भी अनुसरण नहीं करता
+
+**Answer:** (C) दोनों अनुसरण करते हैं
+**Solution:** II: Fan ⊆ Cooler, Cooler ∩ Heater = ∅ → Fan ∩ Heater = ∅, true. I: Some heaters are blowers, heaters are not coolers → those blowers are not coolers. True.
+**Source:** IBPS Clerk 2023
+
+---
+
+**44.** *लैपटॉप, कंप्यूटर, टैबलेट के लिए आरेख चुनें।*
+Choose the diagram for *Laptops, Computers, Tablets*।
+(A) लैपटॉप और टैबलेट कंप्यूटर के अंदर, आपस में न काटते हुए
+(B) लैपटॉप कंप्यूटर के अंदर, टैबलेट अलग
+(C) तीनों काटते हुए
+(D) लैपटॉप कंप्यूटर के अंदर, टैबलेट कंप्यूटर को काटता हुआ
+
+**Answer:** (A) लैपटॉप और टैबलेट कंप्यूटर के अंदर, आपस में न काटते हुए
+**Solution:** Both laptops and tablets are types of computers, distinct from each other. So disjoint subsets of Computer.
+**Source:** SSC CGL 2018
+
+---
+
+**45.** *एक सर्वेक्षण में 60% दूध, 50% चाय, 30% दोनों पसंद करते हैं। अधिकतम एक पसंद करने वालों का प्रतिशत कितना है?*
+In a survey, 60% like milk, 50% like tea, 30% like both. What percentage like at most one?
+(A) 70%
+(B) 80%
+(C) 40%
+(D) 20%
+
+**Answer:** (A) 70%
+**Solution:** At most one = total - both = 100% - 30% = 70%.
+**Source:** RRB Group D 2020
+
+---
+
+**46.** *कथन: सभी अंगूर फल हैं। कुछ फल खट्टे हैं। कोई खट्टी चीज़ मीठी नहीं है।*
+*निष्कर्ष: I. कुछ अंगूर खट्टे हैं। II. कोई अंगूर मीठा नहीं है।*
+Statements: All grapes are fruits. Some fruits are sour. No sour thing is sweet.
+Conclusions: I. Some grapes are sour. II. No grape is sweet.
+(A) केवल I अनुसरण करता है
+(B) केवल II अनुसरण करता है
+(C) दोनों अनुसरण करते हैं
+(D) कोई भी अनुसरण नहीं करता
+
+**Answer:** (D) कोई भी अनुसरण नहीं करता
+**Solution:** Grapes ⊆ Fruits. Some fruits are sour (overlap). Sour ∩ Sweet = ∅. I: Grapes could be entirely in the non-sour part of fruits. Not definite. II: Grapes could be non-sour and sweet? No restriction prevents a non-sour grape from being sweet. So II not definite.
+**Source:** IBPS PO 2022
+
+---
+
+**47.** *वेन आरेख में A कार, B बाइक, C साइकिल स्वामियों को दर्शाता है। संख्याएँ: केवल A=14, केवल B=12, केवल C=16, A∩B केवल=7, B∩C केवल=5, A∩C केवल=8, तीनों=2। ठीक एक वाहन वालों की संख्या कितनी है?*
+In the Venn diagram, circle A represents car owners, B bike, C cycle. Numbers: only A=14, only B=12, only C=16, A∩B only=7, B∩C only=5, A∩C only=8, all three=2. How many own exactly one vehicle?
+(A) 42
+(B) 40
+(C) 38
+(D) 44
+
+**Answer:** (A) 42
+**Solution:** Exactly one = 14+12+16 = 42.
+**Source:** SSC CHSL 2023
+
+---
+
+**48.** *डॉक्टर, इंजीनियर, पेशेवर के लिए कौन-सा वेन आरेख सही है?*
+Which Venn diagram shows *Doctors, Engineers, Professionals*?
+(A) डॉक्टर और इंजीनियर दोनों पेशेवर के अंदर, आपस में न काटते हुए
+(B) डॉक्टर पेशेवर के अंदर, इंजीनियर अलग
+(C) तीनों काटते हुए
+(D) पेशेवर डॉक्टर के अंदर, इंजीनियर डॉक्टर के अंदर
+
+**Answer:** (A) डॉक्टर और इंजीनियर दोनों पेशेवर के अंदर, आपस में न काटते हुए
+**Solution:** All doctors and engineers are professionals. They are distinct professions, so disjoint subsets of Professionals.
+**Source:** SSC CGL 2019
+
+---
+
+**49.** *कथन: कुछ शर्ट पैंट हैं। सभी पैंट कपड़े हैं। कोई कपड़ा जूता नहीं है।*
+*निष्कर्ष: I. कुछ शर्ट कपड़े हैं। II. कुछ जूते पैंट नहीं हैं।*
+Statements: Some shirts are pants. All pants are clothes. No cloth is a shoe.
+Conclusions: I. Some shirts are clothes. II. Some shoes are not pants.
+(A) केवल I अनुसरण करता है
+(B) केवल II अनुसरण करता है
+(C) दोनों अनुसरण करते हैं
+(D) कोई भी अनुसरण नहीं करता
+
+**Answer:** (C) दोनों अनुसरण करते हैं
+**Solution:** I: Some shirts are pants, pants ⊆ clothes → those shirts are clothes. True. II: No cloth is shoe, pants ⊆ clothes → pants ∩ shoe = ∅, so all shoes are not pants, hence some shoes are not pants (in fact all). True.
+**Source:** SSC CGL 2020
+
+---
+
+**50.** **[जाल]** *कथन: सभी गुलाब फूल हैं। कोई फूल फल नहीं है। कुछ फल सेब हैं।*
+*निष्कर्ष: I. कोई गुलाब फल नहीं है। II. कुछ सेब फूल नहीं हैं।*
+Statements: All roses are flowers. No flower is a fruit. Some fruits are apples.
+Conclusions: I. No rose is a fruit. II. Some apples are not flowers.
+(A) केवल I अनुसरण करता है
+(B) केवल II अनुसरण करता है
+(C) दोनों अनुसरण करते हैं
+(D) कोई भी अनुसरण नहीं करता
+
+**Answer:** (C) दोनों अनुसरण करते हैं
+**Solution:** I: Rose ⊆ Flower, Flower ∩ Fruit = ∅ → Rose ∩ Fruit = ∅. True. II: Some fruits are apples, and fruits are not flowers → those apples are not flowers. True.
+**Trap:** Some might think II doesn't follow, but the apples that are fruits are definitely not flowers.
+**Source:** IBPS Clerk 2022

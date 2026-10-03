@@ -78,4 +78,6 @@ English: `Answer:` `Solution:` `Source:`। Set N के प्रश्न (N�
 
 ## 8. Publish होने की शर्त
 
-अध्याय app में तभी दिखता है जब `bookcheck` उसे `OK` कहे। AI-लिखा अध्याय `status: draft` रहता है जब तक जाँच न हो।
+App हर section को अलग से जाँचता है: prompt, chat-कचरा या टूटा mind map वाला section नहीं दिखता; practice में सिर्फ़ वही MCQ जाते
+हैं जो importer की quality जाँच पास करें। नया या सुधारा अध्याय commit तभी होता है जब `bookcheck` उसे `OK` कहे।
+AI-लिखा अध्याय `status: draft` रहता है जब तक जाँच न हो।

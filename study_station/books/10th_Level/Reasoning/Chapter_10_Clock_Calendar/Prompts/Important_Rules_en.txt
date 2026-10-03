@@ -1,39 +1,10 @@
-markdown
-Copy
-Download
-## 📋 Important Rules & Approaches
+# Chapter: Clock & Calendar, Level: foundation, Type: Verbal Reasoning
 
-| **Part** | **Rule Name** | **Description** | **Example** |
-|----------|---------------|-----------------|-------------|
-| **Key Rules/Approaches** | Minute hand speed | 6° per minute | In 15 minutes, minute hand moves 90° |
-| | Hour hand speed | 0.5° per minute | In 15 minutes, hour hand moves 7.5° |
-| | Relative gain speed | 5.5° per minute (6° – 0.5°) | Hands overlap again after 360/5.5 = 65⁵⁄₁₁ min |
-| | Angle between hands (acute) | θ = \|30H – 5.5M\|; if θ > 180, use 360–θ | At 7:25, angle = \|210 – 137.5\| = 72.5° |
-| | Hands coincide (meeting) | In 12 hours, 11 times; formula: M = 60H/11 | Between 3 and 4, they meet at 3 hr 16⁴⁄₁₁ min |
-| | Hands opposite (180°) | In 12 hours, 11 times; M = (60H ± 180)/11 | Between 5 and 6, opposite at 5 hr (300+180)/11 = 5 hr 43⁷⁄₁₁ min (if >60, take plus 180 only after 6)|
-| | Hands at right angle (90°) | In 12 hours, 22 times; M = (60H ± 90)/11 | Between 2 and 3, right angle at 2 hr (120+90)/11 = 2 hr 19¹⁄₁₁ min |
-| | Mirror time | Mirror time = 11:60 – given time (12‑hr format) | 3:25 → 11:60 – 3:25 = 8:35 |
-| | Water image time | Water image = 18:30 – given time | 10:10 → 18:30 – 10:10 = 8:20 |
-| | Faulty clock gain/loss | Correct time shown again after 720/(gain per day in min) days | Gains 5 min/day → 720/5 = 144 days |
-| | Odd days (Ordinary/Leap) | Ordinary year: 1 odd day; Leap year: 2 odd days | 2023 (ordinary) → 1 odd day |
-| | Leap year test | Divisible by 4; century years must be divisible by 400 | 2000 leap; 1900 not leap |
-| | Month codes (ordinary) | Jan=0, Feb=3, Mar=3, Apr=6, May=1, Jun=4, Jul=6, Aug=2, Sep=5, Oct=0, Nov=3, Dec=5 | For 15 Aug, month code = 2 |
-| | Month codes (leap year) | Jan=6, Feb=2, others same as ordinary | For 29 Feb 2024, month code = 2 |
-| | Century codes | 1600s:6, 1700s:4, 1800s:2, 1900s:0, 2000s:6 | For year 1947, century code = 0 |
-| | Day of any date | (Date + Month code + Year code + Century code) mod 7 | 15 Aug 1947 → (15+2+2+0)=19 mod7=5 → Friday |
-| | Year code | (YY + ⌊YY/4⌋) mod 7 | For 47 → (47+11)=58 mod7=2 |
-| | Same calendar year | Ordinary: after 6 or 11 years (check odd days); Leap: after 28 years | 2025 (ordinary) → same as 2031 (if odd day pattern matches) |
-| | **Examiner Trap Alert** | Acute angle ≠ reflex; always give smaller angle unless specified | At 12:15, formula gives 277.5° → acute = 82.5° |
-| | **Examiner Trap Alert** | Mirror vs Water image subtraction base | Underline "mirror" (11:60) or "water" (18:30) before solving |
-| | **Examiner Trap Alert** | January/February code switch in leap year for dates before March | 15 Feb 2024 (leap) month code = 2, not 3 |
-| **Time Management** | 15-second rule | If the type of clock/calendar question is not recognised within 15 seconds (e.g., unfamiliar phrasing, complex fault), mark for review and skip immediately. | A calendar question mixing century and ancient dates with multiple references. |
-| | 45-second rule | Even if you know the approach, if the calculation is taking more than 45 seconds (e.g., detailed odd‑day count for a pre‑1900 year), skip to save time for other sections. | 31 December 1752 with Gregorian shift or similar rare case. |
-| | Priority order | Solve mirror/water and simple angle questions first; leave multi‑step fault and leap‑century heavy calendar for later. | |
-| **Logical/Mathematical Formulas** | Angle formula | θ = \|30H – 5.5M\| | |
-| | Mirror time | Mirror = 11:60 – time | |
-| | Water image | Water = 18:30 – time | |
-| | Day formula | Day = (Date + M‑code + (YY+⌊YY/4⌋) + C‑code) mod 7 | |
-| | Faulty clock correct time | Days = 720 ÷ (gain per day in min) | |
-| | Coincidence time | M = (60H)/11 | |
-| | Opposite time | M = (60H + 180)/11 or (60H – 180)/11 | |
-| | Right angle time | M = (60H + 90)/11 or (60H – 90)/11 | |
+@content_agent lang=en level=foundation 'List all important rules, approaches, time management tips, and logical formulas (if any) for Clock & Calendar in a clean table.
+Instructions:
+- Table has three parts:
+  1. "Key Rules/Approaches" – Rule Name | Description | Example
+  2. "Time Management" – 15-second and 45-second rule (e.g., "If pattern not understood in 15 sec, skip").
+  3. "Logical/Mathematical Formulas" – if applicable; otherwise "No formulas for this chapter".
+- No explanation, just tabular data.
+- Keep language simple and precise.

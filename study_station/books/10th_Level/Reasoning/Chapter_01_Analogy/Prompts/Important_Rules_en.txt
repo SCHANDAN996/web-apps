@@ -1,22 +1,10 @@
-Rule Name	Description	Example
-WING Classification	Instantly classify analogy type: Word, Integer, aN alphabet, General Knowledge.	"Doctor : Hospital" → W (Word)
-Sentence Bridge	Form a short meaningful sentence linking the first pair; apply the same sentence to the second pair.	"A fish lives in water" → Bird lives in sky.
-Because-Therefore Test	Strengthen relationship: "Because A... Therefore B..." to eliminate weak options.	Because a pen writes, therefore writing is its function. Knife? Because a knife cuts, therefore cut.
-Reverse Relationship Check	Confirm by checking if the relationship works both ways identically.	A→B same as C→D? No extra nuance.
-Tighten When Stuck	If two options fit, add one more specific detail to the relationship.	"Lives in" → "Natural home" filters nest out.
-Opposite Letter Sum = 27	In letter analogy, position of opposite letters always sum to 27.	A(1)+Z(26)=27; P(16) opposite is 27-16=11(K).
-Common Number Operations First	Scan square, cube, multiplication, addition patterns before complex logic.	4:16 → Square; 8:27 → Cube.
-GK Analogy – Verify Fact	Never guess; answer only if factual certainty is 100%.	India:New Delhi :: Japan:? → Tokyo (known fact).
-Time Management
-Time Rule	Action
-15-second rule	If the relationship or pattern isn't clear within 15 seconds, mark and skip immediately.
-45-second rule	If two options still seem correct after 45 seconds of tight "Because-Therefore" test, mark best guess, flag for review, and move on.
-1-minute total cap	Spend no more than 1 minute per analogy question; never let one question consume time.
-Logical/Mathematical Formulas (Number & Letter Analogy)
-Formula / Trick	Application
-Square: n → n²	5 : 25
-Cube: n → n³	4 : 64
-Multiplication/Addition combo: n → a×n + b	7 : 50 (7×7+1)
-Opposite letter: Position = 27 – given position	A (1) → Z (26)
-Forward shift: +k positions	A+2 = C
-Mirror sum: position1 + position2 = 27	P(16) + K(11) = 27
+# Chapter: Analogy, Level: foundation, Type: Verbal Reasoning
+
+@content_agent lang=en level=foundation 'List all important rules, approaches, time management tips, and logical formulas (if any) for Analogy in a clean table.
+Instructions:
+- Table has three parts:
+  1. "Key Rules/Approaches" – Rule Name | Description | Example
+  2. "Time Management" – 15-second and 45-second rule (e.g., "If pattern not understood in 15 sec, skip").
+  3. "Logical/Mathematical Formulas" – if applicable; otherwise "No formulas for this chapter".
+- No explanation, just tabular data.
+- Keep language simple and precise.

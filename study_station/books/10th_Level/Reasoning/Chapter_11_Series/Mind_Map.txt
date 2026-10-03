@@ -1,21 +1,42 @@
-```mermaid
-graph TD
-    R["🔢 श्रेणी<br>Series"]
-    R --> D["📖 अर्थ<br>छिपा नियम पकड़ना"]
-    R --> M["🗝️ नियम<br>अंतर/अनुपात देखो"]
-    R --> T["📂 प्रकार<br>Types"]
-    R --> TR["⚠️ जाल<br>Traps"]
-
-    T --> T1["संख्या श्रेणी<br>जोड़/गुणा/वर्ग/घन"]
-    T --> T2["अक्षर श्रेणी<br>A,C,E,G → +2"]
-    T --> T3["अल्फ़ान्यूमेरिक<br>A1,B2,C3"]
-    T --> T4["एकांतर श्रेणी<br>दो पैटर्न बारी-बारी"]
-
-    M --> M1["स्थिर अंतर"]
-    M --> M2["बढ़ता अंतर"]
-    M --> M3["अनुपात/वर्ग/घन"]
-
-    TR --> TR1["एक ही नियम मानना"]
-    TR --> TR2["ग़लत पद पहचानना"]
-    TR --> TR3["अक्षर स्थिति भूलना"]
-```
+Diagram
+Code
+Download
+Fullscreen
+Number/Letter Series
+Types
+Core Strategies
+Time Management
+Common Traps
+Mnemonics
+Number Series
+Letter Series
+30-Second Scan
+Difference Ladder
+Multiplication/DivisionCheck
+up to 25, 15
+A=1, Z=26
+unbraid odd/even positions
+verify on all terms
+skip if unclear
+move on
+classify in 10 sec
+two patterns, one answer
+hidden cubic/quadratic
+inconsistent gaps in letters
+"AZBY" for opposite letterpairs
+"A to Z and B to Y, sum 27"
+Addition/Subtraction
+Multiplication/Division
+Squares/Cubes
+Mixed Operations
+Double/Alternate Series
+Wrong Term
+Forward/Backward
+sum 27
+Pattern-based
+Letter-to-Number
+up/down/mixed
+slow/fast/explosive
+constant/changing
+1st Difference
+2nd Difference

@@ -1,46 +1,106 @@
-# Coding-Decoding
+अध्याय: कोडिंग-डिकोडिंग (Coding-Decoding)
 
-Remember the secret messages in spy films, where "Meet in the evening" is written as a strange code? Coding-decoding is just like that — letters or words are replaced by some rule, and we must catch that rule to open (decode) the message.
+इस अध्याय में आप सीखेंगे:
+• कोडिंग-डिकोडिंग क्या है और क्यों ज़रूरी है
+• अक्षर कोडिंग, संख्या कोडिंग और मिश्रित कोडिंग के मूलभूत प्रकार
+• पैटर्न पहचानने की ट्रिक्स
+• एग्ज़ामिनर के जाल पहचानना
+• स्पीड और एक्यूरेसी के लिए माइंडसेट
 
-**Definition:** In coding, the letters of a word are changed into other letters, numbers or symbols according to a fixed rule. From the given example, we identify the rule and then build (or read) the code of a new word.
+—
 
-🧠 Recall: In coding-decoding, what is our real job — memorising, or catching the "rule"?
+कल्पना कीजिए, आप एक जासूस हैं और आपके हाथ एक गुप्त संदेश लगा है: “DOLF ZPV KMMW ILOO”. इसे पढ़ना चाहते हैं? यही मज़ा है Coding-Decoding का — छिपे हुए तर्क को ढूँढना और असली शब्द पाना। आज हम मिलकर इसे ऐसा खेल बनाएँगे कि हर सवाल में मज़ा आए।
 
-## The Golden Rule
+🧠 सोचिए, ऊपर दिए संदेश में कोई पैटर्न नज़र आ रहा है?
 
-**Find the relationship (rule) between the original word and its code in the given example, then apply the same rule to the new word.**
+कई विद्यार्थी कहते हैं — “कोडिंग-डिकोडिंग तो सिरदर्द है। पैटर्न समझ ही नहीं आता।” पर सच ये है कि यह एक पज़ल है, जिसमें बस दो चीज़ें माँगी जाती हैं — निरीक्षण (Observation) और पैटर्न की पहचान (Pattern Recognition)। जिस दिन आप ये दो चीज़ें सीख गए, उस दिन हर सवाल 15 सेकंड में निकलेगा।
 
-First, remember the alphabet positions: A=1, B=2, C=3 … Z=26 (mnemonic: EJOTY → E=5, J=10, O=15, T=20, Y=25).
+आइए, इसे बिलकुल बेसिक से समझते हैं। कोडिंग-डिकोडिंग का मतलब है — एक नियम (Rule) के अनुसार किसी शब्द/संख्या को बदलना और फिर उसी नियम से वापस मूल रूप में लाना। हर प्रश्न में एक रूल छिपा होता है; हमें वही रूल पकड़ना है।
 
-## Main Types of Coding
+प्रकार (Types)
 
-**1. Letter Shift**
-Each letter is moved forward or backward.
-CAT → DBU (each letter +1 forward: C→D, A→B, T→U).
+अक्षर कोडिंग (Letter Coding) — अक्षरों के स्थान से खेल। जैसे, ‘CAT’ को ‘DBU’ लिखा जाए, तो रूल होगा +1 आगे बढ़ाना।
 
-**2. Reverse Coding**
-The word is written backwards.
-MOUSE → ESUOM (the whole word is reversed).
+संख्या कोडिंग (Number Coding) — शब्दों को अंकों में बदलना, जैसे ‘BAT’ = 2120 (B=2, A=1, T=20)।
 
-**3. Number Coding**
-Letters are replaced by their position numbers.
-CAB → 3, 1, 2 (C=3, A=1, B=2). Sometimes the sum of positions is asked.
+प्रतिस्थापन कोडिंग (Substitution Coding) — किसी चीज़ का कोड नाम दिया जाता है, जैसे ‘फूल’ को ‘आग’ कहा जाए, ‘पत्ती’ को ‘पानी’ आदि।
 
-**4. Substitution Coding**
-A word is replaced entirely by another word.
-E.g. "Sky is called Sea" — then where does a bird fly? In the sea.
+मिश्रित कोडिंग (Mixed Coding) — इसमें अक्षर और संख्या दोनों की गड़बड़ी होती है।
 
-**5. Symbol Coding**
-Letters are replaced by symbols (@, #, *).
+सबसे पहली चाबी: Alphabet का Numbering याद रखना
 
-🧠 Recall: If CAT = DBU, what will be the code for DOG?
+A=1, B=2, C=3 ... Z=26 यह तो आता ही है। अब इसका उल्टा भी — Z=1, Y=2, X=3 ... A=26। इसे कहते हैं Reverse Coding. यहाँ एक मज़ेदार ट्रिक:
 
-## The Examiner's Trap
+✨ मेमोरी ट्रिक (Mnemonic) : "EJOTY"
+E=5, J=10, O=15, T=20, Y=25.
+हर 5वाँ अक्षर याद कर लीजिए। इससे आसानी से किसी भी अक्षर की पोज़िशन निकाल सकते हैं। जैसे, ‘K’ कितना हुआ? J=10, तो K=11. इसी तरह उल्टे के लिए: ‘Z’=1, ‘Y’=25? नहीं, रिवर्स में अगर Z=1 तो Y=2. मत भूलिए — ‘Z’ = 26, रिवर्स में 27 - position. तो अगर किसी अक्षर की पोज़िशन x है, तो रिवर्स पोज़िशन = 27 - x. (यह सबसे ज़रूरी फ़ॉर्मूला है।)
 
-⚠️ **Trap 1 — direction:** Whether a letter moves forward or backward, check carefully. The difference between +1 and −1 changes the whole answer.
+🧠 रुकिए और खुद आज़माएँ: K की सामान्य पोज़िशन 11 है, तो इसकी रिवर्स पोज़िशन क्या होगी? (उत्तर: 27 - 11 = 16, मतलब P।)
 
-⚠️ **Trap 2 — mixed rule:** Sometimes odd-position letters shift +1 and even-position letters shift −1. Do not assume a single rule.
+पैटर्न पहचानना सीखें
 
-⚠️ **Trap 3 — sum vs position:** In number coding, sometimes each letter's position is asked, sometimes their sum. Read the question carefully.
+सवाल में दिए गए ‘से’ और ‘को’ के जोड़े देखकर सबसे पहले ढूँढें:
 
-Review this after 2 days.
+जोड़/घटाव (Forward/Backward shift) — कितने कदम आगे-पीछे?
+
+उलटना (Reversal) — क्या पूरा शब्द उलट दिया गया है?
+
+जोड़े में तोड़ना — क्या हर दो अक्षर की अदला-बदली?
+
+अक्षर का क्रम (Positional logic) — जैसे स्वरों को एक कोड, व्यंजनों को दूसरा।
+
+उदाहरण:
+‘COLD’ को ‘DPME’ लिखा जाए। देखें — C→D (+1), O→P (+1), L→M (+1), D→E (+1). बिलकुल सीधा पैटर्न।
+पर कई बार पैटर्न एक अक्षर पर आगे, दूसरे पर पीछे होता है। जैसे ‘DARK’ = ‘CZQJ’ (D→C -1, A→Z -1? नहीं, A→Z -1? यह होगा 27-1=26 मतलब Z; R→Q -1, K→J -1). तो घटाव का पैटर्न।
+
+🧠 एक्टिव रिकॉल: यदि ‘HOT’ = ‘GNS’ है, तो रूल बताइए। (H→G -1, O→N -1, T→S -1) — क्या सभी में एक समान बदलाव है?
+
+जब एक-सा पैटर्न न हो
+
+कई सवालों में हर अक्षर के लिए अलग-अलग शिफ्ट हो सकता है — जैसे पहला अक्षर +1, दूसरा +2, तीसरा +3... या पोज़िशन के आधार पर कोई गणित। ऐसे सवालों में विकल्पों की मदद लें और शब्दों को क्रम से लगाएँ।
+
+महत्वपूर्ण नियम (Rules)
+
+पहले सबसे छोटे शब्द के कोड को देखें, जिससे पैटर्न जल्दी स्पष्ट हो।
+
+स्वर और व्यंजन के पैटर्न अलग-अलग हो सकते हैं।
+
+कभी-कभी अक्षरों के क्रम को पहले उलटा जाता है, फिर बदलाव किया जाता है — दो-चरणीय कोडिंग।
+
+शब्द के अंदर की पोज़ीशन (सम अक्षर/विषम अक्षर) के अनुसार अलग-अलग नियम।
+
+विशेष वर्षगाँठ या दिनों के कोड में कैलेंडर तर्क भी आ सकता है।
+
+🧠 ज़रा सोचें: ‘MARCH’ = 13118? ऐसा क्यों? M=13, A=1, R=18, C=3, H=8 — यहाँ सीधी संख्या कोडिंग है।
+
+कोडिंग-डिकोडिंग की मानसिकता (Mindset)
+
+कोई भी सवाल पहली नज़र में अटपटा लगे तो घबराइए नहीं। 10 सेकंड रुककर पैटर्न गेस कीजिए।
+
+हमेशा दिए गए शब्द और कोड को ऊपर-नीचे लिखकर तुलना करें। (परीक्षा में रफ़ में ऐसे ही करें।)
+
+विकल्पों में से मिलता-जुलता उत्तर हटाकर (elimination) जल्दी पहुँचें।
+
+सारांश तालिका (Summary Table)
+
+प्रकार (Type)	मुख्य पैटर्न (Typical Pattern)	उदाहरण
+अक्षर कोडिंग	एक समान जोड़/घटाव	CAT → DBU (+1)
+उल्टा कोडिंग	27 - position	A→Z (27-1=26)
+संख्या कोडिंग	अक्षर की पोज़िशन के अंक	BAT → 2120
+मिश्रित कोडिंग	कुछ अक्षर संख्या, कुछ प्रतीक	A=@, B=2, आदि
+प्रतिस्थापन	एक वस्तु का दूसरा नाम	‘कलम’ = ‘पुस्तक’
+
+🧠 रिव्यू करें: यह अध्याय पढ़ने के 2 दिन बाद दोबारा ज़रूर पलटें। अपने आप से पूछें — “27 - x का फ़ॉर्मूला कब लगता है?”, “EJOTY से मुझे क्या फ़ायदा है?” और “सबसे पहले किस सवाल पर नज़र डालूँ?”
+
+—
+
+⚠️ Caution: Examiner's Trap (परीक्षक का जाल)
+
+एक से अधिक संभावित पैटर्न
+कई बार एक ही शब्द-युग्म से दो अलग-अलग पैटर्न बन जाते हैं, और विकल्पों में दोनों पैटर्न के उत्तर दे दिए जाते हैं। जैसे, यदि ‘ROAD’ = ‘TQCF’ दिया हो (+2, +2... पर यह भी हो सकता है कि पहले उलटा करके कुछ किया गया हो)। इसलिए, पहला पैटर्न मिलने पर तुरंत उत्तर न छापें; कम से कम एक और पैटर्न टेस्ट करें या विकल्पों को एलिमिनेट करें।
+
+कठिन या अनजान शब्द देकर डराना
+“XYLEM” या “QUARTZ” जैसे शब्द दे दिए जाएँ तो घबराएँ नहीं। पैटर्न वही होता है, सिर्फ शब्द बदल जाता है। आप उसी बेसिक नियम से कोड करें, अर्थ निकालने की ज़रूरत नहीं।
+
+दोहरी कोडिंग (Double-layer Coding)
+कुछ सवालों में पहले अक्षरों को उलटा किया जाता है, फिर हर अक्षर में +1 किया जाता है; या पहले स्वर और व्यंजन के हिसाब से बदलाव, फिर नंबरिंग। परीक्षा में ऐसा सवाल केवल समय बर्बाद करने के लिए होता है। इसे पहचानने का तरीका — अगर सीधे जोड़/घटाव से उत्तर नहीं मिल रहा है, और विकल्प पास-पास हैं, तो एक स्टेप और आज़माएँ। लेकिन 30 सेकंड से ज़्यादा न दें, नहीं तो Skip Strategy अपनाएँ (इस बारे में आगे चर्चा करेंगे)।

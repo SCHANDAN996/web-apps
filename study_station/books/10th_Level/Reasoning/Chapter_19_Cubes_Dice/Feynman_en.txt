@@ -1,24 +1,27 @@
-# Feynman Technique: Cubes & Dice in Simple Words
+🧒 फेनमैन तकनीक + ब्लर्टिंग शीट (Feynman’s Way: The Dice That Fooled Arjun)
 
-Tell your younger brother: "Imagine a chocolate cube with all its surfaces painted. Now cut it into 27 small pieces (3×3×3). The 8 corner pieces will have 3 painted surfaces (a corner shows from three sides!). The 1 piece hidden inside is completely unpainted. That is the whole cube game."
+Arjun wanted to build his own Ludo set. He took a piece of cardboard, drew six squares in a cross shape, and wrote numbers 1 to 6 on them. He was sure that after folding, 1 would be opposite 2, because they were at the ends of the cross. He folded, and… 1 ended up right next to 2. “How can that be?” he cried.
 
-**Corner = 3 painted, edge = 2 painted, face-centre = 1 painted, inner = 0 painted.**
+Here’s the thing, said his elder sister who loved puzzles. “Opposite faces are like ex-best friends who can’t stand being neighbors. In the flat net, they never share a side — they are separated by exactly one face in the same straight line.”
 
-## The Biggest Trick: The Dice "Magic of 7"
+She showed him the cross:
 
-On a standard die, opposite faces always sum to 7:
-- 6 is opposite 1 (1+6=7)
-- 5 is opposite 2 (2+5=7)
-- 4 is opposite 3 (3+4=7)
+text
+Copy
+Download
+      [1]
+[2] [3] [4] [5]
+      [6]
 
-So the opposite number = 7 − the given number. That's it!
+“Take the middle row. The first and third (2 and 4) become opposite. The second and fourth (3 and 5) become opposite. And the top and bottom lone faces (1 and 6) become opposite. Always.”
 
-## Blurting Sheet (Write from Memory)
+Arjun folded it again — and it worked. He never forgot that rule.
 
-Close the book and write:
-1. How many pieces have 3 painted faces? (always)
-2. What is the formula for 1 painted face?
-3. What do opposite faces of a standard die sum to?
-4. What is the most common trap?
+The Unforgettable Trick: The ‘Cross-Stretch’ Rule
+In any cross-shaped dice net, find the row with four faces. Label them A, B, C, D. The faces that are one apart in that row are opposites: A ↔ C, B ↔ D. And the lonely face above the middle is opposite the lonely face below the middle. That’s it — you’ve unlocked all three opposite pairs instantly, no folding required.
 
-Whatever you cannot write, read again.
+Now, the Blurting Sheet Challenge
+Take a blank sheet. Without peeking at the book, write down everything you remember: the types of dice, how to find opposites from two views, the open dice cross rule, the painted cube formulas, the counting methods, and the traps. Scribble, draw, use arrows — whatever helps. Once you’re done, compare with the chapter. The gaps you missed? Those are your revision targets.
+
+One question to test yourself:
+If a cross net has numbers: top lone face = 3, bottom lone face = 4, and middle row faces (left to right) = 5, 1, 2, 6. Which number is opposite to 6? (Try it before looking up. Answer: 6 is in the middle row, second from left? Wait, middle row: 5, 1, 2, 6. The second and fourth are 1 and 6. So opposite of 6 is 1. Check: The top and bottom are 3 and 4 opposite. First and third are 5 and 2 opposite.) Correct? Good. Now go and teach this to someone — that’s the true Feynman way.

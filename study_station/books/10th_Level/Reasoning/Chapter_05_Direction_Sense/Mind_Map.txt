@@ -1,23 +1,52 @@
-```mermaid
-graph TD
-    R["🧭 दिशा ज्ञान<br>Direction Sense"]
-    R --> D["📖 आठ दिशाएँ<br>N S E W + कोणीय"]
-    R --> M["🗝️ नियम<br>तीर बनाओ"]
-    R --> T["📂 प्रकार<br>Types"]
-    R --> TR["⚠️ जाल<br>Traps"]
-
-    D --> D1["ऊपर N, नीचे S<br>दाएँ E, बाएँ W"]
-    D --> D2["सूरज पूर्व से उगता है"]
-
-    M --> M1["हर कदम एक तीर"]
-    M --> M2["उत्तर मुँह: दायाँ=पूर्व"]
-    M --> M3["दक्षिण मुँह: उल्टा"]
-
-    T --> T1["अंतिम दिशा<br>Final Direction"]
-    T --> T2["सबसे छोटी दूरी<br>पाइथागोरस √(a²+b²)"]
-    T --> T3["परछाई आधारित<br>सुबह पश्चिम, शाम पूर्व"]
-
-    TR --> TR1["मुँह की दिशा भूलना"]
-    TR --> TR2["परछाई की दिशा"]
-    TR --> TR3["दूरी बनाम विस्थापन"]
-```
+Diagram
+Code
+Download
+Fullscreen
+Direction Sense
+Main Concepts
+Types of Questions
+Key Strategies
+Time Management
+Common Traps
+Formulas
+Cardinal Directions
+Intercardinal Directions
+Clockwise/AnticlockwiseTurns
+Facing Direction
+Shadow Concept
+Simple Path Tracing
+Multiple Sequential Turns
+Shadow-Based Problems
+Distance and Displacement
+A is to the B of C
+45°, 135°, etc.
+Golden Rule: Update facingafter each turn
+Nose Compass Trick
+Draw Arrow Diagrams
+90°anticlockwise/clockwise
+Pythagoras for ShortestDistance
+Visualise Yourself as theMover
+15‑sec Skip Rule: If initialfacing or first turn notclear
+45‑sec Mark & Move: >4turns or complexshadow+time
+Solve Simple Questions in&lt;30 sec
+Do Not Re‑Read EntireProblem Repeatedly
+About Turn mistaken asLeft/Right
+Distance vs DisplacementConfusion
+Morning logic applied toEvening
+Similar Options withDifferent Direction
+Unclear Initial FacingDirection
+Pythagoras Theorem
+3‑4‑5, 5‑12‑13, 6‑8‑10,8‑15‑17
+Left: −90°, Right: +90°
+About Turn: ±180°
+Intercardinal Shift: ±45°
+North
+East
+South
+West
+NE
+SE
+SW
+NW
+Sun Position
+Time of Day

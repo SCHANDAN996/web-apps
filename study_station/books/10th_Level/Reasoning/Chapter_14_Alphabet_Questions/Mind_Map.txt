@@ -1,21 +1,79 @@
-```mermaid
-graph TD
-    R["🔤 वर्णमाला प्रश्न<br>Alphabet Questions"]
-    R --> D["📖 अर्थ<br>अक्षरों की स्थिति का खेल"]
-    R --> M["🗝️ आधार<br>A=1 … Z=26"]
-    R --> T["📂 प्रकार<br>Types"]
-    R --> TR["⚠️ जाल<br>Traps"]
-
-    M --> M1["EJOTY: E5 J10 O15 T20 Y25"]
-    M --> M2["दाएँ से = 27 − बाएँ से"]
-
-    T --> T1["स्थिति ज्ञात करना"]
-    T --> T2["दाएँ से गिनती"]
-    T --> T3["दो अक्षरों के बीच दूरी"]
-    T --> T4["n-वाँ बाएँ/दाएँ अक्षर"]
-    T --> T5["बीच वाला अक्षर (औसत)"]
-
-    TR --> TR1["बाएँ बनाम दाएँ"]
-    TR --> TR2["के बाद बनाम n-वाँ"]
-    TR --> TR3["बीच में दोहरी गिनती"]
-```
+Diagram
+Code
+Download
+Fullscreen
+Alphabet Questions
+Foundation
+Types of Questions
+Strategies
+Time Management
+Examiner's Traps
+Positions
+Opposite Letters
+Mnemonics
+Letter Series
+Letter Analogy
+Letter Classification
+Coding-Decoding
+Use EJOTY for QuickPosition Lookup
+Memorize Opposite Pairsfor Speed
+For Series: CheckDifferences in Positions
+For Analogy: Decode FirstPair Completely
+For Classification: CheckSimplest Category First
+For Coding: Isolate EachLetter, Apply Stepwise
+15-Second Rule
+45-Second Rule
+>3 operations
+Attempt SimpleSeries/Analogy First
+Multiple Plausible Patternsin Options
+Complex-Looking Words
+Double Relationships
+Vowel/Consonant Trap inClassification
+Uneven Gaps in Series
+Forward: A=1 to Z=26
+EJOTY Anchors
+Reverse: Z=1 to A=26
+Sum = 27
+Formula: Opposite = 27 -Position
+Common Pairs
+EJOTY: forward
+VQLGB / Very Quiet LionsGrowl Boldly: reverseanchors
+Constant Difference
+Increasing/Decreasing Gap
+Mixed Letter-Number
+Reverse Series
+Identify Relationship
+Apply Identically
+Vowel/Consonant
+Position Parity
+Prime/Composite Position
+Pattern in Gaps
+Single Operation
+Multi-Operation
+If pattern not found in 15sec → Skip
+If solving takes >45 sec →Mark & Return Later
+Always Prefer the SimplestConsistent Rule
+Decode Systematically;Often a Simple Operation
+Verify Uniformity Across AllLetters
+Overthinking Positions;Missing the Obvious
+Check if Gap Change isArithmetic or Random
+E=5
+J=10
+O=15
+T=20
+Y=25
+Formula: 27 - ForwardPosition
+E ↔ V
+J ↔ Q
+O ↔ L
+T ↔ G
+Y ↔ B
+Shift
+Opposite
+Reverse
+Combined
++/-
+Opposite
+Reverse
+Order of Steps
+Decoding: Reverse theSteps

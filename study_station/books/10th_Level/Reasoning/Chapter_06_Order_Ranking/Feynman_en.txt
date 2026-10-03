@@ -1,23 +1,25 @@
-# Feynman Technique: Order & Ranking in Simple Words
+🧒 Feynman (फेनमैन तकनीक + ब्लर्टिंग शीट)
 
-Tell your younger brother: "Put 5 toffees in a line. Now pick up the middle one. Which number is it from the left? Third. And from the right? Also third. Now add — 3 + 3 = 6. But there are only 5 toffees! Why one extra? Because we counted the middle one twice."
+The hardest concept made simple – Overlap and Interchange
 
-That is the whole secret. **When finding the total, don't forget to subtract 1 — because the item in question is counted from both sides.**
+Let me tell you a story. Imagine a long ice‑cream queue on a hot summer day. You are standing somewhere in the middle. Your little sister taps your shoulder and says, “Bhaiya, you are 12th from the front!” Your cousin at the back shouts, “No, he is 10th from the end!” Both are talking about the same person – you. So how many people are in the queue? You can’t just add 12 and 10, because then you’d count yourself twice. You must subtract one “you”. Total = 12 + 10 – 1 = 21. That’s the famous T = L + R – 1.
 
-## The Biggest Trick: Draw a Small Line
+Now, the real mind‑bender comes when two people are involved and their ranks seem to cross each other. Suppose you are 12th from the front, and your friend is 8th from the back. You add 12 and 8, and you get 20, but the queue only has 15 people! How is that possible? Because your friend is actually standing ahead of you. The counting from opposite ends has overlapped. The formula can get messy, but a super‑trick makes it child’s play.
 
-As soon as you read the question, draw little boxes on paper and fill in the numbers:
-- "A is 3rd from top, 5th from bottom" → count the boxes: total = 3 + 5 − 1 = 7.
-- "Between A and B" → bigger rank − smaller rank − 1.
+The “Number Line” Trick (For Overlap & Interchange)
+Draw a straight horizontal line. Mark the left end and right end. All people are dots. Place the two people on the line according to their ranks from any one end only. Never mix ends until you convert both. For overlap: convert both to ranks from, say, the left end. If total is 15, and A is 12th from left, B is 8th from right → B’s left rank = 15 – 8 + 1 = 8th from left. Now see: A at 12, B at 8. So B is ahead of A. The number of persons between them = (12 – 8) – 1 = 3. Done! No crazy addition‑subtraction errors.
 
-With the line in front of your eyes, no mistake happens.
+For interchange: when A and B swap, their physical spots are exchanged. If after swapping A is now 15th from left, and before he was 9th, then the number of people between them is simply (15 – 9) = 6. And total can be found by adding the unchanged end rank of the other person. It’s just like swapping seats on a bench – the bench length never changes.
 
-## Blurting Sheet (Write from Memory)
+Unforgettable Trick – “Ek Bar Mein Sab Yaad”
+Whenever you see opposite‑end ranks, sing in your head:
+“Left plus Right, minus one,
+Total done, oh what fun!
+Convert the other, don’t you mix,
+Then difference minus one, the gap clicks!”
+This little rhyme will save you from every silly mistake.
 
-Close the book and write:
-1. What is the total-number formula? Why "−1"?
-2. How do you find the rank from the other side?
-3. What is the formula for the number between two?
-4. What is the most common trap?
+Blurting Sheet Instruction
+Now close the book. Take a blank sheet of paper. Write down everything you remember about Order & Ranking: the main formulas, when to add or subtract 1, how to handle overlap, interchange trick, and what an examiner’s trap looks like. Scribble, draw lines, use arrows – but don’t peek. Once you’ve written all, compare with the chapter. The spots you missed are your weak points – revisit them now.
 
-Whatever you cannot write, read again.
+A question for you: In a row, Priya is 9th from left and 16th from right. The next day, her friend Rahul joins from the left end, and now Priya becomes 11th from left. How many people are in the row now? (Hint: the new person changes the counting, but total becomes old total + 1, and the right‑end rank of Priya changes too. Think step‑by‑step.)

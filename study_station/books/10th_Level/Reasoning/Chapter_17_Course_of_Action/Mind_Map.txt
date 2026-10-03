@@ -1,20 +1,47 @@
-```mermaid
-graph TD
-    R["🎯 कार्यवाही<br>Course of Action"]
-    R --> D["📖 अर्थ<br>सही कदम चुनना"]
-    R --> M["🗝️ तीन जाँच"]
-    R --> K["🔑 मुख्य विचार"]
-    R --> TR["⚠️ जाल<br>Traps"]
-
-    M --> M1["समस्या से सीधे जुड़ी हो"]
-    M --> M2["व्यावहारिक हो"]
-    M --> M3["अतिवादी न हो"]
-
-    K --> K1["समाधानकारी सही"]
-    K --> K2["अतिवादी ग़लत"]
-    K --> K3["रोकथाम > सज़ा"]
-
-    TR --> TR1["अतिवादी कदम"]
-    TR --> TR2["असंबंधित कार्यवाही"]
-    TR --> TR3["दोनों सही मान लेना"]
-```
+Diagram
+Code
+Download
+Fullscreen
+Statement & Course ofAction
+Statement
+Course_of_Action
+Key_Tests
+Mnemonics
+Traps
+Time_Management
+Outcome
+: A situation, problem orfact
+: Core issue identification
+: Concrete administrativestep
+: Must be practical, direct
+: Not a wish / slogan /opinion
+CLEAR_Filter
+Fire_Extinguisher_Test
+VIP_D
+Extreme_Options
+Long-term_vs_Immediate
+Heavy_Jargon
+Dual_Connection
+15-Second_Rule
+45-Second_Rule
+: Decision-making underpressure
+: Solution-oriented,immediate, feasible step
+C: Concrete action
+L: Linked to problem
+E: Extreme-free
+A: Assumption-free
+R: Relevant & Practical
+: "Would it put out the fireright now?"
+V: Vague → Reject
+I: Irrelevant → Reject
+P: Punishment first →Reject
+D: Demands impossible →Reject
+: "All", "Forever", "Shutdown everything"
+: Immediate punishmentwithout inquiry
+: Policy disguised asimmediate action
+: "Administrativerestructuring" with no clearact
+: Both options seem partlyright
+: Choose root cause, notsymptom
+: If core problem unclear→ skip & mark
+: Max 45 sec per question
+: Apply CLEAR, eliminateextremes, choose

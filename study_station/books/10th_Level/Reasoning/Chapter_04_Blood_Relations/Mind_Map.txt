@@ -1,20 +1,65 @@
-```mermaid
-graph TD
-    R["👨‍👩‍👧 रक्त संबंध<br>Blood Relations"]
-    R --> D["📖 अर्थ<br>रिश्तों की पहेली सुलझाना"]
-    R --> M["🗝️ नियम<br>परिवार वृक्ष बनाओ"]
-    R --> T["📂 प्रकार<br>Types"]
-    R --> TR["⚠️ जाल<br>Traps"]
-
-    M --> M1["पुरुष +/□, स्त्री −/○"]
-    M --> M2["पति-पत्नी = चिह्न"]
-    M --> M3["एक पीढ़ी एक रेखा पर"]
-
-    T --> T1["सीधा संबंध<br>Direct"]
-    T --> T2["फ़ोटो/इशारा पहेली<br>Pointing to Photo"]
-    T --> T3["कूट रक्त संबंध<br>Coded Relations"]
-
-    TR --> TR1["लिंग मान लेना"]
-    TR --> TR2["पीढ़ी उलटना"]
-    TR --> TR3["ननिहाल बनाम ददिहाल"]
-```
+Diagram
+Code
+Download
+Fullscreen
+Blood Relations
+Concepts
+Types of Questions
+Strategies / Approaches
+Time Management
+Common Traps
+Family Tree Symbols
+Generation Row Rule
+P-M Trick
+“Only” Superpower
+Statement/Puzzle Based
+Coded Relations
+Photograph/Pointing Based
+Mixed Relations
+Anchor First
+Step-by-Step Drawing
+Direction Awareness
+Backward Tracing
+Dual Role Check
+15-Second Rule
+45-Second Rule
+Gender Assumption fromNames
+Paternal vs MaternalConfusion
+Reversing “A is B’s …”
+Ignoring “Only”
+Dual Relations
+Brother-in-law Ambiguity
+“Cannot be determined”
+Male: □
+Female: ○
+Marriage: —
+Parent-Child: │
+One row per generation
+Paternal
+Maternal
+Eliminates multiple siblings
+Multiple statements → tree
+Symbols like +, –, ×, ÷
+Decode one by one
+“Pointing to a woman…”
+Anchor = speaker
+Multiple generations + sides
+Mark the speaker as “ME”
+Lego Tower Trick
+Attach new person to lastdrawn
+“A is B’s son” → A → B
+Never reverse codedoperators
+For “How A related to B?”
+Trace from B to A
+One person can be bothbrother & son
+Skip if no anchor & firstrelation drawn
+Max time per question
+Then guess & move on
+“Kamal” may be female
+Wait forbrother/sister/he/she
+Uncle = Chacha/Tau vsMama
+“A is father of B” ≠ “B isfather of A”
+Overcomplicating the tree
+Missing that A plays tworoles
+Sister’s husband? Wife’sbrother? Husband’sbrother?
+Valid answer when gendermissing

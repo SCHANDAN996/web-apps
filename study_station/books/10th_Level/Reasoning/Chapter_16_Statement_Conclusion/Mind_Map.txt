@@ -1,20 +1,59 @@
-```mermaid
-graph TD
-    R["💭 कथन और निष्कर्ष<br>Statement & Conclusion"]
-    R --> D["📖 अर्थ<br>कौन-सा निष्कर्ष निकलता है"]
-    R --> M["🗝️ नियम<br>केवल कथन मानो"]
-    R --> K["🔑 मुख्य विचार"]
-    R --> TR["⚠️ जाल<br>Traps"]
-
-    M --> M1["कथन को 100% सच मानो"]
-    M --> M2["बाहरी ज्ञान मत मिलाओ"]
-
-    K --> K1["सभी A,B → कुछ B,A"]
-    K --> K2["कोई A,B नहीं → कोई B,A नहीं"]
-    K --> K3["संभावना ≠ निष्कर्ष"]
-    K --> K4["या तो-या (Either-Or)"]
-
-    TR --> TR1["अपनी जानकारी मिलाना"]
-    TR --> TR2["कुछ को सभी समझना"]
-    TR --> TR3["संभावना को निष्कर्ष मानना"]
-```
+Diagram
+Code
+Download
+Fullscreen
+Statement &amp;ConclusionBasic
+Concepts
+Types of Relations
+Strategies
+Time Management
+Common Traps
+Statement
+Conclusion
+Key Rule
+All A are B
+Some A are B
+No A is B
+T.E.A. Test
+Venn Diagram Check
+Certainty vs Possibility
+15-Second Rule
+45-Second Rule
+Skip Strategy
+Some Not Trap
+Heavy Vocabulary
+Multiple Diagrams
+: 100% true input
+: No questioning
+: Must follow definitely
+: No outside knowledge
+: Robot Brain
+: Use only given data
+: Universal Affirmative
+: Conversion: Some B are A
+: Some A are B implicit
+: Particular Affirmative
+: Conversion: Some B are A
+: Never gives Some not
+: Universal Negative
+: Conversion: No B is A
+: No positive link
+: T = True as per statement
+: E = Eliminate outside
+: A = Avoid Some not
+: Must hold in all cases
+: Fail in one → invalid
+: Only forced conclusions
+: Mere possibility → notvalid
+: Single conclusion
+: Decide or mark & skip
+: Multiple conclusions
+: Never overanalyze
+: If ambiguous
+: Return if time permits
+: "Some A are B" → "Some Anot B" ❌
+: All might be B
+: Complex words to confuse
+: Translate to simplelanguage
+: Conclusion true in onebut false in another ❌
+: Must be true in everypossible diagram

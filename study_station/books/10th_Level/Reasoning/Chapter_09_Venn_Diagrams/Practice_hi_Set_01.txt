@@ -1,122 +1,345 @@
-सेट 1: वेन आरेख MCQs (हिंदी)
-प्रश्न 1–16: आसान | प्रश्न 17–20: मध्यम
+markdown
+Copy
+Download
+**Set 1: Practice MCQs (1–25)**
 
-प्रश्न 1. 40 लोगों को सेब, 30 को संतरा, 10 को दोनों पसंद हैं। कम-से-कम एक कितनों को पसंद है?
-(a) 60 (b) 70 (c) 80 (d) 50
-उत्तर: (a) 60
-हल: n(A∪B) = 40 + 30 − 10 = 60।
-स्रोत: NCERT रीज़निंग
+---
 
-प्रश्न 2. प्रश्न 1 के आँकड़ों से, केवल सेब कितनों को पसंद है?
-(a) 30 (b) 40 (c) 20 (d) 10
-उत्तर: (a) 30
-हल: केवल सेब = 40 − 10 = 30।
-स्रोत: SSC MTS
+**1.** *निम्नलिखित में से कौन-सा वेन आरेख भारत, एशिया, पृथ्वी के बीच संबंध को सर्वोत्तम रूप से दर्शाता है?*
+Which of the following Venn diagrams best represents the relationship among: *India, Asia, Earth*?
+(A) तीन अलग-अलग वृत्त (Three separate circles)
+(B) एक बड़े वृत्त में दो अलग-अलग वृत्त (Two separate circles inside a large circle)
+(C) एक वृत्त दूसरे के अंदर और वह तीसरे के अंदर (One circle inside another, both inside a third)
+(D) तीनों वृत्त एक-दूसरे को काटते हुए (Three overlapping circles)
 
-प्रश्न 3. कौन-सा संबंध सही है: कुत्ता, बिल्ली, जानवर?
-(a) तीन अलग (b) कुत्ता और बिल्ली अलग, दोनों जानवर के अंदर (c) तीनों ओवरलैप (d) एक के अंदर एक
-उत्तर: (b) कुत्ता और बिल्ली अलग, दोनों जानवर के अंदर
-हल: दोनों जानवर हैं पर एक-दूसरे से अलग।
-स्रोत: SSC CHSL
+**Answer:** (C) एक वृत्त दूसरे के अंदर और वह तीसरे के अंदर
+**Solution:** India is part of Asia, Asia is part of Earth. So nested circles: India ⊂ Asia ⊂ Earth.
+**Source:** SSC CHSL 2019
 
-प्रश्न 4. 20 को A, 15 को B, 5 को दोनों पसंद हैं। कम-से-कम एक कितनों को पसंद है?
-(a) 30 (b) 35 (c) 25 (d) 40
-उत्तर: (a) 30
-हल: n(A∪B) = 20 + 15 − 5 = 30।
-स्रोत: RRB NTPC
+---
 
-प्रश्न 5. 50 में से 20 को A, 15 को B, 5 को दोनों पसंद हैं। कितनों को कोई नहीं पसंद?
-(a) 20 (b) 25 (c) 15 (d) 30
-उत्तर: (a) 20
-हल: कम-से-कम एक = 20 + 15 − 5 = 30। कोई नहीं = 50 − 30 = 20।
-स्रोत: SSC CGL
+**2.** *पेन, पेंसिल, इरेज़र के लिए सही संबंध कौन-सा वेन आरेख दिखाता है?*
+Which Venn diagram shows the correct relation among: *Pen, Pencil, Eraser*?
+(A) तीन अलग-अलग वृत्त (Three separate circles)
+(B) एक-दूसरे को काटते हुए तीन वृत्त (Three overlapping circles)
+(C) एक बड़े वृत्त में दो छोटे वृत्त (One big circle containing two small circles)
+(D) दो वृत्त काटते हुए, तीसरा अलग (Two overlapping, third separate)
 
-प्रश्न 6. A या B में शामिल संख्या का सूत्र है:
-(a) n(A) + n(B) (b) n(A) + n(B) − n(A∩B) (c) n(A) − n(B) (d) n(A) × n(B)
-उत्तर: (b) n(A) + n(B) − n(A∩B)
-हल: साझा भाग एक बार घटाते हैं।
-स्रोत: NCERT रीज़निंग
+**Answer:** (A) तीन अलग-अलग वृत्त
+**Solution:** Pen, pencil, eraser are all distinct stationery items with no class-subclass relation. So three separate circles.
+**Source:** SSC MTS 2020
 
-प्रश्न 7. 30 को चाय, 20 को कॉफ़ी, 8 को दोनों पसंद हैं। केवल कॉफ़ी कितनों को पसंद है?
-(a) 12 (b) 8 (c) 20 (d) 22
-उत्तर: (a) 12
-हल: केवल कॉफ़ी = 20 − 8 = 12।
-स्रोत: SSC MTS
+---
 
-प्रश्न 8. "सब बिल्लियाँ जानवर हैं" — कौन-सा आरेख दिखाता है?
-(a) दो अलग गोले (b) दो ओवरलैपिंग गोले (c) बिल्ली गोला जानवर के अंदर (d) जानवर गोला बिल्ली के अंदर
-उत्तर: (c) बिल्ली गोला जानवर के अंदर
-हल: "सब बिल्लियाँ जानवर" → बिल्ली गोला पूरी तरह जानवर गोले के अंदर।
-स्रोत: SSC CHSL
+**3.** *महिलाओं, माताओं, इंजीनियरों के संबंध को दर्शाने वाला वेन आरेख चुनें।*
+Select the Venn diagram that illustrates the relationship: *Women, Mothers, Engineers*।
+(A) तीन अलग-अलग वृत्त
+(B) दो अलग-अलग वृत्त एक बड़े वृत्त के अंदर
+(C) तीनों वृत्त एक-दूसरे को काटते हुए
+(D) एक वृत्त दूसरे के अंदर, दोनों तीसरे को काटते हुए
 
-प्रश्न 9. 25 को चाय, 25 को कॉफ़ी, 10 को दोनों पसंद हैं। कम-से-कम एक कितनों को पसंद है?
-(a) 40 (b) 50 (c) 60 (d) 35
-उत्तर: (a) 40
-हल: n(A∪B) = 25 + 25 − 10 = 40।
-स्रोत: RRB Group D
+**Answer:** (C) तीनों वृत्त एक-दूसरे को काटते हुए
+**Solution:** All mothers are women. Some women are engineers; some mothers can be engineers; some engineers are women. So all three sets intersect.
+**Source:** IBPS Clerk 2018
 
-प्रश्न 10. "कोई कलम किताब नहीं" — कौन-सा आरेख दिखाता है?
-(a) दो अलग गोले (b) दो ओवरलैपिंग गोले (c) एक के अंदर एक (d) तीन गोले
-उत्तर: (a) दो अलग गोले
-हल: "कोई कलम किताब नहीं" → पूरी तरह अलग (disjoint) गोले।
-स्रोत: NCERT रीज़निंग
+---
 
-प्रश्न 11. 60 गणित, 40 विज्ञान, 20 दोनों पढ़ते हैं। कम-से-कम एक कितने पढ़ते हैं?
-(a) 80 (b) 100 (c) 60 (d) 120
-उत्तर: (a) 80
-हल: n(A∪B) = 60 + 40 − 20 = 80।
-स्रोत: SSC CGL
+**4.** *डॉक्टर, सर्जन, न्यूरोलॉजिस्ट के लिए सर्वश्रेष्ठ वेन आरेख कौन-सा है?*
+Which option best fits the sets: *Doctors, Surgeons, Neurologists*?
+(A) तीन संकेंद्रीय वृत्त (Three concentric circles)
+(B) एक बड़े वृत्त में दो छोटे वृत्त जो आपस में काटते हों (One large circle containing two overlapping circles)
+(C) एक बड़े वृत्त में दो छोटे वृत्त जो आपस में न काटते हों (One large circle containing two non-overlapping small circles)
+(D) तीनों एक-दूसरे को काटते हुए (Three overlapping circles)
 
-प्रश्न 12. प्रश्न 11 के आँकड़ों से, केवल गणित कितने पढ़ते हैं?
-(a) 40 (b) 60 (c) 20 (d) 80
-उत्तर: (a) 40
-हल: केवल गणित = 60 − 20 = 40।
-स्रोत: SSC MTS
+**Answer:** (C) एक बड़े वृत्त (Doctors) में दो छोटे वृत्त जो आपस में न काटते हों
+**Solution:** All surgeons and neurologists are doctors. They are distinct specializations, so disjoint subsets inside a universal set.
+**Source:** SSC CGL 2020
 
-प्रश्न 13. कौन-सा संबंध सही है: गुलाब, फूल, पौधा?
-(a) तीन अलग (b) तीनों ओवरलैप (c) गुलाब ⊂ फूल ⊂ पौधा (d) दो अलग, एक अंदर
-उत्तर: (c) गुलाब ⊂ फूल ⊂ पौधा
-हल: हर गुलाब फूल है, हर फूल पौधा है — तीन समाए हुए गोले।
-स्रोत: SSC CHSL
+---
 
-प्रश्न 14. 100 में से 70 को A, 60 को B, 40 को दोनों पसंद हैं। कितनों को कोई नहीं पसंद?
-(a) 10 (b) 20 (c) 30 (d) 0
-उत्तर: (a) 10
-हल: कम-से-कम एक = 70 + 60 − 40 = 90। कोई नहीं = 100 − 90 = 10।
-स्रोत: RRB NTPC
+**5.** *खिलाड़ियों, गायकों, डॉक्टरों के लिए आरेख चुनें।*
+Choose the diagram for: *Players, Singers, Doctors*।
+(A) तीन अलग-अलग वृत्त
+(B) एक-दूसरे को काटते हुए तीन वृत्त
+(C) एक वृत्त दूसरे के अंदर, दोनों तीसरे से अलग
+(D) दो वृत्त काटते हुए, तीसरा अलग
 
-प्रश्न 15. "कुछ छात्र खिलाड़ी हैं" — कौन-सा आरेख दिखाता है?
-(a) दो अलग (b) दो ओवरलैपिंग (c) एक के अंदर एक (d) तीन अलग
-उत्तर: (b) दो ओवरलैपिंग
-हल: "कुछ" का अर्थ आंशिक ओवरलैप।
-स्रोत: NCERT रीज़निंग
+**Answer:** (B) एक-दूसरे को काटते हुए तीन वृत्त
+**Solution:** A person can be player, singer, doctor in any combination. So all three mutually overlap.
+**Source:** IBPS PO 2019
 
-प्रश्न 16. 35 को A, 25 को B, 15 को दोनों पसंद हैं। कम-से-कम एक कितनों को पसंद है?
-(a) 45 (b) 60 (c) 50 (d) 40
-उत्तर: (a) 45
-हल: n(A∪B) = 35 + 25 − 15 = 45।
-स्रोत: SSC MTS
+---
 
-प्रश्न 17. (मध्यम) "35 को A, 25 को B, 15 को दोनों" — केवल A कितनों को पसंद है?
-(a) 20 (b) 10 (c) 15 (d) 35
-उत्तर: (a) 20
-हल: केवल A = 35 − 15 = 20।
-स्रोत: SSC CGL
+**6.** *दिए गए आरेख में त्रिभुज = शिक्षक, वृत्त = स्नातक, आयत = महिलाएँ। संख्याएँ क्षेत्रवार व्यक्तियों की संख्या दर्शाती हैं: केवल शिक्षक = 4, केवल स्नातक = 6, केवल महिलाएँ = 7, शिक्षक और स्नातक (महिला नहीं) = 3, स्नातक और महिलाएँ (शिक्षक नहीं) = 5, शिक्षक और महिलाएँ (स्नातक नहीं) = 2, तीनों = 1। स्नातक महिलाएँ जो शिक्षक नहीं हैं, कितनी हैं?*
+In the given diagram, triangle = Teachers, circle = Graduates, rectangle = Women. Numbers: only teachers=4, only graduates=6, only women=7, teachers & graduates (not women)=3, graduates & women (not teachers)=5, teachers & women (not graduates)=2, all three=1. How many are graduate women who are not teachers?
+(A) 5
+(B) 6
+(C) 7
+(D) 8
 
-प्रश्न 18. (मध्यम) कौन-सा आरेख सही है: कुछ पुरुष डॉक्टर हैं, कुछ डॉक्टर इंजीनियर हैं, कुछ इंजीनियर पुरुष हैं?
-(a) तीन अलग गोले (b) तीन आपस में ओवरलैप करते गोले (c) समाए हुए गोले (d) दो ओवरलैपिंग
-उत्तर: (b) तीन आपस में ओवरलैप करते गोले
-हल: हर जोड़ी में "कुछ" साझा है, अतः तीनों गोले एक-दूसरे को काटते हैं।
-स्रोत: SSC CGL
+**Answer:** (A) 5
+**Solution:** Graduate women not teachers = region common to circle and rectangle but outside triangle = 5.
+**Source:** SSC CGL 2021
 
-प्रश्न 19. (मध्यम) 50 को X, 40 को Y, 15 को दोनों पसंद हैं। केवल Y कितनों को पसंद है?
-(a) 25 (b) 40 (c) 15 (d) 35
-उत्तर: (a) 25
-हल: केवल Y = 40 − 15 = 25।
-स्रोत: RRB Group D
+---
 
-प्रश्न 20. (मध्यम) 80 में से 40 को X, 30 को Y, 10 को दोनों पसंद हैं। कितनों को कोई नहीं पसंद?
-(a) 20 (b) 10 (c) 30 (d) 0
-उत्तर: (a) 20
-हल: कम-से-कम एक = 40 + 30 − 10 = 60। कोई नहीं = 80 − 60 = 20।
-स्रोत: SSC CGL
+**7.** *वेन आरेख में, वृत्त A = पुरुष, वृत्त B = नियोजित, वृत्त C = शिक्षित। वह क्षेत्र कौन-सा है जो ऐसे पुरुषों को दर्शाता है जो शिक्षित हैं परंतु नियोजित नहीं?*
+In the Venn diagram, circle A = Men, circle B = Employed, circle C = Educated. Which region represents men who are educated but not employed?
+(A) केवल A (Only A)
+(B) A और C का कटाव क्षेत्र जिसमें B नहीं (Intersection of A and C excluding B)
+(C) A और B का कटाव क्षेत्र (Intersection of A and B)
+(D) तीनों का कटाव (Intersection of all three)
+
+**Answer:** (B) A और C का कटाव क्षेत्र जिसमें B नहीं
+**Solution:** Men (A) who are educated (C) but not employed (outside B) = A ∩ C ∩ B'.
+**Source:** IBPS Clerk 2020
+
+---
+
+**8.** *चित्र में क्रिकेट, हॉकी, फुटबॉल खेलने वालों की संख्या दी गई है। केवल क्रिकेट = 10, केवल हॉकी = 8, केवल फुटबॉल = 12, क्रिकेट और हॉकी (फुटबॉल नहीं) = 5, हॉकी और फुटबॉल (क्रिकेट नहीं) = 6, क्रिकेट और फुटबॉल (हॉकी नहीं) = 4, तीनों = 3। केवल क्रिकेट और फुटबॉल खेलने वाले कितने हैं जो हॉकी नहीं खेलते?*
+The figure shows the number of students who play Cricket, Hockey, Football. How many play only Cricket and Football but not Hockey?
+(A) 5
+(B) 4
+(C) 3
+(D) 7
+
+**Answer:** (B) 4
+**Solution:** “Only Cricket and Football but not Hockey” is the region common to Cricket and Football excluding Hockey = 4.
+**Source:** SSC CHSL 2022
+
+---
+
+**9.** *एक सर्वेक्षण में 55% चाय, 45% कॉफी, 20% दोनों पसंद करते हैं। कितने प्रतिशत कोई भी पसंद नहीं करते?*
+In a survey, 55% like tea, 45% like coffee, 20% like both. What percentage like neither?
+(A) 10%
+(B) 20%
+(C) 30%
+(D) 40%
+
+**Answer:** (B) 20%
+**Solution:** n(T ∪ C) = 55+45-20 = 80%. Neither = 100-80 = 20%.
+**Source:** RRB NTPC 2019
+
+---
+
+**10.** *वेन आरेख में LPG, बिजली और सौर का उपयोग करने वाले परिवारों की संख्या दी गई है। केवल LPG=15, केवल बिजली=10, केवल सौर=20, LPG और बिजली केवल=12, बिजली और सौर केवल=8, LPG और सौर केवल=5, तीनों=3। ठीक दो ऊर्जा स्रोत उपयोग करने वाले परिवारों की संख्या कितनी है?*
+The Venn diagram gives the number of families using LPG, Electricity, and Solar. How many families use exactly two energy sources?
+(A) 25
+(B) 28
+(C) 22
+(D) 20
+
+**Answer:** (A) 25
+**Solution:** Exactly two = (12+8+5) = 25.
+**Source:** SSC MTS 2021
+
+---
+
+**11.** *कथन: सभी फूल पौधे हैं। कुछ पौधे पेड़ हैं।*
+*निष्कर्ष: I. कुछ फूल पेड़ हैं। II. कुछ पेड़ पौधे हैं।*
+Statements: All flowers are plants. Some plants are trees.
+Conclusions: I. Some flowers are trees. II. Some trees are plants.
+(A) केवल I अनुसरण करता है (Only I follows)
+(B) केवल II अनुसरण करता है (Only II follows)
+(C) दोनों अनुसरण करते हैं (Both follow)
+(D) कोई भी अनुसरण नहीं करता (Neither follows)
+
+**Answer:** (B) केवल II अनुसरण करता है
+**Solution:** Flower ⊆ Plants. Some plants are trees means Plants and Trees overlap. I: Flower circle may be completely inside plants but not touch trees, so not definite. II: "Some trees are plants" is just the converse of the given statement, so it follows.
+**Source:** IBPS PO 2021
+
+---
+
+**12.** *कथन: कोई किताब पेन नहीं है। सभी पेन पेंसिल हैं।*
+*निष्कर्ष: I. कोई किताब पेंसिल नहीं है। II. कुछ पेंसिल किताब नहीं हैं।*
+Statements: No book is a pen. All pens are pencils.
+Conclusions: I. No book is a pencil. II. Some pencils are not books.
+(A) केवल I अनुसरण करता है
+(B) केवल II अनुसरण करता है
+(C) दोनों अनुसरण करते हैं
+(D) कोई भी अनुसरण नहीं करता
+
+**Answer:** (B) केवल II अनुसरण करता है
+**Solution:** Pen ⊆ Pencil. Book and Pen disjoint. Book could overlap Pencil? Yes, book can have a region outside pen but inside pencil. So I false. II: Since all pens are pencils and no book is pen, the pen-pencil region is separate from book, so there exist pencils (at least the pen part) that are not books. True.
+**Source:** SSC CGL 2022
+
+---
+
+**13.** *कथन: कुछ अभिनेता गायक हैं। सभी गायक नर्तक हैं।*
+*निष्कर्ष: I. कुछ अभिनेता नर्तक हैं। II. सभी नर्तक गायक हैं।*
+Statements: Some actors are singers. All singers are dancers.
+Conclusions: I. Some actors are dancers. II. All dancers are singers.
+(A) केवल I अनुसरण करता है
+(B) केवल II अनुसरण करता है
+(C) दोनों अनुसरण करते हैं
+(D) कोई भी अनुसरण नहीं करता
+
+**Answer:** (A) केवल I अनुसरण करता है
+**Solution:** Some actors are singers, all singers are dancers → those actors are dancers. I true. II is converse of "All singers are dancers", not necessarily true.
+**Source:** IBPS Clerk 2019
+
+---
+
+**14.** *कथन: सभी आम फल हैं। कोई फल सब्ज़ी नहीं है।*
+*निष्कर्ष: I. कोई आम सब्ज़ी नहीं है। II. कुछ सब्ज़ियाँ आम हैं।*
+Statements: All mangoes are fruits. No fruit is a vegetable.
+Conclusions: I. No mango is a vegetable. II. Some vegetables are mangoes.
+(A) केवल I अनुसरण करता है
+(B) केवल II अनुसरण करता है
+(C) दोनों अनुसरण करते हैं
+(D) कोई भी अनुसरण नहीं करता
+
+**Answer:** (A) केवल I अनुसरण करता है
+**Solution:** Mango ⊆ Fruit, Fruit and Vegetable disjoint → Mango ∩ Vegetable = ∅. So I true. II false.
+**Source:** RRB Group D 2018
+
+---
+
+**15.** *कथन: कुछ बिल्लियाँ कुत्ते हैं। सभी कुत्ते चूहे हैं। कोई चूहा चमगादड़ नहीं है।*
+*निष्कर्ष: I. कुछ बिल्लियाँ चूहे हैं। II. कोई बिल्ली चमगादड़ नहीं है।*
+Statements: Some cats are dogs. All dogs are rats. No rat is a bat.
+Conclusions: I. Some cats are rats. II. No cat is a bat.
+(A) केवल I अनुसरण करता है
+(B) केवल II अनुसरण करता है
+(C) दोनों अनुसरण करते हैं
+(D) कोई भी अनुसरण नहीं करता
+
+**Answer:** (A) केवल I अनुसरण करता है
+**Solution:** I: Some cats are dogs, all dogs are rats → some cats are rats. True. II: Cats could overlap bats if the part of cats outside dogs and rats touches bats. No restriction. So II not definite.
+**Source:** SSC CHSL 2023
+
+---
+
+**16.** *कॉलेज, प्रधानाचार्य, विद्यार्थियों के लिए कौन-सा वेन आरेख है?*
+Which Venn diagram represents the sets: *College, Principal, Students*?
+(A) तीनों एक-दूसरे को काटते हुए
+(B) एक बड़ा वृत्त जिसमें दो छोटे वृत्त आपस में न काटते हों
+(C) एक वृत्त दूसरे के अंदर, दोनों तीसरे के अंदर
+(D) दो वृत्त काटते हुए, तीसरा अलग
+
+**Answer:** (B) एक बड़ा वृत्त (College) जिसमें दो छोटे वृत्त (Principal और Students) आपस में न काटते हों
+**Solution:** Both principal and students are part of a college, and they are disjoint (principal is not a student).
+**Source:** SSC CGL 2019
+
+---
+
+**17.** *फर्नीचर, कुर्सी, मेज़ के लिए आरेख चुनें।*
+Choose the diagram for *Furniture, Chair, Table*।
+(A) तीन अलग-अलग वृत्त
+(B) एक बड़े वृत्त में दो छोटे वृत्त जो आपस में न काटते हों
+(C) एक बड़े वृत्त में दो छोटे वृत्त जो काटते हों
+(D) तीनों काटते हुए
+
+**Answer:** (B) एक बड़े वृत्त (Furniture) में दो छोटे वृत्त (Chair और Table) जो आपस में न काटते हों
+**Solution:** Chair and Table are distinct types of furniture. So subset relation with no intersection.
+**Source:** IBPS PO 2017
+
+---
+
+**18.** *कार, वाहन, पेट्रोल के लिए कौन-सा विकल्प सही है?*
+Which option fits the words *Car, Vehicle, Petrol*?
+(A) एक बड़ा वृत्त (Vehicle) जिसमें एक वृत्त (Car) और तीसरा वृत्त (Petrol) उस बड़े वृत्त को काटता हुआ
+(B) एक बड़ा वृत्त (Vehicle) जिसमें एक वृत्त (Car), और तीसरा वृत्त (Petrol) अलग
+(C) तीनों काटते हुए
+(D) दो वृत्त अलग, तीसरा उनमें से एक के अंदर
+
+**Answer:** (B) एक बड़ा वृत्त (Vehicle) जिसमें Car, और Petrol अलग वृत्त
+**Solution:** Car ⊆ Vehicle. Petrol is a fuel, not a type of vehicle, so it's a disjoint set.
+**Source:** SSC CGL 2018
+
+---
+
+**19.** *तीन वृत्त A, B, C वाले वेन आरेख में कुल कितने क्षेत्र होते हैं?*
+In a Venn diagram with three circles A, B, C, how many regions are present?
+(A) 6
+(B) 7
+(C) 8
+(D) 9
+
+**Answer:** (B) 7
+**Solution:** Three intersecting circles create exactly 7 distinct regions.
+**Source:** Basic concept
+
+---
+
+**20.** *यदि 'केवल A' = 5, 'केवल B' = 7, 'केवल C' = 9, 'A और B केवल' = 3, 'B और C केवल' = 4, 'A और C केवल' = 2, 'तीनों' = 1, तो A में कुल कितने हैं?*
+If 'only A'=5, 'only B'=7, 'only C'=9, 'A and B only'=3, 'B and C only'=4, 'A and C only'=2, 'all three'=1, what is total in A?
+(A) 11
+(B) 10
+(C) 12
+(D) 9
+
+**Answer:** (A) 11
+**Solution:** Total in A = only A + (A∩B only) + (A∩C only) + (all three) = 5+3+2+1 = 11.
+**Source:** RRB NTPC 2020
+
+---
+
+**21.** **[मध्यम + जाल]** *कागज़, किताब, प्रिंटर के बीच सही संबंध कौन-सा वेन आरेख दर्शाता है?*
+Which Venn diagram correctly shows the relationship among *Paper, Book, Printer*?
+(A) एक बड़ा वृत्त 'Book' जिसमें 'Paper', और 'Printer' काटता हुआ
+(B) तीन अलग-अलग वृत्त
+(C) 'Paper' अंदर 'Book', 'Printer' अलग
+(D) 'Printer' अंदर 'Book', 'Paper' अलग
+
+**Answer:** (C) 'Paper' अंदर 'Book', 'Printer' अलग
+**Solution:** Paper is a constituent of book; printer is a device, not a subclass of book or paper. Printer is separate. Option (A) is tempting due to association.
+**Trap:** Hidden double relationship – association vs membership.
+**Source:** SSC CGL 2022
+
+---
+
+**22.** **[मध्यम + जाल]** *कथन: कुछ पेंसिल पेन हैं। कोई पेन इरेज़र नहीं है।*
+*निष्कर्ष: I. कुछ पेंसिल इरेज़र नहीं हैं। II. सभी पेंसिल के पेन होने की संभावना है।*
+Statements: Some pencils are pens. No pen is an eraser.
+Conclusions: I. Some pencils are not erasers. II. All pencils being pens is a possibility.
+(A) केवल I अनुसरण करता है
+(B) केवल II अनुसरण करता है
+(C) दोनों अनुसरण करते हैं
+(D) कोई भी अनुसरण नहीं करता
+
+**Answer:** (C) दोनों अनुसरण करते हैं
+**Solution:** I: The pencils that are pens are not erasers, so some pencils are not erasers. True. II: "All pencils are pens" is possible because "some" does not restrict the remaining pencils; they could all be pens. So II follows.
+**Trap:** Misconception that "some" implies "not all".
+**Source:** IBPS PO 2023
+
+---
+
+**23.** *आरेख: त्रिभुज = खिलाड़ी, वर्ग = स्नातक, वृत्त = भारतीय। संख्याएँ: केवल खिलाड़ी=8, केवल स्नातक=6, केवल भारतीय=9, खिलाड़ी और स्नातक (भारतीय नहीं)=4, स्नातक और भारतीय (खिलाड़ी नहीं)=5, खिलाड़ी और भारतीय (स्नातक नहीं)=3, तीनों=2। ऐसे कितने हैं जो या तो खिलाड़ी हैं या स्नातक परंतु भारतीय नहीं?*
+Study the diagram: Triangle = Players, Square = Graduates, Circle = Indians. Numbers: only Players=8, only Graduates=6, only Indians=9, Players & Graduates (not Indians)=4, Graduates & Indians (not Players)=5, Players & Indians (not Graduates)=3, all three=2. How many are either players or graduates but not Indians?
+(A) 21
+(B) 18
+(C) 19
+(D) 17
+
+**Answer:** (B) 18
+**Solution:** Either players or graduates but not Indians = only Players (8) + only Graduates (6) + (Players & Graduates only) (4) = 18. (Indians regions excluded.)
+**Source:** SSC CGL 2024
+
+---
+
+**24.** *पुरुष, भाई, बहनों के लिए सर्वश्रेष्ठ वेन आरेख कौन-सा है?*
+Which Venn diagram best represents *Males, Brothers, Sisters*?
+(A) दो वृत्त काटते हुए एक बड़े वृत्त के अंदर
+(B) एक बड़ा वृत्त 'Males' जिसमें 'Brothers', और 'Sisters' अलग वृत्त
+(C) तीनों काटते हुए
+(D) 'Brothers' अंदर 'Males', 'Sisters' अंदर 'Males', दोनों आपस में न काटते हों
+
+**Answer:** (B) एक बड़ा वृत्त 'Males' जिसमें 'Brothers', और 'Sisters' अलग वृत्त
+**Solution:** All brothers are males. Sisters are females, so not part of Males. So Brothers ⊆ Males, Sisters separate. Option (D) wrongly puts sisters inside males.
+**Source:** SSC CHSL 2021
+
+---
+
+**25.** **[मध्यम]** *कथन: सभी खिड़कियाँ दरवाज़े हैं। कोई दरवाज़ा दीवार नहीं है। कुछ दीवारें छत हैं।*
+*निष्कर्ष: I. कुछ खिड़कियाँ छत हैं। II. कोई खिड़की दीवार नहीं है।*
+Statements: All windows are doors. No door is a wall. Some walls are roofs.
+Conclusions: I. Some windows are roofs. II. No window is a wall.
+(A) केवल I अनुसरण करता है
+(B) केवल II अनुसरण करता है
+(C) दोनों अनुसरण करते हैं
+(D) कोई भी अनुसरण नहीं करता
+
+**Answer:** (B) केवल II अनुसरण करता है
+**Solution:** Windows ⊆ Doors, Doors ∩ Walls = ∅ → Windows ∩ Walls = ∅. II true. Walls and Roofs overlap partially. Windows inside Doors, disjoint from Walls, so may not intersect Roofs. I not definite.
+**Source:** IBPS Clerk 2022
