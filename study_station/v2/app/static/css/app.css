@@ -332,6 +332,17 @@ legend { font-weight: 700; margin-bottom: var(--sp-3); }
 .spark i { position: absolute; top: -18px; left: 0; right: 0; text-align: center; font-style: normal; font-size: var(--fs-2xs); color: var(--text-2); }
 @keyframes rise { from { transform: scaleY(0); } }
 
+/* ---------------------------------------------------------------- result insights */
+.insights { background: var(--md-primary-container); color: var(--md-on-primary-container); }
+.insights h2 { display: flex; align-items: center; gap: var(--sp-2); color: inherit; }
+.ins-list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--sp-2); }
+.ins { position: relative; padding: var(--sp-3) var(--sp-3) var(--sp-3) calc(var(--sp-3) + 6px); border-radius: var(--r-md);
+  background: var(--surface-raised); color: var(--text); font-size: var(--fs-sm); line-height: 1.6; }
+.ins::before { content: ""; position: absolute; left: 0; top: var(--sp-2); bottom: var(--sp-2); width: 4px; border-radius: 4px; background: var(--brand); }
+.ins-ins_negative::before, .ins-ins_guess::before, .ins-ins_slow::before { background: var(--bad); }
+.ins-ins_strong::before { background: var(--ok); }
+.ins-ins_time_left::before { background: var(--accent); }
+
 /* ---------------------------------------------------------------- player */
 .player { padding-bottom: 96px; }
 .player-head { position: sticky; top: var(--header-h); z-index: 10; background: var(--bg); padding: var(--sp-3) 0; }

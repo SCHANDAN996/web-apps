@@ -275,11 +275,49 @@ def result_payload(db: Session, a: Attempt):
                        'time_ms': ans.time_ms if ans else 0})
     attempted = sum(s['correct'] + s['wrong'] for s in by_section.values())
     correct = sum(s['correct'] for s in by_section.values())
+    for sec in by_section.values():
+        done = sec['correct'] + sec['wrong']
+        sec['accuracy'] = round(100 * sec['correct'] / done) if done else None
+        sec['avg_sec'] = round(sec['time_ms'] / 1000 / done) if done else None
     return {'id': a.id, 'mode': a.mode, 'title': a.title, 'score': a.score, 'max_score': a.max_score,
+            'insights': mock_insights(a, by_section, review),
             'finished': a.finished_at is not None,
             'accuracy': round(100 * correct / attempted) if attempted else None,
             'attempted': attempted, 'total': len(a.question_ids),
             'sections': dict(by_section), 'review': review}
+
+
+def mock_insights(a: Attempt, by_section, review):
+    """Plain-language advice for the next mock: (i18n key, params) pairs, most useful first."""
+    if a.mode != 'mock' or not a.exam:
+        return []
+    out = []
+    neg = {sec.subject.slug: sec.negative_per_q for sec in a.exam.sections}
+    lost = sum(s['wrong'] * neg.get(slug, 0) for slug, s in by_section.items())
+    if lost >= 1:
+        out.append(('ins_negative', {'lost': f'{lost:g}'}))
+    rated = [(slug, s) for slug, s in by_section.items() if s['correct'] + s['wrong'] >= 3]
+    if len(rated) >= 2:
+        weak = min(rated, key=lambda x: x[1]['accuracy'])
+        strong = max(rated, key=lambda x: x[1]['accuracy'])
+        if strong[1]['accuracy'] - weak[1]['accuracy'] >= 10:
+            out.append(('ins_weak', {'slug': weak[0], 'acc': weak[1]['accuracy']}))
+            out.append(('ins_strong', {'slug': strong[0], 'acc': strong[1]['accuracy']}))
+    times = sorted(r['time_ms'] for r in review if r['status'] != 'skipped' and r['time_ms'])
+    if times:
+        median = times[len(times) // 2]
+        slow = sum(1 for r in review if r['status'] == 'wrong' and r['time_ms'] > max(1.5 * median, 30000))
+        if slow >= 2:
+            out.append(('ins_slow', {'n': slow}))
+    guess = sum(1 for r in review if r['status'] == 'wrong' and 0 < r['time_ms'] < 8000)
+    if guess >= 3:
+        out.append(('ins_guess', {'n': guess}))
+    skipped = sum(s['skipped'] for s in by_section.values())
+    if a.duration_sec and a.finished_at and skipped:
+        left = a.duration_sec - (a.finished_at - a.started_at).total_seconds()
+        if left >= 120:
+            out.append(('ins_time_left', {'min': int(left // 60), 'n': skipped}))
+    return out
 
 
 # ---------------------------------------------------------------- revision

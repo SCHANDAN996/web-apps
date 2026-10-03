@@ -221,3 +221,20 @@ def test_stats_today_count_and_week_strip(client, db):
     assert st['today_answered'] == 1
     assert len(st['week']) == 7 and st['week'][-1]['active'] is True
     assert [d['active'] for d in st['week'][:-1]] == [False] * 6
+
+
+def test_mock_result_gives_advice(client, db):
+    from app.models import Attempt, AttemptAnswer, Question
+    from datetime import datetime, timedelta
+    onboard(client)
+    m = client.post('/api/v1/mock', json={'exam': 'ssc-gd'}).json()
+    qs = m['questions']
+    for q in qs[:12]:                                   # 12 quick wrong answers → negative marks + rushing
+        key = db.get(Question, q['id']).answer_index
+        client.post(f"/api/v1/attempts/{m['id']}/answer", json={'question_id': q['id'], 'chosen_index': (key + 1) % 4, 'time_ms': 3000})
+    client.post(f"/api/v1/attempts/{m['id']}/finish", json={})
+    r = client.get(f"/api/v1/attempts/{m['id']}/result").json()
+    keys = [k for k, _ in r['insights']]
+    assert 'ins_negative' in keys and 'ins_guess' in keys and 'ins_time_left' in keys
+    page = client.get(f"/result/{m['id']}").text
+    assert 'class="card insights' in page and ('अंक कटे' in page or 'cost you' in page)
