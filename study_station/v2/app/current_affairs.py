@@ -39,6 +39,13 @@ SOURCES = [
 PIB_FEEDS = [u for n, u, _ in SOURCES if n == 'pib']
 CATEGORIES = ['polity', 'economy', 'schemes', 'defence', 'science', 'environment', 'sports', 'awards',
               'international', 'appointments', 'days', 'states', 'national']
+CATEGORY_NAMES = {
+    'polity': ('राजव्यवस्था', 'Polity'), 'economy': ('अर्थव्यवस्था', 'Economy'), 'schemes': ('योजनाएँ', 'Schemes'),
+    'defence': ('रक्षा', 'Defence'), 'science': ('विज्ञान', 'Science'), 'environment': ('पर्यावरण', 'Environment'),
+    'sports': ('खेल', 'Sports'), 'awards': ('पुरस्कार', 'Awards'), 'international': ('अंतरराष्ट्रीय', 'International'),
+    'appointments': ('नियुक्तियाँ', 'Appointments'), 'days': ('महत्वपूर्ण दिवस', 'Important days'),
+    'states': ('राज्य', 'States'), 'national': ('राष्ट्रीय', 'National'),
+}
 CA_TOPIC = ('ga', 'current-affairs')
 
 MONTHS = {m: i for i, m in enumerate(['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'], 1)}

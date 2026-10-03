@@ -19,12 +19,17 @@ pytest                                   # tests
 
 ## Production
 
-```bash
-DATABASE_URL=sqlite:////var/lib/studystation/studystation.db \
-SITE_URL=https://studystation.in \
-uvicorn app.main:app --host 127.0.0.1 --port 8001 --workers 2 --proxy-headers
-```
-nginx के पीछे चलाएँ (HTTPS)। `DATABASE_URL` बदलकर PostgreSQL भी चलेगा।
+पूरी गाइड और deploy के बाद का test checklist: **[DEPLOY.md](DEPLOY.md)** (`deploy/` में systemd, nginx, cron, backup, setup)।
+
+## बाकी features
+
+| Feature | कहाँ | चलाना |
+|---|---|---|
+| Admin panel (सवाल review, reports, pending jobs, sources) | `/admin` | `.env` में `SECRET_KEY` + `ADMIN_PASSWORD` |
+| दूसरे फ़ोन पर progress (recovery code) | सेटिंग्स | — |
+| AI tutor ("आसान भाषा में समझें") | अभ्यास/परिणाम/दोहराई | `ANTHROPIC_API_KEY` |
+| नए सवाल बनाना (दोबारा जाँच के साथ) | `app/generate.py` | `python -m app.generate --fill --min 60` |
+| करंट अफेयर्स (AIR + PIB) + हफ़्ते/महीने का क्विज़ | `/current-affairs` | `python -m app.current_affairs run` |
 
 ## Content की हालत (import के बाद)
 

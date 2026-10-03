@@ -488,7 +488,7 @@ def page_current_affairs(request: Request, category: str | None = None, device: 
                 Question.topic_id == topic.id, services.USABLE,
                 Question.created_at >= datetime.utcnow() - timedelta(days=n)))
     return render('current_affairs.html', request, device, days=days, category=category,
-                  categories=ca.CATEGORIES, topic=topic, q_counts=q_counts)
+                  categories=ca.CATEGORIES, cat_names=ca.CATEGORY_NAMES, topic=topic, q_counts=q_counts)
 
 
 @app.get('/jobs', response_class=HTMLResponse)
@@ -512,6 +512,14 @@ def page_job(slug: str, request: Request, device: Device | None = Depends(curren
     if job is None:
         raise HTTPException(404)
     return render('job.html', request, device, job=job, today=services.today_ist())
+
+
+@app.get('/healthz')
+def healthz(db: Session = Depends(get_db)):
+    """For uptime monitors / load balancers: app is up and the database answers."""
+    from sqlalchemy import text
+    db.execute(text('SELECT 1'))
+    return {'ok': True}
 
 
 @app.get('/sw.js')

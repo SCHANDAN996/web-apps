@@ -12,7 +12,7 @@
 {% endif %}
 <nav class="chips" style="margin:var(--sp-3) 0 var(--sp-4)">
   <a class="chip" href="/current-affairs" {% if not category %}aria-current="true"{% endif %}>{{ tr('all') }}</a>
-  {% for c in categories %}<a class="chip" href="?category={{ c }}" {% if category == c %}aria-current="true"{% endif %}>{{ c|capitalize }}</a>{% endfor %}
+  {% for c in categories %}<a class="chip" href="?category={{ c }}" {% if category == c %}aria-current="true"{% endif %}>{{ L(*cat_names[c]) }}</a>{% endfor %}
 </nav>
 {% for day, items in days %}
 <section style="margin-bottom:var(--sp-5)">
@@ -20,10 +20,10 @@
   <div class="stack">
   {% for it in items %}
     <article class="card">
-      <div class="row-between"><span class="badge badge-brand">{{ it.category }}</span>{% if it.relevance >= 4 %}<span class="badge badge-warn">★ {{ it.relevance }}</span>{% endif %}</div>
+      <div class="row-between"><span class="badge badge-brand">{{ L(*cat_names.get(it.category, (it.category, it.category))) }}</span>{% if it.relevance >= 4 %}<span class="badge badge-warn">★ {{ it.relevance }}</span>{% endif %}</div>
       <h3 style="margin:var(--sp-2) 0 4px">{{ L(it.title_hi, it.title_en) or it.title_hi or it.title_en }}</h3>
       {% set summ = L(it.summary_hi, it.summary_en) or it.summary_hi or it.summary_en %}
-      {% if summ %}<p class="small" style="margin:0">{{ summ }}</p>{% else %}<p class="xs muted" style="margin:0">{{ tr('ca_headline_only') }}</p>{% endif %}
+      {% if summ %}<p class="small" style="margin:0">{{ summ }}</p>{% elif ai_enabled %}<p class="xs muted" style="margin:0">{{ tr('ca_headline_only') }}</p>{% endif %}
       <p class="xs" style="margin:6px 0 0"><a href="{{ it.source_url }}" target="_blank" rel="noopener nofollow">{{ L('स्रोत: ', 'Source: ') }}{{ it.source|upper }}{% if it.ministry %} · {{ it.ministry }}{% endif %}</a></p>
     </article>
   {% endfor %}
