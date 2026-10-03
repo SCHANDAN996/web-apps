@@ -1,3 +1,10 @@
+// AI replies and error text are untrusted — always escape before inserting.
+function escapeChatHtml(value) {
+    return String(value == null ? '' : value)
+        .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+
 function sendChatMessage(chapterId) {
     const input = document.getElementById('chatInput');
     const text = input.value.trim();
@@ -9,7 +16,7 @@ function sendChatMessage(chapterId) {
     chatHistory.innerHTML += `
         <div class="chat-msg user-msg">
             <div class="msg-bubble user-bubble">
-                ${text.replace(/</g, "&lt;").replace(/>/g, "&gt;")}
+                ${escapeChatHtml(text)}
             </div>
             <div class="msg-avatar user-avatar">👤</div>
         </div>
@@ -44,7 +51,7 @@ function sendChatMessage(chapterId) {
                 <div class="chat-msg">
                     <div class="msg-avatar ai-avatar">🤖</div>
                     <div class="msg-bubble ai-bubble">
-                        ${data.reply.replace(/\n/g, '<br>')}
+                        ${escapeChatHtml(data.reply).replace(/\n/g, '<br>')}
                     </div>
                 </div>
             `;
@@ -53,7 +60,7 @@ function sendChatMessage(chapterId) {
                 <div class="chat-msg">
                     <div class="msg-avatar" style="background: #ef4444; color: white;">❌</div>
                     <div class="msg-bubble" style="background: rgba(239, 68, 68, 0.1); border: 1px solid rgba(239, 68, 68, 0.3);">
-                        Oops! ${data.error || 'Network error. Try again!'}
+                        Oops! ${escapeChatHtml(data.error || 'Network error. Try again!')}
                     </div>
                 </div>
             `;

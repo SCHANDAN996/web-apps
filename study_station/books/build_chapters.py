@@ -1010,7 +1010,7 @@ def generate_seo_page(lang, num, slug, name_hi, name_en, subject_label, level_la
 <link rel="stylesheet" href="{root}css/style.css">
 <link rel="stylesheet" href="{root}css/components.css">
 <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
-<script>mermaid.initialize({{startOnLoad:true,theme:'dark',securityLevel:'loose'}});</script>
+<script>mermaid.initialize({{startOnLoad:true,theme:'dark',securityLevel:'strict'}});</script>
 <style>
 .seo-wrap{{max-width:820px;margin:0 auto;padding:5.5rem 1rem 4rem}}
 .seo-section{{margin:2.5rem 0}}
