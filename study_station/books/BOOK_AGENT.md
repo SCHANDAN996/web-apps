@@ -60,6 +60,9 @@ It prints `NEXT: <chapter folder>`, `MODE: write|fix`, and the list of `todo` / 
    - Maths/Reasoning/English: a chapter of the same book that `bookcheck` reports `OK`; if none,
      use the GK GOLD for layout and the subject's own prompts for content.
 4. In **fix** mode: every finished section of the chapter first — keep what is good.
+5. **Half-done chapters** (commits named `WIP:`): earlier runs stopped in the middle. Sections already in the
+   chapter folder are a starting point, **not** checked work — review each of them with Step 5B before you
+   build on it, then write only what is missing.
 
 ### Step 3 — Write (where, what, in which order)
 **Where:** every finished section is one `.txt` file in the **chapter folder itself**
