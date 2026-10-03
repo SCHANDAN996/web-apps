@@ -108,3 +108,16 @@ def test_with_ai_triage_summary_and_checked_questions(clean, client, db, monkeyp
     att = client.post('/api/v1/practice', json={'topic_id': topic.id, 'count': 20, 'since_days': 7}).json()
     assert len(att['questions']) == 3
     assert 'इस हफ़्ते का क्विज़' in client.get('/current-affairs').text
+
+
+def test_hide_item_and_its_questions(clean, monkeypatch):
+    monkeypatch.setattr(config, 'ANTHROPIC_API_KEY', '')
+    ca.run(clean, http=Fake())
+    item = clean.query(CAItem).first()
+    q = Question(topic_id=ca.ca_topic(clean).id, level='10th', answer_index=0, text_en='Q?',
+                 options_en=['a', 'b', 'c', 'd'], ca_item_id=item.id, import_key='ca-test-hide')
+    clean.add(q)
+    clean.commit()
+    assert ca.hide(clean, [item.id], 'summary wrong') == {'hidden': 1, 'questions_flagged': 1}
+    clean.expire_all()
+    assert clean.get(CAItem, item.id).status == 'hidden' and clean.get(Question, q.id).review_status == 'flagged'

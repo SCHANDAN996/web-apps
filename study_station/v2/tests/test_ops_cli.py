@@ -15,7 +15,9 @@ def test_observe_reports_and_alerts(db):
 
 
 def test_review_list_and_apply(db, client, tmp_path, capsys):
-    q = db.query(Question).filter(Question.review_status == 'unreviewed').first()
+    from conftest import make_questions
+    make_questions(db, 'ga', 'economy', 1, tag=__name__)
+    q = db.query(Question).filter(Question.import_key == f'economy-0-{__name__}').one()
     client.post('/api/v1/me', json={'level': '10th'})
     client.post(f'/api/v1/questions/{q.id}/report', json={'reason': 'wrong_answer', 'note': 'key'})
     items = review.list_queue(db, 'reported')

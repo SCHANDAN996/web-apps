@@ -281,12 +281,37 @@ def main(argv=None):
     r = sub.add_parser('run')
     r.add_argument('--max', type=int, default=15, help='releases to summarise per run (cost guard)')
     r.add_argument('--min-relevance', type=int, default=3)
+    h = sub.add_parser('hide', help='hide items (and flag their questions)')
+    h.add_argument('ids', type=int, nargs='+')
+    h.add_argument('--reason', default='hidden by reviewer')
+    sub.add_parser('list', help='latest items as JSON')
     args = p.parse_args(argv)
     logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
     ensure_schema(engine)
     with SessionLocal() as db:
-        print(run(db, max_items=args.max, min_relevance=args.min_relevance))
+        if args.cmd == 'run':
+            print(run(db, max_items=args.max, min_relevance=args.min_relevance))
+        elif args.cmd == 'hide':
+            print(hide(db, args.ids, args.reason))
+        else:
+            import json
+            rows = db.scalars(select(CAItem).order_by(CAItem.id.desc()).limit(40))
+            print(json.dumps([{'id': r.id, 'day': str(r.day), 'status': r.status, 'source': r.source,
+                               'title': r.title_hi or r.title_en, 'summary_en': r.summary_en,
+                               'url': r.source_url} for r in rows], ensure_ascii=False, indent=1))
     return 0
+
+
+def hide(db: Session, ids, reason='hidden by reviewer'):
+    n_items = n_q = 0
+    for item in db.scalars(select(CAItem).where(CAItem.id.in_(ids))):
+        item.status = 'hidden'
+        n_items += 1
+        for q in db.scalars(select(Question).where(Question.ca_item_id == item.id)):
+            q.review_status, q.review_note = 'flagged', reason[:200]
+            n_q += 1
+    db.commit()
+    return {'hidden': n_items, 'questions_flagged': n_q}
 
 
 if __name__ == '__main__':

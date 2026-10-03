@@ -1,7 +1,7 @@
 from datetime import date, datetime, timedelta
 
 from app import services
-from app.models import Attempt, Device, Job, ReviewCard
+from app.models import Question, Attempt, Device, Job, ReviewCard
 from conftest import topic_id
 
 
@@ -29,8 +29,10 @@ def test_practice_reveals_after_answer_and_logs_mistake(client, db):
     assert len(a['questions']) == 5
     q = a['questions'][0]
     assert 'answer_index' not in q['state']            # never leaked before answering
-    r = client.post(f"/api/v1/attempts/{a['id']}/answer", json={'question_id': q['id'], 'chosen_index': 0}).json()
-    assert r['correct'] is False and r['answer_index'] == 1
+    key = db.get(Question, q['id']).answer_index
+    wrong = (key + 1) % 4
+    r = client.post(f"/api/v1/attempts/{a['id']}/answer", json={'question_id': q['id'], 'chosen_index': wrong}).json()
+    assert r['correct'] is False and r['answer_index'] == key
     # answering again is refused
     again = client.post(f"/api/v1/attempts/{a['id']}/answer", json={'question_id': q['id'], 'chosen_index': 1})
     assert again.status_code == 409
@@ -53,9 +55,10 @@ def test_mock_hides_answers_and_applies_negative_marking(client, db):
     assert len(a['questions']) == 80 and a['duration_sec'] == 3600
     assert [s['subject'] for s in a['sections']] == ['reasoning', 'ga', 'quant', 'english']
     qs = a['questions']
-    r = client.post(f"/api/v1/attempts/{a['id']}/answer", json={'question_id': qs[0]['id'], 'chosen_index': 1})
+    k0, k1 = db.get(Question, qs[0]['id']).answer_index, db.get(Question, qs[1]['id']).answer_index
+    r = client.post(f"/api/v1/attempts/{a['id']}/answer", json={'question_id': qs[0]['id'], 'chosen_index': k0})
     assert r.json() == {'saved': True}                  # no reveal during a mock
-    client.post(f"/api/v1/attempts/{a['id']}/answer", json={'question_id': qs[1]['id'], 'chosen_index': 2})
+    client.post(f"/api/v1/attempts/{a['id']}/answer", json={'question_id': qs[1]['id'], 'chosen_index': (k1 + 1) % 4})
     client.post(f"/api/v1/attempts/{a['id']}/answer", json={'question_id': qs[2]['id'], 'chosen_index': None, 'marked': True})
     res = client.post(f"/api/v1/attempts/{a['id']}/finish", json={}).json()
     assert res['score'] == 2 - 0.25 and res['max_score'] == 160

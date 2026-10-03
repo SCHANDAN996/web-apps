@@ -60,7 +60,8 @@ aggregator पर दिखीं — इनका official link ढूँढन
 
 ## चरण 3 — Research (⚡ समानांतर / parallel)
 
-अगर आपका AI sub-agents / parallel tasks चला सकता है, तो नीचे की **6 lanes एक साथ** चलाएँ।
+अगर आपका AI sub-agents / parallel tasks चला सकता है, तो नीचे की **6 lanes एक साथ** चलाएँ
+(Claude Code में: हर lane के लिए `ss-jobs-researcher` agent — देखें `AGENTS.md`)।
 नहीं चला सकता तो एक-एक करके। **Lanes सिर्फ़ research करें — DB में कुछ न लिखें**
 (SQLite एक समय में एक ही writer संभालता है; लिखने का काम चरण 4 में मुख्य agent करेगा)।
 

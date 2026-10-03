@@ -2,6 +2,7 @@
 
 सरकारी परीक्षा (SSC, Railway, Bank) की तैयारी — हिंदी और English में।
 क्यों और क्या बनाया, यह [BLUEPRINT.md](BLUEPRINT.md) में है।
+काम करने वाले AI agents (developer, observer, QA, jobs, content…) और slash commands: [AGENTS.md](AGENTS.md)।
 
 ## चलाएँ (local)
 
