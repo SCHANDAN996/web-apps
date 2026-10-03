@@ -99,6 +99,8 @@ class Device(Base):
     lang: Mapped[str] = mapped_column(String(2), default='hi')
     level: Mapped[str | None] = mapped_column(String(20))
     target_exams: Mapped[list] = mapped_column(JSON, default=list)
+    # sha256 of the learner's recovery code (the code itself is shown once, never stored)
+    recovery_hash: Mapped[str | None] = mapped_column(String(64), index=True)
     created_at: Mapped[datetime] = mapped_column(DateTime, default=now)
     last_seen: Mapped[datetime] = mapped_column(DateTime, default=now)
 

@@ -36,4 +36,22 @@
   <button class="btn btn-primary btn-block" type="submit">{{ tr('save') if settings_mode else tr('onb_save') }}</button>
   <p class="xs muted" style="text-align:center">{{ tr('onb_hint') }}</p>
 </form>
+
+<section class="card stack enter" id="sync" style="margin-top:var(--sp-4)">
+  <h2>{{ tr('sync_title') }}</h2>
+  <p class="small muted">{{ tr('sync_desc') }}</p>
+  {% if device %}
+  <div>
+    <button class="btn btn-secondary" id="syncMake" type="button">{{ tr('sync_make') }}</button>
+    <p id="syncCode" class="q-text" style="margin:var(--sp-3) 0 0;letter-spacing:.08em" hidden></p>
+    <p id="syncWarn" class="xs muted" hidden>{{ tr('sync_warn') }}</p>
+  </div>
+  {% endif %}
+  <form id="syncRestore" class="row">
+    <input class="in" name="code" required minlength="12" maxlength="24" autocomplete="off" autocapitalize="characters"
+           placeholder="SS-XXXX-XXXX-XXXX" aria-label="{{ tr('sync_enter') }}"
+           style="flex:1;min-height:var(--tap);padding:0 12px;border-radius:var(--r-md);border:1px solid var(--border);background:var(--surface)">
+    <button class="btn btn-primary" type="submit">{{ tr('sync_restore') }}</button>
+  </form>
+</section>
 {% endblock %}

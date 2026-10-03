@@ -156,6 +156,26 @@
     if (lv) lv.dispatchEvent(new Event('change', { bubbles: true }));
   }
 
+  var syncMake = document.getElementById('syncMake');
+  if (syncMake) syncMake.addEventListener('click', function () {
+    busy(syncMake, true);
+    SS.api('POST', '/api/v1/sync/code').then(function (r) {
+      var el = document.getElementById('syncCode');
+      el.textContent = r.code; el.hidden = false;
+      document.getElementById('syncWarn').hidden = false;
+      busy(syncMake, false);
+    }).catch(function (e) { busy(syncMake, false); SS.toast(e.message); });
+  });
+  var syncRestore = document.getElementById('syncRestore');
+  if (syncRestore) syncRestore.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var btn = syncRestore.querySelector('[type=submit]');
+    busy(btn, true);
+    SS.api('POST', '/api/v1/sync/restore', { code: new FormData(syncRestore).get('code') })
+      .then(function () { location.href = '/'; })
+      .catch(function (err) { busy(btn, false); SS.toast(err.status === 404 ? SS.t.sync_bad : err.message); });
+  });
+
   var practiceForm = document.getElementById('practiceForm');
   if (practiceForm) practiceForm.addEventListener('submit', function (e) {
     e.preventDefault();

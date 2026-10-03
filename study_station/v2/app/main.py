@@ -150,6 +150,10 @@ class ReviseIn(BaseModel):
     chosen_index: int = Field(ge=0, le=3)
 
 
+class RestoreIn(BaseModel):
+    code: str = Field(min_length=12, max_length=24)
+
+
 class ReportIn(BaseModel):
     reason: Literal['wrong_answer', 'wrong_solution', 'typo', 'unclear', 'translation', 'other']
     note: str = Field(default='', max_length=500)
@@ -209,6 +213,27 @@ def api_me_update(body: MeIn, response: Response, device: Device = Depends(ensur
     db.add(device)
     db.commit()
     return {'ok': True, 'lang': device.lang, 'level': device.level, 'target_exams': device.target_exams}
+
+
+@app.post('/api/v1/sync/code')
+def api_sync_code(request: Request, device: Device = Depends(ensure_device), db: Session = Depends(get_db)):
+    limit(request, 'sync_code', 10, 3600)
+    from . import sync
+    return {'code': sync.new_code(db, device)}
+
+
+@app.post('/api/v1/sync/restore')
+def api_sync_restore(body: RestoreIn, request: Request, response: Response,
+                     device: Device | None = Depends(current_device), db: Session = Depends(get_db)):
+    limit(request, 'sync_restore', 10, 3600)
+    from . import sync
+    try:
+        owner = sync.restore(db, device, body.code)
+    except (ValueError, LookupError):
+        raise HTTPException(404, 'code_not_found')
+    set_device_cookie(response, owner.token)
+    response.set_cookie('ss_lang', owner.lang, max_age=2 * 365 * 24 * 3600, samesite='lax', secure=COOKIE_SECURE)
+    return {'ok': True, 'level': owner.level}
 
 
 @app.post('/api/v1/practice')
