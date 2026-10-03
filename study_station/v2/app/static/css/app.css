@@ -114,6 +114,7 @@ a { color: var(--brand); text-underline-offset: 3px; }
 img, svg { display: block; }
 button, input, select { font: inherit; color: inherit; }
 :focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: var(--r-sm); }
+[hidden] { display: none !important; }   /* the hidden attribute must win over .row / .card display rules */
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .icon { width: 22px; height: 22px; flex: none; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 .icon-sm { width: 18px; height: 18px; }

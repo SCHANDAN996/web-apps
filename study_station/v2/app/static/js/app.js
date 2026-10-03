@@ -368,6 +368,29 @@
     paintBtns();
   }
 
+  // Install prompt (Android Chrome): show our own card instead of the browser mini-bar.
+  var installCard = document.getElementById('installCard'), deferredInstall = null;
+  window.addEventListener('beforeinstallprompt', function (e) {
+    e.preventDefault();
+    deferredInstall = e;
+    try { if (localStorage.getItem('ss_install_dismissed')) return; } catch (err) {}
+    if (installCard) installCard.hidden = false;
+  });
+  var installBtn = document.getElementById('installBtn');
+  if (installBtn) installBtn.addEventListener('click', function () {
+    if (!deferredInstall) return;
+    deferredInstall.prompt();
+    deferredInstall.userChoice.then(function (c) {
+      if (c.outcome !== 'accepted') { try { localStorage.setItem('ss_install_dismissed', '1'); } catch (err) {} }
+      installCard.hidden = true; deferredInstall = null;
+    });
+  });
+  window.addEventListener('appinstalled', function () { if (installCard) installCard.hidden = true; });
+
+  // Connection state as a snackbar.
+  window.addEventListener('offline', function () { SS.toast(SS.t.offline_now || 'Offline'); });
+  window.addEventListener('online', function () { SS.toast(SS.t.online_again || 'Online'); });
+
   // ---------------------------------------------------------------- Material 3 feel
   // Ripple on press (transform/opacity only; skipped when the user prefers reduced motion).
   var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;

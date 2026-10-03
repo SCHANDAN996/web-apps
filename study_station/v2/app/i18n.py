@@ -41,6 +41,11 @@ STRINGS = {
     'topic_search_none': ('कोई टॉपिक नहीं मिला। दूसरा शब्द आज़माएँ।', 'No topic found. Try another word.'),
     'subjects': ('विषय', 'Subjects'),
     'theme': ('रंग-रूप', 'Appearance'),
+    'install_title': ('ऐप की तरह इंस्टॉल करें', 'Install as an app'),
+    'install_desc': ('होम स्क्रीन से एक टैप में खुलेगा, कम डेटा में चलेगा', 'Opens from your home screen, works on low data'),
+    'install_btn': ('इंस्टॉल', 'Install'),
+    'offline_now': ('इंटरनेट नहीं है — पढ़े हुए पन्ने खुलते रहेंगे', 'You are offline — pages you opened still work'),
+    'online_again': ('इंटरनेट वापस आ गया', 'Back online'),
     'theme_system': ('फ़ोन जैसा', 'System'),
     'theme_light': ('लाइट', 'Light'),
     'theme_dark': ('डार्क', 'Dark'),
@@ -69,6 +74,11 @@ STRINGS = {
     'start': ('शुरू करें', 'Start'),
     'subjects': ('विषय', 'Subjects'),
     'theme': ('रंग-रूप', 'Appearance'),
+    'install_title': ('ऐप की तरह इंस्टॉल करें', 'Install as an app'),
+    'install_desc': ('होम स्क्रीन से एक टैप में खुलेगा, कम डेटा में चलेगा', 'Opens from your home screen, works on low data'),
+    'install_btn': ('इंस्टॉल', 'Install'),
+    'offline_now': ('इंटरनेट नहीं है — पढ़े हुए पन्ने खुलते रहेंगे', 'You are offline — pages you opened still work'),
+    'online_again': ('इंटरनेट वापस आ गया', 'Back online'),
     'theme_system': ('फ़ोन जैसा', 'System'),
     'theme_light': ('लाइट', 'Light'),
     'theme_dark': ('डार्क', 'Dark'),
@@ -300,7 +310,7 @@ def client_strings(lang):
             'ai_explain', 'ai_busy', 'ai_unavailable', 'ai_limit', 'ai_key_doubt', 'ai_note',
             'easy', 'medium', 'hard', 'marks', 'section', 'cancel', 'close', 'total', 'st_answered',
             'st_unanswered', 'st_marked', 'st_marked_answered', 'st_notvisited', 'submit_note',
-            'revise_next', 'revise_next_1', 'revise_none', 'go_practice']
+            'revise_next', 'revise_next_1', 'revise_none', 'go_practice', 'offline_now', 'online_again']
     out = {k: t(k, lang) for k in keys}
     out['errors'] = {k: (v[0] if lang == 'hi' else v[1]) for k, v in ERRORS.items()}
     return out

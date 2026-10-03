@@ -24,6 +24,12 @@
     </div>
   </section>
 
+  <div class="install card row" id="installCard" hidden>
+    <svg class="icon" style="color:var(--brand)"><use href="#i-download"/></svg>
+    <span class="grow"><b>{{ tr('install_title') }}</b><span class="xs muted block">{{ tr('install_desc') }}</span></span>
+    <button class="btn btn-primary btn-sm" type="button" id="installBtn">{{ tr('install_btn') }}</button>
+  </div>
+
   <section class="card plan enter" aria-labelledby="plan-h">
     <h2 id="plan-h">{{ tr('plan_title') }}</h2>
     <ul class="list">
