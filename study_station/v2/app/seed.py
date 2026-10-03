@@ -13,7 +13,7 @@ from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from . import catalog
-from .db import Base, SessionLocal, engine
+from .db import Base, SessionLocal, engine, ensure_schema
 from .importers import (discover_practice_files, is_translation_pair, parse_jobs_js,
                         parse_mcq_text, quality_problem)
 from .models import Exam, ExamSection, Job, Question, Subject, Topic
@@ -161,7 +161,7 @@ def seed_jobs(db: Session, jobs_js=PROJECT_DIR / 'website' / 'js' / 'jobs_data.j
             vacancies=r.get('vacancies'), eligibility=r.get('eligibility'),
             min_qualification=guess_qualification(r.get('eligibility')),
             last_date=parse_indian_date(r.get('deadline')), last_date_text=r.get('deadline'),
-            official_url=official, source='jobs_data.js import',
+            official_url=official, source='jobs_data.js import', status='legacy',
             verified_at=None, created_at=datetime.utcnow(),
         ))
         existing.add(slug)
@@ -171,7 +171,7 @@ def seed_jobs(db: Session, jobs_js=PROJECT_DIR / 'website' / 'js' / 'jobs_data.j
 
 
 def main():
-    Base.metadata.create_all(engine)
+    ensure_schema(engine)
     with SessionLocal() as db:
         seed_catalog(db)
         print('questions:', seed_questions(db))

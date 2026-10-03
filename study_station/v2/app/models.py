@@ -159,19 +159,71 @@ class QuestionReport(Base):
 
 # ---------------------------------------------------------------- jobs
 class Job(Base):
+    """One recruitment (or exam update) — merged from every source that mentioned it.
+
+    Facts shown to students (dates, posts, age) come only from the official
+    notice; aggregators only tell us where to look.
+    """
     __tablename__ = 'job'
     id: Mapped[int] = mapped_column(primary_key=True)
     slug: Mapped[str] = mapped_column(String(160), unique=True)
+    dedupe_key: Mapped[str | None] = mapped_column(String(200), index=True)
     title: Mapped[str] = mapped_column(String(300))
     org: Mapped[str | None] = mapped_column(String(200))
-    category: Mapped[str] = mapped_column(String(20), default='govt')   # ssc/railway/banking/govt
-    job_type: Mapped[str] = mapped_column(String(20), default='latest')  # latest/admit/results/answer
+    category: Mapped[str] = mapped_column(String(20), default='govt')   # ssc/railway/banking/psc/defence/psu/govt
+    job_type: Mapped[str] = mapped_column(String(20), default='latest')  # latest/admit/results/answer/notice
+    # verified = facts read from an official notice on an official domain
+    # pending  = only an aggregator mentioned it so far (hidden from students)
+    # legacy   = imported from the old site, not re-checked
+    status: Mapped[str] = mapped_column(String(10), default='pending', index=True)
     min_qualification: Mapped[str | None] = mapped_column(String(20))   # 10th/12th/graduate
+    advt_no: Mapped[str | None] = mapped_column(String(120))
     vacancies: Mapped[str | None] = mapped_column(String(100))
     eligibility: Mapped[str | None] = mapped_column(Text)
+    age_min: Mapped[int | None] = mapped_column(Integer)
+    age_max: Mapped[int | None] = mapped_column(Integer)
+    start_date: Mapped[date | None] = mapped_column(Date)
     last_date: Mapped[date | None] = mapped_column(Date, index=True)
     last_date_text: Mapped[str | None] = mapped_column(String(100))
-    official_url: Mapped[str | None] = mapped_column(String(500))
+    official_url: Mapped[str | None] = mapped_column(String(500))       # org website / apply page
+    notification_url: Mapped[str | None] = mapped_column(String(500))   # official PDF / notice page
     source: Mapped[str | None] = mapped_column(String(100))
     verified_at: Mapped[datetime | None] = mapped_column(DateTime)
     created_at: Mapped[datetime] = mapped_column(DateTime, default=now)
+    updated_at: Mapped[datetime | None] = mapped_column(DateTime)
+    sources: Mapped[list['JobSource']] = relationship(back_populates='job', cascade='all, delete-orphan')
+
+
+class JobSource(Base):
+    """Every place a job was seen — lets us survive any single site going down."""
+    __tablename__ = 'job_source'
+    __table_args__ = (UniqueConstraint('job_id', 'url'),)
+    id: Mapped[int] = mapped_column(primary_key=True)
+    job_id: Mapped[int] = mapped_column(ForeignKey('job.id'), index=True)
+    source: Mapped[str] = mapped_column(String(60))
+    kind: Mapped[str] = mapped_column(String(12))          # official / discovery
+    url: Mapped[str] = mapped_column(String(500))
+    title: Mapped[str] = mapped_column(String(300))
+    first_seen: Mapped[datetime] = mapped_column(DateTime, default=now)
+    job: Mapped[Job] = relationship(back_populates='sources')
+
+
+class SeenItem(Base):
+    """Items already processed, so each run only does new work."""
+    __tablename__ = 'seen_item'
+    __table_args__ = (UniqueConstraint('source', 'url'),)
+    id: Mapped[int] = mapped_column(primary_key=True)
+    source: Mapped[str] = mapped_column(String(60))
+    url: Mapped[str] = mapped_column(String(500))
+    outcome: Mapped[str] = mapped_column(String(30))       # job / skipped:<why> / error
+    first_seen: Mapped[datetime] = mapped_column(DateTime, default=now)
+
+
+class SourceHealth(Base):
+    __tablename__ = 'source_health'
+    source: Mapped[str] = mapped_column(String(60), primary_key=True)
+    last_run: Mapped[datetime | None] = mapped_column(DateTime)
+    last_ok: Mapped[datetime | None] = mapped_column(DateTime)
+    last_error: Mapped[str | None] = mapped_column(String(300))
+    last_items: Mapped[int] = mapped_column(Integer, default=0)
+    consecutive_failures: Mapped[int] = mapped_column(Integer, default=0)

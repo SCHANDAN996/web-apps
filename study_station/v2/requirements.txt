@@ -3,6 +3,9 @@ uvicorn[standard]==0.34.0
 jinja2==3.1.5
 SQLAlchemy==2.0.36
 python-multipart==0.0.20
+# job aggregation
+httpx==0.28.1
+beautifulsoup4==4.12.3
+pypdf==5.1.0
 # tests
 pytest==8.3.4
-httpx==0.28.1

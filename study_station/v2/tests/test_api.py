@@ -128,9 +128,9 @@ def test_report_question(client, db):
 def test_jobs_filter_and_escaping(client, db):
     today = services.today_ist()
     db.add_all([
-        Job(slug='open-10th', title='<script>alert(1)</script> GD', min_qualification='10th', last_date=today + timedelta(days=3), official_url='https://ssc.gov.in'),
-        Job(slug='open-grad', title='CGL', min_qualification='graduate', last_date=today + timedelta(days=20)),
-        Job(slug='closed', title='Old', min_qualification='10th', last_date=today - timedelta(days=1)),
+        Job(slug='open-10th', status='verified', title='<script>alert(1)</script> GD', min_qualification='10th', last_date=today + timedelta(days=3), official_url='https://ssc.gov.in'),
+        Job(slug='open-grad', status='verified', title='CGL', min_qualification='graduate', last_date=today + timedelta(days=20)),
+        Job(slug='closed', status='verified', title='Old', min_qualification='10th', last_date=today - timedelta(days=1)),
     ])
     db.commit()
     slugs = [j['slug'] for j in client.get('/api/v1/jobs?qualification=10th').json()['jobs']]

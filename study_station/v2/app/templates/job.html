@@ -3,7 +3,7 @@
 {% block description %}{{ job.title }}{% if job.last_date_text %} · {{ tr('last_date') }}: {{ job.last_date_text }}{% endif %}{% endblock %}
 {% block robots %}{% if job.last_date and job.last_date < today %}<meta name="robots" content="noindex">{% endif %}{% endblock %}
 {% block head %}
-{% if job.last_date and job.last_date >= today and job.official_url %}
+{% if job.status == 'verified' and job.job_type == 'latest' and job.last_date and job.last_date >= today and job.official_url %}
 <script type="application/ld+json">{{ {
   "@context": "https://schema.org", "@type": "JobPosting", "title": job.title,
   "description": job.eligibility or job.title,
@@ -17,15 +17,33 @@
 {% block main %}
 <p class="small"><a href="/jobs">{{ tr('nav_jobs') }}</a></p>
 <h1>{{ job.title }}</h1>
-<div class="row" style="flex-wrap:wrap;margin-bottom:var(--sp-4)"><span class="badge badge-brand">{{ job.category|upper }}</span>{% include '_job_badge.html' %}</div>
+<div class="row" style="flex-wrap:wrap;margin-bottom:var(--sp-4)">
+  <span class="badge badge-brand">{{ job.category|upper }}</span>
+  <span class="badge">{{ tr('type_' ~ job.job_type) }}</span>
+  {% if job.status == 'verified' %}<span class="badge badge-ok"><svg class="icon icon-sm"><use href="#i-check"/></svg>{{ tr('verified_from') }}</span>{% endif %}
+  {% include '_job_badge.html' %}
+</div>
 <section class="card">
   <dl class="stack" style="margin:0">
     {% if job.org %}<div><dt class="xs muted">{{ L('संस्था', 'Organisation') }}</dt><dd style="margin:0">{{ job.org }}</dd></div>{% endif %}
+    {% if job.advt_no %}<div><dt class="xs muted">{{ tr('advt_no') }}</dt><dd style="margin:0">{{ job.advt_no }}</dd></div>{% endif %}
+    {% if job.start_date or job.last_date %}<div><dt class="xs muted">{{ tr('apply_window') }}</dt><dd style="margin:0;font-weight:700">
+      {% if job.start_date %}{{ job.start_date.strftime('%d-%m-%Y') }} → {% endif %}{{ job.last_date.strftime('%d-%m-%Y') if job.last_date else '—' }}</dd></div>
+    {% elif job.last_date_text %}<div><dt class="xs muted">{{ tr('last_date') }}</dt><dd style="margin:0">{{ job.last_date_text }}</dd></div>{% endif %}
     {% if job.vacancies %}<div><dt class="xs muted">{{ tr('vacancies') }}</dt><dd style="margin:0">{{ job.vacancies }}</dd></div>{% endif %}
-    {% if job.last_date_text %}<div><dt class="xs muted">{{ tr('last_date') }}</dt><dd style="margin:0">{{ job.last_date_text }}</dd></div>{% endif %}
+    {% if job.age_min or job.age_max %}<div><dt class="xs muted">{{ tr('age_limit') }}</dt><dd style="margin:0">{{ job.age_min or '—' }}–{{ job.age_max or '—' }} {{ tr('years') }}</dd></div>{% endif %}
+    {% if job.min_qualification %}<div><dt class="xs muted">{{ tr('min_qual') }}</dt><dd style="margin:0">{{ {'10th': L('10वीं पास', '10th pass'), '12th': L('12वीं पास', '12th pass'), 'graduate': L('स्नातक', 'Graduate')}[job.min_qualification] }}</dd></div>{% endif %}
     {% if job.eligibility %}<div><dt class="xs muted">{{ tr('eligibility') }}</dt><dd style="margin:0;white-space:pre-line">{{ job.eligibility }}</dd></div>{% endif %}
   </dl>
 </section>
-{% if not job.verified_at %}<div class="notice" style="margin-top:var(--sp-3)"><svg class="icon"><use href="#i-info"/></svg><span>{{ tr('not_verified') }}</span></div>{% endif %}
-{% if job.official_url %}<a class="btn btn-primary btn-block" style="margin-top:var(--sp-4)" href="{{ job.official_url }}" target="_blank" rel="noopener nofollow">{{ tr('official_link') }} <svg class="icon icon-sm"><use href="#i-external"/></svg></a>{% endif %}
+{% if job.status == 'verified' %}
+<div class="notice" style="margin-top:var(--sp-3)"><svg class="icon"><use href="#i-info"/></svg><span>{{ tr('facts_note') }}
+  {% if job.verified_at %}<span class="muted">({{ tr('checked_on') }} {{ job.verified_at.strftime('%d-%m-%Y') }}{% if job.sources|length > 1 %} · {{ job.sources|length }} {{ tr('seen_on') }}{% endif %})</span>{% endif %}</span></div>
+{% else %}
+<div class="notice" style="margin-top:var(--sp-3)"><svg class="icon"><use href="#i-info"/></svg><span>{{ tr('not_verified') }}</span></div>
+{% endif %}
+<div class="stack" style="margin-top:var(--sp-4)">
+  {% if job.notification_url %}<a class="btn btn-primary btn-block" href="{{ job.notification_url }}" target="_blank" rel="noopener nofollow">{{ tr('notification_pdf') }} <svg class="icon icon-sm"><use href="#i-external"/></svg></a>{% endif %}
+  {% if job.official_url %}<a class="btn btn-secondary btn-block" href="{{ job.official_url }}" target="_blank" rel="noopener nofollow">{{ tr('official_link') }} <svg class="icon icon-sm"><use href="#i-external"/></svg></a>{% endif %}
+</div>
 {% endblock %}

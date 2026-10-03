@@ -19,7 +19,7 @@ from sqlalchemy.orm import Session
 from . import services
 from .catalog import LEVEL_RANK, LEVELS, PATTERN_CHECKED
 from .config import COOKIE_SECURE, DEVICE_COOKIE, SITE_URL
-from .db import Base, engine, get_db
+from .db import Base, engine, ensure_schema, get_db
 from .i18n import client_strings, t
 from .models import Attempt, Device, Exam, Job, Question, QuestionReport, ReviewCard, Subject, Topic
 
@@ -28,7 +28,7 @@ APP_DIR = Path(__file__).resolve().parent
 
 @asynccontextmanager
 async def lifespan(_app):
-    Base.metadata.create_all(engine)
+    ensure_schema(engine)
     yield
 
 
@@ -298,12 +298,15 @@ def job_dict(j: Job):
     return {'slug': j.slug, 'title': j.title, 'org': j.org, 'category': j.category, 'type': j.job_type,
             'min_qualification': j.min_qualification, 'vacancies': j.vacancies, 'eligibility': j.eligibility,
             'last_date': j.last_date.isoformat() if j.last_date else None, 'last_date_text': j.last_date_text,
-            'official_url': j.official_url, 'verified_at': j.verified_at.isoformat() if j.verified_at else None}
+            'official_url': j.official_url, 'notification_url': j.notification_url, 'status': j.status,
+            'start_date': j.start_date.isoformat() if j.start_date else None, 'age_min': j.age_min, 'age_max': j.age_max,
+            'advt_no': j.advt_no, 'sources': len(j.sources),
+            'verified_at': j.verified_at.isoformat() if j.verified_at else None}
 
 
 @app.get('/api/v1/jobs')
 def api_jobs(qualification: str | None = None, category: str | None = None,
-             status: Literal['active', 'closed', 'undated'] = 'active', db: Session = Depends(get_db)):
+             status: Literal['active', 'closed', 'undated', 'updates'] = 'active', db: Session = Depends(get_db)):
     q = services.jobs_query(qualification, category, status).limit(100)
     return {'jobs': [job_dict(j) for j in db.scalars(q)]}
 
@@ -411,7 +414,7 @@ def page_progress(request: Request, device: Device | None = Depends(current_devi
 
 
 @app.get('/jobs', response_class=HTMLResponse)
-def page_jobs(request: Request, status: Literal['active', 'closed', 'undated'] = 'active',
+def page_jobs(request: Request, status: Literal['active', 'closed', 'undated', 'updates'] = 'active',
               qualification: str | None = None, category: str | None = None,
               device: Device | None = Depends(current_device), db: Session = Depends(get_db)):
     if qualification is None and device and device.level:
@@ -420,14 +423,14 @@ def page_jobs(request: Request, status: Literal['active', 'closed', 'undated'] =
         qualification = None
     jobs = list(db.scalars(services.jobs_query(qualification, category, status).limit(100)))
     counts = {s: db.scalar(select(func.count()).select_from(services.jobs_query(qualification, category, s).subquery()))
-              for s in ('active', 'closed', 'undated')}
+              for s in ('active', 'updates', 'closed', 'undated')}
     return render('jobs.html', request, device, jobs=jobs, status=status, qualification=qualification,
                   category=category, counts=counts, levels=LEVELS, today=services.today_ist())
 
 
 @app.get('/jobs/{slug}', response_class=HTMLResponse)
 def page_job(slug: str, request: Request, device: Device | None = Depends(current_device), db: Session = Depends(get_db)):
-    job = db.scalar(select(Job).where(Job.slug == slug))
+    job = db.scalar(select(Job).where(Job.slug == slug, Job.status.in_(('verified', 'legacy'))))
     if job is None:
         raise HTTPException(404)
     return render('job.html', request, device, job=job, today=services.today_ist())

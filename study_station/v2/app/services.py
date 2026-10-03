@@ -329,13 +329,16 @@ def device_stats(db: Session, device: Device, today=None):
 def jobs_query(qualification=None, category=None, status='active', today=None):
     from .models import Job
     today = today or today_ist()
-    q = select(Job)
+    # Students only see facts read from an official notice (or old imports, labelled).
+    q = select(Job).where(Job.status.in_(('verified', 'legacy')))
     if status == 'active':
-        q = q.where(Job.last_date >= today).order_by(Job.last_date)
+        q = q.where(Job.last_date >= today, Job.job_type == 'latest').order_by(Job.last_date)
     elif status == 'closed':
-        q = q.where(Job.last_date < today).order_by(Job.last_date.desc())
-    else:   # 'undated' — no machine-readable deadline yet
-        q = q.where(Job.last_date.is_(None)).order_by(Job.created_at.desc())
+        q = q.where(Job.last_date < today, Job.job_type == 'latest').order_by(Job.last_date.desc())
+    elif status == 'updates':   # admit cards, results, answer keys from official boards
+        q = q.where(Job.job_type.in_(('admit', 'results', 'answer'))).order_by(Job.created_at.desc())
+    else:   # 'undated' — recruitment without a machine-readable deadline yet
+        q = q.where(Job.last_date.is_(None), Job.job_type == 'latest').order_by(Job.created_at.desc())
     if category:
         q = q.where(Job.category == category)
     if qualification in LEVEL_RANK:

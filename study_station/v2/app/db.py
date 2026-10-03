@@ -31,3 +31,22 @@ def get_db():
         yield db
     finally:
         db.close()
+
+
+def ensure_schema(engine_=None):
+    """create_all + add any new nullable columns to existing tables (SQLite/Postgres).
+
+    Enough for additive changes while the app is young; switch to Alembic once
+    columns need renaming or data migrations.
+    """
+    from sqlalchemy import inspect, text
+    eng = engine_ or engine
+    Base.metadata.create_all(eng)
+    insp = inspect(eng)
+    with eng.begin() as conn:
+        for table in Base.metadata.sorted_tables:
+            have = {c['name'] for c in insp.get_columns(table.name)}
+            for col in table.columns:
+                if col.name not in have:
+                    ddl = col.type.compile(dialect=eng.dialect)
+                    conn.execute(text(f'ALTER TABLE {table.name} ADD COLUMN {col.name} {ddl}'))
