@@ -34,6 +34,14 @@
   </a>
   {% endif %}
 
+  {% if has_books %}
+  <a class="card card-link row enter" href="/books">
+    <svg class="icon" style="color:var(--brand)"><use href="#i-book"/></svg>
+    <div class="grow"><h3 style="margin:0">{{ tr('books_title') }}</h3><p class="small muted" style="margin:0">{{ tr('books_card_desc') }}</p></div>
+    <svg class="icon chev"><use href="#i-chev"/></svg>
+  </a>
+  {% endif %}
+
   <section class="enter">
     <div class="row-between"><h2>{{ tr('your_exams') }}</h2><a class="small tap-link" href="/settings">{{ tr('settings') }}</a></div>
     <div class="grid">

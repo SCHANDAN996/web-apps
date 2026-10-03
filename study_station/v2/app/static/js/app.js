@@ -168,6 +168,8 @@
       if (el) { b.replaceWith(el); el.querySelector('button').click(); }
       return;
     }
+    b = e.target.closest('[data-flip]');
+    if (b) { b.setAttribute('aria-expanded', b.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); return; }
     b = e.target.closest('[data-report]');
     if (b) { e.preventDefault(); SS.report(b.getAttribute('data-report')); return; }
     b = e.target.closest('#reviewFilter [data-f]');

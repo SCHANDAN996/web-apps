@@ -25,20 +25,33 @@ SETS_PER_LANG = 6
 QS_PER_SET = 25
 
 
+# Short "stub" prompts (English books) carry no @agent markers — same rule as books/migrate_layout.py.
+STUB = re.compile(r'प्रॉम्प्ट|prompt|तैयार करें|Each with 4 options|प्रत्येक में 4 विकल्प|MCQs \((?:Questions|प्रश्न)', re.I)
+STUB_MAX_CHARS = 700
+
+
 def is_prompt(text):
-    return bool(PROMPT_MARK.search(text[:800]))
+    return bool(PROMPT_MARK.search(text[:800])) or (len(text.strip()) < STUB_MAX_CHARS and bool(STUB.search(text)))
+
+
+def _head(path, n=2000):        # enough for the marker and the stub-length test
+    with open(path, encoding='utf-8', errors='replace') as f:
+        return f.read(n)
 
 
 def section_files(chapter):
-    """Section files of a chapter, wherever this book keeps them (chapter root or Prompts/)."""
+    """Section files of a chapter. Finished content lives in the chapter root; Prompts/ holds the
+    generator prompts (older chapters still keep their content there). Per section: the root file
+    unless it is still a prompt, else the Prompts/ copy unless that is a prompt, else the prompt."""
     chapter = Path(chapter)
-    files = {}
-    for d in (chapter / 'Prompts', chapter):
+    found = {}
+    for d in (chapter, chapter / 'Prompts'):
         if d.is_dir():
             for p in sorted(d.glob('*.txt')):
                 if p.name != 'Chapter_Intro_Prompt.txt' and not p.name.startswith('Master_Prompt'):
-                    files.setdefault(p.name, p)       # Prompts/ wins (where finished books keep content)
-    return files
+                    found.setdefault(p.name, []).append(p)
+    return {name: next((p for p in paths if not is_prompt(_head(p))), paths[-1])
+            for name, paths in sorted(found.items())}
 
 
 def check_practice_pair(en_path, hi_path):
@@ -81,8 +94,8 @@ def check_chapter(chapter):
             problems.append(f'{name}: chat debris "{m.group(0).strip()[:30]}"')
         if (m := UNSOURCED.search(text)):
             problems.append(f'{name}: unsourced claim "{m.group(0)}"')
-        if name == 'Mind_Map.txt' and 'graph' not in text and 'mindmap' not in text:
-            problems.append('Mind_Map.txt: no mermaid graph')
+        if name.startswith('Mind_Map') and 'graph' not in text and 'mindmap' not in text:
+            problems.append(f'{name}: no mermaid graph')
     for n in range(1, SETS_PER_LANG + 1):
         en, hi = files.get(f'Practice_en_Set_{n:02d}.txt'), files.get(f'Practice_hi_Set_{n:02d}.txt')
         if en is None and hi is None:

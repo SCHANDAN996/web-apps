@@ -84,8 +84,28 @@ await step('language switch', async () => {
   if (!/Hello|नमस्ते/.test(h)) throw new Error('unexpected heading ' + h);
 });
 
+await step('books: chapter, flashcard flip, mind map', async () => {
+  await p.goto(B + '/books');
+  await shot('books');
+  await p.click('main .card-link >> nth=0');
+  await p.waitForURL(/\/books\/[^/]+$/);
+  await p.click('.chapter-list a.list-item >> nth=0');
+  await p.waitForSelector('.book-body');
+  await shot('book-chapter');
+  const fc = p.locator('.book-tabs .chip', { hasText: /फ़्लैशकार्ड|Flashcards/ });
+  if (await fc.count()) {
+    await fc.first().click();
+    await p.waitForSelector('.fc');
+    await p.click('.fc >> nth=0');
+    if (await p.getAttribute('.fc >> nth=0', 'aria-expanded') !== 'true') throw new Error('flashcard did not flip');
+    await shot('book-flashcards');
+  }
+  const mm = p.locator('.book-tabs .chip', { hasText: /माइंड मैप|Mind map/ });
+  if (await mm.count()) { await mm.first().click(); await p.waitForSelector('.mm-tree'); await shot('book-mindmap'); }
+});
+
 await step('no horizontal scroll on phone', async () => {
-  for (const path of ['/', '/practice', '/jobs', '/current-affairs']) {
+  for (const path of ['/', '/practice', '/jobs', '/current-affairs', '/books']) {
     await p.goto(B + path);
     const over = await p.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
     if (over > 1) throw new Error(path + ' overflows by ' + over + 'px');

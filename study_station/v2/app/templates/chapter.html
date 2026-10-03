@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% set ctitle = L(chapter.title_hi, chapter.title_en) %}
+{% set btitle = book.title(lang) %}
+{% block title %}{{ ctitle }}{% if key %} · {{ tr('sec_' + key) }}{% endif %} — {{ btitle }} | {{ tr('brand') }}{% endblock %}
+{% block description %}{{ ctitle }} — {{ btitle }}. {{ tr('books_desc') }}{% endblock %}
+{% block main %}
+<p class="small crumb"><a class="tap-link" href="/books">{{ tr('books_title') }}</a> › <a class="tap-link" href="/books/{{ book.slug }}">{{ btitle }}</a></p>
+<p class="xs muted" style="margin:0">{{ tr('chapter_n').format(n=chapter.number) }}</p>
+<h1>{{ ctitle }}</h1>
+<div class="chips" style="margin-bottom:var(--sp-3)">
+  {% if not chapter.reviewed %}<span class="badge badge-warn">{{ tr('book_ai_badge') }}</span>{% endif %}
+  {% if chapter.meta.as_of %}<span class="badge">{{ tr('facts_as_of').format(year=chapter.meta.as_of) }}</span>{% endif %}
+</div>
+
+{% if chapter.dynamic %}
+<a class="card card-link row" href="/current-affairs">
+  <svg class="icon" style="color:var(--brand)"><use href="#i-news"/></svg>
+  <span class="grow"><b>{{ tr('ca_title') }}</b><span class="small muted" style="display:block">{{ tr('dynamic_chapter') }}</span></span>
+  <svg class="icon chev"><use href="#i-chev"/></svg>
+</a>
+{% endif %}
+
+{% if keys %}
+<nav class="sec-tabs book-tabs" aria-label="{{ tr('chapter_sections') }}">
+  {% for k in keys %}
+  <a class="chip" href="?s={{ slug_of[k] }}{% if want != lang %}&amp;lang={{ want }}{% endif %}" {% if k == key %}aria-current="true"{% endif %}>{{ tr('sec_' + k) }}</a>
+  {% endfor %}
+</nav>
+{% endif %}
+
+{% if html %}
+<article class="card book-body" lang="{{ shown if shown in ('hi', 'en') else lang }}">
+  {% if shown in ('hi', 'en') and shown != want %}<p class="notice">{{ tr('only_in_' + shown) }}</p>{% endif %}
+  {% if other %}<p class="book-lang"><a class="tap-link small" href="?s={{ slug_of[key] }}&amp;lang={{ other }}"><svg class="icon icon-sm" aria-hidden="true"><use href="#i-globe"/></svg><span>{{ tr('read_in_' + other) }}</span></a></p>{% endif %}
+  {% if key == 'Flashcards' and 'fc-list' in html %}<p class="xs muted">{{ tr('fc_hint') }}</p>{% endif %}
+  {% if key == 'Mind_Map' %}<p class="xs muted">{{ tr('mm_hint') }}</p>{% endif %}
+  {{ html }}
+</article>
+{% endif %}
+
+{% if topic %}
+<section class="card stack" style="margin-top:var(--sp-4)">
+  <button class="btn btn-primary btn-block" type="button" data-practice="{{ topic.id }}">{{ tr('chapter_practice') }}</button>
+  <p class="xs muted" style="margin:var(--sp-2) 0 0;text-align:center">{{ tr('chapter_practice_note').format(n=n_questions, topic=L(topic.name_hi, topic.name_en)) }}</p>
+</section>
+{% endif %}
+
+<nav class="chapter-nav" aria-label="{{ tr('chapter_nav') }}">
+  {% if prev_ch %}<a class="btn btn-secondary" href="/books/{{ book.slug }}/{{ prev_ch.slug }}" rel="prev"><svg class="icon icon-sm flip-x"><use href="#i-chev"/></svg><span class="nav-txt"><span class="xs muted">{{ tr('prev_chapter') }}</span>{{ L(prev_ch.title_hi, prev_ch.title_en) }}</span></a>{% else %}<span></span>{% endif %}
+  {% if next_ch %}<a class="btn btn-secondary" href="/books/{{ book.slug }}/{{ next_ch.slug }}" rel="next"><span class="nav-txt"><span class="xs muted">{{ tr('next_chapter') }}</span>{{ L(next_ch.title_hi, next_ch.title_en) }}</span><svg class="icon icon-sm"><use href="#i-chev"/></svg></a>{% endif %}
+</nav>
+{% endblock %}

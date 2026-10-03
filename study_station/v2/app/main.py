@@ -443,7 +443,12 @@ def page_home(request: Request, device: Device | None = Depends(current_device),
     # Today's 10: weakest topic first, else the topic with the most questions.
     today_topic = stats['weak_topics'][0]['id'] if stats['weak_topics'] else (quick[0][0].id if quick else None)
     return render('home.html', request, device, stats=stats, exams=exams, jobs=jobs, quick=quick,
-                  today_topic=today_topic, ca_recent=has_recent_ca(db))
+                  today_topic=today_topic, ca_recent=has_recent_ca(db), has_books=has_books())
+
+
+def has_books():
+    from . import books
+    return bool(books.readable_books())
 
 
 def has_recent_ca(db):
@@ -467,7 +472,7 @@ def page_practice(request: Request, device: Device | None = Depends(current_devi
         mastery = {t['id']: t for t in services.device_stats(db, device)['topics']}
     subjects = [s for s in db.scalars(select(Subject).order_by(Subject.id)) if any(counts.get(tp.id) for tp in s.topics)]
     return render('practice.html', request, device, subjects=subjects, counts=counts, mastery=mastery,
-                  ca_recent=has_recent_ca(db))
+                  ca_recent=has_recent_ca(db), has_books=has_books())
 
 
 @app.get('/practice/{subject}/{topic}', response_class=HTMLResponse)
@@ -578,6 +583,61 @@ def page_job(slug: str, request: Request, device: Device | None = Depends(curren
     return render('job.html', request, device, job=job, today=services.today_ist())
 
 
+# ---------------------------------------------------------------- books
+def topic_practice(db, ref):
+    """(Topic, usable question count) for a chapter's catalog topic, or (None, 0)."""
+    if not ref:
+        return None, 0
+    tp = db.scalar(select(Topic).join(Subject).where(Subject.slug == ref[0], Topic.slug == ref[1]))
+    if tp is None:
+        return None, 0
+    return tp, db.scalar(select(func.count(Question.id)).where(Question.topic_id == tp.id, services.USABLE)) or 0
+
+
+@app.get('/books', response_class=HTMLResponse)
+def page_books(request: Request, device: Device | None = Depends(current_device)):
+    from itertools import groupby
+    from . import books
+    by_level = [(level, list(g)) for level, g in groupby(books.readable_books(), key=lambda b: b.level)]
+    return render('books.html', request, device, by_level=by_level)
+
+
+@app.get('/books/{book_slug}', response_class=HTMLResponse)
+def page_book(book_slug: str, request: Request, device: Device | None = Depends(current_device)):
+    from . import books
+    book = books.get_book(book_slug)
+    if book is None or not book.readable_chapters:
+        raise HTTPException(404)
+    return render('book.html', request, device, book=book)
+
+
+@app.get('/books/{book_slug}/{chapter_slug}', response_class=HTMLResponse)
+def page_chapter(book_slug: str, chapter_slug: str, request: Request, s: str | None = None, lang: str | None = None,
+                 device: Device | None = Depends(current_device), db: Session = Depends(get_db)):
+    from . import books
+    book = books.get_book(book_slug)
+    chapter = book.chapter(chapter_slug) if book else None
+    if chapter is None or not chapter.readable:
+        raise HTTPException(404)
+    ui_lang = ctx(request, device)['lang']
+    want = lang if lang in ('hi', 'en') else ui_lang
+    keys = [k for k, _ in books.SECTIONS if k in chapter.sections]
+    key = books.SECTION_BY_SLUG.get(s) if s else (keys[0] if keys else None)
+    if s and key not in keys:
+        raise HTTPException(404)
+    html, shown, other = None, None, None
+    if key:
+        shown = books.pick_lang(chapter, key, want)
+        html = books.render_section(chapter.sections[key][shown], key, ui_lang)
+        alt = 'en' if shown == 'hi' else 'hi' if shown == 'en' else None
+        other = alt if alt and alt in chapter.sections[key] else None
+    topic, n_questions = topic_practice(db, chapter.topic)
+    prev_ch, next_ch = book.neighbours(chapter)
+    return render('chapter.html', request, device, book=book, chapter=chapter, key=key, keys=keys,
+                  slug_of=dict(books.SECTIONS), html=html, shown=shown, want=want, other=other,
+                  topic=topic if n_questions else None, n_questions=n_questions, prev_ch=prev_ch, next_ch=next_ch)
+
+
 @app.get('/healthz')
 def healthz(db: Session = Depends(get_db)):
     """For uptime monitors / load balancers: app is up and the database answers."""
@@ -614,10 +674,13 @@ def robots():
 @app.get('/sitemap.xml')
 def sitemap(db: Session = Depends(get_db)):
     base = SITE_URL or ''
-    urls = ['/', '/practice', '/mock', '/jobs', '/current-affairs']
+    urls = ['/', '/practice', '/mock', '/jobs', '/current-affairs', '/books']
     urls += [f'/practice/{tp.subject.slug}/{tp.slug}' for tp in db.scalars(select(Topic))]
     urls += [f'/mock/{e.slug}' for e in db.scalars(select(Exam))]
     urls += [f'/jobs/{j.slug}' for j in db.scalars(services.jobs_query(status='active'))]
+    from . import books
+    for b in books.readable_books():
+        urls += [f'/books/{b.slug}'] + [f'/books/{b.slug}/{c.slug}' for c in b.readable_chapters]
     body = ''.join(f'<url><loc>{base}{u}</loc></url>' for u in urls)
     return Response('<?xml version="1.0" encoding="UTF-8"?>'
                     f'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{body}</urlset>',

@@ -12,7 +12,7 @@ from pathlib import Path
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
-from . import catalog
+from . import books, catalog
 from .db import Base, SessionLocal, engine, ensure_schema
 from .importers import (discover_practice_files, is_translation_pair, parse_jobs_js,
                         parse_mcq_text, quality_problem)
@@ -54,8 +54,12 @@ def seed_questions(db: Session, root=PROJECT_DIR):
     topics = {(t.subject.slug, t.slug): t for t in db.scalars(select(Topic))}
     # Pick the richest file for each (level, subject, topic, lang, set) — some sets
     # exist twice (a Prompts/ copy and a final copy).
-    best = {}
+    best, targets = {}, {}
     for level, subj, topic, lang, set_no, path in discover_practice_files(root):
+        if (level, subj, topic) not in targets:
+            # Chapter folder → catalog topic (same mapping the Books pages use; chapter.json may override).
+            chapter_dir = path.parent.parent if path.parent.name == 'Prompts' else path.parent
+            targets[(level, subj, topic)] = books.topic_for_chapter(subj, topic, books.load_meta(chapter_dir))
         qs = parse_mcq_text(path.read_text(encoding='utf-8'))
         key = (level, subj, topic, lang, set_no)
         if key not in best or len(qs) > len(best[key]):
@@ -91,7 +95,7 @@ def seed_questions(db: Session, root=PROJECT_DIR):
 
     stats = {'imported': 0, 'flagged': 0, 'bilingual': 0, 'skipped_topic': 0}
     for (level, subj, topic, set_no, num), pair in merged.items():
-        t = topics.get((subj, topic))
+        t = topics.get(targets[(level, subj, topic)])
         if t is None:
             stats['skipped_topic'] += 1
             continue

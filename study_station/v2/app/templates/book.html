@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% set btitle = book.title(lang) %}
+{% block title %}{{ btitle }} — {{ tr('books_title') }} | {{ tr('brand') }}{% endblock %}
+{% block description %}{{ btitle }}: {{ tr('books_desc') }}{% endblock %}
+{% block main %}
+<p class="small crumb"><a class="tap-link" href="/books">{{ tr('books_title') }}</a> › {{ tr('book_level_' + book.level) }}</p>
+<h1>{{ btitle }}</h1>
+<p class="muted">{{ tr('chapters_ready').format(done=book.readable_chapters|length, total=book.chapters|length) }}</p>
+<section class="card">
+  <ol class="list chapter-list">
+    {% for c in book.chapters %}
+    <li>
+      {% if c.readable %}
+      <a class="list-item" href="/books/{{ book.slug }}/{{ c.slug }}">
+        <span class="ch-num" aria-hidden="true">{{ c.number }}</span>
+        <span class="grow"><b>{{ L(c.title_hi, c.title_en) }}</b>
+          <span class="xs muted" style="display:block">{{ tr('chapter_n').format(n=c.number) }}</span></span>
+        <svg class="icon chev"><use href="#i-chev"/></svg>
+      </a>
+      {% else %}
+      <div class="list-item is-todo" aria-disabled="true">
+        <span class="ch-num" aria-hidden="true">{{ c.number }}</span>
+        <span class="grow"><span>{{ L(c.title_hi, c.title_en) }}</span>
+          <span class="xs" style="display:block">{{ tr('chapter_n').format(n=c.number) }}</span></span>
+        <span class="badge">{{ tr('coming_soon') }}</span>
+      </div>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+{% endblock %}

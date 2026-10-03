@@ -18,3 +18,8 @@ AI_DAILY_LIMIT_PER_DEVICE = int(os.environ.get('AI_DAILY_LIMIT_PER_DEVICE', '20'
 AI_DAILY_LIMIT_TOTAL = int(os.environ.get('AI_DAILY_LIMIT_TOTAL', '2000'))
 
 LOG_DIR = Path(os.environ.get('LOG_DIR', BASE_DIR / 'logs'))
+AI_DAILY_BOOK_SECTIONS = int(os.environ.get('AI_DAILY_BOOK_SECTIONS', '60'))   # bookgen: AI calls per day, all chapters
+
+# Books (study_station/books/<Level>/<Subject>/[<Book>/]Chapter_NN_Name/) — read-only for the app.
+BOOKS_DIR = Path(os.environ.get('BOOKS_DIR') or BASE_DIR.parent / 'books')
+BOOKS_RECHECK_SECONDS = float(os.environ.get('BOOKS_RECHECK_SECONDS', '30'))   # how often to look for new/changed files
