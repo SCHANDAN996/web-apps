@@ -171,7 +171,8 @@ class Job(Base):
     title: Mapped[str] = mapped_column(String(300))
     org: Mapped[str | None] = mapped_column(String(200))
     category: Mapped[str] = mapped_column(String(20), default='govt')   # ssc/railway/banking/psc/defence/psu/govt
-    job_type: Mapped[str] = mapped_column(String(20), default='latest')  # latest/admit/results/answer/notice
+    job_type: Mapped[str] = mapped_column(String(20), default='latest')  # latest/admit/results/answer/upcoming
+    # For job_type='upcoming', start_date = expected notification date (from an official exam calendar).
     # verified = facts read from an official notice on an official domain
     # pending  = only an aggregator mentioned it so far (hidden from students)
     # legacy   = imported from the old site, not re-checked
@@ -191,6 +192,7 @@ class Job(Base):
     verified_at: Mapped[datetime | None] = mapped_column(DateTime)
     created_at: Mapped[datetime] = mapped_column(DateTime, default=now)
     updated_at: Mapped[datetime | None] = mapped_column(DateTime)
+    notified_at: Mapped[datetime | None] = mapped_column(DateTime)       # sent in an alert digest
     sources: Mapped[list['JobSource']] = relationship(back_populates='job', cascade='all, delete-orphan')
 
 

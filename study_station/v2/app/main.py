@@ -306,7 +306,7 @@ def job_dict(j: Job):
 
 @app.get('/api/v1/jobs')
 def api_jobs(qualification: str | None = None, category: str | None = None,
-             status: Literal['active', 'closed', 'undated', 'updates'] = 'active', db: Session = Depends(get_db)):
+             status: Literal['active', 'upcoming', 'closed', 'undated', 'updates'] = 'active', db: Session = Depends(get_db)):
     q = services.jobs_query(qualification, category, status).limit(100)
     return {'jobs': [job_dict(j) for j in db.scalars(q)]}
 
@@ -414,7 +414,7 @@ def page_progress(request: Request, device: Device | None = Depends(current_devi
 
 
 @app.get('/jobs', response_class=HTMLResponse)
-def page_jobs(request: Request, status: Literal['active', 'closed', 'undated', 'updates'] = 'active',
+def page_jobs(request: Request, status: Literal['active', 'upcoming', 'closed', 'undated', 'updates'] = 'active',
               qualification: str | None = None, category: str | None = None,
               device: Device | None = Depends(current_device), db: Session = Depends(get_db)):
     if qualification is None and device and device.level:
@@ -423,7 +423,7 @@ def page_jobs(request: Request, status: Literal['active', 'closed', 'undated', '
         qualification = None
     jobs = list(db.scalars(services.jobs_query(qualification, category, status).limit(100)))
     counts = {s: db.scalar(select(func.count()).select_from(services.jobs_query(qualification, category, s).subquery()))
-              for s in ('active', 'updates', 'closed', 'undated')}
+              for s in ('active', 'upcoming', 'updates', 'closed', 'undated')}
     return render('jobs.html', request, device, jobs=jobs, status=status, qualification=qualification,
                   category=category, counts=counts, levels=LEVELS, today=services.today_ist())
 

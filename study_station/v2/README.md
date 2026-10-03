@@ -86,6 +86,12 @@ Cron (हर 3 घंटे, VPS पर — कई सरकारी sites स�
 `HtmlListingSource('hssc', 'https://hssc.gov.in/...', 'HSSC', 'psc')`. JavaScript से बनने वाले pages
 (जैसे RBI, SBI) पर generic parser काम नहीं करता — वे भर्तियाँ discovery के रास्ते official PDF से आती हैं।
 
+**AI से पूरा अपडेट:** [JOBS_AGENT.md](JOBS_AGENT.md) — किसी भी AI agent में सिर्फ़ `job` लिखें; वह sweep, research (parallel lanes), official links जोड़ना, cleanup और alert digest खुद करता है।
+
+```bash
+python -m app.jobs summary | add URL | upcoming … | cleanup | digest [--telegram --mark-sent]
+```
+
 **शिष्टाचार:** robots.txt माना जाता है, हर host पर 2 सेकंड का अंतर, साफ़ User-Agent, 12 MB की सीमा, और
 एक item सिर्फ़ एक बार process होता है (`seen_item`)। Naukri.com जैसी private job sites को scrape नहीं
 करते — उनकी शर्तें मना करती हैं; private नौकरियों के लिए उनका official API/partner feed लें।

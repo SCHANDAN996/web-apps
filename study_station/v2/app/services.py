@@ -335,6 +335,8 @@ def jobs_query(qualification=None, category=None, status='active', today=None):
         q = q.where(Job.last_date >= today, Job.job_type == 'latest').order_by(Job.last_date)
     elif status == 'closed':
         q = q.where(Job.last_date < today, Job.job_type == 'latest').order_by(Job.last_date.desc())
+    elif status == 'upcoming':   # from official exam calendars
+        q = q.where(Job.job_type == 'upcoming', Job.start_date >= today - timedelta(days=7)).order_by(Job.start_date)
     elif status == 'updates':   # admit cards, results, answer keys from official boards
         q = q.where(Job.job_type.in_(('admit', 'results', 'answer'))).order_by(Job.created_at.desc())
     else:   # 'undated' — recruitment without a machine-readable deadline yet

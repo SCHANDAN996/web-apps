@@ -5,7 +5,7 @@
 <p class="muted small">{{ tr('jobs_desc') }}</p>
 {% set q = '&qualification=' ~ (qualification or 'all') ~ ('&category=' ~ category if category else '') %}
 <nav class="chips" aria-label="Status" style="margin:var(--sp-3) 0">
-  {% for s, key in [('active', 'jobs_active'), ('updates', 'jobs_updates'), ('closed', 'jobs_closed'), ('undated', 'jobs_undated')] %}
+  {% for s, key in [('active', 'jobs_active'), ('upcoming', 'jobs_upcoming'), ('updates', 'jobs_updates'), ('closed', 'jobs_closed'), ('undated', 'jobs_undated')] %}
   <a class="chip" href="?status={{ s }}{{ q }}" {% if status == s %}aria-current="true"{% endif %}>{{ tr(key) }} · {{ counts[s] }}</a>
   {% endfor %}
 </nav>
@@ -29,7 +29,7 @@
     {% if job.org %}<p class="small muted" style="margin:0">{{ job.org }}</p>{% endif %}
     <p class="xs muted" style="margin:4px 0 0">
       {% if job.vacancies %}{{ job.vacancies }} {{ tr('vacancies') }} · {% endif %}
-      {% if job.last_date %}{{ tr('last_date') }}: {{ job.last_date.strftime('%d-%m-%Y') }}{% elif job.last_date_text %}{{ tr('last_date') }}: {{ job.last_date_text }}{% endif %}
+      {% if job.job_type == 'upcoming' and job.start_date %}{{ tr('expected_notice') }}: {{ job.start_date.strftime('%m-%Y') }}{% elif job.last_date %}{{ tr('last_date') }}: {{ job.last_date.strftime('%d-%m-%Y') }}{% elif job.last_date_text %}{{ tr('last_date') }}: {{ job.last_date_text }}{% endif %}
     </p>
   </a>
   {% endfor %}

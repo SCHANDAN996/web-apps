@@ -181,3 +181,64 @@ def test_similar_official_notices_stay_separate(clean_jobs):
     b = Item('ssc', 'official', 'Declaration of Result of Annual Departmental Stenography Test, 2026', 'https://ssc.gov.in/#notice-b', org='SSC')
     pipeline.run(db, [StaticSource('ssc', [a, b])], http=FakeFetcher({}))
     assert db.query(Job).count() == 2
+
+
+# ------------------------------------------------------------------ maintenance (used by JOBS_AGENT.md)
+from datetime import timedelta  # noqa: E402
+
+from app.jobs import manage  # noqa: E402
+from app.services import today_ist  # noqa: E402
+
+
+def test_add_refuses_aggregator_and_reads_official(clean_jobs):
+    db = clean_jobs
+    with pytest.raises(manage.Refused):
+        manage.add_official(db, 'https://www.freejobalert.com/articles/x', http=FakeFetcher({}))
+    pdf = 'https://ssc.gov.in/api/attachment/chsl.pdf'
+    out = manage.add_official(db, pdf, title='Notice of Combined Higher Secondary (10+2) Level Examination, 2026',
+                              org='SSC', http=FakeFetcher({pdf: fx('ssc_chsl_2026_notice.txt')}))
+    assert out == 'job:new'
+    job = db.query(Job).one()
+    assert job.status == 'verified' and job.vacancies == '2536' and job.last_date == date(2026, 10, 7)
+
+
+def test_upcoming_cleanup_and_digest(clean_jobs, client):
+    db = clean_jobs
+    today = today_ist()
+    assert manage.add_upcoming(db, 'SSC CGL 2027', 'SSC', (today + timedelta(days=20)).strftime('%Y-%m-%d'),
+                               'https://ssc.gov.in/api/attachment/calendar.pdf') == 'upcoming:new'
+    with pytest.raises(manage.Refused):
+        manage.add_upcoming(db, 'X', 'Y', '2027-01', 'https://sarkariresult.com/cal')
+    db.add_all([
+        Job(slug='open', title='Open job', status='verified', job_type='latest', last_date=today + timedelta(days=2)),
+        Job(slug='old', title='Long closed', status='verified', job_type='latest', last_date=today - timedelta(days=45)),
+        Job(slug='recent-closed', title='Just closed', status='verified', job_type='latest', last_date=today - timedelta(days=3)),
+    ])
+    db.commit()
+    assert [j['slug'] for j in client.get('/api/v1/jobs?status=upcoming').json()['jobs']] == [
+        db.query(Job).filter_by(job_type='upcoming').one().slug]
+
+    counts = manage.cleanup(db)
+    assert counts['closed'] == 1
+    assert {j.slug for j in db.query(Job)} >= {'open', 'recent-closed'} and not db.query(Job).filter_by(slug='old').count()
+
+    d = manage.digest(db)
+    md = manage.digest_markdown(d)
+    assert 'Open job' in md and 'SSC CGL 2027' in md and 'Just closed' not in md
+    manage.mark_notified(db, d)
+    assert manage.digest(db)['new'] == []          # never alerted twice
+    assert manage.digest(db)['closing']            # but "closing soon" repeats until the deadline
+
+    s = manage.summary(db)
+    assert s['open'] == 1 and s['upcoming'] == 1
+
+
+def test_upcoming_removed_when_real_notification_arrives(clean_jobs):
+    db = clean_jobs
+    manage.add_upcoming(db, 'Combined Graduate Level Examination 2027', 'SSC', '2027-04',
+                        'https://ssc.gov.in/api/attachment/calendar.pdf')
+    db.add(Job(slug='cgl', title='Notice of Combined Graduate Level Examination, 2027', status='verified',
+               job_type='latest', notification_url='https://ssc.gov.in/api/attachment/cgl.pdf'))
+    db.commit()
+    assert manage.resolve_upcoming(db) == 1
+    assert db.query(Job).filter_by(job_type='upcoming').count() == 0

@@ -27,7 +27,8 @@
   <dl class="stack" style="margin:0">
     {% if job.org %}<div><dt class="xs muted">{{ L('संस्था', 'Organisation') }}</dt><dd style="margin:0">{{ job.org }}</dd></div>{% endif %}
     {% if job.advt_no %}<div><dt class="xs muted">{{ tr('advt_no') }}</dt><dd style="margin:0">{{ job.advt_no }}</dd></div>{% endif %}
-    {% if job.start_date or job.last_date %}<div><dt class="xs muted">{{ tr('apply_window') }}</dt><dd style="margin:0;font-weight:700">
+    {% if job.job_type == 'upcoming' %}<div><dt class="xs muted">{{ tr('expected_notice') }}</dt><dd style="margin:0;font-weight:700">{{ job.start_date.strftime('%m-%Y') if job.start_date else '—' }}</dd></div>
+    {% elif job.start_date or job.last_date %}<div><dt class="xs muted">{{ tr('apply_window') }}</dt><dd style="margin:0;font-weight:700">
       {% if job.start_date %}{{ job.start_date.strftime('%d-%m-%Y') }} → {% endif %}{{ job.last_date.strftime('%d-%m-%Y') if job.last_date else '—' }}</dd></div>
     {% elif job.last_date_text %}<div><dt class="xs muted">{{ tr('last_date') }}</dt><dd style="margin:0">{{ job.last_date_text }}</dd></div>{% endif %}
     {% if job.vacancies %}<div><dt class="xs muted">{{ tr('vacancies') }}</dt><dd style="margin:0">{{ job.vacancies }}</dd></div>{% endif %}
