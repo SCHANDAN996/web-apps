@@ -203,11 +203,15 @@ def get_attempt(db: Session, device: Device | None, attempt_id: int) -> Attempt:
 
 
 def _service_error(e):
+    """Map expected service errors to short codes; anything else is a real bug → logged 500,
+    and its message (which may contain SQL) never reaches the client."""
     if isinstance(e, LookupError):
         raise HTTPException(404, str(e))
     if isinstance(e, services.NotAllowed):
         raise HTTPException(409, str(e))
-    raise HTTPException(400, str(e))
+    if isinstance(e, ValueError):
+        raise HTTPException(400, str(e))
+    raise e
 
 
 # ---------------------------------------------------------------- API

@@ -128,10 +128,35 @@ META_TYPES = ('static', 'dynamic')
 META_STATUS = ('draft', 'reviewed')
 
 
+def regular_file(p):
+    """A real file, not a symlink: a link in books/ could expose any file the app can read."""
+    p = Path(p)
+    return p.is_file() and not p.is_symlink()
+
+
+def atomic_write(path, text):
+    """Write via a random temp file in the same folder + fsync + rename (never follows a planted link)."""
+    import tempfile
+    path = Path(path)
+    fd, tmp = tempfile.mkstemp(dir=path.parent, prefix='.' + path.name + '.', suffix='.tmp')
+    try:
+        with os.fdopen(fd, 'w', encoding='utf-8') as f:
+            f.write(text)
+            f.flush()
+            os.fsync(f.fileno())
+        os.replace(tmp, path)
+    except BaseException:
+        try:
+            os.unlink(tmp)
+        except OSError:
+            pass
+        raise
+
+
 def load_meta(chapter_dir):
     """Validated chapter.json fields ({} when missing or broken — a warning is logged)."""
     p = Path(chapter_dir) / 'chapter.json'
-    if not p.is_file():
+    if not regular_file(p):
         return {}
     try:
         data = json.loads(p.read_text(encoding='utf-8'))
@@ -281,7 +306,7 @@ README_TITLE = re.compile(r'^#\s*(.+?)\s+/\s+(.+?)\s*$')
 def _titles(chapter_dir, name, meta):
     hi = en = None
     readme = chapter_dir / 'README.md'
-    if readme.is_file():
+    if regular_file(readme):
         first = _read(readme).lstrip().split('\n', 1)[0]
         if (m := README_TITLE.match(first)):
             hi, en = m.group(1), m.group(2)
@@ -328,7 +353,7 @@ def fill_meta(chapter_dir):
     chapter_dir = Path(chapter_dir)
     p = chapter_dir / 'chapter.json'
     try:
-        meta = json.loads(p.read_text(encoding='utf-8')) if p.is_file() else {}
+        meta = json.loads(p.read_text(encoding='utf-8')) if regular_file(p) else {}
     except ValueError:
         meta = {}
     if not isinstance(meta, dict):
@@ -353,7 +378,7 @@ def fill_meta(chapter_dir):
     meta.setdefault('as_of', None)
     meta.setdefault('notes', '')
     if changed:
-        p.write_text(json.dumps(meta, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+        atomic_write(p, json.dumps(meta, ensure_ascii=False, indent=2) + '\n')
     return changed
 
 
@@ -444,8 +469,14 @@ LABEL = re.compile(r'^([^\d:：<>&]{2,28}?)([:：])(\s)')
 END_PUNCT = ('.', '।', '?', '!', ':', ';', ',', '|')
 
 
+MAX_LINE = 4000          # longer lines are shown as plain escaped text (keeps every regex linear-time)
+MAX_MERMAID_LINE = 500   # real mermaid lines are short
+
+
 def inline(text):
     """Escape one line, then add the few inline marks we support (bold, <br>)."""
+    if len(text) > MAX_LINE:
+        return str(escape(text.strip()))
     s = str(escape(text.strip()))
     s = BR_ESCAPED.sub('<br>', s)
     return BOLD.sub(r'<strong>\1</strong>', s)
@@ -488,7 +519,7 @@ def _is_tab_row(line):
 
 
 def _is_block_start(s, raw):
-    return bool(not s or s.startswith('```') or RULE.match(s) or HEADING.match(s) or BULLET.match(raw)
+    return bool(not s or s.startswith('```') or RULE.match(s) or (len(s) <= 300 and HEADING.match(s)) or BULLET.match(raw)
                 or NUMBERED.match(raw) or (s.startswith('|') and s.count('|') >= 2) or _is_tab_row(raw))
 
 
@@ -525,7 +556,7 @@ def render_text(text):
             out.append('<hr>')
             i += 1
             continue
-        if (m := HEADING.match(s)):
+        if len(s) <= 300 and (m := HEADING.match(s)):
             flush()
             lvl = min(len(m.group(1)) + 1, 4)
             out.append(f'<h{lvl}>{inline(m.group(2))}</h{lvl}>')
@@ -584,7 +615,7 @@ def render_text(text):
 # ------------------------------------------------------------------ mind map (mermaid → nested list)
 MERMAID_HEAD = re.compile(r'^\s*(?:graph|flowchart)\b', re.I)
 MERMAID_SKIP = re.compile(r'^(?:classDef|class|style|linkStyle|click|subgraph|end|direction|%%)\b')
-EDGE = re.compile(r'\s*(?:--\s+[^|]+?\s+-->|==\s+[^|]+?\s+==>|<?-{2,}>|<?={2,}>|-\.+->|-{3,}|-\.+-|--[ox])\s*(?:\|[^|]*\|)?\s*')
+EDGE = re.compile(r'\s*(?:--\s+[^|\s](?:[^|]*?\S)?\s+-->|==\s+[^|\s](?:[^|]*?\S)?\s+==>|<?-{2,}>|<?={2,}>|-\.+->|-{3,}|-\.+-|--[ox])\s*(?:\|[^|]*\|)?\s*')
 NODE_ID = re.compile(r'^([\w.]+)')
 QUOTED = re.compile(r'"[^"]*"')
 
@@ -645,7 +676,7 @@ def _parse_mindmap(lines):
 
 def parse_mermaid(text):
     """Mermaid flowchart / mindmap → list of root nodes (label, [children]); None if unparseable."""
-    lines = text.splitlines()
+    lines = [l for l in text.splitlines() if len(l) <= MAX_MERMAID_LINE]
     start = next((i for i, l in enumerate(lines) if MERMAID_HEAD.match(l)), None)
     if start is None:
         mi = next((i for i, l in enumerate(lines) if l.strip() == 'mindmap'), None)

@@ -91,6 +91,22 @@ def check_budget(db: Session, device_id):
         raise AIUnavailable('daily_limit')
 
 
+def reserve(db: Session, device_id, own_limit, weight=1):
+    """Atomically take `weight` units for today, only if both this caller's limit and the global
+    AI_DAILY_LIMIT_TOTAL stay respected. Returns False when over budget. Safe under concurrency:
+    the check and the increment are one UPDATE statement (SQLite serialises writers)."""
+    from sqlalchemy import text
+    day = _today()
+    db.execute(text('INSERT OR IGNORE INTO ai_usage (day, device_id, count) VALUES (:d, :id, 0)'),
+               {'d': day, 'id': device_id})
+    res = db.execute(text(
+        'UPDATE ai_usage SET count = count + :w WHERE day = :d AND device_id = :id AND count + :w <= :own '
+        'AND (SELECT COALESCE(SUM(count), 0) FROM ai_usage WHERE day = :d) + :w <= :total'),
+        {'w': weight, 'd': day, 'id': device_id, 'own': own_limit, 'total': config.AI_DAILY_LIMIT_TOTAL})
+    db.commit()
+    return res.rowcount == 1
+
+
 def record_use(db: Session, device_id, delta=1):
     day = _today()
     row = db.scalar(select(AiUsage).where(AiUsage.day == day, AiUsage.device_id == device_id))
@@ -131,8 +147,8 @@ def explain(db: Session, q: Question, lang, device_id):
                                                          QuestionExplanation.lang == lang))
     if cached:
         return cached.text, True
-    check_budget(db, device_id)
-    record_use(db, device_id)                     # reserve first so parallel requests can't overshoot
+    if not reserve(db, device_id, config.AI_DAILY_LIMIT_PER_DEVICE):   # atomic: parallel requests can't overshoot
+        raise AIUnavailable('daily_limit')
     try:
         text = call(TUTOR_SYSTEM, _question_block(q, lang), effort='low', max_tokens=2000)
     except AIUnavailable:

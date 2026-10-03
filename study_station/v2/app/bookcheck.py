@@ -65,6 +65,8 @@ def section_files(chapter):
     for d in (chapter, chapter / 'Prompts'):
         if d.is_dir():
             for p in sorted(d.glob('*.txt')):
+                if p.is_symlink():                       # never read through links (see check_chapter)
+                    continue
                 if p.name != 'Chapter_Intro_Prompt.txt' and not p.name.startswith('Master_Prompt'):
                     found.setdefault(p.name, []).append(p)
     return {name: next((p for p in paths if not is_prompt(_head(p))), paths[-1])
@@ -157,6 +159,9 @@ def check_chapter(chapter):
         for pr in check_practice_pair(en, hi):
             (todo if pr.endswith('todo') or pr.endswith('missing') else problems).append(f'Set {n:02d} {pr}')
     problems += meta_problems(chapter)
+    links = [p.name for d in (Path(chapter), Path(chapter) / 'Prompts') if d.is_dir() for p in d.iterdir() if p.is_symlink()]
+    if links:
+        problems.append(f'symlinks are not allowed in books (security): {", ".join(sorted(links))}')
     return todo, problems
 
 

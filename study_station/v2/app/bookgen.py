@@ -126,9 +126,9 @@ def used_today(db):
 
 def _ask(db, user):
     """One budgeted AI call (reserve first, refund on failure)."""
-    if used_today(db) >= config.AI_DAILY_BOOK_SECTIONS:
+    # Atomic reserve against both the book limit and the global AI limit (operator kill switch).
+    if not ai.reserve(db, BOOK_USAGE_ID, config.AI_DAILY_BOOK_SECTIONS):
         raise ai.AIUnavailable('daily_limit')
-    ai.record_use(db, BOOK_USAGE_ID)
     try:
         return ai.call(system_prompt(), user, effort='high', max_tokens=MAX_TOKENS)
     except ai.AIUnavailable:
@@ -167,9 +167,7 @@ def write_section(chapter, name, text):
         if not keep.exists():
             keep.parent.mkdir(exist_ok=True)
             os.replace(target, keep)
-    tmp = target.with_suffix('.tmp')
-    tmp.write_text(text, encoding='utf-8')
-    os.replace(tmp, target)
+    books.atomic_write(target, text)
 
 
 def section_request(chapter, name):

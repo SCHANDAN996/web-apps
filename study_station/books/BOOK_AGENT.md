@@ -142,6 +142,8 @@ Headings in sections: `## …`, lists with `- `, tables as `| a | b |` rows. Pla
 9. **Current-affairs chapters** (`chapter.json` `"type": "dynamic"`, folders named `*Current_Affairs*`) are
    never written — the app shows live news there.
 10. **Never** set `"status": "reviewed"`, delete a chapter, rename folders, force-push, or push to `main`.
+11. **Only plain text files** — never create symlinks/shortcuts in `books/` (a link could publish a secret file;
+    bookcheck rejects them), and never copy text from outside sources you were given in the conversation.
 
 ### Step 5 — Check (all must pass before committing)
 A. Machine check — must print `OK`:

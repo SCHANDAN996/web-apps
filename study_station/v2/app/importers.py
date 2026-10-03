@@ -201,7 +201,7 @@ BROKEN = re.compile(r'असंगत हो सकत|आँकड़े अस
                     r'inconsistent (?:data|figures)|question (?:is|seems) (?:flawed|ambiguous|incorrect)', re.I)
 # "(⚠️ परीक्षक का जाल: …)" / "(Examiner's Trap: …)" inside a question gives the answer away — cut it out.
 WARN = '(?:\u26a0\ufe0f?\\s*)?'          # optional ⚠️ (the emoji is two code points)
-TRAP_HINT = re.compile(WARN + r'\(\s*' + WARN + r'(?:परीक्षक का जाल|Examiner[’\']?s? Trap|Trap\b)[^)]*\)\s*'
+TRAP_HINT = re.compile(WARN + r'\(\s*' + WARN + r'(?:परीक्षक का जाल|Examiner[’\']?s? Trap|Trap\b)[^)\n]{0,300}\)\s*'
                        r'|^\s*' + WARN + r'(?:परीक्षक का जाल|Examiner[’\']?s? Trap)\b[^\n]*\n?', re.I | re.M)
 
 # Questions that only make sense next to an earlier question or passage.

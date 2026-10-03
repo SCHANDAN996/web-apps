@@ -138,3 +138,71 @@ def test_assets_are_versioned_and_sw_is_stamped(client):
     sw = client.get('/sw.js')
     assert sw.status_code == 200 and '__ASSET_V__' not in sw.text and ASSET_V in sw.text
     assert sw.headers['cache-control'] == 'no-cache'
+
+
+# ---- book files: symlinks, ReDoS, atomic writes (security review of the books feature)
+def test_book_sections_never_follow_symlinks(tmp_path, monkeypatch):
+    from app import books, config
+    from app.bookcheck import check_chapter, section_files
+    secret = tmp_path / 'secret.env'
+    secret.write_text('ANTHROPIC_API_KEY=sk-FAKE ' * 40)
+    ch = tmp_path / 'books' / '10th_Level' / 'GK' / 'Foundation_10th_GK_WorldClass' / 'Chapter_01_Polity'
+    ch.mkdir(parents=True)
+    (ch / 'Content_hi.txt').write_text('राजव्यवस्था का पाठ। ' * 40, encoding='utf-8')
+    (ch / 'Key_Facts_hi.txt').symlink_to(secret)
+    (ch / 'chapter.json').symlink_to(secret)
+    assert 'Key_Facts_hi.txt' not in section_files(ch)
+    assert any('symlinks are not allowed' in p for p in check_chapter(ch)[1])
+    monkeypatch.setattr(config, 'BOOKS_DIR', tmp_path / 'books')
+    monkeypatch.setattr(config, 'BOOKS_RECHECK_SECONDS', 0)
+    chapter = books.index(force=True)[0].chapters[0]
+    assert 'Key_Facts' not in chapter.sections and books.load_meta(ch) == {}
+
+
+def test_book_regexes_stay_fast_on_hostile_lines():
+    import time
+    from app import books
+    from app.importers import TRAP_HINT
+    cases = [lambda: books.parse_mermaid('```mermaid\ngraph TD\nA -- ' + ' ' * 8000 + 'B\n```'),
+             lambda: books.EDGE.split('A -- ' + ' ' * 400 + 'B'),
+             lambda: books.render_text('**a ' * 8000),
+             lambda: books.render_text('# a' + ' ' * 8000 + 'b'),
+             lambda: TRAP_HINT.sub('', '(परीक्षक का जाल' * 8000)]
+    for f in cases:
+        t = time.perf_counter(); f()
+        assert time.perf_counter() - t < 0.5
+
+
+def test_atomic_write_does_not_follow_a_planted_temp_link(tmp_path):
+    from app.books import atomic_write
+    victim = tmp_path / 'victim.txt'
+    victim.write_text('keep me')
+    (tmp_path / 'Content_hi.tmp').symlink_to(victim)          # the old predictable temp name
+    atomic_write(tmp_path / 'Content_hi.txt', 'नया पाठ')
+    assert victim.read_text() == 'keep me' and (tmp_path / 'Content_hi.txt').read_text() == 'नया पाठ'
+    assert not [p for p in tmp_path.iterdir() if p.name.startswith('.Content_hi')]
+
+
+def test_ai_reserve_is_atomic_and_obeys_global_kill_switch(db, monkeypatch):
+    from sqlalchemy import func, select
+    from app import ai, config
+    from app.models import AiUsage
+    used = db.scalar(select(func.coalesce(func.sum(AiUsage.count), 0)).where(AiUsage.day == ai._today()))
+    mine = db.scalar(select(AiUsage.count).where(AiUsage.day == ai._today(), AiUsage.device_id == -7)) or 0
+    monkeypatch.setattr(config, 'AI_DAILY_LIMIT_TOTAL', used + 3)
+    assert [ai.reserve(db, -7, own_limit=mine + 10) for _ in range(5)] == [True, True, True, False, False]
+    monkeypatch.setattr(config, 'AI_DAILY_LIMIT_TOTAL', 0)
+    assert ai.reserve(db, 42, own_limit=10) is False
+
+
+def test_unexpected_service_errors_do_not_leak_details(client, monkeypatch):
+    from app import services
+    from fastapi.testclient import TestClient
+    from app.main import app
+    def boom(*a, **k):
+        raise RuntimeError('SELECT secret FROM device')
+    monkeypatch.setattr(services, 'start_mock', boom)
+    c = TestClient(app, raise_server_exceptions=False)
+    c.post('/api/v1/me', json={'level': '10th', 'lang': 'hi'})
+    r = c.post('/api/v1/mock', json={'exam': 'ssc-gd'})
+    assert r.status_code == 500 and 'SELECT' not in r.text

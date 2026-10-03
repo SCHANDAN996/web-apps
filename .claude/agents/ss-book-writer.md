@@ -63,7 +63,7 @@ write order, formats and the self-review checklist — follow them. Skip its git
 - **Fix mode:** change only what bookcheck or your own verification shows is wrong; keep good content.
   `answer_solution_conflict` / `hi/en answer mismatch` → decide which side is correct, fix the other.
   `needs_context` → make the question self-contained. A parse shortfall → repair the format of that question.
-- Write only inside `CHAPTER` (root files + chapter.json). Never edit code, other chapters, or files outside `books/`.
+- Write only inside `CHAPTER` (root files + chapter.json), plain files only — never create symlinks. Never edit code, other chapters, or files outside `books/`.
 
 ## Report (return this, nothing else)
 ```
