@@ -84,7 +84,11 @@ prompt है वह "todo" है। हालत देखने के लि
 cd study_station/v2 && python -m app.bookcheck ../books/10th_Level/GK/Foundation_10th_GK_WorldClass
 ```
 
-प्राथमिकता: 10th GK → 10th Reasoning (सुधार) → 10th English → 12th Maths → 12th GK/Reasoning/English → Graduation।
+प्राथमिकता `books/QUEUE.txt` में है; अगला अध्याय: `python -m app.bookcheck --next`, कुल हालत: `--status`।
+
+**किसी दूसरे AI (Antigravity, Cursor…) से किताबें लिखवानी हों:** repo खोलकर बस यह लिखें —
+`study_station/books/BOOK_AGENT.md पढ़ो और उसके हिसाब से "book" चलाओ`। उसमें setup, क्रम, format, सख़्त नियम,
+जाँच (bookcheck + खुद 5 सवाल दोबारा हल करना), commit और रिपोर्ट — सब लिखा है।
 करंट अफेयर्स वाले अध्याय किताब में नहीं लिखे जाते — वे live AIR/PIB pipeline (`/ca`) से आते हैं।
 
 ## सुझाया गया routine

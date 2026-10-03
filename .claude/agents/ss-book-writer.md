@@ -21,6 +21,9 @@ chapter ROOT (`CHAPTER/Content_hi.txt`, `CHAPTER/Practice_en_Set_01.txt`, …). 
 are not written — report and stop.
 
 ## Steps
+(`study_station/books/BOOK_AGENT.md` is the same procedure written for any AI; Steps 3–5 there give the exact
+write order, formats and the self-review checklist — follow them. Skip its git step: the main agent commits.)
+
 1. `cd study_station/v2 && python -m app.bookcheck "$CHAPTER"` — see what is `todo` and what is a `problem`.
 2. Read `Prompts/Chapter_Intro_Prompt.txt`, then each section's prompt file — it is the spec (structure, level,
    difficulty split, number of items) wherever it does not conflict with BOOK_RULES.md. Read the same section in `GOLD` for layout.

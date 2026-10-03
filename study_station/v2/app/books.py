@@ -313,6 +313,50 @@ def _load_chapter(chapter_dir, subject):
     return ch
 
 
+def subject_of(chapter_dir):
+    """Catalog subject slug of a chapter, from its folder path (…/<Subject>/[<Book>_WorldClass/]Chapter_NN_…)."""
+    for part in reversed(Path(chapter_dir).parts[:-1]):
+        if (subj := _subject(part)) and (part in SUBJECT_DIRS or part.endswith('_WorldClass')):
+            return subj
+    return None
+
+
+def fill_meta(chapter_dir):
+    """Create chapter.json, or fill its missing/invalid fields (never overwrites valid ones).
+    Returns the list of fields it set. The topic comes from the chapter→topic mapping; if no catalog
+    topic fits, it stays '' and bookcheck keeps reporting it for a human/agent to choose."""
+    chapter_dir = Path(chapter_dir)
+    p = chapter_dir / 'chapter.json'
+    try:
+        meta = json.loads(p.read_text(encoding='utf-8')) if p.is_file() else {}
+    except ValueError:
+        meta = {}
+    if not isinstance(meta, dict):
+        meta = {}
+    m = CHAPTER_RE.match(chapter_dir.name)
+    name = m.group(2) if m else chapter_dir.name
+    changed = []
+    hi, en = _titles(chapter_dir, name, {})
+    if not meta.get('title_hi'):
+        meta['title_hi'] = hi; changed.append('title_hi')
+    if not meta.get('title_en'):
+        meta['title_en'] = en; changed.append('title_en')
+    if meta.get('type') not in META_TYPES:
+        meta['type'] = 'dynamic' if 'Current_Affairs' in chapter_dir.name else 'static'; changed.append('type')
+    if meta.get('status') not in META_STATUS:
+        meta['status'] = 'draft'; changed.append('status')
+    if meta['type'] == 'static' and not _topic_ref(meta.get('topic')):
+        ref = topic_for_chapter(subject_of(chapter_dir), name, None)
+        new = f'{ref[0]}/{ref[1]}' if ref else ''
+        if new != meta.get('topic'):
+            meta['topic'] = new; changed.append('topic')
+    meta.setdefault('as_of', None)
+    meta.setdefault('notes', '')
+    if changed:
+        p.write_text(json.dumps(meta, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    return changed
+
+
 def _make_book(path, level, subject, generic, taken):
     slug = f'{level}-{SUBJECT_WORD[subject]}' if generic else _slug(re.sub(r'_WorldClass$', '', path.name))
     base, n = slug, 2

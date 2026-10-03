@@ -254,6 +254,8 @@ def run(db, chapter, wanted=None, dry_run=False, out=print):
         else:
             out(f'wrote {name} ({len(text)} chars)')
         written.append(name)
+    if written and (fields := books.fill_meta(chapter)):
+        out(f'chapter.json: set {", ".join(fields)}')
     return written, failed
 
 

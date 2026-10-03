@@ -336,7 +336,7 @@ def test_stub_prompts_and_language_mind_maps(tmp_path):
     write(ch / 'Mind_Map_hi.txt', 'केवल पाठ, कोई ग्राफ़ नहीं। ' * 30)
     todo, problems = check_chapter(ch)
     assert 'Content_hi.txt' in todo
-    assert any('Mind_Map_hi.txt: no mermaid graph' in p for p in problems)
+    assert any('Mind_Map_hi.txt: no ```mermaid graph block' in p for p in problems)
 
 
 def test_language_mind_maps_in_reader(books_dir):
@@ -346,3 +346,20 @@ def test_language_mind_maps_in_reader(books_dir):
     assert set(pct.sections['Mind_Map']) == {'*', 'en'}
     assert books.pick_lang(pct, 'Mind_Map', 'en') == 'en'
     assert books.pick_lang(pct, 'Mind_Map', 'hi') == '*'
+
+
+def test_fill_meta_creates_and_completes_without_overwriting(tmp_path):
+    ch = tmp_path / '10th_Level' / 'GK' / 'Foundation_10th_GK_WorldClass' / 'Chapter_07_States_Rivers'
+    write(ch / 'README.md', '# राज्य एवं नदियाँ / States & Rivers\n')
+    assert set(books.fill_meta(ch)) == {'title_hi', 'title_en', 'type', 'status', 'topic'}
+    meta = json.loads((ch / 'chapter.json').read_text())
+    assert meta['title_en'] == 'States & Rivers' and meta['topic'] == 'ga/indian-geography'
+    assert meta['type'] == 'static' and meta['status'] == 'draft'
+    meta.update(status='reviewed', as_of=2025)
+    (ch / 'chapter.json').write_text(json.dumps(meta))
+    assert books.fill_meta(ch) == []                                  # nothing missing → untouched
+    assert json.loads((ch / 'chapter.json').read_text())['status'] == 'reviewed'
+    ca = tmp_path / '10th_Level' / 'GK' / 'Foundation_10th_GK_WorldClass' / 'Chapter_20_Current_Affairs_6M'
+    ca.mkdir()
+    books.fill_meta(ca)
+    assert json.loads((ca / 'chapter.json').read_text())['type'] == 'dynamic'
