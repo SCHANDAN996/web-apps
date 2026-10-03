@@ -1,0 +1,142 @@
+अक्षर आधारित प्रश्न / Alphabet Questions
+
+आप क्या सीखेंगे? (What Will You Learn?)
+
+किसी भी अक्षर का alphabet number (A=1, B=2 ... Z=26) तुरंत पहचानना।
+
+Reverse alphabet (Z=1, Y=2 ... A=26) की positions बिना रटे निकालना।
+
+Letter series, analogy, classification और coding-decoding वाले सवालों की जड़ तक पहुँचना।
+
+परीक्षक द्वारा बिछाए जाने वाले जालों को पहचान कर चकमा देना।
+
+🔥 हुक (Hook)
+
+रुको, ये सवाल देखो—
+B D F H : C F I L :: O Q S U : ?
+पहली नज़र में लगा, “ये क्या बवाल है?”
+लेकिन मैं तुमसे वादा करता हूँ, इस चैप्टर के बाद ऐसे सवाल तुम्हारे लिए बाएँ हाथ का खेल बन जाएँगे।
+Alphabet questions सिर्फ A,B,C नहीं, बल्कि तुम्हारे reasoning के हथियार हैं। चलो इन्हें sharp करते हैं।
+
+लोग यहाँ क्यों अटकते हैं? (Common Struggle)
+
+ज़्यादातर स्टूडेंट्स सोचते हैं कि “अक्षर वाले सवाल तो बच्चों के होते हैं,” और सीधे पढ़ना छोड़ देते हैं। फिर एग्ज़ाम में जब letter series का एक मुश्किल सवाल आता है, तो 30 सेकंड बर्बाद करके भी गलत कर बैठते हैं। असली प्रॉब्लम है — positions याद न होना और pattern पकड़ने की प्रैक्टिस न होना। हम आज दोनों को जड़ से ठीक करेंगे।
+
+📖 Alphabet की नींव (The Foundation)
+1. Forward Position (A=1 से Z=26)
+
+A=1, B=2, C=3 ... Z=26. इसे याद करने का सबसे आसान तरीका है EJOTY ट्रिक:
+
+E = 5
+
+J = 10
+
+O = 15
+
+T = 20
+
+Y = 25
+
+🧠 Active Recall: बिना देखे बताओ — J का नंबर क्या है? अब O से 3 पीछे कौन सा अक्षर आएगा? (Answer: J=10, O-3 = L (12))
+
+2. Reverse Position (Z=1 से A=26)
+
+जब कहा जाए “right से 5वाँ अक्षर” तो reverse counting शुरू होती है। Z=1, Y=2, X=3 ... A=26.
+Trick: Forward position याद हो तो reverse = 27 – forward position.
+Example: G का forward = 7, तो reverse = 27-7 = 20.
+
+🧠 Active Recall: Reverse alphabet में 8वाँ अक्षर कौन सा है? (Answer: 27-8 = 19 = S, पर reverse में 8th मतलब Z=1, Y=2... S=8, तो S ही 8वाँ है। ध्यान रहे, यहाँ उल्टी गिनती है।)
+
+3. Opposite Letters (आमने-सामने)
+
+A ↔ Z, B ↔ Y, C ↔ X ... इस जोड़ी का sum हमेशा 27 होता है।
+Formula: Opposite letter = 27 – (अक्षर का forward number)
+Example: C=3, opposite = 27-3 = 24 = X. बस!
+
+🧠 Active Recall: E का opposite letter क्या होगा? (Hint: E=5, 27-5=22=V. तो E ↔ V)
+
+🧠 Letter Series (अक्षर शृंखला)
+
+पैटर्न पहचानो और अगला अक्षर बताओ।
+
+Types of patterns:
+
+Same difference (+/-): A, D, G, J, ? → A(1) +3 = D(4), +3 = G(7), +3 = J(10), +3 = M(13). Answer M.
+
+Increasing difference: A, C, F, J, ? → +2, +3, +4, next +5 → O(15).
+
+Mixed series: AB, CD, EF, ? → pairs, next GH.
+
+Reverse series: Z, W, T, Q, ? → -3 each, next N.
+
+🧠 Active Recall: शृंखला पूरी करो — B, E, H, K, ___ (Answer: N, क्योंकि +3 का क्रम है।)
+
+Examiner's Favourite: कभी-कभी series में letters और numbers mix होते हैं — जैसे A2, C4, E6, ? → alternate letter +2 और number ×2 या +2, दिमाग खुला रखो।
+
+🔁 Letter Analogy (अक्षर सादृश्यता)
+
+यहाँ दो जोड़ों के बीच relationship पकड़ना होता है।
+Example: ABC : ZYX :: EFG : ?
+ABC forward, ZYX reverse of ABC. EFG reverse = VUT (E↔V, F↔U, G↔T).
+Relationship पहले जोड़े से decode करो, फिर second पर लगाओ।
+
+🧠 Active Recall: CAT : XZG :: DOG : ? (Hint: C↔X, A↔Z, T↔G; D↔W, O↔L, G↔T → WLT. ये opposite letter analogy है।)
+
+🏷️ Letter Classification (Odd One Out)
+
+चार options में से बेमेल ढूँढो। Position, vowel/consonant, या pattern से देखो।
+Example: (A) H (B) J (C) P (D) T — सभी composite position numbers? H=8 (composite?), J=10, P=16, T=20. कोई और पैटर्न: J 10 का position, T 20, H 8, P 16 — सभी even position numbers, लेकिन कुछ prime? H 8 composite, J 10 composite, T 20 composite, P 16 composite, all composite except? कोई prime नहीं है. अलग नजरिया: J का position 10 है जो 5 का multiple, लेकिन H=8, P=16, T=20 भी 4 के multiples. तो सब even. Actually H, J, P, T सब positions even हैं. But J=10, maybe odd one based on vowel placement? यहाँ तो classification में examiner अक्सर opposite letters का trap डालता है। Example: B, C, D, E — E अकेला vowel है, बाकी consonant; ये बड़ा आसान है। पर trickier: C, F, I, L — सब में gap of 3 (C=3, F=6, I=9, L=12), लेकिन option में से एक gap अलग हो सकता है।
+
+🧠 Active Recall: इनमें से बेजोड़ पहचानो — A, E, I, O, T (Answer: T, क्योंकि ये consonant है, बाकी सब vowels हैं।)
+
+📨 Coding-Decoding (अक्षर कोडिंग)
+
+Alphabet को किसी rule से code किया जाता है।
+Common rules:
+
+Opposite letter (A=Z, B=Y...)
+
++1, -1 shift (A=B, B=C या B=A...)
+
+Position number coding: A=1, B=2 etc.
+
+अजीबो-गरीब: अक्षर को उसके प्लेस वैल्यू के sum/difference से कोड करना।
+
+Example: यदि PEN = 16-5-14, तो BAT = ? PEN के letters की positions: P=16, E=5, N=14, तो code वही positions हैं। BAT = 2-1-20.
+
+Example (Shift): यदि CAT को DBU लिखा जाए, तो RAT का code? C+1=D, A+1=B, T+1=U; तो R+1=S, A+1=B, T+1=U → SBU.
+
+🧠 Active Recall: यदि D = 4 और DOG = 4-15-7, तो GOD का code क्या होगा? (Answer: G=7, O=15, D=4 → 7-15-4. ध्यान रहे, sequence उल्टी है।)
+
+🎯 Mnemonic Trick (याद रखने का जुगाड़)
+
+EJOTY और इसका उल्टा VQLGB (V=5? Actually reverse of EJOTY: E↔V, J↔Q, O↔L, T↔G, Y↔B. So V=5, Q=10, L=15, G=20, B=25 in reverse order? Wait: In reverse alphabet, Z=1, Y=2... so V=5? Let’s check: V is 5th from Z? Z(1) Y(2) X(3) W(4) V(5). Yes! So VQLGB gives you reverse positions: V=5, Q=10, L=15, G=20, B=25. Trick: "VQLGB – Very Quiet Lions Growl Boldly" (V=5, Q=10, L=15, G=20, B=25). याद रखो ये phrase।
+हिंदी ट्रिक: "ई जोत (EJOTY) से आगे बढ़ो और विकल्प (VQLGB) से पीछे हटो।"
+
+📋 Summary Table: Key Positions
+अक्षर	Forward Pos.	Reverse Pos.	Opposite Letter
+A	1	26	Z
+E	5	22	V
+J	10	17	Q
+O	15	12	L
+T	20	7	G
+Y	25	2	B
+Z	26	1	A
+
+*याद रखें: Opposite = 27 – Forward Position*
+
+📅 Review this after 2 days. इस चैप्टर को एक बार फिर से पलटना मत भूलना। Revision के बिना दिमाग का शटर बंद हो जाता है।
+
+⚠️ Caution: Examiner's Trap (परीक्षक का जाल)
+
+1. विकल्पों में एक से अधिक संभावित पैटर्न
+प्रश्न: A, C, F, J, ?
+विकल्प: (a) O (b) P (c) K (d) M
+यहाँ दिमाग में आ सकता है: +2, +3, +4, तो +5 = O. लेकिन कोई स्टूडेंट सोच सकता है कि अक्षरों के बीच का अंतर: A(1) to C(3) diff 2, C(3) to F(6) diff 3, F(6) to J(10) diff 4, next diff 5 = O(15) है। लेकिन अगर विकल्प में O और P दोनों हों, और किसी को लगे कि +2, +3, +4 के बाद +6 करें तो P भी आ सकता है। परीक्षक जानबूझकर ऐसे दोनों विकल्प डालता है। भ्रम में मत पड़ो; सबसे natural pattern (difference of consecutive numbers) चुनो।
+
+2. कठिन शब्दों का भ्रम
+Coding में कभी-कभी शब्द को उल्टा करके फिर कोड करते हैं। जैसे “SCHOOL” का code “PMMOOR” दे दिया जाए, जो देखने में बेतरतीब लगे। घबराओ मत; सबसे पहले देखो कि letters की positions के साथ क्या किया गया है — हो सकता है हर अक्षर को +3 किया गया हो और फिर reverse कर दिया हो। उलझा हुआ सवाल अक्सर सीधे simple operation को छुपा रहा होता है।
+
+3. दोहरे संबंध वाले प्रश्न
+Analogy: ACE : GIK :: MOQ : ?
+यहाँ ACE (1,3,5) और GIK (7,9,11) — हर बार +6 का shift? लेकिन MOQ (13,15,17) +6 = 19,21,23 = SUW. पर विकल्प में SUW और STV दोनों हो सकते हैं (एक pattern positions पर, दूसरा letters पर +6)। ऐसे में स्पष्ट pattern (position addition) को प्राथमिकता दो। जाँच करो कि रिश्ता एक समान है या नहीं।

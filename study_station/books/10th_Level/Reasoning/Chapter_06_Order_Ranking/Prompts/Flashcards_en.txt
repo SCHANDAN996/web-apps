@@ -1,0 +1,121 @@
+🃏 Flashcards – Order & Ranking
+
+Q: What is the golden formula when the same person is counted from both ends?
+A: Total = Left rank + Right rank – 1 (T = L + R – 1)
+
+Q: In a row of 50, Priya is 22nd from the left. What is her rank from the right?
+A: 50 – 22 + 1 = 29th from right. (Opposite rank = Total – Given rank + 1)
+
+Q: Why do we subtract 1 in T = L + R – 1?
+A: Because the person is counted twice — once from the left, once from the right. Subtracting 1 corrects the double‑counting.
+
+Q: Ravi is 11th from the front and 14th from the back. How many people are in the queue?
+A: 11 + 14 – 1 = 24 people.
+
+Q: A is 15th from left, B is 12th from right, total strength is 30. Do they overlap?
+A: Yes, because 15 + 12 = 27, which is less than 30? Wait, 27 < 30, so no overlap. Overlap occurs when sum > total. Here sum 27 < 30, so they do NOT overlap.
+
+Q: Two persons A and B are in a line. A is 10th from left, B is 8th from right. Total people = 18. Find the number of persons between them.
+A: Convert B to left: 18 – 8 + 1 = 11th from left. Between = |10 – 11| – 1 = 0. They are adjacent.
+
+Q: In an interchange problem, what rank remains unchanged for the person who did not originally have that end's rank?
+A: The rank from the opposite end to the one where new information is given. Usually the person who swaps gets the other’s position, so the new rank of one equals the old rank of the other from that end. Then total = New Left rank of one + Old Right rank of the same person (or other) – 1.
+
+Q: What mnemonic helps to instantly recall the total formula?
+A: “Left plus Right, minus one — Total done, oh what fun!” or “Luv-Rav minus one”.
+
+Q: What simple trick helps avoid confusion in overlap cases?
+A: Always convert both ranks to the same end (say left) first. Then use |L1 – L2| – 1 to find persons between. This eliminates the risk of mixing opposite ends.
+
+Q: A row has 40 students. Rohit is 18th from left. How many students are to his right?
+A: Total – Left rank = 40 – 18 = 22 students to his right. (Note: not including Rohit)
+
+Q: What is the minimum possible total when A is 6th from left and B is 9th from right, with no other information?
+A: Minimum total = 6 + 9 – 1 = 14 (assuming maximum overlap, i.e., they are the same person).
+
+Q: What is the maximum possible total when A is 6th from left and B is 9th from right, with no other information?
+A: Maximum total = 6 + 9 = 15 (assuming no overlap, they are at opposite extremes).
+
+Q: Why might an examiner’s trap say “cannot be determined” in an Order & Ranking question?
+A: When the relative positions of two persons are not specified, multiple arrangements are possible. For example, “A is 5th from left, B is 4th from right” without telling whether A is left of B or right of B, the total cannot be uniquely determined.
+
+Q: What is the trick to quickly find the number of persons between two people when both are given from the same end?
+A: Difference of ranks minus 1. E.g., 15th and 21st from left → (21 – 15) – 1 = 5 persons between.
+
+Q: P is 7th from left, Q is 13th from right. They interchange places and P becomes 15th from left. Find total.
+A: P’s new left rank (15) = Q’s original left rank. Now Q’s right rank remains 13. So total = 15 + 13 – 1 = 27.
+
+Q: In an overlapping case, A is 14th from left, B is 11th from right, total 20. How many are between them?
+A: A’s right rank = 20 – 14 + 1 = 7. B’s right rank = 11. Between = 11 – 7 – 1 = 3.
+
+Q: What common mistake do students make when using T = L + R?
+A: They forget to subtract 1, counting the person twice, leading to an off‑by‑one error. This is a classic examiner’s trap where options include both L+R and L+R-1.
+
+Q: What is the “singing memory aid” for converting opposite-end ranks?
+A: “Total minus given plus one, runs the calculation just for fun.”
+
+Q: A is 9th from left, B is 9th from right. Can they be the same person?
+A: Yes, if total = 9 + 9 – 1 = 17, they are exactly the same person.
+
+Q: What should you always check when an Order & Ranking question says “some persons are sitting between them” but does not give exact number?
+A: The problem may have multiple possibilities or a range of total numbers. Check if the answer is “cannot be determined” or if you need to find the minimum/maximum. It’s a common trap to assume a fixed total.### 🃏 Flashcards – Order & Ranking
+
+Q: What is the golden formula when the same person is counted from both ends?
+A: Total = Left rank + Right rank – 1 (T = L + R – 1)
+
+Q: In a row of 50, Priya is 22nd from the left. What is her rank from the right?
+A: 50 – 22 + 1 = 29th from right. (Opposite rank = Total – Given rank + 1)
+
+Q: Why do we subtract 1 in T = L + R – 1?
+A: Because the person is counted twice — once from the left, once from the right. Subtracting 1 corrects the double‑counting.
+
+Q: Ravi is 11th from the front and 14th from the back. How many people are in the queue?
+A: 11 + 14 – 1 = 24 people.
+
+Q: A is 15th from left, B is 12th from right, total strength is 30. Do they overlap?
+A: No, because 15 + 12 = 27, which is less than 30. Overlap occurs when sum > total.
+
+Q: Two persons A and B are in a line. A is 10th from left, B is 8th from right. Total people = 18. Find the number of persons between them.
+A: Convert B to left: 18 – 8 + 1 = 11th from left. Between = |10 – 11| – 1 = 0. They are adjacent.
+
+Q: In an interchange problem, what rank remains unchanged for the person who did not originally have that end's rank?
+A: The rank from the opposite end to the one where new information is given. Usually the person who swaps gets the other’s position, so the new rank of one equals the old rank of the other from that end. Then total = New Left rank of one + Old Right rank of the same person (or other) – 1.
+
+Q: What mnemonic helps to instantly recall the total formula?
+A: “Left plus Right, minus one — Total done, oh what fun!” or “Luv-Rav minus one”.
+
+Q: What simple trick helps avoid confusion in overlap cases?
+A: Always convert both ranks to the same end (say left) first. Then use |L1 – L2| – 1 to find persons between. This eliminates the risk of mixing opposite ends.
+
+Q: A row has 40 students. Rohit is 18th from left. How many students are to his right?
+A: Total – Left rank = 40 – 18 = 22 students to his right. (Note: not including Rohit)
+
+Q: What is the minimum possible total when A is 6th from left and B is 9th from right, with no other information?
+A: Minimum total = 6 + 9 – 1 = 14 (assuming maximum overlap, i.e., they are the same person).
+
+Q: What is the maximum possible total when A is 6th from left and B is 9th from right, with no other information?
+A: Maximum total = 6 + 9 = 15 (assuming no overlap, they are at opposite extremes).
+
+Q: Why might an examiner’s trap say “cannot be determined” in an Order & Ranking question?
+A: When the relative positions of two persons are not specified, multiple arrangements are possible. For example, “A is 5th from left, B is 4th from right” without telling whether A is left of B or right of B, the total cannot be uniquely determined.
+
+Q: What is the trick to quickly find the number of persons between two people when both are given from the same end?
+A: Difference of ranks minus 1. E.g., 15th and 21st from left → (21 – 15) – 1 = 5 persons between.
+
+Q: P is 7th from left, Q is 13th from right. They interchange places and P becomes 15th from left. Find total.
+A: P’s new left rank (15) = Q’s original left rank. Now Q’s right rank remains 13. So total = 15 + 13 – 1 = 27.
+
+Q: In an overlapping case, A is 14th from left, B is 11th from right, total 20. How many are between them?
+A: A’s right rank = 20 – 14 + 1 = 7. B’s right rank = 11. Between = 11 – 7 – 1 = 3.
+
+Q: What common mistake do students make when using T = L + R?
+A: They forget to subtract 1, counting the person twice, leading to an off‑by‑one error. This is a classic examiner’s trap where options include both L+R and L+R-1.
+
+Q: What is the “singing memory aid” for converting opposite-end ranks?
+A: “Total minus given plus one, runs the calculation just for fun.”
+
+Q: A is 9th from left, B is 9th from right. Can they be the same person?
+A: Yes, if total = 9 + 9 – 1 = 17, they are exactly the same person.
+
+Q: What should you always check when an Order & Ranking question says “some persons are sitting between them” but does not give exact number?
+A: The problem may have multiple possibilities or a range of total numbers. Check if the answer is “cannot be determined” or if you need to find the minimum/maximum. It’s a common trap to assume a fixed total.

@@ -1,0 +1,26 @@
+The Hardest Idea: Why “At Least One” Is a Sneaky Beast (And How to Tame It with a Yawn)
+
+Let me tell you about my uncle Bob. Uncle Bob loves carnival games. One day, he strutted up to a stall where the guy said, “I’ll toss two coins. If you see at least one head, you win a giant panda. Easy, right? Fifty-fifty?” Uncle Bob grinned. “Two coins, half of the time I’ll see a head somewhere. I’m in!” The coins flew, clinked on the table — tail, tail. Bob lost. He grumbled, “No way. The odds are rigged.”
+
+I tugged his sleeve. “Uncle Bob, the coin game doesn’t work like your gut thinks. You just got tricked by the ‘at least one’ monster. Want to see how?”
+
+He squinted, “Alright kid, lecture me.” So I pulled out a napkin and a pen.
+
+You see, when we hear “at least one head from two coins,” our lazy brain does this:
+*First coin can be head — that’s half the chance. If that fails, the second coin can still be head — so it feels like 50%+50% = 100%, but that’s clearly silly. So we scale it down and guess somewhere around 50–75%.* But the actual answer is 75%, and Uncle Bob lost because that still leaves a 25% chance of getting neither head — and that’s exactly what happened.
+
+But here’s the Feynman secret: When a problem says “at least one,” ask yourself the yawning question — “What would make me yawn in disappointment?” The answer? Getting absolutely no head. That’s a lot easier to count.
+
+Out of the four equally likely outcomes (HH, HT, TH, TT), only one makes you yawn — the TT. So the probability of yawning (no head) is 1/4. Now, everything else in the universe gives you at least one head! So the chance of not yawning = 1 – 1/4 = 3/4. Done. No adding weird half-probabilities. No gut feelings.
+
+Uncle Bob’s eyes went wide. “So you just find the opposite’s chance and subtract from 1?” Exactly. The “at least one” monster is terrified of the “What’s the total failure?” flashlight.
+
+The Never-Forget Trick: The “One Minus None” Dance
+Whenever a question whispers “at least one,” your mind must automatically sing:
+🎵 “Find the chance of NONE happening,
+Take ONE minus NONE, and start dancing!”
+
+That’s it. P(at least one success) = 1 – P(all failures). For two dice rolls, if you want at least one six: P(no six on first) = 5/6, P(no six on second) = 5/6. So P(no six at all) = 5/6 × 5/6 = 25/36. Then P(at least one six) = 1 – 25/36 = 11/36. No sweat.
+
+So here’s your puzzle, my young Feynman-in-training:
+You have a regular die. You roll it three times. What is the probability of getting at least one 3? Use the “One Minus None” trick. The answer might make you smile, because suddenly a gnarly problem becomes a two-line calculation. Try it now, and remember — the coin (and the die) has no memory, but you now have a trick you’ll never forget.

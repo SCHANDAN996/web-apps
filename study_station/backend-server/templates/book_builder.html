@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📚 Book Builder | Study Station Admin</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <style>
+        :root {
+            --bg: #0a0a0f; --bg2: #12121a; --bg3: #1a1a2e;
+            --text: #f0f0f0; --text2: #8888aa; --accent: #673AB7;
+            --accent2: #9C27B0; --success: #4CAF50; --warn: #FF9800;
+            --danger: #F44336; --glass: rgba(25,25,40,0.7);
+            --border: rgba(255,255,255,0.08); --radius: 14px;
+        }
+        * { margin:0; padding:0; box-sizing:border-box; font-family:'Outfit',sans-serif; }
+        body { background:var(--bg); color:var(--text); min-height:100vh; }
+
+        /* Top Bar */
+        .topbar { background:var(--bg2); border-bottom:1px solid var(--border); padding:16px 30px; display:flex; align-items:center; justify-content:space-between; position:sticky; top:0; z-index:100; backdrop-filter:blur(12px); }
+        .topbar h1 { font-size:1.4rem; display:flex; align-items:center; gap:10px; }
+        .topbar a { color:var(--accent); text-decoration:none; font-weight:500; }
+
+        /* Layout */
+        .layout { display:grid; grid-template-columns:320px 1fr; min-height:calc(100vh - 64px); }
+        .sidebar { background:var(--bg2); border-right:1px solid var(--border); padding:20px; overflow-y:auto; }
+        .main { padding:30px; overflow-y:auto; }
+
+        /* Cards */
+        .card { background:var(--glass); border:1px solid var(--border); border-radius:var(--radius); padding:20px; margin-bottom:16px; transition:all .3s; cursor:pointer; }
+        .card:hover { border-color:var(--accent); transform:translateY(-2px); box-shadow:0 8px 25px rgba(103,58,183,.15); }
+        .card.active { border-color:var(--accent); background:rgba(103,58,183,.1); }
+        .card-title { font-size:1.1rem; font-weight:600; margin-bottom:6px; display:flex; align-items:center; gap:8px; }
+        .card-meta { font-size:.8rem; color:var(--text2); display:flex; gap:12px; flex-wrap:wrap; }
+
+        /* Buttons */
+        .btn { padding:10px 22px; border:none; border-radius:8px; font-weight:600; cursor:pointer; font-size:.9rem; transition:all .2s; display:inline-flex; align-items:center; gap:6px; }
+        .btn-primary { background:var(--accent); color:#fff; }
+        .btn-primary:hover { background:var(--accent2); transform:translateY(-1px); }
+        .btn-success { background:var(--success); color:#fff; }
+        .btn-danger { background:var(--danger); color:#fff; }
+        .btn-outline { background:transparent; border:1px solid var(--border); color:var(--text); }
+        .btn-outline:hover { border-color:var(--accent); color:var(--accent); }
+        .btn-sm { padding:6px 14px; font-size:.8rem; }
+        .btn-icon { width:36px; height:36px; padding:0; display:flex; align-items:center; justify-content:center; border-radius:8px; }
+
+        /* Badges */
+        .badge { padding:3px 10px; border-radius:12px; font-size:.7rem; font-weight:600; text-transform:uppercase; }
+        .badge-draft { background:rgba(255,152,0,.15); color:var(--warn); }
+        .badge-ready { background:rgba(76,175,80,.15); color:var(--success); }
+        .badge-generating { background:rgba(103,58,183,.15); color:var(--accent); }
+        .badge-published { background:rgba(33,150,243,.15); color:#2196F3; }
+
+        /* Form */
+        .form-group { margin-bottom:16px; }
+        .form-group label { display:block; font-size:.85rem; color:var(--text2); margin-bottom:6px; font-weight:500; }
+        .form-input { width:100%; padding:10px 14px; background:rgba(0,0,0,.3); border:1px solid var(--border); border-radius:8px; color:var(--text); font-size:.95rem; outline:none; transition:border-color .2s; }
+        .form-input:focus { border-color:var(--accent); }
+        select.form-input { cursor:pointer; }
+        select.form-input option { background:var(--bg2); }
+        textarea.form-input { min-height:120px; resize:vertical; font-family:'Outfit',sans-serif; }
+
+        /* Chapter List */
+        .ch-item { display:flex; align-items:center; padding:14px 16px; background:var(--glass); border:1px solid var(--border); border-radius:10px; margin-bottom:10px; transition:all .2s; gap:12px; }
+        .ch-item:hover { border-color:var(--accent); background:rgba(103,58,183,.05); }
+        .ch-num { width:34px; height:34px; border-radius:50%; background:rgba(255,255,255,.07); display:flex; align-items:center; justify-content:center; font-weight:700; font-size:.85rem; flex-shrink:0; }
+        .ch-info { flex:1; min-width:0; }
+        .ch-title { font-weight:600; font-size:.95rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+        .ch-sub { font-size:.75rem; color:var(--text2); margin-top:2px; }
+        .ch-actions { display:flex; gap:6px; flex-shrink:0; }
+
+        /* Progress Bar */
+        .progress-bar { height:6px; background:rgba(255,255,255,.06); border-radius:3px; overflow:hidden; margin-top:8px; }
+        .progress-fill { height:100%; background:linear-gradient(90deg,var(--accent),var(--accent2)); border-radius:3px; transition:width .5s ease; }
+
+        /* Modal */
+        .modal-overlay { position:fixed; inset:0; background:rgba(0,0,0,.7); backdrop-filter:blur(4px); z-index:200; display:none; align-items:center; justify-content:center; padding:20px; }
+        .modal-overlay.show { display:flex; }
+        .modal { background:var(--bg2); border:1px solid var(--border); border-radius:var(--radius); width:100%; max-width:550px; padding:30px; animation:slideUp .3s ease; }
+        @keyframes slideUp { from{opacity:0;transform:translateY(30px)} to{opacity:1;transform:translateY(0)} }
+        .modal h2 { margin-bottom:20px; font-size:1.3rem; }
+
+        /* Stats Row */
+        .stats-row { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin-bottom:24px; }
+        .stat-card { background:var(--glass); border:1px solid var(--border); border-radius:var(--radius); padding:18px; text-align:center; }
+        .stat-val { font-size:1.8rem; font-weight:700; background:linear-gradient(135deg,var(--accent),var(--accent2)); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+        .stat-label { font-size:.75rem; color:var(--text2); margin-top:4px; }
+
+        /* Empty State */
+        .empty { text-align:center; padding:60px 20px; color:var(--text2); }
+        .empty ion-icon { font-size:4rem; margin-bottom:16px; opacity:.3; }
+
+        /* Responsive */
+        @media(max-width:768px) {
+            .layout { grid-template-columns:1fr; }
+            .sidebar { border-right:none; border-bottom:1px solid var(--border); max-height:300px; }
+            .stats-row { grid-template-columns:repeat(2,1fr); }
+        }
+
+        /* Toast */
+        .toast { position:fixed; bottom:30px; right:30px; padding:14px 24px; border-radius:10px; font-weight:500; z-index:300; animation:slideUp .3s ease; display:none; }
+        .toast.show { display:block; }
+        .toast-success { background:var(--success); color:#fff; }
+        .toast-error { background:var(--danger); color:#fff; }
+
+        /* Loader */
+        .spinner { width:20px; height:20px; border:2px solid rgba(255,255,255,.2); border-top-color:#fff; border-radius:50%; animation:spin .8s linear infinite; display:inline-block; }
+        @keyframes spin { to{transform:rotate(360deg)} }
+    </style>
+</head>
+<body>
+
+<!-- Top Bar -->
+<div class="topbar">
+    <h1>📚 Book Builder</h1>
+    <div style="display:flex;gap:16px;align-items:center;">
+        <a href="/admin">← Dashboard</a>
+        <button class="btn btn-primary btn-sm" onclick="openNewBookModal()">
+            <ion-icon name="add-outline"></ion-icon> New Book
+        </button>
+    </div>
+</div>
+
+<!-- Main Layout -->
+<div class="layout">
+    <!-- Sidebar: Book List -->
+    <div class="sidebar">
+        <h3 style="margin-bottom:16px;font-size:1rem;color:var(--text2);">📖 Your Books</h3>
+        <div id="bookList">
+            {% if books %}
+                {% for book in books %}
+                <div class="card {% if active_book and active_book.id == book.id %}active{% endif %}" 
+                     onclick="selectBook({{ book.id }})" id="book-card-{{ book.id }}">
+                    <div class="card-title">
+                        <span>{{ book.icon or '📐' }}</span>
+                        {{ book.title }}
+                    </div>
+                    <div class="card-meta">
+                        <span>{{ book.subject or 'General' }}</span>
+                        <span>{{ book.total_chapters }} chapters</span>
+                        <span class="badge badge-{{ book.status }}">{{ book.status }}</span>
+                    </div>
+                    <div class="progress-bar" style="margin-top:10px;">
+                        {% set done = book.chapters|selectattr('status','equalto','ready')|list|length %}
+                        {% set total = book.chapters|length %}
+                        <div class="progress-fill" style="width:{{ (done/total*100) if total > 0 else 0 }}%"></div>
+                    </div>
+                </div>
+                {% endfor %}
+            {% else %}
+                <div class="empty">
+                    <ion-icon name="book-outline"></ion-icon>
+                    <p>No books yet.<br>Click "New Book" to start!</p>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main" id="mainContent">
+        {% if active_book %}
+        <!-- Stats Row -->
+        <div class="stats-row">
+            <div class="stat-card">
+                <div class="stat-val">{{ active_book.total_chapters }}</div>
+                <div class="stat-label">Total Chapters</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-val">{{ active_book.chapters|selectattr('status','equalto','ready')|list|length }}</div>
+                <div class="stat-label">Ready</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-val">{{ active_book.target_exam or '—' }}</div>
+                <div class="stat-label">Target Exam</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-val">{{ active_book.status|capitalize }}</div>
+                <div class="stat-label">Status</div>
+            </div>
+        </div>
+
+        <!-- Book Header -->
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;">
+            <div>
+                <h2 style="font-size:1.6rem;">{{ active_book.icon }} {{ active_book.title }}</h2>
+                <p style="color:var(--text2);margin-top:4px;">{{ active_book.subtitle or active_book.description or '' }}</p>
+            </div>
+            <div style="display:flex;gap:8px;">
+                <button class="btn btn-success btn-sm" onclick="generateAllChapters({{ active_book.id }})" id="genAllBtn">
+                    <ion-icon name="flash-outline"></ion-icon> AI Generate All
+                </button>
+                <button class="btn btn-outline btn-sm" onclick="openAddChapterModal({{ active_book.id }})">
+                    <ion-icon name="add-outline"></ion-icon> Add Chapter
+                </button>
+                <a href="/book/{{ active_book.slug }}" target="_blank" class="btn btn-outline btn-sm">
+                    <ion-icon name="eye-outline"></ion-icon> Preview
+                </a>
+            </div>
+        </div>
+
+        <!-- Chapter List -->
+        <div id="chapterList">
+            {% for ch in active_book.chapters %}
+            <div class="ch-item" id="ch-item-{{ ch.id }}">
+                <div class="ch-num">{{ ch.order }}</div>
+                <div class="ch-info">
+                    <div class="ch-title">{{ ch.title_en }}</div>
+                    <div class="ch-sub">
+                        {% if ch.title_hi %}{{ ch.title_hi }} · {% endif %}
+                        {{ ch.word_count or 0 }} words · {{ ch.estimated_read_time or 0 }}min read
+                        {% if ch.cognitive_load_score %} · CL: {{ "%.1f"|format(ch.cognitive_load_score) }}{% endif %}
+                    </div>
+                </div>
+                <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap;">
+                    {% if ch.feynman_en %}<span title="Feynman" style="font-size:1.1rem;">🧠</span>{% endif %}
+                    {% if ch.retrieval_prompts_en %}<span title="Active Recall" style="font-size:1.1rem;">🤔</span>{% endif %}
+                    {% if ch.spaced_cards_en %}<span title="Flashcards" style="font-size:1.1rem;">🃏</span>{% endif %}
+                    {% if ch.mind_map_data %}<span title="Mind Map" style="font-size:1.1rem;">🗺️</span>{% endif %}
+                    {% if ch.pyq_inline %}<span title="PYQ" style="font-size:1.1rem;">📊</span>{% endif %}
+                    {% if ch.key_formulas %}<span title="Formulas" style="font-size:1.1rem;">📐</span>{% endif %}
+                    {% if ch.practice_questions_en %}<span title="Practice Questions (EN)" style="font-size:.75rem;background:rgba(33,150,243,.15);color:#2196F3;padding:2px 8px;border-radius:10px;font-weight:600;">📝 EN: {{ (ch.practice_questions_en|from_json|length) if ch.practice_questions_en else 0 }}</span>{% endif %}
+                    {% if ch.practice_questions_hi %}<span title="Practice Questions (HI)" style="font-size:.75rem;background:rgba(76,175,80,.15);color:#4CAF50;padding:2px 8px;border-radius:10px;font-weight:600;">📝 HI: {{ (ch.practice_questions_hi|from_json|length) if ch.practice_questions_hi else 0 }}</span>{% endif %}
+                </div>
+                <div class="ch-actions">
+                    <span class="badge badge-{{ ch.status }}">{{ ch.status }}</span>
+                    <button class="btn btn-outline btn-icon btn-sm" onclick="openQuestionsModal({{ ch.id }},'{{ ch.title_en }}')" title="Import Questions" style="color:var(--success);border-color:var(--success);">
+                        <ion-icon name="document-text-outline"></ion-icon>
+                    </button>
+                    <button class="btn btn-primary btn-icon btn-sm" onclick="generateChapter({{ ch.id }})" title="AI Generate">
+                        <ion-icon name="flash-outline"></ion-icon>
+                    </button>
+                    <button class="btn btn-danger btn-icon btn-sm" onclick="deleteChapter({{ ch.id }})" title="Delete">
+                        <ion-icon name="trash-outline"></ion-icon>
+                    </button>
+                </div>
+            </div>
+            {% endfor %}
+
+            {% if not active_book.chapters %}
+            <div class="empty">
+                <ion-icon name="layers-outline"></ion-icon>
+                <p>No chapters yet. Add chapters or use "AI Generate All".</p>
+            </div>
+            {% endif %}
+        </div>
+
+        {% else %}
+        <!-- No Book Selected -->
+        <div class="empty" style="margin-top:100px;">
+            <ion-icon name="book-outline" style="font-size:5rem;"></ion-icon>
+            <h2 style="margin:20px 0 10px;">Welcome to Book Builder</h2>
+            <p>Select a book from the sidebar or create a new one to get started.</p>
+            <button class="btn btn-primary" onclick="openNewBookModal()" style="margin-top:20px;">
+                <ion-icon name="add-outline"></ion-icon> Create Your First Book
+            </button>
+        </div>
+        {% endif %}
+    </div>
+</div>
+
+<!-- NEW BOOK MODAL -->
+<div class="modal-overlay" id="newBookModal">
+    <div class="modal">
+        <h2>📚 Create New Book</h2>
+        <div class="form-group">
+            <label>Book Title *</label>
+            <input class="form-input" id="nbTitle" placeholder="e.g., Mathematics Master Book">
+        </div>
+        <div class="form-group">
+            <label>Subtitle</label>
+            <input class="form-input" id="nbSubtitle" placeholder="e.g., Complete Guide for SSC & Banking">
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+            <div class="form-group">
+                <label>Subject</label>
+                <select class="form-input" id="nbSubject">
+                    <option value="Mathematics">Mathematics</option>
+                    <option value="General Knowledge">General Knowledge</option>
+                    <option value="Indian History">Indian History</option>
+                    <option value="Geography">Geography</option>
+                    <option value="Polity">Polity</option>
+                    <option value="Economics">Economics</option>
+                    <option value="Science">Science</option>
+                    <option value="English">English</option>
+                    <option value="Reasoning">Reasoning</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Target Exam</label>
+                <select class="form-input" id="nbExam">
+                    <option value="SSC CGL">SSC CGL</option>
+                    <option value="SSC CHSL">SSC CHSL</option>
+                    <option value="SSC MTS">SSC MTS</option>
+                    <option value="Banking (IBPS/SBI)">Banking (IBPS/SBI)</option>
+                    <option value="UPSC">UPSC</option>
+                    <option value="Railway">Railway</option>
+                    <option value="Board Exam (10th)">Board Exam (10th)</option>
+                    <option value="Board Exam (12th)">Board Exam (12th)</option>
+                </select>
+            </div>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+            <div class="form-group">
+                <label>Level</label>
+                <select class="form-input" id="nbLevel">
+                    <option value="Graduate">Graduate</option>
+                    <option value="12th">12th</option>
+                    <option value="10th">10th</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Cover Color</label>
+                <input type="color" class="form-input" id="nbColor" value="#673AB7" style="height:42px;padding:4px;">
+            </div>
+        </div>
+        <div class="form-group">
+            <label>Description</label>
+            <textarea class="form-input" id="nbDesc" rows="2" placeholder="Brief book description..."></textarea>
+        </div>
+        <div style="display:flex;justify-content:flex-end;gap:10px;margin-top:20px;">
+            <button class="btn btn-outline" onclick="closeModal('newBookModal')">Cancel</button>
+            <button class="btn btn-primary" onclick="createBook()">Create Book</button>
+        </div>
+    </div>
+</div>
+
+<!-- ADD CHAPTER MODAL -->
+<div class="modal-overlay" id="addChapterModal">
+    <div class="modal">
+        <h2>📝 Add Chapter</h2>
+        <input type="hidden" id="acBookId">
+        <div class="form-group">
+            <label>Chapter Title (English) *</label>
+            <input class="form-input" id="acTitleEn" placeholder="e.g., Profit and Loss">
+        </div>
+        <div class="form-group">
+            <label>Chapter Title (Hindi)</label>
+            <input class="form-input" id="acTitleHi" placeholder="e.g., लाभ और हानि">
+        </div>
+        <div class="form-group">
+            <label>Difficulty Level</label>
+            <select class="form-input" id="acDifficulty">
+                <option value="basic">Basic (10th Level)</option>
+                <option value="intermediate" selected>Intermediate (12th Level)</option>
+                <option value="advanced">Advanced (Graduate Level)</option>
+            </select>
+        </div>
+        <div style="display:flex;justify-content:flex-end;gap:10px;margin-top:20px;">
+            <button class="btn btn-outline" onclick="closeModal('addChapterModal')">Cancel</button>
+            <button class="btn btn-primary" onclick="addChapter()">Add Chapter</button>
+        </div>
+    </div>
+</div>
+
+<!-- QUESTIONS IMPORT MODAL -->
+<div class="modal-overlay" id="questionsModal">
+    <div class="modal" style="max-width:700px;">
+        <h2>📝 Import Practice Questions</h2>
+        <p style="color:var(--text2);margin-bottom:16px;font-size:.85rem;">Chapter: <strong id="qmChapterName"></strong></p>
+        <input type="hidden" id="qmChapterId">
+        
+        <div style="display:flex;gap:8px;margin-bottom:12px;">
+            <button class="btn btn-outline btn-sm" onclick="setQFormat('json')" id="qfJson">JSON Format</button>
+            <button class="btn btn-primary btn-sm" onclick="setQFormat('text')" id="qfText">Paste Text (Auto-Parse)</button>
+            <select id="qmTargetLang" class="form-input" style="padding:4px 8px;width:120px;height:auto;" onchange="updateQuestionCount()">
+                <option value="en">English</option>
+                <option value="hi">Hindi (हिंदी)</option>
+            </select>
+        </div>
+        
+        <div class="form-group">
+            <label id="qmFormatLabel">Paste your questions text below (formatted with ** for questions, A/B/C/D options, **Answer: X**)</label>
+            <textarea class="form-input" id="qmContent" rows="12" style="min-height:300px;font-family:monospace;font-size:.85rem;" placeholder='Paste questions here...
+
+Example format:
+**1. What is 2+2?**
+A) 3
+B) 4
+C) 5
+D) 6
+**Answer: B**
+**Solution:** 2+2=4'></textarea>
+        </div>
+        
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-top:20px;">
+            <div>
+                <button class="btn btn-danger btn-sm" onclick="clearQuestions()" style="margin-right:8px;">Clear All Questions</button>
+                <span id="qmStatus" style="font-size:.8rem;color:var(--text2);"></span>
+            </div>
+            <div style="display:flex;gap:10px;">
+                <button class="btn btn-outline" onclick="closeModal('questionsModal')">Cancel</button>
+                <button class="btn btn-success" onclick="importQuestions()">Import Questions</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
+
+<script>
+    // === Modal Helpers ===
+    function openNewBookModal() { document.getElementById('newBookModal').classList.add('show'); }
+    function closeModal(id) { document.getElementById(id).classList.remove('show'); }
+    function openAddChapterModal(bookId) {
+        document.getElementById('acBookId').value = bookId;
+        document.getElementById('addChapterModal').classList.add('show');
+    }
+
+    function showToast(msg, type='success') {
+        const t = document.getElementById('toast');
+        t.textContent = msg;
+        t.className = `toast show toast-${type}`;
+        setTimeout(() => t.classList.remove('show'), 3000);
+    }
+
+    // === API Calls ===
+    async function createBook() {
+        const data = {
+            title: document.getElementById('nbTitle').value,
+            subtitle: document.getElementById('nbSubtitle').value,
+            subject: document.getElementById('nbSubject').value,
+            targetExam: document.getElementById('nbExam').value,
+            targetLevel: document.getElementById('nbLevel').value,
+            coverColor: document.getElementById('nbColor').value,
+            description: document.getElementById('nbDesc').value,
+            icon: '📐'
+        };
+        if (!data.title) return showToast('Title is required!', 'error');
+
+        const res = await fetch('/api/books', { method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(data) });
+        const json = await res.json();
+        if (json.success) {
+            showToast('Book created! 🎉');
+            closeModal('newBookModal');
+            setTimeout(() => location.href = `/admin/books/${json.id}`, 500);
+        } else {
+            showToast(json.error || 'Failed', 'error');
+        }
+    }
+
+    function selectBook(id) { location.href = `/admin/books/${id}`; }
+
+    async function addChapter() {
+        const bookId = document.getElementById('acBookId').value;
+        const data = {
+            titleEn: document.getElementById('acTitleEn').value,
+            titleHi: document.getElementById('acTitleHi').value,
+            difficultyLevel: document.getElementById('acDifficulty').value
+        };
+        if (!data.titleEn) return showToast('English title required!', 'error');
+
+        const res = await fetch(`/api/books/${bookId}/chapters`, { method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(data) });
+        const json = await res.json();
+        if (json.success) {
+            showToast('Chapter added! ✅');
+            closeModal('addChapterModal');
+            location.reload();
+        } else {
+            showToast(json.error || 'Failed', 'error');
+        }
+    }
+
+    async function generateChapter(chId) {
+        const item = document.getElementById(`ch-item-${chId}`);
+        const badge = item.querySelector('.badge');
+        badge.textContent = 'generating...';
+        badge.className = 'badge badge-generating';
+
+        showToast('🤖 AI is generating content... This may take 30-60 seconds.');
+
+        try {
+            const res = await fetch(`/api/chapters/${chId}/generate`, { method:'POST', headers:{'Content-Type':'application/json'} });
+            const json = await res.json();
+            if (json.success) {
+                showToast('✅ Chapter generated successfully!');
+                location.reload();
+            } else {
+                showToast('❌ ' + (json.error || 'Generation failed'), 'error');
+                badge.textContent = 'draft';
+                badge.className = 'badge badge-draft';
+            }
+        } catch(e) {
+            showToast('❌ Network error: ' + e.message, 'error');
+        }
+    }
+
+    async function generateAllChapters(bookId) {
+        const btn = document.getElementById('genAllBtn');
+        btn.innerHTML = '<span class="spinner"></span> Generating...';
+        btn.disabled = true;
+
+        showToast('🤖 Generating all chapters... This may take a few minutes.');
+
+        try {
+            const res = await fetch(`/api/books/${bookId}/generate-all`, { method:'POST', headers:{'Content-Type':'application/json'} });
+            const json = await res.json();
+            if (json.success) {
+                const results = json.results || [];
+                const ok = results.filter(r => r.status === 'success').length;
+                showToast(`✅ ${ok}/${results.length} chapters generated!`);
+                location.reload();
+            } else {
+                showToast('❌ ' + (json.error || 'Failed'), 'error');
+            }
+        } catch(e) {
+            showToast('❌ ' + e.message, 'error');
+        }
+        btn.innerHTML = '<ion-icon name="flash-outline"></ion-icon> AI Generate All';
+        btn.disabled = false;
+    }
+
+    async function deleteChapter(chId) {
+        if (!confirm('Delete this chapter?')) return;
+        const res = await fetch(`/api/chapters/${chId}`, { method:'DELETE' });
+        const json = await res.json();
+        if (json.success) {
+            showToast('Chapter deleted');
+            document.getElementById(`ch-item-${chId}`).remove();
+        }
+    }
+
+    // === Questions Import ===
+    let qFormat = 'text';
+    function setQFormat(fmt) {
+        qFormat = fmt;
+        document.getElementById('qfJson').className = fmt==='json' ? 'btn btn-primary btn-sm' : 'btn btn-outline btn-sm';
+        document.getElementById('qfText').className = fmt==='text' ? 'btn btn-primary btn-sm' : 'btn btn-outline btn-sm';
+        document.getElementById('qmFormatLabel').textContent = fmt==='json' 
+            ? 'Paste JSON array: [{"question":"...","options":["A","B","C","D"],"answer":"B","solution":"..."}]'
+            : 'Paste formatted text (auto-parsed): **1. Question** A)... B)... **Answer: B** **Solution:** ...';
+    }
+
+    function openQuestionsModal(chId, chName) {
+        document.getElementById('qmChapterId').value = chId;
+        document.getElementById('qmChapterName').textContent = chName;
+        document.getElementById('qmContent').value = '';
+        document.getElementById('qmStatus').textContent = '';
+        document.getElementById('questionsModal').classList.add('show');
+        updateQuestionCount();
+    }
+    
+    function updateQuestionCount() {
+        const chId = document.getElementById('qmChapterId').value;
+        const lang = document.getElementById('qmTargetLang').value;
+        if(!chId) return;
+        document.getElementById('qmStatus').textContent = 'Loading count...';
+        fetch(`/api/chapters/${chId}/questions?lang=${lang}`).then(r=>r.json()).then(j=>{
+            if(j.success) document.getElementById('qmStatus').textContent = `Currently: ${j.total} questions loaded in ${lang.toUpperCase()}`;
+        });
+    }
+
+    async function importQuestions() {
+        const chId = document.getElementById('qmChapterId').value;
+        const content = document.getElementById('qmContent').value.trim();
+        if (!content) return showToast('Please paste questions first!', 'error');
+
+        let body = {};
+        if (qFormat === 'json') {
+            try {
+                body.questions = JSON.parse(content);
+            } catch(e) {
+                return showToast('Invalid JSON format!', 'error');
+            }
+        } else {
+            body.rawText = content;
+        }
+
+        const lang = document.getElementById('qmTargetLang').value;
+        try {
+            const res = await fetch(`/api/chapters/${chId}/questions?lang=${lang}`, {
+                method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify(body)
+            });
+            const json = await res.json();
+            if (json.success) {
+                showToast(`Imported ${json.count} questions! Total: ${json.total}`);
+                document.getElementById('qmStatus').textContent = `Total: ${json.total} questions in ${lang.toUpperCase()}`;
+                document.getElementById('qmContent').value = '';
+                setTimeout(()=>location.reload(), 1500);
+            } else {
+                showToast(json.error || 'Import failed', 'error');
+            }
+        } catch(e) {
+            showToast('Error: ' + e.message, 'error');
+        }
+    }
+
+    async function clearQuestions() {
+        if (!confirm('Delete ALL questions from this chapter for the selected language?')) return;
+        const chId = document.getElementById('qmChapterId').value;
+        const lang = document.getElementById('qmTargetLang').value;
+        const res = await fetch(`/api/chapters/${chId}/questions?lang=${lang}`, {method:'DELETE'});
+        const json = await res.json();
+        if (json.success) {
+            showToast('Questions cleared!');
+            updateQuestionCount();
+            setTimeout(()=>location.reload(), 1500);
+        }
+    }
+
+    // Close modals on overlay click
+    document.querySelectorAll('.modal-overlay').forEach(m => {
+        m.addEventListener('click', e => { if (e.target === m) closeModal(m.id); });
+    });
+</script>
+</body>
+</html>

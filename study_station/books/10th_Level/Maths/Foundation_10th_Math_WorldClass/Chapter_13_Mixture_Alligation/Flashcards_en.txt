@@ -1,0 +1,56 @@
+🃏 Flashcards: Mixture & Alligation
+
+Front: What is the one-line rule of the Alligation Cross for mixing two items of known prices?
+Back: Quantity of cheaper : Quantity of dearer = (Dearer price – Mean) : (Mean – Cheaper price)
+Formula: (D – M) : (M – C)
+
+Front: Rice at ₹40/kg and ₹60/kg are mixed to sell at ₹52/kg. How do you instantly find the ratio using alligation?
+Back: Draw the cross: 40 and 60 with 52 in center. Differences: 60–52=8, 52–40=12. Ratio ₹40 rice : ₹60 rice = 8:12 = 2:3.
+
+Front: Why do the differences in the alligation cross end up belonging to the opposite ingredient?
+Back: It’s like a seesaw. The extra money from the expensive item must be balanced by the shortage from the cheap item. The difference on one side tells how many of the other you need to balance.
+
+Front: What is the “Cow and Deer” mnemonic to never flip the alligation ratio?
+Back: Cow = Cheaper, Deer = Dearer. Cow holds a sign saying “D–M” (Deer’s difference), and Deer holds a sign “M–C” (Cow’s difference). So, Cow holds Deer’s difference, Deer holds Cow’s difference.
+
+Front: How can a playground seesaw help you remember the alligation rule forever?
+Back: Expensive and cheap items sit on opposite ends; mean price is the fulcrum. The distance of the expensive price to the mean (D–M) becomes the cheap side’s arm length (cheap quantity). The cheap price’s distance (M–C) becomes the expensive arm’s length (expensive quantity). Differences swap places.
+
+Front: How is the weighted average formula related to alligation?
+Back: Alligation is the reverse of weighted average. Weighted average finds the mean given weights; alligation finds the weights (ratio) given the mean and individual prices.
+
+Front: A vessel has 40 L of milk. 4 L is removed and replaced with water, and the process is done 3 times. What formula gives the pure milk left instantly?
+Back: Milk left = Original × (1 – replacement/total)^n = 40 × (1 – 4/40)^3 = 40 × (0.9)^3 = 29.16 L.
+
+Front: What silly memory trick can help you remember the replacement formula (1 – r/t)^n?
+Back: Imagine a cheeky monkey removing a fraction of your patience each time you study. “Initial patience × (1 – fraction lost)^study sessions.” The fraction removed is replaced by daydreams. Weird, but unforgettable.
+
+Front: A jar has 80 L alcohol. 8 L is drawn and replaced with water twice. How much alcohol remains?
+Back: 80 × (1 – 8/80)^2 = 80 × (0.9)^2 = 80 × 0.81 = 64.8 L.
+
+Front: Vessel A has milk:water = 2:3, Vessel B has 4:1. They are mixed to get a 1:1 ratio. How do you use alligation?
+Back: Find milk concentration: A = 2/5, B = 4/5. Target milk = 1/2. Alligate concentrations: (4/5 – 1/2) : (1/2 – 2/5) = (3/10):(1/10) = 3:1. Take 3 parts from A, 1 part from B.
+
+Front: Can you directly alligate profit percentages when mixing two goods with different cost prices?
+Back: No, unless cost prices are equal. If costs differ, first compute profit per unit (e.g., per kg) and alligate those actual profit amounts, not the percentages.
+
+Front: What’s the catchphrase “Difference dances diagonally” about?
+Back: In the alligation cross, the difference on the left (D–M) belongs to the right quantity (cheaper), and the difference on the right (M–C) belongs to the left quantity (dearer). They cross over, as if dancing diagonally.
+
+Front: If a mixture’s mean price equals the price of one ingredient, what happens?
+Back: The ratio becomes degenerate — the mixture would have to be made entirely of that ingredient (the other ingredient’s proportion becomes zero). No unique mixture otherwise.
+
+Front: Why can’t alligation alone give a unique ratio for mixing more than two ingredients?
+Back: With three or more ingredients, the alligation rule gives one equation but you have multiple ratios. You need extra info (e.g., total weight, cost constraints) to fix all unknowns.
+
+Front: What is the core insight behind the (1 – r/t)^n replacement formula?
+Back: Each time you remove a fixed volume from a homogeneous mixture, you remove the same fraction of the remaining pure substance. Repeated removal multiplies the survival fraction over and over, giving exponential decay.
+
+Front: Why is the chapter called “Alligation”?
+Back: From Latin alligatio, meaning “a binding together.” It perfectly describes tying two ingredients into a single mixture.
+
+Front: A grocer mixes pulses costing ₹15/kg and ₹20/kg to make a blend worth ₹16.50/kg. Find the ratio in seconds.
+Back: (20–16.50) : (16.50–15) = 3.50 : 1.50 = 7:3. So ₹15 pulse : ₹20 pulse = 7:3.
+
+Front: (Bonus trick) How does “Don’t Miss Mom’s Cake” help recall the alligation rule?
+Back: D–M (Don’t Miss) → quantity of Cheaper. M–C (Mom’s Cake) → quantity of Dearer. The first letters link: D-M goes to C, M-C goes to D. Another path: “Dear Cat, Meow Carefully” — D and C paired, M and C paired. Pick whichever makes you smile.

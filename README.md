@@ -18,6 +18,7 @@ web-apps/
 ├── 📂 mechanic_tracker/       # 🔧 Core Return & Parts Inventory Tracking PWA (Vite + Capacitor)
 ├── 📂 pdf_compressor/         # 📄 Local & Zero-Leakage PDF Compressor Web App (Flask)
 ├── 📂 whatsapp_automation/    # 🤖 Scheduled WhatsApp Messaging & Document Broadcast Engine
+├── 📂 study_station/          # 📚 Bilingual (Hindi/English) Exam Prep Platform (Flask + Static PWA + Android)
 └── 📂 youtube_automation/     # 🎥 YouTube Video & Metadata Processing Pipeline
 ```
 
@@ -40,6 +41,9 @@ web-apps/
 
 ### 5️⃣ 🤖 [`whatsapp_automation/`](whatsapp_automation/)
 * **Architecture:** Automated messaging and file broadcast scheduling dashboard with transaction history logging.
+
+### 6️⃣ 📚 [`study_station/`](study_station/)
+* **Architecture:** Bilingual (Hindi/English) competitive exam preparation platform with a Flask backend, static PWA website (books, chapters, job alerts), and a native Android client.
 
 ---
 

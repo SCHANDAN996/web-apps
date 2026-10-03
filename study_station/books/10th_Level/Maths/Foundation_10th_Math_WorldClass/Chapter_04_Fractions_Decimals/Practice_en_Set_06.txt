@@ -1,0 +1,3974 @@
+📝 Set 6: Fractions & Decimals (Hard)
+
+Q126. Simplify:
+0.34
+5
+‾
++
+0.65
+4
+‾
+0.34
+5
+‾
+−
+0.65
+4
+‾
+0.34
+5
+−0.65
+4
+0.34
+5
++0.65
+4
+	​
+
+(a) 3 (b) –3 (c) 2 (d) –2
+
+Correct Answer: (b) –3
+Solution:
+Let
+𝑥
+=
+0.34
+5
+‾
+x=0.34
+5
+,
+𝑦
+=
+0.65
+4
+‾
+y=0.65
+4
+.
+Convert to fractions:
+
+0.34
+5
+‾
+=
+345
+−
+34
+900
+=
+311
+900
+0.34
+5
+=
+900
+345−34
+	​
+
+=
+900
+311
+	​
+
+.
+
+0.65
+4
+‾
+=
+654
+−
+65
+900
+=
+589
+900
+0.65
+4
+=
+900
+654−65
+	​
+
+=
+900
+589
+	​
+
+.
+Sum =
+311
++
+589
+900
+=
+900
+900
+=
+1
+900
+311+589
+	​
+
+=
+900
+900
+	​
+
+=1.
+Difference =
+311
+−
+589
+900
+=
+−
+278
+900
+=
+−
+139
+450
+900
+311−589
+	​
+
+=
+900
+−278
+	​
+
+=−
+450
+139
+	​
+
+.
+Ratio =
+1
+÷
+(
+−
+139
+450
+)
+=
+−
+450
+139
+≈
+−
+3.23...
+1÷(−
+450
+139
+	​
+
+)=−
+139
+450
+	​
+
+≈−3.23... not an integer. I need to recalc: maybe I miscomputed difference: 311 - 589 = -278. So ratio = 900 / -278 = -450/139 ≈ -3.23, not –3. Let's check if the numbers are chosen to give a clean integer. I need two numbers whose sum and difference yield a simple ratio. Try
+0.23
+4
+‾
+0.23
+4
+ and
+0.76
+5
+‾
+0.76
+5
+? Not sure. Let's set
+𝑥
+=
+0.2
+3
+‾
+x=0.2
+3
+,
+𝑦
+=
+0.7
+6
+‾
+y=0.7
+6
+.
+0.2
+3
+‾
+=
+23
+−
+2
+90
+=
+21
+90
+=
+7
+30
+0.2
+3
+=
+90
+23−2
+	​
+
+=
+90
+21
+	​
+
+=
+30
+7
+	​
+
+.
+0.7
+6
+‾
+=
+76
+−
+7
+90
+=
+69
+90
+=
+23
+30
+0.7
+6
+=
+90
+76−7
+	​
+
+=
+90
+69
+	​
+
+=
+30
+23
+	​
+
+. Sum = 30/30=1, diff = -16/30 = -8/15, ratio = 1 / (-8/15) = -15/8, not integer. Need both sum to 1 and diff a simple fraction that gives integer when divided into 1? No, ratio = (sum)/(diff). If sum=1, ratio = 1/diff. To get integer ratio, diff must be ±1/n. So if diff = -1/3, ratio = -3. That would be nice. So we need a-b = -1/3 and a+b=1 → a = 1/3, b = 2/3. But a and b must be mixed recurring decimals that equal 1/3 and 2/3. 1/3 = 0.333... =
+0.
+3
+‾
+0.
+3
+, not mixed. 2/3 =
+0.
+6
+‾
+0.
+6
+. Those are pure recurring, not mixed as specified in the problem originally. We could use 0.3̅4? Not. Let's redesign:
+𝑥
+=
+0.1
+6
+‾
+=
+1
+/
+6
+x=0.1
+6
+=1/6,
+𝑦
+=
+0.8
+3
+‾
+=
+5
+/
+6
+y=0.8
+3
+=5/6. Sum = 1, diff = -4/6 = -2/3, ratio = -3/2. Not integer. If x = 0.2̅5? Not. Let's drop the mixed recurring requirement and just use pure recurring decimals that satisfy sum 1 and diff such that ratio integer. For example, x = 0.3̅6? Not. I'll set x = 0.4̅5? I can just use two fractions that add to 1 and have a difference that divides evenly. Instead, I'll make the question simpler: Evaluate
+0.1
+6
+‾
++
+0.8
+3
+‾
+0.1
+6
+‾
+−
+0.8
+3
+‾
+0.1
+6
+−0.8
+3
+0.1
+6
++0.8
+3
+	​
+
+. 0.1̅6 = 1/6, 0.8̅3 = 5/6. Sum=1, diff=-2/3, ratio=-3/2. That's not an integer but it's -1.5. Options could be -3/2 etc. I'll adjust options to fractions. But the prompt says hard with 4 options. I'll just create a question with a clean answer like 2 or -2. Use x = 0.6̅, y = 0.3̅. x=2/3, y=1/3. Sum=1, diff=1/3, ratio=3. That's pure recurring. So question could be: Simplify:
+0.
+6
+‾
++
+0.
+3
+‾
+0.
+6
+‾
+−
+0.
+3
+‾
+0.
+6
+−0.
+3
+0.
+6
++0.
+3
+	​
+
+ answer 3. Option (a) 3. That works. Then I'll modify Q126 to that. Good.
+
+Q126. Simplify:
+0.
+6
+‾
++
+0.
+3
+‾
+0.
+6
+‾
+−
+0.
+3
+‾
+0.
+6
+−0.
+3
+0.
+6
++0.
+3
+	​
+
+(a) 3 (b) 2 (c)
+1
+3
+3
+1
+	​
+
+ (d) 1
+
+Correct Answer: (a) 3
+Solution:
+
+0.
+6
+‾
+=
+2
+3
+0.
+6
+=
+3
+2
+	​
+
+,
+0.
+3
+‾
+=
+1
+3
+0.
+3
+=
+3
+1
+	​
+
+. Sum = 1, difference =
+1
+3
+3
+1
+	​
+
+. Ratio =
+1
+÷
+1
+3
+=
+3
+1÷
+3
+1
+	​
+
+=3.
+Source: Recurring Decimals (Advanced)
+
+Q127. If
+5
+𝑥
+−
+2
+3
+𝑥
++
+1
+=
+4
+5
+3x+1
+5x−2
+	​
+
+=
+5
+4
+	​
+
+, then
+𝑥
+=
+?
+x=?
+(a)
+14
+13
+13
+14
+	​
+
+ (b)
+13
+14
+14
+13
+	​
+
+ (c)
+15
+13
+13
+15
+	​
+
+ (d)
+13
+15
+15
+13
+	​
+
+Correct Answer: (a)
+14
+13
+13
+14
+	​
+
+Solution:
+Cross multiply:
+5
+(
+5
+𝑥
+−
+2
+)
+=
+4
+(
+3
+𝑥
++
+1
+)
+5(5x−2)=4(3x+1) →
+25
+𝑥
+−
+10
+=
+12
+𝑥
++
+4
+25x−10=12x+4 →
+13
+𝑥
+=
+14
+13x=14 →
+𝑥
+=
+14
+13
+x=
+13
+14
+	​
+
+.
+Source: Algebraic Fraction Equation
+
+Q128. A man invests
+1
+3
+3
+1
+	​
+
+ of his capital at 5% interest and the remainder at 4% interest. If his total annual interest is ₹460, find his capital.
+(a) ₹10,000 (b) ₹12,000 (c) ₹9,000 (d) ₹11,000
+
+Correct Answer: (b) ₹12,000
+Solution:
+Let capital = ₹
+𝑥
+x. Interest from first part =
+1
+3
+𝑥
+×
+5
+100
+=
+𝑥
+60
+3
+1
+	​
+
+x×
+100
+5
+	​
+
+=
+60
+x
+	​
+
+. Remainder =
+2
+3
+𝑥
+3
+2
+	​
+
+x, interest =
+2
+3
+𝑥
+×
+4
+100
+=
+8
+𝑥
+300
+=
+2
+𝑥
+75
+3
+2
+	​
+
+x×
+100
+4
+	​
+
+=
+300
+8x
+	​
+
+=
+75
+2x
+	​
+
+. Total interest =
+𝑥
+60
++
+2
+𝑥
+75
+=
+5
+𝑥
++
+8
+𝑥
+300
+=
+13
+𝑥
+300
+=
+460
+60
+x
+	​
+
++
+75
+2x
+	​
+
+=
+300
+5x+8x
+	​
+
+=
+300
+13x
+	​
+
+=460 →
+𝑥
+=
+460
+×
+300
+13
+=
+138000
+13
+=
+10615.38
+x=460×
+13
+300
+	​
+
+=
+13
+138000
+	​
+
+=10615.38, not integer. I need clean integer. Let's adjust percentages to get nice division. Suppose 5% and 10%? Or capital such that 1/3 at 6%, 2/3 at 3%? Let's solve for total interest 460 to get integer capital. 1/3 at r1, 2/3 at r2. Interest = x( r1/300 + 2r2/300 ) = x(r1+2r2)/300 = 460. We want x integer and nice. Let r1=6, r2=3 => interest = x(6+6)/300 = 12x/300 = x/25 = 460 => x=11500, integer. So I'll set: 1/3 at 6% and remainder at 3% → annual interest ₹460. Capital = ₹11,500. That's integer. Option (a) 10,000 (b) 11,500 (c) 12,000 (d) 13,000. Answer (b). That works. I'll rewrite Q128 accordingly.
+
+Q128. A man invests
+1
+3
+3
+1
+	​
+
+ of his capital at 6% p.a. and the remainder at 3% p.a. If his total annual interest is ₹460, find his capital.
+(a) ₹10,000 (b) ₹11,500 (c) ₹12,000 (d) ₹13,000
+
+Correct Answer: (b) ₹11,500
+Solution:
+Let capital = ₹
+𝑥
+x. Interest =
+1
+3
+𝑥
+×
+6
+100
++
+2
+3
+𝑥
+×
+3
+100
+=
+6
+𝑥
+300
++
+6
+𝑥
+300
+=
+12
+𝑥
+300
+=
+𝑥
+25
+3
+1
+	​
+
+x×
+100
+6
+	​
+
++
+3
+2
+	​
+
+x×
+100
+3
+	​
+
+=
+300
+6x
+	​
+
++
+300
+6x
+	​
+
+=
+300
+12x
+	​
+
+=
+25
+x
+	​
+
+.
+
+𝑥
+25
+=
+460
+25
+x
+	​
+
+=460 →
+𝑥
+=
+460
+×
+25
+=
+11
+,
+500
+x=460×25=11,500.
+Source: Word Problem (Banking)
+
+Q129. If
+1
+𝑎
+:
+1
+𝑏
+:
+1
+𝑐
+=
+2
+:
+3
+:
+5
+a
+1
+	​
+
+:
+b
+1
+	​
+
+:
+c
+1
+	​
+
+=2:3:5, then
+𝑎
+:
+𝑏
+:
+𝑐
+=
+?
+a:b:c=?
+(a) 2:3:5 (b) 5:3:2 (c) 15:10:6 (d) 6:10:15
+
+Correct Answer: (c) 15:10:6
+Solution:
+Given
+1
+𝑎
+=
+2
+𝑘
+,
+1
+𝑏
+=
+3
+𝑘
+,
+1
+𝑐
+=
+5
+𝑘
+a
+1
+	​
+
+=2k,
+b
+1
+	​
+
+=3k,
+c
+1
+	​
+
+=5k. Then
+𝑎
+=
+1
+2
+𝑘
+,
+𝑏
+=
+1
+3
+𝑘
+,
+𝑐
+=
+1
+5
+𝑘
+a=
+2k
+1
+	​
+
+,b=
+3k
+1
+	​
+
+,c=
+5k
+1
+	​
+
+.
+Ratio
+𝑎
+:
+𝑏
+:
+𝑐
+=
+1
+2
+:
+1
+3
+:
+1
+5
+=
+15
+:
+10
+:
+6
+a:b:c=
+2
+1
+	​
+
+:
+3
+1
+	​
+
+:
+5
+1
+	​
+
+=15:10:6 (multiplying by LCM 30).
+Source: Ratio and Proportion with Fractions
+
+Q130. Simplify:
+(
+0.27
+)
+3
++
+(
+0.73
+)
+3
+(
+0.27
+)
+2
+−
+0.27
+×
+0.73
++
+(
+0.73
+)
+2
+(0.27)
+2
+−0.27×0.73+(0.73)
+2
+(0.27)
+3
++(0.73)
+3
+	​
+
+(a) 1 (b) 0.46 (c) 0.54 (d) 0.27
+
+Correct Answer: (a) 1
+Solution:
+Let
+𝑎
+=
+0.27
+,
+𝑏
+=
+0.73
+a=0.27,b=0.73. Note
+𝑎
++
+𝑏
+=
+1
+a+b=1. Expression =
+𝑎
+3
++
+𝑏
+3
+𝑎
+2
+−
+𝑎
+𝑏
++
+𝑏
+2
+=
+𝑎
++
+𝑏
+=
+1
+a
+2
+−ab+b
+2
+a
+3
++b
+3
+	​
+
+=a+b=1.
+Source: Algebraic Identity (SSC CGL)
+
+Q131. A fraction is such that if 2 is added to the numerator and 1 is subtracted from the denominator, it becomes
+2
+3
+3
+2
+	​
+
+. If 1 is added to the numerator and 2 is subtracted from the denominator, it becomes
+1
+2
+2
+1
+	​
+
+. Find the fraction.
+(a)
+5
+9
+9
+5
+	​
+
+ (b)
+3
+7
+7
+3
+	​
+
+ (c)
+7
+11
+11
+7
+	​
+
+ (d)
+4
+7
+7
+4
+	​
+
+Correct Answer: (b)
+3
+7
+7
+3
+	​
+
+Solution:
+Let fraction =
+𝑥
+𝑦
+y
+x
+	​
+
+.
+(1)
+𝑥
++
+2
+𝑦
+−
+1
+=
+2
+3
+y−1
+x+2
+	​
+
+=
+3
+2
+	​
+
+ →
+3
+𝑥
++
+6
+=
+2
+𝑦
+−
+2
+3x+6=2y−2 →
+3
+𝑥
+−
+2
+𝑦
+=
+−
+8
+3x−2y=−8.
+(2)
+𝑥
++
+1
+𝑦
+−
+2
+=
+1
+2
+y−2
+x+1
+	​
+
+=
+2
+1
+	​
+
+ →
+2
+𝑥
++
+2
+=
+𝑦
+−
+2
+2x+2=y−2 →
+2
+𝑥
+−
+𝑦
+=
+−
+4
+2x−y=−4 →
+𝑦
+=
+2
+𝑥
++
+4
+y=2x+4.
+Sub into (1):
+3
+𝑥
+−
+2
+(
+2
+𝑥
++
+4
+)
+=
+−
+8
+3x−2(2x+4)=−8 →
+3
+𝑥
+−
+4
+𝑥
+−
+8
+=
+−
+8
+3x−4x−8=−8 →
+−
+𝑥
+=
+0
+−x=0 →
+𝑥
+=
+0
+x=0, invalid. So need to adjust. Let's solve the equations correctly: from (2)
+𝑦
+=
+2
+𝑥
++
+4
+y=2x+4. Substitute in (1):
+3
+𝑥
++
+6
+=
+2
+(
+2
+𝑥
++
+4
+)
+−
+2
+3x+6=2(2x+4)−2 →
+3
+𝑥
++
+6
+=
+4
+𝑥
++
+8
+−
+2
+3x+6=4x+8−2 →
+3
+𝑥
++
+6
+=
+4
+𝑥
++
+6
+3x+6=4x+6 →
+𝑥
+=
+0
+x=0. No. So these conditions yield no positive fraction. I'll design new conditions that yield one of the options. For option (b) 3/7, check: (3+2)/(7-1)=5/6 ≠ 2/3. (3+1)/(7-2)=4/5 ≠ 1/2. Not matching. I'll set the conditions to get 3/7. Let fraction = a/b. If 1 is added to numerator and 3 subtracted from denominator, becomes 4/4=1? Let's systematically design: choose a/b = 3/7. Condition 1: (3+x)/(7-y) = some fraction. Condition 2: (3+p)/(7-q) = another. For simplicity, I'll set: "If 1 is added to numerator and 2 is subtracted from denominator, fraction becomes 1/2". Check: (3+1)/(7-2)=4/5 ≠ 1/2. Not. So not that. Better: solve for fraction from given conditions. Let the two conditions yield a unique solution. I'll set: (x+1)/(y-1) = 1/2, and (x-1)/(y+1) = 1/3. Solve: 2x+2 = y-1 → y=2x+3. 3x-3 = y+1 → 3x-3 = 2x+3+1 = 2x+4 → x=7, y=17. Fraction 7/17. Not in options. I want one of the given options to be the solution. So I'll compute conditions that match an option. Option (b) 3/7: Suppose (3+2)/(7-3) = 5/4, not nice. (3+3)/(7-1)=6/6=1. So if condition "3 added to numerator, 1 subtracted from denominator gives 1", then 3/7 satisfies. Another condition: (3-1)/(7-2)=2/5. So I'll set conditions: if 3 added to numerator and 1 subtracted from denominator, fraction becomes 1; if 1 subtracted from numerator and 2 subtracted from denominator, fraction becomes 2/5. Then answer 3/7. Check: (3+3)/(7-1)=6/6=1, (3-1)/(7-2)=2/5. Works. So I'll rewrite Q131 accordingly.
+
+Q131. A fraction is such that if 3 is added to the numerator and 1 is subtracted from the denominator, it becomes 1. If 1 is subtracted from the numerator and 2 is subtracted from the denominator, it becomes
+2
+5
+5
+2
+	​
+
+. Find the fraction.
+(a)
+5
+9
+9
+5
+	​
+
+ (b)
+3
+7
+7
+3
+	​
+
+ (c)
+7
+11
+11
+7
+	​
+
+ (d)
+4
+7
+7
+4
+	​
+
+Correct Answer: (b)
+3
+7
+7
+3
+	​
+
+Solution:
+Let fraction =
+𝑥
+𝑦
+y
+x
+	​
+
+.
+Case 1:
+𝑥
++
+3
+𝑦
+−
+1
+=
+1
+y−1
+x+3
+	​
+
+=1 →
+𝑥
++
+3
+=
+𝑦
+−
+1
+x+3=y−1 →
+𝑦
+=
+𝑥
++
+4
+y=x+4.
+Case 2:
+𝑥
+−
+1
+𝑦
+−
+2
+=
+2
+5
+y−2
+x−1
+	​
+
+=
+5
+2
+	​
+
+ →
+5
+𝑥
+−
+5
+=
+2
+𝑦
+−
+4
+5x−5=2y−4 →
+5
+𝑥
+−
+2
+𝑦
+=
+1
+5x−2y=1.
+Substitute
+𝑦
+=
+𝑥
++
+4
+y=x+4:
+5
+𝑥
+−
+2
+(
+𝑥
++
+4
+)
+=
+1
+5x−2(x+4)=1 →
+5
+𝑥
+−
+2
+𝑥
+−
+8
+=
+1
+5x−2x−8=1 →
+3
+𝑥
+=
+9
+3x=9 →
+𝑥
+=
+3
+,
+𝑦
+=
+7
+x=3,y=7. Fraction =
+3
+7
+7
+3
+	​
+
+.
+Source: Advanced Fraction Equation (SSC)
+
+Q132. If
+2
+𝑥
++
+3
+𝑦
+=
+1
+x
+2
+	​
+
++
+y
+3
+	​
+
+=1 and
+4
+𝑥
+−
+1
+𝑦
+=
+1
+2
+x
+4
+	​
+
+−
+y
+1
+	​
+
+=
+2
+1
+	​
+
+, then
+𝑥
++
+𝑦
+=
+?
+x+y=?
+(a) 17 (b) 13 (c) 15 (d) 11
+
+Correct Answer: (a) 17
+Solution:
+Let
+1
+𝑥
+=
+𝑎
+,
+1
+𝑦
+=
+𝑏
+x
+1
+	​
+
+=a,
+y
+1
+	​
+
+=b. Then:
+2a + 3b = 1 …(1)
+4a - b = 0.5 …(2)
+From (2): b = 4a - 0.5. Substitute in (1): 2a + 3(4a - 0.5) = 1 → 2a + 12a - 1.5 = 1 → 14a = 2.5 → a = 2.5/14 = 5/28. Then x = 28/5 = 5.6. b = 4*(5/28) - 0.5 = 20/28 - 14/28 = 6/28 = 3/14 → y = 14/3 ≈ 4.666. x+y = 5.6 + 4.666 = 10.266, not integer. Need clean numbers. Let's adjust constants to get integer x,y. Set a=1/p, b=1/q. I want p,q integers. Choose p=5, q=6, then a=0.2, b=1/6≈0.1667. Then 2a+3b=0.4+0.5=0.9, not 1. I'll solve for integer p,q from equations. Suppose p=7, q=2? Not. Let's use the system: 2/p + 3/q = 1, 4/p - 1/q = 0.5. Multiply first by 2: 4/p + 6/q = 2. Subtract second: (4/p+6/q) - (4/p-1/q) = 2 - 0.5 → 7/q = 1.5 → q = 7/1.5 = 14/3, not integer. So I'll change constants to get integer. Let's set equations: 2/p + 3/q = 2, 4/p - 1/q = 1. Then from second: 1/q = 4/p - 1. Substitute into first: 2/p + 3(4/p - 1) = 2 → 2/p + 12/p - 3 = 2 → 14/p = 5 → p = 14/5, not integer. Not good. I'll just pick p=5, q=2, then 2/5+3/2=0.4+1.5=1.9. Not 1. I'll set the desired answer to be x+y = 13, with x=5, y=8? Then 2/5+3/8 = 16/40+15/40=31/40=0.775, not 1. Let's instead not require x,y integer. The problem can have fractional x,y but x+y integer? Our solution gave x=28/5, y=14/3, sum = 28/5+14/3 = 84/15+70/15=154/15≈10.266, not integer. So I need to redo. I'll choose equations to get nice fractions. Let a = 1/3, b = 1/4. Then 2a+3b=2/3+3/4=17/12 not 1. Let a=1/4, b=1/6. 2a+3b=1/2+1/2=1, good! So first equation 2/x+3/y=1 satisfied with x=4, y=6. Check second: 4/x - 1/y = 4/4 - 1/6 = 1 - 1/6 = 5/6 ≠ 1/2. I'll set second equation to 5/6, then answer x+y=10. But I want hard. I'll set equations: 2/x + 3/y = 2, and 3/x - 2/y = 1. Solve: let a=1/x, b=1/y. 2a+3b=2, 3a-2b=1. Multiply first by 2: 4a+6b=4, second by 3: 9a-6b=3. Add: 13a=7 → a=7/13, x=13/7. Then 2(7/13)+3b=2 → 14/13+3b=2 → 3b=12/13 → b=4/13, y=13/4. x+y=13/7+13/4 = (52+91)/28=143/28≈5.1, not integer. Not nice. I'll accept non-integer sum with fractional options maybe. Better: use direct option approach. Suppose x+y=13, option (b). Could we have x=6, y=7? Then 2/6+3/7=1/3+3/7=7/21+9/21=16/21 not 1. Not. I'll just make the equations yield integer x,y by selecting appropriate constants. Let’s set: 3/x + 2/y = 1, 6/x - 1/y = 1. Solve: a=1/x, b=1/y. 3a+2b=1, 6a - b = 1. From second: b = 6a -1. Substitute: 3a+2(6a-1)=1 → 3a+12a-2=1 → 15a=3 → a=1/5, x=5. b=6/5-1=1/5, y=5. Then x+y=10. Not in options. I'll set options around 10. But I need to assign numbers to match options. I'll set Q132 as follows: If 2/x + 5/y = 1 and 3/x + 2/y = 19/20 (or something), solving to get x=4, y=10 → sum=14. But I want a clean system. Let's choose x=4, y=10, then 2/4+5/10=0.5+0.5=1, and 3/4+2/10=0.75+0.2=0.95=19/20. That works! So first eq: 2/x + 5/y = 1, second eq: 3/x + 2/y = 19/20. Then solving yields x=4, y=10 → sum=14. Option (a)14 etc. I'll build the question that way. So:
+
+Q132. If
+2
+𝑥
++
+5
+𝑦
+=
+1
+x
+2
+	​
+
++
+y
+5
+	​
+
+=1 and
+3
+𝑥
++
+2
+𝑦
+=
+19
+20
+x
+3
+	​
+
++
+y
+2
+	​
+
+=
+20
+19
+	​
+
+, then
+𝑥
++
+𝑦
+=
+?
+x+y=?
+(a) 14 (b) 15 (c) 13 (d) 16
+
+Correct Answer: (a) 14
+Solution:
+Let
+1
+𝑥
+=
+𝑎
+,
+1
+𝑦
+=
+𝑏
+x
+1
+	​
+
+=a,
+y
+1
+	​
+
+=b. Then:
+2a + 5b = 1 …(1)
+3a + 2b = 19/20 …(2)
+Multiply (1) by 3: 6a+15b=3. Multiply (2) by 2: 6a+4b=38/20=19/10=1.9. Subtract: 11b = 3 - 1.9 = 1.1 = 11/10 → b = 1/10 → y = 10. Then 2a = 1 - 5/10 = 1/2 → a = 1/4 → x = 4. Sum = 14.
+Source: Simultaneous Equations with Fractions (Hard)
+
+Q133. Simplify:
+1
+1
++
+1
+1
++
+1
+2
+1+
+1+
+2
+1
+	​
+
+1
+	​
+
+1
+	​
+
+(a)
+3
+5
+5
+3
+	​
+
+ (b)
+5
+8
+8
+5
+	​
+
+ (c)
+2
+5
+5
+2
+	​
+
+ (d)
+3
+8
+8
+3
+	​
+
+Correct Answer: (a)
+3
+5
+5
+3
+	​
+
+Solution:
+Innermost:
+1
++
+1
+2
+=
+3
+2
+1+
+2
+1
+	​
+
+=
+2
+3
+	​
+
+. Then
+1
++
+1
+3
+/
+2
+=
+1
++
+2
+3
+=
+5
+3
+1+
+3/2
+1
+	​
+
+=1+
+3
+2
+	​
+
+=
+3
+5
+	​
+
+. Then outer:
+1
+5
+/
+3
+=
+3
+5
+5/3
+1
+	​
+
+=
+5
+3
+	​
+
+.
+Source: Continued Fractions
+
+Q134. A vessel is
+3
+4
+4
+3
+	​
+
+ full of milk.
+1
+5
+5
+1
+	​
+
+ of the milk is taken out and replaced with water. Again,
+1
+4
+4
+1
+	​
+
+ of the mixture is taken out and replaced with water. What fraction of the vessel is milk now?
+(a)
+9
+20
+20
+9
+	​
+
+ (b)
+3
+10
+10
+3
+	​
+
+ (c)
+2
+5
+5
+2
+	​
+
+ (d)
+7
+20
+20
+7
+	​
+
+Correct Answer: (a)
+9
+20
+20
+9
+	​
+
+Solution:
+Initial milk =
+3
+4
+4
+3
+	​
+
+. After first replacement: milk =
+3
+4
+×
+(
+1
+−
+1
+5
+)
+=
+3
+4
+×
+4
+5
+=
+3
+5
+4
+3
+	​
+
+×(1−
+5
+1
+	​
+
+)=
+4
+3
+	​
+
+×
+5
+4
+	​
+
+=
+5
+3
+	​
+
+.
+After second replacement: milk =
+3
+5
+×
+(
+1
+−
+1
+4
+)
+=
+3
+5
+×
+3
+4
+=
+9
+20
+5
+3
+	​
+
+×(1−
+4
+1
+	​
+
+)=
+5
+3
+	​
+
+×
+4
+3
+	​
+
+=
+20
+9
+	​
+
+.
+Source: Mixture and Replacement (Fractions)
+
+Q135. If
+𝑎
+𝑏
+=
+2
+3
+b
+a
+	​
+
+=
+3
+2
+	​
+
+, then
+𝑎
+3
++
+3
+𝑎
+2
+𝑏
++
+3
+𝑎
+𝑏
+2
++
+𝑏
+3
+𝑏
+3
+=
+?
+b
+3
+a
+3
++3a
+2
+b+3ab
+2
++b
+3
+	​
+
+=?
+(a)
+8
+27
+27
+8
+	​
+
+ (b)
+125
+27
+27
+125
+	​
+
+ (c)
+27
+8
+8
+27
+	​
+
+ (d)
+64
+27
+27
+64
+	​
+
+Correct Answer: (b)
+125
+27
+27
+125
+	​
+
+Solution:
+
+𝑎
+𝑏
+=
+2
+3
+b
+a
+	​
+
+=
+3
+2
+	​
+
+ → let
+𝑎
+=
+2
+𝑘
+,
+𝑏
+=
+3
+𝑘
+a=2k,b=3k. Numerator =
+(
+𝑎
++
+𝑏
+)
+3
+=
+(
+5
+𝑘
+)
+3
+=
+125
+𝑘
+3
+(a+b)
+3
+=(5k)
+3
+=125k
+3
+. Denominator =
+𝑏
+3
+=
+(
+3
+𝑘
+)
+3
+=
+27
+𝑘
+3
+b
+3
+=(3k)
+3
+=27k
+3
+. Ratio =
+125
+27
+27
+125
+	​
+
+.
+Source: Algebraic Identity
+
+Q136. The value of
+0.6
+81
+‾
+0.6
+81
+ expressed as a fraction in simplest form is:
+(a)
+15
+22
+22
+15
+	​
+
+ (b)
+681
+990
+990
+681
+	​
+
+ (c)
+227
+330
+330
+227
+	​
+
+ (d)
+15
+22
+22
+15
+	​
+
+? I need to compute.
+0.6
+81
+‾
+0.6
+81
+ = (681 - 6)/990 = 675/990 = 675/990 simplify by 45? 675/45=15, 990/45=22, so 15/22. That's (a). (c) 227/330 ≈0.687, not correct. So answer (a). I'll set options accordingly.
+Solution:
+0.6
+81
+‾
+=
+681
+−
+6
+990
+=
+675
+990
+=
+15
+22
+0.6
+81
+=
+990
+681−6
+	​
+
+=
+990
+675
+	​
+
+=
+22
+15
+	​
+
+.
+Source: Mixed Recurring Decimal (Advanced)
+
+Q137. If 3 is added to the numerator of a fraction, it becomes
+2
+3
+3
+2
+	​
+
+. If 2 is added to the denominator, it becomes
+3
+7
+7
+3
+	​
+
+. The fraction is:
+(a)
+5
+12
+12
+5
+	​
+
+ (b)
+7
+15
+15
+7
+	​
+
+ (c)
+9
+14
+14
+9
+	​
+
+ (d)
+11
+18
+18
+11
+	​
+
+Correct Answer: (a)
+5
+12
+12
+5
+	​
+
+Solution:
+Let fraction =
+𝑥
+𝑦
+y
+x
+	​
+
+.
+Case 1:
+𝑥
++
+3
+𝑦
+=
+2
+3
+y
+x+3
+	​
+
+=
+3
+2
+	​
+
+ →
+3
+𝑥
++
+9
+=
+2
+𝑦
+3x+9=2y →
+2
+𝑦
+−
+3
+𝑥
+=
+9
+2y−3x=9.
+Case 2:
+𝑥
+𝑦
++
+2
+=
+3
+7
+y+2
+x
+	​
+
+=
+7
+3
+	​
+
+ →
+7
+𝑥
+=
+3
+𝑦
++
+6
+7x=3y+6 →
+7
+𝑥
+−
+3
+𝑦
+=
+6
+7x−3y=6.
+Solve: From first, y = (3x+9)/2. Substitute into second: 7x - 3*(3x+9)/2 = 6 → multiply 2: 14x - 9x -27 = 12 → 5x = 39 → x=7.8, not integer. Need integer. Let's adjust conditions to get integer. Choose fraction = 5/12. Check: (5+3)/12=8/12=2/3, works! So first condition: adding 3 to numerator gives 2/3. Check second: 5/(12+2)=5/14, not 3/7. So second condition should be 5/14, not 3/7. I can set second condition as: if 2 added to denominator, fraction becomes 5/14. That's not as nice. I'll instead change the second condition to fit 5/12. I want 5/(12+k) = something nice. For k=2, it's 5/14; k=3, 5/15=1/3; k=8, 5/20=1/4. So if I set "if 8 is added to denominator, it becomes 1/4", then 5/12 works. So I'll set Q137: If 3 added to numerator, becomes 2/3. If 8 added to denominator, becomes 1/4. Then answer 5/12. That's clean.
+
+Q137. If 3 is added to the numerator of a fraction, it becomes
+2
+3
+3
+2
+	​
+
+. If 8 is added to the denominator, it becomes
+1
+4
+4
+1
+	​
+
+. Find the fraction.
+(a)
+5
+12
+12
+5
+	​
+
+ (b)
+7
+15
+15
+7
+	​
+
+ (c)
+9
+14
+14
+9
+	​
+
+ (d)
+11
+18
+18
+11
+	​
+
+Correct Answer: (a)
+5
+12
+12
+5
+	​
+
+Solution:
+Let fraction =
+𝑥
+𝑦
+y
+x
+	​
+
+.
+(1)
+𝑥
++
+3
+𝑦
+=
+2
+3
+y
+x+3
+	​
+
+=
+3
+2
+	​
+
+ →
+3
+𝑥
++
+9
+=
+2
+𝑦
+3x+9=2y →
+2
+𝑦
+−
+3
+𝑥
+=
+9
+2y−3x=9.
+(2)
+𝑥
+𝑦
++
+8
+=
+1
+4
+y+8
+x
+	​
+
+=
+4
+1
+	​
+
+ →
+4
+𝑥
+=
+𝑦
++
+8
+4x=y+8 →
+𝑦
+=
+4
+𝑥
+−
+8
+y=4x−8.
+Substitute:
+2
+(
+4
+𝑥
+−
+8
+)
+−
+3
+𝑥
+=
+9
+2(4x−8)−3x=9 →
+8
+𝑥
+−
+16
+−
+3
+𝑥
+=
+9
+8x−16−3x=9 →
+5
+𝑥
+=
+25
+5x=25 →
+𝑥
+=
+5
+,
+𝑦
+=
+12
+x=5,y=12.
+Source: Advanced Fraction Equation
+
+Q138. Simplify:
+0.25
++
+0.125
+3
+−
+0.04
+0.25
+	​
+
++
+3
+0.125
+	​
+
+−
+0.04
+	​
+
+(a) 0.3 (b) 0.5 (c) 0.7 (d) 0.8
+
+Correct Answer: (d) 0.8
+Solution:
+
+0.25
+=
+0.5
+0.25
+	​
+
+=0.5,
+0.125
+3
+=
+0.5
+3
+0.125
+	​
+
+=0.5,
+0.04
+=
+0.2
+0.04
+	​
+
+=0.2. Sum = 0.5+0.5-0.2 = 0.8.
+Source: Roots of Decimals
+
+Q139. The sum of two fractions is
+25
+12
+12
+25
+	​
+
+ and their difference is
+7
+12
+12
+7
+	​
+
+. The larger fraction is:
+(a)
+4
+3
+3
+4
+	​
+
+ (b)
+3
+2
+2
+3
+	​
+
+ (c)
+5
+3
+3
+5
+	​
+
+ (d)
+7
+4
+4
+7
+	​
+
+Correct Answer: (a)
+4
+3
+3
+4
+	​
+
+Solution:
+Let larger = L, smaller = S. L+S = 25/12, L-S = 7/12. Adding: 2L = 32/12 = 8/3 → L = 4/3.
+Source: Simple Equations with Fractions
+
+Q140.
+0.2
+×
+0.2
+×
+0.2
++
+0.04
+×
+0.04
+×
+0.04
+0.2×0.2×0.2+0.04×0.04×0.04 divided by
+0.4
+×
+0.4
+−
+0.4
+×
+0.08
++
+0.08
+×
+0.08
+0.4×0.4−0.4×0.08+0.08×0.08 equals:
+(a) 0.12 (b) 0.024 (c) 0.24 (d) 0.012
+
+Correct Answer: (a) 0.12
+Solution:
+Let
+𝑎
+=
+0.2
+,
+𝑏
+=
+0.04
+a=0.2,b=0.04. Numerator =
+𝑎
+3
++
+𝑏
+3
+a
+3
++b
+3
+. Denominator =
+(
+2
+𝑎
+?
+𝑊
+𝑎
+𝑖
+𝑡
+,
+0.4
+=
+2
+∗
+0.2
+=
+2
+𝑎
+,
+0.08
+=
+2
+∗
+0.04
+=
+2
+𝑏
+.
+𝑆
+𝑜
+𝑑
+𝑒
+𝑛
+𝑜
+𝑚
+𝑖
+𝑛
+𝑎
+𝑡
+𝑜
+𝑟
+=
+(
+2
+𝑎
+)
+2
+−
+(
+2
+𝑎
+)
+(
+2
+𝑏
+)
++
+(
+2
+𝑏
+)
+2
+=
+4
+𝑎
+2
+−
+4
+𝑎
+𝑏
++
+4
+𝑏
+2
+=
+4
+(
+𝑎
+2
+−
+𝑎
+𝑏
++
+𝑏
+2
+)
+(2a?Wait,0.4=2∗0.2=2a,0.08=2∗0.04=2b.Sodenominator=(2a)
+2
+−(2a)(2b)+(2b)
+2
+=4a
+2
+−4ab+4b
+2
+=4(a
+2
+−ab+b
+2
+). Expression =
+𝑎
+3
++
+𝑏
+3
+4
+(
+𝑎
+2
+−
+𝑎
+𝑏
++
+𝑏
+2
+)
+=
+𝑎
++
+𝑏
+4
+=
+0.2
++
+0.04
+4
+=
+0.24
+4
+=
+0.06
+4(a
+2
+−ab+b
+2
+)
+a
+3
++b
+3
+	​
+
+=
+4
+a+b
+	​
+
+=
+4
+0.2+0.04
+	​
+
+=
+4
+0.24
+	​
+
+=0.06, not in options. I need to recalc. Actually the problem might be different: often numerator is 0.2^3 + 0.04^3, denominator is 0.2^2 - 0.2*0.04 + 0.04^2. Then answer = a+b = 0.24. That's option (c). I'll set it that way.
+
+Q140.
+(
+0.2
+)
+3
++
+(
+0.04
+)
+3
+(
+0.2
+)
+2
+−
+0.2
+×
+0.04
++
+(
+0.04
+)
+2
+=
+?
+(0.2)
+2
+−0.2×0.04+(0.04)
+2
+(0.2)
+3
++(0.04)
+3
+	​
+
+=?
+(a) 0.12 (b) 0.024 (c) 0.24 (d) 0.012
+
+Correct Answer: (c) 0.24
+Solution:
+
+𝑎
+=
+0.2
+,
+𝑏
+=
+0.04
+a=0.2,b=0.04. Expression =
+𝑎
++
+𝑏
+=
+0.24
+a+b=0.24.
+Source: Algebraic Identity
+
+Q141. A man leaves
+1
+3
+3
+1
+	​
+
+ of his property to his wife,
+1
+4
+4
+1
+	​
+
+ to his son, and the remaining ₹5,000 to his daughter. Find the total value of the property.
+(a) ₹12,000 (b) ₹15,000 (c) ₹18,000 (d) ₹20,000
+
+Correct Answer: (a) ₹12,000
+Solution:
+Fraction to wife and son =
+1
+3
++
+1
+4
+=
+7
+12
+3
+1
+	​
+
++
+4
+1
+	​
+
+=
+12
+7
+	​
+
+. Remainder =
+5
+12
+12
+5
+	​
+
+ = 5000 → total =
+5000
+×
+12
+5
+=
+12000
+5000×
+5
+12
+	​
+
+=12000.
+Source: Word Problem (Will)
+
+Q142. If
+𝑝
+𝑞
+=
+2
+3
+q
+p
+	​
+
+=
+3
+2
+	​
+
+, find the value of
+3
+𝑝
++
+2
+𝑞
+3
+𝑝
+−
+2
+𝑞
+3p−2q
+3p+2q
+	​
+
+.
+(a) 3 (b) –3 (c) 5 (d) –5
+
+Correct Answer: (a) 3
+Solution:
+Let
+𝑝
+=
+2
+𝑘
+,
+𝑞
+=
+3
+𝑘
+p=2k,q=3k. Numerator =
+6
+𝑘
++
+6
+𝑘
+=
+12
+𝑘
+6k+6k=12k, denominator =
+6
+𝑘
+−
+6
+𝑘
+=
+0
+6k−6k=0, undefined! Cannot have that. So I need to adjust coefficients. Use 3p+4q etc. Let's set:
+5
+𝑝
++
+3
+𝑞
+5
+𝑝
+−
+3
+𝑞
+5p−3q
+5p+3q
+	​
+
+. Then p=2k,q=3k gives 10k+9k=19k, 10k-9k=k, ratio=19. Not nice. I'll use
+4
+𝑝
++
+3
+𝑞
+4
+𝑝
+−
+3
+𝑞
+4p−3q
+4p+3q
+	​
+
+ = 8k+9k=17k, 8k-9k=-k, ratio=-17. Still integer. Not in options. I'll make p/q = 3/4, then 2p+q / 2p-q = 6+4 / 6-4 = 10/2=5. That's nice. So set p/q=3/4, expression = (2p+q)/(2p-q). Answer 5. Option (c). I'll rewrite.
+
+Q142. If
+𝑝
+𝑞
+=
+3
+4
+q
+p
+	​
+
+=
+4
+3
+	​
+
+, then
+2
+𝑝
++
+𝑞
+2
+𝑝
+−
+𝑞
+=
+?
+2p−q
+2p+q
+	​
+
+=?
+(a) 3 (b) 4 (c) 5 (d) 6
+
+Correct Answer: (c) 5
+Solution:
+Let
+𝑝
+=
+3
+𝑘
+,
+𝑞
+=
+4
+𝑘
+p=3k,q=4k. Then
+2
+(
+3
+𝑘
+)
++
+4
+𝑘
+2
+(
+3
+𝑘
+)
+−
+4
+𝑘
+=
+6
+𝑘
++
+4
+𝑘
+6
+𝑘
+−
+4
+𝑘
+=
+10
+𝑘
+2
+𝑘
+=
+5
+2(3k)−4k
+2(3k)+4k
+	​
+
+=
+6k−4k
+6k+4k
+	​
+
+=
+2k
+10k
+	​
+
+=5.
+Source: Algebraic Substitution
+
+Q143. The HCF of
+3
+5
+,
+7
+10
+,
+9
+20
+5
+3
+	​
+
+,
+10
+7
+	​
+
+,
+20
+9
+	​
+
+ is:
+(a)
+1
+20
+20
+1
+	​
+
+ (b)
+1
+10
+10
+1
+	​
+
+ (c)
+3
+20
+20
+3
+	​
+
+ (d)
+7
+20
+20
+7
+	​
+
+Correct Answer: (a)
+1
+20
+20
+1
+	​
+
+Solution:
+HCF of fractions =
+HCF of numerators
+LCM of denominators
+LCM of denominators
+HCF of numerators
+	​
+
+. Numerators: 3,7,9 → HCF=1. Denominators: 5,10,20 → LCM=20. So HCF = 1/20.
+Source: HCF of Fractions
+
+Q144.
+0.9
+45
+‾
+−
+0.7
+12
+‾
+=
+?
+0.9
+45
+−0.7
+12
+=?
+(a)
+0.2
+33
+‾
+0.2
+33
+ (b)
+7
+30
+30
+7
+	​
+
+ (c)
+23
+99
+99
+23
+	​
+
+ (d) Both (a) and (b)
+
+Correct Answer: (d) Both (a) and (b)
+Solution:
+
+0.9
+45
+‾
+=
+945
+−
+9
+990
+=
+936
+990
+=
+52
+55
+0.9
+45
+=
+990
+945−9
+	​
+
+=
+990
+936
+	​
+
+=
+55
+52
+	​
+
+.
+
+0.7
+12
+‾
+=
+712
+−
+7
+990
+=
+705
+990
+=
+47
+66
+0.7
+12
+=
+990
+712−7
+	​
+
+=
+990
+705
+	​
+
+=
+66
+47
+	​
+
+.
+Subtract:
+52
+55
+−
+47
+66
+=
+312
+−
+235
+330
+=
+77
+330
+=
+7
+30
+=
+0.2
+3
+‾
+55
+52
+	​
+
+−
+66
+47
+	​
+
+=
+330
+312−235
+	​
+
+=
+330
+77
+	​
+
+=
+30
+7
+	​
+
+=0.2
+3
+? Wait, 7/30 = 0.2333... =
+0.2
+3
+‾
+0.2
+3
+, not
+0.2
+33
+‾
+0.2
+33
+. So (a) may be
+0.2
+33
+‾
+0.2
+33
+ which is 0.23333... same as 0.2\overline{3}. They are equal. So both (a) and (b) represent the same number? 0.2\overline{33} = 0.23333... and 0.2\overline{3} = 0.23333... same. So if I set (a) as
+0.2
+3
+‾
+0.2
+3
+ or
+0.2
+33
+‾
+0.2
+33
+, it's the same. I'll set (a) as
+0.2
+33
+‾
+0.2
+33
+. Then answer (d) Both. That's fine.
+Solution: Computation yields 7/30 = 0.2333... which is both 0.2\overline{3} and 0.2\overline{33}.
+Source: Mixed Recurring Decimals
+
+Q145. A number is multiplied by
+5
+8
+8
+5
+	​
+
+ instead of
+8
+5
+5
+8
+	​
+
+. The percentage error is:
+(a) 39% (b) 60.9375% (c) 61% (d) 62.5%
+
+Correct Answer: (b) 60.9375%
+Solution:
+Let number = x. Correct result = 8x/5, wrong result = 5x/8.
+Error =
+8
+𝑥
+5
+−
+5
+𝑥
+8
+=
+64
+𝑥
+−
+25
+𝑥
+40
+=
+39
+𝑥
+40
+5
+8x
+	​
+
+−
+8
+5x
+	​
+
+=
+40
+64x−25x
+	​
+
+=
+40
+39x
+	​
+
+.
+Percentage error =
+39
+𝑥
+/
+40
+8
+𝑥
+/
+5
+×
+100
+=
+39
+40
+×
+5
+8
+×
+100
+=
+39
+×
+5
+320
+×
+100
+=
+19500
+320
+=
+60.9375
+%
+8x/5
+39x/40
+	​
+
+×100=
+40
+39
+	​
+
+×
+8
+5
+	​
+
+×100=
+320
+39×5
+	​
+
+×100=
+320
+19500
+	​
+
+=60.9375%.
+Source: Percentage Error with Fractions
+
+Q146. If
+1
+1
+×
+3
++
+1
+3
+×
+5
++
+1
+5
+×
+7
++
+⋯
++
+1
+19
+×
+21
+=
+?
+1×3
+1
+	​
+
++
+3×5
+1
+	​
+
++
+5×7
+1
+	​
+
++⋯+
+19×21
+1
+	​
+
+=?
+(a)
+10
+21
+21
+10
+	​
+
+ (b)
+1
+2
+2
+1
+	​
+
+ (c)
+20
+21
+21
+20
+	​
+
+ (d)
+11
+21
+21
+11
+	​
+
+Correct Answer: (a)
+10
+21
+21
+10
+	​
+
+Solution:
+Each term =
+1
+2
+(
+1
+𝑛
+−
+1
+𝑛
++
+2
+)
+2
+1
+	​
+
+(
+n
+1
+	​
+
+−
+n+2
+1
+	​
+
+). Sum =
+1
+2
+(
+1
+−
+1
+21
+)
+=
+1
+2
+×
+20
+21
+=
+10
+21
+2
+1
+	​
+
+(1−
+21
+1
+	​
+
+)=
+2
+1
+	​
+
+×
+21
+20
+	​
+
+=
+21
+10
+	​
+
+.
+Source: Series Sum
+
+Q147. A fruit seller has
+3
+5
+5
+3
+	​
+
+ of his stock as apples and the rest oranges. He sells
+2
+3
+3
+2
+	​
+
+ of the apples and
+1
+2
+2
+1
+	​
+
+ of the oranges. What fraction of the total stock is left unsold?
+(a)
+2
+5
+5
+2
+	​
+
+ (b)
+3
+10
+10
+3
+	​
+
+ (c)
+7
+15
+15
+7
+	​
+
+ (d)
+1
+3
+3
+1
+	​
+
+Correct Answer: (a)
+2
+5
+5
+2
+	​
+
+Solution:
+Let total = 1. Apples = 3/5, oranges = 2/5. Apples sold = (2/3)*(3/5) = 2/5, oranges sold = (1/2)*(2/5)=1/5. Total sold = 3/5, left = 2/5.
+Source: Fraction Word Problem
+
+Q148. The value of
+0.16
+2
+‾
+0.16
+2
+ as a fraction in simplest form is:
+(a)
+73
+450
+450
+73
+	​
+
+ (b)
+8
+49
+49
+8
+	​
+
+ (c)
+13
+80
+80
+13
+	​
+
+ (d)
+73
+440
+440
+73
+	​
+
+Correct Answer: (a)
+73
+450
+450
+73
+	​
+
+Solution:
+
+0.16
+2
+‾
+=
+162
+−
+16
+900
+=
+146
+900
+=
+73
+450
+0.16
+2
+=
+900
+162−16
+	​
+
+=
+900
+146
+	​
+
+=
+450
+73
+	​
+
+.
+Source: Mixed Recurring Decimal
+
+Q149. If
+𝑎
+𝑏
++
+𝑏
+𝑎
+=
+2
+b
+a
+	​
+
++
+a
+b
+	​
+
+=2, then
+𝑎
+3
++
+𝑏
+3
+=
+?
+a
+3
++b
+3
+=?
+(a) 0 (b) 1 (c)
+2
+𝑎
+𝑏
+2ab (d)
+2
+(
+𝑎
++
+𝑏
+)
+2(a+b)
+
+Correct Answer: (a) 0
+Solution:
+
+𝑎
+𝑏
++
+𝑏
+𝑎
+=
+2
+b
+a
+	​
+
++
+a
+b
+	​
+
+=2 →
+𝑎
+2
++
+𝑏
+2
+𝑎
+𝑏
+=
+2
+ab
+a
+2
++b
+2
+	​
+
+=2 →
+𝑎
+2
++
+𝑏
+2
+=
+2
+𝑎
+𝑏
+a
+2
++b
+2
+=2ab →
+(
+𝑎
+−
+𝑏
+)
+2
+=
+0
+(a−b)
+2
+=0 →
+𝑎
+=
+𝑏
+a=b. Then
+𝑎
+3
++
+𝑏
+3
+=
+𝑎
+3
++
+𝑎
+3
+=
+2
+𝑎
+3
+a
+3
++b
+3
+=a
+3
++a
+3
+=2a
+3
+. But options don't have that. Actually if a=b, then a/b + b/a = 1+1=2, so a=b ≠ 0. Then
+𝑎
+3
++
+𝑏
+3
+=
+2
+𝑎
+3
+a
+3
++b
+3
+=2a
+3
+, which isn't 0. So mistake: (a-b)^2=0 gives a=b, not a=-b. If a=b, then a/b + b/a = 2, yes. So a=b. Then a^3+b^3 = 2a^3, not 0. But option (a) is 0. That would require a = -b, but then a/b + b/a = -2, not 2. So none. I'll adjust: if a/b + b/a = 2, then a=b. Then a^3 - b^3 = 0. So I'll change question to a^3 - b^3. Then answer 0. Or I'll set a^3 + b^3 in terms of something else. I can set options like 2a^3, but not listed. I'll change to a^3 - b^3. So Q149: If a/b + b/a = 2, then a^3 - b^3 = ? answer 0. That works.
+
+Q149. If
+𝑎
+𝑏
++
+𝑏
+𝑎
+=
+2
+b
+a
+	​
+
++
+a
+b
+	​
+
+=2, then
+𝑎
+3
+−
+𝑏
+3
+=
+?
+a
+3
+−b
+3
+=?
+(a) 0 (b) 1 (c) 2 (d) 3
+
+Correct Answer: (a) 0
+Solution:
+
+𝑎
+2
++
+𝑏
+2
+𝑎
+𝑏
+=
+2
+ab
+a
+2
++b
+2
+	​
+
+=2 →
+𝑎
+2
++
+𝑏
+2
+−
+2
+𝑎
+𝑏
+=
+0
+a
+2
++b
+2
+−2ab=0 →
+(
+𝑎
+−
+𝑏
+)
+2
+=
+0
+(a−b)
+2
+=0 →
+𝑎
+=
+𝑏
+a=b. Thus
+𝑎
+3
+−
+𝑏
+3
+=
+0
+a
+3
+−b
+3
+=0.
+Source: Algebraic Fraction
+
+Q150. A tank can be filled by pipe A in
+4
+5
+5
+4
+	​
+
+ hour and by pipe B in
+6
+5
+5
+6
+	​
+
+ hour. If both pipes are opened together, how long will it take to fill the tank?
+(a)
+12
+25
+25
+12
+	​
+
+ hour (b)
+24
+25
+25
+24
+	​
+
+ hour (c)
+12
+11
+11
+12
+	​
+
+ hour (d)
+11
+12
+12
+11
+	​
+
+ hour
+
+Correct Answer: (a)
+12
+25
+25
+12
+	​
+
+ hour? Let's compute: A's rate = 5/4 tank per hour, B's rate = 5/6 tank per hour. Combined rate = 5/4 + 5/6 = (15+10)/12 = 25/12 tank per hour. Time = 1 / (25/12) = 12/25 hour. That's (a). Good.
+Solution: Rates: A fills in 4/5 h → rate = 5/4 tank/h. B fills in 6/5 h → rate = 5/6 tank/h. Combined rate = 5/4+5/6 = 25/12 tank/h. Time = 12/25 h.
+Source: Time and Work (Fractions)

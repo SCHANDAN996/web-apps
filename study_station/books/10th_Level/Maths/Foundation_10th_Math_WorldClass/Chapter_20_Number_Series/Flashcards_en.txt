@@ -1,0 +1,81 @@
+🃏 Flashcards: Number Series (Foundation Level)
+
+Card 1
+Front: What is the only question you need to ask to crack any number series?
+Back: “What operation changes the first number into the second, and is that same operation repeated?” Start by checking addition/subtraction, multiplication/division, and special families (squares, cubes, primes).
+
+Card 2
+Front: You see: 12, 17, 22, 27, ___. What is the instant giveaway?
+Back: A constant difference of +5. This is the simplest pattern. Answer: 32.
+
+Card 3
+Front: The series is 5, 7, 10, 15, 23, ___. The differences are 2, 3, 5, 8. What do you examine next?
+Back: The differences of differences: 3-2=1, 5-3=2, 8-5=3. So the next difference of differences is 4 → next difference = 8+4=12 → answer = 23+12=35.
+
+Card 4
+Front: 3, 6, 18, 72, 360, ___. Why does this feel like a multiplicative series?
+Back: Each step multiplies by an increasing integer: ×2, ×3, ×4, ×5. So next term = 360 × 6 = 2160.
+
+Card 5
+Front: How do you quickly separate an alternating series like 2, 9, 5, 12, 8, 15, 11, ___?
+Back: Pull apart odd and even positions. Odd positions: 2, 5, 8, 11 (+3). Even positions: 9, 12, 15, ? (+3) → answer 18.
+
+Card 6
+Front: What is the infamous “difference of differences” method also called in the Feynman story?
+Back: The “Onion Peel” method – peel layer 1 (differences), if messy peel layer 2 (differences of differences), if still messy peel layer 3. The pattern eventually becomes simple.
+
+Card 7
+Front: What bizarre image helps you remember the onion peel method forever?
+Back: Picture an onion wearing a detective hat peeling itself while saying, “First layer differences, second layer resolution!” Quirky, but unforgettable.
+
+Card 8
+Front: What is the ridiculous mnemonic to recall the cube sequence 1, 8, 27, 64, 125, 216, 343?
+Back: “One ATE twenty-seven, sixty-four ATE one-twenty-five, two-sixteen ate three-forty-three.” Here “ATE” sounds like 8. Imagine monsters named after numbers eating the next number. Bizarre = sticky.
+
+Card 9
+Front: 1, 4, 9, 16, 25, 36, ___. What is the lazy eye trick to spot it instantly?
+Back: These are perfect squares: 1², 2², 3², 4², 5², 6² → next 7² = 49. If you spot numbers near squares, check for offset.
+
+Card 10
+Front: 5, 10, 17, 26, 37, ___. Why is this a classic examiner trap?
+Back: It’s a square+1 series: 2²+1, 3²+1, 4²+1, 5²+1, 6²+1 → next 7²+1=50. If you only check differences, you still get it, but recognizing the offset saves precious seconds.
+
+Card 11
+Front: How do you handle a fraction series like 1/2, 3/4, 5/8, 7/16, ___?
+Back: Treat numerator and denominator separately. Numerator: 1, 3, 5, 7 (odd numbers → 9). Denominator: 2, 4, 8, 16 (×2 → 32). Answer = 9/32.
+
+Card 12
+Front: What is the pattern in 2, 5, 11, 23, 47, ___?
+Back: Multiply by 2 and add 1: 2×2+1=5, 5×2+1=11, … 47×2+1=95. This is a common “operation combo” trap.
+
+Card 13
+Front: 1, 2, 3, 5, 8, 13, ___. Name this famous sequence.
+Back: Fibonacci series – each term is the sum of the two previous terms. Next: 8+13=21. Also watch for variations (sum of three terms, product, etc.).
+
+Card 14
+Front: The series is 4, 5, 7, 11, 19, ___. What fooled 60% of students in SSC CGL 2023?
+Back: The differences are powers of 2: +1, +2, +4, +8, +16 → next difference +16? Actually, 4 to 5 (+1=2⁰?), 5 to 7 (+2=2¹), 7 to 11 (+4=2²), 11 to 19 (+8=2³), 19 to next (+16=2⁴) → answer 35. (Or +2^(n-1) pattern). Students missed the exponential nature.
+
+Card 15
+Front: 0, 3, 8, 15, 24, ___. What is the “difference of differences” shortcut?
+Back: Differences: 3, 5, 7, 9 (constant difference of 2). Next difference 11 → 24+11=35. Alternatively, these are n²-1: 1²-1=0, 2²-1=3, 3²-1=8, 4²-1=15, 5²-1=24, 6²-1=35.
+
+Card 16
+Front: 2, 6, 12, 20, 30, ___. The differences are 4,6,8,10. What is the next term?
+Back: Next difference 12 → 30+12=42. Or recognise n(n+1): 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, 6×7=42.
+
+Card 17
+Front: What should you try if a series contains numbers like 8, 27, 64, 125?
+Back: Check for cubes: 2³, 3³, 4³, 5³. But always check the smaller numbers – the series might start from 1³ (=1) or 0³ (=0). Watch for offset cubes (cubes ±1).
+
+Card 18
+Front: 3, 8, 23, 68, ___. Spot the violent operation at play.
+Back: ×3 –1 pattern: 3×3–1=8, 8×3–1=23, 23×3–1=68 → next 68×3–1=203. Mixed operations can look scary, but the rule is consistent.
+
+Card 19
+Front: What is the first-aid technique when a series looks completely random?
+Back: Don’t panic. Write differences in a row. If that row is random, write differences of differences. 80% of tough series yield at the second difference. If still random, try ratios or check for alternating patterns.
+
+Card 20
+Front: Complete the mnemonic: “One ATE twenty-seven, sixty-four ATE one-twenty-five, …” What comes next?
+Back: “… two-sixteen ate three-forty-three.” So the cube sequence is 1, 8, 27, 64, 125, 216, 343. Try recalling it backwards now!

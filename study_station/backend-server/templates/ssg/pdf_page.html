@@ -1,0 +1,43 @@
+{% extends "ssg/layout.html" %}
+
+{% block header %}
+<h1>Chapter {{ chapter.chapter_number }}: <span class="highlight">{{ chapter.title }}</span></h1>
+<p>Class {{ chapter.class_level }} • {{ chapter.subject }}</p>
+{% endblock %}
+
+{% block breadcrumbs %}
+<a href="{{ root_path }}books/ncert/class-{{ chapter.class_level }}/index.html" style="color: var(--primary-light); text-decoration: none; margin-bottom: 20px; display: inline-flex; align-items: center; gap: 5px;">
+    <ion-icon name="arrow-back-outline"></ion-icon> Back to {{ chapter.subject }} Chapters
+</a>
+{% endblock %}
+
+{% block tabs %}
+<div class="ssg-tabs">
+    <a href="../main_pdf/chapter-{{ chapter.chapter_number }}.html" class="ssg-tab active"><ion-icon name="book-outline"></ion-icon> Original Book</a>
+    <a href="../ai_notes/chapter-{{ chapter.chapter_number }}.html" class="ssg-tab"><ion-icon name="document-text-outline"></ion-icon> AI Notes</a>
+    <a href="../solutions/chapter-{{ chapter.chapter_number }}.html" class="ssg-tab"><ion-icon name="chatbubbles-outline"></ion-icon> Solutions & Chat</a>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="glass-card" style="padding: 0; display: flex; flex-direction: column; height: 75vh;">
+    {% if chapter.pdf_url %}
+        <object data="{{ chapter.pdf_url }}" type="application/pdf" width="100%" height="100%" style="border-radius: 16px;">
+            <div style="padding: 100px 20px; text-align: center; flex: 1; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+                <ion-icon name="document-lock-outline" style="font-size: 5rem; color: rgba(255,255,255,0.2);"></ion-icon>
+                <p style="margin-top: 20px; color: var(--text-secondary); font-size: 1.1rem; max-width: 500px; line-height: 1.6;">
+                    The original source website (NCERT) does not allow this PDF to be embedded directly inside other websites.
+                </p>
+                <a href="{{ chapter.pdf_url }}" target="_blank" class="btn btn-primary" style="margin-top: 25px; display: inline-flex; align-items: center; gap: 8px; padding: 12px 24px; font-size: 1.1rem;">
+                    <ion-icon name="open-outline"></ion-icon> Click Here to Read PDF
+                </a>
+            </div>
+        </object>
+    {% else %}
+        <div style="padding: 100px 20px; text-align: center; flex: 1; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+            <ion-icon name="document-outline" style="font-size: 5rem; color: rgba(255,255,255,0.2);"></ion-icon>
+            <p style="margin-top: 20px; color: var(--text-secondary); font-size: 1.1rem;">Original PDF book is not available for this chapter.</p>
+        </div>
+    {% endif %}
+</div>
+{% endblock %}

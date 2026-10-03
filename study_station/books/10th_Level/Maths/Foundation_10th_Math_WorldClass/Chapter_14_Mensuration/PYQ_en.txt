@@ -1,0 +1,174 @@
+PYQ Analysis – Mensuration (10-Year Data-Driven Trends)
+
+Before we jump into the questions, here's what the data says about Mensuration in competitive exams over the last decade: Mensuration typically contributes 5–10% of the total marks in SSC CGL, with 2–4 questions in Tier 1 and 10–15 in Tier 2-
+. In RRB NTPC, 3–4 questions are a safe expectation, mostly direct formula-based problems-
+26
+. Banking exams (IBPS/SBI PO & Clerk) consistently feature 1–3 mensuration problems, often blending with percentage or ratio concepts-
+31
+. The most recycled themes across all exams are: (1) wire bending from one shape to another, (2) melting and recasting solids, (3) percentage change in area/volume when dimensions change, (4) semicircle perimeter traps, and (5) ratio-based cylinder problems.
+
+🔥 Top 10 High-Yield PYQs with Solutions & Psychological Analysis
+
+Q1. Wire Bending – Square to Circle (SSC CGL Tier 2, 2018)
+
+A cord in the form of a square encloses an area of 121 cm². If the same cord is bent into a circle, find the area of that circle.
+
+(a) 154 cm² (b) 308 cm² (c) 77 cm² (d) 196 cm²
+
+Answer: (a) 154 cm²
+
+Solution:
+The area of the square = a² = 121 → a = 11 cm. The length of the wire = perimeter of square = 4a = 44 cm. When bent into a circle, this same length becomes the circumference. So 2πr = 44 → 2 × (22/7) × r = 44 → r = 7 cm. Then, area of the circle = πr² = (22/7) × 7 × 7 = 154 cm².
+
+🧠 Psychological Hook — "The Identity Trap": The most common mistake is equating the area of the square to the area of the circle. Your brain sees "121 cm²" and wants to set πr² = 121, which is completely wrong. The trap exploits a cognitive shortcut called "attribute substitution" — your mind unconsciously replaces the hard question ("What stays constant?") with an easier one ("What number did I just see?") and tries to reuse 121. Lesson: Always ask, "What is invariant?" Here, the perimeter (length of the wire), not the area, remains constant-
+.
+
+Q2. Semicircle Perimeter Trap (SSC CGL Set 3)
+
+If the perimeter of a semicircle is 36 cm, then find its area (in cm²).
+
+(a) 154 (b) 35 (c) 77 (d) 70
+
+Answer: (c) 77 cm²
+
+Solution:
+Let radius = r. Perimeter of a semicircle = curved part + diameter = πr + 2r. Given: r(π + 2) = 36 → r(22/7 + 2) = 36 → r(36/7) = 36 → r = 7 cm. Then, area of semicircle = (1/2) × πr² = (1/2) × (22/7) × 49 = 77 cm²-
+1
+.
+
+🧠 Psychological Hook — "Completion Bias": The exam setter knows that under time pressure, your brain will reach for the familiar formula "πr" or "2πr" and stop there. Forgetting to add the diameter (2r) is the single most replicated error in mensuration PYQs. This taps into "completion bias" — the brain's tendency to consider a task done as soon as a familiar pattern is matched, ignoring missing pieces. The semicircle perimeter is the exam's favourite lie-detector question.
+
+Q3. Melting & Recasting (SSC CGL)
+
+A solid metallic cone of radius 30 cm and height 40 cm is melted and recast into metallic spheres of radius 10 cm. Find the number of spheres formed.
+
+(a) 5 (b) 9 (c) 6 (d) 12
+
+Answer: (b) 9
+
+Solution:
+Volume of cone = (1/3)πr²h = (1/3) × π × 30² × 40 = π × 900 × 40/3 = 12000π cm³. Volume of one sphere = (4/3)πr³ = (4/3) × π × 10³ = (4000π/3) cm³. Number of spheres = Volume of cone / Volume of one sphere = 12000π / (4000π/3) = 12000 × 3 / 4000 = 9-
+2
+.
+
+🧠 Psychological Hook — "Unit Blindness": When volumes are equated, π cancels out beautifully. But many aspirants, in their hurry, forget that the 1/3 in the cone and the 4/3 in the sphere are different coefficients. They treat both as "some πr²h thing" and guess. This is "analogical overgeneralisation" — applying a familiar pattern (volume ≈ π × something) without processing the precise structure. The setter rewards precision, punishes approximation.
+
+Q4. Percentage Change in Rectangle Area (SSC CGL Tier 2)
+
+Length and breadth of a rectangle are increased by 40% and 70% respectively. What will be the percentage increase in the area?
+
+(a) 118% (b) 110% (c) 138% (d) 128%
+
+Answer: (c) 138%
+
+Solution:
+Let original length = L, original breadth = B → original area = LB. New length = 1.4L, new breadth = 1.7B → new area = 1.4L × 1.7B = 2.38 LB. Percentage increase = (2.38 – 1) × 100 = 138%-
+67
+.
+
+🧠 Psychological Hook — "Additive Illusion": The unthinking mind adds 40% + 70% = 110% and picks option (b). This is the most common cognitive bias in percentage problems — the "additive illusion." The correct approach is multiplicative: (1.4 × 1.7 – 1) × 100. The exam deliberately places 110% as a distractor to catch those who avoid the multiplication step. For area/volume percentage problems, remember the mantra: "Percentages don't add; factors multiply."
+
+Q5. Ratio of Areas from Circumference Ratio (SSC CHSL 2024)
+
+If the circumferences of two circles are in the ratio 2:3, then what is the ratio of their areas?
+
+(a) 2:3 (b) 3:2 (c) 4:9 (d) 9:4
+
+Answer: (c) 4:9
+
+Solution:
+Let radii be r₁ and r₂. Circumference ratio: 2πr₁ / 2πr₂ = r₁/r₂ = 2/3. Area ratio: πr₁² / πr₂² = (r₁/r₂)² = (2/3)² = 4:9-
+13
+.
+
+🧠 Psychological Hook — "Linear Transfer": The untrained mind thinks, "If circumferences are in ratio 2:3, then areas must also be in the same ratio." The brain defaults to a linear 1:1 mapping between related quantities. But area scales as the square of linear dimensions — a non-linear relationship that feels counterintuitive under stress. The exam exploits the brain's preference for simple linear patterns over non-linear ones.
+
+Q6. Largest Sphere from a Cube (SSC CHSL 2023)
+
+*What is the volume of the largest sphere that can be cut from a cube having edges of 3 cm length? (Take π = 22/7)*
+
+(a) 6.2 cm³ (b) 14.14 cm³ (c) 1.8 cm³ (d) 2.1 cm³
+
+Answer: (b) 14.14 cm³
+
+Solution:
+The largest sphere that fits inside a cube has its diameter equal to the cube's edge. So diameter = 3 cm → radius r = 3/2 = 1.5 cm. Volume = (4/3) × π × r³ = (4/3) × (22/7) × (1.5)³ = (4/3) × (22/7) × 3.375 = (4 × 22 × 3.375) / (3 × 7) ≈ 14.14 cm³-
+50
+.
+
+🧠 Psychological Hook — "Radius vs Diameter Confusion": The most frequent error here is using r = 3 cm (the edge) instead of r = 1.5 cm. This is "dual-representation failure" — the brain struggles to mentally nest one 3D object (sphere) inside another (cube) and incorrectly maps edge length directly to radius instead of diameter. The visual thinker who sketches the situation on paper instantly avoids this trap.
+
+Q7. Cost of Fencing a Circular Field (RRB NTPC 2021)
+
+*The cost of building a fence around a circular field is Rs. 1540 at the rate of Rs. 7/m. Find the area of the circular field.*
+
+(a) 3850 m² (b) 3950 m² (c) 3750 m² (d) 3650 m²
+
+Answer: (a) 3850 m²
+
+Solution:
+Total cost = ₹1540, Rate = ₹7/m → Length of fence (Circumference) = 1540/7 = 220 m. So 2πr = 220 → 2 × (22/7) × r = 220 → r = 35 m. Area = πr² = (22/7) × 35 × 35 = 22 × 35 × 5 = 3850 m²-
+68
+.
+
+🧠 Psychological Hook — "The Multi-Layer Problem": This is a "two-step" question disguised as a "one-step" problem. The brain, seeing a number and a rate, quickly does 1540/7 = 220 and then freezes — "I have circumference, but they want area?" The psychological trap here is that mental fatigue after the first calculation makes the brain want to pick the first answer that matches 220 or a simple manipulation of it. The setter uses multi-step questions to separate "calculation-capable" from "strategy-aware" candidates.
+
+Q8. Cylinder Radius-Height Ratio & Volume (SSC CGL Tier 2)
+
+*The radius and height of a cylinder are in the ratio 5:7 and its volume is 550 cm³. Find its radius. (Take π = 22/7)*
+
+(a) 5 cm (b) 10 cm (c) 2.5 cm (d) 15 cm
+
+Answer: (a) 5 cm
+
+Solution:
+Let radius r = 5x and height h = 7x. Volume = πr²h = (22/7) × (5x)² × (7x) = (22/7) × 25x² × 7x = 22 × 25 × x³ = 550x³ = 550. So x³ = 1 → x = 1. Therefore radius = 5 × 1 = 5 cm-
+68
+.
+
+🧠 Psychological Hook — "Variable Overload": When aspirants see a ratio and a volume together, they often panic because they see two unknowns: actual radius and height. This question exploits the cognitive load of introducing an intermediate variable (x). The brain feels overwhelmed with "two unknowns, one equation," forgetting that the ratio collapses two variables into one unknown with a single powerful equation. The calm candidate introduces a proportionality constant and watches the algebra do the work. It's a test not of mensuration, but of algebraic courage.
+
+Q9. Cone Fitted Inside Cube (SSC CGL Tier 2)
+
+*A right circular cone is exactly fitted inside a cube so that the base edges touch the face edges and the vertex touches the opposite face. If the volume of the cube is 343 cc, what approximately is the volume of the cone? (Take π = 22/7)*
+
+(a) 89.8 cc (b) 85.6 cc (c) 91.2 cc (d) 88.4 cc
+
+Answer: (a) 89.8 cc
+
+Solution:
+Volume of cube = a³ = 343 → a = 7 cm. The cone's base is inscribed in a square face, so the diameter of the cone's base = side of the square = 7 cm → radius r = 3.5 cm. The cone's height equals the cube's edge, h = 7 cm. Volume of cone = (1/3)πr²h = (1/3) × (22/7) × (3.5)² × 7 = (1/3) × 22 × 12.25 = (22 × 12.25)/3 ≈ 89.83 cc-
+68
+.
+
+🧠 Psychological Hook — "Visual-Spatial Processing Trap": This question severely punishes non-visualisation. The key word is "inscribed" — the cone's base is inscribed inside a square face, so its diameter = cube edge. Many aspirants mistakenly assume the cone's base touches all four edges of the square face, which would be impossible, leading to confusion. Others confuse "cube edge" with "space diagonal." The setter is testing not formula memory but spatial visualisation — a distinct cognitive skill that many maths-heavy candidates neglect. Quick fix: always draw a rough sketch before solving.
+
+Q10. Rectangle Perimeter-Area System (SSC CHSL 2024)
+
+The perimeter of a rectangle is 82 m and its area is 400 m². What is the breadth of the rectangle?
+
+(a) 25 m (b) 20 m (c) 16 m (d) 18 m
+
+Answer: (c) 16 m
+
+Solution:
+Let length = l, breadth = b. We know l + b = 41 and l × b = 400. Using the identity (l – b)² = (l + b)² – 4lb = 41² – 4(400) = 1681 – 1600 = 81 → l – b = 9. Adding and subtracting: (l + b) + (l – b) = 41 + 9 → 2l = 50 → l = 25 m, therefore b = 16 m-
+13
+.
+
+🧠 Psychological Hook — "Simultaneous Equation Fear": The problem gives you two equations (sum and product) and asks for one variable. The underprepared mind starts guessing factors of 400 that sum to 41: 40+10=50? No. 25+16=41? Yes! But which is breadth? The 400 can be factored as 25×16, but the question asks specifically for breadth — and the setter cleverly puts 25 m as an option. Many candidates who correctly solve the system still pick the wrong final answer because they don't distinguish length from breadth. This is "selective attention failure."
+
+📊 Pattern Summary: What 10 Years of PYQs Teach Us
+Question Type	Frequency	Primary Cognitive Trap
+Wire bending (shape change)	Very High	Equating areas instead of perimeter
+Semicircle perimeter	Very High	Forgetting the diameter
+Melting & recasting	High	Mishandling volume coefficients
+Percentage change in area/volume	High	Adding percentages instead of multiplying
+Ratio of dimensions → ratio of areas/volumes	High	Assuming linear relationship
+Largest object inscribed in another	Medium	Radius vs diameter confusion
+Perimeter-Area two-equation systems	Medium	Guessing instead of systematic solving
+Multi-step fence/cost problems	Medium	Stopping after first calculation
+Cylinder/cone with ratio constraints	Medium	Fear of introducing proportionality constant
+Spatial fitting (inscribed solids)	Low-Medium	Failure to visualize
+
+Every one of these traps exploits a specific cognitive shortcut your brain takes under time pressure. The single most powerful defence? Before solving, pause for 3 seconds and ask: "What stays constant? What is the setter trying to make me confuse?"

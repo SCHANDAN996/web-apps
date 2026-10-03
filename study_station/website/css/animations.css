@@ -1,0 +1,53 @@
+/* ============================================
+   STUDY STATION — Animations (animations.css)
+   Transitions, keyframes & micro-interactions
+   ============================================ */
+
+/* Page enter animation */
+@keyframes pageIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.page.active {
+  animation: pageIn 0.4s ease-out;
+}
+
+/* Hero blobs floating */
+@keyframes heroFloat {
+  0%,100% { transform: translate(0,0) scale(1); }
+  33%     { transform: translate(30px,-30px) scale(1.05); }
+  66%     { transform: translate(-20px,20px) scale(0.95); }
+}
+.hero__blob { animation: heroFloat 20s ease-in-out infinite; }
+.hero__blob--2 { animation-delay: -10s; }
+
+/* Toast slide-in */
+@keyframes toastIn {
+  from { opacity: 0; transform: translateX(100px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+.toast { animation: toastIn 0.3s ease-out; }
+
+/* Skeleton shimmer */
+@keyframes shimmer {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+.skeleton { animation: shimmer 1.5s infinite; }
+
+/* Loader spin */
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+.loader { animation: spin 0.8s linear infinite; }
+
+/* Scroll-triggered fade-in */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.5s ease;
+}
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}

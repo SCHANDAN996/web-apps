@@ -1,0 +1,44 @@
+Front: What is the formula for the total number?
+Back: Total = (rank from top) + (rank from bottom) − 1.
+
+Front: Why do we subtract 1 in the formula?
+Back: Because the person in question is included once in both counts (double counting).
+
+Front: A is 7th from top and 18th from bottom — total?
+Back: 7 + 18 − 1 = 24.
+
+Front: How do you find the rank from the other side?
+Back: (total − rank from one side) + 1.
+
+Front: In a class of 40, A is 12th from top — position from bottom?
+Back: 40 − 12 + 1 = 29th.
+
+Front: Formula for the number between two persons (same side)?
+Back: bigger rank − smaller rank − 1.
+
+Front: A is 5th and B is 9th (same side) — how many between?
+Back: 9 − 5 − 1 = 3 persons.
+
+Front: If ranks are from different directions, number between?
+Back: total − rank₁ − rank₂.
+
+Front: Difference between "between" and "from ... to"?
+Back: "Between" = excluding both; "from ... to" = including both.
+
+Front: In a class of 30, B is 10th from top — from bottom?
+Back: 30 − 10 + 1 = 21st.
+
+Front: In a line of 5, which position is the middle one from each side?
+Back: Third from each side (3 + 3 − 1 = 5, the formula holds).
+
+Front: What is the most common trap?
+Back: Forgetting the "−1" when finding the total (the answer comes out 1 too high).
+
+Front: What is the best method when confused?
+Back: Draw small boxes on paper and fill in the numbers.
+
+Front: What to watch for in interchange problems?
+Back: Carefully recount the new rank of the swapped position.
+
+Front: What is the mnemonic for the total?
+Back: "Add, subtract one".

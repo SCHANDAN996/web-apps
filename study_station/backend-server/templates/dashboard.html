@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+
+{% block header_title %}Dashboard Overview{% endblock %}
+
+{% block content %}
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+    
+    <!-- Stats Card 1 -->
+    <div class="bg-white rounded-xl shadow-sm p-6 border border-gray-100 flex items-center justify-between">
+        <div>
+            <p class="text-sm text-gray-500 font-medium mb-1">Study Notes</p>
+            <h3 class="text-3xl font-bold text-gray-800">{{ stats.notes }}</h3>
+        </div>
+        <div class="w-12 h-12 rounded-full bg-blue-50 flex items-center justify-center text-blue-600 text-xl">
+            <i class="fas fa-book-open"></i>
+        </div>
+    </div>
+
+    <!-- Stats Card 2 -->
+    <div class="bg-white rounded-xl shadow-sm p-6 border border-gray-100 flex items-center justify-between">
+        <div>
+            <p class="text-sm text-gray-500 font-medium mb-1">Practice Questions</p>
+            <h3 class="text-3xl font-bold text-gray-800">{{ stats.questions }}</h3>
+        </div>
+        <div class="w-12 h-12 rounded-full bg-green-50 flex items-center justify-center text-green-600 text-xl">
+            <i class="fas fa-check-square"></i>
+        </div>
+    </div>
+
+    <!-- Stats Card 3 -->
+    <div class="bg-white rounded-xl shadow-sm p-6 border border-gray-100 flex items-center justify-between">
+        <div>
+            <p class="text-sm text-gray-500 font-medium mb-1">Active Job Alerts</p>
+            <h3 class="text-3xl font-bold text-gray-800">{{ stats.jobs }}</h3>
+        </div>
+        <div class="w-12 h-12 rounded-full bg-purple-50 flex items-center justify-center text-purple-600 text-xl">
+            <i class="fas fa-briefcase"></i>
+        </div>
+    </div>
+</div>
+
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+    <!-- Quick Actions Panel -->
+    <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
+        <h3 class="text-lg font-semibold mb-4 border-b pb-2">Quick Actions</h3>
+        <div class="space-y-3">
+            <button class="w-full flex items-center justify-between p-3 rounded-lg border border-gray-200 hover:border-primary hover:text-primary transition-colors">
+                <span class="font-medium"><i class="fas fa-plus mr-2 text-gray-400"></i> Add New Study Note</span>
+                <i class="fas fa-chevron-right text-gray-400 text-sm"></i>
+            </button>
+            <button class="w-full flex items-center justify-between p-3 rounded-lg border border-gray-200 hover:border-primary hover:text-primary transition-colors">
+                <span class="font-medium"><i class="fas fa-plus mr-2 text-gray-400"></i> Add Practice Question</span>
+                <i class="fas fa-chevron-right text-gray-400 text-sm"></i>
+            </button>
+            <button class="w-full flex items-center justify-between p-3 rounded-lg border border-gray-200 hover:border-primary hover:text-primary transition-colors">
+                <span class="font-medium"><i class="fas fa-sync mr-2 text-gray-400"></i> Run Auto Scraper (Jobs)</span>
+                <i class="fas fa-chevron-right text-gray-400 text-sm"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Automation Status Panel -->
+    <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
+        <h3 class="text-lg font-semibold mb-4 border-b pb-2">Automation Status</h3>
+        <div class="space-y-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <div class="w-2 h-2 rounded-full bg-green-500 mr-3"></div>
+                    <span class="text-gray-700">Sarkari Result Scraper</span>
+                </div>
+                <span class="text-sm text-gray-500">Last run: 2 hours ago</span>
+            </div>
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <div class="w-2 h-2 rounded-full bg-green-500 mr-3"></div>
+                    <span class="text-gray-700">PYQ Downloader</span>
+                </div>
+                <span class="text-sm text-gray-500">Last run: Yesterday</span>
+            </div>
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <div class="w-2 h-2 rounded-full bg-yellow-500 mr-3"></div>
+                    <span class="text-gray-700">NCERT Sync</span>
+                </div>
+                <span class="text-sm text-gray-500">Running now...</span>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

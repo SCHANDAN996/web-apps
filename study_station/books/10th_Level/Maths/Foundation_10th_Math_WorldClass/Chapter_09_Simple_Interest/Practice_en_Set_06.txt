@@ -1,0 +1,287 @@
+markdown
+Copy
+Download
+## Set 6: Simple Interest (Foundation) – English
+**All Questions Hard | Numbers 126 to 150**
+
+---
+
+**126. A person deposited ₹10,000 in a bank at simple interest. After 2 years, he withdrew ₹4,000. After another 3 years, he withdrew the entire remaining amount and closed the account. The total interest earned over the 5 years was ₹2,050. Find the rate of interest per annum.**
+(A) 4% (B) 5% (C) 6% (D) 8%
+**Correct Answer: (B) 5%**
+**Solution:**
+Let rate = R% p.a.
+Interest for first 2 years = 10000 × R × 2/100 = 200R.
+Amount after 2 years = 10000 + 200R.
+After withdrawing ₹4000, new principal = (10000 + 200R) – 4000 = 6000 + 200R.
+Interest for next 3 years = (6000 + 200R) × R × 3/100 = 180R + 6R².
+Total interest = 200R + 180R + 6R² = 380R + 6R² = 2050.
+⇒ 6R² + 380R – 2050 = 0 ⇒ 3R² + 190R – 1025 = 0.
+Discriminant = 190² + 4 × 3 × 1025 = 36100 + 12300 = 48400, √ = 220.
+R = (–190 + 220) / (2×3) = 30/6 = 5.
+**Source:** IBPS PO Mains
+
+---
+
+**127. A sum of ₹25,000 is divided into two parts. The simple interest on the first part at 6% p.a. for 3 years exceeds the simple interest on the second part at 9% p.a. for 2 years by ₹900. Find the first part.**
+(A) ₹12,000 (B) ₹13,000 (C) ₹14,000 (D) ₹15,000
+**Correct Answer: (D) ₹15,000**
+**Solution:**
+Let first part = x, second part = 25000 – x.
+SI₁ = x × 6 × 3/100 = 0.18x.
+SI₂ = (25000 – x) × 9 × 2/100 = 0.18(25000 – x) = 4500 – 0.18x.
+Excess = 0.18x – (4500 – 0.18x) = 0.36x – 4500 = 900 → 0.36x = 5400 → x = 15000.
+**Source:** SSC CGL Tier 2
+
+---
+
+**128. A sum of money at simple interest amounts to ₹7,200 in 4 years and to ₹8,400 in 6 years. Another sum is lent at the same rate for 3 years, and the interest on it equals the interest on the first sum for the first 2 years. Find the second sum.**
+(A) ₹2,800 (B) ₹3,000 (C) ₹3,200 (D) ₹3,500
+**Correct Answer: (C) ₹3,200**
+**Solution:**
+First sum: SI for 2 years = 8400 – 7200 = 1200 → SI per year = 600.
+SI for 4 years = 2400 → Principal P₁ = 7200 – 2400 = 4800.
+Rate = (600×100)/(4800×1) = 12.5% p.a.
+Interest on first sum for 2 years = 1200.
+For second sum: 1200 = P₂ × 12.5 × 3/100 → P₂ = (1200×100)/(12.5×3) = 3200.
+**Source:** SSC CGL Tier 2
+
+---
+
+**129. A sum of money doubles itself in 8 years at simple interest. If another sum, which is four times the first, is lent at the same rate, in how many years will it become 10 times the original sum?**
+(A) 12 years (B) 16 years (C) 20 years (D) 24 years
+**Correct Answer: (A) 12 years**
+**Solution:**
+For original sum P, doubles in 8 years → SI = P in 8 years → Rate = (100/8)% = 12.5%.
+Now principal = 4P, desired amount = 10P → SI required = 10P – 4P = 6P.
+Time = (SI × 100)/(Principal × Rate) = (6P × 100)/(4P × 12.5) = 600/50 = 12 years.
+**Source:** SSC CGL Tier 2
+
+---
+
+**130. A person took a loan of ₹25,000 at simple interest. After 3 years, he paid ₹10,000 towards the principal along with the interest due for those 3 years. After another 2 years, he cleared the remaining principal and interest. If his total interest payment was ₹5,250, find the rate of interest per annum.**
+(A) 4% (B) 5% (C) 6% (D) 7%
+**Correct Answer: (B) 5%**
+**Solution:**
+Let rate = R%. First 3 years: interest = 25000 × R × 3/100 = 750R. This interest is paid.
+After paying ₹10,000, outstanding principal = 25000 – 10000 = 15000.
+Next 2 years: interest = 15000 × R × 2/100 = 300R.
+Total interest = 750R + 300R = 1050R = 5250 → R = 5.
+**Source:** IBPS PO
+
+---
+
+**131. A sum of money at simple interest amounts to ₹5,500 in 3 years and to ₹6,500 in 5 years. Another sum, which is 1.5 times the first, is lent at the same rate for 4 years. Find the amount of the second sum after 4 years.**
+(A) ₹7,500 (B) ₹8,250 (C) ₹9,000 (D) ₹9,750
+**Correct Answer: (C) ₹9,000**
+**Solution:**
+First sum: SI for 2 years = 6500 – 5500 = 1000 → SI per year = 500.
+SI for 3 years = 1500 → Principal P₁ = 5500 – 1500 = 4000.
+Rate = (500×100)/4000 = 12.5%.
+Second sum principal = 1.5 × 4000 = 6000.
+SI for 4 years = 6000 × 12.5 × 4/100 = 3000. Amount = 6000 + 3000 = 9000.
+**Source:** SSC CGL
+
+---
+
+**132. The simple interest on a certain sum for 2 years at 8% p.a. is equal to the simple interest on another sum for 3 years at 6% p.a. If the first sum is ₹1,200 more than the second sum, find the first sum.**
+(A) ₹10,200 (B) ₹10,800 (C) ₹11,400 (D) ₹12,000
+**Correct Answer: (B) ₹10,800**
+**Solution:**
+Let first sum = x, second sum = x – 1200.
+Equate interests: x × 8 × 2/100 = (x – 1200) × 6 × 3/100.
+0.16x = 0.18(x – 1200) → 0.16x = 0.18x – 216 → 0.02x = 216 → x = 10800.
+**Source:** SSC CGL Tier 2
+
+---
+
+**133. A sum of money becomes 3 times in 15 years at simple interest. In how many years will 5 times the original sum become 12 times the original sum at the same rate?**
+(A) 8 years (B) 9 years (C) 10 years (D) 10.5 years
+**Correct Answer: (D) 10.5 years**
+**Solution:**
+Original sum P becomes 3P → SI = 2P in 15 years → Rate = (2×100)/15 = 40/3% p.a.
+Now principal = 5P, desired amount = 12P → SI needed = 7P.
+Time = (SI × 100)/(Principal × Rate) = (7P × 100) / (5P × 40/3) = 700 / (200/3) = 700 × 3/200 = 10.5 years.
+**Source:** SSC CGL Tier 1
+
+---
+
+**134. A sum of ₹20,000 is lent at simple interest. The rates are: 8% p.a. for the first 2 years, 6% p.a. for the next 3 years, and 10% p.a. for the remaining 5 years. Find the total simple interest earned over 10 years.**
+(A) ₹14,800 (B) ₹15,600 (C) ₹16,800 (D) ₹17,600
+**Correct Answer: (C) ₹16,800**
+**Solution:**
+Total interest = Principal × (sum of rate × time for each segment)/100
+= 20000 × (8×2 + 6×3 + 10×5)/100 = 20000 × (16 + 18 + 50)/100 = 20000 × 84/100 = 16800.
+**Source:** SSC CGL
+
+---
+
+**135. A sum of ₹12,000 is lent at simple interest at a certain rate for 5 years. If the same sum had been lent at a rate 2% higher for 3 years, it would have earned ₹960 less. Find the original rate of interest.**
+(A) 5% (B) 6% (C) 7% (D) 8%
+**Correct Answer: (C) 7%**
+**Solution:**
+Original SI = 12000 × R × 5/100 = 600R.
+New SI = 12000 × (R+2) × 3/100 = 360(R+2) = 360R + 720.
+Given original – new = 960 → 600R – (360R + 720) = 960 → 240R – 720 = 960 → 240R = 1680 → R = 7.
+**Source:** SSC CGL Tier 2
+
+---
+
+**136. A sum of money at simple interest amounts to ₹4,050 in 3 years and to ₹4,950 in 5 years. If the same sum had been lent at double the rate, what would be the amount in 4 years?**
+(A) ₹5,400 (B) ₹5,800 (C) ₹6,300 (D) ₹6,600
+**Correct Answer: (C) ₹6,300**
+**Solution:**
+SI for 2 years = 4950 – 4050 = 900 → SI per year = 450.
+SI for 3 years = 1350 → Principal = 4050 – 1350 = 2700.
+Original rate = (450×100)/2700 = 50/3% p.a.
+Double rate = 100/3% p.a.
+SI for 4 years = 2700 × (100/3) × 4/100 = 2700 × 4/3 = 3600. Amount = 2700 + 3600 = 6300.
+**Source:** SSC CGL Tier 2
+
+---
+
+**137. The simple interest on a sum for 5 years at 4% p.a. is half the simple interest on another sum for 3 years at 10% p.a. If the second sum is ₹2,000 more than the first sum, find the first sum.**
+(A) ₹5,000 (B) ₹5,500 (C) ₹6,000 (D) ₹6,500
+**Correct Answer: (C) ₹6,000**
+**Solution:**
+Let first sum = x, second sum = x + 2000.
+SI₁ = x × 4 × 5/100 = 0.2x. SI₂ = (x+2000) × 10 × 3/100 = 0.3(x+2000).
+Given 0.2x = ½ × 0.3(x+2000) = 0.15(x+2000).
+0.2x = 0.15x + 300 → 0.05x = 300 → x = 6000.
+**Source:** IBPS PO
+
+---
+
+**138. A sum of ₹48,000 is lent at simple interest. A part is lent at 8% p.a. for 5 years, and the remaining at 6% p.a. for 3 years. If the total interest earned is ₹11,940, find the sum lent at 8% p.a.**
+(A) ₹12,000 (B) ₹15,000 (C) ₹18,000 (D) ₹20,000
+**Correct Answer: (B) ₹15,000**
+**Solution:**
+Let sum at 8% = x, sum at 6% = 48000 – x.
+SI = x × 8 × 5/100 + (48000 – x) × 6 × 3/100 = 0.4x + 0.18(48000 – x) = 0.4x + 8640 – 0.18x = 0.22x + 8640.
+Set = 11940 → 0.22x = 3300 → x = 15000.
+**Source:** SSC CGL
+
+---
+
+**139. The simple interest on a sum for 6 years at 7% p.a. is ₹630 more than the simple interest on the same sum for 4 years at 8% p.a. Find the sum.**
+(A) ₹5,000 (B) ₹5,400 (C) ₹6,300 (D) ₹7,200
+**Correct Answer: (C) ₹6,300**
+**Solution:**
+SI₁ = P × 7 × 6/100 = 0.42P; SI₂ = P × 8 × 4/100 = 0.32P.
+Difference = 0.10P = 630 → P = 6300.
+**Source:** SSC CHSL
+
+---
+
+**140. A sum of money becomes 5/4 of itself in 5 years at simple interest. What will 3 times the original sum become in 8 years at the same rate?**
+(A) 3.6 times (B) 4.0 times (C) 4.2 times (D) 4.8 times
+**Correct Answer: (C) 4.2 times**
+**Solution:**
+Amount = 5/4 P → SI = 1/4 P in 5 years → Rate = (1/4 × 100)/5 = 5%.
+For 3P in 8 years: SI = 3P × 5 × 8/100 = 1.2P. Amount = 3P + 1.2P = 4.2P = 4.2 times.
+**Source:** SSC CGL Tier 1
+
+---
+
+**141. A sum of ₹30,000 is divided into two parts such that the simple interest on the first part at 10% p.a. for 2 years equals the simple interest on the second part at 8% p.a. for 5 years. Find the first part.**
+(A) ₹12,000 (B) ₹15,000 (C) ₹18,000 (D) ₹20,000
+**Correct Answer: (D) ₹20,000**
+**Solution:**
+Let first part = x, second = 30000 – x.
+SI₁ = x × 10 × 2/100 = 0.2x. SI₂ = (30000 – x) × 8 × 5/100 = 0.4(30000 – x) = 12000 – 0.4x.
+Equate: 0.2x = 12000 – 0.4x → 0.6x = 12000 → x = 20000.
+**Source:** SSC CGL
+
+---
+
+**142. The simple interest on a sum for 2 years at 12% p.a. is one-third of the simple interest on another sum for 3 years at 9% p.a. If the first sum is ₹4,500, find the second sum.**
+(A) ₹9,000 (B) ₹10,800 (C) ₹12,000 (D) ₹13,500
+**Correct Answer: (C) ₹12,000**
+**Solution:**
+SI₁ = 4500 × 12 × 2/100 = 1080.
+SI₂ = 3 × 1080 = 3240.
+SI₂ = P₂ × 9 × 3/100 = 27P₂/100 = 3240 → P₂ = 3240 × 100 / 27 = 12000.
+**Source:** SSC CGL
+
+---
+
+**143. A sum of money at simple interest amounts to ₹2,200 in 2 years and to ₹2,700 in 7 years. Another sum, three times the first, is lent at double the rate for 5 years. Find the amount of the second sum.**
+(A) ₹7,200 (B) ₹8,100 (C) ₹9,000 (D) ₹10,800
+**Correct Answer: (C) ₹9,000**
+**Solution:**
+First sum: SI for 5 years = 2700 – 2200 = 500 → SI per year = 100.
+Principal P = 2200 – 2×100 = 2000. Rate = (100×100)/2000 = 5%.
+Second sum principal = 3 × 2000 = 6000; rate = 2 × 5% = 10%; time = 5 years.
+SI = 6000 × 10 × 5/100 = 3000; Amount = 6000 + 3000 = 9000.
+**Source:** SSC CGL Tier 2
+
+---
+
+**144. A sum of money becomes 7 times in 30 years at simple interest. In how many years will it become 13 times?**
+(A) 45 years (B) 50 years (C) 55 years (D) 60 years
+**Correct Answer: (D) 60 years**
+**Solution:**
+7 times → SI = 6P in 30 years → Rate = (6×100)/30 = 20%.
+13 times → SI = 12P. Time = (12×100)/20 = 60 years.
+**Source:** SSC CGL
+
+---
+
+**145. A person deposited ₹40,000 at simple interest. After 3 years, the amount became ₹52,000. He withdrew ₹12,000 and kept the rest for another 2 years at the same rate. What was the final amount?**
+(A) ₹42,000 (B) ₹44,800 (C) ₹46,000 (D) ₹48,000
+**Correct Answer: (D) ₹48,000**
+**Solution:**
+SI for 3 years = 52000 – 40000 = 12000 → Rate = (12000×100)/(40000×3) = 10%.
+After 3 years, amount = 52000, withdrew 12000 → remaining = 40000.
+Next 2 years SI = 40000 × 10 × 2/100 = 8000. Final amount = 40000 + 8000 = 48000.
+**Source:** IBPS Clerk Mains
+
+---
+
+**146. The simple interest on a sum for 4 years at 6% p.a. is equal to the simple interest on ₹7,200 for 5 years at 4% p.a. Find the sum.**
+(A) ₹5,400 (B) ₹5,800 (C) ₹6,000 (D) ₹6,400
+**Correct Answer: (C) ₹6,000**
+**Solution:**
+SI₂ = 7200 × 4 × 5/100 = 1440.
+SI₁ = P × 6 × 4/100 = 0.24P = 1440 → P = 1440/0.24 = 6000.
+**Source:** SSC CHSL
+
+---
+
+**147. A sum of money at simple interest amounts to ₹5,800 in 3 years and to ₹7,000 in 5 years. If the rate is increased by 50%, what will be the amount in 3 years?**
+(A) ₹6,200 (B) ₹6,400 (C) ₹6,700 (D) ₹6,900
+**Correct Answer: (C) ₹6,700**
+**Solution:**
+SI for 2 years = 7000 – 5800 = 1200 → SI per year = 600.
+Principal = 5800 – 3×600 = 4000. Rate = (600×100)/4000 = 15%.
+Increased rate = 22.5%. New SI for 3 years = 4000 × 22.5 × 3/100 = 2700. Amount = 4000 + 2700 = 6700.
+**Source:** SSC CGL
+
+---
+
+**148. The simple interest on a sum for 5 years at 12% p.a. exceeds the simple interest on the same sum for 3 years at 15% p.a. by ₹300. Find the sum.**
+(A) ₹1,600 (B) ₹1,800 (C) ₹2,000 (D) ₹2,500
+**Correct Answer: (C) ₹2,000**
+**Solution:**
+SI₁ = P × 12 × 5/100 = 0.6P; SI₂ = P × 15 × 3/100 = 0.45P.
+Difference = 0.15P = 300 → P = 2000.
+**Source:** SSC CGL
+
+---
+
+**149. The simple interest on a sum for 3 years at 9% p.a. is ₹270. What would be the simple interest on the same sum for 4 years at 8% p.a.?**
+(A) ₹240 (B) ₹320 (C) ₹360 (D) ₹400
+**Correct Answer: (B) ₹320**
+**Solution:**
+270 = P × 9 × 3/100 → P = (270 × 100)/27 = 1000.
+New SI = 1000 × 8 × 4/100 = 320.
+**Source:** SSC MTS
+
+---
+
+**150. A sum of ₹50,000 is lent at simple interest: 8% p.a. for the first 3 years, 10% p.a. for the next 4 years, and 12% p.a. for the remaining 3 years. Find the total interest earned.**
+(A) ₹45,000 (B) ₹48,000 (C) ₹50,000 (D) ₹52,000
+**Correct Answer: (C) ₹50,000**
+**Solution:**
+Total interest = 50000 × (8×3 + 10×4 + 12×3)/100 = 50000 × (24 + 40 + 36)/100 = 50000 × 100/100 = 50000.
+**Source:** SSC CGL Tier 1

@@ -1,0 +1,19 @@
+🧒 Feynman Explanation: Trigonometry’s Hardest Concept (English)
+
+Imagine you’re a lazy frog sitting exactly at the center of a perfectly round pond. The pond’s edge is exactly 1 meter away from you in every direction. You have a friend — a fly — who always lands exactly on the edge of the pond. But the fly is restless; it moves around the edge, sometimes here, sometimes there.
+
+Now, you, the frog, want to describe exactly where that fly is sitting. You could say “it’s somewhere on the circle,” but that’s vague. Instead, you invent a tiny coordinate system: you mark the east direction as “X” (horizontal) and the north direction as “Y” (vertical). The fly’s position is some distance east and some distance north from you.
+
+If you draw a straight line from the center (you) to the fly, that line is always exactly 1 meter long — the radius. And if that line makes a certain angle θ with the east direction, then the fly’s east-distance (let’s call it x) and north-distance (y) depend only on that angle.
+
+Here’s the magic: By playing with triangles, mathematicians discovered that the east-distance is what we call cos θ, and the north-distance is what we call sin θ. So the fly’s coordinates are just (cos θ, sin θ). No matter where the fly lands, these numbers give its exact location on the edge.
+
+But here comes the clever bit: Since you’re at (0,0) and the fly is at (cos θ, sin θ), the straight-line distance from you to the fly is the hypotenuse of a right triangle with legs cos θ and sin θ. Pythagoras taught us that in any right triangle, (leg₁)² + (leg₂)² = (hypotenuse)². Here, the hypotenuse is the pond’s radius, which is 1. So:
+
+(cos θ)² + (sin θ)² = 1² = 1
+
+That’s it! The hardest-looking formula in trigonometry — sin²θ + cos²θ = 1 — is just a fancy way of saying “The fly on the edge of a fixed-size pond can never be more or less than 1 meter from the center, no matter which direction it flies.”
+
+Trick that sticks forever: The “Pythagorean Pond Trick”. Whenever you see sin² + cos², picture a lazy frog staring at a fly on a perfect circular pond of radius 1. The frog’s ruler always says “1”, so the squares of the fly’s east and north distances must add up to exactly 1. It’s not magic; it’s just geometry.
+
+So, here’s your challenge: If the fly’s north-distance (sin θ) is 0.8, can you figure out its east-distance (cos θ) without drawing anything? Just use the frog’s pond rule!

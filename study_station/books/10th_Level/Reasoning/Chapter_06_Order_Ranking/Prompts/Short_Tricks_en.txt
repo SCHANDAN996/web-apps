@@ -1,0 +1,99 @@
+🧠 Order & Ranking – Fun Mnemonics & Skip Strategy
+📦 Mnemonic Box 1: The “Luv-Rav” Total Formula
+
+Rule: T = Left + Right – 1
+Mnemonic: “Luv aur Rav ek saath khade, Total mein se ek minus karein!”
+Imagine Luv and Rav are best friends. They stand in a queue, but they're holding hands – you counted one extra hand! So always subtract 1.
+
+📦 Mnemonic Box 2: Opposite End Rank – “Total Se Minus, Plus One Fun”
+
+Rule: Rank from other end = Total – Given Rank + 1
+Mnemonic: “Total mein se diya hua ghataao, phir ek jodo – ulta rank paao!”
+Think of it as a reverse camera: you subtract the given rank from total, then add 1 to flip to the other side.
+
+📦 Mnemonic Box 3: Between Two Persons (Same End) – “Gap Me Se Ek Gap”
+
+Rule: Persons between = |Pos1 – Pos2| – 1
+Mnemonic: “Difference lo, ek ghato, beech ke log gino!”
+Picture two cars parked, the space between them is the difference of their parking numbers minus the space the car itself occupies.
+
+📦 Mnemonic Box 4: Convert Opposite Ends First! – “Dono Ko Ek Side Lao”
+
+Rule: If ranks are from opposite ends, first convert both to the same end.
+Mnemonic: “Left-Right mila ke mat lado, dono ko ek taraf karo!”
+Never argue left vs right; bring them to the same side like two warring friends forced to sit together.
+
+📦 Mnemonic Box 5: Overlap Check – “Jab Sum Bada Ho Total Se”
+
+Rule: If L + R > T, persons overlap.
+Mnemonic: “L+R T ko cross kare, overlap ka rasta pakde!”
+If the sum of ranks from opposite ends exceeds total, they’ve crossed paths. Imagine two trains crossing – they overlapped!
+
+📦 Mnemonic Box 6: Overlap Between Formula – “Sum Se T Ghato, Do Ghato”
+
+Rule: Persons between = (L₁ + R₂) – T – 2
+Mnemonic: “Sum of opposite, minus total, minus two – the magic between!”
+Think of it as a magic spell: “Summinus Totalminus Two! Abracadabra, between who!”
+
+📦 Mnemonic Box 7: Interchange – “Nayi Rank = Purani Dusre Ki”
+
+Rule: After swap, new rank of one from an end = other’s old rank from that same end.
+Mnemonic: “Adla-badli mein yaad rahe, nayi rank dusre ki purani hai!”
+Just like exchanging seats in a class, the new position is the old position of the friend you swapped with.
+
+📦 Mnemonic Box 8: Interchange Total Finder – “Naya Left + Unchanged Right – 1”
+
+Rule: T = New Left (of swapped person) + Unchanged Right (of the same person) – 1
+Mnemonic: “Jo badla uska naya left, jo na badla uska right, dono jodo, ek ghatao – total tight!”
+One rank changed, one didn’t. Add the new left and the old right (that stayed), minus 1.
+
+📦 Mnemonic Box 9: Minimum Total – “Ek Hi Aadmi Maan Lo”
+
+Rule: Min total = L + R – 1 (assume same person)
+Mnemonic: “Minimum nikaalna hai to dono ko ek kar do, Jaise Batman aur Bruce Wayne ek hain!”
+Just like Bruce Wayne is Batman, consider both ranks point to the same person for minimal total.
+
+📦 Mnemonic Box 10: Maximum Total – “Door-Door Khade Hain”
+
+Rule: Max total = L + R (no overlap, opposite extremes)
+Mnemonic: “Maximum mein door-door, dono chhoron par khade, beech mein koi nahin!”
+For maximum, imagine them at the two extreme ends, with no one between, so total = L + R.
+
+📦 Mnemonic Box 11: “Cannot be Determined” – “Dost Ya Dushman?”
+
+Rule: If relative order not specified, answer may be “Cannot be determined”.
+Mnemonic: “Aage-peechhe ka pata nahin, to answer hamesha 'pata nahin'!”
+If you don’t know whether A is before B or after, don’t guess — embrace the uncertainty.
+
+📦 Mnemonic Box 12: Middle Position – “Odd Hai To Seedha Hai”
+
+Rule: Middle rank (odd T) = (T+1)/2 from both ends.
+Mnemonic: “Total odd to middle chod, aadha kar aur ek aadha jod!”
+If total is odd, the middle is just (Total+1)/2 — like finding the center of a samosa!
+
+📦 Mnemonic Box 13: Persons to One Side – “Total Mein Se Left Ghato”
+
+Rule: Persons to the right of a person = Total – Left rank.
+Mnemonic: “Right wale ginne hain? Total se left minus karo, bas itna sa kaam!”
+No need to add 1; just subtract left rank from total.
+
+📦 Mnemonic Box 14: Interchange Movement Trick – “Movement = Between + 1”
+
+Rule: When two swap and one’s new rank is given, movement = |new – old| = persons between + 1.
+Mnemonic: “Kitna sarka? Between+1! Jaise Ludo mein chakka lag gaya!”
+The shift in position is exactly the number of people between them plus 1, like jumping over pawns in Ludo.
+
+📦 Mnemonic Box 15: The 15/45 Second Rule Song
+
+Mnemonic:
+“15 second mein formula yaad, 45 mein swap-sa bad.
+Na aaye toh chhod aage badh, time ki karna mat barbaad!”
+Set to a catchy beat, this reminds you: Solve direct formula in 15s, interchange/overlap in 45s, else skip!
+
+⏭️ Skip Strategy Tips
+
+The 15‑Second Sniff Test: If you read the question and can’t immediately decide whether it’s T = L+R–1 or simple conversion within 15 seconds, mark it and skip. Return only if time permits.
+
+The 45‑Second Interchange Trap: Interchange or ambiguous “between” problems often require drawing a line and testing two cases. If your first attempt doesn’t yield a clear answer within 45 seconds, leave it. The cognitive load can eat up time for 3 easy questions elsewhere.
+
+Ambiguous Order = Instant Skip: Any question that says “A is 5th from left, B is 4th from right” without specifying their relative positions, and options include “Cannot be determined,” it’s often a trick. If you don’t spot a unique answer in 30 seconds, skip — the examiner wants you to waste time.

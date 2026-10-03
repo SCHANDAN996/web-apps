@@ -1,0 +1,22 @@
+# Feynman Technique: Clock & Calendar in Simple Words
+
+Tell your younger brother: "Think of the clock as a pizza — 12 slices, each of 30°. At 3 o'clock the hour hand is at 3, the minute hand at 12 — 3 slices between them, that is 3 × 30 = 90°! That's all."
+
+**In a clock, each hour means 30° — that is the biggest key.**
+
+## The Biggest Trick: The Hand Keeps Moving
+
+At 3:30 the hour hand is not at 3 — it has moved half an hour forward (between 3 and 4). That is why the formula subtracts 5.5 per minute:
+- angle = |30 × 3 − 5.5 × 30| = |90 − 165| = 75°.
+
+For the calendar: an ordinary year means the same date next year shifts 1 day forward (52 weeks + 1 odd day).
+
+## Blurting Sheet (Write from Memory)
+
+Close the book and write:
+1. How many degrees is each hour on a clock?
+2. What is the angle formula?
+3. How many odd days in an ordinary year and a leap year?
+4. What is the century leap-year rule?
+
+Whatever you cannot write, read again.

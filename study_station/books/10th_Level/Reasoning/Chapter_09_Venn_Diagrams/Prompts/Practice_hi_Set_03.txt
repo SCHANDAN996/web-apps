@@ -1,0 +1,347 @@
+markdown
+Copy
+Download
+**Set 3: Practice MCQs (51–75)**
+
+---
+
+**51.** *सूर्य, चंद्रमा, तारों के बीच संबंध को सर्वोत्तम रूप से दर्शाने वाला वेन आरेख कौन-सा है?*
+Which of the following Venn diagrams best represents the relationship among: *Sun, Moon, Stars*?
+(A) तीन अलग-अलग वृत्त (Three separate circles)
+(B) एक बड़े वृत्त में दो काटते हुए वृत्त (One large circle containing two overlapping circles)
+(C) तीनों एक-दूसरे को काटते हुए (Three overlapping circles)
+(D) एक वृत्त दूसरे के अंदर, तीसरा अलग (One circle inside another, third separate)
+
+**Answer:** (A) तीन अलग-अलग वृत्त
+**Solution:** Sun is a star, but "Stars" as a class includes many celestial bodies; Moon is a satellite. They are disjoint in logical Venn classification. So three separate circles.
+**Source:** SSC MTS 2020
+
+---
+
+**52.** *स्तनधारी, व्हेल, मछलियों के लिए सही वेन आरेख चुनें।*
+Choose the Venn diagram for *Mammals, Whales, Fishes*।
+(A) व्हेल स्तनधारी के अंदर, मछलियाँ स्तनधारी से अलग
+(B) व्हेल मछलियों के अंदर, स्तनधारी अलग
+(C) व्हेल स्तनधारी के अंदर, मछलियाँ स्तनधारी को काटती हुई
+(D) तीनों काटते हुए
+
+**Answer:** (A) व्हेल स्तनधारी के अंदर, मछलियाँ स्तनधारी से अलग
+**Solution:** All whales are mammals. Fish is a distinct biological class, disjoint from mammals. So one circle Mammals containing Whales, and a separate circle for Fishes.
+**Source:** SSC CHSL 2019
+
+---
+
+**53.** *200 लोगों के समूह में 120 हिंदी, 100 अंग्रेजी, 60 दोनों बोलते हैं। कितने कोई भी नहीं बोलते?*
+In a group of 200 people, 120 speak Hindi, 100 speak English, 60 speak both. How many speak neither?
+(A) 20
+(B) 30
+(C) 40
+(D) 10
+
+**Answer:** (C) 40
+**Solution:** n(H ∪ E) = 120+100-60 = 160. Neither = 200-160 = 40.
+**Source:** RRB NTPC 2021
+
+---
+
+**54.** *दिए गए वेन आरेख में A = पुरुष, B = खिलाड़ी, C = कलाकार। क्षेत्र: केवल पुरुष=10, केवल खिलाड़ी=8, केवल कलाकार=12, पुरुष और खिलाड़ी केवल=5, खिलाड़ी और कलाकार केवल=4, पुरुष और कलाकार केवल=6, तीनों=3। ऐसे कितने हैं जो पुरुष या खिलाड़ी हैं लेकिन कलाकार नहीं?*
+In the given Venn diagram, circle A = Men, circle B = Players, circle C = Artists. Regions: only Men=10, only Players=8, only Artists=12, Men & Players only=5, Players & Artists only=4, Men & Artists only=6, all three=3. How many are either men or players but not artists?
+(A) 23
+(B) 28
+(C) 21
+(D) 25
+
+**Answer:** (A) 23
+**Solution:** Men or Players but not Artists = only Men (10) + only Players (8) + Men & Players only (5) = 23. (All regions involving Artists are excluded.)
+**Source:** IBPS Clerk 2021
+
+---
+
+**55.** **[जाल]** *पुस्तक, लेखक, प्रकाशक के बीच सही संबंध दर्शाने वाला वेन आरेख चुनें।*
+Select the Venn diagram that correctly shows the relationship among *Book, Author, Publisher*।
+(A) एक बड़े वृत्त में दो अलग-अलग वृत्त
+(B) तीन अलग-अलग वृत्त
+(C) लेखक पुस्तक के अंदर, प्रकाशक अलग
+(D) पुस्तक लेखक के अंदर, प्रकाशक काटता हुआ
+
+**Answer:** (B) तीन अलग-अलग वृत्त
+**Solution:** Book (object), author (person), publisher (entity) are different classes; no subset relationship exists. So three separate circles.
+**Trap:** Functional association (author writes book, publisher publishes book) misleads to incorrect overlaps.
+**Source:** SSC CGL 2021
+
+---
+
+**56.** *कथन: सभी पेंसिल पेन हैं। कुछ पेन इरेज़र हैं। कोई इरेज़र शार्पनर नहीं है।*
+*निष्कर्ष: I. कुछ पेंसिल इरेज़र हैं। II. कुछ पेन शार्पनर नहीं हैं।*
+Statements: All pencils are pens. Some pens are erasers. No eraser is a sharpener.
+Conclusions: I. Some pencils are erasers. II. Some pens are not sharpeners.
+(A) केवल I अनुसरण करता है
+(B) केवल II अनुसरण करता है
+(C) दोनों अनुसरण करते हैं
+(D) कोई भी अनुसरण नहीं करता
+
+**Answer:** (B) केवल II अनुसरण करता है
+**Solution:** Pencils ⊆ Pens. Some pens are erasers, but the pencil part may not overlap erasers. So I false. II: The pens that are erasers are not sharpeners (since no eraser is sharpener). So some pens are not sharpeners. True.
+**Source:** IBPS PO 2020
+
+---
+
+**57.** *तीन समुच्चयों A, B, C के वेन आरेख में केवल A=8, केवल B=6, केवल C=10, A∩B केवल=4, B∩C केवल=5, A∩C केवल=3, तीनों=2। कम-से-कम दो समुच्चयों में कितने तत्व हैं?*
+In a Venn diagram with three sets A, B, C, it is given that only A=8, only B=6, only C=10, A∩B only=4, B∩C only=5, A∩C only=3, all three=2. How many elements are in at least two sets?
+(A) 14
+(B) 12
+(C) 10
+(D) 16
+
+**Answer:** (A) 14
+**Solution:** At least two = (exactly two) + (all three) = (4+5+3) + 2 = 12+2 = 14.
+**Source:** SSC CGL 2022
+
+---
+
+**58.** *वर्ग, आयत, बहुभुज के लिए सर्वश्रेष्ठ विकल्प कौन-सा है?*
+Which option best represents *Square, Rectangle, Polygon*?
+(A) वर्ग आयत के अंदर, आयत बहुभुज के अंदर
+(B) वर्ग बहुभुज के अंदर, आयत अलग
+(C) आयत वर्ग के अंदर, वर्ग बहुभुज के अंदर
+(D) तीनों काटते हुए
+
+**Answer:** (A) वर्ग आयत के अंदर, आयत बहुभुज के अंदर
+**Solution:** All squares are rectangles, and all rectangles are polygons. So nested circles: Square ⊂ Rectangle ⊂ Polygon.
+**Source:** SSC CGL 2018
+
+---
+
+**59.** *कथन: कोई नदी महासागर नहीं है। सभी महासागर जलाशय हैं। कुछ जलाशय झीलें हैं।*
+*निष्कर्ष: I. कुछ जलाशय नदियाँ नहीं हैं। II. कोई झील नदी नहीं है।*
+Statements: No river is an ocean. All oceans are water bodies. Some water bodies are lakes.
+Conclusions: I. Some water bodies are not rivers. II. No lake is a river.
+(A) केवल I अनुसरण करता है
+(B) केवल II अनुसरण करता है
+(C) दोनों अनुसरण करते हैं
+(D) कोई भी अनुसरण नहीं करता
+
+**Answer:** (A) केवल I अनुसरण करता है
+**Solution:** I: Oceans are water bodies and are not rivers (since no river is ocean). So some water bodies (oceans) are not rivers. True. II: Lakes may overlap rivers; not forbidden. So false.
+**Source:** SSC CHSL 2023
+
+---
+
+**60.** **[जाल]** *डॉक्टर, मरीज़, अस्पताल के लिए सटीक वेन आरेख कौन-सा है?*
+Which Venn diagram accurately represents *Doctor, Patient, Hospital*?
+(A) तीनों काटते हुए
+(B) तीन अलग-अलग वृत्त
+(C) डॉक्टर और मरीज़ अस्पताल के अंदर, आपस में न काटते हुए
+(D) डॉक्टर अस्पताल के अंदर, मरीज़ अलग
+
+**Answer:** (B) तीन अलग-अलग वृत्त
+**Solution:** Doctor (professional), patient (person with a role), hospital (place) are distinct class categories; no class overlap. Functional association is not class membership.
+**Trap:** Real-world association (doctors and patients in hospital) leads to incorrect subset choices.
+**Source:** SSC CGL 2023
+
+---
+
+**61.** *एक सर्वेक्षण में 70% क्रिकेट, 60% फुटबॉल, 40% दोनों पसंद करते हैं। अधिकतम एक पसंद करने वालों का प्रतिशत कितना है?*
+In a survey, 70% like cricket, 60% like football, 40% like both. What percentage like at most one?
+(A) 50%
+(B) 60%
+(C) 40%
+(D) 70%
+
+**Answer:** (B) 60%
+**Solution:** At least one = 70+60-40 = 90%. At most one = total - both = 100% - 40% = 60%.
+**Source:** RRB Group D 2019
+
+---
+
+**62.** *कथन: सभी कुर्सियाँ मेज़ हैं। कुछ मेज़ लकड़ी की हैं। कोई लकड़ी की चीज़ प्लास्टिक नहीं है।*
+*निष्कर्ष: I. कुछ कुर्सियाँ लकड़ी की हैं। II. कुछ मेज़ प्लास्टिक नहीं हैं।*
+Statements: All chairs are tables. Some tables are wooden. No wooden thing is plastic.
+Conclusions: I. Some chairs are wooden. II. Some tables are not plastic.
+(A) केवल I अनुसरण करता है
+(B) केवल II अनुसरण करता है
+(C) दोनों अनुसरण करते हैं
+(D) कोई भी अनुसरण नहीं करता
+
+**Answer:** (B) केवल II अनुसरण करता है
+**Solution:** Chairs ⊆ Tables. Some tables are wooden does not force chairs to be wooden. So I false. II: The wooden tables are not plastic, so some tables are not plastic. True.
+**Source:** IBPS Clerk 2020
+
+---
+
+**63.** *दूध, दही, छाछ के लिए वेन आरेख चुनें।*
+Choose the Venn diagram for *Milk, Curd, Buttermilk*।
+(A) तीन अलग-अलग वृत्त
+(B) दही दूध के अंदर, छाछ दही के अंदर
+(C) तीनों काटते हुए
+(D) सभी एक बड़े वृत्त 'डेयरी' के अंदर, आपस में अलग
+
+**Answer:** (A) तीन अलग-अलग वृत्त
+**Solution:** Milk, curd, and buttermilk are distinct dairy products; none is a subclass of another. Without a given universal set, they are three separate circles.
+**Source:** SSC MTS 2021
+
+---
+
+**64.** *दिए गए चित्र में त्रिभुज = शिक्षक, वर्ग = स्नातकोत्तर, वृत्त = ग्रामीण। केवल शिक्षक=9, केवल PG=7, केवल ग्रामीण=11, शिक्षक और PG केवल=4, PG और ग्रामीण केवल=6, शिक्षक और ग्रामीण केवल=5, तीनों=3। ठीक दो कितने हैं?*
+In the given figure, triangle = Teachers, square = Post-graduates, circle = Rural. Numbers: only Teachers=9, only PG=7, only Rural=11, Teachers & PG only=4, PG & Rural only=6, Teachers & Rural only=5, all three=3. How many are exactly two of these?
+(A) 15
+(B) 18
+(C) 12
+(D) 14
+
+**Answer:** (A) 15
+**Solution:** Exactly two = 4+6+5 = 15.
+**Source:** IBPS PO 2021
+
+---
+
+**65.** *कथन: कुछ बैग बटुए हैं। सभी बटुए चमड़े के हैं। कोई चमड़ा कपड़ा नहीं है।*
+*निष्कर्ष: I. कुछ बैग चमड़े के हैं। II. कोई बटुआ कपड़ा नहीं है।*
+Statements: Some bags are wallets. All wallets are leather. No leather is cloth.
+Conclusions: I. Some bags are leather. II. No wallet is cloth.
+(A) केवल I अनुसरण करता है
+(B) केवल II अनुसरण करता है
+(C) दोनों अनुसरण करते हैं
+(D) कोई भी अनुसरण नहीं करता
+
+**Answer:** (C) दोनों अनुसरण करते हैं
+**Solution:** I: Some bags are wallets, wallets ⊆ leather → those bags are leather. True. II: Wallets ⊆ leather, leather ∩ cloth = ∅ → wallets ∩ cloth = ∅. True.
+**Source:** SSC CGL 2020
+
+---
+
+**66.** **[जाल]** *फल, सेब, बीज के लिए सर्वश्रेष्ठ वेन आरेख कौन-सा है?*
+Which Venn diagram best fits *Fruit, Apple, Seed*?
+(A) सेब फल के अंदर, बीज सेब के अंदर
+(B) सेब फल के अंदर, बीज अलग
+(C) बीज फल के अंदर, सेब बीज के अंदर
+(D) सेब फल के अंदर, बीज फल को काटता हुआ
+
+**Answer:** (A) सेब फल के अंदर, बीज सेब के अंदर
+**Solution:** All apples are fruits. Seeds are contained within apples; in class logic, Seed is a subset of Apple (or part). So nested: Seed ⊂ Apple ⊂ Fruit.
+**Trap:** Many think Seed is separate or only a part, but the standard exam nesting is Seed inside Apple, Apple inside Fruit.
+**Source:** SSC CGL 2017
+
+---
+
+**67.** *शिक्षक, छात्र, विद्यालय के लिए सही विकल्प कौन-सा है?*
+Which option correctly shows *Teacher, Student, School*?
+(A) शिक्षक और छात्र विद्यालय के अंदर, आपस में न काटते हुए
+(B) तीन अलग-अलग वृत्त
+(C) शिक्षक विद्यालय के अंदर, छात्र शिक्षक को काटता हुआ
+(D) छात्र शिक्षक के अंदर, विद्यालय अलग
+
+**Answer:** (A) शिक्षक और छात्र विद्यालय के अंदर, आपस में न काटते हुए
+**Solution:** Both teachers and students are part of a school; they are disjoint classes within the school environment.
+**Source:** SSC CHSL 2020
+
+---
+
+**68.** *वेन आरेख में A=डॉक्टर, B=गायक, C=भारतीय। केवल A=13, केवल B=11, केवल C=15, A∩B केवल=6, B∩C केवल=8, A∩C केवल=7, तीनों=4। ठीक एक कितने हैं?*
+In the Venn diagram, A=Doctors, B=Singers, C=Indians. Numbers: only A=13, only B=11, only C=15, A∩B only=6, B∩C only=8, A∩C only=7, all three=4. How many are exactly one of these?
+(A) 39
+(B) 43
+(C) 35
+(D) 41
+
+**Answer:** (A) 39
+**Solution:** Exactly one = only A + only B + only C = 13+11+15 = 39.
+**Source:** SSC CGL 2024
+
+---
+
+**69.** *कथन: कुछ मोबाइल लैपटॉप हैं। कोई लैपटॉप टैबलेट नहीं है। सभी टैबलेट गैजेट हैं।*
+*निष्कर्ष: I. कुछ मोबाइल टैबलेट नहीं हैं। II. कोई लैपटॉप गैजेट नहीं है।*
+Statements: Some mobiles are laptops. No laptop is a tablet. All tablets are gadgets.
+Conclusions: I. Some mobiles are not tablets. II. No laptop is a gadget.
+(A) केवल I अनुसरण करता है
+(B) केवल II अनुसरण करता है
+(C) दोनों अनुसरण करते हैं
+(D) कोई भी अनुसरण नहीं करता
+
+**Answer:** (A) केवल I अनुसरण करता है
+**Solution:** I: The mobiles that are laptops are not tablets (since no laptop is tablet). So some mobiles are not tablets. True. II: Laptops could be gadgets; no statement prevents it. So false.
+**Source:** IBPS PO 2019
+
+---
+
+**70.** *धातु, सोना, चाँदी के लिए वेन आरेख कौन-सा है?*
+Which Venn diagram represents *Metals, Gold, Silver*?
+(A) सोना और चाँदी धातु के अंदर, आपस में न काटते हुए
+(B) सोना चाँदी के अंदर, दोनों धातु के अंदर
+(C) धातु सोना के अंदर, चाँदी सोना के अंदर
+(D) तीनों काटते हुए
+
+**Answer:** (A) सोना और चाँदी धातु के अंदर, आपस में न काटते हुए
+**Solution:** Gold and silver are distinct metals; both are subsets of Metals, and they are disjoint.
+**Source:** SSC CGL 2018
+
+---
+
+**71.** *कथन: कुछ गुलाब लाल हैं। सभी लाल चीज़ें सुंदर हैं। कुछ सुंदर चीज़ें फूल हैं।*
+*निष्कर्ष: I. कुछ गुलाब सुंदर हैं। II. कुछ फूल लाल हैं।*
+Statements: Some roses are red. All red things are beautiful. Some beautiful things are flowers.
+Conclusions: I. Some roses are beautiful. II. Some flowers are red.
+(A) केवल I अनुसरण करता है
+(B) केवल II अनुसरण करता है
+(C) दोनों अनुसरण करते हैं
+(D) कोई भी अनुसरण नहीं करता
+
+**Answer:** (A) केवल I अनुसरण करता है
+**Solution:** I: Some roses are red, all red are beautiful → those roses are beautiful. True. II: Beautiful things overlap flowers, but red is inside beautiful; flowers could overlap only the non-red beautiful part. So no guarantee.
+**Source:** SSC CGL 2021
+
+---
+
+**72.** *एक कक्षा में 80% अंग्रेजी में, 70% गणित में, 60% दोनों में उत्तीर्ण हुए। ठीक एक विषय में उत्तीर्ण प्रतिशत कितना है?*
+In a class, 80% passed in English, 70% in Maths, 60% in both. What percentage passed in exactly one subject?
+(A) 20%
+(B) 30%
+(C) 10%
+(D) 40%
+
+**Answer:** (B) 30%
+**Solution:** Passed in at least one = 80+70-60 = 90%. Exactly one = at least one - both = 90% - 60% = 30%.
+**Source:** RRB NTPC 2019
+
+---
+
+**73.** **[जाल]** *पक्षी, शुतुरमुर्ग, उड़ना के लिए वेन आरेख चुनें।*
+Choose the Venn diagram for *Bird, Ostrich, Fly*।
+(A) शुतुरमुर्ग पक्षी के अंदर, उड़ना अलग
+(B) शुतुरमुर्ग पक्षी के अंदर, उड़ना पक्षी को काटता हुआ
+(C) उड़ना पक्षी के अंदर, शुतुरमुर्ग पक्षी से बाहर
+(D) तीनों अलग-अलग
+
+**Answer:** (A) शुतुरमुर्ग पक्षी के अंदर, उड़ना अलग
+**Solution:** Ostrich is a bird (subset). "Fly" is an action/verb, not a class of creatures. So Fly is a completely disjoint set.
+**Trap:** Mistaking "Fly" as a class of flying birds, leading to overlap.
+**Source:** SSC CGL 2022
+
+---
+
+**74.** *कथन: सभी कुत्ते जानवर हैं। कुछ जानवर जंगली हैं। कोई जंगली प्राणी पालतू नहीं है।*
+*निष्कर्ष: I. कुछ कुत्ते जंगली हैं। II. कोई कुत्ता पालतू नहीं है।*
+Statements: All dogs are animals. Some animals are wild. No wild creature is pet.
+Conclusions: I. Some dogs are wild. II. No dog is pet.
+(A) केवल I अनुसरण करता है
+(B) केवल II अनुसरण करता है
+(C) दोनों अनुसरण करते हैं
+(D) कोई भी अनुसरण नहीं करता
+
+**Answer:** (D) कोई भी अनुसरण नहीं करता
+**Solution:** Dogs ⊆ Animals. Some animals are wild (overlap). I: Dogs may be entirely in the non-wild part. Not definite. II: Wild and Pet are disjoint. Dogs could be pet if they are not wild. No prohibition. So II false.
+**Source:** IBPS Clerk 2021
+
+---
+
+**75.** *खिलाड़ी, क्रिकेट, हॉकी के लिए सही विकल्प कौन-सा है?*
+Which option correctly shows *Players, Cricket, Hockey*?
+(A) क्रिकेट और हॉकी खिलाड़ी के अंदर, आपस में न काटते हुए
+(B) क्रिकेट खिलाड़ी के अंदर, हॉकी अलग
+(C) तीनों काटते हुए
+(D) खिलाड़ी क्रिकेट के अंदर, हॉकी क्रिकेट के अंदर
+
+**Answer:** (A) क्रिकेट और हॉकी खिलाड़ी के अंदर, आपस में न काटते हुए
+**Solution:** Here "Cricket" and "Hockey" refer to players of those sports. Both are subsets of Players, and they are distinct (generally disjoint) specialties.
+**Source:** SSC CHSL 2019

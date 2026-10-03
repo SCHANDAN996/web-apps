@@ -1,0 +1,15 @@
+The Secret of the Lego Blocks (Why LCM and HCF are Best Friends)
+
+Imagine you are building towers with special Lego blocks. Each block is a prime number. You have two numbers: 24 and 36. You break them into prime building blocks like this:
+
+24 = a stack of three 2-blocks and one 3-block. (2 × 2 × 2 × 3)
+
+36 = a stack of two 2-blocks and two 3-blocks. (2 × 2 × 3 × 3)
+
+Now I ask you: "Build the tallest tower that can be made from both sets, block by block, exactly copying the pattern." That tallest common tower is the HCF. But wait, you can only use blocks that both numbers have, and the stack height must not be taller than what each number can give. So for the 2-blocks, 24 has three, but 36 has only two. If you build with three, 36 can't match. So you must stop at the smallest common height for each color. That's HCF: you take each prime, look at the stacks from both numbers, and build a tower as high as the shorter stack for each prime. So HCF = (the smallest power of 2) × (the smallest power of 3) = 2² × 3¹ = 4 × 3 = 12.
+
+Now a different job: "Build the smallest mega-tower that can be perfectly split into either 24 or 36 without leftover blocks." That's LCM. This time, you need to have enough blocks so that if someone says "split into 24's pattern," you can do it, and if they say "split into 36's pattern," you can do that too. To make that possible, for each prime block color, you must take the tallest stack any number demands. Because if 24 needs three 2-blocks, you must have three; if 36 needs two 3-blocks, you must have two. So you take the highest power of each prime. LCM = 2³ × 3² = 8 × 9 = 72.
+
+The Unforgettable Trick: When you are confused which is which, think 'H' for HCF and 'h' for 'huddle'—huddle means bring things closer, so you take the lower (shorter) stack. And 'L' for LCM and 'l' for 'lofty'—lofty means high, so you take the higher (taller) stack. That's it. Short for HCF, Tall for LCM. Never mix them again.
+
+Now, here’s your question: You have 12 (2² × 3¹) and 18 (2¹ × 3²). Can you build their HCF and LCM towers? Try it before looking.

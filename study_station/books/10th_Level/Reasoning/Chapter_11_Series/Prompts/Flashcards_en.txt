@@ -1,0 +1,79 @@
+Card 1
+Front: What is the first question you should ask yourself when you see any number series?
+Back: "Is it going up, down, or dancing (up‑down)?" This reveals the direction and hints at the operations at play.
+
+Card 2
+Front: The series 7, 14, 28, 56, ? grows fast. What pattern is likely?
+Back: Multiplication by 2. So next term = 112.
+
+Card 3
+Front: What is the "Difference Ladder" trick?
+Back: Write differences between consecutive terms. If they aren’t constant, take the second difference. It uncovers hidden arithmetic progressions.
+
+Card 4
+Front: The series 4, 9, 16, 25, ? – difference of differences is constant (+2). What’s the next term?
+Back: 36. Differences: +5, +7, +9 → +11 next. Also, these are perfect squares (2²,3²,4²,5²,6²).
+
+Card 5
+Front: You see 3, 7, 15, 31, ? – it nearly doubles but not quite. How do you crack it?
+Back: ×2 +1 pattern. 3×2+1=7, 7×2+1=15, 15×2+1=31, so next 31×2+1 = 63.
+
+Card 6
+Front: Why is memorizing squares up to 25 and cubes up to 15 non‑negotiable?
+Back: Many series are n²±a or n³±a. If you know 15²=225, 16²=256 instantly, you’ll spot patterns like 2,5,10,17 (n²+1) in seconds.
+
+Card 7
+Front: Convert the letter series B, E, H, K into numbers. What’s the pattern?
+Back: B=2, E=5, H=8, K=11 → +3 each time. Next letter is N (14).
+
+Card 8
+Front: What is the "AZBY" mnemonic and why is it a lifesaver?
+Back: It reminds you of opposite letter pairs: A-Z, B-Y, C-X, D-W... each pair sums to 27 (A=1, Z=26; 1+26=27). Use it to solve alternating forward‑backward series quickly.
+
+Card 9
+Front: In a letter series like AZ, BY, CX, DW, what comes next and why?
+Back: EV. First letter +1 (A→B→C→D→E), second letter −1 from opposite (Z→Y→X→W→V). Both follow the opposite‑pair rule (sum 27).
+
+Card 10
+Front: You get stuck on 3, 10, 5, 20, 7, 30, ? – no single rule works. What’s the secret?
+Back: It’s a double series. Unbraid: odd positions 3,5,7 (+2) → next 9; even positions 10,20,30 (+10). So next term (odd position) is 9.
+
+Card 11
+Front: How do you quickly separate a double series on paper?
+Back: Underline odd positions (1st,3rd,5th) and circle even positions (2nd,4th,6th). Solve each mini‑series independently.
+
+Card 12
+Front: What is the "Twin Rope Trick"?
+Back: Imagine two ropes twisted together. Pull them apart by splitting the series into two strands – one for odd positions, one for even. Most “messy” series become two simple ones.
+
+Card 13
+Front: The series 5, 10, 17, 26, 36, 50 contains a wrong term. How do you catch it?
+Back: The pattern is n²+1: 2²+1=5, 3²+1=10, 4²+1=17, 5²+1=26, 6²+1=37 (not 36), 7²+1=50. So 36 is wrong.
+
+Card 14
+Front: Name the mnemonic that helps you remember the sum of opposite letters.
+Back: “A to Z and B to Y, sum twenty‑seven, don’t ask why!” (and the word “AZBY” itself).
+
+Card 15
+Front: Examiner’s Trap – You see 2, 4, 8, 16… and mark 32. How can this fail?
+Back: The actual pattern might be cubic (difference of differences) giving 31, not 32. Always check beyond the obvious multiplication if 4+ terms are given. The “easy start” can be a decoy.
+
+Card 16
+Front: Examiner’s Trap – You find two different patterns that both give the same answer for the missing term. Should you relax?
+Back: Never. You must verify that the pattern you chose holds for every given term without exception. Sometimes one pattern yields a different answer than another if the series is slightly different, so double‑check.
+
+Card 17
+Front: In a letter series Z, X, V, T, ? you immediately say R. When should you pause?
+Back: Confirm the gap is constant using number conversion (26,24,22,20 → −2). The trap is a sudden change in step (e.g., −2,−2,−2,−3). So always write numeric values.
+
+Card 18
+Front: A series starts 1, 3, 7, 15, 31. What operation lurks here?
+Back: Each term is (2ⁿ − 1): n=1→1, 2→3, 3→7, 4→15, 5→31, so 6th = 63. This is a classic binary‑like pattern often used as a trap.
+
+Card 19
+Front: Why is the 30‑second scan rule crucial before calculation?
+Back: Asking “Direction? Speed? Gaps?” prevents jumping to the wrong operation. It forces your brain to spot the type (additive, multiplicative, square, etc.) first, saving time and errors.
+
+Card 20
+Front: What does the “Even‑Odd Unbraid” habit protect you from?
+Back: It shields you from the examiner’s favorite trap – the double series where two independent patterns are interleaved. Without unbraiding, the series looks chaotic.

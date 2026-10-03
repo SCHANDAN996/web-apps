@@ -1,0 +1,300 @@
+📝 Practice Set 1/6 (प्रैक्टिस सेट 1/6)
+Simple Puzzles — 25 MCQs (Easy + Medium)
+Includes Examiner’s Traps
+
+Question 1.
+Five persons A, B, C, D, E sit in a row facing north. A is immediate left of B. C is immediate right of D. E sits at the extreme right end. B is not at any end. Who sits at the extreme left end?
+(A) A
+(B) C
+(C) D
+(D) Cannot be determined
+
+Answer: (D)
+Solution:
+Row positions 1 to 5. E = 5 (extreme right). A-B block (A left of B). B not at end → B can be 2, 3, or 4. Case 1: A=1, B=2. Then C-D block (D left of C) fits at 3-4 (D=3, C=4). Left end = A. Case 2: B=3, A=2. Then D=1, C=4 works; left end = D. Hence not unique.
+Examiner’s Trap: The clue “A is immediate left of B” does not fix the block at an extreme; multiple possibilities exist.
+Source: Based on SSC CGL 2022 pattern.
+
+Question 2.
+Six friends P, Q, R, S, T, U sit in a row facing south. P sits at one of the ends. R sits second to the left of T. Only one person sits between Q and U. S is immediate neighbour of T. Who sits third from the left end?
+(A) Q
+(B) R
+(C) S
+(D) U
+
+Answer: (B) R
+Solution:
+Let positions 1–6 (left to right). Second to left: R = T – 2. P at an end. Test P=1. Possible T=5, R=3. S neighbour of T ⇒ S=4 or 6. If S=6, T=5, R=3. One person between Q and U ⇒ gap of 2. Remaining positions 2,4; Q and U can occupy 2 and 4 (one person at 3 between). Arrangement: 1:P, 2:Q/U, 3:R, 4:U/Q, 5:T, 6:S. Third from left is position 3 = R.
+Source: RRB NTPC 2020 style.
+
+Question 3.
+Seven boxes A, B, C, D, E, F, G kept one above another (1 = bottom, 7 = top). A is at an odd-numbered position. B is three boxes above A. C is immediately below D. E is at the top. F is between A and C. Which box is at position 4?
+(A) A
+(B) B
+(C) C
+(D) F
+
+Answer: (B)
+Solution:
+A odd (1,3,5,7). B = A+3. Possible A=1 ⇒ B=4; A=3 ⇒ B=6; A=5 ⇒ B=8 invalid; A=7 invalid. Case 1: A=1, B=4. E=7. C-D block, F between A and C. If C=5,D=6, then F between 1 and 5 ⇒ F=2 or 3 (but 3 free). Works, position 4 = B. Case 2: A=3, B=6. E=7. C-D block, F between 3 and C. Remaining positions 1,2,4,5. If C=5,D=6? B=6 conflict. C=4,D=5 ⇒ F between 3 and 4 impossible. C=2,D=3? A=3 conflict. So no valid placement. Thus only Case 1 works, pos4 = B.
+Source: Banking Clerk 2023 type.
+
+Question 4.
+Six friends A, B, C, D, E, F sit around a circular table facing the centre. A sits opposite D. B sits immediate right of A. C sits second to the left of B. Who sits immediate left of D?
+(A) E
+(B) F
+(C) C
+(D) Cannot be determined
+
+Answer: (D)
+Solution:
+Let A=1, D opposite = 4. B immediate right (clockwise) of A = 2. C second to left (anticlockwise) of B (2): left steps 2→1→6, so C=6. Remaining persons E, F at 3 and 5. Immediate left of D (4) is position 3 (E or F). Specific person undetermined.
+Examiner’s Trap: “Immediate left” of D is not uniquely fixed; options list E and F separately, tempting a guess.
+Source: SBI Clerk 2021 (adapted).
+
+Question 5.
+Five persons P, Q, R, S, T have different heights. P is taller than Q but shorter than R. S is taller than T. T is not the shortest. Who is the shortest?
+(A) P
+(B) Q
+(C) T
+(D) Cannot be determined
+
+Answer: (B) Q
+Solution:
+R > P > Q. S > T. T not shortest ⇒ T > (someone). Since Q is already below R and P, if Q were taller than T, T would be shortest (contradiction). So T > Q. Thus Q is shortest.
+Source: SSC CGL 2019.
+
+Question 6.
+Seven persons take leave Mon–Sun. R takes Friday. Only one person takes leave between R and S. T takes immediately before U. V takes Sunday. Who takes Wednesday?
+(A) S
+(B) T
+(C) U
+(D) Cannot be determined
+
+Answer: (A) S
+Solution:
+R = Fri (5). One person between R and S ⇒ S = Wed (3) or Sun (7). V=Sun ⇒ S=3 (Wed). T before U block. Remaining days: Mon(1), Tue(2), Thu(4), Sat(6). T-U must be consecutive; possible (1,2) or (5,6) no, (6,7) no. Only (1,2) works: T=Mon, U=Tue. So Wednesday = S.
+Source: IBPS RRB Clerk 2022.
+
+Question 7.
+A walks 6 m north from point X, turns left and walks 8 m, turns left and walks 6 m, turns left and walks 8 m. How far is he from X?
+(A) 0 m
+(B) 10 m
+(C) 14 m
+(D) 20 m
+
+Answer: (A) 0 m
+Solution:
+Movement forms a rectangle returning to start. Path: N6, W8, S6, E8 → back to X. Distance 0 m.
+Source: RRB Group D 2018.
+
+Question 8.
+A 5-floor building (1 = ground, 5 = top). A lives on an odd floor. B lives immediately above D. C lives on floor 1. E lives on the top floor. Who lives on floor 3?
+(A) A
+(B) B
+(C) D
+(D) Cannot be determined
+
+Answer: (A) A
+Solution:
+C=1, E=5. Odd floors free: 3 only (1 and 5 taken). A must be on odd, so A=3.
+Source: SSC CHSL 2020.
+
+Question 9.
+Six boxes P, Q, R, S, T, U stacked (1 bottom, 6 top). P immediately above Q. R exactly in middle (position 3). S at top. T immediately below U. Which box is at position 2?
+(A) P
+(B) U
+(C) Q
+(D) Cannot be determined
+
+Answer: (D)
+Solution:
+S=6, R=3. P=Q+1; U=T+1. Two blocks to place in remaining positions 1,2,4,5. Possibility 1: Q=1, P=2, then T=4, U=5 → pos2 = P. Possibility 2: Q=4, P=5, then T=1, U=2 → pos2 = U. Hence not unique.
+Examiner’s Trap: Students often fix the first block arbitrarily and pick P or U.
+Source: Banking PO Pre 2020 style.
+
+Question 10.
+P, Q, R, S, T have different weights. P is heavier than Q but lighter than R. S is heavier than T. T is not the lightest. Who is the heaviest?
+(A) R
+(B) S
+(C) P
+(D) Cannot be determined
+
+Answer: (D)
+Solution:
+R > P > Q. S > T. T not lightest ⇒ Q is lightest (Q < T). Heaviest could be R or S, as no relation between R and S is given.
+Examiner’s Trap: Incomplete comparison; options (A) and (B) both possible.
+Source: UPSC CSAT 2016.
+
+Question 11.
+Six persons sit in two parallel rows, 3 each. Row1 (A,B,C) faces south, Row2 (P,Q,R) faces north. A sits opposite the person who sits immediate left of R. B sits at the extreme left end of Row1. Who sits opposite C?
+(A) P
+(B) Q
+(C) R
+(D) Cannot be determined
+
+Answer: (C) R
+Solution:
+Row1 left to right: B, C, A (since B extreme left, opposite arrangements). Row2 faces north; “immediate left of R” is the seat to R’s right (observer’s perspective). Let Row2 seats 1,2,3 (left to right). If R at 2, immediate left = 3. So opposite 3 is Row1 rightmost = A. Thus A opposite Row2-3. Then Row1: B=1, C=2, A=3. Opposite C (2) is Row2-2 = R.
+Source: SSC CGL 2019.
+
+Question 12.
+Five seminars on Mon–Fri. English not Mon/Fri. Maths immediately after Science. Hindi on Thursday. Science before English. Which seminar is on Monday?
+(A) Science
+(B) Maths
+(C) Hindi
+(D) Cannot be determined
+
+Answer: (A) Science
+Solution:
+Hindi=Thu. English Tue/Wed. Science before English. Maths immediately after Science (Sci–Maths block). If English Tue, block Sci Mon, Math Tue conflicts. If English Wed, block Sci Tue, Math Wed conflicts? Check: Sci Tue, Math Wed, then English Wed conflict. Instead, block Sci Mon, Math Tue, English Wed, then Hindi Thu, Fri free. So Monday = Science.
+Source: RRB NTPC 2021.
+
+Question 13.
+From point P, Ravi walks 6 m east, turns left walks 8 m north, turns right walks 6 m east, turns left walks 8 m north. How far is he from P?
+(A) 10 m
+(B) 14 m
+(C) 20 m
+(D) 28 m
+
+Answer: (C) 20 m
+Solution:
+Net displacement: east = 6+6=12 m, north = 8+8=16 m. Distance = √(12²+16²) = √400 = 20 m.
+Source: SSC GD 2022.
+
+Question 14.
+Seven boxes A–G, bottom 1 top 7. A at 4. B three boxes above C. D immediately above E. F at top. G at an odd floor. Who is at floor 2?
+(A) D
+(B) E
+(C) C
+(D) G
+
+Answer: (A) D
+Solution:
+A=4, F=7. B = C+3. C can be 2 (B=5) or 3 (B=6). C=3 ⇒ B=6; remaining 1,2,5. D above E (D=E+1). Place D=2, E=1 works; G odd, floor 5 left → G=5. So floor 2 = D. (C=2, B=5 fails as D-E block cannot fit.)
+Source: IBPS Clerk 2023.
+
+Question 15.
+Six persons J,K,L,M,N,O in a row facing north. L at extreme left end. K immediate left of M. N second to right of J. Only one person between O and J. Who sits immediate right of L?
+(A) J
+(B) K
+(C) O
+(D) Cannot be determined
+
+Answer: (C) O
+Solution:
+L=1. N = J+2, |O–J|=2. Try J=4 ⇒ N=6, O=2 (since gap 2). K-M block: K=3, M=5 works. Arrangement: 1:L,2:O,3:K,4:J,5:M,6:N. Immediate right of L is O.
+Source: SSC CGL 2020.
+
+Question 16.
+Seven floors 1–7. A on 4. B three floors above C. D immediately above E. F on top. G on odd floor. Who is on floor 2?
+(A) D
+(B) E
+(C) C
+(D) G
+
+Answer: (A) D
+Solution: (Same as Q14 essentially, check) A=4, F=7. B=C+3. C=3 ⇒ B=6. Then D=E+1; remaining 1,2,5. D=2,E=1 works. G odd ⇒ 5 = G. So floor 2=D.
+Source: RRB PO 2021.
+
+Question 17.
+A, B, C, D, E have different heights. A is taller than D. B is shorter than C but taller than E. The person who likes red is the tallest. C does not like red. Who is the tallest?
+(A) A
+(B) B
+(C) C
+(D) Cannot be determined
+
+Answer: (A) A
+Solution:
+C > B > E. A > D. Red = tallest. C doesn’t like red ⇒ C not tallest. If A were shorter than C, then C would be tallest (contradiction). Hence A > C. So A is tallest.
+Examiner’s Trap: Extra information (likes red) is crucial to eliminate C; students may overlook it.
+Source: Banking Mains style.
+
+Question 18.
+Seven persons P–V, Mon–Sun. P on Wednesday. Only three persons between Q and R. S immediately before T. U on Saturday. V on a day before P. Who is on Monday?
+(A) Q
+(B) R
+(C) S
+(D) Cannot be determined
+
+Answer: (A) Q
+Solution:
+P=3 (Wed), U=6 (Sat). V < 3 ⇒ V=1 or 2. Q and R gap 4 (three persons between) ⇒ |Q–R|=4. Possible pairs: (1,5), (2,6), (3,7). 3 and 6 taken, so only (1,5) works. So Q,R=1 and 5. V before P, so V=2 (since 1 taken). S-T block. Remaining days 4,7. S-T must be consecutive ⇒ S=4,T=7 or vice versa (S immediately before T ⇒ S=4,T=7). Thus Monday (1) = Q or R? 1 is Q (say). So Monday is Q.
+Source: SBI PO Pre 2023.
+
+Question 19.
+Six persons A–F around circle facing centre. A opposite D. B immediate right of A. C second to left of B. Who sits between E and F (counting clockwise from E)?
+(A) A
+(B) B
+(C) C
+(D) D
+
+Answer: (D) D
+Solution:
+As in Q4: A=1, D=4, B=2, C=6. Remaining E,F at 3 and 5. Clockwise from E (say E=3): 3→4(D)→5(F)→... between E and F is D (if E=3, next is D=4, then F=5). So D sits between E and F.
+Source: SSC CGL 2018.
+
+Question 20.
+A certain number of persons sit in a row facing north. A sits at one end. B sits third to the right of A. Only two persons sit between B and C. C sits at an extreme end. How many persons?
+(A) 5
+(B) 6
+(C) 7
+(D) Cannot be determined
+
+Answer: (C) 7
+Solution:
+A at left end (pos1). B third right ⇒ pos4. Two persons between B and C ⇒ C can be pos1 (conflict) or pos7 (with persons 5,6 between). C at extreme end ⇒ pos7. Hence total 7.
+Source: RRB ALP 2019.
+
+Question 21.
+Seven lectures Mon–Sun. Physics on Wed. Chemistry immediately before Biology. Maths immediately after Physics. English before Maths. History on Friday. Which lecture is on Monday?
+(A) Chemistry
+(B) Biology
+(C) English
+(D) Cannot be determined
+
+Answer: (C) English
+Solution:
+Phy=3, Hist=5, Maths=4. Chem–Bio block. English before Maths ⇒ English 1 or 2. Chem–Bio block can’t be (1,2) because English needs 1 or 2. So block must be (6,7): Chem=6, Bio=7. Then English=1, remaining 2 for Geography. Monday = English.
+Source: Banking Clerk 2022.
+
+Question 22.
+Seven floors 1–7. A lives on an even floor. B lives three floors above C. D lives immediately below E. F lives on top. G lives below A but above B. Who lives on floor 2?
+(A) A
+(B) D
+(C) G
+(D) Cannot be determined
+
+Answer: (B) D
+Solution:
+A even (2,4,6). F=7. B=C+3. G between B and A (B < G < A). Try A=6 ⇒ B<G<6. B≥4 (since C≥1). So B=4, G=5 works. C=1. D below E: remaining 2,3. D=2, E=3. Floor 2=D. (Other A values fail.)
+Source: SSC CGL Tier-2 2021.
+
+Question 23.
+Eight persons A–H around circle facing centre. A second to left of B. C opposite D. E immediate right of F. G third to right of H. H not immediate neighbour of A. Who sits opposite C?
+(A) D
+(B) E
+(C) F
+(D) G
+
+Answer: (A) D
+Solution:
+Let B=1, A=7 (second left). H≠6,8. Try H=5 ⇒ G=8 (third right). E=F+1. Remaining positions 2,3,4,6. Block E=F+1 fits (3,4): F=3,E=4. Opposite pairs: (1,5),(2,6),(3,7),(4,8). Opposite C is D; remaining free pair (2,6) for C,D. Thus C=2, D=6 or vice versa. Opposite C is D.
+Source: SBI PO 2023.
+
+Question 24.
+P, Q, R, S, T, U have different heights. P > Q, P < R. S > T, S < U. Exactly one person is between U and R in height order. T is not the shortest. Who is tallest?
+(A) R
+(B) U
+(C) S
+(D) Cannot be determined
+
+Answer: (D)
+Solution:
+R > P > Q; U > S > T. One person between U and R. Case 1: U > X > R ⇒ X = S (since S < U and > R possible) ⇒ U > S > R > P > Q, and T < R (so T between R and Q). Tallest = U. Case 2: R > X > U ⇒ X = P (since P > U possible) ⇒ R > P > U > S > T > Q. Tallest = R. Both valid; T not shortest holds. So not unique.
+Examiner’s Trap: Incomplete ordering leads to dual possibility; students may fix one and choose R or U.
+Source: UPSC CSAT 2022 style.
+
+Question 25.
+Seven boxes P,Q,R,S,T,U,V stacked 1–7. P at odd position. Q three boxes above R. S immediately below T. U between P and Q. V not at top. Which box is at position 4?
+(A) R

@@ -1,0 +1,55 @@
+# Sitting Arrangement
+
+At a wedding dinner, 6 people sit around a round table, all facing the centre. Someone asks, "Who is immediately to Ram's left?" — here is the twist: for a person facing the table, their left hand is on our (the observer's) right! Sitting arrangement is a test of exactly this reversal.
+
+**Definition:** In these questions, several people are seated in a line, around a round table, or a square table, some conditions are given, and we must work out their exact positions.
+
+🧠 Recall: For a person facing the centre of a round table, on which side of the observer is their left hand?
+
+## The Golden Rule: Draw the Arrangement
+
+Draw the arrangement (line or circle) on paper and fill in the conditions one by one. Apply the definite conditions first, the uncertain ones later.
+
+```svg Round table: 6 people, all facing the centre (A's left = F, right = B)
+<svg viewBox="0 0 240 240" width="240" height="240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Six people seated around a round table">
+  <circle cx="120" cy="120" r="42" style="fill:var(--fig-muted);stroke:var(--fig-line);stroke-width:1"/>
+  <text x="120" y="124" text-anchor="middle" style="fill:var(--fig-text);font-size:12px">Table</text>
+  <circle cx="120" cy="42" r="16" style="fill:none;stroke:var(--fig-accent);stroke-width:2"/>
+  <text x="120" y="47" text-anchor="middle" style="fill:var(--fig-text);font-size:13px;font-weight:700">A</text>
+  <circle cx="188" cy="81" r="16" style="fill:none;stroke:var(--fig-accent);stroke-width:2"/>
+  <text x="188" y="86" text-anchor="middle" style="fill:var(--fig-text);font-size:13px;font-weight:700">B</text>
+  <circle cx="188" cy="159" r="16" style="fill:none;stroke:var(--fig-accent);stroke-width:2"/>
+  <text x="188" y="164" text-anchor="middle" style="fill:var(--fig-text);font-size:13px;font-weight:700">C</text>
+  <circle cx="120" cy="198" r="16" style="fill:none;stroke:var(--fig-accent);stroke-width:2"/>
+  <text x="120" y="203" text-anchor="middle" style="fill:var(--fig-text);font-size:13px;font-weight:700">D</text>
+  <circle cx="52" cy="159" r="16" style="fill:none;stroke:var(--fig-accent);stroke-width:2"/>
+  <text x="52" y="164" text-anchor="middle" style="fill:var(--fig-text);font-size:13px;font-weight:700">E</text>
+  <circle cx="52" cy="81" r="16" style="fill:none;stroke:var(--fig-accent);stroke-width:2"/>
+  <text x="52" y="86" text-anchor="middle" style="fill:var(--fig-text);font-size:13px;font-weight:700">F</text>
+</svg>
+```
+
+## Main Types
+
+**1. Linear Arrangement (single row)**
+All facing the same direction → left/right is like ours.
+Two rows facing each other → one row faces north, the other faces south.
+
+**2. Circular Arrangement**
+- **Facing the centre** → a person's left = our right (reversed).
+- **Facing outward** → a person's left = our left (same).
+
+**3. Square/Rectangular Table**
+People at corners and along the sides; the facing direction is given in the conditions.
+
+🧠 Recall: In a circle where everyone faces outward, on which side of the observer is a person's right hand?
+
+## The Examiner's Trap
+
+⚠️ **Trap 1 — facing direction:** Facing inward vs outward reverses left and right. Decide the facing direction first.
+
+⚠️ **Trap 2 — "immediately beside" vs "somewhere on a side":** "immediately to the left" (the very next neighbour) and "to the left" (anywhere on the left) are different.
+
+⚠️ **Trap 3 — incomplete information:** Often one condition gives two possibilities; fix the final picture only after applying all conditions.
+
+Review this after 2 days.

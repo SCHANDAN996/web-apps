@@ -1,0 +1,45 @@
+# Venn Diagrams
+
+In a class some children play cricket, some football, and some both. How do you show this? Draw two circles that overlap a little in the middle — where they overlap sit the 'both' players. That is a Venn diagram — showing the relationship between groups using circles.
+
+**Definition:** In a Venn diagram, the relationship between items or groups (all/some/none) is shown using overlapping circles. Questions are of two kinds — logical relationships, and number (counting) based.
+
+🧠 Recall: Who falls in the overlapping (shared) part of two circles?
+
+```svg Venn diagram of two groups: the shared middle = both (A ∩ B)
+<svg viewBox="0 0 280 180" width="280" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Venn diagram of two circles">
+  <circle cx="105" cy="90" r="65" style="fill:var(--fig-accent);opacity:0.18;stroke:var(--fig-accent);stroke-width:2"/>
+  <circle cx="175" cy="90" r="65" style="fill:var(--fig-accent3);opacity:0.18;stroke:var(--fig-accent3);stroke-width:2"/>
+  <text x="68" y="95" text-anchor="middle" style="fill:var(--fig-text);font-size:12px">A only</text>
+  <text x="212" y="95" text-anchor="middle" style="fill:var(--fig-text);font-size:12px">B only</text>
+  <text x="140" y="95" text-anchor="middle" style="fill:var(--fig-text);font-size:11px">A∩B</text>
+  <text x="105" y="20" text-anchor="middle" style="fill:var(--fig-accent);font-size:13px;font-weight:700">A</text>
+  <text x="175" y="20" text-anchor="middle" style="fill:var(--fig-accent3);font-size:13px;font-weight:700">B</text>
+</svg>
+```
+
+## Logical Venn
+
+Identify the relationship between three words and pick the correct diagram:
+- **Nested (one inside another):** Dog ⊂ Animal ⊂ Living being → three circles one inside the other.
+- **Partial overlap:** Doctor, Man → some doctors are men (the two circles overlap a little).
+- **Completely separate (disjoint):** Tree, Cow → no tree is a cow (two separate circles).
+
+## Numerical Venn
+
+For counting problems, the key formula:
+**n(A ∪ B) = n(A) + n(B) − n(A ∩ B)**
+
+Example: 30 children play cricket, 20 play football, 10 play both. Playing at least one game = 30 + 20 − 10 = 40.
+
+🧠 Recall: Why do we subtract "− n(A ∩ B)" in the formula for n(A ∪ B)?
+
+## The Examiner's Trap
+
+⚠️ **Trap 1 — double counting:** Those in both must be subtracted once, or the answer comes out too high.
+
+⚠️ **Trap 2 — "only A" vs "A":** "Only A" = in A but not B; "A" = the whole A circle (including the overlap).
+
+⚠️ **Trap 3 — wrong diagram:** The diagrams for "all A are B" and "some A are B" are completely different.
+
+Review this after 2 days.

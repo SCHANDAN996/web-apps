@@ -1,0 +1,199 @@
+{% extends "frontend/layout.html" %}
+
+{% block title %}Class {{ class_level }} {{ subject }} Chapter {{ chapter.chapter_number }} Notes - Study Station{% endblock %}
+{% block meta_description %}Read NCERT {{ subject }} Chapter {{ chapter.chapter_number }} ({{ chapter.title }}) for Class {{ class_level }}. Includes original PDF, AI notes, and interactive AI Chat Tutor.{% endblock %}
+
+{% block extra_css %}
+<style>
+    .back-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        color: var(--primary-light);
+        text-decoration: none;
+        margin-bottom: 20px;
+        font-weight: 500;
+        transition: transform 0.2s;
+    }
+    .back-link:hover {
+        transform: translateX(-5px);
+        color: white;
+    }
+
+    .ch-tab {
+        background: none;
+        border: none;
+        color: var(--text-secondary);
+        padding: 12px 20px;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        border-bottom: 3px solid transparent;
+        transition: all 0.2s;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    .ch-tab:hover {
+        color: var(--text-primary);
+    }
+    .ch-tab.active {
+        color: var(--primary-light);
+        border-bottom-color: var(--primary-light);
+    }
+    
+    .chat-msg {
+        display: flex;
+        gap: 12px;
+        margin-bottom: 15px;
+    }
+    .chat-msg.user-msg {
+        justify-content: flex-end;
+    }
+    .msg-avatar {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+        flex-shrink: 0;
+    }
+    .ai-avatar {
+        background: #6366f1; /* Indigo */
+        color: white;
+    }
+    .user-avatar {
+        background: #8b5cf6; /* Violet */
+        color: white;
+    }
+    .msg-bubble {
+        padding: 16px;
+        border-radius: 16px;
+        max-width: 80%;
+        line-height: 1.5;
+    }
+    .ai-bubble {
+        background: rgba(99, 102, 241, 0.15);
+        border: 1px solid rgba(99, 102, 241, 0.3);
+        border-top-left-radius: 4px;
+    }
+    .user-bubble {
+        background: #8b5cf6;
+        color: white;
+        border-top-right-radius: 4px;
+    }
+    
+    .action-btn {
+        background: #6366f1;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 8px;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        font-weight: 500;
+        transition: background 0.2s;
+    }
+    .action-btn:hover {
+        background: #4f46e5;
+    }
+
+    /* Google Translate Widget Styling */
+    .goog-te-gadget {
+        font-family: 'Inter', sans-serif !important;
+        color: transparent !important;
+    }
+    .goog-te-gadget .goog-te-combo {
+        padding: 8px;
+        border-radius: 8px;
+        border: 1px solid var(--glass-border);
+        background: var(--glass-bg);
+        color: var(--text-primary);
+        outline: none;
+    }
+</style>
+{% endblock %}
+
+{% block header %}
+<h1>Chapter {{ chapter.chapter_number }}: <span class="highlight">{{ chapter.title }}</span></h1>
+<p>Class {{ class_level }} • {{ subject }}</p>
+{% endblock %}
+
+{% block content %}
+<a href="{{ url_for('frontend_chapters', class_level=class_level, subject=subject|urlencode) }}" class="back-link">
+    <ion-icon name="arrow-back-outline"></ion-icon> Back to Chapters
+</a>
+
+<div class="glass-card" style="padding: 0; overflow: hidden; display: flex; flex-direction: column; min-height: 75vh;">
+    <!-- Tabs Header -->
+    <div style="padding: 20px 20px 0 20px; border-bottom: 1px solid var(--glass-border); background: rgba(0,0,0,0.2);">
+        <div style="display: flex; gap: 10px;">
+            <button class="ch-tab active" onclick="switchChapterTab('pdf')"><ion-icon name="book-outline"></ion-icon> Original Book</button>
+            <button class="ch-tab" onclick="switchChapterTab('notes')"><ion-icon name="document-text-outline"></ion-icon> AI Notes</button>
+            <button class="ch-tab" onclick="switchChapterTab('chat')"><ion-icon name="chatbubbles-outline"></ion-icon> Learn with AI</button>
+        </div>
+    </div>
+    
+    <!-- Tab 1: PDF Viewer -->
+    <div id="tab-pdf" class="ch-tab-content" style="display: flex; flex-direction: column; flex: 1;">
+        {% if chapter.pdf_url %}
+            <iframe src="{{ chapter.pdf_url }}" width="100%" height="100%" style="border: none; flex: 1; min-height: 600px;"></iframe>
+        {% else %}
+            <div style="padding: 100px 20px; text-align: center; flex: 1; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+                <ion-icon name="document-outline" style="font-size: 5rem; color: rgba(255,255,255,0.2);"></ion-icon>
+                <p style="margin-top: 20px; color: var(--text-secondary); font-size: 1.1rem;">Original PDF book is not available for this chapter.</p>
+            </div>
+        {% endif %}
+    </div>
+    
+    <!-- Tab 2: AI Notes -->
+    <div id="tab-notes" class="ch-tab-content" style="display: none; padding: 30px; flex: 1; overflow-y: auto;">
+        <div style="display: flex; justify-content: flex-end; gap: 15px; margin-bottom: 30px; flex-wrap: wrap;">
+            <button onclick="speakNotes()" class="action-btn" id="ttsBtn">
+                <ion-icon name="volume-high-outline"></ion-icon> Listen
+            </button>
+            <div id="google_translate_element"></div>
+        </div>
+        <div id="aiNotesContent" style="line-height: 1.8; font-size: 1.1rem; color: var(--text-primary);">
+            {{ parsed_notes|safe }}
+        </div>
+    </div>
+    
+    <!-- Tab 3: Chat with AI -->
+    <div id="tab-chat" class="ch-tab-content" style="display: none; flex-direction: column; flex: 1;">
+        <div id="chatHistory" style="flex: 1; padding: 30px; overflow-y: auto; display: flex; flex-direction: column; min-height: 400px; max-height: 60vh;">
+            <div class="chat-msg">
+                <div class="msg-avatar ai-avatar">🤖</div>
+                <div class="msg-bubble ai-bubble">
+                    Hello! I am your AI Tutor. 🎓<br>Ask me any question or doubt about <b>{{ chapter.title }}</b>!
+                </div>
+            </div>
+        </div>
+        <div style="padding: 20px; border-top: 1px solid var(--glass-border); display: flex; gap: 15px; background: rgba(0,0,0,0.2);">
+            <input type="text" id="chatInput" placeholder="Ask a question... (Press Enter)" style="flex: 1; padding: 15px 25px; border-radius: 30px; border: 1px solid var(--glass-border); background: var(--glass-bg); color: var(--text-primary); font-size: 1rem; outline: none;">
+            <button onclick="sendChatMessage({{ chapter.id }})" style="background: var(--primary-light); color: white; border: none; width: 55px; height: 55px; border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: transform 0.2s;">
+                <ion-icon name="send" style="font-size: 1.5rem; margin-left: 4px;"></ion-icon>
+            </button>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<!-- Google Translate Script -->
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'hi,en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+    }
+</script>
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<!-- Custom Modular JS Scripts -->
+<script src="{{ url_for('static', filename='js/frontend/tabs.js') }}"></script>
+<script src="{{ url_for('static', filename='js/frontend/tts.js') }}"></script>
+<script src="{{ url_for('static', filename='js/frontend/chat.js') }}"></script>
+{% endblock %}

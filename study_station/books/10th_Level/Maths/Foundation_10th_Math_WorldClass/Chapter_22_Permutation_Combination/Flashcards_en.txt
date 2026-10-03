@@ -1,0 +1,59 @@
+Front: What single question should you ask to instantly decide whether a problem is Permutation or Combination?
+Back: "If I shake the box, does the result change?" Yes → Permutation; No → Combination. (Shake Test)
+
+Front: What is the weird mnemonic that links Permutation to a Parade and Combination to Curry?
+Back: P = Parade (order Priority) & C = Curry (order Chill). Picture a parade where order matters and a curry pot where ingredients just mix.
+
+Front: A restaurant has 3 soups, 4 mains, and 2 desserts. How many different 3-course meals can you create?
+Back: 3 × 4 × 2 = 24 meals. This is the Fundamental Counting Principle — multiply "and" choices.
+
+Front: A lock has a 4-digit code using digits 0–9, repetition allowed. How many possible codes exist?
+Back: 10⁴ = 10,000 codes. This is permutation with repetition (order matters, no restrictions).
+
+Front: You have 8 athletes and want to award Gold, Silver, and Bronze medals. How many possible medal arrangements exist?
+Back: 8P3 = 8! / (8-3)! = 8 × 7 × 6 = 336. It's a permutation because the order of medals matters.
+
+Front: A club has 10 members. They need to form a 4-person cleaning committee. How many committees are possible?
+Back: 10C4 = 10! / (4! 6!) = 210. A committee is just a selection — order doesn't matter, so it's Combination.
+
+Front: What is the formula for nPr (Permutations of r out of n)?
+Back: n! / (n-r)!. It counts arrangements where order matters and no repetition is allowed.
+
+Front: What is the formula for nCr (Combinations of r out of n)?
+Back: n! / (r!(n-r)!). It counts selections where order is ignored.
+
+Front: If nC8 = nC12, what is n? (Use the symmetry trick)
+Back: n = 8 + 12 = 20. Because nCr = nC(n-r), so if r=8 then n-r=12, so n=20.
+
+Front: What does 5C0 equal, and why?
+Back: 5C0 = 1. There’s exactly one way to choose nothing — the empty selection.
+
+Front: A password consists of 2 different letters from A-Z followed by 3 different digits from 0-9. How many passwords?
+Back: 26P2 × 10P3 = (26×25) × (10×9×8) = 650 × 720 = 468,000. The "and" between letters and digits means multiply.
+
+Front: Why does 7C3 = 7C4? Explain the symmetry in plain words.
+Back: Choosing 3 items out of 7 automatically leaves 4 behind. So selecting 3 is the same as selecting which 4 to reject. Hence the number of ways is equal.
+
+Front: What's the "Please Carry" memory trick to distinguish P and C?
+Back: "Please Carry" — P for Permutation (Please – position matters), C for Combination (Carry – just grouping, order doesn't matter). Silly but sticky.
+
+Front: A team of 2 boys and 2 girls is chosen from 5 boys and 6 girls. How many teams?
+Back: 5C2 × 6C2 = 10 × 15 = 150. You multiply the independent selections because you need both groups.
+
+Front: What is the most common exam trap involving the words "and" and "or"?
+Back: "And" means multiply (Fundamental Counting Principle), "or" (mutually exclusive) means add. Many students multiply when they should add, or vice versa.
+
+Front: How many ways can you arrange the letters of the word 'NUMBER' such that the arrangement starts with a vowel?
+Back: 2 options for the first letter (U or E), then arrange the remaining 5 letters: 2 × 5! = 2 × 120 = 240.
+
+Front: In how many ways can 5 people sit around a circular table?
+Back: (5-1)! = 4! = 24. Circular permutations fix one person's position to remove rotations, so formula is (n-1)!.
+
+Front: A box has 3 red and 2 blue pens. You grab 2 pens at once. What is the number of ways to get exactly 1 red and 1 blue?
+Back: 3C1 × 2C1 = 3 × 2 = 6. This is a combination selection — order of grabbing doesn’t matter.
+
+Front: What does 0! equal, and why is it used in nCr and nPr?
+Back: 0! = 1. It makes formulas consistent: nC0 = n!/(0! n!) = 1, which matches the logic that there's one way to choose nothing.
+
+Front: A teacher wants to rank her top 3 students out of a class of 25. What concept and formula should she use?
+Back: Permutation — order (1st, 2nd, 3rd) matters. Use 25P3 = 25 × 24 × 23 = 13,800.

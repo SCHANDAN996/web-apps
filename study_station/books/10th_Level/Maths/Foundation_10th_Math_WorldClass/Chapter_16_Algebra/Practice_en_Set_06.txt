@@ -1,0 +1,335 @@
+**Set 6: Algebra MCQs (All Hard – 25 Questions)**  
+
+---
+
+**126. If a + b + c = 0, then the value of (a+b)(b+c)(c+a)/abc is:**  
+(A) 1  
+(B) –1  
+(C) 0  
+(D) 3  
+**Answer:** (B) –1  
+**Solution:**  
+Given a+b+c=0 ⇒ a+b = –c, b+c = –a, c+a = –b.  
+Product (a+b)(b+c)(c+a) = (–c)(–a)(–b) = –abc.  
+Hence, (–abc)/abc = –1.  
+**Source:** SSC CGL (adapted)  
+
+---
+
+**127. Solve: 4ˣ – 3·2ˣ + 2 = 0.**  
+(A) x = 0 only  
+(B) x = 1 only  
+(C) x = 0, 1  
+(D) x = 2  
+**Answer:** (C) x = 0, 1  
+**Solution:**  
+Let y = 2ˣ. Then equation becomes y² – 3y + 2 = 0 ⇒ (y–1)(y–2)=0 ⇒ y=1 or y=2.  
+2ˣ = 1 ⇒ x=0; 2ˣ = 2 ⇒ x=1. So x = 0, 1.  
+**Source:** NCERT Class 10 (Exponents)  
+
+---
+
+**128. If x = √2 + 1, find the value of (x – 1/x)⁴.**  
+(A) 16  
+(B) 4  
+(C) 64  
+(D) 256  
+**Answer:** (A) 16  
+**Solution:**  
+1/x = 1/(√2+1) = √2–1. So x – 1/x = (√2+1) – (√2–1) = 2.  
+Thus (x – 1/x)⁴ = 2⁴ = 16.  
+**Source:** SSC CGL (adapted)  
+
+---
+
+**129. If x² + 1/x² = 7, find x³ + 1/x³.**  
+(A) 18  
+(B) 21  
+(C) 14  
+(D) 28  
+**Answer:** (A) 18  
+**Solution:**  
+(x + 1/x)² = x² + 1/x² + 2 = 7 + 2 = 9 ⇒ x + 1/x = 3 (taking positive).  
+Now x³ + 1/x³ = (x + 1/x)³ – 3(x + 1/x) = 27 – 9 = 18.  
+**Source:** NCERT Class 9 (Identities)  
+
+---
+
+**130. The difference of two numbers is 4 and the difference of their cubes is 316. Find the sum of their squares.**  
+(A) 58  
+(B) 62  
+(C) 50  
+(D) 64  
+**Answer:** (A) 58  
+**Solution:**  
+Let numbers be a and b, a>b. a–b = 4.  
+a³ – b³ = (a–b)(a² + ab + b²) = 4(a²+ab+b²) = 316 ⇒ a²+ab+b² = 79.  
+Also (a–b)² = a² – 2ab + b² = 16.  
+Subtracting: (a²+ab+b²) – (a²–2ab+b²) = 79–16 ⇒ 3ab = 63 ⇒ ab = 21.  
+Then a² + b² = (a²+ab+b²) – ab = 79 – 21 = 58.  
+**Source:** NCERT Class 9 (adapted)  
+
+---
+
+**131. If (a+b)/c = (b+c)/a = (c+a)/b = k, then the possible value(s) of k is/are:**  
+(A) 2 only  
+(B) –1 only  
+(C) 2 or –1  
+(D) 1 only  
+**Answer:** (C) 2 or –1  
+**Solution:**  
+If a+b+c ≠ 0, then adding numerators and denominators: k = 2(a+b+c)/(a+b+c) = 2.  
+If a+b+c = 0, then a+b = –c, so k = (–c)/c = –1. So k = 2 or –1.  
+**Source:** SSC CHSL (adapted)  
+
+---
+
+**132. If x + y + z = 0, then the value of x²/yz + y²/zx + z²/xy is:**  
+(A) 0  
+(B) 1  
+(C) 3  
+(D) –3  
+**Answer:** (C) 3  
+**Solution:**  
+Expression = x³/xyz + y³/xyz + z³/xyz = (x³+y³+z³)/xyz.  
+For x+y+z=0, identity gives x³+y³+z³ = 3xyz. Hence expression = 3xyz/xyz = 3 (if x,y,z ≠0).  
+**Source:** NCERT Class 9 (Identities)  
+
+---
+
+**133. The value of (1 + 1/2)(1 + 1/3)(1 + 1/4)…(1 + 1/100) is:**  
+(A) 101/2  
+(B) 101/100  
+(C) 100/2  
+(D) 101/50  
+**Answer:** (A) 101/2  
+**Solution:**  
+Product = (3/2) × (4/3) × (5/4) × … × (101/100). All intermediate terms cancel, leaving = 101/2.  
+**Source:** NCERT Class 10 (Telescoping Product)  
+
+---
+
+**134. If 2x + 3y = 78 and 3x + 2y = 72, then the value of xy is:**  
+(A) 216  
+(B) 210  
+(C) 196  
+(D) 200  
+**Answer:** (A) 216  
+**Solution:**  
+Adding: 5x+5y = 150 ⇒ x+y = 30.  
+Subtracting second from first: –x+y = 6 ⇒ y–x = 6.  
+Solving: y = (30+6)/2 = 18, x = (30–6)/2 = 12. Then xy = 12×18 = 216.  
+**Source:** NCERT Class 10 (Linear Equations)  
+
+---
+
+**135. If x² – 3x + 1 = 0, find x⁵ + 1/x⁵.**  
+(A) 123  
+(B) 126  
+(C) 132  
+(D) 119  
+**Answer:** (A) 123  
+**Solution:**  
+From equation x ≠ 0, dividing: x + 1/x = 3.  
+x² + 1/x² = (x+1/x)² – 2 = 9–2=7.  
+x³ + 1/x³ = (x+1/x)³ – 3(x+1/x) = 27–9=18.  
+Now (x²+1/x²)(x³+1/x³) = x⁵+1/x⁵ + x+1/x ⇒ 7×18 = x⁵+1/x⁵ + 3 ⇒ 126 = x⁵+1/x⁵ + 3 ⇒ x⁵+1/x⁵ = 123.  
+**Source:** SSC CGL Tier II (adapted)  
+
+---
+
+**136. Solve for real x: √(x+3) + √(x–2) = 5**  
+(A) 6  
+(B) 7  
+(C) 5  
+(D) 8  
+**Answer:** (A) 6  
+**Solution:**  
+Square both sides: (x+3)+(x–2)+2√((x+3)(x–2)) = 25 ⇒ 2x+1+2√(x²+x–6) = 25 ⇒ 2√(x²+x–6) = 24–2x ⇒ √(x²+x–6) = 12–x.  
+Square again: x²+x–6 = 144 – 24x + x² ⇒ 25x = 150 ⇒ x=6.  
+Check: √9 + √4 = 3+2=5. Valid.  
+**Source:** SSC CGL (Surds)  
+
+---
+
+**137. If x + 1/x = –1, then x¹² + 1/x¹² equals:**  
+(A) 2  
+(B) –2  
+(C) 1  
+(D) –1  
+**Answer:** (A) 2  
+**Solution:**  
+x + 1/x = –1 ⇒ x² + x + 1 = 0 (multiply x). ⇒ x³ – 1 = 0 (since (x–1)(x²+x+1)=0, but x≠1). So x³ = 1.  
+Then x¹² = (x³)⁴ = 1. So 1/x¹² =1. Hence x¹² + 1/x¹² = 2.  
+**Source:** NCERT Class 9 (Complex roots/cyclicity)  
+
+---
+
+**138. If a² + b² = 117 and ab = 54, find a+b given a, b are positive.**  
+(A) 15  
+(B) 13  
+(C) 17  
+(D) 9  
+**Answer:** (A) 15  
+**Solution:**  
+(a+b)² = a²+b²+2ab = 117+108 = 225 ⇒ a+b = 15.  
+**Source:** NCERT Class 9 (Identities)  
+
+---
+
+**139. The sum of the roots of the equation (x–1)(x–2)(x–3) = 24 is:**  
+(A) 6  
+(B) –6  
+(C) 5  
+(D) –5  
+**Answer:** (A) 6  
+**Solution:**  
+Expanding LHS: (x–1)(x–2)(x–3) = x³ – 6x² + 11x – 6.  
+Equation: x³ – 6x² + 11x – 30 = 0. Sum of roots = –(–6)/1 = 6.  
+**Source:** NCERT Class 10 (Polynomials)  
+
+---
+
+**140. If a/2 = b/3 = c/4 and a + 2b + 3c = 40, then a is:**  
+(A) 4  
+(B) 6  
+(C) 8  
+(D) 2  
+**Answer:** (A) 4  
+**Solution:**  
+Let a=2k, b=3k, c=4k. Then a+2b+3c = 2k+6k+12k = 20k = 40 ⇒ k=2. Thus a=4.  
+**Source:** NCERT Class 10 (Linear Equations)  
+
+---
+
+**141. Three consecutive terms of a geometric progression have sum 21 and product 216. The largest term is:**  
+(A) 12  
+(B) 9  
+(C) 6  
+(D) 18  
+**Answer:** (A) 12  
+**Solution:**  
+Let terms be a/r, a, ar. Product = a³ = 216 ⇒ a = 6.  
+Sum: 6/r + 6 + 6r = 21 ⇒ 6(1/r + 1 + r) = 21 ⇒ 1/r + r = 5/2.  
+Multiply 2r: 2 + 2r² = 5r ⇒ 2r² – 5r + 2 = 0 ⇒ (2r–1)(r–2)=0 ⇒ r=2 or 1/2.  
+Either way, terms are 3, 6, 12. Largest = 12.  
+**Source:** NCERT Class 10 (GP)  
+
+---
+
+**142. If √x + y = 7 and x + √y = 11, find x and y (integers).**  
+(A) x=9, y=4  
+(B) x=4, y=9  
+(C) x=16, y=1  
+(D) x=1, y=16  
+**Answer:** (A) x=9, y=4  
+**Solution:**  
+Let a=√x, b=√y. Then a + b² =7, a² + b =11. By trial, a=3 ⇒ b²=4 ⇒ b=2. Then a²+b=9+2=11. So √x=3 ⇒ x=9, √y=2 ⇒ y=4.  
+**Source:** SSC CGL (adapted)  
+
+---
+
+**143. Solve: 2ˣ⁺² + 2ˣ⁻¹ = 9**  
+(A) x = 0  
+(B) x = 1  
+(C) x = 2  
+(D) x = –1  
+**Answer:** (B) x = 1  
+**Solution:**  
+2ˣ⁻¹(2³ + 1) = 2ˣ⁻¹(8+1) = 9·2ˣ⁻¹ = 9 ⇒ 2ˣ⁻¹ = 1 ⇒ x–1=0 ⇒ x=1.  
+**Source:** NCERT Class 10 (Exponents)  
+
+---
+
+**144. If (a+b):(b+c):(c+a) = 3:4:5 and a+b+c = 24, find c.**  
+(A) 8  
+(B) 12  
+(C) 16  
+(D) 10  
+**Answer:** (B) 12  
+**Solution:**  
+Let a+b=3k, b+c=4k, c+a=5k. Sum = 2(a+b+c)=12k ⇒ 48=12k ⇒ k=4.  
+Then c = (c+a + b+c – a–b)/2 = (5k+4k–3k)/2 = 6k/2 = 3k = 12.  
+**Source:** SSC CGL (adapted)  
+
+---
+
+**145. If x + 1/x = 2, then x¹⁰⁰ + 1/x¹⁰⁰ equals:**  
+(A) 2  
+(B) 1  
+(C) 0  
+(D) 2¹⁰⁰  
+**Answer:** (A) 2  
+**Solution:**  
+x + 1/x = 2 ⇒ (x–1)²/x = 0 ⇒ x = 1. So x¹⁰⁰ + 1/x¹⁰⁰ = 1+1=2.  
+**Source:** NCERT Class 9  
+
+---
+
+**146. The product (1 – 1/2²)(1 – 1/3²)…(1 – 1/100²) equals:**  
+(A) 101/200  
+(B) 99/200  
+(C) 101/100  
+(D) 99/100  
+**Answer:** (A) 101/200  
+**Solution:**  
+Each factor (1 – 1/n²) = (n–1)(n+1)/n².  
+Product = (1·3/2²)(2·4/3²)(3·5/4²)…(99·101/100²) = (1·2…99)·(3·4…101) / (2·3…100)² = (99!)(101!/2) / (100!)²? Better telescoping: Product = (1/2)·(101/100) = 101/200.  
+**Source:** SSC CGL (Telescoping Product)  
+
+---
+
+**147. If a+b+c=5, ab+bc+ca=3, abc = –1, find a³+b³+c³.**  
+(A) 77  
+(B) 80  
+(C) 75  
+(D) 85  
+**Answer:** (A) 77  
+**Solution:**  
+a²+b²+c² = (a+b+c)² – 2(ab+bc+ca) = 25 – 6 = 19.  
+Identity: a³+b³+c³ – 3abc = (a+b+c)(a²+b²+c² – ab–bc–ca) = 5(19–3) = 5×16 = 80.  
+Thus a³+b³+c³ = 80 + 3abc = 80 + 3(–1) = 77.  
+**Source:** SSC CGL (Identities)  
+
+---
+
+**148. If the roots of x³+ax²+bx+c = 0 are 1, 2, 3, then a+b+c is:**  
+(A) –1  
+(B) 1  
+(C) –6  
+(D) 11  
+**Answer:** (A) –1  
+**Solution:**  
+Sum of roots = –a = 1+2+3 = 6 ⇒ a = –6.  
+Sum of product of roots taken two at a time = b = 1·2 + 2·3 + 3·1 = 2+6+3=11.  
+Product of roots = –c = 1·2·3 = 6 ⇒ c = –6.  
+Thus a+b+c = –6+11–6 = –1.  
+**Source:** NCERT Class 10 (Polynomials)  
+
+---
+
+**149. If x = 2+√3, find the value of x² – 4x + 1.**  
+(A) 0  
+(B) 1  
+(C) 2  
+(D) 4  
+**Answer:** (A) 0  
+**Solution:**  
+Note that x = 2+√3 is a root of x² – 4x + 1 = 0 (since (2+√3)² –4(2+√3)+1 = 4+4√3+3 –8–4√3+1 =0).  
+Hence expression = 0.  
+**Source:** SSC CGL (Surds)  
+
+---
+
+**150. Solve for real x,y: 2ˣ + 2ʸ = 20 and x + y = 5.**  
+(A) (2,3) only  
+(B) (4,1) only  
+(C) (2,3) or (4,1)  
+(D) no solution  
+**Answer:** (C) (2,3) or (4,1)  
+**Solution:**  
+y = 5–x ⇒ 2ˣ + 2⁵⁻ˣ = 20. Let t=2ˣ. Then t + 32/t = 20 ⇒ t² –20t +32=0 ⇒ (t–16)(t–4)=0.  
+t=16 ⇒ x=4, y=1; t=4 ⇒ x=2, y=3. Both solutions valid.  
+**Source:** SSC CGL (Exponential Equations)  
+
+---

@@ -1,0 +1,47 @@
+# Figure Series
+
+An arrow points up, then right, then down — which way next? Left! Because the arrow turns 90° each time. Figure-series questions test catching this visual pattern — not numbers, but figures.
+
+**Definition:** In a figure series, a sequence of figures is given that changes by some rule (rotation, adding/removing, changing direction); we must identify the next or the missing figure.
+
+🧠 Recall: In a figure series, is the pattern about numbers or about visuals (shape/direction)?
+
+```svg Figure series: the arrow turns 90° clockwise each time
+<svg viewBox="0 0 300 90" width="300" height="90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A rotating series of arrows">
+  <g transform="translate(40,45)"><line x1="0" y1="15" x2="0" y2="-15" style="stroke:var(--fig-text);stroke-width:3"/><polygon points="0,-20 -6,-8 6,-8" style="fill:var(--fig-text)"/></g>
+  <g transform="translate(110,45) rotate(90)"><line x1="0" y1="15" x2="0" y2="-15" style="stroke:var(--fig-text);stroke-width:3"/><polygon points="0,-20 -6,-8 6,-8" style="fill:var(--fig-text)"/></g>
+  <g transform="translate(180,45) rotate(180)"><line x1="0" y1="15" x2="0" y2="-15" style="stroke:var(--fig-text);stroke-width:3"/><polygon points="0,-20 -6,-8 6,-8" style="fill:var(--fig-text)"/></g>
+  <g transform="translate(255,45) rotate(270)"><line x1="0" y1="15" x2="0" y2="-15" style="stroke:var(--fig-accent);stroke-width:3"/><polygon points="0,-20 -6,-8 6,-8" style="fill:var(--fig-accent)"/></g>
+  <text x="255" y="85" text-anchor="middle" style="fill:var(--fig-accent);font-size:10px">? (next)</text>
+</svg>
+```
+
+## Main Rules (What Can Change)
+
+**1. Rotation**
+The figure turns by a fixed angle (45°, 90°) each time — clockwise or anticlockwise.
+
+**2. Addition/Removal**
+A line, dot, or side is added or removed at each step.
+
+**3. Change of Direction/Position**
+An element moves corner to corner, or shifts left-right.
+
+**4. Flip (Mirror)**
+The figure flips like a mirror each time.
+
+## The Golden Rule
+
+First pick one element (like the arrow or the shaded part) and see how it changes at each step — did it rotate, grow, or shift? Then apply the same rule to the next figure.
+
+🧠 Recall: If the arrow turns 90° each time and now points left, which way did it point in the previous figure?
+
+## The Examiner's Trap
+
+⚠️ **Trap 1 — two changes together:** Sometimes rotation and addition happen together — check each element separately.
+
+⚠️ **Trap 2 — direction of rotation:** Watch carefully the difference between clockwise and anticlockwise.
+
+⚠️ **Trap 3 — missing a small change:** A single dot or line being added is easily overlooked.
+
+Review this after 2 days.

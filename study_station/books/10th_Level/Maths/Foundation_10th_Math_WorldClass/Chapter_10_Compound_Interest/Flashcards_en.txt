@@ -1,0 +1,72 @@
+Flashcard 1
+Q: What is the simple yet powerful difference between simple interest and compound interest?
+A: Simple interest pays only on the original principal. Compound interest pays on the principal and on the interest that has already been added – it’s interest on interest.
+
+Flashcard 2
+Q: ₹1000 at 10% p.a. for 3 years. Simple interest vs. compound interest – what are the final amounts?
+A: SI: ₹1300 (₹300 interest). CI: ₹1331 (₹331 interest). The extra ₹31 is the compound effect.
+
+Flashcard 3
+Q: Write the golden formula for compound interest when compounding annually.
+A: Amount A = P (1 + R/100)^T, and then CI = A – P.
+
+Flashcard 4
+Q: Why is the exponent T so magical in A = P (1 + R/100)^T?
+A: It stands for repeated multiplication. The money doesn't just grow by adding the same amount each year – it multiplies itself again and again.
+
+Flashcard 5
+Q: What does Parrot Tito teach us about the compound interest formula?
+A: Tito starts with P and chirps "(1 + R/100)" exactly T times, multiplying as he goes. This reminds you that it's an exponent (repeated multiplication), not addition.
+
+Flashcard 6
+Q: How do you tweak the formula for half-yearly compounding?
+A: Rate becomes R/2 per half-year, time becomes 2T: A = P (1 + R/200)^(2T).
+
+Flashcard 7
+Q: What changes for quarterly compounding?
+A: Rate → R/4, time → 4T: A = P (1 + R/400)^(4T).
+
+Flashcard 8
+Q: A bank says 20% p.a. compounded half-yearly. What is the real annual rate?
+A: Effective annual rate = (1 + 0.20/2)² – 1 = 0.21 = 21%. More frequent compounding gives a higher true return.
+
+Flashcard 9
+Q: What is the Rule of 72, and why does it feel like magic?
+A: Divide 72 by the interest rate (in %) to find the number of years it takes for money to double. For 10%, 72/10 = 7.2 years. It’s a super-fast mental shortcut.
+
+Flashcard 10
+Q: If the interest rate changes every year (e.g., 5%, 10%, 20%), how do you calculate the final amount?
+A: Multiply the principal by each year's growth factor in succession:
+A = P (1 + R₁/100)(1 + R₂/100)(1 + R₃/100). Order doesn't matter.
+
+Flashcard 11
+Q: What's the “pigeon dance” mnemonic for the difference between CI and SI for 2 years?
+A: Difference = P × (R/100)². P-Rate-Square. Imagine a dancing pigeon holding a square with the rate written on it.
+
+Flashcard 12
+Q: How does the pigeon dance change for a 3-year CI–SI difference?
+A: Difference = P × (R/100)² × (3 + R/100). The same pigeon now dances with a big ‘3’ balloon and a rate tag on its wing.
+
+Flashcard 13
+Q: A city’s population grows at 10% per year. Is this simple or compound growth?
+A: Compound growth. Each year's population becomes the new base for the next year's growth, so we use A = P (1 + R/100)^T.
+
+Flashcard 14
+Q: A machine loses 15% of its value every year. How do you calculate its worth after 2 years?
+A: Value = Original price × (1 – 15/100)². The minus sign captures depreciation instead of growth.
+
+Flashcard 15
+Q: ₹5000 invested at 8% compound interest becomes ₹5832 after 2 years. What is the total compound interest?
+A: CI = Amount – Principal = ₹5832 – ₹5000 = ₹832.
+
+Flashcard 16
+Q: How do you fairly compare two investments that compound at different frequencies?
+A: Convert both to effective annual rates using (1 + r/n)^n – 1, then compare. Higher effective rate means better growth.
+
+Flashcard 17
+Q: Using the Rule of 72, how long will money take to double at 9% interest?
+A: 72 ÷ 9 = 8 years. The Rule of 72 is your pocket doubling-time calculator.
+
+Flashcard 18
+Q: You're unsure whether the formula is (1 + R/100) or just (R/100). How does Parrot Tito fix this?
+A: Tito always says "one-plus" first. The "1+" means you keep the original principal. Without it, you'd lose the principal and the formula would be wrong.

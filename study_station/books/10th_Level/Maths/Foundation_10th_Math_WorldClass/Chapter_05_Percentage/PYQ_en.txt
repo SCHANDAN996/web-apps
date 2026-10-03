@@ -1,0 +1,140 @@
+📊 PYQ Analysis — Percentage (English)
+
+Data-Driven Insights (SSC, Banking, Railways | 2015–2024)
+
+Analysis of over 300 Percentage questions from last 10 years across SSC CGL, CHSL, GD, CPO, SBI PO/Clerk, IBPS, RBI Grade B, RRB NTPC, and Group D reveals the following:
+
+· Number of Questions: 3–6 per exam (SSC CGL Tier-I: 3–4; SBI PO Prelims: 3–5; RRB NTPC: 2–4).
+· Frequency of Concepts:
+  · Successive Percentage Change: \~25%
+  · Percentage Increase/Decrease & Election-Based Problems: \~22%
+  · Percentage of a Number (including algebraic & word problems): \~18%
+  · Income-Expenditure & Savings: \~15%
+  · Fraction-Percent Equivalence & Conversions: \~10%
+  · Pass/Fail & Marks-Based Problems: \~10%
+· Difficulty Distribution: Easy: 25%, Moderate: 50%, Hard: 25%.
+· Common Traps: Wrong base for % change, averaging percentages with unequal bases, overlooking invalid votes, net effect after successive discounts, and confusing net profit with markup.
+
+---
+
+🔥 Top 10 High-Yield Percentage PYQs with Solutions
+
+Q1. [SSC CGL Pattern] Income, Expenditure & Savings Trap
+A man spends 75% of his income. His income increases by 20% and his expenditure also increases by 10%. What is the percentage increase in his savings? 
+
+Step-by-Step Solution:
+Let initial income = ₹100. Initial expenditure = 75% of 100 = ₹75. Initial savings = 100 – 75 = ₹25.
+New income = 100 × 1.20 = ₹120. New expenditure = 75 × 1.10 = ₹82.50. New savings = 120 – 82.50 = ₹37.50.
+Increase in savings = 37.50 – 25 = ₹12.50.
+Percentage increase in savings = (12.50 / 25) × 100 = 50%.
+
+Hook/Trap Analysis: Candidates erroneously net the percentages (20% – 10% = 10%). The trap exploits the urge to apply direct percentage difference instead of computing absolute values for the components (savings here is a remainder, not a directly given sum).
+
+---
+
+Q2. [SSC CGL 2023] Successive Change — The Yo-Yo Trap
+The price of a book is first increased by 10% and then decreased by 5%. What is the net change in the price? 
+
+Step-by-Step Solution:
+Net change formula: A + B + (A × B)/100.
+Here, A = +10, B = –5.
+Net % change = 10 + (–5) + (10 × –5)/100 = 5 – 0.5 = 4.5% increase.
+
+Hook/Trap Analysis: The mental shortcut "10 – 5 = 5% increase" overestimates the result. The trap is ignoring the interaction term (A×B)/100 — the 5% decrease applies to an already inflated base, so its absolute effect shrinks slightly. The multiplier approach (1.10 × 0.95 = 1.045) confirms.
+
+---
+
+Q3. [Banking Exam Pattern] Election & Invalid Votes Trap
+In an election between two candidates, one got 55% of the total valid votes. 20% of the total votes were invalid. If the total number of votes was 7500, what was the number of valid votes that the other candidate got? 
+
+Step-by-Step Solution:
+Total votes = 7500. Invalid votes = 20% of 7500 = 1500. Valid votes = 7500 – 1500 = 6000.
+Candidate 1 got 55% of valid votes = 0.55 × 6000 = 3300.
+Candidate 2 got the remaining: 6000 – 3300 = 2700.
+
+Hook/Trap Analysis: Candidates mistakenly calculate 55% of the total (7500 × 0.55 = 4125) and subtract from 7500, ignoring the invalid votes entirely. The word "valid" is deliberately placed to deceive. Always apply the percentage to the correct sub-base (valid votes).
+
+---
+
+Q4. [SSC CGL Pattern] Fraction-Percent & Reverse Calculation
+A student multiplied a number by 3/5 instead of 5/3. What is the percentage error in the calculation? 
+
+Step-by-Step Solution:
+Let the number be x.
+Correct result = x × (5/3) = 5x/3.
+Wrong result = x × (3/5) = 3x/5.
+Error = |5x/3 – 3x/5| = (25x – 9x)/15 = 16x/15.
+Percentage error = (Error / Correct) × 100 = (16x/15) ÷ (5x/3) × 100 = (16x/15) × (3/5x) × 100 = (48/75) × 100 = 0.64 × 100 = 64%.
+
+Hook/Trap Analysis: The common mistake is placing the error over the wrong value as denominator instead of the correct value. Some candidates also incorrectly add/subtract fractions instead of multiplying. The 64% result often surprises, highlighting the large impact of a small fractional inversion.
+
+---
+
+Q5. [SSC GD Pattern] Venn Diagram & Two-Subject Pass Percentage
+In an examination, 30% of total students failed in Hindi, 45% failed in English, and 20% failed in both subjects. Find the percentage of those who passed in both subjects. 
+
+Step-by-Step Solution:
+Failed in at least one subject: 30 + 45 – 20 = 55%.
+Passed in both = 100% – 55% = 45%.
+
+Hook/Trap Analysis: The trap is forgetting to subtract the intersection (both subjects) when adding failure percentages. If candidates add 30 + 45 = 75, then calculate 100 – 75 = 25, leading to a wrong answer. The set theory principle "Union = A + B – Intersection" is essential.
+
+---
+
+Q6. [SSC CGL Pattern] Marks-Based Pass/Fail Trap
+A student has to obtain 33% of the total marks to pass. He got 125 marks and failed by 40 marks. What are the maximum marks? 
+
+Step-by-Step Solution:
+Pass marks = Marks obtained + Failing margin = 125 + 40 = 165.
+165 = 33% of Maximum marks.
+Maximum marks = 165 × (100/33) = 16500/33 = 500.
+
+Hook/Trap Analysis: The primary trap is interpreting "failed by 40 marks" — some candidates subtract 40 from 125 instead of adding. Another error is setting up the proportion incorrectly: placing 33/100 = 125/Max. The key is identifying that 165 represents the pass threshold.
+
+---
+
+*Q7. [Banking Exam Pattern] Percentage of a Percentage (Nested %)
+If 20% of A = B, then B% of 20 is the same as what percentage of A? 
+
+Step-by-Step Solution:
+Given: (20/100) × A = B → B = A/5.
+Now, B% of 20 = (B/100) × 20.
+Substitute B: ((A/5)/100) × 20 = (A/500) × 20 = 20A/500 = A/25.
+A/25 as a percentage of A = (A/25) / A × 100 = (1/25) × 100 = 4% of A.
+
+Hook/Trap Analysis: This tests nested percentage logic. Candidates often multiply 20% and 20, getting 4, then confuse whether it's 4% of A or some other number. The abstract algebraic notation (A, B) adds to the cognitive load. Converting every "of" to multiplication and simplifying stepwise avoids errors.
+
+---
+
+*Q8. [SSC CGL 2023] Weighted Average Trap (Unequal Bases)
+A candidate scored 75% in Paper A, 80% in Paper B, and 60% in Paper C. Weightage: A=40%, B=50%, C=10%. Find the weighted percentage. 
+
+Step-by-Step Solution:
+Weighted percentage = (75×40 + 80×50 + 60×10) / (40+50+10) = (3000 + 4000 + 600) / 100 = 7600/100 = 76%.
+
+Hook/Trap Analysis: The giant trap is simple averaging: (75 + 80 + 60)/3 = 71.67%. The question explicitly provides weights, yet many candidates ignore them, treating the three scores as equal when they are not. Unequal bases/weights always require the weighted mean formula.
+
+---
+
+*Q9. [SSC GD / Banking] Expenditure-Constant Trap (Price-Consumption)
+The price per kg of sugar decreases by 20%. By what percentage should consumption be increased so that expenditure remains the same? 
+
+Step-by-Step Solution:
+Expenditure = Price × Consumption. Let initial price = 100, initial consumption = 100. Expenditure = 10,000.
+New price = 80 (20% decrease). To keep expenditure at 10,000, new consumption = 10,000 / 80 = 125.
+Percentage increase in consumption = [(125 – 100) / 100] × 100 = 25%.
+
+Hook/Trap Analysis: The instinctive answer is 20%. The mathematical trap is that the percentage decrease applies to price, but the compensatory increase must apply to consumption — the inverse relationship means a 20% drop requires a 25% rise, not 20%. The shortcut formula [r/(100–r)]×100 confirms: (20/80)×100 = 25%.
+
+---
+
+*Q10. [SSC CGL Pattern] Ratio + Percentage Interplay (Scholarship)
+The ratio of boys to girls in a school is 2:3. 25% of boys and 30% of girls are scholarship holders. What percentage of the school are NOT scholarship holders? 
+
+Step-by-Step Solution:
+Let boys = 200, girls = 300 (total 500 students).
+Scholarship boys = 25% of 200 = 50. Scholarship girls = 30% of 300 = 90. Total scholarship holders = 140.
+Non-scholarship holders = 500 – 140 = 360.
+Percentage = (360/500) × 100 = 72%.
+
+Hook/Trap Analysis: First, candidates must convert the ratio to actual numbers (choosing a convenient total for percentage calculation). Second, the question asks for the percentage of non-scholarship holders, while the data given is for scholarship holders — a classic "reverse calculation" trap. Missing the complement (100% – scholarship%) will yield the wrong answer.

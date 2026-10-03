@@ -1,0 +1,66 @@
+# दिशा ज्ञान (Direction Sense)
+
+सुबह-सुबह तुम्हारी परछाई किस ओर बनती है? पश्चिम की ओर — क्योंकि सूरज पूर्व से उगता है और परछाई हमेशा सूरज के उल्टी दिशा में बनती है। दिशा ज्ञान के प्रश्न इसी समझ पर टिके हैं — कोई व्यक्ति कहाँ से चला, कितना मुड़ा, और अंत में कहाँ पहुँचा।
+
+**परिभाषा:** दिशा ज्ञान वाले प्रश्नों में किसी व्यक्ति की चाल (कितनी दूर, किस दिशा में, कितने मोड़) दी जाती है, और हमें उसकी अंतिम स्थिति, दिशा या शुरुआती बिंदु से दूरी निकालनी होती है।
+
+🧠 Recall: सूरज किस दिशा में उगता है, और सुबह परछाई किस ओर बनती है?
+
+## आधार: आठ दिशाएँ
+
+- चार मुख्य: उत्तर (N), दक्षिण (S), पूर्व (E), पश्चिम (W)
+- चार कोणीय: उत्तर-पूर्व (NE), उत्तर-पश्चिम (NW), दक्षिण-पूर्व (SE), दक्षिण-पश्चिम (SW)
+
+एक कल्पित चित्र में हमेशा: ऊपर = उत्तर, नीचे = दक्षिण, दाएँ = पूर्व, बाएँ = पश्चिम।
+
+```svg दिशा-सूचक कम्पास: ऊपर उत्तर (N), दाएँ पूर्व (E), नीचे दक्षिण (S), बाएँ पश्चिम (W)
+<svg viewBox="0 0 240 240" width="240" height="240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="आठ दिशाओं का कम्पास">
+  <circle cx="120" cy="120" r="88" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <line x1="120" y1="30" x2="120" y2="210" style="stroke:var(--fig-accent);stroke-width:2.5"/>
+  <line x1="30" y1="120" x2="210" y2="120" style="stroke:var(--fig-accent);stroke-width:2.5"/>
+  <line x1="58" y1="58" x2="182" y2="182" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:5 5"/>
+  <line x1="182" y1="58" x2="58" y2="182" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:5 5"/>
+  <polygon points="120,26 113,44 127,44" style="fill:var(--fig-accent)"/>
+  <text x="120" y="20" text-anchor="middle" style="fill:var(--fig-text);font-size:16px;font-weight:800">N</text>
+  <text x="120" y="232" text-anchor="middle" style="fill:var(--fig-text);font-size:16px;font-weight:800">S</text>
+  <text x="222" y="125" text-anchor="middle" style="fill:var(--fig-text);font-size:16px;font-weight:800">E</text>
+  <text x="18" y="125" text-anchor="middle" style="fill:var(--fig-text);font-size:16px;font-weight:800">W</text>
+  <text x="170" y="54" text-anchor="middle" style="fill:var(--fig-line);font-size:11px">NE</text>
+  <text x="70" y="54" text-anchor="middle" style="fill:var(--fig-line);font-size:11px">NW</text>
+  <text x="170" y="194" text-anchor="middle" style="fill:var(--fig-line);font-size:11px">SE</text>
+  <text x="70" y="194" text-anchor="middle" style="fill:var(--fig-line);font-size:11px">SW</text>
+  <circle cx="192" cy="98" r="9" style="fill:var(--fig-accent3)"/>
+  <text x="120" y="112" text-anchor="middle" style="fill:var(--fig-text);font-size:12px">☀ सूरज पूर्व से उगता है</text>
+</svg>
+```
+
+## हल करने का सुनहरा नियम: तीर बनाओ
+
+काग़ज़ पर हर कदम को तीर (arrow) से खींचो। जहाँ मुड़े, वहाँ नया तीर। अंत में शुरू और अंत बिंदु देखो।
+
+**बाएँ-दाएँ का नियम:**
+- उत्तर की ओर मुँह हो → दाएँ मुड़ने पर पूर्व, बाएँ मुड़ने पर पश्चिम।
+- दक्षिण की ओर मुँह हो → दाएँ मुड़ने पर पश्चिम, बाएँ मुड़ने पर पूर्व (उल्टा!)।
+
+## मुख्य प्रकार
+
+**1. अंतिम दिशा (Final Direction)**
+कई मोड़ों के बाद व्यक्ति किस दिशा में मुँह किए है।
+
+**2. सबसे छोटी दूरी (Shortest Distance)**
+यदि व्यक्ति पूर्व 3 किमी, फिर उत्तर 4 किमी चले, तो शुरू से सीधी दूरी = √(3² + 4²) = √25 = 5 किमी (पाइथागोरस)।
+
+**3. परछाई आधारित (Shadow Based)**
+सुबह परछाई पश्चिम में, शाम को पूर्व में। दोपहर में परछाई सबसे छोटी।
+
+🧠 Recall: कोई पूर्व 6 किमी, फिर दक्षिण 8 किमी चले — शुरू से सीधी दूरी कितनी?
+
+## परीक्षक का जाल (Examiner's Trap)
+
+⚠️ **जाल 1 — मुँह की दिशा भूलना:** बाएँ-दाएँ हमेशा व्यक्ति के वर्तमान मुँह पर निर्भर करता है, नक़्शे के ऊपर-नीचे पर नहीं।
+
+⚠️ **जाल 2 — परछाई की दिशा:** "उसकी परछाई उसके दाईं ओर पड़ी" — इससे पता चलता है वह किस दिशा मुँह किए है। सुबह/शाम अलग परिणाम देते हैं।
+
+⚠️ **जाल 3 — दूरी बनाम विस्थापन:** कुल चली दूरी और सीधी (सबसे छोटी) दूरी अलग होती हैं। प्रश्न ध्यान से पढ़ो।
+
+इसे 2 दिन बाद दोहराएँ।

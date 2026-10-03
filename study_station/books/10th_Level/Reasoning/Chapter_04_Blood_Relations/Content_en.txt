@@ -1,0 +1,69 @@
+# Blood Relations
+
+At a wedding your father says — "That lady standing in front is the mother of your grandmother's only daughter-in-law." Who is she? Think a little — your grandmother's only daughter-in-law = your mother; your mother's mother = your maternal grandmother. These are blood-relation questions — untangling a puzzle of relationships.
+
+**Definition:** In blood-relation questions, the relationships between family members are given, and we must find an unknown relationship — such as "How is X related to Y?"
+
+🧠 Recall: What matters most in solving blood relations — memorising, or drawing the family tree?
+
+## The Golden Rule: Draw the Family Tree
+
+Never solve it only in your head — draw a small family tree on paper.
+
+**Notation:**
+- For a male, use (+) or a square □
+- For a female, use (−) or a circle ○
+- For a married couple, use an equals sign (=)
+- Keep the same generation on the same line; the next generation below.
+
+**Mind the generation:**
+- Top: grandparents
+- Middle: parents, uncles, aunts
+- Bottom: sons, daughters, nephews, nieces
+
+```svg Family tree: male □, female ○, couple = ; line below = children
+<svg viewBox="0 0 300 210" width="300" height="210" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Three-generation family tree">
+  <line x1="150" y1="40" x2="150" y2="80" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <line x1="150" y1="115" x2="150" y2="155" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <line x1="112" y1="30" x2="188" y2="30" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <line x1="112" y1="105" x2="188" y2="105" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <line x1="112" y1="180" x2="188" y2="180" style="stroke:var(--fig-line);stroke-width:1.5"/>
+  <rect x="82" y="15" width="30" height="30" style="fill:none;stroke:var(--fig-accent);stroke-width:2"/>
+  <circle cx="203" cy="30" r="15" style="fill:none;stroke:var(--fig-danger);stroke-width:2"/>
+  <text x="150" y="27" text-anchor="middle" style="fill:var(--fig-text);font-size:13px">=</text>
+  <text x="97" y="60" text-anchor="middle" style="fill:var(--fig-text);font-size:10px">Grandfather</text>
+  <text x="203" y="60" text-anchor="middle" style="fill:var(--fig-text);font-size:10px">Grandmother</text>
+  <rect x="82" y="90" width="30" height="30" style="fill:none;stroke:var(--fig-accent);stroke-width:2"/>
+  <circle cx="203" cy="105" r="15" style="fill:none;stroke:var(--fig-danger);stroke-width:2"/>
+  <text x="150" y="102" text-anchor="middle" style="fill:var(--fig-text);font-size:13px">=</text>
+  <text x="97" y="135" text-anchor="middle" style="fill:var(--fig-text);font-size:11px">Father</text>
+  <text x="203" y="135" text-anchor="middle" style="fill:var(--fig-text);font-size:11px">Mother</text>
+  <rect x="82" y="165" width="30" height="30" style="fill:none;stroke:var(--fig-accent);stroke-width:2"/>
+  <circle cx="203" cy="180" r="15" style="fill:none;stroke:var(--fig-danger);stroke-width:2"/>
+  <text x="97" y="210" text-anchor="middle" style="fill:var(--fig-text);font-size:11px">You</text>
+  <text x="203" y="210" text-anchor="middle" style="fill:var(--fig-text);font-size:11px">Sister</text>
+</svg>
+```
+
+## Main Types
+
+**1. Direct Relation**
+"A is the brother of B, and B is the mother of C" → A is the maternal uncle of C.
+
+**2. Pointing to a Photo**
+"A man pointed to a photo and said — his father is the son of my father." → Since 'the son of my father' = the man himself (if he has no brother), the photo is of his son/daughter.
+
+**3. Coded Relations**
+Relationships are given as symbols: A + B (A is the father of B), A − B (A is the wife of B), etc. First understand the code, then apply it.
+
+🧠 Recall: Who is "the only son of my father" (when the speaker is male)?
+
+## The Examiner's Trap
+
+⚠️ **Trap 1 — assuming gender:** Do not assume gender from the name. "Kiran" can be male or female. Take only what is given.
+
+⚠️ **Trap 2 — reversing generation:** Between "father's father" (grandfather) and "son's son" (grandson), watch the direction carefully.
+
+⚠️ **Trap 3 — maternal vs paternal:** Relations on the mother's side (maternal grandfather, maternal uncle) differ from the father's side (paternal grandfather, paternal uncle).
+
+Review this after 2 days.

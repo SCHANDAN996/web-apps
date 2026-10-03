@@ -1,0 +1,31 @@
+{% extends "ssg/layout.html" %}
+
+{% block header %}
+<h1>📚 Class {{ class_level }} <span class="highlight">{{ subject }}</span></h1>
+<p>Select a chapter to access PDF books, AI notes, and chat tutor.</p>
+{% endblock %}
+
+{% block breadcrumbs %}
+<a href="../../index.html" style="color: var(--primary-light); text-decoration: none; margin-bottom: 20px; display: inline-flex; align-items: center; gap: 5px;">
+    <ion-icon name="arrow-back-outline"></ion-icon> Back to Class {{ class_level }} Subjects
+</a>
+{% endblock %}
+
+{% block content %}
+<div style="display: flex; flex-direction: column; gap: 15px; margin-top: 20px;">
+    {% for chapter in chapters %}
+    <a href="main_pdf/chapter-{{ chapter.chapter_number }}.html" style="display: flex; align-items: center; padding: 20px; background: var(--glass-bg); border: 1px solid var(--glass-border); border-radius: 12px; text-decoration: none; color: var(--text-primary); transition: all 0.2s ease;">
+        <div style="background: rgba(255,255,255,0.1); width: 48px; height: 48px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; margin-right: 20px; flex-shrink: 0; font-size: 1.1rem;">
+            {{ chapter.chapter_number }}
+        </div>
+        <div style="flex: 1;">
+            <div style="font-size: 1.2rem; font-weight: 600; margin-bottom: 4px;">{{ chapter.title }}</div>
+            <div style="font-size: 0.9rem; color: var(--text-secondary);">{{ chapter.description or 'Detailed notes, PDF, and AI Chat' }}</div>
+        </div>
+        <div style="font-size: 1.5rem; color: var(--text-secondary);">
+            <ion-icon name="chevron-forward-outline"></ion-icon>
+        </div>
+    </a>
+    {% endfor %}
+</div>
+{% endblock %}

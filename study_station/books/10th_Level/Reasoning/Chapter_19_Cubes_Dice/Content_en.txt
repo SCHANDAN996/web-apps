@@ -1,0 +1,52 @@
+# Cubes & Dice
+
+Paint a cube and cut it into small pieces — how many pieces will have 3 painted faces? Always 8 (the corners)! And on a die, which number is opposite 1? 6 (because opposite faces sum to 7). Cubes-and-dice questions test this spatial thinking.
+
+**Definition:** This chapter has two parts — (1) Cube: counting painted faces when a painted cube is cut; (2) Dice: identifying the number opposite a face.
+
+🧠 Recall: On a standard die, what do opposite faces sum to?
+
+```svg Net of a cube: opposite faces sum to 7 (1↔6, 2↔5, 3↔4)
+<svg viewBox="0 0 220 170" width="220" height="170" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Unfolded net of a cube with numbers">
+  <rect x="80" y="20" width="40" height="40" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <rect x="40" y="60" width="40" height="40" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <rect x="80" y="60" width="40" height="40" style="fill:var(--fig-accent);opacity:0.15;stroke:var(--fig-accent);stroke-width:1.5"/>
+  <rect x="120" y="60" width="40" height="40" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <rect x="160" y="60" width="40" height="40" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <rect x="80" y="100" width="40" height="40" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="100" y="46" text-anchor="middle" style="fill:var(--fig-text);font-size:16px;font-weight:700">2</text>
+  <text x="60" y="86" text-anchor="middle" style="fill:var(--fig-text);font-size:16px;font-weight:700">3</text>
+  <text x="100" y="86" text-anchor="middle" style="fill:var(--fig-text);font-size:16px;font-weight:700">1</text>
+  <text x="140" y="86" text-anchor="middle" style="fill:var(--fig-text);font-size:16px;font-weight:700">4</text>
+  <text x="180" y="86" text-anchor="middle" style="fill:var(--fig-text);font-size:16px;font-weight:700">6</text>
+  <text x="100" y="126" text-anchor="middle" style="fill:var(--fig-text);font-size:16px;font-weight:700">5</text>
+  <text x="110" y="160" text-anchor="middle" style="fill:var(--fig-line);font-size:11px">folds into a cube</text>
+</svg>
+```
+
+## Part 1: Painted Cube
+
+Paint all faces of a cube and cut it into n×n×n small cubes:
+- **3 painted faces (corners):** always **8** (the 8 corners of the cube).
+- **2 painted faces (edges):** 12 × (n − 2).
+- **1 painted face (face-centre):** 6 × (n − 2)².
+- **0 painted faces (inner):** (n − 2)³.
+
+Example (n = 3): corners 8, edges 12×1 = 12, face-centre 6×1 = 6, inner 1³ = 1. Total = 27 ✅.
+
+## Part 2: Dice
+
+- **Standard die:** opposite faces always sum to **7** (1↔6, 2↔5, 3↔4).
+- **From two positions:** if two pictures of a die are given, find the number common to both, then rotate the neighbouring numbers to find the opposite face.
+
+🧠 Recall: In a 3×3×3 cube, how many pieces have exactly 1 painted face?
+
+## The Examiner's Trap
+
+⚠️ **Trap 1 — forgetting the sum 7:** On a standard die, the opposite number = 7 − the given number.
+
+⚠️ **Trap 2 — corners always 8:** Whatever n is, the pieces with 3 painted faces are always 8.
+
+⚠️ **Trap 3 — remembering (n−2):** The edge and inner counts use (n−2); do not forget it.
+
+Review this after 2 days.

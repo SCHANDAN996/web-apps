@@ -1,0 +1,26 @@
+# Secrets — never commit
+.env
+backend-server/.env
+
+# Python
+__pycache__/
+*.pyc
+backend-server/venv/
+
+# Database (local dev data)
+backend-server/study_station.db
+
+# Browser automation profiles (huge, machine-specific)
+books/chrome_profile/
+books/chrome_profile_9223/
+books/edge_profile_9223/
+
+# Android build outputs
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+
+# OS junk
+Thumbs.db
+.DS_Store

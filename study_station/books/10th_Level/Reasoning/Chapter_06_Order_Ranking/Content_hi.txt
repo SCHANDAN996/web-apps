@@ -1,0 +1,65 @@
+# क्रम और रैंकिंग (Order & Ranking)
+
+कक्षा में लाइन लगी है। तुम आगे से 7वें हो और पीछे से 18वें। तो बताओ कक्षा में कुल कितने बच्चे हैं? बहुत लोग 7+18 = 25 कह देंगे — पर सही उत्तर 24 है! क्यों? क्योंकि तुम्हें दोनों बार गिना गया, इसलिए एक बार घटाना पड़ता है। यही क्रम और रैंकिंग की जान है।
+
+**परिभाषा:** इन प्रश्नों में व्यक्तियों या वस्तुओं की एक पंक्ति में स्थिति (ऊपर/नीचे, बाएँ/दाएँ, आगे/पीछे) दी जाती है, और हमें कुल संख्या, किसी की रैंक, या दो के बीच की संख्या निकालनी होती है।
+
+🧠 Recall: आगे से 7वें और पीछे से 18वें — कुल कितने? (सूत्र सोचो)
+
+## हल का सुनहरा सूत्र
+
+**कुल संख्या = (ऊपर से रैंक) + (नीचे से रैंक) − 1**
+
+यह "−1" ही असली ट्रिक है — क्योंकि जिस व्यक्ति की बात हो रही है, वह दोनों गिनतियों में एक बार शामिल है।
+
+उदाहरण: A ऊपर से 7वें और नीचे से 18वें → कुल = 7 + 18 − 1 = 24।
+
+```svg 7 की पंक्ति: तीसरा व्यक्ति बाएँ से 3rd और दाएँ से 5th → कुल = 3 + 5 − 1 = 7
+<svg viewBox="0 0 336 110" width="336" height="110" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="सात व्यक्तियों की पंक्ति में स्थिति">
+  <text x="168" y="16" text-anchor="middle" style="fill:var(--fig-text);font-size:12px">कुल = बाएँ से 3 + दाएँ से 5 − 1 = 7</text>
+  <rect x="12" y="32" width="40" height="40" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <rect x="57" y="32" width="40" height="40" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <rect x="102" y="32" width="40" height="40" style="fill:var(--fig-accent);stroke:var(--fig-accent);stroke-width:1.5"/>
+  <rect x="147" y="32" width="40" height="40" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <rect x="192" y="32" width="40" height="40" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <rect x="237" y="32" width="40" height="40" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <rect x="282" y="32" width="40" height="40" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="122" y="58" text-anchor="middle" style="fill:#fff;font-size:16px;font-weight:800">A</text>
+  <text x="32" y="90" text-anchor="middle" style="fill:var(--fig-line);font-size:11px">1</text>
+  <text x="77" y="90" text-anchor="middle" style="fill:var(--fig-line);font-size:11px">2</text>
+  <text x="122" y="90" text-anchor="middle" style="fill:var(--fig-accent);font-size:11px;font-weight:700">3</text>
+  <text x="167" y="90" text-anchor="middle" style="fill:var(--fig-line);font-size:11px">4</text>
+  <text x="212" y="90" text-anchor="middle" style="fill:var(--fig-line);font-size:11px">5</text>
+  <text x="257" y="90" text-anchor="middle" style="fill:var(--fig-line);font-size:11px">6</text>
+  <text x="302" y="90" text-anchor="middle" style="fill:var(--fig-line);font-size:11px">7</text>
+  <text x="32" y="104" text-anchor="middle" style="fill:var(--fig-line);font-size:9px">बाएँ→</text>
+</svg>
+```
+
+## मुख्य प्रकार
+
+**1. कुल संख्या ज्ञात करना**
+दोनों ओर की रैंक जोड़कर 1 घटाओ।
+
+**2. दूसरी ओर की रैंक**
+यदि कुल संख्या और एक ओर की रैंक पता हो:
+नीचे से रैंक = (कुल − ऊपर से रैंक) + 1।
+जैसे 40 की कक्षा में A ऊपर से 12वें → नीचे से = 40 − 12 + 1 = 29वें।
+
+**3. दो व्यक्तियों के बीच संख्या**
+यदि A, 5वें और B, 9वें स्थान पर हैं (एक ही ओर से) → बीच में = 9 − 5 − 1 = 3 व्यक्ति।
+
+**4. स्थान बदलना (Interchange)**
+जब दो व्यक्ति अपने स्थान बदल लें, तो नई रैंक ध्यान से गिनो।
+
+🧠 Recall: 30 की कक्षा में B ऊपर से 10वें हैं — नीचे से कौन-से स्थान पर?
+
+## परीक्षक का जाल (Examiner's Trap)
+
+⚠️ **जाल 1 — "−1" भूलना:** कुल संख्या में दोनों रैंक जोड़कर 1 घटाना अनिवार्य है। भूले तो उत्तर हमेशा 1 ज़्यादा आएगा।
+
+⚠️ **जाल 2 — "बीच में" बनाम "तक":** "A और B के बीच" (दोनों को छोड़कर) और "A से B तक" (दोनों सहित) अलग हैं।
+
+⚠️ **जाल 3 — दिशा मिलाना:** एक की रैंक बाएँ से, दूसरे की दाएँ से दी हो तो सीधे घटाव मत करो — पहले एक ही दिशा में लाओ।
+
+इसे 2 दिन बाद दोहराएँ।

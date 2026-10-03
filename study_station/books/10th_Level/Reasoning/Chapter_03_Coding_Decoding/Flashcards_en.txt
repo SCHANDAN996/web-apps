@@ -1,0 +1,44 @@
+Front: The core idea of coding-decoding in one sentence?
+Back: Letters/words are changed by a rule; catch the rule from the example and build or read the code of a new word.
+
+Front: The golden rule for solving coding-decoding?
+Back: Find the rule between the original word and its code in the example, then apply it to the new word.
+
+Front: What must you remember first?
+Back: Alphabet positions — A=1, B=2 … Z=26 (and the EJOTY mnemonic).
+
+Front: What is the rule in CAT = DBU?
+Back: Each letter +1 forward (C→D, A→B, T→U).
+
+Front: If CAT = DBU, what is the code for DOG?
+Back: EPH (D→E, O→P, G→H, each letter +1).
+
+Front: What does reverse coding look like?
+Back: The whole word is reversed — MOUSE → ESUOM.
+
+Front: In number coding, how is CAB written?
+Back: 3, 1, 2 (C=3, A=1, B=2).
+
+Front: What are the EJOTY mnemonic values?
+Back: E=5, J=10, O=15, T=20, Y=25.
+
+Front: Reverse-alphabet pairs and their sum?
+Back: A↔Z, B↔Y, C↔X — each pair sums to 27.
+
+Front: What is substitution coding?
+Back: Replacing one word entirely with another (e.g. sky = sea).
+
+Front: What is the mixed-rule trap?
+Back: Odd positions shift +1 and even positions shift −1. Do not assume one rule.
+
+Front: In shift coding, what to check first?
+Back: The gap of the first letter; usually the same gap applies to the whole word.
+
+Front: What is the other form of number coding?
+Back: Asking the sum of letter positions (e.g. CAB = 3+1+2 = 6).
+
+Front: What are the three steps of coding-decoding?
+Back: Write numbers → see the gap → apply the rule.
+
+Front: If you cannot find the rule within 40 seconds?
+Back: Skip and do the easy shift/reverse codes first (Skip Strategy).

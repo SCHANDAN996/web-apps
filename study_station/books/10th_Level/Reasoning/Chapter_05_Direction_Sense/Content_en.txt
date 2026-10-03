@@ -1,0 +1,66 @@
+# Direction Sense
+
+Early in the morning, which way does your shadow fall? Towards the west — because the sun rises in the east, and a shadow always falls opposite to the sun. Direction-sense questions rest on this idea — a person starts somewhere, turns a few times, and ends up somewhere.
+
+**Definition:** In direction-sense questions, a person's movement (how far, in which direction, how many turns) is given, and we must find their final position, direction, or distance from the starting point.
+
+🧠 Recall: In which direction does the sun rise, and which way does the morning shadow fall?
+
+## The Basics: Eight Directions
+
+- Four main: North (N), South (S), East (E), West (W)
+- Four corner: North-East (NE), North-West (NW), South-East (SE), South-West (SW)
+
+On an imagined map, always: top = North, bottom = South, right = East, left = West.
+
+```svg Compass: top North (N), right East (E), bottom South (S), left West (W)
+<svg viewBox="0 0 240 240" width="240" height="240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Compass of eight directions">
+  <circle cx="120" cy="120" r="88" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <line x1="120" y1="30" x2="120" y2="210" style="stroke:var(--fig-accent);stroke-width:2.5"/>
+  <line x1="30" y1="120" x2="210" y2="120" style="stroke:var(--fig-accent);stroke-width:2.5"/>
+  <line x1="58" y1="58" x2="182" y2="182" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:5 5"/>
+  <line x1="182" y1="58" x2="58" y2="182" style="stroke:var(--fig-line);stroke-width:1;stroke-dasharray:5 5"/>
+  <polygon points="120,26 113,44 127,44" style="fill:var(--fig-accent)"/>
+  <text x="120" y="20" text-anchor="middle" style="fill:var(--fig-text);font-size:16px;font-weight:800">N</text>
+  <text x="120" y="232" text-anchor="middle" style="fill:var(--fig-text);font-size:16px;font-weight:800">S</text>
+  <text x="222" y="125" text-anchor="middle" style="fill:var(--fig-text);font-size:16px;font-weight:800">E</text>
+  <text x="18" y="125" text-anchor="middle" style="fill:var(--fig-text);font-size:16px;font-weight:800">W</text>
+  <text x="170" y="54" text-anchor="middle" style="fill:var(--fig-line);font-size:11px">NE</text>
+  <text x="70" y="54" text-anchor="middle" style="fill:var(--fig-line);font-size:11px">NW</text>
+  <text x="170" y="194" text-anchor="middle" style="fill:var(--fig-line);font-size:11px">SE</text>
+  <text x="70" y="194" text-anchor="middle" style="fill:var(--fig-line);font-size:11px">SW</text>
+  <circle cx="192" cy="98" r="9" style="fill:var(--fig-accent3)"/>
+  <text x="120" y="112" text-anchor="middle" style="fill:var(--fig-text);font-size:12px">Sun rises in the East</text>
+</svg>
+```
+
+## The Golden Rule: Draw Arrows
+
+Draw each step as an arrow on paper. Where the person turns, start a new arrow. At the end, look at the start and end points.
+
+**Left–right rule:**
+- Facing North → turning right gives East, turning left gives West.
+- Facing South → turning right gives West, turning left gives East (reversed!).
+
+## Main Types
+
+**1. Final Direction**
+After several turns, which direction is the person facing.
+
+**2. Shortest Distance**
+If a person walks 3 km east, then 4 km north, the straight distance from the start = √(3² + 4²) = √25 = 5 km (Pythagoras).
+
+**3. Shadow Based**
+In the morning the shadow falls west, in the evening east. At noon the shadow is shortest.
+
+🧠 Recall: A person walks 6 km east, then 8 km south — what is the straight distance from the start?
+
+## The Examiner's Trap
+
+⚠️ **Trap 1 — forgetting the facing direction:** Left and right always depend on the person's current facing, not on top/bottom of the map.
+
+⚠️ **Trap 2 — shadow direction:** "His shadow fell to his right" tells you which way he is facing. Morning and evening give different results.
+
+⚠️ **Trap 3 — distance vs displacement:** Total distance walked and the straight (shortest) distance are different. Read the question carefully.
+
+Review this after 2 days.

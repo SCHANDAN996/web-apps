@@ -1,0 +1,65 @@
+# Order & Ranking
+
+A line has formed in class. You are 7th from the front and 18th from the back. How many children are in the class? Many will say 7+18 = 25 — but the correct answer is 24! Why? Because you were counted twice, so you must subtract once. This is the heart of order and ranking.
+
+**Definition:** In these questions, the position of persons or objects in a line (top/bottom, left/right, front/back) is given, and we must find the total number, someone's rank, or the number between two.
+
+🧠 Recall: 7th from the front and 18th from the back — what is the total? (Think of the formula.)
+
+## The Golden Formula
+
+**Total = (rank from top) + (rank from bottom) − 1**
+
+That "−1" is the real trick — because the person being discussed is included once in both counts.
+
+Example: A is 7th from the top and 18th from the bottom → Total = 7 + 18 − 1 = 24.
+
+```svg Row of 7: the 3rd person is 3rd from left and 5th from right → Total = 3 + 5 − 1 = 7
+<svg viewBox="0 0 336 110" width="336" height="110" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Position in a row of seven persons">
+  <text x="168" y="16" text-anchor="middle" style="fill:var(--fig-text);font-size:12px">Total = 3 from left + 5 from right − 1 = 7</text>
+  <rect x="12" y="32" width="40" height="40" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <rect x="57" y="32" width="40" height="40" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <rect x="102" y="32" width="40" height="40" style="fill:var(--fig-accent);stroke:var(--fig-accent);stroke-width:1.5"/>
+  <rect x="147" y="32" width="40" height="40" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <rect x="192" y="32" width="40" height="40" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <rect x="237" y="32" width="40" height="40" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <rect x="282" y="32" width="40" height="40" style="fill:none;stroke:var(--fig-line);stroke-width:1.5"/>
+  <text x="122" y="58" text-anchor="middle" style="fill:#fff;font-size:16px;font-weight:800">A</text>
+  <text x="32" y="90" text-anchor="middle" style="fill:var(--fig-line);font-size:11px">1</text>
+  <text x="77" y="90" text-anchor="middle" style="fill:var(--fig-line);font-size:11px">2</text>
+  <text x="122" y="90" text-anchor="middle" style="fill:var(--fig-accent);font-size:11px;font-weight:700">3</text>
+  <text x="167" y="90" text-anchor="middle" style="fill:var(--fig-line);font-size:11px">4</text>
+  <text x="212" y="90" text-anchor="middle" style="fill:var(--fig-line);font-size:11px">5</text>
+  <text x="257" y="90" text-anchor="middle" style="fill:var(--fig-line);font-size:11px">6</text>
+  <text x="302" y="90" text-anchor="middle" style="fill:var(--fig-line);font-size:11px">7</text>
+  <text x="32" y="104" text-anchor="middle" style="fill:var(--fig-line);font-size:9px">left→</text>
+</svg>
+```
+
+## Main Types
+
+**1. Finding the Total**
+Add the ranks from both sides and subtract 1.
+
+**2. Rank from the Other Side**
+If the total and one rank are known:
+rank from bottom = (total − rank from top) + 1.
+E.g. in a class of 40, A is 12th from the top → from bottom = 40 − 12 + 1 = 29th.
+
+**3. Number Between Two Persons**
+If A is 5th and B is 9th (from the same side) → between them = 9 − 5 − 1 = 3 persons.
+
+**4. Interchange of Positions**
+When two persons swap seats, count the new ranks carefully.
+
+🧠 Recall: In a class of 30, B is 10th from the top — which position from the bottom?
+
+## The Examiner's Trap
+
+⚠️ **Trap 1 — forgetting the "−1":** For the total, you must add both ranks and subtract 1. Forget it, and the answer is always 1 too high.
+
+⚠️ **Trap 2 — "between" vs "up to":** "Between A and B" (excluding both) and "from A to B" (including both) are different.
+
+⚠️ **Trap 3 — mixing directions:** If one rank is from the left and the other from the right, do not subtract directly — first bring both to the same direction.
+
+Review this after 2 days.

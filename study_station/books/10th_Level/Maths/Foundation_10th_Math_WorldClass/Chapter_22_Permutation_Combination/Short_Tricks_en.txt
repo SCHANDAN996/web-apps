@@ -1,0 +1,111 @@
+1. The Menu Multiplier (Fundamental Counting Principle)
+
+A loud waiter with a notepad shouts:
+“Sir, soup AND main AND dessert?”
+He draws a big × on the pad after each “AND”.
+So 3 soups × 4 mains × 2 desserts = 24 meals.
+Acronym: A.M.P. — “And Multiplies Please!”
+Whenever you see “and”, the waiter screams MULTIPLY!
+
+2. Please Carry — The Party Bouncer (P vs C)
+
+A giant bouncer at a club door yells:
+“Please Carry!”
+
+Please = Permutation (Position matters — VIP queue)
+
+Carry = Combination (just Carry the group in, order doesn’t matter)
+
+Picture a queue for a parade (P) vs a bunch of friends tumbling into a taxi (C).
+
+3. The Supermarket Factorial (nPr Formula)
+
+nPr means you pick r items from n and arrange them in a trolley in order.
+You have n items on the shelf. You pull r of them. The unwanted ones (n–r) are thrown away — their factorial is the denominator.
+Formula: nPr = n! / (n–r)!
+Story: “N people, R get a prize; the rest (n–r) are sent home crying. Divide by their tears.”
+
+4. The Cousins’ Blender (nCr Formula)
+
+Combination picks r from n without order.
+First, do nPr, but you’ve overcounted because each group of r can be arranged in r! ways. Chuck them in a blender to destroy the order.
+Formula: nCr = nPr / r! = n! / (r!(n–r)!)
+Memory: “Cousins don’t care who sits first — blend them!”
+
+5. The Seesaw Symmetry (nCr = nC(n-r))
+
+Imagine a playground seesaw. On one side sit r chosen children, on the other side the remaining n–r rejected children. The seesaw balances perfectly.
+Choosing r is identical to rejecting n–r.
+So ¹⁰C₇ = ¹⁰C₃. Use the smaller r to save time.
+Visual: A fat kid on one side, three thin ones on the other — still balanced!
+
+6. Zero the Hero (0! = 1)
+
+Zero looks like a superhero’s cape. He flies in and says: “When nothing is multiplied, the product is 1!”
+Think: An empty shopping cart still has a total price of $1 (the cart itself).
+So 0! = 1 — it makes nC0 = 1 (one way to choose nothing).
+
+7. The Anchor at the Round Table (Circular Permutation)
+
+A round table has a big wobbly leg. A strong man named Anchor sits at one place to stop it wobbling. Now the rotation is fixed.
+Remaining guests: (n–1)! arrangements.
+Formula: Circular arrangements = (n–1)!
+Story: “One person anchors, the rest merry-go-round.”
+
+8. The Password Power-Up (Repetition Allowed)
+
+A hacker wants to crack a 4-digit PIN. Each digit has 10 choices. He repeats digits freely.
+Number of codes = 10⁴ = 10,000.
+Formula: n^r when order matters and repetition allowed.
+Visual: A slot machine with r reels, each has n symbols. Power up!
+
+9. The Detective’s Complement (At Least One)
+
+A detective fails to count “at least one” directly. He whispers: “Total minus the opposite.”
+If you need at least one boy, count all ways, subtract the no boy (all girls) case.
+Mnemonic: “At least one? Think NONE!”
+Picture a mirror showing the opposite scenario.
+
+10. The Crossroad of AND/OR
+
+At a traffic junction:
+
+AND road has a giant multiplication sign (×) carved on the pavement.
+
+OR road has a plus sign (+) painted in yellow.
+You must MULTIPLY for independent events that happen together (AND), ADD for mutually exclusive alternatives (OR).
+Story: “AND is a chain, OR is a branch.”
+
+11. The Handshake Formula (nC2)
+
+In a party, everyone shakes hands once. A pair is just 2 people — order doesn’t matter.
+Number of handshakes = nC2 = n(n–1)/2.
+Visual: Two hands clasping form a natural C shape for Combination.
+
+12. The Password Pyramid (Arrangement without Repetition)
+
+A king’s tomb has 4 distinct hieroglyphs to make a password. The first spot has 4 choices, second 3, third 2, fourth 1.
+nPr = falling factorial: n × (n–1) × ... r terms.
+Pyramid of choices, each step narrower.
+
+13. The Committee Café (Mixed Conditions)
+
+When forming a committee with “exactly 2 men and 2 women”:
+
+Select men: mC₂
+
+Select women: wC₂
+
+Multiply because you need both groups simultaneously (AND).
+Acronym: S³ — Select, Separate, Stack (multiply).
+
+14. The Vowel Block Playpen (Together Condition)
+
+To keep vowels together, build a playpen (block). Put all vowels inside. Now arrange the playpen + consonants. Then let the vowels rearrange inside.
+Block × Internal factorial.
+Visual: A crate with noisy vowels shaking inside.
+
+15. The Pitfall of Zero (Numbers Starting with 0)
+
+When forming numbers with digits, zero is a coward — it refuses to go first. So for thousands place, exclude zero.
+Visual: Zero wearing a “I’m not first” badge, hiding behind the line.

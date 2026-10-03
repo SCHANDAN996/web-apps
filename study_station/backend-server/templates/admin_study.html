@@ -1,0 +1,165 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="mb-8">
+    <h1 class="text-3xl font-bold text-gray-800">📖 Study Materials Manager</h1>
+    <p class="text-gray-500 mt-2">Manage and edit notes for all classes and subjects.</p>
+</div>
+
+<div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
+    <div class="p-6 border-b border-gray-100 flex justify-between items-center bg-gray-50">
+        <h3 class="text-lg font-bold text-gray-800">All Chapters</h3>
+        <button onclick="publishWebsite()" id="publishBtn" class="bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors shadow-sm flex items-center">
+            <i class="fas fa-globe mr-2"></i> Publish Website (SSG)
+        </button>
+    </div>
+    
+    <div class="overflow-x-auto">
+        <table class="w-full text-left border-collapse">
+            <thead>
+                <tr class="bg-gray-50 border-b border-gray-200">
+                    <th class="p-4 text-sm font-semibold text-gray-600">Class</th>
+                    <th class="p-4 text-sm font-semibold text-gray-600">Subject</th>
+                    <th class="p-4 text-sm font-semibold text-gray-600">Chapter</th>
+                    <th class="p-4 text-sm font-semibold text-gray-600">Title</th>
+                    <th class="p-4 text-sm font-semibold text-gray-600">Actions</th>
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-100">
+                {% for note in notes %}
+                <tr class="hover:bg-gray-50 transition-colors">
+                    <td class="p-4 text-gray-700">Class {{ note.class_level }}</td>
+                    <td class="p-4 text-gray-700"><span class="mr-2">{{ note.subject_icon }}</span> {{ note.subject }}</td>
+                    <td class="p-4 text-gray-700 font-medium">Ch {{ note.chapter_number }}</td>
+                    <td class="p-4 text-gray-800">{{ note.title }}</td>
+                    <td class="p-4 flex gap-2">
+                        <button onclick="generateAI({{ note.id }}, '{{ note.title }}')" id="btn-ai-{{ note.id }}" class="bg-indigo-100 text-indigo-700 hover:bg-indigo-600 hover:text-white px-4 py-2 rounded-md text-sm font-medium transition-colors">
+                            ✨ AI Generate
+                        </button>
+                        <button onclick="openEditModal({{ note.id }}, `{{ note.title }}`, `{{ note.content_text | replace('\n', '\\n') | replace('`', '\\`') if note.content_text else '' }}`, `{{ note.pdf_url or '' }}`)" class="bg-violet-100 text-violet-700 hover:bg-violet-600 hover:text-white px-4 py-2 rounded-md text-sm font-medium transition-colors">
+                            <i class="fas fa-edit mr-1"></i> Edit
+                        </button>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script>
+function generateAI(id, title) {
+    if(confirm(`Do you want to generate Notes and 5 Practice MCQs for "${title}" using Gemini AI?\n\nThis will take about 5-10 seconds.`)) {
+        const btn = document.getElementById(`btn-ai-${id}`);
+        const originalText = btn.innerHTML;
+        btn.innerHTML = '⏳ Generating...';
+        btn.disabled = true;
+        btn.classList.add('opacity-50', 'cursor-not-allowed');
+        
+        fetch(`/admin/study/generate/${id}`, { method: 'POST' })
+            .then(res => res.json())
+            .then(data => {
+                if(data.success) {
+                    alert("✅ AI successfully generated the content and Practice Questions!");
+                    window.location.reload();
+                } else {
+                    alert("❌ Error: " + (data.error || "Failed to generate"));
+                    btn.innerHTML = originalText;
+                    btn.disabled = false;
+                    btn.classList.remove('opacity-50', 'cursor-not-allowed');
+                }
+            })
+            .catch(err => {
+                alert("❌ Network error while generating content.");
+                btn.innerHTML = originalText;
+                btn.disabled = false;
+                btn.classList.remove('opacity-50', 'cursor-not-allowed');
+            });
+    }
+}
+</script>
+
+<!-- Edit Note Modal -->
+<div id="editModal" class="fixed inset-0 bg-gray-900 bg-opacity-75 z-50 hidden justify-center items-center p-4">
+    <div class="bg-white rounded-xl shadow-2xl w-full max-w-4xl max-h-[90vh] flex flex-col overflow-hidden transform transition-all">
+        <div class="p-6 border-b border-gray-100 flex justify-between items-center bg-gray-50">
+            <h3 id="modalTitle" class="text-xl font-bold text-gray-800">Edit Notes</h3>
+            <button onclick="closeModal()" class="text-gray-400 hover:text-red-500 transition-colors">
+                <i class="fas fa-times text-2xl"></i>
+            </button>
+        </div>
+        
+        <div class="p-6 overflow-y-auto flex-1">
+            <form id="editForm" method="POST" action="">
+                <div class="mb-4">
+                    <label class="block text-sm font-medium text-gray-700 mb-2">Original Book PDF URL (Optional)</label>
+                    <input type="url" id="pdfUrlInput" name="pdf_url" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-violet-500 focus:border-violet-500 text-sm bg-gray-50" placeholder="https://ncert.nic.in/pdf/.../chapter1.pdf">
+                </div>
+                <div class="mb-6">
+                    <label class="block text-sm font-medium text-gray-700 mb-2">AI Notes Content (Markdown)</label>
+                    <textarea id="contentInput" name="content_text" rows="15" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-violet-500 focus:border-violet-500 font-mono text-sm bg-gray-50"></textarea>
+                    <p class="text-sm text-gray-500 mt-2"><i class="fas fa-info-circle mr-1"></i> Use <strong>#</strong> for headings, <strong>**bold**</strong> for bold, and <strong>*italic*</strong> for italic text. Press Enter for new lines.</p>
+                </div>
+                
+                <div class="flex justify-end gap-3 pt-4 border-t border-gray-100">
+                    <button type="button" onclick="closeModal()" class="px-6 py-2.5 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 font-medium transition-colors">Cancel</button>
+                    <button type="submit" class="px-6 py-2.5 bg-violet-600 text-white rounded-lg hover:bg-violet-700 font-bold shadow-md shadow-violet-200 transition-colors">Save Notes</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+function openEditModal(id, title, content, pdfUrl) {
+    document.getElementById('modalTitle').innerText = 'Editing: ' + title;
+    document.getElementById('contentInput').value = content;
+    document.getElementById('pdfUrlInput').value = pdfUrl;
+    document.getElementById('editForm').action = '/admin/study/update/' + id;
+    
+    const modal = document.getElementById('editModal');
+    modal.classList.remove('hidden');
+    modal.classList.add('flex');
+}
+
+function closeModal() {
+    const modal = document.getElementById('editModal');
+    modal.classList.add('hidden');
+    modal.classList.remove('flex');
+}
+
+function publishWebsite() {
+    const btn = document.getElementById('publishBtn');
+    btn.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i> Publishing...';
+    btn.disabled = true;
+    
+    fetch('/admin/publish', { method: 'POST' })
+    .then(res => res.json())
+    .then(data => {
+        if(data.success) {
+            btn.innerHTML = '<i class="fas fa-check mr-2"></i> Published Successfully!';
+            btn.classList.replace('bg-emerald-600', 'bg-green-600');
+            setTimeout(() => {
+                btn.innerHTML = '<i class="fas fa-globe mr-2"></i> Publish Website (SSG)';
+                btn.classList.replace('bg-green-600', 'bg-emerald-600');
+                btn.disabled = false;
+            }, 3000);
+        } else {
+            alert("Error publishing: " + data.error);
+            btn.innerHTML = '<i class="fas fa-exclamation-triangle mr-2"></i> Publish Failed';
+            btn.classList.replace('bg-emerald-600', 'bg-red-600');
+            setTimeout(() => {
+                btn.innerHTML = '<i class="fas fa-globe mr-2"></i> Publish Website (SSG)';
+                btn.classList.replace('bg-red-600', 'bg-emerald-600');
+                btn.disabled = false;
+            }, 3000);
+        }
+    })
+    .catch(err => {
+        alert("Network error: " + err);
+        btn.innerHTML = '<i class="fas fa-globe mr-2"></i> Publish Website (SSG)';
+        btn.disabled = false;
+    });
+}
+</script>
+{% endblock %}

@@ -1,0 +1,44 @@
+Front: What is a Venn diagram made of?
+Back: Overlapping circles that show the relationship between groups.
+
+Front: Who falls in the shared (overlap) part of two circles?
+Back: Those who are in both groups (A ∩ B).
+
+Front: What is the formula for n(A∪B)?
+Back: n(A∪B) = n(A) + n(B) − n(A∩B).
+
+Front: Why do we subtract "− n(A∩B)" in the formula?
+Back: Because those in both are counted twice; they must be subtracted once.
+
+Front: How do you find "only A"?
+Back: Only A = n(A) − n(A∩B).
+
+Front: How do you find "neither"?
+Back: Neither = total − n(A∪B).
+
+Front: What does the diagram for "all A are B" look like?
+Back: A's circle fully inside B.
+
+Front: The diagram for "some A are B"?
+Back: The two circles overlap a little.
+
+Front: The diagram for "no A is B"?
+Back: Two completely separate (disjoint) circles.
+
+Front: Dog, Cat, Animal — what does the diagram look like?
+Back: Dog and Cat are separate circles, both inside the big 'Animal' circle.
+
+Front: What is the union formula for three groups?
+Back: n(A∪B∪C) = sum − (pairwise shared) + (all-three shared).
+
+Front: 30 cricket, 20 football, 10 both — at least one?
+Back: 30 + 20 − 10 = 40.
+
+Front: Difference between "only A" and "A"?
+Back: "Only A" = in A but not B; "A" = the whole A circle (including the overlap).
+
+Front: The most common trap in numerical Venn?
+Back: Forgetting to subtract the shared part (double counting).
+
+Front: What is the Venn mnemonic?
+Back: "Add both, subtract shared".

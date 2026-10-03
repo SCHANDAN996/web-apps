@@ -1,0 +1,23 @@
+📋 Important Rules & Approaches
+
+1. Key Rules / Approaches
+Rule Name	Description	Example
+Subset Rule	If every member of set A is necessarily a member of set B, then circle A lies completely inside circle B.	All parrots are birds → Parrot circle inside Bird circle.
+Disjoint Rule	If no member of set A can ever be a member of set B, circles A and B must be completely separate.	No table is a chair → Two non‑overlapping circles.
+Partial Overlap Rule	If some members of A can be members of B, but not necessarily all, the circles must intersect, but the exact size is not fixed.	Some doctors are writers → Overlap exists, but its extent is unknown.
+“Only” Principle	“Only A” means the region exclusively inside A, not shared with any other set.	“Only Hindi” = Hindi circle minus any overlaps.
+“At least two” Inclusion	“At least two” includes the central “all three” region plus all exactly‑two regions.	In a three‑set diagram, count the three pairwise overlaps + the triple intersection.
+“At most two” Exclusion	“At most two” excludes the central triple intersection region; count everything else.	Total – (all‑three region).
+Minimum Venn Diagram (Syllogism)	To test a conclusion, draw the diagram with the least possible overlaps that still satisfies all statements. If the conclusion fails there, it does not follow.	Statement: Some A are B. Minimum diagram: A and B touch in one small region, or even A inside B if no other statement prevents it.
+“Some” = Possibility of “All”	When a statement says “Some A are B”, do not force a fixed partial overlap; “All A are B” may still be possible unless another statement blocks it.	“Some cats are animals” does not prevent “All cats are animals”.
+“Some not” ≠ “Some”	“Some A are not B” only guarantees an element outside B, not one inside B. Do not deduce “Some A are B” from it.	From “Some students are not athletes” you cannot conclude “Some students are athletes”.
+P‑I‑G Checklist	Quick selection method: Part (subset?), Intersect (possible overlap?), Gap (must be separate?). Apply to each pair.	Words: Fruit, Mango, Banana. Mango (Part of Fruit), Banana (Part of Fruit), Mango & Banana (Gap, disjoint inside Fruit).
+Chewing‑Gum Test	Treat a person as a piece of gum; place it only where statements force it. If you can place the gum to avoid a conclusion, the conclusion is not definite.	To test “Some A are C”, try placing gum on A that avoids C. If possible, conclusion fails.
+2. Time Management
+Rule	Time Limit	Action
+15‑second Word‑to‑Diagram Scan	15 seconds	Read the three words. Check subset relationships (P‑I‑G). If you can mentally visualise the diagram, pick the option immediately. If confused, mark and skip.
+45‑second Syllogism Test	45 seconds per question	For syllogism with 2‑3 statements and 2‑3 conclusions, draw the minimum Venn diagram quickly. If a conclusion is not forced, it is false. If you spend more than 45 sec, mark for review and move on.
+Skip Strategy	Immediate	If the question contains highly unfamiliar words, or the diagram is cluttered with many numbers, skip in the first round. Return if time permits.
+3. Logical / Mathematical Formulas
+
+No mathematical formulas for this chapter. The approach is purely diagrammatic and logical.

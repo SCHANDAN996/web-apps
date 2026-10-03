@@ -1,0 +1,75 @@
+Here is the analysis of PYQs for the Simple Interest chapter:
+
+📊 PYQ Analysis: Simple Interest
+
+Based on an analysis of questions from the last 10 years across SSC, Banking, and Railway exams, the following patterns emerge:
+
+High-Frequency Concepts: The core formula SI = (P × R × T) / 100 and the "n-1" rule for sums multiplying are the most tested. Questions on time conversion (months to years) and finding the rate/principal are also extremely common.
+
+Common Traps: The "Amount vs. Principal" confusion is the number one trap. Examiners also love to present time in months and use "half-yearly" or "quarterly" rates.
+
+Emerging Trends: Questions combining SI with ratios, or packaging the concept in a complex word problem with multiple steps, are increasingly popular in PO-level exams.
+
+Below are the top 10 high-yield PYQs that effectively demonstrate these concepts and traps, complete with solutions and a breakdown of their psychological hooks.
+
+🔝 Top 10 High-Yield PYQs with Solutions
+
+Q1. (SSC CGL) A sum of money at simple interest amounts to Rs. 1,200 in 3 years and to Rs. 1,350 in 4 years. The sum is:
+
+Solution: SI for 1 year = 1350 - 1200 = Rs. 150. SI for 3 years = 150 × 3 = Rs. 450. Principal = Amount after 3 years - SI for 3 years = 1200 - 450 = Rs. 750.
+
+🧠 Psychological Hook: This uses the "Amount Progression" trap. Students often try to set up complex equations instead of using the simple logic that SI is constant each year.
+
+Q2. (IDBI Bank PO) A earns an interest of Rs. 2880 on a certain sum invested for 3 years at R% SI. B earns Rs. 4000 on another sum for 5 years at the same R%. Sum invested by A is what percent more than that of B?
+
+Solution: P1 = (2880×100)/(3×R) = 96000/R. P2 = (4000×100)/(5×R) = 80000/R. Required % = ((P1 - P2)/P2) × 100 = ((16000/R) / (80000/R)) × 100 = 20%.
+
+🧠 Psychological Hook: The "Variable Phobia" trap. The presence of an unknown variable R in the denominator frightens many, who then try to solve for R first, which is unnecessary.
+
+Q3. (Railway JE) A lends Rs.15000 to B at 15% p.a. SI for 2 years. B immediately lends it all to C at 20% p.a. SI for 2 years. Find the profit of B.
+
+Solution: SI paid by B to A = (15000×15×2)/100 = Rs. 4500. SI earned by B from C = (15000×20×2)/100 = Rs. 6000. B's profit = 6000 - 4500 = Rs. 1500.
+
+🧠 Psychological Hook: The "Problem of Plenty" trap. Multiple people and numbers can overwhelm a student into inaction. The trick is to focus only on the middleman (B) and his two transactions.
+
+Q4. (SSC MTS) A sum of Rs. 2,400 is invested for 4 years at R% p.a. simple interest and yields an SI of Rs. 1,152. Find the amount received after 3 years when the same sum is invested at (R+8)% p.a.
+
+Solution: Step 1: 1152 = (2400 × R × 4)/100 => R = 12%. Step 2: New rate = 12+8 = 20%. New SI = (2400 × 20 × 3)/100 = Rs. 1440. Amount = 2400 + 1440 = Rs. 3840.
+
+🧠 Psychological Hook: The "Multi-Step Fatigue" trap. The question is long and can cause a student to lose focus halfway. Breaking it down into two independent, simple parts is the key.
+
+Q5. (SBI PO Prelims) A person invested ₹ x at 10% p.a. SI for 7 years. If he had invested ₹ (x + 10,100) at 15% p.a. SI for 8 years, the interest would have been ₹ 34,620 more. Find x.
+
+Solution: SI1 = (x × 10 × 7)/100 = 0.70x. SI2 = ((x+10100) × 15 × 8)/100 = 1.20(x+10100). Equation: 1.20(x+10100) - 0.70x = 34620 => 0.5x + 12120 = 34620 => x = 45000.
+
+🧠 Psychological Hook: The "Algebraic Panic" trap. Solving for a variable in a seemingly complex linear equation feels daunting. However, it simplifies neatly, and skipping it means losing an easy high-scoring question.
+
+Q6. (SSC CGL) If the ratio of principal to simple interest for 1 year is 25:1, then the rate of interest is:
+
+Solution: P / SI = 25/1. We know SI = (P × R × 1)/100. So, R = (SI × 100) / P. From the ratio, SI/P = 1/25. Therefore, R = (1/25) × 100 = 4%.
+
+🧠 Psychological Hook: The "Ratio-Relation" trap. Students often freeze when they see ratios instead of direct values. The key is to substitute the ratio directly into the formula.
+
+Q7. (SSC CHSL) Simple interest on a sum for six months at 5% per annum is Rs. 65.5. What is the value (in Rs.) of the sum?
+
+Solution: Here, T = 6 months = 6/12 = 0.5 years. SI = (P × R × T) / 100 => 65.5 = (P × 5 × 0.5) / 100 => 65.5 = (2.5P) / 100 => P = (65.5 × 100) / 2.5 = 6550/0.25? Wait. Let's re-calculate carefully. 65.5 = (P * 5 * 0.5) / 100 => 6550 = 2.5P => P = 6550 / 2.5 = 2620. Check: (2620*5*0.5)/100 = (2620*2.5)/100 = 6550/100 = 65.5. Correct.
+
+🧠 Psychological Hook: The classic "Time-Unit Trap". The most common mistake is using T=6 instead of T=0.5, which gives a principal that is 12 times smaller than the correct answer.
+
+Q8. (RRB NTPC) A sum of money becomes double in 8 years at a rate of simple interest per annum. Find the rate.
+
+Solution: Sum doubles, so n=2. Using the n-1 rule, SI = (n-1)P = P. So, SI = P. Formula: P = (P × R × 8) / 100 => 1 = (8R)/100 => R = 100/8 = 12.5%.
+
+🧠 Psychological Hook: The "Missing Data" trap. Students panic thinking the principal is needed. The "n-1" rule elegantly removes the need for the principal, making the solution unexpectedly short.
+
+Q9. (Insurance AO) What is the simple interest on Rs. 5000 at 6% half-yearly for 2 years?
+
+Solution: "6% half-yearly" means the annual rate is 6% × 2 = 12%. Time remains T = 2 years. Therefore, SI = (5000 × 12 × 2) / 100 = Rs. 1200.
+
+🧠 Psychological Hook: The "Rate Definition" trap. The term "half-yearly" lures students into incorrectly adjusting the time instead of the rate for simple interest problems, leading them to a complex calculation.
+
+Q10. (SSC CGL Tier 2) The simple interest on a certain sum at the rate of 12.5% per annum for 6 years is Rs. 13,500 less than the principal. Find the simple interest.
+
+Solution: Let Principal = P. SI = (P × 12.5 × 6) / 100 = (75P)/100 = 0.75P. The problem states: SI = P - 13500. So, 0.75P = P - 13500 => 0.25P = 13500 => P = Rs. 54,000. Therefore, SI = 0.75 × 54000 = Rs. 40,500.
+
+🧠 Psychological Hook: The "Verbal Math" trap. Translating the phrase "interest is 13500 less than the principal" into the correct algebraic equation (SI = P - 13500, not P - SI = 13500, though they are the same) is where the error occurs. The trick is to write it down exactly as you read it.
