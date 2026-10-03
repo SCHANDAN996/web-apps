@@ -4,9 +4,10 @@
 {% block title %}{{ ctitle }}{% if key %} · {{ tr('sec_' + key) }}{% endif %} — {{ btitle }} | {{ tr('brand') }}{% endblock %}
 {% block description %}{{ ctitle }} — {{ btitle }}. {{ tr('books_desc') }}{% endblock %}
 {% block main %}
+<div class="read-progress" aria-hidden="true"><i id="readBar"></i></div>
 <p class="small crumb"><a class="tap-link" href="/books">{{ tr('books_title') }}</a> › <a class="tap-link" href="/books/{{ book.slug }}">{{ btitle }}</a></p>
 <p class="xs muted" style="margin:0">{{ tr('chapter_n').format(n=chapter.number) }}</p>
-<h1>{{ ctitle }}</h1>
+<h1 data-chapter-url="/books/{{ book.slug }}/{{ chapter.slug }}" data-chapter-title="{{ ctitle }}">{{ ctitle }}</h1>
 <div class="chips" style="margin-bottom:var(--sp-3)">
   {% if not chapter.reviewed %}<span class="badge badge-warn">{{ tr('book_ai_badge') }}</span>{% endif %}
   {% if chapter.meta.as_of %}<span class="badge">{{ tr('facts_as_of').format(year=chapter.meta.as_of) }}</span>{% endif %}

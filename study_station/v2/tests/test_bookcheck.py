@@ -114,3 +114,32 @@ def test_next_and_status_follow_the_queue(tmp_path, monkeypatch, capsys):
     assert main(['--status']) == 0
     out = capsys.readouterr().out
     assert 'A:  OK 1' in out and 'B:  TODO 1' in out
+
+
+def test_question_that_admits_broken_data_is_rejected():
+    q = ParsedQuestion(1, 'C, A से 6 स्थान बाएँ है। D का स्थान क्या होगा? ⚠️ (आँकड़े असंगत हो सकते हैं)',
+                       ['30वाँ', '31वाँ', '32वाँ', 'निर्धारित नहीं'], 3, '')
+    assert quality_problem(q) == 'broken_question'
+    ok = ParsedQuestion(2, 'भारत की राजधानी क्या है?', ['दिल्ली', 'मुंबई', 'कोलकाता', 'चेन्नई'], 0, 'नई दिल्ली।')
+    assert quality_problem(ok) is None
+
+
+def test_trap_hint_is_cut_from_the_question():
+    from app.importers import parse_mcq_text
+    text = ('1. (⚠️ परीक्षक का जाल: सभी अभाज्य, लेकिन सम-विषम)\nभिन्न संख्या चुनिए –\n(a) 2 (b) 3 (c) 5 (d) 9\nउत्तर: (d)\nहल: 9 अभाज्य नहीं है।\n')
+    q = parse_mcq_text(text)[0]
+    assert q.text == 'भिन्न संख्या चुनिए –' and quality_problem(q) is None
+
+
+def test_trap_heading_line_is_cut_too():
+    from app.importers import parse_mcq_text
+    text = ('5. ⚠️ परीक्षक का जाल\nशाम 4 बजे लड़की की छाया बाईं ओर है। वह किस दिशा में है?\n'
+            '(a) उत्तर (b) दक्षिण (c) पूर्व (d) पश्चिम\nउत्तर: (b)\nहल: शाम को सूर्य पश्चिम में।\n')
+    assert parse_mcq_text(text)[0].text.startswith('शाम 4 बजे')
+
+
+def test_trap_hint_variants_and_no_false_cut():
+    from app.importers import TRAP_HINT
+    assert TRAP_HINT.sub('', 'कौन? (परीक्षक का जाल – दोहरा संबंध)') == 'कौन? '
+    assert TRAP_HINT.sub('', 'x (Examiner’s Trap – Misleading Options)') == 'x '
+    assert TRAP_HINT.sub('', 'समलंब (Trapezium) का क्षेत्रफल') == 'समलंब (Trapezium) का क्षेत्रफल'

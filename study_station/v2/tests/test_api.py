@@ -171,7 +171,8 @@ def test_pages_render(client, db):
 def test_home_today_button_and_result_defaults_to_wrong(client, db):
     onboard(client)
     home = client.get('/').text
-    assert 'आज के 10 सवाल शुरू करें' in home or "Start today's 10 questions" in home
+    assert ('आज का प्लान' in home or "Today's plan" in home) and 'data-practice=' in home
+    assert 'class="ring"' in home and home.count('class="day') == 7                # goal ring + 7-day strip
     assert 'href="/current-affairs"' not in home                 # no CA items in the last 14 days
     a = client.post('/api/v1/practice', json={'topic_id': topic_id(db, 'analogy'), 'count': 2}).json()
     q0, q1 = a['questions']
@@ -209,3 +210,14 @@ def test_retry_wrong_is_private_to_the_device(client, db):
     client.cookies.clear()
     onboard(client)
     assert client.post(f"/api/v1/attempts/{a['id']}/retry-wrong", json={}).status_code == 404
+
+
+def test_stats_today_count_and_week_strip(client, db):
+    onboard(client)
+    a = client.post('/api/v1/practice', json={'topic_id': topic_id(db, 'analogy'), 'count': 2}).json()
+    q = a['questions'][0]
+    client.post(f"/api/v1/attempts/{a['id']}/answer", json={'question_id': q['id'], 'chosen_index': 0})
+    st = client.get('/api/v1/stats').json()
+    assert st['today_answered'] == 1
+    assert len(st['week']) == 7 and st['week'][-1]['active'] is True
+    assert [d['active'] for d in st['week'][:-1]] == [False] * 6

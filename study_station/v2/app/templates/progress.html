@@ -12,6 +12,40 @@
   <div class="stat"><b>{{ stats.streak_days }}</b><span>{{ tr('streak') }}</span></div>
 </div>
 <section class="card" style="margin-top:var(--sp-4)">
+  <div class="row-between"><h2>{{ tr('activity_28') }}</h2><span class="small muted">{{ tr('active_days').format(n=stats.active_days_28) }}</span></div>
+  {% set wd = tr('week_days').split(',') %}
+  <div class="cal" role="img" aria-label="{{ tr('active_days').format(n=stats.active_days_28) }}">
+    {% for w in wd %}<span class="cal-h">{{ w }}</span>{% endfor %}
+    {% for d in stats.month %}<span class="cal-d{% if d.active %} is-on{% endif %}{% if d.future %} is-future{% endif %}" title="{{ d.date }}"></span>{% endfor %}
+  </div>
+</section>
+
+{% if stats.subjects %}
+<section class="card" style="margin-top:var(--sp-4)">
+  <h2>{{ tr('by_subject') }}</h2>
+  <div class="bars">
+    {% for sb in stats.subjects %}
+    <div class="bar-row">
+      <span class="bar-label">{{ sb.name[lang] }}</span>
+      <span class="bar"><i class="{{ 'ok' if sb.accuracy >= 75 else ('warn' if sb.accuracy >= 50 else 'bad') }}" style="width:{{ [sb.accuracy, 2]|max }}%"></i></span>
+      <span class="bar-val">{{ sb.accuracy }}%</span>
+    </div>
+    {% endfor %}
+  </div>
+  <p class="xs muted" style="margin:var(--sp-3) 0 0">{{ tr('by_subject_note') }}</p>
+</section>
+{% endif %}
+
+{% if stats.mocks|length > 1 %}
+<section class="card" style="margin-top:var(--sp-4)">
+  <h2>{{ tr('mock_trend') }}</h2>
+  <div class="spark" role="img" aria-label="{{ tr('mock_trend') }}">
+    {% for m in stats.mocks|reverse %}<span style="height:{{ [m.pct, 3]|max }}%" title="{{ m.date }} · {{ m.pct }}%"><i>{{ m.pct }}</i></span>{% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<section class="card" style="margin-top:var(--sp-4)">
   <h2>{{ tr('topics') }}</h2>
   <ul class="list">
   {% for tp in stats.topics %}

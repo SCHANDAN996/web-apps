@@ -107,7 +107,7 @@ def _parse_draft(d):
     stem, options = _split_options('\n'.join(body))
     if options is None:
         return None
-    stem = _clean_keep_lines(stem)
+    stem = _clean_keep_lines(TRAP_HINT.sub('', stem))
     difficulty = ''
     if (m := DIFF_INLINE.match(stem)):
         difficulty = DIFF_WORD[m.group(1).lower()]
@@ -196,6 +196,14 @@ LEAKED_REASONING = re.compile(
     r"I think|We need to|मैं इसे|मैं इस|ठीक है,|रुकिए|दोबारा जाँच|तो Q\d+|Q\d+:)", re.I)
 
 
+# The generator sometimes admits the question is broken ("figures may be inconsistent") — never show those.
+BROKEN = re.compile(r'असंगत हो सकत|आँकड़े असंगत|अपूर्ण (?:जानकारी|डेटा)|data (?:may be|is|are) (?:inconsistent|insufficient)|'
+                    r'inconsistent (?:data|figures)|question (?:is|seems) (?:flawed|ambiguous|incorrect)', re.I)
+# "(⚠️ परीक्षक का जाल: …)" / "(Examiner's Trap: …)" inside a question gives the answer away — cut it out.
+WARN = '(?:\u26a0\ufe0f?\\s*)?'          # optional ⚠️ (the emoji is two code points)
+TRAP_HINT = re.compile(WARN + r'\(\s*' + WARN + r'(?:परीक्षक का जाल|Examiner[’\']?s? Trap|Trap\b)[^)]*\)\s*'
+                       r'|^\s*' + WARN + r'(?:परीक्षक का जाल|Examiner[’\']?s? Trap)\b[^\n]*\n?', re.I | re.M)
+
 # Questions that only make sense next to an earlier question or passage.
 NEEDS_CONTEXT = re.compile(
     r"same arrangement|another question|above (information|passage|data|arrangement)|"
@@ -208,6 +216,8 @@ def quality_problem(q):
     """Return a short reason string if the question should not reach students."""
     if LEAKED_REASONING.search(q.solution) or LEAKED_REASONING.search(q.text):
         return 'leaked_reasoning'
+    if BROKEN.search(q.text) or any(BROKEN.search(o) for o in q.options):
+        return 'broken_question'
     self_contained = STATEMENTS.search(q.text) and q.text.count('\n') >= 2
     if NEEDS_CONTEXT.search(q.text) and not self_contained:
         return 'needs_context'

@@ -104,8 +104,26 @@ await step('books: chapter, flashcard flip, mind map', async () => {
   if (await mm.count()) { await mm.first().click(); await p.waitForSelector('.mm-tree'); await shot('book-mindmap'); }
 });
 
+await step('home plan, practice search, theme switch', async () => {
+  await p.goto(B + '/');
+  await p.waitForSelector('.today-card .ring');
+  if (await p.locator('.plan .list-item').count() < 2) throw new Error('today plan missing');
+  await p.goto(B + '/practice');
+  await p.fill('#topicSearch', 'zzzz-no-such-topic');
+  if (await p.isHidden('#searchEmpty')) throw new Error('search empty state not shown');
+  await p.fill('#topicSearch', '');
+  if (await p.locator('.subject-sec:not(.is-hidden)').count() !== 1) throw new Error('subject tabs should show one subject');
+  await p.goto(B + '/settings');
+  await p.click('[data-theme-set="dark"]');
+  await p.goto(B + '/');
+  if (await p.getAttribute('html', 'data-theme') !== 'dark') throw new Error('dark theme not kept');
+  await shot('home-dark');
+  await p.goto(B + '/settings');
+  await p.click('[data-theme-set="system"]');
+});
+
 await step('no horizontal scroll on phone', async () => {
-  for (const path of ['/', '/practice', '/jobs', '/current-affairs', '/books']) {
+  for (const path of ['/', '/practice', '/jobs', '/current-affairs', '/books', '/progress', '/settings', '/revise']) {
     await p.goto(B + path);
     const over = await p.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
     if (over > 1) throw new Error(path + ' overflows by ' + over + 'px');

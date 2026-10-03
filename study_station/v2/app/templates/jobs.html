@@ -4,12 +4,12 @@
 <h1>{{ tr('jobs_title') }}</h1>
 <p class="muted small">{{ tr('jobs_desc') }}</p>
 {% set q = '&qualification=' ~ (qualification or 'all') ~ ('&category=' ~ category if category else '') %}
-<nav class="chips" aria-label="Status" style="margin:var(--sp-3) 0">
+<nav class="chips chips-scroll" aria-label="Status" style="margin-block:var(--sp-3)">
   {% for s, key in [('active', 'jobs_active'), ('upcoming', 'jobs_upcoming'), ('updates', 'jobs_updates'), ('closed', 'jobs_closed'), ('undated', 'jobs_undated')] %}
   <a class="chip" href="?status={{ s }}{{ q }}" {% if status == s %}aria-current="true"{% endif %}>{{ tr(key) }} · {{ counts[s] }}</a>
   {% endfor %}
 </nav>
-<nav class="chips" aria-label="Qualification" style="margin-bottom:var(--sp-4)">
+<nav class="chips chips-scroll" aria-label="Qualification" style="margin-bottom:var(--sp-4)">
   <a class="chip" href="?status={{ status }}&qualification=all" {% if not qualification %}aria-current="true"{% endif %}>{{ tr('all') }}</a>
   {% for code, hi, en in levels %}<a class="chip" href="?status={{ status }}&qualification={{ code }}" {% if qualification == code %}aria-current="true"{% endif %}>{{ L(hi, en) }}</a>{% endfor %}
 </nav>
@@ -25,7 +25,7 @@
       </span>
       {% include '_job_badge.html' %}
     </div>
-    <h3 style="margin:var(--sp-2) 0 4px">{{ job.title }}</h3>
+    <h3 class="clamp-2 job-title">{{ job.title }}</h3>
     {% if job.org %}<p class="small muted" style="margin:0">{{ job.org }}</p>{% endif %}
     <p class="xs muted" style="margin:4px 0 0">
       {% if job.vacancies %}{{ job.vacancies }} {{ tr('vacancies') }} · {% endif %}

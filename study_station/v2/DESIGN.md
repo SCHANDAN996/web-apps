@@ -46,7 +46,13 @@ use only tokens. Any AI or developer changing the UI must follow this file and C
 | `.topbar` | small top app bar | surface; tints to surface-container when the page scrolls |
 | `dialog` | dialog | 28 px corners, surface-container-high, level-2 shadow |
 | `.toast` | snackbar | inverse surface |
-| `.seg` | segmented button | reader page colour / text size |
+| `.seg` | segmented button | reader page colour / text size, theme (System/Light/Dark) |
+| `.search` | search bar | 56 px pill, surface-container-high, live filter |
+| `.today-card` + `.ring` | — (home hero) | primary-container, goal ring 0–10, 7-day streak strip |
+| `.plan .list-item` | list item with leading icon | today's plan: revise → 10 questions → continue chapter → current affairs |
+| `.chips-scroll` | chip set (scrollable) | long filter lists stay one line with an edge fade |
+| `.tile` | small filled card | entry points (books, current affairs) |
+| `.cal`, `.bars`, `.spark` | — (data viz) | progress: 4-week activity, accuracy by subject, mock trend |
 
 State layers: hover 8 %, pressed 10 % of the content colour (`color-mix`). Ripple on press (`static/js/app.js`).
 
@@ -55,8 +61,15 @@ State layers: hover 8 %, pressed 10 % of the content colour (`color-mix`). Rippl
 Durations `--dur-1..4` = 100/200/300/450 ms. Animate only `transform`/`opacity` (and colour). Everything respects
 `prefers-reduced-motion` (ripple is skipped entirely).
 
+## Navigation feel
+- Page changes use the View Transitions API ("fade through": 90 ms out, 210 ms in); app bars keep their place.
+- Haptics on answer: 12 ms tick for right, double buzz for wrong (Android only).
+- Theme: System / Light / Dark in Settings, applied before paint by `static/js/theme.js`.
+
 ## Book reader
-Page colour **सफ़ेद / कागज़ / रात** and text size **A− / A+** (85–150 %), remembered per device (localStorage).
+Page colour **सामान्य / कागज़ / रात** and text size **A− / A+** (85–150 %), remembered per device (localStorage).
+Reading progress bar under the top bar; a chapter counts as read when its end is reached (✓ in the chapter list);
+the home plan offers "Continue: <last chapter>".
 
 ## Checks before shipping a UI change
 1. `pytest -q` and `node tests/e2e/flow.mjs` (no JS errors, no horizontal scroll).

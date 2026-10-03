@@ -10,7 +10,7 @@
   {% if q_counts.get('month') %}<button class="btn btn-secondary btn-sm" data-ca-quiz="30" data-topic="{{ topic.id }}">{{ tr('ca_quiz_month') }} · {{ [q_counts['month'], 25]|min }}</button>{% endif %}
 </div>
 {% endif %}
-<nav class="chips" style="margin:var(--sp-3) 0 var(--sp-4)">
+<nav class="chips chips-scroll" style="margin-block:var(--sp-3) var(--sp-4)">
   <a class="chip" href="/current-affairs" {% if not category %}aria-current="true"{% endif %}>{{ tr('all') }}</a>
   {% for c in categories %}<a class="chip" href="?category={{ c }}" {% if category == c %}aria-current="true"{% endif %}>{{ L(*cat_names[c]) }}</a>{% endfor %}
 </nav>

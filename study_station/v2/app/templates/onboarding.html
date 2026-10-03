@@ -37,6 +37,18 @@
   <p class="xs muted" style="text-align:center">{{ tr('onb_hint') }}</p>
 </form>
 
+{% if settings_mode %}
+<section class="card enter" style="margin-top:var(--sp-4)">
+  <h2>{{ tr('theme') }}</h2>
+  <div class="seg seg-wide" role="radiogroup" aria-label="{{ tr('theme') }}">
+    <button type="button" class="seg-btn" data-theme-set="system" aria-pressed="false">{{ tr('theme_system') }}</button>
+    <button type="button" class="seg-btn" data-theme-set="light" aria-pressed="false">{{ tr('theme_light') }}</button>
+    <button type="button" class="seg-btn" data-theme-set="dark" aria-pressed="false">{{ tr('theme_dark') }}</button>
+  </div>
+  <p class="xs muted" style="margin:var(--sp-2) 0 0">{{ tr('theme_hint') }}</p>
+</section>
+{% endif %}
+
 <section class="card stack enter" id="sync" style="margin-top:var(--sp-4)">
   <h2>{{ tr('sync_title') }}</h2>
   <p class="small muted">{{ tr('sync_desc') }}</p>

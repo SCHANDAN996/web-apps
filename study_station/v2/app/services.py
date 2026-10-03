@@ -334,12 +334,21 @@ def device_stats(db: Session, device: Device, today=None):
     today = today or today_ist()
     rows = db.execute(
         select(Topic.id, Topic.name_hi, Topic.name_en, Subject.slug,
-               func.count(AttemptAnswer.id), func.sum(case((AttemptAnswer.correct.is_(True), 1), else_=0)))
+               func.count(AttemptAnswer.id), func.sum(case((AttemptAnswer.correct.is_(True), 1), else_=0)),
+               Subject.name_hi, Subject.name_en)
         .select_from(AttemptAnswer).join(Attempt).join(Question).join(Topic).join(Subject)
         .where(Attempt.device_id == device.id, AttemptAnswer.chosen_index.is_not(None))
         .group_by(Topic.id)).all()
     topics = [{'id': tid, 'name': {'hi': hi, 'en': en}, 'subject': subj, 'attempted': n,
-               'correct': int(c or 0), 'accuracy': round(100 * (c or 0) / n)} for tid, hi, en, subj, n, c in rows]
+               'correct': int(c or 0), 'accuracy': round(100 * (c or 0) / n), 'subject_name': {'hi': shi, 'en': sen}}
+              for tid, hi, en, subj, n, c, shi, sen in rows]
+    by_subject = {}
+    for t in topics:
+        b = by_subject.setdefault(t['subject'], {'slug': t['subject'], 'name': t['subject_name'], 'attempted': 0, 'correct': 0})
+        b['attempted'] += t['attempted']
+        b['correct'] += t['correct']
+    subjects = sorted(({**b, 'accuracy': round(100 * b['correct'] / b['attempted'])} for b in by_subject.values()),
+                      key=lambda b: -b['attempted'])
     attempted = sum(t['attempted'] for t in topics)
     correct = sum(t['correct'] for t in topics)
     weak = sorted([t for t in topics if t['attempted'] >= 5 and t['accuracy'] < 60], key=lambda t: t['accuracy'])
@@ -353,13 +362,26 @@ def device_stats(db: Session, device: Device, today=None):
         d -= timedelta(days=1)
     due = db.scalar(select(func.count(ReviewCard.id)).where(
         ReviewCard.device_id == device.id, ReviewCard.due_on <= today))
+    start_of_today = datetime.combine(today, datetime.min.time()) - IST          # IST midnight in UTC
+    today_answered = db.scalar(select(func.count(AttemptAnswer.id)).join(Attempt).where(
+        Attempt.device_id == device.id, AttemptAnswer.chosen_index.is_not(None),
+        AttemptAnswer.answered_at >= start_of_today)) or 0
+    week = [{'date': (today - timedelta(days=i)).isoformat(), 'weekday': (today - timedelta(days=i)).weekday(),
+             'active': (today - timedelta(days=i)) in days} for i in range(6, -1, -1)]
+    # last 4 full weeks, Monday-aligned, for the activity calendar on /progress
+    first = today - timedelta(days=today.weekday() + 21)
+    month = [{'date': (first + timedelta(days=i)).isoformat(), 'active': (first + timedelta(days=i)) in days,
+              'future': first + timedelta(days=i) > today} for i in range(28)]
+    active_days_28 = sum(1 for d in month if d['active'])
     mocks = db.scalars(select(Attempt).where(Attempt.device_id == device.id, Attempt.mode == 'mock',
                                              Attempt.finished_at.is_not(None)).order_by(Attempt.finished_at.desc()).limit(10))
     return {'attempted': attempted, 'correct': correct,
             'accuracy': round(100 * correct / attempted) if attempted else None,
             'topics': sorted(topics, key=lambda t: -t['attempted']), 'weak_topics': weak[:5],
-            'streak_days': streak, 'due_reviews': due,
+            'streak_days': streak, 'due_reviews': due, 'today_answered': today_answered, 'week': week,
+            'month': month, 'active_days_28': active_days_28, 'subjects': subjects,
             'mocks': [{'id': m.id, 'title': m.title, 'score': m.score, 'max_score': m.max_score,
+                       'pct': max(0, round(100 * (m.score or 0) / m.max_score)) if m.max_score else 0,
                        'date': m.finished_at.date().isoformat()} for m in mocks]}
 
 
@@ -376,9 +398,10 @@ def jobs_query(qualification=None, category=None, status='active', today=None):
     elif status == 'upcoming':   # from official exam calendars
         q = q.where(Job.job_type == 'upcoming', Job.start_date >= today - timedelta(days=7)).order_by(Job.start_date)
     elif status == 'updates':   # admit cards, results, answer keys from official boards
-        q = q.where(Job.job_type.in_(('admit', 'results', 'answer'))).order_by(Job.created_at.desc())
+        # Old imports carry headlines copied from aggregator sites — only official items here.
+        q = q.where(Job.job_type.in_(('admit', 'results', 'answer')), Job.status == 'verified').order_by(Job.created_at.desc())
     else:   # 'undated' — recruitment without a machine-readable deadline yet
-        q = q.where(Job.last_date.is_(None), Job.job_type == 'latest').order_by(Job.created_at.desc())
+        q = q.where(Job.last_date.is_(None), Job.job_type == 'latest', Job.status == 'verified').order_by(Job.created_at.desc())
     if category:
         q = q.where(Job.category == category)
     if qualification in LEVEL_RANK:

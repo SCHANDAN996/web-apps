@@ -124,7 +124,7 @@
         .then(function (r) {
           q.state = { chosen: chosen, answer_index: r.answer_index, solution: r.solution, correct: r.correct };
           justRevealed = true;
-          if (navigator.vibrate && !r.correct) navigator.vibrate(60);
+          if (navigator.vibrate) navigator.vibrate(r.correct ? 12 : [40, 50, 40]);   // light tick / double buzz
           render();
         })
         .catch(function (err) { btn.disabled = false; SS.toast(err.message); });
@@ -365,7 +365,7 @@
     function check(e) {
       e.currentTarget.disabled = true;
       SS.api('POST', '/api/v1/revise/' + cards[i].id, { chosen_index: chosen })
-        .then(function (r) { revealed = r; justRevealed = true; render(); })
+        .then(function (r) { revealed = r; justRevealed = true; if (navigator.vibrate) navigator.vibrate(r.correct ? 12 : [40, 50, 40]); render(); })
         .catch(function (err) { SS.toast(err.message); render(); });
     }
     render();

@@ -241,6 +241,80 @@
       practiceForm.querySelector('[type=submit]'));
   });
 
+  // ---------------------------------------------------------------- practice: subject tabs + topic search
+  var secs = document.querySelectorAll('.subject-sec');
+  if (secs.length) {
+    document.documentElement.classList.add('js');
+    var tabs = document.querySelectorAll('[data-subject-tab]');
+    var search = document.getElementById('topicSearch');
+    var none = document.getElementById('searchEmpty');
+    var current = (location.hash || '').slice(1);
+    try { current = current || localStorage.getItem('ss_subject') || ''; } catch (e) {}
+    if (!document.querySelector('[data-subject="' + current + '"]')) current = secs[0].getAttribute('data-subject');
+    var show = function () {
+      var q = (search && search.value || '').trim().toLowerCase();
+      var anyHit = false;
+      secs.forEach(function (sec) {
+        var rows = sec.querySelectorAll('[data-topic-name]'), hits = 0;
+        rows.forEach(function (li) { var ok = !q || li.getAttribute('data-topic-name').indexOf(q) !== -1; li.classList.toggle('is-hidden', !ok); if (ok) hits++; });
+        var visible = q ? hits > 0 : sec.getAttribute('data-subject') === current;
+        sec.classList.toggle('is-hidden', !visible);
+        if (visible && hits) anyHit = true;
+      });
+      tabs.forEach(function (t) { t.setAttribute('aria-current', String(!q && t.getAttribute('data-subject-tab') === current)); });
+      if (none) none.hidden = !q || anyHit;
+    };
+    tabs.forEach(function (t) {
+      t.addEventListener('click', function (e) {
+        e.preventDefault();
+        current = t.getAttribute('data-subject-tab');
+        try { localStorage.setItem('ss_subject', current); } catch (err) {}
+        if (search) search.value = '';
+        show();
+        history.replaceState(null, '', '#' + current);
+      });
+    });
+    if (search) search.addEventListener('input', show);
+    show();
+  }
+
+  // ---------------------------------------------------------------- continue reading
+  // The chapter page remembers itself; the home plan turns "Read a chapter" into "Continue: <chapter>".
+  var lastKey = 'ss_last_chapter';
+  var chapterMeta = document.querySelector('[data-chapter-url]');
+  var readKey = 'ss_read_chapters';
+  var readList = function () { try { return JSON.parse(localStorage.getItem(readKey) || '[]'); } catch (e) { return []; } };
+  if (chapterMeta) {
+    var curUrl = chapterMeta.getAttribute('data-chapter-url');
+    try { localStorage.setItem(lastKey, JSON.stringify({ url: curUrl, title: chapterMeta.getAttribute('data-chapter-title') })); } catch (e) {}
+    // A chapter counts as read once the reader reaches its end.
+    var markRead = function () {
+      if (innerHeight + scrollY < document.documentElement.scrollHeight - 200) return;
+      var list = readList();
+      if (list.indexOf(curUrl) === -1) { list.push(curUrl); try { localStorage.setItem(readKey, JSON.stringify(list.slice(-500))); } catch (e) {} }
+      window.removeEventListener('scroll', markRead);
+    };
+    window.addEventListener('scroll', markRead, { passive: true });
+  }
+  var readNow = readList();
+  document.querySelectorAll('[data-chapter-link]').forEach(function (a) {
+    if (readNow.indexOf(a.getAttribute('data-chapter-link')) !== -1) {
+      a.classList.add('is-read');
+      var m = a.querySelector('.read-mark'); if (m) m.hidden = false;
+    }
+  });
+  var planRead = document.getElementById('planRead');
+  if (planRead) {
+    try {
+      var last = JSON.parse(localStorage.getItem(lastKey) || 'null');
+      if (last && /^\/books\//.test(last.url)) {
+        planRead.setAttribute('href', last.url);
+        var b = planRead.querySelector('[data-continue-label]');
+        b.textContent = b.getAttribute('data-continue-label') + ': ' + last.title;
+      }
+    } catch (e) {}
+  }
+
   // ---------------------------------------------------------------- book reader settings
   var reader = document.getElementById('reader');
   if (reader) {
@@ -263,6 +337,35 @@
         store('ss_reader_scale', String(scale)); applySize();
       }
     });
+  }
+
+  // Reading progress bar on chapter pages (transform only, one update per frame).
+  var readBar = document.getElementById('readBar');
+  if (readBar) {
+    var ticking = false;
+    var upd = function () {
+      var max = document.documentElement.scrollHeight - innerHeight;
+      readBar.style.transform = 'scaleX(' + (max > 0 ? Math.min(1, scrollY / max) : 1) + ')';
+      ticking = false;
+    };
+    window.addEventListener('scroll', function () { if (!ticking) { ticking = true; requestAnimationFrame(upd); } }, { passive: true });
+    upd();
+  }
+
+  // Appearance: system / light / dark (applied early by theme.js on every page)
+  var themeBtns = document.querySelectorAll('[data-theme-set]');
+  if (themeBtns.length) {
+    var curTheme = function () { try { return localStorage.getItem('ss_theme') || 'system'; } catch (e) { return 'system'; } };
+    var paintBtns = function () { var c = curTheme(); themeBtns.forEach(function (b) { b.setAttribute('aria-pressed', String(b.getAttribute('data-theme-set') === c)); }); };
+    themeBtns.forEach(function (b) {
+      b.addEventListener('click', function () {
+        var v = b.getAttribute('data-theme-set');
+        try { if (v === 'system') localStorage.removeItem('ss_theme'); else localStorage.setItem('ss_theme', v); } catch (e) {}
+        if (v === 'system') document.documentElement.removeAttribute('data-theme'); else document.documentElement.setAttribute('data-theme', v);
+        paintBtns();
+      });
+    });
+    paintBtns();
   }
 
   // ---------------------------------------------------------------- Material 3 feel

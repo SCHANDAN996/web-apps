@@ -263,3 +263,15 @@ def test_jobs_page_defaults_to_first_non_empty_tab(clean_jobs, client):
     db.commit()
     page = client.get('/jobs?qualification=all').text
     assert 'Open right now' in page and 'Admit card out' not in page
+
+
+def test_updates_tab_shows_only_official_items(clean_jobs, client):
+    db = clean_jobs
+    db.add_all([
+        Job(slug='res-official', title='SSC CHSL result', status='verified', job_type='results'),
+        Job(slug='res-legacy', title='X University Result 2026 Out - Direct Link', status='legacy', job_type='results'),
+        Job(slug='undated-legacy', title='Some Vacancy 2026 Apply Online', status='legacy', job_type='latest'),
+    ])
+    db.commit()
+    assert [j['slug'] for j in client.get('/api/v1/jobs?status=updates').json()['jobs']] == ['res-official']
+    assert client.get('/api/v1/jobs?status=undated').json()['jobs'] == []

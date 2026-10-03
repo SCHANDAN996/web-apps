@@ -11,10 +11,10 @@
     {% for c in book.chapters %}
     <li>
       {% if c.readable %}
-      <a class="list-item" href="/books/{{ book.slug }}/{{ c.slug }}">
+      <a class="list-item" href="/books/{{ book.slug }}/{{ c.slug }}" data-chapter-link="/books/{{ book.slug }}/{{ c.slug }}">
         <span class="ch-num" aria-hidden="true">{{ c.number }}</span>
         <span class="grow"><b>{{ L(c.title_hi, c.title_en) }}</b>
-          <span class="xs muted" style="display:block">{{ tr('chapter_n').format(n=c.number) }}</span></span>
+          <span class="xs muted" style="display:block">{% if c.dynamic %}{{ tr('ca_live') }}{% else %}{{ tr('n_parts').format(n=c.sections|length) }}{% if c.meta.as_of %} · {{ tr('facts_as_of').format(year=c.meta.as_of) }}{% endif %}{% endif %}<span class="read-mark" hidden> · {{ tr('chapter_read') }}</span></span></span>
         <svg class="icon chev"><use href="#i-chev"/></svg>
       </a>
       {% else %}

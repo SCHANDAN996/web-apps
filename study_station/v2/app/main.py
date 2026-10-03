@@ -442,7 +442,9 @@ def page_home(request: Request, device: Device | None = Depends(current_device),
                        .group_by(Topic.id).order_by(func.count(Question.id).desc()).limit(6)).all()
     # Today's 10: weakest topic first, else the topic with the most questions.
     today_topic = stats['weak_topics'][0]['id'] if stats['weak_topics'] else (quick[0][0].id if quick else None)
-    return render('home.html', request, device, stats=stats, exams=exams, jobs=jobs, quick=quick,
+    hour = (datetime.utcnow() + services.IST).hour
+    greet = 'greet_morning' if 4 <= hour < 12 else 'greet_day' if hour < 17 else 'greet_evening'
+    return render('home.html', request, device, stats=stats, exams=exams, jobs=jobs, quick=quick, greet=greet,
                   today_topic=today_topic, ca_recent=has_recent_ca(db), has_books=has_books())
 
 
