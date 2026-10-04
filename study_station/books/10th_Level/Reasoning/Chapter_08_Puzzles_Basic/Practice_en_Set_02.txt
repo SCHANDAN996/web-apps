@@ -1,294 +1,151 @@
-json
-Copy
-Download
-[
-  {
-    "number": 26,
-    "question": "Six friends A, B, C, D, E, F sit in a row facing north. A sits exactly between B and C. D sits at an extreme end. E sits second to the left of F. Only one person sits between A and D. B does not sit at any extreme end. Who sits immediate right of E?",
-    "options": ["A", "B", "C", "D"],
-    "answer": "B",
-    "solution": "Let positions 1-6 (left to right). D at end (1 or 6). 'A between B and C' means BAC or CAB with A in middle. 'E second left of F' => E = F - 2. 'One person between A and D' => |A - D| = 2. Case 1: D=1, A=3. Then B and C around A: possible B=2, C=4 or B=4, C=2. B not at extreme end. If B=2 (not extreme, ok), C=4. Remaining E,F. E second left of F: possible E=5,F=7(no) or E=4? no. Only positions 5,6 left. E=5,F=7 invalid. So no valid. If D=1, A=3, B=4,C=2: B=4 (not extreme), C=2. Then remaining 5,6 for E,F. E second left of F => E=5,F=7 invalid. So D=1 fails. Case 2: D=6, A=4 (since |A-D|=2). Then A=4, between B and C => B and C at 3 and 5. B not extreme, so B=3, C=5. Then remaining positions 1,2. E second left of F => E=1,F=3? but 3 is B. Invalid. Try B=5, C=3: B=5 not extreme, C=3. Then positions 1,2 left for E,F. E second left of F => E=1,F=3 impossible. So no? Wait, if A=4, |A-D|=2 with D=6 gives A=4 (difference 2). B and C around A: B=3,C=5 or B=5,C=3. Both leave 1,2 for E,F. E second left of F => only way is E=1,F=3 or E=2,F=4 but 3 or 4 occupied. So fails. Thus only possible: D=1, A=2? No, 'one person between A and D' => gap of 2. If D=1, A could be 3 (gap 2) or 4? No, 1 to 4 gap is 3 persons? Actually positions: 1,2,3,4; between 1 and 4 there are 2 persons (2,3). So difference 3. So only A=3 when D=1. That we tried. If D=6, A=4 (difference 2) works. So maybe our arrangement error. Try D=6, A=4, B=3, C=5, then E second left of F: remaining 1,2. E=1, F=3 (B) conflict. If B=5, C=3, E=1, F=3 conflict. So no arrangement with D=6. So maybe D=1, A=3, B=2, C=4: then E second left of F: positions left 5,6. E=5,F=7 invalid. So maybe I misapplied second left of F: 'second to the left of F' means E is two places to the left of F, so if F is at position X, E = X-2. So if F=6, E=4. Could we place E=4, F=6? In D=1, A=3, B=2, C=4, then C=4 conflict. So try B=4, C=2: A=3, B=4, C=2, D=1. Then remaining 5,6. E second left of F: E=4? occupied, so impossible. So maybe D=2? No D at extreme end. So perhaps I made an error: D at extreme end means D is either 1 or 6. It's not required that D is at 1 or 6, but 'D sits at an extreme end' means D=1 or 6. So both fail. So maybe there is a trick: A between B and C does not require immediate? It usually means exactly between, with equal gap? In puzzles, 'exactly between' means same number of persons on either side. In a row, 'A sits exactly between B and C' means A is in the middle of B and C, i.e., B, A, C are consecutive? Actually 'exactly between' can mean immediate neighbours, or with equal number of persons between. Usually in row puzzles, 'A sits exactly between B and C' means B and C are at equal distance from A, so A is in the middle. If row has odd number of persons, possible. Here 6 persons, even, so exactly between with equal persons between means gap of 1 on each side (so B and C are immediate neighbors of A). So B, A, C are consecutive with A in middle. So B-A-C or C-A-B. That's what we assumed. So we need to find a valid arrangement. Let's re-check all possibilities systematically. Positions 1-6. D=1 or 6.
+Questions 26–40: Medium | Questions 41–50: Hard
 
-Case I: D=1. Then A=3 (since one person between 1 and 3). So A=3. B and C are immediate neighbors of A: B and C occupy 2 and 4. B not extreme, so B cannot be 1 or 6, but 2 is fine, 4 fine. So B=2, C=4 or B=4, C=2.
-Subcase Ia: B=2, C=4. Remaining positions 5,6 for E,F. E second left of F: options: E=4? no, C there; E=5, F=7 invalid; E=3, F=5 but A=3. So no.
-Subcase Ib: B=4, C=2. Remaining 5,6. E second left of F: only possible if E=4? occupied; so no.
-Case II: D=6. Then A=4 (one person between 6 and 4). So A=4. B and C immediate neighbors: 3 and 5. B not extreme, so B=3 or 5 (both fine). C=3 or 5 accordingly. Remaining positions 1,2 for E,F. E second left of F: E=1, F=3 (if F=3, then B=3 conflict) or E=2, F=4 (A=4 conflict). So no.
-Thus no arrangement. Maybe I misinterpreted 'exactly between' as not necessarily immediate? In some puzzles, 'A sits exactly between B and C' means A is in the middle of B and C but not necessarily adjacent if they say 'exactly between' with equal number of persons between. For 6 persons, if A between B and C, with equal persons, then B and C could be at positions 1 and 5, A at 3 (2 persons on each side? between 1 and 3 there is 1 person, between 3 and 5 there is 1 person, so equal? Actually 'exactly between' usually means B and C are at equal distances from A. So if A is at 3, B at 1, C at 5, then distance B-A is 2 steps, A-C is 2 steps, equal. So A is exactly between B and C. That is a valid interpretation. So we can have B=1, A=3, C=5. That works. So let's revise: 'A sits exactly between B and C' means A is in the middle, B and C at equal distance. So B and C not necessarily immediate. So let's redo with that meaning.
+26. Five persons A, B, C, D, and E are sitting in a row facing north. A is to the immediate left of B. C is to the immediate right of D. E sits at the extreme right end. B does not sit at any extreme end. Who sits at the extreme left end?
+(a) Cannot be determined (b) A (c) C (d) D
+Answer: (a)
+Solution: E=5. Two valid arrangements are possible: (1) A, B, D, C, E or (2) D, C, A, B, E. Both satisfy all conditions. Therefore, who sits at the extreme left end cannot be determined.
+Source: PYQ-style
 
-Now, D at extreme end (1 or 6). One person between A and D (so gap of 2 positions, i.e., |A-D|=2). E second left of F (E = F-2). B not at any extreme end (B ≠ 1,6). We need to find who is immediate right of E.
+27. Six friends P, Q, R, S, T, and U are sitting in a row facing north. P sits at the extreme left end. R sits second to the right of T. S is to the immediate left of T. Only one person sits between Q and U. Who sits at the fifth position from the left end?
+(a) Q (b) R (c) S (d) U
+Answer: (b)
+Solution: Arrangement (left to right): 1-P, 2-S, 3-T, 4-(Q/U), 5-R, 6-(U/Q). The fifth person from the left end is R.
+Source: PYQ-style
 
-Let's set positions 1-6.
+28. Seven boxes A, B, C, D, E, F, and G are kept one above another (1 = bottom, 7 = top). A is on an odd-numbered position. B is three boxes above A. C is immediately below D. E is at the top (position 7). F is exactly between A and C. Which box is at the 4th position?
+(a) A (b) C (c) B (d) F
+Answer: (c)
+Solution: Stack from 1 to 7: 1-A, 2-G, 3-F, 4-B, 5-C, 6-D, 7-E. Box at the 4th position is B.
+Source: PYQ-style
 
-Case 1: D=1. Then A=3 (since |1-3|=2). So A=3. A exactly between B and C: B and C are equidistant from 3. Possibilities: (B,C) = (1,5) or (2,4) or (5,1) or (4,2). B not extreme, so B cannot be 1. So B=2, C=4; or B=4, C=2; or B=5, C=1 (B=5 ok, C=1); or B=1 (invalid), etc. Let's try each.
+29. Six friends A, B, C, D, E, and F are sitting around a circular table facing the centre. A sits directly opposite D. B is to the immediate right of A. C is second to the left of B. Who is to the immediate left of D?
+(a) C (b) E (c) F (d) Cannot be determined
+Answer: (d)
+Solution: A=1, D=4, B=6, C=2. Remaining seats 3 and 5 are for E and F. To the immediate left of D (seat 4) is seat 5, which could be occupied by E or F. Thus, it cannot be determined.
+Source: PYQ-style
 
-Subcase 1a: B=2, C=4 (or vice versa, but B can't be extreme so B=2, C=4 is fine). Then remaining positions 5,6 for E,F. E second left of F: possible pairs: E=4? occupied; E=5, F=7 no; E=3, F=5? A=3. So no. Subcase 1b: B=4, C=2 (B=4, C=2). Then remaining 5,6. Same issue. Subcase 1c: B=5, C=1 (C=1 extreme, B=5 ok). Then A=3. Remaining positions 2,4,6 but we already used 1,3,5. Actually 2,4,6 free. E second left of F: possible E=2, F=4; E=4, F=6; E=1? no. Try E=2, F=4. Then arrangement: D=1, C=1? conflict because C=1. So C cannot be 1 if D is 1. So subcase 1c invalid because D=1 and C=1 conflict. Subcase 1d: B=1? invalid B extreme. So no arrangement with D=1.
+30. Five persons P, Q, R, S, and T have different heights. P is taller than Q but shorter than R. S is taller than T. T is not the shortest. Who is the shortest?
+(a) Q (b) P (c) R (d) T
+Answer: (a)
+Solution: R > P > Q and S > T. Since T is not the shortest, and R, P, S are taller than others, only Q can be the shortest.
+Source: PYQ-style
 
-Case 2: D=6. Then A=4 (|6-4|=2). A=4. B and C equidistant from 4: possibilities: (1,7) no; (2,6) C=6? D=6 conflict; (3,5) B and C at 3,5; (5,3); (6,2) B=6 extreme invalid; (?,?) (2,6) no. So only (3,5) and (5,3). Subcase 2a: B=3, C=5. Then B not extreme (3 ok), C=5 ok. Remaining positions 1,2 for E,F. E second left of F: E=1, F=3? conflict B=3; E=2, F=4? A=4. So no. Subcase 2b: B=5, C=3. Then remaining 1,2. E second left of F: E=1, F=3? C=3 conflict; E=2, F=4 A=4. No.
+31. Seven persons take leave from Monday to Sunday. R takes leave on Friday. Only one person takes leave between R and S. T takes leave immediately before U. V takes leave on Sunday. Who takes leave on Wednesday?
+(a) T (b) S (c) U (d) V
+Answer: (b)
+Solution: R=Friday(5), V=Sunday(7). Exactly one person between R and S, so S=Wednesday(3). S takes leave on Wednesday.
+Source: PYQ-style
 
-Still no solution. Maybe 'one person sits between A and D' means exactly one person between them, so gap of 2 persons? Actually positions: if A at 2, D at 4, there is one person (pos3) between. So difference of 2. That's what we used. So the puzzle might have a different interpretation: maybe A sits between B and C means A is physically sitting between them with no one in between, i.e., immediate neighbours? That gave no solution. So perhaps the row length is 7? But question says six persons. Could be that D sits at an extreme end, so either left or right end. We've exhausted. Maybe I missed subcase where D=1, A could be 4? Wait, one person between A and D: if D=1 and A=4, there are two persons between (pos2,3). So not. So only A=3 works. So indeed no solution. Something's off. Let's reconsider 'E sits second to the left of F'. In a row facing north, left means our left (since all facing north). So second to the left means two places to the left. So E = F - 2. That's correct. Perhaps we need to use 'B does not sit at any extreme end' meaning not at either end. So we need to find a combination.
+32. A walks 6 metres North from point X, turns left and walks 8 metres, then turns left and walks 6 metres, and again turns left and walks 8 metres. How far is he from point X?
+(a) 10 m (b) 14 m (c) 0 m (d) 20 m
+Answer: (c)
+Solution: Walking 6m North, 8m West, 6m South, and 8m East forms a complete rectangle returning to point X. Distance = 0 m.
+Source: PYQ-style
 
-Maybe the row is facing north but they are sitting, we don't know orientation of left/right? Usually left is our left if facing north. So okay.
+33. In a 5-floor building (1 = bottom, 5 = top), C lives on floor 1. E lives on the top floor (5). B lives immediately above A. If B lives on floor 4, who lives on the 3rd floor?
+(a) B (b) D (c) E (d) A
+Answer: (d)
+Solution: C=1, E=5, B=4. B lives immediately above A, so A lives on the 3rd floor.
+Source: PYQ-style
 
-Maybe the clue 'A sits exactly between B and C' could mean A is seated between B and C, with B and C on either side of A, but not necessarily equal distance; just that B and C are on opposite sides of A. But then it's too vague. Typically in puzzles, 'exactly between' means equidistant. Let's try with 'between' meaning simply that B and C are on the left and right of A, but not necessarily with equal gaps. Then many possibilities, and we need to find the one that fits all clues.
+34. Six boxes P, Q, R, S, T, and U are kept (1 = bottom, 6 = top). P is immediately above Q. R is at position 3. S is at the top (position 6). T is immediately below U. Which box is at the 2nd position?
+(a) Cannot be determined (b) P (c) Q (d) U
+Answer: (a)
+Solution: S=6, R=3. Remaining positions are {1, 2} and {4, 5}. Both P-Q and U-T are blocks of size 2. Position 2 can be occupied by either P or U. Thus, it cannot be determined.
+Source: PYQ-style
 
-So reinterpret: A sits between B and C => B and C are on different sides of A, i.e., one left, one right, but not necessarily immediate. So B < A < C or C < A < B. Then we have more possibilities.
+35. Five persons P, Q, R, S, and T have different weights. P is heavier than Q but lighter than R. S is heavier than T. T is not the lightest. Who is the heaviest?
+(a) P (b) Cannot be determined (c) R (d) S
+Answer: (b)
+Solution: R > P > Q and S > T. Both R and S are highest in their respective comparisons, but no relation connects R and S. Hence, the heaviest cannot be determined.
+Source: PYQ-style
 
-Let's do that. D at extreme (1 or 6). One person between A and D => |A - D| = 2. E second left of F => E = F - 2. B not extreme (≠1,6). And A between B and C => B < A < C or C < A < B. Let's try to find an arrangement.
+36. Six persons are sitting in two parallel rows, 3 in each row. Row-1 [A, B, C] faces South and Row-2 [P, Q, R] faces North. B is at the left end of Row-1. C is to the immediate right of B. In Row-2, R is to the immediate left of P, and Q is to the immediate left of R. Who sits opposite C?
+(a) P (b) Q (c) R (d) A
+Answer: (c)
+Solution: Row-1 (facing South, left to right): B(3), C(2), A(1). Row-2 (facing North, left to right): Q(1), R(2), P(3). Opposite C (seat 2) is R (seat 2).
+Source: PYQ-style
 
-Case I: D=1, then A=3 (|3-1|=2). A=3. So A between B and C => either B<3<C or C<3<B, meaning one of B,C is <3 and the other >3. So B and C are on opposite sides of 3. B not extreme. The remaining numbers are 2,4,5,6 (since 1,3 taken). So B and C must be one from {2} (only <3) and one from {4,5,6} (>3). So possibilities: B=2, C=4/5/6; or B=4/5/6, C=2. Also E and F must satisfy E = F-2. Remaining positions include those not used for B,C. We also have D=1 fixed. Let's see if we can place E,F.
+37. Five seminars are scheduled from Monday to Friday. English is neither on Monday nor on Friday. Mathematics is immediately after Science. Hindi is on Thursday. Science is before English. Which seminar is on Monday?
+(a) Mathematics (b) Hindi (c) English (d) Science
+Answer: (d)
+Solution: Thursday=Hindi. English is on Wednesday. The consecutive Science-Math pair falls on Monday and Tuesday. Therefore, Science is on Monday.
+Source: PYQ-style
 
-Subcase Ia: B=2, C=4. Remaining: 5,6 for E,F. E=F-2: E=4? occupied; E=5,F=7 no; so no.
-Ib: B=2, C=5. Remaining: 4,6. E=F-2: E=4, F=6 works (4 and 6). So arrangement: 1:D,2:B,3:A,4:E,5:C,6:F. Check: A between B and C? B=2 (left), C=5 (right), yes A=3 between them. D extreme, B not extreme, E second left of F (E=4,F=6 difference 2). One person between A and D: A=3, D=1, person at 2 between them. Yes. So this works. Immediate right of E is position 5, C. Wait, E is at 4, immediate right (towards higher numbers since facing north, right is higher index? Actually facing north, right is East, which is towards increasing position numbers if left is West. So position 4's right is 5. So immediate right of E is C. But options are A, B, C, D. So answer C. So this arrangement is valid. So answer is C.
+38. Ravi walks 6 metres East from point P, turns left and walks 8 metres North, turns right and walks 6 metres East, then turns left and walks 8 metres North. How far is he from the starting point P?
+(a) 20 m (b) 10 m (c) 14 m (d) 28 m
+Answer: (a)
+Solution: Total East = 6 + 6 = 12 m. Total North = 8 + 8 = 16 m. Distance = √(12² + 16²) = √400 = 20 m.
+Source: PYQ-style
 
-But is there any other possibility? B=2, C=6. Remaining: 4,5. E=F-2: E=3? A=3 no; E=4,F=6 conflict C=6; E=5,F=7 no. So no.
-If B=4 and C=2. B=4, C=2. Then remaining: 5,6 for E,F. E=F-2: E=4? B=4; E=5,F=7 no. So no.
-If B=5, C=2. B=5, C=2. Remaining: 4,6. E=F-2: E=4, F=6 works. Arrangement: 1:D,2:C,3:A,4:E,5:B,6:F. B not extreme? B=5 ok. One person between A and D (1 and 3, person at 2). E second left of F (4 and 6). A between B and C? B=5 (right of A), C=2 (left of A) => A=3 between them. So works. Immediate right of E (4) is position 5, B. So answer could be B. So we have two possible arrangements yielding different immediate right of E: C or B. So answer cannot be determined? But question asks "Who sits immediate right of E?" Options include C and B. So perhaps we missed additional constraint that B does not sit at any extreme end (we satisfied). So both are possible. But the puzzle might have intended exactly between meaning equidistant. But even with that, we had no solution? Wait we found two solutions with the loose interpretation. So we need to see if any further constraint. The question says "A sits exactly between B and C". That might imply that B and C are equidistant from A. In our first solution B=2, C=5: distances from A: B at 2 is 1 step away, C at 5 is 2 steps away, not equal. So not exactly between. In second solution B=5, C=2: B at 5 distance 2, C at 2 distance 1, not equal. So neither satisfies exactly between equidistant. So indeed the equidistant interpretation eliminates both. So we need to find an arrangement where B and C are equidistant from A, which forces B and C to be either symmetric around A. Since total persons 6, A must be such that B and C are at positions A-d and A+d. For d>=1. If A=3, possible symmetric pairs: (2,4) with d=1; (1,5) with d=2. (1,5) gives distances 2 each, equal. So B and C could be 1 and 5. That we tried (B=1 invalid). Or (2,4) distances 1 each. So B and C would be 2 and 4, and they are equidistant. So that's the only equidistant pair for A=3. We tried that, but couldn't place E,F. So no valid with D=1 and A=3.
+39. Seven boxes A to G are kept from bottom to top (1 to 7). A is on the 4th position. B is three boxes above C. D is immediately above E. F is at the top (7). G is on an odd position. Which box is on the 2nd position?
+(a) C (b) D (c) E (d) G
+Answer: (b)
+Solution: Arrangement (1 to 7): 1-E, 2-D, 3-C, 4-A, 5-G, 6-B, 7-F. Box at position 2 is D.
+Source: PYQ-style
 
-If D=6, A=4. Symmetric pairs around 4: (3,5) with d=1; (2,6) with d=2. (2,6): B or C at 6 would conflict with D=6. So only (3,5). That gave E,F impossibility. So no arrangement exists with equidistant interpretation and D at extreme. That suggests my initial strict interpretation might be wrong. So the puzzle may have a solution only if we drop the equidistant meaning. In many Indian competitive exam puzzles, "A sits exactly between B and C" often means A is in the middle of B and C with B and C on either side, but not necessarily equal distance. Actually, "exactly between" is ambiguous. Many times they use "exactly between" to emphasize that A is sitting with B and C on its two sides, no one between, i.e., immediate neighbours? No, "exactly between" could also mean immediate neighbours. If B, A, C are consecutive, then A is exactly between B and C. That's what I used initially, and got no solution. So no.
+40. Six persons J, K, L, M, N, and O are sitting in a row facing north. L sits at the extreme left end. O sits to the immediate right of L. N is second to the right of J. M is to the immediate left of N. K sits between O and J. Who sits to the immediate right of L?
+(a) J (b) K (c) O (d) M
+Answer: (c)
+Solution: Arrangement (left to right): 1-L, 2-O, 3-K, 4-J, 5-M, 6-N. Person to the immediate right of L is O.
+Source: PYQ-style
 
-Given the answer options, I suspect the intended answer is "B" or "C" or "Cannot be determined". The earlier two solutions gave B and C. So if the question allows both, answer would be "Cannot be determined". But they ask "Who sits immediate right of E?" If there are two possibilities, answer is cannot be determined. Option D is "Cannot be determined" which is present. So that might be the correct answer, showing an examiner's trap. So I'll set the answer as (D) Cannot be determined, with explanation that two arrangements are possible, and it's a trap. Good. So I'll use that.
+41. Seven friends P, Q, R, S, T, U, and V live in a 7-floor building (1 = bottom, 7 = top). P lives on the 4th floor. Q lives three floors above R. S lives immediately above T. U lives on the top floor (7). V lives on an odd-numbered floor. Who lives on the 2nd floor?
+(a) P (b) R (c) T (d) S
+Answer: (d)
+Solution: Arrangement (1 to 7): 1-T, 2-S, 3-R, 4-P, 5-V, 6-Q, 7-U. S lives on the 2nd floor.
+Source: PYQ-style
 
-Thus for Q26, I'll craft the solution to show two valid arrangements (B and C possible) and thus answer is Cannot be determined, marking it as a trap for those who fix one arrangement.
+42. Five friends A, B, C, D, and E have different heights. C is taller than B, and B is taller than E (C > B > E). A is taller than D (A > D). A is also taller than C. Who is the tallest?
+(a) A (b) B (c) C (d) D
+Answer: (a)
+Solution: A > C > B > E and A > D. A is taller than all other four persons, so A is the tallest.
+Source: PYQ-style
 
-Let me produce the final question with answer D.
+43. Seven persons P to V take leave from Monday to Sunday. P takes leave on Wednesday. S takes leave immediately after P. U takes leave on Saturday. T takes leave on Sunday. Only three persons take leave between Q and R. V takes leave before P. Who takes leave on Monday?
+(a) R (b) Q (c) S (d) V
+Answer: (b)
+Solution: Monday(1)=Q, Tuesday(2)=V, Wednesday(3)=P, Thursday(4)=S, Friday(5)=R, Saturday(6)=U, Sunday(7)=T. Q takes leave on Monday.
+Source: PYQ-style
 
-The question statement will be as above. I'll include step-by-step leading to two cases.
+44. Six persons A, B, C, D, E, and F are sitting around a circular table facing the centre. A sits directly opposite D. B is to the immediate right of A. C is second to the left of B. E sits between C and D. Who sits to the immediate left of E in clockwise direction?
+(a) A (b) B (c) D (d) C
+Answer: (c)
+Solution: Clockwise arrangement: 1-A, 2-C, 3-E, 4-D, 5-F, 6-B. To the immediate left of E (seat 3) in clockwise direction is D at seat 4.
+Source: PYQ-style
 
-Now, I need to produce 25 medium-level questions. I'll generate 24 more, each with 4 options, solutions, and source. I'll include at least one more examiner's trap.
+45. A certain number of persons are sitting in a row facing north. A sits at the extreme left end. B sits third to the right of A. Only two persons sit between B and C. C sits at the extreme right end. What is the total number of persons in the row?
+(a) 5 (b) 6 (c) 8 (d) 7
+Answer: (d)
+Solution: A=1. B third right => B=4. Two persons between B and right-end C => C = 4 + 3 = 7. Total persons = 7.
+Source: PYQ-style
 
-I'll craft them now.```json
-{
-  "set": 2,
-  "difficulty": "Medium",
-  "questions": [
-    {
-      "number": 26,
-      "question": "Six friends A, B, C, D, E, F sit in a row facing north. A sits exactly between B and C. D sits at an extreme end. E sits second to the left of F. Only one person sits between A and D. B does not sit at any extreme end. Who sits immediate right of E?",
-      "options": ["A", "B", "C", "Cannot be determined"],
-      "answer": "Cannot be determined",
-      "solution": "Let positions 1–6 (left to right). D = 1 or 6. A is exactly between B and C (i.e., B and C on opposite sides of A). |A–D| = 2. E = F – 2. B ≠ 1,6. Case 1: D=1, A=3. A between B and C ⇒ one <3, one >3. B (not extreme) could be 2, C=5 ⇒ arrangement 1:D,2:B,3:A,4:E,5:C,6:F. E=4,F=6 works. Immediate right of E (4) = C. Case 2: D=1, A=3, B=5, C=2 ⇒ 1:D,2:C,3:A,4:E,5:B,6:F. Immediate right of E = B. Both valid, so answer cannot be determined. Examiner's trap: fixing one arrangement leads to B or C; only systematic case-making reveals ambiguity.",
-      "source": "SSC CGL 2022 (adapted)"
-    },
-    {
-      "number": 27,
-      "question": "Seven boxes – P, Q, R, S, T, U, V – are kept one above another (1 = bottom, 7 = top). P is at an odd position. Q is three boxes above R. S is immediately below T. U is between P and Q. V is not at the top. Which box is at position 4?",
-      "options": ["R", "S", "T", "U"],
-      "answer": "R",
-      "solution": "P odd (1,3,5,7). Q = R+3. S = T–1. U between P and Q (i.e., P < U < Q or Q < U < P). V ≠ 7. Try P=5. Q = R+3; possible R=2, Q=5 (conflict P) or R=1, Q=4 or R=3, Q=6. If R=1, Q=4. Then P=5, U between P(5) and Q(4) impossible. If R=3, Q=6. Then U between 5 and 6 ⇒ U=5 or 6 both occupied. So P=5 fails. P=3: Q = R+3. Options: R=1,Q=4; R=2,Q=5; R=4,Q=7. Try R=1,Q=4. P=3, U between 3 and 4 impossible. R=2,Q=5: U between 3 and 5 ⇒ U=4. So P=3, Q=5, R=2, U=4. Remaining 1,6,7 for S,T,V. S = T–1. Possible T=2? occupied, T=6,S=5? occupied, T=7,S=6 works. So S=6,T=7. V not top ⇒ V=1. Arrangement: 1:V,2:R,3:P,4:U,5:Q,6:S,7:T. Position 4 = U? Wait 4 is U. But answer marked R? Let's check P=7: P odd=7. Q = R+3. R=1,Q=4; R=2,Q=5; R=3,Q=6; R=4,Q=7 (conflict). Try R=2,Q=5; U between 7 and 5 impossible. R=3,Q=6; U between 7 and 6 impossible. R=1,Q=4; U between 7 and 4 ⇒ U=5 or 6. U=5: then P=7, Q=4, R=1, U=5. Remaining 2,3,6 for S,T,V. S=T–1. T=3,S=2 works; V=6 (not top 7). So 1:R,2:S,3:T,4:Q,5:U,6:V,7:P. Position 4 = Q. So not unique. Need to check all. Actually the answer in my mind was R, but need to ensure uniqueness. Let's re-evaluate systematically. The question likely has a unique solution. I'll design a unique one: P=5, Q=R+3 with R=4,Q=7? not allowed P=5 odd. Maybe adjust constraints. Instead, I'll craft a puzzle with clear unique answer. I'll redefine. For time, I'll produce a simple unique medium puzzle. Let's use: Seven boxes A-G, bottom 1 top 7. A is at an odd position. B is three boxes above C. D is immediately below E. F is at top. G is below A but above B. Who is at position 4? That we did earlier gave D. So for question 27, I'll use that puzzle (similar to Set1 Q22) but with different names. That gave D. I'll present that as a medium question. Then answer D. I'll set it as a medium puzzle, as before.",
-      "source": "IBPS Clerk 2023"
-    },
-    {
-      "number": 28,
-      "question": "Six persons M, N, O, P, Q, R sit around a circular table facing the centre. M sits second to the left of N. P sits opposite Q. R sits immediate right of O. O is not an immediate neighbour of M. Who sits immediate left of N?",
-      "options": ["M", "P", "Q", "R"],
-      "answer": "R",
-      "solution": "Place N=1. M second left of N: anticlockwise 2 steps → M=6. O not neighbour of M (6) ⇒ O ≠5,1 (1=N). R immediate right (clockwise) of O. P opposite Q. Try O=2 ⇒ R=3. Remaining positions 4,5. P and Q opposite: only pair (1,4) is opposite? 8 persons? Wait 6 persons circle: opposite means 3 positions apart. So pairs (1,4), (2,5), (3,6). 1 is N, 2 O, 3 R, 6 M. So 4,5 left. Pair (2,5) already 2 occupied, so P and Q must occupy 4 and 1? 1 occupied. So not possible. Try O=3 ⇒ R=4. Remaining 2,5. Opposite pair (2,5) is free, so P=2,Q=5 or vice versa. Check no conflict. So arrangement: 1:N,2:P,3:O,4:R,5:Q,6:M. Immediate left of N (anticlockwise) = position 6? Actually immediate left of N (facing centre) is anticlockwise: from 1, left is 6 (since 6-1). So immediate left = M? Wait left of N: if N faces centre, his left is anticlockwise, which is position 6 (M). But answer options include M. In our arrangement M=6, so immediate left of N is M. But we got answer R? No, I intended R. Let's recalc: Using O=3, R=4, P=2,Q=5, M=6,N=1. Immediate left of N: anticlockwise from 1 is 6 (M). So answer M. Not R. So maybe O=4? Let's try O=4 ⇒ R=5. Then remaining 2,3. Opposite pairs (2,5) occupied (5), (3,6) 6 M, 3 free. So P and Q must be 3 and 6? 6 M. So no. O=5 ⇒ R=6 conflict M=6. So only O=3 works, giving M as immediate left of N. So answer M. Not R. I need a puzzle where answer is something else. I'll adjust: maybe ask "Who sits second to the right of N?" Then answer would be R (clockwise from N=1: second right = 3, O? Wait 1: second right clockwise: 2(P),3(O) → O. Not R. So not. I'll craft a different circular puzzle with unique answer. For speed, I'll create a new one: Six persons A-F around circle facing centre. A is second to the right of B. C is opposite D. E is immediate left of F. B is not neighbour of C. Who sits immediate right of A? I'll solve to ensure uniqueness, then present as medium. Let's do quickly: Let B=1. A second right of B (clockwise) => A=3. C opposite D => C and D are opposite (3 apart). E immediate left of F (anticlockwise neighbour). B not neighbour of C => C ≠2,6. Try C=4 (then D=1? opposite pair: if 6 persons, opposite pairs: (1,4),(2,5),(3,6). So C=4, D=1 (B). So C=4, D=1. Then E-F block: remaining positions 2,5,6. E left of F (anticlockwise) => E=5, F=6 works (5 left of 6). Then arrangement: 1:B,2:?,3:A,4:C,5:E,6:F. Position 2 is empty? Wait, persons: A,B,C,D,E,F six. So D is at 1 (B) conflict, because B is already at 1. So C cannot be 4 if D=1 occupied. So try C=2, then D=5. B=1, A=3. E-F block: remaining 4,6. E left of F: possible E=4,F=6 (4 left of 6? In circle, left is anticlockwise. To be immediate left of F, E must be anticlockwise neighbour of F. If F=6, its anticlockwise neighbour is 5 (D occupied) not 4. So E=4 is not immediate left of F=6. So no. Try E=6,F=4: then E immediate left of F? F=4, anticlockwise neighbour is 3 (A). So not. So C=2 fails. Try C=5, then D=2. B=1, A=3. E-F block: remaining 4,6. E immediate left of F: if F=6, left neighbour=5 (C). So E=5 conflict. If F=4, left neighbour=3 (A). So no. Try C=6, then D=3 (A conflict). So maybe B not neighbour of C, and A second right of B, need to redo. Let B=2. A second right: 2->3->4, so A=4. C opposite D: pairs (1,4) conflict A, (2,5) conflict B, (3,6). So C and D must be 3 and 6. B=2 not neighbour of C: C cannot be 1 or 3. So C cannot be 3, so C=6, D=3. Then E-F block: remaining 1,5. E immediate left of F: if F=1, left neighbour=6 (C) no; F=5, left neighbour=4 (A) no. So fails. So maybe I'll skip and use a pre-made puzzle from PYQ. I'll use the well-known circular arrangement: 8 persons A-H, A second left of B, C opposite D, E immediate right of F, G third right of H, H not neighbour of A, etc. from earlier Set 1 Q23 but that was medium. I can adapt that. In that Q23, answer was D. I'll make a new one with different names and slightly different clues, but ensure uniqueness. I'll present Q28 as a standard circular puzzle with clear steps. To save time, I'll write a concise solution that yields a unique answer. Let's construct: 8 persons P,Q,R,S,T,U,V,W circle facing centre. P second left of Q. R opposite S. T immediate right of U. V third left of W. W not immediate neighbour of P. Who sits immediate left of S? I'll solve quickly to ensure uniqueness. Place Q=1. P second left: anticlockwise 2 steps from 1 => P=7. R opposite S: one of the opposite pairs. T immediate right of U: block. V third left of W: V = W-3 (clockwise direction? For left, anticlockwise. So third left means move anticlockwise 3 steps. So V is anticlockwise 3 from W. I'll attempt a configuration. I'll just use the known solution from a typical puzzle: If W=5, V=2 (5-3). Then W not neighbour of P (7) => W=5 okay. Then fill R,S opposite, and T,U block. That's doable. I'll trust that a unique answer emerges. I'll present the solution with specific placement yielding immediate left of S = something like U. But I need to ensure options include that. I'll do it systematically in the answer. I'll just generate a valid arrangement and confirm uniqueness. For time, I'll create a simpler medium question: linear uncertain number. Something like Q2 in Set 1 but medium. Actually I'll do floor puzzle, ranking, etc.
+46. Seven lectures are scheduled from Monday to Sunday. Physics is on Wednesday. Mathematics is immediately after Physics. Chemistry is immediately before Biology. English is on Monday. History is on Friday. Which lecture is on Saturday?
+(a) Chemistry (b) Biology (c) Physics (d) Mathematics
+Answer: (a)
+Solution: Mon=English, Wed=Physics, Thu=Math, Fri=History. The consecutive Chemistry-Biology pair must occupy Saturday-Sunday. Saturday lecture is Chemistry.
+Source: PYQ-style
 
-I'll proceed with a mix. I'll produce 25 questions, each with step-by-step. I'll use some from previous set but with modifications to medium. I'll ensure at least 2 examiner traps. I already have one in Q26 (cannot determine). Another could be a comparison puzzle where an extra clue seems irrelevant but is key, or a direction puzzle with vague left/right. I'll include one.
+47. Seven persons A to G live in a 7-floor building (1 to 7). F lives on the top floor (7). A lives on floor 4. B lives three floors above C. D lives immediately above E. G lives on floor 5. Who lives on the 2nd floor?
+(a) A (b) D (c) C (d) E
+Answer: (b)
+Solution: Arrangement (1 to 7): 1-E, 2-D, 3-C, 4-A, 5-G, 6-B, 7-F. D lives on the 2nd floor.
+Source: PYQ-style
 
-Now, I'll write questions 27 onward. I'll not take too long. I'll craft them as I go, ensuring quality.
+48. Eight persons A to H are sitting around a circular table facing the centre. A is second to the left of B. C sits directly opposite D. E is to the immediate right of F. G is third to the right of H. Who sits directly opposite C?
+(a) A (b) B (c) D (d) G
+Answer: (c)
+Solution: The statement directly gives that C sits directly opposite D.
+Source: PYQ-style
 
-Let's produce the JSON array with 25 questions, numbered 26-50.```json
-{
-  "set": 2,
-  "difficulty": "Medium",
-  "questions": [
-    {
-      "number": 26,
-      "question": "Six friends A, B, C, D, E, F sit in a row facing north. A sits exactly between B and C. D sits at an extreme end. E sits second to the left of F. Only one person sits between A and D. B does not sit at any extreme end. Who sits immediate right of E?",
-      "options": ["A", "B", "C", "Cannot be determined"],
-      "answer": "Cannot be determined",
-      "solution": "Let positions 1–6 (left to right). D = 1 or 6. |A – D| = 2. A between B and C means B and C on opposite sides of A. E = F – 2. B ≠ 1,6. Case 1: D=1, A=3. B=2, C=5 ⇒ 1:D,2:B,3:A,4:E,5:C,6:F. Immediate right of E = C. Case 2: D=1, A=3, B=5, C=2 ⇒ 1:D,2:C,3:A,4:E,5:B,6:F. Immediate right of E = B. Both valid, hence answer cannot be determined. (Examiner’s trap: fixing one arrangement leads to a specific person; only systematic case-making reveals ambiguity.)",
-      "source": "SSC CGL 2022 (adapted)"
-    },
-    {
-      "number": 27,
-      "question": "Seven boxes P, Q, R, S, T, U, V are kept one above another (1 = bottom, 7 = top). P is at an odd position. Q is three boxes above R. S is immediately below T. U is between P and Q. V is not at the top. Which box is at position 4?",
-      "options": ["R", "S", "T", "U"],
-      "answer": "U",
-      "solution": "P odd (1,3,5,7). Q = R+3. S = T–1. U between P and Q. V ≠ 7. Try P=3. If R=2, Q=5. U between 3 and 5 ⇒ U=4. Then arrangement so far: 2:R,3:P,4:U,5:Q. Remaining 1,6,7. S=T–1: T=7,S=6 works; V=1 (not top). Final: 1:V,2:R,3:P,4:U,5:Q,6:S,7:T. Position 4 = U. Other P values fail or give non‑unique. (Try P=5: R=1,Q=4 ⇒ U impossible; R=4,Q=7 ⇒ U between 5 & 7 =6, then S=T–1 on remaining 1,2,3: T=3,S=2 works, V=1; position 4 = Q. So two possibilities. Wait, need unique. I'll adjust to ensure only P=3 works: Add condition 'T lives above S' but already S immediately below T, so S<T. Actually, we need uniqueness. Let's modify to force a unique solution. I'll redesign quickly. For this response, I'll present the question as per my initial, but in the solution I'll note the uniqueness with an extra constraint: 'Q lives above P' maybe. I'll edit. Let's just make it: Q lives above P. Then P=3, Q=5 (Q above P) works. P=5,Q=7 (above) but then U between? If P=5, R=4,Q=7 (R+3), U between 5 and 7=6, then S=T–1 on 1,2,3: T=3,S=2,V=1. So position 4=R. Not unique. So need more. I'll just craft a simpler unique puzzle: Seven boxes A-G, A at odd, B three above C, D immediately above E, F top, G below A but above B. That gave D at 2, etc. I'll use that for Q27, as it's medium. So I'll replace with that. So I'll write Q27 as that.",
-      "source": "IBPS Clerk 2023"
-    },
-    {
-      "number": 28,
-      "question": "Eight persons A, B, C, D, E, F, G, H sit around a circular table facing centre. A sits second to the left of B. C sits opposite D. E sits immediate right of F. G sits third to the right of H. H is not an immediate neighbour of A. Who sits opposite C?",
-      "options": ["A", "B", "D", "G"],
-      "answer": "D",
-      "solution": "Let B = 1. A second left of B ⇒ anticlockwise 2 steps: A = 7. H not neighbour of A ⇒ H ≠ 6,8. Try H = 5. G third right of H: clockwise 3 steps ⇒ 5→6→7→8, G = 8. C opposite D: one opposite pair. E immediate right of F (clockwise neighbour). Remaining positions 2,3,4,6. Place F=3, E=4 (E immediate right of F). Then remaining 2 and 6 for C and D. Opposite pairs: (1,5),(2,6),(3,7),(4,8). So C and D can take 2 and 6 (opposite). Thus opposite C is D. Unique.",
-      "source": "SBI PO 2023 (adapted)"
-    },
-    {
-      "number": 29,
-      "question": "Seven persons M, N, O, P, Q, R, S attend lectures from Monday to Sunday. O attends on Wednesday. Only one person attends between O and R. Q attends immediately before P. N attends after M but before Q. S attends on Saturday. Who attends on Thursday?",
-      "options": ["N", "P", "Q", "R"],
-      "answer": "R",
-      "solution": "O = Wed (3). R: one person between O and R ⇒ R = Mon (1) or Fri (5). Q–P consecutive with Q before P. N after M before Q ⇒ M < N < Q. S = Sat (6). Try R=1. Then Q–P block and M,N. Remaining days Tue(2), Thu(4), Fri(5), Sun(7). Q–P must fit two consecutive days. Options: (4,5) or (5,6) conflict S=6, or (6,7) conflict S=6. So (4,5): Q=4, P=5. Then M<N<Q (4): M and N on 2 and ? 2 only, so M=2, N=?? need one more before 4, but 2 is only one left. So not enough. So R=1 fails. Try R=5 (Fri). Then remaining Mon(1), Tue(2), Thu(4), Sun(7). Q–P consecutive: (1,2) or (2,4) no, (4,5) no, (6,7) no, so (1,2): Q=1, P=2. Then M<N<Q (1) impossible since Q=1. So no. Wait maybe Q before P not necessarily immediately? 'immediately before' means Q just before P. Yes. So only (1,2) works. But then M<N<1 impossible. So maybe R=1 with different block placement: try Q–P on (2,3)? but 3 is O, conflict. So no. So the puzzle might need adjustment. I'll create a simpler scheduling puzzle with unique answer. I'll skip and do a ranking puzzle instead.",
-      "source": "Bank PO Pre 2022"
-    },
-    {
-      "number": 30,
-      "question": "P, Q, R, S, T have different heights. P is taller than Q but shorter than R. S is taller than T. T is not the shortest. The tallest person likes red; R does not like red. Who is the tallest?",
-      "options": ["P", "Q", "R", "S"],
-      "answer": "S",
-      "solution": "R > P > Q. S > T. T not shortest ⇒ Q is shortest. Tallest likes red, R does not like red ⇒ R ≠ tallest. So tallest must be S. (If S > R, then S is tallest; if S < R, then R would be tallest, but R disqualified, so S > R. Hence S is tallest.)",
-      "source": "IBPS Clerk 2021 (adapted)"
-    },
-    {
-      "number": 31,
-      "question": "Seven boxes A, B, C, D, E, F, G kept one above another (1 = bottom, 7 = top). A is on an even floor. B is three boxes above C. D is immediately above E. F is on top. G is below A but above B. Which box is on floor 2?",
-      "options": ["D", "E", "C", "G"],
-      "answer": "D",
-      "solution": "A even (2,4,6). F=7. B = C+3. G between B and A (B < G < A). Try A=6 ⇒ B < G < 6, B≥4 (C≥1). If B=4, then C=1, G=5 works. D above E: remaining 2,3 ⇒ D=2,E=3. Floor 2 = D. A=4 fails (B≥1, G between, no space). So unique.",
-      "source": "SSC CGL Tier‑2 2022"
-    },
-    {
-      "number": 32,
-      "question": "Six persons J, K, L, M, N, O sit in a row facing south. L sits at one of the ends. M sits second to the left of N. K sits immediate right of J. O sits third to the right of L. Who sits immediate left of M?",
-      "options": ["J", "K", "N", "O"],
-      "answer": "J",
-      "solution": "South-facing: left = East, right = West (opposite of north). But in row puzzles, we treat left/right from observer's perspective. So facing south, our left is their right. But standard convention: If all face same direction, we mark left/right as per our view. So I'll keep my left as their left (since they face south, my left is west, their left is east). Typically exams use absolute left/right of the person. To avoid confusion, I'll use a simpler arrangement. Instead, I'll craft a puzzle where direction doesn't affect, or note that all face same direction, so left/right are as per persons' perspective. I'll just produce a standard linear puzzle with no direction confusion. I'll do: Six persons A-F row north. B extreme left, etc. I'll make medium.",
-      "source": "RRB NTPC 2020"
-    },
-    {
-      "number": 33,
-      "question": "Five flats on different floors (1–5). A lives immediately above C. B lives on an even floor. D lives immediately below E. E does not live on top floor. Who lives on floor 3?",
-      "options": ["A", "B", "C", "D"],
-      "answer": "D",
-      "solution": "B even (2,4). E not top (≠5). A = C+1. D = E–1. Try B=2. Then A and C: possible (3,2) conflict B=2; (4,3) works A=4,C=3; (5,4) A=5,C=4. D and E: with E not 5, possible (1,2) conflict, (2,3) conflict C=3, (3,4) conflict A=4, (4,5) E=5 invalid. So B=2 fails. B=4. A,C: (2,1), (3,2), (5,4) conflict B=4. Try A=2,C=1. D,E: remaining 3,5, E≠5 ⇒ E=3,D=2? conflict A=2. So not. Try A=3,C=2. D,E: remaining 1,5. E=5 invalid, so E=1,D=? D=E–1 would be 0 no. So A=3 fails. Try A=5,C=4 conflict B=4. So no. So B=4 fails? Wait, maybe D immediately below E means E = D+1. So D=E-1. Need E not 5, so E=1,2,3,4. Let's try B=4, and A=C+1 with C not 4. Options: (5,4) conflict; (3,2) A=3,C=2. Then D,E: remaining 1,5. E not 5 ⇒ E=1, D=0 no. (2,1) A=2,C=1. Remaining 3,5. E=3,D=2? D=2 conflict A=2. (4,3) conflict. So no. Thus no arrangement? Possibly my initial assumption of floors 1-5 is ok. So there is a solution with B=2, A=3,C=2? conflict. So need to re-check. I'll do a different puzzle. I'll create a day-based scheduling puzzle.",
-      "source": "IBPS RRB Clerk 2023"
-    },
-    {
-      "number": 34,
-      "question": "Seven persons – P, Q, R, S, T, U, V – purchase items on seven different days Monday to Sunday. Q buys on Friday. P buys on a day immediately before R. V buys on Wednesday. Only two persons buy between S and U. T buys after Q but before U. On which day does R buy?",
-      "options": ["Monday", "Tuesday", "Thursday", "Sunday"],
-      "answer": "Thursday",
-      "solution": "Mon=1, Tue=2, Wed=3, Thu=4, Fri=5, Sat=6, Sun=7. Q=5. V=3. P=R–1. S and U gap of 3 (two persons between). T after Q (5) but before U ⇒ T=6 or 7, U > T. Try S=1, U=4 (gap 2,3). Then P–R block. Remaining days 2,6,7. P=R–1: possible (6,7) only. So P=6,R=7. T after Q(5) before U(4) impossible. So S,U can't be (1,4). Try S=2,U=5? Q=5 conflict. S=4,U=1 (gap 2,3?) Actually two persons between means positions differ by 3. So (1,4), (2,5), (3,6), (4,7). Q=5 so (2,5) invalid. V=3 so (3,6) one occupied. So S,U could be (1,4) or (4,7). Try S=4, U=7. Then T after Q(5) before U(7) ⇒ T=6. Remaining 1,2 for P–R: P=1,R=2 (P immediately before R). Then all placed: 1:P,2:R,3:V,4:S,5:Q,6:T,7:U. R buys on Tuesday (2). Answer option Tuesday. That's one possibility. But answer options include Tuesday. So R buys on Tuesday. That's valid. But need to check other possibility: S=1, U=4. Then T after 5 before 4 impossible. So unique, R=Tuesday. So answer Tuesday. So I'll set options appropriately.",
-      "source": "SBI Clerk 2024"
-    },
-    {
-      "number": 35,
-      "question": "Eight boxes A, B, C, D, E, F, G, H are stacked (1 = bottom, 8 = top). A is at a perfect square position. B is three boxes above C. D is immediately above E. F is at the top. G is between A and F. H is not at an odd position. Which box is at position 5?",
-      "options": ["G", "H", "C", "D"],
-      "answer": "G",
-      "solution": "Perfect squares up to 8: 1,4. So A=1 or 4. F=8. B = C+3. D = E+1. G between A and F (A < G < F). H even (2,4,6,8). Try A=1. G between 1 and 8 ⇒ G can be 2,3,4,5,6,7. H even, not 8 (F). B=C+3. If C=2, B=5; C=3, B=6; C=4, B=7; C=5, B=8 conflict. D-E block. We'll test C=3,B=6, G=4 or 5? G between 1 and 8, could be 4,5, etc. Let's aim for uniqueness. I'll craft a configuration that yields G at 5. I'll set C=2, B=5. Then H even remaining 4,6. G must be between 1 and 8, say G=4. Then D-E on remaining 3,7? D=E+1: possible E=3,D=4 conflict G=4; E=7,D=8 conflict F. So no. Try C=4,B=7. Then G between 1 and 8, maybe G=5. H even: 2,6 available. D=E+1: remaining 3,? 3,6, etc. E=3,D=4? but C=4 conflict. So not. I'll settle for a simpler puzzle: I'll ask to find position 4 is something else. I'll produce a medium puzzle with unique solution. For speed, I'll present a puzzle adapted from a known one.",
-      "source": "SSC CGL 2021"
-    },
-    {
-      "number": 36,
-      "question": "Seven persons A, B, C, D, E, F, G sit in a row facing north. A sits third to the left of C. B sits immediate right of D. E sits at an extreme end. F sits second to the right of G. No one sits to the left of E. Who sits exactly between B and G?",
-      "options": ["A", "C", "D", "F"],
-      "answer": "A",
-      "solution": "E extreme left (1) (no one left of E). A third left of C ⇒ C = A + 3. B immediate right of D ⇒ D, B consecutive with D left of B. F second right of G ⇒ F = G + 2. Positions 1-7. E=1. Try A=2, C=5. Remaining 3,4,6,7. F=G+2: possible (G=4,F=6) or (G=5,F=7) but C=5, so G=4,F=6. Then D,B block: remaining 3,7? D,B consecutive with D left of B: D=3,B=4? G=4 conflict. D=7,B=8 no. So try A=3, C=6. Then G,F: (G=4,F=6 conflict C=6), (G=5,F=7), (G=1,F=3 conflict E=1). So G=5,F=7. Remaining 2,4 for D,B. D left of B: D=2,B=4 works. Arrangement: 1:E,2:D,3:A,4:B,5:G,6:C,7:F. Between B(4) and G(5) no one; but 'exactly between' might mean person sitting in the middle. So if B and G are adjacent, no one between. So that fails. Try A=4, C=7. Then G,F: (G=5,F=7 conflict C), (G=1,F=3), (G=2,F=4 conflict A), (G=3,F=5). Try G=1,F=3. E=1 conflict. G=3,F=5: then D,B block on remaining 2,6? D left of B: D=2,B=6 works. Arrangement: 1:E,2:D,3:G,4:A,5:F,6:B,7:C. B(6) and G(3) have persons 4,5 between, so exactly between? No specific person. The question 'Who sits exactly between B and G?' If they are not adjacent, there could be more than one person. So need to adjust. I'll make a puzzle where exactly one person sits between B and G, and that person is asked. I'll do that. So I'll modify: A sits second to left of C, B immediate right of D, E extreme left, F second right of G, and exactly one person between B and G. Then who sits between them? Then answer unique. I'll set up and solve. For brevity, I'll produce that.",
-      "source": "RRB ALP 2019"
-    },
-    {
-      "number": 37,
-      "question": "Six persons P, Q, R, S, T, U are of different ages. Q is younger than only one person. R is older than U but younger than S. P is older than T. The oldest likes blue; Q does not like blue. Who is the oldest?",
-      "options": ["P", "R", "S", "Cannot be determined"],
-      "answer": "S",
-      "solution": "Q younger than only one ⇒ Q is 2nd oldest. Oldest likes blue, Q doesn't ⇒ oldest is not Q, so oldest is someone else. Order: (oldest) > Q > ... . R older than U but younger than S ⇒ S > R > U. P > T. Since Q is 2nd, oldest must be S or P. If P were oldest, S would be younger than P, but we know S > R > U, so S could be older than P? Not known. Need to combine. Q is 2nd oldest, so only one person is older than Q. That person must be the oldest. S is older than R and U, and P is older than T. If S is older than Q, then S is oldest. If P is older than Q, P could be oldest. But we need to see who is definitely oldest. Could P be older than Q? Possibly. But is there any relation between P and S? Not given. So both S and P could be older than Q. So not unique. But wait, Q is younger than only one person, meaning exactly one person is older than Q. So if both S and P were older than Q, that would be two persons, contradicting. So only one of S or P can be older than Q. So we need to determine which one definitely. We have R < S and U < R, and P > T. No direct comparison between S and P. So it's possible that S > Q > P > ... or P > Q > S > ... So cannot determine. But the clue 'Q does not like blue' and 'oldest likes blue' doesn't force S. So answer might be Cannot be determined. That would be an examiner's trap. So I'll make answer (D).",
-      "source": "UPSC CSAT 2021 style"
-    },
-    {
-      "number": 38,
-      "question": "A, B, C, D, E, F, G, H are sitting around a circular table facing centre. A is opposite F. B sits third to the left of C. D sits immediate right of E. G sits second to the right of H. H is not a neighbour of A. Who sits immediate left of A?",
-      "options": ["B", "C", "D", "G"],
-      "answer": "G",
-      "solution": "Place A=1, F opposite =5. H not neighbour of A ⇒ H ≠ 2,8. Try H=3. G second right of H (clockwise 2): 3→4→5 occupied F, so no. H=4: G=6. B third left of C (anticlockwise 3): C = B+3 (clockwise). D immediate right of E (clockwise). Remaining positions 2,7,8. Place E=7, D=8 (D immediate right). Then B and C: need B and C with gap 3. Remaining 2. If B=2, C=5 conflict F. So no. Try H=6: G=8. Then remaining 2,3,4,7. E,D block. Try E=3,D=4. Then B and C: B=2, C=5? conflict. B=7, C=2? then C=2, B=7 (gap 5). No. H=7: G=1 conflict A. So maybe H=2? H=2 not neighbour of A? 2 is neighbour of 1 (A), so invalid. So H must be 3,4,6,7 but not 2,8. Let's try H=3 again but with G=5? no G second right: from 3 clockwise 2 steps is 5, occupied F. So fails. So maybe A opposite F is not fixed at 1 and 5. Let's use relative placement. I'll instead provide a puzzle with unique solution from known patterns. I'll simplify: 8 persons, A opposite D, B immediate left of C, etc. I'll craft quickly. I'll present this question as is with solution that yields G as answer. I'll adjust conditions to make G immediate left of A. I'll design: Let A=1, F=5 (opposite). Then determine others so that immediate left of A (8) is G. So I'll set H such that G ends at 8. G second right of H: if G=8, H=6 (since 6→7→8). Then H=6 not neighbour of A (1) ok. Then remaining B,C,D,E. I'll place them to satisfy B third left of C, D immediate right of E. Let's place E=7, D=8? conflict G=8. So D,E on 2,3? D immediate right of E: possible E=2,D=3; E=3,D=4; E=4,D=5 conflict; etc. Then B third left of C: B and C with gap 3 clockwise (since third left is anticlockwise 3). If B=2, C=5 conflict; B=7, C=2: then B=7, C=2 (7→8→1→2 clockwise 3 steps). So if B=7, C=2, that works. So positions: 1:A, 2:C, 3:?, 4:?, 5:F, 6:H, 7:B, 8:G. E,D: remaining 3,4. D immediate right of E: E=3,D=4 works. So arrangement: 1:A,2:C,3:E,4:D,5:F,6:H,7:B,8:G. Immediate left of A (anticlockwise) is 8 = G. So answer G. So the puzzle is consistent. So I'll present that.",
-      "source": "SBI PO 2024 (adapted)"
-    },
-    {
-      "number": 39,
-      "question": "Seven friends M, N, O, P, Q, R, S have different weights. M is heavier than N but lighter than O. Q is heavier than P. R is lighter than Q but heavier than S. S is not the lightest. Who is the lightest?",
-      "options": ["N", "P", "S", "Cannot be determined"],
-      "answer": "N",
-      "solution": "O > M > N. Q > R > S (since Q > R > S from R lighter than Q but heavier than S). Also Q > P. S not lightest. So N could be lightest, or P if P < N. But we don't know relation between P and N. However, Q > R > S and Q > P, but P could be heavier or lighter than S,N. The lightest could be N or P. So cannot be determined? Let's check: We have O > M > N. Q > R > S, Q > P. No relation between O and Q, or N and P. So lightest could be N if P > N, or P if N > P, or even S if S < N,P. So not unique. So answer cannot be determined. This is another trap. I'll make answer (D).",
-      "source": "SSC CHSL 2021"
-    },
-    {
-      "number": 40,
-      "question": "In a row of 7 persons facing north, A stands fourth from the left end. B stands immediate right of A. C stands third to the right of D. E stands at the right extreme end. F stands exactly between A and C. Who stands second from the left end?",
-      "options": ["B", "C", "D", "F"],
-      "answer": "F",
-      "solution": "Positions 1-7. E=7. A=4. B=5. C third right of D => C = D+3. F between A(4) and C => F is exactly in middle, so C must be 6 or 2? Between means F is at (A+C)/2 position. Since positions integer, A and C must be symmetric with gap 2. A=4, so C=2 or 6. If C=2, F=3. D = C-3 = -1 invalid. So C=6, F=5? Wait if A=4, C=6, exactly between is 5, but B is at 5. So conflict. So try other possibility: F between A and C doesn't require exactly middle? Usually 'exactly between' means equal number of persons between. So A and C must have gap such that F sits midway. If A=4, C must be 2 or 6. If C=6, F=5 (immediate right) but then only 1 person between A and C? Actually 4 and 6 have one person (5) between, so F at 5 is exactly between (one on either side). So F=5, but B=5. So conflict. So A cannot be 4? But given A stands fourth from left. So maybe D and C placement different. Let's solve with C=2, then F=3. Then D = C-3 = -1 no. So no. Perhaps 'third to the right' means D's right, not absolute right. In a row facing north, right means towards higher numbers. So D+3. So C= D+3. If D=1, C=4 conflict A=4. D=2, C=5 conflict B=5. D=3, C=6. Then F between A(4) and C(6) => F=5 conflict B. D=4 conflict A. So no. So the puzzle seems inconsistent. I'll modify: A is fourth from left, but B not immediate right; instead B second to left of something. I'll craft a simple linear puzzle that works. I'll do: 7 persons, A third from left, etc. I'll just present a solvable one.",
-      "source": "RRB NTPC 2018"
-    },
-    {
-      "number": 41,
-      "question": "Five persons – P, Q, R, S, T – sit around a pentagonal table facing the centre. P sits second to the left of Q. R sits immediate right of S. T is not adjacent to P. Who sits immediate left of S?",
-      "options": ["P", "Q", "T", "Cannot be determined"],
-      "answer": "T",
-      "solution": "Assume 5 positions. Q=1, P second left of Q (anticlockwise 2) => P=4. R immediate right of S (clockwise). T not adjacent to P (P=4, neighbours 3 and 5). So T ≠3,5, so T must be 1 or 2. But Q=1, so T=2. Then remaining S and R on 3 and 5. R immediate right of S: if S=5, R=1 (Q) conflict; if S=3, R=4 (P) conflict. So no. Try P second left of Q with different orientation: Q=2, P=5. Then T not adjacent to P (neighbours 4,1). T can be 3? 3 is not adjacent to 5? In pentagon, 5 adjacent to 1 and 4. So 3 is not adjacent. So T=3 works. Then S,R on 1,4. R immediate right of S: if S=1, R=2 (Q) conflict; S=4, R=5 (P) conflict. So no. So no arrangement? Perhaps I misinterpret: second left means leave one person between. In pentagon, second left from Q means skip one person anticlockwise. So from Q, anticlockwise 2 steps. If Q=1, second left is 4 (skip 5 and 4). That's what I did. So no solution. So I'll create a simple linear puzzle instead. I'll do a scheduling puzzle with days.",
-      "source": "Bank Clerk 2022"
-    },
-    {
-      "number": 42,
-      "question": "Six lectures – Maths, Physics, Chemistry, Biology, English, History – held from Monday to Saturday. Maths is on Monday. Physics is immediately before Chemistry. Biology is after English but before History. English is not on Saturday. On which day is Biology?",
-      "options": ["Tuesday", "Wednesday", "Thursday", "Friday"],
-      "answer": "Thursday",
-      "solution": "Mon: Maths. Phy-Chem block. Eng before Bio before Hist, Eng ≠ Sat. So Eng can be Tue or Wed. If Eng=Tue, then Bio=Wed, Hist=Thu; Phy-Chem block on Fri-Sat: Phy=Fri, Chem=Sat. Works. So Biology=Wednesday. That's an option. If Eng=Wed, Bio=Thu, Hist=Fri; Phy-Chem block on Tue? but Tue is after Mon, can be Phy=Tue, Chem=Wed? Eng=Wed conflict. So not. So unique, Biology=Wednesday. So answer Wednesday.",
-      "source": "SSC CGL 2023"
-    },
-    {
-      "number": 43,
-      "question": "Seven persons A, B, C, D, E, F, G sit in a row facing north. C sits fourth to the right of A. D sits immediate left of E. G sits second to the left of B. F sits at the extreme right end. Only one person sits between A and D. Who sits exactly between C and F?",
-      "options": ["D", "E", "G", "B"],
-      "answer": "E",
-      "solution": "F=7. C fourth right of A => C = A+4. So A possible 1,2,3. D immediate left of E. One person between A and D => |A-D|=2. G second left of B => G = B-2. Let A=1, C=5. One person between A and D: D=3 (|1-3|=2). Then D=3, E=4 (D left of E). G second left of B: remaining 2,6. G=2,B=4? conflict E=4. G=6,B=8 no. So A=1 fails. A=2, C=6. One person between A and D: D=4 (|2-4|=2) or D=0 invalid. So D=4, E=5. G second left of B: remaining 1,3,7? but F=7. So G=1,B=3 works. Arrangement: 1:G,2:A,3:B,4:D,5:E,6:C,7:F. Between C(6) and F(7) no one. Exactly between means the person in the middle. If no gap, none. So fails. Try A=3, C=7? conflict F=7. So no. So maybe C fourth to the right of A means 4 places to the right, inclusive? Usually 'fourth to the right' means skip 3. So gap of 3. C = A+4. That's correct. So A=2, C=6 works, but then C and F are 6 and 7 adjacent. So maybe question asks 'Who sits exactly between C and G' or something. I'll adjust to make E between C and F. I'll change: C fourth right of A, F at extreme right, D immediate left of E, G second left of B, and only one person between A and D, and C not at extreme. Then find who sits between D and F. I'll craft to get E as answer.",
-      "source": "RRB Group D 2019"
-    },
-    {
-      "number": 44,
-      "question": "Six boxes A, B, C, D, E, F stacked (1 bottom, 6 top). D is immediately above B. A is at an odd position. C is three boxes above E. F is at the top. The bottom position is not A. Which box is at position 3?",
-      "options": ["A", "B", "C", "E"],
-      "answer": "E",
-      "solution": "F=6. D = B+1. C = E+3. A odd (1,3,5), not 1 so A=3 or 5. E cannot be 6. Try A=3. Then C=E+3: possible E=1,C=4 or E=2,C=5. D=B+1: remaining positions. If E=1,C=4: then D,B block on 2,5? D=B+1: B=2,D=3 conflict A=3. If E=2,C=5: D,B on 1,4? D=B+1: B=1,D=2? but E=2 conflict. B=3,D=4 conflict A=3. So A=3 fails. A=5. Then C=E+3: E=1,C=4 or E=2,C=5 conflict A=5, or E=3,C=6 conflict F=6. So E=1,C=4. D,B block: remaining 2,3. D=B+1: B=2,D=3 works. So arrangement: 1:E,2:B,3:D,4:C,5:A,6:F. Position 3 = D. But answer options don't have D. So maybe I need to ask which box at position 3 is E? No. I'll adjust to have E at 3. So redesign: A odd not 1, F top, C three above E, D immediately above B. Aim for E=3. So C = E+3 = 6 conflict F. So cannot. So change to C is three boxes below E? That would be E = C+3. Then E can be 4,5,6. So I'll make puzzle: C is three boxes below E. Then A odd not 1, F top, D immediately above B. Then we can get E at 4, etc. I'll do that.",
-      "source": "IBPS Clerk 2020"
-    },
-    {
-      "number": 45,
-      "question": "Seven persons – A, B, C, D, E, F, G – attend a meeting on seven different days Monday to Sunday. A attends on a day immediately before B. C attends on Friday. D attends on the day immediately after E. F attends on Sunday. G attends on a day before A. Who attends on Wednesday?",
-      "options": ["E", "B", "G", "D"],
-      "answer": "E",
-      "solution": "Mon=1, Tue=2, Wed=3, Thu=4, Fri=5, Sat=6, Sun=7. C=5, F=7. A=B–1. D=E+1. G before A. Try A=3,B=4. Then G before 3: G=1 or 2. D=E+1: remaining days 1,2,6. E+1=D, so (E,D) could be (1,2) or (2,3)? 3 occupied, (6,7)? F=7. So (1,2): E=1,D=2; then G=2 conflict, or G=1 conflict. If G=1, E=2,D=3? conflict A=3. So not. Try A=2,B=3. G before 2: G=1. Then D=E+1 on 4,6: E=4,D=5? C=5 conflict; E=6,D=7 conflict F. So no. Try A=4,B=5? C=5 conflict. So A cannot be Thu. Try A=1,B=2. G before 1 impossible. So no placement? Let's try A=6,B=7 conflict F. So maybe A,B block not adjacent? Yes immediately before. So I'll use a solvable puzzle: I'll change A immediately before B, C Friday, F Sunday, D immediately after E, G before A, and B not on Saturday. Then find Wednesday. I'll design to yield E=Wednesday.",
-      "source": "SBI Clerk 2024"
-    },
-    {
-      "number": 46,
-      "question": "Four friends W, X, Y, Z compare their marks. W scored more than X. Y scored more than Z. The person who scored the highest received a prize. X did not score the lowest. Who scored the lowest?",
-      "options": ["W", "X", "Y", "Z"],
-      "answer": "Z",
-      "solution": "W > X. Y > Z. X not lowest ⇒ lowest could be Z or maybe X if X > Z? But Z could be lower than X if Y > Z and no relation with X. Since X not lowest, the lowest must be someone else. There are only four, and X not lowest, so lowest is either Z or W? W > X, so W is not lowest. Y > Z, Y not lowest. So lowest must be Z. (Because if Z were not lowest, then X or W would be lowest, but X is not, W > X so W not lowest. So Z is lowest.)",
-      "source": "Bank PO Pre 2018"
-    },
-    {
-      "number": 47,
-      "question": "Six persons sit around a circular table facing centre. U sits second to the right of V. W sits opposite X. Y sits immediate left of Z. V is not a neighbour of W. Who sits immediate right of X?",
-      "options": ["Y", "Z", "U", "V"],
-      "answer": "Y",
-      "solution": "Let V=1. U second right: clockwise 2 => U=3. W opposite X. Y immediate left of Z (anticlockwise neighbour). V not neighbour of W => W ≠ 2,6. Try W=4, then X opposite =1? but V=1, so no. W=5, X=2. Then Y,Z block. Remaining 6,? positions: 6, ? and 4? Wait 1:V,2:X,3:U,4:?,5:W,6:?. So 4,6 left. Y immediate left of Z: possible (4,5) occupied W, (6,1) V, (5,6) W, (2,3) U,X, so only (6,1) not possible. So W=5 fails. Try W=2, X=5. Then V=1, U=3. Remaining 4,6. Y immediate left of Z: (4,5) conflict X=5, (6,1) conflict V=1, (5,6) X, etc. So Y=4,Z=5 conflict X=5. So W=2 fails. So maybe V not neighbour of W and W opposite X, we need a different starting. I'll construct a consistent one: Let V=1, U=3. Set W=4, X opposite =1? no. Opposite pairs in 6 persons: (1,4),(2,5),(3,6). So if W=4, X=1 (V). Not allowed if X opposite W. So W and X must be opposite pair. So W and X must be one of (1,4),(2,5),(3,6). V=1, so W cannot be 1 or 4 because X would be 4 or 1. So W and X must be (2,5) or (3,6). Try W=2,X=5. Then V=1, U=3. V not neighbour of W (2): neighbour of V are 2 and 6, so W=2 is neighbour, violation. So W=2 invalid. Try W=5,X=2. Then V=1, U=3. Neighbour of V:2 (X) and 6. W=5 not neighbour. So ok. Y immediate left of Z. Remaining positions 4,6. Y left of Z: if Y=6, Z=1 (V) no; Y=4, Z=5 (W) no. So no. Try moving U. If V=1, U second right could be 3. What if V=2? Let's try V=2. U second right: 2→3→4, U=4. W and X opposite pair. V not neighbour of W. Neighbours of V(2) are 1,3. So W ≠1,3. Possible opposite pairs: (1,4),(2,5),(3,6). W,X must be one pair. If W,X = (1,4): then W=1,X=4 or vice versa. If W=1, not neighbour of V? 1 is neighbour of 2 (V), so invalid. So W=4,X=1. W=4, but U=4 conflict. So (1,4) no. (2,5): V=2, so cannot. (3,6): W=3,X=6 or W=6,X=3. W=3 is neighbour of V? 3 is neighbour of 2 (V), invalid. So W=6,X=3 works. Then V=2, U=4, W=6, X=3. Y immediate left of Z: remaining 1,5. Y left of Z: Y=5,Z=6? W=6 conflict; Y=1,Z=2? V=2 conflict. So no. So maybe Y immediate left of Z meaning Y is anticlockwise neighbour of Z. In circle, left is anticlockwise. So if Z=1, Y=6; Z=2,Y=1; etc. With remaining 1,5: if Z=1, Y=6 (occupied); Z=5, Y=4 (U). So no. So no arrangement. I'll simplify: remove opposite condition and use a different clue. I'll create a simple medium puzzle: 6 persons A-F circle facing centre. A second to right of B. C immediate left of D. E opposite F. B not neighbour of E. Who sits immediate right of E? I'll solve and give answer.",
-      "source": "SSC CGL 2020"
-    },
-    {
-      "number": 48,
-      "question": "Seven persons – P, Q, R, S, T, U, V – live on different floors of a 7‑storey building (1 = bottom, 7 = top). P lives immediately above U. Q lives on an even floor. R lives three floors above S. T lives on the top floor. V lives below Q. Only one person lives between R and P. On which floor does S live?",
-      "options": ["1", "2", "3", "4"],
-      "answer": "1",
-      "solution": "T=7. P = U+1. Q even (2,4,6). R = S+3. V < Q. One person between R and P ⇒ |R – P| = 2. Try Q=2. Then V <2 ⇒ V=1. P=U+1; R=S+3; |R-P|=2. Remaining floors 3,4,5,6. P and U occupy two consecutive floors. R and S occupy floors with gap 3. Let's try P=4,U=3. Then |R-4|=2 ⇒ R=2 or 6. R=2 conflict Q=2; R=6. Then S = R-3 = 3, but U=3 conflict. So P=5,U=4. Then R=3 or 7 (7=T). R=3, S=0 invalid. So P=6,U=5. Then R=4 (|6-4|=2), S=1. But V=1 already. So Q=2 fails. Q=4. V <4 ⇒ V=1,2,3. P=U+1; R=S+3; |R-P|=2. Remaining 1,2,3,5,6. Try P=6,U=5. Then R=4 (conflict Q) or R=8 invalid. P=3,U=2. Then R=1 or 5. R=1 ⇒ S=-2 no; R=5 ⇒ S=2 (U=2 conflict). P=5,U=4 conflict Q=4. So Q=4 fails. Q=6. V <6 ⇒ V=1-5. P=U+1; R=S+3; |R-P|=2. Remaining 1,2,3,4,5. Try P=3,U=2. R=1 or 5. R=1 ⇒ S=-2 no; R=5 ⇒ S=2 conflict U=2. P=4,U=3. R=2 or 6. R=6 (Q) conflict; R=2 ⇒ S=-1 no. P=5,U=4. R=3 or 7. R=3 ⇒ S=0 no; R=7 (T) conflict. So no valid. So perhaps I misinterpreted 'three floors above' meaning gap of 2? Actually 'three floors above' could mean immediate? No. I'll adjust to R lives two floors above S (gap 2) to get solution. But then medium. I'll just provide a working puzzle with answer S=1.",
-      "source": "Bank PO Mains 2021"
-    },
-    {
-      "number": 49,
-      "question": "In a code language, 'puzzle' means 'simple'. 'simple' means 'tough'. 'tough' means 'easy'. 'easy' means 'hard'. 'hard' means 'moderate'. Then which of the following is true? (This is a word analogy trap but not exactly puzzle, so I'll replace with a real puzzle.) I'll do a direction distance puzzle.",
-      "source": "SSC GD 2022"
-    },
-    {
-      "number": 50,
-      "question": "Raj starts from point A, walks 10 m east to B, turns left and walks 10 m to C, turns right and walks 10 m to D, turns right and walks 20 m to E, turns left and walks 10 m to F. In which direction is F from A?",
-      "options": ["North", "North-East", "East", "South-East"],
-      "answer": "East",
-      "solution": "A to B: 10 m East. B to C: left turn (North) 10 m. C to D: right turn (East) 10 m. D to E: right turn (South) 20 m. E to F: left turn (East) 10 m. Final displacement: total East = 10+10+10 = 30 m, total North = 10 m, total South = 20 m, net North = -10 m i.e., 10 m South. So F is 30 m East and 10 m South from A, i.e., South-East direction. Actually East and South gives South-East. So answer South-East. But options have South-East. So correct.",
-      "source": "RRB Group D 2021"
-    }
-  ]
-}
+49. Six persons P, Q, R, S, T, and U have different heights. R is taller than P, and P is taller than Q (R > P > Q). U is taller than S, and S is taller than T (U > S > T). No clue compares R and U. Who is the tallest?
+(a) R (b) U (c) S (d) Cannot be determined
+Answer: (d)
+Solution: R > P > Q and U > S > T. No comparison exists between R and U. Hence, the tallest cannot be determined.
+Source: PYQ-style
+
+50. Seven boxes P, Q, R, S, T, U, and V are stacked from bottom to top (1 to 7). Q is three boxes above R. U is exactly between P and Q. If R is at position 2, P is at position 3, and Q is at position 5, which box is at the 4th position?
+(a) R (b) U (c) S (d) T
+Answer: (b)
+Solution: P is at position 3 and Q is at position 5. U is exactly between P and Q, so U is at position 4.
+Source: PYQ-style

@@ -1,205 +1,151 @@
-json
-Copy
-Download
-[
-  {
-    "number": 101,
-    "question": "Seven persons A, B, C, D, E, F, G sit in a row facing north. F sits at the extreme left end. G does not sit at the extreme right end. A sits fourth to the left of G. B sits second to the right of C. D sits immediate left of E. Who sits immediate right of A?",
-    "options": ["B", "C", "D", "E"],
-    "answer": "D",
-    "solution": "Positions 1–7 (left to right). F = 1. G not 7, so G can be 2–6. A = G – 4, so G must be 5 or 6. If G = 6, A = 2. B = C + 2. D = E – 1. Remaining positions 3, 4, 5, 7. B second right of C: possible C = 3, B = 5; C = 5, B = 7. Try C = 3, B = 5. Then D, E on remaining 4, 7: D = 4, E = 5 (conflict B). Try C = 5, B = 7: then D, E on 3, 4: D = 3, E = 4. Works. Arrangement: 1:F, 2:A, 3:D, 4:E, 5:C, 6:G, 7:B. Immediate right of A (2) is D (3). If G = 5, A = 1 (conflict F). So unique.",
-    "source": "SSC CGL 2023 (adapted)"
-  },
-  {
-    "number": 102,
-    "question": "Eight persons A, B, C, D, E, F, G, H sit around a circular table facing the centre. A sits second to the left of B. C sits opposite D. E sits immediate right of F. G sits third to the right of H. B is not an immediate neighbour of C. Who sits opposite H?",
-    "options": ["A", "B", "C", "D"],
-    "answer": "B",
-    "solution": "Place B = 1. A second left: anticlockwise 2 steps → A = 7. W not neighbour of P? Wait, using given letters. G third right of H: clockwise 3 steps from H. Try H = 5 → G = 8. Remaining positions 2, 3, 4, 6. E immediate right of F: place F = 3, E = 4. C opposite D: opposite pairs (1,5), (2,6), (3,7), (4,8). B not neighbour of C ⇒ C ≠ 2, 8. So C, D cannot be (2,6) because 2 is neighbour of 1. So C, D = (3,7) or (4,8). (3,7) has F=3, so C=7, D=3 (F conflict). So C, D = (4,8): E=4, so C=8, D=4. Arrangement: 1:B, 2:?, 3:F, 4:D, 5:H, 6:?, 7:A, 8:C. Remaining 2 and 6 for G? Wait G=8 conflict C. So H=5 failed. Try H=4 → G=7 (A=7 conflict). Try H=2 → G=5. Then C,D not neighbour of B (1) so C≠2,8. Opposite pairs (1,5) B, (2,6), (3,7), (4,8). G=5 so (1,5) taken. E immediate right of F on remaining 3,4,6,7,8. Place F=6, E=7. Then C,D must be (4,8) or (3,7) conflict E. C=4, D=8. Then remaining 3 for something? Actually persons: A=7? A not placed yet. A=7 conflict E. So adjust. After many trials, the valid arrangement is: H=5, G=8, then place F=3,E=4, C,D=2,6 (C=6,D=2) since C not neighbour of B (1). B=1 neighbours 8,2; C=6 is not neighbour. Then A=7 (second left of B). Opposite H (5) is 1 = B. Full arrangement: 1:B,2:D,3:F,4:E,5:H,6:C,7:A,8:G. Opposite H is B.",
-    "source": "SBI PO 2023 (adapted)"
-  },
-  {
-    "number": 103,
-    "question": "Seven persons M, N, O, P, Q, R, S attend lectures Monday to Sunday. M attends on Wednesday. N attends immediately before O. P attends on Saturday. Q attends after R but before S. Only one person attends between M and R. Who attends on Friday?",
-    "options": ["N", "O", "Q", "S"],
-    "answer": "O",
-    "solution": "Mon=1, Tue=2, Wed=3, Thu=4, Fri=5, Sat=6, Sun=7. M=3, P=6. One person between M and R ⇒ |3 – R| = 2 ⇒ R = 1 or 5. N = O – 1. Q after R before S ⇒ R < Q < S. If R = 1, then Q and S from remaining 2,4,5,7 with Q < S. Try N=4, O=5. Then Q=2, S=7 works. Friday (5) = O. If R=5, then Q after 5 impossible because only days left are 7 and maybe 2,4 but Q<S and Q>5 not possible. So unique. Friday = O.",
-    "source": "IBPS Clerk 2022 (adapted)"
-  },
-  {
-    "number": 104,
-    "question": "Seven persons A, B, C, D, E, F, G live on floors 1 to 7 (1 = bottom, 7 = top). A lives on an even floor. B lives three floors above C. D lives immediately above E. F lives on the top floor. G lives below A but above B. Who lives on floor 5?",
-    "options": ["A", "B", "G", "F"],
-    "answer": "G",
-    "solution": "A even: 2,4,6. F=7. B = C + 3. D = E + 1. G between B and A (B < G < A). Try A=6. G between B and 6; B≥4 (C≥1). If B=4, C=1, G=5. D=E+1 on remaining 2,3: D=2, E=3. Arrangement: 1:C, 2:D, 3:E, 4:B, 5:G, 6:A, 7:F. Floor 5 = G. A=4 fails (B<G<4 impossible as B≥4). Unique.",
-    "source": "Bank PO Pre 2023"
-  },
-  {
-    "number": 105,
-    "question": "Five friends P, Q, R, S, T have different heights. P is taller than Q but shorter than R. S is taller than T. T is not the shortest. R is shorter than S. Who is the shortest?",
-    "options": ["P", "Q", "R", "T"],
-    "answer": "Q",
-    "solution": "R > P > Q. S > T, and S > R (R shorter than S). So S > R > P > Q. T not shortest, and T < S. Since Q is already less than P and R, Q must be less than T as well (if T < Q, T would be shortest, contradicting T not shortest). Hence T > Q. Order: S > R > P > T > Q. Shortest = Q.",
-    "source": "SSC CHSL 2021 (adapted)"
-  },
-  {
-    "number": 106,
-    "question": "A boy walks 30 m east, turns left and walks 40 m north, turns left and walks 30 m west. How far is he from his starting point?",
-    "options": ["30 m", "40 m", "50 m", "70 m"],
-    "answer": "40 m",
-    "solution": "Path: East 30, left (North) 40, left (West) 30. Net displacement: East 30 – West 30 = 0; North 40. Distance = 40 m.",
-    "source": "RRB Group D 2019"
-  },
-  {
-    "number": 107,
-    "question": "Six persons sit in two parallel rows: Row1 – A, B, C faces South; Row2 – X, Y, Z faces North. C sits at the extreme left end of Row1. A sits opposite the person who sits immediate right of Y. X sits opposite B. Who sits immediate left of Z?",
-    "options": ["X", "Y", "A", "B"],
-    "answer": "Y",
-    "solution": "Row1 positions 1,2,3 (left to right). Row2 positions 1,2,3 directly opposite. C extreme left ⇒ C=1. X opposite B ⇒ B and X are opposite. A opposite immediate right of Y. For north-facing, immediate right is higher index. Try Y=1, immediate right=2. Then A opposite 2, so A=2 Row1. Then B=3 (remaining). X opposite B=3 ⇒ X=3 Row2. Thus Row2: 1:Y, 2:Z (remaining), 3:X. Immediate left of Z (2) is Y. Works.",
-    "source": "SSC CGL 2020"
-  },
-  {
-    "number": 108,
-    "question": "A certain number of persons sit in a row facing north. A sits 5th from the left end. B sits 4th from the right end. Only one person sits between A and B. What is B's position from the left end?",
-    "options": ["3", "7", "10", "Cannot be determined"],
-    "answer": "Cannot be determined",
-    "solution": "A = 5. B from right = 4 ⇒ B from left = n – 3. One person between ⇒ |5 – (n – 3)| = 2 ⇒ |8 – n| = 2 ⇒ n = 6 or 10. n=6: A=5, B left=3. n=10: A=5, B left=7. Both valid. Hence B's position cannot be uniquely determined. (Examiner’s trap: two possible row lengths.)",
-    "source": "RRB ALP 2020"
-  },
-  {
-    "number": 109,
-    "question": "Six persons P, Q, R, S, T, U sit in a row facing north. P sits second to the left of Q. U sits exactly between P and Q. R sits immediate left of S. T sits at an extreme end. Who sits immediate right of T?",
-    "options": ["P", "R", "U", "Cannot be determined"],
-    "answer": "Cannot be determined",
-    "solution": "P = Q – 2. U exactly between ⇒ U = P + 1 = Q – 1. So P, U, Q are consecutive. T = 1 or 6. Block of three can be (2,3,4), (3,4,5), (4,5,6). Case 1: T=1, block (2,3,4) ⇒ P=2, U=3, Q=4. R immediate left of S on remaining 5,6: R=5, S=6. Immediate right of T(1) is 2 = P. Case 2: T=1, block (4,5,6) ⇒ P=4, U=5, Q=6. R,S on 2,3: R=2, S=3. Immediate right of T(1) = 2 = R. Two different answers. Hence cannot be determined. (Examiner’s trap: multiple arrangements.)",
-    "source": "Bank Clerk 2022"
-  },
-  {
-    "number": 110,
-    "question": "Six persons A, B, C, D, E, F have different salaries. A earns more than B. C earns less than D but more than E. E earns more than F. B earns less than E. Who earns the highest?",
-    "options": ["A", "D", "E", "Cannot be determined"],
-    "answer": "Cannot be determined",
-    "solution": "D > C > E > F, and E > B, A > B. No relation between A and D. A could be above or below D. So highest cannot be determined. (Examiner’s trap: incomplete comparison.)",
-    "source": "UPSC CSAT 2019 (adapted)"
-  },
-  {
-    "number": 111,
-    "question": "Six persons A, B, C, D, E, F sit around a circular table facing the centre. A sits opposite D. B sits immediate right of A. C sits second to the left of B. Who sits immediate left of D?",
-    "options": ["E", "F", "C", "Cannot be determined"],
-    "answer": "Cannot be determined",
-    "solution": "A opposite D ⇒ A and D are 3 apart. Place A=1, D=4. B immediate right (clockwise) of A = 2. C second left of B: anticlockwise 2 from 2 → 2→1→6, so C=6. Remaining E, F at 3 and 5. Immediate left of D (4) anticlockwise is 3, which may be E or F. Not uniquely determined.",
-    "source": "SBI Clerk 2021 (adapted)"
-  },
-  {
-    "number": 112,
-    "question": "Seven boxes A, B, C, D, E, F, G are stacked (1=bottom, 7=top). A is on an even floor. B is three boxes above C. D is immediately above E. F is on the top floor. G is below A but above B. Which box is on floor 2?",
-    "options": ["B", "C", "D", "E"],
-    "answer": "D",
-    "solution": "A even (2,4,6). F=7. B = C+3. D = E+1. G between B and A (B < G < A). Try A=6. G between B and 6; B≥4 (C≥1). If B=4, C=1, G=5. D=E+1 on remaining 2,3: D=2, E=3. Floor 2 = D. Unique.",
-    "source": "SSC CGL Tier-2 2022"
-  },
-  {
-    "number": 113,
-    "question": "Seven persons A, B, C, D, E, F, G attend a meeting Monday to Sunday. A attends on Thursday. B attends immediately before C. D attends on Monday. E attends after F but before G. G attends on Sunday. Only one person attends between A and F. Who attends on Tuesday?",
-    "options": ["F", "E", "B", "C"],
-    "answer": "F",
-    "solution": "Mon=1, Tue=2, Wed=3, Thu=4, Fri=5, Sat=6, Sun=7. D=1, A=4, G=7. One person between A and F ⇒ |4 – F|=2 ⇒ F=2 or 6. E after F before G ⇒ F < E < 7. If F=2, E can be 3,4,5,6. A=4 so E=3 or 5,6. B=C-1 on remaining 5,6 if E=3. Then B=5, C=6 works. So Tuesday=2=F. If F=6, E>6 impossible. So unique.",
-    "source": "IBPS RRB Clerk 2023"
-  },
-  {
-    "number": 114,
-    "question": "Six persons sit in two parallel rows: Row1 A,B,C faces South; Row2 P,Q,R faces North. A sits at the extreme right end of Row1. B sits opposite the person who sits immediate left of R. P sits opposite C. Who sits opposite A?",
-    "options": ["P", "Q", "R", "Cannot be determined"],
-    "answer": "R",
-    "solution": "Row1 positions 1,2,3; Row2 positions 1,2,3. A extreme right ⇒ A=3. C opposite P. B opposite immediate left of R. For north-facing, immediate left of R is R–1. If B=1, then B opposite 1 ⇒ immediate left of R = 1 ⇒ R=2. Then C=2 opposite P ⇒ P=2 conflict R. So B=2, then B opposite 2 ⇒ immediate left of R = 2 ⇒ R=3. Then C=1 opposite P ⇒ P=1. Row2: 1:P, 2:Q (remaining), 3:R. A=3 opposite R. Answer R.",
-    "source": "Bank PO Pre 2021"
-  },
-  {
-    "number": 115,
-    "question": "A man walks 20 m north, turns right and walks 10 m east, turns right and walks 20 m south, turns left and walks 20 m east. How far is he from his starting point?",
-    "options": ["10 m", "20 m", "30 m", "40 m"],
-    "answer": "30 m",
-    "solution": "Path: N20, E10, S20, left from south = East 20. Net N=20-20=0, E=10+20=30. Distance = 30 m.",
-    "source": "RRB Group D 2022"
-  },
-  {
-    "number": 116,
-    "question": "Seven persons P, Q, R, S, T, U, V live on floors 1–7. P lives on an even floor. Q lives immediately above R. S lives three floors above T. U lives on floor 5. V lives below P but above Q. Who lives on floor 3?",
-    "options": ["Q", "R", "V", "T"],
-    "answer": "V",
-    "solution": "P even: 2,4,6. U=5. Q = R + 1. S = T + 3. V between Q and P (Q < V < P). Try P=6. V between Q and 6. Q can be 2,3,4. If Q=2, R=1, V between 2 and 6 ⇒ V=3,4,5. U=5 so V=3 or 4. S=T+3 on remaining 3,4,7 if V=3; then T=4, S=7 works. So V=3. Arrangement: 1:R, 2:Q, 3:V, 4:T, 5:U, 6:P, 7:S. Floor 3 = V.",
-    "source": "IBPS Clerk 2024"
-  },
-  {
-    "number": 117,
-    "question": "Among A, B, C, D, E, each has a different weight. A is heavier than B. C is heavier than D. E is lighter than A but heavier than C. Who is the heaviest?",
-    "options": ["A", "B", "C", "E"],
-    "answer": "A",
-    "solution": "A > E > C > D, and A > B. No one exceeds A. So A is the heaviest.",
-    "source": "SSC CGL 2020"
-  },
-  {
-    "number": 118,
-    "question": "Seven persons A, B, C, D, E, F, G sit in a row facing north. C sits at the extreme left end. B sits immediate right of C. G sits at the extreme right end. A sits second to the left of D. E sits second to the right of F. Who sits immediate left of E?",
-    "options": ["A", "B", "C", "F"],
-    "answer": "A",
-    "solution": "Positions 1–7. C=1, B=2, G=7. A second left of D ⇒ A = D – 2. E second right of F ⇒ E = F + 2. Remaining 3,4,5,6. Try D=6, A=4. Then E=F+2 on 3,5: F=3, E=5 works. Arrangement: 1:C,2:B,3:F,4:A,5:E,6:D,7:G. Immediate left of E(5) is 4 = A.",
-    "source": "RRB NTPC 2021"
-  },
-  {
-    "number": 119,
-    "question": "Seven persons A, B, C, D, E, F, G attend a seminar Monday to Sunday. A attends on Thursday. B attends immediately before C. D attends on Tuesday. E attends after F but before G. G attends on Sunday. Only two persons attend between A and F. Who attends on Friday?",
-    "options": ["A", "B", "C", "E"],
-    "answer": "B",
-    "solution": "Mon=1, Tue=2, Wed=3, Thu=4, Fri=5, Sat=6, Sun=7. D=2, A=4, G=7. Two persons between A and F ⇒ |4 – F|=3 ⇒ F=1 or 7. G=7 so F=1. E after F before G ⇒ 1<E<7. B=C–1. Remaining 3,5,6. E can be 3,5,6. B=C–1: possible B=5, C=6. Then E=3 works. Friday(5) = B.",
-    "source": "SBI PO 2024"
-  },
-  {
-    "number": 120,
-    "question": "Seven persons A, B, C, D, E, F, G live on floors 1–7. A lives on a prime numbered floor. B lives immediately above C. D lives three floors below E. F lives on floor 6. G lives below A but above E. Who lives on floor 4?",
-    "options": ["A", "B", "C", "E"],
-    "answer": "E",
-    "solution": "Prime floors: 2,3,5,7. F=6. G between E and A (E < G < A). B = C + 1. E = D + 3. Try A=7. E<7. E=D+3, D≥1⇒E≥4. If E=4, D=1, G between 4 and 7 ⇒ G=5 or 6(F). G=5 works. B=C+1 on remaining 2,3: B=3, C=2. Arrangement: 1:D,2:C,3:B,4:E,5:G,6:F,7:A. Floor 4 = E.",
-    "source": "IBPS RRB Clerk 2023"
-  },
-  {
-    "number": 121,
-    "question": "Eight persons A, B, C, D, E, F, G, H sit around a circular table facing the centre. A sits second to the left of B. C sits opposite D. E sits third to the right of F. G sits immediate left of H. B is not a neighbour of C. F is not a neighbour of A. Who sits second to the right of H?",
-    "options": ["A", "B", "C", "D"],
-    "answer": "A",
-    "solution": "Place B=1, A second left: anticlockwise 2 ⇒ A=7. H and G: G=H–1. C opposite D. E third right of F: E = F+3 clockwise. B not neighbour of C ⇒ C≠2,8. F not neighbour of A (7) ⇒ F≠6,8. Try H=5, G=4. Remaining 2,3,6,8. Place F=3, E=6. C,D opposite: pairs (1,5)B/H, (2,6)E? 6 is E, (3,7)F/A, (4,8)G. So C,D=(2,6) but 6=E, so C=2,D=6 or vice versa. F=3 not neighbour of A=7 (ok). C=2 is neighbour of B=1? Not allowed. So C=6,D=2. Then C=6, neighbour of A=7? Allowed (neighbour). Arrangement: 1:B,2:D,3:F,4:G,5:H,6:C,7:A,8:E. Second right of H(5): clockwise 5→6→7, i.e., A.",
-    "source": "SBI PO Mains 2022 (adapted)"
-  },
-  {
-    "number": 122,
-    "question": "Eight persons A, B, C, D, E, F, G, H live on floors 1 to 8 (1=bottom, 8=top). A lives on an even floor. B lives immediately above C. D lives three floors below E. F lives on the top floor. G lives between A and F. H lives on floor 5. Only one person lives between B and H. E is not adjacent to G. Who lives on floor 3?",
-    "options": ["A", "B", "C", "D"],
-    "answer": "B",
-    "solution": "F=8, H=5. B = C+1. E = D+3. A even (2,4,6). G between A and 8. |B – H|=2 (one person between) ⇒ B=3 or 7. If B=7, C=6. Then A even: 2 or 4. G between A and 8. If A=2, G=3,4,5,6,7; 6=C, 5=H, 7=B. D=E-3. Try G=4, then remaining 1,3. D=1,E=4 conflict G. G=3, remaining 1,4. D=1,E=4 conflict. So no. B=3, C=2. Then A even: 4,6. G between A and 8. If A=6, G=7. D=E-3 on remaining 1,4. D=1,E=4. Check: E=4 not adjacent to G=7 (neighbours 3,5). Ok. Arrangement: 1:D,2:C,3:B,4:E,5:H,6:A,7:G,8:F. Floor 3 = B.",
-    "source": "Bank PO Mains 2023"
-  },
-  {
-    "number": 123,
-    "question": "Seven persons A, B, C, D, E, F, G sit in a row facing north. A sits fourth to the left of G. B sits second to the right of C. D sits immediate left of E. F sits at the extreme right end. G does not sit at an extreme end. Only one person sits between D and G. Who sits immediate left of F?",
-    "options": ["A", "B", "D", "G"],
-    "answer": "G",
-    "solution": "Positions 1–7. F=7. G not extreme ⇒ G≠1,7. A = G–4. G can be 5 or 6. If G=5, A=1. One person between D and 5 ⇒ D=3 or 7(F). D=3, E=4. B=C+2 on remaining 2,6: C=2,B=4 conflict E. No. If G=6, A=2. One person between D and 6 ⇒ D=4 or 8. D=4, E=5. B=C+2 on remaining 1,3: C=1,B=3 works. Arrangement: 1:C,2:A,3:B,4:D,5:E,6:G,7:F. Immediate left of F(7) is 6=G.",
-    "source": "SSC CGL Tier-2 2023"
-  },
-  {
-    "number": 124,
-    "question": "Eight persons A, B, C, D, E, F, G, H sit around a circular table facing the centre. A sits third to the left of B. C sits opposite D. E sits second to the right of F. G sits immediate left of H. B is not an immediate neighbour of C. F is not an immediate neighbour of D. H is not an immediate neighbour of A. Who sits opposite E?",
-    "options": ["A", "C", "F", "H"],
-    "answer": "H",
-    "solution": "B=1, A third left: anticlockwise 3 ⇒ A=6. G=H–1. C opposite D. E=F+2. B not neighbour C ⇒ C≠2,8. F not neighbour D. H not neighbour A (A=6 neighbours 5,7). Try H=3, G=2. Remaining 4,5,7,8. C,D opposite: pairs (1,5),(2,6),(3,7),(4,8). G=2, A=6 so (2,6) taken. H=3 so (3,7) taken. So C,D=(1,5) or (4,8). F not neighbour D. Try C=4,D=8. Then F,E on remaining 5,7: E=F+2 ⇒ F=5,E=7. F=5 not neighbour D=8 (neighbours 7,1). H=3 not neighbour A=6. Works. Arrangement: 1:B,2:G,3:H,4:C,5:F,6:A,7:E,8:D. Opposite E(7) is 3=H.",
-    "source": "SBI PO 2024 (adapted)"
-  },
-  {
-    "number": 125,
-    "question": "Seven persons A, B, C, D, E, F, G attend a seminar Monday to Sunday. Only one person attends between A and B. Only two persons attend between C and D. C attends before D. D attends on Wednesday. E attends immediately before F. G attends on Sunday. E does not attend on Monday. Who attends on Friday?",
-    "options": ["A", "C", "E", "F"],
-    "answer": "E",
-    "solution": "Mon=1, Tue=2, Wed=3, Thu=4, Fri=5, Sat=6, Sun=7. D=3, G=7. Two persons between C and D ⇒ |C–3|=3 ⇒ C=1 or 6. C before D ⇒ C=1. |A–B|=2 (one person between). E=F–1, E≠1. Remaining 2,4,5,6. A,B pairs: (2,4) or (4,6) or (5,?) no. Try A=4, B=2. Then E,F on 5,6: E=5, F=6. Friday(5)=E. Works.",
-    "source": "IBPS Clerk 2024"
-  }
-]
+Questions 101–115: Medium | Questions 116–125: Hard
+
+101. Seven persons A, B, C, D, E, F, G sit in a row facing north. F sits at the extreme left end. G does not sit at the extreme right end. A sits fourth to the left of G. B sits second to the right of C. D sits immediate left of E. Who sits immediate right of A?
+(a) D (b) B (c) C (d) E
+Answer: (a)
+Solution: Positions 1–7 (left to right). F = 1. G not 7, so G can be 2–6. A = G – 4, so G must be 5 or 6. If G = 6, A = 2. B = C + 2. D = E – 1. Remaining positions 3, 4, 5, 7. B second right of C: possible C = 3, B = 5; C = 5, B = 7. Try C = 3, B = 5. Then D, E on remaining 4, 7: D = 4, E = 5 (conflict B). Try C = 5, B = 7: then D, E on 3, 4: D = 3, E = 4. Works. Arrangement: 1:F, 2:A, 3:D, 4:E, 5:C, 6:G, 7:B. Immediate right of A (2) is D (3). If G = 5, A = 1 (conflict F). So unique.
+Source: PYQ-style
+
+102. Eight persons A, B, C, D, E, F, G, H sit around a circular table facing the centre. A sits second to the left of B. C sits opposite D. E sits immediate right of F. G sits third to the right of H. B is not an immediate neighbour of C. Who sits opposite H?
+(a) A (b) B (c) C (d) D
+Answer: (b)
+Solution: Arrangement (clockwise 1 to 8): 1-B, 2-D, 3-F, 4-E, 5-H, 6-C, 7-A, 8-G. Directly opposite H (position 5) sits B (position 1).
+Source: PYQ-style
+
+103. Seven persons M, N, O, P, Q, R, S attend lectures Monday to Sunday. M attends on Wednesday. N attends immediately before O. P attends on Saturday. Q attends after R but before S. Only one person attends between M and R. Who attends on Friday?
+(a) N (b) Q (c) O (d) S
+Answer: (c)
+Solution: Mon=1, Tue=2, Wed=3, Thu=4, Fri=5, Sat=6, Sun=7. M=3, P=6. One person between M and R ⇒ |3 – R| = 2 ⇒ R = 1 or 5. N = O – 1. Q after R before S ⇒ R < Q < S. If R = 1, then Q and S from remaining 2,4,5,7 with Q < S. Try N=4, O=5. Then Q=2, S=7 works. Friday (5) = O. If R=5, then Q after 5 impossible because only days left are 7 and maybe 2,4 but Q<S and Q>5 not possible. So unique. Friday = O.
+Source: PYQ-style
+
+104. Seven persons A, B, C, D, E, F, G live on floors 1 to 7 (1 = bottom, 7 = top). A lives on an even floor. B lives three floors above C. D lives immediately above E. F lives on the top floor. G lives below A but above B. Who lives on floor 5?
+(a) A (b) B (c) F (d) G
+Answer: (d)
+Solution: A even: 2,4,6. F=7. B = C + 3. D = E + 1. G between B and A (B < G < A). Try A=6. G between B and 6; B≥4 (C≥1). If B=4, C=1, G=5. D=E+1 on remaining 2,3: D=2, E=3. Arrangement: 1:C, 2:D, 3:E, 4:B, 5:G, 6:A, 7:F. Floor 5 = G. A=4 fails (B<G<4 impossible as B≥4). Unique.
+Source: PYQ-style
+
+105. Five friends P, Q, R, S, T have different heights. P is taller than Q but shorter than R. S is taller than T. T is not the shortest. R is shorter than S. Who is the shortest?
+(a) Q (b) P (c) R (d) T
+Answer: (a)
+Solution: R > P > Q. S > T, and S > R (R shorter than S). So S > R > P > Q. T not shortest, and T < S. Since Q is already less than P and R, Q must be less than T as well (if T < Q, T would be shortest, contradicting T not shortest). Hence T > Q. Order: S > R > P > T > Q. Shortest = Q.
+Source: PYQ-style
+
+106. A boy walks 30 m east, turns left and walks 40 m north, turns left and walks 30 m west. How far is he from his starting point?
+(a) 30 m (b) 40 m (c) 50 m (d) 70 m
+Answer: (b)
+Solution: Path: East 30, left (North) 40, left (West) 30. Net displacement: East 30 – West 30 = 0; North 40. Distance = 40 m.
+Source: PYQ-style
+
+107. Six persons sit in two parallel rows: Row1 – A, B, C faces South; Row2 – X, Y, Z faces North. C sits at the extreme left end of Row1. A sits opposite the person who sits immediate right of Y. X sits opposite B. Who sits immediate left of Z?
+(a) X (b) A (c) Y (d) B
+Answer: (c)
+Solution: Row1 positions 1,2,3 (left to right). Row2 positions 1,2,3 directly opposite. C extreme left ⇒ C=1. X opposite B ⇒ B and X are opposite. A opposite immediate right of Y. For north-facing, immediate right is higher index. Try Y=1, immediate right=2. Then A opposite 2, so A=2 Row1. Then B=3 (remaining). X opposite B=3 ⇒ X=3 Row2. Thus Row2: 1:Y, 2:Z (remaining), 3:X. Immediate left of Z (2) is Y. Works.
+Source: PYQ-style
+
+108. A certain number of persons sit in a row facing north. A sits 5th from the left end. B sits 4th from the right end. Only one person sits between A and B. What is B's position from the left end?
+(a) 3 (b) 7 (c) 10 (d) Cannot be determined
+Answer: (d)
+Solution: A = 5. B from right = 4 ⇒ B from left = n – 3. One person between ⇒ |5 – (n – 3)| = 2 ⇒ |8 – n| = 2 ⇒ n = 6 or 10. n=6: A=5, B left=3. n=10: A=5, B left=7. Both valid. Hence B's position cannot be uniquely determined. (Examiner’s trap: two possible row lengths.)
+Source: PYQ-style
+
+109. Six persons P, Q, R, S, T, U sit in a row facing north. P sits second to the left of Q. U sits exactly between P and Q. R sits immediate left of S. T sits at an extreme end. Who sits immediate right of T?
+(a) Cannot be determined (b) P (c) R (d) U
+Answer: (a)
+Solution: P = Q – 2. U exactly between ⇒ U = P + 1 = Q – 1. So P, U, Q are consecutive. T = 1 or 6. Block of three can be (2,3,4), (3,4,5), (4,5,6). Case 1: T=1, block (2,3,4) ⇒ P=2, U=3, Q=4. R immediate left of S on remaining 5,6: R=5, S=6. Immediate right of T(1) is 2 = P. Case 2: T=1, block (4,5,6) ⇒ P=4, U=5, Q=6. R,S on 2,3: R=2, S=3. Immediate right of T(1) = 2 = R. Two different answers. Hence cannot be determined. (Examiner’s trap: multiple arrangements.)
+Source: PYQ-style
+
+110. Six persons A, B, C, D, E, F have different salaries. A earns more than B. C earns less than D but more than E. E earns more than F. B earns less than E. Who earns the highest?
+(a) A (b) Cannot be determined (c) D (d) E
+Answer: (b)
+Solution: D > C > E > F, and E > B, A > B. No relation between A and D. A could be above or below D. So highest cannot be determined. (Examiner’s trap: incomplete comparison.)
+Source: PYQ-style
+
+111. Six persons A, B, C, D, E, F sit around a circular table facing the centre. A sits opposite D. B sits immediate right of A. C sits second to the left of B. Who sits immediate left of D?
+(a) E (b) F (c) Cannot be determined (d) C
+Answer: (c)
+Solution: A opposite D ⇒ A and D are 3 apart. Place A=1, D=4. B immediate right (clockwise) of A = 2. C second left of B: anticlockwise 2 from 2 → 2→1→6, so C=6. Remaining E, F at 3 and 5. Immediate left of D (4) anticlockwise is 3, which may be E or F. Not uniquely determined.
+Source: PYQ-style
+
+112. Seven boxes A, B, C, D, E, F, G are stacked (1=bottom, 7=top). A is on an even floor. B is three boxes above C. D is immediately above E. F is on the top floor. G is below A but above B. Which box is on floor 2?
+(a) B (b) C (c) E (d) D
+Answer: (d)
+Solution: A even (2,4,6). F=7. B = C+3. D = E+1. G between B and A (B < G < A). Try A=6. G between B and 6; B≥4 (C≥1). If B=4, C=1, G=5. D=E+1 on remaining 2,3: D=2, E=3. Floor 2 = D. Unique.
+Source: PYQ-style
+
+113. Seven persons A, B, C, D, E, F, G attend a meeting Monday to Sunday. A attends on Thursday. B attends immediately before C. D attends on Monday. E attends after F but before G. G attends on Sunday. Only one person attends between A and F. Who attends on Tuesday?
+(a) F (b) E (c) B (d) C
+Answer: (a)
+Solution: Mon=1, Tue=2, Wed=3, Thu=4, Fri=5, Sat=6, Sun=7. D=1, A=4, G=7. One person between A and F ⇒ |4 – F|=2 ⇒ F=2 or 6. E after F before G ⇒ F < E < 7. If F=2, E can be 3,4,5,6. A=4 so E=3 or 5,6. B=C-1 on remaining 5,6 if E=3. Then B=5, C=6 works. So Tuesday=2=F. If F=6, E>6 impossible. So unique.
+Source: PYQ-style
+
+114. Six persons sit in two parallel rows: Row1 A,B,C faces South; Row2 P,Q,R faces North. A sits at the extreme right end of Row1. B sits opposite the person who sits immediate left of R. P sits opposite C. Who sits opposite A?
+(a) P (b) R (c) Q (d) Cannot be determined
+Answer: (b)
+Solution: Row1 positions 1,2,3; Row2 positions 1,2,3. A extreme right ⇒ A=3. C opposite P. B opposite immediate left of R. For north-facing, immediate left of R is R–1. If B=1, then B opposite 1 ⇒ immediate left of R = 1 ⇒ R=2. Then C=2 opposite P ⇒ P=2 conflict R. So B=2, then B opposite 2 ⇒ immediate left of R = 2 ⇒ R=3. Then C=1 opposite P ⇒ P=1. Row2: 1:P, 2:Q (remaining), 3:R. A=3 opposite R. Answer R.
+Source: PYQ-style
+
+115. A man walks 20 m north, turns right and walks 10 m east, turns right and walks 20 m south, turns left and walks 20 m east. How far is he from his starting point?
+(a) 10 m (b) 20 m (c) 30 m (d) 40 m
+Answer: (c)
+Solution: Path: N20, E10, S20, left from south = East 20. Net N=20-20=0, E=10+20=30. Distance = 30 m.
+Source: PYQ-style
+
+116. Seven persons P, Q, R, S, T, U, V live on floors 1–7. P lives on an even floor. Q lives immediately above R. S lives three floors above T. U lives on floor 5. V lives below P but above Q. Who lives on floor 3?
+(a) Q (b) R (c) T (d) V
+Answer: (d)
+Solution: P even: 2,4,6. U=5. Q = R + 1. S = T + 3. V between Q and P (Q < V < P). Try P=6. V between Q and 6. Q can be 2,3,4. If Q=2, R=1, V between 2 and 6 ⇒ V=3,4,5. U=5 so V=3 or 4. S=T+3 on remaining 3,4,7 if V=3; then T=4, S=7 works. So V=3. Arrangement: 1:R, 2:Q, 3:V, 4:T, 5:U, 6:P, 7:S. Floor 3 = V.
+Source: PYQ-style
+
+117. Among A, B, C, D, E, each has a different weight. A is heavier than B. C is heavier than D. E is lighter than A but heavier than C. Who is the heaviest?
+(a) A (b) B (c) C (d) E
+Answer: (a)
+Solution: A > E > C > D, and A > B. No one exceeds A. So A is the heaviest.
+Source: PYQ-style
+
+118. Seven persons A, B, C, D, E, F, G sit in a row facing north. C sits at the extreme left end. B sits immediate right of C. G sits at the extreme right end. A sits second to the left of D. E sits second to the right of F. Who sits immediate left of E?
+(a) B (b) A (c) C (d) F
+Answer: (b)
+Solution: Positions 1–7. C=1, B=2, G=7. A second left of D ⇒ A = D – 2. E second right of F ⇒ E = F + 2. Remaining 3,4,5,6. Try D=6, A=4. Then E=F+2 on 3,5: F=3, E=5 works. Arrangement: 1:C,2:B,3:F,4:A,5:E,6:D,7:G. Immediate left of E(5) is 4 = A.
+Source: PYQ-style
+
+119. Seven persons A, B, C, D, E, F, G attend a seminar Monday to Sunday. A attends on Thursday. B attends immediately before C. D attends on Tuesday. E attends after F but before G. G attends on Sunday. Only two persons attend between A and F. Who attends on Friday?
+(a) A (b) C (c) B (d) E
+Answer: (c)
+Solution: Mon=1, Tue=2, Wed=3, Thu=4, Fri=5, Sat=6, Sun=7. D=2, A=4, G=7. Two persons between A and F ⇒ |4 – F|=3 ⇒ F=1 or 7. G=7 so F=1. E after F before G ⇒ 1<E<7. B=C–1. Remaining 3,5,6. E can be 3,5,6. B=C–1: possible B=5, C=6. Then E=3 works. Friday(5) = B.
+Source: PYQ-style
+
+120. Seven persons A, B, C, D, E, F, G live on floors 1–7. A lives on a prime numbered floor. B lives immediately above C. D lives three floors below E. F lives on floor 6. G lives below A but above E. Who lives on floor 4?
+(a) A (b) B (c) C (d) E
+Answer: (d)
+Solution: Prime floors: 2,3,5,7. F=6. G between E and A (E < G < A). B = C + 1. E = D + 3. Try A=7. E<7. E=D+3, D≥1⇒E≥4. If E=4, D=1, G between 4 and 7 ⇒ G=5 or 6(F). G=5 works. B=C+1 on remaining 2,3: B=3, C=2. Arrangement: 1:D,2:C,3:B,4:E,5:G,6:F,7:A. Floor 4 = E.
+Source: PYQ-style
+
+121. Eight persons A, B, C, D, E, F, G, and H live on floors 1 to 8 of a building (1 = bottom, 8 = top). A lives on an even-numbered floor. B lives immediately above C. D lives three floors below E. F lives on the top floor (8). G lives between A and F. H lives on the 5th floor. Only one person lives between B and H. Who lives on the 3rd floor?
+(a) B (b) A (c) C (d) D
+Answer: (a)
+Solution: Floor arrangement (1 to 8): 1-D, 2-C, 3-B, 4-E, 5-H, 6-A, 7-G, 8-F. The person living on the 3rd floor is B.
+Source: PYQ-style
+
+122. Seven boxes A, B, C, D, E, F, and G are stacked one above another (1 = bottom, 7 = top). A is on the 6th floor. B is three boxes above C, and C is on floor 1. D is immediately above E. F is on the 7th floor. G is between A and B. Which box is on the 5th floor?
+(a) B (b) G (c) D (d) F
+Answer: (b)
+Solution: Stack order (1 to 7): 1-C, 2-E, 3-D, 4-B, 5-G, 6-A, 7-F. The box on the 5th floor is G.
+Source: PYQ-style
+
+123. Six persons A, B, C, D, E, and F are sitting in a row facing north. A sits second to the left of B. C sits exactly between A and B. D sits to the immediate right of E. F sits at one of the extreme ends. E does not sit adjacent to A. Who sits to the immediate left of A?
+(a) C (b) D (c) Cannot be determined (d) F
+Answer: (c)
+Solution: Two arrangements are possible: (F, A, C, B, E, D) and (E, D, A, C, B, F), leading to F and D respectively to the immediate left of A. Hence, it cannot be determined.
+Source: PYQ-style
+
+124. Seven persons A, B, C, D, E, F, and G attend a seminar from Monday to Sunday. D attends on Wednesday and G on Sunday. Only one person attends between C and D (C attends before D). E attends immediately before F. Only one person attends between A and B. Who attends on Friday?
+(a) A (b) C (c) F (d) E
+Answer: (d)
+Solution: Schedule: Mon-C, Tue-B, Wed-D, Thu-A, Fri-E, Sat-F, Sun-G. Thus, E attends on Friday.
+Source: PYQ-style
+
+125. Seven persons A, B, C, D, E, F, and G are sitting in a row facing north. F sits at the extreme right end. A sits fourth to the left of G. D sits to the immediate left of E. B sits second to the right of C. G does not sit at any extreme end. Who sits to the immediate left of F?
+(a) A (b) G (c) D (d) E
+Answer: (b)
+Solution: Row arrangement left to right: 1-C, 2-A, 3-B, 4-D, 5-E, 6-G, 7-F. To the immediate left of F(7) sits G(6).
+Source: PYQ-style

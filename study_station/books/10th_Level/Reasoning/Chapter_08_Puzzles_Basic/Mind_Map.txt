@@ -1,57 +1,26 @@
-Diagram
-Code
-Download
-Fullscreen
-Simple Puzzles
-Types
-D.R.A.C.
-Diagram Rules
-Cases
-Left-Right in Circle
-Mnemonics
-Time Management
-Examiner Traps
-Arrangement
-Comparison / Ranking
-Scheduling
-Direction-Distance
-Diagram
-Read Definite clues
-Add Relative clues
-Cross-check
-Row
-Circle
-Comparison
-Max 2 cases
-Eliminate with next clues
-Centre-facing
-Outside-facing
-C-LAC, O-LC
-Ghost trick
-15-second rule
-45-second rule
-2-minute set drill
-Missing "immediately"
-Vague facing direction
-Extra irrelevantinformation
-Draw in 10 sec
-Pin down first
-max 2
-Verify all clues
-Numbered boxes
-Arrows for left/right
-Points with F.C. / F.O.
-Vertical line with >
-Left = Anticlockwise
-Left = Clockwise
-No "immediately" = gapsallowed
-Skip if pattern unclear
-Skip if >2 cases open
-20s diagram
-20s definite
-30s relative/cases
-30s eliminate
-20s answer
-Not assuming zero gap
-Left meaning ambiguous
-Ignore unasked details
+```mermaid
+graph TD
+    R["🧩 सरल पहेलियाँ<br>Simple Puzzles"]
+    R --> T["📂 प्रकार<br>Types"]
+    R --> S["🗝️ हल करने की रणनीति<br>Strategy"]
+    R --> TM["⏱️ समय प्रबंधन<br>Time Management"]
+    R --> TR["⚠️ परीक्षक के जाल<br>Examiner Traps"]
+
+    T --> T1["पंक्ति/स्थान व्यवस्था<br>Linear / Seating"]
+    T --> T2["तुलना व रैंकिंग<br>Comparison / Ranking"]
+    T --> T3["दिन व समय-सारणी<br>Scheduling"]
+    T --> T4["मंज़िल/फ्लोर पहेली<br>Floor Puzzle"]
+
+    S --> S1["चित्र (Diagram) बनाओ"]
+    S --> S2["निश्चित सुराग पहले (Definite first)"]
+    S --> S3["सापेक्ष सुराग जोड़ो (Relative clues)"]
+    S --> S4["केस बनाओ और काटो (Max 2 cases)"]
+
+    TM --> TM1["15-सेकंड नियम: प्रकार पहचानो"]
+    TM --> TM2["45-सेकंड नियम: निश्चित न हो तो छोड़ो"]
+    TM --> TM3["2-मिनट ड्रिल: 3 प्रश्नों का सेट"]
+
+    TR --> TR1["'ठीक' बनाम 'कोई भी' (Immediately vs Any)"]
+    TR --> TR2["अधूरी या अप्रासंगिक जानकारी"]
+    TR --> TR3["दिशा या लिंग मान लेना (No assumptions)"]
+```
