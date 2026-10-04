@@ -113,9 +113,7 @@ Given a 3×3 grid, the rule often works across rows or down columns.
 
 Example:
 
-text
-Copy
-Download
+```
 5   12   13
 7   24   25
 9   40    ?
@@ -124,9 +122,7 @@ Row 1: 5² + 12² = 25+144=169=13² → Pythagoras! Row 2: 7²+24²=625=25². Ro
 
 Another common pattern: row sum constant.
 
-text
-Copy
-Download
+```
 6   8   14
 7   9   16
 8   ?   18
@@ -135,9 +131,7 @@ Row1: 6+8=14. Row2: 7+9=16. Row3: 8+?=18 → ?=10.
 
 🧠 Active Recall: In the matrix below, find ?:
 
-text
-Copy
-Download
+```
 3   5   8
 4   6   10
 5   7   ?

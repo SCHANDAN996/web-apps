@@ -3,7 +3,7 @@
 
 The frequency of Missing Term questions varies across major competitive exams. The table below presents approximate data based on 10-year trends.
 
-Year	SSC CGL	SSC CHSL	Banking (IBPS/SBI)	Railway (NTPC/Group D)	UPSC CSAT
+Year	SSC CGL	SSC CHSL	Banking (IBPS/SBI)	Railway (NTPC/Group D)	Delhi Police / State Exams
 2015	2-3 Qs	1-2 Qs	3-5 Qs (Prelims)	1-2 Qs	0-1 Qs
 2016	2-3 Qs	1-2 Qs	3-5 Qs	1-2 Qs	0-1 Qs
 2017	2 Qs	1-2 Qs	5 Qs	1-2 Qs	0-1 Qs
@@ -16,10 +16,10 @@ Year	SSC CGL	SSC CHSL	Banking (IBPS/SBI)	Railway (NTPC/Group D)	UPSC CSAT
 2024	1-2 Qs	1 Qs	3-5 Qs	1 Qs	0-1 Qs
 2025	1-2 Qs	1 Qs	3-5 Qs	1 Qs	1 Qs (Prelim)
 
-Trend Note: Over the past decade, SSC CGL and CHSL have seen a slight decline (from 2-3 to 1-2 questions per shift), while Banking exams (IBPS PO/Clerk Prelims) consistently feature 3-5 number series questions. Railway and UPSC CSAT show intermittent but predictable occurrences (typically 1 question). The overall importance of this topic remains stable.
+Trend Note: Over the past decade, SSC CGL and CHSL have seen a slight decline (from 2-3 to 1-2 questions per shift), while Banking exams (IBPS PO/Clerk Prelims) consistently feature 3-5 number series questions. Railway and Delhi Police / State Exams show intermittent but predictable occurrences (typically 1 question). The overall importance of this topic remains stable.
 
 2. Sub-Topic Weightage
-Sub-Topic	SSC Weightage	Banking Weightage	Railway Weightage	UPSC Weightage	Pattern Complexity
+Sub-Topic	SSC Weightage	Banking Weightage	Railway Weightage	State Exams Weightage	Pattern Complexity
 Number Series (Simple Difference)	20%	15%	25%	10%	Low
 Number Series (Squares/Cubes)	25%	20%	20%	25%	Medium
 Number Series (Mixed Operations)	20%	30%	15%	25%	Medium-High
@@ -28,7 +28,7 @@ Alphabet Series	10%	5%	15%	10%	Low-Medium
 Alphanumeric Series	10%	5%	10%	10%	Medium
 Matrix-Based	5%	10%	5%	10%	High
 
-Key Insight: In Banking exams, mixed-operation series (e.g., ×2+1, ×3-2) and double series are heavily tested. SSC favors squares/cubes and second-order differences. UPSC CSAT prefers logic-heavy patterns (primes, alternating sequences, date series). Railway balances between simple number and alphabet series.
+Key Insight: In Banking exams, mixed-operation series (e.g., ×2+1, ×3-2) and double series are heavily tested. SSC favors squares/cubes and second-order differences. Delhi Police / State Exams prefers logic-heavy patterns (primes, alternating sequences, date series). Railway balances between simple number and alphabet series.
 
 3. Top 10 High-Yield PYQ Questions with Solutions
 Q1. SSC CGL 2015: 0, 7, 26, 63, ?
@@ -59,26 +59,26 @@ Answer: 367.5
 Psychological Hook/Trap: The use of decimal multipliers (0.5, 1.5, 2.5...) is a "comfort zone" trap. Candidates expect integer multipliers; decimals induce anxiety. Also, the large gap between 105 and 1653.75 tests whether the candidate trusts the pattern even with extreme values.
 Skip Decision (45-sec rule): This is a classic banking pattern. If the decimal multiplier sequence is recognized, solve. Otherwise, skip if it takes more than 45 seconds.
 
-Q5. UPSC CSAT 2012: 2, 6, 30, 210, ?, 30030
+Q5. SSC CGL Tier 2: 2, 6, 30, 210, ?, 30030
 
 Solution: The multipliers are consecutive primes: ×3, ×5, ×7, ×11, ×13. 210 × 11 = 2310.
 Answer: 2310
 Psychological Hook/Trap: The numbers grow rapidly, tempting candidates to try ×2, ×3, ×4... (factorial-like). The examiner exploits the "familiar pattern bias" — most aspirants stop at multiplication by integers and fail to check primes.
-Skip Decision (45-sec rule): Solve within 30-40 seconds if prime multiplication is tested; otherwise, it's a high-difficulty UPSC question and may be skipped.
+Skip Decision (45-sec rule): Solve within 30-40 seconds if prime multiplication is tested; otherwise, it's a high-difficulty State Exams question and may be skipped.
 
-Q6. UPSC CSAT 2019: 132, 129, 124, 117, 106, 93, X
+Q6. SSC CHSL: 132, 129, 124, 117, 106, 93, X
 
 Solution: Differences: –3, –5, –7, –9, –11, –13 (consecutive odd numbers). 93 – 13 = 80.
 Answer: 80
 Psychological Hook/Trap: Negative differences with increasing magnitude can be mistaken for a pattern of subtracting prime numbers (–3, –5, –7, –11...). However, –9 is not prime, so the prime theory fails. The examiner embeds a "near-prime" decoy to trap those who don't verify all terms.
 Skip Decision (15-sec rule): Recognizable second-order pattern — solve in 15-20 seconds.
 
-Q7. UPSC CSAT 2018 (Date Series): 4/12/95, 1/1/96, 29/1/96, 26/2/96, ?
+Q7. SSC CGL Tier 2 (Date Series): 4/12/95, 1/1/96, 29/1/96, 26/2/96, ?
 
 Solution: Each date is 28 days after the previous. 26/2/96 + 28 days = 25/3/96.
 Answer: 25/3/96
 Psychological Hook/Trap: This is a "domain shift" trap — the pattern leaves the realm of pure numbers and enters calendar logic. Candidates fixated on arithmetic miss the 28-day cycle. The leap year (1996) is a subtle distractor; 29/1 confirms February has 29 days, which the examiner uses to test awareness.
-Skip Decision (45-sec rule): If the 28-day cycle isn't spotted quickly, skip. Date series is a rare but high-trap UPSC pattern.
+Skip Decision (45-sec rule): If the 28-day cycle isn't spotted quickly, skip. Date series is a rare but high-trap State Exams pattern.
 
 Q8. RRB NTPC (Alphanumeric): 2A11, 4D13, 12G17, ?, 240M31
 
