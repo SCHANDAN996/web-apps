@@ -1,5 +1,31 @@
-Diagram
-Code
-Download
-Full screen
-Mermaid rendering failed.
+```mermaid
+flowchart TD
+    Const["Indian Constitution: Basic Architecture"]
+
+    Const --> Preamble["Preamble (Philosophy & Soul)"]
+    Const --> Making["Making of the Constitution"]
+    Const --> Sources["Major Borrowed Sources"]
+    Const --> Structure["Structural Blueprint"]
+    Const --> RightsDuties["Rights, Principles & Duties"]
+
+    Preamble --> P_Values["Key Values: Sovereign, Socialist, Secular, Democratic, Republic"]
+    Preamble --> P_Goals["Goals: Justice, Liberty, Equality, Fraternity"]
+    Preamble --> P_Amend["42nd Amendment (1976): Added Socialist, Secular, Integrity"]
+
+    Making --> M_Start["Cabinet Mission (1946) & First Meeting (9 Dec 1946)"]
+    Making --> M_Draft["Drafting Committee: Dr. B. R. Ambedkar (Chairman)"]
+    Making --> M_Dates["Adopted: 26 Nov 1949 | Enforced: 26 Jan 1950 (Republic Day)"]
+
+    Sources --> S_UK["UK: Parliamentary System, Rule of Law, Single Citizenship"]
+    Sources --> S_USA["USA: Fundamental Rights, Judicial Review, Preamble"]
+    Sources --> S_Ireland["Ireland: Directive Principles of State Policy (DPSP)"]
+    Sources --> S_Others["USSR: Fundamental Duties | Australia: Concurrent List"]
+
+    Structure --> St_Parts["25 Parts & 12 Schedules (Originally 22 Parts & 8 Schedules)"]
+    Structure --> St_Sched["Schedules: 7th (3 Lists), 8th (22 Languages), 10th (Anti-Defection)"]
+
+    RightsDuties --> RD_FR["Part III: Fundamental Rights (Arts 12–35, Justiciable)"]
+    RightsDuties --> RD_Writs["Article 32: Writs (Habeas Corpus, Mandamus, Certiorari, etc.)"]
+    RightsDuties --> RD_DPSP["Part IV: DPSP (Arts 36–51, Non-Justiciable, Welfare State)"]
+    RightsDuties --> RD_FD["Part IV-A: Fundamental Duties (Art 51A, 11 Duties)"]
+```
