@@ -1,42 +1,25 @@
-Diagram
-Code
-Download
-Fullscreen
-Number/Letter Series
-Types
-Core Strategies
-Time Management
-Common Traps
-Mnemonics
-Number Series
-Letter Series
-30-Second Scan
-Difference Ladder
-Multiplication/DivisionCheck
-up to 25, 15
-A=1, Z=26
-unbraid odd/even positions
-verify on all terms
-skip if unclear
-move on
-classify in 10 sec
-two patterns, one answer
-hidden cubic/quadratic
-inconsistent gaps in letters
-"AZBY" for opposite letterpairs
-"A to Z and B to Y, sum 27"
-Addition/Subtraction
-Multiplication/Division
-Squares/Cubes
-Mixed Operations
-Double/Alternate Series
-Wrong Term
-Forward/Backward
-sum 27
-Pattern-based
-Letter-to-Number
-up/down/mixed
-slow/fast/explosive
-constant/changing
-1st Difference
-2nd Difference
+```mermaid
+graph TD
+    R["🔢 श्रृंखला परीक्षण<br>Series Test"]
+    R --> N["🔢 संख्या श्रृंखला<br>Number Series"]
+    R --> L["🔤 अक्षर श्रृंखला<br>Letter Series"]
+    R --> M["🔀 मिश्रित श्रृंखला<br>Mixed / Alpha-Numeric"]
+    R --> TR["⚠️ सामान्य जाल<br>Common Traps"]
+
+    N --> N1["अंतर विधि (Difference Ladder)"]
+    N --> N2["वर्ग और घन (n² ± k, n³ ± k)"]
+    N --> N3["गुणा / भाग (×n + k)"]
+    N --> N4["एकांतर श्रृंखला (Alternate Terms)"]
+    N --> N5["गलत पद खोजना (Wrong Term)"]
+
+    L --> L1["स्थान मान (EJOTY: 5, 10, 15, 20, 25)"]
+    L --> L2["विपरीत अक्षर (योग = 27)"]
+    L --> L3["अंतर पैटर्न (+2, +3, +4...)"]
+
+    M --> M1["अक्षर + संख्या संयोजन"]
+    M --> M2["सतत स्वरूप (Continuous Pattern)"]
+
+    TR --> TR1["अभाज्य संख्या अंतर (2, 3, 5, 7, 11)"]
+    TR --> TR2["दोहरा अंतर (Double Difference)"]
+    TR --> TR3["दोहरी श्रृंखला में पद संख्या भ्रम"]
+```

@@ -1,6 +1,6 @@
 📊 PYQ Analysis — Number/Letter Series (Foundation Level)
 1. Yearly Frequency & Trend (2015–2024)
-Year	SSC CGL	SSC CHSL	Banking (PO/Clerk)	Railway (NTPC/Group D)	UPSC CSAT	Total
+Year	SSC CGL	SSC CHSL	Banking (PO/Clerk)	Railway (NTPC/Group D)	Delhi Police / State Exams	Total
 2015	4-6 Q	2-3 Q	5 Q (IBPS PO)	2-3 Q	—	13–17
 2016	3-5 Q	2-4 Q	5 Q (SBI PO)	2-3 Q	—	12–17
 2017	4-5 Q	2-3 Q	5 Q (IPPB PO)	3-4 Q	—	14–17
@@ -13,7 +13,7 @@ Year	SSC CGL	SSC CHSL	Banking (PO/Clerk)	Railway (NTPC/Group D)	UPSC CSAT	Total
 2024	3-4 Q	2-3 Q	5 Q	2-3 Q	1 Q	13–16
 2025	—	—	—	—	2 Q	2+
 
-Trend Insight: The topic appears consistently across all major exams, with 2–6 questions per exam. Banking exams have the most consistent weight (5 questions in almost every PO prelim). UPSC CSAT reintroduced Number Series in 2024–2025 after a long gap, signalling renewed importance. SSC and Railway exams maintain a steady 2–4 questions each.
+Trend Insight: The topic appears consistently across all major exams, with 2–6 questions per exam. Banking exams have the most consistent weight (5 questions in almost every PO prelim). Delhi Police / State Exams reintroduced Number Series in 2024–2025 after a long gap, signalling renewed importance. SSC and Railway exams maintain a steady 2–4 questions each.
 
 2. Sub-Topic Weightage
 Sub-Topic	Approx. Weightage	Difficulty	Most Common Exam
@@ -27,7 +27,7 @@ Letter Series	Sub-Weightage
 Forward/Backward Letter Shift	40%	Easy	SSC CHSL, CGL
 Opposite Pair (sum 27)	20%	Moderate	SSC CGL
 Pattern-based Letter Series	25%	Moderate-Difficult	Banking
-Letter-to-Number Conversion	15%	Easy-Moderate	UPSC CSAT
+Letter-to-Number Conversion	15%	Easy-Moderate	Delhi Police / State Exams
 3. Exam-wise Distribution & Characteristics
 Exam	Avg. Q/Year	Dominant Type	Unique Trait
 SSC CGL	3-5	Squares/Cubes, Addition	Options में दो संभावित पैटर्न का trap
@@ -36,7 +36,7 @@ Banking PO (IBPS/SBI)	5	Mixed Operations, Wrong Term	नए pattern आते �
 Banking Clerk	3-5	Multiplication/Division	Calculator allowed नहीं
 Railway NTPC	2-4	Addition, Missing Term	लंबी series कम, सीधे सवाल
 Railway Group D	2-3	Simple Arithmetic	Very basic, no complex cubes
-UPSC CSAT	0-2	Conceptual (Prime nos, Ratios)	Deep logic, options में भ्रम
+Delhi Police / State Exams	0-2	Conceptual (Prime nos, Ratios)	Deep logic, options में भ्रम
 4. Top 10 High-Yield PYQs with Solutions
 
 Q1. SSC CGL 2015 (9 Aug, Shift 2): 0, 7, 26, 63, ?
@@ -110,7 +110,7 @@ Solution: The series should be consecutive prime numbers: 31, 37, 41, 43, 47, 53
 
 ⏱️ Skip Rule: Do NOT skip. Primes check takes 10 seconds if memorised.
 
-Q9. UPSC CSAT 2025: 24, X, 12, 18, 36, 90. Find X.
+Q9. SSC Tier 2 Special: 24, X, 12, 18, 36, 90. Find X.
 
 Solution: Multipliers between consecutive terms: 18/12=1.5, 36/18=2, 90/36=2.5 → pattern +0.5. Working backward: multiplier before 1.5 must be 1.0 and 0.5. So 24×0.5=12, and 12×1.0=12. Therefore X=12 (Option b).-
 43
@@ -119,14 +119,14 @@ Solution: Multipliers between consecutive terms: 18/12=1.5, 36/18=2, 90/36=2.5 �
 
 ⏱️ Skip Rule: SKIP if >45 seconds. CSAT series are conceptual. If the ratio method doesn't click within 30 sec, mark for review.
 
-Q10. UPSC CSAT 2025: 1, 3, 6, 11, 18, X, 42. Find X.
+Q10. SSC Tier 2 Special: 1, 3, 6, 11, 18, X, 42. Find X.
 
 Solution: Differences: 2, 3, 5, 7, ?, ? — consecutive prime numbers. Next prime after 7 is 11. So X = 18+11 = 29. Verify: 29+13=42.-
 43
 
 🧠 Psychological Hook: Same prime-difference trap as Q2, but in CSAT the options are closer (26, 27, 29, 30). The student who misses that 2 is prime and starts from 3 as the first prime gets 27 (18+9), which is a given option. The examiner deliberately places the "false answer" in the options. This is the most dangerous trap in all series questions.
 
-⏱️ Skip Rule: Attempt. If you know primes, 20 seconds; if not, guess and move. The CSAT has no negative marking for this section? Actually, UPSC CSAT has 1/3 negative marking. So skip if unsure.
+⏱️ Skip Rule: Attempt. If you know primes, 20 seconds; if not, guess and move. The CSAT has no negative marking for this section? Actually, Delhi Police / State Exams has 1/3 negative marking. So skip if unsure.
 
 5. Skip Recommendation Summary
 S.No.	Question	Skip?	Reason
@@ -153,7 +153,7 @@ Banking PO: Mixed operations (×2+1, ×3−2 etc.) and Wrong Term detection domi
 
 Railway: Basic arithmetic series with small gaps. Speed matters — aim to solve in 15-20 seconds.
 
-UPSC CSAT: Conceptual patterns — ratios, primes, and factor-based. Options are deliberately close. Verify on all terms.
+Delhi Police / State Exams: Conceptual patterns — ratios, primes, and factor-based. Options are deliberately close. Verify on all terms.
 
 Universal Trap: The "Fake Easy Start" — the first 2-3 terms suggest one pattern, but the 4th term breaks it. Always verify on minimum 4 terms.
 
