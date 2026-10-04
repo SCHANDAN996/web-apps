@@ -1,565 +1,151 @@
-📝 Set 1/6 — Direction Sense (Foundation)
-
-Instructions: Each question has four answer choices. Select the correct option and read the detailed solution.
+Questions 1–20: Easy | Questions 21–25: Medium
 
 1. A man is facing North. He turns 90° to his right, then 180° to his left, and finally 90° to his right. In which direction is he facing now?
-
-A) North
-B) East
-C) West
-D) South
-
-Answer: B) East
-Solution: Start: North. Right 90° → East. Left 180° (about turn) → West. Right 90° → North? Wait: from West, right 90° is North. So he faces North. That's A. I need to re-check: North -> right -> East -> left 180 -> West (180 from East is West? East + 180° = West. Correct. Then right 90 from West -> North. So answer North. That's option A. I need to adjust: maybe trap: 180° left is about turn, from East left 180 goes to West. Right from West goes to North. So final North. So correct is A. I'll change answer to A. Option D is South, C is West. I'll set answer A. But the question says "right, left, right" – left 180° is ambiguous but typical about turn. So final North. So answer A) North. Good. That's an easy one.
+(a) North (b) East (c) West (d) South
+Answer: (a)
+Solution: Starting facing North: Turning 90° right points him East. Turning 180° left points him West. Finally, turning 90° right points him North. Therefore, he is facing North.
 Source: PYQ-style
 
-2. Sheela walked 20 metres towards East, took a left turn and walked 15 metres, then took a right turn and walked 10 metres. In which direction is she now from her starting point?
-
-A) North-East
-B) East
-C) South-East
-D) North
-
-Answer: A) North-East
-Solution: Start facing East. 20m East. Left → North, 15m North. Right → East, 10m East. Final position: 20+10 = 30m East, 15m North. So direction is North-East.
+2. Sheela walked 20 m towards East, turned left and walked 15 m, then turned right and walked 25 m. In which direction is she from her starting point?
+(a) South-East (b) North-East (c) North (d) East
+Answer: (b)
+Solution: Net displacement: East = 20 + 25 = 45 m, North = 15 m. Therefore, she is in the North-East direction from her starting point.
 Source: PYQ-style
 
-3. In the morning after sunrise, Ramesh was standing in front of his house. His shadow was falling exactly to his right. Which direction was he facing?
-
-A) East
-B) West
-C) North
-D) South
-
-Answer: D) South
-Solution: Morning sun is in the East, shadow falls West. Shadow to his right means West is on his right. So he faces South (since when facing South, right is West).
+3. One morning after sunrise, Ramesh was standing in front of his house. His shadow was falling exactly to his right. In which direction was Ramesh facing?
+(a) East (b) North (c) South (d) West
+Answer: (c)
+Solution: In the morning, the Sun is in the East, so shadows fall toward the West. Since Ramesh's shadow falls to his right, his right side faces West. Therefore, Ramesh was facing South.
 Source: PYQ-style
 
-4. A boy runs 50 metres towards South, then turns to his right and runs 50 metres, then again turns to his right and runs 100 metres. In which direction is he from his starting point?
-
-A) North
-B) North-East
-C) North-West
-D) West
-
-Answer: B) North-East
-Solution: Start: South 50m. Right → West 50m. Right → North 100m. Net: 50m West and 100-50=50m North (since initially 50m South cancelled by 100m North). So 50m West, 50m North. Direction North-West? Wait: West and North gives North-West. So answer C) North-West. I'll recalc: South 50, then West 50, then North 100. So final coordinates: South -50, West 50, North +100 => net North 50, West 50. That is North-West. So answer C. I need to adjust. I set answer C. Yes, North-West.
+4. A boy runs 50 m towards South, then turns to his right and runs 50 m, then turns to his right again and runs 50 m. In which direction is he from his starting point?
+(a) East (b) North (c) South (d) West
+Answer: (d)
+Solution: Running 50 m South, then 50 m West (right), and then 50 m North (right) cancels the vertical displacement. Therefore, he is directly West of his starting point.
 Source: PYQ-style
 
-5. A man is facing West. He turns 45° clockwise, then 135° anticlockwise, and finally 90° clockwise. Which direction is he facing?
-
-A) East
-B) West
-C) North
-D) South
-
-Answer: A) East
-Solution: Start: West (270° or W). Clockwise 45° → North-West (315°). Anticlockwise 135° → 315° - 135° = 180° (South). Clockwise 90° → 180° + 90° = 270° (West). That gives West, not East. Let's recalc step by step: West is 270° (if North 0/360, East 90, South 180, West 270). Clockwise 45°: 270+45=315° (NW). Anticlockwise 135°: 315-135=180° (South). Clockwise 90°: 180+90=270° (West). So final West. So answer B. I'll set answer B. I'll modify answer options: A) East, B) West, C) North, D) South. So answer B. It's easy.
+5. A man is facing West. He turns 45° clockwise, then 135° anticlockwise, and then 90° clockwise. In which direction is he facing now?
+(a) West (b) East (c) North (d) South
+Answer: (a)
+Solution: Net rotation = +45° (clockwise) - 135° (anticlockwise) + 90° (clockwise) = 0°. Therefore, he is still facing West.
 Source: PYQ-style
 
-6. Radha moves 12 km towards East, then 5 km towards North, then 8 km towards West. How far is she from her starting point?
-
-A) 5 km
-B) 9 km
-C) 3 km
-D) 13 km
-
-Answer: D) 13 km
-Solution: East-West net: 12 - 8 = 4 km East. North: 5 km. Perpendicular distance = √(4²+5²) = √41 ≈ 6.4 km, not matching options. Wait, 12 East, 5 North, 8 West. Net East = 4 km, North = 5 km. Distance = √(16+25)=√41≈6.4 km. Not in options. So maybe she also moved something else? Let's re-check. 12 km East, 5 North, 8 West. That's a right triangle 4 and 5, distance ≈6.4. None of the options match. I'll redesign: 12 km East, 5 km North, then 8 km West? No. If she went 12 East, 5 North, then 12 West (not 8) then distance 5. But as is, 6.4. Options are 5,9,3,13. So maybe the question should be: 12 km East, 5 km North, then 8 km West? 13 is common triple 5-12-13. So if East 12, North 5, West 0? No. If West 8 gives 4,5 -> √41 ~6.4. Not 13. So I'll change to 12 km East, 5 km North, and then 6 km West? That yields net East 6, North 5 -> √61≈7.8. Not 13. To get 13, we need 5 and 12 as legs: e.g., East 12, North 5, West 0 -> distance 13. So I'll adjust question: "Radha moves 12 km towards East, then 5 km towards North, then 8 km towards West." Not fitting. Instead: "Radha moves 12 km towards East, then 5 km towards North, then 4 km towards West." No, 8? I'll modify to: "moves 12 km East, 5 km North, and then 9 km West"? That gives net East 3, North 5 -> √34. Not 13. Better: "moves 12 km East, 5 km North, then 16 km West"? Net West 4, North 5 -> √41 again. So I'll rewrite: "moves 5 km East, then 12 km North." That's 13. So question: 5 km East, 12 km North. Then how far from start? That's 13. So I'll craft: "Radha moves 5 km towards East, then 12 km towards North. How far is she from her starting point?" Answer 13 km. Easy. So I'll change question 6 to that.
+6. A girl walks 10 m towards North, then turns right and walks 10 m, then turns right again and walks 10 m. In which direction is she from her starting point?
+(a) West (b) East (c) North (d) South
+Answer: (b)
+Solution: The 10 m North and 10 m South movements cancel each other out, leaving only a 10 m East displacement. Therefore, she is to the East of her starting point.
 Source: PYQ-style
 
-7. At 4 p.m., a girl observes that her shadow is falling to her left. Which direction is she facing?
-
-A) East
-B) West
-C) North
-D) South
-
-Answer: C) North
-Solution: At 4 p.m. (evening), sun is in West, so shadow falls East. Shadow to her left means East is on her left, so she faces North. (When facing North, left is West? Wait: If facing North, left is West, right is East. For East to be on left, she must face South? Let's do: Shadow East. If shadow is on left, East is on left. If she faces South, left is East. Yes, facing South, left is East. So if shadow East is on left, she faces South. Re-examine: Evening shadow East. "Shadow to her left" means East is to her left. Facing South, left is East. So answer South. But many students might confuse. Let's re-evaluate: At 4 p.m., sun West, shadow East. Girl sees shadow on her left. So East direction is on her left. If East is on left, then she is facing South (since South's left is East). So answer D) South. I'll correct. So I'll set answer D. Good trap: morning vs evening. This is a trap question. I'll make it number 7, a trap.
+7. If 'South-East' is called 'North', and 'North-East' is called 'West', what will 'West' be called?
+(a) South-West (b) North-West (c) South-East (d) North-East
+Answer: (c)
+Solution: South-East shifts 135° anticlockwise to become North. Applying the same 135° anticlockwise shift to West brings it to South-East.
 Source: PYQ-style
 
 8. A man walks 1 km towards East, then turns right and walks 500 m, then turns right again and walks 1 km. How far is he from his starting point?
-
-A) 500 m
-B) 1 km
-C) 1.5 km
-D) 0 m
-
-Answer: A) 500 m
-Solution: East 1 km. Right → South 0.5 km. Right → West 1 km. This cancels East, leaving 0.5 km South. So distance 500 m.
+(a) 250 m (b) 1 km (c) 1.5 km (d) 500 m
+Answer: (d)
+Solution: Walking 1 km East and 1 km West cancels out horizontally, leaving a net displacement of 500 m South. Therefore, the correct answer is 500 m.
 Source: PYQ-style
 
-9. If 'South-East' becomes 'North', what will 'West' become?
-
-A) North-East
-B) North-West
-C) South-East
-D) South-West
-
-Answer: A) North-East
-Solution: The transformation is a rotation of 135° clockwise? Let's find: South-East (SE) to North: SE is 135° from North? Actually, North (0°) to SE (135°) is +135° clockwise. So each direction is rotated +135° clockwise. West (270°) + 135° = 405° ≡ 45° (North-East). So West becomes NE.
+9. Mohan is facing East. He turns 90° clockwise, and then turns 180° anticlockwise. In which direction is he facing now?
+(a) North (b) South (c) East (d) West
+Answer: (a)
+Solution: Facing East: Turning 90° clockwise points South. Turning 180° anticlockwise from South points directly opposite, to North. Therefore, he is facing North.
 Source: PYQ-style
 
-10. Ram starts from point A and walks 10 m towards South, then turns left and walks 10 m, then turns left again and walks 10 m. In which direction is he from point A?
-
-A) South
-B) North
-C) East
-D) West
-
-Answer: C) East
-Solution: South 10m. Left → East 10m. Left → North 10m. Final position: 10m East, and South cancelled by North? Actually, South 10m, then North 10m, so net 0 North-South, and 10m East. So East of A.
+10. A cyclist rides 12 km towards North, then turns left and rides 5 km. What is the shortest distance from his starting point?
+(a) 17 km (b) 13 km (c) 7 km (d) 15 km
+Answer: (b)
+Solution: Using Pythagoras theorem: Shortest distance = √(12² + 5²) = √(144 + 25) = √169 = 13 km. Therefore, the correct answer is 13 km.
 Source: PYQ-style
 
-11. A policeman chases a thief 40 metres East, then turns left and walks 30 metres, then turns left again and walks 40 metres. In which direction is the policeman from his starting point?
-
-A) North
-B) South
-C) East
-D) West
-
-Answer: B) South
-Solution: East 40m. Left → North 30m. Left → West 40m. Net: 30m North. He is North of start. Option A. Wait: East 40, left (North) 30, left (West) 40. Net: 30m North. So direction North. That's not South. So answer A. I'll set answer A) North. Option B is South. So answer A.
+11. Amit walks 30 m towards South, then turns left and walks 20 m, then turns left again and walks 30 m. How far and in which direction is he from his starting point?
+(a) 30 m East (b) 20 m West (c) 20 m East (d) 50 m South
+Answer: (c)
+Solution: The 30 m South and 30 m North movements cancel each other out, leaving only 20 m East. Therefore, he is 20 m East of his starting point.
 Source: PYQ-style
 
-12. A girl walks 8 m towards North, then 6 m towards West, then 8 m towards South. How far is she from her starting point?
-
-A) 6 m
-B) 8 m
-C) 10 m
-D) 14 m
-
-Answer: A) 6 m
-Solution: North 8, West 6, South 8. Net: 6 m West. So distance 6 m.
+12. Rohit walks 10 m towards North-East, then 10 m towards South-East. In which direction is he from his starting point?
+(a) West (b) North (c) South (d) East
+Answer: (d)
+Solution: The North and South components of equal displacements along North-East and South-East cancel each other, leaving purely Eastward displacement. Therefore, he is East of his starting point.
 Source: PYQ-style
 
-13. If the clock shows 9 a.m. and a boy is facing the rising sun, in which direction will his shadow fall?
-
-A) West
-B) East
-C) North
-D) South
-
-Answer: A) West
-Solution: At 9 a.m., sun is in East. Facing East, shadow falls behind him, i.e., West.
+13. At 9 a.m., a boy is facing the rising Sun. In which direction will his shadow fall?
+(a) West (b) East (c) North (d) South
+Answer: (a)
+Solution: In the morning, the Sun is in the East, so all shadows fall in the exact opposite direction, which is West. Therefore, his shadow falls West.
 Source: PYQ-style
 
 14. Naman walks 15 m towards North, then turns right and walks 20 m, then turns right and walks 15 m, then turns left and walks 10 m. In which direction is he from his starting point?
-
-A) East
-B) West
-C) North
-D) South
-
-Answer: A) East
-Solution: North 15. Right → East 20. Right → South 15. Left → East 10 (since from South, left is East). Total East: 20+10=30m. North-South cancel (15-15=0). So he is East.
+(a) West (b) East (c) North (d) South
+Answer: (b)
+Solution: The 15 m North and 15 m South movements cancel out. Total Eastward movement = 20 + 10 = 30 m. Therefore, he is East of his starting point.
 Source: PYQ-style
 
-15. One evening, a man is walking towards a park. He notices his shadow falling to his right. In which direction was he walking?
-
-A) East
-B) West
-C) North
-D) South
-
-Answer: D) South
-Solution: Evening sun West → shadow East. Shadow to right means East is on his right. When facing South, right is West? Let's check: If facing South, right is West. For East to be on right, he must face North (since North's right is East). Wait: Evening shadow East. If shadow is on his right, East is on his right. If he faces North, right is East. So he faces North. So answer C) North. I'll recalc: Sun West, shadow East. Shadow to his right. So East is on his right. If he faces North, right is East. So he is walking North. So answer C. I'll set answer C) North. That's a trap: many think South. So it's a good trap question. I'll change the answer accordingly. So question 15: evening, shadow right, answer North.
+15. One evening, a man is walking in a park. He notices his shadow falling to his right. In which direction is he walking?
+(a) East (b) South (c) North (d) West
+Answer: (c)
+Solution: In the evening, the Sun is in the West, so shadows fall toward the East. Since his shadow falls to his right, his right side must be East, which means he is walking towards the North.
 Source: PYQ-style
 
-16. A person moves 20 m towards North, then 15 m towards East, then 20 m towards South, and finally 15 m towards West. How far is he from his starting point?
-
-A) 0 m
-B) 20 m
-C) 15 m
-D) 35 m
-
-Answer: A) 0 m
-Solution: North-South: +20-20=0. East-West: +15-15=0. Back to start.
+16. A person walks 20 m North, 15 m East, 20 m South, and 15 m West. How far is he from his starting point?
+(a) 35 m (b) 20 m (c) 15 m (d) 0 m
+Answer: (d)
+Solution: North 20 m - South 20 m = 0 m; East 15 m - West 15 m = 0 m. Therefore, he is back at the starting point, distance is 0 m.
 Source: PYQ-style
 
-17. Shilpa started walking towards East. After walking 50 m, she turned left and walked 30 m. She then turned left again and walked 50 m. In which direction is she from her starting point?
-
-A) North
-B) South
-C) East
-D) West
-
-Answer: A) North
-Solution: East 50. Left → North 30. Left → West 50. Net: 30 m North.
+17. Shilpa walks 50 m towards East, turns left and walks 30 m, then turns left again and walks 50 m. In which direction is she from her starting point?
+(a) North (b) South (c) East (d) West
+Answer: (a)
+Solution: Walking 50 m East and 50 m West cancel each other out horizontally, leaving 30 m North. Therefore, she is in the North direction from her starting point.
 Source: PYQ-style
 
-18. At noon, a man stands facing the Sun. In which direction is his shadow?
-
-A) East
-B) West
-C) North
-D) South
-
-Answer: C) North
-Solution: Noon in northern hemisphere, sun is in South. Facing South, shadow falls behind, i.e., North.
+18. At 12 noon, a man stands facing the Sun. In which direction will his shadow fall?
+(a) North (b) Directly beneath his feet (No shadow) (c) South (d) West
+Answer: (b)
+Solution: At 12 noon, the Sun is directly overhead, so no distinct horizontal shadow is formed and it falls directly beneath the feet.
 Source: PYQ-style
 
-19. If 'North-West' is coded as 'East', 'South-East' is coded as 'North', what is the code for 'West'?
-
-A) South
-B) North-East
-C) South-West
-D) North-West
-
-Answer: C) South-West
-Solution: NW -> East: NW (315°) becomes East (90°) = +135° rotation? 315+135=450=90 (East). SE (135°) becomes North (0°) = -135° rotation? Wait 135 to 0 is -135 or +225. Inconsistent. Let's find pattern: NW (315°) to East (90°) is a clockwise shift of +135° (315+135=450≡90). SE (135°) to North (0°): 135+? = 360? +225 gives 360? 135+225=360≡0. Not same. Maybe it's mirror or opposite? Another: "NW is coded as East" could mean the direction that is opposite of NW? Opposite of NW is SE, not East. Not that. Maybe they are rotated by 135° anti? 315-135=180 (South) no. Let's deduce: If NW (315) becomes East (90), that's -225 or +135. SE (135) becomes North (0) is -135 or +225. No single angle. Perhaps the mapping is: If we treat cardinal directions as shifted: NW becomes East, meaning North becomes East? So I'll simplify: Assume the code assigns new cardinal: N->E, E->S, S->W, W->N. Then NW (N+W) becomes E+N = NE, not East. So not that. Let's solve logically: "North-West is coded as East". That means NW (315°) maps to East (90°). "South-East is coded as North": SE (135°) maps to North (0°). The difference between 315 and 135 is 180°, and mapping East (90) to North (0) is -90. Not straightforward. I'll skip this as it might be too complex for foundation. I'll replace with a simpler coded direction question. I'll make it: "If 'North' is called 'East', 'East' is called 'South', 'South' is called 'West', 'West' is called 'North', then what is 'North-East' called?" That is simpler. So new question 19: If North is called East, East is called South, South is called West, West is called North, then what is North-East called? Answer: South-East (because N->E, E->S, so NE becomes E+S = South-East). That's easy. I'll use that.
+19. If 'North' is called 'East', 'East' is called 'South', 'South' is called 'West', and 'West' is called 'North', what will 'North-East' be called?
+(a) South-West (b) North-West (c) South-East (d) North-East
+Answer: (c)
+Solution: All directions are rotated 90° clockwise. Therefore, rotating North-East (45°) by 90° clockwise results in South-East (135°).
 Source: PYQ-style
 
 20. David walks 25 m towards West, then turns right and walks 25 m, then turns right again and walks 25 m. In which direction is he from his starting point?
-
-A) North
-B) South
-C) East
-D) West
-
-Answer: A) North
-Solution: West 25. Right → North 25. Right → East 25. Net: 25 m North.
+(a) West (b) South (c) East (d) North
+Answer: (d)
+Solution: The 25 m West and 25 m East movements cancel each other horizontally, leaving only 25 m North. Therefore, he is North of his starting point.
 Source: PYQ-style
 
-Medium Questions (21-25):
-
-21. A man walks 30 m towards South, then turns left and walks 40 m, then again turns left and walks 30 m. He then turns right and walks 20 m. What is the shortest distance from his starting point?
-
-A) 60 m
-B) 50 m
-C) 40 m
-D) 20√5 m
-
-Answer: B) 50 m
-Solution: Start: South 30. Left → East 40. Left → North 30. Right → East 20 (since from North, right is East). Final: East: 40+20=60 m, South-North: 30-30=0. So 60 m East. Shortest distance = 60 m. That's not 50. To get 50, maybe the last leg should be something else. I'll redesign: South 30, left East 40, left North 30, then right East 10? No, 40+10=50, distance 50. So make last walk 10 m, not 20. Then total East 50, distance 50. So I'll set last: turns right and walks 10 m. Then final East 40+10=50, distance 50. Answer B. So question: South 30, left 40, left 30, right 10 -> distance 50. Medium.
+21. A man walks 30 m towards South, then turns left and walks 40 m, then turns left again and walks 30 m, and finally turns right and walks 10 m. What is the shortest distance from his starting point?
+(a) 50 m (b) 40 m (c) 60 m (d) 70 m
+Answer: (a)
+Solution: The 30 m South and 30 m North movements cancel vertically. Total Eastward displacement = 40 + 10 = 50 m. Therefore, the distance is 50 m.
 Source: PYQ-style
 
-22. One morning after sunrise, Sunil was standing in a park. His friend Mohan was coming from the opposite direction. Sunil observed that Mohan's shadow was falling to the right of Sunil. In which direction was Mohan facing?
-
-A) East
-B) West
-C) North
-D) South
-
-Answer: D) South
-Solution: Morning sun East, shadow West. Mohan's shadow falls to the right of Sunil. They are facing opposite directions. Let Sunil's facing direction be X, then Mohan faces opposite of X. Shadow of Mohan (West) is to the right of Sunil. So Sunil's right is West, thus Sunil faces South. So Sunil faces South, Mohan faces opposite = North. But wait, if Sunil faces South, right is West. So shadow West is on his right. That fits. So Mohan faces North. So answer C) North. I'll compute: Sunil faces South, Mohan opposite -> North. So Mohan facing North. I'll set answer C. But is Mohan's shadow West? Yes, morning shadow West, so if shadow is on Sunil's right, Sunil's right is West, so Sunil faces South. Then Mohan faces North. So answer C. That's a trap: many will think Mohan facing South. Good. So answer C) North.
+22. One morning after sunrise, Sunil was standing in a park. His friend Mohan was walking towards him from the opposite direction. Sunil saw that Mohan's shadow fell to Sunil's right. In which direction was Mohan facing?
+(a) South (b) North (c) East (d) West
+Answer: (b)
+Solution: In the morning, shadows fall toward the West. Since the shadow falls to Sunil's right, Sunil's right is West, meaning Sunil is facing South. Since Mohan is coming from the opposite direction, Mohan is facing North.
 Source: PYQ-style
 
 23. A is 40 m to the North of B. C is 40 m to the East of B. D is 40 m to the North of C. E is 40 m to the East of D. In which direction is E with respect to A?
-
-A) East
-B) North-East
-C) South-East
-D) North
-
-Answer: A) East
-Solution: Place B at origin (0,0). A is (0,40). C is (40,0). D is (40,40) (north of C). E is (80,40) (east of D). A is (0,40). So E is 80 m East of A. Direction pure East.
+(a) South-East (b) North-East (c) East (d) North
+Answer: (c)
+Solution: Let B = (0,0). Then A = (0,40), C = (40,0), D = (40,40), and E = (80,40). Since A and E share the same y-coordinate of 40 and E has x = 80, E is directly East of A.
 Source: PYQ-style
 
-24. At sunrise, a man is walking towards a temple. He sees the shadow of the temple falling exactly towards his left. In which direction is the temple from him?
-
-A) North
-B) South
-C) East
-D) West
-
-Answer: B) South
-Solution: Sunrise, sun in East, shadow of temple falls West. The man sees the shadow to his left, so West is on his left. That means he is facing South (since facing South, left is East? No: facing South, left is East. For West to be on left, he must face North (since North's left is West). Let's do: Shadow West. "Falling exactly towards his left" means the shadow is directed to his left side, i.e., West direction is to his left. If he faces North, left is West. So he faces North. So the temple's shadow is to his left, i.e., West is left, so he faces North. Then the temple is somewhere behind him? Actually, he sees the shadow of the temple falling towards his left. The shadow extends from the temple to the West. If he is facing North, his left is West, so the shadow stretches to his left, so the temple is South of him (because sun East, shadow West; the temple is the object, so it is to the East of the shadow? Wait: Sun East, temple's shadow falls West. If the man sees the shadow to his left (West), he is looking at the shadow. The temple is opposite the sun, i.e., East of the shadow. So temple is to the East of the shadow. If shadow is West of the temple. So if the man sees the shadow to his left, his left is West, so he is facing North? Let's imagine: Man stands somewhere. Temple is somewhere. The shadow of the temple falls West. The man observes the shadow falling exactly towards his left. So the direction from the man towards the shadow is West? Actually, "falling exactly towards his left" can be interpreted as the shadow extends away from the temple towards the man's left. So if the man sees the shadow, the shadow's direction (from temple) is West. For the man, West is left. So his left is West, hence he faces North. So the man faces North. Now, the temple is located such that its shadow extends West. So the temple is East of the shadow. The man is looking at the shadow? He is probably facing the temple? The question: "In which direction is the temple from him?" So if he faces North, and temple's shadow is to his left, the temple could be to his right or front? I need to deduce carefully. The sun is in East, so temple's shadow goes West. The man sees the shadow falling towards his left, meaning the shadow extends to his left side. That implies that the temple is to the right of the man or behind? Let's set coordinates: Sun East, shadow West. Suppose man is at point M. Temple at T. Shadow from T goes West. The man sees that shadow (i.e., the shadow line) and it is aligned to his left. So the direction from M to the shadow line is West. But the temple is at the East end of that shadow. So from M, the temple is East of the shadow's location, but we need relative direction of T from M. Without distance, we need to assume the man is not in line? The typical interpretation in such puzzles: The man is looking at the temple, and the temple's shadow falls towards his left. If he is looking at the temple, then his line of sight is towards the temple. The shadow falling to his left means the shadow extends leftwards from the temple as he looks at it. So if he faces the temple, then the temple is in front of him. The shadow of the temple goes to his left. Since sun is East, shadow is West. So if shadow goes left, then West is left. So if he faces the temple, and West is left, then his front (temple direction) is South. So temple is South of him. Thus answer B) South. That's a common trap. So I'll go with that: man facing the temple, shadow left, temple South. So answer South.
+24. At sunrise, a person is walking towards a temple. He observes that the shadow of the temple falls exactly to his left. In which direction is the temple from him?
+(a) West (b) North (c) East (d) South
+Answer: (d)
+Solution: At sunrise, shadows fall toward the West. The temple's shadow is to his left, meaning his left side is West. Therefore, he is walking South. Since he is walking towards the temple, the temple is to his South.
 Source: PYQ-style
 
-25. A person travels 12 km towards West, then turns left and travels 5 km, then turns left again and travels 12 km. How much distance (shortest) does he need to travel to return to the starting point?
-
-A) 5 km
-B) 13 km
-C) 12 km
-D) 17 km
-
-Answer: A) 5 km
-Solution: West 12, left South 5, left East 12. Net: 5 km South. Shortest distance back = 5 km.
+25. A person travels 12 km towards West, then turns left and travels 5 km, then turns left again and travels 12 km. What is the shortest distance he must travel to return to the starting point?
+(a) 13 km (b) 5 km (c) 12 km (d) 17 km
+Answer: (b)
+Solution: Traveling 12 km West and 12 km East cancels the horizontal distance. He is currently 5 km South of the starting point. Therefore, the shortest return distance is 5 km.
 Source: PYQ-style
-
-All questions set. I've adjusted answers. I'll now format with step-by-step solutions and source. Ensure examiner trap: Questions 7 (shadow evening left) and 22 (shadow opposite directions) are traps. Also question 24 (shadow left while facing temple) is trap. So I have multiple.
-
-Now final output.📝 Set 1/6 — दिशा ज्ञान (Direction Sense)
-
-1. एक व्यक्ति उत्तर की ओर मुँह करके खड़ा है। वह 90° दाएँ मुड़ता है, फिर 180° बाएँ मुड़ता है, और अंत में 90° दाएँ मुड़ता है। अब उसका मुँह किस दिशा में है?
-
-A) उत्तर
-B) पूर्व
-C) पश्चिम
-D) दक्षिण
-
-उत्तर: A) उत्तर
-हल: प्रारंभ: उत्तर। 90° दाएँ → पूर्व। 180° बाएँ (पीछे मुड़ना) → पश्चिम। 90° दाएँ → उत्तर।
-स्रोत: PYQ-style
-
-2. शीला 20 मीटर पूर्व की ओर चली, बाएँ मुड़ी और 15 मीटर चली, फिर दाएँ मुड़ी और 10 मीटर चली। वह आरंभिक बिंदु से किस दिशा में है?
-
-A) उत्तर-पूर्व
-B) पूर्व
-C) दक्षिण-पूर्व
-D) उत्तर
-
-उत्तर: A) उत्तर-पूर्व
-हल: 20 मी पूर्व। बाएँ → उत्तर 15 मी। दाएँ → पूर्व 10 मी। कुल: 30 मी पूर्व, 15 मी उत्तर → दिशा उत्तर-पूर्व।
-स्रोत: PYQ-style
-
-3. सुबह सूर्योदय के बाद रमेश अपने घर के सामने खड़ा था। उसकी छाया ठीक उसकी दाईं ओर गिर रही थी। उसका मुँह किस दिशा में था?
-
-A) पूर्व
-B) पश्चिम
-C) उत्तर
-D) दक्षिण
-
-उत्तर: D) दक्षिण
-हल: सुबह सूर्य पूर्व में, छाया पश्चिम में। दाईं ओर छाया = पश्चिम दाईं ओर। यदि मुँह दक्षिण की ओर हो तो दाईं ओर पश्चिम होता है।
-स्रोत: PYQ-style
-
-4. एक लड़का 50 मीटर दक्षिण की ओर दौड़ा, फिर दाएँ मुड़कर 50 मीटर, फिर दाएँ मुड़कर 100 मीटर दौड़ा। वह आरंभिक बिंदु से किस दिशा में है?
-
-A) उत्तर
-B) उत्तर-पूर्व
-C) उत्तर-पश्चिम
-D) पश्चिम
-
-उत्तर: C) उत्तर-पश्चिम
-हल: दक्षिण 50 मी → दाएँ (पश्चिम) 50 मी → दाएँ (उत्तर) 100 मी। कुल: 50 मी पश्चिम, 50 मी उत्तर (100-50=50) → उत्तर-पश्चिम।
-स्रोत: PYQ-style
-
-5. एक व्यक्ति का मुँह पश्चिम की ओर है। वह 45° दक्षिणावर्त मुड़ता है, फिर 135° वामावर्त, और अंत में 90° दक्षिणावर्त मुड़ता है। अब वह किस दिशा की ओर मुँह कर रहा है?
-
-A) पूर्व
-B) पश्चिम
-C) उत्तर
-D) दक्षिण
-
-उत्तर: B) पश्चिम
-हल: पश्चिम (270°) + 45° = 315° (उत्तर-पश्चिम) – 135° = 180° (दक्षिण) + 90° = 270° (पश्चिम)।
-स्रोत: PYQ-style
-
-6. राधा 5 किमी पूर्व की ओर चलती है, फिर 12 किमी उत्तर की ओर। वह आरंभिक बिंदु से कितनी दूर है?
-
-A) 5 किमी
-B) 9 किमी
-C) 3 किमी
-D) 13 किमी
-
-उत्तर: D) 13 किमी
-हल: समकोण त्रिभुज: √(5² + 12²) = √169 = 13 किमी।
-स्रोत: PYQ-style
-
-7. ⚠️ परीक्षक का जाल
-शाम 4 बजे एक लड़की देखती है कि उसकी छाया उसकी बाईं ओर गिर रही है। वह किस दिशा में मुँह कर रही है?
-
-A) पूर्व
-B) पश्चिम
-C) उत्तर
-D) दक्षिण
-
-उत्तर: D) दक्षिण
-हल: शाम का सूर्य पश्चिम में, छाया पूर्व में। छाया बाईं ओर ⇒ पूर्व बाईं ओर। जब मुँह दक्षिण की ओर हो तो बाईं ओर पूर्व होता है।
-स्रोत: PYQ-style
-
-8. एक व्यक्ति 1 किमी पूर्व चलता है, फिर दाएँ मुड़कर 500 मीटर, फिर दाएँ मुड़कर 1 किमी चलता है। वह आरंभ बिंदु से कितनी दूर है?
-
-A) 500 मी
-B) 1 किमी
-C) 1.5 किमी
-D) 0 मी
-
-उत्तर: A) 500 मी
-हल: पूर्व 1 किमी → दाएँ (दक्षिण) 0.5 किमी → दाएँ (पश्चिम) 1 किमी। शेष दक्षिण 0.5 किमी।
-स्रोत: PYQ-style
-
-9. यदि ‘दक्षिण-पूर्व’ को ‘उत्तर’ कहा जाए, तो ‘पश्चिम’ को क्या कहा जाएगा?
-
-A) उत्तर-पूर्व
-B) उत्तर-पश्चिम
-C) दक्षिण-पूर्व
-D) दक्षिण-पश्चिम
-
-उत्तर: A) उत्तर-पूर्व
-हल: दक्षिण-पूर्व (135°) → उत्तर (0°) अर्थात +135° परिवर्तन। पश्चिम (270°) + 135° = 405° ≡ 45° (उत्तर-पूर्व)।
-स्रोत: PYQ-style
-
-10. राम बिंदु A से 10 मी दक्षिण, फिर बाएँ 10 मी, फिर बाएँ 10 मी चलता है। वह A से किस दिशा में है?
-
-A) दक्षिण
-B) उत्तर
-C) पूर्व
-D) पश्चिम
-
-उत्तर: C) पूर्व
-हल: दक्षिण 10 → बाएँ (पूर्व) 10 → बाएँ (उत्तर) 10। कुल: 10 मी पूर्व।
-स्रोत: PYQ-style
-
-11. एक सिपाही चोर का पीछा करता है: 40 मी पूर्व, बाएँ 30 मी, बाएँ 40 मी। वह आरंभ बिंदु से किस दिशा में है?
-
-A) उत्तर
-B) दक्षिण
-C) पूर्व
-D) पश्चिम
-
-उत्तर: A) उत्तर
-हल: पूर्व 40 → बाएँ (उत्तर) 30 → बाएँ (पश्चिम) 40। शेष 30 मी उत्तर।
-स्रोत: PYQ-style
-
-12. एक लड़की 8 मी उत्तर, 6 मी पश्चिम, 8 मी दक्षिण चलती है। वह आरंभ से कितनी दूर है?
-
-A) 6 मी
-B) 8 मी
-C) 10 मी
-D) 14 मी
-
-उत्तर: A) 6 मी
-हल: उत्तर-दक्षिण रद्द, शेष 6 मी पश्चिम।
-स्रोत: PYQ-style
-
-13. सुबह 9 बजे एक लड़का सूर्य की ओर मुँह करके खड़ा है। उसकी छाया किस दिशा में गिरेगी?
-
-A) पश्चिम
-B) पूर्व
-C) उत्तर
-D) दक्षिण
-
-उत्तर: A) पश्चिम
-हल: सूर्य पूर्व में, मुँह पूर्व की ओर → छाया पीछे पश्चिम में।
-स्रोत: PYQ-style
-
-14. नमन 15 मी उत्तर, दाएँ 20 मी, दाएँ 15 मी, बाएँ 10 मी चलता है। वह आरंभ से किस दिशा में है?
-
-A) पूर्व
-B) पश्चिम
-C) उत्तर
-D) दक्षिण
-
-उत्तर: A) पूर्व
-हल: उत्तर 15 → दाएँ (पूर्व) 20 → दाएँ (दक्षिण) 15 → बाएँ (पूर्व) 10। कुल: 30 मी पूर्व।
-स्रोत: PYQ-style
-
-15. ⚠️ परीक्षक का जाल
-एक शाम, एक व्यक्ति पार्क की ओर टहल रहा है। उसकी छाया उसकी दाईं ओर गिर रही है। वह किस दिशा में टहल रहा था?
-
-A) पूर्व
-B) पश्चिम
-C) उत्तर
-D) दक्षिण
-
-उत्तर: C) उत्तर
-हल: शाम का सूर्य पश्चिम में → छाया पूर्व में। दाईं ओर छाया का अर्थ है पूर्व दाईं ओर। जब मुँह उत्तर की ओर हो तो दाईं ओर पूर्व होता है।
-स्रोत: PYQ-style
-
-16. एक व्यक्ति 20 मी उत्तर, 15 मी पूर्व, 20 मी दक्षिण, 15 मी पश्चिम चलता है। वह आरंभ से कितनी दूर है?
-
-A) 0 मी
-B) 20 मी
-C) 15 मी
-D) 35 मी
-
-उत्तर: A) 0 मी
-हल: सभी गतियाँ वापस प्रारंभ बिंदु पर ले आती हैं।
-स्रोत: PYQ-style
-
-17. शिल्पा पूर्व की ओर 50 मी चलकर बाएँ 30 मी, फिर बाएँ 50 मी चलती है। वह आरंभ से किस दिशा में है?
-
-A) उत्तर
-B) दक्षिण
-C) पूर्व
-D) पश्चिम
-
-उत्तर: A) उत्तर
-हल: पूर्व 50 → बाएँ (उत्तर) 30 → बाएँ (पश्चिम) 50। शेष 30 मी उत्तर।
-स्रोत: PYQ-style
-
-18. दोपहर में एक व्यक्ति सूर्य की ओर मुँह करके खड़ा है। उसकी छाया किस दिशा में गिरेगी? (उत्तरी गोलार्ध)
-
-A) पूर्व
-B) पश्चिम
-C) उत्तर
-D) दक्षिण
-
-उत्तर: C) उत्तर
-हल: दोपहर में सूर्य दक्षिण में, मुँह दक्षिण की ओर → छाया पीछे उत्तर में।
-स्रोत: PYQ-style
-
-19. यदि ‘उत्तर’ को ‘पूर्व’, ‘पूर्व’ को ‘दक्षिण’, ‘दक्षिण’ को ‘पश्चिम’, ‘पश्चिम’ को ‘उत्तर’ कहा जाए, तो ‘उत्तर-पूर्व’ को क्या कहेंगे?
-
-A) दक्षिण-पूर्व
-B) उत्तर-पश्चिम
-C) दक्षिण-पश्चिम
-D) उत्तर-पूर्व
-
-उत्तर: A) दक्षिण-पूर्व
-हल: उत्तर → पूर्व, पूर्व → दक्षिण, अतः उत्तर-पूर्व → पूर्व + दक्षिण = दक्षिण-पूर्व।
-स्रोत: PYQ-style
-
-20. डेविड 25 मी पश्चिम, फिर दाएँ 25 मी, फिर दाएँ 25 मी चलता है। वह आरंभ से किस दिशा में है?
-
-A) उत्तर
-B) दक्षिण
-C) पूर्व
-D) पश्चिम
-
-उत्तर: A) उत्तर
-हल: पश्चिम 25 → दाएँ (उत्तर) 25 → दाएँ (पूर्व) 25। शेष 25 मी उत्तर।
-स्रोत: PYQ-style
-
-🌟 मध्यम स्तर (Medium Level)
-
-21. एक व्यक्ति 30 मी दक्षिण, बाएँ 40 मी, बाएँ 30 मी, फिर दाएँ 10 मी चलता है। आरंभिक बिंदु से न्यूनतम दूरी कितनी है?
-
-A) 60 मी
-B) 50 मी
-C) 40 मी
-D) 20√5 मी
-
-उत्तर: B) 50 मी
-हल: दक्षिण 30 → बाएँ (पूर्व) 40 → बाएँ (उत्तर) 30 → दाएँ (पूर्व) 10। कुल पूर्व = 50 मी, उत्तर-दक्षिण रद्द। दूरी = 50 मी।
-स्रोत: PYQ-style
-
-22. ⚠️ परीक्षक का जाल
-एक सुबह सूर्योदय के बाद, सुनील एक पार्क में खड़ा था। उसका मित्र मोहन विपरीत दिशा से आ रहा था। सुनील ने देखा कि मोहन की छाया सुनील की दाईं ओर गिर रही थी। मोहन किस दिशा में मुँह कर रहा था?
-
-A) पूर्व
-B) पश्चिम
-C) उत्तर
-D) दक्षिण
-
-उत्तर: C) उत्तर
-हल: सुबह छाया पश्चिम में। सुनील की दाईं ओर छाया = पश्चिम दाईं ओर ⇒ सुनील का मुँह दक्षिण। सुनील के विपरीत मोहन का मुँह उत्तर।
-स्रोत: PYQ-style
-
-23. A, B के 40 मी उत्तर में है। C, B के 40 मी पूर्व में है। D, C के 40 मी उत्तर में है। E, D के 40 मी पूर्व में है। E, A के सापेक्ष किस दिशा में है?
-
-A) पूर्व
-B) उत्तर-पूर्व
-C) दक्षिण-पूर्व
-D) उत्तर
-
-उत्तर: A) पूर्व
-हल: B(0,0) पर, A(0,40), C(40,0), D(40,40), E(80,40)। A(0,40) और E(80,40) की तुलना में E 80 मी पूर्व में है।
-स्रोत: PYQ-style
-
-24. ⚠️ परीक्षक का जाल
-सूर्योदय के समय एक व्यक्ति मंदिर की ओर जा रहा है। वह देखता है कि मंदिर की छाया ठीक उसकी बाईं ओर गिर रही है। मंदिर उससे किस दिशा में है?
-
-A) उत्तर
-B) दक्षिण
-C) पूर्व
-D) पश्चिम
-
-उत्तर: B) दक्षिण
-हल: सूर्योदय ⇒ सूर्य पूर्व में, मंदिर की छाया पश्चिम में। व्यक्ति मंदिर की ओर देख रहा है, और छाया उसकी बाईं ओर है। यदि सामने मंदिर है और बाईं ओर पश्चिम है, तो व्यक्ति का मुँह दक्षिण की ओर है। अतः मंदिर उसकी दक्षिण दिशा में है।
-स्रोत: PYQ-style
-
-25. एक व्यक्ति 12 किमी पश्चिम, बाएँ 5 किमी, बाएँ 12 किमी चलता है। आरंभिक बिंदु पर लौटने के लिए उसे कितनी न्यूनतम दूरी तय करनी होगी?
-
-A) 5 किमी
-B) 13 किमी
-C) 12 किमी
-D) 17 किमी
-
-उत्तर: A) 5 किमी
-हल: पश्चिम 12 → बाएँ (दक्षिण) 5 → बाएँ (पूर्व) 12। शेष 5 किमी दक्षिण। लौटने के लिए 5 किमी उत्तर चलना होगा।
-स्रोत: PYQ-style

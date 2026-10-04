@@ -1,52 +1,21 @@
-Diagram
-Code
-Download
-Fullscreen
-Direction Sense
-Main Concepts
-Types of Questions
-Key Strategies
-Time Management
-Common Traps
-Formulas
-Cardinal Directions
-Intercardinal Directions
-Clockwise/AnticlockwiseTurns
-Facing Direction
-Shadow Concept
-Simple Path Tracing
-Multiple Sequential Turns
-Shadow-Based Problems
-Distance and Displacement
-A is to the B of C
-45°, 135°, etc.
-Golden Rule: Update facingafter each turn
-Nose Compass Trick
-Draw Arrow Diagrams
-90°anticlockwise/clockwise
-Pythagoras for ShortestDistance
-Visualise Yourself as theMover
-15‑sec Skip Rule: If initialfacing or first turn notclear
-45‑sec Mark & Move: >4turns or complexshadow+time
-Solve Simple Questions in&lt;30 sec
-Do Not Re‑Read EntireProblem Repeatedly
-About Turn mistaken asLeft/Right
-Distance vs DisplacementConfusion
-Morning logic applied toEvening
-Similar Options withDifferent Direction
-Unclear Initial FacingDirection
-Pythagoras Theorem
-3‑4‑5, 5‑12‑13, 6‑8‑10,8‑15‑17
-Left: −90°, Right: +90°
-About Turn: ±180°
-Intercardinal Shift: ±45°
-North
-East
-South
-West
-NE
-SE
-SW
-NW
-Sun Position
-Time of Day
+```mermaid
+flowchart TD
+    Root["Direction Sense (दिशा ज्ञान)"] --> D1["Core Directions (मूल दिशाएं)"]
+    Root --> D2["Turns & Rotations (मोड़ और घूर्णन)"]
+    Root --> D3["Shadow Problems (परछाईं आधारित)"]
+    Root --> D4["Distance & Displacement (दूरी और विस्थापन)"]
+
+    D1 --> D1A["Cardinal: North, South, East, West"]
+    D1 --> D1B["Intercardinal: North-East, North-West, South-East, South-West"]
+
+    D2 --> D2A["Right Turn = 90° Clockwise"]
+    D2 --> D2B["Left Turn = 90° Anticlockwise"]
+    D2 --> D2C["About Turn = 180° Reverse"]
+
+    D3 --> D3A["Morning: Sun in East, Shadow falls West"]
+    D3 --> D3B["Evening: Sun in West, Shadow falls East"]
+    D3 --> D3C["Noon 12 PM: No Shadow directly beneath"]
+
+    D4 --> D4A["Total Distance = Sum of all segment lengths"]
+    D4 --> D4B["Shortest Distance = Pythagoras Theorem (H² = B² + P²)"]
+```

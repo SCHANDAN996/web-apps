@@ -1,567 +1,151 @@
-📝 Set 4/6 — Direction Sense (Medium Level)
+Questions 76–95: Easy | Questions 96–100: Medium
 
-Instructions: Each question has four answer choices. Select the correct option and read the detailed solution.
-
-76. One morning, Suraj is standing in a park. His friend Ravi is coming from the opposite direction. Suraj observes that Ravi’s shadow is falling exactly to Suraj’s right. In which direction is Ravi facing?
-
-A) North
-B) South
-C) East
-D) West
-
-Answer: B) South
-Solution: Morning sun East, shadow West. Ravi’s shadow (West) falls to Suraj’s right → Suraj’s right is West → Suraj faces South. They face each other, so Ravi faces North? Wait: If Suraj faces South, Ravi faces North. But let’s check: shadow West on Suraj’s right. If Suraj faces South, right is West, good. Then Ravi faces opposite = North. But answer says South. Re-evaluate: Suraj sees Ravi’s shadow to Suraj’s right. The shadow is of Ravi, so the shadow’s direction is West. If West is to Suraj’s right, then Suraj’s right is West, so Suraj’s facing South. They face each other, so Ravi faces North. So answer should be North, not South. I need to correct: the trap might be that the shadow is Ravi’s, so its direction West is relative to Ravi? Actually, Ravi’s shadow falls West regardless of Ravi’s facing. Suraj sees that shadow to his right. So we deduce Suraj’s orientation. They face opposite directions. So if Suraj faces South, Ravi faces North. So answer North. But the question asks “In which direction is Ravi facing?” So answer North. But the answer option B is South, which would be if Suraj faced North. Let’s recalc: Morning shadow West. If shadow is to Suraj’s right, then West is on right. So Suraj’s facing is such that right is West. That is South (since facing South, right is West). So Suraj faces South. Then Ravi faces opposite = North. So answer should be A) North. I’ll set answer A.
+76. At 8 a.m., a man stands in a field. His shadow falls exactly behind him. In which direction is he facing?
+(a) East (b) West (c) North (d) South
+Answer: (a)
+Solution: In the morning, the Sun is in the East and shadows fall toward the West. Since his shadow falls behind him, he is facing East.
 Source: PYQ-style
 
-77. If ‘North’ means ‘East’, ‘East’ means ‘South’, ‘South’ means ‘West’, and ‘West’ means ‘North’, then what will ‘North-East’ mean?
-
-A) South-East
-B) North-West
-C) South-West
-D) North-East
-
-Answer: A) South-East
-Solution: N→E, E→S. So NE = N+E → East + South = South-East.
+77. A person walks 20 m East, then turns left and walks 20 m, and then turns right and walks 10 m. What is the shortest distance from the starting point?
+(a) 30 m (b) 10√13 m (c) 20 m (d) 25 m
+Answer: (b)
+Solution: Net East displacement = 20 + 10 = 30 m, North displacement = 20 m. By Pythagoras theorem, shortest distance = √(30² + 20²) = √1300 = 10√13 m.
 Source: PYQ-style
 
-78. A man walks 5 m East, then turns right and walks 12 m. He then turns right and walks 5 m, and finally turns right and walks 12 m. How far is he from his starting point?
-
-A) 0 m
-B) 13 m
-C) 17 m
-D) 10 m
-
-Answer: A) 0 m
-Solution: The path forms a rectangle (5 East, 12 South, 5 West, 12 North), returning to start.
+78. A boy walks 30 m South, turns right and walks 40 m, turns right and walks 30 m, and finally turns left and walks 20 m. In which direction is he from his starting point?
+(a) North (b) East (c) West (d) South
+Answer: (c)
+Solution: The 30 m South and 30 m North cancel out. Net Westward displacement = 40 + 20 = 60 m. Therefore, he is West of his starting point.
 Source: PYQ-style
 
-79. At 6 PM, a woman is walking home. She sees her shadow falling exactly in front of her. She walks 30 m straight, then turns left and walks 40 m. In which direction is she now from her starting point? (Assume she started facing the direction of her shadow.)
-
-A) North-West
-B) North-East
-C) South-East
-D) South-West
-
-Answer: B) North-East
-Solution: 6 PM sun West, shadow East. Shadow in front → she faces East. Walks 30 m East. Left turn → North, walks 40 m. Final position: 30 East, 40 North → North-East.
+79. At 5 p.m., a woman notices that her shadow falls to her right. In which direction is she facing?
+(a) West (b) South (c) East (d) North
+Answer: (d)
+Solution: In the evening, the Sun is in the West, so shadows fall toward the East. Her right side being East means she is facing North.
 Source: PYQ-style
 
-80. ⚠️ Examiner’s Trap
-A boy is facing South. He turns left and walks 10 m. Then he turns about and walks 5 m. Then he turns right and walks 10 m. In which direction is he from his starting point?
-
-A) North
-B) South
-C) East
-D) West
-
-Answer: D) West
-Solution: Start South. Left → East, walk 10 m (now at +10 East). About turn (180°) → West, walk 5 m (net East = 5 m). Right → North? Wait, after about turn, he faces West. Right from West is North, walk 10 m (net North = 10 m). Final: 5 m East, 10 m North. That’s North-East, not West. I need to check: He starts at origin (0,0) facing South. Left → East, walk 10 m (face East, position 10,0). About turn → West (face West), walk 5 m → position (5,0) still face West. Right turn → North (face North), walk 10 m → position (5,10). So he is 5 East, 10 North ⇒ North-East. Not West. So maybe the trap is something else. I’ll redesign a trap: a path where “about turn” leads to a miscalculation. For example: A man is facing North. He turns right and walks 10 m. Then turns left and walks 5 m. Then turns about and walks 10 m. Which direction is he from start? Let’s solve: North face, right→East 10, left→North 5, about→South 10. Net: East 10, North 5-10 = -5 (5 South) → South-East. That’s fine. But I want a trap answer. The trap is that after about turn, candidates may forget the facing direction update. So I’ll craft: “A man is facing West. He turns left and walks 8 m. Then turns right and walks 5 m. Then turns about and walks 8 m. Which direction is he from start?” Solve: West face, left → South 8 (pos: 0,-8), right → West 5 (pos: -5,-8), about → East, walk 8 (pos: 3,-8). Net: 3 East, 8 South ⇒ South-East. Not a trap. Better: Use a path where the about turn cancels a previous leg. Example: A boy walks 12 m East. He turns about and walks 7 m. He then turns left and walks 7 m. In which direction is he from start? East 12, about West 7, left (from West) → South 7. Final: East 5, South 7 ⇒ South-East. That’s okay. To make it a trap, I’ll incorporate a shadow or a relative direction trick. Actually, question 74 already had an about turn trap. I’ll make Q80 another tricky one: “A girl is facing North. She turns 90° right, then 270° left, then 90° right. In which direction is she facing now?” Many will confuse 270° left with something else. Let’s solve: North (0°). Right 90° → East (90°). Left 270° → East – 270° = –180° ≡ 180° (South) (or anti-clockwise 270° from East is North? Careful: anti-clockwise rotation from East: 90° anti gives North, 180° anti gives West, 270° anti gives South. So left 270° from East → South. Then right 90° → West. Final West. That’s not super tricky. I’ll use a mirror trap: “A man is standing in front of a mirror facing North. He raises his left hand. Which hand does his reflection appear to raise?” That’s not direction sense. Alright, I’ll make Q80 about a person who turns “about” and then “right” and the options are misleading. Let’s do: “Rahul walks 10 m East, then turns about and walks 5 m, then turns right and walks 5 m. In which direction is he from start?” East 10, about West 5 (face West, pos 5 East), right from West → North, walk 5 (pos 5 East, 5 North). Direction North-East. That’s not tricky. I’ll just create a question with double about turns. “A person walks 20 m South, turns about and walks 10 m, turns left and walks 10 m, turns about and walks 10 m. How far is he from start?” South 20, about North 10 (face N, pos South 10), left from N → West 10 (face W, pos S10, W10), about East 10 (face E, pos S10, W0). Final 10 m South. Distance 10 m. That’s okay. I’ll label it trap: the double about turn can confuse.
+80. A is 5 m North of B. C is 12 m East of A. D is 5 m South of C. What is the shortest distance between A and D?
+(a) 13 m (b) 12 m (c) 5 m (d) 10 m
+Answer: (a)
+Solution: From A to C is 12 m East; from C to D is 5 m South. In right triangle ACD, shortest distance AD = √(12² + 5²) = √169 = 13 m.
 Source: PYQ-style
 
-81. A is 5 m South of B. C is 5 m East of B. D is 5 m North of C. E is 5 m West of D. What is the position of E with respect to A?
-
-A) 10 m North
-B) 10 m East
-C) Same as A
-D) 5 m North
-
-Answer: D) 5 m North
-Solution: B(0,0). A(0,–5). C(5,0). D(5,5). E(0,5). A(0,–5) and E(0,5): E is 10 m North of A? Wait, 5 – (–5) = 10. So 10 m North. Option A says 10 m North. I’ll set answer A. But I need to verify: A is South 5 of B, so B(0,0) → A(0,-5). C East 5 of B → C(5,0). D North of C 5 → D(5,5). E West of D 5 → E(0,5). So E(0,5) to A(0,-5) is 10 m North. So answer A) 10 m North.
+81. A person stands facing West. He turns 135° anticlockwise, then 90° clockwise, and then 45° anticlockwise. In which direction is he facing now?
+(a) North (b) South (c) East (d) West
+Answer: (b)
+Solution: Net rotation = -135° + 90° - 45° = -90° (anticlockwise). Turning 90° anticlockwise from West (270°) points to South (180°).
 Source: PYQ-style
 
-82. At 7 AM, a man is walking to his office. His shadow is exactly to his right. He walks 50 m, then takes a left turn and walks 20 m. In which direction is he now from his starting point?
-
-A) North-West
-B) South-West
-C) North-East
-D) South-East
-
-Answer: C) North-East
-Solution: 7 AM sun East, shadow West. Shadow to right → West on right → he faces South? Let’s check: If facing South, right is West. Yes. So he starts South. Walks 50 m South, left turn → East, walks 20 m. Final: 50 South, 20 East ⇒ South-East. That’s option D. But I want North-East? I need to recalc: Shadow to his right means West is on his right. If he faces North, right is East. So West on right only if facing South (right is West). So South. 50 South, left → East, 20 East. Final South-East. So answer D. I’ll set accordingly. I’ll change question to “shadow to his left” to get North-East. Shadow left: West on left → facing North (left is West). Then walk 50 North, left → West 20. That gives North-West. So not North-East. For North-East, start facing East? Shadow West, if East on right? Morning shadow West. If shadow is to his right, he faces South. If shadow to his front, faces East? Actually, if he faces East, shadow is behind (West). So not right. I’ll just make a different scenario: “His shadow is falling exactly in front of him. He walks 30 m, then turns right and walks 40 m.” Then direction from start: shadow front → East facing, walk 30 East, right → South 40, final South-East. That’s okay. I’ll keep the right shadow and South start, resulting South-East, but to make it medium, add distance. I’ll go with that.
+82. A man walks 15 m North, then 8 m West, then 15 m South, and finally 6 m East. How far and in which direction is he from the start?
+(a) 8 m West (b) 2 m East (c) 2 m West (d) 14 m East
+Answer: (c)
+Solution: The 15 m North and 15 m South cancel out. Net horizontal displacement = 8 - 6 = 2 m West. Therefore, he is 2 m West of his starting point.
 Source: PYQ-style
 
-83. If the directions are rotated 135° anti-clockwise, then what will 'West' become?
-
-A) North-East
-B) South-East
-C) South-West
-D) North-West
-
-Answer: A) North-East
-Solution: 135° anti-clockwise: West (270°) – 135° = 135° (South-East). Wait, 270 – 135 = 135° (SE). So SE. That’s B. I need to recalc: 135° anti-clockwise is -135. 270 - 135 = 135 (SE). So answer South-East. I’ll set B. But I’ll double-check: 135° anti-clockwise from West: move anti-clockwise 90° to South, then another 45° to South-East. Yes, SE. So answer B.
+83. At 12 noon, a boy stands facing the Sun. In which direction will his shadow fall?
+(a) West (b) North (c) South (d) Directly beneath his feet
+Answer: (d)
+Solution: At 12 noon, the Sun is directly overhead, so the shadow falls directly beneath the feet.
 Source: PYQ-style
 
-84. A man walks 8 m towards West, then turns left and walks 6 m, then turns left and walks 8 m, then turns left and walks 10 m. How far is he from his starting point?
-
-A) 4 m
-B) 6 m
-C) 10 m
-D) 2 m
-
-Answer: A) 4 m
-Solution: West 8 (W). Left → South 6 (S). Left → East 8 (E). Left → North 10 (N). Net: West-East cancel (8W – 8E = 0), South-North: 6S – 10N = 4 m North. So 4 m North. So distance 4 m.
+84. If 'East' is called 'North', 'West' as 'South', 'North' as 'West', and 'South' as 'East', what will 'North-West' be called?
+(a) South-West (b) North-East (c) South-East (d) West-North
+Answer: (a)
+Solution: North becomes West and West becomes South. Therefore, North-West becomes West-South, which is South-West.
 Source: PYQ-style
 
-85. ⚠️ Examiner’s Trap
-At sunrise, a boy and a girl are standing facing each other. The boy’s shadow is falling to the left of the girl. In which direction is the boy facing?
-
-A) North
-B) South
-C) East
-D) West
-
-Answer: B) South
-Solution: Sunrise sun East, boy’s shadow West. Shadow to girl’s left → girl’s left is West → girl faces South. They face each other, so boy faces North? Wait: girl faces South, boy faces opposite = North. That’s not South. Let’s recalc: Boy’s shadow West. For the girl, shadow falls to her left. So West is to girl’s left. If girl’s left is West, then she faces South (since left is West when facing South). They face each other, so boy faces North. So answer A) North. I’ll set A. But the trap: many might think boy faces South because shadow left of girl implies something else. I’ll make it a trap by phrasing “boy’s shadow is falling to the left of the girl” meaning from the girl’s perspective, the shadow (which is West) is to her left. So girl faces South, boy faces North. So answer North.
+85. A person walks 10 m East, turns left and walks 10 m, then turns about (180°) and walks 20 m. In which direction is he from the starting point?
+(a) North-East (b) South-East (c) South-West (d) North-West
+Answer: (b)
+Solution: East 10 m brings him to (10,0). Walking 10 m North and then 20 m South leaves him at (10,-10). Since x is positive and y is negative, he is South-East of the start.
 Source: PYQ-style
 
-86. A person starts from point X and walks 10 m East, then 10 m South, then 10 m West, then 10 m North, then 5 m East. In which direction is he from X?
-
-A) East
-B) West
-C) North
-D) South
-
-Answer: A) East
-Solution: First four moves form a square back to X, then 5 m East. So he is East.
+86. In a code, 'Left' means East, 'Right' means West, 'Forward' means North, and 'Backward' means South. A person facing North turns according to: Left, Forward, Right. Which direction is he facing at the end?
+(a) North (b) East (c) West (d) South
+Answer: (c)
+Solution: The final instruction executed is 'Right', which codes for turning towards West. Therefore, he is facing West.
 Source: PYQ-style
 
-87. If 'South' is coded as 'North-East', 'East' as 'South-West', then what is 'North' coded as?
-
-A) North-West
-B) South-East
-C) South-West
-D) North-East
-
-Answer: B) South-East
-Solution: South (180°) → NE (45°): difference = +225° (or -135°). East (90°) → SW (225°): difference = +135°? Wait, 90 to 225 is +135, not same. So not uniform. Maybe it’s mirror across the North-South axis? South (S) to NE (45°), East (E) to SW (225°). That is like each coordinate (x,y) on unit circle. S is (0,-1). NE is (√2/2, √2/2). Not straightforward. I’ll simplify: If South is North-East, then the code might be reversing N-S and E-W? S becomes NE, so S maps to NE, meaning the map flips N and S? Not consistent. Perhaps a rotation: S (180) to NE (45) = -135 (or +225). E (90) to SW (225) = +135. Not the same. So maybe not uniform. I’ll discard this and use a uniform rotation: “If South-East is coded as North, what will West be coded as?” That’s easier. So replace Q87 with: “In a certain code, South-East is called North, North-East is called East. What will West be called?” Determine rotation: SE (135°) → North (0°) = -135° or +225°. NE (45°) → East (90°) = +45°. Inconsistent again. So I’ll just do a simple shift: “If North is called East, East is called South, South is called West, West is called North, then what is South-West called?” That’s consistent 90° clockwise rotation. I’ll use that. So Q87: If North→East, East→South, South→West, West→North, then South-West is? SW = S+W → West + North = North-West. Answer North-West. That’s fine.
+87. A woman walks 12 m South, then 5 m West, then 6 m North, and then 5 m East. How far is she from her starting point?
+(a) 4 m (b) 10 m (c) 8 m (d) 6 m
+Answer: (d)
+Solution: The 5 m West and 5 m East cancel horizontally. Net Southward displacement = 12 - 6 = 6 m. Therefore, she is 6 m from the start.
 Source: PYQ-style
 
-88. A girl walks 6 m North, 8 m West, 6 m South, and 10 m East. How far is she from the start?
-
-A) 2 m
-B) 4 m
-C) 8 m
-D) 10 m
-
-Answer: A) 2 m
-Solution: North-South cancel. West 8, East 10 → 2 m East. Distance = 2 m.
+88. Point P is 4 m West of Q. R is 3 m North of Q. S is 4 m East of R. What is the shortest distance between Q and S?
+(a) 5 m (b) 7 m (c) 6 m (d) 4 m
+Answer: (a)
+Solution: Let Q = (0,0). Then R = (0,3) and S = (4,3). Shortest distance QS = √(4² + 3²) = √25 = 5 m.
 Source: PYQ-style
 
-89. A is 3 m North of B. C is 4 m East of B. D is 3 m South of C. E is 4 m West of D. F is 3 m North of E. Where is F with respect to B?
-
-A) 4 m East
-B) 3 m North
-C) Same point
-D) 3 m South
-
-Answer: A) 4 m East
-Solution: B(0,0). A(0,3). C(4,0). D(4,-3). E(0,-3). F(0,0)? Wait, F is 3 m North of E: E(0,-3) → F(0,0). So F = B. Answer should be Same point. But I wrote A) 4 m East. Let's recalc: A is 3 m North of B, so A(0,3). C is 4 m East of B, so C(4,0). D is 3 m South of C, so D(4,-3). E is 4 m West of D, so E(0,-3). F is 3 m North of E → F(0,0) = B. So F is at B. So answer C) Same point. I’ll correct.
+89. A person walks 25 m East, turns right and walks 10 m, then turns about (180°) and walks 10 m. How far is he from the starting point?
+(a) 10 m (b) 25 m (c) 35 m (d) 0 m
+Answer: (b)
+Solution: Walking 10 m South and 10 m North cancels the vertical displacement, leaving 25 m East. Therefore, the distance is 25 m.
 Source: PYQ-style
 
-90. A man is facing West. He turns 45° anti-clockwise, then 135° clockwise, then 90° anti-clockwise. In which direction is he facing now?
-
-A) North
-B) South
-C) East
-D) West
-
-Answer: A) North
-Solution: West (270°) –45° = 225° (SW). +135° = 360° (0°, North). –90° = 270° (West). So West. Not North. Let’s recalc: start West (270). Anti-clockwise 45 → 270-45=225 (SW). Clockwise 135 → 225+135=360=0 (North). Anti-clockwise 90 → 0-90=270 (West). So West. So answer D. I need to adjust to get North. Maybe change last turn to 90° clockwise: then 0+90=90 (East). Not North. Change sequence: West, anti-clockwise 45 (SW), clockwise 225 (from SW 225+225=450=90 East), anti-clockwise 90 (East-90=0 North). That works: West, anti-clockwise 45 (SW), clockwise 225 (E), anti-clockwise 90 (N). So final North. I'll set that.
+90. If 'South-East' is called 'North', what will 'West' be called? (assuming uniform rotation)
+(a) South-West (b) North-East (c) South-East (d) North-West
+Answer: (c)
+Solution: South-East (135°) shifts 135° anticlockwise to become North (0°). Applying the same 135° anticlockwise shift to West (270°) gives South-East (135°).
 Source: PYQ-style
 
-91. At noon, a man is standing facing North. He turns left and walks 20 m, then turns right and walks 15 m. In which direction is his shadow falling now? (Northern hemisphere)
-
-A) North
-B) South
-C) East
-D) West
-
-Answer: B) South
-Solution: Noon sun South. Start North. Left → West, walk 20 (face W). Right → North, walk 15 (face N). Final facing North. Shadow opposite sun → South.
+91. A boy walks 6 m North, 8 m West, 6 m South, and 2 m East. In which direction is he from his starting point?
+(a) East (b) North (c) South (d) West
+Answer: (d)
+Solution: The 6 m North and 6 m South cancel out. Net horizontal displacement = 8 - 2 = 6 m West. Therefore, he is West of his starting point.
 Source: PYQ-style
 
-92. ⚠️ Examiner’s Trap
-A man walks 15 m South, turns right and walks 20 m, turns right and walks 15 m, then turns left and walks 10 m. How far and in which direction is he from the start?
-
-A) 30 m East
-B) 30 m West
-C) 10 m East
-D) 20 m West
-
-Answer: A) 30 m East
-Solution: South 15, right → West 20, right → North 15, left → West 10? Wait: after North, left is West. So West 10. Net: South-North cancel, West 20+10=30 m West. So he is 30 m West. That’s B. But I had answer A. Let’s recompute carefully: Start face South? Not given. Assume initial facing South. Walk 15 South (face S). Turn right → West, walk 20 (face W). Turn right → North, walk 15 (face N). Turn left → West, walk 10 (face W). Final net: South-North cancel (15S – 15N =0), West = 20+10 = 30 m West. So answer B) 30 m West. I’ll set B.
+92. At 7 a.m., a person starts walking towards his shadow. He walks 10 m, then turns left and walks 10 m. In which direction is he from his starting point?
+(a) South-West (b) North-West (c) North-East (d) South-East
+Answer: (a)
+Solution: In the morning, shadow is West. He walks 10 m West, then turns left (South) and walks 10 m. Therefore, he is South-West of the starting point.
 Source: PYQ-style
 
-93. At sunrise, a man is facing the sun. He walks 10 m, turns right and walks 24 m, then turns right and walks 10 m. What is the shortest distance from his starting point?
-
-A) 26 m
-B) 24 m
-C) 10 m
-D) 14 m
-
-Answer: A) 26 m
-Solution: Sun East, face East. East 10, right (South) 24, right (West) 10. Net: East-West cancel, South 24 m. Distance = 24 m. Wait, that’s not 26. I need a Pythagoras triple. 10-24-26 (10²+24²=676, sqrt=26). So if final position is 10 East and 24 South? But East 10, right South 24, right West 10 cancels East, leaving South 24. So distance 24. To get 10 and 24 as legs, we need to end with 10 East and 24 South. So modify: start facing East, walk 10 East, left (North) 24, right (East) 10? That gives East 20, North 24, distance √(20²+24²)=31.2. Not 26. The classic 5-12-13, 10-24-26. So if he walks 10 East, then right South 24? That gives East 10, South 24 after first two legs, but the third leg West 10 cancels East. So no. I need a path that ends with East component 10 and South component 24. Example: Start North, walk 10 North, then right East 24, then right South 10? That gives North 10-10=0, East 24. So distance 24. Not 26. So to get 10 and 24 as perpendicular legs, we need something like: walk 10 East, then left North 24, then right East 0? Not. Maybe: East 10, right South 24, then left East 10? That gives East 20, South 24 → distance √(20²+24²)=31.2. Not 26. So the triple 10-24-26 requires legs 10 and 24. So I'll do: a man walks 10 m East, then 24 m South, then 10 m West, then 24 m North? That returns. So no. I'll just use the classic 3-4-5: a man walks 3 m East, 4 m North, distance 5. That's easy. For medium, use 6-8-10 or 9-12-15 or 12-16-20. So I'll set: walks 12 m East, right 16 m South, left 0? Actually, 12 East, right 16 South, then right 12 West cancels East, leaving 16 South. Not triangle. I need the two legs perpendicular. Path: 12 East, then 5 North? That gives 13. So 12 East, 5 North = 13. Or 6 East, 8 North = 10. So I'll design: “A man walks 6 m East, then turns left and walks 8 m. He then turns right and walks 4 m.” That would be East 6, left North 8, right East 4 → East 10, North 8 → distance √(100+64)=√164≈12.8. Not nice. So better to keep simple: East 6, left North 8, then no more? That gives distance 10. But that’s 2 legs. For medium, 3 legs. So I'll create a 3-leg path that yields a nice Pythagorean pair after cancellation: e.g., South 12, left East 5, left North 9 → net South 3, East 5 → distance √(9+25)=√34, not nice. Alternatively, North 8, left West 6, left South 4 → net North 4, West 6 → distance √52. Not nice. So I'll use a 4-leg rectangle plus an extra leg that results in a nice displacement. Example: 8 m East, 6 m North, 8 m West, 2 m North → net 8 North, East-West cancel, distance 8. Not Pythagoras. To get Pythagoras, I need both components non-zero. For medium, I'll just include a question that explicitly requires Pythagoras with a common triple. Like Q28 already did. I'll skip repeating. I'll make Q93 a shadow plus distance: “At sunrise, a man walks 5 m towards the sun, then turns right and walks 12 m. How far is he from his starting point?” East 5, right South 12 → distance 13. That works. So Q93: At sunrise, man faces sun (East). Walks 5 m East, turns right and walks 12 m. Distance = 13 m. Simple. But I said Medium level, and it's 2 legs, which is easy. But I can make it 3 legs: 5 East, right 12, left 0? Not. I'll do 5 East, right 12 South, left 6 East? That gives East 11, South 12 → √265 ≈ 16.3. Not nice. I’ll stick with 2 legs, it’s still medium considering it's a mix of shadow and Pythagoras. So: At sunrise, a man walks 5 m towards the sun, then turns right and walks 12 m. The shortest distance from start? 13 m.
+93. A person walks 5 m East, 10 m North, 10 m West, 5 m South, and 5 m East. What is the shortest distance from the start?
+(a) 10 m (b) 5 m (c) 0 m (d) 15 m
+Answer: (b)
+Solution: East-West displacement = 5 - 10 + 5 = 0 m. North-South displacement = 10 - 5 = 5 m. Therefore, the shortest distance from the start is 5 m.
 Source: PYQ-style
 
-94. If the directions are rotated 90° clockwise, then 'East' becomes South, 'South' becomes West, etc. What does 'North-West' become?
-
-A) South-West
-B) North-East
-C) South-East
-D) North-West
-
-Answer: B) North-East
-Solution: 90° clockwise: NW (315°) +90° = 45° (NE).
+94. Point A is 7 m South of B. Point C is 24 m East of B. What is the straight-line distance between A and C?
+(a) 17 m (b) 24 m (c) 25 m (d) 31 m
+Answer: (c)
+Solution: In right triangle ABC: AC = √(24² + 7²) = √(576 + 49) = √625 = 25 m. Therefore, the correct answer is 25 m.
 Source: PYQ-style
 
-95. A man is facing North-East. He turns 135° clockwise, then 90° anti-clockwise, then 45° clockwise. In which direction is he facing?
-
-A) South
-B) South-West
-C) South-East
-D) West
-
-Answer: C) South-East
-Solution: NE (45°) +135° = 180° (South). –90° = 90° (East). +45° = 135° (SE).
+95. At 6 p.m., a boy stands facing West. In which direction is his shadow falling?
+(a) South (b) West (c) North (d) East
+Answer: (d)
+Solution: In the evening, the Sun is in the West, so all shadows fall towards the East.
 Source: PYQ-style
 
-96. A woman walks 4 m South, turns left and walks 6 m, turns left and walks 4 m, turns right and walks 8 m. In which direction is she from the start?
-
-A) West
-B) East
-C) North
-D) South
-
-Answer: B) East
-Solution: South 4 (face S), left → East 6 (face E), left → North 4 (face N), right → East 8 (face E). Net: South-North cancel, East = 6+8 = 14 m East. So East.
+96. A man walks 15 m North, then 20 m East, then 15 m South, and finally 10 m West. What is the straight-line distance from the start?
+(a) 10 m (b) 5 m (c) 15 m (d) 20 m
+Answer: (a)
+Solution: The 15 m North and 15 m South cancel out vertically. Net Eastward displacement = 20 - 10 = 10 m. Therefore, the distance is 10 m.
 Source: PYQ-style
 
-97. ⚠️ Examiner’s Trap
-A boy starts from his home and walks 10 m North. He then turns right and walks 5 m, then turns left and walks 5 m, then turns left again and walks 10 m. In which direction is he facing now?
-
-A) East
-B) West
-C) North
-D) South
-
-Answer: B) West
-Solution: Start North, walk 10 (N). Right → East, walk 5 (face E). Left → North, walk 5 (face N). Left → West, walk 10 (face W). So final facing West. The trap: the path ends with a left turn, many forget the direction update.
+97. A person is facing South-West. He turns 90° to his left, then turns 180°, and finally turns 90° to his right. In which direction is he facing now?
+(a) South-East (b) North-East (c) North-West (d) South-West
+Answer: (b)
+Solution: Facing South-West (225°): Turning 90° left brings him to South-East (135°). Turning 180° brings him to North-West (315°). Finally turning 90° right brings him to North-East (45°).
 Source: PYQ-style
 
-98. At 8 AM, a man is walking towards a tower. The shadow of the tower falls exactly towards his left. In which direction is the tower from him?
-
-A) North
-B) South
-C) East
-D) West
-
-Answer: B) South
-Solution: 8 AM sun East, tower shadow West. Shadow to his left → West on left → he faces South. So tower is in front of him = South.
+98. A woman walks 10 m West, then 6 m North, then 4 m East, and then 3 m South. In which direction is she from her starting point?
+(a) South-West (b) North-East (c) North-West (d) South-East
+Answer: (c)
+Solution: Net Westward displacement = 10 - 4 = 6 m; net Northward displacement = 6 - 3 = 3 m. Therefore, she is in the North-West direction from her starting point.
 Source: PYQ-style
 
-99. A is 6 m West of B. C is 8 m North of B. D is 6 m East of C. E is 8 m South of D. F is 6 m West of E. Where is F with respect to A?
-
-A) 16 m North
-B) 8 m North
-C) Same point
-D) 8 m South
-
-Answer: B) 8 m North
-Solution: B(0,0). A(-6,0). C(0,8). D(6,8). E(6,0). F(0,0). So F = B. A is 6 m West of B. So F is 6 m East of A? Wait, A(-6,0), F(0,0) → F is 6 m East of A. Not north. So answer should be 6 m East, not in options. I need to re-evaluate. C is 8 m North of B, so C(0,8). D is 6 m East of C: D(6,8). E is 8 m South of D: E(6,0). F is 6 m West of E: F(0,0). So F = B. A is (-6,0). So F is 6 m East of A. Not in options. So modify to get a vertical separation. Let’s change: A is 6 m West of B. C is 8 m North of B. D is 6 m East of C. E is 4 m South of D? That gives E(6,4). F is 6 m West of E → F(0,4). Then F is 6 m East, 4 m North of A? Not matching. I’ll redesign: A is 4 m West of B. C is 5 m North of B. D is 4 m East of C. E is 5 m South of D. F is 4 m West of E. Then F = B. So F is 4 m East of A? Again. So to get a north-south difference, I need an imbalance. Example: A is 3 m West of B. C is 5 m North of B. D is 2 m East of C. E is 3 m South of D. F is 1 m West of E. Then F(?,?). Let's set B(0,0). A(-3,0). C(0,5). D(2,5). E(2,2) (since 3 south). F(1,2). So F(1,2) relative to A(-3,0): 4 m East, 2 m North. Not a nice answer. I'll simplify: I'll make it symmetric but with a net shift: A is West of B, C North of B, D East of C, E South of D but not all the way back. For instance, E is 3 m South of D. Then F West of E. That gives a net North. Let's do: B(0,0). A(-5,0). C(0,10). D(5,10). E(5,7) (3 South). F(0,7) (5 West). So F(0,7) to A(-5,0): East 5, North 7 → not a standard option. I'd rather make it a perfect rectangle so F is exactly North of A. If I set D is East of C by 6, E is South of D by 8, F is West of E by 6, then F is (0,0) again. So no. To get F directly North of A, make A West of B, C North of B, D East of C same as A's west? Not. I'll just scrap and use a simpler relative positioning: “A is 10 m South of B. C is 10 m East of B. D is 10 m North of C. E is 10 m West of D. F is 10 m South of E.” Then F = B. So F is 10 m North of A. That's option 10 m North. So I'll use that. So Q99: A is 10 m South of B. C is 10 m East of B. D is 10 m North of C. E is 10 m West of D. F is 10 m South of E. Where is F with respect to A? Answer: 10 m North.
+99. If 'North' means 'South-East', and 'West' means 'North-East', what does 'South' mean?
+(a) South-East (b) South-West (c) North-East (d) North-West
+Answer: (d)
+Solution: The directions rotate 135° clockwise. Therefore, South (180°) + 135° = 315°, which is North-West.
 Source: PYQ-style
 
-100. A man walks 20 m towards East, then turns left and walks 15 m, then turns right and walks 10 m, then turns left and walks 15 m. How far is he from his starting point?
-
-A) 30 m East
-B) 30 m North
-C) 30 m West
-D) 30 m South
-
-Answer: A) 30 m East
-Solution: East 20, left North 15, right East 10, left North 15. Net: East 30 m, North 30 m → not pure East. Option A says 30 m East, but it’s actually North-East with distance √(30²+30²)=42.4 m. So that’s wrong. I need to design a path that yields a single direction. To get pure East, the North components should cancel. So if he had a South leg. Modify: East 20, left North 15, right East 10, right South 15. Then net: East 30, North-South cancel → 30 m East. So I'll set: “A man walks 20 m East, turns left and walks 15 m, turns right and walks 10 m, then turns right and walks 15 m.” That gives East 20, North 15, East 10, South 15 → East 30, North-South cancel. So answer 30 m East. Perfect.
-Source: PYQ-style
-
----📝 Set 4/6 — Direction Sense (Medium Level)
-
-Instructions: Each question has four answer choices. Select the correct option and read the detailed solution.
-
-76. One morning, Suraj is standing in a park. His friend Ravi is coming from the opposite direction. Suraj observes that Ravi’s shadow is falling exactly to Suraj’s right. In which direction is Ravi facing?
-
-A) North
-B) South
-C) East
-D) West
-
-Answer: A) North
-Solution: Morning sun East, shadow West. Ravi’s shadow (West) falls to Suraj’s right ⇒ Suraj’s right is West ⇒ Suraj faces South. Since they face each other, Ravi faces North.
-Source: PYQ-style
-
-77. If ‘North’ means ‘East’, ‘East’ means ‘South’, ‘South’ means ‘West’, and ‘West’ means ‘North’, then what will ‘North-East’ mean?
-
-A) South-East
-B) North-West
-C) South-West
-D) North-East
-
-Answer: A) South-East
-Solution: N → E, E → S. So NE = N + E → East + South = South-East.
-Source: PYQ-style
-
-78. A man walks 5 m East, turns right and walks 12 m, then turns right and walks 5 m, and finally turns right and walks 12 m. How far is he from his starting point?
-
-A) 0 m
-B) 13 m
-C) 17 m
-D) 10 m
-
-Answer: A) 0 m
-Solution: The path is a rectangle: East 5, South 12, West 5, North 12 → back to start.
-Source: PYQ-style
-
-79. At 6 PM, a woman is walking home. She sees her shadow falling exactly in front of her. She walks 30 m straight, then turns left and walks 40 m. In which direction is she now from her starting point? (Assume she started facing her shadow.)
-
-A) North-West
-B) North-East
-C) South-East
-D) South-West
-
-Answer: B) North-East
-Solution: 6 PM sun West, shadow East. Shadow in front → she faces East. 30 m East, left → North 40 m. Final: East 30, North 40 → North-East.
-Source: PYQ-style
-
-80. ⚠️ Examiner’s Trap
-A boy is facing South. He turns left and walks 10 m. Then he turns about and walks 5 m. Then he turns right and walks 10 m. In which direction is he from his starting point?
-
-A) North
-B) South
-C) East
-D) West
-
-Answer: C) East
-Solution: Start South (face S). Left → East, walk 10 m (face E). About turn → West, walk 5 m (face W, net East = 5 m). Right → North, walk 10 m (face N, net North = 10 m). Final: 5 m East, 10 m North → North-East. Wait, options don't match. Let's recompute: Start South, left → East (face E, pos +10E). About turn → West (face W), walk 5 m → pos +5E. Right from West → North, walk 10 m → pos +10N. So direction North-East. Not in options. I need to adjust path to get a single direction. Let's redesign: Start South, left East 10, about West 5, right North 5. Then East 5, North 5 → NE. Not pure. I'll change answer options to include NE, but I want a trap. Alternatively, I'll modify: “... then turns right and walks 5 m.” East 10, about West 5, right North 5 → East 5, North 5. So NE. I'll add NE to options. But the given options are A) North B) South C) East D) West. So no NE. So I'll change the path so the final direction is purely East or West. For East: Start South, left East 10, about West 5, right North 0? No. If after about, he turns left instead of right. Start South, left East 10, about West 5, left South 10. Then net: East 10-5=5, South 10, direction SE. Not pure. So maybe: Start South, left East 10, about West 5, right South 10. Then East 5, South 10 → SE. Still not single. I'll scrap the about turn trap and just make it a tricky path with multiple turns and a final single direction. I'll do: “A man walks 10 m East, turns left and walks 5 m, turns about and walks 15 m, turns right and walks 5 m. In which direction is he from start?” East 10, left North 5, about South 15 (net North -10), right from South? After about, he faces South, right is West, walk 5. Net: East 10, North 5 - 15 = -10 (10 South), West 5. So East 10-5=5 East, South 10 → SE. Not pure. I'll just use a known trap: “A girl walks 15 m South, turns right and walks 20 m, turns about and walks 20 m, turns right and walks 15 m. Where is she from start?” South 15, right West 20, about East 20 (cancel West), right South 15. Net: South 30 m. So answer South. That’s pure. I’ll use that. So Q80: Girl walks 15 m South, turns right and walks 20 m, turns about and walks 20 m, turns right and walks 15 m. Final direction South.
-Source: PYQ-style
-
-81. A is 5 m South of B. C is 5 m East of B. D is 5 m North of C. E is 5 m West of D. What is the position of E with respect to A?
-
-A) 10 m North
-B) 10 m East
-C) Same as A
-D) 5 m North
-
-Answer: A) 10 m North
-Solution: B(0,0). A(0,–5). C(5,0). D(5,5). E(0,5). E is 10 m North of A.
-Source: PYQ-style
-
-82. At 7 AM, a man is walking to his office. His shadow is exactly to his right. He walks 50 m, then takes a left turn and walks 20 m. In which direction is he now from his starting point?
-
-A) North-West
-B) South-West
-C) North-East
-D) South-East
-
-Answer: D) South-East
-Solution: 7 AM sun East, shadow West. Shadow right ⇒ West on right ⇒ he faces South. Walks 50 m South, left → East, 20 m. Final: 50 South, 20 East ⇒ South-East.
-Source: PYQ-style
-
-83. If the directions are rotated 135° anti-clockwise, then what will 'West' become?
-
-A) North-East
-B) South-East
-C) South-West
-D) North-West
-
-Answer: B) South-East
-Solution: 135° anti-clockwise from West (270°) = 270° – 135° = 135° (South-East).
-Source: PYQ-style
-
-84. A man walks 8 m towards West, turns left and walks 6 m, turns left and walks 8 m, then turns left and walks 10 m. How far is he from his starting point?
-
-A) 4 m
-B) 6 m
-C) 10 m
-D) 2 m
-
-Answer: A) 4 m
-Solution: West 8 (W). Left → South 6 (S). Left → East 8 (E). Left → North 10 (N). Net: W/E cancel, N/S = 10N – 6S = 4 m North.
-Source: PYQ-style
-
-85. ⚠️ Examiner’s Trap
-At sunrise, a boy and a girl are standing facing each other. The boy’s shadow is falling to the left of the girl. In which direction is the boy facing?
-
-A) North
-B) South
-C) East
-D) West
-
-Answer: A) North
-Solution: Sunrise sun East, boy’s shadow West. Shadow to girl’s left ⇒ girl’s left is West ⇒ girl faces South. They face each other ⇒ boy faces North.
-Source: PYQ-style
-
-86. A person starts from point X and walks 10 m East, then 10 m South, then 10 m West, then 10 m North, then 5 m East. In which direction is he from X?
-
-A) East
-B) West
-C) North
-D) South
-
-Answer: A) East
-Solution: The first four moves return to X; the final 5 m East takes him East of X.
-Source: PYQ-style
-
-87. If ‘North’ means ‘East’, ‘East’ means ‘South’, ‘South’ means ‘West’, and ‘West’ means ‘North’, then what will ‘South-West’ mean?
-
-A) North-West
-B) South-East
-C) North-East
-D) South-West
-
-Answer: A) North-West
-Solution: S → W, W → N. SW = S + W → West + North = North-West.
-Source: PYQ-style
-
-88. A girl walks 6 m North, 8 m West, 6 m South, and 10 m East. How far is she from the start?
-
-A) 2 m
-B) 4 m
-C) 8 m
-D) 10 m
-
-Answer: A) 2 m
-Solution: N/S cancel; W 8, E 10 → 2 m East.
-Source: PYQ-style
-
-89. A is 3 m North of B. C is 4 m East of B. D is 3 m South of C. E is 4 m West of D. F is 3 m North of E. Where is F with respect to B?
-
-A) 4 m East
-B) 3 m North
-C) Same point
-D) 3 m South
-
-Answer: C) Same point
-Solution: B(0,0); A(0,3); C(4,0); D(4,–3); E(0,–3); F(0,0) = B.
-Source: PYQ-style
-
-90. A man is facing West. He turns 45° anti-clockwise, then 225° clockwise, then 90° anti-clockwise. In which direction is he facing now?
-
-A) North
-B) South
-C) East
-D) West
-
-Answer: A) North
-Solution: West (270°) –45° = 225° (SW); +225° = 450° ≡ 90° (East); –90° = 0° (North).
-Source: PYQ-style
-
-91. At noon, a man is standing facing North. He turns left and walks 20 m, then turns right and walks 15 m. In which direction is his shadow falling now? (Northern hemisphere)
-
-A) North
-B) South
-C) East
-D) West
-
-Answer: B) South
-Solution: Noon sun South. Start North, left West 20 (face W), right North 15 (face N). Final facing North, shadow opposite sun → South.
-Source: PYQ-style
-
-92. ⚠️ Examiner’s Trap
-A man walks 15 m South, turns right and walks 20 m, turns right and walks 15 m, then turns left and walks 10 m. How far and in which direction is he from the start?
-
-A) 30 m East
-B) 30 m West
-C) 10 m East
-D) 20 m West
-
-Answer: B) 30 m West
-Solution: South 15; right → West 20; right → North 15; left → West 10 (from North, left is West). Net: N/S cancel, West = 20+10 = 30 m West.
-Trap: The last left turn from North is West, but many turn East mistakenly.
-Source: PYQ-style
-
-93. At sunrise, a man walks 5 m towards the sun, then turns right and walks 12 m. What is the shortest distance from his starting point?
-
-A) 26 m
-B) 24 m
-C) 13 m
-D) 14 m
-
-Answer: C) 13 m
-Solution: Sun East, face East. East 5 m; right → South 12 m. Distance = √(5²+12²) = 13 m.
-Source: PYQ-style
-
-94. If the directions are rotated 90° clockwise, then ‘East’ becomes South, ‘South’ becomes West, etc. What does ‘North-West’ become?
-
-A) South-West
-B) North-East
-C) South-East
-D) North-West
-
-Answer: B) North-East
-Solution: 90° clockwise: NW (315°) +90° = 45° (NE).
-Source: PYQ-style
-
-95. A man is facing North-East. He turns 135° clockwise, then 90° anti-clockwise, then 45° clockwise. In which direction is he facing?
-
-A) South
-B) South-West
-C) South-East
-D) West
-
-Answer: C) South-East
-Solution: NE (45°) +135° = 180° (S); –90° = 90° (E); +45° = 135° (SE).
-Source: PYQ-style
-
-96. A woman walks 4 m South, turns left and walks 6 m, turns left and walks 4 m, turns right and walks 8 m. In which direction is she from the start?
-
-A) West
-B) East
-C) North
-D) South
-
-Answer: B) East
-Solution: South 4; left → East 6; left → North 4; right → East 8. Net: S/N cancel, East = 14 m.
-Source: PYQ-style
-
-97. ⚠️ Examiner’s Trap
-A boy starts from his home and walks 10 m North. He then turns right and walks 5 m, then turns left and walks 5 m, then turns left again and walks 10 m. In which direction is he facing now?
-
-A) East
-B) West
-C) North
-D) South
-
-Answer: B) West
-Solution: Start North, walk 10 (N). Right → East 5 (face E). Left → North 5 (face N). Left → West 10 (face W). Final facing West.
-Trap: Many forget the facing direction after the last left turn.
-Source: PYQ-style
-
-98. At 8 AM, a man is walking towards a tower. The shadow of the tower falls exactly towards his left. In which direction is the tower from him?
-
-A) North
-B) South
-C) East
-D) West
-
-Answer: B) South
-Solution: 8 AM sun East, tower shadow West. Shadow to his left ⇒ West on left ⇒ he faces South. Tower in front ⇒ South.
-Source: PYQ-style
-
-99. A is 10 m South of B. C is 10 m East of B. D is 10 m North of C. E is 10 m West of D. F is 10 m South of E. Where is F with respect to A?
-
-A) 20 m North
-B) 10 m North
-C) Same point
-D) 10 m South
-
-Answer: B) 10 m North
-Solution: B(0,0); A(0,–10); C(10,0); D(10,10); E(0,10); F(0,0) = B. So F is 10 m North of A.
-Source: PYQ-style
-
-100. A man walks 20 m towards East, turns left and walks 15 m, turns right and walks 10 m, then turns right and walks 15 m. How far is he from his starting point?
-
-A) 30 m East
-B) 30 m North
-C) 30 m West
-D) 30 m South
-
-Answer: A) 30 m East
-Solution: East 20, left North 15, right East 10, right South 15. Net: East 30 m, North/South cancel.
+100. A child walks 8 m East, then 5 m North, then 4 m West, then 5 m South, and finally 2 m East. How far and in which direction is he from the start?
+(a) 4 m East (b) 6 m East (c) 8 m East (d) 10 m East
+Answer: (b)
+Solution: The 5 m North and 5 m South cancel out. Net Eastward displacement = 8 - 4 + 2 = 6 m. Therefore, he is 6 m East of his starting point.
 Source: PYQ-style
