@@ -1,5 +1,42 @@
-Diagram
-Code
-Download
-Full screen
-Mermaid rendering failed.
+```mermaid
+graph TD
+    M["🇮🇳 आधुनिक भारतीय इतिहास<br>Modern Indian History"]
+
+    M --> B1["ब्रिटिश विस्तार (1757–1857)<br>British Expansion"]
+    M --> R1["1857 की क्रांति व बदलाव<br>Revolt of 1857 & Aftermath"]
+    M --> SM["सामाजिक-धार्मिक सुधार<br>Socio-Religious Reforms"]
+    M --> IN["राष्ट्रीय आंदोलन (1885–1947)<br>National Movement"]
+    M --> TR["परीक्षक के जाल व रणनीति<br>Examiner Traps & Strategy"]
+
+    B1 --> B1a["प्लासी 1757 व बक्सर 1764<br>Plassey 1757, Buxar 1764, Diwani"]
+    B1 --> B1b["भू-राजस्व: स्थायी, रैयतवाड़ी, महालवाड़ी<br>Revenue: Permanent, Ryotwari, Mahalwari"]
+    B1 --> B1c["सहायक संधि वेलेज़ली व हड़प नीति डलहौज़ी<br>Subsidiary Alliance & Doctrine of Lapse"]
+
+    R1 --> R1a["मेरठ विद्रोह 10 मई 1857<br>Meerut outbreak, Mangal Pandey"]
+    R1 --> R1b["नेतृत्व: दिल्ली, कानपुर, लखनऊ, झाँसी<br>Bahadur Shah, Nana Saheb, Laxmibai"]
+    R1 --> R1c["1858 भारत शासन अधिनियम: क्राउन का शासन<br>Govt of India Act 1858: Viceroy"]
+
+    SM --> S1["ब्रह्म समाज 1828: राजा राममोहन राय<br>Brahmo Samaj, Sati abolished 1829"]
+    SM --> S2["आर्य समाज 1875: दयानंद सरस्वती<br>Arya Samaj, वेदों की ओर लौटो"]
+    SM --> S3["रामकृष्ण मिशन 1897: स्वामी विवेकानंद<br>Ramakrishna Mission, Chicago 1893"]
+    SM --> S4["सत्यशोधक समाज 1873: ज्योतिराव फुले<br>Satyashodhak Samaj, गुलामगिरी"]
+
+    IN --> N1["कांग्रेस स्थापना 1885: A.O. ह्यूम, W.C. बनर्जी<br>INC 1885, Moderate Phase"]
+    IN --> N2["बंगाल विभाजन 1905 व स्वदेशी आंदोलन<br>Partition of Bengal, Swadeshi"]
+    IN --> N3["गांधीवादी युग 1915–1947<br>Gandhian Era"]
+    IN --> N4["क्रांतिकारी आंदोलन<br>Revolutionary Movement"]
+
+    N3 --> N3a["चंपारण 1917, खेड़ा 1918, रोलेट एक्ट 1919<br>Champaran, Kheda, Rowlatt Act"]
+    N3 --> N3b["असहयोग आंदोलन 1920–22: चौरी-चौरा<br>Non-Cooperation, Chauri Chaura"]
+    N3 --> N3c["सविनय अवज्ञा 1930: दांडी मार्च 12 मार्च<br>Civil Disobedience, Dandi March"]
+    N3 --> N3d["भारत छोड़ो 1942: करो या मरो<br>Quit India 1942, Do or Die"]
+
+    N4 --> N4a["HRA 1924, काकोरी ट्रेन एक्शन 1925<br>HRA, Kakori Train Action"]
+    N4 --> N4b["HSRA 1928: भगत सिंह, आज़ाद<br>HSRA, Central Assembly Bombing"]
+    N4 --> N4c["आज़ाद हिंद फ़ौज: सुभाष चंद्र बोस<br>INA, तुम मुझे ख़ून दो"]
+
+    TR --> T1["कालानुक्रम: असहयोग - सविनय अवज्ञा - भारत छोड़ो<br>Chronology: NCM - CDM - QIM"]
+    TR --> T2["समान नाम: स्थायी बंदोबस्त vs रैयतवाड़ी<br>Similar: Permanent vs Ryotwari"]
+    TR --> T3["लगभग सही: जलियाँवाला बाग़ 13 अप्रैल 1919<br>Almost True: Jallianwala 1919"]
+    TR --> T4["15/45 सेकंड: सीधे तथ्य 15s, क्रम व समझौते 45s<br>Strategy: 15s for facts, 45s for acts"]
+```
