@@ -1,60 +1,47 @@
-Diagram
-Code
-Download
-Fullscreen
-Analogy / सादृश्यता
-What is Analogy?
-WING
-Key Strategies
-Time Management
-परीक्षक का जाल
-Relationship-basedreasoning
-Format: A : B :: C : ?
-"::" means "samerelationship as"
-W - Word Analogy
-I - Integer/Number Analogy
-N - aN alphabet Analogy
-G - General KnowledgeAnalogy
-वाक्य-पुल
-क्योंकि-इसलिए
-Reverse Relationship Check
-Tighten When Stuck
-15-second Rule
-45-second Rule
-1-Minute Total Cap
-Two Similar-LookingOptions
-Difficult/Rare Words
-Double Relationships
-Synonyms/Antonyms
-Part-Whole
-Worker-Tool/Workplace
-Cause-Effect
-Function
-Square, Cube
-Addition/Subtraction
-Multiplication/Division
-e.g., ×2+1
-Forward/Backward shift
-sum = 27
-Mirror pattern
-Vowel/Consonant patterns
-Country-Capital
-Author-Book
-Game-Players
-Invention-Inventor
-Form a short meaningfulsentence
-Apply same sentence tosecond pair
-"Because A... ThereforeB..."
-Tightens relationship
-Eliminates weak look-alikes
-Verify A→B exactlymatches C→D
-Add one more specificdetail to the relationship
-If pattern not clear, mark &skip
-If two options stillconfusing, best guess &flag
-Never exceed 1 minute peranalogy question
-Both seem to fit; needtighter relationship
-Example: "Classroom" vs"School"
-Intended to create panic
-Guess relationship fromoptions, not vocabulary
-One option fits part-whole,another fits function
-Detect the primaryrelationship in the givenpair
+```mermaid
+graph TD
+    A["सादृश्यता / Analogy"]
+
+    A --> T["मुख्य प्रकार<br>Major Types (WING)"]
+    A --> S["हल करने की तकनीकें<br>Solving Strategies"]
+    A --> TR["परीक्षक के जाल<br>Examiner's Traps"]
+    A --> TM["समय प्रबंधन<br>Time Management"]
+
+    T --> W["W: शब्द सादृश्य<br>Word Analogy"]
+    T --> I["I: संख्या सादृश्य<br>Number Analogy"]
+    T --> N["N: वर्णमाला सादृश्य<br>Letter Analogy"]
+    T --> G["G: सामान्य ज्ञान<br>GK Analogy"]
+
+    W --> W1["समानार्थी एवं विलोम<br>Synonyms & Antonyms"]
+    W --> W2["कार्यकर्ता एवं औजार/कार्यस्थल<br>Worker-Tool / Workplace"]
+    W --> W3["भाग एवं संपूर्ण<br>Part to Whole"]
+    W --> W4["कारण एवं प्रभाव<br>Cause and Effect"]
+
+    I --> I1["वर्ग एवं घन<br>Squares & Cubes (n², n³)"]
+    I --> I2["संक्रियाएँ<br>Addition, Subtraction, Multiplication"]
+    I --> I3["मिश्रित नियम<br>Combined (n² ± 1, ×k + c)"]
+    I --> I4["अंकों का योग/गुणा<br>Sum/Product of Digits"]
+
+    N --> N1["अक्षर क्रम संख्या<br>Alphabet Positions (A=1...Z=26)"]
+    N --> N2["विपरीत अक्षर<br>Opposite Letters (Sum = 27)"]
+    N --> N3["स्थानांतरण पैटर्न<br>Forward / Backward Shift (+k, -k)"]
+    N --> N4["क्रम परिवर्तन<br>Reverse / Mirror Pattern"]
+
+    G --> G1["देश एवं राजधानी/मुद्रा<br>Country-Capital / Currency"]
+    G --> G2["मापक यंत्र एवं इकाई<br>Instruments & Units"]
+    G --> G3["राज्य एवं लोकनृत्य/नदी<br>States, Rivers & Dance"]
+    G --> G4["वैज्ञानिक खोज एवं लेखक<br>Inventions & Books"]
+
+    S --> S1["वाक्य-पुल तकनीक<br>Sentence Bridge Method"]
+    S --> S2["क्योंकि-इसलिए परीक्षण<br>Because-Therefore Test"]
+    S --> S3["उल्टा संबंध सत्यापन<br>Reverse Relation Check (A→B, C→D)"]
+    S --> S4["संबंध को कसना<br>Tighten When Stuck Between 2 Options"]
+
+    TR --> TR1["समान दिखने वाले विकल्प<br>Near-Miss Look-alike Options"]
+    TR --> TR2["कठिन शब्दावली का डर<br>Rare / Unfamiliar Words"]
+    TR --> TR3["दोहरा संबंध<br>Double / Competing Relationships"]
+
+    TM --> TM1["15 सेकंड नियम<br>Recognize pattern or form bridge"]
+    TM --> TM2["45 सेकंड नियम<br>Substitute options & verify"]
+    TM --> TM3["1 मिनट अधिकतम सीमा<br>Skip/flag if unresolved, never stall"]
+```
