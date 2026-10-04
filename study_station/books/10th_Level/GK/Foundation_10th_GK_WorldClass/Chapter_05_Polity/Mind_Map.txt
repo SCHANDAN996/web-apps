@@ -1,39 +1,28 @@
-Diagram
-Code
-Download
-Fullscreen
-Indian Polity
-Constitution Making
-Preamble
-Art 12-35
-Constituent Assembly 1946
-Adoption: 26 Nov 1949
-Enforcement: 26 Jan 1950
-Original Structure
-Sources
-Confusing Post
-Keywords: Sovereign,Socialist, Secular,Democratic, Republic
-Amended by 42ndAmendment 1976
-Amendability: KesavanandaBharati 1973 – Yes, butBasic Structure intact
-Overgeneralization
-Six Rights
-Temporary President: Dr.Sachchidananda Sinha
-Permanent: Dr. RajendraPrasad
-Drafting CommitteeChairman: Dr. B.R.Ambedkar
-Articles: 395 → Now 448
-Schedules: 8 → Now 12
-Parts: 22 → Now 25
-UK: Parliamentary System,Rule of Law
-USA: Fundamental Rights,Judicial Review
-Ireland: DPSP
-Canada: Federation withstrong Centre
-Australia: Concurrent List
-Japan: ProcedureEstablished by Law
-USSR: Fundamental Duties
-Germany: EmergencyProvisions
-Added: Socialist, Secular,Integrity
-14-18
-19-22
-23-24
-25-28
-Cultural &
+```mermaid
+flowchart TD
+    A[Indian Polity & Governance] --> B[Union Government]
+    A --> C[State Government]
+    A --> D[Judiciary]
+    A --> E[Constitutional Bodies]
+    A --> F[Local Self-Government]
+
+    B --> B1[President & Vice-President Art 52-73]
+    B --> B2[Prime Minister & Council of Ministers Art 74-78]
+    B --> B3[Parliament: Lok Sabha & Rajya Sabha Art 79-122]
+
+    C --> C1[Governor Art 153-162]
+    C --> C2[Chief Minister & State Council Art 163-167]
+    C --> C3[State Legislature Art 168-212]
+
+    D --> D1[Supreme Court Art 124-147]
+    D --> D2[High Courts Art 214-232]
+    D --> D3[Subordinate Courts Art 233-237]
+
+    E --> E1[Election Commission Art 324]
+    E --> E2[Comptroller & Auditor General Art 148]
+    E --> E3[Finance Commission Art 280]
+    E --> E4[Union Public Service Commission Art 315]
+
+    F --> F1[Panchayati Raj 73rd Amendment Part IX]
+    F --> F2[Municipalities 74th Amendment Part IX-A]
+```
