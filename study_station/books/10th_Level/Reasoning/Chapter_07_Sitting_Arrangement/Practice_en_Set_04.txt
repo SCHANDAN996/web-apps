@@ -1,310 +1,176 @@
-**Set 4/6: MCQs 76–100 (Medium Level)**  
-
----
-
-**76.** Six persons A, B, C, D, E, F sit in a row facing north. A is third to the left of D. B is immediate right of C. E sits at extreme left. F sits immediate right of E. D is not a neighbour of F. Who sits second to the right of C?  
-- (A) B  
-- (B) D  
-- (C) E  
-- (D) F  
-
-**Answer:** (B) D  
-**Solution:** Seats 1–6. E=1, F=2. A 3rd left of D ⇒ D = A+3. D not neighbour of F ⇒ D ≠ 3. D=4 ⇒ A=1 conflict; D=5 ⇒ A=2 conflict; D=6 ⇒ A=3. So A=3,D=6. B immediate right of C ⇒ C,B block (C left of B). Remaining seats 4,5: C=4,B=5. Arrangement: 1‑E,2‑F,3‑A,4‑C,5‑B,6‑D. Second right of C(4) = 6 = D.  
-**Source:PYQ-style
-
----
-
-**77.** Six persons P, Q, R, S, T, U sit around a circle facing centre. P is second to the left of Q. R is immediate right of P. S is second to the right of T. U sits opposite R. Who sits immediate left of U?  
-- (A) P  
-- (B) Q  
-- (C) S  
-- (D) T  
-
-**Answer:** (C) S  
-**Solution:** 1–6 clockwise. Q=1. P 2nd left → clockwise 1→2→3, P=3. R immediate right → anticlockwise → R=2. U opposite R (2↔5) ⇒ U=5. S 2nd right of T ⇒ S anticlockwise 2 from T. Remaining 4,6. T=6 ⇒ S anticlockwise 6→5→4, S=4. Arrangement: 1‑Q,2‑R,3‑P,4‑S,5‑U,6‑T. Immediate left of U(5) = clockwise neighbour = 4 = S.  
-**Source:PYQ-style
-
----
-
-**78.** (Examiner’s Trap – Double Relationship)  
-Six persons P, Q, R, S, T, U sit in a row facing north. P is second to the left of Q and immediate left of R. S is immediate right of T. U sits at extreme left end. R is not a neighbour of T. Who sits second to the right of U?  
-- (A) P  
-- (B) Q  
-- (C) R  
-- (D) S  
-
-**Answer:** (C) R  
-**Solution:** U=1. P immediate left of R ⇒ P,R block (P left of R). P second left of Q ⇒ Q = P+2 ⇒ P=x, R=x+1, Q=x+2. S immediate right of T ⇒ T,S block. R not neighbour of T. x=2: P=2,R=3,Q=4. T,S at 5,6: T=5,S=6. R=3 not neighbour of T=5. Arrangement: 1‑U,2‑P,3‑R,4‑Q,5‑T,6‑S. Second right of U(1) = 3 = R.  
-**Source:PYQ-style
-
----
-
-**79.** Eight persons A, B, C, D, E, F, G, H sit around a circle facing centre. A is second to the left of B. C is third to the right of D. E is immediate neighbour of both F and G. H sits opposite F. Who sits third to the left of H?  
-- (A) A  
-- (B) C  
-- (C) D  
-- (D) G  
-
-**Answer:** (A) A  
-**Solution:** 1–8 clockwise. B=1, A 2nd left → 3. Opposite A=7. H opposite F. E between F & G. C 3rd right of D ⇒ anticlockwise 3 from D. D=2 ⇒ C anticlockwise 2→1→8→7, C=7. F=4, H=8. E=5, G=6. Arrangement: 1‑B,2‑D,3‑A,4‑F,5‑E,6‑G,7‑C,8‑H. Third left of H(8) = clockwise 8→1→2→3 = A.  
-**Source:PYQ-style
-
----
-
-**80.** (Examiner’s Trap – Misleading Options)  
-Seven persons P, Q, R, S, T, U, V sit in a row facing north. R sits fourth to the right of P. Q is immediate left of S. U sits second to the left of T. V sits at extreme left. P is not a neighbour of V. Which of the following is definitely true?  
-- (A) Q sits at extreme right.  
-- (B) T sits immediate left of R.  
-- (C) U sits second to the right of V.  
-- (D) S sits immediate right of Q.  
-
-**Answer:** (D) S sits immediate right of Q.  
-**Solution:** V=1. R=P+4. Q‑S block (Q left of S). U second left of T ⇒ T = U+2. P not neighbour of V ⇒ P≠2. P=3 ⇒ R=7. Q=5,S=6; U=2,T=4. Arrangement: 1‑V,2‑U,3‑P,4‑T,5‑Q,6‑S,7‑R. Only (D) holds.  
-**Source:PYQ-style
-
----
-
-**81.** Six persons P, Q, R, S, T, U sit around a circle facing centre. P is third to the right of Q. R is immediate left of P. S is second to the left of T. U sits opposite S. Who sits immediate right of Q?  
-- (A) P  
-- (B) R  
-- (C) T  
-- (D) S  
-
-**Answer:** (D) S  
-**Solution:** 1–6 clockwise. Q=1. P 3rd right → anticlockwise 1→6→5→4, P=4. R immediate left → clockwise → R=5. S 2nd left of T ⇒ S clockwise 2 from T ⇒ T = S+2 clockwise. U opposite S. S=6 ⇒ U=3, T=6+2=8→2. Arrangement: 1‑Q,2‑T,3‑U,4‑P,5‑R,6‑S. Immediate right of Q(1) = anticlockwise = 6 = S.  
-**Source:PYQ-style
-
----
-
-**82.** (Examiner’s Trap – Double Relationship)  
-Six persons A, B, C, D, E, F sit in a row facing north. A is second to the left of D and immediate right of B. C is second to the right of E. F sits at extreme right. B is not a neighbour of E. Who sits second to the left of C?  
-- (A) A  
-- (B) B  
-- (C) D  
-- (D) E  
-
-**Answer:** (D) E  
-**Solution:** F=6. A immediate right of B ⇒ B,A block. A 2nd left of D ⇒ D=A+2 ⇒ B=x, A=x+1, D=x+3. C=E+2. B not neighbour of E. x=1: B=1,A=2,D=4. E=3,C=5. B=1 not neighbour of E=3. Arrangement: 1‑B,2‑A,3‑E,4‑D,5‑C,6‑F. Second left of C(5)=3=E.  
-**Source:PYQ-style
-
----
-
-**83.** Eight persons A, B, C, D, E, F, G, H sit around a circle facing centre. A is third to the left of B. C is immediate right of A. D is second to the left of E. F sits opposite D. G is immediate neighbour of H. Who sits second to the right of G?  
-- (A) A  
-- (B) B  
-- (C) C  
-- (D) D  
-
-**Answer:** (C) C  
-**Solution:** 1–8 clockwise. B=1, A 3rd left → 4. C immediate right → 3. D 2nd left of E ⇒ D clockwise 2 from E ⇒ E = D+2. F opposite D. D=6 ⇒ F=2, E=8. G,H neighbours at 5,7. Arrangement: 1‑B,2‑F,3‑C,4‑A,5‑G,6‑D,7‑H,8‑E. Second right of G(5) anticlockwise 2→4→3 = C.  
-**Source:PYQ-style
-
----
-
-**84.** (Examiner’s Trap – Misleading Options)  
-Seven persons P, Q, R, S, T, U, V sit in a row facing north. D sits third to the right of B. C is immediate left of E. F sits second to the left of G. A sits at extreme left. B is not a neighbour of A. Which of the following is definitely false?  
-- (A) F sits immediate left of B.  
-- (B) G sits second to the left of E.  
-- (C) C sits immediate right of D.  
-- (D) E sits at extreme right.  
-
-**Answer:** (B) G sits second to the left of E.  
-**Solution:** A=1. D=B+3. C‑E block (C left of E). F second left of G ⇒ G=F+2. B not neighbour of A ⇒ B≠2. B=3 ⇒ D=6. C=2,E=3? B=3 conflict. C=4,E=5; F=2,G=4 conflict. B=4 ⇒ D=7. C=2,E=3; F=5,G=7 conflict. C=3,E=4 conflict B. C=5,E=6; F=2,G=4 works. Arrangement: 1‑A,2‑F,3‑B,4‑G,5‑D,6‑C,7‑E. Second left of E(7) = 5 = D, not G. Hence (B) false.  
-**Source:PYQ-style
-
----
-
-**85.** Six persons A, B, C, D, E, F sit around a circle facing centre. A is third to the left of B. C is immediate right of A. D is second to the right of E. F is not a neighbour of C. Who sits second to the left of F?  
-- (A) A  
-- (B) B  
-- (C) C  
-- (D) D  
-
-**Answer:** (B) B  
-**Solution:** 1–6 clockwise. B=1, A=4, C=3. D 2nd right of E ⇒ D anticlockwise 2 from E. F not neighbour of C. E=2 ⇒ D anticlockwise 2→1→6, D=6. F=5. Arrangement: 1‑B,2‑E,3‑C,4‑A,5‑F,6‑D. Second left of F(5) = clockwise 5→6→1 = B.  
-**Source:PYQ-style
-
----
-
-**86.** (Examiner’s Trap – Double Relationship)  
-Six persons P, Q, R, S, T, U sit in a row facing north. P is second to the left of S and immediate right of Q. T is immediate left of U. R sits at extreme right end. Q is not a neighbour of R. Who sits second to the left of R?  
-- (A) P  
-- (B) Q  
-- (C) S  
-- (D) T  
-
-**Answer:** (C) S  
-**Solution:** R=6. Q not neighbour of R ⇒ Q≠5. P immediate right of Q ⇒ Q,P block. P 2nd left of S ⇒ S=P+2. So Q=x, P=x+1, S=x+3. T immediate left of U ⇒ T,U block. x=1: Q=1,P=2,S=4. T,U at 3,5? 3 and 5 not adjacent. x=2: Q=2,P=3,S=5. T,U at 1,4? 1 and 4 not adjacent. x=3: Q=3,P=4,S=6 conflict R. So adjust: T immediate right of U ⇒ U,T block (U left of T). x=2: Q=2,P=3,S=5. U,T at 1,4 not adjacent. x=1: Q=1,P=2,S=4. U,T at 3,5? U=3,T=5 adjacent works. Q=1 not neighbour of R=6. Arrangement: 1‑Q,2‑P,3‑U,4‑S,5‑T,6‑R. Second left of R(6)=4=S.  
-**Source:PYQ-style
-
----
-
-**87.** Eight persons A, B, C, D, E, F, G, H sit around a circle facing centre. A is second to the left of B. C is third to the right of D. E is immediate neighbour of both F and G. H sits opposite F. Who sits opposite D?  
-- (A) G  
-- (B) C  
-- (C) E  
-- (D) H  
-
-**Answer:** (A) G  
-**Solution:** 1–8 clockwise. B=1, A=3. C 3rd right of D ⇒ anticlockwise 3 from D. Opposite A=7. H opposite F. E between F,G. D=2 ⇒ C anticlockwise 2→1→8→7, C=7. F=4 ⇒ H=8. E=5,G=6. Arrangement: 1‑B,2‑D,3‑A,4‑F,5‑E,6‑G,7‑C,8‑H. Opposite D(2)=6=G.  
-**Source:PYQ-style
-
----
-
-**88.** (Examiner’s Trap – Misleading Options)  
-Seven persons A, B, C, D, E, F, G sit in a row facing north. D sits second to the right of B. C is immediate left of E. F sits second to the left of G. A sits at extreme left. B is not a neighbour of A. Which of the following is definitely false?  
-- (A) F sits immediate left of B.  
-- (B) G sits second left of E.  
-- (C) C sits immediate right of D.  
-- (D) E sits at extreme right.  
-
-**Answer:** (B) G sits second left of E.  
-**Solution:** A=1. D=B+2. C‑E block (C left of E). F second left of G ⇒ G=F+2. B not neighbour of A ⇒ B≠2. B=3 ⇒ D=5. C=2,E=3? B=3 conflict. C=4,E=5? D=5 conflict. C=6,E=7; F=2,G=4 works. Arrangement: 1‑A,2‑F,3‑B,4‑G,5‑D,6‑C,7‑E. Second left of E(7)=5=D, not G. So (B) false.  
-**Source:PYQ-style
-
----
-
-**89.** Six persons P, Q, R, S, T, U sit around a circle facing centre. P is third to the right of Q. R is immediate left of P. S is second to the left of T. U sits opposite S. Who sits immediate right of R?  
-- (A) P  
-- (B) Q  
-- (C) S  
-- (D) T  
-
-**Answer:** (A) P  
-**Solution:** 1–6 clockwise. Q=1. P 3rd right → anticlockwise 4, P=4. R immediate left → clockwise → R=5. S 2nd left of T ⇒ S clockwise 2 from T ⇒ T=S+2. U opposite S. S=6 ⇒ U=3, T=2. Arrangement: 1‑Q,2‑T,3‑U,4‑P,5‑R,6‑S. Immediate right of R(5) = anticlockwise = 4 = P.  
-**Source:PYQ-style
-
----
-
-**90.** Eight persons A, B, C, D, E, F, G, H sit in a row facing north. D sits fourth to the right of A. B is immediate left of C. E sits second to the left of F. G sits at extreme left. H sits at extreme right. Who sits third to the left of H?  
-- (A) B  
-- (B) C  
-- (C) E  
-- (D) F  
-
-**Answer:** (C) E  
-**Solution:** G=1, H=8. D=A+4. B‑C block (B left of C). F=E+2. A=2 ⇒ D=6. B=3,C=4; E=5,F=7 works. Arrangement: 1‑G,2‑A,3‑B,4‑C,5‑E,6‑D,7‑F,8‑H. Third left of H(8)=5=E.  
-**Source:PYQ-style
-
----
-
-**91.** Eight persons sit in two parallel rows of four each. Row 1 (A,B,C,D) faces north, Row 2 (P,Q,R,S) faces south. A sits opposite P. C sits immediate left of A. Q sits immediate right of P. B sits at extreme left of Row 1. D sits at extreme right of Row 1. R sits opposite B. Who sits opposite D?  
-- (A) P  
-- (B) Q  
-- (C) R  
-- (D) S  
-
-**Answer:** (D) S  
-**Solution:** Row1 seats L-R: 1‑B, 4‑D. C immediate left of A → C left of A, so A not at 1. A=3, C=2. Row1: 1‑B,2‑C,3‑A,4‑D. P opposite A → Row2 seat 3 = P. Q immediate right of P (facing south, right = our left) → Q at seat 2. R opposite B → Row2 seat 1 = R. Remaining seat 4 = S, opposite D.  
-**Source:PYQ-style
-
----
-
-**92.** Six persons A, B, C, D, E, F sit around a circle facing centre. A is third to the left of B. C is second to the right of A. D is immediate neighbour of E. F sits opposite E. Who sits immediate left of F?  
-- (A) B  
-- (B) C  
-- (C) D  
-- (D) A  
-
-**Answer:** (B) C  
-**Solution:** 1–6 clockwise. B=1, A=4. C 2nd right of A → anticlockwise 4→3→2, C=2. D neighbour of E. F opposite E. E=6 ⇒ F=3, D=5. Arrangement: 1‑B,2‑C,3‑F,4‑A,5‑D,6‑E. Immediate left of F(3) = clockwise = 2 = C.  
-**Source:PYQ-style
-
----
-
-**93.** (Examiner’s Trap – Misleading Options)  
-Seven persons A, B, C, D, E, F, G sit in a row facing north. C sits second to the right of A. B is immediate left of D. F sits second to the left of G. E sits at extreme left. A is not a neighbour of E. Which of the following is definitely false?  
-- (A) A sits immediate right of F.  
-- (B) C sits immediate left of B.  
-- (C) D sits at extreme right.  
-- (D) G sits third to the left of C.  
-
-**Answer:** (D) G sits third to the left of C.  
-**Solution:** E=1. C=A+2. B‑D block (B left of D). G=F+2. A not neighbour of E ⇒ A≠2. A=3 ⇒ C=5. B=6,D=7; F=2,G=4. Arrangement: 1‑E,2‑F,3‑A,4‑G,5‑C,6‑B,7‑D. Third left of C(5)=2=F, not G.  
-**Source:PYQ-style
-
----
-
-**94.** Eight persons A, B, C, D, E, F, G, H sit around a circle facing centre. A is third to the left of B. C is immediate right of A. D is second to the left of E. F sits opposite D. G is immediate neighbour of H. Who sits opposite H?  
-- (A) B  
-- (B) C  
-- (C) D  
-- (D) E  
-
-**Answer:** (B) C  
-**Solution:** 1–8 clockwise. B=1, A=4. C=3. D 2nd left of E ⇒ D clockwise 2 from E ⇒ E=D+2. F opposite D. D=6 ⇒ F=2, E=8. G,H neighbours at 5,7 → H=7, G=5. Opposite H(7)=3=C.  
-**Source:PYQ-style
-
----
-
-**95.** (Examiner’s Trap – Double Relationship)  
-Six persons P, Q, R, S, T, U sit in a row facing north. P is second to the left of T and immediate right of Q. R is immediate left of S. U sits at extreme right end. Q is not a neighbour of U. Who sits second to the right of Q?  
-- (A) P  
-- (B) R  
-- (C) S  
-- (D) T  
-
-**Answer:** (B) R  
-**Solution:** U=6. Q not neighbour of U ⇒ Q≠5. P immediate right of Q ⇒ Q,P block. P 2nd left of T ⇒ T=P+2 ⇒ Q=x, P=x+1, T=x+3. R immediate left of S ⇒ R,S block. x=1: Q=1,P=2,T=4. R,S at 3,5 works R=3,S=5. Q=1 not neighbour of U=6. Arrangement: 1‑Q,2‑P,3‑R,4‑T,5‑S,6‑U. Second right of Q(1)=3=R.  
-**Source:PYQ-style
-
----
-
-**96.** Six persons P, Q, R, S, T, U sit around a circle facing centre. P is second to the left of Q. R is immediate right of P. S is second to the right of T. U sits opposite R. Who sits immediate left of T?  
-- (A) P  
-- (B) Q  
-- (C) S  
-- (D) U  
-
-**Answer:** (D) U  
-**Solution:** 1–6 clockwise. Q=1, P=3. R immediate right → anticlockwise → R=2. U opposite R(2↔5) ⇒ U=5. S 2nd right of T ⇒ S anticlockwise 2 from T. T=6 ⇒ S=4. Arrangement: 1‑Q,2‑R,3‑P,4‑S,5‑U,6‑T. Immediate left of T(6) = clockwise = 5 = U.  
-**Source:PYQ-style
-
----
-
-**97.** Eight persons A, B, C, D, E, F, G, H sit in a row facing north. D sits fourth to the left of H. B is immediate right of A. C is second to the right of E. F sits at extreme left. G sits at extreme right. H is not a neighbour of G. Who sits third to the left of G?  
-- (A) B  
-- (B) C  
-- (C) D  
-- (D) E  
-
-**Answer:** (D) E  
-**Solution:** F=1, G=8. H=D+4. H not neighbour of G ⇒ H≠7 ⇒ D=2,H=6. B immediate right of A ⇒ A,B block (A left of B). C=E+2. A=3,B=4; E=5,C=7 works. Arrangement: 1‑F,2‑D,3‑A,4‑B,5‑E,6‑H,7‑C,8‑G. Third left of G(8)=5=E.  
-**Source:PYQ-style
-
----
-
-**98.** (Examiner’s Trap – Double Relationship)  
-Six persons P, Q, R, S, T, U sit in a row facing north. P is second to the left of S and immediate right of Q. T is third to the right of U. R sits at extreme right end. Q is not a neighbour of R. Who sits immediate left of R?  
-- (A) P  
-- (B) Q  
-- (C) S  
-- (D) T  
-
-**Answer:** (C) S  
-**Solution:** R=6. Q not neighbour of R ⇒ Q≠5. P immediate right of Q ⇒ Q,P block. P 2nd left of S ⇒ S=P+2 ⇒ Q=x, P=x+1, S=x+3. T=U+3. x=2: Q=2,P=3,S=5. U=1,T=4 works. Q=2 not neighbour of R=6. Arrangement: 1‑U,2‑Q,3‑P,4‑T,5‑S,6‑R. Immediate left of R(6)=5=S.  
-**Source:PYQ-style
-
----
-
-**99.** Eight persons A, B, C, D, E, F, G, H sit around a circle facing centre. A is third to the left of B. C is immediate right of A. D is second to the left of E. F sits opposite D. G is immediate neighbour of H. Who sits second to the left of A?  
-- (A) B  
-- (B) C  
-- (C) D  
-- (D) E  
-
-**Answer:** (C) D  
-**Solution:** 1–8 clockwise. B=1, A=4. C=3. D 2nd left of E ⇒ D clockwise 2 from E ⇒ E=D+2. F opposite D. D=6 ⇒ F=2, E=8. G,H at 5,7. Arrangement: 1‑B,2‑F,3‑C,4‑A,5‑G,6‑D,7‑H,8‑E. Second left of A(4) = clockwise 4→5→6 = D.  
-**Source:PYQ-style
-
----
-
-**100.** Seven persons A, B, C, D, E, F, G sit in a row facing north. D sits third to the right of B. A is immediate left of C. E is immediate left of F. G sits at extreme left. B is not a neighbour of G. Who sits second to the left of D?  
-- (A) A  
-- (B) C  
-- (C) E  
-- (D) F  
-
-**Answer:** (C) E  
-**Solution:** G=1. D=B+3. A‑C block (A left of C). E‑F block (E left of F). B not neighbour of G ⇒ B≠2. B=3⇒D=6; A=2,C=3? B=3 conflict. B=4⇒D=7; A=2,C=3; E=5,F=6. B=4 not neighbour of G. Arrangement: 1‑G,2‑A,3‑C,4‑B,5‑E,6‑F,7‑D. Second left of D(7)=5=E.  
-**Source:PYQ-style
+Questions 76–90: Easy | Questions 91–100: Medium
+
+76. Six persons A, B, C, D, E, F sit in a row facing north. A is third to the left of D. B is immediate right of C. E sits at extreme left. F sits immediate right of E. D is not a neighbour of F. Who sits second to the right of C?
+-
+(a) D - (b) B - (c) E - (d) F
+Answer: (a)
+Solution: Seats 1–6. E=1, F=2. A 3rd left of D ⇒ D = A+3. D not neighbour of F ⇒ D ≠ 3. D=4 ⇒ A=1 conflict; D=5 ⇒ A=2 conflict; D=6 ⇒ A=3. So A=3,D=6. B immediate right of C ⇒ C,B block (C left of B). Remaining seats 4,5: C=4,B=5. Arrangement: 1‑E,2‑F,3‑A,4‑C,5‑B,6‑D. Second right of C(4) = 6 = D.
+Source: PYQ-style
+
+77. Six persons P, Q, R, S, T, U sit around a circle facing centre. P is second to the left of Q. R is immediate right of P. S is second to the right of T. U sits opposite R. Who sits immediate left of U?
+-
+(a) P - (b) S - (c) Q - (d) T
+Answer: (b)
+Solution: 1–6 clockwise. Q=1. P 2nd left → clockwise 1→2→3, P=3. R immediate right → anticlockwise → R=2. U opposite R (2↔5) ⇒ U=5. S 2nd right of T ⇒ S anticlockwise 2 from T. Remaining 4,6. T=6 ⇒ S anticlockwise 6→5→4, S=4. Arrangement: 1‑Q,2‑R,3‑P,4‑S,5‑U,6‑T. Immediate left of U(5) = clockwise neighbour = 4 = S.
+Source: PYQ-style
+
+78. Six persons P, Q, R, S, T, U sit in a row facing north. P is second to the left of Q and immediate left of R. S is immediate right of T. U sits at extreme left end. R is not a neighbour of T. Who sits second to the right of U?
+-
+(a) P - (b) Q - (c) R - (d) S
+Answer: (c)
+Solution: U=1. P immediate left of R ⇒ P,R block (P left of R). P second left of Q ⇒ Q = P+2 ⇒ P=x, R=x+1, Q=x+2. S immediate right of T ⇒ T,S block. R not neighbour of T. x=2: P=2,R=3,Q=4. T,S at 5,6: T=5,S=6. R=3 not neighbour of T=5. Arrangement: 1‑U,2‑P,3‑R,4‑Q,5‑T,6‑S. Second right of U(1) = 3 = R.
+Source: PYQ-style
+
+79. Eight persons A, B, C, D, E, F, G, H sit around a circle facing centre. A is second to the left of B. C is third to the right of D. E is immediate neighbour of both F and G. H sits opposite F. Who sits third to the left of H?
+-
+(a) C - (b) D - (c) G (d) A -
+Answer: (d)
+Solution: 1–8 clockwise. B=1, A 2nd left → 3. Opposite A=7. H opposite F. E between F & G. C 3rd right of D ⇒ anticlockwise 3 from D. D=2 ⇒ C anticlockwise 2→1→8→7, C=7. F=4, H=8. E=5, G=6. Arrangement: 1‑B,2‑D,3‑A,4‑F,5‑E,6‑G,7‑C,8‑H. Third left of H(8) = clockwise 8→1→2→3 = A.
+Source: PYQ-style
+
+80. Seven persons P, Q, R, S, T, U, V sit in a row facing north. R sits fourth to the right of P. Q is immediate left of S. U sits second to the left of T. V sits at extreme left. P is not a neighbour of V. Which of the following is definitely true?
+-
+(a) S sits immediate right of Q. (b) Q sits at extreme right. - (c) T sits immediate left of R. - (d) U sits second to the right of V. -
+Answer: (a)
+Solution: V=1. R=P+4. Q‑S block (Q left of S). U second left of T ⇒ T = U+2. P not neighbour of V ⇒ P≠2. P=3 ⇒ R=7. Q=5,S=6; U=2,T=4. Arrangement: 1‑V,2‑U,3‑P,4‑T,5‑Q,6‑S,7‑R. Only (D) holds.
+Source: PYQ-style
+
+81. Six persons P, Q, R, S, T, U sit around a circle facing centre. P is third to the right of Q. R is immediate left of P. S is second to the left of T. U sits opposite S. Who sits immediate right of Q?
+-
+(a) P - (b) S (c) R - (d) T -
+Answer: (b)
+Solution: 1–6 clockwise. Q=1. P 3rd right → anticlockwise 1→6→5→4, P=4. R immediate left → clockwise → R=5. S 2nd left of T ⇒ S clockwise 2 from T ⇒ T = S+2 clockwise. U opposite S. S=6 ⇒ U=3, T=6+2=8→2. Arrangement: 1‑Q,2‑T,3‑U,4‑P,5‑R,6‑S. Immediate right of Q(1) = anticlockwise = 6 = S.
+Source: PYQ-style
+
+82. Six persons A, B, C, D, E, F sit in a row facing north. A is second to the left of D and immediate right of B. C is second to the right of E. F sits at extreme right. B is not a neighbour of E. Who sits second to the left of C?
+-
+(a) A - (b) B - (c) E (d) D -
+Answer: (c)
+Solution: F=6. A immediate right of B ⇒ B,A block. A 2nd left of D ⇒ D=A+2 ⇒ B=x, A=x+1, D=x+3. C=E+2. B not neighbour of E. x=1: B=1,A=2,D=4. E=3,C=5. B=1 not neighbour of E=3. Arrangement: 1‑B,2‑A,3‑E,4‑D,5‑C,6‑F. Second left of C(5)=3=E.
+Source: PYQ-style
+
+83. Eight persons A, B, C, D, E, F, G, H sit around a circle facing centre. A is third to the left of B. C is immediate right of A. D is second to the left of E. F sits opposite D. G is immediate neighbour of H. Who sits second to the right of G?
+-
+(a) A - (b) B - (c) D (d) C -
+Answer: (d)
+Solution: 1–8 clockwise. B=1, A 3rd left → 4. C immediate right → 3. D 2nd left of E ⇒ D clockwise 2 from E ⇒ E = D+2. F opposite D. D=6 ⇒ F=2, E=8. G,H neighbours at 5,7. Arrangement: 1‑B,2‑F,3‑C,4‑A,5‑G,6‑D,7‑H,8‑E. Second right of G(5) anticlockwise 2→4→3 = C.
+Source: PYQ-style
+
+84. Seven persons P, Q, R, S, T, U, V sit in a row facing north. D sits third to the right of B. C is immediate left of E. F sits second to the left of G. A sits at extreme left. B is not a neighbour of A. Which of the following is definitely false?
+-
+(a) G sits second to the left of E. - (b) F sits immediate left of B. - (c) C sits immediate right of D. - (d) E sits at extreme right.
+Answer: (a)
+Solution: A=1. D=B+3. C‑E block (C left of E). F second left of G ⇒ G=F+2. B not neighbour of A ⇒ B≠2. B=3 ⇒ D=6. C=2,E=3? B=3 conflict. C=4,E=5; F=2,G=4 conflict. B=4 ⇒ D=7. C=2,E=3; F=5,G=7 conflict. C=3,E=4 conflict B. C=5,E=6; F=2,G=4 works. Arrangement: 1‑A,2‑F,3‑B,4‑G,5‑D,6‑C,7‑E. Second left of E(7) = 5 = D, not G. Hence (B) false.
+Source: PYQ-style
+
+85. Six persons A, B, C, D, E, F sit around a circle facing centre. A is third to the left of B. C is immediate right of A. D is second to the right of E. F is not a neighbour of C. Who sits second to the left of F?
+-
+(a) A - (b) B - (c) C - (d) D
+Answer: (b)
+Solution: 1–6 clockwise. B=1, A=4, C=3. D 2nd right of E ⇒ D anticlockwise 2 from E. F not neighbour of C. E=2 ⇒ D anticlockwise 2→1→6, D=6. F=5. Arrangement: 1‑B,2‑E,3‑C,4‑A,5‑F,6‑D. Second left of F(5) = clockwise 5→6→1 = B.
+Source: PYQ-style
+
+86. Six persons P, Q, R, S, T, U sit in a row facing north. P is second to the left of S and immediate right of Q. T is immediate left of U. R sits at extreme right end. Q is not a neighbour of R. Who sits second to the left of R?
+-
+(a) P - (b) Q - (c) S - (d) T
+Answer: (c)
+Solution: R=6. Q not neighbour of R ⇒ Q≠5. P immediate right of Q ⇒ Q,P block. P 2nd left of S ⇒ S=P+2. So Q=x, P=x+1, S=x+3. T immediate left of U ⇒ T,U block. x=1: Q=1,P=2,S=4. T,U at 3,5? 3 and 5 not adjacent. x=2: Q=2,P=3,S=5. T,U at 1,4? 1 and 4 not adjacent. x=3: Q=3,P=4,S=6 conflict R. So adjust: T immediate right of U ⇒ U,T block (U left of T). x=2: Q=2,P=3,S=5. U,T at 1,4 not adjacent. x=1: Q=1,P=2,S=4. U,T at 3,5? U=3,T=5 adjacent works. Q=1 not neighbour of R=6. Arrangement: 1‑Q,2‑P,3‑U,4‑S,5‑T,6‑R. Second left of R(6)=4=S.
+Source: PYQ-style
+
+87. Eight persons A, B, C, D, E, F, G, H sit around a circle facing centre. A is second to the left of B. C is third to the right of D. E is immediate neighbour of both F and G. H sits opposite F. Who sits opposite D?
+-
+(a) C - (b) E - (c) H (d) G -
+Answer: (d)
+Solution: 1–8 clockwise. B=1, A=3. C 3rd right of D ⇒ anticlockwise 3 from D. Opposite A=7. H opposite F. E between F,G. D=2 ⇒ C anticlockwise 2→1→8→7, C=7. F=4 ⇒ H=8. E=5,G=6. Arrangement: 1‑B,2‑D,3‑A,4‑F,5‑E,6‑G,7‑C,8‑H. Opposite D(2)=6=G.
+Source: PYQ-style
+
+88. Seven persons A, B, C, D, E, F, G sit in a row facing north. D sits second to the right of B. C is immediate left of E. F sits second to the left of G. A sits at extreme left. B is not a neighbour of A. Which of the following is definitely false?
+-
+(a) G sits second left of E. - (b) F sits immediate left of B. - (c) C sits immediate right of D. - (d) E sits at extreme right.
+Answer: (a)
+Solution: A=1. D=B+2. C‑E block (C left of E). F second left of G ⇒ G=F+2. B not neighbour of A ⇒ B≠2. B=3 ⇒ D=5. C=2,E=3? B=3 conflict. C=4,E=5? D=5 conflict. C=6,E=7; F=2,G=4 works. Arrangement: 1‑A,2‑F,3‑B,4‑G,5‑D,6‑C,7‑E. Second left of E(7)=5=D, not G. So (B) false.
+Source: PYQ-style
+
+89. Six persons P, Q, R, S, T, U sit around a circle facing centre. P is third to the right of Q. R is immediate left of P. S is second to the left of T. U sits opposite S. Who sits immediate right of R?
+-
+(a) Q - (b) P - (c) S - (d) T
+Answer: (b)
+Solution: 1–6 clockwise. Q=1. P 3rd right → anticlockwise 4, P=4. R immediate left → clockwise → R=5. S 2nd left of T ⇒ S clockwise 2 from T ⇒ T=S+2. U opposite S. S=6 ⇒ U=3, T=2. Arrangement: 1‑Q,2‑T,3‑U,4‑P,5‑R,6‑S. Immediate right of R(5) = anticlockwise = 4 = P.
+Source: PYQ-style
+
+90. Eight persons A, B, C, D, E, F, G, H sit in a row facing north. D sits fourth to the right of A. B is immediate left of C. E sits second to the left of F. G sits at extreme left. H sits at extreme right. Who sits third to the left of H?
+-
+(a) B - (b) C - (c) E - (d) F
+Answer: (c)
+Solution: G=1, H=8. D=A+4. B‑C block (B left of C). F=E+2. A=2 ⇒ D=6. B=3,C=4; E=5,F=7 works. Arrangement: 1‑G,2‑A,3‑B,4‑C,5‑E,6‑D,7‑F,8‑H. Third left of H(8)=5=E.
+Source: PYQ-style
+
+91. Eight persons sit in two parallel rows of four each. Row 1 (A,B,C,D) faces north, Row 2 (P,Q,R,S) faces south. A sits opposite P. C sits immediate left of A. Q sits immediate right of P. B sits at extreme left of Row 1. D sits at extreme right of Row 1. R sits opposite B. Who sits opposite D?
+-
+(a) P - (b) Q - (c) R - (d) S
+Answer: (d)
+Solution: Row1 seats L-R: 1‑B, 4‑D. C immediate left of A → C left of A, so A not at 1. A=3, C=2. Row1: 1‑B,2‑C,3‑A,4‑D. P opposite A → Row2 seat 3 = P. Q immediate right of P (facing south, right = our left) → Q at seat 2. R opposite B → Row2 seat 1 = R. Remaining seat 4 = S, opposite D.
+Source: PYQ-style
+
+92. Six persons A, B, C, D, E, F sit around a circle facing centre. A is third to the left of B. C is second to the right of A. D is immediate neighbour of E. F sits opposite E. Who sits immediate left of F?
+-
+(a) C - (b) B - (c) D - (d) A
+Answer: (a)
+Solution: 1–6 clockwise. B=1, A=4. C 2nd right of A → anticlockwise 4→3→2, C=2. D neighbour of E. F opposite E. E=6 ⇒ F=3, D=5. Arrangement: 1‑B,2‑C,3‑F,4‑A,5‑D,6‑E. Immediate left of F(3) = clockwise = 2 = C.
+Source: PYQ-style
+
+93. Seven persons A, B, C, D, E, F, G sit in a row facing north. C sits second to the right of A. B is immediate left of D. F sits second to the left of G. E sits at extreme left. A is not a neighbour of E. Which of the following is definitely false?
+-
+(a) A sits immediate right of F. - (b) G sits third to the left of C. (c) C sits immediate left of B. - (d) D sits at extreme right. -
+Answer: (b)
+Solution: E=1. C=A+2. B‑D block (B left of D). G=F+2. A not neighbour of E ⇒ A≠2. A=3 ⇒ C=5. B=6,D=7; F=2,G=4. Arrangement: 1‑E,2‑F,3‑A,4‑G,5‑C,6‑B,7‑D. Third left of C(5)=2=F, not G.
+Source: PYQ-style
+
+94. Eight persons A, B, C, D, E, F, G, H sit around a circle facing centre. A is third to the left of B. C is immediate right of A. D is second to the left of E. F sits opposite D. G is immediate neighbour of H. Who sits opposite H?
+-
+(a) B - (b) D - (c) C - (d) E
+Answer: (c)
+Solution: 1–8 clockwise. B=1, A=4. C=3. D 2nd left of E ⇒ D clockwise 2 from E ⇒ E=D+2. F opposite D. D=6 ⇒ F=2, E=8. G,H neighbours at 5,7 → H=7, G=5. Opposite H(7)=3=C.
+Source: PYQ-style
+
+95. Six persons P, Q, R, S, T, U sit in a row facing north. P is second to the left of T and immediate right of Q. R is immediate left of S. U sits at extreme right end. Q is not a neighbour of U. Who sits second to the right of Q?
+-
+(a) P - (b) S - (c) T (d) R -
+Answer: (d)
+Solution: U=6. Q not neighbour of U ⇒ Q≠5. P immediate right of Q ⇒ Q,P block. P 2nd left of T ⇒ T=P+2 ⇒ Q=x, P=x+1, T=x+3. R immediate left of S ⇒ R,S block. x=1: Q=1,P=2,T=4. R,S at 3,5 works R=3,S=5. Q=1 not neighbour of U=6. Arrangement: 1‑Q,2‑P,3‑R,4‑T,5‑S,6‑U. Second right of Q(1)=3=R.
+Source: PYQ-style
+
+96. Six persons P, Q, R, S, T, U sit around a circle facing centre. P is second to the left of Q. R is immediate right of P. S is second to the right of T. U sits opposite R. Who sits immediate left of T?
+-
+(a) U (b) P - (c) Q - (d) S -
+Answer: (a)
+Solution: 1–6 clockwise. Q=1, P=3. R immediate right → anticlockwise → R=2. U opposite R(2↔5) ⇒ U=5. S 2nd right of T ⇒ S anticlockwise 2 from T. T=6 ⇒ S=4. Arrangement: 1‑Q,2‑R,3‑P,4‑S,5‑U,6‑T. Immediate left of T(6) = clockwise = 5 = U.
+Source: PYQ-style
+
+97. Eight persons A, B, C, D, E, F, G, H sit in a row facing north. D sits fourth to the left of H. B is immediate right of A. C is second to the right of E. F sits at extreme left. G sits at extreme right. H is not a neighbour of G. Who sits third to the left of G?
+-
+(a) B - (b) E (c) C - (d) D -
+Answer: (b)
+Solution: F=1, G=8. H=D+4. H not neighbour of G ⇒ H≠7 ⇒ D=2,H=6. B immediate right of A ⇒ A,B block (A left of B). C=E+2. A=3,B=4; E=5,C=7 works. Arrangement: 1‑F,2‑D,3‑A,4‑B,5‑E,6‑H,7‑C,8‑G. Third left of G(8)=5=E.
+Source: PYQ-style
+
+98. Six persons P, Q, R, S, T, U sit in a row facing north. P is second to the left of S and immediate right of Q. T is third to the right of U. R sits at extreme right end. Q is not a neighbour of R. Who sits immediate left of R?
+-
+(a) P - (b) Q - (c) S - (d) T
+Answer: (c)
+Solution: R=6. Q not neighbour of R ⇒ Q≠5. P immediate right of Q ⇒ Q,P block. P 2nd left of S ⇒ S=P+2 ⇒ Q=x, P=x+1, S=x+3. T=U+3. x=2: Q=2,P=3,S=5. U=1,T=4 works. Q=2 not neighbour of R=6. Arrangement: 1‑U,2‑Q,3‑P,4‑T,5‑S,6‑R. Immediate left of R(6)=5=S.
+Source: PYQ-style
+
+99. Eight persons A, B, C, D, E, F, G, H sit around a circle facing centre. A is third to the left of B. C is immediate right of A. D is second to the left of E. F sits opposite D. G is immediate neighbour of H. Who sits second to the left of A?
+-
+(a) B - (b) C - (c) E (d) D -
+Answer: (d)
+Solution: 1–8 clockwise. B=1, A=4. C=3. D 2nd left of E ⇒ D clockwise 2 from E ⇒ E=D+2. F opposite D. D=6 ⇒ F=2, E=8. G,H at 5,7. Arrangement: 1‑B,2‑F,3‑C,4‑A,5‑G,6‑D,7‑H,8‑E. Second left of A(4) = clockwise 4→5→6 = D.
+Source: PYQ-style
+
+100. Seven persons A, B, C, D, E, F, G sit in a row facing north. D sits third to the right of B. A is immediate left of C. E is immediate left of F. G sits at extreme left. B is not a neighbour of G. Who sits second to the left of D?
+-
+(a) A - (b) E - (c) C - (d) F
+Answer: (b)
+Solution: G=1. D=B+3. A‑C block (A left of C). E‑F block (E left of F). B not neighbour of G ⇒ B≠2. B=3⇒D=6; A=2,C=3? B=3 conflict. B=4⇒D=7; A=2,C=3; E=5,F=6. B=4 not neighbour of G. Arrangement: 1‑G,2‑A,3‑C,4‑B,5‑E,6‑F,7‑D. Second left of D(7)=5=E.
+Source: PYQ-style

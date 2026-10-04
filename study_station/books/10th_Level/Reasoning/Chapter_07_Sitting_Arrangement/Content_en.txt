@@ -1,148 +1,126 @@
-अध्याय 3: बैठक व्यवस्था (सरल) / Sitting Arrangement (Basic)
-📌 इस अध्याय में हम सीखेंगे (Learning Goals)
+Chapter 3: Sitting Arrangement (Basic)
+📌 What We Will Learn in This Chapter (Learning Goals)
 
-रेखीय (Row) और वृत्तीय (Circle) बैठक की बुनियादी समझ
+- Core concepts of Linear (Row) and Circular (Round Table) sitting arrangements
+- Crystal clear mastery of Left, Right, and Facing directions
+- Solving direct and relative clues quickly and accurately
+- Mastering the art of cracking the entire puzzle from a single clean diagram
+- Identifying and escaping examiner traps
 
-दिशाओं (Left/Right/Facing) की पक्की पहचान
+🎯 Hook: A Mind Opener Before We Begin
 
-Direct और Indirect कंडीशन को तेज़ी से हल करना
+Imagine you and your four friends — Aman, Beena, Chetan, Deepa, and Eshan — are sitting in a row at a cinema hall. All you remember is: "Aman is sitting immediately to the left of Beena", "Deepa is not at either end", and "There are exactly two persons between Chetan and Eshan." With just these three clues, your brain can deduce everyone's exact seat. That is Sitting Arrangement — not magic, but a structured logical puzzle whose rules you can master in 30–40 seconds. This chapter will give you the confidence to approach every sitting arrangement problem with a smile rather than hesitation.
 
-एक ही Diagram से सारे सवाल हल करने का कौशल
+🤔 Why Does This Topic Often Feel Difficult? (Common Struggles)
 
-परीक्षक के जाल पहचानना और बचना
+Most students struggle because:
+- "It is hard to keep so many clues in mind all at once."
+- "Left and Right get confused, especially when people face inward or outward."
+- "A single misplaced person ruins the entire diagram and wastes precious exam time."
 
-🎯 शुरुआत से पहले एक धमाका (Hook)
+Do not worry. Just like learning to ride a bicycle, once you master the foundational principles, solving becomes second nature. Today we will learn a systematic step-by-step strategy that works reliably every single time.
 
-क्या आपने कभी सोचा है कि परीक्षा का सबसे पेचीदा पज़ल असल में एक सीधी-सादी पार्टी की बैठक जैसा है? कल्पना करो, पाँच दोस्त — राहुल, प्रिया, अमित, सीमा और विकास — एक कतार में मूवी देखने बैठे हैं। आपको बस इतना बताया गया: “राहुल, प्रिया के ठीक बाएँ है”, “सीमा किनारे पर नहीं बैठी”, “विकास और अमित के बीच दो लोग हैं।” बस, अब आपका दिमाग एक सुपरकंप्यूटर बनकर उनकी सही सीट खोज सकता है। यही है बैठक व्यवस्था — कोई जादू नहीं, सिर्फ एक खेल है जिसके नियम हम आज सीखेंगे। इसे पढ़ने के बाद, आप हर Sitting Arrangement के सवाल को 30-40 सेकंड में चुटकी बजाते हल कर पाएँगे।
+🧠 Active Recall Prompt: Before reading further, explain to yourself — what is the single biggest difference between a Linear (Row) and Circular sitting arrangement? (Hint: Ends)
 
-🤔 अक्सर क्यों लगता है मुश्किल? (The Common Struggle)
+1. Two Basic Types of Sitting Arrangement
 
-ज़्यादातर विद्यार्थी यह कहते सुनाई देते हैं:
-“सवाल में बहुत सारी कंडीशंस हैं, समझ ही नहीं आता कहाँ से शुरू करूँ।”
-“Left-Right का confusion हो जाता है, खासकर जब लोग अंदर/बाहर की ओर मुँह किए हों।”
-“एक गलत प्लेसमेंट से सारी मेहनत बेकार।”
+Every elementary sitting arrangement problem is either Linear (Row) or Circular. Recognizing the layout and orientation is the key to solving.
 
-यह सब इसलिए होता है क्योंकि हम शुरुआत में बिना रणनीति के सीधे सवाल पर कूद पड़ते हैं। आज हम एक ऐसा Systematic तरीका सीखेंगे जो हर बार काम करेगा।
+Type | Layout | Direction & End Points
+Linear (Row) | A straight line (North-facing, South-facing, or general Left-to-Right) | Definite Left and Right; identifying people at the two ends (extremities) is crucial
+Circular | Around a round table (Facing the centre or Facing outward) | Neighbours' Left and Right are determined clockwise/anticlockwise; there are no end points
 
-🧠 Active Recall Prompt: बिना आगे पढ़े, खुद को समझाएँ — “Row” और “Circle” बैठक में सबसे बड़ा अंतर क्या है? (संकेत: छोर)
+🧠 Active Recall: Pause here. Draw a 5-seater row and a 5-seater circle on a piece of paper. Mark Left and Right for each seat, then continue reading.
 
-1. बैठक व्यवस्था के दो बुनियादी प्रकार (Two Basic Types)
+2. The Golden Rule of Direction
 
-हर सरल बैठक व्यवस्था या तो Linear (रेखीय) होती है या Circular (वृत्तीय)।
+To eliminate direction confusion forever, remember one core rule: "Look at the world through the eyes of the person sitting in that seat."
 
-प्रकार	आकृति	दिशा का महत्त्व
-Linear (Row)	एक सीधी कतार (North/South facing या Left/Right में)	Left/Right सुनिश्चित, किनारों पर बैठे लोगों की पहचान ज़रूरी
-Circular (Circle)	गोल मेज़ के चारों ओर (Centre facing या Outside facing)	Immediate neighbours, Left/Right घड़ी की दिशा में तय होता है
+If all people face the same direction (e.g. all facing North in a row):
+Your Left = Their Left, Your Right = Their Right. This is the simplest case.
 
-🧠 Active Recall: *रुकिए और कागज़ पर एक 5-सीटर row और एक 5-सीटर circle बनाइए। उनके Left और Right mark कीजिए। फिर आगे पढ़िए।*
+If all people face the centre (Circular, inside facing):
+Clockwise movement is to their Left, and Anticlockwise movement is to their Right.
+Mnemonic: "Clock-L" — Clockwise is Left for centre-facing arrangements.
 
-2. Left/Right का सुनहरा नियम (Golden Rule of Direction)
+If all people face outward (Circular, outside facing):
+The rule reverses completely. Clockwise movement is now to their Right, and Anticlockwise movement is to their Left.
+Trick: Whenever you see "facing outward", mentally stand in their spot facing away from the table to determine their left and right.
 
-Direction का confusion हमेशा के लिए खत्म करने के लिए “सीट के किरदार की आँखों से देखो”।
+🧠 Active Recall: Look at your wristwatch. For a person sitting at the bottom of a circle facing the centre (12 o'clock direction), is the neighbour at 1 o'clock to their left or right? Verify.
 
-अगर सब एक ही दिशा की ओर मुँह किए बैठे हों (जैसे Row में सब North face):
-तब आपकी Left = उनकी Left, Right = उनकी Right। यह आसान है।
+3. The 4-Step Magic Strategy for Solving
 
-अगर वे केंद्र की ओर मुँह किए हों (Circular, inside facing):
-तो clockwise direction उनके Left होती है और anticlockwise उनके Right।
-Mnemonic: “Clock-L left लगाओ” — यानी Centre-facing में Clockwise, व्यक्ति का Left है।
+Step 1: Sort the Clues
+- Definite clues directly specify positions, such as "Aman is at the third position from the left."
+- Relative clues specify relationships, such as "Aman is to the left of Beena" or "There are two persons between Aman and Beena."
+- Always place definite clues into your diagram first.
 
-अगर बाहर की ओर मुँह किए हों (Outside facing):
-तो बिलकुल उलटा — clockwise, उनका Right; anticlockwise, Left।
-Trick: जैसे ही “बाहर की ओर मुँह” पढ़ो, अपना चेहरा उसी तरफ करके सोचो।
+Step 2: Draw the Skeleton
+- For Linear: Draw empty boxes in a line, e.g., [ ] [ ] [ ] [ ] [ ]
+- For Circular: Draw a circle with tick marks corresponding to the number of seats.
 
-🧠 Active Recall: अपनी कलाई घड़ी देखो। केंद्र की ओर मुँह करके बैठे व्यक्ति के लिए 12 बजे वाला पड़ोसी Left है या Right? जाँचो।
+Step 3: Apply Clues Incrementally
+- Start with the definite clues to anchor the arrangement.
+- Next, test relative clues. If two valid possibilities arise, draw parallel branches rather than erasing your work.
 
-3. सवाल हल करने की 4-चरणों वाली जादुई रणनीति (4-Step Magic Strategy)
+Step 4: Verify and Check for Traps
+- Test each condition one by one against your final diagram.
+- Eliminate any branch that contradicts any condition. The single remaining valid branch is your correct arrangement.
 
-Step 1: जानकारी को छाँटो (Sort the Info)
+🧠 Active Recall: Without looking at notes, what is the best strategy when two conflicting possibilities arise simultaneously during placement?
 
-“कौन कहाँ बैठा है” सीधे बताने वाली जानकारी को “Certain” (निश्चित) कहो।
+4. The 3 Most Powerful Clues in Linear Arrangements
 
-“A, B के बाएँ/दाएँ है”, “बीच में इतने लोग हैं” — ऐसी जानकारी “Relative” (सापेक्ष) होती है।
+1. "A is immediately left/right of B" → A and B must sit together as a fixed block [AB] or [BA]. Treat them as a single unit.
+2. "There are two persons between A and B" → Gap = 2, i.e., [A _ _ B] or [B _ _ A]. Consider both orientations unless one is ruled out.
+3. "A sits at one of the extreme ends" → Fix A immediately at the first or last position, and build the remaining seats around A.
 
-निश्चित जानकारी को पहले diagram पर रखो।
+Example:
+5 friends sit in a row facing North:
+- B sits immediately to the right of C.
+- Exactly one person sits between A and E.
+- D does not sit at either extreme end.
+Solution: C and B form the block [CB]. D must be in one of the three middle seats (2, 3, or 4). Testing [CB] and A-gap-E placements quickly leaves the unique valid arrangement: A - C - B - D - E (or E - C - B - D - A).
 
-Step 2: खाका बनाओ (Draw the Skeleton)
+5. Circular Arrangements: Thinking in 360 Degrees
 
-Linear के लिए: खाली बक्सों की एक पंक्ति बनाओ। Example: [ ] [ ] [ ] [ ] [ ]
+A circle has no beginning and no end. Therefore, the most effective strategy is to anchor (fix) one person arbitrarily at the 6 o'clock position facing North/centre.
 
-Circular के लिए: एक गोला और उस पर उतने ही बिंदु बनाओ जितने लोग हों।
+- If "A sits second to the left of B" (facing centre): Place B at the bottom (facing North), so B's left is to the clockwise direction. Skip one seat and place A.
+- "B sits opposite A" — This is only possible when the total number of persons is even (6, 8, etc.).
 
-Step 3: कंडीशंस लगाओ (Apply Conditions One by One)
+🧠 Active Recall: In a 6-person circular table facing the centre, who sits directly opposite person A? (Hint: Skip exactly 2 persons on either side).
 
-सबसे पहले “certain” सूचना रखो।
+6. When Orientations Vary: Mixed Facing Directions
 
-फिर relative conditions को try करो। अगर एक से ज़्यादा सम्भावनाएँ (possibilities) बनें तो दोनों बनाकर आगे बढ़ो।
+Examiners often create challenging puzzles where some persons face North and others face South in a row, or some face inward and others outward in a circle.
+- Simplest technique: Draw a small arrow (↑ or ↓) above each person's label.
+- Determine Left and Right strictly based on that individual's arrow.
+- Example: If A faces North (↑) and B faces South (↓), A's right hand points in the same direction as B's left hand.
 
-Step 4: जाँच और फँसाओ (Verify & Trap)
+Mnemonic:
+"Face-to-face reverses left and right; back-to-back keeps the compass bright."
 
-हर condition को diagram पर verify करो।
+📋 Chapter Summary Table
 
-जो possibility सारी शर्तें पूरी न करे, उसे काट दो। बची हुई possibility ही सही बैठक है।
+Concept | Key Principle
+Linear Core | Always identify the ends; treat adjacent pairs as single blocks
+Circular Core | Anchor one person to start; clockwise = left when facing inward
+Mixed Facing | Draw arrows above labels; determine orientation individually
+Multiple Cases | Never guess; branch into Case 1 and Case 2, then eliminate
+Verification | Re-verify every clue against the final diagram before answering
 
-🧠 Active Recall: बोलिए — जब दो possibilities बनें तो उन्हें एक साथ कैसे संभालेंगे? (Hint: Branching method)
+🔁 Review After 2 Days:
+Re-read the mnemonics and solving rules in this chapter, and solve at least 5 sitting arrangement questions independently without looking at the explanations.
 
-4. Linear Arrangement के 3 सबसे ताकतवर Clues
+⚠️ Watch Out: Common Examiner Traps
 
-“A, B के ठीक बाएँ/दाएँ है” → A और B पड़ोसी हैं, और order fix है। इसे एक pair की तरह treat करो।
+1. Ambiguity in Multiple Valid Scenarios
+Examiners craft options that only hold true in one of two possible cases. If "Who sits at the right end?" could be either P or Q depending on the case, do not jump to conclusions without verifying whether the question asks "who could sit" vs "who definitely sits".
 
-“A और B के बीच दो व्यक्ति हैं” → बीच के gaps = 2, तो इनके बीच 2 लोग होंगे। यह दोनों छोर से भी हो सकता है — दोनों सम्भावनाएँ देखो।
+2. Intimidating Vocabulary
+Phrases like "not adjacent to", "alternate positions", and "diametrically opposite" are merely formal ways of expressing "not next to", "leaving one gap", and "straight across the table". Translate them immediately into plain English.
 
-“A किसी एक छोर पर है” → तुरंत A को पहले या आखिरी सीट पर fix करो।
-
-🧩 उदाहरण:
-5 दोस्त एक पंक्ति में उत्तर की ओर मुँह करके बैठे हैं।
-
-B, C के ठीक दाएँ है।
-
-A और E के बीच केवल एक व्यक्ति है।
-
-D किसी छोर पर नहीं है।
-
-हल: B-C का pair बनेगा। D बीच की तीन सीटों पर होगा। A और E के बीच एक व्यक्ति — दोनों के बीच gap 1, तो positions (1,3), (2,4), (3,5) हो सकती हैं। एक-एक करके D की शर्त पूरी करते हुए arrange करेंगे। बाद में जाँचेंगे।
-
-5. Circular Arrangement: 360° में सोचना सीखें
-
-गोल मेज़ पर जगहों की कोई शुरुआत नहीं होती, इसलिए एक person को fix करके शुरू करना सबसे powerful रणनीति है।
-
-अगर “A, B के बाएँ दूसरा है” (inside facing) तो → A से पहले एक व्यक्ति छोड़कर B होगा। Direction clockwise (left) याद रखो।
-
-“B, A के ठीक सामने है” → तभी सम्भव जब कुल लोगों की संख्या even हो।
-
-🧠 Active Recall: 6 लोगों के circle में, A का ठीक opposite व्यक्ति कौन है? (Hint: 3 positions gap)
-
-6. जब सब एक साथ बदल जाए: Mixed Facing Directions
-
-परीक्षक अक्सर Row में ही “कुछ उत्तर की ओर, कुछ दक्षिण की ओर” बैठाकर उलझाते हैं।
-सबसे सरल उपाय: हर व्यक्ति के लिए एक छोटा arrow (↑ या ↓) बनाओ।
-
-अब Left/Right उसी arrow के अनुसार देखो।
-
-Example: यदि A ↑ (North face) और B ↓ (South face) बैठे हैं, तो A का Right, B के लिए Left होगा।
-
-Mnemonic याद रखो:
-“Face to Face, Left-Right Reverse” — आमने-सामने बैठे लोगों की Left-Right उलट जाती है।
-“Back to Back, Same Side Track” — पीठ-पीठ करके बैठे लोगों की Left-Right समान रहती है।
-
-📋 अध्याय सारांश तालिका (Summary Table)
-Concept	Key Point
-Linear basic	हमेशा ends (छोर) पहचानो; pairs को block की तरह रखो
-Circular basic	किसी एक को फिक्स करके शुरू करो; centre-facing में clockwise = Left
-Mixed Direction	Arrow बनाकर हर व्यक्ति का अपना Left/Right निकालो
-Possibilities	जहाँ एक से अधिक सम्भावनाएँ हों, शाखाएँ बनाकर verify करो
-Verification	सभी conditions का cross-check ज़रूरी
-
-🔁 Review this after 2 days:
-इस अध्याय की सारी कंडीशंस और Mnemonics को एक बार फिर से पढ़ें और बिना देखे कम से कम 5 सवाल हल करें।
-
-⚠️ Caution: Examiner’s Trap
-
-1. विकल्पों में एक से अधिक संभावित संबंध दिखाना
-परीक्षक अक्सर “कौन दाएँ छोर पर है?” पूछकर विकल्पों में ऐसे नाम देते हैं जो अलग-अलग सम्भावित arrangements में सही हो सकते हैं। आपको हर possibility check करने के बाद ही उत्तर देना है। अधूरी डायग्राम से कूदना मत।
-
-2. कठिन शब्दों का प्रयोग करके भ्रमित करना
-“A, B के सन्निकट नहीं है”, “एकांतर क्रम में बैठे हैं”, “प्रतिवेशी दिशा में मुँह किए हुए” — ये बड़े शब्द केवल Simple conditions को उलझाने के लिए होते हैं। तुरंत Simple English/Hindi में translate करो: “Not adjacent”, “Alternate positions”, “Facing opposite directions”.
-
-3. दोहरे संबंध वाले प्रश्न
-“A, B का पड़ोसी है और C के बाएँ दूसरा भी है।” इसमें एक ही व्यक्ति पर दो relations हैं। ऐसे में एक पूरी possibility को लेकर चलो, दूसरी condition apply करो। अगर clash हो तो पहली possibility रद्द। जल्दबाजी में किसी एक relation को भूलना सबसे बड़ा trap है।
+3. Dual-Condition Clues
+"A is a neighbour of B and also sits second to the left of C." Here, two independent conditions apply to A. Place the more restrictive clue first, then test whether the second condition holds. Do not overlook the second part of a compound clue.
