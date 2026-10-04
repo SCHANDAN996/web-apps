@@ -1,428 +1,151 @@
-A is the sister of B. B is the brother of C. C is the father of D. How is A related to D?
-(A) Aunt
-(B) Mother
-(C) Sister
-(D) Grandmother
-Answer: (A) Aunt
-Solution: A sister of B, B brother of C → A, B, C are siblings. C father of D → A is D's paternal aunt (bua).
+Questions 26–45: Easy | Questions 46–50: Medium
+
+26. A is the sister of B. B is the brother of C. C is the father of D. How is A related to D?
+(a) Aunt (b) Mother (c) Sister (d) Grandmother
+Answer: (a)
+Solution: A is the sister of B, and B is the brother of C, so A, B, and C are siblings. Since C is the father of D, A is the paternal aunt of D.
 Source: PYQ-style
 
-Pointing to a man in a photograph, a woman said, “His brother’s father is the only son of my grandfather.” How is the woman related to the man in the photograph?
-(A) Sister
-(B) Mother
-(C) Aunt
-(D) Cousin
-Answer: (A) Sister
-Solution: The man’s brother’s father = the man’s father. That father is the only son of the woman’s grandfather → means woman’s grandfather has only one son, who is the man’s father. So the man’s father is also woman’s father → they are siblings. Hence woman is man’s sister.
+27. Pointing to a photograph, a woman said, 'His brother's father is the only son of my grandfather.' How is the woman related to the person in the photograph?
+(a) Mother (b) Sister (c) Aunt (d) Cousin
+Answer: (b)
+Solution: The brother's father is the father of the person in the photograph. That father is the only son of the woman's grandfather, meaning he is also the woman's father. Therefore, the woman is the sister of the person in the photograph.
 Source: PYQ-style
 
-If ‘A × B’ means ‘A is brother of B’, ‘A ÷ B’ means ‘A is daughter of B’, ‘A + B’ means ‘A is wife of B’, then P ÷ Q × R + S. How is P related to S?
-(A) Daughter
-(B) Niece
-(C) Sister
-(D) Granddaughter
-Answer: (A) Daughter
-Solution: P ÷ Q → P is daughter of Q. Q × R → Q is brother of R. So R is sibling of Q, P is niece of R. R + S → R is wife of S. So P is niece of S's wife? Wait, careful: R is wife of S → S is husband of R. P is daughter of Q, Q is brother of R, so P is niece of R (sister's daughter). Since R is wife of S, P is niece of S as well (by marriage). But the question asks P related to S: S is husband of P's maternal aunt (R) if R is female? Need to re-evaluate: "Q × R" means Q is brother of R. So R could be male or female? "Brother of R" implies R is sibling of Q, but if R is female, Q is her brother. So R is female. Then R + S means R is wife of S. So S is husband of R. P is daughter of Q, Q is brother of R, making P the niece of R (sister's daughter). So P is niece of S as well. But is there an option for niece? Not listed. The given solution might be different. Actually, I need to ensure the answer matches the options I provide. Let me re-define: If I set P ÷ Q (daughter of Q), Q × R (brother of R). R + S (wife of S). P is daughter of Q, Q brother of R → P niece of R. R wife of S → S uncle by marriage, so P is niece of S. But I need options: (A) Daughter, (B) Niece, (C) Sister, (D) Granddaughter. "Nie" is not there, so perhaps I should adjust the question to get a direct relation. Let's rethink. If I want P related to S as daughter-in-law or something. I'll re-craft: Suppose P ÷ Q (daughter of Q), Q × R (brother of R), R + S (wife of S). Actually if R is wife of S, then R is female. So Q is brother of R, so Q is male. P is daughter of Q, so P is daughter of a male. No direct to S. I'll change the code: maybe 'A + B' means A is husband of B. Then R + S means R is husband of S → S is wife of R. R male. Then P is daughter of Q, Q brother of R (male), so P niece of R. R husband of S → P is niece of S? Not in options. Hmm. I'll simplify to get a clear answer. I'll generate a coded question that yields a straightforward family tree. Let's use a different combination: P × Q ÷ R + S. But then need to think. I'll instead create a medium difficulty coded question that resolves to a simple relation. For example: If 'A + B' means A is father of B, 'A - B' means A is sister of B, 'A * B' means A is brother of B. Then P + Q * R - S. P father of Q, Q brother of R, so P father of R, R sister of S, so P father of S as well. So P is father of S. Answer "Father". Options could include Father, Uncle, etc. I'll do that.
-
-But the question I started with is flawed. I'll scrap and create a new one.
-
-I'll generate all 25 questions carefully. I'll include traps. Let's proceed systematically.26.
-A man pointing to a girl says, “She is the daughter of my only brother’s father’s only daughter-in-law.” How is the girl related to the man?
-(A) Daughter
-(B) Niece
-(C) Sister
-(D) Cannot be determined
-Answer: (D) Cannot be determined
-Solution: “My only brother’s father” = the man’s own father. “Father’s only daughter-in-law” could be either the man’s wife (if he is married and his brother unmarried) or his brother’s wife (if brother is married and he is unmarried). So the girl could be his daughter or his niece. Without further information, the relation cannot be determined.
-Trap: Dual possibility due to ambiguous marital status.
+28. If 'A + B' means 'A is the son of B', 'A – B' means 'A is the daughter of B', and 'A × B' means 'A is the brother of B', then what does 'P + Q × R – S' mean?
+(a) P is the nephew of S (b) P is the son of S (c) P is the grandson of S (d) P is the brother of S
+Answer: (c)
+Solution: P + Q means P is the son of Q. Q × R means Q is the brother of R. R – S means R is the daughter of S. So Q and R are children of S. Since P is the son of Q, P is the grandson of S.
 Source: PYQ-style
 
-If ‘A + B’ means ‘A is the son of B’, ‘A – B’ means ‘A is the daughter of B’, ‘A × B’ means ‘A is the brother of B’, then ‘P + Q × R – S’ means:
-(A) P is grandson of S
-(B) P is son of S
-(C) P is nephew of S
-(D) P is brother of S
-Answer: (A) P is grandson of S
-Solution: P + Q → P is son of Q. Q × R → Q is brother of R. So R is sibling of Q. R – S → R is daughter of S. So Q and R are siblings, both children of S. P is son of Q → P is grandson of S.
+29. Pointing to a woman, a man said, 'She is the only daughter of my mother's only brother.' How is the woman related to the man?
+(a) Sister (b) Niece (c) Aunt (d) Cousin
+Answer: (d)
+Solution: The mother's only brother is the maternal uncle. The only daughter of the maternal uncle is the man's cousin.
 Source: PYQ-style
 
-Pointing to a woman, a man said, “She is the only daughter of my mother’s only brother.” How is the woman related to the man?
-(A) Sister
-(B) Cousin
-(C) Aunt
-(D) Niece
-Answer: (B) Cousin
-Solution: Mother’s only brother = maternal uncle. His only daughter = man’s cousin.
+30. A is the brother of B. B is the daughter of C. C is the son of D. E is the wife of D. How is A related to E?
+(a) Grandson (b) Son (c) Nephew (d) Great-grandson
+Answer: (a)
+Solution: A is the brother of B and B is the daughter of C, so A is the son of C. C is the son of D and E is the wife of D, making D and E the grandparents of A. Therefore, A is the grandson of E.
 Source: PYQ-style
 
-In a family of three generations, A is father of B. B is brother of C. C is mother of D. E is son of D. How is A related to E?
-(A) Grandfather
-(B) Great-grandfather
-(C) Father
-(D) Uncle
-Answer: (B) Great-grandfather
-Solution: A father of B, B brother of C → C is sibling of B, so A is also father/grandfather? Actually, A is father of B, and C is sibling of B, so A is father of C as well (since B and C are siblings). C is mother of D → A is grandfather of D. E is son of D → E is great-grandchild of A. So A is great-grandfather of E.
+31. Pointing to a photograph, a man says, 'She is the only daughter of the only son of my father's wife.' How is the girl in the photograph related to the man?
+(a) Sister (b) Daughter (c) Niece (d) Wife
+Answer: (b)
+Solution: The man's father's wife is his mother. The only son of his mother is the man himself. The only daughter of the man is his daughter.
 Source: PYQ-style
 
-‘P @ Q’ means ‘P is the husband of Q’, ‘P # Q’ means ‘P is the sister of Q’, ‘P Q’ means ‘P is the father of Q’. If ‘M @ N # O P’, how is M related to P?
-(A) Uncle
-(B) Father-in-law
-(C) Grandfather
-(D) Brother
-Answer: (C) Grandfather
-Solution: M @ N → M husband of N. N # O → N sister of O. So O is sibling of N (O could be male or female). O P → O is father of P. So O is male. Thus N is sister of O. M is husband of N, so M is brother-in-law of O. O father of P → M is uncle of P by marriage? Wait, not grandfather. Let's recalc: N female, married to M. O is brother of N, so O male. O father of P, so P is child of O. M is husband of N (sister of O), so M is uncle (by marriage) of P? Actually M is P's father's sister's husband = uncle (fupha). So M is uncle of P, not grandfather. Something's off. Options might have "Uncle". Let's adjust: I want a grandfather relation. Then O must be father of N? Or something. I'll restructure: M @ N (husband of N). N # O (sister of O) – if O is father of P, then O is male. N is sister of O, so N is female. M is husband of N, so M is brother-in-law to O, and uncle to P. So not grandfather. To get M as grandfather, I could have O as son of M. So I'll make: M N (father of N), N @ O (wife of O), O # P (sister of P)? That might get messy. Let's do a different coded question. I'll skip this and create a clean one. I'll replace.
-
-I'll just create a direct relation puzzle without codes. That's easier. So I'll replace question 30. I'll adjust numbering accordingly.30.
-A is the brother of B. B is the daughter of C. C is the son of D. E is the wife of D. How is A related to E?
-(A) Grandson
-(B) Son
-(C) Nephew
-(D) Great-grandson
-Answer: (A) Grandson
-Solution: A brother of B → A male. B daughter of C, and C son of D. So A and B are grandchildren of D. E is wife of D, so E is grandmother. A is grandson of E.
+32. If 'A + B' means 'A is the father of B', 'A – B' means 'A is the brother of B', and 'A × B' means 'A is the wife of B', then what does 'P – Q × R + S' mean?
+(a) P is the father of S (b) P is the uncle of S (c) P is the maternal uncle of S (d) P is the brother of S
+Answer: (c)
+Solution: P – Q means P is the brother of Q. Q × R means Q is the wife of R. R + S means R is the father of S. Since Q is married to R, Q is the mother of S. Since P is the brother of Q (the mother of S), P is the maternal uncle of S.
 Source: PYQ-style
 
-Pointing to a photograph, a man said, “She is the only daughter of the only son of my father’s wife.” How is the girl related to the man?
-(A) Daughter
-(B) Sister
-(C) Niece
-(D) Wife
-Answer: (A) Daughter
-Solution: “My father’s wife” = his mother. “Only son of my mother” = himself (if he is only son). “Only daughter of that son” = his daughter. So the girl is his daughter.
+33. Pointing to a boy, a woman said, 'He is the son of my husband's only sister.' How is the boy related to the woman?
+(a) Son (b) Brother (c) Cousin (d) Nephew
+Answer: (d)
+Solution: The husband's sister is the sister-in-law (nanad). Her son is the nephew.
 Source: PYQ-style
 
-If ‘A + B’ means ‘A is the mother of B’, ‘A – B’ means ‘A is the brother of B’, ‘A × B’ means ‘A is the wife of B’, then ‘P – Q × R + S’ means:
-(A) P is maternal uncle of S
-(B) P is paternal uncle of S
-(C) P is brother of S
-(D) P is grandfather of S
-Answer: (B) P is paternal uncle of S
-Solution: P – Q → P is brother of Q. Q × R → Q is wife of R. So R is husband of Q. R + S → R is mother of S. Wait, R + S means R is mother of S? The code says 'A + B' means A is mother of B, so R + S means R is mother of S. But R is husband of Q, so R is male. Contradiction. So this won't work. I'll fix: I'll ensure gender consistency. Let's use 'A ÷ B' for father, 'A + B' for mother, etc. But I'll simplify: 'P – Q' (brother of Q), 'Q × R' (wife of R) -> R male, 'R + S' (mother of S) would make R female, impossible. So I need to adjust codes. I'll re-do. I'll have 'A + B' as A is father of B, 'A × B' as A is wife of B, 'A – B' as A is sister of B. Then P – Q (sister of Q), Q × R (wife of R) -> R male, R + S (father of S) makes sense. So P is sister of Q, Q wife of R, so P is sister-in-law of R. R father of S, so P is aunt of S. But options had uncle. So not that. Let's do: P – Q (brother of Q), Q × R (wife of R), R + S (father of S). Then P brother of Q, Q wife of R, R father of S. So P is brother of Q, Q is wife of R, making P brother-in-law of R. R father of S, so P is uncle of S? Actually brother-in-law of father is not directly uncle by blood. Usually, brother of mother (mama) or brother of father (chacha). Here P is brother of Q (female), Q is mother of S (since R is father, Q is mother). So P is maternal uncle (mama) of S. So P is maternal uncle. So answer "maternal uncle". I'll include that. I'll adjust options. I'll craft the question accordingly.
-
-I'll set: 'A + B' → A is father of B, 'A × B' → A is wife of B, 'A – B' → A is brother of B. Then P – Q × R + S. P brother of Q (Q female? Not necessarily, but brother of Q implies Q is sibling, gender unknown, but Q × R (wife of R) means Q is female. So consistent. So P is brother of Q, Q female. Q wife of R, so R male. R father of S. So P is brother of Q, Q is mother of S, so P is maternal uncle of S. Answer "Maternal uncle". Options: (A) Maternal uncle, (B) Paternal uncle, (C) Father, (D) Brother. I'll pick (A). Good.
-
-I'll include that as question 32.32.
-If ‘A + B’ means ‘A is father of B’, ‘A – B’ means ‘A is brother of B’, ‘A × B’ means ‘A is wife of B’, then ‘P – Q × R + S’ means:
-(A) P is maternal uncle of S
-(B) P is paternal uncle of S
-(C) P is father of S
-(D) P is brother of S
-Answer: (A) P is maternal uncle of S
-Solution: P – Q → P is brother of Q. Q × R → Q is wife of R. So R is husband of Q. R + S → R is father of S. Thus Q is mother of S. P is brother of Q, so P is maternal uncle (mama) of S.
+34. A is the mother of B. B is the sister of C. C is the wife of D. D is the son of E. How is C related to E?
+(a) Daughter-in-law (b) Sister (c) Mother (d) Granddaughter
+Answer: (a)
+Solution: C is the wife of D, and D is the son of E. Therefore, C is the daughter-in-law of E.
 Source: PYQ-style
 
-A woman pointing to a man said, “His brother’s father is the only son of my grandfather.” How is the woman related to the man?
-(A) Sister
-(B) Mother
-(C) Cousin
-(D) Aunt
-Answer: (A) Sister
-Solution: Man’s brother’s father = man’s father. Man’s father is the only son of the woman’s grandfather → the woman’s father is that man’s father. So they share the same father. Hence the woman is the man’s sister.
+35. A is the only brother of B and also the son of C. How is B related to C?
+(a) Son (b) Cannot be determined (c) Nephew (d) Daughter
+Answer: (b)
+Solution: A is the only brother of B, which means B could be a sister (female) or B's gender is unknown if B has only one brother. Since B's gender is not explicitly stated, it cannot be determined.
 Source: PYQ-style
 
-A is the mother of B. B is the sister of C. C is the wife of D. D is the son of E. How is A related to E?
-(A) Daughter-in-law
-(B) Sister-in-law
-(C) Mother-in-law
-(D) Aunt
-Answer: (A) Daughter-in-law
-Solution: A mother of B, B sister of C → A mother of C as well. C wife of D → D son-in-law of A. D son of E → E is parent of D. So A is mother-in-law of D, but E is D's parent, so A and E are co-parents-in-law? Actually, the question asks A related to E. A is mother of C, C wife of D, D son of E. So A is mother of C (daughter-in-law of E?). Let's draw: E is parent of D (male). D married to C. C is daughter of A. So A is mother-in-law of D. E is D's parent, so A is not directly related to E by blood; they are "co-in-laws"? Typically, mother-in-law of D and father/mother of D are not related. But the question might be expecting "Samdhi/Samdhan" but not in options. The options given: Daughter-in-law, Sister-in-law, Mother-in-law, Aunt. None fit. So I need to adjust the question to get a clear relation. Perhaps D is son of E, and A is mother of C. A would be mother-in-law of D, and E is father/mother of D, so A and E are "in-laws" but not a defined single relation. So I'll change the question to yield a simpler relation. Let's make C the son of A, then A is father/mother? Let's restructure: A is mother of B, B sister of C => C could be brother of B, so C male. Then C husband of D? Actually, C male, wife of D (D female) would be C wife of D? No, 'C is wife of D' means C female. Contradiction. So I need C to be female, so B sister of C means both female. C wife of D (D male). So A mother of two daughters. D son of E. So A is mother of C, C married to D, D son of E. The relation between A and E is that A's daughter is married to E's son. So they are "sambandhi" but again not a single option. I'll modify the question to ask "How is C related to E?" That would be daughter-in-law. So I'll ask: "How is C related to E?" Not A to E. So I'll rewrite. I'll keep the statements but change the question. I'll do: A mother of B. B sister of C. C wife of D. D son of E. How is C related to E? Answer: Daughter-in-law. That works. I'll set that. So the question will be: "A is the mother of B. B is the sister of C. C is the wife of D. D is the son of E. How is C related to E?" Answer (A) Daughter-in-law. Good. So I'll change that. The source: SSC CHSL 2021. I'll do that. Then A is just extra. So I'll keep A in the premise but not needed. That's fine.
-
-I'll do: 34. A is mother of B. B is sister of C. C is wife of D. D is son of E. How is C related to E? (A) Daughter-in-law (B) Sister (C) Mother (D) Granddaughter. Answer A.
-
-Okay. I'll proceed. I'll generate more questions with traps. I'll include two traps as requested. Already one trap in Q26 (cannot be determined). I'll have another one.
-
-So set 2: Q26 (trap cannot be determined), Q27-33 medium, Q34, Q35 trap maybe double relation. I'll design Q35 with dual role. For example: "A is the only brother of B. B is the only daughter of C. D is the father of C. How is A related to D?" A is brother of B, B daughter of C => A son of C. D father of C => A grandson of D. So answer Grandson. That's not dual. I'll do: "A is the brother of B. B is the sister of C. C is the son of D. D is the wife of E. How is A related to E?" A and B siblings, B sister of C => C male. C son of D => D mother of C. D wife of E => E husband of D. So A is nephew of D? Actually A is son of D? Wait: A brother of B, B sister of C, so A, B, C are siblings. C son of D => D is parent of C, so D is parent of A, B too. So A is son of D. D wife of E => E is father of A. So A is son of E. So answer Son. Not trap. I'll make a question where one person plays two roles, like: "A is the brother of B. B is the daughter of C. C is the sister of A." How is A related to B? Here A is both brother of B and brother of C (sister). So A is uncle? Let's check: A brother of B (B's sibling). B daughter of C => C is parent of B. C sister of A => A is sibling of C. If C is parent of B, and A is sibling of C, then A is uncle/aunt of B. But A is also brother of B from first statement, contradicting the uncle relation. That would be inconsistent, so not that. Another trap: a statement like "A is the only brother of B and also the son of C." Then ask how B related to C. A is brother of B, son of C. So B could be son or daughter of C. If B is male, B is son; if female, daughter. So could be "Cannot be determined". So that's a trap. I'll do that.
-
-I'll craft: "A is the only brother of B and also the son of C. How is B related to C?" Options: Son, Daughter, Nephew, Cannot be determined. Since B's gender not specified, answer Cannot be determined. Perfect. I'll make that question 35.
-
-Thus I'll have at least two traps: Q26 (cannot be determined due to daughter-in-law ambiguity) and Q35 (cannot be determined due to gender). That's two. I'll ensure.
-
-Now I'll generate the rest of the questions, all medium, coded, puzzle, etc. I'll number 26-50.
-
-I'll list them now.26.
-A man pointing to a girl says, “She is the daughter of my only brother’s father’s only daughter-in-law.” How is the girl related to the man?
-(A) Daughter
-(B) Niece
-(C) Sister
-(D) Cannot be determined
-Answer: (D) Cannot be determined
-Solution: “My only brother’s father” = the man’s own father. “Father’s only daughter-in-law” could be either the man’s wife (if he is married and his brother unmarried) or his brother’s wife (if brother is married and he is unmarried). So the girl could be his daughter or his niece.
-Trap: Ambiguous marital status leading to dual possibility.
+36. P is the father of Q. Q is the sister of R. R is the mother of S. How is P related to S?
+(a) Uncle (b) Father (c) Grandfather (d) Great-grandfather
+Answer: (c)
+Solution: R is the mother of S. Q is the sister of R, and P is the father of Q and R. Therefore, P is the maternal grandfather of S.
 Source: PYQ-style
 
-If ‘A + B’ means ‘A is the son of B’, ‘A – B’ means ‘A is the daughter of B’, ‘A × B’ means ‘A is the brother of B’, then ‘P + Q × R – S’ means:
-(A) P is grandson of S
-(B) P is son of S
-(C) P is nephew of S
-(D) P is brother of S
-Answer: (A) P is grandson of S
-Solution: P + Q → P son of Q. Q × R → Q brother of R. R – S → R daughter of S. So Q and R are siblings, both children of S. P is son of Q → P is grandson of S.
+37. If 'A @ B' means 'A is the husband of B', 'A # B' means 'A is the daughter of B', and 'A $ B' means 'A is the brother of B', then what does 'M # N @ O # P' mean?
+(a) M is the sister of P (b) M is the daughter of P (c) M is the niece of P (d) M is the granddaughter of P
+Answer: (d)
+Solution: M # N means M is the daughter of N. N @ O means N is the husband of O (O is the mother of M). O # P means O is the daughter of P. Since M is the daughter of O and O is the daughter of P, M is the granddaughter of P.
 Source: PYQ-style
 
-Pointing to a woman, a man said, “She is the only daughter of my mother’s only brother.” How is the woman related to the man?
-(A) Sister
-(B) Cousin
-(C) Aunt
-(D) Niece
-Answer: (B) Cousin
-Solution: Mother’s only brother = maternal uncle. His only daughter = man’s cousin.
+38. Pointing to a boy, a woman said, 'He is the son of the only son-in-law of my father.' If the woman is the only daughter of her father, how is the boy related to her?
+(a) Son (b) Nephew (c) Brother (d) Cousin
+Answer: (a)
+Solution: The woman is the only daughter of her father, so the only son-in-law of her father is her own husband. The son of her husband is her son.
 Source: PYQ-style
 
-In a family of three generations, A is father of B. B is brother of C. C is mother of D. E is son of D. How is A related to E?
-(A) Grandfather
-(B) Great-grandfather
-(C) Father
-(D) Uncle
-Answer: (B) Great-grandfather
-Solution: A father of B, B brother of C → A father of C as well (B and C siblings). C mother of D → A grandfather of D. E son of D → E is great-grandchild of A. So A is great-grandfather of E.
+39. A and B are brothers. C is the wife of B. D is the son of C. E is the brother of A. How is E related to D?
+(a) Father (b) Uncle (c) Nephew (d) Cousin
+Answer: (b)
+Solution: A, B, and E are brothers. C is the wife of B, and D is the son of C and B. Since E is the brother of D's father B, E is the paternal uncle of D.
 Source: PYQ-style
 
-A is the brother of B. B is the daughter of C. C is the son of D. E is the wife of D. How is A related to E?
-(A) Grandson
-(B) Son
-(C) Nephew
-(D) Great-grandson
-Answer: (A) Grandson
-Solution: A brother of B → both siblings. B daughter of C, C son of D → D is grandfather of A and B. E wife of D → E grandmother. So A is grandson of E.
+40. If 'A ÷ B' means 'A is the son of B', 'A × B' means 'A is the brother of B', and 'A – B' means 'A is the sister of B', then in 'A ÷ B × C – D', how is A related to D?
+(a) Brother (b) Son (c) Nephew (d) Maternal uncle
+Answer: (c)
+Solution: B, C, and D are siblings. Since A is the son of B, A is the nephew of D.
 Source: PYQ-style
 
-Pointing to a photograph, a man said, “She is the only daughter of the only son of my father’s wife.” How is the girl related to the man?
-(A) Daughter
-(B) Sister
-(C) Niece
-(D) Wife
-Answer: (A) Daughter
-Solution: “My father’s wife” = his mother. “Only son of my mother” = himself (if he is only son). “Only daughter of that son” = his daughter.
+41. A is the brother of B. B is the mother of C. C is the sister of D. D is the brother of E. E is the father of F. How is A related to E?
+(a) Brother (b) Uncle (c) Grandfather (d) Maternal uncle
+Answer: (d)
+Solution: B is the mother of C, D, and E. A is the brother of B. Therefore, A is the maternal uncle of E.
 Source: PYQ-style
 
-If ‘A + B’ means ‘A is father of B’, ‘A – B’ means ‘A is brother of B’, ‘A × B’ means ‘A is wife of B’, then ‘P – Q × R + S’ means:
-(A) P is maternal uncle of S
-(B) P is paternal uncle of S
-(C) P is father of S
-(D) P is brother of S
-Answer: (A) P is maternal uncle of S
-Solution: P – Q → P brother of Q. Q × R → Q wife of R. So R is husband of Q, R male. R + S → R father of S. So Q is mother of S. P is brother of Q, thus maternal uncle of S.
+42. A is the uncle of B. B is the daughter of C. C is the daughter-in-law of D. How is A related to D?
+(a) Cannot be determined (b) Son-in-law (c) Brother (d) Son
+Answer: (a)
+Solution: A is the uncle of B, which means A could be a paternal uncle (brother of B's father) or maternal uncle (brother of B's mother). Without knowing whether A is the brother of C or C's husband, the relation cannot be determined.
 Source: PYQ-style
 
-A woman pointing to a man said, “His brother’s father is the only son of my grandfather.” How is the woman related to the man?
-(A) Sister
-(B) Mother
-(C) Cousin
-(D) Aunt
-Answer: (A) Sister
-Solution: Man’s brother’s father = man’s father. He is the only son of the woman’s grandfather → woman’s father. So they share the same father; the woman is the man’s sister.
+43. If 'A % B' means 'A is the mother of B', 'A ^ B' means 'A is the father of B', and 'A * B' means 'A is the brother of B', then what does 'P % Q ^ R * S' mean?
+(a) P is the mother of S (b) P is the grandmother of S (c) P is the aunt of S (d) P is the sister of S
+Answer: (b)
+Solution: P % Q means P is the mother of Q. Q ^ R means Q is the father of R and S. Since P is the mother of Q, P is the paternal grandmother of S.
 Source: PYQ-style
 
-A is the mother of B. B is the sister of C. C is the wife of D. D is the son of E. How is C related to E?
-(A) Daughter-in-law
-(B) Sister
-(C) Mother
-(D) Granddaughter
-Answer: (A) Daughter-in-law
-Solution: B and C are sisters. So C is daughter of A. C wife of D, D son of E, so C is daughter-in-law of E.
+44. Pointing to a woman, a man said, 'She is the mother of the husband of my only son's mother.' How is the woman related to the man?
+(a) Wife (b) Mother-in-law (c) Mother (d) Grandmother
+Answer: (c)
+Solution: The mother of the man's only son is his wife. The husband of his wife is the man himself. The mother of the man is his mother.
 Source: PYQ-style
 
-A is the only brother of B and also the son of C. How is B related to C?
-(A) Son
-(B) Daughter
-(C) Nephew
-(D) Cannot be determined
-Answer: (D) Cannot be determined
-Solution: A is only brother of B → B is sibling of A. A is son of C → C is parent of A. So B is also child of C, but B’s gender is not specified. B could be son or daughter. So the exact relation cannot be determined.
-Trap: Gender ambiguity leading to “Cannot be determined”.
+45. A is the father of B. C is the sister of A. D is the son of C. E is the brother of D. How is E related to B?
+(a) Nephew (b) Brother (c) Uncle (d) Cousin
+Answer: (d)
+Solution: A is the father of B, and C is the sister of A (B's paternal aunt). D and E are sons of C. Therefore, E is the cousin of B.
 Source: PYQ-style
 
-P is the father of Q. Q is the sister of R. R is the mother of S. How is P related to S?
-(A) Grandfather
-(B) Father
-(C) Uncle
-(D) Great-grandfather
-Answer: (A) Grandfather
-Solution: P father of Q, Q sister of R → R is child of P. R mother of S → S is grandchild of P. So P is grandfather of S.
+46. Pointing to a boy, a woman said, 'He is the son of the only daughter-in-law of my father.' How is the boy related to the woman?
+(a) Cannot be determined (b) Nephew (c) Son (d) Cousin
+Answer: (a)
+Solution: The father's only daughter-in-law would be the wife of the woman's brother (if she has a brother). However, without confirmation of whether the woman has a brother or if other family structures exist, this cannot be strictly determined.
 Source: PYQ-style
 
-If ‘A @ B’ means ‘A is the husband of B’, ‘A # B’ means ‘A is the daughter of B’, ‘A B’ means ‘A is the brother of B’, then ‘M # N O @ P’ means:
-(A) M is granddaughter of P
-(B) M is daughter of P
-(C) M is sister of P
-(D) M is niece of P
-Answer: (A) M is granddaughter of P
-Solution: M # N → M daughter of N. N O → N brother of O. So N and O are brothers. O @ P → O husband of P, so P wife of O. M daughter of N, N brother of O, so M is niece of O. O husband of P, so M is niece of P by marriage? Actually M is daughter of N, N brother of O, so M is niece of O (and of P, as P is O's wife). But niece is not granddaughter. Wait: need to check: M is daughter of N. N is brother of O. So N and O are brothers. O is husband of P. So P is aunt by marriage to M. M is niece of P. But the option says granddaughter? I need to re-evaluate. I have a mismatch. I'll correct the question. I want M as granddaughter of P. For that, O must be father of N, not brother. So I'll adjust: M # N (daughter of N), N O (N brother of O) again no. I'll do: M # N (daughter of N), N @ O (N husband of O) -> then O wife of N, O female. Then O # P (daughter of P) -> then M granddaughter of P. So I'll set codes: @ husband, # daughter, $ brother. Then M # N (daughter of N), N @ O (husband of O) -> N male, O female. Then O # P (daughter of P) -> M is granddaughter of P (since M daughter of N, N husband of O, O daughter of P, so M is P's great-granddaughter? Actually: P is parent of O. O is wife of N. N is father of M. So M is child of N, N is son-in-law of P. M is grandchild of P? No, P's child is O (female). O is mother of M? No, O is wife of N, N father of M, so O is mother of M. So O is daughter of P, M is child of O, thus M is grandchild of P. So M is granddaughter of P. So answer Granddaughter. So I'll structure the expression as M # N @ O # P. That will work: M daughter of N, N husband of O, O daughter of P. So M is granddaughter of P. Good. So I'll do that for Q37.
-
-I'll recraft Q37: If ‘A @ B’ means ‘A is the husband of B’, ‘A # B’ means ‘A is the daughter of B’, ‘A $ B’ means ‘A is the brother of B’, then ‘M # N @ O # P’ means: (A) M is granddaughter of P (B) M is daughter of P (C) M is niece of P (D) M is sister of P. Answer A. I'll use that. Need to ensure gender consistency: M # N (daughter) -> M female. N @ O (husband) -> N male, O female. O # P (daughter) -> O female, P parent (gender unknown). M daughter of N, N husband of O, so O is mother of M. O daughter of P, so P is grandfather/grandmother of M. So M is granddaughter of P. Good.
-
-I'll do that.37.
-If ‘A @ B’ means ‘A is the husband of B’, ‘A # B’ means ‘A is the daughter of B’, ‘A $ B’ means ‘A is the brother of B’, then ‘M # N @ O # P’ means:
-(A) M is granddaughter of P
-(B) M is daughter of P
-(C) M is niece of P
-(D) M is sister of P
-Answer: (A) M is granddaughter of P
-Solution: M # N → M is daughter of N. N @ O → N is husband of O. So O is wife of N, female. O # P → O is daughter of P. So M is child of N and O, O is daughter of P, making M granddaughter of P.
+47. If 'A # B' means 'A is the mother of B', 'A @ B' means 'A is the father of B', and 'A $ B' means 'A is the brother of B', then what does 'P # Q @ R $ S' mean?
+(a) P is the mother of S (b) P is the grandmother of S (c) P is the aunt of S (d) P is the sister of S
+Answer: (b)
+Solution: P # Q means P is the mother of Q. Q @ R means Q is the father of R. R $ S means R is the brother of S. Thus, Q is the father of S, and P is the mother of Q. Therefore, P is the grandmother of S.
 Source: PYQ-style
 
-Pointing to a boy, a woman said, “His mother is the only daughter-in-law of my mother-in-law.” How is the woman related to the boy?
-(A) Mother
-(B) Aunt
-(C) Sister
-(D) Daughter
-Answer: (A) Mother
-Solution: “My mother-in-law” = husband’s mother. “Only daughter-in-law of mother-in-law” = the woman herself (if she is the only daughter-in-law, meaning her husband is the only son, or other sons are unmarried). So the boy’s mother is the woman → woman is mother.
+48. Pointing to a girl, a man says, 'She is the only granddaughter of the only son of my father.' How is the girl related to the man?
+(a) Sister (b) Niece (c) Daughter (d) Wife
+Answer: (c)
+Solution: The only son of the man's father is the man himself. The only daughter of the man's father's only son is his daughter.
 Source: PYQ-style
 
-A and B are brothers. C is the wife of B. D is the son of C. E is the brother of A. How is E related to D?
-(A) Uncle
-(B) Father
-(C) Nephew
-(D) Cousin
-Answer: (A) Uncle
-Solution: A and B brothers. C wife of B, so C is D's mother, B father. E brother of A, so E is also brother of B. So E is uncle of D.
+49. A is the son of B. B is the brother of C. C is the daughter of D. E is the son of D. How is A related to E?
+(a) Cousin (b) Son (c) Brother (d) Nephew
+Answer: (d)
+Solution: B, C, and E are children of D. Since A is the son of B, and E is the brother of B, A is the nephew of E.
 Source: PYQ-style
 
-If ‘P ÷ Q’ means ‘P is son of Q’, ‘P × Q’ means ‘P is brother of Q’, ‘P – Q’ means ‘P is sister of Q’, then ‘A ÷ B × C – D’ means:
-(A) A is nephew of D
-(B) A is son of D
-(C) A is grandson of D
-(D) A is brother of D
-Answer: (A) A is nephew of D
-Solution: A ÷ B → A son of B. B × C → B brother of C. So B and C are brothers. C – D → C sister of D, so C is female? Contradiction: B brother of C implies C is sibling of B (male/female unknown), but C – D means C is sister of D, so C is female. That's fine: B (male) brother of C (female) is okay. So B and C are siblings, B male, C female. C sister of D, so D sibling of C (gender unknown). A son of B, so A is nephew of C and D (since B is brother of C and D). So A is nephew of D.
-Source: PYQ-style
-
-A man points to a woman and says, “She is the only daughter of my father’s only son.” How is the woman related to the man?
-(A) Daughter
-(B) Sister
-(C) Niece
-(D) Wife
-Answer: (A) Daughter
-Solution: “My father’s only son” = the man himself (if he is the only son). “Only daughter of that son” = his daughter. So the woman is his daughter.
-Source: PYQ-style
-
-In a family, P is brother of Q. R is sister of P. S is father of R. T is wife of S. How is Q related to T?
-(A) Son
-(B) Daughter
-(C) Grandson
-(D) Cannot be determined
-Answer: (D) Cannot be determined
-Solution: P brother of Q, R sister of P → P and R are siblings, Q is sibling of P. So P, Q, R are siblings. S father of R → S father of all three. T wife of S → T mother. Q could be male or female; no information. So Q could be son or daughter of T. Hence cannot be determined.
-Source: PYQ-style
-
-If ‘A % B’ means ‘A is the mother of B’, ‘A ^ B’ means ‘A is the father of B’, ‘A * B’ means ‘A is the brother of B’, then ‘P % Q ^ R * S’ means:
-(A) P is grandmother of S
-(B) P is mother of S
-(C) P is aunt of S
-(D) P is sister of S
-Answer: (A) P is grandmother of S
-Solution: P % Q → P mother of Q. Q ^ R → Q father of R. So R is child of Q, P is grandmother of R. R * S → R brother of S. So S sibling of R. Thus P is grandmother of both R and S.
-Source: PYQ-style
-
-Pointing to a photograph, a man says, “This girl is the daughter of the only son of my grandmother.” How is the girl related to the man?
-(A) Sister
-(B) Cousin
-(C) Aunt
-(D) Niece
-Answer: (B) Cousin
-Solution: “Only son of my grandmother” = the man’s father (if grandmother has only one son). “Daughter of that son” = the man’s sister. But then the girl would be his sister, not cousin. Wait, the phrase “only son of my grandmother” could also mean the man’s father is the only son, and the girl is his daughter → sister. But if the grandmother has other children? The statement says "only son", so exactly one son. So the man's father is the only son. So daughter of that son is the man's sister. However, options don't include sister; they have cousin, aunt, niece. Something's off. Perhaps the man is not the son of that son? If the grandmother's only son is someone else (the man's uncle?), but "my grandmother" means the man's grandmother. If grandmother has only one son, that son could be the man's father or the man's uncle? Since the man is speaking, his parentage matters. If the man's father is not the only son (i.e., the grandmother has a daughter who is the man's mother), then the only son is the man's maternal uncle. So the girl is his cousin. But the phrase doesn't specify that the man is descended from the only son. So it could be cousin if the man is child of a daughter. So the common trap: "only son of my grandmother" could be the man's father (if his parent is that son) or his uncle (if his parent is a daughter). The man didn't specify his parent. So the correct answer could be "Cannot be determined" but options don't have that. However, typical puzzle assumes the man is male, and usually "my grandmother's only son" is his father if he is male? Not necessarily. Many exam questions have this ambiguity. I've seen a similar question: "Pointing to a girl, a man says, 'She is the daughter of the only son of my grandmother.' How is the girl related to the man?" The answer is Sister if the man is the son of that only son, but if the man is not, then cousin. Most exam keys treat it as Sister because they assume the speaker is referring to his own grandmother, and the only son is his father. But I recall an IBPS question where the answer was "Sister". Actually, I'll double-check: If the man's father is the only son, then the girl is his sister. If the man's mother is the daughter, then the only son is his maternal uncle, making the girl his cousin. Since the man didn't specify his parent, there's ambiguity. The examiner may set a trap "Cannot be determined". But many times they intend "Sister". However, to avoid confusion, I'll change the question to make it unambiguous. I'll say: "Pointing to a girl, a man says, 'She is the daughter of the only son of my father's mother.'" Then "my father's mother" = grandmother, and the only son of that grandmother is his father (since his father is a son). So the girl is his sister. But the phrasing "my father's mother's only son" = father. So answer Sister. I'll use that. So the question: "Pointing to a photograph, a man says, 'This girl is the daughter of the only son of my father's mother.' How is the girl related to the man?" Then answer Sister. So I'll make that question 44. That avoids ambiguity. Good. I'll use that.
-
-So Q44: "Pointing to a photograph, a man says, 'This girl is the daughter of the only son of my father's mother.' How is the girl related to the man?" Answer: Sister.
-
-I'll do that.44.
-Pointing to a photograph, a man says, “This girl is the daughter of the only son of my father’s mother.” How is the girl related to the man?
-(A) Sister
-(B) Cousin
-(C) Aunt
-(D) Niece
-Answer: (A) Sister
-Solution: “My father’s mother” = his grandmother. “Only son of my grandmother” = his father (since his father is a son). “Daughter of that son” = his sister.
-Source: PYQ-style
-
-A is the son of B. B is the brother of C. C is the daughter of D. E is the son of D. How is A related to E?
-(A) Nephew
-(B) Son
-(C) Brother
-(D) Cousin
-Answer: (D) Cousin
-Solution: A son of B, B brother of C → C is aunt/uncle of A. C daughter of D, so D is grandfather/grandmother of A. E son of D → E is child of D, so E is sibling of B and C? Actually B and C are siblings (children of D), E is also son of D, so E is another sibling. So B, C, E are siblings. A is son of B, so A is nephew of E? Wait, if E is brother of B, then E is uncle of A. So A is nephew of E. But option has Nephew, not Cousin. So answer (A) Nephew. Let's check: A son of B. B brother of C, C daughter of D, so D is parent of B, C, and E (E son of D). So E is brother of B. Therefore A is son of B, so A is nephew of E. So answer Nephew. So options: (A) Nephew, (B) Son, (C) Brother, (D) Cousin. So (A) Nephew. Good. I'll use that. So Q45.
-
-I'll change E to be brother of B. So the answer is Nephew.
-
-I'll do that.
-
-A is son of B. B is brother of C. C is daughter of D. E is son of D. How is A related to E? Answer: Nephew.
-
-Now Q46 to Q50, I'll design more medium.
-
-I'll do a coded one, a pointing one, a puzzle. I'll ensure there's another trap maybe. I'll include one more "Cannot be determined" trap or dual role. I'll do Q46: a pointing to a picture, where the gender of the person in the picture is ambiguous. Like: "Pointing to a child in a photograph, a man says, 'He is the only son of my grandfather's only daughter-in-law.' How is the child related to the man?" The grandfather's only daughter-in-law could be the man's mother (if his father is the only son) or his father's brother's wife. Actually similar to daughter-in-law ambiguity. But I'll make it: "Pointing to a child, a woman says, 'He is the only son of my father's only daughter.' How is the child related to the woman?" The woman's father's only daughter could be herself (if she is only daughter) or her sister. If she is the only daughter, then the child is her son. If she has a sister, then it's her nephew. So cannot be determined. So I'll set that as Q46 with answer Cannot be determined. That's a good trap.
-
-I'll do Q46: Pointing to a child, a woman says, "He is the only son of my father's only daughter." How is the child related to the woman? (A) Son (B) Nephew (C) Either son or nephew (D) Cannot be determined. But "Cannot be determined" works because father's only daughter could be the woman herself (if she is only daughter) or her sister (if she has a sister), but "only daughter" means there is exactly one daughter. So if the woman is speaking, and her father has exactly one daughter, that daughter must be the woman herself. So the child is her son. So it's determined. So no ambiguity. I'd need a different scenario: "He is the son of my father's only daughter." If the father has only one daughter, it's herself, so child is her son. So not ambiguous. To make it ambiguous, use "He is the son of my father's only daughter-in-law." That could be her brother's wife or her own sister-in-law, etc. I'll do: "Pointing to a boy, a woman says, 'He is the son of my father's only daughter-in-law.' How is the boy related to the woman?" (A) Son (B) Nephew (C) Either son or nephew (D) Cannot be determined. Answer: Cannot be determined, because father's only daughter-in-law could be her brother's wife (if brother married) or her own husband's sister? Actually, father's daughter-in-law is either the wife of her brother (if she has a brother) or her own husband's sister? No, daughter-in-law of father means wife of father's son. The woman's father's son could be her brother or herself if she is a son (but she is female). So father's son is her brother (if she has one) or none. If the father has a son, then the daughter-in-law is that son's wife. If the father has no son, but the woman is married, then her father's son-in-law is her husband, not daughter-in-law. So father's daughter-in-law requires a son. So if the woman has a brother, then the daughter-in-law is her brother's wife, and the boy is her nephew. If the woman has no brother, then there is no daughter-in-law, but the statement wouldn't make sense. So it's ambiguous if the father has a son or not. But the question didn't specify if she has a brother. So "Cannot be determined" works. I'll use that.
-
-Q46: Woman pointing to boy: "He is the son of my father's only daughter-in-law." How is boy related to her? (A) Son (B) Nephew (C) Cannot be determined (D) Cousin. Answer (C). Good.
-
-Now Q47: a coded relation with a twist.
-
-I'll continue.
-
-I'll ensure total 25 questions (26-50). I'll list them.46.
-Pointing to a boy, a woman says, “He is the son of my father’s only daughter-in-law.” How is the boy related to the woman?
-(A) Son
-(B) Nephew
-(C) Cannot be determined
-(D) Cousin
-Answer: (C) Cannot be determined
-Solution: “My father’s daughter-in-law” implies the wife of the father’s son. If the woman has a brother, that daughter-in-law is her brother’s wife, making the boy her nephew. If the woman is an only child, there is no son, but then the statement would be impossible; however, the puzzle does not specify whether she has a brother. Thus, without additional information, the relation cannot be determined conclusively.
-Trap: Hidden assumption about the existence of a brother.
-Source: PYQ-style
-
-If ‘A + B’ means ‘A is the sister of B’, ‘A – B’ means ‘A is the father of B’, ‘A × B’ means ‘A is the brother of B’, then ‘P – Q × R + S’ means:
-(A) P is grandfather of S
-(B) P is father of S
-(C) P is uncle of S
-(D) P is brother of S
-Answer: (A) P is grandfather of S
-Solution: P – Q → P father of Q. Q × R → Q brother of R. So Q and R are brothers. R + S → R sister of S, so S sibling of R. So R and S are siblings. P father of Q and R (since Q and R siblings). So P is father of R. R is sibling of S, so P is father of S as well. So P is father of S. That would be option (B). Wait, I need to re-evaluate: P father of Q, Q brother of R, so Q and R are both sons of P. R is sister of S? 'R + S' means R is sister of S, so R is female. But earlier we had Q brother of R, meaning R is sibling of Q, so R can be female (sister). So Q male, R female, both children of P. R sister of S → S sibling of R, so S could be male or female. P father of R and S. So P father of S. So answer Father. But options have Grandfather, Father, Uncle, Brother. So (B) Father. I intended a grandfather relation but ended with father. So I'll adjust the expression to get grandfather. For example, P – Q × R + S could be changed to P – Q × R + S and then add another generation. I can add another relation: P – Q × R + S is father, not grandfather. So I'll change: make P – Q (father), Q × R (brother), R + S (sister) -> father. To get grandfather, I'd need an extra generation. So I'll do: P – Q × R + S, and then S – T? Not needed. I'll instead craft a different expression: 'P + Q – R × S' with codes: + sister, - father, × brother. Then P + Q (sister of Q), Q – R (father of R), R × S (brother of S). So Q father of R, so R child of Q. P is sister of Q, so P is aunt of R. R brother of S, so S sibling of R. P is aunt of S. Not grandfather. I'll do: 'A – B + C × D' with – father, + mother? I don't have mother code. I'll stick to father/sister/brother. I can create a new code: '%' mother. But I want to use given codes. So I'll use 'A – B' father, 'A + B' sister, 'A × B' brother. To get grandfather, we need three generations: P – Q (father of Q), Q – R (father of R), then R is grandchild of P. Then I need to relate S as child of R, but there's no direct code for child. I can use R × S (brother of S) to make S sibling of R. Then P grandfather of S. So expression: P – Q – R × S. That's two father relations: P – Q, Q – R (father of R). Then R × S (brother of S). So P father of Q, Q father of R, R brother of S -> P great-grandfather? No, P father of Q, Q father of R => P grandfather of R. R brother of S => S sibling of R, so P grandfather of S. So expression is P – Q – R × S. That works. But I need three operations. So I'll make: 'P – Q – R × S' and ask how P related to S. That would be Grandfather. Good. I'll use that.
-
-I'll set: If ‘A – B’ means ‘A is father of B’, ‘A × B’ means ‘A is brother of B’, ‘A + B’ means ‘A is sister of B’. Then ‘P – Q – R × S’ means: (Note: two – signs). Need to define chaining. It's acceptable. So P father of Q, Q father of R, R brother of S. So P grandfather of S. So answer Grandfather. I'll present that.
-
-So Q47: If ‘A – B’ means ‘A is father of B’, ‘A × B’ means ‘A is brother of B’, ‘A + B’ means ‘A is sister of B’, then how is P related to S in ‘P – Q – R × S’? Answer Grandfather. Options: (A) Grandfather (B) Father (C) Uncle (D) Brother.
-
-I'll do that.
-
-Q48: a double relation trap. "A is the only brother of B. B is the only daughter of C. C is the wife of D. How is A related to D?" A is brother of B, so both siblings. B daughter of C, so A son of C. C wife of D, so D husband of C, father of A and B. So A is son of D. So answer Son. Not trap. I'll create a dual role: "A is the only brother of B and also the son of C." We already did that. So I'll make Q48 a puzzle with multiple persons and ask for a relation that requires understanding dual role. Example: "A is the brother of B. B is the sister of C. C is the son of D. D is the wife of E. F is the brother of A. How is F related to C?" A and B siblings, B sister of C => C brother of B. So A, B, C siblings. D is parent of C and A, B (since C son of D). D wife of E => E husband of D, father. F brother of A => F is also sibling of A, so F is sibling of C. So F is brother of C. Answer Brother. Not dual. I'll skip double role for now.
-
-I'll do Q48: "Pointing to a man, a woman said, 'He is the only son-in-law of my husband's father.' How is the woman related to the man?" Husband's father = father-in-law. Only son-in-law of father-in-law => the woman's husband (since the woman is married to the son of that father-in-law, so her husband is the son, not son-in-law). Wait, father-in-law's son-in-law is the husband of his daughter. So if the woman is married to the son of that father-in-law, then her husband is the son. The only son-in-law would be the husband of his daughter. So the man could be the woman's brother-in-law (sister's husband). The woman pointing to him: "He is the only son-in-law of my husband's father." That means he is the son-in-law of her father-in-law, i.e., he is the husband of her husband's sister (sister-in-law's husband). So he is her co-brother? Actually, her husband's sister's husband is her jija/sala? Not clear. Could be brother-in-law. I'll set a simpler one.
-
-Maybe I'll do a straightforward coded question to finish.
-
-Q48: If ‘A # B’ means ‘A is mother of B’, ‘A @ B’ means ‘A is father of B’, ‘A B’ means ‘A is brother of B’, then ‘P # Q @ R S’. How is P related to S? P mother of Q, Q father of R, R brother of S -> P grandmother of S. So answer Grandmother. That's good.
-
-Q49: Pointing to a girl, a man says, "She is the only granddaughter of my father's only son." How is the girl related to the man? My father's only son = himself (if only son). Only granddaughter of himself => his daughter. So answer Daughter.
-
-Q50: In a family, there are six members. A is the father of B. B is the sister of C. C is the father of D. D is the sister of E. E is the son of F. How is F related to A? Need to find. A father of B, B sister of C => C is brother of B, so A father of C. C father of D, so A grandfather of D. D sister of E, so E sibling of D, and E son of F. So F is parent of D and E. C is father of D, so C is husband of F? Wait, D sister of E, E son of F. F could be mother or father. C is father of D, so if F is mother, then C and F are married. Then F is daughter-in-law of A. So answer Daughter-in-law. That works. So I'll craft Q50: A is father of B. B is sister of C. C is father of D. D is sister of E. E is son of F. How is F related to A? (A) Daughter-in-law (B) Daughter (C) Sister (D) Mother. Answer (A). Good.
-
-I'll present all. So final list 26-50 as above.48.
-If ‘A # B’ means ‘A is mother of B’, ‘A @ B’ means ‘A is father of B’, ‘A B’ means ‘A is brother of B’, then ‘P # Q @ R S’ means:
-(A) P is grandmother of S
-(B) P is mother of S
-(C) P is aunt of S
-(D) P is sister of S
-Answer: (A) P is grandmother of S
-Solution: P # Q → P mother of Q. Q @ R → Q father of R. R $ S → R brother of S. So P is mother of Q, Q is father of R and S. Thus P is grandmother of S.
-Source: PYQ-style
-
-Pointing to a girl, a man says, “She is the only granddaughter of my father’s only son.” How is the girl related to the man?
-(A) Daughter
-(B) Niece
-(C) Sister
-(D) Wife
-Answer: (A) Daughter
-Solution: The man’s father’s only son = the man himself (assuming no brothers). The only granddaughter of the man = his daughter.
-Source: PYQ-style
-
-In a family, A is the father of B. B is the sister of C. C is the father of D. D is the sister of E. E is the son of F. How is F related to A?
-(A) Daughter-in-law
-(B) Daughter
-(C) Sister
-(D) Mother
-Answer: (A) Daughter-in-law
-Solution: A father of B, B sister of C → C is brother of B, so A is father of C as well. C father of D → D is child of C. D sister of E, E son of F → F is parent of D and E. Since C is father of D, F must be the mother, making F the wife of C. C is son of A, so F is daughter-in-law of A.
+50. A is the father of B. B is the sister of C. C is the father of D. D is the sister of E. E is the son of F. How is F related to A?
+(a) Daughter (b) Daughter-in-law (c) Sister (d) Mother
+Answer: (b)
+Solution: C is the father of D and E. E is the son of F, so F is the mother of E and wife of C. Since A is the father of C, F is the daughter-in-law of A.
 Source: PYQ-style

@@ -1,65 +1,25 @@
-Diagram
-Code
-Download
-Fullscreen
-Blood Relations
-Concepts
-Types of Questions
-Strategies / Approaches
-Time Management
-Common Traps
-Family Tree Symbols
-Generation Row Rule
-P-M Trick
-“Only” Superpower
-Statement/Puzzle Based
-Coded Relations
-Photograph/Pointing Based
-Mixed Relations
-Anchor First
-Step-by-Step Drawing
-Direction Awareness
-Backward Tracing
-Dual Role Check
-15-Second Rule
-45-Second Rule
-Gender Assumption fromNames
-Paternal vs MaternalConfusion
-Reversing “A is B’s …”
-Ignoring “Only”
-Dual Relations
-Brother-in-law Ambiguity
-“Cannot be determined”
-Male: □
-Female: ○
-Marriage: —
-Parent-Child: │
-One row per generation
-Paternal
-Maternal
-Eliminates multiple siblings
-Multiple statements → tree
-Symbols like +, –, ×, ÷
-Decode one by one
-“Pointing to a woman…”
-Anchor = speaker
-Multiple generations + sides
-Mark the speaker as “ME”
-Lego Tower Trick
-Attach new person to lastdrawn
-“A is B’s son” → A → B
-Never reverse codedoperators
-For “How A related to B?”
-Trace from B to A
-One person can be bothbrother & son
-Skip if no anchor & firstrelation drawn
-Max time per question
-Then guess & move on
-“Kamal” may be female
-Wait forbrother/sister/he/she
-Uncle = Chacha/Tau vsMama
-“A is father of B” ≠ “B isfather of A”
-Overcomplicating the tree
-Missing that A plays tworoles
-Sister’s husband? Wife’sbrother? Husband’sbrother?
-Valid answer when gendermissing
+```mermaid
+graph TD
+    A["रक्त संबंध / Blood Relations"]
+
+    A --> T["मुख्य प्रकार<br>Major Types"]
+    A --> S["हल करने की तकनीकें<br>Solving Strategies"]
+    A --> TR["परीक्षक के जाल<br>Examiner's Traps"]
+    A --> TM["समय प्रबंधन<br>Time Management"]
+
+    T --> T1["पहेली / कथन आधारित<br>Puzzle / Statement Based"]
+    T --> T2["संकेत / तस्वीर आधारित<br>Pointing / Photo Based"]
+    T --> T3["कोडेड संबंध<br>Coded Relations (+, -, ×)"]
+
+    S --> S1["वंश-वृक्ष प्रतीक<br>Family Tree Symbols (+ male, - female)"]
+    S --> S2["पीढ़ी क्रम नियम<br>Generation Hierarchy Rule"]
+    S --> S3["एकमात्र शब्द का जादू<br>'Only' Superpower Shortcut"]
+    S --> S4["पीछे से ट्रेसिंग<br>Backward Tracing Technique"]
+
+    TR --> TR1["नाम से लिंग का अनुमान<br>Never Assume Gender from Name"]
+    TR --> TR2["उल्टा संबंध भ्रम<br>Reversing Subject & Object (A to B)"]
+    TR --> TR3["पितृपक्ष बनाम मातृपक्ष<br>Paternal vs Maternal (चाचा/मामा)"]
+
+    TM --> TM1["15 सेकंड नियम<br>Quick photo/statement identification"]
+    TM --> TM2["45 सेकंड अधिकतम सीमा<br>Draw family tree, avoid stalling"]
+```
