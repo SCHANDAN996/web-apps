@@ -1,35 +1,49 @@
-🧒 फेनमैन तकनीक: सबसे कठिन कोडिंग कॉन्सेप्ट को ऐसे समझें जैसे 12 साल का बच्चा हो
+🧒 The Feynman Technique: Understanding Reverse Coding Like a 12-Year-Old
 
-मान लीजिए, आपके दोस्त ने आपको एक गुप्त संदेश भेजा: "ZIHRMZ". आप पूरा दिन सिर खुजाते रहे, लेकिन कुछ समझ नहीं आया। आखिर में उसने बताया — "मैंने हर अक्षर की जगह उसका उल्टा अक्षर लिख दिया। A की जगह Z, B की जगह Y, C की जगह X..."
+Story: Mirror Town and the Secret Friends
 
-यही है रिवर्स कोडिंग, और यही वो कॉन्सेप्ट है जो ज़्यादातर बच्चों को उलझा देता है। लेकिन रिचर्ड फेनमैन कहते थे, "अगर आप किसी चीज़ को सरल शब्दों में नहीं समझा सकते, तो आपने उसे समझा ही नहीं है।" तो आइए, इसे एक मज़ेदार कहानी से समझते हैं।
+Imagine a quiet little town called "Alphabet City". In this town, there are exactly 26 houses built in a straight line along one long avenue.
+The first house belongs to 'A', the second to 'B', the third to 'C'... all the way to the 26th house at the far end, which belongs to 'Z'.
 
-कहानी: दर्पण वाला शहर
+Right in the exact middle of town stands a giant, magical two-sided mirror.
 
-एक शहर था — "अल्फाबेट नगर"। वहाँ 26 घर थे, एक लाइन में। पहला घर A का, दूसरा B का... और आखिरी (26वाँ) Z का। शहर के बीचो-बीच एक बड़ा सा आईना लगा था। जब A आईने में देखता, तो उसे Z दिखता। B को Y, C को X... और खुद आईने के ठीक सामने वाले घर M (13) और N (14) को अपना ही चेहरा दिखता, क्योंकि वो ठीक बीच में थे।
+Whenever 'A' stands in front of the mirror, he looks across town and sees his reflection friend standing at the very opposite end: 'Z'.
+When 'B' looks in, he sees 'Y'. When 'C' looks in, she sees 'X'.
+The two houses directly in front of the middle mirror — 'M' (House 13) and 'N' (House 14) — stand side-by-side, perfectly balanced in the center!
 
-अब नियम समझिए: किसी भी अक्षर का "आईना दोस्त" ढूँढने का आसान तरीका — उसके घर नंबर को 27 में से घटा दो।
+The Secret Formula of the Mirror:
 
-A = 1 ➜ 27 - 1 = 26 = Z
-B = 2 ➜ 27 - 2 = 25 = Y
-M = 13 ➜ 27 - 13 = 14 = N
-Z = 26 ➜ 27 - 26 = 1 = A
+To find the mirror-friend of any letter, there is a simple mathematical secret:
+Subtract the letter's house number from 27!
 
-इस फ़ॉर्मूले ने जादू कर दिया। अब "ZIHRMZ" को डिकोड करें:
-Z(1) ➜ A, I(18) ➜ 27-18=9=I? वाह, I तो खुद I का आईना दोस्त है? नहीं, 27-18=9=I, तो यह I ही रहेगा? लेकिन यहाँ आईना नियम अलग है: वास्तविक रिवर्स कोडिंग में A↔Z, B↔Y जोड़े होते हैं। "ZIHRMZ" को पलटें: Z→A, I→R (27-9=18=R), H→S, R→I, M→N, Z→A — तो असली शब्द बना "ARSINA"? नहीं, इसे ठीक करते हैं। Z का जोड़ा A, I का R (I=9, 27-9=18=R), H (8) → 19=S, R (18) → 9=I, M (13) → 14=N, Z → A = "ARSINA"? कुछ गड़बड़ लग रही है। दरअसल, "ZIHRMZ" को उल्टा डिकोड करने पर "ARSHINA" नहीं, कोई और शब्द है। मैं इसे सही करता हूँ: Z(26) का उल्टा A(1), I(9) का उल्टा R(18), H(8) का उल्टा S(19), R(18) का उल्टा I(9), M(13) का उल्टा N(14), Z(26) का उल्टा A(1) → "ARSINA"? नहीं, यह कोई मशहूर शब्द नहीं है। मैं अपनी कहानी में एक दमदार उदाहरण लेता हूँ: "ZOV" का उल्टा क्या होगा? Z→A, O(15)→L(12), V(22)→E(5) तो "ALE" नहीं बल्कि "ALE"? नहीं, Z का A, O का L, V का E = "ALE" (जो 'ale' है). यह तो एक शब्द है। लेकिन चलिए, मूल संदेश "ZIHRMZ" था, जिसका सही डिकोड "ARISHNA"? हाँ, Z(26)→A, I(9)→R(18), H(8)→S(19), R(18)→I(9), M(13)→N(14), Z(26)→A = "ARSINA"? दरअसल, यह "ARSINA" है — शायद कोई नाम हो। ठीक है, यह महत्वपूर्ण नहीं; कहानी के लिए बस यह समझ लें कि एक बच्चे ने इसी फ़ॉर्मूले से गुप्त सन्देश पढ़ लिया और अपने दोस्त को जवाब भेजा "RLIVWZ" (जिसे पलटने पर "IREVOL" या कुछ और... छोड़िए)।
+Examples:
+• A = 1  ➜  27 – 1 = 26  ➜  Z
+• B = 2  ➜  27 – 2 = 25  ➜  Y
+• C = 3  ➜  27 – 3 = 24  ➜  X
+• M = 13 ➜  27 – 13 = 14 ➜  N
+• T = 20 ➜  27 – 20 = 7  ➜  G
 
-एक अविस्मरणीय ट्रिक: "27 - X" का जादू
+Using this secret code, children in Alphabet City send each other coded notes.
+If someone sends the cipher "ZIV", you can decode it in seconds:
+• Z (26) ➜ 27 – 26 = 1  ➜ A
+• I (9)  ➜ 27 – 9 = 18  ➜ R
+• V (22) ➜ 27 – 22 = 5  ➜ E
+The secret message is "ARE"!
 
-बस एक बात रट लीजिए — "27 माइनस"। जब भी उल्टा अक्षर पूछा जाए, फौरन 27 में से उस अक्षर की पोज़ीशन घटाएँ। जो नंबर आए, वही उसका आईना दोस्त।
-उदाहरण:
-'K' की पोज़ीशन 11 है। 27 - 11 = 16 (P)। तो K का उल्टा P.
-'T' = 20, 27 - 20 = 7 (G)।
+The Rule You Must Never Forget: The "27 Minus" Magic
 
-लेकिन सबसे बड़ी गलती जो बच्चे करते हैं — वो उल्टा लिखने के चक्कर में अक्षरों का क्रम बिगाड़ देते हैं। याद रखें: शब्द की स्पेलिंग में अक्षरों का क्रम वही रहेगा, बस हर अक्षर को उसके आईना दोस्त से बदलना है।
+Whenever an exam asks for reverse or opposite letter coding, do not waste time writing the alphabet backwards.
+Simply subtract the letter's rank from 27:
+• Rank of K is 11 ➜ 27 – 11 = 16 ➜ P. (K pairs with P)
+• Rank of G is 7  ➜ 27 – 7 = 20  ➜ T. (G pairs with T)
 
-ब्लर्टिंग शीट (Blurting Sheet) — अभी आज़माएँ!
+The Most Common Mistake:
+Students often confuse reversing the word order with replacing letters with their opposites.
+Remember: The sequence of letters in the word stays in its normal order; you only replace each individual letter with its mirror partner!
 
-इस पूरे अध्याय को पलटे बिना, एक कोरे कागज़ पर वो सब कुछ लिख डालिए जो आपको कोडिंग-डिकोडिंग के बारे में याद है — पाँच प्रकार, EJOTY ट्रिक, 27 - X का फ़ॉर्मूला, परीक्षक के जाल, सब कुछ। कुछ छूट जाए तो घबराइए नहीं, बाद में जाँचिए। यह तरीका आपकी याददाश्त को सुपरचार्ज कर देगा।
+Blurting Exercise — Do It Right Now!
+Without looking back at any notes, take a blank sheet of paper and write down everything you remember about coding-decoding:
+The 5 main types, the EJOTY mnemonic, the 27 – X formula, and common examiner traps. Review whatever you missed. This active recall technique will supercharge your retention!
 
-आखिरी सवाल:
-अगर "HOUSE" को "SLFHV" लिखा जाए, तो इस कोडिंग का नियम क्या होगा? और क्या आप 10 सेकंड में "TABLE" का कोड बता सकते हैं? (संकेत: यह सीधा रिवर्स कोडिंग नहीं, बल्कि एक और मज़ेदार पैटर्न है।)
+Final Question:
+If "CRICKET" is coded as "XIRXPVI", which coding rule was used? Can you determine the code for "BAT" in under 10 seconds? (Hint: Check the mirror partners of B, A, and T: B→Y, A→Z, T→G ➜ "YZG"!)
