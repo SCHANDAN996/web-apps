@@ -1,345 +1,151 @@
-markdown
-Copy
-Download
-**Set 1: Practice MCQs (1–25)**
-
----
-
-**1.** *निम्नलिखित में से कौन-सा वेन आरेख भारत, एशिया, पृथ्वी के बीच संबंध को सर्वोत्तम रूप से दर्शाता है?*
-Which of the following Venn diagrams best represents the relationship among: *India, Asia, Earth*?
-(A) तीन अलग-अलग वृत्त (Three separate circles)
-(B) एक बड़े वृत्त में दो अलग-अलग वृत्त (Two separate circles inside a large circle)
-(C) एक वृत्त दूसरे के अंदर और वह तीसरे के अंदर (One circle inside another, both inside a third)
-(D) तीनों वृत्त एक-दूसरे को काटते हुए (Three overlapping circles)
-
-**Answer:** (C) एक वृत्त दूसरे के अंदर और वह तीसरे के अंदर
-**Solution:** India is part of Asia, Asia is part of Earth. So nested circles: India ⊂ Asia ⊂ Earth.
-**Source:PYQ-style
-
----
-
-**2.** *पेन, पेंसिल, इरेज़र के लिए सही संबंध कौन-सा वेन आरेख दिखाता है?*
-Which Venn diagram shows the correct relation among: *Pen, Pencil, Eraser*?
-(A) तीन अलग-अलग वृत्त (Three separate circles)
-(B) एक-दूसरे को काटते हुए तीन वृत्त (Three overlapping circles)
-(C) एक बड़े वृत्त में दो छोटे वृत्त (One big circle containing two small circles)
-(D) दो वृत्त काटते हुए, तीसरा अलग (Two overlapping, third separate)
-
-**Answer:** (A) तीन अलग-अलग वृत्त
-**Solution:** Pen, pencil, eraser are all distinct stationery items with no class-subclass relation. So three separate circles.
-**Source:PYQ-style
-
----
-
-**3.** *महिलाओं, माताओं, इंजीनियरों के संबंध को दर्शाने वाला वेन आरेख चुनें।*
-Select the Venn diagram that illustrates the relationship: *Women, Mothers, Engineers*।
-(A) तीन अलग-अलग वृत्त
-(B) दो अलग-अलग वृत्त एक बड़े वृत्त के अंदर
-(C) तीनों वृत्त एक-दूसरे को काटते हुए
-(D) एक वृत्त दूसरे के अंदर, दोनों तीसरे को काटते हुए
-
-**Answer:** (C) तीनों वृत्त एक-दूसरे को काटते हुए
-**Solution:** All mothers are women. Some women are engineers; some mothers can be engineers; some engineers are women. So all three sets intersect.
-**Source:PYQ-style
-
----
-
-**4.** *डॉक्टर, सर्जन, न्यूरोलॉजिस्ट के लिए सर्वश्रेष्ठ वेन आरेख कौन-सा है?*
-Which option best fits the sets: *Doctors, Surgeons, Neurologists*?
-(A) तीन संकेंद्रीय वृत्त (Three concentric circles)
-(B) एक बड़े वृत्त में दो छोटे वृत्त जो आपस में काटते हों (One large circle containing two overlapping circles)
-(C) एक बड़े वृत्त में दो छोटे वृत्त जो आपस में न काटते हों (One large circle containing two non-overlapping small circles)
-(D) तीनों एक-दूसरे को काटते हुए (Three overlapping circles)
-
-**Answer:** (C) एक बड़े वृत्त (Doctors) में दो छोटे वृत्त जो आपस में न काटते हों
-**Solution:** All surgeons and neurologists are doctors. They are distinct specializations, so disjoint subsets inside a universal set.
-**Source:PYQ-style
-
----
-
-**5.** *खिलाड़ियों, गायकों, डॉक्टरों के लिए आरेख चुनें।*
-Choose the diagram for: *Players, Singers, Doctors*।
-(A) तीन अलग-अलग वृत्त
-(B) एक-दूसरे को काटते हुए तीन वृत्त
-(C) एक वृत्त दूसरे के अंदर, दोनों तीसरे से अलग
-(D) दो वृत्त काटते हुए, तीसरा अलग
-
-**Answer:** (B) एक-दूसरे को काटते हुए तीन वृत्त
-**Solution:** A person can be player, singer, doctor in any combination. So all three mutually overlap.
-**Source:PYQ-style
-
----
-
-**6.** *दिए गए आरेख में त्रिभुज = शिक्षक, वृत्त = स्नातक, आयत = महिलाएँ। संख्याएँ क्षेत्रवार व्यक्तियों की संख्या दर्शाती हैं: केवल शिक्षक = 4, केवल स्नातक = 6, केवल महिलाएँ = 7, शिक्षक और स्नातक (महिला नहीं) = 3, स्नातक और महिलाएँ (शिक्षक नहीं) = 5, शिक्षक और महिलाएँ (स्नातक नहीं) = 2, तीनों = 1। स्नातक महिलाएँ जो शिक्षक नहीं हैं, कितनी हैं?*
-In the given diagram, triangle = Teachers, circle = Graduates, rectangle = Women. Numbers: only teachers=4, only graduates=6, only women=7, teachers & graduates (not women)=3, graduates & women (not teachers)=5, teachers & women (not graduates)=2, all three=1. How many are graduate women who are not teachers?
-(A) 5
-(B) 6
-(C) 7
-(D) 8
-
-**Answer:** (A) 5
-**Solution:** Graduate women not teachers = region common to circle and rectangle but outside triangle = 5.
-**Source:PYQ-style
-
----
-
-**7.** *वेन आरेख में, वृत्त A = पुरुष, वृत्त B = नियोजित, वृत्त C = शिक्षित। वह क्षेत्र कौन-सा है जो ऐसे पुरुषों को दर्शाता है जो शिक्षित हैं परंतु नियोजित नहीं?*
-In the Venn diagram, circle A = Men, circle B = Employed, circle C = Educated. Which region represents men who are educated but not employed?
-(A) केवल A (Only A)
-(B) A और C का कटाव क्षेत्र जिसमें B नहीं (Intersection of A and C excluding B)
-(C) A और B का कटाव क्षेत्र (Intersection of A and B)
-(D) तीनों का कटाव (Intersection of all three)
-
-**Answer:** (B) A और C का कटाव क्षेत्र जिसमें B नहीं
-**Solution:** Men (A) who are educated (C) but not employed (outside B) = A ∩ C ∩ B'.
-**Source:PYQ-style
-
----
-
-**8.** *चित्र में क्रिकेट, हॉकी, फुटबॉल खेलने वालों की संख्या दी गई है। केवल क्रिकेट = 10, केवल हॉकी = 8, केवल फुटबॉल = 12, क्रिकेट और हॉकी (फुटबॉल नहीं) = 5, हॉकी और फुटबॉल (क्रिकेट नहीं) = 6, क्रिकेट और फुटबॉल (हॉकी नहीं) = 4, तीनों = 3। केवल क्रिकेट और फुटबॉल खेलने वाले कितने हैं जो हॉकी नहीं खेलते?*
-The figure shows the number of students who play Cricket, Hockey, Football. How many play only Cricket and Football but not Hockey?
-(A) 5
-(B) 4
-(C) 3
-(D) 7
-
-**Answer:** (B) 4
-**Solution:** “Only Cricket and Football but not Hockey” is the region common to Cricket and Football excluding Hockey = 4.
-**Source:PYQ-style
-
----
-
-**9.** *एक सर्वेक्षण में 55% चाय, 45% कॉफी, 20% दोनों पसंद करते हैं। कितने प्रतिशत कोई भी पसंद नहीं करते?*
-In a survey, 55% like tea, 45% like coffee, 20% like both. What percentage like neither?
-(A) 10%
-(B) 20%
-(C) 30%
-(D) 40%
-
-**Answer:** (B) 20%
-**Solution:** n(T ∪ C) = 55+45-20 = 80%. Neither = 100-80 = 20%.
-**Source:PYQ-style
-
----
-
-**10.** *वेन आरेख में LPG, बिजली और सौर का उपयोग करने वाले परिवारों की संख्या दी गई है। केवल LPG=15, केवल बिजली=10, केवल सौर=20, LPG और बिजली केवल=12, बिजली और सौर केवल=8, LPG और सौर केवल=5, तीनों=3। ठीक दो ऊर्जा स्रोत उपयोग करने वाले परिवारों की संख्या कितनी है?*
-The Venn diagram gives the number of families using LPG, Electricity, and Solar. How many families use exactly two energy sources?
-(A) 25
-(B) 28
-(C) 22
-(D) 20
-
-**Answer:** (A) 25
-**Solution:** Exactly two = (12+8+5) = 25.
-**Source:PYQ-style
-
----
-
-**11.** *कथन: सभी फूल पौधे हैं। कुछ पौधे पेड़ हैं।*
-*निष्कर्ष: I. कुछ फूल पेड़ हैं। II. कुछ पेड़ पौधे हैं।*
-Statements: All flowers are plants. Some plants are trees.
-Conclusions: I. Some flowers are trees. II. Some trees are plants.
-(A) केवल I अनुसरण करता है (Only I follows)
-(B) केवल II अनुसरण करता है (Only II follows)
-(C) दोनों अनुसरण करते हैं (Both follow)
-(D) कोई भी अनुसरण नहीं करता (Neither follows)
-
-**Answer:** (B) केवल II अनुसरण करता है
-**Solution:** Flower ⊆ Plants. Some plants are trees means Plants and Trees overlap. I: Flower circle may be completely inside plants but not touch trees, so not definite. II: "Some trees are plants" is just the converse of the given statement, so it follows.
-**Source:PYQ-style
-
----
-
-**12.** *कथन: कोई किताब पेन नहीं है। सभी पेन पेंसिल हैं।*
-*निष्कर्ष: I. कोई किताब पेंसिल नहीं है। II. कुछ पेंसिल किताब नहीं हैं।*
-Statements: No book is a pen. All pens are pencils.
-Conclusions: I. No book is a pencil. II. Some pencils are not books.
-(A) केवल I अनुसरण करता है
-(B) केवल II अनुसरण करता है
-(C) दोनों अनुसरण करते हैं
-(D) कोई भी अनुसरण नहीं करता
-
-**Answer:** (B) केवल II अनुसरण करता है
-**Solution:** Pen ⊆ Pencil. Book and Pen disjoint. Book could overlap Pencil? Yes, book can have a region outside pen but inside pencil. So I false. II: Since all pens are pencils and no book is pen, the pen-pencil region is separate from book, so there exist pencils (at least the pen part) that are not books. True.
-**Source:PYQ-style
-
----
-
-**13.** *कथन: कुछ अभिनेता गायक हैं। सभी गायक नर्तक हैं।*
-*निष्कर्ष: I. कुछ अभिनेता नर्तक हैं। II. सभी नर्तक गायक हैं।*
-Statements: Some actors are singers. All singers are dancers.
-Conclusions: I. Some actors are dancers. II. All dancers are singers.
-(A) केवल I अनुसरण करता है
-(B) केवल II अनुसरण करता है
-(C) दोनों अनुसरण करते हैं
-(D) कोई भी अनुसरण नहीं करता
-
-**Answer:** (A) केवल I अनुसरण करता है
-**Solution:** Some actors are singers, all singers are dancers → those actors are dancers. I true. II is converse of "All singers are dancers", not necessarily true.
-**Source:PYQ-style
-
----
-
-**14.** *कथन: सभी आम फल हैं। कोई फल सब्ज़ी नहीं है।*
-*निष्कर्ष: I. कोई आम सब्ज़ी नहीं है। II. कुछ सब्ज़ियाँ आम हैं।*
-Statements: All mangoes are fruits. No fruit is a vegetable.
-Conclusions: I. No mango is a vegetable. II. Some vegetables are mangoes.
-(A) केवल I अनुसरण करता है
-(B) केवल II अनुसरण करता है
-(C) दोनों अनुसरण करते हैं
-(D) कोई भी अनुसरण नहीं करता
-
-**Answer:** (A) केवल I अनुसरण करता है
-**Solution:** Mango ⊆ Fruit, Fruit and Vegetable disjoint → Mango ∩ Vegetable = ∅. So I true. II false.
-**Source:PYQ-style
-
----
-
-**15.** *कथन: कुछ बिल्लियाँ कुत्ते हैं। सभी कुत्ते चूहे हैं। कोई चूहा चमगादड़ नहीं है।*
-*निष्कर्ष: I. कुछ बिल्लियाँ चूहे हैं। II. कोई बिल्ली चमगादड़ नहीं है।*
-Statements: Some cats are dogs. All dogs are rats. No rat is a bat.
-Conclusions: I. Some cats are rats. II. No cat is a bat.
-(A) केवल I अनुसरण करता है
-(B) केवल II अनुसरण करता है
-(C) दोनों अनुसरण करते हैं
-(D) कोई भी अनुसरण नहीं करता
-
-**Answer:** (A) केवल I अनुसरण करता है
-**Solution:** I: Some cats are dogs, all dogs are rats → some cats are rats. True. II: Cats could overlap bats if the part of cats outside dogs and rats touches bats. No restriction. So II not definite.
-**Source:PYQ-style
-
----
-
-**16.** *कॉलेज, प्रधानाचार्य, विद्यार्थियों के लिए कौन-सा वेन आरेख है?*
-Which Venn diagram represents the sets: *College, Principal, Students*?
-(A) तीनों एक-दूसरे को काटते हुए
-(B) एक बड़ा वृत्त जिसमें दो छोटे वृत्त आपस में न काटते हों
-(C) एक वृत्त दूसरे के अंदर, दोनों तीसरे के अंदर
-(D) दो वृत्त काटते हुए, तीसरा अलग
-
-**Answer:** (B) एक बड़ा वृत्त (College) जिसमें दो छोटे वृत्त (Principal और Students) आपस में न काटते हों
-**Solution:** Both principal and students are part of a college, and they are disjoint (principal is not a student).
-**Source:PYQ-style
-
----
-
-**17.** *फर्नीचर, कुर्सी, मेज़ के लिए आरेख चुनें।*
-Choose the diagram for *Furniture, Chair, Table*।
-(A) तीन अलग-अलग वृत्त
-(B) एक बड़े वृत्त में दो छोटे वृत्त जो आपस में न काटते हों
-(C) एक बड़े वृत्त में दो छोटे वृत्त जो काटते हों
-(D) तीनों काटते हुए
-
-**Answer:** (B) एक बड़े वृत्त (Furniture) में दो छोटे वृत्त (Chair और Table) जो आपस में न काटते हों
-**Solution:** Chair and Table are distinct types of furniture. So subset relation with no intersection.
-**Source:PYQ-style
-
----
-
-**18.** *कार, वाहन, पेट्रोल के लिए कौन-सा विकल्प सही है?*
-Which option fits the words *Car, Vehicle, Petrol*?
-(A) एक बड़ा वृत्त (Vehicle) जिसमें एक वृत्त (Car) और तीसरा वृत्त (Petrol) उस बड़े वृत्त को काटता हुआ
-(B) एक बड़ा वृत्त (Vehicle) जिसमें एक वृत्त (Car), और तीसरा वृत्त (Petrol) अलग
-(C) तीनों काटते हुए
-(D) दो वृत्त अलग, तीसरा उनमें से एक के अंदर
-
-**Answer:** (B) एक बड़ा वृत्त (Vehicle) जिसमें Car, और Petrol अलग वृत्त
-**Solution:** Car ⊆ Vehicle. Petrol is a fuel, not a type of vehicle, so it's a disjoint set.
-**Source:PYQ-style
-
----
-
-**19.** *तीन वृत्त A, B, C वाले वेन आरेख में कुल कितने क्षेत्र होते हैं?*
-In a Venn diagram with three circles A, B, C, how many regions are present?
-(A) 6
-(B) 7
-(C) 8
-(D) 9
-
-**Answer:** (B) 7
-**Solution:** Three intersecting circles create exactly 7 distinct regions.
-**Source:** Basic concept
-
----
-
-**20.** *यदि 'केवल A' = 5, 'केवल B' = 7, 'केवल C' = 9, 'A और B केवल' = 3, 'B और C केवल' = 4, 'A और C केवल' = 2, 'तीनों' = 1, तो A में कुल कितने हैं?*
-If 'only A'=5, 'only B'=7, 'only C'=9, 'A and B only'=3, 'B and C only'=4, 'A and C only'=2, 'all three'=1, what is total in A?
-(A) 11
-(B) 10
-(C) 12
-(D) 9
-
-**Answer:** (A) 11
-**Solution:** Total in A = only A + (A∩B only) + (A∩C only) + (all three) = 5+3+2+1 = 11.
-**Source:PYQ-style
-
----
-
-**21.** **[मध्यम + जाल]** *कागज़, किताब, प्रिंटर के बीच सही संबंध कौन-सा वेन आरेख दर्शाता है?*
-Which Venn diagram correctly shows the relationship among *Paper, Book, Printer*?
-(A) एक बड़ा वृत्त 'Book' जिसमें 'Paper', और 'Printer' काटता हुआ
-(B) तीन अलग-अलग वृत्त
-(C) 'Paper' अंदर 'Book', 'Printer' अलग
-(D) 'Printer' अंदर 'Book', 'Paper' अलग
-
-**Answer:** (C) 'Paper' अंदर 'Book', 'Printer' अलग
-**Solution:** Paper is a constituent of book; printer is a device, not a subclass of book or paper. Printer is separate. Option (A) is tempting due to association.
-**Trap:** Hidden double relationship – association vs membership.
-**Source:PYQ-style
-
----
-
-**22.** **[मध्यम + जाल]** *कथन: कुछ पेंसिल पेन हैं। कोई पेन इरेज़र नहीं है।*
-*निष्कर्ष: I. कुछ पेंसिल इरेज़र नहीं हैं। II. सभी पेंसिल के पेन होने की संभावना है।*
-Statements: Some pencils are pens. No pen is an eraser.
-Conclusions: I. Some pencils are not erasers. II. All pencils being pens is a possibility.
-(A) केवल I अनुसरण करता है
-(B) केवल II अनुसरण करता है
-(C) दोनों अनुसरण करते हैं
-(D) कोई भी अनुसरण नहीं करता
-
-**Answer:** (C) दोनों अनुसरण करते हैं
-**Solution:** I: The pencils that are pens are not erasers, so some pencils are not erasers. True. II: "All pencils are pens" is possible because "some" does not restrict the remaining pencils; they could all be pens. So II follows.
-**Trap:** Misconception that "some" implies "not all".
-**Source:PYQ-style
-
----
-
-**23.** *आरेख: त्रिभुज = खिलाड़ी, वर्ग = स्नातक, वृत्त = भारतीय। संख्याएँ: केवल खिलाड़ी=8, केवल स्नातक=6, केवल भारतीय=9, खिलाड़ी और स्नातक (भारतीय नहीं)=4, स्नातक और भारतीय (खिलाड़ी नहीं)=5, खिलाड़ी और भारतीय (स्नातक नहीं)=3, तीनों=2। ऐसे कितने हैं जो या तो खिलाड़ी हैं या स्नातक परंतु भारतीय नहीं?*
-Study the diagram: Triangle = Players, Square = Graduates, Circle = Indians. Numbers: only Players=8, only Graduates=6, only Indians=9, Players & Graduates (not Indians)=4, Graduates & Indians (not Players)=5, Players & Indians (not Graduates)=3, all three=2. How many are either players or graduates but not Indians?
-(A) 21
-(B) 18
-(C) 19
-(D) 17
-
-**Answer:** (B) 18
-**Solution:** Either players or graduates but not Indians = only Players (8) + only Graduates (6) + (Players & Graduates only) (4) = 18. (Indians regions excluded.)
-**Source:PYQ-style
-
----
-
-**24.** *पुरुष, भाई, बहनों के लिए सर्वश्रेष्ठ वेन आरेख कौन-सा है?*
-Which Venn diagram best represents *Males, Brothers, Sisters*?
-(A) दो वृत्त काटते हुए एक बड़े वृत्त के अंदर
-(B) एक बड़ा वृत्त 'Males' जिसमें 'Brothers', और 'Sisters' अलग वृत्त
-(C) तीनों काटते हुए
-(D) 'Brothers' अंदर 'Males', 'Sisters' अंदर 'Males', दोनों आपस में न काटते हों
-
-**Answer:** (B) एक बड़ा वृत्त 'Males' जिसमें 'Brothers', और 'Sisters' अलग वृत्त
-**Solution:** All brothers are males. Sisters are females, so not part of Males. So Brothers ⊆ Males, Sisters separate. Option (D) wrongly puts sisters inside males.
-**Source:PYQ-style
-
----
-
-**25.** **[मध्यम]** *कथन: सभी खिड़कियाँ दरवाज़े हैं। कोई दरवाज़ा दीवार नहीं है। कुछ दीवारें छत हैं।*
-*निष्कर्ष: I. कुछ खिड़कियाँ छत हैं। II. कोई खिड़की दीवार नहीं है।*
-Statements: All windows are doors. No door is a wall. Some walls are roofs.
-Conclusions: I. Some windows are roofs. II. No window is a wall.
-(A) केवल I अनुसरण करता है
-(B) केवल II अनुसरण करता है
-(C) दोनों अनुसरण करते हैं
-(D) कोई भी अनुसरण नहीं करता
-
-**Answer:** (B) केवल II अनुसरण करता है
-**Solution:** Windows ⊆ Doors, Doors ∩ Walls = ∅ → Windows ∩ Walls = ∅. II true. Walls and Roofs overlap partially. Windows inside Doors, disjoint from Walls, so may not intersect Roofs. I not definite.
-**Source:PYQ-style
+प्रश्न 1–15: सरल से मध्यम | प्रश्न 16–25: मध्यम से कठिन
+
+1. निम्नलिखित में से कौन-सा वेन आरेख भारत, एशिया, पृथ्वी के बीच संबंध को सर्वोत्तम रूप से दर्शाता है?
+(a) एक वृत्त दूसरे के अंदर और वह तीसरे के अंदर (तीन संकेंद्रीय वृत्त) (b) तीन अलग-अलग वृत्त (c) एक बड़े वृत्त में दो अलग-अलग वृत्त (d) तीनों वृत्त एक-दूसरे को काटते हुए
+उत्तर: (a)
+हल: भारत एशिया का भाग है और एशिया पृथ्वी का भाग है। अतः तीनों पूर्णतः अंतर्निहित (Nested/Concentric) वृत्त बनाएंगे।
+स्रोत: PYQ-शैली
+
+2. पेन, पेंसिल, इरेज़र के बीच सही संबंध कौन-सा वेन आरेख दर्शाता है?
+(a) एक-दूसरे को काटते हुए तीन वृत्त (b) तीन अलग-अलग (परस्पर अपवर्जी) वृत्त (c) एक बड़े वृत्त में दो छोटे वृत्त (d) दो वृत्त काटते हुए, तीसरा अलग
+उत्तर: (b)
+हल: पेन, पेंसिल और इरेज़र तीनों अलग-अलग लेखन सामग्री हैं। इनमें कोई वर्ग-उपवर्ग संबंध नहीं है। अतः तीन पृथक वृत्त बनेंगे।
+स्रोत: PYQ-शैली
+
+3. महिलाओं, माताओं, इंजीनियरों के संबंध को दर्शाने वाला सही वेन आरेख कौन-सा है?
+(a) तीन अलग-अलग वृत्त (b) दो अलग-अलग वृत्त एक बड़े वृत्त के अंदर (c) एक वृत्त (माताएँ) पूर्णतः दूसरे (महिलाएँ) के अंदर, और तीसरा वृत्त (इंजीनियर) दोनों को काटता हुआ (d) तीनों वृत्त परस्पर अलग-अलग काटते हुए
+उत्तर: (c)
+हल: सभी माताएँ महिलाएँ होती हैं (Mothers ⊂ Women)। कुछ महिलाएँ और कुछ माताएँ इंजीनियर हो सकती हैं। अतः इंजीनियर दोनों वृत्तों को आंशिक रूप से काटेगा।
+स्रोत: PYQ-शैली
+
+4. डॉक्टर, सर्जन, न्यूरोलॉजिस्ट के लिए सर्वश्रेष्ठ वेन आरेख कौन-सा है?
+(a) तीन संकेंद्रीय वृत्त (b) एक बड़े वृत्त में दो छोटे वृत्त जो आपस में काटते हों (c) तीनों एक-दूसरे को काटते हुए (d) एक बड़े वृत्त (डॉक्टर) में दो छोटे वृत्त जो आपस में न काटते हों
+उत्तर: (d)
+हल: सर्जन और न्यूरोलॉजिस्ट दोनों डॉक्टर होते हैं, लेकिन वे दो अलग-अलग चिकित्सा विशेषज्ञताएँ हैं। अतः एक बड़े वृत्त में दो परस्पर पृथक वृत्त होंगे।
+स्रोत: PYQ-शैली
+
+5. खिलाड़ियों, गायकों, डॉक्टरों के संबंध को दर्शाने के लिए सही आरेख कौन-सा है?
+(a) तीनों वृत्त परस्पर एक-दूसरे को काटते हुए (त्रिक अतिव्यापन) (b) तीन अलग-अलग वृत्त (c) एक वृत्त दूसरे के अंदर, दोनों तीसरे से अलग (d) दो वृत्त काटते हुए, तीसरा अलग
+उत्तर: (a)
+हल: एक व्यक्ति खिलाड़ी, गायक और डॉक्टर किसी भी संयोजन में हो सकता है (तीनों भी हो सकता है)। अतः तीनों वृत्त परस्पर आंशिक अतिव्यापन करेंगे।
+स्रोत: PYQ-शैली
+
+6. एक ज्यामितीय वेन आरेख में: त्रिभुज = शिक्षक, वृत्त = स्नातक, आयत = महिलाएँ। क्षेत्रवार संख्याएँ हैं: केवल शिक्षक = 4, केवल स्नातक = 6, केवल महिलाएँ = 7, शिक्षक और स्नातक (महिला नहीं) = 3, स्नातक और महिलाएँ (शिक्षक नहीं) = 5, तीनों = 1। ऐसी कितनी स्नातक महिलाएँ हैं जो शिक्षक नहीं हैं?
+(a) 6 (b) 5 (c) 7 (d) 8
+उत्तर: (b)
+हल: स्नातक महिलाएँ जो शिक्षक नहीं हैं = वृत्त और आयत का वह उभयनिष्ठ क्षेत्र जो त्रिभुज के बाहर है = 5।
+स्रोत: PYQ-शैली
+
+7. वेन आरेख में वृत्त A = पुरुष, वृत्त B = नियोजित, वृत्त C = शिक्षित। वह क्षेत्र कौन-सा है जो ऐसे पुरुषों को दर्शाता है जो शिक्षित हैं परंतु नियोजित नहीं?
+(a) केवल वृत्त A (b) A और B का उभयनिष्ठ क्षेत्र (c) A और C का उभयनिष्ठ क्षेत्र जिसमें B शामिल न हो (d) तीनों वृत्तों का उभयनिष्ठ क्षेत्र
+उत्तर: (c)
+हल: पुरुष (A) तथा शिक्षित (C) परंतु नियोजित नहीं (B बाहर) = (A ∩ C) - B।
+स्रोत: PYQ-शैली
+
+8. एक विद्यालय में वृत्त क्रिकेट, त्रिभुज फुटबॉल और वर्ग हॉकी को दर्शाता है। क्रिकेट और फुटबॉल दोनों खेलने वाले किंतु हॉकी न खेलने वाले विद्यार्थियों की संख्या कितनी है (क्षेत्र: क्रिकेट ∩ फुटबॉल - हॉकी)?
+(a) 3 (b) 5 (c) 7 (d) 4
+उत्तर: (d)
+हल: वृत्त और त्रिभुज का वह उभयनिष्ठ क्षेत्र जो वर्ग के बाहर स्थित है, उसमें संख्या 4 है।
+स्रोत: PYQ-शैली
+
+9. एक सर्वेक्षण में 55% लोग चाय पसंद करते हैं, 45% कॉफी पसंद करते हैं, और 20% दोनों पसंद करते हैं। कितने प्रतिशत लोग न तो चाय और न ही कॉफी पसंद करते हैं?
+(a) 20% (b) 15% (c) 25% (d) 30%
+उत्तर: (a)
+हल: कम से कम एक पेय पसंद करने वाले = 55% + 45% - 20% = 80%। न तो चाय न कॉफी पसंद करने वाले = 100% - 80% = 20%।
+स्रोत: PYQ-शैली
+
+10. तीन ऊर्जा स्रोतों: LPG, बिजली और सौर ऊर्जा का उपयोग करने वाले परिवारों के वेन आरेख में केवल LPG और सौर ऊर्जा (बिजली नहीं) का उपयोग करने वाले परिवारों की संख्या कितनी है?
+(a) 8 (b) 12 (c) 10 (d) 15
+उत्तर: (b)
+हल: LPG और सौर के उभयनिष्ठ क्षेत्र में से बिजली वाले भाग को हटाने पर मान 12 प्राप्त होता है।
+स्रोत: PYQ-शैली
+
+11. कथन: सभी फूल पौधे हैं। कुछ पौधे पेड़ हैं। निष्कर्ष: I. कुछ पेड़ फूल हैं। II. कुछ पौधे फूल हैं।
+(a) केवल निष्कर्ष I अनुसरण करता है (b) दोनों निष्कर्ष I और II अनुसरण करते हैं (c) केवल निष्कर्ष II अनुसरण करता है (d) कोई भी निष्कर्ष अनुसरण नहीं करता
+उत्तर: (c)
+हल: सभी फूल पौधे हैं (Flowers ⊂ Plants)। अतः कुछ पौधे निश्चित रूप से फूल हैं (II सत्य)। पेड़ और फूल में कोई निश्चित संबंध नहीं है (I असत्य)।
+स्रोत: PYQ-शैली
+
+12. कथन: कोई किताब पेन नहीं है। सभी पेन पेंसिल हैं। निष्कर्ष: I. कुछ किताबें पेंसिल हैं। II. कुछ पेंसिल किताबें नहीं हैं।
+(a) केवल निष्कर्ष I अनुसरण करता है (b) दोनों निष्कर्ष अनुसरण करते हैं (c) कोई भी अनुसरण नहीं करता (d) केवल निष्कर्ष II अनुसरण करता है
+उत्तर: (d)
+हल: पेन ⊂ पेंसिल। कोई किताब पेन नहीं है। जो पेंसिलें पेन हैं, वे कभी किताब नहीं हो सकतीं। अतः 'कुछ पेंसिल किताबें नहीं हैं' निश्चित रूप से सत्य है।
+स्रोत: PYQ-शैली
+
+13. कथन: कुछ अभिनेता गायक हैं। सभी गायक नर्तक हैं। निष्कर्ष: I. कुछ अभिनेता नर्तक हैं। II. सभी नर्तक गायक हैं।
+(a) केवल निष्कर्ष I अनुसरण करता है (b) केवल निष्कर्ष II अनुसरण करता है (c) दोनों निष्कर्ष अनुसरण करते हैं (d) कोई भी अनुसरण नहीं करता
+उत्तर: (a)
+हल: जो अभिनेता गायक हैं, वे सभी नर्तक भी होंगे। अतः कुछ अभिनेता नर्तक हैं (I सत्य)। 'सभी नर्तक गायक हैं' आवश्यक नहीं है (II असत्य)।
+स्रोत: PYQ-शैली
+
+14. कथन: सभी आम फल हैं। कोई फल सब्ज़ी नहीं है। निष्कर्ष: I. कोई आम सब्ज़ी नहीं है। II. कुछ सब्ज़ियाँ आम हैं।
+(a) केवल निष्कर्ष II अनुसरण करता है (b) केवल निष्कर्ष I अनुसरण करता है (c) दोनों निष्कर्ष अनुसरण करते हैं (d) कोई भी अनुसरण नहीं करता
+उत्तर: (b)
+हल: आम ⊂ फल। फल और सब्ज़ी पूर्णतः असंयुक्त (disjoint) हैं। अतः कोई भी आम सब्ज़ी नहीं हो सकता। निष्कर्ष I सत्य है।
+स्रोत: PYQ-शैली
+
+15. कथन: कुछ बिल्लियाँ कुत्ते हैं। सभी कुत्ते चूहे हैं। कोई चूहा चमगादड़ नहीं है। निष्कर्ष: I. कुछ बिल्लियाँ चूहे हैं। II. कोई बिल्ली चमगादड़ नहीं है।
+(a) केवल निष्कर्ष II अनुसरण करता है (b) दोनों निष्कर्ष अनुसरण करते हैं (c) केवल निष्कर्ष I अनुसरण करता है (d) कोई भी अनुसरण नहीं करता
+उत्तर: (c)
+हल: बिल्लियों का जो भाग कुत्ते हैं, वह चूहों के अंदर होगा। अतः कुछ बिल्लियाँ चूहे हैं (I सत्य)। बिल्लियों का शेष भाग चमगादड़ को छू सकता है, अतः II निश्चित नहीं है।
+स्रोत: PYQ-शैली
+
+16. कॉलेज, प्रधानाचार्य, विद्यार्थियों के लिए कौन-सा वेन आरेख सही है?
+(a) तीनों एक-दूसरे को काटते हुए (b) एक वृत्त दूसरे के अंदर, दोनों तीसरे के अंदर (c) दो वृत्त काटते हुए, तीसरा अलग (d) एक बड़ा वृत्त (कॉलेज) जिसमें दो छोटे वृत्त (प्रधानाचार्य और विद्यार्थी) आपस में न काटते हों
+उत्तर: (d)
+हल: प्रधानाचार्य और विद्यार्थी दोनों कॉलेज के अभिन्न अंग हैं, लेकिन प्रधानाचार्य विद्यार्थी नहीं होते। अतः एक बड़े वृत्त में दो परस्पर पृथक वृत्त।
+स्रोत: PYQ-शैली
+
+17. फर्नीचर, कुर्सी, मेज़ के लिए सही वेन आरेख चुनें।
+(a) एक बड़े वृत्त (फर्नीचर) में दो छोटे वृत्त (कुर्सी और मेज़) जो आपस में न काटते हों (b) तीन अलग-अलग वृत्त (c) एक बड़े वृत्त में दो छोटे वृत्त जो आपस में काटते हों (d) तीनों वृत्त परस्पर काटते हुए
+उत्तर: (a)
+हल: कुर्सी और मेज़ दोनों फर्नीचर के प्रकार हैं, परंतु कुर्सी मेज़ नहीं होती। अतः फर्नीचर के वृत्त में दो असंयुक्त वृत्त।
+स्रोत: PYQ-शैली
+
+18. कार, वाहन, पेट्रोल के लिए कौन-सा विकल्प सही है?
+(a) तीनों वृत्त परस्पर काटते हुए (b) एक बड़ा वृत्त (वाहन) जिसमें कार है, और पेट्रोल एक अलग पृथक वृत्त है (c) एक बड़ा वृत्त जिसमें दो छोटे वृत्त आपस में काटते हों (d) दो वृत्त अलग, तीसरा उनके अंदर
+उत्तर: (b)
+हल: कार वाहन का एक प्रकार है (Car ⊂ Vehicle)। पेट्रोल एक ईंधन है, वाहन नहीं। अतः पेट्रोल अलग वृत्त रहेगा।
+स्रोत: PYQ-शैली
+
+19. तीन परस्पर प्रतिच्छेदी वृत्तों A, B, C वाले वेन आरेख में कुल कितने परिबद्ध क्षेत्र बनते हैं?
+(a) 6 (b) 8 (c) 7 (d) 9
+उत्तर: (c)
+हल: तीन वृत्तों के अंतःभाग में कुल 7 क्षेत्र बनते हैं: 3 एकल क्षेत्र, 3 दोहरे प्रतिच्छेदन क्षेत्र, तथा 1 त्रिक प्रतिच्छेदन क्षेत्र।
+स्रोत: PYQ-शैली
+
+20. यदि 'केवल A' = 5, 'केवल B' = 7, 'केवल C' = 9, 'A और B केवल' = 3, 'A और C केवल' = 2, 'B और C केवल' = 4, तथा 'तीनों' = 1 है, तो समुच्चय A में कुल कितने अवयव हैं?
+(a) 9 (b) 10 (c) 12 (d) 11
+उत्तर: (d)
+हल: A के कुल अवयव = केवल A + (A∩B केवल) + (A∩C केवल) + तीनों = 5 + 3 + 2 + 1 = 11।
+स्रोत: PYQ-शैली
+
+21. कागज़, किताब, प्रिंटर के बीच सही संबंध कौन-सा वेन आरेख दिखाता है?
+(a) कागज़ और किताब परस्पर काटते हुए, प्रिंटर एक अलग पृथक वृत्त (b) तीनों अलग-अलग वृत्त (c) तीन संकेंद्रीय वृत्त (d) तीनों एक-दूसरे को काटते हुए
+उत्तर: (a)
+हल: कुछ कागज़ किताबें बनाते हैं और कुछ कागज़ अन्य उपयोगों में आते हैं। प्रिंटर एक इलेक्ट्रॉनिक उपकरण है, जो दोनों से भिन्न है।
+स्रोत: PYQ-शैली
+
+22. कथन: कुछ पेंसिल पेन हैं। कोई पेन इरेज़र नहीं है। निष्कर्ष: I. कुछ पेंसिल इरेज़र नहीं हैं। II. सभी पेंसिलों के पेन होने की संभावना है।
+(a) केवल निष्कर्ष I अनुसरण करता है (b) दोनों निष्कर्ष I और II अनुसरण करते हैं (c) केवल निष्कर्ष II अनुसरण करता है (d) कोई भी अनुसरण नहीं करता
+उत्तर: (b)
+हल: पेंसिल का जो भाग पेन है, वह इरेज़र नहीं हो सकता (I सत्य)। कथनों में सभी पेंसिलों के पेन होने पर कोई प्रतिबंध नहीं है, अतः संभावना सत्य है (II सत्य)।
+स्रोत: PYQ-शैली
+
+23. एक आरेख में: त्रिभुज = खिलाड़ी, वर्ग = स्नातक, वृत्त = भारतीय। यदि केवल खिलाड़ी = 8, केवल स्नातक = 6, खिलाड़ी और स्नातक (भारतीय नहीं) = 4 हैं, तो ऐसे कितने व्यक्ति हैं जो या तो खिलाड़ी हैं या स्नातक, परंतु भारतीय नहीं हैं?
+(a) 17 (b) 19 (c) 18 (d) 21
+उत्तर: (c)
+हल: भारतीयों के वृत्त से बाहर स्थित खिलाड़ी और स्नातक = 8 + 6 + 4 = 18।
+स्रोत: PYQ-शैली
+
+24. पुरुष, भाई, बहनों के लिए सर्वश्रेष्ठ वेन आरेख कौन-सा है?
+(a) दो वृत्त काटते हुए एक बड़े वृत्त के अंदर (b) तीनों वृत्त परस्पर काटते हुए (c) तीन अलग-अलग वृत्त (d) एक बड़े वृत्त (पुरुष) में भाई, और बहनें एक अलग पृथक वृत्त
+उत्तर: (d)
+हल: सभी भाई पुरुष होते हैं (Brothers ⊂ Males)। बहनें महिला वर्ग में आती हैं, पुरुष नहीं। अतः बहनें एक अलग वृत्त बनाएंगी।
+स्रोत: PYQ-शैली
+
+25. कथन: सभी खिड़कियाँ दरवाज़े हैं। कोई दरवाज़ा दीवार नहीं है। कुछ दीवारें छत हैं। निष्कर्ष: I. कुछ छत खिड़कियाँ हैं। II. कोई खिड़की दीवार नहीं है।
+(a) केवल निष्कर्ष I अनुसरण करता है (b) केवल निष्कर्ष II अनुसरण करता है (c) दोनों निष्कर्ष अनुसरण करते हैं (d) कोई भी अनुसरण नहीं करता
+उत्तर: (b)
+हल: खिड़की ⊂ दरवाज़ा, और दरवाज़ा ∩ दीवार = ∅। अतः खिड़की ∩ दीवार = ∅ (II सत्य)। छत और खिड़की में कोई निश्चित संबंध नहीं है (I असत्य)।
+स्रोत: PYQ-शैली

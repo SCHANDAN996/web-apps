@@ -1,304 +1,151 @@
-Set 2: Practice MCQs (26–50)
+Questions 26–40: Medium | Questions 41–50: Hard
 
 26. Which of the following Venn diagrams best represents the relationship among: Cricket, Bat, Ball?
-निम्नलिखित में से कौन-सा वेन आरेख क्रिकेट, बल्ला, गेंद के बीच संबंध को सर्वोत्तम रूप से दर्शाता है?
-(A) Three separate circles
-(B) One large circle containing two separate circles
-(C) Three overlapping circles
-(D) One circle inside another, third separate
-
-Answer: (A) Three separate circles.
+(a) Three separate circles (b) One large circle containing two separate circles (c) Three overlapping circles (d) One circle inside another, third separate
+Answer: (a)
 Solution: Cricket is a sport; bat and ball are pieces of equipment. They are not subclasses of cricket, nor do they share a class relationship. All three are disjoint sets.
 Source: PYQ-style
 
 27. Choose the Venn diagram that correctly depicts: Doctors, Stethoscope, Hospital.
-डॉक्टर, स्टेथोस्कोप, अस्पताल के लिए सही वेन आरेख चुनें।
-(A) Three overlapping circles
-(B) One large circle containing one circle, third overlapping
-(C) Three separate circles
-(D) One circle inside another, both inside a third
-
-Answer: (C) Three separate circles.
+(a) Three overlapping circles (b) Three separate circles (c) One large circle containing one circle, third overlapping (d) One circle inside another, both inside a third
+Answer: (b)
 Solution: A stethoscope is a tool, not a doctor or hospital. Doctor is a person, hospital is a place. None is a subclass of another. So all three are disjoint.
 Source: PYQ-style
 
 28. Which option best represents Players, Captains, Coaches?
-खिलाड़ी, कप्तान, कोच के लिए सबसे अच्छा विकल्प कौन-सा है?
-(A) Three overlapping circles
-(B) Captains inside Players, Coaches separate
-(C) Captains inside Players, Coaches inside Players, no overlap between Captains and Coaches
-(D) Captains inside Players, Coaches overlapping Players
-
-Answer: (D) Captains inside Players, Coaches overlapping Players.
+(a) Three overlapping circles (b) Captains inside Players, Coaches separate (c) Captains inside Players, Coaches overlapping Players (d) Captains inside Players, Coaches inside Players, no overlap between Captains and Coaches
+Answer: (c)
 Solution: All captains are players (subset). Coaches are not necessarily players; they may be former players or not, but class-wise Coach is a separate profession. So Coaches and Players can overlap (some coaches may also be players), but Captains are fully inside Players. So the correct diagram: Players large circle, Captains inside it, Coaches intersecting Players.
 Source: PYQ-style
 
 29. Study the following figure: Triangle = Engineers, Square = Managers, Circle = MBAs. Numbers in regions: only Engineers=12, only Managers=10, only MBAs=15, Engineers & Managers (not MBAs)=6, Managers & MBAs (not Engineers)=8, Engineers & MBAs (not Managers)=7, all three=4. How many are exactly one of these?
-*दिए गए चित्र में त्रिभुज = इंजीनियर, वर्ग = मैनेजर, वृत्त = MBA। क्षेत्रों में संख्याएँ: केवल इंजीनियर=12, केवल मैनेजर=10, केवल MBA=15, इंजीनियर और मैनेजर (MBA नहीं)=6, मैनेजर और MBA (इंजीनियर नहीं)=8, इंजीनियर और MBA (मैनेजर नहीं)=7, तीनों=4। कितने लोग ठीक एक हैं?*
-(A) 37
-(B) 41
-(C) 33
-(D) 45
-
-Answer: (A) 37.
+(a) 41 (b) 33 (c) 45 (d) 37
+Answer: (d)
 Solution: Exactly one = only Engineers + only Managers + only MBAs = 12+10+15 = 37.
 Source: PYQ-style
 
 30. In a group of 150 people, 90 like tea, 70 like coffee, 50 like both. How many like neither?
-150 लोगों के समूह में 90 चाय, 70 कॉफी, 50 दोनों पसंद करते हैं। कितने दोनों में से कोई भी पसंद नहीं करते?
-(A) 20
-(B) 30
-(C) 40
-(D) 10
-
-Answer: (C) 40.
+(a) 40 (b) 20 (c) 30 (d) 10
+Answer: (a)
 Solution: n(T ∪ C) = 90+70-50=110. Neither = 150-110=40.
 Source: PYQ-style
 
 31. In the given Venn diagram, circle A represents people who read English, circle B represents people who read Hindi, circle C represents people who read Sanskrit. Numbers: only A=25, only B=20, only C=18, A∩B only=12, B∩C only=9, A∩C only=6, A∩B∩C=5. How many read exactly two languages?
-*दिए गए वेन आरेख में A अंग्रेजी, B हिंदी, C संस्कृत पढ़ने वालों को दर्शाता है। केवल A=25, केवल B=20, केवल C=18, A∩B केवल=12, B∩C केवल=9, A∩C केवल=6, A∩B∩C=5। ठीक दो भाषाएँ पढ़ने वालों की संख्या बताएँ।*
-(A) 27
-(B) 32
-(C) 22
-(D) 30
-
-Answer: (A) 27.
+(a) 32 (b) 27 (c) 22 (d) 30
+Answer: (b)
 Solution: Exactly two = (A∩B only)+(B∩C only)+(A∩C only) = 12+9+6 = 27.
 Source: PYQ-style
 
 32. In a Venn diagram, region representing 'only Hindi' contains 15, Hindi and English but not Sanskrit contains 8, all three contains 3. If total who know Hindi is 40, how many know Hindi and Sanskrit but not English?
-एक वेन आरेख में 'केवल हिंदी' में 15, हिंदी और अंग्रेजी लेकिन संस्कृत नहीं में 8, तीनों में 3 हैं। यदि हिंदी जानने वाले कुल 40 हैं, तो हिंदी और संस्कृत लेकिन अंग्रेजी नहीं जानने वालों की संख्या कितनी है?
-(A) 14
-(B) 11
-(C) 17
-(D) 12
-
-Answer: (A) 14.
+(a) 11 (b) 17 (c) 14 (d) 12
+Answer: (c)
 Solution: Total Hindi = only Hindi + (Hindi∩English only) + (Hindi∩Sanskrit only) + (all three). Let Hindi∩Sanskrit only = x. Then 15 + 8 + x + 3 = 40 → x = 40 - 26 = 14.
 Source: PYQ-style
 
-33. Statements: Some apples are oranges. All oranges are fruits. No fruit is a vegetable.
-Conclusions: I. Some apples are fruits. II. No apple is a vegetable.
-कथन: कुछ सेब संतरे हैं। सभी संतरे फल हैं। कोई फल सब्जी नहीं है।
-निष्कर्ष: I. कुछ सेब फल हैं। II. कोई सेब सब्जी नहीं है।
-(A) Only I follows
-(B) Only II follows
-(C) Both I and II follow
-(D) Neither I nor II follows
-
-Answer: (C) Both I and II follow.
-Solution: Some apples are oranges, and oranges are fruits → those apples are fruits. So I follows. All oranges are fruits and no fruit is vegetable, so the apples that are oranges are not vegetables. However, apples could have a part outside oranges; that part could be vegetable? But wait, apples are fruits by definition? In logic, we only know what statements say. Only "some apples are oranges" and "all oranges are fruits" and "no fruit is vegetable". So apples that are not oranges could potentially be vegetables? But is that possible? No fruit is vegetable, but an apple that is not a fruit? But we don't have any statement forcing all apples to be fruits. Apples are a subclass of fruits in real world, but in syllogism we must stick to given statements. Given: Some apples are oranges, all oranges are fruits, no fruit is vegetable. We cannot conclude "No apple is a vegetable" because the part of apples that are not oranges could be vegetable as long as they are not fruits. Wait, but if something is an apple, can it be a vegetable? In syllogism, we don't assume real-world knowledge. So the minimum Venn diagram: apples and oranges overlap. Oranges wholly inside fruits. Fruits and vegetables disjoint. The part of apples outside oranges can intersect with vegetables (since that part is not forced to be fruit). So conclusion II "No apple is a vegetable" is not definite. So only I follows? Let's re-evaluate: In syllogism, to derive "No apple is a vegetable", we need that all apples are fruits (or that apples and vegetables are disjoint via some chain). We only have that some apples are oranges, which are fruits, and fruits are disjoint from vegetables. That doesn't cover the apples that might not be oranges. So indeed II is not necessarily true. The correct answer should be (A) Only I follows. Many students wrongly mark both because they assume all apples are fruits. I'll set answer as Only I follows, making it a trap about implicit real-world knowledge. Yes, that's a good trap.
-
-Trap: Real-world bias: assuming "apple" is always a fruit, but syllogism only uses given statements.
-Answer: (A) Only I follows.
+33. Statements: Some apples are oranges. All oranges are fruits. No fruit is a vegetable. Conclusions: I. Some apples are fruits. II. No apple is a vegetable.
+(a) Only II follows (b) Both I and II follow (c) Neither I nor II follows (d) Only I follows
+Answer: (d)
+Solution: From statements, some apples are oranges, and all oranges are fruits, so some apples are definitely fruits (I follows). Pure syllogistic logic does not assume real-world facts, so II does not necessarily follow. Only I follows.
 Source: PYQ-style
 
-34. Statements: All phones are gadgets. Some gadgets are expensive. No expensive thing is cheap.
-Conclusions: I. Some phones are expensive. II. No phone is cheap.
-कथन: सभी फोन गैजेट हैं। कुछ गैजेट महँगे हैं। कोई महँगी वस्तु सस्ती नहीं है।
-निष्कर्ष: I. कुछ फोन महँगे हैं। II. कोई फोन सस्ता नहीं है।
-(A) Only I follows
-(B) Only II follows
-(C) Both I and II follow
-(D) Neither I nor II follows
-
-Answer: (D) Neither I nor II follows.
+34. Statements: All phones are gadgets. Some gadgets are expensive. No expensive thing is cheap. Conclusions: I. Some phones are expensive. II. No phone is cheap.
+(a) Neither I nor II follows (b) Only I follows (c) Only II follows (d) Both I and II follow
+Answer: (a)
 Solution: Phones ⊆ Gadgets. Gadgets and Expensive overlap. Expensive ∩ Cheap = ∅. I: Phones may be entirely inside the part of gadgets that is not expensive, so not definite. II: Phones are gadgets; gadgets may not be expensive; but could phones be cheap? Cheap is disjoint from expensive, but phones might be in non-expensive gadgets, and those might be cheap? The statement doesn't forbid gadgets from being cheap, only expensive things are not cheap. A non-expensive phone could be cheap. So II not definite.
 Source: PYQ-style
 
-35. Statements: No student is a teacher. All teachers are graduates. Some graduates are postgraduates.
-Conclusions: I. Some postgraduates are not students. II. No student is a graduate.
-कथन: कोई छात्र शिक्षक नहीं है। सभी शिक्षक स्नातक हैं। कुछ स्नातक स्नातकोत्तर हैं।
-निष्कर्ष: I. कुछ स्नातकोत्तर छात्र नहीं हैं। II. कोई छात्र स्नातक नहीं है।
-(A) Only I follows
-(B) Only II follows
-(C) Both I and II follow
-(D) Neither I nor II follows
-
-Answer: (A) Only I follows.
-Solution: I: Some graduates are postgraduates; those graduates who are postgraduates, are they necessarily not students? Not necessarily. But the Venn: Students and Teachers disjoint. Teachers ⊆ Graduates. Some Graduates are Postgraduates. The Postgraduate set overlaps Graduates. Could all postgraduates be students? If all postgraduates are students, they'd be in the student circle. Is that consistent? Students and teachers disjoint; teachers inside graduates. So students can be graduates? The statement doesn't forbid students from being graduates. So postgraduates could be students if they are also graduates. So I is not definite. Wait, need to check carefully. The conclusion I is "Some postgraduates are not students." To test, we try to make all postgraduates students. Is that possible? Students and Teachers disjoint. Teachers ⊆ Graduates. Some Graduates ∩ Postgraduates ≠ ∅. Can all Postgraduates be Students? Yes, if that set of postgraduates is inside Students, and also inside Graduates (since postgraduates are graduates). Students can be graduates. There's no restriction that Students can't be graduates. So we can have the entire Postgraduate set inside Students and also inside Graduates. That would satisfy all statements: No student is teacher, all teachers are graduates (teachers inside graduates, separate from students), some graduates are postgraduates (the postgraduates subset is inside graduates and also inside students). That's consistent. So "Some postgraduates are not students" is not forced; it could be that all postgraduates are students. Therefore I does not follow. II: "No student is a graduate" is false because students could be graduates (no statement forbids it). So neither follows? Let's re-analyze. I originally thought I followed, but actually it doesn't. Conclusion I: "Some postgraduates are not students." Since we found a possibility where all postgraduates are students, it doesn't follow. So answer might be (D) Neither I nor II follows. That's a good tricky one.
-
-Let's double-check: Statement: Some graduates are postgraduates. That means there is at least one entity that is both graduate and postgraduate. If we make all postgraduates students, that entity is a student. Then there is no postgraduate outside students, so "some postgraduates are not students" would be false. Hence I does not follow. So correct answer: (D) Neither I nor II follows. This is a nice trap.
-
-Trap: Overlooking the possibility that the overlapping part (postgraduate) might be entirely inside student, making "some not" false.
-Answer: (D) Neither I nor II follows.
+35. Statements: No student is a teacher. All teachers are graduates. Some graduates are postgraduates. Conclusions: I. Some postgraduates are not students. II. No student is a graduate.
+(a) Only I follows (b) Neither I nor II follows (c) Only II follows (d) Both I and II follow
+Answer: (b)
+Solution: No student is a teacher, but students can overlap with graduates and postgraduates without violating any given statements. Thus, neither conclusion follows.
 Source: PYQ-style
 
-36. Statements: All pens are pencils. No pencil is an eraser. Some erasers are sharpeners.
-Conclusions: I. Some sharpeners are not pencils. II. No pen is an eraser.
-कथन: सभी पेन पेंसिल हैं। कोई पेंसिल इरेज़र नहीं है। कुछ इरेज़र शार्पनर हैं।
-निष्कर्ष: I. कुछ शार्पनर पेंसिल नहीं हैं। II. कोई पेन इरेज़र नहीं है।
-(A) Only I follows
-(B) Only II follows
-(C) Both I and II follow
-(D) Neither I nor II follows
-
-Answer: (B) Only II follows.
-Solution: Pen ⊆ Pencil. Pencil ∩ Eraser = ∅. Eraser ∩ Sharpener ≠ ∅. II: Since all pens are pencils and pencils disjoint from eraser, pens are disjoint from eraser. True. I: The sharpeners that are erasers are not pencils (because eraser and pencil are disjoint), so some sharpeners (those erasers) are not pencils. So I also follows! Wait, yes: if some erasers are sharpeners, those erasers are not pencils, so they are sharpeners that are not pencils. So I follows. Thus both follow. The trap: many think I might not follow if they don't see the chain. So answer (C) Both I and II follow. But is it that simple? Yes. So this is a straightforward medium. I'll keep it. Actually let's double-check: "Some sharpeners are not pencils" – we know some erasers are sharpeners, and no eraser is pencil. So those eraser-sharpeners are not pencils. So definitely some sharpeners are not pencils. I follows. So both follow. Good.
-
+36. Statements: All pens are pencils. No pencil is an eraser. Some erasers are sharpeners. Conclusions: I. Some sharpeners are not pencils. II. No pen is an eraser.
+(a) Only conclusion I follows (b) Only conclusion II follows (c) Both conclusions I and II follow (d) Neither conclusion follows
+Answer: (c)
+Solution: Since All pens are pencils and no pencil is an eraser, pens and erasers are completely disjoint (II follows). The sharpeners that are erasers cannot be pencils (I follows). Hence, both follow.
 Source: PYQ-style
 
 37. [Trap Question] Which of the following diagrams represents the relationship among Car, Engine, Steering Wheel?
-कार, इंजन, स्टीयरिंग व्हील के बीच संबंध को कौन-सा वेन आरेख दर्शाता है?
-(A) Engine inside Car, Steering Wheel inside Car, no overlap between Engine and Steering Wheel
-(B) Engine inside Car, Steering Wheel separate
-(C) Three overlapping circles
-(D) Car inside Engine, Steering Wheel separate
-
-Answer: (A) Engine inside Car, Steering Wheel inside Car, no overlap between Engine and Steering Wheel.
-Solution: Both engine and steering wheel are parts of a car. They are distinct components, so both are subsets of Car, and they are disjoint.
-Trap: Option (B) shows Steering Wheel separate, which is wrong; it is part of Car. Many might think Car, Engine, Steering Wheel are all disjoint or that Steering Wheel is not a car part but a separate entity.
+(a) Engine inside Car, Steering Wheel separate (b) Three overlapping circles (c) Car inside Engine, Steering Wheel separate (d) Engine inside Car, Steering Wheel inside Car, no overlap between Engine and Steering Wheel
+Answer: (d)
+Solution: Both engine and steering wheel are parts of a car. They are distinct components, so both are subsets of Car, and they are disjoint. Trap: Option (B) shows Steering Wheel separate, which is wrong; it is part of Car. Many might think Car, Engine, Steering Wheel are all disjoint or that Steering Wheel is not a car part but a separate entity.
 Source: PYQ-style
 
 38. In the given figure, triangle = Doctors, rectangle = Surgeons, circle = Females. Numbers: only Doctors=20, only Surgeons=15, only Females=18, Doctors & Surgeons (not Females)=8, Surgeons & Females (not Doctors)=6, Doctors & Females (not Surgeons)=10, all three=5. What is the number of female doctors who are not surgeons?
-*दिए गए चित्र में त्रिभुज = डॉक्टर, आयत = सर्जन, वृत्त = महिलाएँ। केवल डॉक्टर=20, केवल सर्जन=15, केवल महिलाएँ=18, डॉक्टर और सर्जन (महिला नहीं)=8, सर्जन और महिलाएँ (डॉक्टर नहीं)=6, डॉक्टर और महिलाएँ (सर्जन नहीं)=10, तीनों=5। महिला डॉक्टर जो सर्जन नहीं हैं, उनकी संख्या कितनी है?*
-(A) 10
-(B) 15
-(C) 18
-(D) 8
-
-Answer: (A) 10.
+(a) 10 (b) 15 (c) 18 (d) 8
+Answer: (a)
 Solution: Female doctors not surgeons = Doctors & Females (not Surgeons) region = 10.
 Source: PYQ-style
 
-39. Statements: Some rivers are lakes. All lakes are ponds. No pond is an ocean.
-Conclusions: I. Some rivers are ponds. II. No river is an ocean.
-कथन: कुछ नदियाँ झील हैं। सभी झीलें तालाब हैं। कोई तालाब महासागर नहीं है।
-निष्कर्ष: I. कुछ नदियाँ तालाब हैं। II. कोई नदी महासागर नहीं है।
-(A) Only I follows
-(B) Only II follows
-(C) Both I and II follow
-(D) Neither I nor II follows
-
-Answer: (A) Only I follows.
+39. Statements: Some rivers are lakes. All lakes are ponds. No pond is an ocean. Conclusions: I. Some rivers are ponds. II. No river is an ocean.
+(a) Only II follows (b) Only I follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (b)
 Solution: Some rivers are lakes, and all lakes are ponds → some rivers are ponds. I true. Rivers that are not lakes could be oceans? Since lakes ⊆ ponds and ponds ∩ ocean = ∅, the lake part is not ocean. But other parts of rivers might be ocean. So II not definite.
 Source: PYQ-style
 
 40. Which Venn diagram best fits Crows, Birds, Mammals?
-कौवे, पक्षी, स्तनधारी के लिए सर्वश्रेष्ठ वेन आरेख कौन-सा है?
-(A) Crows inside Birds, Mammals separate from Birds
-(B) Crows inside Birds, Mammals overlapping Birds
-(C) Crows inside Birds, Mammals inside Birds
-(D) Crows inside Birds, Mammals overlapping Crows
-
-Answer: (A) Crows inside Birds, Mammals separate from Birds.
+(a) Crows inside Birds, Mammals overlapping Birds (b) Crows inside Birds, Mammals inside Birds (c) Crows inside Birds, Mammals separate from Birds (d) Crows inside Birds, Mammals overlapping Crows
+Answer: (c)
 Solution: All crows are birds. Birds and mammals are distinct biological classes (disjoint). So one circle Birds with Crows inside, and Mammals completely separate.
 Source: PYQ-style
 
 41. In a class, 40% students play cricket, 30% play hockey, 20% play both. If total students are 200, how many play neither?
-एक कक्षा में 40% क्रिकेट, 30% हॉकी, 20% दोनों खेलते हैं। कुल 200 छात्र हैं। कितने कोई भी नहीं खेलते?
-(A) 80
-(B) 100
-(C) 60
-(D) 50
-
-Answer: (A) 80.
-Solution: n(C ∪ H)% = 40+30-20 = 50%. Neither% = 50%. Number = 50% of 200 = 100? Wait, 50% of 200 = 100. So neither = 100. But option B is 100. Let's check: 40% cricket = 80, 30% hockey = 60, both 20% = 40. So only cricket = 40, only hockey = 20, both = 40. Total playing = 100, neither = 100. So answer (B) 100. I need to adjust options. I'll set B as 100. I wrote A 80, B 100, C 60, D 50. So answer B 100. Yes.
+(a) 50 (b) 60 (c) 80 (d) 100
+Answer: (d)
+Solution: Total students playing at least one game = 40% + 30% - 20% = 50%. Students playing neither = 100% - 50% = 50%. Total number = 50% of 200 = 100.
 Source: PYQ-style
 
 42. In the Venn diagram, triangle = Employees, square = Graduates, circle = Experienced. Numbers: only Employees=9, only Graduates=11, only Experienced=7, Employees & Graduates (not Experienced)=5, Graduates & Experienced (not Employees)=6, Employees & Experienced (not Graduates)=4, all three=3. How many are graduates but neither employees nor experienced?
-*वेन आरेख में त्रिभुज = कर्मचारी, वर्ग = स्नातक, वृत्त = अनुभवी। केवल कर्मचारी=9, केवल स्नातक=11, केवल अनुभवी=7, कर्मचारी और स्नातक (अनुभवी नहीं)=5, स्नातक और अनुभवी (कर्मचारी नहीं)=6, कर्मचारी और अनुभवी (स्नातक नहीं)=4, तीनों=3। ऐसे स्नातक जो न तो कर्मचारी हैं और न ही अनुभवी, कितने हैं?*
-(A) 11
-(B) 16
-(C) 9
-(D) 5
-
-Answer: (A) 11.
+(a) 11 (b) 16 (c) 9 (d) 5
+Answer: (a)
 Solution: "Graduates but neither employees nor experienced" is the region 'only Graduates' = 11.
 Source: PYQ-style
 
-43. [Trap] Statements: All fans are coolers. No cooler is a heater. Some heaters are blowers.
-Conclusions: I. Some blowers are not coolers. II. No fan is a heater.
-कथन: सभी पंखे कूलर हैं। कोई कूलर हीटर नहीं है। कुछ हीटर ब्लोअर हैं।
-निष्कर्ष: I. कुछ ब्लोअर कूलर नहीं हैं। II. कोई पंखा हीटर नहीं है।
-(A) Only I follows
-(B) Only II follows
-(C) Both I and II follow
-(D) Neither I nor II follows
-
-Answer: (C) Both I and II follow.
+43. [Trap] Statements: All fans are coolers. No cooler is a heater. Some heaters are blowers. Conclusions: I. Some blowers are not coolers. II. No fan is a heater.
+(a) Only I follows (b) Both I and II follow (c) Only II follows (d) Neither I nor II follows
+Answer: (b)
 Solution: II: Fan ⊆ Cooler, Cooler ∩ Heater = ∅ → Fan ∩ Heater = ∅, so II true. I: Some heaters are blowers, and heaters are not coolers, so those blowers are not coolers. So I true. Both follow. Trap: might mistakenly think I doesn't follow if forgetting the chain.
 Source: PYQ-style
 
 44. Choose the diagram for Laptops, Computers, Tablets.
-लैपटॉप, कंप्यूटर, टैबलेट के लिए आरेख चुनें।
-(A) Laptops inside Computers, Tablets inside Computers, no overlap
-(B) Laptops inside Computers, Tablets separate
-(C) Three overlapping circles
-(D) Laptops inside Computers, Tablets overlapping Computers
-
-Answer: (A) Laptops inside Computers, Tablets inside Computers, no overlap between Laptops and Tablets.
+(a) Laptops inside Computers, Tablets separate (b) Three overlapping circles (c) Laptops inside Computers, Tablets inside Computers, no overlap (d) Laptops inside Computers, Tablets overlapping Computers
+Answer: (c)
 Solution: Laptops and tablets are both types of computers (subsets). They are distinct types, so disjoint inside the computer circle.
 Source: PYQ-style
 
 45. In a survey, 60% like milk, 50% like tea, 30% like both. What percentage like at most one?
-एक सर्वेक्षण में 60% दूध, 50% चाय, 30% दोनों पसंद करते हैं। अधिकतम एक पसंद करने वालों का प्रतिशत कितना है?
-(A) 70%
-(B) 80%
-(C) 40%
-(D) 20%
-
-Answer: (A) 70%.
+(a) 80% (b) 40% (c) 20% (d) 70%
+Answer: (d)
 Solution: At most one = total - both = 100% - 30% = 70%.
 Source: PYQ-style
 
-46. Statements: All grapes are fruits. Some fruits are sour. No sour thing is sweet.
-Conclusions: I. Some grapes are sour. II. No grape is sweet.
-कथन: सभी अंगूर फल हैं। कुछ फल खट्टे हैं। कोई खट्टी चीज़ मीठी नहीं है।
-निष्कर्ष: I. कुछ अंगूर खट्टे हैं। II. कोई अंगूर मीठा नहीं है।
-(A) Only I follows
-(B) Only II follows
-(C) Both I and II follow
-(D) Neither I nor II follows
-
-Answer: (D) Neither I nor II follows.
+46. Statements: All grapes are fruits. Some fruits are sour. No sour thing is sweet. Conclusions: I. Some grapes are sour. II. No grape is sweet.
+(a) Neither I nor II follows (b) Only I follows (c) Only II follows (d) Both I and II follow
+Answer: (a)
 Solution: Grapes ⊆ Fruits. Some fruits are sour (overlap). Sour ∩ Sweet = ∅. I: Grapes could be entirely in the non-sour part of fruits, so not definite. II: Grapes could be non-sour and sweet? But sweet is disjoint from sour, but grapes might be non-sour and possibly sweet? There's no restriction. So II not definite.
 Source: PYQ-style
 
 47. In the Venn diagram, circle A represents those who own a car, circle B those who own a bike, circle C those who own a cycle. Numbers: only A=14, only B=12, only C=16, A∩B only=7, B∩C only=5, A∩C only=8, all three=2. How many own exactly one vehicle?
-*वेन आरेख में A कार, B बाइक, C साइकिल स्वामियों को दर्शाता है। संख्याएँ: केवल A=14, केवल B=12, केवल C=16, A∩B केवल=7, B∩C केवल=5, A∩C केवल=8, तीनों=2। ठीक एक वाहन वालों की संख्या कितनी है?*
-(A) 42
-(B) 40
-(C) 38
-(D) 44
-
-Answer: (A) 42.
+(a) 40 (b) 42 (c) 38 (d) 44
+Answer: (b)
 Solution: Exactly one = 14+12+16 = 42.
 Source: PYQ-style
 
 48. Which Venn diagram shows Doctors, Engineers, Professionals?
-डॉक्टर, इंजीनियर, पेशेवर के लिए कौन-सा वेन आरेख सही है?
-(A) Doctors and Engineers both inside Professionals, no overlap between Doctors and Engineers
-(B) Doctors inside Professionals, Engineers separate
-(C) All three overlapping
-(D) Professionals inside Doctors, Engineers inside Doctors
-
-Answer: (A) Doctors and Engineers both inside Professionals, no overlap between Doctors and Engineers.
+(a) Doctors inside Professionals, Engineers separate (b) All three overlapping (c) Doctors and Engineers both inside Professionals, no overlap between Doctors and Engineers (d) Professionals inside Doctors, Engineers inside Doctors
+Answer: (c)
 Solution: All doctors are professionals, all engineers are professionals. Doctors and engineers are distinct professions, so they are disjoint subsets of professionals.
 Source: PYQ-style
 
-49. Statements: Some shirts are pants. All pants are clothes. No cloth is a shoe.
-Conclusions: I. Some shirts are clothes. II. Some shoes are not pants.
-कथन: कुछ शर्ट पैंट हैं। सभी पैंट कपड़े हैं। कोई कपड़ा जूता नहीं है।
-निष्कर्ष: I. कुछ शर्ट कपड़े हैं। II. कुछ जूते पैंट नहीं हैं।
-(A) Only I follows
-(B) Only II follows
-(C) Both I and II follow
-(D) Neither I nor II follows
-
-Answer: (C) Both I and II follow.
+49. Statements: Some shirts are pants. All pants are clothes. No cloth is a shoe. Conclusions: I. Some shirts are clothes. II. Some shoes are not pants.
+(a) Only I follows (b) Only II follows (c) Neither I nor II follows (d) Both I and II follow
+Answer: (d)
 Solution: I: Some shirts are pants, all pants are clothes → those shirts are clothes. True. II: No cloth is shoe, and all pants are clothes, so pants ∩ shoe = ∅. That means no shoe is a pant, so definitely some shoes are not pants (in fact all shoes are not pants). So II follows.
 Source: PYQ-style
 
-50. [Trap] Statements: All roses are flowers. No flower is a fruit. Some fruits are apples.
-Conclusions: I. No rose is a fruit. II. Some apples are not flowers.
-कथन: सभी गुलाब फूल हैं। कोई फूल फल नहीं है। कुछ फल सेब हैं।
-निष्कर्ष: I. कोई गुलाब फल नहीं है। II. कुछ सेब फूल नहीं हैं।
-(A) Only I follows
-(B) Only II follows
-(C) Both I and II follow
-(D) Neither I nor II follows
-
-Answer: (C) Both I and II follow.
+50. [Trap] Statements: All roses are flowers. No flower is a fruit. Some fruits are apples. Conclusions: I. No rose is a fruit. II. Some apples are not flowers.
+(a) Only I follows (b) Both I and II follow (c) Only II follows (d) Neither I nor II follows
+Answer: (b)
 Solution: I: Rose ⊆ Flower, Flower ∩ Fruit = ∅ → Rose ∩ Fruit = ∅. True. II: Some fruits are apples, and fruits are disjoint from flowers. So those apples (which are fruits) are not flowers. So some apples are not flowers. True. Trap: Some might think II doesn't follow because they confuse "some apples are not flowers" requires that there exist apples that are not flowers, which is satisfied by the apple-fruit subset. So both follow.
 Source: PYQ-style

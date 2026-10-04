@@ -1,302 +1,151 @@
-Set 1: Practice MCQs (1–25)
+Questions 1–15: Easy to Medium | Questions 16–25: Medium to Hard
 
 1. Which of the following Venn diagrams best represents the relationship among: India, Asia, Earth?
-निम्नलिखित में से कौन-सा वेन आरेख भारत, एशिया, पृथ्वी के बीच संबंध को सर्वोत्तम रूप से दर्शाता है?
-(A) Three separate circles
-(B) Two circles inside one large circle with no overlap
-(C) One circle inside another, both inside a third
-(D) Three overlapping circles
-
-Answer: (C) One circle inside another, both inside a third.
-Solution: India is a part of Asia, and Asia is a part of Earth. So nested circles: India ⊂ Asia ⊂ Earth.
+(a) One circle inside another, and both inside a third (concentric circles) (b) Three separate circles (c) Two separate circles inside one large circle (d) Three mutually overlapping circles
+Answer: (a)
+Solution: India is entirely within Asia, and Asia is entirely on Earth. Hence, they form three concentric nested circles.
 Source: PYQ-style
 
-2. Which Venn diagram shows the correct relation among: Pen, Pencil, Eraser?
-पेन, पेंसिल, इरेज़र के बीच सही संबंध कौन-सा वेन आरेख दिखाता है?
-(A) Three overlapping circles
-(B) Three separate circles
-(C) One big circle containing two separate circles
-(D) Two circles overlapping, third separate
-
-Answer: (B) Three separate circles.
-Solution: Pen, pencil, and eraser are all distinct stationery items with no class-subclass relationship among them.
+2. Which Venn diagram shows the correct relationship among: Pen, Pencil, Eraser?
+(a) Three mutually overlapping circles (b) Three separate (mutually disjoint) circles (c) One large circle containing two smaller circles (d) Two intersecting circles, third separate
+Answer: (b)
+Solution: Pen, pencil, and eraser are distinct stationery items with no subset or overlap relation. Hence, three separate circles.
 Source: PYQ-style
 
-3. Select the Venn diagram that illustrates the relationship: Women, Mothers, Engineers.
-महिलाओं, माताओं, इंजीनियरों के संबंध को दर्शाने वाला वेन आरेख चुनें।
-(A) Three separate circles
-(B) Two separate circles inside a large circle
-(C) All three circles overlapping
-(D) One circle inside another, both intersecting the third
-
-Answer: (C) All three circles overlapping.
-Solution: All mothers are women. Some women are engineers; some mothers can be engineers; some engineers are women. So all sets intersect.
+3. Select the Venn diagram that best illustrates the relationship: Women, Mothers, Engineers.
+(a) Three completely separate circles (b) Two separate circles inside a large circle (c) One circle (Mothers) completely inside another (Women), and a third circle (Engineers) intersecting both (d) Three separate circles with no nested subset
+Answer: (c)
+Solution: All mothers are women (Mothers ⊂ Women). Some women and some mothers are engineers. Hence, the Engineers circle intersects both circles.
 Source: PYQ-style
 
-4. Which option best fits the sets: Doctors, Surgeons, Neurologists?
-डॉक्टर, सर्जन, न्यूरोलॉजिस्ट के लिए सर्वश्रेष्ठ विकल्प कौन-सा है?
-(A) Three concentric circles
-(B) Two circles inside a large circle, overlapping
-(C) One large circle containing two smaller non-overlapping circles
-(D) Three overlapping circles
-
-Answer: (C) One large circle (Doctors) containing two smaller separate circles (Surgeons and Neurologists).
-Solution: All surgeons and neurologists are doctors. A person can be both a surgeon and a neurologist? No, they are distinct specializations, but a person could theoretically be both. However, in exam logic, they are considered separate professions within doctors, so two disjoint subsets inside a universal set. (If overlap is possible, exam treats as separate unless indicated otherwise; typical answer: two separate circles inside a big circle).
+4. Which Venn diagram best represents the classes: Doctors, Surgeons, Neurologists?
+(a) Three concentric circles (b) Two overlapping circles inside a large circle (c) Three mutually overlapping circles (d) One large circle (Doctors) containing two smaller non-overlapping circles
+Answer: (d)
+Solution: Both surgeons and neurologists are doctors, but they represent distinct medical specializations. Hence, two disjoint circles inside a large circle.
 Source: PYQ-style
 
-5. Choose the diagram for: Players, Singers, Doctors.
-खिलाड़ियों, गायकों, डॉक्टरों के लिए आरेख चुनें।
-(A) Three overlapping circles
-(B) Three separate circles
-(C) One circle inside another, both separate from third
-(D) Two overlapping circles, third separate
-
-Answer: (A) Three overlapping circles.
-Solution: A person can be a player, singer, doctor in any combination, so all three mutually overlap.
+5. Choose the correct diagram for: Players, Singers, Doctors.
+(a) Three mutually overlapping circles (triple intersection) (b) Three completely separate circles (c) One circle inside another, third separate (d) Two overlapping circles, third separate
+Answer: (a)
+Solution: A person can be any combination of player, singer, and doctor (including all three). Hence, three mutually overlapping circles.
 Source: PYQ-style
 
-6. In the given diagram, triangle = Teachers, circle = Graduates, rectangle = Women. How many are graduate women who are not teachers?
-दिए गए आरेख में, त्रिभुज = शिक्षक, वृत्त = स्नातक, आयत = महिलाएँ। ऐसी कितनी स्नातक महिलाएँ हैं जो शिक्षक नहीं हैं?
-Number of regions (image not given, assume standard numbered regions: only graduate women section without triangle).
-Regions: Let's define typical 7-region Venn: Only Teachers = 5, Only Graduates = 6, Only Women = 7, Teachers ∩ Graduates only = 8, Graduates ∩ Women only = 9, Teachers ∩ Women only = 10, All three = 11. We'll ask a concrete counting based on these numbers. I'll construct numbers. Suppose:
-Triangle alone: 4, Circle alone: 6, Rectangle alone: 7, Triangle ∩ Circle (no Rectangle) = 3, Circle ∩ Rectangle (no Triangle) = 5, Triangle ∩ Rectangle (no Circle) = 2, All three = 1. Then "graduate women not teachers" = Circle ∩ Rectangle excluding Triangle = 5.
-So I'll set that. Question: In the diagram, the numbers represent the count of persons in each region: only teachers = 4, only graduates = 6, only women = 7, teachers and graduates but not women = 3, graduates and women but not teachers = 5, teachers and women but not graduates = 2, all three = 1. How many are graduate women who are not teachers?
-Options: (A) 5 (B) 6 (C) 7 (D) 8. Answer A.
-I'll write the question with data.
-
-6. Study the following figure: Triangle = Teachers, Circle = Graduates, Rectangle = Women. The numbers show persons in each region: only teachers = 4, only graduates = 6, only women = 7, teachers & graduates (not women) = 3, graduates & women (not teachers) = 5, teachers & women (not graduates) = 2, all three = 1. How many graduate women are there who are not teachers?
-*दिए गए चित्र में त्रिभुज शिक्षक, वृत्त स्नातक, आयत महिलाएँ हैं। संख्याएँ क्षेत्रानुसार व्यक्तियों की संख्या दर्शाती हैं: केवल शिक्षक = 4, केवल स्नातक = 6, केवल महिलाएँ = 7, शिक्षक व स्नातक (महिला नहीं) = 3, स्नातक व महिलाएँ (शिक्षक नहीं) = 5, शिक्षक व महिलाएँ (स्नातक नहीं) = 2, तीनों = 1। स्नातक महिलाएँ जो शिक्षक नहीं हैं, कितनी हैं?*
-(A) 5
-(B) 6
-(C) 7
-(D) 8
-
-Answer: (A) 5
-Solution: Graduate women not teachers = region common to Circle and Rectangle but outside Triangle = 5.
+6. In a geometric Venn diagram: Triangle = Teachers, Circle = Graduates, Rectangle = Women. Numbers are: only teachers = 4, only graduates = 6, only women = 7, teachers and graduates (not women) = 3, graduates and women (not teachers) = 5, all three = 1. How many graduate women are NOT teachers?
+(a) 6 (b) 5 (c) 7 (d) 8
+Answer: (b)
+Solution: Graduate women who are not teachers corresponds to the region common to Circle and Rectangle outside Triangle = 5.
 Source: PYQ-style
 
-7. In the Venn diagram, circle A = Men, circle B = Employed, circle C = Educated. Which region represents men who are educated but not employed?
-वेन आरेख में, वृत्त A = पुरुष, वृत्त B = नियोजित, वृत्त C = शिक्षित। कौन-सा क्षेत्र उन पुरुषों को दर्शाता है जो शिक्षित हैं परंतु नियोजित नहीं?
-(A) Only A
-(B) Intersection of A and C only
-(C) Intersection of A and B only
-(D) Intersection of all three
-
-Answer: (B) Intersection of A and C only (area where A and C overlap but B does not).
-Solution: Men (A) who are educated (C) but not employed (outside B) = A ∩ C ∩ B'.
+7. In a Venn diagram, circle A = Men, circle B = Employed, circle C = Educated. Which region represents men who are educated but NOT employed?
+(a) Region only inside circle A (b) Intersection of A and B (c) Intersection of A and C excluding B (d) Intersection of all three circles
+Answer: (c)
+Solution: Men (A) who are educated (C) but not employed (outside B) corresponds to (A ∩ C) excluding B.
 Source: PYQ-style
 
-8. The figure shows the number of students who play Cricket, Hockey, Football. How many play only Cricket and Football but not Hockey?
-Numbers: Only Cricket = 10, Only Hockey = 8, Only Football = 12, Cricket & Hockey (not Football) = 5, Hockey & Football (not Cricket) = 6, Cricket & Football (not Hockey) = 4, all three = 3.
-चित्र में क्रिकेट, हॉकी, फुटबॉल खेलने वालों की संख्या दी गई है। केवल क्रिकेट और फुटबॉल खेलने वाले कितने हैं जो हॉकी नहीं खेलते?
-(A) 5
-(B) 4
-(C) 3
-(D) 7
-
-Answer: (B) 4
-Solution: “Only Cricket and Football but not Hockey” is the region common to Cricket and Football excluding Hockey = 4.
+8. In a school, circle represents Cricket, triangle Football, and square Hockey. How many students play both Cricket and Football but NOT Hockey (region: Cricket ∩ Football - Hockey)?
+(a) 3 (b) 5 (c) 7 (d) 4
+Answer: (d)
+Solution: The region common to the circle and triangle outside the square contains the value 4.
 Source: PYQ-style
 
-9. In a survey, 55% like tea, 45% like coffee, 20% like both. What percentage like neither?
-एक सर्वेक्षण में 55% चाय, 45% कॉफी, 20% दोनों पसंद करते हैं। कितने प्रतिशत दोनों में से कोई भी पसंद नहीं करते?
-(A) 10%
-(B) 20%
-(C) 30%
-(D) 40%
-
-Answer: (B) 20%
-Solution: n(T ∪ C) = 55+45-20 = 80%. Neither = 100-80 = 20%.
+9. In a survey, 55% of people like tea, 45% like coffee, and 20% like both. What percentage of people like neither tea nor coffee?
+(a) 20% (b) 15% (c) 25% (d) 30%
+Answer: (a)
+Solution: Union = 55% + 45% - 20% = 80%. Neither = 100% - 80% = 20%.
 Source: PYQ-style
 
-10. The Venn diagram below gives the number of families using LPG, Electricity, and Solar. How many families use exactly two energy sources?
-Data: LPG only=15, Electricity only=10, Solar only=20, LPG & Electricity only=12, Electricity & Solar only=8, LPG & Solar only=5, all three=3.
-वेन आरेख में LPG, बिजली और सौर का उपयोग करने वाले परिवारों की संख्या दी गई है। ठीक दो ऊर्जा स्रोत उपयोग करने वाले परिवारों की संख्या कितनी है?
-(A) 12
-(B) 25
-(C) 28
-(D) 22
-
-Answer: (B) 25
-Solution: Exactly two = (LPG & Electricity only) + (Electricity & Solar only) + (LPG & Solar only) = 12+8+5 = 25. (Note: all three not included.)
+10. In a Venn diagram of families using three energy sources: LPG, Electricity, and Solar, how many families use only LPG and Solar (and NOT Electricity)?
+(a) 8 (b) 12 (c) 10 (d) 15
+Answer: (b)
+Solution: The intersection of LPG and Solar circles excluding Electricity yields 12.
 Source: PYQ-style
 
-11. Statements: All flowers are plants. Some plants are trees.
-Conclusions: I. Some flowers are trees. II. Some trees are plants.
-कथन: सभी फूल पौधे हैं। कुछ पौधे पेड़ हैं।
-निष्कर्ष: I. कुछ फूल पेड़ हैं। II. कुछ पेड़ पौधे हैं।
-(A) Only I follows
-(B) Only II follows
-(C) Both I and II follow
-(D) Neither I nor II follows
-
-Answer: (B) Only II follows.
-Solution: All flowers ⊂ Plants. Some plants are trees means plants and trees overlap. Conclusion I: Flower circle may be completely inside plants but not touch trees, so not definite. Conclusion II: “Some trees are plants” is the same as the statement, so it follows.
+11. Statements: All flowers are plants. Some plants are trees. Conclusions: I. Some trees are flowers. II. Some plants are flowers.
+(a) Only conclusion I follows (b) Both conclusions I and II follow (c) Only conclusion II follows (d) Neither conclusion follows
+Answer: (c)
+Solution: Since Flowers ⊂ Plants, Some plants are definitely flowers (II follows). There is no guaranteed overlap between Trees and Flowers (I does not follow).
 Source: PYQ-style
 
-12. Statements: No book is a pen. All pens are pencils.
-Conclusions: I. No book is a pencil. II. Some pencils are not books.
-कथन: कोई किताब पेन नहीं है। सभी पेन पेंसिल हैं।
-निष्कर्ष: I. कोई किताब पेंसिल नहीं है। II. कुछ पेंसिल किताब नहीं हैं।
-(A) Only I follows
-(B) Only II follows
-(C) Both I and II follow
-(D) Neither I nor II follows
-
-Answer: (B) Only II follows.
-Solution: Pen circle fully inside Pencil. Book circle separate from Pen. Could book overlap pencil? Yes, book can have a region outside pen but inside pencil. So conclusion I false. Conclusion II: Since all pens are pencils and no book is pen, the pen-pencil region is separate from book, so there exist pencils (at least the pen part) that are not books. Hence follows.
+12. Statements: No book is a pen. All pens are pencils. Conclusions: I. Some books are pencils. II. Some pencils are not books.
+(a) Only conclusion I follows (b) Both conclusions follow (c) Neither conclusion follows (d) Only conclusion II follows
+Answer: (d)
+Solution: Pens ⊂ Pencils, and no pen is a book. Those pencils which are pens can never be books. Hence, 'Some pencils are not books' definitely follows.
 Source: PYQ-style
 
-13. Statements: Some actors are singers. All singers are dancers.
-Conclusions: I. Some actors are dancers. II. All dancers are singers.
-कथन: कुछ अभिनेता गायक हैं। सभी गायक नर्तक हैं।
-निष्कर्ष: I. कुछ अभिनेता नर्तक हैं। II. सभी नर्तक गायक हैं।
-(A) Only I follows
-(B) Only II follows
-(C) Both I and II follow
-(D) Neither I nor II follows
-
-Answer: (A) Only I follows.
-Solution: From “Some actors are singers” and “All singers are dancers”, the part of actors that are singers is certainly inside dancers. So some actors are dancers. Conclusion II is converse of “All singers are dancers”, not true.
+13. Statements: Some actors are singers. All singers are dancers. Conclusions: I. Some actors are dancers. II. All dancers are singers.
+(a) Only conclusion I follows (b) Only conclusion II follows (c) Both conclusions follow (d) Neither conclusion follows
+Answer: (a)
+Solution: Actors who are singers are necessarily dancers, so Some actors are dancers (I follows). All dancers are singers is not necessarily true (II does not follow).
 Source: PYQ-style
 
-14. Statements: All mangoes are fruits. No fruit is a vegetable.
-Conclusions: I. No mango is a vegetable. II. Some vegetables are mangoes.
-कथन: सभी आम फल हैं। कोई फल सब्जी नहीं है।
-निष्कर्ष: I. कोई आम सब्जी नहीं है। II. कुछ सब्जियाँ आम हैं।
-(A) Only I follows
-(B) Only II follows
-(C) Both I and II follow
-(D) Neither I nor II follows
-
-Answer: (A) Only I follows.
-Solution: Mango ⊆ Fruit, Fruit and Vegetable disjoint. So Mango ∩ Vegetable = ∅. Hence “No mango is vegetable” true. Conclusion II is false.
+14. Statements: All mangoes are fruits. No fruit is a vegetable. Conclusions: I. No mango is a vegetable. II. Some vegetables are mangoes.
+(a) Only conclusion II follows (b) Only conclusion I follows (c) Both conclusions follow (d) Neither conclusion follows
+Answer: (b)
+Solution: Mangoes ⊂ Fruits, and Fruits and Vegetables are completely disjoint. Thus, no mango can be a vegetable. Only I follows.
 Source: PYQ-style
 
-15. Statements: Some cats are dogs. All dogs are rats. No rat is a bat.
-Conclusions: I. Some cats are rats. II. No cat is a bat.
-कथन: कुछ बिल्लियाँ कुत्ते हैं। सभी कुत्ते चूहे हैं। कोई चूहा चमगादड़ नहीं है।
-निष्कर्ष: I. कुछ बिल्लियाँ चूहे हैं। II. कोई बिल्ली चमगादड़ नहीं है।
-(A) Only I follows
-(B) Only II follows
-(C) Both I and II follow
-(D) Neither I nor II follows
-
-Answer: (A) Only I follows.
-Solution: I: Some cats are dogs + All dogs are rats ⇒ Some cats are rats. True. II: Cats could be overlapping with bats? Cats ⊆? Rats and bats are disjoint, but cats may have part outside dogs and rats; that part could intersect with bats. So not necessarily false. Thus only I follows.
+15. Statements: Some cats are dogs. All dogs are rats. No rat is a bat. Conclusions: I. Some cats are rats. II. No cat is a bat.
+(a) Only conclusion II follows (b) Both conclusions follow (c) Only conclusion I follows (d) Neither conclusion follows
+Answer: (c)
+Solution: The part of cats that are dogs is inside rats, so Some cats are rats (I follows). Cats outside dogs and rats could intersect bats, so II is not definite.
 Source: PYQ-style
 
 16. Which Venn diagram represents the sets: College, Principal, Students?
-कॉलेज, प्रधानाचार्य, विद्यार्थियों के लिए कौन-सा वेन आरेख है?
-(A) Three overlapping circles
-(B) One large circle containing two separate circles
-(C) One circle inside another, both inside a third
-(D) Two circles overlapping, third separate
-
-Answer: (B) One large circle containing two separate circles (College is the large circle; Principal and Students are distinct subsets within it).
-Solution: Principal and Students are both part of a college, and they are disjoint (a principal is not a student and a student is not a principal).
+(a) Three mutually overlapping circles (b) Three concentric nested circles (c) Two overlapping circles, third separate (d) One large circle (College) containing two separate non-overlapping circles (Principal and Students)
+Answer: (d)
+Solution: Principal and Students are both members of a College, but a Principal is not a Student. Thus, two disjoint circles inside a large circle.
 Source: PYQ-style
 
-17. Choose the diagram for Furniture, Chair, Table.
-फर्नीचर, कुर्सी, मेज़ के लिए आरेख चुनें।
-(A) Three separate circles
-(B) One large circle containing two non-overlapping small circles
-(C) Two overlapping circles inside a large circle
-(D) Three overlapping circles
-
-Answer: (B) One large circle (Furniture) containing two separate circles (Chair and Table).
-Solution: Chair and Table are distinct types of furniture. So subset relation with no intersection.
+17. Choose the diagram for: Furniture, Chair, Table.
+(a) One large circle (Furniture) containing two separate non-overlapping circles (Chair and Table) (b) Three separate circles (c) Two overlapping circles inside a large circle (d) Three mutually overlapping circles
+Answer: (a)
+Solution: Both Chair and Table are types of Furniture, but chairs are distinct from tables. Thus, two disjoint circles inside a large circle.
 Source: PYQ-style
 
-18. Which option fits the words Car, Vehicle, Petrol?
-कार, वाहन, पेट्रोल के लिए कौन-सा विकल्प सही है?
-(A) One large circle containing two overlapping circles
-(B) One large circle containing one circle, third circle separate
-(C) Three overlapping circles
-(D) Two circles separate, third inside one of them
-
-Answer: (B) One large circle (Vehicle) containing Car, and Petrol is a separate circle (since petrol is a fuel, not a type of vehicle).
-Solution: Car ⊆ Vehicle. Petrol is not a subclass of vehicle, it is a fuel, so it's a disjoint set.
+18. Which option fits the words: Car, Vehicle, Petrol?
+(a) Three mutually overlapping circles (b) One large circle (Vehicle) containing Car, and Petrol as a completely separate circle (c) One large circle containing two overlapping circles (d) Two separate circles, third inside one of them
+Answer: (b)
+Solution: Car is a type of vehicle (Car ⊂ Vehicle). Petrol is a fuel, not a vehicle, so it forms an entirely separate disjoint circle.
 Source: PYQ-style
 
-19. In a Venn diagram with three circles A, B, C, how many regions are present?
-तीन वृत्त A, B, C वाले वेन आरेख में कुल कितने क्षेत्र होते हैं?
-(A) 6
-(B) 7
-(C) 8
-(D) 9
-
-Answer: (B) 7
-Solution: Three intersecting circles create exactly 7 distinct regions.
-Source: Basic concept
-
-20. If the number in the region 'only A' is 5, 'only B' is 7, 'only C' is 9, 'A and B only' = 3, 'B and C only' = 4, 'A and C only' = 2, 'all three' = 1, what is total in A?
-*यदि 'केवल A' = 5, 'केवल B' = 7, 'केवल C' = 9, 'A और B केवल' = 3, 'B और C केवल' = 4, 'A और C केवल' = 2, 'तीनों' = 1, तो A में कुल कितने हैं?*
-(A) 11
-(B) 10
-(C) 12
-(D) 9
-
-Answer: (A) 11
-Solution: Total in A = only A + (A∩B only) + (A∩C only) + (all three) = 5+3+2+1 = 11.
+19. In a Venn diagram with three intersecting circles A, B, and C, how many distinct bounded regions are formed?
+(a) 6 (b) 8 (c) 7 (d) 9
+Answer: (c)
+Solution: Three intersecting circles form exactly 7 distinct bounded regions: 3 individual only, 3 pairwise only, and 1 triple intersection.
 Source: PYQ-style
 
-21. [Medium + Trap] Which Venn diagram correctly shows the relationship among Paper, Book, Printer?
-कागज़, किताब, प्रिंटर के बीच सही संबंध कौन-सा वेन आरेख दर्शाता है?
-(A) One large circle 'Book' containing 'Paper', and 'Printer' overlapping 'Book'
-(B) Three separate circles
-(C) 'Paper' inside 'Book', 'Printer' separate
-(D) 'Printer' inside 'Book', 'Paper' separate
-
-Answer: (C) 'Paper' inside 'Book', 'Printer' separate.
-Solution: Paper is a constituent of book; printer is a device and not a type of book or paper. So Printer is a disjoint set. Option (A) tempts students because they think printer prints books, but Venn deals with class membership, not association.
-Trap: Hidden double relationship – association vs membership.
+20. If 'only A' = 5, 'only B' = 7, 'only C' = 9, 'A and B only' = 3, 'A and C only' = 2, 'B and C only' = 4, and 'all three' = 1, how many total elements are in set A?
+(a) 9 (b) 10 (c) 12 (d) 11
+Answer: (d)
+Solution: Total in A = only A + (A∩B only) + (A∩C only) + all three = 5 + 3 + 2 + 1 = 11.
 Source: PYQ-style
 
-22. [Medium + Trap] Statements: Some pencils are pens. No pen is an eraser.
-Conclusions: I. Some pencils are not erasers. II. All pencils being pens is a possibility.
-कथन: कुछ पेंसिल पेन हैं। कोई पेन इरेज़र नहीं है।
-निष्कर्ष: I. कुछ पेंसिल इरेज़र नहीं हैं। II. सभी पेंसिल के पेन होने की संभावना है।
-(A) Only I follows
-(B) Only II follows
-(C) Both I and II follow
-(D) Neither I nor II follows
-
-Answer: (A) Only I follows.
-Solution: I: The pencils that are pens are definitely not erasers, so some pencils (those pens) are not erasers. True. II: “All pencils are pens” is a possibility? Given “Some pencils are pens”, the possibility of all pencils being pens is not ruled out. But check: If all pencils are pens, then every pencil is a pen, so no pencil is an eraser, consistent with 'No pen is eraser'. So possibility is allowed. Actually both follow? Wait, possibility conclusions need careful handling. In syllogism, if a conclusion says "a possibility" and it's not contradicted by minimum diagram, it follows. Here, "All pencils being pens is a possibility" is true because the given statements do not force any pencil to not be a pen; the "some" statement only guarantees existence, not that not all. So conclusion II is a possibility conclusion and is true. So both I and II follow. But the question may trick: some exams treat possibility as distinct. I'll set answer as Both follow. However, trap: many students think possibility conclusion is false because they think "some" implies "not all". Actually "some" does not imply "not all", so "all" is possible. So correct answer is (C) Both I and II follow. Let's ensure the statements: Some pencils are pens. No pen is an eraser. Can all pencils be pens? Yes, if the set of pencils is exactly the pens subset; that's consistent. So II follows. Hence both follow. So answer: Both I and II follow.
-Trap: “Some” ≠ “Not all”; possibility of “All” is open.
+21. Which Venn diagram correctly shows the relationship among: Paper, Book, Printer?
+(a) Paper and Book overlapping, Printer as a separate circle (b) Three completely separate circles (c) Three concentric circles (d) Three mutually overlapping circles
+Answer: (a)
+Solution: Some paper is used in books, and books are made of paper. Printer is an electronic machine, entirely disjoint from both.
 Source: PYQ-style
 
-23. Study the diagram: Triangle = Players, Square = Graduates, Circle = Indians. Numbers: only Players=8, only Graduates=6, only Indians=9, Players & Graduates (not Indians)=4, Graduates & Indians (not Players)=5, Players & Indians (not Graduates)=3, all three=2. How many are either players or graduates but not Indians?
-*आरेख: त्रिभुज = खिलाड़ी, वर्ग = स्नातक, वृत्त = भारतीय। संख्या: केवल खिलाड़ी=8, केवल स्नातक=6, केवल भारतीय=9, खिलाड़ी व स्नातक (भारतीय नहीं)=4, स्नातक व भारतीय (खिलाड़ी नहीं)=5, खिलाड़ी व भारतीय (स्नातक नहीं)=3, तीनों=2। ऐसे कितने हैं जो या तो खिलाड़ी हैं या स्नातक परंतु भारतीय नहीं?*
-(A) 21
-(B) 18
-(C) 19
-(D) 17
-
-Answer: (A) 21
-Solution: “Either players or graduates but not Indians” means (Players ∪ Graduates) – Indians. We can sum regions that are in Players or Graduates but outside Indians: only Players (8), only Graduates (6), Players & Graduates (not Indians) (4). Total = 8+6+4 = 18? Wait, also check any region that is in Players or Graduates but also in Indians? No, we exclude Indians entirely. So those are exactly the three regions. 8+6+4 = 18. But answer might be 18. Let's compute carefully. The region “Players & Indians (not Graduates)” is part of Players but also Indians, so excluded. Similarly “Graduates & Indians” excluded. So total = 8+6+4 = 18. Option (B) 18. So answer B. I'll set options accordingly.
+22. Statements: Some pencils are pens. No pen is an eraser. Conclusions: I. Some pencils are not erasers. II. All pencils being pens is a possibility.
+(a) Only conclusion I follows (b) Both conclusions I and II follow (c) Only conclusion II follows (d) Neither conclusion follows
+Answer: (b)
+Solution: The part of pencils that are pens cannot be erasers (I follows). Statements do not forbid all pencils from being pens, so the possibility is valid (II follows).
 Source: PYQ-style
 
-24. Which Venn diagram best represents Males, Brothers, Sisters?
-पुरुष, भाई, बहनों के लिए सर्वश्रेष्ठ वेन आरेख कौन-सा है?
-(A) Two overlapping circles inside a large circle
-(B) One large circle 'Males' containing 'Brothers', and 'Sisters' separate
-(C) Three overlapping circles
-(D) Brothers inside Males, Sisters inside Males, no overlap between Brothers and Sisters
-
-Answer: (D) Brothers ⊆ Males, Sisters ⊆ Females, but wait 'Sisters' are female, so not part of Males. The set "Males" does not include sisters. So diagram: one circle Males contains Brothers (all brothers are males). Sisters is a completely separate circle because sisters are not males. So option (B) is "One large circle 'Males' containing 'Brothers', and 'Sisters' separate." Yes, that's correct. But (D) says "Brothers inside Males, Sisters inside Males, no overlap between Brothers and Sisters" – that would imply sisters are males, which is wrong. So answer is (B).
+23. In a diagram: Triangle = Players, Square = Graduates, Circle = Indians. If only players = 8, only graduates = 6, and players and graduates (not Indians) = 4, how many persons are either players or graduates, but NOT Indians?
+(a) 17 (b) 19 (c) 18 (d) 21
+Answer: (c)
+Solution: Persons in Players or Graduates outside Indians = 8 + 6 + 4 = 18.
 Source: PYQ-style
 
-25. [Medium] Statements: All windows are doors. No door is a wall. Some walls are roofs.
-Conclusions: I. Some windows are roofs. II. No window is a wall.
-कथन: सभी खिड़कियाँ दरवाज़े हैं। कोई दरवाज़ा दीवार नहीं है। कुछ दीवारें छत हैं।
-निष्कर्ष: I. कुछ खिड़कियाँ छत हैं। II. कोई खिड़की दीवार नहीं है।
-(A) Only I follows
-(B) Only II follows
-(C) Both I and II follow
-(D) Neither I nor II follows
+24. Which Venn diagram best represents: Males, Brothers, Sisters?
+(a) Two overlapping circles inside a large circle (b) Three mutually overlapping circles (c) Three completely separate circles (d) One large circle (Males) containing Brothers, and Sisters as a separate circle
+Answer: (d)
+Solution: All brothers are males (Brothers ⊂ Males). Sisters are females and cannot be males, so Sisters forms a separate disjoint circle.
+Source: PYQ-style
 
-Answer: (B) Only II follows.
-Solution: Windows ⊆ Doors, Doors ∩ Walls = ∅, so Windows ∩ Walls = ∅. II true. Walls and Roofs overlap partially. Windows are inside Doors, which are disjoint from Walls, but Roofs overlap Walls; Windows may or may not intersect Roofs. So I not definite.
+25. Statements: All windows are doors. No door is a wall. Some walls are roofs. Conclusions: I. Some roofs are windows. II. No window is a wall.
+(a) Only conclusion I follows (b) Only conclusion II follows (c) Both conclusions follow (d) Neither conclusion follows
+Answer: (b)
+Solution: Windows ⊂ Doors, and Doors ∩ Walls = ∅, which implies Windows ∩ Walls = ∅ (II follows). Roofs and Windows have no definite intersection (I does not follow).
 Source: PYQ-style
