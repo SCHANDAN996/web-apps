@@ -1,424 +1,151 @@
-📝 Practice Set 5 – Order & Ranking (MCQs 101 to 125)
+Questions 101–120: Easy | Questions 121–125: Medium
 
-Medium Level (Q101 to Q120)
-
-101. In a row of 35 girls, Neha is 9th from the left end. Priya is 11th from the right end. How many girls are there between Neha and Priya?
-
-(a) 14
-(b) 15
-(c) 16
-(d) 17
-
-Answer: (b) 15
-
-Solution:
-Priya’s position from left = 35 – 11 + 1 = 25.
-Neha’s position from left = 9.
-Girls between = 25 – 9 – 1 = 15.
-
+101. In a row of 40 students, A is 16th from the left end. What is A’s position from the right end?
+(a) 25th (b) 23rd (c) 24th (d) 26th
+Answer: (a)
+Solution: Position from right = Total - Left + 1 = 40 - 16 + 1 = 25th. Therefore, A is 25th.
 Source: PYQ-style
 
-102. In a row of 40 students, A is 18th from the left. B is 22nd from the right. If they interchange positions, what will be B’s new position from the left?
-
-(a) 18th
-(b) 19th
-(c) 20th
-(d) 22nd
-
-Answer: (a) 18th
-
-Solution:
-After interchange, B takes A’s original place, which is 18th from left.
-
+102. In a class of 45 students, A is 12th from the top and B is 18th from the bottom. How many students are there between A and B?
+(a) 13 (b) 15 (c) 14 (d) 16
+Answer: (b)
+Solution: Total = 45. Sum of ranks = 12 + 18 = 30. Since Total > 30, students between A and B = 45 - 30 = 15.
 Source: PYQ-style
 
-103. In a queue, P is 12th from the front and Q is 15th from the back. If there are exactly 6 persons between P and Q, what could be the total number of persons in the queue?
-
-(a) 33
-(b) 21
-(c) Either 33 or 21
-(d) Either 33 or 19
-
-Answer: (c) Either 33 or 21
-
-Solution:
-Case 1 – P ahead of Q: Total = 12 + 15 + 6 = 33.
-Case 2 – Q ahead of P: Total = 12 + 15 – 6 – 2 = 19 (not 21). Wait, calculate: 12+15-6-2=19. But option says 33 or 21. So I need to adjust numbers to get 21. For 21, we need L+R-gap-2 = 21. If L=12, R=15, gap=? 12+15-gap-2=21 → 25-gap=21 → gap=4. So with gap=4, Case2 total=21. So I'll change the question: gap=4 persons between P and Q. Then totals: Case1 = 12+15+4=31; Case2 = 12+15-4-2=21. Then answer (c) 31 or 21. That fits "33 or 21" after adjustment? I can set numbers differently. I'll set P front=14, Q back=13, gap=6. Then Case1=14+13+6=33; Case2=14+13-6-2=19. So not 21. To get 21, I need a different combination. I'll use P=10, Q=16, gap=5: Case1=10+16+5=31; Case2=10+16-5-2=19. Not 21. Let's solve for L+R+g = X and L+R-g-2 = Y, with X=33, Y=21. Subtract: (L+R+g) - (L+R-g-2) = 2g+2 = 12 => g=5. Then L+R = 33-5=28. So pick L=13, R=15. Then totals: 13+15+5=33, 13+15-5-2=21. So I'll set P front=13, Q back=15, gap=5 persons between. Answer: 33 or 21. So I'll rewrite question accordingly.
-
-Revised Q103: P is 13th from front, Q is 15th from back, 5 persons between them. Total could be 33 or 21. Option (c) Either 33 or 21.
-
+103. In a queue, P is 12th from the front and Q is 15th from the back. If there are 6 persons between them, what could be the total number of persons in the queue?
+(a) 33 or 21 (b) 31 or 19 (c) 33 or 19 (d) 35 or 19
+Answer: (c)
+Solution: Case 1 (Non-overlap): Total = 12 + 15 + 6 = 33. Case 2 (Overlap): Total = (12 + 15) - 6 - 2 = 19. Both cases are valid since min(12, 15) = 12 >= 6 + 2. Thus, the total can be 33 or 19.
 Source: PYQ-style
 
-104. In a row of boys, A is 11th from the left and B is 14th from the right. C is exactly between A and B. If C is 10th from the right, what is the total number of boys?
-
-(a) 27
-(b) 28
-(c) 29
-(d) 30
-
-Answer: (b) 28
-
-Solution:
-Let total = T. C is 10th from right → C left = T – 10 + 1 = T – 9.
-B is 14th from right → B left = T – 14 + 1 = T – 13.
-A left = 11.
-C exactly between A and B, so A, C, B in that order (or B, C, A). Since A left=11, B left = T-13. For C to be between, C left is halfway in terms of persons.
-Equal persons between A&C and C&B: (C left – 11 – 1) = ((T-13) – C left – 1).
-Solve: C left – 12 = T – 14 – C left → 2 C left = T – 2.
-But C left = T – 9, so 2(T – 9) = T – 2 → 2T – 18 = T – 2 → T = 16. That gives B left=3, A left=11, C left=7. Check: A(11) to C(7) – that's not A before C; B left=3, A left=11, C left=7. So B(3), C(7), A(11). That order works: between B and C = 7-3-1=3, between C and A = 11-7-1=3. C exactly between. Total = 11 + A's right rank? A left=11, right rank? Not needed. Total = 3 + B's right rank? B right=14, total = 3+14-1=16. Yes. So total 16, but options 27-30. I need to adjust numbers to get larger total. I'll pick different ranks so that T is within 27-30. Let total T, A left=11, B right=14, C right=10. Then B left = T-13, C left = T-9. For C exactly between A (left=11) and B, we need them in order. If A before C before B: C left – 11 – 1 = (T-13) – C left – 1 => C left – 12 = T – 14 – C left => 2 C left = T – 2. With C left = T-9, 2T – 18 = T – 2 => T=16. So not larger. If B before C before A: then B left < C left < A left. B left = T-13, C left = T-9, A left=11. So T-13 < T-9 < 11 => T-9 < 11 => T < 20. So T less than 20. To get T around 28, we need larger left rank for A or smaller right ranks. Let's set A left=20, B right=10, C right=15. Then B left = T-9, C left = T-14. For A before C before B: C left – 20 – 1 = (T-9) – C left – 1 => C left – 21 = T – 10 – C left => 2 C left = T + 11. C left = T-14 => 2T-28 = T+11 => T=39. That's large. Not within options. I want T between 27-30. Solve with unknown. I'll pick A left=a, B right=b, C right=c, total T. B left = T-b+1, C left = T-c+1. Assume A before B, C middle. Then C left – a – 1 = (T-b+1) – C left – 1 => C left – a – 1 = T – b – C left. => 2 C left = T – b + a + 1. Substitute C left = T-c+1 => 2T – 2c + 2 = T – b + a + 1 => T = a – b + 2c – 1. Choose a=18, b=16, c=15 => T = 18 - 16 + 30 - 1 = 31. Not in range. a=15, b=14, c=13 => T = 15 - 14 + 26 - 1 = 26. Close. a=16, b=14, c=13 => T = 16 - 14 + 26 - 1 = 27. Perfect. So set A left=16, B right=14, C right=13. Then total = 27. But A left=16, B right=14 gives B left = 27-14+1=14. A left=16, B left=14, so B is left of A. So order B(14), then maybe C in between? C right=13 -> C left=15. So B left=14, C left=15, A left=16. That order B, C, A. Between B and C = 15-14-1=0, between C and A=16-15-1=0. So C not exactly middle (no persons). Not good. So we need different order: A before B. For A before B, we need A left < B left. So a < T-b+1 => a < T-b+1. With a=16, b=14, T=27 => T-b+1=14, a=16 not less. So A not before B. So condition fails. I'll pick numbers such that A is left of B. So a < T-b+1 => a + b < T + 1. Using formula T = a - b + 2c - 1, this becomes a + b < a - b + 2c => 2b < 2c => b < c. So we need b < c. So B's right rank less than C's right rank. So pick b=12, c=15, a=10. Then T = 10 - 12 + 30 - 1 = 27. b=12 < c=15 holds. Check: B right=12, C right=15, A left=10. B left = T-12+1=16. A left=10, B left=16 -> A before B. C left = T-15+1=13. A(10), C(13), B(16). Between A&C = 13-10-1=2, between C&B = 16-13-1=2. Works! Total=27. So I'll set A left=10, B right=12, C right=15, and C exactly between. Total 27. Options: (a) 27, (b) 28, (c) 29, (d) 30. Answer (a) 27.
-
-Revised Q104: In a row, A is 10th from left, B is 12th from right. C exactly between A and B, C is 15th from right. Total = 27.
-
+104. In a row of boys, A is 11th from the left and B is 14th from the right. C is exactly in the middle of A and B. If there are 4 boys between A and C, what is the total number of boys in the row (assuming no overlap)?
+(a) 32 (b) 33 (c) 35 (d) 34
+Answer: (d)
+Solution: Since C is midway between A and B, there are also 4 boys between C and B. Position of B from left = 11 + 4 + 1 + 4 + 1 = 21. Total boys = 21 + 14 - 1 = 34.
 Source: PYQ-style
 
-105. In a class of 45 students, A is 11th from the top. B is 9th from the bottom. If A and B interchange, what will be B’s new position from the top?
-
-(a) 11th
-(b) 12th
-(c) 13th
-(d) Cannot be determined
-
-Answer: (a) 11th
-
-Solution:
-After interchange, B moves to A’s original place, which is 11th from top.
-
+105. In a row, A is 8th from the left and B is 12th from the right. If they interchange their positions, A becomes 15th from the left. What is the total number of persons in the row?
+(a) 26 (b) 24 (c) 25 (d) 27
+Answer: (a)
+Solution: After interchange, A occupies B’s original position (15th from left and 12th from right). Total persons = 15 + 12 - 1 = 26.
 Source: PYQ-style
 
-106. In a row, P is 13th from the left and 18th from the right. Q is 25th from the left. What is Q’s position from the right?
-
-(a) 5th
-(b) 6th
-(c) 7th
-(d) 8th
-
-Answer: (b) 6th
-
-Solution:
-Total = 13 + 18 – 1 = 30.
-Q right = 30 – 25 + 1 = 6.
-
+106. In a class of 50 students, A is 20th from the top and B is 25th from the bottom. How many students are there between A and B?
+(a) 4 (b) 5 (c) 6 (d) 7
+Answer: (b)
+Solution: Total = 50. Sum of ranks = 20 + 25 = 45. Since Total > 45, students between A and B = 50 - 45 = 5.
 Source: PYQ-style
 
-107. In a row, A is 8th to the right of B. B is 11th from the left end. If A is 6th from the right end, then how many persons are there in the row?
-
-(a) 23
-(b) 24
-(c) 25
-(d) 26
-
-Answer: (a) 23
-
-Solution:
-B left = 11. A is 8th to the right of B, so A left = 11 + 8 = 19.
-A is 6th from right, so total = 19 + 6 – 1 = 24? 19+6-1=24. Not 23. Let's recalc: "8th to the right" means 7 persons between, so A left = 11 + 7 + 1 = 19. Yes. A right=6 → total=19+6-1=24. So answer 24. Options: 23,24,25,26. So (b) 24. I'll adjust if I want 23, but I'll keep 24. I'll set answer (b) 24.
-
+107. In a row, A is 8th to the right of B. B is 11th from the left end. If A is 6th from the right end, what is the total number of persons in the row?
+(a) 23 (b) 25 (c) 24 (d) 26
+Answer: (c)
+Solution: A’s position from left = 11 + 8 = 19th. Given A is 6th from right, Total = 19 + 6 - 1 = 24.
 Source: PYQ-style
 
-108. In a queue, A is 10th from the front and B is 15th from the back. If there are 4 persons between A and B, how many total persons are possible?
-
-(a) 29
-(b) 21
-(c) 29 or 21
-(d) 29 or 17
-
-Answer: (c) 29 or 21
-
-Solution:
-Case1 (A ahead of B): total = 10 + 15 + 4 = 29.
-Case2 (B ahead of A): total = 10 + 15 – 4 – 2 = 19. 19 not 21. To get 21, adjust gap to 3. Then totals 28 and 20. Not 29 or 21. I want 29 and 21. As earlier, use L=13, R=15, gap=5 gave 33 and 21. So for 29 and 21, solve: L+R+g=29, L+R-g-2=21 => subtract: 2g+2=8 => g=3. Then L+R=26. So L=13, R=13 gives gap=3 totals: 29 and 21. So set A front=13, B back=13, gap=3. Then total 29 or 21. So I'll rewrite.
-
-Revised Q108: A is 13th from front, B is 13th from back, 3 persons between them. Total possible 29 or 21. Answer (c) 29 or 21.
-
-Source: Bank PO 2021
-
-109. In a row of 50 girls, Rekha is 15th from the left. Shreya is 18th from the right. They interchange their positions. What is Rekha’s new position from the right?
-
-(a) 18th
-(b) 19th
-(c) 20th
-(d) 21st
-
-Answer: (a) 18th
-
-Solution:
-After interchange, Rekha takes Shreya’s original place, which is 18th from right.
-
+108. In a queue, A is 10th from the front and B is 15th from the back. If there are 4 persons between them, how many different values can the total number of persons take?
+(a) 1 (b) 3 (c) 4 (d) 2
+Answer: (d)
+Solution: Case 1 (Non-overlap): Total = 10 + 15 + 4 = 29. Case 2 (Overlap): Total = (10 + 15) - 4 - 2 = 19. Both cases are valid, so the total can take exactly 2 different values.
 Source: PYQ-style
 
-110. In a row, A is 6th from the left and B is 8th from the right. C is exactly in the middle of A and B, with 2 persons between A and C. How many persons are there between C and B? (Assume A is left of B)
-
-(a) 2
-(b) 3
-(c) 4
-(d) 5
-
-Answer: (a) 2
-
-Solution:
-If C is exactly middle, persons between A and C equal persons between C and B. Since there are 2 persons between A and C, there are also 2 between C and B.
-
+109. In a row of 50 girls, Rekha is 15th from the left and Shreya is 18th from the right. If they interchange their positions, what will be Rekha’s new position from the right end?
+(a) 18th (b) 17th (c) 19th (d) 20th
+Answer: (a)
+Solution: After interchange, Rekha occupies Shreya’s original position, which was 18th from the right. Therefore, Rekha’s new position from the right end is 18th. Therefore, Rekha is 18th.
 Source: PYQ-style
 
-111. In a row, A is 12th from the left and B is 17th from the right. If they interchange, A becomes 21st from the left. What is B’s new position from the right?
-
-(a) 16th
-(b) 17th
-(c) 18th
-(d) 19th
-
-Answer: (b) 17th
-
-Solution:
-A’s new left = 21 = B’s original left. B’s original right = 17 → total = 21 + 17 – 1 = 37.
-After swap, B goes to A’s original left=12. B’s new right = 37 – 12 + 1 = 26? That's not 17. Wait, the question might ask B's new position from right, but I computed 26. But I used A new left =21 implying B old left=21. Then B old right=17, total=37. B new left=12, new right=26. That's not in options. So maybe they ask A's new right? A new right = total - A new left +1 = 37-21+1=17. That's option (b) 17th. So I'll rephrase: after interchange, A becomes 21st from left, what is A's new position from right? Or ask B's new right from right would be 26. I'll change question to "What is A’s new position from the right?" Then answer 17. So I'll ask that. So Q: A left=12, B right=17, after interchange A becomes 21st from left. A's new position from right? Solution: Total = 21+17-1=37, A new right = 37-21+1=17. Answer (b) 17th.
-
-Revised Q111: A is 12th from left, B is 17th from right. They interchange, A becomes 21st from left. What is A’s new position from right? Answer 17.
-
+110. In a row, A is 6th from the left and B is 8th from the right. C is exactly in the middle of A and B. If there are 3 persons between A and C, how many persons are there between C and B?
+(a) 2 (b) 3 (c) 4 (d) 5
+Answer: (b)
+Solution: Since C is exactly in the middle of A and B, the number of persons between C and B must equal the number of persons between A and C. Hence, there are 3 persons between C and B.
 Source: PYQ-style
 
-112. In a row of 60 students, A is 20th from the left. B is 25th from the right. C is seated exactly between A and B. What is C’s position from the left?
-
-(a) 27th
-(b) 28th
-(c) 29th
-(d) 30th
-
-Answer: (b) 28th
-
-Solution:
-B left = 60 – 25 + 1 = 36. A left=20. Persons between = 36-20-1=15.
-C exactly between -> persons between A and C = (15-1)/2 = 7. So C left = 20+7+1 = 28.
-
+111. In a row, A is 12th from the left and B is 17th from the right. If they interchange their positions, A becomes 21st from the left. What will be B’s new position from the right end?
+(a) 24th (b) 25th (c) 26th (d) 27th
+Answer: (c)
+Solution: Total persons = 21 + 17 - 1 = 37. After interchange, B occupies A’s original place (12th from left). B’s new position from right = 37 - 12 + 1 = 26th. Therefore, B is 26th.
 Source: PYQ-style
 
-113. In a queue, P is 9th from the front. Q is 14th from the back. R is 5th from the front. If R is exactly between P and Q, then how many persons are there between P and Q?
-
-(a) 8
-(b) 9
-(c) 10
-(d) 11
-
-Answer: (c) 10
-
-Solution:
-R is exactly between P and Q, so number of persons between P and R equals between R and Q.
-P front=9, R front=5, so R is ahead of P (since smaller number means ahead). So order: R, P, Q? Actually front rank 5 is ahead of 9. So R at 5, P at 9. Between R and P = 9-5-1=3. So equal between R and Q = 3. So Q front = R front + 3 + 1 = 5+4=9? That would put Q at 9, same as P. Not possible. So R cannot be between if P and Q are on same side. Wait, R is between P and Q, meaning order P...R...Q or Q...R...P. Since R front=5 < P front=9, R is ahead of P. So order R, P, Q would have R ahead of P, not between. So maybe Q is ahead of R? If Q front < R front < P front. But Q back=14, we don't know Q front without total. So we can't determine order. But the problem statement "R is exactly between P and Q" implies that either P-R-Q or Q-R-P. With known fronts: P=9, R=5. For R to be between, one of P or Q must be to the left of R (lower front number) and the other to the right. Since R=5 is smaller than P=9, for R to be between, Q must be to the left of R, i.e., Q front <5. Then order Q...R...P. Then between Q and R = between R and P. Between R and P = 9-5-1=3. So between Q and R =3, thus Q front = 5 - 3 - 1 = 1. So Q front=1. Q back=14, total = 1+14-1=14. Then P front=9, Q front=1, R=5, order Q(1), R(5), P(9). Between P and Q total persons = 9-1-1=7. But answer options 8-11. So not matching. So maybe I misinterpret "exactly between" meaning R is the middle person, i.e., equal number of persons on either side of R between P and Q? That's what I did. The result is 7. Not in options. So I'll adjust numbers. Let P front=10, R front=6, Q back=15. Want between P and Q total some number. Set Q front = x, total unknown. R exactly between -> order Q...R...P or P...R...Q. R front=6. If P front=10 >6, for R to be between, Q must be left of R, so Q front <6. Let Q front = y. Then between Q and R = 6 - y -1, between R and P = 10 - 6 -1 =3. Equate: 6-y-1=3 => y=2. So Q front=2. Q back=15 -> total = 2+15-1=16. P front=10, Q front=2, persons between = 10-2-1=7. Still 7. So total between P and Q = 7. Options 8-11. So I need to increase gap. If I set P front=12, R front=7, Q back=20. Then between R and P = 12-7-1=4. So between Q and R =4 -> Q front = 7 -4 -1=2. Total=2+20-1=21. Between P and Q = 12-2-1=9. Option (b) 9. So I can use that. So Q: P front=12, R front=7, Q back=20, R exactly between. Between P and Q = 9. So answer 9. I'll craft the question accordingly. But the answer options I'll set: (a) 8 (b) 9 (c) 10 (d) 11. Answer (b) 9. I'll phrase: "P is 12th from front, Q is 20th from back, R is 7th from front. If R is exactly between P and Q, how many persons are there between P and Q?" This will yield 9.
-
-Revised Q113: P is 12th from front, Q is 20th from back, R is 7th from front and exactly between P and Q. Number of persons between P and Q? 9.
-
+112. In a row of 60 students, A is 20th from the left and B is 25th from the right. C is exactly in the middle of A and B. What is C’s position from the left end?
+(a) 26th (b) 27th (c) 29th (d) 28th
+Answer: (d)
+Solution: B’s position from left = 60 - 25 + 1 = 36th. Since C is midway between A (20th) and B (36th), C’s position from left = (20 + 36) / 2 = 28th. Therefore, C is 28th.
 Source: PYQ-style
 
-114. In a row, A is 18th from the left and B is 14th from the right. If they interchange, A becomes 26th from the right. What is the total number of persons?
-
-(a) 41
-(b) 42
-(c) 43
-(d) 44
-
-Answer: (a) 41
-
-Solution:
-After interchange, A's new right = 26 = B's original right? Actually, A takes B's spot, so A's new right = B's original right. But B's original right given is 14, so 26 must be B's original right. So B's original right = 26. Total = A original left + B original right - 1 = 18 + 26 - 1 = 43? 18+26-1=43. Option (c). I need to check consistency: If total=43, B right=26, then B left=43-26+1=18. A left=18, so they are at same position. But they interchange meaning they are different persons; so cannot be same position. So need distinct. I'll use A left=18, B right=14, after swap A becomes 26th from right. That would mean A's new right=26 = B's original right=14? No, not possible unless B's original right is 26. So I'll set B's original right = 26. Then total = 18+26-1=43, but then A left=18, B left=43-26+1=18, they are same. So not distinct. So I'll adjust numbers to have distinct positions. I'll use A left=15, B right=20, after swap A becomes 25th from right. Then B original right = 25 (since A takes B's place). Total = 15+25-1=39. Distinct? B left = 39-25+1=15, again same. So they are same person, not allowed. The only way they are distinct is if we use the other possibility: after swap, the given rank is from the opposite end. So maybe after interchange, A becomes 26th from left. Then A's new left = B's original left. So B's original left = 26. B's original right = 14, total = 26+14-1=39. Then A's original left=15 (say), then A's original right=39-15+1=25, distinct from B. So I'll use that. So question: A is 15th from left, B is 14th from right. They interchange, A becomes 26th from left. Total = 26+14-1=39. I need total to match options 41-44. So increase numbers. Let A left=18, B right=14, after swap A becomes 28th from left. Then B original left=28, total=28+14-1=41. A original left=18, A original right=41-18+1=24, distinct. Perfect. So I'll set A left=18, B right=14, after interchange A becomes 28th from left. Total = 28+14-1=41. Answer (a) 41.
-
-Revised Q114: A is 18th from left, B is 14th from right. After interchange, A becomes 28th from left. Total = 41.
-
+113. In a queue of 40 persons, P is 9th from the front and Q is 14th from the back. How many persons are there between P and Q?
+(a) 17 (b) 15 (c) 16 (d) 18
+Answer: (a)
+Solution: Total = 40. Sum of ranks = 9 + 14 = 23. Since Total > 23, persons between P and Q = 40 - 23 = 17.
 Source: PYQ-style
 
-115. In a row of children, X is 7th from the left and Y is 9th from the right. If they interchange, Y becomes 15th from the left. What is X’s new position from the right?
-
-(a) 11th
-(b) 12th
-(c) 13th
-(d) 14th
-
-Answer: (c) 13th
-
-Solution:
-Y’s new left = 15 = X’s original left = 7? No, Y goes to X's spot, so Y's new left = X's original left = 7. But given 15, contradiction. So must be that after interchange, Y becomes 15th from right. Then Y's new right = X's original right. X original left=7, X original right unknown. But we can find total from Y's original left and right? Y originally right=9, left unknown. Let's use standard approach: after swap, one person's new rank from one end equals the other's old rank from that same end. If Y becomes 15th from right, that means Y's new right = X's original right = 15. So X original right=15. Then total = X left + X right -1 = 7+15-1=21. Then Y original left = total - Y right +1 = 21-9+1=13. After swap, X takes Y's original place, so X's new left=13, new right=9. So X's new right=9, not 13. The question asks X's new position from right. That would be 9. Not in options. I want answer 13. So maybe ask X's new position from left? That would be 13. Yes, if X goes to Y's spot, X's new left = Y's original left = 13. So I'll ask X's new position from left. So Q: After interchange, Y becomes 15th from right. X's new position from left? Answer 13. So I'll adjust.
-
-Revised Q115: X is 7th from left, Y is 9th from right. They interchange, Y becomes 15th from right. What is X's new position from left? Solution: Y new right = X original right=15, total=7+15-1=21, Y original left=21-9+1=13. X new left = 13. So answer (c) 13th.
-
+114. In a row, A is 18th from the left and B is 14th from the right. If they interchange their positions, A becomes 28th from the left. What is the total number of persons in the row?
+(a) 39 (b) 41 (c) 40 (d) 42
+Answer: (b)
+Solution: After interchange, A occupies B’s original spot (28th from left and 14th from right). Total persons = 28 + 14 - 1 = 41.
 Source: PYQ-style
 
-116. In a row of 52 people, A is 19th from the left. B is 23rd from the right. How many people are there between A and B?
-
-(a) 8
-(b) 9
-(c) 10
-(d) 11
-
-Answer: (b) 9
-
-Solution:
-B left = 52 – 23 + 1 = 30. A left=19. Between = 30 – 19 – 1 = 10. Not 9. I'll adjust numbers to get 9. For between=9, B left - A left -1 =9 => B left = A left +10. If total=52, B right = 52 - B left +1. Let A left=20, then B left=30 => B right=52-30+1=23. So A left=20, B right=23. Then between=30-20-1=9. So I'll set A left=20, B right=23. Options: (a)8 (b)9 (c)10 (d)11. Answer (b).
-
-Revised Q116: Row of 52, A 20th from left, B 23rd from right. Between = 9.
-
+115. In a row of children, X is 7th from the left and Y is 9th from the right. If they interchange their positions, what will be X’s new position from the right end?
+(a) 8th (b) 10th (c) 9th (d) 11th
+Answer: (c)
+Solution: After interchange, X occupies Y’s original position, which was 9th from the right. Therefore, X’s new position from the right end is 9th. Therefore, X is 9th.
 Source: PYQ-style
 
-117. In a row, A is 16th from the left and B is 12th from the right. If C is exactly between A and B, and there are 7 persons between A and C, what is the total number of persons? (A is left of B)
-
-(a) 40
-(b) 41
-(c) 42
-(d) 43
-
-Answer: (c) 42
-
-Solution:
-A left=16. Between A and C =7 -> C left = 16+7+1=24. C middle -> between C and B also 7 -> B left = 24+7+1=32. B right=12 -> total = 32+12-1=43? 32+12-1=43. Option (d). I want 42. So adjust gap: if between A and C =6, C left=23, B left=30, total=30+12-1=41. Option (b). For 42, need total=42 -> B left = total -12+1 = 31. So C left = 24? A left=16, between A and C = C left -16 -1 = C left -17. Set that to x, then C left = 16+x+1. B left = C left + x +1 = 16+2x+2 = 18+2x. Set 18+2x = 31 => 2x=13 => x=6.5 not integer. So not possible. So I'll adjust B right rank. Let total T, B right=12, B left=T-11. A left=16, C left=16+x+1. C middle -> C left = (16 + T-11)/2 = (T+5)/2. Equate: 16+x+1 = (T+5)/2 => 2x+34 = T+5 => T = 2x+29. Also B left = T-11 = 2x+18. Persons between C and B = B left - C left -1 = (2x+18) - (16+x+1) -1 = (x+1) -1? Let's compute: 2x+18 -17 -x -1 = x. So indeed equal to x. So T = 2x+29. Want T between 40-43. If x=7, T=43. If x=6, T=41. If x=6.5 not integer. So 42 not possible. So I'll set gap x=7, total 43. That yields answer (d) 43. I'll go with that. So Q: A left=16, B right=12, 7 persons between A and C, C exactly between, total 43. Answer (d). I'll set options accordingly.
-
-Revised Q117: Row, A left=16, B right=12, C exactly between, 7 persons between A and C, A left of B. Total = 43.
-
-Source: Bank PO 2020
-
-118. In a queue, P is 8th from the front. Q is 11th from the back. If R is exactly midway between P and Q and is 6th from the back, then how many persons are there in the queue? (Assume P is ahead of Q)
-
-(a) 22
-(b) 23
-(c) 24
-(d) 25
-
-Answer: (c) 24
-
-Solution:
-R back=6 -> R front = T-5. P front=8, Q back=11. Since P ahead of Q, Q front = T-10. R midway -> number of persons between P and R = between R and Q. So P front=8, R front = 8 + x +1. Q front = (8 + x +1) + x +1 = 8 + 2x +2 = 10 + 2x. Also Q front = T-10. So T = 20 + 2x. Also R front = T-5 = 15 + 2x. But R front also = 8 + x +1 = 9 + x. Equate: 9 + x = 15 + 2x => x = -6, impossible. So I've mis-ordered. Actually, "midway" means equal number of persons between P and R and between R and Q. With P ahead of Q, the order is P, R, Q. So R front > P front, R front < Q front. So P=8, R = 8 + d +1, Q = R + d +1 = 8 + 2d +2 = 10 + 2d. Q back=11 -> Q front = T-10. So T = 20 + 2d. R back=6 -> R front = T-5 = 15 + 2d. But R front also = 8 + d +1 = 9 + d. So 9+d = 15+2d => d = -6. So impossible. Thus the assumption P ahead of Q leads to contradiction. So perhaps Q ahead of P. Then order Q, R, P. Q back=11, so Q front = T-10. R front = T-5, P front=8. Since Q ahead of R ahead of P: Q front < R front < P front. So T-10 < T-5 < 8 => T < 13, then P front=8 > T? impossible. So no valid arrangement. So data inconsistent. Thus answer "Cannot be determined". I'll make that as a trap. So answer (d) Cannot be determined. I'll include it.
-
-Revised Q118: P front=8, Q back=11, R midway, R back=6, assume P ahead of Q. But actually invalid, so cannot be determined.
-
+116. In a row of 52 persons, A is 20th from the left and B is 23rd from the right. How many persons are there between A and B?
+(a) 7 (b) 8 (c) 10 (d) 9
+Answer: (d)
+Solution: Total = 52. Sum of ranks = 20 + 23 = 43. Since Total > 43, persons between A and B = 52 - 43 = 9.
 Source: PYQ-style
 
-119. In a row, A is 9th from the left. B is 7th from the right. If they interchange, A becomes 15th from the left. What is B’s new position from the right?
-
-(a) 11th
-(b) 12th
-(c) 13th
-(d) 14th
-
-Answer: (b) 12th
-
-Solution:
-A new left=15 = B original left. B original right=7, total=15+7-1=21. After swap, B goes to A's original left=9. B new right = 21-9+1=13? Not 12. So I miscomputed: total=15+7-1=21, B new left=9, new right=21-9+1=13. Options (b) 12, (c) 13. So answer (c) 13th. I'll set answer (c). So Q: A left=9, B right=7, after swap A becomes 15th from left. B's new position from right? Total=21, B new right=13. So answer 13th.
-
+117. In a row, A is 16th from the left and B is 12th from the right. C is exactly in the middle of A and B. If there are 7 persons between A and C, what is the total number of persons in the row (assuming no overlap)?
+(a) 43 (b) 41 (c) 42 (d) 44
+Answer: (a)
+Solution: Since C is midway between A and B, there are also 7 persons between C and B. Position of B from left = 16 + 7 + 1 + 7 + 1 = 32. Total persons = 32 + 12 - 1 = 43.
 Source: PYQ-style
 
-120. In a row of 55 students, A is 22nd from the left. B is 18th from the right. If C is placed exactly between A and B, what is C’s position from the right?
-
-(a) 27th
-(b) 28th
-(c) 29th
-(d) 30th
-
-Answer: (a) 27th
-
-Solution:
-B left = 55 – 18 + 1 = 38. A left=22. Between = 38-22-1=15. C exactly between -> persons between A&C = (15-1)/2=7. C left = 22+7+1=30. C right = 55-30+1=26. Not 27. I'll recalc: 15-1=14, half=7. So C left=30, right=55-30+1=26. Option 26 not there. Maybe the gap is 16? If total=55, A=22, B right=17 -> B left=39, gap=16. Then (16-1)/2=7.5 not integer. For C to be exactly between with integer rank, gap must be odd. So gap 15 gives left=30, right=26. If gap 17, left=31, right=25. I need C right in options 27-30. Try total=54, A=21, B right=16 -> B left=39, gap=17, C left=30, right=25. Still not. Let's set total=60, A left=20, B right=18, B left=43, gap=22 (even). Not good. I want C right = 27. So total T, C right=27 -> C left=T-26. A left= a, B right= b, B left=T-b+1. C exactly between: C left = (a + (T-b+1))/2 = (T + a - b +1)/2. Equate to T-26. So T-26 = (T + a - b +1)/2 => 2T -52 = T + a - b +1 => T = a - b +53. Choose a=22, b=18 => T=22-18+53=57. So total=57, A left=22, B right=18, C right=27. Check: B left=57-18+1=40, A left=22, gap=17. C left = (22+40)/2=31, C right=57-31+1=27. Works. So I'll set total=57, A=22, B=18 right. Answer (a) 27.
-
-Revised Q120: Row of 57 students, A 22nd from left, B 18th from right. C exactly between, C's right position = 27.
-
+118. In a queue, P is 8th from the front and Q is 11th from the back. If there are 5 persons between them, what could be the minimum total number of persons in the queue?
+(a) 11 (b) 12 (c) 13 (d) 14
+Answer: (b)
+Solution: Minimum total occurs with overlap: Total = (Front + Back) - Between - 2 = (8 + 11) - 5 - 2 = 12.
 Source: PYQ-style
 
-Hard Level (Q121 to Q125)
-
-121. In a class of 72 students, A is 16th from the top. B is 25th from the bottom. C is ranked exactly between A and B. Later, 5 students ranked below C leave the class. What is C’s new rank from the bottom?
-
-(a) 31st
-(b) 32nd
-(c) 33rd
-(d) 34th
-
-Answer: (b) 32nd
-
-Solution:
-Total initially = 72. B bottom=25 -> B top=72-25+1=48. A top=16. Persons between = 48-16-1=31.
-C exactly between -> persons between A and C = (31-1)/2 = 15. So C top = 16+15+1 = 32.
-C bottom initially = 72-32+1=41.
-5 students below C leave, so number of students below C becomes (41-1) -5 = 35? Actually students below C initially = C's bottom rank -1 = 40. So 40 students below. 5 leave from below C, so now below C = 40-5=35. New total = 72-5=67. C's new bottom rank = 35 + 1 = 36. Not 32. Hmm. The answer might be different. Let's recompute: C top=32, total=72, bottom=41. Below C: 40 students. 5 leave (all below C) -> below C becomes 35. New total=67. C's new bottom = 35 + 1 = 36. Not 32. The options are 31-34. So maybe I misinterpret "5 students ranked below C leave" meaning they are among those below C, not necessarily all below. But still C's rank from bottom will increase (worsen). So maybe the question asks C's rank from top? Not. I'll adjust to ask new rank from top. If 5 below leave, C's top rank unchanged? Actually, if students below C leave, C's top rank remains same because no one above leaves. So top rank still 32. Not interesting. The problem likely intends that the 5 students leave from the class, and they were below C, so C's bottom rank reduces by 5? Wait: originally below C there are 40. If 5 of them leave, below C becomes 35, so C's bottom rank becomes 35+1=36. So new bottom rank 36. Not in options. So I'll adjust numbers to get answer within options. Let initial total= T, A top=a, B bottom=b. C bottom = (a + (T-b+1))/2? Actually C top = (a + (T-b+1))/2. Then C bottom = T - C top +1. Then after 5 leave below C, new bottom = C bottom - 5. Want new bottom = 32. So original C bottom = 37. Then T - C top +1 = 37 => C top = T -36. But also C top = (a + T - b +1)/2. Solve for T, a, b. Set a=16, b=25 => C top = (16 + T -25 +1)/2 = (T-8)/2. Equate to T-36: (T-8)/2 = T-36 => T-8 = 2T-72 => T=64. So total=64, A top=16, B bottom=25, C top = (64-8)/2=28, C bottom=37. 5 leave below, new bottom=32. Perfect. So I'll set total=64, A 16th top, B 25th bottom, 5 below C leave, new bottom=32. Options: (a)31 (b)32 (c)33 (d)34. Answer (b) 32. So I'll adjust.
-
-Revised Q121: Class of 64, A 16th top, B 25th bottom, C exactly between. 5 students below C leave. C's new bottom rank? Solution: total 64, B top=64-25+1=40. C top = (16+40)/2=28, C bottom=64-28+1=37. After 5 leave below, new total=59, C's new bottom = 37-5=32. Answer 32.
-
+119. In a row, A is 9th from the left and B is 7th from the right. If they interchange their positions, A becomes 15th from the left. What will be B’s new position from the right end?
+(a) 11th (b) 12th (c) 13th (d) 14th
+Answer: (c)
+Solution: Total persons = 15 + 7 - 1 = 21. After interchange, B occupies A’s original place (9th from left). B’s new position from right = 21 - 9 + 1 = 13th. Therefore, B is 13th.
 Source: PYQ-style
 
-122. In a row, P is 5th to the left of Q. R is 7th to the right of Q. P is 10th from the left end. R is 15th from the right end. What is the total number of persons in the row?
-
-(a) 30
-(b) 31
-(c) 32
-(d) 33
-
-Answer: (b) 31
-
-Solution:
-P left=10. Q is 5th to the right of P => Q left = 10 + 5 = 15? Actually "5th to the left of Q" means P is 5 places left of Q, so Q left = P left + 5 = 15. R is 7th to the right of Q => R left = 15 + 7 = 22. R right=15 -> total = 22 + 15 - 1 = 36. Not in options. Let's recalc: "P is 5th to the left of Q" -> there are 4 persons between P and Q, so Q left = P left + 4 + 1 = 10 + 5 = 15. Yes. "R is 7th to the right of Q" -> 6 persons between Q and R, so R left = Q left + 6 + 1 = 15 + 7 = 22. R right=15 -> total=22+15-1=36. But options up to 33. So I need to adjust numbers to get total around 31. Let's set P left=8, Q left = 8+5=13, R left=13+7=20. R right=12 -> total=20+12-1=31. So I'll set P left=8, Q left=13, R right=12. Then total 31. So question: P is 5th to left of Q, R is 7th to right of Q. P is 8th from left, R is 12th from right. Total =? 31. Answer (b) 31. I'll craft.
-
-Revised Q122: P is 5th to left of Q. R is 7th to right of Q. P is 8th from left, R is 12th from right. Total = 31.
-
+120. In a row of 55 students, A is 22nd from the left and B is 18th from the right. C is exactly in the middle of A and B. What is C’s position from the left end?
+(a) 28th (b) 29th (c) 31st (d) 30th
+Answer: (d)
+Solution: B’s position from left = 55 - 18 + 1 = 38th. Since C is midway between A (22nd) and B (38th), C’s position from left = (22 + 38) / 2 = 30th. Therefore, C is 30th.
 Source: PYQ-style
 
-123. In a queue of people waiting for a ticket, A is 20th from the front. B is 14th from the back. After some time, 8 persons leave the queue, and now A is 18th from the front and B is 10th from the back. How many persons were originally between A and B? (Assume no one left from between A and B)
-
-(a) 5
-(b) 6
-(c) 7
-(d) 8
-
-Answer: (c) 7
-
-Solution:
-Let original total = T. A front=20, B back=14. After 8 leave, new total = T-8. A new front=18, B new back=10.
-Since A's front rank decreased (from 20 to 18), some people ahead of A left. B's back rank decreased (from 14 to 10), some behind B left. Assume no one between A and B left. So the number between A and B remains same.
-Let between = x.
-Original: A front=20, B back=14 -> B front = T-13.
-x = (T-13) - 20 - 1 = T - 34.
-After leaving: new total = T-8. A front=18, B back=10 -> B front = (T-8)-9 = T-17.
-x = (T-17) - 18 - 1 = T - 36.
-Equate x: T-34 = T-36 => -34 = -36, impossible. So inconsistency. Hence the assumption must be that some between might have left? The question says no one left from between, so it's a trap: data inconsistent, cannot be determined. But I'll craft a consistent version. Let's set up equations: original x = T - (20) - (14) = T - 34? Actually original total persons = front rank + back rank + between? Not directly. Actually, original total = A front + B back + x, if A ahead of B. So T = 20 + 14 + x = x + 34. So x = T - 34. After 8 left, new total = T-8. If no one between left, then new A front = original A front - p (where p left ahead of A), new B back = original B back - q (q left behind B). Also between unchanged = x. New total = (new A front) + (new B back) + x = 18 + 10 + x = 28 + x. But new total also = T-8 = (x+34)-8 = x+26. So 28+x = x+26 => 28=26, impossible. So indeed no solution. So I'll adjust the new ranks to be consistent. Want 28+x = x+26 => 28=26, so impossible. So need to change one of the new ranks. For consistency, we need new front + new back + x = T-8 = (x+34)-8 = x+26 => new front + new back = 26. So if A new front=18, B new back must be 8 to sum 26. So I'll set B new back=8. Then the question: after some time, 8 persons leave, A is 18th from front, B is 8th from back. Then x = T-34, and new total = 18+8+x = 26+x = T-8 => T = x+34, so 26+x = x+34-8 = x+26, holds. So x can be anything? Actually T = x+34, so x is undetermined? No, we need additional info. But we have original A front=20, B back=14, so T = 20+14+x = x+34. The new A front=18 means 2 people ahead of A left, and new B back=8 means 6 people behind B left. Total left = 2+0+6 = 8, with 0 between. So x remains same. But we cannot determine x from given numbers; any x works. So x could be anything. So the question could ask "How many persons were originally between A and B?" but answer cannot be determined. I'll include that as a trap: answer (d) Cannot be determined. But I need a hard question with a fixed answer. So I'll provide another piece of data: "If originally A and B had 3 persons between them" etc. I'll skip and make a different hard question. I'll replace.
-
-New Q123: In a row of boys, P is 8th from the left. Q is 6th from the right. R is 4th to the left of Q. If R is 7th from the left, what is the total number of boys?
-
-Solution: R left=7. R is 4th left of Q -> there are 3 persons between R and Q, so Q left = 7 + 3 + 1 = 11. Q right=6, total=11+6-1=16. So answer 16. But I need hard. I'll make it multi-step with an extra condition.
-
-Better hard Q123: In a row, A is 9th from the left. B is 13th from the right. When they interchange, A becomes 21st from the left. Then C, who is exactly between the original positions of A and B, is found to be 12th from the right. What is the total number of persons?
-
-Solution: Interchange gives A new left=21 = B original left. B original right=13, so total=21+13-1=33. So original B left=21, A left=9. C exactly between A(9) and B(21) is at (9+21)/2=15. C's right rank = 33-15+1=19. But given C is 12th from right -> contradiction. So data inconsistent. That's hard. So answer cannot be determined. That's a trap. I'll use that as a hard question.
-
-Q123 (hard): In a row, A is 9th from the left and B is 13th from the right. They interchange positions, and A becomes 21st from the left. C is exactly between the original positions of A and B. If C is 12th from the right, what is the total number of persons?
-
-Options: (a) 33 (b) 31 (c) Cannot be determined (d) 35
-
-Answer: (c) Cannot be determined. Solution: From interchange, total=21+13-1=33. Original B left=21, A left=9, so C left = (9+21)/2=15. C right = 33-15+1=19, not 12. So data inconsistent.
-
+121. In a class of 64 students, A is 16th from the top and B is 25th from the bottom. C is exactly in the middle of A and B. What is C’s position from the top?
+(a) 28th (b) 26th (c) 27th (d) 29th
+Answer: (a)
+Solution: B’s position from top = 64 - 25 + 1 = 40th. Since C is midway between A (16th) and B (40th), C’s position from top = (16 + 40) / 2 = 28th. Therefore, C is 28th.
 Source: PYQ-style
 
-124. In a class, Ravi’s rank from top is 16th and from bottom is 21st. After adding some new students, his rank from bottom becomes 26th. How many new students were added? (Assume all new students are placed below Ravi)
-
-(a) 5
-(b) 6
-(c) 7
-(d) 8
-
-Answer: (a) 5
-
-Solution:
-Original total = 16+21-1=36. Ravi’s bottom rank=21 means 20 students below him. New bottom rank=26 means 25 students below him. So 5 new students added below. Answer 5.
-
+122. In a row, P is 5 places to the left of Q. R is 7 places to the right of Q. If P is 10th from the left end and R is 15th from the right end, what is the total number of persons in the row?
+(a) 34 (b) 36 (c) 35 (d) 37
+Answer: (b)
+Solution: Q’s position from left = 10 + 5 = 15th. R’s position from left = 15 + 7 = 22nd. Given R is 15th from right, Total = 22 + 15 - 1 = 36.
 Source: PYQ-style
 
-125. In a row, A is 14th from the left. B is 11th from the right. If they interchange, the position of A from the right becomes the same as the position of B from the left before interchange. What is the total number of persons?
+123. In a queue, A is 20th from the front and B is 14th from the back. If there are 6 persons between them, what is the minimum possible number of persons in the queue?
+(a) 24 (b) 25 (c) 26 (d) 27
+Answer: (c)
+Solution: Minimum total occurs in overlapping case: Total = (Front + Back) - Between - 2 = (20 + 14) - 6 - 2 = 26.
+Source: PYQ-style
 
-(a) 24
-(b) 25
-(c) 26
-(d) 27
+124. In a class, Ravi is 16th from the top and 21st from the bottom. How many students are there in the class?
+(a) 34 (b) 35 (c) 37 (d) 36
+Answer: (d)
+Solution: Total students = Top rank + Bottom rank - 1 = 16 + 21 - 1 = 36. Therefore, total is 36.
+Source: PYQ-style
 
-Answer: (b) 25
-
-Solution:
-Let total = T. A left=14, A right = T-13. B right=11, B left = T-10.
-After interchange, A takes B's place, so A's new right = B's original right = 11.
-Given: A's new right = B's original left. So 11 = T-10 => T=21. Not in options. Wait: "position of A from the right becomes the same as the position of B from the left before interchange." So after swap, A's right rank = old B left. That's 11 = T-10 => T=21. So answer 21, not 25. Options start at 24. So I'll adjust numbers. Let A left=14, B right=11, then T=25 would give B left = T-10=15. Then after swap, A new right=11, and 11 = old B left =15? No. So need different relationship. The condition: A's new right = old B left. So T - A new left +1 = old B left. After swap, A new left = old B left. So let old B left = x. Then A new left = x, and A new right = T - x +1. Condition: T - x +1 = x (since equals old B left). So T+1 = 2x, so x = (T+1)/2. Also old B right = 11, so x = T - 11 +1 = T -10. So (T+1)/2 = T -10 => T+1 = 2T -20 => T=21. Again T=21. So to get T=25, need old B right such that T-10 = (T+1)/2 => T=21. So the numbers force T=21. So I need different given ranks. Let's set A left= a, B right= b. After swap, A new right = old B left. So T - a' +1 = old B left, where a' = new left of A = old B left. So T - x +1 = x => x = (T+1)/2. Also old B left = T - b +1 = x. So T - b +1 = (T+1)/2 => multiply 2: 2T -2b +2 = T+1 => T = 2b -1. So total depends only on b. For T=25, 2b-1=25 => b=13. So B right=13, then T=25. A left can be anything? But we also need A left given. Let's set A left=14. Then old B left = T-13+1=13? Actually T=25, B right=13 => B left=13. So B left=13. A left=14. So after swap, A goes to B's left (13), so A new left=13, new right=13. Then condition: A new right =13 = old B left =13. Holds. So total=25. So I'll set A left=14, B right=13. So question: A is 14th from left, B is 13th from right. After interchange, A's right rank equals B's original left rank. Total = 25. So answer (b) 25.
-
-Revised Q125: A is 14th from left, B is 13th from right. They interchange. If A's new position from right equals B's original position from left, find total. Solution: Let B original left = x. Then total = x + 13 -1 = x+12. After swap, A new left = x, new right = (x+12) - x +1 = 13. Condition: 13 = x. So x=13, total=13+12=25. Answer 25.
-
+125. In a row, A is 14th from the left and B is 13th from the right. If they interchange their positions, A becomes 20th from the left. What is the total number of persons in the row?
+(a) 30 (b) 32 (c) 31 (d) 33
+Answer: (b)
+Solution: After interchange, A occupies B’s original spot (20th from left and 13th from right). Total persons = 20 + 13 - 1 = 32.
 Source: PYQ-style
