@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 06-10-2026 01:49 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 01:25 AM
+**आख़िरी update:** 06-10-2026 01:56 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 01:25 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Pronoun (Graduation English) | 🔎 review हो रहा है | 23 मिनट |
-| W2 | Chapter 03 Adjective (Graduation English) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 07 Preposition (Graduation English) | ✍️ लिख रहा है | 3 मिनट |
-| W4 | Chapter 06 Adverb (Graduation English) | 🔎 review हो रहा है | 23 मिनट |
+| W1 | Chapter 02 Pronoun (Graduation English) | 🔎 review हो रहा है | 30 मिनट |
+| W2 | Chapter 08 Conjunction (Graduation English) | ✍️ लिख रहा है | 6 मिनट |
+| W3 | Chapter 07 Preposition (Graduation English) | ✍️ लिख रहा है | 10 मिनट |
+| W4 | Chapter 06 Adverb (Graduation English) | 🔎 review हो रहा है | 30 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -41,15 +41,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-06-10 01:05:17   [Adverb] review Content_en.txt: 3 issue(s): - Active Recall answer in section 1 omits adverb 'forward' → Answer should include: 'forward' modifies the verb 'ma
-06-10 01:06:22   [Tense] FAILED review Mind_Map_hi.txt: network — the chapter must not be published unreviewed
-06-10 01:07:36   [Tense] review Flashcards_en.txt: 1 issue(s): - Card 9: Mnemonic "SLEEP-K" does not match the listed stative verbs (See, Love, Know, Hate, Believe, Own, Under
-06-10 01:10:10   [Adverb] review Content_hi.txt: 2 issue(s): - Invented exam statistic in hook: "आधे से ज़्यादा उम्मीदवारों ने (a) चुना" presented as fact without source → remo
-06-10 01:10:17   [Pronoun] review Short_Tricks_hi.txt: 2 issue(s): - Trick 1 incorrectly labels “than/as” as “Relative” and states they always require objective case → after “th
-06-10 01:13:09   [Tense] review Short_Tricks_hi.txt: 1 issue(s): - Trick 14 states “Before = Perfect” as a fixed rule, but “before” can be used with both Past Simple and Past 
-06-10 01:17:04   [Pronoun] review Important_Rules_en.txt: 2 issue(s): - In Time Management (Inference-Based Questions), the example "The box of chocolates is/are…" is listed und
-06-10 01:17:59   [Adjective] review Short_Tricks_hi.txt: 1 issue(s): - Trick 13 incorrectly groups 'prefer' with 'than' as a fixed pair; 'prefer' takes 'to' (not 'than') when comp
-06-10 01:18:00   [Tense] review: 5 section(s) corrected, 1 failed
 06-10 01:18:00   [Tense] written 5, failed 1; AI calls today 81/100000
 06-10 01:18:00 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_05_Tense after 80 min: todo [] problems []
 06-10 01:18:00 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_05_Tense (OK: todo 0, problems 0)
@@ -81,4 +72,13 @@
 06-10 01:47:52   [Adjective] review Important_Rules_en.txt: 2 issue(s): - Rule 1 incorrectly states that adjectives of quantity (much, little, some, any) are used only with uncoun
 06-10 01:49:37   [Adjective] review: 3 section(s) corrected, 0 failed
 06-10 01:49:37   [Adjective] written 3, failed 0; AI calls today 147/100000
+06-10 01:49:44 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_03_Adjective in 24 min → 9c116e3
+06-10 01:49:44 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_08_Conjunction (TODO: todo 19, problems 0)
+06-10 01:49:59   [Preposition] Practice_en_Set_01.txt try 1: re-solve disagrees (Q21 key a vs re-solve d)
+06-10 01:51:04   [Conjunction] wrote Flashcards_hi.txt (3742 chars)
+06-10 01:52:28   [Preposition] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+06-10 01:52:33   [Conjunction] wrote PYQ_en.txt (6603 chars)
+06-10 01:54:20   [Conjunction] wrote PYQ_hi.txt (6476 chars)
+06-10 01:55:40   [Preposition] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+06-10 01:56:19   [Conjunction] wrote Short_Tricks_en.txt (8992 chars)
 ```
