@@ -1,0 +1,249 @@
+Q1. (Easy) What is the remainder when (17 * 23 * 29) is divided by 6?
+(A) 5  (B) 3  (C) 1  (D) 4
+
+Answer: (A)
+
+Solution:
+In modulo 6 arithmetic, 17 ≡ -1, 23 ≡ -1, and 29 ≡ -1. Multiplying these gives (-1)*(-1)*(-1) = -1 ≡ 5 (mod 6). Psychological Trap: Students often multiply large numbers directly instead of using negative remainders. Therefore, the correct value is 5, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q2. (Easy) A number when divided by 899 gives a remainder of 63. If the same number is divided by 29, what will be the remainder?
+(A) 4  (B) 5  (C) 2  (D) 1
+
+Answer: (B)
+
+Solution:
+Since 899 = 29 * 31, 899 is an exact multiple of 29. Therefore, the new remainder is simply 63 mod 29 = 5. Therefore, the correct value is 5, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q3. (Easy) What is the units digit of (234)^102 + (234)^103?
+(A) 4  (B) 6  (C) 0  (D) 8
+
+Answer: (C)
+
+Solution:
+Powers of 4 have cyclicity 2: 4^even ends in 6 and 4^odd ends in 4. The sum of units digits is 6 + 4 = 10, which ends in 0. Therefore, the correct value is 0, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q4. (Easy) Which of the following numbers is completely divisible by 99?
+(A) 135792  (B) 357240  (C) 427326  (D) 114345
+
+Answer: (D)
+
+Solution:
+A number divisible by 99 must be divisible by both 9 and 11. For 114345, the sum of digits is 18 (divisible by 9) and alternating sum is (5+3+1)-(4+4+1) = 0 (divisible by 11). Therefore, the correct value is 114345, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q5. (Easy) What is the remainder when (7^19 + 2) is divided by 6?
+(A) 3  (B) 1  (C) 2  (D) 5
+
+Answer: (A)
+
+Solution:
+Notice that 7 ≡ 1 (mod 6). Therefore, 7^19 + 2 ≡ 1^19 + 2 = 1 + 2 = 3 (mod 6). Therefore, the correct value is 3, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q6. (Easy) What is the units digit of (122)^173?
+(A) 4  (B) 2  (C) 6  (D) 8
+
+Answer: (B)
+
+Solution:
+Powers of 2 have a cyclicity of 4. Dividing the exponent 173 by 4 gives a remainder of 1. Thus, 2^1 = 2. Therefore, the correct value is 2, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q7. (Easy) Which of the following numbers is divisible by 11?
+(A) 4832717  (B) 4832719  (C) 4832718  (D) 4832715
+
+Answer: (C)
+
+Solution:
+For 4832718, odd-place digits sum to 8+7+3+4 = 22 and even-place digits sum to 1+2+8 = 11. The difference 22 - 11 = 11, which is divisible by 11. Therefore, the correct value is 4832718, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q8. (Easy) How many natural numbers between 1 and 200 are divisible by both 3 and 5?
+(A) 12  (B) 14  (C) 15  (D) 13
+
+Answer: (D)
+
+Solution:
+A number divisible by both 3 and 5 must be divisible by lcm(3, 5) = 15. The number of multiples is floor(199 / 15) = 13. Psychological Trap: Including the endpoints incorrectly when 'between' is specified. Therefore, the correct value is 13, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q9. (Easy) What is the remainder when 25^25 is divided by 26?
+(A) 25  (B) 1  (C) 24  (D) 0
+
+Answer: (A)
+
+Solution:
+Since 25 ≡ -1 (mod 26), 25^25 ≡ (-1)^25 = -1 ≡ 25 (mod 26). Therefore, the correct value is 25, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q10. (Easy) What is the units digit of (7^95 - 3^58)?
+(A) 0  (B) 4  (C) 6  (D) 7
+
+Answer: (B)
+
+Solution:
+For 7^95, 95 mod 4 = 3, so 7^3 ends in 3. For 3^58, 58 mod 4 = 2, so 3^2 ends in 9. Since 3 < 9, borrow 10: 13 - 9 = 4. Psychological Trap: Forgetting to borrow 10 when the first unit digit is smaller than the second. Therefore, the correct value is 4, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q11. (Easy) What is the remainder when (67^67 + 67) is divided by 68?
+(A) 1  (B) 67  (C) 66  (D) 0
+
+Answer: (C)
+
+Solution:
+In mod 68, 67 ≡ -1. Thus, 67^67 + 67 ≡ (-1)^67 + (-1) = -1 - 1 = -2 ≡ 66 (mod 68). Therefore, the correct value is 66, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q12. (Easy) If the number 5432k7 is completely divisible by 9, find the digit k.
+(A) 3  (B) 9  (C) 0  (D) 6
+
+Answer: (D)
+
+Solution:
+The sum of digits is 5 + 4 + 3 + 2 + k + 7 = 21 + k. The next multiple of 9 is 27, so 21 + k = 27 gives k = 6. Therefore, the correct value is 6, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q13. (Easy) What is the digital root of the number 987654?
+(A) 3  (B) 6  (C) 9  (D) 1
+
+Answer: (A)
+
+Solution:
+The sum of digits is 9 + 8 + 7 + 6 + 5 + 4 = 39. Summing again gives 3 + 9 = 12, and 1 + 2 = 3. Therefore, the correct value is 3, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q14. (Easy) What is the remainder when 2^31 is divided by 5?
+(A) 1  (B) 3  (C) 2  (D) 4
+
+Answer: (B)
+
+Solution:
+Observe the powers of 2 modulo 5: 2^1=2, 2^2=4, 2^3=8=3, 2^4=16=1 mod 5. 31 mod 4 = 3, so 2^3 = 8 ≡ 3 mod 5. Therefore, the correct value is 3, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q15. (Easy) What is the units digit of (1! + 2! + 3! + 4! + ... + 100!)?
+(A) 1  (B) 5  (C) 3  (D) 7
+
+Answer: (C)
+
+Solution:
+For all n >= 5, n! contains 2 and 5, so its units digit is 0. Only the first 4 terms contribute: 1 + 2 + 6 + 24 = 33, which ends in 3. Therefore, the correct value is 3, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q16. (Easy) How many total divisors does the number 100 have?
+(A) 8  (B) 10  (C) 12  (D) 9
+
+Answer: (D)
+
+Solution:
+Prime factorization of 100 is 2^2 * 5^2. Total divisors τ(100) = (2 + 1)(2 + 1) = 3 * 3 = 9. Therefore, the correct value is 9, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q17. (Easy) The expression (a^n - b^n) is always divisible by (a + b) when n is:
+(A) Even positive integer  (B) Odd positive integer  (C) Any prime number  (D) Any integer
+
+Answer: (A)
+
+Solution:
+By algebraic identity, a^n - b^n = (a + b)(a^(n-1) - a^(n-2)b + ... - b^(n-1)) only when n is an even integer. Therefore, the correct value is Even positive integer, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q18. (Easy) Find the smallest 5-digit number that is exactly divisible by 41.
+(A) 10025  (B) 10004  (C) 10041  (D) 10000
+
+Answer: (B)
+
+Solution:
+The smallest 5-digit number is 10000. 10000 / 41 = 243 with remainder 37. To make it divisible, add (41 - 37) = 4: 10000 + 4 = 10004. Therefore, the correct value is 10004, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q19. (Easy) Which of the following numbers is prime?
+(A) 91  (B) 119  (C) 137  (D) 143
+
+Answer: (C)
+
+Solution:
+Notice that 91 = 7 * 13, 119 = 7 * 17, and 143 = 11 * 13. Only 137 has no divisors other than 1 and itself. Therefore, the correct value is 137, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q20. (Easy) What is the remainder when (10^1 + 10^2 + 10^3 + ... + 10^10) is divided by 6?
+(A) 2  (B) 0  (C) 1  (D) 4
+
+Answer: (D)
+
+Solution:
+Notice that 10 ≡ 4 (mod 6), and 4^k ≡ 4 (mod 6) for all k >= 1. The sum of 10 terms gives 10 * 4 = 40. 40 mod 6 = 4. Therefore, the correct value is 4, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q21. (Medium) What is the remainder when (9^6 - 11) is divided by 8?
+(A) 6  (B) 2  (C) 4  (D) 5
+
+Answer: (A)
+
+Solution:
+In mod 8 arithmetic, 9 ≡ 1. Therefore, 9^6 - 11 ≡ 1^6 - 11 = 1 - 11 = -10. In mod 8, -10 = -2 * 8 + 6 ≡ 6. Therefore, the correct value is 6, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q22. (Medium) By which of the following numbers is (49^15 - 1) completely divisible?
+(A) 13  (B) 8  (C) 17  (D) 19
+
+Answer: (B)
+
+Solution:
+(a^n - b^n) is always divisible by (a - b). Here 49 - 1 = 48. Since 48 is divisible by 8, (49^15 - 1) is completely divisible by 8. Therefore, the correct value is 8, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q23. (Medium) Find the tens digit of 3^40.
+(A) 1  (B) 2  (C) 0  (D) 8
+
+Answer: (C)
+
+Solution:
+3^4 = 81. Thus, 3^40 = (81)^10. For numbers ending in 1, the tens digit is (8 * 0) mod 10 = 0. Therefore, the correct value is 0, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q24. (Medium) What is the remainder when (35^37 + 37^37) is divided by 36?
+(A) 1  (B) 35  (C) 37  (D) 0
+
+Answer: (D)
+
+Solution:
+Modulo 36 gives 35 ≡ -1 and 37 ≡ 1. Therefore, (-1)^37 + (1)^37 = -1 + 1 = 0. Therefore, the correct value is 0, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q25. (Medium) A number N leaves a remainder of 3 when divided by 4, and a remainder of 4 when divided by 5. What is the remainder when N is divided by 20?
+(A) 7  (B) 19  (C) 11  (D) 15
+
+Answer: (B)
+
+Solution:
+N ≡ 3 (mod 4) and N ≡ 4 (mod 5). Testing values of 5k + 4: for k=3, 5(3)+4 = 19. Notice 19 mod 4 = 3 and 19 mod 5 = 4. Hence N ≡ 19 (mod 20). Therefore, the correct value is 19, corresponding to option (B).
+
+Source: SSC CGL Pattern

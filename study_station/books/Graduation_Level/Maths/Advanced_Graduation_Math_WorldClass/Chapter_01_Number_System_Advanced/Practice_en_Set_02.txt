@@ -1,0 +1,249 @@
+Q26. (Medium) What is the units digit of 7^105?
+(A) 7  (B) 9  (C) 3  (D) 1
+
+Answer: (A)
+
+Solution:
+Powers of 7 have cyclicity 4. Dividing the exponent 105 by 4 gives a remainder of 1. Hence, 7^1 = 7. Therefore, the correct value is 7, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q27. (Medium) Find the units digit of (3^65 * 6^59 * 7^71).
+(A) 2  (B) 4  (C) 6  (D) 8
+
+Answer: (B)
+
+Solution:
+For 3^65: 65 mod 4 = 1 => 3. 6^any ends in 6. For 7^71: 71 mod 4 = 3 => 7^3 ends in 3. Multiplying units: 3 * 6 * 3 = 54, ending in 4. Therefore, the correct value is 4, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q28. (Medium) What are the last two digits of 7^2008?
+(A) 49  (B) 43  (C) 01  (D) 07
+
+Answer: (C)
+
+Solution:
+7^4 = 2401 ≡ 01 (mod 100). Since 2008 is divisible by 4 (2008 = 4 * 502), 7^2008 = (7^4)^502 ≡ (01)^502 = 01. Therefore, the correct value is 01, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q29. (Medium) What is the units digit of (8^123 - 2^123)?
+(A) 6  (B) 2  (C) 0  (D) 4
+
+Answer: (D)
+
+Solution:
+123 mod 4 = 3. 8^3 ends in 2, and 2^3 ends in 8. Since 2 < 8, borrow 10: 12 - 8 = 4. Psychological Trap: Subtracting 2 - 8 to get -6 or choosing 6 by reversing subtraction order. Therefore, the correct value is 4, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q30. (Medium) What are the last two digits of (51)^43?
+(A) 51  (B) 01  (C) 15  (D) 31
+
+Answer: (A)
+
+Solution:
+For numbers ending in 1, the unit digit is 1. The tens digit is (5 * 3) mod 10 = 5. Hence, last two digits are 51. Therefore, the correct value is 51, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q31. (Medium) What is the remainder when 2^100 is divided by 101?
+(A) 2  (B) 1  (C) 100  (D) 0
+
+Answer: (B)
+
+Solution:
+Divisor 101 is prime and gcd(2, 101) = 1. By Fermat's Little Theorem, 2^(101 - 1) = 2^100 ≡ 1 (mod 101). Therefore, the correct value is 1, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q32. (Medium) What is the remainder when 3^200 is divided by 100?
+(A) 3  (B) 81  (C) 1  (D) 9
+
+Answer: (C)
+
+Solution:
+φ(100) = 40. Since gcd(3, 100) = 1, by Euler's Totient Theorem, 3^40 ≡ 1 (mod 100). Thus 3^200 = (3^40)^5 ≡ 1^5 = 1. Therefore, the correct value is 1, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q33. (Medium) What is the units digit of (17^17)^17?
+(A) 9  (B) 3  (C) 1  (D) 7
+
+Answer: (D)
+
+Solution:
+(17^17)^17 = 17^(17 * 17) = 17^289. Base ends in 7. Dividing exponent 289 by 4 gives remainder 1. 7^1 = 7. Therefore, the correct value is 7, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q34. (Medium) What is the remainder when (19^100 + 1) is divided by 20?
+(A) 2  (B) 0  (C) 1  (D) 19
+
+Answer: (A)
+
+Solution:
+19 ≡ -1 (mod 20). Therefore, 19^100 + 1 ≡ (-1)^100 + 1 = 1 + 1 = 2 (mod 20). Therefore, the correct value is 2, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q35. (Medium) Find the units digit of (1^5 + 2^5 + 3^5 + ... + 20^5).
+(A) 5  (B) 0  (C) 1  (D) 2
+
+Answer: (B)
+
+Solution:
+Because 5 mod 4 = 1, a^5 has the exact same units digit as a. Thus the sum has the same units digit as 1 + 2 + ... + 20 = 210, which ends in 0. Therefore, the correct value is 0, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q36. (Medium) What are the last two digits of 2^22?
+(A) 24  (B) 76  (C) 04  (D) 48
+
+Answer: (C)
+
+Solution:
+2^10 = 1024 ends in 24. 2^20 = (24)^2 = 576 ends in 76. 2^22 = 76 * 4 = 304, which ends in 04. Therefore, the correct value is 04, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q37. (Medium) What is the remainder when (5^70 + 7^70) is divided by 74?
+(A) 2  (B) 37  (C) 72  (D) 0
+
+Answer: (D)
+
+Solution:
+Rewrite as (5^2)^35 + (7^2)^35 = 25^35 + 49^35. For odd exponent 35, (a^n + b^n) is divisible by (a + b) = 25 + 49 = 74. Remainder is 0. Therefore, the correct value is 0, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q38. (Medium) What is the units digit of 9^(9^9)?
+(A) 9  (B) 1  (C) 3  (D) 7
+
+Answer: (A)
+
+Solution:
+The base is 9. The exponent 9^9 is an odd number. For base 9, 9^odd always has a units digit of 9. Therefore, the correct value is 9, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q39. (Medium) What is the remainder when (31^31^31) is divided by 7?
+(A) 2  (B) 3  (C) 4  (D) 1
+
+Answer: (B)
+
+Solution:
+31 ≡ 3 (mod 7). By Euler's theorem, powers of 3 repeat mod φ(7) = 6. Power 31^31 mod 6 ≡ 1^31 = 1. So 3^1 ≡ 3 (mod 7). Therefore, the correct value is 3, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q40. (Medium) What is the units digit of (23^25 + 25^23)?
+(A) 6  (B) 4  (C) 8  (D) 2
+
+Answer: (C)
+
+Solution:
+For 23^25: 25 mod 4 = 1 => 3^1 = 3. 25^23 always ends in 5. Sum of units digits is 3 + 5 = 8. Therefore, the correct value is 8, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q41. (Medium) What are the last two digits of 3^100?
+(A) 81  (B) 21  (C) 41  (D) 01
+
+Answer: (D)
+
+Solution:
+3^4 = 81. Thus, 3^100 = (81)^25. For base 81, unit digit is 1 and tens digit is (8 * 5) mod 10 = 0. Last two digits are 01. Therefore, the correct value is 01, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q42. (Medium) What is the remainder when (15^300) is divided by 7?
+(A) 1  (B) 2  (C) 4  (D) 6
+
+Answer: (A)
+
+Solution:
+15 ≡ 1 (mod 7). Therefore, 15^300 ≡ 1^300 = 1 (mod 7). Therefore, the correct value is 1, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q43. (Medium) Find the units digit of the product: (4^1 * 9^2 * 4^3 * 9^4 * ... * 4^99 * 9^100).
+(A) 4  (B) 6  (C) 1  (D) 9
+
+Answer: (B)
+
+Solution:
+Each 4 has an odd exponent, so its units digit is 4. Each 9 has an even exponent, so its units digit is 1. The product is 4^50 * 1^50 = 4^50. For even exponent, 4^even ends in 6. Therefore, the correct value is 6, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q44. (Medium) What is the remainder when (8^100) is divided by 7?
+(A) 2  (B) 6  (C) 1  (D) 0
+
+Answer: (C)
+
+Solution:
+Since 8 ≡ 1 (mod 7), 8^100 ≡ 1^100 = 1 (mod 7). Therefore, the correct value is 1, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q45. (Medium) What are the last two digits of (76)^55?
+(A) 24  (B) 56  (C) 36  (D) 76
+
+Answer: (D)
+
+Solution:
+76 has the unique mathematical invariant property that any positive integer power of 76 always ends in 76. Therefore, the correct value is 76, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q46. (Medium) What is the remainder when (123456789)^2 is divided by 9?
+(A) 0  (B) 1  (C) 4  (D) 7
+
+Answer: (A)
+
+Solution:
+The sum of digits of 123456789 is 45, which is divisible by 9. Thus the number is a multiple of 9, and its square leaves a remainder of 0. Therefore, the correct value is 0, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q47. (Medium) What is the units digit of (2^3^4)?
+(A) 4  (B) 2  (C) 6  (D) 8
+
+Answer: (B)
+
+Solution:
+The exponent is 3^4 = 81. Modulo 4 gives 81 mod 4 = 1. Therefore, 2^1 = 2. Psychological Trap: Treating 2^3^4 as (2^3)^4 = 2^12, which gives an incorrect exponent. Therefore, the correct value is 2, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q48. (Medium) What is the remainder when 17^200 is divided by 18?
+(A) 17  (B) 0  (C) 1  (D) 2
+
+Answer: (C)
+
+Solution:
+In mod 18 arithmetic, 17 ≡ -1. Therefore, 17^200 ≡ (-1)^200 = 1 (mod 18). Therefore, the correct value is 1, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q49. (Medium) What are the last two digits of 25^40?
+(A) 50  (B) 75  (C) 00  (D) 25
+
+Answer: (D)
+
+Solution:
+Any positive integer power of 25 always terminates in 25. Therefore, the correct value is 25, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q50. (Medium) What is the units digit of (8^64 - 2^64)?
+(A) 4  (B) 0  (C) 6  (D) 2
+
+Answer: (B)
+
+Solution:
+64 is divisible by 4. So use power 4: 8^4 ends in 6 and 2^4 ends in 6. The difference is 6 - 6 = 0. Therefore, the correct value is 0, corresponding to option (B).
+
+Source: SSC CGL Pattern

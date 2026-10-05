@@ -1,0 +1,71 @@
+Card 1
+Front: What is the formal statement of Fermat's Little Theorem?
+Back: If p is prime and gcd(a, p) = 1, then a^(p - 1) ≡ 1 (mod p).
+
+Card 2
+Front: How is Euler's totient function φ(n) calculated for n = p1^a1 * p2^a2 * ... * pk^ak?
+Back: φ(n) = n * (1 - 1/p1) * (1 - 1/p2) * ... * (1 - 1/pk).
+
+Card 3
+Front: What is Wilson's Theorem for a prime number p?
+Back: (p - 1)! ≡ -1 (mod p), and its useful corollary is (p - 2)! ≡ 1 (mod p).
+
+Card 4
+Front: What is Legendre's formula for the exponent of prime p in n!?
+Back: Ep(n!) = floor(n/p) + floor(n/p^2) + floor(n/p^3) + ... until p^k > n.
+
+Card 5
+Front: How do you calculate the number of trailing zeroes in n!?
+Back: Count the exponent of 5 using Legendre's formula: Z(n!) = floor(n/5) + floor(n/25) + floor(n/125) + ...
+
+Card 6
+Front: What is the mnemonic trick "PO-EE-AO" for divisibility of a^n ± b^n?
+Back: PO = Plus with Odd exponent -> (a+b) divides; EE = Even with minus -> both (a-b) and (a+b) divide; AO = All with minus -> (a-b) always divides.
+
+Card 7
+Front: What are the cyclicity values for units digits of {0,1,5,6}, {4,9}, and {2,3,7,8}?
+Back: Cyclicity of {0, 1, 5, 6} is 1; {4, 9} is 2; {2, 3, 7, 8} is 4.
+
+Card 8
+Front: What is the mnemonic rule for the last two digits of (...a1)^b?
+Back: Unit digit is always 1, and the tens digit is given by (a * last digit of b) mod 10.
+
+Card 9
+Front: What is the special invariant property of 76 in finding last two digits of even powers?
+Back: 76 multiplied by 2^k (for k >= 2) always has the exact same last two digits as 2^k.
+
+Card 10
+Front: For N = p1^a1 * p2^a2 * ... * pk^ak, what is the formula for the total number of divisors τ(N)?
+Back: τ(N) = (a1 + 1)(a2 + 1)...(ak + 1).
+
+Card 11
+Front: What is the formula for the sum of all divisors σ(N)?
+Back: σ(N) = [(p1^(a1+1) - 1)/(p1 - 1)] * [(p2^(a2+1) - 1)/(p2 - 1)] * ... * [(pk^(ak+1) - 1)/(pk - 1)].
+
+Card 12
+Front: How many ways can an integer N be expressed as a product of two coprime factors?
+Back: 2^(k - 1), where k is the number of distinct prime factors of N.
+
+Card 13
+Front: What is the product of all positive divisors of N?
+Back: Product = N^(τ(N) / 2), where τ(N) is the total number of divisors.
+
+Card 14
+Front: How do you find the number of odd divisors versus even divisors of N = 2^a * 3^b * 5^c?
+Back: Odd divisors = (b + 1)(c + 1). Even divisors = a * (b + 1)(c + 1).
+
+Card 15
+Front: What is the remainder when (p - 1)! is divided by prime p?
+Back: The remainder is (p - 1), which is equivalent to -1 (mod p).
+
+Card 16
+Front: What is the remainder when 31! is divided by 37 using Wilson's Theorem?
+Back: 36! ≡ -1 ≡ 36 mod 37. Expanding backwards: 36*35*34*33*32*31! ≡ -1 mod 37, equivalent to (-1)(-2)(-3)(-4)(-5)*31! ≡ -1 mod 37.
+
+Card 17
+Front: How do you quickly test divisibility by 7, 11, and 13 simultaneously?
+Back: Divide the number into 3-digit groups from right to left; the alternating sum of these groups must be divisible by 1001 (7 * 11 * 13).
+
+Card 18
+Front: What is the digital root of a perfect square?
+Back: The digital root (sum of digits reduced to single digit) of any perfect square can only be 1, 4, 7, or 9.

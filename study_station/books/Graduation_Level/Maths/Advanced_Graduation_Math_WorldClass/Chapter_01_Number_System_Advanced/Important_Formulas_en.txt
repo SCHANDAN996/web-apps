@@ -1,0 +1,19 @@
+Formula Name | Formula | Key Application
+Euler's Totient Function | φ(n) = n * Π (1 - 1/p) for all prime factors p of n | Counting integers coprime to n up to n
+Euler's Totient Theorem | a^φ(n) ≡ 1 (mod n) when gcd(a, n) = 1 | Reducing large exponents in modular division
+Fermat's Little Theorem | a^(p-1) ≡ 1 (mod p) when p is prime and gcd(a, p) = 1 | Finding remainder when dividing by a prime
+Wilson's Theorem | (p - 1)! ≡ -1 (mod p) or (p - 1)! ≡ (p - 1) (mod p) | Solving remainder of factorials divided by prime p
+Legendre's Formula | Ep(n!) = floor(n/p) + floor(n/p^2) + floor(n/p^3) + ... | Finding highest power of prime p in n!
+Trailing Zeroes in n! | Z(n!) = floor(n/5) + floor(n/25) + floor(n/125) + ... | Counting number of terminal zeroes in n!
+Total Number of Factors | τ(N) = (a1 + 1)(a2 + 1)...(ak + 1) for N = Π pi^ai | Enumerating total divisors of composite N
+Sum of Factors | σ(N) = Π [(pi^(ai + 1) - 1) / (pi - 1)] | Finding algebraic sum of all positive divisors
+Product of Factors | Product = N^(τ(N) / 2) | Finding the product of all positive divisors
+Number of Odd Factors | τ_odd(N) = Π (ai + 1) for all odd primes pi | Counting divisors not divisible by 2
+Number of Even Factors | τ_even(N) = a1 * Π (ai + 1) where p1 = 2 | Counting divisors that are multiples of 2
+Coprime Factor Pairs | 2^(k - 1) where k is number of distinct prime factors | Decomposing N into two coprime factors
+Units Digit Cyclicity | Exponent mod 4 for bases ending in {2, 3, 7, 8} | Determining terminal digit of huge powers
+Tens Digit (...a1)^b | Tens digit = (a * (b mod 10)) mod 10, unit digit = 1 | Finding last two digits of base ending in 1
+Divisibility: a^n - b^n | Always divisible by (a - b) for all n >= 1 | Algebraic factor reduction
+Divisibility: a^n - b^n (even n) | Divisible by both (a - b) and (a + b) | Factoring even power differences
+Divisibility: a^n + b^n (odd n) | Divisible by (a + b) for odd integer n | Factoring odd power sums
+Remainder of a*b mod m | (a mod m * b mod m) mod m | Breaking down composite multiplication remainders

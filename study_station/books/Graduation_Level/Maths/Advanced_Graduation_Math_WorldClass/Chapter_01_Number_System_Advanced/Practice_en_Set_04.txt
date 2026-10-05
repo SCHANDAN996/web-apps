@@ -1,0 +1,249 @@
+Q76. (Medium) Find the total number of factors of 240.
+(A) 20  (B) 16  (C) 24  (D) 18
+
+Answer: (A)
+
+Solution:
+240 = 2^4 * 3^1 * 5^1. Total factors τ(240) = (4 + 1)(1 + 1)(1 + 1) = 5 * 2 * 2 = 20. Therefore, the correct value is 20, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q77. (Medium) How many even factors does the number 240 have?
+(A) 20  (B) 16  (C) 12  (D) 4
+
+Answer: (B)
+
+Solution:
+240 = 2^4 * 3^1 * 5^1. Even factors require at least one factor of 2: 4 * (1 + 1)(1 + 1) = 4 * 2 * 2 = 16. Therefore, the correct value is 16, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q78. (Medium) How many odd factors does the number 240 have?
+(A) 8  (B) 6  (C) 4  (D) 2
+
+Answer: (C)
+
+Solution:
+Odd factors ignore the power of 2: (1 + 1)(1 + 1) = 2 * 2 = 4. Therefore, the correct value is 4, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q79. (Medium) Find the sum of all factors of 240.
+(A) 720  (B) 680  (C) 760  (D) 744
+
+Answer: (D)
+
+Solution:
+σ(240) = [(2^5 - 1)/(1)] * [(3^2 - 1)/2] * [(5^2 - 1)/4] = 31 * 4 * 6 = 744. Therefore, the correct value is 744, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q80. (Medium) Find the total number of divisors of 720.
+(A) 30  (B) 24  (C) 36  (D) 28
+
+Answer: (A)
+
+Solution:
+720 = 2^4 * 3^2 * 5^1. τ(720) = (4 + 1)(2 + 1)(1 + 1) = 5 * 3 * 2 = 30. Therefore, the correct value is 30, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q81. (Medium) What is the product of all factors of 100?
+(A) 10^8  (B) 10^9  (C) 10^10  (D) 10^6
+
+Answer: (B)
+
+Solution:
+100 has τ = 9 factors. Product = N^(τ/2) = (100)^(9/2) = (10^2)^(9/2) = 10^9. Therefore, the correct value is 10^9, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q82. (Medium) How many pairs of factors of 360 are coprime to each other?
+(A) 8  (B) 6  (C) 4  (D) 2
+
+Answer: (C)
+
+Solution:
+360 = 2^3 * 3^2 * 5^1 has k = 3 distinct prime factors. Number of coprime factor pairs is 2^(k - 1) = 2^(3 - 1) = 4. Therefore, the correct value is 4, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q83. (Medium) Find the sum of all factors of 120.
+(A) 240  (B) 288  (C) 300  (D) 360
+
+Answer: (D)
+
+Solution:
+120 = 2^3 * 3^1 * 5^1. σ(120) = (15/1) * (8/2) * (24/4) = 15 * 4 * 6 = 360. Therefore, the correct value is 360, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q84. (Medium) In how many ways can 72 be expressed as a product of two factors?
+(A) 6  (B) 12  (C) 4  (D) 8
+
+Answer: (A)
+
+Solution:
+72 = 2^3 * 3^2. τ(72) = 4 * 3 = 12. Since 72 is not a perfect square, ways = 12 / 2 = 6. Therefore, the correct value is 6, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q85. (Medium) In how many ways can 36 be expressed as a product of two factors?
+(A) 4  (B) 5  (C) 9  (D) 6
+
+Answer: (B)
+
+Solution:
+36 = 2^2 * 3^2. τ(36) = 9. Since 36 is a perfect square, ways = (9 + 1) / 2 = 5. Psychological Trap: Forgetting to add 1 before dividing by 2 when the number is a perfect square. Therefore, the correct value is 5, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q86. (Medium) How many factors of 1080 are multiples of 12?
+(A) 16  (B) 8  (C) 12  (D) 24
+
+Answer: (C)
+
+Solution:
+1080 = 2^3 * 3^3 * 5^1 = 12 * (2^1 * 3^2 * 5^1). Divisors = (1 + 1)(2 + 1)(1 + 1) = 2 * 3 * 2 = 12. Therefore, the correct value is 12, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q87. (Medium) How many factors of 3600 are perfect squares?
+(A) 9  (B) 16  (C) 8  (D) 12
+
+Answer: (D)
+
+Solution:
+3600 = 2^4 * 3^2 * 5^2. Even powers of 2 are {0, 2, 4} (3 choices); for 3 are {0, 2} (2 choices); for 5 are {0, 2} (2 choices). Total = 3 * 2 * 2 = 12. Therefore, the correct value is 12, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q88. (Medium) Find the sum of the reciprocals of all factors of 6.
+(A) 2  (B) 1  (C) 3  (D) 1.5
+
+Answer: (A)
+
+Solution:
+Sum of reciprocals = σ(N) / N. For 6: (1 + 2 + 3 + 6) / 6 = 12 / 6 = 2. Therefore, the correct value is 2, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q89. (Medium) How many factors of 500 are odd?
+(A) 6  (B) 4  (C) 2  (D) 8
+
+Answer: (B)
+
+Solution:
+500 = 2^2 * 5^3. Odd factors depend only on powers of 5: (3 + 1) = 4. Therefore, the correct value is 4, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q90. (Medium) How many distinct prime factors does 2310 have?
+(A) 4  (B) 6  (C) 5  (D) 3
+
+Answer: (C)
+
+Solution:
+2310 = 2 * 3 * 5 * 7 * 11. It has exactly 5 distinct prime factors. Therefore, the correct value is 5, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q91. (Medium) What is the sum of odd factors of 360?
+(A) 13  (B) 6  (C) 1170  (D) 78
+
+Answer: (D)
+
+Solution:
+360 = 2^3 * 3^2 * 5^1. Odd factors sum = (1 + 3 + 9)(1 + 5) = 13 * 6 = 78. Therefore, the correct value is 78, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q92. (Medium) What is the sum of even factors of 360?
+(A) 1092  (B) 1170  (C) 78  (D) 1000
+
+Answer: (A)
+
+Solution:
+Total sum of factors is 1170 and sum of odd factors is 78. Sum of even factors = 1170 - 78 = 1092. Therefore, the correct value is 1092, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q93. (Medium) What is the product of all factors of 36?
+(A) 6^8  (B) 6^9  (C) 36^9  (D) 6^6
+
+Answer: (B)
+
+Solution:
+τ(36) = 9. Product = 36^(9/2) = (6^2)^(9/2) = 6^9. Therefore, the correct value is 6^9, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q94. (Medium) How many pairs of factors of 1800 are coprime to each other?
+(A) 8  (B) 6  (C) 4  (D) 2
+
+Answer: (C)
+
+Solution:
+1800 = 2^3 * 3^2 * 5^2. Number of distinct prime factors k = 3. Pairs = 2^(k - 1) = 2^(3 - 1) = 4. Therefore, the correct value is 4, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q95. (Medium) How many factors of (2^5 * 3^4 * 5^2) are divisible by 60?
+(A) 24  (B) 48  (C) 16  (D) 32
+
+Answer: (D)
+
+Solution:
+60 = 2^2 * 3^1 * 5^1. Divide out 60: 2^3 * 3^3 * 5^1. Divisors = (3 + 1)(3 + 1)(1 + 1) = 4 * 4 * 2 = 32. Therefore, the correct value is 32, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q96. (Medium) How many factors of 144 are perfect cubes?
+(A) 2  (B) 1  (C) 3  (D) 4
+
+Answer: (A)
+
+Solution:
+144 = 2^4 * 3^2. Powers of 2 multiple of 3 are {0, 3} (2 choices). Powers of 3 multiple of 3 are {0} (1 choice). Total = 2 * 1 = 2 (factors 1 and 8). Therefore, the correct value is 2, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q97. (Medium) In how many ways can 144 be expressed as a product of two distinct factors?
+(A) 8  (B) 7  (C) 15  (D) 6
+
+Answer: (B)
+
+Solution:
+τ(144) = (4 + 1)(2 + 1) = 15. Since 144 is a square, distinct factor pairs = (15 - 1) / 2 = 7. Psychological Trap: Failing to exclude the square root pair (12 x 12) when distinct factors are requested. Therefore, the correct value is 7, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q98. (Medium) How many factors of 720 end in a zero?
+(A) 15  (B) 10  (C) 12  (D) 18
+
+Answer: (C)
+
+Solution:
+Ending in 0 requires a multiple of 10 = 2 * 5. 720 = 2^4 * 3^2 * 5^1 = 10 * (2^3 * 3^2 * 5^0). Divisors = (3 + 1)(2 + 1)(0 + 1) = 12. Therefore, the correct value is 12, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q99. (Medium) What is the sum of the reciprocals of all factors of 28?
+(A) 1  (B) 1.5  (C) 2.5  (D) 2
+
+Answer: (D)
+
+Solution:
+28 is a perfect number: σ(28) = 56. Sum of reciprocals = σ(28) / 28 = 56 / 28 = 2. Therefore, the correct value is 2, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q100. (Medium) If N = 2^3 * 3^2 * 5^1, what is the product of all its factors?
+(A) N^24  (B) N^12  (C) N^6  (D) N^18
+
+Answer: (B)
+
+Solution:
+Total factors τ(N) = (3 + 1)(2 + 1)(1 + 1) = 24. Product of factors = N^(τ/2) = N^(24/2) = N^12. Therefore, the correct value is N^12, corresponding to option (B).
+
+Source: SSC CGL Pattern

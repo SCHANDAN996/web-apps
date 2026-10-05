@@ -1,0 +1,249 @@
+Q51. (Medium) What is the value of Euler's totient function φ(36)?
+(A) 12  (B) 18  (C) 6  (D) 24
+
+Answer: (A)
+
+Solution:
+36 = 2^2 * 3^2. φ(36) = 36 * (1 - 1/2) * (1 - 1/3) = 36 * (1/2) * (2/3) = 12. Therefore, the correct value is 12, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q52. (Medium) Find the value of Euler's totient function φ(72).
+(A) 36  (B) 24  (C) 18  (D) 48
+
+Answer: (B)
+
+Solution:
+72 = 2^3 * 3^2. φ(72) = 72 * (1 - 1/2) * (1 - 1/3) = 72 * (1/2) * (2/3) = 24. Therefore, the correct value is 24, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q53. (Medium) What is the remainder when 4^96 is divided by 97?
+(A) 4  (B) 96  (C) 1  (D) 0
+
+Answer: (C)
+
+Solution:
+Divisor 97 is prime and gcd(4, 97) = 1. By Fermat's Little Theorem, 4^(97 - 1) = 4^96 ≡ 1 (mod 97). Therefore, the correct value is 1, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q54. (Medium) What is the remainder when (28! + 1) is divided by 29?
+(A) 1  (B) 28  (C) 2  (D) 0
+
+Answer: (D)
+
+Solution:
+29 is prime. By Wilson's Theorem, 28! ≡ -1 (mod 29). Therefore, 28! + 1 ≡ -1 + 1 = 0 (mod 29). Psychological Trap: Forgetting that (p-1)! is congruent to -1 and calculating 28! directly. Therefore, the correct value is 0, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q55. (Medium) What is the remainder when 5^72 is divided by 73?
+(A) 1  (B) 5  (C) 72  (D) 0
+
+Answer: (A)
+
+Solution:
+73 is prime and gcd(5, 73) = 1. By Fermat's Little Theorem, 5^(73 - 1) = 5^72 ≡ 1 (mod 73). Therefore, the correct value is 1, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q56. (Medium) What is the remainder when 2^106 is divided by 53?
+(A) 1  (B) 4  (C) 2  (D) 8
+
+Answer: (B)
+
+Solution:
+53 is prime. By Fermat's, 2^52 ≡ 1 (mod 53). 106 = 2 * 52 + 2, so 2^106 = (2^52)^2 * 2^2 ≡ (1)^2 * 4 = 4 (mod 53). Therefore, the correct value is 4, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q57. (Medium) What is the remainder when 18! is divided by 19?
+(A) 1  (B) 0  (C) 18  (D) 17
+
+Answer: (C)
+
+Solution:
+By Wilson's Theorem, for any prime p, (p - 1)! ≡ (p - 1) (mod p). Here p = 19, so 18! ≡ 18 (mod 19). Therefore, the correct value is 18, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q58. (Medium) What is the remainder when 17! is divided by 19?
+(A) 18  (B) 17  (C) 0  (D) 1
+
+Answer: (D)
+
+Solution:
+By Wilson's corollary, for any prime p, (p - 2)! ≡ 1 (mod p). For p = 19, (19 - 2)! = 17! ≡ 1 (mod 19). Therefore, the correct value is 1, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q59. (Medium) What is the value of Euler's totient function φ(100)?
+(A) 40  (B) 50  (C) 20  (D) 80
+
+Answer: (A)
+
+Solution:
+100 = 2^2 * 5^2. φ(100) = 100 * (1 - 1/2) * (1 - 1/5) = 100 * (1/2) * (4/5) = 40. Therefore, the correct value is 40, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q60. (Medium) What is the remainder when 7^82 is divided by 100?
+(A) 01  (B) 49  (C) 43  (D) 07
+
+Answer: (B)
+
+Solution:
+φ(100) = 40. By Euler's Theorem, 7^40 ≡ 1 (mod 100). Thus 7^82 = (7^40)^2 * 7^2 ≡ 1 * 49 = 49 (mod 100). Therefore, the correct value is 49, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q61. (Medium) What is the remainder when 3^102 is divided by 103?
+(A) 3  (B) 102  (C) 1  (D) 0
+
+Answer: (C)
+
+Solution:
+103 is prime and gcd(3, 103) = 1. By Fermat's Little Theorem, 3^(103 - 1) = 3^102 ≡ 1 (mod 103). Therefore, the correct value is 1, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q62. (Medium) What is the remainder when 10! is divided by 11?
+(A) 1  (B) 0  (C) 9  (D) 10
+
+Answer: (D)
+
+Solution:
+By Wilson's Theorem, (p - 1)! ≡ (p - 1) (mod p) for prime p. For p = 11, 10! ≡ 10 (mod 11). Therefore, the correct value is 10, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q63. (Medium) What is the remainder when 2^35 is divided by 7?
+(A) 4  (B) 1  (C) 2  (D) 6
+
+Answer: (A)
+
+Solution:
+2^3 = 8 ≡ 1 (mod 7). 35 = 3 * 11 + 2. Therefore, 2^35 = (2^3)^11 * 2^2 ≡ (1)^11 * 4 = 4 (mod 7). Therefore, the correct value is 4, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q64. (Medium) What is the remainder when 6^48 is divided by 49?
+(A) 1  (B) 8  (C) 6  (D) 43
+
+Answer: (B)
+
+Solution:
+φ(49) = 42. By Euler's Theorem, 6^42 ≡ 1 (mod 49). 6^48 = 6^42 * 6^6 ≡ 6^6 = 46656. 46656 / 49 = 952 with remainder 8. Therefore, the correct value is 8, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q65. (Medium) What is the remainder when 16! is divided by 17?
+(A) 1  (B) 0  (C) 16  (D) 15
+
+Answer: (C)
+
+Solution:
+17 is prime. By Wilson's Theorem, (17 - 1)! = 16! ≡ -1 ≡ 16 (mod 17). Therefore, the correct value is 16, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q66. (Medium) Find the value of Euler's totient function φ(60).
+(A) 20  (B) 24  (C) 12  (D) 16
+
+Answer: (D)
+
+Solution:
+60 = 2^2 * 3 * 5. φ(60) = 60 * (1 - 1/2) * (1 - 1/3) * (1 - 1/5) = 60 * (1/2) * (2/3) * (4/5) = 16. Therefore, the correct value is 16, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q67. (Medium) What is the remainder when 11^100 is divided by 100?
+(A) 01  (B) 11  (C) 21  (D) 91
+
+Answer: (A)
+
+Solution:
+Finding remainder modulo 100 is equivalent to finding the last two digits. For 11^100, unit digit is 1 and tens digit is (1 * 0) mod 10 = 0. Last two digits are 01. Therefore, the correct value is 01, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q68. (Medium) What is the remainder when 22! is divided by 23?
+(A) 1  (B) 22  (C) 0  (D) 21
+
+Answer: (B)
+
+Solution:
+23 is prime. By Wilson's Theorem, (23 - 1)! = 22! ≡ 22 (mod 23). Therefore, the correct value is 22, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q69. (Medium) What is the remainder when 21! is divided by 23?
+(A) 22  (B) 21  (C) 1  (D) 0
+
+Answer: (C)
+
+Solution:
+By Wilson's corollary, (p - 2)! ≡ 1 (mod p) for any prime p. For p = 23, 21! ≡ 1 (mod 23). Therefore, the correct value is 1, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q70. (Medium) A number N leaves a remainder of 2 when divided by 3, and a remainder of 3 when divided by 5. What is the remainder when N is divided by 15?
+(A) 2  (B) 5  (C) 11  (D) 8
+
+Answer: (D)
+
+Solution:
+Numbers leaving remainder 3 mod 5 are 3, 8, 13, ... Testing mod 3: 8 mod 3 = 2. Thus N ≡ 8 (mod 15). Therefore, the correct value is 8, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q71. (Medium) What is the remainder when 13^12 is divided by 14?
+(A) 1  (B) 13  (C) 0  (D) 7
+
+Answer: (A)
+
+Solution:
+In mod 14 arithmetic, 13 ≡ -1. Therefore, 13^12 ≡ (-1)^12 = 1 (mod 14). Therefore, the correct value is 1, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q72. (Medium) Find the value of Euler's totient function φ(120).
+(A) 40  (B) 32  (C) 48  (D) 60
+
+Answer: (B)
+
+Solution:
+120 = 2^3 * 3 * 5. φ(120) = 120 * (1 - 1/2) * (1 - 1/3) * (1 - 1/5) = 120 * (1/2) * (2/3) * (4/5) = 32. Therefore, the correct value is 32, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q73. (Medium) What is the remainder when 3^31 is divided by 31?
+(A) 1  (B) 30  (C) 3  (D) 0
+
+Answer: (C)
+
+Solution:
+By Fermat's Little Theorem, a^p ≡ a (mod p) for any integer a and prime p. For a = 3, p = 31: 3^31 ≡ 3 (mod 31). Psychological Trap: Confusing a^(p-1) = 1 with a^p = a. Therefore, the correct value is 3, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q74. (Medium) What is the remainder when 30! is divided by 31?
+(A) 1  (B) 0  (C) 29  (D) 30
+
+Answer: (D)
+
+Solution:
+31 is prime. By Wilson's Theorem, 30! ≡ 30 (mod 31). Therefore, the correct value is 30, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q75. (Medium) What is the remainder when 29! is divided by 31?
+(A) 30  (B) 1  (C) 29  (D) 0
+
+Answer: (B)
+
+Solution:
+By Wilson's corollary, (p - 2)! ≡ 1 (mod p) for any prime p. For p = 31, 29! ≡ 1 (mod 31). Therefore, the correct value is 1, corresponding to option (B).
+
+Source: SSC CGL Pattern

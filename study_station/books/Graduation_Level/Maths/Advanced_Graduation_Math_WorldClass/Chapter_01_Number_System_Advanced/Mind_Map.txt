@@ -1,0 +1,33 @@
+```mermaid
+graph TD
+    NS["🔵 संख्या प्रणाली (Number System Advanced)"]
+    
+    NS --> MOD["🟢 मॉड्यूलर अंकगणित (Modular Arithmetic)"]
+    NS --> DIV["🟣 भाजक एवं गुणनखंड (Divisor Theory)"]
+    NS --> EXP["🟠 घातांक एवं अंक (Digits & Cyclicity)"]
+    NS --> FAC["🔴 फैक्टोरियल एवं शून्यक (Factorials & Zeroes)"]
+    
+    MOD --> EUL["यूलर टोटिएंट प्रमेय<br>a^φ(n) ≡ 1 mod n"]
+    MOD --> FER["फ़र्मेट लघु प्रमेय<br>a^(p-1) ≡ 1 mod p"]
+    MOD --> WIL["विल्सन प्रमेय<br>(p-1)! ≡ -1 mod p"]
+    MOD --> CRT["चीनी शेषफल प्रमेय (CRT)<br>x ≡ r1 mod m1"]
+    
+    DIV --> TCNT["कुल भाजक संख्या<br>τ(N) = Π(a_i + 1)"]
+    DIV --> TSUM["भाजकों का योग<br>σ(N) = Π(p^(a+1)-1)/(p-1)"]
+    DIV --> TPROD["भाजकों का गुणनफल<br>Product = N^(τ/2)"]
+    DIV --> TCPR["सह-अभाज्य युग्म<br>Pairs = 2^(k-1)"]
+    
+    EXP --> CYC["इकाई अंक चक्रीयता<br>Cyclicity mod 4"]
+    EXP --> L2D["अंतिम दो अंक<br>Binomial & 76*2^k rule"]
+    EXP --> ALG["बीजीय विभाज्यता<br>a^n ± b^n rules"]
+    
+    FAC --> LEG["लेजेंड्रे सूत्र<br>E_p(n!) = Σ ⌊n/p^k⌋"]
+    FAC --> TRZ["अंतिम शून्यक<br>Z(n!) = E_5(n!)"]
+    FAC --> BNS["आधार प्रणाली<br>Base 10, 2, 8, 16"]
+    
+    style NS fill:#4f46e5,stroke:#fff,stroke-width:2px,color:#fff
+    style MOD fill:#059669,stroke:#fff,stroke-width:2px,color:#fff
+    style DIV fill:#7c3aed,stroke:#fff,stroke-width:2px,color:#fff
+    style EXP fill:#ea580c,stroke:#fff,stroke-width:2px,color:#fff
+    style FAC fill:#dc2626,stroke:#fff,stroke-width:2px,color:#fff
+```

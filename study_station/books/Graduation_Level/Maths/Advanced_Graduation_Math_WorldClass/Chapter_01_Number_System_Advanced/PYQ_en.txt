@@ -1,0 +1,147 @@
+Advanced Number System — Exam Pattern Analysis (Graduation Level)
+
+Analysis of Recent Trends in Graduation Exams:
+Graduation-level competitive examinations (SSC CGL Tier-2, IBPS PO Mains, State PCS) have completely transitioned away from elementary divisibility tests. Modern exam papers emphasize three analytical paradigms:
+1. High-power modular exponentiation requiring Fermat's Little Theorem or Euler's Totient Theorem.
+2. Composite divisor properties (sum of reciprocals, coprime factor pairs, and even/odd divisor segregation).
+3. Complex algebraic forms such as (a^n + b^n) combined with multi-statement sufficiency evaluations.
+
+Key Examiner Traps to Avoid:
+- The Zero Trap in Totient: Forgetting that Fermat's Theorem requires gcd(a, p) = 1. If base a is a multiple of p, the remainder is simply 0, not 1!
+- The Even Exponent Trap in a^n - b^n: Students remember (a - b) as a factor but forget that when n is even, (a + b) is also a factor.
+- Units Digit of Zero Power: When the power is divisible by 4 (remainder 0), the cyclicity power used must be 4, NEVER 0!
+
+10 High-Yield Exam-Standard Pattern Questions with Detailed Solutions
+
+Question 1: What is the remainder when 3^2022 is divided by 101?
+Solution:
+Here divisor 101 is a prime number and gcd(3, 101) = 1.
+By Fermat's Little Theorem, 3^(101 - 1) = 3^100 ≡ 1 (mod 101).
+Now express 2022 in terms of 100:
+2022 = 20 * 100 + 22.
+Therefore, 3^2022 = (3^100)^20 * 3^22 ≡ (1)^20 * 3^22 = 3^22 (mod 101).
+Now, 3^4 = 81 ≡ -20 (mod 101).
+3^8 ≡ (-20)^2 = 400 ≡ 97 ≡ -4 (mod 101).
+3^16 ≡ (-4)^2 = 16 (mod 101).
+3^22 = 3^16 * 3^4 * 3^2 ≡ 16 * (-20) * 9 = -320 * 9.
+Since -320 = -3 * 101 - 17 ≡ -17 ≡ 84 (mod 101),
+84 * 9 = 756 = 7 * 101 + 49.
+The remainder is 49.
+Psychological Trap: Candidates try to calculate successive powers from the start instead of reducing via Fermat's Theorem first.
+Source: SSC CGL Pattern
+
+Question 2: What is the remainder when 97! is divided by 101?
+Solution:
+Divisor 101 is prime. By Wilson's Theorem:
+100! ≡ -1 (mod 101).
+Expanding 100!:
+100 * 99 * 98 * 97! ≡ -1 (mod 101).
+In modulo 101 arithmetic:
+100 ≡ -1, 99 ≡ -2, 98 ≡ -3 (mod 101).
+Therefore:
+(-1) * (-2) * (-3) * 97! ≡ -1 (mod 101)
+-6 * 97! ≡ -1 (mod 101)  =>  6 * 97! ≡ 1 (mod 101).
+We need the modular inverse of 6 modulo 101.
+Notice that 101 + 1 = 102, and 102 is divisible by 6 (102 / 6 = 17).
+So 6 * 17 = 102 ≡ 1 (mod 101).
+Hence, 97! ≡ 17 (mod 101). The remainder is 17.
+Psychological Trap: Students attempt to simplify factorials directly without using negative modular equivalents.
+Source: State PCS Pattern
+
+Question 3: Find the number of trailing zeroes in 126!.
+Solution:
+By Legendre's formula, the number of trailing zeroes equals E5(126!):
+Z = floor(126 / 5) + floor(126 / 25) + floor(126 / 125)
+Z = 25 + 5 + 1 = 31.
+Hence, 126! has exactly 31 trailing zeroes.
+Psychological Trap: Forgetting floor(126 / 125) which adds the 31st zero from 125 = 5^3.
+Source: IBPS PO Pattern
+
+Question 4: What is the remainder when (12^37 + 14^37) is divided by 13?
+Solution:
+Notice that 12 = 13 - 1 and 14 = 13 + 1.
+In modulo 13 arithmetic:
+12 ≡ -1 (mod 13) and 14 ≡ 1 (mod 13).
+Therefore, (12^37 + 14^37) ≡ (-1)^37 + (1)^37 = -1 + 1 = 0 (mod 13).
+The remainder is 0.
+Psychological Trap: Attempting to apply binomial expansion on both terms separately rather than modular equivalence.
+Source: SSC CGL Pattern
+
+Question 5: Find the sum of all factors of 360.
+Solution:
+The prime factorization of 360 is 2^3 * 3^2 * 5^1.
+Using the sum of divisors formula σ(N):
+σ(360) = [(2^(3+1) - 1)/(2 - 1)] * [(3^(2+1) - 1)/(3 - 1)] * [(5^(1+1) - 1)/(5 - 1)]
+σ(360) = (16 - 1)/1 * (27 - 1)/2 * (25 - 1)/4
+σ(360) = 15 * 13 * 6 = 1170.
+The sum of all factors is 1170.
+Psychological Trap: Adding powers directly instead of multiplying the geometric series sums.
+Source: State PCS Pattern
+
+Question 6: What are the last two digits of (73)^42?
+Solution:
+73^2 = 5329, which ends in 29.
+73^4 = (73^2)^2 = (29)^2 = 841, which ends in 41.
+Now, (73)^42 = (73^4)^10 * 73^2 ≡ (41)^10 * 29 (mod 100).
+For (41)^10 ending in 1:
+Units digit = 1.
+Tens digit = (4 * 0) mod 10 = 0.
+So (41)^10 ≡ 01 (mod 100).
+Thus, (73)^42 ≡ 01 * 29 = 29 (mod 100).
+The last two digits are 29.
+Psychological Trap: Trying to expand 73 directly rather than transforming to a base ending in 1.
+Source: SSC CGL Pattern
+
+Question 7: How many positive integer divisors of 7200 are multiples of 12?
+Solution:
+Prime factorize 7200:
+7200 = 72 * 100 = (2^3 * 3^2) * (2^2 * 5^2) = 2^5 * 3^2 * 5^2.
+We need divisors that are multiples of 12 = 2^2 * 3^1.
+Factor out 12 from 7200:
+7200 = 12 * (2^(5-2) * 3^(2-1) * 5^2) = 12 * (2^3 * 3^1 * 5^2).
+Any divisor of (2^3 * 3^1 * 5^2), when multiplied by 12, gives a multiple of 12.
+Number of such divisors = (3 + 1)(1 + 1)(2 + 1) = 4 * 2 * 3 = 24.
+There are 24 such divisors.
+Psychological Trap: Listing multiples manually rather than factoring out 12.
+Source: IBPS PO Pattern
+
+Question 8: What is the units digit of 2^83 * 3^45 * 7^62?
+Solution:
+Find the units digit of each component:
+1. 2^83: 83 mod 4 = 3 => 2^3 = 8.
+2. 3^45: 45 mod 4 = 1 => 3^1 = 3.
+3. 7^62: 62 mod 4 = 2 => 7^2 = 49 (unit digit 9).
+Multiplying the unit digits:
+8 * 3 * 9 = 24 * 9 -> 4 * 9 = 36 -> unit digit is 6.
+Psychological Trap: Multiplying the full bases together before checking cyclicity.
+Source: SSC CGL Pattern
+
+Question 9: What is the highest power of 12 that divides 50!?
+Solution:
+12 = 2^2 * 3^1.
+To find the maximum power of 12, we find E2(50!) and E3(50!):
+E2(50!) = floor(50/2) + floor(50/4) + floor(50/8) + floor(50/16) + floor(50/32)
+E2(50!) = 25 + 12 + 6 + 3 + 1 = 47.
+Power of 2^2 in 50! = floor(47 / 2) = 23.
+Now calculate E3(50!):
+E3(50!) = floor(50/3) + floor(50/9) + floor(50/27) = 16 + 5 + 1 = 22.
+The bottleneck is 3^22 (since 22 < 23).
+Therefore, the highest power of 12 dividing 50! is 22.
+Psychological Trap: Assuming the higher prime (3) is always the limiting factor without checking prime powers like 2^2.
+Source: State PCS Pattern
+
+Question 10: If a 9-digit number 785x3678y is divisible by 72, find the value of (x + y) for the largest possible value of y.
+Solution:
+For divisibility by 72 = 8 * 9:
+1. Divisibility by 8 requires the last three digits 78y to be divisible by 8.
+780 / 8 = 97 with remainder 4.
+So 784 is divisible by 8 (since 784 = 8 * 98).
+The possible single-digit values of y are 4. (784 is the only value; 788 is not divisible by 8).
+Thus, y = 4.
+2. Divisibility by 9 requires the digital sum to be a multiple of 9:
+Sum = 7 + 8 + 5 + x + 3 + 6 + 7 + 8 + 4 = 48 + x.
+The next multiple of 9 is 54.
+48 + x = 54 => x = 6.
+Therefore, (x + y) = 6 + 4 = 10.
+Psychological Trap: Testing divisibility by 9 first before finding the constrained values of y from the 8-rule.
+Source: SSC CGL Pattern

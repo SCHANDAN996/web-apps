@@ -1,0 +1,161 @@
+Number System (Advanced)
+What You'll Master Today
+
+Mastering modular arithmetic, Euler's totient theorem, Fermat's little theorem, and Wilson's theorem for astronomical remainders.
+
+Systematic calculation of cyclicity, units digit, and the last two digits of complex exponential towers.
+
+Advanced divisor analysis: total divisors, sum, product, sum of reciprocals, even/odd factors, and coprime pairs.
+
+Legendre's formula for the exact prime power in factorials and precision counting of trailing zeroes.
+
+Base conversions, non-decimal arithmetic, and algebraic identities of the form a^n ± b^n in divisibility.
+
+The Clockwork of Astronomical Numbers
+
+In modern public-key cryptography, such as RSA encryption, the security of world finance rests on an ancient branch of pure mathematics: modular arithmetic. When you transfer funds online or access a secure server, algorithms calculate remainders of numbers raised to powers with hundreds of digits in less than a millisecond. 
+
+How can a computer calculate the remainder when 7^2025 is divided by 100 without multiplying 7 over two thousand times? If you tried to calculate that number directly, the digits would stretch across galaxies. Yet, using the elegant principles of Euler and Fermat, the answer emerges in three neat lines of mental arithmetic.
+
+At the graduation level (SSC CGL Tier-2, IBPS PO Mains, State PCS), number system questions no longer test elementary definitions. They test structural insight into the architecture of integers. Let us break down this architecture methodically.
+
+The Core Foundations — Modular Arithmetic
+
+When an integer a is divided by a positive integer m, it yields a unique quotient q and remainder r such that a = m*q + r, where 0 <= r < m. In modular notation, we write:
+a ≡ r (mod m)
+
+Modular arithmetic behaves predictably under addition, subtraction, and multiplication:
+If a ≡ b (mod m) and c ≡ d (mod m), then:
+1. (a + c) ≡ (b + d) (mod m)
+2. (a - c) ≡ (b - d) (mod m)
+3. (a * c) ≡ (b * d) (mod m)
+4. a^k ≡ b^k (mod m) for any positive integer k.
+
+However, division is NOT permitted directly. You cannot divide both sides by an integer unless that integer is coprime to the modulus.
+
+🧠 Quick Recall:
+If 17 ≡ 3 (mod 7) and 24 ≡ 3 (mod 7), what is the remainder when (17 * 24) is divided by 7?
+(Answer: 3 * 3 = 9 ≡ 2 mod 7. Remainder is 2.)
+
+Euler's Totient Function and Theorems
+
+Euler's totient function, denoted as φ(n), counts the number of positive integers up to n that are coprime to n (i.e., gcd(k, n) = 1).
+
+If n is prime p: φ(p) = p - 1.
+If n is a prime power p^k: φ(p^k) = p^k - p^(k-1) = p^k * (1 - 1/p).
+For any integer n with prime factorization n = p1^a1 * p2^a2 * ... * pk^ak:
+φ(n) = n * (1 - 1/p1) * (1 - 1/p2) * ... * (1 - 1/pk).
+
+Euler's Totient Theorem:
+If gcd(a, n) = 1, then:
+a^φ(n) ≡ 1 (mod n)
+
+Fermat's Little Theorem (Special Case when n is prime p):
+If p is prime and gcd(a, p) = 1:
+a^(p-1) ≡ 1 (mod p)
+Consequently, a^p ≡ a (mod p) for all integers a.
+
+Wilson's Theorem:
+A natural number p > 1 is prime if and only if:
+(p - 1)! ≡ -1 (mod p)  [or (p - 1)! ≡ p - 1 (mod p)]
+A useful corollary: (p - 2)! ≡ 1 (mod p).
+
+🧠 Active Recall:
+What is the value of φ(100)?
+(Answer: 100 = 2^2 * 5^2. φ(100) = 100 * (1 - 1/2) * (1 - 1/5) = 100 * (1/2) * (4/5) = 40.)
+
+Units Digit and Cyclicity
+
+The units digit of an exponential expression a^b depends solely on the units digit of a and the cyclicity of powers modulo 10:
+- Numbers ending in 0, 1, 5, 6 have cyclicity 1 (e.g., 5^k always ends in 5, 6^k always ends in 6).
+- Numbers ending in 4, 9 have cyclicity 2 (4^odd ends in 4, 4^even ends in 6; 9^odd ends in 9, 9^even ends in 1).
+- Numbers ending in 2, 3, 7, 8 have cyclicity 4.
+
+Procedure for units digit of a^b when base ends in 2, 3, 7, 8:
+Divide the exponent b by 4.
+If remainder r is 1, 2, or 3, unit digit is the unit digit of a^r.
+If remainder r is 0, use power 4 (not 0).
+
+Last Two Digits of Any Number
+
+Finding the last two digits corresponds to finding the remainder modulo 100:
+Case 1: Numbers ending in 1 (e.g., (...a1)^b):
+- The units digit is always 1.
+- The tens digit is the units digit of (a * last digit of b).
+Example: (41)^67 ends in: units digit = 1; tens digit = (4 * 7) mod 10 = 8. Last two digits: 81.
+
+Case 2: Numbers ending in 3, 7, 9:
+Square or raise to power 4 to reduce to an expression ending in 1.
+For 3: 3^4 = 81.
+For 7: 7^4 = 2401 (ends in 01).
+For 9: 9^2 = 81.
+
+Case 3: Even numbers (powers of 2):
+Remember the benchmark 2^10 = 1024 (ends in 24).
+24^odd ends in 24.
+24^even ends in 76.
+Furthermore, 76 * 2^k always ends in the same last two digits as 2^k.
+
+🧠 Quick Recall:
+What are the last two digits of 7^400?
+(Answer: 7^4 = 2401 ≡ 01 mod 100. (7^4)^100 ≡ (01)^100 = 01.)
+
+Divisors and Factor Theory
+
+Let the canonical prime factorization of N be:
+N = p1^a1 * p2^a2 * ... * pk^ak
+
+1. Total Number of Divisors τ(N):
+τ(N) = (a1 + 1)(a2 + 1)...(ak + 1)
+
+2. Number of Odd Divisors:
+Ignore the power of 2, calculate τ(N / 2^a1).
+
+3. Number of Even Divisors:
+a1 * (a2 + 1)...(ak + 1) [where p1 = 2].
+
+4. Sum of All Divisors σ(N):
+σ(N) = [(p1^(a1+1) - 1)/(p1 - 1)] * ... * [(pk^(ak+1) - 1)/(pk - 1)]
+
+5. Product of All Divisors:
+Product = N^(τ(N) / 2)
+
+6. Coprime Factor Pairs:
+The number of ways to express N as the product of two coprime factors is 2^(k-1), where k is the number of distinct prime factors of N.
+
+Legendre's Formula and Trailing Zeroes
+
+Legendre's formula determines the highest power of a prime p dividing n! (denoted as Ep(n!)):
+Ep(n!) = floor(n / p) + floor(n / p^2) + floor(n / p^3) + ...
+
+Number of Trailing Zeroes in n!:
+A trailing zero is produced by the factor 10 = 2 * 5. In any factorial, 2 is far more abundant than 5. Therefore, the number of trailing zeroes equals E5(n!):
+Z(n!) = floor(n / 5) + floor(n / 25) + floor(n / 125) + ...
+
+Divisibility by Algebraic Identity (a^n ± b^n)
+
+For all positive integers n:
+- (a^n - b^n) is ALWAYS divisible by (a - b).
+- (a^n - b^n) is divisible by (a + b) ONLY when n is EVEN.
+- (a^n + b^n) is divisible by (a + b) ONLY when n is ODD.
+- (a^n + b^n) is NEVER divisible by (a - b) for positive distinct integers.
+
+Memory Mnemonic: "PO-EE-AO"
+- P: Plus with Odd exponent -> (a + b) is a factor.
+- EE: Even exponent with Minus -> (a - b) AND (a + b) are factors.
+- AO: All exponents with Minus -> (a - b) is ALWAYS a factor.
+
+Summary of Key Quantitative Tools
+
+| Tool / Theorem | Core Mathematical Formula | Primary Exam Application |
+|---|---|---|
+| Euler's Totient | a^φ(n) ≡ 1 (mod n), gcd(a,n)=1 | Huge exponential remainders |
+| Fermat's Theorem | a^(p-1) ≡ 1 (mod p), p is prime | Prime modulus remainders |
+| Wilson's Theorem | (p-1)! ≡ -1 (mod p) | Factorial remainders |
+| Legendre's Formula | Ep(n!) = Σ floor(n / p^k) | Highest prime power in n! |
+| Trailing Zeroes | Z(n!) = Σ floor(n / 5^k) | Count zeroes at end of product |
+| Divisors Count | τ(N) = Π (ai + 1) | Divisor enumeration |
+| Sum of Divisors | σ(N) = Π (p^(a+1)-1)/(p-1) | Divisor summation |
+| Units Cyclicity | Modulo 4 rule for {2,3,7,8} | Units digit of a^b |
+
+Review this chapter after 2 days to solidify long-term memory encoding.

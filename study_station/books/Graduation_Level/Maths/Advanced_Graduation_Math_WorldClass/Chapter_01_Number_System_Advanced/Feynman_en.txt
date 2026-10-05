@@ -1,0 +1,33 @@
+The Magic Clock of Numbers: Explaining Modular Arithmetic and Euler's Totient to a 12-Year-Old
+
+Imagine you are standing in front of an ordinary 12-hour wall clock. If the clock points to 10 o'clock right now, what time will it show in 5 hours?
+You don't say 15 o'clock. You count: 11, 12, 1, 2, 3! The clock resets every time it hits 12. 
+In mathematician language, 15 o'clock is simply 3 (modulo 12). Modular arithmetic is nothing more than clock arithmetic!
+
+Now imagine a magical game called "The Safe Numbers Club".
+Suppose our clock has 10 hours instead of 12.
+Numbers from 1 to 10 want to join the club, but there is one strict rule: you can only enter if you do NOT share any common division factor with 10 (except 1).
+- 2 shares 2 with 10 (Rejected!).
+- 4, 6, 8 share 2 (Rejected!).
+- 5 shares 5 (Rejected!).
+- 10 shares 10 (Rejected!).
+Who is left? Only 1, 3, 7, and 9. Exactly 4 lucky numbers!
+The count of these lucky numbers is called Euler's Totient, written as φ(10) = 4.
+
+The mind-blowing trick discovered by the great mathematician Leonhard Euler:
+Pick ANY number from the club, say 7.
+Raise it to the power of the club size (which is 4):
+7^4 = 7 * 7 * 7 * 7 = 49 * 49 = 2401.
+Now divide 2401 by our 10-hour clock:
+2401 = 240 * 10 + 1.
+The remainder is 1!
+
+It ALWAYS equals 1! Whether you pick 3, 7, or 9, raising it to power 4 on a 10-clock always brings you right back to 1.
+This is Euler's Totient Theorem: a^φ(n) ≡ 1 (mod n).
+Whenever you face an enormous power like 7^2025 divided by 10, you don't multiply 7 two thousand times. You just realize that every 4 steps, the clock resets to 1! 
+Since 2025 = 4 * 506 + 1, you only need to compute 7^1 = 7. The remainder is 7.
+
+Blurting Sheet (Active Recall Practice):
+1. What is modular arithmetic compared to? (A circular clock).
+2. What does φ(n) count? (Numbers up to n coprime to n).
+3. If gcd(a, n) = 1, what does a^φ(n) mod n always equal? (1).

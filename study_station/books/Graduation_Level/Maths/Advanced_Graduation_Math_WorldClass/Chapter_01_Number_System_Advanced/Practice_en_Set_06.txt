@@ -1,0 +1,249 @@
+Q126. (Hard) What is the remainder when 35! is divided by 37?
+(A) 1  (B) 36  (C) 35  (D) 0
+
+Answer: (A)
+
+Solution:
+By Wilson's Theorem for prime 37: 36! ≡ -1 (mod 37). Expanding: 36 * 35! ≡ (-1) * 35! ≡ -1 (mod 37), which gives 35! ≡ 1 (mod 37). Psychological Trap: Writing 36 as remainder by confusing (p-1)! with (p-2)!. Therefore, the correct value is 1, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q127. (Hard) What is the remainder when 34! is divided by 37?
+(A) 1  (B) 18  (C) 36  (D) 19
+
+Answer: (B)
+
+Solution:
+36! = 36 * 35 * 34! ≡ (-1)(-2) * 34! = 2 * 34! ≡ -1 ≡ 36 (mod 37). Dividing by 2 yields 34! ≡ 18 (mod 37). Therefore, the correct value is 18, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q128. (Hard) What is the remainder when 2^2023 is divided by 17?
+(A) 8  (B) 1  (C) 9  (D) 15
+
+Answer: (C)
+
+Solution:
+17 is prime. By Fermat's Theorem, 2^16 ≡ 1 (mod 17). 2023 = 16 * 126 + 7. 2^2023 ≡ 2^7 = 128 ≡ 9 (mod 17). Therefore, the correct value is 9, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q129. (Hard) Find the units digit of (32^33)^34.
+(A) 2  (B) 6  (C) 8  (D) 4
+
+Answer: (D)
+
+Solution:
+Expression equals 32^(33 * 34) = 32^1122. Base ends in 2. Exponent mod 4 is 1122 mod 4 = 2. Thus 2^2 = 4. Therefore, the correct value is 4, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q130. (Hard) What is the remainder when (19^19 + 20) is divided by 18?
+(A) 3  (B) 1  (C) 2  (D) 0
+
+Answer: (A)
+
+Solution:
+19 ≡ 1 (mod 18). Therefore, 19^19 + 20 ≡ 1^19 + 20 = 1 + 20 = 21 ≡ 3 (mod 18). Therefore, the correct value is 3, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q131. (Hard) What is the last non-zero digit of 10!?
+(A) 4  (B) 8  (C) 2  (D) 6
+
+Answer: (B)
+
+Solution:
+10! = 3628800. Removing the two terminal zeroes gives 36288, whose last digit is 8. Therefore, the correct value is 8, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q132. (Hard) A number N leaves a remainder of 3 when divided by 5, and a remainder of 5 when divided by 7. What is the remainder when N is divided by 35?
+(A) 12  (B) 19  (C) 33  (D) 26
+
+Answer: (C)
+
+Solution:
+Form of numbers is 7k + 5. Testing values: 5, 12, 19, 26, 33. For k = 4, 33 mod 5 = 3. Hence N ≡ 33 (mod 35). Therefore, the correct value is 33, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q133. (Hard) What is the remainder when 7^1000 is divided by 100?
+(A) 49  (B) 43  (C) 07  (D) 01
+
+Answer: (D)
+
+Solution:
+φ(100) = 40. By Euler's Theorem, 7^40 ≡ 1 (mod 100). Since 1000 = 40 * 25, 7^1000 = (7^40)^25 ≡ 1^25 = 01. Therefore, the correct value is 01, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q134. (Hard) What is the remainder when 3^100 is divided by 7?
+(A) 4  (B) 1  (C) 2  (D) 6
+
+Answer: (A)
+
+Solution:
+By Fermat's Theorem, 3^6 ≡ 1 (mod 7). 100 = 6 * 16 + 4. 3^100 ≡ 3^4 = 81 ≡ 4 (mod 7). Therefore, the correct value is 4, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q135. (Hard) What is the remainder when 9^100 is divided by 10?
+(A) 9  (B) 1  (C) 0  (D) 5
+
+Answer: (B)
+
+Solution:
+Powers of 9 modulo 10: 9^odd ≡ 9 and 9^even ≡ 1. Since 100 is even, the remainder is 1. Therefore, the correct value is 1, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q136. (Hard) What is the remainder when 2^50 is divided by 7?
+(A) 1  (B) 2  (C) 4  (D) 6
+
+Answer: (C)
+
+Solution:
+2^3 = 8 ≡ 1 (mod 7). 50 = 3 * 16 + 2. 2^50 = (2^3)^16 * 2^2 ≡ 1 * 4 = 4 (mod 7). Therefore, the correct value is 4, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q137. (Hard) Find the remainder when 2^100 is divided by 100.
+(A) 24  (B) 48  (C) 16  (D) 76
+
+Answer: (D)
+
+Solution:
+100 = 4 * 25. 2^100 ≡ 0 (mod 4). Modulo 25: φ(25) = 20 => 2^20 ≡ 1 (mod 25) => 2^100 ≡ 1 (mod 25). Combining ≡ 1 mod 25 and ≡ 0 mod 4 gives 76. Psychological Trap: Assuming 2^100 ends in 24 instead of 76. Therefore, the correct value is 76, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q138. (Hard) What is the remainder when 5^100 is divided by 1000?
+(A) 625  (B) 125  (C) 375  (D) 875
+
+Answer: (A)
+
+Solution:
+1000 = 8 * 125. 5^100 ≡ 0 (mod 125). In mod 8: 5^2 = 25 ≡ 1, so 5^100 ≡ 1 (mod 8). The multiple of 125 that is ≡ 1 mod 8 is 625. Therefore, the correct value is 625, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q139. (Hard) What is the remainder when 100! is divided by 101?
+(A) 1  (B) 100  (C) 0  (D) 99
+
+Answer: (B)
+
+Solution:
+101 is prime. By Wilson's Theorem, 100! ≡ -1 ≡ 100 (mod 101). Therefore, the correct value is 100, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q140. (Hard) What is the remainder when 98! is divided by 101?
+(A) 1  (B) 100  (C) 50  (D) 51
+
+Answer: (C)
+
+Solution:
+100! = 100 * 99 * 98! ≡ (-1)(-2) * 98! = 2 * 98! ≡ -1 ≡ 100 (mod 101). Dividing by 2 gives 98! ≡ 50 (mod 101). Therefore, the correct value is 50, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q141. (Hard) What is the units digit of 7^(4^3)?
+(A) 7  (B) 9  (C) 3  (D) 1
+
+Answer: (D)
+
+Solution:
+The exponent is 4^3 = 64. 64 is divisible by 4, so use power 4. 7^4 = 2401, which ends in 1. Therefore, the correct value is 1, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q142. (Hard) Find the digital root of 7^10.
+(A) 7  (B) 4  (C) 1  (D) 9
+
+Answer: (A)
+
+Solution:
+Digital root is modulo 9. 7^1 ≡ 7, 7^2 = 49 ≡ 4, 7^3 = 343 ≡ 1 (mod 9). Cyclicity is 3. 10 mod 3 = 1 => digital root is 7. Therefore, the correct value is 7, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q143. (Hard) What is the remainder when (23^23 + 31^23) is divided by 54?
+(A) 1  (B) 0  (C) 27  (D) 53
+
+Answer: (B)
+
+Solution:
+For odd exponent n = 23, (a^n + b^n) is divisible by (a + b) = 23 + 31 = 54. Hence the remainder is 0. Therefore, the correct value is 0, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q144. (Hard) How many zeroes are there at the end of (50! / 20!)?
+(A) 12  (B) 4  (C) 8  (D) 6
+
+Answer: (C)
+
+Solution:
+Z(50!) = 10 + 2 = 12. Z(20!) = 4. Zeroes at the end = 12 - 4 = 8. Therefore, the correct value is 8, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q145. (Hard) Convert the decimal number 100 into base-7 representation.
+(A) 204  (B) 162  (C) 212  (D) 202
+
+Answer: (D)
+
+Solution:
+100 / 7 = 14 rem 2; 14 / 7 = 2 rem 0; 2 / 7 = 0 rem 2. Reading remainders bottom to top gives (202)_7. Therefore, the correct value is 202, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q146. (Hard) If (73 * k) leaves a remainder of 1 modulo 100, where 0 < k < 100, find k.
+(A) 37  (B) 27  (C) 47  (D) 17
+
+Answer: (A)
+
+Solution:
+73 * 37 = 2701 ≡ 1 (mod 100). Thus k = 37. Therefore, the correct value is 37, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q147. (Hard) What is the units digit of 2^(3^(4^5))?
+(A) 4  (B) 2  (C) 8  (D) 6
+
+Answer: (B)
+
+Solution:
+Base ends in 2, cyclicity is 4. Exponent is 3^(even), which is ≡ 1 (mod 4). Thus 2^1 = 2. Psychological Trap: Evaluating the tower from bottom to top instead of top to bottom. Therefore, the correct value is 2, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q148. (Hard) What is the remainder when 6^100 is divided by 100?
+(A) 24  (B) 36  (C) 76  (D) 56
+
+Answer: (C)
+
+Solution:
+6^100 mod 4 = 0. In mod 25: φ(25) = 20 => 6^20 ≡ 1 => 6^100 ≡ 1 (mod 25). The multiple of 25 plus 1 divisible by 4 is 76. Therefore, the correct value is 76, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q149. (Hard) What are the last two digits of (19)^40?
+(A) 81  (B) 61  (C) 21  (D) 01
+
+Answer: (D)
+
+Solution:
+19^2 = 361 ends in 61. 19^40 = (61)^20. For base ending in 1, unit digit is 1 and tens digit is (6 * 0) mod 10 = 0. Last two digits are 01. Therefore, the correct value is 01, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q150. (Hard) What is the remainder when 12^99 is divided by 11?
+(A) 10  (B) 1  (C) 2  (D) 0
+
+Answer: (B)
+
+Solution:
+12 ≡ 1 (mod 11). Therefore, 12^99 ≡ 1^99 = 1 (mod 11). Therefore, the correct value is 1, corresponding to option (B).
+
+Source: SSC CGL Pattern

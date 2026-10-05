@@ -1,0 +1,48 @@
+Trick 1: Fast Units Digit of 4 and 9
+Rule: 4^odd = 4, 4^even = 6. 9^odd = 9, 9^even = 1.
+Memory aid: 4 squared is 16 (ends in 6), 9 squared is 81 (ends in 1).
+
+Trick 2: The Modulo 4 Clock for {2, 3, 7, 8}
+Rule: Just divide the last two digits of the exponent by 4. If remainder is 0, use power 4.
+Example: 7^98 -> 98 mod 4 = 2 -> 7^2 = 49 -> unit digit 9.
+
+Trick 3: Tens Digit for Numbers Ending in 1: (...a1)^b
+Rule: Unit digit is always 1. Tens digit = (a * last digit of b) mod 10.
+Example: 31^47 -> Unit digit = 1. Tens digit = (3 * 7) mod 10 = 1. Last two digits = 11.
+
+Trick 4: The 76 Power Magnet
+Rule: 76 * 2^k always ends in the same last two digits as 2^k (for k >= 2).
+Example: 76 * 2^6 = 76 * 64 -> ends in 64!
+
+Trick 5: Euler Totient Shortcut for Primes and Prime Powers
+Rule: φ(p) = p - 1. For p^k, subtract p^(k-1): φ(p^k) = p^k - p^(k-1).
+Example: φ(81) = φ(3^4) = 81 - 27 = 54.
+
+Trick 6: Fermat's Super Shortcut
+Rule: If dividing a^(p-1) by prime p, write remainder 1 immediately without calculating!
+Example: 19^100 mod 101 = 1.
+
+Trick 7: Wilson's Factorial Remainder
+Rule: (p - 1)! mod p is always (p - 1). Also (p - 2)! mod p is always 1.
+Example: 28! mod 29 = 1.
+
+Trick 8: Combined Divisibility by 7, 11, and 13 (The 1001 Rule)
+Rule: Form 3-digit groups from right to left. Alternating sum of groups mod 1001 tells you divisibility by 7, 11, and 13.
+Example: For 123,456 -> 456 - 123 = 333 (divisible neither by 7, 11, nor 13).
+
+Trick 9: Odd and Even Factor Count Trick
+Rule: Given N = 2^a * 3^b * 5^c... To find odd factors, simply cover up 2^a and calculate (b+1)(c+1)...
+To find even factors, multiply power of 2 (a) by (b+1)(c+1)...
+
+Trick 10: Trailing Zeroes Quick Step
+Rule: Divide the number by 5, keep dividing quotients by 5, and sum the quotients.
+Example: 100! -> 100/5 = 20; 20/5 = 4. Total = 20 + 4 = 24 zeroes.
+
+Trick 11: Base-n Conversion Mental Trick
+Rule: To convert integer from Base 10 to Base b, repeatedly divide by b and record remainders from bottom to top.
+
+Trick 12: Algebraic Factor Shortcut "PO-EE-AO"
+Rule:
+- PO: Plus with Odd exponent -> (a+b) divides.
+- EE: Even with minus -> both (a-b) and (a+b) divide.
+- AO: All with minus -> (a-b) always divides.
