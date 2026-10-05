@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 05-10-2026 09:44 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 05-10 09:32 PM
+**आख़िरी update:** 05-10-2026 09:48 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 05-10 09:32 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Noun (Graduation English) | ✍️ लिख रहा है | 12 मिनट |
-| W2 | Chapter 02 Pronoun (Graduation English) | ✍️ लिख रहा है | 12 मिनट |
-| W3 | Chapter 03 Adjective (Graduation English) | ✍️ लिख रहा है | 12 मिनट |
-| W4 | Chapter 04 Verb (Graduation English) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 01 Noun (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
+| W2 | Chapter 02 Pronoun (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
+| W3 | Chapter 03 Adjective (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
+| W4 | Chapter 05 Tense (Graduation English) | ✍️ लिख रहा है | 2 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -38,11 +38,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-05-10 21:27:32   [Adjective] Practice_en_Set_06.txt try 1: rejected (parsed 14 questions, numbers 126…149)
-05-10 21:30:11   [Adjective] Practice_en_Set_06.txt try 2: rejected (parsed 12 questions, numbers 126…149)
-05-10 21:30:26   [Verb] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-05-10 21:30:30   [Pronoun] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-05-10 21:32:07 autopilot start: 4 workers, reverse=True
 05-10 21:32:07 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_01_Noun (TODO: todo 2, problems 1)
 05-10 21:32:12 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_02_Pronoun (TODO: todo 7, problems 1)
 05-10 21:32:17 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_03_Adjective (TODO: todo 6, problems 1)
@@ -78,4 +73,9 @@
 05-10 21:44:59   [Verb] File "/home/user/web-apps/study_station/v2/app/nvidia.py", line 82, in _call_once
 05-10 21:44:59   [Verb] raise AIUnavailable('empty')
 05-10 21:44:59   [Verb] app.ai.AIUnavailable: empty
+05-10 21:45:05 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_04_Verb in 13 min → a151d95
+05-10 21:45:05 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_05_Tense (TODO: todo 26, problems 0)
+05-10 21:45:27   [Pronoun] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+05-10 21:46:36   [Tense] wrote Content_en.txt (7122 chars)
+05-10 21:47:44   [Adjective] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 ```
