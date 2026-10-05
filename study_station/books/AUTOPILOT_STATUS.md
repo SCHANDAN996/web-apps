@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 06-10-2026 02:05 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 01:25 AM
+**आख़िरी update:** 06-10-2026 02:11 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 01:25 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Pronoun (Graduation English) | 📤 push हो रहा है | 0 मिनट |
-| W2 | Chapter 08 Conjunction (Graduation English) | ✍️ लिख रहा है | 16 मिनट |
-| W3 | Chapter 07 Preposition (Graduation English) | ✍️ लिख रहा है | 19 मिनट |
-| W4 | Chapter 09 Articles (Graduation English) | ✍️ लिख रहा है | 1 मिनट |
+| W1 | Chapter 10 Voice (Graduation English) | ✍️ लिख रहा है | 5 मिनट |
+| W2 | Chapter 08 Conjunction (Graduation English) | ✍️ लिख रहा है | 22 मिनट |
+| W3 | Chapter 07 Preposition (Graduation English) | ✍️ लिख रहा है | 25 मिनट |
+| W4 | Chapter 09 Articles (Graduation English) | ✍️ लिख रहा है | 7 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -43,16 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-06-10 01:32:13   [Tense] review Mind_Map_en.txt: 1 issue(s): - "12 GOLDEN RULES" label shows only 6 rules (E1–E6) → change label to "6 GOLDEN RULES" or add the missing 6 rules
-06-10 01:32:24   [Pronoun] review Content_en.txt: 1 issue(s): - Rule 10 example "He is the same man as came yesterday" incorrectly uses 'as' instead of 'that' for identity → He 
-06-10 01:33:27   [Tense] review Mind_Map_hi.txt: 1 issue(s): - H1 म्नेमोनिक "S-P-C-P: Simple-Perfect -Continuous-Perfect Cont." कालों का क्रम गलत दर्शाता है → सही क्रम है: Sim
-06-10 01:35:32   [Adverb] review Content_en.txt: 2 issue(s): - "Why This Chapter Can Win You 4–6 Marks" (invented exam weightage claim) → Remove the specific mark claim or cite
-06-10 01:36:54   [Adjective] review Mind_Map_en.txt: 1 issue(s): - The node "12 Golden Rules" (E) lists only 6 rules (E1–E6) → Either provide all 12 rules or change the heading to
-06-10 01:38:28   [Pronoun] review Content_hi.txt: 1 issue(s): - Root table lists 'nom/nomen' (Latin, 'नाम') as the root for 'autonomous', but 'autonomous' derives from Greek 'no
-06-10 01:41:10   [Adjective] review Mind_Map_hi.txt: 1 issue(s): - "संबंधवाचक" का प्रयोग Possessive Adjective (my, his, their) के लिए गलत है → सही हिन्दी पद "स्वामित्ववाचक" या "अध
-06-10 01:41:36   [Adverb] review Feynman_hi.txt: 2 issue(s): - First definition says “Adverb किसी भी चीज़ को 'कैसे, कब, कितना' बताने वाला शब्द है” — adverbs modify verbs, adjec
-06-10 01:45:42   [Pronoun] review Feynman_en.txt: 1 issue(s): - The hint includes "every" as a word that is always singular, but "every" is a determiner, not a pronoun; use sing
-06-10 01:46:08   [Tense] review: 2 section(s) corrected, 0 failed
 06-10 01:46:08   [Tense] written 2, failed 0; AI calls today 138/100000
 06-10 01:46:15 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_05_Tense in 20 min → 97c9f81
 06-10 01:46:15 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_07_Preposition (TODO: todo 9, problems 0)
@@ -83,4 +73,14 @@
 06-10 02:05:32   [Articles] wrote Content_en.txt (6073 chars)
 06-10 02:05:52   [Pronoun] review: 5 section(s) corrected, 0 failed
 06-10 02:05:52   [Pronoun] written 5, failed 0; AI calls today 185/100000
+06-10 02:05:59 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_02_Pronoun in 40 min → 88b4444
+06-10 02:05:59 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_10_Voice (TODO: todo 26, problems 0)
+06-10 02:07:09   [Voice] wrote Content_en.txt (7034 chars)
+06-10 02:09:18   [Articles] wrote Content_hi.txt (10347 chars)
+06-10 02:09:27   [Conjunction] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+06-10 02:09:34   [Voice] wrote Content_hi.txt (9865 chars)
+06-10 02:10:09   [Preposition] Practice_en_Set_02.txt try 2: re-solve disagrees (Q39 key d vs re-solve ?, Q42 key d vs re-solve ?)
+06-10 02:10:14   [Voice] wrote Feynman_en.txt (3066 chars)
+06-10 02:10:38   [Articles] wrote Feynman_en.txt (2418 chars)
+06-10 02:11:36   [Articles] wrote Feynman_hi.txt (2380 chars)
 ```
