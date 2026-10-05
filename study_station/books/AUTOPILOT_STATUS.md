@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 05-10-2026 10:18 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 05-10 09:32 PM
+**आख़िरी update:** 05-10-2026 10:26 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 05-10 10:25 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 06 Adverb (Graduation English) | ✍️ लिख रहा है | 13 मिनट |
-| W2 | Chapter 02 Pronoun (Graduation English) | ✍️ लिख रहा है | 46 मिनट |
-| W3 | Chapter 03 Adjective (Graduation English) | 🔎 review हो रहा है | 3 मिनट |
-| W4 | Chapter 05 Tense (Graduation English) | ✍️ लिख रहा है | 33 मिनट |
+| W1 | Chapter 02 Pronoun (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
+| W2 | Chapter 05 Tense (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
+| W3 | Chapter 06 Adverb (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
+| W4 | Chapter 07 Preposition (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,20 +39,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-05-10 22:04:44   [Noun] File "<frozen runpy>", line 198, in _run_module_as_main
-05-10 22:04:44   [Noun] File "<frozen runpy>", line 88, in _run_code
-05-10 22:04:44   [Noun] File "/home/user/web-apps/study_station/v2/app/bookgen.py", line 654, in <module>
-05-10 22:04:44   [Noun] sys.exit(main())
-05-10 22:04:44   [Noun] ^^^^^^
-05-10 22:04:44   [Noun] File "/home/user/web-apps/study_station/v2/app/bookgen.py", line 640, in main
-05-10 22:04:44   [Noun] written, failed = review(db, chapter)
-05-10 22:04:44   [Noun] ^^^^^^^^^^^^^^^^^^^
-05-10 22:04:44   [Noun] File "/home/user/web-apps/study_station/v2/app/bookgen.py", line 519, in review
-05-10 22:04:44   [Noun] issues = _review_issues(_ask_review(db, review_request(name, text)))
-05-10 22:04:44   [Noun] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-05-10 22:04:44   [Noun] File "/home/user/web-apps/study_station/v2/app/bookgen.py", line 503, in _ask_review
-05-10 22:04:44   [Noun] return nvidia.call(REVIEW_SYSTEM, user, max_tokens=MAX_TOKENS, temperature=0, model=config.NVIDIA_CHECK_MODEL)
-05-10 22:04:44   [Noun] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 05-10 22:04:44   [Noun] File "/home/user/web-apps/study_station/v2/app/nvidia.py", line 29, in call
 05-10 22:04:44   [Noun] return _call_once(system, user, max_tokens, temperature, model)
 05-10 22:04:44   [Noun] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -79,4 +65,18 @@
 05-10 22:16:50   [Adverb] wrote Feynman_hi.txt (2959 chars)
 05-10 22:17:32   [Adverb] wrote Mind_Map_en.txt (2414 chars)
 05-10 22:18:02   [Adjective] review Content_en.txt: 2 issue(s): - The claim that almost every SSC CGL, IBPS PO, and State PCS prelims paper has 2–4 adjective-error questions is an
+05-10 22:18:57   [Adverb] wrote Mind_Map_hi.txt (1859 chars)
+05-10 22:19:45   [Tense] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+05-10 22:21:22   [Tense] Practice_en_Set_03.txt try 1: rejected (Q62:leaked_reasoning,Q70:leaked_reasoning)
+05-10 22:21:54   [Pronoun] Practice_en_Set_06.txt try 1: re-solve disagrees (Q132 key c vs re-solve a, Q138 key c vs re-solve a)
+05-10 22:22:18   [Adverb] wrote Flashcards_en.txt (4668 chars)
+05-10 22:22:36   [Tense] Practice_en_Set_03.txt try 2: rejected (Q63:leaked_reasoning)
+05-10 22:23:40   [Adverb] wrote Flashcards_hi.txt (4541 chars)
+05-10 22:25:12   [Adverb] wrote PYQ_en.txt (7961 chars)
+05-10 22:25:21   [Adjective] review Content_hi.txt: 2 issue(s): - Hook contains invented exam statistic "80% छात्रों ने 'than' भरा" → Replace with a non-specific phrase like "अधिक
+05-10 22:25:53 autopilot start: 4 workers, reverse=True
+05-10 22:25:53 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_02_Pronoun (TODO: todo 4, problems 1)
+05-10 22:25:58 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_05_Tense (TODO: todo 10, problems 2)
+05-10 22:26:03 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_06_Adverb (TODO: todo 18, problems 0)
+05-10 22:26:08 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_07_Preposition (TODO: todo 26, problems 0)
 ```
