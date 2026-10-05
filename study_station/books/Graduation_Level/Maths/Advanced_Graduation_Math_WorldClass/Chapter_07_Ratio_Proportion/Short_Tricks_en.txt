@@ -1,0 +1,21 @@
+# Short Tricks & Mental Hacks: Ratio & Proportion
+
+### Trick 1: The 'N-Method' for Ratio Merging
+To combine A : B = a : b and B : C = c : d:
+- First term = a * c
+- Middle term = b * c
+- Last term = b * d
+Directly yields A : B : C in one step without common denominator operations.
+
+### Trick 2: Constant Added to Four Numbers
+To find x added to a, b, c, d to make them in proportion:
+`x = (ad - bc) / [(b + c) - (a + d)]`
+
+### Trick 3: Instant Coin Conversion
+Multiply the ratio terms directly by the rupee equivalent of each denomination:
+`Total Value Units = c_1 * d_1 + c_2 * d_2 + c_3 * d_3`
+Divide total cash by this sum to find the multiplier factor x in 5 seconds.
+
+### Trick 4: Fast Componendo & Dividendo
+Whenever (A + B) / (A - B) = m / n appears:
+Immediately write: `A / B = (m + n) / (m - n)`.

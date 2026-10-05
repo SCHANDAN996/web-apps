@@ -1,0 +1,44 @@
+# Chapter 07: Ratio & Proportion (Comprehensive Graduation Level Foundation)
+
+## 1. Fundamentals of Ratios
+A ratio represents the quantitative comparison of two homogeneous quantities of the same kind, expressed in the form a : b or a / b, where b != 0.
+- **Antecedent and Consequent:** In the ratio a : b, the first term 'a' is called the antecedent, and the second term 'b' is called the consequent.
+- **Invariance Property:** Multiplying or dividing both antecedent and consequent by the same non-zero quantity preserves the ratio: (a * k) : (b * k) = a : b.
+
+## 2. Derived and Special Ratios
+- **Duplicate Ratio:** The duplicate ratio of a : b is a^2 : b^2.
+- **Sub-duplicate Ratio:** The sub-duplicate ratio of a : b is sqrt(a) : sqrt(b).
+- **Triplicate Ratio:** The triplicate ratio of a : b is a^3 : b^3.
+- **Sub-triplicate Ratio:** The sub-triplicate ratio of a : b is a^(1/3) : b^(1/3).
+- **Inverse / Reciprocal Ratio:** The inverse ratio of a : b is 1/a : 1/b = b : a.
+- **Compound Ratio:** For ratios a : b, c : d, and e : f, the compound ratio is (a * c * e) : (b * d * f).
+
+## 3. Principles of Proportion
+Four quantities a, b, c, d are in proportion (written a : b :: c : d) if and only if a / b = c / d.
+- **Product of Extremes = Product of Means:** a * d = b * c.
+- **Fourth Proportional:** If a : b = c : x, then fourth proportional x = (b * c) / a.
+- **Third Proportional:** If a, b, x are in continued proportion (a : b = b : x), then third proportional x = b^2 / a.
+- **Mean Proportional:** Between two positive numbers a and b, the mean proportional x = sqrt(a * b).
+
+## 4. Key Algebraic Transformations (Invertendo, Alternendo, Componendo, Dividendo)
+If a / b = c / d, then:
+- **Invertendo:** b / a = d / c
+- **Alternendo:** a / c = b / d
+- **Componendo:** (a + b) / b = (c + d) / d
+- **Dividendo:** (a - b) / b = (c - d) / d
+- **Componendo & Dividendo (C&D):** (a + b) / (a - b) = (c + d) / (c - d)
+
+## 5. Merging and Combining Ratios
+If a : b = p : q and b : c = r : s:
+To find a : b : c, equalize the common term 'b' by multiplying the first ratio by r and the second ratio by q:
+a : b : c = (p * r) : (q * r) : (q * s).
+
+## 6. Coin and Denomination Problems
+When a bag contains coins of denominations d_1, d_2, d_3 (e.g., Re 1, 50 paise, 25 paise) in the ratio c_1 : c_2 : c_3:
+Total monetary value = (c_1 * x * d_1) + (c_2 * x * d_2) + (c_3 * x * d_3) = Total Value.
+Always convert all values into a uniform unit (either all in Rupees or all in Paise).
+
+## 7. Cross-Multiplication Method for Ratio Transitions
+When two quantities in initial ratio a : b change to c : d after adding or subtracting amounts p and q:
+Initial quantities: ax and bx.
+(ax + p) / (bx + q) = c / d => d*(ax + p) = c*(bx + q) => (ad - bc)x = cq - dp.

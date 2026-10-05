@@ -1,0 +1,54 @@
+# High-Yield Pattern Analysis: Ratio & Proportion (Graduation Level)
+
+### Pattern 1: Three and Four Variable Ratio Merging
+**Problem:** If a : b = 2 : 3, b : c = 4 : 5, and c : d = 6 : 7, find a : d.
+- **Analysis:** a / d = (a / b) * (b / c) * (c / d) = (2 / 3) * (4 / 5) * (6 / 7) = 48 / 105 = 16 / 35. Thus, a : d = 16 : 35.
+- **Psychological Trap:** Merging all four ratios step by step when only the extreme ends (a : d) are required.
+- **Source:** SSC CGL Pattern
+
+### Pattern 2: Mean Proportional of Surds
+**Problem:** Find the mean proportional between (3 + sqrt(2)) and (12 - sqrt(32)).
+- **Analysis:** Note that 12 - sqrt(32) = 12 - 4*sqrt(2) = 4 * (3 - sqrt(2)). Product = (3 + sqrt(2)) * 4 * (3 - sqrt(2)) = 4 * (9 - 2) = 4 * 7 = 28. Mean proportional = sqrt(28) = 2*sqrt(7).
+- **Source:** SSC CGL Pattern
+
+### Pattern 3: Third and Fourth Proportional
+**Problem:** What is the third proportional to 16 and 36?
+- **Analysis:** Third proportional x = b^2 / a = 36^2 / 16 = 1296 / 16 = 81.
+- **Psychological Trap:** Mistaking third proportional for mean proportional or dividing 16 by 36.
+- **Source:** State PCS Pattern
+
+### Pattern 4: Coin Denominations in a Bag
+**Problem:** A bag contains Rs 1, 50 paise, and 25 paise coins in the ratio 5 : 6 : 8. If the total value of all coins is Rs 210, find the number of 50 paise coins.
+- **Analysis:** Value ratio = (5 * 1) : (6 * 0.50) : (8 * 0.25) = 5 : 3 : 2. Total units = 5 + 3 + 2 = 10 units = Rs 210 => 1 unit = Rs 21. Value of 50 paise coins = 3 * 21 = Rs 63. Number of 50 paise coins = 63 / 0.50 = 126 coins.
+- **Psychological Trap:** Forgetting to divide the value in Rupees by the face value to obtain the coin count.
+- **Source:** SSC CGL Pattern
+
+### Pattern 5: Cross Multiplication in Income and Expenditure
+**Problem:** The monthly incomes of two persons are in the ratio 5 : 3 and their expenditures are in the ratio 9 : 5. If they save Rs 1,300 and Rs 900 respectively, find their monthly incomes.
+- **Analysis:** Cross multiplication: (5 * 5 - 3 * 9)x = 5 * (-1300) - 9 * (-900) => (25 - 27)x = -6500 + 8100 => -2x = 1600... wait: 5*5 - 9*3 = 25 - 27 = -2. 9*900 - 5*1300 = 8100 - 6500 = 1600. 2x = 1600 => x = 800. Incomes are 5*800 = Rs 4,000 and 3*800 = Rs 2,400.
+- **Source:** SSC CGL Pattern
+
+### Pattern 6: Constant Difference (Age Transition)
+**Problem:** The ratio of ages of two brothers is 4 : 5. After 5 years, their ratio becomes 5 : 6. What is the present age of the elder brother?
+- **Analysis:** The difference between terms (5 - 4 = 1, and 6 - 5 = 1) is already identical. The increase of 1 unit corresponds to 5 years. Elder brother's age = 5 * 5 = 25 years.
+- **Source:** State PCS Pattern
+
+### Pattern 7: Componendo and Dividendo in Algebraic Fractions
+**Problem:** If (x + y) / (x - y) = 7 / 3, find the value of (x^2 - y^2) / (x^2 + y^2).
+- **Analysis:** By C&D: x / y = (7 + 3) / (7 - 3) = 10 / 4 = 5 / 2. Then x^2 / y^2 = 25 / 4. Required ratio = (25 - 4) / (25 + 4) = 21 / 29.
+- **Source:** SSC CGL Pattern
+
+### Pattern 8: Equal Additions to All Terms
+**Problem:** What number must be added to each of the numbers 6, 14, 18, and 38 so that the resulting numbers form a proportion?
+- **Analysis:** (6 + x) / (14 + x) = (18 + x) / (38 + x). Formula: x = (ad - bc) / [(b + c) - (a + d)] = (6*38 - 14*18) / [(14 + 18) - (6 + 38)] = (228 - 252) / (32 - 44) = -24 / -12 = 2.
+- **Source:** SSC CGL Pattern
+
+### Pattern 9: Distribution with Interdependent Shares
+**Problem:** A sum of Rs 730 is divided among A, B, and C such that if A gets Rs 3, B gets Rs 4; and if B gets Rs 3.50, C gets Rs 3. Find B's share.
+- **Analysis:** a : b = 3 : 4 = 21 : 28. b : c = 3.5 : 3 = 7 : 6 = 28 : 24. Thus, a : b : c = 21 : 28 : 24. Total parts = 21 + 28 + 24 = 73 parts = Rs 730 => 1 part = Rs 10. B's share = 28 * 10 = Rs 280.
+- **Source:** IBPS PO Pattern
+
+### Pattern 10: Equalizing Volume in Mixtures
+**Problem:** Two vessels contain milk and water in the ratio 7 : 5 and 7 : 9. If equal quantities are mixed from both vessels, what is the ratio of milk to water in the new mixture?
+- **Analysis:** Total units in vessel 1 = 7 + 5 = 12. Total in vessel 2 = 7 + 9 = 16. LCM(12, 16) = 48. Scale vessel 1 by 4: Milk = 28, Water = 20. Scale vessel 2 by 3: Milk = 21, Water = 27. Combined Milk = 28 + 21 = 49. Combined Water = 20 + 27 = 47. Ratio = 49 : 47.
+- **Source:** SSC CGL Pattern

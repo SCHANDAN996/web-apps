@@ -1,0 +1,26 @@
+```mermaid
+graph TD
+    A["Ratio & Proportion (अनुपात और समानुपात)"] --> B["Basic Ratios & Derived Types"]
+    A --> C["Proportions & Medians"]
+    A --> D["Algebraic Properties (C&D)"]
+    A --> E["Income, Expenditure & Coins"]
+    A --> F["Mixing & Cross-Multiplication"]
+    
+    B --> B1["Simplification & Ratio Merging"]
+    B --> B2["Duplicate: a^2:b^2<br>Triplicate: a^3:b^3"]
+    B --> B3["Sub-duplicate & Sub-triplicate"]
+    
+    C --> C1["Fourth Proportional: bc/a"]
+    C --> C2["Third Proportional: b^2/a"]
+    C --> C3["Mean Proportional: sqrt(ab)"]
+    
+    D --> D1["Componendo: (a+b)/b"]
+    D --> D2["Dividendo: (a-b)/b"]
+    D --> D3["C&D: (a+b)/(a-b) = (c+d)/(c-d)"]
+    
+    E --> E1["Income = Exp + Savings"]
+    E --> E2["Coin Count * Denomination = Total Value"]
+    
+    F --> F1["Cross Product: (ad - bc)x"]
+    F --> F2["Equal Additions & Subtractions"]
+```

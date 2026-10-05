@@ -1,0 +1,249 @@
+Q51. (Medium) The monthly incomes of two persons are in the ratio 5 : 3 and their monthly expenditures are in the ratio 9 : 5. If they save Rs 1,300 and Rs 900 respectively, find the monthly income of the first person.
+(A) Rs 4,000  (B) Rs 3,600  (C) Rs 4,500  (D) Rs 3,200
+
+Answer: (A)
+
+Solution:
+Using cross multiplication: (5 * 5 - 3 * 9)x = 5 * (-1300) - 9 * (-900) => (25 - 27)x = -6500 + 8100 => -2x = 1600... absolute difference: |25 - 27|x = |8100 - 6500| => 2x = 1600 => x = 800. Monthly income of first person = 5 * 800 = Rs 4,000. Therefore, the correct value is Rs 4,000, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q52. (Medium) If a : b = 1 : 2, b : c = 3 : 4, c : d = 5 : 6, and d : e = 7 : 8, find the ratio a : e.
+(A) 35 : 256  (B) 35 : 128  (C) 35 : 64  (D) 7 : 32
+
+Answer: (B)
+
+Solution:
+Ratio a / e = (a / b) * (b / c) * (c / d) * (d / e) = (1 / 2) * (3 / 4) * (5 / 6) * (7 / 8) = 105 / 384 = 35 / 128. Therefore, the correct value is 35 : 128, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q53. (Medium) A sum of Rs 1,300 is divided among P, Q, R, and S such that (P's share / Q's share) = (Q's share / R's share) = (R's share / S's share) = 2/3. What is P's share?
+(A) Rs 240  (B) Rs 360  (C) Rs 160  (D) Rs 540
+
+Answer: (C)
+
+Solution:
+The continuous ratio P : Q : R : S = 2^3 : (2^2 * 3) : (2 * 3^2) : 3^3 = 8 : 12 : 18 : 27. Sum of parts = 8 + 12 + 18 + 27 = 65 parts. 65 parts = 1,300 => 1 part = 20. P's share = 8 * 20 = Rs 160. Therefore, the correct value is Rs 160, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q54. (Medium) A sum of Rs 3,000 is distributed among A, B, and C such that A receives 1/3 as much as B and C together receive, and B receives 2/3 as much as A and C together receive. Find the share of C.
+(A) Rs 1,200  (B) Rs 750  (C) Rs 950  (D) Rs 1,050
+
+Answer: (D)
+
+Solution:
+A = (1/3)(B + C) => A / (B + C) = 1 / 3 => A / (A + B + C) = 1 / 4. A's share = 3000 * 1/4 = Rs 750. Also, B = (2/3)(A + C) => B / (A + C) = 2 / 3 => B / (A + B + C) = 2 / 5. B's share = 3000 * 2/5 = Rs 1,200. C's share = 3000 - (750 + 1200) = 3000 - 1950 = Rs 1,050. Therefore, the correct value is Rs 1,050, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q55. (Medium) In a mixture of 45 liters, the ratio of liquid A and liquid B is 7 : 2. If 10 liters of liquid B is added to the mixture, what will be the ratio of liquid A and liquid B in the new mixture?
+(A) 7 : 4  (B) 7 : 5  (C) 3 : 2  (D) 5 : 3
+
+Answer: (A)
+
+Solution:
+Initial volume of liquid A = 45 * (7 / 9) = 35 liters, and liquid B = 45 * (2 / 9) = 10 liters. Adding 10 liters of B gives 10 + 10 = 20 liters of liquid B. New ratio of A to B = 35 : 20 = 7 : 4. Therefore, the correct value is 7 : 4, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q56. (Medium) If x : y = 4 : 5 and y : z = 6 : 7, find x : y : z.
+(A) 20 : 30 : 35  (B) 24 : 30 : 35  (C) 24 : 28 : 35  (D) 18 : 30 : 35
+
+Answer: (B)
+
+Solution:
+x : y : z = (4 * 6) : (5 * 6) : (5 * 7) = 24 : 30 : 35. Therefore, the correct value is 24 : 30 : 35, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q57. (Medium) The ratio of the incomes of two persons is 9 : 7 and the ratio of their expenditures is 4 : 3. If each of them manages to save Rs 2,000 per month, find their monthly incomes.
+(A) Rs 16,000 and Rs 12,000  (B) Rs 20,000 and Rs 15,000  (C) Rs 18,000 and Rs 14,000  (D) Rs 27,000 and Rs 21,000
+
+Answer: (C)
+
+Solution:
+Using cross multiplication: (9 * 3 - 7 * 4)x = 2,000 * (3 - 4) => (27 - 28)x = -2,000 => -x = -2,000 => x = 2,000. Monthly incomes are 9 * 2,000 = Rs 18,000 and 7 * 2,000 = Rs 14,000. Therefore, the correct value is Rs 18,000 and Rs 14,000, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q58. (Medium) A person divides Rs 6,800 among A, B, and C in the ratio 1/2 : 1/4 : 5/16. Find the largest share.
+(A) Rs 2,800  (B) Rs 3,000  (C) Rs 3,400  (D) Rs 3,200
+
+Answer: (D)
+
+Solution:
+Multiplying each fraction by LCM(2, 4, 16) = 16: (1/2 * 16) : (1/4 * 16) : (5/16 * 16) = 8 : 4 : 5. Sum of parts = 8 + 4 + 5 = 17 parts. 17 parts = 6,800 => 1 part = 400. Largest share (A) = 8 * 400 = Rs 3,200. Therefore, the correct value is Rs 3,200, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q59. (Medium) The ratio of the quantities of sugar in two mixtures is 3 : 5 and 4 : 7. If equal weights of the two mixtures are taken, find the ratio of sugar in the combined mixture to total weight.
+(A) 65 : 176  (B) 63 : 176  (C) 67 : 176  (D) 35 : 88
+
+Answer: (A)
+
+Solution:
+In mixture 1, fraction of sugar = 3 / (3 + 5) = 3/8. In mixture 2, fraction of sugar = 4 / (4 + 7) = 4/11. Sum of sugar in 1 unit each = 3/8 + 4/11 = (33 + 32) / 88 = 65 / 88. Total weight of both units = 2. Ratio to total weight = (65 / 88) / 2 = 65 / 176. Therefore, the correct value is 65 : 176, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q60. (Medium) Find the value of x such that 16 : x :: x : 36.
+(A) 20  (B) 24  (C) 28  (D) 18
+
+Answer: (B)
+
+Solution:
+Product of extremes equals product of means: x^2 = 16 * 36 = 576 => x = 24. Therefore, the correct value is 24, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q61. (Medium) A sum of Rs 9,000 is divided among A, B, and C such that A's share : B's share = 5 : 2 and B's share : C's share = 7 : 13. Find the share of B.
+(A) Rs 1,500  (B) Rs 1,750  (C) Rs 1,680  (D) Rs 1,800
+
+Answer: (C)
+
+Solution:
+A : B : C = (5 * 7) : (2 * 7) : (2 * 13) = 35 : 14 : 26. Sum of parts = 35 + 14 + 26 = 75 parts. 75 parts = 9,000 => 1 part = 9,000 / 75 = 120. B's share = 14 * 120 = Rs 1,680. Therefore, the correct value is Rs 1,680, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q62. (Medium) If (3a + 5b) : (3a - 5b) = 5 : 1, find the ratio a : b.
+(A) 3 : 2  (B) 4 : 3  (C) 5 : 3  (D) 5 : 2
+
+Answer: (D)
+
+Solution:
+Using Componendo and Dividendo: (3a) / (5b) = (5 + 1) / (5 - 1) = 6 / 4 = 3 / 2. Therefore, a / b = (3 / 2) * (5 / 3) = 5 / 2. Therefore, the correct value is 5 : 2, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q63. (Medium) If x / 5 = y / 8, find the value of (x + 5) : (y + 8).
+(A) 5 : 8  (B) 1 : 1  (C) 10 : 16  (D) 8 : 5
+
+Answer: (A)
+
+Solution:
+Let x / 5 = y / 8 = k. Then x = 5k, y = 8k. (x + 5) / (y + 8) = (5k + 5) / (8k + 8) = 5(k + 1) / 8(k + 1) = 5 / 8. Therefore, the correct value is 5 : 8, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q64. (Medium) A man leaves Rs 86,000 to be divided among 5 sons, 4 daughters, and 2 nephews. If each daughter receives 4 times as much as each nephew, and each son receives 5 times as much as each nephew, how much does each daughter receive?
+(A) Rs 6,000  (B) Rs 8,000  (C) Rs 10,000  (D) Rs 7,500
+
+Answer: (B)
+
+Solution:
+Let nephew's share = x. Daughter = 4x, Son = 5x. Total sum = 5(5x) + 4(4x) + 2(x) = 25x + 16x + 2x = 43x. 43x = 86,000 => x = 2,000. Each daughter receives 4x = 4 * 2,000 = Rs 8,000. Therefore, the correct value is Rs 8,000, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q65. (Medium) The ratio of the number of students in three classes is 2 : 3 : 5. If 20 students are increased in each class, the ratio becomes 4 : 5 : 7. What was the total number of students in the three classes initially?
+(A) 90  (B) 120  (C) 100  (D) 110
+
+Answer: (C)
+
+Solution:
+Each ratio term increases by 4 - 2 = 2 parts, 5 - 3 = 2 parts, 7 - 5 = 2 parts. 2 parts = 20 students => 1 part = 10 students. Total initial students = 2 + 3 + 5 = 10 parts = 10 * 10 = 100 students. Therefore, the correct value is 100, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q66. (Medium) Find the sub-duplicate ratio of (x - y)^4 : (x + y)^6.
+(A) (x - y) : (x + y)^2  (B) (x - y)^2 : (x + y)^2  (C) (x - y)^8 : (x + y)^12  (D) (x - y)^2 : (x + y)^3
+
+Answer: (D)
+
+Solution:
+Sub-duplicate ratio is the square root of terms: sqrt((x - y)^4) : sqrt((x + y)^6) = (x - y)^2 : (x + y)^3. Therefore, the correct value is (x - y)^2 : (x + y)^3, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q67. (Medium) If a : b = c : d = e : f = 1 : 2, find the value of (3a + 5c + 7e) : (3b + 5d + 7f).
+(A) 1 : 2  (B) 1 : 4  (C) 3 : 5  (D) 2 : 1
+
+Answer: (A)
+
+Solution:
+By property of equal ratios, (pa + qc + re) / (pb + qd + rf) = a / b = 1 / 2. Therefore, the correct value is 1 : 2, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q68. (Medium) The ratio of the prices of two houses A and B was 4 : 5 last year. This year, the price of A is increased by 25% and that of B by Rs 50,000. If their prices are now in the ratio 9 : 10, find the price of house A last year.
+(A) Rs 400,000  (B) Rs 360,000  (C) Rs 450,000  (D) Rs 320,000
+
+Answer: (B)
+
+Solution:
+Let prices last year be 4x and 5x. New price of A = 4x * 1.25 = 5x. New price of B = 5x + 50,000. Given 5x / (5x + 50,000) = 9 / 10 => 50x = 45x + 450,000 => 5x = 450,000 => x = 90,000. Price of A last year = 4x = 4 * 90,000 = Rs 360,000. Therefore, the correct value is Rs 360,000, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q69. (Medium) A sum of money is divided among P, Q, and R in the ratio 7 : 9 : 4. If P gets Rs 1,500 more than R, find the total sum of money.
+(A) Rs 9,500  (B) Rs 10,500  (C) Rs 10,000  (D) Rs 12,000
+
+Answer: (C)
+
+Solution:
+Difference between P and R = 7 - 4 = 3 parts. 3 parts = Rs 1,500 => 1 part = Rs 500. Total sum = 7 + 9 + 4 = 20 parts = 20 * 500 = Rs 10,000. Therefore, the correct value is Rs 10,000, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q70. (Medium) Two numbers are in the ratio 5 : 6. If 8 is subtracted from each of the numbers, the ratio becomes 4 : 5. Find the numbers.
+(A) 35 and 42  (B) 45 and 54  (C) 30 and 36  (D) 40 and 48
+
+Answer: (D)
+
+Solution:
+Difference in parts is (5 - 4) = 1 and (6 - 5) = 1 part. 1 part = 8. Numbers are 5 * 8 = 40 and 6 * 8 = 48. Therefore, the correct value is 40 and 48, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q71. (Medium) If x : y = 2 : 1, find the value of (x^2 - y^2) : (x^2 + y^2).
+(A) 3 : 5  (B) 4 : 5  (C) 3 : 4  (D) 1 : 3
+
+Answer: (A)
+
+Solution:
+Substituting x = 2 and y = 1: (4 - 1) / (4 + 1) = 3 / 5. Therefore, the correct value is 3 : 5, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q72. (Medium) The ratio of the angles of a triangle is 2 : 3 : 4. Find the largest angle of the triangle.
+(A) 60 degrees  (B) 80 degrees  (C) 90 degrees  (D) 75 degrees
+
+Answer: (B)
+
+Solution:
+Sum of angles in a triangle = 180 degrees. Total parts = 2 + 3 + 4 = 9 parts. 9 parts = 180 degrees => 1 part = 20 degrees. Largest angle = 4 * 20 = 80 degrees. Therefore, the correct value is 80 degrees, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q73. (Medium) A person distributes Rs 210 among some boys and girls such that each boy gets 50 paise and each girl gets 25 paise. If the ratio of boys to girls is 5 : 4, find the total number of children.
+(A) 450  (B) 480  (C) 540  (D) 500
+
+Answer: (C)
+
+Solution:
+Let the number of boys be 5x and girls be 4x. Total value in Rupees = (5x * 0.50) + (4x * 0.25) = 2.5x + 1.0x = 3.5x. Since 3.5x = 210, x = 210 / 3.5 = 60. Total children = 5x + 4x = 9x = 9 * 60 = 540. Therefore, the correct value is 540, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q74. (Medium) If (4x^2 - 3y^2) : (2x^2 + 5y^2) = 12 : 19, find the ratio x : y.
+(A) 2 : 3  (B) 4 : 3  (C) 3 : 4  (D) 3 : 2
+
+Answer: (D)
+
+Solution:
+Cross multiplying: 19(4x^2 - 3y^2) = 12(2x^2 + 5y^2) => 76x^2 - 57y^2 = 24x^2 + 60y^2 => 52x^2 = 117y^2 => x^2 / y^2 = 117 / 52 = 9 / 4 => x / y = 3 / 2. Therefore, the correct value is 3 : 2, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q75. (Medium) Find the fourth proportional to 4, 8, and 7.
+(A) 12  (B) 14  (C) 16  (D) 15
+
+Answer: (B)
+
+Solution:
+Fourth proportional x = (8 * 7) / 4 = 56 / 4 = 14. Therefore, the correct value is 14, corresponding to option (B).
+
+Source: SSC CGL Pattern
