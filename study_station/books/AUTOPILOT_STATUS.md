@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 06-10-2026 01:26 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 01:25 AM
+**आख़िरी update:** 06-10-2026 01:41 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 01:25 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Pronoun (Graduation English) | 🔎 review हो रहा है | 0 मिनट |
-| W2 | Chapter 03 Adjective (Graduation English) | 🔎 review हो रहा है | 0 मिनट |
-| W3 | Chapter 05 Tense (Graduation English) | 🔎 review हो रहा है | 0 मिनट |
-| W4 | Chapter 06 Adverb (Graduation English) | 🔎 review हो रहा है | 0 मिनट |
+| W1 | Chapter 02 Pronoun (Graduation English) | 🔎 review हो रहा है | 15 मिनट |
+| W2 | Chapter 03 Adjective (Graduation English) | 🔎 review हो रहा है | 15 मिनट |
+| W3 | Chapter 05 Tense (Graduation English) | 🔎 review हो रहा है | 15 मिनट |
+| W4 | Chapter 06 Adverb (Graduation English) | 🔎 review हो रहा है | 15 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,14 +39,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-06-10 00:31:28 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_06_Adverb after 33 min: todo ['Set 04 en: todo', 'Set 04 hi: todo'] problems []
-06-10 00:31:28 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_06_Adverb (TODO: todo 2, problems 0)
-06-10 00:34:24   [Tense] review Mind_Map_en.txt: 1 issue(s): - E1 claims since/for only trigger Perfect Continuous → Since/for are used with all perfect tenses (simple perfect
-06-10 00:42:10   [Adjective] FAILED review Feynman_hi.txt: network — the chapter must not be published unreviewed
-06-10 00:43:21   [Adjective] review Mind_Map_en.txt: 2 issue(s): - B3: "Numeral: two, first, many" includes "many" which is not a numeral adjective; it's a quantitative/indefinite
-06-10 00:43:49   [Adverb] Practice_en_Set_04.txt try 1: re-solve disagrees (Q87 key d vs re-solve a)
-06-10 00:50:16   [Pronoun] FAILED review Feynman_en.txt: network — the chapter must not be published unreviewed
-06-10 00:50:35   [Adjective] review Flashcards_hi.txt: 2 issue(s): - Card 19 front asks about "Gold is a precious metal" but the back discusses "Gold watch" and "golden advice" wi
 06-10 00:51:29   [Pronoun] review Feynman_hi.txt: 1 issue(s): - "कर्ता" का प्रयोग Antecedent के लिए गलत है → Antecedent का अर्थ "पूर्वपद" (वह संज्ञा जिसके लिए सर्वनाम प्रयुक्त ह
 06-10 00:57:17   [Pronoun] FAILED review Feynman_hi.txt: empty — the chapter must not be published unreviewed
 06-10 00:59:19   [Adverb] wrote Practice_en_Set_04.txt (write, 25 MCQs)
@@ -79,4 +71,12 @@
 06-10 01:25:47 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_03_Adjective (OK: todo 0, problems 0)
 06-10 01:25:52 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_05_Tense (OK: todo 0, problems 0)
 06-10 01:25:57 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_06_Adverb (OK: todo 0, problems 0)
+06-10 01:32:13   [Tense] review Mind_Map_en.txt: 1 issue(s): - "12 GOLDEN RULES" label shows only 6 rules (E1–E6) → change label to "6 GOLDEN RULES" or add the missing 6 rules
+06-10 01:32:24   [Pronoun] review Content_en.txt: 1 issue(s): - Rule 10 example "He is the same man as came yesterday" incorrectly uses 'as' instead of 'that' for identity → He 
+06-10 01:33:27   [Tense] review Mind_Map_hi.txt: 1 issue(s): - H1 म्नेमोनिक "S-P-C-P: Simple-Perfect -Continuous-Perfect Cont." कालों का क्रम गलत दर्शाता है → सही क्रम है: Sim
+06-10 01:35:32   [Adverb] review Content_en.txt: 2 issue(s): - "Why This Chapter Can Win You 4–6 Marks" (invented exam weightage claim) → Remove the specific mark claim or cite
+06-10 01:36:54   [Adjective] review Mind_Map_en.txt: 1 issue(s): - The node "12 Golden Rules" (E) lists only 6 rules (E1–E6) → Either provide all 12 rules or change the heading to
+06-10 01:38:28   [Pronoun] review Content_hi.txt: 1 issue(s): - Root table lists 'nom/nomen' (Latin, 'नाम') as the root for 'autonomous', but 'autonomous' derives from Greek 'no
+06-10 01:41:10   [Adjective] review Mind_Map_hi.txt: 1 issue(s): - "संबंधवाचक" का प्रयोग Possessive Adjective (my, his, their) के लिए गलत है → सही हिन्दी पद "स्वामित्ववाचक" या "अध
+06-10 01:41:36   [Adverb] review Feynman_hi.txt: 2 issue(s): - First definition says “Adverb किसी भी चीज़ को 'कैसे, कब, कितना' बताने वाला शब्द है” — adverbs modify verbs, adjec
 ```
