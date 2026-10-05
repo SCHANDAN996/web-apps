@@ -279,7 +279,7 @@ def check_request(text):
     return re.sub(r'\n{3,}', '\n\n', stripped).strip()
 
 
-def _set_problem(text, n):
+def _set_problem(text, n, spread=True):
     qs = parse_mcq_text(text)
     want = list(range((n - 1) * bookcheck.QS_PER_SET + 1, n * bookcheck.QS_PER_SET + 1))
     if [q.number for q in qs] != want:
@@ -289,7 +289,7 @@ def _set_problem(text, n):
     bad += [f'Q{q.number}:duplicate_options' for q in qs if len({o.strip().lower() for o in q.options}) < 4]
     if bad:
         return ','.join(bad[:5])
-    if max(Counter(q.answer_index for q in qs).values()) > 9:
+    if spread and max(Counter(q.answer_index for q in qs).values()) > 9:
         return 'answers not spread'
     if (m := JUNK.search(text)):
         return f'chat debris "{m.group(0).strip()[:30]}"'
@@ -305,12 +305,74 @@ def _resolve_mismatch(db, text):
         f' (+{len(diff) - 10} more)' if len(diff) > 10 else '')
 
 
+OPTS_LINE = re.compile(r'^(\s*)\(a\)\s*(.+?)\s+\(b\)\s*(.+?)\s+\(c\)\s*(.+?)\s+\(d\)\s*(.+?)\s*$', re.M)
+ANS_LINE = re.compile(r'^(\s*(?:Answer|उत्तर)\s*[:：]\s*)\(?([a-d])\)?', re.M | re.I)
+QSTART = re.compile(r'^\s*\d+\.\s', re.M)
+LETTER_REF = re.compile(r'\((?:a|b|c|d)\)|\boption\s+[a-d]\b|विकल्प\s*\(?[a-d]\)?', re.I)
+
+
+def balance_answers(text):
+    """Language models put most correct answers at (b)/(c). Move each correct option to a balanced target letter
+    by swapping two options (options line + answer line only). Questions whose text, options or solution refer
+    to option letters ("both (a) and (b)") are left alone. Returns the new text."""
+    starts = [m.start() for m in QSTART.finditer(text)]
+    if not starts:
+        return text
+    blocks = [text[:starts[0]]] + [text[a:b] for a, b in zip(starts, starts[1:] + [len(text)])]
+    targets = [i % 4 for i in range(len(blocks) - 1)]
+    import random
+    random.Random(len(text)).shuffle(targets)                     # deterministic per text
+    out = [blocks[0]]
+    for blk, want in zip(blocks[1:], targets):
+        om, am = OPTS_LINE.search(blk), ANS_LINE.search(blk)
+        rest = blk[:om.start()] + blk[om.end():] if om else blk
+        rest = ANS_LINE.sub('', rest)
+        if not om or not am or LETTER_REF.search(rest) or any(LETTER_REF.search(o) for o in om.groups()[1:]):
+            out.append(blk)
+            continue
+        opts = list(om.groups()[1:])
+        cur = 'abcd'.index(am.group(2).lower())
+        opts[cur], opts[want] = opts[want], opts[cur]
+        line = om.group(1) + ' '.join(f'({l}) {o}' for l, o in zip('abcd', opts))
+        blk = blk[:om.start()] + line + blk[om.end():]
+        am = ANS_LINE.search(blk)
+        blk = blk[:am.start()] + am.group(1) + f'({"abcd"[want]})' + blk[am.end():]
+        out.append(blk)
+    return ''.join(out)
+
+
+def _keep_reject(name, text, why):
+    d = os.environ.get('BOOKGEN_REJECT_DIR')
+    if d:
+        try:
+            Path(d).mkdir(parents=True, exist_ok=True)
+            (Path(d) / f'{name}.{abs(hash(text)) % 10**6}.txt').write_text(f'# {why}\n{text}', encoding='utf-8')
+        except OSError:
+            pass
+
+
+def translate_set(db, en_name, en_text, hi_name, n, out=print):
+    """Translate a checked English set; keep it only when it parses to the same 25 questions and answers."""
+    en_key = [q.answer_index for q in parse_mcq_text(en_text)]
+    for attempt in range(1, MAX_REPAIR_TRIES + 1):
+        hi = _clean_output(_ask(db, translation_request(en_name, en_text, hi_name)), hi_name)
+        why = _set_problem(hi, n, spread=False) or (
+            None if [q.answer_index for q in parse_mcq_text(hi)] == en_key else 'answer letters differ from English')
+        if not why:
+            return hi
+        _keep_reject(hi_name, hi, why)
+        out(f'  {hi_name} try {attempt}: rejected ({why})')
+    out(f'REJECTED {hi_name}: no translation passed the checks — not written')
+    return None
+
+
 def write_verified_set(db, user, name, n, out=print):
     """Write a new practice set; keep it only once it passes the checks and an independent re-solve."""
     ask = user
     for attempt in range(1, MAX_REPAIR_TRIES + 1):
-        text = _clean_output(_ask(db, ask), name)
+        text = balance_answers(_clean_output(_ask(db, ask), name))
         if (why := _set_problem(text, n)):
+            _keep_reject(name, text, why)
             out(f'  {name} try {attempt}: rejected ({why})')
             ask = user + f'\n\nYour previous attempt was rejected: {why}. Follow the exact format and rules.'
             continue
@@ -331,7 +393,7 @@ def repair_set(db, chapter, n, problems, out=print):
     mine = [p for p in problems if p.startswith(f'Set {n:02d} ')]
     mismatch, text = '', None
     for attempt in range(1, MAX_REPAIR_TRIES + 1):
-        cand = _clean_output(_ask(db, practice_repair_request(en_name, src, n, mine, mismatch)), en_name)
+        cand = balance_answers(_clean_output(_ask(db, practice_repair_request(en_name, src, n, mine, mismatch)), en_name))
         if (why := _set_problem(cand, n)):
             out(f'  set {n:02d} try {attempt}: rejected ({why})')
             mismatch = ''
@@ -344,10 +406,9 @@ def repair_set(db, chapter, n, problems, out=print):
     if text is None:
         out(f'FAILED set {n:02d}: no version passed the checks — files left as they were')
         return False
-    hi = _clean_output(_ask(db, translation_request(en_name, text, hi_name)), hi_name)
-    hi_qs, en_qs = parse_mcq_text(hi), parse_mcq_text(text)
-    if (why := _set_problem(hi, n)) or [q.answer_index for q in hi_qs] != [q.answer_index for q in en_qs]:
-        out(f'FAILED set {n:02d}: Hindi translation rejected ({why or "answer letters differ"}) — files left as they were')
+    hi = translate_set(db, en_name, text, hi_name, n, out)
+    if hi is None:
+        out(f'FAILED set {n:02d}: Hindi translation rejected — files left as they were')
         return False
     write_section(chapter, en_name, text)
     write_section(chapter, hi_name, hi)
@@ -479,6 +540,10 @@ def run(db, chapter, wanted=None, dry_run=False, out=print):
         m = PRACTICE.match(name)
         other = f'Practice_{"hi" if m.group(1) == "en" else "en"}_Set_{m.group(2)}.txt' if m else None
         source = practice_text(other) if m else None
+        if m and source is None and other in failed:
+            out(f'skip {name}: its pair {other} was not written')
+            failed.append(name)
+            continue
         if source is not None:
             how, user = f'translate from {other}', translation_request(other, source, name)
         elif prompt_file(chapter, name) is None:
@@ -493,13 +558,20 @@ def run(db, chapter, wanted=None, dry_run=False, out=print):
                 done_text[name] = ''                  # so its pair shows as a translation
             continue
         try:
-            if m and how == 'write':
-                text = write_verified_set(db, user, name, int(m.group(2)), out)
+            if m:
+                n = int(m.group(2))
+                text = (write_verified_set(db, user, name, n, out) if how == 'write'
+                        else translate_set(db, other, source, name, n, out))
                 if text is None:
                     failed.append(name)
                     continue
             else:
-                text = _clean_output(_ask(db, user), name)
+                for attempt in range(1, 3):                  # one retry for an empty/short/chatty answer
+                    text = _clean_output(_ask(db, user), name)
+                    if not (why := _problem(text, name)):
+                        break
+                    _keep_reject(name, text, why)
+                    out(f'  {name} try {attempt}: rejected ({why})')
         except ai.AIUnavailable as e:
             out(f'FAILED {name}: {e}')
             failed.append(name)

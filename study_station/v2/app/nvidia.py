@@ -28,7 +28,7 @@ def call(system, user, *, max_tokens=16000, temperature=0.3, model=None):
         try:
             return _call_once(system, user, max_tokens, temperature, model)
         except AIUnavailable as e:
-            if wait is None or str(e) not in ('rate_limited', 'api_error', 'network'):
+            if wait is None or str(e) not in ('rate_limited', 'api_error', 'network', 'empty'):
                 raise
             log.warning('NVIDIA %s — retrying in %ss', e, wait)
             time.sleep(wait)
@@ -76,4 +76,8 @@ def _call_once(system, user, max_tokens, temperature, model):
         raise AIUnavailable('network')
     if finish == 'length':
         raise AIUnavailable('too_long')
-    return THINK.sub('', ''.join(parts)).strip()
+    text = THINK.sub('', ''.join(parts)).strip()
+    if not text or finish is None:                # stream cut off or an empty answer: retry
+        log.warning('NVIDIA empty or unfinished answer (%s chars, finish=%s)', len(text), finish)
+        raise AIUnavailable('empty')
+    return text

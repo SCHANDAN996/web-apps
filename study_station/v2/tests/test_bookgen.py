@@ -41,6 +41,7 @@ def fake_ai(monkeypatch):
             return '```mermaid\ngraph TD\n  A["राज्य<br>States"] --> B["नदियाँ"]\n  A --> C["राजधानियाँ"]\n```\n' + '%%' * 200
         return '```\n' + BODY + '\n```'
     monkeypatch.setattr(ai, 'call', fake_call)
+    monkeypatch.setattr(bookgen, 'balance_answers', lambda text: text)      # fixed keys in these fakes
     return calls
 
 
@@ -224,6 +225,7 @@ def fake_repair(monkeypatch, checker):
         return mcq_set('en')
     monkeypatch.setattr(bookgen, '_ask', ask)
     monkeypatch.setattr(bookgen, '_ask_check', lambda db, user: checker(user))
+    monkeypatch.setattr(bookgen, 'balance_answers', lambda text: text)
 
 
 def test_repair_rewrites_flagged_sections_after_an_independent_resolve(broken_chapter, db, monkeypatch):
@@ -278,3 +280,19 @@ def test_review_fixes_only_sections_the_reviewer_flags(broken_chapter, db, monke
 def test_review_answer_parsing():
     assert bookgen._review_issues('OK') == [] and bookgen._review_issues('OK.\n') == []
     assert bookgen._review_issues('- wrong date → 1857\n- wrong name → Ashoka') == ['- wrong date → 1857', '- wrong name → Ashoka']
+
+
+def test_balance_answers_spreads_keys_and_keeps_letter_references():
+    from collections import Counter
+    from app.importers import parse_mcq_text
+    blocks = []
+    for i in range(1, 26):
+        why = 'Option (b) is right: "goes" agrees with she.' if i == 7 else '"goes" agrees with she.'
+        blocks.append(f'{i}. Question {i}: she ___ daily?\n(a) go (b) goes (c) going (d) gone\nAnswer: (b)\nSolution: {why}\nSource: PYQ-style')
+    text = 'Questions 1–20: Easy | Questions 21–25: Medium\n\n' + '\n\n'.join(blocks)
+    out = bookgen.balance_answers(text)
+    qs = parse_mcq_text(out)
+    assert len(qs) == 25 and max(Counter(q.answer_index for q in qs).values()) <= 7
+    assert all(q.options[q.answer_index] == 'goes' for q in qs if q.number != 7)       # the right option moved with its letter
+    assert qs[6].answer_index == 1 and qs[6].options == ['go', 'goes', 'going', 'gone']  # refers to a letter: untouched
+    assert bookgen.balance_answers(out) == bookgen.balance_answers(out)                 # deterministic
