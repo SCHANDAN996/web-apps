@@ -14,6 +14,8 @@ Safety:
 - Failed chapters stay uncommitted and are listed in the state file; they are retried on the next pass.
 - Stop: create the file named by --stop-file (default: <state dir>/STOP); the running chapters finish first.
 State and log: --state-dir (default ~/.book_autopilot): log.txt, state.json.
+Live status for the owner: books/AUTOPILOT_STATUS.md (what each worker is doing, progress per book, recent
+activity) — committed with every chapter and every STATUS_MINUTES as a heartbeat; readable on GitHub.
 """
 import argparse
 import fcntl
@@ -23,8 +25,10 @@ import subprocess
 import sys
 import threading
 import time
+from collections import Counter
 from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 V2 = Path(__file__).resolve().parents[1]
 REPO = V2.parents[1]
@@ -33,6 +37,11 @@ sys.path.insert(0, str(V2))
 from app import bookcheck  # noqa: E402
 
 SKIP_HOURS = 6
+STATUS_MINUTES = 15
+IST = ZoneInfo('Asia/Kolkata')
+STATUS_FILE = bookcheck.BOOKS_ROOT / 'AUTOPILOT_STATUS.md'
+STEP_HI = {'write': '✍️ लिख रहा है', 'repair': '🔧 सुधार रहा है', 'review': '🔎 review हो रहा है',
+           'commit': '📤 push हो रहा है', 'pick': '⏳ अगला अध्याय चुन रहा है'}
 MAX_REPAIR_ROUNDS = 2
 
 
@@ -46,6 +55,8 @@ class Pilot:
         self.git_lock_path = self.state_dir / 'git.lock'
         self.state = self._load()
         self.claimed = set()
+        self.current = {}                       # thread name -> {key, step, since}
+        self.started = datetime.now(IST)
 
     # ------------------------------------------------------------ state + log
     def _load(self):
@@ -62,7 +73,7 @@ class Pilot:
         os.replace(tmp, p)
 
     def log(self, msg):
-        line = f'{datetime.now():%m-%d %H:%M:%S} {msg}'
+        line = f'{datetime.now(IST):%d-%m %H:%M:%S} {msg}'
         with self.lock:
             with open(self.state_dir / 'log.txt', 'a', encoding='utf-8') as f:
                 f.write(line + '\n')
@@ -97,11 +108,13 @@ class Pilot:
         rel = ch.relative_to(REPO)
 
         def do():
-            self.git('add', '--', str(rel))
+            self.write_status()
+            self.git('add', '--', str(rel), str(STATUS_FILE.relative_to(REPO)))
             staged = self.git('diff', '--cached', '--name-only').stdout.split()
             if not staged:
                 return 'nothing to commit'
-            outside = [p for p in staged if not p.startswith(str(rel) + '/')]
+            status_rel = str(STATUS_FILE.relative_to(REPO))
+            outside = [p for p in staged if not p.startswith(str(rel) + '/') and p != status_rel]
             if outside:
                 self.git('reset', '-q', '--', *outside)
             msg = (f'Books: {summary} (draft, bookcheck OK, bookgen autopilot)\n\n'
@@ -109,7 +122,7 @@ class Pilot:
                    'every section read by an independent reviewer model and corrected before publishing.\n\n'
                    'Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\n'
                    'Claude-Session: https://claude.ai/code/session_01NkSvMYCcJQMogjnRs94E6r')
-            self.git('commit', '-q', '-m', msg, '--', str(rel))
+            self.git('commit', '-q', '-m', msg, '--', str(rel), status_rel)
             for wait in (2, 4, 8, 16, None):
                 r = self.git('push', '-q', 'origin', f'HEAD:{self.args.branch}', check=False)
                 if r.returncode == 0:
@@ -156,10 +169,24 @@ class Pilot:
         cmd = [sys.executable, '-m', 'app.bookgen', '--chapter', str(ch), *extra]
         env = {**os.environ, 'AI_DAILY_BOOK_SECTIONS': os.environ.get('AI_DAILY_BOOK_SECTIONS', '100000'),
                'AI_DAILY_LIMIT_TOTAL': os.environ.get('AI_DAILY_LIMIT_TOTAL', '1000000')}
-        r = subprocess.run(cmd, cwd=V2, capture_output=True, text=True, env=env)
-        lines = [l for l in (r.stdout + r.stderr).splitlines() if ' INFO ' not in l]
+        short = ch.name.split('_', 2)[-1] if '_' in ch.name else ch.name
+        lines = []
+        with subprocess.Popen(cmd, cwd=V2, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True,
+                              env={**env, 'PYTHONUNBUFFERED': '1'}) as proc:
+            for line in proc.stdout:
+                line = line.rstrip()
+                if not line or ' INFO ' in line or ' WARNING ' in line or line.startswith(('---', 'TODO ', 'FIX ', 'OK ')):
+                    continue
+                if line.lstrip().startswith(('todo ', 'problem ')):
+                    continue
+                lines.append(line)
+                self.log(f'  [{short}] {line.strip()[:150]}')
         bad = [l for l in lines if l.startswith(('FAILED', 'REJECTED', 'stopping'))]
         return lines, bad
+
+    def step(self, key, step):
+        with self.lock:
+            self.current[threading.current_thread().name] = {'key': key, 'step': step, 'since': datetime.now(IST)}
 
     def work(self, ch, key):
         t0 = time.time()
@@ -168,9 +195,8 @@ class Pilot:
         if self.args.dry_run:
             return
         if todo:
+            self.step(key, 'write')
             _, bad = self.bookgen(ch)
-            for b in bad[:6]:
-                self.log(f'  {key}: {b[:160]}')
             if any('auth' in b or 'not_configured' in b for b in bad):
                 self.log('NVIDIA key rejected — stopping')
                 self.stop_file.touch()
@@ -179,14 +205,12 @@ class Pilot:
             status, todo, problems = bookcheck.chapter_status(ch)
             if status != 'FIX':
                 break
-            _, bad = self.bookgen(ch, '--repair')
-            for b in bad[:6]:
-                self.log(f'  {key} repair: {b[:160]}')
+            self.step(key, 'repair')
+            self.bookgen(ch, '--repair')
         status, todo, problems = bookcheck.chapter_status(ch)
         if status == 'OK':                                           # publish gate: independent review first
+            self.step(key, 'review')
             lines, bad = self.bookgen(ch, '--review')
-            for l in [l for l in lines if l.lstrip().startswith(('review', 'REJECTED'))][:8]:
-                self.log(f'  {key} {l.strip()[:160]}')
             status, todo, problems = bookcheck.chapter_status(ch)
             if bad:
                 status = 'REVIEW'
@@ -194,9 +218,12 @@ class Pilot:
         if status == 'OK':
             parts = key.split('/')
             summary = f'{parts[0].replace("_Level", "")} {parts[1]} {parts[-1].replace("_", " ")}'
+            self.step(key, 'commit')
+            with self.lock:
+                self.state.setdefault('done_at', {})[key] = datetime.now(IST).strftime('%d-%m %H:%M')
+                self.state['done'].append(key)
             sha = self.commit(ch, summary)
             with self.lock:
-                self.state['done'].append(key)
                 self.state['failed'].pop(key, None)
                 self.save()
             self.log(f'DONE {key} in {mins:.0f} min → {sha}')
@@ -213,13 +240,15 @@ class Pilot:
                 self.log(f'worker {n}: nothing left')
                 return
             ch, key = job
+            self.step(key, 'pick')
             try:
                 self.work(ch, key)
             except Exception as e:                                   # keep the other chapters going
                 self.log(f'ERROR {key}: {type(e).__name__}: {str(e)[:200]}')
             finally:
-                if not self.args.dry_run:                            # dry run: list each chapter once
-                    with self.lock:
+                with self.lock:
+                    self.current.pop(threading.current_thread().name, None)
+                    if not self.args.dry_run:                        # dry run: list each chapter once
                         self.claimed.discard(key)
         self.log(f'worker {n}: stop file found — stopping')
 
@@ -230,16 +259,93 @@ class Pilot:
         self.stop_file.unlink(missing_ok=True)
         self.pull()
         self.log(f'autopilot start: {self.args.workers} workers, reverse={self.args.reverse}')
-        threads = [threading.Thread(target=self.worker, args=(i,), daemon=True) for i in range(self.args.workers)]
+        threads = [threading.Thread(target=self.worker, args=(i,), daemon=True, name=f'W{i + 1}')
+                   for i in range(self.args.workers)]
         for i, t in enumerate(threads):
             t.start()
             time.sleep(5 if i < len(threads) - 1 else 0)
+        if not self.args.dry_run:
+            time.sleep(30)
+            self.heartbeat()
         while any(t.is_alive() for t in threads):
-            time.sleep(600)
+            time.sleep(STATUS_MINUTES * 60)
             if not self.args.dry_run and not self.stop_file.exists():
                 self.pull()                                          # pick up other writers' chapters
+                self.heartbeat()
         self.log(f'autopilot end: done {len(self.state["done"])}, failed {len(self.state["failed"])}')
+        if not self.args.dry_run:
+            self.heartbeat()
         return 0
+
+    # ------------------------------------------------------------ live status page
+    def write_status(self):
+        now = datetime.now(IST)
+        with self.lock:
+            current = sorted(self.current.items())
+            done_at = dict(self.state.get('done_at', {}))
+            failed = dict(self.state['failed'])
+        out = ['# 📚 Book Autopilot — लाइव स्थिति', '',
+               f'**आख़िरी update:** {now:%d-%m-%Y %I:%M %p} IST · हर {STATUS_MINUTES} मिनट और हर पूरे अध्याय पर अपने-आप '
+               f'update होता है · autopilot शुरू: {self.started:%d-%m %I:%M %p}',
+               '', '> NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → '
+               'reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।', '',
+               '## ⚙️ अभी क्या चल रहा है', '']
+        if current and not self.stop_file.exists():
+            out += ['| worker | अध्याय | काम | कब से |', '|---|---|---|---|']
+            for name, c in current:
+                mins = int((now - c['since']).total_seconds() // 60)
+                out.append(f"| {name} | {c['key'].split('/')[-1].replace('_', ' ')} "
+                           f"({c['key'].split('/')[0].replace('_Level', '')} {c['key'].split('/')[1]}) | "
+                           f"{STEP_HI.get(c['step'], c['step'])} | {mins} मिनट |")
+        else:
+            out.append('⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।')
+        out += ['', '## 📊 हर किताब की प्रगति', '', '| किताब | ✅ पूरे | 🔧 सुधार बाकी | 📝 लिखना बाकी |', '|---|---|---|---|']
+        total = Counter()
+        for book in bookcheck.queue():
+            c = Counter()
+            for ch in sorted(book.glob('Chapter_*')):
+                if ch.is_dir() and not bookcheck.is_dynamic(ch):
+                    c[bookcheck.chapter_status(ch)[0]] += 1
+            total.update(c)
+            name = str(book.relative_to(bookcheck.BOOKS_ROOT)).replace('_Level', '').split('/')
+            out.append(f"| {name[0]} {name[1]} | {c['OK']} | {c['FIX']} | {c['TODO']} |")
+        out.append(f"| **कुल** | **{total['OK']}** | **{total['FIX']}** | **{total['TODO']}** |")
+        recent = sorted(done_at.items(), key=lambda kv: kv[1], reverse=True)[:15]
+        out += ['', '## ✅ autopilot से हाल में पूरे हुए', '']
+        out += [f"- {t} — {k.split('/')[0].replace('_Level', '')} {k.split('/')[1]} · {k.split('/')[-1].replace('_', ' ')}"
+                for k, t in recent] or ['- अभी कोई नहीं']
+        if failed:
+            out += ['', '## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)', '']
+            out += [f"- {k.split('/')[-1].replace('_', ' ')} ({k.split('/')[1]}) — {n} बार" for k, n in failed.items()]
+        try:
+            tail = (self.state_dir / 'log.txt').read_text(encoding='utf-8').splitlines()[-40:]
+        except OSError:
+            tail = []
+        out += ['', '## 📜 हाल की गतिविधि (नया सबसे नीचे)', '', '```', *tail, '```', '']
+        tmp = STATUS_FILE.with_suffix('.tmp')
+        tmp.write_text('\n'.join(out), encoding='utf-8')
+        os.replace(tmp, STATUS_FILE)
+
+    def heartbeat(self):
+        def do():
+            self.write_status()
+            rel = str(STATUS_FILE.relative_to(REPO))
+            self.git('add', '--', rel)
+            if not self.git('diff', '--cached', '--name-only', '--', rel).stdout.strip():
+                return
+            self.git('commit', '-q', '-m', 'Books autopilot: live status update\n\n'
+                     'Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\n'
+                     'Claude-Session: https://claude.ai/code/session_01NkSvMYCcJQMogjnRs94E6r', '--', rel)
+            for wait in (2, 4, 8, None):
+                if self.git('push', '-q', 'origin', f'HEAD:{self.args.branch}', check=False).returncode == 0:
+                    return
+                self.git('pull', '--rebase', '--autostash', '-q', 'origin', self.args.branch, check=False)
+                if wait:
+                    time.sleep(wait)
+        try:
+            self.with_git_lock(do)
+        except Exception as e:
+            self.log(f'status update failed: {type(e).__name__}: {str(e)[:150]}')
 
 
 def main():
