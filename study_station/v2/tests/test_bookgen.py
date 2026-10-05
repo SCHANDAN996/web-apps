@@ -19,6 +19,8 @@ def chapter(tmp_path, monkeypatch):
     write(root / 'BOOK_RULES.md', '# BOOK_RULES\nNo invented PYQs.')
     monkeypatch.setattr(config, 'BOOKS_DIR', root)
     monkeypatch.setattr(config, 'ANTHROPIC_API_KEY', 'test-key')
+    monkeypatch.setattr(config, 'NVIDIA_API_KEY', '')
+    monkeypatch.setattr(config, 'BOOKGEN_PROVIDER', '')
     monkeypatch.setattr(config, 'AI_DAILY_BOOK_SECTIONS', 60)
     return ch
 
@@ -113,3 +115,124 @@ def test_rules_fallback(tmp_path, monkeypatch):
     monkeypatch.setattr(config, 'BOOKS_DIR', tmp_path)               # no BOOK_RULES.md here
     rules = bookgen.rules_text()
     assert 'PYQ' in rules and 'mermaid' in rules
+
+
+# ------------------------------------------------------------------ NVIDIA provider
+class FakeStream:
+    def __init__(self, lines):
+        self.lines = [l.encode() for l in lines]
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, *a):
+        return False
+
+    def __iter__(self):
+        return iter(self.lines)
+
+
+def sse(*chunks, finish='stop'):
+    import json
+    out = [f'data: {json.dumps({"choices": [{"delta": {"content": c}, "finish_reason": None}]})}\n' for c in chunks]
+    out.append(f'data: {json.dumps({"choices": [{"delta": {}, "finish_reason": finish}]})}\n')
+    return out + ['data: [DONE]\n']
+
+
+def test_nvidia_call_streams_and_strips_reasoning(monkeypatch):
+    from app import nvidia
+    seen = {}
+
+    def fake_urlopen(req, timeout):
+        import json
+        seen['auth'] = req.get_header('Authorization')
+        seen['body'] = json.loads(req.data)
+        return FakeStream(sse('<think>hidden</think>', 'प्रश्न ', 'एक'))
+    monkeypatch.setattr(config, 'NVIDIA_API_KEY', 'nvapi-test')
+    monkeypatch.setattr(nvidia.urllib.request, 'urlopen', fake_urlopen)
+    assert nvidia.call('sys', 'user') == 'प्रश्न एक'
+    assert seen['auth'] == 'Bearer nvapi-test' and seen['body']['stream'] is True
+    assert seen['body']['messages'][0] == {'role': 'system', 'content': 'sys'}
+
+
+def test_nvidia_errors_map_to_ai_unavailable(monkeypatch):
+    import urllib.error
+    from app import nvidia
+    monkeypatch.setattr(config, 'NVIDIA_API_KEY', '')
+    with pytest.raises(ai.AIUnavailable, match='not_configured'):
+        nvidia.call('s', 'u')
+    monkeypatch.setattr(config, 'NVIDIA_API_KEY', 'nvapi-test')
+
+    def denied(req, timeout):
+        raise urllib.error.HTTPError(req.full_url, 401, 'no', {}, None)
+    monkeypatch.setattr(nvidia.urllib.request, 'urlopen', denied)
+    with pytest.raises(ai.AIUnavailable, match='auth'):
+        nvidia.call('s', 'u')
+    monkeypatch.setattr(nvidia.urllib.request, 'urlopen', lambda req, timeout: FakeStream(sse('x', finish='length')))
+    with pytest.raises(ai.AIUnavailable, match='too_long'):
+        nvidia.call('s', 'u')
+
+
+def test_bookgen_uses_nvidia_when_its_key_is_set(chapter, db, monkeypatch, capsys):
+    from app import nvidia
+    usage_reset(db)
+    used = []
+    monkeypatch.setattr(config, 'NVIDIA_API_KEY', 'nvapi-test')
+    monkeypatch.setattr(ai, 'call', lambda *a, **k: pytest.fail('Claude must not be called'))
+    monkeypatch.setattr(nvidia, 'call', lambda system, user, **k: used.append(user) or BODY)
+    assert bookgen.provider() == 'nvidia'
+    bookgen.main(['--chapter', str(chapter), '--sections', 'Content_hi'])
+    assert len(used) == 1 and (chapter / 'Content_hi.txt').is_file()
+    monkeypatch.setattr(config, 'NVIDIA_API_KEY', '')
+    assert bookgen.main(['--chapter', str(chapter), '--provider', 'nvidia']) == 2
+    assert 'NVIDIA_API_KEY is not set' in capsys.readouterr().err
+
+
+# ------------------------------------------------------------------ repair mode
+@pytest.fixture
+def broken_chapter(tmp_path, monkeypatch):
+    from test_bookcheck import write_chapter
+    old_set = '\n'.join(f'Q{i}. Old style question {i}?\n(a) 1 (b) 2 (c) 3 (d) 4' for i in range(1, 26)) + '\nAnswer key: 1-a 2-b'
+    ch = write_chapter(tmp_path, **{'PYQ_en.txt': 'Here is the PYQ analysis.\n' + 'Exam pattern notes. ' * 30,
+                                    'Practice_en_Set_01.txt': old_set})
+    monkeypatch.setattr(config, 'ANTHROPIC_API_KEY', 'test-key')
+    monkeypatch.setattr(config, 'NVIDIA_API_KEY', '')
+    monkeypatch.setattr(config, 'BOOKGEN_PROVIDER', '')
+    monkeypatch.setattr(config, 'AI_DAILY_BOOK_SECTIONS', 60)
+    return ch
+
+
+def fake_repair(monkeypatch, checker):
+    def ask(db, user):
+        if '<current_file name="PYQ_en.txt">' in user:
+            return 'Exam pattern notes, rewritten. ' * 30
+        if 'Translate exactly these questions' in user:
+            return mcq_set('hi')
+        assert '<current_set name="Practice_en_Set_01.txt">' in user and 'numbered 1 to 25' in user
+        return mcq_set('en')
+    monkeypatch.setattr(bookgen, '_ask', ask)
+    monkeypatch.setattr(bookgen, '_ask_check', lambda db, user: checker(user))
+
+
+def test_repair_rewrites_flagged_sections_after_an_independent_resolve(broken_chapter, db, monkeypatch):
+    from app import bookcheck
+    seen = []
+
+    def checker(user):
+        seen.append(user)
+        return '\n'.join(f'{i}: {"abcd"[i % 4]}' for i in range(1, 26))
+    fake_repair(monkeypatch, checker)
+    written, failed = bookgen.repair(db, broken_chapter, out=lambda *a: None)
+    assert written == ['PYQ_en.txt', 'set 01'] and failed == []
+    assert 'Answer' not in seen[0] and 'Solution' not in seen[0]          # the checker never sees the key
+    assert bookcheck.check_chapter(broken_chapter) == ([], [])
+
+
+def test_repair_writes_nothing_when_the_resolve_keeps_disagreeing(broken_chapter, db, monkeypatch):
+    before = (broken_chapter / 'Prompts' / 'Practice_en_Set_01.txt').read_text()
+    fake_repair(monkeypatch, lambda user: '\n'.join(f'{i}: a' for i in range(1, 26)))
+    msgs = []
+    written, failed = bookgen.repair(db, broken_chapter, out=msgs.append)
+    assert 'set 01' in failed and not (broken_chapter / 'Practice_en_Set_01.txt').exists()
+    assert (broken_chapter / 'Prompts' / 'Practice_en_Set_01.txt').read_text() == before
+    assert sum('re-solve disagrees' in m for m in msgs) == bookgen.MAX_REPAIR_TRIES
