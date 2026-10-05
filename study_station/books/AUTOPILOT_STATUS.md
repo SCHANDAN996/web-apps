@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 05-10-2026 11:27 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 05-10 10:25 PM
+**आख़िरी update:** 05-10-2026 11:42 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 05-10 10:25 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Pronoun (Graduation English) | 🔎 review हो रहा है | 29 मिनट |
-| W2 | Chapter 05 Tense (Graduation English) | ✍️ लिख रहा है | 21 मिनट |
-| W3 | Chapter 06 Adverb (Graduation English) | ✍️ लिख रहा है | 61 मिनट |
-| W4 | Chapter 07 Preposition (Graduation English) | ✍️ लिख रहा है | 60 मिनट |
+| W1 | Chapter 02 Pronoun (Graduation English) | 🔎 review हो रहा है | 44 मिनट |
+| W2 | Chapter 05 Tense (Graduation English) | ✍️ लिख रहा है | 36 मिनट |
+| W3 | Chapter 06 Adverb (Graduation English) | ✍️ लिख रहा है | 76 मिनट |
+| W4 | Chapter 07 Preposition (Graduation English) | ✍️ लिख रहा है | 76 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -44,20 +44,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-05-10 22:55:03   [Preposition] REJECTED Practice_en_Set_01.txt: no version passed the checks — not written
-05-10 22:55:03   [Preposition] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
-05-10 22:55:33   [Adverb] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-05-10 22:55:41   [Tense] Practice_en_Set_05.txt try 2: rejected (Q101:leaked_reasoning)
-05-10 22:56:12   [Pronoun] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-05-10 22:56:12   [Pronoun] written 2, failed 0; AI calls today 438/100000
-05-10 22:56:55   [Preposition] Practice_en_Set_02.txt try 1: rejected (Q46:leaked_reasoning)
-05-10 22:57:35   [Pronoun] repaired Mind_Map_hi.txt (2169 chars)
-05-10 22:57:35   [Pronoun] written 1, failed 0; AI calls today 441/100000
-05-10 22:58:43   [Tense] Practice_en_Set_05.txt try 3: rejected (Q101:leaked_reasoning)
-05-10 22:58:43   [Tense] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
-05-10 22:58:43   [Tense] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
-05-10 22:58:44   [Preposition] Practice_en_Set_02.txt try 2: rejected (Q47:leaked_reasoning)
-05-10 23:00:11   [Adverb] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 05-10 23:00:48   [Preposition] Practice_en_Set_02.txt try 3: rejected (Q48:leaked_reasoning)
 05-10 23:00:48   [Preposition] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
 05-10 23:00:48   [Preposition] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
@@ -84,4 +70,18 @@
 05-10 23:22:49   [Pronoun] review Flashcards_hi.txt: 1 issue(s): - Card 3: The Hindi mnemonic “पप्पू रोज़ दिल्ली इधर रोज़ इधर रोज़ दौड़ता है” does not correspond to the acronym 
 05-10 23:23:48   [Tense] Practice_en_Set_05.txt try 1: rejected (Q101:leaked_reasoning)
 05-10 23:24:45   [Preposition] Practice_en_Set_04.txt try 2: re-solve disagrees (Q76 key a vs re-solve b, Q83 key a vs re-solve b)
+05-10 23:27:14   [Adverb] Practice_en_Set_04.txt try 2: re-solve disagrees (Q92 key c vs re-solve a)
+05-10 23:30:04   [Preposition] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+05-10 23:31:22   [Tense] FAILED Practice_en_Set_05.txt: empty
+05-10 23:31:22   [Tense] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
+05-10 23:33:05   [Tense] Practice_en_Set_06.txt try 1: rejected (Q132:leaked_reasoning)
+05-10 23:34:35   [Pronoun] review PYQ_hi.txt: 1 issue(s): - प्रश्न 6 का उत्तर और व्याख्या गलत है: "He is the same man ______ helped me yesterday" में पहचान दर्शाने के लिए 'who' 
+05-10 23:36:29   [Tense] Practice_en_Set_06.txt try 2: re-solve disagrees (Q131 key a vs re-solve d)
+05-10 23:37:34   [Adverb] Practice_en_Set_04.txt try 3: re-solve disagrees (Q92 key a vs re-solve c, Q96 key a vs re-solve ?)
+05-10 23:37:34   [Adverb] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
+05-10 23:37:34   [Adverb] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
+05-10 23:38:10   [Preposition] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+05-10 23:40:24   [Tense] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+05-10 23:41:13   [Adverb] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+05-10 23:41:14   [Pronoun] review Short_Tricks_en.txt: 1 issue(s): - Box 11 incorrectly includes "same" in the list "After all, only, superlatives, same → prefer that"; the corr
 ```
