@@ -1,0 +1,151 @@
+Questions 101–125: Hard
+
+101. If (x + y) : (x - y) = 7 : 3, find the ratio (x^3 + y^3) : (x^3 - y^3).
+(a) 133 : 117 (b) 117 : 133 (c) 125 : 8 (d) 137 : 113
+Answer: (a) 133 : 117
+Solution: Applying Componendo and Dividendo: [(x + y) + (x - y)] / [(x + y) - (x - y)] = (7 + 3) / (7 - 3) => 2x / 2y = 10 / 4 => x / y = 5 / 2. Cubing gives x^3 / y^3 = 125 / 8. Applying Componendo and Dividendo once more: (x^3 + y^3) / (x^3 - y^3) = (125 + 8) / (125 - 8) = 133 / 117. The required value is 133 : 117. Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+102. If (a + b) / sqrt(ab) = 4 / 1, where a > b > 0, find the ratio a : b.
+(a) (3 + sqrt(2)) : (3 - sqrt(2)) (b) (2 + sqrt(3)) : (2 - sqrt(3)) (c) (2 - sqrt(3)) : (2 + sqrt(3)) (d) (4 + sqrt(3)) : (4 - sqrt(3))
+Answer: (b) (2 + sqrt(3)) : (2 - sqrt(3))
+Solution: Dividing by 2 gives (a + b) / (2 * sqrt(ab)) = 2 / 1. By Componendo & Dividendo: (a + b + 2*sqrt(ab)) / (a + b - 2*sqrt(ab)) = (2 + 1) / (2 - 1) => (sqrt(a) + sqrt(b))^2 / (sqrt(a) - sqrt(b))^2 = 3 / 1. Taking square root: (sqrt(a) + sqrt(b)) / (sqrt(a) - sqrt(b)) = sqrt(3) / 1. Applying C&D again: sqrt(a) / sqrt(b) = (sqrt(3) + 1) / (sqrt(3) - 1). Squaring both sides: a / b = (4 + 2*sqrt(3)) / (4 - 2*sqrt(3)) = (2 + sqrt(3)) / (2 - sqrt(3)). The required value is (2 + sqrt(3)) : (2 - sqrt(3)). Hence, the correct option is (b).
+Source: SSC CGL Pattern
+
+103. What number must be added to each of the numbers 6, 14, 18, and 38 so that the resulting numbers form a proportion?
+(a) 3 (b) 4 (c) 2 (d) 1
+Answer: (c) 2
+Solution: Let the number added be x. The proportion is (6 + x) / (14 + x) = (18 + x) / (38 + x). Cross multiplying: (6 + x)(38 + x) = (14 + x)(18 + x) => 228 + 44x + x^2 = 252 + 32x + x^2 => 12x = 24 => x = 2. The required value is 2. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+104. Find the mean proportional between (3 + sqrt(2)) and (12 - sqrt(32)).
+(a) sqrt(14) (b) 4 sqrt(7) (c) 7 (d) 2 sqrt(7)
+Answer: (d) 2 sqrt(7)
+Solution: Rewriting the second term: 12 - sqrt(32) = 12 - 4*sqrt(2) = 4(3 - sqrt(2)). Product of both terms = (3 + sqrt(2)) * 4(3 - sqrt(2)) = 4 * (3^2 - (sqrt(2))^2) = 4 * (9 - 2) = 4 * 7 = 28. The mean proportional is sqrt(28) = 2*sqrt(7). The required value is 2 sqrt(7). Hence, the correct option is (d).
+Source: SSC CGL Pattern
+
+105. If x = (4ab) / (a + b), find the value of (x + 2a)/(x - 2a) + (x + 2b)/(x - 2b).
+(a) 2 (b) 1 (c) 4 (d) 0
+Answer: (a) 2
+Solution: Writing x / (2a) = (2b) / (a + b). By Componendo & Dividendo: (x + 2a) / (x - 2a) = (2b + a + b) / (2b - a - b) = (3b + a) / (b - a). Similarly, x / (2b) = (2a) / (a + b), so (x + 2b) / (x - 2b) = (3a + b) / (a - b) = -(3a + b) / (b - a). Adding both expressions gives [(3b + a) - (3a + b)] / (b - a) = (2b - 2a) / (b - a) = 2. The required value is 2. Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+106. The ratio of the volumes of two cylinders is 7 : 3 and the ratio of their heights is 7 : 9. Find the ratio of their radii.
+(a) 3 : 1 (b) sqrt(3) : 1 (c) 1 : sqrt(3) (d) 9 : 7
+Answer: (b) sqrt(3) : 1
+Solution: Volume of cylinder is V = pi * r^2 * h. Therefore, V1 / V2 = (r1 / r2)^2 * (h1 / h2). Substituting given ratios: 7 / 3 = (r1 / r2)^2 * (7 / 9) => (r1 / r2)^2 = (7 / 3) * (9 / 7) = 3 / 1. Taking square root: r1 / r2 = sqrt(3) / 1. The required value is sqrt(3) : 1. Hence, the correct option is (b).
+Source: SSC CGL Pattern
+
+107. A sum of Rs 7,350 was divided between A, B, and C in such a way that if each of them received Rs 50 less, their shares would be in the ratio 1 : 3 : 2. What was the original share of B?
+(a) Rs 3,600 (b) Rs 2,450 (c) Rs 3,650 (d) Rs 1,250
+Answer: (c) Rs 3,650
+Solution: Total deduction = 3 * 50 = Rs 150. Reduced total sum = 7350 - 150 = Rs 7200. Sum of ratio parts = 1 + 3 + 2 = 6 parts. B's reduced share = 7200 * (3 / 6) = Rs 3600. Original share of B = 3600 + 50 = Rs 3,650. The required value is Rs 3,650. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+108. If (a + b) : (b + c) : (c + a) = 6 : 7 : 8 and a + b + c = 14, find the value of c.
+(a) 7 (b) 8 (c) 5 (d) 6
+Answer: (d) 6
+Solution: Let a + b = 6k, b + c = 7k, c + a = 8k. Adding all three: 2(a + b + c) = 21k => 2(14) = 21k => k = 28 / 21 = 4 / 3. Then a + b = 6 * (4 / 3) = 8. Since a + b + c = 14, we get c = 14 - (a + b) = 14 - 8 = 6. The required value is 6. Hence, the correct option is (d).
+Source: SSC CGL Pattern
+
+109. Three numbers are in the ratio 1/2 : 2/3 : 3/4. The difference between the greatest and the smallest number is 36. Find the middle number.
+(a) 96 (b) 108 (c) 72 (d) 84
+Answer: (a) 96
+Solution: Multiplying by LCM(2, 3, 4) = 12 converts the fractions to integers: 6 : 8 : 9. The difference between greatest (9) and smallest (6) is 9 - 6 = 3 parts. Given 3 parts = 36 => 1 part = 12. Middle number = 8 parts = 8 * 12 = 96. The required value is 96. Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+110. The cost of a diamond varies directly as the square of its weight. A diamond weighing 10 decigrams costs Rs 16,000. If this diamond is cut into two pieces whose weights are in the ratio 2 : 3, what is the loss incurred?
+(a) Rs 8,320 (b) Rs 7,680 (c) Rs 7,200 (d) Rs 8,000
+Answer: (b) Rs 7,680
+Solution: Cost relation is C = k * W^2. Given 16000 = k * 10^2 => k = 160. Weights of two cut pieces are 4 decigrams and 6 decigrams. New combined cost = 160 * (4^2 + 6^2) = 160 * (16 + 36) = 160 * 52 = Rs 8320. Loss incurred = 16000 - 8320 = Rs 7,680. The required value is Rs 7,680. Hence, the correct option is (b).
+Source: SSC CGL Pattern
+
+111. If x / (b - c) = y / (c - a) = z / (a - b), find the value of ax + by + cz.
+(a) 1 (b) abc (c) 0 (d) a + b + c
+Answer: (c) 0
+Solution: Let each ratio equal k. Then x = k(b - c), y = k(c - a), and z = k(a - b). Evaluating ax + by + cz = a*k(b - c) + b*k(c - a) + c*k(a - b) = k[ab - ac + bc - ba + ca - cb] = k * 0 = 0. The required value is 0. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+112. In a zoo, there are rabbits and pigeons. If heads are counted, there are 200, and if legs are counted, there are 580. What is the ratio of rabbits to pigeons?
+(a) 11 : 9 (b) 4 : 5 (c) 5 : 4 (d) 9 : 11
+Answer: (d) 9 : 11
+Solution: Let rabbits be R and pigeons be P. System of equations: R + P = 200 and 4R + 2P = 580. Dividing the second equation by 2 gives 2R + P = 290. Subtracting the first equation yields R = 290 - 200 = 90. Then P = 200 - 90 = 110. Ratio R : P = 90 : 110 = 9 : 11. The required value is 9 : 11. Hence, the correct option is (d).
+Source: SSC CGL Pattern
+
+113. The ratio of the number of boys and girls in a school was 5 : 3. Some new boys and girls were admitted in the ratio 5 : 7, and the total number of students became 1,200, with the ratio of boys to girls changing to 7 : 5. What was the total number of students before the new admissions?
+(a) 960 (b) 900 (c) 1,000 (d) 840
+Answer: (a) 960
+Solution: Final boys = 1200 * 7/12 = 700 and girls = 500. Let new admissions be A, split as (5/12)A boys and (7/12)A girls. Initial boys = 700 - (5/12)A and girls = 500 - (7/12)A. Setting up initial ratio: [700 - (5/12)A] / [500 - (7/12)A] = 5 / 3 => 3[700 - (5/12)A] = 5[500 - (7/12)A] => 2100 - (15/12)A = 2500 - (35/12)A => (20/12)A = 400 => A = 240. Total students before admissions = 1200 - 240 = 960. The required value is 960. Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+114. A and B have their monthly salaries in the ratio 8 : 5. While A spends 75% of his salary, B spends 80% of his salary. If the total of their savings is Rs 12,000, find the monthly salary of A.
+(a) Rs 20,000 (b) Rs 32,000 (c) Rs 36,000 (d) Rs 28,000
+Answer: (b) Rs 32,000
+Solution: Let salaries be 8x and 5x. A saves 25% of 8x = 2x. B saves 20% of 5x = x. Total savings = 2x + x = 3x = Rs 12000 => x = Rs 4000. A's monthly salary = 8x = 8 * 4000 = Rs 32,000. The required value is Rs 32,000. Hence, the correct option is (b).
+Source: SSC CGL Pattern
+
+115. If (3x + 4y) : (x + 2y) = 9 : 4, find the value of (5x^2 + 2y^2) : (5x^2 - 2y^2).
+(a) 17 : 2 (b) 15 : 1 (c) 19 : 1 (d) 21 : 2
+Answer: (c) 19 : 1
+Solution: Cross multiplying: 4(3x + 4y) = 9(x + 2y) => 12x + 16y = 9x + 18y => 3x = 2y => x / y = 2 / 3. Substituting x = 2 and y = 3: 5x^2 + 2y^2 = 5(4) + 2(9) = 20 + 18 = 38. Also 5x^2 - 2y^2 = 5(4) - 2(9) = 20 - 18 = 2. Ratio = 38 : 2 = 19 : 1. The required value is 19 : 1. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+116. The ratio of the radii of two cones is 3 : 4 and the ratio of their heights is 4 : 3. What is the ratio of their curved surface areas if their slant heights are in the ratio 2 : 3?
+(a) 2 : 1 (b) 3 : 4 (c) 4 : 3 (d) 1 : 2
+Answer: (d) 1 : 2
+Solution: Curved surface area of a cone is given by CSA = pi * r * l. The ratio CSA1 / CSA2 = (r1 / r2) * (l1 / l2) = (3 / 4) * (2 / 3) = 6 / 12 = 1 / 2 = 1 : 2. The required value is 1 : 2. Hence, the correct option is (d).
+Source: SSC CGL Pattern
+
+117. If x : y = 3 : 5 and y : z = 2 : 3, then what is the value of 2x^2 : 3y^2 : 4z^2?
+(a) 6 : 25 : 75 (b) 12 : 50 : 150 (c) 4 : 25 : 50 (d) 6 : 20 : 75
+Answer: (a) 6 : 25 : 75
+Solution: Merging the ratios: x : y : z = (3 * 2) : (5 * 2) : (5 * 3) = 6 : 10 : 15. The terms are: 2x^2 = 2 * (6^2) = 72; 3y^2 = 3 * (10^2) = 300; 4z^2 = 4 * (15^2) = 900. Dividing each term by 12 yields: 6 : 25 : 75. The required value is 6 : 25 : 75. Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+118. A bag contains Rs 410 in the form of Rs 5, Rs 2, and Rs 1 coins. The number of coins are in the ratio 4 : 6 : 9. Find the number of Rs 2 coins.
+(a) 40 (b) 60 (c) 90 (d) 50
+Answer: (b) 60
+Solution: Value of one ratio set = (4 * 5) + (6 * 2) + (9 * 1) = 20 + 12 + 9 = Rs 41. Number of sets = 410 / 41 = 10. Number of Rs 2 coins = 6 * 10 = 60. The required value is 60. Hence, the correct option is (b).
+Source: SSC CGL Pattern
+
+119. What must be subtracted from each of the numbers 21, 38, 55, and 106 so that the remainders are in continued proportion?
+(a) 3 (b) 5 (c) 4 (d) 6
+Answer: (c) 4
+Solution: Let x be subtracted: (21 - x) / (38 - x) = (55 - x) / (106 - x). Cross multiplying: (21 - x)(106 - x) = (38 - x)(55 - x) => 2226 - 127x + x^2 = 2090 - 93x + x^2 => 34x = 136 => x = 4. The required value is 4. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+120. If (x / y)^(a - 1) = (y / x)^(a - 3), find the value of a.
+(a) 1 (b) 3 (c) 4 (d) 2
+Answer: (d) 2
+Solution: Inverting the right-hand base gives (x / y)^(a - 1) = (x / y)^[-(a - 3)] = (x / y)^(3 - a). Equating exponents: a - 1 = 3 - a => 2a = 4 => a = 2. The required value is 2. Hence, the correct option is (d).
+Source: SSC CGL Pattern
+
+121. The ratio of copper and zinc in brass is 13 : 7. How much zinc is there in 100 kg of brass?
+(a) 35 kg (b) 65 kg (c) 30 kg (d) 40 kg
+Answer: (a) 35 kg
+Solution: Sum of ratio terms = 13 + 7 = 20 parts. Zinc fraction = 7 / 20. In 100 kg of brass, zinc content = 100 * (7 / 20) = 35 kg. The required value is 35 kg. Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+122. Two containers of equal capacity contain water and milk in the ratio 3 : 4 and 5 : 2 respectively. If both are mixed together, what is the ratio of water to milk in the new mixture?
+(a) 3 : 4 (b) 4 : 3 (c) 5 : 3 (d) 8 : 7
+Answer: (b) 4 : 3
+Solution: Total parts in both vessels are equal (3 + 4 = 7 and 5 + 2 = 7). Summing directly: Total water = 3 + 5 = 8 parts; Total milk = 4 + 2 = 6 parts. Resulting ratio of water to milk = 8 : 6 = 4 : 3. The required value is 4 : 3. Hence, the correct option is (b).
+Source: SSC CGL Pattern
+
+123. If x = (sqrt(m + 1) + sqrt(m - 1)) / (sqrt(m + 1) - sqrt(m - 1)), find the value of x^2 - 2mx + 1.
+(a) 1 (b) -1 (c) 0 (d) 2m
+Answer: (c) 0
+Solution: By Componendo & Dividendo: (x + 1) / (x - 1) = sqrt(m + 1) / sqrt(m - 1). Squaring both sides: (x + 1)^2 / (x - 1)^2 = (m + 1) / (m - 1). Applying C&D again: [ (x + 1)^2 + (x - 1)^2 ] / [ (x + 1)^2 - (x - 1)^2 ] = (m + 1 + m - 1) / (m + 1 - m + 1) => 2(x^2 + 1) / (4x) = 2m / 2 => (x^2 + 1) / (2x) = m => x^2 + 1 = 2mx => x^2 - 2mx + 1 = 0. The required value is 0. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+124. In a partnership, A invests 1/3 of the total capital for 1/4 of the total time, B invests 1/4 of the total capital for 1/2 of the total time, and C invests the remaining capital for the whole time. If the total profit is Rs 1,140, find the share of A.
+(a) Rs 228 (b) Rs 760 (c) Rs 180 (d) Rs 152
+Answer: (d) Rs 152
+Solution: Let total capital = 12 and total time = 4. A's share = 4 * 1 = 4. B's share = 3 * 2 = 6. Remaining capital for C = 12 - (4 + 3) = 5 for full time 4 = 5 * 4 = 20. Ratio of profits = 4 : 6 : 20 = 2 : 3 : 10. Total parts = 15. Value of 1 part = 1140 / 15 = Rs 76. A's share = 2 * 76 = Rs 152. The required value is Rs 152. Hence, the correct option is (d).
+Source: SSC CGL Pattern
+
+125. If 15% of (P + Q) = 25% of (P - Q), then what percentage of Q is equal to P?
+(a) 25% (b) 400% (c) 250% (d) 300%
+Answer: (b) 400%
+Solution: Given 15(P + Q) = 25(P - Q) => 3(P + Q) = 5(P - Q) => 3P + 3Q = 5P - 5Q => 2P = 8Q => P = 4Q. Required percentage = (P / Q) * 100% = (4 / 1) * 100% = 400%. The required value is 400%. Hence, the correct option is (b).
+Source: SSC CGL Pattern

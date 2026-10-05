@@ -1,0 +1,27 @@
+# Important Formulas: Ratio & Proportion
+
+## 1. Proportion Formulas
+- Product of Extremes = Product of Means: a * d = b * c
+- Fourth Proportional to a, b, c: x = (b * c) / a
+- Third Proportional to a, b: x = b^2 / a
+- Mean Proportional between a and b: x = sqrt(a * b)
+
+## 2. Derived Ratios
+- Duplicate Ratio of a : b = a^2 : b^2
+- Sub-duplicate Ratio = sqrt(a) : sqrt(b)
+- Triplicate Ratio = a^3 : b^3
+- Sub-triplicate Ratio = a^(1/3) : b^(1/3)
+- Compound Ratio of (a:b), (c:d), (e:f) = (ace) : (bdf)
+
+## 3. Componendo and Dividendo
+- If a / b = c / d, then:
+  (a + b) / (a - b) = (c + d) / (c - d)
+
+## 4. Distribution Formula
+- If an amount S is divided among A, B, C in the ratio p : q : r:
+  A's share = S * [p / (p + q + r)]
+  B's share = S * [q / (p + q + r)]
+  C's share = S * [r / (p + q + r)]
+
+## 5. Coin Value Calculation
+- Total Value = Sum of (Number of coins of denomination_i * Face value of denomination_i)
