@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 06-10-2026 02:42 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 01:25 AM
+**आख़िरी update:** 06-10-2026 02:44 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 02:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 10 Voice (Graduation English) | ✍️ लिख रहा है | 36 मिनट |
-| W2 | Chapter 08 Conjunction (Graduation English) | ✍️ लिख रहा है | 52 मिनट |
-| W3 | Chapter 07 Preposition (Graduation English) | 🔎 review हो रहा है | 6 मिनट |
-| W4 | Chapter 09 Articles (Graduation English) | ✍️ लिख रहा है | 37 मिनट |
+| W1 | Chapter 05 Tense (Graduation English) | 🔧 सुधार रहा है | 0 मिनट |
+| W2 | Chapter 07 Preposition (Graduation English) | 🔧 सुधार रहा है | 0 मिनट |
+| W3 | Chapter 08 Conjunction (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
+| W4 | Chapter 09 Articles (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -28,8 +28,8 @@
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 0 | 0 | 28 |
 | Graduation Reasoning | 0 | 0 | 30 |
-| Graduation English | 7 | 0 | 23 |
-| **कुल** | **57** | **13** | **226** |
+| Graduation English | 5 | 2 | 23 |
+| **कुल** | **55** | **15** | **226** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -43,12 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-06-10 02:15:23   [Preposition] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-06-10 02:15:41   [Articles] wrote Flashcards_hi.txt (4177 chars)
-06-10 02:15:50   [Voice] wrote Mind_Map_hi.txt (2018 chars)
-06-10 02:17:11   [Conjunction] Practice_en_Set_02.txt try 2: re-solve disagrees (Q43 key b vs re-solve c)
-06-10 02:17:39   [Articles] wrote PYQ_en.txt (7414 chars)
-06-10 02:17:50   [Voice] wrote Flashcards_en.txt (3736 chars)
 06-10 02:18:57   [Preposition] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 06-10 02:19:37   [Articles] wrote PYQ_hi.txt (5893 chars)
 06-10 02:19:39   [Voice] wrote Flashcards_hi.txt (4004 chars)
@@ -83,4 +77,10 @@
 06-10 02:41:35   [Voice] wrote Important_Rules_hi.txt (5695 chars)
 06-10 02:41:54   [Preposition] review Content_hi.txt: 2 issue(s): - In section 5, the example "He is working here since 2019" is incorrectly marked as correct (✅); "since" with a po
 06-10 02:42:06   [Conjunction] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+06-10 02:42:48   [Articles] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+06-10 02:43:15 autopilot start: 4 workers, reverse=True
+06-10 02:43:15 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_05_Tense (FIX: todo 0, problems 2)
+06-10 02:43:20 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_07_Preposition (FIX: todo 0, problems 1)
+06-10 02:43:25 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_08_Conjunction (TODO: todo 5, problems 0)
+06-10 02:43:30 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_09_Articles (TODO: todo 8, problems 0)
 ```
