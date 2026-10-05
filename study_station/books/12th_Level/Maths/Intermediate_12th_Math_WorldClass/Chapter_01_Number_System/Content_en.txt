@@ -1,0 +1,228 @@
+# Number System (Advanced)
+
+## What You Will Master in This Chapter
+1. Advanced Divisibility Tests: Composite divisors (72, 88, 99) and osculators for prime divisors (7, 13, 17, 19, 29).
+2. Cyclicity and Digits: Finding the unit digit and the last two digits of towering exponential powers.
+3. Modular Arithmetic and Remainder Theorems: Binomial expansions, Fermat's Little Theorem, Euler's Totient Theorem, and Wilson's Theorem.
+4. Anatomy of Factors: Total number of factors, prime factors, odd/even factors, sum and product of factors.
+5. Trailing Zeroes and Legendre's Formula: Highest power of any prime dividing a factorial $n!$.
+6. Number Base Radix Systems: Conversions between decimal, binary, octal, and hexadecimal bases.
+
+---
+
+## The Million-Dollar RSA Riddle: Why Powers Rule the World
+
+Imagine sitting at your computer, buying a book online with your debit card. In less than a second, your 16-digit card number is encrypted, transmitted across thousands of miles of open internet cables, decrypted by the bank, and approved. 
+
+No hacker on Earth can read that number. Why? 
+
+Not because of impenetrable hardware, but because of a simple mathematical property of the Number System: **Modular Arithmetic and Prime Factorization**. Modern cryptography (the RSA algorithm) takes two massive prime numbers, multiplies them together, and raises your data to huge exponential powers modulo that product. Multiplying two 300-digit primes takes milliseconds for a laptop; reversing the process to find the original factors would take all the supercomputers on Earth several billion years. 
+
+The number system is not just an elementary topic of counting apples; it is the mathematical backbone of modern digital civilization. In competitive exams like SSC CGL Tier-1, CHSL, and RRB NTPC, examiners treat the Number System as the supreme test of your mathematical agility.
+
+---
+
+## Empathy Check: Why Does Number System Feel Overwhelming?
+
+Many students share this genuine frustration: *"I learned natural numbers and fractions in middle school, but when I see questions like 'Find the remainder when $7^{104}$ is divided by 105' or 'A 9-digit number $785x3678y$ is divisible by 72, find $5x - 3y$', my mind goes completely blank."*
+
+The reason for this anxiety is simple: school mathematics taught you how to perform arithmetic by brute force, whereas competitive exams test structural properties and recurring patterns. You do not need to calculate $7^{104}$; you only need to understand the rhythm of cycles. Once you master the underlying laws of periodicity, divisibility, and factor structures, these intimidating questions crack open in under 30 seconds.
+
+---
+
+## 1. Advanced Divisibility: The Co-Prime Factor Rule and Osculators
+
+### The Co-Prime Factor Rule
+To test divisibility by a composite number $N$, express $N$ as the product of two **co-prime** factors $a$ and $b$ (such that $\gcd(a, b) = 1$):
+- Divisibility by 6: Number must be divisible by 2 and 3.
+- Divisibility by 12: Number must be divisible by 3 and 4 ($\gcd(3, 4) = 1$). Never test 2 and 6, because 2 and 6 are not co-prime.
+- Divisibility by 72: Divisible by 8 (last 3 digits divisible by 8) AND 9 (sum of digits divisible by 9).
+- Divisibility by 88: Divisible by 8 AND 11 (alternating sum difference is 0 or multiple of 11).
+- Divisibility by 99: Divisible by 9 AND 11.
+
+**Example Walkthrough:** 
+If the 8-digit number $4356x97y$ is divisible by 72, find $x$ and $y$ (given $y$ is even).
+1. First test 8: The last three digits are $97y$. Dividing 97 by 8 leaves remainder 1. So $1y$ must be divisible by 8. The only single digit making 16 divisible by 8 is $y = 6$.
+2. Now test 9: The sum of digits of $4356x976$ is $4+3+5+6+x+9+7+6 = 40 + x$.
+3. For $40 + x$ to be a multiple of 9, $x$ must be $5$ ($40 + 5 = 45$).
+4. Thus, $x = 5$ and $y = 6$.
+
+🧠 **Active Recall 1:**
+Why can't we test divisibility by 12 using the factors 2 and 6?
+*(Pause and think: 18 is divisible by 2 and 6, but 18 is not divisible by 12 because $\gcd(2, 6) = 2 \neq 1$.)*
+
+---
+
+### The Osculator (Ekadhika) Method for Prime Divisors
+For large prime divisors ($7, 13, 17, 19, 23, 29$), we use the concept of positive and negative osculators:
+- **Rule for 7 (Negative Osculator = 2):** Drop the unit digit, double it, and subtract from the remaining truncated number. Repeat until small.
+  *Example:* 343 → $34 - (3 \times 2) = 28$ (divisible by 7).
+- **Rule for 13 (Positive Osculator = 4):** Drop the unit digit, multiply by 4, and add to the remaining truncated number.
+  *Example:* 143 → $14 + (3 \times 4) = 26$ (divisible by 13).
+- **Rule for 17 (Negative Osculator = 5):** Truncated number minus $5 \times$ (unit digit).
+- **Rule for 19 (Positive Osculator = 2):** Truncated number plus $2 \times$ (unit digit).
+
+---
+
+## 2. Unit Digit and Cyclicity
+
+Every digit raised to positive integer powers exhibits a repeating cyclic pattern in its last digit:
+- **Cyclicity 1:** $\{0, 1, 5, 6\}$. No matter what positive integer power you raise them to, their unit digit never changes ($0^n = 0$, $1^n = 1$, $5^n = 5$, $6^n = 6$).
+- **Cyclicity 2:** $\{4, 9\}$. 
+  - $4^{\text{odd}} \to 4$; $4^{\text{even}} \to 6$.
+  - $9^{\text{odd}} \to 9$; $9^{\text{even}} \to 1$.
+- **Cyclicity 4:** $\{2, 3, 7, 8\}$. 
+  - For $2$: $2^1=2, 2^2=4, 2^3=8, 2^4=16 \to \text{cycle } (2, 4, 8, 6)$.
+  - For $3$: $3^1=3, 3^2=9, 3^3=27, 3^4=81 \to \text{cycle } (3, 9, 7, 1)$.
+  - For $7$: $7^1=7, 7^2=49, 7^3=343, 7^4=2401 \to \text{cycle } (7, 9, 3, 1)$.
+  - For $8$: $8^1=8, 8^2=64, 8^3=512, 8^4=4096 \to \text{cycle } (8, 4, 2, 6)$.
+
+**Algorithm to find the unit digit of $x^n$:**
+1. Focus only on the unit digit of the base, say $d$.
+2. Divide the power $n$ by the cyclicity of $d$ (usually 4). Let the remainder be $r$.
+3. If $r > 0$, the unit digit is the unit digit of $d^r$.
+4. If $r = 0$, the unit digit is the unit digit of $d^4$.
+
+**Example:** Find the unit digit of $7^{95} - 3^{58}$.
+- For $7^{95}$: Cyclicity is 4. Divide 95 by 4: $95 = 23 \times 4 + 3$. Remainder = 3. Unit digit of $7^3$ is 3.
+- For $3^{58}$: Cyclicity is 4. Divide 58 by 4: $58 = 14 \times 4 + 2$. Remainder = 2. Unit digit of $3^2$ is 9.
+- Subtraction: The unit digit calculation is $(...3) - (...9)$. Since $3 < 9$, borrow 1 from the tens place: $13 - 9 = 4$.
+- The resulting unit digit is 4.
+
+🧠 **Active Recall 2:**
+What is the unit digit of $2^{100}$?
+*(Power 100 is divisible by 4, so remainder is 0. Look at $2^4 = 16 \to$ unit digit is 6.)*
+
+---
+
+## 3. Remainder Theorems and Modular Arithmetic
+
+In competitive mathematics, remainders are written using congruence notation: $A \equiv R \pmod M$, meaning $A$ divided by $M$ leaves remainder $R$.
+
+### Core Principles
+1. **Additive Property:** Remainder of $(A + B) / M = (\text{Rem}(A/M) + \text{Rem}(B/M)) \pmod M$.
+2. **Multiplicative Property:** Remainder of $(A \times B) / M = (\text{Rem}(A/M) \times \text{Rem}(B/M)) \pmod M$.
+3. **Negative Remainder Concept:** If dividing 34 by 7, normal positive remainder is $+6$. The negative remainder is $6 - 7 = -1$. Using $-1$ in powers simplifies calculations: $34^{25} \equiv (-1)^{25} \equiv -1 \equiv 6 \pmod 7$.
+
+### Standard Binomial Forms
+- $(a + 1)^n / a$ always leaves a remainder of **1**, for any natural number $n$.
+- $(a - 1)^n / a$:
+  - Leaves remainder **1** if $n$ is even.
+  - Leaves remainder **$a - 1$** (or $-1$) if $n$ is odd.
+
+### Famous High-Yield Theorems
+1. **Fermat's Little Theorem:**
+   If $p$ is a prime number and $\gcd(a, p) = 1$, then:
+   $$a^{p-1} \equiv 1 \pmod p$$
+   *Example:* Remainder of $3^{100}$ divided by 101. Since 101 is prime and $\gcd(3, 101) = 1$, $3^{100} \equiv 1 \pmod{101}$. The remainder is 1.
+
+2. **Euler's Totient Theorem:**
+   For any integer $n$, Euler's totient function $\phi(n)$ is the count of numbers up to $n$ that are co-prime to $n$:
+   $$\phi(n) = n \left(1 - \frac{1}{p_1}\right) \left(1 - \frac{1}{p_2}\right) \dots$$
+   If $\gcd(a, n) = 1$, then:
+   $$a^{\phi(n)} \equiv 1 \pmod n$$
+
+3. **Wilson's Theorem:**
+   For any prime $p$:
+   $$(p - 1)! \equiv -1 \equiv (p - 1) \pmod p$$
+   *Example:* Remainder of $16! / 17$ is $17 - 1 = 16$.
+
+🧠 **Active Recall 3:**
+What is the remainder when $2^{36}$ is divided by 37?
+*(37 is prime. By Fermat's Little Theorem, $a^{p-1} \equiv 1 \pmod p$, so $2^{36} \equiv 1 \pmod{37}$. Remainder is 1.)*
+
+---
+
+## 4. The Anatomy of Factors
+
+Consider the prime factorization of a composite natural number $N$:
+$$N = p_1^a \cdot p_2^b \cdot p_3^c$$
+where $p_1, p_2, p_3$ are distinct prime numbers and $a, b, c$ are positive integers.
+
+### Complete Factor Formulas
+1. **Total Number of Factors $T(N)$:**
+   $$T(N) = (a + 1)(b + 1)(c + 1)$$
+2. **Number of Prime Factors:**
+   - Total prime factors with multiplicity = $a + b + c$.
+   - Distinct prime factors = number of prime bases (here, 3).
+3. **Number of Even and Odd Factors (where $p_1 = 2$):**
+   - Number of odd factors = $(b + 1)(c + 1)$ (ignore all powers of 2).
+   - Number of even factors = Total factors $-$ Odd factors = $a(b + 1)(c + 1)$.
+4. **Sum of all Factors $S(N)$:**
+   $$S(N) = \left(\frac{p_1^{a+1} - 1}{p_1 - 1}\right) \left(\frac{p_2^{b+1} - 1}{p_2 - 1}\right) \left(\frac{p_3^{c+1} - 1}{p_3 - 1}\right)$$
+5. **Product of all Factors $P(N)$:**
+   $$P(N) = N^{T(N)/2}$$
+
+**Demonstration with $N = 360$:**
+- Prime factorization: $360 = 2^3 \times 3^2 \times 5^1$.
+- Total factors = $(3 + 1)(2 + 1)(1 + 1) = 4 \times 3 \times 2 = 24$.
+- Odd factors = $(2 + 1)(1 + 1) = 3 \times 2 = 6$.
+- Even factors = $24 - 6 = 18$ (or $3 \times 3 \times 2 = 18$).
+- Sum of factors = $(1 + 2 + 4 + 8)(1 + 3 + 9)(1 + 5) = 15 \times 13 \times 6 = 1170$.
+- Product of factors = $360^{24/2} = 360^{12}$.
+
+---
+
+## 5. Trailing Zeroes and Legendre's Formula
+
+A trailing zero in decimal notation is produced exclusively by the pair $(2 \times 5 = 10)$. 
+In any factorial $n!$ or continuous product, the prime factor 2 occurs far more frequently than the prime factor 5. Therefore, the number of trailing zeroes is determined solely by the **highest power of 5** dividing $n!$.
+
+### Legendre's Formula
+To find the exponent of a prime $p$ in $n!$ (denoted $E_p(n!)$):
+$$E_p(n!) = \left\lfloor\frac{n}{p}\right\rfloor + \left\lfloor\frac{n}{p^2}\right\rfloor + \left\lfloor\frac{n}{p^3}\right\rfloor + \dots$$
+where $\lfloor x \rfloor$ denotes the greatest integer function (floor division).
+
+**Example:** Find the number of trailing zeroes in $125!$.
+$$E_5(125!) = \left\lfloor\frac{125}{5}\right\rfloor + \left\lfloor\frac{125}{25}\right\rfloor + \left\lfloor\frac{125}{125}\right\rfloor = 25 + 5 + 1 = 31$$
+Thus, $125!$ ends in exactly 31 trailing zeroes.
+
+🧠 **Active Recall 4:**
+How many trailing zeroes are in $100!$?
+*(Compute $\lfloor 100/5 \rfloor + \lfloor 100/25 \rfloor = 20 + 4 = 24$ zeroes.)*
+
+---
+
+## 6. Radix / Base Systems
+
+Numbers in base $r$ use $r$ distinct digits ($0, 1, \dots, r-1$).
+- Decimal (Base 10): Digits 0 to 9.
+- Binary (Base 2): Digits 0 and 1.
+- Octal (Base 8): Digits 0 to 7.
+- Hexadecimal (Base 16): Digits 0 to 9 and A(=10), B(=11), C(=12), D(=13), E(=14), F(=15).
+
+### Conversion Rule
+- **From Base $r$ to Decimal:** Multiply each digit by positional powers $r^k$.
+  $$(1101)_2 = 1 \cdot 2^3 + 1 \cdot 2^2 + 0 \cdot 2^1 + 1 \cdot 2^0 = 8 + 4 + 0 + 1 = 13_{10}$$
+- **From Decimal to Base $r$:** Continually divide by $r$ and collect remainders from bottom to top.
+
+---
+
+## 💡 Weird Mnemonic: The "P.O.E.T." of Number Systems
+
+To master the 4 most treacherous advanced concepts, remember the acronym **P.O.E.T.**:
+- **P** — **Periodicity / Cyclicity:** 4 is the universal magic cycle for powers $\{2, 3, 7, 8\}$.
+- **O** — **Osculator:** Cut the tail, multiply by the key, add/subtract to slay large prime divisors.
+- **E** — **Euler / Fermat:** Prime mod powers drop to 1 when power hits $p-1$.
+- **T** — **Trailing Zeroes:** Always hunt the prime 5; twos are abundant in every factory!
+
+Picture an eccentric 18th-century **POET** sitting on top of an enormous factorial, reciting verses to tame wild prime numbers!
+
+---
+
+## Summary Matrix
+
+| Concept | Key Mathematical Rule | Rapid Exam Application |
+| :--- | :--- | :--- |
+| **Divisibility by 72** | Test co-prime factors $8$ and $9$ | Fix last 3 digits for 8 first, then sum of digits for 9 |
+| **Divisibility by 88** | Test co-prime factors $8$ and $11$ | Fix last 3 digits for 8 first, then alternating difference for 11 |
+| **Unit Digit of $x^n$** | Cyclicity of base digit (max cycle = 4) | Replace power $n$ with $n \pmod 4$ (use 4 if remainder is 0) |
+| **Remainder $a^{p-1} / p$** | Fermat's Little Theorem: Remainder $= 1$ | Applicable whenever $p$ is prime and $\gcd(a, p) = 1$ |
+| **Wilson's Remainder** | $(p-1)! \equiv -1 \equiv p-1 \pmod p$ | Remainder of $(p-2)! / p$ is always $1$ |
+| **Total Factors** | For $N = p^a q^b r^c \to (a+1)(b+1)(c+1)$ | Product of incremented prime exponents |
+| **Trailing Zeroes in $n!$** | Legendre sum: $\sum \lfloor n / 5^k \rfloor$ | Count powers of 5 only |
+
+---
+
+## ⏳ Active Review Prompt
+> **Review Schedule:** Return to this summary matrix exactly **2 days from today**. Before re-reading the text, take a blank sheet of paper and write down the formulas for Total Factors, Euler's Theorem, and Legendre's Formula from memory. If you recall all three without hesitation, your neural pathways for 12th-level Number System are permanently locked in!

@@ -1,0 +1,41 @@
+```mermaid
+graph TD
+    R["🔢 संख्या प्रणाली (उन्नत)<br>Number System (Advanced)"]
+    
+    R --> D["🛡️ उन्नत विभाज्यता<br>Advanced Divisibility"]
+    R --> C["🔄 चक्रीयता एवं इकाई अंक<br>Cyclicity & Unit Digit"]
+    R --> REM["⚖️ शेषफल प्रमेय<br>Remainder Theorems"]
+    R --> F["🧩 गुणनखंड विश्लेषण<br>Factors Analytics"]
+    R --> Z["🎯 अंत में शून्य<br>Trailing Zeroes"]
+    R --> B["💻 संख्या आधार प्रणाली<br>Radix / Base Systems"]
+
+    D --> D1["सह-अभाज्य नियम<br>72 = 8 x 9, 88 = 8 x 11"]
+    D --> D2["एकाधिक / ऑस्क्युलेटर विधि<br>7(-2), 13(+4), 17(-5), 19(+2)"]
+
+    C --> C1["चक्रीयता 1: 0, 1, 5, 6<br>अपरिवर्तित"]
+    C --> C2["चक्रीयता 2: 4, 9<br>सम/विषम घात"]
+    C --> C3["चक्रीयता 4: 2, 3, 7, 8<br>घात mod 4"]
+
+    REM --> REM1["द्विपद रूप<br>(a+1)^n / a = 1<br>(a-1)^n / a = 1 या a-1"]
+    REM --> REM2["फर्मेट प्रमेय<br>a^(p-1) = 1 mod p"]
+    REM --> REM3["यूलर प्रमेय<br>a^phi(n) = 1 mod n"]
+    REM --> REM4["विल्सन प्रमेय<br>(p-1)! = p-1 mod p"]
+
+    F --> F1["कुल गुणनखंड<br>T(N) = (a+1)(b+1)(c+1)"]
+    F --> F2["सम एवं विषम गुणनखंड<br>Odd = (b+1)(c+1)"]
+    F --> F3["गुणनखंडों का योग एवं गुणनफल<br>S(N), P(N) = N^(T/2)"]
+
+    Z --> Z1["2 x 5 = 10 युग्म सिद्धांत"]
+    Z --> Z2["लेजेंड्रे सूत्र<br>E5(n!) = [n/5] + [n/25] + ..."]
+
+    B --> B1["दशमलव से द्वि-आधारी / अष्टक"]
+    B --> B2["स्थानीय मान प्रसार विधि"]
+
+    style R fill:#4f46e5,stroke:#fff,stroke-width:2px,color:#fff
+    style D fill:#059669,stroke:#fff,stroke-width:2px,color:#fff
+    style C fill:#d97706,stroke:#fff,stroke-width:2px,color:#fff
+    style REM fill:#dc2626,stroke:#fff,stroke-width:2px,color:#fff
+    style F fill:#7c3aed,stroke:#fff,stroke-width:2px,color:#fff
+    style Z fill:#0891b2,stroke:#fff,stroke-width:2px,color:#fff
+    style B fill:#4b5563,stroke:#fff,stroke-width:2px,color:#fff
+```

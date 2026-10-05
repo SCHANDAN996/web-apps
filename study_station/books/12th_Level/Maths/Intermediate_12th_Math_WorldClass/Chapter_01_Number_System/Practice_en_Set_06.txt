@@ -1,0 +1,151 @@
+Questions 126–150: Hard
+
+126. What is the remainder when 17²⁰⁰ is divided by 100?
+(a) 1 (b) 49 (c) 81 (d) 17
+Answer: (a) 1
+Solution: By Euler Totient Theorem, phi(100) = 40. Since gcd(17, 100) = 1, 17⁴⁰ ≡ 1 (mod 100). Exponent 200 = 40 × 5, so 17²⁰⁰ = (17⁴⁰)⁵ ≡ 1⁵ = 1 (mod 100). The remainder is 1. Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+127. What is the tens digit of the number 7²⁰⁰⁸?
+(a) 4 (b) 0 (c) 1 (d) 7
+Answer: (b) 0
+Solution: Trap: Candidates often name the unit digit rather than the tens digit. Powers of 7 end in {07, 49, 43, 01} repeating every 4 powers. Since 2008 is divisible by 4, 7²⁰⁰⁸ ends in 01. The tens digit is 0. Hence, the correct option is (b).
+Source: SSC CGL Pattern
+
+128. What is the remainder when 2¹⁰⁰⁰ is divided by 13?
+(a) 1 (b) 9 (c) 3 (d) 4
+Answer: (c) 3
+Solution: 13 is prime. By Fermat Little Theorem, 2¹² ≡ 1 (mod 13). Since 1000 = 12 × 83 + 4, 2¹⁰⁰⁰ ≡ 2⁴ = 16 ≡ 3 (mod 13). The remainder is 3. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+129. If N = 12³ × 3⁴ × 5², how many factors of N are odd and multiples of 5?
+(a) 10 (b) 12 (c) 14 (d) 16
+Answer: (d) 16
+Solution: Prime factorization: N = (2² × 3)³ × 3⁴ × 5² = 2⁶ × 3⁷ × 5². For odd factors, discard power of 2. For multiples of 5, power of 5 can be 1 or 2 (2 choices). Powers of 3 can be 0 to 7 (8 choices). Total factors = 8 × 2 = 16. Hence, the correct option is (d).
+Source: NCERT Class 11 Mathematics
+
+130. What is the remainder when (12! + 1) is divided by 13?
+(a) 0 (b) 1 (c) 12 (d) 11
+Answer: (a) 0
+Solution: 13 is prime. By Wilson theorem, 12! ≡ -1 (mod 13). Therefore, (12! + 1) ≡ -1 + 1 = 0 (mod 13). The remainder is 0. Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+131. How many trailing zeroes are at the end of the sum (100! + 200!)?
+(a) 49 (b) 24 (c) 73 (d) 25
+Answer: (b) 24
+Solution: Trap: In a sum of factorials, trailing zeroes are determined by the smaller factorial. 100! has 24 zeroes and 200! has 49 zeroes. Factoring gives 100!(1 + 10²⁵k), which ends in exactly 24 zeroes. Hence, the correct option is (b).
+Source: SSC CHSL Pattern
+
+132. What is the remainder when 3²⁰⁰ is divided by 100?
+(a) 81 (b) 49 (c) 1 (d) 27
+Answer: (c) 1
+Solution: By Euler Totient Theorem, phi(100) = 40. Therefore, 3⁴⁰ ≡ 1 (mod 100). Since 200 = 40 × 5, 3²⁰⁰ = (3⁴⁰)⁵ ≡ 1⁵ = 1 (mod 100). The remainder is 1. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+133. What is the remainder when 97! is divided by 101?
+(a) 97 (b) 1 (c) 16 (d) 17
+Answer: (d) 17
+Solution: By Wilson theorem, 100! ≡ -1 (mod 101). Writing (-1)(-2)(-3) × 97! = -6 × 97! ≡ -1, giving 6 × 97! ≡ 1 (mod 101). Multiplying by inverse 17 (since 6 × 17 = 102 ≡ 1) gives 97! ≡ 17 (mod 101). The remainder is 17. Hence, the correct option is (d).
+Source: SSC CGL Pattern
+
+134. What is the sum of reciprocals of all factors of the number 60?
+(a) 2.8 (b) 3.2 (c) 2.4 (d) 3.0
+Answer: (a) 2.8
+Solution: The sum of reciprocals of all factors of N equals (Sum of factors) / N. For 60 = 2² × 3¹ × 5¹, sum of factors is 7 × 4 × 6 = 168. Dividing 168 by 60 gives 2.8. Hence, the correct option is (a).
+Source: NCERT Class 11 Mathematics
+
+135. What is the unit digit of (1!)¹ + (2!)² + (3!)³ + (4!)⁴ + ... + (10!)¹⁰?
+(a) 5 (b) 7 (c) 3 (d) 1
+Answer: (b) 7
+Solution: For any n ≥ 5, (n!)ⁿ ends in 0. The unit digit is determined by (1!)¹ + (2!)² + (3!)³ + (4!)⁴ = 1 + 4 + 6 + 6 = 17, which ends in 7. Hence, the correct option is (b).
+Source: SSC CHSL Pattern
+
+136. What is the remainder when 4⁹⁶ is divided by 6?
+(a) 0 (b) 2 (c) 4 (d) 1
+Answer: (c) 4
+Solution: Any positive integer power of 4 divided by 6 leaves a remainder of 4: 4¹ = 4, 4² = 16 = 6×2 + 4, 4³ = 64 = 6×10 + 4. Thus, 4⁹⁶ leaves a remainder of 4. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+137. What is the highest power of 12 that completely divides 100!?
+(a) 97 (b) 49 (c) 50 (d) 48
+Answer: (d) 48
+Solution: Since 12 = 2² × 3¹, power of 3 in 100! is 33 + 11 + 3 + 1 = 48. Power of 2 is 97, so power of 2² is floor(97/2) = 48. Both prime components yield 48, so highest power of 12 is 48. Hence, the correct option is (d).
+Source: SSC CHSL Pattern
+
+138. What is the remainder when (35³⁵ + 35) is divided by 36?
+(a) 34 (b) 35 (c) 1 (d) 0
+Answer: (a) 34
+Solution: In modular arithmetic, 35 ≡ -1 (mod 36). 35³⁵ ≡ (-1)³⁵ = -1 (mod 36). Adding 35 gives (-1 + 35) = 34. The remainder is 34. Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+139. What is the total number of composite factors of the number 120?
+(a) 11 (b) 12 (c) 13 (d) 16
+Answer: (b) 12
+Solution: Prime factorization: 120 = 2³ × 3¹ × 5¹. Total factors = 4 × 2 × 2 = 16. Prime factors are {2, 3, 5} (3 primes), and 1 is neither prime nor composite. Composite factors = 16 - (3 + 1) = 12. Hence, the correct option is (b).
+Source: NCERT Class 11 Mathematics
+
+140. What is the remainder when 15³⁰⁰ is divided by 100?
+(a) 50 (b) 15 (c) 25 (d) 75
+Answer: (c) 25
+Solution: Powers of 15 mod 100 alternate: 15² = 225 ≡ 25, 15³ = 375 ≡ 75, 15⁴ ≡ 25. All even powers n ≥ 2 end in 25. Since 300 is even, 15³⁰⁰ ends in 25. The remainder is 25. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+141. How many trailing zeroes are at the end of the product 5 × 10 × 15 × 20 × ... × 150?
+(a) 37 (b) 30 (c) 31 (d) 26
+Answer: (d) 26
+Solution: Trap: In a product of multiples of 5, factor 2 becomes the limiting factor. Factoring gives 5³⁰ × 30!. Power of 5 is 30 + 7 = 37. Power of 2 in 30! is 15 + 7 + 3 + 1 = 26. Trailing zeroes = min(37, 26) = 26. Hence, the correct option is (d).
+Source: SSC CHSL Pattern
+
+142. What is the remainder when 2¹⁰⁶ is divided by 53?
+(a) 4 (b) 1 (c) 2 (d) 52
+Answer: (a) 4
+Solution: 53 is a prime number. By Fermat Little Theorem, 2⁵² ≡ 1 (mod 53). Exponent 106 = 52 × 2 + 2. Thus, 2¹⁰⁶ ≡ 2² = 4 (mod 53). The remainder is 4. Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+143. What is the unit digit of the tower expression (13)^(13^13)?
+(a) 1 (b) 3 (c) 7 (d) 9
+Answer: (b) 3
+Solution: Base unit digit is 3 with cyclicity 4. Exponent 13¹³ mod 4: since 13 ≡ 1 (mod 4), 13¹³ ≡ 1¹³ = 1 (mod 4). Thus, the unit digit is 3¹ = 3. Hence, the correct option is (b).
+Source: SSC CGL Pattern
+
+144. How many factors of the number 2700 are divisible by 15?
+(a) 12 (b) 15 (c) 18 (d) 24
+Answer: (c) 18
+Solution: Divide 2700 by 15: 2700 / 15 = 180. Multiples of 15 equal total factors of 180: 180 = 2² × 3² × 5¹. Total factors = (2 + 1)(2 + 1)(1 + 1) = 3 × 3 × 2 = 18. Hence, the correct option is (c).
+Source: NCERT Class 11 Mathematics
+
+145. What is the remainder when 3¹⁰⁰ is divided by 13?
+(a) 1 (b) 2 (c) 4 (d) 3
+Answer: (d) 3
+Solution: By Fermat theorem, 3¹² ≡ 1 (mod 13). Exponent 100 = 12 × 8 + 4. Thus, 3¹⁰⁰ ≡ 3⁴ = 81 ≡ 3 (mod 13). The remainder is 3. Hence, the correct option is (d).
+Source: SSC CGL Pattern
+
+146. What is the value of hexadecimal addition (1A)₁₆ + (2B)₁₆ expressed in hexadecimal?
+(a) 45 (b) 46 (c) 44 (d) 41
+Answer: (a) 45
+Solution: Converting to decimal: 1A = 26 and 2B = 43. Sum is 26 + 43 = 69. Converting 69 back to hexadecimal: 69 = 4 × 16 + 5 = (45)₁₆. Hence, the correct option is (a).
+Source: NCERT Class 11 Mathematics
+
+147. What is the remainder when 100! is divided by 103?
+(a) 1 (b) 51 (c) 102 (d) 52
+Answer: (b) 51
+Solution: 103 is prime. By Wilson theorem, 102! ≡ -1 (mod 103). (-1)(-2) × 100! = 2 × 100! ≡ -1 ≡ 102 (mod 103). Dividing by 2 yields 100! ≡ 51 (mod 103). The remainder is 51. Hence, the correct option is (b).
+Source: SSC CGL Pattern
+
+148. What is the number of trailing zeroes at the end of the sum (50! + 60!)?
+(a) 14 (b) 12 (c) 26 (d) 10
+Answer: (b) 12
+Solution: Zeroes in 50! = 10 + 2 = 12. Zeroes in 60! = 12 + 2 = 14. In adding two numbers, trailing zeroes equal the minimum of the two counts: min(12, 14) = 12. Hence, the correct option is (b).
+Source: SSC CHSL Pattern
+
+149. What is the remainder when 2¹⁰⁰⁰ is divided by 100?
+(a) 24 (b) 48 (c) 76 (d) 96
+Answer: (c) 76
+Solution: Note that 2¹⁰ = 1024 ≡ 24 (mod 100), and 24² = 576 ≡ 76 (mod 100). Any power of 76 ends in 76. Thus, 2¹⁰⁰⁰ = (24²)⁵⁰ ≡ (76)⁵⁰ ≡ 76 (mod 100). The remainder is 76. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+150. What is the highest power of 24 that completely divides 100!?
+(a) 48 (b) 97 (c) 31 (d) 32
+Answer: (d) 32
+Solution: Since 24 = 2³ × 3¹, power of 3 in 100! is 48. Power of 2 is 97, so power of 2³ is floor(97/3) = 32. The limiting factor is 2³, so the highest power of 24 is 32. Hence, the correct option is (d).
+Source: SSC CHSL Pattern

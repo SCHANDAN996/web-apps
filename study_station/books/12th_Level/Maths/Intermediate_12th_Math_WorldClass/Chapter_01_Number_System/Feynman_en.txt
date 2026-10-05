@@ -1,0 +1,54 @@
+# The Feynman Explanation: The Secret Clock of Monster Powers
+
+Have you ever tried calculating $2^{100}$? 
+
+If you multiplied 2 by itself a hundred times, you would get a monstrous 31-digit number: 1,267,650,600,228,229,401,496,703,205,376. Good luck dividing that on paper during an exam! 
+
+Yet, if an examiner asks you: *"What is the remainder when $2^{100}$ is divided by 7?"*, top rankers write the answer in three seconds flat. How?
+
+They don't do arithmetic. They look at a clock.
+
+### The Carousel Story: The Park of 7 Horses
+
+Imagine a magical carousel in an amusement park. This carousel has only 7 horses, numbered from 0 to 6 in a circle:
+`0 → 1 → 2 → 3 → 4 → 5 → 6 → back to 0`.
+
+Whenever you take steps forward, your stopping horse is simply your remainder when divided by 7. If you take 8 steps, you land on Horse 1 ($8 \div 7 = \text{remainder } 1$). If you take 14 steps, you land on Horse 0.
+
+Now, let's look at the powers of 2 jumping on this carousel:
+- Start at Horse 1 (which is $2^0$).
+- $2^1 = 2$: You hop to **Horse 2**.
+- $2^2 = 4$: You hop to **Horse 4**.
+- $2^3 = 8$: Since $8 = 7 \times 1 + 1$, you hop to **Horse 1**!
+
+Stop right there and look!
+At $2^3$, you landed right back on **Horse 1**. 
+
+That means after every 3 steps, the powers of 2 reset completely.
+- $2^0 = 1$
+- $2^1 = 2$
+- $2^2 = 4$
+- $2^3 = 1$ (Reset!)
+- $2^4 = 2$
+- $2^5 = 4$
+- $2^6 = 1$ (Reset!)
+
+### The Unforgettable Trick: "The 3-Step Reset Rule"
+
+Since the powers repeat their pattern every 3 jumps, the only thing that matters about your giant power of 100 is: **How many full 3-step rounds did it make?**
+
+Divide the power 100 by the cycle length 3:
+$$100 = 33 \times 3 + 1$$
+
+The power makes 33 complete rounds and ends on **1 extra step**!
+So $2^{100}$ lands on the exact same horse as $2^1$:
+$$2^1 = \text{Horse 2}$$
+
+The remainder of $2^{100}$ divided by 7 is simply **2**! 
+No supercomputers needed. No 31-digit monstrosity. Just a carousel of 3 steps.
+
+### Your Turn to Test the Carousel!
+
+Now that you hold the secret key, try this: 
+What is the remainder when $2^{101}$ is divided by 7? 
+*(Hint: How many extra steps after the rounds?)*

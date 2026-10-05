@@ -1,0 +1,25 @@
+# Important Formulas: Number System (Advanced)
+
+| Formula Name | Formula | Use-Hint |
+| :--- | :--- | :--- |
+| **Sum of First n Natural Numbers** | $\Sigma n = \frac{n(n + 1)}{2}$ | Use for sums of arithmetic series starting at 1 |
+| **Sum of Squares** | $\Sigma n^2 = \frac{n(n + 1)(2n + 1)}{6}$ | Use when series involves squared natural numbers |
+| **Sum of Cubes** | $\Sigma n^3 = \left[\frac{n(n + 1)}{2}\right]^2$ | Note that sum of cubes equals the square of sum of first n numbers |
+| **Total Number of Factors** | $T(N) = (a + 1)(b + 1)(c + 1)$ for $N = p^a q^b r^c$ | Increment prime exponents by 1 and multiply |
+| **Number of Odd Factors** | $T_{\text{odd}}(N) = (b + 1)(c + 1)$ where $p = 2$ | Ignore all powers of 2 in prime factorization |
+| **Number of Even Factors** | $T_{\text{even}}(N) = a(b + 1)(c + 1)$ | Total factors minus odd factors |
+| **Sum of Factors** | $S(N) = \frac{p^{a+1}-1}{p-1} \times \frac{q^{b+1}-1}{q-1} \times \frac{r^{c+1}-1}{r-1}$ | Use geometric progression sum formula for each prime base |
+| **Product of Factors** | $P(N) = N^{T(N)/2}$ | Raise the original number to half the count of its factors |
+| **Fermat's Little Theorem** | $a^{p-1} \equiv 1 \pmod p$ | Use for remainder when base and prime divisor $p$ are co-prime |
+| **Euler's Totient Function** | $\phi(n) = n(1 - 1/p_1)(1 - 1/p_2)\dots$ | Counts positive integers up to $n$ co-prime to $n$ |
+| **Euler's Theorem** | $a^{\phi(n)} \equiv 1 \pmod n$ | Use to reduce large powers when $\gcd(a, n) = 1$ |
+| **Wilson's Theorem** | $(p - 1)! \equiv -1 \equiv (p - 1) \pmod p$ | Use for factorial remainders when modulus $p$ is prime |
+| **Legendre's Formula** | $E_p(n!) = \sum_{k=1}^\infty \lfloor n / p^k \rfloor$ | Highest power of prime $p$ dividing $n!$ |
+| **Trailing Zeroes in n!** | Count $= E_5(n!) = \lfloor n/5 \rfloor + \lfloor n/25 \rfloor + \dots$ | Trailing zeroes determined exclusively by factor 5 |
+| **Cyclicity of Powers** | Max cycle length is 4 for $\{2, 3, 7, 8\}$ | Replace power with (power mod 4); use 4 if remainder is 0 |
+| **Binomial Remainder (Plus)** | $(a \cdot k + 1)^n \equiv 1 \pmod a$ | Remainder is always 1 regardless of $n$ |
+| **Binomial Remainder (Minus)** | $(a \cdot k - 1)^n \equiv 1 \pmod a$ (even $n$); $a - 1$ (odd $n$) | Check parity of power $n$ |
+| **Algebraic Divisibility (Sum)** | $a^n + b^n$ is divisible by $(a + b)$ if $n$ is odd | Direct algebraic factorization for odd powers |
+| **Algebraic Divisibility (Diff)** | $a^n - b^n$ is divisible by $(a - b)$ for all $n$, and by $(a + b)$ for even $n$ | Factorization into $(a-b)(a+b)$ when $n$ is even |
+| **Divisibility by 72** | Divisible by 8 AND 9 | Test last 3 digits for 8, sum of digits for 9 |
+| **Divisibility by 88** | Divisible by 8 AND 11 | Test last 3 digits for 8, alternating difference for 11 |

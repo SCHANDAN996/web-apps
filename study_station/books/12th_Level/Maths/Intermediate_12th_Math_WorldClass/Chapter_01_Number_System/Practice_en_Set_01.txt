@@ -1,0 +1,151 @@
+Questions 1–20: Easy | Questions 21–25: Medium
+
+1. Which of the following numbers is completely divisible by 9?
+(a) 5472 (b) 4381 (c) 6293 (d) 7154
+Answer: (a) 5472
+Solution: A number is divisible by 9 if the sum of its digits is a multiple of 9. For 5472, the sum of digits is 5 + 4 + 7 + 2 = 18, which is divisible by 9. For other options, the digit sums are 16, 20, and 17, none of which is divisible by 9. Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+2. What is the total number of prime factors of 2³ × 3⁴ × 5²?
+(a) 24 (b) 9 (c) 12 (d) 18
+Answer: (b) 9
+Solution: Trap: Candidates often confuse total prime factors with total divisors. The total number of prime factors is the sum of the prime exponents: 3 + 4 + 2 = 9. Hence, the correct option is (b).
+Source: SSC CHSL Pattern
+
+3. What is the unit digit of the continuous product 81 × 82 × 83 × 84 × 85 × 86 × 87 × 88 × 89?
+(a) 5 (b) 2 (c) 0 (d) 1
+Answer: (c) 0
+Solution: The product contains both 82 (an even number ending in 2) and 85 (ending in 5). Multiplying 2 by 5 produces 10, contributing a zero. Any integer multiplied by 10 will always have a unit digit of 0. Hence, the correct option is (c).
+Source: RRB NTPC Pattern
+
+4. If a positive integer is completely divisible by both 11 and 13, it must necessarily be divisible by:
+(a) 11 + 13 (b) 13 - 11 (c) 13 / 11 (d) 11 × 13
+Answer: (d) 11 × 13
+Solution: Since 11 and 13 are distinct prime numbers, their greatest common divisor is 1. Any number divisible by two co-prime numbers must be divisible by their product 11 × 13 = 143. Hence, the correct option is (d).
+Source: SSC MTS Pattern
+
+5. What is the remainder when 17¹⁸ is divided by 16?
+(a) 1 (b) 15 (c) 0 (d) 16
+Answer: (a) 1
+Solution: Write 17 as (16 + 1). Expanding via the binomial theorem, (16 + 1)¹⁸ = 16k + 1¹⁸ = 16k + 1. Dividing by 16 leaves a remainder of 1. Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+6. What is the unit digit of 6²⁵⁶?
+(a) 4 (b) 6 (c) 2 (d) 8
+Answer: (b) 6
+Solution: The cyclicity of the digit 6 is 1. Any positive integer power of 6 always yields 6 as its unit digit (6¹=6, 6²=36, 6³=216). Therefore, 6²⁵⁶ ends in 6. Hence, the correct option is (b).
+Source: RRB Group D Pattern
+
+7. What is the total number of factors of the number 100?
+(a) 6 (b) 8 (c) 9 (d) 12
+Answer: (c) 9
+Solution: The prime factorization of 100 is 2² × 5². The total number of factors is obtained by adding 1 to each exponent and multiplying them: (2 + 1)(2 + 1) = 3 × 3 = 9. Hence, the correct option is (c).
+Source: NCERT Class 11 Mathematics
+
+8. How many trailing zeroes are at the end of 30!?
+(a) 5 (b) 6 (c) 8 (d) 7
+Answer: (d) 7
+Solution: The number of trailing zeroes is determined by the highest power of 5 in 30! using Legendre formula: floor(30/5) + floor(30/25) = 6 + 1 = 7. Thus, 30! ends in 7 trailing zeroes. Hence, the correct option is (d).
+Source: SSC CHSL Pattern
+
+9. What is the remainder when (25²⁵ + 25) is divided by 26?
+(a) 24 (b) 25 (c) 1 (d) 0
+Answer: (a) 24
+Solution: Trap: Remember to add the standalone term. Since 25 ≡ -1 (mod 26), 25²⁵ ≡ (-1)²⁵ = -1. Adding 25 gives (-1 + 25) = 24. Thus, the remainder is 24. Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+10. What is the sum of the first 20 positive natural numbers?
+(a) 200 (b) 210 (c) 220 (d) 190
+Answer: (b) 210
+Solution: Using the summation formula n(n + 1)/2 for n = 20: 20 × 21 / 2 = 10 × 21 = 210. Hence, the correct option is (b).
+Source: RRB NTPC Pattern
+
+11. What is the unit digit of 3⁴⁰?
+(a) 3 (b) 9 (c) 1 (d) 7
+Answer: (c) 1
+Solution: The cyclicity of 3 is 4 (powers end in 3, 9, 7, 1). Since the exponent 40 is exactly divisible by 4 with remainder 0, the unit digit is the same as that of 3⁴ = 81, which is 1. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+12. Which of the following numbers is a prime number?
+(a) 91 (b) 119 (c) 161 (d) 97
+Answer: (d) 97
+Solution: 91 = 7 × 13, 119 = 7 × 17, and 161 = 7 × 23 are all composite numbers. 97 has no divisors other than 1 and 97, so 97 is a prime number. Hence, the correct option is (d).
+Source: SSC MTS Pattern
+
+13. What is the remainder when (67⁶⁷ + 67) is divided by 68?
+(a) 66 (b) 67 (c) 1 (d) 0
+Answer: (a) 66
+Solution: Using modular arithmetic, 67 ≡ -1 (mod 68). Therefore, 67⁶⁷ + 67 ≡ (-1)⁶⁷ + (-1) = -1 - 1 = -2 ≡ 68 - 2 = 66 (mod 68). The remainder is 66. Hence, the correct option is (a).
+Source: SSC CHSL Pattern
+
+14. What is the unit digit of 7⁷¹ × 6⁶³ × 3⁶⁵?
+(a) 2 (b) 4 (c) 6 (d) 8
+Answer: (b) 4
+Solution: Cyclicity of 7 is 4: 71 mod 4 = 3, so 7³ ends in 3. Unit digit of 6⁶³ is 6. Cyclicity of 3 is 4: 65 mod 4 = 1, so 3¹ ends in 3. Product of unit digits: 3 × 6 × 3 = 54, which ends in 4. Hence, the correct option is (b).
+Source: SSC CGL Pattern
+
+15. How many odd factors does the number 180 have?
+(a) 4 (b) 8 (c) 6 (d) 12
+Answer: (c) 6
+Solution: Prime factorization of 180 is 2² × 3² × 5¹. Odd factors are formed by ignoring all powers of 2: (2 + 1)(1 + 1) = 3 × 2 = 6. Thus, 180 has 6 odd factors. Hence, the correct option is (c).
+Source: NCERT Class 11 Mathematics
+
+16. A number when divided by 899 gives a remainder of 63. If the same number is divided by 29, what will be the remainder?
+(a) 10 (b) 2 (c) 4 (d) 5
+Answer: (d) 5
+Solution: Since 899 = 29 × 31, the number 899 is an exact multiple of 29. Therefore, the required remainder is simply the remainder of 63 divided by 29: 63 = 2 × 29 + 5. The remainder is 5. Hence, the correct option is (d).
+Source: RRB NTPC Pattern
+
+17. What is the value of digit k if the 6-digit number 5432k7 is divisible by 9?
+(a) 6 (b) 5 (c) 7 (d) 4
+Answer: (a) 6
+Solution: The sum of digits of 5432k7 is 5 + 4 + 3 + 2 + k + 7 = 21 + k. For 21 + k to be divisible by 9, k must be 6 (as 21 + 6 = 27). Hence, the correct option is (a).
+Source: SSC CHSL Pattern
+
+18. What is the unit digit of (264)¹⁰² + (264)¹⁰³?
+(a) 2 (b) 0 (c) 4 (d) 6
+Answer: (b) 0
+Solution: The cyclicity of 4 is 2. 4 raised to an even power ends in 6, while 4 raised to an odd power ends in 4. Summing unit digits: 6 + 4 = 10, which ends in 0. Hence, the correct option is (b).
+Source: SSC CGL Pattern
+
+19. What is the remainder when 2³¹ is divided by 5?
+(a) 1 (b) 2 (c) 3 (d) 4
+Answer: (c) 3
+Solution: Notice that 2² = 4 ≡ -1 (mod 5). Express 2³¹ as 2 × (2²)¹⁵ ≡ 2 × (-1)¹⁵ = 2 × (-1) = -2 ≡ 5 - 2 = 3 (mod 5). The remainder is 3. Hence, the correct option is (c).
+Source: RRB NTPC Pattern
+
+20. What is the smallest 3-digit prime number?
+(a) 103 (b) 107 (c) 109 (d) 101
+Answer: (d) 101
+Solution: Testing numbers in order: 100 is composite. 101 is not divisible by primes 2, 3, 5, or 7. Therefore, 101 is the smallest 3-digit prime number. Hence, the correct option is (d).
+Source: SSC MTS Pattern
+
+21. If the 7-digit number 134x58y is divisible by 72, what is the value of (2x + y) given that y is the smallest possible single digit?
+(a) 8 (b) 10 (c) 12 (d) 14
+Answer: (a) 8
+Solution: For divisibility by 8, last three digits 58y must be divisible by 8. Dividing 58 by 8 leaves remainder 2, so 2y must be divisible by 8, giving y = 4 (as 24/8 = 3). For divisibility by 9, sum of digits 1 + 3 + 4 + x + 5 + 8 + 4 = 25 + x must be a multiple of 9, giving x = 2. Thus, 2x + y = 2(2) + 4 = 8. Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+22. What is the total number of even factors of the number 240?
+(a) 12 (b) 16 (c) 18 (d) 20
+Answer: (b) 16
+Solution: Prime factorization of 240 is 2⁴ × 3¹ × 5¹. Total factors = (4 + 1)(1 + 1)(1 + 1) = 20. Odd factors = (1 + 1)(1 + 1) = 4. Number of even factors = Total factors - Odd factors = 20 - 4 = 16. Hence, the correct option is (b).
+Source: SSC CHSL Pattern
+
+23. What is the remainder when 3²¹ is divided by 5?
+(a) 1 (b) 3 (c) 2 (d) 4
+Answer: (b) 3
+Solution: By Fermat Little Theorem or cyclicity, 3⁴ ≡ 1 (mod 5). Write 3²¹ = (3⁴)⁵ × 3¹ ≡ 1⁵ × 3 = 3 (mod 5). The remainder is 3. Hence, the correct option is (b).
+Source: RRB NTPC Pattern
+
+24. What is the unit digit of the expression 7⁹⁵ - 3⁵⁸?
+(a) 6 (b) 7 (c) 4 (d) 2
+Answer: (c) 4
+Solution: Cyclicity of 7 is 4: 95 mod 4 = 3, so 7³ ends in 3. Cyclicity of 3 is 4: 58 mod 4 = 2, so 3² ends in 9. For (..3) - (..9), borrow 10 from tens place: 13 - 9 = 4. Trap: Candidates often calculate 3 - 9 = -6 and incorrectly choose 6. A borrow from the tens place is mandatory when subtracting digits. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+25. What is the number of trailing zeroes at the end of 60!?
+(a) 12 (b) 13 (c) 15 (d) 14
+Answer: (d) 14
+Solution: Using Legendre formula for the highest power of 5 in 60!: floor(60/5) + floor(60/25) = 12 + 2 = 14. Thus, 60! ends in 14 trailing zeroes. Hence, the correct option is (d).
+Source: SSC CHSL Pattern

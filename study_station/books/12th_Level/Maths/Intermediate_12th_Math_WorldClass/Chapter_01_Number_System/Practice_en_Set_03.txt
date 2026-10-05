@@ -1,0 +1,151 @@
+Questions 51–75: Medium
+
+51. What is the remainder when 8²⁰²⁴ is divided by 7?
+(a) 1 (b) 7 (c) 0 (d) 6
+Answer: (a) 1
+Solution: In modular arithmetic, 8 ≡ 1 (mod 7). Therefore, 8²⁰²⁴ ≡ 1²⁰²⁴ = 1 (mod 7). Dividing by 7 gives a remainder of 1. Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+52. What is the unit digit of (234)¹⁰⁰ + (234)¹⁰¹?
+(a) 2 (b) 0 (c) 4 (d) 6
+Answer: (b) 0
+Solution: The cyclicity of 4 is 2. 4 raised to an even power ends in 6, while 4 raised to an odd power ends in 4. Summing unit digits: 6 + 4 = 10, which ends in 0. Hence, the correct option is (b).
+Source: SSC CHSL Pattern
+
+53. What is the total number of factors of the number 144?
+(a) 12 (b) 14 (c) 15 (d) 18
+Answer: (c) 15
+Solution: Prime factorization: 144 = 2⁴ × 3². Total number of factors = (4 + 1)(2 + 1) = 5 × 3 = 15. Hence, the correct option is (c).
+Source: NCERT Class 11 Mathematics
+
+54. How many trailing zeroes are at the end of 45!?
+(a) 8 (b) 9 (c) 11 (d) 10
+Answer: (d) 10
+Solution: Using Legendre formula for prime 5 in 45!: floor(45/5) + floor(45/25) = 9 + 1 = 10. Thus, 45! ends in 10 trailing zeroes. Hence, the correct option is (d).
+Source: SSC CHSL Pattern
+
+55. What is the remainder when (15²³ + 23²³) is divided by 19?
+(a) 0 (b) 1 (c) 18 (d) 15
+Answer: (a) 0
+Solution: Trap: Avoid expanding individual terms. For any odd exponent n, (aⁿ + bⁿ) is strictly divisible by (a + b). Since 23 is odd, (15²³ + 23²³) is divisible by (15 + 23) = 38, which is a multiple of 19. The remainder is 0. Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+56. What is the unit digit of 8⁹⁸?
+(a) 2 (b) 4 (c) 6 (d) 8
+Answer: (b) 4
+Solution: Cyclicity of 8 is 4: 98 mod 4 = 2. Therefore, 8⁹⁸ ends in the same unit digit as 8² = 64, which is 4. Hence, the correct option is (b).
+Source: RRB NTPC Pattern
+
+57. If the 8-digit number 2074x4y2 is divisible by 88, what is the value of (x + y)?
+(a) 8 (b) 10 (c) 12 (d) 14
+Answer: (c) 12
+Solution: For divisibility by 8, last three digits 4y2 must be divisible by 8, giving y = 3 (as 432/8 = 54). For divisibility by 11, alternating difference (9 + x + y) - 10 = x + y - 1 must be 11, which gives x + y = 12. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+58. What is the sum of all factors of the number 60?
+(a) 120 (b) 144 (c) 160 (d) 168
+Answer: (d) 168
+Solution: Prime factorization: 60 = 2² × 3¹ × 5¹. Sum of factors = (1 + 2 + 4)(1 + 3)(1 + 5) = 7 × 4 × 6 = 168. Hence, the correct option is (d).
+Source: NCERT Class 11 Mathematics
+
+59. What is the remainder when 2⁹⁶ is divided by 97?
+(a) 1 (b) 96 (c) 2 (d) 0
+Answer: (a) 1
+Solution: 97 is a prime number. By Fermat Little Theorem, for any integer a co-prime to prime p, a^(p - 1) ≡ 1 (mod p). Here p = 97, so 2⁹⁶ ≡ 1 (mod 97). The remainder is 1. Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+60. What is the unit digit of (123)⁹⁹?
+(a) 3 (b) 7 (c) 9 (d) 1
+Answer: (b) 7
+Solution: The base unit digit is 3. Cyclicity of 3 is 4: 99 mod 4 = 3. Therefore, (123)⁹⁹ ends in the same unit digit as 3³ = 27, which is 7. Hence, the correct option is (b).
+Source: RRB NTPC Pattern
+
+61. What is the number of odd factors of 360?
+(a) 4 (b) 8 (c) 6 (d) 12
+Answer: (c) 6
+Solution: Prime factorization: 360 = 2³ × 3² × 5¹. Odd factors are formed by ignoring powers of 2: (2 + 1)(1 + 1) = 3 × 2 = 6. Hence, the correct option is (c).
+Source: SSC CHSL Pattern
+
+62. How many trailing zeroes are at the end of (15! × 20!)?
+(a) 5 (b) 6 (c) 8 (d) 7
+Answer: (d) 7
+Solution: Zeroes in 15! = floor(15/5) = 3. Zeroes in 20! = floor(20/5) = 4. Total trailing zeroes in the product = 3 + 4 = 7. Hence, the correct option is (d).
+Source: SSC CHSL Pattern
+
+63. Which of the following numbers is completely divisible by 11?
+(a) 28182 (b) 28172 (c) 28162 (d) 28192
+Answer: (a) 28182
+Solution: In 28182, sum of digits at odd places is 2 + 1 + 2 = 5, and sum of digits at even places is 8 + 8 = 16. Difference: 16 - 5 = 11, which is divisible by 11. Hence, the correct option is (a).
+Source: SSC MTS Pattern
+
+64. What is the remainder when (13⁴⁰ - 1) is divided by 14?
+(a) 13 (b) 0 (c) 1 (d) 12
+Answer: (b) 0
+Solution: Since 13 ≡ -1 (mod 14), 13⁴⁰ ≡ (-1)⁴⁰ = 1 (mod 14). Then (1 - 1) = 0. The remainder is 0. Hence, the correct option is (b).
+Source: SSC CGL Pattern
+
+65. What is the unit digit of (43)⁴³ - (27)²⁷?
+(a) 0 (b) 2 (c) 4 (d) 6
+Answer: (c) 4
+Solution: Cyclicity of 3 is 4: 43 mod 4 = 3, so 3³ ends in 7. Cyclicity of 7 is 4: 27 mod 4 = 3, so 7³ ends in 3. Subtracting unit digits: 7 - 3 = 4. Hence, the correct option is (c).
+Source: SSC CHSL Pattern
+
+66. What is the remainder when 16! is divided by 17?
+(a) 1 (b) 0 (c) 15 (d) 16
+Answer: (d) 16
+Solution: By Wilson theorem, for any prime p, (p - 1)! ≡ (p - 1) (mod p). Here p = 17, so 16! ≡ 16 (mod 17). The remainder is 16. Hence, the correct option is (d).
+Source: SSC CGL Pattern
+
+67. What is the value of binary number (11011)₂ in decimal base 10?
+(a) 27 (b) 25 (c) 29 (d) 31
+Answer: (a) 27
+Solution: Converting binary to decimal: 1×2⁴ + 1×2³ + 0×2² + 1×2¹ + 1×2⁰ = 16 + 8 + 0 + 2 + 1 = 27. Hence, the correct option is (a).
+Source: NCERT Class 11 Mathematics
+
+68. What is the total number of even factors of the number 180?
+(a) 6 (b) 12 (c) 14 (d) 18
+Answer: (b) 12
+Solution: Prime factorization: 180 = 2² × 3² × 5¹. Total factors = (2 + 1)(2 + 1)(1 + 1) = 18. Odd factors = (2 + 1)(1 + 1) = 6. Even factors = 18 - 6 = 12. Hence, the correct option is (b).
+Source: SSC CHSL Pattern
+
+69. What is the remainder when 3⁴² is divided by 10?
+(a) 1 (b) 3 (c) 9 (d) 7
+Answer: (c) 9
+Solution: Trap: Dividing an integer by 10 is mathematically equivalent to finding its unit digit. Cyclicity of 3 is 4: 42 mod 4 = 2, so 3² ends in 9. Thus, the remainder mod 10 is 9. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+70. How many trailing zeroes are at the end of 75!?
+(a) 15 (b) 16 (c) 17 (d) 18
+Answer: (d) 18
+Solution: Using Legendre formula: floor(75/5) + floor(75/25) = 15 + 3 = 18. Thus, 75! ends in 18 trailing zeroes. Hence, the correct option is (d).
+Source: RRB NTPC Pattern
+
+71. If (x - 1) completely divides the polynomial (x³ - kx² + 11x - 6), what is the value of k?
+(a) 6 (b) 5 (c) 4 (d) 7
+Answer: (a) 6
+Solution: By the factor theorem, substituting x = 1 yields 1³ - k(1²) + 11(1) - 6 = 0, giving 1 - k + 11 - 6 = 0, so 6 - k = 0, which means k = 6. Hence, the correct option is (a).
+Source: NCERT Class 11 Mathematics
+
+72. What is the unit digit of 9¹⁰⁰ + 9¹⁰¹?
+(a) 1 (b) 0 (c) 8 (d) 9
+Answer: (b) 0
+Solution: 9 raised to an even power ends in 1, and 9 raised to an odd power ends in 9. Summing unit digits: 1 + 9 = 10, which ends in 0. Hence, the correct option is (b).
+Source: SSC CHSL Pattern
+
+73. What is the remainder when (35³⁷ + 1) is divided by 36?
+(a) 1 (b) 0 (c) 35 (d) 2
+Answer: (b) 0
+Solution: Since 35 ≡ -1 (mod 36), 35³⁷ ≡ (-1)³⁷ = -1. Adding 1 gives (-1 + 1) = 0. The remainder is 0. Hence, the correct option is (b).
+Source: SSC CGL Pattern
+
+74. What is the product of all factors of the number 50?
+(a) 50² (b) 50⁴ (c) 50³ (d) 50⁶
+Answer: (c) 50³
+Solution: Prime factorization: 50 = 2¹ × 5². Total factors T = (1 + 1)(2 + 1) = 6. Product of factors formula is N^(T/2) = 50^(6/2) = 50³. Hence, the correct option is (c).
+Source: NCERT Class 11 Mathematics
+
+75. What is the remainder when 2¹⁰⁰ is divided by 17?
+(a) 1 (b) 2 (c) 8 (d) 16
+Answer: (d) 16
+Solution: Notice that 2⁴ = 16 ≡ -1 (mod 17). Write 2¹⁰⁰ = (2⁴)²⁵ ≡ (-1)²⁵ = -1 ≡ 17 - 1 = 16 (mod 17). The remainder is 16. Hence, the correct option is (d).
+Source: SSC CGL Pattern

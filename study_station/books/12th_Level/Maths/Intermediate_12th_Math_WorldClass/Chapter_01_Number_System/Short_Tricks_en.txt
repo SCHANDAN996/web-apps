@@ -1,0 +1,90 @@
+Trick 1: The P.O.E.T. Master Code (Advanced Framework)
+==================================================================
+Remember the acronym P.O.E.T. to conquer the four hardest concepts:
+• P = Periodicity: 4 is the universal power cycle for {2, 3, 7, 8}.
+• O = Osculator: Slice off the unit digit, multiply by key, add/subtract to test primes.
+• E = Euler/Fermat: Power of (p - 1) collapses remainder to 1 under prime mod p.
+• T = Trailing Zeroes: Hunt only prime factor 5 in factorials (twos are everywhere).
+
+Trick 2: The Co-Prime Marriage Rule (Divisibility by 72, 88, 99)
+==================================================================
+Never test married couples who share common secrets!
+• For 12: Test (3 and 4) -> gcd is 1. Never test (2 and 6) -> gcd is 2 (they share secrets).
+• For 72: Test (8 and 9) -> gcd is 1.
+• For 88: Test (8 and 11) -> gcd is 1.
+Mnemonic: "Divisors must be total strangers (co-prime) to speak the truth!"
+
+Trick 3: The 4-Power Guillotine (Unit Digit Cyclicity)
+==================================================================
+Whenever you see a huge power on {2, 3, 7, 8}, drop the guillotine on all but the last two digits of the exponent:
+• Divide last two digits by 4.
+• Remainder 1 -> Power 1
+• Remainder 2 -> Power 2
+• Remainder 3 -> Power 3
+• Remainder 0 -> Power 4 (The guillotine resets at 4, never at 0!)
+
+Trick 4: The Subtraction Borrow Trap (Unit Digit Borrowing)
+==================================================================
+Imagine you are at an ATM. If the unit calculation gives 3 - 9:
+Do NOT say -6! Do NOT say 6!
+Call the security guard (Tens place) and borrow 10:
+(10 + 3) - 9 = 4!
+Always lend 10 when the first number is smaller than the second.
+
+Trick 5: The Fermat Speedboat (Fermat's Little Theorem)
+==================================================================
+Picture a speedboat with a Prime engine "p".
+Whenever the passenger "a" has fuel power exactly equal to (p - 1):
+a^(p - 1) modulo p = 1.
+The speedboat always crosses the finish line with exactly 1 liter of fuel left.
+
+Trick 6: Wilson's Prime Shield (Wilson's Theorem)
+==================================================================
+Picture a gladiator named Wilson defending a prime number p.
+His shield has a factorial (p - 1)! engraved on it.
+When struck by divisor p, the shield always reflects back (p - 1) or -1.
+Example: 16! mod 17 = 16.
+
+Trick 7: The Greedy Factory (Trailing Zeroes in Factorials)
+==================================================================
+Picture a coin-minting factory producing 10-rupee coins (10 = 2 x 5).
+The conveyor belt is flooded with shiny 2s from every even number.
+The mint manager screams: "Stop bringing 2s! We only lack 5s!"
+To count coins (zeroes), count only how many 5s enter the building:
+floor(n/5) + floor(n/25) + floor(n/125)...
+
+Trick 8: The Factor Birthday Party (Total Number of Factors)
+==================================================================
+When a number N is decomposed into prime guests p^a * q^b * r^c:
+Every prime guest brings their powers, plus a "Zero" party hat!
+p brings (a + 1) choices: {p^0, p^1, ..., p^a}.
+q brings (b + 1) choices.
+Total handshakes at the party = (a + 1)(b + 1)(c + 1).
+
+Trick 9: Odd Bouncer at the Factor Club (Odd Factors Rule)
+==================================================================
+A strict bouncer stands at the door of the Odd Factor Club:
+"NO EVEN NUMBERS ALLOWED!"
+He kicks out the entire prime factor 2^a into the trash bin!
+Odd factors are formed exclusively by the remaining odd guests: (b + 1)(c + 1).
+
+Trick 10: The Binomial Elevator (Remainders of (a + 1)^n and (a - 1)^n)
+==================================================================
+An elevator has capacity 'a'.
+• Case (a + 1)^n / a: Every passenger is 1 above capacity. The excess 1 rides to the top. Remainder = 1 always.
+• Case (a - 1)^n / a: Every passenger is 1 short (-1). 
+  - Even number of trips: (-1)^even = +1 (remainder 1).
+  - Odd number of trips: (-1)^odd = -1 (remainder a - 1).
+
+Trick 11: The Odd Couple Love Story (a^n + b^n Divisibility)
+==================================================================
+Picture a romantic couple 'a' and 'b'.
+They can only hold hands when the exponent 'n' is ODD!
+When n is odd, (a^n + b^n) melts smoothly into (a + b).
+If n is even, (a^n + b^n) refuses to factor over real numbers.
+
+Trick 12: The Divisible Breakup (a^n - b^n Divisibility)
+==================================================================
+Unlike the sum, (a^n - b^n) ALWAYS separates from (a - b) for ALL natural powers n.
+And if n is EVEN, it splits generously into BOTH (a - b) and (a + b)!
+Mnemonic: "Minus is generous; even powers double the love!"

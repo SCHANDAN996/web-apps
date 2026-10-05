@@ -1,0 +1,71 @@
+Card 1
+Front: What is the rule for testing divisibility by a composite number N?
+Back: Factor N into two co-prime numbers a and b (where gcd(a, b) = 1). The number must be simultaneously divisible by both a and b.
+
+Card 2
+Front: Why can't we test divisibility by 24 using factors 4 and 6?
+Back: Because 4 and 6 are not co-prime (gcd(4, 6) = 2 != 1). Instead, use the co-prime pair 3 and 8.
+
+Card 3
+Front: How do you find the unit digit of an exponential expression a^b?
+Back: Divide power b by 4. If remainder r > 0, unit digit is that of a^r; if remainder is 0, use a^4.
+
+Card 4
+Front: Which digits have a cyclicity of 1 for unit digits?
+Back: {0, 1, 5, 6} always retain their own unit digit regardless of power.
+
+Card 5
+Front: What is the unit digit cyclicity of 4 and 9?
+Back: Cyclicity 2. 4^odd = 4, 4^even = 6; 9^odd = 9, 9^even = 1.
+
+Card 6
+Front: State Fermat's Little Theorem.
+Back: If p is a prime and gcd(a, p) = 1, then a^(p-1) mod p = 1.
+
+Card 7
+Front: What is the remainder when (p - 1)! is divided by prime p (Wilson's Theorem)?
+Back: Remainder is p - 1 (or -1 mod p).
+
+Card 8
+Front: What is the formula for the total number of factors of N = p^a * q^b * r^c?
+Back: Total factors T(N) = (a + 1)(b + 1)(c + 1).
+
+Card 9
+Front: How do you calculate the number of odd factors of N = 2^a * 3^b * 5^c?
+Back: Discard all powers of 2. Number of odd factors = (b + 1)(c + 1).
+
+Card 10
+Front: What is the formula for the sum of all factors of N = p^a * q^b?
+Back: [(p^(a+1) - 1) / (p - 1)] * [(q^(b+1) - 1) / (q - 1)].
+
+Card 11
+Front: What is the product of all factors of a composite number N?
+Back: P(N) = N^(T(N) / 2), where T(N) is the total number of factors.
+
+Card 12
+Front: What determines the number of trailing zeroes in n!?
+Back: The exponent of prime factor 5 in n!, calculated via Legendre's formula: floor(n/5) + floor(n/25) + floor(n/125) + ...
+
+Card 13
+Front: What is the remainder when (a + 1)^n is divided by a?
+Back: Remainder is always 1 for all natural numbers n.
+
+Card 14
+Front: What is the remainder when (a - 1)^n is divided by a?
+Back: Remainder is 1 if n is even, and a - 1 (or -1) if n is odd.
+
+Card 15
+Front: What algebraic factor always divides a^n + b^n when n is an odd positive integer?
+Back: (a + b) always divides a^n + b^n when n is odd.
+
+Card 16
+Front: What does the mnemonic acronym P.O.E.T. stand for in Number System?
+Back: P = Periodicity (cyclicity 4), O = Osculator (prime divisor rule), E = Euler/Fermat theorem (a^(p-1) = 1), T = Trailing zeroes (hunt factor 5).
+
+Card 17
+Front: What memory trick helps you remember which prime factor determines trailing zeroes?
+Back: "Factory Twos are Free, Hunt the Rare Five" — twos are abundant in every even step, so only fives limit the count of 10s.
+
+Card 18
+Front: How many trailing zeroes are in 50!?
+Back: floor(50/5) + floor(50/25) = 10 + 2 = 12 trailing zeroes.

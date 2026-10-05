@@ -1,0 +1,151 @@
+Questions 26–50: Medium
+
+26. What is the remainder when 19¹⁰⁰ is divided by 20?
+(a) 1 (b) 19 (c) 0 (d) 18
+Answer: (a) 1
+Solution: In modular arithmetic, 19 ≡ -1 (mod 20). Since the exponent 100 is even, (-1)¹⁰⁰ = 1. Dividing by 20 gives a remainder of 1. Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+27. What is the unit digit of the expression (137)¹³ × (47)¹⁵?
+(a) 3 (b) 1 (c) 7 (d) 9
+Answer: (b) 1
+Solution: Both bases have a unit digit of 7. Cyclicity of 7 is 4: 13 mod 4 = 1 so 7¹ ends in 7, and 15 mod 4 = 3 so 7³ ends in 3. Multiplying unit digits gives 7 × 3 = 21, which ends in 1. Hence, the correct option is (b).
+Source: SSC CHSL Pattern
+
+28. How many factors of the number 2⁴ × 3³ × 5² are perfect squares?
+(a) 18 (b) 15 (c) 12 (d) 24
+Answer: (c) 12
+Solution: A factor is a perfect square if all prime exponents are even. For 2⁴, powers are {0, 2, 4} (3 choices); for 3³, powers are {0, 2} (2 choices); for 5², powers are {0, 2} (2 choices). Total square factors = 3 × 2 × 2 = 12. Hence, the correct option is (c).
+Source: NCERT Class 11 Mathematics
+
+29. What is the remainder when (9¹⁹ + 6) is divided by 8?
+(a) 5 (b) 6 (c) 8 (d) 7
+Answer: (d) 7
+Solution: Since 9 ≡ 1 (mod 8), 9¹⁹ ≡ 1¹⁹ = 1. Adding 6 gives (1 + 6) = 7. Dividing by 8 leaves a remainder of 7. Hence, the correct option is (d).
+Source: RRB NTPC Pattern
+
+30. If the 6-digit number 4x573y is divisible by 72, what is the value of (x + y) for the largest value of y?
+(a) 8 (b) 10 (c) 12 (d) 6
+Answer: (a) 8
+Solution: For divisibility by 8, last three digits 73y must be divisible by 8: 73 mod 8 = 1, so 1y must be 16, giving y = 6. For divisibility by 9, sum 4 + x + 5 + 7 + 3 + 6 = 25 + x must be a multiple of 9, giving x = 2. Thus, x + y = 2 + 6 = 8. Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+31. What is the sum of all factors of the number 120?
+(a) 320 (b) 360 (c) 240 (d) 280
+Answer: (b) 360
+Solution: Prime factorization: 120 = 2³ × 3¹ × 5¹. Sum of factors = (1 + 2 + 4 + 8)(1 + 3)(1 + 5) = 15 × 4 × 6 = 360. Hence, the correct option is (b).
+Source: NCERT Class 11 Mathematics
+
+32. What is the remainder when 2⁵⁰ is divided by 7?
+(a) 1 (b) 2 (c) 4 (d) 6
+Answer: (c) 4
+Solution: Since 2³ = 8 ≡ 1 (mod 7), write 2⁵⁰ = (2³)¹⁶ × 2² ≡ 1¹⁶ × 4 = 4. The remainder is 4. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+33. How many trailing zeroes are at the end of the product 1 × 2 × 3 × ... × 80?
+(a) 16 (b) 18 (c) 20 (d) 19
+Answer: (d) 19
+Solution: The product equals 80!. Using Legendre formula for prime 5: floor(80/5) + floor(80/25) = 16 + 3 = 19. Hence, the correct option is (d).
+Source: SSC CHSL Pattern
+
+34. If x = 3⁶⁷ + 2, what is the unit digit of x?
+(a) 9 (b) 7 (c) 5 (d) 1
+Answer: (a) 9
+Solution: Cyclicity of 3 is 4: 67 mod 4 = 3, so 3⁶⁷ ends in the same unit digit as 3³ = 27, which is 7. Adding 2 gives 7 + 2 = 9. Hence, the correct option is (a).
+Source: RRB NTPC Pattern
+
+35. What is the remainder when (12¹³ + 23¹³) is divided by 35?
+(a) 1 (b) 0 (c) 34 (d) 12
+Answer: (b) 0
+Solution: Trap: Avoid expanding individual terms. For any odd exponent n, (aⁿ + bⁿ) is strictly divisible by (a + b). Since 13 is odd, (12¹³ + 23¹³) is divisible by (12 + 23) = 35, leaving a remainder of 0. Hence, the correct option is (b).
+Source: SSC CGL Pattern
+
+36. How many factors of 540 are divisible by 6?
+(a) 8 (b) 10 (c) 12 (d) 16
+Answer: (c) 12
+Solution: Write 540 as 6 × 90. Factors of 540 that are multiples of 6 correspond to total factors of 90: 90 = 2¹ × 3² × 5¹. Total factors = (1 + 1)(2 + 1)(1 + 1) = 2 × 3 × 2 = 12. Hence, the correct option is (c).
+Source: SSC CHSL Pattern
+
+37. What is the remainder when 10! is divided by 11?
+(a) 1 (b) 0 (c) 9 (d) 10
+Answer: (d) 10
+Solution: By Wilson theorem, for any prime p, (p - 1)! ≡ (p - 1) (mod p). Here p = 11, so 10! ≡ 10 (mod 11). The remainder is 10. Hence, the correct option is (d).
+Source: SSC CGL Pattern
+
+38. What is the unit digit of the expression (73)⁵⁴ + (87)⁵⁴?
+(a) 8 (b) 6 (c) 4 (d) 2
+Answer: (a) 8
+Solution: Both exponents are 54: 54 mod 4 = 2. 3² ends in 9, and 7² = 49 ends in 9. Summing unit digits: 9 + 9 = 18, which ends in 8. Hence, the correct option is (a).
+Source: RRB NTPC Pattern
+
+39. A number when divided by 13 leaves remainder 11, and when divided by 17 leaves remainder 9. What is the smallest such positive integer?
+(a) 115 (b) 128 (c) 141 (d) 154
+Answer: (b) 128
+Solution: Testing numbers: 128 = 13 × 9 + 11 (leaves 11), and 128 = 17 × 7 + 9 (leaves 9). Thus, the smallest positive integer is 128. Hence, the correct option is (b).
+Source: SSC CGL Pattern
+
+40. How many trailing zeroes are at the end of (25! × 35!)?
+(a) 12 (b) 13 (c) 14 (d) 15
+Answer: (c) 14
+Solution: Zeroes in 25! = floor(25/5) + floor(25/25) = 5 + 1 = 6. Zeroes in 35! = floor(35/5) + floor(35/25) = 7 + 1 = 8. Total zeroes in the product = 6 + 8 = 14. Hence, the correct option is (c).
+Source: SSC CHSL Pattern
+
+41. What is the remainder when 5⁹⁹ is divided by 13?
+(a) 1 (b) 5 (c) 12 (d) 8
+Answer: (d) 8
+Solution: By Fermat Little Theorem, 5¹² ≡ 1 (mod 13). Since 99 = 12 × 8 + 3, 5⁹⁹ ≡ 5³ = 125 ≡ 8 (mod 13). The remainder is 8. Hence, the correct option is (d).
+Source: SSC CGL Pattern
+
+42. What is the value of digit p such that the 7-digit number 653p472 is divisible by 11?
+(a) 3 (b) 1 (c) 2 (d) 4
+Answer: (a) 3
+Solution: Sum of digits at odd places from right: 2 + 4 + 3 + 6 = 15. Sum of digits at even places: 7 + p + 5 = 12 + p. Difference: 15 - (12 + p) = 3 - p. Setting 3 - p = 0 gives p = 3. Hence, the correct option is (a).
+Source: SSC CHSL Pattern
+
+43. What is the product of all factors of the number 72?
+(a) 72⁵ (b) 72⁶ (c) 72⁷ (d) 72⁸
+Answer: (b) 72⁶
+Solution: Prime factorization: 72 = 2³ × 3². Total number of factors = (3 + 1)(2 + 1) = 12. Product of factors formula is N^(T/2) = 72^(12/2) = 72⁶. Hence, the correct option is (b).
+Source: NCERT Class 11 Mathematics
+
+44. What is the unit digit of (17)¹⁹⁹⁹ + (11)¹⁹⁹⁹ - (7)¹⁹⁹⁹?
+(a) 7 (b) 9 (c) 1 (d) 3
+Answer: (c) 1
+Solution: Trap: Since 17 and 7 share the same base unit digit 7 with equal exponents, their unit digits cancel completely: (..7) - (..7) = 0. The remaining term (11)¹⁹⁹⁹ always ends in 1. Thus, the unit digit is 1. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+45. Which of the following numbers will completely divide (23¹⁰ - 1024)?
+(a) 11 (b) 13 (c) 17 (d) 21
+Answer: (d) 21
+Solution: Note that 1024 = 2¹⁰. The expression is (23¹⁰ - 2¹⁰). For even power n, (aⁿ - bⁿ) is divisible by (a - b) = 23 - 2 = 21. Hence, the correct option is (d).
+Source: SSC CHSL Pattern
+
+46. What is the remainder when 7⁸⁴ is divided by 342?
+(a) 1 (b) 7 (c) 341 (d) 49
+Answer: (a) 1
+Solution: Since 7³ = 343 = 342 + 1, write 7⁸⁴ = (7³)²⁸ = (342 + 1)²⁸ ≡ 1²⁸ = 1 (mod 342). The remainder is 1. Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+47. If N = 4¹¹ + 4¹² + 4¹³ + 4¹⁴, then N is completely divisible by which of the following?
+(a) 11 (b) 17 (c) 19 (d) 23
+Answer: (b) 17
+Solution: Factor out 4¹¹: N = 4¹¹(1 + 4 + 16 + 64) = 4¹¹ × 85. Since 85 = 5 × 17, the expression is a multiple of 17. Hence, the correct option is (b).
+Source: SSC CHSL Pattern
+
+48. What is the number of distinct prime factors of the number 2310?
+(a) 4 (b) 5 (c) 6 (d) 3
+Answer: (b) 5
+Solution: Prime factorization: 2310 = 2 × 3 × 5 × 7 × 11. The distinct prime factors are 2, 3, 5, 7, and 11, giving a total of 5 distinct prime factors. Hence, the correct option is (b).
+Source: RRB NTPC Pattern
+
+49. What is the remainder when 3¹⁰⁰ is divided by 7?
+(a) 1 (b) 2 (c) 4 (d) 6
+Answer: (c) 4
+Solution: Cyclicity of powers of 3 mod 7: 3¹=3, 3²=2, 3³=6, 3⁴=4, 3⁵=5, 3⁶=1. Cycle length is 6: 100 = 6 × 16 + 4. Thus, 3¹⁰⁰ ≡ 3⁴ = 81 ≡ 4 (mod 7). The remainder is 4. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+50. How many natural numbers between 1 and 200 are divisible by both 4 and 6?
+(a) 18 (b) 20 (c) 25 (d) 16
+Answer: (d) 16
+Solution: Trap: A number divisible by both 4 and 6 must be divisible by LCM(4, 6) = 12, not by 4 × 6 = 24. Number of multiples = floor(200/12) = 16. Hence, the correct option is (d).
+Source: RRB NTPC Pattern
