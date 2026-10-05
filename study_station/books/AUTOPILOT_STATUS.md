@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 06-10-2026 01:14 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 05-10 11:58 PM
+**आख़िरी update:** 06-10-2026 01:26 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 01:25 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Pronoun (Graduation English) | 🔎 review हो रहा है | 76 मिनट |
-| W2 | Chapter 03 Adjective (Graduation English) | 🔎 review हो रहा है | 10 मिनट |
-| W3 | Chapter 05 Tense (Graduation English) | 🔎 review हो रहा है | 66 मिनट |
-| W4 | Chapter 06 Adverb (Graduation English) | 🔎 review हो रहा है | 13 मिनट |
+| W1 | Chapter 02 Pronoun (Graduation English) | 🔎 review हो रहा है | 0 मिनट |
+| W2 | Chapter 03 Adjective (Graduation English) | 🔎 review हो रहा है | 0 मिनट |
+| W3 | Chapter 05 Tense (Graduation English) | 🔎 review हो रहा है | 0 मिनट |
+| W4 | Chapter 06 Adverb (Graduation English) | 🔎 review हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -36,31 +36,9 @@
 - 05-10 22:04 — Graduation English · Chapter 01 Noun
 - 05-10 21:44 — Graduation English · Chapter 04 Verb
 
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 06 Adverb (English) — 1 बार
-- Chapter 03 Adjective (English) — 1 बार
-
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-05-10 23:58:19 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_02_Pronoun (OK: todo 0, problems 0)
-05-10 23:58:24 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_03_Adjective (OK: todo 0, problems 0)
-05-10 23:58:29 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_05_Tense (TODO: todo 2, problems 0)
-05-10 23:58:34 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_06_Adverb (TODO: todo 2, problems 0)
-06-10 00:00:53   [Adverb] Practice_en_Set_04.txt try 1: rejected (parsed 23 questions, numbers 76…100)
-06-10 00:05:51   [Tense] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-06-10 00:06:12   [Adjective] review Content_hi.txt: 3 issue(s): - Hook uses invented statistic "80% छात्रों ने 'than' भरा" without any verifiable source → Remove the unsourced per
-06-10 00:08:37   [Tense] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-06-10 00:08:37   [Tense] written 2, failed 0; AI calls today 6/100000
-06-10 00:12:36   [Tense] review Content_en.txt: 2 issue(s): - Invented statistic '~90% of exam questions' in Learning Objectives → Delete the phrase 'that cover ~90% of exam q
-06-10 00:13:30   [Adverb] Practice_en_Set_04.txt try 2: re-solve disagrees (Q81 key c vs re-solve b, Q89 key c vs re-solve a)
-06-10 00:14:59   [Adjective] review Feynman_en.txt: 1 issue(s): - The example "a delicious hot crispy brown Indian masala dosa" labels "masala" as a purpose adjective → "masala" i
-06-10 00:18:02   [Pronoun] FAILED review Content_en.txt: too_long — the chapter must not be published unreviewed
-06-10 00:28:49   [Tense] review Content_hi.txt: 6 issue(s): - "SSC CGL, IBPS PO और PCS में Tense से जुड़े ... हर शिफ्ट में पूछे जाते हैं" एक असत्यापित परीक्षा-आवृत्ति दावा है 
-06-10 00:31:28   [Adverb] FAILED Practice_en_Set_04.txt: too_long
-06-10 00:31:28   [Adverb] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
-06-10 00:31:28   [Adverb] written 0, failed 2; AI calls today 15/100000
 06-10 00:31:28 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_06_Adverb after 33 min: todo ['Set 04 en: todo', 'Set 04 hi: todo'] problems []
 06-10 00:31:28 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_06_Adverb (TODO: todo 2, problems 0)
 06-10 00:34:24   [Tense] review Mind_Map_en.txt: 1 issue(s): - E1 claims since/for only trigger Perfect Continuous → Since/for are used with all perfect tenses (simple perfect
@@ -84,4 +62,21 @@
 06-10 01:10:10   [Adverb] review Content_hi.txt: 2 issue(s): - Invented exam statistic in hook: "आधे से ज़्यादा उम्मीदवारों ने (a) चुना" presented as fact without source → remo
 06-10 01:10:17   [Pronoun] review Short_Tricks_hi.txt: 2 issue(s): - Trick 1 incorrectly labels “than/as” as “Relative” and states they always require objective case → after “th
 06-10 01:13:09   [Tense] review Short_Tricks_hi.txt: 1 issue(s): - Trick 14 states “Before = Perfect” as a fixed rule, but “before” can be used with both Past Simple and Past 
+06-10 01:17:04   [Pronoun] review Important_Rules_en.txt: 2 issue(s): - In Time Management (Inference-Based Questions), the example "The box of chocolates is/are…" is listed und
+06-10 01:17:59   [Adjective] review Short_Tricks_hi.txt: 1 issue(s): - Trick 13 incorrectly groups 'prefer' with 'than' as a fixed pair; 'prefer' takes 'to' (not 'than') when comp
+06-10 01:18:00   [Tense] review: 5 section(s) corrected, 1 failed
+06-10 01:18:00   [Tense] written 5, failed 1; AI calls today 81/100000
+06-10 01:18:00 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_05_Tense after 80 min: todo [] problems []
+06-10 01:18:00 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_05_Tense (OK: todo 0, problems 0)
+06-10 01:19:03   [Adverb] review PYQ_hi.txt: 3 issue(s): - Question 1 answer key marks (b) as error but the explanation says "angrily" is correct; the sentence "She looked angr
+06-10 01:20:25   [Pronoun] review: 2 section(s) corrected, 3 failed
+06-10 01:20:25   [Pronoun] written 2, failed 3; AI calls today 85/100000
+06-10 01:20:25 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_02_Pronoun after 82 min: todo [] problems []
+06-10 01:20:25 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_02_Pronoun (OK: todo 0, problems 0)
+06-10 01:23:09   [Adverb] review Short_Tricks_en.txt: 1 issue(s): - Trick 4 heading 'MOSQUITO Order of Adverbs' is incorrect; the mnemonic given is 'My Pet Tiger' (M-P-T) → Cha
+06-10 01:25:42 autopilot start: 4 workers, reverse=True
+06-10 01:25:42 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_02_Pronoun (OK: todo 0, problems 0)
+06-10 01:25:47 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_03_Adjective (OK: todo 0, problems 0)
+06-10 01:25:52 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_05_Tense (OK: todo 0, problems 0)
+06-10 01:25:57 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_06_Adverb (OK: todo 0, problems 0)
 ```
