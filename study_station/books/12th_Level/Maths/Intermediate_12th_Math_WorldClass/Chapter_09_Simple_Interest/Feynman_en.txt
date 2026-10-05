@@ -1,0 +1,32 @@
+# Feynman Technique: Simple Interest Intuition
+
+## 1. The Clockwork Nature of Simple Interest
+Think of Simple Interest as hiring an electric motor. The motor costs Rs 5 per hour to rent. Whether you ran it yesterday or run it tomorrow, the rent is always exactly Rs 5 per hour.
+- In Simple Interest, your Principal is that rented motor.
+- At 10% on Rs 1,000, the capital generates exactly Rs 100 of rent every single year.
+- Year 1: Rs 100. Year 2: Rs 100. Year 10: Rs 100.
+- The interest generated in earlier years never enters the machine to produce new rent. Simple interest is completely linear: time and interest are directly proportional.
+
+## 2. Deconstructing the "n-times" Multiplicity Trap
+Why does a sum that doubles in 5 years take 15 years—and NOT 10 years—to become 4 times?
+- When a sum doubles (becomes 2P), how much interest was actually earned?
+- Amount = 2P, so Interest = 2P - P = 1P.
+- It took 5 years to earn 1P of interest!
+- Now, to become 4 times (Amount = 4P), how much interest do you need?
+- Interest needed = 4P - P = 3P!
+- Since 1P takes 5 years, 3P will take 3 * 5 = 15 years!
+- Always subtract the original principal (1P) from the multiple (n) to find the actual interest earned (n - 1).
+
+## 3. The Logic of Equal Maturity Amounts
+Suppose you want your two sons (aged 12 and 14) to receive equal amounts when each turns 18.
+- The younger son's money will stay in the bank for 18 - 12 = 6 years.
+- The older son's money will stay in the bank for only 18 - 14 = 4 years.
+- Because the younger son has 6 years to accumulate interest, his money will grow by a larger multiplier.
+- Therefore, to end up with equal final amounts, you must deposit LESS money today for the younger son, and MORE money for the older son!
+- That is why the ratio of principals is inversely proportional to (100 + R * T).
+
+## 4. Why Installments Pay Off
+When you pay an annual installment x at the end of Year 1 towards a 4-year debt:
+- That money is now with the lender 3 years before the final maturity date.
+- The law credits you with the interest that installment would have earned over those remaining 3 years.
+- That is why installments significantly reduce the cash needed to settle a future debt!

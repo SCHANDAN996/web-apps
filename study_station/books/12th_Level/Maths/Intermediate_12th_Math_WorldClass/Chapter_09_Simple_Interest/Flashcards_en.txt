@@ -1,0 +1,31 @@
+# Flashcards: Simple Interest (Intermediate / 12th Level)
+
+Q1: What is the primary simple interest formula and the amount formula?
+A1: SI = (P * R * T) / 100 and Amount A = P + SI = P * [1 + (R * T) / 100].
+
+Q2: If a sum of money doubles itself in T years at simple interest, what is the rate percent per annum?
+A2: R = [100 * (2 - 1)] / T = 100 / T %.
+
+Q3: What is the relation between two periods T1 and T2 when a sum becomes n1-fold and n2-fold at the same rate of SI?
+A3: (n1 - 1) / T1 = (n2 - 1) / T2.
+
+Q4: If a principal P is split into three parts such that their simple interests are equal, what is the ratio of the parts?
+A4: P1 : P2 : P3 = [1 / (R1 * T1)] : [1 / (R2 * T2)] : [1 / (R3 * T3)].
+
+Q5: If a principal P is split into three parts such that their amounts are equal after maturity, what is the ratio of the parts?
+A5: P1 : P2 : P3 = [1 / (100 + R1 * T1)] : [1 / (100 + R2 * T2)] : [1 / (100 + R3 * T3)].
+
+Q6: What is the formula for equal annual installment 'x' to discharge a debt 'D' due after T years at R% simple interest?
+A6: x = (100 * D) / [100 * T + (R * T * (T - 1)) / 2].
+
+Q7: What is the relationship connecting True Discount (TD), Banker's Discount (BD), and Banker's Gain (BG)?
+A7: BG = BD - TD, and True Discount TD = sqrt(PW * BG), and Present Worth PW = (TD * BD) / BG.
+
+Q8: If the simple interest on a certain sum for 3 years at a certain rate is Rs 300, and for 5 years it amounts to Rs 1,500, how is the annual interest found?
+A8: In simple interest, interest grows uniformly each year. Yearly interest = (Amount after 5 yrs - Amount after 3 yrs) / (5 - 3).
+
+Q9: If the annual rate of interest decreases from r1% to r2%, causing a drop of Rs D in annual income, what is the principal?
+A9: Principal P = [D / (r1 - r2)] * 100.
+
+Q10: When a total sum is lent at two different rates R1 and R2 to yield an overall average rate R_m, what rule finds the ratio of investments?
+A10: The Rule of Alligation: P1 : P2 = |R2 - R_m| : |R_m - R1|.

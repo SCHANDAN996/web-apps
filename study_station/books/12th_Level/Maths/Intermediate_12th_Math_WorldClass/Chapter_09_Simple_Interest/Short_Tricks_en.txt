@@ -1,0 +1,36 @@
+# Short Tricks & Speed Hacks: Simple Interest (Intermediate / 12th Level)
+
+## Trick 1: The (n - 1) Law for Multiples
+Never write full equations when a sum becomes n-times:
+- Directly write: R * T = 100 * (n - 1)
+- If a sum triples (n = 3) in 8 years: Rate R = (100 * 2) / 8 = 25%.
+
+## Trick 2: Two-Period Multiplicity Jump
+If a sum becomes n1 times in T1 years and n2 times in T2 years:
+- T2 = T1 * [ (n2 - 1) / (n1 - 1) ]
+- Example: If a sum becomes 3 times in 6 years, to become 7 times: T2 = 6 * (6 / 2) = 18 years.
+
+## Trick 3: Delta Rate Shortcut
+If an increase in rate of Delta_R% produces an increase in interest of Delta_I over T years:
+- Principal P = (100 * Delta_I) / (Delta_R * T)
+- Completely skips constructing two separate equations!
+
+## Trick 4: Difference of Two Amounts (Annual Interest Extraction)
+If a sum amounts to A1 in T1 years and A2 in T2 years:
+- 1 Year Interest = (A2 - A1) / (T2 - T1)
+- Principal = A1 - (T1 * 1 Year Interest)
+
+## Trick 5: Equal Interests Division Shortcut
+If interests on P1, P2 are equal at (R1, T1) and (R2, T2):
+- P1 / P2 = (R2 * T2) / (R1 * T1)
+- Flip the products directly!
+
+## Trick 6: Equal Amounts Division Shortcut
+If maturity amounts are equal:
+- P1 / P2 = (100 + R2 * T2) / (100 + R1 * T1)
+- Directly invert the maturity percentage factors!
+
+## Trick 7: Instant Installment Factor
+For T equal installments at R%:
+- Denominator D_factor = 100 * T + (R * T * (T - 1)) / 2
+- For 4 years at 10%: D_factor = 400 + (10 * 4 * 3) / 2 = 460. Installment = (100 * Debt) / 460.

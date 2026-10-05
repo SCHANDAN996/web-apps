@@ -1,0 +1,39 @@
+# Important Formulas: Simple Interest (Intermediate / 12th Level)
+
+## 1. Core Simple Interest Formulas
+- Simple Interest: SI = (P * R * T) / 100
+- Principal: P = (100 * SI) / (R * T)
+- Rate: R = (100 * SI) / (P * T)
+- Time: T = (100 * SI) / (P * R)
+- Amount: A = P + SI = P * [ 1 + (R * T) / 100 ]
+- Principal from Amount: P = (100 * A) / (100 + R * T)
+
+## 2. Varying Interest Rates
+- If rate is R1 for T1 years, R2 for T2 years, R3 for T3 years:
+  Total SI = (P / 100) * [ R1*T1 + R2*T2 + R3*T3 ]
+
+## 3. Multiplicity Rules
+- Time for sum to become n times: T = [ 100 * (n - 1) ] / R
+- Rate for sum to become n times: R = [ 100 * (n - 1) ] / T
+- Two-period comparison: (n1 - 1) / T1 = (n2 - 1) / T2
+
+## 4. Division of Capital
+- Equal Interests:
+  P1 : P2 : P3 = [ 1 / (R1*T1) ] : [ 1 / (R2*T2) ] : [ 1 / (R3*T3) ]
+- Equal Amounts:
+  P1 : P2 : P3 = [ 1 / (100 + R1*T1) ] : [ 1 / (100 + R2*T2) ] : [ 1 / (100 + R3*T3) ]
+
+## 5. Annual Installment for Debt Discharge
+- Debt D due in T years at R% p.a. discharged in T equal installments x:
+  x = (100 * D) / [ 100 * T + (R * T * (T - 1)) / 2 ]
+
+## 6. Alligation Formula
+- Ratio of two investments at R1% and R2% yielding average R_m%:
+  P1 : P2 = (R2 - R_m) : (R_m - R1)
+
+## 7. True Discount & Banker's Discount
+- Present Worth: PW = (100 * SD) / (100 + R * T)
+- True Discount: TD = (SD * R * T) / (100 + R * T) = (PW * R * T) / 100
+- Banker's Discount: BD = (SD * R * T) / 100
+- Banker's Gain: BG = BD - TD = (TD^2) / PW
+- Relation: SD = (BD * TD) / (BD - TD)

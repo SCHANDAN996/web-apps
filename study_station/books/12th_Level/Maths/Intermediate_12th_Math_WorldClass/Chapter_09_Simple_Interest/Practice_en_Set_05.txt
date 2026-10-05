@@ -1,0 +1,249 @@
+Q101. (Hard) A sum of Rs 18,750 is divided into two parts such that simple interest on the first part for 4 years at 5% per annum is equal to the simple interest on the second part for 3 years at 10% per annum. Find the value of the first part.
+(A) Rs 11,250  (B) Rs 7,500  (C) Rs 10,500  (D) Rs 12,000
+
+Answer: (A)
+
+Solution:
+Equating the interests: P1 * (4 * 5) / 100 = P2 * (3 * 10) / 100 => 20 * P1 = 30 * P2 => P1 / P2 = 3 / 2. The ratio of the two parts is 3 : 2. Total ratio units = 3 + 2 = 5 units = Rs 18,750 => 1 unit = Rs 3,750. First part P1 = 3 * 3750 = Rs 11,250. Therefore, the correct value is Rs 11,250, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q102. (Hard) A father leaves Rs 85,000 to be divided between his two sons aged 12 years and 10 years such that each receives an equal amount when they attain the age of 18 years at 10% simple interest per annum. How much did the elder son receive?
+(A) Rs 40,000  (B) Rs 45,000  (C) Rs 48,000  (D) Rs 42,000
+
+Answer: (B)
+
+Solution:
+Elder son's investment period = 18 - 12 = 6 years. Amount A1 = P1 * [1 + (10 * 6)/100] = 1.6 * P1. Younger son's investment period = 18 - 10 = 8 years. Amount A2 = P2 * [1 + (10 * 8)/100] = 1.8 * P2. Since A1 = A2, 1.6 * P1 = 1.8 * P2 => P1 / P2 = 1.8 / 1.6 = 9 / 8. Total ratio units = 9 + 8 = 17 units = Rs 85,000 => 1 unit = Rs 5,000. Elder son's share = 9 * 5000 = Rs 45,000. Therefore, the correct value is Rs 45,000, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q103. (Hard) A sum of Rs 26,000 is divided into three parts such that the simple interest earned on them after 2 years, 3 years, and 4 years respectively at 5% per annum are all equal. Find the smallest part.
+(A) Rs 12,000  (B) Rs 8,000  (C) Rs 6,000  (D) Rs 5,000
+
+Answer: (C)
+
+Solution:
+Since the rate is identical (5%), equal interest means: P1 * 2 = P2 * 3 = P3 * 4. The ratio of parts is P1 : P2 : P3 = (1/2) : (1/3) : (1/4). Multiplying by LCM 12 gives 6 : 4 : 3. Sum of ratio units = 6 + 4 + 3 = 13 units = Rs 26,000 => 1 unit = Rs 2,000. Smallest part P3 = 3 * 2000 = Rs 6,000. Therefore, the correct value is Rs 6,000, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q104. (Hard) A person invested a total of Rs 100,000 in two schemes: Scheme A offering 8% per annum and Scheme B offering 12% per annum simple interest. If the total annual interest received from both schemes combined was Rs 9,600, how much was invested in Scheme A?
+(A) Rs 40,000  (B) Rs 50,000  (C) Rs 65,000  (D) Rs 60,000
+
+Answer: (D)
+
+Solution:
+The overall average interest rate = (9600 / 100000) * 100 = 9.6% per annum. Using the rule of alligation: Scheme A (8%) and Scheme B (12%) with mean 9.6%: Ratio of investments = (12 - 9.6) : (9.6 - 8) = 2.4 : 1.6 = 3 : 2. Sum of units = 3 + 2 = 5 units = Rs 100,000 => 1 unit = Rs 20,000. Scheme A investment = 3 * 20000 = Rs 60,000. Therefore, the correct value is Rs 60,000, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q105. (Hard) Find the true discount on a bill of Rs 1,860 due after 8 months at 5% simple interest per annum.
+(A) Rs 60  (B) Rs 62  (C) Rs 58  (D) Rs 65
+
+Answer: (A)
+
+Solution:
+Time T = 8 / 12 = 2/3 year. Rate R = 5%. Formula for Present Worth: PW = (100 * Sum Due) / [100 + (R * T)] = (100 * 1860) / [100 + 5 * (2/3)] = 186000 / (310 / 3) = 186000 * (3 / 310) = 600 * 3 = Rs 1,800. True Discount TD = Sum Due - PW = 1860 - 1800 = Rs 60. Therefore, the correct value is Rs 60, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q106. (Hard) Find the banker's discount on a bill of Rs 5,000 due 6 months hence at 6% simple interest per annum.
+(A) Rs 145  (B) Rs 150  (C) Rs 155  (D) Rs 160
+
+Answer: (B)
+
+Solution:
+Banker's discount (BD) is simply the ordinary simple interest on the bill's face value for the unexpired term: BD = (Sum Due * R * T) / 100 = (5000 * 6 * 0.5) / 100 = Rs 150. Therefore, the correct value is Rs 150, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q107. (Hard) The banker's gain on a bill due 1 year hence at 10% per annum simple interest is Rs 20. Find the bill amount (sum due).
+(A) Rs 2,000  (B) Rs 2,400  (C) Rs 2,200  (D) Rs 2,100
+
+Answer: (C)
+
+Solution:
+Banker's Gain BG = (TD * R * T) / 100. Given BG = 20, R = 10, T = 1: 20 = (TD * 10 * 1) / 100 => TD = Rs 200. Present Worth PW = (100 * TD) / (R * T) = (100 * 200) / 10 = Rs 2,000. Sum Due = PW + TD = 2000 + 200 = Rs 2,200. Therefore, the correct value is Rs 2,200, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q108. (Hard) A person lent Rs 5,000 to A for 2 years and Rs 3,000 to B for 4 years on simple interest at the same rate of interest, receiving Rs 2,200 in all from both as interest. Find the rate of interest per annum.
+(A) 8%  (B) 12%  (C) 9%  (D) 10%
+
+Answer: (D)
+
+Solution:
+Simple interest from A = (5000 * R * 2) / 100 = 100 * R. Simple interest from B = (3000 * R * 4) / 100 = 120 * R. Total interest = 100*R + 120*R = 220*R. Given 220*R = 2200 => R = 10% per annum. Therefore, the correct value is 10%, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q109. (Hard) A sum of Rs 12,500 amounts to Rs 15,500 in 4 years at simple interest. What would be the amount if the rate of interest were increased by 3 percentage points?
+(A) Rs 17,000  (B) Rs 16,800  (C) Rs 17,200  (D) Rs 16,500
+
+Answer: (A)
+
+Solution:
+Rather than computing the base rate, evaluate the incremental interest: Additional interest = (Principal * Additional Rate * Time) / 100 = (12500 * 3 * 4) / 100 = 125 * 12 = Rs 1,500. New total amount = Original Amount + Additional Interest = 15500 + 1500 = Rs 17,000. Therefore, the correct value is Rs 17,000, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q110. (Hard) A sum of money at simple interest amounts to Rs 2,240 in 2 years and to Rs 2,600 in 5 years. What is the principal sum?
+(A) Rs 2,040  (B) Rs 2,000  (C) Rs 1,960  (D) Rs 1,920
+
+Answer: (B)
+
+Solution:
+Difference in time = 5 - 2 = 3 years. Simple interest earned in 3 years = 2600 - 2240 = Rs 360. Interest earned per year = 360 / 3 = Rs 120. Interest in the first 2 years = 2 * 120 = Rs 240. Principal = Amount after 2 years - 2 years' interest = 2240 - 240 = Rs 2,000. Therefore, the correct value is Rs 2,000, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q111. (Hard) In how many years will the simple interest on a certain sum of money be 0.4 times the principal at 8% per annum?
+(A) 4 years  (B) 6 years  (C) 5 years  (D) 4.5 years
+
+Answer: (C)
+
+Solution:
+Let Principal be P. Simple Interest SI = 0.4 * P. Using the formula SI = (P * R * T) / 100: 0.4 * P = (P * 8 * T) / 100 => 40 = 8 * T => T = 40 / 8 = 5 years. Therefore, the correct value is 5 years, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q112. (Hard) A money lender finds that due to a fall in the annual rate of interest from 8% to 7.75%, his yearly income diminishes by Rs 61.50. What is his capital?
+(A) Rs 24,000  (B) Rs 25,200  (C) Rs 23,800  (D) Rs 24,600
+
+Answer: (D)
+
+Solution:
+Net drop in interest rate = 8% - 7.75% = 0.25% (or 1/400). Let capital be C: (0.25 / 100) * C = 61.50 => C = (61.50 * 100) / 0.25 = 61.50 * 400 = Rs 24,600. Therefore, the correct value is Rs 24,600, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q113. (Hard) A sum of Rs 7,700 is lent out in two parts such that the interest on the first part at 20% for 5 years equals the interest on the second part at 9% for 6 years. Find the smaller part.
+(A) Rs 2,700  (B) Rs 2,500  (C) Rs 2,800  (D) Rs 3,000
+
+Answer: (A)
+
+Solution:
+P1 * (20 * 5) = P2 * (9 * 6) => 100 * P1 = 54 * P2 => 50 * P1 = 27 * P2 => P1 / P2 = 27 / 50. Total ratio units = 27 + 50 = 77 units = Rs 7,700 => 1 unit = Rs 100. The smaller part P1 = 27 * 100 = Rs 2,700. Therefore, the correct value is Rs 2,700, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q114. (Hard) A certain sum was put at simple interest at a certain rate for 3 years. Had it been put at a 2% higher rate, it would have fetched Rs 360 more. Find the principal sum.
+(A) Rs 5,500  (B) Rs 6,000  (C) Rs 6,500  (D) Rs 5,000
+
+Answer: (B)
+
+Solution:
+Additional interest earned = (P * delta_R * T) / 100 => 360 = (P * 2 * 3) / 100 => 6P / 100 = 360 => P = (360 * 100) / 6 = Rs 6,000. Therefore, the correct value is Rs 6,000, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q115. (Hard) If the simple interest on a certain sum for 2 years at 4% per annum is Rs 80, what will be the simple interest on the same sum for 8 years at the same rate?
+(A) Rs 300  (B) Rs 340  (C) Rs 320  (D) Rs 360
+
+Answer: (C)
+
+Solution:
+Since principal and rate are constant, simple interest is directly proportional to time. Ratio of time = 8 / 2 = 4 times. Simple interest for 8 years = 4 * 80 = Rs 320. Therefore, the correct value is Rs 320, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q116. (Hard) A person borrows Rs 6,000 at simple interest. After 3 years, he repays Rs 2,000, and at the end of 5 years from the start, he clears the remaining loan with a payment of Rs 5,300. What was the annual rate of simple interest?
+(A) 6%  (B) 4.5%  (C) 5.5%  (D) 5%
+
+Answer: (D)
+
+Solution:
+Total amount paid = 2000 + 5300 = Rs 7,300. Total interest paid = 7300 - 6000 = Rs 1,300. For the first 3 years, principal = 6000 => Interest = (6000 * R * 3)/100 = 180*R. For the remaining 2 years, reduced principal = 6000 - 2000 = 4000 => Interest = (4000 * R * 2)/100 = 80*R. Total interest = 180*R + 80*R = 260*R. 260*R = 1300 => R = 1300 / 260 = 5%. Therefore, the correct value is 5%, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q117. (Hard) A sum of Rs 1,440 is lent out in three parts such that the interest on the first part at 2% for 3 years, on the second part at 3% for 4 years, and on the third part at 4% for 5 years are all equal. Find the largest part.
+(A) Rs 800  (B) Rs 400  (C) Rs 240  (D) Rs 750
+
+Answer: (A)
+
+Solution:
+Equal interests: P1 * (2 * 3) = P2 * (3 * 4) = P3 * (4 * 5) => 6 * P1 = 12 * P2 = 20 * P3. Dividing by 2: 3 * P1 = 6 * P2 = 10 * P3. The ratio P1 : P2 : P3 = (1/3) : (1/6) : (1/10). Multiplying by LCM 30 gives 10 : 5 : 3. Sum of ratio units = 10 + 5 + 3 = 18 units = Rs 1,440 => 1 unit = Rs 80. Largest part P1 = 10 * 80 = Rs 800. Therefore, the correct value is Rs 800, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q118. (Hard) If the banker's discount on a certain sum is Rs 144 and the true discount on the same sum for the same time and rate is Rs 120, find the sum due.
+(A) Rs 680  (B) Rs 720  (C) Rs 750  (D) Rs 800
+
+Answer: (B)
+
+Solution:
+Using the standard relationship connecting Sum Due (SD), Banker's Discount (BD), and True Discount (TD): SD = (BD * TD) / (BD - TD) = (144 * 120) / (144 - 120) = 17280 / 24 = Rs 720. Therefore, the correct value is Rs 720, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q119. (Hard) The simple interest on a sum of money is 9/16 of the principal. If the number of years is numerically equal to the rate percent per annum, find the rate percent per annum.
+(A) 6.5%  (B) 8.0%  (C) 7.5%  (D) 7.0%
+
+Answer: (C)
+
+Solution:
+Let Rate = R and Time = R years. Given SI = (9/16) * P. SI = (P * R * T) / 100 => (9/16) * P = (P * R^2) / 100 => R^2 = 900 / 16 = 225 / 4 => R = 15 / 2 = 7.5% per annum. Therefore, the correct value is 7.5%, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q120. (Hard) A sum of Rs 10,000 is lent partly at 8% and the remaining at 10% per annum simple interest. If the average annual interest rate is 9.2%, find the sum lent at 10%.
+(A) Rs 4,000  (B) Rs 5,500  (C) Rs 6,500  (D) Rs 6,000
+
+Answer: (D)
+
+Solution:
+By Alligation: Scheme 1 (8%) and Scheme 2 (10%) with Mean (9.2%): Ratio of parts = (10 - 9.2) : (9.2 - 8) = 0.8 : 1.2 = 2 : 3. Total units = 2 + 3 = 5 units = Rs 10,000 => 1 unit = Rs 2,000. Part lent at 10% = 3 * 2000 = Rs 6,000. Therefore, the correct value is Rs 6,000, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q121. (Hard) A sum of money invested at simple interest amounts to Rs 756 in 2 years and to Rs 873 in 3.5 years. What is the rate of interest per annum?
+(A) 13%  (B) 12%  (C) 14%  (D) 11.5%
+
+Answer: (A)
+
+Solution:
+Time interval = 3.5 - 2 = 1.5 years. Interest earned in 1.5 years = 873 - 756 = Rs 117. Annual interest = 117 / 1.5 = Rs 78. Interest in 2 years = 2 * 78 = Rs 156. Principal = 756 - 156 = Rs 600. Rate R = (100 * 78) / (600 * 1) = 78 / 6 = 13% per annum. Therefore, the correct value is 13%, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q122. (Hard) A man invested 1/3 of his capital at 7%, 1/4 at 8%, and the remainder at 10% per annum simple interest. If his annual income is Rs 561, find his total capital.
+(A) Rs 6,400  (B) Rs 6,600  (C) Rs 6,800  (D) Rs 7,200
+
+Answer: (B)
+
+Solution:
+Fraction of remainder = 1 - (1/3 + 1/4) = 1 - 7/12 = 5/12. Let total capital be 12x: Part 1 = 4x at 7% => Income = 0.28x. Part 2 = 3x at 8% => Income = 0.24x. Part 3 = 5x at 10% => Income = 0.50x. Total annual income = 0.28x + 0.24x + 0.50x = 1.02x = 561 => x = 561 / 1.02 = 550. Total capital = 12 * 550 = Rs 6,600. Therefore, the correct value is Rs 6,600, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q123. (Hard) What annual payment will discharge a debt of Rs 1,092 due in 3 years at 12% simple interest per annum?
+(A) Rs 350  (B) Rs 300  (C) Rs 325  (D) Rs 340
+
+Answer: (C)
+
+Solution:
+Annual installment formula: Debt D = n*x + [x * R * n * (n - 1)] / 200. For n = 3, R = 12: 1092 = 3x + [x * 12 * 3 * 2] / 200 = 3x + 0.36x = 3.36x => x = 1092 / 3.36 = Rs 325. Therefore, the correct value is Rs 325, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q124. (Hard) A sum of Rs 12,000 is divided into two parts such that the simple interest on the first part for 3 years at 12% per annum equals the simple interest on the second part for 4.5 years at 16% per annum. Find the first part.
+(A) Rs 4,000  (B) Rs 7,500  (C) Rs 8,500  (D) Rs 8,000
+
+Answer: (D)
+
+Solution:
+P1 * (3 * 12) = P2 * (4.5 * 16) => 36 * P1 = 72 * P2 => P1 = 2 * P2 => P1 / P2 = 2 / 1. Total ratio units = 2 + 1 = 3 units = Rs 12,000 => 1 unit = Rs 4,000. First part P1 = 2 * 4000 = Rs 8,000. Therefore, the correct value is Rs 8,000, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q125. (Hard) A person borrowed Rs 7,500 at 8% per annum simple interest. After 2 years, he paid back Rs 3,500. How much must he pay at the end of another 3 years to completely settle the principal and all accrued interest?
+(A) Rs 6,000  (B) Rs 6,160  (C) Rs 6,240  (D) Rs 5,950
+
+Answer: (B)
+
+Solution:
+Interest for the first 2 years on Rs 7,500 = (7500 * 8 * 2) / 100 = Rs 1,200. Outstanding balance after repayment = 7500 - 3500 = Rs 4,000 principal. Interest on remaining Rs 4,000 for the next 3 years = (4000 * 8 * 3) / 100 = Rs 960. Total amount to settle debt = Remaining principal (Rs 4,000) + First 2 years' interest (Rs 1,200) + Last 3 years' interest (Rs 960) = 4000 + 1200 + 960 = Rs 6,160. Therefore, the correct value is Rs 6,160, corresponding to option (B).
+
+Source: SSC CGL Pattern
