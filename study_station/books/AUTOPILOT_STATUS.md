@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 06-10-2026 02:26 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 01:25 AM
+**आख़िरी update:** 06-10-2026 02:42 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 01:25 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 10 Voice (Graduation English) | ✍️ लिख रहा है | 20 मिनट |
-| W2 | Chapter 08 Conjunction (Graduation English) | ✍️ लिख रहा है | 37 मिनट |
-| W3 | Chapter 07 Preposition (Graduation English) | ✍️ लिख रहा है | 40 मिनट |
-| W4 | Chapter 09 Articles (Graduation English) | ✍️ लिख रहा है | 22 मिनट |
+| W1 | Chapter 10 Voice (Graduation English) | ✍️ लिख रहा है | 36 मिनट |
+| W2 | Chapter 08 Conjunction (Graduation English) | ✍️ लिख रहा है | 52 मिनट |
+| W3 | Chapter 07 Preposition (Graduation English) | 🔎 review हो रहा है | 6 मिनट |
+| W4 | Chapter 09 Articles (Graduation English) | ✍️ लिख रहा है | 37 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -28,8 +28,8 @@
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 0 | 0 | 28 |
 | Graduation Reasoning | 0 | 0 | 30 |
-| Graduation English | 6 | 0 | 24 |
-| **कुल** | **56** | **13** | **227** |
+| Graduation English | 7 | 0 | 23 |
+| **कुल** | **57** | **13** | **226** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -43,25 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-06-10 02:05:52   [Pronoun] review: 5 section(s) corrected, 0 failed
-06-10 02:05:52   [Pronoun] written 5, failed 0; AI calls today 185/100000
-06-10 02:05:59 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_02_Pronoun in 40 min → 88b4444
-06-10 02:05:59 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_10_Voice (TODO: todo 26, problems 0)
-06-10 02:07:09   [Voice] wrote Content_en.txt (7034 chars)
-06-10 02:09:18   [Articles] wrote Content_hi.txt (10347 chars)
-06-10 02:09:27   [Conjunction] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-06-10 02:09:34   [Voice] wrote Content_hi.txt (9865 chars)
-06-10 02:10:09   [Preposition] Practice_en_Set_02.txt try 2: re-solve disagrees (Q39 key d vs re-solve ?, Q42 key d vs re-solve ?)
-06-10 02:10:14   [Voice] wrote Feynman_en.txt (3066 chars)
-06-10 02:10:38   [Articles] wrote Feynman_en.txt (2418 chars)
-06-10 02:11:36   [Articles] wrote Feynman_hi.txt (2380 chars)
-06-10 02:12:07   [Articles] wrote Mind_Map_en.txt (1828 chars)
-06-10 02:12:42   [Preposition] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-06-10 02:12:47   [Conjunction] Practice_en_Set_02.txt try 1: re-solve disagrees (Q43 key b vs re-solve c)
-06-10 02:12:55   [Articles] wrote Mind_Map_hi.txt (2113 chars)
-06-10 02:13:21   [Voice] wrote Feynman_hi.txt (2884 chars)
-06-10 02:14:30   [Voice] wrote Mind_Map_en.txt (1867 chars)
-06-10 02:14:37   [Articles] wrote Flashcards_en.txt (4531 chars)
 06-10 02:15:23   [Preposition] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 06-10 02:15:41   [Articles] wrote Flashcards_hi.txt (4177 chars)
 06-10 02:15:50   [Voice] wrote Mind_Map_hi.txt (2018 chars)
@@ -83,4 +64,23 @@
 06-10 02:24:15   [Articles] wrote Important_Rules_hi.txt (4089 chars)
 06-10 02:26:25   [Preposition] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 06-10 02:26:29   [Conjunction] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+06-10 02:28:13   [Voice] wrote PYQ_hi.txt (7246 chars)
+06-10 02:28:47   [Conjunction] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+06-10 02:29:34   [Voice] wrote Short_Tricks_en.txt (8074 chars)
+06-10 02:29:58   [Articles] FAILED Practice_en_Set_01.txt: empty
+06-10 02:29:58   [Articles] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
+06-10 02:30:28   [Preposition] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+06-10 02:32:33   [Conjunction] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+06-10 02:33:14   [Articles] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+06-10 02:33:19   [Voice] wrote Short_Tricks_hi.txt (7303 chars)
+06-10 02:34:29   [Voice] wrote Important_Rules_en.txt (5832 chars)
+06-10 02:35:09   [Preposition] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+06-10 02:35:09   [Preposition] written 9, failed 0; AI calls today 237/100000
+06-10 02:36:14   [Conjunction] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+06-10 02:37:37   [Preposition] review Content_en.txt: 2 issue(s): - In the Linguistic Bridge table, the Hindi sentence "कमरा दस कुर्सियों से बना है" (The room is made of ten chairs)
+06-10 02:37:47   [Articles] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+06-10 02:40:12   [Articles] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+06-10 02:41:35   [Voice] wrote Important_Rules_hi.txt (5695 chars)
+06-10 02:41:54   [Preposition] review Content_hi.txt: 2 issue(s): - In section 5, the example "He is working here since 2019" is incorrectly marked as correct (✅); "since" with a po
+06-10 02:42:06   [Conjunction] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 ```
