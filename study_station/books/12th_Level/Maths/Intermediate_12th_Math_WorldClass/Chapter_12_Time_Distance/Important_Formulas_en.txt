@@ -1,0 +1,73 @@
+# Important Formulas: Time, Speed and Distance
+
+## 1. Fundamental Relations & Units
+- Distance = Speed × Time  =>  D = S × T
+- Speed = Distance / Time  =>  S = D / T
+- Time = Distance / Speed  =>  T = D / S
+- Unit Conversion:
+  * 1 km/h = (1000 m) / (3600 s) = 5/18 m/s
+  * 1 m/s = (1/1000 km) / (1/3600 h) = 18/5 km/h = 3.6 km/h
+  * 1 mile/h ≈ 1.609 km/h
+
+## 2. Average Speed
+- General Formula:
+  Average Speed = (Total Distance Covered) / (Total Time Taken)
+- Equal Distance at two different speeds x and y:
+  Average Speed = (2xy) / (x + y)
+- Equal Distance at three different speeds x, y, and z:
+  Average Speed = (3xyz) / (xy + yz + zx)
+- Equal Time spent travelling at speeds x and y:
+  Average Speed = (x + y) / 2
+
+## 3. Proportionality Rules
+- Constant Distance (D is fixed):
+  S1 / S2 = T2 / T1  (Speed is inversely proportional to Time: S ∝ 1/T)
+- Constant Time (T is fixed):
+  D1 / D2 = S1 / S2  (Distance is directly proportional to Speed: D ∝ S)
+- Constant Speed (S is fixed):
+  D1 / D2 = T1 / T2  (Distance is directly proportional to Time: D ∝ T)
+
+## 4. Early / Late Arrival Formula
+- When a person travels at speed S1 and is late by t1, and travels at speed S2 and is early by t2:
+  * Total time difference: ΔT = t1 + t2
+  * Distance D = (S1 × S2 / |S1 - S2|) × ΔT
+  * If both are late or both are early: ΔT = |t1 - t2|
+
+## 5. Relative Speed
+- Bodies moving in Opposite Directions:
+  Relative Speed = S1 + S2
+- Bodies moving in Same Direction:
+  Relative Speed = |S1 - S2|
+- Time to meet = (Initial Distance between them) / (Relative Speed)
+
+## 6. Problems on Trains
+- Crossing a stationary point / pole / standing person:
+  * Distance = Length of Train (L_train)
+  * Time = L_train / Speed_train
+- Crossing a platform / bridge / tunnel:
+  * Distance = L_train + L_platform
+  * Time = (L_train + L_platform) / Speed_train
+- Two trains crossing each other:
+  * Total Distance = L1 + L2
+  * Time (opposite direction) = (L1 + L2) / (S1 + S2)
+  * Time (same direction) = (L1 + L2) / |S1 - S2|
+- Crossing a moving person:
+  * Same direction: Time = L_train / (S_train - S_man)
+  * Opposite direction: Time = L_train / (S_train + S_man)
+
+## 7. Boats and Streams
+- Let Speed of boat in still water = u km/h
+- Let Speed of stream (current) = v km/h
+- Downstream Speed (with the stream): D = u + v
+- Upstream Speed (against the stream): U = u - v
+- Speed of boat in still water: u = (D + U) / 2
+- Speed of stream / current: v = (D - U) / 2
+- Time taken for a round trip of distance d:
+  T_total = d/(u + v) + d/(u - v) = (2 * d * u) / (u^2 - v^2)
+
+## 8. Stoppage Time
+- Rest/Stoppage time per hour = [(Speed without stoppages - Speed with stoppages) / (Speed without stoppages)] × 60 minutes
+
+## 9. Meeting and Returning (After-Meeting Formula)
+- If two persons start at the same time from points A and B towards each other, and after meeting, they reach B and A in times T1 and T2 respectively:
+  S1 / S2 = sqrt(T2 / T1)

@@ -1,0 +1,41 @@
+# Mind Map: Time, Speed and Distance (समय, चाल और दूरी)
+
+```mermaid
+graph TD
+    TSD["Time, Speed & Distance<br/>(समय, चाल और दूरी)"]
+    
+    TSD --> BASICS["1. Core Fundamentals<br/>(मूल अवधारणाएँ)"]
+    BASICS --> B1["D = S × T"]
+    BASICS --> B2["Unit Conversion:<br/>1 km/h = 5/18 m/s<br/>1 m/s = 18/5 km/h"]
+    
+    TSD --> PROP["2. Proportionality Rules<br/>(समानुपाती नियम)"]
+    PROP --> P1["Distance Constant:<br/>S ∝ 1/T (Inverse)"]
+    PROP --> P2["Time Constant:<br/>D ∝ S (Direct)"]
+    PROP --> P3["Speed Constant:<br/>D ∝ T (Direct)"]
+    
+    TSD --> AVG["3. Average Speed<br/>(औसत चाल)"]
+    AVG --> A1["Total Distance / Total Time"]
+    AVG --> A2["Equal Distances: 2xy / (x + y)"]
+    AVG --> A3["Equal Times: (x + y) / 2"]
+    
+    TSD --> REL["4. Relative Speed<br/>(सापेक्ष चाल)"]
+    REL --> R1["Opposite Direction: S1 + S2"]
+    REL --> R2["Same Direction: |S1 - S2|"]
+    REL --> R3["Meeting Point & Chasing"]
+    
+    TSD --> TRAINS["5. Problems on Trains<br/>(रेलगाड़ी संबंधी प्रश्न)"]
+    TRAINS --> T1["Passing Pole/Man:<br/>Distance = Length of Train"]
+    TRAINS --> T2["Passing Platform/Bridge:<br/>Distance = L_train + L_platform"]
+    TRAINS --> T3["Two Trains Crossing:<br/>Distance = L1 + L2"]
+    
+    TSD --> BOATS["6. Boats & Streams<br/>(नाव और धारा)"]
+    BOATS --> BS1["Downstream: D = u + v"]
+    BOATS --> BS2["Upstream: U = u - v"]
+    BOATS --> BS3["Boat in Still Water: u = (D + U)/2"]
+    BOATS --> BS4["Speed of Stream: v = (D - U)/2"]
+    
+    TSD --> ADV["7. Advanced Applications<br/>(उन्नत अनुप्रयोग)"]
+    ADV --> AD1["Early/Late Arrival Formula:<br/>D = (S1 × S2 / ΔS) × ΔT"]
+    ADV --> AD2["Stoppage Time:<br/>(S_without - S_with) / S_without × 60 min"]
+    ADV --> AD3["Linear & Circular Races<br/>(दौड़ और वृत्ताकार पथ)"]
+```

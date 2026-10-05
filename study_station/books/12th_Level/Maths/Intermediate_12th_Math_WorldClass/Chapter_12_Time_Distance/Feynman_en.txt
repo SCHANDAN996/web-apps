@@ -1,0 +1,36 @@
+# Feynman Technique: Time, Speed and Distance
+
+Imagine you are walking down the street at a steady pace. Every second you take two steps, and each step covers one meter. That means in one second, you cover two meters. That rate—how much ground you cover per tick of the clock—is what we call **Speed**.
+
+### 1. The Core Triangle: Distance, Speed, and Time
+Think of a triangle where **Distance (D)** sits at the apex, and **Speed (S)** and **Time (T)** sit side by side at the base:
+- To find how far you went: multiply how fast you moved by how long you moved ($D = S \times T$).
+- If you know the distance and the time: divide distance by time to discover your speed ($S = D / T$).
+- If you know the distance and your speed: divide distance by speed to find out how long the journey takes ($T = D / S$).
+
+### 2. The Conversion Secret: 5/18 and 18/5
+In daily life, we measure car speeds in kilometers per hour ($\text{km/h}$), but physics and track problems often measure in meters per second ($\text{m/s}$).
+Why the magic number $5/18$?
+$1 \text{ kilometer} = 1000 \text{ meters}$, and $1 \text{ hour} = 3600 \text{ seconds}$.
+When you divide $1000$ by $3600$, the zeros cancel: $\frac{10}{36} = \frac{5}{18}$.
+- Moving from big units ($\text{km/h}$) to smaller units ($\text{m/s}$): multiply by the small fraction $\frac{5}{18}$.
+- Moving from small units ($\text{m/s}$) to bigger units ($\text{km/h}$): multiply by the upside-down fraction $\frac{18}{5}$.
+
+### 3. The Average Speed Trap
+If you drive to a town at $60 \text{ km/h}$ and return along the exact same road at $40 \text{ km/h}$, what was your average speed?
+Most people immediately say $\frac{60 + 40}{2} = 50 \text{ km/h}$. But that is WRONG!
+Why? Because when driving slower ($40 \text{ km/h}$), you spent **more time** on the road! Slower speeds pull the average down towards them.
+Average speed is ALWAYS total distance divided by total time:
+$$\text{Average Speed} = \frac{2 \times 60 \times 40}{60 + 40} = \frac{4800}{100} = 48 \text{ km/h}$$
+
+### 4. Relative Speed: Looking Out the Train Window
+Have you ever sat on a moving train and looked at another train passing on the adjacent track?
+- If it moves in the opposite direction, it whizzes past in a flash! That is because your speeds add together ($S_1 + S_2$).
+- If it travels in the same direction, it appears to crawl slowly beside you. That is because the relative speed is only the difference between your speeds ($|S_1 - S_2|$).
+
+### 5. Trains Have Length!
+When a car passes a lamp post, we treat the car as a point. But a train is hundreds of meters long!
+- To pass a skinny pole, the front of the train enters, and the entire train must pull through until the caboose exits. Distance = Length of the train.
+- To cross a platform, the train must cover its own length PLUS the length of the platform!
+
+Master these visual physical concepts, and every complex motion problem becomes second nature!

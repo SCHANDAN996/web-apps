@@ -1,0 +1,49 @@
+# Short Tricks: Time, Speed and Distance
+
+## Trick 1: Speed and Time Inverse Proportionality
+When Distance is constant:
+$$\frac{S_1}{S_2} = \frac{T_2}{T_1}$$
+* If a person travels at $3/4$ of his usual speed, he takes $4/3$ of his usual time.
+* The extra time taken is $4/3 - 1 = 1/3$ of usual time.
+* If he is 20 minutes late: $\frac{1}{3} \times T_{\text{usual}} = 20 \implies T_{\text{usual}} = 60 \text{ minutes}$.
+* **General Shortcut:** If speed becomes $a/b$ of normal speed, time becomes $b/a$. Delay = $\frac{|b - a|}{a} \times T_{\text{usual}}$.
+
+---
+
+## Trick 2: The Universal "Early / Late" Formula
+When traveling at speed $S_1$ results in being $t_1$ late, and traveling at speed $S_2$ results in being $t_2$ early:
+$$\text{Distance} = \frac{S_1 \times S_2}{|S_1 - S_2|} \times \Delta T$$
+* **Rule for $\Delta T$:**
+  - One Late, One Early $\implies \Delta T = t_1 + t_2$ (add the times)
+  - Both Late or Both Early $\implies \Delta T = |t_1 - t_2|$ (subtract the times)
+  *(Ensure all times are converted to hours!)*
+
+---
+
+## Trick 3: Bus Stoppages per Hour
+A bus travels at speed $S_1$ without stoppages and speed $S_2$ with stoppages:
+$$\text{Stoppage Time per Hour} = \frac{S_1 - S_2}{S_1} \times 60 \text{ minutes}$$
+* Example: Without stoppages = $54 \text{ km/h}$, With stoppages = $45 \text{ km/h}$.
+$$\text{Stoppage} = \frac{54 - 45}{54} \times 60 = \frac{9}{54} \times 60 = \frac{1}{6} \times 60 = 10 \text{ minutes per hour}.$$
+
+---
+
+## Trick 4: After-Meeting Formula
+Two persons start simultaneously from A and B towards each other. After meeting, they take $T_1$ and $T_2$ hours respectively to reach each other's starting points:
+$$\frac{S_1}{S_2} = \sqrt{\frac{T_2}{T_1}}$$
+* Time of meeting: $T_{\text{meet}} = \sqrt{T_1 \times T_2}$.
+
+---
+
+## Trick 5: Train Crossing Two Platforms of Different Lengths
+If a train crosses a platform of length $P_1$ in time $t_1$, and a platform of length $P_2$ in time $t_2$:
+$$\text{Speed of Train} = \frac{P_2 - P_1}{t_2 - t_1}$$
+$$\text{Length of Train} = \frac{P_2 t_1 - P_1 t_2}{t_2 - t_1}$$
+
+---
+
+## Trick 6: Boats & Streams Quick Ratio
+If a boat takes $k$ times as long to row upstream as to row downstream over the same distance:
+$$\frac{\text{Speed of Boat in still water}}{\text{Speed of Stream}} = \frac{u}{v} = \frac{k + 1}{k - 1}$$
+* Example: Takes twice as long upstream ($k = 2$):
+$$\frac{u}{v} = \frac{2 + 1}{2 - 1} = \frac{3}{1}.$$
