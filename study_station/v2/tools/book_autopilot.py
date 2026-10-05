@@ -105,7 +105,8 @@ class Pilot:
             if outside:
                 self.git('reset', '-q', '--', *outside)
             msg = (f'Books: {summary} (draft, bookcheck OK, bookgen autopilot)\n\n'
-                   'Written with bookgen (NVIDIA); practice keys confirmed by an independent re-solve.\n\n'
+                   'Written with bookgen (NVIDIA); practice keys confirmed by an independent re-solve;\n'
+                   'every section read by an independent reviewer model and corrected before publishing.\n\n'
                    'Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\n'
                    'Claude-Session: https://claude.ai/code/session_01NkSvMYCcJQMogjnRs94E6r')
             self.git('commit', '-q', '-m', msg, '--', str(rel))
@@ -182,6 +183,13 @@ class Pilot:
             for b in bad[:6]:
                 self.log(f'  {key} repair: {b[:160]}')
         status, todo, problems = bookcheck.chapter_status(ch)
+        if status == 'OK':                                           # publish gate: independent review first
+            lines, bad = self.bookgen(ch, '--review')
+            for l in [l for l in lines if l.lstrip().startswith(('review', 'REJECTED'))][:8]:
+                self.log(f'  {key} {l.strip()[:160]}')
+            status, todo, problems = bookcheck.chapter_status(ch)
+            if bad:
+                status = 'REVIEW'
         mins = (time.time() - t0) / 60
         if status == 'OK':
             parts = key.split('/')

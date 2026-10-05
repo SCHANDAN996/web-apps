@@ -5,6 +5,7 @@ Write a book chapter's unfinished ("todo") sections with an AI API (Claude or NV
     python -m app.bookgen --chapter <dir> --sections Content_hi,Practice_en_Set_01
     python -m app.bookgen --chapter <dir> --dry-run          # list what would be written (no key needed)
     python -m app.bookgen --chapter <dir> --repair           # rewrite the sections bookcheck flags (fix mode)
+    python -m app.bookgen --chapter <dir> --review           # independent reviewer reads every section, fixes errors
 
 For each todo section it sends Chapter_Intro_Prompt.txt (+ Master_Prompt_<lang>.txt if the book has one) and
 the section's own prompt; the system prompt is books/BOOK_RULES.md (fallback: the "Hard rules" of the
@@ -397,6 +398,62 @@ def repair(db, chapter, dry_run=False, out=print):
     return written, failed
 
 
+# ------------------------------------------------------------------ review (before publishing)
+REVIEW_SYSTEM = """You are a strict senior editor of an exam-prep book for Indian government exams (SSC, Railway,
+Bank, State). Read the section and find only REAL errors: a wrong fact, date, number or name; a wrong grammar rule
+or a wrong example; a wrong calculation or answer; Hindi that does not say the same as it should; chat lines
+("Here is…"); invented exam statistics, weightage or exam/year claims; "current X is" without a year.
+Do not report style preferences. Reply with exactly OK if there is no real error. Otherwise reply with one line per
+error: "- <what is wrong> → <the correction>"."""
+
+
+def review_request(name, text):
+    return f'<section file="{name}">\n{text.strip()}\n</section>\n\nReview this section.'
+
+
+def _review_issues(answer):
+    lines = [l.strip() for l in answer.splitlines() if l.strip().startswith(('-', '*', '•'))]
+    if not lines and answer.strip().rstrip('.').upper() == 'OK':
+        return []
+    return lines or ([] if answer.strip().upper().startswith('OK') else [answer.strip()[:500]])
+
+
+def _ask_review(db, user):
+    if not ai.reserve(db, BOOK_USAGE_ID, config.AI_DAILY_BOOK_SECTIONS):
+        raise ai.AIUnavailable('daily_limit')
+    try:
+        if provider() == 'nvidia':
+            return nvidia.call(REVIEW_SYSTEM, user, max_tokens=MAX_TOKENS, temperature=0, model=config.NVIDIA_CHECK_MODEL)
+        return ai.call(REVIEW_SYSTEM, user, effort='high', max_tokens=MAX_TOKENS)
+    except ai.AIUnavailable:
+        ai.record_use(db, BOOK_USAGE_ID, -1)
+        raise
+
+
+def review(db, chapter, out=print):
+    """An independent model reviews every finished non-practice section; flagged ones are rewritten once.
+    Returns (fixed, failed). Practice sets are not reviewed here — their keys were re-solved when written."""
+    chapter = Path(chapter)
+    fixed, failed = [], []
+    for name, path in sorted(section_files(chapter).items(), key=lambda kv: _order(kv[0])):
+        if PRACTICE.match(name) or not _finished(path):
+            continue
+        text = path.read_text(encoding='utf-8', errors='replace')
+        issues = _review_issues(_ask_review(db, review_request(name, text)))
+        if not issues:
+            continue
+        out(f'  review {name}: {len(issues)} issue(s): {issues[0][:120]}')
+        new = _clean_output(_ask(db, repair_request(name, text, issues)), name)
+        if (why := _problem(new, name)):
+            out(f'REJECTED review fix {name}: {why}')
+            failed.append(name)
+            continue
+        write_section(chapter, name, new)
+        fixed.append(name)
+    out(f'review: {len(fixed)} section(s) corrected, {len(failed)} failed')
+    return fixed, failed
+
+
 def run(db, chapter, wanted=None, dry_run=False, out=print):
     """Write the todo sections of one chapter. Returns (written, failed) lists of file names."""
     chapter = Path(chapter)
@@ -472,6 +529,7 @@ def main(argv=None):
     p.add_argument('--sections', help='comma-separated, e.g. Content_hi,Mind_Map,Practice_en_Set_01')
     p.add_argument('--dry-run', action='store_true', help='only list what would be written')
     p.add_argument('--repair', action='store_true', help='rewrite the sections bookcheck reports problems for')
+    p.add_argument('--review', action='store_true', help='independent review of every section; fix what it finds')
     p.add_argument('--provider', choices=('nvidia', 'anthropic'), help='AI provider (default: BOOKGEN_PROVIDER)')
     args = p.parse_args(argv)
     logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
@@ -490,7 +548,9 @@ def main(argv=None):
     from .db import SessionLocal, engine, ensure_schema
     ensure_schema(engine)
     with SessionLocal() as db:
-        if args.repair:
+        if args.review:
+            written, failed = review(db, chapter)
+        elif args.repair:
             written, failed = repair(db, chapter, args.dry_run)
         else:
             written, failed = run(db, chapter, wanted, args.dry_run)

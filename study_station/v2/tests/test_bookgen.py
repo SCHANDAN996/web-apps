@@ -248,3 +248,33 @@ def test_repair_writes_nothing_when_the_resolve_keeps_disagreeing(broken_chapter
     assert 'set 01' in failed and not (broken_chapter / 'Practice_en_Set_01.txt').exists()
     assert (broken_chapter / 'Prompts' / 'Practice_en_Set_01.txt').read_text() == before
     assert sum('re-solve disagrees' in m for m in msgs) == bookgen.MAX_REPAIR_TRIES
+
+
+# ------------------------------------------------------------------ review gate
+def test_review_fixes_only_sections_the_reviewer_flags(broken_chapter, db, monkeypatch):
+    from app import bookcheck
+    ch = broken_chapter
+    (ch / 'Prompts' / 'PYQ_en.txt').write_text('Exam pattern notes. ' * 30)          # make it clean first
+    (ch / 'Prompts' / 'Practice_en_Set_01.txt').write_text(mcq_set('en'))
+    reviewed, rewritten = [], []
+
+    def reviewer(db, user):
+        reviewed.append(user)
+        return '- "Ganga rises in Kerala" → it rises at Gangotri' if 'file="Content_en.txt"' in user else 'OK'
+
+    def ask(db, user):
+        rewritten.append(user)
+        assert 'Gangotri' in user and '<current_file name="Content_en.txt">' in user
+        return 'Corrected chapter text about states and rivers. ' * 20
+    monkeypatch.setattr(bookgen, '_ask_review', reviewer)
+    monkeypatch.setattr(bookgen, '_ask', ask)
+    fixed, failed = bookgen.review(db, ch, out=lambda *a: None)
+    assert fixed == ['Content_en.txt'] and failed == [] and len(rewritten) == 1
+    assert not any('Practice_' in u for u in reviewed) and len(reviewed) == 11      # 10 sections + mind map
+    assert (ch / 'Content_en.txt').read_text().startswith('Corrected chapter text')
+    assert bookcheck.check_chapter(ch) == ([], [])
+
+
+def test_review_answer_parsing():
+    assert bookgen._review_issues('OK') == [] and bookgen._review_issues('OK.\n') == []
+    assert bookgen._review_issues('- wrong date → 1857\n- wrong name → Ashoka') == ['- wrong date → 1857', '- wrong name → Ashoka']
