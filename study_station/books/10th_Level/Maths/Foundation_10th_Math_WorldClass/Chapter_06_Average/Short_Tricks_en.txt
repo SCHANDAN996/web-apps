@@ -1,1 +1,91 @@
-Box 1: SAD Panda (मूल औसत सूत्र)The SAD Panda sits under a bamboo tree, repeating “Sum, Amount, Divide!”Sum = सबको जोड़ोAmount = गिनती करोDivide = भाग दोPanda cries if you forget to Divide at the end. To make him happy, always do the D step last. Reverse magic: Multiply Average × Amount to get Sum — Panda hugs his bamboo.Box 2: Triangle of Power (तीन सुनहरे रूप)Draw a triangle:           S      A    NCover the one you want:• S = A × N (multiply bottom)• A = S / N (top ÷ bottom)• N = S / A (top ÷ other bottom)Think of it as a “SAN” sandwich — S is the king, A and N are the soldiers.Box 3: NINO the Rhino (समावेश / Inclusion)When a new number charges into the group like a rhino, use NINO:New value = ( New Avg × New Count) – ( Old Avg × Old Count)Picture NINO the Rhino stomping: “New total minus old total!” The rhino’s horn points at the new value.Box 4: WALT the Walrus (भारित औसत / Weighted Average)WALT the Walrus balances buckets on his tusks. Buckets are not equal size!Weighted Average = (Weight₁ × Avg₁ + Weight₂ × Avg₂) / (Weight₁ + Weight₂)WALT says, “Weight each group, not just the average!” If you just take (Avg₁+Avg₂)/2, WALT will splash water on you.Box 5: Sew the Sum (त्रुटि सुधार / Error Correction)When a wrong number sneaks in, don’t panic — Sew the Sum first.Correct Sum = Wrong Sum – Wrong Value + Right ValueThen divide. Imagine a tailor stitching the torn total: “Sew first, then divide.” Remember, the wrong thread is pulled out, right thread is sewn in.Box 6: Fist-Last Half (क्रमागत संख्याएँ / Consecutive Numbers)For consecutive numbers, make a fist with one hand (first number) and last finger (last number), then half it.Average = (First + Last) / 2Even count: half the sum of two middles. Odd count: middle number is average. Fist-last is so fast, no addition needed!Box 7: NOVA (एक नई प्रविष्टि का प्रभाव / Effect of One New Entry)New Old Value AdjustmentNew Average = Old Average + (New Value – Old Average) / New Total CountImagine a NOVA star exploding — the new value blasts the old average, and the fragments spread equally among everyone. NOVA = New Old Value Adjustment.Box 8: Not Out? No Divide! (बल्लेबाज़ी औसत / Batting Average)In cricket, if a batsman remains NOT OUT, that innings does NOT count in the denominator.Total runs / Number of times dismissed (NOT OUT innings are NOT counted)Think: “Not Out = No Divide for that innings!” The denominator only includes completed innings.Box 9: The Scale Trick (प्रतिस्थापन / Replacement)When a person is replaced, total change = Number of people × Change in average.Picture a weighing scale: if average rises by 2 kg for 8 people, the new person must bring 16 kg extra.New person weight = Old person weight + (Number of people × change). Scale tip!Box 10: Ally the Gator (मिश्रण / Allegation)Ally the alligator crosses her arms and chomps the differences!Write two averages on ends, overall average in middle.Subtract diagonally to get ratio.    High Avg        \Overall Avg        /    Low AvgRatio = (Overall – Low) : (High – Overall)Ally says, “Cross and chomp, then simplify!”Box 11: Hippo’s Harmonic (दो समान दूरी की औसत चाल / Average Speed)When distance is same, Hippo runs at speed a and speed b.Average Speed = (2 × a × b) / (a + b)This is “Harmonic Hippo” — two speeds, one harmonic mean. If you just average speeds, Hippo will sit on you.Box 12: Copycat Chameleon (स्थिरांक संक्रियाएँ / Constant Operations)A chameleon copies whatever you do to each number!• Multiply each by k → Average multiplies by k• Divide each by k → Average divides by k• Add k to each → Average adds k• Subtract k from each → Average subtracts kRemember: “Whatever you do to each, the average does too. Copycat chameleon never forgets!”
+# Short Tricks & Mnemonics: Average (औसत)
+
+### Box 1: SAD Panda (मूल औसत सूत्र)
+The SAD Panda sits under a bamboo tree, repeating:
+“Sum, Amount, Divide!”
+• **S**um = Add all values together.
+• **A**mount = Count how many items there are.
+• **D**ivide = Divide Sum by Amount.
+Panda cries if you forget to Divide at the end. To make him happy, always do the D step last.
+Reverse magic: Multiply Average × Amount to get Sum — Panda hugs his bamboo.
+
+---
+
+### Box 2: Triangle of Power (तीन सुनहरे रूप)
+Draw a triangle with S on top, A and N below:
+      [ S ]
+    [A] × [N]
+• Cover S: S = A × N
+• Cover A: A = S ÷ N
+• Cover N: N = S ÷ A
+
+---
+
+### Box 3: NINO the Rhino (समावेश / Inclusion)
+When a new number joins the herd:
+$$\text{New Value} = (\text{New Avg} \times \text{New Count}) - (\text{Old Avg} \times \text{Old Count})$$
+Remember: The new rhino pays for the entire herd's deficit!
+
+---
+
+### Box 4: WALT the Walrus (भारित औसत / Weighted Average)
+WALT shouts: “Never average the averages directly unless group sizes are equal!”
+$$A_w = \frac{w_1 x_1 + w_2 x_2 + \dots}{w_1 + w_2 + \dots}$$
+Always weight by group count.
+
+---
+
+### Box 5: Sew the Sum (त्रुटि सुधार / Error Correction)
+When a wrong number was added:
+$$\text{Correct Sum} = \text{Recorded Sum} - \text{Wrong Value} + \text{Correct Value}$$
+Then divide by total count to get the corrected average. Fix the sum first!
+
+---
+
+### Box 6: First-Last Half (क्रमागत संख्याएँ / Consecutive AP)
+For any consecutive numbers or arithmetic sequence:
+$$\text{Average} = \frac{\text{First Term} + \text{Last Term}}{2}$$
+Odd number of terms? The average is the exact middle term!
+
+---
+
+### Box 7: NOVA (एक नई प्रविष्टि का प्रभाव / Effect of One New Entry)
+$$\text{New Average} = \text{Old Average} + \frac{\text{New Entry} - \text{Old Average}}{\text{New Total Count}}$$
+A direct one-line shortcut when adding a single item.
+
+---
+
+### Box 8: Not Out? No Divide! (बल्लेबाज़ी औसत / Cricket Batting Average)
+$$\text{Batting Average} = \frac{\text{Total Runs Scored}}{\text{Total Innings Dismissed (Out)}}$$
+If a batsman is Not Out in an innings, his runs count in the numerator, but the denominator does NOT increase!
+
+---
+
+### Box 9: The Scale Trick (प्रतिस्थापन / Replacement)
+When person A of weight W is replaced by person B and average increases by $\Delta$:
+$$\text{Weight of B} = \text{Weight of A} + (N \times \Delta)$$
+If average decreases, subtract $(N \times \Delta)$.
+
+---
+
+### Box 10: Ally the Gator (मिश्रण / Allegation Method)
+When two groups with averages $A_1$ and $A_2$ combine to form average $A_m$:
+$$\frac{N_1}{N_2} = \frac{A_2 - A_m}{A_m - A_1}$$
+Use the criss-cross cross method to find counts instantly.
+
+---
+
+### Box 11: Hippo’s Harmonic (औसत चाल / Average Speed for Equal Distance)
+When covering equal distances at speeds $x$ and $y$:
+$$\text{Average Speed} = \frac{2xy}{x + y}$$
+Do not take arithmetic mean $(x + y)/2$!
+
+---
+
+### Box 12: Copycat Chameleon (स्थिरांक संक्रियाएँ / Constant Operations)
+If every observation in a dataset is:
+• Increased by $k$ $\implies$ New average = $\text{Old} + k$
+• Decreased by $k$ $\implies$ New average = $\text{Old} - k$
+• Multiplied by $k$ $\implies$ New average = $\text{Old} \times k$
+• Divided by $k$ $\implies$ New average = $\text{Old} \div k$
+The average behaves exactly like a copycat!
