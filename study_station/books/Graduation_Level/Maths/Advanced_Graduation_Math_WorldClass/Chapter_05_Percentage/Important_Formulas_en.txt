@@ -1,0 +1,25 @@
+# Important Formulas: Percentage
+
+1. Multiplier Relations:
+   - Value after r% increase = Initial * (1 + r/100)
+   - Value after r% decrease = Initial * (1 - r/100)
+
+2. Successive Percentage Change:
+   Net % Change = a + b + (ab / 100) %
+
+3. Product-Constancy (AB Invariant):
+   - Price increase +a/b => Consumption decrease -a/(b + a)
+   - Price decrease -a/b => Consumption increase +a/(b - a)
+
+4. Equal Rise and Fall:
+   Rise x% followed by fall x% => Net decrease = (x^2 / 100)%
+
+5. Population Compounding:
+   - Population after n years at r% annual growth = P * (1 + r/100)^n
+   - Population n years ago = P / (1 + r/100)^n
+
+6. Accounting Equation Percentage Differential:
+   % Change in Income * Income = (% Change in Expenditure * Expenditure) + (% Change in Savings * Savings)
+
+7. Election Margin Formula:
+   Margin = (Winner% - Loser%) * Valid Votes = (2 * Winner% - 100)% * Valid Votes

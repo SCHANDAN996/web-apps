@@ -1,0 +1,249 @@
+Q126. (Very Hard) In a college, 20% of the students failed in Mathematics, 15% failed in English, and 10% failed in both. A student is selected at random. If he failed in English, what is the probability that he also failed in Mathematics?
+(A) 2/3  (B) 1/2  (C) 3/4  (D) 1/3
+
+Answer: (A)
+
+Solution:
+Conditional probability P(Math | English) = P(Math and English) / P(English) = 10% / 15% = 10 / 15 = 2/3. Psychological Trap: Students often divide 10% by total students (100%) or fail to recognize this as a conditional percentage problem. Therefore, the correct value is 2/3, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q127. (Very Hard) A company gives 12% commission to its salesman on total sales up to Rs 15,000 and 15% on sales exceeding Rs 15,000. If the salesman deposits Rs 72,350 in the company after deducting his commission, what is the total sales amount?
+(A) Rs 82,500  (B) Rs 85,000  (C) Rs 90,000  (D) Rs 80,000
+
+Answer: (B)
+
+Solution:
+Suppose the salesman got 15% on total sales. He would get (15% - 12%) = 3% more on the first 15,000, which is Rs 450. Then company would receive 72,350 - 450 = Rs 71,900. Company gets (100% - 15%) = 85% of total sales. Total sales = 71,900 / 0.85 = Rs 85,000. Therefore, the correct value is Rs 85,000, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q128. (Very Hard) In an election between two contestants, 10% of voters did not cast their votes and 2,500 votes were declared invalid. The winning candidate secured 55% of the valid votes and won by a margin of 2,000 votes. Find the total number of enrolled voters.
+(A) 22,500  (B) 28,000  (C) 25,000  (D) 30,000
+
+Answer: (C)
+
+Solution:
+Winner's lead in valid votes = 55% - 45% = 10% of valid votes. 10% of valid votes = 2,000 => Valid votes = 20,000. Total votes polled = 20,000 + 2,500 = 22,500. Since 10% didn't vote, polled votes = 90% of enrolled. Total enrolled = 22,500 / 0.90 = 25,000. Therefore, the correct value is 25,000, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q129. (Very Hard) A person invests 25% of his capital at 4%, 40% of his capital at 5%, and the remainder at 10%. What average annual percentage return does he receive on his total capital?
+(A) 6.0%  (B) 7.0%  (C) 5.8%  (D) 6.5%
+
+Answer: (D)
+
+Solution:
+Remainder capital percentage = 100% - (25% + 40%) = 35%. Average return = (0.25 * 4%) + (0.40 * 5%) + (0.35 * 10%) = 1.0% + 2.0% + 3.5% = 6.5%. Therefore, the correct value is 6.5%, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q130. (Very Hard) In an examination paper of 5 subjects, each subject carries a maximum of 100 marks. A student scores in the ratio 5 : 6 : 7 : 8 : 9 across the five subjects. If his overall aggregate score is 70%, in how many subjects did he score more than 75% marks?
+(A) 2  (B) 1  (C) 3  (D) 4
+
+Answer: (A)
+
+Solution:
+Total maximum marks = 5 * 100 = 500. Total marks scored = 70% of 500 = 350. Sum of ratio parts = 5 + 6 + 7 + 8 + 9 = 35 parts. Value of 1 part = 350 / 35 = 10 marks. Marks in subjects are 50, 60, 70, 80, 90. The subjects with more than 75 marks (75%) are those with 80 and 90, which are exactly 2 subjects. Psychological Trap: Candidates often include the subject with 70 marks or miscount boundary thresholds. Therefore, the correct value is 2, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q131. (Very Hard) A manufacturer sells an article to a wholesale dealer at a profit of 10%. The wholesale dealer sells it to a shopkeeper at 20% profit. The shopkeeper sells it to a customer for Rs 56,100 at a loss of 15%. Find the cost of production for the manufacturer.
+(A) Rs 48,000  (B) Rs 50,000  (C) Rs 52,000  (D) Rs 54,000
+
+Answer: (B)
+
+Solution:
+Let production cost be C. C * 1.10 * 1.20 * 0.85 = 56,100 => C * 1.32 * 0.85 = 56,100 => C * 1.122 = 56,100 => C = 56,100 / 1.122 = Rs 50,000. Therefore, the correct value is Rs 50,000, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q132. (Very Hard) In a factory, 60% of the workers are above 30 years old, and of these, 75% are males and the rest are females. If there are 1,350 male workers above 30 years, what is the total number of workers in the factory?
+(A) 2,800  (B) 3,200  (C) 3,000  (D) 2,500
+
+Answer: (C)
+
+Solution:
+Male workers above 30 = Total * 0.60 * 0.75 = Total * 0.45 = 1,350. Total workers = 1,350 / 0.45 = 3,000. Therefore, the correct value is 3,000, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q133. (Very Hard) The price of raw materials has increased by 15%, and labor cost has increased from 25% of the cost of raw materials to 30% of the cost of raw materials. By what percentage should the use of raw material be reduced to keep the total manufacturing cost the same?
+(A) 20.5%  (B) 18.25%  (C) 21.0%  (D) 19.73%
+
+Answer: (D)
+
+Solution:
+Initially, let raw material cost = 100. Labor cost = 25. Total cost = 125. Now raw material price is 115, and labor is 30% of raw material, so total cost per unit of raw material = 115 + 0.30 * 115 = 115 * 1.30 = 149.5. To keep expenditure at 125, consumption factor = 125 / 149.5 = 0.80267. Reduction = (1 - 0.80267) * 100% = 19.73%. Therefore, the correct value is 19.73%, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q134. (Very Hard) A large watermelon weighs 40 kg with 98% water content. After sitting in the sun, water evaporates until the water content is 95%. What is the new weight of the watermelon?
+(A) 16 kg  (B) 20 kg  (C) 24 kg  (D) 18 kg
+
+Answer: (A)
+
+Solution:
+Solid pulp weight = 40 * (1 - 0.98) = 40 * 0.02 = 0.8 kg. In the final state, water is 95%, so pulp is 5%. New total weight = 0.8 / 0.05 = 16 kg. Therefore, the correct value is 16 kg, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q135. (Very Hard) In a village of 6,000 residents, the number of males increases by 8% and the number of females increases by 10% in one year. As a result, the population becomes 6,520. Find the ratio of males to females in the village originally.
+(A) 3 : 2  (B) 2 : 1  (C) 1 : 2  (D) 5 : 4
+
+Answer: (B)
+
+Solution:
+Total increase = 6,520 - 6,000 = 520. If all 6,000 grew by 8%, the increase would be 6,000 * 0.08 = 480. The excess increase of 520 - 480 = 40 is due to the additional 2% on females. Thus, 2% of females = 40 => Females = 40 / 0.02 = 2,000. Males = 6,000 - 2,000 = 4,000. Ratio of males to females = 4,000 : 2,000 = 2 : 1. Therefore, the correct value is 2 : 1, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q136. (Very Hard) A man deposits 10% of his salary in a provident fund, spends 20% of the remainder on house rent, and 30% of the balance on children's education. If he is left with Rs 25,200, find his total salary.
+(A) Rs 45,000  (B) Rs 48,000  (C) Rs 50,000  (D) Rs 52,000
+
+Answer: (C)
+
+Solution:
+Net fraction remaining = (1 - 0.10) * (1 - 0.20) * (1 - 0.30) = 0.90 * 0.80 * 0.70 = 0.504. Total salary = 25,200 / 0.504 = Rs 50,000. Therefore, the correct value is Rs 50,000, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q137. (Very Hard) In a competitive exam of 150 questions, each carrying 1 mark, candidate scores 70% in the first 90 questions. What percentage of the remaining 60 questions must he answer correctly to achieve an overall score of 60%?
+(A) 40%  (B) 50%  (C) 55%  (D) 45%
+
+Answer: (D)
+
+Solution:
+Total marks required = 60% of 150 = 90 marks. Marks obtained in first 90 questions = 70% of 90 = 63 marks. Marks needed from remaining 60 questions = 90 - 63 = 27 marks. Required percentage = (27 / 60) * 100% = 45%. Therefore, the correct value is 45%, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q138. (Very Hard) The price of sugar having risen by 20%, a family was able to purchase 4 kg less sugar for Rs 480. What was the original price per kg?
+(A) Rs 20  (B) Rs 24  (C) Rs 18  (D) Rs 22
+
+Answer: (A)
+
+Solution:
+Extra cost = 20% of 480 = Rs 96. This corresponds to 4 kg. Increased price = 96 / 4 = Rs 24 per kg. Original price = 24 / 1.20 = Rs 20 per kg. Therefore, the correct value is Rs 20, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q139. (Very Hard) In an election between two candidates, 68 votes were declared invalid. The winning candidate secured 52% of the valid votes and won by 98 votes. Find the total number of votes cast.
+(A) 2,450  (B) 2,518  (C) 2,500  (D) 2,550
+
+Answer: (B)
+
+Solution:
+Winning margin = 52% - 48% = 4% of valid votes. Since 4% of valid votes = 98, valid votes = 98 / 0.04 = 2,450. Total votes cast = 2,450 + 68 = 2,518. Psychological Trap: Candidates often stop after calculating the valid votes (2,450) and forget to add the 68 invalid votes to find the total votes cast. Therefore, the correct value is 2,518, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q140. (Very Hard) A person gives 20% of his income to elder son, 30% of the remaining to younger son, and 10% of the balance to a charity. He is left with Rs 10,080. What was his total income?
+(A) Rs 22,000  (B) Rs 24,000  (C) Rs 20,000  (D) Rs 18,000
+
+Answer: (C)
+
+Solution:
+Fraction remaining = 0.80 * 0.70 * 0.90 = 0.504. Total income = 10,080 / 0.504 = Rs 20,000. Therefore, the correct value is Rs 20,000, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q141. (Very Hard) A sample of 40 liters of milk solution contains 10% water. How many liters of pure milk should be added to reduce the water concentration to 8%?
+(A) 8 liters  (B) 12 liters  (C) 15 liters  (D) 10 liters
+
+Answer: (D)
+
+Solution:
+Water quantity is constant: 40 * 0.10 = 4 liters. In the new solution, 4 liters represents 8% of total volume V. V = 4 / 0.08 = 50 liters. Pure milk to add = 50 - 40 = 10 liters. Therefore, the correct value is 10 liters, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q142. (Very Hard) In an examination of three papers, each with maximum 100 marks, a student obtained 60% in the first paper and 70% in the second paper. If his aggregate percentage over all three papers was 75%, what was his percentage in the third paper?
+(A) 95%  (B) 90%  (C) 85%  (D) 100%
+
+Answer: (A)
+
+Solution:
+Total marks in 3 papers = 3 * 100 = 300. Aggregate marks scored = 75% of 300 = 225. Marks in first two papers = 60 + 70 = 130. Marks needed in third paper = 225 - 130 = 95. Thus, 95%. Therefore, the correct value is 95%, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q143. (Very Hard) The length, breadth, and height of a cuboid are increased by 10%, 20%, and 30% respectively. By what percentage does the volume of the cuboid increase?
+(A) 60%  (B) 71.6%  (C) 72.8%  (D) 68%
+
+Answer: (B)
+
+Solution:
+Volume multiplier = 1.10 * 1.20 * 1.30 = 1.32 * 1.30 = 1.716. Percentage increase = (1.716 - 1) * 100% = 71.6%. Therefore, the correct value is 71.6%, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q144. (Very Hard) The price of an article was increased by p%. Later, the new price was decreased by p%. If the latest price was Rs 1, then the original price was:
+(A) 1 / (1 - p^2)  (B) (100 - p^2) / 100  (C) 10,000 / (10,000 - p^2)  (D) (10,000 + p^2) / 10,000
+
+Answer: (C)
+
+Solution:
+Let original price be P0. P0 * (1 + p/100) * (1 - p/100) = 1 => P0 * [1 - p^2 / 10,000] = 1 => P0 * [(10,000 - p^2) / 10,000] = 1 => P0 = 10,000 / (10,000 - p^2). Therefore, the correct value is 10,000 / (10,000 - p^2), corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q145. (Very Hard) In a town, 80% of the population are adults, of which 85% are literate. Among the children, 70% are literate. What percentage of the total population is literate?
+(A) 80%  (B) 84%  (C) 78%  (D) 82%
+
+Answer: (D)
+
+Solution:
+Let total population be 100. Adults = 80, Children = 20. Literate adults = 80 * 0.85 = 68. Literate children = 20 * 0.70 = 14. Total literate population = 68 + 14 = 82, which is 82%. Therefore, the correct value is 82%, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q146. (Very Hard) A person gave 40% of his money to his wife, 20% of the remainder to each of his three sons, and half of the rest was spent on other items. If he is left with Rs 12,000, find the amount of money he originally had.
+(A) Rs 100,000  (B) Rs 80,000  (C) Rs 120,000  (D) Rs 90,000
+
+Answer: (A)
+
+Solution:
+After giving wife 40%, remaining is 60%. Three sons receive 20% each of this remainder, totaling 60% of remainder. So sons take 0.60 * 60% = 36% of total. Balance after sons = 60% - 36% = 24%. Half of this balance is spent, leaving half: 0.50 * 24% = 12% of total. 12% = 12,000 => Total = Rs 100,000. Therefore, the correct value is Rs 100,000, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q147. (Very Hard) In an election between two candidates, candidate A got 55% of the total valid votes. 15% of the votes were declared invalid. If the total number of votes was 15,200, what was the number of valid votes polled in favor of candidate B?
+(A) 5,600  (B) 5,814  (C) 6,000  (D) 5,950
+
+Answer: (B)
+
+Solution:
+Total valid votes = 15,200 * 0.85 = 12,920. Candidate B got 45% of valid votes: 12,920 * 0.45 = 5,814. Therefore, the correct value is 5,814, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q148. (Very Hard) In a survey of 200 people, 120 like tea, 100 like coffee, and 40 like both. How many people like neither tea nor coffee?
+(A) 15  (B) 25  (C) 20  (D) 30
+
+Answer: (C)
+
+Solution:
+People liking at least one drink = n(T) + n(C) - n(T and C) = 120 + 100 - 40 = 180. People liking neither = 200 - 180 = 20. Therefore, the correct value is 20, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q149. (Very Hard) The population of a city was 100,000 three years ago. It increased by 10% in the first year, decreased by 10% in the second year, and increased by 10% in the third year. What is the current population of the city?
+(A) 110,000  (B) 109,000  (C) 107,800  (D) 108,900
+
+Answer: (D)
+
+Solution:
+Current population = 100,000 * 1.10 * 0.90 * 1.10 = 100,000 * 0.99 * 1.10 = 100,000 * 1.089 = 108,900. Therefore, the correct value is 108,900, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q150. (Very Hard) A man spends 75% of his income. His income increases by 20% and his expenditure increases by 15%. Find the percentage increase in his savings.
+(A) 30%  (B) 35%  (C) 25%  (D) 40%
+
+Answer: (B)
+
+Solution:
+Let income = 100, expenditure = 75, savings = 25. New income = 120. New expenditure = 75 * 1.15 = 86.25. New savings = 120 - 86.25 = 33.75. Increase in savings = 33.75 - 25 = 8.75. Percentage increase in savings = (8.75 / 25) * 100% = 35%. Therefore, the correct value is 35%, corresponding to option (B).
+
+Source: SSC CGL Pattern

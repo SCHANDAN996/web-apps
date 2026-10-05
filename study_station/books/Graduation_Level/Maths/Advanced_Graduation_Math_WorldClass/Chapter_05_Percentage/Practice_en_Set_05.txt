@@ -1,0 +1,249 @@
+Q101. (Hard) In an examination, 65% of the candidates passed in Mathematics, 48% passed in Physics, and 30% passed in both. What percentage of candidates failed in both subjects?
+(A) 17%  (B) 15%  (C) 18%  (D) 20%
+
+Answer: (A)
+
+Solution:
+Percentage passing in at least one subject = n(M) + n(P) - n(M and P) = 65% + 48% - 30% = 83%. Percentage failing in both = 100% - 83% = 17%. Psychological Trap: Candidates often add 65% + 48% = 113% and then subtract 100% or misapply Venn union formula. Therefore, the correct value is 17%, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q102. (Hard) In an examination, 35% of the students failed in English, 25% failed in Mathematics, and 15% failed in both. If 440 students passed in both subjects, find the total number of students who appeared in the examination.
+(A) 750  (B) 800  (C) 900  (D) 850
+
+Answer: (B)
+
+Solution:
+Percentage failed in at least one subject = 35% + 25% - 15% = 45%. Percentage passed in both subjects = 100% - 45% = 55%. Given 55% = 440 => Total students = 440 / 0.55 = 800. Therefore, the correct value is 800, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q103. (Hard) A candidate who gets 20% marks in an examination fails by 30 marks, but another candidate who gets 32% gets 42 marks more than the passing marks. Find the percentage of marks required to pass.
+(A) 28%  (B) 24%  (C) 25%  (D) 30%
+
+Answer: (C)
+
+Solution:
+Difference in percentage = 32% - 20% = 12%. Difference in marks = 42 - (-30) = 72 marks. Maximum marks = 72 / 0.12 = 600 marks. Passing marks = 20% of 600 + 30 = 120 + 30 = 150 marks. Passing percentage = (150 / 600) * 100% = 25%. Psychological Trap: A common error is taking the marks difference as 42 - 30 = 12 instead of adding them (42 + 30 = 72) since one is below and one is above passing. Therefore, the correct value is 25%, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q104. (Hard) A candidate secures 30% marks in an exam and fails by 15 marks, while another candidate scores 40% marks and secures 35 marks more than the minimum pass mark. Find the maximum marks of the examination.
+(A) 450  (B) 550  (C) 600  (D) 500
+
+Answer: (D)
+
+Solution:
+Percentage difference = 40% - 30% = 10%. Marks difference = 35 + 15 = 50 marks. Maximum marks = 50 / 0.10 = 500. Therefore, the correct value is 500, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q105. (Hard) Fresh fruit contains 68% water and dry fruit contains 20% water. How many kilograms of dry fruit can be obtained from 100 kg of fresh fruit?
+(A) 40 kg  (B) 32 kg  (C) 48 kg  (D) 50 kg
+
+Answer: (A)
+
+Solution:
+Pulp content remains constant. In 100 kg fresh fruit, pulp = (100 - 68)% = 32% of 100 kg = 32 kg. In dry fruit, pulp is (100 - 20)% = 80%. Let dry fruit weight be W. 80% of W = 32 kg => W = 32 / 0.80 = 40 kg. Psychological Trap: Many students assume water loss is 68% - 20% = 48%, giving an incorrect answer of 52 kg. Therefore, the correct value is 40 kg, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q106. (Hard) Fresh grapes contain 80% water by weight, while raisins contain 10% water by weight. What weight of fresh grapes is needed to get 50 kg of raisins?
+(A) 200 kg  (B) 225 kg  (C) 250 kg  (D) 210 kg
+
+Answer: (B)
+
+Solution:
+Pulp in 50 kg raisins = 50 * (1 - 0.10) = 45 kg. In fresh grapes, pulp is 20%. Let weight of grapes be G. 20% of G = 45 kg => G = 45 / 0.20 = 225 kg. Therefore, the correct value is 225 kg, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q107. (Hard) In an alloy of 60 kg, there is 75% copper and the rest is zinc. How much zinc must be added to this alloy to make the percentage of copper 60%?
+(A) 12 kg  (B) 18 kg  (C) 15 kg  (D) 20 kg
+
+Answer: (C)
+
+Solution:
+Copper is constant. Initial copper = 60 * 0.75 = 45 kg. In the new mixture, 45 kg represents 60% of total weight W. W = 45 / 0.60 = 75 kg. Zinc to be added = 75 - 60 = 15 kg. Therefore, the correct value is 15 kg, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q108. (Hard) How many liters of water must be added to 40 liters of a 20% acid solution to decrease the concentration of acid to 16%?
+(A) 8 liters  (B) 12 liters  (C) 15 liters  (D) 10 liters
+
+Answer: (D)
+
+Solution:
+Pure acid = 40 * 0.20 = 8 liters. In the new solution, 8 liters of acid must constitute 16% of total volume V. V = 8 / 0.16 = 50 liters. Water added = 50 - 40 = 10 liters. Therefore, the correct value is 10 liters, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q109. (Hard) In a survey of 1,000 consumers, it was found that 720 like product Alpha and 450 like product Beta. What is the least number of consumers that must like both products?
+(A) 170  (B) 150  (C) 180  (D) 200
+
+Answer: (A)
+
+Solution:
+Using Venn formula: n(A U B) = n(A) + n(B) - n(A and B). Since total consumers is at most 1,000: 720 + 450 - n(A and B) <= 1,000 => 1,170 - n(A and B) <= 1,000 => n(A and B) >= 170. Therefore, the correct value is 170, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q110. (Hard) In an examination, 70% of candidates passed in English and 80% passed in Mathematics. If 10% failed in both subjects and 144 candidates passed in both, find the total number of candidates.
+(A) 200  (B) 240  (C) 250  (D) 300
+
+Answer: (B)
+
+Solution:
+Candidates passing in at least one subject = 100% - 10% = 90%. Using Venn: n(E U M) = n(E) + n(M) - n(E and M) => 90% = 70% + 80% - n(E and M) => n(E and M) = 150% - 90% = 60%. Given 60% = 144 => Total candidates = 144 / 0.60 = 240. Therefore, the correct value is 240, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q111. (Hard) A vessel contains 80 liters of a solution containing 15% alcohol. How many liters of pure alcohol must be added to make it a 32% alcohol solution?
+(A) 18 liters  (B) 24 liters  (C) 20 liters  (D) 16 liters
+
+Answer: (C)
+
+Solution:
+Non-alcohol component (water) is constant: 80 * (1 - 0.15) = 80 * 0.85 = 68 liters. In new solution, water constitutes 100% - 32% = 68%. Total new volume = 68 / 0.68 = 100 liters. Alcohol added = 100 - 80 = 20 liters. Therefore, the correct value is 20 liters, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q112. (Hard) One liter of water is evaporated from 6 liters of a sugar solution containing 4% sugar. What is the percentage of sugar in the remaining solution?
+(A) 5%  (B) 4.5%  (C) 5.2%  (D) 4.8%
+
+Answer: (D)
+
+Solution:
+Amount of sugar = 6 * 0.04 = 0.24 liters. Remaining volume = 6 - 1 = 5 liters. Percentage of sugar = (0.24 / 5) * 100% = 4.8%. Therefore, the correct value is 4.8%, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q113. (Hard) In an examination, student X scored 36% marks and failed by 24 marks, while student Y scored 48% marks and got 36 marks more than the pass mark. What is the passing percentage for this examination?
+(A) 40.8%  (B) 41.5%  (C) 42%  (D) 39.5%
+
+Answer: (A)
+
+Solution:
+Difference in percentage = 48% - 36% = 12%. Difference in marks = 36 - (-24) = 60 marks. Maximum marks = 60 / 0.12 = 500. Pass marks = 36% of 500 + 24 = 180 + 24 = 204. Passing percentage = (204 / 500) * 100% = 40.8%. Therefore, the correct value is 40.8%, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q114. (Hard) In a class, 60% of students play Cricket, 50% play Football, and 20% play neither. What percentage of students play both games?
+(A) 25%  (B) 30%  (C) 35%  (D) 20%
+
+Answer: (B)
+
+Solution:
+Students who play at least one game = 100% - 20% = 80%. Using Venn: n(C U F) = n(C) + n(F) - n(C and F) => 80% = 60% + 50% - n(C and F) => n(C and F) = 110% - 80% = 30%. Therefore, the correct value is 30%, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q115. (Hard) A watermelon weighing 20 kg contains 96% water by weight. After being kept in the sun for some days, some water evaporates so that it contains 95% water. What is its present weight?
+(A) 15 kg  (B) 18 kg  (C) 16 kg  (D) 17.5 kg
+
+Answer: (C)
+
+Solution:
+Pulp content is constant: 20 * (1 - 0.96) = 20 * 0.04 = 0.8 kg. In present state, water is 95%, so pulp is 5%. Let new weight be W. 5% of W = 0.8 kg => W = 0.8 / 0.05 = 16 kg. Psychological Trap: A deceptive trap is to think that a 1% drop in water (96% to 95%) causes only a 1% drop in watermelon weight (to 19.8 kg). In reality, the weight drops to 16 kg because pulp percentage doubles from 4% to 5%. Therefore, the correct value is 16 kg, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q116. (Hard) In an examination, 42% students failed in Hindi and 52% failed in English. If 17% failed in both subjects, the percentage of those who passed in both subjects is:
+(A) 25%  (B) 21%  (C) 27%  (D) 23%
+
+Answer: (D)
+
+Solution:
+Students failing in at least one subject = 42% + 52% - 17% = 77%. Percentage passing in both subjects = 100% - 77% = 23%. Therefore, the correct value is 23%, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q117. (Hard) A student has to obtain 33% of total marks to pass. He got 25% of total marks and failed by 40 marks. Find the maximum marks.
+(A) 500  (B) 480  (C) 450  (D) 600
+
+Answer: (A)
+
+Solution:
+Difference between pass percentage and scored percentage = 33% - 25% = 8%. Since 8% = 40 marks, Maximum marks = 40 / 0.08 = 500. Therefore, the correct value is 500, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q118. (Hard) An alloy of copper and nickel contains 65% copper. How much nickel must be added to 80 kg of this alloy so that the resulting alloy contains 52% copper?
+(A) 25 kg  (B) 20 kg  (C) 18 kg  (D) 22 kg
+
+Answer: (B)
+
+Solution:
+Copper is constant: 80 * 0.65 = 52 kg. In the new alloy, copper is 52% of total weight W. 0.52 * W = 52 kg => W = 100 kg. Nickel to add = 100 - 80 = 20 kg. Therefore, the correct value is 20 kg, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q119. (Hard) In a town, 60% families own a car, 30% families own a motorcycle, and 15% families own both. If there are 9,600 families in total, how many families own neither a car nor a motorcycle?
+(A) 2,100  (B) 2,800  (C) 2,400  (D) 1,920
+
+Answer: (C)
+
+Solution:
+Families owning at least one vehicle = 60% + 30% - 15% = 75%. Families owning neither = 100% - 75% = 25%. Number of families = 9,600 * 0.25 = 2,400. Therefore, the correct value is 2,400, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q120. (Hard) A sample of 50 liters of glycerine is found to be adulterated to the extent of 20%. How much pure glycerine should be added to it so as to bring down the percentage of impurity to 5%?
+(A) 140 liters  (B) 160 liters  (C) 120 liters  (D) 150 liters
+
+Answer: (D)
+
+Solution:
+Amount of impurity is constant: 50 * 0.20 = 10 liters. In the final mixture, this 10 liters must represent 5% of total volume V. V = 10 / 0.05 = 200 liters. Pure glycerine to add = 200 - 50 = 150 liters. Therefore, the correct value is 150 liters, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q121. (Hard) In an examination, 80% candidates passed in English and 85% passed in Mathematics, while 73% candidates passed in both these subjects. If 40 candidates failed in both subjects, find the total number of candidates.
+(A) 500  (B) 450  (C) 400  (D) 550
+
+Answer: (A)
+
+Solution:
+Passed in at least one subject = 80% + 85% - 73% = 92%. Failed in both = 100% - 92% = 8%. Given 8% = 40 => Total candidates = 40 / 0.08 = 500. Therefore, the correct value is 500, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q122. (Hard) A scored 30% marks and failed by 50 marks. B scored 45% marks and obtained 25 marks more than the minimum passing marks. Find the minimum passing marks.
+(A) 180  (B) 200  (C) 225  (D) 210
+
+Answer: (B)
+
+Solution:
+Difference in percentage = 45% - 30% = 15%. Difference in marks = 25 - (-50) = 75. Maximum marks = 75 / 0.15 = 500. Passing marks = 30% of 500 + 50 = 150 + 50 = 200. Therefore, the correct value is 200, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q123. (Hard) 300 grams of sugar solution has 40% sugar in it. How much sugar should be added to make it 50% in the solution?
+(A) 50 grams  (B) 45 grams  (C) 60 grams  (D) 70 grams
+
+Answer: (C)
+
+Solution:
+Water content is constant: 300 * (1 - 0.40) = 300 * 0.60 = 180 grams. In the new solution, water is 50%. Total weight = 180 / 0.50 = 360 grams. Sugar to add = 360 - 300 = 60 grams. Therefore, the correct value is 60 grams, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q124. (Hard) In an examination, 53% of students failed in Science and 48% failed in Mathematics. If 40% failed in both subjects, what percentage passed in both subjects?
+(A) 35%  (B) 41%  (C) 37%  (D) 39%
+
+Answer: (D)
+
+Solution:
+Failed in at least one subject = 53% + 48% - 40% = 61%. Passed in both subjects = 100% - 61% = 39%. Therefore, the correct value is 39%, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q125. (Hard) A vessel has 60 liters of solution of milk and water containing 80% milk. How much water should be added so that the resulting mixture contains 60% milk?
+(A) 15 liters  (B) 20 liters  (C) 18 liters  (D) 24 liters
+
+Answer: (B)
+
+Solution:
+Milk content is constant: 60 * 0.80 = 48 liters. In the new mixture, 48 liters represents 60% of total volume V. V = 48 / 0.60 = 80 liters. Water to add = 80 - 60 = 20 liters. Therefore, the correct value is 20 liters, corresponding to option (B).
+
+Source: SSC CGL Pattern

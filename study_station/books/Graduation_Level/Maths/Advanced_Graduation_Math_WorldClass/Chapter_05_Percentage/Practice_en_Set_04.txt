@@ -1,0 +1,249 @@
+Q76. (Hard) The population of a town increases by 5% annually. If its present population is 80,000, what will be its population after 2 years?
+(A) 88,200  (B) 88,000  (C) 86,400  (D) 89,100
+
+Answer: (A)
+
+Solution:
+Population after 2 years = 80,000 * (1 + 5/100)^2 = 80,000 * (21/20)^2 = 80,000 * (441 / 400) = 200 * 441 = 88,200. Therefore, the correct value is 88,200, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q77. (Hard) The population of a city was 160,000 two years ago. If it increased by 10% in the first year and decreased by 10% in the second year, what is its present population?
+(A) 160,000  (B) 158,400  (C) 156,800  (D) 162,000
+
+Answer: (B)
+
+Solution:
+Net multiplier = (1 + 0.10) * (1 - 0.10) = 1.10 * 0.90 = 0.99. Present population = 160,000 * 0.99 = 158,400. Psychological Trap: Students often assume equal percentage increase and decrease cancel each other out to leave the population unchanged at 160,000. Therefore, the correct value is 158,400, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q78. (Hard) The value of a machine depreciates at the rate of 10% per annum. If its present value is Rs 72,900, what was its value 3 years ago?
+(A) Rs 90,000  (B) Rs 95,000  (C) Rs 100,000  (D) Rs 110,000
+
+Answer: (C)
+
+Solution:
+Let value 3 years ago be V. Present value = V * (1 - 10/100)^3 = V * (9/10)^3 = V * (729 / 1000). Since V * 729 / 1000 = 72,900, V = Rs 100,000. Therefore, the correct value is Rs 100,000, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q79. (Hard) In an election between two candidates, one got 55% of the total valid votes, and 20% of the votes were declared invalid. If the total number of votes polled was 7,500, find the number of valid votes that the other candidate got.
+(A) 3,300  (B) 3,000  (C) 2,850  (D) 2,700
+
+Answer: (D)
+
+Solution:
+Total valid votes = 7,500 * (1 - 0.20) = 6,000. The winning candidate got 55%, so the losing candidate got 45% of valid votes. Votes for losing candidate = 6,000 * 0.45 = 2,700. Therefore, the correct value is 2,700, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q80. (Hard) In an election between two candidates, 10% of voters did not cast their votes and 10% of the votes cast were declared invalid. A candidate got 54% of the valid votes and won by a majority of 1,620 votes. Find the total number of voters on the electoral roll.
+(A) 25,000  (B) 20,000  (C) 30,000  (D) 22,500
+
+Answer: (A)
+
+Solution:
+Let total enrolled voters be x. Votes cast = 0.90x. Valid votes = 0.90x * 0.90 = 0.81x. Winner got 54% and loser got 46% of valid votes. Winning margin = 54% - 46% = 8% of valid votes. Thus, 0.08 * 0.81x = 1,620 => 0.0648x = 1,620 => x = 1,620 / 0.0648 = 25,000. Psychological Trap: A critical trap is applying the 8% margin directly to the total enrolled votes or subtracting 10% + 10% = 20% additively instead of successively. Therefore, the correct value is 25,000, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q81. (Hard) In an election, 8% of the voters did not cast their votes. There were only two candidates. The winner obtained 48% of the total enrolled votes and defeated his contestant by 1,100 votes. Find the total number of voters in the election.
+(A) 25,000  (B) 27,500  (C) 30,000  (D) 28,000
+
+Answer: (B)
+
+Solution:
+Let total enrolled voters be 100%. Votes polled = 100% - 8% = 92%. Winner got 48% of total enrolled votes. Loser got 92% - 48% = 44% of total enrolled votes. Difference between winner and loser = 48% - 44% = 4% of total enrolled votes. Given 4% = 1,100 => Total voters = 1,100 / 0.04 = 27,500. Psychological Trap: Candidates often calculate loser's share as (92% - 48% of 92%), failing to notice that the winner received 48% of total enrolled votes. Therefore, the correct value is 27,500, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q82. (Hard) The population of a city increases at the rate of 4% per annum. There is an additional annual increase of 1% due to immigration. What is the net percentage increase in population after 2 years?
+(A) 10%  (B) 10.50%  (C) 10.25%  (D) 11.25%
+
+Answer: (C)
+
+Solution:
+Net annual rate of increase = 4% + 1% = 5%. Over 2 years, net percentage increase = 5 + 5 + (5 * 5 / 100) = 10.25%. Therefore, the correct value is 10.25%, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q83. (Hard) The population of a village was 9,600. In a year, with an increase in male population by 8% and female population by 5%, the population became 10,272. What was the number of males in the village before the increase?
+(A) 3,200  (B) 5,800  (C) 6,000  (D) 6,400
+
+Answer: (D)
+
+Solution:
+Total increase = 10,272 - 9,600 = 672. If all 9,600 increased by 5%, increase would be 9,600 * 0.05 = 480. Excess increase = 672 - 480 = 192. This excess is due to the additional 3% (8% - 5%) increase in males. Thus, 3% of Males = 192 => Males = 192 / 0.03 = 6,400. Therefore, the correct value is 6,400, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q84. (Hard) In an election between two contestants, 20% of the voters did not cast their votes and 120 votes were declared invalid. The winner secured 41% of the total voters on the list and defeated his rival by 200 votes. Find the total number of voters on the list.
+(A) 4,000  (B) 3,600  (C) 4,500  (D) 5,000
+
+Answer: (A)
+
+Solution:
+Let total voters be 100x. Votes polled = 80x. Valid votes = 80x - 120. Winner got 41x. Loser got (80x - 120) - 41x = 39x - 120. Margin: 41x - (39x - 120) = 200 => 2x + 120 = 200 => 2x = 80 => x = 40. Total voters = 100x = 4,000. Therefore, the correct value is 4,000, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q85. (Hard) The value of a property depreciates every year by 10% of its value at the beginning of that year. If the value of the property at the end of 3 years is Rs 218,700, find its original price.
+(A) Rs 270,000  (B) Rs 300,000  (C) Rs 280,000  (D) Rs 320,000
+
+Answer: (B)
+
+Solution:
+Value after 3 years = Original * (0.90)^3 = Original * 0.729. Original value = 218,700 / 0.729 = Rs 300,000. Therefore, the correct value is Rs 300,000, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q86. (Hard) In an election between two candidates, 75% of the voters cast their votes, out of which 2% of the votes were declared invalid. A candidate got 9,261 votes which was 75% of the total valid votes. Find the total number of voters enrolled in that election.
+(A) 16,400  (B) 17,200  (C) 16,800  (D) 15,600
+
+Answer: (C)
+
+Solution:
+Let total enrolled voters be x. Valid votes = x * 0.75 * 0.98. Winner got 75% of valid votes: x * 0.75 * 0.98 * 0.75 = 9,261 => x * (3/4) * (49/50) * (3/4) = 9,261 => x * (441 / 800) = 9,261 => x = (9,261 * 800) / 441 = 21 * 800 = 16,800. Therefore, the correct value is 16,800, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q87. (Hard) The population of a town was 50,000. In the first year, it increased by 10%, in the second year it decreased by 20%, and in the third year it increased by 30%. What is the population of the town at the end of 3 years?
+(A) 56,000  (B) 58,400  (C) 55,000  (D) 57,200
+
+Answer: (D)
+
+Solution:
+Population = 50,000 * 1.10 * 0.80 * 1.30 = 50,000 * 1.144 = 57,200. Therefore, the correct value is 57,200, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q88. (Hard) In an election, candidate P received 65% of the total valid votes. If the total votes polled were 6,000 and 25% of the votes polled were invalid, what was the number of valid votes polled in favor of candidate Q?
+(A) 1,575  (B) 1,650  (C) 1,500  (D) 1,725
+
+Answer: (A)
+
+Solution:
+Total valid votes = 6,000 * 0.75 = 4,500. Candidate Q got 100% - 65% = 35% of valid votes. Votes for candidate Q = 4,500 * 0.35 = 1,575. Therefore, the correct value is 1,575, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q89. (Hard) The present population of a village is 5,500. If the number of males increases by 11% and the number of females increases by 20%, the population becomes 6,330. Find the initial population of females in the village.
+(A) 3,000  (B) 2,500  (C) 2,800  (D) 2,200
+
+Answer: (B)
+
+Solution:
+Total increase = 6,330 - 5,500 = 830. If all 5,500 increased by 11%, the increase would be 5,500 * 0.11 = 605. Excess increase = 830 - 605 = 225. This excess represents (20% - 11%) = 9% of initial females. Initial females = 225 / 0.09 = 2,500. Therefore, the correct value is 2,500, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q90. (Hard) A company purchased a motor car for Rs 500,000. Its value depreciates at 20% for the first year, 15% for the second year, and 10% for the third year. What is its value at the end of 3 years?
+(A) Rs 310,000  (B) Rs 300,000  (C) Rs 306,000  (D) Rs 315,000
+
+Answer: (C)
+
+Solution:
+Final value = 500,000 * (1 - 0.20) * (1 - 0.15) * (1 - 0.10) = 500,000 * 0.80 * 0.85 * 0.90 = 400,000 * 0.765 = Rs 306,000. Therefore, the correct value is Rs 306,000, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q91. (Hard) In a three-candidate election, the winning candidate received 45% of the total votes, the runner-up got 35%, and the third candidate received 9,600 votes (which was all the remaining votes). Find the winning margin of the winner over the runner-up.
+(A) 5,200  (B) 4,500  (C) 6,000  (D) 4,800
+
+Answer: (D)
+
+Solution:
+Percentage for third candidate = 100% - (45% + 35%) = 20%. Given 20% = 9,600 votes. Winning margin over runner-up = 45% - 35% = 10%. Since 20% = 9,600, 10% = 9,600 / 2 = 4,800 votes. Therefore, the correct value is 4,800, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q92. (Hard) Two candidates contested an election. The winning candidate secured 58% of the valid votes and won by 4,320 votes. If 10% of the total votes were invalid, find the total number of votes polled.
+(A) 30,000  (B) 28,000  (C) 32,000  (D) 27,000
+
+Answer: (A)
+
+Solution:
+Margin in terms of valid votes = 58% - 42% = 16% of valid votes. 16% of valid votes = 4,320 => Valid votes = 4,320 / 0.16 = 27,000. Since 10% votes were invalid, valid votes = 90% of total polled votes. Total polled votes = 27,000 / 0.90 = 30,000. Therefore, the correct value is 30,000, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q93. (Hard) The population of a town is currently 125,000. It increases by 2% in the first year, by 4% in the second year, and by 5% in the third year. What will the population be after 3 years?
+(A) 138,500  (B) 139,230  (C) 140,100  (D) 139,000
+
+Answer: (B)
+
+Solution:
+Population = 125,000 * (51/50) * (26/25) * (21/20) = 125,000 * (27,846 / 25,000) = 5 * 27,846 = 139,230. Therefore, the correct value is 139,230, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q94. (Hard) Due to an epidemic, the population of a city decreased by 5% in 2021, increased by 8% in 2022, and again decreased by 10% in 2023. If the population at the end of 2023 was 92,340, what was the population at the beginning of 2021?
+(A) 105,000  (B) 98,000  (C) 100,000  (D) 110,000
+
+Answer: (C)
+
+Solution:
+Multiplier = 0.95 * 1.08 * 0.90 = 1.026 * 0.90 = 0.9234. Initial population = 92,340 / 0.9234 = 100,000. Therefore, the correct value is 100,000, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q95. (Hard) In an election between two candidates, 15% of voters did not cast their vote. Of the votes cast, 10% were found invalid. The successful candidate got 55% of the valid votes and won by a margin of 6,120 votes. Find the total number of voters enrolled.
+(A) 75,000  (B) 85,000  (C) 90,000  (D) 80,000
+
+Answer: (D)
+
+Solution:
+Let enrolled voters be N. Polled votes = 0.85N. Valid votes = 0.85N * 0.90 = 0.765N. Winner's margin = 55% - 45% = 10% of valid votes. Margin = 0.10 * 0.765N = 0.0765N = 6,120. N = 6,120 / 0.0765 = 80,000. Therefore, the correct value is 80,000, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q96. (Hard) The value of an industrial plant depreciates at 15% every year. If it was purchased 2 years ago and its present value is Rs 433,500, what was its original purchase price?
+(A) Rs 600,000  (B) Rs 580,000  (C) Rs 620,000  (D) Rs 550,000
+
+Answer: (A)
+
+Solution:
+Multiplier over 2 years = (1 - 0.15)^2 = (0.85)^2 = 0.7225. Original price = 433,500 / 0.7225 = Rs 600,000. Therefore, the correct value is Rs 600,000, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q97. (Hard) In an election, 10% of people on the voter list did not vote and 60 voters cast their ballot papers blank. There were only two candidates. The winner was supported by 47% of all voters in the list and he got 308 votes more than his rival. Find the number of voters on the list.
+(A) 6,000  (B) 6,200  (C) 6,400  (D) 5,800
+
+Answer: (B)
+
+Solution:
+Let total voters be 100x. Total valid votes cast = 90x - 60. Winner got 47x. Loser got (90x - 60) - 47x = 43x - 60. Margin: 47x - (43x - 60) = 4x + 60 = 308 => 4x = 248 => x = 62. Total voters = 100x = 6,200. Therefore, the correct value is 6,200, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q98. (Hard) The population of a town increases by 10% in the first year and by 20% in the second year. Due to a disease, it decreases by 10% in the third year. What is the overall percentage increase in the population over the three years?
+(A) 20%  (B) 19.2%  (C) 18.8%  (D) 17.6%
+
+Answer: (C)
+
+Solution:
+Net multiplier = 1.10 * 1.20 * 0.90 = 1.32 * 0.90 = 1.188. Overall percentage increase = (1.188 - 1) * 100% = 18.8%. Therefore, the correct value is 18.8%, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q99. (Hard) In an election, candidate A got 70% of the overall valid votes polled. If 15% of the total 8,000 votes polled were declared invalid, how many valid votes were polled in favor of the rival candidate B?
+(A) 2,100  (B) 1,980  (C) 2,200  (D) 2,040
+
+Answer: (D)
+
+Solution:
+Total valid votes = 8,000 * 0.85 = 6,800. Rival candidate got 30% of valid votes: 6,800 * 0.30 = 2,040. Therefore, the correct value is 2,040, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q100. (Hard) The value of a machine depreciated by 10% each year for 2 years, and in the third year it depreciated by 20%. If the machine was purchased for Rs 250,000, what is its book value at the end of the third year?
+(A) Rs 160,000  (B) Rs 162,000  (C) Rs 165,000  (D) Rs 158,000
+
+Answer: (B)
+
+Solution:
+Book value = 250,000 * (0.90)^2 * 0.80 = 250,000 * 0.81 * 0.80 = 250,000 * 0.648 = Rs 162,000. Therefore, the correct value is Rs 162,000, corresponding to option (B).
+
+Source: SSC CGL Pattern

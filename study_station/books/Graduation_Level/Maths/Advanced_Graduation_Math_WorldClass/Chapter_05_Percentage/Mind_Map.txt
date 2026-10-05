@@ -1,0 +1,23 @@
+```mermaid
+graph TD
+    A["Advanced Percentage"] --> B["Multiplier Paradigm"]
+    A --> C["Product Constancy AB Rule"]
+    A --> D["Successive Changes"]
+    A --> E["Election Models"]
+    A --> F["Income Expenditure Savings"]
+
+    B --> B1["Increase: 1 + r/100"]
+    B --> B2["Decrease: 1 - r/100"]
+
+    C --> C1["Price-Consumption Tradeoff<br>+a/b implies -a/(b+a)"]
+    C --> C2["Constant Expenditure Invariant"]
+
+    D --> D1["Net = a + b + ab/100"]
+    D --> D2["Symmetric Rebound Loss<br>x2/100 % drop"]
+
+    E --> E1["Enrolled vs Polled vs Valid Votes"]
+    E --> E2["Winning Margin: (2W - 100)%"]
+
+    F --> F1["Income = Expenditure + Savings"]
+    F --> F2["Weighted Average Alligation Formulation"]
+```
