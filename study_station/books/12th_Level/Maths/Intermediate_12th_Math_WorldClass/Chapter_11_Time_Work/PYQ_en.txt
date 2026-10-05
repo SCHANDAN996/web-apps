@@ -1,0 +1,26 @@
+# PYQ Analysis & High-Yield Patterns: Time & Work
+
+### Pattern 1: Basic Two and Three Worker Combination
+**Question:** A can do a piece of work in 12 days and B in 18 days. In how many days can they together complete the work?
+- **Analysis:** LCM of 12 and 18 = 36 units. Efficiency of A = 3, B = 2. Combined efficiency = 5 units/day. Total time = 36 / 5 = 7.2 days.
+- **Source:** SSC CGL Pattern
+
+### Pattern 2: Leaving Before Completion
+**Question:** A and B can do a work in 20 and 30 days respectively. They started together, but A left 5 days before the completion of work. Find the total time taken to complete the work.
+- **Analysis:** Total work = LCM(20, 30) = 60 units. E_A = 3, E_B = 2. A left 5 days before end, so add A's 5 days' work: 60 + (5 * 3) = 75 units. Total time = 75 / (3 + 2) = 15 days.
+- **Source:** SSC CGL Pattern
+
+### Pattern 3: Men, Women, and Boys Equivalence
+**Question:** 2 men and 3 boys can do a piece of work in 10 days, while 3 men and 2 boys can do the same work in 8 days. In how many days can 2 men and 1 boy do the work?
+- **Analysis:** 10(2M + 3B) = 8(3M + 2B) => 20M + 30B = 24M + 16B => 4M = 14B => 2M = 7B. Total work = 10(7B + 3B) = 100B. Target: 2M + 1B = 7B + 1B = 8B. Time = 100 / 8 = 12.5 days.
+- **Source:** SSC CGL Pattern
+
+### Pattern 4: Alternate Days Work
+**Question:** A can do a work in 16 days and B in 12 days. Starting with A, they work on alternate days. In how many days will the work be completed?
+- **Analysis:** Total work = 48 units. A does 3, B does 4. In a 2-day cycle, 7 units are done. 6 complete cycles = 12 days = 42 units. Remaining = 6 units. On 13th day, A does 3 units (3 units left). On 14th day, B does 3/4 units. Total = 13.75 days.
+- **Source:** State PCS Pattern
+
+### Pattern 5: Efficiency Percentage Comparisons
+**Question:** A is 40% more efficient than B. If B alone takes 28 days to complete a work, how many days will A alone take?
+- **Analysis:** Ratio of efficiencies E_A : E_B = 140 : 100 = 7 : 5. Total work = 28 * 5 = 140 units. Time for A = 140 / 7 = 20 days.
+- **Source:** IBPS PO Pattern

@@ -1,0 +1,24 @@
+```mermaid
+graph TD
+    A["Time & Work Master System<br>समय और कार्य संरचना"] --> B["Core Formulations<br>आधारभूत सूत्र"]
+    A --> C["Efficiency & Proportionality<br>कार्यक्षमता एवं अनुपात"]
+    A --> D["Dynamic Schedules<br>गतिशील कार्य स्थितियाँ"]
+    A --> E["Group Work (Chain Rule)<br>समूह कार्य एवं चेन नियम"]
+    A --> F["Wages Allocation<br>मजदूरी वितरण"]
+
+    B --> B1["Unit Work Rule: 1/D<br>व्युत्क्रम नियम"]
+    B --> B2["LCM Total Work Method<br>ल.स.प. इकाई विधि"]
+    B --> B3["Pair Rule: xy/(x+y)<br>दो व्यक्तियों का सूत्र"]
+
+    C --> C1["Inverse Time Law: E ∝ 1/T<br>समय का व्युत्क्रम"]
+    C --> C2["Percentage Efficiency<br>प्रतिशत कार्यक्षमता"]
+
+    D --> D1["Leaving After 't' Days<br>शुरू में कार्य छोड़ना"]
+    D --> D2["Leaving 'd' Days Before End<br>समाप्ति से पूर्व छोड़ना"]
+    D --> D3["Alternate Day Cycles<br>बारी-बारी से कार्य"]
+
+    E --> E1["MDH Formula: M1 D1 H1 / W1<br>सर्वमान्य चेन नियम"]
+    E --> E2["Equivalence: Men/Women/Boys<br>पुरुष-महिला समतुल्यता"]
+
+    F --> F1["Proportional to Total Work Done<br>किए गए कार्य अनुसार"]
+```

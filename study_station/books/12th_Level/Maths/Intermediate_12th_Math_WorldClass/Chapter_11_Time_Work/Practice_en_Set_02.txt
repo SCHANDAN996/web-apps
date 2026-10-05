@@ -1,0 +1,151 @@
+Questions 26–50: Medium
+
+26. (Medium) A can do a work in 16 days and B in 12 days. Starting with A, they work on alternate days. In how many days will the work be completed?
+(A) 13.75 days  (B) 13.50 days  (C) 14.00 days  (D) 14.25 days
+Answer: (A) 13.75 days
+Solution: Total work = LCM(16, 12) = 48 units. E_A = 3 units/day, E_B = 4 units/day. In a 2-day cycle, (A + B) do 3 + 4 = 7 units. In 6 full cycles (12 days), 6 * 7 = 42 units are done. Remaining work = 48 - 42 = 6 units. On Day 13, A works and does 3 units. Remaining = 3 units. On Day 14, B does 3/4 of a day's work. Total time = 12 + 1 + 3/4 = 13.75 days. The required value is 13.75 days. Hence, the correct option is (A).
+Source: SSC CGL Pattern
+
+27. (Medium) A can do a work in 16 days and B in 12 days. If B starts the work on the first day and they work on alternate days, in how many days will the work be completed?
+(A) 13.75 days  (B) 13.67 days  (C) 14.00 days  (D) 13.50 days
+Answer: (B) 13.67 days
+Solution: Total work = 48 units. 6 cycles of 2 days = 12 days = 42 units done. Remaining work = 6 units. On Day 13, B works and does 4 units. Remaining = 2 units. On Day 14, A needs 2/3 of a day. Total time = 12 + 1 + 2/3 = 13.67 days (or 13 2/3 days). The required value is 13.67 days. Hence, the correct option is (B).
+Source: SSC CGL Pattern
+
+28. (Medium) A, B, and C can do a work in 20, 30, and 60 days respectively. In how many days can A do the work if he is assisted by B and C on every third day?
+(A) 12 days  (B) 16 days  (C) 15 days  (D) 18 days
+Answer: (C) 15 days
+Solution: Total work = LCM(20, 30, 60) = 60 units. E_A = 3, E_B = 2, E_C = 1 unit/day. Day 1: A does 3 units. Day 2: A does 3 units. Day 3: (A + B + C) do 3 + 2 + 1 = 6 units. Work done in a 3-day cycle = 3 + 3 + 6 = 12 units. Cycles required = 60 / 12 = 5 cycles. Total days = 5 * 3 = 15 days. The required value is 15 days. Hence, the correct option is (C).
+Source: SSC CGL Pattern
+
+29. (Medium) 3 men or 4 women can complete a work in 43 days. In how many days will 7 men and 5 women complete the same work?
+(A) 15 days  (B) 10 days  (C) 14 days  (D) 12 days
+Answer: (D) 12 days
+Solution: 3 Men = 4 Women => 1 Man = 4/3 Women. Target workforce: 7 Men + 5 Women = 7*(4/3 W) + 5W = 28/3 W + 15/3 W = 43/3 Women. Total work = 4 Women * 43 days = 172 W-days. Time taken = 172 / (43/3) = (172 * 3) / 43 = 4 * 3 = 12 days. The required value is 12 days. Hence, the correct option is (D).
+Source: SSC CGL Pattern
+
+30. (Medium) 12 men can complete a work in 9 days. After they have worked for 6 days, 6 more men join them. How many days will all of them now take to finish the remaining work?
+(A) 2 days  (B) 3 days  (C) 4 days  (D) 2.5 days
+Answer: (A) 2 days
+Solution: Total work = 12 * 9 = 108 man-days. Work completed in 6 days = 12 * 6 = 72 man-days. Remaining work = 108 - 72 = 36 man-days. New number of workers = 12 + 6 = 18 men. Time required = 36 / 18 = 2 days. The required value is 2 days. Hence, the correct option is (A).
+Source: SSC CGL Pattern
+
+31. (Medium) A is 30% more efficient than B. How much time will they, working together, take to complete a job which A alone could have done in 23 days?
+(A) 11 days  (B) 13 days  (C) 15 days  (D) 12 days
+Answer: (B) 13 days
+Solution: Efficiency ratio E_A : E_B = 130 : 100 = 13 : 10. Total work = Days of A * E_A = 23 * 13 = 299 units. Combined efficiency = 13 + 10 = 23 units/day. Time required together = 299 / 23 = 13 days. The required value is 13 days. Hence, the correct option is (B).
+Source: SSC CGL Pattern
+
+32. (Medium) A can do a piece of work in 80 days. He works by himself for 10 days, and then B alone finishes the remaining work in 42 days. In how many days can both A and B together finish the entire work?
+(A) 28 days  (B) 32 days  (C) 30 days  (D) 35 days
+Answer: (C) 30 days
+Solution: Assume Total work = 80 units => E_A = 1 unit/day. In 10 days, A does 10 units. Remaining work = 80 - 10 = 70 units. B finishes 70 units in 42 days => E_B = 70 / 42 = 5/3 units/day. Combined efficiency = 1 + 5/3 = 8/3 units/day. Time together = 80 / (8/3) = (80 * 3) / 8 = 30 days. The required value is 30 days. Hence, the correct option is (C).
+Source: SSC CGL Pattern
+
+33. (Medium) A and B can together finish a work in 30 days. They worked at it for 20 days and then B left. The remaining work was done by A alone in 20 more days. In how many days could A alone finish the whole work?
+(A) 50 days  (B) 45 days  (C) 54 days  (D) 60 days
+Answer: (D) 60 days
+Solution: Work completed in 20 days = 20 / 30 = 2/3 of the work. Remaining work = 1 - 2/3 = 1/3 of the work. A completes 1/3 of the work in 20 days. Time for A alone to complete the whole work = 20 * 3 = 60 days. The required value is 60 days. Hence, the correct option is (D).
+Source: SSC CGL Pattern
+
+34. (Medium) 4 men and 6 women can complete a work in 8 days, while 3 men and 7 women can complete it in 10 days. In how many days will 10 women complete it?
+(A) 40 days  (B) 35 days  (C) 45 days  (D) 50 days
+Answer: (A) 40 days
+Solution: 8*(4M + 6W) = 10*(3M + 7W) => 32M + 48W = 30M + 70W => 2M = 22W => 1M = 11W. Total work = 8*(4*11W + 6W) = 8*(50W) = 400 W-days. Time for 10 women = 400 / 10 = 40 days. The required value is 40 days. Hence, the correct option is (A).
+Source: SSC CGL Pattern
+
+35. (Medium) A can do a work in 10 days, B in 12 days, and C in 15 days. They all begin together, but A leaves after 2 days and B leaves 3 days before the completion of the work. How long did the entire work last?
+(A) 8 days  (B) 7 days  (C) 6 days  (D) 9 days
+Answer: (B) 7 days
+Solution: Total work = 60 units. E_A = 6, E_B = 5, E_C = 4 units/day. In the first 2 days, all three work: (6 + 5 + 4) * 2 = 30 units. Remaining work = 30 units. For the remaining phase with B and C, since B leaves 3 days before end, add B's 3 days work: Adjusted work = 30 + (3 * 5) = 45 units. Time for second phase = 45 / (5 + 4) = 45 / 9 = 5 days. Total duration = 2 + 5 = 7 days. The required value is 7 days. Hence, the correct option is (B).
+Source: SSC CGL Pattern
+
+36. (Medium) A and B can do a piece of work in 45 and 40 days respectively. They began the work together, but A left after some days and B finished the remaining work in 23 days. After how many days did A leave?
+(A) 8 days  (B) 10 days  (C) 9 days  (D) 12 days
+Answer: (C) 9 days
+Solution: Total work = LCM(45, 40) = 360 units. E_A = 8, E_B = 9 units/day. Work done by B alone in the last 23 days = 23 * 9 = 207 units. Work done together before A left = 360 - 207 = 153 units. Days worked together = 153 / (8 + 9) = 153 / 17 = 9 days. The required value is 9 days. Hence, the correct option is (C).
+Source: SSC CGL Pattern
+
+37. (Medium) If 6 men and 8 boys can do a work in 10 days, while 26 men and 48 boys can do the same in 2 days, find the time taken by 15 men and 20 boys to do the same work.
+(A) 5 days  (B) 6 days  (C) 7 days  (D) 4 days
+Answer: (D) 4 days
+Solution: 10*(6M + 8B) = 2*(26M + 48B) => 60M + 80B = 52M + 96B => 8M = 16B => 1M = 2B. Total work = 10*(6*2B + 8B) = 200B. Target: 15M + 20B = 15*2B + 20B = 50B. Time required = 200B / 50B = 4 days. The required value is 4 days. Hence, the correct option is (D).
+Source: SSC CGL Pattern
+
+38. (Medium) A, B, and C can do a piece of work in 11 days, 20 days, and 55 days respectively. In how many days can the work be completed if A is assisted by B and C on alternate days?
+(A) 8 days  (B) 9 days  (C) 10 days  (D) 7 days
+Answer: (A) 8 days
+Solution: Total work = LCM(11, 20, 55) = 220 units. E_A = 20, E_B = 11, E_C = 4 units/day. Day 1: A + B = 20 + 11 = 31 units. Day 2: A + C = 20 + 4 = 24 units. 2-day cycle = 31 + 24 = 55 units. Number of cycles = 220 / 55 = 4 cycles. Total days = 4 * 2 = 8 days. The required value is 8 days. Hence, the correct option is (A).
+Source: SSC CGL Pattern
+
+39. (Medium) 5 men can prepare 10 toys in 6 days working 6 hours a day. In how many days can 12 men prepare 16 toys working 8 hours a day?
+(A) 4 days  (B) 3 days  (C) 2 days  (D) 5 days
+Answer: (B) 3 days
+Solution: Using (M1 * D1 * H1) / W1 = (M2 * D2 * H2) / W2: (5 * 6 * 6) / 10 = (12 * D2 * 8) / 16 => 180 / 10 = 96*D2 / 16 => 18 = 6*D2 => D2 = 3 days. The required value is 3 days. Hence, the correct option is (B).
+Source: SSC CGL Pattern
+
+40. (Medium) A does half as much work as B in three-fourth of the time. If together they take 18 days to complete the work, how much time shall B take to do it alone?
+(A) 25 days  (B) 36 days  (C) 30 days  (D) 40 days
+Answer: (C) 30 days
+Solution: A completes 1/2 work in 3/4 of B's time => A completes 1 full work in (3/4 * 2) = 3/2 of B's time. Efficiency ratio E_A : E_B = 1/(3/2) : 1 = 2 : 3. Combined daily efficiency = 2 + 3 = 5 units/day. Total work = 5 * 18 = 90 units. Time for B alone = 90 / 3 = 30 days. The required value is 30 days. Hence, the correct option is (C).
+Source: SSC CGL Pattern
+
+41. (Medium) A can do a work in 15 days and B in 20 days. If they work on it together for 4 days, what part of the work is completed?
+(A) 8/15  (B) 1/2  (C) 3/5  (D) 7/15
+Answer: (D) 7/15
+Solution: Total work = 60 units. E_A = 4, E_B = 3 units/day. Combined 4 days' work = (4 + 3) * 4 = 28 units. Fraction completed = 28 / 60 = 7 / 15. The required value is 7/15. Hence, the correct option is (D).
+Source: SSC CGL Pattern
+
+42. (Medium) 10 men can finish a construction work in 8 days. How many men are needed to finish the same work in half a day?
+(A) 160 men  (B) 150 men  (C) 140 men  (D) 180 men
+Answer: (A) 160 men
+Solution: Using M1 * D1 = M2 * D2: 10 * 8 = M2 * 0.5 => 80 = 0.5 * M2 => M2 = 80 / 0.5 = 160 men. The required value is 160 men. Hence, the correct option is (A).
+Source: SSC CGL Pattern
+
+43. (Medium) A can do a work in 20 days and B in 25 days. They started together, but B left after 5 days. How many more days will A take to finish the work?
+(A) 10 days  (B) 11 days  (C) 12 days  (D) 13 days
+Answer: (B) 11 days
+Solution: Total work = LCM(20, 25) = 100 units. E_A = 5, E_B = 4 units/day. Work done in 5 days = (5 + 4) * 5 = 45 units. Remaining work = 100 - 45 = 55 units. Additional days for A = 55 / 5 = 11 days. The required value is 11 days. Hence, the correct option is (B).
+Source: SSC CGL Pattern
+
+44. (Medium) A is 25% more efficient than B, and B alone takes 25 days to complete a job. In how many days can A and B together finish the job?
+(A) 11.00 days  (B) 12.00 days  (C) 11.11 days  (D) 10.50 days
+Answer: (C) 11.11 days
+Solution: Efficiency ratio E_A : E_B = 125 : 100 = 5 : 4. Total work = 25 * 4 = 100 units. Combined efficiency = 5 + 4 = 9 units/day. Time required together = 100 / 9 = 11.11 days (or 11 1/9 days). The required value is 11.11 days. Hence, the correct option is (C).
+Source: SSC CGL Pattern
+
+45. (Medium) A and B together can do a work in 12 days, which B and C can do in 16 days. After A has worked at it for 5 days and B for 7 days, C finishes it in 13 days. In how many days could C alone do the work?
+(A) 20 days  (B) 28 days  (C) 30 days  (D) 24 days
+Answer: (D) 24 days
+Solution: Expressing the work: 5*A + 7*B + 13*C = 5*(A + B) + 2*(B + C) + 11*C = 1. Since (A + B) = 1/12 and (B + C) = 1/16: 5/12 + 2/16 + 11*C = 1 => 5/12 + 1/8 + 11*C = 1 => 13/24 + 11*C = 1 => 11*C = 11/24 => C = 1/24. Time taken by C alone = 24 days. The required value is 24 days. Hence, the correct option is (D).
+Source: SSC CGL Pattern
+
+46. (Medium) A work could be completed by a certain number of men in 60 days. If there were 8 more men, it could be completed in 10 days less. What was the original number of men?
+(A) 40 men  (B) 35 men  (C) 45 men  (D) 50 men
+Answer: (A) 40 men
+Solution: M * 60 = (M + 8) * (60 - 10) => 60*M = 50*M + 400 => 10*M = 400 => M = 40 men. The required value is 40 men. Hence, the correct option is (A).
+Source: SSC CGL Pattern
+
+47. (Medium) A and B can do a piece of work in 30 days and 20 days respectively. If they work on alternate days beginning with A, in how many days will the work be completed?
+(A) 25 days  (B) 24 days  (C) 23 days  (D) 26 days
+Answer: (B) 24 days
+Solution: Total work = LCM(30, 20) = 60 units. E_A = 2, E_B = 3 units/day. In a 2-day cycle, (A + B) do 2 + 3 = 5 units. Total cycles = 60 / 5 = 12 cycles. Total days = 12 * 2 = 24 days. The required value is 24 days. Hence, the correct option is (B).
+Source: SSC CGL Pattern
+
+48. (Medium) 8 men can complete a work in 12 days. After 6 days of work, 4 more men join them. How many days will now be needed to complete the remaining work?
+(A) 3 days  (B) 5 days  (C) 4 days  (D) 6 days
+Answer: (C) 4 days
+Solution: Work remaining = 8 men * (12 - 6) days = 48 man-days. New number of men = 8 + 4 = 12 men. Days needed = 48 / 12 = 4 days. The required value is 4 days. Hence, the correct option is (C).
+Source: SSC CGL Pattern
+
+49. (Medium) A can do a work in 24 days, B in 9 days, and C in 12 days. B and C start the work together but leave after 3 days. The remaining work was finished by A alone in:
+(A) 8 days  (B) 12 days  (C) 9 days  (D) 10 days
+Answer: (D) 10 days
+Solution: Total work = LCM(24, 9, 12) = 72 units. E_A = 3, E_B = 8, E_C = 6 units/day. Work done by (B + C) in 3 days = (8 + 6) * 3 = 42 units. Remaining work = 72 - 42 = 30 units. Time for A alone = 30 / 3 = 10 days. The required value is 10 days. Hence, the correct option is (D).
+Source: SSC CGL Pattern
+
+50. (Medium) A takes twice as much time as B or thrice as much time as C to finish a piece of work. Working together, they can finish the work in 2 days. How long will B alone take to do the work?
+(A) 4 days  (B) 6 days  (C) 8 days  (D) 12 days
+Answer: (B) 6 days
+Solution: Let time taken by A = 6x days => Time for B = 3x days, Time for C = 2x days. Daily efficiencies: E_A = 1, E_B = 2, E_C = 3 units/day. Combined efficiency = 1 + 2 + 3 = 6 units/day. Total work = 6 * 2 days = 12 units. Time taken by B alone = 12 / 2 = 6 days. The required value is 6 days. Hence, the correct option is (B).
+Source: SSC CGL Pattern

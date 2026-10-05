@@ -1,0 +1,151 @@
+Questions 126–150: Hard
+
+126. (Hard) A can do a piece of work in 10 days, B in 12 days, and C in 15 days. They all begin together, but A leaves after 2 days and B leaves 3 days before the completion of the work. How long did the work last?
+(A) 7 days  (B) 6.5 days  (C) 7.5 days  (D) 8 days
+Answer: (A) 7 days
+Solution: Total work = LCM(10, 12, 15) = 60 units. Daily efficiency: A = 6, B = 5, C = 4 units/day. In first 2 days, all three work: 2 * (6 + 5 + 4) = 30 units. Work remaining = 60 - 30 = 30 units. In the last 3 days, only C works: 3 * 4 = 12 units. Work done by (B + C) in the middle phase = 30 - 12 = 18 units. Time for middle phase = 18 / (5 + 4) = 2 days. Total time = 2 + 2 + 3 = 7 days. The required value is 7 days. Hence, the correct option is (A).
+Source: SSC CGL Pattern
+
+127. (Hard) Three pipes A, B, and C can fill a cistern in 8 hours. After working together for 2 hours, C is closed and A and B can fill the remaining part in 9 hours. In how many hours can C alone fill the cistern?
+(A) 20 hours  (B) 24 hours  (C) 28 hours  (D) 32 hours
+Answer: (B) 24 hours
+Solution: Work done by (A + B + C) in 2 hours = 2/8 = 1/4 of cistern. Remaining work = 1 - 1/4 = 3/4. Rate of (A + B) = (3/4) / 9 = 1/12 per hour. Rate of (A + B + C) = 1/8 per hour. Rate of C = 1/8 - 1/12 = (3 - 2)/24 = 1/24 per hour. Time taken by C alone = 24 hours. The required value is 24 hours. Hence, the correct option is (B).
+Source: SSC CGL Pattern
+
+128. (Hard) A and B can complete a work in 24 days. They worked together for 16 days, and then B left. The remaining work was finished by A alone in 10 more days. In how many days can B alone complete the entire work?
+(A) 100 days  (B) 90 days  (C) 120 days  (D) 150 days
+Answer: (C) 120 days
+Solution: Work done by (A + B) in 16 days = 16 / 24 = 2/3. Remaining work = 1/3, done by A in 10 days => Time taken by A alone = 10 * 3 = 30 days. Daily rate of A = 1/30. Daily rate of (A + B) = 1/24. Rate of B = 1/24 - 1/30 = (5 - 4)/120 = 1/120 per day. Time taken by B alone = 120 days. The required value is 120 days. Hence, the correct option is (C).
+Source: SSC CGL Pattern
+
+129. (Hard) If 3 men or 6 women can do a piece of work in 16 days, in how many days can 12 men and 8 women do the same work?
+(A) 4 days  (B) 2.5 days  (C) 5 days  (D) 3 days
+Answer: (D) 3 days
+Solution: 3 Men = 6 Women => 1 Man = 2 Women. Target workforce: 12 Men + 8 Women = 12(2 Women) + 8 Women = 32 Women. Total work = 6 Women * 16 days = 96 woman-days. Time taken = 96 / 32 = 3 days. The required value is 3 days. Hence, the correct option is (D).
+Source: SSC CGL Pattern
+
+130. (Hard) A, B, and C can do a piece of work in 15, 20, and 30 days respectively. In how many days can A finish the work if he is assisted by B and C on every second day?
+(A) 9.44 days  (B) 9.25 days  (C) 9.50 days  (D) 10.00 days
+Answer: (A) 9.44 days
+Solution: Total work = LCM(15, 20, 30) = 60 units. Daily efficiency: A = 4, B = 3, C = 2 units/day. Day 1: A works = 4 units. Day 2: (A + B + C) work = 4 + 3 + 2 = 9 units. In a 2-day cycle: work done = 4 + 9 = 13 units. In 4 cycles (8 days): work done = 4 * 13 = 52 units. Remaining work = 60 - 52 = 8 units. Day 9: A works and does 4 units. Remaining work = 8 - 4 = 4 units. Day 10: All three work at 9 units/day: time = 4/9 = 0.44 days. Total days = 8 + 1 + 0.44 = 9.44 days. The required value is 9.44 days. Hence, the correct option is (A).
+Source: SSC CGL Pattern
+
+131. (Hard) Three pipes A, B, and C are attached to a cistern. A and B can fill it in 20 and 30 hours respectively, while C can empty it in 60 hours. If A is opened at 7 AM, B at 9 AM, and C at 10 AM, at what time will the cistern be completely filled?
+(A) 10:30 PM  (B) 10:15 PM  (C) 9:45 PM  (D) 11:00 PM
+Answer: (B) 10:15 PM
+Solution: Total capacity = LCM(20, 30, 60) = 60 units. Flow rates: A = +3, B = +2, C = -1 unit/hour. From 7 AM to 9 AM (2 hours), only A works: 2 * 3 = 6 units. From 9 AM to 10 AM (1 hour), A and B work: 1 * (3 + 2) = 5 units. Total filled by 10 AM = 6 + 5 = 11 units. Remaining capacity = 60 - 11 = 49 units. From 10 AM onwards, net rate = 3 + 2 - 1 = 4 units/hour. Time required = 49 / 4 = 12.25 hours = 12 hours 15 minutes. 10:00 AM + 12 hours 15 min = 10:15 PM. The required value is 10:15 PM. Hence, the correct option is (B).
+Source: SSC CGL Pattern
+
+132. (Hard) A and B can do a job in 12 days and 18 days respectively. They work on alternate days with B starting the first day. In how many days will the job be completed?
+(A) 14.2 days  (B) 15.0 days  (C) 14.5 days  (D) 14.75 days
+Answer: (C) 14.5 days
+Solution: Total work = LCM(12, 18) = 36 units. Daily efficiency: A = 3, B = 2 units/day. In a 2-day cycle: B + A = 2 + 3 = 5 units. In 7 cycles (14 days): work done = 7 * 5 = 35 units. Remaining work = 36 - 35 = 1 unit. On Day 15, B works at 2 units/day: time taken = 1 / 2 = 0.5 days. Total time taken = 14 + 0.5 = 14.5 days. The required value is 14.5 days. Hence, the correct option is (C).
+Source: SSC CGL Pattern
+
+133. (Hard) A does 4/5 of a work in 20 days. He then calls in B and they together finish the remaining work in 3 days. How long would B alone take to do the whole work?
+(A) 35.0 days  (B) 40.0 days  (C) 42.5 days  (D) 37.5 days
+Answer: (D) 37.5 days
+Solution: A does 4/5 work in 20 days => Time taken by A alone for full work = 20 * (5/4) = 25 days. Rate of A = 1/25 per day. Remaining work = 1 - 4/5 = 1/5. (A + B) do 1/5 work in 3 days => Rate of (A + B) = (1/5) / 3 = 1/15 per day. Rate of B = 1/15 - 1/25 = (5 - 3)/75 = 2/75 per day. Time taken by B alone = 75 / 2 = 37.5 days. The required value is 37.5 days. Hence, the correct option is (D).
+Source: SSC CGL Pattern
+
+134. (Hard) Two pipes A and B can fill a tank in 15 minutes and 20 minutes respectively. An outlet pipe C can empty the full tank in 25 minutes. All three pipes are opened together in the beginning. After 10 minutes, C is closed. In what time will the tank be full?
+(A) 12 minutes  (B) 11 minutes  (C) 13 minutes  (D) 14 minutes
+Answer: (A) 12 minutes
+Solution: Capacity = LCM(15, 20, 25) = 300 units. Flow rates: A = +20, B = +15, C = -12 units/minute. Net filling rate with all open = 20 + 15 - 12 = 23 units/minute. In first 10 minutes, water filled = 10 * 23 = 230 units. Remaining capacity = 300 - 230 = 70 units. After closing C, rate of (A + B) = 20 + 15 = 35 units/minute. Time to fill remaining = 70 / 35 = 2 minutes. Total time = 10 + 2 = 12 minutes. The required value is 12 minutes. Hence, the correct option is (A).
+Source: SSC CGL Pattern
+
+135. (Hard) A can complete a work in 20 days, and B in 25 days. If they work upon it on alternate days, beginning with A, in how many days will the work be finished?
+(A) 22.5 days  (B) 22.2 days  (C) 21.8 days  (D) 23.0 days
+Answer: (B) 22.2 days
+Solution: Total work = LCM(20, 25) = 100 units. Daily efficiency: A = 5, B = 4 units/day. In a 2-day cycle: 5 + 4 = 9 units. In 11 cycles (22 days): work done = 11 * 9 = 99 units. Remaining work = 100 - 99 = 1 unit. On Day 23, A works at 5 units/day: time taken = 1 / 5 = 0.2 days. Total time = 22 + 0.2 = 22.2 days. The required value is 22.2 days. Hence, the correct option is (B).
+Source: SSC CGL Pattern
+
+136. (Hard) A tank has a leak which would empty it in 8 hours. A tap is turned on which admits 3 litres a minute into the tank, and it is now emptied in 12 hours. How many litres does the tank hold?
+(A) 3600 litres  (B) 4500 litres  (C) 4320 litres  (D) 4800 litres
+Answer: (C) 4320 litres
+Solution: Emptying rate alone = 1/8 tank/hour. Net emptying rate with tap = 1/12 tank/hour. Filling rate of tap = 1/8 - 1/12 = 1/24 tank/hour. Flow rate of tap = 3 litres/minute = 3 * 60 = 180 litres/hour. If 1/24 of capacity = 180 litres, then Capacity = 180 * 24 = 4320 litres. The required value is 4320 litres. Hence, the correct option is (C).
+Source: SSC CGL Pattern
+
+137. (Hard) 25 men can reap a field in 20 days. When should 15 men leave the work, if the whole field is to be reaped in 37.5 days?
+(A) 7.50 days  (B) 9.00 days  (C) 10.00 days  (D) 8.33 days
+Answer: (D) 8.33 days
+Solution: Total work = 25 men * 20 days = 500 man-days. Let 25 men work for x days. Then remaining 25 - 15 = 10 men work for (37.5 - x) days. Work equation: 25x + 10(37.5 - x) = 500 => 25x + 375 - 10x = 500 => 15x = 125 => x = 125 / 15 = 25/3 = 8.33 days. The required value is 8.33 days. Hence, the correct option is (D).
+Source: SSC CGL Pattern
+
+138. (Hard) A can do a piece of work in 80 days. He works by himself for 10 days, and then B alone finishes the remaining work in 42 days. In how much time will A and B together finish the work?
+(A) 30 days  (B) 28 days  (C) 32 days  (D) 35 days
+Answer: (A) 30 days
+Solution: Work done by A in 10 days = 10 / 80 = 1/8. Remaining work = 1 - 1/8 = 7/8. B does 7/8 work in 42 days => Rate of B = (7/8) / 42 = 1/48 per day. Rate of A = 1/80 per day. Combined rate of (A + B) = 1/80 + 1/48 = (3 + 5)/240 = 8/240 = 1/30 per day. Time taken together = 30 days. The required value is 30 days. Hence, the correct option is (A).
+Source: SSC CGL Pattern
+
+139. (Hard) A and B can do a piece of work in 30 days and 20 days respectively. They begin together, but A leaves after some days and B finishes the remaining work in 10 days. After how many days did A leave?
+(A) 5 days  (B) 6 days  (C) 7 days  (D) 8 days
+Answer: (B) 6 days
+Solution: Total work = LCM(30, 20) = 60 units. Daily efficiency: A = 2, B = 3 units/day. Work done by B alone in the last 10 days = 10 * 3 = 30 units. Work done together = 60 - 30 = 30 units. Combined rate = 2 + 3 = 5 units/day. Days they worked together = 30 / 5 = 6 days. Thus, A left after 6 days. The required value is 6 days. Hence, the correct option is (B).
+Source: SSC CGL Pattern
+
+140. (Hard) If 10 men or 20 boys can make 260 mats in 20 days, how many mats will be made by 8 men and 4 boys in 15 days?
+(A) 180 mats  (B) 200 mats  (C) 195 mats  (D) 210 mats
+Answer: (C) 195 mats
+Solution: 10 men = 20 boys => 1 man = 2 boys. Production of 1 boy per day = 260 / (20 boys * 20 days) = 260 / 400 = 0.65 mats/day. Target group = 8 men + 4 boys = 8(2 boys) + 4 boys = 20 boys. In 15 days, total mats made = 20 boys * 15 days * 0.65 mats/boy/day = 195 mats. The required value is 195 mats. Hence, the correct option is (C).
+Source: SSC CGL Pattern
+
+141. (Hard) Pipe A can fill a tank 4 times faster than Pipe B. If Pipe A takes 45 minutes less than Pipe B to fill the tank, in how many minutes will both pipes together fill the tank?
+(A) 10 minutes  (B) 15 minutes  (C) 14 minutes  (D) 12 minutes
+Answer: (D) 12 minutes
+Solution: Efficiency ratio A : B = 4 : 1 => Time ratio A : B = 1 : 4. Difference in time = 4 - 1 = 3 units = 45 minutes => 1 unit = 15 minutes. Time taken by Pipe A = 15 minutes, Pipe B = 60 minutes. Time taken together = (15 * 60) / (15 + 60) = 900 / 75 = 12 minutes. The required value is 12 minutes. Hence, the correct option is (D).
+Source: SSC CGL Pattern
+
+142. (Hard) A wall of 100 meters can be built by 7 men or 10 women in 10 days. How many days will 14 men and 20 women take to build a wall of 600 meters?
+(A) 15 days  (B) 12 days  (C) 16 days  (D) 18 days
+Answer: (A) 15 days
+Solution: 7 men = 10 women => 14 men = 20 women. Workforce 14 men + 20 women = 20 women + 20 women = 40 women. Formula: (W1 * D1)/L1 = (W2 * D2)/L2 => (10 * 10)/100 = (40 * D2)/600 => 1 = (40 * D2)/600 => D2 = 600 / 40 = 15 days. The required value is 15 days. Hence, the correct option is (A).
+Source: SSC CGL Pattern
+
+143. (Hard) Three pipes A, B, and C can fill a reservoir in 15, 20, and 30 hours respectively. A is opened for all the time, and B and C are opened alternately for one hour each. In how many hours will the reservoir be filled?
+(A) 9.00 hours  (B) 9.17 hours  (C) 9.25 hours  (D) 9.50 hours
+Answer: (B) 9.17 hours
+Solution: Capacity = LCM(15, 20, 30) = 60 units. Flow rates: A = 4, B = 3, C = 2 units/hour. Hour 1: (A + B) = 4 + 3 = 7 units. Hour 2: (A + C) = 4 + 2 = 6 units. In 2 hours: 7 + 6 = 13 units. In 4 cycles (8 hours): 4 * 13 = 52 units. Remaining: 60 - 52 = 8 units. In Hour 9, (A + B) work and fill 7 units. Remaining: 8 - 7 = 1 unit. In Hour 10, (A + C) work at 6 units/hour: time = 1 / 6 = 0.17 hours. Total time = 8 + 1 + 0.17 = 9.17 hours. The required value is 9.17 hours. Hence, the correct option is (B).
+Source: SSC CGL Pattern
+
+144. (Hard) A, B, and C together can complete a work in 10 days. A and B together can complete it in 15 days. If B and C together can complete it in 12 days, in how many days can B alone complete the work?
+(A) 25 days  (B) 18 days  (C) 20 days  (D) 24 days
+Answer: (C) 20 days
+Solution: Daily rates: A + B + C = 1/10. Since A + B = 1/15, Rate of C = 1/10 - 1/15 = (3 - 2)/30 = 1/30. Since B + C = 1/12, Rate of B = 1/12 - C = 1/12 - 1/30 = (5 - 2)/60 = 3/60 = 1/20 per day. Time taken by B alone = 20 days. The required value is 20 days. Hence, the correct option is (C).
+Source: SSC CGL Pattern
+
+145. (Hard) A contractor employed 100 workers, both male and female. The average daily wage paid to a male worker was Rs. 150 and to a female worker was Rs. 120. If the total daily expenditure was Rs. 13800, how many male workers were employed?
+(A) 50  (B) 65  (C) 55  (D) 60
+Answer: (D) 60
+Solution: Let the number of male workers be M. Then female workers = 100 - M. Total daily wages: 150M + 120(100 - M) = 13800 => 150M + 12000 - 120M = 13800 => 30M = 1800 => M = 60. The required value is 60. Hence, the correct option is (D).
+Source: SSC CGL Pattern
+
+146. (Hard) A cistern can be filled by two pipes in 20 minutes and 25 minutes respectively, and can be emptied by a waste tap in 30 minutes. If all three are opened together, but after 10 minutes the waste tap is closed, in how many total minutes will the cistern be filled?
+(A) 14.81 minutes  (B) 14.50 minutes  (C) 15.00 minutes  (D) 15.25 minutes
+Answer: (A) 14.81 minutes
+Solution: Capacity = LCM(20, 25, 30) = 300 units. Flow rates: Pipe 1 = +15, Pipe 2 = +12, Waste = -10 units/minute. Net rate initially = 15 + 12 - 10 = 17 units/minute. In first 10 minutes, water filled = 10 * 17 = 170 units. Remaining capacity = 300 - 170 = 130 units. After waste tap is closed, rate of (Pipe 1 + Pipe 2) = 15 + 12 = 27 units/minute. Time to fill remaining = 130 / 27 = 4.81 minutes. Total time = 10 + 4.81 = 14.81 minutes. The required value is 14.81 minutes. Hence, the correct option is (A).
+Source: SSC CGL Pattern
+
+147. (Hard) A work is completed by P, Q, and R. P worked for 6 days, Q for 8 days, and R for 10 days. Their daily wages are in the ratio 3 : 4 : 5. If the total wages paid was Rs. 2400, find the amount received by R.
+(A) Rs. 1000  (B) Rs. 1200  (C) Rs. 1100  (D) Rs. 1250
+Answer: (B) Rs. 1200
+Solution: Ratio of earnings: P : Q : R = (6 * 3) : (8 * 4) : (10 * 5) = 18 : 32 : 50. Total parts = 18 + 32 + 50 = 100 parts. 100 parts = Rs. 2400 => 1 part = Rs. 24. R's share = 50 * 24 = Rs. 1200. The required value is Rs. 1200. Hence, the correct option is (B).
+Source: SSC CGL Pattern
+
+148. (Hard) 12 men can complete a piece of work in 4 days, while 15 women can complete the same work in 4 days. 6 men start working on the job and after working for 2 days, all of them leave. How many women should now be put on the job to finish the remaining work in 3 days?
+(A) 12 women  (B) 16 women  (C) 15 women  (D) 18 women
+Answer: (C) 15 women
+Solution: Total work = 12 * 4 = 48 man-days = 15 * 4 = 60 woman-days => 48 M = 60 W => 1 M = 1.25 W. Work done by 6 men in 2 days = 6 * 2 = 12 man-days. Remaining work = 48 - 12 = 36 man-days. In woman-days: 36 * 1.25 = 45 woman-days. Number of women required to complete 45 woman-days in 3 days = 45 / 3 = 15 women. The required value is 15 women. Hence, the correct option is (C).
+Source: SSC CGL Pattern
+
+149. (Hard) Pipe A alone can fill a tank in 12 hours. Pipe B alone can fill it in 15 hours. Both pipes are opened together. When the tank was 1/3 full, a leak developed in the tank through which 1/3 of the water supplied by both pipes goes out. What is the total time taken to fill the tank?
+(A) 8.50 hours  (B) 9.20 hours  (C) 8.75 hours  (D) 8.89 hours
+Answer: (D) 8.89 hours
+Solution: Total capacity = LCM(12, 15) = 60 units. Combined flow rate of A and B = 5 + 4 = 9 units/hour. First 1/3 of tank = 60 / 3 = 20 units. Time taken for first 1/3 = 20 / 9 = 2.22 hours. Remaining capacity = 60 - 20 = 40 units. After the leak develops, 1/3 of water is lost, so net effective filling rate = (2/3) * 9 = 6 units/hour. Time taken for remaining 40 units = 40 / 6 = 6.67 hours. Total time = 2.22 + 6.67 = 8.89 hours. The required value is 8.89 hours. Hence, the correct option is (D).
+Source: SSC CGL Pattern
+
+150. (Hard) A, B, and C can complete a piece of work in 24, 32, and 48 days respectively. They started the work together. A left after 4 days and B left 3 days before the completion of the work. For how many days was the work carried on?
+(A) 17.5 days  (B) 17.8 days  (C) 18.0 days  (D) 16.5 days
+Answer: (B) 17.8 days
+Solution: Total work = LCM(24, 32, 48) = 96 units. Daily efficiency: A = 4, B = 3, C = 2 units/day. A worked for 4 days: 4 * 4 = 16 units. Remaining work = 96 - 16 = 80 units done by B and C. Let total days be T. B worked for (T - 3) days and C for T days: 3(T - 3) + 2T = 80 => 5T - 9 = 80 => 5T = 89 => T = 17.8 days. The required value is 17.8 days. Hence, the correct option is (B).
+Source: SSC CGL Pattern

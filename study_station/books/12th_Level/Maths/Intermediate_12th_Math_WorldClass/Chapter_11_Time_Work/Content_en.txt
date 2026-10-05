@@ -1,0 +1,51 @@
+# Chapter 11: Time & Work (Intermediate / 12th Level)
+
+## 1. Fundamentals of Time and Work
+In quantitative problem solving, work is treated as a unified whole (1 complete job) or quantified into concrete work units via the **LCM Method**.
+- **The Reciprocal Law:** If a person completes a piece of work in 'D' days, the fraction of work completed in 1 day is $1 / D$. Conversely, if 1 day's work is $1 / D$, the entire work takes 'D' days.
+- **The LCM Efficiency Paradigm:**
+  - Assume Total Work = $\text{LCM}(D_1, D_2, \dots, D_n)$ units.
+  - Daily Efficiency $E_i = \text{Total Work} / D_i$ (units per day).
+  - Combined Efficiency $E_{\text{net}} = E_1 + E_2 + \dots + E_n$.
+  - Combined Time $T_{\text{together}} = \text{Total Work} / E_{\text{net}}$.
+- **Two-Person Direct Formula:**
+  If A takes $x$ days and B takes $y$ days, together they take:
+  $T = \frac{x \cdot y}{x + y} \text{ days}$.
+
+## 2. Efficiency and Time Proportionality
+Efficiency is defined as the quantum of work completed per unit time.
+- For a constant quantum of work, efficiency is strictly inversely proportional to the time required:
+  $E_A : E_B = T_B : T_A$.
+- **Percentage Efficiency Variations:**
+  - If A is $p\%$ more efficient than B: $E_A = E_B \times (1 + p/100)$.
+  - If A is $k$ times as efficient as B: $E_A = k \cdot E_B$, and consequently $T_A = T_B / k$.
+
+## 3. Dynamic Participation: Leaving and Joining
+- **Leaving After Working for 't' Days:**
+  - Total work completed in initial $t$ days = $t \times E_{\text{initial}}$.
+  - Remaining work = $\text{Total Work} - t \times E_{\text{initial}}$.
+  - Time for remaining work = $\text{Remaining Work} / E_{\text{remaining}}$.
+- **Leaving 'd' Days BEFORE Completion (Golden Hack):**
+  - Treat the departing person as if they never left! Add their potential contribution ($d \times E_{\text{departing}}$) to the Total Work:
+  $T_{\text{total}} = \frac{\text{Total Work} + d \times E_{\text{departing}}}{E_{\text{all}}}$.
+
+## 4. Alternate Days Work Cycles
+When workers operate on alternate days (e.g., A on day 1, B on day 2):
+- Compute the work done in one complete cycle: $W_{\text{cycle}} = E_1 + E_2 + \dots$
+- Find the number of complete cycles: $q = \lfloor \text{Total Work} / W_{\text{cycle}} \rfloor$.
+- Calculate the remaining fractional work and allocate to the worker whose turn begins the next cycle.
+
+## 5. The Universal Chain Rule (M-D-H-E Formula)
+For heterogeneous groups of workers under variable schedules:
+$\frac{M_1 \times D_1 \times H_1 \times E_1}{W_1} = \frac{M_2 \times D_2 \times H_2 \times E_2}{W_2}$
+- $M$: Number of workers
+- $D$: Number of days
+- $H$: Working hours per day
+- $E$: Individual efficiency factor
+- $W$: Quantity of work produced or wages earned
+
+## 6. Division of Wages and Compensation
+- If all participants work for the entire duration, wages are distributed strictly in proportion to their **efficiencies**:
+  $\text{Wage}_A : \text{Wage}_B = E_A : E_B$.
+- If participants work for differing durations, wages are distributed strictly in proportion to the **actual work done**:
+  $\text{Wage}_i \propto (E_i \times t_i)$.

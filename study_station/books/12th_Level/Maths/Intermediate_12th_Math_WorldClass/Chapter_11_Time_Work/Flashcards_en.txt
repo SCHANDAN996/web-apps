@@ -1,0 +1,41 @@
+# Flashcards: Time & Work
+
+CARD 1:
+Front: How is Total Work determined in the LCM efficiency method?
+Back: Total Work is assumed to be the LCM of the days taken by individual workers.
+
+CARD 2:
+Front: If A completes a work in x days and B in y days, what is the joint time?
+Back: T = (x * y) / (x + y) days.
+
+CARD 3:
+Front: What is the relationship between efficiency and time for a fixed work?
+Back: Efficiency is inversely proportional to time: E_A : E_B = T_B : T_A.
+
+CARD 4:
+Front: What is the golden trick when a person leaves 'd' days before completion?
+Back: Add the person's potential work (d * E_person) to the Total Work, then divide by the combined efficiency of all workers.
+
+CARD 5:
+Front: State the universal chain rule formula for multi-variable work.
+Back: (M1 * D1 * H1 * E1) / W1 = (M2 * D2 * H2 * E2) / W2.
+
+CARD 6:
+Front: If A takes 'a' days more than (A+B) together, and B takes 'b' days more than (A+B) together, what is the time taken by (A+B)?
+Back: T = sqrt(a * b) days.
+
+CARD 7:
+Front: How are wages distributed among workers who work for different number of days?
+Back: Strictly in proportion to the total work done by each: (E_i * t_i).
+
+CARD 8:
+Front: If 3 Men or 5 Women can do a work in 12 days, what is the ratio of their efficiencies?
+Back: 3M = 5W => M / W = 5 / 3. Efficiency ratio is 5 : 3.
+
+CARD 9:
+Front: If A is 50% more efficient than B, what is the ratio of time taken by A and B?
+Back: E_A : E_B = 150 : 100 = 3 : 2 => T_A : T_B = 2 : 3.
+
+CARD 10:
+Front: What is a work cycle in alternate-day work problems?
+Back: The set of days required for all participants to take exactly one turn in sequence.

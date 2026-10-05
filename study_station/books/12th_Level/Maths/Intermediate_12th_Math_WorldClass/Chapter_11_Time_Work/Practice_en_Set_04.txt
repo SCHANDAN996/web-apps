@@ -1,0 +1,151 @@
+Questions 76–100: Medium
+
+76. (Medium) Pipe A can fill a tank in 12 hours and Pipe B can fill it in 15 hours. If both pipes are opened together, in how many hours will the tank be full?
+(A) 6.67 hours  (B) 6.50 hours  (C) 7.00 hours  (D) 7.50 hours
+Answer: (A) 6.67 hours
+Solution: Total capacity = LCM(12, 15) = 60 units. Flow rate: Pipe A = 5 units/hour, Pipe B = 4 units/hour. Combined flow rate = 5 + 4 = 9 units/hour. Time taken to fill the tank = 60 / 9 = 20/3 = 6.67 hours. The required value is 6.67 hours. Hence, the correct option is (A).
+Source: SSC CGL Pattern
+
+77. (Medium) A pipe can fill a tank in 10 hours. Due to a leak in the bottom, it is filled in 12 hours. If the tank is full, in how many hours can the leak empty it?
+(A) 50 hours  (B) 60 hours  (C) 45 hours  (D) 72 hours
+Answer: (B) 60 hours
+Solution: Filling rate = 1/10 per hour. Net filling rate with leak = 1/12 per hour. Leak rate = 1/10 - 1/12 = (6 - 5)/60 = 1/60 per hour. Time taken by the leak to empty the full tank = 60 hours. The required value is 60 hours. Hence, the correct option is (B).
+Source: SSC CGL Pattern
+
+78. (Medium) Two pipes A and B can fill a cistern in 20 and 30 minutes respectively, and a waste pipe C can empty the full cistern in 15 minutes. If all three pipes are opened together, in how much time will the cistern be filled?
+(A) 45 minutes  (B) 50 minutes  (C) 60 minutes  (D) 75 minutes
+Answer: (C) 60 minutes
+Solution: Total capacity = LCM(20, 30, 15) = 60 units. Flow rates: A = +3, B = +2, C = -4 units/minute. Net filling rate = 3 + 2 - 4 = 1 unit/minute. Time taken to fill = 60 / 1 = 60 minutes. The required value is 60 minutes. Hence, the correct option is (C).
+Source: SSC CGL Pattern
+
+79. (Medium) A cistern has two inlet pipes A and B which can fill it in 12 hours and 16 hours respectively, and an outlet pipe C which can empty it in 8 hours. If all three pipes are opened together, how long will it take to fill the empty cistern?
+(A) 40 hours  (B) 36 hours  (C) 52 hours  (D) 48 hours
+Answer: (D) 48 hours
+Solution: Capacity = LCM(12, 16, 8) = 48 units. Flow rates: A = +4, B = +3, C = -6 units/hour. Net filling rate = 4 + 3 - 6 = 1 unit/hour. Time taken = 48 / 1 = 48 hours. The required value is 48 hours. Hence, the correct option is (D).
+Source: SSC CGL Pattern
+
+80. (Medium) Two pipes can fill a tank in 15 hours and 20 hours respectively, while a third pipe can empty it in 30 hours. If all three pipes are opened simultaneously in an empty tank, in how much time will the tank be filled?
+(A) 12 hours  (B) 10 hours  (C) 14 hours  (D) 15 hours
+Answer: (A) 12 hours
+Solution: Capacity = LCM(15, 20, 30) = 60 units. Flow rates: Pipe 1 = +4, Pipe 2 = +3, Pipe 3 = -2 units/hour. Net filling rate = 4 + 3 - 2 = 5 units/hour. Time taken = 60 / 5 = 12 hours. The required value is 12 hours. Hence, the correct option is (A).
+Source: SSC CGL Pattern
+
+81. (Medium) A tap can fill a tank in 6 hours. After half the tank is filled, three more similar taps are opened. What is the total time taken to fill the tank completely?
+(A) 3.50 hours  (B) 3.75 hours  (C) 4.00 hours  (D) 4.25 hours
+Answer: (B) 3.75 hours
+Solution: Let total capacity = 6 units. Flow rate of 1 tap = 1 unit/hour. Time to fill first half (3 units) with 1 tap = 3 / 1 = 3 hours. For the second half (3 units), 4 identical taps work together. Combined rate = 4 * 1 = 4 units/hour. Time for second half = 3 / 4 = 0.75 hours. Total time = 3 + 0.75 = 3.75 hours. The required value is 3.75 hours. Hence, the correct option is (B).
+Source: SSC CGL Pattern
+
+82. (Medium) Pipe A can fill an empty tank in 18 hours and Pipe B in 24 hours. Both pipes are opened together, but 6 hours before the tank is full, Pipe A is closed. What is the total time taken to fill the tank?
+(A) 12.50 hours  (B) 14.25 hours  (C) 13.71 hours  (D) 15.00 hours
+Answer: (C) 13.71 hours
+Solution: Capacity = LCM(18, 24) = 72 units. Rates: A = 4, B = 3 units/hour. In the final 6 hours, only Pipe B works: 6 * 3 = 18 units. Remaining work done together = 72 - 18 = 54 units. Time worked together = 54 / (4 + 3) = 54/7 = 7.71 hours. Total time = 7.71 + 6 = 13.71 hours. The required value is 13.71 hours. Hence, the correct option is (C).
+Source: SSC CGL Pattern
+
+83. (Medium) Three pipes A, B, and C can fill a tank in 6 hours. After working together for 2 hours, C is closed and A and B can fill the remaining part in 7 hours. In how many hours can C alone fill the tank?
+(A) 12 hours  (B) 16 hours  (C) 18 hours  (D) 14 hours
+Answer: (D) 14 hours
+Solution: Work done by (A + B + C) in 2 hours = 2/6 = 1/3. Remaining part = 1 - 1/3 = 2/3. (A + B) fill 2/3 of tank in 7 hours => Combined rate of (A + B) = (2/3) / 7 = 2/21 per hour. Rate of (A + B + C) = 1/6 per hour. Rate of C = 1/6 - 2/21 = (7 - 4)/42 = 3/42 = 1/14 per hour. Time taken by C alone = 14 hours. The required value is 14 hours. Hence, the correct option is (D).
+Source: SSC CGL Pattern
+
+84. (Medium) Two pipes A and B can fill a tank in 36 minutes and 45 minutes respectively. A waste pipe C can drain off 30 litres per minute. If all three pipes are opened together, the tank is filled in 30 minutes. What is the capacity of the tank?
+(A) 1800 litres  (B) 1500 litres  (C) 1600 litres  (D) 2000 litres
+Answer: (A) 1800 litres
+Solution: Combined rate of A and B = 1/36 + 1/45 = (5 + 4)/180 = 9/180 = 1/20 per minute. Net rate with C = 1/30 per minute. Rate of C = 1/20 - 1/30 = (3 - 2)/60 = 1/60 per minute. Time taken by C to empty the tank = 60 minutes. Capacity = Rate * Time = 30 litres/min * 60 min = 1800 litres. The required value is 1800 litres. Hence, the correct option is (A).
+Source: SSC CGL Pattern
+
+85. (Medium) A pipe can fill a cistern in 9 hours. Due to a leak in the bottom, it takes 10 hours to fill it. When the cistern is full, in how many hours will the leak empty it?
+(A) 80 hours  (B) 90 hours  (C) 85 hours  (D) 100 hours
+Answer: (B) 90 hours
+Solution: Inlet rate = 1/9 per hour. Net rate = 1/10 per hour. Leak rate = 1/9 - 1/10 = 1/90 per hour. Time taken by leak to empty = 90 hours. The required value is 90 hours. Hence, the correct option is (B).
+Source: SSC CGL Pattern
+
+86. (Medium) Two pipes A and B can fill a tank in 12 minutes and 15 minutes respectively. If both pipes are opened together and after 3 minutes A is closed, how much more time will B take to fill the tank?
+(A) 8.00 minutes  (B) 7.50 minutes  (C) 8.25 minutes  (D) 9.00 minutes
+Answer: (C) 8.25 minutes
+Solution: Capacity = LCM(12, 15) = 60 units. Rates: A = 5, B = 4 units/minute. In 3 minutes, (A + B) fill: 3 * (5 + 4) = 27 units. Remaining capacity = 60 - 27 = 33 units. Additional time taken by B alone = 33 / 4 = 8.25 minutes. The required value is 8.25 minutes. Hence, the correct option is (C).
+Source: SSC CGL Pattern
+
+87. (Medium) Pipe A can fill a tank in 20 hours, while Pipe B can empty it in 30 hours. Both pipes are opened alternately for 1 hour each, starting with Pipe A. In how many hours will the tank be completely filled?
+(A) 116 hours  (B) 120 hours  (C) 118 hours  (D) 115 hours
+Answer: (D) 115 hours
+Solution: Capacity = LCM(20, 30) = 60 units. Rates: A = +3 units/hour, B = -2 units/hour. In a 2-hour cycle, net water filled = 3 - 2 = 1 unit. To avoid overflow on A's turn, we consider filling 60 - 3 = 57 units. 57 units require 57 cycles = 57 * 2 = 114 hours. In the 115th hour, Pipe A is opened and fills 3 units: 57 + 3 = 60 units. Total time taken = 115 hours. The required value is 115 hours. Hence, the correct option is (D).
+Source: SSC CGL Pattern
+
+88. (Medium) Two pipes A and B can fill a cistern in 15 minutes and 20 minutes respectively. Both pipes are opened together, but Pipe A is turned off after 4 minutes. What is the total time required to fill the cistern?
+(A) 14.67 minutes  (B) 14.25 minutes  (C) 15.00 minutes  (D) 13.75 minutes
+Answer: (A) 14.67 minutes
+Solution: Capacity = LCM(15, 20) = 60 units. Flow rates: A = 4, B = 3 units/minute. In the first 4 minutes, both pipes fill: 4 * (4 + 3) = 28 units. Remaining capacity = 60 - 28 = 32 units. Time taken by B to fill remainder = 32 / 3 = 10.67 minutes. Total time = 4 + 10.67 = 14.67 minutes. The required value is 14.67 minutes. Hence, the correct option is (A).
+Source: SSC CGL Pattern
+
+89. (Medium) A bath can be filled by the cold water pipe in 10 minutes and by the hot water pipe in 15 minutes. A person leaves the bathroom after turning on both pipes simultaneously and returns at the moment when the bath should have been full. Finding the waste pipe open, he closes it, and in 4 more minutes the bath is full. In what time could the waste pipe empty the full bath?
+(A) 8 minutes  (B) 9 minutes  (C) 10 minutes  (D) 12 minutes
+Answer: (B) 9 minutes
+Solution: Expected filling time without waste pipe = (10 * 15) / (10 + 15) = 150 / 25 = 6 minutes. Combined rate of inlet pipes = 1/6 per minute. Water filled in additional 4 minutes by inlets = 4 * (1/6) = 2/3 of bath. This equals the water emptied by the waste pipe in the initial 6 minutes. Emptying rate of waste pipe = (2/3) / 6 = 1/9 per minute. Time taken by waste pipe alone = 9 minutes. The required value is 9 minutes. Hence, the correct option is (B).
+Source: SSC CGL Pattern
+
+90. (Medium) Three pipes A, B, and C can fill a tank in 10, 15, and 30 hours respectively. If pipe A is kept open all the time and pipes B and C are opened alternately for 1 hour each, in how many hours will the tank be full?
+(A) 6.5 hours  (B) 7.0 hours  (C) 6.6 hours  (D) 7.2 hours
+Answer: (C) 6.6 hours
+Solution: Capacity = LCM(10, 15, 30) = 30 units. Rates: A = 3, B = 2, C = 1 unit/hour. Hour 1: (A + B) = 3 + 2 = 5 units. Hour 2: (A + C) = 3 + 1 = 4 units. In a 2-hour cycle, units filled = 5 + 4 = 9 units. In 3 cycles (6 hours), units filled = 3 * 9 = 27 units. Remaining units = 30 - 27 = 3 units. On hour 7, (A + B) work at 5 units/hour: Time = 3 / 5 = 0.6 hours. Total time = 6 + 0.6 = 6.6 hours. The required value is 6.6 hours. Hence, the correct option is (C).
+Source: SSC CGL Pattern
+
+91. (Medium) Pipe A is 3 times faster than Pipe B and therefore is able to fill a tank in 32 minutes less than Pipe B. Find the time in which they can fill the tank together.
+(A) 10 minutes  (B) 14 minutes  (C) 15 minutes  (D) 12 minutes
+Answer: (D) 12 minutes
+Solution: Ratio of flow rates A : B = 3 : 1 => Time ratio A : B = 1 : 3. Difference in time = 3 - 1 = 2 units = 32 minutes => 1 unit = 16 minutes. Time taken by Pipe A = 16 minutes, Pipe B = 48 minutes. Time taken together = (16 * 48) / (16 + 48) = 768 / 64 = 12 minutes. The required value is 12 minutes. Hence, the correct option is (D).
+Source: SSC CGL Pattern
+
+92. (Medium) A leak in the bottom of a tank can empty the full tank in 8 hours. An inlet pipe fills water at the rate of 6 litres a minute. When the tank is full, the inlet is opened and in 12 hours the tank is emptied. What is the capacity of the tank?
+(A) 8640 litres  (B) 7200 litres  (C) 9600 litres  (D) 8400 litres
+Answer: (A) 8640 litres
+Solution: Leak rate = 1/8 tank/hour. Net emptying rate = 1/12 tank/hour. Inlet rate = Leak rate - Net emptying rate = 1/8 - 1/12 = 1/24 tank/hour. Inlet rate = 6 litres/min = 6 * 60 = 360 litres/hour. If 1/24 of capacity = 360 litres, then Total Capacity = 360 * 24 = 8640 litres. The required value is 8640 litres. Hence, the correct option is (A).
+Source: SSC CGL Pattern
+
+93. (Medium) Two pipes A and B can fill a cistern in 24 minutes and 32 minutes respectively. If both the pipes are opened together, after how much time should B be closed so that the tank is full in 18 minutes?
+(A) 6 minutes  (B) 8 minutes  (C) 9 minutes  (D) 10 minutes
+Answer: (B) 8 minutes
+Solution: Capacity = LCM(24, 32) = 96 units. Rates: A = 4, B = 3 units/minute. Pipe A remains open for the entire 18 minutes: 18 * 4 = 72 units. Remaining capacity to be filled by Pipe B = 96 - 72 = 24 units. Time for which Pipe B should be open = 24 / 3 = 8 minutes. The required value is 8 minutes. Hence, the correct option is (B).
+Source: SSC CGL Pattern
+
+94. (Medium) Twelve taps are fitted in a tank. Some are inlet pipes and others are outlet pipes. Each inlet pipe can fill the tank in 6 hours and each outlet pipe can empty the tank in 12 hours. If all taps are opened together, an empty tank gets filled in 1 hour. How many inlet pipes are there?
+(A) 6  (B) 7  (C) 8  (D) 9
+Answer: (C) 8
+Solution: Capacity = LCM(6, 12) = 12 units. Flow rate of 1 inlet = +2 units/hour, 1 outlet = -1 unit/hour. Let the number of inlet pipes be n. Then number of outlet pipes = 12 - n. Net filling rate per hour = 2n - 1(12 - n) = 3n - 12. Since the tank fills in 1 hour, net rate = 12 units/hour. 3n - 12 = 12 => 3n = 24 => n = 8 inlet pipes. The required value is 8. Hence, the correct option is (C).
+Source: SSC CGL Pattern
+
+95. (Medium) A cistern can be filled by two pipes A and B in 4 hours and 6 hours respectively. When full, the cistern can be emptied by pipe C in 8 hours. If all three pipes are opened together, what fraction of the cistern will be filled in 2 hours?
+(A) 5/12  (B) 2/3  (C) 3/4  (D) 7/12
+Answer: (D) 7/12
+Solution: Capacity = LCM(4, 6, 8) = 24 units. Flow rates: A = +6, B = +4, C = -3 units/hour. Net filling rate = 6 + 4 - 3 = 7 units/hour. In 2 hours, water filled = 2 * 7 = 14 units. Fraction filled = 14 / 24 = 7/12. The required value is 7/12. Hence, the correct option is (D).
+Source: SSC CGL Pattern
+
+96. (Medium) Two pipes can fill a tank in 20 minutes and 25 minutes respectively. If both are opened together, but after 5 minutes the first pipe is turned off, how much more time does the second pipe take to fill the tank?
+(A) 13.75 minutes  (B) 12.50 minutes  (C) 14.00 minutes  (D) 15.25 minutes
+Answer: (A) 13.75 minutes
+Solution: Capacity = LCM(20, 25) = 100 units. Flow rates: Pipe 1 = 5 units/min, Pipe 2 = 4 units/min. In 5 minutes, both pipes fill: 5 * (5 + 4) = 45 units. Remaining capacity = 100 - 45 = 55 units. Time taken by Pipe 2 alone = 55 / 4 = 13.75 minutes. The required value is 13.75 minutes. Hence, the correct option is (A).
+Source: SSC CGL Pattern
+
+97. (Medium) An inlet pipe can fill a reservoir in 15 hours. Due to a crack in the reservoir, it takes 20 hours to fill it. If the reservoir is completely full, how long will it take for the crack to empty it?
+(A) 55 hours  (B) 60 hours  (C) 50 hours  (D) 70 hours
+Answer: (B) 60 hours
+Solution: Inlet rate = 1/15 per hour. Net rate with crack = 1/20 per hour. Crack rate = 1/15 - 1/20 = (4 - 3)/60 = 1/60 per hour. Time taken by crack to empty reservoir = 60 hours. The required value is 60 hours. Hence, the correct option is (B).
+Source: SSC CGL Pattern
+
+98. (Medium) Pipe A can fill a tank in 16 hours and Pipe B can empty it in 20 hours. If both pipes are opened together, how long will it take to fill half of the tank?
+(A) 35 hours  (B) 45 hours  (C) 40 hours  (D) 50 hours
+Answer: (C) 40 hours
+Solution: Capacity = LCM(16, 20) = 80 units. Flow rates: A = +5, B = -4 units/hour. Net filling rate = 5 - 4 = 1 unit/hour. Half capacity = 80 / 2 = 40 units. Time taken = 40 / 1 = 40 hours. The required value is 40 hours. Hence, the correct option is (C).
+Source: SSC CGL Pattern
+
+99. (Medium) Three pipes A, B, and C can fill a tank in 12, 15, and 20 hours respectively. If Pipe A is open all the time and B and C are opened for one hour each alternately, how much time will it take to fill the tank?
+(A) 6.5 hours  (B) 7.5 hours  (C) 8 hours  (D) 7 hours
+Answer: (D) 7 hours
+Solution: Capacity = LCM(12, 15, 20) = 60 units. Flow rates: A = 5, B = 4, C = 3 units/hour. Hour 1: (A + B) = 5 + 4 = 9 units. Hour 2: (A + C) = 5 + 3 = 8 units. In a 2-hour cycle, units filled = 9 + 8 = 17 units. In 3 cycles (6 hours), units filled = 3 * 17 = 51 units. Remaining units = 60 - 51 = 9 units. In hour 7, (A + B) work and fill exactly 9 units. Total time taken = 6 + 1 = 7 hours. The required value is 7 hours. Hence, the correct option is (D).
+Source: SSC CGL Pattern
+
+100. (Medium) A pipe can fill a tank in 8 hours and another pipe can empty it in 12 hours. If both pipes are opened together, how long will it take to fill 75% of the tank?
+(A) 16 hours  (B) 18 hours  (C) 20 hours  (D) 24 hours
+Answer: (B) 18 hours
+Solution: Capacity = LCM(8, 12) = 24 units. Flow rates: Pipe 1 = +3, Pipe 2 = -2 units/hour. Net filling rate = 3 - 2 = 1 unit/hour. 75% of tank capacity = 0.75 * 24 = 18 units. Time taken = 18 / 1 = 18 hours. The required value is 18 hours. Hence, the correct option is (B).
+Source: SSC CGL Pattern

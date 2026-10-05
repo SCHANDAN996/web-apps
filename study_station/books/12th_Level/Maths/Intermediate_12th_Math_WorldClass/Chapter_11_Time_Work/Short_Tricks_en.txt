@@ -1,0 +1,16 @@
+# Short Tricks & Mental Hacks: Time & Work
+
+### Trick 1: The 'LCM Unit Block' Hack
+Assign Total Work = LCM of all given time intervals. Divide total units by each worker's time to get whole-number daily efficiencies. Never touch fractions again!
+
+### Trick 2: The 'Pre-Departure Work Addition' Trick
+If a worker leaves $d$ days before work completion:
+Add their potential contribution ($d \times E$) to the Total Work, and divide by the sum of ALL efficiencies. Yields the total project completion time in 3 seconds!
+
+### Trick 3: The Radical Surplus Hack [T = sqrt(a * b)]
+If A takes $a$ days more than (A + B) together, and B takes $b$ days more than (A + B) together:
+The time taken by both together is simply $T = \sqrt{a \cdot b}$ days!
+
+### Trick 4: The 'Men or Women' Cross-Multiplication
+For "m_1 Men or w_1 Women in D days, find m_2 Men and w_2 Women":
+$T = \frac{\text{Total Days}}{\frac{m_2}{m_1} + \frac{w_2}{w_1}}$.
