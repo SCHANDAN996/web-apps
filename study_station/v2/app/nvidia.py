@@ -8,6 +8,7 @@ import json
 import logging
 import re
 import socket
+import time
 import urllib.error
 import urllib.request
 
@@ -18,8 +19,22 @@ log = logging.getLogger('nvidia')
 THINK = re.compile(r'<think>.*?</think>\s*', re.S)     # some models print their reasoning inline
 
 
+RETRY_WAITS = (20, 60, 180)          # seconds between tries on rate limits / server or network errors
+
+
 def call(system, user, *, max_tokens=16000, temperature=0.3, model=None):
-    """One chat completion. Returns the answer text (reasoning, if any, is dropped)."""
+    """One chat completion, retried on rate limits and temporary failures."""
+    for wait in RETRY_WAITS + (None,):
+        try:
+            return _call_once(system, user, max_tokens, temperature, model)
+        except AIUnavailable as e:
+            if wait is None or str(e) not in ('rate_limited', 'api_error', 'network'):
+                raise
+            log.warning('NVIDIA %s — retrying in %ss', e, wait)
+            time.sleep(wait)
+
+
+def _call_once(system, user, max_tokens, temperature, model):
     if not config.NVIDIA_API_KEY:
         raise AIUnavailable('not_configured')
     body = json.dumps({

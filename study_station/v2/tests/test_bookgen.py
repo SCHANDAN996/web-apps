@@ -170,6 +170,16 @@ def test_nvidia_errors_map_to_ai_unavailable(monkeypatch):
     monkeypatch.setattr(nvidia.urllib.request, 'urlopen', denied)
     with pytest.raises(ai.AIUnavailable, match='auth'):
         nvidia.call('s', 'u')
+    tries = []
+
+    def busy(req, timeout):
+        tries.append(1)
+        raise urllib.error.HTTPError(req.full_url, 429, 'busy', {}, None)
+    monkeypatch.setattr(nvidia, 'RETRY_WAITS', (0, 0))
+    monkeypatch.setattr(nvidia.urllib.request, 'urlopen', busy)
+    with pytest.raises(ai.AIUnavailable, match='rate_limited'):
+        nvidia.call('s', 'u')
+    assert len(tries) == 3                                   # first try + one per wait
     monkeypatch.setattr(nvidia.urllib.request, 'urlopen', lambda req, timeout: FakeStream(sse('x', finish='length')))
     with pytest.raises(ai.AIUnavailable, match='too_long'):
         nvidia.call('s', 'u')
