@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 06-10-2026 02:04 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 01:25 AM
+**आख़िरी update:** 06-10-2026 02:05 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 01:25 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Pronoun (Graduation English) | 🔎 review हो रहा है | 38 मिनट |
-| W2 | Chapter 08 Conjunction (Graduation English) | ✍️ लिख रहा है | 14 मिनट |
-| W3 | Chapter 07 Preposition (Graduation English) | ✍️ लिख रहा है | 18 मिनट |
-| W4 | Chapter 06 Adverb (Graduation English) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 02 Pronoun (Graduation English) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 08 Conjunction (Graduation English) | ✍️ लिख रहा है | 16 मिनट |
+| W3 | Chapter 07 Preposition (Graduation English) | ✍️ लिख रहा है | 19 मिनट |
+| W4 | Chapter 09 Articles (Graduation English) | ✍️ लिख रहा है | 1 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -33,6 +33,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 06-10 02:05 — Graduation English · Chapter 02 Pronoun
 - 06-10 02:04 — Graduation English · Chapter 06 Adverb
 - 06-10 01:49 — Graduation English · Chapter 03 Adjective
 - 06-10 01:46 — Graduation English · Chapter 05 Tense
@@ -42,13 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-06-10 01:20:25 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_02_Pronoun (OK: todo 0, problems 0)
-06-10 01:23:09   [Adverb] review Short_Tricks_en.txt: 1 issue(s): - Trick 4 heading 'MOSQUITO Order of Adverbs' is incorrect; the mnemonic given is 'My Pet Tiger' (M-P-T) → Cha
-06-10 01:25:42 autopilot start: 4 workers, reverse=True
-06-10 01:25:42 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_02_Pronoun (OK: todo 0, problems 0)
-06-10 01:25:47 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_03_Adjective (OK: todo 0, problems 0)
-06-10 01:25:52 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_05_Tense (OK: todo 0, problems 0)
-06-10 01:25:57 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_06_Adverb (OK: todo 0, problems 0)
 06-10 01:32:13   [Tense] review Mind_Map_en.txt: 1 issue(s): - "12 GOLDEN RULES" label shows only 6 rules (E1–E6) → change label to "6 GOLDEN RULES" or add the missing 6 rules
 06-10 01:32:24   [Pronoun] review Content_en.txt: 1 issue(s): - Rule 10 example "He is the same man as came yesterday" incorrectly uses 'as' instead of 'that' for identity → He 
 06-10 01:33:27   [Tense] review Mind_Map_hi.txt: 1 issue(s): - H1 म्नेमोनिक "S-P-C-P: Simple-Perfect -Continuous-Perfect Cont." कालों का क्रम गलत दर्शाता है → सही क्रम है: Sim
@@ -82,4 +76,11 @@
 06-10 02:01:22   [Preposition] Practice_en_Set_02.txt try 1: re-solve disagrees (Q42 key d vs re-solve ?, Q46 key b vs re-solve a)
 06-10 02:04:16   [Adverb] review: 3 section(s) corrected, 0 failed
 06-10 02:04:16   [Adverb] written 3, failed 0; AI calls today 181/100000
+06-10 02:04:23 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_06_Adverb in 38 min → c4aa7bf
+06-10 02:04:23 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_09_Articles (TODO: todo 26, problems 0)
+06-10 02:04:28   [Pronoun] review Important_Rules_hi.txt: 1 issue(s): - Rule 6 incorrectly states 'क्रिया के बाद Objective Case' while the example and trap involve a preposition
+06-10 02:04:59   [Conjunction] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+06-10 02:05:32   [Articles] wrote Content_en.txt (6073 chars)
+06-10 02:05:52   [Pronoun] review: 5 section(s) corrected, 0 failed
+06-10 02:05:52   [Pronoun] written 5, failed 0; AI calls today 185/100000
 ```
