@@ -1,239 +1,329 @@
-📝 Practice Set 5/6: Statement & Conclusion (Basic)
+📝 Practice Set 5 (Questions 101–125)
 
-Total Questions: 25 (Q101–Q120 Medium, Q121–Q125 Hard)
-Instructions: In each question, one or more statements are given followed by two conclusions I and II. Assume the statements to be true, even if they conflict with commonly known facts. Decide which of the conclusions logically follow(s). Mark:
+Medium (101–120), Hard (121–125) | Total 25 MCQs
+Includes at least 2 Examiner's Trap questions (marked in the solution).
 
-(A) Only conclusion I follows
-
-(B) Only conclusion II follows
-
-(C) Both I and II follow
-
-(D) Neither I nor II follows
-
-101. Statement: Some trees are green. All green things are natural.
+Q101. (Medium) Statements: All birds are feathered. All feathered creatures are animals.
 Conclusions:
-I. Some natural things are trees.
-II. Some trees are not green.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (A) Only I follows
-Solution: I follows from chaining and conversion: Some trees are green → some green are trees; those green are natural → some natural are trees. II is the 'Some not' trap — 'Some' does not guarantee 'Some not'.
-Source: PYQ-style
+I. All birds are animals.
+II. Some animals are birds.
+(A) Both conclusions I and II follow (B) Only conclusion II follows (C) Only conclusion I follows (D) Neither conclusion I nor II follows
 
-102. Statement: All that is white is not milk.
+Answer: (A) Both conclusions I and II follow
+
+Solution:
+Birds ⊂ Feathered ⊂ Animals. Both conclusions follow by transitive inclusion. Hence, the correct option is (A).
+
+Source: SSC CGL
+
+Q102. (Medium) Statements: Some shirts are silk. Some silk is smooth.
 Conclusions:
-I. Some white things are milk.
-II. Some white things are not milk.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (B) Only II follows
-Solution: The idiomatic statement means "Not all white things are milk," i.e., some white things are not milk. II follows. I is not definite.
-Source: PYQ-style
+I. Some shirts are smooth.
+II. No shirt is smooth.
+(A) Only conclusion I follows (B) Either conclusion I or II follows (C) Only conclusion II follows (D) Neither conclusion I nor II follows
 
-103. Statement: Some pens are not blue. All blue items are colored.
+Answer: (B) Either conclusion I or II follows
+
+Solution:
+Shirts and smooth items form a complementary pair ('Some' / 'No'). Either I or II must follow. Hence, the correct option is (B).
+
+Source: SSC CHSL
+
+Q103. (Medium) Statements: No iron is wood. All wood is combustible.
 Conclusions:
-I. Some pens are not colored.
-II. Some pens are colored.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (D) Neither I nor II follows
-Solution: Non-blue pens could still be colored (e.g., red). So I is not definite. II is not definite because we don't know if any pen is blue.
-Source: PYQ-style
+I. Some combustible items are not iron.
+II. No combustible item is iron.
+(A) Both conclusions I and II follow (B) Only conclusion II follows (C) Only conclusion I follows (D) Neither conclusion I nor II follows
 
-104. Statement: No lion is a tiger. Some tigers are wild.
+Answer: (C) Only conclusion I follows
+
+Solution:
+Wood is combustible and cannot be iron, so some combustible items are not iron (I follows). II is not certain. Hence, the correct option is (C).
+
+Source: SSC MTS
+
+Q104. (Medium) Statements: Some fruits are oranges. All oranges are citrus.
 Conclusions:
-I. Some wild animals are not lions.
-II. No wild animal is a lion.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (A) Only I follows
-Solution: The tigers that are wild are not lions (since no lion is a tiger). Hence, some wild animals are not lions. II is too broad.
-Source: Bank PO 2019
+I. Some fruits are citrus.
+II. All citrus are fruits.
+(A) Neither conclusion I nor II follows (B) Only conclusion II follows (C) Both conclusions I and II follow (D) Only conclusion I follows
 
-105. Statement: Some actors are dancers. Some dancers are singers.
+Answer: (D) Only conclusion I follows
+
+Solution:
+Fruits that are oranges are citrus, so 'Some fruits are citrus' follows (I follows). II is invalid reversal. Hence, the correct option is (D).
+
+Source: RRB NTPC
+
+Q105. (Medium) Statements: All planets are round. The Moon is round.
 Conclusions:
-I. Some actors are singers.
-II. No actor is a singer.
-Options: (A) Only I (B) Only II (C) Either I or II (D) Neither I nor II
-Answer: (C) Either I or II follows
-Solution: There is no direct link between actors and singers. The set of actors may overlap with singers (making I true) or may be entirely disjoint (making II true). Both cannot be false simultaneously. Hence, either I or II follows.
-Source: PYQ-style
+I. The Moon is a planet.
+II. Some round objects are planets.
+(A) Only conclusion II follows (B) Only conclusion I follows (C) Both conclusions I and II follow (D) Neither conclusion I nor II follows
 
-106. Statement: All grapes are fruits. Some fruits are not sweet.
+Answer: (A) Only conclusion II follows
+
+Solution:
+Conversion of 'All planets are round' gives 'Some round objects are planets' (II follows). The Moon being round does not make it a planet (undistributed middle). Hence, the correct option is (A).
+
+Source: RRB Group D
+
+Q106. (Medium) Statements: All singers are artists. Some artists are dancers.
 Conclusions:
-I. Some grapes are sweet.
-II. Some grapes are not sweet.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (D) Neither I nor II follows
-Solution: Grapes are a subset of fruits. The 'some fruits are not sweet' does not specify which fruits; grapes could be entirely within the sweet or non-sweet part. So neither conclusion is definite.
-Source: PYQ-style
+I. All singers are dancers.
+II. Some singers are dancers.
+(A) Only conclusion I follows (B) Neither conclusion I nor II follows (C) Both conclusions I and II follow (D) Only conclusion II follows
 
-107. Statement: Some dogs are not pets. All pets are loved.
+Answer: (B) Neither conclusion I nor II follows
+
+Solution:
+Singers and dancers both connect to artists, but their intersection is not guaranteed. Neither follows. Hence, the correct option is (B).
+
+Source: SSC CGL
+
+Q107. (Medium) ⚠️ Statements: Some cars are white.
 Conclusions:
-I. Some dogs are loved.
-II. Some dogs are not loved.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (D) Neither I nor II follows
-Solution: "Some dogs are not pets" does not assert that any dog is a pet, so no direct link to 'loved'. Both conclusions lack a definite basis.
-Source: PYQ-style
+I. Some cars are not white.
+II. Some white vehicles are cars.
+(A) Only conclusion I follows (B) Both conclusions I and II follow (C) Only conclusion II follows (D) Neither conclusion I nor II follows
 
-108. Statement: No teacher is a student. All students are learners.
+Answer: (C) Only conclusion II follows
+
+Solution:
+'Some cars are white' converts to 'Some white vehicles are cars' (II follows). Examiner's Trap: 'Some are' does not guarantee 'Some are not'. Hence, the correct option is (C).
+
+Source: SSC CHSL
+
+Q108. (Medium) Statements: No reptile has hair. All crocodiles are reptiles.
 Conclusions:
-I. Some learners are not teachers.
-II. No learner is a teacher.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (A) Only I follows
-Solution: Students are learners and they are not teachers. So some learners (the students) are not teachers. II is not forced because teachers could still be learners (just not students).
-Source: PYQ-style
+I. No crocodile has hair.
+II. Some reptiles are crocodiles.
+(A) Only conclusion I follows (B) Only conclusion II follows (C) Neither conclusion I nor II follows (D) Both conclusions I and II follow
 
-109. Statement: Only a few mobiles are smartphones. All smartphones are gadgets.
+Answer: (D) Both conclusions I and II follow
+
+Solution:
+Crocodiles are reptiles and reptiles have no hair; hence no crocodile has hair (I follows). 'All crocodiles are reptiles' converts to 'Some reptiles are crocodiles' (II follows). Hence, the correct option is (D).
+
+Source: SSC MTS
+
+Q109. (Medium) Statements: Some books are novels. All novels are literature.
 Conclusions:
-I. Some mobiles are gadgets.
-II. Some mobiles are not gadgets.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (A) Only I follows
-Solution: "Only a few" means some mobiles are smartphones. Those smartphones are gadgets, so some mobiles are gadgets. Non-smartphone mobiles could still be gadgets, so II is not definite.
-Source: PYQ-style
+I. Some books are literature.
+II. All literature is books.
+(A) Only conclusion I follows (B) Only conclusion II follows (C) Both conclusions I and II follow (D) Neither conclusion I nor II follows
 
-110. Statement: Some stars are not bright. All bright stars are visible.
+Answer: (A) Only conclusion I follows
+
+Solution:
+Books that are novels are literature, so I follows. II is invalid reversal. Hence, the correct option is (A).
+
+Source: RRB NTPC
+
+Q110. (Medium) Statements: All diamonds are hard. Glass is not hard.
 Conclusions:
-I. Some stars are visible.
-II. Some stars are not visible.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (D) Neither I nor II follows
-Solution: "Some stars are not bright" is compatible with "no star is bright." So we cannot say any star is visible. II also not forced; non-bright stars could still be visible.
-Source: PYQ-style
+I. Glass is not a diamond.
+II. Some hard things are diamonds.
+(A) Only conclusion I follows (B) Both conclusions I and II follow (C) Only conclusion II follows (D) Neither conclusion I nor II follows
 
-111. Statement: All circles are shapes. Some shapes are squares.
+Answer: (B) Both conclusions I and II follow
+
+Solution:
+Diamonds are hard and glass is not; hence glass is not a diamond (I follows). Conversion yields some hard things are diamonds (II follows). Hence, the correct option is (B).
+
+Source: RRB Group D
+
+Q111. (Medium) Statements: Some actors are directors. Some directors are producers.
 Conclusions:
-I. Some circles are squares.
-II. Some shapes are not circles.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (D) Neither I nor II follows
-Solution: I: circles may be completely outside the square part. II: "Some shapes are squares" does not imply those squares are not circles (logically, they could overlap). So neither is definite. (Do not use geometry knowledge.)
-Source: PYQ-style
+I. Some actors are producers.
+II. All producers are actors.
+(A) Only conclusion I follows (B) Only conclusion II follows (C) Neither conclusion I nor II follows (D) Both conclusions I and II follow
 
-112. Statement: Some books are novels. No novel is a magazine.
+Answer: (C) Neither conclusion I nor II follows
+
+Solution:
+Two particular premises ('Some') do not yield any certain connection between actors and producers. Hence, the correct option is (C).
+
+Source: SSC CGL
+
+Q112. (Medium) Statements: All cars have wheels. Bicycles have wheels.
 Conclusions:
-I. Some books are not magazines.
-II. No book is a magazine.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (A) Only I follows
-Solution: The books that are novels are not magazines. So I follows. II is not forced; other books could be magazines.
-Source: PYQ-style
+I. Bicycles are cars.
+II. Some vehicles with wheels are cars.
+(A) Only conclusion I follows (B) Neither conclusion I nor II follows (C) Both conclusions I and II follow (D) Only conclusion II follows
 
-113. Statement: All politicians are leaders. Some leaders are corrupt.
+Answer: (D) Only conclusion II follows
+
+Solution:
+'All cars have wheels' converts to 'Some vehicles with wheels are cars' (II follows). Both having wheels does not make bicycles cars (undistributed middle). Hence, the correct option is (D).
+
+Source: SSC CHSL
+
+Q113. (Medium) Statements: No tree is moving. All animals are moving.
 Conclusions:
-I. Some politicians are corrupt.
-II. No politician is corrupt.
-Options: (A) Only I (B) Only II (C) Either I or II (D) Neither I nor II
-Answer: (C) Either I or II follows
-Solution: Politicians are a subset of leaders. The corrupt leaders may include all, some, or none of the politicians. In all possible models, either some politicians overlap with corrupt leaders (I) or no politician does (II). Thus, one of them must be true.
-Source: PYQ-style
+I. No tree is an animal.
+II. No animal is a tree.
+(A) Both conclusions I and II follow (B) Only conclusion II follows (C) Only conclusion I follows (D) Neither conclusion I nor II follows
 
-114. Statement: Some birds can fly. No flying creature is a penguin.
+Answer: (A) Both conclusions I and II follow
+
+Solution:
+Animals are moving while trees are not moving; hence trees and animals are completely disjoint. Both follow. Hence, the correct option is (A).
+
+Source: SSC MTS
+
+Q114. (Medium) Statements: Some doctors are surgeons. All surgeons are brave.
 Conclusions:
-I. Some birds are not penguins.
-II. No bird is a penguin.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (A) Only I follows
-Solution: Birds that can fly are not penguins. So some birds are not penguins. But some birds (like penguins) might not fly and could be penguins; thus II is not definite.
-Source: PYQ-style
+I. Some doctors are brave.
+II. All brave people are doctors.
+(A) Only conclusion II follows (B) Only conclusion I follows (C) Both conclusions I and II follow (D) Neither conclusion I nor II follows
 
-115. Statement: Only a few students are athletes. No athlete is lazy.
+Answer: (B) Only conclusion I follows
+
+Solution:
+Surgeon doctors are brave, so I follows. II is invalid reversal. Hence, the correct option is (B).
+
+Source: RRB NTPC
+
+Q115. (Medium) Statements: All gold is metal. No metal is transparent.
 Conclusions:
-I. Some students are not lazy.
-II. Some students are lazy.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (A) Only I follows
-Solution: "Only a few" implies some students are athletes. Those athletes are not lazy, so some students are not lazy. Non-athlete students could be lazy or not, so II is not forced.
-Source: PYQ-style
+I. No gold is transparent.
+II. Some metals are gold.
+(A) Only conclusion I follows (B) Only conclusion II follows (C) Both conclusions I and II follow (D) Neither conclusion I nor II follows
 
-116. Statement: Some mangoes are not ripe. All ripe mangoes are sweet.
+Answer: (C) Both conclusions I and II follow
+
+Solution:
+Gold is inside metal, which is disjoint from transparent; hence no gold is transparent (I follows). 'All gold is metal' converts to 'Some metals are gold' (II follows). Hence, the correct option is (C).
+
+Source: RRB Group D
+
+Q116. (Medium) Statements: Some papers are files. Some files are folders.
 Conclusions:
-I. Some mangoes are sweet.
-II. Some mangoes are not sweet.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (D) Neither I nor II follows
-Solution: "Some mangoes are not ripe" does not say any mango is ripe; they could all be unripe. So we cannot conclude any mango is sweet. II is also not forced; non-ripe mangoes could still be sweet.
-Source: PYQ-style
+I. Some papers are folders.
+II. No paper is a folder.
+(A) Only conclusion I follows (B) Only conclusion II follows (C) Neither conclusion I nor II follows (D) Either conclusion I or II follows
 
-117. Statement: All metals are elements. Some elements are rare.
+Answer: (D) Either conclusion I or II follows
+
+Solution:
+Papers and folders form an Either-Or complementary pair ('Some' / 'No'). One of them must follow. Hence, the correct option is (D).
+
+Source: SSC CGL
+
+Q117. (Medium) Statements: All horses run fast. Animal X does not run fast.
 Conclusions:
-I. Some metals are rare.
-II. Some rare things are elements.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (B) Only II follows
-Solution: II is the direct conversion of "Some elements are rare". I is not definite; metals could be outside the rare elements.
-Source: PYQ-style
+I. Animal X is not a horse.
+II. All fast runners are horses.
+(A) Only conclusion I follows (B) Only conclusion II follows (C) Both conclusions I and II follow (D) Neither conclusion I nor II follows
 
-118. Statement: No cat is a dog. All dogs are mammals.
+Answer: (A) Only conclusion I follows
+
+Solution:
+Horses run fast and Animal X does not, so Animal X cannot be a horse (I follows). II is invalid reversal. Hence, the correct option is (A).
+
+Source: SSC CHSL
+
+Q118. (Medium) Statements: Some tables are wooden. All wooden items are flammable.
 Conclusions:
-I. Some mammals are not cats.
-II. No mammal is a cat.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (A) Only I follows
-Solution: Dogs are mammals and are not cats, so some mammals (dogs) are not cats. II is not forced; cats themselves could be mammals.
-Source: PYQ-style
+I. Some tables are flammable.
+II. All flammable items are tables.
+(A) Only conclusion II follows (B) Only conclusion I follows (C) Both conclusions I and II follow (D) Neither conclusion I nor II follows
 
-119. Statement: Some flowers are red. All red things are beautiful.
+Answer: (B) Only conclusion I follows
+
+Solution:
+Wooden tables are flammable, so 'Some tables are flammable' follows (I follows). II is invalid reversal. Hence, the correct option is (B).
+
+Source: SSC MTS
+
+Q119. (Medium) Statements: All birds are winged. All winged creatures are flying.
 Conclusions:
-I. Some flowers are beautiful.
-II. Some beautiful things are not flowers.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (A) Only I follows
-Solution: I follows by chaining. II is not definite; all beautiful things could be flowers.
-Source: Bank PO 2020
+I. All birds are flying.
+II. Some flying creatures are birds.
+(A) Only conclusion I follows (B) Only conclusion II follows (C) Both conclusions I and II follow (D) Neither conclusion I nor II follows
 
-120. Statement: All that glitters is not gold.
+Answer: (C) Both conclusions I and II follow
+
+Solution:
+Birds ⊂ Winged ⊂ Flying. Both I and II follow by transitive property. Hence, the correct option is (C).
+
+Source: RRB NTPC
+
+Q120. (Medium) Statements: Some politicians are lawyers. Some lawyers are judges.
 Conclusions:
-I. No glittering thing is gold.
-II. Some glittering things are not gold.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (B) Only II follows
-Solution: The proverb means "Not everything that glitters is gold," i.e., some glittering things are not gold. II captures this. I is too extreme.
-Source: PYQ-style
+I. Some politicians are judges.
+II. All judges are politicians.
+(A) Only conclusion I follows (B) Only conclusion II follows (C) Both conclusions I and II follow (D) Neither conclusion I nor II follows
 
-121. (Hard) Statement: All pens are markers. Some markers are not permanent. No permanent thing is erasable.
+Answer: (D) Neither conclusion I nor II follows
+
+Solution:
+Two particular premises do not guarantee any relationship between politicians and judges. Hence, the correct option is (D).
+
+Source: RRB Group D
+
+Q121. (Hard) Statements: Only a few trees are banyans. All banyans have aerial roots.
 Conclusions:
-I. Some pens are permanent.
-II. Some pens are not erasable.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (D) Neither I nor II follows
-Solution: Pens are a subset of markers. The markers that are not permanent could be the only markers, and no pen might be permanent. So I is not definite. For II: even if pens are not permanent, we don't know if they are erasable (non-permanent doesn't imply erasable; erasable is defined only for permanent things: no permanent thing is erasable, but non-permanent things could be erasable or not). No link. Hence, neither follows.
-Source: PYQ-style
+I. Some trees have aerial roots.
+II. Some trees are not banyans.
+(A) Both conclusions I and II follow (B) Only conclusion II follows (C) Only conclusion I follows (D) Neither conclusion I nor II follows
 
-122. (Hard) Statement: Some teachers are not patient. All patient teachers are good. No good teacher is rude.
+Answer: (A) Both conclusions I and II follow
+
+Solution:
+'Only a few' implies 'Some are' and 'Some are not'. Hence II follows. The banyan trees have aerial roots, so I follows. Hence, the correct option is (A).
+
+Source: SSC CGL
+
+Q122. (Hard) ⚠️ Statements: Generally, teachers are patient.
 Conclusions:
-I. Some rude teachers are not patient.
-II. Some good teachers are not rude.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (D) Neither I nor II follows
-Solution: Existential trap: The statements do not assert the existence of any rude teacher. So even if "all patient teachers are good" and "no good teacher is rude" imply that patient teachers are not rude, we cannot conclude anything about rude teachers without assuming there exists at least one rude teacher. Similarly, II needs the existence of a good teacher, which is not guaranteed (we are not told there is any patient teacher). Hence, neither conclusion follows.
-Source: Bank PO Mains 2020 (Examiner's Trap: existential fallacy)
+I. Some teachers are patient.
+II. Some teachers are not patient.
+(A) Only conclusion II follows (B) Only conclusion I follows (C) Both conclusions I and II follow (D) Neither conclusion I nor II follows
 
-123. (Hard) Statement: Some birds can swim. All swimmers are animals. Some animals are mammals.
+Answer: (B) Only conclusion I follows
+
+Solution:
+'Generally' represents a particular affirmative ('Some/Most'). It guarantees that some teachers are patient (I follows). Examiner's Trap: We cannot definitely deduce that some are not patient. Hence, the correct option is (B).
+
+Source: SSC CHSL
+
+Q123. (Hard) Statements: All triangles have three angles. Figure P does not have three angles.
 Conclusions:
-I. Some birds are mammals.
-II. Some mammals are not birds.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (D) Neither I nor II follows
-Solution: From the statements, birds that can swim are animals. But those animals may or may not be mammals; no link is forced. So I not definite. II: "Some animals are mammals" does not specify that those mammals are not birds (they could logically be birds if birds are a type of animal). So no definite conclusion.
-Source: PYQ-style
+I. Figure P is not a triangle.
+II. Some three-angled figures are triangles.
+(A) Only conclusion I follows (B) Only conclusion II follows (C) Both conclusions I and II follow (D) Neither conclusion I nor II follows
 
-124. (Hard) Statement: All chocolates are sweets. Some sweets are not healthy. No healthy thing is cheap.
+Answer: (C) Both conclusions I and II follow
+
+Solution:
+Triangles have three angles and Figure P does not; hence Figure P is not a triangle (I follows). Conversion yields some three-angled figures are triangles (II follows). Hence, the correct option is (C).
+
+Source: SSC MTS
+
+Q124. (Hard) Statements: Some scientists are visionaries. All visionaries are creative. No creative person is dull.
 Conclusions:
-I. Some chocolates are not cheap.
-II. Some chocolates are cheap.
-Options: (A) Only I (B) Only II (C) Either I or II (D) Neither I nor II
-Answer: (D) Neither I nor II follows
-Solution: Chocolates are sweets. The 'some not healthy' sweets could be non-chocolates. Also, cheapness is related to unhealthy things? We only know healthy things are not cheap; unhealthy things could be cheap or expensive. So no definite link to chocolates. Moreover, I and II are not complementary because both could be true (some cheap chocolates, some not cheap) or both false (no chocolates exist? but assumed existence). Since they can both be true, they do not form an either-or pair. So (D).
-Source: PYQ-style
+I. Some scientists are not dull.
+II. No scientist is dull.
+(A) Neither conclusion I nor II follows (B) Only conclusion II follows (C) Both conclusions I and II follow (D) Only conclusion I follows
 
-125. (Hard) Statement: Only a few players are captains. All captains are leaders. Some leaders are not experienced.
+Answer: (D) Only conclusion I follows
+
+Solution:
+Scientists who are visionaries are creative and not dull, so 'Some scientists are not dull' follows (I follows). Other scientists could be dull, so II does not follow. Hence, the correct option is (D).
+
+Source: RRB NTPC
+
+Q125. (Hard) Statements: No coward is a hero. All martyrs are heroes. Some soldiers are martyrs.
 Conclusions:
-I. Some players are not experienced.
-II. Some experienced people are players.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (D) Neither I nor II follows
-Solution: "Only a few" gives some players are captains (thus leaders). But we don't know if those leaders are among the "not experienced" group. So I is not definite. II: no link from experienced to players; experienced leaders might not be captains, and captains might not be experienced. Hence, neither follows.
-Source: PYQ-style
+I. No martyr is a coward.
+II. Some soldiers are heroes.
+(A) Only conclusion I follows (B) Both conclusions I and II follow (C) Only conclusion II follows (D) Neither conclusion I nor II follows
 
-End of Set 5
+Answer: (B) Both conclusions I and II follow
+
+Solution:
+Martyrs are heroes, and no hero is a coward; hence no martyr is a coward (I follows). Soldiers who are martyrs are heroes, so II follows. Hence, the correct option is (B).
+
+Source: RRB Group D

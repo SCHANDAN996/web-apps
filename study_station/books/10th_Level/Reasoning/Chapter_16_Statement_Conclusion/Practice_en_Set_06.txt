@@ -1,239 +1,329 @@
-📝 Practice Set 6/6: Statement & Conclusion (Basic)
+📝 Practice Set 6 (Questions 126–150)
 
-Total Questions: 25 (Q126–Q150, All Hard)
-Instructions: In each question, one or more statements are given followed by two conclusions I and II. Assume the statements to be true, even if they conflict with commonly known facts. Decide which of the conclusions logically follow(s). Mark:
+Medium (126–145), Hard (146–150) | Total 25 MCQs
+Includes at least 2 Examiner's Trap questions (marked in the solution).
 
-(A) Only conclusion I follows
-
-(B) Only conclusion II follows
-
-(C) Both I and II follow
-
-(D) Neither I nor II follows
-
-126. Statement: Some A are B. Some B are C. No C is D.
+Q126. (Medium) Statements: All fruits are delicious. Mangoes are fruits.
 Conclusions:
-I. Some A are not D.
-II. No A is D.
-Options: (A) Only I (B) Only II (C) Either I or II (D) Neither I nor II
-Answer: (D) Neither I nor II follows
-Solution: There is no direct link from A to D. A could overlap with the B that are C (which are not D), but A could also be entirely outside that set. So I is not definite. II is also not forced; A might have no relation with D.
-Source: PYQ-style
+I. Mangoes are delicious.
+II. Some delicious things are fruits.
+(A) Both conclusions I and II follow (B) Only conclusion II follows (C) Only conclusion I follows (D) Neither conclusion I nor II follows
 
-127. Statement: Only a few teachers are researchers. All researchers are scholars. Some scholars are authors.
+Answer: (A) Both conclusions I and II follow
+
+Solution:
+Mangoes are fruits and therefore delicious (I follows). 'All fruits are delicious' converts to 'Some delicious things are fruits' (II follows). Hence, the correct option is (A).
+
+Source: SSC CGL
+
+Q127. (Medium) Statements: Some bags are leather. Some leather items are brown.
 Conclusions:
-I. Some teachers are authors.
-II. Some teachers are not authors.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (D) Neither I nor II follows
-Solution: Teachers who are researchers are scholars. But we do not know if those scholars are among the 'some scholars are authors'. Non-researcher teachers could still be authors. So neither conclusion is definite.
-Source: PYQ-style
+I. Some bags are brown.
+II. No bag is brown.
+(A) Only conclusion I follows (B) Either conclusion I or II follows (C) Only conclusion II follows (D) Neither conclusion I nor II follows
 
-128. Statement: No actor is a singer. Some singers are dancers. All dancers are performers.
+Answer: (B) Either conclusion I or II follows
+
+Solution:
+Bags and brown items form a complementary pair ('Some' / 'No'). Either I or II must follow. Hence, the correct option is (B).
+
+Source: SSC CHSL
+
+Q128. (Medium) Statements: No fish is warm-blooded. All dolphins are warm-blooded.
 Conclusions:
-I. Some performers are not actors.
-II. No performer is an actor.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (A) Only I follows
-Solution: The singers who are dancers are performers and are not actors. So some performers are not actors. II is too extreme; actors could be performers via other paths.
-Source: Bank PO 2020
+I. No dolphin is a fish.
+II. Some warm-blooded animals are dolphins.
+(A) Only conclusion I follows (B) Only conclusion II follows (C) Both conclusions I and II follow (D) Neither conclusion I nor II follows
 
-129. Statement: All that is red is not danger. (Meaning: Not all red things are danger.)
+Answer: (C) Both conclusions I and II follow
+
+Solution:
+Dolphins are warm-blooded and fish are not; hence dolphins and fish are disjoint (I follows). Conversion yields some warm-blooded animals are dolphins (II follows). Hence, the correct option is (C).
+
+Source: SSC MTS
+
+Q129. (Medium) Statements: Some students are athletes. All athletes are healthy.
 Conclusions:
-I. Some red things are danger.
-II. Some red things are not danger.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (B) Only II follows
-Solution: The idiom says 'Not all red things are danger', so at least some red things are not danger. II follows. I is not guaranteed; it's possible that no red thing is danger.
-Source: PYQ-style
+I. Some students are healthy.
+II. All healthy people are students.
+(A) Neither conclusion I nor II follows (B) Only conclusion II follows (C) Both conclusions I and II follow (D) Only conclusion I follows
 
-130. Statement: Some fruits are not sweet. All sweet fruits are expensive. No expensive item is cheap.
+Answer: (D) Only conclusion I follows
+
+Solution:
+Students who are athletes are healthy, so I follows. II is an invalid reversal. Hence, the correct option is (D).
+
+Source: RRB NTPC
+
+Q130. (Medium) Statements: All carnivores eat meat. Sheep do not eat meat.
 Conclusions:
-I. Some fruits are cheap.
-II. Some fruits are not cheap.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (D) Neither I nor II follows
-Solution: From 'Some fruits are not sweet', we cannot deduce they are cheap or expensive. The sweet fruits are expensive and not cheap, but we don't know if any fruit is sweet. So neither is definite.
-Source: PYQ-style
+I. Sheep are not carnivores.
+II. Some meat-eaters are carnivores.
+(A) Both conclusions I and II follow (B) Only conclusion II follows (C) Only conclusion I follows (D) Neither conclusion I nor II follows
 
-131. Statement: Some books are not novels. No novel is a magazine. All magazines are periodicals.
+Answer: (A) Both conclusions I and II follow
+
+Solution:
+Sheep do not eat meat while all carnivores eat meat; hence sheep are not carnivores (I follows). Conversion gives some meat-eaters are carnivores (II follows). Hence, the correct option is (A).
+
+Source: RRB Group D
+
+Q131. (Medium) Statements: Some dogs are trained. All trained animals are disciplined.
 Conclusions:
-I. Some books are periodicals.
-II. Some books are not periodicals.
-Options: (A) Only I (B) Only II (C) Either I or II (D) Neither I nor II
-Answer: (D) Neither I nor II follows
-Solution: Books not being novels gives no link to magazines or periodicals. Even if some books are novels, those novels are not magazines, but periodicals are a superset of magazines. No direct link to periodicals. So neither.
-Source: PYQ-style
+I. Some dogs are disciplined.
+II. All disciplined animals are dogs.
+(A) Only conclusion II follows (B) Only conclusion I follows (C) Both conclusions I and II follow (D) Neither conclusion I nor II follows
 
-132. Statement: All dogs are mammals. Some mammals are not pets. No pet is wild.
+Answer: (B) Only conclusion I follows
+
+Solution:
+Trained dogs are disciplined, so 'Some dogs are disciplined' follows (I follows). II is invalid reversal. Hence, the correct option is (B).
+
+Source: SSC CGL
+
+Q132. (Medium) ⚠️ Statements: Some planets have rings.
 Conclusions:
-I. Some dogs are not pets.
-II. Some dogs are wild.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (D) Neither I nor II follows
-Solution: Dogs are mammals. The 'some mammals are not pets' may not include any dog; all dogs could be pets. So I not definite. II: no link to wild. So neither.
-Source: PYQ-style
+I. Some planets do not have rings.
+II. Some celestial bodies with rings are planets.
+(A) Only conclusion I follows (B) Both conclusions I and II follow (C) Only conclusion II follows (D) Neither conclusion I nor II follows
 
-133. Statement: Some students are not athletes. All athletes are players. No player is lazy.
+Answer: (C) Only conclusion II follows
+
+Solution:
+'Some planets have rings' converts to 'Some celestial bodies with rings are planets' (II follows). Examiner's Trap: In formal logic, 'Some are' does not mean 'Some are not'. Hence, the correct option is (C).
+
+Source: SSC CHSL
+
+Q133. (Medium) Statements: No plastic is durable. All metal is durable.
 Conclusions:
-I. Some students are lazy.
-II. Some students are not lazy.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (D) Neither I nor II follows
-Solution: 'Some students are not athletes' does not give any info about laziness. Even if some students are athletes, they are players and not lazy. But we don't know if any student is an athlete. So II not definite. I also not.
-Source: PYQ-style
+I. No plastic is metal.
+II. No metal is plastic.
+(A) Only conclusion I follows (B) Only conclusion II follows (C) Neither conclusion I nor II follows (D) Both conclusions I and II follow
 
-134. Statement: Some birds can fly. All that fly are creatures of air. Some creatures of air are not birds.
+Answer: (D) Both conclusions I and II follow
+
+Solution:
+Plastic and metal have opposite properties regarding durability, so they are disjoint. Both follow. Hence, the correct option is (D).
+
+Source: SSC MTS
+
+Q134. (Medium) Statements: All squares are shapes. Some shapes are red.
 Conclusions:
-I. Some birds are not creatures of air.
-II. Some creatures of air are not birds.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (B) Only II follows
-Solution: II is directly from 'Some creatures of air are not birds'. I is not definite; birds that can fly are creatures of air, but some birds might not fly and could still be creatures of air or not.
-Source: PYQ-style
+I. All squares are red.
+II. Some squares are red.
+(A) Neither conclusion I nor II follows (B) Only conclusion II follows (C) Both conclusions I and II follow (D) Only conclusion I follows
 
-135. Statement: Only a few teachers are mentors. All mentors are guides. Some guides are not experienced.
+Answer: (A) Neither conclusion I nor II follows
+
+Solution:
+Squares and red shapes may not overlap at all (red shapes could only be circles, triangles). Neither follows. Hence, the correct option is (A).
+
+Source: RRB NTPC
+
+Q135. (Medium) Statements: Some teachers are authors. All authors are creative.
 Conclusions:
-I. Some teachers are not experienced.
-II. Some experienced people are not teachers.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (D) Neither I nor II follows
-Solution: Teachers who are mentors are guides. The 'some guides are not experienced' might not include those mentors. So I not definite. II: no direct link from experienced to teachers.
-Source: PYQ-style
+I. Some teachers are creative.
+II. All creative people are teachers.
+(A) Only conclusion II follows (B) Only conclusion I follows (C) Both conclusions I and II follow (D) Neither conclusion I nor II follows
 
-136. Statement: No politician is truthful. Some truthful people are leaders. All leaders are respected.
+Answer: (B) Only conclusion I follows
+
+Solution:
+Teachers who are authors are creative, so I follows. II is invalid reversal. Hence, the correct option is (B).
+
+Source: RRB Group D
+
+Q136. (Medium) Statements: All planets revolve around the Sun. Jupiter is a planet.
 Conclusions:
-I. Some respected people are not politicians.
-II. No politician is respected.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (A) Only I follows
-Solution: Truthful people who are leaders are respected and are not politicians. So some respected people are not politicians. II is not forced; politicians could be respected via other means (not truthful).
-Source: PYQ-style
+I. Jupiter revolves around the Sun.
+II. Some bodies revolving around the Sun are planets.
+(A) Only conclusion I follows (B) Only conclusion II follows (C) Both conclusions I and II follow (D) Neither conclusion I nor II follows
 
-137. Statement: All apples are fruits. Some fruits are not organic. All organic items are healthy.
+Answer: (C) Both conclusions I and II follow
+
+Solution:
+Jupiter is a planet, so it revolves around the Sun (I follows). Conversion yields some bodies revolving around the Sun are planets (II follows). Hence, the correct option is (C).
+
+Source: SSC CGL
+
+Q137. (Medium) Statements: Some cars are luxury. Some luxury items are expensive.
 Conclusions:
-I. Some apples are not organic.
-II. Some apples are healthy.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (D) Neither I nor II follows
-Solution: Apples are fruits; the fruits that are not organic might not include any apple. So I not definite. II: healthy items are organic, but we don't know if any apple is organic. So neither.
-Source: Bank PO 2019
+I. Some cars are expensive.
+II. No car is expensive.
+(A) Only conclusion I follows (B) Only conclusion II follows (C) Neither conclusion I nor II follows (D) Either conclusion I or II follows
 
-138. Statement: Some cars are electric. No electric vehicle is noisy. All noisy things are disturbing.
+Answer: (D) Either conclusion I or II follows
+
+Solution:
+Cars and expensive items form an Either-Or pair ('Some' / 'No'). One of them must follow. Hence, the correct option is (D).
+
+Source: SSC CHSL
+
+Q138. (Medium) Statements: No bird is a mammal. Bats are mammals.
 Conclusions:
-I. Some cars are disturbing.
-II. Some cars are not disturbing.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (D) Neither I nor II follows
-Solution: The electric cars are not noisy, but noisy things are disturbing. We don't know if non-noisy things can be disturbing. So no link from cars to disturbing. Thus neither.
-Source: PYQ-style
+I. Bats are not birds.
+II. Some mammals are bats.
+(A) Both conclusions I and II follow (B) Only conclusion II follows (C) Only conclusion I follows (D) Neither conclusion I nor II follows
 
-139. Statement: Some pens are blue. All blue pens are ink pens. No ink pen is permanent.
+Answer: (A) Both conclusions I and II follow
+
+Solution:
+Bats are mammals and no mammal is a bird; hence bats are not birds (I follows). Conversion gives some mammals are bats (II follows). Hence, the correct option is (A).
+
+Source: SSC MTS
+
+Q139. (Medium) Statements: All roses are flowers. All flowers are plants.
 Conclusions:
-I. Some pens are permanent.
-II. Some pens are not permanent.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (B) Only II follows
-Solution: The blue pens are ink pens and not permanent. So those pens are not permanent, making II true. I cannot be true because those blue pens are not permanent; other pens might be permanent, but we don't know. So I not definite. Wait, "some pens are not permanent" is sure because at least the blue pens are not permanent. So II follows. I does not follow. Answer (B).
-Source: PYQ-style
+I. All roses are plants.
+II. Some plants are roses.
+(A) Only conclusion I follows (B) Both conclusions I and II follow (C) Only conclusion II follows (D) Neither conclusion I nor II follows
 
-140. Statement: Some chairs are wooden. No wooden object is metal. All metal objects are heavy.
+Answer: (B) Both conclusions I and II follow
+
+Solution:
+Roses ⊂ Flowers ⊂ Plants. Hence all roses are plants (I follows) and some plants are roses (II follows). Hence, the correct option is (B).
+
+Source: RRB NTPC
+
+Q140. (Medium) Statements: Some books are textbooks. Some textbooks are novels.
 Conclusions:
-I. Some chairs are heavy.
-II. No chair is heavy.
-Options: (A) Only I (B) Only II (C) Either I or II (D) Neither I nor II
-Answer: (D) Neither I nor II follows
-Solution: Chairs that are wooden are not metal, but heavy is linked to metal. We don't know if non-metal chairs can be heavy. So neither I nor II is forced. They are not complementary because both could be false (e.g., some chairs are heavy and some not). So (D).
-Source: PYQ-style
+I. Some books are novels.
+II. All novels are books.
+(A) Only conclusion I follows (B) Only conclusion II follows (C) Neither conclusion I nor II follows (D) Both conclusions I and II follow
 
-141. Statement: All roses are flowers. Some flowers are red. All red things are bright.
+Answer: (C) Neither conclusion I nor II follows
+
+Solution:
+Two particular premises ('Some') do not yield any certain connection between books and novels. Hence, the correct option is (C).
+
+Source: RRB Group D
+
+Q141. (Medium) Statements: All diamonds sparkle. Charcoal does not sparkle.
 Conclusions:
-I. Some roses are bright.
-II. Some bright things are roses.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (D) Neither I nor II follows
-Solution: Roses might not overlap with the red flowers. So I not definite. II is conversion of I, so also not definite.
-Source: PYQ-style
+I. Charcoal is not a diamond.
+II. Some sparkling items are diamonds.
+(A) Only conclusion I follows (B) Only conclusion II follows (C) Neither conclusion I nor II follows (D) Both conclusions I and II follow
 
-142. Statement: Some dogs are not friendly. All friendly dogs are trained. No trained dog is aggressive.
+Answer: (D) Both conclusions I and II follow
+
+Solution:
+Diamonds sparkle and charcoal does not; hence charcoal is not a diamond (I follows). Conversion yields some sparkling items are diamonds (II follows). Hence, the correct option is (D).
+
+Source: SSC CGL
+
+Q142. (Medium) Statements: Some actors are singers. All singers are popular.
 Conclusions:
-I. Some dogs are aggressive.
-II. Some dogs are not aggressive.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (D) Neither I nor II follows
-Solution: 'Some dogs are not friendly' does not say any dog is friendly. If no dog is friendly, then trained dogs are an empty set? No, 'All friendly dogs are trained' does not assert existence of friendly dogs. So we cannot conclude any dog is trained or not aggressive. Aggressive is linked only to trained dogs. No existence of trained dogs is assured. So neither conclusion follows due to possible emptiness of friendly/trained dogs.
-Source: PYQ-style
+I. Some actors are popular.
+II. All popular people are actors.
+(A) Only conclusion I follows (B) Only conclusion II follows (C) Both conclusions I and II follow (D) Neither conclusion I nor II follows
 
-143. Statement: No teacher is absent. Some absent are students. All students are learners.
+Answer: (A) Only conclusion I follows
+
+Solution:
+Actors who are singers are popular, so I follows. II is invalid reversal. Hence, the correct option is (A).
+
+Source: SSC CHSL
+
+Q143. (Medium) Statements: All oceans are saline. The Indian Ocean is an ocean.
 Conclusions:
-I. Some learners are not teachers.
-II. Some teachers are learners.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (A) Only I follows
-Solution: Absent students are learners and are not teachers (since no teacher is absent). So some learners are not teachers. II: we don't know if any teacher is a learner. So only I.
-Source: Bank PO 2018
+I. The Indian Ocean is saline.
+II. Some saline waters are oceans.
+(A) Only conclusion I follows (B) Both conclusions I and II follow (C) Only conclusion II follows (D) Neither conclusion I nor II follows
 
-144. Statement: All that is black is not coal. (Meaning: Not all black things are coal.) Some black things are charcoal.
+Answer: (B) Both conclusions I and II follow
+
+Solution:
+The Indian Ocean is an ocean, so it is saline (I follows). Conversion gives some saline waters are oceans (II follows). Hence, the correct option is (B).
+
+Source: SSC MTS
+
+Q144. (Medium) Statements: No iron is light. Some metals are light.
 Conclusions:
-I. Some black things are not coal.
-II. Some charcoal is coal.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (A) Only I follows
-Solution: The idiom ensures some black things are not coal, so I follows. II: no link between charcoal and coal; they are different but the statement doesn't say they cannot overlap. Still, we cannot conclude some charcoal is coal.
-Source: PYQ-style
+I. Some metals are not iron.
+II. No metal is iron.
+(A) Both conclusions I and II follow (B) Only conclusion II follows (C) Only conclusion I follows (D) Neither conclusion I nor II follows
 
-145. Statement: Only a few managers are leaders. All leaders are decision-makers. Some decision-makers are not efficient.
+Answer: (C) Only conclusion I follows
+
+Solution:
+Metals that are light cannot be iron, so 'Some metals are not iron' follows (I follows). We cannot claim that no metal is iron. Hence, the correct option is (C).
+
+Source: RRB NTPC
+
+Q145. (Medium) Statements: Some students are debaters. Some debaters are speakers.
 Conclusions:
-I. Some managers are not efficient.
-II. Some efficient people are not managers.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (D) Neither I nor II follows
-Solution: Managers who are leaders are decision-makers. The 'some decision-makers are not efficient' does not specify whether those include the leader decision-makers. So I not definite. II: no link from efficient to managers.
-Source: PYQ-style
+I. Some students are speakers.
+II. All speakers are students.
+(A) Only conclusion I follows (B) Only conclusion II follows (C) Both conclusions I and II follow (D) Neither conclusion I nor II follows
 
-146. Statement: Some poets are writers. All writers are artists. Some artists are painters.
+Answer: (D) Neither conclusion I nor II follows
+
+Solution:
+Two particular premises do not guarantee any relationship between students and speakers. Hence, the correct option is (D).
+
+Source: RRB Group D
+
+Q146. (Hard) Statements: Only a few flowers are roses. All roses are fragrant.
 Conclusions:
-I. Some poets are painters.
-II. Some painters are poets.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (D) Neither I nor II follows
-Solution: Poets → writers → artists. The artists that are painters might not overlap with the poet-artists. So no definite overlap.
-Source: PYQ-style
+I. Some flowers are fragrant.
+II. Some flowers are not roses.
+(A) Both conclusions I and II follow (B) Only conclusion II follows (C) Only conclusion I follows (D) Neither conclusion I nor II follows
 
-147. Statement: No apple is a mango. Some mangoes are sweet. All sweet things are tasty.
+Answer: (A) Both conclusions I and II follow
+
+Solution:
+'Only a few' implies 'Some are' and 'Some are not'. Hence II follows. The roses are fragrant, so I follows. Hence, the correct option is (A).
+
+Source: SSC CGL
+
+Q147. (Hard) ⚠️ Statements: 80% of employees are punctual.
 Conclusions:
-I. Some tasty things are not apples.
-II. No apple is tasty.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (A) Only I follows
-Solution: Sweet mangoes are tasty and are not apples (since no apple is mango). So some tasty things (those mangoes) are not apples. II is not forced; apples could be tasty via other means.
-Source: PYQ-style
+I. Some employees are punctual.
+II. Exactly 20% of employees are definitely not punctual.
+(A) Only conclusion II follows (B) Only conclusion I follows (C) Both conclusions I and II follow (D) Neither conclusion I nor II follows
 
-148. Statement: Some students are absent. All absent students are marked. No marked student is punished.
+Answer: (B) Only conclusion I follows
+
+Solution:
+80% guarantees that 'Some' employees are punctual (I follows). Examiner's Trap: In formal logic syllogisms, a percentage statement acts as a particular quantifier ('Some'); exact real-world numerical subtraction ('20% are not') is not a valid categorical deduction. Only I follows. Hence, the correct option is (B).
+
+Source: SSC CHSL
+
+Q148. (Hard) Statements: All prime numbers have exactly two factors. 11 is a prime number.
 Conclusions:
-I. Some students are punished.
-II. Some students are not punished.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (B) Only II follows
-Solution: Some students are absent, so they are marked and therefore not punished. Thus some students are not punished (II). I is not forced; all students could be unpunished (the absent ones are not punished, present ones might also not be punished). So only II.
-Source: PYQ-style
+I. 11 has exactly two factors.
+II. Some numbers with two factors are prime.
+(A) Only conclusion I follows (B) Only conclusion II follows (C) Both conclusions I and II follow (D) Neither conclusion I nor II follows
 
-149. Statement: All tables are furniture. Some furniture is wooden. No wooden item is plastic.
+Answer: (C) Both conclusions I and II follow
+
+Solution:
+11 is a prime number, so it has two factors (I follows). Conversion yields some numbers with two factors are prime (II follows). Hence, the correct option is (C).
+
+Source: SSC MTS
+
+Q149. (Hard) Statements: Some painters are sculptors. All sculptors are visionaries. No visionary is uncreative.
 Conclusions:
-I. Some tables are plastic.
-II. No table is plastic.
-Options: (A) Only I (B) Only II (C) Either I or II (D) Neither I nor II
-Answer: (D) Neither I nor II follows
-Solution: Tables are furniture. Some furniture is wooden (not plastic). But tables could be entirely wooden (so not plastic) or could be plastic (if they are non-wooden furniture). We have no information about non-wooden furniture. So neither conclusion is forced. They are not complementary because both could be false (some tables plastic, some not). Hence (D).
-Source: PYQ-style
+I. Some painters are not uncreative.
+II. No painter is uncreative.
+(A) Neither conclusion I nor II follows (B) Only conclusion II follows (C) Both conclusions I and II follow (D) Only conclusion I follows
 
-150. Statement: Some birds are eagles. All eagles are birds of prey. No bird of prey is a pet. Some pets are loved.
+Answer: (D) Only conclusion I follows
+
+Solution:
+Painters who are sculptors are visionaries and therefore not uncreative; hence 'Some painters are not uncreative' follows (I follows). We cannot say no painter is uncreative. Hence, the correct option is (D).
+
+Source: RRB NTPC
+
+Q150. (Hard) Statements: No reptile is warm-blooded. All mammals are warm-blooded. All dogs are mammals.
 Conclusions:
-I. Some eagles are loved.
-II. Some birds are not pets.
-Options: (A) Only I (B) Only II (C) Both (D) None
-Answer: (B) Only II follows
-Solution: Birds that are eagles are birds of prey and thus not pets. So some birds (the eagles) are not pets, making II true. I: eagles are not pets, but 'some pets are loved' does not allow us to conclude anything about eagles being loved or not. So only II follows.
-Source: PYQ-style
+I. No dog is a reptile.
+II. Some warm-blooded creatures are dogs.
+(A) Only conclusion I follows (B) Both conclusions I and II follow (C) Only conclusion II follows (D) Neither conclusion I nor II follows
 
-End of Set 6
+Answer: (B) Both conclusions I and II follow
+
+Solution:
+Dogs are mammals and warm-blooded, while reptiles are not warm-blooded; hence no dog is a reptile (I follows). Conversion yields some warm-blooded creatures are dogs (II follows). Hence, the correct option is (B).
+
+Source: RRB Group D

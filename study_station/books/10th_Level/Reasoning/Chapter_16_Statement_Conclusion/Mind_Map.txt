@@ -1,59 +1,27 @@
-Diagram
-Code
-Download
-Fullscreen
-Statement &amp;ConclusionBasic
-Concepts
-Types of Relations
-Strategies
-Time Management
-Common Traps
-Statement
-Conclusion
-Key Rule
-All A are B
-Some A are B
-No A is B
-T.E.A. Test
-Venn Diagram Check
-Certainty vs Possibility
-15-Second Rule
-45-Second Rule
-Skip Strategy
-Some Not Trap
-Heavy Vocabulary
-Multiple Diagrams
-: 100% true input
-: No questioning
-: Must follow definitely
-: No outside knowledge
-: Robot Brain
-: Use only given data
-: Universal Affirmative
-: Conversion: Some B are A
-: Some A are B implicit
-: Particular Affirmative
-: Conversion: Some B are A
-: Never gives Some not
-: Universal Negative
-: Conversion: No B is A
-: No positive link
-: T = True as per statement
-: E = Eliminate outside
-: A = Avoid Some not
-: Must hold in all cases
-: Fail in one → invalid
-: Only forced conclusions
-: Mere possibility → notvalid
-: Single conclusion
-: Decide or mark & skip
-: Multiple conclusions
-: Never overanalyze
-: If ambiguous
-: Return if time permits
-: "Some A are B" → "Some Anot B" ❌
-: All might be B
-: Complex words to confuse
-: Translate to simplelanguage
-: Conclusion true in onebut false in another ❌
-: Must be true in everypossible diagram
+```mermaid
+flowchart TD
+    A[Statement & Conclusion] --> B[Core Principles]
+    A --> C[Basic Relation Types]
+    A --> D[Testing Strategy: T.E.A.]
+    A --> E[Examiner's Traps]
+
+    B --> B1[Take Statement as 100% True]
+    B --> B2[Zero External Knowledge]
+    B --> B3[Robot Brain: Stick to Given Data]
+
+    C --> C1["All A are B (Universal Affirmative)"]
+    C --> C2["Some A are B (Particular Affirmative)"]
+    C --> C3["No A is B (Universal Negative)"]
+
+    C1 --> C1a["Conversion: Some B are A"]
+    C2 --> C2a["Conversion: Some B are A"]
+    C3 --> C3a["Conversion: No B is A"]
+
+    D --> D1["T - True as per statement only"]
+    D --> D2["E - Eliminate outside knowledge"]
+    D --> D3["A - Avoid 'Some not' from 'Some'"]
+
+    E --> E1["Trap 1: 'Some A are B' does NOT mean 'Some A are not B'"]
+    E --> E2["Trap 2: Heavy Vocabulary & Complex Phrasing"]
+    E --> E3["Trap 3: Possibility vs Definite Certainty"]
+```
