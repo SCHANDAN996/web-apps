@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 06-10-2026 04:14 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 02:43 AM
+**आख़िरी update:** 06-10-2026 04:20 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 02:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Narration (Graduation English) | ✍️ लिख रहा है | 69 मिनट |
-| W2 | Chapter 10 Voice (Graduation English) | 🔎 review हो रहा है | 7 मिनट |
-| W3 | Chapter 13 Synonyms (Graduation English) | ✍️ लिख रहा है | 26 मिनट |
-| W4 | Chapter 12 Sentence Structure (Graduation English) | ✍️ लिख रहा है | 27 मिनट |
+| W1 | Chapter 11 Narration (Graduation English) | ✍️ लिख रहा है | 75 मिनट |
+| W2 | Chapter 10 Voice (Graduation English) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 13 Synonyms (Graduation English) | ✍️ लिख रहा है | 32 मिनट |
+| W4 | Chapter 12 Sentence Structure (Graduation English) | ✍️ लिख रहा है | 33 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -33,6 +33,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 06-10 04:20 — Graduation English · Chapter 10 Voice
 - 06-10 03:48 — Graduation English · Chapter 08 Conjunction
 - 06-10 03:47 — Graduation English · Chapter 09 Articles
 - 06-10 03:05 — Graduation English · Chapter 05 Tense
@@ -46,14 +47,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-06-10 03:53:00   [Synonyms] wrote Content_hi.txt (8030 chars)
-06-10 03:53:43   [Synonyms] wrote Feynman_en.txt (3021 chars)
-06-10 03:54:38   [Voice] Practice_en_Set_06.txt try 1: re-solve disagrees (Q133 key c vs re-solve b, Q142 key d vs re-solve b)
-06-10 03:55:39   [Narration] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-06-10 03:56:08   [Synonyms] wrote Feynman_hi.txt (2436 chars)
-06-10 03:56:53   [Synonyms] wrote Mind_Map_en.txt (1557 chars)
-06-10 03:57:23   [Synonyms] wrote Mind_Map_hi.txt (1208 chars)
-06-10 03:58:08   [Synonyms] wrote Flashcards_en.txt (3284 chars)
 06-10 03:58:16   [Voice] Practice_en_Set_06.txt try 2: re-solve disagrees (Q142 key b vs re-solve a)
 06-10 03:59:14   [Narration] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 06-10 03:59:16   [Sentence_Structure] wrote Feynman_en.txt (2228 chars)
@@ -86,4 +79,12 @@
 06-10 04:14:04   [Synonyms] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 06-10 04:14:12   [Voice] review Mind_Map_en.txt: 1 issue(s): - H4 label "By-agent with verbs" for known to/surprised at/contained in → These are not "by-agent" constructions; 
 06-10 04:14:44   [Voice] review Mind_Map_hi.txt: 1 issue(s): - G1 में पहला बुलेट "by + me/him नहीं" गलत है → सही नियम: "by + I/he/she/we/they नहीं" (विषय सर्वनाम गलत हैं); "by
+06-10 04:15:57   [Synonyms] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+06-10 04:16:36   [Voice] review Flashcards_en.txt: 2 issue(s): - Card 4 claims any form of BE followed by V3 is passive, but BE + V3 can also be adjectival/stative (e.g., "The
+06-10 04:16:36   [Sentence_Structure] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+06-10 04:18:08   [Synonyms] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+06-10 04:19:34   [Narration] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+06-10 04:19:46   [Sentence_Structure] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+06-10 04:20:43   [Voice] review: 4 section(s) corrected, 0 failed
+06-10 04:20:43   [Voice] written 4, failed 0; AI calls today 464/100000
 ```

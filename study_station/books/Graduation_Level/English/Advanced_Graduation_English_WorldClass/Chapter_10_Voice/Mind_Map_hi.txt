@@ -1,0 +1,44 @@
+```mermaid
+graph TD
+    A["वाच्य (Voice)"] --> B["Active Voice<br>कर्ता + क्रिया + कर्म"]
+    A --> C["Passive Voice<br>कर्म + be + V3 + by + कर्ता"]
+
+    B --> B1["Subject क्रिया करता है<br>Ram eats mango"]
+    C --> C1["Subject पर क्रिया होती है<br>Mango is eaten by Ram"]
+
+    A --> D["बदलाव के नियम"]
+    D --> D1["Object → Subject बनता है"]
+    D --> D2["Verb → be + V3"]
+    D --> D3["Subject → by + Object<br>(अक्सर हटाया जाता है)"]
+    D --> D4["Tense कभी नहीं बदलता<br>सिर्फ be का रूप बदलता है"]
+
+    D --> E["Tense-wise be के रूप"]
+    E --> E1["Present Simple: is/am/are + V3"]
+    E --> E2["Past Simple: was/were + V3"]
+    E --> E3["Future Simple: will be + V3"]
+    E --> E4["Present Continuous: is/am/are being + V3"]
+    E --> E5["Past Continuous: was/were being + V3"]
+    E --> E6["Perfect (सभी): has/have/had been + V3"]
+    E --> E7["Modals: can/must/should + be + V3"]
+
+    A --> F["विशेष स्थितियाँ"]
+    F --> F1["दो Objects वाले वाक्य<br>Indirect Object को Subject बनाना बेहतर<br>He was given a book"]
+    F --> F2["Preposition वाली Verbs<br>Preposition verb के साथ ही रहे<br>He was laughed at"]
+    F --> F3["Imperative वाक्य<br>Let + object + be + V3<br>Let the door be opened"]
+    F --> F4["Infinitive<br>to be + V3<br>He wants to be invited"]
+    F --> F5["Passive नहीं बनता<br>Intransitive verbs (go, sleep, die)"]
+
+    A --> G["परीक्षक के जाल"]
+    G --> G1["जाल 1: by के बाद विषय सर्वनाम नहीं<br>by + I/he गलत → by me/him सही"]
+    G --> G2["जाल 2: being/been की गड़बड़ी<br>Continuous = being, Perfect = been"]
+    G --> G3["जाल 3: V2 लगा देना<br>Passive में हमेशा V3 (Past Participle)"]
+    G --> G4["जाल 4: Tense बदल देना<br>Active का Tense Passive में भी वही रहता है"]
+
+    A --> H["रणनीति"]
+    H --> H1["15 सेकंड: Tense पहचानो → be का रूप लगाओ"]
+    H --> H2["45 सेकंड: दो Objects / Modals /<br>Imperative वाले जटिल वाक्य"]
+    H --> H3["Skip: अपरिचित verb की V3 याद न हो<br>तो अंक बचाओ, बाद में आओ"]
+
+    A --> I["Mnemonic"]
+    I --> I1["B-V3-BY<br>Be लगाओ, V3 लगाओ, By से कर्ता जोड़ो"]
+```
