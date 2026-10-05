@@ -1,0 +1,41 @@
+```mermaid
+graph TD
+    A["विशेषण<br>Adjective"] --> B["परिभाषा<br>संज्ञा/सर्वनाम की<br>विशेषता बताने वाला शब्द"]
+    A --> C["प्रकार"]
+    A --> D["तुलना की अवस्थाएँ<br>Degrees"]
+    A --> E["मुख्य नियम"]
+    A --> F["परीक्षक के जाल"]
+    A --> G["रणनीति"]
+
+    C --> C1["गुणवाचक<br>Quality: honest, tall"]
+    C --> C2["परिमाणवाचक<br>Quantity: some, much, little"]
+    C --> C3["संख्यावाचक<br>Number: five, many, first"]
+    C --> C4["निश्चयवाचक<br>Demonstrative: this, that"]
+    C --> C5["वितरणवाचक<br>Distributive: each, every, either"]
+    C --> C6["प्रश्नवाचक<br>Interrogative: which, what"]
+    C --> C7["स्वामित्ववाचक<br>Possessive: my, his, their"]
+    C --> C8["विशेष संज्ञा से बना विशेषण<br>Proper Adjective: Indian, Chinese"]
+
+    D --> D1["मूल अवस्था<br>Positive: tall, beautiful"]
+    D --> D2["तुलनात्मक अवस्था<br>Comparative: taller, more beautiful<br>दो की तुलना + than"]
+    D --> D3["श्रेष्ठतम अवस्था<br>Superlative: tallest, most beautiful<br>the + अधिकतम"]
+    D1 --> D4["अनियमित रूप<br>good-better-best<br>bad-worse-worst<br>much-more-most"]
+    D2 --> D5["लैटिन तुलनात्मक<br>senior, junior, superior<br>inferior, prior → 'to' लगता है<br>'than' नहीं"]
+
+    E --> E1["विशेषण संज्ञा से पहले<br>या linking verb के बाद<br>a red car / the car is red"]
+    E --> E2["क्रम: OSASCOMP<br>Opinion-Size-Age-Shape<br>Colour-Origin-Material-Purpose"]
+    E --> E3["the + विशेषण = वर्ग<br>the rich = अमीर लोग"]
+    E --> E4["something/anything के बाद<br>something good"]
+    E --> E5["enough संज्ञा से पहले<br>विशेषण के बाद<br>enough money / good enough"]
+
+    F --> F1["जाल 1: दोहरी तुलना<br>'more better' ❌<br>दोहरी तुलना गलत"]
+    F --> F2["जाल 2: than/to भ्रम<br>He is senior than me ❌<br>senior to me ✅"]
+    F --> F3["जाल 3: विशेषण बनाम क्रिया-विशेषण<br>She sings beautiful ❌<br>beautifully ✅"]
+    F --> F4["जाल 4: much/many<br>many + गणनीय<br>much + अगणनीय"]
+    F --> F5["जाल 5: little/a little/the little<br>अर्थ का सूक्ष्म अंतर"]
+
+    G --> G1["15 सेकंड: तथ्यात्मक<br>Degree पहचान, than/to<br>much/many, little/few"]
+    G --> G2["45 सेकंड: तार्किक<br>लंबे वाक्य में त्रुटि खोज<br>विशेषण क्रम, संदर्भ-आधारित"]
+    G --> G3["छोड़ने की रणनीति<br>दो विकल्प लगभग समान हों<br>तो पहले छोड़ें, बाद में आएँ"]
+    G --> G4["स्मरण-सूत्र: OSASCOMP<br>विशेषण क्रम याद रखें"]
+```

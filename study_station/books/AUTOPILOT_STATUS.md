@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 06-10-2026 01:46 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 01:25 AM
+**आख़िरी update:** 06-10-2026 01:49 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 01:25 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Pronoun (Graduation English) | 🔎 review हो रहा है | 20 मिनट |
-| W2 | Chapter 03 Adjective (Graduation English) | 🔎 review हो रहा है | 20 मिनट |
-| W3 | Chapter 05 Tense (Graduation English) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 06 Adverb (Graduation English) | 🔎 review हो रहा है | 20 मिनट |
+| W1 | Chapter 02 Pronoun (Graduation English) | 🔎 review हो रहा है | 23 मिनट |
+| W2 | Chapter 03 Adjective (Graduation English) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 07 Preposition (Graduation English) | ✍️ लिख रहा है | 3 मिनट |
+| W4 | Chapter 06 Adverb (Graduation English) | 🔎 review हो रहा है | 23 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -33,6 +33,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 06-10 01:49 — Graduation English · Chapter 03 Adjective
 - 06-10 01:46 — Graduation English · Chapter 05 Tense
 - 05-10 22:04 — Graduation English · Chapter 01 Noun
 - 05-10 21:44 — Graduation English · Chapter 04 Verb
@@ -40,12 +41,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-06-10 01:01:39   [Adverb] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-06-10 01:01:39   [Adverb] written 2, failed 0; AI calls today 39/100000
-06-10 01:03:54   [Adjective] review: 4 section(s) corrected, 1 failed
-06-10 01:03:54   [Adjective] written 4, failed 1; AI calls today 43/100000
-06-10 01:03:54 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_03_Adjective after 65 min: todo [] problems []
-06-10 01:03:54 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_03_Adjective (OK: todo 0, problems 0)
 06-10 01:05:17   [Adverb] review Content_en.txt: 3 issue(s): - Active Recall answer in section 1 omits adverb 'forward' → Answer should include: 'forward' modifies the verb 'ma
 06-10 01:06:22   [Tense] FAILED review Mind_Map_hi.txt: network — the chapter must not be published unreviewed
 06-10 01:07:36   [Tense] review Flashcards_en.txt: 1 issue(s): - Card 9: Mnemonic "SLEEP-K" does not match the listed stative verbs (See, Love, Know, Hate, Believe, Own, Under
@@ -80,4 +75,10 @@
 06-10 01:45:42   [Pronoun] review Feynman_en.txt: 1 issue(s): - The hint includes "every" as a word that is always singular, but "every" is a determiner, not a pronoun; use sing
 06-10 01:46:08   [Tense] review: 2 section(s) corrected, 0 failed
 06-10 01:46:08   [Tense] written 2, failed 0; AI calls today 138/100000
+06-10 01:46:15 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_05_Tense in 20 min → 97c9f81
+06-10 01:46:15 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_07_Preposition (TODO: todo 9, problems 0)
+06-10 01:46:53   [Pronoun] review Feynman_hi.txt: 1 issue(s): - "Antecedent" का अर्थ "कर्ता" बताया गया है → Antecedent का अर्थ "पूर्ववर्ती संज्ञा" (वह संज्ञा जिसके लिए सर्वनाम प
+06-10 01:47:52   [Adjective] review Important_Rules_en.txt: 2 issue(s): - Rule 1 incorrectly states that adjectives of quantity (much, little, some, any) are used only with uncoun
+06-10 01:49:37   [Adjective] review: 3 section(s) corrected, 0 failed
+06-10 01:49:37   [Adjective] written 3, failed 0; AI calls today 147/100000
 ```
