@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 06-10-2026 01:56 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 01:25 AM
+**आख़िरी update:** 06-10-2026 02:04 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 01:25 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Pronoun (Graduation English) | 🔎 review हो रहा है | 30 मिनट |
-| W2 | Chapter 08 Conjunction (Graduation English) | ✍️ लिख रहा है | 6 मिनट |
-| W3 | Chapter 07 Preposition (Graduation English) | ✍️ लिख रहा है | 10 मिनट |
-| W4 | Chapter 06 Adverb (Graduation English) | 🔎 review हो रहा है | 30 मिनट |
+| W1 | Chapter 02 Pronoun (Graduation English) | 🔎 review हो रहा है | 38 मिनट |
+| W2 | Chapter 08 Conjunction (Graduation English) | ✍️ लिख रहा है | 14 मिनट |
+| W3 | Chapter 07 Preposition (Graduation English) | ✍️ लिख रहा है | 18 मिनट |
+| W4 | Chapter 06 Adverb (Graduation English) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -33,6 +33,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 06-10 02:04 — Graduation English · Chapter 06 Adverb
 - 06-10 01:49 — Graduation English · Chapter 03 Adjective
 - 06-10 01:46 — Graduation English · Chapter 05 Tense
 - 05-10 22:04 — Graduation English · Chapter 01 Noun
@@ -41,13 +42,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-06-10 01:18:00   [Tense] written 5, failed 1; AI calls today 81/100000
-06-10 01:18:00 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_05_Tense after 80 min: todo [] problems []
-06-10 01:18:00 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_05_Tense (OK: todo 0, problems 0)
-06-10 01:19:03   [Adverb] review PYQ_hi.txt: 3 issue(s): - Question 1 answer key marks (b) as error but the explanation says "angrily" is correct; the sentence "She looked angr
-06-10 01:20:25   [Pronoun] review: 2 section(s) corrected, 3 failed
-06-10 01:20:25   [Pronoun] written 2, failed 3; AI calls today 85/100000
-06-10 01:20:25 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_02_Pronoun after 82 min: todo [] problems []
 06-10 01:20:25 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_02_Pronoun (OK: todo 0, problems 0)
 06-10 01:23:09   [Adverb] review Short_Tricks_en.txt: 1 issue(s): - Trick 4 heading 'MOSQUITO Order of Adverbs' is incorrect; the mnemonic given is 'My Pet Tiger' (M-P-T) → Cha
 06-10 01:25:42 autopilot start: 4 workers, reverse=True
@@ -81,4 +75,11 @@
 06-10 01:54:20   [Conjunction] wrote PYQ_hi.txt (6476 chars)
 06-10 01:55:40   [Preposition] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 06-10 01:56:19   [Conjunction] wrote Short_Tricks_en.txt (8992 chars)
+06-10 01:58:16   [Conjunction] wrote Short_Tricks_hi.txt (7105 chars)
+06-10 01:59:38   [Conjunction] wrote Important_Rules_en.txt (5107 chars)
+06-10 02:00:40   [Adverb] review Short_Tricks_hi.txt: 1 issue(s): - Trick 1 claims “Adverb के 6 प्रकार” but lists 7 categories (F, A, N, T, I, M, E) → Change to “7 प्रकार” or a
+06-10 02:00:50   [Conjunction] wrote Important_Rules_hi.txt (4337 chars)
+06-10 02:01:22   [Preposition] Practice_en_Set_02.txt try 1: re-solve disagrees (Q42 key d vs re-solve ?, Q46 key b vs re-solve a)
+06-10 02:04:16   [Adverb] review: 3 section(s) corrected, 0 failed
+06-10 02:04:16   [Adverb] written 3, failed 0; AI calls today 181/100000
 ```
