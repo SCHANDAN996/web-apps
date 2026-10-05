@@ -1,0 +1,129 @@
+LCM & HCF (Advanced)
+What You'll Master Today
+
+Mastering the Euclidean algorithm, division algorithm, and Bézout's identity for finding greatest common divisors.
+
+Formulating and solving four classical remainder models for both LCM and HCF word problems.
+
+Algebraic HCF principles, including the famous identity gcd(a^m - 1, a^n - 1) = a^gcd(m, n) - 1.
+
+Coprime ratio modeling: resolving complex systems involving sum, difference, product, and reciprocal sums of numbers.
+
+Circular tracks, periodic synchronization of bells/traffic lights, and dimensional tiling in multiple variables.
+
+The Rhythm of Celestial Clocks
+
+In 1910, Earth passed through the tail of Halley's Comet, an astronomical spectacle that occurs once every 75 to 76 years. Meanwhile, a total solar eclipse occurs over a specific geographic coordinate on Earth only once every 375 years. When will both celestial events synchronize over the exact same spot?
+
+The answer to this grand cosmic clockwork lies in the fundamental concept of the Least Common Multiple (LCM) and Highest Common Factor (HCF). Far from being just fifth-grade arithmetic with prime ladders, LCM and HCF are deep algebraic operators that govern resonance, periodicity, cryptography, and discrete optimization.
+
+At the graduation level (SSC CGL Tier-2, IBPS PO Mains, State PCS), you will rarely be asked to calculate the HCF of 12 and 18. Instead, you will be given conditions where numbers leave distinct remainders, or where the product of three numbers and their pairwise GCDs are intertwined. Let us master these structures with mathematical clarity.
+
+The Core Foundations — Definitions and Euclidean Algorithm
+
+Let a and b be two integers, not both zero:
+1. Highest Common Factor (HCF or GCD):
+The greatest positive integer d such that d divides a and d divides b.
+If gcd(a, b) = 1, then a and b are called coprime or mutually prime.
+
+2. Least Common Multiple (LCM):
+The smallest positive integer m that is a multiple of both a and b.
+
+The Fundamental Product Theorem:
+For any TWO positive integers A and B:
+A * B = LCM(A, B) * HCF(A, B)
+
+🚨 Crucial Exam Caution: This formula holds ONLY for two numbers!
+For three numbers A, B, C:
+A * B * C ≠ LCM(A, B, C) * HCF(A, B, C).
+Instead, the generalized relationship is:
+LCM(A, B, C) = (A * B * C * HCF(A, B, C)) / (HCF(A, B) * HCF(B, C) * HCF(C, A)).
+
+Euclidean Algorithm for Fast HCF:
+To find gcd(a, b) where a > b:
+Divide a by b to get quotient q and remainder r: a = b*q + r.
+Then gcd(a, b) = gcd(b, r). Repeat until remainder is 0. The last non-zero divisor is gcd(a, b).
+
+🧠 Quick Recall:
+Find gcd(1184, 1210).
+(Answer: 1210 = 1184 * 1 + 26. 1184 = 26 * 45 + 14. 26 = 14 * 1 + 12. 14 = 12 * 1 + 2. 12 = 2 * 6 + 0. Last non-zero divisor is 2.)
+
+The Coprime Ratio Paradigm (A = Hx, B = Hy)
+
+In competitive examinations, virtually all advanced problems involving two numbers A and B should be framed using their HCF H:
+Let HCF(A, B) = H.
+Then A = H * x and B = H * y, where x and y are strictly COPRIME natural numbers (gcd(x, y) = 1).
+From this, LCM(A, B) = H * x * y.
+
+Notice how easily formulas simplify:
+1. Product of numbers: A * B = H^2 * x * y.
+2. Sum of numbers: A + B = H * (x + y).
+3. Difference of numbers: A - B = H * (x - y).
+4. Sum of reciprocals: 1/A + 1/B = (A + B) / (A * B) = [H*(x + y)] / [H^2*x*y] = (x + y) / (H * x * y).
+
+Example:
+If HCF = 13 and LCM = 455, find the numbers:
+LCM = H * x * y => 455 = 13 * x * y => x * y = 35.
+Since gcd(x, y) = 1, possible coprime pairs (x, y) are (1, 35) and (5, 7).
+The pairs of numbers are (13, 455) and (65, 91).
+
+🧠 Active Recall:
+If HCF(A, B) = 6 and A + B = 60, how many possible pairs of (A, B) exist?
+(Answer: A + B = 6(x + y) = 60 => x + y = 10. Coprime pairs summing to 10 are (1, 9) and (3, 7). Exactly 2 pairs.)
+
+The Four Classical Remainder Models
+
+Type 1: Greatest number that divides x, y, z leaving the SAME remainder r in each case (r is unknown):
+Answer: HCF(|x - y|, |y - z|, |z - x|).
+Why? Because if x = d*q1 + r and y = d*q2 + r, then (x - y) = d*(q1 - q2). The unknown remainder r cancels out completely!
+
+Type 2: Greatest number that divides x, y, z leaving SPECIFIC remainders r1, r2, r3 respectively:
+Answer: HCF(x - r1, y - r2, z - r3).
+
+Type 3: Least number which when divided by x, y, z leaves the SAME remainder r in each case:
+Answer: LCM(x, y, z) * k + r (for k >= 1).
+
+Type 4: Least number which when divided by x, y, z leaves remainders r1, r2, r3 such that the common difference is constant:
+(x - r1) = (y - r2) = (z - r3) = K.
+Answer: LCM(x, y, z) * k - K (for k >= 1).
+
+Memory Mnemonic: "HCF Differences, LCM Minus Constant"
+- For HCF with unknown remainder: Take differences of numbers.
+- For LCM with distinct remainders having constant gap K: Take LCM and SUBTRACT K.
+
+Fractions and Algebraic Expressions
+
+1. Fractions:
+HCF of (a/b, c/d, e/f) = HCF(a, c, e) / LCM(b, d, f)
+LCM of (a/b, c/d, e/f) = LCM(a, c, e) / HCF(b, d, f)
+🚨 Critical rule: Always reduce fractions to their simplest form before applying the formula!
+
+2. Exponential and Algebraic Identity:
+For positive integers a, m, n with a >= 2:
+gcd(a^m - 1, a^n - 1) = a^gcd(m, n) - 1.
+Example: gcd(2^120 - 1, 2^100 - 1) = 2^gcd(120, 100) - 1 = 2^20 - 1.
+
+Circular Tracks and Synchronization
+
+When runners A and B run around a circular track of length L with speeds s1 and s2:
+- Time taken per lap: t1 = L / s1 and t2 = L / s2.
+- Time to meet at the STARTING POINT: LCM(t1, t2).
+- Time to meet ANYWHERE on the track:
+  - If running in same direction: L / (s1 - s2).
+  - If running in opposite direction: L / (s1 + s2).
+
+Summary of Essential Problem-Solving Frameworks
+
+| Situation / Problem Statement | Mathematical Formula / Procedure |
+|---|---|
+| Fundamental Relation (2 numbers) | A * B = LCM * HCF |
+| Coprime Representation | A = Hx, B = Hy with gcd(x, y) = 1 |
+| HCF leaving same remainder r | HCF(|x - y|, |y - z|, |z - x|) |
+| HCF leaving remainders r1, r2, r3 | HCF(x - r1, y - r2, z - r3) |
+| LCM leaving same remainder r | LCM(x, y, z) * k + r |
+| LCM with constant difference K | LCM(x, y, z) * k - K |
+| HCF of Fractions | HCF of Numerators / LCM of Denominators |
+| LCM of Fractions | LCM of Numerators / HCF of Denominators |
+| Algebraic HCF: gcd(a^m - 1, a^n - 1) | a^gcd(m, n) - 1 |
+
+Review this chapter after 2 days to solidify long-term memory encoding.

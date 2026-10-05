@@ -1,0 +1,135 @@
+LCM & HCF — Exam Pattern Analysis (Graduation Level)
+
+Analysis of Recent Trends in Graduation Exams:
+In graduation-level competitive exams (SSC CGL Tier-2, IBPS PO Mains, State PCS), LCM & HCF questions are structured around deep structural reasoning:
+1. Multi-variable remainder conditions (especially the constant difference model LCM - K, and unknown equal remainder HCF of differences).
+2. Diophantine equation formulation using A = Hx, B = Hy where finding the number of coprime pairs (x, y) is required.
+3. Word problem synthesis combining speed-time-distance (circular tracks) and 2D spatial optimization (tiling).
+
+Key Examiner Traps to Avoid:
+- Unreduced Fractions Trap: Applying fraction HCF/LCM formulas before simplifying fractions to lowest terms (e.g. 2/4 must be simplified to 1/2 first!).
+- Three Numbers Product Fallacy: Assuming A*B*C = LCM*HCF for 3 numbers.
+- Starting Point vs Anywhere Trap: In circular tracks, meeting at the starting point requires LCM of individual lap times, NOT relative speed!
+
+10 High-Yield Exam-Standard Pattern Questions with Detailed Solutions
+
+Question 1: Find the greatest number that divides 411, 684, and 821 leaving remainders 3, 4, and 5 respectively.
+Solution:
+Subtract the respective remainders:
+411 - 3 = 408
+684 - 4 = 680
+821 - 5 = 816
+We need HCF(408, 680, 816).
+Using Euclidean difference: 680 - 408 = 272; 816 - 680 = 136.
+Notice 272 = 2 * 136, 408 = 3 * 136, 680 = 5 * 136, and 816 = 6 * 136.
+The HCF is 136.
+Psychological Trap: Finding HCF of original numbers before subtracting the remainders.
+Source: SSC CGL Pattern
+
+Question 2: Find the greatest number which divides 62, 132, and 237 leaving the same remainder in each case.
+Solution:
+Here the remainder r is unknown. Take pairwise differences:
+132 - 62 = 70
+237 - 132 = 105
+237 - 62 = 175
+We need HCF(70, 105, 175).
+Notice 70 = 35 * 2, 105 = 35 * 3, 175 = 35 * 5.
+The HCF is 35.
+Psychological Trap: Setting up algebraic equations with r instead of eliminating r by taking differences.
+Source: State PCS Pattern
+
+Question 3: Find the least number which when divided by 20, 25, 35, and 40 leaves remainders 14, 19, 29, and 34 respectively.
+Solution:
+Observe the difference between each divisor and its remainder:
+20 - 14 = 6
+25 - 19 = 6
+35 - 29 = 6
+40 - 34 = 6
+The difference is constant: K = 6.
+Now compute LCM(20, 25, 35, 40):
+20 = 2^2 * 5, 25 = 5^2, 35 = 5 * 7, 40 = 2^3 * 5.
+LCM = 2^3 * 5^2 * 7 = 8 * 25 * 7 = 1400.
+Required number = LCM - K = 1400 - 6 = 1394.
+Psychological Trap: Adding the difference 6 instead of subtracting it from the LCM.
+Source: SSC CGL Pattern
+
+Question 4: The HCF and LCM of two 2-digit numbers are 16 and 480 respectively. Find the numbers.
+Solution:
+Let the numbers be 16x and 16y where gcd(x, y) = 1.
+LCM = 16 * x * y = 480 => x * y = 30.
+Coprime pairs for x * y = 30: (1, 30), (2, 15), (3, 10), (5, 6).
+Testing for 2-digit numbers:
+For (1, 30): numbers are 16 and 480 (480 is 3 digits - rejected).
+For (2, 15): numbers are 32 and 240 (240 is 3 digits - rejected).
+For (3, 10): numbers are 48 and 160 (160 is 3 digits - rejected).
+For (5, 6): numbers are 16 * 5 = 80 and 16 * 6 = 96 (both 2-digit!).
+The numbers are 80 and 96.
+Psychological Trap: Selecting the pair (1, 30) without checking the 2-digit constraint.
+Source: IBPS PO Pattern
+
+Question 5: Find the HCF of fractions 2/3, 8/9, 16/81, and 10/27.
+Solution:
+HCF of fractions = HCF(numerators) / LCM(denominators).
+Numerators: 2, 8, 16, 10. HCF(2, 8, 16, 10) = 2.
+Denominators: 3, 9, 81, 27. LCM(3, 9, 81, 27) = 81.
+Therefore, HCF = 2/81.
+Psychological Trap: Inverting the formula to LCM of numerators / HCF of denominators.
+Source: SSC CGL Pattern
+
+Question 6: What is the value of gcd(2^120 - 1, 2^100 - 1)?
+Solution:
+Using the algebraic identity gcd(a^m - 1, a^n - 1) = a^gcd(m, n) - 1:
+gcd(120, 100) = 20.
+Therefore, gcd(2^120 - 1, 2^100 - 1) = 2^20 - 1.
+Psychological Trap: Attempting factoring without recognizing the GCD of exponents theorem.
+Source: State PCS Pattern
+
+Question 7: The sum of two numbers is 528 and their HCF is 33. How many pairs of such numbers satisfy this condition?
+Solution:
+Let numbers be 33x and 33y where gcd(x, y) = 1.
+33x + 33y = 528 => x + y = 528 / 33 = 16.
+We need coprime pairs of positive integers (x, y) such that x + y = 16 (with x <= y):
+(1, 15) - coprime (gcd=1) -> Valid.
+(2, 14) - gcd=2 -> Invalid.
+(3, 13) - coprime (gcd=1) -> Valid.
+(4, 12) - gcd=4 -> Invalid.
+(5, 11) - coprime (gcd=1) -> Valid.
+(6, 10) - gcd=2 -> Invalid.
+(7, 9) - coprime (gcd=1) -> Valid.
+(8, 8) - gcd=8 -> Invalid.
+Exactly 4 pairs exist: (1,15), (3,13), (5,11), (7,9).
+Psychological Trap: Counting non-coprime pairs such as (2, 14) and (4, 12).
+Source: SSC CGL Pattern
+
+Question 8: Three bells toll together at intervals of 9, 12, and 15 minutes respectively. If they toll together now, after how many hours will they toll together next?
+Solution:
+The synchronization interval is LCM(9, 12, 15).
+9 = 3^2, 12 = 2^2 * 3, 15 = 3 * 5.
+LCM = 2^2 * 3^2 * 5 = 4 * 9 * 5 = 180 minutes.
+Converting to hours: 180 / 60 = 3 hours.
+Psychological Trap: Forgetting to convert minutes to hours at the end.
+Source: IBPS PO Pattern
+
+Question 9: Find the least square number which is exactly divisible by 10, 12, 15, and 18.
+Solution:
+First find LCM(10, 12, 15, 18):
+10 = 2 * 5, 12 = 2^2 * 3, 15 = 3 * 5, 18 = 2 * 3^2.
+LCM = 2^2 * 3^2 * 5^1 = 180.
+To make 180 = 2^2 * 3^2 * 5^1 a perfect square, every prime must have an even exponent.
+We need one more factor of 5:
+Smallest square = 180 * 5 = 900.
+Psychological Trap: Squaring the LCM (180^2 = 32400) instead of multiplying by the missing prime factor.
+Source: SSC CGL Pattern
+
+Question 10: A rectangular courtyard 3.78 m long and 5.25 m broad is to be paved exactly with square tiles of identical size. Find the minimum number of tiles required.
+Solution:
+Convert dimensions to centimeters:
+Length L = 378 cm, Breadth B = 525 cm.
+For minimum number of tiles, the tile size must be as large as possible:
+Tile side = HCF(378, 525).
+525 = 378 * 1 + 147; 378 = 147 * 2 + 84; 147 = 84 * 1 + 63; 84 = 63 * 1 + 21; 63 = 21 * 3 + 0.
+HCF = 21 cm.
+Number of tiles = (Area of courtyard) / (Area of 1 tile)
+Tiles = (378 * 525) / (21 * 21) = (378 / 21) * (525 / 21) = 18 * 25 = 450 tiles.
+Psychological Trap: Giving the tile size (21 cm) as the answer instead of the number of tiles (450).
+Source: State PCS Pattern

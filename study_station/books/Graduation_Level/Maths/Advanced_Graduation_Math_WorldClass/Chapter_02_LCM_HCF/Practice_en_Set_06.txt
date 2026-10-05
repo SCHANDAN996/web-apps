@@ -1,0 +1,249 @@
+Q126. (Hard) Find the smallest positive integer which when divided by 9 leaves remainder 1, and when divided by 11 leaves remainder 3.
+(A) 91  (B) 100  (C) 82  (D) 99
+
+Answer: (A)
+
+Solution:
+We have x = 11k + 3. For k = 0, 1, 2, ..., testing k = 8 gives x = 11(8) + 3 = 91. 91 = 9(10) + 1, satisfying both congruences. Therefore, the correct value is 91, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q127. (Hard) A positive integer N when divided by 5, 6, 7, and 8 leaves remainders 1, 2, 3, and 4 respectively. If N is the smallest such positive integer, what is the remainder when N is divided by 13?
+(A) 5  (B) 4  (C) 3  (D) 6
+
+Answer: (B)
+
+Solution:
+Common difference d = 5 - 1 = 6 - 2 = 7 - 3 = 8 - 4 = 4. LCM(5, 6, 7, 8) = 840. N = 840 - 4 = 836. Dividing 836 by 13 gives 836 = 13 * 64 + 4. Psychological Trap: Neglecting to subtract the common difference 4 from the LCM and dividing 840 directly by 13. Therefore, the correct value is 4, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q128. (Hard) How many ordered pairs of positive integers (x, y) satisfy the equation x + y = 384 and gcd(x, y) = 24?
+(A) 4  (B) 6  (C) 8  (D) 16
+
+Answer: (C)
+
+Solution:
+Let x = 24u and y = 24v with gcd(u, v) = 1. Then u + v = 16. Since 16 is a power of 2, u and v must both be odd. There are phi(16) = 8 coprime ordered pairs. Therefore, the correct value is 8, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q129. (Hard) If gcd(2^2024 - 1, 2^1518 - 1) = 2^k - 1, what is the value of k?
+(A) 253  (B) 1012  (C) 504  (D) 506
+
+Answer: (D)
+
+Solution:
+By the property of Mersenne-type expressions, gcd(a^m - 1, a^n - 1) = a^gcd(m, n) - 1. Here gcd(2024, 1518) = 506, so k = 506. Therefore, the correct value is 506, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q130. (Hard) Three circular tracks of lengths 180 m, 240 m, and 300 m meet at a common start line. Runners complete laps at constant speeds of 4 m/s, 6 m/s, and 5 m/s respectively. After how many seconds will they next be simultaneously at the start line?
+(A) 360 seconds  (B) 180 seconds  (C) 720 seconds  (D) 240 seconds
+
+Answer: (A)
+
+Solution:
+Time per lap: Track 1 = 180/4 = 45 s, Track 2 = 240/6 = 40 s, Track 3 = 300/5 = 60 s. LCM(45, 40, 60) = 360 seconds. Therefore, the correct value is 360 seconds, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q131. (Hard) Let N be the smallest positive integer such that N/2 is a perfect square, N/3 is a perfect cube, and N/5 is a perfect fifth power. What is the exponent of 2 in the prime factorization of N?
+(A) 10  (B) 15  (C) 6  (D) 21
+
+Answer: (B)
+
+Solution:
+Let exponent of 2 be a. Then a - 1 is a multiple of 2 (a is odd), and a is a multiple of 3 and 5 (a is multiple of 15). Smallest positive odd multiple of 15 is 15. Therefore, the correct value is 15, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q132. (Hard) For positive integers x and y, if gcd(x, y) = 12 and lcm(x, y) = 432, what is the minimum possible value of (x + y)?
+(A) 180  (B) 144  (C) 156  (D) 444
+
+Answer: (C)
+
+Solution:
+Let x = 12u, y = 12v with gcd(u, v) = 1 and u * v = 432 / 12 = 36. Coprime factors of 36 are (1, 36) and (4, 9). Minimal sum is 12 * (4 + 9) = 12 * 13 = 156. Psychological Trap: Selecting factors 6 and 6 because their sum 12 is minimal, overlooking that gcd(6, 6) != 1. Therefore, the correct value is 156, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q133. (Hard) If the HCF of polynomials P(x) = x^3 + x^2 + x + 1 and Q(x) = x^4 - 1 is expressed as a polynomial, what is the degree of this HCF?
+(A) 2  (B) 1  (C) 4  (D) 3
+
+Answer: (D)
+
+Solution:
+Factorization: P(x) = (x^2 + 1)(x + 1), and Q(x) = (x^2 - 1)(x^2 + 1) = (x - 1)(x + 1)(x^2 + 1). The HCF is P(x) itself, which has degree 3. Therefore, the correct value is 3, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q134. (Hard) Two numbers x and y have HCF = 21 and LCM = 4620. If both numbers are greater than 200, find the larger of the two numbers.
+(A) 420  (B) 231  (C) 440  (D) 462
+
+Answer: (A)
+
+Solution:
+u * v = 4620 / 21 = 220 with gcd(u, v) = 1. Since both numbers > 200, u, v > 9.52. The unique coprime pair is (11, 20). The larger number is 20 * 21 = 420. Therefore, the correct value is 420, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q135. (Hard) Find the remainder when the LCM of the first 20 positive integers is divided by 19.
+(A) 1  (B) 0  (C) 18  (D) 5
+
+Answer: (B)
+
+Solution:
+Since 19 is a prime number less than or equal to 20, 19 is a direct factor of the LCM of the first 20 integers. Hence the remainder is 0. Therefore, the correct value is 0, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q136. (Hard) If gcd(a, b) = 1 for positive integers a and b, what is the maximum possible value of gcd(a + b, a - b)?
+(A) 1  (B) 4  (C) 2  (D) 3
+
+Answer: (C)
+
+Solution:
+Any common divisor of (a + b) and (a - b) must divide their sum 2a and difference 2b, so it divides 2 * gcd(a, b) = 2. Thus the maximum value is 2. Therefore, the correct value is 2, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q137. (Hard) Find the smallest five-digit number which when divided by 12, 18, 21, and 28 leaves a remainder of 5 in each case.
+(A) 10080  (B) 10075  (C) 10125  (D) 10085
+
+Answer: (D)
+
+Solution:
+LCM(12, 18, 21, 28) = 252. Smallest 5-digit multiple of 252 is 252 * 40 = 10080. Adding remainder 5 gives 10085. Therefore, the correct value is 10085, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q138. (Hard) If the sum of two positive integers is 528 and their HCF is 33, how many unordered pairs of such numbers satisfy this condition?
+(A) 4  (B) 8  (C) 6  (D) 2
+
+Answer: (A)
+
+Solution:
+Let numbers be 33u and 33v. Then u + v = 16 with gcd(u, v) = 1 and u < v. The pairs are (1, 15), (3, 13), (5, 11), (7, 9), giving 4 pairs. Therefore, the correct value is 4, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q139. (Hard) Find the number of integral solutions (x, y) to the linear Diophantine equation 42x + 56y = 98 such that 0 <= x <= 20.
+(A) 4  (B) 5  (C) 6  (D) 3
+
+Answer: (B)
+
+Solution:
+Dividing by gcd(42, 56) = 14 gives 3x + 4y = 7. General solution is x = 1 + 4k. For 0 <= 1 + 4k <= 20, k takes values 0, 1, 2, 3, 4 (5 solutions). Therefore, the correct value is 5, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q140. (Hard) What is the highest common factor of (n^2 + 1) and (n + 1) when n is an even positive integer?
+(A) 2  (B) n  (C) 1  (D) n + 1
+
+Answer: (C)
+
+Solution:
+n^2 + 1 = (n + 1)(n - 1) + 2. Thus gcd(n^2 + 1, n + 1) = gcd(n + 1, 2). Since n is even, n + 1 is odd, so gcd(n + 1, 2) = 1. Therefore, the correct value is 1, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q141. (Hard) Three wheels with 24, 36, and 48 cogs mesh together. What is the minimum number of revolutions the first wheel must make before all three wheels return to their initial position?
+(A) 4  (B) 3  (C) 12  (D) 6
+
+Answer: (D)
+
+Solution:
+LCM(24, 36, 48) = 144 cogs. Revolutions of the first wheel = 144 / 24 = 6 revolutions. Therefore, the correct value is 6, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q142. (Hard) Find the least positive integer N which leaves remainder 2 when divided by 3, remainder 3 when divided by 5, and remainder 2 when divided by 7.
+(A) 23  (B) 44  (C) 38  (D) 53
+
+Answer: (A)
+
+Solution:
+N = 21k + 2 satisfies congruences modulo 3 and 7. Testing k = 1 gives N = 23, which leaves remainder 3 when divided by 5. Therefore, the correct value is 23, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q143. (Hard) If the LCM of two positive integers is 2^3 * 3^2 * 5 * 11 and their HCF is 2 * 3, how many ordered pairs of such numbers exist?
+(A) 8  (B) 16  (C) 4  (D) 32
+
+Answer: (B)
+
+Solution:
+LCM / HCF = 2^2 * 3^1 * 5^1 * 11^1. The quotient has 4 distinct prime power factors. The number of coprime ordered pairs is 2^4 = 16. Therefore, the correct value is 16, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q144. (Hard) A rectangular courtyard 18 m 72 cm long and 13 m 20 cm broad is paved with minimum square tiles of equal size. Find the minimum number of tiles required.
+(A) 4120  (B) 4400  (C) 4290  (D) 3960
+
+Answer: (C)
+
+Solution:
+Tile side = HCF(1872, 1320) = 24 cm. Number of tiles = (1872 / 24) * (1320 / 24) = 78 * 55 = 4290. Therefore, the correct value is 4290, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q145. (Hard) What is the greatest common divisor of (n^5 - n) and 30 for every positive integer n?
+(A) 15  (B) 6  (C) 10  (D) 30
+
+Answer: (D)
+
+Solution:
+n^5 - n = n(n - 1)(n + 1)(n^2 + 1). By Fermat's Little Theorem and consecutive integers, it is divisible by 5, 2, and 3 for all integers n, hence always divisible by 30. Therefore, the correct value is 30, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q146. (Hard) If positive integers a, b, c are pairwise coprime, what is the value of LCM(a, b, c) / (a * b * c)?
+(A) 1  (B) 2  (C) 0  (D) 3
+
+Answer: (A)
+
+Solution:
+When integers are pairwise coprime, their LCM is simply their product a * b * c. Therefore, the ratio is 1. Therefore, the correct value is 1, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q147. (Hard) Find the smallest positive composite integer n such that gcd(n, 360) = 1.
+(A) 77  (B) 49  (C) 91  (D) 121
+
+Answer: (B)
+
+Solution:
+Prime factors of 360 are 2, 3, 5. So n cannot have factors 2, 3, 5. The smallest primes available are 7, 11, ... The smallest composite number formed is 7 * 7 = 49. Therefore, the correct value is 49, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q148. (Hard) What is the remainder when the product of the LCM and HCF of any three consecutive even positive integers is divided by 8?
+(A) 2  (B) 4  (C) 0  (D) 6
+
+Answer: (C)
+
+Solution:
+The HCF of consecutive even integers is at least 2. Among any three consecutive even integers, at least one is divisible by 4, so their LCM is divisible by 4. Product is divisible by 2 * 4 = 8, leaving remainder 0. Therefore, the correct value is 0, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q149. (Hard) The HCF and LCM of two polynomials are (x + 3) and (x^3 - 7x + 6) respectively. If one polynomial is (x^2 + 2x - 3), find the other polynomial.
+(A) x^2 - x - 6  (B) x^2 + 5x + 6  (C) x^2 - 5x + 6  (D) x^2 + x - 6
+
+Answer: (D)
+
+Solution:
+x^3 - 7x + 6 = (x - 1)(x + 3)(x - 2). Other polynomial = (HCF * LCM) / (x^2 + 2x - 3) = ((x + 3)(x - 1)(x + 3)(x - 2)) / ((x + 3)(x - 1)) = (x + 3)(x - 2) = x^2 + x - 6. Therefore, the correct value is x^2 + x - 6, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q150. (Hard) Three runners start together from the same point in the same direction on a circular track of circumference 1200 m with speeds 10 m/s, 15 m/s, and 20 m/s. After how many seconds will all three be together again at the start line?
+(A) 120 seconds  (B) 240 seconds  (C) 360 seconds  (D) 480 seconds
+
+Answer: (B)
+
+Solution:
+Lap times: 1200/10 = 120 s, 1200/15 = 80 s, 1200/20 = 60 s. They meet at the start line at LCM(120, 80, 60) = 240 seconds. Psychological Trap: Confusing meetup anywhere on the track (relative speeds) with meeting specifically at the starting point. Therefore, the correct value is 240 seconds, corresponding to option (B).
+
+Source: SSC CGL Pattern

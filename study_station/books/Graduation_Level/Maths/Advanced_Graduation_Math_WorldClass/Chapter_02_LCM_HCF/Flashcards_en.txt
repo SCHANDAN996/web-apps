@@ -1,0 +1,71 @@
+Card 1
+Front: What is the fundamental relationship between two numbers A and B and their LCM and HCF?
+Back: A * B = LCM(A, B) * HCF(A, B). This identity applies strictly to two numbers only.
+
+Card 2
+Front: How do you represent two numbers A and B in terms of their HCF H?
+Back: A = H*x and B = H*y, where x and y are strictly coprime positive integers (gcd(x, y) = 1).
+
+Card 3
+Front: What is the formula for the HCF of fractions (a/b, c/d, e/f)?
+Back: HCF of fractions = HCF(a, c, e) / LCM(b, d, f), provided all fractions are in simplest form.
+
+Card 4
+Front: What is the formula for the LCM of fractions (a/b, c/d, e/f)?
+Back: LCM of fractions = LCM(a, c, e) / HCF(b, d, f), provided all fractions are in simplest form.
+
+Card 5
+Front: How do you find the greatest number dividing x, y, z that leaves the same remainder r in each case (r is unknown)?
+Back: Take the HCF of pairwise absolute differences: HCF(|x - y|, |y - z|, |z - x|).
+
+Card 6
+Front: What is the mnemonic trick "HCF Differences, LCM Minus Constant"?
+Back: For HCF with unknown equal remainders, take HCF of differences. For LCM with constant difference K = (divisor - remainder), take LCM * k - K.
+
+Card 7
+Front: What is the formula for the least number which when divided by x, y, z leaves remainder r in each case?
+Back: N = LCM(x, y, z) * k + r, where k is a positive integer.
+
+Card 8
+Front: What is the formula for gcd(a^m - 1, a^n - 1) for positive integers a, m, n?
+Back: gcd(a^m - 1, a^n - 1) = a^gcd(m, n) - 1.
+
+Card 9
+Front: If runners on a circular track of length L have lap times t1, t2, t3, when do they meet at the starting point?
+Back: They meet at the starting point after time = LCM(t1, t2, t3).
+
+Card 10
+Front: How do you find the minimum number of square tiles required to pave a rectangular floor of dimensions L and B?
+Back: Tile size = HCF(L, B). Minimum number of tiles = (L * B) / (HCF(L, B))^2.
+
+Card 11
+Front: What is the relationship between three numbers A, B, C and their LCM and pairwise HCFs?
+Back: LCM(A, B, C) = [A * B * C * HCF(A, B, C)] / [HCF(A, B) * HCF(B, C) * HCF(C, A)].
+
+Card 12
+Front: If the sum of two numbers is S and their HCF is H, what condition must the coprime ratio pair (x, y) satisfy?
+Back: x + y = S / H, where x and y are natural numbers with gcd(x, y) = 1.
+
+Card 13
+Front: If the product of two numbers is P and their HCF is H, what condition must (x, y) satisfy?
+Back: x * y = P / H^2, with gcd(x, y) = 1.
+
+Card 14
+Front: What is the Euclidean algorithm step for gcd(a, b)?
+Back: If a = b*q + r, then gcd(a, b) = gcd(b, r). Repeat until r = 0; the last non-zero remainder is the GCD.
+
+Card 15
+Front: What is the sum of reciprocals (1/A + 1/B) in terms of HCF H and coprime multipliers x, y?
+Back: 1/A + 1/B = (x + y) / (H * x * y).
+
+Card 16
+Front: Why does the formula A * B * C = LCM(A,B,C) * HCF(A,B,C) fail for three numbers?
+Back: Common prime factors shared by only two of the three numbers are counted with incorrect multiplicities.
+
+Card 17
+Front: If 6 bells toll together at intervals of 2, 4, 6, 8, 10, 12 seconds, how often do they toll together?
+Back: Every LCM(2, 4, 6, 8, 10, 12) = 120 seconds (2 minutes).
+
+Card 18
+Front: What is Bézout's Identity?
+Back: For any non-zero integers a and b, there exist integers x and y such that a*x + b*y = gcd(a, b).

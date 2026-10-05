@@ -1,0 +1,33 @@
+```mermaid
+graph TD
+    LH["🔵 ल.स.प. एवं म.स.प. (LCM & HCF Advanced)"]
+    
+    LH --> CORE["🟢 मूलभूत सिद्धांत (Core Principles)"]
+    LH --> REM["🟣 शेषफल मॉडल (Remainder Models)"]
+    LH --> CPR["🟠 सह-अभाज्य अनुपात (Coprime Modeling)"]
+    LH --> APP["🔴 व्यावहारिक अनुप्रयोग (Applications)"]
+    
+    CORE --> PROD["गुणनफल नियम<br>A * B = LCM * HCF"]
+    CORE --> EUC["यूक्लिडियन कलन विधि<br>gcd(a,b) = gcd(b, r)"]
+    CORE --> FRAC["भिन्नों के सूत्र<br>HCF/LCM of fractions"]
+    CORE --> ALG["बीजीय सर्वसमिका<br>gcd(a^m-1, a^n-1) = a^g - 1"]
+    
+    REM --> HCF_SAME["म.स.प. समान शेष (अज्ञात)<br>HCF(|x-y|, |y-z|, |z-x|)"]
+    REM --> HCF_DIFF["म.स.प. भिन्न शेष<br>HCF(x-r1, y-r2, z-r3)"]
+    REM --> LCM_SAME["ल.स.प. समान शेष r<br>LCM * k + r"]
+    REM --> LCM_DIFF["ल.स.प. स्थिर अंतर K<br>LCM * k - K"]
+    
+    CPR --> MOD1["संख्याएँ A=Hx, B=Hy<br>gcd(x, y) = 1"]
+    CPR --> MOD2["योग: H(x + y)<br>गुणनफल: H^2*x*y"]
+    CPR --> MOD3["व्युत्क्रम योग<br>(x + y)/(H*x*y)"]
+    
+    APP --> CIRC["वृत्ताकार पथ मिलन<br>LCM of lap times"]
+    APP --> BELL["घंटियों का बजना<br>LCM of intervals"]
+    APP --> TILE["न्यूनतम टाइलें<br>Area / (HCF * HCF)"]
+    
+    style LH fill:#4f46e5,stroke:#fff,stroke-width:2px,color:#fff
+    style CORE fill:#059669,stroke:#fff,stroke-width:2px,color:#fff
+    style REM fill:#7c3aed,stroke:#fff,stroke-width:2px,color:#fff
+    style CPR fill:#ea580c,stroke:#fff,stroke-width:2px,color:#fff
+    style APP fill:#dc2626,stroke:#fff,stroke-width:2px,color:#fff
+```

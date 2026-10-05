@@ -1,0 +1,38 @@
+Trick 1: Fast HCF of Differences Shortcut
+Rule: HCF of a set of numbers can never exceed the difference between any two of them.
+Example: HCF(124, 136) must divide 136 - 124 = 12. Factors of 12 are 12, 6, 4, 3, 2, 1. Testing gives 4.
+
+Trick 2: Coprime Modeling (A = Hx, B = Hy)
+Rule: Always convert two numbers into Hx and Hy. LCM becomes H*x*y, and product is H^2*x*y.
+
+Trick 3: Fraction HCF/LCM Memory Aid
+Rule: What you want goes on top!
+- Want HCF? HCF goes in Numerator, LCM in Denominator.
+- Want LCM? LCM goes in Numerator, HCF in Denominator.
+
+Trick 4: Constant Remainder for HCF: Eliminate r by Subtraction
+Rule: When divisor leaves the same unknown remainder, ignore r and take HCF of pairwise differences: HCF(|a-b|, |b-c|, |c-a|).
+
+Trick 5: Constant Difference for LCM: LCM - K
+Rule: When (divisor - remainder) = constant K for all divisors, answer is simply LCM * k - K.
+
+Trick 6: Algebraic Exponential HCF
+Rule: gcd(a^m - 1, a^n - 1) = a^gcd(m, n) - 1.
+
+Trick 7: Three Bells / Traffic Lights Shortcut
+Rule: Find individual period intervals, take LCM, and convert seconds to minutes/hours.
+
+Trick 8: Minimum Square Tiles Formula
+Rule: Tile side = HCF(L, B). Number of tiles = (L / HCF) * (B / HCF).
+
+Trick 9: Product of Two Numbers Mental Verification
+Rule: Always check that LCM / HCF is an integer. If LCM is not divisible by HCF, the question has an error!
+
+Trick 10: Square Divisible by Multiple Numbers
+Rule: Find LCM in prime factor form. Multiply LCM by each prime that has an odd exponent to make all exponents even.
+
+Trick 11: Circular Track Meeting at Origin
+Rule: Meeting time at starting point is strictly LCM of individual lap times (L/s1, L/s2).
+
+Trick 12: Sum of Reciprocals Shortcut
+Rule: 1/A + 1/B = (A + B) / (A * B) = (x + y) / (H * x * y).

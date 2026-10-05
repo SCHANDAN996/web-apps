@@ -1,0 +1,249 @@
+Q26. (Medium) The sum of two numbers is 216 and their HCF is 27. How many such pairs of numbers exist?
+(A) 2  (B) 3  (C) 4  (D) 1
+
+Answer: (A)
+
+Solution:
+27x + 27y = 216 => x + y = 8. Coprime pairs summing to 8 with gcd(x, y) = 1 are (1, 7) and (3, 5). Exactly 2 pairs. Therefore, the correct value is 2, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q27. (Medium) The product of two numbers is 2028 and their HCF is 13. How many pairs of such numbers exist?
+(A) 4  (B) 2  (C) 1  (D) 3
+
+Answer: (B)
+
+Solution:
+Product = H^2 * x * y => 2028 = 169 * x * y => x * y = 12. Coprime pairs with gcd(x, y) = 1 are (1, 12) and (3, 4). Exactly 2 pairs. Therefore, the correct value is 2, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q28. (Medium) The difference of two numbers is 24 and their HCF is 12. If the smaller number is 60, find the larger number.
+(A) 96  (B) 72  (C) 84  (D) 108
+
+Answer: (C)
+
+Solution:
+Let the numbers be 60 and N. N - 60 = 24 => N = 84. Check HCF(60, 84) = 12. Larger number is 84. Therefore, the correct value is 84, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q29. (Medium) The HCF and LCM of two numbers are 21 and 4641 respectively. If one of the numbers lies between 200 and 300, find the larger number.
+(A) 273  (B) 441  (C) 336  (D) 357
+
+Answer: (D)
+
+Solution:
+x * y = LCM / HCF = 4641 / 21 = 221 = 13 * 17. The numbers are 21 * 13 = 273 and 21 * 17 = 357. The larger number is 357. Therefore, the correct value is 357, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q30. (Medium) Two numbers both greater than 29 have an HCF of 29 and an LCM of 4147. Find the sum of the numbers.
+(A) 696  (B) 667  (C) 725  (D) 580
+
+Answer: (A)
+
+Solution:
+x * y = 4147 / 29 = 143 = 11 * 13. Since both numbers > 29, numbers are 29 * 11 = 319 and 29 * 13 = 377. Sum = 319 + 377 = 696. Therefore, the correct value is 696, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q31. (Medium) Find the HCF of 1.08, 0.36, and 0.90.
+(A) 0.09  (B) 0.18  (C) 0.36  (D) 0.06
+
+Answer: (B)
+
+Solution:
+Writing with equal decimals: 108/100, 36/100, 90/100. HCF(108, 36, 90) = 18. HCF = 18 / 100 = 0.18. Therefore, the correct value is 0.18, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q32. (Medium) The LCM of two numbers is 12 times their HCF. The sum of HCF and LCM is 403. If one number is 93, find the other number.
+(A) 134  (B) 114  (C) 124  (D) 128
+
+Answer: (C)
+
+Solution:
+L = 12H. H + 12H = 13H = 403 => H = 31. L = 12 * 31 = 372. Other number = (31 * 372) / 93 = 372 / 3 = 124. Therefore, the correct value is 124, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q33. (Medium) Find the greatest number which will divide 43, 91, and 183 so as to leave the same remainder in each case.
+(A) 7  (B) 9  (C) 8  (D) 4
+
+Answer: (D)
+
+Solution:
+Take differences: 91 - 43 = 48, 183 - 91 = 92, 183 - 43 = 140. HCF(48, 92, 140) = 4. Therefore, the correct value is 4, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q34. (Medium) The HCF of two numbers is 11 and their LCM is 7700. If one of the numbers is 275, find the other number.
+(A) 308  (B) 286  (C) 318  (D) 298
+
+Answer: (A)
+
+Solution:
+Other number = (HCF * LCM) / First = (11 * 7700) / 275 = 7700 / 25 = 308. Therefore, the correct value is 308, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q35. (Medium) Find the largest three-digit number which when divided by 6, 9, 12, and 15 leaves a remainder of 3 in each case.
+(A) 900  (B) 903  (C) 963  (D) 993
+
+Answer: (B)
+
+Solution:
+LCM(6, 9, 12, 15) = 180. Largest 3-digit multiple of 180 is 900. Required number = 900 + 3 = 903. Therefore, the correct value is 903, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q36. (Medium) Find the smallest five-digit number which is exactly divisible by 16, 24, 30, and 36.
+(A) 10000  (B) 10800  (C) 10080  (D) 10160
+
+Answer: (C)
+
+Solution:
+LCM(16, 24, 30, 36) = 720. 10000 / 720 = 13 rem 640. Required number = 10000 + (720 - 640) = 10080. Therefore, the correct value is 10080, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q37. (Medium) The ratio of two numbers is 4 : 5. If their LCM is 180, find the smaller number.
+(A) 45  (B) 30  (C) 40  (D) 36
+
+Answer: (D)
+
+Solution:
+LCM = 4 * 5 * H = 180 => 20H = 180 => H = 9. Smaller number = 4 * 9 = 36. Therefore, the correct value is 36, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q38. (Medium) Find the value of gcd(4^315 - 1, 4^25 - 1).
+(A) 1023  (B) 1024  (C) 255  (D) 4095
+
+Answer: (A)
+
+Solution:
+By identity gcd(a^m - 1, a^n - 1) = a^gcd(m, n) - 1: gcd(315, 25) = 5. So 4^5 - 1 = 1024 - 1 = 1023. Therefore, the correct value is 1023, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q39. (Medium) If gcd(a, b) = 1, which of the following values can gcd(a + b, a - b) possibly take?
+(A) Only 1  (B) 1 or 2  (C) Only 2  (D) Any integer
+
+Answer: (B)
+
+Solution:
+Let d = gcd(a+b, a-b). Then d divides (a+b)+(a-b)=2a and (a+b)-(a-b)=2b. Since gcd(a,b)=1, d must divide 2. Hence d is either 1 or 2. Therefore, the correct value is 1 or 2, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q40. (Medium) Find the least number which when divided by 12, 16, 24, and 36 leaves a remainder of 7 in each case.
+(A) 144  (B) 158  (C) 151  (D) 137
+
+Answer: (C)
+
+Solution:
+LCM(12, 16, 24, 36) = 144. Required number = LCM + remainder = 144 + 7 = 151. Therefore, the correct value is 151, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q41. (Medium) A number when divided by 3, 5, and 7 leaves remainders 1, 3, and 5 respectively. What is the smallest such positive integer?
+(A) 105  (B) 107  (C) 101  (D) 103
+
+Answer: (D)
+
+Solution:
+Differences: 3 - 1 = 2, 5 - 3 = 2, 7 - 5 = 2 (constant K = 2). LCM(3, 5, 7) = 105. Required number = LCM - K = 105 - 2 = 103. Psychological Trap: Adding the constant difference 2 instead of subtracting it from the LCM. Therefore, the correct value is 103, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q42. (Medium) The product of two numbers is 4107. If their HCF is 37, find the greater number.
+(A) 111  (B) 37  (C) 74  (D) 148
+
+Answer: (A)
+
+Solution:
+Product = 37^2 * x * y = 4107 => 1369 * x * y = 4107 => x * y = 3. Since 3 is prime, factors are 1 and 3. Greater number = 37 * 3 = 111. Therefore, the correct value is 111, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q43. (Medium) The HCF of two numbers is 9 and their LCM is 270. If the sum of the numbers is 99, find their difference.
+(A) 18  (B) 9  (C) 27  (D) 36
+
+Answer: (B)
+
+Solution:
+A + B = 99, A * B = 9 * 270 = 2430. (A - B)^2 = 99^2 - 4(2430) = 9801 - 9720 = 81. Thus A - B = 9. Therefore, the correct value is 9, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q44. (Medium) Find the least number of soldiers in a regiment who can stand in rows of 15, 20, or 25 and also form a solid square.
+(A) 400  (B) 1600  (C) 900  (D) 2500
+
+Answer: (C)
+
+Solution:
+LCM(15, 20, 25) = 300 = 2^2 * 3^1 * 5^2. To make all prime exponents even, multiply by 3: 300 * 3 = 900. Therefore, the correct value is 900, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q45. (Medium) The sum of two numbers is 45 and their difference is 1/9 of their sum. Find their LCM.
+(A) 90  (B) 120  (C) 80  (D) 100
+
+Answer: (D)
+
+Solution:
+A + B = 45, A - B = 45 / 9 = 5. Adding gives 2A = 50 => A = 25, B = 20. LCM(25, 20) = 100. Therefore, the correct value is 100, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q46. (Medium) Three measuring rods are 64 cm, 72 cm, and 96 cm long. Find the least length in cm that can be measured exactly by any one of them.
+(A) 576  (B) 288  (C) 864  (D) 432
+
+Answer: (A)
+
+Solution:
+LCM(64, 72, 96) = 2^6 * 3^2 = 64 * 9 = 576 cm. Therefore, the correct value is 576, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q47. (Medium) Positive integers x and y have x * y = 1800 and gcd(x, y) = 5. How many unordered pairs {x, y} exist?
+(A) 4  (B) 2  (C) 1  (D) 3
+
+Answer: (B)
+
+Solution:
+x * y = 5^2 * a * b = 1800 => a * b = 72. Coprime pairs for 72 = 2^3 * 3^2 are (1, 72) and (8, 9). Exactly 2 pairs. Therefore, the correct value is 2, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q48. (Medium) The HCF and LCM of two numbers are 13 and 455 respectively. If one number lies between 60 and 80, find that number.
+(A) 78  (B) 75  (C) 65  (D) 70
+
+Answer: (C)
+
+Solution:
+x * y = 455 / 13 = 35 = 5 * 7. Numbers are 13 * 5 = 65 and 13 * 7 = 91. The number between 60 and 80 is 65. Therefore, the correct value is 65, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q49. (Medium) Find the greatest four-digit number which is divisible by each of 12, 15, 18, and 27.
+(A) 9640  (B) 9820  (C) 9900  (D) 9720
+
+Answer: (D)
+
+Solution:
+LCM(12, 15, 18, 27) = 540. 9999 / 540 = 18 with remainder 279. Required number = 9999 - 279 = 9720. Therefore, the correct value is 9720, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q50. (Medium) The sum of two numbers is 132 and their LCM is 360. Find the smaller number.
+(A) 72  (B) 60  (C) 48  (D) 54
+
+Answer: (B)
+
+Solution:
+Let numbers be 60 and 72: 60 + 72 = 132, and LCM(60, 72) = 360. The smaller number is 60. Therefore, the correct value is 60, corresponding to option (B).
+
+Source: SSC CGL Pattern

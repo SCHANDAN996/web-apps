@@ -1,0 +1,249 @@
+Q101. (Medium) Find the HCF of the fractions 9/10, 12/25, 18/35, and 21/40.
+(A) 3/1400  (B) 9/1400  (C) 3/700  (D) 1/1400
+
+Answer: (A)
+
+Solution:
+HCF of fractions = HCF(9, 12, 18, 21) / LCM(10, 25, 35, 40) = 3 / 1400. Therefore, the correct value is 3/1400, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q102. (Medium) Find the LCM of the fractions 2/3, 3/5, 4/7, and 9/13.
+(A) 18  (B) 36  (C) 72  (D) 36/1365
+
+Answer: (B)
+
+Solution:
+LCM of fractions = LCM(2, 3, 4, 9) / HCF(3, 5, 7, 13) = 36 / 1 = 36. Therefore, the correct value is 36, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q103. (Medium) Find the value of gcd(3^45 - 1, 3^35 - 1).
+(A) 243  (B) 80  (C) 242  (D) 728
+
+Answer: (C)
+
+Solution:
+By identity gcd(a^m - 1, a^n - 1) = a^gcd(m, n) - 1: gcd(45, 35) = 5. So 3^5 - 1 = 243 - 1 = 242. Therefore, the correct value is 242, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q104. (Medium) What is the value of gcd(2^36 - 1, 2^24 - 1)?
+(A) 4096  (B) 1023  (C) 2047  (D) 4095
+
+Answer: (D)
+
+Solution:
+gcd(36, 24) = 12. Thus gcd(2^36 - 1, 2^24 - 1) = 2^12 - 1 = 4096 - 1 = 4095. Therefore, the correct value is 4095, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q105. (Medium) The HCF of two numbers is 18 and their product is 12960. Find their LCM.
+(A) 720  (B) 640  (C) 810  (D) 540
+
+Answer: (A)
+
+Solution:
+LCM = Product / HCF = 12960 / 18 = 720. Therefore, the correct value is 720, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q106. (Medium) The HCF of two numbers is 16 and their LCM is 160. If one of the numbers is 32, find the other number.
+(A) 64  (B) 80  (C) 96  (D) 48
+
+Answer: (B)
+
+Solution:
+Other number = (16 * 160) / 32 = 160 / 2 = 80. Therefore, the correct value is 80, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q107. (Medium) Two numbers are in the ratio 5 : 7. If their HCF is 8, find the sum of the two numbers.
+(A) 88  (B) 104  (C) 96  (D) 112
+
+Answer: (C)
+
+Solution:
+Numbers are 5 * 8 = 40 and 7 * 8 = 56. Sum = 40 + 56 = 96. Therefore, the correct value is 96, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q108. (Medium) Two numbers are in the ratio 3 : 5. If their LCM is 75, find their HCF.
+(A) 3  (B) 15  (C) 1  (D) 5
+
+Answer: (D)
+
+Solution:
+LCM = 3 * 5 * H = 75 => 15H = 75 => H = 5. Therefore, the correct value is 5, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q109. (Medium) Find the HCF of the algebraic polynomials (x^2 - y^2) and (x^3 - y^3).
+(A) x - y  (B) x + y  (C) x^2 - y^2  (D) 1
+
+Answer: (A)
+
+Solution:
+(x^2 - y^2) = (x - y)(x + y) and (x^3 - y^3) = (x - y)(x^2 + xy + y^2). Common factor is (x - y). Therefore, the correct value is x - y, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q110. (Medium) Find the LCM of the polynomials (x^2 - 4) and (x + 2)^2.
+(A) (x - 2)(x + 2)  (B) (x - 2)(x + 2)^2  (C) (x^2 - 4)^2  (D) (x + 2)^3
+
+Answer: (B)
+
+Solution:
+Factorizations: (x - 2)(x + 2) and (x + 2)^2. Highest powers give LCM = (x - 2)(x + 2)^2. Therefore, the correct value is (x - 2)(x + 2)^2, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q111. (Medium) The HCF of three numbers 12, 18, and N is 6, and their LCM is 360. What is the smallest possible positive integer value of N?
+(A) 60  (B) 30  (C) 120  (D) 180
+
+Answer: (C)
+
+Solution:
+12 = 2^2 * 3, 18 = 2 * 3^2. LCM = 360 = 2^3 * 3^2 * 5. N must supply the factor of 5 and 2^3 while being a multiple of 6 (2*3): N = 2^3 * 3 * 5 = 120. Therefore, the correct value is 120, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q112. (Medium) What is the HCF of (2^3 * 3^4) and (2^5 * 3^2)?
+(A) 36  (B) 144  (C) 216  (D) 72
+
+Answer: (D)
+
+Solution:
+HCF = 2^3 * 3^2 = 8 * 9 = 72. Therefore, the correct value is 72, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q113. (Medium) Find the HCF of (a^3 - b^3), (a^2 - b^2), and (a - b)^2.
+(A) a - b  (B) a + b  (C) (a - b)^2  (D) 1
+
+Answer: (A)
+
+Solution:
+The factor (a - b) is common to all three expressions with minimum power 1. Hence HCF is (a - b). Therefore, the correct value is a - b, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q114. (Medium) The product of two numbers is 1320 and their HCF is 6. Find their LCM.
+(A) 240  (B) 220  (C) 180  (D) 200
+
+Answer: (B)
+
+Solution:
+LCM = Product / HCF = 1320 / 6 = 220. Therefore, the correct value is 220, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q115. (Medium) Find the LCM of 0.6, 9.6, and 0.12.
+(A) 4.8  (B) 96  (C) 9.6  (D) 0.96
+
+Answer: (C)
+
+Solution:
+Equating decimal places: 60/100, 960/100, 12/100. LCM(60, 960, 12) = 960. Dividing by 100 gives 9.6. Psychological Trap: Calculating LCM(6, 96, 12) without first making decimal places uniform, leading to decimal point misplacement. Therefore, the correct value is 9.6, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q116. (Medium) Find the HCF of the polynomials (x^4 - 1) and (x^6 - 1).
+(A) x - 1  (B) x^2 + 1  (C) x^4 - 1  (D) x^2 - 1
+
+Answer: (D)
+
+Solution:
+gcd(x^4 - 1, x^6 - 1) = x^gcd(4, 6) - 1 = x^2 - 1. Therefore, the correct value is x^2 - 1, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q117. (Medium) Find the LCM of (x^2 - 9) and (x^2 - 5x + 6).
+(A) (x^2 - 9)(x - 2)  (B) (x - 3)(x - 2)  (C) (x^2 - 9)(x - 3)  (D) (x + 3)(x - 2)
+
+Answer: (A)
+
+Solution:
+(x - 3)(x + 3) and (x - 2)(x - 3). LCM = (x - 3)(x + 3)(x - 2) = (x^2 - 9)(x - 2). Therefore, the correct value is (x^2 - 9)(x - 2), corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q118. (Medium) If the HCF of two numbers is 1, the numbers are standardly called:
+(A) Prime numbers  (B) Coprime numbers  (C) Twin primes  (D) Composite numbers
+
+Answer: (B)
+
+Solution:
+Two positive integers a and b are called coprime (or mutually prime) if and only if gcd(a, b) = 1. Therefore, the correct value is Coprime numbers, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q119. (Medium) Find the value of gcd(5^20 - 1, 5^12 - 1).
+(A) 625  (B) 3124  (C) 624  (D) 124
+
+Answer: (C)
+
+Solution:
+gcd(20, 12) = 4. HCF = 5^4 - 1 = 625 - 1 = 624. Therefore, the correct value is 624, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q120. (Medium) If the ratio of two numbers is 13 : 15 and their LCM is 390, find their HCF.
+(A) 3  (B) 1  (C) 4  (D) 2
+
+Answer: (D)
+
+Solution:
+LCM = 13 * 15 * H = 390 => 195H = 390 => H = 2. Therefore, the correct value is 2, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q121. (Hard) Find the greatest positive integer that will divide (n^3 - n) for every positive integer n.
+(A) 6  (B) 12  (C) 3  (D) 24
+
+Answer: (A)
+
+Solution:
+n^3 - n = (n - 1)n(n + 1). The product of any three consecutive integers is always divisible by 3! = 6. Therefore, the correct value is 6, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q122. (Hard) If HCF of two numbers x and y is 15, their LCM is 180, and x + y = 105, find the absolute difference |x - y|.
+(A) 25  (B) 15  (C) 30  (D) 10
+
+Answer: (B)
+
+Solution:
+x * y = 15 * 180 = 2700. (x - y)^2 = (x + y)^2 - 4xy = 105^2 - 4(2700) = 11025 - 10800 = 225. Thus |x - y| = 15. Therefore, the correct value is 15, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q123. (Hard) Find the value of gcd(2^315 - 1, 2^25 - 1).
+(A) 32  (B) 15  (C) 31  (D) 63
+
+Answer: (C)
+
+Solution:
+gcd(315, 25) = 5. Therefore, gcd(2^315 - 1, 2^25 - 1) = 2^5 - 1 = 32 - 1 = 31. Therefore, the correct value is 31, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q124. (Hard) If p is a prime number greater than 3, what is the greatest integer that always divides (p^2 - 1)?
+(A) 12  (B) 6  (C) 48  (D) 24
+
+Answer: (D)
+
+Solution:
+Every prime p > 3 is of form 6k ± 1. (6k ± 1)^2 - 1 = 36k^2 ± 12k = 12k(3k ± 1). Since k or (3k ± 1) is even, this expression is always divisible by 24. Psychological Trap: Assuming 12 is the answer because 12 divides it, without realizing 24 is the maximum divisor. Therefore, the correct value is 24, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q125. (Hard) Three numbers x, y, z have pairwise HCFs: gcd(x, y) = 3, gcd(y, z) = 2, gcd(z, x) = 5, and gcd(x, y, z) = 1. What is the minimum possible value of their product x * y * z?
+(A) 450  (B) 900  (C) 1800  (D) 300
+
+Answer: (B)
+
+Solution:
+Minimum factors: x must contain 3 and 5 (x = 15); y must contain 3 and 2 (y = 6); z must contain 2 and 5 (z = 10). Product = 15 * 6 * 10 = 900. Therefore, the correct value is 900, corresponding to option (B).
+
+Source: SSC CGL Pattern

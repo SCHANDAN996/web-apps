@@ -1,0 +1,35 @@
+The Story of the Two Train Tracks and the Universal Measuring Stick
+
+Imagine you have two very long train sets running side by side.
+Track A has stations spaced every 12 meters apart.
+Track B has stations spaced every 18 meters apart.
+
+Both tracks start at the exact same station: Station 0.
+As the trains chug forward, the passengers wonder: "At which station will both trains stop together next?"
+Track A stops at: 12, 24, 36, 48, 60, 72...
+Track B stops at: 18, 36, 54, 72...
+Look at that! Both trains stop together at 36 meters, then at 72 meters!
+The VERY FIRST place they meet is 36 meters.
+That first common station is the Least Common Multiple (LCM). LCM is the future meetup point of different cycles.
+
+Now imagine a totally different problem. You are a carpenter.
+You have two wooden boards: one is 12 meters long, and the other is 18 meters long.
+You want to cut BOTH boards into smaller equal pieces with ZERO wood wasted.
+What is the LONGEST wooden ruler you can use to measure both boards?
+- A 1-meter ruler works.
+- A 2-meter ruler works (12 = 6*2, 18 = 9*2).
+- A 3-meter ruler works (12 = 4*3, 18 = 6*3).
+- A 6-meter ruler works (12 = 2*6, 18 = 3*6).
+Can you use a 9-meter ruler? It cuts 18, but it ruins 12!
+So the biggest possible ruler is 6 meters.
+That longest universal ruler is the Highest Common Factor (HCF). HCF is the biggest common building block!
+
+The mind-blowing connection between them:
+Multiply the boards: 12 * 18 = 216.
+Multiply the HCF and LCM: 6 * 36 = 216!
+They are exact mirrors of each other: The biggest common ruler multiplied by the first common meeting point equals the product of the two original numbers!
+
+Blurting Sheet (Active Recall Practice):
+1. What does LCM represent in physical terms? (The first synchronized meeting station of repeating cycles).
+2. What does HCF represent? (The largest ruler that evenly measures both lengths without leftovers).
+3. If two boards are 15m and 25m, what is their HCF? (5m). Their first meeting station (LCM)? (75m).

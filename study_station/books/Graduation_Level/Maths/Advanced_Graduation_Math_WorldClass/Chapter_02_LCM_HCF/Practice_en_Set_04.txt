@@ -1,0 +1,249 @@
+Q76. (Medium) Six bells commence tolling together and toll at intervals of 2, 4, 6, 8, 10, and 12 seconds respectively. In 30 minutes, how many times do they toll together?
+(A) 16  (B) 15  (C) 14  (D) 18
+
+Answer: (A)
+
+Solution:
+LCM(2, 4, 6, 8, 10, 12) = 120 seconds = 2 minutes. In 30 minutes, they toll (30 / 2) + 1 = 15 + 1 = 16 times (including the initial toll at t = 0). Psychological Trap: Forgetting to add 1 for the initial simultaneous toll at time t = 0. Therefore, the correct value is 16, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q77. (Medium) Four bells toll at intervals of 4, 6, 8, and 14 seconds. At what time will they toll together next if they toll together at 12:00:00 O'clock?
+(A) 12:03:00  (B) 12:02:48  (C) 12:02:24  (D) 12:04:00
+
+Answer: (B)
+
+Solution:
+LCM(4, 6, 8, 14) = 168 seconds = 2 minutes 48 seconds. The time will be 12:02:48. Therefore, the correct value is 12:02:48, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q78. (Medium) The traffic lights at three different road crossings change after every 48 sec, 72 sec, and 108 sec respectively. If they change simultaneously at 8:20:00 hours, when will they change together next?
+(A) 8:26:12 hrs  (B) 8:28:12 hrs  (C) 8:27:12 hrs  (D) 8:25:48 hrs
+
+Answer: (C)
+
+Solution:
+LCM(48, 72, 108) = 432 seconds = 7 minutes 12 seconds. Next change will be at 8:20:00 + 7 min 12 sec = 8:27:12. Therefore, the correct value is 8:27:12 hrs, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q79. (Medium) A room is 15 m 17 cm long and 9 m 2 cm broad. Find the least number of square tiles required to pave the floor.
+(A) 841  (B) 828  (C) 804  (D) 814
+
+Answer: (D)
+
+Solution:
+L = 1517 cm, B = 902 cm. Tile size = HCF(1517, 902) = 41 cm. Number of tiles = (1517 * 902) / (41 * 41) = 37 * 22 = 814 tiles. Therefore, the correct value is 814, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q80. (Medium) Three cans contain 403 liters, 434 liters, and 465 liters of milk respectively. What is the maximum capacity of a container that can measure the milk of all three cans an exact number of times?
+(A) 31 liters  (B) 29 liters  (C) 37 liters  (D) 33 liters
+
+Answer: (A)
+
+Solution:
+HCF(403, 434, 465) = HCF(434 - 403, 465 - 434) = HCF(31, 31) = 31 liters. Therefore, the correct value is 31 liters, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q81. (Medium) A, B, and C start at the same time in the same direction to run around a circular stadium of circumference 12 km. If their speeds are 4 km/h, 3 km/h, and 2 km/h respectively, when will they meet again at the starting point?
+(A) 6 hours  (B) 12 hours  (C) 24 hours  (D) 18 hours
+
+Answer: (B)
+
+Solution:
+Lap times: t1 = 12/4 = 3h, t2 = 12/3 = 4h, t3 = 12/2 = 6h. Meeting time at starting point = LCM(3, 4, 6) = 12 hours. Psychological Trap: Using relative speed formulas instead of individual lap times for starting point synchronization. Therefore, the correct value is 12 hours, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q82. (Medium) A farmer has 945 cows and 2475 sheep. He groups them into minimum number of equal flocks having either cows or sheep. Find the total number of flocks.
+(A) 45  (B) 68  (C) 76  (D) 84
+
+Answer: (C)
+
+Solution:
+Animals per flock = HCF(945, 2475) = 45. Total number of flocks = (945 + 2475) / 45 = 3420 / 45 = 76 flocks. Therefore, the correct value is 76, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q83. (Medium) There are 408 Hindi books, 510 English books, and 306 Sanskrit books to be stacked topic-wise with equal height. Find the least number of stacks.
+(A) 102  (B) 14  (C) 10  (D) 12
+
+Answer: (D)
+
+Solution:
+Books per stack = HCF(408, 510, 306) = 102. Number of stacks = (408 + 510 + 306) / 102 = 4 + 5 + 3 = 12 stacks. Therefore, the correct value is 12, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q84. (Medium) Three pieces of timber 42 m, 49 m, and 63 m long have to be divided into planks of the same length. What is the greatest possible length of each plank?
+(A) 7 m  (B) 14 m  (C) 9 m  (D) 6 m
+
+Answer: (A)
+
+Solution:
+The greatest length is HCF(42, 49, 63) = 7 meters. Therefore, the correct value is 7 m, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q85. (Medium) Three pieces of timber are 42 m, 49 m, and 63 m long. They are divided into planks of the same greatest possible length. What is the total number of planks formed?
+(A) 21  (B) 22  (C) 24  (D) 18
+
+Answer: (B)
+
+Solution:
+HCF(42, 49, 63) = 7 m. Total planks = (42 / 7) + (49 / 7) + (63 / 7) = 6 + 7 + 9 = 22 planks. Therefore, the correct value is 22, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q86. (Medium) Three runners run along a 400 m circular track with speeds 5 m/s, 4 m/s, and 2 m/s in the same direction. When will they meet for the first time at the starting point?
+(A) 200 seconds  (B) 800 seconds  (C) 400 seconds  (D) 100 seconds
+
+Answer: (C)
+
+Solution:
+Lap times: 400/5 = 80s, 400/4 = 100s, 400/2 = 200s. LCM(80, 100, 200) = 400 seconds. Therefore, the correct value is 400 seconds, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q87. (Medium) A rectangular field is 360 m long and 168 m wide. It has to be divided into minimum number of identical square plots. How many plots will be formed?
+(A) 24  (B) 96  (C) 112  (D) 105
+
+Answer: (D)
+
+Solution:
+Plot side = HCF(360, 168) = 24 m. Number of plots = (360 * 168) / (24 * 24) = 15 * 7 = 105 plots. Therefore, the correct value is 105, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q88. (Medium) Three containers hold 240 L, 300 L, and 360 L of liquids. Find the minimum number of equal containers required to store all liquids without mixing.
+(A) 15  (B) 60  (C) 12  (D) 18
+
+Answer: (A)
+
+Solution:
+Container size = HCF(240, 300, 360) = 60 liters. Total containers = (240 + 300 + 360) / 60 = 4 + 5 + 6 = 15 containers. Therefore, the correct value is 15, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q89. (Medium) Five bells toll together at intervals of 3, 5, 7, 8, and 10 seconds respectively. How many times will they toll together in one hour excluding the start?
+(A) 5  (B) 4  (C) 3  (D) 6
+
+Answer: (B)
+
+Solution:
+LCM(3, 5, 7, 8, 10) = 840 seconds. In 1 hour (3600 seconds), they toll floor(3600 / 840) = 4 times. Therefore, the correct value is 4, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q90. (Medium) Three wheels make 120, 150, and 180 revolutions per minute respectively. After how many seconds will they be in the same relative position again?
+(A) 1 second  (B) 4 seconds  (C) 2 seconds  (D) 3 seconds
+
+Answer: (C)
+
+Solution:
+Periods of one revolution: 60/120 = 1/2 s, 60/150 = 2/5 s, 60/180 = 1/3 s. LCM of fractions = LCM(1, 2, 1) / HCF(2, 5, 3) = 2 / 1 = 2 seconds. Therefore, the correct value is 2 seconds, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q91. (Medium) What is the maximum number of students among whom 1001 pens and 910 pencils can be distributed equally?
+(A) 13  (B) 7  (C) 143  (D) 91
+
+Answer: (D)
+
+Solution:
+Maximum students = HCF(1001, 910) = 91 students. Therefore, the correct value is 91, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q92. (Medium) If 1001 pens and 910 pencils are distributed equally among the maximum possible number of students, how many total stationery items (pens + pencils) does each student receive?
+(A) 21  (B) 91  (C) 11  (D) 10
+
+Answer: (A)
+
+Solution:
+Maximum students = HCF(1001, 910) = 91. Pens per student = 1001 / 91 = 11. Pencils per student = 910 / 91 = 10. Total items = 11 + 10 = 21 items. Therefore, the correct value is 21, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q93. (Medium) The capacity of three containers is 12 L, 16 L, and 24 L. What is the minimum capacity of a tank that can be filled by any of them an exact number of times?
+(A) 96 liters  (B) 48 liters  (C) 24 liters  (D) 72 liters
+
+Answer: (B)
+
+Solution:
+LCM(12, 16, 24) = 48 liters. Therefore, the correct value is 48 liters, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q94. (Medium) Find the minimum length of a rope that can be cut into pieces of lengths 45 cm, 75 cm, or 90 cm with no rope left over.
+(A) 900 cm  (B) 300 cm  (C) 450 cm  (D) 225 cm
+
+Answer: (C)
+
+Solution:
+LCM(45, 75, 90) = 450 cm. Therefore, the correct value is 450 cm, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q95. (Medium) A merchant has three varieties of oil: 120 L, 180 L, and 240 L. What is the minimum number of equal casks required to pack the oil without mixing?
+(A) 60  (B) 6  (C) 12  (D) 9
+
+Answer: (D)
+
+Solution:
+Cask capacity = HCF(120, 180, 240) = 60 L. Total casks = (120 + 180 + 240) / 60 = 2 + 3 + 4 = 9 casks. Therefore, the correct value is 9, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q96. (Medium) A gardener wants to plant 48 apple trees, 72 orange trees, and 120 mango trees in equal rows containing only one type of tree. Find the minimum number of rows.
+(A) 10  (B) 24  (C) 12  (D) 8
+
+Answer: (A)
+
+Solution:
+Trees per row = HCF(48, 72, 120) = 24. Number of rows = (48 + 72 + 120) / 24 = 2 + 3 + 5 = 10 rows. Therefore, the correct value is 10, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q97. (Medium) Three bells toll at intervals of 15, 20, and 30 minutes. If they toll together at 10:00 AM, at what time will they toll together for the third time (including the start)?
+(A) 11:00 AM  (B) 12:00 PM  (C) 1:00 PM  (D) 11:30 AM
+
+Answer: (B)
+
+Solution:
+Interval = LCM(15, 20, 30) = 60 minutes = 1 hour. Toll 1: 10:00 AM. Toll 2: 11:00 AM. Toll 3: 12:00 PM. Therefore, the correct value is 12:00 PM, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q98. (Medium) A rectangular floor of 4 m x 6 m is paved with maximum square tiles. If each tile costs Rs. 25, find the total cost of paving.
+(A) Rs. 200  (B) Rs. 100  (C) Rs. 150  (D) Rs. 300
+
+Answer: (C)
+
+Solution:
+Tile size = HCF(4, 6) = 2 m. Number of tiles = (4 * 6) / (2 * 2) = 6 tiles. Total cost = 6 * 25 = Rs. 150. Therefore, the correct value is Rs. 150, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q99. (Medium) Three cyclists ride around a circular track of 1200 m with speeds 15 m/s, 20 m/s, and 25 m/s. When will they meet at the starting point?
+(A) 120 seconds  (B) 360 seconds  (C) 480 seconds  (D) 240 seconds
+
+Answer: (D)
+
+Solution:
+Lap times: 1200/15 = 80s, 1200/20 = 60s, 1200/25 = 48s. LCM(80, 60, 48) = 240 seconds. Therefore, the correct value is 240 seconds, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q100. (Medium) A boy counts coins by grouping them into piles of 12, 15, or 18. Each time, 5 coins are left over. If he groups them into piles of 17, no coins are left over. Find the least number of coins he could have.
+(A) 185  (B) 1445  (C) 365  (D) 725
+
+Answer: (B)
+
+Solution:
+LCM(12, 15, 18) = 180. Form: 180k + 5. For k = 8, 180(8) + 5 = 1445. 1445 is exactly divisible by 17 (1445 / 17 = 85). Therefore, the correct value is 1445, corresponding to option (B).
+
+Source: SSC CGL Pattern

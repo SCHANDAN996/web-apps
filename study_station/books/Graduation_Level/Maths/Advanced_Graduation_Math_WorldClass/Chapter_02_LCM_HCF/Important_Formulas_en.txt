@@ -1,0 +1,15 @@
+Formula Name | Formula | Key Application
+Two Numbers Fundamental Identity | A * B = LCM(A, B) * HCF(A, B) | Finding missing number, LCM, or HCF
+Coprime Representation | A = H*x, B = H*y with gcd(x, y) = 1 | Modeling sums, differences, and products
+Three Numbers Identity | LCM(A,B,C) = (A*B*C*HCF(A,B,C)) / (HCF(A,B)*HCF(B,C)*HCF(C,A)) | Advanced 3-variable LCM/HCF relations
+HCF with Same Unknown Remainder | HCF(|x - y|, |y - z|, |z - x|) | Divisor leaving equal unknown remainder
+HCF with Specific Remainders | HCF(x - r1, y - r2, z - r3) | Divisor leaving given distinct remainders
+LCM with Same Remainder r | LCM(x, y, z) * k + r | Dividend leaving identical remainder r
+LCM with Constant Difference K | LCM(x, y, z) * k - K where x - r1 = y - r2 = z - r3 = K | Dividend leaving remainders with constant gap
+HCF of Fractions | HCF(Numerators) / LCM(Denominators) | Greatest common fractional measure
+LCM of Fractions | LCM(Numerators) / HCF(Denominators) | Smallest common fractional multiple
+Algebraic Difference HCF | gcd(a^m - 1, a^n - 1) = a^gcd(m, n) - 1 | HCF of exponential expressions minus 1
+Algebraic Sum HCF (odd m, n) | gcd(a^m + 1, a^n + 1) = a^gcd(m, n) + 1 when m/g and n/g are odd | HCF of exponential expressions plus 1
+Sum of Reciprocals of Two Numbers | 1/A + 1/B = (x + y) / (H * x * y) | Relating harmonic sums to LCM and HCF
+Circular Track Starting Point Meeting | LCM(L/s1, L/s2, ..., L/sn) | Periodic lap synchronization at origin
+Bézout's Identity | a*x + b*y = gcd(a, b) for integers x, y | Linear Diophantine equations and GCD
