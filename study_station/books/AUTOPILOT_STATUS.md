@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 06-10-2026 01:41 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 01:25 AM
+**आख़िरी update:** 06-10-2026 01:46 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 01:25 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Pronoun (Graduation English) | 🔎 review हो रहा है | 15 मिनट |
-| W2 | Chapter 03 Adjective (Graduation English) | 🔎 review हो रहा है | 15 मिनट |
-| W3 | Chapter 05 Tense (Graduation English) | 🔎 review हो रहा है | 15 मिनट |
-| W4 | Chapter 06 Adverb (Graduation English) | 🔎 review हो रहा है | 15 मिनट |
+| W1 | Chapter 02 Pronoun (Graduation English) | 🔎 review हो रहा है | 20 मिनट |
+| W2 | Chapter 03 Adjective (Graduation English) | 🔎 review हो रहा है | 20 मिनट |
+| W3 | Chapter 05 Tense (Graduation English) | 📤 push हो रहा है | 0 मिनट |
+| W4 | Chapter 06 Adverb (Graduation English) | 🔎 review हो रहा है | 20 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -33,15 +33,13 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 06-10 01:46 — Graduation English · Chapter 05 Tense
 - 05-10 22:04 — Graduation English · Chapter 01 Noun
 - 05-10 21:44 — Graduation English · Chapter 04 Verb
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-06-10 00:51:29   [Pronoun] review Feynman_hi.txt: 1 issue(s): - "कर्ता" का प्रयोग Antecedent के लिए गलत है → Antecedent का अर्थ "पूर्वपद" (वह संज्ञा जिसके लिए सर्वनाम प्रयुक्त ह
-06-10 00:57:17   [Pronoun] FAILED review Feynman_hi.txt: empty — the chapter must not be published unreviewed
-06-10 00:59:19   [Adverb] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 06-10 01:01:39   [Adverb] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 06-10 01:01:39   [Adverb] written 2, failed 0; AI calls today 39/100000
 06-10 01:03:54   [Adjective] review: 4 section(s) corrected, 1 failed
@@ -79,4 +77,7 @@
 06-10 01:38:28   [Pronoun] review Content_hi.txt: 1 issue(s): - Root table lists 'nom/nomen' (Latin, 'नाम') as the root for 'autonomous', but 'autonomous' derives from Greek 'no
 06-10 01:41:10   [Adjective] review Mind_Map_hi.txt: 1 issue(s): - "संबंधवाचक" का प्रयोग Possessive Adjective (my, his, their) के लिए गलत है → सही हिन्दी पद "स्वामित्ववाचक" या "अध
 06-10 01:41:36   [Adverb] review Feynman_hi.txt: 2 issue(s): - First definition says “Adverb किसी भी चीज़ को 'कैसे, कब, कितना' बताने वाला शब्द है” — adverbs modify verbs, adjec
+06-10 01:45:42   [Pronoun] review Feynman_en.txt: 1 issue(s): - The hint includes "every" as a word that is always singular, but "every" is a determiner, not a pronoun; use sing
+06-10 01:46:08   [Tense] review: 2 section(s) corrected, 0 failed
+06-10 01:46:08   [Tense] written 2, failed 0; AI calls today 138/100000
 ```
