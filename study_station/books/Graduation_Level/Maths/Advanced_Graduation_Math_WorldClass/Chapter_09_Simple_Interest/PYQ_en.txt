@@ -1,0 +1,85 @@
+# Previous Year Questions (Graduation Level Patterns) - Simple Interest
+
+## Pattern 1: Sum Becoming Multiple in Fixed Time
+Q: A sum of money at simple interest doubles itself in 7 years. In how many years will it become 4 times of itself?
+Solution:
+When a sum doubles, interest earned is (2 - 1) = 1 unit in 7 years.
+To become 4 times, the interest required is (4 - 1) = 3 units.
+Time required = 3 * 7 = 21 years.
+Source: SSC CGL Pattern
+
+## Pattern 2: Reconstructing Principal from Two Amounts
+Q: A certain sum of money amounts to Rs 756 in 2 years and to Rs 873 in 3.5 years at simple interest. Find the sum and the rate of interest.
+Solution:
+Interest for (3.5 - 2) = 1.5 years = 873 - 756 = Rs 117.
+Interest for 1 year = 117 / 1.5 = Rs 78.
+Interest for 2 years = 78 * 2 = Rs 156.
+Principal = 756 - 156 = Rs 600.
+Rate = (78 / 600) * 100 = 13% p.a.
+Source: SSC CGL Tier-2 Pattern
+
+## Pattern 3: Equal Maturity Amounts for Two Sons
+Q: A sum of Rs 18,750 is left by a will to be divided between two sons aged 12 and 14 years, such that when each attains the age of 18 years, they receive equal amounts at 5% simple interest per annum. Find the share of the younger son.
+Solution:
+Time for younger son = 18 - 12 = 6 years. Multiplier = 100 + (5 * 6) = 130.
+Time for older son = 18 - 14 = 4 years. Multiplier = 100 + (5 * 4) = 120.
+Ratio of shares P1 : P2 = (1 / 130) : (1 / 120) = 12 : 13.
+Sum of parts = 12 + 13 = 25 parts = Rs 18,750 => 1 part = Rs 750.
+Younger son's share = 12 * 750 = Rs 9,000.
+Source: CDS Pattern
+
+## Pattern 4: Annual Installment to Clear a Future Debt
+Q: What annual installment will discharge a debt of Rs 4,600 due in 4 years at 10% simple interest per annum?
+Solution:
+Using the installment formula:
+x = (100 * D) / [ 100 * T + (R * T * (T - 1)) / 2 ]
+x = (100 * 4600) / [ 100 * 4 + (10 * 4 * 3) / 2 ]
+x = 460000 / [ 400 + 60 ] = 460000 / 460 = Rs 1,000.
+Source: SSC CGL Tier-2 Pattern
+
+## Pattern 5: Rate Sensitivity and Income Change
+Q: A person invested a sum of money at a certain rate of simple interest for 3 years. Had it been invested at 2.5% higher rate, it would have fetched Rs 540 more. Find the sum.
+Solution:
+Extra interest for 3 years = 3 * 2.5% = 7.5% of the principal.
+Given 7.5% of P = Rs 540 => P = 540 / 0.075 = Rs 7,200.
+Source: SSC CGL Pattern
+
+## Pattern 6: Split Investment using Alligation
+Q: A sum of Rs 10,000 is lent partly at 8% and the remaining at 10% p.a. simple interest. If the average annual interest is 9.2%, find the amount lent at 10%.
+Solution:
+By alligation:
+(10 - 9.2) : (9.2 - 8) = 0.8 : 1.2 = 2 : 3.
+Sum of parts = 5 parts = Rs 10,000 => 1 part = Rs 2,000.
+Amount lent at 10% = 3 * 2,000 = Rs 6,000.
+Source: IBPS PO Pattern
+
+## Pattern 7: Variable Rates Over Time
+Q: A man borrowed a sum at 6% p.a. for the first 2 years, 9% p.a. for the next 3 years, and 14% p.a. for the period beyond 5 years. If he pays a total interest of Rs 11,400 after 9 years, how much did he borrow?
+Solution:
+Total interest percentage = (2 * 6) + (3 * 9) + (4 * 14) = 12 + 27 + 56 = 95%.
+Given 95% of P = Rs 11,400 => P = 11400 / 0.95 = Rs 12,000.
+Source: SSC CGL Tier-2 Pattern
+
+## Pattern 8: Equal Interest from Split Capital
+Q: Divide Rs 2,600 into two parts such that the simple interest on the first part for 3 years at 5% is equal to the simple interest on the second part for 4 years at 6%.
+Solution:
+P1 * (3 * 5) = P2 * (4 * 6) => 15 * P1 = 24 * P2 => P1 / P2 = 24 / 15 = 8 / 5.
+Sum of parts = 8 + 5 = 13 parts = Rs 2,600 => 1 part = Rs 200.
+First part = 8 * 200 = Rs 1,600; Second part = 5 * 200 = Rs 1,000.
+Source: SSC CGL Pattern
+
+## Pattern 9: Partial Repayment Model
+Q: A man borrows Rs 4,000 at 5% simple interest. At the end of every year, he pays back Rs 1,000 towards interest and part repayment of principal. How much must he pay at the end of the 3rd year to clear the entire debt?
+Solution:
+Year 1: Principal = Rs 4,000. Interest = 4000 * 0.05 = Rs 200. Balance before payment = Rs 4,200. Paid Rs 1,000 => Balance = Rs 3,200.
+Year 2: Principal = Rs 3,200. Interest = 3200 * 0.05 = Rs 160. Balance before payment = Rs 3,360. Paid Rs 1,000 => Balance = Rs 2,360.
+Year 3: Principal = Rs 2,360. Interest = 2360 * 0.05 = Rs 118. Final amount due = 2360 + 118 = Rs 2,478.
+Source: SSC CGL Tier-2 Pattern
+
+## Pattern 10: Banker's Gain and True Discount
+Q: The true discount on a bill due 9 months hence at 12% per annum is Rs 540. Find the banker's discount and banker's gain.
+Solution:
+Time T = 9/12 = 3/4 years. Rate R = 12%.
+Banker's Gain BG = (TD * R * T) / 100 = (540 * 12 * 3/4) / 100 = (540 * 9) / 100 = Rs 48.60.
+Banker's Discount BD = TD + BG = 540 + 48.60 = Rs 588.60.
+Source: CDS Pattern

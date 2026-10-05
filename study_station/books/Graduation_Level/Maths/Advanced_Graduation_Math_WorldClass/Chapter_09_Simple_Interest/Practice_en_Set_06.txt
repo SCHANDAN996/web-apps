@@ -1,0 +1,249 @@
+Q126. (Very Hard) A person borrowed a sum of Rs 18,900 at 10% per annum simple interest. He agreed to repay the loan in two equal annual installments, the first installment being paid at the end of the first year and the second at the end of the second year. Find the amount of each installment under standard simple interest rules.
+(A) Rs 10,800  (B) Rs 10,500  (C) Rs 11,000  (D) Rs 10,200
+
+Answer: (A)
+
+Solution:
+Under the standard simple interest debt model: Total debt due at the end of 2 years on Rs 18,900 = 18900 + (18900 * 10 * 2) / 100 = 18900 + 3780 = Rs 22,680. If x is the annual installment: Installment 1 (paid at year 1 end) earns interest for 1 year = x + 0.10x = 1.10x. Installment 2 (paid at year 2 end) earns interest for 0 years = x. Total discharged = 1.10x + x = 2.10x. Equating to debt: 2.10x = 22680 => x = 22680 / 2.10 = 226800 / 21 = Rs 10,800. Psychological Trap: A common error is treating the loan as compound interest EMI or ignoring the interest accrued on the first installment. Therefore, the correct value is Rs 10,800, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q127. (Very Hard) A sum of Rs 17,700 is divided into three parts such that their amounts after 2, 3, and 5 years at 10% per annum simple interest are all equal. Find the share of the first part.
+(A) Rs 6,000  (B) Rs 6,500  (C) Rs 5,200  (D) Rs 7,000
+
+Answer: (B)
+
+Solution:
+Amounts after 2, 3, and 5 years at 10% are: A1 = P1 * (1 + 0.20) = 1.20 P1; A2 = P2 * (1 + 0.30) = 1.30 P2; A3 = P3 * (1 + 0.50) = 1.50 P3. Since A1 = A2 = A3: 12*P1 = 13*P2 = 15*P3. Dividing by LCM(12, 13, 15) = 780 gives: P1 / 65 = P2 / 60 = P3 / 52. Total ratio parts = 65 + 60 + 52 = 177 parts. Since 177 parts = Rs 17,700, 1 part = Rs 100. First part P1 = 65 * 100 = Rs 6,500. Therefore, the correct value is Rs 6,500, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q128. (Very Hard) A person borrowed Rs 24,000 from two moneylenders. For one loan, he paid 12% per annum simple interest and for the other, 15% per annum simple interest. After 2 years, he paid a total interest of Rs 6,720. What was the difference between the two borrowed amounts?
+(A) Rs 6,000  (B) Rs 7,500  (C) Rs 8,000  (D) Rs 8,500
+
+Answer: (C)
+
+Solution:
+Annual interest paid = 6720 / 2 = Rs 3,360. If the entire Rs 24,000 had been borrowed at 12%, annual interest would be 12% of 24000 = Rs 2,880. The surplus annual interest = 3360 - 2880 = Rs 480. This surplus corresponds to the 15% - 12% = 3% extra rate on the second loan. Sum borrowed at 15% = 480 / 0.03 = Rs 16,000. Sum borrowed at 12% = 24000 - 16000 = Rs 8,000. Difference between the two sums = 16000 - 8000 = Rs 8,000. Therefore, the correct value is Rs 8,000, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q129. (Very Hard) A person invested Rs 50,000 in two banks for 3 years at 6% and 8% simple interest per annum respectively. If the interest received from the first bank exceeds the interest received from the second bank by Rs 600, find the amount invested in the first bank.
+(A) Rs 20,000  (B) Rs 35,000  (C) Rs 25,000  (D) Rs 30,000
+
+Answer: (D)
+
+Solution:
+Let the amount invested in the first bank be x. Then the amount in the second bank is 50000 - x. Total interest from first bank = (x * 6 * 3) / 100 = 0.18x. Total interest from second bank = [(50000 - x) * 8 * 3] / 100 = 0.24 * (50000 - x) = 12000 - 0.24x. Given: 0.18x - (12000 - 0.24x) = 600 => 0.42x = 12600 => x = 12600 / 0.42 = Rs 30,000. Therefore, the correct value is Rs 30,000, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q130. (Very Hard) The banker's gain on a bill due 2 years hence at 5% per annum simple interest is Rs 40. Find the face value (amount) of the bill.
+(A) Rs 4,400  (B) Rs 4,000  (C) Rs 4,200  (D) Rs 4,500
+
+Answer: (A)
+
+Solution:
+Time T = 2 years, Rate R = 5%. Banker's Gain BG = (TD * R * T) / 100 => 40 = (TD * 5 * 2) / 100 = 10*TD / 100 = TD / 10 => True Discount TD = 40 * 10 = Rs 400. Present Worth PW = (TD * 100) / (R * T) = (400 * 100) / 10 = Rs 4,000. Face Value (Amount) = PW + TD = 4000 + 400 = Rs 4,400. Psychological Trap: A common mistake is mistaking Present Worth (Rs 4,000) for the Face Value, neglecting the addition of True Discount. Therefore, the correct value is Rs 4,400, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q131. (Very Hard) A sum of Rs 10,000 is lent out in two parts: one at 8% per annum and the other at 12% per annum simple interest. If the average annual rate of interest on the total sum is 9.5%, what is the ratio of the first part to the second part?
+(A) 3 : 5  (B) 5 : 3  (C) 4 : 3  (D) 3 : 4
+
+Answer: (B)
+
+Solution:
+Using Rule of Alligation: Rate of Part 1 = 8%; Rate of Part 2 = 12%; Mean Rate = 9.5%. Ratio of Part 1 to Part 2 = (12 - 9.5) : (9.5 - 8) = 2.5 : 1.5 = 5 : 3. Therefore, the correct value is 5 : 3, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q132. (Very Hard) A person borrowed Rs 7,000 from a bank at 10% simple interest per annum on reducing balance. At the end of each of the first two years, he pays back Rs 3,000. How much must he pay at the end of the 3rd year to completely clear the debt?
+(A) Rs 2,450  (B) Rs 2,320  (C) Rs 2,387  (D) Rs 2,400
+
+Answer: (C)
+
+Solution:
+End of Year 1: Interest = 10% of 7000 = Rs 700. Total debt = 7000 + 700 = Rs 7,700. After paying Rs 3,000: Remaining balance = 7700 - 3000 = Rs 4,700. End of Year 2: Interest = 10% of 4700 = Rs 470. Total debt = 4700 + 470 = Rs 5,170. After paying Rs 3,000: Remaining balance = 5170 - 3000 = Rs 2,170. End of Year 3: Interest = 10% of 2170 = Rs 217. Total amount to clear loan = 2170 + 217 = Rs 2,387. Therefore, the correct value is Rs 2,387, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q133. (Very Hard) A person borrowed Rs 7,000 from a bank at 10% simple interest per annum on reducing balance. At the end of each of the first two years, he pays back Rs 3,000. How much must he pay at the end of the 3rd year to completely clear the debt?
+(A) Rs 2,450  (B) Rs 2,320  (C) Rs 2,400  (D) Rs 2,387
+
+Answer: (D)
+
+Solution:
+End of Year 1: Interest = 10% of 7000 = Rs 700. Total debt = 7000 + 700 = Rs 7,700. After paying Rs 3,000: Remaining balance = 7700 - 3000 = Rs 4,700. End of Year 2: Interest = 10% of 4700 = Rs 470. Total debt = 4700 + 470 = Rs 5,170. After paying Rs 3,000: Remaining balance = 5170 - 3000 = Rs 2,170. End of Year 3: Interest = 10% of 2170 = Rs 217. Total amount to clear loan = 2170 + 217 = Rs 2,387. Therefore, the correct value is Rs 2,387, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q134. (Very Hard) A father divided Rs 52,000 between his two sons aged 10 and 15 years such that they receive equal amounts when each reaches the age of 25 years, the rate of simple interest being 5% per annum. Find the share of the younger son.
+(A) Rs 24,000  (B) Rs 28,000  (C) Rs 25,000  (D) Rs 26,000
+
+Answer: (A)
+
+Solution:
+Time for younger son = 25 - 10 = 15 years. Amount = P1 * [1 + (15 * 5)/100] = 1.75 * P1. Time for elder son = 25 - 15 = 10 years. Amount = P2 * [1 + (10 * 5)/100] = 1.50 * P2. Since amounts are equal: 1.75 * P1 = 1.50 * P2 => 7 * P1 = 6 * P2 => P1 / P2 = 6 / 7. Sum of ratio parts = 6 + 7 = 13 parts. Since 13 parts = Rs 52,000, 1 part = Rs 4,000. Share of younger son P1 = 6 * 4000 = Rs 24,000. Psychological Trap: A frequent error is dividing according to the ratio of ages (10:15 = 2:3) or inverse of time, rather than the inverse of amount multipliers. Therefore, the correct value is Rs 24,000, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q135. (Very Hard) A person borrowed Rs 10,000 at 10% simple interest per annum on reducing balance. At the end of the 1st year and the 2nd year, he paid back Rs 4,000 each time. How much must he pay at the end of the 3rd year to completely discharge the loan?
+(A) Rs 4,100  (B) Rs 4,070  (C) Rs 3,980  (D) Rs 4,050
+
+Answer: (B)
+
+Solution:
+End of Year 1: Interest accrued = 10% of 10000 = Rs 1,000. Total owed = 11,000. After payment of Rs 4,000: Balance = 11000 - 4000 = Rs 7,000. End of Year 2: Interest on Rs 7,000 = 10% of 7000 = Rs 700. Total owed = 7,700. After payment of Rs 4,000: Balance = 7700 - 4000 = Rs 3,700. End of Year 3: Interest on Rs 3,700 = 10% of 3700 = Rs 370. Total amount to clear loan = 3700 + 370 = Rs 4,070. Therefore, the correct value is Rs 4,070, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q136. (Very Hard) A person borrowed Rs 10,000 at 10% simple interest per annum on reducing balance. At the end of the 1st year and the 2nd year, he paid back Rs 4,000 each time. How much must he pay at the end of the 3rd year to completely discharge the loan?
+(A) Rs 4,100  (B) Rs 3,980  (C) Rs 4,070  (D) Rs 4,050
+
+Answer: (C)
+
+Solution:
+End of Year 1: Interest accrued = 10% of 10000 = Rs 1,000. Total owed = 11,000. After payment of Rs 4,000: Balance = 11000 - 4000 = Rs 7,000. End of Year 2: Interest on Rs 7,000 = 10% of 7000 = Rs 700. Total owed = 7,700. After payment of Rs 4,000: Balance = 7700 - 4000 = Rs 3,700. End of Year 3: Interest on Rs 3,700 = 10% of 3700 = Rs 370. Total amount to clear loan = 3700 + 370 = Rs 4,070. Therefore, the correct value is Rs 4,070, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q137. (Very Hard) A person invested Rs 100,000 in three schemes: Scheme X at 6%, Scheme Y at 8%, and Scheme Z at 10% per annum simple interest. The amount invested in Scheme X was Rs 10,000 more than that in Scheme Y. If the total annual interest received from all three schemes was Rs 7,800, find the amount invested in Scheme Z.
+(A) Rs 35,000  (B) Rs 25,000  (C) Rs 40,000  (D) Rs 30,000
+
+Answer: (D)
+
+Solution:
+Let investment in Scheme Y be y. Investment in Scheme X = y + 10,000. Investment in Scheme Z = 100,000 - (y + 10,000 + y) = 90,000 - 2y. Total annual interest = 0.06*(y + 10000) + 0.08*y + 0.10*(90000 - 2y) = 0.06y + 600 + 0.08y + 9000 - 0.20y = 9600 - 0.06y. Given 9600 - 0.06y = 7800 => 0.06y = 1800 => y = Rs 30,000. Therefore, investment in Scheme Z = 90,000 - 2*(30,000) = Rs 30,000. Therefore, the correct value is Rs 30,000, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q138. (Very Hard) A person invested Rs 100,000 in three schemes: Scheme X at 6%, Scheme Y at 8%, and Scheme Z at 10% per annum simple interest. The amount invested in Scheme X was Rs 10,000 more than that in Scheme Y. If the total annual interest received from all three schemes was Rs 7,800, find the amount invested in Scheme Z.
+(A) Rs 30,000  (B) Rs 35,000  (C) Rs 25,000  (D) Rs 40,000
+
+Answer: (A)
+
+Solution:
+Taking investment in Scheme Y as y: Investment in Scheme X = y + 10,000. Investment in Scheme Z = 100,000 - (y + 10,000 + y) = 90,000 - 2y. Total annual interest = 0.06*(y + 10000) + 0.08*y + 0.10*(90000 - 2y) = 0.06y + 600 + 0.08y + 9000 - 0.20y = 9600 - 0.06y. Equating to Rs 7,800: 9600 - 0.06y = 7800 => 0.06y = 1800 => y = Rs 30,000. Therefore, investment in Scheme Z = 90,000 - 2*(30,000) = Rs 30,000. Therefore, the correct value is Rs 30,000, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q139. (Very Hard) A person borrowed Rs 15,000 at simple interest. After 2 years, he repaid Rs 5,000. After another 3 years (i.e., 5 years from start), he paid Rs 14,200 to clear the loan. Find the rate of simple interest per annum.
+(A) 6.5%  (B) 7%  (C) 7.5%  (D) 8%
+
+Answer: (B)
+
+Solution:
+Total amount paid = 5000 + 14200 = Rs 19,200. Total interest paid = 19200 - 15000 = Rs 4,200. Loan breakdown: Rs 15,000 was held for 2 years, and the remaining 15000 - 5000 = Rs 10,000 was held for 3 years. Equivalent 1-year principal = (15000 * 2) + (10000 * 3) = 30000 + 30000 = Rs 60,000. Interest equation: (60000 * R * 1) / 100 = 4200 => 600R = 4200 => R = 4200 / 600 = 7%. Therefore, the correct value is 7%, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q140. (Very Hard) The banker's discount on a bill due after a certain time at 6% simple interest per annum is Rs 108, and the true discount on the same bill is Rs 100. Find the time period of the bill.
+(A) 1 year and 6 months  (B) 1 year and 2 months  (C) 1 year and 4 months  (D) 1 year
+
+Answer: (C)
+
+Solution:
+Banker's Gain BG = BD - TD = 108 - 100 = Rs 8. Formula: BG = (TD * R * T) / 100. Substituting given values: 8 = (100 * 6 * T) / 100 => 8 = 6T => T = 8 / 6 = 4 / 3 years = 1 year and 4 months. Therefore, the correct value is 1 year and 4 months, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q141. (Very Hard) What annual payment will discharge a debt of Rs 5,500 due in 5 years at 5% simple interest per annum?
+(A) Rs 1,050  (B) Rs 950  (C) Rs 1,100  (D) Rs 1,000
+
+Answer: (D)
+
+Solution:
+In 5 years at 5% SI: Accumulated value = 5x + [x * 5 * (4 + 3 + 2 + 1)] / 100 = 5x + 50x / 100 = 5.5x. Given 5.5x = 5500 => x = 5500 / 5.5 = Rs 1,000. Therefore, the correct value is Rs 1,000, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q142. (Very Hard) A sum of Rs 28,000 is lent in three parts at 4%, 5%, and 6% per annum simple interest. If the interest received from the three parts after 2, 3, and 4 years respectively is equal, find the first part.
+(A) Rs 15,000  (B) Rs 8,000  (C) Rs 5,000  (D) Rs 12,000
+
+Answer: (A)
+
+Solution:
+Equal interest condition: P1 * (4 * 2) = P2 * (5 * 3) = P3 * (6 * 4) => 8*P1 = 15*P2 = 24*P3. Dividing by LCM(8, 15, 24) = 120: P1 / 15 = P2 / 8 = P3 / 5. Sum of ratio terms = 15 + 8 + 5 = 28 parts. Given 28 parts = Rs 28,000 => 1 part = Rs 1,000. First part P1 = 15 * 1000 = Rs 15,000. Therefore, the correct value is Rs 15,000, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q143. (Very Hard) What annual installment will discharge a debt of Rs 6,900 due in 4 years at 10% simple interest per annum?
+(A) Rs 1,550  (B) Rs 1,500  (C) Rs 1,450  (D) Rs 1,600
+
+Answer: (B)
+
+Solution:
+In 4 years at 10% SI: Accumulated value = 4x + [x * 10 * (3 + 2 + 1)] / 100 = 4x + 60x / 100 = 4.6x. Given 4.6x = 6900 => x = 6900 / 4.6 = Rs 1,500. Therefore, the correct value is Rs 1,500, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q144. (Very Hard) What annual installment will discharge a debt of Rs 6,800 due in 4 years at 10% simple interest per annum?
+(A) Rs 1,500.00  (B) Rs 1,450.00  (C) Rs 1,478.26  (D) Rs 1,520.00
+
+Answer: (C)
+
+Solution:
+In 4 years at 10% SI: 4.6x. If Debt = 4.6 * 1500 = Rs 6,900 => x = Rs 1,500! Therefore, the correct value is Rs 1,478.26, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q145. (Very Hard) A person deposited Rs 500 at the beginning of each month for 1 year in a recurring deposit account earning 12% simple interest per annum. Find the total interest earned at the end of the year.
+(A) Rs 360  (B) Rs 400  (C) Rs 380  (D) Rs 390
+
+Answer: (D)
+
+Solution:
+Each month's deposit of Rs 500 stays for 12, 11, 10, ..., 1 month respectively. Total equivalent months for Rs 500 = 12 + 11 + ... + 1 = (12 * 13) / 2 = 78 months. Simple Interest = (P * R * Total Months) / (100 * 12) = (500 * 12 * 78) / (100 * 12) = 5 * 78 = Rs 390. Therefore, the correct value is Rs 390, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q146. (Very Hard) A person lent Rs 20,000 in three parts: at 5%, 6%, and 8% simple interest per annum respectively. If the total interest received in 1 year was Rs 1,200 and the amount lent at 5% was equal to the amount lent at 6%, find the amount lent at 8%.
+(A) Rs 4,000  (B) Rs 5,000  (C) Rs 3,000  (D) Rs 6,000
+
+Answer: (A)
+
+Solution:
+Let the amount lent at 5% and 6% each be x. Then the amount lent at 8% is 20000 - 2x. Total annual interest = 0.05x + 0.06x + 0.08*(20000 - 2x) = 0.11x + 1600 - 0.16x = 1600 - 0.05x. Given 1600 - 0.05x = 1200 => 0.05x = 400 => x = Rs 8,000. Amount lent at 8% = 20000 - 2*(8000) = 20000 - 16000 = Rs 4,000. Therefore, the correct value is Rs 4,000, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q147. (Very Hard) What annual installment will discharge a debt of Rs 1,890 due in 3 years at 5% simple interest per annum?
+(A) Rs 620  (B) Rs 600  (C) Rs 580  (D) Rs 610
+
+Answer: (B)
+
+Solution:
+In 3 years at 5% SI: Total accumulated value = 3x + [x * 5 * (2 + 1)] / 100 = 3x + 15x / 100 = 3.15x. Given 3.15x = 1890 => x = 1890 / 3.15 = Rs 600. Therefore, the correct value is Rs 600, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q148. (Very Hard) What annual installment will discharge a debt of Rs 1,890 due in 3 years at 5% simple interest per annum?
+(A) Rs 620  (B) Rs 580  (C) Rs 600  (D) Rs 610
+
+Answer: (C)
+
+Solution:
+In 3 years at 5% SI: Total accumulated value = 3x + [x * 5 * (2 + 1)] / 100 = 3x + 15x / 100 = 3.15x. Given 3.15x = 1890 => x = 1890 / 3.15 = Rs 600. Therefore, the correct value is Rs 600, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q149. (Very Hard) A person invested a total of Rs 60,000 in two parts at simple interest: the first part at 8% per annum for 5 years and the second part at 10% per annum for 6 years. If the interest from the first part was 2/3 of the interest from the second part, find the amount of the first part.
+(A) Rs 25,000  (B) Rs 35,000  (C) Rs 28,000  (D) Rs 30,000
+
+Answer: (D)
+
+Solution:
+Interest on first part = (P1 * 8 * 5) / 100 = 0.40 * P1. Interest on second part = (P2 * 10 * 6) / 100 = 0.60 * P2. Given: 0.40 * P1 = (2/3) * (0.60 * P2) = 0.40 * P2 => P1 = P2. Since P1 = P2 and P1 + P2 = 60,000, each part is 60000 / 2 = Rs 30,000. Therefore, the correct value is Rs 30,000, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q150. (Very Hard) A person borrowed Rs 10,000 at 6% simple interest per annum. At the end of every year, he pays back Rs 1,000 towards the principal along with the interest accrued during that year. What is the total amount paid by him over 10 years to completely discharge the loan?
+(A) Rs 13,000  (B) Rs 13,300  (C) Rs 13,600  (D) Rs 13,500
+
+Answer: (B)
+
+Solution:
+Total principal repaid = 10 * 1000 = Rs 10,000. Interest paid each year is calculated on the remaining balance at the start of that year: Year 1 on 10000 = 600; Year 2 on 9000 = 540; ...; Year 10 on 1000 = 60. Sum of interest payments = 6% * (10000 + 9000 + ... + 1000) = 0.06 * [1000 * (10 * 11) / 2] = 0.06 * 55000 = Rs 3,300. Total amount paid = Total Principal + Total Interest = 10000 + 3300 = Rs 13,300. Psychological Trap: Students often miscalculate by applying 6% directly to 10,000 for 10 years (yielding 6,000 interest) instead of recognizing the reducing balance arithmetic progression. Therefore, the correct value is Rs 13,300, corresponding to option (B).
+
+Source: SSC CGL Pattern

@@ -1,0 +1,26 @@
+```mermaid
+graph TD
+    A["Simple Interest Architecture<br>साधारण ब्याज संरचना"] --> B["Core SI Formulation<br>आधारभूत सूत्र"]
+    A --> C["Multiplicity Rules<br>गुने के नियम"]
+    A --> D["Capital Partitioning<br>पूँजी विभाजन"]
+    A --> E["Equal Annual Installments<br>समान वार्षिक किश्तें"]
+    A --> F["Commercial Discounts<br>व्यापारिक बट्टा"]
+
+    B --> B1["Linear Time Growth<br>SI = PRT/100"]
+    B --> B2["Amount Formula<br>A = P + SI"]
+    B --> B3["Variable Interest Periods<br>परिवर्तनशील दरें"]
+
+    C --> C1["Doubling and Tripling<br>R*T = 100(n-1)"]
+    C --> C2["Two-Period Comparison<br>(n1-1)/T1 = (n2-1)/T2"]
+
+    D --> D1["Equal Interest Portions<br>1/RT Inverse Ratios"]
+    D --> D2["Equal Maturity Amounts<br>1/(100+RT) Inverse Ratios"]
+    D --> D3["Two-rate Alligation<br>पृथक्करण नियम"]
+
+    E --> E1["Debt Discharge Formula<br>ऋण विमुक्ति किश्त"]
+    E --> E2["Pre-payment Interest Credit<br>अग्रिम भुगतान समायोजन"]
+
+    F --> F1["Present Worth PW<br>तत्काल धन"]
+    F --> F2["True Discount TD<br>वास्तविक बट्टा"]
+    F --> F3["Banker's Gain BG = BD - TD<br>महाजनी लाभ"]
+```
