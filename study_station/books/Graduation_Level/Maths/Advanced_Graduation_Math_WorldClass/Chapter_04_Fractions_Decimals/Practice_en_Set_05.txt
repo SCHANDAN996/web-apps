@@ -1,0 +1,249 @@
+Q101. (Medium) Find the sum of the infinite decimal series S = 0.6 + 0.06 + 0.006 + 0.0006 + ...
+(A) 2/3  (B) 3/5  (C) 6/11  (D) 7/10
+
+Answer: (A)
+
+Solution:
+S = 0.6666... = 0.bar(6) = 6/9 = 2/3. Therefore, the correct value is 2/3, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q102. (Medium) Evaluate: (0.bar(6) + 0.bar(7) + 0.bar(8)) / (0.bar(3) + 0.bar(4) + 0.bar(5)).
+(A) 1.5  (B) 1.75  (C) 2.0  (D) 1.66
+
+Answer: (B)
+
+Solution:
+Numerator = (6 + 7 + 8)/9 = 21/9. Denominator = (3 + 4 + 5)/9 = 12/9. Ratio = 21 / 12 = 7/4 = 1.75. Therefore, the correct value is 1.75, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q103. (Medium) Convert the mixed recurring decimal 0.23bar(4) into a simple fraction in lowest terms.
+(A) 234/990  (B) 211/990  (C) 211/900  (D) 234/999
+
+Answer: (C)
+
+Solution:
+(234 - 23) / 900 = 211 / 900. Therefore, the correct value is 211/900, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q104. (Medium) If x = 0.bar(4) and y = 0.bar(5), find the value of (x^3 + y^3).
+(A) 189/999  (B) 1/3  (C) 9/27  (D) 7/27
+
+Answer: (D)
+
+Solution:
+(4/9)^3 + (5/9)^3 = (64 + 125) / 729 = 189 / 729 = 7 / 27. Therefore, the correct value is 7/27, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q105. (Medium) Find the sum: 0.bar(3) / 2 + 0.bar(6) / 3.
+(A) 7/18  (B) 5/18  (C) 1/2  (D) 4/9
+
+Answer: (A)
+
+Solution:
+(1/3)/2 + (2/3)/3 = 1/6 + 2/9 = (3 + 4)/18 = 7/18. Therefore, the correct value is 7/18, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q106. (Medium) What is the length of the repetend (repeating cycle) for the fraction 1/7?
+(A) 7  (B) 6  (C) 5  (D) 3
+
+Answer: (B)
+
+Solution:
+1/7 = 0.bar(142857), which contains exactly 6 repeating digits. Therefore, the correct value is 6, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q107. (Medium) What is the maximum possible period length of the decimal expansion of 1/p, where p is a prime number other than 2 and 5?
+(A) p  (B) p + 1  (C) p - 1  (D) p/2
+
+Answer: (C)
+
+Solution:
+By Fermat's Little Theorem, 10^(p-1) = 1 (mod p), so the maximum period length is p - 1. Therefore, the correct value is p - 1, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q108. (Medium) Convert the mixed recurring decimal 0.0bar(428571) into a simple fraction in lowest terms.
+(A) 3/7  (B) 428/9999  (C) 1/70  (D) 3/70
+
+Answer: (D)
+
+Solution:
+0.0bar(428571) = 0.bar(428571) / 10 = (3/7) / 10 = 3/70. Therefore, the correct value is 3/70, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q109. (Medium) If a = 0.bar(2) and b = 0.bar(8), find the value of sqrt(a * b).
+(A) 0.bar(4)  (B) 0.4  (C) 0.bar(16)  (D) 4/9
+
+Answer: (A)
+
+Solution:
+a * b = (2/9) * (8/9) = 16/81. sqrt(16/81) = 4/9 = 0.bar(4). Psychological Trap: Multiplying repeating decimals directly to get sqrt(0.bar(16)) = 0.4. Therefore, the correct value is 0.bar(4), corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q110. (Medium) Find the value of 0.bar(9) + 0.bar(09) + 0.bar(009).
+(A) 122/1221  (B) 1343/1221  (C) 1111/999  (D) 1.bar(1)
+
+Answer: (B)
+
+Solution:
+9/9 + 9/99 + 9/999 = 1 + 1/11 + 1/111 = 1 + 122/1221 = 1343 / 1221. Therefore, the correct value is 1343/1221, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q111. (Medium) Which of the following fractions is closest in value to 0.75: 7/9, 4/5, 11/15, 17/23?
+(A) 11/15  (B) 7/9  (C) 17/23  (D) 4/5
+
+Answer: (C)
+
+Solution:
+17/23 ≈ 0.7391 (difference 0.0109), which is closer to 0.75 than 11/15 (0.7333), 7/9 (0.7778), and 4/5 (0.8000). Therefore, the correct value is 17/23, corresponding to option (C).
+
+Source: IBPS PO Pattern
+
+Q112. (Medium) A fraction p/q is such that adding 2 to its numerator yields 1/2, and adding 1 to its denominator yields 1/3. Find the sum (p + q).
+(A) 18  (B) 20  (C) 21  (D) 19
+
+Answer: (D)
+
+Solution:
+2p + 4 = q and 3p = q + 1. Solving gives p = 5, q = 14. Sum = 5 + 14 = 19. Therefore, the correct value is 19, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q113. (Medium) Convert 1.2bar(4) into an improper fraction in lowest terms.
+(A) 56/45  (B) 124/90  (C) 62/45  (D) 124/99
+
+Answer: (A)
+
+Solution:
+1 + (24 - 2)/90 = 1 + 22/90 = 1 + 11/45 = 56/45. Therefore, the correct value is 56/45, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q114. (Medium) If x = 0.bar(27), find the value of (1/x)^2.
+(A) 11/3  (B) 121/9  (C) 111/9  (D) 121/3
+
+Answer: (B)
+
+Solution:
+x = 27/99 = 3/11. Then 1/x = 11/3. Squaring gives 121/9. Therefore, the correct value is 121/9, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q115. (Medium) From a container with 40 liters of milk, 4 liters is replaced with water. This process is repeated once more. What fraction of the original milk remains?
+(A) 4/5  (B) 9/10  (C) 81/100  (D) 64/100
+
+Answer: (C)
+
+Solution:
+Fraction remaining = (1 - 4/40)^2 = (9/10)^2 = 81/100. Therefore, the correct value is 81/100, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q116. (Medium) Evaluate: (0.bar(12) * 0.bar(36)) / (0.bar(04)).
+(A) 11/12  (B) 1.bar(08)  (C) 1.09  (D) 12/11
+
+Answer: (D)
+
+Solution:
+(12/99 * 36/99) / (4/99) = (12/99) * (36/4) = 108 / 99 = 12 / 11. Therefore, the correct value is 12/11, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q117. (Medium) If 1 / (a + 1 / (b + 1/c)) = 10/29 for positive integers a, b, c, find the product (a * b * c).
+(A) 18  (B) 20  (C) 16  (D) 24
+
+Answer: (A)
+
+Solution:
+29/10 = 2 + 9/10 => a = 2. 10/9 = 1 + 1/9 => b = 1, c = 9. Product = 2 * 1 * 9 = 18. Therefore, the correct value is 18, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q118. (Medium) Convert the mixed recurring decimal 0.0bar(142857) into a simple fraction in lowest terms.
+(A) 1/7  (B) 1/70  (C) 14/999  (D) 1/14
+
+Answer: (B)
+
+Solution:
+(1/7) / 10 = 1/70. Therefore, the correct value is 1/70, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q119. (Medium) If x = 0.bar(3) and y = 0.bar(6), find the value of (x^2 - y^2) / (x - y).
+(A) 0.bar(3)  (B) 0.bar(9)  (C) 1  (D) -1
+
+Answer: (C)
+
+Solution:
+(x^2 - y^2)/(x - y) = x + y = 3/9 + 6/9 = 9/9 = 1. Therefore, the correct value is 1, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q120. (Medium) Find the value of 1.bar(41) + 2.bar(52) - 0.bar(93).
+(A) 3.bar(01)  (B) 2.bar(99)  (C) 3.1  (D) 3
+
+Answer: (D)
+
+Solution:
+3 + (41 + 52 - 93)/99 = 3 + 0 = 3. Therefore, the correct value is 3, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q121. (Hard) Find the sum of the infinite arithmetico-geometric series S = 1/10 + 2/10^2 + 3/10^3 + 4/10^4 + ...
+(A) 10/81  (B) 1/9  (C) 1/81  (D) 11/81
+
+Answer: (A)
+
+Solution:
+S - (1/10)S = (9/10)S = 1/10 + 1/100 + ... = (1/10)/(9/10) = 1/9. Thus S = (1/9) * (10/9) = 10/81. Therefore, the correct value is 10/81, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q122. (Hard) If 0.bar(u v) + 0.bar(v u) = 1.bar(4) for decimal digits u and v, find the sum (u + v).
+(A) 14  (B) 13  (C) 12  (D) 11
+
+Answer: (B)
+
+Solution:
+(u + v)/9 = 1.bar(4) = (14 - 1)/9 = 13/9. Thus u + v = 13. Therefore, the correct value is 13, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q123. (Hard) Find the positive value represented by the periodic continued fraction x = 1 + 1 / (2 + 1 / (1 + 1 / (2 + ...))).
+(A) (sqrt(3) - 1)/2  (B) sqrt(3)  (C) (1 + sqrt(3))/2  (D) 1 + sqrt(3)
+
+Answer: (C)
+
+Solution:
+x = 1 + 1/(2 + 1/x) => 2x^2 - 2x - 1 = 0. The positive root is x = (1 + sqrt(3)) / 2. Therefore, the correct value is (1 + sqrt(3))/2, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q124. (Hard) How many pairs of positive integers (u, v) with u <= v satisfy the Diophantine equation 1/u + 1/v = 1/6?
+(A) 9  (B) 6  (C) 4  (D) 5
+
+Answer: (D)
+
+Solution:
+(u - 6)(v - 6) = 36. For u <= v, (u - 6) takes the 5 factors of 36 that are <= 6: {1, 2, 3, 4, 6}, yielding exactly 5 pairs. Psychological Trap: Counting all 9 divisor pairs and forgetting the condition u <= v, or missing the symmetric solution u = v = 12. Therefore, the correct value is 5, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q125. (Hard) If the decimal expansion of 1/n has a purely repeating period of length exactly 3, what is the smallest positive integer n > 1?
+(A) 37  (B) 27  (C) 9  (D) 111
+
+Answer: (B)
+
+Solution:
+n must divide 10^3 - 1 = 999 = 27 * 37 without dividing 10^1 - 1 = 9. The smallest divisor of 999 with period 3 is 27 (1/27 = 0.bar(037)). Therefore, the correct value is 27, corresponding to option (B).
+
+Source: SSC CGL Pattern

@@ -1,0 +1,17 @@
+Q: What is the necessary and sufficient condition for a reduced fraction p/q to be a terminating decimal?
+A: The prime factorization of denominator q must be of the form 2^m * 5^n with no other prime factors.
+
+Q: How many decimal digits does the terminating decimal of 7 / (2^3 * 5^5) contain?
+A: Exactly max(3, 5) = 5 decimal digits.
+
+Q: How is the mixed recurring decimal 0.ab(bar(cde)) converted into a rational fraction?
+A: (abcde - ab) / 99900 (3 nines for the 3 repeating digits, 2 zeros for the 2 non-repeating digits).
+
+Q: If a/b < 1 and k > 0, what is the inequality relationship between a/b and (a+k)/(b+k)?
+A: (a+k)/(b+k) > a/b (adding equal positive amounts increases a proper fraction).
+
+Q: What is the Mediant of two fractions a/b and c/d?
+A: (a + c) / (b + d), which always lies strictly between a/b and c/d.
+
+Q: What is the rational fraction representation of 0.bar(27)?
+A: 27 / 99 = 3 / 11.

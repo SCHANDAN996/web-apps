@@ -1,0 +1,20 @@
+# Important Formulas & Principles: Fractions & Decimals
+
+1. Terminating Decimal Length:
+   For fraction p / (2^m * 5^n), decimal places = max(m, n).
+
+2. Pure Recurring Decimal:
+   0.bar(d_1 d_2 ... d_k) = (d_1 d_2 ... d_k) / (10^k - 1) = (d_1 d_2 ... d_k) / (99...9)
+
+3. Mixed Recurring Decimal:
+   0.a_1...a_m bar(b_1...b_k) = [(a_1...a_m b_1...b_k) - (a_1...a_m)] / [(10^k - 1) * 10^m]
+
+4. Monotonicity of Fractions:
+   - Proper (p < q): (p + k)/(q + k) > p/q for k > 0
+   - Improper (p > q): (p + k)/(q + k) < p/q for k > 0
+
+5. Mediant Inequality:
+   If a/b < c/d (with b, d > 0), then a/b < (a + c)/(b + d) < c/d.
+
+6. Constant Gap Comparison:
+   If q_i - p_i = D (constant) and p_i < q_i, then fraction with greatest numerator is largest.

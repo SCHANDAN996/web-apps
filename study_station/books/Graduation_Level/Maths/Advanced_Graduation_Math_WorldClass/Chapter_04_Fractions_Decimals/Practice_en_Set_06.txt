@@ -1,0 +1,249 @@
+Q126. (Hard) How many positive integer solutions (x, y, z) with x <= y <= z satisfy the unit fraction equation 1/x + 1/y + 1/z = 1?
+(A) 3  (B) 4  (C) 6  (D) 1
+
+Answer: (A)
+
+Solution:
+Since x <= y <= z, 3/x >= 1 => x <= 3. For x = 2, (y, z) = (3, 6) or (4, 4). For x = 3, (y, z) = (3, 3). Total solutions = 3. Therefore, the correct value is 3, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q127. (Hard) Find the 100th digit after the decimal point in the decimal representation of 1/7.
+(A) 4  (B) 8  (C) 5  (D) 2
+
+Answer: (B)
+
+Solution:
+1/7 = 0.bar(142857) with period length 6. 100 mod 6 = 4. The 4th digit in the repetend 142857 is 8. Therefore, the correct value is 8, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q128. (Hard) Find the 50th digit after the decimal point in the decimal representation of 3/13.
+(A) 2  (B) 7  (C) 3  (D) 0
+
+Answer: (C)
+
+Solution:
+3/13 = 0.bar(230769) with period 6. 50 mod 6 = 2. The 2nd digit in 230769 is 3. Therefore, the correct value is 3, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q129. (Hard) What is the sum of all fractions in the Farey sequence of order 5 strictly between 0 and 1?
+(A) 4  (B) 5  (C) 11/2  (D) 9/2
+
+Answer: (D)
+
+Solution:
+Fractions pair symmetrically as p/q and (q-p)/q summing to 1. Pairs: (1/3, 2/3), (1/4, 3/4), (1/5, 4/5), (2/5, 3/5) plus 1/2. Sum = 4 + 0.5 = 9/2. Therefore, the correct value is 9/2, corresponding to option (D).
+
+Source: State PCS Pattern
+
+Q130. (Hard) How many total fractions are there in the Farey sequence of order 6 between 0 and 1, including both 0 and 1?
+(A) 13  (B) 12  (C) 14  (D) 11
+
+Answer: (A)
+
+Solution:
+|F_6| = 1 + sum_{k=1}^6 phi(k) = 1 + (1 + 1 + 2 + 2 + 4 + 2) = 1 + 12 = 13 fractions. Therefore, the correct value is 13, corresponding to option (A).
+
+Source: State PCS Pattern
+
+Q131. (Hard) If 1/x + 1/y = 1/12 for positive integers x and y with x < y, how many pairs (x, y) exist?
+(A) 8  (B) 7  (C) 15  (D) 6
+
+Answer: (B)
+
+Solution:
+(x - 12)(y - 12) = 144. 144 has 15 factors. Excluding x = y = 24 and taking x < y gives (15 - 1) / 2 = 7 pairs. Psychological Trap: Counting all 15 factor pairs or forgetting to exclude x = y = 24 when dividing by 2 for x < y. Therefore, the correct value is 7, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q132. (Hard) What is the period length of the repeating decimal expansion of the fraction 1/49?
+(A) 6  (B) 48  (C) 42  (D) 14
+
+Answer: (C)
+
+Solution:
+The multiplicative order of 10 mod 49 is 42, which divides 7 * phi(7) = 42. Hence the period length is 42. Therefore, the correct value is 42, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q133. (Hard) If 0.bar(abc) = 29 / 37 for single digits a, b, c, what is the product of the digits (a * b * c)?
+(A) 182  (B) 144  (C) 196  (D) 168
+
+Answer: (D)
+
+Solution:
+29 / 37 = (29 * 27) / (37 * 27) = 783 / 999 = 0.bar(783). Thus a = 7, b = 8, c = 3. Product = 7 * 8 * 3 = 168. Therefore, the correct value is 168, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q134. (Hard) Find the value of the infinite continued fraction x = 1 / (3 - 1 / (3 - 1 / (3 - ...))).
+(A) (3 - sqrt(5))/2  (B) (3 + sqrt(5))/2  (C) sqrt(5) - 1  (D) 1/3
+
+Answer: (A)
+
+Solution:
+x = 1 / (3 - x) => x^2 - 3x + 1 = 0. Since x < 1, the root is (3 - sqrt(5)) / 2. Therefore, the correct value is (3 - sqrt(5))/2, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q135. (Hard) Find the value of the finite continued fraction 1 + 1 / (1 + 1 / (1 + 1 / (1 + 1/2))).
+(A) 8/5  (B) 13/8  (C) 21/13  (D) 5/3
+
+Answer: (B)
+
+Solution:
+Bottom-up: 1 + 1/2 = 3/2 -> 1 + 2/3 = 5/3 -> 1 + 3/5 = 8/5 -> 1 + 5/8 = 13/8. Therefore, the correct value is 13/8, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q136. (Hard) If S = sum_{n=1}^99 1 / [n * (n + 1)], find the decimal representation of S.
+(A) 0.90  (B) 0.999  (C) 0.99  (D) 1.00
+
+Answer: (C)
+
+Solution:
+Telescoping sum S = 1 - 1/100 = 99/100 = 0.99. Therefore, the correct value is 0.99, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q137. (Hard) Find the smallest positive fraction that must be added to 0.bar(23) so that the sum is an integer.
+(A) 77/99  (B) 23/99  (C) 1/99  (D) 76/99
+
+Answer: (D)
+
+Solution:
+0.bar(23) = 23/99. Smallest fraction to reach integer 1 is 1 - 23/99 = 76/99. Therefore, the correct value is 76/99, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q138. (Hard) If 0.xbar(y) + 0.ybar(x) = 1 2/9 for non-zero digits x and y, find the sum (x + y).
+(A) 11  (B) 10  (C) 12  (D) 9
+
+Answer: (A)
+
+Solution:
+(x + y)/9 = 1 2/9 = 11/9. Therefore x + y = 11. Therefore, the correct value is 11, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q139. (Hard) Find the 2025th digit after the decimal point in the decimal expansion of 4/7.
+(A) 7  (B) 1  (C) 4  (D) 5
+
+Answer: (B)
+
+Solution:
+4/7 = 0.bar(571428) with period 6. 2025 = 6 * 337 + 3. The 3rd digit in 571428 is 1. Therefore, the correct value is 1, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q140. (Hard) If a/b and c/d are consecutive fractions in the Farey sequence with a/b < c/d, what is the value of (b*c - a*d)?
+(A) 0  (B) 2  (C) 1  (D) -1
+
+Answer: (C)
+
+Solution:
+By the fundamental unimodular property of adjacent Farey fractions, b*c - a*d = 1. Therefore, the correct value is 1, corresponding to option (C).
+
+Source: State PCS Pattern
+
+Q141. (Hard) Find the value of the product: 0.bar(3) * 0.bar(4) * 0.bar(5) * 0.bar(6).
+(A) 20/729  (B) 40/999  (C) 1/9  (D) 40/729
+
+Answer: (D)
+
+Solution:
+(3/9) * (4/9) * (5/9) * (6/9) = (1/3) * (4/9) * (5/9) * (2/3) = 40 / 729. Therefore, the correct value is 40/729, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q142. (Hard) How many digits are contained in the repeating cycle of the decimal expansion of 1/17?
+(A) 16  (B) 8  (C) 17  (D) 15
+
+Answer: (A)
+
+Solution:
+10 is a primitive root modulo 17, so the period length reaches the theoretical maximum of p - 1 = 17 - 1 = 16 digits. Therefore, the correct value is 16, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q143. (Hard) A reduced proper fraction has denominator 140. If its decimal representation terminates, how many such distinct fractions exist?
+(A) 19  (B) 8  (C) 10  (D) 4
+
+Answer: (B)
+
+Solution:
+For p/140 to terminate, p must be a multiple of 7: p = 7k. Then p/140 = k/20. For it to be reduced, gcd(k, 20) = 1. Number of values is phi(20) = 8. Therefore, the correct value is 8, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q144. (Hard) Find the sum: S = 1/2 + 1/4 + 1/8 + 1/16 + 1/32 + 1/64.
+(A) 31/32  (B) 127/128  (C) 63/64  (D) 1
+
+Answer: (C)
+
+Solution:
+Sum of geometric series = (1/2) * [1 - (1/2)^6] / (1/2) = 1 - 1/64 = 63/64. Therefore, the correct value is 63/64, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q145. (Hard) Find the value of sqrt(2.bar(7)).
+(A) 1.bar(7)  (B) 1.5  (C) 1.bar(5)  (D) 1.bar(6)
+
+Answer: (D)
+
+Solution:
+2.bar(7) = 2 + 7/9 = 25/9. Square root is sqrt(25/9) = 5/3 = 1.666... = 1.bar(6). Therefore, the correct value is 1.bar(6), corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q146. (Hard) If x = sqrt(2) - 1, express 1 / (x + 2) in simplest form.
+(A) sqrt(2) - 1  (B) sqrt(2) + 1  (C) 2 - sqrt(2)  (D) 1 - sqrt(2)
+
+Answer: (A)
+
+Solution:
+x + 2 = sqrt(2) + 1. Reciprocal 1 / (sqrt(2) + 1) = sqrt(2) - 1 = x. Therefore, the correct value is sqrt(2) - 1, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q147. (Hard) Which of the following unit fractions has the longest repeating decimal period: 1/19, 1/13, 1/7, 1/11?
+(A) 1/13  (B) 1/19  (C) 1/7  (D) 1/11
+
+Answer: (B)
+
+Solution:
+Period lengths: 1/19 has period 18, 1/13 has period 6, 1/7 has period 6, 1/11 has period 2. Longest is 1/19. Therefore, the correct value is 1/19, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q148. (Hard) Evaluate: 0.bar(6) * 1.bar(5).
+(A) 26/27  (B) 30/27  (C) 28/27  (D) 1
+
+Answer: (C)
+
+Solution:
+(2/3) * (14/9) = 28 / 27. Therefore, the correct value is 28/27, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q149. (Hard) If x = 0.bar(9), what is the value of (x^100 + x^50 + x)?
+(A) 2.99  (B) 1  (C) 0.999  (D) 3
+
+Answer: (D)
+
+Solution:
+Since 0.bar(9) = 1 identically, x = 1. Therefore 1^100 + 1^50 + 1 = 3. Psychological Trap: Treating 0.bar(9) as strictly less than 1 and writing 2.99 or an approximation. Therefore, the correct value is 3, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q150. (Hard) Simplify the radical fraction: 1 / [cbrt(9) + cbrt(3) + 1].
+(A) (cbrt(3) + 1)/2  (B) (cbrt(3) - 1)/2  (C) (cbrt(9) - 1)/2  (D) cbrt(3) - 1
+
+Answer: (B)
+
+Solution:
+Multiplying by (cbrt(3) - 1) gives (cbrt(3) - 1) / [(cbrt(3))^3 - 1] = (cbrt(3) - 1) / (3 - 1) = (cbrt(3) - 1) / 2. Therefore, the correct value is (cbrt(3) - 1)/2, corresponding to option (B).
+
+Source: SSC CGL Pattern

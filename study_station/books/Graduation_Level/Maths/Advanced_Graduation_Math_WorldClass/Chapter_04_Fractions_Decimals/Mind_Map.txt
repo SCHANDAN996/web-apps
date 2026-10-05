@@ -1,0 +1,22 @@
+```mermaid
+graph TD
+    A["Fractions & Decimals"] --> B["Classification"]
+    A --> C["Decimal Types"]
+    A --> D["Comparison Techniques"]
+    A --> E["Arithmetic on Decimals"]
+
+    B --> B1["Proper Fractions p < q"]
+    B --> B2["Improper Fractions p > q"]
+    B --> B3["Mediant Property<br>(a+c)/(b+d)"]
+
+    C --> C1["Terminating: Denominator 2m * 5n"]
+    C --> C2["Pure Recurring: Over 99..9"]
+    C --> C3["Mixed Recurring: Full - NonRep over 99..00"]
+
+    D --> D1["Equal Gap Method"]
+    D --> D2["Cross Multiplication"]
+    D --> D3["Reciprocal Percentage Base"]
+
+    E --> E1["Period LCM Alignment"]
+    E --> E2["Fractional Conversion First"]
+```

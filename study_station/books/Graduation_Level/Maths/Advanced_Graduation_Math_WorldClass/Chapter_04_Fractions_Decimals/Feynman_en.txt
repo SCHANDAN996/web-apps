@@ -1,0 +1,15 @@
+The Feynman Technique: Fractions and Decimals Demystified
+
+Think of fractions as scales of measurement and decimals as grid divisions.
+
+1. Why 9s Represent Repeating Decimals:
+Why is 0.333... equal to 3/9?
+Imagine our base-10 number system. 10 is 1 step beyond 9. So 1/9 is 0.111...; each ninth leaks exactly 1 unit into every decimal place forever because 10 divided by 9 leaves a remainder of 1 at every single step! Therefore, any repeating cycle of length k is simply that integer over (10^k - 1), which is a sequence of k nines.
+
+2. The 2 and 5 Terminating Secret:
+Why does 1/8 terminate (0.125) while 1/7 goes on forever?
+Because our decimal system is built on 10, and 10 factors only into 2 * 5. If your denominator is made solely of 2s and 5s, you can always multiply it by powers of 5 or 2 to turn it into an exact power of 10 (10, 100, 1000). But if any prime like 3, 7, 11, or 13 gets into the denominator, it can never divide into a power of 10, forcing an endless repeating loop!
+
+3. The Constant Addition Paradigm:
+If you have 3/5 (which is 60%) and add 10 to both: 13/15 is 86.7%!
+Why did it increase? Because adding 10/10 is like mixing pure 100% solution into a 60% mixture. It pulls the fraction upward toward 1!

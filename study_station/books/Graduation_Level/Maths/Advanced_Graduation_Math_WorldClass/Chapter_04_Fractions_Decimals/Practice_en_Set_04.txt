@@ -1,0 +1,249 @@
+Q76. (Medium) Find the sum of recurring decimals: 8.bar(31) + 0.bar(6) + 0.00bar(2).
+(A) 8.98bar(20)  (B) 8.97bar(20)  (C) 8.99bar(2)  (D) 8.982
+
+Answer: (A)
+
+Solution:
+0.3131... + 0.6666... = 0.9797... Adding 0.0022... gives 0.982020... Combining with integer 8 gives 8.98bar(20). Therefore, the correct value is 8.98bar(20), corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q77. (Medium) Which of the following values of n causes the fraction 7/n to produce a NON-terminating repeating decimal: 16, 25, 35, 21?
+(A) 16  (B) 21  (C) 25  (D) 35
+
+Answer: (B)
+
+Solution:
+7/35 = 1/5 terminates. 7/21 = 1/3, whose denominator contains factor 3, producing a non-terminating repeating decimal. Psychological Trap: Overlooking that the factor 7 in 35 cancels with numerator 7, mistakenly selecting 35. Therefore, the correct value is 21, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q78. (Medium) Convert the mixed recurring decimal 0.13bar(8) into a simple fraction in lowest terms.
+(A) 138/990  (B) 125/990  (C) 5/36  (D) 7/36
+
+Answer: (C)
+
+Solution:
+(138 - 13) / 900 = 125 / 900 = 5 / 36. Therefore, the correct value is 5/36, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q79. (Medium) Find the sum: 0.bar(1) + 0.bar(2) + 0.bar(3) + ... + 0.bar(9).
+(A) 4.5  (B) 5.5  (C) 9  (D) 5
+
+Answer: (D)
+
+Solution:
+(1 + 2 + ... + 9) / 9 = 45 / 9 = 5. Therefore, the correct value is 5, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q80. (Medium) What is the continued fraction expansion of 43/30?
+(A) 1 + 1 / (2 + 1 / (3 + 1/4))  (B) 1 + 1 / (3 + 1 / (2 + 1/4))  (C) 1 + 1 / (2 + 1 / (4 + 1/3))  (D) 1 + 1 / (4 + 1 / (3 + 1/2))
+
+Answer: (A)
+
+Solution:
+43/30 = 1 + 13/30 = 1 + 1/(30/13). 30/13 = 2 + 4/13 = 2 + 1/(13/4). 13/4 = 3 + 1/4. Result is 1 + 1 / (2 + 1 / (3 + 1/4)). Therefore, the correct value is 1 + 1 / (2 + 1 / (3 + 1/4)), corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q81. (Medium) If x = 0.bar(7) and y = 0.bar(2), find the value of (x + y) / (x - y).
+(A) 5/9  (B) 9/5  (C) 7/2  (D) 2/7
+
+Answer: (B)
+
+Solution:
+x + y = 7/9 + 2/9 = 1. x - y = 7/9 - 2/9 = 5/9. Ratio = 1 / (5/9) = 9/5. Therefore, the correct value is 9/5, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q82. (Medium) Which fraction is the greatest among 7/8, 8/9, 9/10, 10/11?
+(A) 9/10  (B) 8/9  (C) 10/11  (D) 7/8
+
+Answer: (C)
+
+Solution:
+In proper fractions with equal difference (gap = 1), the fraction with the largest numerator is greatest: 10/11. Therefore, the correct value is 10/11, corresponding to option (C).
+
+Source: State PCS Pattern
+
+Q83. (Medium) Which of the following improper fractions is the smallest: 11/8, 12/9, 13/10, 14/11?
+(A) 11/8  (B) 12/9  (C) 13/10  (D) 14/11
+
+Answer: (D)
+
+Solution:
+For improper fractions with equal difference (gap = 3), larger numbers yield values closer to 1 (smaller values). Thus 14/11 is the smallest. Psychological Trap: Applying the proper fraction rule to improper fractions and mistakenly picking 11/8 as smallest. Therefore, the correct value is 14/11, corresponding to option (D).
+
+Source: State PCS Pattern
+
+Q84. (Medium) Convert the mixed recurring decimal 0.23bar(45) into a fraction in lowest terms.
+(A) 129/550  (B) 2345/9900  (C) 2322/9999  (D) 127/550
+
+Answer: (A)
+
+Solution:
+(2345 - 23) / 9900 = 2322 / 9900. Dividing by 18 gives 129 / 550. Therefore, the correct value is 129/550, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q85. (Medium) Find the value of sqrt(0.bar(44)).
+(A) 0.bar(22)  (B) 0.bar(6)  (C) 0.22  (D) 0.44
+
+Answer: (B)
+
+Solution:
+0.bar(44) = 44/99 = 4/9. Square root is sqrt(4/9) = 2/3 = 0.bar(6). Therefore, the correct value is 0.bar(6), corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q86. (Medium) A drum is 3/4 full of oil. When 15 liters of oil is drawn from it, it remains 7/12 full. Find the total capacity of the drum.
+(A) 80 liters  (B) 100 liters  (C) 90 liters  (D) 120 liters
+
+Answer: (C)
+
+Solution:
+Fraction removed = 3/4 - 7/12 = 2/12 = 1/6. Capacity = 15 * 6 = 90 liters. Therefore, the correct value is 90 liters, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q87. (Medium) Evaluate: (0.bar(6) * 0.bar(3)) / (0.bar(2)).
+(A) 0.bar(9)  (B) 0.bar(1)  (C) 2/9  (D) 1
+
+Answer: (D)
+
+Solution:
+(6/9 * 3/9) / (2/9) = (2/9) / (2/9) = 1. Therefore, the correct value is 1, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q88. (Medium) If 1/x = 0.bar(09), find the positive integer value of x.
+(A) 11  (B) 9  (C) 99  (D) 10
+
+Answer: (A)
+
+Solution:
+0.bar(09) = 9 / 99 = 1 / 11. Thus x = 11. Therefore, the correct value is 11, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q89. (Medium) If 1/y = 0.bar(142857), find the positive integer value of y.
+(A) 14  (B) 7  (C) 28  (D) 9
+
+Answer: (B)
+
+Solution:
+142857 / 999999 = 1/7. Thus y = 7. Therefore, the correct value is 7, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q90. (Medium) Find the sum: 2.bar(4) + 3.bar(5) + 4.bar(6).
+(A) 10.5  (B) 9.bar(5)  (C) 10.bar(6)  (D) 10.bar(5)
+
+Answer: (C)
+
+Solution:
+(2 + 3 + 4) + (4 + 5 + 6)/9 = 9 + 15/9 = 9 + 5/3 = 10 2/3 = 10.bar(6). Therefore, the correct value is 10.bar(6), corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q91. (Medium) Convert the mixed recurring decimal 0.1bar(36) into a simple fraction in lowest terms.
+(A) 136/990  (B) 135/999  (C) 13/99  (D) 3/22
+
+Answer: (D)
+
+Solution:
+(136 - 1) / 990 = 135 / 990 = 3 / 22. Therefore, the correct value is 3/22, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q92. (Medium) What fraction must be added to the sum (2/3 + 3/4) to obtain 2?
+(A) 7/12  (B) 5/12  (C) 1/12  (D) 11/12
+
+Answer: (A)
+
+Solution:
+2/3 + 3/4 = 17/12. Required fraction = 2 - 17/12 = 7/12. Therefore, the correct value is 7/12, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q93. (Medium) A student read 3/8 of a book on the first day and 4/5 of the remainder on the second day. If 30 pages remained unread, how many pages were in the book?
+(A) 200  (B) 240  (C) 280  (D) 320
+
+Answer: (B)
+
+Solution:
+Remainder after day 1 = 5/8. Unread fraction after day 2 = (1 - 4/5) * 5/8 = (1/5) * 5/8 = 1/8. Total pages = 30 * 8 = 240. Therefore, the correct value is 240, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q94. (Medium) If x = 0.bar(3) and y = 0.bar(4), find the value of (x^2 + 2xy + y^2).
+(A) 7/9  (B) 14/81  (C) 49/81  (D) 0.bar(49)
+
+Answer: (C)
+
+Solution:
+(x + y)^2 = (3/9 + 4/9)^2 = (7/9)^2 = 49/81. Therefore, the correct value is 49/81, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q95. (Medium) Evaluate: (0.bar(5) - 0.bar(2)) * (0.bar(3) + 0.bar(6)).
+(A) 0.bar(27)  (B) 1/9  (C) 0.3  (D) 0.bar(3)
+
+Answer: (D)
+
+Solution:
+(3/9) * (9/9) = (1/3) * 1 = 1/3 = 0.bar(3). Therefore, the correct value is 0.bar(3), corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q96. (Medium) Express 0.00bar(36) as a simple fraction in lowest terms.
+(A) 1/275  (B) 36/9999  (C) 1/250  (D) 4/1111
+
+Answer: (A)
+
+Solution:
+36 / 9900 = 4 / 1100 = 1 / 275. Therefore, the correct value is 1/275, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q97. (Medium) Which of the following fractions is equivalent to the repeating decimal 0.2bar(45)?
+(A) 245/990  (B) 27/110  (C) 243/999  (D) 29/110
+
+Answer: (B)
+
+Solution:
+(245 - 2) / 990 = 243 / 990. Dividing by 9 gives 27 / 110. Therefore, the correct value is 27/110, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q98. (Medium) If the sum of a positive fraction and its reciprocal is 2 1/6, find the proper fraction.
+(A) 3/4  (B) 1/2  (C) 2/3  (D) 4/5
+
+Answer: (C)
+
+Solution:
+2 1/6 = 13/6. Notice 2/3 + 3/2 = 4/6 + 9/6 = 13/6. The proper fraction is 2/3. Therefore, the correct value is 2/3, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q99. (Medium) Find the value of 0.bar(7) + 0.0bar(7) + 0.00bar(7).
+(A) 777/999  (B) 7/9  (C) 21/900  (D) 259/300
+
+Answer: (D)
+
+Solution:
+7/9 + 7/90 + 7/900 = 777 / 900 = 259 / 300. Therefore, the correct value is 259/300, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q100. (Medium) If 0.bar(x) + 0.bar(y) = 7/9 and x - y = 3 for digits x and y, find the product (x * y).
+(A) 12  (B) 10  (C) 8  (D) 14
+
+Answer: (B)
+
+Solution:
+(x + y)/9 = 7/9 => x + y = 7. Together with x - y = 3, we get x = 5, y = 2. Product is 5 * 2 = 10. Therefore, the correct value is 10, corresponding to option (B).
+
+Source: SSC CGL Pattern
