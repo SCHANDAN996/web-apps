@@ -1,0 +1,249 @@
+Q101. (Hard) The average weight of 3 men A, B, and C is 84 kg. Another man D joins them and the average becomes 80 kg. If another man E, whose weight is 3 kg more than that of D, replaces A, then the average weight of B, C, D, and E becomes 78 kg. What is the weight of A?
+(A) 79 kg  (B) 75 kg  (C) 80 kg  (D) 78 kg
+
+Answer: (A)
+
+Solution:
+Weight of A + B + C = 3 * 84 = 252 kg. Weight of A + B + C + D = 4 * 80 = 320 kg => D = 320 - 252 = 68 kg. Then E = 68 + 3 = 71 kg. Weight of B + C + D + E = 4 * 78 = 312 kg. Subtracting (B + C + D + E) from (A + B + C + D): A - E = 320 - 312 = 8 kg => A = E + 8 = 71 + 8 = 79 kg. Therefore, the correct value is 79 kg, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q102. (Hard) A car travels from city X to city Y at a speed of 60 km/h and returns from Y to X at 40 km/h. What is the average speed of the car for the round trip?
+(A) 50 km/h  (B) 48 km/h  (C) 45 km/h  (D) 52 km/h
+
+Answer: (B)
+
+Solution:
+For equal distances covered at speeds u and v, average speed = (2 * u * v) / (u + v) = (2 * 60 * 40) / (60 + 40) = 4800 / 100 = 48 km/h. Psychological Trap: A classic trap is calculating the arithmetic mean (60 + 40) / 2 = 50 km/h. Therefore, the correct value is 48 km/h, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q103. (Hard) In a class of 30 students, the average age of girls is 12 years and the average age of boys is 15 years. If the average age of the entire class is 13.8 years, find the number of boys in the class.
+(A) 12  (B) 15  (C) 18  (D) 20
+
+Answer: (C)
+
+Solution:
+By rule of alligation: Ratio of Girls to Boys = (15 - 13.8) : (13.8 - 12) = 1.2 : 1.8 = 2 : 3. Total parts = 2 + 3 = 5. Number of boys = 30 * (3 / 5) = 18. Therefore, the correct value is 18, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q104. (Hard) The average of five consecutive positive integers is n. If the next two integers are added, the new average becomes:
+(A) n + 2  (B) n + 1.5  (C) n + 0.5  (D) n + 1
+
+Answer: (D)
+
+Solution:
+Adding each subsequent consecutive integer increases the mean by 0.5. Adding 2 consecutive integers increases the average by 2 * 0.5 = 1. Thus the new average is n + 1. Therefore, the correct value is n + 1, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q105. (Hard) The average of 7 consecutive numbers is 25. If the first and last numbers are excluded, what is the average of the remaining 5 numbers?
+(A) 25  (B) 24  (C) 26  (D) 23
+
+Answer: (A)
+
+Solution:
+For any symmetric arithmetic progression, removing the outermost pair of numbers preserves the central balance point. Hence, the average of the remaining 5 numbers remains exactly 25. Therefore, the correct value is 25, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q106. (Hard) The average age of 8 men increases by 3 years when two of them whose ages are 30 and 34 years are replaced by 2 women. What is the average age of the two women?
+(A) 42 years  (B) 44 years  (C) 46 years  (D) 40 years
+
+Answer: (B)
+
+Solution:
+Sum of replaced ages = 30 + 34 = 64 years. Total increase in group = 8 * 3 = 24 years. Sum of ages of the two women = 64 + 24 = 88 years. Average age of the two women = 88 / 2 = 44 years. Therefore, the correct value is 44 years, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q107. (Hard) The average score of 40 students was 68. Later it was found that two scores 84 and 46 were wrongly entered as 48 and 64 respectively. Find the true average score.
+(A) 68.25  (B) 67.55  (C) 68.45  (D) 68.50
+
+Answer: (C)
+
+Solution:
+Correct sum = 84 + 46 = 130. Recorded sum = 48 + 64 = 112. Net deficiency = 130 - 112 = +18. Adjustment per student = +18 / 40 = +0.45. True average = 68 + 0.45 = 68.45. Therefore, the correct value is 68.45, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q108. (Hard) A cricketer has an average of 40 runs in 15 innings. In his 16th inning, he scores 120 runs. What is his new batting average?
+(A) 44  (B) 46  (C) 48  (D) 45
+
+Answer: (D)
+
+Solution:
+Surplus = 120 - 40 = 80 runs. Increase in average across 16 innings = 80 / 16 = 5 runs. New average = 40 + 5 = 45 runs. Therefore, the correct value is 45, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q109. (Hard) The average temperature for Monday, Tuesday, Wednesday, and Thursday was 48 degrees. The average for Tuesday, Wednesday, Thursday, and Friday was 46 degrees. If the temperature on Monday was 42 degrees, what was the temperature on Friday?
+(A) 34 degrees  (B) 36 degrees  (C) 32 degrees  (D) 38 degrees
+
+Answer: (A)
+
+Solution:
+Subtracting the two sums: (Mon + Tue + Wed + Thu) - (Tue + Wed + Thu + Fri) = 4 * 48 - 4 * 46 = 192 - 184 = 8 degrees. Thus, Mon - Fri = 8 degrees. Given Mon = 42 degrees, Fri = 42 - 8 = 34 degrees. Therefore, the correct value is 34 degrees, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q110. (Hard) The average weight of 25 students is 52 kg. If the teacher's weight is added, the average increases by 1 kg. What is the teacher's weight?
+(A) 76 kg  (B) 78 kg  (C) 80 kg  (D) 75 kg
+
+Answer: (B)
+
+Solution:
+Teacher's weight = New average + (Initial students) * (Increase) = 53 + 25 * 1 = 78 kg. Therefore, the correct value is 78 kg, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q111. (Hard) The average of 11 numbers is 30. The average of the first 6 numbers is 28 and that of the last 6 numbers is 32. What is the sixth number?
+(A) 28  (B) 32  (C) 30  (D) 34
+
+Answer: (C)
+
+Solution:
+Total sum = 11 * 30 = 330. Sum of first 6 = 6 * 28 = 168. Sum of last 6 = 6 * 32 = 192. Sixth number = (168 + 192) - 330 = 360 - 330 = 30. Therefore, the correct value is 30, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q112. (Hard) The average of 5 consecutive odd numbers is 41. What is the smallest of these numbers?
+(A) 39  (B) 35  (C) 33  (D) 37
+
+Answer: (D)
+
+Solution:
+The middle (third) number is 41. The five numbers are 37, 39, 41, 43, 45. The smallest number is 37. Therefore, the correct value is 37, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q113. (Hard) The average age of 4 brothers is 12 years. If the age of their mother is included, the average age is increased by 5 years. What is the mother's age?
+(A) 37 years  (B) 35 years  (C) 40 years  (D) 36 years
+
+Answer: (A)
+
+Solution:
+Mother's age = New average + (Previous members) * (Increase) = 17 + 4 * 5 = 17 + 20 = 37 years. Therefore, the correct value is 37 years, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q114. (Hard) The average of 8 numbers is 18. If one of the numbers is excluded, the average becomes 16. What is the excluded number?
+(A) 30  (B) 32  (C) 34  (D) 28
+
+Answer: (B)
+
+Solution:
+Sum of 8 numbers = 8 * 18 = 144. Sum of remaining 7 numbers = 7 * 16 = 112. Excluded number = 144 - 112 = 32. Therefore, the correct value is 32, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q115. (Hard) The average score of 50 students in a test is 75. If the top 5 scores average 95, what is the average of the remaining 45 students?
+(A) 73.50  (B) 72.00  (C) 72.78  (D) 71.80
+
+Answer: (C)
+
+Solution:
+Total score = 50 * 75 = 3,750. Top 5 total = 5 * 95 = 475. Remaining 45 total = 3,750 - 475 = 3,275. Average of 45 students = 3,275 / 45 = 72.78. Therefore, the correct value is 72.78, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q116. (Hard) A person drives 150 km at 50 km/h and another 150 km at 75 km/h. What is the average speed for the entire 300 km journey?
+(A) 62.5 km/h  (B) 58 km/h  (C) 65 km/h  (D) 60 km/h
+
+Answer: (D)
+
+Solution:
+For equal distances: Average speed = (2 * 50 * 75) / (50 + 75) = 7500 / 125 = 60 km/h. Psychological Trap: Students often pick the simple midpoint (50 + 75)/2 = 62.5 km/h, which ignores unequal time intervals. Therefore, the correct value is 60 km/h, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q117. (Hard) The average weight of 15 oarsmen in a boat increases by 1.6 kg when one of the crew, who weighs 42 kg, is replaced by a new man. Find the weight of the new man.
+(A) 66 kg  (B) 64 kg  (C) 68 kg  (D) 65 kg
+
+Answer: (A)
+
+Solution:
+New weight = Replaced weight + n * (Increase) = 42 + 15 * 1.6 = 42 + 24 = 66 kg. Therefore, the correct value is 66 kg, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q118. (Hard) The average of 6 numbers is 32. If the first 3 numbers are increased by 2 each, and the last 3 numbers are decreased by 4 each, what is the new average?
+(A) 30  (B) 31  (C) 32  (D) 31.5
+
+Answer: (B)
+
+Solution:
+Total net change = (3 * 2) + (3 * -4) = 6 - 12 = -6. Change in average = -6 / 6 = -1. New average = 32 - 1 = 31. Therefore, the correct value is 31, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q119. (Hard) The average age of a husband and wife at the time of their marriage was 23 years. After 5 years they have a 1-year-old child. What is the average age of the family now?
+(A) 18 years  (B) 20 years  (C) 19 years  (D) 21 years
+
+Answer: (C)
+
+Solution:
+Present sum of ages of husband and wife = 2 * (23 + 5) = 2 * 28 = 56 years. Present age of child = 1 year. Total age of family = 56 + 1 = 57 years. Average age of family = 57 / 3 = 19 years. Therefore, the correct value is 19 years, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q120. (Hard) The average of 10 observations is 45. If the first observation is increased by 1, the second by 2, the third by 3, and so on up to the tenth by 10, find the new average.
+(A) 50  (B) 51  (C) 49.5  (D) 50.5
+
+Answer: (D)
+
+Solution:
+Total increase = 1 + 2 + 3 + ... + 10 = (10 * 11) / 2 = 55. Average increase = 55 / 10 = 5.5. New average = 45 + 5.5 = 50.5. Therefore, the correct value is 50.5, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q121. (Hard) The average marks of 35 students in a class is 63. If two students who scored 85 and 92 leave the class, what is the average marks of the remaining students?
+(A) 61.45  (B) 62.00  (C) 60.80  (D) 61.80
+
+Answer: (A)
+
+Solution:
+Total initial sum = 35 * 63 = 2,205. Sum of the two leaving students = 85 + 92 = 177. Remaining sum = 2,205 - 177 = 2,028. Remaining students = 33. New average = 2,028 / 33 = 61.45. Therefore, the correct value is 61.45, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q122. (Hard) A student scored an average of 80 marks in 4 subjects. In the fifth subject, he scored 95 marks. What is his new overall average?
+(A) 82  (B) 83  (C) 84  (D) 85
+
+Answer: (B)
+
+Solution:
+Surplus marks in fifth subject = 95 - 80 = 15. This surplus is distributed across all 5 subjects: 15 / 5 = 3. New average = 80 + 3 = 83. Therefore, the correct value is 83, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q123. (Hard) The average of 5 consecutive even numbers is 52. What is the difference between the square of the largest and the square of the smallest number?
+(A) 820  (B) 840  (C) 832  (D) 800
+
+Answer: (C)
+
+Solution:
+The numbers centered at 52 are 48, 50, 52, 54, 56. Largest = 56, smallest = 48. Difference of squares = 56^2 - 48^2 = (56 - 48)(56 + 48) = 8 * 104 = 832. Therefore, the correct value is 832, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q124. (Hard) The average score of 20 players in a tournament is 48. If the captain's score is removed, the average drops by 2 runs. What was the captain's score?
+(A) 84  (B) 88  (C) 82  (D) 86
+
+Answer: (D)
+
+Solution:
+Captain's score = Old average + (Remaining players) * (Decrease) = 48 + 19 * 2 = 48 + 38 = 86 runs. Therefore, the correct value is 86, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q125. (Hard) The average of three numbers is 60. The first number is 1/4th of the sum of the other two numbers. What is the first number?
+(A) 30  (B) 36  (C) 40  (D) 32
+
+Answer: (B)
+
+Solution:
+Total sum of 3 numbers = 3 * 60 = 180. Let first number be x, then sum of other two = 4x. Total sum = x + 4x = 5x = 180 => x = 36. Therefore, the correct value is 36, corresponding to option (B).
+
+Source: SSC CGL Pattern

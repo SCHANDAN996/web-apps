@@ -1,0 +1,24 @@
+# The Feynman Technique: Average as Balancing Weights on a See-Saw
+
+Imagine a seesaw with a fulcrum in the exact center. If you place unequal weights on different positions along the board, the seesaw tips. The **Average** is the single balance point where all positive deviations exactly cancel out all negative deviations.
+
+### The Fulcrum Principle (Zero Deviation)
+If five students score 82, 85, 90, 93, and 100 on a test:
+Instead of adding 82 + 85 + 90 + 93 + 100 = 450 and dividing by 5:
+Guess a central point, say 90.
+- 82 is -8
+- 85 is -5
+- 90 is 0
+- 93 is +3
+- 100 is +10
+
+Sum the deviations: (-8 - 5 + 0 + 3 + 10) = 0!
+Because the net deviation is 0, the balance point is exactly 90.
+
+### The Heavy Passenger Rule (Inclusion)
+Imagine a boat with 10 people whose average weight is 60 kg.
+A new passenger boards, and the average weight increases by 2 kg (to 62 kg).
+How heavy is the new passenger?
+He must bring his own new share (62 kg), PLUS he must donate 2 kg to each of the 10 existing passengers to raise them to 62 kg!
+Passenger's weight = 62 + (10 * 2) = 82 kg.
+No long multiplication needed.

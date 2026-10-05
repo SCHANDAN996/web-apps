@@ -1,0 +1,26 @@
+```mermaid
+graph TD
+    A["Average (औसत)"] --> B["Basic Formulas & Deviation"]
+    A --> C["Group Dynamics (Inclusion/Exclusion)"]
+    A --> D["Progressions & Sequences"]
+    A --> E["Weighted Average & Alligation"]
+    A --> F["Sports & Speed Applications"]
+    
+    B --> B1["Mean = Sum / Count"]
+    B --> B2["Deviation Method: A + Σd/n"]
+    
+    C --> C1["Inclusion: X = A' + n*ΔA"]
+    C --> C2["Exclusion: Y = A - (n-1)*ΔA"]
+    C --> C3["Replacement: X = Y + n*ΔA"]
+    
+    D --> D1["AP: (First + Last) / 2"]
+    D --> D2["First n Natural: (n+1)/2"]
+    D --> D3["First n Even: n+1<br>First n Odd: n"]
+    
+    E --> E1["Weighted Mean: Σ(w*A) / Σw"]
+    E --> E2["Alligation Cross Method"]
+    
+    F --> F1["Batting Avg: Runs / Dismissals"]
+    F --> F2["Bowling Avg: Runs / Wickets"]
+    F --> F3["Harmonic Mean Speed: 2uv / (u+v)"]
+```

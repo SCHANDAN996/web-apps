@@ -1,0 +1,21 @@
+# Short Tricks & Mental Hacks: Average
+
+### Trick 1: The Step-Deviation Supercut
+Never sum large numbers. Pick a convenient round number near the cluster.
+Sum only differences: Actual Average = Assumed + (Sum of Differences / n).
+
+### Trick 2: Replacement in 2 Seconds
+`New Value = Old Value + (Count * Change in Average)`
+If average increases, add. If average decreases, subtract.
+
+### Trick 3: Batting Inning Formula
+`New Average = Runs scored in n-th inning - (n - 1) * Increase in Average`
+`Old Average = Runs scored in n-th inning - n * Increase in Average`
+
+### Trick 4: Alligation for Bowling Averages
+Place Old Average on Left, Match Performance on Right, Target Average in Center.
+Ratio of Wickets = (Match Avg - New Avg) : (Old Avg - New Avg).
+
+### Trick 5: Consecutive Numbers Middle Rule
+- If count is odd: Average IS the exact middle number.
+- If count is even: Average is the midpoint of the two middle numbers.

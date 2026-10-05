@@ -1,0 +1,56 @@
+# High-Yield Pattern Analysis: Average (Graduation Level)
+
+### Pattern 1: Replacement in a Group
+**Problem:** The average weight of 8 persons increases by 2.5 kg when a new person comes in place of one of them weighing 65 kg. What is the weight of the new person?
+- **Analysis:** Using the net deviation formula: W_new = W_old + n * Delta A = 65 + 8 * 2.5 = 65 + 20 = 85 kg.
+- **Psychological Trap:** Candidates frequently multiply 65 * 2.5 or calculate total weight 8 * 65 instead of applying direct displacement.
+- **Source:** SSC CGL Pattern
+
+### Pattern 2: Batting Average Progression
+**Problem:** A batsman makes a score of 87 runs in the 17th inning and thus increases his average by 3 runs. Find his average after the 17th inning.
+- **Analysis:** Let average after 17th inning be A. Then 87 = A + (17 - 1) * 3 = A + 48 => A = 87 - 48 = 39.
+- **Psychological Trap:** Answering 36 (the average before the 17th inning) instead of 39 (the average after the 17th inning).
+- **Source:** SSC CGL Pattern
+
+### Pattern 3: Bowling Average Improvement
+**Problem:** A bowler whose bowling average is 12.4 runs per wicket takes 5 wickets for 26 runs in his next match, and thereby decreases his average by 0.4. What was the number of wickets taken by him before this match?
+- **Analysis:** Match average = 26 / 5 = 5.2. New overall average = 12.4 - 0.4 = 12.0. By alligation: (12.4 - 12.0) : (12.0 - 5.2) = 0.4 : 6.8 = 1 : 17. Since 1 unit corresponds to 5 wickets, 17 units correspond to 17 * 5 = 85 wickets.
+- **Psychological Trap:** Remembering that a decrease in bowling average is an improvement, not a deterioration.
+- **Source:** SSC CGL Pattern
+
+### Pattern 4: Consecutive Odd / Even Integers
+**Problem:** The average of 7 consecutive numbers is 20. The largest of these numbers is:
+- **Analysis:** For an odd number of terms in an AP, the average is the exact middle term. Thus, the 4th term is 20. The largest term (7th term) is 20 + 3 = 23.
+- **Source:** State PCS Pattern
+
+### Pattern 5: Exclusion of Teacher / Outlier
+**Problem:** The average age of 30 students is 15 years. If the teacher's age is included, the average age becomes 16 years. What is the teacher's age?
+- **Analysis:** Teacher's age = New Average + n * (New Average - Old Average) = 16 + 30 * (16 - 15) = 16 + 30 = 46 years.
+- **Source:** SSC CGL Pattern
+
+### Pattern 6: Mistaken Reading / Erroneous Data Entry
+**Problem:** The average marks of 50 students were found to be 40. Later it was discovered that a score of 53 was misread as 83. Find the correct mean.
+- **Analysis:** Difference = Correct - Misread = 53 - 83 = -30. Correction to mean = -30 / 50 = -0.6. Correct mean = 40 - 0.6 = 39.4.
+- **Psychological Trap:** Adding the difference instead of subtracting when the misread score was larger than the real score.
+- **Source:** IBPS PO Pattern
+
+### Pattern 7: Weighted Average of Sections
+**Problem:** The average marks of section A with 40 students is 60, and that of section B with 60 students is 80. Find the combined average.
+- **Analysis:** Ratio of students = 40 : 60 = 2 : 3. Combined average = (2 * 60 + 3 * 80) / (2 + 3) = (120 + 240) / 5 = 72.
+- **Source:** SSC CGL Pattern
+
+### Pattern 8: Average Speed (Harmonic Mean)
+**Problem:** A motorist travels to a place 150 km away at an average speed of 50 km/h and returns at 30 km/h. What is his average speed for the whole journey?
+- **Analysis:** Average speed = 2uv / (u + v) = (2 * 50 * 30) / (50 + 30) = 3000 / 80 = 37.5 km/h.
+- **Psychological Trap:** Simply taking the arithmetic mean (50 + 30) / 2 = 40 km/h.
+- **Source:** SSC CGL Pattern
+
+### Pattern 9: Temperature Over Overlapping Days
+**Problem:** The average temperature of Monday, Tuesday, and Wednesday is 40 deg C. The average for Tuesday, Wednesday, and Thursday is 41 deg C. If Thursday's temperature is 42 deg C, find Monday's temperature.
+- **Analysis:** (Tue + Wed + Thu) - (Mon + Tue + Wed) = 3 * 41 - 3 * 40 = 3 => Thu - Mon = 3 => 42 - Mon = 3 => Mon = 39 deg C.
+- **Source:** State PCS Pattern
+
+### Pattern 10: Extreme Values & Boundary Analysis
+**Problem:** The average score of a batsman in 40 innings is 50 runs. His highest score exceeds his lowest score by 172 runs. If these two innings are excluded, the average of the remaining 38 innings is 48 runs. Find his highest score.
+- **Analysis:** Sum of 40 innings = 40 * 50 = 2000. Sum of 38 innings = 38 * 48 = 1824. High + Low = 2000 - 1824 = 176. High - Low = 172. 2 * High = 348 => High = 174 runs.
+- **Source:** SSC CGL Pattern
