@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 06-10-2026 02:44 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 02:43 AM
+**आख़िरी update:** 06-10-2026 02:59 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 02:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 05 Tense (Graduation English) | 🔧 सुधार रहा है | 0 मिनट |
-| W2 | Chapter 07 Preposition (Graduation English) | 🔧 सुधार रहा है | 0 मिनट |
-| W3 | Chapter 08 Conjunction (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
-| W4 | Chapter 09 Articles (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
+| W1 | Chapter 05 Tense (Graduation English) | 🔎 review हो रहा है | 10 मिनट |
+| W2 | Chapter 07 Preposition (Graduation English) | 🔎 review हो रहा है | 12 मिनट |
+| W3 | Chapter 08 Conjunction (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
+| W4 | Chapter 09 Articles (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -28,8 +28,8 @@
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 0 | 0 | 28 |
 | Graduation Reasoning | 0 | 0 | 30 |
-| Graduation English | 5 | 2 | 23 |
-| **कुल** | **55** | **15** | **226** |
+| Graduation English | 7 | 0 | 23 |
+| **कुल** | **57** | **13** | **226** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -43,22 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-06-10 02:18:57   [Preposition] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-06-10 02:19:37   [Articles] wrote PYQ_hi.txt (5893 chars)
-06-10 02:19:39   [Voice] wrote Flashcards_hi.txt (4004 chars)
-06-10 02:21:08   [Conjunction] Practice_en_Set_02.txt try 3: re-solve disagrees (Q43 key c vs re-solve a)
-06-10 02:21:08   [Conjunction] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
-06-10 02:21:08   [Conjunction] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
-06-10 02:21:10   [Articles] wrote Short_Tricks_en.txt (8751 chars)
-06-10 02:21:24   [Preposition] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-06-10 02:21:36   [Voice] wrote PYQ_en.txt (9323 chars)
-06-10 02:22:15   [Articles] wrote Short_Tricks_hi.txt (5133 chars)
-06-10 02:23:04   [Conjunction] Practice_en_Set_03.txt try 1: rejected (Q54:leaked_reasoning,Q64:leaked_reasoning)
-06-10 02:23:09   [Articles] wrote Important_Rules_en.txt (5655 chars)
-06-10 02:24:15   [Articles] wrote Important_Rules_hi.txt (4089 chars)
-06-10 02:26:25   [Preposition] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-06-10 02:26:29   [Conjunction] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-06-10 02:28:13   [Voice] wrote PYQ_hi.txt (7246 chars)
 06-10 02:28:47   [Conjunction] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 06-10 02:29:34   [Voice] wrote Short_Tricks_en.txt (8074 chars)
 06-10 02:29:58   [Articles] FAILED Practice_en_Set_01.txt: empty
@@ -83,4 +67,20 @@
 06-10 02:43:20 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_07_Preposition (FIX: todo 0, problems 1)
 06-10 02:43:25 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_08_Conjunction (TODO: todo 5, problems 0)
 06-10 02:43:30 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_09_Articles (TODO: todo 8, problems 0)
+06-10 02:45:03   [Tense] re-translated set 04 (Hindi only)
+06-10 02:46:27   [Preposition] re-translated set 05 (Hindi only)
+06-10 02:46:28   [Preposition] written 1, failed 0; AI calls today 255/100000
+06-10 02:47:27   [Conjunction] Practice_en_Set_02.txt try 1: rejected (Q32:leaked_reasoning)
+06-10 02:47:42   [Preposition] review Content_hi.txt: 2 issue(s): - The rule distinguishing Until as only a conjunction and Till as only a preposition is incorrect; both words can f
+06-10 02:47:46   [Articles] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+06-10 02:48:37   [Tense] re-translated set 05 (Hindi only)
+06-10 02:48:37   [Tense] written 2, failed 0; AI calls today 259/100000
+06-10 02:49:12   [Conjunction] Practice_en_Set_02.txt try 2: rejected (Q31:leaked_reasoning)
+06-10 02:51:44   [Articles] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+06-10 02:52:30   [Conjunction] Practice_en_Set_02.txt try 3: re-solve disagrees (Q28 key a vs re-solve c)
+06-10 02:52:30   [Conjunction] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
+06-10 02:52:30   [Conjunction] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+06-10 02:55:37   [Conjunction] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+06-10 02:57:21   [Articles] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+06-10 02:58:42   [Tense] review Flashcards_en.txt: 1 issue(s): - Card 4 incorrectly states that the listed time markers (just, already, yet, since, ever, never, recently, so f
 ```
