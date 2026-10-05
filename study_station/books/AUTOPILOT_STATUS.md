@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 05-10-2026 11:59 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 05-10 11:58 PM
+**आख़िरी update:** 06-10-2026 12:14 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 05-10 11:58 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Pronoun (Graduation English) | 🔎 review हो रहा है | 0 मिनट |
-| W2 | Chapter 03 Adjective (Graduation English) | 🔎 review हो रहा है | 0 मिनट |
-| W3 | Chapter 05 Tense (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
-| W4 | Chapter 06 Adverb (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
+| W1 | Chapter 02 Pronoun (Graduation English) | 🔎 review हो रहा है | 15 मिनट |
+| W2 | Chapter 03 Adjective (Graduation English) | 🔎 review हो रहा है | 15 मिनट |
+| W3 | Chapter 05 Tense (Graduation English) | 🔎 review हो रहा है | 5 मिनट |
+| W4 | Chapter 06 Adverb (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -28,8 +28,8 @@
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 0 | 0 | 28 |
 | Graduation Reasoning | 0 | 0 | 30 |
-| Graduation English | 4 | 0 | 26 |
-| **कुल** | **54** | **13** | **229** |
+| Graduation English | 5 | 0 | 25 |
+| **कुल** | **55** | **13** | **228** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -39,13 +39,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-05-10 23:31:22   [Tense] FAILED Practice_en_Set_05.txt: empty
-05-10 23:31:22   [Tense] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
-05-10 23:33:05   [Tense] Practice_en_Set_06.txt try 1: rejected (Q132:leaked_reasoning)
-05-10 23:34:35   [Pronoun] review PYQ_hi.txt: 1 issue(s): - प्रश्न 6 का उत्तर और व्याख्या गलत है: "He is the same man ______ helped me yesterday" में पहचान दर्शाने के लिए 'who' 
-05-10 23:36:29   [Tense] Practice_en_Set_06.txt try 2: re-solve disagrees (Q131 key a vs re-solve d)
-05-10 23:37:34   [Adverb] Practice_en_Set_04.txt try 3: re-solve disagrees (Q92 key a vs re-solve c, Q96 key a vs re-solve ?)
-05-10 23:37:34   [Adverb] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
 05-10 23:37:34   [Adverb] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
 05-10 23:38:10   [Preposition] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 05-10 23:40:24   [Tense] wrote Practice_en_Set_06.txt (write, 25 MCQs)
@@ -79,4 +72,11 @@
 05-10 23:58:24 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_03_Adjective (OK: todo 0, problems 0)
 05-10 23:58:29 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_05_Tense (TODO: todo 2, problems 0)
 05-10 23:58:34 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_06_Adverb (TODO: todo 2, problems 0)
+06-10 00:00:53   [Adverb] Practice_en_Set_04.txt try 1: rejected (parsed 23 questions, numbers 76…100)
+06-10 00:05:51   [Tense] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+06-10 00:06:12   [Adjective] review Content_hi.txt: 3 issue(s): - Hook uses invented statistic "80% छात्रों ने 'than' भरा" without any verifiable source → Remove the unsourced per
+06-10 00:08:37   [Tense] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+06-10 00:08:37   [Tense] written 2, failed 0; AI calls today 6/100000
+06-10 00:12:36   [Tense] review Content_en.txt: 2 issue(s): - Invented statistic '~90% of exam questions' in Learning Objectives → Delete the phrase 'that cover ~90% of exam q
+06-10 00:13:30   [Adverb] Practice_en_Set_04.txt try 2: re-solve disagrees (Q81 key c vs re-solve b, Q89 key c vs re-solve a)
 ```
