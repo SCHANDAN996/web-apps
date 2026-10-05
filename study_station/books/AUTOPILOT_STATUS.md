@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 06-10-2026 03:03 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 02:43 AM
+**आख़िरी update:** 06-10-2026 03:05 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 02:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 05 Tense (Graduation English) | 🔎 review हो रहा है | 15 मिनट |
-| W2 | Chapter 07 Preposition (Graduation English) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 08 Conjunction (Graduation English) | ✍️ लिख रहा है | 20 मिनट |
-| W4 | Chapter 09 Articles (Graduation English) | ✍️ लिख रहा है | 20 मिनट |
+| W1 | Chapter 05 Tense (Graduation English) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 10 Voice (Graduation English) | ✍️ लिख रहा है | 1 मिनट |
+| W3 | Chapter 08 Conjunction (Graduation English) | ✍️ लिख रहा है | 21 मिनट |
+| W4 | Chapter 09 Articles (Graduation English) | ✍️ लिख रहा है | 21 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -33,22 +33,17 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 06-10 03:05 — Graduation English · Chapter 05 Tense
 - 06-10 03:03 — Graduation English · Chapter 07 Preposition
 - 06-10 02:05 — Graduation English · Chapter 02 Pronoun
 - 06-10 02:04 — Graduation English · Chapter 06 Adverb
 - 06-10 01:49 — Graduation English · Chapter 03 Adjective
-- 06-10 01:46 — Graduation English · Chapter 05 Tense
 - 05-10 22:04 — Graduation English · Chapter 01 Noun
 - 05-10 21:44 — Graduation English · Chapter 04 Verb
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-06-10 02:32:33   [Conjunction] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-06-10 02:33:14   [Articles] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-06-10 02:33:19   [Voice] wrote Short_Tricks_hi.txt (7303 chars)
-06-10 02:34:29   [Voice] wrote Important_Rules_en.txt (5832 chars)
-06-10 02:35:09   [Preposition] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 06-10 02:35:09   [Preposition] written 9, failed 0; AI calls today 237/100000
 06-10 02:36:14   [Conjunction] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 06-10 02:37:37   [Preposition] review Content_en.txt: 2 issue(s): - In the Linguistic Bridge table, the Hindi sentence "कमरा दस कुर्सियों से बना है" (The room is made of ten chairs)
@@ -84,4 +79,9 @@
 06-10 03:03:48   [Articles] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 06-10 03:03:49   [Preposition] review: 1 section(s) corrected, 0 failed
 06-10 03:03:49   [Preposition] written 1, failed 0; AI calls today 297/100000
+06-10 03:03:56 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_07_Preposition in 20 min → 6c2870d
+06-10 03:03:57 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_10_Voice (TODO: todo 12, problems 0)
+06-10 03:05:15   [Tense] review: 1 section(s) corrected, 0 failed
+06-10 03:05:15   [Tense] written 1, failed 0; AI calls today 300/100000
+06-10 03:05:19   [Conjunction] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 ```
