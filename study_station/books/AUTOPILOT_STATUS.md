@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 06-10-2026 02:59 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 02:43 AM
+**आख़िरी update:** 06-10-2026 03:03 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 02:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 05 Tense (Graduation English) | 🔎 review हो रहा है | 10 मिनट |
-| W2 | Chapter 07 Preposition (Graduation English) | 🔎 review हो रहा है | 12 मिनट |
-| W3 | Chapter 08 Conjunction (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
-| W4 | Chapter 09 Articles (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
+| W1 | Chapter 05 Tense (Graduation English) | 🔎 review हो रहा है | 15 मिनट |
+| W2 | Chapter 07 Preposition (Graduation English) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 08 Conjunction (Graduation English) | ✍️ लिख रहा है | 20 मिनट |
+| W4 | Chapter 09 Articles (Graduation English) | ✍️ लिख रहा है | 20 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -33,6 +33,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 06-10 03:03 — Graduation English · Chapter 07 Preposition
 - 06-10 02:05 — Graduation English · Chapter 02 Pronoun
 - 06-10 02:04 — Graduation English · Chapter 06 Adverb
 - 06-10 01:49 — Graduation English · Chapter 03 Adjective
@@ -43,11 +44,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-06-10 02:28:47   [Conjunction] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-06-10 02:29:34   [Voice] wrote Short_Tricks_en.txt (8074 chars)
-06-10 02:29:58   [Articles] FAILED Practice_en_Set_01.txt: empty
-06-10 02:29:58   [Articles] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
-06-10 02:30:28   [Preposition] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 06-10 02:32:33   [Conjunction] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 06-10 02:33:14   [Articles] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 06-10 02:33:19   [Voice] wrote Short_Tricks_hi.txt (7303 chars)
@@ -83,4 +79,9 @@
 06-10 02:55:37   [Conjunction] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 06-10 02:57:21   [Articles] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 06-10 02:58:42   [Tense] review Flashcards_en.txt: 1 issue(s): - Card 4 incorrectly states that the listed time markers (just, already, yet, since, ever, never, recently, so f
+06-10 03:00:03   [Articles] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+06-10 03:01:38   [Conjunction] Practice_en_Set_06.txt try 1: re-solve disagrees (Q141 key c vs re-solve ?)
+06-10 03:03:48   [Articles] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+06-10 03:03:49   [Preposition] review: 1 section(s) corrected, 0 failed
+06-10 03:03:49   [Preposition] written 1, failed 0; AI calls today 297/100000
 ```
