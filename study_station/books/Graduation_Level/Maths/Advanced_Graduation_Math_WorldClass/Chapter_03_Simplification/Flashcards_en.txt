@@ -1,0 +1,17 @@
+Q: What is the exact operational precedence of the vinculum (bar bracket) in VBODMAS?
+A: Vinculum has the highest precedence among all brackets and operations; terms under the bar must be calculated first.
+
+Q: What is the simplified value of a / b of c vs (a / b) * c?
+A: a / b of c = a / (b * c), whereas (a / b) * c = (a * c) / b.
+
+Q: If a + b + c = 0, what is the value of (a^3 + b^3 + c^3) / (abc)?
+A: 3, because a^3 + b^3 + c^3 = 3abc whenever a + b + c = 0.
+
+Q: How do you find the square root of a binomial surd of the form sqrt(a + 2*sqrt(b))?
+A: Find two numbers x and y such that x + y = a and x * y = b. Then sqrt(a + 2*sqrt(b)) = sqrt(x) + sqrt(y).
+
+Q: What is the sum of the telescoping series 1/(1*2) + 1/(2*3) + ... + 1/(n*(n+1))?
+A: n / (n + 1).
+
+Q: What is the closed-form evaluation of sqrt(a + sqrt(a + sqrt(a + ...))) to infinity?
+A: (1 + sqrt(4a + 1)) / 2.

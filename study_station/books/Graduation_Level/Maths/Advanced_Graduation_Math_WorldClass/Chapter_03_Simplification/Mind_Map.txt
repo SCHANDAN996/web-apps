@@ -1,0 +1,27 @@
+```mermaid
+graph TD
+    A["Advanced Simplification"] --> B["VBODMAS Rule"]
+    A --> C["Algebraic Symmetries"]
+    A --> D["Surds & Radicals"]
+    A --> E["Telescoping Series"]
+    A --> F["Approximation Methods"]
+
+    B --> B1["Vinculum Priority"]
+    B --> B2["Of vs Multiply"]
+    B --> B3["Left to Right Division"]
+
+    C --> C1["Zero-Sum Cubic Invariant<br>a+b+c=0 implies a3+b3+c3=3abc"]
+    C --> C2["Rational Quotient Reductions<br>a3+b3 over a2-ab+b2"]
+    C --> C3["Quadratic Sum Differences<br>4ab and 2(a2+b2)"]
+
+    D --> D1["Square Root of Surd<br>sqrt(a +- 2*sqrt(b))"]
+    D --> D2["Infinite Nested Radicals"]
+    D --> D3["Ladder Continued Fractions"]
+
+    E --> E1["Partial Fraction Splitting<br>1/k(k+d)"]
+    E --> E2["Boundary Term Survival"]
+
+    F --> F1["Binomial (1+x)n approx 1+nx"]
+    F --> F2["Range Bounding"]
+    F --> F3["Digital Root Trap Avoidance"]
+```

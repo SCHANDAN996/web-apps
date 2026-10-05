@@ -1,0 +1,25 @@
+# Important Formulas & Algebraic Equivalences: Simplification
+
+1. VBODMAS Precedence:
+   Vinculum > Brackets () > {} > [] > Of > Division / Multiplication (Left to Right) > Addition / Subtraction (Left to Right)
+
+2. Cubic Expansions & Reductions:
+   - a^3 + b^3 = (a + b)(a^2 - ab + b^2)
+   - a^3 - b^3 = (a - b)(a^2 + ab + b^2)
+   - a^3 + b^3 + c^3 - 3abc = (a + b + c)(a^2 + b^2 + c^2 - ab - bc - ca)
+   - (a - b)^3 + (b - c)^3 + (c - a)^3 = 3(a - b)(b - c)(c - a)
+
+3. Symmetrical Quadratic Relations:
+   - (a + b)^2 + (a - b)^2 = 2(a^2 + b^2)
+   - (a + b)^2 - (a - b)^2 = 4ab
+   - a^2 + b^2 + c^2 - ab - bc - ca = 0.5 * [(a - b)^2 + (b - c)^2 + (c - a)^2]
+
+4. Radical & Surd Invariants:
+   - sqrt(a + 2*sqrt(b)) = sqrt(x) + sqrt(y), where x + y = a and xy = b
+   - sqrt(a - 2*sqrt(b)) = sqrt(x) - sqrt(y), where x > y, x + y = a and xy = b
+   - sqrt(x + sqrt(x + ...)) = (sqrt(4x + 1) + 1) / 2
+   - sqrt(x - sqrt(x - ...)) = (sqrt(4x + 1) - 1) / 2
+   - sqrt(x * sqrt(x * ...)) = x
+
+5. Telescoping Invariant Form:
+   - 1 / [n * (n + k)] = (1 / k) * [1/n - 1/(n + k)]

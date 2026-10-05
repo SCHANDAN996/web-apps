@@ -1,0 +1,12 @@
+The Feynman Technique: Simplifying the Art of Simplification
+
+Think of simplification not as grinding out massive numbers, but as untangling a ball of yarn by finding the loose threads.
+
+1. The 'Of' vs 'Times' Hierarchy Trap:
+Imagine you have 20 apples to divide among 2 baskets 'of' 5 slots each. If you say 20 / 2 * 5, left-to-right math gives 50. But in real life, '2 baskets of 5' is a single conceptual container holding 10 slots! So 20 / (2 * 5) = 2. 'Of' fuses numbers together into a single bonded unit before division touches them.
+
+2. Telescoping Sums: The Collapsing Accordion:
+When you see 1/(1*2) + 1/(2*3) + ... + 1/(99*100), it looks terrifying. But rewrite each term: (1 - 1/2) + (1/2 - 1/3) + (1/3 - 1/4) + ... Every intermediate term cancels out with its neighbor, like pushing both ends of an accordion together. Only the first note (1) and the very last note (-1/100) survive: 1 - 1/100 = 99/100.
+
+3. The Hidden Algebraic Camouflage:
+When an exam gives you (0.87 * 0.87 * 0.87 + 0.13 * 0.13 * 0.13) / (0.87 * 0.87 - 0.87 * 0.13 + 0.13 * 0.13), replace 0.87 with 'a' and 0.13 with 'b'. Instantly, it becomes (a^3 + b^3) / (a^2 - ab + b^2). The entire algebraic monster factors down to simply a + b = 0.87 + 0.13 = 1.0!
