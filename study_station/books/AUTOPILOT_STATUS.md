@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 06-10-2026 03:44 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 02:43 AM
+**आख़िरी update:** 06-10-2026 03:47 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 02:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Narration (Graduation English) | ✍️ लिख रहा है | 39 मिनट |
-| W2 | Chapter 10 Voice (Graduation English) | ✍️ लिख रहा है | 40 मिनट |
-| W3 | Chapter 08 Conjunction (Graduation English) | 🔎 review हो रहा है | 25 मिनट |
-| W4 | Chapter 09 Articles (Graduation English) | 🔎 review हो रहा है | 21 मिनट |
+| W1 | Chapter 11 Narration (Graduation English) | ✍️ लिख रहा है | 42 मिनट |
+| W2 | Chapter 10 Voice (Graduation English) | ✍️ लिख रहा है | 43 मिनट |
+| W3 | Chapter 08 Conjunction (Graduation English) | 🔎 review हो रहा है | 28 मिनट |
+| W4 | Chapter 09 Articles (Graduation English) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -33,6 +33,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 06-10 03:47 — Graduation English · Chapter 09 Articles
 - 06-10 03:05 — Graduation English · Chapter 05 Tense
 - 06-10 03:03 — Graduation English · Chapter 07 Preposition
 - 06-10 02:05 — Graduation English · Chapter 02 Pronoun
@@ -49,10 +50,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-06-10 03:13:37   [Narration] wrote Mind_Map_hi.txt (2091 chars)
-06-10 03:14:37   [Narration] wrote Flashcards_en.txt (4965 chars)
-06-10 03:15:46   [Voice] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-06-10 03:15:54   [Narration] wrote Flashcards_hi.txt (4679 chars)
 06-10 03:16:12   [Conjunction] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 06-10 03:17:35   [Articles] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 06-10 03:18:24   [Voice] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
@@ -89,4 +86,8 @@
 06-10 03:43:11   [Voice] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 06-10 03:43:15   [Narration] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 06-10 03:44:31   [Conjunction] review Short_Tricks_hi.txt: 1 issue(s): - Trick 15: “While = 3 चेहरे” lists “जब तक (ब्रिटिश प्रयोग)” as a meaning of *while* → *while* does not mean “
+06-10 03:45:02   [Articles] review Short_Tricks_hi.txt: 3 issue(s): - Trick 2 heading "FANBOYS से पहले THE नहीं" is wrong; FANBOYS are coordinating conjunctions, not the zero-art
+06-10 03:46:01   [Voice] Practice_en_Set_05.txt try 1: re-solve disagrees (Q124 key a vs re-solve c)
+06-10 03:47:27   [Articles] review: 6 section(s) corrected, 0 failed
+06-10 03:47:27   [Articles] written 6, failed 0; AI calls today 387/100000
 ```
