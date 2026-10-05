@@ -1,0 +1,40 @@
+# Short Tricks & Speed Hacks: Profit & Loss (Intermediate / 12th Level)
+
+## Trick 1: The Golden MP/CP Multiplier
+Whenever Marked Price, Cost Price, Discount %, and Profit % are involved:
+- MP / CP = (100 + P) / (100 - D)
+- Skip intermediate SP calculation completely! Directly equate ratios.
+
+## Trick 2: Shift of SP Formula (Delta Method)
+If selling an article at SP_1 yields a loss of L% and at SP_2 yields a profit of P%:
+- CP = [(SP_2 - SP_1) / (P% + L%)] * 100
+- *Example:* If sold for Rs 540 it is 10% loss, and for Rs 660 it is 10% profit: CP = (660 - 540) / (10 + 10) * 100 = 120 / 20 * 100 = Rs 600.
+
+## Trick 3: Successive Discount Fraction Chaining
+Convert discount percentages to simple multiplying fractions:
+- 20% discount = 4/5
+- 12.5% discount = 7/8
+- 10% discount = 9/10
+- Net SP = MP * (4/5) * (7/8) * (9/10) = MP * 63/100 => 37% single discount.
+
+## Trick 4: False Weights as Capital Outlay Ratios
+Do not memorize long formulas for dishonest dealers. Treat:
+- Given Weight = What left your pocket = CP
+- Claimed Weight = What customer paid for = SP
+- Profit % = [(Claimed - Given) / Given] * 100.
+- If merchant claims 1000g but gives 750g: Ratio SP / CP = 1000 / 750 = 4 / 3 => 1/3 = 33.33% profit.
+
+## Trick 5: Equal SP Loss Calculation in Cash
+When two articles are sold at SP each, one with +x% and one with -x%:
+- Total Net Loss in Rupees = [ 2 * SP * x^2 ] / [ 100^2 - x^2 ].
+
+## Trick 6: Margin to Profit Mental Math
+- Margin on SP of 1/n corresponds to Profit on CP of 1/(n - 1).
+- Margin 1/5 (20%) on SP = Profit 1/4 (25%) on CP.
+- Margin 1/4 (25%) on SP = Profit 1/3 (33.33%) on CP.
+- Margin 1/3 (33.33%) on SP = Profit 1/2 (50%) on CP.
+
+## Trick 7: Goods Equivalence Shortcut
+If x * CP = y * SP:
+- Directly write: CP = y and SP = x.
+- Profit % = [(x - y) / y] * 100.
