@@ -297,3 +297,25 @@ def test_balance_answers_spreads_keys_and_keeps_letter_references():
     q7 = qs[6]                                          # its solution names the letter: it follows the swap
     assert q7.options[q7.answer_index] == 'goes' and f'Option ({"abcd"[q7.answer_index]}) is right' in q7.solution
     assert bookgen.balance_answers(out) == bookgen.balance_answers(out)                 # deterministic
+
+
+def test_review_failure_is_reported_not_swallowed(broken_chapter, db, monkeypatch, capsys):
+    def down(db, user):
+        raise ai.AIUnavailable('empty')
+    monkeypatch.setattr(bookgen, '_ask_review', down)
+    fixed, failed = bookgen.review(db, broken_chapter, out=print)
+    assert fixed == [] and failed and 'must not be published unreviewed' in capsys.readouterr().out
+
+
+def test_checker_falls_back_to_another_model(monkeypatch):
+    from app import nvidia
+    tried = []
+
+    def call(system, user, *, model=None, **k):
+        tried.append(model)
+        if model == config.NVIDIA_CHECK_MODEL:
+            raise ai.AIUnavailable('empty')
+        return 'OK'
+    monkeypatch.setattr(nvidia, 'call', call)
+    assert bookgen._nvidia_second_opinion('s', 'u') == 'OK'
+    assert tried == [config.NVIDIA_CHECK_MODEL, config.NVIDIA_FALLBACK_MODELS[0]]

@@ -181,7 +181,9 @@ class Pilot:
                     continue
                 lines.append(line)
                 self.log(f'  [{short}] {line.strip()[:150]}')
-        bad = [l for l in lines if l.startswith(('FAILED', 'REJECTED', 'stopping'))]
+        bad = [l for l in lines if l.startswith(('FAILED', 'REJECTED', 'stopping', 'Traceback'))]
+        if proc.returncode and not bad and '--review' in extra:
+            bad = [f'bookgen exit code {proc.returncode}']              # never publish an unfinished review
         return lines, bad
 
     def step(self, key, step):

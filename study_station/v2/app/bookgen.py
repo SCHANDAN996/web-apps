@@ -152,13 +152,25 @@ def _ask(db, user):
         raise
 
 
+def _nvidia_second_opinion(system, user):
+    """The checker model; when it keeps returning nothing, a different strong model takes over."""
+    models = [config.NVIDIA_CHECK_MODEL] + [m for m in config.NVIDIA_FALLBACK_MODELS if m != config.NVIDIA_CHECK_MODEL]
+    for i, model in enumerate(models):
+        try:
+            return nvidia.call(system, user, max_tokens=MAX_TOKENS, temperature=0, model=model)
+        except ai.AIUnavailable as e:
+            if str(e) not in ('empty', 'api_error', 'bad_request') or i == len(models) - 1:
+                raise
+            log.warning('checker %s failed (%s) — trying %s', model, e, models[i + 1])
+
+
 def _ask_check(db, user):
     """The independent answer re-solve: a different model when the provider is NVIDIA."""
     if not ai.reserve(db, BOOK_USAGE_ID, config.AI_DAILY_BOOK_SECTIONS):
         raise ai.AIUnavailable('daily_limit')
     try:
         if provider() == 'nvidia':
-            return nvidia.call(CHECK_SYSTEM, user, max_tokens=MAX_TOKENS, temperature=0, model=config.NVIDIA_CHECK_MODEL)
+            return _nvidia_second_opinion(CHECK_SYSTEM, user)
         return ai.call(CHECK_SYSTEM, user, effort='high', max_tokens=MAX_TOKENS)
     except ai.AIUnavailable:
         ai.record_use(db, BOOK_USAGE_ID, -1)
@@ -500,7 +512,7 @@ def _ask_review(db, user):
         raise ai.AIUnavailable('daily_limit')
     try:
         if provider() == 'nvidia':
-            return nvidia.call(REVIEW_SYSTEM, user, max_tokens=MAX_TOKENS, temperature=0, model=config.NVIDIA_CHECK_MODEL)
+            return _nvidia_second_opinion(REVIEW_SYSTEM, user)
         return ai.call(REVIEW_SYSTEM, user, effort='high', max_tokens=MAX_TOKENS)
     except ai.AIUnavailable:
         ai.record_use(db, BOOK_USAGE_ID, -1)
@@ -516,11 +528,16 @@ def review(db, chapter, out=print):
         if PRACTICE.match(name) or not _finished(path):
             continue
         text = path.read_text(encoding='utf-8', errors='replace')
-        issues = _review_issues(_ask_review(db, review_request(name, text)))
-        if not issues:
+        try:
+            issues = _review_issues(_ask_review(db, review_request(name, text)))
+            if not issues:
+                continue
+            out(f'  review {name}: {len(issues)} issue(s): {issues[0][:120]}')
+            new = _clean_output(_ask(db, repair_request(name, text, issues)), name)
+        except ai.AIUnavailable as e:
+            out(f'FAILED review {name}: {e} — the chapter must not be published unreviewed')
+            failed.append(name)
             continue
-        out(f'  review {name}: {len(issues)} issue(s): {issues[0][:120]}')
-        new = _clean_output(_ask(db, repair_request(name, text, issues)), name)
         if (why := _problem(new, name)):
             out(f'REJECTED review fix {name}: {why}')
             failed.append(name)
