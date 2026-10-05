@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 06-10-2026 12:14 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 05-10 11:58 PM
+**आख़िरी update:** 06-10-2026 12:29 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 05-10 11:58 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Pronoun (Graduation English) | 🔎 review हो रहा है | 15 मिनट |
-| W2 | Chapter 03 Adjective (Graduation English) | 🔎 review हो रहा है | 15 मिनट |
-| W3 | Chapter 05 Tense (Graduation English) | 🔎 review हो रहा है | 5 मिनट |
-| W4 | Chapter 06 Adverb (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
+| W1 | Chapter 02 Pronoun (Graduation English) | 🔎 review हो रहा है | 30 मिनट |
+| W2 | Chapter 03 Adjective (Graduation English) | 🔎 review हो रहा है | 30 मिनट |
+| W3 | Chapter 05 Tense (Graduation English) | 🔎 review हो रहा है | 20 मिनट |
+| W4 | Chapter 06 Adverb (Graduation English) | ✍️ लिख रहा है | 30 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,9 +39,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-05-10 23:37:34   [Adverb] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
-05-10 23:38:10   [Preposition] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-05-10 23:40:24   [Tense] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 05-10 23:41:13   [Adverb] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 05-10 23:41:14   [Pronoun] review Short_Tricks_en.txt: 1 issue(s): - Box 11 incorrectly includes "same" in the list "After all, only, superlatives, same → prefer that"; the corr
 05-10 23:44:00   [Adverb] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
@@ -79,4 +76,7 @@
 06-10 00:08:37   [Tense] written 2, failed 0; AI calls today 6/100000
 06-10 00:12:36   [Tense] review Content_en.txt: 2 issue(s): - Invented statistic '~90% of exam questions' in Learning Objectives → Delete the phrase 'that cover ~90% of exam q
 06-10 00:13:30   [Adverb] Practice_en_Set_04.txt try 2: re-solve disagrees (Q81 key c vs re-solve b, Q89 key c vs re-solve a)
+06-10 00:14:59   [Adjective] review Feynman_en.txt: 1 issue(s): - The example "a delicious hot crispy brown Indian masala dosa" labels "masala" as a purpose adjective → "masala" i
+06-10 00:18:02   [Pronoun] FAILED review Content_en.txt: too_long — the chapter must not be published unreviewed
+06-10 00:28:49   [Tense] review Content_hi.txt: 6 issue(s): - "SSC CGL, IBPS PO और PCS में Tense से जुड़े ... हर शिफ्ट में पूछे जाते हैं" एक असत्यापित परीक्षा-आवृत्ति दावा है 
 ```
