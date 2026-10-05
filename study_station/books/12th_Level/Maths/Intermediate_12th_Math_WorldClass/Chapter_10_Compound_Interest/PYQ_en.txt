@@ -1,0 +1,26 @@
+# PYQ Analysis & High-Yield Patterns: Compound Interest
+
+### Pattern 1: Difference Between CI and SI for 2 Years
+**Question:** The difference between compound interest and simple interest on a certain sum for 2 years at 10% per annum is Rs 65. Find the sum.
+- **Analysis:** Using D_2 = P * (R/100)^2: 65 = P * (10/100)^2 = P * (1/100) => P = Rs 6,500.
+- **Source:** SSC CGL Pattern
+
+### Pattern 2: Difference Between CI and SI for 3 Years
+**Question:** On a certain sum, the difference between compound interest and simple interest for 3 years at 5% per annum is Rs 122. Find the principal.
+- **Analysis:** D_3 = [P * R^2 * (300 + R)] / 10^6. Here R = 5, 300 + R = 305. 122 = [P * 25 * 305] / 1000000 = P * 7625 / 1000000 => P = (122 * 1000000) / 7625 = Rs 16,000.
+- **Source:** SSC CGL Pattern
+
+### Pattern 3: Ratio of 3-Year to 2-Year Difference
+**Question:** The ratio of the difference between CI and SI for 3 years to that for 2 years is 19 : 6. Find the rate of interest per annum.
+- **Analysis:** D_3 / D_2 = 3 + R/100. Given 19/6 = 3 + 1/6 = 3 + R/100 => R/100 = 1/6 => R = 100/6 = 16.67%.
+- **Source:** SSC CGL Pattern
+
+### Pattern 4: Power Law for Compounding Multipliers
+**Question:** A sum of money placed at compound interest doubles itself in 5 years. In how many years will it become 8 times itself?
+- **Analysis:** 8 = 2^3. Under compound interest, time required = 3 * 5 = 15 years.
+- **Source:** State PCS Pattern
+
+### Pattern 5: Equal Annual Installments
+**Question:** A loan of Rs 13,360 is to be repaid in two equal annual installments at 8.75% per annum compound interest. Find each installment.
+- **Analysis:** Using present value discounting: P = x/(1+R/100) + x/(1+R/100)^2 gives each installment x.
+- **Source:** IBPS PO Pattern

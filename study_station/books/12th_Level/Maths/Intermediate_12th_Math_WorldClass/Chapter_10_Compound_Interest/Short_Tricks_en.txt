@@ -1,0 +1,32 @@
+# Short Tricks & Mental Hacks: Compound Interest
+
+### Trick 1: The '2 : 1' Fast 2-Year CI Code
+Instead of messy fractions:
+- A = R% of P.
+- B = R% of A.
+- Total CI = 2*A + B.
+- CI - SI difference = B.
+
+### Trick 2: The '3 : 3 : 1' Fast 3-Year CI Code
+- A = R% of P.
+- B = R% of A.
+- C = R% of B.
+- Total CI = 3*A + 3*B + C.
+- CI - SI difference = 3*B + C.
+
+### Trick 3: Instant Rate Recovery from 3-yr / 2-yr Difference Ratio
+When both 3-year difference D_3 and 2-year difference D_2 are given:
+- D_3 / D_2 = 3 + (R / 100).
+- Subtract 3, then multiply remainder by 100 to get R% instantly in 3 seconds!
+
+### Trick 4: The 10% Golden Table
+Memorize effective rates for 10% p.a.:
+- 1 Year: 10%
+- 2 Years: 21%
+- 3 Years: 33.1%
+- 4 Years: 46.41%
+
+### Trick 5: Power Matching for Multiplier Problems
+If a sum doubles in 3 years:
+To become 16 times: 16 = 2^4.
+Multiply the original time by the power: 3 * 4 = 12 years!

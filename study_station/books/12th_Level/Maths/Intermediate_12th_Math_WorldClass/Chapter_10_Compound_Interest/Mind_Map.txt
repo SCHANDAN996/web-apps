@@ -1,0 +1,25 @@
+```mermaid
+graph TD
+    A["Compound Interest Master System<br>चक्रवृद्धि ब्याज संरचना"] --> B["Core Formulations<br>मूल सूत्र"]
+    A --> C["Tree Ratio System<br>पास्कल ट्री प्रणाली"]
+    A --> D["CI vs SI Differences<br>CI एवं SI का अंतर"]
+    A --> E["Multiplicity Scaling<br>गुने के नियम"]
+    A --> F["Equated Installments<br>समान वार्षिक किश्तें"]
+
+    B --> B1["Annual Compounding<br>A = P(1+R/100)^T"]
+    B --> B2["Semi-Annual (Half-yearly)<br>R/2, 2T periods"]
+    B --> B3["Quarterly Compounding<br>R/4, 4T periods"]
+
+    C --> C1["2-Year Code: 2 : 1<br>CI = 2A + B"]
+    C --> C2["3-Year Code: 3 : 3 : 1<br>CI = 3A + 3B + C"]
+    C --> C3["4-Year Code: 4 : 6 : 4 : 1"]
+
+    D --> D1["2-Year Diff: D2 = P(R/100)^2"]
+    D --> D2["3-Year Diff: D3 = P(R/100)^2 * (300+R)/100"]
+    D --> D3["Diff Ratio: D3/D2 = 3 + R/100"]
+
+    E --> E1["Exponential Power Law<br>T yrs -> k, mT yrs -> k^m"]
+    E --> E2["Doubling Rule of 72<br>T ≈ 72 / R"]
+
+    F --> F1["Present Value Discounting<br>P = x/(1+R/100) + x/(1+R/100)^2"]
+```

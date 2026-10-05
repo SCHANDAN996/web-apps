@@ -1,0 +1,64 @@
+# Chapter 10: Compound Interest (Intermediate / 12th Level)
+
+## 1. Fundamentals of Compound Interest
+Compound Interest (CI) is the interest calculated on the initial principal and also on the accumulated interest of previous periods. Often called "interest on interest", it represents exponential monetary growth.
+- **Principal (P):** The initial sum borrowed or invested.
+- **Rate of Interest (R):** The annual rate percent charged.
+- **Time Period (T or n):** The total duration of the investment.
+- **Conversion Frequency (m):** The number of compounding intervals per year.
+  - Annual: m = 1, Rate = R%, Time = T years.
+  - Semi-annual (Half-yearly): m = 2, Rate = R/2%, Time = 2T conversion periods.
+  - Quarterly: m = 4, Rate = R/4%, Time = 4T conversion periods.
+  - Monthly: m = 12, Rate = R/12%, Time = 12T conversion periods.
+- **Master Amount Formula:**
+  A = P * [ 1 + R / (100 * m) ]^(m * T)
+- **Compound Interest:**
+  CI = Amount - Principal = P * [ (1 + R/100)^T - 1 ]
+
+## 2. The Successive Percentage Method
+For two compounding cycles at annual rate r%:
+- Net effective compound rate R_eff = r + r + (r * r) / 100 = 2r + (r^2 / 100)%.
+- For differing successive rates r_1% and r_2%:
+  R_eff = r_1 + r_2 + (r_1 * r_2) / 100 %.
+- For three consecutive years (r_1, r_2, r_3):
+  R_eff = (r_1 + r_2 + r_3) + [ (r_1*r_2 + r_2*r_3 + r_3*r_1) / 100 ] + [ (r_1 * r_2 * r_3) / 10000 ] %.
+
+## 3. The Tree Method (Pascal's Line Method)
+Instead of calculating powers of fractions, resolve interest layer by layer:
+- **2-Year Structure (2 : 1 Ratio):**
+  - First term A = R% of P (earned twice, in year 1 and year 2).
+  - Second term B = R% of A (interest on year 1's interest).
+  - Total CI = 2*A + B.
+  - Total SI = 2*A.
+  - Difference (CI - SI) = B.
+- **3-Year Structure (3 : 3 : 1 Ratio):**
+  - First term A = R% of P.
+  - Second term B = R% of A.
+  - Third term C = R% of B.
+  - Total CI = 3*A + 3*B + C.
+  - Total SI = 3*A.
+  - Difference (CI - SI) for 3 years = 3*B + C.
+
+## 4. Analytical Differences Between CI and SI
+- **2-Year Difference Formula:**
+  D_2 = CI_2 - SI_2 = P * (R / 100)^2 = (P * R^2) / 10000.
+- **3-Year Difference Formula:**
+  D_3 = CI_3 - SI_3 = P * (R / 100)^2 * [ (300 + R) / 100 ] = [ P * R^2 * (300 + R) ] / 10^6.
+- **Ratio of 3-Year to 2-Year Difference:**
+  D_3 / D_2 = (300 + R) / 100 = 3 + (R / 100).
+
+## 5. Multiplicity Rules in Exponential Growth
+Unlike simple interest where principal growth is linear, compound interest scales powers of multipliers:
+- If a capital becomes 'k' times itself in 'T' years:
+  - In 2T years, it amounts to k^2 * P.
+  - In 3T years, it amounts to k^3 * P.
+  - In m*T years, it amounts to k^m * P.
+- **Doubling Rule (Rule of 72):**
+  Approximate doubling time T_double ≈ 72 / R years.
+
+## 6. Equal Annual Installments (EMI under CI)
+When a borrowed debt P is cleared in 'n' equal annual installments of Rs 'x' at R% p.a. compound interest:
+- Each installment's present discounted value equals its contribution to loan discharge:
+  P = [ x / (1 + R/100) ] + [ x / (1 + R/100)^2 ] + ... + [ x / (1 + R/100)^n ]
+- For 2 equal annual installments:
+  P = [ x / (1 + R/100) ] * [ 1 + 1 / (1 + R/100) ]

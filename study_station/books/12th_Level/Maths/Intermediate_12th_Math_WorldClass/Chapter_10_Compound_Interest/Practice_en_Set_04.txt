@@ -1,0 +1,151 @@
+Questions 76–100: Medium
+
+76. (Medium) A sum of money placed at compound interest doubles itself in 4 years. In how many years will it amount to 8 times itself at the same rate?
+(A) 12 years  (B) 16 years  (C) 8 years  (D) 10 years
+Answer: (A) 12 years
+Solution: Under compound interest, growth scales exponentially. Given 2 = (1 + R/100)^4. To become 8 times: 8 = 2^3 = [(1 + R/100)^4]^3 = (1 + R/100)^12. Therefore, required time = 3 * 4 = 12 years. The required value is 12 years. Hence, the correct option is (A).
+Source: SSC CGL Pattern
+
+77. (Medium) A sum of money placed at compound interest triples itself in 3 years. In how many years will it become 27 times itself?
+(A) 12 years  (B) 9 years  (C) 6 years  (D) 15 years
+Answer: (B) 9 years
+Solution: The sum becomes 3 times in 3 years. To become 27 times: 27 = 3^3. Time required = 3 * 3 = 9 years. The required value is 9 years. Hence, the correct option is (B).
+Source: SSC CGL Pattern
+
+78. (Medium) If a sum at compound interest becomes 4 times in 6 years, in how many years will it become 64 times itself?
+(A) 24 years  (B) 12 years  (C) 18 years  (D) 15 years
+Answer: (C) 18 years
+Solution: Multiplier 64 = 4^3. Therefore, time required = 3 * 6 = 18 years. The required value is 18 years. Hence, the correct option is (C).
+Source: SSC CGL Pattern
+
+79. (Medium) A sum of money placed at compound interest doubles itself in 6 years. In how many years will it become 16 times itself?
+(A) 30 years  (B) 18 years  (C) 36 years  (D) 24 years
+Answer: (D) 24 years
+Solution: 16 = 2^4. Multiplying original time by the exponent: Time = 4 * 6 = 24 years. The required value is 24 years. Hence, the correct option is (D).
+Source: SSC CGL Pattern
+
+80. (Medium) Find the compound interest on Rs 12,000 for 2.5 years at 10% per annum, compounded annually.
+(A) Rs 3,246  (B) Rs 3,200  (C) Rs 3,300  (D) Rs 3,180
+Answer: (A) Rs 3,246
+Solution: Amount = 12000 * (1 + 10/100)^2 * [1 + (0.5 * 10)/100] = 12000 * (1.1)^2 * 1.05 = 12000 * 1.21 * 1.05 = 12000 * 1.2705 = Rs 15,246. Compound interest = 15246 - 12000 = Rs 3,246. The required value is Rs 3,246. Hence, the correct option is (A).
+Source: SSC CGL Pattern
+
+81. (Medium) Find the amount on Rs 6,000 for 2.5 years at 10% per annum compound interest compounded annually.
+(A) Rs 7,600  (B) Rs 7,623  (C) Rs 7,650  (D) Rs 7,580
+Answer: (B) Rs 7,623
+Solution: Amount = 6000 * (1 + 10/100)^2 * [1 + (0.5 * 10)/100] = 6000 * 1.21 * 1.05 = 6000 * 1.2705 = Rs 7,623. The required value is Rs 7,623. Hence, the correct option is (B).
+Source: SSC CGL Pattern
+
+82. (Medium) Find the compound interest on Rs 31,250 for 2 years at 12% per annum, compounded every 8 months.
+(A) Rs 8,100  (B) Rs 8,150  (C) Rs 8,116  (D) Rs 8,080
+Answer: (C) Rs 8,116
+Solution: Rate per 8 months = 12 * (8/12) = 8%. Total conversion periods = 24 / 8 = 3. Amount = 31250 * (1 + 8/100)^3 = 31250 * (27/25)^3 = 31250 * (19683 / 15625) = 2 * 19683 = Rs 39,366. Compound interest = 39366 - 31250 = Rs 8,116. The required value is Rs 8,116. Hence, the correct option is (C).
+Source: SSC CGL Pattern
+
+83. (Medium) Find the compound interest on Rs 8,000 for 1 year 3 months at 12% per annum, compounded every 5 months.
+(A) Rs 1,250  (B) Rs 1,280  (C) Rs 1,240  (D) Rs 1,261
+Answer: (D) Rs 1,261
+Solution: Total months = 15 months => Number of 5-month periods = 15 / 5 = 3. Rate for 5 months = 12 * (5/12) = 5%. Amount = 8000 * (1 + 5/100)^3 = 8000 * (21/20)^3 = 8000 * (9261 / 8000) = Rs 9,261. Compound interest = 9261 - 8000 = Rs 1,261. The required value is Rs 1,261. Hence, the correct option is (D).
+Source: SSC CGL Pattern
+
+84. (Medium) A sum of money becomes 8 times itself in 3 years at compound interest. What is the rate of interest per annum?
+(A) 100%  (B) 50%  (C) 75%  (D) 200%
+Answer: (A) 100%
+Solution: A / P = (1 + R/100)^3 => 8 = (1 + R/100)^3. Taking cube root: 2 = 1 + R/100 => R/100 = 1 => R = 100% per annum. The required value is 100%. Hence, the correct option is (A).
+Source: SSC CGL Pattern
+
+85. (Medium) A sum becomes 1.331 times of itself in 3 years at compound interest compounded annually. Find the rate of interest per annum.
+(A) 8%  (B) 10%  (C) 12%  (D) 15%
+Answer: (B) 10%
+Solution: (1 + R/100)^3 = 1.331 = (1.1)^3 => 1 + R/100 = 1.1 => R = 10% per annum. The required value is 10%. Hence, the correct option is (B).
+Source: SSC CGL Pattern
+
+86. (Medium) In how many years will a sum of money approximately double itself at 10% compound interest per annum?
+(A) 6.5 years  (B) 8.0 years  (C) 7.3 years  (D) 7.0 years
+Answer: (C) 7.3 years
+Solution: Using the logarithmic formulation: (1.1)^T = 2 => T * log(1.1) = log(2) => T = 0.30103 / 0.04139 = 7.27 ≈ 7.3 years (or using Rule of 72: 72 / 10 = 7.2 years). The required value is 7.3 years. Hence, the correct option is (C).
+Source: SSC CGL Pattern
+
+87. (Medium) Find the compound interest on Rs 160,000 for 1 year at 20% per annum, compounded quarterly.
+(A) Rs 34,000  (B) Rs 35,200  (C) Rs 33,880  (D) Rs 34,481
+Answer: (D) Rs 34,481
+Solution: Quarterly rate = 20 / 4 = 5%. Conversion periods = 4. Amount = 160000 * (1 + 5/100)^4 = 160000 * (21/20)^4 = 160000 * (194481 / 160000) = Rs 194,481. Compound interest = 194481 - 160000 = Rs 34,481. The required value is Rs 34,481. Hence, the correct option is (D).
+Source: SSC CGL Pattern
+
+88. (Medium) A sum of Rs 4,000 amounts to Rs 6,000 in 3 years at compound interest. What will it amount to in 6 years?
+(A) Rs 9,000  (B) Rs 8,500  (C) Rs 9,500  (D) Rs 10,000
+Answer: (A) Rs 9,000
+Solution: The 3-year growth factor is 6000 / 4000 = 1.5. After another 3 years (total 6 years), Amount = 6000 * 1.5 = Rs 9,000. The required value is Rs 9,000. Hence, the correct option is (A).
+Source: SSC CGL Pattern
+
+89. (Medium) A sum of money becomes 3 times itself in 4 years at compound interest. In how many years will it become 81 times itself?
+(A) 12 years  (B) 16 years  (C) 20 years  (D) 24 years
+Answer: (B) 16 years
+Solution: 81 = 3^4. Multiplying original period by power: 4 * 4 = 16 years. The required value is 16 years. Hence, the correct option is (B).
+Source: SSC CGL Pattern
+
+90. (Medium) A sum invested at compound interest doubles in 5 years. In how many years will it become 32 times itself?
+(A) 20 years  (B) 30 years  (C) 25 years  (D) 35 years
+Answer: (C) 25 years
+Solution: 32 = 2^5. Time required = 5 * 5 = 25 years. The required value is 25 years. Hence, the correct option is (C).
+Source: SSC CGL Pattern
+
+91. (Medium) If a sum becomes 27/8 times itself in 3 years at compound interest, find the rate of interest per annum.
+(A) 40%  (B) 60%  (C) 45%  (D) 50%
+Answer: (D) 50%
+Solution: (1 + R/100)^3 = 27 / 8 = (3 / 2)^3 => 1 + R/100 = 1.5 => R/100 = 0.5 => R = 50% per annum. The required value is 50%. Hence, the correct option is (D).
+Source: SSC CGL Pattern
+
+92. (Medium) If a sum of money amounts to 16/9 times of itself in 2 years at compound interest compounded annually, find the rate of interest per annum.
+(A) 33.33%  (B) 30.00%  (C) 35.00%  (D) 25.00%
+Answer: (A) 33.33%
+Solution: (1 + R/100)^2 = 16 / 9 = (4 / 3)^2 => 1 + R/100 = 4 / 3 => R/100 = 1 / 3 => R = 100 / 3% = 33.33% per annum. The required value is 33.33%. Hence, the correct option is (A).
+Source: SSC CGL Pattern
+
+93. (Medium) Find the compound interest on Rs 8,000 for 9 months at 20% per annum, compounded quarterly.
+(A) Rs 1,200  (B) Rs 1,261  (C) Rs 1,250  (D) Rs 1,300
+Answer: (B) Rs 1,261
+Solution: Quarterly rate = 20 / 4 = 5%. Conversion periods = 9 / 3 = 3 quarters. Amount = 8000 * (1 + 5/100)^3 = 8000 * (21/20)^3 = Rs 9,261. Compound interest = 9261 - 8000 = Rs 1,261. The required value is Rs 1,261. Hence, the correct option is (B).
+Source: SSC CGL Pattern
+
+94. (Medium) Find the compound interest on Rs 25,000 for 1.5 years at 12% per annum, compounded semi-annually.
+(A) Rs 4,750.00  (B) Rs 4,800.00  (C) Rs 4,775.40  (D) Rs 4,720.50
+Answer: (C) Rs 4,775.40
+Solution: Semi-annual rate = 12 / 2 = 6%. Conversion periods = 1.5 * 2 = 3. Amount = 25000 * (1 + 6/100)^3 = 25000 * (1.06)^3 = 25000 * 1.191016 = Rs 29,775.40. Compound interest = 29775.40 - 25000 = Rs 4,775.40. The required value is Rs 4,775.40. Hence, the correct option is (C).
+Source: SSC CGL Pattern
+
+95. (Medium) A sum of Rs 1,000 amounts to Rs 1,102.50 in 2 years at compound interest compounded annually. Find the rate percent per annum.
+(A) 4%  (B) 6%  (C) 4.5%  (D) 5%
+Answer: (D) 5%
+Solution: (1 + R/100)^2 = 1102.50 / 1000 = 1.1025 = (1.05)^2 => 1 + R/100 = 1.05 => R = 5% per annum. The required value is 5%. Hence, the correct option is (D).
+Source: SSC CGL Pattern
+
+96. (Medium) A sum of money placed at compound interest becomes 9 times itself in 2 years. In how many years will it become 27 times itself?
+(A) 3 years  (B) 4 years  (C) 6 years  (D) 2.5 years
+Answer: (A) 3 years
+Solution: (1 + R/100)^2 = 9 = 3^2 => 1 + R/100 = 3 (triples every year). To become 27 times: (1 + R/100)^T = 27 = 3^3 => T = 3 years. The required value is 3 years. Hence, the correct option is (A).
+Source: SSC CGL Pattern
+
+97. (Medium) If a sum of Rs 7,500 amounts to Rs 8,748 in 2 years at compound interest, find the rate of interest per annum.
+(A) 7%  (B) 8%  (C) 9%  (D) 7.5%
+Answer: (B) 8%
+Solution: A / P = 8748 / 7500 = 2916 / 2500 = (54 / 50)^2 = (1.08)^2 => 1 + R/100 = 1.08 => R = 8% per annum. The required value is 8%. Hence, the correct option is (B).
+Source: SSC CGL Pattern
+
+98. (Medium) Find the compound interest on Rs 10,000 at 12% per annum for 2.75 years (2 years 9 months), compounded annually.
+(A) Rs 3,650.00  (B) Rs 3,700.00  (C) Rs 3,672.96  (D) Rs 3,625.50
+Answer: (C) Rs 3,672.96
+Solution: Amount = 10000 * (1 + 12/100)^2 * [1 + (0.75 * 12)/100] = 10000 * (1.12)^2 * (1 + 9/100) = 10000 * 1.2544 * 1.09 = 10000 * 1.367296 = Rs 13,672.96. Compound interest = 13672.96 - 10000 = Rs 3,672.96. The required value is Rs 3,672.96. Hence, the correct option is (C).
+Source: SSC CGL Pattern
+
+99. (Medium) A sum of money amounts to Rs 1,210 in 2 years and to Rs 1,331 in 3 years at compound interest. Find the principal sum.
+(A) Rs 900  (B) Rs 1,100  (C) Rs 950  (D) Rs 1,000
+Answer: (D) Rs 1,000
+Solution: Interest in 3rd year = 1331 - 1210 = Rs 121. Rate R = (121 / 1210) * 100 = 10%. Using Amount at year 2: P * (1 + 10/100)^2 = 1210 => P * 1.21 = 1210 => P = Rs 1,000. The required value is Rs 1,000. Hence, the correct option is (D).
+Source: SSC CGL Pattern
+
+100. (Medium) A sum of money doubles itself in 7 years at compound interest. In how many years will it become 8 times itself?
+(A) 28 years  (B) 21 years  (C) 14 years  (D) 24 years
+Answer: (B) 21 years
+Solution: 8 = 2^3. Time required = 3 * 7 = 21 years. The required value is 21 years. Hence, the correct option is (B).
+Source: SSC CGL Pattern

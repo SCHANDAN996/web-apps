@@ -1,0 +1,49 @@
+# Flashcards: Compound Interest
+
+CARD 1:
+Front: What is the primary difference between Simple Interest and Compound Interest?
+Back: In Simple Interest, principal remains constant. In Compound Interest, interest from previous periods is added to the principal to earn interest in subsequent periods.
+
+CARD 2:
+Front: Write the formula for the difference between CI and SI for 2 years at R% p.a.
+Back: Difference D_2 = P * (R / 100)^2 = (P * R^2) / 10,000.
+
+CARD 3:
+Front: Write the formula for the difference between CI and SI for 3 years at R% p.a.
+Back: Difference D_3 = [ P * R^2 * (300 + R) ] / 10^6.
+
+CARD 4:
+Front: What is the ratio of 3-year CI-SI difference to 2-year CI-SI difference?
+Back: D_3 / D_2 = (300 + R) / 100 = 3 + (R / 100).
+
+CARD 5:
+Front: If interest is compounded half-yearly, how are Rate and Time adjusted?
+Back: Rate is halved (R / 2)% and Time is doubled (2T conversion periods).
+
+CARD 6:
+Front: If interest is compounded quarterly, how are Rate and Time adjusted?
+Back: Rate is divided by 4 (R / 4)% and Time is multiplied by 4 (4T periods).
+
+CARD 7:
+Front: What are the Pascal tree ratios for 2-year and 3-year Compound Interest?
+Back: 2 years: 2 : 1 (CI = 2A + B). 3 years: 3 : 3 : 1 (CI = 3A + 3B + C).
+
+CARD 8:
+Front: If a sum becomes 'k' times in T years at CI, in how many years will it become k^3 times?
+Back: In 3T years (powers of multiplier correspond to multiples of time).
+
+CARD 9:
+Front: What is the effective annual rate for 10% p.a. compounded half-yearly for 1 year?
+Back: Half-yearly rate = 5%. Effective rate = 5 + 5 + (5*5)/100 = 10.25%.
+
+CARD 10:
+Front: What is the Rule of 72?
+Back: An approximation for money doubling time under compound interest: T_double ≈ 72 / R.
+
+CARD 11:
+Front: What is the formula for equal annual installment 'x' to clear debt 'P' in 2 years at R% CI?
+Back: P = [ x / (1 + R/100) ] + [ x / (1 + R/100)^2 ].
+
+CARD 12:
+Front: What is the mnemonic code for 3-year CI calculation?
+Back: 3 : 3 : 1, where A = P*R%, B = A*R%, C = B*R%, giving CI = 3A + 3B + C.

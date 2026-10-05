@@ -1,0 +1,16 @@
+# Important Formulas: Compound Interest
+
+| Formula Name | Formula | Application & Context |
+| :--- | :--- | :--- |
+| Annual Compounding Amount | A = P * (1 + R/100)^T | Annual compounding |
+| Half-Yearly Compounding | A = P * [1 + R/200]^(2T) | Compounded semi-annually |
+| Quarterly Compounding | A = P * [1 + R/400]^(4T) | Compounded quarterly |
+| Effective 2-Year Rate | R_eff = 2R + R^2/100 | Fast percentage calculation |
+| 2-Year CI Tree Ratio | CI = 2A + B | A = P*R%, B = A*R% |
+| 3-Year CI Tree Ratio | CI = 3A + 3B + C | A = P*R%, B = A*R%, C = B*R% |
+| 2-Year (CI - SI) Difference | D_2 = P * (R/100)^2 | Finding P or R from difference |
+| 3-Year (CI - SI) Difference | D_3 = [P * R^2 * (300 + R)] / 10^6 | 3-year difference formula |
+| Difference Ratio (3-yr / 2-yr) | D_3 / D_2 = (300 + R) / 100 | Finding rate R directly |
+| Multiplicity Growth | If k-fold in T yrs => k^m-fold in m*T yrs | Exponential growth period |
+| Fractional Time A | A = P * (1 + R/100)^a * [1 + (b/c * R)/100] | For T = a (b/c) years |
+| 2 Equal CI Installments | P = x/(1 + R/100) + x/(1 + R/100)^2 | Annual EMI under CI |
