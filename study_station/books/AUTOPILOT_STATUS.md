@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 06-10-2026 12:59 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 05-10 11:58 PM
+**आख़िरी update:** 06-10-2026 01:14 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 05-10 11:58 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Pronoun (Graduation English) | 🔎 review हो रहा है | 61 मिनट |
-| W2 | Chapter 03 Adjective (Graduation English) | 🔎 review हो रहा है | 61 मिनट |
-| W3 | Chapter 05 Tense (Graduation English) | 🔎 review हो रहा है | 50 मिनट |
-| W4 | Chapter 06 Adverb (Graduation English) | ✍️ लिख रहा है | 28 मिनट |
+| W1 | Chapter 02 Pronoun (Graduation English) | 🔎 review हो रहा है | 76 मिनट |
+| W2 | Chapter 03 Adjective (Graduation English) | 🔎 review हो रहा है | 10 मिनट |
+| W3 | Chapter 05 Tense (Graduation English) | 🔎 review हो रहा है | 66 मिनट |
+| W4 | Chapter 06 Adverb (Graduation English) | 🔎 review हो रहा है | 13 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -28,8 +28,8 @@
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 0 | 0 | 28 |
 | Graduation Reasoning | 0 | 0 | 30 |
-| Graduation English | 5 | 0 | 25 |
-| **कुल** | **55** | **13** | **228** |
+| Graduation English | 6 | 0 | 24 |
+| **कुल** | **56** | **13** | **227** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -39,22 +39,11 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 06 Adverb (English) — 1 बार
+- Chapter 03 Adjective (English) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-05-10 23:52:39   [Pronoun] review Important_Rules_en.txt: 1 issue(s): - Rule 10 incorrectly adds the condition "when the verb is understood or identical"; the rule is simply tha
-05-10 23:53:50   [Conjunction] wrote Feynman_hi.txt (3301 chars)
-05-10 23:53:57   [Adverb] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-05-10 23:53:57   [Adverb] written 16, failed 2; AI calls today 515/100000
-05-10 23:53:58 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_06_Adverb after 88 min: todo ['Set 04 en: todo', 'Set 04 hi: todo'] problems []
-05-10 23:53:58 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_06_Adverb (TODO: todo 2, problems 0)
-05-10 23:54:05   [Preposition] Practice_hi_Set_05.txt try 1: rejected (Q118:leaked_reasoning)
-05-10 23:54:32   [Conjunction] wrote Mind_Map_en.txt (2762 chars)
-05-10 23:55:03   [Conjunction] wrote Mind_Map_hi.txt (1874 chars)
-05-10 23:56:18   [Conjunction] wrote Flashcards_en.txt (3701 chars)
-05-10 23:56:45   [Preposition] Practice_hi_Set_05.txt try 2: rejected (Q118:leaked_reasoning)
-05-10 23:58:19 autopilot start: 4 workers, reverse=True
 05-10 23:58:19 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_02_Pronoun (OK: todo 0, problems 0)
 05-10 23:58:24 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_03_Adjective (OK: todo 0, problems 0)
 05-10 23:58:29 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_05_Tense (TODO: todo 2, problems 0)
@@ -83,4 +72,16 @@
 06-10 00:51:29   [Pronoun] review Feynman_hi.txt: 1 issue(s): - "कर्ता" का प्रयोग Antecedent के लिए गलत है → Antecedent का अर्थ "पूर्वपद" (वह संज्ञा जिसके लिए सर्वनाम प्रयुक्त ह
 06-10 00:57:17   [Pronoun] FAILED review Feynman_hi.txt: empty — the chapter must not be published unreviewed
 06-10 00:59:19   [Adverb] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+06-10 01:01:39   [Adverb] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+06-10 01:01:39   [Adverb] written 2, failed 0; AI calls today 39/100000
+06-10 01:03:54   [Adjective] review: 4 section(s) corrected, 1 failed
+06-10 01:03:54   [Adjective] written 4, failed 1; AI calls today 43/100000
+06-10 01:03:54 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_03_Adjective after 65 min: todo [] problems []
+06-10 01:03:54 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_03_Adjective (OK: todo 0, problems 0)
+06-10 01:05:17   [Adverb] review Content_en.txt: 3 issue(s): - Active Recall answer in section 1 omits adverb 'forward' → Answer should include: 'forward' modifies the verb 'ma
+06-10 01:06:22   [Tense] FAILED review Mind_Map_hi.txt: network — the chapter must not be published unreviewed
+06-10 01:07:36   [Tense] review Flashcards_en.txt: 1 issue(s): - Card 9: Mnemonic "SLEEP-K" does not match the listed stative verbs (See, Love, Know, Hate, Believe, Own, Under
+06-10 01:10:10   [Adverb] review Content_hi.txt: 2 issue(s): - Invented exam statistic in hook: "आधे से ज़्यादा उम्मीदवारों ने (a) चुना" presented as fact without source → remo
+06-10 01:10:17   [Pronoun] review Short_Tricks_hi.txt: 2 issue(s): - Trick 1 incorrectly labels “than/as” as “Relative” and states they always require objective case → after “th
+06-10 01:13:09   [Tense] review Short_Tricks_hi.txt: 1 issue(s): - Trick 14 states “Before = Perfect” as a fixed rule, but “before” can be used with both Past Simple and Past 
 ```
