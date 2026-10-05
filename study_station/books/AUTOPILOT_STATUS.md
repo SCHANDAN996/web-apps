@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 06-10-2026 04:20 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 02:43 AM
+**आख़िरी update:** 06-10-2026 04:29 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 02:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Narration (Graduation English) | ✍️ लिख रहा है | 75 मिनट |
-| W2 | Chapter 10 Voice (Graduation English) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 13 Synonyms (Graduation English) | ✍️ लिख रहा है | 32 मिनट |
-| W4 | Chapter 12 Sentence Structure (Graduation English) | ✍️ लिख रहा है | 33 मिनट |
+| W1 | Chapter 11 Narration (Graduation English) | ✍️ लिख रहा है | 84 मिनट |
+| W2 | Chapter 14 Antonyms (Graduation English) | ✍️ लिख रहा है | 9 मिनट |
+| W3 | Chapter 13 Synonyms (Graduation English) | ✍️ लिख रहा है | 41 मिनट |
+| W4 | Chapter 12 Sentence Structure (Graduation English) | ✍️ लिख रहा है | 42 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -47,21 +47,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-06-10 03:58:16   [Voice] Practice_en_Set_06.txt try 2: re-solve disagrees (Q142 key b vs re-solve a)
-06-10 03:59:14   [Narration] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-06-10 03:59:16   [Sentence_Structure] wrote Feynman_en.txt (2228 chars)
-06-10 04:00:20   [Sentence_Structure] wrote Feynman_hi.txt (2922 chars)
-06-10 04:00:20   [Synonyms] wrote Flashcards_hi.txt (3856 chars)
-06-10 04:01:34   [Sentence_Structure] wrote Mind_Map_en.txt (1449 chars)
-06-10 04:02:09   [Sentence_Structure] wrote Mind_Map_hi.txt (1518 chars)
-06-10 04:02:14   [Voice] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-06-10 04:02:23   [Synonyms] wrote PYQ_en.txt (6209 chars)
-06-10 04:03:25   [Narration] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-06-10 04:03:42   [Sentence_Structure] wrote Flashcards_en.txt (4716 chars)
-06-10 04:05:20   [Synonyms] wrote PYQ_hi.txt (5664 chars)
-06-10 04:05:24   [Narration] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-06-10 04:05:40   [Sentence_Structure] wrote Flashcards_hi.txt (5012 chars)
-06-10 04:06:48   [Voice] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 06-10 04:06:48   [Voice] written 12, failed 0; AI calls today 423/100000
 06-10 04:07:02   [Sentence_Structure] wrote PYQ_en.txt (6660 chars)
 06-10 04:07:47   [Synonyms] wrote Short_Tricks_en.txt (5976 chars)
@@ -87,4 +72,19 @@
 06-10 04:19:46   [Sentence_Structure] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 06-10 04:20:43   [Voice] review: 4 section(s) corrected, 0 failed
 06-10 04:20:43   [Voice] written 4, failed 0; AI calls today 464/100000
+06-10 04:20:49 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_10_Voice in 77 min → f30abbc
+06-10 04:20:50 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_14_Antonyms (TODO: todo 26, problems 0)
+06-10 04:20:56   [Synonyms] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+06-10 04:21:55   [Narration] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+06-10 04:22:24   [Sentence_Structure] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+06-10 04:22:32   [Synonyms] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+06-10 04:23:09   [Antonyms] wrote Content_en.txt (9874 chars)
+06-10 04:24:43   [Synonyms] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+06-10 04:25:19   [Antonyms] wrote Content_hi.txt (6753 chars)
+06-10 04:25:44   [Sentence_Structure] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+06-10 04:26:05   [Narration] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+06-10 04:26:12   [Synonyms] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+06-10 04:26:27   [Antonyms] wrote Feynman_en.txt (2808 chars)
+06-10 04:27:53   [Synonyms] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+06-10 04:28:01   [Sentence_Structure] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 ```
