@@ -1,0 +1,151 @@
+Questions 126–150: Very Hard
+
+126. (Very Hard) Worker A and Worker B together can complete a work in x days. If Worker A alone takes (x + 18) days and Worker B alone takes (x + 8) days to complete the same work, how many days will Worker A alone take to finish the work?
+(A) 30 days  (B) 20 days  (C) 24 days  (D) 36 days
+Answer: (A) 30 days
+Solution: Using the offset relation x = sqrt(a * b), where a = 18 and b = 8, we have x = sqrt(18 * 8) = sqrt(144) = 12 days. Therefore, the time taken by Worker A alone is x + 18 = 12 + 18 = 30 days. The required value is 30 days. Hence, the correct option is (A).
+Source: SSC CGL Tier-2 Pattern
+
+127. (Very Hard) Worker A and Worker B can complete a work in 24 days and 30 days respectively. They started the work together, but Worker A left 4 days before the completion of the work. For how many total days was the work executed?
+(A) 14 4/9 days  (B) 15 5/9 days  (C) 16 2/9 days  (D) 15 2/9 days
+Answer: (B) 15 5/9 days
+Solution: Total work = LCM(24, 30) = 120 units. Daily efficiencies are E_A = 5 and E_B = 4 units/day. Since Worker A leaves 4 days before completion, add virtual work done by A: 120 + 4 * 5 = 140 units. Total time = 140 / (5 + 4) = 140 / 9 = 15 5/9 days. The required value is 15 5/9 days. Hence, the correct option is (B).
+Source: SSC CGL Tier-2 Pattern
+
+128. (Very Hard) Three workers P, Q, and R can complete a task in 10, 15, and 30 days respectively. P works on all days. Q and R assist P on every third day. In how many days will the entire task be completed?
+(A) 9 days  (B) 7 days  (C) 8 days  (D) 10 days
+Answer: (C) 8 days
+Solution: Total work = LCM(10, 15, 30) = 30 units. Daily efficiencies: E_P = 3, E_Q = 2, E_R = 1. In a 3-day cycle: Day 1 does 3 units, Day 2 does 3 units, Day 3 does 3 + 2 + 1 = 6 units. Total in 3 days = 12 units. In 2 cycles (6 days), work done = 24 units. Remaining work = 30 - 24 = 6 units. On Day 7, P does 3 units (3 units left). On Day 8, P does 3 units, completing the work. Total time taken is 8 days. The required value is 8 days. Hence, the correct option is (C).
+Source: IBPS PO Mains Pattern
+
+129. (Very Hard) A group of 45 men is hired to construct a canal in 60 days. After 30 days, it is observed that only one-third of the canal has been dug. How many additional men must be employed so that the canal is completed on schedule?
+(A) 40 men  (B) 50 men  (C) 60 men  (D) 45 men
+Answer: (D) 45 men
+Solution: Using the chain rule (M1 * D1) / W1 = (M2 * D2) / W2: (45 * 30) / (1/3) = (M2 * 30) / (2/3). Simplifying yields 45 * 3 = M2 * (3/2), which gives M2 = 90 men. Therefore, additional men required = 90 - 45 = 45 men. The required value is 45 men. Hence, the correct option is (D).
+Source: SSC CGL Tier-2 Pattern
+
+130. (Very Hard) 6 men and 8 women can complete a work in 10 days, while 26 men and 48 women can complete the same work in 2 days. In how many days can 15 men and 20 women finish the same work?
+(A) 4 days  (B) 5 days  (C) 6 days  (D) 8 days
+Answer: (A) 4 days
+Solution: Equating total work: 10 * (6M + 8W) = 2 * (26M + 48W) => 60M + 80W = 52M + 96W => 8M = 16W => 1M = 2W. Total work in terms of women = [6(2) + 8] * 10 = 200 woman-days. The target group has 15M + 20W = 15(2) + 20 = 50 women equivalent. Time taken = 200 / 50 = 4 days. The required value is 4 days. Hence, the correct option is (A).
+Source: SSC CGL Tier-2 Pattern
+
+131. (Very Hard) Worker A can complete a work in 16 days, Worker B in 24 days, and Worker C in 32 days. They all begin the work together. Worker A leaves after 4 days and Worker B leaves 3 days before the completion of the work. For how many total days did the work last?
+(A) 14 days  (B) 12 days  (C) 10 days  (D) 15 days
+Answer: (B) 12 days
+Solution: Total work = LCM(16, 24, 32) = 96 units. Daily efficiencies are E_A = 6, E_B = 4, and E_C = 3. Let total duration be T days. Worker A works for 4 days, Worker B works for (T - 3) days, and Worker C works for T days. Equation: 4(6) + 4(T - 3) + 3T = 96 => 24 + 4T - 12 + 3T = 96 => 7T + 12 = 96 => 7T = 84 => T = 12 days. The required value is 12 days. Hence, the correct option is (B).
+Source: CDS Pattern
+
+132. (Very Hard) Two pipes P and Q can fill a cistern in 18 minutes and 24 minutes respectively. Both pipes are opened together. After how many minutes should pipe Q be turned off so that the cistern is completely filled in 12 minutes?
+(A) 6 minutes  (B) 9 minutes  (C) 8 minutes  (D) 10 minutes
+Answer: (C) 8 minutes
+Solution: Total cistern capacity = LCM(18, 24) = 72 units. Inflow rates: E_P = 4 units/min, E_Q = 3 units/min. Since Pipe P remains open for the entire 12 minutes, it fills 12 * 4 = 48 units. The remaining 72 - 48 = 24 units must be filled by Pipe Q. Time Pipe Q must remain open = 24 / 3 = 8 minutes. The required value is 8 minutes. Hence, the correct option is (C).
+Source: IBPS PO Mains Pattern
+
+133. (Very Hard) A can build a wall in 20 days and B can build it in 30 days. However, C is a demolisher who can tear down the entire wall in 60 days. If A and B work on odd days and all three work together on even days, in how many days will the wall be completed?
+(A) 13 1/2 days  (B) 14 days  (C) 12 3/4 days  (D) 13 1/4 days
+Answer: (D) 13 1/4 days
+Solution: Total work = LCM(20, 30, 60) = 60 units. Efficiencies: E_A = 3, E_B = 2, E_C = -1. On odd days, A and B contribute 3 + 2 = 5 units. On even days, all three contribute 3 + 2 - 1 = 4 units. In 2 days (1 cycle), work done = 5 + 4 = 9 units. In 6 full cycles (12 days), work done = 6 * 9 = 54 units. Remaining work = 60 - 54 = 6 units. On Day 13 (odd day), A and B do 5 units, reaching 59 units. Remaining = 1 unit. On Day 14 (even day), rate is 4 units/day, taking 1/4 day. Total time = 13 1/4 days. The required value is 13 1/4 days. Hence, the correct option is (D).
+Source: SSC CGL Tier-2 Pattern
+
+134. (Very Hard) A, B, and C can complete a work in 15, 20, and 30 days respectively. They started the work together. A left after 3 days, and B left 4 days before the completion of the work. If the total payment for the work was Rs. 7,500, what was C's share?
+(A) Rs. 3000  (B) Rs. 2500  (C) Rs. 3200  (D) Rs. 2800
+Answer: (A) Rs. 3000
+Solution: Total work = LCM(15, 20, 30) = 60 units. Efficiencies: E_A = 4, E_B = 3, E_C = 2. Let total duration be T days. A worked 3 days, B worked (T - 4) days, and C worked T days. Equation: 3(4) + 3(T - 4) + 2T = 60 => 12 + 3T - 12 + 2T = 60 => 5T = 60 => T = 12 days. Work done by C = 12 * 2 = 24 units out of 60. Therefore, C's wage share = (24 / 60) * 7500 = Rs. 3000. The required value is Rs. 3000. Hence, the correct option is (A).
+Source: SSC CGL Tier-2 Pattern
+
+135. (Very Hard) A piece of work can be completed by 10 men and 15 women in 6 days. One man takes 100 days to finish the work alone. In how many days can one woman alone finish the entire work?
+(A) 200 days  (B) 225 days  (C) 240 days  (D) 250 days
+Answer: (B) 225 days
+Solution: Work done by 1 man in 1 day = 1/100. Work done by 10 men in 1 day = 10 * (1/100) = 1/10. Combined daily work of 10 men and 15 women = 1/6. Daily work of 15 women = 1/6 - 1/10 = 2/30 = 1/15. Therefore, daily work of 1 woman = (1/15) / 15 = 1/225. Hence, 1 woman alone takes 225 days. The required value is 225 days. Hence, the correct option is (B).
+Source: CDS Pattern
+
+136. (Very Hard) A can complete a work in 36 days and B in 45 days. They work on alternate days starting with A on the first day. On which day and by whom will the work be completed?
+(A) 41st day by A  (B) 39th day by A  (C) 40th day by B  (D) 40th day by A
+Answer: (C) 40th day by B
+Solution: Total work = LCM(36, 45) = 180 units. Daily efficiencies: E_A = 5, E_B = 4. In 1 two-day cycle, work done = 5 + 4 = 9 units. Number of complete cycles = 180 / 9 = 20 cycles. Total time = 20 * 2 = 40 days. Since Day 40 is the second day of the 20th cycle, the work is completed on the 40th day by Worker B. The required value is 40th day by B. Hence, the correct option is (C).
+Source: State PCS Pattern
+
+137. (Very Hard) Three pipes P, Q, and R have diameters in the ratio 1 : 2 : 4. The rate of water flow through each pipe is directly proportional to the square of its diameter. If the largest pipe alone can fill an empty reservoir in 16 minutes, in how many minutes will all three pipes together fill the reservoir?
+(A) 11 5/21 minutes  (B) 13 2/21 minutes  (C) 12 8/21 minutes  (D) 12 4/21 minutes
+Answer: (D) 12 4/21 minutes
+Solution: Since flow rate is proportional to the square of diameter, the flow rate ratio of P, Q, and R is 1^2 : 2^2 : 4^2 = 1 : 4 : 16. The capacity of the reservoir is 16 * 16 = 256 units. Combined flow rate = 1 + 4 + 16 = 21 units/min. Time taken together = 256 / 21 = 12 4/21 minutes. The required value is 12 4/21 minutes. Hence, the correct option is (D).
+Source: SSC CGL Tier-2 Pattern
+
+138. (Very Hard) A and B working together can complete a project in 40 days. They work together for 30 days, after which B leaves. A completes the remaining work in the next 20 days. In how many days can A alone complete the entire project from scratch?
+(A) 80 days  (B) 75 days  (C) 90 days  (D) 70 days
+Answer: (A) 80 days
+Solution: In 30 days, A and B complete 30 / 40 = 3/4 of the project. Remaining work = 1 - 3/4 = 1/4. A finishes this 1/4 work in 20 days. Therefore, the time taken by Worker A alone to complete the entire work is 20 * 4 = 80 days. The required value is 80 days. Hence, the correct option is (A).
+Source: SSC CGL Tier-2 Pattern
+
+139. (Very Hard) A contractor employs 60 men to build a bridge in 50 days, working 8 hours a day. After 30 days, only 2/5 of the bridge is completed. If the contractor now employs 40 additional men and increases the working hours to 9 hours a day, how many days will the remaining work take?
+(A) 20 days  (B) 24 days  (C) 22 days  (D) 25 days
+Answer: (B) 24 days
+Solution: Using the chain rule (M1 * D1 * H1) / W1 = (M2 * D2 * H2) / W2: (60 * 30 * 8) / (2/5) = (100 * D2 * 9) / (3/5) => 14400 / 2 = 900 D2 / 3 => 7200 = 300 D2 => D2 = 24 days. The required value is 24 days. Hence, the correct option is (B).
+Source: IBPS PO Mains Pattern
+
+140. (Very Hard) A can do a piece of work in 12 days and B in 15 days. They work together for 4 days, then A leaves. B continues working, and C joins B. Together B and C finish the remaining work in 4 more days. In how many days can C alone complete the entire work?
+(A) 25 days  (B) 35 days  (C) 30 days  (D) 28 days
+Answer: (C) 30 days
+Solution: Total work = LCM(12, 15) = 60 units. Efficiencies: E_A = 5, E_B = 4 units/day. In the first 4 days, work done = 4 * (5 + 4) = 36 units. Remaining work = 60 - 36 = 24 units. In the next 4 days, B contributes 4 * 4 = 16 units, leaving 24 - 16 = 8 units done by C. Thus, daily efficiency of C = 8 / 4 = 2 units/day. Time taken by C alone = 60 / 2 = 30 days. The required value is 30 days. Hence, the correct option is (C).
+Source: SSC CGL Tier-2 Pattern
+
+141. (Very Hard) A leak in the bottom of a cistern can empty the full tank in 8 hours. An inlet pipe fills water at the rate of 6 liters per minute. When the tank is full and the inlet pipe is opened, the leak empties the tank in 12 hours. What is the capacity of the cistern?
+(A) 7200 liters  (B) 8400 liters  (C) 9000 liters  (D) 8640 liters
+Answer: (D) 8640 liters
+Solution: Leak rate alone = 1/8 per hour. Net emptying rate = 1/12 per hour. Therefore, inlet filling rate = 1/8 - 1/12 = 1/24 of the tank per hour. The inlet pipe would fill the entire tank in 24 hours. The inlet flow rate is 6 liters/min * 60 = 360 liters/hour. Total cistern capacity = 360 * 24 = 8,640 liters. The required value is 8640 liters. Hence, the correct option is (D).
+Source: SSC CGL Tier-2 Pattern
+
+142. (Very Hard) 12 men can complete a project in 18 days. 6 days after they started working, 4 men left and 2 children joined. If each child is half as efficient as a man, in how many more days will the remaining work be finished?
+(A) 16 days  (B) 15 days  (C) 18 days  (D) 14 days
+Answer: (A) 16 days
+Solution: Total work = 12 * 18 = 216 man-days. Work done in 6 days = 12 * 6 = 72 man-days. Remaining work = 216 - 72 = 144 man-days. New team consists of 8 men + 2 children. Since 1 child = 0.5 man, team strength = 8 + 1 = 9 men equivalent. More days required = 144 / 9 = 16 days. The required value is 16 days. Hence, the correct option is (A).
+Source: IBPS PO Mains Pattern
+
+143. (Very Hard) Worker A is 25% more efficient than Worker B, and Worker B is 20% more efficient than Worker C. If Worker A and Worker C together can finish a piece of work in 15 days, in how many days can Worker B alone finish the entire work?
+(A) 30 1/2 days  (B) 31 1/4 days  (C) 32 days  (D) 33 1/3 days
+Answer: (B) 31 1/4 days
+Solution: Let E_C = 100. Then E_B = 120 and E_A = 120 * 1.25 = 150. Ratio E_A : E_B : E_C = 15 : 12 : 10. Combined efficiency of A and C = 15 + 10 = 25 units/day. Total work = 25 * 15 = 375 units. Time taken by B alone = 375 / 12 = 31.25 = 31 1/4 days. The required value is 31 1/4 days. Hence, the correct option is (B).
+Source: SSC CGL Tier-2 Pattern
+
+144. (Very Hard) A cistern can be filled by two pipes A and B in 15 hours and 20 hours respectively, while a third pipe C can empty it in 25 hours. All three pipes are opened together initially. After 10 hours, pipe C is closed. In how much total time will the cistern be completely filled?
+(A) 11.5 hours  (B) 13 hours  (C) 12 hours  (D) 12.5 hours
+Answer: (C) 12 hours
+Solution: Total cistern capacity = LCM(15, 20, 25) = 300 units. Inflow rates: E_A = 20, E_B = 15, E_C = -12. When all three are open, net rate = 20 + 15 - 12 = 23 units/hour. In 10 hours, volume filled = 10 * 23 = 230 units. Remaining volume = 300 - 230 = 70 units. When pipe C is closed, filling rate of A and B = 20 + 15 = 35 units/hour. Time for remaining volume = 70 / 35 = 2 hours. Total time taken = 10 + 2 = 12 hours. The required value is 12 hours. Hence, the correct option is (C).
+Source: CDS Pattern
+
+145. (Very Hard) 8 men or 12 women or 16 children can reap a field in 26 days. In how many days can a field double in size be reaped by 6 men, 9 women, and 4 children working together?
+(A) 28 4/7 days  (B) 30 2/7 days  (C) 29 2/7 days  (D) 29 5/7 days
+Answer: (D) 29 5/7 days
+Solution: Equating: 8M = 12W = 16C => M : W : C = 6 : 4 : 3. Single field work = 8 * 6 * 26 = 1248 units. Double field work = 2 * 1248 = 2496 units. New team daily output = 6(6) + 9(4) + 4(3) = 36 + 36 + 12 = 84 units/day. Time required = 2496 / 84 = 208 / 7 = 29 5/7 days. The required value is 29 5/7 days. Hence, the correct option is (D).
+Source: SSC CGL Tier-2 Pattern
+
+146. (Very Hard) A can complete a work in 30 days. He works alone for 5 days and is then joined by B. Together they work for 10 more days, completing 70% of the entire work. How many days would B alone take to complete the entire work?
+(A) 50 days  (B) 45 days  (C) 60 days  (D) 40 days
+Answer: (A) 50 days
+Solution: Let total work = 100 units. Daily efficiency of A = 100 / 30 = 10/3 units/day. Total days worked by A = 5 + 10 = 15 days. Work done by A = 15 * (10/3) = 50 units. Total work completed = 70 units. Therefore, work done by B in 10 days = 70 - 50 = 20 units. Daily efficiency of B = 20 / 10 = 2 units/day. Time taken by B alone = 100 / 2 = 50 days. The required value is 50 days. Hence, the correct option is (A).
+Source: State PCS Pattern
+
+147. (Very Hard) Two workers P and Q can do a job in 20 days and 30 days respectively. They started the job together, but after some days Worker P fell sick and operated at only 50% of his normal efficiency for the remainder of the job. If the whole job was completed in 15 days, for how many initial days did Worker P work at his normal efficiency?
+(A) 6 days  (B) 5 days  (C) 4 days  (D) 7 days
+Answer: (B) 5 days
+Solution: Total work = LCM(20, 30) = 60 units. Efficiencies: E_P = 3, E_Q = 2. Q worked for all 15 days, doing 15 * 2 = 30 units. The remaining 60 - 30 = 30 units were done by P. Let P work at full efficiency for d days and at 1.5 units/day for (15 - d) days. Equation: 3d + 1.5(15 - d) = 30 => 1.5d + 22.5 = 30 => 1.5d = 7.5 => d = 5 days. The required value is 5 days. Hence, the correct option is (B).
+Source: SSC CGL Tier-2 Pattern
+
+148. (Very Hard) A water tank has three taps: Tap A fills it in 4 hours, Tap B fills it in 6 hours, and Tap C empties it in 12 hours. If Tap A is opened at 7:00 AM, Tap B at 8:00 AM, and Tap C at 9:00 AM, at what time will the tank be completely filled?
+(A) 10:30 AM  (B) 9:45 AM  (C) 10:00 AM  (D) 11:00 AM
+Answer: (C) 10:00 AM
+Solution: Capacity = LCM(4, 6, 12) = 12 units. Flow rates: E_A = 3, E_B = 2, E_C = -1. From 7 to 8 AM, Tap A fills 3 units. From 8 to 9 AM, Taps A and B fill 3 + 2 = 5 units. Total filled by 9:00 AM = 3 + 5 = 8 units. Remaining capacity = 12 - 8 = 4 units. After 9:00 AM, net filling rate = 3 + 2 - 1 = 4 units/hour. Time to fill remainder = 4 / 4 = 1 hour. The tank fills completely at 10:00 AM. The required value is 10:00 AM. Hence, the correct option is (C).
+Source: IBPS PO Mains Pattern
+
+149. (Very Hard) A can do a piece of work in 14 days and B in 21 days. They begin together, but 3 days before the completion of the work, A leaves. What is the ratio of the work done by A to the work done by B?
+(A) 17 : 18  (B) 9 : 8  (C) 3 : 2  (D) 18 : 17
+Answer: (D) 18 : 17
+Solution: Total work = LCM(14, 21) = 42 units. Efficiencies: E_A = 3, E_B = 2. Virtual work added for A = 3 * 3 = 9 units. Total virtual work = 42 + 9 = 51 units. Total duration = 51 / 5 = 10.2 days. Work done by B = 10.2 * 2 = 20.4 units. Work done by A = 42 - 20.4 = 21.6 units. Ratio of work done A : B = 21.6 : 20.4 = 216 : 204 = 18 : 17. The required value is 18 : 17. Hence, the correct option is (D).
+Source: SSC CGL Tier-2 Pattern
+
+150. (Very Hard) A and B together can finish a work in 30 days. They worked together for 20 days and then B left. After another 20 days, A finished the remaining work. In how many days can A alone finish the whole work?
+(A) 50 days  (B) 60 days  (C) 70 days  (D) 80 days
+Answer: (B) 60 days
+Solution: In 20 days, A and B complete 20 / 30 = 2/3 of the work. Remaining work = 1 - 2/3 = 1/3. Worker A completes this 1/3 work in 20 days. Therefore, the time taken by Worker A alone to complete the entire work is 20 * 3 = 60 days. The required value is 60 days. Hence, the correct option is (B).
+Source: SSC CGL Tier-2 Pattern

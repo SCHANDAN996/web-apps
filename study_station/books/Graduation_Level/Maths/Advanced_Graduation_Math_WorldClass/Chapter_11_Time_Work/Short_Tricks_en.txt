@@ -1,0 +1,30 @@
+# Exam Short Tricks: Time & Work
+
+## Trick 1: The Offset Square Root Formula
+When A alone takes $a$ days more than $(A + B)$ together, and B alone takes $b$ days more than $(A + B)$ together:
+$$T_{A+B} = \sqrt{a \cdot b}$$
+- **Example:** A takes 8 days more than A+B together, B takes 18 days more than A+B together.
+  $$T_{A+B} = \sqrt{8 \cdot 18} = \sqrt{144} = 12 \text{ days}$$
+  Time for A alone = $12 + 8 = 20$ days; Time for B alone = $12 + 18 = 30$ days.
+
+---
+
+## Trick 2: The 'Leaving Before Completion' Hack
+When someone leaves $k$ days BEFORE scheduled completion, DO NOT form linear equations with $(T - k)$.
+Instead, add their prospective work to the total work and divide by combined efficiency:
+$$T = \frac{\text{Total Work} + k \cdot E_{\text{departing}}}{\sum E}$$
+
+---
+
+## Trick 3: Efficiency Percentage to Time Ratio
+If A is $p\%$ more efficient than B:
+$$E_A : E_B = (100 + p) : 100$$
+$$T_A : T_B = 100 : (100 + p)$$
+- **Example:** A is 60% more efficient than B.
+  $$E_A : E_B = 160 : 100 = 8 : 5 \implies T_A : T_B = 5 : 8$$
+
+---
+
+## Trick 4: Fast Equivalence for Men and Women ('OR' to 'AND')
+If $m$ men OR $w$ women take $D$ days to complete a work, then $m_1$ men AND $w_1$ women take:
+$$T = \frac{D}{\frac{m_1}{m} + \frac{w_1}{w}} \text{ days}$$

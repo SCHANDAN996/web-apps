@@ -1,0 +1,28 @@
+```mermaid
+graph TD
+    A["Time & Work"] --> B["Core Principles"]
+    A --> C["LCM Method"]
+    A --> D["Dynamic Participation"]
+    A --> E["Alternate Days"]
+    A --> F["Chain Rule"]
+    A --> G["Wages Division"]
+
+    B --> B1["Work = Efficiency x Time"]
+    B --> B2["Efficiency inversely proportional to Time"]
+
+    C --> C1["Total Work = LCM of Days"]
+    C --> C2["Individual Efficiency = Work / Days"]
+    C --> C3["Combined Time = Work / Sum of Efficiencies"]
+
+    D --> D1["Leaving After t Days: Subtract Work Done"]
+    D --> D2["Leaving k Days Before End: Add Virtual Work"]
+
+    E --> E1["Identify Cycle Days and Cycle Work"]
+    E --> E2["Compute Quotient Cycles and Residual Work"]
+
+    F --> F1["M1 D1 H1 E1 / W1 = M2 D2 H2 E2 / W2"]
+    F --> F2["Men Women Equivalence via Ratio"]
+
+    G --> G1["Equal Days: Ratio of Efficiencies"]
+    G --> G2["Unequal Days: Ratio of Actual Work"]
+```

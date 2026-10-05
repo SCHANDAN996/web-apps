@@ -1,0 +1,99 @@
+# Chapter 11: Time & Work (Comprehensive Graduation Level Foundation)
+
+## 1. Fundamentals of Time, Work, and Efficiency
+Time and Work problems are central to quantitative aptitude examinations at the graduation level (SSC CGL Tier-2, IBPS PO, CDS, State PCS). The subject is governed by the universal conservation of work:
+$$\text{Work Done} = \text{Efficiency} \times \text{Time}$$
+
+### Core Definitions:
+- **Total Work (W):** The complete quantum of physical task, standardized either as 1 complete unit or as an integer multiple of units (LCM of individual time periods).
+- **Time (T):** The duration (in days, hours, or minutes) required to execute the assigned work.
+- **Efficiency (E):** The rate at which work is executed per unit time (units of work completed per day/hour).
+  $$\text{Efficiency} = \frac{\text{Work}}{\text{Time}}$$
+- **Inverse Proportionality:** When the total work is constant, Efficiency and Time are inversely proportional:
+  $$E_1 \cdot T_1 = E_2 \cdot T_2 \implies \frac{E_1}{E_2} = \frac{T_2}{T_1}$$
+
+---
+
+## 2. The LCM Method (Unitary Efficiency Paradigm)
+Instead of operating with cumbersome fractions ($1/a + 1/b$), the LCM method converts fractional rates into whole numbers.
+
+### Step-by-Step LCM Protocol:
+1. **Determine Total Work:** Find the Least Common Multiple (LCM) of the days taken by each individual worker.
+   $$\text{Total Work (units)} = \text{LCM}(D_A, D_B, D_C)$$
+2. **Compute Daily Efficiency:**
+   $$E_A = \frac{\text{Total Work}}{D_A}, \quad E_B = \frac{\text{Total Work}}{D_B}, \quad E_C = \frac{\text{Total Work}}{D_C}$$
+3. **Find Combined Efficiency:**
+   $$E_{\text{combined}} = E_A + E_B + E_C$$
+4. **Compute Combined Time:**
+   $$T_{\text{combined}} = \frac{\text{Total Work}}{E_{\text{combined}}}$$
+
+### Two-Worker Direct Formula:
+If Worker A takes $x$ days and Worker B takes $y$ days:
+$$T_{A+B} = \frac{x \cdot y}{x + y} \text{ days}$$
+
+---
+
+## 3. Dynamic Participation: Leaving and Joining
+In competitive exams, workers often join or depart before completion.
+
+### Case A: Leaving After Working for 'n' Days
+- Work done together in $n$ days = $n \times (E_A + E_B)$.
+- Remaining work = $\text{Total Work} - n \times (E_A + E_B)$.
+- Time taken by the remaining worker to complete = $\frac{\text{Remaining Work}}{E_{\text{remaining}}}$.
+
+### Case B: Leaving 'k' Days BEFORE Scheduled Completion (The Forward Addition Hack)
+When worker A leaves $k$ days before completion, worker B works alone for the final $k$ days.
+- **Standard Method:** Let total days be $T$. Then $(T - k)(E_A + E_B) + k(E_B) = W$.
+- **Fast Exam Hack:** Pretend worker A did NOT leave! Force worker A to work those $k$ extra days.
+  $$\text{Augmented Work} = \text{Total Work} + (k \times E_A)$$
+  $$\text{Total Time} = \frac{\text{Total Work} + k \cdot E_A}{E_A + E_B}$$
+This avoids algebra and yields the total duration in a single step.
+
+---
+
+## 4. Alternate Days Work Cycles
+When workers operate on alternating days (e.g., A on Day 1, B on Day 2):
+1. **Identify the Cycle Duration and Cycle Work:**
+   $$\text{1 Cycle} = 2 \text{ days}, \quad W_{\text{cycle}} = E_A + E_B$$
+2. **Determine Complete Cycles:**
+   $$\text{Number of full cycles } q = \left\lfloor \frac{\text{Total Work}}{W_{\text{cycle}}} \right\rfloor$$
+   $$\text{Work completed} = q \times W_{\text{cycle}}, \quad \text{Days elapsed} = q \times (\text{days per cycle})$$
+3. **Handle Residual Work:**
+   $$\text{Residual Work} = \text{Total Work} - (q \times W_{\text{cycle}})$$
+   Assign the remaining work sequentially to whoever's turn begins the next cycle.
+
+---
+
+## 5. Group Work and the Chain Rule (M-D-H-E Formula)
+For heterogeneous workgroups (men, women, children, machines) under varying schedules:
+$$\frac{M_1 \cdot D_1 \cdot H_1 \cdot E_1}{W_1} = \frac{M_2 \cdot D_2 \cdot H_2 \cdot E_2}{W_2}$$
+Where:
+- $M$: Number of workers
+- $D$: Number of working days
+- $H$: Daily working hours
+- $E$: Efficiency factor of each worker
+- $W$: Quantity of work accomplished or wages earned
+
+### Equivalence Problems ('OR' vs 'AND'):
+If $m$ men OR $w$ women OR $b$ boys can do a work in $D$ days:
+$$m \cdot M = w \cdot W = b \cdot B$$
+Establish individual efficiency ratios:
+$$M : W : B = \frac{1}{m} : \frac{1}{w} : \frac{1}{b}$$
+Then substitute into the mixed team ('AND' group).
+
+---
+
+## 6. Wages and Remuneration Distribution
+- **Equal Working Duration:** When all workers are engaged for the exact same number of days, wages are distributed strictly in proportion to their **efficiencies**:
+  $$\text{Wage}_A : \text{Wage}_B = E_A : E_B$$
+- **Unequal Working Duration:** When workers work for different numbers of days, wages are distributed strictly in proportion to the **actual quantum of work performed**:
+  $$\text{Wage}_A : \text{Wage}_B = (E_A \cdot T_A) : (E_B \cdot T_B)$$
+
+---
+
+## 7. Advanced Algebraic Work Relations
+### The Classic Square Root Offset Shortcut:
+If A and B together take $x$ days to complete a work, while A alone takes $(x + a)$ days and B alone takes $(x + b)$ days:
+$$x = \sqrt{a \cdot b}$$
+- Time for A alone = $\sqrt{ab} + a$
+- Time for B alone = $\sqrt{ab} + b$

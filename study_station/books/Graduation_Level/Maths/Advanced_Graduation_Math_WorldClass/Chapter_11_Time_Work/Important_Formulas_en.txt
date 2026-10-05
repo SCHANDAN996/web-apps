@@ -1,0 +1,28 @@
+# Important Formulas: Time & Work
+
+## 1. Fundamental Relations
+- $\text{Work} = \text{Efficiency} \times \text{Time}$
+- $\text{Efficiency} = \frac{\text{Work}}{\text{Time}}$
+- $\text{Time} = \frac{\text{Work}}{\text{Efficiency}}$
+- $E_1 : E_2 = T_2 : T_1$ (when total work is constant)
+
+## 2. Combined Work Formulas
+- Two workers A and B:
+  $$T_{A+B} = \frac{x \cdot y}{x + y}$$
+- Three workers A, B, and C:
+  $$T_{A+B+C} = \frac{x \cdot y \cdot z}{xy + yz + zx}$$
+
+## 3. Offset Square Root Formula
+If A takes $(x + a)$ days and B takes $(x + b)$ days, while together they take $x$ days:
+$$x = \sqrt{a \cdot b}$$
+
+## 4. Chain Rule (Compound Proportion)
+$$\frac{M_1 \cdot D_1 \cdot H_1 \cdot E_1}{W_1} = \frac{M_2 \cdot D_2 \cdot H_2 \cdot E_2}{W_2}$$
+
+## 5. Work Leaving Before Completion Shortcut
+If worker A leaves $k$ days before scheduled completion:
+$$T_{\text{total}} = \frac{W_{\text{original}} + k \cdot E_A}{E_A + E_B}$$
+
+## 6. Remuneration Rules
+- Constant working days: $\text{Wage}_A : \text{Wage}_B = E_A : E_B$
+- Variable working days: $\text{Wage}_A : \text{Wage}_B = (E_A \cdot T_A) : (E_B \cdot T_B)$

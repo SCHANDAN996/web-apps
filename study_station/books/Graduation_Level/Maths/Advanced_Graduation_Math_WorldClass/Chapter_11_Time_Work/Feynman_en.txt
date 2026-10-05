@@ -1,0 +1,28 @@
+# The Feynman Technique: Time & Work
+
+## The Bricklaying Wall Analogy
+Imagine you have to build a brick wall. Instead of thinking of "1 complete job" as an abstract fraction like 1/10 or 1/15, imagine the wall contains a specific count of bricks.
+
+### Why LCM is Pure Genius
+Suppose Alice can build the wall in 10 days and Bob can build the same wall in 15 days.
+What is the common multiple of 10 and 15? It is 30 bricks!
+Now look at what each person does every day:
+- Alice lays $30 / 10 = 3$ bricks per day.
+- Bob lays $30 / 15 = 2$ bricks per day.
+Notice that the fractions vanished completely.
+
+When Alice and Bob work side by side:
+- Together they lay $3 + 2 = 5$ bricks every single day.
+- To build the entire 30-brick wall, they need $30 / 5 = 6$ days!
+
+## The Departure Illusion: Leaving Before Completion
+What happens if Alice leaves 2 days before the wall is finished?
+Beginners set up complex algebraic equations with $(T - 2)$.
+Consider the intuitive approach:
+If Alice had NOT left, how many extra bricks would she have added in those 2 days?
+Alice lays 3 bricks a day, so in 2 days she would lay $2 \times 3 = 6$ extra bricks.
+Imagine making the wall 6 bricks taller!
+Total bricks = $30 + 6 = 36$ bricks.
+Now both Alice and Bob work together for the whole time laying 5 bricks a day:
+$$\text{Total Days} = \frac{36}{5} = 7.2 \text{ days}$$
+By simply adding the virtual bricks Alice would have laid, the entire problem solves in one line without algebra.
