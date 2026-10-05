@@ -1,0 +1,45 @@
+```mermaid
+graph TD
+    A["Verb<br>The Action / State Word"] --> B["Types of Verbs"]
+    A --> C["Subject-Verb Agreement"]
+    A --> D["Tenses & Time"]
+    A --> E["Voice & Mood"]
+    A --> F["Examiner's Traps"]
+    A --> G["Strategies"]
+
+    B --> B1["Main Verb<br>Lexical: run, eat, think"]
+    B --> B2["Auxiliary / Helping Verb<br>be, do, have, modals"]
+    B --> B3["Transitive<br>needs object: She reads a book"]
+    B --> B4["Intransitive<br>no object: He sleeps"]
+    B --> B5["Finite vs Non-Finite<br>Infinitive / Gerund / Participle"]
+    B --> B6["Linking Verb<br>is, seem, become + complement"]
+
+    C --> C1["Singular Subject → Singular Verb"]
+    C --> C2["Intervening Phrase Trap<br>The quality of apples IS good"]
+    C --> C3["Each / Every / Everyone → Singular"]
+    C --> C4["Collective Nouns<br>team, jury, committee"]
+    C --> C5["Neither...nor / Either...or<br>Verb agrees with NEARER subject"]
+    C --> C6["Many a / A number of vs The number of"]
+
+    D --> D1["Present / Past / Future"]
+    D --> D2["Simple / Continuous<br>Perfect / Perfect Continuous"]
+    D --> D3["Sequence of Tenses<br>He said that he WAS tired"]
+    D --> D4["Since + point of time<br>For + period of time"]
+    D --> D5["Stative Verbs<br>know, believe, love → no -ing"]
+
+    E --> E1["Active → Passive<br>Object becomes subject"]
+    E --> E2["Only Transitive verbs → Passive"]
+    E --> E3["Mood: Indicative / Imperative / Subjunctive"]
+    E --> E4["Subjunctive: If I WERE you<br>I wish he WERE here"]
+
+    F --> F1["Intervening Phrase Trap<br>ignore words between subject & verb"]
+    F --> F2["Sound-Right Trap<br>There's many reasons ❌ → There ARE"]
+    F --> F3["Collective Noun Trap<br>The team ARE ❌ (as one unit)"]
+    F --> F4["Over-thinking Trap<br>Simple rule, don't invent exceptions"]
+    F --> F5["Hindi Bridge Trap<br>What you are doing? ❌<br>What ARE you doing? ✔"]
+
+    G --> G1["15-Second Rule<br>Fact-based: spot subject → match verb"]
+    G --> G2["45-Second Rule<br>Inference: tense sequence, tone, context"]
+    G --> G3["Strip the Sentence<br>remove phrases, find true subject"]
+    G --> G4["Mnemonic: PAVES<br>Person-Agreement-Voice-Exception-Subjunctive"]
+```
