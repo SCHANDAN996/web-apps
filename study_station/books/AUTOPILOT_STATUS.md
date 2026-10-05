@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 05-10-2026 10:03 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 05-10 09:32 PM
+**आख़िरी update:** 05-10-2026 10:04 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 05-10 09:32 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Noun (Graduation English) | 🔎 review हो रहा है | 14 मिनट |
-| W2 | Chapter 02 Pronoun (Graduation English) | ✍️ लिख रहा है | 30 मिनट |
-| W3 | Chapter 03 Adjective (Graduation English) | ✍️ लिख रहा है | 30 मिनट |
-| W4 | Chapter 05 Tense (Graduation English) | ✍️ लिख रहा है | 18 मिनट |
+| W1 | Chapter 01 Noun (Graduation English) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 02 Pronoun (Graduation English) | ✍️ लिख रहा है | 32 मिनट |
+| W3 | Chapter 03 Adjective (Graduation English) | ✍️ लिख रहा है | 32 मिनट |
+| W4 | Chapter 05 Tense (Graduation English) | ✍️ लिख रहा है | 19 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -33,34 +33,12 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 05-10 22:04 — Graduation English · Chapter 01 Noun
 - 05-10 21:44 — Graduation English · Chapter 04 Verb
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-05-10 21:44:59   [Verb] File "/home/user/web-apps/study_station/v2/app/bookgen.py", line 640, in main
-05-10 21:44:59   [Verb] written, failed = review(db, chapter)
-05-10 21:44:59   [Verb] ^^^^^^^^^^^^^^^^^^^
-05-10 21:44:59   [Verb] File "/home/user/web-apps/study_station/v2/app/bookgen.py", line 519, in review
-05-10 21:44:59   [Verb] issues = _review_issues(_ask_review(db, review_request(name, text)))
-05-10 21:44:59   [Verb] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-05-10 21:44:59   [Verb] File "/home/user/web-apps/study_station/v2/app/bookgen.py", line 503, in _ask_review
-05-10 21:44:59   [Verb] return nvidia.call(REVIEW_SYSTEM, user, max_tokens=MAX_TOKENS, temperature=0, model=config.NVIDIA_CHECK_MODEL)
-05-10 21:44:59   [Verb] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-05-10 21:44:59   [Verb] File "/home/user/web-apps/study_station/v2/app/nvidia.py", line 29, in call
-05-10 21:44:59   [Verb] return _call_once(system, user, max_tokens, temperature, model)
-05-10 21:44:59   [Verb] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-05-10 21:44:59   [Verb] File "/home/user/web-apps/study_station/v2/app/nvidia.py", line 82, in _call_once
-05-10 21:44:59   [Verb] raise AIUnavailable('empty')
-05-10 21:44:59   [Verb] app.ai.AIUnavailable: empty
-05-10 21:45:05 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_04_Verb in 13 min → a151d95
-05-10 21:45:05 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_05_Tense (TODO: todo 26, problems 0)
-05-10 21:45:27   [Pronoun] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-05-10 21:46:36   [Tense] wrote Content_en.txt (7122 chars)
-05-10 21:47:44   [Adjective] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-05-10 21:48:05   [Pronoun] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-05-10 21:48:10   [Noun] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-05-10 21:48:10   [Noun] written 2, failed 0; AI calls today 315/100000
 05-10 21:48:53   [Noun] repaired Mind_Map_hi.txt (2118 chars)
 05-10 21:48:53   [Noun] written 1, failed 0; AI calls today 316/100000
 05-10 21:49:08   [Tense] wrote Content_hi.txt (8350 chars)
@@ -78,4 +56,27 @@
 05-10 21:59:41   [Tense] wrote Short_Tricks_en.txt (7916 chars)
 05-10 22:00:59   [Tense] wrote Short_Tricks_hi.txt (7353 chars)
 05-10 22:02:29   [Tense] wrote Important_Rules_en.txt (5694 chars)
+05-10 22:03:42   [Tense] wrote Important_Rules_hi.txt (5045 chars)
+05-10 22:04:02   [Adjective] Practice_en_Set_06.txt try 1: re-solve disagrees (Q148 key a vs re-solve b)
+05-10 22:04:44   [Noun] Traceback (most recent call last):
+05-10 22:04:44   [Noun] File "<frozen runpy>", line 198, in _run_module_as_main
+05-10 22:04:44   [Noun] File "<frozen runpy>", line 88, in _run_code
+05-10 22:04:44   [Noun] File "/home/user/web-apps/study_station/v2/app/bookgen.py", line 654, in <module>
+05-10 22:04:44   [Noun] sys.exit(main())
+05-10 22:04:44   [Noun] ^^^^^^
+05-10 22:04:44   [Noun] File "/home/user/web-apps/study_station/v2/app/bookgen.py", line 640, in main
+05-10 22:04:44   [Noun] written, failed = review(db, chapter)
+05-10 22:04:44   [Noun] ^^^^^^^^^^^^^^^^^^^
+05-10 22:04:44   [Noun] File "/home/user/web-apps/study_station/v2/app/bookgen.py", line 519, in review
+05-10 22:04:44   [Noun] issues = _review_issues(_ask_review(db, review_request(name, text)))
+05-10 22:04:44   [Noun] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+05-10 22:04:44   [Noun] File "/home/user/web-apps/study_station/v2/app/bookgen.py", line 503, in _ask_review
+05-10 22:04:44   [Noun] return nvidia.call(REVIEW_SYSTEM, user, max_tokens=MAX_TOKENS, temperature=0, model=config.NVIDIA_CHECK_MODEL)
+05-10 22:04:44   [Noun] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+05-10 22:04:44   [Noun] File "/home/user/web-apps/study_station/v2/app/nvidia.py", line 29, in call
+05-10 22:04:44   [Noun] return _call_once(system, user, max_tokens, temperature, model)
+05-10 22:04:44   [Noun] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+05-10 22:04:44   [Noun] File "/home/user/web-apps/study_station/v2/app/nvidia.py", line 82, in _call_once
+05-10 22:04:44   [Noun] raise AIUnavailable('empty')
+05-10 22:04:44   [Noun] app.ai.AIUnavailable: empty
 ```
