@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 06-10-2026 03:05 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 02:43 AM
+**आख़िरी update:** 06-10-2026 03:14 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 02:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 05 Tense (Graduation English) | 📤 push हो रहा है | 0 मिनट |
-| W2 | Chapter 10 Voice (Graduation English) | ✍️ लिख रहा है | 1 मिनट |
-| W3 | Chapter 08 Conjunction (Graduation English) | ✍️ लिख रहा है | 21 मिनट |
-| W4 | Chapter 09 Articles (Graduation English) | ✍️ लिख रहा है | 21 मिनट |
+| W1 | Chapter 11 Narration (Graduation English) | ✍️ लिख रहा है | 8 मिनट |
+| W2 | Chapter 10 Voice (Graduation English) | ✍️ लिख रहा है | 10 मिनट |
+| W3 | Chapter 08 Conjunction (Graduation English) | ✍️ लिख रहा है | 6 मिनट |
+| W4 | Chapter 09 Articles (Graduation English) | ✍️ लिख रहा है | 30 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -41,27 +41,13 @@
 - 05-10 22:04 — Graduation English · Chapter 01 Noun
 - 05-10 21:44 — Graduation English · Chapter 04 Verb
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 08 Conjunction (English) — 1 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-06-10 02:35:09   [Preposition] written 9, failed 0; AI calls today 237/100000
-06-10 02:36:14   [Conjunction] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-06-10 02:37:37   [Preposition] review Content_en.txt: 2 issue(s): - In the Linguistic Bridge table, the Hindi sentence "कमरा दस कुर्सियों से बना है" (The room is made of ten chairs)
-06-10 02:37:47   [Articles] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-06-10 02:40:12   [Articles] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-06-10 02:41:35   [Voice] wrote Important_Rules_hi.txt (5695 chars)
-06-10 02:41:54   [Preposition] review Content_hi.txt: 2 issue(s): - In section 5, the example "He is working here since 2019" is incorrectly marked as correct (✅); "since" with a po
-06-10 02:42:06   [Conjunction] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-06-10 02:42:48   [Articles] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-06-10 02:43:15 autopilot start: 4 workers, reverse=True
-06-10 02:43:15 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_05_Tense (FIX: todo 0, problems 2)
-06-10 02:43:20 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_07_Preposition (FIX: todo 0, problems 1)
-06-10 02:43:25 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_08_Conjunction (TODO: todo 5, problems 0)
-06-10 02:43:30 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_09_Articles (TODO: todo 8, problems 0)
-06-10 02:45:03   [Tense] re-translated set 04 (Hindi only)
-06-10 02:46:27   [Preposition] re-translated set 05 (Hindi only)
-06-10 02:46:28   [Preposition] written 1, failed 0; AI calls today 255/100000
-06-10 02:47:27   [Conjunction] Practice_en_Set_02.txt try 1: rejected (Q32:leaked_reasoning)
 06-10 02:47:42   [Preposition] review Content_hi.txt: 2 issue(s): - The rule distinguishing Until as only a conjunction and Till as only a preposition is incorrect; both words can f
 06-10 02:47:46   [Articles] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 06-10 02:48:37   [Tense] re-translated set 05 (Hindi only)
@@ -84,4 +70,22 @@
 06-10 03:05:15   [Tense] review: 1 section(s) corrected, 0 failed
 06-10 03:05:15   [Tense] written 1, failed 0; AI calls today 300/100000
 06-10 03:05:19   [Conjunction] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+06-10 03:05:22 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_05_Tense in 22 min → 7fa7e5e
+06-10 03:05:22 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_11_Narration (TODO: todo 26, problems 0)
+06-10 03:06:51   [Voice] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+06-10 03:06:54   [Narration] wrote Content_en.txt (7789 chars)
+06-10 03:07:32   [Conjunction] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+06-10 03:07:32   [Conjunction] written 3, failed 2; AI calls today 305/100000
+06-10 03:07:32 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_08_Conjunction after 24 min: todo ['Set 02 en: todo', 'Set 02 hi: todo'] problems []
+06-10 03:07:33 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_08_Conjunction (TODO: todo 2, problems 0)
+06-10 03:09:17   [Narration] wrote Content_hi.txt (9649 chars)
+06-10 03:09:18   [Articles] FAILED Practice_hi_Set_05.txt: empty
+06-10 03:09:48   [Voice] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+06-10 03:10:21   [Narration] wrote Feynman_en.txt (4503 chars)
+06-10 03:11:19   [Conjunction] Practice_en_Set_02.txt try 1: re-solve disagrees (Q50 key a vs re-solve c)
+06-10 03:11:24   [Narration] wrote Feynman_hi.txt (2893 chars)
+06-10 03:12:06   [Narration] wrote Mind_Map_en.txt (2296 chars)
+06-10 03:13:00   [Articles] Practice_en_Set_06.txt try 1: re-solve disagrees (Q149 key b vs re-solve a)
+06-10 03:13:17   [Voice] Practice_en_Set_02.txt try 1: re-solve disagrees (Q50 key d vs re-solve a)
+06-10 03:13:37   [Narration] wrote Mind_Map_hi.txt (2091 chars)
 ```
