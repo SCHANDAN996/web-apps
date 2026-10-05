@@ -1,63 +1,26 @@
-Diagram
-Code
-Download
-Fullscreen
-Mathematical Operations
-Types
-Core Rules
-Time Management
-Mnemonics
-Examiner's Traps
-Quick Tips
-Symbol Substitution
-Equation Balancing
-Double-Relation Coding
-Hybrid Problems
-RDB Rule
-BODMAS Adherence
-Option Testing
-Mapping forDouble-Relation
-First 5 seconds
-15-Second Rule
-45-Second Rule
-RDB: Replace DecodeBODMAS
-"SIGN बदलो, BALANCE ढूँढो"
-> vs ≥
-& $ @
-Double-relation hybrid
-Always write transformedexpression
-Remove masks beforeBODMAS
-Cross-check mappingbefore solving
-Slow reading of definitions
-+ - × ÷ meanings swapped
-Replace all symbols first
-Apply BODMAS
-Given equation
-Which two signs to swap?
-Test each option
-Symbols for &gt; &lt; =
-Translate toinequalities/equalities
-Evaluate truth ofstatements
-Mixed withFamily/Direction
-Separate mapping required
-Stepwise decoding
-Replace
-Decode
-BODMAS
-Mnemonic: "रोहन की दादीबनाती हैं"
-Always unless forbidden
-Bracket → Order →Division → Multiplication→ Addition → Subtraction
-Works on actual operationsafter replacement
-For sign interchange
-Swap only given pair
-Check LHS = RHS quickly
-Write full chain
-Never guess partial
-Classify problem type
-Substitution / Interchange/ Double-Relation / Hybrid
-Pattern not clear → Skipand mark
-After 2-3 options tested, ifstuck → Move on
-For sign interchangeproblems
-Misinterpret "one morethan" etc.
-Mixing math withfamily/direction
-Students forget mapping
+# Mind Map: Mathematical Operations
+
+```mermaid
+graph TD
+    Root["Mathematical Operations"] --> Types["Problem Categories"]
+    Root --> CoreRules["Core Rules"]
+    Root --> Strategy["Strategy & Time Management"]
+    Root --> Traps["Examiner Traps"]
+
+    Types --> T1["Symbol Substitution<br/>(+, -, x, / swapped)"]
+    Types --> T2["Equation Balancing<br/>(Sign Interchange)"]
+    Types --> T3["Relational Coding<br/>(>, <, = as letters)"]
+    Types --> T4["Custom Operations<br/>(a * b = a² + b)"]
+
+    CoreRules --> RDB["RDB Framework<br/>Replace -> Decode -> BODMAS"]
+    CoreRules --> BODMAS["BODMAS Hierarchy<br/>Brackets -> Div/Mult -> Add/Sub"]
+    CoreRules --> Signs["Pure Substitution<br/>Never compute while replacing"]
+
+    Strategy --> S1["Option Elimination<br/>Test Division Compatibility"]
+    Strategy --> S2["15-Second Rule<br/>Write full expression before solving"]
+    Strategy --> S3["45-Second Cap<br/>Skip if 2+ option checks fail"]
+
+    Traps --> P1["Incomplete Substitution<br/>Mixing old and new signs"]
+    Traps --> P2["Left-to-Right Bias<br/>Ignoring operator precedence"]
+    Traps --> P3["Fractional Confusion<br/>Rounding division too early"]
+```

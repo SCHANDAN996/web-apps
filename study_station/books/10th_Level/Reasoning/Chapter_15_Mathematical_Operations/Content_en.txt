@@ -1,79 +1,66 @@
-📖 Content | गणितीय संक्रियाएँ / Mathematical Operations
+# Chapter 15: Mathematical Operations
 
-🎯 इस अध्याय में आप क्या सीखेंगे
+## What You Will Learn in This Chapter
+- Core principles of Mathematical Operations and Symbol Substitution
+- Equation Balancing, Sign Interchange, and accurate application of the BODMAS rule
+- Detecting the logical flow in tricky expressions to double your problem-solving speed
+- Spotting the examiner's favorite psychological traps to answer with total confidence
 
-Mathematical Operations के मूल सिद्धांत और Symbol Substitution की समझ
+## 1. Introduction: The Exam Hall Hook
+Imagine sitting in the exam hall as the timer ticks down. On your screen appears a question:
+*If '+' means '-', '-' means 'x', 'x' means '/', and '/' means '+', then what is the value of: 24 / 8 x 2 - 5 + 3 = ?*
 
-Equation Balancing, Interchange of Signs और BODMAS का सही प्रयोग
+Your mind spins for a brief second. While the symbols appear simple, speed and precision decide who wins the race. The secret is simple: never perform math on disguise symbols. First strip away the disguise, then let standard BODMAS take over.
 
-ट्रिकी सवालों में Logical Flow पकड़ना और Speed बढ़ाना
+## 2. The Core Logic: Change the Symbols, Not the Rules of Mathematics
+In Verbal Reasoning, the real challenge is that the symbols represent custom operations, but the fundamental axioms of mathematics remain unchanged. Your three-step blueprint:
+1. Read the given substitution rules methodically.
+2. Replace each coded sign with its real arithmetic operator on scratch paper.
+3. Apply standard BODMAS strictly to the rewritten expression.
 
-परीक्षक के पसंदीदा जालों की पहचान कर आत्मविश्वास से सही उत्तर देना
+### Active Recall Check 1
+Without looking ahead: If '+' means '-' and '-' means '+', what is 12 + 7 - 4?
+*(Hint: Rewrite as 12 - 7 + 4 = 5 + 4 = 9. Excellent!)*
 
-⚡ शुरुआत एक धमाकेदार Hook से
+## 3. The BODMAS Hierarchy: Your Unshakable Foundation
+Unless a question explicitly states "do not apply BODMAS", always follow the order:
+- **B**: Brackets first ( ), { }, [ ]
+- **O**: Orders / Powers / Roots
+- **D**: Division (left to right)
+- **M**: Multiplication (left to right)
+- **A**: Addition
+- **S**: Subtraction
 
-कल्पना कीजिए, परीक्षा हॉल में घड़ी की सुइयाँ तेज़ भाग रही हैं और आपके सामने एक सवाल है:
-*यदि ‘+’ का अर्थ ‘–’, ‘–’ का अर्थ ‘×’, ‘×’ का अर्थ ‘÷’ और ‘÷’ का अर्थ ‘+’ हो, तो 15 ÷ 5 × 3 – 2 + 6 = ?*
+### Active Recall Check 2
+In the expression `20 - 8 / 2 + 3`, if `/` means `+` and `+` means `/`, what is the very first step?
+*(Answer: First rewrite as `20 - 8 + 2 / 3`, then apply division before addition or subtraction.)*
 
-आपका दिमाग एक पल के लिए घूम जाता है — ये + – × ÷ का खेल सीधा-सादा लगता है, लेकिन यहीं रेस जीती-हारी जाती है। घबराइए नहीं, यह चैप्टर आपको वो ‘गणितीय चश्मा’ देगा जिससे हर सवाल क्रिस्टल क्लियर दिखेगा।
+## 4. Sign Interchange Problems: The Balancing Act
+In sign interchange problems, you are given an incorrect equation and four option pairs of signs (e.g., "+" and "x", "-" and "/"). Your mission is to find which swap balances the equation:
+- **Strategy: Reverse Engineering via Options.**
+  Instead of guessing blindly, test the options systematically. Look at the division sign first: if a division results in a fraction that cannot be simplified to match the RHS integer, eliminate that option immediately!
+- **Mnemonic:** "Swap the Sign, Balance the Line!"
 
-🤔 आम Struggle — इसे स्वीकार करें, फिर इसे तोड़ें
+### Active Recall Check 3
+If `18 x 2 + 4 - 5 = 21` needs to be corrected, which two signs should be tested first?
+*(Testing options where multiplication is reduced or division is introduced brings the large value closer to 21.)*
 
-लगभग हर स्टूडेंट ये बोलता है: “Concept तो समझ आ गया, लेकिन Exam में Sign बदलते-बदलते confusion हो जाती है।” या फिर “BODMAS तो आता है, पर जब एक ही Sign के दो-दो मतलब निकलने लगते हैं तो दिमाग ब्लैंक हो जाता है।”
-यकीन मानिए, यह कमज़ोरी नहीं — सिर्फ एक छोटा-सा तरीका गायब है, जो आपको अब मिलने वाला है।
+## 5. Double-Relation & Inequality Coding
+In some questions, letters represent relational operators:
+- 'P' denotes 'greater than' (>)
+- 'Q' denotes 'equal to' (=)
+- 'R' denotes 'less than' (<)
+Convert each option into a clear mathematical inequality chain, then evaluate its mathematical truth.
 
-🧩 Chunk 1: The Core Logic — Rule of ‘मान बदलो, इरादा नहीं’
+## Chapter Summary Table
+| Concept | Key Action | Pro Tip |
+| :--- | :--- | :--- |
+| **Symbol Substitution** | Replace all symbols first, then apply BODMAS | Never calculate while substituting |
+| **Sign Interchange** | Swap the given pair in options; verify LHS = RHS | Check division compatibility first |
+| **Relational Coding** | Convert symbols to >, <, =; check truth value | Beware of strict vs non-strict inequalities |
+| **BODMAS Rule** | Brackets -> Division/Multiplication -> Addition/Subtraction | Left-to-right priority |
 
-Mathematical Operations के Verbal Reasoning सवालों में असली खेल Symbols की Value (अर्थ) बदलने का होता है, न कि Mathematics के नियम बदलने का। आपका काम है:
-
-दिए गए Code को ठीक-ठीक पढ़ना
-
-BODMAS को उसकी असली पहचान में ही apply करना
-
-Signs को Replace करके पूरी Expression को दोबारा लिखना — mentally, या rough work पर
-
-🧠 Active Recall Prompt: बिना आगे देखे बताइए — “If ‘+’ means ‘–’, ‘–’ means ‘+’, then 8 + 5 – 3 = ?” आपका क्विक आंसर क्या आया? (Hint: Replace करने के बाद यह बनेगा 8 – 5 + 3, फिर BODMAS लगाइए।) अगर सही है, तो बेहतरीन!
-
-🧩 Chunk 2: BODMAS — आपका हमेशा का साथी
-
-जब तक सवाल में साफ़-साफ़ न कहा गया हो “BODMAS लागू नहीं करना,” तब तक Bracket, Order, Division, Multiplication, Addition, Subtraction का Hierarchy कभी मत छोड़िए। खासकर जब Multiple Operators एक साथ हों।
-
-🧠 Active Recall Prompt: सोचिए, “16 – 4 ÷ 2 + 1” को यदि ÷ का मतलब + और + का मतलब ÷ कर दिया जाए, तो सबसे पहला कदम क्या होगा?
-(पहला कदम: पूरी expression को नए symbols में बदलें → 16 – 4 + 2 ÷ 1, फिर BODMAS से हल करें।)
-
-🧩 Chunk 3: ‘Sign Interchange’ वाले प्रश्न — Balancing Act
-
-इस type में आपको सही Option चुनना होता है जिससे Equation सही बने। यहाँ आपका हथियार है:
-Reverse Engineering with Options. हर विकल्प में बताए गए दो Signs को आपस में बदलकर देखें, कौन-सी Equation संतुलित हो रही है। आँख मूँदकर solve करने की बजाय option-testing से समय बचाएँ।
-
-Mnemonic Trick: “SIGN बदलो, BALANCE ढूँढो”
-Signs को interchange करने से पहले एक बार ज़ोर से बोलें — “SIGN बदलो, BALANCE ढूँढो” — ताकि दिमाग Option-checking mode में आ जाए।
-
-🧠 Active Recall Prompt: यदि 15 × 3 + 6 – 2 = 25 को सही करना हो, तो आप सबसे पहले किस दो चिह्नों की अदला-बदली आज़माएँगे? (Hint: × और –, या + और ×; option देखकर decide करें।)
-
-🧩 Chunk 4: डबल-लिंक वाले प्रश्न — जाल बिछाने की तैयारी
-
-कभी-कभी सवाल कहता है:
-‘P’ means ‘greater than’, ‘Q’ means ‘equal to’, ‘R’ means ‘less than’...
-इस case में एक ही Expression को पहले गणितीय कथन में बदलें, फिर देखें कि True/False क्या है। परीक्षक यहाँ कई Option में लगभग सही दिखने वाले संबंध डालते हैं; आपको हर शब्द पढ़ना है।
-
-📋 Chapter Summary Table
-Concept	Key Action
-Symbol Substitution	Code के अनुसार हर sign बदलें, फिर BODMAS लगाएँ
-Sign Interchange	Option में बताए दो signs swap करें, equation check करें
-Double Relation (>, <, =)	पहले mathematical form में लिखें, फिर सत्यता परखें
-BODMAS	कभी ignore न करें (जब तक मना न हो)
-🔁 Review this after 2 days
-
-आज जो समझा, वह शानदार है, पर दिमाग इसे तभी lock करेगा जब दो दिन बाद ये key points एक बार पलटेंगे। अभी के लिए नीचे दिए गए Trap को पढ़कर आज का सेशन खत्म करें।
-
-⚠️ Caution: Examiner’s Trap
-
-एक Expression, दो संभावित रिश्ते
-परीक्षक ऐसे विकल्प देते हैं जहाँ मामूली अंतर हो — जैसे ‘A > B’ और ‘A ≥ B’। आप बिना सोचे-समझे mark न करें; पूरी chain लिखकर check करें।
-
-भारी-भरकम भाषा का भ्रम
-*If ‘&’ denotes ‘one more than’ and ‘’ denotes ‘half of’…* — ऐसी definitions में आप जल्दबाज़ी में ‘&’ को ‘+1’ और ‘’ को ‘÷2’ गलत interpret कर सकते हैं। हर शब्द का अर्थ सुबह की चाय की तरह clear होना चाहिए।
-
-दोहरे संबंध और दिशा बदलने वाले नियम
-“यदि ‘P # Q’ का अर्थ ‘P, Q का पिता है’ … तो ‘A + B’ क्या दर्शाता है?” — कई बार mathematical operation को family या direction से जोड़कर hybrid सवाल पूछे जाते हैं। सिर्फ गणित के चक्कर में मत पड़िए; पहले mapping define कीजिए।
+## Examiner's Traps & Pitfalls
+1. **The Incomplete Replacement Trap:** Replacing some symbols while forgetting others mid-equation. Always rewrite the full expression.
+2. **The Fractional Division Trap:** Forgetting that division takes precedence over multiplication, leading to erroneous integer rounding.
+3. **The Left-to-Right Blindness:** Treating all operations in left-to-right reading order instead of following BODMAS precedence.
