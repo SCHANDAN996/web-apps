@@ -1,0 +1,70 @@
+# Chapter 08: Profit & Loss (Comprehensive Graduation Level Foundation)
+
+## 1. Fundamental Concepts & Terminology
+- **Cost Price (CP):** The total expenditure incurred to acquire or produce a good. It includes the purchase price plus all overhead charges (transportation, labor, packaging, repairs, taxes).
+- **Selling Price (SP):** The actual price at which a commodity is disposed of or sold to a buyer.
+- **Marked Price (MP) / List Price:** The printed or advertised price on the label of an article, from which discounts are deducted.
+- **Profit (Gain):** When SP > CP, Profit = SP - CP.
+- **Loss:** When CP > SP, Loss = CP - SP.
+- **Profit Percentage:** Profit % = (Profit / CP) * 100.
+- **Loss Percentage:** Loss % = (Loss / CP) * 100.
+*Key Principle:* Unless explicitly stated otherwise, profit percentage and loss percentage are always calculated strictly on the Cost Price (CP).
+
+## 2. Margin on Selling Price vs. Profit on Cost Price
+In commercial accounting and advanced competitive problems:
+- **Profit on CP (p):** Profit = p * CP.
+- **Margin on SP (m):** Margin = m * SP.
+- Since SP = CP + Profit = CP(1 + p), the margin on SP is:
+  m = Profit / SP = (p * CP) / [CP(1 + p)] = p / (1 + p).
+- Conversely, if margin on SP is m, profit on CP is:
+  p = m / (1 - m).
+  *Example:* A 25% profit on CP (p = 1/4) corresponds to a 20% margin on SP (m = 1/5).
+
+## 3. The Unified Relationship: CP, MP, Discount, and Profit
+Discounts are always allowed on the Marked Price (MP).
+- Discount = MP - SP => SP = MP * (1 - D / 100).
+- Since SP is also equal to CP * (1 + P / 100):
+  MP * (100 - D) / 100 = CP * (100 + P) / 100
+- **The Golden Ratio Formula:**
+  MP / CP = (100 + Profit %) / (100 - Discount %)
+  If there is a loss of L%:
+  MP / CP = (100 - Loss %) / (100 - Discount %)
+
+## 4. Successive Discounts and Equivalent Single Discount
+When discounts d_1%, d_2%, d_3% are applied successively:
+- Multiplier approach: SP = MP * (1 - d_1 / 100) * (1 - d_2 / 100) * (1 - d_3 / 100).
+- **Two Successive Discounts:**
+  Equivalent Discount D_eq = d_1 + d_2 - (d_1 * d_2) / 100.
+- **Three Successive Discounts:**
+  Compute equivalent of first two, then combine with the third.
+
+## 5. Promotional Scheme: "Buy X, Get Y Free"
+In promotional retail offers:
+- Total articles handed over to customer = X + Y.
+- Articles paid for by customer = X.
+- Effective Discount % = [Articles given Free / Total Articles Given] * 100
+  Effective Discount % = [Y / (X + Y)] * 100.
+  *Example:* "Buy 4, Get 1 Free" gives an effective discount of [1 / (4 + 1)] * 100 = 20%.
+
+## 6. Dishonest Dealer & Faulty Weight Framework
+A dishonest merchant may cheat during procurement (buying), distribution (selling), or through markup:
+- **Case 1: Sells at Cost Price using false weight:**
+  Delivers W_false grams instead of W_true grams.
+  Cost incurred by merchant is for W_false grams; Revenue collected is for W_true grams.
+  Gain % = [(True Weight - False Weight) / False Weight] * 100 = [Error / (True Weight - Error)] * 100.
+- **Case 2: Markup coupled with False Weight and Discount:**
+  Use the successive multiplying factor method:
+  Overall Multiplier M = (1 + Markup %) * (True Weight / False Weight) * (1 - Discount %).
+  Overall Profit % = (M - 1) * 100.
+
+## 7. Two Articles Sold at the Same Selling Price (SP_1 = SP_2)
+- **Symmetric Case (One at +x% profit, other at -x% loss):**
+  There is ALWAYS an overall net loss.
+  Overall Net Loss % = (x / 10)^2 % = (x^2 / 100) %.
+- **Asymmetric Case (One at +p% profit, other at -l% loss):**
+  Overall Gain or Loss % = [ 100(p - l) - 2pl ] / [ (100 + p) + (100 - l) ].
+
+## 8. Alligation Method for Mixed Sales
+When a trader sells part of his stock at a profit of p_1% and the remaining part at p_2% (or loss -l_2%), realizing an overall profit of p_m%:
+- The ratio of the cost prices of the two parts is obtained by alligation:
+  CP_1 : CP_2 = |p_2 - p_m| : |p_m - p_1|.

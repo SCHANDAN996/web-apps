@@ -1,0 +1,44 @@
+# Important Formulas: Profit & Loss (Graduation Level)
+
+## 1. Basic Equations
+- Profit = SP - CP (when SP > CP)
+- Loss = CP - SP (when CP > SP)
+- Profit % = (Profit / CP) * 100
+- Loss % = (Loss / CP) * 100
+- SP = CP * [(100 + P%) / 100] = CP * [(100 - L%) / 100]
+- CP = SP * [100 / (100 + P%)] = SP * [100 / (100 - L%)]
+
+## 2. Margin Conversion (Cost Price vs. Selling Price)
+- Profit on CP (p) to Margin on SP (m): m = p / (1 + p)
+- Margin on SP (m) to Profit on CP (p): p = m / (1 - m)
+
+## 3. Marked Price & Discount Relationships
+- Discount = MP - SP
+- Discount % = (Discount / MP) * 100
+- SP = MP * [(100 - D%) / 100]
+- MP = SP * [100 / (100 - D%)]
+- Golden Formula: MP / CP = (100 + P%) / (100 - D%)
+- Markup % over CP = [(P% + D%) / (100 - D%)] * 100
+
+## 4. Successive Discounts
+- Two Discounts: D_eq = d_1 + d_2 - (d_1 * d_2) / 100
+- Three Discounts: SP = MP * (1 - d_1/100) * (1 - d_2/100) * (1 - d_3/100)
+
+## 5. Free Schemes ("Buy X, Get Y Free")
+- Effective Discount % = [Y / (X + Y)] * 100
+- If an additional discount of d% is offered on the remaining paid items:
+  Net SP Factor = [X / (X + Y)] * (1 - d/100)
+
+## 6. Dishonest Dealer Formulas
+- Faulty Weight only (at CP): Gain % = [Error / (True Weight - Error)] * 100
+- General Multiplier: Overall Factor = (1 + Markup%) * (True Measure / False Measure) * (1 - Discount%)
+- Net Profit % = (Overall Factor - 1) * 100
+
+## 7. Equal Selling Price Transactions (SP_1 = SP_2)
+- Same percentage profit and loss (p = l = x): Net Loss % = (x / 10)^2 % = (x^2 / 100) %
+- Different percentages (profit p%, loss l%):
+  Net % = [ 100(p - l) - 2pl ] / [ (100 + p) + (100 - l) ]
+
+## 8. Equating Quantities
+- If CP of x articles = SP of y articles:
+  SP / CP = x / y => Profit % = [(x - y) / y] * 100 (Profit if x > y; Loss if x < y)

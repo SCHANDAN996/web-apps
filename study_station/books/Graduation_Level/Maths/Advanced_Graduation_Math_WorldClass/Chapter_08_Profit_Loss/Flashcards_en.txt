@@ -1,0 +1,31 @@
+# Flashcards: Profit & Loss (Graduation Level)
+
+Q1: What is the fundamental formula linking Cost Price, Marked Price, Profit %, and Discount %?
+A1: MP / CP = (100 + Profit %) / (100 - Discount %). If there is a loss of L%, replace (100 + Profit %) with (100 - Loss %).
+
+Q2: What is the equivalent single discount for two successive discounts of a% and b%?
+A2: D_equivalent = [a + b - (a * b) / 100] %.
+
+Q3: When two articles are sold at the same selling price, one at a profit of x% and the other at a loss of x%, what is the net outcome?
+A3: There is always a net loss of (x / 10)^2 % or (x^2 / 100) %.
+
+Q4: If a dishonest trader claims to sell goods at CP but uses a weight of 800 g instead of 1 kg, what is his profit percentage?
+A4: Gain % = [Error / (True Weight - Error)] * 100 = [200 / 800] * 100 = 25%.
+
+Q5: In a "Buy 3, Get 2 Free" scheme, what is the effective percentage discount?
+A5: Discount % = [Free Articles / Total Articles Handed Over] * 100 = [2 / (3 + 2)] * 100 = 40%.
+
+Q6: If a merchant makes a profit of 20% on the Selling Price, what is his actual profit percentage on the Cost Price?
+A6: Profit on CP = m / (1 - m) = (1/5) / (1 - 1/5) = (1/5) / (4/5) = 1/4 = 25%.
+
+Q7: What is the formula for net profit/loss % when two articles are sold at the same SP with profit p% and loss l%?
+A7: Net % = [ 100(p - l) - 2pl ] / [ (100 + p) + (100 - l) ]. A positive result indicates net profit; negative indicates net loss.
+
+Q8: How is the alligation rule applied when part of a quantity is sold at profit p1% and the rest at p2% to yield an overall profit p_avg%?
+A8: Ratio of Cost Prices = (p2 - p_avg) : (p_avg - p1). The weights of the alligation correspond strictly to Cost Prices.
+
+Q9: If the cost price of 15 articles is equal to the selling price of 12 articles, what is the profit percentage?
+A9: 15 * CP = 12 * SP => SP / CP = 15 / 12 = 5 / 4. Profit % = [(5 - 4) / 4] * 100 = 25%.
+
+Q10: If a discount of d% is offered and a profit of p% is earned, by what percentage must the cost price be marked up?
+A10: Markup % = [(p + d) / (100 - d)] * 100 %.

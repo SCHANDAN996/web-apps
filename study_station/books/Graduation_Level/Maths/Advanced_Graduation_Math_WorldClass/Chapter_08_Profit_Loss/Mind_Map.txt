@@ -1,0 +1,27 @@
+```mermaid
+graph TD
+    A["Profit and Loss Architecture<br>लाभ और हानि संरचना"] --> B["Core Framework<br>आधारभूत ढांचा"]
+    A --> C["Marked Price and Discounts<br>अंकित मूल्य और बट्टा"]
+    A --> D["Dishonest Dealer Models<br>बेईमान व्यापारी मॉडल"]
+    A --> E["Equal SP Scenarios<br>समान विक्रय मूल्य"]
+    A --> F["Mixed and Alligation Sales<br>मिश्रण और पृथक्करण"]
+
+    B --> B1["Cost Price vs Selling Price<br>क्रय मूल्य एवं विक्रय मूल्य"]
+    B --> B2["Profit and Loss Percentages<br>लाभ एवं हानि प्रतिशत"]
+    B --> B3["Margin on SP Conversion<br>विक्रय मूल्य पर मार्जिन"]
+
+    C --> C1["MP to CP Ratio Formula<br>MP/CP = (100+P)/(100-D)"]
+    C --> C2["Successive Discounts<br>क्रमिक बट्टा"]
+    C --> C3["Buy X Get Y Free Schemes<br>मुफ्त वस्तु योजना"]
+
+    D --> D1["False Weights at CP<br>क्रय मूल्य पर कम तोलना"]
+    D --> D2["Cheating in Buying and Selling<br>खरीदने व बेचने में बेईमानी"]
+    D --> D3["Combined Markup and Underweight<br>मूल्य वृद्धि व कम तोल"]
+
+    E --> E1["Symmetric Gain and Loss<br>समान लाभ व हानि: Loss = (x/10)^2"]
+    E --> E2["Asymmetric Rates Formula<br>भिन्न दरें: Net %"]
+    E --> E3["Total Cost Reconstruction<br>कुल क्रय मूल्य पुनर्निर्माण"]
+
+    F --> F1["Two-part Stock Alligation<br>दो भागों में बिक्री पृथक्करण"]
+    F --> F2["Breakage and Spoiled Goods<br>टूटे व सड़े माल का समायोजन"]
+```
