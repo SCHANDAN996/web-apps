@@ -1,0 +1,20 @@
+# Competitive Exam Short Tricks: Percentage
+
+1. The AB Rule Invariant:
+   When A * B = Constant:
+   - +1/n increase in A requires -1/(n + 1) decrease in B.
+   - Example: Price +25% (+1/4) -> Consumption -1/5 (20%)!
+   - Example: Speed +50% (+1/2) -> Time -1/3 (33.33%)!
+
+2. Equal Increase & Decrease Trick:
+   An increase of x% followed by a decrease of x% is ALWAYS a net loss of:
+   Loss = (x / 10)^2 percent.
+   Example: +30% then -30% -> Net loss of 3^2 = 9% instantly!
+
+3. Split-and-Merge Mental Percentage:
+   - 15% of 640 = 10% (64) + 5% (32) = 96.
+   - 45% of 280 = 50% (140) - 5% (14) = 126.
+   - 62.5% of 320 = 5/8 * 320 = 200.
+
+4. Percentage Reversibility (x% of y = y% of x):
+   Calculating 16% of 25 looks tedious; calculate 25% of 16 instead: 16 / 4 = 4!

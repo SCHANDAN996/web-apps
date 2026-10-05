@@ -1,0 +1,43 @@
+# Chapter 05: Percentage (Intermediate / 12th Level)
+
+## 1. Theoretical Foundation & The Multiplier Paradigm
+In competitive quantitative examinations, percentage is the foundational scaling language of arithmetic. Rather than computing percentages through fragmented additive steps, advanced problem solving relies on the **decimal/fractional multiplier (M)**:
+- Increase of $r\%$ corresponds to multiplier $M = 1 + \frac{r}{100}$.
+- Decrease of $r\%$ corresponds to multiplier $M = 1 - \frac{r}{100}$.
+- A quantity $Q$ altered sequentially by rates $r_1, r_2, \dots, r_k$ transforms as:
+  $$Q_{\text{final}} = Q_{\text{initial}} \times \prod_{i=1}^k \left(1 \pm \frac{r_i}{100}\right)$$
+
+## 2. Product-Constancy Ratio (AB Rule / Invariant Product)
+When two interdependent variables multiply to yield a third quantity ($A \times B = C$):
+1. **Expenditure Invariant**: $\text{Price} \times \text{Consumption} = \text{Expenditure}$.
+   - If Price increases by a fractional amount $+ \frac{a}{b}$, Consumption must decrease by $-\frac{a}{b + a}$ to maintain constant Expenditure:
+     $$\left(1 + \frac{a}{b}\right)\left(1 - \frac{a}{b + a}\right) = \left(\frac{a + b}{b}\right)\left(\frac{b}{a + b}\right) = 1$$
+   - Conversely, if Price decreases by $-\frac{a}{b}$, Consumption must increase by $+\frac{a}{b - a}$.
+2. **Successive Percentage Shifts**:
+   When a quantity is altered by $x\%$ and subsequently by $y\%$, the net effective percentage change is:
+   $$\Delta_{\text{net}} = x + y + \frac{xy}{100} \quad (\text{with appropriate algebraic signs})$$
+   - Special Case (Equal Increase and Decrease): An increase of $x\%$ followed by a decrease of $x\%$ ALWAYS results in a net decrease of:
+     $$\text{Net Loss} = \frac{x^2}{100}\%$$
+
+## 3. Election Systems and Vote Partitioning
+Examinations rigorously test structured voting models:
+- **Total Registered Voters (V)**:
+  - Non-voting fraction $n\%$ $\implies$ Polled votes $= V(1 - n/100)$.
+  - Invalid votes ($I$) $\implies$ Valid votes ($V_{\text{valid}}$) $= V_{\text{polled}} - I$.
+  - Margins: If Winner receives $W\%$ of Valid Votes, Loser receives $(100 - W)\%$ of Valid Votes.
+    $$\text{Winning Margin} = [W - (100 - W)]\% \text{ of } V_{\text{valid}} = (2W - 100)\% \text{ of } V_{\text{valid}}$$
+  - **Critical Trap**: When problems state "Winner received $W\%$ of total votes enrolled on the voter list," the winning margin is:
+    $$W\% \text{ of } V_{\text{total}} - (V_{\text{valid}} - W\% \text{ of } V_{\text{total}})$$
+
+## 4. Income, Expenditure, and Savings Dynamics
+By fundamental accounting identity: $\text{Income} (I) = \text{Expenditure} (E) + \text{Savings} (S)$.
+When income increases by $x\%$, expenditure increases by $y\%$, and savings increase by $z\%$:
+$$I \cdot \frac{x}{100} = E \cdot \frac{y}{100} + S \cdot \frac{z}{100} \implies x = \left(\frac{E}{I}\right)y + \left(\frac{S}{I}\right)z$$
+This is mathematically equivalent to the **weighted average (Alligation)** of the expenditure and savings percentage changes.
+
+## 5. Overlapping Sets (Venn Diagram Percentages)
+For populations partitioned across multi-attribute choices:
+- Two Sets: $n(A \cup B) = n(A) + n(B) - n(A \cap B)$.
+- Three Sets:
+  $$n(A \cup B \cup C) = \sum n(A) - \sum n(A \cap B) + n(A \cap B \cap C)$$
+  Percentage of students passing exactly two subjects: $\sum n(A \cap B) - 3 n(A \cap B \cap C)$.

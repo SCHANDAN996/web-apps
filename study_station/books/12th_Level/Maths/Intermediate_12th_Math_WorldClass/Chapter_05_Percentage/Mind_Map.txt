@@ -1,0 +1,25 @@
+```mermaid
+graph TD
+    A["Percentage Master Framework"] --> B["Fraction Multiplier Base"]
+    A --> C["Product Constancy AB Rule"]
+    A --> D["Successive % & Geometry"]
+    A --> E["Election Analytics"]
+    A --> F["Income Expenditure Savings"]
+
+    B --> B1["Fraction-Decimal Equivalents"]
+    B --> B2["Multiplier: 1 +- r/100"]
+
+    C --> C1["Price vs Consumption"]
+    C --> C2["Speed vs Time"]
+    C --> C3["Shift: +a/b implies -a/(b+a)"]
+
+    D --> D1["Net = x + y + xy/100"]
+    D --> D2["Equal Shifts: Loss = x2/100 %"]
+    D --> D3["2D Area & 3D Volume Scaling"]
+
+    E --> E1["Registered -> Polled -> Valid"]
+    E --> E2["Winning Margin: (2W - 100)%"]
+
+    F --> F1["Income = Expenditure + Savings"]
+    F --> F2["Weighted Average Alligation"]
+```
