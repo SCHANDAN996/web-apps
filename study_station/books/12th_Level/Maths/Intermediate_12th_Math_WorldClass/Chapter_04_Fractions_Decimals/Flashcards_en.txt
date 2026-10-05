@@ -1,0 +1,17 @@
+Q: What is the exact condition for a reduced rational fraction p/q to yield a terminating decimal?
+A: The prime factorization of denominator q must contain only prime factors 2 and 5 (q = 2^m * 5^n).
+
+Q: How do you determine the exact number of decimal places before a fraction p/(2^m * 5^n) terminates?
+A: The number of decimal places equals max(m, n).
+
+Q: How is a mixed recurring decimal 0.ab_bar(cd) converted to a simple fraction?
+A: (abcd - ab) / 9900 (as many 9s as repeating digits, followed by as many 0s as non-repeating digits).
+
+Q: If p/q < 1 and k > 0, how does (p + k)/(q + k) compare to p/q?
+A: (p + k)/(q + k) > p/q (adding a positive constant to a proper fraction strictly increases its value toward 1).
+
+Q: What is the Mediant Property of fractions?
+A: If a/b < c/d with positive denominators, then a/b < (a + c)/(b + d) < c/d.
+
+Q: How do you compare proper fractions with equal differences between denominator and numerator?
+A: The fraction with the largest numerator (and denominator) is the largest.

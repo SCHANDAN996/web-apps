@@ -1,0 +1,50 @@
+# Chapter 04: Fractions & Decimals (Intermediate / 12th Level)
+
+## 1. Classification & Inherent Properties of Fractions
+At the intermediate competitive examination level, fractions are studied as fundamental rational numbers $p/q$ ($q \neq 0$, $\gcd(p, q) = 1$):
+1. **Proper vs Improper Fractions**:
+   - Proper fraction: $p < q$ (Value $< 1$).
+   - Improper fraction: $p > q$ (Value $> 1$).
+   - **Monotonicity Property under Constant Shifts**:
+     For positive integers $p, q, k > 0$:
+     $$\text{If } \frac{p}{q} < 1 \implies \frac{p + k}{q + k} > \frac{p}{q} \quad (\text{adding equal positive amounts increases proper fractions toward 1})$$
+     $$\text{If } \frac{p}{q} > 1 \implies \frac{p + k}{q + k} < \frac{p}{q} \quad (\text{adding equal positive amounts decreases improper fractions toward 1})$$
+
+2. **The Mediant Property & Farey Sequences**:
+   If $\frac{a}{b} < \frac{c}{d}$ with positive denominators, their **mediant** $\frac{a + c}{b + d}$ strictly lies between them:
+   $$\frac{a}{b} < \frac{a + c}{b + d} < \frac{c}{d}$$
+
+## 2. Decimal Representation & Terminating vs Repeating Criteria
+Every reduced rational fraction $p/q$ produces either a terminating or non-terminating periodic decimal:
+- **Terminating Condition**:
+  A reduced rational fraction $p/q$ terminates if and only if the prime factorization of denominator $q$ contains no prime factors other than $2$ and $5$:
+  $$q = 2^m \cdot 5^n$$
+  The number of decimal digits before termination equals $\max(m, n)$.
+- **Non-Terminating Repeating (Recurring) Decimals**:
+  If $q$ contains any prime factor other than $2$ and $5$, the decimal expands into an infinitely repeating period:
+  1. Pure Recurring Decimals:
+     $$0.\overline{a_1 a_2 \dots a_k} = \frac{a_1 a_2 \dots a_k}{10^k - 1} = \frac{a_1 a_2 \dots a_k}{\underbrace{99\dots 9}_{k \text{ nines}}}$$
+  2. Mixed Recurring Decimals:
+     For a non-repeating prefix of length $m$ followed by a repeating period of length $k$:
+     $$0.b_1 b_2 \dots b_m \overline{a_1 \dots a_k} = \frac{(b_1 \dots b_m a_1 \dots a_k) - (b_1 \dots b_m)}{\underbrace{99\dots 9}_{k \text{ nines}} \underbrace{00\dots 0}_{m \text{ zeros}}}$$
+
+## 3. High-Speed Comparison Strategies
+When comparing a set of fractions without exhaustive long division:
+1. **Cross-Multiplication Method**:
+   To compare $a/b$ and $c/d$, evaluate $a \cdot d$ vs $b \cdot c$.
+2. **Numerator-Denominator Difference (Gap) Method**:
+   For fractions where difference $D = (q - p)$ is constant:
+   The fraction with the largest numerator is the largest.
+   If differences $D_1, D_2, \dots$ vary, equalize differences by multiplying both numerator and denominator by $\text{LCM}(D_i)/D_i$.
+3. **Base Deviation / Percentage Inversion**:
+   Express $p/q = 1 / (q/p)$. E.g., comparing $37/152$ and $43/176$, compare $152/37 = 4.108$ vs $176/43 = 4.093$; smaller reciprocal denominator implies larger fraction.
+
+## 4. Arithmetic Operations on Recurring Decimals
+Direct algebraic subtraction and addition of recurring decimals can cause carryover errors across periodic boundaries:
+- Convert recurring terms to rational fractions $\frac{p}{q}$ first.
+- Or align repetend periods by taking the LCM of the periodic cycle lengths.
+
+## 5. Continued Fractions and Rational Approximations
+Any real number $x$ has a continued fraction representation:
+$$x = a_0 + \frac{1}{a_1 + \frac{1}{a_2 + \dots}}$$
+The truncations $p_n/q_n$ provide the best possible rational approximations to $x$.

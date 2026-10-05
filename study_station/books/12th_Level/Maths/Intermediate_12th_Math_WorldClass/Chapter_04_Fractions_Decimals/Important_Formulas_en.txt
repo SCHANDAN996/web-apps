@@ -1,0 +1,29 @@
+# Important Formulas & Decimal Equivalences: Fractions & Decimals
+
+1. Terminating Decimal Criteria:
+   - Denominator q = 2^m * 5^n
+   - Number of decimal places before termination = max(m, n)
+
+2. Pure Recurring Decimal:
+   - 0.bar(a) = a / 9
+   - 0.bar(ab) = ab / 99
+   - 0.bar(abc) = abc / 999
+
+3. Mixed Recurring Decimal:
+   - 0.a_bar(b) = (ab - a) / 90
+   - 0.ab_bar(cd) = (abcd - ab) / 9900
+   - General: [(Entire number without bar) - (Non-repeating prefix)] / [k nines followed by m zeros]
+
+4. Monotonicity Laws:
+   - Proper fraction (p < q): (p + k)/(q + k) > p/q for any k > 0
+   - Improper fraction (p > q): (p + k)/(q + k) < p/q for any k > 0
+
+5. Mediant Inequality:
+   - If a/b < c/d (with b, d > 0), then a/b < (a + c)/(b + d) < c/d
+
+6. Benchmark Fractional Decimal Equivalents:
+   - 1/7 = 0.bar(142857)
+   - 1/9 = 0.bar(1)
+   - 1/11 = 0.bar(09)
+   - 1/13 = 0.bar(076923)
+   - 1/17 = 0.bar(0588235294117647)

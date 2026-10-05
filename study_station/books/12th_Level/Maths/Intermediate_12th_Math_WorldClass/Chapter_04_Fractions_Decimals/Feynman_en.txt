@@ -1,0 +1,12 @@
+The Feynman Technique: Fractions and Decimals Made Crystal Clear
+
+Think of fractions not as abstract division symbols, but as precision measuring rods and recipes.
+
+1. The 'Adding to Both' Illusion:
+Suppose you shoot 1 basketball free throw and make it (1/1 = 100%). If you miss the next one, your stat changes drastically. But what happens if you add 10 to both top and bottom of a fraction like 1/2 (50%)? You get 11/12 (91.7%)! Why does it increase? Because adding equal amounts to top and bottom dilutes the initial gap relative to the whole, dragging the fraction closer to 1. If you start below 1, it pulls you UP to 1. If you start above 1 (like 3/2 = 1.5 -> 13/12 = 1.08), it pulls you DOWN to 1!
+
+2. Why Nines in the Denominator Create Repeating Loops:
+Why is 1/9 = 0.1111... and 1/99 = 0.010101...? In our base-10 counting system, 10 is 9 + 1. Dividing 1.0 by 9 leaves a remainder of 1 at every single decimal step: 10/9 = 1 with remainder 1. That remainder 1 brings down a 0 to become 10 again, endlessly recreating itself. A denominator of 9 creates a 1-digit loop, 99 creates a 2-digit loop, and 999 creates a 3-digit loop.
+
+3. The Terminator Filter (Only 2s and 5s):
+Why does 1/8 terminate (0.125) while 1/6 loops forever (0.1666...)? Because our number system lives in Base 10, whose only prime building blocks are 2 and 5 (10 = 2 * 5). If a denominator's prime factorization contains only 2s and 5s, you can always scale it by powers of 10. But if a 3, 7, 11, or 13 sneaks into the denominator, it can never multiply evenly into any power of 10, forcing an infinite repeating loop!

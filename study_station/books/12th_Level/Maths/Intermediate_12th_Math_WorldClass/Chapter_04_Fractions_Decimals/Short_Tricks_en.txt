@@ -1,0 +1,21 @@
+# Competitive Exam Short Tricks: Fractions & Decimals
+
+1. Equal Difference (Gap) Rule:
+   For proper fractions a/b, c/d where (b - a) = (d - c):
+   The fraction with the larger numbers is always strictly larger!
+   Example: 97/99 vs 101/103 -> Gap is 2 for both -> 101/103 > 97/99 instantly!
+
+2. Instant Mixed Recurring Conversion:
+   Numerator: (Whole number without bar) minus (non-repeating digits).
+   Denominator: As many 9s as repeating digits, followed by as many 0s as non-repeating decimal digits.
+   Example: 0.12bar(34) = (1234 - 12) / 9900 = 1222 / 9900 = 611 / 4950.
+
+3. Cross-Multiplication for Fraction Duel:
+   To quickly compare 13/19 and 15/22:
+   Cross-multiply: 13 * 22 = 286, and 19 * 15 = 285.
+   Since 286 > 285, 13/19 > 15/22 in 3 seconds!
+
+4. Decimals from Prime Denominators:
+   - 1/7 = 0.bar(142857) (cyclic permutation for 2/7, 3/7, etc.)
+   - 1/11 = 0.bar(09), 2/11 = 0.bar(18), etc. (multiples of 9)
+   - 1/9 = 0.bar(1), 1/99 = 0.bar(01), 1/999 = 0.bar(001)
