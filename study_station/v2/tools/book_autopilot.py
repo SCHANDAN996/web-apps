@@ -104,6 +104,9 @@ class Pilot:
         r = self.git('log', f'--since={SKIP_HOURS} hours ago', '--format=%B%x00', '--', str(rel), check=False)
         return any(msg.strip() and 'bookgen autopilot' not in msg for msg in r.stdout.split('\x00'))
 
+    def uncommitted(self, ch):
+        return bool(self.git('status', '--porcelain', '--', str(ch.relative_to(REPO)), check=False).stdout.strip())
+
     def commit(self, ch, summary):
         rel = ch.relative_to(REPO)
 
@@ -153,8 +156,8 @@ class Pilot:
                 key = str(ch.relative_to(bookcheck.BOOKS_ROOT))
                 if key in self.claimed or self.state['failed'].get(key, 0) >= self.args.max_fails:
                     continue
-                if bookcheck.chapter_status(ch)[0] == 'OK':
-                    continue
+                if bookcheck.chapter_status(ch)[0] == 'OK' and not self.uncommitted(ch):
+                    continue                                 # done and published (OK + changes → review, commit)
                 if self.taken_by_other(ch):
                     if key not in self.state['skipped']:
                         self.state['skipped'].append(key)
