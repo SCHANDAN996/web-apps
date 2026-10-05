@@ -1,0 +1,78 @@
+Trick 1: The S.Y.N.C. Master Protocol (Event Synchronization)
+==================================================================
+Whenever an exam problem features events cycling on different schedules:
+• S = Separate Cycle Times: Always find the individual period of each item (e.g., Lap Time = Distance / Speed).
+• Y = Yield the LCM: Compute the Least Common Multiple of these cycle periods.
+• N = Number of Occurrences: Divide Total Time by the LCM interval (T / LCM).
+• C = Count the Zero Toll: Add 1 for the starting event at t = 0 (Total = floor(T / LCM) + 1).
+
+Trick 2: The Co-Prime Ratio Decoupler (a = Hx, b = Hy)
+==================================================================
+Never work with raw numbers when HCF is given. Strip them down instantly:
+• Write numbers as Hx and Hy, where gcd(x, y) = 1.
+• Their LCM is simply H * x * y.
+• If LCM / HCF = P, then x * y = P.
+• Find all co-prime factor pairs of P. If P has n distinct prime factors, there are exactly 2^(n-1) pairs.
+
+Trick 3: The Mirror Difference Trap (Constant Negative Remainder)
+==================================================================
+When divisors d1, d2, d3 leave remainders r1, r2, r3:
+• Check the difference: (d1 - r1) = (d2 - r2) = (d3 - r3) = K.
+• If K is constant, the number is NOT LCM + K. That is the trap!
+• The true number is: N = LCM(d1, d2, d3) * k - K.
+• Mnemonic: "Difference means Deficit -> Subtract K from the LCM!"
+
+Trick 4: The Ghost Remainder Eliminator (Unknown Equal Remainder)
+==================================================================
+When finding the greatest number that divides A, B, and C leaving the SAME unknown remainder:
+• Do not try to guess or solve for the remainder.
+• Take the pairwise absolute differences: |A - B|, |B - C|, and |C - A|.
+• The unknown remainder cancels out completely in the subtraction!
+• Required Divisor = HCF(|A - B|, |B - C|, |C - A|).
+
+Trick 5: The Two-Number Monogamy Law (a * b = HCF * LCM)
+==================================================================
+Remember that the formula (Product = HCF * LCM) is strictly monogamous:
+• It holds ONLY for a couple (two numbers).
+• For three numbers (a, b, c), a * b * c is NEVER equal to HCF * LCM!
+• If an exam gives three numbers and their HCF/LCM, use prime factorization exponents:
+  HCF = min(exponents), LCM = max(exponents).
+
+Trick 6: The Fractional Inversion Rule (Fractions LCM & HCF)
+==================================================================
+When dealing with fractions:
+• What you want to FIND goes on TOP:
+  - If finding HCF of fractions -> HCF on top (HCF of numerators), LCM on bottom.
+  - If finding LCM of fractions -> LCM on top (LCM of numerators), HCF on bottom.
+• Critical Pre-check: Always reduce every fraction to its simplest lowest terms before applying the rule!
+
+Trick 7: The Euclidean Division Staircase (Rapid GCD)
+==================================================================
+When numbers are large (e.g. 1045 and 1520):
+• Do not waste time hunting prime factors.
+• Divide larger by smaller: 1520 / 1045 = 1 with remainder 475.
+• Divide previous divisor by remainder: 1045 / 475 = 2 with remainder 95.
+• Divide again: 475 / 95 = 5 with remainder 0.
+• The last non-zero divisor is 95 -> HCF is 95!
+
+Trick 8: The Minimal Tiler Fast-Track (Square Tiles on Floors)
+==================================================================
+To find the minimum number of square tiles for an L x B room:
+• Step 1: Find H = HCF(L, B) (the maximum tile side).
+• Step 2: Do NOT compute (L * B) and then divide by H^2.
+• Fast calculation: Number of tiles = (L / H) * (B / H).
+• Pre-dividing avoids multiplying giant numbers and keeps calculations effortless!
+
+Trick 9: The Exponential GCD Stripper (Power Expressions)
+==================================================================
+When evaluating HCF of expressions like (a^m - 1) and (a^n - 1):
+• Strip the exponents and take their GCD: g = gcd(m, n).
+• The answer is simply: a^g - 1.
+• Example: HCF of (2^120 - 1) and (2^100 - 1) is 2^gcd(120, 100) - 1 = 2^20 - 1.
+
+Trick 10: The Boundary Jump (Smallest vs Largest n-digit Multiple)
+==================================================================
+When finding an n-digit multiple of L:
+• Largest n-digit: Divide 99..9 by L, remainder is R -> Subtract R: (99..9 - R).
+• Smallest n-digit: Divide 10..0 by L, remainder is R -> Add (L - R): (10..0 + L - R).
+• Never subtract from the smallest n-digit, or you will drop down to (n - 1) digits!

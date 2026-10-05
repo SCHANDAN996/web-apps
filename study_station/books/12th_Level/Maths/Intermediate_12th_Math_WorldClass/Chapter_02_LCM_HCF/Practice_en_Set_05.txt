@@ -1,0 +1,151 @@
+Questions 101–125: Hard
+
+101. Find the HCF of the fractions 9/10, 12/25, 18/35, and 21/40.
+(a) 3/1400 (b) 9/1400 (c) 3/700 (d) 1/1400
+Answer: (a) 3/1400
+Solution: HCF of fractions = HCF(9, 12, 18, 21) / LCM(10, 25, 35, 40) = 3 / 1400. The required value is 3/1400. Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+102. Find the LCM of the fractions 2/3, 3/5, 4/7, and 9/13.
+(a) 18 (b) 36 (c) 72 (d) 36/1365
+Answer: (b) 36
+Solution: LCM of fractions = LCM(2, 3, 4, 9) / HCF(3, 5, 7, 13) = 36 / 1 = 36. The required value is 36. Hence, the correct option is (b).
+Source: SSC CGL Pattern
+
+103. Find the value of gcd(3^45 - 1, 3^35 - 1).
+(a) 243 (b) 80 (c) 242 (d) 728
+Answer: (c) 242
+Solution: By identity gcd(a^m - 1, a^n - 1) = a^gcd(m, n) - 1: gcd(45, 35) = 5. So 3^5 - 1 = 243 - 1 = 242. The required value is 242. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+104. What is the value of gcd(2^36 - 1, 2^24 - 1)?
+(a) 4096 (b) 1023 (c) 2047 (d) 4095
+Answer: (d) 4095
+Solution: gcd(36, 24) = 12. Thus gcd(2^36 - 1, 2^24 - 1) = 2^12 - 1 = 4096 - 1 = 4095. The required value is 4095. Hence, the correct option is (d).
+Source: SSC CGL Pattern
+
+105. The HCF of two numbers is 18 and their product is 12960. Find their LCM.
+(a) 720 (b) 640 (c) 810 (d) 540
+Answer: (a) 720
+Solution: LCM = Product / HCF = 12960 / 18 = 720. The required value is 720. Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+106. The HCF of two numbers is 16 and their LCM is 160. If one of the numbers is 32, find the other number.
+(a) 64 (b) 80 (c) 96 (d) 48
+Answer: (b) 80
+Solution: Other number = (16 * 160) / 32 = 160 / 2 = 80. The required value is 80. Hence, the correct option is (b).
+Source: SSC CGL Pattern
+
+107. Two numbers are in the ratio 5 : 7. If their HCF is 8, find the sum of the two numbers.
+(a) 88 (b) 104 (c) 96 (d) 112
+Answer: (c) 96
+Solution: Numbers are 5 * 8 = 40 and 7 * 8 = 56. Sum = 40 + 56 = 96. The required value is 96. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+108. Two numbers are in the ratio 3 : 5. If their LCM is 75, find their HCF.
+(a) 3 (b) 15 (c) 1 (d) 5
+Answer: (d) 5
+Solution: LCM = 3 * 5 * H = 75 => 15H = 75 => H = 5. The required value is 5. Hence, the correct option is (d).
+Source: SSC CGL Pattern
+
+109. Find the HCF of the algebraic polynomials (x^2 - y^2) and (x^3 - y^3).
+(a) x - y (b) x + y (c) x^2 - y^2 (d) 1
+Answer: (a) x - y
+Solution: (x^2 - y^2) = (x - y)(x + y) and (x^3 - y^3) = (x - y)(x^2 + xy + y^2). Common factor is (x - y). The required value is x - y. Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+110. Find the LCM of the polynomials (x^2 - 4) and (x + 2)^2.
+(a) (x - 2)(x + 2) (b) (x - 2)(x + 2)^2 (c) (x^2 - 4)^2 (d) (x + 2)^3
+Answer: (b) (x - 2)(x + 2)^2
+Solution: Factorizations: (x - 2)(x + 2) and (x + 2)^2. Highest powers give LCM = (x - 2)(x + 2)^2. The required value is (x - 2)(x + 2)^2. Hence, the correct option is (b).
+Source: SSC CGL Pattern
+
+111. The HCF of three numbers 12, 18, and N is 6, and their LCM is 360. What is the smallest possible positive integer value of N?
+(a) 60 (b) 30 (c) 120 (d) 180
+Answer: (c) 120
+Solution: 12 = 2^2 * 3, 18 = 2 * 3^2. LCM = 360 = 2^3 * 3^2 * 5. N must supply the factor of 5 and 2^3 while being a multiple of 6 (2*3): N = 2^3 * 3 * 5 = 120. The required value is 120. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+112. What is the HCF of (2^3 * 3^4) and (2^5 * 3^2)?
+(a) 36 (b) 144 (c) 216 (d) 72
+Answer: (d) 72
+Solution: HCF = 2^3 * 3^2 = 8 * 9 = 72. The required value is 72. Hence, the correct option is (d).
+Source: SSC CGL Pattern
+
+113. Find the HCF of (a^3 - b^3), (a^2 - b^2), and (a - b)^2.
+(a) a - b (b) a + b (c) (a - b)^2 (d) 1
+Answer: (a) a - b
+Solution: The factor (a - b) is common to all three expressions with minimum power 1. Hence HCF is (a - b). The required value is a - b. Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+114. The product of two numbers is 1320 and their HCF is 6. Find their LCM.
+(a) 240 (b) 220 (c) 180 (d) 200
+Answer: (b) 220
+Solution: LCM = Product / HCF = 1320 / 6 = 220. The required value is 220. Hence, the correct option is (b).
+Source: SSC CGL Pattern
+
+115. Find the LCM of 0.6, 9.6, and 0.12.
+(a) 4.8 (b) 96 (c) 9.6 (d) 0.96
+Answer: (c) 9.6
+Solution: Equating decimal places: 60/100, 960/100, 12/100. LCM(60, 960, 12) = 960. Dividing by 100 gives 9.6. The required value is 9.6. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+116. Find the HCF of the polynomials (x^4 - 1) and (x^6 - 1).
+(a) x - 1 (b) x^2 + 1 (c) x^4 - 1 (d) x^2 - 1
+Answer: (d) x^2 - 1
+Solution: gcd(x^4 - 1, x^6 - 1) = x^gcd(4, 6) - 1 = x^2 - 1. The required value is x^2 - 1. Hence, the correct option is (d).
+Source: SSC CGL Pattern
+
+117. Find the LCM of (x^2 - 9) and (x^2 - 5x + 6).
+(a) (x^2 - 9)(x - 2) (b) (x - 3)(x - 2) (c) (x^2 - 9)(x - 3) (d) (x + 3)(x - 2)
+Answer: (a) (x^2 - 9)(x - 2)
+Solution: (x - 3)(x + 3) and (x - 2)(x - 3). LCM = (x - 3)(x + 3)(x - 2) = (x^2 - 9)(x - 2). The required value is (x^2 - 9)(x - 2). Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+118. If the HCF of two numbers is 1, the numbers are standardly called:
+(a) Prime numbers (b) Coprime numbers (c) Twin primes (d) Composite numbers
+Answer: (b) Coprime numbers
+Solution: Two positive integers a and b are called coprime (or mutually prime) if and only if gcd(a, b) = 1. The required value is Coprime numbers. Hence, the correct option is (b).
+Source: SSC CGL Pattern
+
+119. Find the value of gcd(5^20 - 1, 5^12 - 1).
+(a) 625 (b) 3124 (c) 624 (d) 124
+Answer: (c) 624
+Solution: gcd(20, 12) = 4. HCF = 5^4 - 1 = 625 - 1 = 624. The required value is 624. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+120. If the ratio of two numbers is 13 : 15 and their LCM is 390, find their HCF.
+(a) 3 (b) 1 (c) 4 (d) 2
+Answer: (d) 2
+Solution: LCM = 13 * 15 * H = 390 => 195H = 390 => H = 2. The required value is 2. Hence, the correct option is (d).
+Source: SSC CGL Pattern
+
+121. Find the greatest positive integer that will divide (n^3 - n) for every positive integer n.
+(a) 6 (b) 12 (c) 3 (d) 24
+Answer: (a) 6
+Solution: n^3 - n = (n - 1)n(n + 1). The product of any three consecutive integers is always divisible by 3! = 6. The required value is 6. Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+122. If HCF of two numbers x and y is 15, their LCM is 180, and x + y = 105, find the absolute difference |x - y|.
+(a) 25 (b) 15 (c) 30 (d) 10
+Answer: (b) 15
+Solution: x * y = 15 * 180 = 2700. (x - y)^2 = (x + y)^2 - 4xy = 105^2 - 4(2700) = 11025 - 10800 = 225. Thus |x - y| = 15. The required value is 15. Hence, the correct option is (b).
+Source: SSC CGL Pattern
+
+123. Find the value of gcd(2^315 - 1, 2^25 - 1).
+(a) 32 (b) 15 (c) 31 (d) 63
+Answer: (c) 31
+Solution: gcd(315, 25) = 5. Therefore, gcd(2^315 - 1, 2^25 - 1) = 2^5 - 1 = 32 - 1 = 31. The required value is 31. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+124. If p is a prime number greater than 3, what is the greatest integer that always divides (p^2 - 1)?
+(a) 12 (b) 6 (c) 48 (d) 24
+Answer: (d) 24
+Solution: Every prime p > 3 is of form 6k ± 1. (6k ± 1)^2 - 1 = 36k^2 ± 12k = 12k(3k ± 1). Since k or (3k ± 1) is even, this expression is always divisible by 24. The required value is 24. Hence, the correct option is (d).
+Source: SSC CGL Pattern
+
+125. Three numbers x, y, z have pairwise HCFs: gcd(x, y) = 3, gcd(y, z) = 2, gcd(z, x) = 5, and gcd(x, y, z) = 1. What is the minimum possible value of their product x * y * z?
+(a) 450 (b) 900 (c) 1800 (d) 300
+Answer: (b) 900
+Solution: Minimum factors: x must contain 3 and 5 (x = 15); y must contain 3 and 2 (y = 6); z must contain 2 and 5 (z = 10). Product = 15 * 6 * 10 = 900. The required value is 900. Hence, the correct option is (b).
+Source: SSC CGL Pattern

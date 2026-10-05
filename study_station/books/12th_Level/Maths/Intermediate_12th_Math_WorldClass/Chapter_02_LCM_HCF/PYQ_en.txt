@@ -1,0 +1,181 @@
+# PYQ Pattern Analysis: LCM and HCF (Advanced)
+
+## Exam Pattern Analysis
+A detailed audit of recent question papers from examinations such as SSC CGL, SSC CHSL, RRB NTPC, and CDS reveals that questions on LCM and HCF have shifted from elementary direct computations to multi-layered algebraic and word problem models. Examiners intentionally engineer questions around boundary conditions, remainder offsets, and co-prime constraints where careless assumptions trigger instant trap answers.
+
+### Core Recurring Sub-Themes
+1. **Ratio and Co-Prime Constraint Analysis:** Questions give the HCF and either the sum, difference, or LCM of two numbers and ask for the number of possible pairs, or the specific numbers under an inequality condition (e.g. "both numbers are greater than 25"). The trap lies in forgetting that the ratio factors $(x, y)$ must be strictly co-prime ($\gcd(x, y) = 1$).
+2. **LCM Remainder Models with Bounded Ranges:** Questions asking for the smallest or largest $n$-digit number satisfying given divisibility conditions with a constant remainder or constant negative difference ($d_i - r_i = K$). Candidates frequently confuse whether to add or subtract the adjustment term at the $n$-digit boundary.
+3. **HCF Remainder Models with Unknown Remainders:** Finding the greatest number that divides three large numbers leaving the same remainder in each case. The examiner avoids providing the remainder value, requiring candidates to compute the pairwise differences $|A - B|, |B - C|, |C - A|$.
+4. **Synchronization and Boundary Counting:** Bell tolling and runner synchronization questions where the trap lies in the fence-post error: omitting the very first toll at $t = 0$.
+5. **Applied Optimization (Minimum Tiles/Containers):** Asking for the minimum number of square tiles to pave a floor. Candidates often compute the HCF (the side of the tile) and mistakenly choose it instead of dividing the total area by the square of the HCF.
+
+---
+
+## Top 10 High-Yield Pattern Questions with Hook & Trap Analysis
+
+### Question 1
+The HCF and LCM of two numbers are 21 and 4641 respectively. If one of the numbers lies between 200 and 300, find the two numbers.
+(a) 273 and 357 (b) 210 and 464 (c) 189 and 515 (d) 231 and 421
+Answer: (a) 273 and 357
+Solution: Let the numbers be $21x$ and $21y$, where $\gcd(x, y) = 1$.
+Using the relation $\text{LCM} = H \times x \times y$:
+$4641 = 21 \times x \times y \implies xy = \frac{4641}{21} = 221$.
+The co-prime factor pairs of 221 are $(1, 221)$ and $(13, 17)$.
+If $(x, y) = (1, 221)$, the numbers are $21 \times 1 = 21$ and $21 \times 221 = 4641$ (neither lies between 200 and 300).
+If $(x, y) = (13, 17)$, the numbers are $21 \times 13 = 273$ and $21 \times 17 = 357$.
+Here 273 lies between 200 and 300.
+Hence, the correct option is (a).
+Examiner's Trap: Candidates often stop after factoring 221 into $13 \times 17$ and mistakenly forget to multiply back by the HCF 21.
+Source: SSC CGL Pattern
+
+---
+
+### Question 2
+Find the least number which when divided by 12, 18, 21, and 28 leaves 7 as remainder in each case.
+(a) 511 (b) 504 (c) 518 (d) 259
+Answer: (a) 511
+Solution: The required number is of the form $\text{LCM}(12, 18, 21, 28) \times k + 7$.
+Prime factorizations:
+$12 = 2^2 \times 3$, $18 = 2 \times 3^2$, $21 = 3 \times 7$, $28 = 2^2 \times 7$.
+$\text{LCM}(12, 18, 21, 28) = 2^2 \times 3^2 \times 7 = 4 \times 9 \times 7 = 252$.
+For $k = 2$, $252 \times 2 + 7 = 504 + 7 = 511$.
+Thus, dividing 511 by 12, 18, 21, 28 leaves remainder 7.
+The required value is 511. Hence, the correct option is (a).
+Examiner's Trap: Candidates often compute $\text{LCM} = 504$ directly and forget to add the remainder 7, or mistakenly subtract 7 to get 497.
+Source: SSC CHSL Pattern
+
+---
+
+### Question 3
+Find the greatest number which will divide 390, 495, and 300 so as to leave the same remainder in each case.
+(a) 15 (b) 35 (c) 25 (d) 45
+Answer: (a) 15
+Solution: When the remainder is the same but unknown, the required divisor is $\text{HCF}(\vert A - B \vert, \vert B - C \vert, \vert C - A \vert)$.
+Differences:
+$\vert 495 - 390 \vert = 105$
+$\vert 495 - 300 \vert = 195$
+$\vert 390 - 300 \vert = 90$
+Now find $\text{HCF}(105, 195, 90)$:
+$90 = 15 \times 6$, $105 = 15 \times 7$, $195 = 15 \times 13$.
+The greatest common divisor of 105, 195, and 90 is 15.
+The required divisor is 15. Hence, the correct option is (a).
+Examiner's Trap: Candidates attempt to guess the remainder instead of taking pairwise differences to eliminate it.
+Source: SSC CGL Pattern
+
+---
+
+### Question 4
+The sum of two numbers is 528 and their HCF is 33. What is the total number of such pairs of numbers satisfying the condition?
+(a) 4 (b) 6 (c) 8 (d) 2
+Answer: (a) 4
+Solution: Let the numbers be $33x$ and $33y$, where $\gcd(x, y) = 1$.
+$33x + 33y = 528 \implies 33(x + y) = 528 \implies x + y = \frac{528}{33} = 16$.
+We need to find pairs of positive integers $(x, y)$ such that $x + y = 16$ with $\gcd(x, y) = 1$ and $x \le y$:
+- $(1, 15)$: $\gcd(1, 15) = 1$ (Valid)
+- $(2, 14)$: $\gcd(2, 14) = 2 \ne 1$ (Invalid)
+- $(3, 13)$: $\gcd(3, 13) = 1$ (Valid)
+- $(4, 12)$: $\gcd(4, 12) = 4 \ne 1$ (Invalid)
+- $(5, 11)$: $\gcd(5, 11) = 1$ (Valid)
+- $(6, 10)$: $\gcd(6, 10) = 2 \ne 1$ (Invalid)
+- $(7, 9)$: $\gcd(7, 9) = 1$ (Valid)
+- $(8, 8)$: $\gcd(8, 8) = 8 \ne 1$ (Invalid)
+Total valid co-prime pairs = 4.
+The required count is 4. Hence, the correct option is (a).
+Examiner's Trap: Counting all integer partitions of 16 without eliminating non-co-prime pairs gives 8, a common distractor.
+Source: SSC CGL Pattern
+
+---
+
+### Question 5
+Six bells commence tolling together and toll at intervals of 2, 4, 6, 8, 10, and 12 seconds respectively. In 30 minutes, how many times do they toll together?
+(a) 16 (b) 15 (c) 14 (d) 17
+Answer: (a) 16
+Solution: The bells toll together at intervals equal to $\text{LCM}(2, 4, 6, 8, 10, 12)$.
+$\text{LCM}(2, 4, 6, 8, 10, 12) = 120\text{ seconds} = 2\text{ minutes}$.
+In 30 minutes, the number of intervals is $\frac{30}{2} = 15$.
+Since the bells started by tolling together at $t = 0$, we must add the initial toll:
+$\text{Total tolls} = 15 + 1 = 16$.
+The required count is 16. Hence, the correct option is (a).
+Examiner's Trap: Omission of the starting toll at $t = 0$ leads candidates to answer 15, which is option (b).
+Source: RRB NTPC Pattern
+
+---
+
+### Question 6
+Find the greatest number of four digits which when divided by 15, 20, and 25 leaves remainders 10, 15, and 20 respectively.
+(a) 9895 (b) 9900 (c) 9890 (d) 9905
+Answer: (a) 9895
+Solution: Observe the difference between each divisor and its remainder:
+$15 - 10 = 5$, $20 - 15 = 5$, $25 - 20 = 5$.
+The difference $K = 5$ is constant.
+$\text{LCM}(15, 20, 25) = 300$.
+The largest 4-digit number is 9999.
+Dividing 9999 by 300 gives: $9999 = 300 \times 33 + 99$.
+The largest 4-digit multiple of 300 is $9999 - 99 = 9900$.
+Applying the constant difference formula $N = \text{Multiple} - K$:
+$N = 9900 - 5 = 9895$.
+The required value is 9895. Hence, the correct option is (a).
+Examiner's Trap: Adding 5 instead of subtracting it yields 9905, another classic distractor.
+Source: SSC CGL Pattern
+
+---
+
+### Question 7
+What is the HCF of the fractions $2/3, 8/9, 16/81$, and $10/27$?
+(a) 2/81 (b) 16/3 (c) 80/3 (d) 2/3
+Answer: (a) 2/81
+Solution: Formula: $\text{HCF of Fractions} = \frac{\text{HCF of Numerators}}{\text{LCM of Denominators}}$.
+Numerators: $2, 8, 16, 10 \implies \text{HCF}(2, 8, 16, 10) = 2$.
+Denominators: $3, 9, 81, 27 \implies \text{LCM}(3, 9, 81, 27) = 81$.
+$\text{HCF} = \frac{2}{81}$.
+The resulting fraction is 2/81. Hence, the correct option is (a).
+Examiner's Trap: Computing LCM of numerators divided by HCF of denominators yields $80/3$, which is the LCM of the fractions, not the HCF.
+Source: SSC CHSL Pattern
+
+---
+
+### Question 8
+A room is 15 m 17 cm long and 9 m 2 cm broad. Find the least number of square tiles required to pave the floor.
+(a) 814 (b) 841 (c) 41 (d) 410
+Answer: (a) 814
+Solution: Convert dimensions to centimeters:
+Length $L = 1517\text{ cm}$, Breadth $B = 902\text{ cm}$.
+To minimize tiles, the tile side must be the maximum possible square side: $\text{HCF}(1517, 902)$.
+Euclidean algorithm gives $\text{HCF}(1517, 902) = 41\text{ cm}$.
+Minimum number of tiles = $\frac{L \times B}{\text{HCF}^2} = \frac{1517 \times 902}{41 \times 41} = 37 \times 22 = 814$.
+The required count of tiles is 814. Hence, the correct option is (a).
+Examiner's Trap: Answering the side of the tile (41 cm) instead of the total number of tiles (814).
+Source: SSC CGL Pattern
+
+---
+
+### Question 9
+What is the HCF of $(3^{333} + 1)$ and $(3^{334} + 1)$?
+(a) 2 (b) 1 (c) $3^{333} + 1$ (d) 4
+Answer: (a) 2
+Solution: Since 3 is an odd integer, any power of 3 is odd ($3^k$ is odd).
+Adding 1 to an odd number yields an even number:
+$3^{333} + 1$ is even, so it is divisible by 2.
+$3^{334} + 1$ is even, so it is divisible by 2.
+Since 334 is even, $3^{334} + 1 \equiv (-1)^{334} + 1 \equiv 2 \pmod 4$.
+Thus 2 divides both expressions, but 4 does not.
+The highest common factor is 2.
+The required value is 2. Hence, the correct option is (a).
+Examiner's Trap: Assuming the HCF is 1 because $\gcd(333, 334) = 1$, overlooking that both terms are even integers.
+Source: SSC CGL Pattern
+
+---
+
+### Question 10
+Three runners run on a circular track of length 12 km in the same direction with speeds of 3 km/h, 7 km/h, and 13 km/h. After how many hours will they all meet together again at the starting point?
+(a) 12 (b) 6 (c) 4 (d) 24
+Answer: (a) 12
+Solution: Time taken by each runner to complete one lap:
+$t_1 = \frac{12}{3} = 4\text{ hours}$, $t_2 = \frac{12}{7}\text{ hours}$, $t_3 = \frac{12}{13}\text{ hours}$.
+They will meet again at the starting point after $\text{LCM}(t_1, t_2, t_3) = \text{LCM}\left(\frac{4}{1}, \frac{12}{7}, \frac{12}{13}\right)$.
+Formula for LCM of fractions:
+$\text{LCM} = \frac{\text{LCM of numerators}}{\text{HCF of denominators}} = \frac{\text{LCM}(4, 12, 12)}{\text{HCF}(1, 7, 13)} = \frac{12}{1} = 12\text{ hours}$.
+The required time is 12 hours. Hence, the correct option is (a).
+Examiner's Trap: Taking the LCM of the speeds (3, 7, 13) instead of the lap completion times.
+Source: SSC CGL Pattern

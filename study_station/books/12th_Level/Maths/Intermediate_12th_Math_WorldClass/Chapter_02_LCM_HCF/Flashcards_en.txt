@@ -1,0 +1,71 @@
+Card 1
+Front: What is the fundamental relationship between two numbers and their HCF and LCM?
+Back: For any two positive integers a and b, Product of Numbers = HCF * LCM (a * b = H * L). This rule applies strictly to pairs of numbers.
+
+Card 2
+Front: How are two numbers expressed in terms of their HCF and co-prime ratios?
+Back: If HCF is H, then a = Hx and b = Hy, where x and y are co-prime (gcd(x, y) = 1). The LCM is L = Hxy.
+
+Card 3
+Front: Why does the product rule a * b * c = HCF * LCM fail for three numbers?
+Back: Because prime factors shared between only two of the numbers are counted multiple times in the product. The correct general relation depends on pairwise HCFs.
+
+Card 4
+Front: What is the formula for calculating the HCF of fractions?
+Back: HCF of Fractions = HCF(Numerators) / LCM(Denominators). Ensure fractions are reduced to lowest terms before computing.
+
+Card 5
+Front: What is the formula for calculating the LCM of fractions?
+Back: LCM of Fractions = LCM(Numerators) / HCF(Denominators). Ensure fractions are in simplest form first.
+
+Card 6
+Front: What is LCM Model 1 (dividing by d1, d2, d3 leaving a constant remainder r)?
+Back: The number N is of the form: N = LCM(d1, d2, d3) * k + r.
+
+Card 7
+Front: What is LCM Model 2 (dividing by d1, d2, d3 leaving remainders r1, r2, r3 where (d - r) = K)?
+Back: When each (divisor - remainder) equals a constant K, N = LCM(d1, d2, d3) * k - K.
+
+Card 8
+Front: What is HCF Model 1 (greatest number dividing A, B, C leaving remainder r in each case)?
+Back: Required Number = HCF(A - r, B - r, C - r).
+
+Card 9
+Front: What is HCF Model 2 (greatest number dividing A, B, C leaving the same unknown remainder)?
+Back: Required Number = HCF(|A - B|, |B - C|, |C - A|). Pairwise differences eliminate the unknown remainder.
+
+Card 10
+Front: What is the Euclidean Algorithm principle for finding GCD of two large numbers?
+Back: gcd(a, b) = gcd(b, a mod b). Divide larger by smaller, replace larger with remainder, repeat until remainder is 0. Last non-zero divisor is HCF.
+
+Card 11
+Front: How do you find the number of co-prime pairs (x, y) such that x * y = P?
+Back: If P has n distinct prime factors, the number of unordered co-prime pairs is 2^(n - 1).
+
+Card 12
+Front: When bells toll at intervals of t1, t2, t3 seconds, how often do they toll together?
+Back: They toll together every LCM(t1, t2, t3) seconds. Total tolls in time T = floor(T / LCM) + 1 (including the initial toll at t = 0).
+
+Card 13
+Front: When do runners on a circular track meet again at the starting point?
+Back: Time to meet at start = LCM(t1, t2, t3), where t_i = Track Length / Speed_i is each runner's time for one full lap.
+
+Card 14
+Front: What is the time taken for two runners to first cross each other anywhere on a circular track?
+Back: Time = Track Length / Relative Speed. Relative speed is |v1 - v2| for same direction, (v1 + v2) for opposite direction.
+
+Card 15
+Front: How do you find the minimum number of identical square tiles to pave a floor of length L and breadth B?
+Back: Tile side = HCF(L, B). Minimum tiles = (L * B) / [HCF(L, B)]^2.
+
+Card 16
+Front: What is the algebraic HCF of (a^m - 1) and (a^n - 1)?
+Back: HCF = a^[gcd(m, n)] - 1.
+
+Card 17
+Front: Can two numbers have an HCF of 16 and an LCM of 204?
+Back: No. The LCM of two numbers must always be an exact integer multiple of their HCF. Since 204 / 16 = 12.75 (not an integer), such numbers cannot exist.
+
+Card 18
+Front: If the sum of two numbers is H * (x + y) and their HCF is H, what must be true about (x + y)?
+Back: x and y must be co-prime to each other (gcd(x, y) = 1).

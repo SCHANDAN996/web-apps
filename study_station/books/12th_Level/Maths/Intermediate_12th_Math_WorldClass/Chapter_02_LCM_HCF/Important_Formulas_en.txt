@@ -1,0 +1,25 @@
+# Important Formulas: LCM and HCF (Advanced)
+
+| Formula Name | Formula | Use-Hint |
+| :--- | :--- | :--- |
+| **Fundamental Product Law (2 Numbers)** | $a \times b = \text{HCF}(a, b) \times \text{LCM}(a, b)$ | Strictly applies to two numbers; never use directly for three or more numbers |
+| **Co-Prime Ratio Representation** | $a = Hx, \; b = Hy \implies L = Hxy$ | Where $H = \text{HCF}$ and $\gcd(x, y) = 1$ ($x, y$ are mutually co-prime) |
+| **Sum & Difference in Ratio Form** | $a + b = H(x + y), \; a - b = H(x - y)$ | Sum and difference of two numbers are always integer multiples of their HCF |
+| **Number of Co-Prime Pairs** | Count of co-prime factor pairs of $P = xy$ is $2^{n-1}$ | Here $n$ is the number of distinct prime factors of the product $xy$ |
+| **HCF of Fractions** | $\text{HCF}\left(\frac{a}{b}, \frac{c}{d}\right) = \frac{\text{HCF}(a, c)}{\text{LCM}(b, d)}$ | Simplify fractions to lowest terms before applying the formula |
+| **LCM of Fractions** | $\text{LCM}\left(\frac{a}{b}, \frac{c}{d}\right) = \frac{\text{LCM}(a, c)}{\text{HCF}(b, d)}$ | Ensure all numerators and denominators are mutually reduced first |
+| **LCM Model 1 (Constant Remainder $r$)** | $N = \text{LCM}(d_1, d_2, d_3) \times k + r$ | Used when dividing by divisors $d_i$ always leaves the identical remainder $r$ |
+| **LCM Model 2 (Constant Difference $K$)** | $N = \text{LCM}(d_1, d_2, d_3) \times k - K$ | Applicable when $d_1 - r_1 = d_2 - r_2 = d_3 - r_3 = K$ (constant negative remainder) |
+| **HCF Model 1 (Known Remainder $r$)** | $\text{HCF}(A - r, B - r, C - r)$ | Subtract the known remainder from each number before computing the HCF |
+| **HCF Model 2 (Same Unknown Remainder)** | $\text{HCF}(\vert A - B \vert, \; \vert B - C \vert, \; \vert C - A \vert)$ | Take the pairwise positive differences to eliminate the unknown remainder |
+| **Euclidean GCD Algorithm** | $\gcd(a, b) = \gcd(b, a \pmod b)$ | Successively replace the larger number with the remainder until the remainder is 0 |
+| **Synchronization / Bell Tolls** | $\text{Total Tolls} = \left\lfloor \frac{T}{\text{LCM}(t_1, t_2, \dots)} \right\rfloor + 1$ | Add 1 for the initial simultaneous toll at $t = 0$ unless specified otherwise |
+| **Circular Track: Meeting at Start** | $T_{\text{start}} = \text{LCM}(t_1, t_2, t_3)$ | Compute individual single-lap times ($t_i = \text{Distance} / \text{Speed}_i$) first |
+| **Circular Track: First Meeting Anywhere** | $T_{\text{first}} = \frac{\text{Circumference}}{\text{Relative Speed}}$ | Relative speed $= \vert v_1 - v_2 \vert$ (same direction) or $v_1 + v_2$ (opposite direction) |
+| **Minimum Square Tiles for Floor** | $\text{Tiles} = \frac{L \times B}{H^2}, \text{ where } H = \text{HCF}(L, B)$ | The maximum tile side $H$ minimizes the total number of square tiles needed |
+| **Three Numbers Ratio Law** | $a=Hx, b=Hy, c=Hz \implies L = H \cdot \text{LCM}(x, y, z)$ | If $x, y, z$ are pairwise co-prime, $L = Hxyz$ and $a \cdot b \cdot c = H^2 \cdot L$ |
+| **HCF of $(a^m - 1)$ and $(a^n - 1)$** | $\gcd(a^m - 1, a^n - 1) = a^{\gcd(m, n)} - 1$ | High-speed algebraic GCD theorem for exponential expressions |
+| **HCF of $(a^m + 1)$ and $(a^n + 1)$ (Odd $\frac{m}{g}, \frac{n}{g}$)** | $\gcd(a^m + 1, a^n + 1) = a^{\gcd(m, n)} + 1$ | Holds when $m / \gcd(m, n)$ and $n / \gcd(m, n)$ are both odd integers |
+| **Greatest Number Dividing With Offsets** | $\text{HCF}(A - r_1, B - r_2, C - r_3)$ | Subtract specific remainders $r_1, r_2, r_3$ from respective numbers $A, B, C$ |
+| **Smallest $n$-digit Number Divisible** | $\text{Smallest } n\text{-digit} + (\text{LCM} - \text{Rem})$ | Where $\text{Rem} = 10^{n-1} \pmod{\text{LCM}}$ (if $\text{Rem} > 0$) |
+| **Largest $n$-digit Number Divisible** | $\text{Largest } n\text{-digit} - \text{Rem}$ | Where $\text{Rem} = (10^n - 1) \pmod{\text{LCM}}$ |

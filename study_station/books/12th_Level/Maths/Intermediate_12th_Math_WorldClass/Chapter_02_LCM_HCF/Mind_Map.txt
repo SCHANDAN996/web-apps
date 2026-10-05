@@ -1,0 +1,41 @@
+```mermaid
+graph TD
+    R["🔢 ल.स. एवं म.स. (उन्नत)<br>LCM & HCF (Advanced)"]
+
+    R --> F["📐 मूल सिद्धांत एवं यूक्लिड विधि<br>Fundamentals & Euclidean GCD"]
+    R --> RAT["⚖️ अनुपात एवं गुणनफल नियम<br>Ratio Form & Product Laws"]
+    R --> FRAC["🍰 भिन्नों का ल.स. एवं म.स.<br>Fractions LCM & HCF"]
+    R --> MOD["🧩 शेषफल मॉडल विश्लेषण<br>Remainder Models (LCM & HCF)"]
+    R --> SYNC["⏰ तुल्यकालन एवं व्यावहारिक अनुप्रयोग<br>Synchronization & Applied Models"]
+    R --> EXP["⚡ घातांक एवं बीजगणितीय व्यंजक<br>Exponential & Algebraic GCD"]
+
+    F --> F1["अभाज्य गुणनखंडन<br>HCF: न्यूनतम घात<br>LCM: अधिकतम घात"]
+    F --> F2["यूक्लिड विभाजन कलनविधि<br>gcd(a, b) = gcd(b, a mod b)"]
+
+    RAT --> RAT1["दो संख्या नियम<br>a x b = H x L"]
+    RAT --> RAT2["अनुपात रूप: a = Hx, b = Hy<br>L = Hxy, gcd(x, y) = 1"]
+    RAT --> RAT3["सह-अभाज्य युग्मों की संख्या<br>Count = 2^(n-1)"]
+
+    FRAC --> FRAC1["भिन्नों का म.स.<br>HCF(अंश) / LCM(हर)"]
+    FRAC --> FRAC2["भिन्नों का ल.स.<br>LCM(अंश) / HCF(हर)"]
+
+    MOD --> MOD1["ल.स. मॉडल 1: समान शेषफल r<br>N = LCM(d) * k + r"]
+    MOD --> MOD2["ल.स. मॉडल 2: समान अंतर K<br>N = LCM(d) * k - K"]
+    MOD --> MOD3["म.स. मॉडल 1: ज्ञात शेषफल r<br>HCF(A-r, B-r, C-r)"]
+    MOD --> MOD4["म.स. मॉडल 2: समान अज्ञात शेषफल<br>HCF(|A-B|, |B-C|, |C-A|)"]
+
+    SYNC --> SYNC1["घंटियों का बजना<br>अंतराल = LCM(t1, t2, ...)<br>कुल बार = floor(T/LCM) + 1"]
+    SYNC --> SYNC2["वृत्ताकार पथ पर दौड़<br>आरंभिक बिंदु = LCM(चक्कर समय)<br>पथ पर मिलना = परिधि / सापेक्ष चाल"]
+    SYNC --> SYNC3["फर्श पर टाइलों की न्यूनतम संख्या<br>टाइल भुजा = HCF(L, B)<br>कुल टाइल = (L x B) / H^2"]
+
+    EXP --> EXP1["HCF of (a^m - 1) & (a^n - 1)<br>a^[gcd(m, n)] - 1"]
+    EXP --> EXP2["HCF of (a^m + 1) & (a^n + 1)<br>a^[gcd(m, n)] + 1 (यदि अनुपात विषम)"]
+
+    style R fill:#4f46e5,stroke:#fff,stroke-width:2px,color:#fff
+    style F fill:#059669,stroke:#fff,stroke-width:2px,color:#fff
+    style RAT fill:#d97706,stroke:#fff,stroke-width:2px,color:#fff
+    style FRAC fill:#dc2626,stroke:#fff,stroke-width:2px,color:#fff
+    style MOD fill:#7c3aed,stroke:#fff,stroke-width:2px,color:#fff
+    style SYNC fill:#0891b2,stroke:#fff,stroke-width:2px,color:#fff
+    style EXP fill:#4b5563,stroke:#fff,stroke-width:2px,color:#fff
+```

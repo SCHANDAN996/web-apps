@@ -1,0 +1,151 @@
+Questions 1–20: Easy | Questions 21–25: Medium
+
+1. Find the HCF of 2^3 * 3^2 * 5 * 7^4 and 2^2 * 3^5 * 5^2 * 7^3.
+(a) 2^2 * 3^2 * 5 * 7^3 (b) 2^3 * 3^5 * 5^2 * 7^4 (c) 2^2 * 3^2 * 5^2 * 7^3 (d) 2^3 * 3^2 * 5 * 7^3
+Answer: (a) 2^2 * 3^2 * 5 * 7^3
+Solution: HCF takes the minimum power of each common prime factor: 2^min(3,2) * 3^min(2,5) * 5^min(1,2) * 7^min(4,3) = 2^2 * 3^2 * 5 * 7^3. The required value is 2^2 * 3^2 * 5 * 7^3. Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+2. Find the LCM of 2^3 * 3^2 * 5 and 2^4 * 3 * 5^2 * 7.
+(a) 2^3 * 3 * 5 (b) 2^4 * 3^2 * 5^2 * 7 (c) 2^4 * 3^2 * 5^2 (d) 2^3 * 3^2 * 5^2 * 7
+Answer: (b) 2^4 * 3^2 * 5^2 * 7
+Solution: LCM takes the highest power of all prime factors appearing in either number: 2^4 * 3^2 * 5^2 * 7. The required value is 2^4 * 3^2 * 5^2 * 7. Hence, the correct option is (b).
+Source: SSC CGL Pattern
+
+3. The HCF and LCM of two numbers are 12 and 336 respectively. If one number is 84, find the other number.
+(a) 36 (b) 56 (c) 48 (d) 42
+Answer: (c) 48
+Solution: Product of two numbers = LCM * HCF. Other number = (12 * 336) / 84 = 336 / 7 = 48. The required value is 48. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+4. Find the HCF of the fractions 2/3, 4/5, and 6/7.
+(a) 12/105 (b) 2/15 (c) 1/105 (d) 2/105
+Answer: (d) 2/105
+Solution: HCF of fractions = HCF of numerators / LCM of denominators = HCF(2, 4, 6) / LCM(3, 5, 7) = 2 / 105. The required value is 2/105. Hence, the correct option is (d).
+Source: SSC CGL Pattern
+
+5. Find the LCM of the fractions 1/3, 5/6, 2/9, and 4/27.
+(a) 20/3 (b) 10/3 (c) 20/27 (d) 10/27
+Answer: (a) 20/3
+Solution: LCM of fractions = LCM(1, 5, 2, 4) / HCF(3, 6, 9, 27) = 20 / 3. The required value is 20/3. Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+6. What is the HCF of any two consecutive natural numbers n and n + 1?
+(a) 2 (b) 1 (c) n (d) n + 1
+Answer: (b) 1
+Solution: Consecutive natural numbers never share any common factor greater than 1 because (n + 1) - n = 1. Hence, gcd(n, n + 1) = 1. The required value is 1. Hence, the correct option is (b).
+Source: SSC CGL Pattern
+
+7. What is the HCF of two consecutive even natural numbers 2k and 2k + 2?
+(a) 1 (b) 4 (c) 2 (d) 2k
+Answer: (c) 2
+Solution: Consecutive even integers differ by 2: (2k + 2) - 2k = 2. Both are divisible by 2, so their HCF is 2. The required value is 2. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+8. If the ratio of two numbers is 3 : 4 and their HCF is 4, find their LCM.
+(a) 36 (b) 24 (c) 12 (d) 48
+Answer: (d) 48
+Solution: Numbers are 3 * 4 = 12 and 4 * 4 = 16. LCM = H * x * y = 4 * 3 * 4 = 48. The required value is 48. Hence, the correct option is (d).
+Source: SSC CGL Pattern
+
+9. The product of two coprime numbers is 117. What is their LCM?
+(a) 117 (b) 1 (c) 9 (d) 13
+Answer: (a) 117
+Solution: For coprime numbers, HCF = 1. Since A * B = LCM * HCF, LCM = A * B / 1 = 117. The required value is 117. Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+10. What is the greatest number that will divide 390, 495, and 300 without a remainder?
+(a) 5 (b) 15 (c) 25 (d) 30
+Answer: (b) 15
+Solution: We need HCF(390, 495, 300). 390 - 300 = 90. Factors of 90 are 90, 45, 30, 15... 15 divides 390, 495, and 300. Thus HCF = 15. The required value is 15. Hence, the correct option is (b).
+Source: SSC CGL Pattern
+
+11. Find the least number divisible by all the natural numbers from 1 to 10.
+(a) 5040 (b) 1260 (c) 2520 (d) 840
+Answer: (c) 2520
+Solution: LCM(1, 2, 3, 4, 5, 6, 7, 8, 9, 10) = 2^3 * 3^2 * 5 * 7 = 8 * 9 * 5 * 7 = 2520. The required value is 2520. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+12. The HCF of two numbers is 8. Which of the following can NEVER be their LCM?
+(a) 24 (b) 48 (c) 72 (d) 60
+Answer: (d) 60
+Solution: The LCM of two numbers must be an exact integer multiple of their HCF. Since 60 is not divisible by 8, 60 cannot be the LCM. The required value is 60. Hence, the correct option is (d).
+Source: SSC CGL Pattern
+
+13. Find the HCF of 0.54, 1.8, and 7.2.
+(a) 0.18 (b) 0.06 (c) 0.54 (d) 1.8
+Answer: (a) 0.18
+Solution: Equate decimal places: 54/100, 180/100, 720/100. HCF(54, 180, 720) = 18. Dividing by 100 gives 0.18. The required value is 0.18. Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+14. The ratio of two numbers is 15 : 11. If their HCF is 13, find the larger number.
+(a) 143 (b) 195 (c) 165 (d) 180
+Answer: (b) 195
+Solution: The numbers are 15 * 13 = 195 and 11 * 13 = 143. The larger number is 195. The required value is 195. Hence, the correct option is (b).
+Source: SSC CGL Pattern
+
+15. Find the greatest number that divides 148 and 246 leaving remainder 4 and 6 respectively.
+(a) 24 (b) 12 (c) 48 (d) 36
+Answer: (c) 48
+Solution: Subtract remainders: 148 - 4 = 144, 246 - 6 = 240. HCF(144, 240) = 48. The required value is 48. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+16. Find the least number which when divided by 6, 9, 12, 15, 18 leaves no remainder.
+(a) 360 (b) 90 (c) 540 (d) 180
+Answer: (d) 180
+Solution: LCM(6, 9, 12, 15, 18) = LCM(9, 12, 15, 18) = 180. The required value is 180. Hence, the correct option is (d).
+Source: SSC CGL Pattern
+
+17. What is the HCF of 108, 288, and 360?
+(a) 36 (b) 18 (c) 72 (d) 24
+Answer: (a) 36
+Solution: 108 = 36 * 3, 288 = 36 * 8, 360 = 36 * 10. HCF(3, 8, 10) = 1. Hence HCF = 36. The required value is 36. Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+18. The LCM of two numbers is 495 and their HCF is 5. If the sum of the numbers is 100, find their difference.
+(a) 15 (b) 10 (c) 20 (d) 25
+Answer: (b) 10
+Solution: A + B = 100, A * B = 495 * 5 = 2475. (A - B)^2 = (A + B)^2 - 4AB = 10000 - 4(2475) = 10000 - 9900 = 100. Thus A - B = 10. The required value is 10. Hence, the correct option is (b).
+Source: SSC CGL Pattern
+
+19. If the product of two numbers is 2160 and their HCF is 12, find their LCM.
+(a) 120 (b) 240 (c) 180 (d) 360
+Answer: (c) 180
+Solution: LCM = Product / HCF = 2160 / 12 = 180. The required value is 180. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+20. Three numbers are in the ratio 1 : 2 : 3 and their HCF is 12. Find the largest number.
+(a) 24 (b) 12 (c) 48 (d) 36
+Answer: (d) 36
+Solution: The numbers are 1 * 12 = 12, 2 * 12 = 24, and 3 * 12 = 36. The largest number is 36. The required value is 36. Hence, the correct option is (d).
+Source: SSC CGL Pattern
+
+21. Find the smallest four-digit number which is exactly divisible by 12, 18, 21, and 28.
+(a) 1008 (b) 1024 (c) 1080 (d) 1050
+Answer: (a) 1008
+Solution: LCM(12, 18, 21, 28): 12 = 2^2*3, 18 = 2*3^2, 21 = 3*7, 28 = 2^2*7. LCM = 4 * 9 * 7 = 252. Smallest 4-digit number is 1000. 1000 / 252 = 3 rem 244. Required number = 1000 + (252 - 244) = 1008. The required value is 1008. Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+22. Find the greatest number of four digits which is divisible by 15, 25, 40, and 75.
+(a) 9400 (b) 9600 (c) 9800 (d) 9000
+Answer: (b) 9600
+Solution: LCM(15, 25, 40, 75) = 600. Largest 4-digit number is 9999. 9999 / 600 = 16 rem 399. Required number = 9999 - 399 = 9600. The required value is 9600. Hence, the correct option is (b).
+Source: SSC CGL Pattern
+
+23. The HCF of two numbers is 23 and the other two factors of their LCM are 13 and 14. Find the larger number.
+(a) 299 (b) 345 (c) 322 (d) 276
+Answer: (c) 322
+Solution: The numbers are H * x and H * y. Here H = 23, x = 13, y = 14. Larger number = 23 * 14 = 322. The required value is 322. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+24. How many pairs of positive integers have an HCF of 15 and an LCM of 630?
+(a) 2 (b) 3 (c) 1 (d) 4
+Answer: (d) 4
+Solution: LCM = H * x * y => 630 = 15 * x * y => x * y = 42. Coprime pairs for 42 = 2 * 3 * 7: (1, 42), (2, 21), (3, 14), (6, 7). Exactly 4 pairs. The required value is 4. Hence, the correct option is (d).
+Source: SSC CGL Pattern
+
+25. The sum of two numbers is 84 and their HCF is 12. How many such pairs of numbers exist?
+(a) 4 (b) 3 (c) 2 (d) 1
+Answer: (b) 3
+Solution: 12x + 12y = 84 => x + y = 7. Coprime pairs summing to 7: (1, 6), (2, 5), (3, 4). Exactly 3 pairs exist. The required value is 3. Hence, the correct option is (b).
+Source: SSC CGL Pattern
