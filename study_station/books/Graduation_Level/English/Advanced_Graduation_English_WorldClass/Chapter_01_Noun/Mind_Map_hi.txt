@@ -4,7 +4,7 @@ graph TD
     A --> C["संख्या (Number)"]
     A --> D["लिंग (Gender)"]
     A --> E["कारक (Case)"]
-    A --> F["12 स्वर्ण नियम"]
+    A --> F["6 स्वर्ण नियम"]
 
     B --> B1["व्यक्तिवाचक संज्ञा (Proper Noun)<br>विशेष नाम: India, Ganga"]
     B --> B2["जातिवाचक संज्ञा (Common Noun)<br>सामान्य: boy, city"]
@@ -14,7 +14,7 @@ graph TD
 
     C --> C1["गणनीय (Countable)<br>book → books"]
     C --> C2["अगणनीय (Uncountable)<br>advice, information, furniture<br>❌ advices, informations"]
-    C --> C3["सदैव बहुवचन<br>scissors, trousers, news*<br>(*news = एकवचन!)"]
+    C --> C3["सदैव बहुवचन<br>scissors, trousers, spectacles"]
     C --> C4["समान रूप<br>sheep, deer, series"]
 
     D --> D1["पुल्लिंग / स्त्रीलिंग<br>(Masculine / Feminine)"]
