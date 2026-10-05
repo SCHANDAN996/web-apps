@@ -1,0 +1,29 @@
+# Important Formulas & Identities: Average
+
+## 1. Fundamental Formulas
+- Average = (Sum of observations) / n
+- Total Sum = Average * n
+
+## 2. Deviation Method
+- True Average = Assumed Mean (A) + (Sum of deviations) / n
+
+## 3. Inclusion, Exclusion, and Replacement
+- Value of New Member = New Average + n * (New Average - Old Average)
+- Value of Excluded Member = Old Average - (n - 1) * (New Average - Old Average)
+- Value of Replaced New Member = Old Value + n * (New Average - Old Average)
+
+## 4. Arithmetic Progressions & Sequences
+- Average of AP = (First Term + Last Term) / 2
+- Average of first n natural numbers = (n + 1) / 2
+- Average of first n even numbers = n + 1
+- Average of first n odd numbers = n
+- Average of squares of first n natural numbers = (n + 1)(2n + 1) / 6
+- Average of cubes of first n natural numbers = n(n + 1)^2 / 4
+
+## 5. Weighted Average & Alligation
+- Combined Average = (n_1 * A_1 + n_2 * A_2) / (n_1 + n_2)
+- Ratio: n_1 / n_2 = (A_2 - A_avg) / (A_avg - A_1)
+
+## 6. Average Speed (Harmonic Mean)
+- Two equal distances: 2uv / (u + v)
+- Three equal distances: 3uvw / (uv + vw + wu)

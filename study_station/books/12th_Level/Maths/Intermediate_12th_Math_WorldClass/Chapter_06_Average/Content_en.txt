@@ -1,0 +1,57 @@
+# Chapter 06: Average (Intermediate / 12th Level)
+
+## 1. Mathematical Concept & Arithmetic Mean
+The arithmetic mean (or average) of a dataset represents the central tendency of a collection of values, mathematically defined as:
+$$\text{Average} = \frac{\text{Sum of all observations}}{\text{Total number of observations}}$$
+$$\text{Sum of observations} = \text{Average} \times \text{Number of observations}$$
+
+In competitive exams (SSC CGL, SSC CHSL, IBPS, State PCS), calculating averages purely by exhaustive summation and division is computationally slow. High-scoring candidates use the **Deviation Method (Assumed Mean Method)** and **Weighted Average Principles**.
+
+## 2. Deviation Method (Assumed Mean)
+Let $A$ be an assumed mean for observations $x_1, x_2, \dots, x_n$.
+Deviation $d_i = x_i - A$.
+$$\text{Actual Mean} = A + \frac{\sum d_i}{n}$$
+
+If the net deviation is zero, the assumed mean is the exact average. If the sum of deviations is positive, the true average lies above $A$; if negative, it lies below $A$.
+
+## 3. Inclusion, Exclusion, and Replacement of Members
+- **Inclusion of a New Member:**
+  When a new observation of value $X$ joins a group of $n$ members with average $A$, and the new average becomes $A'$:
+  $$X = A' + n(A' - A) = A + (n + 1)(A' - A)$$
+- **Exclusion of an Existing Member:**
+  When one member of value $Y$ leaves a group of $n$ members:
+  $$Y = A - (n - 1)(A' - A)$$
+- **Replacement:**
+  When one member of value $Y$ is replaced by another member of value $X$:
+  $$X = Y + n(A' - A)$$
+  (If the average increases, the incoming member exceeds the outgoing member by $n \Delta A$).
+
+## 4. Weighted Average and Alligation
+When two or more distinct groups are combined:
+If Group 1 has $n_1$ members with average $A_1$, and Group 2 has $n_2$ members with average $A_2$:
+$$A_{\text{avg}} = \frac{n_1 A_1 + n_2 A_2}{n_1 + n_2}$$
+
+By Rule of Alligation:
+$$\frac{n_1}{n_2} = \frac{A_2 - A_{\text{avg}}}{A_{\text{avg}} - A_1}$$
+
+## 5. Consecutive Numbers and Arithmetic Progressions
+For any set of numbers in Arithmetic Progression (AP) with common difference $d$:
+- $\text{Average} = \frac{\text{First Term} + \text{Last Term}}{2} = \text{Middle Term (if } n \text{ is odd)}$.
+- If $n$ is even, $\text{Average} = \frac{\text{Sum of two middle terms}}{2}$.
+- The average of first $n$ natural numbers $= \frac{n + 1}{2}$.
+- The average of first $n$ even natural numbers $= n + 1$.
+- The average of first $n$ odd natural numbers $= n$.
+- The average of squares of first $n$ natural numbers $= \frac{(n + 1)(2n + 1)}{6}$.
+- The average of cubes of first $n$ natural numbers $= \frac{n(n + 1)^2}{4}$.
+
+## 6. Cricket & Batting/Bowling Averages
+- **Batting Average:**
+  $$\text{Batting Average} = \frac{\text{Total Runs Scored}}{\text{Total Innings Out}}$$
+  (Not outs are excluded from the denominator).
+- **Bowling Average:**
+  $$\text{Bowling Average} = \frac{\text{Total Runs Conceded}}{\text{Total Wickets Taken}}$$
+  (A lower bowling average indicates superior performance).
+
+## 7. Speed & Distance Averages
+- Harmonic Mean of speeds: If a journey of equal distance is covered at speeds $v_1$ and $v_2$:
+  $$\text{Average Speed} = \frac{2 v_1 v_2}{v_1 + v_2}$$
