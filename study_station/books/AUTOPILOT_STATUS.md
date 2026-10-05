@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 05-10-2026 08:16 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 05-10 07:45 PM
+**आख़िरी update:** 05-10-2026 08:31 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 05-10 07:45 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Noun (Graduation English) | ✍️ लिख रहा है | 30 मिनट |
-| W2 | Chapter 02 Pronoun (Graduation English) | ✍️ लिख रहा है | 30 मिनट |
-| W3 | Chapter 03 Adjective (Graduation English) | ✍️ लिख रहा है | 30 मिनट |
-| W4 | Chapter 04 Verb (Graduation English) | ✍️ लिख रहा है | 30 मिनट |
+| W1 | Chapter 01 Noun (Graduation English) | ✍️ लिख रहा है | 46 मिनट |
+| W2 | Chapter 02 Pronoun (Graduation English) | ✍️ लिख रहा है | 46 मिनट |
+| W3 | Chapter 03 Adjective (Graduation English) | ✍️ लिख रहा है | 45 मिनट |
+| W4 | Chapter 04 Verb (Graduation English) | ✍️ लिख रहा है | 45 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -38,44 +38,44 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-05-10 20:05:58   [Adjective] Practice_hi_Set_01.txt try 1: rejected (answers not spread)
-05-10 20:07:41   [Noun] Practice_hi_Set_02.txt try 3: rejected (answers not spread)
-05-10 20:07:41   [Noun] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
-05-10 20:08:20   [Pronoun] Practice_hi_Set_02.txt try 2: rejected (parsed 21 questions, numbers 26…49)
-05-10 20:08:22   [Adjective] Practice_hi_Set_01.txt try 2: rejected (answers not spread)
-05-10 20:08:49   [Verb] Practice_en_Set_03.txt try 1: rejected (answers not spread)
-05-10 20:08:55   [Verb] Practice_en_Set_03.txt try 2: rejected (parsed 0 questions, numbers -…-)
-05-10 20:09:02   [Verb] Practice_en_Set_03.txt try 3: rejected (parsed 0 questions, numbers -…-)
-05-10 20:09:02   [Verb] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
-05-10 20:09:12   [Noun] Practice_en_Set_03.txt try 1: rejected (answers not spread)
-05-10 20:10:04   [Adjective] Practice_hi_Set_01.txt try 3: rejected (answers not spread)
-05-10 20:10:04   [Adjective] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
-05-10 20:10:41   [Noun] Practice_en_Set_03.txt try 2: rejected (parsed 21 questions, numbers 51…75)
-05-10 20:10:54   [Pronoun] Practice_hi_Set_02.txt try 3: rejected (answers not spread)
-05-10 20:10:54   [Pronoun] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
-05-10 20:10:55   [Adjective] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
-05-10 20:11:18   [Verb] Practice_hi_Set_03.txt try 1: rejected (answers not spread)
-05-10 20:11:27   [Verb] Practice_hi_Set_03.txt try 2: rejected (parsed 0 questions, numbers -…-)
-05-10 20:11:40   [Verb] Practice_hi_Set_03.txt try 3: rejected (parsed 0 questions, numbers -…-)
-05-10 20:11:40   [Verb] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
-05-10 20:12:11   [Verb] Practice_en_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
-05-10 20:12:18   [Verb] Practice_en_Set_04.txt try 2: rejected (parsed 0 questions, numbers -…-)
-05-10 20:12:47   [Pronoun] Practice_en_Set_03.txt try 1: rejected (answers not spread)
-05-10 20:12:55   [Pronoun] Practice_en_Set_03.txt try 2: rejected (parsed 0 questions, numbers -…-)
-05-10 20:13:04   [Noun] Practice_en_Set_03.txt try 3: rejected (parsed 21 questions, numbers 51…75)
-05-10 20:13:04   [Noun] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
-05-10 20:13:46   [Verb] Practice_en_Set_04.txt try 3: rejected (parsed 23 questions, numbers 76…100)
-05-10 20:13:46   [Verb] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
-05-10 20:14:18   [Pronoun] Practice_en_Set_03.txt try 3: rejected (answers not spread)
-05-10 20:14:18   [Pronoun] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
-05-10 20:14:27   [Adjective] Practice_en_Set_02.txt try 2: rejected (answers not spread)
-05-10 20:14:36   [Adjective] Practice_en_Set_02.txt try 3: rejected (parsed 0 questions, numbers -…-)
-05-10 20:14:36   [Adjective] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
-05-10 20:14:43   [Adjective] Practice_hi_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
-05-10 20:14:50   [Adjective] Practice_hi_Set_02.txt try 2: rejected (parsed 0 questions, numbers -…-)
-05-10 20:15:02   [Noun] Practice_hi_Set_03.txt try 1: rejected (answers not spread)
-05-10 20:15:26   [Verb] Practice_hi_Set_04.txt try 1: rejected (answers not spread)
-05-10 20:15:31   [Verb] Practice_hi_Set_04.txt try 2: rejected (parsed 0 questions, numbers -…-)
-05-10 20:15:36   [Verb] Practice_hi_Set_04.txt try 3: rejected (parsed 0 questions, numbers -…-)
-05-10 20:15:36   [Verb] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
+05-10 20:18:46   [Verb] Practice_en_Set_05.txt try 2: rejected (answers not spread)
+05-10 20:19:37   [Pronoun] Practice_hi_Set_03.txt try 3: rejected (answers not spread)
+05-10 20:19:37   [Pronoun] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
+05-10 20:19:41   [Pronoun] Practice_en_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
+05-10 20:19:45   [Adjective] Practice_en_Set_03.txt try 1: rejected (parsed 22 questions, numbers 51…75)
+05-10 20:19:54   [Verb] Practice_en_Set_05.txt try 3: rejected (answers not spread)
+05-10 20:19:54   [Verb] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
+05-10 20:20:31   [Noun] Practice_hi_Set_03.txt try 3: rejected (answers not spread)
+05-10 20:20:31   [Noun] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
+05-10 20:21:04   [Adjective] Practice_en_Set_03.txt try 2: rejected (Q55:duplicate_options)
+05-10 20:21:48   [Verb] Practice_hi_Set_05.txt try 1: rejected (answers not spread)
+05-10 20:22:29   [Pronoun] Practice_en_Set_04.txt try 2: rejected (answers not spread)
+05-10 20:22:35   [Noun] Practice_en_Set_04.txt try 1: rejected (parsed 24 questions, numbers 76…100)
+05-10 20:22:49   [Adjective] Practice_en_Set_03.txt try 3: rejected (answers not spread)
+05-10 20:22:49   [Adjective] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
+05-10 20:23:00   [Adjective] Practice_hi_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
+05-10 20:23:58   [Noun] Practice_en_Set_04.txt try 2: rejected (answers not spread)
+05-10 20:24:07   [Verb] Practice_hi_Set_05.txt try 2: rejected (parsed 19 questions, numbers 101…124)
+05-10 20:24:18   [Pronoun] Practice_en_Set_04.txt try 3: rejected (answers not spread)
+05-10 20:24:18   [Pronoun] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
+05-10 20:25:18   [Noun] Practice_en_Set_04.txt try 3: rejected (answers not spread)
+05-10 20:25:18   [Noun] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
+05-10 20:25:27   [Adjective] Practice_hi_Set_03.txt try 2: rejected (answers not spread)
+05-10 20:26:24   [Verb] Practice_hi_Set_05.txt try 3: rejected (parsed 22 questions, numbers 101…125)
+05-10 20:26:24   [Verb] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
+05-10 20:26:33   [Verb] Practice_en_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
+05-10 20:27:22   [Noun] Practice_hi_Set_04.txt try 1: rejected (parsed 23 questions, numbers 76…99)
+05-10 20:27:54   [Adjective] Practice_hi_Set_03.txt try 3: rejected (answers not spread)
+05-10 20:27:54   [Adjective] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
+05-10 20:28:03   [Verb] Practice_en_Set_06.txt try 2: rejected (answers not spread)
+05-10 20:28:27   [Adjective] Practice_en_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
+05-10 20:28:29   [Pronoun] Practice_hi_Set_04.txt try 1: rejected (parsed 18 questions, numbers 76…99)
+05-10 20:30:11   [Verb] Practice_en_Set_06.txt try 3: rejected (answers not spread)
+05-10 20:30:11   [Verb] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+05-10 20:30:13   [Adjective] Practice_en_Set_04.txt try 2: rejected (parsed 13 questions, numbers 76…99)
+05-10 20:30:44   [Noun] Practice_hi_Set_04.txt try 2: rejected (parsed 23 questions, numbers 76…100)
+05-10 20:30:48   [Noun] Practice_hi_Set_04.txt try 3: rejected (parsed 0 questions, numbers -…-)
+05-10 20:30:48   [Noun] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
+05-10 20:30:54   [Pronoun] Practice_hi_Set_04.txt try 2: rejected (answers not spread)
+05-10 20:30:59   [Noun] Practice_en_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
 ```
