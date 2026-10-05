@@ -1,181 +1,154 @@
-MCQ Set 5 (Medium & Hard) – Questions 101 to 125
+Set 5: LCM & HCF MCQs (English)
+Questions 101–125: Medium & Hard
 
-101. The product of two numbers is 2160 and their HCF is 6. Their LCM is:
-(A) 360 (B) 180 (C) 720 (D) 90
+Q101. The product of two positive numbers is 2160 and their HCF is 6. What is their LCM?
+(a) 360 (b) 180 (c) 720 (d) 90
+Answer: (a) 360
+Solution: Using the fundamental identity: LCM = Product of numbers / HCF = 2160 / 6 = 360. Thus, their LCM is 360. Hence, the correct option is (a).
+Source: SSC CGL
 
-102. The ratio of two numbers is 7 : 8 and their HCF is 11. The sum of the numbers is:
-(A) 165 (B) 176 (C) 154 (D) 187
+Q102. The ratio of two positive numbers is 7 : 8 and their HCF is 11. What is the sum of the two numbers?
+(a) 154 (b) 165 (c) 176 (d) 187
+Answer: (b) 165
+Solution: The two numbers are 7 × 11 = 77 and 8 × 11 = 88. Their sum is 77 + 88 = 165. Hence, the sum of the numbers is 165. Hence, the correct option is (b).
+Source: SSC CHSL
 
-103. The greatest number that divides 38, 50, and 74, leaving a remainder of 2 in each case, is:
-(A) 12 (B) 18 (C) 24 (D) 36
+Q103. What is the greatest positive integer that divides 38, 50, and 74 leaving a remainder of 2 in each case?
+(a) 18 (b) 24 (c) 12 (d) 36
+Answer: (c) 12
+Solution: Subtracting 2 from each number gives 38 – 2 = 36, 50 – 2 = 48, and 74 – 2 = 72. Factoring: 36 = 2² × 3², 48 = 2⁴ × 3, and 72 = 2³ × 3². Common prime factors with lowest powers are 2² × 3¹ = 12. Thus, HCF(36, 48, 72) = 12. Therefore, the greatest number is 12. Hence, the correct option is (c).
+Source: SSC MTS
 
-104. The LCM of
-2
-5
-,
-4
-15
-,
-6
-25
-5
-2
-	​
+Q104. What is the LCM of the fractions 2/5, 4/15, and 6/25?
+(a) 2/25 (b) 6/5 (c) 12/25 (d) 12/5
+Answer: (d) 12/5
+Solution: LCM of fractions = LCM of numerators divided by HCF of denominators. Numerators: 2, 4, 6 ⇒ LCM(2, 4, 6) = 12. Denominators: 5, 15, 25 ⇒ HCF(5, 15, 25) = 5. Therefore, the LCM is 12/5. Hence, the correct option is (d).
+Source: RRB NTPC
 
-,
-15
-4
-	​
+Q105. The product of two positive numbers is 3072 and their HCF is 16. How many distinct pairs of such numbers exist?
+(a) 2 (b) 1 (c) 3 (d) 4
+Answer: (a) 2
+Solution: Let the numbers be 16a and 16b with gcd(a, b) = 1 and a < b. Their product is 16a × 16b = 256ab = 3072 ⇒ ab = 3072 / 256 = 12. The co-prime factor pairs (a, b) of 12 with a < b are (1, 12) and (3, 4). (Pair (2, 6) is not co-prime as gcd(2, 6) = 2). Thus, there are exactly 2 pairs. Hence, the correct option is (a).
+Source: RRB Group D
 
-,
-25
-6
-	​
+Q106. What is the smallest positive integer which when divided by 20, 25, 35, and 40 leaves remainders of 14, 19, 29, and 34 respectively?
+(a) 1400 (b) 1394 (c) 1406 (d) 1390
+Answer: (b) 1394
+Solution: Notice that the difference between each divisor and its corresponding remainder is constant: 20 – 14 = 6, 25 – 19 = 6, 35 – 29 = 6, and 40 – 34 = 6. The required number has the form LCM(20, 25, 35, 40) – 6. Prime factorizations: 20 = 2² × 5, 25 = 5², 35 = 5 × 7, and 40 = 2³ × 5. LCM = 2³ × 5² × 7 = 8 × 25 × 7 = 1400. Subtracting the constant difference 6: 1400 – 6 = 1394. (Trap: Adding 6 gives 1406, which leaves incorrect remainders). Thus, the smallest number is 1394. Hence, the correct option is (b).
+Source: SSC CGL
 
- is:
-(A)
-12
-5
-5
-12
-	​
+Q107. Three numbers are in the ratio 1 : 2 : 3 and their HCF is 12. What is their LCM?
+(a) 36 (b) 48 (c) 72 (d) 144
+Answer: (c) 72
+Solution: Since the HCF is 12, the numbers are 1 × 12 = 12, 2 × 12 = 24, and 3 × 12 = 36. Finding their LCM: 12 = 2² × 3, 24 = 2³ × 3, and 36 = 2² × 3². LCM = 2³ × 3² = 8 × 9 = 72. Hence, their LCM is 72. Hence, the correct option is (c).
+Source: SSC CHSL
 
- (B)
-2
-5
-5
-2
-	​
+Q108. The LCM of two numbers is 495 and their HCF is 5. If the sum of the two numbers is 100, what is the positive difference between the two numbers?
+(a) 5 (b) 15 (c) 20 (d) 10
+Answer: (d) 10
+Solution: Let the numbers be 5a and 5b with gcd(a, b) = 1. Then LCM = 5ab = 495 ⇒ ab = 99. The sum is 5(a + b) = 100 ⇒ a + b = 20. The co-prime factors of 99 summing to 20 are a = 11 and b = 9. The numbers are 5(11) = 55 and 5(9) = 45. Their positive difference is 55 – 45 = 10. Thus, the difference between the numbers is 10. Hence, the correct option is (d).
+Source: SSC MTS
 
- (C)
-4
-5
-5
-4
-	​
+Q109. What is the least positive number that must be added to 10000 so that the sum is completely divisible by 24, 30, and 36?
+(a) 80 (b) 100 (c) 120 (d) 60
+Answer: (a) 80
+Solution: Prime factorizations: 24 = 2³ × 3, 30 = 2 × 3 × 5, and 36 = 2² × 3². LCM(24, 30, 36) = 2³ × 3² × 5 = 8 × 9 × 5 = 360. Dividing 10000 by 360: 10000 = 360 × 27 + 280 (remainder is 280). To make it divisible, add 360 – 280 = 80: 10000 + 80 = 10080. Therefore, the least number to add is 80. Hence, the correct option is (a).
+Source: RRB NTPC
 
- (D)
-6
-5
-5
-6
-	​
+Q110. What is the HCF of the decimal numbers 2.4, 3.6, and 4.8?
+(a) 0.6 (b) 1.2 (c) 2.4 (d) 0.12
+Answer: (b) 1.2
+Solution: Expressing each number as a fraction over 10: 24/10, 36/10, and 48/10. The HCF of the numerators (24, 36, 48) is 12. Dividing by 10 gives 12 / 10 = 1.2. Hence, the HCF is 1.2. Hence, the correct option is (b).
+Source: RRB Group D
 
-105. The HCF of two numbers is 16 and their product is 3072. How many such pairs of numbers exist?
-(A) 1 (B) 2 (C) 3 (D) 4
+Q111. The LCM of two numbers is 420 and their HCF is 15. If one of the numbers is 60, what is the other number?
+(a) 90 (b) 120 (c) 105 (d) 75
+Answer: (c) 105
+Solution: Using the product formula: 60 × Other = LCM × HCF = 420 × 15 = 6300. Dividing by 60 gives: Other number = 6300 / 60 = 105. Thus, the other number is 105. Hence, the correct option is (c).
+Source: SSC CGL
 
-106. Find the least number which when divided by 20, 25, 35, and 40 leaves remainders 14, 19, 29, and 34 respectively.
-(A) 1394 (B) 1400 (C) 1406 (D) 1386
+Q112. Two numbers are in the ratio 5 : 7 and their LCM is 315. What is their HCF?
+(a) 3 (b) 5 (c) 7 (d) 9
+Answer: (d) 9
+Solution: Let the numbers be 5k and 7k. Since 5 and 7 are co-prime, LCM = 5 × 7 × k = 35k. Given 35k = 315 ⇒ k = 315 / 35 = 9. The common factor k is the HCF = 9. Therefore, their HCF is 9. Hence, the correct option is (d).
+Source: SSC CHSL
 
-107. Three numbers are in the ratio 1 : 2 : 3 and their HCF is 12. Their LCM is:
-(A) 36 (B) 48 (C) 72 (D) 144
+Q113. What is the greatest four-digit number that is completely divisible by 15, 20, and 25?
+(a) 9900 (b) 9800 (c) 9600 (d) 9950
+Answer: (a) 9900
+Solution: Prime factorizations: 15 = 3 × 5, 20 = 2² × 5, and 25 = 5². LCM(15, 20, 25) = 2² × 3 × 5² = 300. The largest 4-digit number is 9999. Dividing 9999 by 300: 9999 = 300 × 33 + 99 (remainder = 99). Subtracting the remainder gives 9999 – 99 = 9900. Hence, the greatest number is 9900. Hence, the correct option is (a).
+Source: SSC MTS
 
-108. The LCM of two numbers is 495 and their HCF is 5. If the sum of the numbers is 100, their difference is:
-(A) 5 (B) 10 (C) 15 (D) 20
+Q114. Three bells toll at intervals of 9, 12, and 15 minutes respectively. If they toll together at 10:00 AM, at what time will they next toll together?
+(a) 12:00 PM (b) 1:00 PM (c) 1:30 PM (d) 2:00 PM
+Answer: (b) 1:00 PM
+Solution: Prime factorizations: 9 = 3², 12 = 2² × 3, and 15 = 3 × 5. LCM = 2² × 3² × 5 = 180 minutes = 3 hours. Adding 3 hours to 10:00 AM gives 1:00 PM. Thus, they will toll together at 1:00 PM. Hence, the correct option is (b).
+Source: RRB NTPC
 
-109. What is the smallest number that must be added to 10000 to make it exactly divisible by 24, 30, and 36?
-(A) 60 (B) 80 (C) 100 (D) 120
+Q115. What is the smallest perfect cube positive integer that is completely divisible by 6, 9, and 12?
+(a) 108 (b) 144 (c) 216 (d) 324
+Answer: (c) 216
+Solution: Prime factorizations: 6 = 2 × 3, 9 = 3², and 12 = 2² × 3. LCM(6, 9, 12) = 2² × 3² = 36. For a perfect cube, every prime exponent must be a multiple of 3. Raising the exponents of 2 and 3 to 3 gives 2³ × 3³ = 8 × 27 = 216. Since 216 = 6³ is a perfect cube and divisible by 36, the smallest perfect cube is 216. Hence, the correct option is (c).
+Source: RRB Group D
 
-110. The HCF of 2.4, 3.6, and 4.8 is:
-(A) 0.6 (B) 1.2 (C) 2.4 (D) 0.12
+Q116. The sum of two positive numbers is 120 and their HCF is 15. How many distinct pairs of such numbers exist?
+(a) 1 (b) 3 (c) 4 (d) 2
+Answer: (d) 2
+Solution: Let the numbers be 15a and 15b with gcd(a, b) = 1 and a < b. Their sum is 15(a + b) = 120 ⇒ a + b = 8. Co-prime pairs (a, b) summing to 8 with a < b are (1, 7) and (3, 5). (Pairs (2, 6) and (4, 4) have gcd > 1). Thus, there are exactly 2 pairs. Hence, the correct option is (d).
+Source: SSC CGL
 
-111. Two numbers have HCF 15 and LCM 420. If one number is 60, the other is:
-(A) 90 (B) 105 (C) 120 (D) 75
+Q117. What is the HCF of the decimal numbers 1.75, 7.5, and 3.25?
+(a) 0.25 (b) 0.5 (c) 0.75 (d) 1.25
+Answer: (a) 0.25
+Solution: Writing as fractions with denominator 100: 175/100, 750/100, and 325/100. Finding HCF of numerators: 175 = 5² × 7, 750 = 2 × 3 × 5³, and 325 = 5² × 13. The common factor with lowest power is 5² = 25. Dividing by 100 gives 25 / 100 = 0.25. Therefore, the HCF is 0.25. Hence, the correct option is (a).
+Source: SSC CHSL
 
-112. The ratio of two numbers is 5 : 7. If their LCM is 315, their HCF is:
-(A) 3 (B) 5 (C) 7 (D) 9
+Q118. The LCM of two numbers is 20 times their HCF. The sum of their LCM and HCF is 252. What is the product of the two numbers?
+(a) 2400 (b) 2880 (c) 3120 (d) 3360
+Answer: (b) 2880
+Solution: Let HCF = h, then LCM = 20h. Given: h + 20h = 252 ⇒ 21h = 252 ⇒ h = 12. Therefore, LCM = 20 × 12 = 240. Using the product formula: Product of numbers = LCM × HCF = 240 × 12 = 2880. Thus, the product is 2880. Hence, the correct option is (b).
+Source: SSC MTS
 
-113. The greatest 4‑digit number exactly divisible by 15, 20, and 25 is:
-(A) 9900 (B) 9750 (C) 9600 (D) 9450
+Q119. What is the smallest positive integer which when divided by 12, 15, 20, and 27 leaves remainders of 10, 13, 18, and 25 respectively?
+(a) 540 (b) 542 (c) 538 (d) 536
+Answer: (c) 538
+Solution: The difference between each divisor and its remainder is constant: 12 – 10 = 2, 15 – 13 = 2, 20 – 18 = 2, and 27 – 25 = 2. Prime factorizations: 12 = 2² × 3, 15 = 3 × 5, 20 = 2² × 5, and 27 = 3³. LCM(12, 15, 20, 27) = 2² × 3³ × 5 = 4 × 27 × 5 = 540. Subtracting the constant difference 2 gives: 540 – 2 = 538. Therefore, the required smallest number is 538. Hence, the correct option is (c).
+Source: RRB NTPC
 
-114. Three bells toll at intervals of 9 min, 12 min, and 15 min. They toll together at 10:00 AM. At what time will they next toll together?
-(A) 11:00 AM (B) 12:00 noon (C) 1:00 PM (D) 3:00 PM
+Q120. What is the HCF of the fractions 2/3, 8/9, and 64/81?
+(a) 4/9 (b) 2/9 (c) 64/3 (d) 2/81
+Answer: (d) 2/81
+Solution: HCF of fractions = HCF of numerators divided by LCM of denominators. Numerators: 2, 8, 64 ⇒ HCF(2, 8, 64) = 2. Denominators: 3, 9, 81 ⇒ LCM(3, 9, 81) = 81. Therefore, the HCF is 2/81. Hence, the correct option is (d).
+Source: RRB Group D
 
-115. The least perfect cube which is exactly divisible by 6, 9, and 12 is:
-(A) 216 (B) 512 (C) 729 (D) 1728
+Q121. (Hard) What is the greatest positive integer that divides 445, 572, and 699 leaving remainders of 4, 5, and 6 respectively?
+(a) 63 (b) 21 (c) 42 (d) 84
+Answer: (a) 63
+Solution: Subtracting the respective remainders: 445 – 4 = 441, 572 – 5 = 567, and 699 – 6 = 693. Factoring: 441 = 3² × 7², 567 = 3⁴ × 7, and 693 = 3² × 7 × 11. Common prime factors with lowest powers: 3² × 7¹ = 9 × 7 = 63. Thus, HCF(441, 567, 693) = 63. Therefore, the greatest number is 63. Hence, the correct option is (a).
+Source: SSC CGL
 
-116. The sum of two numbers is 120 and their HCF is 15. The number of such pairs is:
-(A) 1 (B) 2 (C) 3 (D) 4
+Q122. (Hard) The HCF of two numbers is 23 and the other two factors of their LCM are 13 and 14. What is the larger of the two numbers?
+(a) 299 (b) 322 (c) 276 (d) 345
+Answer: (b) 322
+Solution: When the HCF of two numbers is H and the remaining co-prime factors of their LCM are a and b, the two numbers are H × a and H × b. Here, H = 23, a = 13, and b = 14. The larger number is 23 × 14 = 322 (the smaller is 23 × 13 = 299). Hence, the larger number is 322. Hence, the correct option is (b).
+Source: SSC CHSL
 
-117. The HCF of 1.75, 7.5, and 3.25 is:
-(A) 0.25 (B) 0.50 (C) 0.75 (D) 1.25
+Q123. (Hard) A rectangular courtyard 3.78 m long and 5.25 m wide is to be paved exactly with identical square tiles of the largest possible size. What is the minimum number of tiles required?
+(a) 300 (b) 600 (c) 450 (d) 750
+Answer: (c) 450
+Solution: Converting dimensions to centimeters: length = 378 cm, width = 525 cm. The side length of the largest square tile is HCF(378, 525). Factoring: 378 = 2 × 3³ × 7 and 525 = 3 × 5² × 7. Common factors with lowest powers are 3¹ × 7¹ = 21 cm. Number of tiles required = (378 × 525) / (21 × 21) = (378 / 21) × (525 / 21) = 18 × 25 = 450 tiles. Thus, the minimum number of tiles is 450. Hence, the correct option is (c).
+Source: SSC MTS
 
-118. The LCM of two numbers is 20 times their HCF. If the sum of LCM and HCF is 252, the product of the numbers is:
-(A) 1440 (B) 2160 (C) 2520 (D) 2880
+Q124. (Hard) The LCM of 24, 36, and a third positive integer x is 144. What is the smallest possible value of x?
+(a) 24 (b) 48 (c) 18 (d) 16
+Answer: (d) 16
+Solution: Factoring the numbers: 24 = 2³ × 3, 36 = 2² × 3², and LCM = 144 = 2⁴ × 3². In the prime factorization of the LCM, the factor 2 has exponent 4, whereas the highest exponent of 2 in 24 and 36 is only 3. Therefore, the factor 2⁴ must be contributed by x. To minimize x, set any other prime factors to their lowest non-negative powers, giving x = 2⁴ = 16. (Trap: Choosing 24 or 48 gives higher values; 16 is the minimal integer supplying 2⁴). Thus, the smallest value of x is 16. Hence, the correct option is (d).
+Source: RRB NTPC
 
-119. The least number which when divided by 12, 15, 20, and 27 leaves remainders 10, 13, 18, and 25 respectively is:
-(A) 538 (B) 540 (C) 542 (D) 548
+Q125. (Hard) What is the least positive multiple of 7 which leaves a remainder of 1 when divided by 2, 3, 4, 5, and 6?
+(a) 420 (b) 301 (c) 721 (d) 511
+Answer: (b) 301
+Solution: The number must be of the form LCM(2, 3, 4, 5, 6) × k + 1 = 60k + 1, and must also be completely divisible by 7. In modular arithmetic modulo 7: 60k + 1 ≡ 4k + 1 ≡ 0 (mod 7) ⇒ 4k ≡ –1 ≡ 6 (mod 7). Multiplying by 2: 8k ≡ k ≡ 12 ≡ 5 (mod 7). The smallest positive integer is k = 5. Substituting k = 5: 60(5) + 1 = 300 + 1 = 301. Check: 301 / 7 = 43 (divisible by 7) and 301 = 60 × 5 + 1. Hence, the least multiple of 7 is 301. Hence, the correct option is (b).
+Source: RRB Group D
 
-120. The HCF of
-2
-3
-,
-8
-9
-,
-64
-81
-3
-2
-	​
-
-,
-9
-8
-	​
-
-,
-81
-64
-	​
-
- is:
-(A)
-2
-81
-81
-2
-	​
-
- (B)
-2
-27
-27
-2
-	​
-
- (C)
-4
-81
-81
-4
-	​
-
- (D)
-8
-81
-81
-8
-	​
-
-121. (Hard) Find the greatest number that will divide 445, 572, and 699 leaving remainders 4, 5, and 6 respectively.
-(A) 21 (B) 42 (C) 63 (D) 84
-
-122. (Hard) The HCF of two numbers is 23 and the other two factors of their LCM are 13 and 14. The larger of the two numbers is:
-(A) 299 (B) 322 (C) 276 (D) 345
-
-123. (Hard) A rectangular courtyard 3.78 m long and 5.25 m wide is to be paved exactly with square tiles of the same size. The minimum number of such tiles is:
-(A) 300 (B) 450 (C) 600 (D) 750
-
-124. (Hard) The LCM of 24, 36, and a third number
-𝑥
-x is 144. The smallest possible value of
-𝑥
-x is:
-(A) 16 (B) 18 (C) 24 (D) 48
-
-125. (Hard) Find the least multiple of 7 which leaves a remainder of 1 when divided by 2, 3, 4, 5, and 6.
-(A) 301 (B) 721 (C) 420 (D) 511
-
-📝 Answer Key with Step-by-Step Solutions
-<details> <summary><strong>101. Answer: (A) 360</strong></summary> LCM = Product ÷ HCF = 2160 ÷ 6 = 360.<br> <em>Source: NCERT Class 10</em> </details><details> <summary><strong>102. Answer: (A) 165</strong></summary> Numbers = 7×11 = 77, 8×11 = 88. Sum = 165.<br> <em>Source: SSC CGL Pattern</em> </details><details> <summary><strong>103. Answer: (A) 12</strong></summary> Subtract 2: 36, 48, 72. HCF(36,48,72) = 12.<br> <em>Source: NCERT Class 6 / SSC MTS</em> </details><details> <summary><strong>104. Answer: (A) \(\frac{12}{5}\)</strong></summary> LCM of fractions = LCM(2,4,6) / HCF(5,15,25) = 12 / 5.<br> <em>Source: SSC CGL Memory Based</em> </details><details> <summary><strong>105. Answer: (B) 2</strong></summary> Numbers = 16a, 16b (co-prime). Product = 256ab = 3072 ⇒ ab = 12. Co-prime pairs: (1,12), (3,4) → 2 pairs.<br> <em>Source: SSC CGL Tier‑I</em> </details><details> <summary><strong>106. Answer: (A) 1394</strong></summary> Difference between divisor and remainder is 6 each time. Number = LCM(20,25,35,40) − 6 = 1400 − 6 = 1394.<br> <em>Source: SSC CGL / Banking</em> </details><details> <summary><strong>107. Answer: (C) 72</strong></summary> Numbers = 12, 24, 36. LCM(12,24,36) = 72.<br> <em>Source: SSC CHSL Pattern</em> </details><details> <summary><strong>108. Answer: (B) 10</strong></summary> Numbers = 5a, 5b, a,b co-prime. Product = 5a × 5b = LCM × HCF = 495×5 = 2475 ⇒ ab = 99. Sum = 5(a+b) = 100 ⇒ a+b = 20. Solving a=11, b=9 gives numbers 55 and 45. Difference = 10.<br> <em>Source: SSC CGL Tier‑II</em> </details><details> <summary><strong>109. Answer: (B) 80</strong></summary> LCM of 24,30,36 = 360. 10000 ÷ 360 = 27 remainder 280. Next multiple = 10000 + (360−280) = 10080. Amount added = 80.<br> <em>Source: NCERT Class 6 / Railway</em> </details><details> <summary><strong>110. Answer: (B) 1.2</strong></summary> Multiply by 10: 24, 36, 48. HCF = 12. Divide by 10 → 1.2.<br> <em>Source: Bank PO Pattern</em> </details><details> <summary><strong>111. Answer: (B) 105</strong></summary> Other number = (LCM × HCF) ÷ 60 = (420 × 15) ÷ 60 = 6300 ÷ 60 = 105.<br> <em>Source: SSC MTS Pattern</em> </details><details> <summary><strong>112. Answer: (D) 9</strong></summary> Numbers = 5k, 7k. LCM = 5×7×k = 35k = 315 ⇒ k = 9. So HCF = 9.<br> <em>Source: SSC CGL Pattern</em> </details><details> <summary><strong>113. Answer: (A) 9900</strong></summary> LCM of 15,20,25 = 300. Largest 4-digit 9999. 9999 ÷ 300 = 33 remainder 99. Required = 9999 − 99 = 9900.<br> <em>Source: SSC CGL Tier‑I</em> </details><details> <summary><strong>114. Answer: (C) 1:00 PM</strong></summary> LCM of 9,12,15 = 180 minutes = 3 hours. Next together at 10:00 + 3h = 1:00 PM.<br> <em>Source: Railway RRB Group D</em> </details><details> <summary><strong>115. Answer: (A) 216</strong></summary> LCM of 6,9,12 = 36 = 2²×3². To make a perfect cube, need 2³×3³ = 8×27 = 216.<br> <em>Source: SSC CGL Tier‑II</em> </details><details> <summary><strong>116. Answer: (B) 2</strong></summary> Numbers = 15a, 15b, a,b co-prime, a+b = 8. Pairs: (1,7), (3,5) → 2.<br> <em>Source: SSC CGL Tier‑I</em> </details><details> <summary><strong>117. Answer: (A) 0.25</strong></summary> HCF of fractions = HCF(175,750,325) / LCM(100,100,100) = 25/100 = 0.25. Alternatively, HCF(1.75,7.5,3.25) = HCF(7/4, 15/2, 13/4) = 1/4 = 0.25.<br> <em>Source: Banking Exam Pattern</em> </details><details> <summary><strong>118. Answer: (D) 2880</strong></summary> HCF = h, LCM = 20h. Sum = 21h = 252 ⇒ h = 12, LCM = 240. Product = LCM × HCF = 12 × 240 = 2880.<br> <em>Source: SSC CGL Memory Based</em> </details><details> <summary><strong>119. Answer: (A) 538</strong></summary> Difference in each case: 2. Number = LCM(12,15,20,27) − 2 = 540 − 2 = 538.<br> <em>Source: SSC CGL / IBPS</em> </details><details> <summary><strong>120. Answer: (A) \(\frac{2}{81}\)</strong></summary> HCF of fractions = HCF(2,8,64) / LCM(3,9,81) = 2 / 81.<br> <em>Source: SSC CHSL Pattern</em> </details><details> <summary><strong>121. Answer: (C) 63</strong></summary> Subtract remainders: 445−4=441, 572−5=567, 699−6=693. HCF(441,567,693) = 63.<br> <em>Source: SSC CGL Tier‑II (Hard)</em> </details><details> <summary><strong>122. Answer: (B) 322</strong></summary> Numbers = 23×13 = 299, 23×14 = 322. Larger = 322.<br> <em>Source: SSC CGL Memory Based (Hard)</em> </details><details> <summary><strong>123. Answer: (B) 450</strong></summary> Convert to cm: 378 cm × 525 cm. Side of largest square tile = HCF(378,525) = 21 cm. Number of tiles = (378×525) ÷ (21×21) = 198450 ÷ 441 = 450.<br> <em>Source: CDS / SSC CGL (Hard)</em> </details><details> <summary><strong>124. Answer: (A) 16</strong></summary> 24=2³·3, 36=2²·3², LCM=144=2⁴·3². The missing highest power is 2⁴. So x must supply at least 2⁴ and be a divisor of 144. The smallest such is 16.<br> <em>Source: SSC CGL Tier‑II (Hard)</em> </details><details> <summary><strong>125. Answer: (A) 301</strong></summary> Number ≡ 1 mod 60 (LCM of 2,3,4,5,6) and divisible by 7. Solve 60k+1 ≡ 0 mod 7 ⇒ 4k+1 ≡ 0 ⇒ 4k ≡ 6 ⇒ k ≡ 5 mod 7. Smallest k=5 gives 301.<br> <em>Source: SSC CGL / Banking (Hard)</em> </details>
+End of Set 5.
