@@ -1,0 +1,41 @@
+# Golden Short Tricks: Compound Interest (Graduation Level)
+
+## 1. Pascal's Triangle / Ratio Method
+For quick mental calculation without writing formulas:
+- **2 Years:** Use ratio **2 : 1**
+  - Step 1: Calculate R% of P = A
+  - Step 2: Calculate R% of A = B
+  - Total CI = 2*A + 1*B
+  - Difference (CI - SI) = 1*B
+- **3 Years:** Use ratio **3 : 3 : 1**
+  - Step 1: Calculate R% of P = A
+  - Step 2: Calculate R% of A = B
+  - Step 3: Calculate R% of B = C
+  - Total CI = 3*A + 3*B + 1*C
+  - Difference (CI - SI) = 3*B + 1*C
+
+## 2. Effective Percentage Rate Method (Successive Percentage)
+- For 2 years at R%:
+  Effective Rate = 2R + (R^2 / 100) %
+  Example: At 5% for 2 years:
+  Effective Rate = 2(5) + 25/100 = 10.25%.
+  CI = 10.25% of P.
+  Difference (CI - SI) = 0.25% of P.
+- For 3 years at 10%:
+  Effective Rate = 33.1%. (Since 10 + 10 + 1 = 21%, then 21 + 10 + 2.1 = 33.1%).
+  CI - SI = 33.1% - 30% = 3.1% of P.
+
+## 3. Difference Ratio Shortcut
+- If (Diff for 3 yrs) / (Diff for 2 yrs) = x / y:
+  (300 + R) / 100 = x / y => Directly solves for R in 5 seconds!
+
+## 4. Multiplier Shortcut for Equal Intervals
+- If a sum becomes A1 in t years and A2 in 2t years:
+  Principal P = (A1^2) / A2.
+  Example: If sum is Rs 4,000 in 3 years and Rs 6,000 in 6 years:
+  Principal = (4000 * 4000) / 6000 = 16000 / 6 = Rs 2,666.67.
+
+## 5. The Rule of 72
+- Approximate years to double at R% compound interest:
+  T_double ≈ 72 / R.
+  Example: At 8% p.a., money doubles in approximately 72 / 8 = 9 years.

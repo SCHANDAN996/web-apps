@@ -1,0 +1,26 @@
+```mermaid
+graph TD
+    A["Compound Interest Architecture<br>चक्रवृद्धि ब्याज संरचना"] --> B["Core Formulations<br>आधारभूत सूत्र"]
+    A --> C["Compounding Frequency<br>संयोजन आवृत्ति"]
+    A --> D["CI vs SI Discrepancies<br>CI एवं SI अंतर"]
+    A --> E["Multiplicity Power Law<br>गुने का घातांक नियम"]
+    A --> F["Equal Loan Installments<br>समान वार्षिक किश्तें"]
+
+    B --> B1["Exponential Amount Formula<br>A = P(1+R/100)^n"]
+    B --> B2["Varying Annual Rates<br>P(1+R1)(1+R2)..."]
+    B --> B3["Broken Period Compounding<br>पूर्णांक + भिन्न वर्ष"]
+
+    C --> C1["Semi-Annual Cycle<br>R/2 and 2T"]
+    C --> C2["Quarterly Cycle<br>R/4 and 4T"]
+    C --> C3["Arbitrary m-Month Basis<br>R*(m/12)%"]
+
+    D --> D1["Two-Year Difference<br>P*(R/100)^2"]
+    D --> D2["Three-Year Difference<br>P*(R/100)^2*(3+R/100)"]
+    D --> D3["Difference Ratio<br>(300+R)/100"]
+
+    E --> E1["Exponential Geometric Growth<br>T yrs -> k, 2T -> k^2"]
+    E --> E2["Rule of 72 Approximation<br>दोगुना होने का नियम"]
+
+    F --> F1["Present Value Discounting<br>P = sum(x/(1+R)^t)"]
+    F --> F2["Two-Installment Formula<br>किस्त का सीधा सूत्र"]
+```

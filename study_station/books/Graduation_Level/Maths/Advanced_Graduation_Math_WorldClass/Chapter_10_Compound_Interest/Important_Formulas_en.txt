@@ -1,0 +1,47 @@
+# Important Formulas: Compound Interest (Graduation Level)
+
+## 1. Primary Compound Interest Formulas
+- Amount: A = P * [ 1 + R / 100 ]^n
+- Compound Interest: CI = A - P = P * [ (1 + R / 100)^n - 1 ]
+- Principal from Amount: P = A / [ 1 + R / 100 ]^n
+
+## 2. Non-Annual Compounding Conversions
+- **Semi-Annual (Half-Yearly):** A = P * [ 1 + R / 200 ]^(2T)
+- **Quarterly:** A = P * [ 1 + R / 400 ]^(4T)
+- **m-Monthly Cycle:** Rate = R * (m / 12) %, Cycles = (12 * T) / m
+
+## 3. Fractional Time Periods
+- For T = a whole years and (b / c) fractional year:
+  A = P * [ 1 + R / 100 ]^a * [ 1 + (R * b/c) / 100 ]
+
+## 4. Difference Formulas (CI - SI)
+- For 2 Years:
+  Diff_2 = P * (R / 100)^2 = (P * R^2) / 10000
+- For 3 Years:
+  Diff_3 = P * (R / 100)^2 * [ 3 + R / 100 ] = [ P * R^2 * (300 + R) ] / 1000000
+- Ratio of Differences:
+  Diff_3 / Diff_2 = (300 + R) / 100
+
+## 5. Ratio / Multiplier Method (Tree Method)
+- Let A_1 = Simple interest on P for 1 year
+- Let B = Interest on A_1 for 1 year
+- Let C = Interest on B for 1 year
+- 2-Year CI = 2 * A_1 + 1 * B
+- 3-Year CI = 3 * A_1 + 3 * B + 1 * C
+- 4-Year CI = 4 * A_1 + 6 * B + 4 * C + 1 * D
+
+## 6. Multiplicity Relations
+- If sum becomes k times in T years:
+  - In 2T years: k^2 times
+  - In 3T years: k^3 times
+  - In m*T years: k^m times
+
+## 7. Installment Formula for Loans
+- Loan P repaid in n equal annual installments of Rs x at R% p.a. CI:
+  P = [ x / (1 + R/100) ] + [ x / (1 + R/100)^2 ] + ... + [ x / (1 + R/100)^n ]
+- For 2 installments:
+  P = x * [ 100 / (100 + R) ] * [ (200 + R) / (100 + R) ]
+
+## 8. Growth and Depreciation
+- Growth: P_n = P_0 * [ 1 + R / 100 ]^n
+- Depreciation: V_n = V_0 * [ 1 - R / 100 ]^n

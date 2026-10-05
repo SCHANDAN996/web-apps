@@ -1,0 +1,249 @@
+Q101. (Hard) A loan of Rs 16,400 is to be paid back in two equal annual installments at 5% per annum compound interest. Find the value of each installment.
+(A) Rs 8,820  (B) Rs 8,800  (C) Rs 8,900  (D) Rs 8,750
+
+Answer: (A)
+
+Solution:
+Let each installment be x. Discounting both installments: P = x / (1 + 5/100) + x / (1 + 5/100)^2 = 20x / 21 + 400x / 441 = 820x / 441. Given P = 16400: 16400 = 820x / 441 => x = (16400 * 441) / 820 = 20 * 441 = Rs 8,820. Therefore, the correct value is Rs 8,820, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q102. (Hard) A man borrows Rs 25,500 to be repaid in two equal half-yearly installments at 8% per annum compound interest, compounded semi-annually. Find the value of each installment.
+(A) Rs 13,500  (B) Rs 13,520  (C) Rs 13,600  (D) Rs 13,450
+
+Answer: (B)
+
+Solution:
+Semi-annual rate = 8 / 2 = 4% = 1/25. P = x / (26/25) + x / (26/25)^2 = 25x / 26 + 625x / 676 = 1275x / 676. 25500 = 1275x / 676 => x = (25500 * 676) / 1275 = 20 * 676 = Rs 13,520. Therefore, the correct value is Rs 13,520, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q103. (Hard) A sum of Rs 11,000 is borrowed at 20% compound interest per annum, payable in two equal annual installments. Find each installment.
+(A) Rs 7,000  (B) Rs 7,500  (C) Rs 7,200  (D) Rs 7,400
+
+Answer: (C)
+
+Solution:
+Rate = 20% = 1/5 => Multiplier = 6/5. P = 5x / 6 + 25x / 36 = 55x / 36. 11000 = 55x / 36 => x = (11000 * 36) / 55 = 200 * 36 = Rs 7,200. Therefore, the correct value is Rs 7,200, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q104. (Hard) A father divides Rs 26,020 between his two sons aged 15 years and 17 years such that each receives an equal amount when they reach 18 years of age at 4% per annum compound interest. Find the share of the younger son.
+(A) Rs 13,520  (B) Rs 12,000  (C) Rs 13,000  (D) Rs 12,500
+
+Answer: (D)
+
+Solution:
+Younger son's term = 18 - 15 = 3 years. Elder son's term = 18 - 17 = 1 year. Equal maturity amounts: P1 * (1 + 4/100)^3 = P2 * (1 + 4/100)^1 => P1 / P2 = 1 / (1 + 4/100)^2 = (25 / 26)^2 = 625 / 676. Total units = 625 + 676 = 1301 units = Rs 26,020 => 1 unit = Rs 20. Younger son's share = 625 * 20 = Rs 12,500. Therefore, the correct value is Rs 12,500, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q105. (Hard) A sum of Rs 16,820 is divided between two friends aged 27 years and 25 years such that their shares accumulate to equal amounts when both reach 30 years of age at 5% compound interest per annum. Find the share of the younger friend.
+(A) Rs 8,000  (B) Rs 8,820  (C) Rs 8,400  (D) Rs 8,200
+
+Answer: (A)
+
+Solution:
+Younger friend's investment duration = 30 - 25 = 5 years. Elder friend's duration = 30 - 27 = 3 years. Equal amounts: Py * (1.05)^5 = Pe * (1.05)^3 => Py / Pe = 1 / (1.05)^2 = (20 / 21)^2 = 400 / 441. Total units = 400 + 441 = 841 units = Rs 16,820 => 1 unit = Rs 20. Younger friend's share = 400 * 20 = Rs 8,000. Therefore, the correct value is Rs 8,000, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q106. (Hard) Kamal borrowed Rs 6,800 to be paid back in two equal annual installments at 12.5% per annum compound interest. Find the value of each installment.
+(A) Rs 4,000  (B) Rs 4,050  (C) Rs 4,100  (D) Rs 3,950
+
+Answer: (B)
+
+Solution:
+12.5% = 1/8 => Discount multiplier = 8/9. P = 8x / 9 + 64x / 81 = 136x / 81. 6800 = 136x / 81 => x = (6800 * 81) / 136 = 50 * 81 = Rs 4,050. Therefore, the correct value is Rs 4,050, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q107. (Hard) A sum of Rs 13,360 was borrowed at 8.75% per annum compound interest and paid back in two equal annual installments. What was the value of each installment?
+(A) Rs 7,500  (B) Rs 7,600  (C) Rs 7,569  (D) Rs 7,450
+
+Answer: (C)
+
+Solution:
+8.75% = 35/400 = 7/80 => 1 + R/100 = 87/80. P = 80x / 87 + 6400x / 7569 = (6960x + 6400x) / 7569 = 13360x / 7569. Given P = 13360: 13360 = 13360x / 7569 => x = Rs 7,569. Therefore, the correct value is Rs 7,569, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q108. (Hard) A sum of Rs 21,000 is borrowed at 10% compound interest per annum, to be paid in two equal annual installments. What is the value of each installment?
+(A) Rs 12,000  (B) Rs 12,500  (C) Rs 11,800  (D) Rs 12,100
+
+Answer: (D)
+
+Solution:
+Rate = 10% = 1/10. P = 10x / 11 + 100x / 121 = 210x / 121. 21000 = 210x / 121 => x = 100 * 121 = Rs 12,100. Therefore, the correct value is Rs 12,100, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q109. (Hard) A sum of money at compound interest amounts to Rs 10,648 in 3 years and to Rs 11,712.80 in 4 years. Find the rate of interest per annum.
+(A) 10%  (B) 9%  (C) 11%  (D) 8%
+
+Answer: (A)
+
+Solution:
+Interest in the 4th year = 11712.80 - 10648 = Rs 1,064.80. Rate R = (1064.80 * 100) / 10648 = 10% per annum. Therefore, the correct value is 10%, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q110. (Hard) The compound interest on a certain sum for 2 years at 10% per annum is Rs 525. Find the simple interest on the same sum for 3 years at 5% per annum.
+(A) Rs 350  (B) Rs 375  (C) Rs 400  (D) Rs 360
+
+Answer: (B)
+
+Solution:
+Effective CI rate for 2 years at 10% = 21%. 0.21 * Principal = 525 => Principal = 525 / 0.21 = Rs 2,500. Simple interest for 3 years at 5% = (2500 * 5 * 3) / 100 = 25 * 15 = Rs 375. Therefore, the correct value is Rs 375, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q111. (Hard) A sum of Rs 8,400 is borrowed at 10% per annum compound interest, to be repaid in two equal annual installments. Find the total interest paid in the transaction.
+(A) Rs 1,200  (B) Rs 1,300  (C) Rs 1,280  (D) Rs 1,250
+
+Answer: (C)
+
+Solution:
+P = 210x / 121 => 8400 = 210x / 121 => x = 40 * 121 = Rs 4,840. Total amount paid = 2 * 4840 = Rs 9,680. Total interest paid = 9680 - 8400 = Rs 1,280. Therefore, the correct value is Rs 1,280, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q112. (Hard) The compound interest on a sum for the 1st year is Rs 320 and for the 2nd year is Rs 336. Find the principal sum.
+(A) Rs 6,000  (B) Rs 6,500  (C) Rs 6,200  (D) Rs 6,400
+
+Answer: (D)
+
+Solution:
+Incremental interest = 336 - 320 = Rs 16. Rate R = (16 / 320) * 100 = 5%. First year interest = (P * 5 * 1) / 100 = 320 => P = (320 * 100) / 5 = Rs 6,400. Therefore, the correct value is Rs 6,400, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q113. (Hard) A certain sum amounts to Rs 7,350 in 2 years and to Rs 8,575 in 3 years at compound interest. Find the principal sum.
+(A) Rs 5,400  (B) Rs 5,000  (C) Rs 5,500  (D) Rs 5,200
+
+Answer: (A)
+
+Solution:
+Interest in 3rd year = 8575 - 7350 = Rs 1,225. Rate R = (1225 / 7350) * 100 = (1/6) * 100 = 16.67%. Growth multiplier = 1 + 1/6 = 7/6. Amount after 2 years: P * (7/6)^2 = 7350 => P = (7350 * 36) / 49 = 150 * 36 = Rs 5,400. Therefore, the correct value is Rs 5,400, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q114. (Hard) A sum of Rs 3,902 is divided between P and Q such that P's share at the end of 7 years equals Q's share at the end of 9 years, compounded annually at 4% per annum. Find P's share.
+(A) Rs 1,874  (B) Rs 2,028  (C) Rs 2,000  (D) Rs 1,950
+
+Answer: (B)
+
+Solution:
+P * (1.04)^7 = Q * (1.04)^9 => P / Q = (1.04)^2 = (26/25)^2 = 676 / 625. Total units = 676 + 625 = 1301 units = Rs 3,902 => 1 unit = Rs 3. P's share = 676 * 3 = Rs 2,028. Therefore, the correct value is Rs 2,028, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q115. (Hard) A sum of money at compound interest amounts to Rs 660 in 1 year and to Rs 726 in 2 years. Find the sum and the rate of interest per annum.
+(A) Rs 550, 10%  (B) Rs 600, 12%  (C) Rs 600, 10%  (D) Rs 580, 8%
+
+Answer: (C)
+
+Solution:
+Interest in 2nd year = 726 - 660 = Rs 66. Rate R = (66 / 660) * 100 = 10%. Using year 1 amount: P * (1 + 10/100) = 660 => P * 1.1 = 660 => P = Rs 600. Therefore, the correct value is Rs 600, 10%, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q116. (Hard) The difference between compound interest and simple interest on a certain sum for 2 years at 12% per annum compounded annually is Rs 72. Find the sum.
+(A) Rs 4,500  (B) Rs 5,500  (C) Rs 6,000  (D) Rs 5,000
+
+Answer: (D)
+
+Solution:
+Difference D = P * (R / 100)^2 => 72 = P * (12 / 100)^2 = P * (144 / 10000) => P = (72 * 10000) / 144 = Rs 5,000. Therefore, the correct value is Rs 5,000, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q117. (Hard) A sum of Rs 2,500 was lent in two parts, one at 10% and the other at 20% compound interest per annum. If after 2 years the total compound interest was Rs 755, how much was lent at 10%?
+(A) Rs 1,500  (B) Rs 1,000  (C) Rs 1,200  (D) Rs 1,600
+
+Answer: (A)
+
+Solution:
+2-year effective rate for 10% = 21%. 2-year effective rate for 20% = 44%. Overall effective rate = (755 / 2500) * 100 = 30.2%. By Alligation: Ratio = (44 - 30.2) : (30.2 - 21) = 13.8 : 9.2 = 3 : 2. Total units = 3 + 2 = 5 units = Rs 2,500 => 1 unit = Rs 500. Part lent at 10% = 3 * 500 = Rs 1,500. Therefore, the correct value is Rs 1,500, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q118. (Hard) If the compound interest on a certain sum for 2 years at 3% per annum is Rs 101.50, find the simple interest on the same sum at the same rate and for the same time.
+(A) Rs 98  (B) Rs 100  (C) Rs 102  (D) Rs 95
+
+Answer: (B)
+
+Solution:
+Effective CI rate = 3 + 3 + (3 * 3)/100 = 6.09%. Effective SI rate = 3 * 2 = 6%. Ratio CI / SI = 6.09 / 6 = 1.015. Simple Interest = 101.50 / 1.015 = Rs 100. Therefore, the correct value is Rs 100, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q119. (Hard) A loan of Rs 2,550 is to be paid back in two equal annual installments at 4% per annum compound interest. Find the value of each installment.
+(A) Rs 1,350  (B) Rs 1,360  (C) Rs 1,352  (D) Rs 1,340
+
+Answer: (C)
+
+Solution:
+Rate = 4% = 1/25. P = 25x / 26 + 625x / 676 = 1275x / 676. Given P = 2550: 2550 = 1275x / 676 => x = 2 * 676 = Rs 1,352. Therefore, the correct value is Rs 1,352, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q120. (Hard) Find the compound interest on Rs 4,000 for 2.5 years at 10% per annum, compounded annually.
+(A) Rs 1,080  (B) Rs 1,100  (C) Rs 1,050  (D) Rs 1,082
+
+Answer: (D)
+
+Solution:
+Amount = 4000 * (1 + 10/100)^2 * [1 + (0.5 * 10)/100] = 4000 * 1.21 * 1.05 = 4000 * 1.2705 = Rs 5,082. Compound interest = 5082 - 4000 = Rs 1,082. Therefore, the correct value is Rs 1,082, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q121. (Hard) A sum of Rs 4,200 was taken as a loan at 10% compound interest per annum to be paid back in two equal annual installments. Find the value of each installment.
+(A) Rs 2,420  (B) Rs 2,400  (C) Rs 2,500  (D) Rs 2,350
+
+Answer: (A)
+
+Solution:
+P = 10x / 11 + 100x / 121 = 210x / 121. 4200 = 210x / 121 => x = 20 * 121 = Rs 2,420. Therefore, the correct value is Rs 2,420, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q122. (Hard) A sum of money amounts to Rs 2,420 in 2 years and to Rs 2,662 in 3 years at compound interest. Find the principal sum and the rate of interest per annum.
+(A) Rs 2,100, 10%  (B) Rs 2,000, 10%  (C) Rs 2,000, 8%  (D) Rs 1,900, 12%
+
+Answer: (B)
+
+Solution:
+Interest in year 3 = 2662 - 2420 = Rs 242. Rate R = (242 / 2420) * 100 = 10%. Using year 2 amount: P * (1.1)^2 = 2420 => P * 1.21 = 2420 => P = Rs 2,000. Therefore, the correct value is Rs 2,000, 10%, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q123. (Hard) Find the difference between compound interest and simple interest on Rs 40,000 for 3 years at 5% per annum.
+(A) Rs 300  (B) Rs 310  (C) Rs 305  (D) Rs 315
+
+Answer: (C)
+
+Solution:
+D3 = [P * R^2 * (300 + R)] / 10^6 = [40000 * 25 * 305] / 10^6 = [1000000 * 305] / 10^6 = Rs 305. Therefore, the correct value is Rs 305, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q124. (Hard) A sum of money at compound interest amounts to Rs 36,000 in 2 years and to Rs 43,200 in 3 years. What will it amount to in 4 years?
+(A) Rs 50,400  (B) Rs 52,000  (C) Rs 51,200  (D) Rs 51,840
+
+Answer: (D)
+
+Solution:
+Annual growth multiplier = 43200 / 36000 = 1.2. Amount at the end of 4 years = 43200 * 1.2 = Rs 51,840. Therefore, the correct value is Rs 51,840, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q125. (Hard) A person borrows Rs 100,000 at 10% compound interest per annum. At the end of each year, he repays Rs 30,000. How much must he pay at the end of the 3rd year to completely clear the entire debt?
+(A) Rs 62,500  (B) Rs 63,800  (C) Rs 64,000  (D) Rs 63,000
+
+Answer: (B)
+
+Solution:
+End of Year 1: Balance = 100000 * 1.10 - 30000 = 110000 - 30000 = Rs 80,000. End of Year 2: Balance = 80000 * 1.10 - 30000 = 88000 - 30000 = Rs 58,000. End of Year 3: Total amount due to clear debt = 58000 * 1.10 = Rs 63,800. Therefore, the correct value is Rs 63,800, corresponding to option (B).
+
+Source: SSC CGL Pattern

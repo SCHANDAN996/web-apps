@@ -1,0 +1,83 @@
+# Chapter 10: Compound Interest (Comprehensive Graduation Level Foundation)
+
+## 1. Fundamentals of Compound Interest
+Compound Interest (CI) is the interest calculated on the initial principal and also on the accumulated interest of previous periods. It represents exponential geometric progression growth, contrasting with the linear arithmetic growth of Simple Interest.
+- **Principal (P):** The initial sum invested or borrowed.
+- **Annual Rate of Interest (R):** The percentage rate per annum.
+- **Number of Compounding Periods (n or T):** Total compounding cycles.
+- **Amount (A):**
+  A = P * [ 1 + (R / 100) ]^n
+- **Compound Interest (CI):**
+  CI = Amount - Principal = P * [ (1 + R/100)^n - 1 ]
+
+## 2. Compounding Frequency Conversions
+When interest is compounded more frequently than once a year:
+- **Half-Yearly (Semi-Annually):**
+  - Rate becomes R / 2 % per period.
+  - Number of periods becomes 2 * T.
+  - Amount A = P * [ 1 + R / (2 * 100) ]^(2T)
+- **Quarterly:**
+  - Rate becomes R / 4 % per period.
+  - Number of periods becomes 4 * T.
+  - Amount A = P * [ 1 + R / (4 * 100) ]^(4T)
+- **Monthly:**
+  - Rate becomes R / 12 % per period.
+  - Number of periods becomes 12 * T.
+- **Compounded every 'm' months:**
+  - Rate per cycle = R * (m / 12) %.
+  - Number of cycles = (T * 12) / m.
+
+## 3. Fractional Time Periods & Successive Varying Rates
+- **Fractional Time (e.g., T = 2 years and 3 months):**
+  Here 3 months = 3/12 = 1/4 year.
+  Amount A = P * [ 1 + R / 100 ]^2 * [ 1 + (R * 1/4) / 100 ]
+- **Varying Annual Rates (R1, R2, R3 for years 1, 2, 3):**
+  Amount A = P * [ 1 + R1 / 100 ] * [ 1 + R2 / 100 ] * [ 1 + R3 / 100 ]
+
+## 4. Difference Between Compound Interest and Simple Interest (CI - SI)
+The difference between CI and SI arises purely from interest earned on previous interest.
+- **For 2 Years:**
+  Diff_2 = P * (R / 100)^2 = (P * R^2) / 10000
+  Also, Diff_2 = (SI for 1 year * R) / 100
+- **For 3 Years:**
+  Diff_3 = P * (R / 100)^2 * [ 3 + R / 100 ] = [ P * R^2 * (300 + R) ] / 10^6
+- **Ratio of 3-Year Difference to 2-Year Difference:**
+  Diff_3 / Diff_2 = (300 + R) / 100 = 3 + R / 100
+
+## 5. Ratio and Multiplier Method (Pascal Triangle / Tree Method)
+Instead of lengthy power expansions, decomposition by annual interest layers:
+- Let A_1 = Simple Interest on P for 1 year = (P * R) / 100
+- Let B = Interest on A_1 = (A_1 * R) / 100
+- Let C = Interest on B = (B * R) / 100
+- **For 2 Years:**
+  - Total CI = 2 * A_1 + 1 * B   (Ratio 2 : 1)
+  - CI - SI = 1 * B
+- **For 3 Years:**
+  - Total CI = 3 * A_1 + 3 * B + 1 * C   (Ratio 3 : 3 : 1)
+  - CI - SI = 3 * B + 1 * C
+- **For 4 Years:**
+  - Total CI = 4 * A_1 + 6 * B + 4 * C + 1 * D   (Ratio 4 : 6 : 4 : 1)
+
+## 6. Multiplicity Principles (Exponential Power Law)
+If a sum amounts to 'k' times itself in T years at compound interest:
+- In 2T years, it amounts to k^2 times.
+- In 3T years, it amounts to k^3 times.
+- In m*T years, it amounts to k^m times.
+- Contrast with Simple Interest: Under SI, if a sum becomes k times in T years, it becomes (1 + m*(k-1)) times in m*T years.
+
+## 7. Compound Interest Installments (Equal Annual Payments)
+When a loan of present value P is borrowed at R% compound interest per annum and repaid in 'n' equal annual installments of Rs 'x':
+- Present Value of 1st installment (paid at end of year 1) = x / [ 1 + R/100 ]
+- Present Value of 2nd installment = x / [ 1 + R/100 ]^2
+- Present Value of nth installment = x / [ 1 + R/100 ]^n
+- **Fundamental Installment Equation:**
+  P = x / (1 + R/100) + x / (1 + R/100)^2 + ... + x / (1 + R/100)^n
+- **For 2 Equal Annual Installments:**
+  Let multiplying factor v = 1 / (1 + R/100) = 100 / (100 + R)
+  P = x * v * (1 + v) = x * [ 100 / (100 + R) ] * [ (200 + R) / (100 + R) ]
+
+## 8. Population Dynamics and Asset Depreciation
+- **Exponential Growth (Population, Bacteria):**
+  P_n = P_0 * [ 1 + R / 100 ]^n
+- **Depreciation (Machinery, Vehicles):**
+  Value_n = Value_0 * [ 1 - R / 100 ]^n

@@ -1,0 +1,31 @@
+# Flashcards: Compound Interest (Graduation Level)
+
+Q1: What is the fundamental formula for Compound Amount and Compound Interest?
+A1: Amount A = P * [1 + R/100]^n and CI = A - P = P * [(1 + R/100)^n - 1].
+
+Q2: How do rate and time adjust when interest is compounded half-yearly and quarterly?
+A2: For half-yearly, Rate becomes R/2 % and Time becomes 2T. For quarterly, Rate becomes R/4 % and Time becomes 4T.
+
+Q3: What is the exact formula for the difference between CI and SI for 2 years?
+A3: Diff_2 = P * (R / 100)^2 = (P * R^2) / 10,000.
+
+Q4: What is the exact formula for the difference between CI and SI for 3 years?
+A4: Diff_3 = P * (R / 100)^2 * [3 + R/100] = [P * R^2 * (300 + R)] / 1,000,000.
+
+Q5: What is the ratio between the 3-year difference and 2-year difference of CI and SI?
+A5: Diff_3 / Diff_2 = (300 + R) / 100 = 3 + R / 100.
+
+Q6: If a sum becomes 'k' times itself in T years at compound interest, how many times will it become in m*T years?
+A6: It will become k^m times itself.
+
+Q7: What are the Pascal triangle ratio multipliers for calculating CI in 2, 3, and 4 years?
+A7: For 2 years: 2 : 1; For 3 years: 3 : 3 : 1; For 4 years: 4 : 6 : 4 : 1.
+
+Q8: What is the effective annual rate for 2 successive years at rates r1% and r2%?
+A8: Effective Rate = r1 + r2 + (r1 * r2) / 100 %.
+
+Q9: What is the present value equation for a loan P discharged in 2 equal annual installments of Rs x at R% compound interest?
+A9: P = [x / (1 + R/100)] + [x / (1 + R/100)^2].
+
+Q10: If a principal becomes Rs A1 in n years and Rs A2 in (n + 1) years at CI, how is the annual interest rate determined?
+A10: Since the increment is strictly 1 year's interest on A1: Rate R = [(A2 - A1) / A1] * 100 %.

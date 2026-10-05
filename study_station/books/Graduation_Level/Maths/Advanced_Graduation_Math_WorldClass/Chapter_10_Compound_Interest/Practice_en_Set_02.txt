@@ -1,0 +1,249 @@
+Q26. (Medium) The difference between compound interest and simple interest on a certain sum of money for 2 years at 12% per annum is Rs 144. Find the sum.
+(A) Rs 10,000  (B) Rs 9,500  (C) Rs 10,500  (D) Rs 11,000
+
+Answer: (A)
+
+Solution:
+Using the standard 2-year difference formula: Diff = P * (R / 100)^2 => 144 = P * (12 / 100)^2 = P * (144 / 10000) => P = 144 * (10000 / 144) = Rs 10,000. Therefore, the correct value is Rs 10,000, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q27. (Medium) The difference between compound interest and simple interest on a sum of money for 3 years at 10% per annum is Rs 155. Find the sum.
+(A) Rs 4,800  (B) Rs 5,000  (C) Rs 5,200  (D) Rs 5,500
+
+Answer: (B)
+
+Solution:
+Using the 3-year difference formula: Diff = [P * R^2 * (300 + R)] / 10^6. Given Diff = 155, R = 10: 155 = [P * 100 * 310] / 1000000 = 31P / 1000 => P = (155 * 1000) / 31 = 5 * 1000 = Rs 5,000. Therefore, the correct value is Rs 5,000, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q28. (Medium) A sum of money placed at compound interest doubles itself in 6 years. In how many years will it become 16 times of itself at the same rate?
+(A) 32 years  (B) 18 years  (C) 24 years  (D) 30 years
+
+Answer: (C)
+
+Solution:
+Under compound interest, the multiplier increases exponentially: Money doubles (2^1 times) in 6 years. To become 16 = 2^4 times, required time = 4 * 6 = 24 years. Psychological Trap: A frequent trap is multiplying 6 * 16 / 2 = 48 years or applying simple interest arithmetic logic (15 * 6 = 90 years). Therefore, the correct value is 24 years, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q29. (Medium) The ratio of the difference between compound interest and simple interest for 3 years to that for 2 years on a certain sum at the same rate is 25 : 8. Find the rate of interest per annum.
+(A) 12.0%  (B) 15.0%  (C) 10.0%  (D) 12.5%
+
+Answer: (D)
+
+Solution:
+Using the standard identity: Diff_3 / Diff_2 = (300 + R) / 100. Given Diff_3 / Diff_2 = 25 / 8: (300 + R) / 100 = 25 / 8 => 300 + R = (25 * 100) / 8 = 2500 / 8 = 312.5 => R = 312.5 - 300 = 12.5%. Therefore, the correct value is 12.5%, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q30. (Medium) A sum of money amounts to Rs 6,690 after 3 years and to Rs 10,035 after 6 years on compound interest, compounded annually. Find the sum.
+(A) Rs 4,460  (B) Rs 4,500  (C) Rs 4,200  (D) Rs 4,600
+
+Answer: (A)
+
+Solution:
+Let the multiplier for 3 years be k = (1 + R/100)^3. Then Amount in 3 years = P * k = 6690, and Amount in 6 years = P * k^2 = 10035. Dividing: k = 10035 / 6690 = 3 / 2 = 1.5. Principal P = 6690 / k = 6690 / 1.5 = Rs 4,460. Therefore, the correct value is Rs 4,460, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q31. (Medium) Find the compound interest on Rs 15,625 for 9 months at 16% per annum, compounded quarterly.
+(A) Rs 1,900  (B) Rs 1,951  (C) Rs 2,000  (D) Rs 1,920
+
+Answer: (B)
+
+Solution:
+Quarterly compounding: Rate per quarter = 16 / 4 = 4%. Time period = 9 months = 3 quarters. Multiplier per quarter = 1 + 4/100 = 26/25. Amount = 15625 * (26/25)^3 = 15625 * (17576 / 15625) = Rs 17,576. Compound Interest = 17576 - 15625 = Rs 1,951. Therefore, the correct value is Rs 1,951, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q32. (Medium) A person invested Rs 8,000 at compound interest for 3 years. The rates of interest for the first, second, and third years are 5%, 10%, and 20% respectively. What is the total amount received at maturity?
+(A) Rs 11,000  (B) Rs 11,200  (C) Rs 11,088  (D) Rs 10,950
+
+Answer: (C)
+
+Solution:
+Amount = P * (1 + R1/100) * (1 + R2/100) * (1 + R3/100) = 8000 * (21/20) * (11/10) * (6/5) = 8000 * (1386 / 1000) = 8 * 1386 = Rs 11,088. Therefore, the correct value is Rs 11,088, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q33. (Medium) The difference between compound interest and simple interest on Rs 5,000 for 2 years is Rs 72. Find the annual rate of interest.
+(A) 10%  (B) 14%  (C) 11%  (D) 12%
+
+Answer: (D)
+
+Solution:
+Formula: Diff = P * (R / 100)^2 => 72 = 5000 * (R^2 / 10000) = R^2 / 2 => R^2 = 72 * 2 = 144 => R = 12%. Therefore, the correct value is 12%, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q34. (Medium) At what rate percent per annum compound interest will a sum of Rs 1,000 amount to Rs 1,102.50 in 2 years, compounded annually?
+(A) 5%  (B) 6%  (C) 4%  (D) 5.5%
+
+Answer: (A)
+
+Solution:
+Ratio A / P = 1102.50 / 1000 = 11025 / 10000 = (105 / 100)^2. Since time is 2 years: 1 + R/100 = 105/100 => R = 5%. Therefore, the correct value is 5%, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q35. (Medium) A sum of money invested at compound interest amounts to Rs 800 in 3 years and to Rs 840 in 4 years. What is the rate of interest per annum?
+(A) 4%  (B) 5%  (C) 6%  (D) 4.5%
+
+Answer: (B)
+
+Solution:
+The increase over 1 year (from year 3 to 4) is 840 - 800 = Rs 40. This Rs 40 is the 1-year interest on Rs 800. Rate R = (40 / 800) * 100 = 5%. Therefore, the correct value is 5%, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q36. (Medium) A sum of money amounts to Rs 2,400 in 3 years and to Rs 3,000 in 4 years at compound interest, compounded annually. What will it amount to in 5 years?
+(A) Rs 3,600  (B) Rs 3,800  (C) Rs 3,750  (D) Rs 3,500
+
+Answer: (C)
+
+Solution:
+Annual multiplying factor = 3000 / 2400 = 5 / 4 = 1.25. Therefore, Amount in year 5 = Amount in year 4 * 1.25 = 3000 * 1.25 = Rs 3,750. Psychological Trap: Students sometimes erroneously add the simple difference of Rs 600 to get Rs 3,600, forgetting that compounding applies the percentage multiplier. Therefore, the correct value is Rs 3,750, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q37. (Medium) Find the compound interest on Rs 20,000 at 15% per annum for 2 years and 4 months, compounded annually.
+(A) Rs 7,500.00  (B) Rs 7,800.00  (C) Rs 7,650.00  (D) Rs 7,772.50
+
+Answer: (D)
+
+Solution:
+Time = 2 years + 4/12 year = 2 years + 1/3 year. Rate for fractional part = 15 * (1/3) = 5%. Amount = 20000 * (1 + 15/100)^2 * (1 + 5/100) = 20000 * (23/20)^2 * (21/20) = 20000 * (529 / 400) * (21 / 20) = 50 * 529 * 21 / 20 = 2.5 * 529 * 21 = 2.5 * 11109 = Rs 27,772.50. Compound Interest = 27772.50 - 20000 = Rs 7,772.50. Therefore, the correct value is Rs 7,772.50, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q38. (Medium) The difference between compound interest and simple interest on a certain sum of money for 3 years at 5% per annum is Rs 122. Find the sum.
+(A) Rs 16,000  (B) Rs 15,000  (C) Rs 16,500  (D) Rs 18,000
+
+Answer: (A)
+
+Solution:
+Formula: Diff = [P * R^2 * (300 + R)] / 10^6. Given Diff = 122, R = 5: 122 = [P * 25 * 305] / 1000000 = 7625 P / 1000000 = 61 P / 8000 => P = (122 * 8000) / 61 = 2 * 8000 = Rs 16,000. Therefore, the correct value is Rs 16,000, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q39. (Medium) A sum of money placed at compound interest becomes 9 times itself in 4 years. In how many years will it become 27 times itself at the same rate?
+(A) 8 years  (B) 6 years  (C) 5 years  (D) 7 years
+
+Answer: (B)
+
+Solution:
+Let the sum become 3 times in t years. Then in 2t years it becomes 3^2 = 9 times. Given 2t = 4 years => t = 2 years. To become 27 = 3^3 times, the required time = 3 * t = 3 * 2 = 6 years. Therefore, the correct value is 6 years, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q40. (Medium) Find the effective annual rate of interest corresponding to a nominal rate of 6% per annum compounded semi-annually.
+(A) 6.00%  (B) 6.12%  (C) 6.09%  (D) 6.15%
+
+Answer: (C)
+
+Solution:
+Semi-annual rate = 6 / 2 = 3%. Effective annual rate for 2 semi-annual periods = 3 + 3 + (3 * 3)/100 = 6 + 0.09 = 6.09%. Therefore, the correct value is 6.09%, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q41. (Medium) The simple interest on a certain sum for 2 years is Rs 160, and the compound interest for the same period at the same rate is Rs 164. Find the rate of interest and the principal sum.
+(A) 4% and Rs 2,000  (B) 5% and Rs 1,800  (C) 6% and Rs 1,500  (D) 5% and Rs 1,600
+
+Answer: (D)
+
+Solution:
+Simple interest for 1 year = 160 / 2 = Rs 80. Extra interest in compound interest = 164 - 160 = Rs 4. This Rs 4 is the 1-year interest on Rs 80. Rate R = (4 / 80) * 100 = 5%. Principal P = (SI_1 * 100) / R = (80 * 100) / 5 = Rs 1,600. Therefore, the correct value is 5% and Rs 1,600, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q42. (Medium) A sum of money invested at compound interest amounts to Rs 2,420 in 2 years and to Rs 2,662 in 3 years. Find the sum.
+(A) Rs 2,000  (B) Rs 1,900  (C) Rs 2,100  (D) Rs 1,800
+
+Answer: (A)
+
+Solution:
+Interest for year 3 = 2662 - 2420 = Rs 242. Rate R = (242 / 2420) * 100 = 10%. Using Amount in 2 years: A = P * (1 + 10/100)^2 => 2420 = P * (121 / 100) => P = (2420 * 100) / 121 = 20 * 100 = Rs 2,000. Therefore, the correct value is Rs 2,000, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q43. (Medium) If the difference between CI and SI on a sum of money for 2 years at 15% per annum is Rs 180, find the sum.
+(A) Rs 7,500  (B) Rs 8,000  (C) Rs 8,500  (D) Rs 9,000
+
+Answer: (B)
+
+Solution:
+Diff = P * (R / 100)^2 => 180 = P * (15 / 100)^2 = P * (225 / 10000) => P = (180 * 10000) / 225 = 180 * (400 / 9) = 20 * 400 = Rs 8,000. Therefore, the correct value is Rs 8,000, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q44. (Medium) A person invested Rs 10,000 for 2 years at compound interest, the rate of interest being 10% for the first year and 12% for the second year. Find the total compound interest.
+(A) Rs 2,200  (B) Rs 2,400  (C) Rs 2,320  (D) Rs 2,300
+
+Answer: (C)
+
+Solution:
+Effective rate for successive rates 10% and 12% = 10 + 12 + (10 * 12)/100 = 22 + 1.20 = 23.20%. Compound Interest = 23.20% of 10000 = Rs 2,320. Therefore, the correct value is Rs 2,320, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q45. (Medium) The compound interest on a certain sum of money for 2 years at 4% per annum is Rs 102. What will be the simple interest on the same sum at the same rate and for the same time?
+(A) Rs 98  (B) Rs 101  (C) Rs 96  (D) Rs 100
+
+Answer: (D)
+
+Solution:
+Effective rate for CI (2 years at 4%) = 4 + 4 + (4 * 4)/100 = 8.16%. Effective rate for SI (2 years at 4%) = 2 * 4 = 8.00%. Ratio CI / SI = 8.16 / 8.00 = 102 / 100. Given CI = Rs 102 => SI = Rs 100. Therefore, the correct value is Rs 100, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q46. (Medium) In how many years will Rs 2,000 amount to Rs 2,662 at 10% per annum compound interest, compounded annually?
+(A) 3 years  (B) 2 years  (C) 4 years  (D) 2.5 years
+
+Answer: (A)
+
+Solution:
+Ratio A / P = 2662 / 2000 = 1331 / 1000 = (11 / 10)^3. Since rate factor is 1 + 10/100 = 11/10: (11/10)^n = (11/10)^3 => n = 3 years. Therefore, the correct value is 3 years, corresponding to option (A).
+
+Source: SSC CGL Pattern
+
+Q47. (Medium) Find the compound interest on Rs 31,250 for 3 years at 12% per annum, compounded annually.
+(A) Rs 12,500  (B) Rs 12,654  (C) Rs 12,700  (D) Rs 12,600
+
+Answer: (B)
+
+Solution:
+Using 3 : 3 : 1 multiplier ratio: Tier 1 = 12% of 31250 = Rs 3750. Tier 2 = 12% of 3750 = Rs 450. Tier 3 = 12% of 450 = Rs 54. Total CI = (3 * 3750) + (3 * 450) + (1 * 54) = 11250 + 1350 + 54 = Rs 12,654. Therefore, the correct value is Rs 12,654, corresponding to option (B).
+
+Source: SSC CGL Pattern
+
+Q48. (Medium) A sum of money doubles itself in 5 years at compound interest. In how many years will it become 32 times of itself at the same rate?
+(A) 30 years  (B) 20 years  (C) 25 years  (D) 32 years
+
+Answer: (C)
+
+Solution:
+Under compound interest: Sum doubles (2^1) in 5 years. To become 32 = 2^5 times, required time = 5 * 5 = 25 years. Therefore, the correct value is 25 years, corresponding to option (C).
+
+Source: SSC CGL Pattern
+
+Q49. (Medium) The difference between compound interest and simple interest on Rs 12,500 for 2 years is Rs 80. Find the rate of interest per annum.
+(A) 7%  (B) 9%  (C) 8.5%  (D) 8%
+
+Answer: (D)
+
+Solution:
+Diff = P * (R / 100)^2 => 80 = 12500 * (R^2 / 10000) = 1.25 * R^2 => R^2 = 80 / 1.25 = 64 => R = 8%. Therefore, the correct value is 8%, corresponding to option (D).
+
+Source: SSC CGL Pattern
+
+Q50. (Medium) A sum of money amounts to Rs 4,500 in 2 years and to Rs 6,750 in 4 years at compound interest, compounded annually. Find the sum.
+(A) Rs 2,800  (B) Rs 3,000  (C) Rs 3,200  (D) Rs 3,500
+
+Answer: (B)
+
+Solution:
+Let multiplier for 2 years be k. Then P * k = 4500 and P * k^2 = 6750. Dividing: k = 6750 / 4500 = 1.5. Principal P = 4500 / k = 4500 / 1.5 = Rs 3,000. Therefore, the correct value is Rs 3,000, corresponding to option (B).
+
+Source: SSC CGL Pattern
