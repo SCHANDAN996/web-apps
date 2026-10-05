@@ -170,7 +170,8 @@ class Pilot:
 
     def bookgen(self, ch, *extra):
         cmd = [sys.executable, '-m', 'app.bookgen', '--chapter', str(ch), *extra]
-        env = {**os.environ, 'AI_DAILY_BOOK_SECTIONS': os.environ.get('AI_DAILY_BOOK_SECTIONS', '100000'),
+        env = {**os.environ, 'BOOKGEN_REVIEW_CACHE': str(self.state_dir / 'reviewed.json'),
+               'AI_DAILY_BOOK_SECTIONS': os.environ.get('AI_DAILY_BOOK_SECTIONS', '100000'),
                'AI_DAILY_LIMIT_TOTAL': os.environ.get('AI_DAILY_LIMIT_TOTAL', '1000000')}
         short = ch.name.split('_', 2)[-1] if '_' in ch.name else ch.name
         lines = []

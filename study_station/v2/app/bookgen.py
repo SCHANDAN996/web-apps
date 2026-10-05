@@ -24,6 +24,8 @@ device_id = -1). Provider: --provider / BOOKGEN_PROVIDER — 'nvidia' (NVIDIA_AP
 'anthropic' (ANTHROPIC_API_KEY); by default NVIDIA when its key is set. Drafts stay "draft" until reviewed.
 """
 import argparse
+import hashlib
+import json
 import logging
 import os
 import re
@@ -159,7 +161,8 @@ def _nvidia_second_opinion(system, user):
         try:
             return nvidia.call(system, user, max_tokens=MAX_TOKENS, temperature=0, model=model)
         except ai.AIUnavailable as e:
-            if str(e) not in ('empty', 'api_error', 'bad_request') or i == len(models) - 1:
+            if str(e) not in ('empty', 'api_error', 'bad_request', 'too_long', 'network', 'rate_limited') \
+                    or i == len(models) - 1:
                 raise
             log.warning('checker %s failed (%s) — trying %s', model, e, models[i + 1])
 
@@ -519,18 +522,38 @@ def _ask_review(db, user):
         raise
 
 
+def _review_cache():
+    """Sections that already passed review (sha256 of their text), so a retried chapter is not re-reviewed."""
+    p = os.environ.get('BOOKGEN_REVIEW_CACHE')
+    if not p:
+        return None, set()
+    try:
+        return Path(p), set(json.loads(Path(p).read_text()))
+    except (OSError, ValueError):
+        return Path(p), set()
+
+
 def review(db, chapter, out=print):
     """An independent model reviews every finished non-practice section; flagged ones are rewritten once.
     Returns (fixed, failed). Practice sets are not reviewed here — their keys were re-solved when written."""
     chapter = Path(chapter)
     fixed, failed = [], []
+    cache_path, passed = _review_cache()
+
+    def remember(text):
+        if cache_path:
+            passed.add(hashlib.sha256(text.encode()).hexdigest())
+            books.atomic_write(cache_path, json.dumps(sorted(passed)))
     for name, path in sorted(section_files(chapter).items(), key=lambda kv: _order(kv[0])):
         if PRACTICE.match(name) or not _finished(path):
             continue
         text = path.read_text(encoding='utf-8', errors='replace')
+        if hashlib.sha256(text.encode()).hexdigest() in passed:
+            continue
         try:
             issues = _review_issues(_ask_review(db, review_request(name, text)))
             if not issues:
+                remember(text)
                 continue
             out(f'  review {name}: {len(issues)} issue(s): {issues[0][:120]}')
             new = _clean_output(_ask(db, repair_request(name, text, issues)), name)
@@ -543,6 +566,7 @@ def review(db, chapter, out=print):
             failed.append(name)
             continue
         write_section(chapter, name, new)
+        remember(new)                       # a corrected section counts as reviewed
         fixed.append(name)
     out(f'review: {len(fixed)} section(s) corrected, {len(failed)} failed')
     return fixed, failed

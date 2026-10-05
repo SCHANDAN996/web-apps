@@ -319,3 +319,14 @@ def test_checker_falls_back_to_another_model(monkeypatch):
     monkeypatch.setattr(nvidia, 'call', call)
     assert bookgen._nvidia_second_opinion('s', 'u') == 'OK'
     assert tried == [config.NVIDIA_CHECK_MODEL, config.NVIDIA_FALLBACK_MODELS[0]]
+
+
+def test_review_skips_sections_that_already_passed(broken_chapter, db, monkeypatch, tmp_path):
+    (broken_chapter / 'Prompts' / 'PYQ_en.txt').write_text('Exam pattern notes. ' * 30)
+    monkeypatch.setenv('BOOKGEN_REVIEW_CACHE', str(tmp_path / 'reviewed.json'))
+    seen = []
+    monkeypatch.setattr(bookgen, '_ask_review', lambda db, user: seen.append(user) or 'OK')
+    bookgen.review(db, broken_chapter, out=lambda *a: None)
+    first = len(seen)
+    bookgen.review(db, broken_chapter, out=lambda *a: None)
+    assert first > 0 and len(seen) == first                    # second pass: nothing re-reviewed
