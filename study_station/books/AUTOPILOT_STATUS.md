@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 06-10-2026 03:29 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 02:43 AM
+**आख़िरी update:** 06-10-2026 03:44 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 02:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Narration (Graduation English) | ✍️ लिख रहा है | 23 मिनट |
-| W2 | Chapter 10 Voice (Graduation English) | ✍️ लिख रहा है | 25 मिनट |
-| W3 | Chapter 08 Conjunction (Graduation English) | 🔎 review हो रहा है | 10 मिनट |
-| W4 | Chapter 09 Articles (Graduation English) | 🔎 review हो रहा है | 5 मिनट |
+| W1 | Chapter 11 Narration (Graduation English) | ✍️ लिख रहा है | 39 मिनट |
+| W2 | Chapter 10 Voice (Graduation English) | ✍️ लिख रहा है | 40 मिनट |
+| W3 | Chapter 08 Conjunction (Graduation English) | 🔎 review हो रहा है | 25 मिनट |
+| W4 | Chapter 09 Articles (Graduation English) | 🔎 review हो रहा है | 21 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -49,22 +49,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-06-10 03:05:22 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_11_Narration (TODO: todo 26, problems 0)
-06-10 03:06:51   [Voice] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-06-10 03:06:54   [Narration] wrote Content_en.txt (7789 chars)
-06-10 03:07:32   [Conjunction] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-06-10 03:07:32   [Conjunction] written 3, failed 2; AI calls today 305/100000
-06-10 03:07:32 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_08_Conjunction after 24 min: todo ['Set 02 en: todo', 'Set 02 hi: todo'] problems []
-06-10 03:07:33 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_08_Conjunction (TODO: todo 2, problems 0)
-06-10 03:09:17   [Narration] wrote Content_hi.txt (9649 chars)
-06-10 03:09:18   [Articles] FAILED Practice_hi_Set_05.txt: empty
-06-10 03:09:48   [Voice] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-06-10 03:10:21   [Narration] wrote Feynman_en.txt (4503 chars)
-06-10 03:11:19   [Conjunction] Practice_en_Set_02.txt try 1: re-solve disagrees (Q50 key a vs re-solve c)
-06-10 03:11:24   [Narration] wrote Feynman_hi.txt (2893 chars)
-06-10 03:12:06   [Narration] wrote Mind_Map_en.txt (2296 chars)
-06-10 03:13:00   [Articles] Practice_en_Set_06.txt try 1: re-solve disagrees (Q149 key b vs re-solve a)
-06-10 03:13:17   [Voice] Practice_en_Set_02.txt try 1: re-solve disagrees (Q50 key d vs re-solve a)
 06-10 03:13:37   [Narration] wrote Mind_Map_hi.txt (2091 chars)
 06-10 03:14:37   [Narration] wrote Flashcards_en.txt (4965 chars)
 06-10 03:15:46   [Voice] wrote Practice_en_Set_02.txt (write, 25 MCQs)
@@ -89,4 +73,20 @@
 06-10 03:28:52   [Articles] review Content_hi.txt: 1 issue(s): - In the reading comprehension passage, "reflects an apathy towards historical evidence" incorrectly uses the indef
 06-10 03:29:01   [Voice] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 06-10 03:29:21   [Conjunction] review Mind_Map_en.txt: 1 issue(s): - F11: "Rather than / Other than take bare infinitive" → "Other than" is a preposition and takes a gerund or noun 
+06-10 03:32:10   [Narration] FAILED Short_Tricks_en.txt: empty
+06-10 03:33:08   [Articles] review Feynman_en.txt: 1 issue(s): - Invented exam statistic: "This one trick solves half of all article questions in exams!" → Remove the fabricated 
+06-10 03:33:57   [Narration] wrote Short_Tricks_hi.txt (5197 chars)
+06-10 03:34:26   [Articles] review Mind_Map_en.txt: 1 issue(s): - D4 example "go to school (as student)" is ungrammatical → should be "go to school as a student" or "go to school
+06-10 03:35:28   [Narration] wrote Important_Rules_en.txt (6343 chars)
+06-10 03:36:17   [Conjunction] review Mind_Map_hi.txt: 1 issue(s): - F2 states “Until = समय, Till = समय दोनों नकारात्मक वाक्य में” → Until and Till are used in both affirmative and 
+06-10 03:37:30   [Conjunction] review Flashcards_hi.txt: 1 issue(s): - Card 10: claim “सबसे ज़्यादा पूछे जाने वाले subordinating conjunctions” is an invented exam statistic → remove
+06-10 03:37:37   [Articles] review PYQ_en.txt: 1 issue(s): - Q8: The given sentence "The gold of this ring is not pure" is grammatically correct, so the error-spotting answer sho
+06-10 03:37:52   [Voice] Practice_en_Set_04.txt try 1: re-solve disagrees (Q88 key c vs re-solve a)
+06-10 03:40:31   [Narration] FAILED Important_Rules_hi.txt: empty
+06-10 03:40:50   [Voice] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+06-10 03:41:10   [Conjunction] review Short_Tricks_en.txt: 1 issue(s): - Invented statistic "90% of correlative errors are wrong partners" → Remove the percentage or replace with a 
+06-10 03:42:06   [Articles] review Short_Tricks_en.txt: 1 issue(s): - Trick 6 incorrectly lists "the Hague" as a country name exception; The Hague is a city, not a country → Remo
+06-10 03:43:11   [Voice] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+06-10 03:43:15   [Narration] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+06-10 03:44:31   [Conjunction] review Short_Tricks_hi.txt: 1 issue(s): - Trick 15: “While = 3 चेहरे” lists “जब तक (ब्रिटिश प्रयोग)” as a meaning of *while* → *while* does not mean “
 ```
