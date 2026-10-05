@@ -1,0 +1,151 @@
+Questions 51–75: Medium
+
+51. Find the value of the continued fraction x = 1 + 1 / (1 + 1 / (1 + 1/3)).
+(a) 11/7 (b) 7/4 (c) 4/3 (d) 8/7
+Answer: (a) 11/7
+Solution: Bottom-up evaluation: 1 + 1/3 = 4/3. Then 1 + 1/(4/3) = 1 + 3/4 = 7/4. Finally x = 1 + 1/(7/4) = 1 + 4/7 = 11/7. The required value is 11/7. Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+52. If 5/14 = 1 / (x + 1 / (y + 1/z)), where x, y, z are positive integers, find the value of (x + y + z).
+(a) 8 (b) 7 (c) 6 (d) 9
+Answer: (b) 7
+Solution: 14/5 = 2 + 4/5 = 2 + 1/(5/4) = 2 + 1/(1 + 1/4). Thus x = 2, y = 1, z = 4. Sum = 2 + 1 + 4 = 7. The required value is 7. Hence, the correct option is (b).
+Source: SSC CGL Pattern
+
+53. Find the sum of the telescoping series S = 1/(1*3) + 1/(3*5) + 1/(5*7) + ... + 1/(19*21).
+(a) 20/21 (b) 5/21 (c) 10/21 (d) 11/21
+Answer: (c) 10/21
+Solution: Common difference d = 2. S = (1/2) * [1/1 - 1/21] = (1/2) * (20/21) = 10/21. The required value is 10/21. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+54. Find the sum of the series S = 1/(2*5) + 1/(5*8) + 1/(8*11) + ... + 1/(20*23).
+(a) 21/46 (b) 14/46 (c) 1/46 (d) 7/46
+Answer: (d) 7/46
+Solution: Common difference d = 3. S = (1/3) * [1/2 - 1/23] = (1/3) * (21/46) = 7/46. The required value is 7/46. Hence, the correct option is (d).
+Source: SSC CGL Pattern
+
+55. For distinct real numbers x, y, z, find the value of [(x - y)^3 + (y - z)^3 + (z - x)^3] / [9(x - y)(y - z)(z - x)].
+(a) 1/3 (b) 1 (c) 3 (d) 1/9
+Answer: (a) 1/3
+Solution: Let u = x - y, v = y - z, w = z - x. Then u + v + w = 0, so u^3 + v^3 + w^3 = 3uvw. The fraction becomes 3uvw / 9uvw = 1/3. The required value is 1/3. Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+56. Find the value of the infinite radical x = sqrt(20 - sqrt(20 - sqrt(20 - ...))).
+(a) 5 (b) 4 (c) 2 (d) 10
+Answer: (b) 4
+Solution: x^2 = 20 - x => x^2 + x - 20 = 0 => (x + 5)(x - 4) = 0. Since x > 0, x = 4. The required value is 4. Hence, the correct option is (b).
+Source: SSC CGL Pattern
+
+57. Evaluate the infinite radical expression x = sqrt(7 * sqrt(7 * sqrt(7 * ...))).
+(a) 49 (b) sqrt(7) (c) 7 (d) 1
+Answer: (c) 7
+Solution: Squaring both sides: x^2 = 7x => x(x - 7) = 0. Since x != 0, x = 7. The required value is 7. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+58. Find the value of sqrt(3 * sqrt(3 * sqrt(3 * sqrt(3)))) having exactly four nested square roots.
+(a) 3^(7/8) (b) 3^(31/32) (c) 3 (d) 3^(15/16)
+Answer: (d) 3^(15/16)
+Solution: For n nested roots, the exponent is (2^n - 1) / 2^n. For n = 4, exponent is (16 - 1) / 16 = 15/16, so the value is 3^(15/16). The required value is 3^(15/16). Hence, the correct option is (d).
+Source: SSC CGL Pattern
+
+59. If x = (sqrt(5) + 1) / (sqrt(5) - 1) and y = (sqrt(5) - 1) / (sqrt(5) + 1), find the value of (x^2 + y^2).
+(a) 7 (b) 9 (c) 11 (d) 5
+Answer: (a) 7
+Solution: x + y = 2(5 + 1) / (5 - 1) = 12 / 4 = 3, and xy = 1. Then x^2 + y^2 = (x + y)^2 - 2xy = 3^2 - 2(1) = 7. The required value is 7. Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+60. If x = (sqrt(3) + 1) / (sqrt(3) - 1) and y = (sqrt(3) - 1) / (sqrt(3) + 1), find the value of (x + y).
+(a) 2*sqrt(3) (b) 4 (c) 2 (d) 8
+Answer: (b) 4
+Solution: x + y = 2(3 + 1) / (3 - 1) = 8 / 2 = 4. The required value is 4. Hence, the correct option is (b).
+Source: SSC CGL Pattern
+
+61. Find the sum: 1/2 + 1/6 + 1/12 + 1/20 + 1/30 + 1/42 + 1/56 + 1/72 + 1/90.
+(a) 8/9 (b) 10/11 (c) 9/10 (d) 1
+Answer: (c) 9/10
+Solution: Each term is 1/[k(k+1)] from k=1 to 9. Sum = 1 - 1/10 = 9/10. The required value is 9/10. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+62. Evaluate: [(0.137 + 0.098)^2 - (0.137 - 0.098)^2] / (0.137 * 0.098).
+(a) 2 (b) 1 (c) 0.5 (d) 4
+Answer: (d) 4
+Solution: By (a + b)^2 - (a - b)^2 = 4ab: 4ab / ab = 4. The required value is 4. Hence, the correct option is (d).
+Source: SSC CGL Pattern
+
+63. Find the value of 1 / (sqrt(12) - sqrt(11)) - 1 / (sqrt(11) - sqrt(10)) + 1 / (sqrt(10) - 3).
+(a) 3 + 2*sqrt(3) (b) 2*sqrt(3) - 3 (c) 3 (d) 2*sqrt(3)
+Answer: (a) 3 + 2*sqrt(3)
+Solution: Rationalizing: (sqrt(12) + sqrt(11)) - (sqrt(11) + sqrt(10)) + (sqrt(10) + 3) = sqrt(12) + 3 = 2*sqrt(3) + 3. The required value is 3 + 2*sqrt(3). Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+64. If x + 1/x = 4, find the value of (x^3 + 1/x^3).
+(a) 64 (b) 52 (c) 48 (d) 56
+Answer: (b) 52
+Solution: x^3 + 1/x^3 = (x + 1/x)^3 - 3(x + 1/x) = 4^3 - 3(4) = 64 - 12 = 52. The required value is 52. Hence, the correct option is (b).
+Source: SSC CGL Pattern
+
+65. If x - 1/x = 3, find the value of (x^3 - 1/x^3).
+(a) 27 (b) 18 (c) 36 (d) 45
+Answer: (c) 36
+Solution: x^3 - 1/x^3 = (x - 1/x)^3 + 3(x - 1/x) = 3^3 + 3(3) = 27 + 9 = 36. The required value is 36. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+66. Find the value of (a - b)^2 / ((b - c)(c - a)) + (b - c)^2 / ((c - a)(a - b)) + (c - a)^2 / ((a - b)(b - c)).
+(a) 1 (b) 0 (c) -3 (d) 3
+Answer: (d) 3
+Solution: Taking common denominator (a - b)(b - c)(c - a), numerator is (a - b)^3 + (b - c)^3 + (c - a)^3 = 3(a - b)(b - c)(c - a). The quotient is 3. The required value is 3. Hence, the correct option is (d).
+Source: SSC CGL Pattern
+
+67. Approximate the value of (24.99)^2 / 4.98 + 199.9% of 25.05.
+(a) 175 (b) 165 (c) 185 (d) 195
+Answer: (a) 175
+Solution: Approximating: 25^2 / 5 + 2 * 25 = 125 + 50 = 175. The required value is 175. Hence, the correct option is (a).
+Source: IBPS PO Pattern
+
+68. If 2^x = 4^y = 8^z and x * y * z = 288, find the value of 1/(2x) + 1/(4y) + 1/(8z).
+(a) 13/96 (b) 11/96 (c) 7/96 (d) 5/96
+Answer: (b) 11/96
+Solution: x = 2y = 3z => x = 6k, y = 3k, z = 2k. Product = 36k^3 = 288 => k = 2. So x = 12, y = 6, z = 4. Sum = 1/24 + 1/24 + 1/32 = 11/96. The required value is 11/96. Hence, the correct option is (b).
+Source: SSC CGL Pattern
+
+69. Find the value of sqrt(10 + sqrt(25 + sqrt(108 + sqrt(169)))).
+(a) 5 (b) 3 (c) 4 (d) 6
+Answer: (c) 4
+Solution: sqrt(169) = 13; 108 + 13 = 121, sqrt(121) = 11; 25 + 11 = 36, sqrt(36) = 6; 10 + 6 = 16, sqrt(16) = 4. The required value is 4. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+70. Evaluate: (0.98)^3 + (0.02)^3 + 3 * 0.98 * 0.02 - 1.
+(a) 1 (b) -1 (c) 0.04 (d) 0
+Answer: (d) 0
+Solution: Since 0.98 + 0.02 = 1, the expression is a^3 + b^3 + 3ab(a + b) - 1 = (a + b)^3 - 1 = 1 - 1 = 0. The required value is 0. Hence, the correct option is (d).
+Source: SSC CGL Pattern
+
+71. Which of the following numbers has the greatest magnitude: 2^50, 3^40, 4^30, 5^20?
+(a) 3^40 (b) 4^30 (c) 2^50 (d) 5^20
+Answer: (a) 3^40
+Solution: Comparing 10th roots: 2^5 = 32, 3^4 = 81, 4^3 = 64, 5^2 = 25. The greatest is 81, so 3^40 is greatest. The required value is 3^40. Hence, the correct option is (a).
+Source: SSC CGL Pattern
+
+72. Find the value of 1 / (1 + x^(b-a) + x^(c-a)) + 1 / (1 + x^(a-b) + x^(c-b)) + 1 / (1 + x^(a-c) + x^(b-c)).
+(a) 0 (b) 1 (c) x (d) 3
+Answer: (b) 1
+Solution: Multiplying terms by x^a, x^b, x^c respectively creates a common denominator (x^a + x^b + x^c). The sum of numerators equals denominator, yielding 1. The required value is 1. Hence, the correct option is (b).
+Source: SSC CGL Pattern
+
+73. Evaluate: 999 995/999 * 999.
+(a) 999000 (b) 998995 (c) 998996 (d) 999995
+Answer: (c) 998996
+Solution: (999 + 995/999) * 999 = 999^2 + 995 = (1000 - 1)^2 + 995 = 1000000 - 2000 + 1 + 995 = 998996. The required value is 998996. Hence, the correct option is (c).
+Source: SSC CGL Pattern
+
+74. Find the sum of the series S = 1/(3*7) + 1/(7*11) + 1/(11*15) + ... + 1/(31*35).
+(a) 16/105 (b) 4/105 (c) 32/105 (d) 8/105
+Answer: (d) 8/105
+Solution: Common difference d = 4. S = (1/4) * [1/3 - 1/35] = (1/4) * (32/105) = 8/105. The required value is 8/105. Hence, the correct option is (d).
+Source: SSC CGL Pattern
+
+75. Simplify: [sqrt(5) + sqrt(3)] / [sqrt(5) - sqrt(3)] + [sqrt(5) - sqrt(3)] / [sqrt(5) + sqrt(3)].
+(a) 4 (b) 8 (c) 16 (d) 2*sqrt(15)
+Answer: (b) 8
+Solution: Using identity (u/v) + (v/u) = 2(a + b)/(a - b) for conjugate surds: 2(5 + 3) / (5 - 3) = 16 / 2 = 8. The required value is 8. Hence, the correct option is (b).
+Source: SSC CGL Pattern
