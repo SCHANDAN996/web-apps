@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 05-10-2026 11:57 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 05-10 10:25 PM
+**आख़िरी update:** 05-10-2026 11:59 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 05-10 11:58 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Pronoun (Graduation English) | 🔎 review हो रहा है | 59 मिनट |
-| W2 | Chapter 08 Conjunction (Graduation English) | ✍️ लिख रहा है | 12 मिनट |
-| W3 | Chapter 06 Adverb (Graduation English) | ✍️ लिख रहा है | 3 मिनट |
-| W4 | Chapter 07 Preposition (Graduation English) | ✍️ लिख रहा है | 91 मिनट |
+| W1 | Chapter 02 Pronoun (Graduation English) | 🔎 review हो रहा है | 0 मिनट |
+| W2 | Chapter 03 Adjective (Graduation English) | 🔎 review हो रहा है | 0 मिनट |
+| W3 | Chapter 05 Tense (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
+| W4 | Chapter 06 Adverb (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -36,20 +36,9 @@
 - 05-10 22:04 — Graduation English · Chapter 01 Noun
 - 05-10 21:44 — Graduation English · Chapter 04 Verb
 
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 02 Pronoun (English) — 1 बार
-- Chapter 05 Tense (English) — 2 बार
-- Chapter 06 Adverb (English) — 1 बार
-
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-05-10 23:22:49   [Pronoun] review Flashcards_hi.txt: 1 issue(s): - Card 3: The Hindi mnemonic “पप्पू रोज़ दिल्ली इधर रोज़ इधर रोज़ दौड़ता है” does not correspond to the acronym 
-05-10 23:23:48   [Tense] Practice_en_Set_05.txt try 1: rejected (Q101:leaked_reasoning)
-05-10 23:24:45   [Preposition] Practice_en_Set_04.txt try 2: re-solve disagrees (Q76 key a vs re-solve b, Q83 key a vs re-solve b)
-05-10 23:27:14   [Adverb] Practice_en_Set_04.txt try 2: re-solve disagrees (Q92 key c vs re-solve a)
-05-10 23:30:04   [Preposition] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 05-10 23:31:22   [Tense] FAILED Practice_en_Set_05.txt: empty
 05-10 23:31:22   [Tense] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
 05-10 23:33:05   [Tense] Practice_en_Set_06.txt try 1: rejected (Q132:leaked_reasoning)
@@ -85,4 +74,9 @@
 05-10 23:55:03   [Conjunction] wrote Mind_Map_hi.txt (1874 chars)
 05-10 23:56:18   [Conjunction] wrote Flashcards_en.txt (3701 chars)
 05-10 23:56:45   [Preposition] Practice_hi_Set_05.txt try 2: rejected (Q118:leaked_reasoning)
+05-10 23:58:19 autopilot start: 4 workers, reverse=True
+05-10 23:58:19 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_02_Pronoun (OK: todo 0, problems 0)
+05-10 23:58:24 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_03_Adjective (OK: todo 0, problems 0)
+05-10 23:58:29 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_05_Tense (TODO: todo 2, problems 0)
+05-10 23:58:34 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_06_Adverb (TODO: todo 2, problems 0)
 ```
