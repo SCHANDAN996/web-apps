@@ -143,3 +143,20 @@ def test_trap_hint_variants_and_no_false_cut():
     assert TRAP_HINT.sub('', 'कौन? (परीक्षक का जाल – दोहरा संबंध)') == 'कौन? '
     assert TRAP_HINT.sub('', 'x (Examiner’s Trap – Misleading Options)') == 'x '
     assert TRAP_HINT.sub('', 'समलंब (Trapezium) का क्षेत्रफल') == 'समलंब (Trapezium) का क्षेत्रफल'
+
+
+def test_quoted_examples_are_not_leaked_reasoning():
+    from app.importers import ParsedQuestion, quality_problem
+    ok = ParsedQuestion(1, 'Fill in the blank: "I will ____ for you at the gate."', ['wait', 'waits', 'waited', 'waiting'],
+                        0, 'After "will" the base form is used: "I will wait for you".')
+    leak = ParsedQuestion(2, 'Choose the synonym of happy.', ['glad', 'sad', 'angry', 'tired'], 0,
+                          'Glad. Wait, let me recheck the options.')
+    assert quality_problem(ok) is None and quality_problem(leak) == 'leaked_reasoning'
+
+
+def test_english_book_hindi_files_may_quote_much_english():
+    from app.bookcheck import language_problem
+    text = 'नियम: Present Perfect में have/has के बाद क्रिया का तीसरा रूप आता है। ' * 2 + 'Example: She has finished her homework already. ' * 6
+    assert language_problem('Mind_Map_hi.txt', text) is not None
+    assert language_problem('Mind_Map_hi.txt', text, english_book=True) is None
+    assert language_problem('Mind_Map_hi.txt', 'Only English here. ' * 20, english_book=True) is not None

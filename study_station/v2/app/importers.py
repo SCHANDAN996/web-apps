@@ -192,8 +192,12 @@ def answer_conflicts_with_solution(q):
 
 # AI "thinking out loud" that leaked into generated solutions.
 LEAKED_REASONING = re.compile(
-    r"\b(I'll|I will|Let me|let's|Let us re|Nice!|Hmm|Wait|Actually,|Oops|recalculat|re-?check|"
-    r"I think|We need to|मैं इसे|मैं इस|ठीक है,|रुकिए|दोबारा जाँच|तो Q\d+|Q\d+:)", re.I)
+    r"\b(?:I'll|I will|Let me|let's|Let us re|Nice!|Hmm|Wait|Actually,|Oops|recalculat\w*|re-?check\w*|"
+    r"I think|We need to|मैं इसे|मैं इस|ठीक है,|रुकिए|दोबारा जाँच|तो Q\d+|Q\d+:)(?![A-Za-z])", re.I)
+# In the question itself ordinary sentences ("I will meet you…", "मैं इस बिंदु पर…") are content, so only
+# unmistakable model chatter counts there.
+LEAKED_IN_QUESTION = re.compile(
+    r"\b(?:Let me|Hmm|Wait,|Oops|recalculat\w*|re-?check\w*|रुकिए|दोबारा जाँच|तो Q\d+)(?![A-Za-z])", re.I)
 
 
 # The generator sometimes admits the question is broken ("figures may be inconsistent") — never show those.
@@ -212,9 +216,19 @@ NEEDS_CONTEXT = re.compile(
 STATEMENTS = re.compile(r'कथन|statements?\b', re.I)
 
 
+# Quoted example sentences ("I will wait for you") are content, not leaked reasoning.
+QUOTED = re.compile(r'"[^"\n]{1,200}"|“[^”\n]{1,200}”|‘[^’\n]{1,200}’|\*[^*\n]{1,200}\*|_{2}[^_\n]{1,200}_{2}|'
+                    r"(?<![A-Za-z])'[^'\n]{1,200}'(?![A-Za-z])")
+BLANK = re.compile(r'_{3,}')
+
+
+def _unquoted(text):
+    return QUOTED.sub(' ', text or '')
+
+
 def quality_problem(q):
     """Return a short reason string if the question should not reach students."""
-    if LEAKED_REASONING.search(q.solution) or LEAKED_REASONING.search(q.text):
+    if LEAKED_REASONING.search(_unquoted(q.solution)) or LEAKED_IN_QUESTION.search(_unquoted(q.text)):
         return 'leaked_reasoning'
     if BROKEN.search(q.text) or any(BROKEN.search(o) for o in q.options):
         return 'broken_question'

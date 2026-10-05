@@ -73,13 +73,14 @@ def section_files(chapter):
             for name, paths in sorted(found.items())}
 
 
-def language_problem(name, text):
-    """A *_hi file must be mostly Devanagari, an *_en file mostly Latin letters."""
+def language_problem(name, text, english_book=False):
+    """A *_hi file must be mostly Devanagari, an *_en file mostly Latin letters. In English-language books the
+    Hindi files explain English examples, so they need only a real share of Hindi."""
     m = re.search(r'_(hi|en)(?:_Set_\d+)?\.txt$', name)
     if not m:
         return None
     dev, lat = len(DEVANAGARI.findall(text)), len(LATIN.findall(text))
-    if m.group(1) == 'hi' and dev < lat * 0.5:
+    if m.group(1) == 'hi' and dev < lat * (0.15 if english_book else 0.5):
         return f'{name}: Hindi file is mostly not in Hindi'
     if m.group(1) == 'en' and dev > lat * 0.2:
         return f'{name}: English file contains a lot of Hindi'
@@ -118,7 +119,7 @@ def check_practice_pair(en_path, hi_path):
             problems.append(f'{lang}: numbering should be {want[0]}–{want[-1]}')
         if len(qs) == QS_PER_SET and Counter(q.answer_index for q in qs).most_common(1)[0][1] > 15:
             problems.append(f'{lang}: answers not spread (one letter is correct in >15 of 25)')
-        if (lp := language_problem(p.name, text)):
+        if (lp := language_problem(p.name, text, '/English/' in str(p))):
             problems.append(lp)
         problems += source_problems(p.name, text)
     if len(sets) == 2 and len(sets['en']) == len(sets['hi']):
@@ -145,7 +146,7 @@ def check_chapter(chapter):
             problems.append(f'{name}: unsourced claim "{m.group(0)}"')
         if name.startswith('Mind_Map') and not re.search(r'```mermaid\s*\n\s*(?:graph|flowchart|mindmap)', text):
             problems.append(f'{name}: no ```mermaid graph block')
-        if (lp := language_problem(name, text)):
+        if (lp := language_problem(name, text, '/English/' in str(chapter))):
             problems.append(lp)
         problems += source_problems(name, text)
         if '10th_Level' in str(chapter) and re.search(r'\bUPSC\b', text):
