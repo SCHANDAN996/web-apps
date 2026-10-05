@@ -30,6 +30,8 @@ def fake_ai(monkeypatch):
     calls = []
 
     def fake_call(system, user, *, schema=None, effort='low', max_tokens=4000):
+        if system == bookgen.CHECK_SYSTEM:                   # the independent re-solve agrees with mcq_set's key
+            return '\n'.join(f'{i}: {"abcd"[i % 4]}' for i in range(1, 26))
         calls.append((system, user))
         if 'Translate exactly these questions' in user:
             return mcq_set('hi')
@@ -63,7 +65,7 @@ def test_bookgen_writes_root_keeps_prompts_and_translates(chapter, fake_ai, db, 
     # hi practice set = translation of exactly the English set that was just written
     translate = [u for _, u in fake_ai if 'Translate exactly these questions' in u]
     assert len(translate) == 1 and mcq_set('en').strip() in translate[0]
-    assert len(fake_ai) == 4 and bookgen.used_today(db) == 4
+    assert len(fake_ai) == 4 and bookgen.used_today(db) == 5          # + 1 independent re-solve of the new set
     assert '--- bookcheck\nOK   Chapter_07_States_Rivers' in out and code == 0
     # Second run: nothing left in these files, finished sections are never overwritten
     fake_ai.clear()

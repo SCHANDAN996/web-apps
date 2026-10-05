@@ -295,6 +295,32 @@ def _set_problem(text, n):
     return None
 
 
+def _resolve_mismatch(db, text):
+    """Independent re-solve of a practice set; '' when every key agrees, else a short description."""
+    key = {q.number: 'abcd'[q.answer_index] for q in parse_mcq_text(text)}
+    got = {int(a): b.lower() for a, b in ANSWER_LINE.findall(_ask_check(db, check_request(text)))}
+    diff = [k for k, v in key.items() if got.get(k) != v]
+    return ', '.join(f'Q{k} key {key[k]} vs re-solve {got.get(k, "-")}' for k in diff[:10]) + (
+        f' (+{len(diff) - 10} more)' if len(diff) > 10 else '')
+
+
+def write_verified_set(db, user, name, n, out=print):
+    """Write a new practice set; keep it only once it passes the checks and an independent re-solve."""
+    ask = user
+    for attempt in range(1, MAX_REPAIR_TRIES + 1):
+        text = _clean_output(_ask(db, ask), name)
+        if (why := _set_problem(text, n)):
+            out(f'  {name} try {attempt}: rejected ({why})')
+            ask = user + f'\n\nYour previous attempt was rejected: {why}. Follow the exact format and rules.'
+            continue
+        if not (mismatch := _resolve_mismatch(db, text)):
+            return text
+        out(f'  {name} try {attempt}: re-solve disagrees ({mismatch[:120]})')
+        ask = practice_repair_request(name, text, n, [], mismatch)
+    out(f'REJECTED {name}: no version passed the checks — not written')
+    return None
+
+
 def repair_set(db, chapter, n, problems, out=print):
     """Repair one en/hi practice pair. Returns True when both files were written."""
     files = section_files(chapter)
@@ -309,14 +335,10 @@ def repair_set(db, chapter, n, problems, out=print):
             out(f'  set {n:02d} try {attempt}: rejected ({why})')
             mismatch = ''
             continue
-        key = {q.number: 'abcd'[q.answer_index] for q in parse_mcq_text(cand)}
-        got = {int(a): b.lower() for a, b in ANSWER_LINE.findall(_ask_check(db, check_request(cand)))}
-        diff = [k for k, v in key.items() if got.get(k) != v]
-        if not diff:
+        if not (mismatch := _resolve_mismatch(db, cand)):
             text = cand
             break
-        mismatch = ', '.join(f'Q{k} key {key[k]} vs re-solve {got.get(k, "-")}' for k in diff[:10])
-        out(f'  set {n:02d} try {attempt}: re-solve disagrees on {len(diff)} ({mismatch[:120]})')
+        out(f'  set {n:02d} try {attempt}: re-solve disagrees ({mismatch[:120]})')
         src = cand
     if text is None:
         out(f'FAILED set {n:02d}: no version passed the checks — files left as they were')
@@ -414,7 +436,13 @@ def run(db, chapter, wanted=None, dry_run=False, out=print):
                 done_text[name] = ''                  # so its pair shows as a translation
             continue
         try:
-            text = _clean_output(_ask(db, user), name)
+            if m and how == 'write':
+                text = write_verified_set(db, user, name, int(m.group(2)), out)
+                if text is None:
+                    failed.append(name)
+                    continue
+            else:
+                text = _clean_output(_ask(db, user), name)
         except ai.AIUnavailable as e:
             out(f'FAILED {name}: {e}')
             failed.append(name)
