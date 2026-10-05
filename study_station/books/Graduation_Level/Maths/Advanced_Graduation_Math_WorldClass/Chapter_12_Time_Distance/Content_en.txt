@@ -1,0 +1,125 @@
+# Chapter 12: Time, Speed and Distance (Comprehensive Graduation Level Foundation)
+
+## 1. Fundamental Principles and Unit Conversions
+Time, Speed, and Distance (TSD) forms one of the most intellectually rigorous sections of quantitative examinations (SSC CGL Tier-2, IBPS PO, CDS, State PCS). The entire domain rests on the kinematics identity:
+$$\text{Distance} (D) = \text{Speed} (S) \times \text{Time} (T)$$
+
+### Metric Conversions:
+- To convert kilometers per hour (km/h) to meters per second (m/s):
+  $$1 \text{ km/h} = \frac{1000 \text{ m}}{3600 \text{ s}} = \frac{5}{18} \text{ m/s}$$
+- To convert meters per second (m/s) to kilometers per hour (km/h):
+  $$1 \text{ m/s} = \frac{18}{5} \text{ km/h}$$
+
+### Invariance and Proportionality Laws:
+1. **Constant Distance ($D$ is constant):** Speed and Time are strictly inversely proportional:
+   $$S_1 \cdot T_1 = S_2 \cdot T_2 \implies \frac{S_1}{S_2} = \frac{T_2}{T_1}$$
+2. **Constant Time ($T$ is constant):** Distance and Speed are directly proportional:
+   $$\frac{D_1}{D_2} = \frac{S_1}{S_2}$$
+3. **Constant Speed ($S$ is constant):** Distance and Time are directly proportional:
+   $$\frac{D_1}{D_2} = \frac{T_1}{T_2}$$
+
+---
+
+## 2. Average Speed Mechanics
+Average speed is defined as total distance traversed divided by total elapsed time. It is never the simple arithmetic mean of speeds unless the time intervals are identical.
+$$\text{Average Speed} = \frac{\text{Total Distance}}{\text{Total Time}} = \frac{D_1 + D_2 + \dots + D_n}{T_1 + T_2 + \dots + T_n}$$
+
+### Special Scenarios:
+- **Two Equal Distance Segments ($D_1 = D_2$):** Harmonic mean of speeds:
+  $$S_{\text{avg}} = \frac{2 \cdot S_1 \cdot S_2}{S_1 + S_2}$$
+- **Three Equal Distance Segments ($D_1 = D_2 = D_3$):**
+  $$S_{\text{avg}} = \frac{3 \cdot S_1 \cdot S_2 \cdot S_3}{S_1 S_2 + S_2 S_3 + S_3 S_1}$$
+- **Equal Time Intervals ($T_1 = T_2$):** Arithmetic mean of speeds:
+  $$S_{\text{avg}} = \frac{S_1 + S_2}{2}$$
+
+---
+
+## 3. Early and Late Phenomena (Difference of Times)
+When a journey between two fixed points is made at two different speeds resulting in early or late arrivals:
+$$\text{Distance} = \frac{S_1 \cdot S_2}{|S_1 - S_2|} \times \Delta T$$
+Where $\Delta T$ is the difference in arrival times:
+- If one journey is $t_1$ late and the other is $t_2$ early: $\Delta T = t_1 + t_2$.
+- If both journeys are late (or both early): $\Delta T = |t_1 - t_2|$.
+- Ensure $\Delta T$ is converted into hours when speeds are in km/h.
+
+---
+
+## 4. Relative Speed Dynamics
+Relative speed represents the rate at which the separation distance between two moving entities changes.
+- **Opposite Directions (Approaching or Moving Apart):**
+  $$S_{\text{rel}} = S_1 + S_2$$
+- **Same Direction (Chasing or Overtaking):**
+  $$S_{\text{rel}} = |S_1 - S_2|$$
+- **Time to Meet or Overtake:**
+  $$T = \frac{\text{Initial Separation Distance}}{S_{\text{rel}}}$$
+
+---
+
+## 5. Problems on Trains
+A train is a body of significant physical length.
+1. **Crossing a Stationary Point Object (Pole, Standing Person, Signal Post):**
+   - Distance traversed = Length of train ($L_T$).
+   - Time taken = $\frac{L_T}{S_T}$.
+2. **Crossing a Stationary Extended Object (Platform, Bridge, Tunnel):**
+   - Distance traversed = Length of train ($L_T$) + Length of platform ($L_P$).
+   - Time taken = $\frac{L_T + L_P}{S_T}$.
+3. **Crossing a Moving Person/Vehicle:**
+   - Distance traversed = $L_T$.
+   - Relative speed = $S_T \pm S_P$ (depending on relative direction).
+4. **Two Trains Crossing Each Other:**
+   - Distance traversed = $L_1 + L_2$.
+   - Opposite directions: $T = \frac{L_1 + L_2}{S_1 + S_2}$.
+   - Same direction: $T = \frac{L_1 + L_2}{|S_1 - S_2|}$.
+5. **Person Inside Another Moving Train:**
+   - The distance considered is purely the length of the passing train ($L_{\text{passing}}$), not the sum of both trains!
+
+---
+
+## 6. Boats and Streams (River Kinematics)
+Let $u$ be the speed of the boat in still water and $v$ be the speed of the stream/current.
+- **Downstream Speed ($D$):** Flow assists motion:
+  $$D = u + v$$
+- **Upstream Speed ($U$):** Flow opposes motion:
+  $$U = u - v$$
+- **Speed of Boat in Still Water:**
+  $$u = \frac{D + U}{2}$$
+- **Speed of Stream / Current:**
+  $$v = \frac{D - U}{2}$$
+- **Equal Distance Round Trip Time Ratio:**
+  $$\frac{u}{v} = \frac{T_U + T_D}{T_U - T_D}$$
+
+---
+
+## 7. The Post-Meeting Travel Theorem
+Two bodies start simultaneously from points X and Y toward each other. After meeting at an intermediate point, body 1 takes $t_1$ hours to reach Y, and body 2 takes $t_2$ hours to reach X.
+$$\frac{S_1}{S_2} = \sqrt{\frac{t_2}{t_1}}$$
+- Time of meeting from start: $t_{\text{meet}} = \sqrt{t_1 \cdot t_2}$.
+- Total distance between X and Y: $D = (S_1 + S_2) \cdot \sqrt{t_1 \cdot t_2}$.
+
+---
+
+## 8. Races and Linear Contests
+In a race of length $L$:
+- **Head Start in Distance:** "A gives B a start of $x$ meters": B starts $x$ meters ahead of the starting line. When A runs $L$ meters, B needs to run only $(L - x)$ meters.
+- **Head Start in Time:** "A gives B a start of $t$ seconds": B starts running $t$ seconds before A.
+- **Beating in Distance and Time:** "A beats B by $x$ meters or $t$ seconds": B was $x$ meters behind the finish line when A finished, and B would have taken $t$ seconds to cover those $x$ meters:
+  $$\text{Speed of B} = \frac{x}{t}$$
+
+---
+
+## 9. Circular Tracks and Pursuit
+For a circular track of circumference $C$, with runners speeds $S_1$ and $S_2$:
+1. **Time for First Meeting Anywhere on the Track:**
+   $$T = \frac{C}{S_{\text{rel}}}$$
+2. **Time for First Meeting at the Exact Starting Point:**
+   $$T_{\text{start}} = \text{LCM}\left(\frac{C}{S_1}, \frac{C}{S_2}\right)$$
+3. **Number of Distinct Meeting Points on the Track:**
+   Express $S_1 : S_2 = a : b$ in lowest irreducible form:
+   - Opposite directions: $(a + b)$ distinct points.
+   - Same direction: $|a - b|$ distinct points.
+
+---
+
+## 10. Stoppage and Rest Dynamics
+When a transit vehicle stops along its journey:
+$$\text{Stoppage Time per Hour} = \frac{\text{Speed excluding stoppages} - \text{Speed including stoppages}}{\text{Speed excluding stoppages}} \times 60 \text{ minutes}$$

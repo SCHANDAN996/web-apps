@@ -1,0 +1,107 @@
+# Previous Year Exam Patterns: Time, Speed and Distance
+
+## Pattern 1: Average Speed for Distinct Journey Legs
+- **Exam Pattern:** SSC CGL Tier-2 Pattern
+- **Problem:** A person covers 1/3 of his journey at 20 km/h, 1/4 at 30 km/h, and the remaining distance at 50 km/h. Find his average speed for the entire journey.
+- **Analysis:** Assume total distance = LCM(3, 4) = 120 km (or 600 km for clean division).
+  Let distance = 600 km.
+  Leg 1: 1/3 of 600 = 200 km at 20 km/h $\implies T_1 = 200 / 20 = 10$ hours.
+  Leg 2: 1/4 of 600 = 150 km at 30 km/h $\implies T_2 = 150 / 30 = 5$ hours.
+  Leg 3: Remaining $600 - 350 = 250$ km at 50 km/h $\implies T_3 = 250 / 50 = 5$ hours.
+  Total time = $10 + 5 + 5 = 20$ hours.
+  Average speed = $600 / 20 = 30$ km/h.
+
+---
+
+## Pattern 2: Early and Late School Journey
+- **Exam Pattern:** IBPS PO Mains Pattern
+- **Problem:** If a student walks from home at 5 km/h, he arrives at school 7 minutes late. If he walks at 6 km/h, he arrives 5 minutes early. What is the distance from his home to school?
+- **Analysis:** Speed difference = $6 - 5 = 1$ km/h.
+  Time difference $\Delta T = 7 + 5 = 12$ minutes = $12 / 60 = 1/5$ hour.
+  Distance = $\frac{5 \times 6}{6 - 5} \times \frac{1}{5} = 30 \times \frac{1}{5} = 6$ km.
+
+---
+
+## Pattern 3: Two Trains Crossing Each Other
+- **Exam Pattern:** SSC CGL Tier-2 Pattern
+- **Problem:** Two trains of lengths 140 m and 160 m run on parallel tracks. When running in the same direction, the faster train passes the slower train in 30 seconds. When running in opposite directions, they pass each other in 6 seconds. Find the speeds of the two trains in km/h.
+- **Analysis:** Total distance in both cases = $140 + 160 = 300$ m.
+  Relative speed same direction: $S_1 - S_2 = 300 / 30 = 10$ m/s.
+  Relative speed opposite direction: $S_1 + S_2 = 300 / 6 = 50$ m/s.
+  Solving: $2 S_1 = 60 \implies S_1 = 30$ m/s, $S_2 = 20$ m/s.
+  Converting to km/h: $S_1 = 30 \times (18/5) = 108$ km/h, $S_2 = 20 \times (18/5) = 72$ km/h.
+
+---
+
+## Pattern 4: Meeting Point Offset Theorem
+- **Exam Pattern:** CDS Pattern
+- **Problem:** Two trains start at the same time from Delhi and Patna towards each other. After passing each other, they take 4 hours 48 minutes and 3 hours 20 minutes respectively to reach Patna and Delhi. If the first train runs at 45 km/h, find the speed of the second train.
+- **Analysis:** $t_1 = 4 \text{ hrs } 48 \text{ min} = 4\frac{4}{5} = 24/5$ hours.
+  $t_2 = 3 \text{ hrs } 20 \text{ min} = 3\frac{1}{3} = 10/3$ hours.
+  $S_1 / S_2 = \sqrt{t_2 / t_1} = \sqrt{(10/3) / (24/5)} = \sqrt{50 / 72} = \sqrt{25 / 36} = 5 / 6$.
+  Given $S_1 = 45$ km/h: $45 / S_2 = 5 / 6 \implies S_2 = 54$ km/h.
+
+---
+
+## Pattern 5: Boat Upstream and Downstream System of Equations
+- **Exam Pattern:** State PCS Pattern
+- **Problem:** A motorboat can travel 30 km upstream and 44 km downstream in 10 hours. It can also travel 40 km upstream and 55 km downstream in 13 hours. Find the speed of the boat in still water.
+- **Analysis:** Let $1/U = x$ and $1/D = y$.
+  $30x + 44y = 10$ and $40x + 55y = 13$.
+  Testing common factors: $D = 11 \implies y = 1/11$.
+  $30x + 44(1/11) = 10 \implies 30x + 4 = 10 \implies 30x = 6 \implies x = 1/5 \implies U = 5$.
+  Verifying second equation: $40(1/5) + 55(1/11) = 8 + 5 = 13$ (Matches!).
+  Still water speed $u = (D + U) / 2 = (11 + 5) / 2 = 8$ km/h.
+  Stream speed $v = (11 - 5) / 2 = 3$ km/h.
+
+---
+
+## Pattern 6: Bus Stoppage Calculations
+- **Exam Pattern:** SSC CGL Tier-2 Pattern
+- **Problem:** Excluding stoppages, the speed of a bus is 60 km/h, and including stoppages, it is 48 km/h. For how many minutes does the bus stop per hour?
+- **Analysis:** Speed difference = $60 - 48 = 12$ km/h.
+  Stoppage time per hour = $(12 / 60) \times 60 = 12$ minutes.
+
+---
+
+## Pattern 7: Linear Races with Distance and Time Margins
+- **Exam Pattern:** IBPS PO Mains Pattern
+- **Problem:** In a 1000-meter race, Runner A beats Runner B by 100 meters, and Runner B beats Runner C by 100 meters. By how many meters does Runner A beat Runner C in the same race?
+- **Analysis:** When A runs 1000 m, B runs 900 m $\implies B / A = 900 / 1000 = 9/10$.
+  When B runs 1000 m, C runs 900 m $\implies C / B = 900 / 1000 = 9/10$.
+  Ratio $C / A = (C / B) \times (B / A) = (9/10) \times (9/10) = 81 / 100 = 810 / 1000$.
+  When A completes 1000 m, C covers 810 m.
+  Margin by which A beats C = $1000 - 810 = 190$ meters.
+
+---
+
+## Pattern 8: Thief and Police Chase
+- **Exam Pattern:** SSC CGL Tier-2 Pattern
+- **Problem:** A thief steals a car at 1:30 PM and drives it at 40 km/h. The theft is discovered at 2:00 PM and the owner sets off in another car at 50 km/h. At what time will the owner overtake the thief?
+- **Analysis:** Time elapsed before owner starts = 30 minutes = 0.5 hour.
+  Distance lead by thief = $40 \times 0.5 = 20$ km.
+  Relative speed of pursuit = $50 - 40 = 10$ km/h.
+  Time to overtake = $20 / 10 = 2$ hours.
+  Overtake time = 2:00 PM + 2 hours = 4:00 PM.
+
+---
+
+## Pattern 9: Circular Track First Meeting at Starting Point
+- **Exam Pattern:** CDS Pattern
+- **Problem:** Three runners A, B, and C run along a circular track of circumference 1200 m with speeds 10 m/s, 15 m/s, and 20 m/s respectively in the same direction. After how many seconds will they meet for the first time at the starting point?
+- **Analysis:** Time taken by each for 1 complete lap:
+  $T_A = 1200 / 10 = 120$ s.
+  $T_B = 1200 / 15 = 80$ s.
+  $T_C = 1200 / 20 = 60$ s.
+  First meeting at starting point = $\text{LCM}(120, 80, 60) = 240$ seconds = 4 minutes.
+
+---
+
+## Pattern 10: Walking and Riding Round Trip
+- **Exam Pattern:** State PCS Pattern
+- **Problem:** A man walks a certain distance and rides back in 4 hours 30 minutes. He could ride both ways in 3 hours. How long would he take to walk both ways?
+- **Analysis:** Let walking one way be $W$ and riding one way be $R$.
+  $W + R = 4.5$ hours.
+  $2R = 3$ hours $\implies R = 1.5$ hours.
+  $W = 4.5 - 1.5 = 3$ hours.
+  Walking both ways $2W = 2 \times 3 = 6$ hours.

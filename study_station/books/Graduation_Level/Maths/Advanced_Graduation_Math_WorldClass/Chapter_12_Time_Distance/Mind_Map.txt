@@ -1,0 +1,32 @@
+```mermaid
+graph TD
+    A["Time Speed & Distance Architecture<br>समय चाल एवं दूरी संरचना"] --> B["Kinematics Foundation<br>मूलभूत संबंध"]
+    A --> C["Average Speed Models<br>औसत चाल प्रारूप"]
+    A --> D["Relative Dynamics & Trains<br>सापेक्ष गति एवं ट्रेनें"]
+    A --> E["Boats & Streams<br>नाव एवं धारा"]
+    A --> F["Races & Circular Tracks<br>दौड़ एवं वृत्ताकार पथ"]
+    A --> G["Meeting Offset Theorem<br>मिलन ऑफसेट प्रमेय"]
+
+    B --> B1["D = S x T<br>दूरी = चाल x समय"]
+    B --> B2["Unit Conversions<br>5/18 and 18/5"]
+    B --> B3["Early/Late Time Delta<br>समयांतर सूत्र"]
+
+    C --> C1["General Ratio: Total D / Total T<br>कुल दूरी / कुल समय"]
+    C --> C2["Harmonic Mean for Equal D<br>2xy / x+y"]
+    C --> C3["Arithmetic Mean for Equal T<br>x+y / 2"]
+
+    D --> D1["Opposite Direction: S1 + S2<br>विपरीत दिशा योग"]
+    D --> D2["Same Direction: S1 - S2<br>समान दिशा अंतर"]
+    D --> D3["Train Crossing Extended Objects<br>LT + LP Distance"]
+
+    E --> E1["Downstream: u + v<br>अनुकूल चाल"]
+    E --> E2["Upstream: u - v<br>प्रतिकूल चाल"]
+    E --> E3["Still Water Speed u and Stream v<br>D+U/2 and D-U/2"]
+
+    F --> F1["Linear Races: Head Starts<br>दूरी एवं समय की बढ़त"]
+    F --> F2["Circular Tracks First Meeting<br>Track / S_rel"]
+    F --> F3["Distinct Points on Ring<br>a+b and a-b"]
+
+    G --> G1["Post-Meeting Speed Ratio<br>S1/S2 = sqrt t2/t1"]
+    G --> G2["Meeting Time Duration<br>t_meet = sqrt t1*t2"]
+```

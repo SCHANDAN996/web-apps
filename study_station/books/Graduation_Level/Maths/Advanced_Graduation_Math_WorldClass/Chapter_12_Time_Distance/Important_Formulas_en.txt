@@ -1,0 +1,39 @@
+# Important Formulas: Time, Speed and Distance
+
+## 1. Fundamentals and Conversions
+- $\text{Distance} = \text{Speed} \times \text{Time}$
+- $1 \text{ km/h} = \frac{5}{18} \text{ m/s}$
+- $1 \text{ m/s} = \frac{18}{5} \text{ km/h}$
+- Constant Distance: $\frac{S_1}{S_2} = \frac{T_2}{T_1}$
+- Constant Time: $\frac{D_1}{D_2} = \frac{S_1}{S_2}$
+
+## 2. Average Speed
+- General: $S_{\text{avg}} = \frac{\text{Total Distance}}{\text{Total Time}}$
+- Two equal distances: $S_{\text{avg}} = \frac{2 S_1 S_2}{S_1 + S_2}$
+- Three equal distances: $S_{\text{avg}} = \frac{3 S_1 S_2 S_3}{S_1 S_2 + S_2 S_3 + S_3 S_1}$
+- Equal time intervals: $S_{\text{avg}} = \frac{S_1 + S_2}{2}$
+
+## 3. Early / Late Shortcut
+$$\text{Distance} = \frac{S_1 \cdot S_2}{|S_1 - S_2|} \times \Delta T$$
+
+## 4. Relative Speed
+- Opposite direction: $S_{\text{rel}} = S_1 + S_2$
+- Same direction: $S_{\text{rel}} = |S_1 - S_2|$
+
+## 5. Trains Formulas
+- Passing a pole/person: $T = \frac{L_T}{S_T}$
+- Passing a platform: $T = \frac{L_T + L_P}{S_T}$
+- Two trains crossing: $T = \frac{L_1 + L_2}{S_{\text{rel}}}$
+
+## 6. Boats and Streams
+- Downstream: $D = u + v$
+- Upstream: $U = u - v$
+- Speed of boat in still water: $u = \frac{D + U}{2}$
+- Speed of stream: $v = \frac{D - U}{2}$
+- Ratio relation: $\frac{u}{v} = \frac{T_U + T_D}{T_U - T_D}$
+
+## 7. Meeting Offset Formula
+$$\frac{S_1}{S_2} = \sqrt{\frac{t_2}{t_1}}, \quad t_{\text{meet}} = \sqrt{t_1 \cdot t_2}$$
+
+## 8. Stoppage Time
+$$\text{Stoppage min/hr} = \frac{\text{Speed without stop} - \text{Speed with stop}}{\text{Speed without stop}} \times 60$$

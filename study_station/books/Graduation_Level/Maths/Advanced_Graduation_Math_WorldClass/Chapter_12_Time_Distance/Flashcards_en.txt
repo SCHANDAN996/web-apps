@@ -1,0 +1,32 @@
+# Flashcards: Time, Speed and Distance
+
+Front: What is the multiplier to convert kilometers per hour to meters per second?
+Back: Multiply by 5/18 ($1 \text{ km/h} = 5/18 \text{ m/s}$).
+
+---
+Front: What is the average speed formula for two equal distances at speeds x and y?
+Back: $S_{\text{avg}} = \frac{2xy}{x + y}$ (Harmonic Mean).
+
+---
+Front: What is the distance formula when speeds are S1 and S2 with time difference Delta T?
+Back: $\text{Distance} = \frac{S_1 \cdot S_2}{|S_1 - S_2|} \times \Delta T$.
+
+---
+Front: What is the relative speed of two bodies moving in opposite directions?
+Back: $S_{\text{rel}} = S_1 + S_2$.
+
+---
+Front: What distance is traversed when a train of length L passes a platform of length P?
+Back: Total distance = $L + P$.
+
+---
+Front: How are still water speed u and stream speed v calculated from downstream (D) and upstream (U)?
+Back: $u = (D + U) / 2$ and $v = (D - U) / 2$.
+
+---
+Front: State the speed ratio formula after two bodies cross each other and reach destinations in t1 and t2.
+Back: $S_1 / S_2 = \sqrt{t_2 / t_1}$.
+
+---
+Front: How do you calculate hourly stoppage time from speeds with and without stops?
+Back: $\text{Stoppage min/hr} = \frac{\text{Speed without stop} - \text{Speed with stop}}{\text{Speed without stop}} \times 60$.
