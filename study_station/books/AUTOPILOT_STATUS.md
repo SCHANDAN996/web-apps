@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 06-10-2026 03:48 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 02:43 AM
+**आख़िरी update:** 06-10-2026 03:59 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 02:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Narration (Graduation English) | ✍️ लिख रहा है | 42 मिनट |
-| W2 | Chapter 10 Voice (Graduation English) | ✍️ लिख रहा है | 44 मिनट |
-| W3 | Chapter 08 Conjunction (Graduation English) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 12 Sentence Structure (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
+| W1 | Chapter 11 Narration (Graduation English) | ✍️ लिख रहा है | 54 मिनट |
+| W2 | Chapter 10 Voice (Graduation English) | ✍️ लिख रहा है | 55 मिनट |
+| W3 | Chapter 13 Synonyms (Graduation English) | ✍️ लिख रहा है | 11 मिनट |
+| W4 | Chapter 12 Sentence Structure (Graduation English) | ✍️ लिख रहा है | 12 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -43,32 +43,9 @@
 - 05-10 22:04 — Graduation English · Chapter 01 Noun
 - 05-10 21:44 — Graduation English · Chapter 04 Verb
 
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 08 Conjunction (English) — 1 बार
-
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-06-10 03:19:01   [Conjunction] written 2, failed 0; AI calls today 327/100000
-06-10 03:20:26   [Conjunction] review Content_en.txt: 1 issue(s): - In the Linguistic Bridge table, the correction for "He as well as I are going" is given as "He as well as I am go
-06-10 03:20:48   [Articles] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-06-10 03:20:48   [Articles] written 7, failed 1; AI calls today 330/100000
-06-10 03:20:48 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_09_Articles after 37 min: todo ['Set 05 hi: todo'] problems []
-06-10 03:20:49 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_09_Articles (TODO: todo 1, problems 0)
-06-10 03:21:50   [Voice] Practice_en_Set_03.txt try 1: re-solve disagrees (Q70 key b vs re-solve a)
-06-10 03:23:24   [Articles] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-06-10 03:23:24   [Articles] written 1, failed 0; AI calls today 333/100000
-06-10 03:23:50   [Conjunction] review Content_hi.txt: 2 issue(s): - Missing postposition 'को' in Hindi sentence "इस अध्याय पढ़ने के बाद आप:" → "इस अध्याय को पढ़ने के बाद आप:" (or "इ
-06-10 03:24:21   [Voice] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-06-10 03:24:23   [Narration] wrote PYQ_en.txt (8242 chars)
-06-10 03:26:09   [Narration] wrote PYQ_hi.txt (7116 chars)
-06-10 03:28:52   [Articles] review Content_hi.txt: 1 issue(s): - In the reading comprehension passage, "reflects an apathy towards historical evidence" incorrectly uses the indef
-06-10 03:29:01   [Voice] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-06-10 03:29:21   [Conjunction] review Mind_Map_en.txt: 1 issue(s): - F11: "Rather than / Other than take bare infinitive" → "Other than" is a preposition and takes a gerund or noun 
-06-10 03:32:10   [Narration] FAILED Short_Tricks_en.txt: empty
-06-10 03:33:08   [Articles] review Feynman_en.txt: 1 issue(s): - Invented exam statistic: "This one trick solves half of all article questions in exams!" → Remove the fabricated 
-06-10 03:33:57   [Narration] wrote Short_Tricks_hi.txt (5197 chars)
 06-10 03:34:26   [Articles] review Mind_Map_en.txt: 1 issue(s): - D4 example "go to school (as student)" is ungrammatical → should be "go to school as a student" or "go to school
 06-10 03:35:28   [Narration] wrote Important_Rules_en.txt (6343 chars)
 06-10 03:36:17   [Conjunction] review Mind_Map_hi.txt: 1 issue(s): - F2 states “Until = समय, Till = समय दोनों नकारात्मक वाक्य में” → Until and Till are used in both affirmative and 
@@ -90,4 +67,23 @@
 06-10 03:47:34 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_12_Sentence_Structure (TODO: todo 26, problems 0)
 06-10 03:48:20   [Conjunction] review: 7 section(s) corrected, 0 failed
 06-10 03:48:20   [Conjunction] written 7, failed 0; AI calls today 389/100000
+06-10 03:48:27 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_08_Conjunction in 41 min → d09217c
+06-10 03:48:28 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_13_Synonyms (TODO: todo 26, problems 0)
+06-10 03:49:12   [Sentence_Structure] wrote Content_en.txt (8792 chars)
+06-10 03:49:20   [Voice] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+06-10 03:50:06   [Synonyms] wrote Content_en.txt (9661 chars)
+06-10 03:51:38   [Narration] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+06-10 03:51:42   [Sentence_Structure] wrote Content_hi.txt (9787 chars)
+06-10 03:52:09   [Voice] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+06-10 03:53:00   [Synonyms] wrote Content_hi.txt (8030 chars)
+06-10 03:53:43   [Synonyms] wrote Feynman_en.txt (3021 chars)
+06-10 03:54:38   [Voice] Practice_en_Set_06.txt try 1: re-solve disagrees (Q133 key c vs re-solve b, Q142 key d vs re-solve b)
+06-10 03:55:39   [Narration] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+06-10 03:56:08   [Synonyms] wrote Feynman_hi.txt (2436 chars)
+06-10 03:56:53   [Synonyms] wrote Mind_Map_en.txt (1557 chars)
+06-10 03:57:23   [Synonyms] wrote Mind_Map_hi.txt (1208 chars)
+06-10 03:58:08   [Synonyms] wrote Flashcards_en.txt (3284 chars)
+06-10 03:58:16   [Voice] Practice_en_Set_06.txt try 2: re-solve disagrees (Q142 key b vs re-solve a)
+06-10 03:59:14   [Narration] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+06-10 03:59:16   [Sentence_Structure] wrote Feynman_en.txt (2228 chars)
 ```
