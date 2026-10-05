@@ -1,79 +1,26 @@
-Diagram
-Code
-Download
-Fullscreen
-Alphabet Questions
-Foundation
-Types of Questions
-Strategies
-Time Management
-Examiner's Traps
-Positions
-Opposite Letters
-Mnemonics
-Letter Series
-Letter Analogy
-Letter Classification
-Coding-Decoding
-Use EJOTY for QuickPosition Lookup
-Memorize Opposite Pairsfor Speed
-For Series: CheckDifferences in Positions
-For Analogy: Decode FirstPair Completely
-For Classification: CheckSimplest Category First
-For Coding: Isolate EachLetter, Apply Stepwise
-15-Second Rule
-45-Second Rule
->3 operations
-Attempt SimpleSeries/Analogy First
-Multiple Plausible Patternsin Options
-Complex-Looking Words
-Double Relationships
-Vowel/Consonant Trap inClassification
-Uneven Gaps in Series
-Forward: A=1 to Z=26
-EJOTY Anchors
-Reverse: Z=1 to A=26
-Sum = 27
-Formula: Opposite = 27 -Position
-Common Pairs
-EJOTY: forward
-VQLGB / Very Quiet LionsGrowl Boldly: reverseanchors
-Constant Difference
-Increasing/Decreasing Gap
-Mixed Letter-Number
-Reverse Series
-Identify Relationship
-Apply Identically
-Vowel/Consonant
-Position Parity
-Prime/Composite Position
-Pattern in Gaps
-Single Operation
-Multi-Operation
-If pattern not found in 15sec → Skip
-If solving takes >45 sec →Mark & Return Later
-Always Prefer the SimplestConsistent Rule
-Decode Systematically;Often a Simple Operation
-Verify Uniformity Across AllLetters
-Overthinking Positions;Missing the Obvious
-Check if Gap Change isArithmetic or Random
-E=5
-J=10
-O=15
-T=20
-Y=25
-Formula: 27 - ForwardPosition
-E ↔ V
-J ↔ Q
-O ↔ L
-T ↔ G
-Y ↔ B
-Shift
-Opposite
-Reverse
-Combined
-+/-
-Opposite
-Reverse
-Order of Steps
-Decoding: Reverse theSteps
+# Mind Map: Alphabet Questions (अक्षर आधारित प्रश्न)
+
+```mermaid
+graph TD
+    Root["Alphabet Questions"] --> Foundation["Foundation & Positions"]
+    Root --> Types["Types of Questions"]
+    Root --> Strategies["Solving Strategies"]
+    Root --> Traps["Examiner Traps"]
+
+    Foundation --> F1["Forward Position: A=1 to Z=26<br/>EJOTY anchors (5, 10, 15, 20, 25)"]
+    Foundation --> F2["Reverse Position: Z=1 to A=26<br/>Rule of 27: Reverse = 27 - Forward"]
+    Foundation --> F3["Opposite Pairs: Sum = 27<br/>A-Z, B-Y, C-X, D-W, E-V, etc."]
+
+    Types --> T1["Letter Series<br/>Constant (+/-), increasing, alternating"]
+    Types --> T2["Letter Analogy<br/>Decode 1st pair, apply to 2nd pair"]
+    Types --> T3["Classification<br/>Odd one out: vowel/consonant, position gaps"]
+    Types --> T4["Coding-Decoding<br/>Direct shift (+1/-1), position value, opposite"]
+
+    Strategies --> S1["Convert letters to numbers immediately"]
+    Strategies --> S2["Left/Right rules: Opposite directions add, Same subtract"]
+    Strategies --> S3["15-Sec Rule: If pattern not spotted, move on"]
+
+    Traps --> TR1["Off-by-one errors in reverse counting"]
+    Traps --> TR2["Multiple plausible patterns: choose simplest arithmetic"]
+    Traps --> TR3["Overlooking subset prefix or letter case"]
+```
