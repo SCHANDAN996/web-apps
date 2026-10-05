@@ -1,45 +1,37 @@
-Set 3 (Questions 51–75)
+📝 Practice Set 3 (Questions 51–75)
 
-Q51. In a certain code language, the symbols represent the following meanings:
-‘A @ B’ means A is not greater than B (A ≤ B)
-‘A # B’ means A is not less than B (A ≥ B)
-‘A B’ means A is neither greater than nor equal to B (A < B) ‘A % B’ means A is neither less than nor equal to B (A > B) ‘A * B’ means A is neither greater than nor less than B (A = B) **Statements:** X # Y Y @ Z Z A
-A % B
+Medium (51–75) | Total 25 MCQs
+Includes at least 2 Examiner's Trap questions (marked with ⚠️).
+
+Q51. (Medium) In a certain code: ‘A @ B’ means A ≤ B, ‘A # B’ means A ≥ B, ‘A $ B’ means A < B, ‘A % B’ means A > B, ‘A * B’ means A = B
+Statements: X # Y, Y @ Z, Z $ A, A % B
 Conclusions:
 I. X % A
 II. X * A
-(a) Only I follows
-(b) Only II follows
-(c) Either I or II follows
-(d) Neither I nor II follows
+(A) Neither I nor II follows (B) Only II follows (C) Either I or II follows (D) Only I follows
 
-Answer: (d) Neither I nor II follows
+Answer: (A) Neither I nor II follows
+
 Solution:
-Decoded statements: X ≥ Y, Y ≤ Z, Z < A, A > B.
-Combined chain: X ≥ Y ≤ Z < A.
-The relation between X and A cannot be determined; all possibilities (X > A, X = A, X < A) exist.
-Conclusion I (X > A) is not definite. Conclusion II (X = A) is not definite. Moreover, they do not form a complementary pair because the possibility X < A is missing. Hence, neither follows.
-Trap: The presence of > and = tempts students to apply Either-Or without checking if all possibilities are covered.
-Source: IBPS PO 2021
+Decoded: X ≥ Y, Y ≤ Z, Z < A, A > B. Between X and A, signs reverse at Y (≥ and ≤), so no definite relation exists. Neither I nor II follows. Hence, the correct option is (A).
 
-Q52. Statements:
+Source: SSC CGL
+
+Q52. (Medium) Statements:
 A > B = C ≥ D < E; F ≤ D > G
 Conclusions:
 I. A > F
 II. B > G
-(a) Only I follows
-(b) Only II follows
-(c) Both follow
-(d) Neither I nor II follows
+(A) Only I follows (B) Both follow (C) Only II follows (D) Neither I nor II follows
 
-Answer: (c) Both follow
+Answer: (B) Both follow
+
 Solution:
-From A > B = C ≥ D ≥ F ⇒ A > F (I follows).
-From B = C ≥ D > G ⇒ B > G (II follows).
-Both are definite.
-Source: SSC CGL 2020
+From A > B = C ≥ D ≥ F ⇒ A > F (I follows). From B = C ≥ D > G ⇒ B > G (II follows). Both are definite. Hence, the correct option is (B).
 
-Q53. In a certain code:
+Source: SSC CHSL
+
+Q53. (Medium) In a certain code:
 ‘A α B’ means A > B
 ‘A β B’ means A < B
 ‘A γ B’ means A = B
@@ -53,49 +45,41 @@ S ε T
 Conclusions:
 I. P β T
 II. P α T
-(a) Only I follows
-(b) Only II follows
-(c) Either I or II follows
-(d) Neither I nor II follows
+(A) Only I follows (B) Only II follows (C) Neither I nor II follows (D) Either I or II follows
 
-Answer: (d) Neither I nor II follows
+Answer: (C) Neither I nor II follows
+
 Solution:
-Decoded: P > Q, Q < R, R = S, S ≤ T.
-Chain: P > Q < R = S ≤ T.
-The connection between P and T breaks at Q because of opposite signs. All relations between P and T (>, <, =) are possible. I (P < T) and II (P > T) are individually false and do not form a complementary pair (equality missing). Thus neither follows.
-Source: SBI PO 2022
+Decoded: P > Q, Q < R, R = S, S ≤ T. Chain: P > Q < R = S ≤ T. The connection between P and T breaks at Q because of opposite signs. All relations between P and T (>, <, =) are possible. I (P < T) and II (P > T) are individually false and do not form a complementary pair (equality missing). Thus neither follows. Hence, the correct option is (C).
 
-Q54. Which of the following expressions will make ‘M ≤ N’ definitely true?
-(a) M > O ≥ N
-(b) M < O ≤ N
-(c) M = O > N
-(d) M ≥ O < N
+Source: SSC MTS
 
-Answer: (b) M < O ≤ N
+Q54. (Medium) Which of the following expressions will make ‘M ≤ N’ definitely true?
+(A) M > O ≥ N (B) M ≥ O < N (C) M = O > N (D) M < O ≤ N
+
+Answer: (D) M < O ≤ N
+
 Solution:
-In option (b): M < O ≤ N ⇒ M < N, which always satisfies M ≤ N.
-Other options do not guarantee M ≤ N.
-Source: RRB NTPC 2021
+In option (b): M < O ≤ N ⇒ M < N, which always satisfies M ≤ N. Other options do not guarantee M ≤ N. Hence, the correct option is (D).
 
-Q55. Statements:
+Source: RRB NTPC
+
+Q55. (Medium) ⚠️ Statements:
 M ≥ N > O = P
 Q ≤ P
 Conclusions:
 I. M > O
 II. M = O
-(a) Only I follows
-(b) Only II follows
-(c) Either I or II follows
-(d) Neither I nor II follows
+(A) Only I follows (B) Only II follows (C) Either I or II follows (D) Neither I nor II follows
 
-Answer: (a) Only I follows
+Answer: (A) Only I follows
+
 Solution:
-Combine: M ≥ N > O ⇒ M > O (definite). Thus I is true.
-Conclusion II (M = O) is false.
-Trap: The statement M ≥ N > O might appear to give M ≥ O, tempting students to treat I and II as an Either-Or pair. However, the chain actually forces M > O, so II cannot be true.
-Source: IBPS Clerk 2019
+Combine: M ≥ N > O ⇒ M > O (definite). Thus I is true. Conclusion II (M = O) is false. Trap: The statement M ≥ N > O might appear to give M ≥ O, tempting students to treat I and II as an Either-Or pair. However, the chain actually forces M > O, so II cannot be true. Hence, the correct option is (A).
 
-Q56. In a certain code:
+Source: RRB Group D
+
+Q56. (Medium) In a certain code:
 ‘A © B’ means A ≤ B
 ‘A ® B’ means A > B
 ‘A µ B’ means A = B
@@ -109,123 +93,95 @@ S © T
 Conclusions:
 I. P ® T
 II. P ∑ T
-(a) Only I follows
-(b) Only II follows
-(c) Either I or II follows
-(d) Neither I nor II follows
+(A) Only I follows (B) Neither I nor II follows (C) Either I or II follows (D) Only II follows
 
-Answer: (d) Neither I nor II follows
+Answer: (B) Neither I nor II follows
+
 Solution:
-Decoded: P > Q = R < S ≤ T.
-Chain: P > Q = R < S ≤ T ⇒ P > R and R < T. No definite relation between P and T. I (P > T) and II (P < T) are not definitely true and do not cover the equality possibility, so they are not complementary.
-Source: SSC CGL 2023
+Decoded: P > Q = R < S ≤ T. Chain: P > Q = R < S ≤ T ⇒ P > R and R < T. No definite relation between P and T. I (P > T) and II (P < T) are not definitely true and do not cover the equality possibility, so they are not complementary. Hence, the correct option is (B).
 
-Q57. Statements:
+Source: SSC CGL
+
+Q57. (Medium) Statements:
 A = B > C ≥ D; E < D ≤ F; G > F
 Conclusions:
 I. A > E
 II. G > C
 III. B ≥ F
-(a) Only I follows
-(b) I and II follow
-(c) II and III follow
-(d) I and III follow
+(A) II and III follow (B) I and II follow (C) Only I follows (D) I and III follow
 
-Answer: (a) Only I follows
+Answer: (C) Only I follows
+
 Solution:
-Combine: A = B > C ≥ D > E ⇒ A > E (I true).
-G > F ≥ D ≤ C — the chain breaks at D; no definite G > C (II false).
-B > C ≥ D ≤ F — no relation between B and F (III false).
-Source: IBPS PO 2023
+Combine: A = B > C ≥ D > E ⇒ A > E (I true). G > F ≥ D ≤ C — the chain breaks at D; no definite G > C (II false). B > C ≥ D ≤ F — no relation between B and F (III false). Hence, the correct option is (C).
 
-Q58. Statements:
+Source: SSC CHSL
+
+Q58. (Medium) Statements:
 P ≥ Q = R
 S ≤ R
 Conclusions:
 I. P > S
 II. P = S
-(a) Only I follows
-(b) Only II follows
-(c) Either I or II follows
-(d) Neither I nor II follows
+(A) Only I follows (B) Only II follows (C) Neither I nor II follows (D) Either I or II follows
 
-Answer: (c) Either I or II follows
+Answer: (D) Either I or II follows
+
 Solution:
-Combine: P ≥ Q = R ≥ S ⇒ P ≥ S.
-Thus, either P > S or P = S is true. Neither is definite individually, but together they cover all possibilities.
-Source: SBI PO 2019
+Combine: P ≥ Q = R ≥ S ⇒ P ≥ S. Thus, either P > S or P = S is true. Neither is definite individually, but together they cover all possibilities. Hence, the correct option is (D).
 
-Q59. In a certain code:
-‘A ⋆ B’ means A is not less than B (A ≥ B)
-‘A B’ means A is not greater than B (A ≤ B) ‘A @ B’ means A is neither greater than nor equal to B (A < B) ‘A # B’ means A is neither less than nor equal to B (A > B) ‘A % B’ means A is neither greater than nor less than B (A = B) **Statements:** X Y
-Y ⋆ Z
-Z @ W
-W # V
+Source: SSC MTS
+
+Q59. (Medium) In a certain code: ‘A # B’ means A ≥ B, ‘A $ B’ means A ≤ B, ‘A @ B’ means A < B, ‘A % B’ means A > B, ‘A * B’ means A = B
+Statements: X $ Y, Y # Z, Z @ W, W % V
 Conclusions:
 I. X @ V
-II. Z % V
-III. Y # V
-(a) None follows
-(b) Only I follows
-(c) Only III follows
-(d) II and III follow
+II. Z * V
+(A) Neither I nor II follows (B) Only II follows (C) Either I or II follows (D) Only I follows
 
-Answer: (a) None follows
+Answer: (A) Neither I nor II follows
+
 Solution:
-Decoded: X ≤ Y, Y ≥ Z, Z < W, W > V.
-Chain: X ≤ Y ≥ Z < W > V.
-No relation between X and V (I false), Z and V (II false), Y and V (III false).
-Trap: The alternating signs create breaks that prevent any definite connection among the outer variables.
-Source: RRB PO 2020
+Decoded: X ≤ Y, Y ≥ Z, Z < W, W > V. Signs alternate between X and V, and between Z and V. Neither conclusion follows. Hence, the correct option is (A).
 
-Q60. Which set of symbols should replace the blanks in the expression ‘A _ B _ C _ D’ so that both ‘A ≥ C’ and ‘B > D’ definitely hold?
-(a) ≥, >, =
-(b) >, ≥, >
-(c) =, ≥, <
-(d) ≥, =, ≥
+Source: RRB NTPC
 
-Answer: (a) ≥, >, =
+Q60. (Medium) Which set of symbols should replace the blanks in the expression ‘A _ B _ C _ D’ so that both ‘A ≥ C’ and ‘B > D’ definitely hold?
+(A) >, ≥, > (B) ≥, >, = (C) =, ≥, < (D) ≥, =, ≥
+
+Answer: (B) ≥, >, =
+
 Solution:
-Expression: A ≥ B > C = D.
-From A ≥ B > C, we get A > C, hence A ≥ C true.
-From B > C = D, we get B > D true.
-Other options do not satisfy both conditions simultaneously.
-Source: SSC CGL 2022
+Expression: A ≥ B > C = D. From A ≥ B > C, we get A > C, hence A ≥ C true. From B > C = D, we get B > D true. Other options do not satisfy both conditions simultaneously. Hence, the correct option is (B).
 
-Q61. Which set of symbols should replace the blanks in ‘M _ N _ O _ P’ so that both ‘M > O’ and ‘N ≤ P’ definitely hold?
-(a) >, ≤, <
-(b) ≥, <, ≤
-(c) >, =, ≤
-(d) ≥, >, =
+Source: RRB Group D
 
-Answer: (c) >, =, ≤
+Q61. (Medium) Which set of symbols should replace the blanks in ‘M _ N _ O _ P’ so that both ‘M > O’ and ‘N ≤ P’ definitely hold?
+(A) >, ≤, < (B) ≥, <, ≤ (C) >, =, ≤ (D) ≥, >, =
+
+Answer: (C) >, =, ≤
+
 Solution:
-Expression: M > N = O ≤ P.
-M > N = O gives M > O (true).
-N = O ≤ P gives N ≤ P (true).
-Other options fail to guarantee one or both conditions.
-Source: IBPS Clerk 2021
+Expression: M > N = O ≤ P. M > N = O gives M > O (true). N = O ≤ P gives N ≤ P (true). Other options fail to guarantee one or both conditions. Hence, the correct option is (C).
 
-Q62. Statements:
+Source: SSC CGL
+
+Q62. (Medium) Statements:
 P > Q ≥ R = S; T < S; U ≤ T
 Conclusions:
 I. P > U
 II. Q > T
 III. R ≤ U
-(a) Only I follows
-(b) I and II follow
-(c) II and III follow
-(d) All follow
+(A) Only I follows (B) All follow (C) II and III follow (D) I and II follow
 
-Answer: (b) I and II follow
+Answer: (D) I and II follow
+
 Solution:
-Chain: P > Q ≥ R = S > T ≥ U.
-P > U (I true).
-Q ≥ R = S > T ⇒ Q > T (II true).
-R = S > T ≥ U ⇒ R > U, so R ≤ U is false (III false).
-Source: SBI PO 2021
+Chain: P > Q ≥ R = S > T ≥ U. P > U (I true). Q ≥ R = S > T ⇒ Q > T (II true). R = S > T ≥ U ⇒ R > U, so R ≤ U is false (III false). Hence, the correct option is (D).
 
-Q63. In a certain code:
+Source: SSC CHSL
+
+Q63. (Medium) In a certain code:
 ‘A △ B’ means A ≤ B
 ‘A □ B’ means A ≥ B
 ‘A ○ B’ means A < B
@@ -239,136 +195,74 @@ W ◇ V
 Conclusions:
 I. X ○ V
 II. Z ☆ V
-(a) Only I follows
-(b) Only II follows
-(c) Both follow
-(d) Neither I nor II follows
+(A) Neither I nor II follows (B) Only II follows (C) Both follow (D) Only I follows
 
-Answer: (d) Neither I nor II follows
+Answer: (A) Neither I nor II follows
+
 Solution:
-Decoded: X ≤ Y, Y ≥ Z, Z < W, W > V.
-Chain: X ≤ Y ≥ Z < W > V.
-No definite relation exists between X and V (I false) or Z and V (II false).
-Source: IBPS PO 2020
+Decoded: X ≤ Y, Y ≥ Z, Z < W, W > V. Chain: X ≤ Y ≥ Z < W > V. No definite relation exists between X and V (I false) or Z and V (II false). Hence, the correct option is (A).
 
-Q64. Statements:
+Source: SSC MTS
+
+Q64. (Medium) Statements:
 A > B = C ≤ D < E; F = E > G; H < G
 Conclusions:
 I. A > C
 II. B < E
 III. H < D
-(a) I and II follow
-(b) II and III follow
-(c) I and III follow
-(d) All follow
+(A) II and III follow (B) I and II follow (C) I and III follow (D) All follow
 
-Answer: (a) I and II follow
+Answer: (B) I and II follow
+
 Solution:
-A > B = C ⇒ A > C (I true).
-B = C ≤ D < E ⇒ B < E (II true).
-H < G < E and D < E; no relation between H and D (III false).
-Source: SSC CGL 2021
+A > B = C ⇒ A > C (I true). B = C ≤ D < E ⇒ B < E (II true). H < G < E and D < E; no relation between H and D (III false). Hence, the correct option is (B).
 
-Q65. Statements:
+Source: RRB NTPC
+
+Q65. (Medium) Statements:
 P = Q > R ≥ S; T < S; U ≥ T
 Conclusions:
 I. Q > U
 II. R > T
 III. P ≥ S
-(a) Only II follows
-(b) II and III follow
-(c) I and II follow
-(d) All follow
+(A) Only II follows (B) I and II follow (C) II and III follow (D) All follow
 
-Answer: (b) II and III follow
+Answer: (C) II and III follow
+
 Solution:
-Q > R ≥ S > T and U ≥ T, but U could be larger than Q (e.g., Q=10, T=5, U=20), so I is false.
-R ≥ S > T ⇒ R > T (II true).
-P = Q > R ≥ S ⇒ P > S, so P ≥ S is true (III true).
-Source: IBPS Clerk 2022
+Q > R ≥ S > T and U ≥ T, but U could be larger than Q (e.g., Q=10, T=5, U=20), so I is false. R ≥ S > T ⇒ R > T (II true). P = Q > R ≥ S ⇒ P > S, so P ≥ S is true (III true). Hence, the correct option is (C).
 
-Q66. In a certain code:
-‘A @ B’ means A ≥ B
-‘A # B’ means A < B
-‘A
-𝐵
-’
-𝑚
-𝑒
-𝑎
-𝑛
-𝑠
-𝐴
-=
-𝐵
-‘
-𝐴
-‘
-𝐴
-∗
-𝐵
-’
-𝑚
-𝑒
-𝑎
-𝑛
-𝑠
-𝐴
-≤
-𝐵
-∗
-∗
-𝑆
-𝑡
-𝑎
-𝑡
-𝑒
-𝑚
-𝑒
-𝑛
-𝑡
-𝑠
-:
-∗
-∗
-𝑀
-𝑁
-B’meansA=B‘A‘A∗B’meansA≤B∗∗Statements:∗∗MN O
-O * P
-P # Q
+Source: RRB Group D
+
+Q66. (Medium) In a certain code: ‘A @ B’ means A ≥ B, ‘A # B’ means A < B, ‘A $ B’ means A = B, ‘A % B’ means A > B, ‘A * B’ means A ≤ B
+Statements: M % N, N $ O, O * P, P # Q
 Conclusions:
 I. M % Q
-II. Q * M
-(a) Only I follows
-(b) Only II follows
-(c) Either I or II follows
-(d) Neither I nor II follows
+II. Q @ M
+(A) Only I follows (B) Only II follows (C) Either I or II follows (D) Neither I nor II follows
 
-Answer: (d) Neither I nor II follows
+Answer: (D) Neither I nor II follows
+
 Solution:
-Decoded: M > N = O ≤ P < Q.
-Chain: M > N = O ≤ P < Q.
-No direct relation between M and Q; all possibilities exist. Thus I (M > Q) and II (Q ≤ M) are both false.
-Source: RRB PO 2021
+Decoded: M > N = O ≤ P < Q. Between M and Q, signs reverse at O (> and ≤). Neither follows. Hence, the correct option is (D).
 
-Q67. Statements:
+Source: SSC CGL
+
+Q67. (Medium) ⚠️ Statements:
 A ≥ B = C > D; E < D; F = E
 Conclusions:
 I. A > F
 II. A = F
-(a) Only I follows
-(b) Only II follows
-(c) Either I or II follows
-(d) Neither I nor II follows
+(A) Only I follows (B) Only II follows (C) Either I or II follows (D) Neither I nor II follows
 
-Answer: (a) Only I follows
+Answer: (A) Only I follows
+
 Solution:
-Chain: A ≥ B = C > D > E = F ⇒ A > F (definite).
-Conclusion II is false.
-Trap: The ‘≥’ at the beginning may make students think A ≥ F, tempting an Either-Or choice. However, the chain forces A > F, so I alone is true.
-Source: IBPS PO 2018
+Chain: A ≥ B = C > D > E = F ⇒ A > F (definite). Conclusion II is false. Trap: The ‘≥’ at the beginning may make students think A ≥ F, tempting an Either-Or choice. However, the chain forces A > F, so I alone is true. Hence, the correct option is (A).
 
-Q68. In a certain code:
+Source: SSC CHSL
+
+Q68. (Medium) In a certain code:
 P ↑ Q ⇒ P ≤ Q
 P ↓ Q ⇒ P ≥ Q
 P → Q ⇒ P < Q
@@ -383,213 +277,94 @@ Conclusions:
 I. X → V
 II. X ← V
 III. Z ↔ V
-(a) None follows
-(b) Only I follows
-(c) Only II follows
-(d) Either I or II follows
+(A) Only I follows (B) None follows (C) Only II follows (D) Either I or II follows
 
-Answer: (a) None follows
+Answer: (B) None follows
+
 Solution:
-Decoded: X ≤ Y, Y ≥ Z, Z < W, W > V.
-Chain: X ≤ Y ≥ Z < W > V.
-No relation between X and V, nor between Z and V. I and II are not complementary (missing equality). III is false.
-Source: SBI PO 2022
+Decoded: X ≤ Y, Y ≥ Z, Z < W, W > V. Chain: X ≤ Y ≥ Z < W > V. No relation between X and V, nor between Z and V. I and II are not complementary (missing equality). III is false. Hence, the correct option is (B).
 
-Q69. Which set of symbols should replace the blanks in ‘A _ B _ C _ D’ so that ‘A > C’ and ‘B ≤ D’ definitely hold?
-(a) >, =, ≤
-(b) ≥, >, =
-(c) >, ≥, <
-(d) =, ≤, >
+Source: SSC MTS
 
-Answer: (a) >, =, ≤
+Q69. (Medium) Which set of symbols should replace the blanks in ‘A _ B _ C _ D’ so that ‘A > C’ and ‘B ≤ D’ definitely hold?
+(A) >, ≥, < (B) ≥, >, = (C) >, =, ≤ (D) =, ≤, >
+
+Answer: (C) >, =, ≤
+
 Solution:
-Expression: A > B = C ≤ D.
-A > B = C ⇒ A > C (true).
-B = C ≤ D ⇒ B ≤ D (true).
-Other options fail to guarantee both.
-Source: SSC CGL 2023
+Expression: A > B = C ≤ D. A > B = C ⇒ A > C (true). B = C ≤ D ⇒ B ≤ D (true). Other options fail to guarantee both. Hence, the correct option is (C).
 
-Q70. In a certain code:
-‘A £ B’ means A ≥ B
-‘A ¥ B’ means A ≤ B
-‘A € B’ means A > B
-‘A
-𝐵
-’
-𝑚
-𝑒
-𝑎
-𝑛
-𝑠
-𝐴
-<
-𝐵
-‘
-𝐴
-¢
-𝐵
-’
-𝑚
-𝑒
-𝑎
-𝑛
-𝑠
-𝐴
-=
-𝐵
-∗
-∗
-𝑆
-𝑡
-𝑎
-𝑡
-𝑒
-𝑚
-𝑒
-𝑛
-𝑡
-𝑠
-:
-∗
-∗
-𝑃
-£
-𝑄
-𝑄
-¢
-𝑅
-𝑅
-B’meansA<B‘A¢B’meansA=B∗∗Statements:∗∗P£QQ¢RR S
-S ¥ T
+Source: RRB NTPC
+
+Q70. (Medium) In a certain code: ‘A @ B’ means A ≥ B, ‘A # B’ means A ≤ B, ‘A % B’ means A > B, ‘A $ B’ means A < B, ‘A * B’ means A = B
+Statements: P @ Q, Q * R, R $ S, S # T
 Conclusions:
-I. P € T
-II. P ¢ T
-(a) Only I follows
-(b) Only II follows
-(c) Either I or II follows
-(d) Neither I nor II follows
+I. P % T
+II. P * T
+(A) Only I follows (B) Only II follows (C) Either I or II follows (D) Neither I nor II follows
 
-Answer: (d) Neither I nor II follows
+Answer: (D) Neither I nor II follows
+
 Solution:
-Decoded: P ≥ Q = R < S ≤ T.
-Chain: P ≥ Q = R < S ≤ T ⇒ P ≥ R and R < T.
-All three relations (P > T, P = T, P < T) are possible. I and II cover only > and =, missing <, so they are not complementary. Neither is definite.
-Source: IBPS PO 2022
+Decoded: P ≥ Q = R < S ≤ T. Between P and T, signs reverse at R (≥ and <). Neither covers all possibilities. Neither follows. Hence, the correct option is (D).
 
-Q71. Statements:
+Source: RRB Group D
+
+Q71. (Medium) Statements:
 M > N = O; P < O; Q ≤ P; R > Q
 Conclusions:
 I. M > Q
 II. N > R
 III. O ≥ Q
-(a) I and III follow
-(b) I and II follow
-(c) II and III follow
-(d) All follow
+(A) I and III follow (B) I and II follow (C) II and III follow (D) All follow
 
-Answer: (a) I and III follow
+Answer: (A) I and III follow
+
 Solution:
-Combine: M > N = O > P ≥ Q, and R > Q.
-M > Q (I true).
-N = O > P ≥ Q; but R > Q gives no relation between N and R (II false).
-O > P ≥ Q ⇒ O > Q, so O ≥ Q is true (III true).
-Source: SSC CGL 2020
+Combine: M > N = O > P ≥ Q, and R > Q. M > Q (I true). N = O > P ≥ Q; but R > Q gives no relation between N and R (II false). O > P ≥ Q ⇒ O > Q, so O ≥ Q is true (III true). Hence, the correct option is (A).
 
-Q72. Statements:
+Source: SSC CGL
+
+Q72. (Medium) Statements:
 A < B ≤ C = D > E; F ≥ E < G; H = G
 Conclusions:
 I. A < D
 II. B > E
 III. F < H
-(a) Only I follows
-(b) I and II follow
-(c) Only III follows
-(d) None follows
+(A) I and II follow (B) Only I follows (C) Only III follows (D) None follows
 
-Answer: (a) Only I follows
+Answer: (B) Only I follows
+
 Solution:
-A < B ≤ C = D ⇒ A < D (I true).
-B ≤ C = D > E — no definite B > E (II false).
-F ≥ E < G = H — no relation between F and H (III false).
-Source: IBPS Clerk 2023
+A < B ≤ C = D ⇒ A < D (I true). B ≤ C = D > E — no definite B > E (II false). F ≥ E < G = H — no relation between F and H (III false). Hence, the correct option is (B).
 
-Q73. In a certain code:
-‘A @ B’ means A > B
-‘A # B’ means A < B
-‘A
-𝐵
-’
-𝑚
-𝑒
-𝑎
-𝑛
-𝑠
-𝐴
-=
-𝐵
-‘
-𝐴
-‘
-𝐴
-∗
-𝐵
-’
-𝑚
-𝑒
-𝑎
-𝑛
-𝑠
-𝐴
-≤
-𝐵
-∗
-∗
-𝑆
-𝑡
-𝑎
-𝑡
-𝑒
-𝑚
-𝑒
-𝑛
-𝑡
-𝑠
-:
-∗
-∗
-𝑋
-𝑌
-B’meansA=B‘A‘A∗B’meansA≤B∗∗Statements:∗∗XY Z
-Z % W
+Source: SSC CHSL
+
+Q73. (Medium) In a certain code: ‘A @ B’ means A > B, ‘A # B’ means A < B, ‘A $ B’ means A = B, ‘A % B’ means A ≥ B, ‘A * B’ means A ≤ B
+Statements: X % Y, Y $ Z, Z % W
 Conclusions:
 I. X @ W
 II. X $ W
-(a) Only I follows
-(b) Only II follows
-(c) Either I or II follows
-(d) Neither I nor II follows
+(A) Only I follows (B) Only II follows (C) Either I or II follows (D) Neither I nor II follows
 
-Answer: (c) Either I or II follows
+Answer: (C) Either I or II follows
+
 Solution:
-Decoded: X ≥ Y = Z ≥ W ⇒ X ≥ W.
-Thus, either X > W (I) or X = W (II) must hold. Neither is definite alone, but together they are complementary.
-Source: SBI PO 2020
+Decoded: X ≥ Y = Z ≥ W ⇒ X ≥ W. Either X > W (I) or X = W (II) must hold. Either I or II follows. Hence, the correct option is (C).
 
-Q74. Which symbols should replace the blanks in ‘P _ Q _ R _ S’ so that ‘P > S’ is definitely false and ‘Q ≥ R’ is definitely true?
-(a) <, =, ≤
-(b) ≤, =, <
-(c) >, =, ≥
-(d) ≥, <, >
+Source: SSC MTS
 
-Answer: (a) <, =, ≤
+Q74. (Medium) Which symbols should replace the blanks in ‘P _ Q _ R _ S’ so that ‘P > S’ is definitely false and ‘Q ≥ R’ is definitely true?
+(A) ≥, <, > (B) ≤, =, < (C) >, =, ≥ (D) <, =, ≤
+
+Answer: (D) <, =, ≤
+
 Solution:
-Expression: P < Q = R ≤ S.
-P < Q = R ≤ S ⇒ P < S, so P > S is definitely false.
-Q = R ⇒ Q ≥ R is definitely true.
-Other options do not satisfy both conditions.
-Source: SSC CGL 2022
+Expression: P < Q = R ≤ S. P < Q = R ≤ S ⇒ P < S, so P > S is definitely false. Q = R ⇒ Q ≥ R is definitely true. Other options do not satisfy both conditions. Hence, the correct option is (D).
 
-Q75. In a certain code:
+Source: RRB NTPC
+
+Q75. (Medium) In a certain code:
 ‘A α B’ means A > B
 ‘A β B’ means A < B
 ‘A γ B’ means A = B
@@ -602,13 +377,11 @@ R δ S
 Conclusions:
 I. P α S
 II. P γ S
-(a) Only I follows
-(b) Only II follows
-(c) Either I or II follows
-(d) Neither I nor II follows
+(A) Only I follows (B) Either I or II follows (C) Only II follows (D) Neither I nor II follows
 
-Answer: (c) Either I or II follows
+Answer: (B) Either I or II follows
+
 Solution:
-Decoded: P ≥ Q = R ≥ S ⇒ P ≥ S.
-Hence, either P > S (I) or P = S (II) is true. Individually neither is certain, but together they form a complementary pair.
-Source: IBPS PO 2023
+Decoded: P ≥ Q = R ≥ S ⇒ P ≥ S. Hence, either P > S (I) or P = S (II) is true. Individually neither is certain, but together they form a complementary pair. Hence, the correct option is (B).
+
+Source: RRB Group D

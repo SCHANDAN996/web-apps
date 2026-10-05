@@ -1,60 +1,28 @@
-Diagram
-Code
-Download
-Fullscreen
-Inequality
-Symbols
-Types
-Key Rules
-Strategies
-Time Management
-Common Traps
-Greater than
-Less than
-Greater than or equal
-Less than or equal
-Equal to
-Direct Inequality
-Coded Inequality
-Combining Same Direction
-Opposite Direction
-Double Possibility
-Either-Or Case
-Step 1: Combine into asingle chain
-Step 2: Check eachconclusion for definitetruth
-Step 3: Look for Either-Oramong false conclusions
-For Coded: Decodeimmediately on roughsheet
-15-Second Rule
-45-Second Rule
-First-Pass Strategy
-Opposite Arrow Illusion
-Sneaky Equal To
-Coded Confusion
-Simple statements
-Multi-statement chains
-Decode symbols first
-Replace and solve
-A > B > C → A > C
-A ≥ B ≥ C → A ≥ C
-A > B ≥ C → A > C
-A ≥ B > C → A > C
-A &gt; B &lt; C → Norelation
-Stop combining
-≥ means > or =
-≤ means &lt; or =
-Never assume definite
-Same variables
-> and =
-Both individually false
-Then Either I or II follows
-Ask: Is it true in everypossible scenario?
-Can't decode in 15 sec? Skip
-Full question > 45 sec?Mark and move
-Attempt simple directinequalities first
-Leave complex coded forsecond pass
-A &gt; B &lt; C, conclusionA &gt; C
-No relation exists
-M ≥ N → M > N is notdefinite
-Equality is a possibility
-"Not greater than" is ≤, not&lt;
-Write meaningsimmediately
+```mermaid
+flowchart TD
+    A[Inequality in Reasoning] --> B[Core Symbols & Meanings]
+    A --> C[Problem Types]
+    A --> D[Golden Rules of Combining]
+    A --> E[Special Conditions: Either-Or]
+    A --> F[Examiner's Traps & Pitfalls]
+
+    B --> B1[Strict: > Greater than, < Less than]
+    B --> B2[Possibility: >= Greater or Equal, <= Less or Equal]
+    B --> B3[Equality: = Equal to]
+
+    C --> C1[Direct Statements: Single/Multi Chains]
+    C --> C2[Coded Inequality: Symbol Decoding]
+
+    D --> D1[Same Direction: Arrows flow together]
+    D --> D2[A > B > C implies A > C]
+    D --> D3[Opposite Direction: Broken chain / No relation]
+    D --> D4[A > B < C implies No definite relation between A and C]
+
+    E --> E1[Condition 1: Both conclusions individually false]
+    E --> E2[Condition 2: Same two variables]
+    E --> E3[Condition 3: Complementary pair > and = or < and =]
+
+    F --> F1[Opposite Arrow Trap: Assuming relation exists]
+    F --> F2[Definite Trap: Assuming >= means definitely >]
+    F --> F3[Negative Decoding Trap: Not greater than means <=]
+```
