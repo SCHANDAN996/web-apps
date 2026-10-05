@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 06-10-2026 12:44 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 05-10 11:58 PM
+**आख़िरी update:** 06-10-2026 12:59 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 05-10 11:58 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Pronoun (Graduation English) | 🔎 review हो रहा है | 46 मिनट |
-| W2 | Chapter 03 Adjective (Graduation English) | 🔎 review हो रहा है | 46 मिनट |
-| W3 | Chapter 05 Tense (Graduation English) | 🔎 review हो रहा है | 35 मिनट |
-| W4 | Chapter 06 Adverb (Graduation English) | ✍️ लिख रहा है | 12 मिनट |
+| W1 | Chapter 02 Pronoun (Graduation English) | 🔎 review हो रहा है | 61 मिनट |
+| W2 | Chapter 03 Adjective (Graduation English) | 🔎 review हो रहा है | 61 मिनट |
+| W3 | Chapter 05 Tense (Graduation English) | 🔎 review हो रहा है | 50 मिनट |
+| W4 | Chapter 06 Adverb (Graduation English) | ✍️ लिख रहा है | 28 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -43,11 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-05-10 23:47:42   [Pronoun] review Short_Tricks_hi.txt: 2 issue(s): - Trick 1 lists “And (preposition)” as a trigger for objective case, but “and” is a conjunction, not a preposi
-05-10 23:49:53   [Conjunction] wrote Content_hi.txt (9712 chars)
-05-10 23:50:30   [Adverb] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-05-10 23:50:43   [Preposition] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-05-10 23:52:35   [Conjunction] wrote Feynman_en.txt (2704 chars)
 05-10 23:52:39   [Pronoun] review Important_Rules_en.txt: 1 issue(s): - Rule 10 incorrectly adds the condition "when the verb is understood or identical"; the rule is simply tha
 05-10 23:53:50   [Conjunction] wrote Feynman_hi.txt (3301 chars)
 05-10 23:53:57   [Adverb] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
@@ -83,4 +78,9 @@
 06-10 00:42:10   [Adjective] FAILED review Feynman_hi.txt: network — the chapter must not be published unreviewed
 06-10 00:43:21   [Adjective] review Mind_Map_en.txt: 2 issue(s): - B3: "Numeral: two, first, many" includes "many" which is not a numeral adjective; it's a quantitative/indefinite
 06-10 00:43:49   [Adverb] Practice_en_Set_04.txt try 1: re-solve disagrees (Q87 key d vs re-solve a)
+06-10 00:50:16   [Pronoun] FAILED review Feynman_en.txt: network — the chapter must not be published unreviewed
+06-10 00:50:35   [Adjective] review Flashcards_hi.txt: 2 issue(s): - Card 19 front asks about "Gold is a precious metal" but the back discusses "Gold watch" and "golden advice" wi
+06-10 00:51:29   [Pronoun] review Feynman_hi.txt: 1 issue(s): - "कर्ता" का प्रयोग Antecedent के लिए गलत है → Antecedent का अर्थ "पूर्वपद" (वह संज्ञा जिसके लिए सर्वनाम प्रयुक्त ह
+06-10 00:57:17   [Pronoun] FAILED review Feynman_hi.txt: empty — the chapter must not be published unreviewed
+06-10 00:59:19   [Adverb] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 ```
