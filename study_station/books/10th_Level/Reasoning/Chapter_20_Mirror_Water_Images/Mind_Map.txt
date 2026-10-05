@@ -1,66 +1,23 @@
-Diagram
-Code
-Download
-Fullscreen
-Mirror & Water Images
-Core Concepts
-Clock Formulas
-Shape Approach
-Mnemonic Tricks
-Time Management
-Examiner Traps
-Revision Strategy
-Vertical Mirror
-Horizontal Mirror
-Mirror Clock
-Water Clock
-Dot Method
-Body Trick
-Hindi Rhyme
-15-Second Rule
-45-Second Rule
-First 5-Second Check
-Option Elimination
-Blurry/Unclear Figures
-Letter Confusion
-Digit Swaps
-Almost Identical Options
-Rotation vs Reflection
-Blurting Sheet after 2 days
-Review SymmetricalLetters & Digits
-Practice Clock Formulas
-Solve Trap-rich PYQs
-Flip Left ↔ Right
-Top ↔ Bottom unchanged
-Symmetrical Letters
-Symmetrical Digits
-Flip Top ↔ Bottom
-Left ↔ Right unchanged
-Letter Changes
-Digit Changes
-12:00 – Actual Time
-Use 11:60 if minutes ≠ 0
-18:30 – Actual Time
-Convert to 12-hour ifneeded
-Vertical Mirror
-Water/Horizontal Mirror
-Cross hands → mirrorleft-right
-Upside-down clap → watertop-bottom
-"Mirror paltay left-right,Water ultay top-bottom"
-Skip if symmetry notrecalled
-Skip complex shapes
-Confirm mirror or water
-Check key points first
-Screen-based exam illusion
-M ↔ W in mirror vs water
-6 ↔ 9 in water but notmirror
-Tiny arrow/notchdifferences
-Rotated options are traps
-A H I M O T U V W X Y
-0 1 8
-M ↔ W
-6 ↔ 9
-Keep vertical distance
-Flip horizontal distance
-Keep horizontal distance
-Flip vertical distance
+```mermaid
+graph TD
+    R["🪞 दर्पण एवं जल प्रतिबिंब<br>Mirror & Water Images"]
+    R --> M["🪞 दर्पण प्रतिबिंब<br>Mirror Image"]
+    R --> W["🌊 जल प्रतिबिंब<br>Water Image"]
+    R --> CL["⏰ घड़ी का समय<br>Clock Time"]
+    R --> TR["⚠️ परीक्षार्थी जाल<br>Traps"]
+
+    M --> M1["बायाँ ↔ दायाँ बदलता है<br>Left ↔ Right flip"]
+    M --> M2["ऊपर-नीचे अपरिवर्तित<br>Top-Bottom unchanged"]
+    M --> M3["अपरिवर्तित अक्षर: 11<br>A,H,I,M,O,T,U,V,W,X,Y"]
+
+    W --> W1["ऊपर ↔ नीचे बदलता है<br>Top ↔ Bottom flip"]
+    W --> W2["बायाँ-दायाँ अपरिवर्तित<br>Left-Right unchanged"]
+    W --> W3["अपरिवर्तित अक्षर: 9<br>B,C,D,E,H,I,K,O,X"]
+
+    CL --> CL1["दर्पण: 11:60 या 23:60 से घटाएँ"]
+    CL --> CL2["जल: 18:30 या 17:90 से घटाएँ"]
+
+    TR --> TR1["घुमाव (Rotation) और प्रतिबिंब में भ्रम"]
+    TR --> TR2["दर्पण में M↔M लेकिन जल में M↔W"]
+    TR --> TR3["घड़ी में 18:30 vs 17:90 का चयन"]
+```
