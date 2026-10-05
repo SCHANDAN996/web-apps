@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 06-10-2026 03:47 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 02:43 AM
+**आख़िरी update:** 06-10-2026 03:48 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 02:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -9,9 +9,9 @@
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
 | W1 | Chapter 11 Narration (Graduation English) | ✍️ लिख रहा है | 42 मिनट |
-| W2 | Chapter 10 Voice (Graduation English) | ✍️ लिख रहा है | 43 मिनट |
-| W3 | Chapter 08 Conjunction (Graduation English) | 🔎 review हो रहा है | 28 मिनट |
-| W4 | Chapter 09 Articles (Graduation English) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 10 Voice (Graduation English) | ✍️ लिख रहा है | 44 मिनट |
+| W3 | Chapter 08 Conjunction (Graduation English) | 📤 push हो रहा है | 0 मिनट |
+| W4 | Chapter 12 Sentence Structure (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -33,6 +33,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 06-10 03:48 — Graduation English · Chapter 08 Conjunction
 - 06-10 03:47 — Graduation English · Chapter 09 Articles
 - 06-10 03:05 — Graduation English · Chapter 05 Tense
 - 06-10 03:03 — Graduation English · Chapter 07 Preposition
@@ -45,15 +46,10 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 08 Conjunction (English) — 1 बार
-- Chapter 09 Articles (English) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-06-10 03:16:12   [Conjunction] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-06-10 03:17:35   [Articles] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-06-10 03:18:24   [Voice] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-06-10 03:19:01   [Conjunction] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 06-10 03:19:01   [Conjunction] written 2, failed 0; AI calls today 327/100000
 06-10 03:20:26   [Conjunction] review Content_en.txt: 1 issue(s): - In the Linguistic Bridge table, the correction for "He as well as I are going" is given as "He as well as I am go
 06-10 03:20:48   [Articles] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
@@ -90,4 +86,8 @@
 06-10 03:46:01   [Voice] Practice_en_Set_05.txt try 1: re-solve disagrees (Q124 key a vs re-solve c)
 06-10 03:47:27   [Articles] review: 6 section(s) corrected, 0 failed
 06-10 03:47:27   [Articles] written 6, failed 0; AI calls today 387/100000
+06-10 03:47:33 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_09_Articles in 27 min → 855364b
+06-10 03:47:34 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_12_Sentence_Structure (TODO: todo 26, problems 0)
+06-10 03:48:20   [Conjunction] review: 7 section(s) corrected, 0 failed
+06-10 03:48:20   [Conjunction] written 7, failed 0; AI calls today 389/100000
 ```
