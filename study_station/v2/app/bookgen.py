@@ -238,14 +238,25 @@ def section_request(chapter, name):
     return '\n\n'.join(parts)
 
 
-def translation_request(src_name, src_text, dst_name):
+ENGLISH_BOOK_TRANSLATION = (
+    'This is an English-language book: the questions test English itself. Keep every English sentence, word, '
+    'blank and option exactly as it is in English (do not translate them); translate only the instructions '
+    '(e.g. "Fill in the blank", "Spot the error", "Part P"), the header line and the solutions.')
+
+
+def is_english_book(chapter):
+    return '/English/' in str(Path(chapter).resolve())
+
+
+def translation_request(src_name, src_text, dst_name, english_book=False):
     src, dst = _lang_of(src_name), _lang_of(dst_name)
     words = ('उत्तर:, हल:, स्रोत:' if dst == 'hi' else 'Answer:, Solution:, Source:')
     return (f'<practice_set file="{src_name}">\n{src_text.strip()}\n</practice_set>\n\n'
             f'Translate exactly these questions from {LANG_NAME[src]} into {LANG_NAME[dst]} for {dst_name}: '
             f'same numbering, same order, same four options in the same order, same answer letters, and the '
             f'same header line (translated). Use the labels {words}. Do not add, drop, fix or reorder anything. '
-            f'Output only the file content.')
+            + (ENGLISH_BOOK_TRANSLATION + ' ' if english_book and dst == 'hi' else '')
+            + 'Output only the file content.')
 
 
 # ------------------------------------------------------------------ repair (fix mode)
@@ -382,11 +393,11 @@ def _keep_reject(name, text, why):
             pass
 
 
-def translate_set(db, en_name, en_text, hi_name, n, out=print):
+def translate_set(db, en_name, en_text, hi_name, n, out=print, english_book=False):
     """Translate a checked English set; keep it only when it parses to the same 25 questions and answers."""
     en_key = [q.answer_index for q in parse_mcq_text(en_text)]
     for attempt in range(1, MAX_REPAIR_TRIES + 1):
-        hi = _clean_output(_ask(db, translation_request(en_name, en_text, hi_name)), hi_name)
+        hi = _clean_output(_ask(db, translation_request(en_name, en_text, hi_name, english_book)), hi_name)
         why = _set_problem(hi, n, spread=False) or (
             None if [q.answer_index for q in parse_mcq_text(hi)] == en_key else 'answer letters differ from English')
         if not why:
@@ -437,13 +448,27 @@ def repair_set(db, chapter, n, problems, out=print):
     if text is None:
         out(f'FAILED set {n:02d}: no version passed the checks — files left as they were')
         return False
-    hi = translate_set(db, en_name, text, hi_name, n, out)
+    hi = translate_set(db, en_name, text, hi_name, n, out, is_english_book(chapter))
     if hi is None:
         out(f'FAILED set {n:02d}: Hindi translation rejected — files left as they were')
         return False
     write_section(chapter, en_name, text)
     write_section(chapter, hi_name, hi)
     out(f'repaired set {n:02d} (en + hi, key confirmed by an independent re-solve)')
+    return True
+
+
+def retranslate_set(db, chapter, n, out=print):
+    """The English set is fine; only its Hindi translation is redone."""
+    files = section_files(chapter)
+    en_name, hi_name = f'Practice_en_Set_{n:02d}.txt', f'Practice_hi_Set_{n:02d}.txt'
+    en = files[en_name].read_text(encoding='utf-8', errors='replace')
+    hi = translate_set(db, en_name, en, hi_name, n, out, is_english_book(chapter))
+    if hi is None or bookcheck.translated_english(parse_mcq_text(en), parse_mcq_text(hi)):
+        out(f'FAILED set {n:02d}: re-translation still changes English sentences — left as it was')
+        return False
+    write_section(chapter, hi_name, hi)
+    out(f're-translated set {n:02d} (Hindi only)')
     return True
 
 
@@ -475,11 +500,13 @@ def repair(db, chapter, dry_run=False, out=print):
         out(f'repaired {name} ({len(text)} chars)')
         written.append(name)
     for n in sets:
+        mine = [p for p in problems if p.startswith(f'Set {n:02d} ')]
+        only_hi = mine and all('English sentence translated' in p for p in mine)
         if dry_run:
-            out(f'would repair practice set {n:02d} (en → re-solve check → hi)')
+            out(f'would {"re-translate" if only_hi else "repair"} practice set {n:02d}')
             continue
         try:
-            ok = repair_set(db, chapter, n, problems, out)
+            ok = retranslate_set(db, chapter, n, out) if only_hi else repair_set(db, chapter, n, problems, out)
         except ai.AIUnavailable as e:
             out(f'FAILED set {n:02d}: {e}')
             ok = False
@@ -602,7 +629,7 @@ def run(db, chapter, wanted=None, dry_run=False, out=print):
             failed.append(name)
             continue
         if source is not None:
-            how, user = f'translate from {other}', translation_request(other, source, name)
+            how, user = f'translate from {other}', translation_request(other, source, name, is_english_book(chapter))
         elif prompt_file(chapter, name) is None:
             out(f'skip {name}: no prompt file found')
             failed.append(name)
@@ -618,7 +645,7 @@ def run(db, chapter, wanted=None, dry_run=False, out=print):
             if m:
                 n = int(m.group(2))
                 text = (write_verified_set(db, user, name, n, out) if how == 'write'
-                        else translate_set(db, other, source, name, n, out))
+                        else translate_set(db, other, source, name, n, out, is_english_book(chapter)))
                 if text is None:
                     failed.append(name)
                     continue

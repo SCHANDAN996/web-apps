@@ -93,7 +93,28 @@ def source_problems(name, text):
     return [f'{name}: unverified exam/year source "{bad[0][:50]}" (+{len(bad) - 1} more)'] if bad else []
 
 
-def check_practice_pair(en_path, hi_path):
+def translated_english(en_qs, hi_qs):
+    """English-book questions whose English sentence was translated in the Hindi set while the options stayed
+    English (the Hindi question then no longer matches its options)."""
+    bad = []
+    for e, h in zip(en_qs, hi_qs):
+        if [o.strip() for o in e.options] != [o.strip() for o in h.options]:
+            continue                                   # options translated too: not an English-usage question
+        if not all(LATIN.search(o) and not DEVANAGARI.search(o) for o in e.options):
+            continue
+        blank = re.search(r'_{3,}', e.text)
+        if not blank:
+            continue
+        before = re.findall(r'[A-Za-z]{3,}', e.text[:blank.start()])[-3:]
+        after = re.findall(r'[A-Za-z]{3,}', e.text[blank.end():])[:3]
+        near = [w.lower() for w in before + after]
+        hi_words = {w.lower() for w in re.findall(r'[A-Za-z]{3,}', h.text)}
+        if near and sum(w in hi_words for w in near) < max(1, len(near) // 2):
+            bad.append(h.number)                       # the English words around the blank are gone
+    return bad
+
+
+def check_practice_pair(en_path, hi_path, english_book=False):
     problems = []
     sets = {}
     for lang, p in (('en', en_path), ('hi', hi_path)):
@@ -126,6 +147,8 @@ def check_practice_pair(en_path, hi_path):
         diff = [q.number for q, h in zip(sets['en'], sets['hi']) if q.answer_index != h.answer_index]
         if diff:
             problems.append(f'hi/en answer mismatch at Q{diff[:5]}')
+        if english_book and (tr := translated_english(sets['en'], sets['hi'])):
+            problems.append(f'hi: English sentence translated (keep it in English) at Q{tr[:5]}')
     return problems
 
 
@@ -157,7 +180,7 @@ def check_chapter(chapter):
             if n == 1:
                 todo.append('Practice sets')
             break
-        for pr in check_practice_pair(en, hi):
+        for pr in check_practice_pair(en, hi, '/English/' in str(chapter)):
             (todo if pr.endswith('todo') or pr.endswith('missing') else problems).append(f'Set {n:02d} {pr}')
     problems += meta_problems(chapter)
     links = [p.name for d in (Path(chapter), Path(chapter) / 'Prompts') if d.is_dir() for p in d.iterdir() if p.is_symlink()]

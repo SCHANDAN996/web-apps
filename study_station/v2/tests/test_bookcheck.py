@@ -160,3 +160,13 @@ def test_english_book_hindi_files_may_quote_much_english():
     assert language_problem('Mind_Map_hi.txt', text) is not None
     assert language_problem('Mind_Map_hi.txt', text, english_book=True) is None
     assert language_problem('Mind_Map_hi.txt', 'Only English here. ' * 20, english_book=True) is not None
+
+
+def test_english_book_hindi_set_must_keep_the_english_sentence():
+    from app.bookcheck import translated_english
+    from app.importers import ParsedQuestion
+    opts = ['submitted', 'has submitted', 'had submitted', 'was submitting']
+    en = ParsedQuestion(104, 'She ______ her project before the deadline was announced.', opts, 2, 'Past perfect.')
+    kept = ParsedQuestion(104, 'रिक्त स्थान भरिए: "She ______ her project before the deadline was announced."', opts, 2, 'x')
+    lost = ParsedQuestion(104, 'समय-सीमा घोषित होने से पहले वह अपनी परियोजना ______ चुकी थी।', opts, 2, 'x')
+    assert translated_english([en], [kept]) == [] and translated_english([en], [lost]) == [104]
