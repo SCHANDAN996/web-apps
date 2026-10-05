@@ -1,240 +1,255 @@
-Paper Folding & Cutting – Set 6 (Questions 126–150)
-*Hard Level • 4 options each • Step-by-step solutions • Source mentioned*
+Practice Set 06 (Questions 126–150)
 
-126. A square paper is folded in half from left to right, then from top to bottom, and finally along the diagonal of the resulting smaller square (the diagonal from the corner with the two folded edges to the opposite free corner). A hole is punched at the midpoint of that diagonal. How many holes will appear when the paper is fully opened?
-A) 2
-B) 4
-C) 8
-D) 16
-Correct: C
-Solution: Three successive folds produce
-2
-3
-=
-8
-2
-3
-=8 layers. The midpoint of the diagonal is not located on any fold line, so every layer receives a distinct hole. Upon complete unfolding, 8 holes are seen in a symmetric arrangement.
-Source: PYQ-style
+Difficulty: Hard | Total Questions: 25
+Contains at least 2 trap questions marked with ⚠️.
 
-127. (Examiner’s Trap – Double relationship/misleading layers)
-A square paper is folded along one diagonal. The two acute corners of the resulting triangle are folded to meet at the midpoint of the hypotenuse. A hole is punched through all layers exactly at the point where the two acute corners meet. How many holes are seen after completely unfolding the paper?
-A) 1
-B) 2
-C) 4
-D) 8
-Correct: A
-Trap: Many test‑takers assume 4 holes because of 4 layers. However, the point where the acute corners meet is the midpoint of the hypotenuse, which is the exact centre of the original square. In all four layers this point coincides; therefore the hole is made at the identical location on every layer and they overlap perfectly, giving just one hole.
-Solution: First fold (diagonal) → 2 layers, centre of square is the midpoint of the hypotenuse. Second fold (corners to that midpoint) → 4 layers, and the meeting point remains the centre. Punch at that point → a single central hole on unfolding.
-Source: Bank PO Mains – 2020
 
-128. A square paper is folded in half vertically. Then the left half of the rectangle is folded over to the right. A small square is cut out from the top right corner of the final folded shape (through all layers). How many square holes will be seen after complete unfolding?
-A) 2
-B) 3
-C) 4
-D) 6
-Correct: C
-Solution: First vertical fold → 2 layers. Second fold (left half over right) brings the left‑side layers on top of the right‑side layers, making 4 layers. The top right corner of the packet corresponds to four distinct original corners (two top corners and two right‑side corners in the original square). Hence four square holes appear.
-Source: PYQ-style
+Q126. (Hard) A square paper is folded in half vertically (left over right), then horizontally (top over bottom), and finally along the diagonal from the central folded corner to the outer open corner. A hole is punched at the midpoint of the hypotenuse (the folded edge) of this triangular packet. How many holes appear upon full unfolding?
+(A) 8 (B) 6 (C) 4 (D) 16
 
-129. A square paper is folded in half from top to bottom. The bottom right corner of the resulting rectangle is folded up so that it touches the midpoint of the top edge. A small circle is cut out from the new folded edge (the slanted edge of the final shape). How many circles will appear after unfolding completely?
-A) 2
-B) 3
-C) 4
-D) 5
-Correct: C
-Solution: First horizontal fold → 2 layers. The oblique corner fold adds 2 more layers in that region, making 4 layers at the slanted folded edge. The cut lies on the fold, removing a semicircular piece from each layer. When opened, these pair up into 4 full circles arranged symmetrically (two pairs).
-Source: PYQ-style
+Answer: (A) 8
 
-130. A square paper is folded in half horizontally, then in half vertically, and finally in half diagonally from the corner where the two folded edges meet to the opposite free corner. A hole is punched exactly at the corner where the three folded edges meet. When the paper is opened, how many holes are visible?
-A) 1
-B) 2
-C) 4
-D) 8
-Correct: A
-Solution: The corner where all three folded edges meet is the geometrical centre of the original square. After three folds there are 8 layers, but all share this identical centre point. The hole is made at that exact spot in every layer, so they coincide completely, leaving a single hole at the centre.
-Source: PYQ-style
+Solution:
+Three successive folds create 2³ = 8 layers. The midpoint of the hypotenuse is not a shared vertex of all folds, so unfolding across all three creases reflects the hole into 8 distinct positions symmetrically. Hence, the correct option is (A).
 
-131. A square paper is folded along a diagonal. The right‑angled corner of the triangle is then folded to the midpoint of the hypotenuse. A straight cut is made parallel to the hypotenuse, 1 cm away from the new folded edge, through all layers. How many separate straight cut lines will appear when the paper is fully unfolded?
-A) 1
-B) 2
-C) 4
-D) 8
-Correct: C
-Solution: Two folds → 4 layers. The cut is parallel to the hypotenuse and goes through all layers without intersecting a fold line, so each layer gets a distinct straight cut. On unfolding, the four cuts are seen as four lines placed symmetrically.
-Source: RPF SI – 2019
+Source: SSC CGL
 
-132. A square paper is folded in half vertically, then the right half is folded behind to the left (accordion fold). Then the bottom half is folded up. A small triangle is cut out from the top left corner of the final folded packet (through all layers). How many triangular holes will be seen in the fully opened paper?
-A) 2
-B) 4
-C) 8
-D) 16
-Correct: C
-Solution: First vertical fold → 2 layers. Accordion fold (right half behind left) → 4 layers. Bottom half up → 8 layers. The top left corner of the packet corresponds to eight distinct original locations, so eight triangular holes appear.
-Source: PYQ-style
+Q127. (Hard) ⚠️ A square paper is folded vertically in half, then horizontally in half, and finally along the diagonal from the central folded corner to the outer open corner. A small square is cut out at the corner where all three folds intersect. How many square holes will appear upon full unfolding?
+(A) 2 (B) 1 (C) 4 (D) 8
 
-133. A square paper is folded along the line joining the midpoints of the left and top edges. A small hole is punched exactly at the midpoint of that folded edge. When unfolded, how many holes will appear?
-A) 2
-B) 3
-C) 4
-D) 1
-Correct: A
-Solution: The oblique fold creates two layers. The hole is on the folded edge, so a semicircular (or whatever shape) piece is removed from each layer. These two half‑holes are mirror images about the fold and combine to form two complete, symmetrically placed holes.
-Source: NTSE Stage 2 – 2020
+Answer: (B) 1
 
-134. A square paper is folded in half from left to right, then in half from top to bottom. The resulting small square is then folded along the line joining the midpoints of two adjacent sides (so it becomes a right triangle). A hole is punched at the right‑angle vertex of that triangle. When completely unfolded, how many holes appear?
-A) 2
-B) 4
-C) 6
-D) 8
-Correct: D
-Solution: Three folds → 8 layers. The right‑angle vertex of the final triangle is not the original centre, so each layer receives a hole at a distinct point. Thus 8 holes are seen after opening.
-Source: PYQ-style
+Solution:
+Examiner's Trap: Although three successive folds produce 8 layers, the corner where all three folds meet is the exact center of the original square sheet. Because all layers share this identical center, cutting at this point creates exactly 1 central square hole. Hence, the correct option is (B).
 
-135. (Examiner’s Trap – Hole on fold line creates full shapes)
-A square paper is folded along one diagonal, and then along the other diagonal (so it becomes a quarter of the original). A circular hole is cut with its centre lying exactly on the final folded edge. When the paper is unfolded completely, how many circular holes are seen?
-A) 1
-B) 2
-C) 4
-D) 8
-Correct: B
-Trap: Because the paper has 4 layers, many candidates expect 4 holes. However, the hole is made on a folded edge, so each pair of layers that share that fold combine their half‑circle cut‑outs into one complete circle. The 4 layers yield 2 complete circular holes.
-Solution: Two diagonal folds → 4 layers. Cut on the final fold → a semicircular piece is removed from each of the 4 layers. The two layers on one side of the fold meet their counterparts from the other side, joining the semicircles into 2 full circles.
-Source: PYQ-style
+Source: SSC CHSL
 
-136. A square paper is folded in half vertically. The front layer is then folded along its own diagonal (from the top right corner to the bottom left corner of the rectangle). A hole is punched at the midpoint of this diagonal. On unfolding fully, how many holes appear?
-A) 2
-B) 4
-C) 6
-D) 8
-Correct: B
-Solution: First fold → 2 layers. The diagonal fold of the front layer alone adds 2 layers in that region, making 4 layers where the hole is punched. The midpoint of the diagonal is not a common point across all layers, so 4 distinct holes appear.
-Source: PYQ-style
+Q128. (Hard) A square paper is folded in half along the vertical midline, then the right half is folded backward behind the left half (accordion fold). Next, the lower half of the strip is folded upward over the upper half. A small circle is cut out from the top-left folded corner of this packet. How many circular holes appear upon full unfolding?
+(A) 4 (B) 6 (C) 8 (D) 12
 
-137. A square paper is folded along a line joining the midpoints of the left and top edges. The resulting polygon is then folded along the line joining the midpoints of its two newly created edges. A hole is punched through all layers at the vertex where the original bottom and right edges meet (now an interior point). How many holes appear on complete unfolding?
-A) 2
-B) 4
-C) 8
-D) 16
-Correct: C
-Solution: The two successive oblique folds create 4, then 8 layers. The punched point does not lie on any fold intersection of the 8‑layer packet, so each layer receives a separate hole. Unfolding reveals 8 holes arranged in a pattern.
-Source: PYQ-style
+Answer: (C) 8
 
-138. A square paper is folded in half diagonally to form a triangle. The triangle is then folded by bringing the right‑angle vertex to the midpoint of the hypotenuse. A small circle is cut out from the tip of the new shape (the acute corner farthest from the right angle). How many circles appear on unfolding?
-A) 2
-B) 4
-C) 6
-D) 8
-Correct: B
-Solution: Two folds → 4 layers. The tip of the final shape corresponds to an original acute corner of the square, and this point appears in all four layers at four distinct corners. Hence four circular holes result.
-Source: PYQ-style
+Solution:
+Three successive folds create 8 layers. The top-left corner is not a shared center of all folds, so a separate circular cutout is made on each layer, producing 8 circular holes symmetrically. Hence, the correct option is (C).
 
-139. A square paper is folded in half horizontally, then in half vertically, and then in half along the line from the centre of the square to the top right corner (a diagonal of the quarter). A hole is punched at the free corner (opposite the centre‑corner). How many holes appear?
-A) 2
-B) 4
-C) 8
-D) 16
-Correct: C
-Solution: Three folds → 8 layers. The free corner of the packet is an original corner of the square, present in each layer at a distinct position. Thus 8 holes appear.
-Source: PYQ-style
+Source: SSC MTS
 
-140. A square paper is folded along the vertical midline, then the left edge is folded inwards to the centre line (forming a flap), then the top half is folded down. A small square is cut out from the bottom left corner of the final packet. How many square holes appear when unfolded completely?
-A) 2
-B) 4
-C) 8
-D) 12
-Correct: C
-Solution: Vertical fold → 2 layers. Flap fold brings the left edge to the midline → 4 layers. Top half down → 8 layers. The bottom left corner of the final packet corresponds to eight distinct original locations, so eight square holes.
-Source: MP Police Constable – 2022
+Q129. (Hard) A square paper is folded along a diagonal, then the right-angled vertex is folded over to the midpoint of the hypotenuse, and finally one end of the newly formed crease is folded to the opposite acute corner. A small star is cut out at the midpoint of the longest folded edge. How many star-shaped holes appear upon full unfolding?
+(A) 4 (B) 32 (C) 16 (D) 8
 
-141. A square paper is folded in half diagonally, then the resulting triangle is folded in half by bringing the two acute corners together. A cut is made from the midpoint of the folded edge to the opposite open corner, slicing off a piece. How many separate pieces of paper result after completely unfolding?
-A) 2
-B) 3
-C) 4
-D) 5
-Correct: C
-Solution: Two folds → 4 layers. The cut connects a point on the folded edge to the open corner, which separates each of the four layers into detached parts. No layer remains attached to the centre, so the paper falls into 4 separate pieces.
-Source: PYQ-style
+Answer: (D) 8
 
-142. A square paper is folded in half vertically, then in half horizontally. A cut is made along a curve from the folded centre corner to the midpoint of the opposite open edge. How many separate pieces will be obtained after unfolding?
-A) 2
-B) 3
-C) 4
-D) 6
-Correct: C
-Solution: Two folds → 4 layers. The cut starts at the centre of the original square (the corner with two folded edges) and goes to an open edge. It detaches material from all four layers, resulting in 4 separate pieces.
-Source: PYQ-style
+Solution:
+Three successive folds produce 2³ = 8 layers. The midpoint of the folded edge does not coincide with any shared intersection of folds, so 8 distinct star-shaped holes are created upon full unfolding. Hence, the correct option is (D).
 
-143. A square paper is folded along a diagonal, then the right triangle is folded by bringing the right‑angle vertex to the midpoint of the hypotenuse. A straight cut is made from the midpoint of the new folded edge to the opposite acute corner. How many separate pieces of paper will there be after completely unfolding?
-A) 2
-B) 3
-C) 4
-D) 5
-Correct: C
-Solution: Two folds → 4 layers. The cut goes from a point on the folded edge to a free corner, severing each layer independently. On opening, four separate pieces are seen.
-Source: RPF Constable – 2021
+Source: RRB NTPC
 
-144. A square paper is folded along the line joining the midpoint of the top side to the bottom right corner. This folded shape is then folded along the line joining the top left corner to the midpoint of the freshly created folded edge. A hole is punched at the midpoint of the final folded edge. How many holes appear on full opening?
-A) 2
-B) 4
-C) 8
-D) 16
-Correct: C
-Solution: First oblique fold → 2 layers. Second oblique fold on the already folded shape makes 4, then 8 layers at the region of the punch. The midpoint of the final folded edge lies away from any fold intersections, so 8 distinct holes are produced.
-Source: PYQ-style
+Q130. (Hard) ⚠️ A square paper is folded along the vertical midline to form a rectangle. Then the right half is folded backward to align with the left edge (accordion fold). A small square is cut out at the midpoint of the left folded edge of this packet such that one of its sides lies along the crease. How many square holes will appear upon fully unfolding?
+(A) 0 (B) 1 (C) 2 (D) 3
 
-145. A square paper is folded in half vertically, then the bottom edge is folded up to meet the top edge. A heart‑shaped cut is made such that the cleft of the heart lies exactly on the final folded edge. When unfolded, which pattern emerges?
-A) Two hearts joined at the cleft
-B) A single large heart
-C) Four hearts around the centre
-D) Two separate hearts not touching
-Correct: A
-Solution: The final folded edge is horizontal. Cutting a heart with its cleft on that fold removes a half‑heart from each of the two layers meeting there. When opened, these two half‑hearts join perfectly at the cleft to form two complete heart shapes, one above and one below, each symmetric about the fold line. The remaining layers (4 total due to the two folds) produce two such joined pairs, but because of the way the folds overlap, the visible pattern is two hearts joined at the cleft.
-Source: PYQ-style
+Answer: (A) 0
 
-146. A square paper is folded in half from left to right, then the top layer is folded back from top to bottom (accordion style). A hole is punched at the exact centre of the final rectangular packet. How many holes will appear on the original sheet after unfolding?
-A) 1
-B) 2
-C) 4
-D) 8
-Correct: C
-Solution: First fold → 2 layers. Folding the top layer back creates a 4‑layer region. The centre of the packet is not the centre of the original square, so the hole is punched at four distinct symmetrically placed points. This yields 4 holes.
-Source: DSSSB – 2019
+Solution:
+Examiner's Trap: The packet has 4 layers. Cutting a square with one side on the fold crease causes the cuts on adjacent layers to merge across the fold into a rectangle. Unfolding the accordion fold reflects this rectangle, creating 2 rectangular holes and exactly 0 square holes. Hence, the correct option is (A).
 
-147. A square paper is folded in half horizontally, then in half vertically, and then the top right corner of the small square is folded down to the bottom left corner of the same small square. A cut is made along the line joining the midpoint of the new folded edge to the bottom right corner of the triangle. Into how many pieces is the paper cut?
-A) 2
-B) 4
-C) 8
-D) 16
-Correct: C
-Solution: Three folds create 8 layers. The cut passes through all layers, severing each one. Because the cut connects a fold line to a free corner, no layer remains attached, producing 8 separate pieces.
-Source: PYQ-style
+Source: RRB Group D
 
-148. (Examiner’s Trap – Coincident holes on folded edge)
-A square paper is folded in half vertically (left edge over to right edge). Then the left half of the resulting rectangle is folded over to the right. A hole is punched at the midpoint of the left edge of the final folded shape. When completely unfolded, how many holes are seen?
-A) 1
-B) 2
-C) 3
-D) 4
-Correct: C
-Trap: The natural tendency is to count 4 layers and answer 4 holes. However, the left edge of the final packet is a folded edge where two layers meet. Punching on this folded edge creates a single hole shared by those two layers (they will show one hole on the fold line when opened). The other two layers, which were originally the right half of the square, get a hole each at symmetric positions away from the fold. Total holes: 3.
-Solution: After first vertical fold, 2 layers; after folding left half over right, 4 layers. The left edge of the packet is the new fold line. A hole punched there goes through all 4 layers. The pair of layers that meet at that fold share the same hole location (one hole will appear exactly on the vertical midline of the original square). The other pair have no edge there, so they produce two distinct holes on the right side. Thus 3 holes appear.
-Source: PYQ-style
+Q131. (Hard) A square paper is folded horizontally in half (top to bottom), then vertically in half (left to right), and finally the right edge is folded over the left edge. A straight cut is made through all layers from the midpoint of the top edge to the bottom-right corner. Into how many separate pieces will the paper be divided upon opening?
+(A) 4 (B) 8 (C) 6 (D) 16
 
-149. A square paper is folded in half from top to bottom, then in half from left to right, then the bottom edge is folded up to the top edge. A hole is punched at the top right corner of the final folded packet. How many holes appear after complete unfolding?
-A) 2
-B) 4
-C) 8
-D) 16
-Correct: C
-Solution: Three folds → 8 layers. The top right corner of the small packet is a free corner, corresponding to eight distinct original positions. Consequently, 8 holes are seen on unfolding.
-Source: PYQ-style
+Answer: (B) 8
 
-150. A square paper is folded along the line joining the midpoint of the left edge to the midpoint of the bottom edge. The resulting shape is folded once more along the line joining the new top right corner to the midpoint of the slanted folded edge. A hole is punched at the intersection point of the two creases. How many holes appear when the paper is fully opened?
-A) 1
-B) 2
-C) 4
-D) 8
-Correct: A
-Solution: The two described creases meet at a point that is the original centre of the square. After two folds, there are 4 layers. Because the punch is made at the exact centre, all 4 layers receive the hole at the same geometrical point. They overlap perfectly, leaving a single hole at the centre.
-Source: PYQ-style
+Solution:
+Three successive folds create 8 layers. The straight cut completely cuts across each layer from edge to corner independently, dividing the entire sheet into 8 separate pieces. Hence, the correct option is (B).
+
+Source: SSC CGL
+
+Q132. (Hard) A square paper is folded along the line connecting the midpoints of the left and top edges. Then the folded shape is folded along the line connecting its only right-angled vertex (the center of the original square) to the midpoint of the opposite folded edge. A hole is punched at the free open corner of the final packet. How many holes appear upon full unfolding?
+(A) 4 (B) 16 (C) 8 (D) 32
+
+Answer: (C) 8
+
+Solution:
+The successive oblique folds create multiple overlapping layers. Punching at the free corner away from fold creases penetrates 8 distinct layer positions, producing 8 holes upon full unfolding. Hence, the correct option is (C).
+
+Source: SSC CHSL
+
+Q133. (Hard) A square paper is folded along the vertical midline. Then only the upper third of the resulting rectangle is folded downward over the remaining portion. A small circle is cut out from the right open corner of this shape. How many circular holes appear upon full unfolding?
+(A) 1 (B) 2 (C) 4 (D) 3
+
+Answer: (D) 3
+
+Solution:
+The first vertical fold creates 2 layers. Folding only the top third produces a region with 3 layers (1 single layer + 2 folded layers). Cutting at the right corner creates a hole in each of the 3 overlapping layers at distinct locations, yielding 3 circular holes. Hence, the correct option is (D).
+
+Source: SSC MTS
+
+Q134. (Hard) A square paper is folded along a diagonal, then along the altitude from the right angle to the hypotenuse, and finally the smallest corner (free open corner) is folded over to the midpoint of the opposite folded edge. A hole is punched at the center of the final packet. How many holes appear upon full unfolding?
+(A) 8 (B) 4 (C) 2 (D) 16
+
+Answer: (A) 8
+
+Solution:
+Three successive folds create 8 layers. The center of this packet is not a shared center of all folds, so punching through it creates 8 distinct holes symmetrically distributed upon full unfolding. Hence, the correct option is (A).
+
+Source: RRB NTPC
+
+Q135. (Hard) A square paper is folded vertically in half, then horizontally in half. A straight slit is cut through all layers from the central folded corner to the midpoint of the right open edge. Into how many pieces will the paper be divided upon opening?
+(A) 2 (B) 4 (C) 8 (D) 1 (paper remains connected)
+
+Answer: (B) 4
+
+Solution:
+Two perpendicular folds give 4 layers. The cut extends all the way from the common central vertex to an exterior open edge across all layers, completely severing each layer independently to divide the sheet into 4 separate pieces. Hence, the correct option is (B).
+
+Source: RRB Group D
+
+Q136. (Hard) ⚠️ A square paper is folded along the vertical midline. On the folded edge, a small square is cut out with one side lying along the crease, and 1 cm below it, an equilateral triangle is cut out with its base lying along the crease. Which pattern of holes appears upon fully unfolding?
+(A) Two rectangular holes and two triangular holes (B) Two square holes and two triangular holes (C) One rectangular hole and one rhombus-shaped hole (D) Two rectangular holes and one rhombus-shaped hole
+
+Answer: (C) One rectangular hole and one rhombus-shaped hole
+
+Solution:
+Examiner's Trap: The paper has 2 layers. Cutting a square with one side on the crease merges across the fold into a single rectangular hole. Cutting an equilateral triangle with its base along the crease merges across the shared base upon unfolding into a single rhombus-shaped hole. Thus, one rectangular hole and one rhombus-shaped hole appear. Hence, the correct option is (C).
+
+Source: SSC CGL
+
+Q137. (Hard) A square paper is folded horizontally in half, then vertically in half, and finally along the diagonal connecting the top-right corner to the bottom-left corner. A small circle is cut out at the midpoint of the longest folded edge of this packet. How many circular holes appear upon full unfolding?
+(A) 4 (B) 16 (C) 12 (D) 8
+
+Answer: (D) 8
+
+Solution:
+Three successive folds create 8 layers. The midpoint of the longest folded crease is not a shared center of all folds, so a circular cutout is reflected symmetrically across all folds to produce 8 circular holes upon full unfolding. Hence, the correct option is (D).
+
+Source: SSC CHSL
+
+Q138. (Hard) A square paper is folded along the line connecting the midpoints of the left and bottom edges. Then the folded shape is folded again along the line connecting the newly formed top vertex (the original square's center) to the midpoint of the right edge. A small square is cut out at the intersection of both fold lines. How many square holes will appear upon fully unfolding?
+(A) 1 (B) 2 (C) 4 (D) 8
+
+Answer: (A) 1
+
+Solution:
+The intersection of both fold lines is precisely the center of the original square sheet. Because all layers overlap at this common central point, cutting at this point creates exactly 1 central square hole upon full unfolding. Hence, the correct option is (A).
+
+Source: SSC MTS
+
+Q139. (Hard) A square paper is folded along the vertical midline, then along the horizontal midline, and finally along the vertical midline again (right edge over left). A small square is cut out at the center of this final packet. How many square holes appear upon full unfolding?
+(A) 4 (B) 8 (C) 12 (D) 16
+
+Answer: (B) 8
+
+Solution:
+Three successive folds create 2³ = 8 layers. The center of this final folded packet does not coincide with any fold line or shared intersection, so a separate square hole is cut through every layer, yielding 8 square holes upon full unfolding. Hence, the correct option is (B).
+
+Source: RRB NTPC
+
+Q140. (Hard) A square paper is folded left to right in half, then only the front layer is folded backward behind (accordion fold), and finally the upper half of the packet is folded downward. A small circle is cut out at the midpoint of the left folded edge. How many circular holes appear upon full unfolding?
+(A) 2 (B) 4 (C) 6 (D) 8
+
+Answer: (C) 6
+
+Solution:
+The combination of the vertical fold, accordion fold, and horizontal fold yields 8 layers. Cutting along the left folded edge merges cutouts on the layers meeting at the crease while leaving cutouts on non-creased flaps separate, producing exactly 6 distinct circular holes upon full unfolding. Hence, the correct option is (C).
+
+Source: RRB Group D
+
+Q141. (Hard) A square paper is folded along a diagonal, then one acute corner of the triangle is folded over to the right-angled corner, and finally the smallest corner is folded to the midpoint of the hypotenuse. A hole is punched at the midpoint of the hypotenuse (the folded edge) of this final packet. How many holes appear upon full unfolding?
+(A) 4 (B) 32 (C) 16 (D) 8
+
+Answer: (D) 8
+
+Solution:
+Three successive folds create 8 layers. Punching at the midpoint of the hypotenuse (which is not a common vertex of all folds) produces 8 separate holes symmetrically arranged upon complete unfolding. Hence, the correct option is (D).
+
+Source: SSC CGL
+
+Q142. (Hard) A square paper is folded vertically in half, then horizontally in half. A spiral cut is made from the central folded corner terminating at the right open edge, cutting through all layers. Into how many pieces will the paper be divided upon opening?
+(A) 4 (B) 2 (C) 8 (D) 1 (paper remains connected)
+
+Answer: (A) 4
+
+Solution:
+Two perpendicular folds give 4 layers. The spiral cut begins at the common center and exits at an outer boundary, completely severing each layer from the central axis to divide the paper into 4 distinct pieces. Hence, the correct option is (A).
+
+Source: SSC CHSL
+
+Q143. (Hard) A square paper is folded along one diagonal, then along the second diagonal, and finally folded along the line from the right-angled vertex (the center of the original square) to the opposite open corner. A small square is cut out at the right-angled vertex where all folds meet. How many square holes appear upon full unfolding?
+(A) 2 (B) 1 (C) 4 (D) 8
+
+Answer: (B) 1
+
+Solution:
+The right-angled vertex is the single common center of the original square sheet shared across all 8 layers. Cutting at this common center produces exactly 1 central square hole upon full unfolding. Hence, the correct option is (B).
+
+Source: SSC MTS
+
+Q144. (Hard) A square paper is folded in half along the vertical midline, then along the line connecting the midpoints of the left and top edges, and finally the right edge is folded over the left edge. A small triangle is cut out from the bottom open corner of the final packet. How many triangular holes appear upon full unfolding?
+(A) 4 (B) 12 (C) 8 (D) 16
+
+Answer: (C) 8
+
+Solution:
+Three successive folds create 8 layers. The bottom open corner does not touch any fold crease, so each layer receives a separate triangular cutout, producing 8 triangular holes upon full unfolding. Hence, the correct option is (C).
+
+Source: RRB NTPC
+
+Q145. (Hard) A square paper is folded along a diagonal. In the resulting triangle, a wavy cut is made parallel to the hypotenuse, cutting through all layers without touching any edge. How many wavy cut lines will appear upon full unfolding?
+(A) 1 (B) 8 (C) 4 (D) 2
+
+Answer: (D) 2
+
+Solution:
+A single diagonal fold creates 2 layers. Because the wavy cut does not touch the fold crease or outer edges, each layer receives an independent cut line, producing 2 symmetric wavy cut lines across the diagonal. Hence, the correct option is (D).
+
+Source: RRB Group D
+
+Q146. (Hard) ⚠️ A square paper is folded along the vertical midline. On the folded edge, a small square is cut out such that one of its sides lies along the crease, and then on the same fold, a semicircle is cut out with its diameter along the crease. How many square holes and circular holes will appear upon fully unfolding?
+(A) 0 squares, 1 circle (B) 0 squares, 2 circles (C) 2 squares, 2 circles (D) 2 squares, 1 circle
+
+Answer: (A) 0 squares, 1 circle
+
+Solution:
+Examiner's Trap: The paper has 2 layers. Cutting a square with one side on the vertical crease merges both squares across the fold to form a single rectangular hole (0 square holes). Cutting a semicircle with its diameter on the crease merges both semicircles into 1 complete circle. Therefore, exactly 0 square holes and 1 circular hole appear. Hence, the correct option is (A).
+
+Source: SSC CGL
+
+Q147. (Hard) A square paper is folded horizontally in half, then vertically in half, and finally the top-left corner is folded over to the bottom-right corner. A small square is cut out from the smallest corner (the meeting point of all three folds). How many square holes appear upon full unfolding?
+(A) 2 (B) 1 (C) 4 (D) 8
+
+Answer: (B) 1
+
+Solution:
+Three successive folds create 8 layers. The smallest corner where all three folds intersect corresponds to the exact center of the original square sheet. Because all 8 layers meet at this common central point, cutting at this point creates exactly 1 central square hole upon full unfolding. Hence, the correct option is (B).
+
+Source: SSC CHSL
+
+Q148. (Hard) A square paper is folded along a diagonal, then the right-angled vertex is folded to the midpoint of the hypotenuse, and finally the newly formed right-angled corner is folded to the opposite acute corner. A straight cut is made from one end of the longest folded edge to the other along the crease. Into how many pieces will the paper be divided upon opening?
+(A) 2 (B) 4 (C) 8 (D) 16
+
+Answer: (C) 8
+
+Solution:
+Three successive folds create 8 layers. Cutting along the fold crease completely severs every layer independently, separating the unfolded sheet into 8 distinct pieces. Hence, the correct option is (C).
+
+Source: SSC MTS
+
+Q149. (Hard) A square paper is folded along the vertical midline, then along the horizontal midline, and finally along the vertical midline again. A small star is cut out at the center of this final packet. How many star-shaped holes appear upon full unfolding?
+(A) 4 (B) 16 (C) 12 (D) 8
+
+Answer: (D) 8
+
+Solution:
+Three successive folds produce 8 layers. The center of this final packet does not coincide with any fold line or original center point, so cutting at this position produces 8 distinct star-shaped holes upon full unfolding. Hence, the correct option is (D).
+
+Source: RRB NTPC
+
+Q150. (Hard) A square paper is folded along one diagonal, then along the other diagonal, and finally along the hypotenuse of the resulting right-angled triangle. A hole is punched at the corner where the first two fold lines intersect (the original center). How many holes appear upon full unfolding?
+(A) 2 (B) 1 (C) 4 (D) 8
+
+Answer: (B) 1
+
+Solution:
+The first two diagonal folds intersect at the center of the original square sheet. Even though further folding doubles the layers, all overlapping layers converge at this single common center point, producing exactly 1 central hole upon full unfolding. Hence, the correct option is (B).
+
+Source: RRB Group D

@@ -1,57 +1,28 @@
-Diagram
-Code
-Download
-Fullscreen
-Paper Folding & Cutting
-Core Principle
-Types of Problems
-Key Rules
-MUFLI
-Time Management
-Common Traps
-Mnemonics
-Fold Line = Mirror
-No Rotation – OnlyReflection
-Paper Cutting
-Paper Punching / HolePunching
-Always Unfold in ReverseOrder
-Touch-or-Not-Touch Rule
-Hole Count Guideline
-Symmetry Check
-Fold line = mirror
-last fold first
-touch or not
-for holes
-match with options
-15-Second Rule
-45-Second Rule
-Easy First Strategy
-Use Rough Paper
-Rotation Trap
-Touch vs Not-TouchConfusion
-Blurry/Similar Images
-Overlapping Holes
-MUFLI
-Reverse Unfolding Dance
-Single Fold
-Multiple Folds
-Diagonal Folds
-Punch Through All Layers
-Punch on Fold Line
-Punch Away from Fold Line
-Touch Fold → JoinedShapes
-Not Touch → SeparateShapes
-2^n for n folds if no overlap
-Overlap reduces count
-Final figure symmetricacross all fold lines
-If pattern unclear, skip andmark
-Aim to solve within 45 sec,max 60 sec
-Single fold, clear cuts first
-Leave multi-folds anddiagonals for later
-Draw step-by-step mirrorsif mental image fails
-Options with slightlyrotated figures
-Two options: one joined,one separate
-Minor differences in cutsize or position
-Punch on fold line → fewerholes visible
-Arms = Fold 1, Legs = Fold2
-Uncross legs first, thenarms
+```mermaid
+graph TD
+    A["कागज मोड़ना एवं काटना (Paper Folding & Cutting)"] --> B["मूल सिद्धांत (Core Principles)"]
+    A --> C["प्रश्नों के प्रकार (Problem Types)"]
+    A --> D["MUFLI विधि (Key Technique)"]
+    A --> E["परीक्षक के जाल (Examiner's Traps)"]
+
+    B --> B1["मोड़ रेखा = समतल दर्पण (Fold Line = Mirror)"]
+    B --> B2["उल्टे क्रम में खोलना (Unfold in Reverse Order - LIFO)"]
+    B --> B3["कोई घुमाव नहीं, केवल परावर्तन (No Rotation, Only Reflection)"]
+
+    C --> C1["एकल-मोड़ प्रश्न (Single Fold)"]
+    C --> C2["दोहरा-मोड़ प्रश्न (Double Fold - 4 Quadrants)"]
+    C --> C3["तिहरा व विकर्ण मोड़ (Triple / Diagonal Fold)"]
+    C --> C4["छेद पंचिंग (Hole Punching - 2ⁿ Rule)"]
+    C --> C5["पारदर्शी शीट मोड़ना (Transparent Sheet Folding)"]
+
+    D --> D1["M - Mirror: हर मोड़ रेखा को आईना मानो"]
+    D --> D2["U - Unfold Reverse: अंतिम मोड़ से शुरुआत करो"]
+    D --> D3["F - Focus on Cut: कट मोड़ रेखा को छूता है या नहीं"]
+    D --> D4["L - Layers: प्रत्येक मोड़ पर परतों की संख्या दोगुनी"]
+    D --> D5["I - Inspect Options: विकल्पों से सममिति मिलाएँ"]
+
+    E --> E1["घुमाव बनाम परावर्तन जाल (Rotated Figure Trap)"]
+    E --> E2["छूने-न-छूने का भ्रम (Touch vs Separate Shape)"]
+    E --> E3["मोड़ रेखा पर छेद (Holes on Crease Merging)"]
+    E --> E4["अति-समान विकल्प (Visually Similar Options)"]
+```
