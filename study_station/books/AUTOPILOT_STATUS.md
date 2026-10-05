@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 05-10-2026 09:48 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 05-10 09:32 PM
+**आख़िरी update:** 05-10-2026 10:03 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 05-10 09:32 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Noun (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
-| W2 | Chapter 02 Pronoun (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
-| W3 | Chapter 03 Adjective (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
-| W4 | Chapter 05 Tense (Graduation English) | ✍️ लिख रहा है | 2 मिनट |
+| W1 | Chapter 01 Noun (Graduation English) | 🔎 review हो रहा है | 14 मिनट |
+| W2 | Chapter 02 Pronoun (Graduation English) | ✍️ लिख रहा है | 30 मिनट |
+| W3 | Chapter 03 Adjective (Graduation English) | ✍️ लिख रहा है | 30 मिनट |
+| W4 | Chapter 05 Tense (Graduation English) | ✍️ लिख रहा है | 18 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -28,8 +28,8 @@
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 0 | 0 | 28 |
 | Graduation Reasoning | 0 | 0 | 30 |
-| Graduation English | 1 | 0 | 29 |
-| **कुल** | **51** | **13** | **232** |
+| Graduation English | 2 | 0 | 28 |
+| **कुल** | **52** | **13** | **231** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -38,26 +38,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-05-10 21:32:07 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_01_Noun (TODO: todo 2, problems 1)
-05-10 21:32:12 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_02_Pronoun (TODO: todo 7, problems 1)
-05-10 21:32:17 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_03_Adjective (TODO: todo 6, problems 1)
-05-10 21:32:22 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_04_Verb (TODO: todo 3, problems 0)
-05-10 21:34:33   [Pronoun] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-05-10 21:34:58   [Verb] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-05-10 21:35:46   [Adjective] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-05-10 21:37:27   [Noun] Practice_en_Set_06.txt try 1: re-solve disagrees (Q132 key b vs re-solve ?)
-05-10 21:37:34   [Verb] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-05-10 21:38:14   [Adjective] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-05-10 21:40:35   [Verb] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-05-10 21:40:35   [Verb] written 3, failed 0; AI calls today 306/100000
-05-10 21:41:31   [Pronoun] Practice_en_Set_04.txt try 1: re-solve disagrees (Q83 key d vs re-solve a)
-05-10 21:44:50   [Noun] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-05-10 21:44:59   [Verb] Traceback (most recent call last):
-05-10 21:44:59   [Verb] File "<frozen runpy>", line 198, in _run_module_as_main
-05-10 21:44:59   [Verb] File "<frozen runpy>", line 88, in _run_code
-05-10 21:44:59   [Verb] File "/home/user/web-apps/study_station/v2/app/bookgen.py", line 654, in <module>
-05-10 21:44:59   [Verb] sys.exit(main())
-05-10 21:44:59   [Verb] ^^^^^^
 05-10 21:44:59   [Verb] File "/home/user/web-apps/study_station/v2/app/bookgen.py", line 640, in main
 05-10 21:44:59   [Verb] written, failed = review(db, chapter)
 05-10 21:44:59   [Verb] ^^^^^^^^^^^^^^^^^^^
@@ -78,4 +58,24 @@
 05-10 21:45:27   [Pronoun] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 05-10 21:46:36   [Tense] wrote Content_en.txt (7122 chars)
 05-10 21:47:44   [Adjective] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+05-10 21:48:05   [Pronoun] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+05-10 21:48:10   [Noun] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+05-10 21:48:10   [Noun] written 2, failed 0; AI calls today 315/100000
+05-10 21:48:53   [Noun] repaired Mind_Map_hi.txt (2118 chars)
+05-10 21:48:53   [Noun] written 1, failed 0; AI calls today 316/100000
+05-10 21:49:08   [Tense] wrote Content_hi.txt (8350 chars)
+05-10 21:49:50   [Tense] wrote Feynman_en.txt (2918 chars)
+05-10 21:50:56   [Adjective] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+05-10 21:51:24   [Tense] wrote Feynman_hi.txt (2507 chars)
+05-10 21:51:53   [Tense] wrote Mind_Map_en.txt (2131 chars)
+05-10 21:52:22   [Tense] wrote Mind_Map_hi.txt (1711 chars)
+05-10 21:53:35   [Tense] wrote Flashcards_en.txt (4448 chars)
+05-10 21:55:20   [Tense] wrote Flashcards_hi.txt (4172 chars)
+05-10 21:56:33   [Tense] wrote PYQ_en.txt (7207 chars)
+05-10 21:56:45   [Noun] review Content_en.txt: 1 issue(s): - The mnemonic SIT-PC lists "Irons (spectacles/goggles family)" but "irons" does not mean spectacles/goggles → Repl
+05-10 21:57:54   [Pronoun] Practice_en_Set_05.txt try 1: re-solve disagrees (Q103 key b vs re-solve a, Q123 key b vs re-solve a, Q124 key c vs re-solve a)
+05-10 21:58:04   [Tense] wrote PYQ_hi.txt (6136 chars)
+05-10 21:59:41   [Tense] wrote Short_Tricks_en.txt (7916 chars)
+05-10 22:00:59   [Tense] wrote Short_Tricks_hi.txt (7353 chars)
+05-10 22:02:29   [Tense] wrote Important_Rules_en.txt (5694 chars)
 ```
