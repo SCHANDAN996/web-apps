@@ -199,6 +199,14 @@ def write_section(chapter, name, text):
     books.atomic_write(target, text)
 
 
+PRACTICE_FORMAT = """Format rules the app's parser depends on:
+- Every question: "N. question" / one line "(a) … (b) … (c) … (d) …" / answer line / solution line / source line.
+- Never write (a), (b), (c) or (d) anywhere except on the options line and the answer line — not in the question,
+  not in the solution. For "spot the error" questions label the sentence parts P, Q, R, S (or 1, 2, 3, 4) and make
+  the options name them, e.g. "(a) Part P (b) Part Q (c) Part R (d) No error"; in solutions say "Part Q", never "(b)".
+- The four options must be four different, meaningful answers."""
+
+
 def section_request(chapter, name):
     lang = _lang_of(name)
     intro = _first(chapter, 'Chapter_Intro_Prompt.txt')
@@ -209,6 +217,8 @@ def section_request(chapter, name):
         parts.append(f'<master_prompt>\n{master.strip()}\n</master_prompt>')
     parts.append(f'<section_prompt file="{name}">\n{prompt.strip()}\n</section_prompt>')
     target = LANG_NAME[lang] if lang else 'Hindi and English (bilingual labels)'
+    if PRACTICE.match(name):
+        parts.append(PRACTICE_FORMAT)
     parts.append(f'Write the finished file {name} now, in {target}. Output only the file content.')
     return '\n\n'.join(parts)
 
@@ -271,7 +281,8 @@ def practice_repair_request(name, text, n, problems, mismatch=''):
             f'{labels.split(", ")[2]} the textbook of the concept (e.g. NCERT Class 8 Mathematics) or PYQ-style\n\n'
             f'Start with one header line giving the difficulty split. Exactly four different options, exactly one '
             f'correct, no "all/none of the above", every question self-contained. Re-calculate every answer. Spread '
-            f'the correct letters over a–d (each letter correct 4–9 times). Output only the file content.{redo}')
+            f'the correct letters over a–d (each letter correct 4–9 times).\n\n{PRACTICE_FORMAT}\n\n'
+            f'Output only the file content.{redo}')
 
 
 def check_request(text):
@@ -325,18 +336,23 @@ def balance_answers(text):
     out = [blocks[0]]
     for blk, want in zip(blocks[1:], targets):
         om, am = OPTS_LINE.search(blk), ANS_LINE.search(blk)
-        rest = blk[:om.start()] + blk[om.end():] if om else blk
-        rest = ANS_LINE.sub('', rest)
-        if not om or not am or LETTER_REF.search(rest) or any(LETTER_REF.search(o) for o in om.groups()[1:]):
+        stem = blk[:om.start()] if om else blk
+        if not om or not am or om.start() > am.start() or LETTER_REF.search(stem) \
+                or any(LETTER_REF.search(o) for o in om.groups()[1:]):
+            out.append(blk)
+            continue
+        tail = blk[am.end():]                       # solution/source: letter references follow the swap
+        if re.search(r'\boption\s+[a-d]\b|विकल्प\s*[a-d]\b', tail, re.I):
             out.append(blk)
             continue
         opts = list(om.groups()[1:])
         cur = 'abcd'.index(am.group(2).lower())
         opts[cur], opts[want] = opts[want], opts[cur]
+        a, b = 'abcd'[cur], 'abcd'[want]
+        tail = re.sub(r'\(([abcd])\)', lambda m: f'({b})' if m.group(1) == a else f'({a})' if m.group(1) == b
+                      else m.group(0), tail)
         line = om.group(1) + ' '.join(f'({l}) {o}' for l, o in zip('abcd', opts))
-        blk = blk[:om.start()] + line + blk[om.end():]
-        am = ANS_LINE.search(blk)
-        blk = blk[:am.start()] + am.group(1) + f'({"abcd"[want]})' + blk[am.end():]
+        blk = (blk[:om.start()] + line + blk[om.end():am.start()] + am.group(1) + f'({b})' + tail)
         out.append(blk)
     return ''.join(out)
 

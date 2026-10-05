@@ -294,5 +294,6 @@ def test_balance_answers_spreads_keys_and_keeps_letter_references():
     qs = parse_mcq_text(out)
     assert len(qs) == 25 and max(Counter(q.answer_index for q in qs).values()) <= 7
     assert all(q.options[q.answer_index] == 'goes' for q in qs if q.number != 7)       # the right option moved with its letter
-    assert qs[6].answer_index == 1 and qs[6].options == ['go', 'goes', 'going', 'gone']  # refers to a letter: untouched
+    q7 = qs[6]                                          # its solution names the letter: it follows the swap
+    assert q7.options[q7.answer_index] == 'goes' and f'Option ({"abcd"[q7.answer_index]}) is right' in q7.solution
     assert bookgen.balance_answers(out) == bookgen.balance_answers(out)                 # deterministic
