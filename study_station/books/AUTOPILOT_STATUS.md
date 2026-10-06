@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 06-10-2026 02:07 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 12:56 PM
+**आख़िरी update:** 06-10-2026 02:08 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 12:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 15 One Word Substitution (Graduation English) | ✍️ लिख रहा है | 58 मिनट |
-| W2 | Chapter 12 Sentence Structure (Graduation English) | 🔎 review हो रहा है | 16 मिनट |
-| W3 | Chapter 16 Idioms Phrases (Graduation English) | ✍️ लिख रहा है | 42 मिनट |
-| W4 | Chapter 14 Antonyms (Graduation English) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 15 One Word Substitution (Graduation English) | ✍️ लिख रहा है | 60 मिनट |
+| W2 | Chapter 12 Sentence Structure (Graduation English) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 16 Idioms Phrases (Graduation English) | ✍️ लिख रहा है | 44 मिनट |
+| W4 | Chapter 17 Spelling (Graduation English) | ✍️ लिख रहा है | 1 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -33,6 +33,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 06-10 14:08 — Graduation English · Chapter 12 Sentence Structure
 - 06-10 14:07 — Graduation English · Chapter 14 Antonyms
 - 06-10 13:24 — Graduation English · Chapter 13 Synonyms
 - 06-10 13:08 — Graduation English · Chapter 11 Narration
@@ -54,13 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-06-10 13:42:55   [Idioms_Phrases] wrote Feynman_en.txt (3486 chars)
-06-10 13:43:40   [Idioms_Phrases] wrote Feynman_hi.txt (2955 chars)
-06-10 13:43:44   [Sentence_Structure] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-06-10 13:44:04   [Idioms_Phrases] wrote Mind_Map_en.txt (1533 chars)
-06-10 13:45:01   [Sentence_Structure] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-06-10 13:45:01   [Sentence_Structure] written 4, failed 2; AI calls today 601/100000
-06-10 13:45:02 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_12_Sentence_Structure after 49 min: todo ['Set 04 en: todo', 'Set 04 hi: todo'] problems []
 06-10 13:45:02 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_12_Sentence_Structure (TODO: todo 2, problems 0)
 06-10 13:45:06   [Antonyms] review Content_hi.txt: 4 issue(s): - The hook claims "70% छात्रों ने (a) Vague चुना" without any source or year → remove the invented statistic or cit
 06-10 13:45:19   [One_Word_Substitution] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
@@ -94,4 +88,11 @@
 06-10 14:06:34   [One_Word_Substitution] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 06-10 14:07:06   [Antonyms] review: 8 section(s) corrected, 0 failed
 06-10 14:07:07   [Antonyms] written 8, failed 0; AI calls today 660/100000
+06-10 14:07:14 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_14_Antonyms in 71 min → e22e8ef
+06-10 14:07:15 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_17_Spelling (TODO: todo 26, problems 0)
+06-10 14:07:17   [Idioms_Phrases] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+06-10 14:08:02   [Sentence_Structure] review Important_Rules_hi.txt: 1 issue(s): - Morphology table row 1: affix column shows "con- + struct" but root is already "struct" → affix should be
+06-10 14:08:27   [One_Word_Substitution] Practice_hi_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
+06-10 14:08:56   [Sentence_Structure] review: 2 section(s) corrected, 0 failed
+06-10 14:08:56   [Sentence_Structure] written 2, failed 0; AI calls today 664/100000
 ```
