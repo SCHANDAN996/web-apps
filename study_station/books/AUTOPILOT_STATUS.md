@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 06-10-2026 02:08 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 12:56 PM
+**आख़िरी update:** 06-10-2026 02:12 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 12:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 15 One Word Substitution (Graduation English) | ✍️ लिख रहा है | 60 मिनट |
-| W2 | Chapter 12 Sentence Structure (Graduation English) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 16 Idioms Phrases (Graduation English) | ✍️ लिख रहा है | 44 मिनट |
-| W4 | Chapter 17 Spelling (Graduation English) | ✍️ लिख रहा है | 1 मिनट |
+| W1 | Chapter 15 One Word Substitution (Graduation English) | ✍️ लिख रहा है | 63 मिनट |
+| W2 | Chapter 18 Error Spotting Adv (Graduation English) | ✍️ लिख रहा है | 3 मिनट |
+| W3 | Chapter 16 Idioms Phrases (Graduation English) | ✍️ लिख रहा है | 47 मिनट |
+| W4 | Chapter 17 Spelling (Graduation English) | ✍️ लिख रहा है | 5 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -48,22 +48,9 @@
 - 05-10 22:04 — Graduation English · Chapter 01 Noun
 - 05-10 21:44 — Graduation English · Chapter 04 Verb
 
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 12 Sentence Structure (English) — 1 बार
-
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-06-10 13:45:02 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_12_Sentence_Structure (TODO: todo 2, problems 0)
-06-10 13:45:06   [Antonyms] review Content_hi.txt: 4 issue(s): - The hook claims "70% छात्रों ने (a) Vague चुना" without any source or year → remove the invented statistic or cit
-06-10 13:45:19   [One_Word_Substitution] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-06-10 13:45:33   [Idioms_Phrases] wrote Mind_Map_hi.txt (1738 chars)
-06-10 13:46:08   [Idioms_Phrases] wrote Flashcards_en.txt (3832 chars)
-06-10 13:46:56   [Idioms_Phrases] wrote Flashcards_hi.txt (3237 chars)
-06-10 13:47:32   [Sentence_Structure] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-06-10 13:47:43   [One_Word_Substitution] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-06-10 13:48:24   [Antonyms] review Feynman_en.txt: 1 issue(s): - The practice question for "TRANSPARENT" incorrectly identifies "glassy" as a twin (synonym); "glassy" means resem
 06-10 13:48:39   [Idioms_Phrases] wrote PYQ_en.txt (7064 chars)
 06-10 13:50:14   [Sentence_Structure] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 06-10 13:50:14   [Sentence_Structure] written 2, failed 0; AI calls today 616/100000
@@ -95,4 +82,13 @@
 06-10 14:08:27   [One_Word_Substitution] Practice_hi_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
 06-10 14:08:56   [Sentence_Structure] review: 2 section(s) corrected, 0 failed
 06-10 14:08:56   [Sentence_Structure] written 2, failed 0; AI calls today 664/100000
+06-10 14:09:04 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_12_Sentence_Structure in 24 min → c4e4db1
+06-10 14:09:05 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_18_Error_Spotting_Adv (TODO: todo 26, problems 0)
+06-10 14:09:06   [Spelling] wrote Content_en.txt (10272 chars)
+06-10 14:09:09   [Idioms_Phrases] Practice_en_Set_03.txt try 1: rejected (parsed 23 questions, numbers 51…75)
+06-10 14:11:11   [Idioms_Phrases] Practice_en_Set_03.txt try 2: rejected (parsed 23 questions, numbers 51…75)
+06-10 14:11:13   [Spelling] wrote Content_hi.txt (8060 chars)
+06-10 14:11:26   [One_Word_Substitution] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+06-10 14:11:46   [Spelling] wrote Feynman_en.txt (3224 chars)
+06-10 14:12:35   [Error_Spotting_Adv] wrote Content_en.txt (10566 chars)
 ```
