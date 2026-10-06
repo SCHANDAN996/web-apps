@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 06-10-2026 02:12 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 12:56 PM
+**आख़िरी update:** 06-10-2026 02:27 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 12:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 15 One Word Substitution (Graduation English) | ✍️ लिख रहा है | 63 मिनट |
-| W2 | Chapter 18 Error Spotting Adv (Graduation English) | ✍️ लिख रहा है | 3 मिनट |
-| W3 | Chapter 16 Idioms Phrases (Graduation English) | ✍️ लिख रहा है | 47 मिनट |
-| W4 | Chapter 17 Spelling (Graduation English) | ✍️ लिख रहा है | 5 मिनट |
+| W1 | Chapter 15 One Word Substitution (Graduation English) | 🔎 review हो रहा है | 1 मिनट |
+| W2 | Chapter 18 Error Spotting Adv (Graduation English) | ✍️ लिख रहा है | 18 मिनट |
+| W3 | Chapter 16 Idioms Phrases (Graduation English) | ✍️ लिख रहा है | 62 मिनट |
+| W4 | Chapter 17 Spelling (Graduation English) | ✍️ लिख रहा है | 20 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -28,8 +28,8 @@
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 0 | 0 | 28 |
 | Graduation Reasoning | 0 | 0 | 30 |
-| Graduation English | 14 | 0 | 16 |
-| **कुल** | **64** | **13** | **219** |
+| Graduation English | 15 | 0 | 15 |
+| **कुल** | **65** | **13** | **218** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -48,47 +48,51 @@
 - 05-10 22:04 — Graduation English · Chapter 01 Noun
 - 05-10 21:44 — Graduation English · Chapter 04 Verb
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 15 One Word Substitution (English) — 1 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-06-10 13:48:39   [Idioms_Phrases] wrote PYQ_en.txt (7064 chars)
-06-10 13:50:14   [Sentence_Structure] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-06-10 13:50:14   [Sentence_Structure] written 2, failed 0; AI calls today 616/100000
-06-10 13:50:31   [One_Word_Substitution] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-06-10 13:50:41   [Idioms_Phrases] wrote PYQ_hi.txt (6886 chars)
-06-10 13:51:05   [Antonyms] review Mind_Map_en.txt: 2 issue(s): - B1 misclassifies Hot ↔ Cold as "Exact Opposite"; they are gradable antonyms, not complementary (exact) opposites
-06-10 13:51:56   [Idioms_Phrases] wrote Short_Tricks_en.txt (6308 chars)
-06-10 13:53:37   [Antonyms] review Mind_Map_hi.txt: 1 issue(s): - F3: Anachronism ↔ Synchronous given as antonyms for root 'chron' → they are not antonyms; correct pairs: Anachro
-06-10 13:53:40   [Idioms_Phrases] wrote Short_Tricks_hi.txt (5609 chars)
-06-10 13:54:33   [Idioms_Phrases] wrote Important_Rules_en.txt (4490 chars)
-06-10 13:54:49   [One_Word_Substitution] Practice_en_Set_04.txt try 1: re-solve disagrees (Q98 key d vs re-solve a)
-06-10 13:55:12   [Sentence_Structure] review Mind_Map_hi.txt: 1 issue(s): - '12 स्वर्ण नियम' label shows 12 but only 6 rules (D1–D6) are given → change label to '6 स्वर्ण नियम' or add miss
-06-10 13:55:47   [Idioms_Phrases] wrote Important_Rules_hi.txt (3883 chars)
-06-10 13:58:18   [Idioms_Phrases] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-06-10 13:58:34   [Antonyms] review PYQ_en.txt: 1 issue(s): - Q3 explanation claims both (a) Ancient and (b) Outdated are synonyms of Obsolete → Only Outdated is a synonym; Ancien
-06-10 14:01:15   [Antonyms] review Short_Tricks_hi.txt: 5 issue(s): - Heading says “10 म्नेमोनिक ट्रिक्स” but 15 tricks are listed → Change heading to “15 म्नेमोनिक ट्रिक्स” (or 
-06-10 14:01:28   [Idioms_Phrases] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-06-10 14:04:06   [One_Word_Substitution] FAILED Practice_en_Set_04.txt: too_long
-06-10 14:04:06   [One_Word_Substitution] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
-06-10 14:04:28   [Antonyms] review Important_Rules_hi.txt: 4 issue(s): - Rule 4 states "प्रत्यय (suffix) बदलने से विलोम नहीं, नया शब्द बनता है" but the example "Careful ↔ Careles
-06-10 14:05:18   [Idioms_Phrases] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-06-10 14:06:34   [One_Word_Substitution] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-06-10 14:07:06   [Antonyms] review: 8 section(s) corrected, 0 failed
-06-10 14:07:07   [Antonyms] written 8, failed 0; AI calls today 660/100000
-06-10 14:07:14 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_14_Antonyms in 71 min → e22e8ef
-06-10 14:07:15 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_17_Spelling (TODO: todo 26, problems 0)
-06-10 14:07:17   [Idioms_Phrases] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-06-10 14:08:02   [Sentence_Structure] review Important_Rules_hi.txt: 1 issue(s): - Morphology table row 1: affix column shows "con- + struct" but root is already "struct" → affix should be
-06-10 14:08:27   [One_Word_Substitution] Practice_hi_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
-06-10 14:08:56   [Sentence_Structure] review: 2 section(s) corrected, 0 failed
-06-10 14:08:56   [Sentence_Structure] written 2, failed 0; AI calls today 664/100000
-06-10 14:09:04 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_12_Sentence_Structure in 24 min → c4e4db1
-06-10 14:09:05 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_18_Error_Spotting_Adv (TODO: todo 26, problems 0)
-06-10 14:09:06   [Spelling] wrote Content_en.txt (10272 chars)
-06-10 14:09:09   [Idioms_Phrases] Practice_en_Set_03.txt try 1: rejected (parsed 23 questions, numbers 51…75)
 06-10 14:11:11   [Idioms_Phrases] Practice_en_Set_03.txt try 2: rejected (parsed 23 questions, numbers 51…75)
 06-10 14:11:13   [Spelling] wrote Content_hi.txt (8060 chars)
 06-10 14:11:26   [One_Word_Substitution] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 06-10 14:11:46   [Spelling] wrote Feynman_en.txt (3224 chars)
 06-10 14:12:35   [Error_Spotting_Adv] wrote Content_en.txt (10566 chars)
+06-10 14:13:04   [Spelling] wrote Feynman_hi.txt (2373 chars)
+06-10 14:13:19   [Spelling] wrote Mind_Map_en.txt (1412 chars)
+06-10 14:14:07   [One_Word_Substitution] Practice_en_Set_06.txt try 1: re-solve disagrees (Q128 key c vs re-solve a)
+06-10 14:14:33   [Idioms_Phrases] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+06-10 14:15:13   [Spelling] wrote Mind_Map_hi.txt (1349 chars)
+06-10 14:15:14   [Error_Spotting_Adv] wrote Content_hi.txt (7710 chars)
+06-10 14:15:57   [Idioms_Phrases] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+06-10 14:16:27   [Error_Spotting_Adv] wrote Feynman_en.txt (7357 chars)
+06-10 14:16:35   [Error_Spotting_Adv] wrote Feynman_hi.txt (305 chars)
+06-10 14:16:51   [Error_Spotting_Adv] wrote Mind_Map_en.txt (1648 chars)
+06-10 14:17:14   [Spelling] wrote Flashcards_en.txt (3991 chars)
+06-10 14:18:02   [Idioms_Phrases] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+06-10 14:18:16   [Spelling] wrote Flashcards_hi.txt (3713 chars)
+06-10 14:19:41   [Spelling] wrote PYQ_en.txt (6344 chars)
+06-10 14:20:03   [Idioms_Phrases] Practice_hi_Set_04.txt try 1: rejected (parsed 22 questions, numbers 78…100)
+06-10 14:20:20   [One_Word_Substitution] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+06-10 14:21:14   [Spelling] wrote PYQ_hi.txt (5847 chars)
+06-10 14:21:51   [Error_Spotting_Adv] wrote Mind_Map_hi.txt (1660 chars)
+06-10 14:21:59   [Idioms_Phrases] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+06-10 14:22:06   [One_Word_Substitution] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+06-10 14:22:06   [One_Word_Substitution] written 24, failed 2; AI calls today 695/100000
+06-10 14:22:06 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_15_One_Word_Substitution after 73 min: todo ['Set 04 en: todo', 'Set 04 hi: todo'] problems []
+06-10 14:22:07 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_15_One_Word_Substitution (TODO: todo 2, problems 0)
+06-10 14:22:24   [Spelling] wrote Short_Tricks_en.txt (5054 chars)
+06-10 14:23:05   [Idioms_Phrases] Practice_en_Set_05.txt try 1: rejected (parsed 23 questions, numbers 101…125)
+06-10 14:23:11   [Error_Spotting_Adv] wrote Flashcards_en.txt (3797 chars)
+06-10 14:23:53   [Spelling] wrote Short_Tricks_hi.txt (5595 chars)
+06-10 14:24:58   [One_Word_Substitution] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+06-10 14:25:03   [Spelling] wrote Important_Rules_en.txt (4381 chars)
+06-10 14:25:28   [Error_Spotting_Adv] wrote Flashcards_hi.txt (4950 chars)
+06-10 14:26:03   [Spelling] wrote Important_Rules_hi.txt (3866 chars)
+06-10 14:26:26   [One_Word_Substitution] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+06-10 14:26:26   [One_Word_Substitution] written 2, failed 0; AI calls today 706/100000
+06-10 14:26:56   [One_Word_Substitution] review Content_en.txt: 3 issue(s): - "A one-word substitution is a powerful way of by far the most common vocabulary question." → "A one-word substitu
+06-10 14:27:02   [Error_Spotting_Adv] wrote PYQ_en.txt (6699 chars)
 ```
