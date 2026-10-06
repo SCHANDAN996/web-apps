@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 06-10-2026 01:08 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 12:56 PM
+**आख़िरी update:** 06-10-2026 01:12 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 12:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Narration (Graduation English) | 📤 push हो रहा है | 0 मिनट |
-| W2 | Chapter 12 Sentence Structure (Graduation English) | ✍️ लिख रहा है | 12 मिनट |
-| W3 | Chapter 13 Synonyms (Graduation English) | 🔎 review हो रहा है | 12 मिनट |
-| W4 | Chapter 14 Antonyms (Graduation English) | ✍️ लिख रहा है | 12 मिनट |
+| W1 | Chapter 15 One Word Substitution (Graduation English) | ✍️ लिख रहा है | 3 मिनट |
+| W2 | Chapter 12 Sentence Structure (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
+| W3 | Chapter 13 Synonyms (Graduation English) | 🔎 review हो रहा है | 15 मिनट |
+| W4 | Chapter 14 Antonyms (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -48,11 +48,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-06-10 04:27:53   [Synonyms] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-06-10 04:28:01   [Sentence_Structure] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-06-10 04:30:18   [Synonyms] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-06-10 04:30:24   [Narration] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-06-10 04:30:24   [Narration] written 24, failed 2; AI calls today 485/100000
 06-10 04:30:24 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_11_Narration after 85 min: todo ['Important_Rules_hi.txt', 'Short_Tricks_en.txt'] problems []
 06-10 04:30:25 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_11_Narration (TODO: todo 2, problems 0)
 06-10 04:32:10   [Narration] wrote Short_Tricks_en.txt (6539 chars)
@@ -88,4 +83,9 @@
 06-10 13:07:56   [Sentence_Structure] Practice_en_Set_04.txt try 2: re-solve disagrees (Q85 key a vs re-solve b, Q94 key b vs re-solve a)
 06-10 13:08:30   [Narration] review: 1 section(s) corrected, 0 failed
 06-10 13:08:30   [Narration] written 1, failed 0; AI calls today 538/100000
+06-10 13:08:38 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_11_Narration in 12 min → 4c1da7c
+06-10 13:08:39 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_15_One_Word_Substitution (TODO: todo 26, problems 0)
+06-10 13:08:48   [Antonyms] wrote Important_Rules_en.txt (2898 chars)
+06-10 13:10:09   [One_Word_Substitution] wrote Content_en.txt (1264 chars)
+06-10 13:11:49   [Antonyms] wrote Important_Rules_hi.txt (5961 chars)
 ```
