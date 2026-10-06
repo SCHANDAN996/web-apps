@@ -55,6 +55,7 @@ class Pilot:
         self.git_lock_path = self.state_dir / 'git.lock'
         self.state = self._load()
         self.claimed = set()
+        self.t_start = time.time()
         self.current = {}                       # thread name -> {key, step, since}
         self.started = datetime.now(IST)
 
@@ -151,6 +152,8 @@ class Pilot:
                     yield ch
 
     def next_job(self):
+        if self.args.stop_new_after and time.time() - self.t_start > self.args.stop_new_after * 60:
+            return None                                      # time budget: finish running chapters, start none
         with self.lock:
             for ch in self.chapters():
                 key = str(ch.relative_to(bookcheck.BOOKS_ROOT))
@@ -363,6 +366,8 @@ def main():
     p.add_argument('--branch', default='claude/elegant-rubin-sgov1q')
     p.add_argument('--state-dir', default='~/.book_autopilot')
     p.add_argument('--stop-file')
+    p.add_argument('--stop-new-after', type=int, default=0,
+                   help='minutes after which no new chapter is started (for time-limited runs, e.g. CI)')
     p.add_argument('--max-fails', type=int, default=2, help='give a chapter up after this many failed passes')
     p.add_argument('--dry-run', action='store_true')
     return Pilot(p.parse_args()).run()
