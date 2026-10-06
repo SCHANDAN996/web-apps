@@ -1,12 +1,17 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 06-10-2026 04:43 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 04:43 AM
+**आख़िरी update:** 06-10-2026 12:56 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 12:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
+| worker | अध्याय | काम | कब से |
+|---|---|---|---|
+| W1 | Chapter 11 Narration (Graduation English) | 🔎 review हो रहा है | 0 मिनट |
+| W2 | Chapter 12 Sentence Structure (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
+| W3 | Chapter 13 Synonyms (Graduation English) | 🔎 review हो रहा है | 0 मिनट |
+| W4 | Chapter 14 Antonyms (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,18 +44,9 @@
 - 05-10 22:04 — Graduation English · Chapter 01 Noun
 - 05-10 21:44 — Graduation English · Chapter 04 Verb
 
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 11 Narration (English) — 1 बार
-
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-06-10 04:19:46   [Sentence_Structure] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-06-10 04:20:43   [Voice] review: 4 section(s) corrected, 0 failed
-06-10 04:20:43   [Voice] written 4, failed 0; AI calls today 464/100000
-06-10 04:20:49 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_10_Voice in 77 min → f30abbc
-06-10 04:20:50 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_14_Antonyms (TODO: todo 26, problems 0)
 06-10 04:20:56   [Synonyms] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 06-10 04:21:55   [Narration] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 06-10 04:22:24   [Sentence_Structure] wrote Practice_en_Set_02.txt (write, 25 MCQs)
@@ -86,4 +82,9 @@
 06-10 04:40:26   [Narration] review Mind_Map_hi.txt: 1 issue(s): - C1: Reporting Verb change rule "said→told, said to→asked/ordered" is inaccurate → "said" (without object) remain
 06-10 04:42:33   [Synonyms] review Content_hi.txt: 1 issue(s): - Roots तालिका में Credulous का हिंदी अर्थ 'अंधविश्वासी' गलत है → Credulous का अर्थ 'भोला-भाला' या 'आसानी से विश्वा
 06-10 04:43:34 autopilot stopped: the cloud session limits a background run to 2 hours — waiting for the owner to restart it
+06-10 12:56:10 autopilot start: 4 workers, reverse=True
+06-10 12:56:10 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_11_Narration (OK: todo 0, problems 0)
+06-10 12:56:15 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_12_Sentence_Structure (TODO: todo 6, problems 0)
+06-10 12:56:20 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_13_Synonyms (OK: todo 0, problems 0)
+06-10 12:56:25 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_14_Antonyms (TODO: todo 19, problems 0)
 ```
