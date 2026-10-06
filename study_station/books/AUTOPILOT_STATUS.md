@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 06-10-2026 01:57 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 12:56 PM
+**आख़िरी update:** 06-10-2026 02:07 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 12:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 15 One Word Substitution (Graduation English) | ✍️ लिख रहा है | 48 मिनट |
-| W2 | Chapter 12 Sentence Structure (Graduation English) | 🔎 review हो रहा है | 7 मिनट |
-| W3 | Chapter 16 Idioms Phrases (Graduation English) | ✍️ लिख रहा है | 32 मिनट |
-| W4 | Chapter 14 Antonyms (Graduation English) | 🔎 review हो रहा है | 17 मिनट |
+| W1 | Chapter 15 One Word Substitution (Graduation English) | ✍️ लिख रहा है | 58 मिनट |
+| W2 | Chapter 12 Sentence Structure (Graduation English) | 🔎 review हो रहा है | 16 मिनट |
+| W3 | Chapter 16 Idioms Phrases (Graduation English) | ✍️ लिख रहा है | 42 मिनट |
+| W4 | Chapter 14 Antonyms (Graduation English) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -33,6 +33,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 06-10 14:07 — Graduation English · Chapter 14 Antonyms
 - 06-10 13:24 — Graduation English · Chapter 13 Synonyms
 - 06-10 13:08 — Graduation English · Chapter 11 Narration
 - 06-10 04:20 — Graduation English · Chapter 10 Voice
@@ -53,17 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-06-10 13:36:12   [One_Word_Substitution] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-06-10 13:37:53   [One_Word_Substitution] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-06-10 13:38:32   [Antonyms] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-06-10 13:39:30   [One_Word_Substitution] Practice_en_Set_02.txt try 1: rejected (Q34:duplicate_options,Q38:duplicate_options,Q40:duplicate_options,Q42:duplicate_options,Q44:duplicate_options)
-06-10 13:40:06   [Antonyms] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-06-10 13:40:06   [Antonyms] written 19, failed 0; AI calls today 589/100000
-06-10 13:40:12   [Sentence_Structure] Practice_en_Set_06.txt try 1: re-solve disagrees (Q128 key b vs re-solve d, Q146 key c vs re-solve a)
-06-10 13:42:09   [Idioms_Phrases] FAILED Content_hi.txt: too_long
-06-10 13:42:11   [One_Word_Substitution] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-06-10 13:42:38   [Antonyms] review Content_en.txt: 4 issue(s): - "Benedict ion" in the High-Yield Roots Table (dict- row) is a misspelling → "Benediction"
-06-10 13:42:47   [One_Word_Substitution] Practice_hi_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
 06-10 13:42:55   [Idioms_Phrases] wrote Feynman_en.txt (3486 chars)
 06-10 13:43:40   [Idioms_Phrases] wrote Feynman_hi.txt (2955 chars)
 06-10 13:43:44   [Sentence_Structure] wrote Practice_en_Set_06.txt (write, 25 MCQs)
@@ -93,4 +83,15 @@
 06-10 13:54:49   [One_Word_Substitution] Practice_en_Set_04.txt try 1: re-solve disagrees (Q98 key d vs re-solve a)
 06-10 13:55:12   [Sentence_Structure] review Mind_Map_hi.txt: 1 issue(s): - '12 स्वर्ण नियम' label shows 12 but only 6 rules (D1–D6) are given → change label to '6 स्वर्ण नियम' or add miss
 06-10 13:55:47   [Idioms_Phrases] wrote Important_Rules_hi.txt (3883 chars)
+06-10 13:58:18   [Idioms_Phrases] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+06-10 13:58:34   [Antonyms] review PYQ_en.txt: 1 issue(s): - Q3 explanation claims both (a) Ancient and (b) Outdated are synonyms of Obsolete → Only Outdated is a synonym; Ancien
+06-10 14:01:15   [Antonyms] review Short_Tricks_hi.txt: 5 issue(s): - Heading says “10 म्नेमोनिक ट्रिक्स” but 15 tricks are listed → Change heading to “15 म्नेमोनिक ट्रिक्स” (or 
+06-10 14:01:28   [Idioms_Phrases] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+06-10 14:04:06   [One_Word_Substitution] FAILED Practice_en_Set_04.txt: too_long
+06-10 14:04:06   [One_Word_Substitution] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
+06-10 14:04:28   [Antonyms] review Important_Rules_hi.txt: 4 issue(s): - Rule 4 states "प्रत्यय (suffix) बदलने से विलोम नहीं, नया शब्द बनता है" but the example "Careful ↔ Careles
+06-10 14:05:18   [Idioms_Phrases] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+06-10 14:06:34   [One_Word_Substitution] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+06-10 14:07:06   [Antonyms] review: 8 section(s) corrected, 0 failed
+06-10 14:07:07   [Antonyms] written 8, failed 0; AI calls today 660/100000
 ```
