@@ -43,6 +43,7 @@ from .models import AiUsage
 log = logging.getLogger('bookgen')
 BOOK_USAGE_ID = -1                 # AiUsage.device_id for the bookgen budget (not a real device)
 MAX_TOKENS = 16000                 # non-streaming calls must stay well under the SDK's 10-minute limit
+NVIDIA_MAX_TOKENS = 32000          # NVIDIA calls stream; long Hindi sections need more than 16k tokens
 PRACTICE = re.compile(r'^Practice_(en|hi)_Set_(\d+)\.txt$')
 LANG_NAME = {'hi': 'Hindi (Devanagari)', 'en': 'English'}
 
@@ -147,7 +148,7 @@ def _ask(db, user):
         raise ai.AIUnavailable('daily_limit')
     try:
         if provider() == 'nvidia':
-            return nvidia.call(system_prompt(), user, max_tokens=MAX_TOKENS)
+            return nvidia.call(system_prompt(), user, max_tokens=NVIDIA_MAX_TOKENS)
         return ai.call(system_prompt(), user, effort='high', max_tokens=MAX_TOKENS)
     except ai.AIUnavailable:
         ai.record_use(db, BOOK_USAGE_ID, -1)
