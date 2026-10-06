@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 06-10-2026 01:12 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 12:56 PM
+**आख़िरी update:** 06-10-2026 01:24 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 12:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 15 One Word Substitution (Graduation English) | ✍️ लिख रहा है | 3 मिनट |
-| W2 | Chapter 12 Sentence Structure (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
-| W3 | Chapter 13 Synonyms (Graduation English) | 🔎 review हो रहा है | 15 मिनट |
-| W4 | Chapter 14 Antonyms (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
+| W1 | Chapter 15 One Word Substitution (Graduation English) | ✍️ लिख रहा है | 16 मिनट |
+| W2 | Chapter 12 Sentence Structure (Graduation English) | ✍️ लिख रहा है | 28 मिनट |
+| W3 | Chapter 13 Synonyms (Graduation English) | 📤 push हो रहा है | 0 मिनट |
+| W4 | Chapter 14 Antonyms (Graduation English) | ✍️ लिख रहा है | 28 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -33,6 +33,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 06-10 13:24 — Graduation English · Chapter 13 Synonyms
 - 06-10 13:08 — Graduation English · Chapter 11 Narration
 - 06-10 04:20 — Graduation English · Chapter 10 Voice
 - 06-10 03:48 — Graduation English · Chapter 08 Conjunction
@@ -48,24 +49,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-06-10 04:30:24 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_11_Narration after 85 min: todo ['Important_Rules_hi.txt', 'Short_Tricks_en.txt'] problems []
-06-10 04:30:25 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_11_Narration (TODO: todo 2, problems 0)
-06-10 04:32:10   [Narration] wrote Short_Tricks_en.txt (6539 chars)
-06-10 04:32:28   [Synonyms] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-06-10 04:33:39   [Narration] wrote Important_Rules_hi.txt (6340 chars)
-06-10 04:33:40   [Narration] written 2, failed 0; AI calls today 488/100000
-06-10 04:34:32   [Antonyms] wrote Feynman_hi.txt (2885 chars)
-06-10 04:34:49   [Synonyms] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-06-10 04:35:23   [Narration] review Content_hi.txt: 1 issue(s): - "परीक्षा में यही अंतर आपसे 2–4 अंक छीनता या दिलाता है। SSC CGL, IBPS PO और राज्य PCS में Narration से लगभग हर शिफ
-06-10 04:35:28   [Sentence_Structure] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-06-10 04:35:36   [Antonyms] wrote Mind_Map_en.txt (1631 chars)
-06-10 04:36:07   [Antonyms] wrote Mind_Map_hi.txt (1441 chars)
-06-10 04:36:51   [Synonyms] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-06-10 04:36:51   [Synonyms] written 26, failed 0; AI calls today 497/100000
-06-10 04:38:25   [Antonyms] wrote Flashcards_en.txt (2672 chars)
-06-10 04:39:06   [Synonyms] review Content_en.txt: 1 issue(s): - In the Hindi Speaker's Corner, the second row incorrectly labels "I want to learn the meaning of this word" as wr
-06-10 04:40:26   [Narration] review Mind_Map_hi.txt: 1 issue(s): - C1: Reporting Verb change rule "said→told, said to→asked/ordered" is inaccurate → "said" (without object) remain
-06-10 04:42:33   [Synonyms] review Content_hi.txt: 1 issue(s): - Roots तालिका में Credulous का हिंदी अर्थ 'अंधविश्वासी' गलत है → Credulous का अर्थ 'भोला-भाला' या 'आसानी से विश्वा
 06-10 04:43:34 autopilot stopped: the cloud session limits a background run to 2 hours — waiting for the owner to restart it
 06-10 12:56:10 autopilot start: 4 workers, reverse=True
 06-10 12:56:10 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_11_Narration (OK: todo 0, problems 0)
@@ -88,4 +71,22 @@
 06-10 13:08:48   [Antonyms] wrote Important_Rules_en.txt (2898 chars)
 06-10 13:10:09   [One_Word_Substitution] wrote Content_en.txt (1264 chars)
 06-10 13:11:49   [Antonyms] wrote Important_Rules_hi.txt (5961 chars)
+06-10 13:14:12   [Antonyms] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+06-10 13:14:21   [One_Word_Substitution] wrote Content_hi.txt (7941 chars)
+06-10 13:15:40   [One_Word_Substitution] wrote Feynman_en.txt (3678 chars)
+06-10 13:16:17   [Antonyms] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+06-10 13:16:56   [One_Word_Substitution] wrote Feynman_hi.txt (2429 chars)
+06-10 13:17:38   [One_Word_Substitution] wrote Mind_Map_en.txt (2023 chars)
+06-10 13:18:03   [Antonyms] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+06-10 13:18:26   [One_Word_Substitution] wrote Mind_Map_hi.txt (1658 chars)
+06-10 13:19:27   [One_Word_Substitution] wrote Flashcards_en.txt (3139 chars)
+06-10 13:20:05   [Antonyms] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+06-10 13:21:24   [One_Word_Substitution] wrote Flashcards_hi.txt (4246 chars)
+06-10 13:23:06   [One_Word_Substitution] wrote PYQ_en.txt (4718 chars)
+06-10 13:24:07   [Antonyms] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+06-10 13:24:11   [Sentence_Structure] Practice_en_Set_04.txt try 3: re-solve disagrees (Q85 key d vs re-solve a, Q99 key b vs re-solve c)
+06-10 13:24:11   [Sentence_Structure] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
+06-10 13:24:11   [Sentence_Structure] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
+06-10 13:24:47   [Synonyms] review: 1 section(s) corrected, 0 failed
+06-10 13:24:47   [Synonyms] written 1, failed 0; AI calls today 565/100000
 ```
