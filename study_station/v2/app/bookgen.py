@@ -652,7 +652,15 @@ def run(db, chapter, wanted=None, dry_run=False, out=print):
                     continue
             else:
                 for attempt in range(1, 3):                  # one retry for an empty/short/chatty answer
-                    text = _clean_output(_ask(db, user), name)
+                    try:
+                        text = _clean_output(_ask(db, user), name)
+                    except ai.AIUnavailable as e:
+                        if str(e) != 'too_long' or attempt == 2:
+                            raise
+                        out(f'  {name} try {attempt}: answer too long — asking for a tighter version')
+                        user += ('\n\nYour previous answer did not fit. Write a tighter version: at most about '
+                                 '3,500 words, the most exam-relevant points first, no repetition.')
+                        continue
                     if not (why := _problem(text, name)):
                         break
                     _keep_reject(name, text, why)

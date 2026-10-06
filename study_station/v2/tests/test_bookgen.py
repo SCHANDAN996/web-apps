@@ -330,3 +330,17 @@ def test_review_skips_sections_that_already_passed(broken_chapter, db, monkeypat
     first = len(seen)
     bookgen.review(db, broken_chapter, out=lambda *a: None)
     assert first > 0 and len(seen) == first                    # second pass: nothing re-reviewed
+
+
+def test_too_long_section_is_retried_tighter(chapter, db, monkeypatch):
+    usage_reset(db)
+    asks = []
+
+    def ask(db, user):
+        asks.append(user)
+        if len(asks) == 1:
+            raise ai.AIUnavailable('too_long')
+        return BODY
+    monkeypatch.setattr(bookgen, '_ask', ask)
+    written, failed = bookgen.run(db, chapter, ['Content_hi'], out=lambda *a: None)
+    assert written == ['Content_hi.txt'] and 'tighter version' in asks[1]
