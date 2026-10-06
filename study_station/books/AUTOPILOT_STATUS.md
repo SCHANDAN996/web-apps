@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 06-10-2026 01:24 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 12:56 PM
+**आख़िरी update:** 06-10-2026 01:27 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 12:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 15 One Word Substitution (Graduation English) | ✍️ लिख रहा है | 16 मिनट |
-| W2 | Chapter 12 Sentence Structure (Graduation English) | ✍️ लिख रहा है | 28 मिनट |
-| W3 | Chapter 13 Synonyms (Graduation English) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 14 Antonyms (Graduation English) | ✍️ लिख रहा है | 28 मिनट |
+| W1 | Chapter 15 One Word Substitution (Graduation English) | ✍️ लिख रहा है | 18 मिनट |
+| W2 | Chapter 12 Sentence Structure (Graduation English) | ✍️ लिख रहा है | 30 मिनट |
+| W3 | Chapter 16 Idioms Phrases (Graduation English) | ✍️ लिख रहा है | 2 मिनट |
+| W4 | Chapter 14 Antonyms (Graduation English) | ✍️ लिख रहा है | 30 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -49,10 +49,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-06-10 04:43:34 autopilot stopped: the cloud session limits a background run to 2 hours — waiting for the owner to restart it
-06-10 12:56:10 autopilot start: 4 workers, reverse=True
-06-10 12:56:10 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_11_Narration (OK: todo 0, problems 0)
-06-10 12:56:15 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_12_Sentence_Structure (TODO: todo 6, problems 0)
 06-10 12:56:20 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_13_Synonyms (OK: todo 0, problems 0)
 06-10 12:56:25 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_14_Antonyms (TODO: todo 19, problems 0)
 06-10 12:57:51   [Antonyms] wrote Flashcards_hi.txt (2711 chars)
@@ -89,4 +85,8 @@
 06-10 13:24:11   [Sentence_Structure] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
 06-10 13:24:47   [Synonyms] review: 1 section(s) corrected, 0 failed
 06-10 13:24:47   [Synonyms] written 1, failed 0; AI calls today 565/100000
+06-10 13:24:54 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_13_Synonyms in 28 min → 7eb319d
+06-10 13:24:55 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_16_Idioms_Phrases (TODO: todo 26, problems 0)
+06-10 13:25:11   [One_Word_Substitution] wrote PYQ_hi.txt (6655 chars)
+06-10 13:26:47   [Antonyms] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 ```
