@@ -1,0 +1,37 @@
+# Feynman Technique: Mixture and Alligation
+
+Imagine a see-saw in a children's playground. A lighter child sits on one end, and a heavier child sits on the other. Where must the fulcrum be placed so that the board balances horizontally?
+It must be placed closer to the heavier child! The ratio of their distances from the fulcrum is inversely proportional to their weights.
+
+**Alligation is simply the physics of a see-saw applied to prices, concentrations, and averages!**
+
+### 1. The Alligation Cross: Balancing Prices
+Suppose you have cheap rice worth Rs. 20/kg and premium basmati rice worth Rs. 50/kg. You want to create a blend that sells for Rs. 30/kg.
+- How far is Rs. 30 from the cheap rice? $|30 - 20| = 10$.
+- How far is Rs. 30 from the premium rice? $|50 - 30| = 20$.
+
+Because Rs. 30 is much closer to Rs. 20 than to Rs. 50, your mixture must contain much more of the cheap rice!
+In fact, the ratio of cheap rice to premium rice is exactly the inverse of those distances:
+$$\frac{\text{Cheap Rice}}{\text{Premium Rice}} = \frac{20}{10} = \frac{2}{1}$$
+You mix 2 kilograms of cheap rice for every 1 kilogram of premium rice. That is all the "Alligation Cross" does!
+
+### 2. The Dilution Mystery: Why doesn't it go to zero?
+Suppose you have a bucket with 10 liters of pure red paint.
+You take out 1 liter of red paint and pour in 1 liter of clear water. Now 90% of the bucket is paint.
+Now you stir it thoroughly, take out another 1 liter of the mixture, and pour in 1 liter of water.
+Did you take out 1 full liter of red paint this time?
+NO! Because the liquid was already diluted, that 1-liter scoop contained only 0.9 liters of red paint and 0.1 liters of water!
+So each time you scoop, you remove a fraction of the *remaining* red paint:
+- After 1st scoop: $10 \times (1 - 1/10) = 9 \text{ liters}$
+- After 2nd scoop: $9 \times (1 - 1/10) = 8.1 \text{ liters}$
+- After $n$ scoops: $10 \times (0.9)^n \text{ liters}$
+
+This explains the famous formula: $\text{Remaining} = x \left(1 - \frac{y}{x}\right)^n$. It is repeated percentage reduction!
+
+### 3. Alligation is Everywhere
+Whenever you have two groups with different averages being combined into a single grand group, Alligation will tell you the ratio of the group sizes:
+- Men's average score vs Women's average score $\implies$ Ratio of number of Men to Women.
+- Car speed vs Train speed $\implies$ Ratio of time spent in Car vs Train.
+- Part of money at 5% interest vs part at 10% interest $\implies$ Ratio of the two investment amounts.
+
+See the world as mixtures and see-saws, and alligation problems will solve themselves in seconds!

@@ -1,0 +1,240 @@
+Questions 51–75: Medium
+
+51. (Medium) A container contains 50 litres of pure milk. From this, 5 litres of milk is taken out and replaced with water. This process is repeated once more. How many litres of milk is left in the container?
+(A) 40.5 litres  (B) 38.5 litres  (C) 42.0 litres  (D) 45.0 litres
+Answer: (A) 40.5 litres
+Solution: Using the replacement formula: Remaining milk = Total * (1 - y/x)^n.
+Here x = 50, y = 5, n = 2.
+Remaining milk = 50 * (1 - 5/50)^2 = 50 * (9/10)^2 = 50 * 0.81 = 40.5 litres. The required value is 40.5 litres. Hence, the correct option is (A).
+Source: SSC CGL Pattern
+
+52. (Medium) A milkman mixes 20 litres of water with 80 litres of milk. If cost price of pure milk is ₹50 per litre and water is available free of cost, find his profit percentage if he sells the mixture at the cost price of pure milk.
+(A) 20%  (B) 25%  (C) 30%  (D) 33.33%
+Answer: (B) 25%
+Solution: Cost Price of 80 litres pure milk = 80 * 50 = ₹4,000.
+Total volume of mixture = 80 + 20 = 100 litres.
+Selling Price of 100 litres mixture at ₹50 per litre = 100 * 50 = ₹5,000.
+Profit = ₹5,000 - ₹4,000 = ₹1,000.
+Profit percentage = (1000 / 4000) * 100 = 25%. The required value is 25%. Hence, the correct option is (B).
+Source: SSC CHSL Pattern
+
+53. (Medium) A chemist has two solutions of hydrochloric acid: Solution X contains 15% acid and Solution Y contains 40% acid. How many litres of Solution X should be mixed with Solution Y to obtain 50 litres of a 30% acid solution?
+(A) 18 litres  (B) 25 litres  (C) 20 litres  (D) 30 litres
+Answer: (C) 20 litres
+Solution: By rule of alligation on acid percentages:
+Solution X (15%) and Solution Y (40%), Desired mean = 30%.
+Ratio (X : Y) = (40 - 30) : (30 - 15) = 10 : 15 = 2 : 3.
+Total volume = 50 litres, total parts = 2 + 3 = 5.
+Volume of Solution X = (2/5) * 50 = 20 litres. The required value is 20 litres. Hence, the correct option is (C).
+Source: SSC CGL Pattern
+
+54. (Medium) A sum of ₹12,000 is divided into two parts such that simple interest on the first part at 8% per annum for 1 year equals simple interest on the second part at 12% per annum for 1 year. What is the value of the first part?
+(A) ₹4,800  (B) ₹6,000  (C) ₹8,400  (D) ₹7,200
+Answer: (D) ₹7,200
+Solution: Let the two parts be P1 and P2.
+Given: P1 * 8 * 1 / 100 = P2 * 12 * 1 / 100 => 8 P1 = 12 P2.
+Ratio P1 : P2 = 12 : 8 = 3 : 2.
+Total parts = 3 + 2 = 5 parts = ₹12,000.
+First part P1 = (3/5) * 12000 = ₹7,200. The required value is ₹7,200. Hence, the correct option is (D).
+Source: RRB NTPC Pattern
+
+55. (Medium) In a 45-litre mixture of alcohol and water, the ratio of alcohol to water is 4 : 1. If 5 litres of water is added to the mixture, what is the new ratio of alcohol to water?
+(A) 18 : 7  (B) 16 : 7  (C) 20 : 9  (D) 24 : 11
+Answer: (A) 18 : 7
+Solution: Quantity of alcohol = 45 * (4/5) = 36 litres.
+Quantity of water = 45 * (1/5) = 9 litres.
+After adding 5 litres of water, new water quantity = 9 + 5 = 14 litres.
+New ratio of alcohol to water = 36 : 14 = 18 : 7. The required value is 18 : 7. Hence, the correct option is (A).
+Source: SSC CHSL Pattern
+
+56. (Medium) A merchant mixes three varieties of rice priced at ₹30, ₹40, and ₹60 per kg in the ratio 2 : 3 : 1 respectively. What is the average cost price per kg of the mixture?
+(A) ₹38 per kg  (B) ₹40 per kg  (C) ₹42 per kg  (D) ₹44 per kg
+Answer: (B) ₹40 per kg
+Solution: Total weight = 2 + 3 + 1 = 6 kg.
+Total cost = (2 * 30) + (3 * 40) + (1 * 60) = 60 + 120 + 60 = ₹240.
+Average cost per kg = 240 / 6 = ₹40 per kg. The required value is ₹40 per kg. Hence, the correct option is (B).
+Source: SSC CGL Pattern
+
+57. (Medium) The average age of all the 50 employees in a company is 32 years. The average age of male employees is 35 years and that of female employees is 25 years. How many female employees work in the company?
+(A) 12  (B) 20  (C) 15  (D) 35
+Answer: (C) 15
+Solution: By rule of alligation on average age:
+Male (35) and Female (25), Mean = 32.
+Ratio (Male : Female) = (32 - 25) : (35 - 32) = 7 : 3.
+Total parts = 7 + 3 = 10 parts = 50 employees.
+Number of female employees = (3/10) * 50 = 15. The required value is 15. Hence, the correct option is (C).
+Source: SSC CGL Pattern
+
+58. (Medium) Two vessels A and B contain mixtures of milk and water. In vessel A, the ratio of milk to water is 7 : 3, and in vessel B, it is 2 : 3. In what ratio should the contents of vessels A and B be mixed to get a mixture containing milk and water in the ratio 3 : 2?
+(A) 1 : 2  (B) 3 : 2  (C) 4 : 3  (D) 2 : 1
+Answer: (D) 2 : 1
+Solution: Milk fraction in vessel A = 7/10.
+Milk fraction in vessel B = 2/5 = 4/10.
+Desired milk fraction = 3/5 = 6/10.
+By rule of alligation:
+Ratio (A : B) = (6/10 - 4/10) : (7/10 - 6/10) = 2/10 : 1/10 = 2 : 1. The required value is 2 : 1. Hence, the correct option is (D).
+Source: SSC CGL Pattern
+
+59. (Medium) A barrel contains 100 litres of wine. 20 litres of wine is withdrawn and replaced with water. Again 20 litres of the mixture is withdrawn and replaced with water. Find the quantity of wine remaining in the barrel.
+(A) 64 litres  (B) 58 litres  (C) 60 litres  (D) 68 litres
+Answer: (A) 64 litres
+Solution: Using the replacement formula: Remaining wine = Total * (1 - y/x)^n.
+Remaining wine = 100 * (1 - 20/100)^2 = 100 * (4/5)^2 = 100 * (16/25) = 64 litres. The required value is 64 litres. Hence, the correct option is (A).
+Source: SSC CGL Pattern
+
+60. (Medium) A trader sells two types of oils: Oil A at ₹90 per litre and Oil B at ₹140 per litre. In what ratio must he blend them so that by selling the blend at ₹132 per litre, he earns a profit of 10%?
+(A) 1 : 2  (B) 2 : 3  (C) 3 : 4  (D) 3 : 5
+Answer: (B) 2 : 3
+Solution: Selling price of blend = ₹132 per litre, Profit = 10%.
+Cost price of blend = 132 / 1.10 = ₹120 per litre.
+By rule of alligation:
+Oil A (₹90) and Oil B (₹140), Mean = ₹120.
+Ratio (A : B) = (140 - 120) : (120 - 90) = 20 : 30 = 2 : 3. The required value is 2 : 3. Hence, the correct option is (B).
+Source: SSC CHSL Pattern
+
+61. (Medium) A mixture of 75 litres contains milk and water in the ratio 2 : 1. How many litres of water must be added so that the ratio of milk to water becomes 1 : 2?
+(A) 50 litres  (B) 60 litres  (C) 75 litres  (D) 80 litres
+Answer: (C) 75 litres
+Solution: Initial milk = 75 * (2/3) = 50 litres, and water = 25 litres.
+In the new mixture, the ratio of milk to water is 1 : 2.
+Since milk remains 50 litres, 1 unit = 50 litres => Water = 2 * 50 = 100 litres.
+Water to be added = 100 - 25 = 75 litres. The required value is 75 litres. Hence, the correct option is (C).
+Source: SSC CGL Pattern
+
+62. (Medium) In what ratio must water be mixed with spirit costing ₹60 per litre so that selling the mixture at ₹50 per litre yields a profit of 25%?
+(A) 1 : 3  (B) 2 : 3  (C) 2 : 5  (D) 1 : 2
+Answer: (D) 1 : 2
+Solution: Selling price of mixture = ₹50 per litre, Profit = 25%.
+Cost price of mixture = 50 / 1.25 = ₹40 per litre.
+Cost of water = ₹0 per litre, Cost of spirit = ₹60 per litre.
+By rule of alligation:
+Ratio (Water : Spirit) = (60 - 40) : (40 - 0) = 20 : 40 = 1 : 2. The required value is 1 : 2. Hence, the correct option is (D).
+Source: SSC CGL Pattern
+
+63. (Medium) A student answered 100 questions in an exam with two sections. In section A, he got 80% correct, and in section B, he got 60% correct. If he got 72% correct overall, how many questions were in section A?
+(A) 60  (B) 40  (C) 50  (D) 70
+Answer: (A) 60
+Solution: By rule of alligation on percentage correct:
+Section A (80%) and Section B (60%), Overall mean = 72%.
+Ratio (Section A : Section B) = (72 - 60) : (80 - 72) = 12 : 8 = 3 : 2.
+Total questions = 100, total parts = 3 + 2 = 5.
+Questions in Section A = (3/5) * 100 = 60. The required value is 60. Hence, the correct option is (A).
+Source: SSC CHSL Pattern
+
+64. (Medium) An alloy contains 40% zinc and 60% copper. Another alloy contains 25% zinc and 75% copper. In what ratio should these two alloys be melted together to obtain a new alloy containing 35% zinc?
+(A) 1 : 2  (B) 2 : 1  (C) 3 : 2  (D) 3 : 1
+Answer: (B) 2 : 1
+Solution: By rule of alligation on zinc percentage:
+Alloy 1 (40%) and Alloy 2 (25%), Target = 35%.
+Ratio (Alloy 1 : Alloy 2) = (35 - 25) : (40 - 35) = 10 : 5 = 2 : 1. The required value is 2 : 1. Hence, the correct option is (B).
+Source: RRB NTPC Pattern
+
+65. (Medium) A vessel contains 90 litres of a mixture of milk and water containing 20% water. How many litres of pure milk must be added to reduce the water content to 15%?
+(A) 20 litres  (B) 25 litres  (C) 30 litres  (D) 35 litres
+Answer: (C) 30 litres
+Solution: Quantity of water in original mixture = 90 * 0.20 = 18 litres.
+Since pure milk is added, the quantity of water remains 18 litres.
+In the new mixture, water is 15% = 3/20 of the total volume.
+New total volume = 18 / 0.15 = 120 litres.
+Quantity of milk added = 120 - 90 = 30 litres. The required value is 30 litres. Hence, the correct option is (C).
+Source: SSC CGL Pattern
+
+66. (Medium) A person covered 60 km in 5 hours, partly on foot at 8 km/h and partly on bicycle at 18 km/h. How many hours did he travel on foot?
+(A) 2 hours  (B) 3.5 hours  (C) 4 hours  (D) 3 hours
+Answer: (D) 3 hours
+Solution: Average speed for entire trip = 60 km / 5 h = 12 km/h.
+By rule of alligation on speeds (gives time ratio):
+Foot (8 km/h) and Bicycle (18 km/h), Mean = 12 km/h.
+Ratio of time (Foot : Bicycle) = (18 - 12) : (12 - 8) = 6 : 4 = 3 : 2.
+Total time = 5 hours => Time travelled on foot = 3 hours. The required value is 3 hours. Hence, the correct option is (D).
+Source: SSC CGL Pattern
+
+67. (Medium) A sum of ₹15,000 is invested in two schemes A and B. Scheme A offers 5% simple interest per annum and Scheme B offers 8% simple interest per annum. If the total annual interest is ₹960, find the amount invested in Scheme A.
+(A) ₹8,000  (B) ₹6,000  (C) ₹7,000  (D) ₹9,000
+Answer: (A) ₹8,000
+Solution: Overall interest rate = (960 / 15000) * 100 = 6.4% per annum.
+By rule of alligation:
+Scheme A (5%) and Scheme B (8%), Mean = 6.4%.
+Ratio (A : B) = (8 - 6.4) : (6.4 - 5) = 1.6 : 1.4 = 8 : 7.
+Total parts = 8 + 7 = 15 parts = ₹15,000.
+Amount invested in Scheme A = (8/15) * 15000 = ₹8,000. The required value is ₹8,000. Hence, the correct option is (A).
+Source: SSC CGL Pattern
+
+68. (Medium) A container is full of 64 litres of pure spirit. 16 litres of spirit is drawn off and replaced with water. Then 16 litres of the mixture is drawn off and replaced with water again. What is the final quantity of spirit remaining in the container?
+(A) 32 litres  (B) 36 litres  (C) 40 litres  (D) 48 litres
+Answer: (B) 36 litres
+Solution: Using the replacement formula: Remaining spirit = Total * (1 - y/x)^n.
+Here x = 64 litres, y = 16 litres, and n = 2.
+Remaining spirit = 64 * (1 - 16/64)^2 = 64 * (3/4)^2 = 64 * 9/16 = 36 litres. The required value is 36 litres. Hence, the correct option is (B).
+Source: SSC CHSL Pattern
+
+69. (Medium) Two vessels contain milk and water in the ratios 3 : 2 and 7 : 3 respectively. If equal quantities are taken from both vessels and mixed together, what is the ratio of milk to water in the new mixture?
+(A) 11 : 9  (B) 14 : 7  (C) 13 : 7  (D) 15 : 8
+Answer: (C) 13 : 7
+Solution: Total parts in vessel 1 = 3 + 2 = 5.
+Total parts in vessel 2 = 7 + 3 = 10.
+LCM of 5 and 10 = 10 units each.
+From vessel 1 (10 units): Milk = (3/5) * 10 = 6, Water = 4.
+From vessel 2 (10 units): Milk = (7/10) * 10 = 7, Water = 3.
+Total milk = 6 + 7 = 13 units.
+Total water = 4 + 3 = 7 units.
+Ratio of milk to water = 13 : 7. The required value is 13 : 7. Hence, the correct option is (C).
+Source: SSC CGL Pattern
+
+70. (Medium) A grocer mixes two varieties of tea, one costing ₹150 per kg and the other ₹200 per kg in the ratio 2 : 3. If he sells the mixed tea at ₹216 per kg, what is his profit percentage?
+(A) 15%  (B) 18%  (C) 25%  (D) 20%
+Answer: (D) 20%
+Solution: Total weight = 2 + 3 = 5 kg.
+Total cost price = (2 * 150) + (3 * 200) = 300 + 600 = ₹900.
+Cost price per kg = 900 / 5 = ₹180 per kg.
+Selling price per kg = ₹216.
+Profit percentage = ((216 - 180) / 180) * 100 = (36 / 180) * 100 = 20%. The required value is 20%. Hence, the correct option is (D).
+Source: SSC CGL Pattern
+
+71. (Medium) A solution of 30 litres contains 20% alcohol. How much pure alcohol must be added to make it a 40% alcohol solution?
+(A) 10 litres  (B) 8 litres  (C) 12 litres  (D) 15 litres
+Answer: (A) 10 litres
+Solution: Quantity of water in original solution = 80% of 30 = 24 litres.
+Water quantity does not change because only alcohol is added.
+In the new solution, alcohol is 40%, so water is 60% = 3/5.
+Total volume of new solution = 24 / 0.60 = 40 litres.
+Alcohol to be added = 40 - 30 = 10 litres. The required value is 10 litres. Hence, the correct option is (A).
+Source: RRB NTPC Pattern
+
+72. (Medium) In a zoo, there are rabbits and pigeons. If heads are counted, there are 200, and if legs are counted, there are 580. How many pigeons are there in the zoo?
+(A) 90  (B) 110  (C) 100  (D) 120
+Answer: (B) 110
+Solution: Average legs per animal = 580 / 200 = 2.9 legs.
+A pigeon has 2 legs and a rabbit has 4 legs.
+By rule of alligation:
+Ratio (Pigeons : Rabbits) = (4 - 2.9) : (2.9 - 2) = 1.1 : 0.9 = 11 : 9.
+Total parts = 11 + 9 = 20 parts = 200 animals.
+Number of pigeons = (11/20) * 200 = 110. The required value is 110. Hence, the correct option is (B).
+Source: SSC CGL Pattern
+
+73. (Medium) How many kilograms of sugar costing ₹36 per kg should be mixed with 24 kg of sugar costing ₹48 per kg so that the mixture is worth ₹40 per kg?
+(A) 40 kg  (B) 44 kg  (C) 48 kg  (D) 52 kg
+Answer: (C) 48 kg
+Solution: By rule of alligation:
+Sugar A (₹36) and Sugar B (₹48), Mean price = ₹40.
+Ratio (A : B) = (48 - 40) : (40 - 36) = 8 : 4 = 2 : 1.
+Quantity of Sugar B = 24 kg (1 part).
+Quantity of Sugar A required = 2 * 24 = 48 kg. The required value is 48 kg. Hence, the correct option is (C).
+Source: SSC CHSL Pattern
+
+74. (Medium) A jar contains a mixture of two liquids A and B in the ratio 4 : 1. When 10 litres of the mixture is taken out and 10 litres of liquid B is poured into the jar, the ratio becomes 2 : 3. What was the total quantity of liquid contained in the jar initially?
+(A) 16 litres  (B) 24 litres  (C) 28 litres  (D) 20 litres
+Answer: (D) 20 litres
+Solution: After removing 10 litres of mixture, ratio of A : B is 4 : 1. Let remaining volumes be 4x and 1x.
+Adding 10 litres of liquid B: A = 4x, B = x + 10.
+New ratio: 4x / (x + 10) = 2 / 3 => 12x = 2x + 20 => 10x = 20 => x = 2.
+Remaining volume before adding B = 4x + x = 5x = 10 litres.
+Total initial quantity = Remaining volume + Removed volume = 10 + 10 = 20 litres. The required value is 20 litres. Hence, the correct option is (D).
+Source: SSC CGL Pattern
+
+75. (Medium) A vessel contains 54 litres of pure acid. One-third of the acid is replaced with water. Then one-third of the mixture is again replaced with water. How much pure acid remains in the vessel?
+(A) 20 litres  (B) 24 litres  (C) 28 litres  (D) 32 litres
+Answer: (B) 24 litres
+Solution: Fraction replaced each time = 1/3.
+Remaining acid = Initial * (1 - 1/3)^2 = 54 * (2/3)^2 = 54 * 4/9 = 24 litres. The required value is 24 litres. Hence, the correct option is (B).
+Source: SSC CGL Pattern

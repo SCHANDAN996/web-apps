@@ -1,0 +1,56 @@
+# Important Formulas: Mixture and Alligation
+
+## 1. Rule of Alligation
+The Rule of Alligation is an abbreviated method to find the ratio in which two ingredients at given prices must be mixed to produce a mixture at a given mean price.
+
+Let:
+- Cost Price of a unit quantity of cheaper ingredient = $c$
+- Cost Price of a unit quantity of dearer ingredient = $d$
+- Mean Price of a unit quantity of the mixture = $m$
+
+$$\frac{\text{Quantity of Cheaper}}{\text{Quantity of Dearer}} = \frac{d - m}{m - c}$$
+
+*Condition for validity:* $c < m < d$.
+
+---
+
+## 2. Successive Replacement / Removal & Replacement Formula
+Suppose a container contains $x$ units of pure liquid (e.g., pure milk, wine, or acid), from which $y$ units are taken out and replaced by water. After $n$ successive operations, the remaining quantity of pure liquid in the container is:
+
+$$\text{Remaining Pure Liquid} = x \left(1 - \frac{y}{x}\right)^n$$
+
+- Total capacity of the container remains $x$ units throughout.
+- Quantity of water after $n$ operations $= x - \text{Remaining Pure Liquid} = x \left[1 - \left(1 - \frac{y}{x}\right)^n\right]$.
+- Ratio of Pure Liquid to Water:
+  $$\frac{\text{Pure Liquid}}{\text{Water}} = \frac{\left(1 - \frac{y}{x}\right)^n}{1 - \left(1 - \frac{y}{x}\right)^n}$$
+
+---
+
+## 3. Mixing Two Solutions of Different Concentrations
+If a quantity $Q_1$ of concentration $C_1$ is mixed with a quantity $Q_2$ of concentration $C_2$, the resultant concentration $C_m$ is:
+
+$$C_m = \frac{Q_1 C_1 + Q_2 C_2}{Q_1 + Q_2}$$
+
+In ratio form:
+$$\frac{Q_1}{Q_2} = \frac{C_2 - C_m}{C_m - C_1}$$
+
+---
+
+## 4. Mixing Two Vessels with Ratios
+- Vessel 1 contains liquids A and B in ratio $a_1 : b_1$. Fraction of A in Vessel 1 $= \frac{a_1}{a_1 + b_1}$.
+- Vessel 2 contains liquids A and B in ratio $a_2 : b_2$. Fraction of A in Vessel 2 $= \frac{a_2}{a_2 + b_2}$.
+- If equal volumes of Vessel 1 and Vessel 2 are mixed:
+  $$\text{Fraction of A in resultant mixture} = \frac{1}{2} \left(\frac{a_1}{a_1 + b_1} + \frac{a_2}{a_2 + b_2}\right)$$
+- If mixed in volume ratio $m : n$:
+  $$\text{Fraction of A} = \frac{m \cdot \frac{a_1}{a_1 + b_1} + n \cdot \frac{a_2}{a_2 + b_2}}{m + n}$$
+
+---
+
+## 5. Profit by Adulteration (Adding Free Water)
+When a milkman adds water (free of cost) to pure milk and sells the mixture at the cost price of pure milk:
+- Let Cost of 1 liter milk = Rs. 1. Cost of water = Rs. 0.
+- Profit Percentage:
+  $$\text{Profit } \% = \frac{\text{Volume of Water}}{\text{Volume of Milk}} \times 100$$
+- If Profit is $P\%$, then:
+  $$\frac{\text{Water}}{\text{Milk}} = \frac{P}{100}$$
+  $$\frac{\text{Milk}}{\text{Mixture}} = \frac{100}{100 + P}, \quad \frac{\text{Water}}{\text{Mixture}} = \frac{P}{100 + P}$$

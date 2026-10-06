@@ -1,0 +1,60 @@
+# Short Tricks: Mixture and Alligation
+
+## Trick 1: The Alligation Diagram / Cross Method
+To mix two varieties at cost prices $c$ and $d$ to form a mixture at mean cost $m$:
+```
+     Cheaper (c)              Dearer (d)
+              \              /
+               \            /
+               Mean Price (m)
+               /            \
+              /              \
+           (d - m)         (m - c)
+```
+$$\text{Ratio of Quantities } (Q_c : Q_d) = (d - m) : (m - c)$$
+
+*Key Rule:* All three values ($c, m, d$) MUST be in the same unit and type (all Cost Prices, or all Concentrations, or all Profit %).
+If Selling Price ($SP$) of mixture is given with profit $P\%$, always compute Cost Price first:
+$$CP_m = \frac{SP_m}{1 + \frac{P}{100}}$$
+
+---
+
+## Trick 2: Milkman Selling at Cost Price
+If a dishonest merchant adds water (cost = 0) and sells the mixture at the cost price of pure milk, achieving a profit of $P\%$:
+$$\text{Ratio of Water to Pure Milk} = \frac{P}{100}$$
+$$\text{Percentage of Water in Mixture} = \frac{P}{100 + P} \times 100\%$$
+* Example: Sells at cost price and gains $16 \frac{2}{3}\% = \frac{50}{3}\%$:
+$$\frac{\text{Water}}{\text{Milk}} = \frac{50/3}{100} = \frac{1}{6}$$
+$$\text{Ratio of Water : Milk} = 1 : 6.$$
+
+---
+
+## Trick 3: Removal and Replacement Shortcut
+When $y$ liters are drawn from a container of $x$ liters of pure liquid and replaced with water, repeated $n$ times:
+$$\frac{\text{Remaining Liquid}}{\text{Total Capacity}} = \left(1 - \frac{y}{x}\right)^n$$
+If after $n$ operations, the ratio of Liquid to Water is given as $A : B$:
+$$\frac{\text{Remaining Liquid}}{\text{Total Capacity}} = \frac{A}{A + B} = \left(1 - \frac{y}{x}\right)^n$$
+*Take the $n$-th root of both sides to solve for $x$ in one step!*
+
+---
+
+## Trick 4: Equal Volume Mixing of Ratios
+Two vessels have milk and water in ratios $a : b$ and $c : d$.
+Equal volumes are mixed:
+1. Make the total parts equal: let total parts of Vessel 1 be $(a + b)$ and Vessel 2 be $(c + d)$.
+2. Multiply ratio 1 by $(c + d)$ and ratio 2 by $(a + b)$.
+3. Directly add the corresponding quantities!
+* Example: $2 : 1$ (sum = 3) and $3 : 1$ (sum = 4).
+  - Multiply first by 4: $8 : 4$ (sum = 12)
+  - Multiply second by 3: $9 : 3$ (sum = 12)
+  - Combined: Milk $= 8 + 9 = 17$, Water $= 4 + 3 = 7$.
+  - Resultant ratio $= 17 : 7$ (solved in 5 seconds!).
+
+---
+
+## Trick 5: Replacement in a Mixture
+A container contains a mixture of liquids A and B in ratio $a : b$. If $k$ liters of mixture is drawn out and replaced by pure liquid B:
+- When $k$ liters of mixture is drawn, the remaining mixture STILL has ratio $a : b$!
+- Only the volume decreases. Then pure B is added.
+- The absolute quantity of A remains constant after the removal!
+$$\text{Original Volume} = \text{Drawn Quantity} \times \frac{\text{Original fraction of A}}{\text{Change in fraction of A}}$$

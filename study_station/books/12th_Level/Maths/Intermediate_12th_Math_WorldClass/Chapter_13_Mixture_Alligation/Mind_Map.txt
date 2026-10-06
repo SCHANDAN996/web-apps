@@ -1,0 +1,32 @@
+# Mind Map: Mixture and Alligation (मिश्रण और पृथ्थीकरण)
+
+```mermaid
+graph TD
+    MA["Mixture & Alligation<br/>(मिश्रण और पृथ्थीकरण)"]
+    
+    MA --> RULE["1. Rule of Alligation<br/>(मिश्रण नियम / क्रॉस नियम)"]
+    RULE --> R1["Cheaper (c) & Dearer (d)"]
+    RULE --> R2["Mean Price (m)"]
+    RULE --> R3["Ratio: Q_c / Q_d = (d - m) / (m - c)"]
+    
+    MA --> REPL["2. Successive Replacement<br/>(क्रमिक विस्थापन सूत्र)"]
+    REPL --> RP1["Formula: Remaining = x(1 - y/x)^n"]
+    REPL --> RP2["x = Initial Quantity of Pure Liquid"]
+    REPL --> RP3["y = Quantity Drawn & Replaced"]
+    REPL --> RP4["n = Number of Operations"]
+    
+    MA --> MIX["3. Combining Mixtures<br/>(मिश्रणों का संयोजन)"]
+    MIX --> M1["Two Vessels with Ratios a1:b1 & a2:b2"]
+    MIX --> M2["Equal Quantities Mixed"]
+    MIX --> M3["Different Ratio of Quantities (m : n)"]
+    
+    MA --> COMM["4. Commercial Applications<br/>(व्यावसायिक अनुप्रयोग)"]
+    COMM --> C1["Profit by Adding Free Water"]
+    COMM --> C2["Overall Profit / Loss %"]
+    COMM --> C3["Average Cost & Selling at Cost Price"]
+    
+    MA --> CROSS["5. Cross-Domain Alligation<br/>(अन्य अध्यायों में अनुप्रयोग)"]
+    CROSS --> CD1["Average Speed & Distance"]
+    CROSS --> CD2["Simple Interest on Two Parts"]
+    CROSS --> CD3["Weighted Average Marks / Ages"]
+```

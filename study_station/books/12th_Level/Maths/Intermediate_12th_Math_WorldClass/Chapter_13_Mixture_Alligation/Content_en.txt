@@ -1,0 +1,60 @@
+# Comprehensive Study Material: Mixture and Alligation
+
+## 1. Introduction to Mixture and Alligation
+A **mixture** is formed by combining two or more ingredients in a definite proportion. 
+**Alligation** (from the Latin *alligare*, meaning "to tie together") is a mathematical technique used to find:
+1. The ratio in which two or more ingredients of given prices/concentrations must be mixed to obtain a mixture at a given target price/concentration (Alligation Alternate).
+2. The mean price/concentration of a mixture when ingredients of known prices and quantities are combined (Alligation Medial).
+
+---
+
+## 2. The Rule of Alligation (Alligation Cross)
+Suppose an ingredient of lower price (Cheaper, $c$) is mixed with an ingredient of higher price (Dearer, $d$) to produce a mixture of intermediate price (Mean, $m$):
+
+$$\frac{\text{Quantity of Cheaper } (Q_c)}{\text{Quantity of Dearer } (Q_d)} = \frac{d - m}{m - c}$$
+
+### Essential Principles of the Alligation Diagram:
+1. **Consistency of Dimensions:** All three values ($c, m, d$) must represent the exact same physical quantity and basis. If $c$ and $d$ are Cost Prices per unit, $m$ must also be the Cost Price per unit (never the Selling Price).
+2. **Mean Price Constraint:** The mean price must strictly lie between the cheaper and dearer values ($c < m < d$). If $m \le c$ or $m \ge d$, no valid physical mixture is possible.
+3. **Selling Price Adjustment:** If a mixture is sold at a selling price $SP$ with a profit of $P\%$, the mean cost price $m$ must be calculated before applying alligation:
+   $$m = \frac{SP}{1 + \frac{P}{100}}$$
+
+---
+
+## 3. Successive Dilution and Replacement
+When a container initially holds $x$ liters of a pure liquid (such as milk, acid, or spirit), and $y$ liters are drawn out and replaced with water, and this entire operation is repeated $n$ times:
+
+$$\text{Quantity of Pure Liquid Remaining} = x \left(1 - \frac{y}{x}\right)^n$$
+
+- The total volume in the container remains constant at $x$ liters throughout.
+- The quantity of water present after $n$ operations is:
+  $$\text{Water} = x - x \left(1 - \frac{y}{x}\right)^n = x \left[1 - \left(1 - \frac{y}{x}\right)^n\right]$$
+- If the final ratio of pure liquid to water is given as $A : B$:
+  $$\frac{\text{Pure Liquid}}{\text{Total Capacity}} = \frac{A}{A + B} = \left(1 - \frac{y}{x}\right)^n$$
+
+---
+
+## 4. Mixing Solutions of Varying Concentrations
+When two solutions containing a solute at concentrations $C_1\%$ and $C_2\%$ are mixed in quantities $Q_1$ and $Q_2$:
+$$\text{Mean Concentration } C_m = \frac{Q_1 C_1 + Q_2 C_2}{Q_1 + Q_2}$$
+
+By Alligation:
+$$\frac{Q_1}{Q_2} = \frac{C_2 - C_m}{C_m - C_1}$$
+
+---
+
+## 5. Combining Pre-Mixed Vessels
+Consider two vessels filled with mixtures of milk and water:
+- **Vessel 1:** Milk : Water = $a_1 : b_1$ (Fraction of milk $= \frac{a_1}{a_1 + b_1}$)
+- **Vessel 2:** Milk : Water = $a_2 : b_2$ (Fraction of milk $= \frac{a_2}{a_2 + b_2}$)
+
+When mixed in the ratio $m : n$ by volume:
+$$\text{Resulting Fraction of Milk} = \frac{m \cdot \frac{a_1}{a_1 + b_1} + n \cdot \frac{a_2}{a_2 + b_2}}{m + n}$$
+
+---
+
+## 6. Applications to Profit & Loss, Simple Interest, and Average
+Alligation is a universal mathematical tool for any weighted average:
+1. **Profit and Loss:** Mixing goods sold at $P_1\%$ profit and $P_2\%$ loss to get an overall $P_m\%$ profit yields the ratio of their **Cost Prices**.
+2. **Simple Interest:** Splitting an investment into two parts lent at $R_1\%$ and $R_2\%$ yielding an overall rate $R_m\%$ yields the ratio of the **Principals**.
+3. **Speed and Travel:** Traveling two segments at speeds $S_1$ and $S_2$ with average speed $S_m$ yields the ratio of the **Times spent traveling**, not the distances.
