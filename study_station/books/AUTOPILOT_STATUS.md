@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 06-10-2026 12:56 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 12:56 PM
+**आख़िरी update:** 06-10-2026 01:08 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 12:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Narration (Graduation English) | 🔎 review हो रहा है | 0 मिनट |
-| W2 | Chapter 12 Sentence Structure (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
-| W3 | Chapter 13 Synonyms (Graduation English) | 🔎 review हो रहा है | 0 मिनट |
-| W4 | Chapter 14 Antonyms (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
+| W1 | Chapter 11 Narration (Graduation English) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 12 Sentence Structure (Graduation English) | ✍️ लिख रहा है | 12 मिनट |
+| W3 | Chapter 13 Synonyms (Graduation English) | 🔎 review हो रहा है | 12 मिनट |
+| W4 | Chapter 14 Antonyms (Graduation English) | ✍️ लिख रहा है | 12 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -33,6 +33,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 06-10 13:08 — Graduation English · Chapter 11 Narration
 - 06-10 04:20 — Graduation English · Chapter 10 Voice
 - 06-10 03:48 — Graduation English · Chapter 08 Conjunction
 - 06-10 03:47 — Graduation English · Chapter 09 Articles
@@ -47,17 +48,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-06-10 04:20:56   [Synonyms] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-06-10 04:21:55   [Narration] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-06-10 04:22:24   [Sentence_Structure] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-06-10 04:22:32   [Synonyms] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-06-10 04:23:09   [Antonyms] wrote Content_en.txt (9874 chars)
-06-10 04:24:43   [Synonyms] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-06-10 04:25:19   [Antonyms] wrote Content_hi.txt (6753 chars)
-06-10 04:25:44   [Sentence_Structure] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-06-10 04:26:05   [Narration] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-06-10 04:26:12   [Synonyms] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-06-10 04:26:27   [Antonyms] wrote Feynman_en.txt (2808 chars)
 06-10 04:27:53   [Synonyms] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 06-10 04:28:01   [Sentence_Structure] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 06-10 04:30:18   [Synonyms] wrote Practice_en_Set_05.txt (write, 25 MCQs)
@@ -87,4 +77,15 @@
 06-10 12:56:15 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_12_Sentence_Structure (TODO: todo 6, problems 0)
 06-10 12:56:20 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_13_Synonyms (OK: todo 0, problems 0)
 06-10 12:56:25 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_14_Antonyms (TODO: todo 19, problems 0)
+06-10 12:57:51   [Antonyms] wrote Flashcards_hi.txt (2711 chars)
+06-10 12:59:23   [Antonyms] wrote PYQ_en.txt (6344 chars)
+06-10 13:02:24   [Sentence_Structure] Practice_en_Set_04.txt try 1: re-solve disagrees (Q85 key a vs re-solve b, Q94 key b vs re-solve a)
+06-10 13:02:26   [Antonyms] wrote PYQ_hi.txt (5688 chars)
+06-10 13:03:35   [Antonyms] wrote Short_Tricks_en.txt (1950 chars)
+06-10 13:04:12   [Synonyms] review Flashcards_en.txt: 1 issue(s): - Card 7 says "Greek root 'bene'" but "bene" is Latin, not Greek → Change to "Latin root 'bene' = good/well"
+06-10 13:05:24   [Narration] review Important_Rules_hi.txt: 2 issue(s): - Morphology table: root "port" meaning given as "सूचना देना" → correct meaning is "ले जाना" (to carry); de
+06-10 13:05:28   [Antonyms] wrote Short_Tricks_hi.txt (2393 chars)
+06-10 13:07:56   [Sentence_Structure] Practice_en_Set_04.txt try 2: re-solve disagrees (Q85 key a vs re-solve b, Q94 key b vs re-solve a)
+06-10 13:08:30   [Narration] review: 1 section(s) corrected, 0 failed
+06-10 13:08:30   [Narration] written 1, failed 0; AI calls today 538/100000
 ```
