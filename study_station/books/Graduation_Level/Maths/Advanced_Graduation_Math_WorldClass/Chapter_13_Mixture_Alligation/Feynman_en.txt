@@ -1,0 +1,21 @@
+# The Feynman Technique: Mixture & Alligation
+
+## The Seesaw / Balance Beam Analogy
+Imagine a playground seesaw. A heavier adult sits close to the center pivot, while a lighter child must sit far out on the opposite end to balance the beam.
+Alligation is nothing more than that exact seesaw balance!
+The mean price (or concentration) is the center pivot (fulcrum).
+The distance from the cheaper price to the mean is $(m - c)$.
+The distance from the dearer price to the mean is $(d - m)$.
+To keep the financial value balanced, the weights (quantities) must be inversely proportional to their distances from the pivot:
+$$\text{Quantity}_c \times (m - c) = \text{Quantity}_d \times (d - m)$$
+Rearranging yields the Rule of Alligation:
+$$\frac{\text{Quantity}_c}{\text{Quantity}_d} = \frac{d - m}{m - c}$$
+
+## The Wine and Water Illusion
+Suppose you have a cask filled with 40 liters of pure wine. You steal 4 liters of wine and replace it with 4 liters of water.
+Now you have 36 liters of wine and 4 liters of water. The fraction of wine left is $36 / 40 = 9/10 = (1 - 4/40)$.
+What happens if you steal 4 liters again?
+This second time, you are NOT stealing 4 liters of pure wine! You are stealing 4 liters of the mixture, which is 90% wine and 10% water.
+So you only steal $4 \times 0.9 = 3.6$ liters of wine.
+The wine remaining is $36 - 3.6 = 32.4$ liters, which is exactly $40 \times (9/10) \times (9/10) = 40 \times (1 - 4/40)^2$.
+Each replacement multiplies the remaining wine by the same factor $(1 - y/x)$. That is why the formula is an exponential decay.

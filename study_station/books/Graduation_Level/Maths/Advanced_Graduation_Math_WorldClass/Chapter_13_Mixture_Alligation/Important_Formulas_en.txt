@@ -1,0 +1,22 @@
+# Important Formulas: Mixture & Alligation
+
+## 1. Rule of Alligation
+$$\frac{\text{Cheaper Quantity}}{\text{Dearer Quantity}} = \frac{d - m}{m - c}$$
+
+## 2. Converting Mixture SP to Mean CP
+$$m = \text{CP}_{\text{mixture}} = \frac{\text{SP}_{\text{mixture}} \times 100}{100 + P\%}$$
+
+## 3. Repeated Dilution Formula
+$$\text{Pure Liquid Remaining} = x \left( 1 - \frac{y}{x} \right)^n$$
+Where:
+- $x$ = Initial quantity of pure liquid
+- $y$ = Quantity drawn out and replaced each time
+- $n$ = Number of replacement operations
+
+## 4. Concentration of Mixture from Two Sources
+If volume $V_1$ with concentration $C_1$ is mixed with volume $V_2$ with concentration $C_2$:
+$$C_{\text{net}} = \frac{V_1 \cdot C_1 + V_2 \cdot C_2}{V_1 + V_2}$$
+
+## 5. Alligation for Interest and Investments
+- Rate 1 ($R_1$) and Rate 2 ($R_2$) with Overall Rate ($R_{\text{avg}}$):
+  $$P_1 : P_2 = (R_2 - R_{\text{avg}}) : (R_{\text{avg}} - R_1)$$

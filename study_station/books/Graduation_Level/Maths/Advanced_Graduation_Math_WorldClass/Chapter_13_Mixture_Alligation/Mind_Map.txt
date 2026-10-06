@@ -1,0 +1,24 @@
+```mermaid
+graph TD
+    A["Mixture & Alligation Architecture<br>मिश्रण एवं पृथ्थीकरण संरचना"] --> B["Core Alligation Rule<br>पृथ्थीकरण मूलभूत नियम"]
+    A --> C["Metric Consistency<br>मापन एकरूपता"]
+    A --> D["Repeated Dilution<br>क्रमिक निष्कासन"]
+    A --> E["Multi-Solution Blending<br>बहु-मिश्रण संयोजन"]
+    A --> F["Cross-Topic Applications<br>विविध अध्यायों में प्रयोग"]
+
+    B --> B1["Weighted Average: Q1/Q2 = d-m / m-c<br>मात्रा अनुपात"]
+    B --> B2["Seesaw Balance Mechanism<br>संतुलन नियम"]
+
+    C --> C1["CP vs SP Conversion<br>क्रय मूल्य रूपांतरण"]
+    C --> C2["Solute vs Solvent Focus<br>सांद्रता एकरूपता"]
+
+    D --> D1["Exponential Decay: x(1 - y/x)^n<br>अवशिष्ट शुद्ध द्रव"]
+    D --> D2["Ratio Inversion via n-th Root<br>n-वाँ मूल विधि"]
+
+    E --> E1["Vessels with Equal Volumes<br>समान धारिता मिश्रण"]
+    E --> E2["Vessels in Arbitrary Ratio<br>अनुपातिक मिश्रण"]
+
+    F --> F1["Profit & Loss: Lot CP Ratio<br>क्रय मूल्य अनुपात"]
+    F --> F2["Simple Interest: Principal Ratio<br>मूलधन अनुपात"]
+    F --> F3["Speed & Distance: Time Ratio<br>समय अनुपात"]
+```

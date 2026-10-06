@@ -1,0 +1,108 @@
+# Previous Year Exam Patterns: Mixture & Alligation
+
+## Pattern 1: Alligation with Mixture SP and Profit Margin
+- **Exam Pattern:** SSC CGL Tier-2 Pattern
+- **Problem:** In what ratio must a grocer mix two varieties of tea costing Rs. 60/kg and Rs. 65/kg so that by selling the mixture at Rs. 68.20/kg, he gains a profit of 10%?
+- **Analysis:** Mean Cost Price $m = 68.20 / 1.10 = \text{Rs. } 62/\text{kg}$.
+  Cheaper $c = 60$, Dearer $d = 65$, Mean $m = 62$.
+  $(d - m) = 65 - 62 = 3$.
+  $(m - c) = 62 - 60 = 2$.
+  Required ratio = $3 : 2$.
+
+---
+
+## Pattern 2: Successive Replacement / Dilution
+- **Exam Pattern:** IBPS PO Mains Pattern
+- **Problem:** A container contains 64 liters of pure milk. From this, 16 liters of milk is taken out and replaced with water. This process is repeated 2 more times (total 3 operations). How much pure milk is left in the container?
+- **Analysis:** $x = 64$, $y = 16$, $n = 3$.
+  Remaining milk = $64 \times (1 - 16/64)^3 = 64 \times (3/4)^3 = 64 \times (27 / 64) = 27$ liters.
+
+---
+
+## Pattern 3: Equal Volume Mixing of Two Solutions
+- **Exam Pattern:** SSC CGL Tier-2 Pattern
+- **Problem:** Two equal glasses are respectively 1/3 and 1/4 full of milk. They are then filled up with water and the contents are mixed in a tumbler. Find the ratio of milk to water in the tumbler.
+- **Analysis:** Glass 1: Milk = 1/3, Water = 2/3.
+  Glass 2: Milk = 1/4, Water = 3/4.
+  Total Milk = $1/3 + 1/4 = 7/12$.
+  Total Water = $2/3 + 3/4 = 17/12$.
+  Ratio Milk : Water = $7 : 17$.
+
+---
+
+## Pattern 4: Drawing Mixture and Adding Pure Component
+- **Exam Pattern:** CDS Pattern
+- **Problem:** A can contains a mixture of two liquids A and B in the ratio 7 : 5. When 9 liters of mixture are drawn off and the can is filled with liquid B, the ratio of A and B becomes 7 : 9. How many liters of liquid A was contained in the can initially?
+- **Analysis:** Let initial volumes be $7x$ and $5x$. Total volume = $12x$.
+  Quantity of A left after 9 liters drawn = $7x - 9 \times (7/12) = 7x - 21/4$.
+  Quantity of B after 9 L drawn and 9 L added = $5x - 9 \times (5/12) + 9 = 5x - 15/4 + 9 = 5x + 21/4$.
+  Ratio: $\frac{7x - 21/4}{5x + 21/4} = \frac{7}{9} \implies 9(7x - 21/4) = 7(5x + 21/4)$.
+  $63x - 189/4 = 35x + 147/4 \implies 28x = 336/4 = 84 \implies x = 3$.
+  Initial volume of liquid A = $7x = 7 \times 3 = 21$ liters.
+
+---
+
+## Pattern 5: Alligation in Simple Interest Split
+- **Exam Pattern:** State PCS Pattern
+- **Problem:** A sum of Rs. 4,000 is lent out in two parts, one at 8% simple interest and the other at 10% simple interest. If the annual interest received is Rs. 352, find the sum lent at 8%.
+- **Analysis:** Overall interest rate $R_{\text{avg}} = (352 / 4000) \times 100 = 8.8\%$.
+  Applying alligation:
+  $R_1 = 8\%$, $R_2 = 10\%$, $R_{\text{avg}} = 8.8\%$.
+  Ratio = $(10 - 8.8) : (8.8 - 8) = 1.2 : 0.8 = 3 : 2$.
+  Sum at 8% = $4000 \times (3 / 5) = \text{Rs. } 2400$.
+
+---
+
+## Pattern 6: Mixing Three Varieties of Rice
+- **Exam Pattern:** SSC CGL Tier-2 Pattern
+- **Problem:** A merchant blends three varieties of rice costing Rs. 20, Rs. 24, and Rs. 30 per kg to obtain a blend worth Rs. 25 per kg. If the varieties are mixed in proportions, find a valid ratio of the three varieties.
+- **Analysis:** Pair 20 with 30: $(30 - 25) : (25 - 20) = 5 : 5 = 1 : 1$.
+  Pair 24 with 30: $(30 - 25) : (25 - 24) = 5 : 1$.
+  Combining shares:
+  Variety 1 (Rs. 20): 1 part.
+  Variety 2 (Rs. 24): 5 parts.
+  Variety 3 (Rs. 30): $1 + 1 = 2$ parts.
+  Valid ratio = $1 : 5 : 2$.
+
+---
+
+## Pattern 7: Replacing Water with Pure Acid
+- **Exam Pattern:** IBPS PO Mains Pattern
+- **Problem:** A vessel contains 60 liters of a 20% acid solution. How many liters of pure acid must be added to increase the acid strength to 40%?
+- **Analysis:** Original acid concentration = 20%. Pure acid concentration = 100%. Target concentration = 40%.
+  Alligation: $(100 - 40) : (40 - 20) = 60 : 20 = 3 : 1$.
+  Original solution is 3 parts = 60 liters $\implies 1 \text{ part} = 20$ liters.
+  Pure acid to be added = 20 liters.
+
+---
+
+## Pattern 8: Alligation in Profit and Loss Goods
+- **Exam Pattern:** SSC CGL Tier-2 Pattern
+- **Problem:** A trader has 50 kg of pulses, part of which he sells at 8% profit and the rest at 18% profit. He gains 14% on the whole. What is the quantity sold at 18% profit?
+- **Analysis:** Alligation on profit %:
+  $(18 - 14) : (14 - 8) = 4 : 6 = 2 : 3$.
+  Ratio of quantities at 8% and 18% = $2 : 3$.
+  Quantity at 18% = $50 \times (3 / 5) = 30$ kg.
+
+---
+
+## Pattern 9: Three Vessels with Different Volume Ratios
+- **Exam Pattern:** CDS Pattern
+- **Problem:** Three containers have capacities in the ratio 2 : 3 : 4. They are filled with mixtures of spirit and water in the ratios 4 : 1, 11 : 4, and 7 : 3 respectively. If all three containers are emptied into a large vessel, find the ratio of spirit to water in the large vessel.
+- **Analysis:** Container 1: sum = 5. Spirit fraction = 4/5. Capacity weight = 2 $\implies \text{Spirit} = 2 \times 4/5 = 8/5$.
+  Container 2: sum = 15. Spirit fraction = 11/15. Capacity weight = 3 $\implies \text{Spirit} = 3 \times 11/15 = 11/5$.
+  Container 3: sum = 10. Spirit fraction = 7/10. Capacity weight = 4 $\implies \text{Spirit} = 4 \times 7/10 = 14/5$.
+  Total Spirit = $8/5 + 11/5 + 14/5 = 33/5$.
+  Total Capacity = $2 + 3 + 4 = 9 = 45/5$.
+  Total Water = $45/5 - 33/5 = 12/5$.
+  Ratio Spirit : Water = $33 : 12 = 11 : 4$.
+
+---
+
+## Pattern 10: Reverse Repeated Dilution to Find Initial Quantity
+- **Exam Pattern:** SSC CGL Tier-2 Pattern
+- **Problem:** 8 liters are drawn from a cask full of wine and then filled with water. This operation is performed three more times. The ratio of the quantity of wine now left in the cask to that of water is 16 : 65. How much wine did the cask hold originally?
+- **Analysis:** Total operations $n = 1 + 3 = 4$.
+  Ratio of remaining wine to total mixture = $16 / (16 + 65) = 16 / 81$.
+  Formula: $(1 - 8/x)^4 = 16 / 81 = (2/3)^4$.
+  $1 - 8/x = 2/3 \implies 8/x = 1/3 \implies x = 24$ liters.

@@ -1,0 +1,32 @@
+# Exam Short Tricks: Mixture & Alligation
+
+## Trick 1: Converting SP to CP in One Step
+If a mixture is sold at Rs. $S$ per kg with a profit of $P\%$:
+$$m = \frac{S}{1 + \frac{P}{100}}$$
+- **Example:** Sold at Rs. 66/kg at a 10% profit.
+  $$m = \frac{66}{1.10} = \text{Rs. } 60/\text{kg}$$
+  Use Rs. 60 (never Rs. 66) in the alligation cross!
+
+---
+
+## Trick 2: Finding Original Volume in Dilution Problems
+If after $n$ operations of drawing $y$ liters, the ratio of liquid to water is $a : b$:
+$$\left( 1 - \frac{y}{x} \right) = \sqrt[n]{\frac{a}{a + b}}$$
+- **Example:** After 2 operations of drawing 4 liters, milk to water is 16 : 9.
+  $$1 - \frac{4}{x} = \sqrt{\frac{16}{25}} = \frac{4}{5} \implies \frac{4}{x} = \frac{1}{5} \implies x = 20 \text{ liters}$$
+
+---
+
+## Trick 3: Direct Formula for Vessel Replacement
+A vessel has liquid A and liquid B in ratio $a : b$. If $k$ liters is drawn and replaced with liquid B, resulting in ratio $c : d$:
+$$\text{Total Capacity} = \frac{k \times (c + d) \times a}{a(c + d) - c(a + b)}$$
+Alternatively, equate the unchanged quantity of liquid A!
+
+---
+
+## Trick 4: Equal Volume Multi-Vessel Mixing
+When equal volumes of two vessels with ratios $a_1 : b_1$ and $a_2 : b_2$ are mixed:
+Make $(a_1 + b_1) = (a_2 + b_2)$ by multiplying ratios by suitable integers, then add corresponding terms directly.
+- **Example:** Vessel 1 has 3 : 1 (sum = 4). Vessel 2 has 5 : 3 (sum = 8).
+  Multiply Vessel 1 by 2: 6 : 2 (sum = 8).
+  Combined ratio = $(6 + 5) : (2 + 3) = 11 : 5$.
