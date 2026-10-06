@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 06-10-2026 01:27 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 12:56 PM
+**आख़िरी update:** 06-10-2026 01:42 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 12:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 15 One Word Substitution (Graduation English) | ✍️ लिख रहा है | 18 मिनट |
-| W2 | Chapter 12 Sentence Structure (Graduation English) | ✍️ लिख रहा है | 30 मिनट |
-| W3 | Chapter 16 Idioms Phrases (Graduation English) | ✍️ लिख रहा है | 2 मिनट |
-| W4 | Chapter 14 Antonyms (Graduation English) | ✍️ लिख रहा है | 30 मिनट |
+| W1 | Chapter 15 One Word Substitution (Graduation English) | ✍️ लिख रहा है | 33 मिनट |
+| W2 | Chapter 12 Sentence Structure (Graduation English) | ✍️ लिख रहा है | 46 मिनट |
+| W3 | Chapter 16 Idioms Phrases (Graduation English) | ✍️ लिख रहा है | 17 मिनट |
+| W4 | Chapter 14 Antonyms (Graduation English) | 🔎 review हो रहा है | 2 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -28,8 +28,8 @@
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 0 | 0 | 28 |
 | Graduation Reasoning | 0 | 0 | 30 |
-| Graduation English | 12 | 0 | 18 |
-| **कुल** | **62** | **13** | **221** |
+| Graduation English | 13 | 0 | 17 |
+| **कुल** | **63** | **13** | **220** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -49,26 +49,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-06-10 12:56:20 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_13_Synonyms (OK: todo 0, problems 0)
-06-10 12:56:25 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_14_Antonyms (TODO: todo 19, problems 0)
-06-10 12:57:51   [Antonyms] wrote Flashcards_hi.txt (2711 chars)
-06-10 12:59:23   [Antonyms] wrote PYQ_en.txt (6344 chars)
-06-10 13:02:24   [Sentence_Structure] Practice_en_Set_04.txt try 1: re-solve disagrees (Q85 key a vs re-solve b, Q94 key b vs re-solve a)
-06-10 13:02:26   [Antonyms] wrote PYQ_hi.txt (5688 chars)
-06-10 13:03:35   [Antonyms] wrote Short_Tricks_en.txt (1950 chars)
-06-10 13:04:12   [Synonyms] review Flashcards_en.txt: 1 issue(s): - Card 7 says "Greek root 'bene'" but "bene" is Latin, not Greek → Change to "Latin root 'bene' = good/well"
-06-10 13:05:24   [Narration] review Important_Rules_hi.txt: 2 issue(s): - Morphology table: root "port" meaning given as "सूचना देना" → correct meaning is "ले जाना" (to carry); de
-06-10 13:05:28   [Antonyms] wrote Short_Tricks_hi.txt (2393 chars)
-06-10 13:07:56   [Sentence_Structure] Practice_en_Set_04.txt try 2: re-solve disagrees (Q85 key a vs re-solve b, Q94 key b vs re-solve a)
-06-10 13:08:30   [Narration] review: 1 section(s) corrected, 0 failed
-06-10 13:08:30   [Narration] written 1, failed 0; AI calls today 538/100000
-06-10 13:08:38 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_11_Narration in 12 min → 4c1da7c
-06-10 13:08:39 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_15_One_Word_Substitution (TODO: todo 26, problems 0)
-06-10 13:08:48   [Antonyms] wrote Important_Rules_en.txt (2898 chars)
-06-10 13:10:09   [One_Word_Substitution] wrote Content_en.txt (1264 chars)
-06-10 13:11:49   [Antonyms] wrote Important_Rules_hi.txt (5961 chars)
-06-10 13:14:12   [Antonyms] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-06-10 13:14:21   [One_Word_Substitution] wrote Content_hi.txt (7941 chars)
 06-10 13:15:40   [One_Word_Substitution] wrote Feynman_en.txt (3678 chars)
 06-10 13:16:17   [Antonyms] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 06-10 13:16:56   [One_Word_Substitution] wrote Feynman_hi.txt (2429 chars)
@@ -89,4 +69,24 @@
 06-10 13:24:55 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_16_Idioms_Phrases (TODO: todo 26, problems 0)
 06-10 13:25:11   [One_Word_Substitution] wrote PYQ_hi.txt (6655 chars)
 06-10 13:26:47   [Antonyms] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+06-10 13:27:54   [Idioms_Phrases] wrote Content_en.txt (8425 chars)
+06-10 13:27:56   [One_Word_Substitution] wrote Short_Tricks_en.txt (5808 chars)
+06-10 13:28:13   [Antonyms] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+06-10 13:28:14   [Sentence_Structure] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+06-10 13:29:42   [Antonyms] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+06-10 13:29:49   [One_Word_Substitution] wrote Short_Tricks_hi.txt (6231 chars)
+06-10 13:31:04   [One_Word_Substitution] wrote Important_Rules_en.txt (1665 chars)
+06-10 13:31:37   [Sentence_Structure] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+06-10 13:32:48   [Antonyms] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+06-10 13:33:32   [One_Word_Substitution] wrote Important_Rules_hi.txt (4519 chars)
+06-10 13:34:38   [Antonyms] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+06-10 13:36:12   [One_Word_Substitution] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+06-10 13:37:53   [One_Word_Substitution] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+06-10 13:38:32   [Antonyms] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+06-10 13:39:30   [One_Word_Substitution] Practice_en_Set_02.txt try 1: rejected (Q34:duplicate_options,Q38:duplicate_options,Q40:duplicate_options,Q42:duplicate_options,Q44:duplicate_options)
+06-10 13:40:06   [Antonyms] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+06-10 13:40:06   [Antonyms] written 19, failed 0; AI calls today 589/100000
+06-10 13:40:12   [Sentence_Structure] Practice_en_Set_06.txt try 1: re-solve disagrees (Q128 key b vs re-solve d, Q146 key c vs re-solve a)
+06-10 13:42:09   [Idioms_Phrases] FAILED Content_hi.txt: too_long
+06-10 13:42:11   [One_Word_Substitution] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 ```
