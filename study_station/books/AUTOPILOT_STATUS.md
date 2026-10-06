@@ -1,17 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 06-10-2026 02:42 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 12:56 PM
+**आख़िरी update:** 06-10-2026 02:56 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 02:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W1 | Chapter 15 One Word Substitution (Graduation English) | 🔎 review हो रहा है | 16 मिनट |
-| W2 | Chapter 18 Error Spotting Adv (Graduation English) | ✍️ लिख रहा है | 33 मिनट |
-| W3 | Chapter 16 Idioms Phrases (Graduation English) | ✍️ लिख रहा है | 3 मिनट |
-| W4 | Chapter 17 Spelling (Graduation English) | ✍️ लिख रहा है | 35 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -51,29 +46,11 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 15 One Word Substitution (English) — 1 बार
-- Chapter 16 Idioms Phrases (English) — 1 बार
+- Chapter 16 Idioms Phrases (English) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-06-10 14:21:14   [Spelling] wrote PYQ_hi.txt (5847 chars)
-06-10 14:21:51   [Error_Spotting_Adv] wrote Mind_Map_hi.txt (1660 chars)
-06-10 14:21:59   [Idioms_Phrases] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-06-10 14:22:06   [One_Word_Substitution] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-06-10 14:22:06   [One_Word_Substitution] written 24, failed 2; AI calls today 695/100000
-06-10 14:22:06 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_15_One_Word_Substitution after 73 min: todo ['Set 04 en: todo', 'Set 04 hi: todo'] problems []
-06-10 14:22:07 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_15_One_Word_Substitution (TODO: todo 2, problems 0)
-06-10 14:22:24   [Spelling] wrote Short_Tricks_en.txt (5054 chars)
-06-10 14:23:05   [Idioms_Phrases] Practice_en_Set_05.txt try 1: rejected (parsed 23 questions, numbers 101…125)
-06-10 14:23:11   [Error_Spotting_Adv] wrote Flashcards_en.txt (3797 chars)
-06-10 14:23:53   [Spelling] wrote Short_Tricks_hi.txt (5595 chars)
-06-10 14:24:58   [One_Word_Substitution] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-06-10 14:25:03   [Spelling] wrote Important_Rules_en.txt (4381 chars)
-06-10 14:25:28   [Error_Spotting_Adv] wrote Flashcards_hi.txt (4950 chars)
-06-10 14:26:03   [Spelling] wrote Important_Rules_hi.txt (3866 chars)
-06-10 14:26:26   [One_Word_Substitution] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-06-10 14:26:26   [One_Word_Substitution] written 2, failed 0; AI calls today 706/100000
-06-10 14:26:56   [One_Word_Substitution] review Content_en.txt: 3 issue(s): - "A one-word substitution is a powerful way of by far the most common vocabulary question." → "A one-word substitu
 06-10 14:27:02   [Error_Spotting_Adv] wrote PYQ_en.txt (6699 chars)
 06-10 14:28:55   [Spelling] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 06-10 14:29:01   [Idioms_Phrases] wrote Practice_en_Set_05.txt (write, 25 MCQs)
@@ -96,4 +73,22 @@
 06-10 14:39:49 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_16_Idioms_Phrases (TODO: todo 1, problems 0)
 06-10 14:41:53   [Error_Spotting_Adv] Practice_en_Set_01.txt try 2: rejected (parsed 17 questions, numbers 1…17)
 06-10 14:42:22   [Spelling] Practice_hi_Set_03.txt try 1: rejected (parsed 11 questions, numbers 51…61)
+06-10 14:44:14   [Spelling] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+06-10 14:44:20   [One_Word_Substitution] review Feynman_hi.txt: 1 issue(s): - लंबे वाक्यांश का एक शब्द वाला पता → लंबे वाक्यांश का एक शब्द वाला रूप
+06-10 14:45:18   [One_Word_Substitution] review Mind_Map_en.txt: 1 issue(s): - "Fact-based recall = 15 sec, Root-analysis = 45 sec" → Invented timing statistics presented as factual guideline
+06-10 14:47:28   [Spelling] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+06-10 14:47:57   [Error_Spotting_Adv] Practice_en_Set_01.txt try 3: re-solve disagrees (Q1 key b vs re-solve a, Q5 key a vs re-solve c, Q7 key d vs re-solve a, Q8 key d vs re-solve b, Q10 
+06-10 14:47:57   [Error_Spotting_Adv] REJECTED Practice_en_Set_01.txt: no version passed the checks — not written
+06-10 14:47:57   [Error_Spotting_Adv] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
+06-10 14:48:52   [Spelling] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+06-10 14:49:35   [One_Word_Substitution] review Flashcards_hi.txt: 1 issue(s): - Card 10 mnemonic incorrectly defines 'sooth' as 'शांति' (peace) → 'sooth' means 'truth' (सत्य); the mnemonic s
+06-10 14:50:02   [Spelling] Practice_en_Set_05.txt try 1: rejected (Q109:duplicate_options)
+06-10 14:51:30   [Error_Spotting_Adv] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+06-10 14:52:58   [One_Word_Substitution] review PYQ_en.txt: 6 issue(s): - Q2 has duplicate options (a) and (b) both "Bibliophile" → Options must be distinct; remove duplicate.
+06-10 14:53:13   [Error_Spotting_Adv] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+06-10 14:56:04   [Idioms_Phrases] FAILED Content_hi.txt: too_long
+06-10 14:56:04   [Idioms_Phrases] written 0, failed 1; AI calls today 757/100000
+06-10 14:56:04 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_16_Idioms_Phrases after 16 min: todo ['Content_hi.txt'] problems []
+06-10 14:56:05 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_19_Fill_in_Blanks_Adv (TODO: todo 26, problems 0)
+06-10 14:56:13 autopilot stopped: 2-hour limit of the cloud session — restart with "autopilot chalu karo"
 ```
