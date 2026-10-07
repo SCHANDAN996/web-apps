@@ -1,12 +1,17 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 06-10-2026 02:56 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 06-10 02:56 PM
+**आख़िरी update:** 07-10-2026 10:43 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 07-10 10:42 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
+| worker | अध्याय | काम | कब से |
+|---|---|---|---|
+| W1 | Chapter 15 One Word Substitution (Graduation English) | 🔎 review हो रहा है | 0 मिनट |
+| W2 | Chapter 16 Idioms Phrases (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
+| W3 | Chapter 17 Spelling (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
+| W4 | Chapter 18 Error Spotting Adv (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -43,19 +48,9 @@
 - 05-10 22:04 — Graduation English · Chapter 01 Noun
 - 05-10 21:44 — Graduation English · Chapter 04 Verb
 
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 15 One Word Substitution (English) — 1 बार
-- Chapter 16 Idioms Phrases (English) — 2 बार
-
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-06-10 14:27:02   [Error_Spotting_Adv] wrote PYQ_en.txt (6699 chars)
-06-10 14:28:55   [Spelling] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-06-10 14:29:01   [Idioms_Phrases] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-06-10 14:29:18   [Error_Spotting_Adv] wrote PYQ_hi.txt (5607 chars)
-06-10 14:30:16   [Error_Spotting_Adv] wrote Short_Tricks_en.txt (3631 chars)
 06-10 14:30:33   [Spelling] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 06-10 14:31:19   [Error_Spotting_Adv] wrote Short_Tricks_hi.txt (4982 chars)
 06-10 14:31:19   [Idioms_Phrases] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
@@ -91,4 +86,9 @@
 06-10 14:56:04 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_16_Idioms_Phrases after 16 min: todo ['Content_hi.txt'] problems []
 06-10 14:56:05 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_19_Fill_in_Blanks_Adv (TODO: todo 26, problems 0)
 06-10 14:56:13 autopilot stopped: 2-hour limit of the cloud session — restart with "autopilot chalu karo"
+07-10 10:42:18 autopilot start: 4 workers, reverse=True
+07-10 10:42:19 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_15_One_Word_Substitution (OK: todo 0, problems 0)
+07-10 10:42:24 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_16_Idioms_Phrases (TODO: todo 1, problems 0)
+07-10 10:42:29 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_17_Spelling (TODO: todo 4, problems 0)
+07-10 10:42:34 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_18_Error_Spotting_Adv (TODO: todo 10, problems 1)
 ```
