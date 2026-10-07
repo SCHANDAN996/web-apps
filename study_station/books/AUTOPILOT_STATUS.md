@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 07-10-2026 10:43 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 07-10 10:42 AM
+**आख़िरी update:** 07-10-2026 10:58 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 07-10 10:42 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 15 One Word Substitution (Graduation English) | 🔎 review हो रहा है | 0 मिनट |
-| W2 | Chapter 16 Idioms Phrases (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
-| W3 | Chapter 17 Spelling (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
-| W4 | Chapter 18 Error Spotting Adv (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
+| W1 | Chapter 15 One Word Substitution (Graduation English) | 🔎 review हो रहा है | 15 मिनट |
+| W2 | Chapter 16 Idioms Phrases (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
+| W3 | Chapter 17 Spelling (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
+| W4 | Chapter 18 Error Spotting Adv (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -51,7 +51,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-06-10 14:30:33   [Spelling] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 06-10 14:31:19   [Error_Spotting_Adv] wrote Short_Tricks_hi.txt (4982 chars)
 06-10 14:31:19   [Idioms_Phrases] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 06-10 14:33:39   [Error_Spotting_Adv] wrote Important_Rules_en.txt (5541 chars)
@@ -91,4 +90,5 @@
 07-10 10:42:24 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_16_Idioms_Phrases (TODO: todo 1, problems 0)
 07-10 10:42:29 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_17_Spelling (TODO: todo 4, problems 0)
 07-10 10:42:34 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_18_Error_Spotting_Adv (TODO: todo 10, problems 1)
+07-10 10:43:16   [One_Word_Substitution] review Important_Rules_en.txt: 3 issue(s): - Table header is malformed with repeated separator lines → Keep a single header row and a single separator
 ```
