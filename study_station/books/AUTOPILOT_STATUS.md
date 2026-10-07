@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 07-10-2026 10:58 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 07-10 10:42 AM
+**आख़िरी update:** 07-10-2026 11:06 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 07-10 10:42 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 15 One Word Substitution (Graduation English) | 🔎 review हो रहा है | 15 मिनट |
-| W2 | Chapter 16 Idioms Phrases (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
-| W3 | Chapter 17 Spelling (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
-| W4 | Chapter 18 Error Spotting Adv (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
+| W1 | Chapter 15 One Word Substitution (Graduation English) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 16 Idioms Phrases (Graduation English) | 🔧 सुधार रहा है | 2 मिनट |
+| W3 | Chapter 17 Spelling (Graduation English) | ✍️ लिख रहा है | 23 मिनट |
+| W4 | Chapter 18 Error Spotting Adv (Graduation English) | ✍️ लिख रहा है | 23 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -28,11 +28,12 @@
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 0 | 0 | 28 |
 | Graduation Reasoning | 0 | 0 | 30 |
-| Graduation English | 15 | 0 | 15 |
-| **कुल** | **65** | **13** | **218** |
+| Graduation English | 15 | 1 | 14 |
+| **कुल** | **65** | **14** | **217** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 07-10 11:06 — Graduation English · Chapter 15 One Word Substitution
 - 06-10 14:08 — Graduation English · Chapter 12 Sentence Structure
 - 06-10 14:07 — Graduation English · Chapter 14 Antonyms
 - 06-10 13:24 — Graduation English · Chapter 13 Synonyms
@@ -51,12 +52,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-06-10 14:31:19   [Error_Spotting_Adv] wrote Short_Tricks_hi.txt (4982 chars)
-06-10 14:31:19   [Idioms_Phrases] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-06-10 14:33:39   [Error_Spotting_Adv] wrote Important_Rules_en.txt (5541 chars)
-06-10 14:34:57   [One_Word_Substitution] review Content_hi.txt: 4 issue(s): - Invented statistic "90% छात्र विकल्पों में उलझ जाते हैं" → Remove or replace with a non-specific phrase like "कई 
-06-10 14:35:03   [Spelling] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-06-10 14:35:15   [Error_Spotting_Adv] wrote Important_Rules_hi.txt (4406 chars)
 06-10 14:36:48   [Spelling] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 06-10 14:37:50   [Idioms_Phrases] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 06-10 14:39:46   [Error_Spotting_Adv] Practice_en_Set_01.txt try 1: re-solve disagrees (Q3 key a vs re-solve b, Q21 key c vs re-solve b)
@@ -91,4 +86,10 @@
 07-10 10:42:29 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_17_Spelling (TODO: todo 4, problems 0)
 07-10 10:42:34 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_18_Error_Spotting_Adv (TODO: todo 10, problems 1)
 07-10 10:43:16   [One_Word_Substitution] review Important_Rules_en.txt: 3 issue(s): - Table header is malformed with repeated separator lines → Keep a single header row and a single separator
+07-10 11:04:05   [One_Word_Substitution] review Important_Rules_hi.txt: 1 issue(s): - In rule 8, the Hindi word "बनাম" uses a Bengali character 'ন' instead of Devanagari 'न' → replace with "ब
+07-10 11:04:06   [Idioms_Phrases] wrote Content_hi.txt (2200 chars)
+07-10 11:04:06   [Idioms_Phrases] written 1, failed 0; AI calls today 9/100000
+07-10 11:05:31   [Spelling] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+07-10 11:06:21   [One_Word_Substitution] review: 2 section(s) corrected, 0 failed
+07-10 11:06:21   [One_Word_Substitution] written 2, failed 0; AI calls today 13/100000
 ```
