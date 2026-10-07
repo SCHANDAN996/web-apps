@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 07-10-2026 12:28 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 07-10 10:42 AM
+**आख़िरी update:** 07-10-2026 12:42 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 07-10 12:42 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W2 | Chapter 20 Sentence Improvement Adv (Graduation English) | ✍️ लिख रहा है | 60 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -25,8 +23,8 @@
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 0 | 0 | 28 |
 | Graduation Reasoning | 0 | 0 | 30 |
-| Graduation English | 16 | 2 | 12 |
-| **कुल** | **66** | **15** | **215** |
+| Graduation English | 17 | 2 | 11 |
+| **कुल** | **67** | **15** | **214** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -56,13 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-07-10 12:02:18   [Idioms_Phrases] REJECTED review fix Mind_Map_en.txt: no usable mermaid graph
-07-10 12:02:38   [Error_Spotting_Adv] review Flashcards_en.txt: 1 issue(s): - Card 11: Explanation says "in embedded/indirect questions, use statement order — 'What are you doing?'" but "W
-07-10 12:03:10   [Sentence_Improvement_Adv] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-07-10 12:05:00   [Error_Spotting_Adv] review Flashcards_hi.txt: 2 issue(s): - Card 2: The mnemonic “SANAM” lists “Anyone” twice and omits “Nobody” → Use a correct mnemonic such as “S‑Someo
-07-10 12:05:01   [Idioms_Phrases] review PYQ_en.txt: 2 issue(s): - The "Body-part idioms" list includes non-body-part idioms: "by hook or by crook", "to bite the dust", "to wash one's 
-07-10 12:07:04   [Sentence_Improvement_Adv] Practice_en_Set_03.txt try 1: re-solve disagrees (Q55 key a vs re-solve b)
-07-10 12:09:55   [Fill_in_Blanks_Adv] FAILED Practice_en_Set_04.txt: too_long
 07-10 12:09:55   [Fill_in_Blanks_Adv] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
 07-10 12:11:52   [Sentence_Improvement_Adv] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 07-10 12:13:31   [Sentence_Improvement_Adv] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
@@ -96,4 +87,11 @@
 07-10 12:27:40 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_19_Fill_in_Blanks_Adv after 81 min: todo ['Set 04 en: todo', 'Set 04 hi: todo'] problems []
 07-10 12:27:40 worker 0: nothing left
 07-10 12:28:54   [Sentence_Improvement_Adv] Practice_en_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
+07-10 12:33:19   [Sentence_Improvement_Adv] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+07-10 12:34:37   [Sentence_Improvement_Adv] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+07-10 12:37:05   [Sentence_Improvement_Adv] Practice_en_Set_06.txt try 1: re-solve disagrees (Q137 key c vs re-solve b)
+07-10 12:40:03   [Sentence_Improvement_Adv] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+07-10 12:42:14   [Sentence_Improvement_Adv] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+07-10 12:42:14   [Sentence_Improvement_Adv] written 26, failed 0; AI calls today 243/100000
+07-10 12:42:21 autopilot stopped: 2-hour limit of the cloud session — restart with "autopilot chalu karo"
 ```
