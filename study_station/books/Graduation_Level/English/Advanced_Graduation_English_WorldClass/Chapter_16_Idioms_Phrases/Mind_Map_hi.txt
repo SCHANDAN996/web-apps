@@ -1,0 +1,37 @@
+```mermaid
+graph TD
+    A["मुहावरे एवं वाक्यांश<br>Idioms & Phrases"] --> B["मुहावरा क्या है?"]
+    A --> C["मुख्य श्रेणियाँ"]
+    A --> D["परीक्षक के जाल"]
+    A --> E["रणनीतियाँ"]
+    A --> F["हाई-यील्ड मुहावरे"]
+
+    B --> B1["शाब्दिक अर्थ ≠ वास्तविक अर्थ"]
+    B --> B2["स्थिर संरचना<br>शब्द बदलने पर अर्थ बिगड़ता है"]
+    B --> B3["संस्कृति-बद्ध<br>हिंदी अनुवाद अक्सर काम नहीं करता"]
+
+    C --> C1["क्रिया-आधारित<br>Phrasal Verbs<br>give up, look after"]
+    C --> C2["क्रियाविशेषण-आधारित<br>Adverbial Phrases<br>once in a blue moon<br>(कभी-कभार)"]
+    C --> C3["संज्ञा-आधारित<br>a bed of roses"]
+    C --> C4["जोड़ी वाले<br>Binomials<br>odds and ends"]
+    C --> C5["सिमिली<br>as cool as a cucumber"]
+
+    D --> D1["शाब्दिक अर्थ का जाल<br>break a leg = टाँग तोड़ना ✗<br>शुभकामना ✓"]
+    D --> D2["मिलते-जुलते मुहावरे<br>at sixes and sevens ≠<br>behind the eight ball"]
+    D --> D3["हिंदी अनुवाद का जाल<br>आँखों का तारा =<br>apple of one's eye ✓<br>star of eyes ✗"]
+    D --> D4["Preposition बदलने से अर्थ बदलता है<br>look into ≠ look after ≠ look over"]
+
+    E --> E1["संदर्भ से अर्थ निकालें<br>Detective Approach"]
+    E --> E2["मूल शब्द/Root से अनुमान"]
+    E --> E3["समय प्रबंधन<br>पहचाना हुआ मुहावरा = तुरंत उत्तर<br>संदर्भ-आधारित प्रश्न =<br>वाक्य पढ़कर अर्थ निकालें"]
+    E --> E4["Skip Strategy<br>बिल्कुल नया मुहावरा हो तो<br>अनुमान न लगाएँ, आगे बढ़ें"]
+
+    F --> F1["To burn the midnight oil<br>देर रात तक मेहनत करना"]
+    F --> F2["A blessing in disguise<br>छिपा हुआ वरदान"]
+    F --> F3["To hit the nail on the head<br>ठीक निशाने पर बात कहना"]
+    F --> F4["To let the cat out of the bag<br>राज़ खोल देना"]
+    F --> F5["By hook or by crook<br>किसी भी तरह"]
+    F --> F6["To bite the dust<br>हार जाना / नष्ट होना"]
+
+    E1 --> G["दोहराने का नियम<br>2 दिन बाद रिवीज़न<br>फिर 7 दिन बाद"]
+```

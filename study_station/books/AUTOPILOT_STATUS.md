@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 19 Fill in Blanks Adv (Graduation English) | ✍️ लिख रहा है | 21 मिनट |
-| W2 | Chapter 16 Idioms Phrases (Graduation English) | 🔎 review हो रहा है | 21 मिनट |
-| W3 | Chapter 17 Spelling (Graduation English) | 🔎 review हो रहा है | 14 मिनट |
-| W4 | Chapter 18 Error Spotting Adv (Graduation English) | ✍️ लिख रहा है | 45 मिनट |
+| W1 | Chapter 19 Fill in Blanks Adv (Graduation English) | ✍️ लिख रहा है | 22 मिनट |
+| W2 | Chapter 16 Idioms Phrases (Graduation English) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 17 Spelling (Graduation English) | 🔎 review हो रहा है | 15 मिनट |
+| W4 | Chapter 18 Error Spotting Adv (Graduation English) | ✍️ लिख रहा है | 46 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -33,6 +33,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 07-10 11:28 — Graduation English · Chapter 16 Idioms Phrases
 - 07-10 11:06 — Graduation English · Chapter 15 One Word Substitution
 - 06-10 14:08 — Graduation English · Chapter 12 Sentence Structure
 - 06-10 14:07 — Graduation English · Chapter 14 Antonyms
@@ -47,14 +48,10 @@
 - 06-10 02:04 — Graduation English · Chapter 06 Adverb
 - 06-10 01:49 — Graduation English · Chapter 03 Adjective
 - 05-10 22:04 — Graduation English · Chapter 01 Noun
-- 05-10 21:44 — Graduation English · Chapter 04 Verb
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-07-10 11:06:29 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_15_One_Word_Substitution in 24 min → 590cdb5
-07-10 11:06:29 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_19_Fill_in_Blanks_Adv (TODO: todo 26, problems 0)
-07-10 11:06:54   [Error_Spotting_Adv] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 07-10 11:07:15   [Idioms_Phrases] repaired Content_hi.txt (5257 chars)
 07-10 11:07:15   [Idioms_Phrases] written 1, failed 0; AI calls today 15/100000
 07-10 11:07:43   [Fill_in_Blanks_Adv] wrote Content_en.txt (1366 chars)
@@ -92,4 +89,7 @@
 07-10 11:26:56   [Fill_in_Blanks_Adv] wrote Short_Tricks_hi.txt (5305 chars)
 07-10 11:27:55   [Idioms_Phrases] review Important_Rules_hi.txt: 1 issue(s): - Rule 10 cites “By hook or by crook” as a body‑part idiom, but it contains no body part → replace it with 
 07-10 11:28:22   [Fill_in_Blanks_Adv] wrote Important_Rules_en.txt (5408 chars)
+07-10 11:28:39   [Error_Spotting_Adv] Practice_en_Set_05.txt try 1: re-solve disagrees (Q125 key a vs re-solve c)
+07-10 11:28:45   [Idioms_Phrases] review: 7 section(s) corrected, 0 failed
+07-10 11:28:45   [Idioms_Phrases] written 7, failed 0; AI calls today 75/100000
 ```

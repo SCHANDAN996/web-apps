@@ -1,0 +1,33 @@
+```mermaid
+graph TD
+    A["Idioms & Phrases<br>Advanced Level"] --> B["What is an Idiom?"]
+    A --> C["Major Categories"]
+    A --> D["Exam Strategy"]
+    A --> E["Examiner's Traps"]
+    A --> F["Memory Tools"]
+
+    B --> B1["Meaning ≠ Sum of words<br>'Kick the bucket' = to die"]
+    B --> B2["Fixed expressions<br>Word order cannot change"]
+    B --> B3["Phrasal verbs differ<br>'Give up' vs 'Give in'"]
+
+    C --> C1["Body Parts<br>'By heart', 'Cold shoulder'"]
+    C --> C2["Colours<br>'Red tape', 'Once in a blue moon'"]
+    C --> C3["Animals<br>'White elephant', 'Black sheep'"]
+    C --> C4["Nature & Weather<br>'Storm in a teacup'"]
+    C --> C5["Money & Work<br>'Bring home the bacon'"]
+
+    D --> D1["15-Second Rule<br>Known idiom → answer instantly"]
+    D --> D2["45-Second Rule<br>Unknown idiom → context clues"]
+    D --> D3["Break the idiom down<br>Image + emotion + situation"]
+    D --> D4["Eliminate literal meanings first"]
+
+    E --> E1["Trap 1: Literal meaning option<br>'Apple of one's eye' ≠ fruit"]
+    E --> E2["Trap 2: Similar-sounding idioms<br>'Nip in the bud' vs 'Nip in the butt'"]
+    E --> E3["Trap 3: Over-thinking<br>Trust the standard meaning"]
+    E --> E4["Trap 4: Hindi translation error<br>Word-for-word translation misleads"]
+
+    F --> F1["Story Method<br>Link idiom to a picture story"]
+    F --> F2["Group by theme<br>Learn 5 colour idioms together"]
+    F --> F3["Use in own sentence<br>Active recall beats reading"]
+    F --> F4["Revise after 2 days<br>Then after 1 week"]
+```
