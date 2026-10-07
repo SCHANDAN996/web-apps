@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 07-10-2026 11:13 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 07-10 10:42 AM
+**आख़िरी update:** 07-10-2026 11:28 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 07-10 10:42 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 19 Fill in Blanks Adv (Graduation English) | ✍️ लिख रहा है | 6 मिनट |
-| W2 | Chapter 16 Idioms Phrases (Graduation English) | 🔎 review हो रहा है | 6 मिनट |
-| W3 | Chapter 17 Spelling (Graduation English) | ✍️ लिख रहा है | 30 मिनट |
-| W4 | Chapter 18 Error Spotting Adv (Graduation English) | ✍️ लिख रहा है | 30 मिनट |
+| W1 | Chapter 19 Fill in Blanks Adv (Graduation English) | ✍️ लिख रहा है | 21 मिनट |
+| W2 | Chapter 16 Idioms Phrases (Graduation English) | 🔎 review हो रहा है | 21 मिनट |
+| W3 | Chapter 17 Spelling (Graduation English) | 🔎 review हो रहा है | 14 मिनट |
+| W4 | Chapter 18 Error Spotting Adv (Graduation English) | ✍️ लिख रहा है | 45 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -28,8 +28,8 @@
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 0 | 0 | 28 |
 | Graduation Reasoning | 0 | 0 | 30 |
-| Graduation English | 16 | 0 | 14 |
-| **कुल** | **66** | **13** | **217** |
+| Graduation English | 17 | 0 | 13 |
+| **कुल** | **67** | **13** | **216** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -52,30 +52,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-06-10 14:47:57   [Error_Spotting_Adv] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
-06-10 14:48:52   [Spelling] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-06-10 14:49:35   [One_Word_Substitution] review Flashcards_hi.txt: 1 issue(s): - Card 10 mnemonic incorrectly defines 'sooth' as 'शांति' (peace) → 'sooth' means 'truth' (सत्य); the mnemonic s
-06-10 14:50:02   [Spelling] Practice_en_Set_05.txt try 1: rejected (Q109:duplicate_options)
-06-10 14:51:30   [Error_Spotting_Adv] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-06-10 14:52:58   [One_Word_Substitution] review PYQ_en.txt: 6 issue(s): - Q2 has duplicate options (a) and (b) both "Bibliophile" → Options must be distinct; remove duplicate.
-06-10 14:53:13   [Error_Spotting_Adv] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-06-10 14:56:04   [Idioms_Phrases] FAILED Content_hi.txt: too_long
-06-10 14:56:04   [Idioms_Phrases] written 0, failed 1; AI calls today 757/100000
-06-10 14:56:04 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_16_Idioms_Phrases after 16 min: todo ['Content_hi.txt'] problems []
-06-10 14:56:05 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_19_Fill_in_Blanks_Adv (TODO: todo 26, problems 0)
-06-10 14:56:13 autopilot stopped: 2-hour limit of the cloud session — restart with "autopilot chalu karo"
-07-10 10:42:18 autopilot start: 4 workers, reverse=True
-07-10 10:42:19 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_15_One_Word_Substitution (OK: todo 0, problems 0)
-07-10 10:42:24 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_16_Idioms_Phrases (TODO: todo 1, problems 0)
-07-10 10:42:29 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_17_Spelling (TODO: todo 4, problems 0)
-07-10 10:42:34 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_18_Error_Spotting_Adv (TODO: todo 10, problems 1)
-07-10 10:43:16   [One_Word_Substitution] review Important_Rules_en.txt: 3 issue(s): - Table header is malformed with repeated separator lines → Keep a single header row and a single separator
-07-10 11:04:05   [One_Word_Substitution] review Important_Rules_hi.txt: 1 issue(s): - In rule 8, the Hindi word "बनাম" uses a Bengali character 'ন' instead of Devanagari 'न' → replace with "ब
-07-10 11:04:06   [Idioms_Phrases] wrote Content_hi.txt (2200 chars)
-07-10 11:04:06   [Idioms_Phrases] written 1, failed 0; AI calls today 9/100000
-07-10 11:05:31   [Spelling] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-07-10 11:06:21   [One_Word_Substitution] review: 2 section(s) corrected, 0 failed
-07-10 11:06:21   [One_Word_Substitution] written 2, failed 0; AI calls today 13/100000
 07-10 11:06:29 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_15_One_Word_Substitution in 24 min → 590cdb5
 07-10 11:06:29 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_19_Fill_in_Blanks_Adv (TODO: todo 26, problems 0)
 07-10 11:06:54   [Error_Spotting_Adv] wrote Practice_en_Set_01.txt (write, 25 MCQs)
@@ -92,4 +68,28 @@
 07-10 11:12:12   [Fill_in_Blanks_Adv] wrote Mind_Map_en.txt (1443 chars)
 07-10 11:13:02   [Fill_in_Blanks_Adv] Mind_Map_hi.txt try 1: rejected (no usable mermaid graph)
 07-10 11:13:13   [Idioms_Phrases] review Content_hi.txt: 2 issue(s): - Uttarakhand capital shown as "देहरादून (अंतरिम)" → should be "देहरादून (शीतकालीन राजधानी), गैरसैंण (ग्रीष्मकालीन 
+07-10 11:13:29   [Spelling] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+07-10 11:13:29   [Spelling] written 4, failed 0; AI calls today 31/100000
+07-10 11:13:40   [Error_Spotting_Adv] Practice_en_Set_03.txt try 1: re-solve disagrees (Q73 key a vs re-solve b)
+07-10 11:13:47   [Fill_in_Blanks_Adv] wrote Mind_Map_hi.txt (1227 chars)
+07-10 11:14:47   [Idioms_Phrases] review Mind_Map_en.txt: 1 issue(s): - E2 claims "Similar-sounding idioms" but the examples 'At sixes and sevens' and 'At the eleventh hour' do not sou
+07-10 11:15:32   [Fill_in_Blanks_Adv] wrote Flashcards_en.txt (5094 chars)
+07-10 11:16:09   [Idioms_Phrases] review Mind_Map_hi.txt: 2 issue(s): - C2 में "once in a blue moon" को "विशेषण-आधारित" बताया गया है → यह गलत वर्गीकरण है; "once in a blue moon" एक क्रि
+07-10 11:17:10   [Fill_in_Blanks_Adv] wrote Flashcards_hi.txt (4483 chars)
+07-10 11:17:32   [Error_Spotting_Adv] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+07-10 11:18:14   [Spelling] review Content_en.txt: 2 issue(s): - "4–8 Marks" weightage claim in the title is invented/unsourced → Remove or cite official exam source
+07-10 11:19:30   [Error_Spotting_Adv] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+07-10 11:19:32   [Error_Spotting_Adv] Practice_en_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
+07-10 11:20:29   [Fill_in_Blanks_Adv] wrote PYQ_en.txt (15916 chars)
+07-10 11:21:47   [Spelling] review Content_hi.txt: 2 issue(s): - Rule 3 incorrectly lists "begin" as a one-syllable word (एक-अक्षर के शब्द) for the consonant-doubling rule; "begi
+07-10 11:22:36   [Error_Spotting_Adv] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+07-10 11:23:04   [Idioms_Phrases] review Short_Tricks_en.txt: 1 issue(s): - In Trick 11, the example says "to rain cats and dogs heavily" is fine, but the rule states idioms are frozen
+07-10 11:23:07   [Fill_in_Blanks_Adv] wrote PYQ_hi.txt (5872 chars)
+07-10 11:24:18   [Error_Spotting_Adv] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+07-10 11:25:24   [Spelling] review Feynman_en.txt: 1 issue(s): - The mnemonic "double C, double M, double T, double O, double M" misstates the double letters in "committee" and "
+07-10 11:25:36   [Fill_in_Blanks_Adv] wrote Short_Tricks_en.txt (7423 chars)
+07-10 11:26:49   [Idioms_Phrases] review Important_Rules_en.txt: 8 issue(s): - Rule 3 example contains an extra comma: "Burn the, midnight oil" → "Burn the midnight oil"
+07-10 11:26:56   [Fill_in_Blanks_Adv] wrote Short_Tricks_hi.txt (5305 chars)
+07-10 11:27:55   [Idioms_Phrases] review Important_Rules_hi.txt: 1 issue(s): - Rule 10 cites “By hook or by crook” as a body‑part idiom, but it contains no body part → replace it with 
+07-10 11:28:22   [Fill_in_Blanks_Adv] wrote Important_Rules_en.txt (5408 chars)
 ```
