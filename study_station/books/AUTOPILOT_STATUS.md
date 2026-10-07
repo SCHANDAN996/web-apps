@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 07-10-2026 11:28 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 07-10 10:42 AM
+**आख़िरी update:** 07-10-2026 11:43 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 07-10 10:42 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 19 Fill in Blanks Adv (Graduation English) | ✍️ लिख रहा है | 22 मिनट |
-| W2 | Chapter 16 Idioms Phrases (Graduation English) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 17 Spelling (Graduation English) | 🔎 review हो रहा है | 15 मिनट |
-| W4 | Chapter 18 Error Spotting Adv (Graduation English) | ✍️ लिख रहा है | 46 मिनट |
+| W1 | Chapter 19 Fill in Blanks Adv (Graduation English) | ✍️ लिख रहा है | 37 मिनट |
+| W2 | Chapter 20 Sentence Improvement Adv (Graduation English) | ✍️ लिख रहा है | 14 मिनट |
+| W3 | Chapter 17 Spelling (Graduation English) | 🔎 review हो रहा है | 30 मिनट |
+| W4 | Chapter 18 Error Spotting Adv (Graduation English) | ✍️ लिख रहा है | 60 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -52,30 +52,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-07-10 11:07:15   [Idioms_Phrases] repaired Content_hi.txt (5257 chars)
-07-10 11:07:15   [Idioms_Phrases] written 1, failed 0; AI calls today 15/100000
-07-10 11:07:43   [Fill_in_Blanks_Adv] wrote Content_en.txt (1366 chars)
-07-10 11:08:21   [Spelling] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-07-10 11:08:34   [Fill_in_Blanks_Adv] wrote Content_hi.txt (621 chars)
-07-10 11:09:20   [Fill_in_Blanks_Adv] wrote Feynman_en.txt (353 chars)
-07-10 11:10:00   [Idioms_Phrases] review Content_en.txt: 1 issue(s): - The Hindi phrase "मुझे बहुत कमीनेस से बचा" in the Linguistic Bridge table is not valid Hindi and does not convey 
-07-10 11:10:27   [Error_Spotting_Adv] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-07-10 11:11:11   [Spelling] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-07-10 11:11:33   [Fill_in_Blanks_Adv] wrote Feynman_hi.txt (3112 chars)
-07-10 11:12:12   [Fill_in_Blanks_Adv] wrote Mind_Map_en.txt (1443 chars)
-07-10 11:13:02   [Fill_in_Blanks_Adv] Mind_Map_hi.txt try 1: rejected (no usable mermaid graph)
-07-10 11:13:13   [Idioms_Phrases] review Content_hi.txt: 2 issue(s): - Uttarakhand capital shown as "देहरादून (अंतरिम)" → should be "देहरादून (शीतकालीन राजधानी), गैरसैंण (ग्रीष्मकालीन 
-07-10 11:13:29   [Spelling] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-07-10 11:13:29   [Spelling] written 4, failed 0; AI calls today 31/100000
-07-10 11:13:40   [Error_Spotting_Adv] Practice_en_Set_03.txt try 1: re-solve disagrees (Q73 key a vs re-solve b)
-07-10 11:13:47   [Fill_in_Blanks_Adv] wrote Mind_Map_hi.txt (1227 chars)
-07-10 11:14:47   [Idioms_Phrases] review Mind_Map_en.txt: 1 issue(s): - E2 claims "Similar-sounding idioms" but the examples 'At sixes and sevens' and 'At the eleventh hour' do not sou
-07-10 11:15:32   [Fill_in_Blanks_Adv] wrote Flashcards_en.txt (5094 chars)
-07-10 11:16:09   [Idioms_Phrases] review Mind_Map_hi.txt: 2 issue(s): - C2 में "once in a blue moon" को "विशेषण-आधारित" बताया गया है → यह गलत वर्गीकरण है; "once in a blue moon" एक क्रि
-07-10 11:17:10   [Fill_in_Blanks_Adv] wrote Flashcards_hi.txt (4483 chars)
-07-10 11:17:32   [Error_Spotting_Adv] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-07-10 11:18:14   [Spelling] review Content_en.txt: 2 issue(s): - "4–8 Marks" weightage claim in the title is invented/unsourced → Remove or cite official exam source
-07-10 11:19:30   [Error_Spotting_Adv] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 07-10 11:19:32   [Error_Spotting_Adv] Practice_en_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
 07-10 11:20:29   [Fill_in_Blanks_Adv] wrote PYQ_en.txt (15916 chars)
 07-10 11:21:47   [Spelling] review Content_hi.txt: 2 issue(s): - Rule 3 incorrectly lists "begin" as a one-syllable word (एक-अक्षर के शब्द) for the consonant-doubling rule; "begi
@@ -92,4 +68,28 @@
 07-10 11:28:39   [Error_Spotting_Adv] Practice_en_Set_05.txt try 1: re-solve disagrees (Q125 key a vs re-solve c)
 07-10 11:28:45   [Idioms_Phrases] review: 7 section(s) corrected, 0 failed
 07-10 11:28:45   [Idioms_Phrases] written 7, failed 0; AI calls today 75/100000
+07-10 11:28:51 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_16_Idioms_Phrases in 46 min → 6071290
+07-10 11:28:52 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_20_Sentence_Improvement_Adv (TODO: todo 26, problems 0)
+07-10 11:29:54   [Sentence_Improvement_Adv] Content_en.txt try 1: rejected (chat debris "Text")
+07-10 11:29:59   [Fill_in_Blanks_Adv] wrote Important_Rules_hi.txt (4382 chars)
+07-10 11:31:32   [Sentence_Improvement_Adv] wrote Content_en.txt (8639 chars)
+07-10 11:32:55   [Error_Spotting_Adv] Practice_en_Set_05.txt try 2: re-solve disagrees (Q109 key a vs re-solve c, Q121 key b vs re-solve a, Q125 key c vs re-solve a)
+07-10 11:33:37   [Sentence_Improvement_Adv] wrote Content_hi.txt (7982 chars)
+07-10 11:34:47   [Sentence_Improvement_Adv] wrote Feynman_en.txt (3022 chars)
+07-10 11:34:58   [Error_Spotting_Adv] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+07-10 11:35:29   [Spelling] review PYQ_en.txt: 3 issue(s): - Over-thinking Trap example contradicts its description: it says students pick the 'fancy-looking' wrong option but gi
+07-10 11:35:34   [Fill_in_Blanks_Adv] Practice_en_Set_01.txt try 1: re-solve disagrees (Q21 key a vs re-solve b)
+07-10 11:36:54   [Error_Spotting_Adv] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+07-10 11:37:06   [Fill_in_Blanks_Adv] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+07-10 11:37:24   [Sentence_Improvement_Adv] wrote Feynman_hi.txt (2776 chars)
+07-10 11:37:40   [Sentence_Improvement_Adv] wrote Mind_Map_en.txt (1393 chars)
+07-10 11:38:27   [Fill_in_Blanks_Adv] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+07-10 11:38:29   [Sentence_Improvement_Adv] wrote Mind_Map_hi.txt (1565 chars)
+07-10 11:39:18   [Sentence_Improvement_Adv] wrote Flashcards_en.txt (4246 chars)
+07-10 11:39:32   [Spelling] review PYQ_hi.txt: 1 issue(s): - Invented exam statistic: "परीक्षक 80% बार उन्हीं 100-150 'क्लासिक गलत' शब्दों को घुमाता है" → Replace with a non-spec
+07-10 11:40:35   [Sentence_Improvement_Adv] wrote Flashcards_hi.txt (4810 chars)
+07-10 11:40:41   [Fill_in_Blanks_Adv] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+07-10 11:42:06   [Sentence_Improvement_Adv] wrote PYQ_en.txt (8873 chars)
+07-10 11:42:25   [Error_Spotting_Adv] Practice_en_Set_06.txt try 1: re-solve disagrees (Q141 key b vs re-solve c, Q150 key d vs re-solve a)
+07-10 11:42:30   [Fill_in_Blanks_Adv] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 ```
