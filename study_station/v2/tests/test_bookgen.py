@@ -344,3 +344,16 @@ def test_too_long_section_is_retried_tighter(chapter, db, monkeypatch):
     monkeypatch.setattr(bookgen, '_ask', ask)
     written, failed = bookgen.run(db, chapter, ['Content_hi'], out=lambda *a: None)
     assert written == ['Content_hi.txt'] and 'tighter version' in asks[1]
+
+
+def test_review_fix_in_the_wrong_language_is_retried(broken_chapter, db, monkeypatch):
+    ch = broken_chapter
+    (ch / 'Prompts' / 'PYQ_en.txt').write_text('Exam pattern notes. ' * 30)
+    monkeypatch.setattr(bookgen, '_ask_review',
+                        lambda db, user: '- wrong fact → fix' if 'file="Content_hi.txt"' in user else 'OK')
+    answers = iter(['Only English text about states and rivers. ' * 20,
+                    'राज्य और नदियों के बारे में सुधरा हुआ पाठ। ' * 20])
+    monkeypatch.setattr(bookgen, '_ask', lambda db, user: next(answers))
+    fixed, failed = bookgen.review(db, ch, out=lambda *a: None)
+    assert fixed == ['Content_hi.txt'] and failed == []
+    assert (ch / 'Content_hi.txt').read_text().startswith('राज्य और नदियों के बारे में सुधरा')

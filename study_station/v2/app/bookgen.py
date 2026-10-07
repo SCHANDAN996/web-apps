@@ -589,7 +589,19 @@ def review(db, chapter, out=print):
                 remember(text)
                 continue
             out(f'  review {name}: {len(issues)} issue(s): {issues[0][:120]}')
-            new = _clean_output(_ask(db, repair_request(name, text, issues)), name)
+            ask = repair_request(name, text, issues)
+            for attempt in range(2):                      # the fix must still be the same language and topic
+                new = _clean_output(_ask(db, ask), name)
+                lang = bookcheck.language_problem(name, new, is_english_book(chapter)) or \
+                    bookcheck.off_topic(chapter, name, new)
+                if not lang:
+                    break
+                ask = repair_request(name, text, issues) + (
+                    f'\n\nYour previous rewrite was rejected: {lang}. Keep the language of the original file.')
+            if lang:
+                out(f'REJECTED review fix {name}: {lang}')
+                failed.append(name)
+                continue
         except ai.AIUnavailable as e:
             out(f'FAILED review {name}: {e} — the chapter must not be published unreviewed')
             failed.append(name)
