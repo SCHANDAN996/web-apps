@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 07-10-2026 11:58 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 07-10 10:42 AM
+**आख़िरी update:** 07-10-2026 12:13 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 07-10 10:42 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 19 Fill in Blanks Adv (Graduation English) | ✍️ लिख रहा है | 52 मिनट |
-| W2 | Chapter 20 Sentence Improvement Adv (Graduation English) | ✍️ लिख रहा है | 29 मिनट |
-| W3 | Chapter 17 Spelling (Graduation English) | 🔎 review हो रहा है | 45 मिनट |
-| W4 | Chapter 18 Error Spotting Adv (Graduation English) | 🔎 review हो रहा है | 9 मिनट |
+| W1 | Chapter 19 Fill in Blanks Adv (Graduation English) | ✍️ लिख रहा है | 67 मिनट |
+| W2 | Chapter 20 Sentence Improvement Adv (Graduation English) | ✍️ लिख रहा है | 44 मिनट |
+| W3 | Chapter 16 Idioms Phrases (Graduation English) | 🔎 review हो रहा है | 14 मिनट |
+| W4 | Chapter 18 Error Spotting Adv (Graduation English) | 🔎 review हो रहा है | 24 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -28,8 +28,8 @@
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 0 | 0 | 28 |
 | Graduation Reasoning | 0 | 0 | 30 |
-| Graduation English | 18 | 0 | 12 |
-| **कुल** | **68** | **13** | **215** |
+| Graduation English | 16 | 2 | 12 |
+| **कुल** | **66** | **15** | **215** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -49,28 +49,13 @@
 - 06-10 01:49 — Graduation English · Chapter 03 Adjective
 - 05-10 22:04 — Graduation English · Chapter 01 Noun
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 17 Spelling (English) — 1 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-07-10 11:34:47   [Sentence_Improvement_Adv] wrote Feynman_en.txt (3022 chars)
-07-10 11:34:58   [Error_Spotting_Adv] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-07-10 11:35:29   [Spelling] review PYQ_en.txt: 3 issue(s): - Over-thinking Trap example contradicts its description: it says students pick the 'fancy-looking' wrong option but gi
-07-10 11:35:34   [Fill_in_Blanks_Adv] Practice_en_Set_01.txt try 1: re-solve disagrees (Q21 key a vs re-solve b)
-07-10 11:36:54   [Error_Spotting_Adv] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-07-10 11:37:06   [Fill_in_Blanks_Adv] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-07-10 11:37:24   [Sentence_Improvement_Adv] wrote Feynman_hi.txt (2776 chars)
-07-10 11:37:40   [Sentence_Improvement_Adv] wrote Mind_Map_en.txt (1393 chars)
-07-10 11:38:27   [Fill_in_Blanks_Adv] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-07-10 11:38:29   [Sentence_Improvement_Adv] wrote Mind_Map_hi.txt (1565 chars)
-07-10 11:39:18   [Sentence_Improvement_Adv] wrote Flashcards_en.txt (4246 chars)
-07-10 11:39:32   [Spelling] review PYQ_hi.txt: 1 issue(s): - Invented exam statistic: "परीक्षक 80% बार उन्हीं 100-150 'क्लासिक गलत' शब्दों को घुमाता है" → Replace with a non-spec
-07-10 11:40:35   [Sentence_Improvement_Adv] wrote Flashcards_hi.txt (4810 chars)
-07-10 11:40:41   [Fill_in_Blanks_Adv] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-07-10 11:42:06   [Sentence_Improvement_Adv] wrote PYQ_en.txt (8873 chars)
-07-10 11:42:25   [Error_Spotting_Adv] Practice_en_Set_06.txt try 1: re-solve disagrees (Q141 key b vs re-solve c, Q150 key d vs re-solve a)
-07-10 11:42:30   [Fill_in_Blanks_Adv] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-07-10 11:43:39   [Sentence_Improvement_Adv] wrote PYQ_hi.txt (5566 chars)
-07-10 11:44:12   [Sentence_Improvement_Adv] wrote Short_Tricks_en.txt (3622 chars)
 07-10 11:45:21   [Sentence_Improvement_Adv] wrote Short_Tricks_hi.txt (4849 chars)
 07-10 11:45:30   [Sentence_Improvement_Adv] wrote Important_Rules_en.txt (1199 chars)
 07-10 11:45:38   [Fill_in_Blanks_Adv] Practice_en_Set_03.txt try 1: re-solve disagrees (Q66 key d vs re-solve b, Q74 key c vs re-solve d)
@@ -92,4 +77,23 @@
 07-10 11:56:56   [Sentence_Improvement_Adv] Practice_en_Set_02.txt try 1: re-solve disagrees (Q50 key d vs re-solve b)
 07-10 11:57:49   [Error_Spotting_Adv] review Feynman_en.txt: 1 issue(s): - The entire section content is corrupted gibberish (repetitive artifacts like "the following", "Feynman Technique 
 07-10 11:58:02   [Spelling] review Important_Rules_hi.txt: 2 issue(s): - Rule 6 states the final 'e' is dropped only before vowel suffixes ("vowel-प्रत्यय से पहले"), but the exam
+07-10 11:59:29   [Spelling] review: 8 section(s) corrected, 0 failed
+07-10 11:59:29   [Spelling] written 8, failed 0; AI calls today 146/100000
+07-10 11:59:29 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_17_Spelling after 77 min: todo [] problems ['Important_Rules_hi.txt: Hindi file is mostly not in Hindi']
+07-10 11:59:30 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_16_Idioms_Phrases (OK: todo 0, problems 0)
+07-10 11:59:31   [Sentence_Improvement_Adv] Practice_en_Set_02.txt try 2: re-solve disagrees (Q26 key d vs re-solve a)
+07-10 12:00:50   [Error_Spotting_Adv] review Mind_Map_hi.txt: 1 issue(s): - "12 स्वर्ण नियम" लेबल में 12 नियमों का दावा है, लेकिन केवल 6 नियम (E1–E6) दिखाए गए हैं → लेबल को "6 स्वर्ण नियम"
+07-10 12:01:54   [Sentence_Improvement_Adv] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+07-10 12:02:07   [Idioms_Phrases] review Mind_Map_en.txt: 1 issue(s): - "15-Second Rule" and "45-Second Rule" presented as established exam strategies → These are invented time limits 
+07-10 12:02:18   [Idioms_Phrases] REJECTED review fix Mind_Map_en.txt: no usable mermaid graph
+07-10 12:02:38   [Error_Spotting_Adv] review Flashcards_en.txt: 1 issue(s): - Card 11: Explanation says "in embedded/indirect questions, use statement order — 'What are you doing?'" but "W
+07-10 12:03:10   [Sentence_Improvement_Adv] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+07-10 12:05:00   [Error_Spotting_Adv] review Flashcards_hi.txt: 2 issue(s): - Card 2: The mnemonic “SANAM” lists “Anyone” twice and omits “Nobody” → Use a correct mnemonic such as “S‑Someo
+07-10 12:05:01   [Idioms_Phrases] review PYQ_en.txt: 2 issue(s): - The "Body-part idioms" list includes non-body-part idioms: "by hook or by crook", "to bite the dust", "to wash one's 
+07-10 12:07:04   [Sentence_Improvement_Adv] Practice_en_Set_03.txt try 1: re-solve disagrees (Q55 key a vs re-solve b)
+07-10 12:09:55   [Fill_in_Blanks_Adv] FAILED Practice_en_Set_04.txt: too_long
+07-10 12:09:55   [Fill_in_Blanks_Adv] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
+07-10 12:11:52   [Sentence_Improvement_Adv] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+07-10 12:13:31   [Sentence_Improvement_Adv] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+07-10 12:13:50   [Error_Spotting_Adv] review PYQ_en.txt: 1 issue(s): - Q2: Answer (d) claims no error, but "The committee have divided on this issue" is grammatically incorrect; collective
 ```
