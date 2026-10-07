@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 07-10-2026 11:06 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 07-10 10:42 AM
+**आख़िरी update:** 07-10-2026 11:13 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 07-10 10:42 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 15 One Word Substitution (Graduation English) | 📤 push हो रहा है | 0 मिनट |
-| W2 | Chapter 16 Idioms Phrases (Graduation English) | 🔧 सुधार रहा है | 2 मिनट |
-| W3 | Chapter 17 Spelling (Graduation English) | ✍️ लिख रहा है | 23 मिनट |
-| W4 | Chapter 18 Error Spotting Adv (Graduation English) | ✍️ लिख रहा है | 23 मिनट |
+| W1 | Chapter 19 Fill in Blanks Adv (Graduation English) | ✍️ लिख रहा है | 6 मिनट |
+| W2 | Chapter 16 Idioms Phrases (Graduation English) | 🔎 review हो रहा है | 6 मिनट |
+| W3 | Chapter 17 Spelling (Graduation English) | ✍️ लिख रहा है | 30 मिनट |
+| W4 | Chapter 18 Error Spotting Adv (Graduation English) | ✍️ लिख रहा है | 30 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -28,8 +28,8 @@
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 0 | 0 | 28 |
 | Graduation Reasoning | 0 | 0 | 30 |
-| Graduation English | 15 | 1 | 14 |
-| **कुल** | **65** | **14** | **217** |
+| Graduation English | 16 | 0 | 14 |
+| **कुल** | **66** | **13** | **217** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -52,22 +52,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-06-10 14:36:48   [Spelling] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-06-10 14:37:50   [Idioms_Phrases] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-06-10 14:39:46   [Error_Spotting_Adv] Practice_en_Set_01.txt try 1: re-solve disagrees (Q3 key a vs re-solve b, Q21 key c vs re-solve b)
-06-10 14:39:46   [Spelling] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-06-10 14:39:47   [Idioms_Phrases] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-06-10 14:39:47   [Idioms_Phrases] written 25, failed 1; AI calls today 732/100000
-06-10 14:39:47 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_16_Idioms_Phrases after 75 min: todo ['Content_hi.txt'] problems []
-06-10 14:39:49 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_16_Idioms_Phrases (TODO: todo 1, problems 0)
-06-10 14:41:53   [Error_Spotting_Adv] Practice_en_Set_01.txt try 2: rejected (parsed 17 questions, numbers 1…17)
-06-10 14:42:22   [Spelling] Practice_hi_Set_03.txt try 1: rejected (parsed 11 questions, numbers 51…61)
-06-10 14:44:14   [Spelling] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-06-10 14:44:20   [One_Word_Substitution] review Feynman_hi.txt: 1 issue(s): - लंबे वाक्यांश का एक शब्द वाला पता → लंबे वाक्यांश का एक शब्द वाला रूप
-06-10 14:45:18   [One_Word_Substitution] review Mind_Map_en.txt: 1 issue(s): - "Fact-based recall = 15 sec, Root-analysis = 45 sec" → Invented timing statistics presented as factual guideline
-06-10 14:47:28   [Spelling] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-06-10 14:47:57   [Error_Spotting_Adv] Practice_en_Set_01.txt try 3: re-solve disagrees (Q1 key b vs re-solve a, Q5 key a vs re-solve c, Q7 key d vs re-solve a, Q8 key d vs re-solve b, Q10 
-06-10 14:47:57   [Error_Spotting_Adv] REJECTED Practice_en_Set_01.txt: no version passed the checks — not written
 06-10 14:47:57   [Error_Spotting_Adv] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
 06-10 14:48:52   [Spelling] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 06-10 14:49:35   [One_Word_Substitution] review Flashcards_hi.txt: 1 issue(s): - Card 10 mnemonic incorrectly defines 'sooth' as 'शांति' (peace) → 'sooth' means 'truth' (सत्य); the mnemonic s
@@ -92,4 +76,20 @@
 07-10 11:05:31   [Spelling] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 07-10 11:06:21   [One_Word_Substitution] review: 2 section(s) corrected, 0 failed
 07-10 11:06:21   [One_Word_Substitution] written 2, failed 0; AI calls today 13/100000
+07-10 11:06:29 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_15_One_Word_Substitution in 24 min → 590cdb5
+07-10 11:06:29 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_19_Fill_in_Blanks_Adv (TODO: todo 26, problems 0)
+07-10 11:06:54   [Error_Spotting_Adv] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+07-10 11:07:15   [Idioms_Phrases] repaired Content_hi.txt (5257 chars)
+07-10 11:07:15   [Idioms_Phrases] written 1, failed 0; AI calls today 15/100000
+07-10 11:07:43   [Fill_in_Blanks_Adv] wrote Content_en.txt (1366 chars)
+07-10 11:08:21   [Spelling] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+07-10 11:08:34   [Fill_in_Blanks_Adv] wrote Content_hi.txt (621 chars)
+07-10 11:09:20   [Fill_in_Blanks_Adv] wrote Feynman_en.txt (353 chars)
+07-10 11:10:00   [Idioms_Phrases] review Content_en.txt: 1 issue(s): - The Hindi phrase "मुझे बहुत कमीनेस से बचा" in the Linguistic Bridge table is not valid Hindi and does not convey 
+07-10 11:10:27   [Error_Spotting_Adv] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+07-10 11:11:11   [Spelling] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+07-10 11:11:33   [Fill_in_Blanks_Adv] wrote Feynman_hi.txt (3112 chars)
+07-10 11:12:12   [Fill_in_Blanks_Adv] wrote Mind_Map_en.txt (1443 chars)
+07-10 11:13:02   [Fill_in_Blanks_Adv] Mind_Map_hi.txt try 1: rejected (no usable mermaid graph)
+07-10 11:13:13   [Idioms_Phrases] review Content_hi.txt: 2 issue(s): - Uttarakhand capital shown as "देहरादून (अंतरिम)" → should be "देहरादून (शीतकालीन राजधानी), गैरसैंण (ग्रीष्मकालीन 
 ```
