@@ -487,8 +487,13 @@ def repair(db, chapter, dry_run=False, out=print):
             out(f'would repair {name}: {"; ".join(mine)[:150]}')
             continue
         path = section_files(chapter)[name]
+        rewrite = any('does not mention the chapter topic' in p or 'much shorter than' in p for p in mine)
         try:
-            text = _clean_output(_ask(db, repair_request(name, path.read_text(encoding='utf-8', errors='replace'), mine)), name)
+            if rewrite and prompt_file(chapter, name):       # wrong or gutted section: write it again from its prompt
+                user = section_request(chapter, name)
+            else:
+                user = repair_request(name, path.read_text(encoding='utf-8', errors='replace'), mine)
+            text = _clean_output(_ask(db, user), name)
         except ai.AIUnavailable as e:
             out(f'FAILED {name}: {e}')
             failed.append(name)

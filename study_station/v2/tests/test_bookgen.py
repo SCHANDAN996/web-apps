@@ -5,7 +5,7 @@ from test_bookcheck import mcq_set
 from test_books import PROMPT, write
 
 INTRO = 'You are writing the chapter "States & Rivers" for 10th-level learners.'
-BODY = 'राज्य और नदियों का पूरा पाठ। ' * 40
+BODY = 'राज्य और नदियों (States & Rivers) का पूरा पाठ। ' * 40
 
 
 @pytest.fixture
@@ -15,7 +15,7 @@ def chapter(tmp_path, monkeypatch):
     write(ch / 'Prompts' / 'Chapter_Intro_Prompt.txt', INTRO)
     for name in ('Content_hi.txt', 'Mind_Map.txt', 'Practice_en_Set_01.txt', 'Practice_hi_Set_01.txt'):
         write(ch / 'Prompts' / name, PROMPT + f' ({name})')
-    write(ch / 'Content_en.txt', 'Finished English lesson. ' * 30)                   # done: never touched
+    write(ch / 'Content_en.txt', 'Finished English lesson on States & Rivers. ' * 30)                   # done: never touched
     write(root / 'BOOK_RULES.md', '# BOOK_RULES\nNo invented PYQs.')
     monkeypatch.setattr(config, 'BOOKS_DIR', root)
     monkeypatch.setattr(config, 'ANTHROPIC_API_KEY', 'test-key')
@@ -59,7 +59,7 @@ def test_bookgen_writes_root_keeps_prompts_and_translates(chapter, fake_ai, db, 
             if f'wrote {n}.txt' in out] == ['Content_hi', 'Mind_Map', 'Practice_en_Set_01', 'Practice_hi_Set_01']
     assert (chapter / 'Content_hi.txt').read_text().startswith('राज्य और नदियों')         # code fence removed
     assert (chapter / 'Prompts' / 'Content_hi.txt').read_text().startswith('# Chapter:')  # prompt untouched
-    assert (chapter / 'Content_en.txt').read_text().startswith('Finished English lesson.')
+    assert (chapter / 'Content_en.txt').read_text().startswith('Finished English lesson on States')
     system, first_user = fake_ai[0]
     assert 'No invented PYQs.' in system                                                  # BOOK_RULES.md
     assert INTRO in first_user and '<section_prompt file="Content_hi.txt">' in first_user

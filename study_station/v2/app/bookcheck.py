@@ -152,6 +152,42 @@ def check_practice_pair(en_path, hi_path, english_book=False):
     return problems
 
 
+GENERIC_WORDS = {'and', 'the', 'basic', 'basics', 'part', 'introduction', 'advanced', 'level', 'एवं', 'और', 'तथा'}
+TOPIC_SECTIONS = ('Content_', 'Mind_Map')     # Feynman sections explain one sub-idea and may not name the topic
+
+
+def topic_words(chapter):
+    """Words that name the chapter's topic: folder name + chapter.json titles."""
+    words = set(re.sub(r'^Chapter_\d+_?', '', Path(chapter).name).replace('-', '_').split('_'))
+    try:
+        meta = json.loads((Path(chapter) / 'chapter.json').read_text(encoding='utf-8'))
+        for key in ('title_en', 'title_hi'):
+            words |= set(re.findall(r'[\w\u0900-\u097F]+', str(meta.get(key) or '')))
+    except (OSError, ValueError):
+        pass
+    return {w.lower() for w in words if len(w) >= 3 and w.lower() not in GENERIC_WORDS}
+
+
+def _latin_terms(text):
+    return {w.lower() for w in re.findall(r'[A-Za-z]{4,}', text)}
+
+
+def off_topic(chapter, name, text, en_text=None):
+    """A main section that never names its chapter's topic was written about something else. A Hindi section may
+    name the topic only in Hindi words we do not list, so it also counts as on topic when its English terms are
+    largely the English section's."""
+    if not name.startswith(TOPIC_SECTIONS):
+        return None
+    words = topic_words(chapter)
+    low = text.lower()
+    if words and not any(w in low for w in words):
+        terms = _latin_terms(text)
+        if en_text and terms and len(terms & _latin_terms(en_text)) >= 0.5 * len(terms):
+            return None
+        return f'{name}: does not mention the chapter topic ({", ".join(sorted(words)[:4])}) — written about something else?'
+    return None
+
+
 def check_chapter(chapter):
     """Return (todo_sections, problems) for one chapter directory."""
     files = section_files(chapter)
@@ -174,6 +210,15 @@ def check_chapter(chapter):
         problems += source_problems(name, text)
         if '10th_Level' in str(chapter) and re.search(r'\bUPSC\b', text):
             problems.append(f'{name}: mentions UPSC in a 10th-level book (BOOK_RULES §2)')
+        m = re.match(r'(.+)_hi\.txt$', name)
+        en = files.get(f'{m.group(1)}_en.txt') if m else None
+        en_text = en.read_text(encoding='utf-8', errors='replace') if en else None
+        if (ot := off_topic(chapter, name, text, en_text)):
+            problems.append(ot)
+        if en_text is not None:
+            en_len = len(en_text.strip())
+            if en_len >= 2000 and len(text.strip()) < en_len * 0.35:
+                problems.append(f'{name}: much shorter than the English section ({len(text.strip())} vs {en_len} chars)')
     for n in range(1, SETS_PER_LANG + 1):
         en, hi = files.get(f'Practice_en_Set_{n:02d}.txt'), files.get(f'Practice_hi_Set_{n:02d}.txt')
         if en is None and hi is None:

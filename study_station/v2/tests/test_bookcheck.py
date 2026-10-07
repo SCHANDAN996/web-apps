@@ -170,3 +170,14 @@ def test_english_book_hindi_set_must_keep_the_english_sentence():
     kept = ParsedQuestion(104, 'रिक्त स्थान भरिए: "She ______ her project before the deadline was announced."', opts, 2, 'x')
     lost = ParsedQuestion(104, 'समय-सीमा घोषित होने से पहले वह अपनी परियोजना ______ चुकी थी।', opts, 2, 'x')
     assert translated_english([en], [kept]) == [] and translated_english([en], [lost]) == [104]
+
+
+def test_off_topic_and_gutted_hindi_sections_are_flagged(tmp_path):
+    from app.bookcheck import check_chapter
+    en = 'Idioms and phrases: meaning, usage and examiner traps. ' * 60
+    ch = write_chapter(tmp_path, **{'Content_en.txt': en,
+                                    'Content_hi.txt': 'भारत में अनेक पर्वत हैं। Mountains and plateaus of India. ' * 8})
+    ch = ch.rename(ch.parent / 'Chapter_16_Idioms_Phrases')
+    probs = check_chapter(ch)[1]
+    assert any('Content_hi.txt: does not mention the chapter topic' in p for p in probs)
+    assert any('Content_hi.txt: much shorter than the English section' in p for p in probs)
