@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 07-10-2026 11:43 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 07-10 10:42 AM
+**आख़िरी update:** 07-10-2026 11:58 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 07-10 10:42 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 19 Fill in Blanks Adv (Graduation English) | ✍️ लिख रहा है | 37 मिनट |
-| W2 | Chapter 20 Sentence Improvement Adv (Graduation English) | ✍️ लिख रहा है | 14 मिनट |
-| W3 | Chapter 17 Spelling (Graduation English) | 🔎 review हो रहा है | 30 मिनट |
-| W4 | Chapter 18 Error Spotting Adv (Graduation English) | ✍️ लिख रहा है | 60 मिनट |
+| W1 | Chapter 19 Fill in Blanks Adv (Graduation English) | ✍️ लिख रहा है | 52 मिनट |
+| W2 | Chapter 20 Sentence Improvement Adv (Graduation English) | ✍️ लिख रहा है | 29 मिनट |
+| W3 | Chapter 17 Spelling (Graduation English) | 🔎 review हो रहा है | 45 मिनट |
+| W4 | Chapter 18 Error Spotting Adv (Graduation English) | 🔎 review हो रहा है | 9 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -28,8 +28,8 @@
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 0 | 0 | 28 |
 | Graduation Reasoning | 0 | 0 | 30 |
-| Graduation English | 17 | 0 | 13 |
-| **कुल** | **67** | **13** | **216** |
+| Graduation English | 18 | 0 | 12 |
+| **कुल** | **68** | **13** | **215** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -52,29 +52,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-07-10 11:19:32   [Error_Spotting_Adv] Practice_en_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
-07-10 11:20:29   [Fill_in_Blanks_Adv] wrote PYQ_en.txt (15916 chars)
-07-10 11:21:47   [Spelling] review Content_hi.txt: 2 issue(s): - Rule 3 incorrectly lists "begin" as a one-syllable word (एक-अक्षर के शब्द) for the consonant-doubling rule; "begi
-07-10 11:22:36   [Error_Spotting_Adv] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-07-10 11:23:04   [Idioms_Phrases] review Short_Tricks_en.txt: 1 issue(s): - In Trick 11, the example says "to rain cats and dogs heavily" is fine, but the rule states idioms are frozen
-07-10 11:23:07   [Fill_in_Blanks_Adv] wrote PYQ_hi.txt (5872 chars)
-07-10 11:24:18   [Error_Spotting_Adv] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-07-10 11:25:24   [Spelling] review Feynman_en.txt: 1 issue(s): - The mnemonic "double C, double M, double T, double O, double M" misstates the double letters in "committee" and "
-07-10 11:25:36   [Fill_in_Blanks_Adv] wrote Short_Tricks_en.txt (7423 chars)
-07-10 11:26:49   [Idioms_Phrases] review Important_Rules_en.txt: 8 issue(s): - Rule 3 example contains an extra comma: "Burn the, midnight oil" → "Burn the midnight oil"
-07-10 11:26:56   [Fill_in_Blanks_Adv] wrote Short_Tricks_hi.txt (5305 chars)
-07-10 11:27:55   [Idioms_Phrases] review Important_Rules_hi.txt: 1 issue(s): - Rule 10 cites “By hook or by crook” as a body‑part idiom, but it contains no body part → replace it with 
-07-10 11:28:22   [Fill_in_Blanks_Adv] wrote Important_Rules_en.txt (5408 chars)
-07-10 11:28:39   [Error_Spotting_Adv] Practice_en_Set_05.txt try 1: re-solve disagrees (Q125 key a vs re-solve c)
-07-10 11:28:45   [Idioms_Phrases] review: 7 section(s) corrected, 0 failed
-07-10 11:28:45   [Idioms_Phrases] written 7, failed 0; AI calls today 75/100000
-07-10 11:28:51 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_16_Idioms_Phrases in 46 min → 6071290
-07-10 11:28:52 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_20_Sentence_Improvement_Adv (TODO: todo 26, problems 0)
-07-10 11:29:54   [Sentence_Improvement_Adv] Content_en.txt try 1: rejected (chat debris "Text")
-07-10 11:29:59   [Fill_in_Blanks_Adv] wrote Important_Rules_hi.txt (4382 chars)
-07-10 11:31:32   [Sentence_Improvement_Adv] wrote Content_en.txt (8639 chars)
-07-10 11:32:55   [Error_Spotting_Adv] Practice_en_Set_05.txt try 2: re-solve disagrees (Q109 key a vs re-solve c, Q121 key b vs re-solve a, Q125 key c vs re-solve a)
-07-10 11:33:37   [Sentence_Improvement_Adv] wrote Content_hi.txt (7982 chars)
 07-10 11:34:47   [Sentence_Improvement_Adv] wrote Feynman_en.txt (3022 chars)
 07-10 11:34:58   [Error_Spotting_Adv] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 07-10 11:35:29   [Spelling] review PYQ_en.txt: 3 issue(s): - Over-thinking Trap example contradicts its description: it says students pick the 'fancy-looking' wrong option but gi
@@ -92,4 +69,27 @@
 07-10 11:42:06   [Sentence_Improvement_Adv] wrote PYQ_en.txt (8873 chars)
 07-10 11:42:25   [Error_Spotting_Adv] Practice_en_Set_06.txt try 1: re-solve disagrees (Q141 key b vs re-solve c, Q150 key d vs re-solve a)
 07-10 11:42:30   [Fill_in_Blanks_Adv] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+07-10 11:43:39   [Sentence_Improvement_Adv] wrote PYQ_hi.txt (5566 chars)
+07-10 11:44:12   [Sentence_Improvement_Adv] wrote Short_Tricks_en.txt (3622 chars)
+07-10 11:45:21   [Sentence_Improvement_Adv] wrote Short_Tricks_hi.txt (4849 chars)
+07-10 11:45:30   [Sentence_Improvement_Adv] wrote Important_Rules_en.txt (1199 chars)
+07-10 11:45:38   [Fill_in_Blanks_Adv] Practice_en_Set_03.txt try 1: re-solve disagrees (Q66 key d vs re-solve b, Q74 key c vs re-solve d)
+07-10 11:46:22   [Error_Spotting_Adv] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+07-10 11:46:59   [Sentence_Improvement_Adv] wrote Important_Rules_hi.txt (4381 chars)
+07-10 11:47:09   [Spelling] review Short_Tricks_en.txt: 2 issue(s): - Skip Tip 2 claims unfamiliar words are "rare in SSC, common in CGL Tier-2/IBPS" but CGL Tier-2 is an SSC exa
+07-10 11:48:38   [Error_Spotting_Adv] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+07-10 11:48:38   [Error_Spotting_Adv] written 10, failed 0; AI calls today 121/100000
+07-10 11:48:41   [Fill_in_Blanks_Adv] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+07-10 11:49:28   [Error_Spotting_Adv] repaired Feynman_hi.txt (2312 chars)
+07-10 11:49:28   [Error_Spotting_Adv] written 1, failed 0; AI calls today 123/100000
+07-10 11:50:07   [Fill_in_Blanks_Adv] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+07-10 11:52:03   [Sentence_Improvement_Adv] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+07-10 11:52:25   [Spelling] review Short_Tricks_hi.txt: 2 issue(s): - Formula 1 claims "परीक्षा में 80% spelling गलतियाँ double letters में होती हैं" → invented statistic without
+07-10 11:53:20   [Error_Spotting_Adv] review Content_en.txt: 1 issue(s): - Part 3 heading says "Four Examiner Traps" but only three traps are described → Change heading to "Three Examiner 
+07-10 11:53:27   [Fill_in_Blanks_Adv] Practice_en_Set_04.txt try 1: re-solve disagrees (Q83 key b vs re-solve c)
+07-10 11:53:33   [Sentence_Improvement_Adv] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+07-10 11:53:41   [Fill_in_Blanks_Adv] Practice_en_Set_04.txt try 2: rejected (parsed 0 questions, numbers -…-)
+07-10 11:56:56   [Sentence_Improvement_Adv] Practice_en_Set_02.txt try 1: re-solve disagrees (Q50 key d vs re-solve b)
+07-10 11:57:49   [Error_Spotting_Adv] review Feynman_en.txt: 1 issue(s): - The entire section content is corrupted gibberish (repetitive artifacts like "the following", "Feynman Technique 
+07-10 11:58:02   [Spelling] review Important_Rules_hi.txt: 2 issue(s): - Rule 6 states the final 'e' is dropped only before vowel suffixes ("vowel-प्रत्यय से पहले"), but the exam
 ```
