@@ -1,0 +1,38 @@
+```mermaid
+graph TD
+    A["Synonyms<br>Words with Similar Meanings"] --> B["Core Concept"]
+    A --> C["Word-Building Roots"]
+    A --> D["Exam Strategy"]
+    A --> E["Examiner's Traps"]
+    A --> F["High-Frequency Word Families"]
+
+    B --> B1["Same meaning<br>different word<br>e.g. Happy = Joyful = Glad"]
+    B --> B2["Context decides<br>the BEST synonym"]
+    B --> B3["Degree matters<br>Big → Large → Huge → Enormous"]
+
+    C --> C1["BENE = good<br>Benefit, Benevolent"]
+    C --> C2["MAL = bad<br>Malice, Malfunction"]
+    C --> C3["CHRON = time<br>Chronic, Chronicle"]
+    C --> C4["PHIL = love<br>Philanthropy, Bibliophile"]
+    C --> C5["PHOB = fear<br>Phobia, Claustrophobia"]
+    C --> C6["DICT = say<br>Dictate, Predict"]
+    C --> C7["PORT = carry<br>Transport, Export"]
+
+    D --> D1["15-Second Rule<br>Direct recall words<br>Answer instantly"]
+    D --> D2["45-Second Rule<br>Unfamiliar word<br>Break into root + affix"]
+    D --> D3["Eliminate opposites first"]
+    D --> D4["Match the tone<br>positive / negative / neutral"]
+    D --> D5["Skip Strategy<br>No clue after 45 sec<br>Mark and move on"]
+
+    E --> E1["Trap 1: Partial Synonym<br>Similar but not same<br>Candid ≠ Rude"]
+    E --> E2["Trap 2: Sound-Alike Words<br>Accept vs Except"]
+    E --> E3["Trap 3: Degree Confusion<br>Annoyed ≠ Furious"]
+    E --> E4["Trap 4: Antonym planted<br>as a tempting option"]
+
+    F --> F1["Begin → Commence, Initiate"]
+    F --> F2["End → Conclude, Terminate"]
+    F --> F3["Brave → Courageous, Valiant"]
+    F --> F4["Angry → Furious, Enraged"]
+    F --> F5["Beautiful → Gorgeous, Elegant"]
+    F --> F6["Important → Vital, Crucial"]
+```

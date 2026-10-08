@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 04:20 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 04:32 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 15 One Word Substitution (12th English) | ✍️ लिख रहा है | 35 मिनट |
-| W2 | Chapter 14 Antonyms (12th English) | ✍️ लिख रहा है | 44 मिनट |
-| W3 | Chapter 11 Narration (12th English) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 12 Sentence Structure (12th English) | ✍️ लिख रहा है | 49 मिनट |
-| W5 | Chapter 13 Synonyms (12th English) | 🔎 review हो रहा है | 7 मिनट |
+| W1 | Chapter 15 One Word Substitution (12th English) | ✍️ लिख रहा है | 46 मिनट |
+| W2 | Chapter 14 Antonyms (12th English) | 🔎 review हो रहा है | 5 मिनट |
+| W3 | Chapter 16 Idioms Phrases (12th English) | ✍️ लिख रहा है | 11 मिनट |
+| W4 | Chapter 12 Sentence Structure (12th English) | ✍️ लिख रहा है | 7 मिनट |
+| W5 | Chapter 13 Synonyms (12th English) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -25,15 +25,16 @@
 | 12th Maths | 0 | 0 | 23 |
 | 12th GK | 4 | 0 | 20 |
 | 12th Reasoning | 0 | 0 | 25 |
-| 12th English | 12 | 0 | 13 |
+| 12th English | 13 | 0 | 12 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 6 | 0 | 22 |
 | Graduation Reasoning | 0 | 0 | 30 |
 | Graduation English | 28 | 0 | 2 |
-| **कुल** | **100** | **13** | **183** |
+| **कुल** | **101** | **13** | **182** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 04:32 — 12th English · Chapter 13 Synonyms
 - 09-10 04:20 — 12th English · Chapter 11 Narration
 - 09-10 03:45 — 12th English · Chapter 03 Adjective
 - 09-10 03:36 — 12th English · Chapter 06 Adverb
@@ -43,49 +44,49 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 11 Narration (English) — 1 बार
+- Chapter 12 Sentence Structure (English) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 04:06:41   [Antonyms] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-09-10 04:07:39   [One_Word_Substitution] Mind_Map_hi.txt try 1: rejected (corrupted characters)
-09-10 04:07:52   [Sentence_Structure] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 04:07:56   [Narration] review Important_Rules_en.txt: 1 issue(s): - Misspelling "exclaimation" in the morphology table under the **ex-** prefix examples → should be "exclama
-09-10 04:07:56   [One_Word_Substitution] wrote Mind_Map_hi.txt (1385 chars)
-09-10 04:08:27   [One_Word_Substitution] wrote Flashcards_en.txt (3208 chars)
-09-10 04:08:37   [Synonyms] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 04:09:34   [Narration] review: 2 section(s) corrected, 3 failed
-09-10 04:09:34   [Narration] written 2, failed 3; AI calls today 215/100000
-09-10 04:09:34 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_11_Narration after 41 min: todo [] problems []
-09-10 04:09:35 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_11_Narration (OK: todo 0, problems 0)
-09-10 04:10:06   [Antonyms] Practice_en_Set_02.txt try 1: rejected (parsed 1 questions, numbers 26…26)
-09-10 04:10:08   [Synonyms] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 04:10:08   [Synonyms] written 26, failed 0; AI calls today 217/100000
-09-10 04:10:45   [One_Word_Substitution] wrote Flashcards_hi.txt (3353 chars)
-09-10 04:12:03   [Antonyms] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-09-10 04:12:04   [Narration] review Content_en.txt: 1 issue(s): - The claim "Every year, examiners hide 2–5 marks inside this single skill" is an invented exam weightage statistic
-09-10 04:12:18   [Sentence_Structure] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-09-10 04:12:19   [One_Word_Substitution] wrote PYQ_en.txt (6390 chars)
-09-10 04:12:45   [Synonyms] repaired set 05 (en + hi, key confirmed by an independent re-solve)
-09-10 04:12:45   [Synonyms] written 1, failed 0; AI calls today 226/100000
-09-10 04:13:38   [One_Word_Substitution] wrote PYQ_hi.txt (6009 chars)
-09-10 04:13:41   [One_Word_Substitution] Short_Tricks_en.txt try 1: rejected (too short)
-09-10 04:13:55   [One_Word_Substitution] wrote Short_Tricks_en.txt (1349 chars)
-09-10 04:14:21   [Antonyms] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-09-10 04:14:25   [Sentence_Structure] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-09-10 04:15:28   [Antonyms] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-09-10 04:15:46   [Synonyms] review Content_en.txt: 1 issue(s): - The claim "4–6 Marks" in the chapter heading is an invented exam weightage statistic → Remove the specific number
-09-10 04:15:50   [One_Word_Substitution] wrote Short_Tricks_hi.txt (8017 chars)
-09-10 04:16:29   [Narration] review Content_hi.txt: 1 issue(s): - Claim "SSC CHSL, CGL Tier-1 और RRB NTPC में Narration से लगभग हर शिफ्ट में 1–3 प्रश्न पूछे जाते हैं" is an invent
-09-10 04:16:29   [One_Word_Substitution] wrote Important_Rules_en.txt (5097 chars)
-09-10 04:17:00   [Antonyms] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-09-10 04:17:27   [One_Word_Substitution] wrote Important_Rules_hi.txt (3589 chars)
-09-10 04:18:08   [Sentence_Structure] Practice_en_Set_06.txt try 1: re-solve disagrees (Q129 key b vs re-solve ?)
-09-10 04:18:34   [Antonyms] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-09-10 04:19:49   [One_Word_Substitution] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 04:20:12   [Antonyms] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 04:20:20   [Narration] review Mind_Map_hi.txt: 2 issue(s): - C1: "said → told" → "said" remains "said" in indirect speech; "said to" becomes "told" only when followed by an 
-09-10 04:20:35   [Narration] review: 3 section(s) corrected, 0 failed
-09-10 04:20:35   [Narration] written 3, failed 0; AI calls today 257/100000
+09-10 04:20:46 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_16_Idioms_Phrases (TODO: todo 26, problems 0)
+09-10 04:21:29   [Sentence_Structure] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 04:21:34   [Sentence_Structure] Practice_hi_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 04:22:03   [Antonyms] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 04:22:07   [Sentence_Structure] Practice_hi_Set_06.txt try 2: rejected (parsed 0 questions, numbers -…-)
+09-10 04:22:12   [Idioms_Phrases] wrote Content_en.txt (8002 chars)
+09-10 04:22:37   [Antonyms] Practice_hi_Set_05.txt try 1: rejected (parsed 1 questions, numbers 101…101)
+09-10 04:22:52   [Synonyms] review PYQ_en.txt: 1 issue(s): - The sub-topic "Phrasal/abstract verbs" lists abandon, abolish, accomplish, endure, persevere as phrasal verbs → none 
+09-10 04:22:55   [One_Word_Substitution] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 04:23:47   [Idioms_Phrases] wrote Content_hi.txt (7362 chars)
+09-10 04:24:02   [Antonyms] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 04:24:17   [Idioms_Phrases] wrote Feynman_en.txt (3457 chars)
+09-10 04:24:21   [One_Word_Substitution] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+09-10 04:25:07   [Idioms_Phrases] wrote Feynman_hi.txt (2663 chars)
+09-10 04:25:12   [Sentence_Structure] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+09-10 04:25:12   [Sentence_Structure] written 22, failed 4; AI calls today 278/100000
+09-10 04:25:12 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_12_Sentence_Structure after 54 min: todo ['Feynman_hi.txt', 'Set 01 en: todo', 'Set 01 hi: todo', 'Set 03 hi: todo'] problems []
+09-10 04:25:13 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_12_Sentence_Structure (TODO: todo 4, problems 0)
+09-10 04:25:25   [Idioms_Phrases] wrote Mind_Map_en.txt (1592 chars)
+09-10 04:25:47   [Idioms_Phrases] wrote Mind_Map_hi.txt (1458 chars)
+09-10 04:26:03   [Synonyms] review Short_Tricks_hi.txt: 1 issue(s): - Trick 1 lists "Abridge" as an example of the root "AB" (Latin *ab-* = away), but "abridge" comes from Late L
+09-10 04:26:05   [Antonyms] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 04:26:33   [One_Word_Substitution] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 04:26:44   [Idioms_Phrases] wrote Flashcards_en.txt (3704 chars)
+09-10 04:27:02   [Antonyms] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+09-10 04:27:02   [Antonyms] written 26, failed 0; AI calls today 286/100000
+09-10 04:27:47   [Idioms_Phrases] wrote Flashcards_hi.txt (3745 chars)
+09-10 04:28:00   [One_Word_Substitution] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 04:29:05   [Idioms_Phrases] wrote PYQ_en.txt (9514 chars)
+09-10 04:29:06   [Synonyms] review Important_Rules_en.txt: 1 issue(s): - Wrong morphological split in the exam tip: "Mal + evolent" for "malevolent" → correct breakdown is "mal-"
+09-10 04:29:09   [One_Word_Substitution] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 04:29:43   [Antonyms] review Content_en.txt: 2 issue(s): - Review instruction says "Write the 8 negative prefixes" but the table lists only 7 prefixes (un-, in-/im-/il-/ir-
+09-10 04:30:09   [Sentence_Structure] Feynman_hi.txt try 1: rejected (corrupted characters)
+09-10 04:30:49   [Sentence_Structure] wrote Feynman_hi.txt (2372 chars)
+09-10 04:31:07   [Idioms_Phrases] wrote PYQ_hi.txt (5816 chars)
+09-10 04:31:50   [One_Word_Substitution] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 04:32:05   [Antonyms] review Content_hi.txt: 2 issue(s): - The hook states "60% छात्र (a) Clear चुनकर बैठ जाते हैं" — this is an invented exam statistic with no source or y
+09-10 04:32:10   [Idioms_Phrases] wrote Short_Tricks_en.txt (6423 chars)
+09-10 04:32:19   [Synonyms] review: 4 section(s) corrected, 0 failed
+09-10 04:32:19   [Synonyms] written 4, failed 0; AI calls today 305/100000
 ```
