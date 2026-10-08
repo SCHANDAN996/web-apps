@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 08-10-2026 08:58 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 09:13 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 26 Critical Reading (Graduation English) | 🔎 review हो रहा है | 7 मिनट |
-| W2 | Chapter 25 Word Roots (Graduation English) | ✍️ लिख रहा है | 85 मिनट |
-| W3 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 121 मिनट |
-| W4 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 121 मिनट |
-| W5 | Chapter 27 Precis Writing (Graduation English) | ✍️ लिख रहा है | 6 मिनट |
+| W1 | Chapter 26 Critical Reading (Graduation English) | 🔎 review हो रहा है | 22 मिनट |
+| W2 | Chapter 25 Word Roots (Graduation English) | ✍️ लिख रहा है | 100 मिनट |
+| W3 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 136 मिनट |
+| W4 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 136 मिनट |
+| W5 | Chapter 27 Precis Writing (Graduation English) | ✍️ लिख रहा है | 21 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md)
 
@@ -43,27 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 20:24:31   [Sentence_Arrangement] FAILED Practice_hi_Set_02.txt: too_long
-08-10 20:25:59   [Sentence_Arrangement] Practice_en_Set_03.txt try 1: rejected (Q61:duplicate_options)
-08-10 20:27:15   [RC_Adv] review Feynman_en.txt: 1 issue(s): - "Blurring Sheet Instruction" heading uses incorrect term "Blurring" → should be "Blurting Sheet Instruction" (the
-08-10 20:29:07   [Critical_Reading] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-08-10 20:31:05   [Critical_Reading] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-08-10 20:31:40   [Para_Jumbles_Adv] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-08-10 20:32:56   [Word_Roots] Practice_en_Set_04.txt try 1: re-solve disagrees (Q88 key d vs re-solve ?, Q98 key c vs re-solve d)
-08-10 20:34:25   [Word_Roots] Practice_en_Set_04.txt try 2: rejected (parsed 21 questions, numbers 76…99)
-08-10 20:34:57   [Critical_Reading] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-08-10 20:35:42   [Para_Jumbles_Adv] Practice_hi_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
-08-10 20:38:21   [Critical_Reading] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-08-10 20:38:30   [Critical_Reading] Practice_en_Set_06.txt try 1: rejected (parsed 1 questions, numbers 126…126)
-08-10 20:39:31   [Sentence_Arrangement] Practice_en_Set_03.txt try 2: re-solve disagrees (Q52 key b vs re-solve a, Q57 key d vs re-solve a, Q60 key a vs re-solve b, Q64 key d vs re-solve a, 
-08-10 20:40:52   [Para_Jumbles_Adv] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-08-10 20:43:07   [Critical_Reading] Practice_en_Set_06.txt try 2: rejected (parsed 0 questions, numbers -…-)
-08-10 20:43:43   [RC_Adv] review Flashcards_hi.txt: 1 issue(s): - Card 9: SQ3R विधि का चौथा चरण "Recall" बताया गया है, जबकि मानक SQ3R (Survey, Question, Read, Recite, Review) म
-08-10 20:46:15   [Word_Roots] Practice_en_Set_04.txt try 3: rejected (parsed 0 questions, numbers -…-)
-08-10 20:46:48   [Para_Jumbles_Adv] Practice_en_Set_04.txt try 1: re-solve disagrees (Q94 key c vs re-solve a, Q97 key b vs re-solve a)
-08-10 20:47:10   [Critical_Reading] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-08-10 20:48:41   [Critical_Reading] Practice_hi_Set_06.txt try 1: rejected (parsed 3 questions, numbers 126…129)
-08-10 20:50:47   [Critical_Reading] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 08-10 20:50:47   [Critical_Reading] written 26, failed 0; AI calls today 238/100000
 08-10 20:51:49   [RC_Adv] review: 3 section(s) corrected, 0 failed
 08-10 20:51:49   [RC_Adv] written 3, failed 0; AI calls today 239/100000
@@ -83,4 +62,25 @@
 08-10 20:57:15   [Para_Jumbles_Adv] Practice_en_Set_04.txt try 3: rejected (parsed 0 questions, numbers -…-)
 08-10 20:57:27   [Precis_Writing] wrote Flashcards_en.txt (3888 chars)
 08-10 20:58:03   [Critical_Reading] REJECTED review fix Content_en.txt: corrupted characters
+08-10 20:58:27   [Word_Roots] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+08-10 20:58:44   [Precis_Writing] Flashcards_hi.txt try 1: rejected (corrupted characters)
+08-10 21:00:09   [Word_Roots] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+08-10 21:00:37   [Precis_Writing] wrote Flashcards_hi.txt (5229 chars)
+08-10 21:01:56   [Precis_Writing] wrote PYQ_en.txt (8146 chars)
+08-10 21:02:16   [Word_Roots] Practice_en_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
+08-10 21:04:09   [Precis_Writing] wrote PYQ_hi.txt (6353 chars)
+08-10 21:04:58   [Critical_Reading] review Content_hi.txt: 4 issue(s): - "80% उम्मीदवार हार जाते हैं" आविष्कृत आंकड़ा है → आंकड़ा हटाएं या "बहुत से उम्मीदवार" जैसे सामान्य कथन से बदलें
+08-10 21:05:17   [Precis_Writing] wrote Short_Tricks_en.txt (7640 chars)
+08-10 21:06:16   [Precis_Writing] wrote Short_Tricks_hi.txt (3235 chars)
+08-10 21:07:26   [Precis_Writing] wrote Important_Rules_en.txt (6021 chars)
+08-10 21:08:17   [Critical_Reading] review Feynman_en.txt: 1 issue(s): - Section content is corrupted/garbled (tokenizer artifacts, code fragments, random characters) → Replace with cohe
+08-10 21:08:37   [Precis_Writing] wrote Important_Rules_hi.txt (4179 chars)
+08-10 21:09:24   [Sentence_Arrangement] Practice_en_Set_04.txt try 2: re-solve disagrees (Q77 key d vs re-solve a, Q85 key a vs re-solve b, Q93 key c vs re-solve a)
+08-10 21:09:53   [Precis_Writing] Practice_en_Set_01.txt try 1: rejected (parsed 23 questions, numbers 1…25)
+08-10 21:10:00   [Sentence_Arrangement] Practice_en_Set_04.txt try 3: rejected (parsed 0 questions, numbers -…-)
+08-10 21:11:25   [Precis_Writing] Practice_en_Set_01.txt try 2: rejected (parsed 23 questions, numbers 1…25)
+08-10 21:12:34   [Word_Roots] Practice_en_Set_05.txt try 2: re-solve disagrees (Q112 key b vs re-solve c, Q113 key d vs re-solve ?, Q119 key d vs re-solve ?)
+08-10 21:12:51   [Para_Jumbles_Adv] Practice_en_Set_04.txt try 4: re-solve disagrees (Q76 key d vs re-solve a, Q79 key a vs re-solve d, Q88 key c vs re-solve b, Q90 key d vs re-solve a, 
+08-10 21:12:51   [Para_Jumbles_Adv] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
+08-10 21:12:51   [Para_Jumbles_Adv] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
 ```
