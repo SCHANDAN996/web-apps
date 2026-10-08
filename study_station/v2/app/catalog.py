@@ -39,6 +39,8 @@ TOPICS = {
         ('statistics', 'सांख्यिकी', 'Statistics'),
         ('number-series', 'संख्या श्रृंखला', 'Number Series'),
         ('probability', 'प्रायिकता', 'Probability'),
+        ('calculus', 'कलन (Calculus)', 'Calculus'),
+        ('linear-programming', 'रैखिक प्रोग्रामन', 'Linear Programming'),
         ('permutation-combination', 'क्रमचय और संचय', 'Permutation & Combination'),
         ('quadratic-equations', 'द्विघात समीकरण', 'Quadratic Equations'),
     ],
@@ -65,6 +67,10 @@ TOPICS = {
         ('mirror-water-images', 'दर्पण और जल प्रतिबिंब', 'Mirror & Water Images'),
         ('paper-folding-cutting', 'कागज़ मोड़ना और काटना', 'Paper Folding & Cutting'),
         ('figure-series', 'आकृति श्रृंखला', 'Figure Series'),
+        ('data-sufficiency', 'आँकड़ों की पर्याप्तता', 'Data Sufficiency'),
+        ('decision-making', 'निर्णय क्षमता', 'Decision Making'),
+        ('critical-reasoning', 'तार्किक विश्लेषण (Critical Reasoning)', 'Critical Reasoning'),
+        ('logical-consistency', 'तार्किक संगति', 'Logical Consistency'),
     ],
     'ga': [
         ('ancient-history', 'प्राचीन इतिहास', 'Ancient History'),
@@ -83,6 +89,8 @@ TOPICS = {
         ('important-days', 'महत्वपूर्ण दिवस', 'Important Days'),
         ('computer-awareness', 'कंप्यूटर ज्ञान', 'Computer Awareness'),
         ('current-affairs', 'करंट अफेयर्स', 'Current Affairs'),
+        ('international-orgs', 'अंतरराष्ट्रीय संगठन', 'International Organisations'),
+        ('defence', 'रक्षा', 'Defence'),
     ],
     'english': [
         ('noun', 'संज्ञा (Noun)', 'Noun'),
@@ -98,6 +106,9 @@ TOPICS = {
         ('spelling', 'वर्तनी', 'Spellings'),
         ('active-passive', 'वाच्य (Active/Passive)', 'Active & Passive Voice'),
         ('direct-indirect', 'कथन (Direct/Indirect)', 'Direct & Indirect Speech'),
+        ('reading-comprehension', 'अपठित गद्यांश (RC)', 'Reading Comprehension'),
+        ('para-jumbles', 'वाक्य क्रम (Para Jumbles)', 'Para Jumbles & Sentence Arrangement'),
+        ('mixed-practice', 'मिश्रित अभ्यास', 'Mixed Practice'),
     ],
     'science': [
         ('physics', 'भौतिक विज्ञान', 'Physics'),

@@ -480,6 +480,8 @@ def retranslate_set(db, chapter, n, out=print):
 def repair(db, chapter, dry_run=False, out=print):
     """Rewrite what bookcheck flags. Returns (written, failed)."""
     chapter = Path(chapter)
+    if not dry_run and (fields := books.fill_meta(chapter)):      # e.g. a topic that is now in the catalog
+        out(f'chapter.json: set {", ".join(fields)}')
     names, sets, problems = repair_targets(chapter)
     if not names and not sets:
         out('nothing to repair')

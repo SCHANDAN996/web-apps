@@ -50,6 +50,16 @@ BOTH = '*'                            # language key for single-file sections (M
 # Chapter folder (subject, name) → catalog topic, where the names differ. Chapters whose name is
 # already a catalog topic slug map to it directly; chapter.json "topic" overrides both.
 CHAPTER_TOPICS = {
+    # Chapters whose folder name differs from the catalog slug
+    ('english', 'para-jumbles-adv'): 'english/para-jumbles',
+    ('english', 'sentence-arrangement'): 'english/para-jumbles',
+    ('english', 'rc-adv'): 'english/reading-comprehension',
+    ('english', 'rc-basic'): 'english/reading-comprehension',
+    ('english', 'critical-reading'): 'english/reading-comprehension',
+    ('english', 'precis-writing'): 'english/reading-comprehension',
+    ('english', 'error-log'): 'english/spotting-errors',
+    ('english', 'placement-test'): 'english/mixed-practice',
+    ('english', 'revision-tracker'): 'english/mixed-practice',
     # General knowledge
     ('ga', 'states-rivers'): 'ga/indian-geography',
     ('ga', 'world-geography'): 'ga/physical-geography',
