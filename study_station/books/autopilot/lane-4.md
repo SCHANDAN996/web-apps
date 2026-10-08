@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 08-10-2026 12:59 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
+**आख़िरी update:** 08-10-2026 01:14 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Ancient History (12th GK) | ✍️ लिख रहा है | 76 मिनट |
-| W2 | Chapter 02 Medieval History (12th GK) | ✍️ लिख रहा है | 3 मिनट |
-| W3 | Chapter 03 Modern History (12th GK) | ✍️ लिख रहा है | 76 मिनट |
-| W4 | Chapter 04 Constitution Basic (12th GK) | ✍️ लिख रहा है | 76 मिनट |
-| W5 | Chapter 05 Polity (12th GK) | ✍️ लिख रहा है | 76 मिनट |
+| W1 | Chapter 01 Ancient History (12th GK) | ✍️ लिख रहा है | 91 मिनट |
+| W2 | Chapter 02 Medieval History (12th GK) | ✍️ लिख रहा है | 18 मिनट |
+| W3 | Chapter 03 Modern History (12th GK) | ✍️ लिख रहा है | 91 मिनट |
+| W4 | Chapter 04 Constitution Basic (12th GK) | ✍️ लिख रहा है | 11 मिनट |
+| W5 | Chapter 05 Polity (12th GK) | ✍️ लिख रहा है | 91 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,39 +39,11 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 02 Medieval History (GK) — 1 बार
+- Chapter 04 Constitution Basic (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 12:35:32   [Constitution_Basic] Practice_en_Set_03.txt try 2: rejected (Q51:answer_solution_conflict,Q55:answer_solution_conflict,Q73:answer_solution_conflict)
-08-10 12:36:50   [Constitution_Basic] Practice_en_Set_03.txt try 3: rejected (Q51:answer_solution_conflict,Q54:answer_solution_conflict,Q61:answer_solution_conflict,Q70:answer_solution_con
-08-10 12:36:50   [Constitution_Basic] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
-08-10 12:36:50   [Constitution_Basic] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
-08-10 12:36:53   [Constitution_Basic] Practice_en_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
-08-10 12:37:45   [Ancient_History] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-08-10 12:38:05   [Modern_History] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-08-10 12:38:12   [Constitution_Basic] Practice_en_Set_04.txt try 2: rejected (Q83:answer_solution_conflict,Q86:answer_solution_conflict,Q91:answer_solution_conflict,Q97:answer_solution_con
-08-10 12:39:28   [Constitution_Basic] Practice_en_Set_04.txt try 3: rejected (Q96:answer_solution_conflict,Q100:answer_solution_conflict)
-08-10 12:39:28   [Constitution_Basic] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
-08-10 12:39:28   [Constitution_Basic] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
-08-10 12:39:45   [Modern_History] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
-08-10 12:40:09   [Medieval_History] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-08-10 12:40:21   [Ancient_History] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-08-10 12:40:36   [Medieval_History] Practice_hi_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
-08-10 12:40:46   [Constitution_Basic] Practice_en_Set_05.txt try 1: rejected (Q101:answer_solution_conflict,Q119:answer_solution_conflict)
-08-10 12:42:21   [Constitution_Basic] Practice_en_Set_05.txt try 2: rejected (Q109:answer_solution_conflict,Q118:answer_solution_conflict)
-08-10 12:42:44   [Medieval_History] Practice_hi_Set_05.txt try 2: rejected (parsed 0 questions, numbers -…-)
-08-10 12:43:54   [Constitution_Basic] Practice_en_Set_05.txt try 3: rejected (Q101:answer_solution_conflict,Q110:answer_solution_conflict)
-08-10 12:43:54   [Constitution_Basic] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
-08-10 12:43:54   [Constitution_Basic] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
-08-10 12:45:07   [Medieval_History] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-08-10 12:46:07   [Modern_History] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-08-10 12:46:34   [Ancient_History] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-08-10 12:48:24   [Medieval_History] Practice_en_Set_06.txt try 1: rejected (Q145:answer_solution_conflict)
-08-10 12:48:54   [Ancient_History] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-08-10 12:52:07   [Medieval_History] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-08-10 12:53:28   [Polity] PYQ_en.txt try 1: answer too long — asking for a tighter version
-08-10 12:54:48   [Polity] wrote PYQ_en.txt (9275 chars)
 08-10 12:55:25   [Polity] wrote PYQ_hi.txt (2817 chars)
 08-10 12:55:42   [Medieval_History] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 08-10 12:55:42   [Medieval_History] written 19, failed 6; AI calls today 133/100000
@@ -83,4 +55,33 @@
 08-10 12:58:34   [Medieval_History] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 08-10 12:58:40   [Polity] wrote Memory_Hooks_en.txt (6334 chars)
 08-10 12:59:00   [Ancient_History] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+08-10 13:00:21   [Polity] wrote Memory_Hooks_hi.txt (6175 chars)
+08-10 13:00:32   [Medieval_History] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+08-10 13:00:53   [Modern_History] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+08-10 13:01:38   [Polity] Practice_en_Set_01.txt try 1: rejected (Q5:answer_solution_conflict,Q7:answer_solution_conflict,Q23:leaked_reasoning)
+08-10 13:01:52   [Medieval_History] Practice_en_Set_03.txt try 1: rejected (Q67:answer_solution_conflict)
+08-10 13:03:03   [Constitution_Basic] FAILED Practice_en_Set_06.txt: too_long
+08-10 13:03:03   [Constitution_Basic] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+08-10 13:03:03   [Constitution_Basic] written 13, failed 12; AI calls today 147/100000
+08-10 13:03:03 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_04_Constitution_Basic after 80 min: todo ['Set 01 en: todo', 'Set 01 hi: todo', 'Set 02 en: todo', 'Set 02 hi: todo'] problems []
+08-10 13:03:03 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_04_Constitution_Basic (TODO: todo 12, problems 0)
+08-10 13:03:27   [Medieval_History] Practice_en_Set_03.txt try 2: rejected (Q68:answer_solution_conflict)
+08-10 13:04:06   [Polity] Practice_en_Set_01.txt try 2: rejected (Q5:answer_solution_conflict)
+08-10 13:04:38   [Ancient_History] Practice_en_Set_05.txt try 1: re-solve disagrees (Q110 key a vs re-solve ?)
+08-10 13:04:54   [Medieval_History] Practice_en_Set_03.txt try 3: rejected (Q57:answer_solution_conflict)
+08-10 13:04:54   [Medieval_History] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
+08-10 13:04:54   [Medieval_History] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
+08-10 13:05:26   [Polity] Practice_en_Set_01.txt try 3: rejected (Q5:answer_solution_conflict,Q23:answer_solution_conflict)
+08-10 13:05:26   [Polity] REJECTED Practice_en_Set_01.txt: no version passed the checks — not written
+08-10 13:05:26   [Polity] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
+08-10 13:06:05   [Constitution_Basic] Practice_en_Set_01.txt try 1: rejected (Q6:answer_solution_conflict,Q10:answer_solution_conflict,Q12:answer_solution_conflict,Q25:answer_solution_conf
+08-10 13:06:47   [Polity] Practice_en_Set_02.txt try 1: rejected (Q43:answer_solution_conflict,Q46:answer_solution_conflict)
+08-10 13:07:15   [Constitution_Basic] Practice_en_Set_01.txt try 2: rejected (Q13:answer_solution_conflict,Q14:answer_solution_conflict)
+08-10 13:08:01   [Modern_History] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+08-10 13:09:33   [Ancient_History] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+08-10 13:10:34   [Modern_History] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+08-10 13:11:37   [Ancient_History] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+08-10 13:12:26   [Polity] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+08-10 13:13:51   [Medieval_History] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+08-10 13:14:17   [Modern_History] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 ```
