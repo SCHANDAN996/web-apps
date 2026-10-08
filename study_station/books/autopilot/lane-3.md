@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 08-10-2026 10:14 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 10:29 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Narration (12th English) | ✍️ लिख रहा है | 29 मिनट |
-| W2 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 197 मिनट |
-| W3 | Chapter 08 Conjunction (12th English) | ✍️ लिख रहा है | 197 मिनट |
-| W4 | Chapter 09 Articles (12th English) | 🔎 review हो रहा है | 3 मिनट |
-| W5 | Chapter 10 Voice (12th English) | ✍️ लिख रहा है | 197 मिनट |
+| W1 | Chapter 11 Narration (12th English) | ✍️ लिख रहा है | 44 मिनट |
+| W2 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 213 मिनट |
+| W3 | Chapter 08 Conjunction (12th English) | ✍️ लिख रहा है | 212 मिनट |
+| W4 | Chapter 09 Articles (12th English) | 🔎 review हो रहा है | 18 मिनट |
+| W5 | Chapter 10 Voice (12th English) | ✍️ लिख रहा है | 212 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -43,14 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 21:31:54   [Voice] Practice_en_Set_04.txt try 1: re-solve disagrees (Q88 key c vs re-solve a, Q96 key c vs re-solve b, Q98 key a vs re-solve b)
-08-10 21:33:09   [Conjunction] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-08-10 21:35:18   [Adjective] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-08-10 21:38:09   [Adverb] Practice_en_Set_04.txt try 1: re-solve disagrees (Q97 key b vs re-solve c, Q99 key c vs re-solve a)
-08-10 21:38:47   [Voice] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-08-10 21:40:14   [Adjective] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-08-10 21:40:14   [Adjective] written 2, failed 0; AI calls today 183/100000
-08-10 21:40:49   [Voice] Practice_hi_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
 08-10 21:43:10   [Adjective] repaired Mind_Map_hi.txt (1050 chars)
 08-10 21:43:10   [Adjective] written 1, failed 0; AI calls today 187/100000
 08-10 21:44:04   [Voice] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
@@ -83,4 +75,12 @@
 08-10 22:10:41   [Articles] written 1, failed 0; AI calls today 209/100000
 08-10 22:11:07   [Narration] wrote PYQ_en.txt (8652 chars)
 08-10 22:14:20   [Voice] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+08-10 22:14:46   [Narration] wrote PYQ_hi.txt (7933 chars)
+08-10 22:15:35   [Adverb] Practice_en_Set_05.txt try 1: re-solve disagrees (Q115 key d vs re-solve a, Q120 key c vs re-solve b)
+08-10 22:15:46   [Conjunction] Practice_en_Set_06.txt try 1: rejected (Q136:leaked_reasoning)
+08-10 22:18:58   [Articles] review Content_en.txt: 3 issue(s): - Invented exam statistic: "decide 2–4 marks in almost every SSC, Banking and Railway paper" → remove or provide ve
+08-10 22:21:12   [Adverb] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+08-10 22:22:23   [Narration] wrote Short_Tricks_en.txt (7383 chars)
+08-10 22:25:36   [Adverb] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+08-10 22:28:25   [Voice] Practice_en_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
 ```
