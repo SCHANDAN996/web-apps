@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 08-10-2026 09:18 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 08:48 AM
+**आख़िरी update:** 08-10-2026 09:19 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 08:48 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -9,8 +9,8 @@
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
 | W1 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 18 मिनट |
-| W2 | Chapter 21 Cloze Test Adv (Graduation English) | ✍️ लिख रहा है | 21 मिनट |
-| W3 | Chapter 19 Fill in Blanks Adv (Graduation English) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 21 Cloze Test Adv (Graduation English) | ✍️ लिख रहा है | 22 मिनट |
+| W3 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
 | W4 | Chapter 20 Sentence Improvement Adv (Graduation English) | 🔎 review हो रहा है | 30 मिनट |
 
 ## 📊 हर किताब की प्रगति
@@ -52,9 +52,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 08:54:28   [Error_Spotting_Adv] review Flashcards_hi.txt: 3 issue(s): - Card 6 back side states "K2/गॉडविन ऑस्टिन भारत-प्रशासित क्षेत्र में है" → K2 lies in Pakistan-administered Gil
-08-10 08:55:32   [Spelling] review Short_Tricks_hi.txt: 1 issue(s): - The claim "SSC में 0.25 अंक" is inaccurate for major SSC exams (CGL, CHSL have 0.5 marks negative marking); 
-08-10 08:56:48   [Error_Spotting_Adv] review: 1 section(s) corrected, 0 failed
 08-10 08:56:48   [Error_Spotting_Adv] written 1, failed 0; AI calls today 18/100000
 08-10 08:56:55 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_18_Error_Spotting_Adv in 8 min → 177d28c
 08-10 08:56:57 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_21_Cloze_Test_Adv (TODO: todo 26, problems 0)
@@ -92,4 +89,7 @@
 08-10 09:17:43   [Para_Jumbles_Adv] wrote PYQ_en.txt (10110 chars)
 08-10 09:18:42   [Fill_in_Blanks_Adv] review: 4 section(s) corrected, 0 failed
 08-10 09:18:42   [Fill_in_Blanks_Adv] written 4, failed 0; AI calls today 69/100000
+08-10 09:18:50 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_19_Fill_in_Blanks_Adv in 30 min → 4877a3f
+08-10 09:18:51 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_23_Sentence_Arrangement (TODO: todo 26, problems 1)
+08-10 09:19:23   [Para_Jumbles_Adv] wrote PYQ_hi.txt (2141 chars)
 ```
