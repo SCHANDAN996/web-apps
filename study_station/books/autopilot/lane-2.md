@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 05:01 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 05:02 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Chemistry (Graduation GK) | ✍️ लिख रहा है | 67 मिनट |
-| W2 | Chapter 08 World Geography (Graduation GK) | ✍️ लिख रहा है | 78 मिनट |
-| W3 | Chapter 10 Physics Daily (Graduation GK) | ✍️ लिख रहा है | 71 मिनट |
-| W4 | Chapter 09 Economy Basic (Graduation GK) | ✍️ लिख रहा है | 72 मिनट |
-| W5 | Chapter 07 States Rivers (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 11 Chemistry (Graduation GK) | ✍️ लिख रहा है | 69 मिनट |
+| W2 | Chapter 08 World Geography (Graduation GK) | ✍️ लिख रहा है | 79 मिनट |
+| W3 | Chapter 10 Physics Daily (Graduation GK) | ✍️ लिख रहा है | 73 मिनट |
+| W4 | Chapter 09 Economy Basic (Graduation GK) | ✍️ लिख रहा है | 73 मिनट |
+| W5 | Chapter 12 Biology (Graduation GK) | ✍️ लिख रहा है | 1 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -25,12 +25,12 @@
 | 12th Maths | 0 | 0 | 23 |
 | 12th GK | 5 | 0 | 19 |
 | 12th Reasoning | 0 | 0 | 25 |
-| 12th English | 12 | 0 | 13 |
+| 12th English | 14 | 0 | 11 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 7 | 0 | 21 |
 | Graduation Reasoning | 0 | 0 | 30 |
 | Graduation English | 28 | 0 | 2 |
-| **कुल** | **102** | **13** | **181** |
+| **कुल** | **104** | **13** | **179** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -40,16 +40,9 @@
 - 09-10 03:48 — Graduation GK · Chapter 06 Physical Geography
 - 09-10 03:42 — Graduation GK · Chapter 03 Modern History
 
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 07 States Rivers (GK) — 1 बार
-
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 04:29:57   [Physics_Daily] wrote Flashcards_hi.txt (4416 chars)
-09-10 04:31:17   [World_Geography] Practice_en_Set_02.txt try 1: rejected (parsed 6 questions, numbers 26…31)
-09-10 04:31:55   [Economy_Basic] PYQ_hi.txt try 1: answer too long — asking for a tighter version
 09-10 04:33:08   [Physics_Daily] wrote PYQ_en.txt (10108 chars)
 09-10 04:34:47   [Economy_Basic] wrote PYQ_hi.txt (7290 chars)
 09-10 04:34:51   [States_Rivers] review PYQ_hi.txt: 2 issue(s): - In trap type 'लगभग-सही कथन', the example "नर्मदा बंगाल की खाड़ी में गिरती है" is explained as "दिशा सही, मुहाना गलत",
@@ -87,4 +80,7 @@
 09-10 05:01:02   [World_Geography] FAILED Practice_hi_Set_03.txt: too_long
 09-10 05:01:22   [States_Rivers] review: 1 section(s) corrected, 0 failed
 09-10 05:01:22   [States_Rivers] written 1, failed 0; AI calls today 199/100000
+09-10 05:01:31 DONE Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_07_States_Rivers in 4 min → 08d7bd6d
+09-10 05:01:31 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_12_Biology (TODO: todo 25, problems 0)
+09-10 05:02:36   [Economy_Basic] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 ```
