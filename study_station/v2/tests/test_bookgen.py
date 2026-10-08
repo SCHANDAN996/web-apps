@@ -357,3 +357,9 @@ def test_review_fix_in_the_wrong_language_is_retried(broken_chapter, db, monkeyp
     fixed, failed = bookgen.review(db, ch, out=lambda *a: None)
     assert fixed == ['Content_hi.txt'] and failed == []
     assert (ch / 'Content_hi.txt').read_text().startswith('राज्य और नदियों के बारे में सुधरा')
+
+
+def test_question_fixes_turn_problems_into_targeted_instructions():
+    fixes = bookgen.question_fixes('Q53:answer_solution_conflict,Q60:leaked_reasoning')
+    assert fixes[0].startswith('Q53: the solution') and fixes[1].startswith('Q60: remove')
+    assert bookgen.question_fixes('parsed 22 questions, numbers 1…25') is None

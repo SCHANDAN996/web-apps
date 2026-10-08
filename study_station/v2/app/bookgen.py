@@ -270,7 +270,7 @@ CHECK_SYSTEM = """You check an answer key. Solve every multiple-choice question 
 in your head, then reply with one line per question in the form "12: c" (question number, colon, the letter of the
 correct option). If a question has no correct option or more than one, write "12: ?". Reply with these lines only."""
 ANSWER_LINE = re.compile(r'^\s*Q?(\d+)\s*[:.)-]\s*\(?([a-d?])\)?', re.M | re.I)
-MAX_REPAIR_TRIES = 3
+MAX_REPAIR_TRIES = 4
 
 
 def repair_targets(chapter):
@@ -416,6 +416,24 @@ def translate_set(db, en_name, en_text, hi_name, n, out=print, english_book=Fals
     return None
 
 
+QUESTION_PROBLEM_HELP = {
+    'answer_solution_conflict': "the solution's last sentence names another option's value — make it end on the "
+                                'correct answer (or fix the key if the solution is right)',
+    'leaked_reasoning': 'remove thinking-aloud words ("wait", "let me", "recheck") from the solution',
+    'duplicate_options': 'make the four options different',
+    'needs_context': 'make the question self-contained (no reference to a figure/passage/other question)',
+    'broken_question': 'rewrite the question so its data is complete and consistent',
+}
+
+
+def question_fixes(why):
+    """'Q53:answer_solution_conflict,Q60:…' → readable fix list, or None when the problem is not per question."""
+    items = re.findall(r'Q(\d+):(\w+)', why or '')
+    if not items:
+        return None
+    return [f'Q{n}: {QUESTION_PROBLEM_HELP.get(k, k)}' for n, k in items]
+
+
 def write_verified_set(db, user, name, n, out=print):
     """Write a new practice set; keep it only once it passes the checks and an independent re-solve."""
     ask = user
@@ -424,7 +442,10 @@ def write_verified_set(db, user, name, n, out=print):
         if (why := _set_problem(text, n)):
             _keep_reject(name, text, why)
             out(f'  {name} try {attempt}: rejected ({why})')
-            ask = user + f'\n\nYour previous attempt was rejected: {why}. Follow the exact format and rules.'
+            if (fixes := question_fixes(why)):        # a few bad questions: fix those, keep the rest
+                ask = practice_repair_request(name, text, n, fixes)
+            else:
+                ask = user + f'\n\nYour previous attempt was rejected: {why}. Follow the exact format and rules.'
             continue
         if not (mismatch := _resolve_mismatch(db, text)):
             return text
@@ -447,6 +468,8 @@ def repair_set(db, chapter, n, problems, out=print):
         if (why := _set_problem(cand, n)):
             out(f'  set {n:02d} try {attempt}: rejected ({why})')
             mismatch = ''
+            if (fixes := question_fixes(why)):        # keep the good questions of this attempt
+                src, mine = cand, fixes
             continue
         if not (mismatch := _resolve_mismatch(db, cand)):
             text = cand

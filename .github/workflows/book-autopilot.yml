@@ -52,6 +52,18 @@ jobs:
           cache-dependency-path: study_station/v2/requirements.txt
       - name: Install
         run: pip install -r study_station/v2/requirements.txt
+      # Unfinished chapters survive between runs: their sections are cached per lane and restored here.
+      - name: Restore unfinished work
+        uses: actions/cache/restore@v4
+        with:
+          path: ${{ runner.temp }}/wip.tar.gz
+          key: wip-${{ matrix.lane }}-${{ github.run_id }}
+          restore-keys: wip-${{ matrix.lane }}-
+      - name: Unpack unfinished work
+        run: |
+          if [ -f "$RUNNER_TEMP/wip.tar.gz" ]; then
+            tar -xzf "$RUNNER_TEMP/wip.tar.gz" --skip-old-files && echo "restored $(tar -tzf "$RUNNER_TEMP/wip.tar.gz" | wc -l) files"
+          fi
       - name: Check the key is set
         env:
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
@@ -62,6 +74,7 @@ jobs:
           fi
       - name: Write books (${{ matrix.lane }})
         working-directory: study_station/v2
+        timeout-minutes: 325           # step limit (not the job's) so the unfinished work is still packed
         env:
           # a second key (optional secret NVIDIA_API_KEY_2) is shared out over the workers
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }},${{ secrets.NVIDIA_API_KEY_2 }}
@@ -73,7 +86,18 @@ jobs:
           mkdir -p ../books/autopilot
           python tools/book_autopilot.py --workers 5 --reverse --only ${{ matrix.books }} \
             --name "${{ matrix.lane }}" --status-file "${{ matrix.status }}" \
-            --branch "$BOOKS_BRANCH" --state-dir "$RUNNER_TEMP/autopilot" --stop-new-after 270
+            --branch "$BOOKS_BRANCH" --state-dir "$RUNNER_TEMP/autopilot" --stop-new-after 240
+      - name: Pack unfinished work
+        if: always()
+        run: |
+          git ls-files --others --exclude-standard -z -- study_station/books ':!study_station/books/autopilot' \
+            | tar --null -czf "$RUNNER_TEMP/wip.tar.gz" -T - && echo "packed $(tar -tzf "$RUNNER_TEMP/wip.tar.gz" | wc -l) files"
+      - name: Save unfinished work
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: ${{ runner.temp }}/wip.tar.gz
+          key: wip-${{ matrix.lane }}-${{ github.run_id }}
       - name: Keep the log and rejected outputs for diagnosis
         if: always()
         uses: actions/upload-artifact@v4
