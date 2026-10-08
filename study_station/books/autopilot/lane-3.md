@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 08-10-2026 01:14 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:42 AM
+**आख़िरी update:** 08-10-2026 01:22 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:42 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Noun (12th English) | ✍️ लिख रहा है | 91 मिनट |
-| W2 | Chapter 02 Pronoun (12th English) | ✍️ लिख रहा है | 3 मिनट |
-| W3 | Chapter 03 Adjective (12th English) | 🔎 review हो रहा है | 6 मिनट |
-| W4 | Chapter 04 Verb (12th English) | 🔎 review हो रहा है | 21 मिनट |
-| W5 | Chapter 05 Tense (12th English) | 🔎 review हो रहा है | 19 मिनट |
+| W1 | Chapter 01 Noun (12th English) | ✍️ लिख रहा है | 99 मिनट |
+| W2 | Chapter 02 Pronoun (12th English) | ✍️ लिख रहा है | 11 मिनट |
+| W3 | Chapter 03 Adjective (12th English) | 🔎 review हो रहा है | 14 मिनट |
+| W4 | Chapter 04 Verb (12th English) | 📤 push हो रहा है | 0 मिनट |
+| W5 | Chapter 05 Tense (12th English) | 🔎 review हो रहा है | 27 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,7 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 08-10 13:22 — 12th English · Chapter 04 Verb
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
@@ -45,17 +45,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 12:54:47   [Tense] repaired Mind_Map_hi.txt (1066 chars)
-08-10 12:54:47   [Tense] written 1, failed 0; AI calls today 175/100000
-08-10 12:54:56   [Noun] Practice_en_Set_04.txt try 1: re-solve disagrees (Q79 key a vs re-solve c)
-08-10 12:55:04   [Adjective] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-08-10 12:55:04   [Adjective] written 24, failed 2; AI calls today 177/100000
-08-10 12:55:04 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_03_Adjective after 72 min: todo ['Set 03 en: todo', 'Set 03 hi: todo'] problems ['Flashcards_hi.txt: Hindi file is mostly not in Hindi']
-08-10 12:55:04 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_03_Adjective (TODO: todo 2, problems 1)
-08-10 12:55:32   [Verb] review Content_en.txt: 3 issue(s): - The claim "the single most tested grammar topic in SSC, Banking and Railway exams" is an invented exam weightage 
-08-10 12:55:41   [Pronoun] Practice_en_Set_05.txt try 3: re-solve disagrees (Q103 key a vs re-solve b)
-08-10 12:55:41   [Pronoun] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
-08-10 12:55:41   [Pronoun] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
 08-10 12:55:51   [Adjective] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
 08-10 12:56:24   [Adjective] Practice_en_Set_03.txt try 2: rejected (parsed 0 questions, numbers -…-)
 08-10 12:57:12   [Noun] wrote Practice_en_Set_04.txt (write, 25 MCQs)
@@ -85,4 +74,15 @@
 08-10 13:10:32 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_02_Pronoun (TODO: todo 6, problems 0)
 08-10 13:12:44   [Noun] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 08-10 13:13:41   [Tense] review Short_Tricks_en.txt: 1 issue(s): - Trick 5: 'since / for + duration → Perfect Continuous' is an incorrect grammar rule; since/for with duration
+08-10 13:14:38   [Pronoun] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+08-10 13:14:41   [Verb] review PYQ_en.txt: 4 issue(s): - Claim "Verbs are the single most heavily tested area in the English section of SSC (CGL, CHSL, MTS, GD), Banking (IBP
+08-10 13:15:29   [Adjective] review Content_hi.txt: 2 issue(s): - The claim "SSC CHSL, RRB NTPC और CGL Tier-1 में हर शिफ़्ट में Adjective से जुड़े 2–4 प्रश्न पूछे जाते हैं" is an 
+08-10 13:16:33   [Pronoun] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+08-10 13:18:08   [Verb] review Short_Tricks_en.txt: 1 issue(s): - Box 1: "Two subjects joined by FANBOYS → plural verb" is incorrect for most FANBOYS; only "and" makes the ve
+08-10 13:19:20   [Noun] Practice_en_Set_06.txt try 1: re-solve disagrees (Q149 key c vs re-solve d)
+08-10 13:19:32   [Pronoun] Practice_en_Set_05.txt try 1: re-solve disagrees (Q102 key d vs re-solve a)
+08-10 13:20:01   [Tense] review Short_Tricks_hi.txt: 1 issue(s): - In Trick 1, “Tontinuous” is a misspelling → should be “Continuous”
+08-10 13:20:37   [Verb] review Short_Tricks_hi.txt: 1 issue(s): - Trick 1 का नियम "कर्ता में S लगे तो क्रिया में S नहीं; कर्ता में S नहीं तो क्रिया में S लगाओ" बहुवचन सर्वनाम
+08-10 13:22:31   [Verb] review: 7 section(s) corrected, 0 failed
+08-10 13:22:31   [Verb] written 7, failed 0; AI calls today 248/100000
 ```
