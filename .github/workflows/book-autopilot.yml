@@ -1,0 +1,66 @@
+# Study Station book autopilot — writes/repairs book chapters with the NVIDIA API around the clock.
+# Each run works ~5 hours on the books branch: bookgen writes, an independent model re-solves every
+# practice set and reviews every section, and a chapter is pushed only when bookcheck is OK.
+# Live progress: study_station/books/AUTOPILOT_STATUS.md on the books branch.
+# Needs the repository secret NVIDIA_API_KEY (Settings → Secrets and variables → Actions).
+name: Book autopilot
+
+on:
+  schedule:
+    - cron: '7 */6 * * *'          # every 6 hours (UTC); a run starts no new chapter after 4.5 h
+  workflow_dispatch: {}
+
+concurrency:
+  group: book-autopilot
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  write-books:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      BOOKS_BRANCH: claude/elegant-rubin-sgov1q
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.BOOKS_BRANCH }}
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: study_station/v2/requirements.txt
+      - name: Install
+        run: pip install -r study_station/v2/requirements.txt
+      - name: Check the key is set
+        env:
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+        run: |
+          if [ -z "$NVIDIA_API_KEY" ]; then
+            echo "::error::Repository secret NVIDIA_API_KEY is missing (Settings → Secrets and variables → Actions)."
+            exit 1
+          fi
+      - name: Write books
+        working-directory: study_station/v2
+        env:
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+          BOOKGEN_REJECT_DIR: ${{ runner.temp }}/rejects
+          PYTHONUNBUFFERED: '1'
+        run: |
+          git config user.name "study-station-book-autopilot"
+          git config user.email "211449723+SCHANDAN996@users.noreply.github.com"
+          python tools/book_autopilot.py --workers 4 --reverse --exclude 10th_Level \
+            --branch "$BOOKS_BRANCH" --state-dir "$RUNNER_TEMP/autopilot" --stop-new-after 270
+      - name: Keep the log and rejected outputs for diagnosis
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: autopilot-log-${{ github.run_id }}
+          path: |
+            ${{ runner.temp }}/autopilot/log.txt
+            ${{ runner.temp }}/rejects
+          if-no-files-found: ignore
+          retention-days: 7
