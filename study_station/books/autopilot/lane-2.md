@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 08-10-2026 07:42 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 07:57 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 46 मिनट |
-| W2 | Chapter 03 Modern History (Graduation GK) | ✍️ लिख रहा है | 46 मिनट |
-| W3 | Chapter 04 Constitution Basic (Graduation GK) | ✍️ लिख रहा है | 46 मिनट |
-| W4 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 46 मिनट |
-| W5 | Chapter 06 Physical Geography (Graduation GK) | ✍️ लिख रहा है | 46 मिनट |
+| W1 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 61 मिनट |
+| W2 | Chapter 03 Modern History (Graduation GK) | ✍️ लिख रहा है | 61 मिनट |
+| W3 | Chapter 04 Constitution Basic (Graduation GK) | ✍️ लिख रहा है | 61 मिनट |
+| W4 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 61 मिनट |
+| W5 | Chapter 06 Physical Geography (Graduation GK) | ✍️ लिख रहा है | 61 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,17 +39,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 19:07:25   [Modern_History] wrote Content_hi.txt (10728 chars)
-08-10 19:09:27   [Medieval_History] wrote Key_Facts_en.txt (11997 chars)
-08-10 19:11:29   [Modern_History] wrote Key_Facts_en.txt (10986 chars)
-08-10 19:14:26   [Medieval_History] wrote Key_Facts_hi.txt (6577 chars)
-08-10 19:14:26   [Constitution_Basic] wrote Key_Facts_en.txt (6912 chars)
-08-10 19:15:33   [Polity] wrote Key_Facts_en.txt (10339 chars)
-08-10 19:15:33   [Modern_History] wrote Key_Facts_hi.txt (6595 chars)
-08-10 19:16:08   [Physical_Geography] wrote Key_Facts_en.txt (9862 chars)
-08-10 19:17:26   [Medieval_History] wrote Feynman_en.txt (5174 chars)
-08-10 19:18:21   [Constitution_Basic] wrote Key_Facts_hi.txt (4688 chars)
-08-10 19:20:15   [Polity] wrote Key_Facts_hi.txt (6935 chars)
 08-10 19:20:33   [Modern_History] wrote Feynman_en.txt (4291 chars)
 08-10 19:20:38   [Medieval_History] wrote Feynman_hi.txt (3397 chars)
 08-10 19:21:29   [Constitution_Basic] Feynman_en.txt try 1: rejected (too short)
@@ -79,4 +68,15 @@
 08-10 19:39:11   [Constitution_Basic] Flashcards_hi.txt try 1: rejected (corrupted characters)
 08-10 19:40:04   [Physical_Geography] wrote Flashcards_hi.txt (4559 chars)
 08-10 19:41:26   [Polity] wrote PYQ_en.txt (9222 chars)
+08-10 19:44:12   [Modern_History] wrote PYQ_hi.txt (8160 chars)
+08-10 19:44:22   [Physical_Geography] wrote PYQ_en.txt (9022 chars)
+08-10 19:45:31   [Polity] wrote PYQ_hi.txt (7647 chars)
+08-10 19:47:41   [Modern_History] wrote Memory_Hooks_en.txt (6729 chars)
+08-10 19:48:39   [Polity] Memory_Hooks_en.txt try 1: rejected (corrupted characters)
+08-10 19:48:46   [Physical_Geography] wrote PYQ_hi.txt (7796 chars)
+08-10 19:51:48   [Medieval_History] FAILED Flashcards_en.txt: too_long
+08-10 19:53:31   [Physical_Geography] wrote Memory_Hooks_en.txt (1487 chars)
+08-10 19:53:38   [Polity] wrote Memory_Hooks_en.txt (9378 chars)
+08-10 19:55:56   [Medieval_History] wrote Flashcards_hi.txt (4272 chars)
+08-10 19:57:30   [Polity] wrote Memory_Hooks_hi.txt (6007 chars)
 ```
