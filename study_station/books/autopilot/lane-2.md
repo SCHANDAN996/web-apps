@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 08-10-2026 12:14 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
+**आख़िरी update:** 08-10-2026 12:29 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Ancient History (Graduation GK) | ✍️ लिख रहा है | 31 मिनट |
-| W2 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 31 मिनट |
-| W3 | Chapter 03 Modern History (Graduation GK) | ✍️ लिख रहा है | 30 मिनट |
-| W4 | Chapter 04 Constitution Basic (Graduation GK) | ✍️ लिख रहा है | 30 मिनट |
-| W5 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 30 मिनट |
+| W1 | Chapter 01 Ancient History (Graduation GK) | ✍️ लिख रहा है | 46 मिनट |
+| W2 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 46 मिनट |
+| W3 | Chapter 03 Modern History (Graduation GK) | ✍️ लिख रहा है | 46 मिनट |
+| W4 | Chapter 04 Constitution Basic (Graduation GK) | ✍️ लिख रहा है | 45 मिनट |
+| W5 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 45 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,25 +39,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 11:43:18 autopilot start: 5 workers, reverse=True
-08-10 11:43:18 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_01_Ancient_History (TODO: todo 25, problems 0)
-08-10 11:43:23 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_02_Medieval_History (TODO: todo 25, problems 0)
-08-10 11:43:28 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_03_Modern_History (TODO: todo 25, problems 0)
-08-10 11:43:33 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_04_Constitution_Basic (TODO: todo 25, problems 0)
-08-10 11:43:38 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_05_Polity (TODO: todo 25, problems 0)
-08-10 11:48:13   [Modern_History] wrote Content_en.txt (17301 chars)
-08-10 11:48:27   [Medieval_History] Content_en.txt try 1: rejected (corrupted characters)
-08-10 11:52:13   [Ancient_History] wrote Content_en.txt (13615 chars)
-08-10 11:52:55   [Constitution_Basic] wrote Content_en.txt (16018 chars)
-08-10 11:52:57   [Polity] Content_en.txt try 1: rejected (chat debris "Here is the")
-08-10 11:53:45   [Ancient_History] wrote Content_hi.txt (3001 chars)
-08-10 11:54:05   [Constitution_Basic] Content_hi.txt try 1: rejected (too short)
-08-10 11:55:02   [Ancient_History] wrote Key_Facts_en.txt (614 chars)
-08-10 11:55:48   [Polity] wrote Content_en.txt (13360 chars)
-08-10 11:57:57   [Ancient_History] wrote Key_Facts_hi.txt (7387 chars)
-08-10 11:58:05   [Modern_History] wrote Content_hi.txt (16872 chars)
-08-10 11:59:09   [Constitution_Basic] wrote Content_hi.txt (12470 chars)
-08-10 12:00:17   [Ancient_History] wrote Feynman_en.txt (3236 chars)
 08-10 12:01:16   [Polity] wrote Content_hi.txt (14957 chars)
 08-10 12:01:16   [Modern_History] wrote Key_Facts_en.txt (13203 chars)
 08-10 12:01:57   [Constitution_Basic] wrote Key_Facts_en.txt (14031 chars)
@@ -73,4 +54,29 @@
 08-10 12:13:45   [Medieval_History] wrote Content_hi.txt (9080 chars)
 08-10 12:13:48   [Polity] wrote Key_Facts_hi.txt (8181 chars)
 08-10 12:14:22   [Ancient_History] wrote Flashcards_hi.txt (3961 chars)
+08-10 12:15:09   [Constitution_Basic] wrote Feynman_hi.txt (2635 chars)
+08-10 12:15:50   [Polity] wrote Feynman_en.txt (3859 chars)
+08-10 12:16:56   [Constitution_Basic] wrote Mind_Map.txt (3831 chars)
+08-10 12:17:41   [Modern_History] Key_Facts_hi.txt try 1: answer too long — asking for a tighter version
+08-10 12:17:43   [Ancient_History] wrote PYQ_en.txt (8664 chars)
+08-10 12:17:44   [Medieval_History] wrote Key_Facts_en.txt (12604 chars)
+08-10 12:18:14   [Constitution_Basic] wrote Flashcards_en.txt (6184 chars)
+08-10 12:20:19   [Ancient_History] wrote PYQ_hi.txt (6337 chars)
+08-10 12:20:19   [Constitution_Basic] wrote Flashcards_hi.txt (5298 chars)
+08-10 12:21:20   [Medieval_History] wrote Key_Facts_hi.txt (8946 chars)
+08-10 12:21:50   [Medieval_History] wrote Feynman_en.txt (2962 chars)
+08-10 12:22:05   [Constitution_Basic] wrote PYQ_en.txt (9444 chars)
+08-10 12:22:34   [Ancient_History] wrote Memory_Hooks_en.txt (7523 chars)
+08-10 12:22:52   [Medieval_History] wrote Feynman_hi.txt (2474 chars)
+08-10 12:23:47   [Medieval_History] wrote Mind_Map.txt (2397 chars)
+08-10 12:23:55   [Modern_History] wrote Key_Facts_hi.txt (13128 chars)
+08-10 12:25:12   [Medieval_History] wrote Flashcards_en.txt (6118 chars)
+08-10 12:25:17   [Constitution_Basic] wrote PYQ_hi.txt (7543 chars)
+08-10 12:25:21   [Ancient_History] wrote Memory_Hooks_hi.txt (5117 chars)
+08-10 12:25:41   [Modern_History] wrote Feynman_en.txt (4496 chars)
+08-10 12:27:22   [Constitution_Basic] wrote Memory_Hooks_en.txt (6484 chars)
+08-10 12:27:24   [Medieval_History] wrote Flashcards_hi.txt (3767 chars)
+08-10 12:27:56   [Modern_History] wrote Feynman_hi.txt (3414 chars)
+08-10 12:28:55   [Medieval_History] wrote PYQ_en.txt (8023 chars)
+08-10 12:29:02   [Modern_History] wrote Mind_Map.txt (2591 chars)
 ```
