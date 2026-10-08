@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 08-10-2026 07:27 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 07:43 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 03 Adjective (12th English) | ✍️ लिख रहा है | 31 मिनट |
-| W2 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 31 मिनट |
-| W3 | Chapter 08 Conjunction (12th English) | ✍️ लिख रहा है | 31 मिनट |
-| W4 | Chapter 09 Articles (12th English) | ✍️ लिख रहा है | 31 मिनट |
-| W5 | Chapter 10 Voice (12th English) | ✍️ लिख रहा है | 31 मिनट |
+| W1 | Chapter 03 Adjective (12th English) | ✍️ लिख रहा है | 46 मिनट |
+| W2 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 46 मिनट |
+| W3 | Chapter 08 Conjunction (12th English) | ✍️ लिख रहा है | 46 मिनट |
+| W4 | Chapter 09 Articles (12th English) | ✍️ लिख रहा है | 46 मिनट |
+| W5 | Chapter 10 Voice (12th English) | ✍️ लिख रहा है | 46 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -29,8 +29,8 @@
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 1 | 0 | 27 |
 | Graduation Reasoning | 0 | 0 | 30 |
-| Graduation English | 19 | 2 | 9 |
-| **कुल** | **76** | **15** | **205** |
+| Graduation English | 21 | 0 | 9 |
+| **कुल** | **78** | **13** | **205** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -39,20 +39,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 18:56:40 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_09_Articles (TODO: todo 26, problems 0)
-08-10 18:56:45 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_10_Voice (TODO: todo 26, problems 0)
-08-10 18:58:41   [Voice] wrote Content_en.txt (7096 chars)
-08-10 18:58:44   [Adverb] wrote Content_en.txt (627 chars)
-08-10 18:58:49   [Articles] wrote Content_en.txt (7428 chars)
-08-10 18:58:49   [Conjunction] wrote Content_en.txt (8653 chars)
-08-10 19:00:06   [Adjective] wrote Content_en.txt (6382 chars)
-08-10 19:01:42   [Articles] wrote Content_hi.txt (9073 chars)
-08-10 19:02:03   [Conjunction] wrote Content_hi.txt (8884 chars)
-08-10 19:03:32   [Adjective] wrote Content_hi.txt (10754 chars)
-08-10 19:03:47   [Adverb] wrote Content_hi.txt (8555 chars)
-08-10 19:04:20   [Articles] wrote Feynman_en.txt (2997 chars)
-08-10 19:05:37   [Conjunction] wrote Feynman_en.txt (3177 chars)
-08-10 19:05:55   [Adjective] wrote Feynman_en.txt (2846 chars)
 08-10 19:07:11   [Adverb] Feynman_en.txt try 1: rejected (chat debris "Here's the")
 08-10 19:07:24   [Articles] wrote Feynman_hi.txt (2527 chars)
 08-10 19:08:14   [Conjunction] wrote Feynman_hi.txt (3099 chars)
@@ -79,4 +65,18 @@
 08-10 19:25:57   [Adverb] wrote Flashcards_hi.txt (4272 chars)
 08-10 19:25:58   [Adjective] wrote Flashcards_en.txt (5012 chars)
 08-10 19:26:34   [Articles] wrote Flashcards_hi.txt (4955 chars)
+08-10 19:28:28   [Adverb] wrote PYQ_en.txt (6389 chars)
+08-10 19:29:51   [Articles] wrote PYQ_en.txt (5971 chars)
+08-10 19:32:51   [Conjunction] wrote PYQ_en.txt (5716 chars)
+08-10 19:33:04   [Articles] wrote PYQ_hi.txt (5533 chars)
+08-10 19:33:10   [Adverb] wrote PYQ_hi.txt (6036 chars)
+08-10 19:34:36   [Adjective] wrote Flashcards_hi.txt (4319 chars)
+08-10 19:35:24   [Adjective] PYQ_en.txt try 1: rejected (corrupted characters)
+08-10 19:35:36   [Adverb] wrote Short_Tricks_en.txt (7240 chars)
+08-10 19:35:50   [Conjunction] wrote PYQ_hi.txt (5940 chars)
+08-10 19:35:57   [Articles] wrote Short_Tricks_en.txt (7168 chars)
+08-10 19:36:50   [Adjective] wrote PYQ_en.txt (5473 chars)
+08-10 19:39:39   [Conjunction] wrote Short_Tricks_en.txt (4605 chars)
+08-10 19:40:30   [Adverb] wrote Short_Tricks_hi.txt (5170 chars)
+08-10 19:41:06   [Adjective] wrote PYQ_hi.txt (5855 chars)
 ```
