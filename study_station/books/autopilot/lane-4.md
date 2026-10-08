@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 08-10-2026 08:58 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 09:13 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Medieval History (12th GK) | ✍️ लिख रहा है | 122 मिनट |
-| W2 | Chapter 03 Modern History (12th GK) | ✍️ लिख रहा है | 122 मिनट |
-| W3 | Chapter 04 Constitution Basic (12th GK) | ✍️ लिख रहा है | 121 मिनट |
-| W4 | Chapter 05 Polity (12th GK) | ✍️ लिख रहा है | 121 मिनट |
-| W5 | Chapter 06 Physical Geography (12th GK) | ✍️ लिख रहा है | 121 मिनट |
+| W1 | Chapter 02 Medieval History (12th GK) | ✍️ लिख रहा है | 137 मिनट |
+| W2 | Chapter 03 Modern History (12th GK) | ✍️ लिख रहा है | 137 मिनट |
+| W3 | Chapter 04 Constitution Basic (12th GK) | ✍️ लिख रहा है | 137 मिनट |
+| W4 | Chapter 05 Polity (12th GK) | ✍️ लिख रहा है | 137 मिनट |
+| W5 | Chapter 06 Physical Geography (12th GK) | ✍️ लिख रहा है | 136 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,16 +39,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 20:09:06   [Physical_Geography] wrote Memory_Hooks_en.txt (5441 chars)
-08-10 20:09:07   [Polity] Key_Facts_hi.txt try 1: answer too long — asking for a tighter version
-08-10 20:11:01   [Medieval_History] wrote Memory_Hooks_hi.txt (4812 chars)
-08-10 20:11:40   [Modern_History] wrote Memory_Hooks_hi.txt (6838 chars)
-08-10 20:13:12   [Physical_Geography] Memory_Hooks_hi.txt try 1: rejected (corrupted characters)
-08-10 20:15:33   [Medieval_History] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-08-10 20:16:01   [Constitution_Basic] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-08-10 20:16:27   [Polity] wrote Key_Facts_hi.txt (16825 chars)
-08-10 20:17:27   [Constitution_Basic] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
-08-10 20:17:49   [Physical_Geography] wrote Memory_Hooks_hi.txt (5901 chars)
 08-10 20:19:26   [Physical_Geography] Practice_en_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
 08-10 20:19:27   [Medieval_History] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 08-10 20:19:54   [Polity] wrote Feynman_en.txt (4060 chars)
@@ -79,4 +69,14 @@
 08-10 20:55:35   [Constitution_Basic] Practice_en_Set_05.txt try 1: rejected (parsed 1 questions, numbers 101…101)
 08-10 20:57:03   [Physical_Geography] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 08-10 20:58:13   [Constitution_Basic] Practice_en_Set_05.txt try 2: rejected (parsed 0 questions, numbers -…-)
+08-10 21:00:37   [Medieval_History] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+08-10 21:03:52   [Constitution_Basic] Practice_en_Set_05.txt try 3: re-solve disagrees (Q116 key b vs re-solve d)
+08-10 21:04:56   [Medieval_History] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+08-10 21:06:08   [Polity] Memory_Hooks_hi.txt try 1: answer too long — asking for a tighter version
+08-10 21:07:54   [Modern_History] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+08-10 21:07:57   [Physical_Geography] Practice_en_Set_03.txt try 1: re-solve disagrees (Q72 key b vs re-solve a)
+08-10 21:08:46   [Constitution_Basic] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+08-10 21:09:16   [Polity] wrote Memory_Hooks_hi.txt (7402 chars)
+08-10 21:10:07   [Medieval_History] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+08-10 21:13:15   [Physical_Geography] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 ```
