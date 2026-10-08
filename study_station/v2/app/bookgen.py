@@ -195,6 +195,8 @@ def _problem(text, name):
         return 'output still looks like a prompt'
     if (m := JUNK.search(text)):
         return f'chat debris "{m.group(0).strip()[:30]}"'
+    if '\ufffd' in text:
+        return 'corrupted characters'
     if PRACTICE.match(name):
         return None if parse_mcq_text(text) else 'no parseable MCQs'
     if len(text.strip()) < books.MIN_CHARS:
@@ -331,6 +333,8 @@ def _set_problem(text, n, spread=True):
         return 'answers not spread'
     if (m := JUNK.search(text)):
         return f'chat debris "{m.group(0).strip()[:30]}"'
+    if '\ufffd' in text:
+        return 'corrupted characters'
     return None
 
 

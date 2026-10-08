@@ -140,6 +140,8 @@ def check_practice_pair(en_path, hi_path, english_book=False):
             problems.append(f'{lang}: numbering should be {want[0]}–{want[-1]}')
         if len(qs) == QS_PER_SET and Counter(q.answer_index for q in qs).most_common(1)[0][1] > 15:
             problems.append(f'{lang}: answers not spread (one letter is correct in >15 of 25)')
+        if '\ufffd' in text:
+            problems.append(f'{lang}: corrupted characters (\ufffd)')
         if (lp := language_problem(p.name, text, '/English/' in str(p))):
             problems.append(lp)
         problems += source_problems(p.name, text)
@@ -201,6 +203,8 @@ def check_chapter(chapter):
             continue
         if (m := JUNK.search(text)):
             problems.append(f'{name}: chat debris "{m.group(0).strip()[:30]}"')
+        if '\ufffd' in text:
+            problems.append(f'{name}: corrupted characters (\ufffd) — rewrite the damaged lines')
         if (m := UNSOURCED.search(text)):
             problems.append(f'{name}: unsourced claim "{m.group(0)}"')
         if name.startswith('Mind_Map') and not re.search(r'```mermaid\s*\n\s*(?:graph|flowchart|mindmap)', text):

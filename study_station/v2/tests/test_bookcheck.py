@@ -181,3 +181,9 @@ def test_off_topic_and_gutted_hindi_sections_are_flagged(tmp_path):
     probs = check_chapter(ch)[1]
     assert any('Content_hi.txt: does not mention the chapter topic' in p for p in probs)
     assert any('Content_hi.txt: much shorter than the English section' in p for p in probs)
+
+
+def test_corrupted_characters_are_flagged(tmp_path):
+    from app.bookcheck import check_chapter
+    ch = write_chapter(tmp_path, **{'PYQ_en.txt': 'Exam pattern notes for rivers. ' * 20 + 'Broken � text.'})
+    assert any('PYQ_en.txt: corrupted characters' in p for p in check_chapter(ch)[1])
