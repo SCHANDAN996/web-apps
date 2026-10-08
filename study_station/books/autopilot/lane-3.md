@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 03:31 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 03:32 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 03 Adjective (12th English) | 🔎 review हो रहा है | 30 मिनट |
-| W2 | Chapter 06 Adverb (12th English) | 🔎 review हो रहा है | 30 मिनट |
-| W3 | Chapter 11 Narration (12th English) | ✍️ लिख रहा है | 2 मिनट |
-| W4 | Chapter 12 Sentence Structure (12th English) | ✍️ लिख रहा है | 0 मिनट |
-| W5 | Chapter 10 Voice (12th English) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 03 Adjective (12th English) | 🔎 review हो रहा है | 31 मिनट |
+| W2 | Chapter 06 Adverb (12th English) | 🔎 review हो रहा है | 31 मिनट |
+| W3 | Chapter 11 Narration (12th English) | ✍️ लिख रहा है | 3 मिनट |
+| W4 | Chapter 12 Sentence Structure (12th English) | ✍️ लिख रहा है | 1 मिनट |
+| W5 | Chapter 13 Synonyms (12th English) | ✍️ लिख रहा है | 1 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -41,8 +41,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 03:01:08 autopilot start: 5 workers, reverse=True
-09-10 03:01:09 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_03_Adjective (FIX: todo 0, problems 1)
 09-10 03:01:14 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_06_Adverb (OK: todo 0, problems 0)
 09-10 03:01:19 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_08_Conjunction (FIX: todo 0, problems 1)
 09-10 03:01:22   [Adjective] repaired Mind_Map_hi.txt (765 chars)
@@ -79,4 +77,8 @@
 09-10 03:30:58 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_12_Sentence_Structure (TODO: todo 26, problems 0)
 09-10 03:31:25   [Voice] review: 4 section(s) corrected, 0 failed
 09-10 03:31:25   [Voice] written 4, failed 0; AI calls today 83/100000
+09-10 03:31:33 DONE 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_10_Voice in 30 min → 338e0b8d
+09-10 03:31:34 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_13_Synonyms (TODO: todo 26, problems 0)
+09-10 03:32:14   [Sentence_Structure] wrote Content_en.txt (9364 chars)
+09-10 03:32:36   [Adjective] FAILED review Mind_Map_en.txt: too_long — the chapter must not be published unreviewed
 ```
