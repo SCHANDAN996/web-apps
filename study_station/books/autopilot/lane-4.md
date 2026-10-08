@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 08-10-2026 10:59 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 11:08 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Medieval History (12th GK) | 🔎 review हो रहा है | 49 मिनट |
-| W2 | Chapter 03 Modern History (12th GK) | ✍️ लिख रहा है | 14 मिनट |
-| W3 | Chapter 04 Constitution Basic (12th GK) | 🔎 review हो रहा है | 62 मिनट |
-| W4 | Chapter 05 Polity (12th GK) | 🔎 review हो रहा है | 14 मिनट |
-| W5 | Chapter 06 Physical Geography (12th GK) | 🔎 review हो रहा है | 32 मिनट |
+| W1 | Chapter 02 Medieval History (12th GK) | 🔎 review हो रहा है | 58 मिनट |
+| W2 | Chapter 03 Modern History (12th GK) | ✍️ लिख रहा है | 23 मिनट |
+| W3 | Chapter 04 Constitution Basic (12th GK) | 📤 push हो रहा है | 0 मिनट |
+| W4 | Chapter 05 Polity (12th GK) | 🔎 review हो रहा है | 23 मिनट |
+| W5 | Chapter 06 Physical Geography (12th GK) | 🔎 review हो रहा है | 41 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -23,18 +23,18 @@
 | 10th Maths | 9 | 13 | 0 |
 | 10th English | 0 | 0 | 20 |
 | 12th Maths | 0 | 0 | 23 |
-| 12th GK | 5 | 0 | 19 |
+| 12th GK | 4 | 1 | 19 |
 | 12th Reasoning | 0 | 0 | 25 |
 | 12th English | 5 | 0 | 20 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 1 | 0 | 27 |
 | Graduation Reasoning | 0 | 0 | 30 |
 | Graduation English | 23 | 0 | 7 |
-| **कुल** | **84** | **13** | **199** |
+| **कुल** | **83** | **14** | **199** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 08-10 23:08 — 12th GK · Chapter 04 Constitution Basic
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
@@ -46,14 +46,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 22:10:29   [Medieval_History] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-08-10 22:10:29   [Medieval_History] written 2, failed 0; AI calls today 184/100000
-08-10 22:13:08   [Physical_Geography] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-08-10 22:14:28   [Medieval_History] review Content_en.txt: 1 issue(s): - Sher Shah Suri built Rohtasgarh fort → Sher Shah built Rohtas Fort (in present-day Pakistan); Rohtasgarh fort in 
-08-10 22:17:47   [Modern_History] Practice_en_Set_06.txt try 1: re-solve disagrees (Q150 key a vs re-solve b)
-08-10 22:20:56   [Polity] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-08-10 22:24:10   [Physical_Geography] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-08-10 22:24:10   [Physical_Geography] written 25, failed 0; AI calls today 195/100000
 08-10 22:24:27   [Polity] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 08-10 22:24:37   [Modern_History] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 08-10 22:26:52   [Physical_Geography] repaired Flashcards_hi.txt (4899 chars)
@@ -86,4 +78,12 @@
 08-10 22:57:38   [Constitution_Basic] review PYQ_hi.txt: 2 issue(s): - "वर्तमान 12" (अनुसूचियाँ बुलेट में) बिना वर्ष के → "वर्तमान (2024 तक) 12"
 08-10 22:58:22   [Modern_History] Practice_hi_Set_05.txt try 1: rejected (Q123:needs_context)
 08-10 22:59:10   [Medieval_History] FAILED review Mind_Map.txt: too_long — the chapter must not be published unreviewed
+08-10 23:01:21   [Modern_History] Practice_hi_Set_05.txt try 2: rejected (Q123:needs_context)
+08-10 23:03:48   [Physical_Geography] review Feynman_en.txt: 2 issue(s): - "Hundreds of millions of years ago, when the Indian landmass crashed into Asia and the Himalayas rose" → The Indi
+08-10 23:04:40   [Medieval_History] review Flashcards_en.txt: 1 issue(s): - Card 6 answer contradicts the question: it states no Mughal emperor never fought a battle yet ruled twice, the
+08-10 23:04:53   [Polity] review Content_hi.txt: 1 issue(s): - सरदार स्वर्ण सिंह समिति → सरदार स्वरण सिंह समिति
+08-10 23:06:00   [Modern_History] Practice_hi_Set_05.txt try 3: rejected (Q123:needs_context)
+08-10 23:07:10   [Constitution_Basic] review Memory_Hooks_hi.txt: 4 issue(s): - Mnemonic 5 का संक्षिप्त वाक्य "86 में 10, 2002 में 11" गलत है; 86वाँ संशोधन (2002) ने 11वाँ कर्तव्य जोड़ा, ज
+08-10 23:08:42   [Constitution_Basic] review: 4 section(s) corrected, 0 failed
+08-10 23:08:42   [Constitution_Basic] written 4, failed 0; AI calls today 249/100000
 ```
