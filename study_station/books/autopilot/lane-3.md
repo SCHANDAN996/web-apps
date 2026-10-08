@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 03:17 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 03:28 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 03 Adjective (12th English) | 🔎 review हो रहा है | 16 मिनट |
-| W2 | Chapter 06 Adverb (12th English) | 🔎 review हो रहा है | 16 मिनट |
-| W3 | Chapter 08 Conjunction (12th English) | 🔎 review हो रहा है | 14 मिनट |
-| W4 | Chapter 09 Articles (12th English) | 🔎 review हो रहा है | 15 मिनट |
-| W5 | Chapter 10 Voice (12th English) | 🔎 review हो रहा है | 15 मिनट |
+| W1 | Chapter 03 Adjective (12th English) | 🔎 review हो रहा है | 27 मिनट |
+| W2 | Chapter 06 Adverb (12th English) | 🔎 review हो रहा है | 27 मिनट |
+| W3 | Chapter 08 Conjunction (12th English) | 📤 push हो रहा है | 0 मिनट |
+| W4 | Chapter 09 Articles (12th English) | 🔎 review हो रहा है | 27 मिनट |
+| W5 | Chapter 10 Voice (12th English) | 🔎 review हो रहा है | 27 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,7 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 09-10 03:28 — 12th English · Chapter 08 Conjunction
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
@@ -59,4 +59,11 @@
 09-10 03:11:38   [Adjective] review Mind_Map_en.txt: 2 issue(s): - Trap 4 lists "former vs farmer" as a confusion pair → should be "former vs latter" (or "latter vs later and form
 09-10 03:12:43   [Voice] review Mind_Map_en.txt: 1 issue(s): - In node F, the passive formula says "by + Object" but the element after "by" is the agent (the original subject)
 09-10 03:15:43   [Voice] review Flashcards_en.txt: 1 issue(s): - Card 13: Wrong grammar rule: claims verbs like surprise, amaze, annoy take fixed prepositions (e.g., "surprise
+09-10 03:18:40   [Conjunction] review Mind_Map_hi.txt: 1 issue(s): - '12 स्वर्ण नियम' claims 12 rules but only 6 are listed → change heading to '6 स्वर्ण नियम' or add the missing 6 
+09-10 03:20:01   [Voice] review PYQ_hi.txt: 1 issue(s): - In Question 9, the explanation for option (c) states "(c) व्याकरणिक रूप से ठीक पर अनावश्यक agent जोड़ता है" but optio
+09-10 03:20:03   [Adverb] review PYQ_hi.txt: 1 issue(s): - Question 3: The blank is placed before "tall", but "enough" must come after the adjective; the correct structure is "
+09-10 03:24:55   [Articles] review Short_Tricks_hi.txt: 1 issue(s): - Skip Strategy Tip 1 lists "hotel" as a tricky word for a/an confusion (like honest/hour), but "hotel" is pro
+09-10 03:26:02   [Articles] review Important_Rules_en.txt: 1 issue(s): - The table claims "12 High-Yield Rules" but is corrupted: only Rule 1 is partially visible (example cut of
+09-10 03:28:47   [Conjunction] review: 2 section(s) corrected, 0 failed
+09-10 03:28:47   [Conjunction] written 2, failed 0; AI calls today 77/100000
 ```
