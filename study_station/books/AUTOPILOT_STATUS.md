@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 08-10-2026 09:00 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 08:48 AM
+**आख़िरी update:** 08-10-2026 09:04 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 08:48 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 17 Spelling (Graduation English) | 📤 push हो रहा है | 0 मिनट |
-| W2 | Chapter 21 Cloze Test Adv (Graduation English) | ✍️ लिख रहा है | 3 मिनट |
-| W3 | Chapter 19 Fill in Blanks Adv (Graduation English) | ✍️ लिख रहा है | 11 मिनट |
-| W4 | Chapter 20 Sentence Improvement Adv (Graduation English) | 🔎 review हो रहा है | 11 मिनट |
+| W1 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 3 मिनट |
+| W2 | Chapter 21 Cloze Test Adv (Graduation English) | ✍️ लिख रहा है | 7 मिनट |
+| W3 | Chapter 19 Fill in Blanks Adv (Graduation English) | 🔎 review हो रहा है | 1 मिनट |
+| W4 | Chapter 20 Sentence Improvement Adv (Graduation English) | 🔎 review हो रहा है | 15 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -28,8 +28,8 @@
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 0 | 0 | 28 |
 | Graduation Reasoning | 0 | 0 | 30 |
-| Graduation English | 19 | 0 | 11 |
-| **कुल** | **69** | **13** | **214** |
+| Graduation English | 20 | 0 | 10 |
+| **कुल** | **70** | **13** | **213** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -49,21 +49,9 @@
 - 06-10 02:05 — Graduation English · Chapter 02 Pronoun
 - 06-10 02:04 — Graduation English · Chapter 06 Adverb
 
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 17 Spelling (English) — 1 बार
-
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-07-10 12:27:39   [Fill_in_Blanks_Adv] written 24, failed 2; AI calls today 226/100000
-07-10 12:27:40 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_19_Fill_in_Blanks_Adv after 81 min: todo ['Set 04 en: todo', 'Set 04 hi: todo'] problems []
-07-10 12:27:40 worker 0: nothing left
-07-10 12:28:54   [Sentence_Improvement_Adv] Practice_en_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
-07-10 12:33:19   [Sentence_Improvement_Adv] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-07-10 12:34:37   [Sentence_Improvement_Adv] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-07-10 12:37:05   [Sentence_Improvement_Adv] Practice_en_Set_06.txt try 1: re-solve disagrees (Q137 key c vs re-solve b)
-07-10 12:40:03   [Sentence_Improvement_Adv] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 07-10 12:42:14   [Sentence_Improvement_Adv] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 07-10 12:42:14   [Sentence_Improvement_Adv] written 26, failed 0; AI calls today 243/100000
 07-10 12:42:21 autopilot stopped: 2-hour limit of the cloud session — restart with "autopilot chalu karo"
@@ -96,4 +84,12 @@
 08-10 09:00:09   [Fill_in_Blanks_Adv] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 08-10 09:00:30   [Spelling] review: 1 section(s) corrected, 0 failed
 08-10 09:00:30   [Spelling] written 1, failed 0; AI calls today 26/100000
+08-10 09:00:37 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_17_Spelling in 10 min → 35913cb
+08-10 09:00:38 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv (TODO: todo 26, problems 1)
+08-10 09:02:15   [Fill_in_Blanks_Adv] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+08-10 09:02:15   [Fill_in_Blanks_Adv] written 2, failed 0; AI calls today 27/100000
+08-10 09:02:59   [Para_Jumbles_Adv] wrote Content_en.txt (9379 chars)
+08-10 09:03:11   [Cloze_Test_Adv] wrote Content_hi.txt (9110 chars)
+08-10 09:03:11   [Fill_in_Blanks_Adv] review Content_en.txt: 9 issue(s): - Duplicate chapter content (two full copies of the chapter) → Remove duplicate, keep one coherent version.
+08-10 09:04:16   [Cloze_Test_Adv] wrote Feynman_en.txt (2664 chars)
 ```
