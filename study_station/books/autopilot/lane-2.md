@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 08-10-2026 12:44 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
+**आख़िरी update:** 08-10-2026 12:59 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Ancient History (Graduation GK) | ✍️ लिख रहा है | 61 मिनट |
-| W2 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 61 मिनट |
-| W3 | Chapter 03 Modern History (Graduation GK) | ✍️ लिख रहा है | 61 मिनट |
-| W4 | Chapter 04 Constitution Basic (Graduation GK) | ✍️ लिख रहा है | 61 मिनट |
-| W5 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 60 मिनट |
+| W1 | Chapter 01 Ancient History (Graduation GK) | ✍️ लिख रहा है | 76 मिनट |
+| W2 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 76 मिनट |
+| W3 | Chapter 03 Modern History (Graduation GK) | ✍️ लिख रहा है | 76 मिनट |
+| W4 | Chapter 04 Constitution Basic (Graduation GK) | ✍️ लिख रहा है | 76 मिनट |
+| W5 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 76 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,16 +39,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 12:22:34   [Ancient_History] wrote Memory_Hooks_en.txt (7523 chars)
-08-10 12:22:52   [Medieval_History] wrote Feynman_hi.txt (2474 chars)
-08-10 12:23:47   [Medieval_History] wrote Mind_Map.txt (2397 chars)
-08-10 12:23:55   [Modern_History] wrote Key_Facts_hi.txt (13128 chars)
-08-10 12:25:12   [Medieval_History] wrote Flashcards_en.txt (6118 chars)
-08-10 12:25:17   [Constitution_Basic] wrote PYQ_hi.txt (7543 chars)
-08-10 12:25:21   [Ancient_History] wrote Memory_Hooks_hi.txt (5117 chars)
-08-10 12:25:41   [Modern_History] wrote Feynman_en.txt (4496 chars)
-08-10 12:27:22   [Constitution_Basic] wrote Memory_Hooks_en.txt (6484 chars)
-08-10 12:27:24   [Medieval_History] wrote Flashcards_hi.txt (3767 chars)
 08-10 12:27:56   [Modern_History] wrote Feynman_hi.txt (3414 chars)
 08-10 12:28:55   [Medieval_History] wrote PYQ_en.txt (8023 chars)
 08-10 12:29:02   [Modern_History] wrote Mind_Map.txt (2591 chars)
@@ -79,4 +69,14 @@
 08-10 12:41:45   [Constitution_Basic] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
 08-10 12:41:45   [Constitution_Basic] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
 08-10 12:44:34   [Ancient_History] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+08-10 12:44:41   [Polity] wrote PYQ_en.txt (10624 chars)
+08-10 12:46:05   [Ancient_History] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
+08-10 12:47:30   [Polity] wrote PYQ_hi.txt (7151 chars)
+08-10 12:53:21   [Modern_History] wrote Memory_Hooks_en.txt (6584 chars)
+08-10 12:53:34   [Polity] wrote Memory_Hooks_en.txt (331 chars)
+08-10 12:54:46   [Medieval_History] FAILED Practice_en_Set_01.txt: too_long
+08-10 12:54:46   [Medieval_History] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
+08-10 12:55:07   [Ancient_History] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+08-10 12:55:15   [Modern_History] Memory_Hooks_hi.txt try 1: rejected (corrupted characters)
+08-10 12:59:13   [Ancient_History] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 ```
