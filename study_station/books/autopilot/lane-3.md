@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 08-10-2026 08:58 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 09:13 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 03 Adjective (12th English) | ✍️ लिख रहा है | 122 मिनट |
-| W2 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 122 मिनट |
-| W3 | Chapter 08 Conjunction (12th English) | ✍️ लिख रहा है | 122 मिनट |
-| W4 | Chapter 09 Articles (12th English) | ✍️ लिख रहा है | 122 मिनट |
-| W5 | Chapter 10 Voice (12th English) | ✍️ लिख रहा है | 121 मिनट |
+| W1 | Chapter 03 Adjective (12th English) | ✍️ लिख रहा है | 137 मिनट |
+| W2 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 137 मिनट |
+| W3 | Chapter 08 Conjunction (12th English) | ✍️ लिख रहा है | 137 मिनट |
+| W4 | Chapter 09 Articles (12th English) | ✍️ लिख रहा है | 137 मिनट |
+| W5 | Chapter 10 Voice (12th English) | ✍️ लिख रहा है | 137 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,18 +39,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 20:11:22   [Voice] wrote PYQ_hi.txt (7225 chars)
-08-10 20:11:33   [Articles] Practice_en_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
-08-10 20:13:26   [Conjunction] Practice_en_Set_01.txt try 3: re-solve disagrees (Q18 key b vs re-solve d)
-08-10 20:13:39   [Voice] wrote Short_Tricks_en.txt (6239 chars)
-08-10 20:15:42   [Articles] Practice_en_Set_01.txt try 2: re-solve disagrees (Q16 key a vs re-solve c)
-08-10 20:16:23   [Adverb] Practice_en_Set_02.txt try 1: re-solve disagrees (Q43 key c vs re-solve b)
-08-10 20:16:32   [Voice] wrote Short_Tricks_hi.txt (5753 chars)
-08-10 20:17:12   [Conjunction] Practice_en_Set_01.txt try 4: re-solve disagrees (Q18 key b vs re-solve d)
-08-10 20:17:12   [Conjunction] REJECTED Practice_en_Set_01.txt: no version passed the checks — not written
-08-10 20:17:12   [Conjunction] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
-08-10 20:20:21   [Articles] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-08-10 20:22:59   [Adjective] FAILED Practice_en_Set_01.txt: too_long
 08-10 20:22:59   [Adjective] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
 08-10 20:24:23   [Conjunction] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 08-10 20:24:30   [Adverb] Practice_en_Set_02.txt try 2: re-solve disagrees (Q47 key d vs re-solve b)
@@ -79,4 +67,16 @@
 08-10 20:57:12   [Voice] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
 08-10 20:57:17   [Adjective] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 08-10 20:57:49   [Articles] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+08-10 20:59:10   [Adverb] Practice_en_Set_03.txt try 2: re-solve disagrees (Q74 key a vs re-solve d)
+08-10 20:59:38   [Conjunction] Practice_en_Set_04.txt try 1: re-solve disagrees (Q88 key d vs re-solve c)
+08-10 21:01:00   [Adjective] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+08-10 21:02:41   [Voice] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+08-10 21:06:44   [Adverb] Practice_en_Set_03.txt try 3: re-solve disagrees (Q65 key d vs re-solve ?)
+08-10 21:07:03   [Adjective] Practice_en_Set_05.txt try 1: re-solve disagrees (Q125 key b vs re-solve d)
+08-10 21:08:15   [Voice] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+08-10 21:08:45   [Articles] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+08-10 21:09:53   [Voice] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
+08-10 21:11:24   [Adverb] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+08-10 21:11:42   [Adjective] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+08-10 21:11:46   [Articles] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 ```
