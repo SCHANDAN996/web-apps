@@ -57,6 +57,9 @@ class Pilot:
         self.state = self._load()
         self.claimed = set()
         self.t_start = time.time()
+        # Parallel runs (CI matrix) each keep their own status page so their pushes never conflict.
+        self.status_file = (bookcheck.BOOKS_ROOT / args.status_file) if getattr(args, 'status_file', None) \
+            else STATUS_FILE
         self.current = {}                       # thread name -> {key, step, since}
         self.started = datetime.now(IST)
 
@@ -114,11 +117,11 @@ class Pilot:
 
         def do():
             self.write_status()
-            self.git('add', '--', str(rel), str(STATUS_FILE.relative_to(REPO)))
+            self.git('add', '--', str(rel), str(self.status_file.relative_to(REPO)))
             staged = self.git('diff', '--cached', '--name-only').stdout.split()
             if not staged:
                 return 'nothing to commit'
-            status_rel = str(STATUS_FILE.relative_to(REPO))
+            status_rel = str(self.status_file.relative_to(REPO))
             outside = [p for p in staged if not p.startswith(str(rel) + '/') and p != status_rel]
             if outside:
                 self.git('reset', '-q', '--', *outside)
@@ -304,7 +307,8 @@ class Pilot:
             current = sorted(self.current.items())
             done_at = dict(self.state.get('done_at', {}))
             failed = dict(self.state['failed'])
-        out = ['# 📚 Book Autopilot — लाइव स्थिति', '',
+        title = f' ({self.args.name})' if getattr(self.args, 'name', None) else ''
+        out = [f'# 📚 Book Autopilot — लाइव स्थिति{title}', '',
                f'**आख़िरी update:** {now:%d-%m-%Y %I:%M %p} IST · हर {STATUS_MINUTES} मिनट और हर पूरे अध्याय पर अपने-आप '
                f'update होता है · autopilot शुरू: {self.started:%d-%m %I:%M %p}',
                '', '> NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → '
@@ -319,6 +323,9 @@ class Pilot:
                            f"{STEP_HI.get(c['step'], c['step'])} | {mins} मिनट |")
         else:
             out.append('⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।')
+        lanes = sorted((bookcheck.BOOKS_ROOT / 'autopilot').glob('*.md'))
+        if self.status_file == STATUS_FILE and lanes:
+            out += ['', '**बाकी साथ चल रहे runs:** ' + ' · '.join(f'[{l.stem}](autopilot/{l.name})' for l in lanes)]
         out += ['', '## 📊 हर किताब की प्रगति', '', '| किताब | ✅ पूरे | 🔧 सुधार बाकी | 📝 लिखना बाकी |', '|---|---|---|---|']
         total = Counter()
         for book in bookcheck.queue():
@@ -342,14 +349,15 @@ class Pilot:
         except OSError:
             tail = []
         out += ['', '## 📜 हाल की गतिविधि (नया सबसे नीचे)', '', '```', *tail, '```', '']
-        tmp = STATUS_FILE.with_suffix('.tmp')
+        self.status_file.parent.mkdir(parents=True, exist_ok=True)
+        tmp = self.status_file.with_suffix('.tmp')
         tmp.write_text('\n'.join(out), encoding='utf-8')
-        os.replace(tmp, STATUS_FILE)
+        os.replace(tmp, self.status_file)
 
     def heartbeat(self):
         def do():
             self.write_status()
-            rel = str(STATUS_FILE.relative_to(REPO))
+            rel = str(self.status_file.relative_to(REPO))
             self.git('add', '--', rel)
             if not self.git('diff', '--cached', '--name-only', '--', rel).stdout.strip():
                 return
@@ -374,6 +382,8 @@ def main():
     p.add_argument('--reverse', action='store_true', help='last book in QUEUE.txt first')
     p.add_argument('--only', nargs='*', help='only books whose path contains one of these strings')
     p.add_argument('--exclude', nargs='*', help='skip books whose path contains one of these strings')
+    p.add_argument('--status-file', help='status page path relative to books/ (default AUTOPILOT_STATUS.md)')
+    p.add_argument('--name', help='name of this run shown on its status page (e.g. a CI matrix lane)')
     p.add_argument('--branch', default='claude/elegant-rubin-sgov1q')
     p.add_argument('--state-dir', default='~/.book_autopilot')
     p.add_argument('--stop-file')
