@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 08-10-2026 09:59 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 10:14 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Narration (12th English) | ✍️ लिख रहा है | 14 मिनट |
-| W2 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 182 मिनट |
-| W3 | Chapter 08 Conjunction (12th English) | ✍️ लिख रहा है | 182 मिनट |
-| W4 | Chapter 09 Articles (12th English) | 🔧 सुधार रहा है | 9 मिनट |
-| W5 | Chapter 10 Voice (12th English) | ✍️ लिख रहा है | 182 मिनट |
+| W1 | Chapter 11 Narration (12th English) | ✍️ लिख रहा है | 29 मिनट |
+| W2 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 197 मिनट |
+| W3 | Chapter 08 Conjunction (12th English) | ✍️ लिख रहा है | 197 मिनट |
+| W4 | Chapter 09 Articles (12th English) | 🔎 review हो रहा है | 3 मिनट |
+| W5 | Chapter 10 Voice (12th English) | ✍️ लिख रहा है | 197 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -25,12 +25,12 @@
 | 12th Maths | 0 | 0 | 23 |
 | 12th GK | 1 | 0 | 23 |
 | 12th Reasoning | 0 | 0 | 25 |
-| 12th English | 5 | 2 | 18 |
+| 12th English | 6 | 1 | 18 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 1 | 0 | 27 |
 | Graduation Reasoning | 0 | 0 | 30 |
 | Graduation English | 23 | 0 | 7 |
-| **कुल** | **80** | **15** | **201** |
+| **कुल** | **81** | **14** | **201** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -43,21 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 21:14:51   [Adjective] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-08-10 21:14:58   [Voice] Practice_en_Set_03.txt try 2: rejected (parsed 0 questions, numbers -…-)
-08-10 21:18:20   [Voice] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-08-10 21:19:40   [Articles] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-08-10 21:20:27   [Conjunction] Practice_en_Set_04.txt try 3: re-solve disagrees (Q88 key a vs re-solve d)
-08-10 21:21:10   [Voice] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-08-10 21:22:16   [Articles] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-08-10 21:25:24   [Adjective] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-08-10 21:26:00   [Conjunction] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-08-10 21:26:39   [Articles] Practice_en_Set_06.txt try 1: re-solve disagrees (Q144 key c vs re-solve b)
-08-10 21:28:46   [Adjective] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-08-10 21:28:46   [Adjective] written 24, failed 2; AI calls today 173/100000
-08-10 21:28:46 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_03_Adjective after 152 min: todo ['Set 01 en: todo', 'Set 01 hi: todo'] problems ['Mind_Map_hi.txt: Hindi file is mostly not in Hindi']
-08-10 21:28:46 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_03_Adjective (TODO: todo 2, problems 1)
-08-10 21:30:35   [Adverb] FAILED Practice_hi_Set_03.txt: too_long
 08-10 21:31:54   [Voice] Practice_en_Set_04.txt try 1: re-solve disagrees (Q88 key c vs re-solve a, Q96 key c vs re-solve b, Q98 key a vs re-solve b)
 08-10 21:33:09   [Conjunction] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 08-10 21:35:18   [Adjective] wrote Practice_en_Set_01.txt (write, 25 MCQs)
@@ -83,4 +68,19 @@
 08-10 21:56:47   [Narration] wrote Content_hi.txt (7973 chars)
 08-10 21:57:13   [Adverb] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 08-10 21:59:19   [Narration] wrote Feynman_en.txt (2727 chars)
+08-10 22:01:28   [Narration] wrote Feynman_hi.txt (3133 chars)
+08-10 22:01:55   [Adverb] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+08-10 22:03:30   [Narration] wrote Mind_Map_en.txt (2233 chars)
+08-10 22:05:09   [Narration] wrote Mind_Map_hi.txt (1556 chars)
+08-10 22:07:05   [Narration] wrote Flashcards_en.txt (4472 chars)
+08-10 22:07:59   [Articles] FAILED Important_Rules_hi.txt: too_long
+08-10 22:07:59   [Articles] written 0, failed 1; AI calls today 205/100000
+08-10 22:08:24   [Voice] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+08-10 22:08:45   [Narration] wrote Flashcards_hi.txt (764 chars)
+08-10 22:10:08   [Conjunction] FAILED Practice_en_Set_05.txt: too_long
+08-10 22:10:08   [Conjunction] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
+08-10 22:10:41   [Articles] repaired Important_Rules_hi.txt (4194 chars)
+08-10 22:10:41   [Articles] written 1, failed 0; AI calls today 209/100000
+08-10 22:11:07   [Narration] wrote PYQ_en.txt (8652 chars)
+08-10 22:14:20   [Voice] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 ```
