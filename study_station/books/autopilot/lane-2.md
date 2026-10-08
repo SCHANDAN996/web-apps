@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 03:49 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 03:53 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Medieval History (Graduation GK) | 🔎 review हो रहा है | 46 मिनट |
-| W2 | Chapter 08 World Geography (Graduation GK) | ✍️ लिख रहा है | 6 मिनट |
-| W3 | Chapter 04 Constitution Basic (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 09 Economy Basic (Graduation GK) | ✍️ लिख रहा है | 0 मिनट |
-| W5 | Chapter 07 States Rivers (Graduation GK) | ✍️ लिख रहा है | 48 मिनट |
+| W1 | Chapter 02 Medieval History (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 08 World Geography (Graduation GK) | ✍️ लिख रहा है | 10 मिनट |
+| W3 | Chapter 10 Physics Daily (Graduation GK) | ✍️ लिख रहा है | 3 मिनट |
+| W4 | Chapter 09 Economy Basic (Graduation GK) | ✍️ लिख रहा है | 4 मिनट |
+| W5 | Chapter 07 States Rivers (Graduation GK) | 🔎 review हो रहा है | 2 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -27,13 +27,14 @@
 | 12th Reasoning | 0 | 0 | 25 |
 | 12th English | 10 | 0 | 15 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 6 | 0 | 22 |
+| Graduation GK | 7 | 0 | 21 |
 | Graduation Reasoning | 0 | 0 | 30 |
 | Graduation English | 27 | 0 | 3 |
-| **कुल** | **96** | **13** | **187** |
+| **कुल** | **97** | **13** | **186** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 03:53 — Graduation GK · Chapter 02 Medieval History
 - 09-10 03:49 — Graduation GK · Chapter 04 Constitution Basic
 - 09-10 03:48 — Graduation GK · Chapter 06 Physical Geography
 - 09-10 03:42 — Graduation GK · Chapter 03 Modern History
@@ -41,16 +42,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 03:10:46   [States_Rivers] Practice_en_Set_04.txt try 1: re-solve disagrees (Q76 key a vs re-solve b, Q93 key b vs re-solve a)
-09-10 03:13:23   [States_Rivers] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-09-10 03:14:20   [Medieval_History] review Content_hi.txt: 1 issue(s): - "मेवाड़ के अम्बर (जयपुर) के राजा भारमल" is factually wrong; Amber (Amer/Jaipur) was a separate Kachwaha kingdom, 
-09-10 03:16:05   [Physical_Geography] review Key_Facts_en.txt: 1 issue(s): - Highest peak of Lesser Himalaya listed as Nanga Parbat (8,126 m) → Nanga Parbat is in the Great Himalayas (west
-09-10 03:16:33   [States_Rivers] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 03:18:13   [Constitution_Basic] review Key_Facts_hi.txt: 2 issue(s): - "यही तीन बातें सबसे ज़्यादा पूछी जाती हैं" (invented exam claim) → "ये तीन बिंदु परीक्षा की तैयारी के लिए महत्व
-09-10 03:19:55   [Physical_Geography] review Feynman_en.txt: 1 issue(s): - Inconsistent rainfall data: the text states the Deccan Plateau (including Pune) receives 50–60 cm of rain, but la
-09-10 03:21:44   [Physical_Geography] review Feynman_hi.txt: 1 issue(s): - The text claims Godavari, Krishna, Kaveri, and Mahanadi all originate from the Western Ghats → Mahanadi originate
-09-10 03:25:09   [States_Rivers] Practice_en_Set_05.txt try 1: re-solve disagrees (Q110 key d vs re-solve a, Q123 key a vs re-solve ?)
-09-10 03:28:13   [Medieval_History] review Feynman_en.txt: 2 issue(s): - "Balban and later Alauddin Khalji did: they made iqta transferable and non-hereditary" → Only Alauddin Khalji mad
 09-10 03:28:27   [Physical_Geography] review Mind_Map.txt: 1 issue(s): - West Coast division lists "Kannad" (कन्नड़) as a coastal region → the correct term is "Kanara" (कनारा) for the Karn
 09-10 03:29:17   [States_Rivers] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 09-10 03:30:45   [Medieval_History] review Feynman_hi.txt: 2 issue(s): - The mnemonic "ज़हाँगीर-वाले मुग़ल" incorrectly links the Jagir system to Jahangir; the Jagir system was systemati
@@ -81,4 +72,14 @@
 09-10 03:49:08   [World_Geography] wrote Content_hi.txt (10893 chars)
 09-10 03:49:25   [Constitution_Basic] review: 6 section(s) corrected, 0 failed
 09-10 03:49:25   [Constitution_Basic] written 6, failed 0; AI calls today 95/100000
+09-10 03:49:31 DONE Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_04_Constitution_Basic in 48 min → ba2a4ce2
+09-10 03:49:31 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_10_Physics_Daily (TODO: todo 25, problems 0)
+09-10 03:50:43   [States_Rivers] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+09-10 03:50:43   [States_Rivers] written 6, failed 0; AI calls today 96/100000
+09-10 03:50:55   [World_Geography] wrote Key_Facts_en.txt (9265 chars)
+09-10 03:51:28   [Medieval_History] review Memory_Hooks_hi.txt: 2 issue(s): - Mnemonic 4's mnemonic phrase "पानी में खाना घागरा चंदेरी" gives incorrect chronological order (Ghaghra befor
+09-10 03:51:52   [Physics_Daily] Content_en.txt try 1: rejected (chat debris "Here is the")
+09-10 03:51:57   [Economy_Basic] wrote Content_en.txt (13745 chars)
+09-10 03:53:25   [Medieval_History] review: 7 section(s) corrected, 0 failed
+09-10 03:53:26   [Medieval_History] written 7, failed 0; AI calls today 101/100000
 ```
