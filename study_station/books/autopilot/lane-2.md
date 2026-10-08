@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 03:42 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 03:47 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Medieval History (Graduation GK) | 🔎 review हो रहा है | 39 मिनट |
-| W2 | Chapter 03 Modern History (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 04 Constitution Basic (Graduation GK) | 🔎 review हो रहा है | 41 मिनट |
-| W4 | Chapter 06 Physical Geography (Graduation GK) | 🔎 review हो रहा है | 41 मिनट |
-| W5 | Chapter 07 States Rivers (Graduation GK) | ✍️ लिख रहा है | 41 मिनट |
+| W1 | Chapter 02 Medieval History (Graduation GK) | 🔎 review हो रहा है | 43 मिनट |
+| W2 | Chapter 08 World Geography (Graduation GK) | ✍️ लिख रहा है | 4 मिनट |
+| W3 | Chapter 04 Constitution Basic (Graduation GK) | 🔎 review हो रहा है | 45 मिनट |
+| W4 | Chapter 06 Physical Geography (Graduation GK) | 🔎 review हो रहा है | 45 मिनट |
+| W5 | Chapter 07 States Rivers (Graduation GK) | ✍️ लिख रहा है | 45 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -23,14 +23,14 @@
 | 10th Maths | 9 | 13 | 0 |
 | 10th English | 0 | 0 | 20 |
 | 12th Maths | 0 | 0 | 23 |
-| 12th GK | 2 | 0 | 22 |
+| 12th GK | 3 | 0 | 21 |
 | 12th Reasoning | 0 | 0 | 25 |
-| 12th English | 8 | 0 | 17 |
+| 12th English | 10 | 0 | 15 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 6 | 0 | 22 |
 | Graduation Reasoning | 0 | 0 | 30 |
 | Graduation English | 27 | 0 | 3 |
-| **कुल** | **93** | **13** | **190** |
+| **कुल** | **96** | **13** | **187** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -39,9 +39,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 03:01:03 autopilot start: 5 workers, reverse=True
-09-10 03:01:03 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_02_Medieval_History (TODO: todo 1, problems 0)
-09-10 03:01:08 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_03_Modern_History (OK: todo 0, problems 0)
 09-10 03:01:13 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_04_Constitution_Basic (OK: todo 0, problems 0)
 09-10 03:01:18 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_06_Physical_Geography (OK: todo 0, problems 0)
 09-10 03:01:23 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_07_States_Rivers (TODO: todo 6, problems 0)
@@ -74,4 +71,12 @@
 09-10 03:41:45   [Physical_Geography] review PYQ_hi.txt: 2 issue(s): - In the "Trap Types" table, under "राज्य-सीमा जाल", the example states "अनाई मुडी केरल-तमिलनाडु सीमा क्षेत्र में" → An
 09-10 03:42:35   [Modern_History] review: 2 section(s) corrected, 0 failed
 09-10 03:42:35   [Modern_History] written 2, failed 0; AI calls today 77/100000
+09-10 03:42:44 DONE Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_03_Modern_History in 41 min → d4f527b8
+09-10 03:42:44 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_08_World_Geography (TODO: todo 25, problems 0)
+09-10 03:42:47   [States_Rivers] Practice_en_Set_06.txt try 1: re-solve disagrees (Q130 key a vs re-solve ?)
+09-10 03:45:43   [World_Geography] wrote Content_en.txt (14176 chars)
+09-10 03:46:01   [States_Rivers] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 03:46:01   [Medieval_History] review Memory_Hooks_en.txt: 2 issue(s): - Box 9 mnemonic "KRK-NC" has five letters (K,R,K,N,C) but only four saints are listed (Kabir, Raidas, Nanak, 
+09-10 03:46:37   [Physical_Geography] review Memory_Hooks_hi.txt: 2 issue(s): - Mnemonic 2 heading claims "पश्चिम → पूर्व" order but the mnemonic "सा व अरा" (सातपुड़ा, विंध्य, अरावली) list
+09-10 03:47:11   [Constitution_Basic] review Memory_Hooks_hi.txt: 1 issue(s): - Mnemonic 8: Wrong example for simple majority amendment (“राज्य सभा सीटें”) → Simple majority under Article 
 ```
