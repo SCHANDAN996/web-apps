@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 03:16 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 03:32 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Medieval History (Graduation GK) | 🔎 review हो रहा है | 13 मिनट |
-| W2 | Chapter 03 Modern History (Graduation GK) | 🔎 review हो रहा है | 15 मिनट |
-| W3 | Chapter 04 Constitution Basic (Graduation GK) | 🔎 review हो रहा है | 15 मिनट |
-| W4 | Chapter 06 Physical Geography (Graduation GK) | 🔎 review हो रहा है | 15 मिनट |
-| W5 | Chapter 07 States Rivers (Graduation GK) | ✍️ लिख रहा है | 15 मिनट |
+| W1 | Chapter 02 Medieval History (Graduation GK) | 🔎 review हो रहा है | 28 मिनट |
+| W2 | Chapter 03 Modern History (Graduation GK) | 🔎 review हो रहा है | 30 मिनट |
+| W3 | Chapter 04 Constitution Basic (Graduation GK) | 🔎 review हो रहा है | 30 मिनट |
+| W4 | Chapter 06 Physical Geography (Graduation GK) | 🔎 review हो रहा है | 30 मिनट |
+| W5 | Chapter 07 States Rivers (Graduation GK) | ✍️ लिख रहा है | 30 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -25,12 +25,12 @@
 | 12th Maths | 0 | 0 | 23 |
 | 12th GK | 2 | 0 | 22 |
 | 12th Reasoning | 0 | 0 | 25 |
-| 12th English | 5 | 0 | 20 |
+| 12th English | 8 | 0 | 17 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 6 | 0 | 22 |
 | Graduation Reasoning | 0 | 0 | 30 |
-| Graduation English | 26 | 0 | 4 |
-| **कुल** | **89** | **13** | **194** |
+| Graduation English | 27 | 0 | 3 |
+| **कुल** | **93** | **13** | **190** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -55,4 +55,13 @@
 09-10 03:14:20   [Medieval_History] review Content_hi.txt: 1 issue(s): - "मेवाड़ के अम्बर (जयपुर) के राजा भारमल" is factually wrong; Amber (Amer/Jaipur) was a separate Kachwaha kingdom, 
 09-10 03:16:05   [Physical_Geography] review Key_Facts_en.txt: 1 issue(s): - Highest peak of Lesser Himalaya listed as Nanga Parbat (8,126 m) → Nanga Parbat is in the Great Himalayas (west
 09-10 03:16:33   [States_Rivers] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 03:18:13   [Constitution_Basic] review Key_Facts_hi.txt: 2 issue(s): - "यही तीन बातें सबसे ज़्यादा पूछी जाती हैं" (invented exam claim) → "ये तीन बिंदु परीक्षा की तैयारी के लिए महत्व
+09-10 03:19:55   [Physical_Geography] review Feynman_en.txt: 1 issue(s): - Inconsistent rainfall data: the text states the Deccan Plateau (including Pune) receives 50–60 cm of rain, but la
+09-10 03:21:44   [Physical_Geography] review Feynman_hi.txt: 1 issue(s): - The text claims Godavari, Krishna, Kaveri, and Mahanadi all originate from the Western Ghats → Mahanadi originate
+09-10 03:25:09   [States_Rivers] Practice_en_Set_05.txt try 1: re-solve disagrees (Q110 key d vs re-solve a, Q123 key a vs re-solve ?)
+09-10 03:28:13   [Medieval_History] review Feynman_en.txt: 2 issue(s): - "Balban and later Alauddin Khalji did: they made iqta transferable and non-hereditary" → Only Alauddin Khalji mad
+09-10 03:28:27   [Physical_Geography] review Mind_Map.txt: 1 issue(s): - West Coast division lists "Kannad" (कन्नड़) as a coastal region → the correct term is "Kanara" (कनारा) for the Karn
+09-10 03:29:17   [States_Rivers] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 03:30:45   [Medieval_History] review Feynman_hi.txt: 2 issue(s): - The mnemonic "ज़हाँगीर-वाले मुग़ल" incorrectly links the Jagir system to Jahangir; the Jagir system was systemati
+09-10 03:31:56   [Physical_Geography] review Flashcards_hi.txt: 1 issue(s): - Card 10: "तटीय संरचनाएँ" is wrong; Duns are longitudinal intermontane valleys, not coastal structures → replac
 ```
