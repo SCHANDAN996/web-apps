@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 08-10-2026 11:45 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 09-10-2026 12:00 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W4 | Chapter 05 Polity (12th GK) | 🔎 review हो रहा है | 59 मिनट |
-| W5 | Chapter 06 Physical Geography (12th GK) | 🔎 review हो रहा है | 78 मिनट |
+| W5 | Chapter 06 Physical Geography (12th GK) | 🔎 review हो रहा है | 93 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -20,14 +19,14 @@
 | 10th Maths | 9 | 13 | 0 |
 | 10th English | 0 | 0 | 20 |
 | 12th Maths | 0 | 0 | 23 |
-| 12th GK | 4 | 1 | 19 |
+| 12th GK | 3 | 2 | 19 |
 | 12th Reasoning | 0 | 0 | 25 |
 | 12th English | 5 | 0 | 20 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 2 | 0 | 26 |
 | Graduation Reasoning | 0 | 0 | 30 |
 | Graduation English | 25 | 0 | 5 |
-| **कुल** | **86** | **14** | **196** |
+| **कुल** | **85** | **15** | **196** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -36,19 +35,12 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 02 Medieval History (GK) — 2 बार
-- Chapter 05 Polity (GK) — 1 बार
+- Chapter 05 Polity (GK) — 2 बार
 - Chapter 03 Modern History (GK) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 22:47:22   [Modern_History] wrote Mind_Map.txt (3012 chars)
-08-10 22:47:22   [Physical_Geography] review Key_Facts_en.txt: 1 issue(s): - Latitudinal extent given as 8°4′ N to 37°6′ N (Fact 5 and Data table row 6) → should be 6°45′ N to 37°6′ N for 
-08-10 22:48:51   [Polity] review Content_en.txt: 2 issue(s): - The mnemonic for the Preamble's Justice order ("S-P-E: Social, Political, Economic") is incorrect → The correct o
-08-10 22:51:41   [Modern_History] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-08-10 22:55:12   [Modern_History] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-08-10 22:57:38   [Constitution_Basic] review PYQ_hi.txt: 2 issue(s): - "वर्तमान 12" (अनुसूचियाँ बुलेट में) बिना वर्ष के → "वर्तमान (2024 तक) 12"
-08-10 22:58:22   [Modern_History] Practice_hi_Set_05.txt try 1: rejected (Q123:needs_context)
 08-10 22:59:10   [Medieval_History] FAILED review Mind_Map.txt: too_long — the chapter must not be published unreviewed
 08-10 23:01:21   [Modern_History] Practice_hi_Set_05.txt try 2: rejected (Q123:needs_context)
 08-10 23:03:48   [Physical_Geography] review Feynman_en.txt: 2 issue(s): - "Hundreds of millions of years ago, when the Indian landmass crashed into Asia and the Himalayas rose" → The Indi
@@ -82,4 +74,11 @@
 08-10 23:35:48   [Polity] review Flashcards_hi.txt: 1 issue(s): - Card 17: Joint Sitting is provided under Article 108, not Article 118 → The correct article is 108.
 08-10 23:38:52   [Physical_Geography] review Flashcards_hi.txt: 1 issue(s): - Card 3 claims K2 (Godwin Austen) is India's highest peak → The highest peak in India is Kangchenjunga (8,586 m
 08-10 23:44:57   [Polity] review Memory_Hooks_en.txt: 1 issue(s): - Mnemonic 13 hook "4S-D-R" miscounts the S-words in the Preamble (Sovereign, Socialist, Secular are three, no
+08-10 23:49:58   [Physical_Geography] review PYQ_en.txt: 1 issue(s): - The claim that "roughly two-thirds of questions are 15-second recall type ... and one-third are 45-second elimination
+08-10 23:53:25   [Polity] review Memory_Hooks_hi.txt: 3 issue(s): - Mnemonic 1: The mnemonic "स-स-ध-अ-सं-सं" does not match the initials of the six fundamental rights (समानता, 
+08-10 23:54:47   [Polity] review: 9 section(s) corrected, 0 failed
+08-10 23:54:47   [Polity] written 9, failed 0; AI calls today 279/100000
+08-10 23:54:47 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_05_Polity after 71 min: todo [] problems ['Memory_Hooks_hi.txt: much shorter than the English section (']
+08-10 23:54:47 worker 3: nothing left
+08-10 23:59:42   [Physical_Geography] review Memory_Hooks_en.txt: 1 issue(s): - Hook 9 claims Mahendragiri is the highest point of Eastern Ghats → The highest peak of Eastern Ghats is Arma
 ```
