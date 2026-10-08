@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 08-10-2026 11:44 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 11:59 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 29 Placement Test (Graduation English) | 🔎 review हो रहा है | 13 मिनट |
-| W4 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 95 मिनट |
+| W2 | Chapter 29 Placement Test (Graduation English) | 🔎 review हो रहा है | 28 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md)
 
@@ -43,19 +42,12 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 25 Word Roots (English) — 2 बार
-- Chapter 23 Sentence Arrangement (English) — 1 बार
+- Chapter 23 Sentence Arrangement (English) — 2 बार
 - Chapter 22 Para Jumbles Adv (English) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 22:59:05   [Placement_Test] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-08-10 22:59:43   [Precis_Writing] review: 2 section(s) corrected, 0 failed
-08-10 22:59:43   [Precis_Writing] written 2, failed 0; AI calls today 466/100000
-08-10 22:59:54 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_27_Precis_Writing in 38 min → 24028fda
-08-10 22:59:54 worker 4: nothing left
-08-10 23:00:29   [Para_Jumbles_Adv] Practice_en_Set_05.txt try 3: re-solve disagrees (Q109 key d vs re-solve b)
-08-10 23:00:32   [Error_Log] review Content_en.txt: 1 issue(s): - In the example question "One of my friend ___ coming" → the noun after "one of" must be plural: "One of my **frie
 08-10 23:05:34   [Placement_Test] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 08-10 23:06:04   [Sentence_Arrangement] Practice_en_Set_03.txt try 2: re-solve disagrees (Q70 key a vs re-solve b)
 08-10 23:06:19   [Error_Log] review Feynman_hi.txt: 1 issue(s): - The English term "Blurring Sheet" in parentheses is a misspelling of the study technique "Blurting Sheet" → Corre
@@ -89,4 +81,11 @@
 08-10 23:38:09   [Sentence_Arrangement] Practice_en_Set_04.txt try 2: re-solve disagrees (Q81 key c vs re-solve a, Q95 key d vs re-solve a)
 08-10 23:43:45   [Sentence_Arrangement] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 08-10 23:44:39   [Placement_Test] review Content_hi.txt: 1 issue(s): - The mnemonic for the 12 grammar rules does not match the listed rules: it omits Rule 1 (Subject‑Verb Agreement wi
+08-10 23:45:10   [Sentence_Arrangement] Practice_hi_Set_04.txt try 1: rejected (parsed 6 questions, numbers 76…81)
+08-10 23:48:07   [Sentence_Arrangement] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+08-10 23:48:07   [Sentence_Arrangement] written 6, failed 3; AI calls today 517/100000
+08-10 23:48:07 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_23_Sentence_Arrangement after 98 min: todo ['Set 01 hi: todo', 'Set 03 en: todo', 'Set 03 hi: todo'] problems ['PYQ_en.txt: unsourced claim "(concept)"']
+08-10 23:48:07 worker 3: nothing left
+08-10 23:54:37   [Placement_Test] review PYQ_hi.txt: 1 issue(s): - Question 4: Answer (b) are is wrong for "The committee ___ divided in its opinion" because the singular pronoun "its"
+08-10 23:58:36   [Placement_Test] review Short_Tricks_en.txt: 1 issue(s): - Invented statistic "80% of placement-test errors hide in the first three" in Box 14 → remove or replace with
 ```
