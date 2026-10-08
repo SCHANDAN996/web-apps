@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 08-10-2026 11:59 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 09-10-2026 12:06 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 29 Placement Test (Graduation English) | 🔎 review हो रहा है | 28 मिनट |
+| W2 | Chapter 29 Placement Test (Graduation English) | 📤 push हो रहा है | 0 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md)
 
@@ -32,6 +32,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 00:06 — Graduation English · Chapter 29 Placement Test
 - 08-10 23:28 — Graduation English · Chapter 28 Error Log
 - 08-10 22:59 — Graduation English · Chapter 27 Precis Writing
 - 08-10 21:31 — Graduation English · Chapter 26 Critical Reading
@@ -48,10 +49,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 23:05:34   [Placement_Test] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-08-10 23:06:04   [Sentence_Arrangement] Practice_en_Set_03.txt try 2: re-solve disagrees (Q70 key a vs re-solve b)
-08-10 23:06:19   [Error_Log] review Feynman_hi.txt: 1 issue(s): - The English term "Blurring Sheet" in parentheses is a misspelling of the study technique "Blurting Sheet" → Corre
-08-10 23:07:11   [Placement_Test] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 08-10 23:09:49   [Placement_Test] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 08-10 23:09:50   [Para_Jumbles_Adv] Practice_en_Set_05.txt try 4: re-solve disagrees (Q101 key b vs re-solve d)
 08-10 23:09:50   [Para_Jumbles_Adv] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
@@ -88,4 +85,8 @@
 08-10 23:48:07 worker 3: nothing left
 08-10 23:54:37   [Placement_Test] review PYQ_hi.txt: 1 issue(s): - Question 4: Answer (b) are is wrong for "The committee ___ divided in its opinion" because the singular pronoun "its"
 08-10 23:58:36   [Placement_Test] review Short_Tricks_en.txt: 1 issue(s): - Invented statistic "80% of placement-test errors hide in the first three" in Box 14 → remove or replace with
+09-10 00:00:23   [Placement_Test] review Short_Tricks_hi.txt: 2 issue(s): - Trick 1 का FANBOYS comma नियम गलत है (comma केवल दो independent clauses जोड़ने पर लगता है, "लगभग हमेशा" नहीं
+09-10 00:05:17   [Placement_Test] review Important_Rules_hi.txt: 2 issue(s): - Morphology table column header "प्रत्यय" (suffix) incorrectly includes prefixes (e.g., pre-, trans-, in-,
+09-10 00:06:06   [Placement_Test] review: 6 section(s) corrected, 0 failed
+09-10 00:06:06   [Placement_Test] written 6, failed 0; AI calls today 4/100000
 ```

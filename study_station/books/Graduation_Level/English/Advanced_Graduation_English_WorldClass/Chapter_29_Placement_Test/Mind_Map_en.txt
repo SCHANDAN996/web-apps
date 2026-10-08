@@ -1,0 +1,30 @@
+```mermaid
+graph TD
+    A["Placement Test<br>English Section"] --> B["Core Concepts"]
+    A --> C["Golden Rules"]
+    A --> D["Examiner's Traps"]
+    A --> E["Strategies"]
+
+    B --> B1["Grammar<br>Tense, Agreement,<br>Articles, Prepositions"]
+    B --> B2["Vocabulary<br>Roots, Synonyms,<br>Antonyms, Idioms"]
+    B --> B3["Comprehension<br>Tone, Inference,<br>Main Idea"]
+    B --> B4["Sentence Skills<br>Rearrangement,<br>Improvement, Fillers"]
+
+    C --> C1["Subject-Verb Agreement<br>Ignore intervening phrases"]
+    C --> C2["Collective Nouns<br>Usually singular"]
+    C --> C3["Parallel Structure<br>Same grammatical form"]
+    C --> C4["Modifiers<br>Place next to word described"]
+
+    D --> D1["Intervening Phrase Trap<br>'The box of apples IS...'"]
+    D --> D2["Sound-Right Trap<br>'What you are doing?' ❌"]
+    D --> D3["Over-thinking Trap<br>Simple answer is often right"]
+    D --> D4["Near-Correct Options<br>One word changes meaning"]
+
+    E --> E1["15-Second Rule<br>Fact-based: vocab,<br>spelling, direct grammar"]
+    E --> E2["45-Second Rule<br>Inference-based: tone,<br>RC, complex errors"]
+    E --> E3["Skip Strategy<br>Mark & return to<br>time-eaters"]
+    E --> E4["Detective Approach<br>Find clues in passage,<br>never assume"]
+
+    B2 --> B5["Greek/Latin Roots<br>spect=see, dict=say,<br>port=carry, cred=believe"]
+    B3 --> B6["Tone Mapping<br>Positive / Negative /<br>Neutral / Sarcastic"]
+```
