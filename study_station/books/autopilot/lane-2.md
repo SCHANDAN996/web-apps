@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 03:48 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 03:49 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Medieval History (Graduation GK) | 🔎 review हो रहा है | 45 मिनट |
+| W1 | Chapter 02 Medieval History (Graduation GK) | 🔎 review हो रहा है | 46 मिनट |
 | W2 | Chapter 08 World Geography (Graduation GK) | ✍️ लिख रहा है | 6 मिनट |
-| W3 | Chapter 04 Constitution Basic (Graduation GK) | 🔎 review हो रहा है | 47 मिनट |
-| W4 | Chapter 06 Physical Geography (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
-| W5 | Chapter 07 States Rivers (Graduation GK) | ✍️ लिख रहा है | 47 मिनट |
+| W3 | Chapter 04 Constitution Basic (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
+| W4 | Chapter 09 Economy Basic (Graduation GK) | ✍️ लिख रहा है | 0 मिनट |
+| W5 | Chapter 07 States Rivers (Graduation GK) | ✍️ लिख रहा है | 48 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,17 +34,13 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 03:49 — Graduation GK · Chapter 04 Constitution Basic
 - 09-10 03:48 — Graduation GK · Chapter 06 Physical Geography
 - 09-10 03:42 — Graduation GK · Chapter 03 Modern History
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 03:03:11   [Medieval_History] wrote Flashcards_en.txt (3906 chars)
-09-10 03:03:11   [Medieval_History] written 1, failed 0; AI calls today 6/100000
-09-10 03:03:38   [Constitution_Basic] review Content_en.txt: 1 issue(s): - The hook paragraph states the Constituent Assembly met for its final sitting on 29 November 1949 → The Constituti
-09-10 03:08:08   [Modern_History] review Content_hi.txt: 2 issue(s): - "पहला तार (1853)" in Lord Dalhousie's row is incorrect; the first telegraph line in India opened in 1851 → "पहला 
-09-10 03:08:14   [Constitution_Basic] review Content_hi.txt: 3 issue(s): - "वर्तमान में 12 अनुसूचियाँ हैं" without a year → add year (e.g., "2024 तक 12 अनुसूचियाँ हैं")
 09-10 03:10:46   [States_Rivers] Practice_en_Set_04.txt try 1: re-solve disagrees (Q76 key a vs re-solve b, Q93 key b vs re-solve a)
 09-10 03:13:23   [States_Rivers] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 09-10 03:14:20   [Medieval_History] review Content_hi.txt: 1 issue(s): - "मेवाड़ के अम्बर (जयपुर) के राजा भारमल" is factually wrong; Amber (Amer/Jaipur) was a separate Kachwaha kingdom, 
@@ -80,4 +76,9 @@
 09-10 03:47:30   [States_Rivers] Practice_hi_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
 09-10 03:48:56   [Physical_Geography] review: 8 section(s) corrected, 0 failed
 09-10 03:48:56   [Physical_Geography] written 8, failed 0; AI calls today 93/100000
+09-10 03:49:05 DONE Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_06_Physical_Geography in 48 min → 9d9c4d54
+09-10 03:49:05 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_09_Economy_Basic (TODO: todo 25, problems 0)
+09-10 03:49:08   [World_Geography] wrote Content_hi.txt (10893 chars)
+09-10 03:49:25   [Constitution_Basic] review: 6 section(s) corrected, 0 failed
+09-10 03:49:25   [Constitution_Basic] written 6, failed 0; AI calls today 95/100000
 ```
