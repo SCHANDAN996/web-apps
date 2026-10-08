@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 08-10-2026 08:58 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 09:13 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 122 मिनट |
-| W2 | Chapter 03 Modern History (Graduation GK) | ✍️ लिख रहा है | 121 मिनट |
-| W3 | Chapter 04 Constitution Basic (Graduation GK) | ✍️ लिख रहा है | 121 मिनट |
-| W4 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 121 मिनट |
-| W5 | Chapter 06 Physical Geography (Graduation GK) | ✍️ लिख रहा है | 121 मिनट |
+| W1 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 137 मिनट |
+| W2 | Chapter 03 Modern History (Graduation GK) | ✍️ लिख रहा है | 137 मिनट |
+| W3 | Chapter 04 Constitution Basic (Graduation GK) | ✍️ लिख रहा है | 137 मिनट |
+| W4 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 136 मिनट |
+| W5 | Chapter 06 Physical Geography (Graduation GK) | ✍️ लिख रहा है | 136 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,17 +39,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 20:08:43   [Physical_Geography] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-08-10 20:09:27   [Modern_History] Practice_en_Set_01.txt try 1: re-solve disagrees (Q24 key d vs re-solve b)
-08-10 20:11:48   [Constitution_Basic] FAILED Flashcards_hi.txt: too_long
-08-10 20:13:59   [Polity] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-08-10 20:14:18   [Constitution_Basic] wrote PYQ_en.txt (9674 chars)
-08-10 20:16:48   [Modern_History] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-08-10 20:16:50   [Medieval_History] PYQ_hi.txt try 1: answer too long — asking for a tighter version
-08-10 20:19:00   [Polity] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-08-10 20:19:30   [Modern_History] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
-08-10 20:19:47   [Physical_Geography] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-08-10 20:19:51   [Constitution_Basic] wrote PYQ_hi.txt (7936 chars)
 08-10 20:21:09   [Medieval_History] wrote PYQ_hi.txt (8183 chars)
 08-10 20:23:46   [Modern_History] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 08-10 20:23:54   [Constitution_Basic] wrote Memory_Hooks_en.txt (6285 chars)
@@ -79,4 +68,15 @@
 08-10 20:55:31   [Medieval_History] Practice_en_Set_02.txt try 2: rejected (parsed 0 questions, numbers -…-)
 08-10 20:55:35   [Modern_History] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 08-10 20:56:50   [Polity] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+08-10 20:58:44   [Constitution_Basic] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+08-10 21:00:58   [Polity] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+08-10 21:01:55   [Medieval_History] Practice_en_Set_02.txt try 3: re-solve disagrees (Q43 key c vs re-solve b)
+08-10 21:02:24   [Physical_Geography] Practice_en_Set_05.txt try 1: re-solve disagrees (Q115 key b vs re-solve ?)
+08-10 21:02:48   [Modern_History] Practice_hi_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
+08-10 21:02:59   [Constitution_Basic] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+08-10 21:07:34   [Medieval_History] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+08-10 21:08:00   [Constitution_Basic] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+08-10 21:09:56   [Physical_Geography] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+08-10 21:12:36   [Polity] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+08-10 21:13:11   [Modern_History] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 ```
