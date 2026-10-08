@@ -1,12 +1,18 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 08-10-2026 05:30 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:42 AM
+**आख़िरी update:** 08-10-2026 06:49 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:48 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
+| worker | अध्याय | काम | कब से |
+|---|---|---|---|
+| W1 | Chapter 03 Adjective (12th English) | ✍️ लिख रहा है | 0 मिनट |
+| W2 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 0 मिनट |
+| W3 | Chapter 08 Conjunction (12th English) | ✍️ लिख रहा है | 0 मिनट |
+| W4 | Chapter 09 Articles (12th English) | ✍️ लिख रहा है | 0 मिनट |
+| W5 | Chapter 10 Voice (12th English) | ✍️ लिख रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -19,71 +25,25 @@
 | 12th Maths | 0 | 0 | 23 |
 | 12th GK | 1 | 0 | 23 |
 | 12th Reasoning | 0 | 0 | 25 |
-| 12th English | 6 | 0 | 19 |
+| 12th English | 5 | 0 | 20 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 1 | 0 | 27 |
 | Graduation Reasoning | 0 | 0 | 30 |
 | Graduation English | 19 | 2 | 9 |
-| **कुल** | **77** | **15** | **204** |
+| **कुल** | **76** | **15** | **205** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- 08-10 15:47 — 12th English · Chapter 07 Preposition
-- 08-10 14:31 — 12th English · Chapter 01 Noun
-- 08-10 14:21 — 12th English · Chapter 02 Pronoun
-- 08-10 13:22 — 12th English · Chapter 04 Verb
-- 08-10 13:22 — 12th English · Chapter 05 Tense
-
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 03 Adjective (English) — 2 बार
-- Chapter 06 Adverb (English) — 2 बार
-- Chapter 08 Conjunction (English) — 1 बार
-- Chapter 09 Articles (English) — 1 बार
-- Chapter 10 Voice (English) — 1 बार
-- Chapter 11 Narration (English) — 1 बार
+- अभी कोई नहीं
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 16:20:33 worker 0: nothing left
-08-10 16:22:28   [Narration] wrote PYQ_hi.txt (7776 chars)
-08-10 16:23:39   [Narration] wrote Short_Tricks_en.txt (6476 chars)
-08-10 16:25:21   [Narration] wrote Short_Tricks_hi.txt (7134 chars)
-08-10 16:26:14   [Narration] wrote Important_Rules_en.txt (5870 chars)
-08-10 16:26:21   [Adverb] Practice_en_Set_02.txt try 1: re-solve disagrees (Q41 key a vs re-solve b, Q49 key c vs re-solve ?)
-08-10 16:27:14   [Adverb] Practice_en_Set_02.txt try 2: rejected (parsed 0 questions, numbers -…-)
-08-10 16:27:29   [Narration] wrote Important_Rules_hi.txt (5806 chars)
-08-10 16:27:47   [Narration] Practice_en_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
-08-10 16:31:08   [Adverb] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-08-10 16:31:14   [Narration] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-08-10 16:32:41   [Adverb] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-08-10 16:33:07   [Narration] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-08-10 16:33:55   [Adverb] Practice_en_Set_04.txt try 1: rejected (Q82:leaked_reasoning)
-08-10 16:37:07   [Narration] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-08-10 16:41:22   [Adverb] Practice_en_Set_04.txt try 2: re-solve disagrees (Q82 key a vs re-solve d, Q97 key d vs re-solve a, Q99 key b vs re-solve ?)
-08-10 16:52:47   [Narration] FAILED Practice_hi_Set_02.txt: too_long
-08-10 16:53:31   [Adverb] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-08-10 16:53:39   [Adverb] Practice_hi_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
-08-10 16:55:03   [Adverb] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-08-10 16:57:59   [Narration] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-08-10 17:00:01   [Narration] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-08-10 17:03:32   [Adverb] Practice_en_Set_05.txt try 1: re-solve disagrees (Q106 key c vs re-solve b)
-08-10 17:03:52   [Adverb] Practice_en_Set_05.txt try 2: rejected (parsed 0 questions, numbers -…-)
-08-10 17:04:18   [Narration] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-08-10 17:05:43   [Adverb] Practice_en_Set_05.txt try 3: rejected (Q112:leaked_reasoning)
-08-10 17:05:43   [Adverb] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
-08-10 17:05:43   [Adverb] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
-08-10 17:05:43   [Adverb] written 7, failed 2; AI calls today 574/100000
-08-10 17:05:43 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_06_Adverb after 57 min: todo ['Set 05 en: todo', 'Set 05 hi: todo'] problems []
-08-10 17:05:43 worker 3: nothing left
-08-10 17:07:27   [Narration] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-08-10 17:15:11   [Narration] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-08-10 17:19:16   [Narration] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-08-10 17:22:32   [Narration] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-08-10 17:25:28   [Narration] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-08-10 17:25:28   [Narration] written 24, failed 2; AI calls today 580/100000
-08-10 17:25:28 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_11_Narration after 98 min: todo ['Mind_Map_hi.txt', 'Set 02 hi: todo'] problems []
-08-10 17:25:28 worker 4: nothing left
-08-10 17:30:52 autopilot end: done 5, failed 6
+08-10 18:48:28 autopilot start: 5 workers, reverse=True
+08-10 18:48:28 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_03_Adjective (TODO: todo 26, problems 0)
+08-10 18:48:33 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_06_Adverb (TODO: todo 26, problems 0)
+08-10 18:48:38 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_08_Conjunction (TODO: todo 26, problems 0)
+08-10 18:48:43 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_09_Articles (TODO: todo 26, problems 0)
+08-10 18:48:48 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_10_Voice (TODO: todo 26, problems 0)
+08-10 18:49:16   [Adjective] wrote Content_en.txt (3915 chars)
 ```
