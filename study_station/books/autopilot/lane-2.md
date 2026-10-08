@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 08-10-2026 05:01 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
+**आख़िरी update:** 08-10-2026 05:16 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 States Rivers (Graduation GK) | ✍️ लिख रहा है | 96 मिनट |
-| W2 | Chapter 08 World Geography (Graduation GK) | ✍️ लिख रहा है | 95 मिनट |
-| W3 | Chapter 09 Economy Basic (Graduation GK) | ✍️ लिख रहा है | 56 मिनट |
-| W4 | Chapter 06 Physical Geography (Graduation GK) | ✍️ लिख रहा है | 121 मिनट |
+| W1 | Chapter 07 States Rivers (Graduation GK) | ✍️ लिख रहा है | 111 मिनट |
+| W2 | Chapter 08 World Geography (Graduation GK) | ✍️ लिख रहा है | 110 मिनट |
+| W3 | Chapter 09 Economy Basic (Graduation GK) | ✍️ लिख रहा है | 71 मिनट |
+| W4 | Chapter 06 Physical Geography (Graduation GK) | ✍️ लिख रहा है | 136 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -45,14 +45,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 16:13:44   [Physical_Geography] wrote Key_Facts_hi.txt (9520 chars)
-08-10 16:13:59   [Polity] FAILED Practice_en_Set_02.txt: network
-08-10 16:13:59   [Polity] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
-08-10 16:14:21   [States_Rivers] wrote Feynman_en.txt (3515 chars)
-08-10 16:16:04   [Economy_Basic] wrote Content_hi.txt (10830 chars)
-08-10 16:18:33   [World_Geography] Mind_Map.txt try 1: rejected (no usable mermaid graph)
-08-10 16:18:40   [States_Rivers] wrote Feynman_hi.txt (2765 chars)
-08-10 16:19:26   [Physical_Geography] wrote Feynman_en.txt (3749 chars)
 08-10 16:20:14   [Polity] Practice_en_Set_03.txt try 1: re-solve disagrees (Q71 key d vs re-solve c, Q75 key c vs re-solve ?)
 08-10 16:22:46   [Physical_Geography] Feynman_hi.txt try 1: rejected (too short)
 08-10 16:22:53   [States_Rivers] Mind_Map.txt try 1: rejected (chat debris "Text")
@@ -85,4 +77,12 @@
 08-10 16:59:45   [Polity] written 9, failed 2; AI calls today 291/100000
 08-10 16:59:45 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_05_Polity after 97 min: todo ['Set 02 en: todo', 'Set 02 hi: todo'] problems ['Set 01 Practice_en_Set_01.txt: unverified exam/year source "']
 08-10 16:59:45 worker 4: nothing left
+08-10 17:02:43   [States_Rivers] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+08-10 17:04:23   [World_Geography] wrote PYQ_hi.txt (7814 chars)
+08-10 17:06:26   [Economy_Basic] wrote Key_Facts_hi.txt (9880 chars)
+08-10 17:06:41   [Physical_Geography] Memory_Hooks_hi.txt try 1: rejected (too short)
+08-10 17:08:46   [World_Geography] wrote Memory_Hooks_en.txt (6180 chars)
+08-10 17:10:49   [Economy_Basic] wrote Feynman_en.txt (3595 chars)
+08-10 17:12:22   [Physical_Geography] wrote Memory_Hooks_hi.txt (6929 chars)
+08-10 17:15:09   [Economy_Basic] wrote Feynman_hi.txt (2426 chars)
 ```
