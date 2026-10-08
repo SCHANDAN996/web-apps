@@ -11,8 +11,8 @@
 | W1 | Chapter 28 Error Log (Graduation English) | 🔎 review हो रहा है | 5 मिनट |
 | W2 | Chapter 29 Placement Test (Graduation English) | ✍️ लिख रहा है | 23 मिनट |
 | W3 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 40 मिनट |
-| W4 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 49 मिनट |
-| W5 | Chapter 27 Precis Writing (Graduation English) | 🔎 review हो रहा है | 19 मिनट |
+| W4 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 50 मिनट |
+| W5 | Chapter 27 Precis Writing (Graduation English) | 📤 push हो रहा है | 0 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md)
 
@@ -36,6 +36,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 08-10 22:59 — Graduation English · Chapter 27 Precis Writing
 - 08-10 21:31 — Graduation English · Chapter 26 Critical Reading
 - 08-10 20:51 — Graduation English · Chapter 24 RC Adv
 - 08-10 19:33 — Graduation English · Chapter 12 Sentence Structure
@@ -51,8 +52,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 22:36:11   [Word_Roots] review: 3 section(s) corrected, 2 failed
-08-10 22:36:11   [Word_Roots] written 3, failed 2; AI calls today 413/100000
 08-10 22:36:11 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_25_Word_Roots after 67 min: todo [] problems []
 08-10 22:36:13 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_29_Placement_Test (TODO: todo 26, problems 0)
 08-10 22:37:16   [Precis_Writing] wrote Practice_en_Set_06.txt (write, 25 MCQs)
@@ -91,4 +90,6 @@
 08-10 22:57:36   [Placement_Test] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 08-10 22:58:48   [Precis_Writing] review Important_Rules_hi.txt: 1 issue(s): - Morphology table entry for "related to the economy" incorrectly gives "economic(al)" as if both forms mea
 08-10 22:59:05   [Placement_Test] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+08-10 22:59:43   [Precis_Writing] review: 2 section(s) corrected, 0 failed
+08-10 22:59:43   [Precis_Writing] written 2, failed 0; AI calls today 466/100000
 ```
