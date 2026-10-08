@@ -7,7 +7,7 @@ name: Book autopilot
 
 on:
   schedule:
-    - cron: '7 */6 * * *'          # every 6 hours (UTC); a run starts no new chapter after 4.5 h
+    - cron: '17 * * * *'           # hourly: a lane still running keeps going, the next run waits in line (per-lane concurrency), so no lane sits idle
   workflow_dispatch: {}
 
 permissions:
