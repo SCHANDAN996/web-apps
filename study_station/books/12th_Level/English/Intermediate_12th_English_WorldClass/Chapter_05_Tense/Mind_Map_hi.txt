@@ -1,0 +1,28 @@
+```mermaid
+graph TD
+    A["काल (Tense)"]
+    A --> B["वर्तमान काल<br>(Present Tense)"]
+    A --> C["भूतकाल<br>(Past Tense)"]
+    A --> D["भविष्य काल<br>(Future Tense)"]
+
+    B --> B1["Simple Present<br>Subject + V1 (s/es)"]
+    B --> B2["Present Continuous<br>is/am/are + V-ing"]
+    B --> B3["Present Perfect<br>has/have + V3"]
+    B --> B4["Present Perfect Continuous<br>has/have been + V-ing"]
+
+    C --> C1["Simple Past<br>Subject + V2"]
+    C --> C2["Past Continuous<br>was/were + V-ing"]
+    C --> C3["Past Perfect<br>had + V3"]
+    C --> C4["Past Perfect Continuous<br>had been + V-ing"]
+
+    D --> D1["Simple Future<br>will/shall + V1"]
+    D --> D2["Future Continuous<br>will be + V-ing"]
+    D --> D3["Future Perfect<br>will have + V3"]
+    D --> D4["Future Perfect Continuous<br>will have been + V-ing"]
+
+    A --> E["परीक्षा के जाल (Traps)"]
+    E --> E1["since + समय-बिंदु<br>for + समय-अवधि"]
+    E --> E2["Past Perfect: पहले हुई<br>घटना had + V3"]
+    E --> E3["Universal truth में<br>हमेशा Simple Present"]
+    E --> E4["will के साथ<br>हमेशा V1"]
+```

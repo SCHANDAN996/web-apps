@@ -9,10 +9,10 @@
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
 | W1 | Chapter 01 Noun (12th English) | ✍️ लिख रहा है | 99 मिनट |
-| W2 | Chapter 02 Pronoun (12th English) | ✍️ लिख रहा है | 11 मिनट |
+| W2 | Chapter 02 Pronoun (12th English) | ✍️ लिख रहा है | 12 मिनट |
 | W3 | Chapter 03 Adjective (12th English) | 🔎 review हो रहा है | 14 मिनट |
 | W4 | Chapter 04 Verb (12th English) | 📤 push हो रहा है | 0 मिनट |
-| W5 | Chapter 05 Tense (12th English) | 🔎 review हो रहा है | 27 मिनट |
+| W5 | Chapter 05 Tense (12th English) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -35,21 +35,16 @@
 ## ✅ autopilot से हाल में पूरे हुए
 
 - 08-10 13:22 — 12th English · Chapter 04 Verb
+- 08-10 13:22 — 12th English · Chapter 05 Tense
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 04 Verb (English) — 1 बार
 - Chapter 03 Adjective (English) — 1 बार
 - Chapter 02 Pronoun (English) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 12:55:51   [Adjective] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
-08-10 12:56:24   [Adjective] Practice_en_Set_03.txt try 2: rejected (parsed 0 questions, numbers -…-)
-08-10 12:57:12   [Noun] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-08-10 12:57:18   [Tense] review Content_en.txt: 2 issue(s): - The claim "Every competitive exam — SSC CHSL, CGL, RRB NTPC, IBPS — tests Tense more than any other grammar topic
-08-10 12:58:40   [Pronoun] Practice_en_Set_06.txt try 1: re-solve disagrees (Q144 key c vs re-solve a)
 08-10 12:58:43   [Noun] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 08-10 12:59:02   [Verb] review Content_hi.txt: 1 issue(s): - Hook claims invented exam statistics (e.g., "Error Spotting के लगभग आधे सवाल", "Fill in the Blanks के एक बड़े हिस
 08-10 13:01:38   [Verb] review Feynman_en.txt: 1 issue(s): - The blurring sheet instruction says "Three words" but lists four items (of, with, along with, as well as) → Chang
@@ -85,4 +80,9 @@
 08-10 13:20:37   [Verb] review Short_Tricks_hi.txt: 1 issue(s): - Trick 1 का नियम "कर्ता में S लगे तो क्रिया में S नहीं; कर्ता में S नहीं तो क्रिया में S लगाओ" बहुवचन सर्वनाम
 08-10 13:22:31   [Verb] review: 7 section(s) corrected, 0 failed
 08-10 13:22:31   [Verb] written 7, failed 0; AI calls today 248/100000
+08-10 13:22:35   [Tense] review: 4 section(s) corrected, 0 failed
+08-10 13:22:35   [Tense] written 4, failed 0; AI calls today 248/100000
+08-10 13:22:38   [Pronoun] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+08-10 13:22:38 DONE 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_04_Verb in 34 min → 4b83cf91
+08-10 13:22:38 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_06_Adverb (TODO: todo 26, problems 0)
 ```
