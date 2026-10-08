@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 12:00 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 09-10-2026 12:15 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W5 | Chapter 07 States Rivers (Graduation GK) | ✍️ लिख रहा है | 63 मिनट |
+| W5 | Chapter 07 States Rivers (Graduation GK) | ✍️ लिख रहा है | 79 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -25,8 +25,8 @@
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 5 | 0 | 23 |
 | Graduation Reasoning | 0 | 0 | 30 |
-| Graduation English | 25 | 0 | 5 |
-| **कुल** | **87** | **13** | **196** |
+| Graduation English | 26 | 0 | 4 |
+| **कुल** | **88** | **13** | **195** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -42,9 +42,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 22:57:50 worker 0: nothing left
-08-10 22:58:34   [Polity] review Flashcards_en.txt: 1 issue(s): - Card 5: The mnemonic "CEMREP" misstates the six Fundamental Rights (duplicates Exploitation, omits Freedom) → 
-08-10 22:58:52   [States_Rivers] wrote Content_en.txt (12821 chars)
 08-10 23:00:38   [Polity] review Flashcards_hi.txt: 1 issue(s): - कार्ड 8 में दावा है कि राज्यपाल की नियुक्ति और राज्यसभा नामांकन भी आयरिश संविधान से लिए गए हैं → केवल DPSP और 
 08-10 23:01:36   [States_Rivers] wrote Content_hi.txt (9595 chars)
 08-10 23:01:51   [States_Rivers] wrote Key_Facts_en.txt (1157 chars)
@@ -82,4 +79,7 @@
 08-10 23:41:31   [States_Rivers] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 08-10 23:44:45   [States_Rivers] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 08-10 23:54:38   [States_Rivers] Practice_en_Set_03.txt try 1: re-solve disagrees (Q69 key d vs re-solve ?, Q71 key c vs re-solve a)
+09-10 00:03:38   [States_Rivers] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 00:08:06   [States_Rivers] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 00:14:53   [States_Rivers] Practice_en_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
 ```
