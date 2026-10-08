@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 08-10-2026 08:43 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 08:58 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Medieval History (12th GK) | ✍️ लिख रहा है | 107 मिनट |
-| W2 | Chapter 03 Modern History (12th GK) | ✍️ लिख रहा है | 106 मिनट |
-| W3 | Chapter 04 Constitution Basic (12th GK) | ✍️ लिख रहा है | 106 मिनट |
-| W4 | Chapter 05 Polity (12th GK) | ✍️ लिख रहा है | 106 मिनट |
-| W5 | Chapter 06 Physical Geography (12th GK) | ✍️ लिख रहा है | 106 मिनट |
+| W1 | Chapter 02 Medieval History (12th GK) | ✍️ लिख रहा है | 122 मिनट |
+| W2 | Chapter 03 Modern History (12th GK) | ✍️ लिख रहा है | 122 मिनट |
+| W3 | Chapter 04 Constitution Basic (12th GK) | ✍️ लिख रहा है | 121 मिनट |
+| W4 | Chapter 05 Polity (12th GK) | ✍️ लिख रहा है | 121 मिनट |
+| W5 | Chapter 06 Physical Geography (12th GK) | ✍️ लिख रहा है | 121 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -29,8 +29,8 @@
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 1 | 0 | 27 |
 | Graduation Reasoning | 0 | 0 | 30 |
-| Graduation English | 21 | 0 | 9 |
-| **कुल** | **78** | **13** | **205** |
+| Graduation English | 22 | 0 | 8 |
+| **कुल** | **79** | **13** | **204** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -39,16 +39,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 19:58:21   [Physical_Geography] wrote Flashcards_hi.txt (613 chars)
-08-10 20:00:00   [Modern_History] wrote PYQ_en.txt (12464 chars)
-08-10 20:01:09   [Medieval_History] wrote PYQ_hi.txt (6762 chars)
-08-10 20:01:45   [Constitution_Basic] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-08-10 20:02:35   [Physical_Geography] wrote PYQ_en.txt (10516 chars)
-08-10 20:03:52   [Modern_History] wrote PYQ_hi.txt (6379 chars)
-08-10 20:06:34   [Physical_Geography] wrote PYQ_hi.txt (7931 chars)
-08-10 20:06:47   [Medieval_History] wrote Memory_Hooks_en.txt (5982 chars)
-08-10 20:06:59   [Modern_History] wrote Memory_Hooks_en.txt (7906 chars)
-08-10 20:07:07   [Constitution_Basic] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 08-10 20:09:06   [Physical_Geography] wrote Memory_Hooks_en.txt (5441 chars)
 08-10 20:09:07   [Polity] Key_Facts_hi.txt try 1: answer too long — asking for a tighter version
 08-10 20:11:01   [Medieval_History] wrote Memory_Hooks_hi.txt (4812 chars)
@@ -79,4 +69,14 @@
 08-10 20:40:50   [Physical_Geography] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 08-10 20:41:39   [Modern_History] Practice_hi_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
 08-10 20:43:19   [Constitution_Basic] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+08-10 20:44:02   [Polity] wrote PYQ_hi.txt (8592 chars)
+08-10 20:45:36   [Physical_Geography] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+08-10 20:46:02   [Modern_History] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+08-10 20:47:30   [Polity] wrote Memory_Hooks_en.txt (7951 chars)
+08-10 20:51:55   [Constitution_Basic] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+08-10 20:52:05   [Physical_Geography] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+08-10 20:53:53   [Modern_History] Practice_en_Set_03.txt try 1: re-solve disagrees (Q57 key c vs re-solve a)
+08-10 20:55:35   [Constitution_Basic] Practice_en_Set_05.txt try 1: rejected (parsed 1 questions, numbers 101…101)
+08-10 20:57:03   [Physical_Geography] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+08-10 20:58:13   [Constitution_Basic] Practice_en_Set_05.txt try 2: rejected (parsed 0 questions, numbers -…-)
 ```
