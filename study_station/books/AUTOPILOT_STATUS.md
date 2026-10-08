@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 08-10-2026 10:44 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 10:59 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 28 Error Log (Graduation English) | ✍️ लिख रहा है | 72 मिनट |
-| W2 | Chapter 29 Placement Test (Graduation English) | ✍️ लिख रहा है | 8 मिनट |
-| W3 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 25 मिनट |
-| W4 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 34 मिनट |
-| W5 | Chapter 27 Precis Writing (Graduation English) | 🔎 review हो रहा है | 4 मिनट |
+| W1 | Chapter 28 Error Log (Graduation English) | 🔎 review हो रहा है | 5 मिनट |
+| W2 | Chapter 29 Placement Test (Graduation English) | ✍️ लिख रहा है | 23 मिनट |
+| W3 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 40 मिनट |
+| W4 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 49 मिनट |
+| W5 | Chapter 27 Precis Writing (Graduation English) | 🔎 review हो रहा है | 19 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md)
 
@@ -31,8 +31,8 @@
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 1 | 0 | 27 |
 | Graduation Reasoning | 0 | 0 | 30 |
-| Graduation English | 25 | 0 | 5 |
-| **कुल** | **82** | **13** | **201** |
+| Graduation English | 26 | 0 | 4 |
+| **कुल** | **83** | **13** | **200** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -51,27 +51,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 22:18:56 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv (TODO: todo 4, problems 1)
-08-10 22:20:00   [Sentence_Arrangement] Practice_en_Set_01.txt try 1: re-solve disagrees (Q1 key c vs re-solve a, Q6 key b vs re-solve a, Q14 key c vs re-solve a)
-08-10 22:21:15   [Precis_Writing] FAILED Practice_en_Set_06.txt: too_long
-08-10 22:21:15   [Precis_Writing] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-08-10 22:21:15   [Precis_Writing] written 21, failed 5; AI calls today 392/100000
-08-10 22:21:15 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_27_Precis_Writing after 89 min: todo ['Set 02 en: todo', 'Set 02 hi: todo', 'Set 05 hi: todo', 'Set 06 en: todo'] problems []
-08-10 22:21:17 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_27_Precis_Writing (TODO: todo 5, problems 0)
-08-10 22:23:13   [Word_Roots] FAILED review PYQ_en.txt: too_long — the chapter must not be published unreviewed
-08-10 22:23:15   [Sentence_Arrangement] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-08-10 22:25:50   [Precis_Writing] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-08-10 22:26:17   [Error_Log] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-08-10 22:27:36   [Word_Roots] review Short_Tricks_en.txt: 1 issue(s): - Box 6 trick says "CRACY = rule by people; ARCH = rule by a chief" → CRACY means "rule" (not specifically "by
-08-10 22:27:54   [Word_Roots] REJECTED review fix Short_Tricks_en.txt: corrupted characters
-08-10 22:28:16   [Precis_Writing] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-08-10 22:28:45   [Error_Log] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-08-10 22:30:20   [Word_Roots] review Short_Tricks_hi.txt: 1 issue(s): - ट्रिक 13 का शीर्षक "PRE-POST-ANTI-POST का क्रम" लिखता है लेकिन सामग्री में PRE, POST, ANTI, PRO दिए गए हैं →
-08-10 22:30:25   [Precis_Writing] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-08-10 22:31:55   [Error_Log] Practice_en_Set_04.txt try 1: re-solve disagrees (Q82 key b vs re-solve d)
-08-10 22:33:22   [Para_Jumbles_Adv] FAILED Practice_en_Set_04.txt: too_long
-08-10 22:33:22   [Para_Jumbles_Adv] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
-08-10 22:35:33   [Word_Roots] review Important_Rules_hi.txt: 2 issue(s): - In morphology table row 5, the root for "god" is incorrectly given as "the" → the root is "theo" (from Gr
 08-10 22:36:11   [Word_Roots] review: 3 section(s) corrected, 2 failed
 08-10 22:36:11   [Word_Roots] written 3, failed 2; AI calls today 413/100000
 08-10 22:36:11 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_25_Word_Roots after 67 min: todo [] problems []
@@ -91,4 +70,25 @@
 08-10 22:43:05   [Placement_Test] Flashcards_en.txt try 1: rejected (too short)
 08-10 22:43:08   [Error_Log] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 08-10 22:43:41   [Placement_Test] wrote Flashcards_en.txt (3622 chars)
+08-10 22:45:03   [Placement_Test] wrote Flashcards_hi.txt (3999 chars)
+08-10 22:45:53   [Precis_Writing] review Feynman_en.txt: 1 issue(s): - The provided answer to the practice question omits deleting the repeated warning, which is explicitly listed as a
+08-10 22:45:58   [Placement_Test] wrote PYQ_en.txt (7400 chars)
+08-10 22:46:00   [Sentence_Arrangement] Practice_hi_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
+08-10 22:46:18   [Error_Log] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+08-10 22:47:26   [Error_Log] Practice_hi_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
+08-10 22:48:22   [Placement_Test] wrote PYQ_hi.txt (6279 chars)
+08-10 22:48:40   [Sentence_Arrangement] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+08-10 22:48:41   [Sentence_Arrangement] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
+08-10 22:48:51   [Error_Log] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+08-10 22:49:19   [Placement_Test] wrote Short_Tricks_en.txt (5086 chars)
+08-10 22:50:45   [Para_Jumbles_Adv] Practice_en_Set_05.txt try 2: re-solve disagrees (Q101 key b vs re-solve d, Q116 key d vs re-solve b, Q121 key d vs re-solve b)
+08-10 22:51:37   [Placement_Test] wrote Short_Tricks_hi.txt (7466 chars)
+08-10 22:52:05   [Error_Log] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+08-10 22:52:16   [Placement_Test] wrote Important_Rules_en.txt (4884 chars)
+08-10 22:53:48   [Placement_Test] wrote Important_Rules_hi.txt (5063 chars)
+08-10 22:53:52   [Error_Log] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+08-10 22:53:52   [Error_Log] written 26, failed 0; AI calls today 459/100000
+08-10 22:57:36   [Placement_Test] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+08-10 22:58:48   [Precis_Writing] review Important_Rules_hi.txt: 1 issue(s): - Morphology table entry for "related to the economy" incorrectly gives "economic(al)" as if both forms mea
+08-10 22:59:05   [Placement_Test] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 ```
