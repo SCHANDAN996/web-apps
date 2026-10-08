@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 08-10-2026 11:59 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
+**आख़िरी update:** 08-10-2026 12:14 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Ancient History (Graduation GK) | ✍️ लिख रहा है | 15 मिनट |
-| W2 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 15 मिनट |
-| W3 | Chapter 03 Modern History (Graduation GK) | ✍️ लिख रहा है | 15 मिनट |
-| W4 | Chapter 04 Constitution Basic (Graduation GK) | ✍️ लिख रहा है | 15 मिनट |
-| W5 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 15 मिनट |
+| W1 | Chapter 01 Ancient History (Graduation GK) | ✍️ लिख रहा है | 31 मिनट |
+| W2 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 31 मिनट |
+| W3 | Chapter 03 Modern History (Graduation GK) | ✍️ लिख रहा है | 30 मिनट |
+| W4 | Chapter 04 Constitution Basic (Graduation GK) | ✍️ लिख रहा है | 30 मिनट |
+| W5 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 30 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -57,4 +57,20 @@
 08-10 11:57:57   [Ancient_History] wrote Key_Facts_hi.txt (7387 chars)
 08-10 11:58:05   [Modern_History] wrote Content_hi.txt (16872 chars)
 08-10 11:59:09   [Constitution_Basic] wrote Content_hi.txt (12470 chars)
+08-10 12:00:17   [Ancient_History] wrote Feynman_en.txt (3236 chars)
+08-10 12:01:16   [Polity] wrote Content_hi.txt (14957 chars)
+08-10 12:01:16   [Modern_History] wrote Key_Facts_en.txt (13203 chars)
+08-10 12:01:57   [Constitution_Basic] wrote Key_Facts_en.txt (14031 chars)
+08-10 12:03:35   [Polity] wrote Key_Facts_en.txt (1168 chars)
+08-10 12:03:49   [Medieval_History] Content_en.txt try 2: rejected (chat debris "Text")
+08-10 12:03:49   [Medieval_History] REJECTED Content_en.txt: chat debris "Text" — not written
+08-10 12:04:32   [Ancient_History] wrote Feynman_hi.txt (2025 chars)
+08-10 12:07:47   [Constitution_Basic] wrote Key_Facts_hi.txt (9784 chars)
+08-10 12:08:39   [Ancient_History] wrote Mind_Map.txt (4747 chars)
+08-10 12:11:48   [Ancient_History] wrote Flashcards_en.txt (4415 chars)
+08-10 12:12:02   [Constitution_Basic] wrote Feynman_en.txt (3848 chars)
+08-10 12:13:05   [Constitution_Basic] Feynman_hi.txt try 1: rejected (corrupted characters)
+08-10 12:13:45   [Medieval_History] wrote Content_hi.txt (9080 chars)
+08-10 12:13:48   [Polity] wrote Key_Facts_hi.txt (8181 chars)
+08-10 12:14:22   [Ancient_History] wrote Flashcards_hi.txt (3961 chars)
 ```
