@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 08-10-2026 04:16 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
+**आख़िरी update:** 08-10-2026 04:31 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 States Rivers (Graduation GK) | ✍️ लिख रहा है | 51 मिनट |
-| W2 | Chapter 08 World Geography (Graduation GK) | ✍️ लिख रहा है | 50 मिनट |
-| W3 | Chapter 09 Economy Basic (Graduation GK) | ✍️ लिख रहा है | 11 मिनट |
-| W4 | Chapter 06 Physical Geography (Graduation GK) | ✍️ लिख रहा है | 76 मिनट |
-| W5 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 53 मिनट |
+| W1 | Chapter 07 States Rivers (Graduation GK) | ✍️ लिख रहा है | 66 मिनट |
+| W2 | Chapter 08 World Geography (Graduation GK) | ✍️ लिख रहा है | 65 मिनट |
+| W3 | Chapter 09 Economy Basic (Graduation GK) | ✍️ लिख रहा है | 26 मिनट |
+| W4 | Chapter 06 Physical Geography (Graduation GK) | ✍️ लिख रहा है | 91 मिनट |
+| W5 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 68 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -46,18 +46,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 15:28:08   [Modern_History] Practice_en_Set_03.txt try 2: re-solve disagrees (Q56 key b vs re-solve c)
-08-10 15:28:28   [Polity] wrote Memory_Hooks_hi.txt (7191 chars)
-08-10 15:29:53   [States_Rivers] wrote Content_en.txt (9929 chars)
-08-10 15:33:28   [Polity] Practice_en_Set_01.txt try 1: rejected (Q22:leaked_reasoning)
-08-10 15:35:41   [Modern_History] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-08-10 15:37:31   [World_Geography] wrote Content_en.txt (12631 chars)
-08-10 15:39:37   [Polity] Practice_en_Set_01.txt try 2: re-solve disagrees (Q22 key c vs re-solve ?)
-08-10 15:41:58   [Physical_Geography] Key_Facts_en.txt try 1: answer too long — asking for a tighter version
-08-10 15:42:48   [World_Geography] Content_hi.txt try 1: rejected (corrupted characters)
-08-10 15:43:31   [Modern_History] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-08-10 15:45:04   [Polity] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-08-10 15:46:57   [Physical_Geography] wrote Key_Facts_en.txt (12515 chars)
 08-10 15:48:00   [World_Geography] wrote Content_hi.txt (12318 chars)
 08-10 15:48:13   [Modern_History] Practice_en_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
 08-10 15:50:13   [States_Rivers] Content_hi.txt try 1: answer too long — asking for a tighter version
@@ -86,4 +74,16 @@
 08-10 16:13:59   [Polity] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
 08-10 16:14:21   [States_Rivers] wrote Feynman_en.txt (3515 chars)
 08-10 16:16:04   [Economy_Basic] wrote Content_hi.txt (10830 chars)
+08-10 16:18:33   [World_Geography] Mind_Map.txt try 1: rejected (no usable mermaid graph)
+08-10 16:18:40   [States_Rivers] wrote Feynman_hi.txt (2765 chars)
+08-10 16:19:26   [Physical_Geography] wrote Feynman_en.txt (3749 chars)
+08-10 16:20:14   [Polity] Practice_en_Set_03.txt try 1: re-solve disagrees (Q71 key d vs re-solve c, Q75 key c vs re-solve ?)
+08-10 16:22:46   [Physical_Geography] Feynman_hi.txt try 1: rejected (too short)
+08-10 16:22:53   [States_Rivers] Mind_Map.txt try 1: rejected (chat debris "Text")
+08-10 16:25:22   [Polity] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+08-10 16:26:50   [States_Rivers] wrote Mind_Map.txt (3015 chars)
+08-10 16:27:17   [World_Geography] wrote Mind_Map.txt (2008 chars)
+08-10 16:27:37   [Physical_Geography] wrote Feynman_hi.txt (2361 chars)
+08-10 16:29:41   [States_Rivers] wrote Flashcards_en.txt (4637 chars)
+08-10 16:30:53   [Polity] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 ```
