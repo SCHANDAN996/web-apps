@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 08-10-2026 03:30 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:42 AM
+**आख़िरी update:** 08-10-2026 03:45 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:42 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 10 Voice (12th English) | ✍️ लिख रहा है | 58 मिनट |
-| W2 | Chapter 09 Articles (12th English) | ✍️ लिख रहा है | 68 मिनट |
-| W3 | Chapter 08 Conjunction (12th English) | ✍️ लिख रहा है | 91 मिनट |
-| W4 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 127 मिनट |
-| W5 | Chapter 07 Preposition (12th English) | 🔎 review हो रहा है | 13 मिनट |
+| W1 | Chapter 10 Voice (12th English) | ✍️ लिख रहा है | 73 मिनट |
+| W2 | Chapter 09 Articles (12th English) | ✍️ लिख रहा है | 83 मिनट |
+| W3 | Chapter 08 Conjunction (12th English) | ✍️ लिख रहा है | 107 मिनट |
+| W4 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 142 मिनट |
+| W5 | Chapter 07 Preposition (12th English) | 🔎 review हो रहा है | 28 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -47,20 +47,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 15:06:53   [Articles] wrote PYQ_hi.txt (5218 chars)
-08-10 15:07:00   [Preposition] Practice_hi_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
-08-10 15:08:00   [Articles] wrote Short_Tricks_en.txt (4903 chars)
-08-10 15:08:11   [Preposition] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-08-10 15:08:11   [Preposition] written 23, failed 3; AI calls today 424/100000
-08-10 15:08:11 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_07_Preposition after 105 min: todo ['Feynman_en.txt', 'Set 05 en: todo', 'Set 05 hi: todo'] problems []
-08-10 15:08:12 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_07_Preposition (TODO: todo 3, problems 0)
-08-10 15:09:05   [Articles] wrote Short_Tricks_hi.txt (4912 chars)
-08-10 15:09:06   [Voice] Mind_Map_en.txt try 1: answer too long — asking for a tighter version
-08-10 15:09:11   [Conjunction] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-08-10 15:09:21   [Preposition] wrote Feynman_en.txt (5824 chars)
-08-10 15:09:32   [Voice] wrote Mind_Map_en.txt (2080 chars)
-08-10 15:09:59   [Articles] wrote Important_Rules_en.txt (4663 chars)
-08-10 15:10:05   [Voice] wrote Mind_Map_hi.txt (2097 chars)
 08-10 15:10:22   [Conjunction] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 08-10 15:11:21   [Voice] wrote Flashcards_en.txt (4307 chars)
 08-10 15:12:14   [Adverb] Practice_en_Set_02.txt try 3: rejected (parsed 0 questions, numbers -…-)
@@ -87,4 +73,18 @@
 08-10 15:27:13   [Conjunction] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 08-10 15:27:38   [Articles] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 08-10 15:30:02   [Voice] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+08-10 15:30:31   [Articles] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+08-10 15:31:23   [Adverb] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+08-10 15:32:05   [Voice] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+08-10 15:32:31   [Voice] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
+08-10 15:33:21   [Adverb] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+08-10 15:33:49   [Preposition] review PYQ_hi.txt: 1 issue(s): - The 'Intervening Phrase' trap example illustrates subject-verb agreement (is/are), not a preposition error → Replace 
+08-10 15:33:58   [Articles] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+08-10 15:34:36   [Adverb] Practice_en_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
+08-10 15:38:24   [Voice] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+08-10 15:38:48   [Preposition] review Short_Tricks_en.txt: 1 issue(s): - Trick 7 heading says "Fixed Adjective + Preposition Pairs" but includes the verb "Depend ON" → change headin
+08-10 15:39:42   [Voice] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+08-10 15:42:42   [Articles] Practice_hi_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
+08-10 15:43:09   [Preposition] review Important_Rules_en.txt: 1 issue(s): - Memory hook states a preposition is always placed before its object and never after it → Prepositions can
+08-10 15:44:27   [Articles] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 ```
