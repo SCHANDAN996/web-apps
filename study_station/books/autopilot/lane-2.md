@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 08-10-2026 11:17 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 11:29 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W4 | Chapter 05 Polity (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
-| W5 | Chapter 07 States Rivers (Graduation GK) | ✍️ लिख रहा है | 21 मिनट |
+| W5 | Chapter 07 States Rivers (Graduation GK) | ✍️ लिख रहा है | 33 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -26,8 +25,8 @@
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 5 | 0 | 23 |
 | Graduation Reasoning | 0 | 0 | 30 |
-| Graduation English | 24 | 0 | 6 |
-| **कुल** | **86** | **13** | **197** |
+| Graduation English | 25 | 0 | 5 |
+| **कुल** | **87** | **13** | **196** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -37,20 +36,12 @@
 
 - Chapter 06 Physical Geography (GK) — 2 बार
 - Chapter 04 Constitution Basic (GK) — 2 बार
-- Chapter 05 Polity (GK) — 1 बार
 - Chapter 02 Medieval History (GK) — 2 बार
 - Chapter 03 Modern History (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 22:55:06   [Modern_History] review Feynman_hi.txt: 1 issue(s): - '4S' mnemonic for Extremists (Swaraj, Swadeshi, Boycott, National Education) is wrong → only Swaraj and Swadeshi 
-08-10 22:55:10   [Medieval_History] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-08-10 22:55:15   [Medieval_History] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
-08-10 22:56:11   [Physical_Geography] review: 7 section(s) corrected, 1 failed
-08-10 22:56:11   [Physical_Geography] written 7, failed 1; AI calls today 259/100000
-08-10 22:56:11 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_06_Physical_Geography after 91 min: todo [] problems []
-08-10 22:56:11 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_07_States_Rivers (TODO: todo 25, problems 0)
 08-10 22:57:50   [Medieval_History] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 08-10 22:57:50   [Medieval_History] written 3, failed 1; AI calls today 263/100000
 08-10 22:57:50 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_02_Medieval_History after 29 min: todo ['Flashcards_en.txt'] problems []
@@ -84,4 +75,11 @@
 08-10 23:16:01   [Polity] review Memory_Hooks_hi.txt: 2 issue(s): - बॉक्स 7, अनुसूची 1 का विवरण "वेतन नहीं — राज्य/केंद्रशासित प्रदेश" गलत है → सही: "राज्यों और केंद्रशासित प्र
 08-10 23:17:28   [Polity] review: 6 section(s) corrected, 0 failed
 08-10 23:17:28   [Polity] written 6, failed 0; AI calls today 293/100000
+08-10 23:17:39 DONE Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_05_Polity in 77 min → 1be155ba
+08-10 23:17:39 worker 3: nothing left
+08-10 23:18:02   [States_Rivers] wrote Memory_Hooks_en.txt (6513 chars)
+08-10 23:20:22   [States_Rivers] wrote Memory_Hooks_hi.txt (6063 chars)
+08-10 23:20:31   [States_Rivers] Practice_en_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
+08-10 23:25:16   [States_Rivers] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+08-10 23:28:34   [States_Rivers] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 ```
