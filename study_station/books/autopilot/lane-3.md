@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 08-10-2026 04:15 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:42 AM
+**आख़िरी update:** 08-10-2026 04:30 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:42 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 10 Voice (12th English) | ✍️ लिख रहा है | 103 मिनट |
-| W2 | Chapter 09 Articles (12th English) | ✍️ लिख रहा है | 113 मिनट |
-| W4 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 6 मिनट |
-| W5 | Chapter 11 Narration (12th English) | ✍️ लिख रहा है | 27 मिनट |
+| W4 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 21 मिनट |
+| W5 | Chapter 11 Narration (12th English) | ✍️ लिख रहा है | 42 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -44,35 +42,12 @@
 - Chapter 03 Adjective (English) — 2 बार
 - Chapter 06 Adverb (English) — 1 बार
 - Chapter 08 Conjunction (English) — 1 बार
+- Chapter 09 Articles (English) — 1 बार
+- Chapter 10 Voice (English) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 15:51:45   [Adverb] Practice_en_Set_05.txt try 1: rejected (Q112:leaked_reasoning)
-08-10 15:53:05   [Articles] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-08-10 15:53:19   [Adverb] Practice_en_Set_05.txt try 2: rejected (parsed 0 questions, numbers -…-)
-08-10 15:54:13   [Articles] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-08-10 15:55:24   [Voice] FAILED Practice_en_Set_04.txt: too_long
-08-10 15:55:24   [Voice] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
-08-10 15:58:11   [Adverb] Practice_en_Set_05.txt try 3: re-solve disagrees (Q113 key a vs re-solve ?)
-08-10 15:58:11   [Adverb] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
-08-10 15:58:11   [Adverb] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
-08-10 15:59:22   [Conjunction] Practice_en_Set_06.txt try 2: re-solve disagrees (Q138 key b vs re-solve ?, Q140 key c vs re-solve ?)
-08-10 16:01:03   [Adverb] Practice_en_Set_06.txt try 1: re-solve disagrees (Q150 key b vs re-solve c)
-08-10 16:01:51   [Voice] Practice_en_Set_05.txt try 1: re-solve disagrees (Q120 key c vs re-solve a)
-08-10 16:04:45   [Voice] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-08-10 16:05:37   [Narration] Content_hi.txt try 1: answer too long — asking for a tighter version
-08-10 16:06:17   [Voice] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-08-10 16:06:46   [Adverb] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-08-10 16:08:13   [Voice] Practice_en_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
-08-10 16:08:31   [Adverb] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-08-10 16:08:31   [Adverb] written 17, failed 9; AI calls today 517/100000
-08-10 16:08:31 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_06_Adverb after 166 min: todo ['Mind_Map_hi.txt', 'Set 01 en: todo', 'Set 01 hi: todo', 'Set 02 en: todo'] problems []
-08-10 16:08:31 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_06_Adverb (TODO: todo 9, problems 0)
-08-10 16:08:47   [Adverb] wrote Mind_Map_hi.txt (304 chars)
-08-10 16:08:55   [Narration] wrote Content_hi.txt (10579 chars)
-08-10 16:09:10   [Narration] Feynman_en.txt try 1: rejected (too short)
-08-10 16:09:41   [Narration] wrote Feynman_en.txt (2669 chars)
 08-10 16:09:44   [Articles] FAILED Practice_en_Set_04.txt: too_long
 08-10 16:09:44   [Articles] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
 08-10 16:10:08   [Adverb] Practice_en_Set_01.txt try 1: rejected (parsed 23 questions, numbers 1…25)
@@ -88,4 +63,29 @@
 08-10 16:15:08   [Conjunction] written 21, failed 5; AI calls today 531/100000
 08-10 16:15:08 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_08_Conjunction after 137 min: todo ['Short_Tricks_hi.txt', 'Set 02 en: todo', 'Set 02 hi: todo', 'Set 06 en: todo'] problems []
 08-10 16:15:08 worker 2: nothing left
+08-10 16:15:46   [Narration] Flashcards_en.txt try 1: rejected (corrupted characters)
+08-10 16:15:58   [Adverb] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+08-10 16:16:42   [Voice] Practice_en_Set_06.txt try 2: re-solve disagrees (Q139 key d vs re-solve a, Q146 key c vs re-solve a)
+08-10 16:17:15   [Narration] wrote Flashcards_en.txt (5008 chars)
+08-10 16:17:32   [Articles] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+08-10 16:18:19   [Narration] wrote Flashcards_hi.txt (5257 chars)
+08-10 16:18:47   [Adverb] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+08-10 16:19:01   [Voice] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+08-10 16:19:29   [Narration] wrote PYQ_en.txt (8294 chars)
+08-10 16:20:32   [Articles] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+08-10 16:20:32   [Articles] written 24, failed 2; AI calls today 543/100000
+08-10 16:20:33 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_09_Articles after 119 min: todo ['Set 04 en: todo', 'Set 04 hi: todo'] problems ['Mind_Map_hi.txt: much shorter than the English section (1407']
+08-10 16:20:33 worker 1: nothing left
+08-10 16:20:33   [Voice] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+08-10 16:20:33   [Voice] written 24, failed 2; AI calls today 543/100000
+08-10 16:20:33 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_10_Voice after 109 min: todo ['Set 04 en: todo', 'Set 04 hi: todo'] problems []
+08-10 16:20:33 worker 0: nothing left
+08-10 16:22:28   [Narration] wrote PYQ_hi.txt (7776 chars)
+08-10 16:23:39   [Narration] wrote Short_Tricks_en.txt (6476 chars)
+08-10 16:25:21   [Narration] wrote Short_Tricks_hi.txt (7134 chars)
+08-10 16:26:14   [Narration] wrote Important_Rules_en.txt (5870 chars)
+08-10 16:26:21   [Adverb] Practice_en_Set_02.txt try 1: re-solve disagrees (Q41 key a vs re-solve b, Q49 key c vs re-solve ?)
+08-10 16:27:14   [Adverb] Practice_en_Set_02.txt try 2: rejected (parsed 0 questions, numbers -…-)
+08-10 16:27:29   [Narration] wrote Important_Rules_hi.txt (5806 chars)
+08-10 16:27:47   [Narration] Practice_en_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
 ```
