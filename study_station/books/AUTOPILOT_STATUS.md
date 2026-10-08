@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 08-10-2026 09:57 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 09:41 AM
+**आख़िरी update:** 08-10-2026 10:12 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 09:41 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,12 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 21 Cloze Test Adv (Graduation English) | ✍️ लिख रहा है | 16 मिनट |
-| W2 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
-| W3 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
-| W4 | Chapter 24 RC Adv (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
-| W5 | Chapter 25 Word Roots (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
-| W6 | Chapter 26 Critical Reading (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
+| W1 | Chapter 21 Cloze Test Adv (Graduation English) | ✍️ लिख रहा है | 31 मिनट |
+| W2 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 31 मिनट |
+| W3 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 30 मिनट |
+| W4 | Chapter 24 RC Adv (Graduation English) | ✍️ लिख रहा है | 30 मिनट |
+| W5 | Chapter 25 Word Roots (Graduation English) | ✍️ लिख रहा है | 30 मिनट |
+| W6 | Chapter 26 Critical Reading (Graduation English) | ✍️ लिख रहा है | 30 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -54,34 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 09:41:02 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_21_Cloze_Test_Adv (TODO: todo 16, problems 1)
-08-10 09:41:07 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv (TODO: todo 12, problems 4)
-08-10 09:41:12 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_23_Sentence_Arrangement (TODO: todo 14, problems 2)
-08-10 09:41:17 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_24_RC_Adv (TODO: todo 16, problems 1)
-08-10 09:41:21 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_25_Word_Roots (TODO: todo 26, problems 0)
-08-10 09:41:26 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_26_Critical_Reading (TODO: todo 26, problems 1)
-08-10 09:42:00   [RC_Adv] wrote Short_Tricks_en.txt (2049 chars)
-08-10 09:42:54   [Cloze_Test_Adv] wrote Short_Tricks_en.txt (6936 chars)
-08-10 09:43:02   [Word_Roots] wrote Content_en.txt (9943 chars)
-08-10 09:43:20   [Critical_Reading] wrote Content_en.txt (9084 chars)
-08-10 09:43:42   [Sentence_Arrangement] wrote Important_Rules_en.txt (5876 chars)
-08-10 09:44:20   [RC_Adv] wrote Short_Tricks_hi.txt (6864 chars)
-08-10 09:44:43   [Sentence_Arrangement] wrote Important_Rules_hi.txt (945 chars)
-08-10 09:44:47   [Cloze_Test_Adv] wrote Short_Tricks_hi.txt (6242 chars)
-08-10 09:45:45   [Critical_Reading] wrote Content_hi.txt (8048 chars)
-08-10 09:45:59   [RC_Adv] wrote Important_Rules_en.txt (5233 chars)
-08-10 09:46:09   [Cloze_Test_Adv] wrote Important_Rules_en.txt (5124 chars)
-08-10 09:46:26   [Para_Jumbles_Adv] Practice_en_Set_01.txt try 1: re-solve disagrees (Q12 key d vs re-solve a)
-08-10 09:46:33   [Critical_Reading] wrote Feynman_en.txt (2826 chars)
-08-10 09:46:44   [Word_Roots] wrote Content_hi.txt (8313 chars)
-08-10 09:47:26   [Cloze_Test_Adv] wrote Important_Rules_hi.txt (4723 chars)
-08-10 09:47:31   [Word_Roots] wrote Feynman_en.txt (2858 chars)
-08-10 09:47:32   [RC_Adv] wrote Important_Rules_hi.txt (4960 chars)
-08-10 09:47:53   [Critical_Reading] wrote Feynman_hi.txt (3639 chars)
-08-10 09:49:01   [Critical_Reading] wrote Mind_Map_en.txt (1568 chars)
-08-10 09:49:38   [RC_Adv] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-08-10 09:49:40   [Cloze_Test_Adv] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-08-10 09:49:49   [Critical_Reading] wrote Mind_Map_hi.txt (1548 chars)
 08-10 09:49:53   [Word_Roots] wrote Feynman_hi.txt (8536 chars)
 08-10 09:50:56   [Critical_Reading] wrote Flashcards_en.txt (5043 chars)
 08-10 09:51:47   [RC_Adv] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
@@ -94,4 +66,32 @@
 08-10 09:56:35   [Para_Jumbles_Adv] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 08-10 09:56:37   [RC_Adv] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 08-10 09:57:02   [Cloze_Test_Adv] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+08-10 09:57:14   [Critical_Reading] wrote PYQ_hi.txt (8634 chars)
+08-10 09:59:14   [Cloze_Test_Adv] Practice_en_Set_02.txt try 1: re-solve disagrees (Q45 key b vs re-solve a)
+08-10 10:00:34   [RC_Adv] Practice_hi_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
+08-10 10:00:38   [Critical_Reading] wrote Short_Tricks_en.txt (5497 chars)
+08-10 10:02:03   [Cloze_Test_Adv] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+08-10 10:02:28   [Sentence_Arrangement] Practice_en_Set_01.txt try 2: re-solve disagrees (Q1 key a vs re-solve ?, Q2 key a vs re-solve ?, Q5 key b vs re-solve ?, Q8 key b vs re-solve ?, Q10 
+08-10 10:02:33   [Critical_Reading] wrote Short_Tricks_hi.txt (5319 chars)
+08-10 10:02:35   [Para_Jumbles_Adv] Practice_en_Set_02.txt try 1: re-solve disagrees (Q32 key a vs re-solve b, Q43 key b vs re-solve c, Q45 key d vs re-solve b)
+08-10 10:03:23   [Cloze_Test_Adv] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+08-10 10:03:40   [Critical_Reading] wrote Important_Rules_en.txt (5562 chars)
+08-10 10:05:19   [RC_Adv] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+08-10 10:07:03   [Word_Roots] Mind_Map_hi.txt try 1: answer too long — asking for a tighter version
+08-10 10:07:17   [RC_Adv] Practice_en_Set_03.txt try 1: rejected (parsed 23 questions, numbers 51…75)
+08-10 10:07:55   [Word_Roots] wrote Mind_Map_hi.txt (2665 chars)
+08-10 10:08:29   [Cloze_Test_Adv] Practice_en_Set_03.txt try 1: re-solve disagrees (Q61 key d vs re-solve b, Q75 key b vs re-solve ?)
+08-10 10:08:34   [Sentence_Arrangement] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+08-10 10:08:36   [Word_Roots] wrote Flashcards_en.txt (3982 chars)
+08-10 10:08:51   [RC_Adv] Practice_en_Set_03.txt try 2: rejected (Q74:leaked_reasoning)
+08-10 10:09:00   [Para_Jumbles_Adv] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+08-10 10:10:02   [Para_Jumbles_Adv] Practice_hi_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
+08-10 10:10:15   [Sentence_Arrangement] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+08-10 10:10:36   [Cloze_Test_Adv] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+08-10 10:10:47   [Sentence_Arrangement] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
+08-10 10:10:48   [Word_Roots] wrote Flashcards_hi.txt (5166 chars)
+08-10 10:11:02   [RC_Adv] Practice_en_Set_03.txt try 3: rejected (parsed 23 questions, numbers 51…75)
+08-10 10:11:02   [RC_Adv] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
+08-10 10:11:02   [RC_Adv] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
+08-10 10:12:14   [Cloze_Test_Adv] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 ```
