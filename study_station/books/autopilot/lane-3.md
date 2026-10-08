@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 03:45 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 03:47 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 03 Adjective (12th English) | 📤 push हो रहा है | 0 मिनट |
-| W2 | Chapter 14 Antonyms (12th English) | ✍️ लिख रहा है | 8 मिनट |
-| W3 | Chapter 11 Narration (12th English) | 🔧 सुधार रहा है | 9 मिनट |
-| W4 | Chapter 12 Sentence Structure (12th English) | ✍️ लिख रहा है | 14 मिनट |
-| W5 | Chapter 13 Synonyms (12th English) | ✍️ लिख रहा है | 13 मिनट |
+| W1 | Chapter 15 One Word Substitution (12th English) | ✍️ लिख रहा है | 2 मिनट |
+| W2 | Chapter 14 Antonyms (12th English) | ✍️ लिख रहा है | 11 मिनट |
+| W3 | Chapter 11 Narration (12th English) | 🔎 review हो रहा है | 1 मिनट |
+| W4 | Chapter 12 Sentence Structure (12th English) | ✍️ लिख रहा है | 16 मिनट |
+| W5 | Chapter 13 Synonyms (12th English) | ✍️ लिख रहा है | 16 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -23,14 +23,14 @@
 | 10th Maths | 9 | 13 | 0 |
 | 10th English | 0 | 0 | 20 |
 | 12th Maths | 0 | 0 | 23 |
-| 12th GK | 2 | 0 | 22 |
+| 12th GK | 3 | 0 | 21 |
 | 12th Reasoning | 0 | 0 | 25 |
-| 12th English | 10 | 1 | 14 |
+| 12th English | 11 | 0 | 14 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 2 | 0 | 26 |
+| Graduation GK | 3 | 0 | 25 |
 | Graduation Reasoning | 0 | 0 | 30 |
 | Graduation English | 27 | 0 | 3 |
-| **कुल** | **91** | **14** | **191** |
+| **कुल** | **94** | **13** | **189** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -40,23 +40,9 @@
 - 09-10 03:30 — 12th English · Chapter 09 Articles
 - 09-10 03:28 — 12th English · Chapter 08 Conjunction
 
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 03 Adjective (English) — 1 बार
-
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 03:34:33   [Sentence_Structure] Feynman_hi.txt try 1: rejected (too short)
-09-10 03:34:54   [Sentence_Structure] Feynman_hi.txt try 2: rejected (too short)
-09-10 03:34:54   [Sentence_Structure] REJECTED Feynman_hi.txt: too short — not written
-09-10 03:35:20   [Synonyms] wrote Feynman_hi.txt (3082 chars)
-09-10 03:35:27   [Sentence_Structure] wrote Mind_Map_en.txt (1405 chars)
-09-10 03:35:36   [Synonyms] wrote Mind_Map_en.txt (1651 chars)
-09-10 03:35:43   [Adverb] review Important_Rules_hi.txt: 1 issue(s): - Rule 10 states that when two verbs are joined, the adverb must apply to both; but the example “He wrote t
-09-10 03:35:52   [Narration] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 03:35:52   [Narration] written 2, failed 0; AI calls today 102/100000
-09-10 03:35:58   [Synonyms] wrote Mind_Map_hi.txt (1323 chars)
 09-10 03:35:58   [Sentence_Structure] wrote Mind_Map_hi.txt (1751 chars)
 09-10 03:36:23   [Adverb] review: 5 section(s) corrected, 0 failed
 09-10 03:36:23   [Adverb] written 5, failed 0; AI calls today 106/100000
@@ -87,4 +73,14 @@
 09-10 03:44:51   [Adjective] review Mind_Map_en.txt: 2 issue(s): - "former vs farmer" in Trap 4 → "former vs latter" (farmer is a person who farms; the contrast is between former 
 09-10 03:45:14   [Adjective] review: 1 section(s) corrected, 0 failed
 09-10 03:45:14   [Adjective] written 1, failed 0; AI calls today 132/100000
+09-10 03:45:26 DONE 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_03_Adjective in 1 min → 425832ce
+09-10 03:45:27 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_15_One_Word_Substitution (TODO: todo 26, problems 0)
+09-10 03:45:33   [Narration] REJECTED Flashcards_hi.txt: corrupted characters — not written
+09-10 03:45:33   [Narration] written 0, failed 1; AI calls today 134/100000
+09-10 03:45:51   [Sentence_Structure] Practice_en_Set_01.txt try 1: rejected (Q20:duplicate_options)
+09-10 03:45:55   [Synonyms] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 03:46:45   [Narration] repaired Flashcards_hi.txt (4458 chars)
+09-10 03:46:45   [Narration] written 1, failed 0; AI calls today 137/100000
+09-10 03:46:47   [Sentence_Structure] Practice_en_Set_01.txt try 2: rejected (Q20:duplicate_options)
+09-10 03:46:57   [Synonyms] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 ```
