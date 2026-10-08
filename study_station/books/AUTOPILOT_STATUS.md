@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 04:48 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 05:03 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 Blood Relations (Graduation Reasoning) | ✍️ लिख रहा है | 22 मिनट |
-| W2 | Chapter 03 Coding Decoding (Graduation Reasoning) | ✍️ लिख रहा है | 35 मिनट |
-| W3 | Chapter 02 Classification (Graduation Reasoning) | ✍️ लिख रहा है | 83 मिनट |
-| W4 | Chapter 30 Revision Tracker (Graduation English) | 🔧 सुधार रहा है | 4 मिनट |
-| W5 | Chapter 01 Analogy (Graduation Reasoning) | ✍️ लिख रहा है | 106 मिनट |
+| W1 | Chapter 04 Blood Relations (Graduation Reasoning) | ✍️ लिख रहा है | 37 मिनट |
+| W2 | Chapter 03 Coding Decoding (Graduation Reasoning) | ✍️ लिख रहा है | 50 मिनट |
+| W3 | Chapter 02 Classification (Graduation Reasoning) | ✍️ लिख रहा है | 98 मिनट |
+| W4 | Chapter 30 Revision Tracker (Graduation English) | 🔧 सुधार रहा है | 20 मिनट |
+| W5 | Chapter 01 Analogy (Graduation Reasoning) | ✍️ लिख रहा है | 121 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md)
 
@@ -27,12 +27,12 @@
 | 12th Maths | 0 | 0 | 23 |
 | 12th GK | 5 | 0 | 19 |
 | 12th Reasoning | 0 | 0 | 25 |
-| 12th English | 12 | 0 | 13 |
+| 12th English | 14 | 0 | 11 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 6 | 0 | 22 |
+| Graduation GK | 7 | 0 | 21 |
 | Graduation Reasoning | 0 | 0 | 30 |
 | Graduation English | 28 | 1 | 1 |
-| **कुल** | **101** | **14** | **181** |
+| **कुल** | **104** | **14** | **178** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -47,19 +47,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 04:12:30 START Graduation_Level/Reasoning/Chapter_03_Coding_Decoding (TODO: todo 25, problems 0)
-09-10 04:13:17   [Analogy] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-09-10 04:13:55   [Classification] wrote Short_Tricks_hi.txt (5026 chars)
-09-10 04:14:55   [Classification] wrote Important_Rules_en.txt (4144 chars)
-09-10 04:16:06   [Para_Jumbles_Adv] Practice_en_Set_05.txt try 3: re-solve disagrees (Q101 key b vs re-solve c, Q103 key a vs re-solve b, Q106 key d vs re-solve a, Q107 key d vs re-solve
-09-10 04:16:32   [Analogy] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-09-10 04:16:40   [Classification] wrote Important_Rules_hi.txt (3730 chars)
-09-10 04:18:47   [Classification] Practice_en_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 04:20:16   [Revision_Tracker] FAILED Practice_hi_Set_04.txt: too_long
-09-10 04:20:56   [Analogy] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-09-10 04:23:21   [Analogy] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 04:23:21   [Revision_Tracker] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-09-10 04:23:30   [Classification] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 09-10 04:25:34   [Para_Jumbles_Adv] Practice_en_Set_05.txt try 4: re-solve disagrees (Q109 key c vs re-solve a, Q116 key a vs re-solve d)
 09-10 04:25:34   [Para_Jumbles_Adv] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
 09-10 04:25:34   [Para_Jumbles_Adv] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
@@ -87,4 +74,17 @@
 09-10 04:43:22   [Revision_Tracker] written 1, failed 0; AI calls today 163/100000
 09-10 04:45:39   [Classification] Practice_en_Set_02.txt try 1: rejected (Q49:leaked_reasoning)
 09-10 04:46:27   [Blood_Relations] Content_en.txt try 1: answer too long — asking for a tighter version
+09-10 04:49:13   [Blood_Relations] wrote Content_en.txt (12169 chars)
+09-10 04:50:46   [Classification] Practice_en_Set_02.txt try 2: rejected (Q49:leaked_reasoning,Q50:leaked_reasoning)
+09-10 04:52:59   [Blood_Relations] wrote Content_hi.txt (7110 chars)
+09-10 04:53:30   [Analogy] Practice_en_Set_06.txt try 1: re-solve disagrees (Q137 key d vs re-solve a, Q143 key b vs re-solve c)
+09-10 04:55:06   [Blood_Relations] Feynman_en.txt try 1: rejected (chat debris "Here's the")
+09-10 04:56:50   [Blood_Relations] Feynman_en.txt try 2: rejected (chat debris "Here's the")
+09-10 04:56:50   [Blood_Relations] REJECTED Feynman_en.txt: chat debris "Here's the" — not written
+09-10 04:58:32   [Blood_Relations] wrote Feynman_hi.txt (3098 chars)
+09-10 05:01:02   [Classification] FAILED Practice_en_Set_02.txt: rate_limited
+09-10 05:01:02   [Classification] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+09-10 05:01:15   [Coding_Decoding] wrote Feynman_en.txt (2822 chars)
+09-10 05:02:19   [Blood_Relations] wrote Mind_Map.txt (1896 chars)
+09-10 05:03:26   [Coding_Decoding] Feynman_hi.txt try 1: rejected (corrupted characters)
 ```
