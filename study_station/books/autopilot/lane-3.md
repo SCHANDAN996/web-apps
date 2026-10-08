@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 08-10-2026 04:00 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:42 AM
+**आख़िरी update:** 08-10-2026 04:15 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:42 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 10 Voice (12th English) | ✍️ लिख रहा है | 88 मिनट |
-| W2 | Chapter 09 Articles (12th English) | ✍️ लिख रहा है | 98 मिनट |
-| W3 | Chapter 08 Conjunction (12th English) | ✍️ लिख रहा है | 122 मिनट |
-| W4 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 157 मिनट |
-| W5 | Chapter 11 Narration (12th English) | ✍️ लिख रहा है | 12 मिनट |
+| W1 | Chapter 10 Voice (12th English) | ✍️ लिख रहा है | 103 मिनट |
+| W2 | Chapter 09 Articles (12th English) | ✍️ लिख रहा है | 113 मिनट |
+| W4 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 6 मिनट |
+| W5 | Chapter 11 Narration (12th English) | ✍️ लिख रहा है | 27 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -43,40 +42,12 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 03 Adjective (English) — 2 बार
+- Chapter 06 Adverb (English) — 1 बार
+- Chapter 08 Conjunction (English) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 15:25:42   [Adverb] Practice_en_Set_03.txt try 2: re-solve disagrees (Q58 key c vs re-solve a, Q70 key c vs re-solve a)
-08-10 15:26:18   [Voice] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-08-10 15:27:13   [Conjunction] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-08-10 15:27:38   [Articles] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-08-10 15:30:02   [Voice] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-08-10 15:30:31   [Articles] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-08-10 15:31:23   [Adverb] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-08-10 15:32:05   [Voice] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-08-10 15:32:31   [Voice] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
-08-10 15:33:21   [Adverb] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-08-10 15:33:49   [Preposition] review PYQ_hi.txt: 1 issue(s): - The 'Intervening Phrase' trap example illustrates subject-verb agreement (is/are), not a preposition error → Replace 
-08-10 15:33:58   [Articles] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-08-10 15:34:36   [Adverb] Practice_en_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
-08-10 15:38:24   [Voice] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-08-10 15:38:48   [Preposition] review Short_Tricks_en.txt: 1 issue(s): - Trick 7 heading says "Fixed Adjective + Preposition Pairs" but includes the verb "Depend ON" → change headin
-08-10 15:39:42   [Voice] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-08-10 15:42:42   [Articles] Practice_hi_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
-08-10 15:43:09   [Preposition] review Important_Rules_en.txt: 1 issue(s): - Memory hook states a preposition is always placed before its object and never after it → Prepositions can
-08-10 15:44:27   [Articles] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-08-10 15:46:15   [Conjunction] Practice_en_Set_06.txt try 1: re-solve disagrees (Q127 key a vs re-solve b, Q141 key c vs re-solve a, Q150 key c vs re-solve a)
-08-10 15:46:57   [Preposition] review Important_Rules_hi.txt: 1 issue(s): - Rule 12 claims prepositions can end sentences only in interrogative sentences (प्रश्नवाचक वाक्यों में) bu
-08-10 15:47:36   [Preposition] review: 4 section(s) corrected, 0 failed
-08-10 15:47:36   [Preposition] written 4, failed 0; AI calls today 495/100000
-08-10 15:47:44 DONE 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_07_Preposition in 39 min → dd495190
-08-10 15:47:44 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_11_Narration (TODO: todo 26, problems 0)
-08-10 15:49:01   [Narration] wrote Content_en.txt (8922 chars)
-08-10 15:50:31   [Articles] Practice_en_Set_03.txt try 1: re-solve disagrees (Q71 key b vs re-solve c)
-08-10 15:50:42   [Articles] Practice_en_Set_03.txt try 2: rejected (parsed 0 questions, numbers -…-)
-08-10 15:50:43   [Adverb] FAILED Practice_en_Set_04.txt: too_long
-08-10 15:50:43   [Adverb] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
 08-10 15:51:45   [Adverb] Practice_en_Set_05.txt try 1: rejected (Q112:leaked_reasoning)
 08-10 15:53:05   [Articles] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 08-10 15:53:19   [Adverb] Practice_en_Set_05.txt try 2: rejected (parsed 0 questions, numbers -…-)
@@ -87,4 +58,34 @@
 08-10 15:58:11   [Adverb] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
 08-10 15:58:11   [Adverb] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
 08-10 15:59:22   [Conjunction] Practice_en_Set_06.txt try 2: re-solve disagrees (Q138 key b vs re-solve ?, Q140 key c vs re-solve ?)
+08-10 16:01:03   [Adverb] Practice_en_Set_06.txt try 1: re-solve disagrees (Q150 key b vs re-solve c)
+08-10 16:01:51   [Voice] Practice_en_Set_05.txt try 1: re-solve disagrees (Q120 key c vs re-solve a)
+08-10 16:04:45   [Voice] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+08-10 16:05:37   [Narration] Content_hi.txt try 1: answer too long — asking for a tighter version
+08-10 16:06:17   [Voice] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+08-10 16:06:46   [Adverb] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+08-10 16:08:13   [Voice] Practice_en_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
+08-10 16:08:31   [Adverb] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+08-10 16:08:31   [Adverb] written 17, failed 9; AI calls today 517/100000
+08-10 16:08:31 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_06_Adverb after 166 min: todo ['Mind_Map_hi.txt', 'Set 01 en: todo', 'Set 01 hi: todo', 'Set 02 en: todo'] problems []
+08-10 16:08:31 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_06_Adverb (TODO: todo 9, problems 0)
+08-10 16:08:47   [Adverb] wrote Mind_Map_hi.txt (304 chars)
+08-10 16:08:55   [Narration] wrote Content_hi.txt (10579 chars)
+08-10 16:09:10   [Narration] Feynman_en.txt try 1: rejected (too short)
+08-10 16:09:41   [Narration] wrote Feynman_en.txt (2669 chars)
+08-10 16:09:44   [Articles] FAILED Practice_en_Set_04.txt: too_long
+08-10 16:09:44   [Articles] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
+08-10 16:10:08   [Adverb] Practice_en_Set_01.txt try 1: rejected (parsed 23 questions, numbers 1…25)
+08-10 16:10:37   [Narration] wrote Feynman_hi.txt (2504 chars)
+08-10 16:11:17   [Narration] wrote Mind_Map_en.txt (2157 chars)
+08-10 16:11:34   [Narration] Mind_Map_hi.txt try 1: rejected (chat debris "Text")
+08-10 16:13:10   [Articles] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+08-10 16:14:53   [Narration] Mind_Map_hi.txt try 2: rejected (corrupted characters)
+08-10 16:14:53   [Narration] REJECTED Mind_Map_hi.txt: corrupted characters — not written
+08-10 16:15:06   [Articles] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+08-10 16:15:08   [Conjunction] FAILED Practice_en_Set_06.txt: too_long
+08-10 16:15:08   [Conjunction] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+08-10 16:15:08   [Conjunction] written 21, failed 5; AI calls today 531/100000
+08-10 16:15:08 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_08_Conjunction after 137 min: todo ['Short_Tricks_hi.txt', 'Set 02 en: todo', 'Set 02 hi: todo', 'Set 06 en: todo'] problems []
+08-10 16:15:08 worker 2: nothing left
 ```
