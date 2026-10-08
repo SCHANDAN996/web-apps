@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 08-10-2026 11:14 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 11:30 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Medieval History (12th GK) | 🔎 review हो रहा है | 64 मिनट |
-| W2 | Chapter 03 Modern History (12th GK) | ✍️ लिख रहा है | 29 मिनट |
-| W4 | Chapter 05 Polity (12th GK) | 🔎 review हो रहा है | 29 मिनट |
-| W5 | Chapter 06 Physical Geography (12th GK) | 🔎 review हो रहा है | 47 मिनट |
+| W1 | Chapter 02 Medieval History (12th GK) | 🔎 review हो रहा है | 79 मिनट |
+| W4 | Chapter 05 Polity (12th GK) | 🔎 review हो रहा है | 44 मिनट |
+| W5 | Chapter 06 Physical Geography (12th GK) | 🔎 review हो रहा है | 63 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -26,10 +25,10 @@
 | 12th Reasoning | 0 | 0 | 25 |
 | 12th English | 5 | 0 | 20 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 1 | 0 | 27 |
+| Graduation GK | 2 | 0 | 26 |
 | Graduation Reasoning | 0 | 0 | 30 |
-| Graduation English | 24 | 0 | 6 |
-| **कुल** | **84** | **14** | **198** |
+| Graduation English | 25 | 0 | 5 |
+| **कुल** | **86** | **14** | **196** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -39,19 +38,11 @@
 
 - Chapter 02 Medieval History (GK) — 1 बार
 - Chapter 05 Polity (GK) — 1 बार
-- Chapter 03 Modern History (GK) — 1 बार
+- Chapter 03 Modern History (GK) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 22:30:44   [Physical_Geography] review Content_en.txt: 1 issue(s): - Hindi term 'भंगाल की खाड़ी' for Bay of Bengal is misspelled → correct Hindi is 'बंगाल की खाड़ी'
-08-10 22:34:59   [Medieval_History] review Key_Facts_hi.txt: 1 issue(s): - जहांगीर की विवरण पंक्ति में 'इंग्लिश ख़िलाफ़त नहीं — सर थॉमस रो (1615) आया' असंगत/गलत हिन्दी है → इसे 'अंग्रेज़
-08-10 22:37:06   [Physical_Geography] review Content_hi.txt: 3 issue(s): - पड़ोसी देशों की तालिका में चीन के लिए सीमा लगने वाले राज्यों की संख्या 4 दी गई है, लेकिन सूची में 5 राज्य/केंद्रश
-08-10 22:38:19   [Polity] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-08-10 22:42:17   [Constitution_Basic] review Mind_Map.txt: 1 issue(s): - E2: "Now: 12 Schedules" (वर्तमान: 12 अनुसूचियाँ) is a "current X is" claim without a year → Add year, e.g., "Now (2
-08-10 22:42:22   [Medieval_History] review Feynman_en.txt: 1 issue(s): - The list of Delhi Sultanate dynasties is given in the wrong order (Slave, Khilji, Tughlaq, Lodi, Sayyid) → Correc
-08-10 22:43:20   [Polity] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-08-10 22:43:20   [Polity] written 24, failed 1; AI calls today 217/100000
 08-10 22:43:20 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_05_Polity after 227 min: todo ['Key_Facts_en.txt'] problems []
 08-10 22:43:20 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_05_Polity (TODO: todo 1, problems 0)
 08-10 22:45:11   [Modern_History] FAILED Practice_hi_Set_06.txt: too_long
@@ -84,4 +75,12 @@
 08-10 23:08:59   [Modern_History] REJECTED Practice_hi_Set_05.txt: no translation passed the checks — not written
 08-10 23:10:28   [Medieval_History] review PYQ_hi.txt: 2 issue(s): - "अकबर की मानसबदारी, दीन-ए-इलाही, दिन-पनाह" में दिन-पनाह को अकबर की उपलब्धि बताया गया है → दिन-पनाह (पुराना किला) हुमा
 08-10 23:10:29   [Physical_Geography] review Mind_Map.txt: 5 issue(s): - Greater Himalaya – Mt. Everest → Greater Himalaya – Kanchenjunga
+08-10 23:16:42   [Modern_History] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+08-10 23:16:42   [Modern_History] written 4, failed 1; AI calls today 255/100000
+08-10 23:16:42 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_03_Modern_History after 32 min: todo ['Set 05 hi: todo'] problems []
+08-10 23:16:42 worker 1: nothing left
+08-10 23:18:55   [Polity] review Key_Facts_hi.txt: 6 issue(s): - हर परीक्षा में निश्चित; तथ्यात्मक → ऐसा कोई गारंटी नहीं; परीक्षा में प्रश्नों का वितरण बदलता है
+08-10 23:26:25   [Polity] review Feynman_hi.txt: 1 issue(s): - ग्राम न्यायालय को अनुच्छेद 39A और 40 के उदाहरण के रूप में देना गलत है → ग्राम न्यायालय ग्राम न्यायालय अधिनियम, 20
+08-10 23:28:22   [Medieval_History] review Memory_Hooks_en.txt: 1 issue(s): - Bernier saw Shah Jahan's sons → Bernier saw Aurangzeb (Shah Jahan's son) during his travels (1665–68)
+08-10 23:28:51   [Polity] review Mind_Map.txt: 1 issue(s): - B1: Hindi 'सम्विधान सभा' is misspelled → correct to 'संविधान सभा'
 ```
