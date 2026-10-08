@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 08-10-2026 03:15 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
+**आख़िरी update:** 08-10-2026 03:24 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Ancient History (Graduation GK) | 🔎 review हो रहा है | 3 मिनट |
-| W2 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 35 मिनट |
-| W3 | Chapter 03 Modern History (Graduation GK) | ✍️ लिख रहा है | 41 मिनट |
-| W4 | Chapter 06 Physical Geography (Graduation GK) | ✍️ लिख रहा है | 15 मिनट |
-| W5 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 212 मिनट |
+| W1 | Chapter 01 Ancient History (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 44 मिनट |
+| W3 | Chapter 03 Modern History (Graduation GK) | ✍️ लिख रहा है | 50 मिनट |
+| W4 | Chapter 06 Physical Geography (Graduation GK) | ✍️ लिख रहा है | 24 मिनट |
+| W5 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 2 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,7 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 08-10 15:24 — Graduation GK · Chapter 01 Ancient History
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
@@ -42,22 +42,11 @@
 - Chapter 03 Modern History (GK) — 1 बार
 - Chapter 02 Medieval History (GK) — 1 बार
 - Chapter 01 Ancient History (GK) — 1 बार
+- Chapter 05 Polity (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 14:33:57 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_03_Modern_History (TODO: todo 8, problems 0)
-08-10 14:35:03   [Constitution_Basic] Practice_en_Set_05.txt try 1: rejected (Q101:answer_solution_conflict,Q109:answer_solution_conflict,Q110:answer_solution_conflict,Q115:answer_solution
-08-10 14:35:31   [Medieval_History] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-08-10 14:36:05   [Ancient_History] review Flashcards_en.txt: 2 issue(s): - Card 6: Mahavira died first (c. 468 BCE) with Buddha's mahaparinirvana c. 483 BCE → Buddha died first (c. 483 
-08-10 14:36:17   [Modern_History] Practice_en_Set_01.txt try 1: rejected (Q1:answer_solution_conflict,Q3:answer_solution_conflict,Q8:answer_solution_conflict,Q10:answer_solution_confli
-08-10 14:37:24   [Modern_History] Practice_en_Set_01.txt try 2: rejected (parsed 0 questions, numbers -…-)
-08-10 14:39:54   [Medieval_History] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-08-10 14:39:54   [Medieval_History] written 20, failed 5; AI calls today 191/100000
-08-10 14:39:54 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_02_Medieval_History after 177 min: todo ['Content_en.txt', 'Set 01 en: todo', 'Set 01 hi: todo', 'Set 05 en: todo'] problems []
-08-10 14:39:54 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_02_Medieval_History (TODO: todo 5, problems 0)
-08-10 14:40:37   [Constitution_Basic] Practice_en_Set_05.txt try 2: rejected (Q101:answer_solution_conflict)
-08-10 14:43:27   [Constitution_Basic] Practice_en_Set_05.txt try 3: rejected (Q101:answer_solution_conflict,Q105:answer_solution_conflict,Q111:answer_solution_conflict,Q116:answer_solution
 08-10 14:43:27   [Constitution_Basic] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
 08-10 14:43:27   [Constitution_Basic] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
 08-10 14:43:44   [Ancient_History] review Flashcards_hi.txt: 1 issue(s): - Card 3: states Buddha's first sermon was given to five Brahmins → It was given to five ascetics (the five disc
@@ -86,4 +75,16 @@
 08-10 15:12:08   [Ancient_History] written 6, failed 1; AI calls today 214/100000
 08-10 15:12:09 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_01_Ancient_History after 209 min: todo [] problems []
 08-10 15:12:09 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_01_Ancient_History (OK: todo 0, problems 0)
+08-10 15:16:01   [Polity] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+08-10 15:16:05   [Physical_Geography] Content_en.txt try 1: rejected (corrupted characters)
+08-10 15:16:27   [Ancient_History] review Content_hi.txt: 1 issue(s): - धोलावीरा की नदी "लूनी (मानसरोवर)" गलत है → धोलावीरा लूनी नदी पर स्थित है, मानसरोवर तिब्बत की एक झील है
+08-10 15:20:57   [Physical_Geography] wrote Content_en.txt (10118 chars)
+08-10 15:21:09   [Modern_History] Practice_en_Set_03.txt try 1: rejected (Q53:leaked_reasoning)
+08-10 15:22:53   [Polity] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+08-10 15:22:53   [Polity] written 14, failed 11; AI calls today 221/100000
+08-10 15:22:53 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_05_Polity after 219 min: todo ['Memory_Hooks_hi.txt', 'Set 01 en: todo', 'Set 01 hi: todo', 'Set 02 en: todo'] problems []
+08-10 15:22:53 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_05_Polity (TODO: todo 11, problems 0)
+08-10 15:23:55   [Physical_Geography] wrote Content_hi.txt (342 chars)
+08-10 15:24:54   [Ancient_History] review: 1 section(s) corrected, 0 failed
+08-10 15:24:54   [Ancient_History] written 1, failed 0; AI calls today 223/100000
 ```
