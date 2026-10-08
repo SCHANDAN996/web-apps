@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 08-10-2026 06:49 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:48 PM
+**आख़िरी update:** 08-10-2026 06:57 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -9,7 +9,7 @@
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
 | W1 | Chapter 12 Sentence Structure (Graduation English) | 🔧 सुधार रहा है | 0 मिनट |
-| W2 | Chapter 20 Sentence Improvement Adv (Graduation English) | 🔎 review हो रहा है | 0 मिनट |
+| W2 | Chapter 20 Sentence Improvement Adv (Graduation English) | 🔧 सुधार रहा है | 0 मिनट |
 | W3 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
 | W4 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
 | W5 | Chapter 24 RC Adv (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
@@ -31,8 +31,8 @@
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 1 | 0 | 27 |
 | Graduation Reasoning | 0 | 0 | 30 |
-| Graduation English | 20 | 1 | 9 |
-| **कुल** | **77** | **14** | **205** |
+| Graduation English | 19 | 2 | 9 |
+| **कुल** | **76** | **15** | **205** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -41,14 +41,10 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 18:48:31 autopilot start: 5 workers, reverse=True
-08-10 18:48:32 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_12_Sentence_Structure (FIX: todo 0, problems 1)
-08-10 18:48:37 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_20_Sentence_Improvement_Adv (FIX: todo 0, problems 1)
-08-10 18:48:41   [Sentence_Improvement_Adv] REJECTED Short_Tricks_en.txt: too short — not written
-08-10 18:48:42   [Sentence_Improvement_Adv] written 0, failed 1; AI calls today 2/100000
-08-10 18:48:42 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv (TODO: todo 26, problems 0)
-08-10 18:48:47 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_23_Sentence_Arrangement (TODO: todo 26, problems 0)
-08-10 18:48:52 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_24_RC_Adv (TODO: todo 26, problems 0)
-08-10 18:49:15   [Sentence_Improvement_Adv] repaired Short_Tricks_en.txt (4999 chars)
-08-10 18:49:15   [Sentence_Improvement_Adv] written 1, failed 0; AI calls today 6/100000
+08-10 18:56:19 autopilot start: 5 workers, reverse=True
+08-10 18:56:20 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_12_Sentence_Structure (FIX: todo 0, problems 1)
+08-10 18:56:25 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_20_Sentence_Improvement_Adv (FIX: todo 0, problems 1)
+08-10 18:56:30 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv (TODO: todo 26, problems 0)
+08-10 18:56:35 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_23_Sentence_Arrangement (TODO: todo 26, problems 0)
+08-10 18:56:40 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_24_RC_Adv (TODO: todo 26, problems 0)
 ```
