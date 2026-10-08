@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 08-10-2026 09:34 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 08:48 AM
+**आख़िरी update:** 08-10-2026 09:41 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 09:41 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 33 मिनट |
-| W2 | Chapter 21 Cloze Test Adv (Graduation English) | ✍️ लिख रहा है | 37 मिनट |
-| W3 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
-| W4 | Chapter 24 RC Adv (Graduation English) | ✍️ लिख रहा है | 10 मिनट |
+| W1 | Chapter 21 Cloze Test Adv (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
+| W2 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
+| W3 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
+| W4 | Chapter 24 RC Adv (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
+| W5 | Chapter 25 Word Roots (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
+| W6 | Chapter 26 Critical Reading (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -52,25 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 09:16:35   [Sentence_Improvement_Adv] review PYQ_en.txt: 1 issue(s): - Q7 answer (a) is wrong because it uses question word order in reported speech; the correct option is (c) which remove
-08-10 09:17:43   [Para_Jumbles_Adv] wrote PYQ_en.txt (10110 chars)
-08-10 09:18:42   [Fill_in_Blanks_Adv] review: 4 section(s) corrected, 0 failed
-08-10 09:18:42   [Fill_in_Blanks_Adv] written 4, failed 0; AI calls today 69/100000
-08-10 09:18:50 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_19_Fill_in_Blanks_Adv in 30 min → 4877a3f
-08-10 09:18:51 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_23_Sentence_Arrangement (TODO: todo 26, problems 1)
-08-10 09:19:23   [Para_Jumbles_Adv] wrote PYQ_hi.txt (2141 chars)
-08-10 09:20:14   [Sentence_Improvement_Adv] review Important_Rules_en.txt: 1 issue(s): - The entire section is corrupted/placeholder text (repetitive gibberish like "the most the most the most")
-08-10 09:20:24   [Sentence_Arrangement] wrote Content_en.txt (8238 chars)
-08-10 09:21:01   [Para_Jumbles_Adv] wrote Short_Tricks_en.txt (8205 chars)
-08-10 09:22:02   [Sentence_Arrangement] wrote Content_hi.txt (880 chars)
-08-10 09:22:31   [Sentence_Improvement_Adv] review: 5 section(s) corrected, 1 failed
-08-10 09:22:31   [Sentence_Improvement_Adv] written 5, failed 1; AI calls today 79/100000
-08-10 09:22:31 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_20_Sentence_Improvement_Adv after 34 min: todo [] problems []
-08-10 09:22:32 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_20_Sentence_Improvement_Adv (OK: todo 0, problems 0)
-08-10 09:22:47   [Sentence_Improvement_Adv] review Mind_Map_en.txt: 2 issue(s): - "12 Golden Rules" heading shows only 8 rules (C1–C8) → either change heading to "8 Golden Rules" or add 4 more r
-08-10 09:22:58   [Para_Jumbles_Adv] wrote Short_Tricks_hi.txt (5813 chars)
-08-10 09:22:59   [Sentence_Arrangement] wrote Feynman_en.txt (3642 chars)
-08-10 09:23:23   [Sentence_Improvement_Adv] review: 1 section(s) corrected, 0 failed
 08-10 09:23:23   [Sentence_Improvement_Adv] written 1, failed 0; AI calls today 83/100000
 08-10 09:23:31 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_20_Sentence_Improvement_Adv in 1 min → 4bfa55a
 08-10 09:23:32 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_24_RC_Adv (TODO: todo 26, problems 1)
@@ -92,4 +75,23 @@
 08-10 09:32:36   [RC_Adv] wrote Mind_Map_hi.txt (1759 chars)
 08-10 09:33:49   [Cloze_Test_Adv] wrote Flashcards_hi.txt (5634 chars)
 08-10 09:33:59   [RC_Adv] wrote Flashcards_en.txt (5095 chars)
+08-10 09:34:54   [Sentence_Arrangement] wrote PYQ_hi.txt (9084 chars)
+08-10 09:34:59   [Cloze_Test_Adv] wrote PYQ_en.txt (4345 chars)
+08-10 09:36:16   [RC_Adv] wrote Flashcards_hi.txt (5277 chars)
+08-10 09:36:17   [Para_Jumbles_Adv] Practice_en_Set_01.txt try 1: re-solve disagrees (Q2 key d vs re-solve c, Q15 key d vs re-solve c, Q21 key c vs re-solve a, Q22 key c vs re-solve a)
+08-10 09:36:19   [Sentence_Arrangement] wrote Short_Tricks_en.txt (6818 chars)
+08-10 09:36:43   [Cloze_Test_Adv] wrote PYQ_hi.txt (6108 chars)
+08-10 09:38:04   [RC_Adv] wrote PYQ_en.txt (10700 chars)
+08-10 09:38:36   [RC_Adv] PYQ_hi.txt try 1: rejected (too short)
+08-10 09:39:48   [Sentence_Arrangement] wrote Short_Tricks_hi.txt (5201 chars)
+08-10 09:40:17   [Para_Jumbles_Adv] Practice_en_Set_01.txt try 2: re-solve disagrees (Q13 key d vs re-solve b)
+08-10 09:40:39   [RC_Adv] wrote PYQ_hi.txt (9447 chars)
+08-10 09:41:00 autopilot start: 6 workers, reverse=True
+08-10 09:41:02 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_21_Cloze_Test_Adv (TODO: todo 16, problems 1)
+08-10 09:41:07 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv (TODO: todo 12, problems 4)
+08-10 09:41:12 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_23_Sentence_Arrangement (TODO: todo 14, problems 2)
+08-10 09:41:17 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_24_RC_Adv (TODO: todo 16, problems 1)
+08-10 09:41:21 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_25_Word_Roots (TODO: todo 26, problems 0)
+08-10 09:41:26 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_26_Critical_Reading (TODO: todo 26, problems 1)
+08-10 09:42:00   [RC_Adv] wrote Short_Tricks_en.txt (2049 chars)
 ```
