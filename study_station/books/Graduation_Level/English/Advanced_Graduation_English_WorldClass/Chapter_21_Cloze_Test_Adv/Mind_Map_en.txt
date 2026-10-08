@@ -1,0 +1,35 @@
+```mermaid
+graph TD
+    A["Advanced Cloze Test"] --> B["Step 1: Read Whole Passage First"]
+    A --> C["Step 2: Identify Context Clues"]
+    A --> D["Step 3: Eliminate Options"]
+    A --> E["Step 4: Re-read with Answers"]
+
+    B --> B1["Find the Theme<br>AI, Climate, Economy"]
+    B --> B2["Detect the Tone<br>Positive / Negative / Neutral"]
+
+    C --> C1["Grammar Clues<br>Subject-Verb Agreement<br>Tense Consistency"]
+    C --> C2["Vocabulary Clues<br>Collocations<br>Word Roots"]
+    C --> C3["Logic Clues<br>Connectors: however, therefore<br>Pronoun References"]
+
+    D --> D1["Remove Grammatically Wrong Options"]
+    D --> D2["Remove Tone-Mismatched Options"]
+    D --> D3["Choose Best Fit, Not Just Correct"]
+
+    E --> E1["Check Flow and Coherence"]
+
+    A --> F["Examiner's Traps"]
+    F --> F1["Sound-Right Trap<br>Looks correct, breaks collocation"]
+    F --> F2["Intervening Phrase Trap<br>Words between subject and verb"]
+    F --> F3["Over-thinking Trap<br>Simple answer rejected as too easy"]
+
+    A --> G["Time Strategy"]
+    G --> G1["Fact/Grammar Blanks: 15 sec"]
+    G --> G2["Tone/Inference Blanks: 45 sec"]
+    G --> G3["Skip and Return if Stuck"]
+
+    A --> H["Golden Rules"]
+    H --> H1["Blank Answer Must Fit Both Sides"]
+    H --> H2["Connector Decides Direction of Idea"]
+    H --> H3["Never Answer Blank 1 Before Reading Full Passage"]
+```

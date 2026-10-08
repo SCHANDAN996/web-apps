@@ -1,0 +1,103 @@
+# 📊 PYQ विश्लेषण — उन्नत क्लोज़ टेस्ट
+
+## परीक्षा-पैटर्न का सार (शब्दों में)
+
+SSC CGL, IBPS PO/Clerk, SBI PO और राज्य PCS परीक्षाओं में क्लोज़ टेस्ट अंग्रेज़ी खंड का नियमित हिस्सा है। Advanced स्तर पर परीक्षक एक ही गद्यांश में 5–10 रिक्त स्थान देता है, और हर रिक्त स्थान के लिए 4 विकल्प। पिछले वर्षों के पैटर्न से स्पष्ट है कि सवाल तीन ही परिवारों से आते हैं:
+
+1. **व्याकरण-आधारित रिक्तियाँ** — Subject-Verb Agreement, Tense की निरंतरता, Preposition, Article, Conjunction। ये सबसे ज़्यादा पूछे जाते हैं।
+2. **शब्दावली-आधारित रिक्तियाँ** — Collocation (कौन-सा शब्द किसके साथ चलता है), पर्यायवाची में सूक्ष्म अंतर, Phrasal Verb।
+3. **संदर्भ/टोन-आधारित रिक्तियाँ** — गद्यांश की भावना (आलोचनात्मक/प्रशंसात्मक/तटस्थ) के अनुसार शब्द चुनना; Contrast शब्द (however, although) देखकर दिशा बदलना।
+
+**परीक्षक के पाँच पसंदीदा जाल:**
+
+- **Intervening Phrase जाल:** कर्ता और क्रिया के बीच लंबा वाक्यांश डालकर agreement तोड़ना ("The quality of apples *was*…" में "apples" देखकर "were" लगाना)।
+- **Sound-Right जाल:** वह विकल्प जो सुनने में सही लगता है पर व्याकरण में गलत ("despite of", "discuss about")।
+- **Collocation जाल:** चारों विकल्प अर्थ में मिलते-जुलते, पर सिर्फ़ एक सही जोड़ी बनाता है ("make a decision" ✓, "do a decision" ✗)।
+- **कालक्रम भ्रम:** गद्यांश भूतकाल में है, पर एक विकल्प वर्तमान काल का देकर ट्रैक बदलवाना।
+- **Over-thinking जाल:** आसान रिक्ति में कठिन शब्द देकर छात्र को सरल सही उत्तर से हटाना।
+
+**कौन से उप-विषय बार-बार आते हैं:** Preposition-based blanks, Conjunction/Connector (however, therefore, although), Tense consistency, Article (a/an/the), और Collocation — ये पाँच लगभग हर क्लोज़ टेस्ट में दिखते हैं। शुद्ध Vocabulary-in-context (टोन से शब्द चुनना) IBPS/SBI में अधिक, Grammar blanks SSC में अधिक।
+
+---
+
+## शीर्ष 10 हाई-यील्ड प्रश्न (समाधान सहित)
+
+**प्रश्न 1.** The committee ______ divided in their opinion on the new policy.
+(a) was (b) were (c) is (d) has been
+**उत्तर:** (b)
+**हल:** Collective noun (committee) जब सदस्य अलग-अलग राय रखें (divided in *their* opinion), तो plural verb लेता है। "their" संकेत है।
+**जाल-प्रकार:** Collective Noun जाल — "committee" एकवचन दिखता है, पर अर्थ बहुवचन।
+**स्रोत:** PYQ-style
+
+**प्रश्न 2.** The rise in prices of essential commodities ______ affected the poor the most.
+(a) have (b) has (c) are (d) were
+**उत्तर:** (b)
+**हल:** असली कर्ता "The rise" (एकवचन) है; "of essential commodities" सिर्फ़ बीच का वाक्यांश है। अतः "has"।
+**जाल-प्रकार:** Intervening Phrase जाल — "commodities" देखकर "have" लगाने की गलती।
+**स्रोत:** PYQ-style
+
+**प्रश्न 3.** Despite ______ hard, he could not clear the cutoff.
+(a) of working (b) working (c) to work (d) worked
+**उत्तर:** (b)
+**हल:** "Despite" के बाद सीधे noun/gerund आता है; "despite of" गलत है (यह "in spite of" से मिलता-जुलता भ्रम है)।
+**जाल-प्रकार:** Sound-Right जाल — "despite of" बोलचाल में सुनने को मिलता है, पर अशुद्ध है।
+**स्रोत:** PYQ-style
+
+**प्रश्न 4.** The government has ______ several measures to curb inflation.
+(a) done (b) made (c) taken (d) performed
+**उत्तर:** (c)
+**हल:** सही collocation "take measures" है। "do/make/perform measures" अंग्रेज़ी में नहीं चलते।
+**जाल-प्रकार:** Collocation जाल — चारों विकल्प "करना" अर्थ देते हैं, पर जोड़ी एक ही सही।
+**स्रोत:** PYQ-style
+
+**प्रश्न 5.** (गद्यांश का भाव आलोचनात्मक है) The policy, far from helping farmers, ______ their distress.
+(a) alleviated (b) aggravated (c) reduced (d) soothed
+**उत्तर:** (b)
+**हल:** "Far from helping" बताता है कि परिणाम उल्टा हुआ; अतः नकारात्मक शब्द "aggravated" (बिगाड़ना)। बाकी तीन सकारात्मक हैं — टोन से टकराते हैं।
+**जाल-प्रकार:** टोन/अनुमान जाल — शब्द-अर्थ जानना काफी नहीं, गद्यांश की दिशा पढ़नी होगी।
+**स्रोत:** PYQ-style
+
+**प्रश्न 6.** ______ the rain was heavy, the match continued.
+(a) Because (b) Although (c) Since (d) As
+**उत्तर:** (b)
+**हल:** दोनों उपवाक्यों में विरोध है (भारी बारिश फिर भी मैच जारी) — Contrast connector "Although" चाहिए। Because/Since/As कारण दिखाते हैं, जो अर्थ उल्टा कर देते।
+**जाल-प्रकार:** Connector-दिशा जाल — कारण बनाम विरोध का भ्रम।
+**स्रोत:** PYQ-style
+
+**प्रश्न 7.** He is one of the few officers who ______ always punctual.
+(a) is (b) was (c) are (d) has been
+**उत्तर:** (c)
+**हल:** "who" का संबंध "officers" (बहुवचन) से है, "one" से नहीं। अतः "are"।
+**जाल-प्रकार:** Intervening Phrase जाल — "one of" देखकर "is" लगाना आम गलती है।
+**स्रोत:** PYQ-style
+
+**प्रश्न 8.** The report highlighted the ______ of data in policy-making.
+(a) important (b) importance (c) importantly (d) import
+**उत्तर:** (b)
+**हल:** "the ______ of" के बीच noun चाहिए — "importance"। Morphology से तुरंत हल: adjective (a), adverb (c) बाहर।
+**जाल-प्रकार:** Over-thinking जाल — सरल शब्द-रूप पहचान का प्रश्न, कठिन शब्दों से घबराने की ज़रूरत नहीं।
+**स्रोत:** PYQ-style
+
+**प्रश्न 9.** By the time the rescue team arrived, the flood waters ______.
+(a) receded (b) had receded (c) have receded (d) recede
+**उत्तर:** (b)
+**हल:** "By the time + past" के साथ पहले घटित क्रिया Past Perfect में आती है — "had receded"।
+**जाल-प्रकार:** कालक्रम भ्रम — दो भूतकालीन घटनाओं का क्रम पहचानना।
+**स्रोत:** PYQ-style
+
+**प्रश्न 10.** She has been working here ______ 2015.
+(a) from (b) since (c) for (d) by
+**उत्तर:** (b)
+**हल:** निश्चित समय-बिंदु (2015) के साथ "since"; अवधि (9 years) के साथ "for"।
+**जाल-प्रकार:** Sound-Right जाल — हिंदी में "से" एक ही शब्द है, अंग्रेज़ी में since/for अलग।
+**स्रोत:** PYQ-style
+
+---
+
+## 15/45-सेकंड नियम — दो प्रश्नों पर प्रयोग
+
+**प्रश्न 8 (15 सेकंड — तथ्यात्मक):** "the ______ of" देखते ही noun चाहिए — यह नियम-आधारित प्रश्न है। विकल्पों के प्रत्यय (-ant, -ance, -ly) देखकर 15 सेकंड में हल करें और आगे बढ़ें। ऐसे प्रश्न पर सोचना = समय की बर्बादी।
+
+**प्रश्न 5 (45 सेकंड — तार्किक):** यहाँ शब्द-अर्थ के साथ गद्यांश की टोन भी पढ़नी है। रणनीति: (1) रिक्ति से पहले-बाद की पंक्ति पढ़ें, (2) "far from helping" जैसे संकेतक पकड़ें, (3) टोन से न मेल खाने वाले विकल्प काटें, (4) बचे दो में से दिशा-जाँच कर चुनें। इस पर पूरे 45 सेकंड देना उचित है — जल्दबाज़ी में "alleviated" जैसा सकारात्मक शब्द चुनने की गलती होती है।
+
+**निष्कर्ष:** क्लोज़ टेस्ट में पहले पूरा गद्यांश एक बार बिना विकल्प देखे पढ़ें (टोन पकड़ने के लिए), फिर Grammar blanks (15 सेकंड) पहले हल करें और Vocabulary/Tone blanks (45 सेकंड) बाद में।
