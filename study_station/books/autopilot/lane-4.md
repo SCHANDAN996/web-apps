@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 08-10-2026 02:14 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
+**आख़िरी update:** 08-10-2026 02:15 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Ancient History (12th GK) | 📤 push हो रहा है | 0 मिनट |
-| W2 | Chapter 06 Physical Geography (12th GK) | ✍️ लिख रहा है | 57 मिनट |
-| W3 | Chapter 08 World Geography (12th GK) | ✍️ लिख रहा है | 7 मिनट |
-| W4 | Chapter 07 States Rivers (12th GK) | ✍️ लिख रहा है | 14 मिनट |
+| W1 | Chapter 09 Economy Basic (12th GK) | ✍️ लिख रहा है | 0 मिनट |
+| W2 | Chapter 06 Physical Geography (12th GK) | ✍️ लिख रहा है | 58 मिनट |
+| W3 | Chapter 08 World Geography (12th GK) | ✍️ लिख रहा है | 8 मिनट |
+| W4 | Chapter 07 States Rivers (12th GK) | ✍️ लिख रहा है | 15 मिनट |
 | W5 | Chapter 05 Polity (12th GK) | ✍️ लिख रहा है | 4 मिनट |
 
 ## 📊 हर किताब की प्रगति
@@ -40,15 +40,12 @@
 
 - Chapter 02 Medieval History (GK) — 2 बार
 - Chapter 04 Constitution Basic (GK) — 2 बार
-- Chapter 01 Ancient History (GK) — 1 बार
 - Chapter 03 Modern History (GK) — 2 बार
 - Chapter 05 Polity (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 13:51:43   [Ancient_History] review Key_Facts_hi.txt: 3 issue(s): - Largest Harappan site in India listed as Dholavira (Gujarat) → The largest Harappan site in India is Rakhigarhi
-08-10 13:55:41   [Polity] Practice_en_Set_05.txt try 3: rejected (parsed 0 questions, numbers -…-)
 08-10 13:55:41   [Polity] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
 08-10 13:55:41   [Polity] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
 08-10 13:56:58   [Constitution_Basic] wrote Practice_en_Set_06.txt (write, 25 MCQs)
@@ -87,4 +84,6 @@
 08-10 14:13:58   [Polity] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
 08-10 14:14:17   [Ancient_History] review: 5 section(s) corrected, 0 failed
 08-10 14:14:17   [Ancient_History] written 5, failed 0; AI calls today 254/100000
+08-10 14:14:27 DONE 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_01_Ancient_History in 49 min → 6fe28220
+08-10 14:14:27 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_09_Economy_Basic (TODO: todo 25, problems 0)
 ```
