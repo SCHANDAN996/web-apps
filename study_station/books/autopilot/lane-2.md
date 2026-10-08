@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 08-10-2026 04:01 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
+**आख़िरी update:** 08-10-2026 04:16 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 States Rivers (Graduation GK) | ✍️ लिख रहा है | 36 मिनट |
-| W2 | Chapter 08 World Geography (Graduation GK) | ✍️ लिख रहा है | 34 मिनट |
-| W3 | Chapter 03 Modern History (Graduation GK) | ✍️ लिख रहा है | 87 मिनट |
-| W4 | Chapter 06 Physical Geography (Graduation GK) | ✍️ लिख रहा है | 61 मिनट |
-| W5 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 38 मिनट |
+| W1 | Chapter 07 States Rivers (Graduation GK) | ✍️ लिख रहा है | 51 मिनट |
+| W2 | Chapter 08 World Geography (Graduation GK) | ✍️ लिख रहा है | 50 मिनट |
+| W3 | Chapter 09 Economy Basic (Graduation GK) | ✍️ लिख रहा है | 11 मिनट |
+| W4 | Chapter 06 Physical Geography (Graduation GK) | ✍️ लिख रहा है | 76 मिनट |
+| W5 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 53 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,32 +39,13 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 04 Constitution Basic (GK) — 2 बार
-- Chapter 03 Modern History (GK) — 1 बार
+- Chapter 03 Modern History (GK) — 2 बार
 - Chapter 02 Medieval History (GK) — 2 बार
 - Chapter 05 Polity (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 15:16:01   [Polity] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-08-10 15:16:05   [Physical_Geography] Content_en.txt try 1: rejected (corrupted characters)
-08-10 15:16:27   [Ancient_History] review Content_hi.txt: 1 issue(s): - धोलावीरा की नदी "लूनी (मानसरोवर)" गलत है → धोलावीरा लूनी नदी पर स्थित है, मानसरोवर तिब्बत की एक झील है
-08-10 15:20:57   [Physical_Geography] wrote Content_en.txt (10118 chars)
-08-10 15:21:09   [Modern_History] Practice_en_Set_03.txt try 1: rejected (Q53:leaked_reasoning)
-08-10 15:22:53   [Polity] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-08-10 15:22:53   [Polity] written 14, failed 11; AI calls today 221/100000
-08-10 15:22:53 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_05_Polity after 219 min: todo ['Memory_Hooks_hi.txt', 'Set 01 en: todo', 'Set 01 hi: todo', 'Set 02 en: todo'] problems []
-08-10 15:22:53 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_05_Polity (TODO: todo 11, problems 0)
-08-10 15:23:55   [Physical_Geography] wrote Content_hi.txt (342 chars)
-08-10 15:24:54   [Ancient_History] review: 1 section(s) corrected, 0 failed
-08-10 15:24:54   [Ancient_History] written 1, failed 0; AI calls today 223/100000
-08-10 15:25:00 DONE Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_01_Ancient_History in 13 min → 9efc86f3
-08-10 15:25:00 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_07_States_Rivers (TODO: todo 25, problems 0)
-08-10 15:26:15   [Medieval_History] FAILED Practice_en_Set_05.txt: too_long
-08-10 15:26:15   [Medieval_History] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
-08-10 15:26:15   [Medieval_History] written 1, failed 4; AI calls today 224/100000
-08-10 15:26:15 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_02_Medieval_History after 46 min: todo ['Set 01 en: todo', 'Set 01 hi: todo', 'Set 05 en: todo', 'Set 05 hi: todo'] problems []
-08-10 15:26:15 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_08_World_Geography (TODO: todo 25, problems 0)
 08-10 15:28:08   [Modern_History] Practice_en_Set_03.txt try 2: re-solve disagrees (Q56 key b vs re-solve c)
 08-10 15:28:28   [Polity] wrote Memory_Hooks_hi.txt (7191 chars)
 08-10 15:29:53   [States_Rivers] wrote Content_en.txt (9929 chars)
@@ -86,4 +67,23 @@
 08-10 15:55:45   [States_Rivers] REJECTED Content_hi.txt: corrupted characters — not written
 08-10 15:56:01   [Polity] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 08-10 16:00:44   [States_Rivers] Key_Facts_en.txt try 1: rejected (corrupted characters)
+08-10 16:03:22   [World_Geography] wrote Key_Facts_hi.txt (6457 chars)
+08-10 16:03:41   [Physical_Geography] Key_Facts_hi.txt try 1: answer too long — asking for a tighter version
+08-10 16:04:58   [Modern_History] Practice_en_Set_05.txt try 3: rejected (Q114:answer_solution_conflict)
+08-10 16:04:58   [Modern_History] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
+08-10 16:04:58   [Modern_History] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
+08-10 16:04:58   [Modern_History] written 4, failed 4; AI calls today 247/100000
+08-10 16:04:58 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_03_Modern_History after 91 min: todo ['Set 01 en: todo', 'Set 01 hi: todo', 'Set 05 en: todo', 'Set 05 hi: todo'] problems []
+08-10 16:04:58 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_09_Economy_Basic (TODO: todo 25, problems 0)
+08-10 16:05:57   [States_Rivers] wrote Key_Facts_en.txt (10545 chars)
+08-10 16:07:38   [World_Geography] Feynman_en.txt try 1: rejected (chat debris "Here's the")
+08-10 16:10:08   [World_Geography] wrote Feynman_en.txt (3376 chars)
+08-10 16:10:36   [Economy_Basic] wrote Content_en.txt (15255 chars)
+08-10 16:11:13   [States_Rivers] wrote Key_Facts_hi.txt (7457 chars)
+08-10 16:13:29   [World_Geography] wrote Feynman_hi.txt (2916 chars)
+08-10 16:13:44   [Physical_Geography] wrote Key_Facts_hi.txt (9520 chars)
+08-10 16:13:59   [Polity] FAILED Practice_en_Set_02.txt: network
+08-10 16:13:59   [Polity] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+08-10 16:14:21   [States_Rivers] wrote Feynman_en.txt (3515 chars)
+08-10 16:16:04   [Economy_Basic] wrote Content_hi.txt (10830 chars)
 ```
