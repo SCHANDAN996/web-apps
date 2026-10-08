@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 08-10-2026 10:29 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 10:44 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 0 मिनट |
-| W2 | Chapter 03 Modern History (Graduation GK) | 🔎 review हो रहा है | 11 मिनट |
-| W3 | Chapter 04 Constitution Basic (Graduation GK) | 🔎 review हो रहा है | 15 मिनट |
-| W4 | Chapter 05 Polity (Graduation GK) | 🔎 review हो रहा है | 11 मिनट |
-| W5 | Chapter 06 Physical Geography (Graduation GK) | 🔎 review हो रहा है | 35 मिनट |
+| W1 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 15 मिनट |
+| W2 | Chapter 03 Modern History (Graduation GK) | 🔎 review हो रहा है | 27 मिनट |
+| W3 | Chapter 04 Constitution Basic (Graduation GK) | 🔎 review हो रहा है | 30 मिनट |
+| W4 | Chapter 05 Polity (Graduation GK) | 🔎 review हो रहा है | 26 मिनट |
+| W5 | Chapter 06 Physical Geography (Graduation GK) | 🔎 review हो रहा है | 50 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -46,11 +46,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 21:57:08   [Medieval_History] Practice_en_Set_05.txt try 1: re-solve disagrees (Q109 key b vs re-solve c)
-08-10 21:59:17   [Modern_History] Practice_en_Set_06.txt try 3: re-solve disagrees (Q129 key b vs re-solve d)
-08-10 21:59:46   [Constitution_Basic] wrote Flashcards_hi.txt (4288 chars)
-08-10 22:00:37   [Polity] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-08-10 22:00:37   [Polity] written 23, failed 2; AI calls today 180/100000
 08-10 22:00:37 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_05_Polity after 184 min: todo ['Set 03 en: todo', 'Set 03 hi: todo'] problems []
 08-10 22:00:37 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_05_Polity (TODO: todo 2, problems 0)
 08-10 22:01:23   [Physical_Geography] review Content_hi.txt: 2 issue(s): - "बीच दोआब" (ब्यास-सतलुज के बीच) गलत नाम है → सही नाम "बिस्त दोआब" (Bist Doab) है।
@@ -86,4 +81,9 @@
 08-10 22:28:37 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_02_Medieval_History after 212 min: todo ['Flashcards_en.txt', 'Mind_Map.txt', 'Set 01 en: todo', 'Set 01 hi: todo'] problems []
 08-10 22:28:37 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_02_Medieval_History (TODO: todo 4, problems 0)
 08-10 22:28:59   [Physical_Geography] review Flashcards_en.txt: 3 issue(s): - Card 1: K2 is not in India nor in Ladakh; it lies on the Pakistan–China border → The highest peak in the India
+08-10 22:30:38   [Medieval_History] wrote Mind_Map.txt (2808 chars)
+08-10 22:34:00   [Polity] review Content_hi.txt: 2 issue(s): - "मूल अधिकार सलाहकार समिति" के अध्यक्ष जे.बी. कृपलानी बताए गए हैं → सही अध्यक्ष सरदार वल्लभभाई पटेल थे (कृपलानी मू
+08-10 22:34:58   [Constitution_Basic] review Key_Facts_en.txt: 3 issue(s): - Data point "Schedules (current)" uses "current" without a year → specify year (e.g., "as of 2023")
+08-10 22:35:00   [Physical_Geography] review Flashcards_hi.txt: 2 issue(s): - कार्ड 8 में "मेडल/ग्रेट अंडमान" गलत शब्द है → सही है "ग्रेट अंडमान (अंडमान समूह)"
+08-10 22:42:10   [Constitution_Basic] review Key_Facts_hi.txt: 4 issue(s): - '8 केंद्र शासित प्रदेश हैं (जम्मू-कश्मीर पुनर्गठन अधिनियम, 2019 के बाद)' → पुनर्गठन के तुरंत बाद 9 केंद्र शासित
 ```
