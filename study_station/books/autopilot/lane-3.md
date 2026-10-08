@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 08-10-2026 01:29 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:42 AM
+**आख़िरी update:** 08-10-2026 01:44 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:42 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Noun (12th English) | ✍️ लिख रहा है | 106 मिनट |
-| W2 | Chapter 02 Pronoun (12th English) | ✍️ लिख रहा है | 18 मिनट |
-| W3 | Chapter 03 Adjective (12th English) | 🔎 review हो रहा है | 21 मिनट |
-| W4 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 6 मिनट |
-| W5 | Chapter 07 Preposition (12th English) | ✍️ लिख रहा है | 6 मिनट |
+| W1 | Chapter 01 Noun (12th English) | 🔎 review हो रहा है | 3 मिनट |
+| W2 | Chapter 02 Pronoun (12th English) | 🔎 review हो रहा है | 4 मिनट |
+| W3 | Chapter 03 Adjective (12th English) | 🔎 review हो रहा है | 36 मिनट |
+| W4 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 21 मिनट |
+| W5 | Chapter 07 Preposition (12th English) | ✍️ लिख रहा है | 21 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -25,12 +25,12 @@
 | 12th Maths | 0 | 0 | 23 |
 | 12th GK | 0 | 0 | 24 |
 | 12th Reasoning | 0 | 0 | 25 |
-| 12th English | 3 | 0 | 22 |
+| 12th English | 5 | 0 | 20 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 0 | 0 | 28 |
 | Graduation Reasoning | 0 | 0 | 30 |
 | Graduation English | 19 | 2 | 9 |
-| **कुल** | **72** | **15** | **209** |
+| **कुल** | **74** | **15** | **207** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -41,37 +41,11 @@
 
 - Chapter 03 Adjective (English) — 1 बार
 - Chapter 02 Pronoun (English) — 1 बार
+- Chapter 01 Noun (English) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 13:07:13   [Adjective] written 1, failed 0; AI calls today 210/100000
-08-10 13:07:29   [Verb] review Flashcards_en.txt: 2 issue(s): - Card 3: Invented exam weightage claim "These are the most tested auxiliary verbs in error-spotting" → Remove t
-08-10 13:08:03   [Adjective] repaired Flashcards_hi.txt (2814 chars)
-08-10 13:08:03   [Adjective] written 1, failed 0; AI calls today 213/100000
-08-10 13:08:04   [Pronoun] Practice_en_Set_06.txt try 2: re-solve disagrees (Q144 key a vs re-solve d)
-08-10 13:10:13   [Adjective] review Content_en.txt: 1 issue(s): - The list of Latin comparatives includes "prefer", which is a verb, not an adjective → Remove "prefer" from the li
-08-10 13:10:29   [Noun] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-08-10 13:10:32   [Pronoun] Practice_en_Set_06.txt try 3: rejected (parsed 0 questions, numbers -…-)
-08-10 13:10:32   [Pronoun] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
-08-10 13:10:32   [Pronoun] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-08-10 13:10:32   [Pronoun] written 20, failed 6; AI calls today 222/100000
-08-10 13:10:32 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_02_Pronoun after 87 min: todo ['Set 03 en: todo', 'Set 03 hi: todo', 'Set 05 en: todo', 'Set 05 hi: todo'] problems []
-08-10 13:10:32 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_02_Pronoun (TODO: todo 6, problems 0)
-08-10 13:12:44   [Noun] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-08-10 13:13:41   [Tense] review Short_Tricks_en.txt: 1 issue(s): - Trick 5: 'since / for + duration → Perfect Continuous' is an incorrect grammar rule; since/for with duration
-08-10 13:14:38   [Pronoun] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-08-10 13:14:41   [Verb] review PYQ_en.txt: 4 issue(s): - Claim "Verbs are the single most heavily tested area in the English section of SSC (CGL, CHSL, MTS, GD), Banking (IBP
-08-10 13:15:29   [Adjective] review Content_hi.txt: 2 issue(s): - The claim "SSC CHSL, RRB NTPC और CGL Tier-1 में हर शिफ़्ट में Adjective से जुड़े 2–4 प्रश्न पूछे जाते हैं" is an 
-08-10 13:16:33   [Pronoun] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-08-10 13:18:08   [Verb] review Short_Tricks_en.txt: 1 issue(s): - Box 1: "Two subjects joined by FANBOYS → plural verb" is incorrect for most FANBOYS; only "and" makes the ve
-08-10 13:19:20   [Noun] Practice_en_Set_06.txt try 1: re-solve disagrees (Q149 key c vs re-solve d)
-08-10 13:19:32   [Pronoun] Practice_en_Set_05.txt try 1: re-solve disagrees (Q102 key d vs re-solve a)
-08-10 13:20:01   [Tense] review Short_Tricks_hi.txt: 1 issue(s): - In Trick 1, “Tontinuous” is a misspelling → should be “Continuous”
-08-10 13:20:37   [Verb] review Short_Tricks_hi.txt: 1 issue(s): - Trick 1 का नियम "कर्ता में S लगे तो क्रिया में S नहीं; कर्ता में S नहीं तो क्रिया में S लगाओ" बहुवचन सर्वनाम
-08-10 13:22:31   [Verb] review: 7 section(s) corrected, 0 failed
-08-10 13:22:31   [Verb] written 7, failed 0; AI calls today 248/100000
-08-10 13:22:35   [Tense] review: 4 section(s) corrected, 0 failed
 08-10 13:22:35   [Tense] written 4, failed 0; AI calls today 248/100000
 08-10 13:22:38   [Pronoun] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 08-10 13:22:38 DONE 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_04_Verb in 34 min → 4b83cf91
@@ -85,4 +59,31 @@
 08-10 13:26:52   [Preposition] wrote Content_hi.txt (6652 chars)
 08-10 13:27:00   [Adverb] wrote Content_hi.txt (8460 chars)
 08-10 13:29:12   [Adjective] FAILED review Content_hi.txt: too_long — the chapter must not be published unreviewed
+08-10 13:30:24   [Noun] Practice_en_Set_06.txt try 3: re-solve disagrees (Q145 key c vs re-solve d)
+08-10 13:30:24   [Noun] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+08-10 13:30:24   [Noun] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+08-10 13:30:24   [Noun] written 23, failed 3; AI calls today 259/100000
+08-10 13:30:24 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_01_Noun after 107 min: todo ['Short_Tricks_en.txt', 'Set 06 en: todo', 'Set 06 hi: todo'] problems ['Feynman_hi.txt: Hindi file is mostly not in Hindi', 'Short_Tricks_hi.txt: Hindi file is mostly not in Hindi']
+08-10 13:30:24 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_01_Noun (TODO: todo 3, problems 2)
+08-10 13:31:57   [Noun] wrote Short_Tricks_en.txt (7081 chars)
+08-10 13:32:50   [Pronoun] Practice_en_Set_06.txt try 1: re-solve disagrees (Q141 key a vs re-solve b)
+08-10 13:35:43   [Adjective] review Mind_Map_en.txt: 1 issue(s): - Example "He is taller than me" in rule E1 uses object pronoun 'me' after 'than'; in formal grammar for competiti
+08-10 13:35:56   [Noun] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+08-10 13:38:11   [Adjective] review Mind_Map_hi.txt: 1 issue(s): - C5 label 'संकेतवाचक' for Distributive adjectives (each, every, either) is incorrect; 'संकेतवाचक' means Demonstra
+08-10 13:38:34   [Noun] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+08-10 13:38:34   [Noun] written 3, failed 0; AI calls today 270/100000
+08-10 13:38:40   [Pronoun] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+08-10 13:38:47   [Noun] REJECTED Feynman_hi.txt: output still looks like a prompt — not written
+08-10 13:40:09   [Noun] repaired Short_Tricks_hi.txt (4394 chars)
+08-10 13:40:09   [Noun] written 1, failed 1; AI calls today 273/100000
+08-10 13:40:09   [Pronoun] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+08-10 13:40:09   [Pronoun] written 6, failed 0; AI calls today 274/100000
+08-10 13:40:49   [Noun] repaired Feynman_hi.txt (2421 chars)
+08-10 13:40:49   [Noun] written 1, failed 0; AI calls today 275/100000
+08-10 13:43:27   [Adverb] Feynman_en.txt try 1: answer too long — asking for a tighter version
+08-10 13:43:44   [Preposition] Feynman_en.txt try 1: rejected (chat debris "Text")
+08-10 13:44:01   [Adverb] wrote Feynman_en.txt (4589 chars)
+08-10 13:44:02   [Pronoun] review Content_en.txt: 2 issue(s): - Invented exam weightage claim "3–5 Marks" in chapter introduction → Remove specific mark claim or cite official e
+08-10 13:44:17   [Adjective] review Flashcards_en.txt: 1 issue(s): - Card 14 incorrectly lists "prefer" as a Latin comparative adjective; "prefer" is a verb, not an adjective → Th
+08-10 13:44:29   [Adverb] wrote Feynman_hi.txt (2025 chars)
 ```
