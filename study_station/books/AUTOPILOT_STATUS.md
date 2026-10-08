@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 03:24 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 03:32 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 23 मिनट |
-| W2 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 23 मिनट |
-| W3 | Chapter 25 Word Roots (Graduation English) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 30 Revision Tracker (Graduation English) | ✍️ लिख रहा है | 23 मिनट |
-| W5 | Chapter 01 Analogy (Graduation Reasoning) | ✍️ लिख रहा है | 22 मिनट |
+| W1 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 31 मिनट |
+| W2 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 31 मिनट |
+| W3 | Chapter 02 Classification (Graduation Reasoning) | ✍️ लिख रहा है | 7 मिनट |
+| W4 | Chapter 30 Revision Tracker (Graduation English) | ✍️ लिख रहा है | 30 मिनट |
+| W5 | Chapter 01 Analogy (Graduation Reasoning) | ✍️ लिख रहा है | 30 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md)
 
@@ -27,12 +27,12 @@
 | 12th Maths | 0 | 0 | 23 |
 | 12th GK | 2 | 0 | 22 |
 | 12th Reasoning | 0 | 0 | 25 |
-| 12th English | 5 | 0 | 20 |
+| 12th English | 8 | 0 | 17 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 2 | 0 | 26 |
 | Graduation Reasoning | 0 | 0 | 30 |
 | Graduation English | 27 | 0 | 3 |
-| **कुल** | **86** | **13** | **197** |
+| **कुल** | **89** | **13** | **194** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -41,10 +41,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 03:01:11 autopilot start: 5 workers, reverse=True
-09-10 03:01:13 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv (TODO: todo 4, problems 1)
-09-10 03:01:18 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_23_Sentence_Arrangement (TODO: todo 3, problems 1)
-09-10 03:01:23 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_25_Word_Roots (OK: todo 0, problems 0)
 09-10 03:01:28 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_30_Revision_Tracker (TODO: todo 26, problems 0)
 09-10 03:01:33 START Graduation_Level/Reasoning/Chapter_01_Analogy (TODO: todo 25, problems 0)
 09-10 03:02:38   [Revision_Tracker] wrote Content_en.txt (931 chars)
@@ -72,4 +68,17 @@
 09-10 03:24:16   [Revision_Tracker] wrote PYQ_hi.txt (5756 chars)
 09-10 03:24:29   [Word_Roots] review: 2 section(s) corrected, 0 failed
 09-10 03:24:29   [Word_Roots] written 2, failed 0; AI calls today 46/100000
+09-10 03:24:41 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_25_Word_Roots in 23 min → d8da1c8f
+09-10 03:24:43 START Graduation_Level/Reasoning/Chapter_02_Classification (TODO: todo 25, problems 0)
+09-10 03:25:15   [Sentence_Arrangement] Practice_en_Set_03.txt try 2: re-solve disagrees (Q60 key d vs re-solve a)
+09-10 03:25:42   [Revision_Tracker] wrote Short_Tricks_en.txt (3707 chars)
+09-10 03:26:28   [Analogy] wrote Flashcards_hi.txt (4970 chars)
+09-10 03:27:24   [Para_Jumbles_Adv] Practice_en_Set_04.txt try 3: re-solve disagrees (Q98 key b vs re-solve d)
+09-10 03:28:01   [Revision_Tracker] wrote Short_Tricks_hi.txt (6186 chars)
+09-10 03:28:38   [Analogy] wrote PYQ_en.txt (7643 chars)
+09-10 03:30:04   [Revision_Tracker] wrote Important_Rules_en.txt (5224 chars)
+09-10 03:30:08   [Analogy] wrote PYQ_hi.txt (1809 chars)
+09-10 03:31:31   [Para_Jumbles_Adv] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 03:31:54   [Revision_Tracker] wrote Important_Rules_hi.txt (5347 chars)
+09-10 03:31:56   [Analogy] wrote Short_Tricks_en.txt (4670 chars)
 ```
