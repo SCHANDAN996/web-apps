@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 08-10-2026 07:27 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 07:32 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 12 Sentence Structure (Graduation English) | 🔎 review हो रहा है | 25 मिनट |
-| W2 | Chapter 20 Sentence Improvement Adv (Graduation English) | 🔎 review हो रहा है | 25 मिनट |
-| W3 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 30 मिनट |
-| W4 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 30 मिनट |
-| W5 | Chapter 24 RC Adv (Graduation English) | ✍️ लिख रहा है | 30 मिनट |
+| W1 | Chapter 12 Sentence Structure (Graduation English) | 🔎 review हो रहा है | 30 मिनट |
+| W2 | Chapter 20 Sentence Improvement Adv (Graduation English) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 35 मिनट |
+| W4 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 35 मिनट |
+| W5 | Chapter 24 RC Adv (Graduation English) | ✍️ लिख रहा है | 35 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md)
 
@@ -36,17 +36,11 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 08-10 19:32 — Graduation English · Chapter 20 Sentence Improvement Adv
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 19:03:53   [Sentence_Arrangement] wrote Flashcards_hi.txt (4554 chars)
-08-10 19:04:01   [RC_Adv] Mind_Map_en.txt try 1: rejected (corrupted characters)
-08-10 19:04:21   [Para_Jumbles_Adv] wrote Flashcards_en.txt (5193 chars)
-08-10 19:04:34   [RC_Adv] wrote Mind_Map_en.txt (1469 chars)
-08-10 19:04:52   [RC_Adv] wrote Mind_Map_hi.txt (1302 chars)
-08-10 19:05:22   [Para_Jumbles_Adv] wrote Flashcards_hi.txt (4703 chars)
 08-10 19:05:24   [RC_Adv] wrote Flashcards_en.txt (4721 chars)
 08-10 19:05:38   [Sentence_Arrangement] wrote PYQ_en.txt (11470 chars)
 08-10 19:05:45   [Sentence_Structure] review Content_hi.txt: 1 issue(s): - The Mnemonic section incorrectly claims that only the seven FANBOYS words can join two independent clauses and th
@@ -81,4 +75,10 @@
 08-10 19:27:06   [Sentence_Arrangement] wrote Important_Rules_hi.txt (5895 chars)
 08-10 19:27:26   [Para_Jumbles_Adv] Important_Rules_hi.txt try 1: answer too long — asking for a tighter version
 08-10 19:27:28   [RC_Adv] Practice_en_Set_02.txt try 1: rejected (parsed 23 questions, numbers 26…50)
+08-10 19:28:11   [Sentence_Arrangement] Practice_en_Set_01.txt try 1: rejected (Q1:duplicate_options,Q2:duplicate_options,Q3:duplicate_options,Q4:duplicate_options,Q5:duplicate_options)
+08-10 19:29:44   [Para_Jumbles_Adv] wrote Important_Rules_hi.txt (6589 chars)
+08-10 19:29:45   [Sentence_Arrangement] Practice_en_Set_01.txt try 2: rejected (Q16:leaked_reasoning)
+08-10 19:30:31   [Sentence_Arrangement] Practice_en_Set_01.txt try 3: rejected (parsed 0 questions, numbers -…-)
+08-10 19:32:17   [Sentence_Improvement_Adv] review: 3 section(s) corrected, 0 failed
+08-10 19:32:17   [Sentence_Improvement_Adv] written 3, failed 0; AI calls today 98/100000
 ```
