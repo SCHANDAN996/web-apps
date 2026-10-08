@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 04:18 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 04:20 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 15 One Word Substitution (12th English) | ✍️ लिख रहा है | 32 मिनट |
-| W2 | Chapter 14 Antonyms (12th English) | ✍️ लिख रहा है | 41 मिनट |
-| W3 | Chapter 11 Narration (12th English) | 🔎 review हो रहा है | 8 मिनट |
-| W4 | Chapter 12 Sentence Structure (12th English) | ✍️ लिख रहा है | 47 मिनट |
-| W5 | Chapter 13 Synonyms (12th English) | 🔎 review हो रहा है | 5 मिनट |
+| W1 | Chapter 15 One Word Substitution (12th English) | ✍️ लिख रहा है | 35 मिनट |
+| W2 | Chapter 14 Antonyms (12th English) | ✍️ लिख रहा है | 44 मिनट |
+| W3 | Chapter 11 Narration (12th English) | 📤 push हो रहा है | 0 मिनट |
+| W4 | Chapter 12 Sentence Structure (12th English) | ✍️ लिख रहा है | 49 मिनट |
+| W5 | Chapter 13 Synonyms (12th English) | 🔎 review हो रहा है | 7 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,6 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 04:20 — 12th English · Chapter 11 Narration
 - 09-10 03:45 — 12th English · Chapter 03 Adjective
 - 09-10 03:36 — 12th English · Chapter 06 Adverb
 - 09-10 03:31 — 12th English · Chapter 10 Voice
@@ -47,12 +48,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 04:03:44   [Sentence_Structure] REJECTED Practice_hi_Set_03.txt: no translation passed the checks — not written
-09-10 04:04:13   [Antonyms] wrote Important_Rules_hi.txt (4477 chars)
-09-10 04:05:15   [Antonyms] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 04:05:53   [Narration] review Short_Tricks_hi.txt: 2 issue(s): - ट्रिक 10 में "अचल पाँच" लिखा है लेकिन सूची में छह मोडल्स दिए गए हैं (could, might, should, would, ought to, 
-09-10 04:06:02   [Sentence_Structure] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-09-10 04:06:30   [Synonyms] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 09-10 04:06:41   [Antonyms] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 09-10 04:07:39   [One_Word_Substitution] Mind_Map_hi.txt try 1: rejected (corrupted characters)
 09-10 04:07:52   [Sentence_Structure] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
@@ -87,4 +82,10 @@
 09-10 04:17:00   [Antonyms] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 09-10 04:17:27   [One_Word_Substitution] wrote Important_Rules_hi.txt (3589 chars)
 09-10 04:18:08   [Sentence_Structure] Practice_en_Set_06.txt try 1: re-solve disagrees (Q129 key b vs re-solve ?)
+09-10 04:18:34   [Antonyms] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 04:19:49   [One_Word_Substitution] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 04:20:12   [Antonyms] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 04:20:20   [Narration] review Mind_Map_hi.txt: 2 issue(s): - C1: "said → told" → "said" remains "said" in indirect speech; "said to" becomes "told" only when followed by an 
+09-10 04:20:35   [Narration] review: 3 section(s) corrected, 0 failed
+09-10 04:20:35   [Narration] written 3, failed 0; AI calls today 257/100000
 ```

@@ -1,0 +1,31 @@
+```mermaid
+graph TD
+    A["कथन (Narration)<br>Direct-Indirect Speech"] --> B["दो रूप"]
+    A --> C["परिवर्तन के 4 स्तंभ"]
+    A --> D["वाक्य-प्रकार अनुसार नियम"]
+    A --> E["परीक्षक के जाल"]
+    A --> F["रणनीति"]
+
+    B --> B1["Direct Speech<br>उद्धरण चिह्न में मूल वाक्य<br>He said, 'I am happy.'"]
+    B --> B2["Indirect Speech<br>बिना उद्धरण, बदला हुआ<br>He said that he was happy."]
+
+    C --> C1["Reporting Verb<br>said अक्सर said ही रहता है<br>said to + object → told (कथन)<br>asked (प्रश्न) / ordered (आदेश)"]
+    C --> C2["Tense बदलाव<br>Present → Past<br>Past → Past Perfect"]
+    C --> C3["Pronoun बदलाव<br>SON नियम<br>1st→Subject, 2nd→Object, 3rd→No change"]
+    C --> C4["समय/स्थान शब्द<br>now→then, today→that day<br>here→there, ago→before"]
+
+    D --> D1["Assertive<br>that + said/told"]
+    D --> D2["Interrogative<br>asked + if/whether (हाँ/ना)<br>asked + Wh-word"]
+    D --> D3["Imperative<br>ordered/requested/advised<br>+ to / not to"]
+    D --> D4["Exclamatory<br>exclaimed with joy/sorrow<br>+ that"]
+    D --> D5["Optative<br>wished/prayed + that"]
+
+    E --> E1["Universal Truth<br>Tense नहीं बदलता<br>The sun rises in the east"]
+    E --> E2["Question में inversion हटाओ<br>asked where he was<br>(where was he ❌)"]
+    E --> E3["Reporting Verb Past हो<br>तभी Tense बदलो<br>Present हो तो नहीं"]
+    E --> E4["must → had to<br>लेकिन आदेश/नियम में must ज्यों का त्यों"]
+
+    F --> F1["15 सेकंड नियम<br>सीधा Tense/Pronoun बदलाव"]
+    F --> F2["45 सेकंड नियम<br>मिश्रित वाक्य, Wh-question,<br>Universal Truth वाले जाल"]
+    F --> F3["पहले Reporting Verb देखो<br>फिर वाक्य-प्रकार पहचानो"]
+```
