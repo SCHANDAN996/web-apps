@@ -1,15 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 08-10-2026 04:31 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
+**आख़िरी update:** 08-10-2026 04:46 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W2 | Chapter 06 Physical Geography (12th GK) | 🔎 review हो रहा है | 34 मिनट |
-| W3 | Chapter 08 World Geography (12th GK) | 🔎 review हो रहा है | 52 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,26 +36,15 @@
 - Chapter 04 Constitution Basic (GK) — 2 बार
 - Chapter 03 Modern History (GK) — 2 बार
 - Chapter 05 Polity (GK) — 2 बार
-- Chapter 06 Physical Geography (GK) — 1 बार
+- Chapter 06 Physical Geography (GK) — 2 बार
 - Chapter 09 Economy Basic (GK) — 1 बार
 - Chapter 10 Physics Daily (GK) — 1 बार
 - Chapter 07 States Rivers (GK) — 1 बार
+- Chapter 08 World Geography (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 16:06:43   [Economy_Basic] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-08-10 16:07:49   [States_Rivers] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-08-10 16:08:07   [States_Rivers] Practice_en_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
-08-10 16:08:38   [Physics_Daily] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-08-10 16:09:03   [Physical_Geography] review Key_Facts_en.txt: 1 issue(s): - Highest peak of Himalaya in India (wholly) is listed as Kanchenjunga → The highest peak entirely within India i
-08-10 16:10:56   [States_Rivers] Practice_en_Set_05.txt try 2: rejected (parsed 24 questions, numbers 101…125)
-08-10 16:11:02   [World_Geography] FAILED review Key_Facts_en.txt: too_long — the chapter must not be published unreviewed
-08-10 16:12:22   [World_Geography] review Key_Facts_hi.txt: 1 issue(s): - सबसे अधिक देशों से होकर बहने वाली नदी के रूप में डैन्यूब बताया गया है → सही उत्तर: नील नदी (यह 11 देशों से बहती
-08-10 16:12:37   [States_Rivers] Practice_en_Set_05.txt try 3: rejected (parsed 24 questions, numbers 101…125)
-08-10 16:12:37   [States_Rivers] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
-08-10 16:12:37   [States_Rivers] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
-08-10 16:12:41   [Economy_Basic] Practice_en_Set_06.txt try 1: re-solve disagrees (Q143 key b vs re-solve c)
 08-10 16:13:42   [Economy_Basic] Practice_en_Set_06.txt try 2: rejected (parsed 0 questions, numbers -…-)
 08-10 16:14:06   [Physical_Geography] review Key_Facts_hi.txt: 1 issue(s): - "रियासी घाटी/भंसक" (पश्चिम में बहने वाली नदियों की पंक्ति में नर्मदा-ताप्ति के लिए प्रयुक्त) → "भ्रंश घाटी" (ri
 08-10 16:15:40   [Economy_Basic] Practice_en_Set_06.txt try 3: rejected (Q132:answer_solution_conflict)
@@ -87,4 +73,16 @@
 08-10 16:29:19 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_07_States_Rivers after 149 min: todo ['Set 05 en: todo', 'Set 05 hi: todo'] problems ['Content_hi.txt: Hindi file is mostly not in Hindi']
 08-10 16:29:19 worker 3: nothing left
 08-10 16:29:21   [Physical_Geography] REJECTED review fix Flashcards_hi.txt: too short
+08-10 16:31:48   [World_Geography] review Memory_Hooks_en.txt: 1 issue(s): - Box 15 mnemonic for IDL crossing is reversed (says westward loses a day, eastward gains) → correct: crossing
+08-10 16:33:42   [World_Geography] REJECTED review fix Memory_Hooks_en.txt: corrupted characters
+08-10 16:35:59   [World_Geography] review Memory_Hooks_hi.txt: 2 issue(s): - Mnemonic 1 का हिंदी वाक्य "आ आफ़ नॉ अमेरिका साउथ यूरोप अंटार्क ऑस्ट्रेलिया" यूरोप को अंटार्कटिका से पहले रखत
+08-10 16:36:56   [World_Geography] review: 6 section(s) corrected, 3 failed
+08-10 16:36:56   [World_Geography] written 6, failed 3; AI calls today 484/100000
+08-10 16:36:56 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_08_World_Geography after 150 min: todo [] problems []
+08-10 16:36:56 worker 2: nothing left
+08-10 16:40:06   [Physical_Geography] review Memory_Hooks_en.txt: 5 issue(s): - Himalayan ranges mnemonic "K-L-P-S" omits Zanskar and Great Himalaya → Correct north-south order: Karakoram,
+08-10 16:43:59   [Physical_Geography] review: 7 section(s) corrected, 1 failed
+08-10 16:43:59   [Physical_Geography] written 7, failed 1; AI calls today 486/100000
+08-10 16:44:00 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_06_Physical_Geography after 66 min: todo [] problems []
+08-10 16:44:00 worker 1: nothing left
 ```
