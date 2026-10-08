@@ -1,12 +1,17 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 07-10-2026 12:42 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 07-10 12:42 PM
+**आख़िरी update:** 08-10-2026 08:49 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 08:48 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
+| worker | अध्याय | काम | कब से |
+|---|---|---|---|
+| W1 | Chapter 17 Spelling (Graduation English) | 🔧 सुधार रहा है | 0 मिनट |
+| W2 | Chapter 18 Error Spotting Adv (Graduation English) | 🔧 सुधार रहा है | 0 मिनट |
+| W3 | Chapter 19 Fill in Blanks Adv (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
+| W4 | Chapter 20 Sentence Improvement Adv (Graduation English) | 🔎 review हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -44,23 +49,9 @@
 - 06-10 01:49 — Graduation English · Chapter 03 Adjective
 - 05-10 22:04 — Graduation English · Chapter 01 Noun
 
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 17 Spelling (English) — 1 बार
-- Chapter 16 Idioms Phrases (English) — 2 बार
-- Chapter 18 Error Spotting Adv (English) — 1 बार
-- Chapter 19 Fill in Blanks Adv (English) — 1 बार
-
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-07-10 12:09:55   [Fill_in_Blanks_Adv] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
-07-10 12:11:52   [Sentence_Improvement_Adv] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-07-10 12:13:31   [Sentence_Improvement_Adv] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-07-10 12:13:50   [Error_Spotting_Adv] review PYQ_en.txt: 1 issue(s): - Q2: Answer (d) claims no error, but "The committee have divided on this issue" is grammatically incorrect; collective
-07-10 12:14:30   [Idioms_Phrases] review Important_Rules_en.txt: 2 issue(s): - Rule 10 example "To have a bee in one's bonnet" is not a body-part idiom → Replace with a body-part idiom
-07-10 12:14:53   [Fill_in_Blanks_Adv] Practice_en_Set_05.txt try 1: re-solve disagrees (Q116 key d vs re-solve a, Q117 key b vs re-solve a)
-07-10 12:16:25   [Error_Spotting_Adv] review PYQ_hi.txt: 1 issue(s): - Question 3: answer key marks (c) as the error, but the mistake is in segment (b) “has submitted” (present perfect use
 07-10 12:17:29   [Idioms_Phrases] review: 2 section(s) corrected, 1 failed
 07-10 12:17:29   [Idioms_Phrases] written 2, failed 1; AI calls today 196/100000
 07-10 12:17:29 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_16_Idioms_Phrases after 18 min: todo [] problems []
@@ -94,4 +85,11 @@
 07-10 12:42:14   [Sentence_Improvement_Adv] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 07-10 12:42:14   [Sentence_Improvement_Adv] written 26, failed 0; AI calls today 243/100000
 07-10 12:42:21 autopilot stopped: 2-hour limit of the cloud session — restart with "autopilot chalu karo"
+08-10 08:48:19 autopilot start: 4 workers, reverse=True
+08-10 08:48:21 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_17_Spelling (FIX: todo 0, problems 2)
+08-10 08:48:26 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_18_Error_Spotting_Adv (FIX: todo 0, problems 2)
+08-10 08:48:30 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_19_Fill_in_Blanks_Adv (TODO: todo 2, problems 0)
+08-10 08:48:35 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_20_Sentence_Improvement_Adv (OK: todo 0, problems 0)
+08-10 08:49:04   [Spelling] repaired Important_Rules_hi.txt (1189 chars)
+08-10 08:49:04   [Spelling] written 1, failed 0; AI calls today 4/100000
 ```
