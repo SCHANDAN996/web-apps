@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 08-10-2026 06:49 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:48 PM
+**आख़िरी update:** 08-10-2026 06:57 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -39,10 +39,10 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 18:48:35 autopilot start: 5 workers, reverse=True
-08-10 18:48:35 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_02_Medieval_History (TODO: todo 25, problems 0)
-08-10 18:48:40 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_03_Modern_History (TODO: todo 25, problems 0)
-08-10 18:48:45 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_04_Constitution_Basic (TODO: todo 25, problems 0)
-08-10 18:48:50 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_05_Polity (TODO: todo 25, problems 0)
-08-10 18:48:55 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_06_Physical_Geography (TODO: todo 25, problems 0)
+08-10 18:56:22 autopilot start: 5 workers, reverse=True
+08-10 18:56:22 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_02_Medieval_History (TODO: todo 25, problems 0)
+08-10 18:56:27 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_03_Modern_History (TODO: todo 25, problems 0)
+08-10 18:56:32 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_04_Constitution_Basic (TODO: todo 25, problems 0)
+08-10 18:56:37 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_05_Polity (TODO: todo 25, problems 0)
+08-10 18:56:42 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_06_Physical_Geography (TODO: todo 25, problems 0)
 ```
