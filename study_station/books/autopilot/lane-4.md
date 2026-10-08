@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 08-10-2026 07:27 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 07:42 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Medieval History (12th GK) | ✍️ लिख रहा है | 31 मिनट |
-| W2 | Chapter 03 Modern History (12th GK) | ✍️ लिख रहा है | 31 मिनट |
-| W3 | Chapter 04 Constitution Basic (12th GK) | ✍️ लिख रहा है | 31 मिनट |
-| W4 | Chapter 05 Polity (12th GK) | ✍️ लिख रहा है | 31 मिनट |
-| W5 | Chapter 06 Physical Geography (12th GK) | ✍️ लिख रहा है | 30 मिनट |
+| W1 | Chapter 02 Medieval History (12th GK) | ✍️ लिख रहा है | 46 मिनट |
+| W2 | Chapter 03 Modern History (12th GK) | ✍️ लिख रहा है | 46 मिनट |
+| W3 | Chapter 04 Constitution Basic (12th GK) | ✍️ लिख रहा है | 46 मिनट |
+| W4 | Chapter 05 Polity (12th GK) | ✍️ लिख रहा है | 46 मिनट |
+| W5 | Chapter 06 Physical Geography (12th GK) | ✍️ लिख रहा है | 46 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -29,8 +29,8 @@
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 1 | 0 | 27 |
 | Graduation Reasoning | 0 | 0 | 30 |
-| Graduation English | 19 | 2 | 9 |
-| **कुल** | **76** | **15** | **205** |
+| Graduation English | 21 | 0 | 9 |
+| **कुल** | **78** | **13** | **205** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -39,10 +39,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 18:56:23 autopilot start: 5 workers, reverse=True
-08-10 18:56:24 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_02_Medieval_History (TODO: todo 25, problems 0)
-08-10 18:56:28 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_03_Modern_History (TODO: todo 25, problems 0)
-08-10 18:56:33 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_04_Constitution_Basic (TODO: todo 25, problems 0)
 08-10 18:56:38 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_05_Polity (TODO: todo 25, problems 0)
 08-10 18:56:43 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_06_Physical_Geography (TODO: todo 25, problems 0)
 08-10 18:59:51   [Constitution_Basic] wrote Content_en.txt (12751 chars)
@@ -72,4 +68,15 @@
 08-10 19:24:27   [Modern_History] Mind_Map.txt try 1: rejected (chat debris "Text")
 08-10 19:24:38   [Medieval_History] wrote Feynman_hi.txt (2624 chars)
 08-10 19:27:17   [Medieval_History] wrote Mind_Map.txt (2367 chars)
+08-10 19:27:50   [Constitution_Basic] wrote Flashcards_en.txt (3996 chars)
+08-10 19:28:41   [Modern_History] Mind_Map.txt try 2: rejected (no usable mermaid graph)
+08-10 19:28:41   [Modern_History] REJECTED Mind_Map.txt: no usable mermaid graph — not written
+08-10 19:31:59   [Modern_History] wrote Flashcards_en.txt (5666 chars)
+08-10 19:32:26   [Constitution_Basic] wrote Flashcards_hi.txt (4771 chars)
+08-10 19:34:50   [Polity] Key_Facts_en.txt try 1: answer too long — asking for a tighter version
+08-10 19:34:54   [Medieval_History] wrote Flashcards_en.txt (5260 chars)
+08-10 19:35:51   [Modern_History] wrote Flashcards_hi.txt (4579 chars)
+08-10 19:36:09   [Constitution_Basic] wrote PYQ_en.txt (9474 chars)
+08-10 19:37:09   [Medieval_History] wrote Flashcards_hi.txt (4658 chars)
+08-10 19:40:34   [Physical_Geography] Feynman_en.txt try 1: answer too long — asking for a tighter version
 ```
