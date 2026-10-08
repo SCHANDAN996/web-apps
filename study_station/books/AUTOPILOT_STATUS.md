@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 08-10-2026 11:28 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 11:29 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 28 Error Log (Graduation English) | 📤 push हो रहा है | 0 मिनट |
-| W2 | Chapter 29 Placement Test (Graduation English) | ✍️ लिख रहा है | 52 मिनट |
-| W4 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 78 मिनट |
+| W2 | Chapter 29 Placement Test (Graduation English) | ✍️ लिख रहा है | 53 मिनट |
+| W4 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 80 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md)
 
@@ -27,10 +26,10 @@
 | 12th Reasoning | 0 | 0 | 25 |
 | 12th English | 5 | 0 | 20 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 1 | 0 | 27 |
+| Graduation GK | 2 | 0 | 26 |
 | Graduation Reasoning | 0 | 0 | 30 |
 | Graduation English | 26 | 0 | 4 |
-| **कुल** | **84** | **13** | **199** |
+| **कुल** | **85** | **13** | **198** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -50,9 +49,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 22:49:19   [Placement_Test] wrote Short_Tricks_en.txt (5086 chars)
-08-10 22:50:45   [Para_Jumbles_Adv] Practice_en_Set_05.txt try 2: re-solve disagrees (Q101 key b vs re-solve d, Q116 key d vs re-solve b, Q121 key d vs re-solve b)
-08-10 22:51:37   [Placement_Test] wrote Short_Tricks_hi.txt (7466 chars)
 08-10 22:52:05   [Error_Log] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 08-10 22:52:16   [Placement_Test] wrote Important_Rules_en.txt (4884 chars)
 08-10 22:53:48   [Placement_Test] wrote Important_Rules_hi.txt (5063 chars)
@@ -90,4 +86,7 @@
 08-10 23:25:35   [Sentence_Arrangement] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
 08-10 23:28:24   [Error_Log] review: 3 section(s) corrected, 0 failed
 08-10 23:28:24   [Error_Log] written 3, failed 0; AI calls today 504/100000
+08-10 23:28:35 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_28_Error_Log in 116 min → 914562fe
+08-10 23:28:35 worker 0: nothing left
+08-10 23:29:24   [Placement_Test] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 ```
