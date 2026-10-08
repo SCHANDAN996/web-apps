@@ -1,0 +1,31 @@
+```mermaid
+graph TD
+    A["Preposition<br>संबंधसूचक"] --> B["What is it?<br>Word placed before noun/pronoun<br>to show relation"]
+    A --> C["Types"]
+    A --> D["12 Golden Rules"]
+    A --> E["Examiner's Traps"]
+    A --> F["Strategies"]
+
+    C --> C1["Time<br>at 5 pm, on Monday,<br>in July, since 2010, for 2 years"]
+    C --> C2["Place<br>at the station, on the table,<br>in Delhi, between, among"]
+    C --> C3["Direction/Movement<br>to, into, onto, towards,<br>across, through"]
+    C --> C4["Agent/Instrument<br>by the teacher,<br>with a pen"]
+    C --> C5["Phrasal/Fixed<br>depend on, afraid of,<br>good at, married to"]
+
+    D --> D1["in = month/year/century<br>on = day/date<br>at = exact time"]
+    D --> D2["since = point of time<br>for = period of time"]
+    D --> D3["arrive at/in, NOT arrive to<br>married to, NOT married with"]
+    D --> D4["No preposition after<br>enter, reach, order, request"]
+    D --> D5["between = two<br>among = more than two"]
+    D --> D6["Preposition + V-ing<br>good at swimming"]
+
+    E --> E1["Sound-Right Trap<br>'discuss about' ❌<br>'discuss' ✓"]
+    E --> E2["Hindi-Transfer Trap<br>'What you are doing?' ❌<br>'What are you doing?' ✓"]
+    E --> E3["Near-Correct Trap<br>'different than' ❌<br>'different from' ✓"]
+    E --> E4["Over-thinking<br>Simple fixed phrases<br>doubled under pressure"]
+
+    F --> F1["15-sec Rule<br>Fixed phrases & time/place<br>prepositions = instant recall"]
+    F --> F2["45-sec Rule<br>Context-based blanks<br>read full sentence first"]
+    F --> F3["Mnemonic<br>'At-On-In' ladder:<br>small to big time/place"]
+    F --> F4["Skip Strategy<br>Unknown phrasal verb?<br>Mark, move on, return"]
+```

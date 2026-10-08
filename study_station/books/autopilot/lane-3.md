@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 08-10-2026 03:45 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:42 AM
+**आख़िरी update:** 08-10-2026 03:47 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:42 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 10 Voice (12th English) | ✍️ लिख रहा है | 73 मिनट |
-| W2 | Chapter 09 Articles (12th English) | ✍️ लिख रहा है | 83 मिनट |
-| W3 | Chapter 08 Conjunction (12th English) | ✍️ लिख रहा है | 107 मिनट |
-| W4 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 142 मिनट |
-| W5 | Chapter 07 Preposition (12th English) | 🔎 review हो रहा है | 28 मिनट |
+| W1 | Chapter 10 Voice (12th English) | ✍️ लिख रहा है | 76 मिनट |
+| W2 | Chapter 09 Articles (12th English) | ✍️ लिख रहा है | 85 मिनट |
+| W3 | Chapter 08 Conjunction (12th English) | ✍️ लिख रहा है | 109 मिनट |
+| W4 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 144 मिनट |
+| W5 | Chapter 07 Preposition (12th English) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,6 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 08-10 15:47 — 12th English · Chapter 07 Preposition
 - 08-10 14:31 — 12th English · Chapter 01 Noun
 - 08-10 14:21 — 12th English · Chapter 02 Pronoun
 - 08-10 13:22 — 12th English · Chapter 04 Verb
@@ -47,10 +48,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 15:10:22   [Conjunction] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-08-10 15:11:21   [Voice] wrote Flashcards_en.txt (4307 chars)
-08-10 15:12:14   [Adverb] Practice_en_Set_02.txt try 3: rejected (parsed 0 questions, numbers -…-)
-08-10 15:12:14   [Adverb] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
 08-10 15:12:14   [Adverb] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
 08-10 15:13:08   [Voice] wrote Flashcards_hi.txt (4645 chars)
 08-10 15:13:48   [Voice] wrote PYQ_en.txt (3138 chars)
@@ -87,4 +84,8 @@
 08-10 15:42:42   [Articles] Practice_hi_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
 08-10 15:43:09   [Preposition] review Important_Rules_en.txt: 1 issue(s): - Memory hook states a preposition is always placed before its object and never after it → Prepositions can
 08-10 15:44:27   [Articles] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+08-10 15:46:15   [Conjunction] Practice_en_Set_06.txt try 1: re-solve disagrees (Q127 key a vs re-solve b, Q141 key c vs re-solve a, Q150 key c vs re-solve a)
+08-10 15:46:57   [Preposition] review Important_Rules_hi.txt: 1 issue(s): - Rule 12 claims prepositions can end sentences only in interrogative sentences (प्रश्नवाचक वाक्यों में) bu
+08-10 15:47:36   [Preposition] review: 4 section(s) corrected, 0 failed
+08-10 15:47:36   [Preposition] written 4, failed 0; AI calls today 495/100000
 ```
