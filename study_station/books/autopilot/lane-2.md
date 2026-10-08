@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 04:17 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 04:32 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Chemistry (Graduation GK) | ✍️ लिख रहा है | 23 मिनट |
-| W2 | Chapter 08 World Geography (Graduation GK) | ✍️ लिख रहा है | 34 मिनट |
-| W3 | Chapter 10 Physics Daily (Graduation GK) | ✍️ लिख रहा है | 27 मिनट |
-| W4 | Chapter 09 Economy Basic (Graduation GK) | ✍️ लिख रहा है | 28 मिनट |
-| W5 | Chapter 07 States Rivers (Graduation GK) | 🔎 review हो रहा है | 26 मिनट |
+| W1 | Chapter 11 Chemistry (Graduation GK) | ✍️ लिख रहा है | 38 मिनट |
+| W2 | Chapter 08 World Geography (Graduation GK) | ✍️ लिख रहा है | 49 मिनट |
+| W3 | Chapter 10 Physics Daily (Graduation GK) | ✍️ लिख रहा है | 42 मिनट |
+| W4 | Chapter 09 Economy Basic (Graduation GK) | ✍️ लिख रहा है | 43 मिनट |
+| W5 | Chapter 07 States Rivers (Graduation GK) | 🔎 review हो रहा है | 41 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -25,12 +25,12 @@
 | 12th Maths | 0 | 0 | 23 |
 | 12th GK | 4 | 0 | 20 |
 | 12th Reasoning | 0 | 0 | 25 |
-| 12th English | 10 | 0 | 15 |
+| 12th English | 12 | 0 | 13 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 7 | 0 | 21 |
 | Graduation Reasoning | 0 | 0 | 30 |
 | Graduation English | 28 | 0 | 2 |
-| **कुल** | **99** | **13** | **184** |
+| **कुल** | **101** | **13** | **182** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -42,20 +42,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 03:54:12   [Physics_Daily] Content_en.txt try 2: rejected (chat debris "Here's the")
-09-10 03:54:12   [Physics_Daily] REJECTED Content_en.txt: chat debris "Here's the" — not written
-09-10 03:54:56   [World_Geography] wrote Feynman_en.txt (3269 chars)
-09-10 03:54:57   [States_Rivers] review Content_en.txt: 2 issue(s): - In the Peninsular Rivers table, the Godavari entry lists Chhattisgarh, Odisha, Madhya Pradesh, and Puducherry‑Kar
-09-10 03:55:22   [Economy_Basic] wrote Content_hi.txt (10326 chars)
-09-10 03:55:37   [Physics_Daily] Content_hi.txt try 1: rejected (too short)
-09-10 03:56:02   [Chemistry] wrote Content_en.txt (10952 chars)
-09-10 03:58:24   [World_Geography] wrote Feynman_hi.txt (2598 chars)
-09-10 03:58:42   [Economy_Basic] wrote Key_Facts_en.txt (10369 chars)
-09-10 04:00:09   [World_Geography] wrote Mind_Map.txt (2806 chars)
-09-10 04:01:32   [Physics_Daily] wrote Content_hi.txt (12691 chars)
-09-10 04:02:18   [Economy_Basic] wrote Key_Facts_hi.txt (10882 chars)
-09-10 04:02:19   [World_Geography] wrote Flashcards_en.txt (5063 chars)
-09-10 04:03:31   [Economy_Basic] wrote Feynman_en.txt (3360 chars)
 09-10 04:04:26   [World_Geography] wrote Flashcards_hi.txt (3997 chars)
 09-10 04:04:31   [Physics_Daily] wrote Key_Facts_en.txt (8156 chars)
 09-10 04:04:32   [States_Rivers] review Key_Facts_en.txt: 5 issue(s): - Table header has 3 columns but first data row has 4 fields (Fact, Description, Examiner's Trap split into two) 
@@ -82,4 +68,18 @@
 09-10 04:16:42   [States_Rivers] review Feynman_hi.txt: 1 issue(s): - नर्मदा और ताप्ती दोनों को विंध्य और सतपुड़ा के बीच की भ्रंश घाटी में बहने वाली बताया गया है → ताप्ती सतपुड़ा के द
 09-10 04:16:49   [World_Geography] wrote Memory_Hooks_hi.txt (5761 chars)
 09-10 04:17:21   [Chemistry] wrote Mind_Map.txt (2741 chars)
+09-10 04:19:57   [Chemistry] wrote Flashcards_en.txt (4707 chars)
+09-10 04:20:17   [Physics_Daily] Key_Facts_hi.txt try 2: rejected (corrupted characters)
+09-10 04:20:17   [Physics_Daily] REJECTED Key_Facts_hi.txt: corrupted characters — not written
+09-10 04:21:25   [Physics_Daily] wrote Feynman_en.txt (2743 chars)
+09-10 04:22:51   [Physics_Daily] wrote Feynman_hi.txt (2504 chars)
+09-10 04:23:57   [World_Geography] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 04:24:13   [States_Rivers] review Flashcards_en.txt: 4 issue(s): - Card 1 front claims "only major Indian river that flows westward into the Arabian Sea through a rift valley" b
+09-10 04:25:32   [Physics_Daily] wrote Mind_Map.txt (3068 chars)
+09-10 04:26:48   [Physics_Daily] wrote Flashcards_en.txt (1819 chars)
+09-10 04:28:34   [World_Geography] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 04:28:42   [States_Rivers] review PYQ_en.txt: 1 issue(s): - In "Sub-topics That Recur Most Often", point 2 claims all listed peninsular rivers (Godavari, Krishna, Cauvery, Mahan
+09-10 04:29:57   [Physics_Daily] wrote Flashcards_hi.txt (4416 chars)
+09-10 04:31:17   [World_Geography] Practice_en_Set_02.txt try 1: rejected (parsed 6 questions, numbers 26…31)
+09-10 04:31:55   [Economy_Basic] PYQ_hi.txt try 1: answer too long — asking for a tighter version
 ```
