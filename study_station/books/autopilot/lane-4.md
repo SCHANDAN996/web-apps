@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 08-10-2026 01:44 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
+**आख़िरी update:** 08-10-2026 02:00 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Ancient History (12th GK) | 🔎 review हो रहा है | 17 मिनट |
-| W2 | Chapter 06 Physical Geography (12th GK) | ✍️ लिख रहा है | 28 मिनट |
-| W3 | Chapter 03 Modern History (12th GK) | ✍️ लिख रहा है | 121 मिनट |
-| W4 | Chapter 04 Constitution Basic (12th GK) | ✍️ लिख रहा है | 41 मिनट |
-| W5 | Chapter 05 Polity (12th GK) | ✍️ लिख रहा है | 121 मिनट |
+| W1 | Chapter 01 Ancient History (12th GK) | 🔎 review हो रहा है | 32 मिनट |
+| W2 | Chapter 06 Physical Geography (12th GK) | ✍️ लिख रहा है | 43 मिनट |
+| W3 | Chapter 03 Modern History (12th GK) | ✍️ लिख रहा है | 14 मिनट |
+| W4 | Chapter 04 Constitution Basic (12th GK) | ✍️ लिख रहा है | 56 मिनट |
+| W5 | Chapter 05 Polity (12th GK) | ✍️ लिख रहा है | 136 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -41,38 +41,11 @@
 - Chapter 02 Medieval History (GK) — 2 बार
 - Chapter 04 Constitution Basic (GK) — 1 बार
 - Chapter 01 Ancient History (GK) — 1 बार
+- Chapter 03 Modern History (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 13:25:00 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_01_Ancient_History (TODO: todo 1, problems 0)
-08-10 13:25:16   [Modern_History] Practice_en_Set_05.txt try 3: re-solve disagrees (Q125 key b vs re-solve d)
-08-10 13:25:16   [Modern_History] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
-08-10 13:25:16   [Modern_History] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
-08-10 13:25:19   [Modern_History] Practice_en_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
-08-10 13:25:39   [Polity] Practice_hi_Set_02.txt try 2: rejected (Q26:answer_solution_conflict,Q41:answer_solution_conflict,Q45:answer_solution_conflict)
-08-10 13:25:43   [Constitution_Basic] Practice_en_Set_02.txt try 1: rejected (Q41:answer_solution_conflict)
-08-10 13:25:46   [Physical_Geography] wrote Key_Facts_en.txt (10253 chars)
-08-10 13:27:07   [Constitution_Basic] Practice_en_Set_02.txt try 2: rejected (Q36:answer_solution_conflict,Q41:answer_solution_conflict,Q44:answer_solution_conflict,Q48:answer_solution_con
-08-10 13:27:13   [Ancient_History] wrote Content_en.txt (13789 chars)
-08-10 13:27:13   [Ancient_History] written 1, failed 0; AI calls today 184/100000
-08-10 13:28:23   [Physical_Geography] wrote Key_Facts_hi.txt (8439 chars)
-08-10 13:28:53   [Physical_Geography] wrote Feynman_en.txt (3090 chars)
-08-10 13:28:57   [Polity] Practice_hi_Set_02.txt try 3: rejected (Q26:answer_solution_conflict,Q41:answer_solution_conflict,Q45:answer_solution_conflict)
-08-10 13:28:57   [Polity] REJECTED Practice_hi_Set_02.txt: no translation passed the checks — not written
-08-10 13:28:59   [Constitution_Basic] Practice_en_Set_02.txt try 3: rejected (Q41:answer_solution_conflict,Q42:answer_solution_conflict,Q46:answer_solution_conflict,Q49:answer_solution_con
-08-10 13:28:59   [Constitution_Basic] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
-08-10 13:28:59   [Constitution_Basic] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
-08-10 13:30:09   [Polity] Practice_en_Set_03.txt try 1: rejected (Q51:answer_solution_conflict,Q74:answer_solution_conflict)
-08-10 13:30:20   [Modern_History] Practice_en_Set_06.txt try 2: re-solve disagrees (Q135 key a vs re-solve b, Q137 key b vs re-solve a)
-08-10 13:30:22   [Polity] Practice_en_Set_03.txt try 2: rejected (parsed 1 questions, numbers 51…51)
-08-10 13:31:44   [Constitution_Basic] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-08-10 13:31:50   [Polity] Practice_en_Set_03.txt try 3: rejected (Q51:answer_solution_conflict,Q65:answer_solution_conflict)
-08-10 13:31:50   [Polity] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
-08-10 13:31:50   [Polity] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
-08-10 13:33:58   [Constitution_Basic] Practice_hi_Set_03.txt try 1: rejected (Q68:answer_solution_conflict)
-08-10 13:34:25   [Modern_History] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-08-10 13:36:39   [Constitution_Basic] Practice_hi_Set_03.txt try 2: rejected (Q68:answer_solution_conflict)
 08-10 13:37:26   [Modern_History] Practice_hi_Set_06.txt try 1: rejected (Q144:answer_solution_conflict)
 08-10 13:38:02   [Constitution_Basic] Practice_hi_Set_03.txt try 3: rejected (parsed 0 questions, numbers -…-)
 08-10 13:38:02   [Constitution_Basic] REJECTED Practice_hi_Set_03.txt: no translation passed the checks — not written
@@ -85,4 +58,32 @@
 08-10 13:42:58   [Constitution_Basic] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
 08-10 13:42:58   [Constitution_Basic] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
 08-10 13:44:33   [Constitution_Basic] Practice_en_Set_05.txt try 1: rejected (Q113:answer_solution_conflict)
+08-10 13:45:00   [Physical_Geography] wrote Feynman_hi.txt (3455 chars)
+08-10 13:45:07   [Modern_History] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+08-10 13:45:07   [Modern_History] written 23, failed 2; AI calls today 211/100000
+08-10 13:45:07 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_03_Modern_History after 122 min: todo ['Set 05 en: todo', 'Set 05 hi: todo'] problems []
+08-10 13:45:07 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_03_Modern_History (TODO: todo 2, problems 0)
+08-10 13:45:39   [Constitution_Basic] Practice_en_Set_05.txt try 2: rejected (Q103:answer_solution_conflict)
+08-10 13:47:19   [Constitution_Basic] Practice_en_Set_05.txt try 3: rejected (Q109:answer_solution_conflict,Q110:answer_solution_conflict,Q116:answer_solution_conflict,Q120:answer_solution
+08-10 13:47:19   [Constitution_Basic] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
+08-10 13:47:19   [Constitution_Basic] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
+08-10 13:47:43   [Modern_History] Practice_en_Set_05.txt try 1: rejected (Q105:answer_solution_conflict)
+08-10 13:48:08   [Polity] FAILED Practice_en_Set_04.txt: too_long
+08-10 13:48:08   [Polity] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
+08-10 13:49:34   [Polity] Practice_en_Set_05.txt try 1: rejected (Q101:answer_solution_conflict,Q110:answer_solution_conflict)
+08-10 13:50:19   [Constitution_Basic] Practice_en_Set_06.txt try 1: re-solve disagrees (Q126 key b vs re-solve d, Q128 key d vs re-solve a, Q129 key a vs re-solve c)
+08-10 13:51:03   [Constitution_Basic] Practice_en_Set_06.txt try 2: rejected (parsed 20 questions, numbers 126…150)
+08-10 13:51:17   [Polity] Practice_en_Set_05.txt try 2: rejected (Q101:answer_solution_conflict)
+08-10 13:51:43   [Ancient_History] review Key_Facts_hi.txt: 3 issue(s): - Largest Harappan site in India listed as Dholavira (Gujarat) → The largest Harappan site in India is Rakhigarhi
+08-10 13:55:41   [Polity] Practice_en_Set_05.txt try 3: rejected (parsed 0 questions, numbers -…-)
+08-10 13:55:41   [Polity] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
+08-10 13:55:41   [Polity] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
+08-10 13:56:58   [Constitution_Basic] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+08-10 13:57:04   [Constitution_Basic] Practice_hi_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
+08-10 13:57:26   [Polity] Practice_en_Set_06.txt try 1: rejected (Q127:answer_solution_conflict,Q134:answer_solution_conflict)
+08-10 13:59:36   [Ancient_History] review Flashcards_en.txt: 1 issue(s): - Card 4: The deity of the Gayatri Mantra is given as Savitri → The correct deity is Savitr (the Sun god)
+08-10 14:00:01   [Constitution_Basic] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+08-10 14:00:01   [Constitution_Basic] written 3, failed 9; AI calls today 233/100000
+08-10 14:00:02 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_04_Constitution_Basic after 57 min: todo ['Set 01 en: todo', 'Set 01 hi: todo', 'Set 02 en: todo', 'Set 02 hi: todo'] problems []
+08-10 14:00:02 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_07_States_Rivers (TODO: todo 25, problems 0)
 ```
