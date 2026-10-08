@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 08-10-2026 03:00 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
+**आख़िरी update:** 08-10-2026 03:15 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Ancient History (Graduation GK) | 🔎 review हो रहा है | 76 मिनट |
-| W2 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 20 मिनट |
-| W3 | Chapter 03 Modern History (Graduation GK) | ✍️ लिख रहा है | 26 मिनट |
-| W4 | Chapter 06 Physical Geography (Graduation GK) | ✍️ लिख रहा है | 0 मिनट |
-| W5 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 197 मिनट |
+| W1 | Chapter 01 Ancient History (Graduation GK) | 🔎 review हो रहा है | 3 मिनट |
+| W2 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 35 मिनट |
+| W3 | Chapter 03 Modern History (Graduation GK) | ✍️ लिख रहा है | 41 मिनट |
+| W4 | Chapter 06 Physical Geography (Graduation GK) | ✍️ लिख रहा है | 15 मिनट |
+| W5 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 212 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -41,19 +41,11 @@
 - Chapter 04 Constitution Basic (GK) — 2 बार
 - Chapter 03 Modern History (GK) — 1 बार
 - Chapter 02 Medieval History (GK) — 1 बार
+- Chapter 01 Ancient History (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 14:29:41   [Polity] Practice_en_Set_06.txt try 1: re-solve disagrees (Q146 key a vs re-solve c)
-08-10 14:30:25   [Modern_History] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-08-10 14:30:43   [Constitution_Basic] Practice_en_Set_04.txt try 2: rejected (Q76:answer_solution_conflict,Q82:answer_solution_conflict,Q85:answer_solution_conflict,Q94:answer_solution_con
-08-10 14:32:06   [Constitution_Basic] Practice_en_Set_04.txt try 3: rejected (parsed 0 questions, numbers -…-)
-08-10 14:32:06   [Constitution_Basic] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
-08-10 14:32:06   [Constitution_Basic] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
-08-10 14:33:57   [Modern_History] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-08-10 14:33:57   [Modern_History] written 17, failed 8; AI calls today 185/100000
-08-10 14:33:57 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_03_Modern_History after 170 min: todo ['Set 01 en: todo', 'Set 01 hi: todo', 'Set 02 en: todo', 'Set 02 hi: todo'] problems []
 08-10 14:33:57 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_03_Modern_History (TODO: todo 8, problems 0)
 08-10 14:35:03   [Constitution_Basic] Practice_en_Set_05.txt try 1: rejected (Q101:answer_solution_conflict,Q109:answer_solution_conflict,Q110:answer_solution_conflict,Q115:answer_solution
 08-10 14:35:31   [Medieval_History] wrote Practice_en_Set_06.txt (write, 25 MCQs)
@@ -85,4 +77,13 @@
 08-10 14:59:59 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_04_Constitution_Basic after 91 min: todo ['Set 01 en: todo', 'Set 01 hi: todo', 'Set 02 en: todo', 'Set 02 hi: todo'] problems []
 08-10 14:59:59 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_06_Physical_Geography (TODO: todo 25, problems 0)
 08-10 15:00:03   [Modern_History] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+08-10 15:01:54   [Medieval_History] FAILED Practice_en_Set_01.txt: too_long
+08-10 15:01:54   [Medieval_History] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
+08-10 15:08:15   [Ancient_History] review Memory_Hooks_hi.txt: 1 issue(s): - Mnemonic 1 lists 16 Mahajanapadas but includes duplicates (गांधार/गंधार and सुरसेन/शूरसेन) and omits कोसल an
+08-10 15:08:28   [Medieval_History] Practice_en_Set_05.txt try 1: rejected (Q117:answer_solution_conflict,Q118:answer_solution_conflict)
+08-10 15:11:07   [Modern_History] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+08-10 15:12:08   [Ancient_History] review: 6 section(s) corrected, 1 failed
+08-10 15:12:08   [Ancient_History] written 6, failed 1; AI calls today 214/100000
+08-10 15:12:09 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_01_Ancient_History after 209 min: todo [] problems []
+08-10 15:12:09 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_01_Ancient_History (OK: todo 0, problems 0)
 ```
