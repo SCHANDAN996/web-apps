@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 08-10-2026 03:00 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
+**आख़िरी update:** 08-10-2026 03:15 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Economy Basic (12th GK) | ✍️ लिख रहा है | 46 मिनट |
-| W2 | Chapter 06 Physical Geography (12th GK) | ✍️ लिख रहा है | 104 मिनट |
-| W3 | Chapter 08 World Geography (12th GK) | ✍️ लिख रहा है | 53 मिनट |
-| W4 | Chapter 07 States Rivers (12th GK) | ✍️ लिख रहा है | 60 मिनट |
-| W5 | Chapter 05 Polity (12th GK) | ✍️ लिख रहा है | 50 मिनट |
+| W1 | Chapter 09 Economy Basic (12th GK) | ✍️ लिख रहा है | 61 मिनट |
+| W2 | Chapter 06 Physical Geography (12th GK) | ✍️ लिख रहा है | 119 मिनट |
+| W3 | Chapter 08 World Geography (12th GK) | ✍️ लिख रहा है | 68 मिनट |
+| W4 | Chapter 07 States Rivers (12th GK) | ✍️ लिख रहा है | 75 मिनट |
+| W5 | Chapter 10 Physics Daily (12th GK) | ✍️ लिख रहा है | 9 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -41,42 +41,11 @@
 - Chapter 02 Medieval History (GK) — 2 बार
 - Chapter 04 Constitution Basic (GK) — 2 बार
 - Chapter 03 Modern History (GK) — 2 बार
-- Chapter 05 Polity (GK) — 1 बार
+- Chapter 05 Polity (GK) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 14:37:53   [Economy_Basic] wrote Key_Facts_en.txt (19828 chars)
-08-10 14:38:00   [Physical_Geography] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-08-10 14:38:48   [Physical_Geography] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
-08-10 14:39:31   [Polity] Practice_hi_Set_03.txt try 2: rejected (Q51:answer_solution_conflict)
-08-10 14:40:06   [World_Geography] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-08-10 14:40:08   [Physical_Geography] Practice_en_Set_02.txt try 2: rejected (Q27:answer_solution_conflict,Q50:leaked_reasoning)
-08-10 14:40:16   [Economy_Basic] Key_Facts_hi.txt try 1: rejected (corrupted characters)
-08-10 14:40:27   [States_Rivers] wrote Key_Facts_hi.txt (12268 chars)
-08-10 14:40:42   [Economy_Basic] wrote Key_Facts_hi.txt (1120 chars)
-08-10 14:41:11   [States_Rivers] wrote Feynman_en.txt (3459 chars)
-08-10 14:41:51   [Polity] Practice_hi_Set_03.txt try 3: rejected (Q51:answer_solution_conflict)
-08-10 14:41:51   [Polity] REJECTED Practice_hi_Set_03.txt: no translation passed the checks — not written
-08-10 14:41:51   [Economy_Basic] wrote Feynman_en.txt (3229 chars)
-08-10 14:42:07   [States_Rivers] wrote Feynman_hi.txt (2154 chars)
-08-10 14:42:19   [Physical_Geography] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-08-10 14:43:07   [States_Rivers] wrote Mind_Map.txt (2641 chars)
-08-10 14:43:30   [States_Rivers] wrote Flashcards_en.txt (1187 chars)
-08-10 14:44:07   [Economy_Basic] wrote Feynman_hi.txt (2503 chars)
-08-10 14:44:29   [World_Geography] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
-08-10 14:44:33   [States_Rivers] wrote Flashcards_hi.txt (3764 chars)
-08-10 14:44:52   [Economy_Basic] wrote Mind_Map.txt (2894 chars)
-08-10 14:45:17   [Polity] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-08-10 14:46:00   [States_Rivers] wrote PYQ_en.txt (8125 chars)
-08-10 14:46:32   [Physical_Geography] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-08-10 14:46:50   [Economy_Basic] Flashcards_en.txt try 1: rejected (corrupted characters)
-08-10 14:47:40   [World_Geography] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-08-10 14:47:49   [Economy_Basic] wrote Flashcards_en.txt (5250 chars)
-08-10 14:48:06   [States_Rivers] wrote PYQ_hi.txt (6853 chars)
-08-10 14:48:53   [Economy_Basic] wrote Flashcards_hi.txt (4387 chars)
-08-10 14:49:24   [States_Rivers] wrote Memory_Hooks_en.txt (6184 chars)
-08-10 14:50:11   [World_Geography] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 08-10 14:51:29   [States_Rivers] wrote Memory_Hooks_hi.txt (5170 chars)
 08-10 14:51:30   [World_Geography] Practice_en_Set_04.txt try 1: rejected (Q97:answer_solution_conflict)
 08-10 14:53:42   [Physical_Geography] Practice_en_Set_03.txt try 1: re-solve disagrees (Q62 key c vs re-solve a, Q64 key d vs re-solve b)
@@ -86,4 +55,35 @@
 08-10 14:59:13   [Economy_Basic] wrote PYQ_hi.txt (7213 chars)
 08-10 14:59:43   [States_Rivers] Practice_en_Set_01.txt try 1: re-solve disagrees (Q22 key b vs re-solve ?)
 08-10 15:00:21   [Economy_Basic] wrote Memory_Hooks_en.txt (6825 chars)
+08-10 15:01:28   [Physical_Geography] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+08-10 15:01:59   [Polity] FAILED Practice_hi_Set_04.txt: too_long
+08-10 15:03:08   [Polity] Practice_en_Set_05.txt try 1: rejected (Q107:answer_solution_conflict)
+08-10 15:03:30   [World_Geography] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+08-10 15:04:12   [Economy_Basic] wrote Memory_Hooks_hi.txt (6285 chars)
+08-10 15:04:23   [Physical_Geography] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+08-10 15:04:26   [Polity] Practice_en_Set_05.txt try 2: rejected (Q101:answer_solution_conflict,Q121:leaked_reasoning)
+08-10 15:05:33   [Economy_Basic] Practice_en_Set_01.txt try 1: rejected (Q7:answer_solution_conflict)
+08-10 15:05:54   [Polity] Practice_en_Set_05.txt try 3: rejected (Q101:answer_solution_conflict,Q113:answer_solution_conflict)
+08-10 15:05:54   [Polity] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
+08-10 15:05:54   [Polity] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
+08-10 15:05:54   [Polity] written 2, failed 7; AI calls today 341/100000
+08-10 15:05:54 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_05_Polity after 56 min: todo ['Set 01 en: todo', 'Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo'] problems ['Content_hi.txt: Hindi file is mostly not in Hindi', 'Content_hi.txt: does not mention the chapter topic (indian, ', 'PYQ_hi.txt: Hindi file is mostly not in Hindi', 'PYQ_hi.txt: much shorter than the English section (2816 vs 9']
+08-10 15:05:54 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_10_Physics_Daily (TODO: todo 25, problems 0)
+08-10 15:06:54   [States_Rivers] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+08-10 15:07:50   [Physics_Daily] wrote Content_en.txt (13792 chars)
+08-10 15:07:57   [Economy_Basic] Practice_en_Set_01.txt try 2: rejected (Q10:answer_solution_conflict)
+08-10 15:08:44   [World_Geography] Practice_en_Set_05.txt try 1: re-solve disagrees (Q120 key a vs re-solve c, Q125 key b vs re-solve c)
+08-10 15:08:45   [Physical_Geography] Practice_en_Set_04.txt try 1: re-solve disagrees (Q77 key d vs re-solve c, Q78 key b vs re-solve c)
+08-10 15:10:00   [Physical_Geography] Practice_en_Set_04.txt try 2: rejected (parsed 0 questions, numbers -…-)
+08-10 15:10:16   [Physics_Daily] wrote Content_hi.txt (9328 chars)
+08-10 15:11:17   [World_Geography] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+08-10 15:11:20   [States_Rivers] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+08-10 15:12:22   [Physical_Geography] Practice_en_Set_04.txt try 3: rejected (Q84:leaked_reasoning)
+08-10 15:12:22   [Physical_Geography] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
+08-10 15:12:22   [Physical_Geography] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
+08-10 15:12:23   [Physics_Daily] wrote Key_Facts_en.txt (17676 chars)
+08-10 15:12:33   [States_Rivers] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
+08-10 15:14:19   [World_Geography] Practice_hi_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
+08-10 15:14:51   [Physics_Daily] wrote Key_Facts_hi.txt (8383 chars)
+08-10 15:15:02   [World_Geography] Practice_hi_Set_05.txt try 2: rejected (parsed 0 questions, numbers -…-)
 ```
