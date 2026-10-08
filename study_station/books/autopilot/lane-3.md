@@ -42,7 +42,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 23:07:21 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_09_Articles after 251 min: todo [] problems []
 08-10 23:07:21 worker 3: nothing left
 08-10 23:07:36   [Narration] Practice_en_Set_03.txt try 1: re-solve disagrees (Q67 key b vs re-solve a)
 08-10 23:09:28   [Conjunction] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
@@ -82,4 +81,5 @@
 08-10 23:54:11   [Narration] written 24, failed 2; AI calls today 330/100000
 08-10 23:54:11 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_11_Narration after 130 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems ['Flashcards_hi.txt: Hindi file is mostly not in Hindi', 'Flashcards_hi.txt: much shorter than the English section (76']
 08-10 23:54:11 worker 0: nothing left
+09-10 00:00:40 autopilot end: done 0, failed 6
 ```
