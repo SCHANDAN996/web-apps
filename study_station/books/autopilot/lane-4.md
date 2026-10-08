@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 08-10-2026 11:08 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 11:14 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Medieval History (12th GK) | 🔎 review हो रहा है | 58 मिनट |
-| W2 | Chapter 03 Modern History (12th GK) | ✍️ लिख रहा है | 23 मिनट |
-| W3 | Chapter 04 Constitution Basic (12th GK) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 05 Polity (12th GK) | 🔎 review हो रहा है | 23 मिनट |
-| W5 | Chapter 06 Physical Geography (12th GK) | 🔎 review हो रहा है | 41 मिनट |
+| W1 | Chapter 02 Medieval History (12th GK) | 🔎 review हो रहा है | 64 मिनट |
+| W2 | Chapter 03 Modern History (12th GK) | ✍️ लिख रहा है | 29 मिनट |
+| W4 | Chapter 05 Polity (12th GK) | 🔎 review हो रहा है | 29 मिनट |
+| W5 | Chapter 06 Physical Geography (12th GK) | 🔎 review हो रहा है | 47 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -29,8 +28,8 @@
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 1 | 0 | 27 |
 | Graduation Reasoning | 0 | 0 | 30 |
-| Graduation English | 23 | 0 | 7 |
-| **कुल** | **83** | **14** | **199** |
+| Graduation English | 24 | 0 | 6 |
+| **कुल** | **84** | **14** | **198** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -39,19 +38,12 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 02 Medieval History (GK) — 1 बार
-- Chapter 04 Constitution Basic (GK) — 1 बार
 - Chapter 05 Polity (GK) — 1 बार
 - Chapter 03 Modern History (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 22:24:27   [Polity] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-08-10 22:24:37   [Modern_History] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-08-10 22:26:52   [Physical_Geography] repaired Flashcards_hi.txt (4899 chars)
-08-10 22:26:52   [Physical_Geography] written 1, failed 0; AI calls today 199/100000
-08-10 22:27:31   [Polity] Practice_en_Set_06.txt try 1: rejected (Q150:leaked_reasoning)
-08-10 22:28:55   [Constitution_Basic] review Key_Facts_hi.txt: 2 issue(s): - संविधान बनने में समय 2 वर्ष 11 माह 18 दिन → 2 वर्ष 11 माह 17 दिन
 08-10 22:30:44   [Physical_Geography] review Content_en.txt: 1 issue(s): - Hindi term 'भंगाल की खाड़ी' for Bay of Bengal is misspelled → correct Hindi is 'बंगाल की खाड़ी'
 08-10 22:34:59   [Medieval_History] review Key_Facts_hi.txt: 1 issue(s): - जहांगीर की विवरण पंक्ति में 'इंग्लिश ख़िलाफ़त नहीं — सर थॉमस रो (1615) आया' असंगत/गलत हिन्दी है → इसे 'अंग्रेज़
 08-10 22:37:06   [Physical_Geography] review Content_hi.txt: 3 issue(s): - पड़ोसी देशों की तालिका में चीन के लिए सीमा लगने वाले राज्यों की संख्या 4 दी गई है, लेकिन सूची में 5 राज्य/केंद्रश
@@ -86,4 +78,10 @@
 08-10 23:07:10   [Constitution_Basic] review Memory_Hooks_hi.txt: 4 issue(s): - Mnemonic 5 का संक्षिप्त वाक्य "86 में 10, 2002 में 11" गलत है; 86वाँ संशोधन (2002) ने 11वाँ कर्तव्य जोड़ा, ज
 08-10 23:08:42   [Constitution_Basic] review: 4 section(s) corrected, 0 failed
 08-10 23:08:42   [Constitution_Basic] written 4, failed 0; AI calls today 249/100000
+08-10 23:08:54 DONE 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_04_Constitution_Basic in 74 min → d3e2472f
+08-10 23:08:54 worker 2: nothing left
+08-10 23:08:59   [Modern_History] Practice_hi_Set_05.txt try 4: rejected (Q123:needs_context)
+08-10 23:08:59   [Modern_History] REJECTED Practice_hi_Set_05.txt: no translation passed the checks — not written
+08-10 23:10:28   [Medieval_History] review PYQ_hi.txt: 2 issue(s): - "अकबर की मानसबदारी, दीन-ए-इलाही, दिन-पनाह" में दिन-पनाह को अकबर की उपलब्धि बताया गया है → दिन-पनाह (पुराना किला) हुमा
+08-10 23:10:29   [Physical_Geography] review Mind_Map.txt: 5 issue(s): - Greater Himalaya – Mt. Everest → Greater Himalaya – Kanchenjunga
 ```
