@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 08-10-2026 07:57 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 08:12 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 26 Critical Reading (Graduation English) | ✍️ लिख रहा है | 24 मिनट |
-| W2 | Chapter 25 Word Roots (Graduation English) | ✍️ लिख रहा है | 25 मिनट |
-| W3 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 61 मिनट |
-| W4 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 61 मिनट |
-| W5 | Chapter 24 RC Adv (Graduation English) | ✍️ लिख रहा है | 61 मिनट |
+| W1 | Chapter 26 Critical Reading (Graduation English) | ✍️ लिख रहा है | 39 मिनट |
+| W2 | Chapter 25 Word Roots (Graduation English) | ✍️ लिख रहा है | 40 मिनट |
+| W3 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 76 मिनट |
+| W4 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 76 मिनट |
+| W5 | Chapter 24 RC Adv (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md)
 
@@ -39,32 +39,13 @@
 - 08-10 19:33 — Graduation English · Chapter 12 Sentence Structure
 - 08-10 19:32 — Graduation English · Chapter 20 Sentence Improvement Adv
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 24 RC Adv (English) — 1 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 19:38:55   [Critical_Reading] wrote Feynman_hi.txt (3178 chars)
-08-10 19:39:18   [Critical_Reading] wrote Mind_Map_en.txt (1686 chars)
-08-10 19:39:33   [Critical_Reading] wrote Mind_Map_hi.txt (1530 chars)
-08-10 19:39:50   [Word_Roots] wrote Feynman_hi.txt (2923 chars)
-08-10 19:40:14   [Word_Roots] wrote Mind_Map_en.txt (1821 chars)
-08-10 19:40:34   [Word_Roots] wrote Mind_Map_hi.txt (1532 chars)
-08-10 19:41:10   [Critical_Reading] wrote Flashcards_en.txt (4974 chars)
-08-10 19:41:26   [Word_Roots] wrote Flashcards_en.txt (3866 chars)
-08-10 19:42:19   [Word_Roots] wrote Flashcards_hi.txt (4185 chars)
-08-10 19:42:29   [Critical_Reading] wrote Flashcards_hi.txt (3774 chars)
-08-10 19:43:23   [Word_Roots] wrote PYQ_en.txt (6651 chars)
-08-10 19:43:33   [Critical_Reading] wrote PYQ_en.txt (9180 chars)
-08-10 19:43:34   [Sentence_Arrangement] Practice_en_Set_01.txt try 4: re-solve disagrees (Q14 key b vs re-solve a, Q24 key a vs re-solve b)
-08-10 19:43:34   [Sentence_Arrangement] REJECTED Practice_en_Set_01.txt: no version passed the checks — not written
-08-10 19:43:34   [Sentence_Arrangement] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
-08-10 19:44:05   [Para_Jumbles_Adv] Practice_en_Set_01.txt try 2: re-solve disagrees (Q22 key c vs re-solve a)
-08-10 19:44:05   [RC_Adv] FAILED Practice_en_Set_02.txt: too_long
-08-10 19:44:05   [RC_Adv] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
-08-10 19:45:20   [Word_Roots] wrote PYQ_hi.txt (6483 chars)
-08-10 19:45:54   [Critical_Reading] wrote PYQ_hi.txt (9054 chars)
-08-10 19:46:07   [Word_Roots] wrote Short_Tricks_en.txt (3786 chars)
-08-10 19:46:42   [Critical_Reading] wrote Short_Tricks_en.txt (4786 chars)
-08-10 19:47:18   [Word_Roots] wrote Short_Tricks_hi.txt (5392 chars)
 08-10 19:47:53   [Critical_Reading] wrote Short_Tricks_hi.txt (5844 chars)
 08-10 19:48:01   [Word_Roots] wrote Important_Rules_en.txt (5088 chars)
 08-10 19:48:31   [RC_Adv] wrote Practice_en_Set_03.txt (write, 25 MCQs)
@@ -82,4 +63,27 @@
 08-10 19:56:13   [Para_Jumbles_Adv] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
 08-10 19:56:52   [Critical_Reading] Practice_en_Set_02.txt try 1: rejected (parsed 23 questions, numbers 26…48)
 08-10 19:56:56   [Critical_Reading] Practice_en_Set_02.txt try 2: rejected (parsed 0 questions, numbers -…-)
+08-10 19:57:57   [RC_Adv] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+08-10 19:58:21   [Critical_Reading] Practice_en_Set_02.txt try 3: rejected (parsed 23 questions, numbers 26…50)
+08-10 19:59:05   [Sentence_Arrangement] Practice_en_Set_02.txt try 3: re-solve disagrees (Q26 key c vs re-solve b, Q28 key d vs re-solve c, Q34 key c vs re-solve b)
+08-10 20:01:47   [Critical_Reading] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+08-10 20:02:31   [RC_Adv] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+08-10 20:03:30   [Para_Jumbles_Adv] Practice_en_Set_02.txt try 2: re-solve disagrees (Q30 key c vs re-solve a, Q49 key c vs re-solve b)
+08-10 20:03:32   [Critical_Reading] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+08-10 20:04:56   [Critical_Reading] Practice_en_Set_03.txt try 1: rejected (parsed 23 questions, numbers 51…75)
+08-10 20:05:41   [Word_Roots] FAILED Practice_en_Set_01.txt: too_long
+08-10 20:05:41   [Word_Roots] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
+08-10 20:06:02   [RC_Adv] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+08-10 20:06:50   [Word_Roots] Practice_en_Set_02.txt try 1: rejected (parsed 23 questions, numbers 26…50)
+08-10 20:08:29   [RC_Adv] Practice_en_Set_06.txt try 1: rejected (parsed 23 questions, numbers 126…150)
+08-10 20:08:51   [Sentence_Arrangement] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+08-10 20:08:55   [Para_Jumbles_Adv] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+08-10 20:11:02   [RC_Adv] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+08-10 20:12:04   [Para_Jumbles_Adv] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+08-10 20:12:07   [Para_Jumbles_Adv] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
+08-10 20:12:17   [Para_Jumbles_Adv] Practice_en_Set_03.txt try 2: rejected (parsed 1 questions, numbers 51…51)
+08-10 20:12:43   [RC_Adv] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+08-10 20:12:43   [RC_Adv] written 24, failed 2; AI calls today 176/100000
+08-10 20:12:43 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_24_RC_Adv after 76 min: todo ['Set 02 en: todo', 'Set 02 hi: todo'] problems []
+08-10 20:12:45 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_24_RC_Adv (TODO: todo 2, problems 0)
 ```
