@@ -1,0 +1,37 @@
+```mermaid
+graph TD
+    A["Error Log Template<br>Your Personal Mistake Tracker"] --> B["Why Keep an Error Log?"]
+    A --> C["Structure of the Log"]
+    A --> D["How to Analyse Each Error"]
+    A --> E["Review Cycle"]
+    A --> F["Examiner's Traps"]
+    A --> G["Strategy & Short Tricks"]
+
+    B --> B1["Turns mistakes into<br>permanent learning"]
+    B --> B2["Reveals your personal<br>weak spots"]
+    B --> B3["Stops repeat errors<br>in the real exam"]
+
+    C --> C1["Column 1: The Question<br>or sentence"]
+    C --> C2["Column 2: My Wrong Answer"]
+    C --> C3["Column 3: Correct Answer<br>+ Rule"]
+    C --> C4["Column 4: Error Type<br>+ Trap Name"]
+    C --> C5["Column 5: Review Dates<br>Day 2 / Day 7 / Day 30"]
+
+    D --> D1["Step 1: Identify the rule broken"]
+    D --> D2["Step 2: Name the trap<br>Intervening Phrase / Sound-Right<br>Collective Noun / Over-thinking"]
+    D --> D3["Step 3: Write one new<br>example of your own"]
+    D --> D4["Step 4: Tag Fact-based<br>15 sec or Inference-based 45 sec"]
+
+    E --> E1["Review after 2 days"]
+    E --> E2["Review after 7 days"]
+    E --> E3["Review after 30 days"]
+    E --> E4["Delete entry only after<br>3 correct recalls"]
+
+    F --> F1["Trap 1: Logging the answer<br>but not the RULE"]
+    F --> F2["Trap 2: Never revisiting<br>old entries"]
+    F --> F3["Trap 3: Blaming carelessness<br>instead of finding the pattern"]
+
+    G --> G1["Mnemonic: W-R-C-T-R<br>Wrong, Right, Cause, Trap, Review"]
+    G --> G2["Group errors by topic<br>to spot patterns"]
+    G --> G3["Skip Strategy: If same trap<br>appears 3+ times, master<br>that rule first"]
+```
