@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 08-10-2026 07:42 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 07:57 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Medieval History (12th GK) | ✍️ लिख रहा है | 46 मिनट |
-| W2 | Chapter 03 Modern History (12th GK) | ✍️ लिख रहा है | 46 मिनट |
-| W3 | Chapter 04 Constitution Basic (12th GK) | ✍️ लिख रहा है | 46 मिनट |
-| W4 | Chapter 05 Polity (12th GK) | ✍️ लिख रहा है | 46 मिनट |
-| W5 | Chapter 06 Physical Geography (12th GK) | ✍️ लिख रहा है | 46 मिनट |
+| W1 | Chapter 02 Medieval History (12th GK) | ✍️ लिख रहा है | 61 मिनट |
+| W2 | Chapter 03 Modern History (12th GK) | ✍️ लिख रहा है | 61 मिनट |
+| W3 | Chapter 04 Constitution Basic (12th GK) | ✍️ लिख रहा है | 61 मिनट |
+| W4 | Chapter 05 Polity (12th GK) | ✍️ लिख रहा है | 61 मिनट |
+| W5 | Chapter 06 Physical Geography (12th GK) | ✍️ लिख रहा है | 61 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,17 +39,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 18:56:38 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_05_Polity (TODO: todo 25, problems 0)
-08-10 18:56:43 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_06_Physical_Geography (TODO: todo 25, problems 0)
-08-10 18:59:51   [Constitution_Basic] wrote Content_en.txt (12751 chars)
-08-10 19:00:24   [Physical_Geography] wrote Content_en.txt (12686 chars)
-08-10 19:01:10   [Medieval_History] wrote Content_en.txt (14109 chars)
-08-10 19:01:19   [Polity] wrote Content_en.txt (12362 chars)
-08-10 19:01:42   [Modern_History] wrote Content_en.txt (15682 chars)
-08-10 19:03:00   [Constitution_Basic] wrote Content_hi.txt (9373 chars)
-08-10 19:06:12   [Modern_History] wrote Content_hi.txt (9992 chars)
-08-10 19:06:37   [Constitution_Basic] wrote Key_Facts_en.txt (10871 chars)
-08-10 19:07:06   [Physical_Geography] wrote Content_hi.txt (10017 chars)
 08-10 19:08:05   [Medieval_History] wrote Content_hi.txt (10250 chars)
 08-10 19:09:44   [Modern_History] wrote Key_Facts_en.txt (8534 chars)
 08-10 19:10:58   [Physical_Geography] wrote Key_Facts_en.txt (14827 chars)
@@ -79,4 +68,15 @@
 08-10 19:36:09   [Constitution_Basic] wrote PYQ_en.txt (9474 chars)
 08-10 19:37:09   [Medieval_History] wrote Flashcards_hi.txt (4658 chars)
 08-10 19:40:34   [Physical_Geography] Feynman_en.txt try 1: answer too long — asking for a tighter version
+08-10 19:42:59   [Constitution_Basic] wrote PYQ_hi.txt (8009 chars)
+08-10 19:44:02   [Physical_Geography] wrote Feynman_en.txt (7276 chars)
+08-10 19:47:09   [Constitution_Basic] wrote Memory_Hooks_en.txt (5947 chars)
+08-10 19:47:45   [Physical_Geography] wrote Feynman_hi.txt (2567 chars)
+08-10 19:49:23   [Constitution_Basic] wrote Memory_Hooks_hi.txt (338 chars)
+08-10 19:50:48   [Physical_Geography] wrote Mind_Map.txt (3838 chars)
+08-10 19:50:49   [Polity] FAILED Key_Facts_en.txt: too_long
+08-10 19:53:44   [Modern_History] PYQ_en.txt try 1: answer too long — asking for a tighter version
+08-10 19:54:16   [Physical_Geography] wrote Flashcards_en.txt (3821 chars)
+08-10 19:54:57   [Constitution_Basic] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+08-10 19:57:08   [Medieval_History] wrote PYQ_en.txt (7914 chars)
 ```
