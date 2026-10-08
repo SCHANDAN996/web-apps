@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 08-10-2026 07:57 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 08:13 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Medieval History (12th GK) | ✍️ लिख रहा है | 61 मिनट |
-| W2 | Chapter 03 Modern History (12th GK) | ✍️ लिख रहा है | 61 मिनट |
-| W3 | Chapter 04 Constitution Basic (12th GK) | ✍️ लिख रहा है | 61 मिनट |
-| W4 | Chapter 05 Polity (12th GK) | ✍️ लिख रहा है | 61 मिनट |
-| W5 | Chapter 06 Physical Geography (12th GK) | ✍️ लिख रहा है | 61 मिनट |
+| W1 | Chapter 02 Medieval History (12th GK) | ✍️ लिख रहा है | 76 मिनट |
+| W2 | Chapter 03 Modern History (12th GK) | ✍️ लिख रहा है | 76 मिनट |
+| W3 | Chapter 04 Constitution Basic (12th GK) | ✍️ लिख रहा है | 76 मिनट |
+| W4 | Chapter 05 Polity (12th GK) | ✍️ लिख रहा है | 76 मिनट |
+| W5 | Chapter 06 Physical Geography (12th GK) | ✍️ लिख रहा है | 76 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,21 +39,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 19:08:05   [Medieval_History] wrote Content_hi.txt (10250 chars)
-08-10 19:09:44   [Modern_History] wrote Key_Facts_en.txt (8534 chars)
-08-10 19:10:58   [Physical_Geography] wrote Key_Facts_en.txt (14827 chars)
-08-10 19:11:36   [Polity] wrote Content_hi.txt (13521 chars)
-08-10 19:12:36   [Medieval_History] wrote Key_Facts_en.txt (3788 chars)
-08-10 19:13:41   [Constitution_Basic] wrote Key_Facts_hi.txt (9314 chars)
-08-10 19:16:15   [Modern_History] wrote Key_Facts_hi.txt (11073 chars)
-08-10 19:16:59   [Physical_Geography] wrote Key_Facts_hi.txt (9499 chars)
-08-10 19:17:03   [Constitution_Basic] wrote Feynman_en.txt (2908 chars)
-08-10 19:17:37   [Medieval_History] wrote Key_Facts_hi.txt (8076 chars)
-08-10 19:18:35   [Modern_History] wrote Feynman_en.txt (3708 chars)
-08-10 19:20:09   [Constitution_Basic] wrote Feynman_hi.txt (2518 chars)
-08-10 19:21:17   [Modern_History] wrote Feynman_hi.txt (2277 chars)
-08-10 19:21:23   [Medieval_History] wrote Feynman_en.txt (2881 chars)
-08-10 19:23:53   [Constitution_Basic] wrote Mind_Map.txt (3633 chars)
 08-10 19:24:27   [Modern_History] Mind_Map.txt try 1: rejected (chat debris "Text")
 08-10 19:24:38   [Medieval_History] wrote Feynman_hi.txt (2624 chars)
 08-10 19:27:17   [Medieval_History] wrote Mind_Map.txt (2367 chars)
@@ -79,4 +64,19 @@
 08-10 19:54:16   [Physical_Geography] wrote Flashcards_en.txt (3821 chars)
 08-10 19:54:57   [Constitution_Basic] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 08-10 19:57:08   [Medieval_History] wrote PYQ_en.txt (7914 chars)
+08-10 19:58:21   [Physical_Geography] wrote Flashcards_hi.txt (613 chars)
+08-10 20:00:00   [Modern_History] wrote PYQ_en.txt (12464 chars)
+08-10 20:01:09   [Medieval_History] wrote PYQ_hi.txt (6762 chars)
+08-10 20:01:45   [Constitution_Basic] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+08-10 20:02:35   [Physical_Geography] wrote PYQ_en.txt (10516 chars)
+08-10 20:03:52   [Modern_History] wrote PYQ_hi.txt (6379 chars)
+08-10 20:06:34   [Physical_Geography] wrote PYQ_hi.txt (7931 chars)
+08-10 20:06:47   [Medieval_History] wrote Memory_Hooks_en.txt (5982 chars)
+08-10 20:06:59   [Modern_History] wrote Memory_Hooks_en.txt (7906 chars)
+08-10 20:07:07   [Constitution_Basic] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+08-10 20:09:06   [Physical_Geography] wrote Memory_Hooks_en.txt (5441 chars)
+08-10 20:09:07   [Polity] Key_Facts_hi.txt try 1: answer too long — asking for a tighter version
+08-10 20:11:01   [Medieval_History] wrote Memory_Hooks_hi.txt (4812 chars)
+08-10 20:11:40   [Modern_History] wrote Memory_Hooks_hi.txt (6838 chars)
+08-10 20:13:12   [Physical_Geography] Memory_Hooks_hi.txt try 1: rejected (corrupted characters)
 ```
