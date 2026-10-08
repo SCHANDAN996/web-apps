@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 08-10-2026 01:29 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
+**आख़िरी update:** 08-10-2026 01:44 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Ancient History (12th GK) | 🔎 review हो रहा है | 2 मिनट |
-| W2 | Chapter 06 Physical Geography (12th GK) | ✍️ लिख रहा है | 13 मिनट |
-| W3 | Chapter 03 Modern History (12th GK) | ✍️ लिख रहा है | 106 मिनट |
-| W4 | Chapter 04 Constitution Basic (12th GK) | ✍️ लिख रहा है | 26 मिनट |
-| W5 | Chapter 05 Polity (12th GK) | ✍️ लिख रहा है | 106 मिनट |
+| W1 | Chapter 01 Ancient History (12th GK) | 🔎 review हो रहा है | 17 मिनट |
+| W2 | Chapter 06 Physical Geography (12th GK) | ✍️ लिख रहा है | 28 मिनट |
+| W3 | Chapter 03 Modern History (12th GK) | ✍️ लिख रहा है | 121 मिनट |
+| W4 | Chapter 04 Constitution Basic (12th GK) | ✍️ लिख रहा है | 41 मिनट |
+| W5 | Chapter 05 Polity (12th GK) | ✍️ लिख रहा है | 121 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -45,28 +45,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 13:09:33   [Ancient_History] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-08-10 13:10:34   [Modern_History] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-08-10 13:11:37   [Ancient_History] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-08-10 13:12:26   [Polity] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-08-10 13:13:51   [Medieval_History] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-08-10 13:14:17   [Modern_History] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-08-10 13:16:27   [Medieval_History] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-08-10 13:16:27   [Medieval_History] written 4, failed 2; AI calls today 168/100000
-08-10 13:16:27 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_02_Medieval_History after 21 min: todo ['Set 03 en: todo', 'Set 03 hi: todo'] problems []
-08-10 13:16:27 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_06_Physical_Geography (TODO: todo 25, problems 0)
-08-10 13:16:48   [Ancient_History] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-08-10 13:17:04   [Modern_History] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-08-10 13:18:15   [Physical_Geography] wrote Content_en.txt (10052 chars)
-08-10 13:18:52   [Modern_History] Practice_en_Set_05.txt try 1: rejected (Q108:answer_solution_conflict)
-08-10 13:20:30   [Polity] Practice_hi_Set_02.txt try 1: rejected (Q26:answer_solution_conflict,Q41:answer_solution_conflict,Q45:answer_solution_conflict)
-08-10 13:21:19   [Modern_History] Practice_en_Set_05.txt try 2: rejected (Q112:answer_solution_conflict)
-08-10 13:22:45   [Physical_Geography] wrote Content_hi.txt (9123 chars)
-08-10 13:24:12   [Constitution_Basic] FAILED Practice_en_Set_01.txt: too_long
-08-10 13:24:12   [Constitution_Basic] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
-08-10 13:24:59   [Ancient_History] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-08-10 13:24:59   [Ancient_History] written 24, failed 1; AI calls today 177/100000
-08-10 13:25:00 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_01_Ancient_History after 102 min: todo ['Content_en.txt'] problems []
 08-10 13:25:00 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_01_Ancient_History (TODO: todo 1, problems 0)
 08-10 13:25:16   [Modern_History] Practice_en_Set_05.txt try 3: re-solve disagrees (Q125 key b vs re-solve d)
 08-10 13:25:16   [Modern_History] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
@@ -85,4 +63,26 @@
 08-10 13:28:59   [Constitution_Basic] Practice_en_Set_02.txt try 3: rejected (Q41:answer_solution_conflict,Q42:answer_solution_conflict,Q46:answer_solution_conflict,Q49:answer_solution_con
 08-10 13:28:59   [Constitution_Basic] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
 08-10 13:28:59   [Constitution_Basic] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+08-10 13:30:09   [Polity] Practice_en_Set_03.txt try 1: rejected (Q51:answer_solution_conflict,Q74:answer_solution_conflict)
+08-10 13:30:20   [Modern_History] Practice_en_Set_06.txt try 2: re-solve disagrees (Q135 key a vs re-solve b, Q137 key b vs re-solve a)
+08-10 13:30:22   [Polity] Practice_en_Set_03.txt try 2: rejected (parsed 1 questions, numbers 51…51)
+08-10 13:31:44   [Constitution_Basic] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+08-10 13:31:50   [Polity] Practice_en_Set_03.txt try 3: rejected (Q51:answer_solution_conflict,Q65:answer_solution_conflict)
+08-10 13:31:50   [Polity] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
+08-10 13:31:50   [Polity] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
+08-10 13:33:58   [Constitution_Basic] Practice_hi_Set_03.txt try 1: rejected (Q68:answer_solution_conflict)
+08-10 13:34:25   [Modern_History] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+08-10 13:36:39   [Constitution_Basic] Practice_hi_Set_03.txt try 2: rejected (Q68:answer_solution_conflict)
+08-10 13:37:26   [Modern_History] Practice_hi_Set_06.txt try 1: rejected (Q144:answer_solution_conflict)
+08-10 13:38:02   [Constitution_Basic] Practice_hi_Set_03.txt try 3: rejected (parsed 0 questions, numbers -…-)
+08-10 13:38:02   [Constitution_Basic] REJECTED Practice_hi_Set_03.txt: no translation passed the checks — not written
+08-10 13:38:35   [Ancient_History] review Content_hi.txt: 2 issue(s): - Section 1 table shows Neolithic period as 6,000–1,000 BCE, but the text states Mehrgarh (earliest agriculture) at
+08-10 13:39:48   [Constitution_Basic] Practice_en_Set_04.txt try 1: rejected (Q76:answer_solution_conflict,Q87:answer_solution_conflict,Q94:answer_solution_conflict)
+08-10 13:39:54   [Modern_History] Practice_hi_Set_06.txt try 2: rejected (Q144:answer_solution_conflict)
+08-10 13:41:39   [Constitution_Basic] Practice_en_Set_04.txt try 2: rejected (Q77:answer_solution_conflict,Q82:answer_solution_conflict)
+08-10 13:42:33   [Physical_Geography] Feynman_hi.txt try 1: answer too long — asking for a tighter version
+08-10 13:42:58   [Constitution_Basic] Practice_en_Set_04.txt try 3: rejected (Q84:answer_solution_conflict,Q85:answer_solution_conflict,Q90:answer_solution_conflict)
+08-10 13:42:58   [Constitution_Basic] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
+08-10 13:42:58   [Constitution_Basic] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
+08-10 13:44:33   [Constitution_Basic] Practice_en_Set_05.txt try 1: rejected (Q113:answer_solution_conflict)
 ```
