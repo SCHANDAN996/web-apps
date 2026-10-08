@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 08-10-2026 02:45 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
+**आख़िरी update:** 08-10-2026 03:00 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Ancient History (Graduation GK) | 🔎 review हो रहा है | 61 मिनट |
-| W2 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 5 मिनट |
-| W3 | Chapter 03 Modern History (Graduation GK) | ✍️ लिख रहा है | 11 मिनट |
-| W4 | Chapter 04 Constitution Basic (Graduation GK) | ✍️ लिख रहा है | 76 मिनट |
-| W5 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 181 मिनट |
+| W1 | Chapter 01 Ancient History (Graduation GK) | 🔎 review हो रहा है | 76 मिनट |
+| W2 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 20 मिनट |
+| W3 | Chapter 03 Modern History (Graduation GK) | ✍️ लिख रहा है | 26 मिनट |
+| W4 | Chapter 06 Physical Geography (Graduation GK) | ✍️ लिख रहा है | 0 मिनट |
+| W5 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 197 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -38,28 +38,13 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 04 Constitution Basic (GK) — 1 बार
+- Chapter 04 Constitution Basic (GK) — 2 बार
 - Chapter 03 Modern History (GK) — 1 बार
 - Chapter 02 Medieval History (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 14:14:32   [Medieval_History] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
-08-10 14:16:35   [Ancient_History] review Key_Facts_en.txt: 1 issue(s): - Mature Harappan era c. , , → Mature Harappan era c. 2600–1900 BCE
-08-10 14:16:59   [Polity] Practice_en_Set_05.txt try 3: rejected (Q101:answer_solution_conflict)
-08-10 14:16:59   [Polity] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
-08-10 14:16:59   [Polity] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
-08-10 14:19:53   [Modern_History] Practice_en_Set_05.txt try 3: rejected (parsed 0 questions, numbers -…-)
-08-10 14:19:53   [Modern_History] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
-08-10 14:19:53   [Modern_History] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
-08-10 14:20:52   [Constitution_Basic] Practice_en_Set_03.txt try 2: rejected (Q65:answer_solution_conflict,Q67:answer_solution_conflict)
-08-10 14:24:10   [Constitution_Basic] Practice_en_Set_03.txt try 3: rejected (Q53:answer_solution_conflict,Q60:answer_solution_conflict,Q71:answer_solution_conflict)
-08-10 14:24:10   [Constitution_Basic] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
-08-10 14:24:10   [Constitution_Basic] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
-08-10 14:27:01   [Medieval_History] Practice_en_Set_06.txt try 1: rejected (Q136:leaked_reasoning)
-08-10 14:27:13   [Ancient_History] review Key_Facts_hi.txt: 2 issue(s): - सिंधु घाटी का सबसे बड़ा स्थल (भारत में) धोलावीरा (गुजरात) दिया गया है → सही स्थल राखीगढ़ी (हरियाणा) है
-08-10 14:27:59   [Constitution_Basic] Practice_en_Set_04.txt try 1: rejected (Q83:answer_solution_conflict,Q91:answer_solution_conflict,Q93:answer_solution_conflict)
 08-10 14:29:41   [Polity] Practice_en_Set_06.txt try 1: re-solve disagrees (Q146 key a vs re-solve c)
 08-10 14:30:25   [Modern_History] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 08-10 14:30:43   [Constitution_Basic] Practice_en_Set_04.txt try 2: rejected (Q76:answer_solution_conflict,Q82:answer_solution_conflict,Q85:answer_solution_conflict,Q94:answer_solution_con
@@ -85,4 +70,19 @@
 08-10 14:43:27   [Constitution_Basic] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
 08-10 14:43:44   [Ancient_History] review Flashcards_hi.txt: 1 issue(s): - Card 3: states Buddha's first sermon was given to five Brahmins → It was given to five ascetics (the five disc
 08-10 14:44:13   [Medieval_History] wrote Content_en.txt (17162 chars)
+08-10 14:46:22   [Constitution_Basic] Practice_en_Set_06.txt try 1: rejected (Q141:answer_solution_conflict)
+08-10 14:48:03   [Modern_History] Practice_en_Set_01.txt try 3: rejected (parsed 0 questions, numbers -…-)
+08-10 14:48:03   [Modern_History] REJECTED Practice_en_Set_01.txt: no version passed the checks — not written
+08-10 14:48:03   [Modern_History] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
+08-10 14:48:39   [Constitution_Basic] Practice_en_Set_06.txt try 2: rejected (Q129:answer_solution_conflict,Q133:answer_solution_conflict,Q147:leaked_reasoning)
+08-10 14:52:58   [Modern_History] Practice_en_Set_02.txt try 1: rejected (Q30:leaked_reasoning)
+08-10 14:58:23   [Ancient_History] review PYQ_hi.txt: 2 issue(s): - "सिंधु = ऋग्वेदिक 'सप्तसिंधु'" गलत है; सप्तसिंधु सात नदियों का समूह है, केवल सिंधु नदी नहीं → इसे "सप्तसिंधु = सात नद
+08-10 14:59:40   [Polity] Practice_en_Set_06.txt try 2: re-solve disagrees (Q148 key a vs re-solve ?)
+08-10 14:59:59   [Constitution_Basic] Practice_en_Set_06.txt try 3: rejected (Q135:answer_solution_conflict,Q149:answer_solution_conflict)
+08-10 14:59:59   [Constitution_Basic] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+08-10 14:59:59   [Constitution_Basic] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+08-10 14:59:59   [Constitution_Basic] written 0, failed 12; AI calls today 207/100000
+08-10 14:59:59 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_04_Constitution_Basic after 91 min: todo ['Set 01 en: todo', 'Set 01 hi: todo', 'Set 02 en: todo', 'Set 02 hi: todo'] problems []
+08-10 14:59:59 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_06_Physical_Geography (TODO: todo 25, problems 0)
+08-10 15:00:03   [Modern_History] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 ```
