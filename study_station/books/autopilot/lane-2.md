@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 08-10-2026 01:45 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
+**आख़िरी update:** 08-10-2026 02:00 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Ancient History (Graduation GK) | 🔎 review हो रहा है | 1 मिनट |
-| W2 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 121 मिनट |
-| W3 | Chapter 03 Modern History (Graduation GK) | ✍️ लिख रहा है | 121 मिनट |
-| W4 | Chapter 04 Constitution Basic (Graduation GK) | ✍️ लिख रहा है | 15 मिनट |
-| W5 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 121 मिनट |
+| W1 | Chapter 01 Ancient History (Graduation GK) | 🔎 review हो रहा है | 16 मिनट |
+| W2 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 136 मिनट |
+| W3 | Chapter 03 Modern History (Graduation GK) | ✍️ लिख रहा है | 136 मिनट |
+| W4 | Chapter 04 Constitution Basic (Graduation GK) | ✍️ लिख रहा है | 30 मिनट |
+| W5 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 136 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -43,13 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 13:23:44   [Constitution_Basic] Practice_en_Set_05.txt try 3: rejected (Q101:answer_solution_conflict,Q107:answer_solution_conflict,Q113:answer_solution_conflict,Q114:answer_solution
-08-10 13:23:44   [Constitution_Basic] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
-08-10 13:23:44   [Constitution_Basic] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
-08-10 13:25:13   [Ancient_History] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-08-10 13:25:21   [Constitution_Basic] Practice_en_Set_06.txt try 1: rejected (Q129:answer_solution_conflict,Q133:answer_solution_conflict)
-08-10 13:25:51   [Medieval_History] Practice_hi_Set_03.txt try 2: rejected (Q69:answer_solution_conflict)
-08-10 13:26:11   [Polity] Practice_en_Set_02.txt try 3: rejected (Q42:answer_solution_conflict)
 08-10 13:26:11   [Polity] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
 08-10 13:26:11   [Polity] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
 08-10 13:27:21   [Modern_History] Practice_en_Set_03.txt try 1: rejected (Q66:answer_solution_conflict)
@@ -83,4 +76,11 @@
 08-10 13:43:46   [Ancient_History] repaired Content_hi.txt (11341 chars)
 08-10 13:43:46   [Ancient_History] written 1, failed 0; AI calls today 147/100000
 08-10 13:44:20   [Medieval_History] Practice_en_Set_05.txt try 1: rejected (parsed 1 questions, numbers 101…101)
+08-10 13:45:35   [Constitution_Basic] Practice_en_Set_01.txt try 3: rejected (Q17:answer_solution_conflict,Q20:answer_solution_conflict)
+08-10 13:45:35   [Constitution_Basic] REJECTED Practice_en_Set_01.txt: no version passed the checks — not written
+08-10 13:45:35   [Constitution_Basic] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
+08-10 13:46:58   [Modern_History] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+08-10 13:52:58   [Ancient_History] review Content_hi.txt: 1 issue(s): - धोलावीरा की नदी 'लूनी (मानसरोवर)' गलत है → धोलावीरा कच्छ के रण में खादिर द्वीप पर स्थित है; मानसरोवर तिब्बत की झी
+08-10 13:53:25   [Modern_History] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+08-10 13:56:18   [Constitution_Basic] Practice_en_Set_02.txt try 1: rejected (Q28:answer_solution_conflict,Q37:answer_solution_conflict,Q44:answer_solution_conflict)
 ```
