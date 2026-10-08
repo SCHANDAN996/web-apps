@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 04:12 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 04:17 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 21 मिनट |
-| W2 | Chapter 23 Sentence Arrangement (Graduation English) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 02 Classification (Graduation Reasoning) | ✍️ लिख रहा है | 47 मिनट |
-| W4 | Chapter 30 Revision Tracker (Graduation English) | ✍️ लिख रहा है | 70 मिनट |
-| W5 | Chapter 01 Analogy (Graduation Reasoning) | ✍️ लिख रहा है | 70 मिनट |
+| W1 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 27 मिनट |
+| W2 | Chapter 03 Coding Decoding (Graduation Reasoning) | ✍️ लिख रहा है | 5 मिनट |
+| W3 | Chapter 02 Classification (Graduation Reasoning) | ✍️ लिख रहा है | 53 मिनट |
+| W4 | Chapter 30 Revision Tracker (Graduation English) | ✍️ लिख रहा है | 76 मिनट |
+| W5 | Chapter 01 Analogy (Graduation Reasoning) | ✍️ लिख रहा है | 76 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md)
 
@@ -46,14 +46,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 03:43:11   [Classification] REJECTED Content_en.txt: chat debris "Here is the" — not written
-09-10 03:44:51   [Revision_Tracker] Practice_en_Set_02.txt try 1: re-solve disagrees (Q41 key d vs re-solve b)
-09-10 03:46:28   [Analogy] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 03:46:32   [Classification] wrote Content_hi.txt (6768 chars)
-09-10 03:47:52   [Revision_Tracker] Practice_en_Set_02.txt try 2: re-solve disagrees (Q41 key d vs re-solve c)
-09-10 03:48:02   [Sentence_Arrangement] repaired PYQ_en.txt (11287 chars)
-09-10 03:48:02   [Sentence_Arrangement] written 1, failed 0; AI calls today 81/100000
-09-10 03:48:14   [Classification] wrote Feynman_en.txt (3451 chars)
 09-10 03:50:14   [Analogy] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 09-10 03:50:28   [Para_Jumbles_Adv] FAILED Practice_en_Set_05.txt: too_long
 09-10 03:50:28   [Para_Jumbles_Adv] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
@@ -86,4 +78,12 @@
 09-10 04:11:31   [Classification] wrote Short_Tricks_en.txt (5047 chars)
 09-10 04:12:15   [Sentence_Arrangement] review: 5 section(s) corrected, 0 failed
 09-10 04:12:15   [Sentence_Arrangement] written 5, failed 0; AI calls today 130/100000
+09-10 04:12:28 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_23_Sentence_Arrangement in 71 min → 4ca8034d
+09-10 04:12:30 START Graduation_Level/Reasoning/Chapter_03_Coding_Decoding (TODO: todo 25, problems 0)
+09-10 04:13:17   [Analogy] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 04:13:55   [Classification] wrote Short_Tricks_hi.txt (5026 chars)
+09-10 04:14:55   [Classification] wrote Important_Rules_en.txt (4144 chars)
+09-10 04:16:06   [Para_Jumbles_Adv] Practice_en_Set_05.txt try 3: re-solve disagrees (Q101 key b vs re-solve c, Q103 key a vs re-solve b, Q106 key d vs re-solve a, Q107 key d vs re-solve
+09-10 04:16:32   [Analogy] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 04:16:40   [Classification] wrote Important_Rules_hi.txt (3730 chars)
 ```
