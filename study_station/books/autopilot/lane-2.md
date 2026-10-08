@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 08-10-2026 03:24 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
+**आख़िरी update:** 08-10-2026 03:30 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Ancient History (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
-| W2 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 44 मिनट |
-| W3 | Chapter 03 Modern History (Graduation GK) | ✍️ लिख रहा है | 50 मिनट |
-| W4 | Chapter 06 Physical Geography (Graduation GK) | ✍️ लिख रहा है | 24 मिनट |
-| W5 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 2 मिनट |
+| W1 | Chapter 07 States Rivers (Graduation GK) | ✍️ लिख रहा है | 5 मिनट |
+| W2 | Chapter 08 World Geography (Graduation GK) | ✍️ लिख रहा है | 4 मिनट |
+| W3 | Chapter 03 Modern History (Graduation GK) | ✍️ लिख रहा है | 56 मिनट |
+| W4 | Chapter 06 Physical Geography (Graduation GK) | ✍️ लिख रहा है | 30 मिनट |
+| W5 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 8 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -40,23 +40,12 @@
 
 - Chapter 04 Constitution Basic (GK) — 2 बार
 - Chapter 03 Modern History (GK) — 1 बार
-- Chapter 02 Medieval History (GK) — 1 बार
-- Chapter 01 Ancient History (GK) — 1 बार
+- Chapter 02 Medieval History (GK) — 2 बार
 - Chapter 05 Polity (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 14:43:27   [Constitution_Basic] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
-08-10 14:43:27   [Constitution_Basic] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
-08-10 14:43:44   [Ancient_History] review Flashcards_hi.txt: 1 issue(s): - Card 3: states Buddha's first sermon was given to five Brahmins → It was given to five ascetics (the five disc
-08-10 14:44:13   [Medieval_History] wrote Content_en.txt (17162 chars)
-08-10 14:46:22   [Constitution_Basic] Practice_en_Set_06.txt try 1: rejected (Q141:answer_solution_conflict)
-08-10 14:48:03   [Modern_History] Practice_en_Set_01.txt try 3: rejected (parsed 0 questions, numbers -…-)
-08-10 14:48:03   [Modern_History] REJECTED Practice_en_Set_01.txt: no version passed the checks — not written
-08-10 14:48:03   [Modern_History] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
-08-10 14:48:39   [Constitution_Basic] Practice_en_Set_06.txt try 2: rejected (Q129:answer_solution_conflict,Q133:answer_solution_conflict,Q147:leaked_reasoning)
-08-10 14:52:58   [Modern_History] Practice_en_Set_02.txt try 1: rejected (Q30:leaked_reasoning)
 08-10 14:58:23   [Ancient_History] review PYQ_hi.txt: 2 issue(s): - "सिंधु = ऋग्वेदिक 'सप्तसिंधु'" गलत है; सप्तसिंधु सात नदियों का समूह है, केवल सिंधु नदी नहीं → इसे "सप्तसिंधु = सात नद
 08-10 14:59:40   [Polity] Practice_en_Set_06.txt try 2: re-solve disagrees (Q148 key a vs re-solve ?)
 08-10 14:59:59   [Constitution_Basic] Practice_en_Set_06.txt try 3: rejected (Q135:answer_solution_conflict,Q149:answer_solution_conflict)
@@ -87,4 +76,14 @@
 08-10 15:23:55   [Physical_Geography] wrote Content_hi.txt (342 chars)
 08-10 15:24:54   [Ancient_History] review: 1 section(s) corrected, 0 failed
 08-10 15:24:54   [Ancient_History] written 1, failed 0; AI calls today 223/100000
+08-10 15:25:00 DONE Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_01_Ancient_History in 13 min → 9efc86f3
+08-10 15:25:00 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_07_States_Rivers (TODO: todo 25, problems 0)
+08-10 15:26:15   [Medieval_History] FAILED Practice_en_Set_05.txt: too_long
+08-10 15:26:15   [Medieval_History] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
+08-10 15:26:15   [Medieval_History] written 1, failed 4; AI calls today 224/100000
+08-10 15:26:15 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_02_Medieval_History after 46 min: todo ['Set 01 en: todo', 'Set 01 hi: todo', 'Set 05 en: todo', 'Set 05 hi: todo'] problems []
+08-10 15:26:15 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_08_World_Geography (TODO: todo 25, problems 0)
+08-10 15:28:08   [Modern_History] Practice_en_Set_03.txt try 2: re-solve disagrees (Q56 key b vs re-solve c)
+08-10 15:28:28   [Polity] wrote Memory_Hooks_hi.txt (7191 chars)
+08-10 15:29:53   [States_Rivers] wrote Content_en.txt (9929 chars)
 ```
