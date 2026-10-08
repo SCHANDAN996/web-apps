@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 08-10-2026 11:30 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 11:45 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Narration (12th English) | ✍️ लिख रहा है | 105 मिनट |
-| W5 | Chapter 10 Voice (12th English) | 🔎 review हो रहा है | 48 मिनट |
+| W1 | Chapter 11 Narration (12th English) | ✍️ लिख रहा है | 120 मिनट |
+| W5 | Chapter 10 Voice (12th English) | 🔎 review हो रहा है | 63 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -44,9 +44,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 22:54:35   [Adverb] review Feynman_en.txt: 2 issue(s): - "solves 90% of exam questions" is an invented exam statistic → remove the percentage or replace with a non-specif
-08-10 22:55:36   [Narration] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-08-10 22:56:48   [Voice] review Feynman_hi.txt: 2 issue(s): - Hindi passive example "खाना माँ ने बनाया गया" is grammatically incorrect → Use "खाना माँ द्वारा बनाया गया" for pa
 08-10 22:57:43   [Narration] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 08-10 22:58:32   [Conjunction] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 08-10 22:58:56   [Voice] review Mind_Map_en.txt: 11 issue(s): - Node E "Rule: S + V1 (base form)" → Active voice has no single rule; tense determines form (e.g., simple presen
@@ -84,4 +81,7 @@
 08-10 23:29:59   [Adverb] written 6, failed 1; AI calls today 325/100000
 08-10 23:29:59 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_06_Adverb after 47 min: todo [] problems []
 08-10 23:29:59 worker 1: nothing left
+08-10 23:34:28   [Narration] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+08-10 23:38:11   [Narration] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+08-10 23:43:11   [Voice] FAILED review PYQ_hi.txt: too_long — the chapter must not be published unreviewed
 ```
