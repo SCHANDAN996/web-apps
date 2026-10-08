@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 08-10-2026 04:30 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:42 AM
+**आख़िरी update:** 08-10-2026 04:45 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:42 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W4 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 21 मिनट |
-| W5 | Chapter 11 Narration (12th English) | ✍️ लिख रहा है | 42 मिनट |
+| W4 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 37 मिनट |
+| W5 | Chapter 11 Narration (12th English) | ✍️ लिख रहा है | 57 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -48,13 +48,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 16:09:44   [Articles] FAILED Practice_en_Set_04.txt: too_long
-08-10 16:09:44   [Articles] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
-08-10 16:10:08   [Adverb] Practice_en_Set_01.txt try 1: rejected (parsed 23 questions, numbers 1…25)
-08-10 16:10:37   [Narration] wrote Feynman_hi.txt (2504 chars)
-08-10 16:11:17   [Narration] wrote Mind_Map_en.txt (2157 chars)
-08-10 16:11:34   [Narration] Mind_Map_hi.txt try 1: rejected (chat debris "Text")
-08-10 16:13:10   [Articles] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 08-10 16:14:53   [Narration] Mind_Map_hi.txt try 2: rejected (corrupted characters)
 08-10 16:14:53   [Narration] REJECTED Mind_Map_hi.txt: corrupted characters — not written
 08-10 16:15:06   [Articles] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
@@ -88,4 +81,11 @@
 08-10 16:27:14   [Adverb] Practice_en_Set_02.txt try 2: rejected (parsed 0 questions, numbers -…-)
 08-10 16:27:29   [Narration] wrote Important_Rules_hi.txt (5806 chars)
 08-10 16:27:47   [Narration] Practice_en_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
+08-10 16:31:08   [Adverb] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+08-10 16:31:14   [Narration] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+08-10 16:32:41   [Adverb] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+08-10 16:33:07   [Narration] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+08-10 16:33:55   [Adverb] Practice_en_Set_04.txt try 1: rejected (Q82:leaked_reasoning)
+08-10 16:37:07   [Narration] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+08-10 16:41:22   [Adverb] Practice_en_Set_04.txt try 2: re-solve disagrees (Q82 key a vs re-solve d, Q97 key d vs re-solve a, Q99 key b vs re-solve ?)
 ```
