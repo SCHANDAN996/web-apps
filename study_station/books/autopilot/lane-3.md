@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 08-10-2026 01:22 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:42 AM
+**आख़िरी update:** 08-10-2026 01:29 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:42 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Noun (12th English) | ✍️ लिख रहा है | 99 मिनट |
-| W2 | Chapter 02 Pronoun (12th English) | ✍️ लिख रहा है | 12 मिनट |
-| W3 | Chapter 03 Adjective (12th English) | 🔎 review हो रहा है | 14 मिनट |
-| W4 | Chapter 04 Verb (12th English) | 📤 push हो रहा है | 0 मिनट |
-| W5 | Chapter 05 Tense (12th English) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 01 Noun (12th English) | ✍️ लिख रहा है | 106 मिनट |
+| W2 | Chapter 02 Pronoun (12th English) | ✍️ लिख रहा है | 18 मिनट |
+| W3 | Chapter 03 Adjective (12th English) | 🔎 review हो रहा है | 21 मिनट |
+| W4 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 6 मिनट |
+| W5 | Chapter 07 Preposition (12th English) | ✍️ लिख रहा है | 6 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -45,15 +45,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 12:58:43   [Noun] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-08-10 12:59:02   [Verb] review Content_hi.txt: 1 issue(s): - Hook claims invented exam statistics (e.g., "Error Spotting के लगभग आधे सवाल", "Fill in the Blanks के एक बड़े हिस
-08-10 13:01:38   [Verb] review Feynman_en.txt: 1 issue(s): - The blurring sheet instruction says "Three words" but lists four items (of, with, along with, as well as) → Chang
-08-10 13:03:59   [Adjective] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-08-10 13:04:08   [Noun] Practice_en_Set_05.txt try 1: re-solve disagrees (Q118 key c vs re-solve a)
-08-10 13:04:51   [Tense] review Feynman_hi.txt: 1 issue(s): - Blurt sheet says “5 शब्द” for Present Perfect but lists 7 words (just, already, yet, ever, never, since, for) → C
-08-10 13:05:19   [Adjective] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-08-10 13:05:19   [Adjective] written 2, failed 0; AI calls today 205/100000
-08-10 13:07:13   [Adjective] repaired Flashcards_hi.txt (8121 chars)
 08-10 13:07:13   [Adjective] written 1, failed 0; AI calls today 210/100000
 08-10 13:07:29   [Verb] review Flashcards_en.txt: 2 issue(s): - Card 3: Invented exam weightage claim "These are the most tested auxiliary verbs in error-spotting" → Remove t
 08-10 13:08:03   [Adjective] repaired Flashcards_hi.txt (2814 chars)
@@ -85,4 +76,13 @@
 08-10 13:22:38   [Pronoun] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 08-10 13:22:38 DONE 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_04_Verb in 34 min → 4b83cf91
 08-10 13:22:38 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_06_Adverb (TODO: todo 26, problems 0)
+08-10 13:22:43 DONE 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_05_Tense in 99 min → 25b69c2d
+08-10 13:22:43 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_07_Preposition (TODO: todo 26, problems 0)
+08-10 13:24:11   [Preposition] wrote Content_en.txt (7717 chars)
+08-10 13:24:14   [Pronoun] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+08-10 13:24:47   [Adverb] wrote Content_en.txt (6877 chars)
+08-10 13:24:48   [Noun] Practice_en_Set_06.txt try 2: re-solve disagrees (Q149 key b vs re-solve d)
+08-10 13:26:52   [Preposition] wrote Content_hi.txt (6652 chars)
+08-10 13:27:00   [Adverb] wrote Content_hi.txt (8460 chars)
+08-10 13:29:12   [Adjective] FAILED review Content_hi.txt: too_long — the chapter must not be published unreviewed
 ```
