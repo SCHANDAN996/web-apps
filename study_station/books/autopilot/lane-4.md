@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 03:47 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 03:50 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Economy Basic (12th GK) | ✍️ लिख रहा है | 7 मिनट |
-| W2 | Chapter 08 World Geography (12th GK) | ✍️ लिख रहा है | 11 मिनट |
-| W3 | Chapter 05 Polity (12th GK) | 🔎 review हो रहा है | 44 मिनट |
-| W4 | Chapter 06 Physical Geography (12th GK) | 🔎 review हो रहा है | 45 मिनट |
-| W5 | Chapter 07 States Rivers (12th GK) | ✍️ लिख रहा है | 46 मिनट |
+| W1 | Chapter 09 Economy Basic (12th GK) | ✍️ लिख रहा है | 10 मिनट |
+| W2 | Chapter 08 World Geography (12th GK) | ✍️ लिख रहा है | 14 मिनट |
+| W3 | Chapter 05 Polity (12th GK) | 📤 push हो रहा है | 0 मिनट |
+| W4 | Chapter 06 Physical Geography (12th GK) | 🔎 review हो रहा है | 47 मिनट |
+| W5 | Chapter 07 States Rivers (12th GK) | ✍️ लिख रहा है | 48 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,6 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 03:50 — 12th GK · Chapter 05 Polity
 - 09-10 03:39 — 12th GK · Chapter 02 Medieval History
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
@@ -43,16 +44,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 03:25:26   [States_Rivers] wrote Feynman_hi.txt (2773 chars)
-09-10 03:25:53   [States_Rivers] wrote Mind_Map.txt (2374 chars)
-09-10 03:27:12   [States_Rivers] wrote Flashcards_en.txt (5042 chars)
-09-10 03:27:15   [States_Rivers] Flashcards_hi.txt try 1: rejected (too short)
-09-10 03:27:45   [Modern_History] Practice_hi_Set_05.txt try 2: rejected (Q123:needs_context)
-09-10 03:28:05   [Physical_Geography] review Key_Facts_hi.txt: 2 issue(s): - Contradictory highest peak entries: "हिमालय की सबसे ऊँची चोटी (भारत में) कंचनजंगा" and later "भारत की सबसे ऊँची
-09-10 03:28:16   [States_Rivers] wrote Flashcards_hi.txt (3448 chars)
-09-10 03:28:25   [States_Rivers] wrote PYQ_en.txt (757 chars)
-09-10 03:30:55   [Modern_History] Practice_hi_Set_05.txt try 3: rejected (Q123:needs_context)
-09-10 03:31:41   [Physical_Geography] review Feynman_en.txt: 1 issue(s): - The claim that the Western Ghats rose because of the India-Asia collision ~50 Ma is incorrect → The Western Ghats
 09-10 03:33:45   [Physical_Geography] review Feynman_hi.txt: 1 issue(s): - माग महीना (सर्दी) → माघ महीना (सर्दी)
 09-10 03:35:39   [Modern_History] Practice_hi_Set_05.txt try 4: rejected (Q123:needs_context)
 09-10 03:35:39   [Modern_History] REJECTED Practice_hi_Set_05.txt: no translation passed the checks — not written
@@ -83,4 +74,14 @@
 09-10 03:46:14   [World_Geography] wrote Flashcards_en.txt (4471 chars)
 09-10 03:46:55   [States_Rivers] PYQ_hi.txt try 1: answer too long — asking for a tighter version
 09-10 03:47:28   [World_Geography] wrote Flashcards_hi.txt (2276 chars)
+09-10 03:48:26   [Economy_Basic] wrote Key_Facts_hi.txt (9298 chars)
+09-10 03:48:35   [Economy_Basic] Feynman_en.txt try 1: rejected (too short)
+09-10 03:48:45   [World_Geography] wrote PYQ_en.txt (8285 chars)
+09-10 03:48:57   [Polity] review Memory_Hooks_hi.txt: 2 issue(s): - Mnemonic 2 for Preamble uses incorrect terms: "सोवरिन" instead of "संप्रभु", "गणतंत्र" instead of "गणराज्य",
+09-10 03:49:12   [States_Rivers] wrote PYQ_hi.txt (7679 chars)
+09-10 03:49:22   [Economy_Basic] wrote Feynman_en.txt (3645 chars)
+09-10 03:49:58   [World_Geography] wrote PYQ_hi.txt (4305 chars)
+09-10 03:50:01   [States_Rivers] wrote Memory_Hooks_en.txt (5200 chars)
+09-10 03:50:04   [Polity] review: 4 section(s) corrected, 0 failed
+09-10 03:50:04   [Polity] written 4, failed 0; AI calls today 100/100000
 ```
