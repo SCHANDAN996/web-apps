@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 03:28 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 03:30 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 03 Adjective (12th English) | 🔎 review हो रहा है | 27 मिनट |
-| W2 | Chapter 06 Adverb (12th English) | 🔎 review हो रहा है | 27 मिनट |
-| W3 | Chapter 08 Conjunction (12th English) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 09 Articles (12th English) | 🔎 review हो रहा है | 27 मिनट |
-| W5 | Chapter 10 Voice (12th English) | 🔎 review हो रहा है | 27 मिनट |
+| W1 | Chapter 03 Adjective (12th English) | 🔎 review हो रहा है | 29 मिनट |
+| W2 | Chapter 06 Adverb (12th English) | 🔎 review हो रहा है | 29 मिनट |
+| W3 | Chapter 11 Narration (12th English) | ✍️ लिख रहा है | 1 मिनट |
+| W4 | Chapter 09 Articles (12th English) | 📤 push हो रहा है | 0 मिनट |
+| W5 | Chapter 10 Voice (12th English) | 🔎 review हो रहा है | 29 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -29,11 +29,12 @@
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 2 | 0 | 26 |
 | Graduation Reasoning | 0 | 0 | 30 |
-| Graduation English | 26 | 0 | 4 |
-| **कुल** | **90** | **13** | **193** |
+| Graduation English | 27 | 0 | 3 |
+| **कुल** | **91** | **13** | **192** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 03:30 — 12th English · Chapter 09 Articles
 - 09-10 03:28 — 12th English · Chapter 08 Conjunction
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
@@ -66,4 +67,11 @@
 09-10 03:26:02   [Articles] review Important_Rules_en.txt: 1 issue(s): - The table claims "12 High-Yield Rules" but is corrupted: only Rule 1 is partially visible (example cut of
 09-10 03:28:47   [Conjunction] review: 2 section(s) corrected, 0 failed
 09-10 03:28:47   [Conjunction] written 2, failed 0; AI calls today 77/100000
+09-10 03:28:59 DONE 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_08_Conjunction in 27 min → e612feed
+09-10 03:29:00 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_11_Narration (TODO: todo 2, problems 2)
+09-10 03:30:04   [Articles] review Important_Rules_hi.txt: 2 issue(s): - Morphology table: root "dict" entry lists derived word "contradicts" with suffix "-s" → "contradicts" is 
+09-10 03:30:22   [Adverb] review Short_Tricks_hi.txt: 1 issue(s): - Trick 15 heading says "तीन पहचानें" but the box lists five identification questions (When, Where, How, How o
+09-10 03:30:36   [Voice] review Important_Rules_hi.txt: 2 issue(s): - Morphology table row 9: 'trans' is a prefix (meaning 'across'), not a root; the root is 'it' (from Latin 
+09-10 03:30:48   [Articles] review: 4 section(s) corrected, 0 failed
+09-10 03:30:48   [Articles] written 4, failed 0; AI calls today 81/100000
 ```

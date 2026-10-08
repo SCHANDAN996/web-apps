@@ -1,0 +1,40 @@
+```mermaid
+graph TD
+    A["Articles<br>a / an / the / zero"] --> B["Indefinite: A / AN"]
+    A --> C["Definite: THE"]
+    A --> D["Zero Article<br>(no article)"]
+
+    B --> B1["A + consonant sound<br>a boy, a university, a one-rupee note"]
+    B --> B2["AN + vowel sound<br>an apple, an hour, an honest man, an MBA"]
+    B --> B3["Used for: first mention,<br>professions, 'per' = a<br>He is a doctor. Rs 50 a kilo."]
+
+    C --> C1["Specific / already mentioned<br>I saw a dog. The dog was black."]
+    C --> C2["Unique things<br>the sun, the moon, the earth"]
+    C --> C3["Superlatives & ordinals<br>the best, the first, the only"]
+    C --> C4["Rivers, oceans, mountain ranges<br>the Ganga, the Pacific, the Himalayas"]
+    C --> C5["Holy books, newspapers<br>the Ramayana, the Times of India"]
+    C --> C6["the + adjective = whole class<br>the rich, the poor, the blind"]
+
+    D --> D1["Plural & uncountable (general sense)<br>Dogs are loyal. Water is life."]
+    D --> D2["Proper nouns<br>India, Ram, Mount Everest"]
+    D --> D3["Languages, subjects, games, meals<br>Hindi, Physics, cricket, lunch"]
+    D --> D4["Fixed phrases<br>go to school / bed / church / prison<br>(as primary purpose)"]
+
+    A --> E["Examiner's Traps"]
+    E --> E1["Sound, not spelling!<br>an hour (silent h) vs a university (yu sound)"]
+    E --> E2["Same noun, two meanings<br>go to school (study) vs go to the school (visit)"]
+    E --> E3["'The' before country names<br>the USA, the UK, the Netherlands — but India, Japan"]
+    E --> E4["Comparative trap<br>the taller of the two (only two!) vs the tallest of all"]
+
+    A --> F["Golden Rules"]
+    F --> F1["Rule 1: Sound decides a/an"]
+    F --> F2["Rule 2: First mention = a/an,<br>second mention = the"]
+    F --> F3["Rule 3: Superlative always takes the"]
+    F --> F4["Rule 4: Musical instruments take the<br>play the guitar"]
+    F --> F5["Rule 5: No article before<br>uncountable nouns in general sense"]
+
+    A --> G["Strategy"]
+    G --> G1["15-sec: direct rule Qs<br>(a/an, superlative, unique things)"]
+    G --> G2["45-sec: sentence with<br>intervening phrases — find the real noun"]
+    G --> G3["Check: countable or uncountable?<br>specific or general?"]
+```
