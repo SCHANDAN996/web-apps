@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 08-10-2026 09:43 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 09:58 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 28 Error Log (Graduation English) | ✍️ लिख रहा है | 11 मिनट |
-| W2 | Chapter 25 Word Roots (Graduation English) | 🔎 review हो रहा है | 1 मिनट |
-| W3 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 167 मिनट |
-| W4 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 167 मिनट |
-| W5 | Chapter 27 Precis Writing (Graduation English) | ✍️ लिख रहा है | 51 मिनट |
+| W1 | Chapter 28 Error Log (Graduation English) | ✍️ लिख रहा है | 26 मिनट |
+| W2 | Chapter 25 Word Roots (Graduation English) | 🔎 review हो रहा है | 16 मिनट |
+| W3 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 182 मिनट |
+| W4 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 182 मिनट |
+| W5 | Chapter 27 Precis Writing (Graduation English) | ✍️ लिख रहा है | 66 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md)
 
@@ -48,16 +48,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 21:28:03   [Critical_Reading] review: 3 section(s) corrected, 1 failed
-08-10 21:28:03   [Critical_Reading] written 3, failed 1; AI calls today 312/100000
-08-10 21:28:03 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_26_Critical_Reading after 115 min: todo [] problems []
-08-10 21:28:05 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_26_Critical_Reading (OK: todo 0, problems 0)
-08-10 21:28:22   [Para_Jumbles_Adv] Practice_en_Set_05.txt try 3: re-solve disagrees (Q110 key c vs re-solve b, Q114 key a vs re-solve c)
-08-10 21:28:26   [Precis_Writing] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-08-10 21:28:59   [Word_Roots] Practice_en_Set_06.txt try 4: re-solve disagrees (Q149 key b vs re-solve ?)
-08-10 21:28:59   [Word_Roots] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
-08-10 21:28:59   [Word_Roots] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-08-10 21:28:59   [Word_Roots] written 22, failed 4; AI calls today 315/100000
 08-10 21:28:59 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_25_Word_Roots after 117 min: todo ['Set 01 en: todo', 'Set 01 hi: todo', 'Set 06 en: todo', 'Set 06 hi: todo'] problems []
 08-10 21:29:01 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_25_Word_Roots (TODO: todo 4, problems 0)
 08-10 21:29:33   [Word_Roots] Practice_en_Set_01.txt try 1: rejected (parsed 7 questions, numbers 1…7)
@@ -88,4 +78,14 @@
 08-10 21:41:54   [Word_Roots] written 4, failed 0; AI calls today 341/100000
 08-10 21:42:58   [Sentence_Arrangement] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 08-10 21:43:21   [Precis_Writing] Practice_en_Set_05.txt try 3: rejected (parsed 22 questions, numbers 101…125)
+08-10 21:48:39   [Para_Jumbles_Adv] Practice_en_Set_06.txt try 1: re-solve disagrees (Q141 key d vs re-solve c, Q142 key b vs re-solve a, Q143 key d vs re-solve c)
+08-10 21:50:06   [Precis_Writing] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+08-10 21:55:07   [Error_Log] Feynman_hi.txt try 1: answer too long — asking for a tighter version
+08-10 21:55:27   [Word_Roots] review Mind_Map_hi.txt: 1 issue(s): - "15/45 सेकंड नियम" (15/45 second rule) presented as a fixed exam rule → remove or label as a suggested personal 
+08-10 21:56:26   [Error_Log] wrote Feynman_hi.txt (4247 chars)
+08-10 21:56:40   [Error_Log] wrote Mind_Map_en.txt (1613 chars)
+08-10 21:56:41   [Sentence_Arrangement] Practice_en_Set_06.txt try 1: re-solve disagrees (Q130 key c vs re-solve a, Q132 key d vs re-solve c, Q134 key c vs re-solve a, Q144 key c vs re-solve
+08-10 21:57:14   [Error_Log] wrote Mind_Map_hi.txt (1381 chars)
+08-10 21:57:53   [Para_Jumbles_Adv] Practice_en_Set_06.txt try 2: re-solve disagrees (Q130 key a vs re-solve b, Q134 key c vs re-solve a)
+08-10 21:58:09   [Error_Log] wrote Flashcards_en.txt (5671 chars)
 ```
