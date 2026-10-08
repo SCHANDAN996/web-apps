@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 08-10-2026 08:28 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 08:43 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 03 Adjective (12th English) | ✍️ लिख रहा है | 92 मिनट |
-| W2 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 91 मिनट |
-| W3 | Chapter 08 Conjunction (12th English) | ✍️ लिख रहा है | 91 मिनट |
-| W4 | Chapter 09 Articles (12th English) | ✍️ लिख रहा है | 91 मिनट |
-| W5 | Chapter 10 Voice (12th English) | ✍️ लिख रहा है | 91 मिनट |
+| W1 | Chapter 03 Adjective (12th English) | ✍️ लिख रहा है | 107 मिनट |
+| W2 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 107 मिनट |
+| W3 | Chapter 08 Conjunction (12th English) | ✍️ लिख रहा है | 106 मिनट |
+| W4 | Chapter 09 Articles (12th English) | ✍️ लिख रहा है | 106 मिनट |
+| W5 | Chapter 10 Voice (12th English) | ✍️ लिख रहा है | 106 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,17 +39,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 19:49:07   [Adjective] wrote Short_Tricks_hi.txt (6049 chars)
-08-10 19:49:13   [Conjunction] wrote Short_Tricks_hi.txt (3485 chars)
-08-10 19:50:45   [Articles] wrote Short_Tricks_hi.txt (5699 chars)
-08-10 19:51:16   [Adverb] Important_Rules_hi.txt try 2: rejected (corrupted characters)
-08-10 19:51:16   [Adverb] REJECTED Important_Rules_hi.txt: corrupted characters — not written
-08-10 19:52:12   [Conjunction] wrote Important_Rules_en.txt (4606 chars)
-08-10 19:52:58   [Voice] wrote Mind_Map_en.txt (5088 chars)
-08-10 19:55:06   [Adjective] wrote Important_Rules_en.txt (5089 chars)
-08-10 19:55:27   [Voice] wrote Mind_Map_hi.txt (1602 chars)
-08-10 19:55:46   [Articles] wrote Important_Rules_en.txt (5048 chars)
-08-10 19:57:13   [Adverb] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 08-10 19:58:24   [Adjective] wrote Important_Rules_hi.txt (4992 chars)
 08-10 19:59:02   [Adverb] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
 08-10 19:59:18   [Voice] wrote Flashcards_en.txt (4548 chars)
@@ -79,4 +68,15 @@
 08-10 20:24:58   [Articles] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 08-10 20:25:02   [Adjective] Practice_en_Set_02.txt try 1: rejected (parsed 3 questions, numbers 26…28)
 08-10 20:28:19   [Conjunction] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+08-10 20:29:22   [Adjective] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+08-10 20:32:12   [Adverb] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+08-10 20:33:03   [Adjective] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+08-10 20:34:53   [Voice] Important_Rules_en.txt try 1: answer too long — asking for a tighter version
+08-10 20:35:12   [Articles] Practice_en_Set_02.txt try 1: re-solve disagrees (Q45 key a vs re-solve d)
+08-10 20:36:33   [Conjunction] Practice_en_Set_03.txt try 1: re-solve disagrees (Q68 key c vs re-solve a)
+08-10 20:36:50   [Adverb] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+08-10 20:39:05   [Voice] wrote Important_Rules_en.txt (4833 chars)
+08-10 20:40:10   [Adjective] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+08-10 20:41:20   [Articles] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+08-10 20:41:41   [Voice] wrote Important_Rules_hi.txt (3377 chars)
 ```
