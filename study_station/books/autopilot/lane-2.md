@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 08-10-2026 04:31 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
+**आख़िरी update:** 08-10-2026 04:46 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 States Rivers (Graduation GK) | ✍️ लिख रहा है | 66 मिनट |
-| W2 | Chapter 08 World Geography (Graduation GK) | ✍️ लिख रहा है | 65 मिनट |
-| W3 | Chapter 09 Economy Basic (Graduation GK) | ✍️ लिख रहा है | 26 मिनट |
-| W4 | Chapter 06 Physical Geography (Graduation GK) | ✍️ लिख रहा है | 91 मिनट |
-| W5 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 68 मिनट |
+| W1 | Chapter 07 States Rivers (Graduation GK) | ✍️ लिख रहा है | 81 मिनट |
+| W2 | Chapter 08 World Geography (Graduation GK) | ✍️ लिख रहा है | 80 मिनट |
+| W3 | Chapter 09 Economy Basic (Graduation GK) | ✍️ लिख रहा है | 41 मिनट |
+| W4 | Chapter 06 Physical Geography (Graduation GK) | ✍️ लिख रहा है | 106 मिनट |
+| W5 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 83 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -46,14 +46,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 15:48:00   [World_Geography] wrote Content_hi.txt (12318 chars)
-08-10 15:48:13   [Modern_History] Practice_en_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
-08-10 15:50:13   [States_Rivers] Content_hi.txt try 1: answer too long — asking for a tighter version
-08-10 15:53:24   [World_Geography] wrote Key_Facts_en.txt (11286 chars)
-08-10 15:55:03   [Modern_History] Practice_en_Set_05.txt try 2: rejected (Q107:answer_solution_conflict)
-08-10 15:55:45   [States_Rivers] Content_hi.txt try 2: rejected (corrupted characters)
-08-10 15:55:45   [States_Rivers] REJECTED Content_hi.txt: corrupted characters — not written
-08-10 15:56:01   [Polity] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 08-10 16:00:44   [States_Rivers] Key_Facts_en.txt try 1: rejected (corrupted characters)
 08-10 16:03:22   [World_Geography] wrote Key_Facts_hi.txt (6457 chars)
 08-10 16:03:41   [Physical_Geography] Key_Facts_hi.txt try 1: answer too long — asking for a tighter version
@@ -86,4 +78,12 @@
 08-10 16:27:37   [Physical_Geography] wrote Feynman_hi.txt (2361 chars)
 08-10 16:29:41   [States_Rivers] wrote Flashcards_en.txt (4637 chars)
 08-10 16:30:53   [Polity] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+08-10 16:31:40   [Physical_Geography] wrote Mind_Map.txt (2736 chars)
+08-10 16:34:05   [States_Rivers] wrote Flashcards_hi.txt (3954 chars)
+08-10 16:35:50   [Physical_Geography] wrote Flashcards_en.txt (5347 chars)
+08-10 16:39:03   [States_Rivers] wrote PYQ_en.txt (10097 chars)
+08-10 16:39:05   [Polity] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+08-10 16:40:26   [Physical_Geography] wrote Flashcards_hi.txt (2212 chars)
+08-10 16:43:46   [States_Rivers] wrote PYQ_hi.txt (7779 chars)
+08-10 16:45:05   [World_Geography] wrote Flashcards_en.txt (5001 chars)
 ```
