@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 08-10-2026 03:30 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
+**आख़िरी update:** 08-10-2026 03:45 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Economy Basic (12th GK) | ✍️ लिख रहा है | 76 मिनट |
-| W2 | Chapter 06 Physical Geography (12th GK) | ✍️ लिख रहा है | 134 मिनट |
-| W3 | Chapter 08 World Geography (12th GK) | ✍️ लिख रहा है | 83 मिनट |
-| W4 | Chapter 07 States Rivers (12th GK) | ✍️ लिख रहा है | 90 मिनट |
-| W5 | Chapter 10 Physics Daily (12th GK) | ✍️ लिख रहा है | 24 मिनट |
+| W1 | Chapter 09 Economy Basic (12th GK) | ✍️ लिख रहा है | 91 मिनट |
+| W2 | Chapter 06 Physical Geography (12th GK) | ✍️ लिख रहा है | 7 मिनट |
+| W3 | Chapter 08 World Geography (12th GK) | 🔎 review हो रहा है | 7 मिनट |
+| W4 | Chapter 07 States Rivers (12th GK) | ✍️ लिख रहा है | 105 मिनट |
+| W5 | Chapter 10 Physics Daily (12th GK) | ✍️ लिख रहा है | 40 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -23,14 +23,14 @@
 | 10th Maths | 9 | 13 | 0 |
 | 10th English | 0 | 0 | 20 |
 | 12th Maths | 0 | 0 | 23 |
-| 12th GK | 1 | 0 | 23 |
+| 12th GK | 2 | 0 | 22 |
 | 12th Reasoning | 0 | 0 | 25 |
 | 12th English | 4 | 0 | 21 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 1 | 0 | 27 |
 | Graduation Reasoning | 0 | 0 | 30 |
 | Graduation English | 19 | 2 | 9 |
-| **कुल** | **75** | **15** | **206** |
+| **कुल** | **76** | **15** | **205** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -42,29 +42,11 @@
 - Chapter 04 Constitution Basic (GK) — 2 बार
 - Chapter 03 Modern History (GK) — 2 बार
 - Chapter 05 Polity (GK) — 2 बार
+- Chapter 06 Physical Geography (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 15:06:54   [States_Rivers] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-08-10 15:07:50   [Physics_Daily] wrote Content_en.txt (13792 chars)
-08-10 15:07:57   [Economy_Basic] Practice_en_Set_01.txt try 2: rejected (Q10:answer_solution_conflict)
-08-10 15:08:44   [World_Geography] Practice_en_Set_05.txt try 1: re-solve disagrees (Q120 key a vs re-solve c, Q125 key b vs re-solve c)
-08-10 15:08:45   [Physical_Geography] Practice_en_Set_04.txt try 1: re-solve disagrees (Q77 key d vs re-solve c, Q78 key b vs re-solve c)
-08-10 15:10:00   [Physical_Geography] Practice_en_Set_04.txt try 2: rejected (parsed 0 questions, numbers -…-)
-08-10 15:10:16   [Physics_Daily] wrote Content_hi.txt (9328 chars)
-08-10 15:11:17   [World_Geography] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-08-10 15:11:20   [States_Rivers] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-08-10 15:12:22   [Physical_Geography] Practice_en_Set_04.txt try 3: rejected (Q84:leaked_reasoning)
-08-10 15:12:22   [Physical_Geography] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
-08-10 15:12:22   [Physical_Geography] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
-08-10 15:12:23   [Physics_Daily] wrote Key_Facts_en.txt (17676 chars)
-08-10 15:12:33   [States_Rivers] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
-08-10 15:14:19   [World_Geography] Practice_hi_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
-08-10 15:14:51   [Physics_Daily] wrote Key_Facts_hi.txt (8383 chars)
-08-10 15:15:02   [World_Geography] Practice_hi_Set_05.txt try 2: rejected (parsed 0 questions, numbers -…-)
-08-10 15:16:11   [Physics_Daily] wrote Feynman_en.txt (3253 chars)
-08-10 15:17:08   [Physics_Daily] wrote Feynman_hi.txt (2708 chars)
 08-10 15:17:20   [Physical_Geography] Practice_en_Set_05.txt try 1: re-solve disagrees (Q115 key d vs re-solve c, Q120 key d vs re-solve a)
 08-10 15:17:35   [World_Geography] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 08-10 15:17:56   [Physics_Daily] wrote Mind_Map.txt (2752 chars)
@@ -86,4 +68,23 @@
 08-10 15:29:11   [Physics_Daily] wrote Memory_Hooks_hi.txt (4177 chars)
 08-10 15:29:46   [Physics_Daily] Practice_en_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
 08-10 15:30:30   [Economy_Basic] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+08-10 15:32:50   [Economy_Basic] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+08-10 15:33:03   [Economy_Basic] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
+08-10 15:33:16   [Physics_Daily] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+08-10 15:34:24   [Physics_Daily] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
+08-10 15:34:29   [Physical_Geography] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+08-10 15:34:43   [Economy_Basic] Practice_en_Set_03.txt try 2: rejected (Q64:answer_solution_conflict,Q70:answer_solution_conflict)
+08-10 15:36:34   [World_Geography] Practice_hi_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
+08-10 15:36:42   [Physics_Daily] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+08-10 15:37:31   [States_Rivers] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+08-10 15:38:15   [Physical_Geography] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+08-10 15:38:15   [Physical_Geography] written 23, failed 2; AI calls today 397/100000
+08-10 15:38:16 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_06_Physical_Geography after 142 min: todo ['Set 04 en: todo', 'Set 04 hi: todo'] problems []
+08-10 15:38:16 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_06_Physical_Geography (TODO: todo 2, problems 0)
+08-10 15:38:46   [World_Geography] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+08-10 15:38:46   [World_Geography] written 25, failed 0; AI calls today 398/100000
+08-10 15:39:39   [States_Rivers] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+08-10 15:39:47   [Physics_Daily] Practice_en_Set_02.txt try 1: re-solve disagrees (Q29 key a vs re-solve b)
+08-10 15:44:10   [Physics_Daily] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+08-10 15:45:28   [States_Rivers] Practice_en_Set_03.txt try 1: re-solve disagrees (Q72 key a vs re-solve b)
 ```
