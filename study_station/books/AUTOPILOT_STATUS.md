@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 08-10-2026 08:49 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 08:48 AM
+**आख़िरी update:** 08-10-2026 08:56 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 08:48 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 17 Spelling (Graduation English) | 🔧 सुधार रहा है | 0 मिनट |
-| W2 | Chapter 18 Error Spotting Adv (Graduation English) | 🔧 सुधार रहा है | 0 मिनट |
-| W3 | Chapter 19 Fill in Blanks Adv (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
-| W4 | Chapter 20 Sentence Improvement Adv (Graduation English) | 🔎 review हो रहा है | 0 मिनट |
+| W1 | Chapter 17 Spelling (Graduation English) | 🔎 review हो रहा है | 4 मिनट |
+| W2 | Chapter 18 Error Spotting Adv (Graduation English) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 19 Fill in Blanks Adv (Graduation English) | ✍️ लिख रहा है | 8 मिनट |
+| W4 | Chapter 20 Sentence Improvement Adv (Graduation English) | 🔎 review हो रहा है | 8 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -28,11 +28,12 @@
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 0 | 0 | 28 |
 | Graduation Reasoning | 0 | 0 | 30 |
-| Graduation English | 17 | 2 | 11 |
-| **कुल** | **67** | **15** | **214** |
+| Graduation English | 19 | 0 | 11 |
+| **कुल** | **69** | **13** | **214** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 08-10 08:56 — Graduation English · Chapter 18 Error Spotting Adv
 - 07-10 11:28 — Graduation English · Chapter 16 Idioms Phrases
 - 07-10 11:06 — Graduation English · Chapter 15 One Word Substitution
 - 06-10 14:08 — Graduation English · Chapter 12 Sentence Structure
@@ -47,26 +48,14 @@
 - 06-10 02:05 — Graduation English · Chapter 02 Pronoun
 - 06-10 02:04 — Graduation English · Chapter 06 Adverb
 - 06-10 01:49 — Graduation English · Chapter 03 Adjective
-- 05-10 22:04 — Graduation English · Chapter 01 Noun
+
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 17 Spelling (English) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-07-10 12:17:29   [Idioms_Phrases] review: 2 section(s) corrected, 1 failed
-07-10 12:17:29   [Idioms_Phrases] written 2, failed 1; AI calls today 196/100000
-07-10 12:17:29 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_16_Idioms_Phrases after 18 min: todo [] problems []
-07-10 12:17:30 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_16_Idioms_Phrases (OK: todo 0, problems 0)
-07-10 12:18:14   [Sentence_Improvement_Adv] Practice_en_Set_04.txt try 1: re-solve disagrees (Q83 key c vs re-solve a, Q95 key a vs re-solve c)
-07-10 12:18:17   [Fill_in_Blanks_Adv] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-07-10 12:20:09   [Fill_in_Blanks_Adv] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-07-10 12:20:17   [Error_Spotting_Adv] review Short_Tricks_hi.txt: 1 issue(s): - Trick 1: "Scissors" is listed as a word taking a singular verb, but "scissors" is a plural noun (takes plura
-07-10 12:22:17   [Sentence_Improvement_Adv] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-07-10 12:22:28   [Idioms_Phrases] review: 0 section(s) corrected, 0 failed
-07-10 12:22:28   [Idioms_Phrases] written 0, failed 0; AI calls today 214/100000
-07-10 12:22:29 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_16_Idioms_Phrases after 5 min: todo [] problems ['Short_Tricks_hi.txt: Hindi file is mostly not in Hindi']
-07-10 12:22:29 worker 2: nothing left
-07-10 12:23:18   [Fill_in_Blanks_Adv] Practice_en_Set_06.txt try 1: re-solve disagrees (Q144 key b vs re-solve a)
-07-10 12:23:46   [Sentence_Improvement_Adv] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 07-10 12:25:04   [Error_Spotting_Adv] review Important_Rules_hi.txt: 1 issue(s): - Morphology table column header 'प्रत्यय' incorrectly labels prefixes (pre-, contra-, in-, retro-, trans-,
 07-10 12:25:17   [Error_Spotting_Adv] review: 9 section(s) corrected, 0 failed
 07-10 12:25:17   [Error_Spotting_Adv] written 9, failed 0; AI calls today 222/100000
@@ -92,4 +81,19 @@
 08-10 08:48:35 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_20_Sentence_Improvement_Adv (OK: todo 0, problems 0)
 08-10 08:49:04   [Spelling] repaired Important_Rules_hi.txt (1189 chars)
 08-10 08:49:04   [Spelling] written 1, failed 0; AI calls today 4/100000
+08-10 08:50:07   [Error_Spotting_Adv] repaired Flashcards_hi.txt (2970 chars)
+08-10 08:50:16   [Spelling] repaired Important_Rules_hi.txt (2059 chars)
+08-10 08:50:16   [Spelling] written 1, failed 0; AI calls today 6/100000
+08-10 08:50:16 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_17_Spelling after 2 min: todo [] problems ['Important_Rules_hi.txt: Hindi file is mostly not in Hindi']
+08-10 08:50:17 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_17_Spelling (FIX: todo 0, problems 1)
+08-10 08:52:05   [Spelling] repaired Important_Rules_hi.txt (4696 chars)
+08-10 08:52:05   [Spelling] written 1, failed 0; AI calls today 9/100000
+08-10 08:52:30   [Fill_in_Blanks_Adv] Practice_en_Set_04.txt try 1: re-solve disagrees (Q88 key d vs re-solve c)
+08-10 08:52:40   [Error_Spotting_Adv] repaired Important_Rules_hi.txt (5814 chars)
+08-10 08:52:40   [Error_Spotting_Adv] written 2, failed 0; AI calls today 11/100000
+08-10 08:53:01   [Sentence_Improvement_Adv] review Content_hi.txt: 2 issue(s): - The claim "SSC CGL और IBPS PO में अंग्रेज़ी खंड का लगभग एक-तिहाई हिस्सा सीधे या अप्रत्यक्ष रूप से 'वाक्य सुधार' प
+08-10 08:54:28   [Error_Spotting_Adv] review Flashcards_hi.txt: 3 issue(s): - Card 6 back side states "K2/गॉडविन ऑस्टिन भारत-प्रशासित क्षेत्र में है" → K2 lies in Pakistan-administered Gil
+08-10 08:55:32   [Spelling] review Short_Tricks_hi.txt: 1 issue(s): - The claim "SSC में 0.25 अंक" is inaccurate for major SSC exams (CGL, CHSL have 0.5 marks negative marking); 
+08-10 08:56:48   [Error_Spotting_Adv] review: 1 section(s) corrected, 0 failed
+08-10 08:56:48   [Error_Spotting_Adv] written 1, failed 0; AI calls today 18/100000
 ```

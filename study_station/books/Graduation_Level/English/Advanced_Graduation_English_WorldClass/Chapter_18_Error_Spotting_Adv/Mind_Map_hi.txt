@@ -1,0 +1,38 @@
+```mermaid
+graph TD
+    A["त्रुटि पहचान (उन्नत)<br>Error Spotting"] --> B["मुख्य त्रुटि-क्षेत्र"]
+    A --> C["परीक्षक के जाल"]
+    A --> D["रणनीति"]
+    A --> E["6 स्वर्ण नियम"]
+
+    B --> B1["कर्ता-क्रिया सामंजस्य<br>Subject-Verb Agreement"]
+    B --> B2["काल (Tense) की गड़बड़ी"]
+    B --> B3["सर्वनाम का संदर्भ<br>Pronoun Reference"]
+    B --> B4["पूर्वसर्ग (Preposition)"]
+    B --> B5["Article: a / an / the"]
+    B --> B6["Parallel Structure"]
+    B --> B7["Modifier की गलत जगह<br>Dangling / Misplaced"]
+
+    B1 --> B1a["Intervening Phrase जाल:<br>कर्ता और क्रिया के बीच<br>लंबा वाक्यांश"]
+    B1 --> B1b["Collective Noun:<br>एक इकाई = एकवचन क्रिया"]
+
+    C --> C1["Sound-Right जाल:<br>कान को सही लगे<br>पर व्याकरण में गलत"]
+    C --> C2["Over-thinking जाल:<br>सही वाक्य को गलत मानना"]
+    C --> C3["No Error विकल्प:<br>घबराएँ नहीं, जाँचें"]
+    C --> C4["मिलते-जुलते शब्द:<br>advice/advise, principal/principle"]
+
+    D --> D1["15 सेकंड नियम:<br>तथ्यात्मक प्रश्न —<br>agreement, article, tense"]
+    D --> D2["45 सेकंड नियम:<br>तार्किक प्रश्न —<br>modifier, parallelism, टोन"]
+    D --> D3["Skip Strategy:<br>2 बार पढ़कर भी संदेह<br>तो छोड़ें, बाद में आएँ"]
+    D --> D4["हर भाग अलग जाँचें:<br>कर्ता → क्रिया → object → modifier"]
+
+    E --> E1["Each / Every / Neither<br>+ एकवचन क्रिया"]
+    E --> E2["One of + बहुवचन संज्ञा<br>+ एकवचन क्रिया"]
+    E --> E3["Neither...nor:<br>क्रिया निकटतम कर्ता के अनुसार"]
+    E --> E4["Since + समय-बिंदु<br>For + समय-अवधि"]
+    E --> E5["Comparative में than<br>Superlative में the"]
+    E --> E6["Hardly/Scarcely + when<br>No sooner + than"]
+
+    D1 --> F["लक्ष्य: सटीकता पहले,<br>गति बाद में"]
+    D2 --> F
+```
