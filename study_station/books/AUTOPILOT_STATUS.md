@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 08-10-2026 10:57 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 09:41 AM
+**आख़िरी update:** 08-10-2026 11:12 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 09:41 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,12 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 28 Error Log (Graduation English) | ✍️ लिख रहा है | 1 मिनट |
-| W2 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 76 मिनट |
-| W3 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 76 मिनट |
-| W4 | Chapter 27 Precis Writing (Graduation English) | ✍️ लिख रहा है | 21 मिनट |
-| W5 | Chapter 25 Word Roots (Graduation English) | ✍️ लिख रहा है | 76 मिनट |
-| W6 | Chapter 26 Critical Reading (Graduation English) | ✍️ लिख रहा है | 76 मिनट |
+| W1 | Chapter 28 Error Log (Graduation English) | ✍️ लिख रहा है | 16 मिनट |
+| W2 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 91 मिनट |
+| W3 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 2 मिनट |
+| W4 | Chapter 27 Precis Writing (Graduation English) | ✍️ लिख रहा है | 36 मिनट |
+| W5 | Chapter 25 Word Roots (Graduation English) | ✍️ लिख रहा है | 91 मिनट |
+| W6 | Chapter 26 Critical Reading (Graduation English) | ✍️ लिख रहा है | 4 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -54,48 +54,50 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 24 RC Adv (English) — 2 बार
+- Chapter 26 Critical Reading (English) — 1 बार
+- Chapter 23 Sentence Arrangement (English) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 10:36:10 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_27_Precis_Writing (TODO: todo 26, problems 1)
-08-10 10:36:36   [Cloze_Test_Adv] repaired Flashcards_en.txt (6241 chars)
-08-10 10:37:41   [Precis_Writing] wrote Content_en.txt (10379 chars)
-08-10 10:38:16   [Cloze_Test_Adv] repaired Flashcards_hi.txt (4784 chars)
-08-10 10:38:31   [Sentence_Arrangement] Practice_en_Set_03.txt try 2: re-solve disagrees (Q51 key a vs re-solve c, Q53 key b vs re-solve d, Q54 key b vs re-solve a, Q56 key d vs re-solve a, 
-08-10 10:38:34   [Critical_Reading] FAILED Practice_en_Set_01.txt: too_long
-08-10 10:38:34   [Critical_Reading] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
-08-10 10:38:42   [Cloze_Test_Adv] REJECTED PYQ_en.txt: too short — not written
-08-10 10:38:42   [Cloze_Test_Adv] written 2, failed 1; AI calls today 241/100000
-08-10 10:39:45   [Precis_Writing] wrote Content_hi.txt (6577 chars)
-08-10 10:40:37   [Precis_Writing] wrote Feynman_en.txt (3507 chars)
-08-10 10:41:30   [Critical_Reading] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-08-10 10:42:10   [Precis_Writing] wrote Feynman_hi.txt (2629 chars)
-08-10 10:42:34   [Cloze_Test_Adv] review Content_en.txt: 1 issue(s): - The Hindi-English bridge table lists "It is not conducive to me" as a correct translation for "यह मेरे अनुकूल नही
-08-10 10:42:48   [Precis_Writing] wrote Mind_Map_en.txt (1859 chars)
-08-10 10:43:49   [Critical_Reading] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-08-10 10:44:45   [Sentence_Arrangement] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-08-10 10:47:12   [Cloze_Test_Adv] review PYQ_en.txt: 13 issue(s): - "Ccloze tests" → "Cloze tests"
-08-10 10:47:12   [Critical_Reading] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-08-10 10:48:04   [Sentence_Arrangement] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-08-10 10:48:42   [Critical_Reading] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-08-10 10:48:43   [Para_Jumbles_Adv] FAILED Practice_en_Set_04.txt: too_long
-08-10 10:48:43   [Para_Jumbles_Adv] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
-08-10 10:50:07   [Sentence_Arrangement] Practice_en_Set_04.txt try 1: rejected (Q96:leaked_reasoning)
-08-10 10:51:08   [Para_Jumbles_Adv] Practice_en_Set_05.txt try 1: rejected (Q103:duplicate_options)
-08-10 10:51:31   [Word_Roots] FAILED Practice_en_Set_01.txt: too_long
-08-10 10:51:31   [Word_Roots] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
-08-10 10:51:40   [Cloze_Test_Adv] review Short_Tricks_en.txt: 3 issue(s): - Invented statistic "60% of cloze errors happen because students fill blank 1 before knowing the passage's to
-08-10 10:52:39   [Critical_Reading] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-08-10 10:53:24   [Sentence_Arrangement] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-08-10 10:53:29   [Word_Roots] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-08-10 10:53:37   [Sentence_Arrangement] Practice_hi_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
-08-10 10:55:16   [Sentence_Arrangement] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-08-10 10:55:26   [Word_Roots] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-08-10 10:55:26   [Critical_Reading] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-08-10 10:55:39   [Cloze_Test_Adv] review: 3 section(s) corrected, 0 failed
-08-10 10:55:39   [Cloze_Test_Adv] written 3, failed 0; AI calls today 284/100000
-08-10 10:55:47 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_21_Cloze_Test_Adv in 75 min → dbd7a97
-08-10 10:55:48 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_28_Error_Log (TODO: todo 26, problems 1)
-08-10 10:57:31   [Error_Log] wrote Content_en.txt (7046 chars)
+08-10 11:00:02   [Error_Log] wrote Mind_Map_en.txt (1406 chars)
+08-10 11:00:29   [Error_Log] wrote Mind_Map_hi.txt (1337 chars)
+08-10 11:00:38   [Precis_Writing] wrote Flashcards_hi.txt (4530 chars)
+08-10 11:00:50   [Word_Roots] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+08-10 11:01:02   [Critical_Reading] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+08-10 11:01:17   [Error_Log] wrote Flashcards_en.txt (3641 chars)
+08-10 11:01:32   [Sentence_Arrangement] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+08-10 11:01:41   [Precis_Writing] PYQ_en.txt try 1: rejected (corrupted characters)
+08-10 11:02:55   [Precis_Writing] wrote PYQ_en.txt (7820 chars)
+08-10 11:03:03   [Sentence_Arrangement] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+08-10 11:03:50   [Error_Log] wrote Flashcards_hi.txt (5352 chars)
+08-10 11:03:59   [Word_Roots] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+08-10 11:04:01   [Para_Jumbles_Adv] Practice_en_Set_05.txt try 2: re-solve disagrees (Q101 key c vs re-solve a, Q106 key a vs re-solve b, Q107 key d vs re-solve c, Q108 key d vs re-solve
+08-10 11:04:41   [Sentence_Arrangement] Practice_en_Set_06.txt try 1: rejected (Q139:leaked_reasoning)
+08-10 11:04:47   [Word_Roots] Practice_hi_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
+08-10 11:04:53   [Precis_Writing] wrote PYQ_hi.txt (6970 chars)
+08-10 11:05:05   [Error_Log] wrote PYQ_en.txt (6519 chars)
+08-10 11:05:57   [Precis_Writing] wrote Short_Tricks_en.txt (6758 chars)
+08-10 11:06:08   [Critical_Reading] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+08-10 11:06:59   [Error_Log] wrote PYQ_hi.txt (6110 chars)
+08-10 11:07:47   [Error_Log] wrote Short_Tricks_en.txt (4335 chars)
+08-10 11:07:52   [Precis_Writing] wrote Short_Tricks_hi.txt (5407 chars)
+08-10 11:08:12   [Sentence_Arrangement] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+08-10 11:08:13   [Critical_Reading] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+08-10 11:08:13   [Critical_Reading] written 24, failed 2; AI calls today 322/100000
+08-10 11:08:13 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_26_Critical_Reading after 87 min: todo ['Set 01 en: todo', 'Set 01 hi: todo'] problems ['Feynman_hi.txt: Hindi file is mostly not in Hindi', "chapter.json: topic '' is not a catalog topic (app/catalog.p"]
+08-10 11:08:15 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_26_Critical_Reading (TODO: todo 2, problems 2)
+08-10 11:08:31   [Word_Roots] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+08-10 11:08:47   [Precis_Writing] wrote Important_Rules_en.txt (6732 chars)
+08-10 11:08:47   [Error_Log] wrote Short_Tricks_hi.txt (4554 chars)
+08-10 11:09:03   [Error_Log] wrote Important_Rules_en.txt (673 chars)
+08-10 11:10:26   [Critical_Reading] Practice_en_Set_01.txt try 1: rejected (parsed 23 questions, numbers 1…25)
+08-10 11:10:28   [Precis_Writing] wrote Important_Rules_hi.txt (3836 chars)
+08-10 11:10:29   [Sentence_Arrangement] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+08-10 11:10:29   [Sentence_Arrangement] written 12, failed 2; AI calls today 331/100000
+08-10 11:10:29 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_23_Sentence_Arrangement after 89 min: todo ['Set 02 en: todo', 'Set 02 hi: todo'] problems ['Content_hi.txt: much shorter than the English section (879 v', 'Important_Rules_hi.txt: Hindi file is mostly not in Hindi', 'Important_Rules_hi.txt: much shorter than the English sectio', "chapter.json: topic '' is not a catalog topic (app/catalog.p"]
+08-10 11:10:31 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_23_Sentence_Arrangement (TODO: todo 2, problems 4)
+08-10 11:10:42   [Word_Roots] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+08-10 11:11:45   [Precis_Writing] Practice_en_Set_01.txt try 1: rejected (parsed 23 questions, numbers 1…25)
+08-10 11:12:23   [Critical_Reading] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 ```
