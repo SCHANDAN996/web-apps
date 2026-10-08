@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 08-10-2026 02:29 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:42 AM
+**आख़िरी update:** 08-10-2026 02:31 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:42 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Noun (12th English) | 🔎 review हो रहा है | 48 मिनट |
-| W2 | Chapter 09 Articles (12th English) | ✍️ लिख रहा है | 8 मिनट |
-| W3 | Chapter 08 Conjunction (12th English) | ✍️ लिख रहा है | 31 मिनट |
-| W4 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 67 मिनट |
-| W5 | Chapter 07 Preposition (12th English) | ✍️ लिख रहा है | 67 मिनट |
+| W1 | Chapter 01 Noun (12th English) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 09 Articles (12th English) | ✍️ लिख रहा है | 9 मिनट |
+| W3 | Chapter 08 Conjunction (12th English) | ✍️ लिख रहा है | 33 मिनट |
+| W4 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 68 मिनट |
+| W5 | Chapter 07 Preposition (12th English) | ✍️ लिख रहा है | 68 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,6 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 08-10 14:31 — 12th English · Chapter 01 Noun
 - 08-10 14:21 — 12th English · Chapter 02 Pronoun
 - 08-10 13:22 — 12th English · Chapter 04 Verb
 - 08-10 13:22 — 12th English · Chapter 05 Tense
@@ -46,12 +47,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 14:02:45   [Pronoun] review Flashcards_en.txt: 30 issue(s): - First set Card 11: "Which pronoun is used for a boy?" answer "It" → should be "he"
-08-10 14:03:10   [Conjunction] wrote Feynman_hi.txt (2252 chars)
-08-10 14:03:30   [Adverb] FAILED Mind_Map_hi.txt: too_long
-08-10 14:03:58   [Adverb] wrote Flashcards_en.txt (4011 chars)
-08-10 14:04:05   [Conjunction] wrote Mind_Map_en.txt (3783 chars)
-08-10 14:04:27   [Noun] review Mind_Map_hi.txt: 1 issue(s): - E3 lists "news" under "सदा बहुवचन" (always plural) → "news" is a singular uncountable noun; it should not be in 
 08-10 14:04:31   [Conjunction] wrote Mind_Map_hi.txt (1537 chars)
 08-10 14:04:46   [Adverb] wrote Flashcards_hi.txt (4359 chars)
 08-10 14:04:58   [Adverb] PYQ_en.txt try 1: rejected (chat debris "Text")
@@ -86,4 +81,10 @@
 08-10 14:27:29   [Articles] wrote Feynman_en.txt (3043 chars)
 08-10 14:28:16   [Articles] wrote Feynman_hi.txt (2263 chars)
 08-10 14:28:43   [Adverb] wrote Important_Rules_en.txt (4276 chars)
+08-10 14:29:49   [Preposition] Practice_en_Set_02.txt try 2: re-solve disagrees (Q41 key b vs re-solve a)
+08-10 14:29:59   [Adverb] wrote Important_Rules_hi.txt (4608 chars)
+08-10 14:30:34   [Noun] review Important_Rules_hi.txt: 1 issue(s): - Rule 9 claims "people" always takes a plural verb → "people" can be singular when meaning "a nation/ethni
+08-10 14:30:48   [Conjunction] FAILED Short_Tricks_hi.txt: too_long
+08-10 14:31:24   [Noun] review: 6 section(s) corrected, 0 failed
+08-10 14:31:24   [Noun] written 6, failed 0; AI calls today 380/100000
 ```
