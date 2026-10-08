@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 12:15 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 09-10-2026 03:01 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W5 | Chapter 07 States Rivers (Graduation GK) | ✍️ लिख रहा है | 79 मिनट |
+| W1 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 0 मिनट |
+| W2 | Chapter 03 Modern History (Graduation GK) | 🔎 review हो रहा है | 0 मिनट |
+| W3 | Chapter 04 Constitution Basic (Graduation GK) | 🔎 review हो रहा है | 0 मिनट |
+| W4 | Chapter 06 Physical Geography (Graduation GK) | 🔎 review हो रहा है | 0 मिनट |
+| W5 | Chapter 07 States Rivers (Graduation GK) | ✍️ लिख रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -30,56 +34,15 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- 08-10 23:17 — Graduation GK · Chapter 05 Polity
-
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 06 Physical Geography (GK) — 2 बार
-- Chapter 04 Constitution Basic (GK) — 2 बार
-- Chapter 02 Medieval History (GK) — 2 बार
-- Chapter 03 Modern History (GK) — 1 बार
+- अभी कोई नहीं
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 23:00:38   [Polity] review Flashcards_hi.txt: 1 issue(s): - कार्ड 8 में दावा है कि राज्यपाल की नियुक्ति और राज्यसभा नामांकन भी आयरिश संविधान से लिए गए हैं → केवल DPSP और 
-08-10 23:01:36   [States_Rivers] wrote Content_hi.txt (9595 chars)
-08-10 23:01:51   [States_Rivers] wrote Key_Facts_en.txt (1157 chars)
-08-10 23:04:51   [States_Rivers] wrote Key_Facts_hi.txt (8371 chars)
-08-10 23:05:16   [States_Rivers] Feynman_en.txt try 1: rejected (corrupted characters)
-08-10 23:06:32   [States_Rivers] wrote Feynman_en.txt (2928 chars)
-08-10 23:06:48   [Constitution_Basic] review Memory_Hooks_en.txt: 2 issue(s): - Box 10 claims Article 368 provides for three types of amendments (simple majority, special majority, special
-08-10 23:07:16   [Modern_History] review Memory_Hooks_en.txt: 1 issue(s): - Hook 9: the numeric mnemonic "73-61-92-09-19-35" incorrectly uses 61 for the Charter Act of 1813 → should be
-08-10 23:07:39   [States_Rivers] wrote Feynman_hi.txt (2500 chars)
-08-10 23:09:05   [States_Rivers] wrote Mind_Map.txt (2255 chars)
-08-10 23:09:24   [Modern_History] REJECTED review fix Memory_Hooks_en.txt: corrupted characters
-08-10 23:10:18   [States_Rivers] wrote Flashcards_en.txt (5024 chars)
-08-10 23:11:39   [States_Rivers] wrote Flashcards_hi.txt (4008 chars)
-08-10 23:11:45   [Constitution_Basic] review Memory_Hooks_hi.txt: 1 issue(s): - Mnemonic 1 presents the Preamble keywords in wrong order (Sovereign → Secular → Socialist → Democratic → Rep
-08-10 23:12:00   [Modern_History] review: 3 section(s) corrected, 2 failed
-08-10 23:12:00   [Modern_History] written 3, failed 2; AI calls today 289/100000
-08-10 23:12:01 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_03_Modern_History after 256 min: todo [] problems []
-08-10 23:12:01 worker 1: nothing left
-08-10 23:12:46   [Constitution_Basic] review: 7 section(s) corrected, 1 failed
-08-10 23:12:46   [Constitution_Basic] written 7, failed 1; AI calls today 289/100000
-08-10 23:12:47 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_04_Constitution_Basic after 76 min: todo [] problems []
-08-10 23:12:47 worker 2: nothing left
-08-10 23:13:07   [States_Rivers] wrote PYQ_en.txt (10113 chars)
-08-10 23:15:18   [States_Rivers] wrote PYQ_hi.txt (7190 chars)
-08-10 23:16:01   [Polity] review Memory_Hooks_hi.txt: 2 issue(s): - बॉक्स 7, अनुसूची 1 का विवरण "वेतन नहीं — राज्य/केंद्रशासित प्रदेश" गलत है → सही: "राज्यों और केंद्रशासित प्र
-08-10 23:17:28   [Polity] review: 6 section(s) corrected, 0 failed
-08-10 23:17:28   [Polity] written 6, failed 0; AI calls today 293/100000
-08-10 23:17:39 DONE Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_05_Polity in 77 min → 1be155ba
-08-10 23:17:39 worker 3: nothing left
-08-10 23:18:02   [States_Rivers] wrote Memory_Hooks_en.txt (6513 chars)
-08-10 23:20:22   [States_Rivers] wrote Memory_Hooks_hi.txt (6063 chars)
-08-10 23:20:31   [States_Rivers] Practice_en_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
-08-10 23:25:16   [States_Rivers] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-08-10 23:28:34   [States_Rivers] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-08-10 23:41:31   [States_Rivers] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-08-10 23:44:45   [States_Rivers] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-08-10 23:54:38   [States_Rivers] Practice_en_Set_03.txt try 1: re-solve disagrees (Q69 key d vs re-solve ?, Q71 key c vs re-solve a)
-09-10 00:03:38   [States_Rivers] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-09-10 00:08:06   [States_Rivers] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-09-10 00:14:53   [States_Rivers] Practice_en_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 03:01:03 autopilot start: 5 workers, reverse=True
+09-10 03:01:03 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_02_Medieval_History (TODO: todo 1, problems 0)
+09-10 03:01:08 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_03_Modern_History (OK: todo 0, problems 0)
+09-10 03:01:13 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_04_Constitution_Basic (OK: todo 0, problems 0)
+09-10 03:01:18 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_06_Physical_Geography (OK: todo 0, problems 0)
+09-10 03:01:23 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_07_States_Rivers (TODO: todo 6, problems 0)
 ```
