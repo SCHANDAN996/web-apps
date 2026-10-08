@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 03:17 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 03:24 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 16 मिनट |
-| W2 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
-| W3 | Chapter 25 Word Roots (Graduation English) | 🔎 review हो रहा है | 15 मिनट |
-| W4 | Chapter 30 Revision Tracker (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
-| W5 | Chapter 01 Analogy (Graduation Reasoning) | ✍️ लिख रहा है | 15 मिनट |
+| W1 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 23 मिनट |
+| W2 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 23 मिनट |
+| W3 | Chapter 25 Word Roots (Graduation English) | 📤 push हो रहा है | 0 मिनट |
+| W4 | Chapter 30 Revision Tracker (Graduation English) | ✍️ लिख रहा है | 23 मिनट |
+| W5 | Chapter 01 Analogy (Graduation Reasoning) | ✍️ लिख रहा है | 22 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md)
 
@@ -36,7 +36,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 09-10 03:24 — Graduation English · Chapter 25 Word Roots
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
@@ -64,4 +64,12 @@
 09-10 03:16:07   [Sentence_Arrangement] Practice_en_Set_03.txt try 1: re-solve disagrees (Q56 key d vs re-solve a, Q68 key d vs re-solve a, Q70 key d vs re-solve a, Q72 key a vs re-solve b)
 09-10 03:17:08   [Revision_Tracker] wrote Flashcards_hi.txt (4434 chars)
 09-10 03:17:20   [Analogy] wrote Feynman_hi.txt (3619 chars)
+09-10 03:18:17   [Analogy] Mind_Map.txt try 1: rejected (no usable mermaid graph)
+09-10 03:19:18   [Revision_Tracker] wrote PYQ_en.txt (6928 chars)
+09-10 03:20:12   [Para_Jumbles_Adv] Practice_en_Set_04.txt try 2: re-solve disagrees (Q82 key b vs re-solve d, Q92 key d vs re-solve a, Q98 key a vs re-solve d, Q100 key a vs re-solve b)
+09-10 03:20:59   [Analogy] wrote Mind_Map.txt (2230 chars)
+09-10 03:23:44   [Analogy] wrote Flashcards_en.txt (5072 chars)
+09-10 03:24:16   [Revision_Tracker] wrote PYQ_hi.txt (5756 chars)
+09-10 03:24:29   [Word_Roots] review: 2 section(s) corrected, 0 failed
+09-10 03:24:29   [Word_Roots] written 2, failed 0; AI calls today 46/100000
 ```

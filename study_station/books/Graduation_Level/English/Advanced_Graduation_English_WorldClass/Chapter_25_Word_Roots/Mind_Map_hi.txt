@@ -1,0 +1,32 @@
+```mermaid
+graph TD
+    A["शब्द मूल (Roots)<br>Word Roots & Morphology"] --> B["मूल अवधारणा<br>Root = शब्द की जड़"]
+    A --> C["तीन घटक"]
+    A --> D["महत्वपूर्ण Roots"]
+    A --> E["परीक्षक के जाल"]
+    A --> F["रणनीति"]
+
+    C --> C1["Prefix (उपसर्ग)<br>शब्द के आगे<br>जैसे: un-, pre-, anti-"]
+    C --> C2["Root (मूल)<br>शब्द का अर्थ-केंद्र<br>जैसे: dict, port, spect"]
+    C --> C3["Suffix (प्रत्यय)<br>शब्द के पीछे<br>जैसे: -tion, -able, -logy"]
+
+    D --> D1["dict = बोलना<br>predict, dictate, verdict"]
+    D --> D2["port = ले जाना<br>transport, export, portable"]
+    D --> D3["spect = देखना<br>inspect, respect, spectator"]
+    D --> D4["bio = जीवन<br>biology, biography, antibiotic"]
+    D --> D5["chrono = समय<br>chronology, synchronize"]
+    D --> D6["geo = पृथ्वी<br>geography, geology"]
+    D --> D7["phil = प्रेम<br>philosophy, bibliophile"]
+    D --> D8["mal = बुरा<br>malfunction, malnutrition"]
+
+    E --> E1["जाल 1: Sound-Right<br>परिचित लगने वाला<br>गलत अर्थ"]
+    E --> E2["जाल 2: मिलते-जुलते शब्द<br>precede vs proceed<br>adapt vs adopt"]
+    E --> E3["जाल 3: Over-thinking<br>सीधा root-अर्थ ही<br>प्रायः सही होता है"]
+
+    F --> F1["Detective Approach<br>अज्ञात शब्द =<br>Root + Prefix + Suffix तोड़ो"]
+    F --> F2["समय-सुझाव (निजी अभ्यास)<br>Root पहचान जाए तो<br>तुरंत उत्तर; न पहचान जाए<br>तो context से अनुमान"]
+    F --> F3["Skip Strategy<br>Root अज्ञात + context<br>से अर्थ न बने तो छोड़ो"]
+    F --> F4["Mnemonic<br>जैसे: MAL = माल खराब<br>→ बुरा अर्थ"]
+
+    B --> B1["एक Root से<br>कई शब्द याद<br>→ शब्दावली तेज़ी से बढ़ेगी"]
+```
