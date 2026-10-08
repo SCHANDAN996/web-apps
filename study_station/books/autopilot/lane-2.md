@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 08-10-2026 12:59 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
+**आख़िरी update:** 08-10-2026 01:14 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Ancient History (Graduation GK) | ✍️ लिख रहा है | 76 मिनट |
-| W2 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 76 मिनट |
-| W3 | Chapter 03 Modern History (Graduation GK) | ✍️ लिख रहा है | 76 मिनट |
-| W4 | Chapter 04 Constitution Basic (Graduation GK) | ✍️ लिख रहा है | 76 मिनट |
-| W5 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 76 मिनट |
+| W1 | Chapter 01 Ancient History (Graduation GK) | ✍️ लिख रहा है | 91 मिनट |
+| W2 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 91 मिनट |
+| W3 | Chapter 03 Modern History (Graduation GK) | ✍️ लिख रहा है | 91 मिनट |
+| W4 | Chapter 04 Constitution Basic (Graduation GK) | ✍️ लिख रहा है | 91 मिनट |
+| W5 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 91 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,24 +39,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 12:27:56   [Modern_History] wrote Feynman_hi.txt (3414 chars)
-08-10 12:28:55   [Medieval_History] wrote PYQ_en.txt (8023 chars)
-08-10 12:29:02   [Modern_History] wrote Mind_Map.txt (2591 chars)
-08-10 12:29:52   [Constitution_Basic] wrote Memory_Hooks_hi.txt (5315 chars)
-08-10 12:30:35   [Ancient_History] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-08-10 12:31:11   [Modern_History] wrote Flashcards_en.txt (6782 chars)
-08-10 12:31:28   [Constitution_Basic] Practice_en_Set_01.txt try 1: rejected (Q6:answer_solution_conflict,Q12:answer_solution_conflict)
-08-10 12:32:24   [Medieval_History] wrote PYQ_hi.txt (7384 chars)
-08-10 12:33:58   [Medieval_History] wrote Memory_Hooks_en.txt (5840 chars)
-08-10 12:34:01   [Modern_History] wrote Flashcards_hi.txt (4199 chars)
-08-10 12:34:08   [Constitution_Basic] Practice_en_Set_01.txt try 2: rejected (Q11:answer_solution_conflict,Q13:answer_solution_conflict,Q20:answer_solution_conflict)
-08-10 12:34:09   [Ancient_History] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-08-10 12:34:59   [Polity] Feynman_hi.txt try 1: answer too long — asking for a tighter version
-08-10 12:35:51   [Modern_History] wrote PYQ_en.txt (10144 chars)
-08-10 12:36:03   [Medieval_History] wrote Memory_Hooks_hi.txt (5488 chars)
-08-10 12:36:11   [Constitution_Basic] Practice_en_Set_01.txt try 3: rejected (Q17:answer_solution_conflict)
-08-10 12:36:11   [Constitution_Basic] REJECTED Practice_en_Set_01.txt: no version passed the checks — not written
-08-10 12:36:11   [Constitution_Basic] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
 08-10 12:36:15   [Polity] wrote Feynman_hi.txt (3869 chars)
 08-10 12:37:15   [Polity] wrote Mind_Map.txt (2632 chars)
 08-10 12:38:00   [Constitution_Basic] Practice_en_Set_02.txt try 1: rejected (Q33:answer_solution_conflict)
@@ -79,4 +61,22 @@
 08-10 12:55:07   [Ancient_History] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 08-10 12:55:15   [Modern_History] Memory_Hooks_hi.txt try 1: rejected (corrupted characters)
 08-10 12:59:13   [Ancient_History] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+08-10 13:01:29   [Modern_History] wrote Memory_Hooks_hi.txt (6843 chars)
+08-10 13:01:47   [Medieval_History] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+08-10 13:01:59   [Constitution_Basic] FAILED Practice_en_Set_03.txt: too_long
+08-10 13:01:59   [Constitution_Basic] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
+08-10 13:03:04   [Modern_History] Practice_en_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
+08-10 13:03:43   [Polity] Memory_Hooks_hi.txt try 1: rejected (corrupted characters)
+08-10 13:04:18   [Ancient_History] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+08-10 13:04:48   [Polity] Memory_Hooks_hi.txt try 2: rejected (too short)
+08-10 13:04:48   [Polity] REJECTED Memory_Hooks_hi.txt: too short — not written
+08-10 13:07:03   [Modern_History] Practice_en_Set_01.txt try 2: rejected (parsed 24 questions, numbers 1…25)
+08-10 13:08:02   [Constitution_Basic] Practice_en_Set_04.txt try 1: rejected (Q84:answer_solution_conflict,Q90:answer_solution_conflict)
+08-10 13:08:31   [Polity] Practice_en_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
+08-10 13:09:12   [Ancient_History] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+08-10 13:10:10   [Constitution_Basic] Practice_en_Set_04.txt try 2: rejected (Q76:answer_solution_conflict,Q82:answer_solution_conflict,Q92:answer_solution_conflict,Q93:answer_solution_con
+08-10 13:12:21   [Medieval_History] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+08-10 13:14:19   [Constitution_Basic] Practice_en_Set_04.txt try 3: rejected (Q76:answer_solution_conflict,Q84:answer_solution_conflict)
+08-10 13:14:19   [Constitution_Basic] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
+08-10 13:14:19   [Constitution_Basic] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
 ```
