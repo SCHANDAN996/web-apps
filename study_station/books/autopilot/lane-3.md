@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 15 One Word Substitution (12th English) | 🔎 review हो रहा है | 13 मिनट |
-| W2 | Chapter 14 Antonyms (12th English) | 🔎 review हो रहा है | 4 मिनट |
-| W3 | Chapter 16 Idioms Phrases (12th English) | ✍️ लिख रहा है | 37 मिनट |
-| W4 | Chapter 12 Sentence Structure (12th English) | 📤 push हो रहा है | 0 मिनट |
-| W5 | Chapter 17 Spelling (12th English) | ✍️ लिख रहा है | 25 मिनट |
+| W1 | Chapter 15 One Word Substitution (12th English) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 14 Antonyms (12th English) | 🔎 review हो रहा है | 5 मिनट |
+| W3 | Chapter 16 Idioms Phrases (12th English) | ✍️ लिख रहा है | 38 मिनट |
+| W4 | Chapter 18 Error Spotting Adv (12th English) | ✍️ लिख रहा है | 0 मिनट |
+| W5 | Chapter 17 Spelling (12th English) | ✍️ लिख रहा है | 26 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -35,6 +35,7 @@
 ## ✅ autopilot से हाल में पूरे हुए
 
 - 09-10 04:58 — 12th English · Chapter 12 Sentence Structure
+- 09-10 04:58 — 12th English · Chapter 15 One Word Substitution
 - 09-10 04:32 — 12th English · Chapter 13 Synonyms
 - 09-10 04:20 — 12th English · Chapter 11 Narration
 - 09-10 03:45 — 12th English · Chapter 03 Adjective
@@ -45,17 +46,12 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 12 Sentence Structure (English) — 1 बार
 - Chapter 15 One Word Substitution (English) — 1 बार
 - Chapter 14 Antonyms (English) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 04:40:35   [Spelling] wrote Flashcards_en.txt (3154 chars)
-09-10 04:40:43   [One_Word_Substitution] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-09-10 04:41:28   [Idioms_Phrases] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-09-10 04:41:49   [Spelling] wrote Flashcards_hi.txt (4290 chars)
 09-10 04:42:27   [One_Word_Substitution] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 09-10 04:43:05   [Spelling] wrote PYQ_en.txt (6206 chars)
 09-10 04:43:09   [Idioms_Phrases] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
@@ -92,4 +88,8 @@
 09-10 04:57:26   [Sentence_Structure] review Important_Rules_en.txt: 1 issue(s): - Rule 1 trap example "Being a holiday, the office was closed" contains the finite verb "was", so it does n
 09-10 04:58:27   [Sentence_Structure] review: 5 section(s) corrected, 0 failed
 09-10 04:58:27   [Sentence_Structure] written 5, failed 0; AI calls today 400/100000
+09-10 04:58:37 DONE 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_12_Sentence_Structure in 33 min → 4868d8cc
+09-10 04:58:38 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_18_Error_Spotting_Adv (TODO: todo 26, problems 0)
+09-10 04:58:54   [One_Word_Substitution] review: 5 section(s) corrected, 0 failed
+09-10 04:58:54   [One_Word_Substitution] written 5, failed 0; AI calls today 402/100000
 ```
