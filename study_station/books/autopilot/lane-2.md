@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 08-10-2026 09:13 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 09:28 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 137 मिनट |
-| W2 | Chapter 03 Modern History (Graduation GK) | ✍️ लिख रहा है | 137 मिनट |
-| W3 | Chapter 04 Constitution Basic (Graduation GK) | ✍️ लिख रहा है | 137 मिनट |
-| W4 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 136 मिनट |
-| W5 | Chapter 06 Physical Geography (Graduation GK) | ✍️ लिख रहा है | 136 मिनट |
+| W1 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 152 मिनट |
+| W2 | Chapter 03 Modern History (Graduation GK) | ✍️ लिख रहा है | 152 मिनट |
+| W3 | Chapter 04 Constitution Basic (Graduation GK) | ✍️ लिख रहा है | 152 मिनट |
+| W4 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 152 मिनट |
+| W5 | Chapter 06 Physical Geography (Graduation GK) | ✍️ लिख रहा है | 3 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -36,24 +36,13 @@
 
 - अभी कोई नहीं
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 06 Physical Geography (GK) — 1 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 20:21:09   [Medieval_History] wrote PYQ_hi.txt (8183 chars)
-08-10 20:23:46   [Modern_History] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-08-10 20:23:54   [Constitution_Basic] wrote Memory_Hooks_en.txt (6285 chars)
-08-10 20:24:08   [Medieval_History] wrote Memory_Hooks_en.txt (5870 chars)
-08-10 20:27:46   [Polity] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-08-10 20:29:23   [Medieval_History] wrote Memory_Hooks_hi.txt (6882 chars)
-08-10 20:29:29   [Physical_Geography] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-08-10 20:31:54   [Modern_History] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-08-10 20:33:32   [Polity] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-08-10 20:33:47   [Physical_Geography] Practice_en_Set_03.txt try 1: rejected (Q64:leaked_reasoning)
-08-10 20:37:03   [Modern_History] Practice_hi_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
-08-10 20:40:37   [Constitution_Basic] Memory_Hooks_hi.txt try 1: rejected (corrupted characters)
-08-10 20:40:59   [Physical_Geography] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-08-10 20:42:20   [Constitution_Basic] Memory_Hooks_hi.txt try 2: rejected (too short)
-08-10 20:42:20   [Constitution_Basic] REJECTED Memory_Hooks_hi.txt: too short — not written
 08-10 20:45:36   [Physical_Geography] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 08-10 20:46:49   [Modern_History] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 08-10 20:47:16   [Medieval_History] FAILED Practice_en_Set_01.txt: too_long
@@ -79,4 +68,19 @@
 08-10 21:09:56   [Physical_Geography] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 08-10 21:12:36   [Polity] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 08-10 21:13:11   [Modern_History] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+08-10 21:13:52   [Medieval_History] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+08-10 21:13:58   [Physical_Geography] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+08-10 21:18:07   [Polity] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+08-10 21:18:13   [Constitution_Basic] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+08-10 21:18:40   [Modern_History] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+08-10 21:19:40   [Medieval_History] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+08-10 21:20:25   [Modern_History] Practice_hi_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
+08-10 21:24:21   [Constitution_Basic] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+08-10 21:24:32   [Modern_History] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+08-10 21:25:26   [Physical_Geography] FAILED Practice_en_Set_06.txt: too_long
+08-10 21:25:26   [Physical_Geography] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+08-10 21:25:26   [Physical_Geography] written 23, failed 2; AI calls today 143/100000
+08-10 21:25:26 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_06_Physical_Geography after 149 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems ['Feynman_hi.txt: much shorter than the English section (445 v', 'Key_Facts_hi.txt: Hindi file is mostly not in Hindi']
+08-10 21:25:27 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_06_Physical_Geography (TODO: todo 2, problems 2)
+08-10 21:25:51   [Medieval_History] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 ```
