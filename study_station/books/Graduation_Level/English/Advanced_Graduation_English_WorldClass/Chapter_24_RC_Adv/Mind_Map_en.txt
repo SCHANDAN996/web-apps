@@ -1,0 +1,38 @@
+```mermaid
+graph TD
+    A["Advanced Reading<br>Comprehension"] --> B["Passage Types"]
+    A --> C["Question Types"]
+    A --> D["Core Strategies"]
+    A --> E["Tone Mapping"]
+    A --> F["Examiner's Traps"]
+    A --> G["Time Management"]
+
+    B --> B1["Modern Topics:<br>AI, Climate, Economy"]
+    B --> B2["Science &<br>Social Issues"]
+    B --> B3["Abstract /<br>Philosophical"]
+
+    C --> C1["Fact-Based<br>Direct from passage"]
+    C --> C2["Inference-Based<br>Detective Approach"]
+    C --> C3["Vocabulary-in-Context"]
+    C --> C4["Main Idea /<br>Title"]
+    C --> C5["Tone &<br>Author's Attitude"]
+
+    D --> D1["Skim First:<br>Read questions before passage"]
+    D --> D2["Detective Approach:<br>Evidence in text, not opinion"]
+    D --> D3["Eliminate Extremes:<br>always, never, completely"]
+    D --> D4["Paragraph Mapping:<br>One idea per paragraph"]
+
+    E --> E1["Positive:<br>optimistic, laudatory"]
+    E --> E2["Negative:<br>critical, cynical"]
+    E --> E3["Neutral:<br>analytical, objective"]
+    E --> E4["Mixed:<br>cautiously optimistic"]
+
+    F --> F1["Half-Right Options:<br>True start, false end"]
+    F --> F2["Out-of-Scope:<br>True in life, not in passage"]
+    F --> F3["Word Echo:<br>Repeats passage words, wrong meaning"]
+    F --> F4["Over-Inference:<br>Going beyond evidence"]
+
+    G --> G1["Fact Questions:<br>15 seconds"]
+    G --> G2["Inference / Tone:<br>45 seconds"]
+    G --> G3["Skip Strategy:<br>Mark hard ones, return later"]
+```
