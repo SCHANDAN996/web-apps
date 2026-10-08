@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 03:30 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 03:31 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 03 Adjective (12th English) | 🔎 review हो रहा है | 29 मिनट |
-| W2 | Chapter 06 Adverb (12th English) | 🔎 review हो रहा है | 29 मिनट |
-| W3 | Chapter 11 Narration (12th English) | ✍️ लिख रहा है | 1 मिनट |
-| W4 | Chapter 09 Articles (12th English) | 📤 push हो रहा है | 0 मिनट |
-| W5 | Chapter 10 Voice (12th English) | 🔎 review हो रहा है | 29 मिनट |
+| W1 | Chapter 03 Adjective (12th English) | 🔎 review हो रहा है | 30 मिनट |
+| W2 | Chapter 06 Adverb (12th English) | 🔎 review हो रहा है | 30 मिनट |
+| W3 | Chapter 11 Narration (12th English) | ✍️ लिख रहा है | 2 मिनट |
+| W4 | Chapter 12 Sentence Structure (12th English) | ✍️ लिख रहा है | 0 मिनट |
+| W5 | Chapter 10 Voice (12th English) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,6 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 03:31 — 12th English · Chapter 10 Voice
 - 09-10 03:30 — 12th English · Chapter 09 Articles
 - 09-10 03:28 — 12th English · Chapter 08 Conjunction
 
@@ -74,4 +75,8 @@
 09-10 03:30:36   [Voice] review Important_Rules_hi.txt: 2 issue(s): - Morphology table row 9: 'trans' is a prefix (meaning 'across'), not a root; the root is 'it' (from Latin 
 09-10 03:30:48   [Articles] review: 4 section(s) corrected, 0 failed
 09-10 03:30:48   [Articles] written 4, failed 0; AI calls today 81/100000
+09-10 03:30:58 DONE 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_09_Articles in 29 min → dacf4825
+09-10 03:30:58 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_12_Sentence_Structure (TODO: todo 26, problems 0)
+09-10 03:31:25   [Voice] review: 4 section(s) corrected, 0 failed
+09-10 03:31:25   [Voice] written 4, failed 0; AI calls today 83/100000
 ```
