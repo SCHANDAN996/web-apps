@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 08-10-2026 10:14 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 10:29 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 197 मिनट |
-| W2 | Chapter 03 Modern History (Graduation GK) | ✍️ लिख रहा है | 197 मिनट |
-| W3 | Chapter 04 Constitution Basic (Graduation GK) | 🔎 review हो रहा है | 0 मिनट |
-| W4 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 13 मिनट |
-| W5 | Chapter 06 Physical Geography (Graduation GK) | 🔎 review हो रहा है | 20 मिनट |
+| W1 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 0 मिनट |
+| W2 | Chapter 03 Modern History (Graduation GK) | 🔎 review हो रहा है | 11 मिनट |
+| W3 | Chapter 04 Constitution Basic (Graduation GK) | 🔎 review हो रहा है | 15 मिनट |
+| W4 | Chapter 05 Polity (Graduation GK) | 🔎 review हो रहा है | 11 मिनट |
+| W5 | Chapter 06 Physical Geography (Graduation GK) | 🔎 review हो रहा है | 35 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -27,10 +27,10 @@
 | 12th Reasoning | 0 | 0 | 25 |
 | 12th English | 5 | 0 | 20 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 3 | 0 | 25 |
+| Graduation GK | 5 | 0 | 23 |
 | Graduation Reasoning | 0 | 0 | 30 |
 | Graduation English | 23 | 0 | 7 |
-| **कुल** | **82** | **13** | **201** |
+| **कुल** | **84** | **13** | **199** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -41,29 +41,11 @@
 - Chapter 06 Physical Geography (GK) — 1 बार
 - Chapter 04 Constitution Basic (GK) — 1 बार
 - Chapter 05 Polity (GK) — 1 बार
+- Chapter 02 Medieval History (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 21:38:51   [Physical_Geography] written 2, failed 0; AI calls today 154/100000
-08-10 21:42:39   [Medieval_History] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-08-10 21:43:08   [Constitution_Basic] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-08-10 21:45:02   [Polity] Practice_en_Set_06.txt try 3: re-solve disagrees (Q134 key d vs re-solve b)
-08-10 21:45:45   [Modern_History] Practice_en_Set_06.txt try 1: re-solve disagrees (Q126 key d vs re-solve a, Q142 key b vs re-solve d)
-08-10 21:47:01   [Constitution_Basic] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-08-10 21:47:19   [Physical_Geography] REJECTED Key_Facts_hi.txt: corrupted characters — not written
-08-10 21:48:05   [Medieval_History] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-08-10 21:50:38   [Physical_Geography] repaired Feynman_hi.txt (2908 chars)
-08-10 21:50:38   [Physical_Geography] written 1, failed 1; AI calls today 168/100000
-08-10 21:50:57   [Modern_History] Practice_en_Set_06.txt try 2: rejected (parsed 0 questions, numbers -…-)
-08-10 21:53:02   [Constitution_Basic] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-08-10 21:53:52   [Physical_Geography] repaired Key_Facts_hi.txt (3489 chars)
-08-10 21:53:52   [Physical_Geography] written 1, failed 0; AI calls today 172/100000
-08-10 21:54:20   [Polity] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-08-10 21:57:00   [Constitution_Basic] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-08-10 21:57:00   [Constitution_Basic] written 23, failed 2; AI calls today 176/100000
-08-10 21:57:01 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_04_Constitution_Basic after 180 min: todo ['Flashcards_hi.txt', 'Memory_Hooks_hi.txt'] problems ['Content_hi.txt: Hindi file is mostly not in Hindi', 'Key_Facts_hi.txt: Hindi file is mostly not in Hindi']
-08-10 21:57:01 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_04_Constitution_Basic (TODO: todo 2, problems 2)
 08-10 21:57:08   [Medieval_History] Practice_en_Set_05.txt try 1: re-solve disagrees (Q109 key b vs re-solve c)
 08-10 21:59:17   [Modern_History] Practice_en_Set_06.txt try 3: re-solve disagrees (Q129 key b vs re-solve d)
 08-10 21:59:46   [Constitution_Basic] wrote Flashcards_hi.txt (4288 chars)
@@ -85,4 +67,23 @@
 08-10 22:13:17   [Polity] Practice_hi_Set_03.txt try 1: rejected (answer letters differ from English)
 08-10 22:13:42   [Constitution_Basic] repaired Key_Facts_hi.txt (3076 chars)
 08-10 22:13:42   [Constitution_Basic] written 2, failed 0; AI calls today 196/100000
+08-10 22:14:57   [Medieval_History] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+08-10 22:14:59   [Physical_Geography] review Key_Facts_hi.txt: 3 issue(s): - ब्रह्मपुत्र की उत्पत्ति "मानसरोवर झील के पास" बताना गलत है → ब्रह्मपुत्र तिब्बत में कैलाश पर्वत के निकट स्थित अ
+08-10 22:16:56   [Medieval_History] Practice_en_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
+08-10 22:17:18   [Modern_History] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+08-10 22:17:18   [Modern_History] written 25, failed 0; AI calls today 201/100000
+08-10 22:17:37   [Polity] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+08-10 22:17:37   [Polity] written 2, failed 0; AI calls today 203/100000
+08-10 22:18:07   [Constitution_Basic] review Content_en.txt: 2 issue(s): - The Hook states the Constituent Assembly's final sitting on the Constitution was on 29 November 1949 → it was on 
+08-10 22:19:55   [Physical_Geography] review Feynman_hi.txt: 1 issue(s): - The text states that Mahanadi originates in the Western Ghats ("सब पश्चिमी घाट से जन्म लेकर") → Mahanadi rises in
+08-10 22:20:30   [Constitution_Basic] REJECTED review fix Content_en.txt: chat debris "Text"
+08-10 22:23:28   [Medieval_History] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+08-10 22:24:02   [Physical_Geography] review Mind_Map.txt: 1 issue(s): - In node G1, the Hindi phrase “(बार-मगर)” is incorrect for “perennial”; the correct term is “बारहमासी” → Replace “(ब
+08-10 22:24:11   [Modern_History] review Content_hi.txt: 2 issue(s): - Rani Lakshmibai's escape from Jhansi fort is dated 18 June 1857 in the narrative; historically she escaped on the
+08-10 22:25:30   [Constitution_Basic] review Content_hi.txt: 1 issue(s): - 'संविधान के प्रमुख स्रोत' तालिका में आयरलैंड के लिए 'राज्यपाल की राष्ट्रपति द्वारा नियुक्ति' गलत है → यह विशेषता 
+08-10 22:28:36   [Medieval_History] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+08-10 22:28:36   [Medieval_History] written 21, failed 4; AI calls today 217/100000
+08-10 22:28:37 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_02_Medieval_History after 212 min: todo ['Flashcards_en.txt', 'Mind_Map.txt', 'Set 01 en: todo', 'Set 01 hi: todo'] problems []
+08-10 22:28:37 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_02_Medieval_History (TODO: todo 4, problems 0)
+08-10 22:28:59   [Physical_Geography] review Flashcards_en.txt: 3 issue(s): - Card 1: K2 is not in India nor in Ladakh; it lies on the Pakistan–China border → The highest peak in the India
 ```
