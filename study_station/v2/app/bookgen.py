@@ -222,7 +222,9 @@ PRACTICE_FORMAT = """Format rules the app's parser depends on:
 - Never write (a), (b), (c) or (d) anywhere except on the options line and the answer line — not in the question,
   not in the solution. For "spot the error" questions label the sentence parts P, Q, R, S (or 1, 2, 3, 4) and make
   the options name them, e.g. "(a) Part P (b) Part Q (c) Part R (d) No error"; in solutions say "Part Q", never "(b)".
-- The four options must be four different, meaningful answers."""
+- The four options must be four different, meaningful answers.
+- The solution explains the trap in the tempting wrong option first and ENDS with a sentence that states the
+  correct option's value (e.g. "…, so the answer is 1950."). Never end a solution on a wrong option's number."""
 
 
 def section_request(chapter, name):
@@ -258,6 +260,7 @@ def translation_request(src_name, src_text, dst_name, english_book=False):
             f'Translate exactly these questions from {LANG_NAME[src]} into {LANG_NAME[dst]} for {dst_name}: '
             f'same numbering, same order, same four options in the same order, same answer letters, and the '
             f'same header line (translated). Use the labels {words}. Do not add, drop, fix or reorder anything. '
+            f'Keep each solution ending on the sentence that states the correct answer. '
             + (ENGLISH_BOOK_TRANSLATION + ' ' if english_book and dst == 'hi' else '')
             + 'Output only the file content.')
 
