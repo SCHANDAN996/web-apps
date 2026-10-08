@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 04:17 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 04:33 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 27 मिनट |
-| W2 | Chapter 03 Coding Decoding (Graduation Reasoning) | ✍️ लिख रहा है | 5 मिनट |
-| W3 | Chapter 02 Classification (Graduation Reasoning) | ✍️ लिख रहा है | 53 मिनट |
-| W4 | Chapter 30 Revision Tracker (Graduation English) | ✍️ लिख रहा है | 76 मिनट |
-| W5 | Chapter 01 Analogy (Graduation Reasoning) | ✍️ लिख रहा है | 76 मिनट |
+| W1 | Chapter 04 Blood Relations (Graduation Reasoning) | ✍️ लिख रहा है | 7 मिनट |
+| W2 | Chapter 03 Coding Decoding (Graduation Reasoning) | ✍️ लिख रहा है | 20 मिनट |
+| W3 | Chapter 02 Classification (Graduation Reasoning) | ✍️ लिख रहा है | 68 मिनट |
+| W4 | Chapter 30 Revision Tracker (Graduation English) | ✍️ लिख रहा है | 91 मिनट |
+| W5 | Chapter 01 Analogy (Graduation Reasoning) | ✍️ लिख रहा है | 91 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md)
 
@@ -27,12 +27,12 @@
 | 12th Maths | 0 | 0 | 23 |
 | 12th GK | 4 | 0 | 20 |
 | 12th Reasoning | 0 | 0 | 25 |
-| 12th English | 10 | 0 | 15 |
+| 12th English | 12 | 0 | 13 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 6 | 0 | 22 |
 | Graduation Reasoning | 0 | 0 | 30 |
 | Graduation English | 28 | 0 | 2 |
-| **कुल** | **98** | **13** | **185** |
+| **कुल** | **100** | **13** | **183** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -41,28 +41,11 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 22 Para Jumbles Adv (English) — 1 बार
+- Chapter 22 Para Jumbles Adv (English) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 03:50:14   [Analogy] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-09-10 03:50:28   [Para_Jumbles_Adv] FAILED Practice_en_Set_05.txt: too_long
-09-10 03:50:28   [Para_Jumbles_Adv] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
-09-10 03:50:28   [Para_Jumbles_Adv] written 2, failed 2; AI calls today 84/100000
-09-10 03:50:28 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv after 49 min: todo ['Set 05 en: todo', 'Set 05 hi: todo'] problems ['Mind_Map_hi.txt: much shorter than the English section (1280']
-09-10 03:50:29 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv (TODO: todo 2, problems 1)
-09-10 03:50:59   [Revision_Tracker] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-09-10 03:51:59   [Revision_Tracker] Practice_hi_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 03:53:02   [Sentence_Arrangement] review Feynman_hi.txt: 1 issue(s): - Hindi grammar error: "किसी नया विषय की परिचय" → "किसी नए विषय का परिचय"
-09-10 03:54:50   [Revision_Tracker] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-09-10 03:57:14   [Para_Jumbles_Adv] Practice_en_Set_05.txt try 1: re-solve disagrees (Q101 key c vs re-solve a, Q104 key b vs re-solve a, Q116 key b vs re-solve a, Q122 key b vs re-solve
-09-10 03:57:27   [Revision_Tracker] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-09-10 03:58:48   [Sentence_Arrangement] review PYQ_en.txt: 1 issue(s): - Q3 solution says "Chronological: 1876 → before 1876 → impact → today" but the sequence moves from 1876 to before 1876
-09-10 03:59:26   [Classification] wrote Feynman_hi.txt (3055 chars)
-09-10 03:59:49   [Revision_Tracker] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-09-10 04:00:20   [Analogy] Practice_en_Set_02.txt try 1: re-solve disagrees (Q41 key b vs re-solve a, Q42 key a vs re-solve b, Q43 key a vs re-solve b)
-09-10 04:02:19   [Classification] wrote Mind_Map.txt (1891 chars)
 09-10 04:03:21   [Revision_Tracker] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 09-10 04:03:59   [Classification] wrote Flashcards_en.txt (4926 chars)
 09-10 04:05:00   [Sentence_Arrangement] review PYQ_hi.txt: 2 issue(s): - Question 4 (Einstein) correct order SPRQ yields ungrammatical sentence "Albert Einstein he was awarded the Nobel Priz
@@ -86,4 +69,21 @@
 09-10 04:16:06   [Para_Jumbles_Adv] Practice_en_Set_05.txt try 3: re-solve disagrees (Q101 key b vs re-solve c, Q103 key a vs re-solve b, Q106 key d vs re-solve a, Q107 key d vs re-solve
 09-10 04:16:32   [Analogy] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 09-10 04:16:40   [Classification] wrote Important_Rules_hi.txt (3730 chars)
+09-10 04:18:47   [Classification] Practice_en_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 04:20:16   [Revision_Tracker] FAILED Practice_hi_Set_04.txt: too_long
+09-10 04:20:56   [Analogy] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 04:23:21   [Analogy] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 04:23:21   [Revision_Tracker] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 04:23:30   [Classification] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 04:25:34   [Para_Jumbles_Adv] Practice_en_Set_05.txt try 4: re-solve disagrees (Q109 key c vs re-solve a, Q116 key a vs re-solve d)
+09-10 04:25:34   [Para_Jumbles_Adv] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
+09-10 04:25:34   [Para_Jumbles_Adv] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
+09-10 04:25:34   [Para_Jumbles_Adv] written 0, failed 2; AI calls today 147/100000
+09-10 04:25:34 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv after 35 min: todo ['Set 05 en: todo', 'Set 05 hi: todo'] problems ['Mind_Map_hi.txt: much shorter than the English section (1280']
+09-10 04:25:36 START Graduation_Level/Reasoning/Chapter_04_Blood_Relations (TODO: todo 25, problems 0)
+09-10 04:26:47   [Analogy] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 04:27:11   [Classification] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 04:28:23   [Coding_Decoding] Content_en.txt try 1: answer too long — asking for a tighter version
+09-10 04:29:07   [Revision_Tracker] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 04:31:09   [Coding_Decoding] wrote Content_en.txt (12561 chars)
 ```
