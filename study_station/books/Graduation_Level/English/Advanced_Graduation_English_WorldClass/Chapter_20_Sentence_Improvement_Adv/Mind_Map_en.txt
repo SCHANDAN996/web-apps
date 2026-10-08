@@ -1,0 +1,30 @@
+```mermaid
+graph TD
+    A["Sentence Improvement<br>(Advanced)"] --> B["Core Skill"]
+    A --> C["8 Golden Rules"]
+    A --> D["Examiner's Traps"]
+    A --> E["Strategy"]
+
+    B --> B1["Identify the error segment<br>in the underlined part"]
+    B --> B2["Check grammar first,<br>then meaning, then style"]
+    B --> B3["Choose 'No improvement'<br>only when the sentence is<br>fully correct"]
+
+    C --> C1["Subject-Verb Agreement<br>Intervening phrases ignored"]
+    C --> C2["Tense Consistency<br>Sequence of tenses"]
+    C --> C3["Parallel Structure<br>and / or / but join equals"]
+    C --> C4["Modifiers<br>Dangling & misplaced"]
+    C --> C5["Pronoun Reference<br>Clear antecedent"]
+    C --> C6["Comparisons<br>Like compared with like"]
+    C --> C7["Idioms & Prepositions<br>Fixed combinations"]
+    C --> C8["Redundancy<br>return back, repeat again"]
+
+    D --> D1["Intervening Phrase Trap<br>'The box of chocolates IS...'"]
+    D --> D2["Sound-Right Trap<br>What sounds natural may be wrong"]
+    D --> D3["Over-thinking Trap<br>Changing a correct sentence"]
+    D --> D4["Collective Noun Trap<br>Team is / team are"]
+
+    E --> E1["15-Second Rule<br>Fact-based: agreement, tense, idiom"]
+    E --> E2["45-Second Rule<br>Inference: tone, style, meaning"]
+    E --> E3["Eliminate 2 options fast<br>then compare remaining pair"]
+    E --> E4["Read full sentence aloud<br>in your head before choosing"]
+```

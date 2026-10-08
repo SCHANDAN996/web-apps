@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 08-10-2026 09:19 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 08:48 AM
+**आख़िरी update:** 08-10-2026 09:23 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 08:48 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 18 मिनट |
-| W2 | Chapter 21 Cloze Test Adv (Graduation English) | ✍️ लिख रहा है | 22 मिनट |
-| W3 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
-| W4 | Chapter 20 Sentence Improvement Adv (Graduation English) | 🔎 review हो रहा है | 30 मिनट |
+| W1 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 22 मिनट |
+| W2 | Chapter 21 Cloze Test Adv (Graduation English) | ✍️ लिख रहा है | 26 मिनट |
+| W3 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 4 मिनट |
+| W4 | Chapter 20 Sentence Improvement Adv (Graduation English) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -33,6 +33,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 08-10 09:23 — Graduation English · Chapter 20 Sentence Improvement Adv
 - 08-10 09:18 — Graduation English · Chapter 19 Fill in Blanks Adv
 - 08-10 09:00 — Graduation English · Chapter 17 Spelling
 - 08-10 08:56 — Graduation English · Chapter 18 Error Spotting Adv
@@ -47,24 +48,14 @@
 - 06-10 03:47 — Graduation English · Chapter 09 Articles
 - 06-10 03:05 — Graduation English · Chapter 05 Tense
 - 06-10 03:03 — Graduation English · Chapter 07 Preposition
-- 06-10 02:05 — Graduation English · Chapter 02 Pronoun
+
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 20 Sentence Improvement Adv (English) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 08:56:48   [Error_Spotting_Adv] written 1, failed 0; AI calls today 18/100000
-08-10 08:56:55 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_18_Error_Spotting_Adv in 8 min → 177d28c
-08-10 08:56:57 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_21_Cloze_Test_Adv (TODO: todo 26, problems 0)
-08-10 08:58:06   [Sentence_Improvement_Adv] review Mind_Map_en.txt: 2 issue(s): - "12 Golden Rules" heading shows only 8 rules (C1–C8) → change heading to "8 Golden Rules" or add 4 more rules
-08-10 08:59:33   [Cloze_Test_Adv] wrote Content_en.txt (10187 chars)
-08-10 09:00:09   [Fill_in_Blanks_Adv] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-08-10 09:00:30   [Spelling] review: 1 section(s) corrected, 0 failed
-08-10 09:00:30   [Spelling] written 1, failed 0; AI calls today 26/100000
-08-10 09:00:37 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_17_Spelling in 10 min → 35913cb
-08-10 09:00:38 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv (TODO: todo 26, problems 1)
-08-10 09:02:15   [Fill_in_Blanks_Adv] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-08-10 09:02:15   [Fill_in_Blanks_Adv] written 2, failed 0; AI calls today 27/100000
-08-10 09:02:59   [Para_Jumbles_Adv] wrote Content_en.txt (9379 chars)
 08-10 09:03:11   [Cloze_Test_Adv] wrote Content_hi.txt (9110 chars)
 08-10 09:03:11   [Fill_in_Blanks_Adv] review Content_en.txt: 9 issue(s): - Duplicate chapter content (two full copies of the chapter) → Remove duplicate, keep one coherent version.
 08-10 09:04:16   [Cloze_Test_Adv] wrote Feynman_en.txt (2664 chars)
@@ -92,4 +83,17 @@
 08-10 09:18:50 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_19_Fill_in_Blanks_Adv in 30 min → 4877a3f
 08-10 09:18:51 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_23_Sentence_Arrangement (TODO: todo 26, problems 1)
 08-10 09:19:23   [Para_Jumbles_Adv] wrote PYQ_hi.txt (2141 chars)
+08-10 09:20:14   [Sentence_Improvement_Adv] review Important_Rules_en.txt: 1 issue(s): - The entire section is corrupted/placeholder text (repetitive gibberish like "the most the most the most")
+08-10 09:20:24   [Sentence_Arrangement] wrote Content_en.txt (8238 chars)
+08-10 09:21:01   [Para_Jumbles_Adv] wrote Short_Tricks_en.txt (8205 chars)
+08-10 09:22:02   [Sentence_Arrangement] wrote Content_hi.txt (880 chars)
+08-10 09:22:31   [Sentence_Improvement_Adv] review: 5 section(s) corrected, 1 failed
+08-10 09:22:31   [Sentence_Improvement_Adv] written 5, failed 1; AI calls today 79/100000
+08-10 09:22:31 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_20_Sentence_Improvement_Adv after 34 min: todo [] problems []
+08-10 09:22:32 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_20_Sentence_Improvement_Adv (OK: todo 0, problems 0)
+08-10 09:22:47   [Sentence_Improvement_Adv] review Mind_Map_en.txt: 2 issue(s): - "12 Golden Rules" heading shows only 8 rules (C1–C8) → either change heading to "8 Golden Rules" or add 4 more r
+08-10 09:22:58   [Para_Jumbles_Adv] wrote Short_Tricks_hi.txt (5813 chars)
+08-10 09:22:59   [Sentence_Arrangement] wrote Feynman_en.txt (3642 chars)
+08-10 09:23:23   [Sentence_Improvement_Adv] review: 1 section(s) corrected, 0 failed
+08-10 09:23:23   [Sentence_Improvement_Adv] written 1, failed 0; AI calls today 83/100000
 ```
