@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 08-10-2026 11:14 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 11:17 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W4 | Chapter 05 Polity (Graduation GK) | 🔎 review हो रहा है | 57 मिनट |
-| W5 | Chapter 07 States Rivers (Graduation GK) | ✍️ लिख रहा है | 18 मिनट |
+| W4 | Chapter 05 Polity (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
+| W5 | Chapter 07 States Rivers (Graduation GK) | ✍️ लिख रहा है | 21 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -31,7 +31,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 08-10 23:17 — Graduation GK · Chapter 05 Polity
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
@@ -44,10 +44,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 22:51:26   [Medieval_History] Flashcards_en.txt try 2: rejected (too short)
-08-10 22:51:26   [Medieval_History] REJECTED Flashcards_en.txt: too short — not written
-08-10 22:52:27   [Constitution_Basic] review Flashcards_hi.txt: 1 issue(s): - भू-दल-पं-नगर-भाषा → सही क्रम: भाषा-भू-दल-पं-नगर (8वीं भाषाएँ, 9वीं भूमि सुधार, 10वीं दल-बदल, 11वीं पंचायत, 12व
-08-10 22:53:03   [Polity] review Feynman_hi.txt: 1 issue(s): - "राष्ट्रपति की पूर्व-स्वीकृति" शब्द गलत है; धन विधेयक पेश करने के लिए राष्ट्रपति की "पूर्व सिफारिश" (recommendati
 08-10 22:55:06   [Modern_History] review Feynman_hi.txt: 1 issue(s): - '4S' mnemonic for Extremists (Swaraj, Swadeshi, Boycott, National Education) is wrong → only Swaraj and Swadeshi 
 08-10 22:55:10   [Medieval_History] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 08-10 22:55:15   [Medieval_History] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
@@ -84,4 +80,8 @@
 08-10 23:12:47 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_04_Constitution_Basic after 76 min: todo [] problems []
 08-10 23:12:47 worker 2: nothing left
 08-10 23:13:07   [States_Rivers] wrote PYQ_en.txt (10113 chars)
+08-10 23:15:18   [States_Rivers] wrote PYQ_hi.txt (7190 chars)
+08-10 23:16:01   [Polity] review Memory_Hooks_hi.txt: 2 issue(s): - बॉक्स 7, अनुसूची 1 का विवरण "वेतन नहीं — राज्य/केंद्रशासित प्रदेश" गलत है → सही: "राज्यों और केंद्रशासित प्र
+08-10 23:17:28   [Polity] review: 6 section(s) corrected, 0 failed
+08-10 23:17:28   [Polity] written 6, failed 0; AI calls today 293/100000
 ```
