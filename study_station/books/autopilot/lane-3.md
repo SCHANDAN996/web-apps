@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 08-10-2026 07:43 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 07:58 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 03 Adjective (12th English) | ✍️ लिख रहा है | 46 मिनट |
-| W2 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 46 मिनट |
-| W3 | Chapter 08 Conjunction (12th English) | ✍️ लिख रहा है | 46 मिनट |
-| W4 | Chapter 09 Articles (12th English) | ✍️ लिख रहा है | 46 मिनट |
-| W5 | Chapter 10 Voice (12th English) | ✍️ लिख रहा है | 46 मिनट |
+| W1 | Chapter 03 Adjective (12th English) | ✍️ लिख रहा है | 61 मिनट |
+| W2 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 61 मिनट |
+| W3 | Chapter 08 Conjunction (12th English) | ✍️ लिख रहा है | 61 मिनट |
+| W4 | Chapter 09 Articles (12th English) | ✍️ लिख रहा है | 61 मिनट |
+| W5 | Chapter 10 Voice (12th English) | ✍️ लिख रहा है | 61 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,22 +39,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 19:07:11   [Adverb] Feynman_en.txt try 1: rejected (chat debris "Here's the")
-08-10 19:07:24   [Articles] wrote Feynman_hi.txt (2527 chars)
-08-10 19:08:14   [Conjunction] wrote Feynman_hi.txt (3099 chars)
-08-10 19:10:41   [Conjunction] wrote Mind_Map_en.txt (1947 chars)
-08-10 19:11:03   [Adverb] wrote Feynman_en.txt (3248 chars)
-08-10 19:11:34   [Adjective] wrote Feynman_hi.txt (2326 chars)
-08-10 19:12:57   [Articles] Mind_Map_en.txt try 1: rejected (corrupted characters)
-08-10 19:13:55   [Adverb] wrote Feynman_hi.txt (2661 chars)
-08-10 19:16:13   [Conjunction] Mind_Map_hi.txt try 1: rejected (no usable mermaid graph)
-08-10 19:16:32   [Voice] Content_hi.txt try 1: answer too long — asking for a tighter version
-08-10 19:16:36   [Adverb] wrote Mind_Map_en.txt (1888 chars)
-08-10 19:16:58   [Articles] wrote Mind_Map_en.txt (2204 chars)
-08-10 19:18:30   [Conjunction] wrote Mind_Map_hi.txt (1966 chars)
-08-10 19:19:01   [Adjective] wrote Mind_Map_en.txt (2043 chars)
-08-10 19:19:04   [Articles] wrote Mind_Map_hi.txt (1648 chars)
-08-10 19:19:36   [Adverb] wrote Mind_Map_hi.txt (1739 chars)
 08-10 19:20:37   [Voice] wrote Content_hi.txt (11462 chars)
 08-10 19:21:11   [Conjunction] wrote Flashcards_en.txt (3911 chars)
 08-10 19:21:32   [Adjective] wrote Mind_Map_hi.txt (2593 chars)
@@ -79,4 +63,20 @@
 08-10 19:39:39   [Conjunction] wrote Short_Tricks_en.txt (4605 chars)
 08-10 19:40:30   [Adverb] wrote Short_Tricks_hi.txt (5170 chars)
 08-10 19:41:06   [Adjective] wrote PYQ_hi.txt (5855 chars)
+08-10 19:43:32   [Adverb] wrote Important_Rules_en.txt (4228 chars)
+08-10 19:43:53   [Voice] Feynman_hi.txt try 1: answer too long — asking for a tighter version
+08-10 19:45:24   [Adjective] wrote Short_Tricks_en.txt (7278 chars)
+08-10 19:47:02   [Adverb] Important_Rules_hi.txt try 1: rejected (corrupted characters)
+08-10 19:48:55   [Voice] wrote Feynman_hi.txt (4247 chars)
+08-10 19:49:07   [Adjective] wrote Short_Tricks_hi.txt (6049 chars)
+08-10 19:49:13   [Conjunction] wrote Short_Tricks_hi.txt (3485 chars)
+08-10 19:50:45   [Articles] wrote Short_Tricks_hi.txt (5699 chars)
+08-10 19:51:16   [Adverb] Important_Rules_hi.txt try 2: rejected (corrupted characters)
+08-10 19:51:16   [Adverb] REJECTED Important_Rules_hi.txt: corrupted characters — not written
+08-10 19:52:12   [Conjunction] wrote Important_Rules_en.txt (4606 chars)
+08-10 19:52:58   [Voice] wrote Mind_Map_en.txt (5088 chars)
+08-10 19:55:06   [Adjective] wrote Important_Rules_en.txt (5089 chars)
+08-10 19:55:27   [Voice] wrote Mind_Map_hi.txt (1602 chars)
+08-10 19:55:46   [Articles] wrote Important_Rules_en.txt (5048 chars)
+08-10 19:57:13   [Adverb] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 ```
