@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 08-10-2026 08:56 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 08:48 AM
+**आख़िरी update:** 08-10-2026 09:00 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 08:48 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 17 Spelling (Graduation English) | 🔎 review हो रहा है | 4 मिनट |
-| W2 | Chapter 18 Error Spotting Adv (Graduation English) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 19 Fill in Blanks Adv (Graduation English) | ✍️ लिख रहा है | 8 मिनट |
-| W4 | Chapter 20 Sentence Improvement Adv (Graduation English) | 🔎 review हो रहा है | 8 मिनट |
+| W1 | Chapter 17 Spelling (Graduation English) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 21 Cloze Test Adv (Graduation English) | ✍️ लिख रहा है | 3 मिनट |
+| W3 | Chapter 19 Fill in Blanks Adv (Graduation English) | ✍️ लिख रहा है | 11 मिनट |
+| W4 | Chapter 20 Sentence Improvement Adv (Graduation English) | 🔎 review हो रहा है | 11 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -33,6 +33,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 08-10 09:00 — Graduation English · Chapter 17 Spelling
 - 08-10 08:56 — Graduation English · Chapter 18 Error Spotting Adv
 - 07-10 11:28 — Graduation English · Chapter 16 Idioms Phrases
 - 07-10 11:06 — Graduation English · Chapter 15 One Word Substitution
@@ -47,7 +48,6 @@
 - 06-10 03:03 — Graduation English · Chapter 07 Preposition
 - 06-10 02:05 — Graduation English · Chapter 02 Pronoun
 - 06-10 02:04 — Graduation English · Chapter 06 Adverb
-- 06-10 01:49 — Graduation English · Chapter 03 Adjective
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
@@ -56,13 +56,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-07-10 12:25:04   [Error_Spotting_Adv] review Important_Rules_hi.txt: 1 issue(s): - Morphology table column header 'प्रत्यय' incorrectly labels prefixes (pre-, contra-, in-, retro-, trans-,
-07-10 12:25:17   [Error_Spotting_Adv] review: 9 section(s) corrected, 0 failed
-07-10 12:25:17   [Error_Spotting_Adv] written 9, failed 0; AI calls today 222/100000
-07-10 12:25:17 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_18_Error_Spotting_Adv after 103 min: todo [] problems ['Flashcards_hi.txt: Hindi file is mostly not in Hindi']
-07-10 12:25:17 worker 3: nothing left
-07-10 12:25:29   [Fill_in_Blanks_Adv] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-07-10 12:27:39   [Fill_in_Blanks_Adv] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 07-10 12:27:39   [Fill_in_Blanks_Adv] written 24, failed 2; AI calls today 226/100000
 07-10 12:27:40 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_19_Fill_in_Blanks_Adv after 81 min: todo ['Set 04 en: todo', 'Set 04 hi: todo'] problems []
 07-10 12:27:40 worker 0: nothing left
@@ -96,4 +89,11 @@
 08-10 08:55:32   [Spelling] review Short_Tricks_hi.txt: 1 issue(s): - The claim "SSC में 0.25 अंक" is inaccurate for major SSC exams (CGL, CHSL have 0.5 marks negative marking); 
 08-10 08:56:48   [Error_Spotting_Adv] review: 1 section(s) corrected, 0 failed
 08-10 08:56:48   [Error_Spotting_Adv] written 1, failed 0; AI calls today 18/100000
+08-10 08:56:55 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_18_Error_Spotting_Adv in 8 min → 177d28c
+08-10 08:56:57 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_21_Cloze_Test_Adv (TODO: todo 26, problems 0)
+08-10 08:58:06   [Sentence_Improvement_Adv] review Mind_Map_en.txt: 2 issue(s): - "12 Golden Rules" heading shows only 8 rules (C1–C8) → change heading to "8 Golden Rules" or add 4 more rules
+08-10 08:59:33   [Cloze_Test_Adv] wrote Content_en.txt (10187 chars)
+08-10 09:00:09   [Fill_in_Blanks_Adv] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+08-10 09:00:30   [Spelling] review: 1 section(s) corrected, 0 failed
+08-10 09:00:30   [Spelling] written 1, failed 0; AI calls today 26/100000
 ```
