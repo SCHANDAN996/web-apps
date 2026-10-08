@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 08-10-2026 08:43 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 08:58 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 106 मिनट |
-| W2 | Chapter 03 Modern History (Graduation GK) | ✍️ लिख रहा है | 106 मिनट |
-| W3 | Chapter 04 Constitution Basic (Graduation GK) | ✍️ लिख रहा है | 106 मिनट |
-| W4 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 106 मिनट |
-| W5 | Chapter 06 Physical Geography (Graduation GK) | ✍️ लिख रहा है | 106 मिनट |
+| W1 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 122 मिनट |
+| W2 | Chapter 03 Modern History (Graduation GK) | ✍️ लिख रहा है | 121 मिनट |
+| W3 | Chapter 04 Constitution Basic (Graduation GK) | ✍️ लिख रहा है | 121 मिनट |
+| W4 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 121 मिनट |
+| W5 | Chapter 06 Physical Geography (Graduation GK) | ✍️ लिख रहा है | 121 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -29,8 +29,8 @@
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 1 | 0 | 27 |
 | Graduation Reasoning | 0 | 0 | 30 |
-| Graduation English | 21 | 0 | 9 |
-| **कुल** | **78** | **13** | **205** |
+| Graduation English | 22 | 0 | 8 |
+| **कुल** | **79** | **13** | **204** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -39,20 +39,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 19:45:31   [Polity] wrote PYQ_hi.txt (7647 chars)
-08-10 19:47:41   [Modern_History] wrote Memory_Hooks_en.txt (6729 chars)
-08-10 19:48:39   [Polity] Memory_Hooks_en.txt try 1: rejected (corrupted characters)
-08-10 19:48:46   [Physical_Geography] wrote PYQ_hi.txt (7796 chars)
-08-10 19:51:48   [Medieval_History] FAILED Flashcards_en.txt: too_long
-08-10 19:53:31   [Physical_Geography] wrote Memory_Hooks_en.txt (1487 chars)
-08-10 19:53:38   [Polity] wrote Memory_Hooks_en.txt (9378 chars)
-08-10 19:55:56   [Medieval_History] wrote Flashcards_hi.txt (4272 chars)
-08-10 19:57:30   [Polity] wrote Memory_Hooks_hi.txt (6007 chars)
-08-10 19:59:19   [Medieval_History] wrote PYQ_en.txt (10209 chars)
-08-10 19:59:31   [Physical_Geography] wrote Memory_Hooks_hi.txt (7145 chars)
-08-10 20:02:59   [Polity] Practice_en_Set_01.txt try 1: rejected (Q23:leaked_reasoning)
-08-10 20:04:45   [Physical_Geography] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-08-10 20:04:47   [Modern_History] wrote Memory_Hooks_hi.txt (6151 chars)
 08-10 20:08:43   [Physical_Geography] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 08-10 20:09:27   [Modern_History] Practice_en_Set_01.txt try 1: re-solve disagrees (Q24 key d vs re-solve b)
 08-10 20:11:48   [Constitution_Basic] FAILED Flashcards_hi.txt: too_long
@@ -79,4 +65,18 @@
 08-10 20:40:59   [Physical_Geography] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 08-10 20:42:20   [Constitution_Basic] Memory_Hooks_hi.txt try 2: rejected (too short)
 08-10 20:42:20   [Constitution_Basic] REJECTED Memory_Hooks_hi.txt: too short — not written
+08-10 20:45:36   [Physical_Geography] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+08-10 20:46:49   [Modern_History] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+08-10 20:47:16   [Medieval_History] FAILED Practice_en_Set_01.txt: too_long
+08-10 20:47:16   [Medieval_History] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
+08-10 20:47:56   [Constitution_Basic] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+08-10 20:51:22   [Physical_Geography] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+08-10 20:52:30   [Polity] FAILED Practice_en_Set_03.txt: too_long
+08-10 20:52:30   [Polity] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
+08-10 20:53:51   [Constitution_Basic] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+08-10 20:54:02   [Medieval_History] Practice_en_Set_02.txt try 1: re-solve disagrees (Q34 key a vs re-solve b, Q47 key d vs re-solve c)
+08-10 20:55:05   [Physical_Geography] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+08-10 20:55:31   [Medieval_History] Practice_en_Set_02.txt try 2: rejected (parsed 0 questions, numbers -…-)
+08-10 20:55:35   [Modern_History] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+08-10 20:56:50   [Polity] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 ```
