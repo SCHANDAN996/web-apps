@@ -46,13 +46,14 @@ jobs:
       - name: Write books
         working-directory: study_station/v2
         env:
-          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+          # a second key (optional secret NVIDIA_API_KEY_2) is shared out over the workers
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }},${{ secrets.NVIDIA_API_KEY_2 }}
           BOOKGEN_REJECT_DIR: ${{ runner.temp }}/rejects
           PYTHONUNBUFFERED: '1'
         run: |
           git config user.name "study-station-book-autopilot"
           git config user.email "211449723+SCHANDAN996@users.noreply.github.com"
-          python tools/book_autopilot.py --workers 4 --reverse --exclude 10th_Level \
+          python tools/book_autopilot.py --workers 6 --reverse --exclude 10th_Level \
             --branch "$BOOKS_BRANCH" --state-dir "$RUNNER_TEMP/autopilot" --stop-new-after 270
       - name: Keep the log and rejected outputs for diagnosis
         if: always()

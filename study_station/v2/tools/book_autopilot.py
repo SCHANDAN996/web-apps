@@ -4,6 +4,7 @@ each chapter that passes bookcheck. Runs until every chapter is done or it is st
 
     cd study_station/v2
     NVIDIA_API_KEY=… python tools/book_autopilot.py --workers 3 [--reverse] [--dry-run]
+    NVIDIA_API_KEY=key1,key2 … --workers 8      # several keys: shared out over the workers
 
 Order: the books in books/QUEUE.txt (--reverse = last book first, so it never meets a writer working from the
 front), chapters 01 → last inside a book. Several workers run on different chapters; git is serialized by a lock.
@@ -171,9 +172,19 @@ class Pilot:
                 return ch, key
         return None
 
+    def key_for_worker(self):
+        """Several NVIDIA keys (comma-separated in NVIDIA_API_KEY) are shared out over the workers, so each key
+        carries only its share of the requests."""
+        keys = [k.strip() for k in os.environ.get('NVIDIA_API_KEY', '').split(',') if k.strip()]
+        if len(keys) <= 1:
+            return keys[0] if keys else ''
+        name = threading.current_thread().name
+        n = int(name[1:]) - 1 if name[:1] == 'W' and name[1:].isdigit() else 0
+        return keys[n % len(keys)]
+
     def bookgen(self, ch, *extra):
         cmd = [sys.executable, '-m', 'app.bookgen', '--chapter', str(ch), *extra]
-        env = {**os.environ, 'BOOKGEN_REVIEW_CACHE': str(self.state_dir / 'reviewed.json'),
+        env = {**os.environ, 'NVIDIA_API_KEY': self.key_for_worker(), 'BOOKGEN_REVIEW_CACHE': str(self.state_dir / 'reviewed.json'),
                'AI_DAILY_BOOK_SECTIONS': os.environ.get('AI_DAILY_BOOK_SECTIONS', '100000'),
                'AI_DAILY_LIMIT_TOTAL': os.environ.get('AI_DAILY_LIMIT_TOTAL', '1000000')}
         short = ch.name.split('_', 2)[-1] if '_' in ch.name else ch.name
