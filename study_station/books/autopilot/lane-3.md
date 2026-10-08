@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 08-10-2026 08:43 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 08:58 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 03 Adjective (12th English) | ✍️ लिख रहा है | 107 मिनट |
-| W2 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 107 मिनट |
-| W3 | Chapter 08 Conjunction (12th English) | ✍️ लिख रहा है | 106 मिनट |
-| W4 | Chapter 09 Articles (12th English) | ✍️ लिख रहा है | 106 मिनट |
-| W5 | Chapter 10 Voice (12th English) | ✍️ लिख रहा है | 106 मिनट |
+| W1 | Chapter 03 Adjective (12th English) | ✍️ लिख रहा है | 122 मिनट |
+| W2 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 122 मिनट |
+| W3 | Chapter 08 Conjunction (12th English) | ✍️ लिख रहा है | 122 मिनट |
+| W4 | Chapter 09 Articles (12th English) | ✍️ लिख रहा है | 122 मिनट |
+| W5 | Chapter 10 Voice (12th English) | ✍️ लिख रहा है | 121 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -29,8 +29,8 @@
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 1 | 0 | 27 |
 | Graduation Reasoning | 0 | 0 | 30 |
-| Graduation English | 21 | 0 | 9 |
-| **कुल** | **78** | **13** | **205** |
+| Graduation English | 22 | 0 | 8 |
+| **कुल** | **79** | **13** | **204** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -39,17 +39,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 19:58:24   [Adjective] wrote Important_Rules_hi.txt (4992 chars)
-08-10 19:59:02   [Adverb] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
-08-10 19:59:18   [Voice] wrote Flashcards_en.txt (4548 chars)
-08-10 19:59:31   [Conjunction] wrote Important_Rules_hi.txt (357 chars)
-08-10 20:01:51   [Conjunction] Practice_en_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
-08-10 20:02:49   [Voice] wrote Flashcards_hi.txt (4140 chars)
-08-10 20:02:53   [Articles] Important_Rules_hi.txt try 1: rejected (too short)
-08-10 20:03:47   [Adverb] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-08-10 20:04:44   [Conjunction] Practice_en_Set_01.txt try 2: rejected (Q6:leaked_reasoning)
-08-10 20:05:12   [Articles] wrote Important_Rules_hi.txt (1214 chars)
-08-10 20:06:01   [Voice] wrote PYQ_en.txt (7354 chars)
 08-10 20:11:22   [Voice] wrote PYQ_hi.txt (7225 chars)
 08-10 20:11:33   [Articles] Practice_en_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
 08-10 20:13:26   [Conjunction] Practice_en_Set_01.txt try 3: re-solve disagrees (Q18 key b vs re-solve d)
@@ -79,4 +68,15 @@
 08-10 20:40:10   [Adjective] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 08-10 20:41:20   [Articles] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 08-10 20:41:41   [Voice] wrote Important_Rules_hi.txt (3377 chars)
+08-10 20:44:03   [Adjective] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+08-10 20:45:24   [Conjunction] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+08-10 20:47:44   [Voice] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+08-10 20:48:53   [Adverb] Practice_en_Set_03.txt try 1: re-solve disagrees (Q64 key d vs re-solve a, Q69 key b vs re-solve a)
+08-10 20:49:29   [Conjunction] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+08-10 20:49:47   [Articles] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+08-10 20:51:10   [Voice] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+08-10 20:53:17   [Articles] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+08-10 20:57:12   [Voice] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
+08-10 20:57:17   [Adjective] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+08-10 20:57:49   [Articles] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 ```
