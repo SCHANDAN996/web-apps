@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 08-10-2026 09:04 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 08:48 AM
+**आख़िरी update:** 08-10-2026 09:18 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 08:48 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 3 मिनट |
-| W2 | Chapter 21 Cloze Test Adv (Graduation English) | ✍️ लिख रहा है | 7 मिनट |
-| W3 | Chapter 19 Fill in Blanks Adv (Graduation English) | 🔎 review हो रहा है | 1 मिनट |
-| W4 | Chapter 20 Sentence Improvement Adv (Graduation English) | 🔎 review हो रहा है | 15 मिनट |
+| W1 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 18 मिनट |
+| W2 | Chapter 21 Cloze Test Adv (Graduation English) | ✍️ लिख रहा है | 21 मिनट |
+| W3 | Chapter 19 Fill in Blanks Adv (Graduation English) | 📤 push हो रहा है | 0 मिनट |
+| W4 | Chapter 20 Sentence Improvement Adv (Graduation English) | 🔎 review हो रहा है | 30 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -33,6 +33,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 08-10 09:18 — Graduation English · Chapter 19 Fill in Blanks Adv
 - 08-10 09:00 — Graduation English · Chapter 17 Spelling
 - 08-10 08:56 — Graduation English · Chapter 18 Error Spotting Adv
 - 07-10 11:28 — Graduation English · Chapter 16 Idioms Phrases
@@ -47,32 +48,10 @@
 - 06-10 03:05 — Graduation English · Chapter 05 Tense
 - 06-10 03:03 — Graduation English · Chapter 07 Preposition
 - 06-10 02:05 — Graduation English · Chapter 02 Pronoun
-- 06-10 02:04 — Graduation English · Chapter 06 Adverb
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-07-10 12:42:14   [Sentence_Improvement_Adv] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-07-10 12:42:14   [Sentence_Improvement_Adv] written 26, failed 0; AI calls today 243/100000
-07-10 12:42:21 autopilot stopped: 2-hour limit of the cloud session — restart with "autopilot chalu karo"
-08-10 08:48:19 autopilot start: 4 workers, reverse=True
-08-10 08:48:21 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_17_Spelling (FIX: todo 0, problems 2)
-08-10 08:48:26 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_18_Error_Spotting_Adv (FIX: todo 0, problems 2)
-08-10 08:48:30 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_19_Fill_in_Blanks_Adv (TODO: todo 2, problems 0)
-08-10 08:48:35 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_20_Sentence_Improvement_Adv (OK: todo 0, problems 0)
-08-10 08:49:04   [Spelling] repaired Important_Rules_hi.txt (1189 chars)
-08-10 08:49:04   [Spelling] written 1, failed 0; AI calls today 4/100000
-08-10 08:50:07   [Error_Spotting_Adv] repaired Flashcards_hi.txt (2970 chars)
-08-10 08:50:16   [Spelling] repaired Important_Rules_hi.txt (2059 chars)
-08-10 08:50:16   [Spelling] written 1, failed 0; AI calls today 6/100000
-08-10 08:50:16 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_17_Spelling after 2 min: todo [] problems ['Important_Rules_hi.txt: Hindi file is mostly not in Hindi']
-08-10 08:50:17 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_17_Spelling (FIX: todo 0, problems 1)
-08-10 08:52:05   [Spelling] repaired Important_Rules_hi.txt (4696 chars)
-08-10 08:52:05   [Spelling] written 1, failed 0; AI calls today 9/100000
-08-10 08:52:30   [Fill_in_Blanks_Adv] Practice_en_Set_04.txt try 1: re-solve disagrees (Q88 key d vs re-solve c)
-08-10 08:52:40   [Error_Spotting_Adv] repaired Important_Rules_hi.txt (5814 chars)
-08-10 08:52:40   [Error_Spotting_Adv] written 2, failed 0; AI calls today 11/100000
-08-10 08:53:01   [Sentence_Improvement_Adv] review Content_hi.txt: 2 issue(s): - The claim "SSC CGL और IBPS PO में अंग्रेज़ी खंड का लगभग एक-तिहाई हिस्सा सीधे या अप्रत्यक्ष रूप से 'वाक्य सुधार' प
 08-10 08:54:28   [Error_Spotting_Adv] review Flashcards_hi.txt: 3 issue(s): - Card 6 back side states "K2/गॉडविन ऑस्टिन भारत-प्रशासित क्षेत्र में है" → K2 lies in Pakistan-administered Gil
 08-10 08:55:32   [Spelling] review Short_Tricks_hi.txt: 1 issue(s): - The claim "SSC में 0.25 अंक" is inaccurate for major SSC exams (CGL, CHSL have 0.5 marks negative marking); 
 08-10 08:56:48   [Error_Spotting_Adv] review: 1 section(s) corrected, 0 failed
@@ -92,4 +71,25 @@
 08-10 09:03:11   [Cloze_Test_Adv] wrote Content_hi.txt (9110 chars)
 08-10 09:03:11   [Fill_in_Blanks_Adv] review Content_en.txt: 9 issue(s): - Duplicate chapter content (two full copies of the chapter) → Remove duplicate, keep one coherent version.
 08-10 09:04:16   [Cloze_Test_Adv] wrote Feynman_en.txt (2664 chars)
+08-10 09:05:34   [Para_Jumbles_Adv] wrote Content_hi.txt (6769 chars)
+08-10 09:05:43   [Fill_in_Blanks_Adv] review Content_hi.txt: 3 issue(s): - The blockquote Hindi sentence "वाक्य में रिक्त स्थान भरें (उन्नत) अंग्रेज़ी भाषा की पुस्तक के लेखक हो।" uses inco
+08-10 09:06:12   [Cloze_Test_Adv] wrote Feynman_hi.txt (2849 chars)
+08-10 09:06:39   [Sentence_Improvement_Adv] REJECTED review fix Mind_Map_en.txt: no usable mermaid graph
+08-10 09:06:57   [Cloze_Test_Adv] wrote Mind_Map_en.txt (1369 chars)
+08-10 09:07:09   [Para_Jumbles_Adv] wrote Feynman_en.txt (3414 chars)
+08-10 09:07:17   [Fill_in_Blanks_Adv] review Feynman_en.txt: 3 issue(s): - "Fill in of the Blanks" → "Fill in the Blanks"
+08-10 09:07:52   [Cloze_Test_Adv] wrote Mind_Map_hi.txt (2074 chars)
+08-10 09:08:28   [Para_Jumbles_Adv] wrote Feynman_hi.txt (2967 chars)
+08-10 09:08:53   [Sentence_Improvement_Adv] review Mind_Map_hi.txt: 8 issue(s): - `D2["Collective Nounla"]` → `D2["Collective Noun"]` (typo in rule name)
+08-10 09:09:10   [Para_Jumbles_Adv] wrote Mind_Map_en.txt (1807 chars)
+08-10 09:09:59   [Para_Jumbles_Adv] wrote Mind_Map_hi.txt (1350 chars)
+08-10 09:11:31   [Fill_in_Blanks_Adv] review Flashcards_en.txt: 1 issue(s): - Card 3: The mnemonic lists "Sports" as a singular noun that looks plural but is singular; "sports" is generall
+08-10 09:12:04   [Para_Jumbles_Adv] wrote Flashcards_en.txt (5573 chars)
+08-10 09:13:26   [Cloze_Test_Adv] wrote Flashcards_en.txt (19192 chars)
+08-10 09:13:31   [Sentence_Improvement_Adv] review Flashcards_hi.txt: 1 issue(s): - Card 11: The back answer incorrectly says "नहीं" to the question "क्रम सही है?" while the explanation confirms
+08-10 09:15:20   [Para_Jumbles_Adv] wrote Flashcards_hi.txt (14457 chars)
+08-10 09:16:35   [Sentence_Improvement_Adv] review PYQ_en.txt: 1 issue(s): - Q7 answer (a) is wrong because it uses question word order in reported speech; the correct option is (c) which remove
+08-10 09:17:43   [Para_Jumbles_Adv] wrote PYQ_en.txt (10110 chars)
+08-10 09:18:42   [Fill_in_Blanks_Adv] review: 4 section(s) corrected, 0 failed
+08-10 09:18:42   [Fill_in_Blanks_Adv] written 4, failed 0; AI calls today 69/100000
 ```
