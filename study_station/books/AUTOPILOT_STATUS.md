@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 08-10-2026 08:12 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 08:27 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 26 Critical Reading (Graduation English) | ✍️ लिख रहा है | 39 मिनट |
-| W2 | Chapter 25 Word Roots (Graduation English) | ✍️ लिख रहा है | 40 मिनट |
-| W3 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 76 मिनट |
-| W4 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 76 मिनट |
-| W5 | Chapter 24 RC Adv (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
+| W1 | Chapter 26 Critical Reading (Graduation English) | ✍️ लिख रहा है | 54 मिनट |
+| W2 | Chapter 25 Word Roots (Graduation English) | ✍️ लिख रहा है | 55 मिनट |
+| W3 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 91 मिनट |
+| W4 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 91 मिनट |
+| W5 | Chapter 24 RC Adv (Graduation English) | 🔎 review हो रहा है | 9 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md)
 
@@ -31,8 +31,8 @@
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 1 | 0 | 27 |
 | Graduation Reasoning | 0 | 0 | 30 |
-| Graduation English | 21 | 0 | 9 |
-| **कुल** | **78** | **13** | **205** |
+| Graduation English | 22 | 0 | 8 |
+| **कुल** | **79** | **13** | **204** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -46,25 +46,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 19:47:53   [Critical_Reading] wrote Short_Tricks_hi.txt (5844 chars)
-08-10 19:48:01   [Word_Roots] wrote Important_Rules_en.txt (5088 chars)
-08-10 19:48:31   [RC_Adv] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-08-10 19:48:41   [Critical_Reading] wrote Important_Rules_en.txt (5276 chars)
-08-10 19:49:01   [Word_Roots] wrote Important_Rules_hi.txt (4065 chars)
-08-10 19:50:00   [RC_Adv] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-08-10 19:50:18   [Critical_Reading] wrote Important_Rules_hi.txt (5022 chars)
-08-10 19:51:27   [Para_Jumbles_Adv] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-08-10 19:51:48   [Sentence_Arrangement] Practice_en_Set_02.txt try 1: re-solve disagrees (Q26 key a vs re-solve b, Q28 key b vs re-solve a, Q34 key b vs re-solve c, Q44 key a vs re-solve b)
-08-10 19:51:51   [Sentence_Arrangement] Practice_en_Set_02.txt try 2: rejected (parsed 0 questions, numbers -…-)
-08-10 19:53:19   [Critical_Reading] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-08-10 19:53:38   [Para_Jumbles_Adv] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-08-10 19:55:02   [RC_Adv] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-08-10 19:55:47   [Critical_Reading] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-08-10 19:56:13   [Para_Jumbles_Adv] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
-08-10 19:56:52   [Critical_Reading] Practice_en_Set_02.txt try 1: rejected (parsed 23 questions, numbers 26…48)
-08-10 19:56:56   [Critical_Reading] Practice_en_Set_02.txt try 2: rejected (parsed 0 questions, numbers -…-)
-08-10 19:57:57   [RC_Adv] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-08-10 19:58:21   [Critical_Reading] Practice_en_Set_02.txt try 3: rejected (parsed 23 questions, numbers 26…50)
 08-10 19:59:05   [Sentence_Arrangement] Practice_en_Set_02.txt try 3: re-solve disagrees (Q26 key c vs re-solve b, Q28 key d vs re-solve c, Q34 key c vs re-solve b)
 08-10 20:01:47   [Critical_Reading] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 08-10 20:02:31   [RC_Adv] wrote Practice_en_Set_05.txt (write, 25 MCQs)
@@ -86,4 +67,23 @@
 08-10 20:12:43   [RC_Adv] written 24, failed 2; AI calls today 176/100000
 08-10 20:12:43 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_24_RC_Adv after 76 min: todo ['Set 02 en: todo', 'Set 02 hi: todo'] problems []
 08-10 20:12:45 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_24_RC_Adv (TODO: todo 2, problems 0)
+08-10 20:13:45   [Word_Roots] Practice_en_Set_02.txt try 2: re-solve disagrees (Q27 key a vs re-solve ?)
+08-10 20:15:10   [RC_Adv] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+08-10 20:15:27   [Word_Roots] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+08-10 20:16:32   [Critical_Reading] Practice_en_Set_03.txt try 2: rejected (parsed 0 questions, numbers -…-)
+08-10 20:16:54   [Word_Roots] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+08-10 20:16:58   [RC_Adv] Practice_hi_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
+08-10 20:17:47   [Word_Roots] Practice_en_Set_03.txt try 1: rejected (parsed 23 questions, numbers 51…75)
+08-10 20:18:50   [Word_Roots] Practice_en_Set_03.txt try 2: rejected (parsed 23 questions, numbers 51…75)
+08-10 20:18:51   [RC_Adv] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+08-10 20:18:52   [RC_Adv] written 2, failed 0; AI calls today 189/100000
+08-10 20:20:03   [Critical_Reading] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+08-10 20:20:27   [Para_Jumbles_Adv] Practice_en_Set_03.txt try 3: re-solve disagrees (Q52 key d vs re-solve b, Q59 key c vs re-solve d)
+08-10 20:21:45   [Critical_Reading] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+08-10 20:21:57   [RC_Adv] review Content_en.txt: 2 issue(s): - The hook's claim that "lakhs of aspirants lose 8–12 marks" in SSC CGL, IBPS PO, and State PCS prelims is an inven
+08-10 20:22:07   [Word_Roots] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+08-10 20:23:29   [Word_Roots] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+08-10 20:24:31   [Sentence_Arrangement] FAILED Practice_hi_Set_02.txt: too_long
+08-10 20:25:59   [Sentence_Arrangement] Practice_en_Set_03.txt try 1: rejected (Q61:duplicate_options)
+08-10 20:27:15   [RC_Adv] review Feynman_en.txt: 1 issue(s): - "Blurring Sheet Instruction" heading uses incorrect term "Blurring" → should be "Blurting Sheet Instruction" (the
 ```
