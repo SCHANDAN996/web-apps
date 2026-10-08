@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 08-10-2026 10:55 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 09:41 AM
+**आख़िरी update:** 08-10-2026 10:57 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 09:41 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,12 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 21 Cloze Test Adv (Graduation English) | 📤 push हो रहा है | 0 मिनट |
-| W2 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 74 मिनट |
-| W3 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 74 मिनट |
-| W4 | Chapter 27 Precis Writing (Graduation English) | ✍️ लिख रहा है | 19 मिनट |
-| W5 | Chapter 25 Word Roots (Graduation English) | ✍️ लिख रहा है | 74 मिनट |
-| W6 | Chapter 26 Critical Reading (Graduation English) | ✍️ लिख रहा है | 74 मिनट |
+| W1 | Chapter 28 Error Log (Graduation English) | ✍️ लिख रहा है | 1 मिनट |
+| W2 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 76 मिनट |
+| W3 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 76 मिनट |
+| W4 | Chapter 27 Precis Writing (Graduation English) | ✍️ लिख रहा है | 21 मिनट |
+| W5 | Chapter 25 Word Roots (Graduation English) | ✍️ लिख रहा है | 76 मिनट |
+| W6 | Chapter 26 Critical Reading (Graduation English) | ✍️ लिख रहा है | 76 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -58,9 +58,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 10:36:09   [RC_Adv] nothing to repair
-08-10 10:36:09   [RC_Adv] written 0, failed 0; AI calls today 236/100000
-08-10 10:36:09 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_24_RC_Adv after 9 min: todo [] problems ["chapter.json: topic '' is not a catalog topic (app/catalog.p"]
 08-10 10:36:10 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_27_Precis_Writing (TODO: todo 26, problems 1)
 08-10 10:36:36   [Cloze_Test_Adv] repaired Flashcards_en.txt (6241 chars)
 08-10 10:37:41   [Precis_Writing] wrote Content_en.txt (10379 chars)
@@ -98,4 +95,7 @@
 08-10 10:55:26   [Critical_Reading] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 08-10 10:55:39   [Cloze_Test_Adv] review: 3 section(s) corrected, 0 failed
 08-10 10:55:39   [Cloze_Test_Adv] written 3, failed 0; AI calls today 284/100000
+08-10 10:55:47 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_21_Cloze_Test_Adv in 75 min → dbd7a97
+08-10 10:55:48 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_28_Error_Log (TODO: todo 26, problems 1)
+08-10 10:57:31   [Error_Log] wrote Content_en.txt (7046 chars)
 ```
