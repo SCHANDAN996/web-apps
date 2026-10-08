@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 08-10-2026 10:29 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 10:44 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Medieval History (12th GK) | 🔎 review हो रहा है | 18 मिनट |
-| W2 | Chapter 03 Modern History (12th GK) | ✍️ लिख रहा है | 212 मिनट |
-| W3 | Chapter 04 Constitution Basic (12th GK) | 🔎 review हो रहा है | 31 मिनट |
-| W4 | Chapter 05 Polity (12th GK) | ✍️ लिख रहा है | 212 मिनट |
-| W5 | Chapter 06 Physical Geography (12th GK) | 🔎 review हो रहा है | 2 मिनट |
+| W1 | Chapter 02 Medieval History (12th GK) | 🔎 review हो रहा है | 34 मिनट |
+| W2 | Chapter 03 Modern History (12th GK) | ✍️ लिख रहा है | 228 मिनट |
+| W3 | Chapter 04 Constitution Basic (12th GK) | 🔎 review हो रहा है | 46 मिनट |
+| W4 | Chapter 05 Polity (12th GK) | ✍️ लिख रहा है | 1 मिनट |
+| W5 | Chapter 06 Physical Geography (12th GK) | 🔎 review हो रहा है | 17 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -40,20 +40,11 @@
 
 - Chapter 02 Medieval History (GK) — 1 बार
 - Chapter 04 Constitution Basic (GK) — 1 बार
+- Chapter 05 Polity (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 21:50:19   [Medieval_History] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-08-10 21:50:19   [Medieval_History] written 23, failed 2; AI calls today 161/100000
-08-10 21:50:19 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_02_Medieval_History after 174 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems []
-08-10 21:50:19 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_02_Medieval_History (TODO: todo 2, problems 0)
-08-10 21:51:29   [Modern_History] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-08-10 21:51:35   [Constitution_Basic] repaired Memory_Hooks_hi.txt (5644 chars)
-08-10 21:51:35   [Constitution_Basic] written 1, failed 0; AI calls today 163/100000
-08-10 21:53:12   [Physical_Geography] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-08-10 21:54:33   [Constitution_Basic] repaired Memory_Hooks_hi.txt (1490 chars)
-08-10 21:54:33   [Constitution_Basic] written 1, failed 0; AI calls today 165/100000
 08-10 21:54:33 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_04_Constitution_Basic after 178 min: todo [] problems ['Memory_Hooks_hi.txt: Hindi file is mostly not in Hindi', 'Memory_Hooks_hi.txt: much shorter than the English section (']
 08-10 21:54:33 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_04_Constitution_Basic (FIX: todo 0, problems 2)
 08-10 21:54:42   [Physical_Geography] Practice_hi_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
@@ -84,4 +75,14 @@
 08-10 22:26:52   [Physical_Geography] written 1, failed 0; AI calls today 199/100000
 08-10 22:27:31   [Polity] Practice_en_Set_06.txt try 1: rejected (Q150:leaked_reasoning)
 08-10 22:28:55   [Constitution_Basic] review Key_Facts_hi.txt: 2 issue(s): - संविधान बनने में समय 2 वर्ष 11 माह 18 दिन → 2 वर्ष 11 माह 17 दिन
+08-10 22:30:44   [Physical_Geography] review Content_en.txt: 1 issue(s): - Hindi term 'भंगाल की खाड़ी' for Bay of Bengal is misspelled → correct Hindi is 'बंगाल की खाड़ी'
+08-10 22:34:59   [Medieval_History] review Key_Facts_hi.txt: 1 issue(s): - जहांगीर की विवरण पंक्ति में 'इंग्लिश ख़िलाफ़त नहीं — सर थॉमस रो (1615) आया' असंगत/गलत हिन्दी है → इसे 'अंग्रेज़
+08-10 22:37:06   [Physical_Geography] review Content_hi.txt: 3 issue(s): - पड़ोसी देशों की तालिका में चीन के लिए सीमा लगने वाले राज्यों की संख्या 4 दी गई है, लेकिन सूची में 5 राज्य/केंद्रश
+08-10 22:38:19   [Polity] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+08-10 22:42:17   [Constitution_Basic] review Mind_Map.txt: 1 issue(s): - E2: "Now: 12 Schedules" (वर्तमान: 12 अनुसूचियाँ) is a "current X is" claim without a year → Add year, e.g., "Now (2
+08-10 22:42:22   [Medieval_History] review Feynman_en.txt: 1 issue(s): - The list of Delhi Sultanate dynasties is given in the wrong order (Slave, Khilji, Tughlaq, Lodi, Sayyid) → Correc
+08-10 22:43:20   [Polity] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+08-10 22:43:20   [Polity] written 24, failed 1; AI calls today 217/100000
+08-10 22:43:20 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_05_Polity after 227 min: todo ['Key_Facts_en.txt'] problems []
+08-10 22:43:20 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_05_Polity (TODO: todo 1, problems 0)
 ```
