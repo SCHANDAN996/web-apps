@@ -1,15 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 08-10-2026 11:45 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 09-10-2026 12:00 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W1 | Chapter 11 Narration (12th English) | ✍️ लिख रहा है | 120 मिनट |
-| W5 | Chapter 10 Voice (12th English) | 🔎 review हो रहा है | 63 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -36,24 +33,15 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 03 Adjective (English) — 2 बार
-- Chapter 10 Voice (English) — 1 बार
+- Chapter 10 Voice (English) — 2 बार
 - Chapter 06 Adverb (English) — 2 बार
 - Chapter 08 Conjunction (English) — 2 बार
 - Chapter 09 Articles (English) — 1 बार
+- Chapter 11 Narration (English) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 22:57:43   [Narration] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-08-10 22:58:32   [Conjunction] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-08-10 22:58:56   [Voice] review Mind_Map_en.txt: 11 issue(s): - Node E "Rule: S + V1 (base form)" → Active voice has no single rule; tense determines form (e.g., simple presen
-08-10 23:00:03   [Conjunction] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-08-10 23:00:34   [Articles] review Short_Tricks_hi.txt: 2 issue(s): - ट्रिक 13 का शीर्षक "पत्रिका = THE, पत्र = NO" गलत है; सही नियम है: समाचार-पत्र (पत्र) के साथ THE लगता है, पत
-08-10 23:03:58   [Voice] review Mind_Map_hi.txt: 1 issue(s): - Perfect Tenses: has/have/had + been + V3 → Perfect Tenses: has/have/had + been + V3 and will have been + V3
-08-10 23:05:11   [Articles] review Important_Rules_en.txt: 2 issue(s): - Rule 7: "the Punjab" is listed as an exception but does not match the given pattern (Republic/Union/Kingd
-08-10 23:05:20   [Conjunction] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-08-10 23:07:21   [Articles] review: 4 section(s) corrected, 1 failed
-08-10 23:07:21   [Articles] written 4, failed 1; AI calls today 299/100000
 08-10 23:07:21 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_09_Articles after 251 min: todo [] problems []
 08-10 23:07:21 worker 3: nothing left
 08-10 23:07:36   [Narration] Practice_en_Set_03.txt try 1: re-solve disagrees (Q67 key b vs re-solve a)
@@ -84,4 +72,14 @@
 08-10 23:34:28   [Narration] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 08-10 23:38:11   [Narration] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 08-10 23:43:11   [Voice] FAILED review PYQ_hi.txt: too_long — the chapter must not be published unreviewed
+08-10 23:50:12   [Voice] review Important_Rules_hi.txt: 1 issue(s): - Rule 2 example: Active sentence "He is writing" lacks an object, making the passive "A letter is being wr
+08-10 23:51:49   [Voice] review: 7 section(s) corrected, 1 failed
+08-10 23:51:49   [Voice] written 7, failed 1; AI calls today 331/100000
+08-10 23:51:50 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_10_Voice after 72 min: todo [] problems []
+08-10 23:51:50 worker 4: nothing left
+08-10 23:54:11   [Narration] FAILED Practice_en_Set_06.txt: too_long
+08-10 23:54:11   [Narration] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+08-10 23:54:11   [Narration] written 24, failed 2; AI calls today 330/100000
+08-10 23:54:11 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_11_Narration after 130 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems ['Flashcards_hi.txt: Hindi file is mostly not in Hindi', 'Flashcards_hi.txt: much shorter than the English section (76']
+08-10 23:54:11 worker 0: nothing left
 ```
