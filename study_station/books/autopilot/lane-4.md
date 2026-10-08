@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 08-10-2026 11:30 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 11:45 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Medieval History (12th GK) | 🔎 review हो रहा है | 79 मिनट |
-| W4 | Chapter 05 Polity (12th GK) | 🔎 review हो रहा है | 44 मिनट |
-| W5 | Chapter 06 Physical Geography (12th GK) | 🔎 review हो रहा है | 63 मिनट |
+| W4 | Chapter 05 Polity (12th GK) | 🔎 review हो रहा है | 59 मिनट |
+| W5 | Chapter 06 Physical Geography (12th GK) | 🔎 review हो रहा है | 78 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -36,23 +35,13 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 02 Medieval History (GK) — 1 बार
+- Chapter 02 Medieval History (GK) — 2 बार
 - Chapter 05 Polity (GK) — 1 बार
 - Chapter 03 Modern History (GK) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 22:43:20 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_05_Polity after 227 min: todo ['Key_Facts_en.txt'] problems []
-08-10 22:43:20 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_05_Polity (TODO: todo 1, problems 0)
-08-10 22:45:11   [Modern_History] FAILED Practice_hi_Set_06.txt: too_long
-08-10 22:45:11   [Modern_History] written 20, failed 5; AI calls today 219/100000
-08-10 22:45:12 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_03_Modern_History after 229 min: todo ['Mind_Map.txt', 'Set 01 en: todo', 'Set 01 hi: todo', 'Set 05 hi: todo'] problems []
-08-10 22:45:12 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_03_Modern_History (TODO: todo 5, problems 0)
-08-10 22:45:12   [Polity] wrote Key_Facts_en.txt (9964 chars)
-08-10 22:45:12   [Polity] written 1, failed 0; AI calls today 220/100000
-08-10 22:45:37   [Medieval_History] review Mind_Map.txt: 1 issue(s): - Sher Shah Suri is incorrectly placed as a sub-node under the Mughal Empire → Sher Shah Suri was not a Mughal empero
-08-10 22:46:22   [Modern_History] Mind_Map.txt try 1: rejected (chat debris "text")
 08-10 22:47:22   [Modern_History] wrote Mind_Map.txt (3012 chars)
 08-10 22:47:22   [Physical_Geography] review Key_Facts_en.txt: 1 issue(s): - Latitudinal extent given as 8°4′ N to 37°6′ N (Fact 5 and Data table row 6) → should be 6°45′ N to 37°6′ N for 
 08-10 22:48:51   [Polity] review Content_en.txt: 2 issue(s): - The mnemonic for the Preamble's Justice order ("S-P-E: Social, Political, Economic") is incorrect → The correct o
@@ -83,4 +72,14 @@
 08-10 23:26:25   [Polity] review Feynman_hi.txt: 1 issue(s): - ग्राम न्यायालय को अनुच्छेद 39A और 40 के उदाहरण के रूप में देना गलत है → ग्राम न्यायालय ग्राम न्यायालय अधिनियम, 20
 08-10 23:28:22   [Medieval_History] review Memory_Hooks_en.txt: 1 issue(s): - Bernier saw Shah Jahan's sons → Bernier saw Aurangzeb (Shah Jahan's son) during his travels (1665–68)
 08-10 23:28:51   [Polity] review Mind_Map.txt: 1 issue(s): - B1: Hindi 'सम्विधान सभा' is misspelled → correct to 'संविधान सभा'
+08-10 23:31:06   [Medieval_History] review Memory_Hooks_hi.txt: 1 issue(s): - Box 9 trick claims “पाँच-पाँच का अंतर” between the three Panipat battles (1526, 1556, 1761) → The actual gap
+08-10 23:32:03   [Physical_Geography] FAILED review Mind_Map.txt: too_long — the chapter must not be published unreviewed
+08-10 23:32:15   [Medieval_History] review: 7 section(s) corrected, 1 failed
+08-10 23:32:15   [Medieval_History] written 7, failed 1; AI calls today 265/100000
+08-10 23:32:15 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_02_Medieval_History after 102 min: todo [] problems []
+08-10 23:32:15 worker 0: nothing left
+08-10 23:34:40   [Polity] review Flashcards_en.txt: 1 issue(s): - Card 7: Incorrect article cited for who presides over a joint sitting (Article 118(4)) → The Speaker of the Lo
+08-10 23:35:48   [Polity] review Flashcards_hi.txt: 1 issue(s): - Card 17: Joint Sitting is provided under Article 108, not Article 118 → The correct article is 108.
+08-10 23:38:52   [Physical_Geography] review Flashcards_hi.txt: 1 issue(s): - Card 3 claims K2 (Godwin Austen) is India's highest peak → The highest peak in India is Kangchenjunga (8,586 m
+08-10 23:44:57   [Polity] review Memory_Hooks_en.txt: 1 issue(s): - Mnemonic 13 hook "4S-D-R" miscounts the S-words in the Preamble (Sovereign, Socialist, Secular are three, no
 ```
