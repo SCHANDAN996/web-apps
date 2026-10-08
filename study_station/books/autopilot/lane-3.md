@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 04:32 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 04:33 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 15 One Word Substitution (12th English) | ✍️ लिख रहा है | 46 मिनट |
-| W2 | Chapter 14 Antonyms (12th English) | 🔎 review हो रहा है | 5 मिनट |
-| W3 | Chapter 16 Idioms Phrases (12th English) | ✍️ लिख रहा है | 11 मिनट |
-| W4 | Chapter 12 Sentence Structure (12th English) | ✍️ लिख रहा है | 7 मिनट |
-| W5 | Chapter 13 Synonyms (12th English) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 15 One Word Substitution (12th English) | ✍️ लिख रहा है | 47 मिनट |
+| W2 | Chapter 14 Antonyms (12th English) | 🔎 review हो रहा है | 6 मिनट |
+| W3 | Chapter 16 Idioms Phrases (12th English) | ✍️ लिख रहा है | 12 मिनट |
+| W4 | Chapter 12 Sentence Structure (12th English) | ✍️ लिख रहा है | 8 मिनट |
+| W5 | Chapter 17 Spelling (12th English) | ✍️ लिख रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -49,10 +49,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 04:20:46 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_16_Idioms_Phrases (TODO: todo 26, problems 0)
-09-10 04:21:29   [Sentence_Structure] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 04:21:34   [Sentence_Structure] Practice_hi_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 04:22:03   [Antonyms] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 09-10 04:22:07   [Sentence_Structure] Practice_hi_Set_06.txt try 2: rejected (parsed 0 questions, numbers -…-)
 09-10 04:22:12   [Idioms_Phrases] wrote Content_en.txt (8002 chars)
 09-10 04:22:37   [Antonyms] Practice_hi_Set_05.txt try 1: rejected (parsed 1 questions, numbers 101…101)
@@ -89,4 +85,8 @@
 09-10 04:32:10   [Idioms_Phrases] wrote Short_Tricks_en.txt (6423 chars)
 09-10 04:32:19   [Synonyms] review: 4 section(s) corrected, 0 failed
 09-10 04:32:19   [Synonyms] written 4, failed 0; AI calls today 305/100000
+09-10 04:32:29 DONE 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_13_Synonyms in 61 min → b20740ca
+09-10 04:32:30 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_17_Spelling (TODO: todo 26, problems 0)
+09-10 04:32:40   [Antonyms] REJECTED review fix Content_hi.txt: corrupted characters
+09-10 04:32:51   [Sentence_Structure] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 ```
