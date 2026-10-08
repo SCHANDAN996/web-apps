@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 08-10-2026 09:44 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 09:59 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 03 Adjective (12th English) | 🔧 सुधार रहा है | 0 मिनट |
-| W2 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 167 मिनट |
-| W3 | Chapter 08 Conjunction (12th English) | ✍️ लिख रहा है | 167 मिनट |
-| W4 | Chapter 09 Articles (12th English) | ✍️ लिख रहा है | 167 मिनट |
-| W5 | Chapter 10 Voice (12th English) | ✍️ लिख रहा है | 167 मिनट |
+| W1 | Chapter 11 Narration (12th English) | ✍️ लिख रहा है | 14 मिनट |
+| W2 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 182 मिनट |
+| W3 | Chapter 08 Conjunction (12th English) | ✍️ लिख रहा है | 182 मिनट |
+| W4 | Chapter 09 Articles (12th English) | 🔧 सुधार रहा है | 9 मिनट |
+| W5 | Chapter 10 Voice (12th English) | ✍️ लिख रहा है | 182 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -25,12 +25,12 @@
 | 12th Maths | 0 | 0 | 23 |
 | 12th GK | 1 | 0 | 23 |
 | 12th Reasoning | 0 | 0 | 25 |
-| 12th English | 5 | 1 | 19 |
+| 12th English | 5 | 2 | 18 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 1 | 0 | 27 |
 | Graduation Reasoning | 0 | 0 | 30 |
 | Graduation English | 23 | 0 | 7 |
-| **कुल** | **80** | **14** | **202** |
+| **कुल** | **80** | **15** | **201** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -38,25 +38,11 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 03 Adjective (English) — 1 बार
+- Chapter 03 Adjective (English) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 20:57:49   [Articles] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-08-10 20:59:10   [Adverb] Practice_en_Set_03.txt try 2: re-solve disagrees (Q74 key a vs re-solve d)
-08-10 20:59:38   [Conjunction] Practice_en_Set_04.txt try 1: re-solve disagrees (Q88 key d vs re-solve c)
-08-10 21:01:00   [Adjective] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-08-10 21:02:41   [Voice] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-08-10 21:06:44   [Adverb] Practice_en_Set_03.txt try 3: re-solve disagrees (Q65 key d vs re-solve ?)
-08-10 21:07:03   [Adjective] Practice_en_Set_05.txt try 1: re-solve disagrees (Q125 key b vs re-solve d)
-08-10 21:08:15   [Voice] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-08-10 21:08:45   [Articles] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-08-10 21:09:53   [Voice] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
-08-10 21:11:24   [Adverb] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-08-10 21:11:42   [Adjective] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-08-10 21:11:46   [Articles] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-08-10 21:14:00   [Conjunction] Practice_en_Set_04.txt try 2: re-solve disagrees (Q88 key c vs re-solve d)
 08-10 21:14:51   [Adjective] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 08-10 21:14:58   [Voice] Practice_en_Set_03.txt try 2: rejected (parsed 0 questions, numbers -…-)
 08-10 21:18:20   [Voice] wrote Practice_en_Set_03.txt (write, 25 MCQs)
@@ -83,4 +69,18 @@
 08-10 21:43:10   [Adjective] repaired Mind_Map_hi.txt (1050 chars)
 08-10 21:43:10   [Adjective] written 1, failed 0; AI calls today 187/100000
 08-10 21:44:04   [Voice] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+08-10 21:44:22   [Articles] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+08-10 21:44:35   [Adjective] REJECTED Mind_Map_hi.txt: too short — not written
+08-10 21:44:35   [Adjective] written 0, failed 1; AI calls today 190/100000
+08-10 21:44:35 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_03_Adjective after 16 min: todo [] problems ['Mind_Map_hi.txt: no ```mermaid graph block']
+08-10 21:44:36 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_11_Narration (TODO: todo 26, problems 0)
+08-10 21:45:57   [Voice] Practice_en_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
+08-10 21:46:07   [Conjunction] Practice_en_Set_05.txt try 1: rejected (Q115:leaked_reasoning)
+08-10 21:47:16   [Narration] wrote Content_en.txt (8921 chars)
+08-10 21:50:01   [Articles] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+08-10 21:50:01   [Articles] written 26, failed 0; AI calls today 194/100000
+08-10 21:52:46   [Adverb] Practice_en_Set_04.txt try 2: re-solve disagrees (Q97 key a vs re-solve b)
+08-10 21:56:47   [Narration] wrote Content_hi.txt (7973 chars)
+08-10 21:57:13   [Adverb] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+08-10 21:59:19   [Narration] wrote Feynman_en.txt (2727 chars)
 ```
