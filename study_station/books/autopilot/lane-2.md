@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 08-10-2026 07:57 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 08:12 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 61 मिनट |
-| W2 | Chapter 03 Modern History (Graduation GK) | ✍️ लिख रहा है | 61 मिनट |
-| W3 | Chapter 04 Constitution Basic (Graduation GK) | ✍️ लिख रहा है | 61 मिनट |
-| W4 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 61 मिनट |
-| W5 | Chapter 06 Physical Geography (Graduation GK) | ✍️ लिख रहा है | 61 मिनट |
+| W1 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 76 मिनट |
+| W2 | Chapter 03 Modern History (Graduation GK) | ✍️ लिख रहा है | 76 मिनट |
+| W3 | Chapter 04 Constitution Basic (Graduation GK) | ✍️ लिख रहा है | 76 मिनट |
+| W4 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 76 मिनट |
+| W5 | Chapter 06 Physical Geography (Graduation GK) | ✍️ लिख रहा है | 76 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,14 +39,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 19:20:33   [Modern_History] wrote Feynman_en.txt (4291 chars)
-08-10 19:20:38   [Medieval_History] wrote Feynman_hi.txt (3397 chars)
-08-10 19:21:29   [Constitution_Basic] Feynman_en.txt try 1: rejected (too short)
-08-10 19:23:20   [Polity] wrote Feynman_en.txt (2597 chars)
-08-10 19:23:32   [Constitution_Basic] wrote Feynman_en.txt (547 chars)
-08-10 19:23:51   [Modern_History] wrote Feynman_hi.txt (2622 chars)
-08-10 19:24:12   [Medieval_History] Mind_Map.txt try 1: rejected (no usable mermaid graph)
-08-10 19:26:18   [Physical_Geography] wrote Key_Facts_hi.txt (11856 chars)
 08-10 19:26:27   [Medieval_History] Mind_Map.txt try 2: rejected (too short)
 08-10 19:26:27   [Medieval_History] REJECTED Mind_Map.txt: too short — not written
 08-10 19:26:43   [Constitution_Basic] wrote Feynman_hi.txt (3043 chars)
@@ -79,4 +71,12 @@
 08-10 19:53:38   [Polity] wrote Memory_Hooks_en.txt (9378 chars)
 08-10 19:55:56   [Medieval_History] wrote Flashcards_hi.txt (4272 chars)
 08-10 19:57:30   [Polity] wrote Memory_Hooks_hi.txt (6007 chars)
+08-10 19:59:19   [Medieval_History] wrote PYQ_en.txt (10209 chars)
+08-10 19:59:31   [Physical_Geography] wrote Memory_Hooks_hi.txt (7145 chars)
+08-10 20:02:59   [Polity] Practice_en_Set_01.txt try 1: rejected (Q23:leaked_reasoning)
+08-10 20:04:45   [Physical_Geography] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+08-10 20:04:47   [Modern_History] wrote Memory_Hooks_hi.txt (6151 chars)
+08-10 20:08:43   [Physical_Geography] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+08-10 20:09:27   [Modern_History] Practice_en_Set_01.txt try 1: re-solve disagrees (Q24 key d vs re-solve b)
+08-10 20:11:48   [Constitution_Basic] FAILED Flashcards_hi.txt: too_long
 ```
