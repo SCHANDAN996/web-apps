@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 04:17 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 04:32 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Economy Basic (12th GK) | ✍️ लिख रहा है | 37 मिनट |
-| W2 | Chapter 08 World Geography (12th GK) | ✍️ लिख रहा है | 42 मिनट |
-| W3 | Chapter 10 Physics Daily (12th GK) | ✍️ लिख रहा है | 27 मिनट |
-| W4 | Chapter 06 Physical Geography (12th GK) | 🔎 review हो रहा है | 11 मिनट |
-| W5 | Chapter 07 States Rivers (12th GK) | ✍️ लिख रहा है | 76 मिनट |
+| W1 | Chapter 09 Economy Basic (12th GK) | ✍️ लिख रहा है | 52 मिनट |
+| W2 | Chapter 08 World Geography (12th GK) | ✍️ लिख रहा है | 57 मिनट |
+| W3 | Chapter 10 Physics Daily (12th GK) | ✍️ लिख रहा है | 42 मिनट |
+| W4 | Chapter 06 Physical Geography (12th GK) | 🔎 review हो रहा है | 26 मिनट |
+| W5 | Chapter 07 States Rivers (12th GK) | ✍️ लिख रहा है | 91 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -25,12 +25,12 @@
 | 12th Maths | 0 | 0 | 23 |
 | 12th GK | 5 | 0 | 19 |
 | 12th Reasoning | 0 | 0 | 25 |
-| 12th English | 10 | 0 | 15 |
+| 12th English | 12 | 0 | 13 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 6 | 0 | 22 |
 | Graduation Reasoning | 0 | 0 | 30 |
 | Graduation English | 28 | 0 | 2 |
-| **कुल** | **99** | **13** | **184** |
+| **कुल** | **101** | **13** | **182** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -45,17 +45,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 03:50:17 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_10_Physics_Daily (TODO: todo 25, problems 0)
-09-10 03:50:47   [Economy_Basic] Feynman_hi.txt try 1: rejected (too short)
-09-10 03:50:52   [World_Geography] wrote Memory_Hooks_en.txt (6096 chars)
-09-10 03:52:10   [Economy_Basic] Feynman_hi.txt try 2: rejected (corrupted characters)
-09-10 03:52:10   [Economy_Basic] REJECTED Feynman_hi.txt: corrupted characters — not written
-09-10 03:52:22   [Physics_Daily] Content_en.txt try 1: rejected (chat debris "Here is the")
-09-10 03:52:38   [World_Geography] wrote Memory_Hooks_hi.txt (4932 chars)
-09-10 03:52:45   [World_Geography] Practice_en_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 03:53:49   [Economy_Basic] wrote Mind_Map.txt (2850 chars)
-09-10 03:54:03   [Physics_Daily] wrote Content_en.txt (10638 chars)
-09-10 03:54:19   [Economy_Basic] wrote Flashcards_en.txt (3064 chars)
 09-10 03:54:22   [States_Rivers] FAILED Memory_Hooks_hi.txt: rate_limited
 09-10 03:55:29   [Economy_Basic] wrote Flashcards_hi.txt (4219 chars)
 09-10 03:56:18   [Economy_Basic] wrote PYQ_en.txt (3965 chars)
@@ -85,4 +74,15 @@
 09-10 04:16:39   [States_Rivers] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
 09-10 04:17:30   [Economy_Basic] Memory_Hooks_en.txt try 1: answer too long — asking for a tighter version
 09-10 04:17:39   [Economy_Basic] wrote Memory_Hooks_en.txt (1058 chars)
+09-10 04:19:26   [World_Geography] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 04:19:59   [Economy_Basic] wrote Memory_Hooks_hi.txt (5520 chars)
+09-10 04:21:11   [World_Geography] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 04:21:50   [States_Rivers] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 04:22:25   [Economy_Basic] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 04:23:36   [World_Geography] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 04:24:16   [States_Rivers] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 04:25:02   [Economy_Basic] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 04:25:20   [World_Geography] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 04:28:11   [Economy_Basic] Practice_en_Set_02.txt try 1: re-solve disagrees (Q32 key a vs re-solve d)
+09-10 04:32:33   [States_Rivers] Practice_en_Set_04.txt try 1: re-solve disagrees (Q90 key d vs re-solve c, Q93 key d vs re-solve a)
 ```
