@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 08-10-2026 11:29 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 11:45 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W5 | Chapter 07 States Rivers (Graduation GK) | ✍️ लिख रहा है | 33 मिनट |
+| W5 | Chapter 07 States Rivers (Graduation GK) | ✍️ लिख रहा है | 48 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -42,8 +42,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 22:57:50   [Medieval_History] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-08-10 22:57:50   [Medieval_History] written 3, failed 1; AI calls today 263/100000
 08-10 22:57:50 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_02_Medieval_History after 29 min: todo ['Flashcards_en.txt'] problems []
 08-10 22:57:50 worker 0: nothing left
 08-10 22:58:34   [Polity] review Flashcards_en.txt: 1 issue(s): - Card 5: The mnemonic "CEMREP" misstates the six Fundamental Rights (duplicates Exploitation, omits Freedom) → 
@@ -82,4 +80,6 @@
 08-10 23:20:31   [States_Rivers] Practice_en_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
 08-10 23:25:16   [States_Rivers] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 08-10 23:28:34   [States_Rivers] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+08-10 23:41:31   [States_Rivers] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+08-10 23:44:45   [States_Rivers] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 ```
