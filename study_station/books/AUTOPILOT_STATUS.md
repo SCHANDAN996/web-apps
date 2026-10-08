@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 03:47 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 04:02 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 46 मिनट |
-| W2 | Chapter 23 Sentence Arrangement (Graduation English) | 🔧 सुधार रहा है | 7 मिनट |
-| W3 | Chapter 02 Classification (Graduation Reasoning) | ✍️ लिख रहा है | 22 मिनट |
-| W4 | Chapter 30 Revision Tracker (Graduation English) | ✍️ लिख रहा है | 46 मिनट |
-| W5 | Chapter 01 Analogy (Graduation Reasoning) | ✍️ लिख रहा है | 46 मिनट |
+| W1 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 12 मिनट |
+| W2 | Chapter 23 Sentence Arrangement (Graduation English) | 🔎 review हो रहा है | 14 मिनट |
+| W3 | Chapter 02 Classification (Graduation Reasoning) | ✍️ लिख रहा है | 38 मिनट |
+| W4 | Chapter 30 Revision Tracker (Graduation English) | ✍️ लिख रहा है | 61 मिनट |
+| W5 | Chapter 01 Analogy (Graduation Reasoning) | ✍️ लिख रहा है | 61 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md)
 
@@ -25,43 +25,26 @@
 | 10th Maths | 9 | 13 | 0 |
 | 10th English | 0 | 0 | 20 |
 | 12th Maths | 0 | 0 | 23 |
-| 12th GK | 3 | 0 | 21 |
+| 12th GK | 4 | 0 | 20 |
 | 12th Reasoning | 0 | 0 | 25 |
 | 12th English | 10 | 0 | 15 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 3 | 0 | 25 |
+| Graduation GK | 6 | 0 | 22 |
 | Graduation Reasoning | 0 | 0 | 30 |
-| Graduation English | 27 | 1 | 2 |
-| **कुल** | **93** | **14** | **189** |
+| Graduation English | 28 | 0 | 2 |
+| **कुल** | **98** | **13** | **185** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
 - 09-10 03:24 — Graduation English · Chapter 25 Word Roots
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 22 Para Jumbles Adv (English) — 1 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 03:17:20   [Analogy] wrote Feynman_hi.txt (3619 chars)
-09-10 03:18:17   [Analogy] Mind_Map.txt try 1: rejected (no usable mermaid graph)
-09-10 03:19:18   [Revision_Tracker] wrote PYQ_en.txt (6928 chars)
-09-10 03:20:12   [Para_Jumbles_Adv] Practice_en_Set_04.txt try 2: re-solve disagrees (Q82 key b vs re-solve d, Q92 key d vs re-solve a, Q98 key a vs re-solve d, Q100 key a vs re-solve b)
-09-10 03:20:59   [Analogy] wrote Mind_Map.txt (2230 chars)
-09-10 03:23:44   [Analogy] wrote Flashcards_en.txt (5072 chars)
-09-10 03:24:16   [Revision_Tracker] wrote PYQ_hi.txt (5756 chars)
-09-10 03:24:29   [Word_Roots] review: 2 section(s) corrected, 0 failed
-09-10 03:24:29   [Word_Roots] written 2, failed 0; AI calls today 46/100000
-09-10 03:24:41 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_25_Word_Roots in 23 min → d8da1c8f
-09-10 03:24:43 START Graduation_Level/Reasoning/Chapter_02_Classification (TODO: todo 25, problems 0)
-09-10 03:25:15   [Sentence_Arrangement] Practice_en_Set_03.txt try 2: re-solve disagrees (Q60 key d vs re-solve a)
-09-10 03:25:42   [Revision_Tracker] wrote Short_Tricks_en.txt (3707 chars)
-09-10 03:26:28   [Analogy] wrote Flashcards_hi.txt (4970 chars)
-09-10 03:27:24   [Para_Jumbles_Adv] Practice_en_Set_04.txt try 3: re-solve disagrees (Q98 key b vs re-solve d)
-09-10 03:28:01   [Revision_Tracker] wrote Short_Tricks_hi.txt (6186 chars)
-09-10 03:28:38   [Analogy] wrote PYQ_en.txt (7643 chars)
-09-10 03:30:04   [Revision_Tracker] wrote Important_Rules_en.txt (5224 chars)
-09-10 03:30:08   [Analogy] wrote PYQ_hi.txt (1809 chars)
-09-10 03:31:31   [Para_Jumbles_Adv] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-09-10 03:31:54   [Revision_Tracker] wrote Important_Rules_hi.txt (5347 chars)
 09-10 03:31:56   [Analogy] wrote Short_Tricks_en.txt (4670 chars)
 09-10 03:33:48   [Analogy] Short_Tricks_hi.txt try 1: rejected (corrupted characters)
 09-10 03:35:02   [Para_Jumbles_Adv] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
@@ -81,4 +64,25 @@
 09-10 03:44:51   [Revision_Tracker] Practice_en_Set_02.txt try 1: re-solve disagrees (Q41 key d vs re-solve b)
 09-10 03:46:28   [Analogy] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 09-10 03:46:32   [Classification] wrote Content_hi.txt (6768 chars)
+09-10 03:47:52   [Revision_Tracker] Practice_en_Set_02.txt try 2: re-solve disagrees (Q41 key d vs re-solve c)
+09-10 03:48:02   [Sentence_Arrangement] repaired PYQ_en.txt (11287 chars)
+09-10 03:48:02   [Sentence_Arrangement] written 1, failed 0; AI calls today 81/100000
+09-10 03:48:14   [Classification] wrote Feynman_en.txt (3451 chars)
+09-10 03:50:14   [Analogy] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 03:50:28   [Para_Jumbles_Adv] FAILED Practice_en_Set_05.txt: too_long
+09-10 03:50:28   [Para_Jumbles_Adv] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
+09-10 03:50:28   [Para_Jumbles_Adv] written 2, failed 2; AI calls today 84/100000
+09-10 03:50:28 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv after 49 min: todo ['Set 05 en: todo', 'Set 05 hi: todo'] problems ['Mind_Map_hi.txt: much shorter than the English section (1280']
+09-10 03:50:29 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv (TODO: todo 2, problems 1)
+09-10 03:50:59   [Revision_Tracker] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+09-10 03:51:59   [Revision_Tracker] Practice_hi_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 03:53:02   [Sentence_Arrangement] review Feynman_hi.txt: 1 issue(s): - Hindi grammar error: "किसी नया विषय की परिचय" → "किसी नए विषय का परिचय"
+09-10 03:54:50   [Revision_Tracker] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 03:57:14   [Para_Jumbles_Adv] Practice_en_Set_05.txt try 1: re-solve disagrees (Q101 key c vs re-solve a, Q104 key b vs re-solve a, Q116 key b vs re-solve a, Q122 key b vs re-solve
+09-10 03:57:27   [Revision_Tracker] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 03:58:48   [Sentence_Arrangement] review PYQ_en.txt: 1 issue(s): - Q3 solution says "Chronological: 1876 → before 1876 → impact → today" but the sequence moves from 1876 to before 1876
+09-10 03:59:26   [Classification] wrote Feynman_hi.txt (3055 chars)
+09-10 03:59:49   [Revision_Tracker] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 04:00:20   [Analogy] Practice_en_Set_02.txt try 1: re-solve disagrees (Q41 key b vs re-solve a, Q42 key a vs re-solve b, Q43 key a vs re-solve b)
+09-10 04:02:19   [Classification] wrote Mind_Map.txt (1891 chars)
 ```
