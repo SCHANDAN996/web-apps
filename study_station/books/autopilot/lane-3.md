@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 08-10-2026 08:13 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 08:28 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 03 Adjective (12th English) | ✍️ लिख रहा है | 76 मिनट |
-| W2 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 76 मिनट |
-| W3 | Chapter 08 Conjunction (12th English) | ✍️ लिख रहा है | 76 मिनट |
-| W4 | Chapter 09 Articles (12th English) | ✍️ लिख रहा है | 76 मिनट |
-| W5 | Chapter 10 Voice (12th English) | ✍️ लिख रहा है | 76 मिनट |
+| W1 | Chapter 03 Adjective (12th English) | ✍️ लिख रहा है | 92 मिनट |
+| W2 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 91 मिनट |
+| W3 | Chapter 08 Conjunction (12th English) | ✍️ लिख रहा है | 91 मिनट |
+| W4 | Chapter 09 Articles (12th English) | ✍️ लिख रहा है | 91 मिनट |
+| W5 | Chapter 10 Voice (12th English) | ✍️ लिख रहा है | 91 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,22 +39,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 19:33:04   [Articles] wrote PYQ_hi.txt (5533 chars)
-08-10 19:33:10   [Adverb] wrote PYQ_hi.txt (6036 chars)
-08-10 19:34:36   [Adjective] wrote Flashcards_hi.txt (4319 chars)
-08-10 19:35:24   [Adjective] PYQ_en.txt try 1: rejected (corrupted characters)
-08-10 19:35:36   [Adverb] wrote Short_Tricks_en.txt (7240 chars)
-08-10 19:35:50   [Conjunction] wrote PYQ_hi.txt (5940 chars)
-08-10 19:35:57   [Articles] wrote Short_Tricks_en.txt (7168 chars)
-08-10 19:36:50   [Adjective] wrote PYQ_en.txt (5473 chars)
-08-10 19:39:39   [Conjunction] wrote Short_Tricks_en.txt (4605 chars)
-08-10 19:40:30   [Adverb] wrote Short_Tricks_hi.txt (5170 chars)
-08-10 19:41:06   [Adjective] wrote PYQ_hi.txt (5855 chars)
-08-10 19:43:32   [Adverb] wrote Important_Rules_en.txt (4228 chars)
-08-10 19:43:53   [Voice] Feynman_hi.txt try 1: answer too long — asking for a tighter version
-08-10 19:45:24   [Adjective] wrote Short_Tricks_en.txt (7278 chars)
-08-10 19:47:02   [Adverb] Important_Rules_hi.txt try 1: rejected (corrupted characters)
-08-10 19:48:55   [Voice] wrote Feynman_hi.txt (4247 chars)
 08-10 19:49:07   [Adjective] wrote Short_Tricks_hi.txt (6049 chars)
 08-10 19:49:13   [Conjunction] wrote Short_Tricks_hi.txt (3485 chars)
 08-10 19:50:45   [Articles] wrote Short_Tricks_hi.txt (5699 chars)
@@ -79,4 +63,20 @@
 08-10 20:06:01   [Voice] wrote PYQ_en.txt (7354 chars)
 08-10 20:11:22   [Voice] wrote PYQ_hi.txt (7225 chars)
 08-10 20:11:33   [Articles] Practice_en_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
+08-10 20:13:26   [Conjunction] Practice_en_Set_01.txt try 3: re-solve disagrees (Q18 key b vs re-solve d)
+08-10 20:13:39   [Voice] wrote Short_Tricks_en.txt (6239 chars)
+08-10 20:15:42   [Articles] Practice_en_Set_01.txt try 2: re-solve disagrees (Q16 key a vs re-solve c)
+08-10 20:16:23   [Adverb] Practice_en_Set_02.txt try 1: re-solve disagrees (Q43 key c vs re-solve b)
+08-10 20:16:32   [Voice] wrote Short_Tricks_hi.txt (5753 chars)
+08-10 20:17:12   [Conjunction] Practice_en_Set_01.txt try 4: re-solve disagrees (Q18 key b vs re-solve d)
+08-10 20:17:12   [Conjunction] REJECTED Practice_en_Set_01.txt: no version passed the checks — not written
+08-10 20:17:12   [Conjunction] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
+08-10 20:20:21   [Articles] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+08-10 20:22:59   [Adjective] FAILED Practice_en_Set_01.txt: too_long
+08-10 20:22:59   [Adjective] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
+08-10 20:24:23   [Conjunction] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+08-10 20:24:30   [Adverb] Practice_en_Set_02.txt try 2: re-solve disagrees (Q47 key d vs re-solve b)
+08-10 20:24:58   [Articles] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+08-10 20:25:02   [Adjective] Practice_en_Set_02.txt try 1: rejected (parsed 3 questions, numbers 26…28)
+08-10 20:28:19   [Conjunction] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 ```
