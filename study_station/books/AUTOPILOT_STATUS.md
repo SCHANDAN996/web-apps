@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 08-10-2026 09:28 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 09:31 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 26 Critical Reading (Graduation English) | 🔎 review हो रहा है | 0 मिनट |
-| W2 | Chapter 25 Word Roots (Graduation English) | ✍️ लिख रहा है | 116 मिनट |
-| W3 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 152 मिनट |
-| W4 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 151 मिनट |
-| W5 | Chapter 27 Precis Writing (Graduation English) | ✍️ लिख रहा है | 36 मिनट |
+| W1 | Chapter 26 Critical Reading (Graduation English) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 25 Word Roots (Graduation English) | ✍️ लिख रहा है | 2 मिनट |
+| W3 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 155 मिनट |
+| W4 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 155 मिनट |
+| W5 | Chapter 27 Precis Writing (Graduation English) | ✍️ लिख रहा है | 39 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md)
 
@@ -36,6 +36,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 08-10 21:31 — Graduation English · Chapter 26 Critical Reading
 - 08-10 20:51 — Graduation English · Chapter 24 RC Adv
 - 08-10 19:33 — Graduation English · Chapter 12 Sentence Structure
 - 08-10 19:32 — Graduation English · Chapter 20 Sentence Improvement Adv
@@ -43,22 +44,11 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 26 Critical Reading (English) — 1 बार
+- Chapter 25 Word Roots (English) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 21:04:58   [Critical_Reading] review Content_hi.txt: 4 issue(s): - "80% उम्मीदवार हार जाते हैं" आविष्कृत आंकड़ा है → आंकड़ा हटाएं या "बहुत से उम्मीदवार" जैसे सामान्य कथन से बदलें
-08-10 21:05:17   [Precis_Writing] wrote Short_Tricks_en.txt (7640 chars)
-08-10 21:06:16   [Precis_Writing] wrote Short_Tricks_hi.txt (3235 chars)
-08-10 21:07:26   [Precis_Writing] wrote Important_Rules_en.txt (6021 chars)
-08-10 21:08:17   [Critical_Reading] review Feynman_en.txt: 1 issue(s): - Section content is corrupted/garbled (tokenizer artifacts, code fragments, random characters) → Replace with cohe
-08-10 21:08:37   [Precis_Writing] wrote Important_Rules_hi.txt (4179 chars)
-08-10 21:09:24   [Sentence_Arrangement] Practice_en_Set_04.txt try 2: re-solve disagrees (Q77 key d vs re-solve a, Q85 key a vs re-solve b, Q93 key c vs re-solve a)
-08-10 21:09:53   [Precis_Writing] Practice_en_Set_01.txt try 1: rejected (parsed 23 questions, numbers 1…25)
-08-10 21:10:00   [Sentence_Arrangement] Practice_en_Set_04.txt try 3: rejected (parsed 0 questions, numbers -…-)
-08-10 21:11:25   [Precis_Writing] Practice_en_Set_01.txt try 2: rejected (parsed 23 questions, numbers 1…25)
-08-10 21:12:34   [Word_Roots] Practice_en_Set_05.txt try 2: re-solve disagrees (Q112 key b vs re-solve c, Q113 key d vs re-solve ?, Q119 key d vs re-solve ?)
-08-10 21:12:51   [Para_Jumbles_Adv] Practice_en_Set_04.txt try 4: re-solve disagrees (Q76 key d vs re-solve a, Q79 key a vs re-solve d, Q88 key c vs re-solve b, Q90 key d vs re-solve a, 
 08-10 21:12:51   [Para_Jumbles_Adv] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
 08-10 21:12:51   [Para_Jumbles_Adv] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
 08-10 21:13:51   [Precis_Writing] wrote Practice_en_Set_01.txt (write, 25 MCQs)
@@ -87,4 +77,16 @@
 08-10 21:28:05 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_26_Critical_Reading (OK: todo 0, problems 0)
 08-10 21:28:22   [Para_Jumbles_Adv] Practice_en_Set_05.txt try 3: re-solve disagrees (Q110 key c vs re-solve b, Q114 key a vs re-solve c)
 08-10 21:28:26   [Precis_Writing] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+08-10 21:28:59   [Word_Roots] Practice_en_Set_06.txt try 4: re-solve disagrees (Q149 key b vs re-solve ?)
+08-10 21:28:59   [Word_Roots] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+08-10 21:28:59   [Word_Roots] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+08-10 21:28:59   [Word_Roots] written 22, failed 4; AI calls today 315/100000
+08-10 21:28:59 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_25_Word_Roots after 117 min: todo ['Set 01 en: todo', 'Set 01 hi: todo', 'Set 06 en: todo', 'Set 06 hi: todo'] problems []
+08-10 21:29:01 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_25_Word_Roots (TODO: todo 4, problems 0)
+08-10 21:29:33   [Word_Roots] Practice_en_Set_01.txt try 1: rejected (parsed 7 questions, numbers 1…7)
+08-10 21:30:12   [Sentence_Arrangement] Practice_en_Set_05.txt try 1: re-solve disagrees (Q102 key d vs re-solve b, Q103 key a vs re-solve b)
+08-10 21:30:41   [Critical_Reading] review Content_en.txt: 1 issue(s): - Invented exam statistic: "Every year, lakhs of aspirants lose 8–12 marks in SSC CGL, IBPS PO and State PCS prelim
+08-10 21:31:43   [Critical_Reading] review: 1 section(s) corrected, 0 failed
+08-10 21:31:43   [Critical_Reading] written 1, failed 0; AI calls today 321/100000
+08-10 21:31:47   [Precis_Writing] Practice_en_Set_04.txt try 1: rejected (parsed 24 questions, numbers 76…100)
 ```
