@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 08-10-2026 09:13 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 09:29 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 03 Adjective (12th English) | ✍️ लिख रहा है | 137 मिनट |
-| W2 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 137 मिनट |
-| W3 | Chapter 08 Conjunction (12th English) | ✍️ लिख रहा है | 137 मिनट |
-| W4 | Chapter 09 Articles (12th English) | ✍️ लिख रहा है | 137 मिनट |
-| W5 | Chapter 10 Voice (12th English) | ✍️ लिख रहा है | 137 मिनट |
+| W1 | Chapter 03 Adjective (12th English) | ✍️ लिख रहा है | 0 मिनट |
+| W2 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 152 मिनट |
+| W3 | Chapter 08 Conjunction (12th English) | ✍️ लिख रहा है | 152 मिनट |
+| W4 | Chapter 09 Articles (12th English) | ✍️ लिख रहा है | 152 मिनट |
+| W5 | Chapter 10 Voice (12th English) | ✍️ लिख रहा है | 152 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -36,24 +36,13 @@
 
 - अभी कोई नहीं
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 03 Adjective (English) — 1 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 20:22:59   [Adjective] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
-08-10 20:24:23   [Conjunction] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-08-10 20:24:30   [Adverb] Practice_en_Set_02.txt try 2: re-solve disagrees (Q47 key d vs re-solve b)
-08-10 20:24:58   [Articles] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-08-10 20:25:02   [Adjective] Practice_en_Set_02.txt try 1: rejected (parsed 3 questions, numbers 26…28)
-08-10 20:28:19   [Conjunction] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-08-10 20:29:22   [Adjective] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-08-10 20:32:12   [Adverb] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-08-10 20:33:03   [Adjective] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-08-10 20:34:53   [Voice] Important_Rules_en.txt try 1: answer too long — asking for a tighter version
-08-10 20:35:12   [Articles] Practice_en_Set_02.txt try 1: re-solve disagrees (Q45 key a vs re-solve d)
-08-10 20:36:33   [Conjunction] Practice_en_Set_03.txt try 1: re-solve disagrees (Q68 key c vs re-solve a)
-08-10 20:36:50   [Adverb] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-08-10 20:39:05   [Voice] wrote Important_Rules_en.txt (4833 chars)
-08-10 20:40:10   [Adjective] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 08-10 20:41:20   [Articles] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 08-10 20:41:41   [Voice] wrote Important_Rules_hi.txt (3377 chars)
 08-10 20:44:03   [Adjective] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
@@ -79,4 +68,19 @@
 08-10 21:11:24   [Adverb] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 08-10 21:11:42   [Adjective] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 08-10 21:11:46   [Articles] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+08-10 21:14:00   [Conjunction] Practice_en_Set_04.txt try 2: re-solve disagrees (Q88 key c vs re-solve d)
+08-10 21:14:51   [Adjective] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+08-10 21:14:58   [Voice] Practice_en_Set_03.txt try 2: rejected (parsed 0 questions, numbers -…-)
+08-10 21:18:20   [Voice] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+08-10 21:19:40   [Articles] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+08-10 21:20:27   [Conjunction] Practice_en_Set_04.txt try 3: re-solve disagrees (Q88 key a vs re-solve d)
+08-10 21:21:10   [Voice] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+08-10 21:22:16   [Articles] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+08-10 21:25:24   [Adjective] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+08-10 21:26:00   [Conjunction] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+08-10 21:26:39   [Articles] Practice_en_Set_06.txt try 1: re-solve disagrees (Q144 key c vs re-solve b)
+08-10 21:28:46   [Adjective] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+08-10 21:28:46   [Adjective] written 24, failed 2; AI calls today 173/100000
+08-10 21:28:46 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_03_Adjective after 152 min: todo ['Set 01 en: todo', 'Set 01 hi: todo'] problems ['Mind_Map_hi.txt: Hindi file is mostly not in Hindi']
+08-10 21:28:46 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_03_Adjective (TODO: todo 2, problems 1)
 ```
