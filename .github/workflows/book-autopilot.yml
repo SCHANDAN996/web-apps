@@ -10,15 +10,32 @@ on:
     - cron: '7 */6 * * *'          # every 6 hours (UTC); a run starts no new chapter after 4.5 h
   workflow_dispatch: {}
 
-concurrency:
-  group: book-autopilot
-  cancel-in-progress: false
-
 permissions:
   contents: write
 
 jobs:
   write-books:
+    # Four lanes run side by side on different books (no two lanes touch the same chapter);
+    # each lane keeps its own status page so their pushes never conflict.
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - lane: lane-1
+            books: Graduation_Level/English Graduation_Level/Reasoning
+            status: AUTOPILOT_STATUS.md
+          - lane: lane-2
+            books: Graduation_Level/GK Graduation_Level/Maths
+            status: autopilot/lane-2.md
+          - lane: lane-3
+            books: 12th_Level/English 12th_Level/Reasoning
+            status: autopilot/lane-3.md
+          - lane: lane-4
+            books: 12th_Level/GK 12th_Level/Maths
+            status: autopilot/lane-4.md
+    concurrency:
+      group: book-autopilot-${{ matrix.lane }}
+      cancel-in-progress: false
     runs-on: ubuntu-latest
     timeout-minutes: 350
     env:
@@ -43,7 +60,7 @@ jobs:
             echo "::error::Repository secret NVIDIA_API_KEY is missing (Settings → Secrets and variables → Actions)."
             exit 1
           fi
-      - name: Write books
+      - name: Write books (${{ matrix.lane }})
         working-directory: study_station/v2
         env:
           # a second key (optional secret NVIDIA_API_KEY_2) is shared out over the workers
@@ -53,13 +70,15 @@ jobs:
         run: |
           git config user.name "study-station-book-autopilot"
           git config user.email "211449723+SCHANDAN996@users.noreply.github.com"
-          python tools/book_autopilot.py --workers 6 --reverse --exclude 10th_Level \
+          mkdir -p ../books/autopilot
+          python tools/book_autopilot.py --workers 5 --reverse --only ${{ matrix.books }} \
+            --name "${{ matrix.lane }}" --status-file "${{ matrix.status }}" \
             --branch "$BOOKS_BRANCH" --state-dir "$RUNNER_TEMP/autopilot" --stop-new-after 270
       - name: Keep the log and rejected outputs for diagnosis
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: autopilot-log-${{ github.run_id }}
+          name: autopilot-${{ matrix.lane }}-${{ github.run_id }}
           path: |
             ${{ runner.temp }}/autopilot/log.txt
             ${{ runner.temp }}/rejects
