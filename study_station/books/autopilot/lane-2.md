@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 08-10-2026 08:28 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 08:43 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 91 मिनट |
-| W2 | Chapter 03 Modern History (Graduation GK) | ✍️ लिख रहा है | 91 मिनट |
-| W3 | Chapter 04 Constitution Basic (Graduation GK) | ✍️ लिख रहा है | 91 मिनट |
-| W4 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 91 मिनट |
-| W5 | Chapter 06 Physical Geography (Graduation GK) | ✍️ लिख रहा है | 91 मिनट |
+| W1 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 106 मिनट |
+| W2 | Chapter 03 Modern History (Graduation GK) | ✍️ लिख रहा है | 106 मिनट |
+| W3 | Chapter 04 Constitution Basic (Graduation GK) | ✍️ लिख रहा है | 106 मिनट |
+| W4 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 106 मिनट |
+| W5 | Chapter 06 Physical Geography (Graduation GK) | ✍️ लिख रहा है | 106 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,16 +39,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 19:35:10   [Modern_History] wrote Flashcards_hi.txt (5131 chars)
-08-10 19:35:41   [Constitution_Basic] wrote Flashcards_en.txt (4145 chars)
-08-10 19:35:51   [Physical_Geography] wrote Flashcards_en.txt (5042 chars)
-08-10 19:36:21   [Polity] wrote Flashcards_hi.txt (3987 chars)
-08-10 19:37:20   [Modern_History] wrote PYQ_en.txt (9239 chars)
-08-10 19:39:11   [Constitution_Basic] Flashcards_hi.txt try 1: rejected (corrupted characters)
-08-10 19:40:04   [Physical_Geography] wrote Flashcards_hi.txt (4559 chars)
-08-10 19:41:26   [Polity] wrote PYQ_en.txt (9222 chars)
-08-10 19:44:12   [Modern_History] wrote PYQ_hi.txt (8160 chars)
-08-10 19:44:22   [Physical_Geography] wrote PYQ_en.txt (9022 chars)
 08-10 19:45:31   [Polity] wrote PYQ_hi.txt (7647 chars)
 08-10 19:47:41   [Modern_History] wrote Memory_Hooks_en.txt (6729 chars)
 08-10 19:48:39   [Polity] Memory_Hooks_en.txt try 1: rejected (corrupted characters)
@@ -79,4 +69,14 @@
 08-10 20:23:54   [Constitution_Basic] wrote Memory_Hooks_en.txt (6285 chars)
 08-10 20:24:08   [Medieval_History] wrote Memory_Hooks_en.txt (5870 chars)
 08-10 20:27:46   [Polity] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+08-10 20:29:23   [Medieval_History] wrote Memory_Hooks_hi.txt (6882 chars)
+08-10 20:29:29   [Physical_Geography] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+08-10 20:31:54   [Modern_History] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+08-10 20:33:32   [Polity] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+08-10 20:33:47   [Physical_Geography] Practice_en_Set_03.txt try 1: rejected (Q64:leaked_reasoning)
+08-10 20:37:03   [Modern_History] Practice_hi_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
+08-10 20:40:37   [Constitution_Basic] Memory_Hooks_hi.txt try 1: rejected (corrupted characters)
+08-10 20:40:59   [Physical_Geography] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+08-10 20:42:20   [Constitution_Basic] Memory_Hooks_hi.txt try 2: rejected (too short)
+08-10 20:42:20   [Constitution_Basic] REJECTED Memory_Hooks_hi.txt: too short — not written
 ```
