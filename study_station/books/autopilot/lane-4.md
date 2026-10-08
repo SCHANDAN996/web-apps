@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 04:32 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 04:41 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Economy Basic (12th GK) | ✍️ लिख रहा है | 52 मिनट |
-| W2 | Chapter 08 World Geography (12th GK) | ✍️ लिख रहा है | 57 मिनट |
-| W3 | Chapter 10 Physics Daily (12th GK) | ✍️ लिख रहा है | 42 मिनट |
-| W4 | Chapter 06 Physical Geography (12th GK) | 🔎 review हो रहा है | 26 मिनट |
-| W5 | Chapter 07 States Rivers (12th GK) | ✍️ लिख रहा है | 91 मिनट |
+| W1 | Chapter 09 Economy Basic (12th GK) | ✍️ लिख रहा है | 61 मिनट |
+| W2 | Chapter 08 World Geography (12th GK) | ✍️ लिख रहा है | 65 मिनट |
+| W3 | Chapter 10 Physics Daily (12th GK) | ✍️ लिख रहा है | 51 मिनट |
+| W4 | Chapter 06 Physical Geography (12th GK) | 📤 push हो रहा है | 0 मिनट |
+| W5 | Chapter 07 States Rivers (12th GK) | ✍️ लिख रहा है | 100 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,6 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 04:41 — 12th GK · Chapter 06 Physical Geography
 - 09-10 03:50 — 12th GK · Chapter 05 Polity
 - 09-10 03:39 — 12th GK · Chapter 02 Medieval History
 
@@ -45,20 +46,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 03:54:22   [States_Rivers] FAILED Memory_Hooks_hi.txt: rate_limited
-09-10 03:55:29   [Economy_Basic] wrote Flashcards_hi.txt (4219 chars)
-09-10 03:56:18   [Economy_Basic] wrote PYQ_en.txt (3965 chars)
-09-10 03:57:17   [Physics_Daily] wrote Content_hi.txt (10442 chars)
-09-10 03:57:49   [Economy_Basic] wrote PYQ_hi.txt (7887 chars)
-09-10 04:00:54   [States_Rivers] Practice_en_Set_01.txt try 1: re-solve disagrees (Q5 key d vs re-solve a, Q22 key d vs re-solve b, Q25 key b vs re-solve ?)
-09-10 04:04:26   [States_Rivers] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 04:06:12   [Physical_Geography] FAILED review Memory_Hooks_hi.txt: too_long — the chapter must not be published unreviewed
-09-10 04:06:12   [Physical_Geography] review: 6 section(s) corrected, 1 failed
-09-10 04:06:12   [Physical_Geography] written 6, failed 1; AI calls today 117/100000
-09-10 04:06:12 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_06_Physical_Geography after 65 min: todo [] problems []
-09-10 04:06:13 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_06_Physical_Geography (OK: todo 0, problems 0)
-09-10 04:06:50   [States_Rivers] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-09-10 04:07:20   [World_Geography] FAILED Practice_en_Set_01.txt: too_long
 09-10 04:07:20   [World_Geography] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
 09-10 04:07:56   [States_Rivers] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
 09-10 04:08:34   [Physical_Geography] review Content_en.txt: 1 issue(s): - The plate that collided with the Eurasian plate to form the Himalayas is incorrectly named as the Indo-Australian
@@ -85,4 +72,18 @@
 09-10 04:25:20   [World_Geography] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 09-10 04:28:11   [Economy_Basic] Practice_en_Set_02.txt try 1: re-solve disagrees (Q32 key a vs re-solve d)
 09-10 04:32:33   [States_Rivers] Practice_en_Set_04.txt try 1: re-solve disagrees (Q90 key d vs re-solve c, Q93 key d vs re-solve a)
+09-10 04:34:23   [Physics_Daily] FAILED Key_Facts_en.txt: too_long
+09-10 04:34:32   [Economy_Basic] Practice_en_Set_02.txt try 2: re-solve disagrees (Q32 key a vs re-solve b)
+09-10 04:35:34   [Physical_Geography] review PYQ_hi.txt: 2 issue(s): - Question 1 explanation incorrectly states K2 is located in Ladakh → K2 is in the Karakoram range in the Gilgit-Baltis
+09-10 04:36:27   [Physics_Daily] wrote Key_Facts_hi.txt (7129 chars)
+09-10 04:36:58   [Physics_Daily] wrote Feynman_en.txt (3296 chars)
+09-10 04:37:41   [Physics_Daily] wrote Feynman_hi.txt (2440 chars)
+09-10 04:38:12   [Physics_Daily] wrote Mind_Map.txt (2598 chars)
+09-10 04:38:38   [Physical_Geography] review Memory_Hooks_en.txt: 1 issue(s): - Hook 2's "Highest Peaks of India" list omits Kangchenjunga (8586 m, on the India‑Nepal border) which is high
+09-10 04:38:49   [Physics_Daily] wrote Flashcards_en.txt (4881 chars)
+09-10 04:39:10   [Economy_Basic] Practice_en_Set_02.txt try 3: re-solve disagrees (Q32 key a vs re-solve b)
+09-10 04:39:34   [States_Rivers] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 04:39:39   [Physics_Daily] wrote Flashcards_hi.txt (4010 chars)
+09-10 04:41:31   [Physical_Geography] review: 4 section(s) corrected, 0 failed
+09-10 04:41:31   [Physical_Geography] written 4, failed 0; AI calls today 175/100000
 ```
