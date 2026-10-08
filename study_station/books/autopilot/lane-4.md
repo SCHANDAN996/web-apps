@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 12:00 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 09-10-2026 12:15 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W5 | Chapter 06 Physical Geography (12th GK) | 🔎 review हो रहा है | 93 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -25,8 +23,8 @@
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 2 | 0 | 26 |
 | Graduation Reasoning | 0 | 0 | 30 |
-| Graduation English | 25 | 0 | 5 |
-| **कुल** | **85** | **15** | **196** |
+| Graduation English | 26 | 0 | 4 |
+| **कुल** | **86** | **15** | **195** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -37,15 +35,11 @@
 - Chapter 02 Medieval History (GK) — 2 बार
 - Chapter 05 Polity (GK) — 2 बार
 - Chapter 03 Modern History (GK) — 2 बार
+- Chapter 06 Physical Geography (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 22:59:10   [Medieval_History] FAILED review Mind_Map.txt: too_long — the chapter must not be published unreviewed
-08-10 23:01:21   [Modern_History] Practice_hi_Set_05.txt try 2: rejected (Q123:needs_context)
-08-10 23:03:48   [Physical_Geography] review Feynman_en.txt: 2 issue(s): - "Hundreds of millions of years ago, when the Indian landmass crashed into Asia and the Himalayas rose" → The Indi
-08-10 23:04:40   [Medieval_History] review Flashcards_en.txt: 1 issue(s): - Card 6 answer contradicts the question: it states no Mughal emperor never fought a battle yet ruled twice, the
-08-10 23:04:53   [Polity] review Content_hi.txt: 1 issue(s): - सरदार स्वर्ण सिंह समिति → सरदार स्वरण सिंह समिति
 08-10 23:06:00   [Modern_History] Practice_hi_Set_05.txt try 3: rejected (Q123:needs_context)
 08-10 23:07:10   [Constitution_Basic] review Memory_Hooks_hi.txt: 4 issue(s): - Mnemonic 5 का संक्षिप्त वाक्य "86 में 10, 2002 में 11" गलत है; 86वाँ संशोधन (2002) ने 11वाँ कर्तव्य जोड़ा, ज
 08-10 23:08:42   [Constitution_Basic] review: 4 section(s) corrected, 0 failed
@@ -81,4 +75,9 @@
 08-10 23:54:47 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_05_Polity after 71 min: todo [] problems ['Memory_Hooks_hi.txt: much shorter than the English section (']
 08-10 23:54:47 worker 3: nothing left
 08-10 23:59:42   [Physical_Geography] review Memory_Hooks_en.txt: 1 issue(s): - Hook 9 claims Mahendragiri is the highest point of Eastern Ghats → The highest peak of Eastern Ghats is Arma
+09-10 00:05:02   [Physical_Geography] review Memory_Hooks_hi.txt: 5 issue(s): - Mnemonic 2: The west-to-east order claim for "Sahyadri → Vindhya → Aravalli" is incorrect; these ranges are 
+09-10 00:08:39   [Physical_Geography] review: 8 section(s) corrected, 1 failed
+09-10 00:08:39   [Physical_Geography] written 8, failed 1; AI calls today 2/100000
+09-10 00:08:39 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_06_Physical_Geography after 312 min: todo [] problems ['Feynman_hi.txt: much shorter than the English section (2566 ']
+09-10 00:08:39 worker 4: nothing left
 ```
