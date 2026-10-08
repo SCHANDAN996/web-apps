@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 08-10-2026 09:23 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 08:48 AM
+**आख़िरी update:** 08-10-2026 09:34 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 08:48 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 22 मिनट |
-| W2 | Chapter 21 Cloze Test Adv (Graduation English) | ✍️ लिख रहा है | 26 मिनट |
-| W3 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 4 मिनट |
-| W4 | Chapter 20 Sentence Improvement Adv (Graduation English) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 33 मिनट |
+| W2 | Chapter 21 Cloze Test Adv (Graduation English) | ✍️ लिख रहा है | 37 मिनट |
+| W3 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
+| W4 | Chapter 24 RC Adv (Graduation English) | ✍️ लिख रहा है | 10 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -49,33 +49,9 @@
 - 06-10 03:05 — Graduation English · Chapter 05 Tense
 - 06-10 03:03 — Graduation English · Chapter 07 Preposition
 
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 20 Sentence Improvement Adv (English) — 1 बार
-
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 09:03:11   [Cloze_Test_Adv] wrote Content_hi.txt (9110 chars)
-08-10 09:03:11   [Fill_in_Blanks_Adv] review Content_en.txt: 9 issue(s): - Duplicate chapter content (two full copies of the chapter) → Remove duplicate, keep one coherent version.
-08-10 09:04:16   [Cloze_Test_Adv] wrote Feynman_en.txt (2664 chars)
-08-10 09:05:34   [Para_Jumbles_Adv] wrote Content_hi.txt (6769 chars)
-08-10 09:05:43   [Fill_in_Blanks_Adv] review Content_hi.txt: 3 issue(s): - The blockquote Hindi sentence "वाक्य में रिक्त स्थान भरें (उन्नत) अंग्रेज़ी भाषा की पुस्तक के लेखक हो।" uses inco
-08-10 09:06:12   [Cloze_Test_Adv] wrote Feynman_hi.txt (2849 chars)
-08-10 09:06:39   [Sentence_Improvement_Adv] REJECTED review fix Mind_Map_en.txt: no usable mermaid graph
-08-10 09:06:57   [Cloze_Test_Adv] wrote Mind_Map_en.txt (1369 chars)
-08-10 09:07:09   [Para_Jumbles_Adv] wrote Feynman_en.txt (3414 chars)
-08-10 09:07:17   [Fill_in_Blanks_Adv] review Feynman_en.txt: 3 issue(s): - "Fill in of the Blanks" → "Fill in the Blanks"
-08-10 09:07:52   [Cloze_Test_Adv] wrote Mind_Map_hi.txt (2074 chars)
-08-10 09:08:28   [Para_Jumbles_Adv] wrote Feynman_hi.txt (2967 chars)
-08-10 09:08:53   [Sentence_Improvement_Adv] review Mind_Map_hi.txt: 8 issue(s): - `D2["Collective Nounla"]` → `D2["Collective Noun"]` (typo in rule name)
-08-10 09:09:10   [Para_Jumbles_Adv] wrote Mind_Map_en.txt (1807 chars)
-08-10 09:09:59   [Para_Jumbles_Adv] wrote Mind_Map_hi.txt (1350 chars)
-08-10 09:11:31   [Fill_in_Blanks_Adv] review Flashcards_en.txt: 1 issue(s): - Card 3: The mnemonic lists "Sports" as a singular noun that looks plural but is singular; "sports" is generall
-08-10 09:12:04   [Para_Jumbles_Adv] wrote Flashcards_en.txt (5573 chars)
-08-10 09:13:26   [Cloze_Test_Adv] wrote Flashcards_en.txt (19192 chars)
-08-10 09:13:31   [Sentence_Improvement_Adv] review Flashcards_hi.txt: 1 issue(s): - Card 11: The back answer incorrectly says "नहीं" to the question "क्रम सही है?" while the explanation confirms
-08-10 09:15:20   [Para_Jumbles_Adv] wrote Flashcards_hi.txt (14457 chars)
 08-10 09:16:35   [Sentence_Improvement_Adv] review PYQ_en.txt: 1 issue(s): - Q7 answer (a) is wrong because it uses question word order in reported speech; the correct option is (c) which remove
 08-10 09:17:43   [Para_Jumbles_Adv] wrote PYQ_en.txt (10110 chars)
 08-10 09:18:42   [Fill_in_Blanks_Adv] review: 4 section(s) corrected, 0 failed
@@ -96,4 +72,24 @@
 08-10 09:22:59   [Sentence_Arrangement] wrote Feynman_en.txt (3642 chars)
 08-10 09:23:23   [Sentence_Improvement_Adv] review: 1 section(s) corrected, 0 failed
 08-10 09:23:23   [Sentence_Improvement_Adv] written 1, failed 0; AI calls today 83/100000
+08-10 09:23:31 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_20_Sentence_Improvement_Adv in 1 min → 4bfa55a
+08-10 09:23:32 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_24_RC_Adv (TODO: todo 26, problems 1)
+08-10 09:24:00   [RC_Adv] wrote Content_en.txt (404 chars)
+08-10 09:24:32   [Para_Jumbles_Adv] wrote Important_Rules_en.txt (5534 chars)
+08-10 09:25:00   [Sentence_Arrangement] wrote Feynman_hi.txt (2642 chars)
+08-10 09:26:01   [Sentence_Arrangement] wrote Mind_Map_en.txt (1481 chars)
+08-10 09:26:27   [Para_Jumbles_Adv] wrote Important_Rules_hi.txt (5935 chars)
+08-10 09:26:34   [RC_Adv] wrote Content_hi.txt (7578 chars)
+08-10 09:27:06   [Sentence_Arrangement] wrote Mind_Map_hi.txt (1400 chars)
+08-10 09:28:21   [RC_Adv] Feynman_en.txt try 1: rejected (too short)
+08-10 09:29:13   [RC_Adv] wrote Feynman_en.txt (2844 chars)
+08-10 09:29:18   [Sentence_Arrangement] wrote Flashcards_en.txt (5922 chars)
+08-10 09:30:46   [Sentence_Arrangement] wrote Flashcards_hi.txt (4805 chars)
+08-10 09:30:54   [RC_Adv] wrote Feynman_hi.txt (2988 chars)
+08-10 09:31:37   [RC_Adv] wrote Mind_Map_en.txt (1488 chars)
+08-10 09:31:42   [Cloze_Test_Adv] Flashcards_hi.txt try 1: answer too long — asking for a tighter version
+08-10 09:32:31   [Sentence_Arrangement] wrote PYQ_en.txt (8302 chars)
+08-10 09:32:36   [RC_Adv] wrote Mind_Map_hi.txt (1759 chars)
+08-10 09:33:49   [Cloze_Test_Adv] wrote Flashcards_hi.txt (5634 chars)
+08-10 09:33:59   [RC_Adv] wrote Flashcards_en.txt (5095 chars)
 ```
