@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 08-10-2026 02:44 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:42 AM
+**आख़िरी update:** 08-10-2026 02:59 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:42 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 10 Voice (12th English) | ✍️ लिख रहा है | 13 मिनट |
-| W2 | Chapter 09 Articles (12th English) | ✍️ लिख रहा है | 23 मिनट |
-| W3 | Chapter 08 Conjunction (12th English) | ✍️ लिख रहा है | 46 मिनट |
-| W4 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 82 मिनट |
-| W5 | Chapter 07 Preposition (12th English) | ✍️ लिख रहा है | 82 मिनट |
+| W1 | Chapter 10 Voice (12th English) | ✍️ लिख रहा है | 28 मिनट |
+| W2 | Chapter 09 Articles (12th English) | ✍️ लिख रहा है | 38 मिनट |
+| W3 | Chapter 08 Conjunction (12th English) | ✍️ लिख रहा है | 61 मिनट |
+| W4 | Chapter 06 Adverb (12th English) | ✍️ लिख रहा है | 97 मिनट |
+| W5 | Chapter 07 Preposition (12th English) | ✍️ लिख रहा है | 97 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -46,19 +46,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 14:18:18   [Noun] review PYQ_hi.txt: 2 issue(s): - Invented exam statistics (~70% factual, ~30% logical) given in the 15/45-second rule section despite the note explici
-08-10 14:18:51   [Preposition] Practice_en_Set_01.txt try 1: re-solve disagrees (Q17 key c vs re-solve d, Q21 key a vs re-solve c, Q24 key c vs re-solve a)
-08-10 14:21:30   [Pronoun] review: 3 section(s) corrected, 0 failed
-08-10 14:21:30   [Pronoun] written 3, failed 0; AI calls today 357/100000
-08-10 14:21:38 DONE 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_02_Pronoun in 71 min → 555c3058
-08-10 14:21:38 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_09_Articles (TODO: todo 26, problems 0)
-08-10 14:22:28   [Preposition] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-08-10 14:22:49   [Articles] wrote Content_en.txt (6775 chars)
-08-10 14:23:09   [Adverb] PYQ_hi.txt try 1: rejected (corrupted characters)
-08-10 14:23:38   [Preposition] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-08-10 14:24:37   [Adverb] wrote PYQ_hi.txt (6671 chars)
-08-10 14:25:27   [Adverb] wrote Short_Tricks_en.txt (555 chars)
-08-10 14:26:42   [Articles] wrote Content_hi.txt (8242 chars)
 08-10 14:26:59   [Preposition] Practice_en_Set_02.txt try 1: re-solve disagrees (Q41 key d vs re-solve a)
 08-10 14:27:12   [Adverb] wrote Short_Tricks_hi.txt (7187 chars)
 08-10 14:27:29   [Articles] wrote Feynman_en.txt (3043 chars)
@@ -86,4 +73,17 @@
 08-10 14:44:11   [Articles] Mind_Map_en.txt try 1: answer too long — asking for a tighter version
 08-10 14:44:37   [Preposition] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 08-10 14:44:48   [Conjunction] Practice_en_Set_02.txt try 2: re-solve disagrees (Q28 key c vs re-solve a, Q35 key d vs re-solve ?)
+08-10 14:45:33   [Articles] wrote Mind_Map_en.txt (4635 chars)
+08-10 14:45:44   [Preposition] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+08-10 14:46:01   [Articles] wrote Mind_Map_hi.txt (1408 chars)
+08-10 14:48:21   [Voice] Content_en.txt try 1: answer too long — asking for a tighter version
+08-10 14:49:49   [Voice] wrote Content_en.txt (9576 chars)
+08-10 14:51:05   [Voice] wrote Content_hi.txt (6460 chars)
+08-10 14:51:33   [Voice] wrote Feynman_en.txt (2595 chars)
+08-10 14:52:33   [Voice] wrote Feynman_hi.txt (2722 chars)
+08-10 14:55:31   [Conjunction] Practice_en_Set_02.txt try 3: re-solve disagrees (Q28 key d vs re-solve a)
+08-10 14:55:31   [Conjunction] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
+08-10 14:55:31   [Conjunction] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+08-10 14:57:09   [Adverb] FAILED Practice_en_Set_01.txt: too_long
+08-10 14:57:09   [Adverb] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
 ```
