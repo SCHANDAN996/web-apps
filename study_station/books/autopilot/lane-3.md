@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 08-10-2026 05:15 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:42 AM
+**आख़िरी update:** 08-10-2026 05:30 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 11:42 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W5 | Chapter 11 Narration (12th English) | ✍️ लिख रहा है | 87 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -43,16 +41,11 @@
 - Chapter 08 Conjunction (English) — 1 बार
 - Chapter 09 Articles (English) — 1 बार
 - Chapter 10 Voice (English) — 1 बार
+- Chapter 11 Narration (English) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 16:20:32   [Articles] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-08-10 16:20:32   [Articles] written 24, failed 2; AI calls today 543/100000
-08-10 16:20:33 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_09_Articles after 119 min: todo ['Set 04 en: todo', 'Set 04 hi: todo'] problems ['Mind_Map_hi.txt: much shorter than the English section (1407']
-08-10 16:20:33 worker 1: nothing left
-08-10 16:20:33   [Voice] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-08-10 16:20:33   [Voice] written 24, failed 2; AI calls today 543/100000
 08-10 16:20:33 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_10_Voice after 109 min: todo ['Set 04 en: todo', 'Set 04 hi: todo'] problems []
 08-10 16:20:33 worker 0: nothing left
 08-10 16:22:28   [Narration] wrote PYQ_hi.txt (7776 chars)
@@ -87,4 +80,10 @@
 08-10 17:05:43 worker 3: nothing left
 08-10 17:07:27   [Narration] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 08-10 17:15:11   [Narration] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+08-10 17:19:16   [Narration] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+08-10 17:22:32   [Narration] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+08-10 17:25:28   [Narration] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+08-10 17:25:28   [Narration] written 24, failed 2; AI calls today 580/100000
+08-10 17:25:28 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_11_Narration after 98 min: todo ['Mind_Map_hi.txt', 'Set 02 hi: todo'] problems []
+08-10 17:25:28 worker 4: nothing left
 ```
