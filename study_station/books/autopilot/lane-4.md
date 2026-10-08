@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 08-10-2026 09:13 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 09:28 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Medieval History (12th GK) | ✍️ लिख रहा है | 137 मिनट |
-| W2 | Chapter 03 Modern History (12th GK) | ✍️ लिख रहा है | 137 मिनट |
-| W3 | Chapter 04 Constitution Basic (12th GK) | ✍️ लिख रहा है | 137 मिनट |
-| W4 | Chapter 05 Polity (12th GK) | ✍️ लिख रहा है | 137 मिनट |
-| W5 | Chapter 06 Physical Geography (12th GK) | ✍️ लिख रहा है | 136 मिनट |
+| W1 | Chapter 02 Medieval History (12th GK) | ✍️ लिख रहा है | 152 मिनट |
+| W2 | Chapter 03 Modern History (12th GK) | ✍️ लिख रहा है | 152 मिनट |
+| W3 | Chapter 04 Constitution Basic (12th GK) | ✍️ लिख रहा है | 152 मिनट |
+| W4 | Chapter 05 Polity (12th GK) | ✍️ लिख रहा है | 152 मिनट |
+| W5 | Chapter 06 Physical Geography (12th GK) | ✍️ लिख रहा है | 152 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,18 +39,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 20:19:26   [Physical_Geography] Practice_en_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
-08-10 20:19:27   [Medieval_History] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-08-10 20:19:54   [Polity] wrote Feynman_en.txt (4060 chars)
-08-10 20:25:07   [Polity] wrote Feynman_hi.txt (2650 chars)
-08-10 20:28:07   [Medieval_History] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-08-10 20:28:33   [Constitution_Basic] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-08-10 20:28:41   [Polity] wrote Mind_Map.txt (3201 chars)
-08-10 20:30:08   [Modern_History] FAILED Practice_en_Set_01.txt: too_long
-08-10 20:30:08   [Modern_History] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
-08-10 20:30:43   [Polity] wrote Flashcards_en.txt (3944 chars)
-08-10 20:32:13   [Medieval_History] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-08-10 20:34:15   [Constitution_Basic] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 08-10 20:35:14   [Polity] wrote Flashcards_hi.txt (4001 chars)
 08-10 20:36:21   [Medieval_History] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 08-10 20:37:32   [Modern_History] wrote Practice_en_Set_02.txt (write, 25 MCQs)
@@ -79,4 +67,16 @@
 08-10 21:09:16   [Polity] wrote Memory_Hooks_hi.txt (7402 chars)
 08-10 21:10:07   [Medieval_History] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 08-10 21:13:15   [Physical_Geography] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+08-10 21:14:10   [Modern_History] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+08-10 21:14:40   [Medieval_History] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+08-10 21:15:04   [Constitution_Basic] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+08-10 21:16:14   [Polity] Practice_en_Set_01.txt try 1: re-solve disagrees (Q22 key a vs re-solve ?, Q24 key c vs re-solve b)
+08-10 21:21:53   [Polity] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+08-10 21:22:40   [Physical_Geography] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+08-10 21:23:45   [Modern_History] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+08-10 21:23:52   [Polity] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
+08-10 21:26:43   [Constitution_Basic] Practice_en_Set_06.txt try 1: re-solve disagrees (Q146 key c vs re-solve b, Q150 key b vs re-solve ?)
+08-10 21:27:55   [Polity] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+08-10 21:28:11   [Physical_Geography] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+08-10 21:28:15   [Modern_History] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 ```
