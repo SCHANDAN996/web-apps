@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 08-10-2026 09:58 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 10:14 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 182 मिनट |
-| W2 | Chapter 03 Modern History (Graduation GK) | ✍️ लिख रहा है | 182 मिनट |
-| W3 | Chapter 04 Constitution Basic (Graduation GK) | ✍️ लिख रहा है | 1 मिनट |
-| W4 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 182 मिनट |
-| W5 | Chapter 06 Physical Geography (Graduation GK) | 🔎 review हो रहा है | 5 मिनट |
+| W1 | Chapter 02 Medieval History (Graduation GK) | ✍️ लिख रहा है | 197 मिनट |
+| W2 | Chapter 03 Modern History (Graduation GK) | ✍️ लिख रहा है | 197 मिनट |
+| W3 | Chapter 04 Constitution Basic (Graduation GK) | 🔎 review हो रहा है | 0 मिनट |
+| W4 | Chapter 05 Polity (Graduation GK) | ✍️ लिख रहा है | 13 मिनट |
+| W5 | Chapter 06 Physical Geography (Graduation GK) | 🔎 review हो रहा है | 20 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -27,10 +27,10 @@
 | 12th Reasoning | 0 | 0 | 25 |
 | 12th English | 5 | 0 | 20 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 2 | 0 | 26 |
+| Graduation GK | 3 | 0 | 25 |
 | Graduation Reasoning | 0 | 0 | 30 |
 | Graduation English | 23 | 0 | 7 |
-| **कुल** | **81** | **13** | **202** |
+| **कुल** | **82** | **13** | **201** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -40,30 +40,11 @@
 
 - Chapter 06 Physical Geography (GK) — 1 बार
 - Chapter 04 Constitution Basic (GK) — 1 बार
+- Chapter 05 Polity (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 21:18:13   [Constitution_Basic] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-08-10 21:18:40   [Modern_History] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-08-10 21:19:40   [Medieval_History] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-08-10 21:20:25   [Modern_History] Practice_hi_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
-08-10 21:24:21   [Constitution_Basic] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-08-10 21:24:32   [Modern_History] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-08-10 21:25:26   [Physical_Geography] FAILED Practice_en_Set_06.txt: too_long
-08-10 21:25:26   [Physical_Geography] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-08-10 21:25:26   [Physical_Geography] written 23, failed 2; AI calls today 143/100000
-08-10 21:25:26 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_06_Physical_Geography after 149 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems ['Feynman_hi.txt: much shorter than the English section (445 v', 'Key_Facts_hi.txt: Hindi file is mostly not in Hindi']
-08-10 21:25:27 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_06_Physical_Geography (TODO: todo 2, problems 2)
-08-10 21:25:51   [Medieval_History] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-08-10 21:31:09   [Modern_History] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-08-10 21:31:54   [Polity] Practice_en_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
-08-10 21:32:04   [Physical_Geography] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-08-10 21:36:01   [Modern_History] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-08-10 21:36:29   [Polity] Practice_en_Set_06.txt try 2: rejected (Q144:leaked_reasoning)
-08-10 21:36:52   [Constitution_Basic] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-08-10 21:37:29   [Medieval_History] Practice_en_Set_04.txt try 1: rejected (Q76:duplicate_options,Q77:duplicate_options,Q78:duplicate_options,Q79:duplicate_options,Q80:duplicate_options)
-08-10 21:38:51   [Physical_Geography] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 08-10 21:38:51   [Physical_Geography] written 2, failed 0; AI calls today 154/100000
 08-10 21:42:39   [Medieval_History] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 08-10 21:43:08   [Constitution_Basic] wrote Practice_en_Set_05.txt (write, 25 MCQs)
@@ -84,4 +65,24 @@
 08-10 21:57:01 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_04_Constitution_Basic after 180 min: todo ['Flashcards_hi.txt', 'Memory_Hooks_hi.txt'] problems ['Content_hi.txt: Hindi file is mostly not in Hindi', 'Key_Facts_hi.txt: Hindi file is mostly not in Hindi']
 08-10 21:57:01 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_04_Constitution_Basic (TODO: todo 2, problems 2)
 08-10 21:57:08   [Medieval_History] Practice_en_Set_05.txt try 1: re-solve disagrees (Q109 key b vs re-solve c)
+08-10 21:59:17   [Modern_History] Practice_en_Set_06.txt try 3: re-solve disagrees (Q129 key b vs re-solve d)
+08-10 21:59:46   [Constitution_Basic] wrote Flashcards_hi.txt (4288 chars)
+08-10 22:00:37   [Polity] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+08-10 22:00:37   [Polity] written 23, failed 2; AI calls today 180/100000
+08-10 22:00:37 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_05_Polity after 184 min: todo ['Set 03 en: todo', 'Set 03 hi: todo'] problems []
+08-10 22:00:37 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_05_Polity (TODO: todo 2, problems 0)
+08-10 22:01:23   [Physical_Geography] review Content_hi.txt: 2 issue(s): - "बीच दोआब" (ब्यास-सतलुज के बीच) गलत नाम है → सही नाम "बिस्त दोआब" (Bist Doab) है।
+08-10 22:05:09   [Polity] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+08-10 22:07:22   [Constitution_Basic] wrote Memory_Hooks_hi.txt (5137 chars)
+08-10 22:07:22   [Constitution_Basic] written 2, failed 0; AI calls today 186/100000
+08-10 22:07:24   [Modern_History] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+08-10 22:08:54   [Physical_Geography] review Key_Facts_en.txt: 1 issue(s): - Highest peak of Lesser Himalaya incorrectly given as Nanga Parbat (8,126 m) → Nanga Parbat is in the Greater Hi
+08-10 22:10:02   [Physical_Geography] REJECTED review fix Key_Facts_en.txt: too short
+08-10 22:10:27   [Modern_History] Practice_hi_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
+08-10 22:10:54   [Medieval_History] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+08-10 22:11:52   [Modern_History] Practice_hi_Set_06.txt try 2: rejected (parsed 0 questions, numbers -…-)
+08-10 22:11:52   [Constitution_Basic] repaired Content_hi.txt (6221 chars)
+08-10 22:13:17   [Polity] Practice_hi_Set_03.txt try 1: rejected (answer letters differ from English)
+08-10 22:13:42   [Constitution_Basic] repaired Key_Facts_hi.txt (3076 chars)
+08-10 22:13:42   [Constitution_Basic] written 2, failed 0; AI calls today 196/100000
 ```
