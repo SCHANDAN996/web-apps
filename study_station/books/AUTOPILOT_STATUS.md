@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति
 
-**आख़िरी update:** 08-10-2026 09:41 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 09:41 AM
+**आख़िरी update:** 08-10-2026 09:57 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 09:41 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,12 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 21 Cloze Test Adv (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
-| W2 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
-| W3 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
-| W4 | Chapter 24 RC Adv (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
-| W5 | Chapter 25 Word Roots (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
-| W6 | Chapter 26 Critical Reading (Graduation English) | ✍️ लिख रहा है | 0 मिनट |
+| W1 | Chapter 21 Cloze Test Adv (Graduation English) | ✍️ लिख रहा है | 16 मिनट |
+| W2 | Chapter 22 Para Jumbles Adv (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
+| W3 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
+| W4 | Chapter 24 RC Adv (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
+| W5 | Chapter 25 Word Roots (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
+| W6 | Chapter 26 Critical Reading (Graduation English) | ✍️ लिख रहा है | 15 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -54,39 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 09:23:23   [Sentence_Improvement_Adv] written 1, failed 0; AI calls today 83/100000
-08-10 09:23:31 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_20_Sentence_Improvement_Adv in 1 min → 4bfa55a
-08-10 09:23:32 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_24_RC_Adv (TODO: todo 26, problems 1)
-08-10 09:24:00   [RC_Adv] wrote Content_en.txt (404 chars)
-08-10 09:24:32   [Para_Jumbles_Adv] wrote Important_Rules_en.txt (5534 chars)
-08-10 09:25:00   [Sentence_Arrangement] wrote Feynman_hi.txt (2642 chars)
-08-10 09:26:01   [Sentence_Arrangement] wrote Mind_Map_en.txt (1481 chars)
-08-10 09:26:27   [Para_Jumbles_Adv] wrote Important_Rules_hi.txt (5935 chars)
-08-10 09:26:34   [RC_Adv] wrote Content_hi.txt (7578 chars)
-08-10 09:27:06   [Sentence_Arrangement] wrote Mind_Map_hi.txt (1400 chars)
-08-10 09:28:21   [RC_Adv] Feynman_en.txt try 1: rejected (too short)
-08-10 09:29:13   [RC_Adv] wrote Feynman_en.txt (2844 chars)
-08-10 09:29:18   [Sentence_Arrangement] wrote Flashcards_en.txt (5922 chars)
-08-10 09:30:46   [Sentence_Arrangement] wrote Flashcards_hi.txt (4805 chars)
-08-10 09:30:54   [RC_Adv] wrote Feynman_hi.txt (2988 chars)
-08-10 09:31:37   [RC_Adv] wrote Mind_Map_en.txt (1488 chars)
-08-10 09:31:42   [Cloze_Test_Adv] Flashcards_hi.txt try 1: answer too long — asking for a tighter version
-08-10 09:32:31   [Sentence_Arrangement] wrote PYQ_en.txt (8302 chars)
-08-10 09:32:36   [RC_Adv] wrote Mind_Map_hi.txt (1759 chars)
-08-10 09:33:49   [Cloze_Test_Adv] wrote Flashcards_hi.txt (5634 chars)
-08-10 09:33:59   [RC_Adv] wrote Flashcards_en.txt (5095 chars)
-08-10 09:34:54   [Sentence_Arrangement] wrote PYQ_hi.txt (9084 chars)
-08-10 09:34:59   [Cloze_Test_Adv] wrote PYQ_en.txt (4345 chars)
-08-10 09:36:16   [RC_Adv] wrote Flashcards_hi.txt (5277 chars)
-08-10 09:36:17   [Para_Jumbles_Adv] Practice_en_Set_01.txt try 1: re-solve disagrees (Q2 key d vs re-solve c, Q15 key d vs re-solve c, Q21 key c vs re-solve a, Q22 key c vs re-solve a)
-08-10 09:36:19   [Sentence_Arrangement] wrote Short_Tricks_en.txt (6818 chars)
-08-10 09:36:43   [Cloze_Test_Adv] wrote PYQ_hi.txt (6108 chars)
-08-10 09:38:04   [RC_Adv] wrote PYQ_en.txt (10700 chars)
-08-10 09:38:36   [RC_Adv] PYQ_hi.txt try 1: rejected (too short)
-08-10 09:39:48   [Sentence_Arrangement] wrote Short_Tricks_hi.txt (5201 chars)
-08-10 09:40:17   [Para_Jumbles_Adv] Practice_en_Set_01.txt try 2: re-solve disagrees (Q13 key d vs re-solve b)
-08-10 09:40:39   [RC_Adv] wrote PYQ_hi.txt (9447 chars)
-08-10 09:41:00 autopilot start: 6 workers, reverse=True
 08-10 09:41:02 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_21_Cloze_Test_Adv (TODO: todo 16, problems 1)
 08-10 09:41:07 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv (TODO: todo 12, problems 4)
 08-10 09:41:12 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_23_Sentence_Arrangement (TODO: todo 14, problems 2)
@@ -94,4 +61,37 @@
 08-10 09:41:21 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_25_Word_Roots (TODO: todo 26, problems 0)
 08-10 09:41:26 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_26_Critical_Reading (TODO: todo 26, problems 1)
 08-10 09:42:00   [RC_Adv] wrote Short_Tricks_en.txt (2049 chars)
+08-10 09:42:54   [Cloze_Test_Adv] wrote Short_Tricks_en.txt (6936 chars)
+08-10 09:43:02   [Word_Roots] wrote Content_en.txt (9943 chars)
+08-10 09:43:20   [Critical_Reading] wrote Content_en.txt (9084 chars)
+08-10 09:43:42   [Sentence_Arrangement] wrote Important_Rules_en.txt (5876 chars)
+08-10 09:44:20   [RC_Adv] wrote Short_Tricks_hi.txt (6864 chars)
+08-10 09:44:43   [Sentence_Arrangement] wrote Important_Rules_hi.txt (945 chars)
+08-10 09:44:47   [Cloze_Test_Adv] wrote Short_Tricks_hi.txt (6242 chars)
+08-10 09:45:45   [Critical_Reading] wrote Content_hi.txt (8048 chars)
+08-10 09:45:59   [RC_Adv] wrote Important_Rules_en.txt (5233 chars)
+08-10 09:46:09   [Cloze_Test_Adv] wrote Important_Rules_en.txt (5124 chars)
+08-10 09:46:26   [Para_Jumbles_Adv] Practice_en_Set_01.txt try 1: re-solve disagrees (Q12 key d vs re-solve a)
+08-10 09:46:33   [Critical_Reading] wrote Feynman_en.txt (2826 chars)
+08-10 09:46:44   [Word_Roots] wrote Content_hi.txt (8313 chars)
+08-10 09:47:26   [Cloze_Test_Adv] wrote Important_Rules_hi.txt (4723 chars)
+08-10 09:47:31   [Word_Roots] wrote Feynman_en.txt (2858 chars)
+08-10 09:47:32   [RC_Adv] wrote Important_Rules_hi.txt (4960 chars)
+08-10 09:47:53   [Critical_Reading] wrote Feynman_hi.txt (3639 chars)
+08-10 09:49:01   [Critical_Reading] wrote Mind_Map_en.txt (1568 chars)
+08-10 09:49:38   [RC_Adv] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+08-10 09:49:40   [Cloze_Test_Adv] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+08-10 09:49:49   [Critical_Reading] wrote Mind_Map_hi.txt (1548 chars)
+08-10 09:49:53   [Word_Roots] wrote Feynman_hi.txt (8536 chars)
+08-10 09:50:56   [Critical_Reading] wrote Flashcards_en.txt (5043 chars)
+08-10 09:51:47   [RC_Adv] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+08-10 09:52:02   [Word_Roots] wrote Mind_Map_en.txt (1589 chars)
+08-10 09:52:42   [Critical_Reading] wrote Flashcards_hi.txt (4326 chars)
+08-10 09:53:07   [Para_Jumbles_Adv] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+08-10 09:53:29   [RC_Adv] Practice_en_Set_02.txt try 1: rejected (parsed 23 questions, numbers 26…50)
+08-10 09:54:09   [Sentence_Arrangement] Practice_en_Set_01.txt try 1: re-solve disagrees (Q1 key a vs re-solve ?, Q2 key d vs re-solve ?, Q5 key a vs re-solve ?, Q8 key b vs re-solve ?, Q10 
+08-10 09:54:18   [Critical_Reading] wrote PYQ_en.txt (9706 chars)
+08-10 09:56:35   [Para_Jumbles_Adv] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+08-10 09:56:37   [RC_Adv] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+08-10 09:57:02   [Cloze_Test_Adv] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 ```
