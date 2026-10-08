@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 08-10-2026 11:29 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
+**आख़िरी update:** 08-10-2026 11:44 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 08-10 06:56 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 29 Placement Test (Graduation English) | ✍️ लिख रहा है | 53 मिनट |
-| W4 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 80 मिनट |
+| W2 | Chapter 29 Placement Test (Graduation English) | 🔎 review हो रहा है | 13 मिनट |
+| W4 | Chapter 23 Sentence Arrangement (Graduation English) | ✍️ लिख रहा है | 95 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md)
 
@@ -28,8 +28,8 @@
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 2 | 0 | 26 |
 | Graduation Reasoning | 0 | 0 | 30 |
-| Graduation English | 26 | 0 | 4 |
-| **कुल** | **85** | **13** | **198** |
+| Graduation English | 27 | 0 | 3 |
+| **कुल** | **86** | **13** | **197** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -49,13 +49,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-08-10 22:52:05   [Error_Log] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-08-10 22:52:16   [Placement_Test] wrote Important_Rules_en.txt (4884 chars)
-08-10 22:53:48   [Placement_Test] wrote Important_Rules_hi.txt (5063 chars)
-08-10 22:53:52   [Error_Log] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-08-10 22:53:52   [Error_Log] written 26, failed 0; AI calls today 459/100000
-08-10 22:57:36   [Placement_Test] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-08-10 22:58:48   [Precis_Writing] review Important_Rules_hi.txt: 1 issue(s): - Morphology table entry for "related to the economy" incorrectly gives "economic(al)" as if both forms mea
 08-10 22:59:05   [Placement_Test] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 08-10 22:59:43   [Precis_Writing] review: 2 section(s) corrected, 0 failed
 08-10 22:59:43   [Precis_Writing] written 2, failed 0; AI calls today 466/100000
@@ -89,4 +82,11 @@
 08-10 23:28:35 DONE Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_28_Error_Log in 116 min → 914562fe
 08-10 23:28:35 worker 0: nothing left
 08-10 23:29:24   [Placement_Test] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+08-10 23:31:07   [Placement_Test] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+08-10 23:31:07   [Placement_Test] written 26, failed 0; AI calls today 505/100000
+08-10 23:34:01   [Sentence_Arrangement] Practice_en_Set_04.txt try 1: re-solve disagrees (Q81 key d vs re-solve c, Q89 key d vs re-solve a)
+08-10 23:37:38   [Placement_Test] review Content_en.txt: 2 issue(s): - "80% of error-spotting questions" is an invented weightage statistic with no source → remove the percentage or ci
+08-10 23:38:09   [Sentence_Arrangement] Practice_en_Set_04.txt try 2: re-solve disagrees (Q81 key c vs re-solve a, Q95 key d vs re-solve a)
+08-10 23:43:45   [Sentence_Arrangement] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+08-10 23:44:39   [Placement_Test] review Content_hi.txt: 1 issue(s): - The mnemonic for the 12 grammar rules does not match the listed rules: it omits Rule 1 (Subject‑Verb Agreement wi
 ```
