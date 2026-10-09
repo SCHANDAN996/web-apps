@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 05:21 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 05:25 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Ratio Proportion (12th Maths) | ✍️ लिख रहा है | 9 मिनट |
-| W2 | Chapter 05 Percentage (12th Maths) | 🔎 review हो रहा है | 25 मिनट |
-| W3 | Chapter 04 Fractions Decimals (12th Maths) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 06 Average (12th Maths) | ✍️ लिख रहा है | 69 मिनट |
-| W5 | Chapter 03 Simplification (12th Maths) | ✍️ लिख रहा है | 12 मिनट |
+| W1 | Chapter 07 Ratio Proportion (12th Maths) | ✍️ लिख रहा है | 13 मिनट |
+| W2 | Chapter 05 Percentage (12th Maths) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 08 Profit Loss (12th Maths) | ✍️ लिख रहा है | 3 मिनट |
+| W4 | Chapter 06 Average (12th Maths) | ✍️ लिख रहा है | 73 मिनट |
+| W5 | Chapter 09 Simple Interest (12th Maths) | ✍️ लिख रहा है | 1 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -21,19 +21,20 @@
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 9 | 13 | 0 |
-| 10th English | 3 | 0 | 17 |
+| 10th English | 5 | 0 | 15 |
 | 12th Maths | 3 | 1 | 19 |
 | 12th GK | 22 | 2 | 0 |
 | 12th Reasoning | 3 | 0 | 22 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 21 | 0 | 7 |
+| Graduation GK | 22 | 0 | 6 |
 | Graduation Reasoning | 8 | 0 | 22 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **162** | **16** | **118** |
+| **कुल** | **165** | **16** | **115** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 17:25 — 12th Maths · Chapter 05 Percentage
 - 09-10 17:21 — 12th Maths · Chapter 04 Fractions Decimals
 - 09-10 15:04 — 12th GK · Chapter 24 Reports Indices
 - 09-10 15:01 — 12th GK · Chapter 25 Govt Schemes
@@ -48,25 +49,11 @@
 - Chapter 01 Number System (Maths) — 2 बार
 - Chapter 02 LCM HCF (Maths) — 2 बार
 - Chapter 05 Percentage (Maths) — 1 बार
-- Chapter 03 Simplification (Maths) — 1 बार
+- Chapter 03 Simplification (Maths) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 16:52:56   [Percentage] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 16:52:56   [Percentage] written 24, failed 1; AI calls today 331/100000
-09-10 16:52:56 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_05_Percentage after 108 min: todo ['Set 01 hi: todo'] problems []
-09-10 16:52:58 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_05_Percentage (TODO: todo 1, problems 0)
-09-10 16:53:01   [LCM_HCF] review PYQ_en.txt: 1 issue(s): - Q1 answer and solution incorrectly give 304 as the smallest number leaving remainder 4 when divided by 12, 15, 20; th
-09-10 16:53:13   [Simplification] Practice_en_Set_06.txt try 3: rejected (parsed 0 questions, numbers -…-)
-09-10 16:55:50   [Percentage] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-09-10 16:55:50   [Percentage] written 1, failed 0; AI calls today 337/100000
-09-10 16:56:18   [Average] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-09-10 16:59:41   [Percentage] review Content_hi.txt: 1 issue(s): - Active Recall answer for election model: winner gets 55% votes, margin 300 votes → difference is 10% (55%−45%), n
-09-10 17:00:44   [Fractions_Decimals] review Flashcards_en.txt: 1 issue(s): - Card 13: The worked example (166 − 16)/900 does not follow the stated rule for 0.1666…; the correct numerator 
-09-10 17:01:57   [Average] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-09-10 17:04:33   [Average] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-09-10 17:05:11   [LCM_HCF] review Short_Tricks_hi.txt: 3 issue(s): - "लंबा = Large" → "बड़ा = Large"
 09-10 17:05:51   [Fractions_Decimals] review Flashcards_hi.txt: 1 issue(s): - कार्ड 17: प्रतिशत मान 16.6% दिया गया है, जबकि 1/6 का exact प्रतिशत 16.666…% है → 16.666…% (या 16.6̅%)
 09-10 17:07:33   [Percentage] review Feynman_en.txt: 4 issue(s): - The section is corrupted template text, not educational content: repetitive "The story" phrases, unclosed quotes,
 09-10 17:08:44   [Simplification] FAILED Practice_en_Set_06.txt: too_long
@@ -93,4 +80,18 @@
 09-10 17:21:16   [Average] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 09-10 17:21:29   [Fractions_Decimals] review: 5 section(s) corrected, 0 failed
 09-10 17:21:29   [Fractions_Decimals] written 5, failed 0; AI calls today 387/100000
+09-10 17:21:44 DONE 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_04_Fractions_Decimals in 140 min → 5df2c9e2
+09-10 17:21:45 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_08_Profit_Loss (TODO: todo 25, problems 0)
+09-10 17:22:11   [Percentage] review Important_Formulas_en.txt: 1 issue(s): - Fraction ↔ Percentage: 1/11 = 9⅑% (9 1/9%) is incorrect → 1/11 = 9 1/11% (≈9.09%)
+09-10 17:22:31   [Profit_Loss] wrote Content_en.txt (3384 chars)
+09-10 17:23:27   [Simplification] FAILED Practice_hi_Set_06.txt: rate_limited
+09-10 17:23:27   [Simplification] written 2, failed 1; AI calls today 390/100000
+09-10 17:23:28 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_03_Simplification after 15 min: todo ['Set 06 hi: todo'] problems ['Important_Formulas_hi.txt: much shorter than the English sec', 'Set 02 hi: Q32:leaked_reasoning']
+09-10 17:23:29 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_09_Simple_Interest (TODO: todo 25, problems 0)
+09-10 17:24:43   [Profit_Loss] wrote Content_hi.txt (6497 chars)
+09-10 17:24:44   [Simple_Interest] Content_en.txt try 1: rejected (chat debris "Here's the")
+09-10 17:25:09   [Profit_Loss] wrote Feynman_en.txt (2714 chars)
+09-10 17:25:18   [Average] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 17:25:20   [Percentage] review: 4 section(s) corrected, 0 failed
+09-10 17:25:20   [Percentage] written 4, failed 0; AI calls today 396/100000
 ```
