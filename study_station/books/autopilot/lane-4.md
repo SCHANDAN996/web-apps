@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 10:44 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 10:59 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Defence (12th GK) | ✍️ लिख रहा है | 61 मिनट |
-| W2 | Chapter 18 Science Tech (12th GK) | ✍️ लिख रहा है | 22 मिनट |
-| W3 | Chapter 19 Environment (12th GK) | 🔎 review हो रहा है | 10 मिनट |
-| W4 | Chapter 21 International Orgs (12th GK) | ✍️ लिख रहा है | 76 मिनट |
-| W5 | Chapter 17 Culture Art (12th GK) | 🔎 review हो रहा है | 27 मिनट |
+| W1 | Chapter 22 Defence (12th GK) | ✍️ लिख रहा है | 76 मिनट |
+| W2 | Chapter 23 Economic Terms (12th GK) | ✍️ लिख रहा है | 14 मिनट |
+| W3 | Chapter 19 Environment (12th GK) | 🔎 review हो रहा है | 25 मिनट |
+| W4 | Chapter 21 International Orgs (12th GK) | ✍️ लिख रहा है | 91 मिनट |
+| W5 | Chapter 17 Culture Art (12th GK) | 🔎 review हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -27,10 +27,10 @@
 | 12th Reasoning | 0 | 0 | 25 |
 | 12th English | 22 | 0 | 3 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 14 | 0 | 14 |
+| Graduation GK | 15 | 0 | 13 |
 | Graduation Reasoning | 2 | 0 | 28 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **133** | **15** | **148** |
+| **कुल** | **134** | **15** | **147** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -43,37 +43,12 @@
 - Chapter 12 Biology (GK) — 2 बार
 - Chapter 14 Sports (GK) — 2 बार
 - Chapter 03 Modern History (GK) — 2 बार
-- Chapter 18 Science Tech (GK) — 1 बार
+- Chapter 18 Science Tech (GK) — 2 बार
+- Chapter 17 Culture Art (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 10:18:58   [Culture_Art] review Content_en.txt: 1 issue(s): - The statement "older books say six or seven, because Chhau was added later" is false; Chhau is not one of the eig
-09-10 10:20:11   [Environment] Practice_en_Set_05.txt try 1: rejected (parsed 5 questions, numbers 101…105)
-09-10 10:21:16   [International_Orgs] Practice_hi_Set_01.txt try 2: rejected (Q22:needs_context)
-09-10 10:21:58   [Defence] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-09-10 10:22:25   [Science_Tech] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 10:22:25   [Science_Tech] written 22, failed 3; AI calls today 230/100000
-09-10 10:22:25 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_18_Science_Tech after 81 min: todo ['Set 02 en: todo', 'Set 02 hi: todo', 'Set 03 hi: todo'] problems ['Memory_Hooks_hi.txt: Hindi file is mostly not in Hindi', 'Memory_Hooks_hi.txt: much shorter than the English section (']
-09-10 10:22:26 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_18_Science_Tech (TODO: todo 3, problems 2)
-09-10 10:22:55   [Culture_Art] review Content_hi.txt: 2 issue(s): - शास्त्रीय नृत्य तालिका में "सत्तरिया" की वर्तनी गलत है → सही वर्तनी "सत्तरिया" है
-09-10 10:23:23   [Environment] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-09-10 10:24:19   [International_Orgs] Practice_hi_Set_01.txt try 3: rejected (Q22:needs_context)
-09-10 10:24:38   [Science_Tech] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-09-10 10:25:39   [Defence] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-09-10 10:26:07   [Science_Tech] Practice_hi_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 10:26:18   [Environment] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-09-10 10:27:25   [International_Orgs] Practice_hi_Set_01.txt try 4: rejected (Q22:needs_context)
-09-10 10:27:25   [International_Orgs] REJECTED Practice_hi_Set_01.txt: no translation passed the checks — not written
-09-10 10:28:38   [Science_Tech] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-09-10 10:29:21   [Environment] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 10:30:07   [International_Orgs] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-09-10 10:30:23   [Defence] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-09-10 10:32:35   [International_Orgs] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-09-10 10:32:52   [Defence] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-09-10 10:34:28   [Environment] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 10:34:28   [Environment] written 25, failed 0; AI calls today 250/100000
-09-10 10:35:43   [International_Orgs] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 09-10 10:35:55   [Defence] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 09-10 10:37:42   [Culture_Art] review Key_Facts_en.txt: 1 issue(s): <|close|><|close|>]<|close|>
 09-10 10:37:42   [Culture_Art] ,,
@@ -88,4 +63,30 @@
 09-10 10:41:55   [Culture_Art] REJECTED review fix Key_Facts_hi.txt: Key_Facts_hi.txt: Hindi file is mostly not in Hindi
 09-10 10:43:31   [Culture_Art] review Feynman_hi.txt: 2 issue(s): - "सतरिया" (Sattriya) is misspelled → correct spelling "सत्त्रिया" (or "सत्रिया")
 09-10 10:43:51   [Environment] review Content_hi.txt: 1 issue(s): - Food chain example "घास → घासफूस (हरन) → शेर" is wrong: "घासफूस" means grass/fodder, not deer (हरन); also the 10%
+09-10 10:45:06   [Culture_Art] review Mind_Map.txt: 2 issue(s): - D1: "बौध्ध" is misspelled; the correct Hindi spelling is "बौद्ध" → Change "बौध्ध" to "बौद्ध"
+09-10 10:45:08   [International_Orgs] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 10:45:13   [Science_Tech] FAILED Practice_hi_Set_03.txt: too_long
+09-10 10:45:13   [Science_Tech] written 2, failed 1; AI calls today 270/100000
+09-10 10:45:13 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_18_Science_Tech after 23 min: todo ['Set 03 hi: todo'] problems ['Memory_Hooks_hi.txt: Hindi file is mostly not in Hindi', 'Memory_Hooks_hi.txt: much shorter than the English section (']
+09-10 10:45:14 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_23_Economic_Terms (TODO: todo 25, problems 0)
+09-10 10:47:21   [Economic_Terms] wrote Content_en.txt (13503 chars)
+09-10 10:47:37   [International_Orgs] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 10:47:44   [Culture_Art] review Flashcards_en.txt: 1 issue(s): - Card 6: Tansen is incorrectly called the father of the Khayal style; he was a Dhrupad maestro and a Navaratna 
+09-10 10:50:43   [Culture_Art] review Flashcards_hi.txt: 2 issue(s): - कार्ड 12: फड़ चित्रकला को बंगाल का बताया गया है → फड़ चित्रकला राजस्थान की है (बंगाल नहीं)
+09-10 10:50:45   [International_Orgs] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 10:53:10   [International_Orgs] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 10:53:46   [Economic_Terms] wrote Content_hi.txt (11812 chars)
+09-10 10:54:05   [Defence] Practice_en_Set_05.txt try 1: re-solve disagrees (Q113 key a vs re-solve ?)
+09-10 10:55:50   [International_Orgs] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 10:55:52   [Environment] review Feynman_en.txt: 2 issue(s): - The example states "Bucket 1 (Grass/Producer): Catches 10,000 units of energy from the sun" and then applies the 
+09-10 10:56:24   [Economic_Terms] wrote Key_Facts_en.txt (7458 chars)
+09-10 10:56:53   [Culture_Art] review Memory_Hooks_hi.txt: 2 issue(s): - बॉक्स 1 में "आठ शास्त्रीय नृत्य — 'भकमोमकुकओ'" शीर्षक दिया गया है, लेकिन मेमोनिक **भकमोमकुकओ** केवल सात नृत्
+09-10 10:57:02   [Environment] review Feynman_hi.txt: 1 issue(s): - खड़ियाँ → कड़ियाँ
+09-10 10:58:20   [Environment] REJECTED review fix Feynman_hi.txt: corrupted characters
+09-10 10:58:46   [Defence] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 10:59:07   [Culture_Art] review: 7 section(s) corrected, 2 failed
+09-10 10:59:07   [Culture_Art] written 7, failed 2; AI calls today 300/100000
+09-10 10:59:07 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_17_Culture_Art after 143 min: todo [] problems []
+09-10 10:59:09 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_17_Culture_Art (OK: todo 0, problems 0)
+09-10 10:59:12   [Environment] review Mind_Map.txt: 1 issue(s): - B3 Hindi term "आलेख" for Niche is incorrect → Use "निच" or "पारिस्थितिक निच"
 ```
