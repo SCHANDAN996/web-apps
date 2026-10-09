@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 03:09 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 03:22 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 48 मिनट |
-| W2 | Chapter 09 Venn Diagrams (Graduation Reasoning) | 🔎 review हो रहा है | 15 मिनट |
-| W3 | Chapter 03 Coding Decoding (Graduation Reasoning) | 🔎 review हो रहा है | 23 मिनट |
-| W4 | Chapter 10 Clock Calendar (Graduation Reasoning) | ✍️ लिख रहा है | 23 मिनट |
-| W5 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 76 मिनट |
+| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 61 मिनट |
+| W2 | Chapter 09 Venn Diagrams (Graduation Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 03 Coding Decoding (Graduation Reasoning) | 🔎 review हो रहा है | 36 मिनट |
+| W4 | Chapter 10 Clock Calendar (Graduation Reasoning) | 🔎 review हो रहा है | 3 मिनट |
+| W5 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 89 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -30,12 +30,13 @@
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 20 | 0 | 8 |
-| Graduation Reasoning | 6 | 0 | 24 |
+| Graduation Reasoning | 7 | 0 | 23 |
 | Graduation English | 29 | 1 | 0 |
-| **कुल** | **155** | **14** | **127** |
+| **कुल** | **156** | **14** | **126** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 15:22 — Graduation Reasoning · Chapter 09 Venn Diagrams
 - 09-10 14:46 — Graduation Reasoning · Chapter 04 Blood Relations
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
@@ -46,14 +47,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 14:38:49 NOT OK Graduation_Level/Reasoning/Chapter_02_Classification after 10 min: todo ['Set 01 hi: todo'] problems []
-09-10 14:38:51 START Graduation_Level/Reasoning/Chapter_09_Venn_Diagrams (TODO: todo 2, problems 0)
-09-10 14:39:07   [Coding_Decoding] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 14:40:04   [Blood_Relations] review: 4 section(s) corrected, 1 failed
-09-10 14:40:04   [Blood_Relations] written 4, failed 1; AI calls today 67/100000
-09-10 14:40:04 NOT OK Graduation_Level/Reasoning/Chapter_04_Blood_Relations after 47 min: todo [] problems []
-09-10 14:40:06 START Graduation_Level/Reasoning/Chapter_04_Blood_Relations (OK: todo 0, problems 0)
-09-10 14:41:24   [Sitting_Arrangement] Practice_en_Set_01.txt try 3: re-solve disagrees (Q14 key c vs re-solve d)
 09-10 14:43:05   [Coding_Decoding] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 09-10 14:43:05   [Coding_Decoding] written 2, failed 0; AI calls today 70/100000
 09-10 14:44:03   [Blood_Relations] review Short_Tricks_hi.txt: 3 issue(s): - Trick 1 contains an invented exam statistic “आगे से पढ़ने वाला विद्यार्थी 80% समय उलझता है; पीछे से पढ़ने वा
@@ -86,4 +79,12 @@
 09-10 15:07:37   [Clock_Calendar] Practice_en_Set_05.txt try 2: re-solve disagrees (Q123 key d vs re-solve c)
 09-10 15:07:44   [Coding_Decoding] review Content_hi.txt: 1 issue(s): - In 'जाल 1', the claim that opposite letter coding (CAT → XZG) is mathematically the same as a '-23 shift' is wron
 09-10 15:09:17   [Venn_Diagrams] review PYQ_en.txt: 2 issue(s): - The sub-topic bullet "newspaper/语言/language problems" contains Chinese characters "语言" → replace with "language" or "
+09-10 15:09:43   [Sitting_Arrangement] Practice_en_Set_03.txt try 1: rejected (Q63:leaked_reasoning,Q66:leaked_reasoning)
+09-10 15:16:01   [Puzzles] Practice_en_Set_03.txt try 2: re-solve disagrees (Q51 key d vs re-solve a, Q54 key b vs re-solve c)
+09-10 15:16:25   [Clock_Calendar] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 15:19:03   [Clock_Calendar] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 15:19:03   [Clock_Calendar] written 4, failed 0; AI calls today 115/100000
+09-10 15:21:29   [Venn_Diagrams] review Important_Rules_hi.txt: 2 issue(s): - असंबंधित वर्ग के उदाहरण में "कुत्ता, बिल्ली, गाय" दिए गए हैं, लेकिन ये तीनों जानवर हैं इसलिए इनमें तार्कि
+09-10 15:22:35   [Venn_Diagrams] review: 6 section(s) corrected, 0 failed
+09-10 15:22:35   [Venn_Diagrams] written 6, failed 0; AI calls today 118/100000
 ```

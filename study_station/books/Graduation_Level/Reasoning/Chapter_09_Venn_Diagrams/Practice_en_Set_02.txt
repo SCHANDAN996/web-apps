@@ -1,0 +1,149 @@
+26. In a class of 60 students, 35 play cricket, 28 play football and 12 play both. How many students play neither game?
+(a) 7 (b) 12 (c) 15 (d) 9
+Answer: (d)
+Solution: The tempting wrong answer 12 comes from confusing "both" with "neither". Students playing at least one game = 35 + 28 − 12 = 51. Neither = 60 − 51 = 9, so the answer is 9.
+Source: PYQ-style
+
+27. In a survey of 100 people, 60 read newspaper A, 45 read newspaper B and 20 read both. How many read exactly one newspaper?
+(a) 40 (b) 85 (c) 55 (d) 65
+Answer: (d)
+Solution: The trap is answering 85, which is "at least one" (60 + 45 − 20). Exactly one = only A + only B = (60 − 20) + (45 − 20) = 40 + 25 = 65, so the answer is 65.
+Source: PYQ-style
+
+28. In a group, 40% speak Hindi, 50% speak English and 15% speak both. What percentage speak neither language?
+(a) 30% (b) 20% (c) 15% (d) 25%
+Answer: (d)
+Solution: The trap is 15%, which is the "both" figure, not "neither". At least one = 40 + 50 − 15 = 75%. Neither = 100 − 75 = 25%, so the answer is 25%.
+Source: PYQ-style
+
+29. Which Venn diagram best represents: Men, Fathers, Doctors?
+(a) Three separate circles (b) Three circles each overlapping the other two (c) One circle inside another, third separate (d) Two overlapping circles with the third inside the overlap
+Answer: (b)
+Solution: The trap is option (d), which assumes all doctor-fathers exist as a forced inner region. Some men are fathers, some fathers are doctors, some doctors are men — each pair can overlap without any being a subset, so the answer is three circles each overlapping the other two.
+Source: PYQ-style
+
+30. Which Venn diagram best represents: Women, Mothers, Sisters?
+(a) Mothers and Sisters both inside Women, overlapping each other (b) Mothers circle inside Women, Sisters separate (c) Three mutually overlapping circles (d) Three separate circles
+Answer: (a)
+Solution: The trap is three overlapping circles, which wrongly lets some mothers or sisters fall outside "Women". All mothers and all sisters are women, and some mothers are sisters, so the answer is mothers and sisters both inside women, overlapping each other.
+Source: PYQ-style
+
+31. In a college of 200 students, 120 study Maths, 90 study Physics and 50 study both. How many study only Physics?
+(a) 90 (b) 40 (c) 50 (d) 70
+Answer: (b)
+Solution: The trap is 90, the total Physics count, which includes those studying both. Only Physics = 90 − 50 = 40, so the answer is 40.
+Source: PYQ-style
+
+32. In a town, 65% of families own a scooter, 30% own a car and 10% own both. What percentage own at least one of the two vehicles?
+(a) 95% (b) 75% (c) 85% (d) 80%
+Answer: (c)
+Solution: The trap is 95%, obtained by simply adding 65 and 30 and double-counting the overlap. At least one = 65 + 30 − 10 = 85%, so the answer is 85%.
+Source: PYQ-style
+
+33. Among 80 students, 50 like tea, 40 like coffee and 20 like both. How many like only tea?
+(a) 20 (b) 50 (c) 30 (d) 10
+Answer: (c)
+Solution: The trap is 50, the total tea-likers, ignoring the overlap. Only tea = 50 − 20 = 30, so the answer is 30.
+Source: PYQ-style
+
+34. Which Venn diagram best represents: Animals, Dogs, Cats?
+(a) Three overlapping circles (b) Dogs inside Cats inside Animals (c) Dogs and Cats as separate circles inside Animals (d) Three separate circles
+Answer: (c)
+Solution: The trap is three overlapping circles, which wrongly suggests some dogs are cats. All dogs and all cats are animals, but no dog is a cat, so the answer is dogs and cats as separate circles inside animals.
+Source: PYQ-style
+
+35. In an examination, 70% passed in English, 60% passed in Maths and 40% passed in both. What percentage failed in both subjects?
+(a) 10% (b) 20% (c) 30% (d) 15%
+Answer: (a)
+Solution: The trap is 30%, computed as 100 − 70. Passed in at least one = 70 + 60 − 40 = 90%. Failed in both = 100 − 90 = 10%, so the answer is 10%.
+Source: PYQ-style
+
+36. In a class, every student plays at least one of cricket or hockey. 45 play cricket, 30 play hockey and 15 play both. How many students are in the class?
+(a) 75 (b) 45 (c) 90 (d) 60
+Answer: (d)
+Solution: The trap is 75, from adding 45 and 30 without removing the overlap. Total = 45 + 30 − 15 = 60 (no "neither" group exists here), so the answer is 60.
+Source: PYQ-style
+
+37. Which Venn diagram best represents: Circle, Square, Polygon?
+(a) Three overlapping circles (b) Circle and Square inside Polygon (c) Square inside Polygon, Circle separate (d) Three separate circles
+Answer: (c)
+Solution: The trap is putting the circle inside Polygon, but a circle is not a polygon since it has no straight sides. A square is a polygon, so the answer is square inside polygon, circle separate.
+Source: PYQ-style
+
+38. In a survey of 150 people, 90 like tea, 70 like coffee and 25 like neither. How many like both?
+(a) 40 (b) 35 (c) 25 (d) 45
+Answer: (b)
+Solution: The trap is assuming "neither" is zero and computing 90 + 70 − 150 = 10. At least one = 150 − 25 = 125. Both = 90 + 70 − 125 = 35, so the answer is 35.
+Source: PYQ-style
+
+39. Out of 50 students, 30 passed in Hindi, 25 passed in English and 10 passed in both. How many failed in both subjects?
+(a) 10 (b) 5 (c) 15 (d) 0
+Answer: (b)
+Solution: The trap is 10, confusing "passed in both" with "failed in both". Passed in at least one = 30 + 25 − 10 = 45. Failed in both = 50 − 45 = 5, so the answer is 5.
+Source: PYQ-style
+
+40. Which Venn diagram best represents: Teachers, Authors, Persons?
+(a) Three overlapping circles (b) Teachers and Authors overlapping, both inside Persons (c) Teachers inside Authors inside Persons (d) Three separate circles
+Answer: (b)
+Solution: The trap is three overlapping circles, which allows teachers or authors outside "Persons". All teachers and all authors are persons, and some teachers are authors, so the answer is teachers and authors overlapping, both inside persons.
+Source: PYQ-style
+
+41. In a group of 120 people, 70 can swim, 50 can cycle and 20 can do both. How many can do exactly one of the two activities?
+(a) 80 (b) 100 (c) 60 (d) 90
+Answer: (a)
+Solution: The trap is 100, which is "at least one" (70 + 50 − 20). Exactly one = (70 − 20) + (50 − 20) = 50 + 30 = 80, so the answer is 80.
+Source: PYQ-style
+
+42. In a village, 55% of households have a TV, 40% have a radio and 20% have both. What percentage have neither?
+(a) 15% (b) 20% (c) 25% (d) 30%
+Answer: (c)
+Solution: The trap is 15%, from 100 − 55 − 40 + 20 misapplied as 100 − 85. At least one = 55 + 40 − 20 = 75%. Neither = 100 − 75 = 25%, so the answer is 25%.
+Source: PYQ-style
+
+43. Which Venn diagram best represents: Apple, Fruit, Red things?
+(a) Apple inside Fruit, Red things overlapping both (b) Three separate circles (c) Fruit inside Apple, Red things separate (d) Three circles all mutually overlapping with no subset
+Answer: (a)
+Solution: The trap is three mutually overlapping circles, which wrongly places some apples outside Fruit. Every apple is a fruit; some apples and some fruits are red, and some red things are neither, so the answer is apple inside fruit, red things overlapping both.
+Source: PYQ-style
+
+44. In a club of 90 members, 55 play chess, 45 play carrom and each member plays at least one game. How many play both games?
+(a) 5 (b) 15 (c) 20 (d) 10
+Answer: (d)
+Solution: The trap is subtracting from a wrong total or assuming a "neither" group exists. Since nobody plays neither, both = 55 + 45 − 90 = 10, so the answer is 10.
+Source: PYQ-style
+
+45. In a batch of 75 students, 40 study French, 35 study German and 15 study both. How many study neither language?
+(a) 20 (b) 10 (c) 15 (d) 5
+Answer: (c)
+Solution: The trap is 15, the "both" figure, mistaken for "neither". At least one = 40 + 35 − 15 = 60. Neither = 75 − 60 = 15 — here both figures coincide, but the reasoning must go through the union, so the answer is 15.
+Source: PYQ-style
+
+46. Which Venn diagram best represents: Sparrows, Birds, Crows?
+(a) Three overlapping circles (b) Sparrows and Crows as separate circles inside Birds (c) Sparrows inside Crows inside Birds (d) Birds inside Sparrows, Crows separate
+Answer: (b)
+Solution: The trap is three overlapping circles, suggesting some sparrows are crows. All sparrows and all crows are birds, and no sparrow is a crow, so the answer is sparrows and crows as separate circles inside birds.
+Source: PYQ-style
+
+47. In an office, 48 employees know typing, 36 know shorthand and 18 know both. If 6 employees know neither, how many employees are there in the office?
+(a) 84 (b) 66 (c) 78 (d) 72
+Answer: (d)
+Solution: The trap is 66, which forgets to add the "neither" group. At least one skill = 48 + 36 − 18 = 66. Total = 66 + 6 = 72, so the answer is 72.
+Source: PYQ-style
+
+48. In a school, 80 students like cricket, 60 like football and 30 like both. If 20 like neither, how many like only cricket?
+(a) 50 (b) 30 (c) 80 (d) 40
+Answer: (a)
+Solution: The trap is 80, the total cricket count, and the "neither = 20" data is a distractor for this question. Only cricket = 80 − 30 = 50, so the answer is 50.
+Source: PYQ-style
+
+49. Which Venn diagram best represents: Graduates, Engineers, Employed persons?
+(a) Engineers inside Graduates, Employed overlapping both (b) Three separate circles (c) Graduates inside Engineers, Employed separate (d) Three identical circles
+Answer: (a)
+Solution: The trap is three mutually overlapping circles with no subset, which wrongly allows engineers who are not graduates. All engineers are graduates; some graduates and some engineers are employed, so the answer is engineers inside graduates, employed overlapping both.
+Source: PYQ-style
+
+50. In a survey, 60% of people read magazine X, 45% read magazine Y and 25% read both. What percentage read exactly one magazine?
+(a) 55% (b) 80% (c) 35% (d) 45%
+Answer: (a)
+Solution: The trap is 80%, which is "at least one" (60 + 45 − 25). Exactly one = (60 − 25) + (45 − 25) = 35 + 20 = 55%, so the answer is 55%.
+Source: PYQ-style
