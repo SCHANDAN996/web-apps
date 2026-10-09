@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 10-10-2026 12:22 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 10:05 PM
+**आख़िरी update:** 10-10-2026 12:24 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 10:05 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,12 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 20 Number Series (10th Maths) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 19 Statistics (10th Maths) | 🔧 सुधार रहा है | 8 मिनट |
-| W4 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 30 मिनट |
-| W5 | Chapter 22 Permutation Combination (10th Maths) | 🔧 सुधार रहा है | 81 मिनट |
-| W6 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 31 मिनट |
-| W8 | Chapter 17 Data Interpretation (10th Maths) | 🔧 सुधार रहा है | 25 मिनट |
+| W3 | Chapter 19 Statistics (10th Maths) | 🔧 सुधार रहा है | 10 मिनट |
+| W4 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 32 मिनट |
+| W5 | Chapter 22 Permutation Combination (10th Maths) | 🔧 सुधार रहा है | 83 मिनट |
+| W6 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 33 मिनट |
+| W8 | Chapter 17 Data Interpretation (10th Maths) | 🔧 सुधार रहा है | 27 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -23,7 +22,7 @@
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 16 | 6 | 0 |
 | 10th English | 17 | 3 | 0 |
-| 12th Maths | 10 | 0 | 13 |
+| 12th Maths | 11 | 0 | 12 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 8 | 0 | 17 |
 | 12th English | 25 | 0 | 0 |
@@ -31,7 +30,7 @@
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 12 | 0 | 18 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **210** | **9** | **77** |
+| **कुल** | **211** | **9** | **76** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -50,8 +49,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 23:51:49   [Probability] set 06 try 4: rejected (parsed 23 questions, numbers 126…150)
-09-10 23:51:49   [Probability] FAILED set 06: no version passed the checks — files left as they were
 09-10 23:51:49   [Probability] written 1, failed 5; AI calls today 273/100000
 09-10 23:53:27   [Probability] set 01 try 1: rejected (parsed 24 questions, numbers 1…25)
 09-10 23:55:05   [Probability] set 01 try 2: rejected (parsed 24 questions, numbers 1…25)
@@ -90,4 +87,6 @@
 10-10 00:22:18   [Number_Series] review: 8 section(s) corrected, 0 failed
 10-10 00:22:19   [Number_Series] written 8, failed 0; AI calls today 35/100000
 10-10 00:22:24   [Statistics] set 02 try 1: re-solve disagrees (Q27 key a vs re-solve b)
+10-10 00:22:38 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_20_Number_Series in 102 min → 9be6d4de
+10-10 00:22:41 worker 0: nothing left
 ```
