@@ -1,0 +1,48 @@
+# Important Formulas — Time & Distance
+
+| Formula Name | Formula | One-line Use-Hint |
+|---|---|---|
+| Basic Relation | Speed = Distance / Time | Core of every problem; keep units consistent |
+| Unit Conversion (km/h → m/s) | m/s = km/h × 5/18 | For trains, poles, platforms |
+| Unit Conversion (m/s → km/h) | km/h = m/s × 18/5 | Reverse conversion |
+| Average Speed (equal distances) | 2xy/(x + y) | Same distance at speeds x and y |
+| Average Speed (equal times) | (x + y)/2 | Same time at speeds x and y |
+| Average Speed (3 equal distances) | 3xyz/(xy + yz + zx) | Three legs of equal distance |
+| Distance Constant (Speed ∝ 1/Time) | S₁T₁ = S₂T₂ | Same journey, different speeds |
+| Speed Ratio → Time Ratio | If S₁:S₂ = a:b, then T₁:T₂ = b:a | Inverse relation when distance fixed |
+| Relative Speed (same direction) | \|x − y\| | Overtaking problems |
+| Relative Speed (opposite direction) | x + y | Crossing/meeting problems |
+| Meeting Time (towards each other) | D/(x + y) | Two objects start simultaneously |
+| Meeting Point Ratio | Distances covered ∝ speeds | Where two travellers meet |
+| Train Crossing a Pole/Point | Time = Lₜ/S | Only train's length matters |
+| Train Crossing a Platform/Bridge | Time = (Lₜ + Lₚ)/S | Add both lengths |
+| Train Crossing a Moving Person (opposite) | Time = Lₜ/(Sₜ + Sₘ) | Relative speed, train length only |
+| Train Crossing a Moving Person (same direction) | Time = Lₜ/(Sₜ − Sₘ) | Sₜ > Sₘ |
+| Two Trains Crossing (opposite) | Time = (L₁ + L₂)/(S₁ + S₂) | Add lengths, add speeds |
+| Two Trains Crossing (same direction) | Time = (L₁ + L₂)/(S₁ − S₂) | Faster overtakes slower |
+| Boat in Still Water & Stream | B = (D + U)/2, S = (D − U)/2 | D = downstream speed, U = upstream speed |
+| Downstream Speed | B + S | Boat speed + stream speed |
+| Upstream Speed | B − S | Boat speed − stream speed |
+| Stream Speed | (D − U)/2 | Half the difference |
+| Round Trip in Stream | Time = D/(B+S) + D/(B−S) | Downstream + upstream |
+| Circular Track — First Meeting (opposite) | Time = C/(x + y) | C = track circumference |
+| Circular Track — First Meeting (same direction) | Time = C/\|x − y\| | Faster gains one full lap |
+| Circular Track — Meeting at Start | LCM of individual lap times | All together at starting point |
+| Number of Meeting Points (track) | Ratio a:b in simplest form → a + b points (opposite), \|a − b\| (same direction) | Reduce speed ratio first |
+| Races — Beats by Distance | A beats B by d m: in same time A covers L, B covers L − d | Speed ratio = L : (L − d) |
+| Races — Beats by Time | A beats B by t sec: B takes t sec more for same distance | Convert to speed ratio |
+| Head Start (Dead Heat) | Start given = L × (1 − S_slower/S_faster) | Distance to give so both finish together |
+| Escalator / Moving Walkway | Effective speed = person ± walkway | Add if walking with it, subtract if against |
+| Stoppage per Hour | Stoppage time = (S_without − S_with)/S_without × 60 min | Bus/train halts per hour |
+| Two Trains from Same Point (opposite) | Distance apart after t = (S₁ + S₂) × t | Speeds add when separating |
+| Chasing / Police-Thief | Catch-up time = Gap/(S₁ − S₂) | Gap ÷ relative speed |
+| Early–Late Problem | Distance = (S₁S₂/(S₁ − S₂)) × (t₁ + t₂) | Reaching early at one speed, late at another |
+| Walking + Riding Round Trip | Walk one-way + ride one-way time = (T_walk_both + T_ride_both)/2 | Add the two given round trips and halve; one-way walk alone = T_walk_both/2 |
+| Gunshot / Sound Interval | Heard interval = Actual interval × (v_sound ∓ v_observer)/v_sound | Minus if observer moves toward the source, plus if moving away |
+| Time Difference for Fixed Distance | ΔT = D × (S₂ − S₁)/(S₁S₂) | Time gap between two speeds |
+
+**Key Reminders:**
+- Always convert units before substituting (km/h ↔ m/s via 5/18).
+- Distance fixed → Speed and Time are inversely proportional.
+- Time fixed → Distance and Speed are directly proportional.
+- Speed fixed → Distance and Time are directly proportional.
