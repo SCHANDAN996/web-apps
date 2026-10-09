@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 10-10-2026 02:46 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
+**आख़िरी update:** 10-10-2026 02:49 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,13 +8,13 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 84 मिनट |
-| W2 | Chapter 23 Quadratic Equations (12th Maths) | ✍️ लिख रहा है | 76 मिनट |
-| W3 | Chapter 21 Permutation Combination (12th Maths) | 🔎 review हो रहा है | 47 मिनट |
-| W4 | Chapter 22 Number Series (12th Maths) | 🔎 review हो रहा है | 7 मिनट |
-| W5 | Chapter 18 Data Interpretation (12th Maths) | 🔎 review हो रहा है | 75 मिनट |
-| W6 | Chapter 19 Statistics (12th Maths) | 🔎 review हो रहा है | 2 मिनट |
-| W8 | Chapter 16 Algebra (12th Maths) | 🔎 review हो रहा है | 107 मिनट |
+| W1 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 87 मिनट |
+| W2 | Chapter 23 Quadratic Equations (12th Maths) | ✍️ लिख रहा है | 79 मिनट |
+| W3 | Chapter 21 Permutation Combination (12th Maths) | 🔎 review हो रहा है | 50 मिनट |
+| W4 | Chapter 22 Number Series (12th Maths) | 🔎 review हो रहा है | 9 मिनट |
+| W5 | Chapter 18 Data Interpretation (12th Maths) | 📤 push हो रहा है | 0 मिनट |
+| W6 | Chapter 19 Statistics (12th Maths) | 🔎 review हो रहा है | 5 मिनट |
+| W8 | Chapter 16 Algebra (12th Maths) | 🔎 review हो रहा है | 110 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -36,6 +36,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 10-10 02:49 — 12th Maths · Chapter 18 Data Interpretation
 - 10-10 01:27 — 12th Maths · Chapter 07 Ratio Proportion
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
@@ -48,18 +49,11 @@
 - Chapter 14 Sports (GK) — 2 बार
 - Chapter 19 Statistics (Maths) — 1 बार
 - Chapter 22 Number Series (Maths) — 1 बार
+- Chapter 18 Data Interpretation (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 01:59:01   [Permutation_Combination] written 3, failed 0; AI calls today 83/100000
-10-10 02:01:32   [Permutation_Combination] review Content_en.txt: 1 issue(s): - The claim that every atom in the observable universe shuffling a deck a billion times per second since the Big Ba
-10-10 02:01:47   [Algebra] FAILED review Content_hi.txt: network — the chapter must not be published unreviewed
-10-10 02:01:51   [Number_Series] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-10-10 02:03:13   [Algebra] review Mind_Map.txt: 1 issue(s): - "a³+b³+c³−3abc" listed as an identity → it is an expression; the identity is a³+b³+c³−3abc = (a+b+c)(a²+b²+c²−ab−bc
-10-10 02:04:50   [Quadratic_Equations] FAILED Practice_en_Set_02.txt: network
-10-10 02:04:50   [Quadratic_Equations] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
-10-10 02:06:19   [Probability] FAILED Short_Tricks_en.txt: network
 10-10 02:07:32   [Statistics] FAILED PYQ_hi.txt: network
 10-10 02:07:32   [Statistics] written 0, failed 1; AI calls today 88/100000
 10-10 02:11:59   [Statistics] repaired PYQ_hi.txt (826 chars)
@@ -92,4 +86,12 @@
 10-10 02:42:52   [Number_Series] review Content_hi.txt: 2 issue(s): - In "परीक्षक के जाल" point 2, the text says "अंतर के अंतर (second difference) देखने पड़ते हैं" but the example 1, 
 10-10 02:43:55   [Statistics] repaired PYQ_hi.txt (6050 chars)
 10-10 02:43:55   [Statistics] written 1, failed 0; AI calls today 104/100000
+10-10 02:47:27   [Quadratic_Equations] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+10-10 02:48:22   [Probability] Practice_en_Set_03.txt try 2: rejected (parsed 22 questions, numbers 51…75)
+10-10 02:48:48   [Data_Interpretation] review: 5 section(s) corrected, 1 failed
+10-10 02:48:48   [Data_Interpretation] written 5, failed 1; AI calls today 113/100000
+10-10 02:48:48 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_18_Data_Interpretation after 91 min: todo [] problems []
+10-10 02:48:51 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_18_Data_Interpretation (OK: todo 0, problems 0)
+10-10 02:49:30   [Data_Interpretation] review: 0 section(s) corrected, 0 failed
+10-10 02:49:30   [Data_Interpretation] written 0, failed 0; AI calls today 116/100000
 ```

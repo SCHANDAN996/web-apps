@@ -1,0 +1,65 @@
+# 📋 Important Formulas — Data Interpretation
+
+## 1. Percentage Basics
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Percentage | (Part / Whole) × 100 | To express a value as % of total |
+| Value from Percentage | (Percentage / 100) × Total | When pie chart shows % and total is given |
+| Percentage Change | [(New − Old) / Old] × 100 | Growth or decline between two periods |
+| Percentage Increase | [(Increase / Original)] × 100 | Original value is the base (denominator) |
+| Percentage Decrease | [(Decrease / Original)] × 100 | Same base rule as increase |
+| Successive Change | a + b + (ab/100) | Two consecutive % changes (use − for decrease) |
+| A is what % of B | (A / B) × 100 | Comparing two items directly |
+| A is how much % more than B | [(A − B) / B] × 100 | Denominator is the value after "than" |
+| Percentage Point Difference | %₁ − %₂ | Simple subtraction of two percentages |
+
+## 2. Average & Ratio
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Average (Mean) | Sum of values / Number of values | Bar/line graph questions on mean |
+| Sum from Average | Average × Number of values | Reverse calculation |
+| Weighted Average | (w₁x₁ + w₂x₂ + …) / (w₁ + w₂ + …) | Groups of different sizes combined |
+| Ratio of A to B | A : B = A/B | Comparing two bars/slices |
+| Combining Ratios | A:B = x:y, B:C = y:z ⇒ A:B:C = x:y:z | Chain comparisons in tables |
+| Share in Ratio | (Part's ratio / Sum of ratios) × Total | Dividing a total in a given ratio |
+
+## 3. Pie Chart Specifics
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Angle of a Sector | (Value / Total) × 360° | Converting value to degrees |
+| Value from Angle | (Angle / 360°) × Total | When degrees are given |
+| Percentage from Angle | (Angle / 360°) × 100 | Direct % from degrees |
+| Angle from Percentage | (Percentage / 100) × 360° | 1% = 3.6° |
+
+## 4. Growth & Comparison
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Absolute Increase | New Value − Old Value | Simple difference questions |
+| Average Annual Growth | (Final − Initial) / Number of years | Uniform growth over years |
+| Growth Rate (CAGR) | [(Final / Initial)^(1/n) − 1] × 100 | Compound growth over n years |
+| Ratio Change | New Ratio = (A × k₁) : (B × k₂) | When both terms change by different % |
+| Contribution % | (Item / Total) × 100 | Share of one item in the whole |
+
+## 5. Speed Hacks (Approximation)
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| x% of y | y% of x | Swap for easier calculation (e.g., 8% of 25 = 25% of 8) |
+| Fraction–% Conversion | 1/2=50%, 1/3=33.33%, 1/4=25%, 1/5=20%, 1/6=16.66%, 1/8=12.5%, 1/9=11.11%, 1/11=9.09%, 1/12=8.33% | Instant % without division |
+| Base Method for % Change | Compare (Difference / Base) mentally | Faster than full formula in MCQs |
+| Doubling Effect | Two successive +x% ≈ 2x + x²/100 % | Quick estimate for repeated growth |
+| 10% Split Trick | x% of N = 10% of N × (x/10) | Break odd percentages into 10% blocks |
+
+## 6. Common DI Rules
+
+| Rule Name | Rule | Use-Hint |
+|---|---|---|
+| Base Rule | % change always uses the *first/original* value as denominator | Avoid the classic trap of wrong base |
+| Total Consistency | All pie chart parts must sum to 100% (or 360°) | Verify data before solving |
+| Unit Check | Convert all values to the same unit before comparing | Lakhs vs crores, thousands vs millions |
+| Approximation Rule | Round only if options are far apart (>5% gap) | Saves time without losing accuracy |
+| "Than" Rule | In "A is x% more/less than B", B is always the base | Most frequently tested trap |

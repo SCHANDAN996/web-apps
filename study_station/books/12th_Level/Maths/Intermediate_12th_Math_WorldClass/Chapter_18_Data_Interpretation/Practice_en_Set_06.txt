@@ -1,0 +1,149 @@
+126. A family's total annual expenditure is ₹7,20,000, shown in a pie chart with sector angles: Rent 90°, Food 120°, Travel 60°, Education 45°, Miscellaneous 45°. How much more does the family spend on Food than on Education?
+(a) ₹1,20,000 (b) ₹1,50,000 (c) ₹1,80,000 (d) ₹90,000
+Answer: (b)
+Solution: The trap is computing each amount separately and mis-subtracting; instead use the angle difference directly. Difference in angles = 120° − 45° = 75°. Amount = (75/360) × 7,20,000 = 75 × 2,000 = 1,50,000, so the answer is ₹1,50,000.
+Source: NCERT Class 8 Mathematics (Data Handling)
+
+127. A bar graph shows annual sales (in ₹ thousand): 2019 = 480, 2020 = 600, 2021 = 540, 2022 = 720, 2023 = 900. What is the percentage increase in sales from 2019 to 2023?
+(a) 85% (b) 90% (c) 92.5% (d) 87.5%
+Answer: (d)
+Solution: The tempting error is dividing the increase by the 2023 value instead of the base year 2019. Increase = 900 − 480 = 420. Percentage increase = (420/480) × 100 = 87.5%, so the answer is 87.5%.
+Source: PYQ-style (SSC CGL pattern)
+
+128. The table below gives imports and exports (in ₹ crore): 2018 — Imports 250, Exports 200; 2019 — Imports 300, Exports 270; 2020 — Imports 280, Exports 350. In which year is the ratio of exports to imports the highest?
+(a) 2020 (b) 2019 (c) 2018 (d) Equal in 2019 and 2020
+Answer: (a)
+Solution: The trap is picking the year with the highest exports alone rather than the ratio. Ratios: 2018 = 200/250 = 0.80; 2019 = 270/300 = 0.90; 2020 = 350/280 = 1.25. The highest ratio is in 2020, so the answer is 2020.
+Source: PYQ-style (IBPS PO pattern)
+
+129. In a school of 800 students, 60% play cricket, 45% play football, and 25% play both games. How many students play neither game?
+(a) 140 (b) 200 (c) 180 (d) 160
+Answer: (d)
+Solution: The trap is subtracting all three percentages from 100 directly, which double-counts the overlap. Cricket players = 480, football = 360, both = 200. Playing at least one game = 480 + 360 − 200 = 640. Neither = 800 − 640 = 160, so the answer is 160.
+Source: NCERT Class 11 Mathematics (Sets concept applied to data)
+
+130. Three partners A, B and C share profit in the ratio 3 : 4 : 5. If the total profit is ₹96,000, what is B's share?
+(a) ₹24,000 (b) ₹32,000 (c) ₹40,000 (d) ₹36,000
+Answer: (b)
+Solution: The trap is dividing 96,000 by 3 parts instead of the total 12 parts. Total parts = 3 + 4 + 5 = 12. B's share = (4/12) × 96,000 = 32,000, so the answer is ₹32,000.
+Source: NCERT Class 8 Mathematics (Ratio and Proportion)
+
+131. The population of a town is 2,50,000. It increases by 20% in the first year and decreases by 10% in the second year. What is the population at the end of two years?
+(a) 2,70,000 (b) 2,75,000 (c) 2,80,000 (d) 2,65,000
+Answer: (a)
+Solution: The trap is assuming net change = 20% − 10% = 10%, giving 2,75,000 — but the decrease applies to the increased base. After year 1: 2,50,000 × 1.20 = 3,00,000. After year 2: 3,00,000 × 0.90 = 2,70,000, so the answer is 2,70,000.
+Source: NCERT Class 8 Mathematics (Comparing Quantities)
+
+132. A pie chart shows the distribution of 2,400 students: Science 25%, Commerce 30%, Arts 20%, Vocational 25%. If 40% of Science students are girls, how many boys study Science?
+(a) 240 (b) 300 (c) 360 (d) 400
+Answer: (c)
+Solution: The trap is taking 40% of the total 2,400 instead of 40% of Science students. Science students = 25% of 2,400 = 600. Girls = 40% of 600 = 240. Boys = 600 − 240 = 360, so the answer is 360.
+Source: PYQ-style (SSC CHSL pattern)
+
+133. Class A has 30 students with an average score of 60, and Class B has 20 students with an average score of 80. What is the combined average score of both classes?
+(a) 70 (b) 72 (c) 68 (d) 66
+Answer: (c)
+Solution: The trap is taking the simple average of 60 and 80, which gives 70 — wrong because the classes have different sizes. Total marks = (30 × 60) + (20 × 80) = 1,800 + 1,600 = 3,400. Combined average = 3,400/50 = 68, so the answer is 68.
+Source: NCERT Class 10 Mathematics (Statistics)
+
+134. Wheat production (in lakh tonnes): 2018 = 40, 2019 = 50, 2020 = 45, 2021 = 60, 2022 = 75. The production in 2020 is what percentage of the total production over all five years?
+(a) 16.67% (b) 15% (c) 18% (d) 20%
+Answer: (a)
+Solution: The trap is dividing 45 by the average or by the highest year instead of the total. Total = 40 + 50 + 45 + 60 + 75 = 270. Required percentage = (45/270) × 100 = 16.67%, so the answer is 16.67%.
+Source: PYQ-style (RRB NTPC pattern)
+
+135. A earns ₹50,000 and saves 20% of his income; B earns ₹60,000 and saves 25% of his income. What is the ratio of their expenditures?
+(a) 4 : 5 (b) 5 : 6 (c) 8 : 9 (d) 9 : 10
+Answer: (c)
+Solution: The trap is comparing savings or incomes instead of expenditures. A's expenditure = 80% of 50,000 = 40,000. B's expenditure = 75% of 60,000 = 45,000. Ratio = 40,000 : 45,000 = 8 : 9, so the answer is 8 : 9.
+Source: NCERT Class 8 Mathematics (Ratio and Percentage)
+
+136. A train covers 60 km in the first hour, 75 km in the second, 45 km in the third and 90 km in the fourth hour. What is its average speed over the four hours?
+(a) 65 km/h (b) 70 km/h (c) 67.5 km/h (d) 68.5 km/h
+Answer: (c)
+Solution: The trap is averaging only some readings or mis-adding the distances. Total distance = 60 + 75 + 45 + 90 = 270 km. Average speed = 270/4 = 67.5 km/h, so the answer is 67.5 km/h.
+Source: NCERT Class 9 Mathematics (Statistics — Mean)
+
+137. In a pie chart of a ₹18,00,000 annual budget, the Health sector subtends an angle of 72° at the centre. What amount is allocated to Health?
+(a) ₹3,60,000 (b) ₹3,00,000 (c) ₹4,20,000 (d) ₹2,70,000
+Answer: (a)
+Solution: The trap is using 72 as a percentage of the budget directly. Amount = (72/360) × 18,00,000 = (1/5) × 18,00,000 = 3,60,000, so the answer is ₹3,60,000.
+Source: NCERT Class 8 Mathematics (Data Handling — Pie Charts)
+
+138. Company X has total revenue of ₹500 crore and spends 12% of it on R&D. Company Y has total revenue of ₹800 crore and spends 8% of it on R&D. What is the difference between their R&D expenditures?
+(a) ₹2 crore (b) ₹4 crore (c) ₹6 crore (d) ₹8 crore
+Answer: (b)
+Solution: The trap is comparing the percentages (12% vs 8%) and concluding X spends ₹4 crore-equivalent more without computing actual amounts. X's R&D = 12% of 500 = ₹60 crore. Y's R&D = 8% of 800 = ₹64 crore. Difference = 64 − 60 = ₹4 crore, so the answer is ₹4 crore.
+Source: PYQ-style (IBPS PO pattern)
+
+139. The average rainfall over five years is 56 cm. The rainfall in four of the years is 50 cm, 60 cm, 45 cm and 70 cm. What is the rainfall in the fifth year?
+(a) 60 cm (b) 58 cm (c) 52 cm (d) 55 cm
+Answer: (d)
+Solution: The trap is averaging the four given values and reporting that. Total for 5 years = 56 × 5 = 280. Sum of four years = 50 + 60 + 45 + 70 = 225. Fifth year = 280 − 225 = 55, so the answer is 55 cm.
+Source: NCERT Class 10 Mathematics (Statistics)
+
+140. In an examination, 40% of 1,200 students passed. Of those who passed, 25% secured distinction. How many students secured distinction?
+(a) 120 (b) 100 (c) 150 (d) 480
+Answer: (a)
+Solution: The trap is taking 25% of 1,200 directly, ignoring that distinction applies only to passed students. Passed = 40% of 1,200 = 480. Distinction = 25% of 480 = 120, so the answer is 120.
+Source: NCERT Class 8 Mathematics (Comparing Quantities)
+
+141. The population of a city is 1,00,000 and it grows at 10% per annum. What will be the population after 2 years?
+(a) 1,20,000 (b) 1,22,000 (c) 1,21,000 (d) 1,10,000
+Answer: (c)
+Solution: The trap is using simple growth: 10% + 10% = 20%, giving 1,20,000 — but growth compounds. Population = 1,00,000 × 1.1 × 1.1 = 1,21,000, so the answer is 1,21,000.
+Source: NCERT Class 8 Mathematics (Compound Interest concept)
+
+142. A country imported 80 thousand barrels of oil in 2019 at ₹4,000 per barrel and 100 thousand barrels in 2020 at ₹3,500 per barrel. By how much did the total import cost change from 2019 to 2020?
+(a) Increased by ₹30 crore (b) Decreased by ₹3 crore (c) Increased by ₹3 crore (d) No change
+Answer: (c)
+Solution: The trap is comparing only quantities or only prices. Cost in 2019 = 80,000 × 4,000 = ₹32 crore. Cost in 2020 = 1,00,000 × 3,500 = ₹35 crore. Change = 35 − 32 = ₹3 crore increase, so the answer is that it increased by ₹3 crore.
+Source: PYQ-style (SSC CGL Mains pattern)
+
+143. In a college of 900 students, the ratio of boys to girls is 2 : 1. If 25% of the boys and 40% of the girls play sports, what percentage of the total students play sports?
+(a) 25% (b) 30% (c) 32.5% (d) 35%
+Answer: (b)
+Solution: The trap is averaging 25% and 40% to get 32.5%, ignoring the unequal group sizes. Boys = 600, girls = 300. Sports players = 25% of 600 + 40% of 300 = 150 + 120 = 270. Percentage = (270/900) × 100 = 30%, so the answer is 30%.
+Source: PYQ-style (CAT/IBPS pattern)
+
+144. The average score of 20 students is 75. Later it is found that one score of 45 was wrongly entered as 85. What is the correct average?
+(a) 71 (b) 74 (c) 72 (d) 73
+Answer: (d)
+Solution: The trap is adjusting the average by the full difference of 40 instead of distributing it over 20 students. Wrong total = 20 × 75 = 1,500. Correct total = 1,500 − 85 + 45 = 1,460. Correct average = 1,460/20 = 73, so the answer is 73.
+Source: NCERT Class 10 Mathematics (Statistics)
+
+145. A family spends ₹1,35,000 on Education out of a total expenditure of ₹5,40,000. If the data is shown in a pie chart, what angle will the Education sector subtend?
+(a) 80° (b) 90° (c) 100° (d) 75°
+Answer: (b)
+Solution: The trap is computing the percentage (25%) and reporting it as the angle. Angle = (1,35,000/5,40,000) × 360° = (1/4) × 360° = 90°, so the answer is 90°.
+Source: NCERT Class 8 Mathematics (Data Handling — Pie Charts)
+
+146. Sales of Company A were ₹240 crore in 2021 and ₹300 crore in 2022. Sales of Company B were ₹360 crore in 2021 and ₹300 crore in 2022. What is the percentage change in the combined sales of both companies from 2021 to 2022?
+(a) 5% increase (b) 0% (c) 5% decrease (d) 10% increase
+Answer: (b)
+Solution: The trap is averaging the individual percentage changes (+25% for A and −16.67% for B) instead of combining totals. Combined 2021 = 240 + 360 = 600. Combined 2022 = 300 + 300 = 600. Change = 0%, so the answer is 0%.
+Source: PYQ-style (SSC CGL Mains pattern)
+
+147. A company has three departments: P with 120 employees (40% female), Q with 150 employees (60% female) and R with 130 employees (50% female). How many more female employees than male employees are there in the company?
+(a) 0 (b) 3 (c) 10 (d) 6
+Answer: (d)
+Solution: The trap is averaging the three percentages (50%) and concluding the numbers are equal. Females = 48 + 90 + 65 = 203. Total employees = 400, so males = 197. Difference = 203 − 197 = 6, so the answer is 6.
+Source: PYQ-style (IBPS Clerk pattern)
+
+148. A company's income and expenditure (in ₹ crore): 2019 — Income 500, Expenditure 400; 2020 — Income 600, Expenditure 450; 2021 — Income 550, Expenditure 500. Profit percent is calculated on expenditure. In which year is the profit percent the highest?
+(a) 2019 (b) Same in 2019 and 2020 (c) 2021 (d) 2020
+Answer: (d)
+Solution: The trap is picking the year with the highest absolute profit (2020, ₹150 crore) without checking the percentage base. Profit percents: 2019 = 100/400 = 25%; 2020 = 150/450 = 33.33%; 2021 = 50/500 = 10%. The highest is in 2020, so the answer is 2020.
+Source: PYQ-style (SSC CGL pattern)
+
+149. In 2020, a company produced 1,000 units, of which Product A had a 20% share. In 2021, total production rose to 1,500 units, but Product A's share fell to 18%. What is the percentage increase in the production of Product A from 2020 to 2021?
+(a) 35% (b) 30% (c) 40% (d) 25%
+Answer: (a)
+Solution: The trap is concluding production fell because the share dropped from 20% to 18%. A in 2020 = 20% of 1,000 = 200. A in 2021 = 18% of 1,500 = 270. Increase = (70/200) × 100 = 35%, so the answer is 35%.
+Source: PYQ-style (CAT pattern)
+
+150. In an organisation of 2,500 employees, 60% are graduates. Of the graduates, 40% are postgraduates. What is the ratio of postgraduate employees to non-graduate employees?
+(a) 3 : 5 (b) 2 : 5 (c) 3 : 4 (d) 2 : 3
+Answer: (a)
+Solution: The trap is comparing postgraduates to all graduates or to the total staff. Graduates = 60% of 2,500 = 1,500. Postgraduates = 40% of 1,500 = 600. Non-graduates = 2,500 − 1,500 = 1,000. Ratio = 600 : 1,000 = 3 : 5, so the answer is 3 : 5.
+Source: PYQ-style (RRB NTPC pattern)

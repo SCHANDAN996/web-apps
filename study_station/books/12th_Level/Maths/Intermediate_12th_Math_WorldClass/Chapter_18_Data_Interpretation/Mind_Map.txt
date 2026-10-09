@@ -1,0 +1,48 @@
+```mermaid
+graph TD
+    A["डेटा व्याख्या<br>Data Interpretation"] --> B["डेटा के प्रकार<br>Types of Data"]
+    A --> C["आधारभूत गणनाएँ<br>Basic Calculations"]
+    A --> D["प्रस्तुति के रूप<br>Presentation Forms"]
+    A --> E["प्रश्नों के प्रकार<br>Types of Questions"]
+    A --> F["समय बचाने की रणनीति<br>Time-Saving Strategy"]
+
+    B --> B1["कच्चा डेटा<br>Raw Data"]
+    B --> B2["समूहित डेटा<br>Grouped Data"]
+    B --> B3["बारंबारता बंटन<br>Frequency Distribution"]
+
+    C --> C1["प्रतिशत<br>Percentage"]
+    C --> C2["अनुपात<br>Ratio"]
+    C --> C3["औसत<br>Average"]
+    C --> C4["वृद्धि / कमी %<br>Growth / Decline %"]
+    C --> C5["तुलना<br>Comparison"]
+
+    C1 --> C1a["% = (भाग/कुल) × 100<br>% = (Part/Total) × 100"]
+    C4 --> C4a["वृद्धि % = (नया−पुराना)/पुराना × 100<br>Growth % = (New−Old)/Old × 100"]
+
+    D --> D1["तालिका<br>Table"]
+    D --> D2["बार ग्राफ<br>Bar Graph"]
+    D --> D3["रेखा ग्राफ<br>Line Graph"]
+    D --> D4["पाई चार्ट<br>Pie Chart"]
+    D --> D5["मिश्रित ग्राफ<br>Mixed / Caselet"]
+
+    D2 --> D2a["साधारण / समूहित / स्टैक्ड<br>Simple / Grouped / Stacked"]
+    D4 --> D4a["360° = 100%<br>1% = 3.6°"]
+    D4 --> D4b["कोण = (मान/कुल) × 360°<br>Angle = (Value/Total) × 360°"]
+    D5 --> D5a["केसलेट: कहानी से तालिका<br>Caselet: Story to Table"]
+
+    E --> E1["सीधा मान निकालना<br>Direct Value"]
+    E --> E2["प्रतिशत-आधारित<br>Percentage-Based"]
+    E --> E3["अनुपात-आधारित<br>Ratio-Based"]
+    E --> E4["औसत-आधारित<br>Average-Based"]
+    E --> E5["कथन-आधारित (सही/गलत)<br>Statement-Based"]
+
+    F --> F1["पहले प्रश्न पढ़ें<br>Read Question First"]
+    F --> F2["अनुमानित गणना<br>Approximation"]
+    F --> F3["भिन्न → % याद रखें<br>Memorize Fraction to %"]
+    F --> F4["कठिन प्रश्न छोड़ें<br>Skip Lengthy Questions"]
+
+    C1 -.-> E2
+    C2 -.-> E3
+    C3 -.-> E4
+    D4a -.-> F3
+```
