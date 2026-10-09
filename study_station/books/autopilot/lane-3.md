@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 08:31 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
+**आख़िरी update:** 09-10-2026 08:35 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Para Jumbles (12th English) | 📤 push हो रहा है | 0 मिनट |
-| W2 | Chapter 12 Missing Term (12th Reasoning) | ✍️ लिख रहा है | 4 मिनट |
-| W3 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 2 मिनट |
-| W4 | Chapter 05 Direction Sense (12th Reasoning) | 🔎 review हो रहा है | 31 मिनट |
-| W5 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 72 मिनट |
-| W6 | Chapter 08 Puzzles (12th Reasoning) | ✍️ लिख रहा है | 72 मिनट |
-| W7 | Chapter 11 Series (12th Reasoning) | ✍️ लिख रहा है | 6 मिनट |
-| W8 | Chapter 10 Clock Calendar (12th Reasoning) | ✍️ लिख रहा है | 72 मिनट |
+| W1 | Chapter 14 Alphabet Questions (12th Reasoning) | ✍️ लिख रहा है | 3 मिनट |
+| W2 | Chapter 12 Missing Term (12th Reasoning) | ✍️ लिख रहा है | 9 मिनट |
+| W3 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 6 मिनट |
+| W4 | Chapter 05 Direction Sense (12th Reasoning) | 🔎 review हो रहा है | 0 मिनट |
+| W5 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 76 मिनट |
+| W6 | Chapter 08 Puzzles (12th Reasoning) | ✍️ लिख रहा है | 76 मिनट |
+| W7 | Chapter 11 Series (12th Reasoning) | ✍️ लिख रहा है | 10 मिनट |
+| W8 | Chapter 10 Clock Calendar (12th Reasoning) | ✍️ लिख रहा है | 76 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -44,29 +44,11 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 22 Para Jumbles (English) — 1 बार
+- Chapter 05 Direction Sense (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 20:14:29 START 12th_Level/Reasoning/Chapter_09_Venn_Diagrams (FIX: todo 0, problems 1)
-09-10 20:14:29   [Puzzles] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-09-10 20:15:20   [Sentence_Arrangement] review PYQ_en.txt: 1 issue(s): - Q6 question text duplicates Q5 (factory sentences) but answer (a) RQSP and solution describe a vocabulary question → 
-09-10 20:16:14   [Venn_Diagrams] repaired Short_Tricks_hi.txt (5515 chars)
-09-10 20:16:14   [Venn_Diagrams] written 1, failed 0; AI calls today 144/100000
-09-10 20:16:29   [Clock_Calendar] Short_Tricks_hi.txt try 1: answer too long — asking for a tighter version
-09-10 20:18:53   [Venn_Diagrams] review Short_Tricks_hi.txt: 1 issue(s): - ट्रिक 3 में "केवल A" का सूत्र **n(A) − n(A∩B)** केवल दो समूहों के लिए सही है; तीन समूहों वाले वेन आरेख में "
-09-10 20:19:06   [Puzzles] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-09-10 20:19:25   [Coding_Decoding] review PYQ_hi.txt: 1 issue(s): - Question 4: The coding puzzle data is inconsistent (the two common words 'मोहन' and 'खाना' share only one common code
-09-10 20:20:52   [Direction_Sense] review PYQ_en.txt: 1 issue(s): - Q10: The solution correctly derives that Bina is South of Amit, but then states the answer is (b) West based on a mis
-09-10 20:21:17   [Sitting_Arrangement] Practice_en_Set_01.txt try 4: re-solve disagrees (Q6 key c vs re-solve a, Q9 key b vs re-solve a, Q16 key a vs re-solve c, Q23 key b vs re-solve a)
-09-10 20:21:17   [Sitting_Arrangement] REJECTED Practice_en_Set_01.txt: no version passed the checks — not written
-09-10 20:21:17   [Sitting_Arrangement] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
-09-10 20:22:00   [Para_Jumbles] review PYQ_hi.txt: 1 issue(s): - Question 5 answer (a) QPSR and explanation are wrong → Correct sequence is QSPR: Q (rain) → S (drains overflow) → P (
-09-10 20:22:43   [Sentence_Arrangement] review Short_Tricks_en.txt: 2 issue(s): - Trick 3 claims "This single check solves 60% of Para-jumbles" → Remove the invented statistic "60%" or repla
-09-10 20:24:10   [Venn_Diagrams] review: 1 section(s) corrected, 0 failed
-09-10 20:24:10   [Venn_Diagrams] written 1, failed 0; AI calls today 165/100000
-09-10 20:24:17   [Coding_Decoding] review Short_Tricks_en.txt: 1 issue(s): - Mnemonic Box 2 lists "AZad" as an opposite pair; the correct pair is "AZ" → Change "AZad" to "AZ" in the lis
 09-10 20:24:26 DONE 12th_Level/Reasoning/Chapter_09_Venn_Diagrams in 10 min → 24b298c4
 09-10 20:24:28 START 12th_Level/Reasoning/Chapter_11_Series (TODO: todo 25, problems 0)
 09-10 20:25:44   [Direction_Sense] review PYQ_hi.txt: 3 issue(s): - Question 2 solution incorrectly claims a 135° anti-clockwise rotation for the code "पूर्व को उत्तर-पश्चिम कहा जाता है
@@ -89,4 +71,22 @@
 09-10 20:30:22   [Missing_Term] Feynman_en.txt try 1: rejected (chat debris "Here's the")
 09-10 20:31:02   [Para_Jumbles] review: 4 section(s) corrected, 0 failed
 09-10 20:31:02   [Para_Jumbles] written 4, failed 0; AI calls today 188/100000
+09-10 20:31:16   [Direction_Sense] review Short_Tricks_hi.txt: 1 issue(s): - Invented statistic “90% प्रश्नों में काम करती है” in Trick 11 → Remove or replace with a non‑quantified stat
+09-10 20:31:19 DONE 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_22_Para_Jumbles in 55 min → 990c3eb0
+09-10 20:31:21 START 12th_Level/Reasoning/Chapter_14_Alphabet_Questions (TODO: todo 25, problems 0)
+09-10 20:31:27   [Clock_Calendar] FAILED Short_Tricks_hi.txt: too_long
+09-10 20:31:29   [Missing_Term] wrote Feynman_en.txt (3104 chars)
+09-10 20:31:29   [Dictionary_Order] wrote Content_en.txt (7294 chars)
+09-10 20:32:24   [Clock_Calendar] wrote Important_Rules_en.txt (4905 chars)
+09-10 20:32:39   [Missing_Term] wrote Feynman_hi.txt (2932 chars)
+09-10 20:33:31   [Alphabet_Questions] wrote Content_en.txt (10242 chars)
+09-10 20:33:49   [Dictionary_Order] wrote Content_hi.txt (6450 chars)
+09-10 20:34:04   [Series] Content_en.txt try 1: rejected (output still looks like a prompt)
+09-10 20:34:25   [Clock_Calendar] wrote Important_Rules_hi.txt (4073 chars)
+09-10 20:34:26   [Missing_Term] wrote Mind_Map.txt (1947 chars)
+09-10 20:34:43   [Dictionary_Order] wrote Feynman_en.txt (3072 chars)
+09-10 20:35:14   [Direction_Sense] review: 6 section(s) corrected, 1 failed
+09-10 20:35:14   [Direction_Sense] written 6, failed 1; AI calls today 202/100000
+09-10 20:35:14 NOT OK 12th_Level/Reasoning/Chapter_05_Direction_Sense after 77 min: todo [] problems []
+09-10 20:35:16 START 12th_Level/Reasoning/Chapter_05_Direction_Sense (OK: todo 0, problems 0)
 ```
