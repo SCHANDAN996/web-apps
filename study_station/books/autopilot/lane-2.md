@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 12:30 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 12:45 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Defence (Graduation GK) | ✍️ लिख रहा है | 6 मिनट |
-| W2 | Chapter 18 Science Tech (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 21 International Orgs (Graduation GK) | 🔎 review हो रहा है | 18 मिनट |
-| W4 | Chapter 23 Economic Terms (Graduation GK) | ✍️ लिख रहा है | 34 मिनट |
-| W5 | Chapter 19 Environment (Graduation GK) | 🔎 review हो रहा है | 15 मिनट |
+| W3 | Chapter 21 International Orgs (Graduation GK) | 🔎 review हो रहा है | 32 मिनट |
+| W4 | Chapter 23 Economic Terms (Graduation GK) | ✍️ लिख रहा है | 49 मिनट |
+| W5 | Chapter 19 Environment (Graduation GK) | 🔎 review हो रहा है | 30 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -48,33 +46,13 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 13 Awards (GK) — 2 बार
-- Chapter 18 Science Tech (GK) — 1 बार
 - Chapter 21 International Orgs (GK) — 1 बार
 - Chapter 19 Environment (GK) — 1 बार
-- Chapter 22 Defence (GK) — 1 बार
+- Chapter 22 Defence (GK) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 12:11:07   [Economic_Terms] Content_en.txt try 1: answer too long — asking for a tighter version
-09-10 12:12:08   [Environment] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 12:12:08   [Environment] written 24, failed 1; AI calls today 440/100000
-09-10 12:12:08 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_19_Environment after 113 min: todo ['PYQ_hi.txt'] problems []
-09-10 12:12:09 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_19_Environment (TODO: todo 1, problems 0)
-09-10 12:12:25   [International_Orgs] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-09-10 12:12:25   [International_Orgs] written 2, failed 0; AI calls today 441/100000
-09-10 12:13:46   [Economic_Terms] wrote Content_en.txt (15839 chars)
-09-10 12:14:38   [Environment] wrote PYQ_hi.txt (7836 chars)
-09-10 12:14:38   [Environment] written 1, failed 0; AI calls today 446/100000
-09-10 12:16:12   [Environment] review Content_en.txt: 1 issue(s): - Hindi term for Eutrophication given as "सुपोषण" (meaning good nutrition) → should be "अतिपोषण" or "यूट्रोफिकेशन"
-09-10 12:16:21   [Science_Tech] review Mind_Map.txt: 1 issue(s): - Sound speed in air listed as 332 m/s without temperature → standard value is ~331 m/s at 0°C or ~343 m/s at 20°C; s
-09-10 12:16:46   [Defence] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-09-10 12:16:49   [International_Orgs] review Content_en.txt: 1 issue(s): - OPEC member count in table (Part 3) given as 12 → correct count is 13 (as of 2024)
-09-10 12:17:27   [Economic_Terms] wrote Content_hi.txt (10315 chars)
-09-10 12:18:24   [Science_Tech] review Flashcards_en.txt: 1 issue(s): - Card 4: The chlor‑alkali process does not use hydrochloric acid to produce NaCl; it is the electrolysis of bri
-09-10 12:18:55   [Economic_Terms] wrote Key_Facts_en.txt (625 chars)
-09-10 12:20:24   [Science_Tech] review PYQ_en.txt: 1 issue(s): - Q7 answer key lists (a) but the correct chronological order (Dynamite 1867, Telephone 1876, X-rays 1895, Penicillin 1
-09-10 12:20:26   [International_Orgs] review Content_hi.txt: 1 issue(s): - SAARC mnemonic sentence "भारत ने पाकिस्तान से मालदीव में श्रीलंका, बांग्लादेश, अफगानिस्तान और भूटान का साथ पाया" 
 09-10 12:20:27   [Defence] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 09-10 12:20:45   [Defence] Practice_hi_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
 09-10 12:22:03   [Economic_Terms] wrote Key_Facts_hi.txt (7937 chars)
@@ -96,4 +74,23 @@
 09-10 12:30:22   [Defence] Practice_hi_Set_01.txt try 2: rejected (Q24:needs_context)
 09-10 12:30:31   [Science_Tech] review: 6 section(s) corrected, 0 failed
 09-10 12:30:31   [Science_Tech] written 6, failed 0; AI calls today 489/100000
+09-10 12:30:41 DONE Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_18_Science_Tech in 46 min → 2001d46c
+09-10 12:30:41 worker 1: nothing left
+09-10 12:33:42   [Environment] review PYQ_hi.txt: 1 issue(s): - Banking परीक्षा-वार झुकाव में 'कुन्डली… नहीं' अवांछित/गलत शब्द है → इसे हटाएं या उचित शब्द (जैसे 'क्योटो प्रोटोकॉल') 
+09-10 12:34:07   [Defence] Practice_hi_Set_01.txt try 3: rejected (Q24:needs_context)
+09-10 12:34:36   [Economic_Terms] wrote PYQ_hi.txt (7982 chars)
+09-10 12:34:54   [Defence] Practice_hi_Set_01.txt try 4: rejected (parsed 0 questions, numbers -…-)
+09-10 12:34:54   [Defence] REJECTED Practice_hi_Set_01.txt: no translation passed the checks — not written
+09-10 12:35:59   [Economic_Terms] wrote Memory_Hooks_en.txt (5669 chars)
+09-10 12:37:01   [International_Orgs] review Key_Facts_hi.txt: 3 issue(s): - कॉमनवेल्थ सदस्य संख्या भाग 1 में 54 दी गई है → 56 सदस्य (गैबॉन/टोगो 2022 में जुड़ने के बाद)
+09-10 12:38:11   [Defence] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 12:38:52   [Economic_Terms] wrote Memory_Hooks_hi.txt (5760 chars)
+09-10 12:40:40   [Environment] review Memory_Hooks_en.txt: 3 issue(s): - Mnemonic 5 (Nitrogen Cycle) uses "Naughty Boys Never Argue Daily" but the letters N-B-N-A-D do not match the
+09-10 12:40:46   [International_Orgs] review Feynman_hi.txt: 2 issue(s): - "भारत ने 1991 में सोना गिरवी रखकर IMF से मदद ली थी" → भारत ने 1991 में सोना बैंक ऑफ़ इंग्लैंड और UBS के पास गिरवी
+09-10 12:44:00   [Defence] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 12:44:00   [Defence] written 2, failed 1; AI calls today 509/100000
+09-10 12:44:00 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_22_Defence after 20 min: todo ['Set 01 hi: todo'] problems []
+09-10 12:44:00 worker 0: nothing left
+09-10 12:44:01   [Economic_Terms] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 12:44:02   [Economic_Terms] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
 ```
