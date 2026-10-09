@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 10-10-2026 02:49 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
+**आख़िरी update:** 10-10-2026 03:01 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,13 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 87 मिनट |
-| W2 | Chapter 23 Quadratic Equations (12th Maths) | ✍️ लिख रहा है | 79 मिनट |
-| W3 | Chapter 21 Permutation Combination (12th Maths) | 🔎 review हो रहा है | 50 मिनट |
-| W4 | Chapter 22 Number Series (12th Maths) | 🔎 review हो रहा है | 9 मिनट |
-| W5 | Chapter 18 Data Interpretation (12th Maths) | 📤 push हो रहा है | 0 मिनट |
-| W6 | Chapter 19 Statistics (12th Maths) | 🔎 review हो रहा है | 5 मिनट |
-| W8 | Chapter 16 Algebra (12th Maths) | 🔎 review हो रहा है | 110 मिनट |
+| W1 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 99 मिनट |
+| W2 | Chapter 23 Quadratic Equations (12th Maths) | ✍️ लिख रहा है | 92 मिनट |
+| W3 | Chapter 21 Permutation Combination (12th Maths) | 🔎 review हो रहा है | 62 मिनट |
+| W4 | Chapter 22 Number Series (12th Maths) | 🔎 review हो रहा है | 22 मिनट |
+| W6 | Chapter 19 Statistics (12th Maths) | 🔎 review हो रहा है | 18 मिनट |
+| W8 | Chapter 16 Algebra (12th Maths) | 🔎 review हो रहा है | 5 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -28,11 +27,11 @@
 | 12th GK | 22 | 2 | 0 |
 | 12th Reasoning | 10 | 0 | 15 |
 | 12th English | 25 | 0 | 0 |
-| Graduation Maths | 11 | 0 | 17 |
+| Graduation Maths | 12 | 0 | 16 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 13 | 0 | 17 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **232** | **6** | **58** |
+| **कुल** | **233** | **6** | **57** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -49,26 +48,11 @@
 - Chapter 14 Sports (GK) — 2 बार
 - Chapter 19 Statistics (Maths) — 1 बार
 - Chapter 22 Number Series (Maths) — 1 बार
-- Chapter 18 Data Interpretation (Maths) — 1 बार
+- Chapter 16 Algebra (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 02:07:32   [Statistics] FAILED PYQ_hi.txt: network
-10-10 02:07:32   [Statistics] written 0, failed 1; AI calls today 88/100000
-10-10 02:11:59   [Statistics] repaired PYQ_hi.txt (826 chars)
-10-10 02:11:59   [Statistics] written 1, failed 0; AI calls today 89/100000
-10-10 02:12:00 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_19_Statistics after 53 min: todo [] problems ['PYQ_hi.txt: Hindi file is mostly not in Hindi', 'PYQ_hi.txt: much shorter than the English section (825 vs 77']
-10-10 02:12:02 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_19_Statistics (FIX: todo 0, problems 2)
-10-10 02:13:28   [Data_Interpretation] review Important_Formulas_en.txt: 1 issue(s): - Doubling Effect formula uses ≈ (approximation) but the formula 2x + x²/100 is exact for two successive
-10-10 02:22:09   [Quadratic_Equations] FAILED Practice_en_Set_04.txt: network
-10-10 02:22:09   [Quadratic_Equations] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
-10-10 02:23:11   [Permutation_Combination] FAILED review Content_en.txt: network — the chapter must not be published unreviewed
-10-10 02:23:30   [Number_Series] FAILED Practice_hi_Set_06.txt: network
-10-10 02:23:30   [Number_Series] written 2, failed 1; AI calls today 91/100000
-10-10 02:23:30 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_22_Number_Series after 55 min: todo ['Set 06 hi: todo'] problems []
-10-10 02:23:33 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_22_Number_Series (TODO: todo 1, problems 0)
-10-10 02:23:39   [Probability] FAILED Practice_en_Set_02.txt: rate_limited
 10-10 02:23:39   [Probability] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
 10-10 02:24:24   [Permutation_Combination] review Feynman_en.txt: 1 issue(s): - Narrative says "you and your two best friends — Aman, Bina, and Chintu" (implies 4 people) but the problem uses o
 10-10 02:24:53   [Algebra] FAILED review Mind_Map.txt: network — the chapter must not be published unreviewed
@@ -94,4 +78,19 @@
 10-10 02:48:51 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_18_Data_Interpretation (OK: todo 0, problems 0)
 10-10 02:49:30   [Data_Interpretation] review: 0 section(s) corrected, 0 failed
 10-10 02:49:30   [Data_Interpretation] written 0, failed 0; AI calls today 116/100000
+10-10 02:49:43 DONE 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_18_Data_Interpretation in 1 min → 32217d2f
+10-10 02:49:46 worker 4: nothing left
+10-10 02:50:49   [Statistics] review Feynman_hi.txt: 1 issue(s): - The bold formatting in the sorted list after adding 200 highlights 18 and 20 as the middle two numbers, but the c
+10-10 02:52:09   [Quadratic_Equations] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+10-10 02:52:59   [Probability] Practice_en_Set_03.txt try 3: rejected (parsed 23 questions, numbers 51…75)
+10-10 02:55:32   [Permutation_Combination] review PYQ_hi.txt: 1 issue(s): - Question 5 initial answer line says (a) but the correct answer is (b) 60 → The first answer line should be (b) 60.
+10-10 02:56:41   [Probability] Practice_en_Set_03.txt try 4: rejected (parsed 23 questions, numbers 51…75)
+10-10 02:56:41   [Probability] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
+10-10 02:56:41   [Probability] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
+10-10 02:56:54   [Algebra] review: 2 section(s) corrected, 2 failed
+10-10 02:56:54   [Algebra] written 2, failed 2; AI calls today 128/100000
+10-10 02:56:54 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_16_Algebra after 133 min: todo [] problems []
+10-10 02:56:56 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_16_Algebra (OK: todo 0, problems 0)
+10-10 02:57:39   [Quadratic_Equations] Practice_en_Set_06.txt try 1: rejected (Q133:leaked_reasoning,Q142:leaked_reasoning)
+10-10 03:00:16   [Algebra] review Content_hi.txt: 1 issue(s): - Invented exam statistic: "SSC CGL और IBPS PO के वो 4–6 प्रश्न भी बनते हैं जो हर साल पूछे जाते हैं" → Remove or qu
 ```
