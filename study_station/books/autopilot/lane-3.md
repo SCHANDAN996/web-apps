@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 07:05 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 07:20 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 19 Fill in Blanks Adv (12th English) | 🔎 review हो रहा है | 11 मिनट |
-| W2 | Chapter 20 Sentence Improvement Adv (12th English) | ✍️ लिख रहा है | 7 मिनट |
-| W4 | Chapter 23 Sentence Arrangement (12th English) | ✍️ लिख रहा है | 36 मिनट |
-| W5 | Chapter 22 Para Jumbles (12th English) | ✍️ लिख रहा है | 39 मिनट |
+| W1 | Chapter 19 Fill in Blanks Adv (12th English) | 🔎 review हो रहा है | 26 मिनट |
+| W2 | Chapter 20 Sentence Improvement Adv (12th English) | 🔎 review हो रहा है | 14 मिनट |
+| W4 | Chapter 23 Sentence Arrangement (12th English) | ✍️ लिख रहा है | 51 मिनट |
+| W5 | Chapter 22 Para Jumbles (12th English) | ✍️ लिख रहा है | 54 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -24,12 +24,12 @@
 | 12th Maths | 0 | 0 | 23 |
 | 12th GK | 9 | 0 | 15 |
 | 12th Reasoning | 0 | 0 | 25 |
-| 12th English | 19 | 0 | 6 |
+| 12th English | 20 | 0 | 5 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 7 | 0 | 21 |
 | Graduation Reasoning | 1 | 0 | 29 |
 | Graduation English | 28 | 0 | 2 |
-| **कुल** | **114** | **13** | **169** |
+| **कुल** | **115** | **13** | **168** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -56,23 +56,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 06:48:02   [Sentence_Arrangement] PYQ_en.txt try 2: rejected (corrupted characters)
-09-10 06:48:02   [Sentence_Arrangement] REJECTED PYQ_en.txt: corrupted characters — not written
-09-10 06:49:05   [Cloze_Test] review Flashcards_en.txt: 1 issue(s): - File content is corrupted/unreadable: contains only formatting artifacts (repeated "Card", "Front", "Back", "<
-09-10 06:49:06   [Fill_in_Blanks_Adv] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-09-10 06:49:43   [Sentence_Arrangement] wrote PYQ_hi.txt (7438 chars)
-09-10 06:50:28   [Fill_in_Blanks_Adv] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-09-10 06:50:43   [Sentence_Arrangement] wrote Short_Tricks_en.txt (6455 chars)
-09-10 06:50:55   [Sentence_Arrangement] wrote Short_Tricks_hi.txt (440 chars)
-09-10 06:50:56   [Sentence_Improvement_Adv] Practice_en_Set_06.txt try 1: re-solve disagrees (Q133 key b vs re-solve a)
-09-10 06:51:42   [Sentence_Arrangement] wrote Important_Rules_en.txt (5456 chars)
-09-10 06:51:45   [Para_Jumbles] Mind_Map_hi.txt try 1: answer too long — asking for a tighter version
-09-10 06:51:49   [Cloze_Test] review PYQ_en.txt: 1 issue(s): - Q6: The sentence "The committee has submitted its report yesterday" is ungrammatical because present perfect ("has su
-09-10 06:51:52   [Para_Jumbles] Mind_Map_hi.txt try 2: rejected (too short)
-09-10 06:51:52   [Para_Jumbles] REJECTED Mind_Map_hi.txt: too short — not written
-09-10 06:52:08   [Fill_in_Blanks_Adv] Practice_hi_Set_06.txt try 1: rejected (parsed 1 questions, numbers 126…126)
-09-10 06:53:04   [Para_Jumbles] wrote Flashcards_en.txt (5766 chars)
-09-10 06:53:21   [Cloze_Test] review PYQ_hi.txt: 1 issue(s): - Q3 example "The committee has submitted its report yesterday" is ungrammatical (present perfect cannot be used with a
 09-10 06:53:30   [Sentence_Arrangement] wrote Important_Rules_hi.txt (5308 chars)
 09-10 06:53:45   [Fill_in_Blanks_Adv] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 09-10 06:53:45   [Fill_in_Blanks_Adv] written 5, failed 0; AI calls today 693/100000
@@ -96,4 +79,21 @@
 09-10 07:01:31 worker 2: nothing left
 09-10 07:02:47   [Fill_in_Blanks_Adv] review Mind_Map_en.txt: 5 issue(s): - Line `A --> E="Step 4: Avoid]` has invalid Mermaid syntax (missing opening bracket, mismatched quote) → `A --> E
 09-10 07:03:41   [Sentence_Improvement_Adv] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 07:05:47   [Sentence_Improvement_Adv] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 07:05:47   [Sentence_Improvement_Adv] written 4, failed 0; AI calls today 720/100000
+09-10 07:09:17   [Sentence_Arrangement] Practice_en_Set_01.txt try 1: rejected (parsed 1 questions, numbers 1…1)
+09-10 07:10:45   [Sentence_Improvement_Adv] review Content_hi.txt: 1 issue(s): - In Linguistic Bridge note, 'explain (सीधे object नहीं)' is a wrong grammar rule; explain takes a direct object (e
+09-10 07:12:43   [Sentence_Improvement_Adv] review Feynman_en.txt: 1 issue(s): - The claim "80% of all sentence improvement questions" is an invented exam statistic with no source → Remove the u
+09-10 07:13:55   [Para_Jumbles] PYQ_hi.txt try 1: answer too long — asking for a tighter version
+09-10 07:14:42   [Fill_in_Blanks_Adv] review Short_Tricks_en.txt: 2 issue(s): - Trick 3: The example sentence uses "Although" but the mnemonic BUD (But, Unless, Despite) does not include "
+09-10 07:14:56   [Sentence_Improvement_Adv] review Mind_Map_en.txt: 1 issue(s): - "12 Golden Rules" node claims 12 rules but only 6 (E1–E6) are listed → either rename to "6 Golden Rules" or add 
+09-10 07:15:55   [Para_Jumbles] wrote PYQ_hi.txt (8772 chars)
+09-10 07:16:38   [Para_Jumbles] wrote Short_Tricks_en.txt (5580 chars)
+09-10 07:17:21   [Fill_in_Blanks_Adv] review Short_Tricks_hi.txt: 1 issue(s): - Trick 2 (FANBOYS) claims coordinating conjunctions require tense matching (e.g., both clauses past) → Coordi
+09-10 07:17:55   [Para_Jumbles] wrote Short_Tricks_hi.txt (6083 chars)
+09-10 07:18:09   [Sentence_Arrangement] Practice_en_Set_01.txt try 2: re-solve disagrees (Q1 key d vs re-solve c, Q2 key d vs re-solve a, Q4 key b vs re-solve c, Q6 key a vs re-solve c, Q10 
+09-10 07:18:16   [Sentence_Improvement_Adv] review Flashcards_en.txt: 3 issue(s): - Card 4: The mnemonic includes "Hate" as a verb that always takes a gerund, but "hate" can also take an infinit
+09-10 07:18:46   [Para_Jumbles] wrote Important_Rules_en.txt (4944 chars)
+09-10 07:18:57   [Para_Jumbles] Important_Rules_hi.txt try 1: rejected (too short)
+09-10 07:19:39   [Sentence_Improvement_Adv] review Flashcards_hi.txt: 2 issue(s): - Card 2: “Scissors” is listed in the SANAM mnemonic as a noun that looks plural but takes a singular verb; **Sc
 ```
