@@ -1,0 +1,37 @@
+```mermaid
+graph TD
+    A["क्रम और स्थान<br>Order & Ranking"] --> B["मूल अवधारणाएँ<br>Basic Concepts"]
+    A --> C["प्रश्नों के प्रकार<br>Types of Questions"]
+    A --> D["रणनीतियाँ<br>Strategies"]
+    A --> E["समय प्रबंधन<br>Time Management"]
+    A --> F["परीक्षक के जाल<br>Common Traps"]
+
+    B --> B1["बाएँ/दाएँ से स्थान<br>Position from Left/Right"]
+    B --> B2["ऊपर/नीचे से क्रम<br>Rank from Top/Bottom"]
+    B --> B3["कुल व्यक्ति = बाएँ + दाएँ − 1<br>Total = L + R − 1"]
+    B --> B4["मध्य स्थान<br>Mid Position"]
+
+    C --> C1["एक पंक्ति में स्थान<br>Single Row Position"]
+    C --> C2["दोनों सिरों से स्थान<br>Position from Both Ends"]
+    C --> C3["अदला-बदली / Interchange<br>स्थान बदलने वाले प्रश्न"]
+    C --> C4["तुलना आधारित<br>Comparison Based<br>(लंबाई/अंक/उम्र)"]
+    C --> C5["कुल संख्या ज्ञात करना<br>Finding Total Number"]
+    C --> C6["न्यूनतम/अधिकतम संभावना<br>Minimum/Maximum Cases"]
+
+    D --> D1["रेखा-चित्र बनाएँ<br>Draw a Line Diagram"]
+    D --> D2["सूत्र: कुल = L + R − 1<br>Formula Approach"]
+    D --> D3["स्थान बदलाव में<br>नया स्थान = पुराना ± अंतर"]
+    D --> D4["तुलना में >/< से शृंखला बनाएँ<br>Chain with Inequalities"]
+    D --> D5["असंतुष्ट शर्तों को अंत में जोड़ें<br>Fix Uncertain Info Last"]
+
+    E --> E1["सीधा सूत्र वाला: 20–30 सेकंड<br>Direct Formula: 20–30 sec"]
+    E --> E2["तुलना/शृंखला वाला: 45–60 सेकंड<br>Comparison: 45–60 sec"]
+    E --> E3["जटिल/दो-शर्त वाला: छोड़ने योग्य<br>Complex: Skippable"]
+
+    F --> F1["'बाएँ से' और 'दाएँ से' का भ्रम<br>Left vs Right Confusion"]
+    F --> F2["कुल = L + R (भूलकर −1 न करना)<br>Forgetting −1 in Total"]
+    F --> F3["'के बीच' और 'के बाद' का अंतर<br>Between vs After"]
+    F --> F4["स्थान बदलाव में दोनों के स्थान बदलते हैं<br>Both Positions Change in Swap"]
+    F --> F5["'कम से कम/अधिक से अधिक से अधिक' में दोनों सिरे जाँचें<br>Check Both Extremes"]
+    F --> F6["नकारात्मक वाक्य: 'नहीं है'<br>Negative Wording Trap"]
+```
