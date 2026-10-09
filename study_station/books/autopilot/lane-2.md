@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 11:32 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:12 PM
+**आख़िरी update:** 09-10-2026 11:47 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:12 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,12 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 12 Time Distance (Graduation Maths) | ✍️ लिख रहा है | 80 मिनट |
-| W3 | Chapter 13 Mixture Alligation (Graduation Maths) | ✍️ लिख रहा है | 59 मिनट |
-| W5 | Chapter 09 Simple Interest (Graduation Maths) | 🔎 review हो रहा है | 50 मिनट |
-| W6 | Chapter 14 Mensuration (Graduation Maths) | ✍️ लिख रहा है | 27 मिनट |
-| W7 | Chapter 11 Time Work (Graduation Maths) | ✍️ लिख रहा है | 90 मिनट |
-| W8 | Chapter 10 Compound Interest (Graduation Maths) | ✍️ लिख रहा है | 92 मिनट |
+| W2 | Chapter 12 Time Distance (Graduation Maths) | ✍️ लिख रहा है | 96 मिनट |
+| W3 | Chapter 13 Mixture Alligation (Graduation Maths) | ✍️ लिख रहा है | 74 मिनट |
+| W5 | Chapter 09 Simple Interest (Graduation Maths) | 🔎 review हो रहा है | 65 मिनट |
+| W6 | Chapter 14 Mensuration (Graduation Maths) | ✍️ लिख रहा है | 42 मिनट |
+| W7 | Chapter 11 Time Work (Graduation Maths) | ✍️ लिख रहा है | 105 मिनट |
+| W8 | Chapter 10 Compound Interest (Graduation Maths) | ✍️ लिख रहा है | 107 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -21,7 +21,7 @@
 |---|---|---|---|
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
-| 10th Maths | 14 | 8 | 0 |
+| 10th Maths | 15 | 7 | 0 |
 | 10th English | 17 | 0 | 3 |
 | 12th Maths | 10 | 0 | 13 |
 | 12th GK | 22 | 0 | 2 |
@@ -29,9 +29,9 @@
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 6 | 0 | 22 |
 | Graduation GK | 27 | 1 | 0 |
-| Graduation Reasoning | 10 | 0 | 20 |
+| Graduation Reasoning | 11 | 0 | 19 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **208** | **9** | **79** |
+| **कुल** | **210** | **8** | **78** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -55,23 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 23:14:25   [Mensuration] wrote Feynman_en.txt (2821 chars)
-09-10 23:15:01   [Time_Work] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-09-10 23:16:11   [Profit_Loss] review Important_Formulas_en.txt: 1 issue(s): - Dishonest dealer formula: "Profit % = (Error / True weight − Error) × 100" is missing parentheses and 
-09-10 23:16:12   [Mensuration] wrote Feynman_hi.txt (3167 chars)
-09-10 23:16:43   [Compound_Interest] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-09-10 23:16:50   [Mensuration] wrote Mind_Map.txt (2189 chars)
-09-10 23:17:22   [Mensuration] wrote Flashcards_en.txt (2878 chars)
-09-10 23:17:26   [Fractions_Decimals] review PYQ_hi.txt: 2 issue(s): - Invented statistic '70% गलतियाँ होती हैं' (no source) → Remove the percentage or replace with qualitative wording.
-09-10 23:18:11   [Time_Distance] PYQ_hi.txt try 1: answer too long — asking for a tighter version
-09-10 23:18:49   [Profit_Loss] review: 4 section(s) corrected, 0 failed
-09-10 23:18:49   [Profit_Loss] written 4, failed 0; AI calls today 653/100000
-09-10 23:19:02 DONE Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_08_Profit_Loss in 150 min → 50bd9627
-09-10 23:19:02 worker 3: nothing left
-09-10 23:19:08   [Mensuration] wrote Flashcards_hi.txt (2546 chars)
-09-10 23:19:41   [Mixture_Alligation] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 23:20:44   [Time_Work] Practice_en_Set_02.txt try 1: rejected (Q33:leaked_reasoning,Q34:leaked_reasoning,Q35:leaked_reasoning,Q36:leaked_reasoning,Q37:leaked_reasoning)
-09-10 23:20:54   [Compound_Interest] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 09-10 23:21:25   [Simple_Interest] review Feynman_hi.txt: 1 issue(s): - गौरी रोज़ 2 लीटर दूध देती थी। → गौरी हर साल 2 लीटर दूध देती थी।
 09-10 23:22:00   [Time_Distance] wrote PYQ_hi.txt (8121 chars)
 09-10 23:22:14   [Mixture_Alligation] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
@@ -95,4 +78,21 @@
 09-10 23:31:47   [Fractions_Decimals] written 4, failed 1; AI calls today 681/100000
 09-10 23:31:47 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_04_Fractions_Decimals after 98 min: todo [] problems []
 09-10 23:31:47 worker 0: nothing left
+09-10 23:33:36   [Time_Distance] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 23:33:56   [Mixture_Alligation] Practice_en_Set_02.txt try 3: re-solve disagrees (Q30 key c vs re-solve ?)
+09-10 23:36:14   [Time_Distance] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 23:37:38   [Mensuration] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 23:37:51   [Simple_Interest] FAILED review Feynman_hi.txt: too_long — the chapter must not be published unreviewed
+09-10 23:38:44   [Mixture_Alligation] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+09-10 23:39:40   [Mixture_Alligation] Practice_hi_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 23:39:54   [Mensuration] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 23:41:20   [Mensuration] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 23:41:47   [Time_Distance] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+09-10 23:43:34   [Time_Work] FAILED Practice_en_Set_02.txt: too_long
+09-10 23:43:34   [Time_Work] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+09-10 23:44:38   [Time_Distance] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 23:45:02   [Mixture_Alligation] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 23:45:24   [Simple_Interest] review PYQ_en.txt: 2 issue(s): - Q6: The given amounts (₹11,600 in 4 years, ₹13,600 in 6 years) yield a rate of ~13.16%, which does not match any opti
+09-10 23:46:02   [Compound_Interest] FAILED Practice_en_Set_03.txt: too_long
+09-10 23:46:02   [Compound_Interest] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
 ```
