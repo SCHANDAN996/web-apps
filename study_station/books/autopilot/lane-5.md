@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 10-10-2026 03:14 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 02:27 AM
+**आख़िरी update:** 10-10-2026 03:29 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 02:27 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Noun (10th English) | 🔧 सुधार रहा है | 12 मिनट |
-| W4 | Chapter 18 Trigonometry (10th Maths) | 🔧 सुधार रहा है | 46 मिनट |
-| W5 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 46 मिनट |
+| W1 | Chapter 01 Noun (10th English) | 🔧 सुधार रहा है | 10 मिनट |
+| W4 | Chapter 18 Trigonometry (10th Maths) | 🔧 सुधार रहा है | 61 मिनट |
+| W5 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 61 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -43,17 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 02:38:03   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
-10-10 02:38:03   [Verb] written 0, failed 1; AI calls today 22/100000
-10-10 02:38:03 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb after 5 min: todo [] problems ['Set 01 hi: English sentence translated (keep it in English) ']
-10-10 02:38:05 worker 2: nothing left
-10-10 02:39:26   [Probability] repaired set 01 (en + hi, key confirmed by an independent re-solve)
-10-10 02:40:26   [Adjective] FAILED set 03: re-translation still changes English sentences — left as it was
-10-10 02:40:26   [Adjective] written 0, failed 1; AI calls today 23/100000
-10-10 02:40:26 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective after 8 min: todo [] problems ['Set 03 hi: English sentence translated (keep it in English) ']
-10-10 02:40:29 worker 1: nothing left
-10-10 02:48:04   [Trigonometry] FAILED Short_Tricks_en.txt: too_long
-10-10 02:49:09   [Trigonometry] repaired Short_Tricks_hi.txt (4451 chars)
 10-10 02:49:28   [Noun] FAILED set 01: too_long
 10-10 02:49:28   [Noun] written 0, failed 1; AI calls today 23/100000
 10-10 02:50:26   [Noun] set 01 try 1: rejected (Q20:duplicate_options)
@@ -83,4 +72,15 @@
 10-10 03:08:12   [Trigonometry] repaired set 03 (en + hi, key confirmed by an independent re-solve)
 10-10 03:09:14   [Probability] repaired set 04 (en + hi, key confirmed by an independent re-solve)
 10-10 03:10:44   [Probability] set 05 try 1: rejected (parsed 24 questions, numbers 101…125)
+10-10 03:14:52   [Trigonometry] repaired set 04 (en + hi, key confirmed by an independent re-solve)
+10-10 03:16:39   [Trigonometry] set 05 try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 03:18:42   [Noun] FAILED set 01: too_long
+10-10 03:18:42   [Noun] written 0, failed 1; AI calls today 54/100000
+10-10 03:19:29   [Noun] set 01 try 1: rejected (Q20:duplicate_options)
+10-10 03:20:14   [Trigonometry] Practice_hi_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 03:21:31   [Noun] set 01 try 2: rejected (Q20:duplicate_options)
+10-10 03:22:13   [Noun] set 01 try 3: rejected (Q20:duplicate_options)
+10-10 03:23:25   [Trigonometry] repaired set 05 (en + hi, key confirmed by an independent re-solve)
+10-10 03:25:28   [Probability] FAILED set 05: too_long
+10-10 03:27:04   [Probability] set 06 try 1: rejected (parsed 23 questions, numbers 126…150)
 ```
