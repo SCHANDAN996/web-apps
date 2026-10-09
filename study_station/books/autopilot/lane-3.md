@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 06:17 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 06:28 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 28 मिनट |
-| W2 | Chapter 08 Puzzles (12th Reasoning) | ✍️ लिख रहा है | 172 मिनट |
-| W3 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 34 मिनट |
-| W4 | Chapter 09 Venn Diagrams (12th Reasoning) | ✍️ लिख रहा है | 99 मिनट |
-| W5 | Chapter 04 Blood Relations (12th Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 39 मिनट |
+| W2 | Chapter 08 Puzzles (12th Reasoning) | ✍️ लिख रहा है | 183 मिनट |
+| W3 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 45 मिनट |
+| W4 | Chapter 09 Venn Diagrams (12th Reasoning) | ✍️ लिख रहा है | 110 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -43,18 +42,12 @@
 - Chapter 22 Para Jumbles (English) — 2 बार
 - Chapter 23 Sentence Arrangement (English) — 2 बार
 - Chapter 03 Coding Decoding (Reasoning) — 2 बार
-- Chapter 04 Blood Relations (Reasoning) — 1 बार
 - Chapter 05 Direction Sense (Reasoning) — 1 बार
 - Chapter 07 Sitting Arrangement (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 17:45:28   [Direction_Sense] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 17:45:56   [Venn_Diagrams] Practice_en_Set_02.txt try 2: re-solve disagrees (Q29 key c vs re-solve ?, Q36 key d vs re-solve ?)
-09-10 17:49:01   [Sitting_Arrangement] FAILED Practice_en_Set_06.txt: rate_limited
-09-10 17:49:01   [Sitting_Arrangement] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-09-10 17:49:01   [Sitting_Arrangement] written 14, failed 11; AI calls today 257/100000
 09-10 17:49:01 NOT OK 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement after 166 min: todo ['Important_Rules_hi.txt', 'Set 01 en: todo', 'Set 01 hi: todo', 'Set 02 en: todo'] problems ['PYQ_hi.txt: Hindi file is mostly not in Hindi']
 09-10 17:49:03 START 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement (TODO: todo 11, problems 1)
 09-10 17:49:49   [Direction_Sense] FAILED Practice_en_Set_02.txt: rate_limited
@@ -90,4 +83,9 @@
 09-10 18:15:48   [Blood_Relations] review Important_Rules_en.txt: 2 issue(s): - Left-to-Right Reading example "P + Q − R → first P+Q, then (P+Q) − R" misrepresents the decoding process;
 09-10 18:17:27   [Blood_Relations] review: 8 section(s) corrected, 0 failed
 09-10 18:17:27   [Blood_Relations] written 8, failed 0; AI calls today 293/100000
+09-10 18:17:41 DONE 12th_Level/Reasoning/Chapter_04_Blood_Relations in 133 min → 312125be
+09-10 18:17:41 worker 4: nothing left
+09-10 18:18:25   [Direction_Sense] Practice_en_Set_06.txt try 1: rejected (Q128:leaked_reasoning,Q131:leaked_reasoning,Q132:leaked_reasoning,Q138:leaked_reasoning,Q141:leaked_reasoning)
+09-10 18:19:04   [Puzzles] Practice_en_Set_05.txt try 1: rejected (Q101:leaked_reasoning,Q105:leaked_reasoning,Q121:leaked_reasoning,Q122:leaked_reasoning,Q114:duplicate_options
+09-10 18:21:53   [Venn_Diagrams] Practice_en_Set_04.txt try 1: re-solve disagrees (Q82 key a vs re-solve d, Q97 key d vs re-solve c)
 ```
