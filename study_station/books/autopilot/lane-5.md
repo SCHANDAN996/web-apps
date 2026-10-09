@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 09-10-2026 02:55 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 11:14 AM
+**आख़िरी update:** 09-10-2026 03:03 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 11:14 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 06 Adverb (10th English) | 📤 push हो रहा है | 0 मिनट |
-| W2 | Chapter 10 Voice (10th English) | ✍️ लिख रहा है | 47 मिनट |
-| W3 | Chapter 09 Articles (10th English) | ✍️ लिख रहा है | 76 मिनट |
-| W4 | Chapter 07 Preposition (10th English) | 🔎 review हो रहा है | 14 मिनट |
-| W5 | Chapter 08 Conjunction (10th English) | ✍️ लिख रहा है | 83 मिनट |
+| W1 | Chapter 11 Narration (10th English) | ✍️ लिख रहा है | 7 मिनट |
+| W2 | Chapter 10 Voice (10th English) | ✍️ लिख रहा है | 55 मिनट |
+| W3 | Chapter 09 Articles (10th English) | ✍️ लिख रहा है | 84 मिनट |
+| W4 | Chapter 07 Preposition (10th English) | 🔎 review हो रहा है | 22 मिनट |
+| W5 | Chapter 08 Conjunction (10th English) | ✍️ लिख रहा है | 90 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -23,14 +23,14 @@
 | 10th Maths | 9 | 13 | 0 |
 | 10th English | 4 | 2 | 14 |
 | 12th Maths | 0 | 0 | 23 |
-| 12th GK | 18 | 0 | 6 |
+| 12th GK | 21 | 0 | 3 |
 | 12th Reasoning | 2 | 0 | 23 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 20 | 0 | 8 |
 | Graduation Reasoning | 4 | 0 | 26 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **150** | **15** | **131** |
+| **कुल** | **153** | **15** | **128** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -43,28 +43,10 @@
 - Chapter 01 Noun (English) — 2 बार
 - Chapter 04 Verb (English) — 2 बार
 - Chapter 03 Adjective (English) — 2 बार
-- Chapter 06 Adverb (English) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 14:32:13   [Preposition] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 14:33:10   [Voice] wrote Important_Rules_en.txt (4861 chars)
-09-10 14:34:29   [Voice] wrote Important_Rules_hi.txt (3786 chars)
-09-10 14:34:38   [Articles] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-09-10 14:36:28   [Preposition] Practice_hi_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 14:37:19   [Adverb] review PYQ_en.txt: 2 issue(s): - "Adverb of manner (how often)" is a wrong fact: manner answers "how", not "how often" → Adverb of frequency (how ofte
-09-10 14:37:45   [Conjunction] Practice_en_Set_01.txt try 4: re-solve disagrees (Q2 key d vs re-solve a, Q11 key d vs re-solve b, Q17 key d vs re-solve a)
-09-10 14:37:45   [Conjunction] REJECTED Practice_en_Set_01.txt: no version passed the checks — not written
-09-10 14:37:45   [Conjunction] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
-09-10 14:38:10   [Articles] Practice_en_Set_02.txt try 1: re-solve disagrees (Q49 key c vs re-solve d)
-09-10 14:38:24   [Voice] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 14:38:46   [Preposition] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 14:38:46   [Preposition] written 26, failed 0; AI calls today 401/100000
-09-10 14:39:39   [Preposition] repaired Important_Rules_hi.txt (347 chars)
-09-10 14:39:39   [Preposition] written 1, failed 0; AI calls today 403/100000
-09-10 14:40:11   [Voice] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-09-10 14:40:55   [Preposition] repaired Important_Rules_hi.txt (3798 chars)
 09-10 14:40:55   [Preposition] written 1, failed 0; AI calls today 407/100000
 09-10 14:41:18   [Articles] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 09-10 14:41:39   [Adverb] review Short_Tricks_en.txt: 1 issue(s): - Trick 8 rule line says "enough + adjective/adverb, but adjective/adverb + enough" — the first part is wrong;
@@ -88,4 +70,21 @@
 09-10 14:55:05   [Articles] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 09-10 14:55:30   [Adverb] review: 1 section(s) corrected, 0 failed
 09-10 14:55:30   [Adverb] written 1, failed 0; AI calls today 434/100000
+09-10 14:55:45 DONE 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_06_Adverb in 2 min → 878bbc86
+09-10 14:55:45 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_11_Narration (TODO: todo 26, problems 0)
+09-10 14:55:49   [Preposition] review Feynman_en.txt: 2 issue(s): - "This one picture solves 70% of preposition questions" (invented statistic) → "This one picture solves many prepo
+09-10 14:56:04   [Conjunction] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 14:57:10   [Narration] wrote Content_en.txt (8521 chars)
+09-10 14:59:16   [Narration] wrote Content_hi.txt (8231 chars)
+09-10 14:59:21   [Articles] Practice_hi_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 14:59:47   [Narration] wrote Feynman_en.txt (3176 chars)
+09-10 14:59:59   [Preposition] review Mind_Map_en.txt: 1 issue(s): - The mind map claims "12 Golden Rules" but only 8 rules (D1–D8) are listed → either change the number to 8 or add
+09-10 15:00:30   [Narration] wrote Feynman_hi.txt (2791 chars)
+09-10 15:01:02   [Preposition] review Mind_Map_hi.txt: 4 issue(s): - Mermaid diagram syntax is completely broken after line 3: mismatched brackets, stray quotes, orphan arrows, and 
+09-10 15:01:19   [Narration] Mind_Map_en.txt try 1: rejected (no usable mermaid graph)
+09-10 15:01:47   [Conjunction] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 15:02:04   [Articles] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 15:02:55   [Narration] Mind_Map_en.txt try 2: rejected (no usable mermaid graph)
+09-10 15:02:55   [Narration] REJECTED Mind_Map_en.txt: no usable mermaid graph — not written
+09-10 15:03:03   [Conjunction] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 ```
