@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 09-10-2026 09:07 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
+**आख़िरी update:** 09-10-2026 09:15 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,12 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Time Work (10th Maths) | 🔎 review हो रहा है | 22 मिनट |
-| W3 | Chapter 20 Sentence Improvement Basic (10th English) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 16 Algebra (10th Maths) | 🔧 सुधार रहा है | 50 मिनट |
-| W5 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 96 मिनट |
-| W7 | Chapter 14 Mensuration (10th Maths) | 🔎 review हो रहा है | 12 मिनट |
-| W8 | Chapter 15 Geometry (10th Maths) | 🔎 review हो रहा है | 20 मिनट |
+| W1 | Chapter 11 Time Work (10th Maths) | 🔎 review हो रहा है | 31 मिनट |
+| W4 | Chapter 16 Algebra (10th Maths) | 🔎 review हो रहा है | 3 मिनट |
+| W5 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 105 मिनट |
+| W7 | Chapter 14 Mensuration (10th Maths) | 🔎 review हो रहा है | 21 मिनट |
+| W8 | Chapter 15 Geometry (10th Maths) | 🔎 review हो रहा है | 29 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -21,17 +20,17 @@
 |---|---|---|---|
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
-| 10th Maths | 14 | 8 | 0 |
+| 10th Maths | 15 | 7 | 0 |
 | 10th English | 16 | 3 | 1 |
 | 12th Maths | 7 | 0 | 16 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 6 | 0 | 19 |
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 1 | 0 | 27 |
-| Graduation GK | 26 | 0 | 2 |
+| Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 8 | 0 | 22 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **195** | **11** | **90** |
+| **कुल** | **197** | **10** | **89** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -57,18 +56,10 @@
 - Chapter 01 Noun (English) — 2 बार
 - Chapter 07 Preposition (English) — 2 बार
 - Chapter 12 Sentence Structure (English) — 2 बार
-- Chapter 20 Sentence Improvement Basic (English) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 20:44:56   [Mensuration] repaired set 06 (en + hi, key confirmed by an independent re-solve)
-09-10 20:44:56   [Mensuration] written 5, failed 1; AI calls today 789/100000
-09-10 20:45:28   [Compound_Interest] review PYQ_hi.txt: 1 issue(s): "- The solution for Q9 incorrectly computes 66550 × 1.12² as ₹83,488.92; the correct value is ₹83,480.32 → correction: 
-09-10 20:46:29   [Geometry] repaired set 06 (en + hi, key confirmed by an independent re-solve)
-09-10 20:46:29   [Geometry] written 6, failed 0; AI calls today 793/100000
-09-10 20:46:46   [Mixture_Alligation] Practice_hi_Set_05.txt try 1: rejected (parsed 24 questions, numbers 101…125)
-09-10 20:47:54   [Geometry] review Content_en.txt: 1 issue(s): - The claim "Triangles appear in over 35% of exam geometry questions" is an invented exam statistic with no cited s
 09-10 20:49:14   [Algebra] repaired set 04 (en + hi, key confirmed by an independent re-solve)
 09-10 20:49:57   [Time_Distance] review PYQ_en.txt: 3 issue(s): - Chat line "Here is what the data screams:" → Remove the chat line.
 09-10 20:50:17   [Geometry] review Content_hi.txt: 1 issue(s): - The claim “परीक्षाओं के 35% से अधिक ज्यामिति प्रश्नों में त्रिभुज आते हैं” is an invented exam statistic → Replac
@@ -102,4 +93,11 @@
 09-10 21:05:53   [Time_Work] review Feynman_en.txt: 1 issue(s): - The statement “Efficiency Ratio : Time Ratio = 1:2 :: 2:1?” is mathematically incorrect → The correct relationshi
 09-10 21:07:14   [Sentence_Improvement_Basic] review: 3 section(s) corrected, 0 failed
 09-10 21:07:14   [Sentence_Improvement_Basic] written 3, failed 0; AI calls today 853/100000
+09-10 21:07:34 DONE 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_20_Sentence_Improvement_Basic in 36 min → 011ff48b
+09-10 21:07:34 worker 2: nothing left
+09-10 21:08:30   [Geometry] review PYQ_hi.txt: 7 issue(s): - Introductory paragraph claims specific percentage weightages (35%, 25%, 20%, 20%) for geometry topics without any sou
+09-10 21:10:28   [Mensuration] review Mind_Map.txt: 1 issue(s): - Rectangle perimeter formula written as "2 × l+b" missing parentheses → should be "2(l+b)" or "2 × (l+b)"
+09-10 21:12:01   [Algebra] repaired set 06 (en + hi, key confirmed by an independent re-solve)
+09-10 21:12:01   [Algebra] written 6, failed 0; AI calls today 862/100000
+09-10 21:15:45   [Algebra] review Content_en.txt: 2 issue(s): - Invented exam weightage claim "20–25% of questions arise directly from this way of thinking" → Remove the specifi
 ```
