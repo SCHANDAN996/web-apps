@@ -48,9 +48,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 17:00:06   [Adjective] FAILED set 03: re-translation still changes English sentences — left as it was
-09-10 17:00:06   [Adjective] written 0, failed 1; AI calls today 74/100000
-09-10 17:00:41   [Sentence_Structure] Feynman_en.txt try 2: rejected (corrupted characters)
 09-10 17:00:41   [Sentence_Structure] REJECTED Feynman_en.txt: corrupted characters — not written
 09-10 17:01:37   [Noun] set 01 try 2: rejected (parsed 0 questions, numbers -…-)
 09-10 17:01:44   [Adjective] FAILED set 03: re-translation still changes English sentences — left as it was
@@ -88,4 +85,7 @@
 09-10 17:11:01   [Noun] set 01 try 1: rejected (Q20:duplicate_options)
 09-10 17:11:20   [Voice] review: 5 section(s) corrected, 0 failed
 09-10 17:11:20   [Voice] written 5, failed 0; AI calls today 120/100000
+09-10 17:11:35 DONE 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_10_Voice in 31 min → cf023b00
+09-10 17:11:36 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_14_Antonyms (TODO: todo 26, problems 0)
+09-10 17:11:38   [Synonyms] wrote Mind_Map_hi.txt (1290 chars)
 ```
