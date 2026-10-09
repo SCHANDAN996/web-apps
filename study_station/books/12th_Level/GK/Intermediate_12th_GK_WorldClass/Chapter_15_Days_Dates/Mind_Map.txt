@@ -1,0 +1,40 @@
+```mermaid
+graph TD
+    A["महत्वपूर्ण दिवस और तिथियाँ<br>Important Days & Dates"] --> B["राष्ट्रीय दिवस<br>National Days"]
+    A --> C["अंतरराष्ट्रीय दिवस<br>International Days"]
+    A --> D["UN / विश्व संगठन दिवस<br>UN & World Body Days"]
+    A --> E["परीक्षक के जाल<br>Examiner's Traps"]
+    A --> F["रणनीति<br>Strategy"]
+
+    B --> B1["26 जनवरी — गणतंत्र दिवस<br>Republic Day"]
+    B --> B2["15 अगस्त — स्वतंत्रता दिवस<br>Independence Day"]
+    B --> B3["30 जनवरी — शहीद दिवस<br>Martyrs' Day (गांधी पुण्यतिथि)"]
+    B --> B4["23 जनवरी — पराक्रम दिवस<br>Parakram Diwas (नेताजी जयंती)"]
+    B --> B5["5 सितंबर — शिक्षक दिवस<br>Teachers' Day (राधाकृष्णन जयंती)"]
+    B --> B6["14 नवंबर — बाल दिवस<br>Children's Day (नेहरू जयंती)"]
+    B --> B7["23 दिसंबर — किसान दिवस<br>National Farmers' Day (चौधरी चरण सिंह)"]
+
+    C --> C1["8 मार्च — अंतरराष्ट्रीय महिला दिवस<br>International Women's Day"]
+    C --> C2["1 मई — अंतरराष्ट्रीय श्रमिक दिवस<br>International Labour Day"]
+    C --> C3["5 जून — विश्व पर्यावरण दिवस<br>World Environment Day"]
+    C --> C4["21 जून — अंतरराष्ट्रीय योग दिवस<br>International Yoga Day"]
+    C --> C5["1 दिसंबर — विश्व एड्स दिवस<br>World AIDS Day"]
+    C --> C6["14 जून — विश्व रक्तदाता दिवस<br>World Blood Donor Day"]
+
+    D --> D1["24 अक्टूबर — संयुक्त राष्ट्र दिवस<br>United Nations Day"]
+    D --> D2["10 दिसंबर — मानवाधिकार दिवस<br>Human Rights Day"]
+    D --> D3["22 मार्च — विश्व जल दिवस<br>World Water Day"]
+    D --> D4["23 मार्च — विश्व मौसम विज्ञान दिवस<br>World Meteorological Day"]
+    D --> D5["7 अप्रैल — विश्व स्वास्थ्य दिवस (WHO)<br>World Health Day"]
+    D --> D6["2 अक्टूबर — अंतरराष्ट्रीय अहिंसा दिवस<br>Int'l Day of Non-Violence (गांधी जयंती)"]
+
+    E --> E1["मिलते-जुलते दिन<br>Similar Dates<br>जल दिवस 22 मार्च vs मौसम दिवस 23 मार्च"]
+    E --> E2["राष्ट्रीय vs अंतरराष्ट्रीय<br>National vs International<br>युवा दिवस: 12 जन (राष्ट्रीय) vs 12 अगस्त (अंतरराष्ट्रीय)"]
+    E --> E3["व्यक्ति-जयंती भ्रम<br>Person-Day Confusion<br>शिक्षक दिवस = राधाकृष्णन, बाल दिवस = नेहरू"]
+    E --> E4["नकारात्मक वाक्य<br>Negative Stems<br>'कौन-सा सही सुमेलित नहीं है'"]
+
+    F --> F1["माह-वार रिवीजन<br>Month-wise Revision"]
+    F --> F2["मेमोरी हुक / ट्रिक्स<br>Memory Hooks & Tricks"]
+    F --> F3["15/45 सेकंड नियम<br>15/45 Second Rule"]
+    F --> F4["थीम वाले दिवसों पर ध्यान<br>Focus on Theme-based Days"]
+```

@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 09:01 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 09:09 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 03 Modern History (12th GK) | 🔎 review हो रहा है | 29 मिनट |
-| W2 | Chapter 07 States Rivers (12th GK) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 15 Days Dates (12th GK) | 🔎 review हो रहा है | 26 मिनट |
-| W4 | Chapter 13 Awards (12th GK) | 🔎 review हो रहा है | 12 मिनट |
-| W5 | Chapter 17 Culture Art (12th GK) | ✍️ लिख रहा है | 25 मिनट |
+| W1 | Chapter 03 Modern History (12th GK) | 🔎 review हो रहा है | 37 मिनट |
+| W2 | Chapter 18 Science Tech (12th GK) | ✍️ लिख रहा है | 7 मिनट |
+| W3 | Chapter 15 Days Dates (12th GK) | 📤 push हो रहा है | 0 मिनट |
+| W4 | Chapter 13 Awards (12th GK) | 🔎 review हो रहा है | 20 मिनट |
+| W5 | Chapter 17 Culture Art (12th GK) | ✍️ लिख रहा है | 33 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,6 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 09:09 — 12th GK · Chapter 15 Days Dates
 - 09-10 09:01 — 12th GK · Chapter 07 States Rivers
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
@@ -44,20 +45,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 08:31:07 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_14_Sports (FIX: todo 0, problems 1)
-09-10 08:31:10   [Biology] repaired Feynman_hi.txt (3696 chars)
-09-10 08:31:10   [Biology] written 1, failed 0; AI calls today 12/100000
-09-10 08:31:10 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_12_Biology after 3 min: todo [] problems ['Feynman_hi.txt: much shorter than the English section (3695 ']
-09-10 08:31:11 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_15_Days_Dates (TODO: todo 1, problems 0)
-09-10 08:32:07   [Modern_History] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-09-10 08:32:07   [Modern_History] written 1, failed 0; AI calls today 14/100000
-09-10 08:32:24   [States_Rivers] review Content_hi.txt: 2 issue(s): - "Kosi river shifted 120 km east in one night (2008)" → "The shift occurred over days/weeks, not a single night."
-09-10 08:32:29   [Awards] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-09-10 08:33:45   [Sports] repaired Memory_Hooks_hi.txt (5594 chars)
-09-10 08:33:45   [Sports] written 1, failed 0; AI calls today 17/100000
-09-10 08:35:10   [Days_Dates] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-09-10 08:35:10   [Days_Dates] written 1, failed 0; AI calls today 19/100000
-09-10 08:35:52   [Sports] repaired Memory_Hooks_hi.txt (5741 chars)
 09-10 08:35:52   [Sports] written 1, failed 0; AI calls today 20/100000
 09-10 08:35:52 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_14_Sports after 5 min: todo [] problems ['Memory_Hooks_hi.txt: much shorter than the English section (']
 09-10 08:35:53 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_17_Culture_Art (TODO: todo 25, problems 0)
@@ -84,4 +71,18 @@
 09-10 08:56:46   [Awards] review Content_hi.txt: 2 issue(s): - ज्ञानपीठ पुरस्कार के प्रथम विजेता जी. शंकर कुरुप की रचना 'ओटक्कुझल' का प्रकाशन वर्ष 1961 नहीं 1950 है → सही: 1950
 09-10 09:01:34   [States_Rivers] review: 3 section(s) corrected, 0 failed
 09-10 09:01:34   [States_Rivers] written 3, failed 0; AI calls today 66/100000
+09-10 09:01:48 DONE 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_07_States_Rivers in 35 min → 346266cc
+09-10 09:01:49 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_18_Science_Tech (TODO: todo 25, problems 0)
+09-10 09:02:10   [Culture_Art] Key_Facts_hi.txt try 1: answer too long — asking for a tighter version
+09-10 09:02:25   [Modern_History] review Key_Facts_hi.txt: 1 issue(s): - मुस्लिम लीग का पहला अधिवेशन: 1908, अमृतसर → 1907, कराची
+09-10 09:03:27   [Science_Tech] wrote Content_en.txt (10778 chars)
+09-10 09:05:02   [Culture_Art] wrote Key_Facts_hi.txt (9011 chars)
+09-10 09:05:20   [Science_Tech] wrote Content_hi.txt (7079 chars)
+09-10 09:05:46   [Awards] review Key_Facts_hi.txt: 1 issue(s): - नोबेल अर्थशास्त्र पुरस्कार के वित्तपोषक का नाम "स्वर्गीय बैंक ऑफ स्वीडन" गलत है → सही नाम: "स्वीडन का केंद्रीय 
+09-10 09:06:04   [Culture_Art] wrote Feynman_en.txt (3812 chars)
+09-10 09:06:26   [Science_Tech] wrote Key_Facts_en.txt (7239 chars)
+09-10 09:08:06   [Culture_Art] wrote Feynman_hi.txt (3062 chars)
+09-10 09:08:48   [Culture_Art] wrote Mind_Map.txt (3159 chars)
+09-10 09:09:40   [Days_Dates] review: 4 section(s) corrected, 0 failed
+09-10 09:09:40   [Days_Dates] written 4, failed 0; AI calls today 85/100000
 ```
