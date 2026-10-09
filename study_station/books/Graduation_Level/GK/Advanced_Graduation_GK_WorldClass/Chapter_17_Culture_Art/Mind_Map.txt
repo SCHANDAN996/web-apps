@@ -1,0 +1,61 @@
+```mermaid
+graph TD
+    A["भारतीय संस्कृति और कला<br>Indian Culture & Art"] --> B["शास्त्रीय नृत्य<br>Classical Dances"]
+    A --> C["संगीत<br>Music"]
+    A --> D["चित्रकला<br>Paintings"]
+    A --> E["स्थापत्य<br>Architecture"]
+    A --> F["भाषा और साहित्य<br>Language & Literature"]
+    A --> G["त्योहार और मेले<br>Festivals & Fairs"]
+    A --> H["यूनेस्को धरोहर<br>UNESCO Heritage"]
+    A --> I["परीक्षक के जाल<br>Examiner's Traps"]
+
+    B --> B1["भरतनाट्यम् — तमिलनाडु<br>Bharatanatyam — Tamil Nadu"]
+    B --> B2["कथक — उत्तर प्रदेश<br>Kathak — Uttar Pradesh"]
+    B --> B3["कथकली — केरल<br>Kathakali — Kerala"]
+    B --> B4["कुचिपुड़ी — आंध्र प्रदेश<br>Kuchipudi — Andhra Pradesh"]
+    B --> B5["ओडिसी — ओडिशा<br>Odissi — Odisha"]
+    B --> B6["मणिपुरी — मणिपुर<br>Manipuri — Manipur"]
+    B --> B7["मोहिनीअट्टम — केरल<br>Mohiniyattam — Kerala"]
+    B --> B8["सत्रिया — असम<br>Sattriya — Assam"]
+    B --> B9["स्रोत ग्रंथ: नाट्यशास्त्र (भरत मुनि)<br>Source: Natyashastra (Bharata Muni)"]
+
+    C --> C1["हिंदुस्तानी — उत्तर भारत<br>Hindustani — North India"]
+    C --> C2["कर्नाटक — दक्षिण भारत<br>Carnatic — South India"]
+    C --> C3["घराने: ग्वालियर, जयपुर, किराना<br>Gharanas: Gwalior, Jaipur, Kirana"]
+    C --> C4["वाद्य: तत, सुषिर, अवनद्ध, घन<br>Instruments: String, Wind, Percussion, Solid"]
+
+    D --> D1["अजंता चित्र — महाराष्ट्र<br>Ajanta Paintings — Maharashtra"]
+    D --> D2["मुगल लघु चित्र<br>Mughal Miniatures"]
+    D --> D3["राजस्थानी / पहाड़ी शैली<br>Rajasthani / Pahari Schools"]
+    D --> D4["मधुबनी — बिहार<br>Madhubani — Bihar"]
+    D --> D5["तंजौर — तमिलनाडु<br>Tanjore — Tamil Nadu"]
+
+    E --> E1["नागर शैली — उत्तर भारत<br>Nagara Style — North India"]
+    E --> E2["द्रविड़ शैली — दक्षिण भारत<br>Dravida Style — South India"]
+    E --> E3["वेसर शैली — मिश्रित<br>Vesara Style — Mixed"]
+    E --> E4["इंडो-इस्लामिक: कुतुब मीनार, ताजमहल<br>Indo-Islamic: Qutub Minar, Taj Mahal"]
+    E --> E5["स्तूप: सांची<br>Stupa: Sanchi"]
+
+    F --> F1["वेद: ऋग्वेद सबसे प्राचीन<br>Vedas: Rigveda Oldest"]
+    F --> F2["महाकाव्य: रामायण, महाभारत<br>Epics: Ramayana, Mahabharata"]
+    F --> F3["संगीत रत्नाकर — शारंगदेव<br>Sangeet Ratnakar — Sharangadeva"]
+    F --> F4["कालिदास: अभिज्ञान शाकुंतलम्<br>Kalidasa: Abhijnanashakuntalam"]
+
+    G --> G1["होली, दीवाली, ईद, क्रिसमस<br>Holi, Diwali, Eid, Christmas"]
+    G --> G2["क्षेत्रीय: बिहू, पोंगल, ओणम<br>Regional: Bihu, Pongal, Onam"]
+    G --> G3["पुष्कर मेला — राजस्थान<br>Pushkar Fair — Rajasthan"]
+
+    H --> H1["ताजमहल, अजंता, एलोरा<br>Taj Mahal, Ajanta, Ellora"]
+    H --> H2["अमूर्त धरोहर: योग, कुंभ मेला<br>Intangible: Yoga, Kumbh Mela"]
+    H --> H3["अमूर्त: वैदिक मंत्रोच्चार<br>Intangible: Vedic Chanting"]
+
+    I --> I1["कथकली ↔ कथक भ्रम<br>Kathakali vs Kathak Confusion"]
+    I --> I2["नृत्य ↔ राज्य गलत मिलान<br>Dance vs State Wrong Match"]
+    I --> I3["नकारात्मक प्रश्न: 'नहीं' पर ध्यान<br>Negative Questions: Watch 'NOT'"]
+    I --> I4["कालक्रम जाल: वंश ↔ शासक<br>Timeline Trap: Dynasty vs Ruler"]
+
+    A --> J["रणनीति<br>Strategy"]
+    J --> J1["15 सेकंड: राज्य-नृत्य मिलान<br>15 sec: State-Dance Match"]
+    J --> J2["45 सेकंड: कथन-आधारित प्रश्न<br>45 sec: Statement-based Questions"]
+    J --> J3["अनिश्चित कथन-प्रश्न छोड़ें<br>Skip Uncertain Statement Questions"]
+```

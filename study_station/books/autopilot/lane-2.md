@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 11:44 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 11:55 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Defence (Graduation GK) | ✍️ लिख रहा है | 57 मिनट |
-| W2 | Chapter 18 Science Tech (Graduation GK) | ✍️ लिख रहा है | 0 मिनट |
-| W3 | Chapter 21 International Orgs (Graduation GK) | ✍️ लिख रहा है | 70 मिनट |
-| W4 | Chapter 17 Culture Art (Graduation GK) | 🔎 review हो रहा है | 29 मिनट |
-| W5 | Chapter 19 Environment (Graduation GK) | ✍️ लिख रहा है | 85 मिनट |
+| W1 | Chapter 22 Defence (Graduation GK) | ✍️ लिख रहा है | 69 मिनट |
+| W2 | Chapter 18 Science Tech (Graduation GK) | 🔎 review हो रहा है | 8 मिनट |
+| W3 | Chapter 21 International Orgs (Graduation GK) | ✍️ लिख रहा है | 82 मिनट |
+| W4 | Chapter 17 Culture Art (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
+| W5 | Chapter 19 Environment (Graduation GK) | ✍️ लिख रहा है | 96 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -27,13 +27,14 @@
 | 12th Reasoning | 0 | 0 | 25 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 17 | 0 | 11 |
+| Graduation GK | 18 | 0 | 10 |
 | Graduation Reasoning | 3 | 0 | 27 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **137** | **13** | **146** |
+| **कुल** | **138** | **13** | **145** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 11:55 — Graduation GK · Chapter 17 Culture Art
 - 09-10 10:46 — Graduation GK · Chapter 16 Books Authors
 - 09-10 10:19 — Graduation GK · Chapter 15 Days Dates
 - 09-10 10:12 — Graduation GK · Chapter 14 Sports
@@ -47,33 +48,11 @@
 
 - Chapter 13 Awards (GK) — 2 बार
 - Chapter 18 Science Tech (GK) — 1 बार
+- Chapter 17 Culture Art (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 11:17:23   [Culture_Art] review Content_en.txt: 1 issue(s): - Hook attributes 'Vande Mataram' to Tagore; it is by Bankim Chandra Chattopadhyay → Replace 'Tagore's "Vande Matar
-09-10 11:17:32   [Science_Tech] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-09-10 11:18:41   [Environment] PYQ_hi.txt try 1: answer too long — asking for a tighter version
-09-10 11:19:21   [Defence] wrote Memory_Hooks_hi.txt (6382 chars)
-09-10 11:22:30   [Defence] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 11:23:57   [Culture_Art] review Content_hi.txt: 2 issue(s): - भरतनाट्यम् के मूल रूप का नाम 'सधीर अट्टम' लिखा है → सही नाम 'सदिर अट्टम' (Sadir Attam) है
-09-10 11:25:49   [Environment] PYQ_hi.txt try 2: rejected (corrupted characters)
-09-10 11:25:49   [Environment] REJECTED PYQ_hi.txt: corrupted characters — not written
-09-10 11:28:03   [Environment] wrote Memory_Hooks_en.txt (6210 chars)
-09-10 11:28:30   [Defence] Practice_hi_Set_01.txt try 1: rejected (Q24:needs_context)
-09-10 11:29:10   [Culture_Art] review Key_Facts_hi.txt: 2 issue(s): - ललित कला अकादमी की स्थापना वर्ष 1954 दिया गया है → सही वर्ष 1955 है
-09-10 11:29:49   [International_Orgs] FAILED Practice_en_Set_02.txt: too_long
-09-10 11:29:49   [International_Orgs] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
-09-10 11:30:43   [Environment] wrote Memory_Hooks_hi.txt (4908 chars)
-09-10 11:31:12   [Defence] Practice_hi_Set_01.txt try 2: rejected (Q24:needs_context)
-09-10 11:31:25   [International_Orgs] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-09-10 11:34:04   [Defence] Practice_hi_Set_01.txt try 3: rejected (Q24:needs_context)
-09-10 11:34:17   [Culture_Art] review Flashcards_en.txt: 2 issue(s): - Card 7: The mnemonic "B-K-K-K-M-O-S-K" incorrectly assigns the final "K" to Mohiniyattam (which begins with M)
-09-10 11:34:23   [Environment] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 11:34:42   [International_Orgs] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-09-10 11:35:32   [Science_Tech] FAILED Practice_hi_Set_05.txt: too_long
-09-10 11:37:07   [Environment] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-09-10 11:37:12   [Defence] Practice_hi_Set_01.txt try 4: rejected (Q24:needs_context)
 09-10 11:37:12   [Defence] REJECTED Practice_hi_Set_01.txt: no translation passed the checks — not written
 09-10 11:37:34   [Environment] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
 09-10 11:37:41   [International_Orgs] wrote Practice_en_Set_04.txt (write, 25 MCQs)
@@ -91,4 +70,27 @@
 09-10 11:44:04 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_18_Science_Tech (TODO: todo 1, problems 0)
 09-10 11:44:06   [Science_Tech] Practice_hi_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
 09-10 11:44:07   [Defence] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 11:46:26   [International_Orgs] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 11:46:47   [Culture_Art] review Memory_Hooks_en.txt: 4 issue(s): - Mnemonic 1's phrase "Boys Keep Kites, Mothers Make Orange Sweets" has only 7 initials for 8 dances (missing 
+09-10 11:46:59   [Defence] Practice_en_Set_03.txt try 1: re-solve disagrees (Q69 key c vs re-solve b)
+09-10 11:47:02   [Science_Tech] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 11:47:02   [Science_Tech] written 1, failed 0; AI calls today 398/100000
+09-10 11:47:12   [Environment] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 11:48:42   [International_Orgs] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 11:49:05   [Culture_Art] review Memory_Hooks_hi.txt: 2 issue(s): - बॉक्स 13: ललित कला अकादमी की स्थापना वर्ष 1954 बताया गया है → सही वर्ष 1955 है
+09-10 11:49:35   [Environment] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 11:51:19   [Defence] FAILED Practice_en_Set_03.txt: rate_limited
+09-10 11:51:19   [Defence] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
+09-10 11:51:26   [Defence] Practice_en_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 11:52:28   [Science_Tech] review Content_hi.txt: 1 issue(s): - Aditya-L1 launch location incorrectly stated as Bhuj, Gujarat → Aditya-L1 was launched from Satish Dhawan Space C
+09-10 11:52:55   [Environment] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 11:53:08   [Culture_Art] review: 7 section(s) corrected, 1 failed
+09-10 11:53:08   [Culture_Art] written 7, failed 1; AI calls today 410/100000
+09-10 11:53:08 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_17_Culture_Art after 154 min: todo [] problems []
+09-10 11:53:09 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_17_Culture_Art (OK: todo 0, problems 0)
+09-10 11:54:33   [Culture_Art] review PYQ_en.txt: 1 issue(s): - In Trap 2, the answer line states "Answer: 3 → 1 → 2" but the solution correctly explains the chronological order as 
+09-10 11:54:52   [International_Orgs] Practice_en_Set_06.txt try 1: re-solve disagrees (Q150 key d vs re-solve ?)
+09-10 11:55:29   [Environment] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 11:55:50   [Culture_Art] review: 1 section(s) corrected, 0 failed
+09-10 11:55:50   [Culture_Art] written 1, failed 0; AI calls today 417/100000
 ```
