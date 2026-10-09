@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 09-10-2026 09:03 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
+**आख़िरी update:** 09-10-2026 09:07 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,13 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Time Work (10th Maths) | 🔎 review हो रहा है | 19 मिनट |
-| W3 | Chapter 20 Sentence Improvement Basic (10th English) | 🔎 review हो रहा है | 21 मिनट |
-| W4 | Chapter 16 Algebra (10th Maths) | 🔧 सुधार रहा है | 46 मिनट |
-| W5 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 93 मिनट |
-| W6 | Chapter 12 Time Distance (10th Maths) | 📤 push हो रहा है | 0 मिनट |
-| W7 | Chapter 14 Mensuration (10th Maths) | 🔎 review हो रहा है | 9 मिनट |
-| W8 | Chapter 15 Geometry (10th Maths) | 🔎 review हो रहा है | 17 मिनट |
+| W1 | Chapter 11 Time Work (10th Maths) | 🔎 review हो रहा है | 22 मिनट |
+| W3 | Chapter 20 Sentence Improvement Basic (10th English) | 📤 push हो रहा है | 0 मिनट |
+| W4 | Chapter 16 Algebra (10th Maths) | 🔧 सुधार रहा है | 50 मिनट |
+| W5 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 96 मिनट |
+| W7 | Chapter 14 Mensuration (10th Maths) | 🔎 review हो रहा है | 12 मिनट |
+| W8 | Chapter 15 Geometry (10th Maths) | 🔎 review हो रहा है | 20 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -36,6 +35,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 21:07 — 10th English · Chapter 20 Sentence Improvement Basic
 - 09-10 21:03 — 10th Maths · Chapter 12 Time Distance
 - 09-10 20:54 — 10th Maths · Chapter 10 Compound Interest
 - 09-10 20:16 — 10th English · Chapter 18 Error Spotting Basic
@@ -62,12 +62,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 20:42:10   [Sentence_Improvement_Basic] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 20:42:10   [Sentence_Improvement_Basic] written 2, failed 0; AI calls today 780/100000
-09-10 20:42:19   [Algebra] repaired set 03 (en + hi, key confirmed by an independent re-solve)
-09-10 20:42:40   [Geometry] Practice_hi_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 20:44:33   [Time_Work] repaired set 06 (en + hi, key confirmed by an independent re-solve)
-09-10 20:44:33   [Time_Work] written 6, failed 0; AI calls today 786/100000
 09-10 20:44:56   [Mensuration] repaired set 06 (en + hi, key confirmed by an independent re-solve)
 09-10 20:44:56   [Mensuration] written 5, failed 1; AI calls today 789/100000
 09-10 20:45:28   [Compound_Interest] review PYQ_hi.txt: 1 issue(s): "- The solution for Q9 incorrectly computes 66550 × 1.12² as ₹83,488.92; the correct value is ₹83,480.32 → correction: 
@@ -102,4 +96,10 @@
 09-10 21:02:46   [Geometry] review PYQ_en.txt: 1 issue(s): - Q10 solution incorrectly states the sphere volume coefficient as (4/3)*(1/(4π)) ≈ 0.094 → correct coefficient is 1/(6
 09-10 21:03:44   [Time_Distance] review: 3 section(s) corrected, 0 failed
 09-10 21:03:44   [Time_Distance] written 3, failed 0; AI calls today 846/100000
+09-10 21:03:59 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_12_Time_Distance in 95 min → c44bc82f
+09-10 21:03:59 worker 5: nothing left
+09-10 21:05:20   [Algebra] set 06 try 1: re-solve disagrees (Q150 key a vs re-solve ?)
+09-10 21:05:53   [Time_Work] review Feynman_en.txt: 1 issue(s): - The statement “Efficiency Ratio : Time Ratio = 1:2 :: 2:1?” is mathematically incorrect → The correct relationshi
+09-10 21:07:14   [Sentence_Improvement_Basic] review: 3 section(s) corrected, 0 failed
+09-10 21:07:14   [Sentence_Improvement_Basic] written 3, failed 0; AI calls today 853/100000
 ```
