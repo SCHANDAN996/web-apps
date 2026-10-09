@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 02:50 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 02:52 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 03 Modern History (12th GK) | 📤 push हो रहा है | 0 मिनट |
-| W2 | Chapter 24 Reports Indices (12th GK) | 🔎 review हो रहा है | 45 मिनट |
-| W3 | Chapter 25 Govt Schemes (12th GK) | 🔎 review हो रहा है | 29 मिनट |
-| W4 | Chapter 01 Number System (12th Maths) | ✍️ लिख रहा है | 3 मिनट |
-| W5 | Chapter 21 International Orgs (12th GK) | 🔎 review हो रहा है | 45 मिनट |
+| W1 | Chapter 02 LCM HCF (12th Maths) | ✍️ लिख रहा है | 1 मिनट |
+| W2 | Chapter 24 Reports Indices (12th GK) | 🔎 review हो रहा है | 0 मिनट |
+| W3 | Chapter 25 Govt Schemes (12th GK) | 🔎 review हो रहा है | 31 मिनट |
+| W4 | Chapter 01 Number System (12th Maths) | ✍️ लिख रहा है | 5 मिनट |
+| W5 | Chapter 21 International Orgs (12th GK) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,6 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 14:52 — 12th GK · Chapter 21 International Orgs
 - 09-10 14:50 — 12th GK · Chapter 03 Modern History
 - 09-10 14:47 — 12th GK · Chapter 18 Science Tech
 
@@ -41,22 +42,11 @@
 
 - Chapter 12 Biology (GK) — 2 बार
 - Chapter 14 Sports (GK) — 2 बार
-- Chapter 03 Modern History (GK) — 1 बार
+- Chapter 24 Reports Indices (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 14:08:19   [Reports_Indices] review Content_en.txt: 1 issue(s): - CPI 2024 India rank given as 96 → the latest CPI report available in 2024 is CPI 2023 (released Jan 2024) where I
-09-10 14:09:49   [Science_Tech] review Content_en.txt: 3 issue(s): - "Exactly one year later, on 18 July 1980" → "On 18 July 1980 (the first SLV-3 launch was 10 August 1979, about 11
-09-10 14:10:45   [Govt_Schemes] wrote PYQ_en.txt (15063 chars)
-09-10 14:13:14   [Reports_Indices] REJECTED review fix Content_en.txt: corrupted characters
-09-10 14:13:28   [International_Orgs] review Content_hi.txt: 3 issue(s): - IAEA का हिंदी नाम गलत है: "अंतर्राष्ट्रीय ऊर्जा एजेंसी" → "अंतर्राष्ट्रीय परमाणु ऊर्जा एजेंसी"
-09-10 14:15:56   [Reports_Indices] review Content_hi.txt: 2 issue(s): - Doing Business Report का पहला प्रकाशन 2000 में बताया गया है, जबकि वास्तव में यह 2003 में शुरू हुआ (पहली रिपोर्ट D
-09-10 14:17:02   [Science_Tech] review Content_hi.txt: 3 issue(s): - SLV-3 launch date written as 28 July 1980 → correct date is 18 July 1980
-09-10 14:17:14   [Govt_Schemes] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-09-10 14:21:30   [Govt_Schemes] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-09-10 14:21:30   [Govt_Schemes] written 3, failed 0; AI calls today 43/100000
-09-10 14:22:02   [Modern_History] review Feynman_en.txt: 2 issue(s): - Mnemonic "SATAra JAIpur SAMbalpur — JHANSI NAGPUR" incorrectly lists Jaipur as a state annexed under Doctrine of 
 09-10 14:24:01   [International_Orgs] review Mind_Map.txt: 1 issue(s): - UNICEF listed under Specialized Agencies → UNICEF is a UN programme/fund, not a specialized agency
 09-10 14:25:01   [Modern_History] REJECTED review fix Feynman_en.txt: corrupted characters
 09-10 14:27:31   [Science_Tech] review Feynman_en.txt: 1 issue(s): - 'Antibiotics (like penicillin) work by attacking the cell walls and machinery of bacteria' → Penicillin only inhi
@@ -86,4 +76,15 @@
 09-10 14:50:31   [Reports_Indices] review Memory_Hooks_hi.txt: 1 issue(s): - Mnemonic 9 heading "4 खंभे: एस-पी-एच-ई" is wrong; the four pillars of the Global Gender Gap Index are Econom
 09-10 14:50:56   [Modern_History] review: 1 section(s) corrected, 0 failed
 09-10 14:50:56   [Modern_History] written 1, failed 0; AI calls today 110/100000
+09-10 14:51:09 DONE 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_03_Modern_History in 3 min → 985acc0b
+09-10 14:51:11 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_02_LCM_HCF (TODO: todo 8, problems 2)
+09-10 14:51:37   [International_Orgs] review Memory_Hooks_hi.txt: 2 issue(s): - "एंतोनियो गुतेरेश (पुर्तगाल) — वर्तमान" without a year → add year (e.g., "2017 से वर्तमान") or omit "वर्तमान
+09-10 14:51:58   [Number_System] Practice_en_Set_04.txt try 1: rejected (Q93:leaked_reasoning)
+09-10 14:52:12   [LCM_HCF] wrote Feynman_hi.txt (2728 chars)
+09-10 14:52:33   [Reports_Indices] review: 5 section(s) corrected, 1 failed
+09-10 14:52:33   [Reports_Indices] written 5, failed 1; AI calls today 117/100000
+09-10 14:52:33 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_24_Reports_Indices after 52 min: todo [] problems []
+09-10 14:52:34 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_24_Reports_Indices (OK: todo 0, problems 0)
+09-10 14:52:42   [International_Orgs] review: 7 section(s) corrected, 0 failed
+09-10 14:52:42   [International_Orgs] written 7, failed 0; AI calls today 118/100000
 ```
