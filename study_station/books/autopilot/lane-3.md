@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 12:16 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 12:31 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 06 Order Ranking (12th Reasoning) | ✍️ लिख रहा है | 34 मिनट |
-| W2 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 46 मिनट |
-| W3 | Chapter 04 Blood Relations (12th Reasoning) | ✍️ लिख रहा है | 48 मिनट |
-| W4 | Chapter 03 Coding Decoding (12th Reasoning) | ✍️ लिख रहा है | 93 मिनट |
-| W5 | Chapter 02 Classification (12th Reasoning) | 🔎 review हो रहा है | 9 मिनट |
+| W1 | Chapter 06 Order Ranking (12th Reasoning) | ✍️ लिख रहा है | 50 मिनट |
+| W2 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 62 मिनट |
+| W3 | Chapter 04 Blood Relations (12th Reasoning) | ✍️ लिख रहा है | 63 मिनट |
+| W4 | Chapter 03 Coding Decoding (12th Reasoning) | ✍️ लिख रहा है | 108 मिनट |
+| W5 | Chapter 02 Classification (12th Reasoning) | 🔎 review हो रहा है | 24 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -27,10 +27,10 @@
 | 12th Reasoning | 2 | 0 | 23 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 16 | 0 | 12 |
+| Graduation GK | 17 | 0 | 11 |
 | Graduation Reasoning | 3 | 0 | 27 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **139** | **13** | **144** |
+| **कुल** | **140** | **13** | **143** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -49,21 +49,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 11:51:12   [Order_Ranking] wrote PYQ_en.txt (8672 chars)
-09-10 11:51:33   [Direction_Sense] wrote Content_hi.txt (1071 chars)
-09-10 11:52:07   [Blood_Relations] wrote Mind_Map.txt (2867 chars)
-09-10 11:53:27   [Blood_Relations] wrote Flashcards_en.txt (4848 chars)
-09-10 11:54:07   [Classification] Practice_en_Set_03.txt try 1: re-solve disagrees (Q53 key b vs re-solve d, Q58 key b vs re-solve a, Q69 key c vs re-solve d, Q73 key d vs re-solve c)
-09-10 11:54:56   [Blood_Relations] wrote Flashcards_hi.txt (6696 chars)
-09-10 11:56:25   [Order_Ranking] wrote PYQ_hi.txt (6425 chars)
-09-10 11:57:59   [Order_Ranking] wrote Short_Tricks_en.txt (5284 chars)
-09-10 11:58:00   [Classification] Practice_en_Set_03.txt try 2: re-solve disagrees (Q53 key c vs re-solve d, Q58 key c vs re-solve b, Q69 key b vs re-solve d, Q73 key b vs re-solve c)
-09-10 11:58:23   [Order_Ranking] Short_Tricks_hi.txt try 1: rejected (too short)
-09-10 11:59:07   [Blood_Relations] wrote PYQ_en.txt (10177 chars)
-09-10 12:00:03   [Order_Ranking] wrote Short_Tricks_hi.txt (4466 chars)
-09-10 12:02:14   [Order_Ranking] wrote Important_Rules_en.txt (3623 chars)
-09-10 12:02:31   [Blood_Relations] wrote PYQ_hi.txt (9044 chars)
-09-10 12:03:01   [Blood_Relations] wrote Short_Tricks_en.txt (814 chars)
 09-10 12:03:15   [Coding_Decoding] Practice_en_Set_02.txt try 4: re-solve disagrees (Q34 key b vs re-solve d, Q44 key b vs re-solve a)
 09-10 12:03:15   [Coding_Decoding] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
 09-10 12:03:15   [Coding_Decoding] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
@@ -89,4 +74,19 @@
 09-10 12:13:02   [Direction_Sense] wrote Flashcards_en.txt (4649 chars)
 09-10 12:15:02   [Direction_Sense] wrote Flashcards_hi.txt (3866 chars)
 09-10 12:16:13   [Classification] review Content_hi.txt: 2 issue(s): - The claim "SSC, Banking और Railway की परीक्षाओं में वर्गीकरण से लगभग हर शिफ्ट में 2–4 प्रश्न आते हैं" is an inven
+09-10 12:16:44   [Direction_Sense] wrote PYQ_en.txt (11010 chars)
+09-10 12:17:05   [Coding_Decoding] Practice_en_Set_03.txt try 3: re-solve disagrees (Q62 key a vs re-solve ?)
+09-10 12:20:37   [Direction_Sense] wrote PYQ_hi.txt (7903 chars)
+09-10 12:21:29   [Direction_Sense] wrote Short_Tricks_en.txt (3625 chars)
+09-10 12:22:25   [Coding_Decoding] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 12:22:52   [Order_Ranking] Practice_en_Set_02.txt try 2: re-solve disagrees (Q32 key c vs re-solve b)
+09-10 12:23:15   [Direction_Sense] wrote Short_Tricks_hi.txt (4307 chars)
+09-10 12:24:16   [Direction_Sense] wrote Important_Rules_en.txt (3767 chars)
+09-10 12:24:45   [Blood_Relations] Important_Rules_hi.txt try 1: answer too long — asking for a tighter version
+09-10 12:25:15   [Coding_Decoding] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 12:26:00   [Direction_Sense] Important_Rules_hi.txt try 1: rejected (corrupted characters)
+09-10 12:27:24   [Direction_Sense] wrote Important_Rules_hi.txt (3414 chars)
+09-10 12:27:28   [Coding_Decoding] Practice_en_Set_04.txt try 1: rejected (Q98:leaked_reasoning,Q85:duplicate_options)
+09-10 12:28:51   [Order_Ranking] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+09-10 12:30:00   [Direction_Sense] Practice_en_Set_01.txt try 1: rejected (Q4:leaked_reasoning,Q7:leaked_reasoning,Q10:leaked_reasoning,Q13:leaked_reasoning,Q23:leaked_reasoning)
 ```
