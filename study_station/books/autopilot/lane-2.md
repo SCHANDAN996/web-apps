@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 11:18 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:12 PM
+**आख़िरी update:** 09-10-2026 11:32 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:12 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 Fractions Decimals (Graduation Maths) | 🔎 review हो रहा है | 39 मिनट |
-| W2 | Chapter 12 Time Distance (Graduation Maths) | ✍️ लिख रहा है | 67 मिनट |
-| W3 | Chapter 13 Mixture Alligation (Graduation Maths) | ✍️ लिख रहा है | 45 मिनट |
-| W4 | Chapter 08 Profit Loss (Graduation Maths) | 📤 push हो रहा है | 0 मिनट |
-| W5 | Chapter 09 Simple Interest (Graduation Maths) | 🔎 review हो रहा है | 36 मिनट |
-| W6 | Chapter 14 Mensuration (Graduation Maths) | ✍️ लिख रहा है | 13 मिनट |
-| W7 | Chapter 11 Time Work (Graduation Maths) | ✍️ लिख रहा है | 77 मिनट |
-| W8 | Chapter 10 Compound Interest (Graduation Maths) | ✍️ लिख रहा है | 78 मिनट |
+| W2 | Chapter 12 Time Distance (Graduation Maths) | ✍️ लिख रहा है | 80 मिनट |
+| W3 | Chapter 13 Mixture Alligation (Graduation Maths) | ✍️ लिख रहा है | 59 मिनट |
+| W5 | Chapter 09 Simple Interest (Graduation Maths) | 🔎 review हो रहा है | 50 मिनट |
+| W6 | Chapter 14 Mensuration (Graduation Maths) | ✍️ लिख रहा है | 27 मिनट |
+| W7 | Chapter 11 Time Work (Graduation Maths) | ✍️ लिख रहा है | 90 मिनट |
+| W8 | Chapter 10 Compound Interest (Graduation Maths) | ✍️ लिख रहा है | 92 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -31,9 +29,9 @@
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 6 | 0 | 22 |
 | Graduation GK | 27 | 1 | 0 |
-| Graduation Reasoning | 9 | 0 | 21 |
+| Graduation Reasoning | 10 | 0 | 20 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **207** | **9** | **80** |
+| **कुल** | **208** | **9** | **79** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -51,41 +49,12 @@
 - Chapter 03 Simplification (Maths) — 2 बार
 - Chapter 05 Percentage (Maths) — 2 बार
 - Chapter 02 LCM HCF (Maths) — 2 बार
-- Chapter 04 Fractions Decimals (Maths) — 1 बार
+- Chapter 04 Fractions Decimals (Maths) — 2 बार
 - Chapter 07 Ratio Proportion (Maths) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 22:59:26   [Time_Distance] FAILED Flashcards_hi.txt: too_long
-09-10 23:01:21   [Time_Work] wrote Short_Tricks_en.txt (4333 chars)
-09-10 23:01:23   [Time_Distance] wrote PYQ_en.txt (8078 chars)
-09-10 23:03:15   [Time_Work] wrote Short_Tricks_hi.txt (8086 chars)
-09-10 23:03:27   [Time_Work] wrote Important_Formulas_en.txt (1476 chars)
-09-10 23:03:45   [Compound_Interest] Practice_en_Set_02.txt try 1: re-solve disagrees (Q49 key a vs re-solve c)
-09-10 23:04:02   [Fractions_Decimals] review Flashcards_hi.txt: 1 issue(s): - Card 18 का उत्तर "5/8" बताता है जबकि व्याख्या स्पष्ट करती है कि 7/11 सबसे बड़ी है → सही उत्तर: 7/11
-09-10 23:04:17   [Time_Work] wrote Important_Formulas_hi.txt (2345 chars)
-09-10 23:05:08   [Profit_Loss] review PYQ_hi.txt: 1 issue(s): - Question 5 trap explanation misstates the erroneous method: it claims that taking profit as 1/6 of CP gives CP = 144 
-09-10 23:05:15   [Ratio_Proportion] FAILED Practice_en_Set_02.txt: too_long
-09-10 23:05:15   [Ratio_Proportion] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
-09-10 23:05:15   [Ratio_Proportion] written 1, failed 2; AI calls today 622/100000
-09-10 23:05:15 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_07_Ratio_Proportion after 17 min: todo ['Set 02 en: todo', 'Set 02 hi: todo'] problems []
-09-10 23:05:17 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_14_Mensuration (TODO: todo 25, problems 0)
-09-10 23:06:00   [Time_Work] Practice_en_Set_01.txt try 1: rejected (Q15:leaked_reasoning)
-09-10 23:07:43   [Mensuration] Content_en.txt try 1: rejected (chat debris "Here's the")
-09-10 23:07:49   [Fractions_Decimals] review PYQ_en.txt: 1 issue(s): - Q6 answer (a) 11/26 is incorrect for the given problem → The correct fraction is 2/3 (16/24), which is not among the 
-09-10 23:09:31   [Mensuration] Content_en.txt try 2: rejected (chat debris "Here is the")
-09-10 23:09:31   [Mensuration] REJECTED Content_en.txt: chat debris "Here is the" — not written
-09-10 23:09:43   [Time_Work] Practice_en_Set_01.txt try 2: re-solve disagrees (Q21 key d vs re-solve a)
-09-10 23:10:30   [Profit_Loss] review Short_Tricks_en.txt: 2 issue(s): - TRICK 7 states "Loss 25% on CP = Loss 20% on SP" → This is incorrect; Loss 25% on CP corresponds to Loss 33.
-09-10 23:11:01   [Simple_Interest] FAILED review Content_hi.txt: too_long — the chapter must not be published unreviewed
-09-10 23:11:15   [Compound_Interest] Practice_en_Set_02.txt try 2: re-solve disagrees (Q50 key d vs re-solve ?)
-09-10 23:12:57   [Time_Work] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 23:13:01   [Mixture_Alligation] Important_Formulas_hi.txt try 1: answer too long — asking for a tighter version
-09-10 23:13:09   [Mensuration] wrote Content_hi.txt (7810 chars)
-09-10 23:13:45   [Mensuration] Feynman_en.txt try 1: rejected (chat debris "Here's the")
-09-10 23:13:53   [Fractions_Decimals] REJECTED review fix PYQ_en.txt: corrupted characters
-09-10 23:14:10   [Mixture_Alligation] wrote Important_Formulas_hi.txt (4086 chars)
 09-10 23:14:25   [Mensuration] wrote Feynman_en.txt (2821 chars)
 09-10 23:15:01   [Time_Work] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 09-10 23:16:11   [Profit_Loss] review Important_Formulas_en.txt: 1 issue(s): - Dishonest dealer formula: "Profit % = (Error / True weight − Error) × 100" is missing parentheses and 
@@ -97,4 +66,33 @@
 09-10 23:18:11   [Time_Distance] PYQ_hi.txt try 1: answer too long — asking for a tighter version
 09-10 23:18:49   [Profit_Loss] review: 4 section(s) corrected, 0 failed
 09-10 23:18:49   [Profit_Loss] written 4, failed 0; AI calls today 653/100000
+09-10 23:19:02 DONE Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_08_Profit_Loss in 150 min → 50bd9627
+09-10 23:19:02 worker 3: nothing left
+09-10 23:19:08   [Mensuration] wrote Flashcards_hi.txt (2546 chars)
+09-10 23:19:41   [Mixture_Alligation] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 23:20:44   [Time_Work] Practice_en_Set_02.txt try 1: rejected (Q33:leaked_reasoning,Q34:leaked_reasoning,Q35:leaked_reasoning,Q36:leaked_reasoning,Q37:leaked_reasoning)
+09-10 23:20:54   [Compound_Interest] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 23:21:25   [Simple_Interest] review Feynman_hi.txt: 1 issue(s): - गौरी रोज़ 2 लीटर दूध देती थी। → गौरी हर साल 2 लीटर दूध देती थी।
+09-10 23:22:00   [Time_Distance] wrote PYQ_hi.txt (8121 chars)
+09-10 23:22:14   [Mixture_Alligation] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 23:22:33   [Time_Distance] Short_Tricks_en.txt try 1: rejected (corrupted characters)
+09-10 23:22:36   [Mixture_Alligation] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 23:22:52   [Mensuration] wrote PYQ_en.txt (10329 chars)
+09-10 23:23:37   [Compound_Interest] Practice_en_Set_03.txt try 1: rejected (Q73:leaked_reasoning)
+09-10 23:24:23   [Time_Distance] wrote Short_Tricks_en.txt (7111 chars)
+09-10 23:25:49   [Mensuration] wrote PYQ_hi.txt (6533 chars)
+09-10 23:25:57   [Mixture_Alligation] Practice_en_Set_02.txt try 2: rejected (Q37:leaked_reasoning,Q45:leaked_reasoning,Q47:leaked_reasoning,Q50:leaked_reasoning)
+09-10 23:26:42   [Time_Distance] wrote Short_Tricks_hi.txt (6692 chars)
+09-10 23:26:49   [Mensuration] wrote Short_Tricks_en.txt (5582 chars)
+09-10 23:27:42   [Time_Distance] wrote Important_Formulas_en.txt (3919 chars)
+09-10 23:28:48   [Mensuration] wrote Short_Tricks_hi.txt (8127 chars)
+09-10 23:29:01   [Time_Distance] wrote Important_Formulas_hi.txt (3183 chars)
+09-10 23:29:29   [Mensuration] wrote Important_Formulas_en.txt (4597 chars)
+09-10 23:30:08   [Time_Distance] Practice_en_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 23:30:52   [Mensuration] wrote Important_Formulas_hi.txt (3480 chars)
+09-10 23:30:53   [Fractions_Decimals] review Important_Formulas_hi.txt: 2 issue(s): - दशमलव गुणा के उदाहरण में दशमलव स्थानों की गणना गलत: 0.2 (1 स्थान) और 0.03 (2 स्थान) का योग 3 होना चाहि
+09-10 23:31:47   [Fractions_Decimals] review: 4 section(s) corrected, 1 failed
+09-10 23:31:47   [Fractions_Decimals] written 4, failed 1; AI calls today 681/100000
+09-10 23:31:47 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_04_Fractions_Decimals after 98 min: todo [] problems []
+09-10 23:31:47 worker 0: nothing left
 ```
