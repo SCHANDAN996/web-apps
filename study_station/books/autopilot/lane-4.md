@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 11:12 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 11:14 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Defence (12th GK) | ✍️ लिख रहा है | 89 मिनट |
-| W2 | Chapter 23 Economic Terms (12th GK) | ✍️ लिख रहा है | 27 मिनट |
-| W3 | Chapter 19 Environment (12th GK) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 21 International Orgs (12th GK) | ✍️ लिख रहा है | 12 मिनट |
-| W5 | Chapter 17 Culture Art (12th GK) | 🔎 review हो रहा है | 13 मिनट |
+| W1 | Chapter 22 Defence (12th GK) | ✍️ लिख रहा है | 91 मिनट |
+| W2 | Chapter 23 Economic Terms (12th GK) | ✍️ लिख रहा है | 29 मिनट |
+| W3 | Chapter 24 Reports Indices (12th GK) | ✍️ लिख रहा है | 2 मिनट |
+| W4 | Chapter 21 International Orgs (12th GK) | ✍️ लिख रहा है | 14 मिनट |
+| W5 | Chapter 17 Culture Art (12th GK) | 🔎 review हो रहा है | 15 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -28,9 +28,9 @@
 | 12th English | 22 | 0 | 3 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 15 | 0 | 13 |
-| Graduation Reasoning | 2 | 0 | 28 |
+| Graduation Reasoning | 3 | 0 | 27 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **134** | **15** | **147** |
+| **कुल** | **135** | **15** | **146** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -47,17 +47,10 @@
 - Chapter 18 Science Tech (GK) — 2 बार
 - Chapter 17 Culture Art (GK) — 1 बार
 - Chapter 21 International Orgs (GK) — 1 बार
-- Chapter 19 Environment (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 10:50:45   [International_Orgs] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-09-10 10:53:10   [International_Orgs] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-09-10 10:53:46   [Economic_Terms] wrote Content_hi.txt (11812 chars)
-09-10 10:54:05   [Defence] Practice_en_Set_05.txt try 1: re-solve disagrees (Q113 key a vs re-solve ?)
-09-10 10:55:50   [International_Orgs] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 10:55:52   [Environment] review Feynman_en.txt: 2 issue(s): - The example states "Bucket 1 (Grass/Producer): Catches 10,000 units of energy from the sun" and then applies the 
 09-10 10:56:24   [Economic_Terms] wrote Key_Facts_en.txt (7458 chars)
 09-10 10:56:53   [Culture_Art] review Memory_Hooks_hi.txt: 2 issue(s): - बॉक्स 1 में "आठ शास्त्रीय नृत्य — 'भकमोमकुकओ'" शीर्षक दिया गया है, लेकिन मेमोनिक **भकमोमकुकओ** केवल सात नृत्
 09-10 10:57:02   [Environment] review Feynman_hi.txt: 1 issue(s): - खड़ियाँ → कड़ियाँ
@@ -92,4 +85,10 @@
 09-10 11:11:53 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_19_Environment (OK: todo 0, problems 0)
 09-10 11:12:19   [Environment] review: 0 section(s) corrected, 0 failed
 09-10 11:12:19   [Environment] written 0, failed 0; AI calls today 324/100000
+09-10 11:12:34 DONE 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_19_Environment in 0 min → 3f4b8a58
+09-10 11:12:35 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_24_Reports_Indices (TODO: todo 25, problems 0)
+09-10 11:12:45   [Culture_Art] review Key_Facts_en.txt: 1 issue(s): - "UNESCO Intangible Cultural Heritage (India) | 15 elements" → As of Garba's inscription in 2023, India has 14 e
+09-10 11:14:17   [Defence] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 11:14:28   [Reports_Indices] wrote Content_en.txt (9509 chars)
+09-10 11:15:03   [Economic_Terms] wrote PYQ_hi.txt (7530 chars)
 ```
