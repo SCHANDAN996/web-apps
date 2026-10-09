@@ -1,0 +1,36 @@
+```mermaid
+graph TD
+    A["त्रुटि पहचान (सरल)<br>Error Spotting"] --> B["मुख्य नियम"]
+    A --> C["परीक्षक के जाल"]
+    A --> D["रणनीति"]
+    A --> E["शब्द-निर्माण"]
+
+    B --> B1["कर्ता-क्रिया सामंजस्य<br>Subject-Verb Agreement<br>He goes ✓ / He go ✗"]
+    B --> B2["Intervening Phrase<br>बीच का वाक्यांश नहीं, मुख्य कर्ता देखो<br>The box of apples is heavy"]
+    B --> B3["Collective Noun<br>Team/Committee = एकवचन क्रिया"]
+    B --> B4["Each/Every/Neither + एकवचन क्रिया"]
+    B --> B5["Uncountable Noun<br>information, furniture, advice<br>इनका बहुवचन नहीं"]
+    B --> B6["Tense की एकरूपता<br>एक ही वाक्य में काल न बदलें"]
+    B --> B7["Preposition<br>married to, good at, depend on"]
+    B --> B8["Article<br>a/an/the का सही प्रयोग"]
+    B --> B9["Pronoun का Case<br>between you and me ✓"]
+    B --> B10["Adjective vs Adverb<br>He runs fast / He is fast"]
+    B --> B11["Comparative<br>than के साथ comparative degree"]
+    B --> B12["Double Negative मना<br>I don't know nothing ✗"]
+
+    C --> C1["Sound-Right जाल<br>कान को सही लगे पर नियम से गलत"]
+    C --> C2["Intervening Phrase जाल<br>दूर का शब्द भटकाता है"]
+    C --> C3["Over-thinking जाल<br>सरल उत्तर पर संदेह न करें"]
+    C --> C4["हिंदी से सीधा अनुवाद<br>What you are doing? ✗<br>What are you doing? ✓"]
+
+    D --> D1["15 सेकंड नियम<br>तथ्यात्मक प्रश्न = तुरंत"]
+    D --> D2["45 सेकंड नियम<br>तार्किक/अनुमान प्रश्न = सोचकर"]
+    D --> D3["Skip Strategy<br>2 बार पढ़कर भी शक हो तो छोड़ें"]
+    D --> D4["वाक्य को टुकड़ों में बाँटें<br>कर्ता खोजो → क्रिया जाँचो"]
+
+    E --> E1["Root: spect = देखना<br>inspect, respect, spectator"]
+    E --> E2["Root: dict = बोलना<br>predict, dictionary"]
+    E --> E3["Root: port = ले जाना<br>transport, import, export"]
+    E --> E4["Root: scrib = लिखना<br>describe, inscription"]
+    E --> E5["Prefix/Suffix<br>un-, re-, -tion, -ful"]
+```
