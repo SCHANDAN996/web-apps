@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 09:36 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:17 PM
+**आख़िरी update:** 09-10-2026 09:51 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:17 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 16 Statement Conclusion (Graduation Reasoning) | ✍️ लिख रहा है | 131 मिनट |
-| W2 | Chapter 17 Course of Action (Graduation Reasoning) | ✍️ लिख रहा है | 10 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 138 मिनट |
-| W4 | Chapter 19 Cubes Dice (Graduation Reasoning) | ✍️ लिख रहा है | 60 मिनट |
-| W5 | Chapter 18 Inequality (Graduation Reasoning) | ✍️ लिख रहा है | 92 मिनट |
-| W6 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 138 मिनट |
-| W7 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 27 मिनट |
-| W8 | Chapter 15 Mathematical Operations (Graduation Reasoning) | ✍️ लिख रहा है | 137 मिनट |
+| W1 | Chapter 16 Statement Conclusion (Graduation Reasoning) | ✍️ लिख रहा है | 147 मिनट |
+| W2 | Chapter 17 Course of Action (Graduation Reasoning) | 🔎 review हो रहा है | 14 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 153 मिनट |
+| W4 | Chapter 19 Cubes Dice (Graduation Reasoning) | ✍️ लिख रहा है | 75 मिनट |
+| W5 | Chapter 18 Inequality (Graduation Reasoning) | ✍️ लिख रहा है | 107 मिनट |
+| W6 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 153 मिनट |
+| W7 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 42 मिनट |
+| W8 | Chapter 15 Mathematical Operations (Graduation Reasoning) | ✍️ लिख रहा है | 153 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -25,17 +25,17 @@
 |---|---|---|---|
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
-| 10th Maths | 12 | 10 | 0 |
+| 10th Maths | 14 | 8 | 0 |
 | 10th English | 15 | 0 | 5 |
-| 12th Maths | 7 | 0 | 16 |
+| 12th Maths | 9 | 0 | 14 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 6 | 0 | 19 |
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 1 | 0 | 27 |
 | Graduation GK | 27 | 0 | 1 |
-| Graduation Reasoning | 8 | 2 | 20 |
+| Graduation Reasoning | 9 | 2 | 19 |
 | Graduation English | 29 | 1 | 0 |
-| **कुल** | **193** | **13** | **90** |
+| **कुल** | **198** | **11** | **87** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -53,19 +53,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 21:07:43   [Dictionary_Order] Practice_en_Set_04.txt try 4: re-solve disagrees (Q76 key c vs re-solve b, Q97 key a vs re-solve b)
-09-10 21:07:43   [Dictionary_Order] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
-09-10 21:07:43   [Dictionary_Order] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
-09-10 21:09:07   [Alphabet_Questions] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 21:09:07   [Alphabet_Questions] written 2, failed 7; AI calls today 228/100000
-09-10 21:09:07 NOT OK Graduation_Level/Reasoning/Chapter_14_Alphabet_Questions after 111 min: todo ['Feynman_en.txt', 'Set 03 en: todo', 'Set 03 hi: todo', 'Set 04 en: todo'] problems []
-09-10 21:09:10 START Graduation_Level/Reasoning/Chapter_14_Alphabet_Questions (TODO: todo 7, problems 0)
-09-10 21:09:27   [Inequality] Practice_en_Set_03.txt try 1: re-solve disagrees (Q52 key a vs re-solve c)
-09-10 21:09:32   [Alphabet_Questions] Feynman_en.txt try 1: rejected (chat debris "Here's the")
-09-10 21:10:58   [Alphabet_Questions] wrote Feynman_en.txt (687 chars)
-09-10 21:11:08   [Dictionary_Order] Practice_en_Set_05.txt try 1: rejected (Q102:leaked_reasoning,Q104:leaked_reasoning,Q107:leaked_reasoning,Q113:leaked_reasoning,Q117:leaked_reasoning)
-09-10 21:13:48   [Course_of_Action] FAILED Practice_en_Set_05.txt: too_long
-09-10 21:13:48   [Course_of_Action] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
 09-10 21:15:24   [Statement_Conclusion] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 09-10 21:18:46   [Inequality] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 09-10 21:19:10   [Course_of_Action] wrote Practice_en_Set_06.txt (write, 25 MCQs)
@@ -93,4 +80,17 @@
 09-10 21:34:13   [Mathematical_Operations] Practice_en_Set_05.txt try 3: rejected (Q101:leaked_reasoning,Q102:leaked_reasoning,Q107:leaked_reasoning,Q112:leaked_reasoning,Q114:leaked_reasoning)
 09-10 21:34:32   [Alphabet_Questions] Practice_en_Set_04.txt try 1: rejected (Q77:leaked_reasoning,Q80:leaked_reasoning,Q83:answer_solution_conflict,Q88:leaked_reasoning,Q91:leaked_reasoni
 09-10 21:35:25   [Cubes_Dice] Practice_en_Set_01.txt try 2: re-solve disagrees (Q7 key d vs re-solve a)
+09-10 21:37:01   [Course_of_Action] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 21:37:01   [Course_of_Action] written 2, failed 0; AI calls today 269/100000
+09-10 21:37:10   [Statement_Conclusion] Practice_en_Set_05.txt try 1: re-solve disagrees (Q112 key d vs re-solve a, Q118 key d vs re-solve c, Q125 key b vs re-solve a)
+09-10 21:40:34   [Dictionary_Order] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 21:41:09   [Course_of_Action] review Content_hi.txt: 3 issue(s): - The opening anecdote claims a specific 2019 bank exam question and that "हज़ारों छात्रों" chose a wrong answer → 
+09-10 21:43:16   [Dictionary_Order] Practice_hi_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 21:45:13   [Sitting_Arrangement] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 21:46:15   [Dictionary_Order] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 21:47:58   [Statement_Conclusion] Practice_en_Set_05.txt try 2: re-solve disagrees (Q112 key d vs re-solve a, Q118 key b vs re-solve c, Q125 key a vs re-solve b)
+09-10 21:47:59   [Dictionary_Order] Practice_en_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 21:48:19   [Inequality] Practice_en_Set_05.txt try 1: re-solve disagrees (Q116 key b vs re-solve a, Q121 key d vs re-solve c)
+09-10 21:48:25   [Mathematical_Operations] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 21:51:01   [Mathematical_Operations] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 ```
