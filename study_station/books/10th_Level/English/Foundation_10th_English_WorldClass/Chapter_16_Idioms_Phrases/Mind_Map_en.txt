@@ -1,0 +1,31 @@
+```mermaid
+graph TD
+    A["Idioms & Phrases<br>मुहावरे एवं वाक्यांश"] --> B["What is an Idiom?"]
+    A --> C["High-Frequency Themes"]
+    A --> D["Examiner's Traps"]
+    A --> E["Solving Strategy"]
+    A --> F["Memory Tools"]
+
+    B --> B1["Meaning ≠ literal words<br>'Kick the bucket' = to die"]
+    B --> B2["Fixed expression<br>Word order cannot change"]
+    B --> B3["Learn as one whole unit"]
+
+    C --> C1["Body Parts<br>by heart, face the music"]
+    C --> C2["Animals<br>black sheep, let the cat out of the bag"]
+    C --> C3["Colours<br>once in a blue moon, red tape"]
+    C --> C4["Weather & Nature<br>rain cats and dogs, storm in a teacup"]
+    C --> C5["Money & Work<br>bring home the bacon, burn midnight oil"]
+
+    D --> D1["Literal-Meaning Trap<br>Option repeats the words directly"]
+    D --> D2["Similar-Sounding Idioms<br>at sixes and sevens vs at the eleventh hour"]
+    D --> D3["Over-thinking Trap<br>Simple idiom, don't invent deep meaning"]
+
+    E --> E1["15-Second Rule<br>Known idiom = instant recall"]
+    E --> E2["45-Second Rule<br>Unknown idiom = use context clues"]
+    E --> E3["Eliminate literal options first"]
+    E --> E4["Picture the image<br>then find the figurative sense"]
+
+    F --> F1["Story Method<br>Link image to meaning"]
+    F --> F2["Group by theme<br>Learn 5 body idioms together"]
+    F --> F3["Revise after 2 days<br>then after 1 week"]
+```
