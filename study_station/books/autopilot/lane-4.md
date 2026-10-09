@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 06:12 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 06:16 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Economy Basic (12th GK) | 🔎 review हो रहा है | 34 मिनट |
-| W2 | Chapter 12 Biology (12th GK) | ✍️ लिख रहा है | 29 मिनट |
-| W3 | Chapter 10 Physics Daily (12th GK) | 🔎 review हो रहा है | 2 मिनट |
-| W4 | Chapter 11 Chemistry (12th GK) | 📤 push हो रहा है | 0 मिनट |
-| W5 | Chapter 07 States Rivers (12th GK) | 🔎 review हो रहा है | 53 मिनट |
+| W1 | Chapter 09 Economy Basic (12th GK) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 12 Biology (12th GK) | ✍️ लिख रहा है | 33 मिनट |
+| W3 | Chapter 10 Physics Daily (12th GK) | 🔎 review हो रहा है | 5 मिनट |
+| W4 | Chapter 13 Awards (12th GK) | ✍️ लिख रहा है | 3 मिनट |
+| W5 | Chapter 07 States Rivers (12th GK) | 🔎 review हो रहा है | 57 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,6 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 06:16 — 12th GK · Chapter 09 Economy Basic
 - 09-10 06:12 — 12th GK · Chapter 11 Chemistry
 - 09-10 05:42 — 12th GK · Chapter 08 World Geography
 - 09-10 04:41 — 12th GK · Chapter 06 Physical Geography
@@ -46,21 +47,10 @@
 - Chapter 07 States Rivers (GK) — 1 बार
 - Chapter 09 Economy Basic (GK) — 1 बार
 - Chapter 10 Physics Daily (GK) — 1 बार
-- Chapter 11 Chemistry (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 05:45:24   [Chemistry] written 25, failed 0; AI calls today 315/100000
-09-10 05:46:06   [Physics_Daily] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 05:47:14   [Biology] wrote Content_hi.txt (9499 chars)
-09-10 05:48:02   [Chemistry] review Content_en.txt: 2 issue(s): - In the Latin names table, tungsten's "Latin Name" is given as Wolfram → Wolfram is German, not Latin; the symbol 
-09-10 05:48:28   [Chemistry] REJECTED review fix Content_en.txt: corrupted characters
-09-10 05:48:37   [Physics_Daily] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 05:48:37   [Physics_Daily] written 23, failed 2; AI calls today 320/100000
-09-10 05:48:37 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_10_Physics_Daily after 118 min: todo ['Key_Facts_en.txt', 'Set 05 hi: todo'] problems []
-09-10 05:48:38 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_10_Physics_Daily (TODO: todo 2, problems 0)
-09-10 05:51:08   [Economy_Basic] review Key_Facts_hi.txt: 2 issue(s): - In the table, "विलयन (Demonetisation)" uses incorrect Hindi term "विलयन" → correct term is "विमुद्रीकरण"
 09-10 05:54:42   [States_Rivers] FAILED review Feynman_en.txt: too_long — the chapter must not be published unreviewed
 09-10 05:55:06   [Economy_Basic] review Feynman_en.txt: 1 issue(s): - Section content is corrupted/garbled (repeated fragments "The F", "The", "F", "1") and contains no actual explana
 09-10 05:55:59   [Chemistry] review Key_Facts_hi.txt: 3 issue(s): - "आमला सोडा" listed as Hindi name for NaHCO₃ (baking soda) is incorrect → correct Hindi name is "बेकिंग सोडा" or
@@ -91,4 +81,14 @@
 09-10 06:12:36   [Chemistry] review: 1 section(s) corrected, 0 failed
 09-10 06:12:36   [Chemistry] written 1, failed 0; AI calls today 368/100000
 09-10 06:12:37   [Biology] wrote Flashcards_en.txt (5049 chars)
+09-10 06:12:50 DONE 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_11_Chemistry in 6 min → b32f8ea7
+09-10 06:12:50 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_13_Awards (TODO: todo 25, problems 0)
+09-10 06:13:45   [Economy_Basic] review Memory_Hooks_en.txt: 4 issue(s): - The mnemonic "PaLaTourist" is introduced under "5-Year Plans" but explained as "Poverty Line Trap", which is
+09-10 06:14:35   [Awards] wrote Content_en.txt (11516 chars)
+09-10 06:14:48   [Physics_Daily] review Content_en.txt: 1 issue(s): - In the Static-Dynamic Link, the sentence "pressure-temperature principles are behind everything from ISRO's cryog
+09-10 06:15:02   [Biology] wrote Flashcards_hi.txt (3234 chars)
+09-10 06:15:38   [States_Rivers] review Memory_Hooks_en.txt: 1 issue(s): - Hirakud and Rengali are incorrectly described as twin dams on the same river → Hirakud Dam is on the Mahanad
+09-10 06:16:26   [Economy_Basic] review: 6 section(s) corrected, 0 failed
+09-10 06:16:26   [Economy_Basic] written 6, failed 0; AI calls today 378/100000
+09-10 06:16:34   [Biology] wrote PYQ_en.txt (8692 chars)
 ```
