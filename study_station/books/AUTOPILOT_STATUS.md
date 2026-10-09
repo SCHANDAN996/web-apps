@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 01:45 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
+**आख़िरी update:** 10-10-2026 02:00 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 38 मिनट |
-| W2 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 11 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🔎 review हो रहा है | 61 मिनट |
-| W4 | Chapter 22 Figure Series (Graduation Reasoning) | ✍️ लिख रहा है | 7 मिनट |
-| W5 | Chapter 12 Missing Term (Graduation Reasoning) | 🔧 सुधार रहा है | 17 मिनट |
-| W6 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 61 मिनट |
-| W7 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 61 मिनट |
-| W8 | Chapter 19 Cubes Dice (Graduation Reasoning) | ✍️ लिख रहा है | 61 मिनट |
+| W1 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 53 मिनट |
+| W2 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 26 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🔎 review हो रहा है | 76 मिनट |
+| W4 | Chapter 22 Figure Series (Graduation Reasoning) | ✍️ लिख रहा है | 22 मिनट |
+| W5 | Chapter 23 Syllogism (Graduation Reasoning) | ✍️ लिख रहा है | 13 मिनट |
+| W6 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 76 मिनट |
+| W7 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 76 मिनट |
+| W8 | Chapter 19 Cubes Dice (Graduation Reasoning) | ✍️ लिख रहा है | 76 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -25,17 +25,17 @@
 |---|---|---|---|
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
-| 10th Maths | 18 | 4 | 0 |
+| 10th Maths | 19 | 3 | 0 |
 | 10th English | 17 | 0 | 3 |
 | 12th Maths | 12 | 0 | 11 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 10 | 0 | 15 |
 | 12th English | 25 | 0 | 0 |
-| Graduation Maths | 8 | 0 | 20 |
+| Graduation Maths | 9 | 0 | 19 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 13 | 2 | 15 |
 | Graduation English | 29 | 1 | 0 |
-| **कुल** | **222** | **7** | **67** |
+| **कुल** | **224** | **6** | **66** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -45,20 +45,11 @@
 
 - Chapter 22 Para Jumbles Adv (English) — 2 बार
 - Chapter 02 Classification (Reasoning) — 2 बार
-- Chapter 12 Missing Term (Reasoning) — 1 बार
+- Chapter 12 Missing Term (Reasoning) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 01:06:26   [Dictionary_Order] FAILED Practice_en_Set_03.txt: network
-10-10 01:06:26   [Dictionary_Order] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
-10-10 01:06:49   [Para_Jumbles_Adv] repaired Mind_Map_hi.txt (1393 chars)
-10-10 01:06:49   [Para_Jumbles_Adv] written 1, failed 0; AI calls today 31/100000
-10-10 01:06:49 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv after 10 min: todo [] problems ['Mind_Map_hi.txt: much shorter than the English section (1392']
-10-10 01:06:51 START Graduation_Level/Reasoning/Chapter_20_Mirror_Water_Images (TODO: todo 6, problems 0)
-10-10 01:07:38   [Missing_Term] FAILED Important_Rules_hi.txt: too_long
-10-10 01:07:38   [Missing_Term] written 0, failed 1; AI calls today 32/100000
-10-10 01:08:25   [Puzzles] review PYQ_hi.txt: 1 issue(s): - Question 1 answer key says (c) but the solution explains the correct answer is (a) A → Change the answer key to (a) A
 10-10 01:09:53   [Cubes_Dice] FAILED Practice_en_Set_01.txt: too_long
 10-10 01:09:53   [Cubes_Dice] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
 10-10 01:15:53   [Alphabet_Questions] Practice_en_Set_04.txt try 2: re-solve disagrees (Q89 key d vs re-solve b, Q90 key b vs re-solve a)
@@ -90,4 +81,13 @@
 10-10 01:40:17   [Alphabet_Questions] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
 10-10 01:41:41   [Dictionary_Order] Practice_en_Set_04.txt try 2: re-solve disagrees (Q78 key d vs re-solve ?, Q81 key a vs re-solve c, Q82 key c vs re-solve a, Q87 key c vs re-solve b, 
 10-10 01:42:23   [Figure_Series] wrote Content_en.txt (8790 chars)
+10-10 01:45:28   [Figure_Series] wrote Content_hi.txt (2112 chars)
+10-10 01:46:05   [Alphabet_Questions] Practice_en_Set_05.txt try 1: rejected (Q104:leaked_reasoning,Q106:leaked_reasoning,Q109:leaked_reasoning,Q116:leaked_reasoning,Q118:leaked_reasoning)
+10-10 01:47:11   [Missing_Term] repaired Important_Rules_hi.txt (37097 chars)
+10-10 01:47:11   [Missing_Term] written 1, failed 0; AI calls today 68/100000
+10-10 01:47:11 NOT OK Graduation_Level/Reasoning/Chapter_12_Missing_Term after 24 min: todo [] problems ['Important_Rules_hi.txt: Hindi file is mostly not in Hindi']
+10-10 01:47:13 START Graduation_Level/Reasoning/Chapter_23_Syllogism (TODO: todo 25, problems 0)
+10-10 01:55:07   [Dictionary_Order] Practice_en_Set_04.txt try 3: rejected (parsed 0 questions, numbers -…-)
+10-10 02:00:33   [Cubes_Dice] FAILED Practice_en_Set_02.txt: too_long
+10-10 02:00:33   [Cubes_Dice] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
 ```
