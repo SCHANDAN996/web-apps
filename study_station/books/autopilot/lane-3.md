@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 01:32 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 01:47 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 06 Order Ranking (12th Reasoning) | ✍️ लिख रहा है | 111 मिनट |
-| W2 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 123 मिनट |
-| W3 | Chapter 04 Blood Relations (12th Reasoning) | ✍️ लिख रहा है | 124 मिनट |
-| W4 | Chapter 03 Coding Decoding (12th Reasoning) | ✍️ लिख रहा है | 169 मिनट |
+| W1 | Chapter 06 Order Ranking (12th Reasoning) | ✍️ लिख रहा है | 126 मिनट |
+| W2 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 138 मिनट |
+| W3 | Chapter 04 Blood Relations (12th Reasoning) | ✍️ लिख रहा है | 139 मिनट |
+| W4 | Chapter 03 Coding Decoding (12th Reasoning) | ✍️ लिख रहा है | 184 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -20,7 +20,7 @@
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 9 | 13 | 0 |
-| 10th English | 0 | 0 | 20 |
+| 10th English | 1 | 0 | 19 |
 | 12th Maths | 0 | 0 | 23 |
 | 12th GK | 17 | 0 | 7 |
 | 12th Reasoning | 2 | 0 | 23 |
@@ -29,7 +29,7 @@
 | Graduation GK | 19 | 0 | 9 |
 | Graduation Reasoning | 3 | 0 | 27 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **143** | **13** | **140** |
+| **कुल** | **144** | **13** | **139** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -48,14 +48,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 12:41:51   [Blood_Relations] FAILED Important_Rules_hi.txt: too_long
-09-10 12:43:35   [Blood_Relations] Practice_en_Set_01.txt try 1: rejected (Q12:leaked_reasoning,Q21:leaked_reasoning)
-09-10 12:45:06   [Classification] review PYQ_hi.txt: 1 issue(s): - In Question 3 explanation, it is incorrectly stated that the first letter position 16 (P) is odd (विषम स्थान) → 16 is
-09-10 12:45:43   [Blood_Relations] Practice_en_Set_01.txt try 2: rejected (Q21:leaked_reasoning)
-09-10 12:46:23   [Coding_Decoding] Practice_en_Set_04.txt try 2: re-solve disagrees (Q81 key b vs re-solve a)
-09-10 12:46:52   [Direction_Sense] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 12:47:13   [Direction_Sense] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 12:49:35   [Order_Ranking] Practice_en_Set_03.txt try 2: rejected (parsed 0 questions, numbers -…-)
 09-10 12:51:19   [Direction_Sense] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 09-10 12:52:24   [Order_Ranking] Practice_en_Set_03.txt try 3: rejected (Q55:leaked_reasoning)
 09-10 12:54:12   [Classification] review Short_Tricks_en.txt: 1 issue(s): - Invented statistic "90% of number-oddity questions crack within POSSE" → Remove the percentage or rephrase a
@@ -88,4 +80,12 @@
 09-10 13:24:40   [Order_Ranking] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 09-10 13:26:44   [Order_Ranking] Practice_en_Set_05.txt try 1: rejected (Q113:leaked_reasoning,Q122:leaked_reasoning,Q123:leaked_reasoning)
 09-10 13:29:25   [Order_Ranking] Practice_en_Set_05.txt try 2: rejected (Q124:leaked_reasoning)
+09-10 13:33:29   [Blood_Relations] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+09-10 13:37:54   [Direction_Sense] Practice_en_Set_03.txt try 2: re-solve disagrees (Q67 key c vs re-solve a)
+09-10 13:38:37   [Coding_Decoding] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 13:39:49   [Coding_Decoding] Practice_hi_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 13:41:02   [Order_Ranking] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 13:42:51   [Order_Ranking] Practice_hi_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 13:44:05   [Order_Ranking] Practice_hi_Set_05.txt try 2: rejected (parsed 0 questions, numbers -…-)
+09-10 13:46:26   [Order_Ranking] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 ```
