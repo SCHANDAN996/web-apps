@@ -12,7 +12,7 @@
 | W2 | Chapter 02 Pronoun (10th English) | 🔎 review हो रहा है | 61 मिनट |
 | W3 | Chapter 03 Adjective (10th English) | ✍️ लिख रहा है | 27 मिनट |
 | W4 | Chapter 07 Preposition (10th English) | ✍️ लिख रहा है | 40 मिनट |
-| W5 | Chapter 05 Tense (10th English) | 🔎 review हो रहा है | 37 मिनट |
+| W5 | Chapter 05 Tense (10th English) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,7 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 09-10 13:32 — 10th English · Chapter 05 Tense
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
