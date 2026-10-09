@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 12:59 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 01:14 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 195 मिनट |
-| W2 | Chapter 09 Venn Diagrams (Graduation Reasoning) | ✍️ लिख रहा है | 39 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 216 मिनट |
-| W4 | Chapter 10 Clock Calendar (Graduation Reasoning) | ✍️ लिख रहा है | 109 मिनट |
-| W5 | Chapter 11 Series (Graduation Reasoning) | ✍️ लिख रहा है | 83 मिनट |
+| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 210 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 231 मिनट |
+| W4 | Chapter 10 Clock Calendar (Graduation Reasoning) | ✍️ लिख रहा है | 124 मिनट |
+| W5 | Chapter 11 Series (Graduation Reasoning) | ✍️ लिख रहा है | 98 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -26,13 +25,13 @@
 | 10th English | 0 | 0 | 20 |
 | 12th Maths | 0 | 0 | 23 |
 | 12th GK | 17 | 0 | 7 |
-| 12th Reasoning | 0 | 0 | 25 |
+| 12th Reasoning | 1 | 0 | 24 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 18 | 0 | 10 |
+| Graduation GK | 19 | 0 | 9 |
 | Graduation Reasoning | 3 | 1 | 26 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **140** | **14** | **142** |
+| **कुल** | **142** | **14** | **140** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -46,23 +45,11 @@
 - Chapter 22 Para Jumbles Adv (English) — 2 बार
 - Chapter 02 Classification (Reasoning) — 2 बार
 - Chapter 04 Blood Relations (Reasoning) — 2 बार
-- Chapter 09 Venn Diagrams (Reasoning) — 1 बार
+- Chapter 09 Venn Diagrams (Reasoning) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 12:19:00   [Puzzles] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
-09-10 12:20:26   [Venn_Diagrams] FAILED Practice_en_Set_06.txt: too_long
-09-10 12:20:26   [Venn_Diagrams] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-09-10 12:20:26   [Venn_Diagrams] written 21, failed 4; AI calls today 312/100000
-09-10 12:20:27 NOT OK Graduation_Level/Reasoning/Chapter_09_Venn_Diagrams after 126 min: todo ['Set 01 en: todo', 'Set 01 hi: todo', 'Set 06 en: todo', 'Set 06 hi: todo'] problems []
-09-10 12:20:28 START Graduation_Level/Reasoning/Chapter_09_Venn_Diagrams (TODO: todo 4, problems 0)
-09-10 12:21:24   [Clock_Calendar] Practice_en_Set_03.txt try 3: re-solve disagrees (Q68 key a vs re-solve b, Q69 key d vs re-solve a)
-09-10 12:22:40   [Puzzles] Practice_en_Set_04.txt try 1: rejected (Q77:leaked_reasoning)
-09-10 12:23:36   [Puzzles] Practice_en_Set_04.txt try 2: rejected (parsed 0 questions, numbers -…-)
-09-10 12:26:22   [Puzzles] Practice_en_Set_04.txt try 3: rejected (Q81:leaked_reasoning)
-09-10 12:26:59   [Clock_Calendar] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-09-10 12:29:03   [Series] FAILED Flashcards_en.txt: too_long
 09-10 12:29:12   [Clock_Calendar] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 09-10 12:30:26   [Series] wrote Flashcards_hi.txt (2844 chars)
 09-10 12:30:44   [Sitting_Arrangement] Practice_en_Set_03.txt try 4: re-solve disagrees (Q54 key c vs re-solve b, Q59 key a vs re-solve b)
@@ -91,4 +78,16 @@
 09-10 12:51:17   [Venn_Diagrams] Practice_en_Set_06.txt try 2: rejected (parsed 0 questions, numbers -…-)
 09-10 12:53:24   [Clock_Calendar] Practice_en_Set_05.txt try 3: re-solve disagrees (Q117 key a vs re-solve c)
 09-10 12:58:15   [Venn_Diagrams] Practice_en_Set_06.txt try 3: rejected (parsed 24 questions, numbers 126…150)
+09-10 13:03:38   [Venn_Diagrams] Practice_en_Set_06.txt try 4: re-solve disagrees (Q145 key b vs re-solve ?)
+09-10 13:03:38   [Venn_Diagrams] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+09-10 13:03:38   [Venn_Diagrams] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+09-10 13:03:38   [Venn_Diagrams] written 2, failed 2; AI calls today 351/100000
+09-10 13:03:38 NOT OK Graduation_Level/Reasoning/Chapter_09_Venn_Diagrams after 43 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems []
+09-10 13:03:38 worker 1: nothing left
+09-10 13:04:45   [Sitting_Arrangement] Practice_en_Set_04.txt try 2: re-solve disagrees (Q76 key b vs re-solve c, Q77 key a vs re-solve ?, Q78 key d vs re-solve ?, Q91 key d vs re-solve c)
+09-10 13:05:23   [Puzzles] Practice_en_Set_05.txt try 2: re-solve disagrees (Q101 key b vs re-solve d, Q106 key d vs re-solve c, Q114 key b vs re-solve a, Q121 key d vs re-solve
+09-10 13:05:34   [Clock_Calendar] Practice_en_Set_05.txt try 4: re-solve disagrees (Q117 key c vs re-solve a)
+09-10 13:05:34   [Clock_Calendar] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
+09-10 13:05:34   [Clock_Calendar] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
+09-10 13:14:16   [Series] Practice_en_Set_01.txt try 1: re-solve disagrees (Q12 key c vs re-solve a)
 ```
