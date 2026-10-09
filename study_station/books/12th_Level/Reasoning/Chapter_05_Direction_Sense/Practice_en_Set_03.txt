@@ -1,0 +1,151 @@
+Questions 51–70: Easy | Questions 71–75: Moderate
+
+51. In a coded language, "North" is written as "East", "East" as "South", "South" as "West" and "West" as "North". A man walks 5 km towards "East" and then turns left and walks 3 km. In which actual direction is he from the starting point?
+(a) South-East (b) North-East (c) North-West (d) South-West
+Answer: (c)
+Solution: The trap is treating "East" as actual East; here coded "East" means actual North. He walks 5 km actual North, then turns left from North, which is West, and walks 3 km, ending 5 km North and 3 km West of the start, so the answer is North-West.
+Source: PYQ-style
+
+52. In a certain code, "South" is called "West", "West" is called "North", "North" is called "East" and "East" is called "South". At noon the sun is actually in the South at a place. In the coded language, in which direction is the sun at noon?
+(a) North (b) East (c) West (d) South
+Answer: (c)
+Solution: The trap is answering "South", the actual direction, instead of its coded name. Since "South" is called "West" in the code, the sun actually in the South will be described as being in the West, so the answer is West.
+Source: PYQ-style
+
+53. In a certain code, directions are rotated 90° clockwise: "North" means "East", "East" means "South", "South" means "West" and "West" means "North". Ravi goes 4 km in the direction coded as "South", then turns right and walks 4 km. What is his actual final direction from the start?
+(a) South-West (b) North-West (c) North-East (d) South-East
+Answer: (b)
+Solution: The trap is turning right from coded "South" without decoding it first. Coded "South" means actual West; walking 4 km West and then turning right from West faces him North, and he walks 4 km North, ending 4 km West and 4 km North of the start, so the answer is North-West.
+Source: PYQ-style
+
+54. A clock shows 3:00. If the minute hand points to actual North, what actual direction does the hour hand point to?
+(a) North-West (b) East (c) South-East (d) North-East
+Answer: (b)
+Solution: The trap is assuming the hour hand points North-East because 3:00 "feels" diagonal. At 3:00 the hour hand is exactly 90° clockwise from the minute hand; if the minute hand points actual North, the hour hand points 90° clockwise from North, so the answer is East.
+Source: PYQ-style
+
+55. In a coded system, "left" means "right" and "right" means "left". A man facing North is told: turn "left", walk 2 km, turn "right", walk 2 km. Where is he from the start?
+(a) 4 km North (b) 2 km North (c) 2 km North-West (d) 2√2 km North-East
+Answer: (d)
+Solution: The trap is following the words literally. Coded "left" means an actual right turn: facing North he turns to East and walks 2 km; coded "right" means an actual left turn: facing East he turns to North and walks 2 km. He is 2 km East and 2 km North of the start, a distance of 2√2 km, so the answer is 2√2 km North-East.
+Source: PYQ-style
+
+56. If North-East becomes North, North becomes North-West, North-West becomes West and so on (each name shifted 45° anticlockwise), what will actual South be called?
+(a) East (b) South-West (c) South-East (d) West
+Answer: (c)
+Solution: The trap is shifting the names in the wrong direction. Since actual North-East is called North, every actual direction gets the name 45° anticlockwise from itself; 45° anticlockwise from South is South-East, so the answer is South-East.
+Source: PYQ-style
+
+57. In a code, "sunrise direction" is called "West". A girl faces the coded "West" (the actual sunrise direction) and turns 135° clockwise. Which actual direction does she face now?
+(a) South-West (b) North-West (c) South (d) North
+Answer: (a)
+Solution: The trap is decoding "West" as actual West; coded "West" is actual East, the sunrise direction. Facing East and turning 135° clockwise: East to South-East (45°), to South (90°), to South-West (135°), so the answer is South-West.
+Source: PYQ-style
+
+58. Directions are coded: A = North, B = South, C = East, D = West. A robot receives: move 3 km in C, then 4 km in A. How far is it from the start?
+(a) 6 km (b) 4 km (c) 7 km (d) 5 km
+Answer: (d)
+Solution: The trap is adding 3 + 4 = 7 km as if both moves were in a straight line. C is East (3 km) and A is North (4 km), which are perpendicular, so the distance is √(3² + 4²) = √25 = 5 km, so the answer is 5 km.
+Source: PYQ-style
+
+59. In a certain code, "morning shadow direction" is called "East". At sunrise, a man's shadow falls in the coded "East". He walks 1 km towards his shadow, then turns to his left and walks 1 km. Which actual direction is he from the start?
+(a) North-West (b) South-West (c) North-East (d) South-East
+Answer: (b)
+Solution: The trap is forgetting that at sunrise the shadow falls towards actual West, so coded "East" means actual West. He walks 1 km West, then turns left from West, which is South, and walks 1 km, ending 1 km West and 1 km South of the start, so the answer is South-West.
+Source: PYQ-style
+
+60. If "East" is coded as "North-East", "North-East" as "North", "North" as "North-West", and so on (names shifted 45° anticlockwise), then a road actually running North–South will be described as running in which coded directions?
+(a) North-East to South-West (b) North to South (c) East to West (d) North-West to South-East
+Answer: (d)
+Solution: The trap is answering North to South, the actual direction, instead of the coded one. Since actual North is called North-West (the name 45° anticlockwise from itself), actual South is called South-East, so the answer is North-West to South-East.
+Source: PYQ-style
+
+61. In a coded message, "M" means turn 90° left, "N" means turn 90° right, "O" means move 2 km forward. A man facing South executes: O, M, O, M, O. How far and in which direction is he from the start?
+(a) 2 km West (b) 6 km South (c) 2 km North (d) 2 km East
+Answer: (d)
+Solution: The trap is reading M as a right turn. Facing South: O takes him 2 km South; M (left from South) faces him East and O takes him 2 km East; M (left from East) faces him North and O takes him 2 km North. The South and North legs cancel, leaving only 2 km East, so the answer is 2 km East.
+Source: PYQ-style
+
+62. A compass is faulty: its needle shows North where actual East is. Using this compass, a traveller walks 5 km along the compass "South", then 5 km along compass "East". What is his actual displacement from the start?
+(a) 5√2 km South-West (b) 5√2 km North-West (c) 10 km South (d) 5√2 km South-East
+Answer: (a)
+Solution: The trap is trusting the compass labels. Compass North is actual East, so compass South (opposite) is actual West, and compass East (90° clockwise from compass North) is actual South. He walks 5 km actual West and 5 km actual South, giving √(5² + 5²) = 5√2 km, so the answer is 5√2 km South-West.
+Source: PYQ-style
+
+63. In a code, "P" = North-East, "Q" = South-West, "R" = North-West, "S" = South-East. Point X is 6 km in direction P from O, and point Y is 6 km in direction Q from O. What is the distance between X and Y?
+(a) 12 km (b) 6 km (c) 6√2 km (d) 0 km
+Answer: (a)
+Solution: The trap is computing 6√2 km as if the two directions were perpendicular. P (North-East) and Q (South-West) are exactly opposite, so X and Y lie on the same straight line on opposite sides of O, and the distance is 6 + 6 = 12 km, so the answer is 12 km.
+Source: PYQ-style
+
+64. If in a coded language "West" is called "North", "North" is called "East", "East" is called "South" and "South" is called "West", a man who wants to go actually South must follow which coded direction?
+(a) East (b) West (c) North (d) South
+Answer: (b)
+Solution: The trap is picking "East" by reversing the code the wrong way. The code says actual South is called "West", so to travel actually South he must follow the instruction written as "West", so the answer is West.
+Source: PYQ-style
+
+65. Directions are coded by rotating names 180°: North↔South, East↔West. A woman walks 3 km in coded "North", then 4 km in coded "East". Her actual distance from the start is:
+(a) 5 km (b) 7 km (c) 1 km (d) 12 km
+Answer: (a)
+Solution: The trap is thinking the 180° rotation changes the distance. Coded "North" is actual South (3 km) and coded "East" is actual West (4 km); these are still perpendicular, so the distance is √(3² + 4²) = 5 km, so the answer is 5 km.
+Source: PYQ-style
+
+66. In a certain code, "left turn" is written as "U-turn" (180°). Facing East, a man takes a coded "left turn" and walks 2 km, then takes an actual right turn and walks 2 km. Which direction is he from the start?
+(a) South-East (b) North-East (c) South-West (d) North-West
+Answer: (d)
+Solution: The trap is treating the coded "left turn" as a normal 90° left. The coded turn is 180°: facing East he reverses to West and walks 2 km; an actual right turn from West faces him North, and he walks 2 km North. He is 2 km West and 2 km North of the start, so the answer is North-West.
+Source: PYQ-style
+
+67. A signboard in a coded city points "North" but actually indicates South. A tourist follows the board's "North" for 4 km, then turns to his actual left and walks 3 km. Where is he relative to the start?
+(a) 7 km, South of start (b) 5 km, South-West of start (c) 5 km, North-East of start (d) 5 km, South-East of start
+Answer: (d)
+Solution: The trap is turning left from North instead of from the actual direction of walking, which is South. He actually walks 4 km South; facing South, his left is East, and he walks 3 km East, giving √(4² + 3²) = 5 km towards South-East, so the answer is 5 km, South-East of start.
+Source: PYQ-style
+
+68. In a code, the four cardinal directions are renamed after the next clockwise direction (North→East, East→South, South→West, West→North). Two friends start together; one goes 5 km in coded "North", the other 5 km in coded "West". What is the actual distance between them?
+(a) 5√2 km (b) 5 km (c) 10 km (d) 0 km
+Answer: (a)
+Solution: The trap is assuming they walked in opposite directions. Coded "North" is actual East and coded "West" is actual North, so their paths are perpendicular, each 5 km long, and the separation is √(5² + 5²) = 5√2 km, so the answer is 5√2 km.
+Source: PYQ-style
+
+69. If "South-West" is coded as "North-East" and "North-West" is coded as "South-East" (all directions rotated 180°), a man facing coded "South-East" is actually facing:
+(a) South-East (b) North-East (c) North-West (d) South-West
+Answer: (c)
+Solution: The trap is thinking South-East stays fixed because it is a diagonal direction. A 180° rotation maps every direction to its exact opposite, so coded "South-East" means actual North-West, so the answer is North-West.
+Source: PYQ-style
+
+70. In a coded instruction set, "F" = walk 3 km forward, "B" = walk 3 km backward (reverse direction, no turn), "L" = turn 90° left. A man facing North executes: F, L, F, B. His final position relative to the start is:
+(a) 3 km North and 3 km West (b) 3 km North (c) At the start (d) 3 km West
+Answer: (b)
+Solution: The trap is treating B as a U-turn followed by a forward walk. F takes him 3 km North; L turns him to face West; F takes him 3 km West; B makes him walk 3 km backward while still facing West, i.e. 3 km East, which cancels the West leg, so the answer is 3 km North.
+Source: PYQ-style
+
+71. In a certain code, "the direction in which the sun sets" is called "North". One evening a man walks 2 km towards the setting sun, then turns right and walks 2 km. In which coded direction is he from the start?
+(a) South-East (b) North-East (c) South-West (d) North-West
+Answer: (b)
+Solution: The trap is mixing the actual and coded frames. Actually he walks 2 km West (sunset), turns right from West to North, and walks 2 km North, so he is actually North-West of the start. In the code, actual West is called "North", so every coded name is 90° clockwise of the actual direction: actual North-West becomes coded North-East, so the answer is North-East.
+Source: PYQ-style
+
+72. Directions are coded: "X" = South, "Y" = North, "Z" = East, "W" = West. Village A is 8 km in direction X from village B. Village C is 6 km in direction W from B. What is the shortest distance between A and C?
+(a) 2 km (b) 14 km (c) 10 km (d) 8 km
+Answer: (c)
+Solution: The trap is adding 8 + 6 = 14 km as if A and C were in a straight line. X is South, so A is 8 km South of B, and W is West, so C is 6 km West of B; these are perpendicular, and the distance is √(8² + 6²) = √100 = 10 km, so the answer is 10 km.
+Source: PYQ-style
+
+73. In a coded map, every actual direction is given the name of the direction 135° clockwise from it (for example, actual North is labelled "South-East"). The label "East" on this map actually means:
+(a) North-West (b) South-West (c) North-East (d) South-East
+Answer: (a)
+Solution: The trap is rotating East itself 135° clockwise, which gives South-West — that is the encoding step, but decoding needs the reverse rotation. To find which actual direction received the label "East", rotate East 135° anticlockwise: East to North-East (45°), to North (90°), to North-West (135°), so the answer is North-West.
+Source: PYQ-style
+
+74. A drone's controller is coded: "UP" = fly 1 km South, "DOWN" = fly 1 km North, "LEFT" = fly 1 km East, "RIGHT" = fly 1 km West. The drone executes: UP, UP, LEFT, DOWN, RIGHT. Its net displacement from the start is:
+(a) 2 km South (b) 1 km North (c) 1 km South (d) Back at start
+Answer: (c)
+Solution: The trap is reading the commands literally instead of decoding them. UP twice gives 2 km South, LEFT gives 1 km East, DOWN gives 1 km North, RIGHT gives 1 km West; East and West cancel, and 2 km South minus 1 km North leaves 1 km South, so the answer is 1 km South.
+Source: PYQ-style
+
+75. In a code, "morning" means "face West". A man is told: "It is morning; walk 3 km ahead, then turn to your left and walk 3 km." Where is he from the start?
+(a) 3√2 km, South-West (b) 3 km West (c) 6 km West (d) 3√2 km, North-West
+Answer: (a)
+Solution: The trap is facing East because it is morning; the code says "morning" means face West. He walks 3 km West, then turns left from West, which is South, and walks 3 km South, giving √(3² + 3²) = 3√2 km towards South-West, so the answer is 3√2 km, South-West.
+Source: PYQ-style

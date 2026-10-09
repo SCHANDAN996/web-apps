@@ -1,0 +1,37 @@
+# Important Rules & Approaches — Direction Sense (Coded)
+
+## Part 1: Key Rules/Approaches
+
+| Rule Name | Description | Example |
+|---|---|---|
+| Decode First, Move Later | Before solving, convert every coded symbol/word into its real direction. Write the decoding key on rough paper. | If 'P' means North, 'Q' means East, then "walk 5 km P, turn to Q" = walk 5 km North, turn East. |
+| Draw the Direction Diagram | Always sketch the four main directions (N, E, S, W) and four sub-directions (NE, SE, SW, NW) before starting. | A small cross with N on top, E on right, S at bottom, W on left. |
+| Track Every Turn Relative to Facing | Left/Right turns depend on the direction the person is currently facing, not on the page. | Facing South, a left turn leads to East (not West). |
+| Opposite Direction Rule | North ↔ South, East ↔ West, NE ↔ SW, NW ↔ SE. A 180° turn always gives the opposite direction. | Facing NE, after a U-turn the person faces SW. |
+| 45° / 90° / 135° Turn Rule | Each main-to-sub-direction step = 45°. Count turns in multiples of 45° on the diagram. | Facing North, 90° clockwise = East; 135° clockwise = SE. |
+| Clockwise = Right, Anticlockwise = Left | Clockwise rotation means turning right; anticlockwise means turning left. | Facing West, 90° anticlockwise = South. |
+| Shortest Distance (Displacement) | Use Pythagoras theorem when the path forms a right angle; distance = √(a² + b²). | 3 km East + 4 km North → shortest distance = √(9+16) = 5 km. |
+| Net Movement Method | Add movements along the same line; cancel opposite movements of equal length. | 6 km East then 2 km West = net 4 km East. |
+| Shadow Rule (Sun-based Codes) | Morning: shadow falls to the West; Evening: shadow falls to the East. | At sunrise, if Ram's shadow is to his left, he faces North. |
+| Coded Turn Words | Words like "right/left" may themselves be coded (e.g., 'right' means 'left'). Decode them before applying. | If in the code 'left' means 'right', then "turn left" = actually turn right. |
+| Final Facing vs Final Position | These are different questions — facing is a direction, position is a distance + direction from start. | After all moves, "faces East" ≠ "is 5 km East of start". |
+| One Person, One Path | Solve the whole question for one person's complete journey; never mix two persons' movements. | If A and B both move, draw two separate paths. |
+
+## Part 2: Time Management
+
+| Time Rule | Action |
+|---|---|
+| 0–15 seconds | Read the code key and decode all symbols. If the coding pattern is not clear within 15 seconds, mark the question and skip — return later. |
+| 15–45 seconds | Draw the direction diagram, trace the full path, and compute the answer. Most coded direction questions are solvable within 45 seconds. |
+| Beyond 45 seconds | If the path is still tangled after 45 seconds, stop redrawing, mark the question, and move on. One confusing question must not cost three easy ones. |
+| Revision pass | Attempt skipped questions only after finishing all easier questions of the section. |
+| Never do | Never solve coded direction questions mentally without a diagram — one wrong turn ruins the whole answer. |
+
+## Part 3: Logical/Mathematical Formulas
+
+| Formula | Use |
+|---|---|
+| Shortest distance = √(a² + b²) | When the net path forms a right-angled triangle (Pythagoras theorem). |
+| Net displacement = (sum of East moves − sum of West moves, sum of North moves − sum of South moves) | To find final position from the starting point. |
+| Direction change per 45° step | 8 directions on the compass; each adjacent step = 45°. Total turn ÷ 45° = number of steps moved on the compass. |
+| Final facing = Initial facing + total clockwise turn − total anticlockwise turn | Compute net turn in degrees, then read off the compass. |

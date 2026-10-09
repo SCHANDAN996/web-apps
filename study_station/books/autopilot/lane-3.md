@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 12:59 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
+**आख़िरी update:** 10-10-2026 01:14 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 05 Direction Sense (12th Reasoning) | 🔎 review हो रहा है | 16 मिनट |
-| W2 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 16 मिनट |
-| W3 | Chapter 10 Clock Calendar (12th Reasoning) | ✍️ लिख रहा है | 16 मिनट |
-| W4 | Chapter 11 Series (12th Reasoning) | 🔎 review हो रहा है | 16 मिनट |
-| W5 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 15 मिनट |
-| W6 | Chapter 14 Alphabet Questions (12th Reasoning) | ✍️ लिख रहा है | 15 मिनट |
-| W7 | Chapter 15 Mathematical Operations (12th Reasoning) | ✍️ लिख रहा है | 15 मिनट |
-| W8 | Chapter 16 Statement Conclusion (12th Reasoning) | ✍️ लिख रहा है | 15 मिनट |
+| W1 | Chapter 05 Direction Sense (12th Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 30 मिनट |
+| W3 | Chapter 10 Clock Calendar (12th Reasoning) | ✍️ लिख रहा है | 30 मिनट |
+| W4 | Chapter 11 Series (12th Reasoning) | 🔎 review हो रहा है | 30 मिनट |
+| W5 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 30 मिनट |
+| W6 | Chapter 14 Alphabet Questions (12th Reasoning) | ✍️ लिख रहा है | 30 मिनट |
+| W7 | Chapter 15 Mathematical Operations (12th Reasoning) | ✍️ लिख रहा है | 30 मिनट |
+| W8 | Chapter 16 Statement Conclusion (12th Reasoning) | ✍️ लिख रहा है | 30 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,19 +37,11 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 10-10 01:14 — 12th Reasoning · Chapter 05 Direction Sense
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 00:43:38 autopilot start: 8 workers, reverse=True
-10-10 00:43:40 START 12th_Level/Reasoning/Chapter_05_Direction_Sense (OK: todo 0, problems 0)
-10-10 00:43:44 START 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement (TODO: todo 8, problems 1)
-10-10 00:43:49 START 12th_Level/Reasoning/Chapter_10_Clock_Calendar (TODO: todo 7, problems 0)
-10-10 00:43:54 START 12th_Level/Reasoning/Chapter_11_Series (OK: todo 0, problems 0)
-10-10 00:43:59 START 12th_Level/Reasoning/Chapter_13_Dictionary_Order (TODO: todo 10, problems 1)
-10-10 00:43:59   [Series] review Content_en.txt: 1 issue(s): - The entire section is corrupted/garbled text with markup tags (`<|open|>`, `<|close|>`, `think`, `analysis`) and 
-10-10 00:44:04 START 12th_Level/Reasoning/Chapter_14_Alphabet_Questions (TODO: todo 6, problems 1)
 10-10 00:44:09 START 12th_Level/Reasoning/Chapter_15_Mathematical_Operations (TODO: todo 8, problems 0)
 10-10 00:44:14 START 12th_Level/Reasoning/Chapter_16_Statement_Conclusion (TODO: todo 13, problems 0)
 10-10 00:44:37   [Mathematical_Operations] wrote Feynman_en.txt (711 chars)
@@ -68,4 +60,26 @@
 10-10 00:58:38   [Dictionary_Order] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
 10-10 00:58:38   [Dictionary_Order] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
 10-10 00:59:11   [Statement_Conclusion] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+10-10 01:00:08   [Alphabet_Questions] Practice_en_Set_02.txt try 2: re-solve disagrees (Q27 key b vs re-solve c, Q33 key d vs re-solve a)
+10-10 01:01:33   [Statement_Conclusion] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+10-10 01:02:19   [Series] review Flashcards_en.txt: 2 issue(s): - Card 8: Claims mnemonic "EJOTY" for anchors E=5, J=10, O=15, T=20, Z=26, but EJOTY corresponds to Y=25 not Z=2
+10-10 01:02:22   [Mathematical_Operations] Practice_en_Set_01.txt try 2: re-solve disagrees (Q8 key b vs re-solve c, Q19 key c vs re-solve a, Q21 key d vs re-solve -, Q22 key d vs re-solve -, Q
+10-10 01:02:29   [Dictionary_Order] Practice_en_Set_03.txt try 1: rejected (Q51:leaked_reasoning,Q54:leaked_reasoning,Q55:leaked_reasoning,Q64:leaked_reasoning,Q65:leaked_reasoning)
+10-10 01:03:22   [Clock_Calendar] FAILED Practice_en_Set_02.txt: too_long
+10-10 01:03:22   [Clock_Calendar] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+10-10 01:03:23   [Direction_Sense] review PYQ_en.txt: 1 issue(s): - In Q8 explanation, "the direction 135° CW behind real East is North-West" is incorrect → 135° clockwise from East is 
+10-10 01:05:43   [Clock_Calendar] Practice_en_Set_05.txt try 1: rejected (Q121:leaked_reasoning)
+10-10 01:05:45   [Alphabet_Questions] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+10-10 01:07:11   [Sitting_Arrangement] Practice_en_Set_01.txt try 2: re-solve disagrees (Q21 key c vs re-solve b, Q22 key d vs re-solve b)
+10-10 01:08:41   [Alphabet_Questions] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+10-10 01:10:51   [Alphabet_Questions] Practice_en_Set_04.txt try 1: rejected (Q76:leaked_reasoning,Q78:leaked_reasoning,Q79:leaked_reasoning,Q92:leaked_reasoning,Q99:leaked_reasoning)
+10-10 01:10:55   [Series] review PYQ_hi.txt: 2 issue(s): - Section 1 claims “हर शिफ्ट में इस अध्याय से प्रश्न दिखते हैं” for SSC CGL, CHSL, MTS, RRB NTPC, Group D, IBPS/SBI → T
+10-10 01:11:40   [Alphabet_Questions] Practice_en_Set_04.txt try 2: rejected (parsed 0 questions, numbers -…-)
+10-10 01:12:00   [Clock_Calendar] Practice_en_Set_05.txt try 2: re-solve disagrees (Q120 key d vs re-solve b)
+10-10 01:12:06   [Statement_Conclusion] Practice_en_Set_02.txt try 1: re-solve disagrees (Q26 key c vs re-solve d, Q32 key a vs re-solve c, Q33 key c vs re-solve d, Q43 key b vs re-solve d)
+10-10 01:13:03   [Dictionary_Order] Practice_en_Set_03.txt try 2: re-solve disagrees (Q53 key d vs re-solve b, Q56 key c vs re-solve a)
+10-10 01:14:02   [Mathematical_Operations] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+10-10 01:14:22   [Alphabet_Questions] Practice_en_Set_04.txt try 3: rejected (Q91:leaked_reasoning,Q92:leaked_reasoning,Q96:leaked_reasoning,Q98:answer_solution_conflict,Q100:leaked_reason
+10-10 01:14:27   [Direction_Sense] review: 1 section(s) corrected, 0 failed
+10-10 01:14:27   [Direction_Sense] written 1, failed 0; AI calls today 75/100000
 ```

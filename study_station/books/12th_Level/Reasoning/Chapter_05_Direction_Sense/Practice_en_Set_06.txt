@@ -1,0 +1,151 @@
+प्रश्न 126–140: आसान | प्रश्न 141–150: मध्यम
+
+126. In a certain code, "P @ Q" means "P is 5 m north of Q", "P # Q" means "P is 5 m south of Q", "P $ Q" means "P is 5 m east of Q", and "P % Q" means "P is 5 m west of Q". If "A @ B", "B $ C" and "D @ C", then in which direction is A with respect to D?
+(a) North-East (b) West (c) East (d) South-West
+Answer: (c)
+Solution: The trap is assuming A is north-east of D by adding the north moves; the vertical positions actually match. A is 5 m north of B, B is 5 m east of C, and D is 5 m north of C, so taking C at (0,0): D(0,5), B(5,0), A(5,5). A is exactly east of D, so the answer is East.
+Source: PYQ-style
+
+127. In a coded language, "M * N" means "N is 5 m east of M", "M + N" means "N is 5 m west of M", "M ÷ N" means "N is 5 m north of M", and "M − N" means "N is 5 m south of M". For the expression "P ÷ Q * R − S", in which direction is S with respect to P?
+(a) South (b) West (c) North (d) East
+Answer: (d)
+Solution: The trap is reading the symbols in the natural English order; here the second letter takes the stated direction. Q is 5 m north of P, R is 5 m east of Q, and S is 5 m south of R, so S is 5 m east of P at the same latitude. The answer is East.
+Source: PYQ-style
+
+128. If "A × B" means "B is 4 m to the south of A", "A + B" means "B is 4 m to the north of A", "A ÷ B" means "B is 4 m to the east of A", and "A − B" means "B is 4 m to the west of A", then for "X + Y ÷ Z × W", what is the shortest distance between X and W?
+(a) 4 m (b) 8 m (c) 0 m (d) 4√2 m
+Answer: (a)
+Solution: The trap is adding the two 4 m vertical moves to get 8 m, ignoring that they cancel. Y is 4 m north of X, Z is 4 m east of Y, and W is 4 m south of Z, giving X(0,0), Y(0,4), Z(4,4), W(4,0). The distance XW is 4 m, so the answer is 4 m.
+Source: PYQ-style
+
+129. In a code, "P ↑ Q" means "Q is 6 m north of P", "P ↓ Q" means "Q is 6 m south of P", "P → Q" means "Q is 6 m east of P", and "P ← Q" means "Q is 6 m west of P". Given "A → B ↑ C ← D", what is the direction of D with respect to A?
+(a) North (b) North-West (c) South (d) North-East
+Answer: (a)
+Solution: The trap is treating the arrow as the direction of the first letter; here the second letter moves. B is 6 m east of A, C is 6 m north of B, and D is 6 m west of C, giving A(0,0), B(6,0), C(6,6), D(0,6). D is exactly north of A, so the answer is North.
+Source: PYQ-style
+
+130. "R @ S" means "S is 10 m south of R", "R # S" means "S is 10 m north of R", "R & S" means "S is 10 m east of R", and "R % S" means "S is 10 m west of R". For "K # L & M @ N", in which direction is N with respect to K?
+(a) North-East (b) South-East (c) East (d) South
+Answer: (c)
+Solution: The trap is mixing up the symbols for south and north. L is 10 m north of K, M is 10 m east of L, and N is 10 m south of M, giving K(0,0), L(0,10), M(10,10), N(10,0). N is exactly east of K, so the answer is East.
+Source: PYQ-style
+
+131. In a coded system, "A $ B" means "A is 8 m west of B", "A * B" means "A is 8 m east of B", "A @ B" means "A is 8 m north of B", and "A # B" means "A is 8 m south of B". Note carefully: here the FIRST letter takes the direction. For "P @ Q $ R", what is the direction of P with respect to R?
+(a) North-West (b) North-East (c) South-West (d) South-East
+Answer: (a)
+Solution: The trap is applying the usual convention where the second letter moves; in this code the FIRST letter takes the stated direction. P is 8 m north of Q and Q is 8 m west of R, so taking R at (0,0): Q(−8,0) and P(−8,8). P lies to the north and west of R, so the answer is North-West.
+Source: PYQ-style
+
+132. "X > Y" means "Y is 7 m east of X", "X < Y" means "Y is 7 m west of X", "X = Y" means "Y is 7 m north of X", and "X ≠ Y" means "Y is 7 m south of X". For "A = B > C ≠ D < E", what is the shortest distance between A and E?
+(a) 7 m (b) 0 m (c) 14 m (d) 7√2 m
+Answer: (b)
+Solution: The trap is stopping at D and forgetting the last step. B is 7 m north of A, C is 7 m east of B, D is 7 m south of C, and E is 7 m west of D, giving A(0,0), B(0,7), C(7,7), D(7,0), E(0,0). E coincides exactly with A, so the answer is 0 m.
+Source: PYQ-style
+
+133. In a certain code, "P α Q" means "P is 9 m north of Q", "P β Q" means "P is 9 m south of Q", "P γ Q" means "P is 9 m east of Q", and "P δ Q" means "P is 9 m west of Q". Here the FIRST letter moves. For "M α N γ O β K", what is the shortest distance between M and K?
+(a) 27 m (b) 9 m (c) 18 m (d) 9√2 m
+Answer: (b)
+Solution: The trap is adding 9 + 9 = 18 m or assuming a diagonal of 9√2 m; the displacement is purely horizontal. M is 9 m north of N, N is 9 m east of O, and O is 9 m south of K; setting N at (0,0) gives M(0,9), O(−9,0), K(−9,9). M and K are at the same height, 9 m apart, so the answer is 9 m.
+Source: PYQ-style
+
+134. "A © B" means "B is 12 m north-east of A", and "A ® B" means "B is 12 m south-west of A". If "P © Q" and "Q ® R", then which of the following is definitely true?
+(a) R is north of P (b) R coincides with P (c) R is east of P (d) R is south of P
+Answer: (b)
+Solution: The trap is assuming the two 12 m moves only partially cancel and leave some shift. Q is 12 m north-east of P, and R is 12 m south-west of Q, which is exactly the reverse displacement along the same line. R returns to P's position, so the answer is that R coincides with P.
+Source: PYQ-style
+
+135. In a code, "U ∧ V" means "V is 5 m north of U", "U ∨ V" means "V is 5 m south of U", "U ⊲ V" means "V is 5 m west of U", and "U ⊳ V" means "V is 5 m east of U". For "F ∧ G ⊳ H ∨ I ⊲ J", what is the direction of J with respect to F?
+(a) North (b) South (c) East (d) They coincide
+Answer: (d)
+Solution: The trap is losing track after four steps and guessing a direction. G is 5 m north of F, H is 5 m east of G, I is 5 m south of H, and J is 5 m west of I, giving F(0,0), G(0,5), H(5,5), I(5,0), J(0,0). J returns exactly to F, so the answer is that they coincide.
+Source: PYQ-style
+
+136. "S ★ T" means "T is 15 m east of S", "S ☆ T" means "T is 15 m west of S", "S ♥ T" means "T is 15 m north of S", and "S ♦ T" means "T is 15 m south of S". For "A ♥ B ★ C ♦ D ☆ E ♥ F", in which direction is F with respect to A?
+(a) East (b) South (c) North (d) West
+Answer: (c)
+Solution: The trap is counting only the vertical moves and missing that the horizontal moves cancel. The east and west steps cancel; the north moves total 30 m and the south move is 15 m, leaving F 15 m north of A. The answer is North.
+Source: PYQ-style
+
+137. In a coded language, "G 1 H" means "H is 10 m north of G", "G 2 H" means "H is 10 m south of G", "G 3 H" means "H is 10 m east of G", and "G 4 H" means "H is 10 m west of G". For "P 1 Q 3 R 2 S 4 T 2 U", what is the direction of U with respect to P?
+(a) East (b) North (c) South (d) West
+Answer: (c)
+Solution: The trap is forgetting the final step. Q is 10 m north of P, R is 10 m east of Q, S is 10 m south of R, T is 10 m west of S, and U is 10 m south of T, giving P(0,0), T(0,0), U(0,−10). U is 10 m south of P, so the answer is South.
+Source: PYQ-style
+
+138. "M % N" means "M is 6 m north of N", "M & N" means "M is 6 m south of N", "M @ N" means "M is 6 m east of N", and "M # N" means "M is 6 m west of N" (first letter moves). For "A % B # C & D", what is the direction of D with respect to A?
+(a) North (b) South (c) West (d) East
+Answer: (d)
+Solution: The trap is applying the second-letter convention used in most codes; here the first letter moves. A is 6 m north of B, B is 6 m west of C, and C is 6 m south of D; setting A at (0,0) gives B(0,−6), C(6,−6), D(6,0). D is exactly east of A, so the answer is East.
+Source: PYQ-style
+
+139. In a certain code, "X + Y" means "X is 20 m east of Y", "X − Y" means "X is 20 m west of Y", "X × Y" means "X is 20 m north of Y", and "X ÷ Y" means "X is 20 m south of Y" (first letter moves). For "P × Q + R ÷ S", what is the shortest distance between P and S?
+(a) 20 m (b) 20√2 m (c) 40 m (d) 0 m
+Answer: (a)
+Solution: The trap is summing the two vertical 20 m moves to get 40 m. P is 20 m north of Q, Q is 20 m east of R, and R is 20 m south of S; setting Q at (0,0) gives P(0,20), R(−20,0), S(−20,20). The distance PS is 20 m horizontally, so the answer is 20 m.
+Source: PYQ-style
+
+140. "A □ B" means "B is 8 m north of A", "A △ B" means "B is 8 m south of A", "A ○ B" means "B is 8 m east of A", and "A ◎ B" means "B is 8 m west of A". For "K □ L ○ M △ N ◎ O △ P", in which direction is P with respect to K?
+(a) East (b) South (c) North (d) West
+Answer: (b)
+Solution: The trap is stopping the count at O. L is 8 m north of K, M is 8 m east of L, N is 8 m south of M, O is 8 m west of N, and P is 8 m south of O, giving K(0,0), O(0,0), P(0,−8). P is 8 m south of K, so the answer is South.
+Source: PYQ-style
+
+141. In a code, "R ↑ S" means "R is 7 m south of S", "R ↓ S" means "R is 7 m north of S" (note the reversal), "R → S" means "R is 7 m west of S", and "R ← S" means "R is 7 m east of S" (first letter moves). For "A ↑ B → C", what is the direction of A with respect to C?
+(a) North-East (b) North-West (c) South-East (d) South-West
+Answer: (d)
+Solution: The trap is following the arrow pictures literally — the arrows are deliberately reversed in meaning. A is 7 m south of B and B is 7 m west of C; setting C at (0,0) gives B(−7,0) and A(−7,−7). A lies to the south and west of C, so the answer is South-West.
+Source: PYQ-style
+
+142. "P ⋆ Q" means "Q is 9 m north-west of P", and "P ⋄ Q" means "Q is 9 m south-east of P". If "A ⋆ B" and "B ⋄ C", then what is the shortest distance between A and C?
+(a) 18 m (b) 0 m (c) 9√2 m (d) 9 m
+Answer: (b)
+Solution: The trap is adding 9 + 9 = 18 m as if the moves were in the same direction. B is 9 m north-west of A, and C is 9 m south-east of B, which is the exact reverse along the same diagonal. C returns to A's position, so the answer is 0 m.
+Source: PYQ-style
+
+143. In a coded system, "T λ U" means "U is 11 m east of T", "T μ U" means "U is 11 m west of T", "T ν U" means "U is 11 m north of T", and "T ξ U" means "U is 11 m south of T". For "D ν E λ F ξ G λ H ξ I", in which direction is I with respect to D?
+(a) South-East (b) South-West (c) North-West (d) North-East
+Answer: (a)
+Solution: The trap is cancelling the two south moves against the one north move incorrectly. E is 11 m north of D, F is 11 m east of E, G is 11 m south of F, H is 11 m east of G, and I is 11 m south of H, giving D(0,0) and I(22,−11). I is east and south of D, so the answer is South-East.
+Source: PYQ-style
+
+144. "A ∆ B" means "B is 13 m north of A", "A ∇ B" means "B is 13 m south of A", "A ⊏ B" means "B is 13 m west of A", and "A ⊐ B" means "B is 13 m east of A". For "V ∆ W ⊐ X ∇ Y ⊏ Z ∇ Q", what is the direction of Q with respect to V?
+(a) North (b) East (c) South (d) West
+Answer: (c)
+Solution: The trap is treating the two south moves as one. W is 13 m north of V, X is 13 m east of W, Y is 13 m south of X, Z is 13 m west of Y, and Q is 13 m south of Z, giving V(0,0), Z(0,0), Q(0,−13). Q is 13 m south of V, so the answer is South.
+Source: PYQ-style
+
+145. In a certain code, "E ∘ F" means "E is 10 m north-east of F", and "E ∙ F" means "E is 10 m south-west of F" (first letter moves). If "P ∘ Q" and "R ∙ Q", then which statement is definitely true?
+(a) P is north of R (b) R is north of P (c) P is west of R (d) P and R coincide
+Answer: (a)
+Solution: The trap is thinking the two 10 m diagonal moves cancel and P coincides with R; they are on opposite sides of Q, so they add up. P is 10 m north-east of Q and R is 10 m south-west of Q, so P is 20 m north-east of R along the diagonal. P is therefore definitely north of R, so the answer is that P is north of R.
+Source: PYQ-style
+
+146. "J § K" means "K is 14 m east of J", "J ¶ K" means "K is 14 m west of J", "J † K" means "K is 14 m north of J", and "J ‡ K" means "K is 14 m south of J". For "A † B § C ‡ D § E ‡ F ¶ G", in which direction is G with respect to A?
+(a) North-East (b) South-West (c) North-West (d) South-East
+Answer: (d)
+Solution: The trap is losing count of the east steps. B is 14 m north of A, C is 14 m east of B, D is 14 m south of C, E is 14 m east of D, F is 14 m south of E, and G is 14 m west of F, giving A(0,0) and G(14,−14). G is east and south of A, so the answer is South-East.
+Source: PYQ-style
+
+147. In a code, "C ♠ D" means "C is 5 m east of D", "C ♣ D" means "C is 5 m west of D", "C ♥ D" means "C is 5 m north of D", and "C ♦ D" means "C is 5 m south of D" (first letter moves). For "M ♥ N ♠ O ♦ P", what is the shortest distance between M and P?
+(a) 10 m (b) 5√2 m (c) 5 m (d) 15 m
+Answer: (c)
+Solution: The trap is applying the second-letter convention; here the first letter moves. M is 5 m north of N, N is 5 m east of O, and O is 5 m south of P; setting N at (0,0) gives M(0,5), O(−5,0), P(−5,5). The distance MP is 5 m horizontally, so the answer is 5 m.
+Source: PYQ-style
+
+148. "W ∀ X" means "X is 16 m north of W", "W ∃ X" means "X is 16 m south of W", "W ∈ X" means "X is 16 m east of W", and "W ∉ X" means "X is 16 m west of W". For "H ∀ I ∈ J ∃ K ∉ L ∃ M", in which direction is M with respect to H?
+(a) North (b) South (c) East (d) West
+Answer: (b)
+Solution: The trap is cancelling one south move against the north move and stopping. I is 16 m north of H, J is 16 m east of I, K is 16 m south of J, L is 16 m west of K, and M is 16 m south of L, giving H(0,0), L(0,0), M(0,−16). M is 16 m south of H, so the answer is South.
+Source: PYQ-style
+
+149. In a coded language, "Y φ Z" means "Z is 12 m north-east of Y", "Y χ Z" means "Z is 12 m south-west of Y", "Y ψ Z" means "Z is 12 m north-west of Y", and "Y ω Z" means "Z is 12 m south-east of Y". For "A φ B ω C", what is the direction of C with respect to A?
+(a) North (b) West (c) South (d) East
+Answer: (d)
+Solution: The trap is assuming the diagonal moves cancel completely. B is 12 m north-east of A and C is 12 m south-east of B; the north and south components cancel while the east components add. C is due east of A, so the answer is East.
+Source: PYQ-style
+
+150. "D ⊗ E" means "E is 9 m north of D", "D ⊘ E" means "E is 9 m south of D", "D ⊙ E" means "E is 9 m east of D", and "D ⊖ E" means "E is 9 m west of D". For "P ⊗ Q ⊙ R ⊘ S ⊖ T ⊗ U ⊙ V", what is the direction of V with respect to P?
+(a) North-East (b) North-West (c) South-East (d) They coincide
+Answer: (a)
+Solution: The trap is assuming the west step cancels both east steps. Tracking each step gives P(0,0), Q(0,9), R(9,9), S(9,0), T(0,0), U(0,9), V(9,9). V is north and east of P, so the answer is North-East.
+Source: PYQ-style

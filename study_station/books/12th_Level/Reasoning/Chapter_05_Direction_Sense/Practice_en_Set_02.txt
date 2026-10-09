@@ -1,0 +1,151 @@
+Questions 26–45: Easy | Questions 46–50: Moderate
+
+26. In a coded language, "P @ Q" means P is to the North of Q, "P # Q" means P is to the South of Q, "P $ Q" means P is to the East of Q, and "P % Q" means P is to the West of Q. If "A @ B $ C", then in which direction is C with respect to A?
+(a) South-West (b) North-East (c) North-West (d) South-East
+Answer: (a)
+Solution: The tempting answer is North-East, which comes from misreading "B $ C" as C being East of B. Actually A @ B means A is North of B, and B $ C means B is East of C, so C is West of B. With B at the origin, A is North and C is West, so C is South-West of A, so the answer is South-West.
+Source: PYQ-style
+
+27. If "M * N" means M is 5 km East of N, "M + N" means M is 5 km West of N, "M – N" means M is 5 km North of N, and "M ÷ N" means M is 5 km South of N, then for "X – Y + Z", in which direction is Z with respect to X?
+(a) North-East (b) North-West (c) South-West (d) South-East
+Answer: (d)
+Solution: The trap is reversing "Y + Z" as Y being East of Z, which wrongly gives South-West. X – Y means X is 5 km North of Y, and Y + Z means Y is 5 km West of Z, so Z is 5 km East of Y. With Y at the origin, X is at (0, 5) and Z at (5, 0); relative to X, Z is 5 km east and 5 km south, so the answer is South-East.
+Source: PYQ-style
+
+28. In a certain code, "A > B" means A is to the immediate North of B, "A < B" means A is to the immediate South of B, "A = B" means A is to the immediate East of B, and "A ≠ B" means A is to the immediate West of B. Given "P > Q = R", what is the direction of R from P?
+(a) North (b) South-West (c) North-East (d) South-East
+Answer: (b)
+Solution: The trap is reading "Q = R" as R being East of Q, which gives South-East. Actually P > Q means P is North of Q, and Q = R means Q is East of R, so R is West of Q. With Q at the origin, P is North and R is West, so R is South-West of P, so the answer is South-West.
+Source: PYQ-style
+
+29. "X α Y" means Y is 4 km North of X; "X β Y" means Y is 4 km South of X; "X γ Y" means Y is 4 km East of X; "X δ Y" means Y is 4 km West of X. For "A α B γ C", find the direction of C with respect to A.
+(a) North-East (b) North-West (c) South-East (d) South-West
+Answer: (a)
+Solution: The trap is assuming the first letter moves, which gives South-West; here the second letter moves. A α B means B is 4 km North of A, and B γ C means C is 4 km East of B. So C is 4 km north and 4 km east of A, so the answer is North-East.
+Source: PYQ-style
+
+30. If "P ↑ Q" means P is 3 km North of Q, "P ↓ Q" means P is 3 km South of Q, "P → Q" means P is 3 km East of Q, and "P ← Q" means P is 3 km West of Q, then for "M ↑ N ← O", what is the shortest distance between M and O?
+(a) 3√2 km (b) 6 km (c) 3 km (d) 9 km
+Answer: (a)
+Solution: The trap is adding the two legs to get 6 km, which is the path length, not the straight-line distance. M ↑ N means M is 3 km North of N, and N ← O means N is 3 km West of O, so O is 3 km East of N. M is at (0, 3) and O at (3, 0), giving distance √(9 + 9) = 3√2 km, so the answer is 3√2 km.
+Source: PYQ-style
+
+31. In a code, "A & B" means A is 6 km South of B, "A © B" means A is 6 km North of B, "A £ B" means A is 6 km East of B, and "A ¥ B" means A is 6 km West of B. For "R & S £ T", in which direction is T with respect to R?
+(a) South-West (b) North-East (c) South-East (d) North-West
+Answer: (d)
+Solution: The trap is treating "S £ T" as T being East of S, which gives North-East. Actually R & S means R is 6 km South of S, and S £ T means S is 6 km East of T, so T is 6 km West of S. With S at the origin, R is at (0, −6) and T at (−6, 0), so T is North-West of R, so the answer is North-West.
+Source: PYQ-style
+
+32. "U ⊕ V" means U is to the North-East of V, "U ⊖ V" means U is to the South-West of V, "U ⊗ V" means U is to the North-West of V, and "U ⊘ V" means U is to the South-East of V. If "J ⊕ K ⊘ L", then L is in which direction with respect to J?
+(a) North (b) South (c) West (d) East
+Answer: (c)
+Solution: The trap is assuming two diagonal steps must give a diagonal answer. J ⊕ K means J is North-East of K, say J at (1, 1) with K at the origin. K ⊘ L means K is South-East of L, so L is North-West of K, say at (−1, 1). J and L are at the same height, so the answer is West.
+Source: PYQ-style
+
+33. If "A # B" means B is 2 km East of A, "A @ B" means B is 2 km West of A, "A $ B" means B is 2 km North of A, and "A % B" means B is 2 km South of A, then for "P $ Q # R", what is the direction of R from P?
+(a) North-East (b) South-East (c) North-West (d) South-West
+Answer: (a)
+Solution: The trap is forgetting that in this code the second letter moves, which wrongly gives South-West. P $ Q means Q is 2 km North of P, and Q # R means R is 2 km East of Q. So R is 2 km north and 2 km east of P, so the answer is North-East.
+Source: PYQ-style
+
+34. In a coded system, "M > N" means M is 10 km West of N, "M < N" means M is 10 km East of N, "M ^ N" means M is 10 km North of N, and "M v N" means M is 10 km South of N. For "A > B ^ C", find the direction of A with respect to C.
+(a) North-East (b) South-East (c) South-West (d) North-West
+Answer: (d)
+Solution: The trap is answering C's direction from A, which is South-East, the reverse of what is asked. A > B means A is 10 km West of B, and B ^ C means B is 10 km North of C. With C at the origin, B is at (0, 10) and A at (−10, 10), so A is North-West of C, so the answer is North-West.
+Source: PYQ-style
+
+35. "P ⋆ Q" means P is 5 km South-East of Q, "P ⋄ Q" means P is 5 km North-West of Q, "P ○ Q" means P is 5 km North-East of Q, and "P □ Q" means P is 5 km South-West of Q. If "X ○ Y ⋆ Z", then Z is in which direction with respect to X?
+(a) North (b) East (c) South (d) West
+Answer: (d)
+Solution: The trap is assuming the two diagonal steps cancel to give South. X ○ Y means X is North-East of Y, say at (1, 1) with Y at the origin. Y ⋆ Z means Y is South-East of Z, so Z is North-West of Y, say at (−1, 1). X and Z are at the same height, so the answer is West.
+Source: PYQ-style
+
+36. If "A + B" means A is 4 km North of B, "A – B" means A is 4 km South of B, "A × B" means A is 4 km East of B, and "A ÷ B" means A is 4 km West of B, then for "K + L × M", what is the direction of M with respect to K?
+(a) North-East (b) South-East (c) South-West (d) North-West
+Answer: (c)
+Solution: The trap is reading "L × M" as M being East of L, which gives South-East. Actually K + L means K is 4 km North of L, and L × M means L is 4 km East of M, so M is 4 km West of L. With L at the origin, K is at (0, 4) and M at (−4, 0); relative to K, M is 4 km west and 4 km south, so the answer is South-West.
+Source: PYQ-style
+
+37. In a code, "R @ S" means R is 8 km East of S, "R # S" means R is 8 km West of S, "R & S" means R is 8 km North of S, and "R % S" means R is 8 km South of S. For "D & E @ F", what is the shortest distance between D and F?
+(a) 8 km (b) 16 km (c) 8√2 km (d) 8√3 km
+Answer: (c)
+Solution: The trap is adding the legs to get 16 km. D & E means D is 8 km North of E, and E @ F means E is 8 km East of F, so F is 8 km West of E. D is at (0, 8) and F at (−8, 0), giving distance √(64 + 64) = 8√2 km, so the answer is 8√2 km.
+Source: PYQ-style
+
+38. "G ↑ H" means H is 7 km North of G, "G ↓ H" means H is 7 km South of G, "G → H" means H is 7 km East of G, and "G ← H" means H is 7 km West of G. For "S → T ↑ U", in which direction is U with respect to S?
+(a) South-West (b) North-West (c) North-East (d) South-East
+Answer: (c)
+Solution: The trap is assuming the first letter moves, which gives South-West; here the second letter moves. S → T means T is 7 km East of S, and T ↑ U means U is 7 km North of T. So U is 7 km east and 7 km north of S, so the answer is North-East.
+Source: PYQ-style
+
+39. If "P ∆ Q" means P is 12 km South of Q, "P ∇ Q" means P is 12 km North of Q, "P ◊ Q" means P is 12 km East of Q, and "P ○ Q" means P is 12 km West of Q, then for "A ∇ B ○ C", what is the direction of C from A?
+(a) North-East (b) South-East (c) North-West (d) South-West
+Answer: (b)
+Solution: The trap is reading "B ○ C" as C being West of B, which gives South-West. Actually A ∇ B means A is 12 km North of B, and B ○ C means B is 12 km West of C, so C is 12 km East of B. With B at the origin, A is at (0, 12) and C at (12, 0), so C is South-East of A, so the answer is South-East.
+Source: PYQ-style
+
+40. In a coded language, "X ♥ Y" means X is to the immediate West of Y, "X ♦ Y" means X is to the immediate East of Y, "X ♣ Y" means X is to the immediate North of Y, and "X ♠ Y" means X is to the immediate South of Y. If "M ♣ N ♥ O", then O is in which direction with respect to M?
+(a) North-East (b) South-East (c) North-West (d) South-West
+Answer: (b)
+Solution: The trap is reversing "N ♥ O" to place O West of N, which gives South-West. Actually M ♣ N means M is North of N, and N ♥ O means N is West of O, so O is East of N. With N at the origin, M is at (0, 1) and O at (1, 0); relative to M, O is one step east and one step south, so the answer is South-East.
+Source: PYQ-style
+
+41. "A $ B" means A is 9 km North-East of B, "A # B" means A is 9 km South-West of B, "A @ B" means A is 9 km South-East of B, and "A % B" means A is 9 km North-West of B. If "P $ Q @ R", then R is in which direction with respect to P?
+(a) East (b) West (c) North (d) South
+Answer: (b)
+Solution: The trap is expecting a diagonal answer because both steps are diagonal. P $ Q means P is North-East of Q, say at (1, 1) with Q at the origin. Q @ R means Q is South-East of R, so R is North-West of Q, say at (−1, 1). P and R are at the same height, so the answer is West.
+Source: PYQ-style
+
+42. If "M → N" means M is 6 km South of N, "M ← N" means M is 6 km North of N, "M ↑ N" means M is 6 km East of N, and "M ↓ N" means M is 6 km West of N, then for "T → U ↑ V", what is the direction of V with respect to T?
+(a) South-East (b) North-West (c) South-West (d) North-East
+Answer: (b)
+Solution: The trap is assuming the arrows point the way they look — here ↑ means East, not North. T → U means T is 6 km South of U, and U ↑ V means U is 6 km East of V, so V is 6 km West of U. With U at the origin, T is at (0, −6) and V at (−6, 0); relative to T, V is 6 km west and 6 km north, so the answer is North-West.
+Source: PYQ-style
+
+43. In a code, "P α Q" means Q is 10 km East of P, "P β Q" means Q is 10 km West of P, "P γ Q" means Q is 10 km North of P, and "P δ Q" means Q is 10 km South of P. For "H γ I α J", find the shortest distance between H and J.
+(a) 10 km (b) 10√2 km (c) 20 km (d) 10√3 km
+Answer: (b)
+Solution: The trap is adding the two legs to get 20 km. H γ I means I is 10 km North of H, and I α J means J is 10 km East of I. So J is 10 km north and 10 km east of H, giving distance √(100 + 100) = 10√2 km, so the answer is 10√2 km.
+Source: PYQ-style
+
+44. "R ⊕ S" means R is 5 km West of S, "R ⊖ S" means R is 5 km East of S, "R ⊗ S" means R is 5 km South of S, and "R ⊘ S" means R is 5 km North of S. For "B ⊘ C ⊕ D", in which direction is D with respect to B?
+(a) South-West (b) North-East (c) South-East (d) North-West
+Answer: (c)
+Solution: The trap is reading "C ⊕ D" as D being West of C, which gives South-West. Actually B ⊘ C means B is 5 km North of C, and C ⊕ D means C is 5 km West of D, so D is 5 km East of C. With C at the origin, B is at (0, 5) and D at (5, 0), so D is South-East of B, so the answer is South-East.
+Source: PYQ-style
+
+45. If "A ⋆ B" means B is 3 km South of A, "A ⋄ B" means B is 3 km North of A, "A ○ B" means B is 3 km West of A, and "A □ B" means B is 3 km East of A, then for "V ⋄ W ○ X", what is the direction of X with respect to V?
+(a) North-East (b) South-East (c) North-West (d) South-West
+Answer: (c)
+Solution: The trap is assuming the first letter moves, which gives South-East; here the second letter moves. V ⋄ W means W is 3 km North of V, and W ○ X means X is 3 km West of W. So X is 3 km north and 3 km west of V, so the answer is North-West.
+Source: PYQ-style
+
+46. In a coded system, "J > K" means J is 15 km North of K, "J < K" means J is 15 km South of K, "J = K" means J is 15 km East of K, and "J ≠ K" means J is 15 km West of K. For "E = F < G", what is the direction of E with respect to G?
+(a) South-East (b) South-West (c) North-West (d) North-East
+Answer: (a)
+Solution: The trap is answering G's direction from E, which is North-West, the reverse of what is asked. E = F means E is 15 km East of F, and F < G means F is 15 km South of G, so G is 15 km North of F. With F at the origin, E is at (15, 0) and G at (0, 15); relative to G, E is 15 km east and 15 km south, so the answer is South-East.
+Source: PYQ-style
+
+47. "P @ Q" means P is 4 km South-West of Q, "P # Q" means P is 4 km North-East of Q, "P $ Q" means P is 4 km South-East of Q, and "P % Q" means P is 4 km North-West of Q. If "L # M % N", then N is in which direction with respect to L?
+(a) South (b) West (c) North (d) East
+Answer: (a)
+Solution: The trap is expecting a diagonal answer because both steps are diagonal. L # M means L is North-East of M, say at (1, 1) with M at the origin. M % N means M is North-West of N, so N is South-East of M, say at (1, −1). N is directly below L at the same longitude, so the answer is South.
+Source: PYQ-style
+
+48. If "C ↑ D" means C is 8 km East of D, "C ↓ D" means C is 8 km West of D, "C → D" means C is 8 km North of D, and "C ← D" means C is 8 km South of D, then for "W → X ↓ Y", in which direction is Y with respect to W?
+(a) North-East (b) South-West (c) North-West (d) South-East
+Answer: (d)
+Solution: The trap is reading the arrows literally — here → means North and ↓ means West. W → X means W is 8 km North of X, and X ↓ Y means X is 8 km West of Y, so Y is 8 km East of X. With X at the origin, W is at (0, 8) and Y at (8, 0); relative to W, Y is 8 km east and 8 km south, so the answer is South-East.
+Source: PYQ-style
+
+49. In a code, "A & B" means B is 6 km North of A, "A © B" means B is 6 km South of A, "A £ B" means B is 6 km East of A, and "A ¥ B" means B is 6 km West of A. For "Q & R ¥ S", what is the shortest distance between Q and S?
+(a) 6√2 km (b) 6 km (c) 12 km (d) 6√3 km
+Answer: (a)
+Solution: The trap is adding the two legs to get 12 km. Q & R means R is 6 km North of Q, and R ¥ S means S is 6 km West of R. So S is 6 km north and 6 km west of Q, giving distance √(36 + 36) = 6√2 km, so the answer is 6√2 km.
+Source: PYQ-style
+
+50. "M ∆ N" means M is to the immediate North-West of N, "M ∇ N" means M is to the immediate South-East of N, "M ◊ N" means M is to the immediate North-East of N, and "M ○ N" means M is to the immediate South-West of N. If "F ◊ G ∇ H", then H is in which direction with respect to F?
+(a) North (b) South (c) East (d) West
+Answer: (d)
+Solution: The trap is expecting a diagonal result from two diagonal steps. F ◊ G means F is North-East of G, say at (1, 1) with G at the origin. G ∇ H means G is South-East of H, so H is North-West of G, say at (−1, 1). F and H are at the same height, so the answer is West.
+Source: PYQ-style
