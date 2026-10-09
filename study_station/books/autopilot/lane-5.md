@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 10-10-2026 12:58 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 10:05 PM
+**आख़िरी update:** 10-10-2026 01:09 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 10:05 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 19 Statistics (10th Maths) | 🔧 सुधार रहा है | 44 मिनट |
-| W4 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 4 मिनट |
-| W5 | Chapter 22 Permutation Combination (10th Maths) | 🔎 review हो रहा है | 9 मिनट |
-| W6 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 2 मिनट |
-| W8 | Chapter 17 Data Interpretation (10th Maths) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 19 Statistics (10th Maths) | 🔧 सुधार रहा है | 4 मिनट |
+| W4 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 15 मिनट |
+| W5 | Chapter 22 Permutation Combination (10th Maths) | 📤 push हो रहा है | 0 मिनट |
+| W6 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 13 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,6 +33,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 10-10 01:09 — 10th Maths · Chapter 22 Permutation Combination
 - 10-10 00:58 — 10th Maths · Chapter 17 Data Interpretation
 - 10-10 00:22 — 10th Maths · Chapter 20 Number Series
 - 09-10 23:38 — 10th Maths · Chapter 15 Geometry
@@ -46,29 +46,13 @@
 - Chapter 03 Adjective (English) — 2 बार
 - Chapter 01 Noun (English) — 2 बार
 - Chapter 18 Trigonometry (Maths) — 2 बार
-- Chapter 17 Data Interpretation (Maths) — 1 बार
 - Chapter 13 Mixture Alligation (Maths) — 1 बार
 - Chapter 21 Probability (Maths) — 1 बार
+- Chapter 19 Statistics (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 00:34:11   [Mixture_Alligation] repaired set 05 (en + hi, key confirmed by an independent re-solve)
-10-10 00:34:11   [Mixture_Alligation] written 2, failed 2; AI calls today 47/100000
-10-10 00:34:11 NOT OK 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_13_Mixture_Alligation after 148 min: todo [] problems ['PYQ_en.txt: chat debris "text"', 'PYQ_en.txt: English file contains a lot of Hindi', 'Short_Tricks_hi.txt: much shorter than the English section (', 'Set 01 en: Q3:leaked_reasoning,Q10:leaked_reasoning,Q12:leak']
-10-10 00:34:14 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_13_Mixture_Alligation (FIX: todo 0, problems 4)
-10-10 00:34:45   [Probability] set 06 try 1: rejected (parsed 23 questions, numbers 126…150)
-10-10 00:35:13   [Data_Interpretation] repaired set 04 (en + hi, key confirmed by an independent re-solve)
-10-10 00:35:13   [Data_Interpretation] written 1, failed 0; AI calls today 49/100000
-10-10 00:35:20   [Statistics] set 02 try 3: re-solve disagrees (Q27 key c vs re-solve b)
-10-10 00:35:35   [Mixture_Alligation] repaired PYQ_en.txt (15005 chars)
-10-10 00:36:37   [Mixture_Alligation] repaired Short_Tricks_hi.txt (2022 chars)
-10-10 00:37:55   [Data_Interpretation] review Content_en.txt: 4 issue(s): - The claim "73% of candidates would waste all their time on one DI set" in the bank PO anecdote is an invented exa
-10-10 00:37:57   [Permutation_Combination] repaired set 06 (en + hi, key confirmed by an independent re-solve)
-10-10 00:37:57   [Permutation_Combination] written 5, failed 1; AI calls today 56/100000
-10-10 00:40:22   [Mixture_Alligation] set 01 try 1: re-solve disagrees (Q1 key c vs re-solve d, Q7 key d vs re-solve b)
-10-10 00:41:09   [Data_Interpretation] review Feynman_en.txt: 1 issue(s): - In the story, Raj sells orange juice but later his stall is called a "lemonade stand" → Change "lemonade stand" t
-10-10 00:42:41   [Statistics] Practice_hi_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
 10-10 00:46:02   [Mixture_Alligation] set 01 try 2: rejected (parsed 0 questions, numbers -…-)
 10-10 00:46:52   [Permutation_Combination] Practice_hi_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
 10-10 00:47:00   [Permutation_Combination] Practice_hi_Set_04.txt try 2: rejected (parsed 0 questions, numbers -…-)
@@ -93,4 +77,20 @@
 10-10 00:58:36   [Data_Interpretation] written 3, failed 0; AI calls today 93/100000
 10-10 00:58:43   [Probability] set 01 try 4: rejected (parsed 24 questions, numbers 1…25)
 10-10 00:58:43   [Probability] FAILED set 01: no version passed the checks — files left as they were
+10-10 00:58:54 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_17_Data_Interpretation in 32 min → 252c7759
+10-10 00:58:56 worker 7: nothing left
+10-10 00:59:09   [Statistics] FAILED set 02: too_long
+10-10 00:59:15   [Permutation_Combination] review Feynman_hi.txt: 1 issue(s): - "संचय" (accumulation/savings) used as the Hindi term for Combination → "संयोजन" (standard NCERT/exam term for Com
+10-10 00:59:42   [Mixture_Alligation] set 01 try 1: re-solve disagrees (Q1 key a vs re-solve d, Q24 key a vs re-solve b)
+10-10 01:05:02   [Statistics] repaired set 05 (en + hi, key confirmed by an independent re-solve)
+10-10 01:05:02   [Statistics] written 2, failed 1; AI calls today 104/100000
+10-10 01:05:02 NOT OK 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_19_Statistics after 165 min: todo [] problems ['Set 02 en: 0/25 parsed', 'Set 02 Practice_en_Set_02.txt: unverified exam/year source "', 'Set 02 hi: 0/25 parsed', 'Set 02 Practice_hi_Set_02.txt: unverified exam/year source "']
+10-10 01:05:05 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_19_Statistics (FIX: todo 0, problems 4)
+10-10 01:06:19   [Mixture_Alligation] set 01 try 2: re-solve disagrees (Q7 key c vs re-solve a)
+10-10 01:06:25   [Permutation_Combination] review Short_Tricks_hi.txt: 1 issue(s): - In point 1, the example calculation 3 × 4 × 2 = 30 is incorrect → 3 × 4 × 2 = 24
+10-10 01:06:37   [Probability] set 02 try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 01:07:51   [Probability] set 02 try 2: rejected (parsed 23 questions, numbers 26…50)
+10-10 01:08:05   [Mixture_Alligation] set 01 try 3: rejected (parsed 0 questions, numbers -…-)
+10-10 01:09:36   [Permutation_Combination] review: 2 section(s) corrected, 0 failed
+10-10 01:09:36   [Permutation_Combination] written 2, failed 0; AI calls today 114/100000
 ```

@@ -1,185 +1,151 @@
-Set 3: Permutation & Combination — Foundation Level (Medium)
+Questions 51–70: Easy | Questions 71–75: Medium
 
-Q51. How many ways can the letters of the word 'REMOTE' be arranged such that the vowels are always together?
-(1) 72 (2) 144 (3) 36 (4) 120
-
-Answer: (1) 72
-Solution: Vowels in REMOTE: E, O, E (E repeated twice). Treat vowels as one block. Total units = R, M, T, [vowel block] = 4 units. These can be arranged in 4! = 24 ways. Within the block, arrange E, O, E: 3!/2! = 3 ways. Total = 24 × 3 = 72.
+51. How many ways can the letters of the word 'REMOTE' be arranged such that the vowels are always together?
+(a) 72 (b) 144 (c) 36 (d) 120
+Answer: (a)
+Solution: The trap is treating the three vowels as all different, which gives 4! × 3! = 144. Vowels are E, O, E with E repeated, so inside the block there are only 3!/2! = 3 arrangements; the block plus R, M, T gives 4 units arranged in 4! = 24 ways, so the answer is 72.
 Source: PYQ-style
 
-Q52. From 5 boys and 4 girls, a team of 3 is to be selected such that exactly 2 are girls. Number of ways is:
-(1) 30 (2) 40 (3) 20 (4) 60
-
-Answer: (1) 30
-Solution: Choose 2 girls from 4: 4C2 = 6. Choose 1 boy from 5: 5C1 = 5. Total = 6 × 5 = 30.
+52. From 5 boys and 4 girls, a team of 3 is to be selected such that exactly 2 are girls. The number of ways is:
+(a) 30 (b) 20 (c) 40 (d) 60
+Answer: (a)
+Solution: The trap is computing 4C2 × 5C2 = 60, which selects 2 boys instead of 1. Exactly 2 girls means 2 girls from 4 and 1 boy from 5: 4C2 × 5C1 = 6 × 5, so the answer is 30.
 Source: PYQ-style
 
-Q53. In how many ways can 5 different keys be placed on a key ring?
-(1) 24 (2) 12 (3) 60 (4) 120
+53. In how many ways can 5 different keys be placed on a key ring?
+(a) 24 (b) 12 (c) 60 (d) 120
+Answer: (b)
+Solution: The trap is using (n−1)! = 24, which counts arrangements where flipping the ring over is treated as different. On a key ring a flip gives the same arrangement, so we use (n−1)!/2 = 4!/2, so the answer is 12.
+Source: NCERT Class 11 Mathematics
 
-Answer: (2) 12
-Solution: Number of circular permutations of n distinct items on a ring (where flipping the ring gives the same arrangement) is (n-1)!/2. Here n=5 → (5-1)!/2 = 4!/2 = 24/2 = 12.
-Source: NCERT Class 11 Ex 7.4
-
-Q54. In how many ways can the letters of the word 'ARRANGE' be arranged so that the two R's are always together?
-(1) 360 (2) 180 (3) 720 (4) 120
-
-Answer: (1) 360
-Solution: Treat the two R's as a single block 'RR'. Letters become A, A, RR, N, G, E (6 units, A repeated twice). Number of arrangements = 6! / 2! = 720 / 2 = 360.
+54. In how many ways can the letters of the word 'ARRANGE' be arranged so that the two R's are always together?
+(a) 180 (b) 720 (c) 120 (d) 360
+Answer: (d)
+Solution: The trap is forgetting the repeated A's and answering 6! = 720. Treating RR as one block gives 6 units with A repeated twice, so arrangements = 6!/2! = 720/2, so the answer is 360.
 Source: PYQ-style
 
-Q55. How many 3-digit even numbers can be formed using the digits 1,2,3,4,5,6,7 without repetition?
-(1) 90 (2) 120 (3) 60 (4) 210
-
-Answer: (1) 90
-Solution: Unit digit must be even: 2,4,6 → 3 choices. Then hundreds digit: any of the remaining 6 digits, tens digit: any of the remaining 5 digits. Total = 3 × 6 × 5 = 90.
+55. How many 3-digit even numbers can be formed using the digits 1, 2, 3, 4, 5, 6, 7 without repetition?
+(a) 120 (b) 60 (c) 90 (d) 210
+Answer: (c)
+Solution: The trap is filling the hundreds place first and then losing track of which even digits remain. Fix the units place first: it must be 2, 4 or 6, giving 3 choices; then hundreds has 6 choices and tens has 5, giving 3 × 6 × 5, so the answer is 90.
 Source: PYQ-style
 
-Q56. A student must attempt 5 out of 8 questions in an exam. If the first 3 questions are compulsory, in how many ways can the student choose the questions?
-(1) 10 (2) 20 (3) 56 (4) 36
+56. A student must attempt 5 out of 8 questions in an exam. If the first 3 questions are compulsory, in how many ways can the student choose the questions?
+(a) 10 (b) 20 (c) 56 (d) 36
+Answer: (a)
+Solution: The trap is computing 8C5 = 56, which ignores the compulsory condition. With the first 3 questions fixed, only 2 more must be chosen from the remaining 5, giving 5C2, so the answer is 10.
+Source: NCERT Class 11 Mathematics
 
-Answer: (1) 10
-Solution: Since first 3 are compulsory, the student must select 2 more from the remaining 5 questions. Number of ways = 5C2 = 10.
-Source: NCERT Class 11 Ex 7.4
+57. How many numbers between 100 and 1000 can be formed with the digits 0, 1, 2, 3, 4, 5 if no digit is repeated?
+(a) 100 (b) 120 (c) 80 (d) 150
+Answer: (a)
+Solution: The trap is allowing 0 in the hundreds place, which gives 6 × 5 × 4 = 120 but includes 2-digit numbers. The hundreds digit has 5 choices (1–5), then tens has 5 (0 now allowed) and units has 4, giving 5 × 5 × 4, so the answer is 100.
+Source: NCERT Class 11 Mathematics
 
-Q57. How many numbers between 100 and 1000 can be formed with the digits 0,1,2,3,4,5 if no digit is repeated?
-(1) 100 (2) 120 (3) 80 (4) 150
-
-Answer: (1) 100
-Solution: Numbers are 3-digit. Hundreds place: cannot be 0, so 5 choices (1-5). Tens place: any of the remaining 5 digits (including 0). Units place: any of the remaining 4 digits. Total = 5 × 5 × 4 = 100.
-Source: NCERT Class 11 Ex 7.1
-
-Q58. In how many ways can 7 persons be seated in a row if 3 particular persons always sit together?
-(1) 720 (2) 5040 (3) 240 (4) 120
-
-Answer: (1) 720
-Solution: Treat the 3 particular persons as a block. Then we have 5 units (4 others + 1 block) which can be arranged in 5! = 120 ways. The 3 persons within the block can be arranged in 3! = 6 ways. Total = 120 × 6 = 720.
+58. In how many ways can 7 persons be seated in a row if 3 particular persons always sit together?
+(a) 5040 (b) 240 (c) 120 (d) 720
+Answer: (d)
+Solution: The trap is arranging only the 5 units and forgetting the internal order of the block, which gives 120. The block of 3 plus the other 4 persons make 5 units arranged in 5! = 120 ways, and the 3 persons inside the block arrange in 3! = 6 ways, giving 120 × 6, so the answer is 720.
 Source: PYQ-style
 
-Q59. A man has 5 friends. In how many ways can he invite one or more of them to a party?
-(1) 31 (2) 32 (3) 5 (4) 10
+59. A man has 5 friends. In how many ways can he invite one or more of them to a party?
+(a) 5 (b) 32 (c) 31 (d) 10
+Answer: (c)
+Solution: The trap is answering 2⁵ = 32, which includes the case where nobody is invited. Each friend is either invited or not, giving 2⁵ = 32 cases, and we remove the single case of inviting no one, so the answer is 31.
+Source: NCERT Class 11 Mathematics
 
-Answer: (1) 31
-Solution: Each friend can be invited or not, giving 2⁵ = 32 possibilities. Excluding the case of inviting none → 32 – 1 = 31.
-Source: NCERT Class 11 Ex 7.4
+60. How many distinct permutations can be made from the letters of the word 'BANANA'?
+(a) 120 (b) 60 (c) 45 (d) 720
+Answer: (b)
+Solution: The trap is answering 6! = 720, which treats repeated letters as distinct. BANANA has 6 letters with A repeated 3 times and N repeated twice, so permutations = 6!/(3! × 2!) = 720/12, so the answer is 60.
+Source: NCERT Class 11 Mathematics
 
-Q60. How many distinct permutations can be made from the letters of the word 'BANANA'?
-(1) 60 (2) 120 (3) 720 (4) 45
+61. In how many ways can 4 different rings be worn on 3 fingers of one hand if any finger can hold any number of rings?
+(a) 81 (b) 64 (c) 24 (d) 12
+Answer: (a)
+Solution: The trap is computing 4³ = 64 by assigning rings to fingers the wrong way round. Each of the 4 rings independently chooses any of the 3 fingers, giving 3⁴, so the answer is 81.
+Source: NCERT Class 11 Mathematics
 
-Answer: (1) 60
-Solution: BANANA has 6 letters with A repeated 3 times and N repeated twice. Number of permutations = 6! / (3! × 2!) = 720 / (6 × 2) = 720 / 12 = 60.
-Source: NCERT Class 11 Ex 7.3
-
-Q61. In how many ways can 4 different rings be worn on 3 fingers of one hand if any finger can hold any number of rings?
-(1) 81 (2) 64 (3) 24 (4) 12
-
-Answer: (1) 81
-Solution: Each ring has 3 independent choices of a finger. Total ways = 3⁴ = 81.
-Source: NCERT Class 11 Ex 7.1
-
-Q62. A committee of 4 is to be formed from 4 men and 5 women. In how many ways can it be done if the committee must contain exactly 2 women?
-(1) 60 (2) 120 (3) 80 (4) 100
-
-Answer: (1) 60
-Solution: Choose 2 women from 5: 5C2 = 10. Choose 2 men from 4: 4C2 = 6. Total = 10 × 6 = 60.
+62. A committee of 4 is to be formed from 4 men and 5 women. In how many ways can it be done if the committee must contain exactly 2 women?
+(a) 120 (b) 60 (c) 80 (d) 100
+Answer: (b)
+Solution: The trap is choosing only the women and answering 5C2 = 10, or pairing it wrongly. Exactly 2 women means 2 women from 5 and 2 men from 4: 5C2 × 4C2 = 10 × 6, so the answer is 60.
 Source: PYQ-style
 
-Q63. If ²ⁿP₂ = 30, then the value of n is:
-(1) 3 (2) 4 (3) 5 (4) 6
+63. If ²ⁿP₂ = 30, then the value of n is:
+(a) 6 (b) 4 (c) 5 (d) 3
+Answer: (d)
+Solution: The trap is solving n(n−1) = 30 and getting n = 6, which ignores that the permutation is on 2n objects. Here ²ⁿP₂ = 2n(2n−1) = 30, and testing n = 3 gives 6 × 5 = 30, so the answer is 3.
+Source: NCERT Class 11 Mathematics
 
-Answer: (1) 3
-Solution: ²ⁿP₂ = (2n)(2n-1) = 30. Checking small values: if n=3, 2n=6, 6×5=30. Hence n=3.
-Source: NCERT Class 11 Ex 7.3
-
-Q64. How many 4-digit even numbers can be formed using the digits 0,1,2,3,4,5 without repetition?
-(1) 156 (2) 312 (3) 120 (4) 180
-
-Answer: (1) 156
-Solution: An even number ends in 0,2,4.
-Case 1: unit=0 → thousands:5 choices, hundreds:4, tens:3 → 5×4×3 = 60.
-Case 2: unit=2 → thousands:4 (not 0,2), hundreds:4 (0 allowed), tens:3 → 4×4×3 = 48.
-Case 3: unit=4 → same as case 2: 48.
-Total = 60+48+48 = 156.
+64. How many 4-digit even numbers can be formed using the digits 0, 1, 2, 3, 4, 5 without repetition?
+(a) 312 (b) 156 (c) 120 (d) 180
+Answer: (b)
+Solution: The trap is treating all even endings alike and getting 3 × 5 × 4 × 3 = 180, which wrongly allows 0 in the thousands place. Split by units digit: ending in 0 gives 5 × 4 × 3 = 60; ending in 2 or 4 each gives 4 × 4 × 3 = 48; total 60 + 48 + 48, so the answer is 156.
 Source: PYQ-style
 
-Q65. In how many ways can 4 boys and 2 girls be seated in a row such that no two girls sit together?
-(1) 480 (2) 240 (3) 720 (4) 120
-
-Answer: (1) 480
-Solution: First arrange the 4 boys: 4! = 24 ways. They create 5 gaps (_ B1 _ B2 _ B3 _ B4 _). Choose 2 of these 5 gaps for the 2 girls and arrange them: 5P2 = 20. Total = 24 × 20 = 480.
+65. In how many ways can 4 boys and 2 girls be seated in a row such that no two girls sit together?
+(a) 240 (b) 120 (c) 720 (d) 480
+Answer: (d)
+Solution: The trap is subtracting from 6! = 720, which is messy and error-prone. Arrange the 4 boys first in 4! = 24 ways, creating 5 gaps; place the 2 girls in 2 of these gaps in 5P2 = 20 ways, giving 24 × 20, so the answer is 480.
 Source: PYQ-style
 
-Q66. A polygon has 10 sides. The number of its diagonals is:
-(1) 35 (2) 45 (3) 30 (4) 40
+66. A polygon has 10 sides. The number of its diagonals is:
+(a) 45 (b) 40 (c) 35 (d) 30
+Answer: (c)
+Solution: The trap is computing 10C2 = 45, which counts the 10 sides as well. Diagonals = n(n−3)/2 = 10 × 7/2, so the answer is 35.
+Source: NCERT Class 11 Mathematics
 
-Answer: (1) 35
-Solution: Number of diagonals in an n-sided polygon = n(n-3)/2. For n=10 → 10×7/2 = 35.
-Source: NCERT Class 11 Ex 7.4
+67. A club has 6 members. In how many ways can a president, a secretary and a treasurer be chosen if no member can hold more than one post?
+(a) 20 (b) 60 (c) 120 (d) 240
+Answer: (c)
+Solution: The trap is using 6C3 = 20, which ignores that the three posts are distinct. Since the posts are different, order matters: 6P3 = 6 × 5 × 4, so the answer is 120.
+Source: NCERT Class 11 Mathematics
 
-Q67. A club has 6 members. In how many ways can a president, secretary, and treasurer be chosen if no member can hold more than one post?
-(1) 120 (2) 20 (3) 60 (4) 240
+68. How many 4-digit numbers can be formed from the digits 0, 2, 4, 6, 8 without repetition?
+(a) 120 (b) 48 (c) 96 (d) 24
+Answer: (c)
+Solution: The trap is computing 5 × 4 × 3 × 2 = 120, which allows 0 in the thousands place and counts 3-digit numbers. The thousands digit has 4 choices (2, 4, 6, 8), then 4, 3 and 2 choices remain, giving 4 × 4 × 3 × 2, so the answer is 96.
+Source: NCERT Class 11 Mathematics
 
-Answer: (1) 120
-Solution: The three posts are distinct, so we use permutation: 6P3 = 6 × 5 × 4 = 120.
-Source: NCERT Class 11 Ex 7.3
-
-Q68. How many numbers greater than 5000 can be formed using the digits 1,2,3,4,5 without repetition? (All digits must be used)
-(1) 48 (2) 96 (3) 120 (4) 72
-
-Answer: (2) 96
-Solution: Total digits = 5. Numbers can be 5-digit only (since all digits used and no 0). 5-digit numbers greater than 5000 are all 5-digit numbers starting with digit ≥5, i.e. digits 5 only (since set is 1-5). So thousands place = 5 (1 choice). Remaining 4 digits arrange in 4! = 24 ways. That gives 24. But the question likely means numbers >5000 formed using those digits (not necessarily all digits). Usually "using the digits" means without repetition, and can be 4-digit or 5-digit. Let's clarify: greater than 5000 could be 4-digit or 5-digit. 4-digit numbers >5000 must start with 5 (1 choice), then choose 3 from remaining 4 digits and arrange: 4P3 = 24. So 24. 5-digit numbers: first digit 1-5 (5 choices), but to be >5000, any 5-digit number works, but 5-digit numbers using all 5 digits without repetition: 5! = 120. But that uses all digits, which is also >5000. So total = 24 + 120 = 144. Not in options. So I'll assume the question means "using all the digits exactly once", forming 5-digit numbers, and greater than 5000. Then first digit 5 (only), remaining 4! = 24. Not 96. So maybe I'll drop this and use a different one. I'll replace Q68 with a simpler medium: "How many 4-digit numbers can be formed from the digits 0,2,4,6,8 without repetition?" That's 4*4*3*2=96. So answer 96. Options: 96,120,48,24. That fits. I'll adjust.
-
-So Q68: How many 4-digit numbers can be formed from digits 0,2,4,6,8 without repetition? (1) 96 (2) 120 (3) 48 (4) 24. Answer 96. Solution: Thousands digit: cannot be 0 → 4 choices (2,4,6,8). Then hundreds: 4 remaining, tens: 3, units: 2 → 4×4×3×2=96. Good.
-
-I'll replace Q68.
-
-Q69. How many 5-digit numbers can be formed using digits 1,2,3,4,5 without repetition that are divisible by 5?
-(1) 24 (2) 120 (3) 60 (4) 48
-
-Answer: (1) 24
-Solution: A number divisible by 5 must end in 5 (since 5 is the only multiple of 5 in the set). Fix unit digit = 5. Remaining 4 digits can be arranged in 4! = 24 ways.
+69. How many 5-digit numbers can be formed using the digits 1, 2, 3, 4, 5 without repetition that are divisible by 5?
+(a) 120 (b) 60 (c) 24 (d) 48
+Answer: (c)
+Solution: The trap is answering 5! = 120, which counts all arrangements without the divisibility condition. A number is divisible by 5 only if it ends in 5 here, so fix 5 at the units place and arrange the remaining 4 digits in 4! ways, so the answer is 24.
 Source: PYQ-style
 
-Q70. In how many ways can 8 persons be seated around a round table if two particular persons refuse to sit together?
-(1) 3600 (2) 2520 (3) 1440 (4) 720
-
-Answer: (1) 3600
-Solution: Total circular arrangements of 8 persons = (8-1)! = 7! = 5040. Arrangements with the two together: treat them as block → (7-1)! × 2! = 6! × 2 = 720 × 2 = 1440. Therefore, not together = 5040 – 1440 = 3600.
+70. In how many ways can 8 persons be seated around a round table if two particular persons refuse to sit together?
+(a) 2520 (b) 1440 (c) 720 (d) 3600
+Answer: (d)
+Solution: The trap is answering 1440, which is the number of arrangements where the two sit together, not apart. Total circular arrangements are 7! = 5040; together-arrangements are 6! × 2! = 1440; subtracting gives 5040 − 1440, so the answer is 3600.
 Source: PYQ-style
 
-Q71. If ⁿC₈ = ⁿC₅, then n equals:
-(1) 13 (2) 12 (3) 15 (4) 10
+71. If ⁿC₈ = ⁿC₅, then n equals:
+(a) 15 (b) 12 (c) 10 (d) 13
+Answer: (d)
+Solution: The trap is concluding 8 = 5 is impossible or adding wrongly as 8 + 5 = 13 but then doubting it. By the property ⁿCᵣ = ⁿCₙ₋ᵣ, we get n − 8 = 5, so the answer is 13.
+Source: NCERT Class 11 Mathematics
 
-Answer: (1) 13
-Solution: Using the property ⁿCᵣ = ⁿC_{n-r}, we have n-8 = 5 ⇒ n = 13.
-Source: NCERT Class 11 Ex 7.4
-
-Q72. How many 3-digit numbers greater than 400 can be formed using the digits 1,2,3,4,5,6,7 without repetition?
-(1) 120 (2) 140 (3) 210 (4) 180
-
-Answer: (1) 120
-Solution: Hundreds digit must be 4,5,6,7 → 4 choices. Then tens digit: any of the remaining 6 digits, units: 5 digits. Total = 4 × 6 × 5 = 120.
+72. How many 3-digit numbers greater than 400 can be formed using the digits 1, 2, 3, 4, 5, 6, 7 without repetition?
+(a) 120 (b) 210 (c) 180 (d) 140
+Answer: (a)
+Solution: The trap is taking 3 choices for the hundreds digit (only 5, 6, 7) and forgetting that 4 also works. The hundreds digit can be 4, 5, 6 or 7, giving 4 choices; then tens has 6 and units has 5, giving 4 × 6 × 5, so the answer is 120.
 Source: PYQ-style
 
-Q73. A bag contains 3 red, 4 blue, and 2 green balls. In how many ways can 2 balls be drawn such that both are of the same colour?
-(1) 10 (2) 9 (3) 36 (4) 18
-
-Answer: (1) 10
-Solution: Both red: 3C2 = 3; both blue: 4C2 = 6; both green: 2C2 = 1. Total = 3+6+1 = 10.
+73. A bag contains 3 red, 4 blue and 2 green balls. In how many ways can 2 balls be drawn such that both are of the same colour?
+(a) 9 (b) 10 (c) 36 (d) 18
+Answer: (b)
+Solution: The trap is computing 9C2 = 36, which counts all pairs regardless of colour. Same-colour pairs are 3C2 + 4C2 + 2C2 = 3 + 6 + 1, so the answer is 10.
 Source: PYQ-style
 
-Q74. In how many ways can the letters of the word 'SUCCESS' be arranged such that no two S's are together?
-(1) 120 (2) 24 (3) 96 (4) 60
-
-Answer: (1) 120
-Solution: SUCCESS has S (3 times), U, C (2 times), E. First arrange the non-S letters: U, C, C, E → 4!/2! = 12 ways. They create 5 gaps (U, C, C, E). Choose 3 gaps out of 5 to place the identical S's: 5C3 = 10. Total = 12 × 10 = 120.
+74. In how many ways can the letters of the word 'SUCCESS' be arranged such that no two S's are together?
+(a) 120 (b) 96 (c) 60 (d) 24
+Answer: (a)
+Solution: The trap is arranging all 7 letters and subtracting, which double-counts because the three S's are identical. Arrange U, C, C, E first in 4!/2! = 12 ways, creating 5 gaps; place the 3 identical S's in 3 gaps in 5C3 = 10 ways, giving 12 × 10, so the answer is 120.
 Source: PYQ-style
 
-Q75. How many 4-digit numbers can be formed from the digits 0,2,4,6,8 without repetition?
-(1) 96 (2) 120 (3) 48 (4) 24
-
-Answer: (1) 96
-Solution: Thousands digit cannot be 0, so 4 choices (2,4,6,8). Hundreds digit: any of the remaining 4 digits (including 0). Tens: 3 choices, Units: 2. Total = 4 × 4 × 3 × 2 = 96.
-Source: NCERT Class 11 Ex 7.1
-
-🚀 Review this set after 2 days. Pick any 4 incorrect or doubtful questions, solve them again, and speak out the step-by-step reasoning to permanently anchor the solution patterns.
+75. From 6 boys and 4 girls, a committee of 5 is to be formed with at least 3 boys. The number of ways is:
+(a) 246 (b) 186 (c) 252 (d) 120
+Answer: (b)
+Solution: The trap is computing only the 3-boy case, 6C3 × 4C2 = 120, and missing the other valid cases. At least 3 boys means 3 boys + 2 girls, 4 boys + 1 girl, or 5 boys: 6C3×4C2 + 6C4×4C1 + 6C5×4C0 = 120 + 60 + 6, so the answer is 186.
+Source: PYQ-style
