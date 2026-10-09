@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 09-10-2026 08:45 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
+**आख़िरी update:** 09-10-2026 08:54 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Time Work (10th Maths) | 🔎 review हो रहा है | 0 मिनट |
-| W2 | Chapter 10 Compound Interest (10th Maths) | 🔎 review हो रहा है | 26 मिनट |
-| W3 | Chapter 20 Sentence Improvement Basic (10th English) | 🔎 review हो रहा है | 3 मिनट |
-| W4 | Chapter 16 Algebra (10th Maths) | 🔧 सुधार रहा है | 28 मिनट |
-| W5 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 74 मिनट |
-| W6 | Chapter 12 Time Distance (10th Maths) | 🔎 review हो रहा है | 14 मिनट |
-| W7 | Chapter 14 Mensuration (10th Maths) | 🔧 सुधार रहा है | 0 मिनट |
-| W8 | Chapter 15 Geometry (10th Maths) | 🔧 सुधार रहा है | 53 मिनट |
+| W1 | Chapter 11 Time Work (10th Maths) | 🔎 review हो रहा है | 9 मिनट |
+| W2 | Chapter 10 Compound Interest (10th Maths) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 20 Sentence Improvement Basic (10th English) | 🔎 review हो रहा है | 12 मिनट |
+| W4 | Chapter 16 Algebra (10th Maths) | 🔧 सुधार रहा है | 37 मिनट |
+| W5 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 83 मिनट |
+| W6 | Chapter 12 Time Distance (10th Maths) | 🔎 review हो रहा है | 23 मिनट |
+| W7 | Chapter 14 Mensuration (10th Maths) | 🔧 सुधार रहा है | 9 मिनट |
+| W8 | Chapter 15 Geometry (10th Maths) | 🔎 review हो रहा है | 7 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -23,7 +23,7 @@
 |---|---|---|---|
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
-| 10th Maths | 12 | 10 | 0 |
+| 10th Maths | 13 | 9 | 0 |
 | 10th English | 16 | 3 | 1 |
 | 12th Maths | 5 | 0 | 18 |
 | 12th GK | 22 | 0 | 2 |
@@ -33,10 +33,11 @@
 | Graduation GK | 25 | 0 | 3 |
 | Graduation Reasoning | 8 | 0 | 22 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **190** | **13** | **93** |
+| **कुल** | **191** | **12** | **93** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 20:54 — 10th Maths · Chapter 10 Compound Interest
 - 09-10 20:16 — 10th English · Chapter 18 Error Spotting Basic
 - 09-10 19:51 — 10th English · Chapter 17 Spelling
 - 09-10 19:33 — 10th English · Chapter 14 Antonyms
@@ -61,19 +62,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 20:18:17   [Time_Distance] repaired set 05 (en + hi, key confirmed by an independent re-solve)
-09-10 20:19:04   [Compound_Interest] repaired PYQ_en.txt (7194 chars)
-09-10 20:19:04   [Compound_Interest] written 1, failed 0; AI calls today 720/100000
-09-10 20:19:26   [Geometry] Practice_hi_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 20:20:58   [Compound_Interest] review Content_en.txt: 1 issue(s): - The Day 30 value in the doubling coin example is given as ₹1,07,37,41,824 (2^30), but the progression shows Day 1
-09-10 20:22:02   [Geometry] repaired set 04 (en + hi, key confirmed by an independent re-solve)
-09-10 20:22:52   [Mixture_Alligation] repaired set 03 (en + hi, key confirmed by an independent re-solve)
-09-10 20:23:25   [Algebra] repaired set 01 (en + hi, key confirmed by an independent re-solve)
-09-10 20:23:56   [Mensuration] repaired set 04 (en + hi, key confirmed by an independent re-solve)
-09-10 20:24:44   [Compound_Interest] review Content_hi.txt: 1 issue(s): - The magical coin example states the 30th‑day value as ₹1,07,37,41,824 (2³⁰), but starting with ₹1 on day 1, the 3
-09-10 20:25:33   [Time_Work] repaired set 05 (en + hi, key confirmed by an independent re-solve)
-09-10 20:27:03   [Mixture_Alligation] set 04 try 1: re-solve disagrees (Q95 key d vs re-solve c)
-09-10 20:28:52   [Mensuration] Practice_hi_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
 09-10 20:29:29   [Time_Distance] repaired set 06 (en + hi, key confirmed by an independent re-solve)
 09-10 20:29:29   [Time_Distance] written 10, failed 0; AI calls today 745/100000
 09-10 20:30:37   [Time_Distance] repaired Content_hi.txt (3492 chars)
@@ -101,4 +89,17 @@
 09-10 20:44:56   [Mensuration] repaired set 06 (en + hi, key confirmed by an independent re-solve)
 09-10 20:44:56   [Mensuration] written 5, failed 1; AI calls today 789/100000
 09-10 20:45:28   [Compound_Interest] review PYQ_hi.txt: 1 issue(s): "- The solution for Q9 incorrectly computes 66550 × 1.12² as ₹83,488.92; the correct value is ₹83,480.32 → correction: 
+09-10 20:46:29   [Geometry] repaired set 06 (en + hi, key confirmed by an independent re-solve)
+09-10 20:46:29   [Geometry] written 6, failed 0; AI calls today 793/100000
+09-10 20:46:46   [Mixture_Alligation] Practice_hi_Set_05.txt try 1: rejected (parsed 24 questions, numbers 101…125)
+09-10 20:47:54   [Geometry] review Content_en.txt: 1 issue(s): - The claim "Triangles appear in over 35% of exam geometry questions" is an invented exam statistic with no cited s
+09-10 20:49:14   [Algebra] repaired set 04 (en + hi, key confirmed by an independent re-solve)
+09-10 20:49:57   [Time_Distance] review PYQ_en.txt: 3 issue(s): - Chat line "Here is what the data screams:" → Remove the chat line.
+09-10 20:50:17   [Geometry] review Content_hi.txt: 1 issue(s): - The claim “परीक्षाओं के 35% से अधिक ज्यामिति प्रश्नों में त्रिभुज आते हैं” is an invented exam statistic → Replac
+09-10 20:50:20   [Mixture_Alligation] Practice_hi_Set_05.txt try 2: rejected (parsed 24 questions, numbers 101…125)
+09-10 20:51:19   [Compound_Interest] review Short_Tricks_en.txt: 1 issue(s): - Box 6 effective rate formula uses R as a decimal while all other boxes treat R as a percentage → Effective r
+09-10 20:52:53   [Compound_Interest] review Short_Tricks_hi.txt: 1 issue(s): - बॉक्स 6 में प्रभावी दर का सूत्र गलत है: "(1 + R/n)^n – 1" लिखा है जबकि R प्रतिशत में है; सही सूत्र है "(1 + 
+09-10 20:54:12   [Compound_Interest] review: 7 section(s) corrected, 0 failed
+09-10 20:54:12   [Compound_Interest] written 7, failed 0; AI calls today 816/100000
+09-10 20:54:15   [Time_Distance] review PYQ_hi.txt: 1 issue(s): - The PYQ analysis table lists invented weightage percentages (35%, 25%, 15%, 90%, 10%, 10%, 5%) with no source → Delet
 ```
