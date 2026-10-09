@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 07:35 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 07:50 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W4 | Chapter 23 Sentence Arrangement (12th English) | ✍️ लिख रहा है | 66 मिनट |
-| W5 | Chapter 22 Para Jumbles (12th English) | ✍️ लिख रहा है | 70 मिनट |
+| W4 | Chapter 23 Sentence Arrangement (12th English) | ✍️ लिख रहा है | 81 मिनट |
+| W5 | Chapter 22 Para Jumbles (12th English) | ✍️ लिख रहा है | 85 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -54,11 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 07:01:31 DONE 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_21_Cloze_Test in 34 min → df0ebf39
-09-10 07:01:31 worker 2: nothing left
-09-10 07:02:47   [Fill_in_Blanks_Adv] review Mind_Map_en.txt: 5 issue(s): - Line `A --> E="Step 4: Avoid]` has invalid Mermaid syntax (missing opening bracket, mismatched quote) → `A --> E
-09-10 07:03:41   [Sentence_Improvement_Adv] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-09-10 07:05:47   [Sentence_Improvement_Adv] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 09-10 07:05:47   [Sentence_Improvement_Adv] written 4, failed 0; AI calls today 720/100000
 09-10 07:09:17   [Sentence_Arrangement] Practice_en_Set_01.txt try 1: rejected (parsed 1 questions, numbers 1…1)
 09-10 07:10:45   [Sentence_Improvement_Adv] review Content_hi.txt: 1 issue(s): - In Linguistic Bridge note, 'explain (सीधे object नहीं)' is a wrong grammar rule; explain takes a direct object (e
@@ -94,4 +89,9 @@
 09-10 07:30:45   [Sentence_Arrangement] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 09-10 07:31:43   [Para_Jumbles] Practice_en_Set_01.txt try 3: re-solve disagrees (Q23 key a vs re-solve b)
 09-10 07:34:22   [Sentence_Arrangement] Practice_en_Set_02.txt try 1: rejected (parsed 2 questions, numbers 26…27)
+09-10 07:38:40   [Para_Jumbles] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 07:40:31   [Para_Jumbles] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 07:44:41   [Sentence_Arrangement] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+09-10 07:46:23   [Sentence_Arrangement] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 07:47:58   [Para_Jumbles] Practice_en_Set_02.txt try 1: re-solve disagrees (Q26 key a vs re-solve b, Q33 key b vs re-solve a)
 ```
