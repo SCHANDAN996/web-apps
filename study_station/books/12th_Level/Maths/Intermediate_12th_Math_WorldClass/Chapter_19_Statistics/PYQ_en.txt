@@ -1,0 +1,144 @@
+# 📊 PYQ Analysis — Statistics (English)
+
+## How Exams Test This Chapter
+
+Statistics questions in SSC CGL (Mains), IBPS PO, RRB NTPC and CAT follow a remarkably stable pattern. The examiner is not testing whether you can memorise formulas — he is testing whether you can pick the **right formula in under a minute** and avoid the traps he plants in the data.
+
+**The most repeated sub-topics, in words:**
+
+- **Mean of grouped/ungrouped data** — the single most frequent question type. Often disguised as "average of first n numbers" or "combined mean of two groups."
+- **Median of even vs odd number of observations** — the classic trap. Students forget to arrange data in order, or take the wrong middle term when n is even.
+- **Mode from a frequency table** — quick marks if you just read the highest frequency; traps appear when two classes tie.
+- **Relationship between Mean, Median, Mode** — the empirical formula Mode = 3Median − 2Mean appears again and again, sometimes directly, sometimes twisted.
+- **Standard Deviation and Variance** — questions on what happens to SD when every value is increased/multiplied by a constant. This is a favourite of SSC CGL Mains and CAT.
+- **Mean Deviation / Range / Coefficient of Variation** — short formula-based questions, common in IBPS PO prelims as quick scorers.
+- **Missing frequency problems** — "the mean is given, one frequency is unknown, find it." High-yield for Mains-level exams.
+- **Combined / weighted average** — two classes with different means merged; the trap is taking a simple average of the two means.
+
+**The examiner's favourite traps (learn to smell them):**
+
+1. **The "almost right" statement** — e.g., "Median is always equal to the mean in any distribution." Sounds plausible, is false.
+2. **Unsorted data** — median questions where the data is deliberately given jumbled. Sorting is 80% of the work.
+3. **Even-n confusion** — for n = 10, the median is the average of the 5th and 6th terms, not the 5th term.
+4. **The constant-operation trap** — "if each observation is multiplied by 3 and then 5 is added, what happens to mean/SD?" Mean changes by both operations; SD changes only by multiplication.
+5. **Negative marking bait** — options placed so that a common mistake (forgetting to divide by n, using n instead of n−1 nowhere it applies) lands exactly on a wrong option.
+6. **Unit trap** — variance is in squared units; a question asking for SD after giving variance expects you to take the square root.
+
+**Time advice:** Easy mean/mode questions deserve 30–40 seconds. Grouped-data median or missing-frequency questions deserve 90 seconds — skip and return if the numbers look ugly.
+
+---
+
+## 🎯 Top 10 High-Yield Questions (with Solutions)
+
+---
+
+**Q1.** The mean of 20 observations is 15. If each observation is increased by 4, the new mean is:
+(a) 15 (b) 19 (c) 60 (d) 23
+
+**Answer: (b)**
+**Solution:** When a constant is added to every observation, the mean increases by the same constant. New mean = 15 + 4 = 19.
+**Trap:** Option (c) 60 catches students who multiply 15 × 4. Addition affects the mean additively, never multiplicatively.
+**Source:** PYQ-style
+
+---
+
+**Q2.** The median of the data 12, 5, 9, 18, 7, 22, 15 is:
+(a) 9 (b) 12 (c) 15 (d) 7
+
+**Answer: (b)**
+**Solution:** Arrange in ascending order: 5, 7, 9, **12**, 15, 18, 22. With n = 7 (odd), median = 4th term = 12.
+**Trap:** The data is given jumbled. Students who pick the middle term of the *given* order get 18 or 9. Sorting first is non-negotiable.
+**Source:** NCERT Class 9 Mathematics (Statistics)
+
+---
+
+**Q3.** The median of 3, 7, 10, 14, 19, 25 is:
+(a) 10 (b) 14 (c) 12 (d) 13
+
+**Answer: (c)**
+**Solution:** n = 6 (even), so median = average of 3rd and 4th terms = (10 + 14)/2 = 12.
+**Trap:** Options (a) and (b) are the two middle terms themselves — placed there for students who forget to average them. This is the single most common median error in SSC exams.
+**Source:** PYQ-style
+
+---
+
+**Q4.** If the mean of a distribution is 24 and its median is 22, the mode (using the empirical relation) is:
+(a) 18 (b) 20 (c) 26 (d) 16
+
+**Answer: (a)**
+**Solution:** Mode = 3Median − 2Mean = 3(22) − 2(24) = 66 − 48 = 18.
+**Trap:** Option (c) 26 comes from reversing the formula (3Mean − 2Median). Remember: **Mode leans on Median thrice, Mean only twice.**
+**Source:** PYQ-style
+
+---
+
+**Q5.** The mode of the data 4, 6, 8, 6, 9, 6, 8, 4, 6 is:
+(a) 4 (b) 6 (c) 8 (d) 9
+
+**Answer: (b)**
+**Solution:** Frequencies: 4 appears 2 times, 6 appears 4 times, 8 appears 2 times, 9 appears once. Highest frequency belongs to 6.
+**Trap:** Students in a hurry count 8 as appearing "often" because it looks prominent. Always tally each value systematically.
+**Source:** NCERT Class 9 Mathematics (Statistics)
+
+---
+
+**Q6.** The standard deviation of 5, 5, 5, 5, 5 is:
+(a) 5 (b) 1 (c) 0 (d) 25
+
+**Answer: (c)**
+**Solution:** All values equal the mean (5), so every deviation from the mean is 0. Hence SD = 0.
+**Trap:** Option (a) 5 tempts students who confuse the value of the data with its spread. SD measures *spread* — no spread, no SD.
+**Source:** PYQ-style
+
+---
+
+**Q7.** If each observation of a data set is multiplied by 3, the standard deviation:
+(a) remains unchanged (b) becomes 3 times (c) becomes 9 times (d) becomes one-third
+
+**Answer: (b)**
+**Solution:** Multiplying every observation by k multiplies the SD by |k|. New SD = 3 × old SD. (Variance, however, becomes 9 times.)
+**Trap:** Option (c) 9 is the variance answer planted in an SD question. The examiner is testing whether you know SD scales linearly while variance scales with the square.
+**Source:** PYQ-style
+
+---
+
+**Q8.** The mean of two groups is combined: Group A has 30 students with mean marks 60, Group B has 20 students with mean marks 70. The combined mean is:
+(a) 65 (b) 64 (c) 66 (d) 63
+
+**Answer: (b)**
+**Solution:** Combined mean = (30×60 + 20×70)/(30+20) = (1800 + 1400)/50 = 3200/50 = 64.
+**Trap:** Option (a) 65 is the simple average of 60 and 70 — the classic weighted-average trap. Groups of unequal size must be weighted by their counts.
+**Source:** PYQ-style
+
+---
+
+**Q9.** The mean of 5 observations is 10. If one observation, 18, is excluded, the mean of the remaining observations is:
+(a) 8 (b) 9 (c) 12 (d) 7
+
+**Answer: (a)**
+**Solution:** Total of 5 observations = 5 × 10 = 50. After removing 18: sum = 32, count = 4. New mean = 32/4 = 8.
+**Trap:** Students who subtract 18 from the mean (10 − 18 → nonsense) or divide 32 by 5 (getting 6.4) fall for distractors. Always rebuild sum and count separately.
+**Source:** PYQ-style
+
+---
+
+**Q10.** The variance of a data set is 16. The standard deviation and the range of possible coefficient of variation interpretation require the SD, which is:
+(a) 256 (b) 8 (c) 4 (d) 32
+
+**Answer: (c)**
+**Solution:** SD = √Variance = √16 = 4.
+**Trap:** Option (a) 256 is 16² — for students who square instead of taking the root. Option (b) 8 is 16/2, a half-hearted guess. Remember: **variance lives in squared units; SD brings it back to real units.**
+**Source:** PYQ-style
+
+---
+
+## 🧠 Final Pattern Summary
+
+- **Mean questions** test arithmetic discipline — rebuild totals, don't shortcut.
+- **Median questions** test sorting and the even/odd rule — nothing else.
+- **Mode questions** are free marks — read the highest frequency carefully.
+- **Mean–Median–Mode relation** questions test one formula: Mode = 3Median − 2Mean.
+- **SD/Variance questions** test behaviour under +, −, ×, ÷ of constants — addition/subtraction leaves SD unchanged; multiplication/division scales it.
+- **Combined mean** questions test weighting — never average two means directly unless group sizes are equal.
+
+Master these six behaviours and roughly every Statistics question these exams have asked in a decade becomes a 60-second job.

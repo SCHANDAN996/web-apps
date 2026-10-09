@@ -1,0 +1,68 @@
+# 📋 Important Formulas — Statistics
+
+## 1. Measures of Central Tendency (Ungrouped Data)
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Mean (Average) | x̄ = Σxᵢ / n | Sum of all values ÷ number of values |
+| Combined Mean | x̄ = (n₁x̄₁ + n₂x̄₂) / (n₁ + n₂) | Merging two groups with known means |
+| Weighted Mean | x̄ = Σwᵢxᵢ / Σwᵢ | When values carry different weights |
+| Median (n odd) | Median = value of ((n+1)/2)ᵗʰ term | Arrange data in order first |
+| Median (n even) | Median = ½ × [(n/2)ᵗʰ + (n/2 + 1)ᵗʰ terms] | Average of two middle values |
+| Mode | Most frequent value | Value with highest frequency |
+| Empirical Relation | Mode = 3 Median − 2 Mean | When two of the three are known |
+
+## 2. Measures of Central Tendency (Grouped Data)
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Mean (Direct Method) | x̄ = Σfᵢxᵢ / Σfᵢ | xᵢ = class mark (mid-point) |
+| Mean (Assumed Mean) | x̄ = A + Σfᵢdᵢ / Σfᵢ, where dᵢ = xᵢ − A | Large numbers; pick A near middle |
+| Mean (Step-Deviation) | x̄ = A + h × (Σfᵢuᵢ / Σfᵢ), where uᵢ = (xᵢ − A)/h | Class intervals of equal width h |
+| Median (Grouped) | Median = l + [(N/2 − cf)/f] × h | l = lower limit of median class, cf = cumulative frequency before it |
+| Mode (Grouped) | Mode = l + [(f₁ − f₀)/(2f₁ − f₀ − f₂)] × h | f₁ = modal class frequency, f₀ = before, f₂ = after |
+
+## 3. Measures of Dispersion
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Range | Range = L − S | Largest − Smallest value |
+| Coefficient of Range | (L − S)/(L + S) | Comparing spread of two datasets |
+| Quartile Deviation | QD = (Q₃ − Q₁)/2 | Q₁, Q₃ = first and third quartiles |
+| Coefficient of QD | (Q₃ − Q₁)/(Q₃ + Q₁) | Relative comparison of spread |
+| Mean Deviation (about mean) | MD = Σ\|xᵢ − x̄\| / n | Average of absolute deviations |
+| Variance (Ungrouped) | σ² = Σ(xᵢ − x̄)² / n | Mean of squared deviations |
+| Variance (Shortcut) | σ² = (Σxᵢ²/n) − x̄² | Faster when mean is not a whole number |
+| Variance (Grouped) | σ² = Σfᵢ(xᵢ − x̄)² / Σfᵢ | Frequency distribution data |
+| Standard Deviation | σ = √Variance | Square root of variance |
+| Coefficient of Variation | CV = (σ/x̄) × 100 | Comparing consistency — lower CV = more consistent |
+
+## 4. Key Properties & Rules
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Effect on Mean | If each value ± k → mean ± k; if × k → mean × k | Quick recalculation after data change |
+| Effect on SD | Adding/subtracting k → SD unchanged; multiplying by k → SD × \|k\| | SD ignores shifts, scales with multiplication |
+| Sum of Deviations | Σ(xᵢ − x̄) = 0 | Checking whether a computed mean is correct |
+| Corrected Mean | Correct x̄ = (Σxᵢ − wrong value + correct value)/n | When one entry was misread |
+| Combined Variance | σ² = [n₁(σ₁² + d₁²) + n₂(σ₂² + d₂²)]/(n₁+n₂), dᵢ = x̄ᵢ − x̄ | Merging two groups' spread |
+
+## 5. Special Averages (Exam Favourites)
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Average of first n natural numbers | (n + 1)/2 | e.g., average of 1 to 50 = 25.5 |
+| Average of first n even numbers | n + 1 | 2, 4, 6, … |
+| Average of first n odd numbers | n | 1, 3, 5, … |
+| Average of consecutive numbers | (First + Last)/2 | Any arithmetic sequence |
+| Average Speed (equal distances) | 2xy/(x + y) | To-and-fro journeys at speeds x and y |
+
+## 6. Quartiles & Partition Values
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| First Quartile Q₁ | Value of ((n+1)/4)ᵗʰ term | Ordered ungrouped data |
+| Third Quartile Q₃ | Value of (3(n+1)/4)ᵗʰ term | Ordered ungrouped data |
+| Interquartile Range | IQR = Q₃ − Q₁ | Middle 50% of data |
+| Q₁ (Grouped) | l + [(N/4 − cf)/f] × h | Same pattern as median formula |
+| Q₃ (Grouped) | l + [(3N/4 − cf)/f] × h | Same pattern as median formula |
