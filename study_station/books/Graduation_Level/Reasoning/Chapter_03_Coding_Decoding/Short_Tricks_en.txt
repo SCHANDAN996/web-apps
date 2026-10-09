@@ -1,0 +1,32 @@
+BOX 1: The "A1Z26" Mnemonic
+"A1Z26 — A is 1, Z is 26!"
+Memorise the position of every letter: A=1, B=2, C=3 … M=13, N=14 … Z=26.
+Always convert letter → number (A=1), never the reverse (1=A). In coding-decoding questions, write the number under each letter first, then look for the pattern.
+
+BOX 2: The "±1" Mnemonic
+"Plus one forward, minus one back!"
+For alphabet-position questions: +1 means the next letter (A→B), −1 means the previous letter (B→A).
+Quick anchor points: E=5, J=10, O=15, T=20, Y=25 — from these, any letter's position is at most ±4 away, so you never need to count from A.
+
+BOX 3: The "Reverse Position" Trick
+"27 minus the position!"
+The reverse position of a letter = 27 − its normal position.
+Example: C = 3, so reverse C = 27 − 3 = 24 = X.
+Useful pairs to memorise: A↔Z, B↔Y, C↔X, D↔W, E↔V, F↔U, G↔T, H↔S, I↔R, J↔Q, K↔P, L↔O, M↔N.
+
+BOX 4: The "EJOTY" Memory Hook
+"E-J-O-T-Y: 5-10-15-20-25!"
+These five letters sit at multiples of 5. Fix them in memory and every other position is a short step away:
+E=5, J=10, O=15, T=20, Y=25.
+Example: R comes 2 after O(15), so R=17 — no counting from A needed.
+
+BOX 5: Opposite-Letter Questions
+"Sum to 27!"
+If a code replaces every letter with its opposite (A↔Z, B↔Y …), the two positions always add to 27.
+Check fast: if the question pairs M with N (13+14=27), it is an opposite-letter code.
+
+BOX 6: Exam Time-Saver
+"Numbers first, pattern second!"
+Step 1: Write positions under every letter of the word and its code.
+Step 2: Check the common patterns in this order — (i) ±1/±2 shift, (ii) reverse order of letters, (iii) opposite letters (sum 27), (iv) position sum or difference.
+Most exam questions fall into one of these four types.
