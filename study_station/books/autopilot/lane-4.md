@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 10-10-2026 05:03 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
+**आख़िरी update:** 10-10-2026 05:19 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W1 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 62 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -46,20 +44,11 @@
 - Chapter 14 Sports (GK) — 2 बार
 - Chapter 22 Number Series (Maths) — 2 बार
 - Chapter 23 Quadratic Equations (Maths) — 2 बार
-- Chapter 20 Probability (Maths) — 1 बार
+- Chapter 20 Probability (Maths) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 04:01:47   [Probability] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
-10-10 04:01:47   [Probability] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-10-10 04:01:47   [Probability] written 2, failed 9; AI calls today 185/100000
-10-10 04:01:47 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_20_Probability after 159 min: todo ['Short_Tricks_en.txt', 'Set 02 en: todo', 'Set 02 hi: todo', 'Set 03 en: todo'] problems ['Content_en.txt: does not mention the chapter topic (probabil']
-10-10 04:01:50 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_20_Probability (TODO: todo 9, problems 1)
-10-10 04:03:52   [Quadratic_Equations] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-10-10 04:08:39   [Probability] wrote Short_Tricks_en.txt (10311 chars)
-10-10 04:09:52   [Quadratic_Equations] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-10-10 04:11:21   [Probability] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
 10-10 04:13:16   [Probability] Practice_en_Set_02.txt try 2: rejected (parsed 24 questions, numbers 26…50)
 10-10 04:14:47   [Quadratic_Equations] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 10-10 04:14:47   [Quadratic_Equations] written 6, failed 0; AI calls today 192/100000
@@ -91,4 +80,13 @@
 10-10 04:52:40   [Probability] Practice_en_Set_05.txt try 3: re-solve disagrees (Q110 key a vs re-solve ?)
 10-10 04:57:19   [Probability] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 10-10 05:03:37   [Probability] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+10-10 05:06:14   [Probability] Practice_en_Set_06.txt try 1: rejected (parsed 23 questions, numbers 126…149)
+10-10 05:09:16   [Probability] Practice_en_Set_06.txt try 2: rejected (parsed 23 questions, numbers 126…150)
+10-10 05:15:52   [Probability] Practice_en_Set_06.txt try 3: rejected (parsed 23 questions, numbers 126…150)
+10-10 05:17:59   [Probability] Practice_en_Set_06.txt try 4: rejected (parsed 24 questions, numbers 126…150)
+10-10 05:17:59   [Probability] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+10-10 05:17:59   [Probability] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+10-10 05:17:59   [Probability] written 4, failed 5; AI calls today 231/100000
+10-10 05:18:00 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_20_Probability after 76 min: todo ['Set 02 en: todo', 'Set 02 hi: todo', 'Set 03 hi: todo', 'Set 06 en: todo'] problems ['Content_en.txt: does not mention the chapter topic (probabil']
+10-10 05:18:00 worker 0: nothing left
 ```
