@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 06:34 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 06:49 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 19 Fill in Blanks Adv (12th English) | ✍️ लिख रहा है | 2 मिनट |
-| W2 | Chapter 20 Sentence Improvement Adv (12th English) | ✍️ लिख रहा है | 81 मिनट |
-| W3 | Chapter 21 Cloze Test (12th English) | ✍️ लिख रहा है | 7 मिनट |
-| W4 | Chapter 23 Sentence Arrangement (12th English) | ✍️ लिख रहा है | 5 मिनट |
-| W5 | Chapter 22 Para Jumbles (12th English) | ✍️ लिख रहा है | 9 मिनट |
+| W1 | Chapter 19 Fill in Blanks Adv (12th English) | ✍️ लिख रहा है | 17 मिनट |
+| W2 | Chapter 20 Sentence Improvement Adv (12th English) | ✍️ लिख रहा है | 97 मिनट |
+| W3 | Chapter 21 Cloze Test (12th English) | 🔎 review हो रहा है | 10 मिनट |
+| W4 | Chapter 23 Sentence Arrangement (12th English) | ✍️ लिख रहा है | 20 मिनट |
+| W5 | Chapter 22 Para Jumbles (12th English) | ✍️ लिख रहा है | 24 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -23,14 +23,14 @@
 | 10th Maths | 9 | 13 | 0 |
 | 10th English | 0 | 0 | 20 |
 | 12th Maths | 0 | 0 | 23 |
-| 12th GK | 8 | 0 | 16 |
+| 12th GK | 9 | 0 | 15 |
 | 12th Reasoning | 0 | 0 | 25 |
-| 12th English | 17 | 0 | 8 |
+| 12th English | 18 | 0 | 7 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 7 | 0 | 21 |
 | Graduation Reasoning | 1 | 0 | 29 |
 | Graduation English | 28 | 0 | 2 |
-| **कुल** | **111** | **13** | **172** |
+| **कुल** | **113** | **13** | **170** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -56,23 +56,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 06:22:38   [Sentence_Improvement_Adv] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-09-10 06:23:13   [Cloze_Test] Practice_en_Set_06.txt try 1: re-solve disagrees (Q145 key a vs re-solve ?)
-09-10 06:24:06   [Sentence_Improvement_Adv] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 06:24:19   [Cloze_Test] Practice_en_Set_06.txt try 2: rejected (parsed 0 questions, numbers -…-)
-09-10 06:24:28   [Spelling] review Important_Rules_hi.txt: 3 issue(s): - Rule 2 states "'c' के बाद भी 'ei' तब जब ध्वनि /eɪ/ हो" but the examples (neighbour, weigh, eight) have no
-09-10 06:25:07   [Cloze_Test] Practice_en_Set_06.txt try 3: rejected (parsed 0 questions, numbers -…-)
-09-10 06:25:09   [Spelling] review: 9 section(s) corrected, 0 failed
-09-10 06:25:09   [Spelling] written 9, failed 0; AI calls today 627/100000
-09-10 06:25:20 DONE 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_17_Spelling in 113 min → b4a95fe4
-09-10 06:25:21 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_22_Para_Jumbles (TODO: todo 26, problems 0)
-09-10 06:26:20   [Sentence_Improvement_Adv] Practice_en_Set_05.txt try 1: re-solve disagrees (Q114 key c vs re-solve a, Q117 key a vs re-solve b)
-09-10 06:26:30   [Para_Jumbles] wrote Content_en.txt (8249 chars)
-09-10 06:27:13   [Cloze_Test] Practice_en_Set_06.txt try 4: re-solve disagrees (Q146 key c vs re-solve a)
-09-10 06:27:13   [Cloze_Test] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
-09-10 06:27:13   [Cloze_Test] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-09-10 06:27:13   [Cloze_Test] written 24, failed 2; AI calls today 634/100000
-09-10 06:27:14 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_21_Cloze_Test after 60 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems []
 09-10 06:27:15 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_21_Cloze_Test (TODO: todo 2, problems 0)
 09-10 06:28:31   [Cloze_Test] Practice_en_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
 09-10 06:28:38   [Error_Spotting_Adv] review: 4 section(s) corrected, 0 failed
@@ -96,4 +79,21 @@
 09-10 06:33:59   [Sentence_Arrangement] wrote Mind_Map_en.txt (1454 chars)
 09-10 06:34:38   [Cloze_Test] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 09-10 06:34:46   [Sentence_Arrangement] wrote Mind_Map_hi.txt (1808 chars)
+09-10 06:35:50   [Sentence_Arrangement] wrote Flashcards_en.txt (4984 chars)
+09-10 06:36:54   [Cloze_Test] Practice_hi_Set_06.txt try 1: rejected (parsed 19 questions, numbers 126…146)
+09-10 06:37:44   [Sentence_Arrangement] wrote Flashcards_hi.txt (5110 chars)
+09-10 06:37:49   [Fill_in_Blanks_Adv] Practice_en_Set_04.txt try 1: re-solve disagrees (Q76 key c vs re-solve b)
+09-10 06:39:19   [Cloze_Test] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+09-10 06:39:19   [Cloze_Test] written 2, failed 0; AI calls today 658/100000
+09-10 06:41:07   [Fill_in_Blanks_Adv] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 06:42:25   [Fill_in_Blanks_Adv] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 06:43:42   [Sentence_Arrangement] PYQ_en.txt try 1: rejected (corrupted characters)
+09-10 06:45:52   [Fill_in_Blanks_Adv] Practice_en_Set_05.txt try 1: re-solve disagrees (Q114 key b vs re-solve c)
+09-10 06:46:33   [Sentence_Improvement_Adv] FAILED Practice_hi_Set_05.txt: too_long
+09-10 06:46:37   [Cloze_Test] review Feynman_hi.txt: 2 issue(s): - "90% छात्र" का आँकड़ा बिना किसी स्रोत के दिया गया है → यह आविष्कृत संख्या है, इसे हटाएँ या "अधिकांश छात्र" जैसे अ
+09-10 06:48:02   [Sentence_Arrangement] PYQ_en.txt try 2: rejected (corrupted characters)
+09-10 06:48:02   [Sentence_Arrangement] REJECTED PYQ_en.txt: corrupted characters — not written
+09-10 06:49:05   [Cloze_Test] review Flashcards_en.txt: 1 issue(s): - File content is corrupted/unreadable: contains only formatting artifacts (repeated "Card", "Front", "Back", "<
+09-10 06:49:06   [Fill_in_Blanks_Adv] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 06:49:43   [Sentence_Arrangement] wrote PYQ_hi.txt (7438 chars)
 ```
