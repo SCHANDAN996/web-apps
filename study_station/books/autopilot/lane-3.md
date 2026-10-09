@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 12:31 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 12:46 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 06 Order Ranking (12th Reasoning) | ✍️ लिख रहा है | 50 मिनट |
-| W2 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 62 मिनट |
-| W3 | Chapter 04 Blood Relations (12th Reasoning) | ✍️ लिख रहा है | 63 मिनट |
-| W4 | Chapter 03 Coding Decoding (12th Reasoning) | ✍️ लिख रहा है | 108 मिनट |
-| W5 | Chapter 02 Classification (12th Reasoning) | 🔎 review हो रहा है | 24 मिनट |
+| W1 | Chapter 06 Order Ranking (12th Reasoning) | ✍️ लिख रहा है | 65 मिनट |
+| W2 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 77 मिनट |
+| W3 | Chapter 04 Blood Relations (12th Reasoning) | ✍️ लिख रहा है | 78 मिनट |
+| W4 | Chapter 03 Coding Decoding (12th Reasoning) | ✍️ लिख रहा है | 123 मिनट |
+| W5 | Chapter 02 Classification (12th Reasoning) | 🔎 review हो रहा है | 39 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -49,16 +49,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 12:03:15   [Coding_Decoding] Practice_en_Set_02.txt try 4: re-solve disagrees (Q34 key b vs re-solve d, Q44 key b vs re-solve a)
-09-10 12:03:15   [Coding_Decoding] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
-09-10 12:03:15   [Coding_Decoding] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
-09-10 12:03:46   [Coding_Decoding] Practice_en_Set_03.txt try 1: rejected (parsed 1 questions, numbers 51…51)
-09-10 12:03:48   [Order_Ranking] wrote Important_Rules_hi.txt (2959 chars)
-09-10 12:03:56   [Classification] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-09-10 12:05:13   [Blood_Relations] wrote Short_Tricks_hi.txt (4984 chars)
-09-10 12:06:01   [Coding_Decoding] Practice_en_Set_03.txt try 2: rejected (Q54:answer_solution_conflict,Q57:leaked_reasoning,Q71:leaked_reasoning,Q55:duplicate_options,Q64:duplicate_opt
-09-10 12:06:40   [Classification] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-09-10 12:06:40   [Classification] written 3, failed 0; AI calls today 407/100000
 09-10 12:06:47   [Order_Ranking] Practice_en_Set_01.txt try 1: rejected (Q22:leaked_reasoning,Q23:leaked_reasoning)
 09-10 12:07:14   [Blood_Relations] Important_Rules_en.txt try 1: rejected (corrupted characters)
 09-10 12:07:48   [Blood_Relations] wrote Important_Rules_en.txt (3066 chars)
@@ -89,4 +79,14 @@
 09-10 12:27:28   [Coding_Decoding] Practice_en_Set_04.txt try 1: rejected (Q98:leaked_reasoning,Q85:duplicate_options)
 09-10 12:28:51   [Order_Ranking] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 09-10 12:30:00   [Direction_Sense] Practice_en_Set_01.txt try 1: rejected (Q4:leaked_reasoning,Q7:leaked_reasoning,Q10:leaked_reasoning,Q13:leaked_reasoning,Q23:leaked_reasoning)
+09-10 12:31:49   [Classification] review Flashcards_hi.txt: 2 issue(s): - Card 10 explanation claims that in the series CE, FH, IK, LN “अन्य सभी में पहला अक्षर विषम स्थान पर है” — this
+09-10 12:35:41   [Order_Ranking] Practice_hi_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 12:38:40   [Classification] review PYQ_en.txt: 2 issue(s): - Q6 solution: The explanation claims the odd-one-out pattern is "starting from an odd letter" for CE, KM, PR, but PR s
+09-10 12:39:04   [Order_Ranking] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 12:39:09   [Order_Ranking] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 12:41:51   [Blood_Relations] FAILED Important_Rules_hi.txt: too_long
+09-10 12:43:35   [Blood_Relations] Practice_en_Set_01.txt try 1: rejected (Q12:leaked_reasoning,Q21:leaked_reasoning)
+09-10 12:45:06   [Classification] review PYQ_hi.txt: 1 issue(s): - In Question 3 explanation, it is incorrectly stated that the first letter position 16 (P) is odd (विषम स्थान) → 16 is
+09-10 12:45:43   [Blood_Relations] Practice_en_Set_01.txt try 2: rejected (Q21:leaked_reasoning)
+09-10 12:46:23   [Coding_Decoding] Practice_en_Set_04.txt try 2: re-solve disagrees (Q81 key b vs re-solve a)
 ```
