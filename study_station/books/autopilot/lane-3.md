@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 11:53 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
+**आख़िरी update:** 10-10-2026 12:08 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 16 Statement Conclusion (12th Reasoning) | ✍️ लिख रहा है | 84 मिनट |
-| W3 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 204 मिनट |
-| W6 | Chapter 08 Puzzles (12th Reasoning) | 📤 push हो रहा है | 0 मिनट |
-| W7 | Chapter 11 Series (12th Reasoning) | 🔎 review हो रहा है | 18 मिनट |
-| W8 | Chapter 10 Clock Calendar (12th Reasoning) | ✍️ लिख रहा है | 275 मिनट |
+| W2 | Chapter 16 Statement Conclusion (12th Reasoning) | ✍️ लिख रहा है | 99 मिनट |
+| W7 | Chapter 11 Series (12th Reasoning) | 🔎 review हो रहा है | 33 मिनट |
+| W8 | Chapter 10 Clock Calendar (12th Reasoning) | ✍️ लिख रहा है | 290 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -44,20 +42,15 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 05 Direction Sense (Reasoning) — 2 बार
-- Chapter 08 Puzzles (Reasoning) — 1 बार
 - Chapter 11 Series (Reasoning) — 1 बार
 - Chapter 07 Sitting Arrangement (Reasoning) — 1 बार
 - Chapter 14 Alphabet Questions (Reasoning) — 1 बार
 - Chapter 15 Mathematical Operations (Reasoning) — 1 बार
+- Chapter 13 Dictionary Order (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 23:22:53   [Dictionary_Order] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
-09-10 23:22:53   [Dictionary_Order] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
-09-10 23:23:40   [Statement_Conclusion] wrote PYQ_hi.txt (8851 chars)
-09-10 23:23:53   [Mathematical_Operations] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 23:24:37   [Clock_Calendar] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 09-10 23:25:02   [Alphabet_Questions] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 09-10 23:25:02   [Alphabet_Questions] written 19, failed 6; AI calls today 496/100000
 09-10 23:25:02 NOT OK 12th_Level/Reasoning/Chapter_14_Alphabet_Questions after 174 min: todo ['Set 02 en: todo', 'Set 02 hi: todo', 'Set 04 en: todo', 'Set 04 hi: todo'] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
@@ -93,4 +86,9 @@
 09-10 23:53:59   [Dictionary_Order] written 15, failed 10; AI calls today 525/100000
 09-10 23:53:59 NOT OK 12th_Level/Reasoning/Chapter_13_Dictionary_Order after 205 min: todo ['Set 02 en: todo', 'Set 02 hi: todo', 'Set 03 en: todo', 'Set 03 hi: todo'] problems ['PYQ_hi.txt: much shorter than the English section (447 vs 13']
 09-10 23:53:59 worker 2: nothing left
+09-10 23:54:11 DONE 12th_Level/Reasoning/Chapter_08_Puzzles in 104 min → de5fc1f3
+09-10 23:54:11 worker 5: nothing left
+09-10 23:56:40   [Statement_Conclusion] Practice_en_Set_02.txt try 1: re-solve disagrees (Q30 key b vs re-solve c, Q46 key d vs re-solve a)
+10-10 00:02:02   [Series] FAILED review Content_hi.txt: too_long — the chapter must not be published unreviewed
+10-10 00:08:00   [Statement_Conclusion] Practice_en_Set_02.txt try 2: re-solve disagrees (Q28 key c vs re-solve a, Q41 key a vs re-solve d)
 ```
