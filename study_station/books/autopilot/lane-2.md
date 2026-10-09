@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 04:52 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:38 AM
+**आख़िरी update:** 10-10-2026 04:59 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:38 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 21 Complex Numbers (Graduation Maths) | 📤 push हो रहा है | 0 मिनट |
-| W5 | Chapter 18 Quadratic Equations (Graduation Maths) | 🔎 review हो रहा है | 40 मिनट |
-| W6 | Chapter 24 Statistics (Graduation Maths) | ✍️ लिख रहा है | 50 मिनट |
-| W7 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 22 मिनट |
-| W8 | Chapter 26 Permutation Combination (Graduation Maths) | ✍️ लिख रहा है | 22 मिनट |
+| W6 | Chapter 24 Statistics (Graduation Maths) | ✍️ लिख रहा है | 57 मिनट |
+| W7 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 29 मिनट |
+| W8 | Chapter 26 Permutation Combination (Graduation Maths) | ✍️ लिख रहा है | 29 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -26,11 +24,11 @@
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 10 | 0 | 15 |
 | 12th English | 25 | 0 | 0 |
-| Graduation Maths | 16 | 1 | 11 |
+| Graduation Maths | 15 | 2 | 11 |
 | Graduation GK | 27 | 1 | 0 |
 | Graduation Reasoning | 13 | 0 | 17 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **236** | **4** | **56** |
+| **कुल** | **235** | **5** | **56** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -53,28 +51,15 @@
 - Chapter 13 Mixture Alligation (Maths) — 2 बार
 - Chapter 15 Geometry (Maths) — 2 बार
 - Chapter 17 Algebra (Maths) — 2 बार
-- Chapter 18 Quadratic Equations (Maths) — 1 बार
+- Chapter 18 Quadratic Equations (Maths) — 2 बार
 - Chapter 20 Heights Distances (Maths) — 2 बार
 - Chapter 19 Trigonometry (Maths) — 2 बार
-- Chapter 21 Complex Numbers (Maths) — 1 बार
 - Chapter 22 Calculus (Maths) — 1 बार
 - Chapter 23 Data Interpretation (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 04:40:05   [Data_Interpretation] Practice_en_Set_06.txt try 2: re-solve disagrees (Q135 key d vs re-solve ?)
-10-10 04:40:40   [Probability] wrote PYQ_en.txt (7867 chars)
-10-10 04:42:46   [Trigonometry] Practice_hi_Set_05.txt try 4: rejected (parsed 24 questions, numbers 101…124)
-10-10 04:42:46   [Trigonometry] REJECTED Practice_hi_Set_05.txt: no translation passed the checks — not written
-10-10 04:42:50   [Calculus] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-10-10 04:42:50   [Complex_Numbers] review Flashcards_en.txt: 1 issue(s): - In Card 2 back, the phrase "Powers of i repeat in a. CGL Tier" is nonsensical and grammatically incorrect → "P
-10-10 04:43:03   [Data_Interpretation] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-10-10 04:43:29   [Probability] wrote PYQ_hi.txt (8033 chars)
-10-10 04:44:19   [Quadratic_Equations] FAILED review PYQ_hi.txt: too_long — the chapter must not be published unreviewed
-10-10 04:45:19   [Probability] wrote Short_Tricks_en.txt (8642 chars)
-10-10 04:45:25   [Statistics] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-10-10 04:45:26   [Calculus] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 10-10 04:45:26   [Calculus] written 24, failed 1; AI calls today 780/100000
 10-10 04:45:26 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_22_Calculus after 105 min: todo ['Content_en.txt'] problems ['Feynman_hi.txt: much shorter than the English section (2369 ']
 10-10 04:45:26 worker 0: nothing left
@@ -103,4 +88,16 @@
 10-10 04:52:41 worker 3: nothing left
 10-10 04:52:43   [Complex_Numbers] review: 5 section(s) corrected, 0 failed
 10-10 04:52:43   [Complex_Numbers] written 5, failed 0; AI calls today 801/100000
+10-10 04:53:05 DONE Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_21_Complex_Numbers in 28 min → 8de9a0b4
+10-10 04:53:05 worker 2: nothing left
+10-10 04:53:20   [Statistics] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+10-10 04:53:46   [Probability] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 04:53:49   [Quadratic_Equations] review Important_Formulas_hi.txt: 1 issue(s): - α − β formula states √[(α+β)² − 4αβ] = √D / a, which is missing ± or absolute value → should be α − β 
+10-10 04:54:48   [Quadratic_Equations] review: 5 section(s) corrected, 1 failed
+10-10 04:54:48   [Quadratic_Equations] written 5, failed 1; AI calls today 805/100000
+10-10 04:54:48 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_18_Quadratic_Equations after 45 min: todo [] problems ['Important_Formulas_hi.txt: much shorter than the English sec']
+10-10 04:54:48 worker 4: nothing left
+10-10 04:55:32   [Probability] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+10-10 04:56:18   [Probability] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 04:57:33   [Probability] Practice_en_Set_02.txt try 2: rejected (parsed 20 questions, numbers 26…50)
 ```
