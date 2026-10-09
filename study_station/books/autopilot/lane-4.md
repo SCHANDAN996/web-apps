@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 12:15 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 12:31 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 LCM HCF (12th Maths) | ✍️ लिख रहा है | 12 मिनट |
-| W2 | Chapter 23 Economic Terms (12th GK) | ✍️ लिख रहा है | 90 मिनट |
-| W3 | Chapter 24 Reports Indices (12th GK) | ✍️ लिख रहा है | 63 मिनट |
-| W4 | Chapter 25 Govt Schemes (12th GK) | ✍️ लिख रहा है | 59 मिनट |
-| W5 | Chapter 01 Number System (12th Maths) | ✍️ लिख रहा है | 54 मिनट |
+| W1 | Chapter 02 LCM HCF (12th Maths) | ✍️ लिख रहा है | 27 मिनट |
+| W2 | Chapter 23 Economic Terms (12th GK) | 🔎 review हो रहा है | 6 मिनट |
+| W3 | Chapter 24 Reports Indices (12th GK) | ✍️ लिख रहा है | 78 मिनट |
+| W4 | Chapter 25 Govt Schemes (12th GK) | ✍️ लिख रहा है | 74 मिनट |
+| W5 | Chapter 01 Number System (12th Maths) | ✍️ लिख रहा है | 70 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -23,14 +23,14 @@
 | 10th Maths | 9 | 13 | 0 |
 | 10th English | 0 | 0 | 20 |
 | 12th Maths | 0 | 0 | 23 |
-| 12th GK | 17 | 2 | 5 |
+| 12th GK | 18 | 2 | 4 |
 | 12th Reasoning | 0 | 0 | 25 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 16 | 0 | 12 |
+| Graduation GK | 17 | 0 | 11 |
 | Graduation Reasoning | 3 | 0 | 27 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **138** | **15** | **143** |
+| **कुल** | **140** | **15** | **141** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -48,33 +48,11 @@
 - Chapter 03 Modern History (GK) — 2 बार
 - Chapter 18 Science Tech (GK) — 2 बार
 - Chapter 21 International Orgs (GK) — 2 बार
+- Chapter 23 Economic Terms (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 11:55:03   [Defence] review Memory_Hooks_en.txt: 1 issue(s): - Box 13 heading "7-3-3" contradicts the content which states Army 7, Navy 3, Air Force 7 → change heading to 
-09-10 11:55:17   [Reports_Indices] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-09-10 11:55:46   [Number_System] Short_Tricks_hi.txt try 1: rejected (corrupted characters)
-09-10 11:56:02   [Economic_Terms] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-09-10 11:56:33   [Govt_Schemes] FAILED PYQ_en.txt: rate_limited
-09-10 11:58:48   [Number_System] wrote Short_Tricks_hi.txt (8605 chars)
-09-10 11:59:40   [Number_System] wrote Important_Formulas_en.txt (3399 chars)
-09-10 11:59:59   [Reports_Indices] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-09-10 12:00:34   [Defence] review Memory_Hooks_hi.txt: 1 issue(s): - Invented exam statistic: "रक्षा अध्याय में 70% प्रश्न बुनियादी तथ्यों ... से आते हैं — इन्हें पक्का करें। बच
-09-10 12:00:35   [Govt_Schemes] wrote PYQ_hi.txt (7793 chars)
-09-10 12:01:03   [Number_System] wrote Important_Formulas_hi.txt (5307 chars)
-09-10 12:01:12   [Economic_Terms] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 12:02:05   [Govt_Schemes] wrote Memory_Hooks_en.txt (6827 chars)
-09-10 12:02:07   [Reports_Indices] Practice_hi_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 12:02:32   [Economic_Terms] Practice_en_Set_05.txt try 1: rejected (parsed 2 questions, numbers 101…102)
-09-10 12:03:15   [Defence] review: 6 section(s) corrected, 0 failed
-09-10 12:03:15   [Defence] written 6, failed 0; AI calls today 416/100000
-09-10 12:03:31 DONE 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_22_Defence in 140 min → b2df29ef
-09-10 12:03:32 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_02_LCM_HCF (TODO: todo 25, problems 0)
-09-10 12:04:05   [LCM_HCF] wrote Content_en.txt (486 chars)
-09-10 12:04:56   [Govt_Schemes] wrote Memory_Hooks_hi.txt (6702 chars)
-09-10 12:05:11   [Economic_Terms] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-09-10 12:05:12   [Reports_Indices] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 09-10 12:05:53   [Reports_Indices] Practice_en_Set_04.txt try 1: rejected (parsed 1 questions, numbers 76…76)
 09-10 12:06:35   [LCM_HCF] wrote Content_hi.txt (7522 chars)
 09-10 12:07:13   [LCM_HCF] Feynman_en.txt try 1: rejected (chat debris "Here's the")
@@ -92,4 +70,27 @@
 09-10 12:12:56   [Reports_Indices] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 09-10 12:14:51   [Number_System] Practice_en_Set_02.txt try 1: rejected (Q41:leaked_reasoning,Q45:leaked_reasoning)
 09-10 12:15:08   [LCM_HCF] wrote Mind_Map.txt (2706 chars)
+09-10 12:16:17   [Reports_Indices] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 12:20:26   [Number_System] Practice_en_Set_02.txt try 2: re-solve disagrees (Q32 key c vs re-solve a)
+09-10 12:20:38   [Economic_Terms] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+09-10 12:20:38   [Economic_Terms] written 24, failed 1; AI calls today 446/100000
+09-10 12:20:39 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_23_Economic_Terms after 95 min: todo ['Set 03 hi: todo'] problems []
+09-10 12:20:40 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_23_Economic_Terms (TODO: todo 1, problems 0)
+09-10 12:22:42   [Reports_Indices] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 12:22:53   [Reports_Indices] Practice_en_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 12:24:24   [Economic_Terms] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 12:24:24   [Economic_Terms] written 1, failed 0; AI calls today 451/100000
+09-10 12:24:48   [Number_System] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+09-10 12:25:02   [Reports_Indices] Practice_en_Set_06.txt try 2: re-solve disagrees (Q141 key a vs re-solve c)
+09-10 12:25:38   [Economic_Terms] review Content_en.txt: 1 issue(s): - Hindi term for Demonetisation given as 'अमूल्यन' → should be 'विमुद्रीकरण'
+09-10 12:26:43   [Number_System] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 12:27:11   [Reports_Indices] Practice_en_Set_06.txt try 3: re-solve disagrees (Q141 key c vs re-solve a)
+09-10 12:29:12   [Number_System] Practice_en_Set_03.txt try 1: rejected (Q60:leaked_reasoning,Q62:leaked_reasoning,Q66:leaked_reasoning,Q67:answer_solution_conflict)
+09-10 12:29:15   [Reports_Indices] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 12:29:41   [LCM_HCF] Flashcards_en.txt try 1: answer too long — asking for a tighter version
+09-10 12:29:49   [Govt_Schemes] FAILED Practice_en_Set_02.txt: too_long
+09-10 12:29:49   [Govt_Schemes] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+09-10 12:30:16   [Economic_Terms] review Content_hi.txt: 2 issue(s): - "GDP की गणना अब 2011-12 को आधार वर्ष मानकर की जाती है" uses "अब" without a year reference → add a year context, e
+09-10 12:30:33   [LCM_HCF] wrote Flashcards_en.txt (2826 chars)
+09-10 12:31:02   [Number_System] Practice_en_Set_03.txt try 2: rejected (Q60:leaked_reasoning,Q62:answer_solution_conflict,Q66:leaked_reasoning,Q67:answer_solution_conflict)
 ```
