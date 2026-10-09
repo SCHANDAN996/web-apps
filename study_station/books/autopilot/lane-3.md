@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 11:15 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 11:30 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 25 Word Roots (12th English) | 🔎 review हो रहा है | 0 मिनट |
-| W2 | Chapter 01 Analogy (12th Reasoning) | 🔎 review हो रहा है | 19 मिनट |
-| W3 | Chapter 22 Para Jumbles (12th English) | ✍️ लिख रहा है | 53 मिनट |
-| W4 | Chapter 03 Coding Decoding (12th Reasoning) | ✍️ लिख रहा है | 32 मिनट |
-| W5 | Chapter 02 Classification (12th Reasoning) | ✍️ लिख रहा है | 81 मिनट |
+| W1 | Chapter 25 Word Roots (12th English) | 🔎 review हो रहा है | 15 मिनट |
+| W2 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 1 मिनट |
+| W3 | Chapter 04 Blood Relations (12th Reasoning) | ✍️ लिख रहा है | 2 मिनट |
+| W4 | Chapter 03 Coding Decoding (12th Reasoning) | ✍️ लिख रहा है | 47 मिनट |
+| W5 | Chapter 02 Classification (12th Reasoning) | ✍️ लिख रहा है | 96 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -23,14 +23,14 @@
 | 10th Maths | 9 | 13 | 0 |
 | 10th English | 0 | 0 | 20 |
 | 12th Maths | 0 | 0 | 23 |
-| 12th GK | 14 | 0 | 10 |
+| 12th GK | 15 | 0 | 9 |
 | 12th Reasoning | 1 | 0 | 24 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 15 | 0 | 13 |
 | Graduation Reasoning | 3 | 0 | 27 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **135** | **13** | **148** |
+| **कुल** | **136** | **13** | **147** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -41,40 +41,13 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 23 Sentence Arrangement (English) — 2 बार
-- Chapter 22 Para Jumbles (English) — 1 बार
-- Chapter 01 Analogy (Reasoning) — 1 बार
+- Chapter 22 Para Jumbles (English) — 2 बार
+- Chapter 01 Analogy (Reasoning) — 2 बार
 - Chapter 25 Word Roots (English) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 10:51:06   [Analogy] Practice_en_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 10:51:38   [Classification] Practice_hi_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 10:51:54   [Coding_Decoding] wrote Flashcards_hi.txt (4344 chars)
-09-10 10:52:57   [Analogy] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-09-10 10:53:36   [Para_Jumbles] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-09-10 10:53:59   [Coding_Decoding] wrote PYQ_en.txt (10123 chars)
-09-10 10:54:00   [Classification] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-09-10 10:55:57   [Analogy] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-09-10 10:55:57   [Analogy] written 5, failed 0; AI calls today 278/100000
-09-10 10:56:53   [Coding_Decoding] wrote PYQ_hi.txt (7935 chars)
-09-10 10:57:25   [Word_Roots] FAILED Practice_hi_Set_05.txt: too_long
-09-10 10:57:56   [Coding_Decoding] wrote Short_Tricks_en.txt (4933 chars)
-09-10 10:58:22   [Classification] Practice_en_Set_03.txt try 1: rejected (Q52:leaked_reasoning,Q57:leaked_reasoning,Q63:leaked_reasoning,Q64:leaked_reasoning,Q70:leaked_reasoning)
-09-10 10:58:26   [Analogy] review Content_en.txt: 1 issue(s): - The example in Trap 3 (Apple : Fruit with options Mango : Tree and Carrot : Vegetable) does not illustrate the de
-09-10 10:59:18   [Coding_Decoding] wrote Short_Tricks_hi.txt (4304 chars)
-09-10 10:59:58   [Coding_Decoding] wrote Important_Rules_en.txt (3794 chars)
-09-10 11:01:04   [Analogy] REJECTED review fix Content_en.txt: corrupted characters
-09-10 11:02:19   [Word_Roots] Practice_en_Set_06.txt try 1: re-solve disagrees (Q129 key a vs re-solve c, Q141 key d vs re-solve a)
-09-10 11:02:22   [Analogy] review Content_hi.txt: 2 issue(s): - In the word analogy table, row 4 (कारक–कार्य / Cause–Effect) the example is malformed with extraneous note "बीमार
-09-10 11:02:44   [Coding_Decoding] wrote Important_Rules_hi.txt (3354 chars)
-09-10 11:05:17   [Analogy] review Feynman_en.txt: 1 issue(s): - The "Make a Sentence" example claims that tightening the sentence to "a knife is a tool used to cut" leaves only 
-09-10 11:05:46   [Coding_Decoding] Practice_en_Set_01.txt try 1: rejected (Q4:duplicate_options,Q7:duplicate_options,Q10:duplicate_options,Q18:duplicate_options,Q21:duplicate_options)
-09-10 11:06:35   [Word_Roots] Practice_en_Set_06.txt try 2: re-solve disagrees (Q129 key d vs re-solve a)
-09-10 11:08:19   [Analogy] review Flashcards_en.txt: 1 issue(s): - Card 8: The trap explanation incorrectly claims that "×4 (if you misread 36 as 48)" tempts you, but 12×4=48 do
-09-10 11:08:38   [Classification] Practice_en_Set_03.txt try 2: re-solve disagrees (Q51 key d vs re-solve c)
-09-10 11:08:54   [Para_Jumbles] Practice_en_Set_06.txt try 1: re-solve disagrees (Q127 key c vs re-solve a, Q131 key b vs re-solve a, Q133 key d vs re-solve b, Q137 key d vs re-solve
-09-10 11:09:37   [Word_Roots] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 09-10 11:09:56   [Classification] Practice_en_Set_03.txt try 3: rejected (parsed 0 questions, numbers -…-)
 09-10 11:11:34   [Word_Roots] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 09-10 11:11:34   [Word_Roots] written 24, failed 2; AI calls today 310/100000
@@ -88,4 +61,31 @@
 09-10 11:14:38   [Para_Jumbles] Practice_en_Set_06.txt try 2: re-solve disagrees (Q127 key d vs re-solve a, Q148 key a vs re-solve b)
 09-10 11:14:55   [Word_Roots] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 09-10 11:14:55   [Word_Roots] written 2, failed 0; AI calls today 317/100000
+09-10 11:15:43   [Classification] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 11:17:36   [Classification] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 11:18:27   [Analogy] review Short_Tricks_en.txt: 1 issue(s): - Box 5: "Horse : Mare" given as male:female example → Horse is gender-neutral; male horse is stallion, so cor
+09-10 11:18:33   [Coding_Decoding] Practice_en_Set_01.txt try 2: re-solve disagrees (Q15 key c vs re-solve a)
+09-10 11:19:47   [Word_Roots] review Feynman_en.txt: 1 issue(s): - Invented exam statistic: the claim that SSC/Banking/Railway vocabulary questions use words from the same “40–50 G
+09-10 11:20:52   [Word_Roots] review Mind_Map_en.txt: 2 issue(s): - "Fact-based recall = 15 sec" → invented timing statistic with no source or exam reference
+09-10 11:20:54   [Para_Jumbles] Practice_en_Set_06.txt try 3: re-solve disagrees (Q127 key d vs re-solve a, Q148 key a vs re-solve b)
+09-10 11:23:14   [Classification] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 11:25:32   [Analogy] REJECTED review fix Short_Tricks_en.txt: corrupted characters
+09-10 11:25:55   [Classification] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 11:26:18   [Classification] Practice_en_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 11:26:42   [Classification] Practice_en_Set_06.txt try 2: rejected (parsed 2 questions, numbers 126…127)
+09-10 11:26:55   [Analogy] review Short_Tricks_hi.txt: 3 issue(s): - Trick 3 claims "90% संख्या-प्रश्न इन्हीं तीन में सुलझ जाते हैं" → invented statistic without source; remove 
+09-10 11:27:50   [Para_Jumbles] Practice_en_Set_06.txt try 4: re-solve disagrees (Q127 key b vs re-solve a, Q148 key d vs re-solve b)
+09-10 11:27:50   [Para_Jumbles] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+09-10 11:27:50   [Para_Jumbles] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+09-10 11:27:50   [Para_Jumbles] written 2, failed 2; AI calls today 346/100000
+09-10 11:27:50 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_22_Para_Jumbles after 66 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems []
+09-10 11:27:52 START 12th_Level/Reasoning/Chapter_04_Blood_Relations (TODO: todo 25, problems 0)
+09-10 11:28:28   [Word_Roots] review Short_Tricks_en.txt: 2 issue(s): - Trick 3: "MILLI=1000 (millennium)" is wrong; milli- means one-thousandth (1/1000), not 1000. The prefix for 
+09-10 11:28:31   [Classification] Practice_en_Set_06.txt try 3: rejected (parsed 0 questions, numbers -…-)
+09-10 11:29:11   [Analogy] review: 5 section(s) corrected, 2 failed
+09-10 11:29:11   [Analogy] written 5, failed 2; AI calls today 351/100000
+09-10 11:29:11 NOT OK 12th_Level/Reasoning/Chapter_01_Analogy after 45 min: todo [] problems []
+09-10 11:29:11   [Blood_Relations] Content_en.txt try 1: rejected (chat debris "Here is the")
+09-10 11:29:12 START 12th_Level/Reasoning/Chapter_05_Direction_Sense (TODO: todo 25, problems 0)
+09-10 11:30:29   [Blood_Relations] wrote Content_en.txt (6103 chars)
 ```
