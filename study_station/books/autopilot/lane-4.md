@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 03:39 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 03:54 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 LCM HCF (12th Maths) | ✍️ लिख रहा है | 48 मिनट |
-| W2 | Chapter 05 Percentage (12th Maths) | ✍️ लिख रहा है | 34 मिनट |
-| W3 | Chapter 04 Fractions Decimals (12th Maths) | ✍️ लिख रहा है | 37 मिनट |
-| W4 | Chapter 01 Number System (12th Maths) | 🔎 review हो रहा है | 12 मिनट |
-| W5 | Chapter 03 Simplification (12th Maths) | ✍️ लिख रहा है | 46 मिनट |
+| W1 | Chapter 02 LCM HCF (12th Maths) | ✍️ लिख रहा है | 63 मिनट |
+| W2 | Chapter 05 Percentage (12th Maths) | ✍️ लिख रहा है | 49 मिनट |
+| W3 | Chapter 04 Fractions Decimals (12th Maths) | ✍️ लिख रहा है | 53 मिनट |
+| W4 | Chapter 01 Number System (12th Maths) | 🔎 review हो रहा है | 27 मिनट |
+| W5 | Chapter 03 Simplification (12th Maths) | ✍️ लिख रहा है | 61 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -48,18 +48,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 15:12:37   [Number_System] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 15:13:16   [Fractions_Decimals] wrote Feynman_hi.txt (2144 chars)
-09-10 15:13:56   [Percentage] wrote Flashcards_en.txt (3733 chars)
-09-10 15:14:44   [Fractions_Decimals] wrote Mind_Map.txt (2112 chars)
-09-10 15:14:50   [LCM_HCF] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-09-10 15:15:04   [Number_System] Practice_en_Set_06.txt try 1: rejected (Q136:leaked_reasoning,Q139:leaked_reasoning,Q143:leaked_reasoning,Q146:leaked_reasoning,Q148:leaked_reasoning)
-09-10 15:15:59   [Percentage] wrote Flashcards_hi.txt (2215 chars)
-09-10 15:17:30   [Fractions_Decimals] wrote Flashcards_en.txt (3686 chars)
-09-10 15:18:03   [LCM_HCF] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 15:19:06   [Fractions_Decimals] wrote Flashcards_hi.txt (3481 chars)
-09-10 15:20:24   [Percentage] PYQ_en.txt try 1: rejected (corrupted characters)
-09-10 15:20:34   [Fractions_Decimals] wrote PYQ_en.txt (7128 chars)
 09-10 15:20:44   [Number_System] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 09-10 15:21:48   [Percentage] wrote PYQ_en.txt (7229 chars)
 09-10 15:23:58   [Fractions_Decimals] wrote PYQ_hi.txt (6570 chars)
@@ -88,4 +76,16 @@
 09-10 15:34:33   [Number_System] review Mind_Map.txt: 1 issue(s): - "प्राकृत" for Natural numbers is incorrect Hindi term → should be "प्राकृतिक"
 09-10 15:34:37   [Percentage] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 09-10 15:34:59   [Fractions_Decimals] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 15:39:39   [Fractions_Decimals] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 15:41:43   [Fractions_Decimals] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+09-10 15:43:20   [Fractions_Decimals] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 15:45:29   [LCM_HCF] Practice_en_Set_06.txt try 1: re-solve disagrees (Q127 key b vs re-solve a, Q133 key c vs re-solve a)
+09-10 15:47:47   [Fractions_Decimals] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 15:48:08   [Number_System] review PYQ_hi.txt: 1 issue(s): - Question 4 answer claims 67 is the smallest number leaving remainder 7 when divided by 12, 15, 20; but 7 also satisfi
+09-10 15:49:49   [Fractions_Decimals] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 15:50:51   [LCM_HCF] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 15:51:57   [Fractions_Decimals] Practice_en_Set_04.txt try 1: rejected (Q76:leaked_reasoning,Q78:leaked_reasoning,Q85:leaked_reasoning)
+09-10 15:52:49   [LCM_HCF] Practice_hi_Set_06.txt try 1: rejected (parsed 12 questions, numbers 126…137)
+09-10 15:53:02   [Simplification] PYQ_en.txt try 1: answer too long — asking for a tighter version
+09-10 15:53:48   [Percentage] FAILED Practice_hi_Set_01.txt: too_long
 ```
