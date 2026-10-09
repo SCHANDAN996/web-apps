@@ -1,0 +1,134 @@
+# 🪄 Short Tricks & Mnemonics — Order & Ranking
+
+---
+
+**Box 1 — The "Both Ends" Trap**
+> **"Two ends, minus one — or the person gets counted twice, son!"**
+
+Position from left + Position from right − 1 = Total.
+Mnemonic: **"L + R − 1 = Total fun!"**
+The person is counted in BOTH positions, so subtract 1. Forget the −1 and you fall into the examiner's favourite trap.
+
+---
+
+**Box 2 — Rank from the Other End**
+> **"Flip the rank: Total − Rank + 1"**
+
+If Ravi is 8th from top in a class of 40, from bottom he is 40 − 8 + 1 = 33rd.
+Mnemonic: **"Minus, then PLUS one — flip it and you're done!"**
+(Forgetting the +1 is the classic wrong answer sitting in the options.)
+
+---
+
+**Box 3 — The Middle Person Formula**
+> **"Between A and B? Subtract the ranks, minus one — that's the key!"**
+
+People between two persons = (difference of positions) − 1.
+Mnemonic: **"Gap minus one, the counting's done."**
+If A is 5th and B is 12th from the same end → 12 − 5 − 1 = 6 people between them.
+
+---
+
+**Box 4 — Overlap Case (Total Given, Find Between)**
+> **"Total minus both ranks — what's left stands between the banks!"**
+
+If A is 7th from left, B is 9th from right, total = 25:
+People between = 25 − 7 − 9 = 9.
+Mnemonic: **"Whole minus the two ends, gives the middle friends."**
+
+---
+
+**Box 5 — The Overlap Warning Bell**
+> **"If ranks add up MORE than total — they've crossed! Overlap alert!"**
+
+When (position from left of A) + (position from right of B) > Total, the two have crossed each other.
+People between = (sum of ranks) − Total − 2.
+Mnemonic: **"Sum too big? They did a jig — subtract total, minus two!"**
+
+---
+
+**Box 6 — Interchange of Positions**
+> **"Swap and add — the new total isn't bad!"**
+
+When two people swap places and new positions are given:
+Total = (old position of one) + (new position of the other after swap) − 1.
+Mnemonic: **"Old plus new, minus one — swap problems are fun!"**
+
+---
+
+**Box 7 — Row of Boys AND Girls**
+> **"Count the certain, skip the rest — 'at least/at most' is the test!"**
+
+For minimum/maximum questions, place the confirmed people first, then stretch or squeeze the uncertain ones.
+Mnemonic: **"Fix the known, slide the unknown — min and max are quickly shown."**
+
+---
+
+**Box 8 — "Exactly in the Middle"**
+> **"Middle means equal on each side — total is ODD, let that be your guide!"**
+
+If someone is exactly in the middle at position M, total = 2M − 1.
+Mnemonic: **"Double the middle, drop a one — the total's done!"**
+(If the total comes out even, the question said "middle" loosely — recheck!)
+
+---
+
+**Box 9 — Taller/Shorter Chains**
+> **"Draw the ladder, top to bottom — arrows save you from the problem!"**
+
+For "A is taller than B but shorter than C" type chains, ALWAYS draw a vertical line and place letters.
+Mnemonic: **"Don't think it — INK it!"**
+One quick sketch beats three mental re-reads.
+
+---
+
+**Box 10 — The "Not" Trap**
+> **"NOT and EXCEPT wear a disguise — circle them or pay the price!"**
+
+In negative questions ("who is NOT taller than…"), physically circle the NOT in the question paper.
+Mnemonic: **"Circle the NOT, or lose the plot!"**
+
+---
+
+**Box 11 — Two Rows Facing Each Other**
+> **"Facing rows? Mirror it — left becomes right, just wear it!"**
+
+When one row faces north and another faces south, left-right flips for one of them.
+Mnemonic: **"Face to face, flip the place."**
+
+---
+
+**Box 12 — Quick Total from One Person**
+> **"One person, two sides — add and minus one, no more hides!"**
+
+If a single person's position from both ends is known (e.g., 12th from left, 15th from right):
+Total = 12 + 15 − 1 = 26.
+Mnemonic: **"Add the two, subtract the double-counted you!"**
+
+---
+
+**Box 13 — The 15-Second Sketch Rule**
+> **"If you can't sketch it in 15 seconds, the question owns YOU."**
+
+Every Order & Ranking question should reduce to a line diagram with positions marked. If your diagram isn't forming fast, that's your skip signal (see below).
+
+---
+
+**Box 14 — Options Are Your Friends**
+> **"Stuck on total? Test the options — plug and play!"**
+
+If total strength is asked and options are given, test each option against the two positions. The correct one satisfies L + R − 1.
+Mnemonic: **"When formulas stall, let options call."**
+
+---
+
+## ⏭️ Skip Strategy — When to Leave the Question
+
+**Tip 1 — The 15-Second Diagram Test:**
+If you cannot convert the question into a rough line/ladder diagram within 15 seconds of reading, **mark it and move on**. Order & Ranking questions are quick ONLY when the structure clicks immediately. Return in the second pass with fresh eyes.
+
+**Tip 2 — Multi-Condition Chains (3+ conditions):**
+Questions like "A is taller than B, B is shorter than C, D is taller than A but not the tallest…" with 4–5 people and multiple conditions eat 2–3 minutes. If your exam has negative marking and easier questions remain, **skip these on first pass** — they are accuracy-killers under time pressure.
+
+**Tip 3 — "Minimum/Maximum" Ambiguity:**
+If a question asks "at least how many…" and the placement of uncertain members isn't clear to you in one reading, **don't guess blindly**. These have the highest trap-rate. Attempt only if you can verify both boundary cases quickly; otherwise skip and bank your time on direct position-formula questions (Boxes 1–4), which are near-guaranteed marks.

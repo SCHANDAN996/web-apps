@@ -1,0 +1,116 @@
+# 📊 PYQ Analysis — Order & Ranking
+
+## 1. How Exams Test This Chapter (Pattern Analysis)
+
+Order & Ranking is a **permanent fixture** of the reasoning section in SSC (CGL, CHSL, MTS, GD), Banking (IBPS PO/Clerk, SBI), and Railway (NTPC, Group D) exams. Based on the pattern of official papers over the years, the following tendencies are clearly visible:
+
+**Sub-topics that recur most often:**
+
+1. **Position from both ends** — "Ravi is 12th from the left and 15th from the right; how many in the row?" This is the single most repeated format. Exams love it because it takes under 30 seconds if you know the formula (Total = Left + Right − 1).
+2. **Rank from top and bottom in a class** — same formula, vertical framing. Frequently combined with "how many students failed/passed" twists.
+3. **Interchange of positions** — "A and B interchange their positions; A becomes 10th from the left…" These require tracking two positions and appear regularly in SSC CGL and IBPS.
+4. **Number of persons between two people** — given both persons' positions from opposite ends. The trap version is when the sum of positions exceeds the total (overlapping case), where the answer is (sum − total − 2), not (total − sum − 1).
+5. **Comparison-based ranking** — "Mohan is taller than Sohan but shorter than Rohan…" — arranging 4–6 people by height/weight/marks. Banking exams favour this; SSC asks shorter 3–4 person versions.
+6. **Row of boys and girls / mixed conditions** — "In a row of girls, P is 8th from left; in a row of boys…" — less frequent but appears in CHSL and NTPC.
+
+**Exam-wise flavour (qualitative):**
+
+- **SSC CGL / CHSL:** Direct formula-based questions dominate; one question per paper is typical, occasionally two. Difficulty: easy to moderate.
+- **Banking (IBPS/SBI):** Ranking appears inside puzzle sets (5 people, heights + cities) in mains; in prelims, standalone quick questions. Comparison chains are common.
+- **Railway NTPC / Group D:** Very direct, formula-based; often the easiest question in the section.
+- **UPSC CSAT:** Rare, but when it appears it is wrapped in a paragraph with a logical twist — no formula shortcut.
+
+**Examiner's favourite traps (seen repeatedly):**
+
+- Forgetting the **−1** in Total = Left + Right − 1 (the person is counted twice).
+- The **overlapping "between" case**: when positions from two ends add up to more than the total, candidates blindly subtract and get a negative or wrong number.
+- **Interchange questions** where candidates update only one person's position.
+- Comparison chains with a **negative statement** ("X is NOT the shortest") — candidates misread it as "X is the tallest".
+- "How many are **between** them" vs "how many **including** them" — one word changes the answer by 2.
+
+---
+
+## 2. Top 10 High-Yield Questions (with Solutions & Trap Analysis)
+
+**Q1.** In a row of students, Anil is 14th from the left and 19th from the right. How many students are in the row?
+(a) 31 (b) 32 (c) 33 (d) 34
+**Answer: (b)**
+**Solution:** Total = 14 + 19 − 1 = 32.
+**Trap:** Option (c) 33 = 14 + 19, placed for those who forget the −1. This is the most classic trap in the chapter.
+**Source:** PYQ-style (SSC pattern)
+
+**Q2.** In a class of 45 students, Priya ranks 12th from the top. What is her rank from the bottom?
+(a) 33 (b) 34 (c) 35 (d) 36
+**Answer: (b)**
+**Solution:** Rank from bottom = 45 − 12 + 1 = 34.
+**Trap:** Option (a) 33 = 45 − 12, for those who forget the +1. Examiners always pair the two off-by-one errors as adjacent options.
+**Source:** PYQ-style (SSC/Banking pattern)
+
+**Q3.** In a row, Ram is 9th from the left and Shyam is 12th from the right. If they interchange positions, Ram becomes 15th from the left. How many persons are in the row?
+(a) 25 (b) 26 (c) 27 (d) 28
+**Answer: (b)**
+**Solution:** After interchange, Ram occupies Shyam's place: 15th from left = 12th from right. Total = 15 + 12 − 1 = 26.
+**Trap:** Using Ram's original position (9 + 12 − 1 = 20) — not even in options, but candidates then guess. The key is realising the new position belongs to Shyam's seat.
+**Source:** PYQ-style (SSC CGL pattern)
+
+**Q4.** In a row of 40 students, A is 10th from the left and B is 15th from the right. How many students sit between them?
+(a) 14 (b) 15 (c) 16 (d) 17
+**Answer: (b)**
+**Solution:** B from left = 40 − 15 + 1 = 26th. Between 10th and 26th = 26 − 10 − 1 = 15.
+**Trap:** Option (c) 16 = 26 − 10, for those who forget to subtract 1 for "between". Read "between" vs "including" twice.
+**Source:** PYQ-style (Banking pattern)
+
+**Q5.** In a row of 30 boys, P is 14th from the left and Q is 20th from the right. How many boys are between P and Q?
+(a) 2 (b) 3 (c) 4 (d) 5
+**Answer: (a)**
+**Solution:** Q from left = 30 − 20 + 1 = 11th. P is 14th. Since 14 + 20 = 34 > 30, this is the overlapping case: between = 34 − 30 − 2 = 2.
+**Trap:** Blindly applying 30 − 14 − 11 = 5 (option d) or 20 − 14 = 6. The overlapping case is the examiner's premium trap — always check whether the two positions cross each other.
+**Skip?** Borderline — if you know the overlap formula, 45 seconds; if not, skip and return.
+**Source:** PYQ-style (SSC CGL pattern)
+
+**Q6.** Mohan is taller than Sohan. Rohan is taller than Mohan. Kunal is taller than Rohan. Who is the shortest?
+(a) Mohan (b) Sohan (c) Rohan (d) Kunal
+**Answer: (b)**
+**Solution:** Chain: Kunal > Rohan > Mohan > Sohan. Shortest = Sohan.
+**Trap:** Candidates who build the chain left-to-right carelessly reverse it and pick Kunal. Write the chain with ">" symbols, never in your head.
+**Source:** PYQ-style (Railway pattern)
+
+**Q7.** Five friends P, Q, R, S, T got different marks. R scored more than P but less than S. T scored more than S. Q scored less than P. Who scored the highest?
+(a) R (b) S (c) T (d) Q
+**Answer: (c)**
+**Solution:** T > S > R > P > Q. Highest = T.
+**Trap:** Option (b) S tempts those who stop reading after "T scored more than S" is processed incompletely, or who misread "more" as "less". In statement questions, every clause must enter the chain.
+**Source:** PYQ-style (Banking prelims pattern)
+
+**Q8.** In a class, Neha is 7th from the top and 28th from the bottom. How many students are in the class?
+(a) 33 (b) 34 (c) 35 (d) 36
+**Answer: (b)**
+**Solution:** Total = 7 + 28 − 1 = 34.
+**Trap:** Same off-by-one family as Q1. Exams repeat this format with fresh numbers almost every cycle — it is a guaranteed 15-second question.
+**Source:** PYQ-style (SSC CHSL pattern)
+
+**Q9.** In a row of girls facing north, Meena is 11th from the left. If she shifts 4 places to her right, she becomes 15th from the left. What is her new position from the right if the row has 25 girls?
+(a) 10th (b) 11th (c) 12th (d) 13th
+**Answer: (b)**
+**Solution:** New position from left = 15. From right = 25 − 15 + 1 = 11th.
+**Trap:** Using the original 11th from left (giving 15th from right — not listed, causing panic) or computing 25 − 15 = 10 (option a) without the +1. Two-step questions multiply off-by-one risk.
+**Skip?** No — two clean steps, under 45 seconds.
+**Source:** PYQ-style (SSC pattern)
+
+**Q10.** In a queue, A is behind B. C is ahead of B but behind D. E is ahead of D. Who is exactly in the middle if there are 5 persons in the queue?
+(a) B (b) C (c) D (d) A
+**Answer: (b)**
+**Solution:** Order front to back: E, D, C, B, A. The middle (3rd of 5) = C.
+**Trap:** "Ahead of" vs "behind" reversal — candidates who translate even one clause wrongly end up with D (option c) or B. Draw five slots and place people one clue at a time, then count to the 3rd slot.
+**Skip?** Yes, if your first arrangement attempt tangles — redrawing costs more than 45 seconds; mark and return.
+**Source:** PYQ-style (CSAT/Banking pattern)
+
+---
+
+## 3. The 15-Second / 45-Second Rule — Reviewed Against Real Patterns
+
+- **15-second questions (attempt instantly):** Single-formula questions — total from two positions (Q1, Q8), rank from the other end (Q2). These are the bulk of SSC/Railway ranking questions. Never skip these; they are the cheapest marks in the section.
+- **45-second questions (attempt with care):** Interchange (Q3), between-two-persons (Q4), two-step shifts (Q9), short comparison chains (Q6, Q7). Attempt if the data fits on one line of your rough sheet.
+- **Skip-and-return candidates:** Overlapping "between" cases when you don't recall the formula (Q5), and 5+ person arrangement chains where your first diagram fails (Q10). In Banking mains, ranking embedded in a multi-variable puzzle (height + city + colour) is a clear first-round skip.
+
+**Bottom line:** In this chapter, roughly 7 out of 10 exam questions are formula-direct. Master the four core formulas and the overlap check, and Order & Ranking becomes a guaranteed-scoring zone rather than a risk zone.

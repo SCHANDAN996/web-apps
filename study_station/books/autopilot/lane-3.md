@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 04:25 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 04:37 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 82 मिनट |
-| W2 | Chapter 08 Puzzles (12th Reasoning) | ✍️ लिख रहा है | 61 मिनट |
-| W3 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 116 मिनट |
-| W4 | Chapter 06 Order Ranking (12th Reasoning) | 🔎 review हो रहा है | 31 मिनट |
-| W5 | Chapter 04 Blood Relations (12th Reasoning) | ✍️ लिख रहा है | 21 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 94 मिनट |
+| W2 | Chapter 08 Puzzles (12th Reasoning) | ✍️ लिख रहा है | 73 मिनट |
+| W3 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 128 मिनट |
+| W4 | Chapter 06 Order Ranking (12th Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W5 | Chapter 04 Blood Relations (12th Reasoning) | ✍️ लिख रहा है | 33 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,6 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 16:37 — 12th Reasoning · Chapter 06 Order Ranking
 - 09-10 14:29 — 12th Reasoning · Chapter 01 Analogy
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
@@ -47,13 +48,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 15:50:32   [Puzzles] PYQ_en.txt try 1: rejected (output still looks like a prompt)
-09-10 15:51:22   [Order_Ranking] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 15:51:22   [Order_Ranking] written 5, failed 1; AI calls today 134/100000
-09-10 15:51:23 NOT OK 12th_Level/Reasoning/Chapter_06_Order_Ranking after 51 min: todo ['Set 01 hi: todo'] problems []
-09-10 15:51:24 START 12th_Level/Reasoning/Chapter_06_Order_Ranking (TODO: todo 1, problems 0)
-09-10 15:52:27   [Puzzles] wrote PYQ_en.txt (9247 chars)
-09-10 15:53:18   [Direction_Sense] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 09-10 15:54:11   [Sitting_Arrangement] wrote Short_Tricks_hi.txt (6597 chars)
 09-10 15:54:18   [Order_Ranking] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 09-10 15:54:18   [Order_Ranking] written 1, failed 0; AI calls today 138/100000
@@ -87,4 +81,11 @@
 09-10 16:20:58   [Blood_Relations] Practice_en_Set_04.txt try 1: rejected (Q79:leaked_reasoning,Q85:leaked_reasoning,Q99:leaked_reasoning)
 09-10 16:24:53   [Puzzles] Practice_en_Set_01.txt try 2: re-solve disagrees (Q3 key a vs re-solve d, Q14 key a vs re-solve d)
 09-10 16:25:31   [Order_Ranking] review PYQ_hi.txt: 2 issue(s): - Question 5 data inconsistent: after interchange Ravi should occupy Suresh's original right position (25th) but is giv
+09-10 16:26:53   [Direction_Sense] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 16:31:21   [Order_Ranking] review Short_Tricks_hi.txt: 2 issue(s): - ट्रिक 2 में दिए गए सूत्र 'कुल − (A की रैंक + B की रैंक) − 1' गलत है; सही सूत्र 'कुल − (A की रैंक + B की रैंक
+09-10 16:33:53   [Direction_Sense] Practice_en_Set_05.txt try 1: rejected (Q103:leaked_reasoning,Q116:leaked_reasoning,Q121:leaked_reasoning,Q125:leaked_reasoning)
+09-10 16:36:31   [Order_Ranking] review Important_Rules_hi.txt: 2 issue(s): - नियम "बीच के व्यक्तियों की संख्या" में सूत्र "कुल − (पहले का स्थान + दूसरे का स्थान)" गलत है (यह एक ही छो
+09-10 16:37:41   [Blood_Relations] Practice_en_Set_04.txt try 2: re-solve disagrees (Q92 key c vs re-solve a)
+09-10 16:37:48   [Order_Ranking] review: 6 section(s) corrected, 0 failed
+09-10 16:37:48   [Order_Ranking] written 6, failed 0; AI calls today 187/100000
 ```

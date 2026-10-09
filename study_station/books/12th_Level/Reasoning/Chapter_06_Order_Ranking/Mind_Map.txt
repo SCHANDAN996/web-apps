@@ -1,0 +1,34 @@
+```mermaid
+graph TD
+    A["क्रम और स्थान<br>Order & Ranking"] --> B["मुख्य अवधारणाएँ<br>Main Concepts"]
+    A --> C["प्रश्नों के प्रकार<br>Types of Questions"]
+    A --> D["रणनीतियाँ<br>Strategies"]
+    A --> E["समय प्रबंधन<br>Time Management"]
+    A --> F["परीक्षक के जाल<br>Common Traps"]
+
+    B --> B1["बाएँ/दाएँ से स्थान<br>Position from Left/Right"]
+    B --> B2["ऊपर/नीचे से क्रम<br>Rank from Top/Bottom"]
+    B --> B3["कुल व्यक्ति = बाएँ + दाएँ − 1<br>Total = Left + Right − 1"]
+    B --> B4["मध्य स्थान<br>Middle Position"]
+
+    C --> C1["एक पंक्ति में स्थान<br>Single Row Position"]
+    C --> C2["दोनों सिरों से स्थान<br>Position from Both Ends"]
+    C --> C3["अंतर बदलाव<br>Interchange of Positions"]
+    C --> C4["तुलना आधारित<br>Comparison Based<br>(लंबा/भारी/अंक)"]
+    C --> C5["न्यूनतम/अधिकतम कुल<br>Minimum/Maximum Total"]
+
+    D --> D1["रेखा/पंक्ति चित्र बनाएँ<br>Draw a Line Diagram"]
+    D --> D2["सूत्र: कुल = L + R − 1<br>Formula: Total = L + R − 1"]
+    D --> D3["अंतर बदलाव: नया स्थान =<br>दूसरे का पुराना स्थान<br>Interchange: Swap Positions"]
+    D --> D4["तुलना में अस्थिर क्रम से बचें<br>Avoid Assuming in Comparisons"]
+
+    E --> E1["सीधा सूत्र वाला प्रश्न: 15 सेकंड<br>Direct Formula: 15 sec"]
+    E --> E2["अंतर बदलाव/तुलना: 45 सेकंड<br>Interchange/Comparison: 45 sec"]
+    E --> E3["जटिल तुलना छोड़ने योग्य<br>Skip Complex Comparisons"]
+
+    F --> F1["बाएँ/दाएँ उलटना<br>Left-Right Confusion"]
+    F --> F2["कुल निकालते समय +1 की भूल<br>Forgetting −1 in Total"]
+    F --> F3["'के बीच' और 'के बाद' में भ्रम<br>'Between' vs 'After' Confusion"]
+    F --> F4["अपूर्ण जानकारी पर निष्कर्ष<br>Concluding from Incomplete Data"]
+    F --> F5["नकारात्मक वाक्य<br>Negative Statements<br>(नहीं/कम से कम)"]
+```
