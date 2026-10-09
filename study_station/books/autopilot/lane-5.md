@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 09-10-2026 05:39 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
+**आख़िरी update:** 09-10-2026 05:42 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 15 One Word Substitution (10th English) | ✍️ लिख रहा है | 21 मिनट |
-| W2 | Chapter 13 Synonyms (10th English) | ✍️ लिख रहा है | 37 मिनट |
-| W3 | Chapter 12 Sentence Structure (10th English) | ✍️ लिख रहा है | 49 मिनट |
-| W4 | Chapter 18 Error Spotting Basic (10th English) | ✍️ लिख रहा है | 5 मिनट |
-| W5 | Chapter 08 Conjunction (10th English) | 📤 push हो रहा है | 0 मिनट |
-| W6 | Chapter 16 Idioms Phrases (10th English) | ✍️ लिख रहा है | 20 मिनट |
-| W7 | Chapter 14 Antonyms (10th English) | ✍️ लिख रहा है | 27 मिनट |
-| W8 | Chapter 17 Spelling (10th English) | ✍️ लिख रहा है | 8 मिनट |
+| W1 | Chapter 15 One Word Substitution (10th English) | ✍️ लिख रहा है | 24 मिनट |
+| W2 | Chapter 13 Synonyms (10th English) | ✍️ लिख रहा है | 40 मिनट |
+| W3 | Chapter 12 Sentence Structure (10th English) | ✍️ लिख रहा है | 52 मिनट |
+| W4 | Chapter 18 Error Spotting Basic (10th English) | ✍️ लिख रहा है | 8 मिनट |
+| W5 | Chapter 19 Fill in Blanks Basic (10th English) | ✍️ लिख रहा है | 2 मिनट |
+| W6 | Chapter 16 Idioms Phrases (10th English) | ✍️ लिख रहा है | 23 मिनट |
+| W7 | Chapter 14 Antonyms (10th English) | ✍️ लिख रहा है | 30 मिनट |
+| W8 | Chapter 17 Spelling (10th English) | ✍️ लिख रहा है | 11 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -48,23 +48,10 @@
 - Chapter 03 Adjective (English) — 2 बार
 - Chapter 01 Noun (English) — 2 बार
 - Chapter 07 Preposition (English) — 2 बार
-- Chapter 08 Conjunction (English) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 17:26:44 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_07_Preposition after 47 min: todo [] problems []
-09-10 17:26:45 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_07_Preposition (OK: todo 0, problems 0)
-09-10 17:26:46   [Idioms_Phrases] wrote Flashcards_en.txt (3260 chars)
-09-10 17:27:47   [Idioms_Phrases] wrote Flashcards_hi.txt (3061 chars)
-09-10 17:28:21   [Synonyms] wrote Short_Tricks_hi.txt (1552 chars)
-09-10 17:28:59   [Idioms_Phrases] wrote PYQ_en.txt (7453 chars)
-09-10 17:29:10   [Synonyms] wrote Important_Rules_en.txt (5093 chars)
-09-10 17:30:00   [Synonyms] wrote Important_Rules_hi.txt (6336 chars)
-09-10 17:30:02   [Narration] review: 6 section(s) corrected, 0 failed
-09-10 17:30:02   [Narration] written 6, failed 0; AI calls today 187/100000
-09-10 17:30:19 DONE 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_11_Narration in 50 min → 9bb33c05
-09-10 17:30:19 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_17_Spelling (TODO: todo 26, problems 0)
 09-10 17:30:25   [Conjunction] review Short_Tricks_hi.txt: 1 issue(s): - Invented statistic "80% बार" in skip strategy tip 2 → Replace with "अक्सर" or "अधिकांशतः"
 09-10 17:31:43   [Preposition] review PYQ_hi.txt: 3 issue(s): - '80% सवाल fixed preposition और in/on/at नियमों से बनते हैं' is an unverified exam statistic → Remove or replace with 
 09-10 17:32:10   [Synonyms] wrote Practice_en_Set_01.txt (write, 25 MCQs)
@@ -93,4 +80,16 @@
 09-10 17:39:08   [Idioms_Phrases] wrote Short_Tricks_hi.txt (8421 chars)
 09-10 17:39:14   [Conjunction] review: 0 section(s) corrected, 0 failed
 09-10 17:39:14   [Conjunction] written 0, failed 0; AI calls today 209/100000
+09-10 17:39:31 DONE 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_08_Conjunction in 1 min → 81078994
+09-10 17:39:31   [One_Word_Substitution] wrote Feynman_en.txt (2445 chars)
+09-10 17:39:31 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_19_Fill_in_Blanks_Basic (TODO: todo 26, problems 0)
+09-10 17:39:50   [Spelling] wrote Content_en.txt (6897 chars)
+09-10 17:40:28   [Fill_in_Blanks_Basic] wrote Content_en.txt (6639 chars)
+09-10 17:40:34   [Idioms_Phrases] wrote Important_Rules_en.txt (5388 chars)
+09-10 17:41:04   [One_Word_Substitution] wrote Feynman_hi.txt (3468 chars)
+09-10 17:41:27   [One_Word_Substitution] wrote Mind_Map_en.txt (1698 chars)
+09-10 17:41:30   [Spelling] wrote Content_hi.txt (13301 chars)
+09-10 17:42:09   [One_Word_Substitution] wrote Mind_Map_hi.txt (1336 chars)
+09-10 17:42:13   [Idioms_Phrases] wrote Important_Rules_hi.txt (4466 chars)
+09-10 17:42:15   [Spelling] wrote Feynman_en.txt (2225 chars)
 ```
