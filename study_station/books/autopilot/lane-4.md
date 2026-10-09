@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 02:52 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 02:53 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 LCM HCF (12th Maths) | ✍️ लिख रहा है | 1 मिनट |
-| W2 | Chapter 24 Reports Indices (12th GK) | 🔎 review हो रहा है | 0 मिनट |
-| W3 | Chapter 25 Govt Schemes (12th GK) | 🔎 review हो रहा है | 31 मिनट |
-| W4 | Chapter 01 Number System (12th Maths) | ✍️ लिख रहा है | 5 मिनट |
-| W5 | Chapter 21 International Orgs (12th GK) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 02 LCM HCF (12th Maths) | ✍️ लिख रहा है | 2 मिनट |
+| W2 | Chapter 24 Reports Indices (12th GK) | 🔎 review हो रहा है | 1 मिनट |
+| W3 | Chapter 25 Govt Schemes (12th GK) | 🔎 review हो रहा है | 32 मिनट |
+| W4 | Chapter 01 Number System (12th Maths) | ✍️ लिख रहा है | 6 मिनट |
+| W5 | Chapter 03 Simplification (12th Maths) | ✍️ लिख रहा है | 1 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -47,8 +47,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 14:24:01   [International_Orgs] review Mind_Map.txt: 1 issue(s): - UNICEF listed under Specialized Agencies → UNICEF is a UN programme/fund, not a specialized agency
-09-10 14:25:01   [Modern_History] REJECTED review fix Feynman_en.txt: corrupted characters
 09-10 14:27:31   [Science_Tech] review Feynman_en.txt: 1 issue(s): - 'Antibiotics (like penicillin) work by attacking the cell walls and machinery of bacteria' → Penicillin only inhi
 09-10 14:27:52   [Reports_Indices] review Key_Facts_en.txt: 1 issue(s): - HDI 2023–24 report: publication year given as 2025 and India rank as 130 → actually published in 2024 with Indi
 09-10 14:29:05   [Govt_Schemes] review Content_hi.txt: 1 issue(s): - PMMY की तीन श्रेणियों की सीमाएँ गलत बताई गईं → किशोर की सीमा ₹50,001–5 लाख होनी चाहिए (शिशु ₹50,000 तक, तरुण ₹5–1
@@ -87,4 +85,6 @@
 09-10 14:52:34 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_24_Reports_Indices (OK: todo 0, problems 0)
 09-10 14:52:42   [International_Orgs] review: 7 section(s) corrected, 0 failed
 09-10 14:52:42   [International_Orgs] written 7, failed 0; AI calls today 118/100000
+09-10 14:52:53 DONE 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_21_International_Orgs in 60 min → 38e9f368
+09-10 14:52:54 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_03_Simplification (TODO: todo 25, problems 0)
 ```
