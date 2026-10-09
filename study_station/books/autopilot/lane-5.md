@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 09-10-2026 07:30 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
+**आख़िरी update:** 09-10-2026 07:33 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Time Work (10th Maths) | 🔧 सुधार रहा है | 6 मिनट |
-| W2 | Chapter 10 Compound Interest (10th Maths) | 🔧 सुधार रहा है | 17 मिनट |
-| W3 | Chapter 20 Sentence Improvement Basic (10th English) | ✍️ लिख रहा है | 26 मिनट |
-| W4 | Chapter 18 Error Spotting Basic (10th English) | 🔎 review हो रहा है | 0 मिनट |
-| W5 | Chapter 19 Fill in Blanks Basic (10th English) | 📤 push हो रहा है | 0 मिनट |
-| W6 | Chapter 12 Time Distance (10th Maths) | 🔧 सुधार रहा है | 1 मिनट |
-| W7 | Chapter 14 Antonyms (10th English) | 🔎 review हो रहा है | 43 मिनट |
-| W8 | Chapter 17 Spelling (10th English) | 🔎 review हो रहा है | 39 मिनट |
+| W1 | Chapter 11 Time Work (10th Maths) | 🔧 सुधार रहा है | 9 मिनट |
+| W2 | Chapter 10 Compound Interest (10th Maths) | 🔧 सुधार रहा है | 19 मिनट |
+| W3 | Chapter 20 Sentence Improvement Basic (10th English) | ✍️ लिख रहा है | 29 मिनट |
+| W4 | Chapter 18 Error Spotting Basic (10th English) | 🔎 review हो रहा है | 3 मिनट |
+| W5 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 2 मिनट |
+| W6 | Chapter 12 Time Distance (10th Maths) | 🔧 सुधार रहा है | 4 मिनट |
+| W7 | Chapter 14 Antonyms (10th English) | 📤 push हो रहा है | 0 मिनट |
+| W8 | Chapter 17 Spelling (10th English) | 🔎 review हो रहा है | 42 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,6 +37,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 19:33 — 10th English · Chapter 14 Antonyms
 - 09-10 19:30 — 10th English · Chapter 19 Fill in Blanks Basic
 - 09-10 19:28 — 10th English · Chapter 16 Idioms Phrases
 - 09-10 19:23 — 10th English · Chapter 15 One Word Substitution
@@ -55,20 +56,10 @@
 - Chapter 12 Sentence Structure (English) — 2 बार
 - Chapter 17 Spelling (English) — 1 बार
 - Chapter 14 Antonyms (English) — 1 बार
-- Chapter 19 Fill in Blanks Basic (English) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 19:14:46   [One_Word_Substitution] review PYQ_hi.txt: 1 issue(s): - Claim "हर शिफ्ट में लगभग 2–4 प्रश्न इस टॉपिक से पूछे जाते हैं" is an invented exam statistic without a cited exam/yea
-09-10 19:14:54   [Sentence_Improvement_Basic] wrote PYQ_en.txt (5697 chars)
-09-10 19:16:12   [Spelling] review Flashcards_hi.txt: 1 issue(s): - Card 4 claims “occur → occurred → occurrence, सब में double r” → occur has a single r; only occurred and occur
-09-10 19:16:19   [Sentence_Improvement_Basic] wrote PYQ_hi.txt (5684 chars)
-09-10 19:16:56   [Error_Spotting_Basic] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-09-10 19:17:24   [Sentence_Improvement_Basic] wrote Short_Tricks_en.txt (5039 chars)
-09-10 19:18:15   [Compound_Interest] REJECTED PYQ_en.txt: corrupted characters — not written
-09-10 19:18:47   [Error_Spotting_Basic] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-09-10 19:18:58   [One_Word_Substitution] review Short_Tricks_hi.txt: 1 issue(s): - Invented exam statistic “80% प्रश्न 15-20 जड़ों से बनते हैं” (no source/year) → Remove or replace with a ver
 09-10 19:19:33   [Sentence_Improvement_Basic] wrote Short_Tricks_hi.txt (6239 chars)
 09-10 19:20:35   [Sentence_Improvement_Basic] wrote Important_Rules_en.txt (4668 chars)
 09-10 19:20:53   [Fill_in_Blanks_Basic] review Mind_Map_hi.txt: 3 issue(s): - Node D duplicates root node A exactly (same label "अवधारणा: रिक्त स्थान भरें (सरल)<br>Fill in the Blanks (Basic)
@@ -100,4 +91,13 @@
 09-10 19:29:59   [Time_Distance] repaired Content_en.txt (7629 chars)
 09-10 19:30:22   [Fill_in_Blanks_Basic] review: 3 section(s) corrected, 0 failed
 09-10 19:30:22   [Fill_in_Blanks_Basic] written 3, failed 0; AI calls today 582/100000
+09-10 19:30:36 DONE 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_19_Fill_in_Blanks_Basic in 27 min → 0b21587f
+09-10 19:30:38 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_13_Mixture_Alligation (FIX: todo 0, problems 16)
+09-10 19:30:44   [Time_Distance] repaired Content_hi.txt (1622 chars)
+09-10 19:31:23   [Time_Distance] repaired Short_Tricks_en.txt (5049 chars)
+09-10 19:31:34   [Sentence_Improvement_Basic] Practice_en_Set_02.txt try 1: re-solve disagrees (Q34 key b vs re-solve a)
+09-10 19:31:41   [Mixture_Alligation] repaired Content_en.txt (7008 chars)
+09-10 19:32:26   [Antonyms] review Important_Rules_hi.txt: 2 issue(s): - Claim "Antonym के 80% प्रश्न तथ्यात्मक होते हैं" is an invented exam statistic with no source → remove th
+09-10 19:33:00   [Antonyms] review: 6 section(s) corrected, 0 failed
+09-10 19:33:00   [Antonyms] written 6, failed 0; AI calls today 590/100000
 ```
