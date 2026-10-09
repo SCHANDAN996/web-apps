@@ -1,0 +1,151 @@
+प्रश्न 101–120: आसान | प्रश्न 121–125: मध्यम
+
+101. Six persons A, B, C, D, E and F sit in a row facing north. A sits second to the left of B. C sits at the leftmost end. D sits immediately to the right of A. E sits immediately to the right of B. Who sits at the rightmost end?
+(a) F (b) E (c) D (d) B
+Answer: (a)
+Solution: The tempting wrong option is B, because A being second to the left of B makes solvers push B to the last seat without testing the other clues. With C at position 1, A at 2 and B at 4, D sits at 3 and E sits immediately right of B at 5, leaving F at 6. The order is C, A, D, B, E, F, so the answer is F.
+Source: PYQ-style
+
+102. In a family, Q is the father of T. U is the mother of T. S is the daughter of P and is married to Q. How is S related to U?
+(a) Daughter-in-law (b) Daughter (c) Sister (d) Mother
+Answer: (a)
+Solution: The trap is daughter, because S is introduced as someone's daughter and solvers attach her to U as well. S is the daughter of P and the wife of Q, and Q is the son of U (since Q is father of T and U is mother of T, Q and U are a couple). The wife of U's son is U's daughter-in-law, so the answer is daughter-in-law.
+Source: PYQ-style
+
+103. Seven boxes are stacked one above another. Box M is immediately above box N. Box O is above box P but below box N. Box Q is at the top. Box R is immediately below box P. Box S is at the bottom. Which box is exactly in the middle?
+(a) N (b) P (c) O (d) M
+Answer: (c)
+Solution: The trap is N, since the chain M–N–O–P–R makes N look central. The full order from top is Q, M, N, O, P, R, S, and the fourth of seven is O, so the answer is O.
+Source: PYQ-style
+
+104. Five friends — Ajay, Bimal, Chitra, Deepak and Esha — each like a different colour among red, blue, green, yellow and pink. Ajay likes red. Bimal likes neither blue nor green. Chitra likes green. Deepak likes pink. Which colour does Esha like?
+(a) Pink (b) Yellow (c) Blue (d) Green
+Answer: (c)
+Solution: The trap is yellow, picked by solvers who assign Bimal pink and stop. Ajay = red, Chitra = green, Deepak = pink; Bimal can only take yellow or pink, and pink is taken, so Bimal = yellow, leaving blue for Esha. So the answer is blue.
+Source: PYQ-style
+
+105. In a certain code, A is coded as 1, B as 2, … Z as 26. What is the sum of the codes of the letters in "PUZZLE"?
+(a) 103 (b) 97 (c) 106 (d) 100
+Answer: (c)
+Solution: The trap is 103, reached by misreading Z as 25 through 0-based thinking. P=16, U=21, Z=26, Z=26, L=12, E=5; total = 16+21+26+26+12+5 = 106, so the answer is 106.
+Source: PYQ-style
+
+106. Eight persons sit around a circular table facing the centre. G sits second to the right of H. I sits opposite H. J is an immediate neighbour of both H and K. K sits second to the left of I. Who sits opposite G?
+(a) J (b) K (c) I (d) H
+Answer: (b)
+Solution: The trap is J, because J is placed next to H and feels "across" from G. Fix H at seat 1; G at seat 3; I opposite H at seat 5; K second to the left of I at seat 7; J, neighbour of both H and K, sits at seat 8. Opposite seats differ by 4, so opposite G (seat 3) is seat 7, which is K, so the answer is K.
+Source: PYQ-style
+
+107. A man walks 5 km north, turns right and walks 3 km, turns right again and walks 5 km, then turns left and walks 2 km. How far and in which direction is he from the start?
+(a) 5 km west (b) 5 km east (c) 1 km west (d) 3 km east
+Answer: (b)
+Solution: The trap is 3 km east, from forgetting the final 2 km leg. North 5 and south 5 cancel; facing south, a left turn points east, adding 2 km to the earlier 3 km east. Net displacement is 5 km east, so the answer is 5 km east.
+Source: PYQ-style
+
+108. Pointing to a photograph, Ravi said, "She is the daughter of my grandfather's only son." How is the woman in the photograph related to Ravi?
+(a) Mother (b) Sister (c) Cousin (d) Aunt
+Answer: (b)
+Solution: The trap is cousin, from imagining grandfather's only son could be an uncle. Grandfather's only son is Ravi's own father, and the father's daughter is Ravi's sister, so the answer is sister.
+Source: PYQ-style
+
+109. Five exams — Hindi, English, Maths, Science and GK — are held from Monday to Friday, one per day. Maths is on Wednesday. English is before Hindi but not on Monday. Science is on the last day. GK is not on Tuesday. On which day is English held?
+(a) Friday (b) Thursday (c) Monday (d) Tuesday
+Answer: (d)
+Solution: The trap is Monday, from misreading "not on Monday" as applying to Hindi. Maths = Wednesday and Science = Friday; English must precede Hindi and cannot be Monday, so English = Tuesday and Hindi = Thursday, leaving GK on Monday. So the answer is Tuesday.
+Source: PYQ-style
+
+110. In a row of students, Ramesh is 12th from the left and Suresh is 18th from the right. If they interchange positions, Ramesh becomes 20th from the left. How many students are there in the row?
+(a) 37 (b) 36 (c) 38 (d) 39
+Answer: (a)
+Solution: The trap is 38, from adding 12 + 18 + 8 mechanically. After the swap, Ramesh occupies Suresh's seat, which is 20th from the left and 18th from the right, so total = 20 + 18 − 1 = 37, and the answer is 37.
+Source: PYQ-style
+
+111. Six people P, Q, R, S, T, U have different heights. P is taller than Q but shorter than R. S is taller than R. T is shorter than Q. U is taller than S. Who is the shortest?
+(a) P (b) Q (c) T (d) U
+Answer: (c)
+Solution: The trap is Q, since Q sits below both P and R and looks like the bottom of the chain. The full order is U > S > R > P > Q > T, so T is the shortest, and the answer is T.
+Source: PYQ-style
+
+112. A clock shows 4:20. What is the angle between the hour and minute hands?
+(a) 10° (b) 30° (c) 0° (d) 20°
+Answer: (a)
+Solution: The trap is 20°, from freezing the hour hand at 4. The minute hand at 20 minutes points to 120°, while the hour hand has moved to 4×30 + 20×0.5 = 130°. The difference is 10°, so the answer is 10°.
+Source: NCERT Class 8 Mathematics
+
+113. In a code language, "TIGER" is written as "UJHFS". How is "MOUSE" written in that code?
+(a) NPVTF (b) NPVTG (c) LPTRD (d) NQWUG
+Answer: (a)
+Solution: The trap is NPVTG, from shifting the last letter by +2 instead of +1. Every letter moves one step forward: M→N, O→P, U→V, S→T, E→F, giving NPVTF, so the answer is NPVTF.
+Source: PYQ-style
+
+114. Five friends A, B, C, D, E are seated in a row facing south. A is at one extreme end. B is second to the right of A. C is to the immediate left of D. E is not at any end. Who sits in the middle?
+(a) E (b) C (c) D (d) B
+Answer: (d)
+Solution: The trap is E, chosen because "not at any end" sounds like the middle seat. Facing south, a person's right is the viewer's left: A must sit at the viewer's rightmost seat 5 (otherwise B cannot fit two seats to A's right), so B is at seat 3. C immediately left of D (person's left = viewer's right) gives D at 2 and C at 1, leaving E at 4. The middle seat 3 holds B, so the answer is B.
+Source: PYQ-style
+
+115. If the day before yesterday was Wednesday, what day will it be the day after tomorrow?
+(a) Monday (b) Sunday (c) Saturday (d) Friday
+Answer: (b)
+Solution: The trap is Saturday, from counting only one step past today. Day before yesterday = Wednesday makes today Friday; tomorrow is Saturday and the day after tomorrow is Sunday, so the answer is Sunday.
+Source: PYQ-style
+
+116. In a group of 60 people, 35 like tea, 28 like coffee, and 12 like both. How many like neither tea nor coffee?
+(a) 11 (b) 12 (c) 7 (d) 9
+Answer: (d)
+Solution: The trap is 12, from confusing "both" with "neither". Those liking at least one drink = 35 + 28 − 12 = 51, so neither = 60 − 51 = 9, and the answer is 9.
+Source: NCERT Class 11 Mathematics
+
+117. A, B, C, D and E are five consecutive even numbers in increasing order. If the sum of A and E is 52, what is C?
+(a) 26 (b) 24 (c) 30 (d) 28
+Answer: (a)
+Solution: The trap is 24, from halving 52 and then stepping back one even number unnecessarily. For equally spaced numbers, A + E = 2C, so C = 52 ÷ 2 = 26, and the answer is 26.
+Source: NCERT Class 8 Mathematics
+
+118. Statement: All pens are books. All books are chairs. Conclusion I: All pens are chairs. Conclusion II: Some chairs are pens.
+(a) Only II follows (b) Only I follows (c) Both follow (d) Neither follows
+Answer: (c)
+Solution: The trap is "Only I follows", since solvers forget that "all" implies "some" in exam syllogisms. All pens are books and all books are chairs give all pens are chairs, which also means some chairs are pens, so both conclusions follow, and the answer is both follow.
+Source: PYQ-style
+
+119. Find the missing number: 3, 6, 11, 18, 27, ?
+(a) 39 (b) 40 (c) 36 (d) 38
+Answer: (d)
+Solution: The trap is 36, from assuming the last gap stays at 9. The differences are 3, 5, 7, 9, so the next difference is 11: 27 + 11 = 38, and the answer is 38.
+Source: PYQ-style
+
+120. A is the brother of B. B is the mother of C. D is the father of A. How is D related to C?
+(a) Brother (b) Grandfather (c) Uncle (d) Father
+Answer: (b)
+Solution: The trap is uncle, from placing D in C's generation. D is father of A, and A is brother of B, so D is also father of B; since B is mother of C, D is C's grandfather, and the answer is grandfather.
+Source: PYQ-style
+
+121. Eight friends P, Q, R, S, T, U, V, W sit around a circular table facing the centre. P sits second to the right of Q. R sits opposite P. S is an immediate neighbour of R but not of Q. T sits second to the left of R. U sits between Q and R. Who sits opposite Q?
+(a) S (b) W (c) V (d) T
+Answer: (d)
+Solution: The trap is S, because S sits near R and solvers mirror it opposite Q. Number seats 1–8 clockwise with Q at seat 1: P at seat 3, R opposite P at seat 7, T second to the left of R at seat 5, U between Q and R at seat 2, and S, neighbour of R but not of Q, at seat 8. Opposite Q (seat 1) is seat 5, which is T, so the answer is T.
+Source: PYQ-style
+
+122. In a family, X is married to Y. X has two children, Z and W. Z is married to V and has a daughter U. W is the sister of Z. How is V related to W, given that V is female?
+(a) Sister (b) Aunt (c) Sister-in-law (d) Daughter-in-law
+Answer: (c)
+Solution: The trap is sister, because V joins the household of the sisters-like pair Z and W. V is female and married to Z, so Z is male; V is the wife of W's brother, which makes V W's sister-in-law, so the answer is sister-in-law.
+Source: PYQ-style
+
+123. Six lectures — Physics, Chemistry, Maths, Biology, English, History — are scheduled in six consecutive slots 1 to 6. Maths is in slot 3. Physics is immediately before Chemistry. Biology is after Maths but not in slot 5. English is in slot 1. Which subject is in slot 6?
+(a) Chemistry (b) Biology (c) History (d) Physics
+Answer: (b)
+Solution: The trap is Chemistry, from parking the Physics–Chemistry pair at slots 5–6. English = 1 and Maths = 3, so the only free consecutive pair for Physics–Chemistry is 4–5. Biology must come after Maths but not in slot 5, and slot 4 is taken, so Biology = 6 and History = 2. So the answer is Biology.
+Source: PYQ-style
+
+124. In a certain code, "MASTER" is written as "NZHGVI". Using the same logic, how is "PUZZLE" written?
+(a) KFAAOV (b) KFZZOV (c) LFYYNW (d) QVBBMF
+Answer: (a)
+Solution: The trap is QVBBMF, from assuming a simple +1 shift. The code is the reverse-alphabet (Atbash) cipher: M↔N, A↔Z, S↔H, T↔G, E↔V, R↔I. Applying it to PUZZLE gives P→K, U→F, Z→A, Z→A, L→O, E→V, i.e., KFAAOV, so the answer is KFAAOV.
+Source: PYQ-style
+
+125. Five boxes contain different numbers of balls: 5, 10, 15, 20, 25. Box A has more balls than Box B but fewer than Box C. Box D has more than Box C. Box E has fewer than Box B. If Box B has 10 balls, how many balls does Box D have?
+(a) 20 (b) 15 (c) 5 (d) 25
+Answer: (d)
+Solution: The trap is 20, from placing D just one step above C without ordering all five boxes. The chain is E < B < A < C < D; with B = 10, E = 5, and A, C, D take 15, 20, 25 in that order, so D = 25, and the answer is 25.
+Source: PYQ-style

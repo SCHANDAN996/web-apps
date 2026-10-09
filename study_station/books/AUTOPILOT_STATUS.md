@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 01:30 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
+**आख़िरी update:** 10-10-2026 01:37 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 23 मिनट |
-| W2 | Chapter 02 Classification (Graduation Reasoning) | ✍️ लिख रहा है | 24 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🔎 review हो रहा है | 46 मिनट |
-| W4 | Chapter 08 Puzzles (Graduation Reasoning) | 🔎 review हो रहा है | 41 मिनट |
-| W5 | Chapter 12 Missing Term (Graduation Reasoning) | 🔧 सुधार रहा है | 2 मिनट |
-| W6 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 46 मिनट |
-| W7 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 46 मिनट |
-| W8 | Chapter 19 Cubes Dice (Graduation Reasoning) | ✍️ लिख रहा है | 45 मिनट |
+| W1 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 30 मिनट |
+| W2 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 2 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🔎 review हो रहा है | 53 मिनट |
+| W4 | Chapter 08 Puzzles (Graduation Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W5 | Chapter 12 Missing Term (Graduation Reasoning) | 🔧 सुधार रहा है | 9 मिनट |
+| W6 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 53 मिनट |
+| W7 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 53 मिनट |
+| W8 | Chapter 19 Cubes Dice (Graduation Reasoning) | ✍️ लिख रहा है | 53 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -39,25 +39,17 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 10-10 01:37 — Graduation Reasoning · Chapter 08 Puzzles
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 22 Para Jumbles Adv (English) — 2 बार
-- Chapter 02 Classification (Reasoning) — 1 बार
+- Chapter 02 Classification (Reasoning) — 2 बार
 - Chapter 12 Missing Term (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 00:55:03   [Sitting_Arrangement] review Content_hi.txt: 1 issue(s): - 'यहीं 80% गलतियाँ होती हैं' (invented statistic) → Remove the percentage or replace with 'यहीं अक्सर गलतियाँ होती
-10-10 00:57:02   [Para_Jumbles_Adv] repaired Mind_Map_hi.txt (1383 chars)
-10-10 00:57:02   [Para_Jumbles_Adv] written 1, failed 0; AI calls today 20/100000
-10-10 00:57:02 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv after 13 min: todo [] problems ['Mind_Map_hi.txt: much shorter than the English section (1382']
-10-10 00:57:03 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv (FIX: todo 0, problems 1)
-10-10 00:57:35   [Puzzles] review Feynman_hi.txt: 1 issue(s): - ब्लर्टिंग शीट में 'गोल मेज़ और सीधी पंक्ति में क्या अलग ध्यान देना है?' बिंदु शामिल है, लेकिन अध्याय में सीधी पंक
-10-10 01:00:10   [Classification] Practice_hi_Set_01.txt try 3: rejected (Q22:leaked_reasoning)
-10-10 01:01:44   [Para_Jumbles_Adv] repaired Mind_Map_hi.txt (1352 chars)
 10-10 01:01:44   [Para_Jumbles_Adv] written 1, failed 0; AI calls today 24/100000
 10-10 01:05:18   [Alphabet_Questions] Practice_en_Set_04.txt try 1: rejected (Q76:leaked_reasoning,Q77:leaked_reasoning,Q81:leaked_reasoning,Q83:leaked_reasoning,Q84:leaked_reasoning)
 10-10 01:05:58   [Classification] Practice_hi_Set_01.txt try 4: rejected (Q22:leaked_reasoning)
@@ -90,4 +82,12 @@
 10-10 01:27:27   [Missing_Term] repaired Important_Rules_hi.txt (3068 chars)
 10-10 01:27:27   [Missing_Term] written 1, failed 0; AI calls today 53/100000
 10-10 01:27:48   [Classification] Practice_hi_Set_01.txt try 3: rejected (Q22:leaked_reasoning)
+10-10 01:32:22   [Mirror_Water_Images] Practice_en_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 01:34:15   [Classification] Practice_hi_Set_01.txt try 4: rejected (Q22:leaked_reasoning)
+10-10 01:34:15   [Classification] REJECTED Practice_hi_Set_01.txt: no translation passed the checks — not written
+10-10 01:34:15   [Classification] written 0, failed 1; AI calls today 57/100000
+10-10 01:34:15 NOT OK Graduation_Level/Reasoning/Chapter_02_Classification after 28 min: todo ['Set 01 hi: todo'] problems []
+10-10 01:34:17 START Graduation_Level/Reasoning/Chapter_21_Paper_Folding_Cutting (TODO: todo 12, problems 0)
+10-10 01:37:15   [Puzzles] review: 4 section(s) corrected, 0 failed
+10-10 01:37:15   [Puzzles] written 4, failed 0; AI calls today 60/100000
 ```
