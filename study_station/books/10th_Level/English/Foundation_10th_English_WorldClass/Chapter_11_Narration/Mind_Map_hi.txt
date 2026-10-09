@@ -1,0 +1,50 @@
+```mermaid
+graph TD
+    A["कथन (Narration)<br>Direct और Indirect Speech"] --> B["Direct Speech<br>सीधा कथन"]
+    A --> C["Indirect Speech<br>अप्रत्यक्ष कथन"]
+    A --> D["परिवर्तन के 4 स्तंभ"]
+
+    B --> B1["Inverted Commas \" \" में"]
+    B --> B2["Reporting Verb + Reported Speech"]
+    C --> C1["Inverted Commas हट जाते हैं"]
+    C --> C2["that / if / whether जोड़ा जाता है"]
+
+    D --> D1["1. Reporting Verb का Tense"]
+    D --> D2["2. Reported Speech का Tense"]
+    D --> D3["3. Pronoun परिवर्तन"]
+    D --> D4["4. Time/Place शब्द परिवर्तन"]
+
+    D1 --> E["Reporting Verb Past हो तो<br>Tense एक कदम पीछे"]
+    E --> E1["Present Simple → Past Simple"]
+    E --> E2["Present Continuous → Past Continuous"]
+    E --> E3["Present Perfect → Past Perfect"]
+    E --> E4["Past Simple → Past Perfect"]
+    E --> E5["will → would<br>can → could<br>may → might"]
+
+    D1 --> F["Reporting Verb Present/Future हो तो<br>Tense नहीं बदलता"]
+
+    D3 --> G["Pronoun नियम: S-O-N"]
+    G --> G1["S = Subject<br>1st Person → Subject के अनुसार"]
+    G --> G2["O = Object<br>2nd Person → Object के अनुसार"]
+    G --> G3["N = No Change<br>3rd Person नहीं बदलता"]
+
+    D4 --> H["Time/Place शब्द"]
+    H --> H1["now → then"]
+    H --> H2["today → that day"]
+    H --> H3["yesterday → the day before"]
+    H --> H4["tomorrow → the next day"]
+    H --> H5["here → there<br>this → that<br>ago → before"]
+
+    A --> I["वाक्य-प्रकार अनुसार नियम"]
+    I --> I1["Statement<br>said → told + that"]
+    I --> I2["Interrogative<br>asked + if/whether या Wh-word<br>प्रश्नवाचक क्रम → साधारण क्रम"]
+    I --> I3["Imperative<br>ordered/requested/advised + to/not to"]
+    I --> I4["Exclamatory<br>exclaimed with joy/sorrow + that"]
+    I --> I5["Optative<br>wished/prayed + that"]
+
+    A --> J["⚠️ परीक्षक के जाल"]
+    J --> J1["Universal Truth में<br>Tense नहीं बदलता"]
+    J --> J2["Question में helping verb<br>हटाना भूलना नहीं"]
+    J --> J3["said to → told<br>(said + object गलत)"]
+    J --> J4["must अक्सर नहीं बदलता<br>shall → should/would"]
+```
