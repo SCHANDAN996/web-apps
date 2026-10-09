@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 06:25 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 06:28 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 19 Fill in Blanks Adv (12th English) | ✍️ लिख रहा है | 86 मिनट |
-| W2 | Chapter 20 Sentence Improvement Adv (12th English) | ✍️ लिख रहा है | 72 मिनट |
-| W3 | Chapter 21 Cloze Test (12th English) | ✍️ लिख रहा है | 58 मिनट |
-| W4 | Chapter 18 Error Spotting Adv (12th English) | 🔎 review हो रहा है | 22 मिनट |
-| W5 | Chapter 17 Spelling (12th English) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 19 Fill in Blanks Adv (12th English) | ✍️ लिख रहा है | 89 मिनट |
+| W2 | Chapter 20 Sentence Improvement Adv (12th English) | ✍️ लिख रहा है | 75 मिनट |
+| W3 | Chapter 21 Cloze Test (12th English) | ✍️ लिख रहा है | 1 मिनट |
+| W4 | Chapter 18 Error Spotting Adv (12th English) | 📤 push हो रहा है | 0 मिनट |
+| W5 | Chapter 22 Para Jumbles (12th English) | ✍️ लिख रहा है | 3 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,6 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 06:28 — 12th English · Chapter 18 Error Spotting Adv
 - 09-10 06:25 — 12th English · Chapter 17 Spelling
 - 09-10 04:58 — 12th English · Chapter 12 Sentence Structure
 - 09-10 04:58 — 12th English · Chapter 15 One Word Substitution
@@ -49,23 +50,11 @@
 
 - Chapter 14 Antonyms (English) — 2 बार
 - Chapter 16 Idioms Phrases (English) — 2 बार
+- Chapter 21 Cloze Test (English) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 05:53:04   [Fill_in_Blanks_Adv] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
-09-10 05:53:52   [Cloze_Test] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-09-10 05:55:11   [Cloze_Test] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-09-10 05:56:24   [Error_Spotting_Adv] Practice_en_Set_06.txt try 1: re-solve disagrees (Q128 key a vs re-solve b, Q139 key d vs re-solve a, Q148 key b vs re-solve a, Q150 key b vs re-solve
-09-10 05:57:48   [Fill_in_Blanks_Adv] Practice_en_Set_05.txt try 1: re-solve disagrees (Q123 key a vs re-solve b)
-09-10 05:58:12   [Sentence_Improvement_Adv] Practice_en_Set_03.txt try 1: re-solve disagrees (Q56 key a vs re-solve b)
-09-10 05:58:45   [Cloze_Test] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-09-10 06:00:29   [Cloze_Test] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 06:01:12   [Error_Spotting_Adv] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 06:01:12   [Spelling] review Flashcards_hi.txt: 1 issue(s): - Card 6 claims that "occur" has double r, but "occur" is spelled with double c and only a single r → Correction
-09-10 06:01:49   [Fill_in_Blanks_Adv] Practice_en_Set_05.txt try 2: re-solve disagrees (Q118 key c vs re-solve b)
-09-10 06:02:32   [Error_Spotting_Adv] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 06:02:32   [Error_Spotting_Adv] written 26, failed 0; AI calls today 583/100000
 09-10 06:04:05   [Fill_in_Blanks_Adv] Practice_en_Set_05.txt try 3: rejected (parsed 0 questions, numbers -…-)
 09-10 06:05:54   [Error_Spotting_Adv] review Content_hi.txt: 2 issue(s): - In the Linguistic Bridge table (row 2), the suggested correct English for "I am going to Delhi, no?" includes "is
 09-10 06:06:46   [Fill_in_Blanks_Adv] Practice_en_Set_05.txt try 4: re-solve disagrees (Q108 key c vs re-solve b)
@@ -93,4 +82,17 @@
 09-10 06:25:07   [Cloze_Test] Practice_en_Set_06.txt try 3: rejected (parsed 0 questions, numbers -…-)
 09-10 06:25:09   [Spelling] review: 9 section(s) corrected, 0 failed
 09-10 06:25:09   [Spelling] written 9, failed 0; AI calls today 627/100000
+09-10 06:25:20 DONE 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_17_Spelling in 113 min → b4a95fe4
+09-10 06:25:21 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_22_Para_Jumbles (TODO: todo 26, problems 0)
+09-10 06:26:20   [Sentence_Improvement_Adv] Practice_en_Set_05.txt try 1: re-solve disagrees (Q114 key c vs re-solve a, Q117 key a vs re-solve b)
+09-10 06:26:30   [Para_Jumbles] wrote Content_en.txt (8249 chars)
+09-10 06:27:13   [Cloze_Test] Practice_en_Set_06.txt try 4: re-solve disagrees (Q146 key c vs re-solve a)
+09-10 06:27:13   [Cloze_Test] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+09-10 06:27:13   [Cloze_Test] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+09-10 06:27:13   [Cloze_Test] written 24, failed 2; AI calls today 634/100000
+09-10 06:27:14 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_21_Cloze_Test after 60 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems []
+09-10 06:27:15 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_21_Cloze_Test (TODO: todo 2, problems 0)
+09-10 06:28:31   [Cloze_Test] Practice_en_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 06:28:38   [Error_Spotting_Adv] review: 4 section(s) corrected, 0 failed
+09-10 06:28:38   [Error_Spotting_Adv] written 4, failed 0; AI calls today 638/100000
 ```
