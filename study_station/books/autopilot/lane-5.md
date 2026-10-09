@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 10-10-2026 12:54 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 10:05 PM
+**आख़िरी update:** 10-10-2026 12:58 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 10:05 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 19 Statistics (10th Maths) | 🔧 सुधार रहा है | 40 मिनट |
-| W4 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 0 मिनट |
-| W5 | Chapter 22 Permutation Combination (10th Maths) | 🔎 review हो रहा है | 5 मिनट |
-| W6 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 20 मिनट |
-| W8 | Chapter 17 Data Interpretation (10th Maths) | 🔎 review हो रहा है | 19 मिनट |
+| W3 | Chapter 19 Statistics (10th Maths) | 🔧 सुधार रहा है | 44 मिनट |
+| W4 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 4 मिनट |
+| W5 | Chapter 22 Permutation Combination (10th Maths) | 🔎 review हो रहा है | 9 मिनट |
+| W6 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 2 मिनट |
+| W8 | Chapter 17 Data Interpretation (10th Maths) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,6 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 10-10 00:58 — 10th Maths · Chapter 17 Data Interpretation
 - 10-10 00:22 — 10th Maths · Chapter 20 Number Series
 - 09-10 23:38 — 10th Maths · Chapter 15 Geometry
 - 09-10 23:00 — 10th English · Chapter 12 Sentence Structure
@@ -52,16 +53,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 00:26:53   [Mixture_Alligation] FAILED set 01: too_long
-10-10 00:26:54   [Data_Interpretation] FAILED set 04: too_long
-10-10 00:26:54   [Data_Interpretation] written 3, failed 1; AI calls today 36/100000
-10-10 00:26:54 NOT OK 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_17_Data_Interpretation after 141 min: todo [] problems ['Set 04 en: 24/25 parsed', 'Set 04 en: Q77:leaked_reasoning,Q89:leaked_reasoning,Q90:lea', 'Set 04 hi: 24/25 parsed', 'Set 04 hi: Q77:needs_context']
-10-10 00:26:57 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_17_Data_Interpretation (FIX: todo 0, problems 5)
-10-10 00:27:23   [Permutation_Combination] set 06 try 1: re-solve disagrees (Q148 key c vs re-solve b)
-10-10 00:28:35   [Data_Interpretation] set 04 try 1: rejected (parsed 24 questions, numbers 76…100)
-10-10 00:31:54   [Statistics] set 02 try 2: re-solve disagrees (Q27 key c vs re-solve b)
-10-10 00:32:50   [Data_Interpretation] Practice_hi_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
-10-10 00:33:00   [Probability] FAILED set 05: too_long
 10-10 00:34:11   [Mixture_Alligation] repaired set 05 (en + hi, key confirmed by an independent re-solve)
 10-10 00:34:11   [Mixture_Alligation] written 2, failed 2; AI calls today 47/100000
 10-10 00:34:11 NOT OK 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_13_Mixture_Alligation after 148 min: todo [] problems ['PYQ_en.txt: chat debris "text"', 'PYQ_en.txt: English file contains a lot of Hindi', 'Short_Tricks_hi.txt: much shorter than the English section (', 'Set 01 en: Q3:leaked_reasoning,Q10:leaked_reasoning,Q12:leak']
@@ -92,4 +83,14 @@
 10-10 00:53:51 NOT OK 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_21_Probability after 125 min: todo [] problems ['Set 01 en: 2/25 parsed', 'Set 01 hi: 2/25 parsed', 'Set 02 en: 1/25 parsed', 'Set 02 hi: 1/25 parsed']
 10-10 00:53:53   [Data_Interpretation] review PYQ_hi.txt: 2 issue(s): - In Q2 solution, stating that a 100% sum of percentages means each person has only one disease is incorrect → Correcti
 10-10 00:53:54 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_21_Probability (FIX: todo 0, problems 10)
+10-10 00:55:19   [Probability] set 01 try 1: rejected (parsed 24 questions, numbers 1…25)
+10-10 00:55:53   [Mixture_Alligation] set 01 try 4: re-solve disagrees (Q1 key c vs re-solve d)
+10-10 00:55:53   [Mixture_Alligation] FAILED set 01: no version passed the checks — files left as they were
+10-10 00:55:53   [Mixture_Alligation] written 2, failed 1; AI calls today 85/100000
+10-10 00:56:44   [Probability] set 01 try 2: rejected (parsed 23 questions, numbers 1…25)
+10-10 00:57:39   [Probability] set 01 try 3: rejected (parsed 15 questions, numbers 1…16)
+10-10 00:58:36   [Data_Interpretation] review: 3 section(s) corrected, 0 failed
+10-10 00:58:36   [Data_Interpretation] written 3, failed 0; AI calls today 93/100000
+10-10 00:58:43   [Probability] set 01 try 4: rejected (parsed 24 questions, numbers 1…25)
+10-10 00:58:43   [Probability] FAILED set 01: no version passed the checks — files left as they were
 ```
