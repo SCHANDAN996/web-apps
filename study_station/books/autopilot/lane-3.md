@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 09:53 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 09:59 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 25 Word Roots (12th English) | ✍️ लिख रहा है | 46 मिनट |
-| W2 | Chapter 01 Analogy (12th Reasoning) | ✍️ लिख रहा है | 43 मिनट |
-| W3 | Chapter 22 Para Jumbles (12th English) | ✍️ लिख रहा है | 86 मिनट |
-| W4 | Chapter 23 Sentence Arrangement (12th English) | ✍️ लिख रहा है | 86 मिनट |
-| W5 | Chapter 24 RC Basic (12th English) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 25 Word Roots (12th English) | ✍️ लिख रहा है | 52 मिनट |
+| W2 | Chapter 01 Analogy (12th Reasoning) | ✍️ लिख रहा है | 49 मिनट |
+| W3 | Chapter 22 Para Jumbles (12th English) | ✍️ लिख रहा है | 92 मिनट |
+| W4 | Chapter 23 Sentence Arrangement (12th English) | ✍️ लिख रहा है | 92 मिनट |
+| W5 | Chapter 02 Classification (12th Reasoning) | ✍️ लिख रहा है | 5 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -38,24 +38,9 @@
 - 09-10 09:09 — 12th English · Chapter 16 Idioms Phrases
 - 09-10 09:06 — 12th English · Chapter 14 Antonyms
 
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 24 RC Basic (English) — 1 बार
-
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 09:24:00   [Analogy] wrote PYQ_en.txt (6574 chars)
-09-10 09:24:49   [RC_Basic] FAILED Practice_en_Set_05.txt: too_long
-09-10 09:24:49   [RC_Basic] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
-09-10 09:25:51   [Analogy] wrote PYQ_hi.txt (5653 chars)
-09-10 09:26:56   [Analogy] wrote Short_Tricks_en.txt (4371 chars)
-09-10 09:27:09   [RC_Basic] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 09:28:10   [Para_Jumbles] Practice_en_Set_04.txt try 1: re-solve disagrees (Q76 key d vs re-solve b, Q79 key d vs re-solve c)
-09-10 09:28:48   [Analogy] wrote Short_Tricks_hi.txt (5050 chars)
-09-10 09:29:28   [Analogy] wrote Important_Rules_en.txt (4053 chars)
-09-10 09:31:34   [Analogy] wrote Important_Rules_hi.txt (3275 chars)
-09-10 09:31:49   [RC_Basic] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 09-10 09:31:49   [RC_Basic] written 24, failed 2; AI calls today 120/100000
 09-10 09:31:49 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_24_RC_Basic after 65 min: todo ['Set 05 en: todo', 'Set 05 hi: todo'] problems []
 09-10 09:31:51 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_24_RC_Basic (TODO: todo 2, problems 0)
@@ -85,4 +70,15 @@
 09-10 09:51:03   [Analogy] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 09-10 09:53:41   [RC_Basic] review: 4 section(s) corrected, 0 failed
 09-10 09:53:41   [RC_Basic] written 4, failed 0; AI calls today 160/100000
+09-10 09:53:52 DONE 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_24_RC_Basic in 22 min → b76c1178
+09-10 09:53:54 START 12th_Level/Reasoning/Chapter_02_Classification (TODO: todo 25, problems 0)
+09-10 09:54:13   [Analogy] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 09:54:41   [Analogy] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 09:54:57   [Sentence_Arrangement] Practice_en_Set_06.txt try 3: re-solve disagrees (Q126 key b vs re-solve a)
+09-10 09:55:13   [Classification] wrote Content_en.txt (8635 chars)
+09-10 09:56:40   [Word_Roots] PYQ_en.txt try 1: answer too long — asking for a tighter version
+09-10 09:57:35   [Analogy] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 09:57:54   [Word_Roots] wrote PYQ_en.txt (7105 chars)
+09-10 09:58:20   [Classification] Content_hi.txt try 1: rejected (corrupted characters)
+09-10 09:58:37   [Analogy] Practice_hi_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
 ```
