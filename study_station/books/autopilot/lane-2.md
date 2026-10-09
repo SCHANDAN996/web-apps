@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 02:03 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:46 PM
+**आख़िरी update:** 09-10-2026 02:18 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:46 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Awards (Graduation GK) | 🔎 review हो रहा है | 16 मिनट |
-| W2 | Chapter 22 Defence (Graduation GK) | ✍️ लिख रहा है | 5 मिनट |
-| W3 | Chapter 23 Economic Terms (Graduation GK) | 🔎 review हो रहा है | 8 मिनट |
-| W4 | Chapter 24 Reports Indices (Graduation GK) | ✍️ लिख रहा है | 15 मिनट |
-| W5 | Chapter 25 Govt Schemes (Graduation GK) | ✍️ लिख रहा है | 15 मिनट |
+| W1 | Chapter 13 Awards (Graduation GK) | 🔎 review हो रहा है | 31 मिनट |
+| W2 | Chapter 22 Defence (Graduation GK) | 🔎 review हो रहा है | 10 मिनट |
+| W3 | Chapter 23 Economic Terms (Graduation GK) | 🔎 review हो रहा है | 23 मिनट |
+| W4 | Chapter 24 Reports Indices (Graduation GK) | ✍️ लिख रहा है | 31 मिनट |
+| W5 | Chapter 25 Govt Schemes (Graduation GK) | ✍️ लिख रहा है | 30 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -21,16 +21,16 @@
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 9 | 13 | 0 |
-| 10th English | 1 | 0 | 19 |
+| 10th English | 2 | 0 | 18 |
 | 12th Maths | 0 | 0 | 23 |
 | 12th GK | 17 | 0 | 7 |
 | 12th Reasoning | 1 | 0 | 24 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 21 | 0 | 7 |
+| Graduation GK | 22 | 0 | 6 |
 | Graduation Reasoning | 3 | 0 | 27 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **145** | **13** | **138** |
+| **कुल** | **147** | **13** | **136** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -67,4 +67,16 @@
 09-10 13:59:05   [Awards] review Content_hi.txt: 2 issue(s): - परिचय में लिखा है "डॉ. राधाकृष्णन उसी साल राष्ट्रपति बनने वाले थे" → डॉ. सर्वपल्ली राधाकृष्णन 1962 में राष्ट्रपति
 09-10 14:00:44   [Govt_Schemes] Content_hi.txt try 1: rejected (corrupted characters)
 09-10 14:02:03   [Defence] Practice_hi_Set_01.txt try 1: rejected (Q24:needs_context)
+09-10 14:07:15   [Govt_Schemes] wrote Content_hi.txt (12329 chars)
+09-10 14:07:34   [Defence] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 14:07:34   [Defence] written 1, failed 0; AI calls today 30/100000
+09-10 14:07:36   [Economic_Terms] review Flashcards_en.txt: 1 issue(s): - Card 2: "remittances raise GNP" is incorrect; remittances are current transfers and increase Gross National Di
+09-10 14:10:27   [Govt_Schemes] wrote Key_Facts_en.txt (10904 chars)
+09-10 14:10:53   [Reports_Indices] Content_hi.txt try 1: answer too long — asking for a tighter version
+09-10 14:13:28   [Govt_Schemes] wrote Key_Facts_hi.txt (7445 chars)
+09-10 14:14:07   [Reports_Indices] wrote Content_hi.txt (9765 chars)
+09-10 14:15:02   [Govt_Schemes] wrote Feynman_en.txt (3535 chars)
+09-10 14:16:21   [Reports_Indices] wrote Key_Facts_en.txt (8726 chars)
+09-10 14:17:20   [Awards] review Mind_Map.txt: 1 issue(s): - C1a: "1901 से, 6 क्षेत्र" is incorrect; the Nobel Prize in Economics was added in 1969 → Correct: "1901 से 5 क्षेत्
+09-10 14:17:26   [Govt_Schemes] wrote Feynman_hi.txt (3320 chars)
 ```
