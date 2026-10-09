@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 06:04 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 06:19 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 19 Fill in Blanks Adv (12th English) | ✍️ लिख रहा है | 65 मिनट |
-| W2 | Chapter 20 Sentence Improvement Adv (12th English) | ✍️ लिख रहा है | 51 मिनट |
-| W3 | Chapter 21 Cloze Test (12th English) | ✍️ लिख रहा है | 37 मिनट |
-| W4 | Chapter 18 Error Spotting Adv (12th English) | 🔎 review हो रहा है | 1 मिनट |
-| W5 | Chapter 17 Spelling (12th English) | 🔎 review हो रहा है | 26 मिनट |
+| W1 | Chapter 19 Fill in Blanks Adv (12th English) | ✍️ लिख रहा है | 80 मिनट |
+| W2 | Chapter 20 Sentence Improvement Adv (12th English) | ✍️ लिख रहा है | 66 मिनट |
+| W3 | Chapter 21 Cloze Test (12th English) | ✍️ लिख रहा है | 52 मिनट |
+| W4 | Chapter 18 Error Spotting Adv (12th English) | 🔎 review हो रहा है | 16 मिनट |
+| W5 | Chapter 17 Spelling (12th English) | 🔎 review हो रहा है | 41 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -23,14 +23,14 @@
 | 10th Maths | 9 | 13 | 0 |
 | 10th English | 0 | 0 | 20 |
 | 12th Maths | 0 | 0 | 23 |
-| 12th GK | 6 | 0 | 18 |
+| 12th GK | 8 | 0 | 16 |
 | 12th Reasoning | 0 | 0 | 25 |
 | 12th English | 17 | 0 | 8 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 7 | 0 | 21 |
 | Graduation Reasoning | 1 | 0 | 29 |
 | Graduation English | 28 | 0 | 2 |
-| **कुल** | **109** | **13** | **174** |
+| **कुल** | **111** | **13** | **172** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -52,22 +52,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 05:38:14   [Spelling] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 05:38:14   [Spelling] written 26, failed 0; AI calls today 528/100000
-09-10 05:38:51   [Cloze_Test] wrote PYQ_hi.txt (5534 chars)
-09-10 05:39:36   [Cloze_Test] wrote Short_Tricks_en.txt (5732 chars)
-09-10 05:40:15   [Error_Spotting_Adv] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-09-10 05:40:58   [Sentence_Improvement_Adv] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-09-10 05:40:58   [Cloze_Test] wrote Short_Tricks_hi.txt (5394 chars)
-09-10 05:41:26   [Spelling] review Content_en.txt: 3 issue(s): - The list of exceptions to "i before e" contains seven words (weird, seize, height, their, foreign, neighbour, wei
-09-10 05:41:51   [Cloze_Test] wrote Important_Rules_en.txt (5613 chars)
-09-10 05:43:11   [Error_Spotting_Adv] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 05:43:13   [Cloze_Test] wrote Important_Rules_hi.txt (4778 chars)
-09-10 05:44:35   [Cloze_Test] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 05:45:04   [Spelling] review Content_hi.txt: 1 issue(s): - Rule 3 incorrectly limits the doubling rule to "एक-अक्षर के शब्द" (monosyllabic words) but then gives "begin" (a 
-09-10 05:46:03   [Error_Spotting_Adv] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-09-10 05:46:24   [Sentence_Improvement_Adv] Practice_en_Set_02.txt try 1: re-solve disagrees (Q28 key b vs re-solve c, Q30 key d vs re-solve a)
-09-10 05:46:26   [Cloze_Test] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 09-10 05:46:48   [Sentence_Improvement_Adv] Practice_en_Set_02.txt try 2: rejected (parsed 0 questions, numbers -…-)
 09-10 05:47:17   [Spelling] review Feynman_en.txt: 4 issue(s): - "Knight came from old German" → "Knight came from Old English (a Germanic language)"
 09-10 05:48:51   [Error_Spotting_Adv] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
@@ -92,4 +76,20 @@
 09-10 06:02:32   [Error_Spotting_Adv] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 09-10 06:02:32   [Error_Spotting_Adv] written 26, failed 0; AI calls today 583/100000
 09-10 06:04:05   [Fill_in_Blanks_Adv] Practice_en_Set_05.txt try 3: rejected (parsed 0 questions, numbers -…-)
+09-10 06:05:54   [Error_Spotting_Adv] review Content_hi.txt: 2 issue(s): - In the Linguistic Bridge table (row 2), the suggested correct English for "I am going to Delhi, no?" includes "is
+09-10 06:06:46   [Fill_in_Blanks_Adv] Practice_en_Set_05.txt try 4: re-solve disagrees (Q108 key c vs re-solve b)
+09-10 06:06:46   [Fill_in_Blanks_Adv] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
+09-10 06:06:46   [Fill_in_Blanks_Adv] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
+09-10 06:09:45   [Cloze_Test] Practice_en_Set_05.txt try 1: rejected (parsed 1 questions, numbers 101…101)
+09-10 06:10:19   [Fill_in_Blanks_Adv] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 06:10:30   [Error_Spotting_Adv] review Feynman_en.txt: 1 issue(s): - The blurting instruction asks for "The 5 'bridge words'" but the section lists 7 bridge phrases (of, with, along 
+09-10 06:10:45   [Spelling] review PYQ_hi.txt: 1 issue(s): - दावा कि SSC आदि परीक्षाओं में Spelling Check लगभग हर शिफ्ट में 1–3 प्रश्न आता है, सत्यापित नहीं है → इस विशिष्ट संख्य
+09-10 06:13:04   [Spelling] review Short_Tricks_en.txt: 1 issue(s): - Claim "India's #1 misspelt word in exams!" is an invented exam statistic → Remove the unverified claim or re
+09-10 06:13:09   [Cloze_Test] Practice_en_Set_05.txt try 2: re-solve disagrees (Q118 key a vs re-solve d)
+09-10 06:15:41   [Cloze_Test] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 06:15:43   [Error_Spotting_Adv] review Flashcards_en.txt: 1 issue(s): - Card 8 claims "I, you and he are guilty" has correct pronoun order, but the standard polite order is "You, he 
+09-10 06:16:47   [Sentence_Improvement_Adv] FAILED Practice_en_Set_03.txt: too_long
+09-10 06:16:47   [Sentence_Improvement_Adv] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
+09-10 06:17:25   [Cloze_Test] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 06:18:29   [Error_Spotting_Adv] review Flashcards_hi.txt: 1 issue(s): - Card 5: The back answer explains the “E‑5” rule (Each, Every, Everyone, Everybody, Everything = singular) but 
 ```
