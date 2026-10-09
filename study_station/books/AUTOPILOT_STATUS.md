@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 11:38 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:17 PM
+**आख़िरी update:** 09-10-2026 11:44 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:17 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,12 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 16 Statement Conclusion (Graduation Reasoning) | 🔎 review हो रहा है | 31 मिनट |
-| W2 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 98 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 45 मिनट |
-| W4 | Chapter 19 Cubes Dice (Graduation Reasoning) | ✍️ लिख रहा है | 182 मिनट |
-| W7 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 75 मिनट |
-| W8 | Chapter 15 Mathematical Operations (Graduation Reasoning) | 🔎 review हो रहा है | 48 मिनट |
+| W1 | Chapter 16 Statement Conclusion (Graduation Reasoning) | 🔎 review हो रहा है | 37 मिनट |
+| W2 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 104 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 51 मिनट |
+| W4 | Chapter 19 Cubes Dice (Graduation Reasoning) | ✍️ लिख रहा है | 188 मिनट |
+| W7 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 82 मिनट |
+| W8 | Chapter 15 Mathematical Operations (Graduation Reasoning) | 📤 push हो रहा है | 0 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -23,7 +23,7 @@
 |---|---|---|---|
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
-| 10th Maths | 14 | 8 | 0 |
+| 10th Maths | 15 | 7 | 0 |
 | 10th English | 17 | 0 | 3 |
 | 12th Maths | 10 | 0 | 13 |
 | 12th GK | 22 | 0 | 2 |
@@ -33,10 +33,11 @@
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 12 | 2 | 16 |
 | Graduation English | 29 | 1 | 0 |
-| **कुल** | **207** | **11** | **78** |
+| **कुल** | **208** | **10** | **78** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 23:44 — Graduation Reasoning · Chapter 15 Mathematical Operations
 - 09-10 23:31 — Graduation Reasoning · Chapter 18 Inequality
 - 09-10 21:59 — Graduation Reasoning · Chapter 17 Course of Action
 
@@ -55,13 +56,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 23:04:56   [Dictionary_Order] Practice_en_Set_06.txt try 2: re-solve disagrees (Q126 key c vs re-solve b, Q128 key d vs re-solve ?, Q131 key b vs re-solve d, Q146 key d vs re-solve
-09-10 23:06:36   [Paper_Folding_Cutting] wrote PYQ_en.txt (9724 chars)
-09-10 23:06:59   [Statement_Conclusion] repaired Short_Tricks_hi.txt (5237 chars)
-09-10 23:06:59   [Statement_Conclusion] written 1, failed 0; AI calls today 430/100000
-09-10 23:08:02   [Statement_Conclusion] review Content_en.txt: 1 issue(s): - Chat line "Here is a real exam-style situation:" → Remove the conversational opener
-09-10 23:08:58   [Mathematical_Operations] review Feynman_hi.txt: 1 issue(s): - BODMAS लगाओ (भाग → गुणा → जोड़ → घटाव)। → BODMAS लगाओ (भाग और गुणा का समान प्राथमिकता, बाएँ से दाएँ; जोड़ और घटाव
-09-10 23:09:48   [Paper_Folding_Cutting] wrote PYQ_hi.txt (9775 chars)
 09-10 23:10:51   [Paper_Folding_Cutting] wrote Short_Tricks_en.txt (4367 chars)
 09-10 23:11:56   [Inequality] review PYQ_hi.txt: 1 issue(s): - Question 2 claims N ≥ P is false when N > P is true, but strict inequality implies the non-strict one; the book's own
 09-10 23:12:28   [Cubes_Dice] wrote Practice_en_Set_03.txt (write, 25 MCQs)
@@ -95,4 +89,11 @@
 09-10 23:35:37   [Mirror_Water_Images] Practice_en_Set_02.txt try 2: re-solve disagrees (Q26 key d vs re-solve -, Q33 key c vs re-solve b, Q34 key c vs re-solve -, Q35 key b vs re-solve -, 
 09-10 23:37:52   [Paper_Folding_Cutting] Practice_en_Set_01.txt try 1: re-solve disagrees (Q15 key b vs re-solve c)
 09-10 23:38:19   [Mathematical_Operations] review Short_Tricks_hi.txt: 5 issue(s): - "ओफ" in Trick 1 mnemonic is a misspelling of "Of" → correct to "ऑफ" or "ऑफ़"
+09-10 23:39:31   [Paper_Folding_Cutting] Practice_en_Set_01.txt try 2: rejected (parsed 0 questions, numbers -…-)
+09-10 23:42:46   [Mirror_Water_Images] Practice_en_Set_02.txt try 3: re-solve disagrees (Q40 key a vs re-solve d, Q49 key c vs re-solve a)
+09-10 23:43:31   [Paper_Folding_Cutting] Practice_en_Set_01.txt try 3: rejected (parsed 0 questions, numbers -…-)
+09-10 23:44:37   [Sitting_Arrangement] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 23:44:38   [Cubes_Dice] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 23:44:53   [Mathematical_Operations] review: 6 section(s) corrected, 0 failed
+09-10 23:44:53   [Mathematical_Operations] written 6, failed 0; AI calls today 498/100000
 ```
