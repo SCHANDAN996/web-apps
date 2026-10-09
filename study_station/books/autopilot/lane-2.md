@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 12:15 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 12:30 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Defence (Graduation GK) | ✍️ लिख रहा है | 88 मिनट |
-| W2 | Chapter 18 Science Tech (Graduation GK) | 🔎 review हो रहा है | 28 मिनट |
-| W3 | Chapter 21 International Orgs (Graduation GK) | 🔎 review हो रहा है | 2 मिनट |
-| W4 | Chapter 23 Economic Terms (Graduation GK) | ✍️ लिख रहा है | 19 मिनट |
-| W5 | Chapter 19 Environment (Graduation GK) | 🔎 review हो रहा है | 0 मिनट |
+| W1 | Chapter 22 Defence (Graduation GK) | ✍️ लिख रहा है | 6 मिनट |
+| W2 | Chapter 18 Science Tech (Graduation GK) | 🔎 review हो रहा है | 43 मिनट |
+| W3 | Chapter 21 International Orgs (Graduation GK) | 🔎 review हो रहा है | 17 मिनट |
+| W4 | Chapter 23 Economic Terms (Graduation GK) | ✍️ लिख रहा है | 34 मिनट |
+| W5 | Chapter 19 Environment (Graduation GK) | 🔎 review हो रहा है | 15 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -50,38 +50,11 @@
 - Chapter 18 Science Tech (GK) — 1 बार
 - Chapter 21 International Orgs (GK) — 1 बार
 - Chapter 19 Environment (GK) — 1 बार
+- Chapter 22 Defence (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 11:52:28   [Science_Tech] review Content_hi.txt: 1 issue(s): - Aditya-L1 launch location incorrectly stated as Bhuj, Gujarat → Aditya-L1 was launched from Satish Dhawan Space C
-09-10 11:52:55   [Environment] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-09-10 11:53:08   [Culture_Art] review: 7 section(s) corrected, 1 failed
-09-10 11:53:08   [Culture_Art] written 7, failed 1; AI calls today 410/100000
-09-10 11:53:08 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_17_Culture_Art after 154 min: todo [] problems []
-09-10 11:53:09 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_17_Culture_Art (OK: todo 0, problems 0)
-09-10 11:54:33   [Culture_Art] review PYQ_en.txt: 1 issue(s): - In Trap 2, the answer line states "Answer: 3 → 1 → 2" but the solution correctly explains the chronological order as 
-09-10 11:54:52   [International_Orgs] Practice_en_Set_06.txt try 1: re-solve disagrees (Q150 key d vs re-solve ?)
-09-10 11:55:29   [Environment] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-09-10 11:55:50   [Culture_Art] review: 1 section(s) corrected, 0 failed
-09-10 11:55:50   [Culture_Art] written 1, failed 0; AI calls today 417/100000
-09-10 11:56:03 DONE Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_17_Culture_Art in 3 min → 012108f3
-09-10 11:56:04 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_23_Economic_Terms (TODO: todo 25, problems 0)
-09-10 11:56:35   [Defence] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-09-10 11:57:07   [Defence] Practice_hi_Set_04.txt try 1: rejected (parsed 1 questions, numbers 76…76)
-09-10 11:58:22   [Defence] Practice_hi_Set_04.txt try 2: rejected (parsed 0 questions, numbers -…-)
-09-10 11:59:42   [Environment] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 12:02:26   [Environment] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-09-10 12:03:27   [International_Orgs] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 12:03:39   [Defence] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 12:06:16   [Environment] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-09-10 12:06:33   [International_Orgs] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 12:06:33   [International_Orgs] written 23, failed 2; AI calls today 430/100000
-09-10 12:06:34 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_21_International_Orgs after 93 min: todo ['Set 02 en: todo', 'Set 02 hi: todo'] problems []
-09-10 12:06:35 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_21_International_Orgs (TODO: todo 2, problems 0)
-09-10 12:08:31   [Defence] Practice_en_Set_05.txt try 1: re-solve disagrees (Q122 key a vs re-solve c)
-09-10 12:08:44   [Science_Tech] review Key_Facts_hi.txt: 1 issue(s): - परम शून्य तालिका में केल्विन रूपांतरण सूत्र "K = °C + 273" गलत है → सही सूत्र: K = °C + 273.15
-09-10 12:09:24   [Environment] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 09-10 12:09:56   [International_Orgs] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 09-10 12:11:02   [Defence] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 09-10 12:11:07   [Economic_Terms] Content_en.txt try 1: answer too long — asking for a tighter version
@@ -94,4 +67,32 @@
 09-10 12:13:46   [Economic_Terms] wrote Content_en.txt (15839 chars)
 09-10 12:14:38   [Environment] wrote PYQ_hi.txt (7836 chars)
 09-10 12:14:38   [Environment] written 1, failed 0; AI calls today 446/100000
+09-10 12:16:12   [Environment] review Content_en.txt: 1 issue(s): - Hindi term for Eutrophication given as "सुपोषण" (meaning good nutrition) → should be "अतिपोषण" or "यूट्रोफिकेशन"
+09-10 12:16:21   [Science_Tech] review Mind_Map.txt: 1 issue(s): - Sound speed in air listed as 332 m/s without temperature → standard value is ~331 m/s at 0°C or ~343 m/s at 20°C; s
+09-10 12:16:46   [Defence] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 12:16:49   [International_Orgs] review Content_en.txt: 1 issue(s): - OPEC member count in table (Part 3) given as 12 → correct count is 13 (as of 2024)
+09-10 12:17:27   [Economic_Terms] wrote Content_hi.txt (10315 chars)
+09-10 12:18:24   [Science_Tech] review Flashcards_en.txt: 1 issue(s): - Card 4: The chlor‑alkali process does not use hydrochloric acid to produce NaCl; it is the electrolysis of bri
+09-10 12:18:55   [Economic_Terms] wrote Key_Facts_en.txt (625 chars)
+09-10 12:20:24   [Science_Tech] review PYQ_en.txt: 1 issue(s): - Q7 answer key lists (a) but the correct chronological order (Dynamite 1867, Telephone 1876, X-rays 1895, Penicillin 1
+09-10 12:20:26   [International_Orgs] review Content_hi.txt: 1 issue(s): - SAARC mnemonic sentence "भारत ने पाकिस्तान से मालदीव में श्रीलंका, बांग्लादेश, अफगानिस्तान और भूटान का साथ पाया" 
+09-10 12:20:27   [Defence] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 12:20:45   [Defence] Practice_hi_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 12:22:03   [Economic_Terms] wrote Key_Facts_hi.txt (7937 chars)
+09-10 12:22:46   [Economic_Terms] wrote Feynman_en.txt (3398 chars)
+09-10 12:23:43   [Economic_Terms] wrote Feynman_hi.txt (2733 chars)
+09-10 12:23:59   [Defence] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+09-10 12:23:59   [Defence] written 22, failed 3; AI calls today 472/100000
+09-10 12:23:59 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_22_Defence after 97 min: todo ['Set 01 hi: todo', 'Set 03 en: todo', 'Set 03 hi: todo'] problems []
+09-10 12:24:00 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_22_Defence (TODO: todo 3, problems 0)
+09-10 12:24:34   [Economic_Terms] wrote Mind_Map.txt (3026 chars)
+09-10 12:25:17   [Economic_Terms] wrote Flashcards_en.txt (5284 chars)
+09-10 12:26:24   [Environment] review Mind_Map.txt: 1 issue(s): - B3: "आवासीय स्थान" is not the standard Hindi term for Niche; the correct term is "निच" or "पारिस्थितिक निच" → Repla
+09-10 12:26:35   [Economic_Terms] wrote Flashcards_hi.txt (4188 chars)
+09-10 12:26:53   [Defence] Practice_hi_Set_01.txt try 1: rejected (Q24:needs_context)
+09-10 12:27:59   [Economic_Terms] PYQ_en.txt try 1: rejected (corrupted characters)
+09-10 12:29:25   [Science_Tech] review Memory_Hooks_hi.txt: 1 issue(s): - Box 8 का मnemonic "बैजानी हरा पीला नारंगी लाल = VIBGYOR (उल्टा क्रम)" गलत है क्योंकि VIBGYOR में सात रंग (बै
+09-10 12:29:34   [International_Orgs] review Key_Facts_en.txt: 2 issue(s): - UN founded description says "24 October 1945, San Francisco Conference" → San Francisco Conference was April–Ju
+09-10 12:30:11   [Economic_Terms] wrote PYQ_en.txt (10927 chars)
+09-10 12:30:22   [Defence] Practice_hi_Set_01.txt try 2: rejected (Q24:needs_context)
 ```
