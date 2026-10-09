@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 01:02 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:38 AM
+**आख़िरी update:** 10-10-2026 01:09 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:38 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Time Work (Graduation Maths) | ✍️ लिख रहा है | 17 मिनट |
-| W2 | Chapter 02 LCM HCF (Graduation Maths) | 🔎 review हो रहा है | 21 मिनट |
-| W3 | Chapter 03 Simplification (Graduation Maths) | 🔎 review हो रहा है | 24 मिनट |
-| W4 | Chapter 04 Fractions Decimals (Graduation Maths) | 📤 push हो रहा है | 0 मिनट |
-| W5 | Chapter 12 Time Distance (Graduation Maths) | ✍️ लिख रहा है | 9 मिनट |
-| W6 | Chapter 07 Ratio Proportion (Graduation Maths) | 🔎 review हो रहा है | 13 मिनट |
-| W7 | Chapter 09 Simple Interest (Graduation Maths) | 🔎 review हो रहा है | 23 मिनट |
-| W8 | Chapter 10 Compound Interest (Graduation Maths) | ✍️ लिख रहा है | 23 मिनट |
+| W1 | Chapter 11 Time Work (Graduation Maths) | ✍️ लिख रहा है | 25 मिनट |
+| W2 | Chapter 02 LCM HCF (Graduation Maths) | 🔎 review हो रहा है | 28 मिनट |
+| W3 | Chapter 03 Simplification (Graduation Maths) | 🔎 review हो रहा है | 31 मिनट |
+| W4 | Chapter 13 Mixture Alligation (Graduation Maths) | ✍️ लिख रहा है | 6 मिनट |
+| W5 | Chapter 12 Time Distance (Graduation Maths) | ✍️ लिख रहा है | 17 मिनट |
+| W6 | Chapter 07 Ratio Proportion (Graduation Maths) | 🔎 review हो रहा है | 20 मिनट |
+| W7 | Chapter 09 Simple Interest (Graduation Maths) | 🔎 review हो रहा है | 31 मिनट |
+| W8 | Chapter 10 Compound Interest (Graduation Maths) | ✍️ लिख रहा है | 31 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -23,7 +23,7 @@
 |---|---|---|---|
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
-| 10th Maths | 16 | 6 | 0 |
+| 10th Maths | 17 | 5 | 0 |
 | 10th English | 17 | 0 | 3 |
 | 12th Maths | 11 | 0 | 12 |
 | 12th GK | 22 | 0 | 2 |
@@ -33,7 +33,7 @@
 | Graduation GK | 27 | 1 | 0 |
 | Graduation Reasoning | 12 | 0 | 18 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **216** | **8** | **72** |
+| **कुल** | **217** | **7** | **72** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -48,21 +48,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 00:44:42 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_11_Time_Work (TODO: todo 11, problems 0)
-10-10 00:44:47   [Simplification] review Feynman_hi.txt: 1 issue(s): - भाग (÷) में गोलाई का नियम गलत लिखा है: "भाज्य और भाजक को एक ही दिशा में गोल करो" कहा गया है, लेकिन उदाहरण 498 ÷ 5
-10-10 00:45:10   [Time_Work] wrote Feynman_en.txt (2297 chars)
-10-10 00:45:59   [Percentage] repaired Feynman_hi.txt (2969 chars)
-10-10 00:46:27   [Compound_Interest] Practice_en_Set_01.txt try 2: rejected (parsed 0 questions, numbers -…-)
-10-10 00:46:35   [Simple_Interest] review Content_hi.txt: 2 issue(s): - In Part 4, the example splitting ₹12,000 at 5% and 8% for 2 years with total interest ₹1,560 incorrectly gives pa
-10-10 00:46:40   [LCM_HCF] review Feynman_en.txt: 1 issue(s): - Invented statistic "90%" claimed for error-catching check → remove the unsourced claim or replace with a verified
-10-10 00:46:45   [Ratio_Proportion] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-10-10 00:47:38   [Time_Work] Practice_en_Set_02.txt try 1: rejected (Q29:leaked_reasoning,Q30:leaked_reasoning,Q36:leaked_reasoning,Q40:leaked_reasoning,Q45:leaked_reasoning)
-10-10 00:47:51   [Compound_Interest] Practice_en_Set_01.txt try 3: rejected (Q21:leaked_reasoning)
-10-10 00:49:22   [Ratio_Proportion] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-10-10 00:49:22   [Ratio_Proportion] written 2, failed 0; AI calls today 52/100000
-10-10 00:50:18   [Fractions_Decimals] review Flashcards_en.txt: 1 issue(s): - Card 10: Mnemonic claims to cover 1/2 to 1/10 but omits 1/7 → Include 1/7 ≈ 0.142857 (repeating) or note the o
-10-10 00:50:33   [Compound_Interest] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-10-10 00:51:04   [Percentage] repaired Flashcards_hi.txt (2304 chars)
 10-10 00:51:04   [Percentage] written 2, failed 0; AI calls today 59/100000
 10-10 00:51:04 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_05_Percentage after 13 min: todo [] problems ['Feynman_hi.txt: much shorter than the English section (2968 ']
 10-10 00:51:06 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_05_Percentage (FIX: todo 0, problems 1)
@@ -88,4 +73,19 @@
 10-10 01:01:48   [Time_Work] Practice_hi_Set_02.txt try 1: rejected (parsed 1 questions, numbers 26…26)
 10-10 01:02:30   [Fractions_Decimals] review: 3 section(s) corrected, 0 failed
 10-10 01:02:30   [Fractions_Decimals] written 3, failed 0; AI calls today 101/100000
+10-10 01:02:50 DONE Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_04_Fractions_Decimals in 24 min → 425a1813
+10-10 01:02:53 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_13_Mixture_Alligation (TODO: todo 5, problems 1)
+10-10 01:02:54   [Ratio_Proportion] review Content_hi.txt: 2 issue(s): - Compound Ratio की परिभाषा गलत लिखी गई है: "a:c और b:d का compound = ab : cd" → सही है "a:b और c:d का compound = a
+10-10 01:03:09   [Ratio_Proportion] REJECTED review fix Content_hi.txt: too short
+10-10 01:03:31   [Compound_Interest] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+10-10 01:04:36   [Ratio_Proportion] review Feynman_en.txt: 1 issue(s): - In the quick test, the calculation for (x+y)/(x−y) when x/y = 3/5 is incorrectly given as 4 by substituting (y−x)
+10-10 01:04:45   [Mixture_Alligation] Content_en.txt try 1: rejected (chat debris "Here is the")
+10-10 01:05:40   [Time_Distance] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+10-10 01:06:06   [Mixture_Alligation] Content_en.txt try 2: rejected (chat debris "Here is the")
+10-10 01:06:06   [Mixture_Alligation] REJECTED Content_en.txt: chat debris "Here is the" — not written
+10-10 01:06:06   [Time_Work] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+10-10 01:07:06   [Time_Distance] Practice_en_Set_05.txt try 1: rejected (Q119:leaked_reasoning,Q124:leaked_reasoning)
+10-10 01:07:27   [Simple_Interest] review PYQ_hi.txt: 1 issue(s): - प्रश्न 10 का उत्तर और सूत्र गलत है: ₹1,575 का ऋण आज लेकर 5% साधारण ब्याज पर 3 समान वार्षिक किस्तों में चुकाने पर प्रत
+10-10 01:08:28   [Ratio_Proportion] review Mind_Map.txt: 1 issue(s): - Node C1 incorrectly labels "a:b :: c:d" as "Continued Proportion" → Continued proportion is a:b = b:c; "a:b :: c:d"
+10-10 01:08:31   [LCM_HCF] review Important_Formulas_en.txt: 1 issue(s): - HCF by Division Method: "last non-zero remainder's divisor = HCF" is incorrect → The last non-zero rem
 ```
