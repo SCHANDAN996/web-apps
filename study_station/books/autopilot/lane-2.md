@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 11:17 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:12 PM
+**आख़िरी update:** 09-10-2026 11:18 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:12 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 Fractions Decimals (Graduation Maths) | 🔎 review हो रहा है | 38 मिनट |
-| W2 | Chapter 12 Time Distance (Graduation Maths) | ✍️ लिख रहा है | 65 मिनट |
-| W3 | Chapter 13 Mixture Alligation (Graduation Maths) | ✍️ लिख रहा है | 43 मिनट |
-| W4 | Chapter 08 Profit Loss (Graduation Maths) | 🔎 review हो रहा है | 42 मिनट |
-| W5 | Chapter 09 Simple Interest (Graduation Maths) | 🔎 review हो रहा है | 35 मिनट |
-| W6 | Chapter 14 Mensuration (Graduation Maths) | ✍️ लिख रहा है | 11 मिनट |
-| W7 | Chapter 11 Time Work (Graduation Maths) | ✍️ लिख रहा है | 75 मिनट |
-| W8 | Chapter 10 Compound Interest (Graduation Maths) | ✍️ लिख रहा है | 77 मिनट |
+| W1 | Chapter 04 Fractions Decimals (Graduation Maths) | 🔎 review हो रहा है | 39 मिनट |
+| W2 | Chapter 12 Time Distance (Graduation Maths) | ✍️ लिख रहा है | 67 मिनट |
+| W3 | Chapter 13 Mixture Alligation (Graduation Maths) | ✍️ लिख रहा है | 45 मिनट |
+| W4 | Chapter 08 Profit Loss (Graduation Maths) | 📤 push हो रहा है | 0 मिनट |
+| W5 | Chapter 09 Simple Interest (Graduation Maths) | 🔎 review हो रहा है | 36 मिनट |
+| W6 | Chapter 14 Mensuration (Graduation Maths) | ✍️ लिख रहा है | 13 मिनट |
+| W7 | Chapter 11 Time Work (Graduation Maths) | ✍️ लिख रहा है | 77 मिनट |
+| W8 | Chapter 10 Compound Interest (Graduation Maths) | ✍️ लिख रहा है | 78 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,6 +37,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 23:18 — Graduation Maths · Chapter 08 Profit Loss
 - 09-10 22:33 — Graduation Maths · Chapter 06 Average
 - 09-10 21:05 — Graduation GK · Chapter 28 Advanced Science Tech
 - 09-10 20:48 — Graduation GK · Chapter 27 Budget Economic Survey
@@ -56,11 +57,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 22:50:35   [Fractions_Decimals] review Content_hi.txt: 2 issue(s): - Hook story claims all three friends are correct (तीनों सही हैं), but the first friend's answer ₹33 is exactly cor
-09-10 22:51:20   [Mixture_Alligation] wrote Short_Tricks_en.txt (5710 chars)
-09-10 22:53:27   [Simple_Interest] review Content_hi.txt: 2 issue(s): - In Part 4, the two-rate example (₹12,000 split at 5% and 8% for 2 years, total interest ₹1,560) incorrectly state
-09-10 22:53:31   [Mixture_Alligation] wrote Short_Tricks_hi.txt (7924 chars)
-09-10 22:55:05   [Mixture_Alligation] wrote Important_Formulas_en.txt (2961 chars)
 09-10 22:59:26   [Time_Distance] FAILED Flashcards_hi.txt: too_long
 09-10 23:01:21   [Time_Work] wrote Short_Tricks_en.txt (4333 chars)
 09-10 23:01:23   [Time_Distance] wrote PYQ_en.txt (8078 chars)
@@ -96,4 +92,9 @@
 09-10 23:16:12   [Mensuration] wrote Feynman_hi.txt (3167 chars)
 09-10 23:16:43   [Compound_Interest] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 09-10 23:16:50   [Mensuration] wrote Mind_Map.txt (2189 chars)
+09-10 23:17:22   [Mensuration] wrote Flashcards_en.txt (2878 chars)
+09-10 23:17:26   [Fractions_Decimals] review PYQ_hi.txt: 2 issue(s): - Invented statistic '70% गलतियाँ होती हैं' (no source) → Remove the percentage or replace with qualitative wording.
+09-10 23:18:11   [Time_Distance] PYQ_hi.txt try 1: answer too long — asking for a tighter version
+09-10 23:18:49   [Profit_Loss] review: 4 section(s) corrected, 0 failed
+09-10 23:18:49   [Profit_Loss] written 4, failed 0; AI calls today 653/100000
 ```

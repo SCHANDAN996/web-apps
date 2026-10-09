@@ -1,0 +1,37 @@
+```mermaid
+graph TD
+    A["लाभ और हानि<br>Profit & Loss"] --> B["मूल अवधारणाएँ<br>Basic Concepts"]
+    A --> C["लाभ-हानि गणना<br>Profit-Loss Calculation"]
+    A --> D["छूट और चिह्नित मूल्य<br>Discount & Marked Price"]
+    A --> E["विशेष प्रकरण<br>Special Cases"]
+    A --> F["उन्नत प्रकार<br>Advanced Types"]
+
+    B --> B1["क्रय मूल्य (CP)<br>Cost Price"]
+    B --> B2["विक्रय मूल्य (SP)<br>Selling Price"]
+    B --> B3["चिह्नित मूल्य (MP)<br>Marked Price"]
+    B --> B4["उपरि व्यय<br>Overhead Expenses"]
+
+    C --> C1["लाभ = SP − CP<br>Profit = SP − CP"]
+    C --> C2["हानि = CP − SP<br>Loss = CP − SP"]
+    C --> C3["लाभ % = लाभ/CP × 100<br>Profit % = Profit/CP × 100"]
+    C --> C4["हानि % = हानि/CP × 100<br>Loss % = Loss/CP × 100"]
+    C --> C5["SP = CP × (100 ± P%)/100<br>SP from CP and %"]
+
+    D --> D1["छूट = MP − SP<br>Discount = MP − SP"]
+    D --> D2["छूट % = छूट/MP × 100<br>Discount % on MP"]
+    D --> D3["क्रमिक छूट<br>Successive Discounts"]
+    D --> D4["MP अंकन: CP पर % बढ़ाकर<br>Mark-up over CP"]
+    D --> D5["छूट के बाद भी लाभ<br>Profit even after Discount"]
+
+    E --> E1["दो वस्तुएँ, समान SP<br>Same SP, one profit one loss"]
+    E --> E2["समान SP + समान % ⇒ सदैव हानि<br>Equal % ⇒ Always Loss = x²/100 %"]
+    E --> E3["बेईमान दुकानदार<br>Dishonest Dealer / False Weights"]
+    E --> E4["मुफ़्त वस्तु वाला सौदा<br>Free Goods / Buy-Get Offers"]
+    E --> E5["मिश्रण बेचना<br>Selling Mixtures"]
+
+    F --> F1["CP पर vs SP पर %<br>% on CP vs % on SP"]
+    F --> F2["लाभ % बदलने वाले प्रश्न<br>Change in Profit %"]
+    F --> F3["भागीदारी में लाभ बँटवारा<br>Profit Sharing in Partnership"]
+    F --> F4["CP:SP अनुपात विधि<br>Ratio Method CP:SP"]
+    F --> F5["दो लेन-देन श्रृंखला<br>Chain of Transactions"]
+```
