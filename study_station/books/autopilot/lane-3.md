@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 05:49 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 06:04 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 19 Fill in Blanks Adv (12th English) | ✍️ लिख रहा है | 50 मिनट |
-| W2 | Chapter 20 Sentence Improvement Adv (12th English) | ✍️ लिख रहा है | 36 मिनट |
-| W3 | Chapter 21 Cloze Test (12th English) | ✍️ लिख रहा है | 21 मिनट |
-| W4 | Chapter 18 Error Spotting Adv (12th English) | ✍️ लिख रहा है | 50 मिनट |
-| W5 | Chapter 17 Spelling (12th English) | 🔎 review हो रहा है | 10 मिनट |
+| W1 | Chapter 19 Fill in Blanks Adv (12th English) | ✍️ लिख रहा है | 65 मिनट |
+| W2 | Chapter 20 Sentence Improvement Adv (12th English) | ✍️ लिख रहा है | 51 मिनट |
+| W3 | Chapter 21 Cloze Test (12th English) | ✍️ लिख रहा है | 37 मिनट |
+| W4 | Chapter 18 Error Spotting Adv (12th English) | 🔎 review हो रहा है | 1 मिनट |
+| W5 | Chapter 17 Spelling (12th English) | 🔎 review हो रहा है | 26 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -25,12 +25,12 @@
 | 12th Maths | 0 | 0 | 23 |
 | 12th GK | 6 | 0 | 18 |
 | 12th Reasoning | 0 | 0 | 25 |
-| 12th English | 16 | 0 | 9 |
+| 12th English | 17 | 0 | 8 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 7 | 0 | 21 |
-| Graduation Reasoning | 0 | 0 | 30 |
+| Graduation Reasoning | 1 | 0 | 29 |
 | Graduation English | 28 | 0 | 2 |
-| **कुल** | **107** | **13** | **176** |
+| **कुल** | **109** | **13** | **174** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -52,26 +52,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 05:31:43   [Error_Spotting_Adv] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-09-10 05:31:52   [Sentence_Improvement_Adv] wrote Important_Rules_hi.txt (4124 chars)
-09-10 05:32:02   [Sentence_Improvement_Adv] Practice_en_Set_01.txt try 1: rejected (parsed 1 questions, numbers 1…1)
-09-10 05:32:31   [Cloze_Test] wrote Feynman_hi.txt (3252 chars)
-09-10 05:32:49   [Cloze_Test] wrote Mind_Map_en.txt (1423 chars)
-09-10 05:33:01   [Error_Spotting_Adv] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-09-10 05:33:17   [Cloze_Test] wrote Mind_Map_hi.txt (1540 chars)
-09-10 05:33:21   [Fill_in_Blanks_Adv] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-09-10 05:33:23   [Spelling] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-09-10 05:33:30   [Error_Spotting_Adv] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 05:34:35   [Spelling] Practice_en_Set_06.txt try 1: rejected (Q142:duplicate_options,Q148:duplicate_options)
-09-10 05:34:47   [Cloze_Test] wrote Flashcards_en.txt (5567 chars)
-09-10 05:34:52   [Fill_in_Blanks_Adv] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-09-10 05:35:39   [Sentence_Improvement_Adv] Practice_en_Set_01.txt try 2: re-solve disagrees (Q5 key a vs re-solve b)
-09-10 05:36:12   [Error_Spotting_Adv] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-09-10 05:36:48   [Cloze_Test] wrote Flashcards_hi.txt (5053 chars)
-09-10 05:36:58   [Spelling] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 05:37:23   [Cloze_Test] wrote PYQ_en.txt (5799 chars)
-09-10 05:37:55   [Error_Spotting_Adv] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-09-10 05:38:07   [Sentence_Improvement_Adv] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 09-10 05:38:14   [Spelling] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 09-10 05:38:14   [Spelling] written 26, failed 0; AI calls today 528/100000
 09-10 05:38:51   [Cloze_Test] wrote PYQ_hi.txt (5534 chars)
@@ -92,4 +72,24 @@
 09-10 05:47:17   [Spelling] review Feynman_en.txt: 4 issue(s): - "Knight came from old German" → "Knight came from Old English (a Germanic language)"
 09-10 05:48:51   [Error_Spotting_Adv] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 09-10 05:48:52   [Cloze_Test] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+09-10 05:49:38   [Spelling] review Feynman_hi.txt: 1 issue(s): - "परीक्षा में 90% वर्तनी प्रश्न इन्हीं 4 खानदानों से आते हैं" (आविष्कृत आंकड़ा, कोई स्रोत नहीं) → इस असत्यापित दाव
+09-10 05:49:53   [Cloze_Test] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 05:50:41   [Sentence_Improvement_Adv] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+09-10 05:51:33   [Cloze_Test] Practice_en_Set_03.txt try 1: rejected (Q64:duplicate_options,Q65:duplicate_options)
+09-10 05:52:55   [Sentence_Improvement_Adv] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 05:53:04   [Fill_in_Blanks_Adv] FAILED Practice_en_Set_04.txt: too_long
+09-10 05:53:04   [Fill_in_Blanks_Adv] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
+09-10 05:53:52   [Cloze_Test] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 05:55:11   [Cloze_Test] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 05:56:24   [Error_Spotting_Adv] Practice_en_Set_06.txt try 1: re-solve disagrees (Q128 key a vs re-solve b, Q139 key d vs re-solve a, Q148 key b vs re-solve a, Q150 key b vs re-solve
+09-10 05:57:48   [Fill_in_Blanks_Adv] Practice_en_Set_05.txt try 1: re-solve disagrees (Q123 key a vs re-solve b)
+09-10 05:58:12   [Sentence_Improvement_Adv] Practice_en_Set_03.txt try 1: re-solve disagrees (Q56 key a vs re-solve b)
+09-10 05:58:45   [Cloze_Test] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 06:00:29   [Cloze_Test] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 06:01:12   [Error_Spotting_Adv] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 06:01:12   [Spelling] review Flashcards_hi.txt: 1 issue(s): - Card 6 claims that "occur" has double r, but "occur" is spelled with double c and only a single r → Correction
+09-10 06:01:49   [Fill_in_Blanks_Adv] Practice_en_Set_05.txt try 2: re-solve disagrees (Q118 key c vs re-solve b)
+09-10 06:02:32   [Error_Spotting_Adv] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+09-10 06:02:32   [Error_Spotting_Adv] written 26, failed 0; AI calls today 583/100000
+09-10 06:04:05   [Fill_in_Blanks_Adv] Practice_en_Set_05.txt try 3: rejected (parsed 0 questions, numbers -…-)
 ```
