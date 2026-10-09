@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 09-10-2026 09:46 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
+**आख़िरी update:** 09-10-2026 09:47 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W4 | Chapter 16 Algebra (10th Maths) | 🔎 review हो रहा है | 34 मिनट |
-| W5 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 22 मिनट |
+| W4 | Chapter 16 Algebra (10th Maths) | 📤 push हो रहा है | 0 मिनट |
+| W5 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 23 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -31,6 +31,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 21:47 — 10th Maths · Chapter 16 Algebra
 - 09-10 21:39 — 10th Maths · Chapter 11 Time Work
 - 09-10 21:28 — 10th Maths · Chapter 14 Mensuration
 - 09-10 21:07 — 10th English · Chapter 20 Sentence Improvement Basic
@@ -45,7 +46,6 @@
 - 09-10 19:12 — 10th English · Chapter 13 Synonyms
 - 09-10 17:39 — 10th English · Chapter 08 Conjunction
 - 09-10 17:30 — 10th English · Chapter 11 Narration
-- 09-10 17:18 — 10th English · Chapter 09 Articles
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
@@ -59,8 +59,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 21:03:59 worker 5: nothing left
-09-10 21:05:20   [Algebra] set 06 try 1: re-solve disagrees (Q150 key a vs re-solve ?)
 09-10 21:05:53   [Time_Work] review Feynman_en.txt: 1 issue(s): - The statement “Efficiency Ratio : Time Ratio = 1:2 :: 2:1?” is mathematically incorrect → The correct relationshi
 09-10 21:07:14   [Sentence_Improvement_Basic] review: 3 section(s) corrected, 0 failed
 09-10 21:07:14   [Sentence_Improvement_Basic] written 3, failed 0; AI calls today 853/100000
@@ -99,4 +97,6 @@
 09-10 21:40:09 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_11_Time_Work in 136 min → 9eeeb43a
 09-10 21:40:09 worker 0: nothing left
 09-10 21:40:54   [Algebra] review PYQ_hi.txt: 3 issue(s): - "मात्रात्मक योग्यता खंड का 25% हिस्सा बीजगणित का होता है" → "Remove or cite official source; this weightage is invent
+09-10 21:47:46   [Algebra] review: 6 section(s) corrected, 0 failed
+09-10 21:47:46   [Algebra] written 6, failed 0; AI calls today 905/100000
 ```
