@@ -1,0 +1,46 @@
+# Important Rules & Approaches — Series
+
+## Part 1: Key Rules / Approaches
+
+| Rule / Approach | Description | Example |
+|---|---|---|
+| Check difference first | Subtract consecutive terms; if differences are constant or form a pattern, it is an arithmetic-type series | 3, 7, 11, 15 → difference +4 → next 19 |
+| Second-level difference | If first differences are not constant, take differences of the differences | 2, 5, 10, 17 → diff 3, 5, 7 → next diff 9 → 26 |
+| Ratio check | Divide consecutive terms; constant or patterned ratio means geometric-type series | 4, 12, 36, 108 → ×3 → next 324 |
+| Mixed operations | Operations may alternate or grow: ×2, +3, ×2, +3… or +2, ×3, +4, ×5… | 5, 12, 27, 58 → ×2+2, ×2+3, ×2+4 → next 58×2+5 = 121 |
+| Square / Cube series | Terms are n², n³, or n²±k, n³±k | 2, 5, 10, 17, 26 → n²+1 → next 37 |
+| Prime number series | Terms follow prime numbers (2, 3, 5, 7, 11…) or primes ± k | 4, 5, 7, 9, 13 → prime+2 → next 15 |
+| Alternate (twin) series | Odd-position and even-position terms follow two separate patterns | 2, 5, 4, 10, 6, 15 → odd: +2, even: +5 → next 8 |
+| Pair / group pattern | Terms grouped in pairs or triplets with a fixed internal rule | (2, 6), (3, 12), (4, 20) → n, n(n+1) |
+| Letter position values | Convert letters to alphabet positions (A=1…Z=26), then apply number rules | C, F, I, L → +3 → next O |
+| Reverse alphabet values | Use Z=1…A=26 when series moves backward from Z | Z, X, V, T → −2 in normal positions (26, 24, 22, 20) → next R |
+| Vowel / consonant logic | Series may skip vowels or use only vowels/consonants | B, D, F, H → consonants only → next J |
+| Letter gap pattern | Count letters skipped between consecutive terms | A, C, F, J → gaps 1, 2, 3 → next O (gap 4) |
+| Opposite letter pairs | Letters whose positions sum to 27 (A–Z, B–Y, C–X…) | A, Z, B, Y, C → next X |
+| Fibonacci-type | Each term = sum (or difference) of previous two terms | 1, 1, 2, 3, 5, 8 → next 13 |
+| Wrong-term detection | Find the rule from the majority of terms; the term breaking it is wrong | 2, 4, 8, 15, 32 → 15 is wrong (should be 16, ×2 rule) |
+| Digit-based pattern | In alphanumeric series, track letters and digits separately | A2, C4, E6, G8 → next I10 |
+
+## Part 2: Time Management
+
+| Rule | Description |
+|---|---|
+| 15-second rule | If no pattern is visible within 15 seconds (difference, ratio, square/cube checks done), mark the question and move on |
+| 45-second rule | Never spend more than 45 seconds on one series question; return only if time remains after the section |
+| Order of checks | Follow a fixed sequence: difference → ratio → second difference → square/cube → alternate split → letter positions. A fixed order saves time |
+| Wrong-term questions | Verify the rule on at least 4 terms before declaring a term wrong; do not judge from only 3 terms |
+| Letter series shortcut | Write A=1 to Z=26 values above the letters immediately; do not count on fingers |
+| Skip signals | Skip instantly if: two alternating patterns both look irregular, or terms involve large cubes/primes you cannot recall quickly |
+| Attempt strategy | Series questions are usually quick scorers — attempt the easy difference/ratio ones first, park the rest |
+
+## Part 3: Logical / Mathematical Formulas
+
+| Formula | Use |
+|---|---|
+| aₙ = a + (n−1)d | nth term of an arithmetic series (constant difference d) |
+| aₙ = a × rⁿ⁻¹ | nth term of a geometric series (constant ratio r) |
+| n² series: 1, 4, 9, 16, 25, 36, 49, 64, 81, 100… | Recognise square-based patterns (memorise up to 20² = 400) |
+| n³ series: 1, 8, 27, 64, 125, 216, 343, 512, 729, 1000… | Recognise cube-based patterns (memorise up to 10³) |
+| Prime list: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37… | Recognise prime-based patterns |
+| Letter value: A=1, B=2 … Z=26; opposite pairs sum to 27 | All alphabet series conversions |
+| aₙ = aₙ₋₁ + aₙ₋₂ | Fibonacci-type series |

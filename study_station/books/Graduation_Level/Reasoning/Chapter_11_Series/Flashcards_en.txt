@@ -1,0 +1,79 @@
+Card 1
+Front: What is the very first thing you should check when you see a number series?
+Back: The difference between consecutive terms. If differences are constant → arithmetic series; if differences themselves form a pattern → multi-level difference series. Differences solve most series questions.
+
+Card 2
+Front: If the first-level differences don't reveal a pattern, what is your next move?
+Back: Take second-level differences (differences of the differences). If those are constant or follow a pattern, the series is a two-level difference series. Rarely, a third level is needed.
+
+Card 3
+Front: How do you quickly recognize a geometric (multiplication) series?
+Back: Divide each term by the previous one. If the ratio is constant (e.g., ×2, ×3, ×1.5), it's geometric. Rapid growth in the numbers is the visual clue.
+
+Card 4
+Front: What does the mnemonic "D-R-S-P" stand for in solving number series?
+Back: Difference → Ratio → Squares/Cubes → Prime/Position. Check in this order: differences first, then ratios, then squares/cubes, then prime numbers or positional patterns.
+
+Card 5
+Front: What is the "×2 + 1, ×2 + 2, ×2 + 3…" type of series called, and how do you spot it?
+Back: A mixed (multiplication + addition) series. Spot it when terms grow fast like a geometric series but the ratio isn't constant — try "multiply by a fixed number, add a changing number."
+
+Card 6
+Front: In the series 4, 9, 25, 49, 121, ? — what is the hidden pattern?
+Back: Squares of prime numbers: 2², 3², 5², 7², 11², so next is 13² = 169. Whenever terms are perfect squares with gaps, check whether the bases are primes.
+
+Card 7
+Front: What is an alternating (twin) series and how do you crack it?
+Back: Two independent series interleaved at odd and even positions. Split the terms into two rows — odd-position terms and even-position terms — and solve each separately.
+
+Card 8
+Front: Examiner's trap: In 2, 4, 8, 16, 30, 64 — which term is wrong, and why do students pick 30 too slowly?
+Back: 30 is wrong (should be 32, since the series is ×2). Students waste time checking differences of the whole series instead of testing the simplest ratio first. In "find the wrong term" questions, test the most obvious pattern (×2, +2, squares) before complex ones.
+
+Card 9
+Front: In letter series like A, C, F, J, ? — how do you convert letters into a number problem?
+Back: Use alphabet positions: A=1, C=3, F=6, J=10. Differences are +2, +3, +4, so next is +5 → 15 = O. Always convert letters to positions (A=1 … Z=26) first.
+
+Card 10
+Front: What is the "opposite letter" trick, and which letter pairs should you memorize?
+Back: Letters whose positions sum to 27 are opposites: A–Z, B–Y, C–X, D–W, E–V, F–U, G–T, H–S, I–R, J–Q, K–P, L–O, M–N. Series sometimes jump between a letter and its opposite.
+
+Card 11
+Front: What mnemonic helps you recall the alphabet positions of key letters instantly?
+Back: "EJOTY" — E=5, J=10, O=15, T=20, Y=25. These five anchor points let you compute any letter's position in 2 seconds (e.g., R = T−2 = 18).
+
+Card 12
+Front: In a mixed alpha-numeric series like Z1A, X2B, V3C, ? — how do you handle it?
+Back: Split into three independent tracks: letters before the number (Z, X, V → −2 each, so next T), the numbers (1, 2, 3 → 4), and letters after (A, B, C → D). Answer: T4D. Never try to read the whole string as one pattern.
+
+Card 13
+Front: Examiner's trap: Why is "1, 2, 4, 8, 16, ?" not always 32?
+Back: If the question says "find the wrong term," all terms may be correct except one planted error elsewhere. Also, some series mimic ×2 early but follow a different rule later. Always verify the pattern holds for EVERY given term, not just the first three.
+
+Card 14
+Front: What is a Fibonacci-type (addition) series and how do you identify it?
+Back: Each term is the sum of the previous two (e.g., 2, 3, 5, 8, 13, 21). Identify it when differences equal earlier terms of the series itself. Variants: sum of previous two ± a constant.
+
+Card 15
+Front: How do you handle a series where terms alternate between two operations, like +3, ×2, +3, ×2?
+Back: Track the operations alternately: apply +3 to get term 2, ×2 to get term 3, and so on. Write the operation above each arrow between terms — the alternating pattern becomes visible immediately.
+
+Card 16
+Front: In "missing term in the middle" questions (e.g., 5, 11, ?, 35, 51), what is the safest method?
+Back: Work from both ends: 5→11 is +6, and 51−35 = +16. Try an increasing difference pattern that fits both ends: +6, +10, +14, +16? No — check: 5, 11 (+6), 21 (+10), 35 (+14), 51 (+16). All four gaps fit, so the missing term is 21. Always re-verify every gap after choosing a pattern.
+
+Card 17
+Front: What should you do when no difference, ratio, or square pattern fits within 30 seconds?
+Back: Check for: (1) alternating/twin series, (2) digit-based patterns (sum of digits, reversed digits), (3) prime/composite positions, (4) n² ± n or n³ ± n formulas. If still stuck, mark and skip — return after finishing easier questions.
+
+Card 18
+Front: Why do examiners plant "almost-right" options like 63 and 65 when the answer is 64?
+Back: They target students who recognize "cube or square" but compute hastily (4³ = 64 vs. mis-adding to 63/65). The trap exploits recognition without verification. Always compute the exact value; never pick the option that merely "looks like" the pattern.
+
+Card 19
+Front: In letter-cluster series (e.g., ABC, EFG, IJK, ?), what pattern should you check first?
+Back: The starting letter of each cluster: A(1), E(5), I(9) → +4 each, so next starts at M(13) → MNO. Within clusters, letters are usually consecutive. Solve the cluster heads first, then fill the rest.
+
+Card 20
+Front: What is the single biggest time-saver habit for series questions in the exam?
+Back: Write differences (or ratios) above the gaps between terms on your rough sheet the moment you read the series. Most series crack open at this one step, typically within 15–20 seconds.
