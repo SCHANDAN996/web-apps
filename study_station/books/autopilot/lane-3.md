@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 06:12 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 06:17 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 23 मिनट |
-| W2 | Chapter 08 Puzzles (12th Reasoning) | ✍️ लिख रहा है | 168 मिनट |
-| W3 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 30 मिनट |
-| W4 | Chapter 09 Venn Diagrams (12th Reasoning) | ✍️ लिख रहा है | 94 मिनट |
-| W5 | Chapter 04 Blood Relations (12th Reasoning) | 🔎 review हो रहा है | 33 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 28 मिनट |
+| W2 | Chapter 08 Puzzles (12th Reasoning) | ✍️ लिख रहा है | 172 मिनट |
+| W3 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 34 मिनट |
+| W4 | Chapter 09 Venn Diagrams (12th Reasoning) | ✍️ लिख रहा है | 99 मिनट |
+| W5 | Chapter 04 Blood Relations (12th Reasoning) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,6 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 18:17 — 12th Reasoning · Chapter 04 Blood Relations
 - 09-10 16:37 — 12th Reasoning · Chapter 06 Order Ranking
 - 09-10 14:29 — 12th Reasoning · Chapter 01 Analogy
 
@@ -49,15 +50,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 17:42:45   [Direction_Sense] FAILED Practice_en_Set_06.txt: too_long
-09-10 17:42:45   [Direction_Sense] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-09-10 17:42:45   [Direction_Sense] written 5, failed 6; AI calls today 249/100000
-09-10 17:42:45 NOT OK 12th_Level/Reasoning/Chapter_05_Direction_Sense after 193 min: todo ['Set 02 en: todo', 'Set 02 hi: todo', 'Set 05 en: todo', 'Set 05 hi: todo'] problems ['Content_hi.txt: Hindi file is mostly not in Hindi', 'Content_hi.txt: much shorter than the English section (1070 ']
-09-10 17:42:47 START 12th_Level/Reasoning/Chapter_05_Direction_Sense (TODO: todo 6, problems 2)
-09-10 17:44:40   [Sitting_Arrangement] Practice_en_Set_05.txt try 4: re-solve disagrees (Q101 key a vs re-solve b, Q102 key d vs re-solve ?, Q105 key a vs re-solve b, Q106 key a vs re-solve
-09-10 17:44:40   [Sitting_Arrangement] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
-09-10 17:44:40   [Sitting_Arrangement] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
-09-10 17:45:16   [Blood_Relations] review Content_hi.txt: 1 issue(s): - Mnemonic "माँ के मामा, पापा के चाचा" is factually incorrect (mother's maternal uncle and father's paternal uncle)
 09-10 17:45:28   [Direction_Sense] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
 09-10 17:45:56   [Venn_Diagrams] Practice_en_Set_02.txt try 2: re-solve disagrees (Q29 key c vs re-solve ?, Q36 key d vs re-solve ?)
 09-10 17:49:01   [Sitting_Arrangement] FAILED Practice_en_Set_06.txt: rate_limited
@@ -89,4 +81,13 @@
 09-10 18:12:07   [Sitting_Arrangement] REJECTED Practice_en_Set_01.txt: no version passed the checks — not written
 09-10 18:12:07   [Sitting_Arrangement] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
 09-10 18:12:20   [Venn_Diagrams] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 18:14:12   [Direction_Sense] FAILED Practice_en_Set_05.txt: too_long
+09-10 18:14:12   [Direction_Sense] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
+09-10 18:14:28   [Puzzles] FAILED Practice_en_Set_04.txt: too_long
+09-10 18:14:28   [Puzzles] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
+09-10 18:14:52   [Venn_Diagrams] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 18:14:55   [Sitting_Arrangement] Practice_en_Set_02.txt try 1: rejected (Q33:leaked_reasoning,Q47:leaked_reasoning)
+09-10 18:15:48   [Blood_Relations] review Important_Rules_en.txt: 2 issue(s): - Left-to-Right Reading example "P + Q − R → first P+Q, then (P+Q) − R" misrepresents the decoding process;
+09-10 18:17:27   [Blood_Relations] review: 8 section(s) corrected, 0 failed
+09-10 18:17:27   [Blood_Relations] written 8, failed 0; AI calls today 293/100000
 ```
