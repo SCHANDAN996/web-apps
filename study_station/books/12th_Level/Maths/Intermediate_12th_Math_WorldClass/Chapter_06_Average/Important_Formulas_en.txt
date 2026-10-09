@@ -1,0 +1,30 @@
+# Important Formulas — Average
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Basic Average | Average = Sum of observations ÷ Number of observations | The master formula — start every problem here |
+| Sum from Average | Sum = Average × Number of observations | When average and count are given, find total first |
+| Number of Terms | Number = Sum ÷ Average | To find how many items make up the total |
+| Average of First n Natural Numbers | (n + 1) ÷ 2 | Quick average of 1, 2, 3, …, n |
+| Average of First n Even Numbers | n + 1 | Average of 2, 4, 6, …, 2n |
+| Average of First n Odd Numbers | n | Average of 1, 3, 5, …, (2n − 1) |
+| Average of Squares of First n Natural Numbers | (n + 1)(2n + 1) ÷ 6 | For 1² + 2² + … + n² type questions |
+| Average of Cubes of First n Natural Numbers | n(n + 1)² ÷ 4 | For 1³ + 2³ + … + n³ type questions |
+| Average of Consecutive Numbers | (First term + Last term) ÷ 2 | Works for any arithmetic (equal-gap) series |
+| Combined Average (Two Groups) | (n₁a₁ + n₂a₂) ÷ (n₁ + n₂) | Merging two groups with averages a₁, a₂ |
+| Weighted Average | (w₁x₁ + w₂x₂ + …) ÷ (w₁ + w₂ + …) | When items carry different weights (marks, mixtures) |
+| New Average After Adding a Member | New Sum = Old Sum + New value; New Avg = New Sum ÷ (n + 1) | A person joins a group/class |
+| New Average After Removing a Member | New Sum = Old Sum − Removed value; New Avg = New Sum ÷ (n − 1) | A person leaves a group/class |
+| Value of New Member (Average Rises) | New value = Old Avg + (n + 1) × Increase | Incoming member pulls the average up |
+| Value of New Member (Average Falls) | New value = Old Avg − (n + 1) × Decrease | Incoming member pulls the average down |
+| Value of Replaced Member | Replaced = New member − n × (Change in average) | One person replaced, average changes (use + if average rises) |
+| Effect of Multiplying All Values by k | New Average = k × Old Average | Every value scaled by the same factor |
+| Effect of Adding c to All Values | New Average = Old Average + c | Same constant added/subtracted from every value |
+| Average Speed (Equal Distances) | 2xy ÷ (x + y) | Same distance covered at speeds x and y |
+| Average Speed (Equal Times) | (x + y) ÷ 2 | Same time travelled at speeds x and y |
+| Average of Three Speeds (Equal Distances) | 3xyz ÷ (xy + yz + zx) | Three equal-distance legs at speeds x, y, z |
+| Corrected Average (Wrong Entry) | Correct Avg = Old Avg + (Correct value − Wrong value) ÷ n | A number was misread/miswritten |
+| Average Age After t Years | Present Average + t | Everyone's age rises equally with time |
+| Average Age t Years Ago | Present Average − t | For "average age 5 years ago" questions |
+| Cricket: Runs in nth Innings | Runs = n × (New Avg − Old Avg) + Old Avg | Batsman's average changes after one innings |
+| Deviation Method | Average = Assumed value + (Sum of deviations ÷ n) | Fast mental calculation with near-round numbers |

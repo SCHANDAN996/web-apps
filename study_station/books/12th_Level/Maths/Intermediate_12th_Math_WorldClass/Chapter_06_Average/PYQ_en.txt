@@ -1,0 +1,105 @@
+# 📊 PYQ Analysis — Average (Intermediate Level)
+
+## How Exams Test This Chapter
+
+Average is one of the most reliable scoring areas in SSC CGL, IBPS PO, RRB NTPC and CAT. Examiners rarely ask a plain "find the average" question at this level — they wrap the concept inside a story. The recurring patterns are:
+
+- **Replacement problems** — a person leaves a group, a new one joins, and the average rises or falls. This is the single most repeated pattern.
+- **Weighted average** — two groups (boys/girls, two classes, two purchases) with different averages are merged.
+- **Consecutive numbers** — average of consecutive even/odd/natural numbers, where the average equals the middle term.
+- **Cricket/runs problems** — a batsman's average changes after one innings; find runs scored.
+- **Age problems in disguise** — average age of a family now, after some years, or when a baby is born.
+- **"One number was misread" problems** — a wrong value was included; correct the average.
+- **Speed problems** — average speed for equal distances (harmonic mean trap).
+
+## The Examiner's Traps (Psychological Hooks)
+
+1. **The "average of averages" trap** — adding two group averages and dividing by 2. This works only when both groups are equal in size. Examiners deliberately give unequal groups.
+2. **The arithmetic-mean speed trap** — for equal distances, average speed is NOT (x+y)/2; it is 2xy/(x+y). The wrong option is always present.
+3. **The sign confusion trap** — "average increases by 2 when a person is replaced" — students forget whether to add or subtract (n × change).
+4. **The middle-term illusion** — for consecutive numbers the average is the middle term only when the count is odd; for even counts it is the mean of the two middle terms.
+5. **The "included/excluded" wording trap** — "average of 10 results is 20; one result 25 is excluded" — students subtract wrongly or forget the count drops to 9.
+6. **The negative-change trap** — when a baby is born or a younger person joins, the total can behave counter-intuitively; read whether the question asks for the new member's age or the new average.
+
+---
+
+## Top 10 High-Yield Questions (with Solutions)
+
+**Q1.** The average of 11 numbers is 50. If the average of the first six is 49 and that of the last six is 52, find the sixth number.
+(a) 56 (b) 46 (c) 50 (d) 60
+**Answer:** (a)
+**Solution:** Sum of all 11 = 550. First six = 294, last six = 312. The sixth number is counted twice: 294 + 312 − 550 = 56.
+**Hook:** Overlapping groups — students forget the middle number is double-counted.
+**Source:** PYQ-style (SSC pattern)
+
+**Q2.** The average age of 30 students is 12 years. When the teacher's age is included, the average becomes 13 years. Find the teacher's age.
+(a) 39 (b) 43 (c) 31 (d) 42
+**Answer:** (b)
+**Solution:** New total = 31 × 13 = 403; old total = 30 × 12 = 360. Teacher = 403 − 360 = 43. Shortcut: 12 + 31 × 1 = 43.
+**Hook:** The new member carries the old average PLUS the total increase (n × rise).
+**Source:** PYQ-style (SSC/NTPC pattern)
+
+**Q3.** A batsman has an average of 40 runs after 20 innings. How many runs must he score in the 21st innings to raise his average to 41?
+(a) 61 (b) 41 (c) 60 (d) 51
+**Answer:** (a)
+**Solution:** Required = 21 × 41 − 20 × 40 = 861 − 800 = 61. Shortcut: 41 + 20 × 1 = 61.
+**Hook:** Students answer 41, forgetting he must also "gift" 1 run to each of the previous 20 innings.
+**Source:** PYQ-style (cricket pattern)
+
+**Q4.** The average weight of 8 persons increases by 2.5 kg when a new person replaces one weighing 65 kg. Find the new person's weight.
+(a) 85 kg (b) 76 kg (c) 80 kg (d) 90 kg
+**Answer:** (a)
+**Solution:** Increase in total = 8 × 2.5 = 20 kg. New person = 65 + 20 = 85 kg.
+**Hook:** Sign trap — average *increases*, so the newcomer is *heavier*; many subtract.
+**Source:** PYQ-style (replacement pattern)
+
+**Q5.** The average of five consecutive even numbers is 24. Find the largest number.
+(a) 28 (b) 26 (c) 30 (d) 32
+**Answer:** (a)
+**Solution:** Average = middle (3rd) term = 24. Numbers: 20, 22, 24, 26, 28. Largest = 28.
+**Hook:** Students compute 24 + 5 or 24 + 4 instead of 24 + 2×2.
+**Source:** PYQ-style (consecutive numbers)
+
+**Q6.** The average of 20 numbers is 15. Later it was found that one number, 36, was wrongly read as 26. Find the correct average.
+(a) 15.5 (b) 16 (c) 14.5 (d) 15
+**Answer:** (a)
+**Solution:** Correction = +10 spread over 20 numbers = +0.5. Correct average = 15.5.
+**Hook:** Students add 10 directly to the average instead of dividing by the count.
+**Source:** PYQ-style (misread pattern)
+
+**Q7.** The average score of boys in a class is 70 and that of girls is 73. The average of the whole class is 71.8. Find the ratio of boys to girls.
+(a) 2 : 3 (b) 3 : 2 (c) 4 : 5 (d) 3 : 5
+**Answer:** (a)
+**Solution:** Alligation: boys : girls = (73 − 71.8) : (71.8 − 70) = 1.2 : 1.8 = 2 : 3.
+**Hook:** The ratio is inverted — the group with the *lower* average gets the *farther* difference.
+**Source:** PYQ-style (weighted average / alligation)
+
+**Q8.** A man travels 60 km at 30 km/h and returns the same distance at 20 km/h. Find his average speed for the whole journey.
+(a) 25 km/h (b) 24 km/h (c) 26 km/h (d) 22 km/h
+**Answer:** (b)
+**Solution:** Equal distances ⇒ average speed = 2xy/(x+y) = (2×30×20)/50 = 24 km/h.
+**Hook:** The classic trap — option (a) 25 is the arithmetic mean, placed deliberately.
+**Source:** PYQ-style (average speed)
+
+**Q9.** Three years ago, the average age of a family of 5 members was 17 years. A baby having been born, the average age of the family is the same today. Find the age of the baby.
+(a) 1 year (b) 2 years (c) 3 years (d) 1.5 years
+**Answer:** (b)
+**Solution:** Three years ago total = 85. Today (without baby) = 85 + 15 = 100, average of 5 = 20. But average stays 17 with 6 members ⇒ total = 102. Baby = 102 − 100 = 2 years.
+**Hook:** Two time-shifts at once — students forget to age all 5 members by 3 years.
+**Source:** PYQ-style (age + new member)
+
+**Q10.** The average of 7 consecutive numbers is 20. If the next two numbers are also included, the average becomes:
+(a) 21 (b) 22 (c) 20.5 (d) 21.5
+**Answer:** (a)
+**Solution:** Numbers are 17–23 (average 20). Adding 24 and 25 gives 17–25, nine consecutive numbers; average = middle term = 21.
+**Hook:** Students average 20 with 24.5 (the mean of the two new numbers) incorrectly instead of re-finding the middle term.
+**Source:** PYQ-style (consecutive extension)
+
+---
+
+## Key Takeaways for the Exam Hall
+
+- Master the **deviation method**: new member's value = old average ± (new count × change). It solves Q2, Q3, Q4-type questions in under 20 seconds.
+- For any "two groups merged" question, go straight to **alligation** — never average the averages.
+- For equal-distance speed, write 2xy/(x+y) before even reading the options.
+- Read the last line twice: "excluded", "included", "replaced", "misread" — the whole question turns on that one word.

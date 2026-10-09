@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 07:34 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
+**आख़िरी update:** 09-10-2026 07:45 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Simple Interest (12th Maths) | ✍️ लिख रहा है | 9 मिनट |
-| W2 | Chapter 10 Compound Interest (12th Maths) | 🔧 सुधार रहा है | 0 मिनट |
-| W3 | Chapter 11 Time Work (12th Maths) | ✍️ लिख रहा है | 6 मिनट |
-| W4 | Chapter 02 LCM HCF (12th Maths) | 🔎 review हो रहा है | 15 मिनट |
-| W5 | Chapter 03 Simplification (12th Maths) | 🔎 review हो रहा है | 11 मिनट |
-| W6 | Chapter 06 Average (12th Maths) | 🔎 review हो रहा है | 15 मिनट |
-| W7 | Chapter 07 Ratio Proportion (12th Maths) | ✍️ लिख रहा है | 15 मिनट |
-| W8 | Chapter 08 Profit Loss (12th Maths) | ✍️ लिख रहा है | 15 मिनट |
+| W1 | Chapter 09 Simple Interest (12th Maths) | ✍️ लिख रहा है | 20 मिनट |
+| W2 | Chapter 10 Compound Interest (12th Maths) | 🔧 सुधार रहा है | 11 मिनट |
+| W3 | Chapter 11 Time Work (12th Maths) | ✍️ लिख रहा है | 17 मिनट |
+| W4 | Chapter 02 LCM HCF (12th Maths) | 🔎 review हो रहा है | 26 मिनट |
+| W5 | Chapter 03 Simplification (12th Maths) | 🔎 review हो रहा है | 22 मिनट |
+| W6 | Chapter 06 Average (12th Maths) | 📤 push हो रहा है | 0 मिनट |
+| W7 | Chapter 07 Ratio Proportion (12th Maths) | ✍️ लिख रहा है | 26 मिनट |
+| W8 | Chapter 08 Profit Loss (12th Maths) | ✍️ लिख रहा है | 26 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,7 +37,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 09-10 19:45 — 12th Maths · Chapter 06 Average
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
@@ -49,23 +49,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 19:23:37   [Biology] written 1, failed 0; AI calls today 30/100000
-09-10 19:24:18   [Average] review Content_hi.txt: 1 issue(s): - Section 3 mantra says "पुराने लोगों पर बँटा अंतर" (divided by old people) but the formula requires multiplication
-09-10 19:24:29   [Profit_Loss] Practice_en_Set_03.txt try 1: rejected (Q57:leaked_reasoning,Q75:leaked_reasoning)
-09-10 19:24:38   [Biology] REJECTED Feynman_hi.txt: corrupted characters — not written
-09-10 19:24:38   [Biology] written 0, failed 1; AI calls today 35/100000
-09-10 19:24:38 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_12_Biology after 3 min: todo [] problems ['Feynman_hi.txt: much shorter than the English section (2811 ']
-09-10 19:24:39 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_09_Simple_Interest (TODO: todo 8, problems 1)
-09-10 19:25:20   [Simplification] review Content_hi.txt: 1 issue(s): - BODMAS तालिका में 'O' का अर्थ "Of (का / घातांक)" दिया गया है → 'O' का मानक अर्थ "Order" (घातांक/मूल) होता है; "Of
-09-10 19:25:43   [Ratio_Proportion] Practice_en_Set_02.txt try 1: rejected (Q33:leaked_reasoning,Q47:leaked_reasoning)
-09-10 19:25:56   [Sports] repaired Memory_Hooks_hi.txt (5530 chars)
-09-10 19:25:56   [Sports] written 1, failed 0; AI calls today 41/100000
-09-10 19:25:56 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_14_Sports after 4 min: todo [] problems ['Memory_Hooks_hi.txt: much shorter than the English section (']
-09-10 19:25:57 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest (TODO: todo 1, problems 1)
-09-10 19:26:15   [Simple_Interest] Content_en.txt try 1: rejected (chat debris "Here is the")
-09-10 19:27:27   [Compound_Interest] wrote Flashcards_en.txt (10590 chars)
-09-10 19:27:27   [Compound_Interest] written 1, failed 0; AI calls today 46/100000
-09-10 19:27:37   [Simple_Interest] wrote Content_en.txt (6082 chars)
 09-10 19:27:54   [Number_System] FAILED Important_Formulas_hi.txt: rate_limited
 09-10 19:27:54   [Number_System] written 0, failed 1; AI calls today 48/100000
 09-10 19:27:54 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System after 6 min: todo [] problems ['Important_Formulas_hi.txt: much shorter than the English sec']
@@ -89,4 +72,21 @@
 09-10 19:34:04   [Compound_Interest] repaired Flashcards_hi.txt (3104 chars)
 09-10 19:34:04   [Compound_Interest] written 1, failed 0; AI calls today 66/100000
 09-10 19:34:11   [Time_Work] wrote Content_hi.txt (1119 chars)
+09-10 19:35:29   [Profit_Loss] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 19:35:49   [Profit_Loss] Practice_en_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 19:38:04   [Profit_Loss] Practice_en_Set_04.txt try 2: re-solve disagrees (Q80 key d vs re-solve b, Q91 key a vs re-solve ?, Q94 key c vs re-solve ?, Q98 key d vs re-solve ?)
+09-10 19:38:31   [Time_Work] Feynman_en.txt try 1: rejected (corrupted characters)
+09-10 19:38:59   [Time_Work] Feynman_en.txt try 2: rejected (chat debris "Here's the")
+09-10 19:38:59   [Time_Work] REJECTED Feynman_en.txt: chat debris "Here's the" — not written
+09-10 19:39:55   [Time_Work] wrote Feynman_hi.txt (2383 chars)
+09-10 19:40:11   [Simple_Interest] Practice_en_Set_02.txt try 2: re-solve disagrees (Q29 key d vs re-solve ?)
+09-10 19:40:27   [Time_Work] wrote Mind_Map.txt (1417 chars)
+09-10 19:40:39   [Ratio_Proportion] Practice_en_Set_02.txt try 2: re-solve disagrees (Q28 key c vs re-solve b)
+09-10 19:40:49   [Profit_Loss] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 19:41:11   [Simplification] review Flashcards_hi.txt: 1 issue(s): - Card 14 claims “सरलीकरण के 70% सवालों में वर्ग/घन आते हैं; याद वर्ग से कैलकुलेशन 3 गुना तेज़ हो जाती है” — the
+09-10 19:41:34   [Time_Work] wrote Flashcards_en.txt (3601 chars)
+09-10 19:42:38   [Profit_Loss] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 19:44:21   [LCM_HCF] review Important_Formulas_en.txt: 1 issue(s): - HCF by Division formula states "HCF = last non-zero remainder's divisor" → should be "HCF = last non-z
+09-10 19:45:14   [Average] review: 2 section(s) corrected, 0 failed
+09-10 19:45:14   [Average] written 2, failed 0; AI calls today 103/100000
 ```

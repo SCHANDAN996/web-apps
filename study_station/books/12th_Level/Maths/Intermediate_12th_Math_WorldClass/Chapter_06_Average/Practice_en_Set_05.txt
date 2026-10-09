@@ -1,0 +1,149 @@
+101. The average of 15 numbers is 40. If each number is increased by 6, what is the new average?
+(a) 40 (b) 46 (c) 52 (d) 240
+Answer: (b)
+Solution: The trap is adding 6 to the total instead of the average. When every number increases by the same value, the average increases by that same value: 40 + 6 = 46. So the answer is 46.
+Source: NCERT Class 8 Mathematics
+
+102. The average of 8 numbers is 25. If one number, 40, is removed, what is the average of the remaining numbers?
+(a) 20 (b) 22.5 (c) 22.86 (d) 24
+Answer: (c)
+Solution: Total of 8 numbers = 8 × 25 = 200. After removing 40, sum = 160 over 7 numbers, giving 160/7 ≈ 22.86. The tempting wrong option 22.5 comes from wrongly dividing 160 by 8. So the answer is 22.86.
+Source: PYQ-style
+
+103. The average age of 30 students is 12 years. When the teacher's age is included, the average becomes 13 years. What is the teacher's age?
+(a) 30 years (b) 40 years (c) 45 years (d) 43 years
+Answer: (d)
+Solution: Students' total age = 30 × 12 = 360. New total = 31 × 13 = 403. Teacher's age = 403 − 360 = 43. The trap option 40 comes from 13 × 31 − 12 × 30 miscomputed. So the answer is 43 years.
+Source: PYQ-style
+
+104. The average of five consecutive even numbers is 24. What is the largest of these numbers?
+(a) 26 (b) 32 (c) 30 (d) 28
+Answer: (d)
+Solution: For consecutive even numbers, the average equals the middle (third) number, so the numbers are 20, 22, 24, 26, 28. The largest is 28. The trap is taking 24 + 4 = 28 as wrong and adding more. So the answer is 28.
+Source: NCERT Class 8 Mathematics
+
+105. The average of 11 results is 50. The average of the first 6 results is 49 and that of the last 6 is 52. What is the sixth result?
+(a) 56 (b) 54 (c) 58 (d) 60
+Answer: (a)
+Solution: Sum of all 11 = 550. First 6 sum = 294, last 6 sum = 312. Their total 606 counts the sixth result twice, so sixth result = 606 − 550 = 56. The trap is forgetting the overlap. So the answer is 56.
+Source: PYQ-style
+
+106. A cricketer's average for 20 innings is 35 runs. How many runs must he score in the next innings to raise his average to 36?
+(a) 50 (b) 66 (c) 60 (d) 56
+Answer: (d)
+Solution: Current total = 20 × 35 = 700. Required total for 21 innings = 21 × 36 = 756. Needed runs = 756 − 700 = 56. The trap option 36 ignores the deficit of earlier innings. So the answer is 56.
+Source: PYQ-style
+
+107. The average weight of 50 boys is 60 kg. Later it was found that one boy's weight was read as 70 kg instead of 50 kg. What is the correct average?
+(a) 59.6 kg (b) 59.2 kg (c) 60.4 kg (d) 58 kg
+Answer: (a)
+Solution: Wrong total = 50 × 60 = 3000. Correct total = 3000 − 70 + 50 = 2980. Correct average = 2980/50 = 59.6 kg. The trap is adjusting by 20 in the average directly. So the answer is 59.6 kg.
+Source: PYQ-style
+
+108. The average of three numbers is 20. The first number is twice the second, and the second is thrice the third. What is the largest number?
+(a) 36 (b) 30 (c) 40 (d) 45
+Answer: (a)
+Solution: Let the third number be x; then second = 3x, first = 6x. Sum = 10x = 60, so x = 6. Largest = 6x = 36. The trap is taking the middle number as largest. So the answer is 36.
+Source: PYQ-style
+
+109. The average of 20 numbers is zero. At most how many of them can be greater than zero?
+(a) 0 (b) 1 (c) 10 (d) 19
+Answer: (d)
+Solution: If 19 numbers are positive, the 20th can be a negative number balancing their sum, keeping the average zero. But all 20 cannot be positive. The trap is answering 20. So the answer is 19.
+Source: PYQ-style
+
+110. The average age of a family of 6 members is 22 years. If the youngest member is 8 years old, what was the average age of the family just before the youngest was born?
+(a) 16 years (b) 18 years (c) 16.8 years (d) 20 years
+Answer: (c)
+Solution: Total age now = 6 × 22 = 132. Eight years ago, total of the other 5 members = 132 − 8 − (5 × 8) = 84. Average = 84/5 = 16.8 years. The trap is subtracting 8 only once. So the answer is 16.8 years.
+Source: PYQ-style
+
+111. The average of 5 numbers is 27. If one number is excluded, the average becomes 25. What is the excluded number?
+(a) 30 (b) 33 (c) 37 (d) 35
+Answer: (d)
+Solution: Sum of 5 numbers = 135; sum of remaining 4 = 100. Excluded number = 135 − 100 = 35. The trap is computing 27 − 25 = 2 and guessing near it. So the answer is 35.
+Source: PYQ-style
+
+112. The average marks of 100 students were 40. Later it was found that marks of one student were taken as 83 instead of 53. What is the correct average?
+(a) 39.5 (b) 39.7 (c) 40.3 (d) 39.3
+Answer: (b)
+Solution: Wrong total = 4000. Correct total = 4000 − 83 + 53 = 3970. Correct average = 3970/100 = 39.7. The trap is adding the difference instead of subtracting. So the answer is 39.7.
+Source: PYQ-style
+
+113. The average of 7 consecutive numbers is 20. What is the smallest of these numbers?
+(a) 15 (b) 16 (c) 17 (d) 18
+Answer: (c)
+Solution: The average of consecutive numbers is the middle (4th) number, so the numbers run from 17 to 23. Smallest = 20 − 3 = 17. The trap is subtracting 4 instead of 3. So the answer is 17.
+Source: NCERT Class 8 Mathematics
+
+114. A man spends an average of ₹1800 per month for the first 4 months and ₹2200 per month for the next 8 months. What is his average monthly expenditure for the year?
+(a) ₹2000 (b) ₹2100 (c) ₹2066.67 (d) ₹1966.67
+Answer: (c)
+Solution: Total = 4 × 1800 + 8 × 2200 = 7200 + 17600 = 24800. Average = 24800/12 ≈ 2066.67. The trap option 2000 is the simple average of 1800 and 2200, ignoring weights. So the answer is ₹2066.67.
+Source: PYQ-style
+
+115. The average of two numbers is 8 and the average of three other numbers is 3. What is the average of all five numbers?
+(a) 4 (b) 5 (c) 5.5 (d) 6
+Answer: (b)
+Solution: Sum of first two = 16; sum of other three = 9. Total = 25 over 5 numbers, average = 5. The trap is averaging 8 and 3 to get 5.5. So the answer is 5.
+Source: PYQ-style
+
+116. The average temperature from Monday to Wednesday was 37°C and from Tuesday to Thursday was 34°C. If Thursday's temperature was 4/5 of Monday's, what was Thursday's temperature?
+(a) 34°C (b) 36°C (c) 32°C (d) 30°C
+Answer: (b)
+Solution: Mon + Tue + Wed = 111; Tue + Wed + Thu = 102, so Mon − Thu = 9. Given Thu = (4/5)Mon, we get Mon − (4/5)Mon = 9, so Mon = 45 and Thu = 36. The trap is solving the ratio incorrectly. So the answer is 36°C.
+Source: PYQ-style
+
+117. The average salary of all workers in a factory is ₹8000. The average salary of 7 technicians is ₹12000 and of the rest is ₹6000. How many workers are there in the factory?
+(a) 19 (b) 20 (c) 21 (d) 22
+Answer: (c)
+Solution: Let total workers be n. Then 8000n = 7 × 12000 + (n − 7) × 6000, giving 2000n = 42000, so n = 21. The trap is mixing up which group has which average. So the answer is 21.
+Source: PYQ-style
+
+118. The average of 9 numbers is 18. The average of the first 5 is 15 and of the last 3 is 20. What is the sixth number?
+(a) 27 (b) 22 (c) 24 (d) 20
+Answer: (a)
+Solution: Total of 9 = 162. First 5 sum = 75, last 3 sum = 60. Sixth number = 162 − 75 − 60 = 27. The trap is averaging 15 and 20. So the answer is 27.
+Source: PYQ-style
+
+119. A batsman has a certain average for 11 innings. In the 12th innings he scores 120 runs, raising his average by 5 runs. What is his new average?
+(a) 65 (b) 60 (c) 70 (d) 75
+Answer: (a)
+Solution: Let old average be x. Then 11x + 120 = 12(x + 5), giving x = 60. New average = 65. The trap is reporting the old average 60 instead of the new one. So the answer is 65.
+Source: PYQ-style
+
+120. The average of 50 observations was 36. It was later discovered that one observation was wrongly taken as 23 instead of 48. What is the correct average?
+(a) 36.5 (b) 37 (c) 36.2 (d) 35.5
+Answer: (a)
+Solution: Wrong total = 1800. Correct total = 1800 − 23 + 48 = 1825. Correct average = 1825/50 = 36.5. The trap is using the difference 25 as the new average shift without dividing by 50. So the answer is 36.5.
+Source: PYQ-style
+
+121. The average age of a husband and wife was 23 years at their marriage. After 5 years they have a 1-year-old child. What is the average age of the family now?
+(a) 19 years (b) 18 years (c) 17 years (d) 20 years
+Answer: (a)
+Solution: At marriage, combined age = 46. After 5 years, husband + wife = 46 + 10 = 56, plus child aged 1 gives 57 over 3 members, average = 19. The trap is adding only 5 to the couple's total instead of 10. So the answer is 19 years.
+Source: PYQ-style
+
+122. In a class of 60 students, the average marks of boys is 65 and of girls is 80. If the overall average is 70, how many boys are in the class?
+(a) 30 (b) 35 (c) 45 (d) 40
+Answer: (d)
+Solution: Let boys = b. Then 65b + 80(60 − b) = 70 × 60, giving 4800 − 15b = 4200, so b = 40. The trap is assuming equal numbers of boys and girls. So the answer is 40.
+Source: PYQ-style
+
+123. The average of five numbers is 306.4. The average of the first two is 431 and of the last two is 214.5. What is the third number?
+(a) 321 (b) 241 (c) 251 (d) 231
+Answer: (b)
+Solution: Total = 5 × 306.4 = 1532. First two sum = 862, last two sum = 429. Third number = 1532 − 862 − 429 = 241. The trap is a decimal slip while computing 5 × 306.4. So the answer is 241.
+Source: PYQ-style
+
+124. A cricketer's bowling average is 12.4 runs per wicket. He takes 5 wickets for 26 runs in his next match, improving his average to 12. How many wickets had he taken before this match?
+(a) 80 (b) 85 (c) 90 (d) 95
+Answer: (b)
+Solution: Let previous wickets be w. Then (12.4w + 26)/(w + 5) = 12, giving 12.4w + 26 = 12w + 60, so 0.4w = 34 and w = 85. The trap is solving for total wickets instead of previous wickets. So the answer is 85.
+Source: PYQ-style
+
+125. The average weight of A, B and C is 45 kg. If the average weight of A and B is 40 kg and that of B and C is 43 kg, what is the weight of B?
+(a) 17 kg (b) 20 kg (c) 31 kg (d) 26 kg
+Answer: (c)
+Solution: A + B + C = 135; A + B = 80 gives C = 55; B + C = 86 gives B = 86 − 55 = 31. The trap is computing 80 + 86 − 135 = 31 but then mis-assigning it to another person. So the answer is 31 kg.
+Source: PYQ-style
