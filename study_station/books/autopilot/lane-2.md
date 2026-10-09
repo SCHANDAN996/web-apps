@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 05:51 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:46 PM
+**आख़िरी update:** 09-10-2026 06:06 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:46 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 27 Budget Economic Survey (Graduation GK) | 🔎 review हो रहा है | 50 मिनट |
-| W2 | Chapter 28 Advanced Science Tech (Graduation GK) | ✍️ लिख रहा है | 148 मिनट |
-| W3 | Chapter 26 Advanced Polity (Graduation GK) | 🔎 review हो रहा है | 5 मिनट |
-| W4 | Chapter 29 Environment Conventions (Graduation GK) | 🔎 review हो रहा है | 12 मिनट |
-| W5 | Chapter 01 Number System Advanced (Graduation Maths) | ✍️ लिख रहा है | 34 मिनट |
+| W2 | Chapter 28 Advanced Science Tech (Graduation GK) | ✍️ लिख रहा है | 163 मिनट |
+| W3 | Chapter 26 Advanced Polity (Graduation GK) | 🔎 review हो रहा है | 20 मिनट |
+| W4 | Chapter 29 Environment Conventions (Graduation GK) | 🔎 review हो रहा है | 27 मिनट |
+| W5 | Chapter 01 Number System Advanced (Graduation Maths) | ✍️ लिख रहा है | 50 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -42,26 +41,12 @@
 
 - Chapter 22 Defence (GK) — 2 बार
 - Chapter 13 Awards (GK) — 2 बार
-- Chapter 27 Budget Economic Survey (GK) — 1 बार
+- Chapter 27 Budget Economic Survey (GK) — 2 बार
 - Chapter 26 Advanced Polity (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 17:19:58   [Budget_Economic_Survey] review Key_Facts_en.txt: 2 issue(s): - Contingency Fund (Part 1) enhancement year given as 2023 → should be 2021 (Contingency Fund of India (Amendment
-09-10 17:22:34   [Environment_Conventions] Practice_en_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 17:22:48   [Advanced_Science_Tech] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-09-10 17:23:12   [Environment_Conventions] Practice_en_Set_06.txt try 2: rejected (parsed 0 questions, numbers -…-)
-09-10 17:25:29   [Environment_Conventions] Practice_en_Set_06.txt try 3: rejected (answers not spread)
-09-10 17:27:44   [Budget_Economic_Survey] review Key_Facts_hi.txt: 1 issue(s): - बजट पेश करने का समय: "2017 से सुबह 11 बजे" गलत है → बजट पेश करने का समय 1999 से सुबह 11 बजे है; 2017 में केवल प
-09-10 17:28:52   [Number_System_Advanced] wrote Content_hi.txt (24855 chars)
-09-10 17:28:55   [Advanced_Science_Tech] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 17:29:37   [Number_System_Advanced] wrote Feynman_en.txt (2994 chars)
-09-10 17:29:39   [Advanced_Polity] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 17:29:55   [Advanced_Polity] Practice_hi_Set_06.txt try 1: rejected (parsed 1 questions, numbers 126…126)
-09-10 17:30:29   [Number_System_Advanced] wrote Feynman_hi.txt (2089 chars)
-09-10 17:31:35   [Number_System_Advanced] wrote Mind_Map.txt (2435 chars)
-09-10 17:31:41   [Environment_Conventions] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 09-10 17:31:42   [Budget_Economic_Survey] review Feynman_en.txt: 1 issue(s): - The book incorrectly states that "Economic Survey is presented by the Finance Minister" is a wrong statement; in 
 09-10 17:32:13   [Number_System_Advanced] wrote Flashcards_en.txt (3311 chars)
 09-10 17:33:23   [Advanced_Science_Tech] wrote Practice_en_Set_05.txt (write, 25 MCQs)
@@ -88,4 +73,18 @@
 09-10 17:47:46   [Environment_Conventions] review Key_Facts_en.txt: 1 issue(s): - Claim "India has the highest number of Ramsar sites in Asia" (Part 1 table and Part 3 table) → As of 2024, Chin
 09-10 17:49:09   [Number_System_Advanced] wrote Important_Formulas_en.txt (5040 chars)
 09-10 17:50:44   [Number_System_Advanced] wrote Important_Formulas_hi.txt (3871 chars)
+09-10 17:52:18   [Advanced_Science_Tech] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 17:53:54   [Environment_Conventions] review Key_Facts_hi.txt: 1 issue(s): "- "80% प्रश्न 15-सेकंड श्रेणी के" claim is an invented exam statistic → Remove the claim as it is not a verified
+09-10 17:54:18   [Advanced_Polity] review Content_hi.txt: 4 issue(s): - अम्बेडकर के भाषण की तिथि 17 अक्टूबर 1949 गलत है → सही तिथि 25 नवंबर 1949 है
+09-10 17:57:17   [Budget_Economic_Survey] review Memory_Hooks_en.txt: 1 issue(s): - Contingency Fund corpus given as ₹500 crore → correct corpus is ₹30,000 crore (since 2021 amendment)
+09-10 17:57:58   [Advanced_Science_Tech] Practice_hi_Set_06.txt try 1: rejected (Q129:needs_context,Q140:needs_context)
+09-10 17:59:49   [Number_System_Advanced] Practice_en_Set_01.txt try 1: re-solve disagrees (Q25 key c vs re-solve ?)
+09-10 18:02:32   [Budget_Economic_Survey] review Memory_Hooks_hi.txt: 1 issue(s): - Mnemonic 4's memory hook "नीति-अर्थ-टोकन: 100-1-1" assigns incorrect fixed numbers to cut motions → Policy C
+09-10 18:03:19   [Number_System_Advanced] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 18:04:13   [Advanced_Polity] review Key_Facts_hi.txt: 4 issue(s): - न्यूनतम आयु 35 वर्ष (राज्यपाल 30) → न्यूनतम आयु 35 वर्ष (राज्यपाल 35)
+09-10 18:04:22   [Advanced_Science_Tech] Practice_hi_Set_06.txt try 2: rejected (Q129:needs_context,Q140:needs_context)
+09-10 18:04:22   [Budget_Economic_Survey] review: 8 section(s) corrected, 1 failed
+09-10 18:04:22   [Budget_Economic_Survey] written 8, failed 1; AI calls today 418/100000
+09-10 18:04:22 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_27_Budget_Economic_Survey after 72 min: todo [] problems []
+09-10 18:04:22 worker 0: nothing left
 ```
