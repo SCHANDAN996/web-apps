@@ -1,0 +1,185 @@
+# Mensuration — Measuring the World Around You
+
+## The Hook: A Painter Who Almost Went Bankrupt
+
+Ravi took a contract to paint the walls of a hall. The hall was 12 m long, 8 m wide, and 5 m high. He quickly calculated: "12 × 8 = 96 square metres of wall." He bought paint for 96 m², quoted his price, and started work.
+
+By day two, he had a problem. The walls weren't 96 m² at all — they were **200 m²** (two walls of 12 × 5 and two walls of 8 × 5). He had confused **area of the floor** with **area of the walls**. He ran out of paint, ran out of money, and lost the contract.
+
+One formula. One confusion. One ruined business.
+
+That is mensuration in real life — and that is exactly why examiners love it. In SSC CGL, IBPS PO, and RRB NTPC, mensuration questions don't test whether you *know* formulas. They test whether you know **which** formula, **when**, and **why**. This chapter will make sure you never become Ravi.
+
+---
+
+## What You Will Learn
+
+By the end of this chapter, you will be able to:
+
+1. Find perimeter and area of any 2D figure — triangles, quadrilaterals, circles, and combinations.
+2. Find surface area and volume of any 3D solid — cubes, cuboids, cylinders, cones, spheres, and hemispheres.
+3. Solve "conversion" problems — melting solids, painting surfaces, filling tanks, laying roads.
+4. Spot the traps examiners set: units, π vs 22/7, "hollow vs solid," and doubled dimensions.
+
+---
+
+## Part 1: The Big Idea — 2D vs 3D
+
+Everything in mensuration rests on one question: **Are you measuring something flat, or something solid?**
+
+- **Flat (2D)** figures have **perimeter** (the boundary length, in metres) and **area** (the surface covered, in square metres).
+- **Solid (3D)** figures have **surface area** (the skin, in square metres) and **volume** (the space inside, in cubic metres).
+
+Keep this straight and half the battle is won. Perimeter is a *line* (m). Area is a *sheet* (m²). Volume is a *box* (m³). The units themselves tell you what you're measuring — examiners exploit students who ignore units.
+
+🧠 **Active Recall:** Without looking back — what are the units of perimeter, area, and volume? Which one measures "the skin" of a solid?
+
+---
+
+## Part 2: Triangles — The Mother of All Shapes
+
+Every polygon can be cut into triangles, so triangles come first.
+
+**Basic formulas:**
+- Area = ½ × base × height
+- Perimeter = sum of all three sides
+
+**Right-angled triangle:** Area = ½ × product of the two perpendicular sides. (The two legs are already base and height — free gift!)
+
+**Equilateral triangle** (side *a*):
+- Area = (√3/4) a²
+- Height = (√3/2) a
+
+**Heron's formula** — when you know all three sides but no height:
+- s = (a + b + c)/2 (semi-perimeter)
+- Area = √[s(s−a)(s−b)(s−c)]
+
+**Isosceles triangle** (equal sides *a*, base *b*):
+- Area = (b/4) × √(4a² − b²)
+
+**Exam favourite:** The ratio trick. If two triangles have the same height, their areas are in the ratio of their bases. If they have the same base, areas are in the ratio of heights.
+
+🧠 **Active Recall:** A triangle has sides 13, 14, 15. What is *s*? (Answer: 21. Area = √(21×8×7×6) = √7056 = 84 — a classic exam number!)
+
+---
+
+## Part 3: Quadrilaterals — Four-Sided Friends
+
+**Square** (side *a*): Area = a², Perimeter = 4a, Diagonal = a√2.
+Also: Area = d²/2 when the diagonal *d* is given — a huge time-saver.
+
+**Rectangle** (length *l*, breadth *b*): Area = lb, Perimeter = 2(l+b), Diagonal = √(l²+b²).
+
+**Parallelogram:** Area = base × height (the *perpendicular* height, not the slant side — a classic trap).
+
+**Rhombus** (diagonals d₁ and d₂): Area = ½ × d₁ × d₂. Side = ½√(d₁² + d₂²), because the diagonals bisect each other at 90°.
+
+**Trapezium** (parallel sides *a* and *b*, height *h*): Area = ½ × (a + b) × h.
+
+**Path problems** (very common in exams):
+- Path **outside** a rectangle, width *w*: add 2w to both dimensions, then subtract the inner area.
+- Path **inside**: subtract 2w from both dimensions, then subtract from the outer area.
+- Crossing paths (one along length, one along breadth): Path area = w(l + b − w). Don't forget to subtract the overlapping square w² — students who forget it lose the mark.
+
+🧠 **Active Recall:** The diagonal of a square is 10 cm. What's the area? (Answer: d²/2 = 100/2 = 50 cm². No need to find the side!)
+
+---
+
+## Part 4: Circles — Where π Lives
+
+**Circle** (radius *r*):
+- Circumference = 2πr
+- Area = πr²
+
+**Semicircle:** Area = ½πr²; Perimeter = πr + 2r (curved part **plus** the diameter — forgetting the diameter is the #1 circle trap).
+
+**Sector** (angle θ): Area = (θ/360) × πr²; Arc length = (θ/360) × 2πr.
+
+**Ring (annulus)** between radii R and r: Area = π(R² − r²) = π(R−r)(R+r).
+
+**The wheel question:** Distance covered = number of revolutions × circumference. If a wheel of radius 35 cm makes 1000 revolutions, distance = 1000 × 2 × (22/7) × 35 = 220,000 cm = 2.2 km.
+
+**Memory trick (mnemonic):** 🍕 **"Two Pies Are Round"** — **2πr** is the **A**round (circumference), and **πr²** is the pie itself (area). If you remember that a pizza's *crust* is the around-part and the *cheese* is the area, you'll never swap them.
+
+🧠 **Active Recall:** A semicircle has radius 7 cm. What is its perimeter — is it 22 cm? (No! It's πr + 2r = 22 + 14 = 36 cm.)
+
+---
+
+## Part 5: 3D Solids — Enter the Third Dimension
+
+Now we add height. Every solid has three possible measurements:
+
+- **Curved/Lateral Surface Area (CSA/LSA):** just the sides, no top or bottom.
+- **Total Surface Area (TSA):** everything, including the lids.
+- **Volume:** the space inside.
+
+**Cuboid** (l × b × h):
+- Volume = lbh
+- LSA = 2h(l + b) — the four walls (this is what Ravi needed!)
+- TSA = 2(lb + bh + hl)
+- Diagonal = √(l² + b² + h²)
+
+**Cube** (side *a*):
+- Volume = a³, LSA = 4a², TSA = 6a², Diagonal = a√3
+
+**Cylinder** (radius r, height h):
+- Volume = πr²h
+- CSA = 2πrh (imagine unrolling a label off a can — it becomes a rectangle of 2πr × h)
+- TSA = 2πr(h + r) — the label plus two circular lids
+
+**Cone** (radius r, height h, slant height l = √(r² + h²)):
+- Volume = (1/3)πr²h — exactly **one-third** of the cylinder with the same base and height
+- CSA = πrl, TSA = πr(l + r)
+
+**Sphere** (radius r):
+- Volume = (4/3)πr³
+- Surface area = 4πr² (no "curved vs total" — a sphere has only one surface)
+
+**Hemisphere** (radius r):
+- Volume = (2/3)πr³
+- CSA = 2πr², TSA = 3πr² (curved part + the flat circular base)
+
+🧠 **Active Recall:** A cone and a cylinder have the same base and height. If the cylinder's volume is 90 cm³, what is the cone's? (Answer: 30 cm³ — one-third.)
+
+---
+
+## Part 6: The Classic Exam Moves
+
+**1. Melting and recasting.** When a solid is melted and reshaped, **volume stays constant**. A sphere melted into small cones? Set volumes equal: (4/3)πR³ = n × (1/3)πr²h. Solve for n.
+
+**2. Painting / white-washing.** Painting walls = LSA of cuboid (exclude floor and ceiling unless told). Painting a box outside = TSA. Read the question twice.
+
+**3. Water rise in a tank.** Volume of the object dropped in = volume of water displaced = base area × rise in level.
+
+**4. Doubling trap.** If the radius doubles, area becomes **4×** and volume becomes **8×**. Examiners love asking "radius is doubled, volume becomes?" — the answer is never "doubled."
+
+**5. Unit conversion.** 1 m² = 10,000 cm²; 1 m³ = 1,000 litres = 10,00,000 cm³. Many "hard" questions are just unit questions in disguise.
+
+🧠 **Active Recall:** A cube's edge is doubled. By what factor do (a) surface area and (b) volume increase? (Answers: 4 and 8.)
+
+---
+
+## Summary Table
+
+| Figure | Key Formula(s) | Watch Out For |
+|---|---|---|
+| Triangle | ½ × b × h; Heron: √[s(s−a)(s−b)(s−c)] | Height must be perpendicular |
+| Square | a²; d²/2; diagonal a√2 | Diagonal given → use d²/2 |
+| Rectangle | lb; 2(l+b) | Path inside vs outside |
+| Rhombus | ½ d₁d₂ | Diagonals bisect at 90° |
+| Trapezium | ½(a+b)h | a, b are the *parallel* sides |
+| Circle | πr²; 2πr | Semicircle perimeter = πr + 2r |
+| Cuboid | V = lbh; TSA = 2(lb+bh+hl); LSA = 2h(l+b) | Walls = LSA, not TSA |
+| Cube | V = a³; TSA = 6a²; diagonal a√3 | — |
+| Cylinder | V = πr²h; CSA = 2πrh; TSA = 2πr(h+r) | Open vs closed cylinder |
+| Cone | V = (1/3)πr²h; CSA = πrl; l = √(r²+h²) | Slant height ≠ vertical height |
+| Sphere | V = (4/3)πr³; SA = 4πr² | — |
+| Hemisphere | V = (2/3)πr³; CSA = 2πr²; TSA = 3πr² | TSA includes the flat base |
+
+---
+
+## Your Next Step
+
+You now own every formula that SSC, Banking, and Railway exams will throw at you. But formulas fade fast — that's how memory works.
+
+📌 **Review this chapter after 2 days.** Cover the summary table and try to write every formula from memory. Then attempt the practice sets — that's where Ravi's mistake becomes *your* strength.

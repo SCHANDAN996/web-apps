@@ -1,0 +1,149 @@
+76. The area of a rectangle is 240 cm² and its length is 20 cm. What is its perimeter?
+(a) 64 cm (b) 56 cm (c) 60 cm (d) 68 cm
+Answer: (a)
+Solution: The tempting wrong value 56 cm comes from using breadth 8 cm by mistake. Breadth = 240 ÷ 20 = 12 cm. Perimeter = 2 × (20 + 12) = 2 × 32 = 64 cm, so the answer is 64 cm.
+Source: NCERT Class 8 Mathematics
+
+77. The diagonal of a square is 10√2 cm. What is its area?
+(a) 200 cm² (b) 100 cm² (c) 50 cm² (d) 150 cm²
+Answer: (b)
+Solution: Many students square the diagonal directly and get 200 cm², which is the trap. Side = diagonal ÷ √2 = 10√2 ÷ √2 = 10 cm. Area = 10² = 100 cm², so the answer is 100 cm².
+Source: NCERT Class 8 Mathematics
+
+78. The ratio of the areas of two squares is 9 : 16. What is the ratio of their perimeters?
+(a) 9 : 16 (b) 3 : 4 (c) 81 : 256 (d) 4 : 3
+Answer: (b)
+Solution: The trap is keeping the ratio 9 : 16, but that is the ratio of areas, not sides. Sides are in ratio √9 : √16 = 3 : 4, and perimeters follow the same ratio as sides, so the answer is 3 : 4.
+Source: NCERT Class 8 Mathematics
+
+79. A circular park has radius 21 m. What is the cost of fencing it at ₹4 per metre? (Take π = 22/7)
+(a) ₹1056 (b) ₹264 (c) ₹528 (d) ₹132
+Answer: (c)
+Solution: The trap is using the area formula instead of circumference. Circumference = 2 × (22/7) × 21 = 132 m. Cost = 132 × 4 = ₹528, so the answer is ₹528.
+Source: NCERT Class 7 Mathematics
+
+80. The area of a triangle is 84 cm² and its base is 14 cm. What is its height?
+(a) 12 cm (b) 6 cm (c) 10 cm (d) 14 cm
+Answer: (a)
+Solution: The trap is computing 84 ÷ 14 = 6 cm and stopping, forgetting the factor of ½. Height = (2 × 84) ÷ 14 = 168 ÷ 14 = 12 cm, so the answer is 12 cm.
+Source: NCERT Class 7 Mathematics
+
+81. The circumference of a circle is 44 cm. What is its area? (Take π = 22/7)
+(a) 616 cm² (b) 308 cm² (c) 77 cm² (d) 154 cm²
+Answer: (d)
+Solution: The trap is squaring the circumference or using diameter wrongly. Radius = 44 × 7 ÷ (2 × 22) = 7 cm. Area = (22/7) × 7 × 7 = 154 cm², so the answer is 154 cm².
+Source: NCERT Class 7 Mathematics
+
+82. A rectangular field is 60 m long and 40 m wide. A path 2 m wide runs inside along the boundary. What is the area of the path?
+(a) 416 m² (b) 400 m² (c) 384 m² (d) 368 m²
+Answer: (c)
+Solution: The trap is subtracting only 2 m once from each side, giving inner dimensions 58 × 38 and area 396 m². Inner rectangle = (60 − 4) × (40 − 4) = 56 × 36 = 2016 m². Path area = 2400 − 2016 = 384 m², so the answer is 384 m².
+Source: NCERT Class 8 Mathematics
+
+83. The sides of a triangle are 13 cm, 14 cm and 15 cm. What is its area?
+(a) 90 cm² (b) 84 cm² (c) 96 cm² (d) 78 cm²
+Answer: (b)
+Solution: The trap is taking half the product of two sides, which works only for right triangles. Semi-perimeter s = 21 cm. Area = √[21 × 8 × 7 × 6] = √7056 = 84 cm², so the answer is 84 cm².
+Source: NCERT Class 9 Mathematics
+
+84. The area of an equilateral triangle is 16√3 cm². What is the length of its side?
+(a) 8 cm (b) 4 cm (c) 16 cm (d) 6 cm
+Answer: (a)
+Solution: The trap is dividing 16√3 by √3 and reporting 16 cm as the side. Using (√3/4)a² = 16√3 gives a² = 64, so a = 8 cm, so the answer is 8 cm.
+Source: NCERT Class 9 Mathematics
+
+85. A cylinder has radius 7 cm and height 10 cm. What is its curved surface area? (Take π = 22/7)
+(a) 1540 cm² (b) 220 cm² (c) 880 cm² (d) 440 cm²
+Answer: (d)
+Solution: The trap is using the total surface area formula, which adds the two circular ends. Curved surface area = 2 × (22/7) × 7 × 10 = 440 cm², so the answer is 440 cm².
+Source: NCERT Class 9 Mathematics
+
+86. The volume of a cube is 512 cm³. What is its total surface area?
+(a) 512 cm² (b) 256 cm² (c) 384 cm² (d) 320 cm²
+Answer: (c)
+Solution: The trap is reporting the volume 512 cm³ again or using 4a² instead of 6a². Side = ∛512 = 8 cm. Total surface area = 6 × 8² = 384 cm², so the answer is 384 cm².
+Source: NCERT Class 8 Mathematics
+
+87. A cone has radius 7 cm and slant height 25 cm. What is its curved surface area? (Take π = 22/7)
+(a) 275 cm² (b) 550 cm² (c) 1100 cm² (d) 700 cm²
+Answer: (b)
+Solution: The trap is using the vertical height instead of the slant height, or adding the base area. Curved surface area = (22/7) × 7 × 25 = 550 cm², so the answer is 550 cm².
+Source: NCERT Class 9 Mathematics
+
+88. The volume of a sphere is 4851 cm³. What is its radius? (Take π = 22/7)
+(a) 10.5 cm (b) 7 cm (c) 14 cm (d) 21 cm
+Answer: (a)
+Solution: The trap is dividing the volume by π alone and guessing 21 cm. Using (4/3) × (22/7) × r³ = 4851 gives r³ = 4851 × 21 ÷ 88 = 1157.625, so r = 10.5 cm, so the answer is 10.5 cm.
+Source: NCERT Class 9 Mathematics
+
+89. A hall is 12 m long, 8 m wide and 5 m high. What is the area of its four walls?
+(a) 200 m² (b) 96 m² (c) 160 m² (d) 240 m²
+Answer: (a)
+Solution: The trap is computing the floor area 96 m² or including the ceiling. Area of four walls = 2 × (12 + 8) × 5 = 200 m², so the answer is 200 m².
+Source: NCERT Class 8 Mathematics
+
+90. The radius of a circle is doubled. By what percentage does its area increase?
+(a) 100% (b) 200% (c) 400% (d) 300%
+Answer: (d)
+Solution: The trap is answering 200%, confusing the new area with the increase. New area = 4 times the old, so increase = 3 times = 300%, so the answer is 300%.
+Source: NCERT Class 8 Mathematics
+
+91. A wire bent into a square of side 22 cm is rebent into a circle. What is the radius of the circle? (Take π = 22/7)
+(a) 14 cm (b) 7 cm (c) 11 cm (d) 21 cm
+Answer: (a)
+Solution: The trap is equating the side 22 cm directly to the circumference. Perimeter of square = 88 cm = circumference, so radius = 88 × 7 ÷ 44 = 14 cm, so the answer is 14 cm.
+Source: NCERT Class 7 Mathematics
+
+92. The diagonals of a rhombus are 24 cm and 10 cm. What is its area?
+(a) 240 cm² (b) 60 cm² (c) 120 cm² (d) 480 cm²
+Answer: (c)
+Solution: The trap is multiplying the diagonals to get 240 cm², forgetting the factor of ½. Area = ½ × 24 × 10 = 120 cm², so the answer is 120 cm².
+Source: NCERT Class 8 Mathematics
+
+93. A trapezium has parallel sides 12 cm and 8 cm, and the distance between them is 5 cm. What is its area?
+(a) 60 cm² (b) 100 cm² (c) 40 cm² (d) 50 cm²
+Answer: (d)
+Solution: The trap is multiplying the sum of sides by height without halving, giving 100 cm². Area = ½ × (12 + 8) × 5 = 50 cm², so the answer is 50 cm².
+Source: NCERT Class 8 Mathematics
+
+94. A solid metallic sphere of radius 3 cm is melted and recast into small spheres of radius 1 cm. How many small spheres are formed?
+(a) 9 (b) 3 (c) 27 (d) 81
+Answer: (c)
+Solution: The trap is taking the ratio of radii, 3, or the ratio of surface areas, 9. Number = ratio of volumes = 3³ ÷ 1³ = 27, so the answer is 27.
+Source: NCERT Class 9 Mathematics
+
+95. The area of a circle is 616 cm². What is its circumference? (Take π = 22/7)
+(a) 176 cm (b) 44 cm (c) 88 cm (d) 132 cm
+Answer: (c)
+Solution: The trap is taking the square root of 616 directly. Radius² = 616 × 7 ÷ 22 = 196, so radius = 14 cm. Circumference = 2 × (22/7) × 14 = 88 cm, so the answer is 88 cm.
+Source: NCERT Class 7 Mathematics
+
+96. A cuboid measures 10 cm × 8 cm × 6 cm. What is the length of its longest diagonal?
+(a) 14 cm (b) 10√3 cm (c) 20 cm (d) 10√2 cm
+Answer: (d)
+Solution: The trap is adding the dimensions or using only two of them. Diagonal = √(100 + 64 + 36) = √200 = 10√2 cm, so the answer is 10√2 cm.
+Source: NCERT Class 8 Mathematics
+
+97. The perimeter of a semicircle is 36 cm. What is its radius? (Take π = 22/7)
+(a) 14 cm (b) 7 cm (c) 3.5 cm (d) 10.5 cm
+Answer: (b)
+Solution: The trap is using only the curved part πr = 36, ignoring the diameter. Perimeter = πr + 2r = r(22/7 + 2) = 36r/7 = 36, giving r = 7 cm, so the answer is 7 cm.
+Source: NCERT Class 10 Mathematics
+
+98. A cylinder and a cone have the same base radius and the same height. What is the ratio of their volumes?
+(a) 1 : 1 (b) 1 : 3 (c) 2 : 1 (d) 3 : 1
+Answer: (d)
+Solution: The trap is answering 1 : 1, assuming equal dimensions mean equal volumes. Cylinder volume = πr²h and cone volume = (1/3)πr²h, so the ratio is 3 : 1, so the answer is 3 : 1.
+Source: NCERT Class 9 Mathematics
+
+99. The length of a rectangle is increased by 20% and its breadth is decreased by 20%. What is the net change in its area?
+(a) 4% decrease (b) No change (c) 4% increase (d) 2% decrease
+Answer: (a)
+Solution: The trap is answering "no change", assuming the two 20% changes cancel. New area = 1.2 × 0.8 = 0.96 of the original, a 4% decrease, so the answer is 4% decrease.
+Source: NCERT Class 8 Mathematics
+
+100. A sector of a circle of radius 14 cm has a central angle of 90°. What is its area? (Take π = 22/7)
+(a) 616 cm² (b) 154 cm² (c) 308 cm² (d) 77 cm²
+Answer: (b)
+Solution: The trap is computing the full circle's area, 616 cm², and forgetting the angle fraction. Area = (90/360) × (22/7) × 14 × 14 = ¼ × 616 = 154 cm², so the answer is 154 cm².
+Source: NCERT Class 10 Mathematics

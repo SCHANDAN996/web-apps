@@ -1,0 +1,51 @@
+```mermaid
+graph TD
+    A["क्षेत्रमिति<br>Mensuration"] --> B["2D आकृतियाँ<br>2D Figures"]
+    A --> C["3D आकृतियाँ<br>3D Figures"]
+    A --> D["मुख्य अवधारणाएँ<br>Key Concepts"]
+
+    D --> D1["परिमाप Perimeter<br>बाहरी सीमा की लंबाई"]
+    D --> D2["क्षेत्रफल Area<br>ढका हुआ सतह"]
+    D --> D3["आयतन Volume<br>घनफल / जगह"]
+    D --> D4["पृष्ठीय क्षेत्रफल<br>Surface Area"]
+
+    B --> B1["त्रिभुज Triangle"]
+    B --> B2["चतुर्भुज Quadrilateral"]
+    B --> B3["वृत्त Circle"]
+    B --> B4["बहुभुज Polygon"]
+
+    B1 --> B1a["क्षेत्रफल = ½ × आधार × ऊँचाई"]
+    B1 --> B1b["हीरोन सूत्र<br>√s(s−a)(s−b)(s−c)"]
+    B1 --> B1c["समबाहु: √3/4 × भुजा²"]
+
+    B2 --> B2a["वर्ग Square<br>क्षेत्रफल = भुजा²"]
+    B2 --> B2b["आयत Rectangle<br>क्षेत्रफल = लंबाई × चौड़ाई"]
+    B2 --> B2c["समांतर चतुर्भुज<br>Parallelogram"]
+    B2 --> B2d["समचतुर्भुज Rhombus<br>½ × d1 × d2"]
+    B2 --> B2e["समलंब Trapezium<br>½ × (समांतर भुजाओं का योग) × ऊँचाई"]
+
+    B3 --> B3a["परिधि = 2πr"]
+    B3 --> B3b["क्षेत्रफल = πr²"]
+    B3 --> B3c["त्रिज्यखंड Sector<br>θ/360 × πr²"]
+    B3 --> B3d["वलय Ring<br>π(R² − r²)"]
+
+    C --> C1["घन Cube"]
+    C --> C2["घनाभ Cuboid"]
+    C --> C3["बेलन Cylinder"]
+    C --> C4["शंकु Cone"]
+    C --> C5["गोला Sphere"]
+    C --> C6["अर्धगोला Hemisphere"]
+
+    C1 --> C1a["आयतन = a³<br>पृष्ठ = 6a²<br>विकर्ण = a√3"]
+    C2 --> C2a["आयतन = l×b×h<br>पृष्ठ = 2(lb+bh+hl)<br>विकर्ण = √(l²+b²+h²)"]
+    C3 --> C3a["आयतन = πr²h<br>वक्र पृष्ठ = 2πrh"]
+    C4 --> C4a["आयतन = ⅓πr²h<br>वक्र पृष्ठ = πrl<br>l = √(r²+h²)"]
+    C5 --> C5a["आयतन = 4/3 πr³<br>पृष्ठ = 4πr²"]
+    C6 --> C6a["आयतन = 2/3 πr³<br>कुल पृष्ठ = 3πr²"]
+
+    A --> E["परीक्षा के प्रिय टॉपिक<br>Exam Favourites"]
+    E --> E1["पिघलाकर ढलाई<br>Melting & Recasting"]
+    E --> E2["रास्ते/बाड़ लगाना<br>Paths & Fencing"]
+    E --> E3["कालीन/टाइल लगाना<br>Carpet & Tiles"]
+    E --> E4["भुजा बदलने पर प्रभाव<br>% Change in Sides"]
+```

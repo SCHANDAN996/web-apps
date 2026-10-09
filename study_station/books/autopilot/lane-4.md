@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 10:21 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
+**आख़िरी update:** 09-10-2026 10:25 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 17 Trigonometry (12th Maths) | ✍️ लिख रहा है | 91 मिनट |
-| W2 | Chapter 14 Mensuration (12th Maths) | 🔎 review हो रहा है | 18 मिनट |
-| W3 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 28 मिनट |
-| W4 | Chapter 13 Mixture Alligation (12th Maths) | ✍️ लिख रहा है | 155 मिनट |
-| W5 | Chapter 18 Data Interpretation (12th Maths) | ✍️ लिख रहा है | 34 मिनट |
-| W6 | Chapter 19 Statistics (12th Maths) | ✍️ लिख रहा है | 29 मिनट |
-| W7 | Chapter 07 Ratio Proportion (12th Maths) | 🔎 review हो रहा है | 11 मिनट |
-| W8 | Chapter 16 Algebra (12th Maths) | ✍️ लिख रहा है | 95 मिनट |
+| W1 | Chapter 17 Trigonometry (12th Maths) | ✍️ लिख रहा है | 95 मिनट |
+| W2 | Chapter 14 Mensuration (12th Maths) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 32 मिनट |
+| W4 | Chapter 13 Mixture Alligation (12th Maths) | ✍️ लिख रहा है | 159 मिनट |
+| W5 | Chapter 18 Data Interpretation (12th Maths) | ✍️ लिख रहा है | 38 मिनट |
+| W6 | Chapter 19 Statistics (12th Maths) | ✍️ लिख रहा है | 33 मिनट |
+| W7 | Chapter 07 Ratio Proportion (12th Maths) | 🔎 review हो रहा है | 15 मिनट |
+| W8 | Chapter 16 Algebra (12th Maths) | ✍️ लिख रहा है | 99 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,6 +37,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 22:25 — 12th Maths · Chapter 14 Mensuration
 - 09-10 21:51 — 12th Maths · Chapter 12 Time Distance
 - 09-10 21:45 — 12th Maths · Chapter 15 Geometry
 - 09-10 20:49 — 12th Maths · Chapter 09 Simple Interest
@@ -58,12 +59,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 22:00:50   [Data_Interpretation] wrote PYQ_en.txt (2081 chars)
-09-10 22:00:53   [Mixture_Alligation] Practice_en_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 22:01:07   [Mensuration] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-09-10 22:01:07   [Mensuration] written 2, failed 0; AI calls today 476/100000
-09-10 22:02:16   [Ratio_Proportion] Practice_en_Set_06.txt try 2: re-solve disagrees (Q136 key c vs re-solve ?)
-09-10 22:02:18   [Mensuration] repaired Important_Formulas_hi.txt (3538 chars)
 09-10 22:02:18   [Mensuration] written 1, failed 0; AI calls today 479/100000
 09-10 22:02:30   [Trigonometry] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 09-10 22:02:50   [Trigonometry] Practice_hi_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
@@ -98,4 +93,10 @@
 09-10 22:20:02   [Statistics] wrote PYQ_en.txt (7771 chars)
 09-10 22:20:25   [Mensuration] review Short_Tricks_en.txt: 1 issue(s): - "Locus of the Cube" uses the wrong mathematical term; locus means a set of points satisfying a condition, no
 09-10 22:21:16   [Statistics] wrote PYQ_hi.txt (338 chars)
+09-10 22:22:44   [Statistics] wrote Short_Tricks_en.txt (8631 chars)
+09-10 22:23:15   [Data_Interpretation] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 22:24:21   [Statistics] wrote Short_Tricks_hi.txt (6044 chars)
+09-10 22:25:03   [Mensuration] review: 2 section(s) corrected, 0 failed
+09-10 22:25:03   [Mensuration] written 2, failed 0; AI calls today 535/100000
+09-10 22:25:09   [Statistics] wrote Important_Formulas_en.txt (3751 chars)
 ```
