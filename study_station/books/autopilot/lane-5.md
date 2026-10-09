@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 09-10-2026 02:32 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 11:14 AM
+**आख़िरी update:** 09-10-2026 02:48 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 11:14 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 06 Adverb (10th English) | 🔎 review हो रहा है | 26 मिनट |
-| W2 | Chapter 10 Voice (10th English) | ✍️ लिख रहा है | 24 मिनट |
-| W3 | Chapter 09 Articles (10th English) | ✍️ लिख रहा है | 54 मिनट |
-| W4 | Chapter 07 Preposition (10th English) | ✍️ लिख रहा है | 101 मिनट |
-| W5 | Chapter 08 Conjunction (10th English) | ✍️ लिख रहा है | 60 मिनट |
+| W1 | Chapter 06 Adverb (10th English) | 🔎 review हो रहा है | 41 मिनट |
+| W2 | Chapter 10 Voice (10th English) | ✍️ लिख रहा है | 39 मिनट |
+| W3 | Chapter 09 Articles (10th English) | ✍️ लिख रहा है | 69 मिनट |
+| W4 | Chapter 07 Preposition (10th English) | 🔎 review हो रहा है | 7 मिनट |
+| W5 | Chapter 08 Conjunction (10th English) | ✍️ लिख रहा है | 75 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -21,16 +21,16 @@
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 9 | 13 | 0 |
-| 10th English | 3 | 2 | 15 |
+| 10th English | 4 | 2 | 14 |
 | 12th Maths | 0 | 0 | 23 |
-| 12th GK | 17 | 0 | 7 |
+| 12th GK | 18 | 0 | 6 |
 | 12th Reasoning | 2 | 0 | 23 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 19 | 0 | 9 |
-| Graduation Reasoning | 3 | 0 | 27 |
+| Graduation GK | 20 | 0 | 8 |
+| Graduation Reasoning | 4 | 0 | 26 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **146** | **15** | **135** |
+| **कुल** | **150** | **15** | **131** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -46,31 +46,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 14:07:24   [Preposition] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-09-10 14:07:44   [Conjunction] Short_Tricks_en.txt try 1: answer too long — asking for a tighter version
-09-10 14:07:58   [Pronoun] review: 3 section(s) corrected, 0 failed
-09-10 14:07:58   [Pronoun] written 3, failed 0; AI calls today 338/100000
-09-10 14:08:12 DONE 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_02_Pronoun in 29 min → 2a1c70e6
-09-10 14:08:12 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_10_Voice (TODO: todo 26, problems 0)
-09-10 14:09:53   [Adverb] REJECTED review fix Content_en.txt: chat debris "Text"
-09-10 14:10:01   [Voice] wrote Content_en.txt (7837 chars)
-09-10 14:10:08   [Conjunction] wrote Short_Tricks_en.txt (6226 chars)
-09-10 14:12:03   [Preposition] Practice_en_Set_04.txt try 1: re-solve disagrees (Q86 key b vs re-solve c)
-09-10 14:12:39   [Voice] wrote Content_hi.txt (7289 chars)
-09-10 14:12:40   [Conjunction] wrote Short_Tricks_hi.txt (5762 chars)
-09-10 14:14:02   [Voice] wrote Feynman_en.txt (3099 chars)
-09-10 14:14:27   [Conjunction] wrote Important_Rules_en.txt (5007 chars)
-09-10 14:14:35   [Preposition] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-09-10 14:15:37   [Voice] wrote Feynman_hi.txt (2201 chars)
-09-10 14:16:21   [Conjunction] wrote Important_Rules_hi.txt (5028 chars)
-09-10 14:16:49   [Preposition] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 14:17:35   [Voice] wrote Mind_Map_en.txt (2082 chars)
-09-10 14:17:40   [Adverb] review Content_hi.txt: 2 issue(s): - Hook makes an invented exam weightage claim that Adverb is "सबसे ज़्यादा पूछे जाने वाले Parts of Speech में से एक
-09-10 14:18:48   [Voice] wrote Mind_Map_hi.txt (1572 chars)
-09-10 14:20:14   [Voice] wrote Flashcards_en.txt (3903 chars)
-09-10 14:20:35   [Preposition] Practice_en_Set_05.txt try 1: re-solve disagrees (Q122 key c vs re-solve a)
-09-10 14:22:18   [Voice] wrote Flashcards_hi.txt (5416 chars)
-09-10 14:22:36   [Conjunction] Practice_en_Set_01.txt try 1: re-solve disagrees (Q14 key c vs re-solve a)
 09-10 14:23:24   [Adverb] review Feynman_hi.txt: 1 issue(s): - The claim that look, seem, feel, taste, smell, sound only describe state and never take adverbs is wrong; they ca
 09-10 14:24:18   [Preposition] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 09-10 14:24:20   [Voice] wrote PYQ_en.txt (6999 chars)
@@ -86,4 +61,29 @@
 09-10 14:31:26   [Voice] wrote Short_Tricks_hi.txt (7253 chars)
 09-10 14:32:12   [Articles] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 09-10 14:32:13   [Preposition] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 14:33:10   [Voice] wrote Important_Rules_en.txt (4861 chars)
+09-10 14:34:29   [Voice] wrote Important_Rules_hi.txt (3786 chars)
+09-10 14:34:38   [Articles] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 14:36:28   [Preposition] Practice_hi_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 14:37:19   [Adverb] review PYQ_en.txt: 2 issue(s): - "Adverb of manner (how often)" is a wrong fact: manner answers "how", not "how often" → Adverb of frequency (how ofte
+09-10 14:37:45   [Conjunction] Practice_en_Set_01.txt try 4: re-solve disagrees (Q2 key d vs re-solve a, Q11 key d vs re-solve b, Q17 key d vs re-solve a)
+09-10 14:37:45   [Conjunction] REJECTED Practice_en_Set_01.txt: no version passed the checks — not written
+09-10 14:37:45   [Conjunction] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
+09-10 14:38:10   [Articles] Practice_en_Set_02.txt try 1: re-solve disagrees (Q49 key c vs re-solve d)
+09-10 14:38:24   [Voice] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 14:38:46   [Preposition] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+09-10 14:38:46   [Preposition] written 26, failed 0; AI calls today 401/100000
+09-10 14:39:39   [Preposition] repaired Important_Rules_hi.txt (347 chars)
+09-10 14:39:39   [Preposition] written 1, failed 0; AI calls today 403/100000
+09-10 14:40:11   [Voice] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 14:40:55   [Preposition] repaired Important_Rules_hi.txt (3798 chars)
+09-10 14:40:55   [Preposition] written 1, failed 0; AI calls today 407/100000
+09-10 14:41:18   [Articles] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+09-10 14:41:39   [Adverb] review Short_Tricks_en.txt: 1 issue(s): - Trick 8 rule line says "enough + adjective/adverb, but adjective/adverb + enough" — the first part is wrong;
+09-10 14:42:52   [Articles] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 14:44:03   [Voice] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+09-10 14:45:09   [Articles] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 14:45:56   [Voice] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 14:46:12   [Preposition] review Content_en.txt: 2 issue(s): - Opening paragraph claims "2 to 4 questions come directly from prepositions" in SSC GD, SSC MTS, RRB Group D, Poli
+09-10 14:47:35   [Voice] Practice_en_Set_03.txt try 1: rejected (parsed 23 questions, numbers 51…75)
 ```
