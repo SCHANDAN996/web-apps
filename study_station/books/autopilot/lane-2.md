@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 04:29 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:38 AM
+**आख़िरी update:** 10-10-2026 04:44 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:38 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Calculus (Graduation Maths) | ✍️ लिख रहा है | 88 मिनट |
-| W2 | Chapter 23 Data Interpretation (Graduation Maths) | ✍️ लिख रहा है | 85 मिनट |
-| W3 | Chapter 21 Complex Numbers (Graduation Maths) | 🔎 review हो रहा है | 3 मिनट |
-| W4 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 14 मिनट |
-| W5 | Chapter 18 Quadratic Equations (Graduation Maths) | 🔎 review हो रहा है | 17 मिनट |
-| W6 | Chapter 24 Statistics (Graduation Maths) | ✍️ लिख रहा है | 27 मिनट |
-| W7 | Chapter 16 Coordinate Geometry (Graduation Maths) | 📤 push हो रहा है | 0 मिनट |
-| W8 | Chapter 20 Heights Distances (Graduation Maths) | ✍️ लिख रहा है | 17 मिनट |
+| W1 | Chapter 22 Calculus (Graduation Maths) | ✍️ लिख रहा है | 103 मिनट |
+| W2 | Chapter 23 Data Interpretation (Graduation Maths) | ✍️ लिख रहा है | 99 मिनट |
+| W3 | Chapter 21 Complex Numbers (Graduation Maths) | 🔎 review हो रहा है | 18 मिनट |
+| W4 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 29 मिनट |
+| W5 | Chapter 18 Quadratic Equations (Graduation Maths) | 🔎 review हो रहा है | 32 मिनट |
+| W6 | Chapter 24 Statistics (Graduation Maths) | ✍️ लिख रहा है | 42 मिनट |
+| W7 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 14 मिनट |
+| W8 | Chapter 26 Permutation Combination (Graduation Maths) | ✍️ लिख रहा है | 13 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -55,53 +55,52 @@
 - Chapter 13 Mixture Alligation (Maths) — 2 बार
 - Chapter 15 Geometry (Maths) — 2 बार
 - Chapter 17 Algebra (Maths) — 2 बार
-- Chapter 16 Coordinate Geometry (Maths) — 1 बार
 - Chapter 18 Quadratic Equations (Maths) — 1 बार
-- Chapter 20 Heights Distances (Maths) — 1 बार
+- Chapter 20 Heights Distances (Maths) — 2 बार
 - Chapter 19 Trigonometry (Maths) — 1 बार
 - Chapter 21 Complex Numbers (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 04:16:43   [Heights_Distances] Practice_en_Set_02.txt try 2: re-solve disagrees (Q49 key b vs re-solve a)
-10-10 04:16:44   [Calculus] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-10-10 04:17:04   [Trigonometry] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-10-10 04:18:17   [Data_Interpretation] Practice_en_Set_04.txt try 2: rejected (Q83:leaked_reasoning)
-10-10 04:18:28   [Coordinate_Geometry] review PYQ_en.txt: 2 issue(s): - Q1 hook incorrectly claims option (b) (4,3) arises from swapping ratio (1·6+3·2)/4=3 or using (m x₁+n x₂) formula; bo
-10-10 04:18:31   [Statistics] wrote Short_Tricks_en.txt (4792 chars)
-10-10 04:19:27   [Calculus] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-10-10 04:19:30   [Quadratic_Equations] review Feynman_en.txt: 6 issue(s): - "Feynman was a 12-year-old girl" → Feynman was a 12-year-old boy (Richard Feynman, male physicist)
-10-10 04:19:31   [Heights_Distances] Practice_en_Set_02.txt try 3: rejected (parsed 0 questions, numbers -…-)
-10-10 04:19:34   [Calculus] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
-10-10 04:19:40   [Trigonometry] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-10-10 04:20:19   [Statistics] wrote Short_Tricks_hi.txt (5875 chars)
-10-10 04:20:22   [Coordinate_Geometry] review PYQ_hi.txt: 1 issue(s): - Question 8 answer key says (a) but correct answer is (b) 17/10 → Change answer to (b) 17/10
-10-10 04:21:01   [Data_Interpretation] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-10-10 04:21:05   [Trigonometry] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-10-10 04:21:12   [Statistics] wrote Important_Formulas_en.txt (5238 chars)
-10-10 04:22:03   [Calculus] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-10-10 04:22:50   [Data_Interpretation] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-10-10 04:22:52   [Trigonometry] Practice_en_Set_03.txt try 1: rejected (parsed 24 questions, numbers 51…75)
-10-10 04:23:15   [Statistics] wrote Important_Formulas_hi.txt (5435 chars)
-10-10 04:23:34   [Calculus] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-10-10 04:23:57   [Quadratic_Equations] review PYQ_hi.txt: 1 issue(s): - 'लगभग हर साल 3–5 प्रश्न' claim for IBPS PO/SBI PO Mains is an invented exam statistic without year/source → Remove th
-10-10 04:24:14   [Data_Interpretation] Practice_en_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
-10-10 04:24:14   [Complex_Numbers] FAILED Practice_hi_Set_06.txt: too_long
-10-10 04:24:14   [Complex_Numbers] written 24, failed 1; AI calls today 710/100000
-10-10 04:24:14 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_21_Complex_Numbers after 112 min: todo ['Set 06 hi: todo'] problems []
-10-10 04:24:18 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_21_Complex_Numbers (TODO: todo 1, problems 0)
-10-10 04:25:35   [Calculus] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-10-10 04:25:57   [Complex_Numbers] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-10-10 04:25:57   [Complex_Numbers] written 1, failed 0; AI calls today 716/100000
-10-10 04:26:05   [Trigonometry] Practice_en_Set_03.txt try 2: re-solve disagrees (Q63 key a vs re-solve b)
-10-10 04:26:09   [Statistics] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-10-10 04:26:14   [Data_Interpretation] Practice_en_Set_05.txt try 2: rejected (Q105:leaked_reasoning,Q119:leaked_reasoning,Q123:leaked_reasoning,Q124:leaked_reasoning,Q125:leaked_reasoning)
-10-10 04:27:02   [Coordinate_Geometry] review Short_Tricks_hi.txt: 1 issue(s): - Trick 14: "विकर्ण लंबवत, केवल एक समद्विभाजित → समचतुर्भुज" is incorrect → In a rhombus, both diagonals bisec
-10-10 04:27:44   [Complex_Numbers] review Content_en.txt: 1 issue(s): - Invented exam claim: Complex numbers do not appear in SSC CGL Tier-II, IBPS PO Mains, or CSAT → Remove the false 
-10-10 04:27:59   [Data_Interpretation] Practice_en_Set_05.txt try 3: rejected (parsed 0 questions, numbers -…-)
-10-10 04:28:42   [Calculus] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-10-10 04:29:07   [Trigonometry] Practice_en_Set_03.txt try 3: rejected (parsed 0 questions, numbers -…-)
-10-10 04:29:40   [Coordinate_Geometry] review: 4 section(s) corrected, 0 failed
-10-10 04:29:40   [Coordinate_Geometry] written 4, failed 0; AI calls today 728/100000
+10-10 04:30:29   [Complex_Numbers] review Content_hi.txt: 1 issue(s): - In the कोणांक section, the third-quadrant alternative π + tan⁻¹(b/a) is wrongly presented as a principal argument
+10-10 04:30:47   [Calculus] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+10-10 04:31:13   [Data_Interpretation] Practice_en_Set_05.txt try 4: rejected (parsed 0 questions, numbers -…-)
+10-10 04:31:13   [Data_Interpretation] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
+10-10 04:31:13   [Data_Interpretation] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
+10-10 04:31:27   [Probability] Content_en.txt try 1: rejected (chat debris "Here's the")
+10-10 04:31:41   [Permutation_Combination] wrote Content_en.txt (7693 chars)
+10-10 04:32:12   [Statistics] Practice_en_Set_02.txt try 1: rejected (Q37:leaked_reasoning)
+10-10 04:32:18   [Trigonometry] Practice_en_Set_03.txt try 4: rejected (parsed 23 questions, numbers 51…75)
+10-10 04:32:18   [Trigonometry] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
+10-10 04:32:18   [Trigonometry] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
+10-10 04:32:27   [Probability] Content_en.txt try 2: rejected (chat debris "Here is the")
+10-10 04:32:27   [Probability] REJECTED Content_en.txt: chat debris "Here is the" — not written
+10-10 04:32:43   [Calculus] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+10-10 04:33:44   [Data_Interpretation] Practice_en_Set_06.txt try 1: rejected (Q129:leaked_reasoning,Q138:leaked_reasoning)
+10-10 04:34:07   [Probability] wrote Content_hi.txt (6327 chars)
+10-10 04:34:10   [Statistics] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+10-10 04:34:12   [Trigonometry] Practice_hi_Set_05.txt try 1: rejected (parsed 24 questions, numbers 101…124)
+10-10 04:34:20   [Statistics] Practice_hi_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 04:35:01   [Complex_Numbers] review Mind_Map.txt: 1 issue(s): - C3: arg(z) = tan⁻¹(b/a) is not universally valid (fails for a ≤ 0) → arg(z) = atan2(b, a) or specify quadrant adjus
+10-10 04:36:14   [Statistics] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+10-10 04:36:19   [Probability] wrote Feynman_en.txt (4542 chars)
+10-10 04:37:01   [Trigonometry] Practice_hi_Set_05.txt try 2: rejected (parsed 24 questions, numbers 101…124)
+10-10 04:37:03   [Calculus] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+10-10 04:37:17   [Probability] wrote Feynman_hi.txt (2385 chars)
+10-10 04:38:05   [Probability] wrote Mind_Map.txt (2671 chars)
+10-10 04:38:06   [Probability] Flashcards_en.txt try 1: rejected (too short)
+10-10 04:38:59   [Probability] wrote Flashcards_en.txt (3195 chars)
+10-10 04:39:12   [Trigonometry] Practice_hi_Set_05.txt try 3: rejected (parsed 24 questions, numbers 101…124)
+10-10 04:39:13   [Probability] wrote Flashcards_hi.txt (464 chars)
+10-10 04:39:34   [Calculus] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+10-10 04:40:05   [Data_Interpretation] Practice_en_Set_06.txt try 2: re-solve disagrees (Q135 key d vs re-solve ?)
+10-10 04:40:40   [Probability] wrote PYQ_en.txt (7867 chars)
+10-10 04:42:46   [Trigonometry] Practice_hi_Set_05.txt try 4: rejected (parsed 24 questions, numbers 101…124)
+10-10 04:42:46   [Trigonometry] REJECTED Practice_hi_Set_05.txt: no translation passed the checks — not written
+10-10 04:42:50   [Calculus] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+10-10 04:42:50   [Complex_Numbers] review Flashcards_en.txt: 1 issue(s): - In Card 2 back, the phrase "Powers of i repeat in a. CGL Tier" is nonsensical and grammatically incorrect → "P
+10-10 04:43:03   [Data_Interpretation] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+10-10 04:43:29   [Probability] wrote PYQ_hi.txt (8033 chars)
+10-10 04:44:19   [Quadratic_Equations] FAILED review PYQ_hi.txt: too_long — the chapter must not be published unreviewed
 ```
