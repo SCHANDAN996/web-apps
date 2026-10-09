@@ -1,0 +1,159 @@
+# 📊 PYQ Analysis — Geometry (English)
+
+## How Exams Test Geometry
+
+Across SSC CGL (Mains), IBPS PO, RRB NTPC and CAT, Geometry questions follow a remarkably stable pattern. Examiners rarely invent new concepts — they repackage the same core ideas with small twists. Here is what the pattern looks like, in words:
+
+**The most-loved sub-topics:**
+- **Triangles** — similarity, congruence, Pythagoras, and area ratios dominate. Questions on medians, centroids and inradius/circumradius appear again and again.
+- **Circles** — tangent properties, angle in a semicircle, alternate segment theorem, and chord theorems are evergreen favourites.
+- **Quadrilaterals & Polygons** — interior/exterior angle sums, parallelogram properties, and cyclic quadrilaterals.
+- **Mensuration-linked geometry** — areas and perimeters combined with ratios (e.g., "sides doubled, area becomes?").
+- **Coordinate basics** — distance, midpoint, section formula (more in CAT/CGL Mains).
+- **Lines & Angles** — parallel lines cut by a transversal; quick one-markers in NTPC.
+
+**The examiner's favourite traps (learn to smell them):**
+1. **The "almost-right" statement** — e.g., "All equilateral triangles are congruent." (False — they are *similar*, not necessarily congruent.) Statement-based questions love swapping "similar" and "congruent".
+2. **The ratio illusion** — "If the radius is doubled, the area doubles." The trap: area scales with the *square* of the linear dimension.
+3. **The hidden right angle** — a triangle inscribed in a semicircle, or a tangent meeting a radius. The 90° is never stated; you must see it.
+4. **The unit trap** — perimeter asked in cm, figure given in m; or area vs. perimeter confusion.
+5. **The "cannot be determined" bait** — data-sufficiency style (IBPS/CAT) where both statements look sufficient but aren't.
+6. **Angle-chasing overload** — a diagram with 4–5 angles where only one theorem (exterior angle = sum of opposite interiors) cracks it in one step.
+7. **Similar-name confusion** — centroid vs. circumcentre vs. incentre vs. orthocentre. Exams test *which* centre divides the median in 2:1.
+
+**Time strategy:** Pure line-angle questions deserve 30–40 seconds. Triangle/circle theorem questions: 60–90 seconds. If a geometry question needs more than 2 minutes, you are missing a theorem — mark it and move on.
+
+---
+
+## 🎯 Top 10 High-Yield Questions (with Solutions)
+
+---
+
+**Q1.** In a triangle ABC, the angle bisectors of ∠B and ∠C meet at I. If ∠A = 70°, then ∠BIC = ?
+
+(a) 110° (b) 125° (c) 135° (d) 145°
+
+**Answer: (b)**
+
+**Solution:** Use the standard result: ∠BIC = 90° + ∠A/2 = 90° + 35° = **125°**.
+**Trap:** Students who forget the formula try computing ∠B and ∠C individually — impossible, since only their *sum* (110°) is known. The question is designed to punish those who don't know the incenter angle formula.
+**Source:** PYQ-style (SSC CGL pattern)
+
+---
+
+**Q2.** The inradius of a right-angled triangle with legs 6 cm and 8 cm is:
+
+(a) 1 cm (b) 2 cm (c) 3 cm (d) 4 cm
+
+**Answer: (b)**
+
+**Solution:** Hypotenuse = √(36 + 64) = 10 cm. For a right triangle, r = (a + b − c)/2 = (6 + 8 − 10)/2 = **2 cm**.
+**Trap:** Many apply r = Area/s but miscompute the semi-perimeter, or forget the hypotenuse is 10 (a 6-8-10 Pythagorean triple — the examiner expects you to spot it instantly).
+**Source:** PYQ-style (SSC/Bank pattern)
+
+---
+
+**Q3.** Two circles of radii 5 cm and 3 cm touch each other externally. The distance between their centres is:
+
+(a) 2 cm (b) 8 cm (c) 15 cm (d) 5 cm
+
+**Answer: (b)**
+
+**Solution:** For external touching, distance = r₁ + r₂ = 5 + 3 = **8 cm**.
+**Trap:** Option (a) 2 cm is the *internal* touching formula (r₁ − r₂). The examiner places both answers side by side — read "externally" twice.
+**Source:** PYQ-style (RRB NTPC pattern)
+
+---
+
+**Q4.** In the figure, AB is a diameter of a circle and C is a point on the circle. If ∠CAB = 40°, then ∠ABC = ?
+
+(a) 40° (b) 50° (c) 60° (d) 90°
+
+**Answer: (b)**
+
+**Solution:** Angle in a semicircle = 90°, so ∠ACB = 90°. Then ∠ABC = 180° − 90° − 40° = **50°**.
+**Trap:** The right angle is *hidden* — never drawn or stated. Students who miss the semicircle theorem try guessing from the figure's appearance.
+**Source:** NCERT Class 9–10 (Circles)
+
+---
+
+**Q5.** The ratio of the areas of two similar triangles is 16 : 25. The ratio of their corresponding sides is:
+
+(a) 4 : 5 (b) 16 : 25 (c) 256 : 625 (d) 8 : 10
+
+**Answer: (a)**
+
+**Solution:** Area ratio = (side ratio)². So side ratio = √(16:25) = **4 : 5**.
+**Trap:** Option (b) is for those who forget to take the square root; option (c) for those who square instead. Note (d) 8:10 equals 4:5 but is not in simplest form — exams usually accept the reduced ratio.
+**Source:** NCERT Class 10 (Triangles)
+
+---
+
+**Q6.** The sum of the interior angles of a polygon is 1260°. The number of sides is:
+
+(a) 7 (b) 8 (c) 9 (d) 10
+
+**Answer: (c)**
+
+**Solution:** (n − 2) × 180° = 1260° → n − 2 = 7 → n = **9**.
+**Trap:** Dividing 1260 by 180 and answering 7 (option a) — forgetting the "+2". A classic one-step-vs-two-step trap.
+**Source:** NCERT Class 8 (Understanding Quadrilaterals)
+
+---
+
+**Q7.** In ΔABC, D and E are points on AB and AC such that DE ∥ BC. If AD = 2 cm, DB = 4 cm and AE = 3 cm, then EC = ?
+
+(a) 4 cm (b) 5 cm (c) 6 cm (d) 8 cm
+
+**Answer: (c)**
+
+**Solution:** By the Basic Proportionality Theorem (Thales): AD/DB = AE/EC → 2/4 = 3/EC → EC = **6 cm**.
+**Trap:** Students sometimes use AD/AB = AE/EC (mixing the part with the whole), getting 9 cm — which isn't even an option, forcing a panicked recalculation under time pressure.
+**Source:** NCERT Class 10 (Triangles)
+
+---
+
+**Q8.** The length of a tangent from a point 13 cm away from the centre of a circle of radius 5 cm is:
+
+(a) 8 cm (b) 10 cm (c) 12 cm (d) 18 cm
+
+**Answer: (c)**
+
+**Solution:** Tangent ⊥ radius, so tangent length = √(13² − 5²) = √(169 − 25) = √144 = **12 cm**.
+**Trap:** The 5-12-13 triple is the intended shortcut. Option (d) 18 cm catches those who *add* instead of applying Pythagoras.
+**Source:** NCERT Class 10 (Circles)
+
+---
+
+**Q9.** In a cyclic quadrilateral ABCD, ∠A = 85°. Then ∠C = ?
+
+(a) 85° (b) 95° (c) 105° (d) 115°
+
+**Answer: (b)**
+
+**Solution:** Opposite angles of a cyclic quadrilateral are supplementary: ∠C = 180° − 85° = **95°**.
+**Trap:** Option (a) tempts those who confuse cyclic quadrilaterals with parallelograms (where opposite angles are *equal*). The similar-figure confusion trap.
+**Source:** NCERT Class 9 (Circles)
+
+---
+
+**Q10.** The centroid of a triangle divides each median in the ratio:
+
+(a) 1 : 2 (b) 2 : 1 (c) 1 : 3 (d) 3 : 1
+
+**Answer: (b)**
+
+**Solution:** The centroid divides every median in the ratio **2 : 1**, with the longer part towards the vertex.
+**Trap:** Option (a) is the reversed ratio — the examiner banks on fuzzy memory. Remember: the centroid is *closer to the side* than to the vertex? No — closer to the *midpoint of the side*? Think: vertex-side is 2 parts, so the centroid sits nearer the base. Mnemonic: "**G**ravity pulls **2**-thirds down."
+**Source:** NCERT Class 9–10 (Triangles/Coordinate Geometry)
+
+---
+
+## 🧠 Pattern Takeaways
+
+- **Master 8 theorems and you cover most of the ground:** Pythagoras, BPT (Thales), similarity area-ratio, angle in semicircle, tangent-radius perpendicularity, tangent-length equality, cyclic quadrilateral supplementary angles, incenter angle formula (90° + A/2).
+- **Pythagorean triples (3-4-5, 5-12-13, 6-8-10, 8-15-17) appear constantly** — memorise them to save 30 seconds per question.
+- **Statement questions** (CGL Mains, IBPS) test definitions: similar ≠ congruent; every rectangle is a parallelogram but not vice versa; a square is a rhombus with a right angle.
+- **When stuck, look for the hidden 90°** — semicircles, tangents, and altitudes are the examiner's three favourite hiding places.
+
+*Revise these 10 question types again after 2 days — the traps repeat more faithfully than the numbers.*

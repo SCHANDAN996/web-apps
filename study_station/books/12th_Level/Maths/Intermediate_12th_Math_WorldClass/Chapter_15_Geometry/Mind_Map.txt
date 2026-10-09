@@ -1,0 +1,50 @@
+```mermaid
+graph TD
+    A["ज्यामिति<br>Geometry"] --> B["रेखाएँ एवं कोण<br>Lines & Angles"]
+    A --> C["त्रिभुज<br>Triangles"]
+    A --> D["चतुर्भुज<br>Quadrilaterals"]
+    A --> E["वृत्त<br>Circles"]
+    A --> F["बहुभुज<br>Polygons"]
+    A --> G["निर्देशांक ज्यामिति<br>Coordinate Geometry"]
+    A --> H["क्षेत्रमिति<br>Mensuration"]
+
+    B --> B1["कोण के प्रकार<br>Types of Angles<br>(न्यून, सम, अधिक)<br>(Acute, Right, Obtuse)"]
+    B --> B2["पूरक / संपूरक कोण<br>Complementary / Supplementary"]
+    B --> B3["समांतर रेखाएँ व तिर्यक रेखा<br>Parallel Lines & Transversal"]
+    B --> B4["शीर्षाभिमुख कोण<br>Vertically Opposite Angles"]
+
+    C --> C1["त्रिभुज के प्रकार<br>Types of Triangles<br>(भुजा / कोण के आधार पर)"]
+    C --> C2["पाइथागोरस प्रमेय<br>Pythagoras Theorem"]
+    C --> C3["सर्वांगसमता<br>Congruence<br>(SSS, SAS, ASA, RHS)"]
+    C --> C4["समरूपता<br>Similarity<br>(AA, SSS, SAS)"]
+    C --> C5["केंद्र: केन्द्रक, लंबकेंद्र,<br>परिकेंद्र, अंतःकेंद्र<br>Centroid, Orthocentre,<br>Circumcentre, Incentre"]
+    C --> C6["मध्यिका / ऊँचाई / कोण समद्विभाजक<br>Median / Altitude / Angle Bisector"]
+
+    D --> D1["समांतर चतुर्भुज<br>Parallelogram"]
+    D --> D2["आयत / वर्ग / समचतुर्भुज<br>Rectangle / Square / Rhombus"]
+    D --> D3["समलंब चतुर्भुज<br>Trapezium"]
+    D --> D4["पतंग<br>Kite"]
+
+    E --> E1["त्रिज्या, जीवा, व्यास<br>Radius, Chord, Diameter"]
+    E --> E2["स्पर्श रेखा गुण<br>Tangent Properties"]
+    E --> E3["चाप व कोण प्रमेय<br>Arc & Angle Theorems"]
+    E --> E4["चक्रीय चतुर्भुज<br>Cyclic Quadrilateral"]
+    E --> E5["खंड / वृत्तखंड<br>Sector / Segment"]
+
+    F --> F1["आंतरिक कोणों का योग<br>Sum of Interior Angles<br>(n−2)×180°"]
+    F --> F2["बाह्य कोणों का योग = 360°<br>Sum of Exterior Angles"]
+    F --> F3["विकर्णों की संख्या<br>Diagonals = n(n−3)/2"]
+
+    G --> G1["दूरी सूत्र<br>Distance Formula"]
+    G --> G2["विभाजन सूत्र<br>Section Formula"]
+    G --> G3["मध्यबिंदु सूत्र<br>Midpoint Formula"]
+    G --> G4["त्रिभुज का क्षेत्रफल<br>Area of Triangle"]
+
+    H --> H1["2D क्षेत्रफल व परिमाप<br>2D Area & Perimeter"]
+    H --> H2["3D पृष्ठीय क्षेत्रफल व आयतन<br>3D Surface Area & Volume"]
+
+    C2 -.->|समकोण त्रिभुज में उपयोग<br>Used in Right Triangles| H1
+    C4 -.->|समरूप त्रिभुजों के क्षेत्रफल<br>Areas of Similar Triangles| H1
+    E4 -.->|सम्मुख कोण संपूरक<br>Opposite Angles Supplementary| B2
+    D1 -.->|विकर्ण समद्विभाजित<br>Diagonals Bisect| G3
+```

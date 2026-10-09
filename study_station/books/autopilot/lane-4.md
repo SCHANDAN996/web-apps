@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 09:35 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
+**आख़िरी update:** 09-10-2026 09:45 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 17 Trigonometry (12th Maths) | ✍️ लिख रहा है | 45 मिनट |
-| W2 | Chapter 14 Mensuration (12th Maths) | ✍️ लिख रहा है | 103 मिनट |
-| W3 | Chapter 11 Time Work (12th Maths) | ✍️ लिख रहा है | 127 मिनट |
-| W4 | Chapter 13 Mixture Alligation (12th Maths) | ✍️ लिख रहा है | 109 मिनट |
-| W5 | Chapter 15 Geometry (12th Maths) | 🔎 review हो रहा है | 21 मिनट |
-| W6 | Chapter 12 Time Distance (12th Maths) | 🔎 review हो रहा है | 13 मिनट |
-| W7 | Chapter 07 Ratio Proportion (12th Maths) | ✍️ लिख रहा है | 5 मिनट |
-| W8 | Chapter 16 Algebra (12th Maths) | ✍️ लिख रहा है | 49 मिनट |
+| W1 | Chapter 17 Trigonometry (12th Maths) | ✍️ लिख रहा है | 55 मिनट |
+| W2 | Chapter 14 Mensuration (12th Maths) | ✍️ लिख रहा है | 113 मिनट |
+| W3 | Chapter 11 Time Work (12th Maths) | ✍️ लिख रहा है | 3 मिनट |
+| W4 | Chapter 13 Mixture Alligation (12th Maths) | ✍️ लिख रहा है | 120 मिनट |
+| W5 | Chapter 15 Geometry (12th Maths) | 📤 push हो रहा है | 0 मिनट |
+| W6 | Chapter 12 Time Distance (12th Maths) | 🔎 review हो रहा है | 23 मिनट |
+| W7 | Chapter 07 Ratio Proportion (12th Maths) | ✍️ लिख रहा है | 16 मिनट |
+| W8 | Chapter 16 Algebra (12th Maths) | ✍️ लिख रहा है | 60 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,6 +37,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 21:45 — 12th Maths · Chapter 15 Geometry
 - 09-10 20:49 — 12th Maths · Chapter 09 Simple Interest
 - 09-10 20:45 — 12th Maths · Chapter 08 Profit Loss
 - 09-10 20:01 — 12th Maths · Chapter 03 Simplification
@@ -52,30 +53,11 @@
 - Chapter 12 Time Distance (Maths) — 1 बार
 - Chapter 15 Geometry (Maths) — 1 बार
 - Chapter 07 Ratio Proportion (Maths) — 1 बार
+- Chapter 11 Time Work (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 21:12:27   [Algebra] wrote Important_Formulas_hi.txt (4160 chars)
-09-10 21:12:33   [Geometry] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 21:12:33   [Geometry] written 24, failed 1; AI calls today 363/100000
-09-10 21:12:34 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_15_Geometry after 70 min: todo ['Feynman_en.txt'] problems ['Flashcards_hi.txt: much shorter than the English section (23']
-09-10 21:12:35 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_15_Geometry (TODO: todo 1, problems 1)
-09-10 21:13:18   [Geometry] wrote Feynman_en.txt (3503 chars)
-09-10 21:13:18   [Geometry] written 1, failed 0; AI calls today 364/100000
-09-10 21:13:32   [Mixture_Alligation] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-09-10 21:13:57   [Time_Distance] Practice_en_Set_05.txt try 1: rejected (Q110:leaked_reasoning,Q118:leaked_reasoning,Q125:leaked_reasoning)
-09-10 21:13:59   [Geometry] repaired Flashcards_hi.txt (2592 chars)
-09-10 21:13:59   [Geometry] written 1, failed 0; AI calls today 368/100000
-09-10 21:14:50   [Trigonometry] wrote PYQ_hi.txt (6599 chars)
-09-10 21:15:05   [Time_Work] Practice_en_Set_06.txt try 1: rejected (Q126:leaked_reasoning,Q127:leaked_reasoning,Q128:leaked_reasoning,Q131:leaked_reasoning,Q132:leaked_reasoning)
-09-10 21:16:09   [Mixture_Alligation] Practice_en_Set_03.txt try 1: rejected (Q55:leaked_reasoning,Q60:leaked_reasoning,Q61:leaked_reasoning,Q70:leaked_reasoning,Q73:leaked_reasoning)
-09-10 21:16:37   [Mensuration] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-09-10 21:17:04   [Trigonometry] wrote Short_Tricks_en.txt (10565 chars)
-09-10 21:18:49   [Trigonometry] wrote Short_Tricks_hi.txt (8462 chars)
-09-10 21:19:10   [Algebra] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 21:19:11   [Time_Distance] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-09-10 21:19:40   [Trigonometry] wrote Important_Formulas_en.txt (5345 chars)
 09-10 21:19:57   [Mixture_Alligation] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 09-10 21:20:21   [Mixture_Alligation] Practice_hi_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
 09-10 21:20:59   [Algebra] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
@@ -96,4 +78,24 @@
 09-10 21:33:29   [Ratio_Proportion] Practice_en_Set_04.txt try 1: rejected (Q84:leaked_reasoning,Q86:leaked_reasoning,Q87:answer_solution_conflict)
 09-10 21:34:32   [Algebra] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
 09-10 21:35:14   [Mensuration] FAILED Practice_hi_Set_05.txt: too_long
+09-10 21:37:36   [Time_Distance] review PYQ_en.txt: 1 issue(s): - The trap explanation for Q2 is inaccurate; the trap of using only train or platform length yields 7.5 m/s or 12.5 m/s
+09-10 21:37:37   [Trigonometry] Important_Formulas_hi.txt try 1: answer too long — asking for a tighter version
+09-10 21:40:05   [Trigonometry] wrote Important_Formulas_hi.txt (6470 chars)
+09-10 21:40:23   [Ratio_Proportion] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 21:42:00   [Time_Work] FAILED Practice_hi_Set_06.txt: too_long
+09-10 21:42:00   [Time_Work] written 21, failed 4; AI calls today 420/100000
+09-10 21:42:01 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_11_Time_Work after 134 min: todo ['Content_en.txt', 'Feynman_en.txt', 'Flashcards_hi.txt', 'Set 06 hi: todo'] problems ['Content_hi.txt: Hindi file is mostly not in Hindi', 'Set 02 Practice_en_Set_02.txt: unverified exam/year source "', 'Set 02 Practice_hi_Set_02.txt: unverified exam/year source "']
+09-10 21:42:02 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_11_Time_Work (TODO: todo 4, problems 3)
+09-10 21:43:02   [Time_Distance] review Short_Tricks_en.txt: 1 issue(s): - Trick 10 gunshot gap formula: "Speed of man / Speed of sound = (60 − G)/60" is incorrect → Correct formula: 
+09-10 21:43:26   [Trigonometry] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 21:43:30   [Time_Work] Content_en.txt try 1: rejected (chat debris "Here is the")
+09-10 21:43:58   [Mixture_Alligation] FAILED Practice_en_Set_04.txt: too_long
+09-10 21:43:58   [Mixture_Alligation] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
+09-10 21:44:21   [Geometry] review Important_Formulas_en.txt: 4 issue(s): -
+09-10 21:45:04   [Trigonometry] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 21:45:14   [Time_Work] wrote Content_en.txt (6818 chars)
+09-10 21:45:15   [Mensuration] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 21:45:45   [Time_Work] Feynman_en.txt try 1: rejected (chat debris "Here's the")
+09-10 21:45:58   [Geometry] review: 3 section(s) corrected, 0 failed
+09-10 21:45:58   [Geometry] written 3, failed 0; AI calls today 431/100000
 ```
