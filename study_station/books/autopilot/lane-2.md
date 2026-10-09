@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 01:35 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:38 AM
+**आख़िरी update:** 10-10-2026 01:40 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:38 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Time Work (Graduation Maths) | ✍️ लिख रहा है | 50 मिनट |
-| W2 | Chapter 15 Geometry (Graduation Maths) | ✍️ लिख रहा है | 20 मिनट |
-| W3 | Chapter 14 Mensuration (Graduation Maths) | ✍️ लिख रहा है | 24 मिनट |
-| W4 | Chapter 13 Mixture Alligation (Graduation Maths) | ✍️ लिख रहा है | 32 मिनट |
-| W5 | Chapter 12 Time Distance (Graduation Maths) | 🔎 review हो रहा है | 5 मिनट |
-| W6 | Chapter 07 Ratio Proportion (Graduation Maths) | 📤 push हो रहा है | 0 मिनट |
-| W7 | Chapter 16 Coordinate Geometry (Graduation Maths) | ✍️ लिख रहा है | 15 मिनट |
-| W8 | Chapter 10 Compound Interest (Graduation Maths) | 🔎 review हो रहा है | 2 मिनट |
+| W1 | Chapter 11 Time Work (Graduation Maths) | ✍️ लिख रहा है | 55 मिनट |
+| W2 | Chapter 15 Geometry (Graduation Maths) | ✍️ लिख रहा है | 25 मिनट |
+| W3 | Chapter 14 Mensuration (Graduation Maths) | ✍️ लिख रहा है | 29 मिनट |
+| W4 | Chapter 13 Mixture Alligation (Graduation Maths) | ✍️ लिख रहा है | 37 मिनट |
+| W5 | Chapter 12 Time Distance (Graduation Maths) | 🔎 review हो रहा है | 10 मिनट |
+| W6 | Chapter 17 Algebra (Graduation Maths) | ✍️ लिख रहा है | 4 मिनट |
+| W7 | Chapter 16 Coordinate Geometry (Graduation Maths) | ✍️ लिख रहा है | 20 मिनट |
+| W8 | Chapter 10 Compound Interest (Graduation Maths) | 🔎 review हो रहा है | 7 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -25,15 +25,15 @@
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 18 | 4 | 0 |
 | 10th English | 17 | 0 | 3 |
-| 12th Maths | 11 | 0 | 12 |
+| 12th Maths | 12 | 0 | 11 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 10 | 0 | 15 |
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 10 | 1 | 17 |
 | Graduation GK | 27 | 1 | 0 |
-| Graduation Reasoning | 12 | 0 | 18 |
+| Graduation Reasoning | 13 | 0 | 17 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **222** | **6** | **68** |
+| **कुल** | **224** | **6** | **66** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -49,25 +49,10 @@
 - Chapter 05 Percentage (Maths) — 2 बार
 - Chapter 10 Compound Interest (Maths) — 1 बार
 - Chapter 12 Time Distance (Maths) — 1 बार
-- Chapter 07 Ratio Proportion (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 01:21:55   [Mixture_Alligation] Practice_en_Set_05.txt try 3: rejected (parsed 1 questions, numbers 101…101)
-10-10 01:22:20   [Time_Distance] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-10-10 01:22:24   [Compound_Interest] wrote Feynman_en.txt (2102 chars)
-10-10 01:22:31   [Geometry] wrote Flashcards_en.txt (5348 chars)
-10-10 01:22:50   [Coordinate_Geometry] Content_en.txt try 1: rejected (chat debris "Here's the")
-10-10 01:23:14   [Geometry] wrote Flashcards_hi.txt (2826 chars)
-10-10 01:24:12   [Mixture_Alligation] Practice_en_Set_05.txt try 4: rejected (Q104:leaked_reasoning,Q109:answer_solution_conflict,Q112:leaked_reasoning,Q125:leaked_reasoning)
-10-10 01:24:12   [Mixture_Alligation] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
-10-10 01:24:12   [Mixture_Alligation] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
-10-10 01:24:13   [Ratio_Proportion] review Short_Tricks_en.txt: 2 issue(s): - Trick 6 shortcut formula for x added to both terms is incorrect: x = (bc − ad)/(c − d) → Correct formula: x 
-10-10 01:24:19   [Coordinate_Geometry] Content_en.txt try 2: rejected (chat debris "Here is the")
-10-10 01:24:19   [Coordinate_Geometry] REJECTED Content_en.txt: chat debris "Here is the" — not written
-10-10 01:24:24   [Geometry] wrote PYQ_en.txt (7498 chars)
-10-10 01:24:44   [Time_Distance] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 10-10 01:24:44   [Time_Distance] written 5, failed 2; AI calls today 172/100000
 10-10 01:24:44 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_12_Time_Distance after 32 min: todo ['Set 05 en: todo', 'Set 05 hi: todo'] problems []
 10-10 01:24:47 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_12_Time_Distance (TODO: todo 2, problems 0)
@@ -94,4 +79,18 @@
 10-10 01:35:28   [Ratio_Proportion] review: 0 section(s) corrected, 0 failed
 10-10 01:35:28   [Ratio_Proportion] written 0, failed 0; AI calls today 198/100000
 10-10 01:35:39   [Time_Distance] review Content_hi.txt: 1 issue(s): - SSC CGL Tier-II में Quant के सेक्शन में औसतन एक प्रश्न के लिए मिलते हैं करीब 90 सेकंड → This is an invented exam 
+10-10 01:35:48 DONE Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_07_Ratio_Proportion in 2 min → 115f4e58
+10-10 01:35:51 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_17_Algebra (TODO: todo 25, problems 0)
+10-10 01:36:06   [Algebra] wrote Content_en.txt (1877 chars)
+10-10 01:36:34   [Time_Work] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+10-10 01:37:34   [Mixture_Alligation] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+10-10 01:37:47   [Mixture_Alligation] Practice_hi_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 01:37:51   [Mensuration] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+10-10 01:38:04   [Algebra] wrote Content_hi.txt (6878 chars)
+10-10 01:38:22   [Coordinate_Geometry] Feynman_en.txt try 1: rejected (corrupted characters)
+10-10 01:39:06   [Coordinate_Geometry] Feynman_en.txt try 2: rejected (chat debris "Here's the")
+10-10 01:39:06   [Coordinate_Geometry] REJECTED Feynman_en.txt: chat debris "Here's the" — not written
+10-10 01:39:09   [Algebra] Feynman_en.txt try 1: rejected (chat debris "Here's the")
+10-10 01:40:02   [Algebra] wrote Feynman_en.txt (3193 chars)
+10-10 01:40:08   [Coordinate_Geometry] wrote Feynman_hi.txt (2445 chars)
 ```
