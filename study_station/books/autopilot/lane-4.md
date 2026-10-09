@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 10:59 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 11:12 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Defence (12th GK) | ✍️ लिख रहा है | 76 मिनट |
-| W2 | Chapter 23 Economic Terms (12th GK) | ✍️ लिख रहा है | 14 मिनट |
-| W3 | Chapter 19 Environment (12th GK) | 🔎 review हो रहा है | 25 मिनट |
-| W4 | Chapter 21 International Orgs (12th GK) | ✍️ लिख रहा है | 91 मिनट |
-| W5 | Chapter 17 Culture Art (12th GK) | 🔎 review हो रहा है | 0 मिनट |
+| W1 | Chapter 22 Defence (12th GK) | ✍️ लिख रहा है | 89 मिनट |
+| W2 | Chapter 23 Economic Terms (12th GK) | ✍️ लिख रहा है | 27 मिनट |
+| W3 | Chapter 19 Environment (12th GK) | 📤 push हो रहा है | 0 मिनट |
+| W4 | Chapter 21 International Orgs (12th GK) | ✍️ लिख रहा है | 12 मिनट |
+| W5 | Chapter 17 Culture Art (12th GK) | 🔎 review हो रहा है | 13 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,6 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 11:12 — 12th GK · Chapter 19 Environment
 - 09-10 09:28 — 12th GK · Chapter 13 Awards
 - 09-10 09:09 — 12th GK · Chapter 15 Days Dates
 - 09-10 09:01 — 12th GK · Chapter 07 States Rivers
@@ -45,34 +46,12 @@
 - Chapter 03 Modern History (GK) — 2 बार
 - Chapter 18 Science Tech (GK) — 2 बार
 - Chapter 17 Culture Art (GK) — 1 बार
+- Chapter 21 International Orgs (GK) — 1 बार
+- Chapter 19 Environment (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 10:35:55   [Defence] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-09-10 10:37:42   [Culture_Art] review Key_Facts_en.txt: 1 issue(s): <|close|><|close|>]<|close|>
-09-10 10:37:42   [Culture_Art] ,,
-09-10 10:37:42   [Culture_Art] Lata
-09-10 10:37:42   [Culture_Art] Number<|open|>response<|close|><|close|>end
-09-10 10:37:42   [Culture_Art] （
-09-10 10:37:43   [International_Orgs] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-09-10 10:37:48   [Culture_Art] REJECTED review fix Key_Facts_en.txt: too short
-09-10 10:38:56   [Defence] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 10:39:12   [Environment] review Content_en.txt: 3 issue(s): - World Environment Day start year given as 1973 → first celebrated in 1974 (UN designated in 1972, first observed 
-09-10 10:40:26   [Culture_Art] review Key_Facts_hi.txt: 2 issue(s): - संगीत नाटक अकादमी की स्थापना वर्ष 1953 दिया गया है → सही वर्ष 1952 है
-09-10 10:41:55   [Culture_Art] REJECTED review fix Key_Facts_hi.txt: Key_Facts_hi.txt: Hindi file is mostly not in Hindi
-09-10 10:43:31   [Culture_Art] review Feynman_hi.txt: 2 issue(s): - "सतरिया" (Sattriya) is misspelled → correct spelling "सत्त्रिया" (or "सत्रिया")
-09-10 10:43:51   [Environment] review Content_hi.txt: 1 issue(s): - Food chain example "घास → घासफूस (हरन) → शेर" is wrong: "घासफूस" means grass/fodder, not deer (हरन); also the 10%
-09-10 10:45:06   [Culture_Art] review Mind_Map.txt: 2 issue(s): - D1: "बौध्ध" is misspelled; the correct Hindi spelling is "बौद्ध" → Change "बौध्ध" to "बौद्ध"
-09-10 10:45:08   [International_Orgs] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-09-10 10:45:13   [Science_Tech] FAILED Practice_hi_Set_03.txt: too_long
-09-10 10:45:13   [Science_Tech] written 2, failed 1; AI calls today 270/100000
-09-10 10:45:13 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_18_Science_Tech after 23 min: todo ['Set 03 hi: todo'] problems ['Memory_Hooks_hi.txt: Hindi file is mostly not in Hindi', 'Memory_Hooks_hi.txt: much shorter than the English section (']
-09-10 10:45:14 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_23_Economic_Terms (TODO: todo 25, problems 0)
-09-10 10:47:21   [Economic_Terms] wrote Content_en.txt (13503 chars)
-09-10 10:47:37   [International_Orgs] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 10:47:44   [Culture_Art] review Flashcards_en.txt: 1 issue(s): - Card 6: Tansen is incorrectly called the father of the Khayal style; he was a Dhrupad maestro and a Navaratna 
-09-10 10:50:43   [Culture_Art] review Flashcards_hi.txt: 2 issue(s): - कार्ड 12: फड़ चित्रकला को बंगाल का बताया गया है → फड़ चित्रकला राजस्थान की है (बंगाल नहीं)
 09-10 10:50:45   [International_Orgs] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 09-10 10:53:10   [International_Orgs] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 09-10 10:53:46   [Economic_Terms] wrote Content_hi.txt (11812 chars)
@@ -89,4 +68,28 @@
 09-10 10:59:07 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_17_Culture_Art after 143 min: todo [] problems []
 09-10 10:59:09 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_17_Culture_Art (OK: todo 0, problems 0)
 09-10 10:59:12   [Environment] review Mind_Map.txt: 1 issue(s): - B3 Hindi term "आलेख" for Niche is incorrect → Use "निच" or "पारिस्थितिक निच"
+09-10 11:00:13   [International_Orgs] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+09-10 11:00:13   [International_Orgs] written 24, failed 1; AI calls today 302/100000
+09-10 11:00:14 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_21_International_Orgs after 92 min: todo ['Set 01 hi: todo'] problems []
+09-10 11:00:15 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_21_International_Orgs (TODO: todo 1, problems 0)
+09-10 11:01:29   [Economic_Terms] wrote Key_Facts_hi.txt (7661 chars)
+09-10 11:01:58   [Economic_Terms] wrote Feynman_en.txt (2999 chars)
+09-10 11:03:01   [Economic_Terms] wrote Feynman_hi.txt (2789 chars)
+09-10 11:03:11   [International_Orgs] Practice_hi_Set_01.txt try 1: rejected (Q22:needs_context)
+09-10 11:03:58   [Economic_Terms] wrote Mind_Map.txt (3074 chars)
+09-10 11:06:17   [Economic_Terms] wrote Flashcards_en.txt (4999 chars)
+09-10 11:06:55   [Environment] review Memory_Hooks_en.txt: 4 issue(s): - Box 7 mnemonic misspells "Sundaland" as "SUNDERLAND" → correct spelling: "Sundaland"
+09-10 11:07:08   [Defence] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 11:07:28   [International_Orgs] Practice_hi_Set_01.txt try 2: rejected (parsed 0 questions, numbers -…-)
+09-10 11:08:50   [Economic_Terms] wrote Flashcards_hi.txt (5447 chars)
+09-10 11:10:01   [Environment] review Memory_Hooks_hi.txt: 2 issue(s): - Mnemonic 12: The mnemonic "72-74-80-86 — पानी-हवा-वन-पर्यावरण" mismatches the listed acts; numbers 72,74,80,
+09-10 11:10:35   [Defence] Practice_en_Set_06.txt try 1: rejected (Q133:leaked_reasoning)
+09-10 11:10:48   [Economic_Terms] wrote PYQ_en.txt (12144 chars)
+09-10 11:10:50   [International_Orgs] Practice_hi_Set_01.txt try 3: rejected (Q22:needs_context)
+09-10 11:11:52   [Environment] review: 6 section(s) corrected, 1 failed
+09-10 11:11:52   [Environment] written 6, failed 1; AI calls today 323/100000
+09-10 11:11:52 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_19_Environment after 122 min: todo [] problems []
+09-10 11:11:53 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_19_Environment (OK: todo 0, problems 0)
+09-10 11:12:19   [Environment] review: 0 section(s) corrected, 0 failed
+09-10 11:12:19   [Environment] written 0, failed 0; AI calls today 324/100000
 ```
