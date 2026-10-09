@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 10:44 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 10:46 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 16 Books Authors (Graduation GK) | 🔎 review हो रहा है | 0 मिनट |
-| W2 | Chapter 18 Science Tech (Graduation GK) | ✍️ लिख रहा है | 31 मिनट |
-| W3 | Chapter 21 International Orgs (Graduation GK) | ✍️ लिख रहा है | 10 मिनट |
-| W4 | Chapter 17 Culture Art (Graduation GK) | ✍️ लिख रहा है | 84 मिनट |
-| W5 | Chapter 19 Environment (Graduation GK) | ✍️ लिख रहा है | 24 मिनट |
+| W1 | Chapter 16 Books Authors (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 18 Science Tech (Graduation GK) | ✍️ लिख रहा है | 34 मिनट |
+| W3 | Chapter 21 International Orgs (Graduation GK) | ✍️ लिख रहा है | 12 मिनट |
+| W4 | Chapter 17 Culture Art (Graduation GK) | ✍️ लिख रहा है | 87 मिनट |
+| W5 | Chapter 19 Environment (Graduation GK) | ✍️ लिख रहा है | 27 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,6 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 10:46 — Graduation GK · Chapter 16 Books Authors
 - 09-10 10:19 — Graduation GK · Chapter 15 Days Dates
 - 09-10 10:12 — Graduation GK · Chapter 14 Sports
 - 09-10 09:19 — Graduation GK · Chapter 11 Chemistry
@@ -50,13 +51,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 10:25:43   [Science_Tech] wrote Key_Facts_en.txt (11733 chars)
-09-10 10:26:41   [Awards] review Memory_Hooks_en.txt: 1 issue(s): - Bhanu Athaiya's Oscar year given as 1982 → correct award year is 1983 (55th Academy Awards)
-09-10 10:27:13   [Environment] wrote Content_en.txt (15824 chars)
-09-10 10:27:26   [Books_Authors] review Flashcards_hi.txt: 3 issue(s): - Card 3: लिखी गई अवधि 1942–46 बताई गई है, जबकि नेहरू ने ‘डिस्कवरी ऑफ इंडिया’ 1942–1945 में अहमदनगर जेल में लिखी
-09-10 10:28:54   [Science_Tech] wrote Key_Facts_hi.txt (8004 chars)
-09-10 10:29:01   [Culture_Art] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-09-10 10:30:02   [Environment] wrote Content_hi.txt (8601 chars)
 09-10 10:30:43   [Books_Authors] review PYQ_en.txt: 1 issue(s): - "Discovery of India" is listed under "Autobiographies of national leaders" but it is not an autobiography; it is a hi
 09-10 10:31:19   [Science_Tech] wrote Feynman_en.txt (4007 chars)
 09-10 10:32:08   [Science_Tech] wrote Feynman_hi.txt (2585 chars)
@@ -90,4 +84,11 @@
 09-10 10:44:04 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_16_Books_Authors after 93 min: todo [] problems []
 09-10 10:44:05 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_16_Books_Authors (OK: todo 0, problems 0)
 09-10 10:44:11   [International_Orgs] wrote Key_Facts_hi.txt (6396 chars)
+09-10 10:44:44   [Science_Tech] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 10:44:48   [International_Orgs] wrote Feynman_en.txt (3508 chars)
+09-10 10:45:03   [Culture_Art] Practice_en_Set_04.txt try 1: re-solve disagrees (Q76 key a vs re-solve b)
+09-10 10:45:32   [Books_Authors] review Key_Facts_hi.txt: 4 issue(s): - मेघदूतम् को 'संस्कृत महाकाव्य' बताया गया है → मेघदूतम् संस्कृत का खण्डकाव्य (लघु काव्य) है, महाकाव्य नहीं
+09-10 10:45:34   [International_Orgs] wrote Feynman_hi.txt (2349 chars)
+09-10 10:46:34   [Books_Authors] review: 1 section(s) corrected, 0 failed
+09-10 10:46:34   [Books_Authors] written 1, failed 0; AI calls today 291/100000
 ```
