@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 09-10-2026 09:39 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
+**आख़िरी update:** 09-10-2026 09:46 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Time Work (10th Maths) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 16 Algebra (10th Maths) | 🔎 review हो रहा है | 27 मिनट |
-| W5 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 15 मिनट |
+| W4 | Chapter 16 Algebra (10th Maths) | 🔎 review हो रहा है | 34 मिनट |
+| W5 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 22 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -20,7 +19,7 @@
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 15 | 7 | 0 |
 | 10th English | 16 | 3 | 1 |
-| 12th Maths | 7 | 0 | 16 |
+| 12th Maths | 8 | 0 | 15 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 6 | 0 | 19 |
 | 12th English | 25 | 0 | 0 |
@@ -28,7 +27,7 @@
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 8 | 0 | 22 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **197** | **10** | **89** |
+| **कुल** | **198** | **10** | **88** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -60,9 +59,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 21:03:44   [Time_Distance] review: 3 section(s) corrected, 0 failed
-09-10 21:03:44   [Time_Distance] written 3, failed 0; AI calls today 846/100000
-09-10 21:03:59 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_12_Time_Distance in 95 min → c44bc82f
 09-10 21:03:59 worker 5: nothing left
 09-10 21:05:20   [Algebra] set 06 try 1: re-solve disagrees (Q150 key a vs re-solve ?)
 09-10 21:05:53   [Time_Work] review Feynman_en.txt: 1 issue(s): - The statement “Efficiency Ratio : Time Ratio = 1:2 :: 2:1?” is mathematically incorrect → The correct relationshi
@@ -100,4 +96,7 @@
 09-10 21:39:08   [Mixture_Alligation] set 01 try 2: re-solve disagrees (Q1 key c vs re-solve d, Q7 key a vs re-solve b)
 09-10 21:39:50   [Time_Work] review: 6 section(s) corrected, 0 failed
 09-10 21:39:50   [Time_Work] written 6, failed 0; AI calls today 899/100000
+09-10 21:40:09 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_11_Time_Work in 136 min → 9eeeb43a
+09-10 21:40:09 worker 0: nothing left
+09-10 21:40:54   [Algebra] review PYQ_hi.txt: 3 issue(s): - "मात्रात्मक योग्यता खंड का 25% हिस्सा बीजगणित का होता है" → "Remove or cite official source; this weightage is invent
 ```
