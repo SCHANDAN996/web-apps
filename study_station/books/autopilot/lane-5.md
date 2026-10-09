@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 10-10-2026 05:00 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 02:27 AM
+**आख़िरी update:** 10-10-2026 05:16 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 02:27 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W5 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 9 मिनट |
+| W5 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 24 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -43,16 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 03:59:56   [Probability] set 05 try 1: rejected (parsed 24 questions, numbers 101…125)
-10-10 04:02:02   [Probability] set 05 try 2: rejected (parsed 24 questions, numbers 101…125)
-10-10 04:03:09   [Probability] set 05 try 3: rejected (parsed 24 questions, numbers 101…125)
-10-10 04:04:47   [Probability] set 05 try 4: rejected (parsed 0 questions, numbers -…-)
-10-10 04:04:47   [Probability] FAILED set 05: no version passed the checks — files left as they were
-10-10 04:07:18   [Probability] set 06 try 1: rejected (parsed 23 questions, numbers 126…150)
-10-10 04:09:00   [Probability] set 06 try 2: rejected (parsed 23 questions, numbers 126…150)
-10-10 04:10:22   [Probability] set 06 try 3: rejected (parsed 23 questions, numbers 126…150)
-10-10 04:11:47   [Probability] set 06 try 4: rejected (parsed 23 questions, numbers 126…150)
-10-10 04:11:47   [Probability] FAILED set 06: no version passed the checks — files left as they were
 10-10 04:11:47   [Probability] written 0, failed 4; AI calls today 97/100000
 10-10 04:11:47 NOT OK 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_21_Probability after 104 min: todo [] problems ['Set 02 en: 1/25 parsed', 'Set 02 hi: 1/25 parsed', 'Set 03 en: 0/25 parsed', 'Set 03 hi: 0/25 parsed']
 10-10 04:11:49 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_21_Probability (FIX: todo 0, problems 8)
@@ -83,4 +73,14 @@
 10-10 04:58:10   [Probability] set 02 try 4: rejected (parsed 0 questions, numbers -…-)
 10-10 04:58:10   [Probability] FAILED set 02: no version passed the checks — files left as they were
 10-10 04:59:50   [Probability] set 03 try 1: rejected (parsed 23 questions, numbers 51…75)
+10-10 05:02:00   [Probability] set 03 try 2: rejected (parsed 23 questions, numbers 51…75)
+10-10 05:04:31   [Probability] set 03 try 3: rejected (parsed 23 questions, numbers 51…75)
+10-10 05:06:05   [Probability] set 03 try 4: rejected (parsed 23 questions, numbers 51…75)
+10-10 05:06:05   [Probability] FAILED set 03: no version passed the checks — files left as they were
+10-10 05:08:22   [Probability] set 05 try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 05:09:33   [Probability] set 05 try 2: rejected (parsed 24 questions, numbers 101…125)
+10-10 05:12:46   [Probability] set 05 try 3: rejected (parsed 24 questions, numbers 101…125)
+10-10 05:13:54   [Probability] set 05 try 4: rejected (parsed 0 questions, numbers -…-)
+10-10 05:13:54   [Probability] FAILED set 05: no version passed the checks — files left as they were
+10-10 05:15:38   [Probability] set 06 try 1: rejected (parsed 23 questions, numbers 126…150)
 ```
