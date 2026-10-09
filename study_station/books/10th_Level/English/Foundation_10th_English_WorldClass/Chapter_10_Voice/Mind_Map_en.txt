@@ -1,0 +1,43 @@
+```mermaid
+graph TD
+    A["Active-Passive Voice<br>वाच्य"] --> B["What is Voice?"]
+    A --> C["Conversion Rules"]
+    A --> D["Tense-wise Forms"]
+    A --> E["Special Cases"]
+    A --> F["Examiner's Traps"]
+    A --> G["Strategies"]
+
+    B --> B1["Active: Subject does the action<br>Ram eats mango"]
+    B --> B2["Passive: Subject receives action<br>Mango is eaten by Ram"]
+    B --> B3["Only Transitive Verbs<br>can be passivized"]
+
+    C --> C1["Object becomes Subject"]
+    C --> C2["Verb → be + V3"]
+    C --> C3["Subject → by + Agent<br>(often dropped)"]
+    C --> C4["Pronoun change:<br>She → by her"]
+
+    D --> D1["Present Simple: is/am/are + V3"]
+    D --> D2["Past Simple: was/were + V3"]
+    D --> D3["Future Simple: will be + V3"]
+    D --> D4["Present Continuous:<br>is/am/are being + V3"]
+    D --> D5["Past Continuous:<br>was/were being + V3"]
+    D --> D6["Perfect Tenses:<br>has/have/had been + V3"]
+    D --> D7["Modals: modal + be + V3<br>can be done, must be done"]
+
+    E --> E1["Imperative: Let + object + be + V3<br>Open the door → Let the door be opened"]
+    E --> E2["Two Objects: either can be subject<br>He gave me a book → I was given a book"]
+    E --> E3["Preposition stays with verb<br>They laughed at him → He was laughed at"]
+    E --> E4["No Passive: Intransitive verbs<br>go, sleep, die, come"]
+    E --> E5["Quasi-Passive: It is said that...<br>People say → It is said"]
+
+    F --> F1["Trap 1: Wrong 'be' form<br>is being vs is been"]
+    F --> F2["Trap 2: V2 instead of V3<br>was wrote ❌ was written ✔"]
+    F --> F3["Trap 3: 'by' with wrong pronoun<br>by he ❌ by him ✔"]
+    F --> F4["Trap 4: Passive of intransitive verb"]
+    F --> F5["Trap 5: Tense mismatch<br>between active and passive"]
+
+    G --> G1["15-sec Rule: Direct tense conversion<br>= Fact-based, solve fast"]
+    G --> G2["45-sec Rule: Imperative / Two objects /<br>Quasi-passive = think carefully"]
+    G --> G3["Check: be + V3 pair first,<br>eliminate options without V3"]
+    G --> G4["Skip Strategy: If agent unclear,<br>pick option without 'by' phrase"]
+```

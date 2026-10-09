@@ -1,0 +1,35 @@
+```mermaid
+graph TD
+    A["वाच्य (Voice)"] --> B["Active Voice<br>कर्ता + क्रिया + कर्म<br>राम ने आम खाया"]
+    A --> C["Passive Voice<br>कर्म + be + V3 + by + कर्ता<br>आम राम द्वारा खाया गया"]
+
+    B --> D["पहचान: Subject काम करता है"]
+    C --> E["पहचान: Subject पर काम होता है<br>be की form + V3"]
+
+    C --> F["Tense-wise be की Form"]
+    F --> F1["Present Simple: is/am/are + V3"]
+    F --> F2["Past Simple: was/were + V3"]
+    F --> F3["Future Simple: will be + V3"]
+    F --> F4["Present Continuous: is/am/are + being + V3"]
+    F --> F5["Past Continuous: was/were + being + V3"]
+    F --> F6["Present Perfect: has/have + been + V3"]
+    F --> F7["Past Perfect: had + been + V3"]
+    F --> F8["Modals: can/must/should + be + V3"]
+
+    C --> G["बदलाव के नियम"]
+    G --> G1["Object → Subject बनता है"]
+    G --> G2["मुख्य क्रिया हमेशा V3 में"]
+    G --> G3["Pronoun बदलता है<br>He → him, She → her<br>They → them, We → us"]
+    G --> G4["by + कर्ता (ज़रूरत हो तो हटा सकते हैं)"]
+
+    A --> H["⚠️ परीक्षक के जाल"]
+    H --> H1["जाल 1: Passive में V2 लिख देना<br>❌ was wrote → ✅ was written"]
+    H --> H2["जाल 2: Perfect में been भूलना<br>❌ has written → ✅ has been written"]
+    H --> H3["जाल 3: Intransitive Verb का Passive<br>go, come, sleep, die → Passive नहीं बनता"]
+    H --> H4["जाल 4: Continuous में being भूलना<br>is being + V3"]
+
+    A --> I["रणनीति"]
+    I --> I1["15 सेकंड: Tense पहचानो → be की form चुनो"]
+    I --> I2["45 सेकंड: Modal/Perfect वाले प्रश्न<br>been/being जाँचो"]
+    I --> I3["Skip: दो विकल्प लगभग एक जैसे हों<br>और been/being में भ्रम हो"]
+```
