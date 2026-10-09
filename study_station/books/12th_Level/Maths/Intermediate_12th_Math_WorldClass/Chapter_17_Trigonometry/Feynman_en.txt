@@ -1,0 +1,47 @@
+# Trigonometry, Explained Like You're 12
+
+## The Hardest Concept: Why does sin²θ + cos²θ = 1 ALWAYS work?
+
+Most students memorize this identity like a phone number. But nobody tells them *why* it's true. Let's fix that — with a story about a ladder.
+
+## 🪜 The Ladder Story
+
+Imagine you have a ladder that is exactly **1 metre long**. You lean it against a wall.
+
+- The bottom of the ladder slides along the **ground** — that distance is **cos θ**.
+- The top of the ladder touches the **wall** at some height — that height is **sin θ**.
+- The ladder itself is the slant — its length is **1**.
+
+Now here's the magic: the ground, the wall, and the ladder form a **right-angled triangle**. Always. No matter how you tilt the ladder.
+
+And what does our old friend Pythagoras say about right triangles?
+
+**(ground)² + (wall height)² = (ladder)²**
+
+Substitute our names:
+
+**(cos θ)² + (sin θ)² = (1)² = 1**
+
+That's it. That's the whole identity. It's not a formula to memorize — it's just **Pythagoras wearing a fancy dress**. 🎭
+
+## Try it yourself
+
+- Ladder almost flat on the ground (θ tiny): ground ≈ 1, height ≈ 0 → 1² + 0² = 1 ✔
+- Ladder at 45°: ground = height = 1/√2 → (1/√2)² + (1/√2)² = ½ + ½ = 1 ✔
+- Ladder almost straight up (θ ≈ 90°): ground ≈ 0, height ≈ 1 → 0² + 1² = 1 ✔
+
+Tilt it any way you like. The ladder never grows or shrinks, so the sum never changes. **The ladder is the boss, and its length is always 1.**
+
+## 🎯 The Trick You'll Never Forget
+
+> **"The Ladder Never Lies."**
+>
+> Whenever you see sin²θ + cos²θ, picture the 1-metre ladder against the wall. Ground² + Wall² = Ladder² = 1. Every other identity in trigonometry is just this ladder story told in different words:
+> - Divide by cos²θ → 1 + tan²θ = sec²θ
+> - Divide by sin²θ → 1 + cot²θ = cosec²θ
+
+One ladder. Three identities. Zero memorization.
+
+## 🤔 Now Your Turn
+
+If the ladder were **2 metres long** instead of 1, what would (ground)² + (wall height)² equal? And what does that tell you about where the "1" in sin²θ + cos²θ = 1 really comes from?

@@ -1,0 +1,151 @@
+Questions 126–140: Easy | Questions 141–150: Medium
+
+126. If sin θ + cos θ = √2, then the value of sin θ · cos θ is
+(a) 1/2 (b) 1/4 (c) 1 (d) √2/2
+Answer: (a)
+Solution: The trap is assuming sin θ · cos θ = 1 because the sum equals √2. Squaring both sides: (sin θ + cos θ)² = 2, so 1 + 2 sin θ cos θ = 2, giving sin θ cos θ = 1/2. So the answer is 1/2.
+Source: NCERT Class 10 Mathematics
+
+127. If tan θ + cot θ = 2, then the value of tan⁵θ + cot⁵θ is
+(a) 8 (b) 4 (c) 16 (d) 2
+Answer: (d)
+Solution: The trap is substituting θ = 45° but then computing 1⁵ + 1⁵ wrongly as 4. From tan θ + cot θ = 2, we get tan θ = 1 and θ = 45°. Then tan⁵θ + cot⁵θ = 1 + 1 = 2. So the answer is 2.
+Source: NCERT Class 10 Mathematics
+
+128. The value of sin²1° + sin²2° + sin²3° + … + sin²89° is
+(a) 44.5 (b) 44 (c) 45 (d) 45.5
+Answer: (a)
+Solution: The trap is counting 89 terms and answering 45. Pair sin²k° with sin²(90°−k°) = cos²k°; each pair sums to 1. There are 44 such pairs plus the middle term sin²45° = 1/2. Total = 44 + 0.5 = 44.5. So the answer is 44.5.
+Source: PYQ-style
+
+129. If sin θ − cos θ = 1/2, then the value of sin θ + cos θ (θ acute) is
+(a) √7/2 (b) 3/2 (c) √3/2 (d) √5/2
+Answer: (a)
+Solution: The trap is thinking the two expressions are equal. Square the given: 1 − 2 sin θ cos θ = 1/4, so 2 sin θ cos θ = 3/4. Then (sin θ + cos θ)² = 1 + 3/4 = 7/4, and since θ is acute, sin θ + cos θ = √7/2. So the answer is √7/2.
+Source: PYQ-style
+
+130. The value of (1 + tan²θ)/(1 + cot²θ) is equal to
+(a) tan²θ (b) cot²θ (c) sin²θ (d) cos²θ
+Answer: (a)
+Solution: The trap is cancelling to get cot²θ by inverting wrongly. Numerator = sec²θ and denominator = cosec²θ, so the ratio = sec²θ/cosec²θ = sin²θ/cos²θ = tan²θ. So the answer is tan²θ.
+Source: NCERT Class 10 Mathematics
+
+131. If 3 sin θ + 4 cos θ = 5, then the value of 4 sin θ − 3 cos θ is
+(a) 5 (b) 1 (c) 0 (d) 3
+Answer: (c)
+Solution: The trap is guessing 5 by symmetry. Square and add both expressions: (3 sin θ + 4 cos θ)² + (4 sin θ − 3 cos θ)² = 9 + 16 = 25. Since the first equals 5, its square is 25, so the second squared is 0, giving 4 sin θ − 3 cos θ = 0. So the answer is 0.
+Source: PYQ-style
+
+132. The maximum value of 3 sin θ + 4 cos θ is
+(a) 7 (b) 1 (c) 12 (d) 5
+Answer: (d)
+Solution: The trap is adding coefficients to get 7. The maximum of a sin θ + b cos θ is √(a² + b²) = √(9 + 16) = √25 = 5. So the answer is 5.
+Source: NCERT Class 11 Mathematics
+
+133. If tan θ = 3/4, then the value of (sin θ + cos θ)/(sin θ − cos θ) is
+(a) 7 (b) 1/7 (c) −7 (d) −1/7
+Answer: (c)
+Solution: The trap is forgetting the sign and answering 7. Divide numerator and denominator by cos θ: (tan θ + 1)/(tan θ − 1) = (3/4 + 1)/(3/4 − 1) = (7/4)/(−1/4) = −7. So the answer is −7.
+Source: NCERT Class 10 Mathematics
+
+134. The value of cos 1° · cos 2° · cos 3° … cos 179° is
+(a) −1 (b) 0 (c) 1 (d) 1/2
+Answer: (b)
+Solution: The trap is pairing terms and expecting a non-zero product. The product contains cos 90° = 0, and any product containing a zero factor is zero. So the answer is 0.
+Source: PYQ-style
+
+135. If sec θ + tan θ = 3, then the value of sec θ − tan θ is
+(a) 9 (b) 3 (c) 1 (d) 1/3
+Answer: (d)
+Solution: The trap is answering 3 by symmetry. Using the identity sec²θ − tan²θ = 1, we get (sec θ + tan θ)(sec θ − tan θ) = 1, so sec θ − tan θ = 1/3. So the answer is 1/3.
+Source: NCERT Class 10 Mathematics
+
+136. If sin θ = 3/5 and θ is acute, then the value of (tan θ + sec θ) is
+(a) 4/3 (b) 2 (c) 3/2 (d) 5/4
+Answer: (b)
+Solution: The trap is using cos θ = 3/5 by swapping sides. Here cos θ = 4/5, so tan θ = 3/4 and sec θ = 5/4; sum = 3/4 + 5/4 = 8/4 = 2. So the answer is 2.
+Source: NCERT Class 10 Mathematics
+
+137. The value of tan 1° · tan 2° · tan 3° … tan 89° is
+(a) 1 (b) 0 (c) 1/2 (d) undefined
+Answer: (a)
+Solution: The trap is answering 0 by analogy with the cosine product. Pair tan k° · tan(90°−k°) = tan k° · cot k° = 1 for k = 1° to 44°, and the middle term tan 45° = 1. Product = 1. So the answer is 1.
+Source: PYQ-style
+
+138. If sin θ + sin²θ = 1, then the value of cos²θ + cos⁴θ is
+(a) 1/2 (b) 2 (c) 1 (d) 0
+Answer: (c)
+Solution: The trap is trying to find θ explicitly. From sin θ + sin²θ = 1, we get sin θ = 1 − sin²θ = cos²θ. Then cos²θ + cos⁴θ = cos²θ(1 + cos²θ) = sin θ(1 + sin θ) = sin θ + sin²θ = 1. So the answer is 1.
+Source: PYQ-style
+
+139. The value of (sin 30° + cos 60° − tan 45°) is
+(a) 2 (b) 0 (c) 1/2 (d) 1
+Answer: (b)
+Solution: The trap is computing sin 30° + cos 60° = 1 and forgetting to subtract tan 45°. sin 30° = 1/2, cos 60° = 1/2, tan 45° = 1, so the expression = 1/2 + 1/2 − 1 = 0. So the answer is 0.
+Source: NCERT Class 10 Mathematics
+
+140. If cot θ = 7/8, then the value of (1 + sin θ)(1 − sin θ)/[(1 + cos θ)(1 − cos θ)] is
+(a) 7/8 (b) 64/49 (c) 49/64 (d) 8/7
+Answer: (c)
+Solution: The trap is answering 64/49 by inverting the ratio. Numerator = 1 − sin²θ = cos²θ; denominator = 1 − cos²θ = sin²θ. Ratio = cos²θ/sin²θ = cot²θ = (7/8)² = 49/64. So the answer is 49/64.
+Source: NCERT Class 10 Mathematics
+
+141. A ladder leaning against a wall makes an angle of 60° with the ground. If the foot of the ladder is 5 m from the wall, the length of the ladder is
+(a) 5√3 m (b) 5 m (c) 10 m (d) 10√3 m
+Answer: (c)
+Solution: The trap is using sin 60° and getting 5√3-type answers. Here cos 60° = adjacent/hypotenuse = 5/L, so L = 5/cos 60° = 5/(1/2) = 10 m. So the answer is 10 m.
+Source: NCERT Class 10 Mathematics
+
+142. From the top of a 30 m high tower, the angle of depression of a point on the ground is 45°. The distance of the point from the foot of the tower is
+(a) 30/√3 m (b) 30√3 m (c) 15 m (d) 30 m
+Answer: (d)
+Solution: The trap is using tan 60° by confusing the depression angle and getting 30√3. Angle of depression 45° equals angle of elevation 45° from the point, so tan 45° = 30/d, giving d = 30 m. So the answer is 30 m.
+Source: NCERT Class 10 Mathematics
+
+143. If the angle of elevation of the sun changes from 30° to 60°, the shadow of a pole becomes shorter by 20 m. The height of the pole is
+(a) 10 m (b) 20√3 m (c) 20 m (d) 10√3 m
+Answer: (d)
+Solution: The trap is setting h = 20 directly. Shadows are h cot 30° = h√3 and h cot 60° = h/√3. Difference: h√3 − h/√3 = h(3 − 1)/√3 = 2h/√3 = 20, so h = 10√3 m. So the answer is 10√3 m.
+Source: NCERT Class 10 Mathematics
+
+144. The value of sin 60° cos 30° + sin 30° cos 60° is
+(a) 1 (b) 0 (c) √3/2 (d) 1/2
+Answer: (a)
+Solution: The trap is computing each product and adding wrongly to get √3/2. This is sin(60° + 30°) = sin 90° = 1. Directly: (√3/2)(√3/2) + (1/2)(1/2) = 3/4 + 1/4 = 1. So the answer is 1.
+Source: NCERT Class 10 Mathematics
+
+145. If 2 sin²θ + 3 cos θ = 3 (θ acute), then θ equals
+(a) 45° (b) 60° (c) 30° (d) 90°
+Answer: (b)
+Solution: The trap is testing θ = 30° first and forcing it to fit. Replace sin²θ = 1 − cos²θ: 2 − 2cos²θ + 3cos θ = 3, so 2cos²θ − 3cos θ + 1 = 0, giving (2cos θ − 1)(cos θ − 1) = 0. cos θ = 1/2 gives θ = 60° (cos θ = 1 gives θ = 0°, not acute in the intended sense). So the answer is 60°.
+Source: PYQ-style
+
+146. The value of (sec A − tan A)², given sec A + tan A = 5, is
+(a) 1/5 (b) 25 (c) 1/25 (d) 5
+Answer: (c)
+Solution: The trap is answering 25 by squaring 5. Since (sec A + tan A)(sec A − tan A) = 1, we get sec A − tan A = 1/5, and squaring gives 1/25. So the answer is 1/25.
+Source: NCERT Class 10 Mathematics
+
+147. If tan θ + sin θ = m and tan θ − sin θ = n, then m² − n² equals
+(a) mn (b) 4√(mn) (c) 2√(mn) (d) 4mn
+Answer: (b)
+Solution: The trap is answering 4mn by stopping at the difference-of-squares step. m² − n² = (m+n)(m−n) = (2 tan θ)(2 sin θ) = 4 tan θ sin θ. Also mn = tan²θ − sin²θ = sin²θ tan²θ, so √(mn) = sin θ tan θ, hence m² − n² = 4√(mn). So the answer is 4√(mn).
+Source: PYQ-style
+
+148. The value of cos²45°/sin²30° + tan²60°/sec²30° is
+(a) 13/4 (b) 7/2 (c) 3 (d) 17/4
+Answer: (d)
+Solution: The trap is mixing up sec 30° = 2/√3 and using 2 instead, or adding the terms wrongly. First term: (1/2)/(1/4) = 2. Second term: 3/(4/3) = 9/4. Sum = 2 + 9/4 = 8/4 + 9/4 = 17/4. So the answer is 17/4.
+Source: PYQ-style
+
+149. A kite is flying at a height of 60 m above the ground, with the string inclined at 60° to the horizontal. The length of the string (assumed straight) is
+(a) 60√3 m (b) 40√3 m (c) 120 m (d) 30√3 m
+Answer: (b)
+Solution: The trap is using cos 60° and getting 120 m. Height is opposite the angle, so sin 60° = 60/L, giving L = 60/(√3/2) = 120/√3 = 40√3 m. So the answer is 40√3 m.
+Source: NCERT Class 10 Mathematics
+
+150. If x = a cos θ + b sin θ and y = a sin θ − b cos θ, then x² + y² equals
+(a) a² + b² (b) a²b² (c) 2ab (d) a² − b²
+Answer: (a)
+Solution: The trap is expanding and keeping cross terms, getting 2ab. x² + y² = a²cos²θ + b²sin²θ + 2ab sin θ cos θ + a²sin²θ + b²cos²θ − 2ab sin θ cos θ = a²(cos²θ + sin²θ) + b²(sin²θ + cos²θ) = a² + b². So the answer is a² + b².
+Source: PYQ-style

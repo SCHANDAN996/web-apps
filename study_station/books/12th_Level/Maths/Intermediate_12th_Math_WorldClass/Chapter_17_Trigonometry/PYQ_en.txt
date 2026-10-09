@@ -1,0 +1,114 @@
+# 📊 PYQ Analysis: Trigonometry (English)
+
+## How Exams Test This Chapter
+
+Trigonometry is one of the most **predictable** chapters in SSC CGL, RRB NTPC, IBPS PO and CAT. The examiner rarely invents new ideas — the same handful of question families keeps returning with new numbers. If you master the patterns below, most trigonometry questions become 30–60 second jobs.
+
+### The Recurring Question Families
+
+**1. Direct value questions** — "Find the value of sin²60° + cos²30° …" These test whether you remember the standard table (0°, 30°, 45°, 60°, 90°). SSC CGL and RRB NTPC love mixing complementary angles so that sin²θ + cos²θ = 1 collapses the whole expression.
+
+**2. Identity-based simplification** — Expressions built on sin²θ + cos²θ = 1, 1 + tan²θ = sec²θ, 1 + cot²θ = cosec²θ. The trap: the expression *looks* long, but one identity reduces it to a single number.
+
+**3. "If tan θ = a/b, find …"** — You are given one ratio and must find a compound expression like (sin θ + cos θ)/(sin θ − cos θ). The fast route: divide numerator and denominator by cos θ to convert everything into tan θ.
+
+**4. Complementary angle chains** — Questions like "If sin 3A = cos (A − 26°), find A." The hook is that students try to solve it with identities instead of simply using 3A + (A − 26°) = 90°.
+
+**5. Height and distance** — One or two right triangles, angles of elevation/depression of 30°, 45° or 60°, and values of √3 ≈ 1.732. RRB NTPC and SSC ask these almost every cycle. The trap is mixing up tan = P/B (which side is height, which is base) and forgetting that angle of depression = angle of elevation from the other point.
+
+**6. Maximum/minimum value questions** — "What is the maximum value of 3 sin θ + 4 cos θ?" Answer pattern: √(a² + b²). CAT and SSC CGL Mains favour these.
+
+**7. Conditional identities** — "If sin θ + cos θ = x, find sin θ · cos θ" or "sin³θ + cos³θ". These test squaring both sides and the a³ + b³ formula.
+
+### The Examiner's Favourite Traps
+
+- **Almost-correct statements**: "sin 60° = √3/2, so sin 30° = √3/4" — values are not proportional to angles.
+- **Complementary confusion**: sin 60° = cos 30°, but students write sin 60° = cos 60°.
+- **Sign blindness in identities**: sec²θ − tan²θ = 1, but tan²θ − sec²θ = −1. Order matters.
+- **Height-distance mirror trap**: angle of depression from the top equals angle of elevation from the ground — students often draw the wrong triangle.
+- **Unit trap**: some questions quietly use radians in CAT; SSC/RRB stay in degrees.
+- **"Find the value of θ" with two answers**: θ = 45° satisfies tan θ = cot θ, but so does the general family — MCQs usually want the acute angle.
+
+---
+
+## Top 10 High-Yield Questions (with Solutions)
+
+**Q1.** Find the value of: sin²60° + cos²60° + tan²45°
+(a) 1 (b) 2 (c) 3 (d) 0
+**Answer: (b)**
+**Solution:** sin²60° + cos²60° = 1 (identity, works for any angle), and tan 45° = 1 so tan²45° = 1. Total = 1 + 1 = 2.
+**Hook/Trap:** Students waste time computing sin 60° = √3/2 and cos 60° = 1/2 separately. The examiner hides the identity inside familiar values.
+**Source:** PYQ-style (SSC pattern)
+
+**Q2.** If tan θ = 3/4, find (sin θ + cos θ)/(sin θ − cos θ).
+(a) 7 (b) −7 (c) 1/7 (d) −1/7
+**Answer: (b)**
+**Solution:** Divide numerator and denominator by cos θ: (tan θ + 1)/(tan θ − 1) = (3/4 + 1)/(3/4 − 1) = (7/4)/(−1/4) = −7.
+**Hook/Trap:** Students who draw the triangle and compute sin θ = 3/5, cos θ = 4/5 get the same answer but take three times longer. The trap is forgetting the denominator becomes negative.
+**Source:** PYQ-style (SSC CGL pattern)
+
+**Q3.** If sin 3A = cos (A − 26°), where 3A is acute, find A.
+(a) 29° (b) 26° (c) 24° (d) 32°
+**Answer: (a)**
+**Solution:** sin 3A = cos(90° − 3A). So 90° − 3A = A − 26° → 4A = 116° → A = 29°.
+**Hook/Trap:** The psychological hook is panic — two different angles look unsolvable. The whole question collapses with one complementary-angle conversion.
+**Source:** PYQ-style (SSC/NTPC pattern)
+
+**Q4.** Find the value of: (1 + tan²θ) · (1 − sin²θ)
+(a) 0 (b) 1 (c) 2 (d) sin²θ
+**Answer: (b)**
+**Solution:** 1 + tan²θ = sec²θ and 1 − sin²θ = cos²θ. Product = sec²θ · cos²θ = 1.
+**Hook/Trap:** Looks like it should depend on θ. The examiner bets you won't pair the identities in the right order.
+**Source:** NCERT Class 10 (Introduction to Trigonometry)
+
+**Q5.** From a point on the ground, the angle of elevation of the top of a 20 m high tower is 45°. Find the distance of the point from the foot of the tower.
+(a) 20 m (b) 20√3 m (c) 20/√3 m (d) 40 m
+**Answer: (a)**
+**Solution:** tan 45° = height/distance → 1 = 20/d → d = 20 m.
+**Hook/Trap:** At 45°, height always equals distance — a one-line answer. Students who reach for √3 have been baited by habit.
+**Source:** NCERT Class 10 (Some Applications of Trigonometry)
+
+**Q6.** The shadow of a pole is √3 times its height. Find the angle of elevation of the sun.
+(a) 60° (b) 45° (c) 30° (d) 90°
+**Answer: (c)**
+**Solution:** tan θ = height/shadow = h/(h√3) = 1/√3 → θ = 30°.
+**Hook/Trap:** The classic trap — students invert the ratio, get tan θ = √3, and mark 60°. Always write tan θ = opposite/adjacent = height/shadow before substituting.
+**Source:** PYQ-style (RRB NTPC pattern)
+
+**Q7.** If sin θ + cos θ = √2, find the value of sin θ · cos θ.
+(a) 1 (b) 1/2 (c) √2 (d) 1/4
+**Answer: (b)**
+**Solution:** Square both sides: sin²θ + cos²θ + 2 sin θ cos θ = 2 → 1 + 2 sin θ cos θ = 2 → sin θ cos θ = 1/2.
+**Hook/Trap:** The examiner expects you to know that "sum given, product asked" always means *square both sides*. Students who try to guess θ = 45° also arrive at 1/2 — the question is designed to reward both paths but punish those who freeze.
+**Source:** PYQ-style (SSC CGL pattern)
+
+**Q8.** Find the maximum value of 3 sin θ + 4 cos θ.
+(a) 7 (b) 5 (c) 4 (d) 25
+**Answer: (b)**
+**Solution:** Maximum of a sin θ + b cos θ = √(a² + b²) = √(9 + 16) = √25 = 5.
+**Hook/Trap:** Option (a) 7 tempts students who just add 3 + 4. The 3-4-5 Pythagorean triplet is deliberately planted — recognising it gives a 10-second answer.
+**Source:** PYQ-style (CAT/SSC Mains pattern)
+
+**Q9.** Find the value of: cos 1° · cos 2° · cos 3° … cos 90°
+(a) 1 (b) 0 (c) 1/2 (d) not defined
+**Answer: (b)**
+**Solution:** The product contains cos 90° = 0, so the entire product is 0.
+**Hook/Trap:** Pure psychology — a terrifying-looking product with a trivial answer. The examiner tests whether you scan for a zero term before attempting any calculation.
+**Source:** PYQ-style (SSC pattern)
+
+**Q10.** If sec θ + tan θ = 2, find sec θ − tan θ.
+(a) 2 (b) 1 (c) 1/2 (d) 0
+**Answer: (c)**
+**Solution:** (sec θ + tan θ)(sec θ − tan θ) = sec²θ − tan²θ = 1. So sec θ − tan θ = 1/2.
+**Hook/Trap:** Students try to solve for θ itself and drown in algebra. The identity sec²θ − tan²θ = 1 makes the two expressions reciprocals — a one-line answer if you see it.
+**Source:** NCERT Class 10 (Introduction to Trigonometry)
+
+---
+
+## Strategy Notes
+
+- **Memorise the standard table cold** — 0°, 30°, 45°, 60°, 90° values of sin, cos, tan. Roughly half of all trigonometry questions reduce to it.
+- **Learn the three Pythagorean identities as one family**: sin² + cos² = 1, and divide by cos² or sin² to get the other two.
+- **For height-distance, always draw the triangle first** and label height vs. base before touching tan.
+- **Time rule**: value/identity questions deserve 30–45 seconds; height-distance 60–90 seconds. If a question is taking longer, you have missed the identity hiding inside — stop and look again.
+- **Revise the standard table and the three identities again after 2 days** — these are the highest-yield items in the chapter.

@@ -1,0 +1,45 @@
+```mermaid
+graph TD
+    A["त्रिकोणमिति<br>Trigonometry"] --> B["त्रिकोणमितीय अनुपात<br>Trigonometric Ratios"]
+    A --> C["मानक कोणों के मान<br>Standard Angle Values"]
+    A --> D["पूरक कोण<br>Complementary Angles"]
+    A --> E["त्रिकोणमितीय सर्वसमिकाएँ<br>Trigonometric Identities"]
+    A --> F["ऊँचाई और दूरी<br>Heights & Distances"]
+    A --> G["अधिकतम-न्यूनतम मान<br>Max-Min Values"]
+
+    B --> B1["sin θ = लंब/कर्ण<br>Perpendicular/Hypotenuse"]
+    B --> B2["cos θ = आधार/कर्ण<br>Base/Hypotenuse"]
+    B --> B3["tan θ = लंब/आधार<br>Perpendicular/Base"]
+    B --> B4["cosec θ = 1/sin θ"]
+    B --> B5["sec θ = 1/cos θ"]
+    B --> B6["cot θ = 1/tan θ"]
+    B --> B7["याद करें: पंडित बद्री प्रसाद<br>हर हर बोले (P/H, B/H, P/B)"]
+
+    C --> C1["0°, 30°, 45°, 60°, 90°"]
+    C --> C2["sin: 0, 1/2, 1/√2, √3/2, 1"]
+    C --> C3["cos: sin के उल्टे क्रम में<br>cos = reverse of sin"]
+    C --> C4["tan = sin/cos"]
+
+    D --> D1["sin(90°−θ) = cos θ"]
+    D --> D2["tan(90°−θ) = cot θ"]
+    D --> D3["sec(90°−θ) = cosec θ"]
+
+    E --> E1["sin²θ + cos²θ = 1"]
+    E --> E2["1 + tan²θ = sec²θ"]
+    E --> E3["1 + cot²θ = cosec²θ"]
+    E --> E4["समीकरण हल करने में उपयोग<br>Used in equation solving"]
+
+    F --> F1["उन्नयन कोण<br>Angle of Elevation"]
+    F --> F2["अवनमन कोण<br>Angle of Depression"]
+    F --> F3["tan θ = ऊँचाई/दूरी<br>Height/Distance"]
+    F --> F4["दो खंभे/मीनार वाले प्रश्न<br>Two-pole problems"]
+
+    G --> G1["−1 ≤ sin θ, cos θ ≤ 1"]
+    G --> G2["sec θ, cosec θ ≥ 1 या ≤ −1"]
+    G --> G3["a sinθ + b cosθ का अधिकतम<br>= √(a²+b²)"]
+
+    B1 --> C
+    B3 --> F3
+    E1 --> G
+    D1 --> E
+```
