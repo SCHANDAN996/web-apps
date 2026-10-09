@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 09-10-2026 02:02 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 11:14 AM
+**आख़िरी update:** 09-10-2026 02:07 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 11:14 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 06 Adverb (10th English) | ✍️ लिख रहा है | 82 मिनट |
-| W2 | Chapter 02 Pronoun (10th English) | 🔎 review हो रहा है | 23 मिनट |
-| W3 | Chapter 09 Articles (10th English) | ✍️ लिख रहा है | 23 मिनट |
-| W4 | Chapter 07 Preposition (10th English) | ✍️ लिख रहा है | 70 मिनट |
-| W5 | Chapter 08 Conjunction (10th English) | ✍️ लिख रहा है | 30 मिनट |
+| W1 | Chapter 06 Adverb (10th English) | 🔎 review हो रहा है | 1 मिनट |
+| W2 | Chapter 02 Pronoun (10th English) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 09 Articles (10th English) | ✍️ लिख रहा है | 29 मिनट |
+| W4 | Chapter 07 Preposition (10th English) | ✍️ लिख रहा है | 76 मिनट |
+| W5 | Chapter 08 Conjunction (10th English) | ✍️ लिख रहा है | 35 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -21,7 +21,7 @@
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 9 | 13 | 0 |
-| 10th English | 2 | 2 | 16 |
+| 10th English | 3 | 2 | 15 |
 | 12th Maths | 0 | 0 | 23 |
 | 12th GK | 17 | 0 | 7 |
 | 12th Reasoning | 1 | 0 | 24 |
@@ -30,10 +30,11 @@
 | Graduation GK | 19 | 0 | 9 |
 | Graduation Reasoning | 3 | 0 | 27 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **144** | **15** | **137** |
+| **कुल** | **145** | **15** | **136** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 14:07 — 10th English · Chapter 02 Pronoun
 - 09-10 13:32 — 10th English · Chapter 05 Tense
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
@@ -46,19 +47,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 13:35:56   [Preposition] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-09-10 13:37:10   [Adjective] Practice_en_Set_06.txt try 3: re-solve disagrees (Q140 key b vs re-solve d)
-09-10 13:37:28   [Conjunction] wrote Content_hi.txt (7778 chars)
-09-10 13:38:48   [Conjunction] wrote Feynman_en.txt (3288 chars)
-09-10 13:38:48   [Adjective] Practice_en_Set_06.txt try 4: rejected (parsed 0 questions, numbers -…-)
-09-10 13:38:48   [Adjective] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
-09-10 13:38:48   [Adjective] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-09-10 13:38:48   [Adjective] written 1, failed 2; AI calls today 290/100000
-09-10 13:38:48 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective after 34 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems ['PYQ_hi.txt: Hindi file is mostly not in Hindi', 'PYQ_hi.txt: much shorter than the English section (653 vs 62', 'Set 03 hi: English sentence translated (keep it in English) ']
-09-10 13:38:48 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_09_Articles (TODO: todo 26, problems 0)
-09-10 13:39:02   [Adverb] Practice_en_Set_05.txt try 2: rejected (parsed 0 questions, numbers -…-)
-09-10 13:39:06   [Pronoun] REJECTED review fix Important_Rules_hi.txt: Important_Rules_hi.txt: Hindi file is mostly not in Hindi
-09-10 13:39:06   [Pronoun] review: 8 section(s) corrected, 2 failed
 09-10 13:39:06   [Pronoun] written 8, failed 2; AI calls today 292/100000
 09-10 13:39:06 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_02_Pronoun after 145 min: todo [] problems []
 09-10 13:39:06 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_02_Pronoun (OK: todo 0, problems 0)
@@ -86,4 +74,17 @@
 09-10 13:58:49   [Articles] wrote Flashcards_en.txt (3788 chars)
 09-10 14:01:03   [Articles] wrote Flashcards_hi.txt (4563 chars)
 09-10 14:01:25   [Preposition] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 14:03:18   [Articles] wrote PYQ_en.txt (7023 chars)
+09-10 14:03:52   [Adverb] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 14:05:19   [Articles] wrote PYQ_hi.txt (5990 chars)
+09-10 14:05:22   [Preposition] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 14:05:45   [Pronoun] review Important_Rules_hi.txt: 1 issue(s): - Rule 6 states “One के साथ पूरे वाक्य में one/one's/himself नहीं — oneself” but the example correctly uses
+09-10 14:06:42   [Adverb] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+09-10 14:06:42   [Adverb] written 26, failed 0; AI calls today 334/100000
+09-10 14:06:50   [Articles] wrote Short_Tricks_en.txt (5675 chars)
+09-10 14:07:16   [Adverb] review Content_en.txt: 1 issue(s): - The section contains no educational content on adverbs — only a title and the phrase "The Adjective of the Verb" 
+09-10 14:07:24   [Preposition] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 14:07:44   [Conjunction] Short_Tricks_en.txt try 1: answer too long — asking for a tighter version
+09-10 14:07:58   [Pronoun] review: 3 section(s) corrected, 0 failed
+09-10 14:07:58   [Pronoun] written 3, failed 0; AI calls today 338/100000
 ```
