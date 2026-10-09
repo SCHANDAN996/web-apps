@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 08:05 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 08:20 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W4 | Chapter 23 Sentence Arrangement (12th English) | ✍️ लिख रहा है | 96 मिनट |
-| W5 | Chapter 22 Para Jumbles (12th English) | ✍️ लिख रहा है | 100 मिनट |
+| W4 | Chapter 23 Sentence Arrangement (12th English) | ✍️ लिख रहा है | 112 मिनट |
+| W5 | Chapter 22 Para Jumbles (12th English) | ✍️ लिख रहा है | 115 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -54,9 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 07:13:55   [Para_Jumbles] PYQ_hi.txt try 1: answer too long — asking for a tighter version
-09-10 07:14:42   [Fill_in_Blanks_Adv] review Short_Tricks_en.txt: 2 issue(s): - Trick 3: The example sentence uses "Although" but the mnemonic BUD (But, Unless, Despite) does not include "
-09-10 07:14:56   [Sentence_Improvement_Adv] review Mind_Map_en.txt: 1 issue(s): - "12 Golden Rules" node claims 12 rules but only 6 (E1–E6) are listed → either rename to "6 Golden Rules" or add 
 09-10 07:15:55   [Para_Jumbles] wrote PYQ_hi.txt (8772 chars)
 09-10 07:16:38   [Para_Jumbles] wrote Short_Tricks_en.txt (5580 chars)
 09-10 07:17:21   [Fill_in_Blanks_Adv] review Short_Tricks_hi.txt: 1 issue(s): - Trick 2 (FANBOYS) claims coordinating conjunctions require tense matching (e.g., both clauses past) → Coordi
@@ -94,4 +91,7 @@
 09-10 07:54:26   [Sentence_Arrangement] Practice_en_Set_03.txt try 1: re-solve disagrees (Q75 key a vs re-solve b)
 09-10 07:55:50   [Para_Jumbles] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 09-10 08:05:32   [Para_Jumbles] Practice_en_Set_03.txt try 1: re-solve disagrees (Q66 key b vs re-solve a, Q71 key b vs re-solve c)
+09-10 08:07:45   [Sentence_Arrangement] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 08:11:10   [Sentence_Arrangement] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 08:19:23   [Sentence_Arrangement] Practice_en_Set_04.txt try 1: re-solve disagrees (Q82 key d vs re-solve a)
 ```
