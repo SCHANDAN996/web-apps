@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 02:31 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:38 AM
+**आख़िरी update:** 10-10-2026 02:41 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:38 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Time Work (Graduation Maths) | ✍️ लिख रहा है | 8 मिनट |
-| W2 | Chapter 15 Geometry (Graduation Maths) | ✍️ लिख रहा है | 77 मिनट |
-| W3 | Chapter 14 Mensuration (Graduation Maths) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 19 मिनट |
-| W5 | Chapter 18 Quadratic Equations (Graduation Maths) | ✍️ लिख रहा है | 33 मिनट |
-| W6 | Chapter 17 Algebra (Graduation Maths) | ✍️ लिख रहा है | 55 मिनट |
-| W7 | Chapter 16 Coordinate Geometry (Graduation Maths) | ✍️ लिख रहा है | 71 मिनट |
-| W8 | Chapter 20 Heights Distances (Graduation Maths) | ✍️ लिख रहा है | 12 मिनट |
+| W1 | Chapter 11 Time Work (Graduation Maths) | ✍️ लिख रहा है | 18 मिनट |
+| W2 | Chapter 15 Geometry (Graduation Maths) | ✍️ लिख रहा है | 87 मिनट |
+| W3 | Chapter 21 Complex Numbers (Graduation Maths) | ✍️ लिख रहा है | 9 मिनट |
+| W4 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 29 मिनट |
+| W5 | Chapter 18 Quadratic Equations (Graduation Maths) | ✍️ लिख रहा है | 43 मिनट |
+| W6 | Chapter 17 Algebra (Graduation Maths) | ✍️ लिख रहा है | 65 मिनट |
+| W7 | Chapter 16 Coordinate Geometry (Graduation Maths) | ✍️ लिख रहा है | 81 मिनट |
+| W8 | Chapter 20 Heights Distances (Graduation Maths) | ✍️ लिख रहा है | 22 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -51,38 +51,11 @@
 - Chapter 13 Awards (GK) — 2 बार
 - Chapter 05 Percentage (Maths) — 2 बार
 - Chapter 13 Mixture Alligation (Maths) — 2 बार
-- Chapter 14 Mensuration (Maths) — 1 बार
 - Chapter 11 Time Work (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 02:18:44   [Compound_Interest] review: 5 section(s) corrected, 0 failed
-10-10 02:18:44   [Compound_Interest] written 5, failed 0; AI calls today 334/100000
-10-10 02:19:03   [Time_Work] Practice_en_Set_06.txt try 3: rejected (parsed 0 questions, numbers -…-)
-10-10 02:19:04 DONE Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_10_Compound_Interest in 57 min → 1b63060a
-10-10 02:19:07 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_20_Heights_Distances (TODO: todo 25, problems 0)
-10-10 02:19:14   [Algebra] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-10-10 02:19:31   [Heights_Distances] Content_en.txt try 1: rejected (too short)
-10-10 02:20:51   [Heights_Distances] wrote Content_en.txt (9137 chars)
-10-10 02:22:58   [Heights_Distances] wrote Content_hi.txt (8843 chars)
-10-10 02:23:06   [Time_Work] Practice_en_Set_06.txt try 4: rejected (Q126:leaked_reasoning,Q133:leaked_reasoning,Q134:leaked_reasoning,Q135:leaked_reasoning,Q137:leaked_reasoning)
-10-10 02:23:06   [Time_Work] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
-10-10 02:23:06   [Time_Work] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-10-10 02:23:06   [Time_Work] written 9, failed 2; AI calls today 341/100000
-10-10 02:23:06 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_11_Time_Work after 98 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems []
-10-10 02:23:09 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_11_Time_Work (TODO: todo 2, problems 0)
-10-10 02:23:34   [Heights_Distances] wrote Feynman_en.txt (3576 chars)
-10-10 02:24:49   [Heights_Distances] wrote Feynman_hi.txt (2792 chars)
-10-10 02:24:54   [Algebra] Practice_en_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
-10-10 02:25:02   [Algebra] Practice_en_Set_04.txt try 2: rejected (parsed 0 questions, numbers -…-)
-10-10 02:25:23   [Heights_Distances] wrote Mind_Map.txt (2132 chars)
-10-10 02:25:26   [Mensuration] review PYQ_en.txt: 2 issue(s): - Q10 answer line says "Answer: (c)" but the solution correctly computes 11,550 litres which corresponds to option (b) 
-10-10 02:25:29   [Coordinate_Geometry] FAILED Practice_en_Set_01.txt: too_long
-10-10 02:25:29   [Coordinate_Geometry] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
-10-10 02:25:44   [Coordinate_Geometry] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
-10-10 02:26:06   [Heights_Distances] wrote Flashcards_en.txt (4068 chars)
-10-10 02:27:15   [Heights_Distances] wrote Flashcards_hi.txt (3291 chars)
 10-10 02:27:50   [Geometry] FAILED Practice_en_Set_04.txt: too_long
 10-10 02:27:50   [Geometry] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
 10-10 02:28:01   [Algebra] Practice_en_Set_04.txt try 3: rejected (Q94:leaked_reasoning,Q98:leaked_reasoning)
@@ -97,4 +70,30 @@
 10-10 02:31:42   [Coordinate_Geometry] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 10-10 02:31:46   [Mensuration] review: 2 section(s) corrected, 0 failed
 10-10 02:31:46   [Mensuration] written 2, failed 0; AI calls today 370/100000
+10-10 02:32:06 DONE Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_14_Mensuration in 36 min → 3c573873
+10-10 02:32:07   [Quadratic_Equations] PYQ_hi.txt try 1: answer too long — asking for a tighter version
+10-10 02:32:10 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_21_Complex_Numbers (TODO: todo 25, problems 0)
+10-10 02:32:55   [Trigonometry] wrote Feynman_en.txt (6805 chars)
+10-10 02:33:37   [Coordinate_Geometry] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+10-10 02:33:56   [Complex_Numbers] wrote Content_en.txt (10111 chars)
+10-10 02:34:06   [Algebra] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+10-10 02:34:09   [Quadratic_Equations] wrote PYQ_hi.txt (6327 chars)
+10-10 02:34:14   [Quadratic_Equations] Short_Tricks_en.txt try 1: rejected (too short)
+10-10 02:34:24   [Time_Work] Practice_en_Set_06.txt try 1: re-solve disagrees (Q126 key a vs re-solve b, Q139 key c vs re-solve d, Q143 key b vs re-solve ?)
+10-10 02:34:28   [Trigonometry] wrote Feynman_hi.txt (4000 chars)
+10-10 02:34:39   [Quadratic_Equations] Short_Tricks_en.txt try 2: rejected (too short)
+10-10 02:34:39   [Quadratic_Equations] REJECTED Short_Tricks_en.txt: too short — not written
+10-10 02:34:53   [Trigonometry] wrote Mind_Map.txt (1950 chars)
+10-10 02:36:25   [Quadratic_Equations] wrote Short_Tricks_hi.txt (6377 chars)
+10-10 02:36:59   [Quadratic_Equations] wrote Important_Formulas_en.txt (3999 chars)
+10-10 02:37:17   [Trigonometry] wrote Flashcards_en.txt (2011 chars)
+10-10 02:37:46   [Quadratic_Equations] wrote Important_Formulas_hi.txt (3485 chars)
+10-10 02:37:49   [Trigonometry] wrote Flashcards_hi.txt (1911 chars)
+10-10 02:39:13   [Trigonometry] wrote PYQ_en.txt (7473 chars)
+10-10 02:39:15   [Time_Work] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+10-10 02:39:46   [Coordinate_Geometry] Practice_en_Set_03.txt try 1: re-solve disagrees (Q66 key a vs re-solve ?)
+10-10 02:40:19   [Complex_Numbers] wrote Content_hi.txt (8162 chars)
+10-10 02:40:57   [Trigonometry] wrote PYQ_hi.txt (6747 chars)
+10-10 02:41:17   [Complex_Numbers] Feynman_en.txt try 1: rejected (chat debris "Here's the")
+10-10 02:41:45   [Complex_Numbers] wrote Feynman_en.txt (2482 chars)
 ```
