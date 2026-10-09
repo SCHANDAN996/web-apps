@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 07:19 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
+**आख़िरी update:** 09-10-2026 07:34 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 12 Biology (12th GK) | 🔧 सुधार रहा है | 0 मिनट |
-| W2 | Chapter 14 Sports (12th GK) | 🔧 सुधार रहा है | 0 मिनट |
-| W3 | Chapter 01 Number System (12th Maths) | 🔧 सुधार रहा है | 0 मिनट |
-| W4 | Chapter 02 LCM HCF (12th Maths) | 🔎 review हो रहा है | 0 मिनट |
-| W5 | Chapter 03 Simplification (12th Maths) | ✍️ लिख रहा है | 0 मिनट |
-| W6 | Chapter 06 Average (12th Maths) | 🔎 review हो रहा है | 0 मिनट |
-| W7 | Chapter 07 Ratio Proportion (12th Maths) | ✍️ लिख रहा है | 0 मिनट |
-| W8 | Chapter 08 Profit Loss (12th Maths) | ✍️ लिख रहा है | 0 मिनट |
+| W1 | Chapter 09 Simple Interest (12th Maths) | ✍️ लिख रहा है | 9 मिनट |
+| W2 | Chapter 10 Compound Interest (12th Maths) | 🔧 सुधार रहा है | 0 मिनट |
+| W3 | Chapter 11 Time Work (12th Maths) | ✍️ लिख रहा है | 6 मिनट |
+| W4 | Chapter 02 LCM HCF (12th Maths) | 🔎 review हो रहा है | 15 मिनट |
+| W5 | Chapter 03 Simplification (12th Maths) | 🔎 review हो रहा है | 11 मिनट |
+| W6 | Chapter 06 Average (12th Maths) | 🔎 review हो रहा है | 15 मिनट |
+| W7 | Chapter 07 Ratio Proportion (12th Maths) | ✍️ लिख रहा है | 15 मिनट |
+| W8 | Chapter 08 Profit Loss (12th Maths) | ✍️ लिख रहा है | 15 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -24,8 +24,8 @@
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 9 | 13 | 0 |
-| 10th English | 8 | 0 | 12 |
-| 12th Maths | 4 | 1 | 18 |
+| 10th English | 12 | 0 | 8 |
+| 12th Maths | 5 | 2 | 16 |
 | 12th GK | 22 | 2 | 0 |
 | 12th Reasoning | 4 | 0 | 21 |
 | 12th English | 23 | 0 | 2 |
@@ -33,25 +33,60 @@
 | Graduation GK | 23 | 0 | 5 |
 | Graduation Reasoning | 8 | 0 | 22 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **171** | **16** | **109** |
+| **कुल** | **176** | **17** | **103** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
 - अभी कोई नहीं
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 12 Biology (GK) — 2 बार
+- Chapter 14 Sports (GK) — 2 बार
+- Chapter 01 Number System (Maths) — 2 बार
+- Chapter 10 Compound Interest (Maths) — 1 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 19:18:01 autopilot start: 8 workers, reverse=True
-09-10 19:18:02 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_12_Biology (FIX: todo 0, problems 1)
-09-10 19:18:06 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_14_Sports (FIX: todo 0, problems 1)
-09-10 19:18:12 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System (FIX: todo 0, problems 1)
-09-10 19:18:17 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_02_LCM_HCF (OK: todo 0, problems 0)
-09-10 19:18:22 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_03_Simplification (TODO: todo 1, problems 1)
-09-10 19:18:24   [Simplification] Practice_hi_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 19:18:27 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_06_Average (OK: todo 0, problems 0)
-09-10 19:18:32 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_07_Ratio_Proportion (TODO: todo 10, problems 0)
-09-10 19:18:37 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_08_Profit_Loss (TODO: todo 10, problems 0)
-09-10 19:18:44   [Biology] repaired Feynman_hi.txt (2362 chars)
-09-10 19:18:44   [Biology] written 1, failed 0; AI calls today 9/100000
+09-10 19:23:37   [Biology] written 1, failed 0; AI calls today 30/100000
+09-10 19:24:18   [Average] review Content_hi.txt: 1 issue(s): - Section 3 mantra says "पुराने लोगों पर बँटा अंतर" (divided by old people) but the formula requires multiplication
+09-10 19:24:29   [Profit_Loss] Practice_en_Set_03.txt try 1: rejected (Q57:leaked_reasoning,Q75:leaked_reasoning)
+09-10 19:24:38   [Biology] REJECTED Feynman_hi.txt: corrupted characters — not written
+09-10 19:24:38   [Biology] written 0, failed 1; AI calls today 35/100000
+09-10 19:24:38 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_12_Biology after 3 min: todo [] problems ['Feynman_hi.txt: much shorter than the English section (2811 ']
+09-10 19:24:39 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_09_Simple_Interest (TODO: todo 8, problems 1)
+09-10 19:25:20   [Simplification] review Content_hi.txt: 1 issue(s): - BODMAS तालिका में 'O' का अर्थ "Of (का / घातांक)" दिया गया है → 'O' का मानक अर्थ "Order" (घातांक/मूल) होता है; "Of
+09-10 19:25:43   [Ratio_Proportion] Practice_en_Set_02.txt try 1: rejected (Q33:leaked_reasoning,Q47:leaked_reasoning)
+09-10 19:25:56   [Sports] repaired Memory_Hooks_hi.txt (5530 chars)
+09-10 19:25:56   [Sports] written 1, failed 0; AI calls today 41/100000
+09-10 19:25:56 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_14_Sports after 4 min: todo [] problems ['Memory_Hooks_hi.txt: much shorter than the English section (']
+09-10 19:25:57 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest (TODO: todo 1, problems 1)
+09-10 19:26:15   [Simple_Interest] Content_en.txt try 1: rejected (chat debris "Here is the")
+09-10 19:27:27   [Compound_Interest] wrote Flashcards_en.txt (10590 chars)
+09-10 19:27:27   [Compound_Interest] written 1, failed 0; AI calls today 46/100000
+09-10 19:27:37   [Simple_Interest] wrote Content_en.txt (6082 chars)
+09-10 19:27:54   [Number_System] FAILED Important_Formulas_hi.txt: rate_limited
+09-10 19:27:54   [Number_System] written 0, failed 1; AI calls today 48/100000
+09-10 19:27:54 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System after 6 min: todo [] problems ['Important_Formulas_hi.txt: much shorter than the English sec']
+09-10 19:27:56 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_11_Time_Work (TODO: todo 25, problems 0)
+09-10 19:28:40   [Simple_Interest] wrote Short_Tricks_en.txt (7349 chars)
+09-10 19:29:06   [Simple_Interest] wrote Important_Formulas_en.txt (2241 chars)
+09-10 19:29:20   [Time_Work] Content_en.txt try 1: rejected (chat debris "Here is the")
+09-10 19:29:34   [Compound_Interest] repaired Flashcards_hi.txt (2732 chars)
+09-10 19:30:18   [Time_Work] Content_en.txt try 2: rejected (chat debris "Here's the")
+09-10 19:30:18   [Time_Work] REJECTED Content_en.txt: chat debris "Here's the" — not written
+09-10 19:30:20   [Simplification] review Feynman_hi.txt: 1 issue(s): - Invented statistic “90% बच्चे फँसते हैं” → Remove the fabricated percentage or replace with a non‑statistical phr
+09-10 19:30:31   [Compound_Interest] repaired PYQ_en.txt (7325 chars)
+09-10 19:30:31   [Compound_Interest] written 2, failed 0; AI calls today 59/100000
+09-10 19:31:06   [Simple_Interest] Practice_en_Set_02.txt try 1: rejected (Q32:leaked_reasoning)
+09-10 19:31:32   [Average] review Feynman_hi.txt: 1 issue(s): - The example "30 छात्रों का औसत वज़न 50 किग्रा है। एक छात्र जाने से औसत 49 किग्रा रह जाता है। जाने वाले का वज़न?" 
+09-10 19:32:26   [Compound_Interest] repaired Flashcards_hi.txt (2969 chars)
+09-10 19:32:26   [Compound_Interest] written 1, failed 0; AI calls today 63/100000
+09-10 19:32:26 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest after 6 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (29']
+09-10 19:32:27 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest (FIX: todo 0, problems 1)
+09-10 19:32:44   [Profit_Loss] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 19:34:04   [Compound_Interest] repaired Flashcards_hi.txt (3104 chars)
+09-10 19:34:04   [Compound_Interest] written 1, failed 0; AI calls today 66/100000
+09-10 19:34:11   [Time_Work] wrote Content_hi.txt (1119 chars)
 ```
