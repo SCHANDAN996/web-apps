@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 01:00 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 01:13 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 21 International Orgs (Graduation GK) | 🔎 review हो रहा है | 48 मिनट |
-| W4 | Chapter 23 Economic Terms (Graduation GK) | ✍️ लिख रहा है | 64 मिनट |
+| W3 | Chapter 21 International Orgs (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
+| W4 | Chapter 23 Economic Terms (Graduation GK) | ✍️ लिख रहा है | 77 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -31,6 +31,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 13:13 — Graduation GK · Chapter 21 International Orgs
 - 09-10 12:47 — Graduation GK · Chapter 19 Environment
 - 09-10 12:30 — Graduation GK · Chapter 18 Science Tech
 - 09-10 11:55 — Graduation GK · Chapter 17 Culture Art
@@ -52,13 +53,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 12:26:24   [Environment] review Mind_Map.txt: 1 issue(s): - B3: "आवासीय स्थान" is not the standard Hindi term for Niche; the correct term is "निच" or "पारिस्थितिक निच" → Repla
-09-10 12:26:35   [Economic_Terms] wrote Flashcards_hi.txt (4188 chars)
-09-10 12:26:53   [Defence] Practice_hi_Set_01.txt try 1: rejected (Q24:needs_context)
-09-10 12:27:59   [Economic_Terms] PYQ_en.txt try 1: rejected (corrupted characters)
-09-10 12:29:25   [Science_Tech] review Memory_Hooks_hi.txt: 1 issue(s): - Box 8 का मnemonic "बैजानी हरा पीला नारंगी लाल = VIBGYOR (उल्टा क्रम)" गलत है क्योंकि VIBGYOR में सात रंग (बै
-09-10 12:29:34   [International_Orgs] review Key_Facts_en.txt: 2 issue(s): - UN founded description says "24 October 1945, San Francisco Conference" → San Francisco Conference was April–Ju
-09-10 12:30:11   [Economic_Terms] wrote PYQ_en.txt (10927 chars)
 09-10 12:30:22   [Defence] Practice_hi_Set_01.txt try 2: rejected (Q24:needs_context)
 09-10 12:30:31   [Science_Tech] review: 6 section(s) corrected, 0 failed
 09-10 12:30:31   [Science_Tech] written 6, failed 0; AI calls today 489/100000
@@ -92,4 +86,11 @@
 09-10 12:51:27   [International_Orgs] review PYQ_en.txt: 1 issue(s): - Global Hunger Index listed under "Reports and indices published by organizations" → Global Hunger Index is not publis
 09-10 12:54:24   [Economic_Terms] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 09-10 13:00:22   [Economic_Terms] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 13:05:20   [Economic_Terms] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 13:05:57   [International_Orgs] review Memory_Hooks_en.txt: 2 issue(s): - Hook 1 mnemonic "F-R-U-C-C" does not match the initials of the five permanent UNSC members (France, Russia, 
+09-10 13:08:43   [Economic_Terms] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 13:11:37   [Economic_Terms] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 13:11:58   [International_Orgs] review Memory_Hooks_hi.txt: 1 issue(s): - Mnemonic 4 claims to cover first 5 UN Secretaries-General but the mnemonic 'Try Lie Hammar U Wald' only cove
+09-10 13:13:17   [International_Orgs] review: 10 section(s) corrected, 0 failed
+09-10 13:13:17   [International_Orgs] written 10, failed 0; AI calls today 533/100000
 ```
