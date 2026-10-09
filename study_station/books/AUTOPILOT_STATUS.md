@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 04:52 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 04:56 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 152 मिनट |
-| W2 | Chapter 11 Series (Graduation Reasoning) | 🔎 review हो रहा है | 43 मिनट |
-| W3 | Chapter 12 Missing Term (Graduation Reasoning) | ✍️ लिख रहा है | 42 मिनट |
-| W4 | Chapter 10 Clock Calendar (Graduation Reasoning) | 📤 push हो रहा है | 0 मिनट |
-| W5 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 180 मिनट |
+| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 155 मिनट |
+| W2 | Chapter 11 Series (Graduation Reasoning) | 🔎 review हो रहा है | 47 मिनट |
+| W3 | Chapter 12 Missing Term (Graduation Reasoning) | ✍️ लिख रहा है | 46 मिनट |
+| W4 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 3 मिनट |
+| W5 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 183 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -49,11 +49,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 16:14:28   [Clock_Calendar] review PYQ_en.txt: 2 issue(s): - Section 2: "Mirror image of clock — subtract from 11:60 (or 12:60)" uses invalid time 12:60 → should be "11:60 (or 12
-09-10 16:14:32   [Missing_Term] wrote Feynman_en.txt (3004 chars)
-09-10 16:15:44   [Missing_Term] wrote Feynman_hi.txt (2837 chars)
-09-10 16:16:24   [Missing_Term] wrote Mind_Map.txt (2308 chars)
-09-10 16:17:07   [Series] review Content_hi.txt: 2 issue(s): - The hook states "SSC CGL की परीक्षा में Reasoning के 25 प्रश्नों में से औसतन 3–4 प्रश्न शृंखला से आते हैं" → This
 09-10 16:17:18   [Sitting_Arrangement] Practice_en_Set_04.txt try 3: re-solve disagrees (Q85 key a vs re-solve b)
 09-10 16:19:25   [Missing_Term] wrote Flashcards_en.txt (4699 chars)
 09-10 16:19:40   [Clock_Calendar] review PYQ_hi.txt: 2 issue(s): - प्रश्न 2 का उत्तर 3:16⅜ मिनट दिया गया है → सही उत्तर 3:16 4/11 मिनट (180/11 मिनट) है
@@ -89,4 +84,9 @@
 09-10 16:52:08   [Series] review Important_Rules_hi.txt: 1 issue(s): - The note "25 तक याद रखें" for square identification does not match the list which ends at 15² (225) → Cha
 09-10 16:52:48   [Clock_Calendar] review: 9 section(s) corrected, 0 failed
 09-10 16:52:48   [Clock_Calendar] written 9, failed 0; AI calls today 253/100000
+09-10 16:53:05 DONE Graduation_Level/Reasoning/Chapter_10_Clock_Calendar in 126 min → c4cb1b33
+09-10 16:53:08 START Graduation_Level/Reasoning/Chapter_13_Dictionary_Order (TODO: todo 25, problems 0)
+09-10 16:55:01   [Missing_Term] Practice_en_Set_03.txt try 1: re-solve disagrees (Q61 key c vs re-solve b)
+09-10 16:55:27   [Dictionary_Order] wrote Content_en.txt (8154 chars)
+09-10 16:55:36   [Sitting_Arrangement] Practice_en_Set_05.txt try 2: re-solve disagrees (Q102 key a vs re-solve b, Q108 key a vs re-solve d, Q112 key a vs re-solve b, Q120 key d vs re-solve
 ```
