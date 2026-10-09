@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 01:15 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 01:30 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W4 | Chapter 23 Economic Terms (Graduation GK) | ✍️ लिख रहा है | 79 मिनट |
+| W4 | Chapter 23 Economic Terms (Graduation GK) | ✍️ लिख रहा है | 94 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -51,8 +51,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 12:30:31   [Science_Tech] written 6, failed 0; AI calls today 489/100000
-09-10 12:30:41 DONE Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_18_Science_Tech in 46 min → 2001d46c
 09-10 12:30:41 worker 1: nothing left
 09-10 12:33:42   [Environment] review PYQ_hi.txt: 1 issue(s): - Banking परीक्षा-वार झुकाव में 'कुन्डली… नहीं' अवांछित/गलत शब्द है → इसे हटाएं या उचित शब्द (जैसे 'क्योटो प्रोटोकॉल') 
 09-10 12:34:07   [Defence] Practice_hi_Set_01.txt try 3: rejected (Q24:needs_context)
@@ -91,4 +89,6 @@
 09-10 13:13:17   [International_Orgs] written 10, failed 0; AI calls today 533/100000
 09-10 13:13:30 DONE Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_21_International_Orgs in 67 min → 79e16ae5
 09-10 13:13:30 worker 2: nothing left
+09-10 13:16:27   [Economic_Terms] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 13:19:39   [Economic_Terms] Practice_en_Set_05.txt try 1: re-solve disagrees (Q125 key c vs re-solve d)
 ```
