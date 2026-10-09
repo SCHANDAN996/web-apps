@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 10-10-2026 04:18 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
+**आख़िरी update:** 10-10-2026 04:33 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 16 मिनट |
-| W2 | Chapter 23 Quadratic Equations (12th Maths) | 🔎 review हो रहा है | 3 मिनट |
+| W1 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 31 मिनट |
+| W2 | Chapter 23 Quadratic Equations (12th Maths) | 🔎 review हो रहा है | 18 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -23,11 +23,11 @@
 | 12th GK | 22 | 2 | 0 |
 | 12th Reasoning | 10 | 0 | 15 |
 | 12th English | 25 | 0 | 0 |
-| Graduation Maths | 12 | 0 | 16 |
+| Graduation Maths | 13 | 0 | 15 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 13 | 0 | 17 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **234** | **6** | **56** |
+| **कुल** | **235** | **6** | **55** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -52,11 +52,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 03:39:24   [Permutation_Combination] review: 2 section(s) corrected, 0 failed
-10-10 03:39:24   [Permutation_Combination] written 2, failed 0; AI calls today 173/100000
-10-10 03:39:38   [Probability] Practice_en_Set_05.txt try 4: rejected (parsed 24 questions, numbers 101…125)
-10-10 03:39:38   [Probability] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
-10-10 03:39:38   [Probability] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
 10-10 03:39:38 DONE 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_21_Permutation_Combination in 14 min → fbc4809f
 10-10 03:39:40 worker 2: nothing left
 10-10 03:39:58   [Statistics] review: 4 section(s) corrected, 0 failed
@@ -92,4 +87,9 @@
 10-10 04:18:17   [Probability] Practice_en_Set_02.txt try 4: rejected (parsed 24 questions, numbers 26…50)
 10-10 04:18:17   [Probability] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
 10-10 04:18:17   [Probability] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+10-10 04:20:30   [Quadratic_Equations] review Content_hi.txt: 1 issue(s): - Invented exam statistic "80% परीक्षा-सवाल इसी से हल होते हैं" (no source) → Replace with a generic phrase like "अ
+10-10 04:20:44   [Probability] Practice_en_Set_03.txt try 1: rejected (Q57:leaked_reasoning)
+10-10 04:24:14   [Probability] Practice_en_Set_03.txt try 2: re-solve disagrees (Q53 key b vs re-solve ?)
+10-10 04:28:33   [Probability] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+10-10 04:33:03   [Probability] Practice_hi_Set_03.txt try 1: rejected (parsed 24 questions, numbers 51…75)
 ```
