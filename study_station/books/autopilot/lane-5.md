@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 10-10-2026 02:04 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 10:05 PM
+**आख़िरी update:** 10-10-2026 02:11 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 10:05 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 19 Statistics (10th Maths) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 18 मिनट |
+| W4 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 25 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -23,11 +22,11 @@
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 10 | 0 | 15 |
 | 12th English | 25 | 0 | 0 |
-| Graduation Maths | 8 | 0 | 20 |
+| Graduation Maths | 9 | 0 | 19 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 13 | 0 | 17 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **224** | **5** | **67** |
+| **कुल** | **225** | **5** | **66** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -47,16 +46,10 @@
 - Chapter 01 Noun (English) — 2 बार
 - Chapter 18 Trigonometry (Maths) — 2 बार
 - Chapter 21 Probability (Maths) — 1 बार
-- Chapter 19 Statistics (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 01:27:48   [Probability] set 03 try 4: rejected (parsed 23 questions, numbers 51…75)
-10-10 01:27:48   [Probability] FAILED set 03: no version passed the checks — files left as they were
-10-10 01:28:11   [Probability] set 05 try 1: rejected (parsed 0 questions, numbers -…-)
-10-10 01:28:50   [Probability] set 05 try 2: rejected (parsed 0 questions, numbers -…-)
-10-10 01:28:51   [Probability] set 05 try 3: rejected (parsed 0 questions, numbers -…-)
 10-10 01:28:54   [Mixture_Alligation] review Content_hi.txt: 1 issue(s): - पृथ्थीकरण (पूरे पाठ में प्रयुक्त गलत शब्द) → पृथक्करण
 10-10 01:32:18   [Probability] set 05 try 4: rejected (parsed 24 questions, numbers 101…125)
 10-10 01:32:18   [Probability] FAILED set 05: no version passed the checks — files left as they were
@@ -92,4 +85,9 @@
 10-10 02:03:59   [Probability] set 03 try 3: rejected (parsed 23 questions, numbers 51…75)
 10-10 02:04:27   [Statistics] review: 5 section(s) corrected, 0 failed
 10-10 02:04:27   [Statistics] written 5, failed 0; AI calls today 178/100000
+10-10 02:04:47 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_19_Statistics in 59 min → 36d2815a
+10-10 02:04:50 worker 2: nothing left
+10-10 02:08:05   [Probability] set 03 try 4: rejected (parsed 23 questions, numbers 51…75)
+10-10 02:08:05   [Probability] FAILED set 03: no version passed the checks — files left as they were
+10-10 02:10:29   [Probability] set 05 try 1: rejected (parsed 24 questions, numbers 101…125)
 ```
