@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 10:43 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 10:58 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 58 मिनट |
-| W2 | Chapter 09 Venn Diagrams (Graduation Reasoning) | ✍️ लिख रहा है | 29 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 80 मिनट |
-| W4 | Chapter 06 Order Ranking (Graduation Reasoning) | 🔎 review हो रहा है | 9 मिनट |
-| W5 | Chapter 04 Blood Relations (Graduation Reasoning) | ✍️ लिख रहा है | 32 मिनट |
+| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 74 मिनट |
+| W2 | Chapter 09 Venn Diagrams (Graduation Reasoning) | ✍️ लिख रहा है | 44 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 95 मिनट |
+| W4 | Chapter 06 Order Ranking (Graduation Reasoning) | 🔎 review हो रहा है | 25 मिनट |
+| W5 | Chapter 04 Blood Relations (Graduation Reasoning) | 🔎 review हो रहा है | 2 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md)
 
@@ -29,10 +29,10 @@
 | 12th Reasoning | 0 | 0 | 25 |
 | 12th English | 22 | 0 | 3 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 14 | 0 | 14 |
-| Graduation Reasoning | 3 | 0 | 27 |
+| Graduation GK | 15 | 0 | 13 |
+| Graduation Reasoning | 4 | 0 | 26 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **131** | **13** | **152** |
+| **कुल** | **133** | **13** | **150** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -50,19 +50,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 10:14:24   [Direction_Sense] review: 4 section(s) corrected, 0 failed
-09-10 10:14:24   [Direction_Sense] written 4, failed 0; AI calls today 161/100000
-09-10 10:14:38 DONE Graduation_Level/Reasoning/Chapter_05_Direction_Sense in 41 min → ce5fefa2
-09-10 10:14:39 START Graduation_Level/Reasoning/Chapter_09_Venn_Diagrams (TODO: todo 25, problems 0)
-09-10 10:15:27   [Sitting_Arrangement] Important_Rules_hi.txt try 1: answer too long — asking for a tighter version
-09-10 10:15:40   [Venn_Diagrams] wrote Content_en.txt (6391 chars)
-09-10 10:17:31   [Venn_Diagrams] wrote Content_hi.txt (6152 chars)
-09-10 10:17:33   [Order_Ranking] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 10:18:14   [Sitting_Arrangement] wrote Important_Rules_hi.txt (5680 chars)
-09-10 10:19:12   [Venn_Diagrams] wrote Feynman_en.txt (3363 chars)
-09-10 10:19:43   [Order_Ranking] Practice_en_Set_05.txt try 1: rejected (Q106:leaked_reasoning,Q112:leaked_reasoning,Q115:leaked_reasoning,Q121:leaked_reasoning,Q122:leaked_reasoning)
-09-10 10:21:07   [Venn_Diagrams] wrote Feynman_hi.txt (2945 chars)
-09-10 10:21:39   [Venn_Diagrams] wrote Mind_Map.txt (1832 chars)
 09-10 10:21:54   [Blood_Relations] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 09-10 10:22:16   [Sitting_Arrangement] Practice_en_Set_01.txt try 1: rejected (Q1:leaked_reasoning,Q17:leaked_reasoning,Q21:leaked_reasoning,Q22:leaked_reasoning)
 09-10 10:23:03   [Venn_Diagrams] wrote Flashcards_en.txt (4467 chars)
@@ -90,4 +77,17 @@
 09-10 10:39:52   [Sitting_Arrangement] Practice_en_Set_01.txt try 3: re-solve disagrees (Q10 key a vs re-solve c, Q16 key d vs re-solve b, Q25 key a vs re-solve b)
 09-10 10:42:31   [Order_Ranking] review Flashcards_hi.txt: 1 issue(s): - Card 4: The swap-position mnemonic "नया स्थान = पुराना कुल" and the formula "कुल = 10 + (B का बाएँ स्थान) − 1"
 09-10 10:42:55   [Puzzles] Practice_en_Set_02.txt try 2: re-solve disagrees (Q26 key a vs re-solve c, Q30 key b vs re-solve d, Q49 key d vs re-solve a)
+09-10 10:45:24   [Blood_Relations] Practice_en_Set_05.txt try 2: re-solve disagrees (Q102 key d vs re-solve c, Q118 key b vs re-solve a, Q120 key b vs re-solve a, Q123 key a vs re-solve
+09-10 10:45:29   [Venn_Diagrams] Practice_en_Set_01.txt try 1: re-solve disagrees (Q4 key d vs re-solve c, Q9 key c vs re-solve a, Q17 key b vs re-solve c)
+09-10 10:46:49   [Order_Ranking] review PYQ_en.txt: 2 issue(s): - Q4 question statement is inconsistent: P is given as 14th from front initially, but after interchange Q is 25th from 
+09-10 10:49:48   [Order_Ranking] review PYQ_hi.txt: 1 issue(s): - प्रश्न 5 (ऊँचाई क्रम) का उत्तर गलत है: दी गई शर्तों से Q और S के बीच कोई संबंध नहीं है, इसलिए सबसे छोटा व्यक्ति निश्च
+09-10 10:50:21   [Blood_Relations] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 10:53:02   [Sitting_Arrangement] FAILED Practice_en_Set_01.txt: too_long
+09-10 10:53:02   [Sitting_Arrangement] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
+09-10 10:53:32   [Sitting_Arrangement] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 10:53:57   [Venn_Diagrams] Practice_en_Set_01.txt try 2: re-solve disagrees (Q2 key a vs re-solve ?)
+09-10 10:56:17   [Sitting_Arrangement] Practice_en_Set_02.txt try 2: rejected (Q33:leaked_reasoning,Q39:leaked_reasoning)
+09-10 10:56:30   [Blood_Relations] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 10:56:30   [Blood_Relations] written 4, failed 0; AI calls today 223/100000
+09-10 10:58:04   [Order_Ranking] review Short_Tricks_hi.txt: 2 issue(s): - Trick 5 example is ambiguous: “राम बाएँ से 8वाँ, श्याम से अदला-बदली के बाद राम 15वाँ” does not specify left/
 ```
