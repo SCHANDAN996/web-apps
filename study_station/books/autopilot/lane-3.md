@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 12:24 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
+**आख़िरी update:** 10-10-2026 12:39 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 16 Statement Conclusion (12th Reasoning) | ✍️ लिख रहा है | 114 मिनट |
-| W7 | Chapter 11 Series (12th Reasoning) | 🔎 review हो रहा है | 48 मिनट |
-| W8 | Chapter 10 Clock Calendar (12th Reasoning) | ✍️ लिख रहा है | 305 मिनट |
+| W2 | Chapter 16 Statement Conclusion (12th Reasoning) | ✍️ लिख रहा है | 130 मिनट |
+| W7 | Chapter 11 Series (12th Reasoning) | 🔎 review हो रहा है | 63 मिनट |
+| W8 | Chapter 10 Clock Calendar (12th Reasoning) | ✍️ लिख रहा है | 320 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -51,19 +51,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 23:26:09   [Series] Practice_en_Set_06.txt try 2: re-solve disagrees (Q150 key c vs re-solve b)
-09-10 23:26:36   [Mathematical_Operations] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 23:26:36   [Mathematical_Operations] written 17, failed 8; AI calls today 498/100000
-09-10 23:26:36 NOT OK 12th_Level/Reasoning/Chapter_15_Mathematical_Operations after 166 min: todo ['Feynman_en.txt', 'Flashcards_en.txt', 'Set 01 en: todo', 'Set 01 hi: todo'] problems []
-09-10 23:26:36 worker 3: nothing left
-09-10 23:26:57   [Dictionary_Order] Practice_en_Set_06.txt try 1: rejected (Q129:leaked_reasoning,Q139:leaked_reasoning,Q140:leaked_reasoning,Q141:leaked_reasoning,Q147:leaked_reasoning)
-09-10 23:27:49   [Statement_Conclusion] wrote Short_Tricks_hi.txt (5130 chars)
-09-10 23:28:57   [Statement_Conclusion] wrote Important_Rules_en.txt (5437 chars)
-09-10 23:30:14   [Puzzles] review PYQ_en.txt: 3 issue(s): - Answer: (c) E → Answer: (a) B
-09-10 23:31:18   [Statement_Conclusion] wrote Important_Rules_hi.txt (4387 chars)
-09-10 23:32:48   [Series] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 23:35:46   [Series] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 23:35:46   [Series] written 6, failed 0; AI calls today 508/100000
 09-10 23:36:23   [Puzzles] review PYQ_hi.txt: 7 issue(s): - Question 1 (Linear Arrangement): The solution arrangement C, D, E, A, F, B violates "E second to left of B" (E is thi
 09-10 23:36:29   [Clock_Calendar] Practice_en_Set_05.txt try 1: re-solve disagrees (Q105 key d vs re-solve c, Q107 key c vs re-solve b, Q108 key a vs re-solve b, Q111 key a vs re-solve
 09-10 23:37:33   [Dictionary_Order] Practice_en_Set_06.txt try 2: re-solve disagrees (Q129 key c vs re-solve d, Q150 key a vs re-solve c)
@@ -91,4 +78,17 @@
 10-10 00:17:28   [Series] review Short_Tricks_en.txt: 2 issue(s): - "80% of number series in SSC/Bank exams crack open with simple differences" is an invented exam statistic → 
 10-10 00:23:49   [Statement_Conclusion] FAILED Practice_en_Set_02.txt: too_long
 10-10 00:23:49   [Statement_Conclusion] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+10-10 00:24:50   [Clock_Calendar] Practice_en_Set_05.txt try 3: re-solve disagrees (Q107 key a vs re-solve d)
+10-10 00:25:24   [Series] review Important_Rules_en.txt: 1 issue(s): - Prime Number Series rule says "primes + 2" but the example series 4, 6, 10, 14, 22 follows primes × 2 (2×
+10-10 00:30:54   [Statement_Conclusion] Practice_en_Set_03.txt try 1: re-solve disagrees (Q51 key a vs re-solve b, Q54 key b vs re-solve d, Q55 key b vs re-solve d, Q62 key d vs re-solve a, 
+10-10 00:31:01   [Statement_Conclusion] Practice_en_Set_03.txt try 2: rejected (parsed 0 questions, numbers -…-)
+10-10 00:31:41   [Clock_Calendar] Practice_en_Set_05.txt try 4: re-solve disagrees (Q107 key b vs re-solve a, Q117 key b vs re-solve d)
+10-10 00:31:41   [Clock_Calendar] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
+10-10 00:31:41   [Clock_Calendar] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
+10-10 00:36:44   [Clock_Calendar] Practice_en_Set_06.txt try 1: re-solve disagrees (Q145 key c vs re-solve b)
+10-10 00:37:54   [Statement_Conclusion] Practice_en_Set_03.txt try 3: re-solve disagrees (Q55 key d vs re-solve b, Q64 key d vs re-solve a, Q73 key d vs re-solve a)
+10-10 00:39:04   [Statement_Conclusion] Practice_en_Set_03.txt try 4: rejected (parsed 0 questions, numbers -…-)
+10-10 00:39:04   [Statement_Conclusion] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
+10-10 00:39:04   [Statement_Conclusion] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
+10-10 00:39:14   [Series] review Important_Rules_hi.txt: 1 issue(s): - "अंतर जाँचें" नियम का उदाहरण भ्रष्ट है — यह एक साधारण उदाहरण के बजाय हज़ारों अर्थहीन, दोहराई गई संख्याओं 
 ```
