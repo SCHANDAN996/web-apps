@@ -192,8 +192,10 @@ def answer_conflicts_with_solution(q):
 
 # AI "thinking out loud" that leaked into generated solutions.
 LEAKED_REASONING = re.compile(
-    r"\b(?:I'll|I will|Let me|let's|Let us re|Nice!|Hmm|Wait|Actually,|Oops|recalculat\w*|re-?check\w*|"
-    r"I think|We need to|मैं इसे|मैं इस|ठीक है,|रुकिए|दोबारा जाँच|तो Q\d+|Q\d+:)(?![A-Za-z])", re.I)
+    r"\b(?:I'll|I will|Let me|Let us re|Nice!|Hmm|Wait|Actually,|Oops|recalculat\w*|re-?check\w*|"
+    r"I think|मैं इसे|मैं इस|रुकिए|दोबारा जाँच|तो Q\d+|Q\d+:)(?![A-Za-z])", re.I)
+# Teaching phrases ("Let's decode…", "We need to find…", "ठीक है, अब…") are normal in solutions and are not
+# treated as leaked reasoning; first-person chatter and self-correction still are.
 # In the question itself ordinary sentences ("I will meet you…", "मैं इस बिंदु पर…") are content, so only
 # unmistakable model chatter counts there.
 LEAKED_IN_QUESTION = re.compile(

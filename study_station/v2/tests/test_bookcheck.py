@@ -187,3 +187,11 @@ def test_corrupted_characters_are_flagged(tmp_path):
     from app.bookcheck import check_chapter
     ch = write_chapter(tmp_path, **{'PYQ_en.txt': 'Exam pattern notes for rivers. ' * 20 + 'Broken � text.'})
     assert any('PYQ_en.txt: corrupted characters' in p for p in check_chapter(ch)[1])
+
+
+def test_teaching_phrases_are_not_leaked_reasoning():
+    from app.importers import LEAKED_REASONING as L
+    for ok in ["Let's decode each letter: A→C.", "We need to find the odd one out.", "ठीक है, अब क्रम देखें।"]:
+        assert not L.search(ok), ok
+    for bad in ["Wait, recheck option b.", "Let me recount the letters.", "I think the answer is b."]:
+        assert L.search(bad), bad
