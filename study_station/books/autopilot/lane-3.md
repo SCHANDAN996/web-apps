@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 11:38 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
+**आख़िरी update:** 09-10-2026 11:53 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 16 Statement Conclusion (12th Reasoning) | ✍️ लिख रहा है | 69 मिनट |
-| W3 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 189 मिनट |
-| W6 | Chapter 08 Puzzles (12th Reasoning) | 🔎 review हो रहा है | 38 मिनट |
-| W7 | Chapter 11 Series (12th Reasoning) | 🔎 review हो रहा है | 2 मिनट |
-| W8 | Chapter 10 Clock Calendar (12th Reasoning) | ✍️ लिख रहा है | 259 मिनट |
+| W2 | Chapter 16 Statement Conclusion (12th Reasoning) | ✍️ लिख रहा है | 84 मिनट |
+| W3 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 204 मिनट |
+| W6 | Chapter 08 Puzzles (12th Reasoning) | 🔎 review हो रहा है | 53 मिनट |
+| W7 | Chapter 11 Series (12th Reasoning) | 🔎 review हो रहा है | 17 मिनट |
+| W8 | Chapter 10 Clock Calendar (12th Reasoning) | ✍️ लिख रहा है | 274 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -20,7 +20,7 @@
 |---|---|---|---|
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
-| 10th Maths | 14 | 8 | 0 |
+| 10th Maths | 15 | 7 | 0 |
 | 10th English | 17 | 0 | 3 |
 | 12th Maths | 10 | 0 | 13 |
 | 12th GK | 22 | 0 | 2 |
@@ -28,9 +28,9 @@
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 3 | 0 | 25 |
 | Graduation GK | 27 | 0 | 1 |
-| Graduation Reasoning | 10 | 0 | 20 |
+| Graduation Reasoning | 12 | 0 | 18 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **208** | **8** | **80** |
+| **कुल** | **211** | **7** | **78** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -52,14 +52,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 23:18:21   [Series] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-09-10 23:19:00   [Sitting_Arrangement] Practice_en_Set_06.txt try 4: re-solve disagrees (Q126 key a vs re-solve ?, Q127 key a vs re-solve ?, Q132 key c vs re-solve ?, Q133 key d vs re-solve
-09-10 23:19:00   [Sitting_Arrangement] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
-09-10 23:19:00   [Sitting_Arrangement] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-09-10 23:19:00   [Sitting_Arrangement] written 2, failed 8; AI calls today 481/100000
-09-10 23:19:01 NOT OK 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement after 241 min: todo ['Set 01 en: todo', 'Set 01 hi: todo', 'Set 02 en: todo', 'Set 02 hi: todo'] problems ['PYQ_hi.txt: Hindi file is mostly not in Hindi']
-09-10 23:19:01 worker 4: nothing left
-09-10 23:19:37   [Statement_Conclusion] wrote PYQ_en.txt (9114 chars)
 09-10 23:19:38   [Dictionary_Order] Practice_en_Set_05.txt try 2: rejected (Q113:leaked_reasoning)
 09-10 23:20:34   [Alphabet_Questions] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 09-10 23:21:27   [Dictionary_Order] Practice_en_Set_05.txt try 3: rejected (Q113:leaked_reasoning)
@@ -92,4 +84,12 @@
 09-10 23:36:23   [Puzzles] review PYQ_hi.txt: 7 issue(s): - Question 1 (Linear Arrangement): The solution arrangement C, D, E, A, F, B violates "E second to left of B" (E is thi
 09-10 23:36:29   [Clock_Calendar] Practice_en_Set_05.txt try 1: re-solve disagrees (Q105 key d vs re-solve c, Q107 key c vs re-solve b, Q108 key a vs re-solve b, Q111 key a vs re-solve
 09-10 23:37:33   [Dictionary_Order] Practice_en_Set_06.txt try 2: re-solve disagrees (Q129 key c vs re-solve d, Q150 key a vs re-solve c)
+09-10 23:40:47   [Series] review Content_en.txt: 2 issue(s): - Two levels of difference-solving crack nearly 80% of exam series. → Two levels of difference-solving can solve ma
+09-10 23:45:21   [Series] review Content_hi.txt: 1 issue(s): - Invented exam weightage claim "90% प्रश्नों में काम करता है" (unsourced statistic) → remove or replace with a non
+09-10 23:46:13   [Statement_Conclusion] FAILED Practice_en_Set_01.txt: too_long
+09-10 23:46:13   [Statement_Conclusion] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
+09-10 23:46:25   [Dictionary_Order] Practice_en_Set_06.txt try 3: re-solve disagrees (Q150 key c vs re-solve d)
+09-10 23:52:23   [Puzzles] review Important_Rules_hi.txt: 5 issue(s): - "उस खाने में ✗" → "उस सेल में ✗"
+09-10 23:53:42   [Puzzles] review: 5 section(s) corrected, 0 failed
+09-10 23:53:42   [Puzzles] written 5, failed 0; AI calls today 525/100000
 ```
