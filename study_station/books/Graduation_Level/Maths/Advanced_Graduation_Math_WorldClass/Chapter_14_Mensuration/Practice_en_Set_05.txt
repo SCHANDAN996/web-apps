@@ -1,0 +1,151 @@
+Questions 101–120: Easy | Questions 121–125: Moderate
+
+101. A rectangular plot is 40 m long and 30 m wide. A path 2 m wide runs inside the plot along its boundary. The area of the path is:
+(a) 256 m² (b) 280 m² (c) 264 m² (d) 300 m²
+Answer: (c)
+Solution: The tempting wrong value 280 m² comes from computing 2 × (40 + 30) × 2 = 280, which double-counts the four corners. Correctly, inner dimensions are 36 m × 26 m, so path area = 40 × 30 − 36 × 26 = 1200 − 936 = 264 m², so the answer is 264 m².
+Source: NCERT Class 8 Mathematics (Mensuration)
+
+102. The circumference of a circle is 44 cm. Its area is (take π = 22/7):
+(a) 154 cm² (b) 144 cm² (c) 164 cm² (d) 616 cm²
+Answer: (a)
+Solution: 2πr = 44 gives r = 7 cm. The trap value 616 cm² comes from using r = 14 (the diameter) instead of the radius. Area = πr² = (22/7) × 49 = 154 cm², so the answer is 154 cm².
+Source: NCERT Class 7 Mathematics (Perimeter and Area)
+
+103. The diagonals of a rhombus are 24 cm and 10 cm. Its side length is:
+(a) 12 cm (b) 17 cm (c) 13 cm (d) 26 cm
+Answer: (c)
+Solution: Diagonals bisect each other at right angles, so half-diagonals are 12 cm and 5 cm. The trap 17 cm comes from adding 12 + 5 instead of applying Pythagoras. Side = √(12² + 5²) = √169 = 13 cm, so the answer is 13 cm.
+Source: NCERT Class 8 Mathematics (Mensuration)
+
+104. A cube has total surface area 294 cm². Its volume is:
+(a) 294 cm³ (b) 343 cm³ (c) 2401 cm³ (d) 49 cm³
+Answer: (b)
+Solution: 6a² = 294 gives a² = 49, so a = 7 cm. The trap 2401 cm³ comes from computing 49² = 2401, confusing a² with a. Volume = a³ = 343 cm³, so the answer is 343 cm³.
+Source: NCERT Class 9 Mathematics (Surface Areas and Volumes)
+
+105. The area of an equilateral triangle with side 12 cm is:
+(a) 144√3 cm² (b) 72√3 cm² (c) 18√3 cm² (d) 36√3 cm²
+Answer: (d)
+Solution: Area = (√3/4) × side² = (√3/4) × 144 = 36√3 cm². The trap 72√3 cm² comes from using (√3/2) × side², the wrong coefficient. So the answer is 36√3 cm².
+Source: NCERT Class 9 Mathematics (Heron's Formula)
+
+106. A cylinder has radius 7 cm and height 10 cm. Its curved surface area is (take π = 22/7):
+(a) 220 cm² (b) 440 cm² (c) 748 cm² (d) 1540 cm²
+Answer: (b)
+Solution: CSA = 2πrh = 2 × (22/7) × 7 × 10 = 440 cm². The trap 748 cm² is the total surface area (adding 2πr² = 308), but the question asks only for the curved surface. So the answer is 440 cm².
+Source: NCERT Class 9 Mathematics (Surface Areas and Volumes)
+
+107. The volume of a cone with base radius 3 cm and height 7 cm is (take π = 22/7):
+(a) 198 cm³ (b) 44 cm³ (c) 66 cm³ (d) 132 cm³
+Answer: (c)
+Solution: Volume = (1/3)πr²h = (1/3) × (22/7) × 9 × 7 = 66 cm³. The trap 198 cm³ comes from forgetting the factor 1/3, which gives the cylinder's volume instead. So the answer is 66 cm³.
+Source: NCERT Class 9 Mathematics (Surface Areas and Volumes)
+
+108. A trapezium has parallel sides 14 cm and 10 cm, and the distance between them is 8 cm. Its area is:
+(a) 96 cm² (b) 192 cm² (c) 112 cm² (d) 80 cm²
+Answer: (a)
+Solution: Area = (1/2) × (sum of parallel sides) × height = (1/2) × 24 × 8 = 96 cm². The trap 192 cm² comes from omitting the factor 1/2. So the answer is 96 cm².
+Source: NCERT Class 8 Mathematics (Mensuration)
+
+109. A wire is bent into a square of side 22 cm. If the same wire is bent into a circle, the radius of the circle is (take π = 22/7):
+(a) 14 cm (b) 7 cm (c) 11 cm (d) 28 cm
+Answer: (a)
+Solution: Wire length = 4 × 22 = 88 cm = circumference. So 2πr = 88 gives r = 88 × 7/44 = 14 cm. The trap 7 cm comes from using πr = 88, dropping the factor 2. So the answer is 14 cm.
+Source: NCERT Class 7 Mathematics (Perimeter and Area)
+
+110. The ratio of the volumes of two spheres is 8 : 27. The ratio of their surface areas is:
+(a) 8 : 27 (b) 2 : 3 (c) 16 : 81 (d) 4 : 9
+Answer: (d)
+Solution: Volume ratio = cube of radius ratio, so radii are in ratio 2 : 3. Surface area ratio = square of radius ratio = 4 : 9. The trap 8 : 27 keeps the volume ratio unchanged, and 2 : 3 is only the radius ratio. So the answer is 4 : 9.
+Source: NCERT Class 9 Mathematics (Surface Areas and Volumes)
+
+111. A rectangular hall 15 m × 12 m is to be paved with square tiles of side 30 cm. The number of tiles required is:
+(a) 200 (b) 2000 (c) 1800 (d) 600
+Answer: (b)
+Solution: Hall area = 15 × 12 = 180 m² = 1,800,000 cm². Tile area = 900 cm², so number = 1,800,000 / 900 = 2000. The trap 200 comes from forgetting to convert metres to centimetres. So the answer is 2000.
+Source: NCERT Class 8 Mathematics (Mensuration)
+
+112. The area of a circle is 616 cm². Its circumference is (take π = 22/7):
+(a) 88 cm (b) 44 cm (c) 176 cm (d) 132 cm
+Answer: (a)
+Solution: πr² = 616 gives r² = 196, so r = 14 cm. Circumference = 2πr = 2 × (22/7) × 14 = 88 cm. The trap 44 cm comes from using r = 7, which arises from halving the radius incorrectly. So the answer is 88 cm.
+Source: NCERT Class 7 Mathematics (Perimeter and Area)
+
+113. A right circular cylinder and a cone have the same base radius and same height. The ratio of their volumes (cylinder : cone) is:
+(a) 9 : 1 (b) 1 : 3 (c) 2 : 1 (d) 3 : 1
+Answer: (d)
+Solution: Cylinder volume = πr²h; cone volume = (1/3)πr²h, so the ratio is 3 : 1. The trap 1 : 3 simply inverts the ratio. So the answer is 3 : 1.
+Source: NCERT Class 9 Mathematics (Surface Areas and Volumes)
+
+114. The perimeter of a semicircle of radius 7 cm is (take π = 22/7):
+(a) 36 cm (b) 22 cm (c) 44 cm (d) 58 cm
+Answer: (a)
+Solution: Perimeter of a semicircle = πr + 2r = 22 + 14 = 36 cm. The trap 22 cm counts only the curved arc and forgets the diameter. So the answer is 36 cm.
+Source: NCERT Class 10 Mathematics (Areas Related to Circles)
+
+115. A solid metallic sphere of radius 6 cm is melted and recast into a cylinder of radius 4 cm. The height of the cylinder is:
+(a) 12 cm (b) 18 cm (c) 9 cm (d) 24 cm
+Answer: (b)
+Solution: Sphere volume = (4/3)π × 216 = 288π cm³. Cylinder: π × 16 × h = 288π, so h = 18 cm. The trap 9 cm comes from using (1/3)πr³ for the sphere, the cone formula by mistake. So the answer is 18 cm.
+Source: NCERT Class 10 Mathematics (Surface Areas and Volumes)
+
+116. The length of the diagonal of a cube of side 5 cm is:
+(a) 10√3 cm (b) 5√3 cm (c) 5√2 cm (d) 15 cm
+Answer: (b)
+Solution: Space diagonal of a cube = a√3 = 5√3 cm. The trap 5√2 cm is the face diagonal, not the space diagonal. So the answer is 5√3 cm.
+Source: NCERT Class 9 Mathematics (Surface Areas and Volumes)
+
+117. A sector of a circle of radius 14 cm has central angle 90°. Its area is (take π = 22/7):
+(a) 77 cm² (b) 154 cm² (c) 308 cm² (d) 616 cm²
+Answer: (b)
+Solution: Sector area = (θ/360) × πr² = (90/360) × (22/7) × 196 = (1/4) × 616 = 154 cm². The trap 616 cm² is the full circle's area, ignoring the angle fraction. So the answer is 154 cm².
+Source: NCERT Class 10 Mathematics (Areas Related to Circles)
+
+118. The sides of a triangle are 13 cm, 14 cm and 15 cm. Its area is:
+(a) 84 cm² (b) 42 cm² (c) 96 cm² (d) 105 cm²
+Answer: (a)
+Solution: s = (13 + 14 + 15)/2 = 21. Area = √[21 × 8 × 7 × 6] = √7056 = 84 cm². The trap 42 cm² comes from halving the correct Heron result without justification. So the answer is 84 cm².
+Source: NCERT Class 9 Mathematics (Heron's Formula)
+
+119. A cuboid measures 12 cm × 9 cm × 8 cm. The length of its longest diagonal is:
+(a) 21 cm (b) 15 cm (c) 19 cm (d) 17 cm
+Answer: (d)
+Solution: Diagonal = √(144 + 81 + 64) = √289 = 17 cm. The trap 15 cm comes from √(144 + 81) = 15, using only two dimensions. So the answer is 17 cm.
+Source: NCERT Class 9 Mathematics (Surface Areas and Volumes)
+
+120. If the radius of a circle is doubled, its area becomes:
+(a) 16 times (b) 2 times (c) 8 times (d) 4 times
+Answer: (d)
+Solution: Area is proportional to r², so doubling r multiplies the area by 2² = 4. The trap 2 times assumes area scales linearly with radius. So the answer is 4 times.
+Source: NCERT Class 7 Mathematics (Perimeter and Area)
+
+121. A cone of height 24 cm and base radius 6 cm is made of modelling clay. A child reshapes it into a sphere of the same volume. The radius of the sphere is:
+(a) 6 cm (b) 8 cm (c) 12 cm (d) 4 cm
+Answer: (a)
+Solution: Cone volume = (1/3)π × 6² × 24 = 288π cm³. Setting (4/3)πR³ = 288π gives R³ = 216, so R = 6 cm. The trap 12 cm doubles the cone's radius, assuming volume scales directly with radius. So the answer is 6 cm.
+Source: NCERT Class 10 Mathematics (Surface Areas and Volumes)
+
+122. A well of diameter 4 m is dug 21 m deep. The earth taken out is spread evenly around it to form a circular embankment of width 3 m. The height of the embankment is (take π = 22/7):
+(a) 8 m (b) 2 m (c) 4 m (d) 3 m
+Answer: (c)
+Solution: Earth dug out = π × 2² × 21 = 84π m³. The embankment is an annulus with inner radius 2 m and outer radius 2 + 3 = 5 m, so its base area = π(5² − 2²) = 21π m², giving height = 84π / 21π = 4 m. The trap 8 m comes from using the full outer circle area 25π instead of the annulus area. So the answer is 4 m.
+Source: NCERT Class 10 Mathematics (Surface Areas and Volumes)
+
+123. A metallic sheet is of rectangular shape 48 cm × 36 cm. From each corner a square of side 6 cm is cut off and the flaps are folded to form an open box. The volume of the box is:
+(a) 6048 cm³ (b) 4320 cm³ (c) 5184 cm³ (d) 3888 cm³
+Answer: (c)
+Solution: After cutting, base dimensions are 48 − 12 = 36 cm and 36 − 12 = 24 cm, and height = 6 cm. Volume = 36 × 24 × 6 = 5184 cm³. The trap 4320 cm³ comes from subtracting 6 only once from each side instead of twice (both corners). So the answer is 5184 cm³.
+Source: NCERT Class 8 Mathematics (Mensuration)
+
+124. A solid cylinder of radius 8 cm and height 12 cm is melted and recast into identical cones each of radius 4 cm and height 6 cm. The number of cones formed is:
+(a) 12 (b) 36 (c) 24 (d) 18
+Answer: (c)
+Solution: Cylinder volume = π × 64 × 12 = 768π cm³. Each cone = (1/3)π × 16 × 6 = 32π cm³, so number = 768π / 32π = 24. The trap 12 comes from forgetting the 1/3 factor in the cone volume, which triples each cone's assumed size. So the answer is 24.
+Source: NCERT Class 10 Mathematics (Surface Areas and Volumes)
+
+125. A regular hexagon is inscribed in a circle of radius 10 cm. The area of the hexagon is:
+(a) 75√3 cm² (b) 100√3 cm² (c) 300√3 cm² (d) 150√3 cm²
+Answer: (d)
+Solution: A regular hexagon inscribed in a circle has side equal to the radius, so side = 10 cm. Area = (3√3/2) × side² = (3√3/2) × 100 = 150√3 cm². The trap 300√3 cm² doubles the correct coefficient by treating the hexagon as 12 triangles instead of 6. So the answer is 150√3 cm².
+Source: NCERT Class 10 Mathematics (Areas Related to Circles)

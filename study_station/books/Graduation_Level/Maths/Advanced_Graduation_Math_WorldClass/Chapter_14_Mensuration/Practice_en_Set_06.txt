@@ -1,0 +1,149 @@
+126. A sector of a circle of radius 12 cm and central angle 120° is folded to form a cone. What is the volume of the cone?
+(a) 128√2π/3 cm³ (b) 64√2π/3 cm³ (c) 128π/3 cm³ (d) 96√2π cm³
+Answer: (a)
+Solution: The trap is taking the sector radius 12 as the cone's base radius; it is actually the slant height. Arc length = (120/360) × 2π × 12 = 8π, so base radius r = 4 cm. Then h = √(12² − 4²) = √128 = 8√2. Volume = (1/3)π × 16 × 8√2 = 128√2π/3 cm³, so the answer is 128√2π/3 cm³.
+Source: NCERT Class 10 Mathematics
+
+127. A cylinder of height 6 cm is inscribed in a sphere of radius 5 cm. What is the volume of the cylinder?
+(a) 72π cm³ (b) 100π cm³ (c) 96π cm³ (d) 150π cm³
+Answer: (c)
+Solution: The tempting error is using the sphere's radius as the cylinder's radius. The sphere's centre to the cylinder's rim forms a right triangle: r² = 5² − 3² = 16, so r = 4 cm. Volume = π × 16 × 6 = 96π cm³, so the answer is 96π cm³.
+Source: PYQ-style
+
+128. A bucket is a frustum of a cone with radii 8 cm and 2 cm and height 12 cm. Find its capacity.
+(a) 224π cm³ (b) 336π cm³ (c) 288π cm³ (d) 312π cm³
+Answer: (b)
+Solution: The trap is averaging the two circular areas and multiplying by height, which ignores the frustum formula. Volume = (1/3)πh(R² + Rr + r²) = (1/3)π × 12 × (64 + 16 + 4) = 4π × 84 = 336π cm³, so the answer is 336π cm³.
+Source: NCERT Class 10 Mathematics
+
+129. A cube has a body diagonal of 6√3 cm. What is the ratio of the volume of the largest sphere that fits inside it to the volume of the cube?
+(a) π/2 (b) π/4 (c) π/3 (d) π/6
+Answer: (d)
+Solution: The trap is taking the sphere's diameter equal to the face diagonal instead of the edge. Body diagonal a√3 = 6√3 gives a = 6, so the sphere's radius is 3. Sphere volume = 36π, cube volume = 216, ratio = 36π/216 = π/6, so the answer is π/6.
+Source: PYQ-style
+
+130. A solid cylinder of radius 6 cm and height 8 cm is melted and recast into solid spheres of radius 2 cm. How many spheres are formed?
+(a) 24 (b) 36 (c) 27 (d) 18
+Answer: (c)
+Solution: The trap is dividing volumes using πr²h ÷ πr³-type shortcuts that drop the 4/3 factor. Cylinder volume = π × 36 × 8 = 288π. Each sphere = (4/3)π × 8 = 32π/3. Number = 288π ÷ (32π/3) = 288 × 3/32 = 27, so the answer is 27.
+Source: NCERT Class 10 Mathematics
+
+131. A rectangular tank is 20 cm long and 15 cm wide. A stone of volume 3000 cm³ is fully immersed in the water. By how much does the water level rise?
+(a) 5 cm (b) 8 cm (c) 12 cm (d) 10 cm
+Answer: (d)
+Solution: The trap is dividing the stone's volume by the tank's perimeter or by only one dimension. Rise = volume ÷ base area = 3000 ÷ (20 × 15) = 3000 ÷ 300 = 10 cm, so the answer is 10 cm.
+Source: NCERT Class 8 Mathematics
+
+132. A hollow metallic sphere has external radius 5 cm and internal radius 3 cm. What is the volume of the metal?
+(a) 98π cm³ (b) 196π/3 cm³ (c) 488π/3 cm³ (d) 392π/3 cm³
+Answer: (d)
+Solution: The trap is computing (4/3)π(R − r)³, which treats the shell as a solid sphere of radius 2. Metal volume = (4/3)π(5³ − 3³) = (4/3)π(125 − 27) = (4/3)π × 98 = 392π/3 cm³, so the answer is 392π/3 cm³.
+Source: PYQ-style
+
+133. A right pyramid has a square base of side 10 cm and height 12 cm. Find its volume.
+(a) 400 cm³ (b) 600 cm³ (c) 1200 cm³ (d) 800 cm³
+Answer: (a)
+Solution: The trap is forgetting the 1/3 factor and answering 1200 cm³. Volume = (1/3) × base area × height = (1/3) × 100 × 12 = 400 cm³, so the answer is 400 cm³.
+Source: NCERT Class 9 Mathematics
+
+134. Find the area of a sector of a circle of radius 21 cm with central angle 60°. (Take π = 22/7)
+(a) 154 cm² (b) 462 cm² (c) 231 cm² (d) 308 cm²
+Answer: (c)
+Solution: The trap is using the full circle area 1386 cm² and halving it instead of taking one-sixth. Area = (60/360) × (22/7) × 21 × 21 = (1/6) × 1386 = 231 cm², so the answer is 231 cm².
+Source: NCERT Class 10 Mathematics
+
+135. A rectangular field is 50 m long and 40 m wide. A path 2 m wide runs around it on the outside. Find the area of the path.
+(a) 368 m² (b) 376 m² (c) 384 m² (d) 400 m²
+Answer: (b)
+Solution: The trap is adding 2 m only once to each dimension, giving 52 × 42 − 2000 = 184 m². The path adds 4 m to each dimension: outer area = 54 × 44 = 2376 m², path = 2376 − 2000 = 376 m², so the answer is 376 m².
+Source: NCERT Class 8 Mathematics
+
+136. The diagonals of a rhombus are 24 cm and 10 cm. Find its perimeter.
+(a) 52 cm (b) 48 cm (c) 56 cm (d) 60 cm
+Answer: (a)
+Solution: The trap is adding the diagonals (34) and doubling to 68, or computing area 120 cm² and calling it perimeter. Half-diagonals are 12 and 5, so side = √(144 + 25) = 13 cm. Perimeter = 4 × 13 = 52 cm, so the answer is 52 cm.
+Source: NCERT Class 8 Mathematics
+
+137. The parallel sides of a trapezium are 12 cm and 20 cm, and the perpendicular distance between them is 8 cm. Two non-parallel sides are equal. Find the area.
+(a) 256 cm² (b) 96 cm² (c) 160 cm² (d) 128 cm²
+Answer: (d)
+Solution: The trap is multiplying the sum of parallel sides by the height without halving, giving 256 cm². Area = (1/2) × (12 + 20) × 8 = (1/2) × 32 × 8 = 128 cm², so the answer is 128 cm².
+Source: NCERT Class 8 Mathematics
+
+138. Find the area of a regular hexagon of side 6 cm.
+(a) 54√3 cm² (b) 36√3 cm² (c) 72√3 cm² (d) 108√3 cm²
+Answer: (a)
+Solution: The trap is using the area of one equilateral triangle (9√3) and forgetting there are six of them. Area = (3√3/2) × side² = (3√3/2) × 36 = 54√3 cm², so the answer is 54√3 cm².
+Source: NCERT Class 9 Mathematics
+
+139. A tent is a cylinder of radius 6 m and height 10 m, surmounted by a cone of the same radius and height 8 m. Find the canvas required (excluding the floor). (Take π = 22/7)
+(a) 216π m² (b) 240π m² (c) 156π m² (d) 180π m²
+Answer: (d)
+Solution: The trap is adding the cone's base circle, which is internal and needs no canvas. Slant height of cone = √(36 + 64) = 10 m. Canvas = 2πrh + πrl = 2π × 6 × 10 + π × 6 × 10 = 120π + 60π = 180π m², so the answer is 180π m².
+Source: NCERT Class 10 Mathematics
+
+140. A well of diameter 7 m is dug 20 m deep. The earth taken out is spread evenly on a rectangular plot 22 m × 14 m. Find the rise in the plot's level. (Take π = 22/7)
+(a) 2 m (b) 3.5 m (c) 3 m (d) 2.5 m
+Answer: (d)
+Solution: The trap is using the well's diameter as radius, which quadruples the volume. Earth volume = (22/7) × 3.5² × 20 = 770 m³. Rise = 770 ÷ (22 × 14) = 770 ÷ 308 = 2.5 m, so the answer is 2.5 m.
+Source: NCERT Class 10 Mathematics
+
+141. The radius of a cylinder is doubled and its height is halved. What happens to its volume?
+(a) It remains the same (b) It is halved (c) It is doubled (d) It becomes four times
+Answer: (c)
+Solution: The trap is assuming the doubling of radius and halving of height cancel out, ignoring that radius is squared. New volume = π(2r)²(h/2) = 4πr²h/2 = 2πr²h, i.e. twice the original, so the answer is that it is doubled.
+Source: PYQ-style
+
+142. A wire bent into a circle of radius 14 cm is straightened and bent into a square. What is the difference between the areas of the circle and the square? (Take π = 22/7)
+(a) 144 cm² (b) 120 cm² (c) 132 cm² (d) 154 cm²
+Answer: (c)
+Solution: The trap is equating the circle's area to the square's perimeter instead of equating perimeters. Circumference = 2 × (22/7) × 14 = 88 cm, so square side = 22 cm and its area = 484 cm². Circle area = (22/7) × 196 = 616 cm². Difference = 616 − 484 = 132 cm², so the answer is 132 cm².
+Source: NCERT Class 10 Mathematics
+
+143. A solid metallic sphere of radius 9 cm is melted and recast into a solid cone of base radius 9 cm. Find the height of the cone.
+(a) 27 cm (b) 36 cm (c) 18 cm (d) 45 cm
+Answer: (b)
+Solution: The trap is equating (4/3)πr³ with πr²h and forgetting the cone's 1/3 factor, which gives 12 cm. Equating volumes: (4/3)π × 729 = (1/3)π × 81 × h, so h = 4 × 729 ÷ 81 = 36 cm, so the answer is 36 cm.
+Source: NCERT Class 10 Mathematics
+
+144. A cuboid measures 12 cm × 4 cm × 3 cm. Find the length of its longest diagonal and its total surface area.
+(a) 13 cm and 192 cm² (b) 13 cm and 96 cm² (c) √169 cm and 150 cm² (d) 12 cm and 192 cm²
+Answer: (a)
+Solution: The trap is adding the three edges (19) or using only two dimensions in the diagonal formula. Diagonal = √(144 + 16 + 9) = √169 = 13 cm. Surface area = 2(48 + 36 + 12) = 2 × 96 = 192 cm², so the answer is 13 cm and 192 cm².
+Source: NCERT Class 8 Mathematics
+
+145. The curved surface area of a cylinder is 264 cm² and its volume is 924 cm³. Find its radius and height. (Take π = 22/7)
+(a) r = 7 cm, h = 6 cm (b) r = 6 cm, h = 7 cm (c) r = 14 cm, h = 3 cm (d) r = 7 cm, h = 12 cm
+Answer: (a)
+Solution: The trap is solving 2πrh = 264 alone and guessing dimensions without using the volume. Dividing volume by curved surface area: πr²h ÷ 2πrh = r/2 = 924/264 = 3.5, so r = 7 cm. Then 2 × (22/7) × 7 × h = 264 gives 44h = 264, h = 6 cm, so the answer is r = 7 cm, h = 6 cm.
+Source: PYQ-style
+
+146. Rainwater from a flat roof of 1.5 hectares collects in a tank 10 m long and 8 m wide. If 2 cm of rain falls, to what height does the water rise in the tank?
+(a) 3 m (b) 3.75 m (c) 4.25 m (d) 2.5 m
+Answer: (b)
+Solution: The trap is forgetting to convert hectares to m² or cm to m, which throws the answer off by powers of ten. Roof area = 1.5 × 10000 = 15000 m²; rain volume = 15000 × 0.02 = 300 m³. Height = 300 ÷ (10 × 8) = 3.75 m, so the answer is 3.75 m.
+Source: NCERT Class 10 Mathematics
+
+147. An ice-cream cone of base radius 3 cm and height 4 cm is filled with ice cream and topped with a hemispherical scoop of the same radius. Find the total volume of ice cream.
+(a) 24π cm³ (b) 30π cm³ (c) 36π cm³ (d) 42π cm³
+Answer: (b)
+Solution: The trap is using the full sphere volume (36π) for the scoop instead of a hemisphere. Cone volume = (1/3)π × 9 × 4 = 12π; hemisphere = (2/3)π × 27 = 18π. Total = 12π + 18π = 30π cm³, so the answer is 30π cm³.
+Source: NCERT Class 10 Mathematics
+
+148. An equilateral triangle has area 16√3 cm². Find the area of the circle inscribed in it.
+(a) 16π/3 cm² (b) 8π/3 cm² (c) 4π cm² (d) 32π/3 cm²
+Answer: (a)
+Solution: The trap is using the circumradius formula (a/√3) instead of the inradius (a/2√3). From (√3/4)a² = 16√3, a² = 64, so a = 8 cm. Inradius r = 8/(2√3) = 4/√3 cm. Circle area = π × 16/3 = 16π/3 cm², so the answer is 16π/3 cm².
+Source: PYQ-style
+
+149. Water flows at 10 m/s through a cylindrical pipe of internal radius 7 cm into a rectangular tank 11 m × 7 m × 2 m. How long will it take to fill the empty tank? (Take π = 22/7)
+(a) 500 seconds (b) 1000 seconds (c) 1500 seconds (d) 2000 seconds
+Answer: (b)
+Solution: The trap is using the radius as 7 m instead of converting 7 cm to 0.07 m, which inflates the flow rate by 10000 times. Flow per second = (22/7) × 0.07² × 10 = (22/7) × 0.049 = 0.154 m³/s. Tank volume = 11 × 7 × 2 = 154 m³. Time = 154 ÷ 0.154 = 1000 seconds, so the answer is 1000 seconds.
+Source: NCERT Class 10 Mathematics
+
+150. The largest possible right circular cone is carved out of a solid wooden cube of edge 14 cm. Find the volume of the cone. (Take π = 22/7)
+(a) 1078 cm³ (b) 4312/3 cm³ (c) 2156/3 cm³ (d) 2156 cm³
+Answer: (c)
+Solution: The trap is forgetting the 1/3 factor and answering 2156 cm³, which is the volume of the largest cylinder, not the cone. The cone has r = 7 cm and h = 14 cm. Volume = (1/3) × (22/7) × 49 × 14 = (1/3) × 2156 = 2156/3 cm³, so the answer is 2156/3 cm³.
+Source: NCERT Class 10 Mathematics

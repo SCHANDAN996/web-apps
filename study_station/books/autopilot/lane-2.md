@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 02:26 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:38 AM
+**आख़िरी update:** 10-10-2026 02:31 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:38 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Time Work (Graduation Maths) | ✍️ लिख रहा है | 3 मिनट |
-| W2 | Chapter 15 Geometry (Graduation Maths) | ✍️ लिख रहा है | 71 मिनट |
-| W3 | Chapter 14 Mensuration (Graduation Maths) | 🔎 review हो रहा है | 20 मिनट |
-| W4 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 13 मिनट |
-| W5 | Chapter 18 Quadratic Equations (Graduation Maths) | ✍️ लिख रहा है | 28 मिनट |
-| W6 | Chapter 17 Algebra (Graduation Maths) | ✍️ लिख रहा है | 50 मिनट |
-| W7 | Chapter 16 Coordinate Geometry (Graduation Maths) | ✍️ लिख रहा है | 66 मिनट |
-| W8 | Chapter 20 Heights Distances (Graduation Maths) | ✍️ लिख रहा है | 7 मिनट |
+| W1 | Chapter 11 Time Work (Graduation Maths) | ✍️ लिख रहा है | 8 मिनट |
+| W2 | Chapter 15 Geometry (Graduation Maths) | ✍️ लिख रहा है | 77 मिनट |
+| W3 | Chapter 14 Mensuration (Graduation Maths) | 📤 push हो रहा है | 0 मिनट |
+| W4 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 19 मिनट |
+| W5 | Chapter 18 Quadratic Equations (Graduation Maths) | ✍️ लिख रहा है | 33 मिनट |
+| W6 | Chapter 17 Algebra (Graduation Maths) | ✍️ लिख रहा है | 55 मिनट |
+| W7 | Chapter 16 Coordinate Geometry (Graduation Maths) | ✍️ लिख रहा है | 71 मिनट |
+| W8 | Chapter 20 Heights Distances (Graduation Maths) | ✍️ लिख रहा है | 12 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,6 +37,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 10-10 02:31 — Graduation Maths · Chapter 14 Mensuration
 - 10-10 02:18 — Graduation Maths · Chapter 10 Compound Interest
 - 10-10 01:57 — Graduation Maths · Chapter 12 Time Distance
 - 10-10 01:35 — Graduation Maths · Chapter 07 Ratio Proportion
@@ -56,21 +57,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 02:12:30 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_13_Mixture_Alligation after 32 min: todo ['Set 05 en: todo', 'Set 05 hi: todo'] problems ['Feynman_hi.txt: Hindi file is mostly not in Hindi']
-10-10 02:12:33 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_19_Trigonometry (TODO: todo 25, problems 0)
-10-10 02:12:48   [Quadratic_Equations] Mind_Map.txt try 2: rejected (no usable mermaid graph)
-10-10 02:12:48   [Quadratic_Equations] REJECTED Mind_Map.txt: no usable mermaid graph — not written
-10-10 02:13:11   [Quadratic_Equations] wrote Flashcards_en.txt (2899 chars)
-10-10 02:13:52   [Algebra] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-10-10 02:13:54   [Trigonometry] wrote Content_en.txt (8257 chars)
-10-10 02:14:11   [Time_Work] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-10-10 02:14:16   [Time_Work] Practice_en_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
-10-10 02:14:41   [Quadratic_Equations] Flashcards_hi.txt try 1: rejected (corrupted characters)
-10-10 02:15:33   [Compound_Interest] review Important_Formulas_en.txt: 3 issue(s): - Hint for "CI − SI via SI" says "using first-year SI" but the formula CI − SI = SI × R/200 is valid onl
-10-10 02:15:51   [Quadratic_Equations] wrote Flashcards_hi.txt (2762 chars)
-10-10 02:16:45   [Quadratic_Equations] wrote PYQ_en.txt (458 chars)
-10-10 02:17:03   [Time_Work] Practice_en_Set_06.txt try 2: rejected (Q126:leaked_reasoning,Q127:leaked_reasoning,Q129:leaked_reasoning,Q133:leaked_reasoning,Q135:leaked_reasoning)
-10-10 02:17:38   [Algebra] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 10-10 02:18:44   [Compound_Interest] review: 5 section(s) corrected, 0 failed
 10-10 02:18:44   [Compound_Interest] written 5, failed 0; AI calls today 334/100000
 10-10 02:19:03   [Time_Work] Practice_en_Set_06.txt try 3: rejected (parsed 0 questions, numbers -…-)
@@ -96,4 +82,19 @@
 10-10 02:25:29   [Coordinate_Geometry] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
 10-10 02:25:44   [Coordinate_Geometry] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
 10-10 02:26:06   [Heights_Distances] wrote Flashcards_en.txt (4068 chars)
+10-10 02:27:15   [Heights_Distances] wrote Flashcards_hi.txt (3291 chars)
+10-10 02:27:50   [Geometry] FAILED Practice_en_Set_04.txt: too_long
+10-10 02:27:50   [Geometry] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
+10-10 02:28:01   [Algebra] Practice_en_Set_04.txt try 3: rejected (Q94:leaked_reasoning,Q98:leaked_reasoning)
+10-10 02:28:33   [Coordinate_Geometry] Practice_en_Set_02.txt try 2: re-solve disagrees (Q49 key a vs re-solve ?)
+10-10 02:28:39   [Heights_Distances] wrote PYQ_en.txt (9020 chars)
+10-10 02:29:13   [Trigonometry] Content_hi.txt try 1: rejected (corrupted characters)
+10-10 02:29:53   [Algebra] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+10-10 02:30:36   [Mensuration] review Important_Formulas_hi.txt: 1 issue(s): - पथ (चारों ओर अंदर) का सूत्र केवल आंतरिक आयत का क्षेत्रफल देता है, पथ का नहीं → सही सूत्र: lb − (l−2w)(
+10-10 02:31:12   [Heights_Distances] wrote PYQ_hi.txt (8684 chars)
+10-10 02:31:24   [Algebra] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+10-10 02:31:27   [Trigonometry] wrote Content_hi.txt (6641 chars)
+10-10 02:31:42   [Coordinate_Geometry] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+10-10 02:31:46   [Mensuration] review: 2 section(s) corrected, 0 failed
+10-10 02:31:46   [Mensuration] written 2, failed 0; AI calls today 370/100000
 ```

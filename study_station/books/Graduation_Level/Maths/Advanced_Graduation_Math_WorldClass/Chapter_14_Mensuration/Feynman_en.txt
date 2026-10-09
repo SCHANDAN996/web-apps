@@ -1,0 +1,52 @@
+# Feynman Explains: Mensuration — The Pizza That Fooled Everyone
+
+## The Hardest Idea: Why Area and Perimeter Play Tricks on You
+
+Let me tell you about the day a pizza shop nearly tricked me.
+
+I walked in hungry and saw a deal: "One 12-inch pizza for ₹300, or TWO 6-inch pizzas for ₹300!" Two pizzas for the price of one? Obviously the better deal, right?
+
+Wrong. And here's why — this is the single hardest idea in mensuration, the one that fools even toppers in SSC CGL and CAT:
+
+**When a shape doubles in size, its area does NOT double. It becomes FOUR times bigger.**
+
+## The Pizza Math (Do It With Me)
+
+A "12-inch pizza" means the *diameter* is 12 inches, so the radius is 6 inches.
+
+- Area of the big pizza = π × 6² = **36π**
+- Area of one small pizza (radius 3) = π × 3² = **9π**
+- Two small pizzas = 18π
+
+So the "two pizzas" deal gives you only **half** the pizza of the single big one! The shop doubled the *number* of pizzas but halved the *size* — and area cares about size, not count.
+
+## Why Does This Happen? Think of a Square of Chocolate
+
+Imagine a chocolate bar that is 1 piece wide and 1 piece tall. That's 1 piece of chocolate.
+
+Now make it 2 wide and 2 tall. How many pieces? Not 2 — it's **4**! Because you grew in *two directions at once*: sideways AND upwards. Each direction multiplies.
+
+- Double the length → area × 2
+- Double the width too → area × 2 again
+- Total: 2 × 2 = **4 times**
+
+That's why every area formula has something *squared* or *two lengths multiplied*: πr², side², length × breadth, ½ × base × height. Area is always "length times length." Perimeter is just "length" — that's why doubling a square only doubles its perimeter but quadruples its area.
+
+## The Unforgettable Trick: "Area is a SQUARE deal" 🟦
+
+Whenever you see an area formula, ask: *"Where are my two lengths?"*
+
+- Circle: π × r × **r** — two radii hiding in there!
+- Rectangle: length × breadth — obvious two.
+- Triangle: ½ × base × height — two again.
+- Volume? **Three** lengths: l × b × h. That's why doubling a cube's side makes volume **8 times** bigger (2×2×2).
+
+**Memory hook:** *"Perimeter walks in a line (×2), Area dances on a floor (×4), Volume fills a room (×8)."* Line–Floor–Room: 2, 4, 8.
+
+## One More Feynman Secret: Units Are Your Lie Detector
+
+If your answer for an area comes out in "cm" instead of "cm²", you made a mistake — you forgot to multiply two lengths. Units never lie. In the exam, this 2-second check catches silly errors before they cost you marks.
+
+## Now You Try 🤔
+
+A circular garden has a path around it. If you **double** the radius of a circular pond, the water surface becomes 4 times bigger. So here's your question: *If a cube's edge is tripled, how many times bigger does its volume become — and can you guess the answer using the Line–Floor–Room trick before calculating?*

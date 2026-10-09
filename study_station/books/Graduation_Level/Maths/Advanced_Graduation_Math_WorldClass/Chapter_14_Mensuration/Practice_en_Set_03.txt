@@ -1,0 +1,151 @@
+प्रश्न 51–70: आसान | प्रश्न 71–75: मध्यम
+
+51. The area of a triangle whose sides are 13 cm, 14 cm and 15 cm is:
+(a) 72 cm² (b) 96 cm² (c) 84 cm² (d) 90 cm²
+Answer: (c)
+Solution: The tempting wrong option 96 comes from taking base 16 and height 12, but 16 is not a side here. Using Heron's formula, s = (13+14+15)/2 = 21, so area = √[21×8×7×6] = √7056 = 84 cm². So the answer is 84 cm².
+Source: NCERT Class 9 Mathematics
+
+52. A circular wire of radius 42 cm is bent into a rectangle whose sides are in the ratio 6 : 5. The length of the rectangle is:
+(a) 78 cm (b) 60 cm (c) 66 cm (d) 72 cm
+Answer: (d)
+Solution: The trap option 60 comes from using the diameter instead of the full circumference. Circumference = 2×(22/7)×42 = 264 cm = perimeter of rectangle. So 2(6x+5x) = 264, giving x = 12, and length = 6×12 = 72 cm. So the answer is 72 cm.
+Source: PYQ-style
+
+53. The area of a rhombus is 216 cm² and one of its diagonals is 24 cm. The length of each side of the rhombus is:
+(a) 20 cm (b) 18 cm (c) 12 cm (d) 15 cm
+Answer: (d)
+Solution: The trap option 12 comes from treating the other diagonal (18 cm) as the side. Other diagonal = 2×216/24 = 18 cm. Side = √[(24/2)² + (18/2)²] = √(144+81) = √225 = 15 cm. So the answer is 15 cm.
+Source: NCERT Class 8 Mathematics
+
+54. A cylinder and a cone have the same base radius and the same height. If the volume of the cone is 154 cm³, the volume of the cylinder is:
+(a) 154 cm³ (b) 462 cm³ (c) 308 cm³ (d) 616 cm³
+Answer: (b)
+Solution: The trap option 308 doubles the cone's volume, but the cylinder is three times, not twice, the cone of the same base and height. Volume of cylinder = 3 × 154 = 462 cm³. So the answer is 462 cm³.
+Source: NCERT Class 9 Mathematics
+
+55. The wheel of a car has radius 35 cm. How many revolutions does it make to cover 11 km?
+(a) 6000 (b) 5500 (c) 4400 (d) 5000
+Answer: (d)
+Solution: The trap option 5500 comes from using diameter in the circumference formula. Circumference = 2×(22/7)×35 = 220 cm = 2.2 m. Revolutions = 11000/2.2 = 5000. So the answer is 5000.
+Source: NCERT Class 7 Mathematics
+
+56. The length, breadth and height of a cuboid are in the ratio 5 : 4 : 2 and its total surface area is 1216 cm². Its volume is:
+(a) 2560 cm³ (b) 1920 cm³ (c) 2880 cm³ (d) 3200 cm³
+Answer: (a)
+Solution: The trap option 1920 comes from solving with a wrong value of x. TSA = 2(5x·4x + 4x·2x + 2x·5x) = 2(20+8+10)x² = 76x² = 1216, so x² = 16 and x = 4. The dimensions are 20, 16 and 8 cm, giving volume = 20×16×8 = 2560 cm³. So the answer is 2560 cm³.
+Source: PYQ-style
+
+57. A trapezium has parallel sides 18 cm and 12 cm, and the distance between them is 10 cm. Its area is:
+(a) 180 cm² (b) 300 cm² (c) 150 cm² (d) 120 cm²
+Answer: (c)
+Solution: The trap option 300 comes from forgetting the factor 1/2 in the formula. Area = (1/2)×(18+12)×10 = (1/2)×30×10 = 150 cm². So the answer is 150 cm².
+Source: NCERT Class 8 Mathematics
+
+58. The radius of a sphere is doubled. The ratio of the new volume to the original volume is:
+(a) 4 : 1 (b) 6 : 1 (c) 2 : 1 (d) 8 : 1
+Answer: (d)
+Solution: The trap option 4 : 1 applies the surface-area scaling (square law) instead of the volume scaling. Volume varies as the cube of the radius, so the ratio is 2³ : 1 = 8 : 1. So the answer is 8 : 1.
+Source: NCERT Class 9 Mathematics
+
+59. A rectangular plot 60 m × 40 m has two cross-paths each 4 m wide running through the middle, one along the length and one along the breadth. The area of the paths is:
+(a) 400 m² (b) 384 m² (c) 416 m² (d) 368 m²
+Answer: (b)
+Solution: The trap option 400 adds the two path areas (240 + 160) but counts the central 4×4 square twice. Correct area = 240 + 160 − 16 = 384 m². So the answer is 384 m².
+Source: PYQ-style
+
+60. The slant height of a cone is 25 cm and its base radius is 7 cm. Its total surface area is:
+(a) 858 cm² (b) 704 cm² (c) 704.5 cm² (d) 550 cm²
+Answer: (b)
+Solution: The trap option 550 gives only the curved surface area (πrl = 22/7×7×25 = 550), forgetting the base. TSA = πr(l+r) = (22/7)×7×32 = 704 cm². So the answer is 704 cm².
+Source: NCERT Class 9 Mathematics
+
+61. The area of a square field is 196 m². The area of the largest circle that can be drawn inside it is (take π = 22/7):
+(a) 154 m² (b) 308 m² (c) 77 m² (d) 616 m²
+Answer: (a)
+Solution: The trap option 308 uses the side of the square as the radius instead of half the side. Side of square = √196 = 14 m, so the inscribed circle's radius = 7 m. Area = (22/7)×7×7 = 154 m². So the answer is 154 m².
+Source: NCERT Class 7 Mathematics
+
+62. A solid metallic sphere of radius 6 cm is melted and recast into a cylinder of radius 4 cm. The height of the cylinder is:
+(a) 12 cm (b) 18 cm (c) 24 cm (d) 16 cm
+Answer: (b)
+Solution: The trap option 12 comes from equating surface areas instead of volumes. Volume of sphere = (4/3)π×216 = 288π; cylinder volume = π×16×h = 288π, so h = 18 cm. So the answer is 18 cm.
+Source: NCERT Class 10 Mathematics
+
+63. The perimeter of a semicircular protractor is 36 cm. Its radius is (take π = 22/7):
+(a) 7 cm (b) 14 cm (c) 10.5 cm (d) 6 cm
+Answer: (a)
+Solution: The trap option 14 comes from doubling the correct radius, confusing it with the diameter. Perimeter of semicircle = πr + 2r = r(22/7 + 2) = 36r/7 = 36, so r = 7 cm. So the answer is 7 cm.
+Source: NCERT Class 10 Mathematics
+
+64. The diagonal of a cube is 6√3 cm. Its total surface area is:
+(a) 144 cm² (b) 108 cm² (c) 216 cm² (d) 324 cm²
+Answer: (c)
+Solution: The trap option 108 comes from halving the correct area without reason. Diagonal = a√3 = 6√3, so a = 6 cm. TSA = 6×36 = 216 cm². So the answer is 216 cm².
+Source: NCERT Class 9 Mathematics
+
+65. A sector of a circle of radius 14 cm has a central angle of 90°. The area of the sector is:
+(a) 616 cm² (b) 154 cm² (c) 308 cm² (d) 77 cm²
+Answer: (b)
+Solution: The trap option 616 is the full circle's area, ignoring the 90° fraction. Sector area = (90/360)×(22/7)×14×14 = (1/4)×616 = 154 cm². So the answer is 154 cm².
+Source: NCERT Class 10 Mathematics
+
+66. The ratio of the volumes of two cubes is 27 : 64. The ratio of their total surface areas is:
+(a) 9 : 16 (b) 3 : 4 (c) 27 : 64 (d) 81 : 256
+Answer: (a)
+Solution: The trap option 3 : 4 takes the cube-root ratio and stops, but surface area scales as the square of the side. Sides are in ratio 3 : 4, so surface areas are in ratio 9 : 16. So the answer is 9 : 16.
+Source: PYQ-style
+
+67. A field in the shape of a parallelogram has base 25 m and the corresponding altitude 16 m. Its area equals the area of a square whose side is:
+(a) 20 m (b) 25 m (c) 16 m (d) 22 m
+Answer: (a)
+Solution: The trap option 25 simply copies the base. Area of parallelogram = 25×16 = 400 m², so the square's side = √400 = 20 m. So the answer is 20 m.
+Source: NCERT Class 8 Mathematics
+
+68. A hemispherical bowl has internal radius 9 cm. It is full of liquid which is poured into cylindrical bottles of radius 3 cm and height 4 cm. The number of bottles filled is:
+(a) 14 (b) 15 (c) 12 (d) 13
+Answer: (d)
+Solution: The trap option 14 comes from rounding up 13.5, but only fully filled bottles count. Bowl volume = (2/3)π×729 = 486π; bottle volume = π×9×4 = 36π; 486/36 = 13.5, so 13 full bottles. So the answer is 13.
+Source: NCERT Class 10 Mathematics
+
+69. The length of a rectangle is increased by 20% and its breadth is decreased by 20%. The percentage change in its area is:
+(a) no change (b) 4% increase (c) 4% decrease (d) 2% decrease
+Answer: (c)
+Solution: The trap option "no change" assumes the equal percentages cancel, but they act on different bases. Net change = 20 − 20 − (20×20)/100 = −4%, i.e., a 4% decrease. So the answer is 4% decrease.
+Source: PYQ-style
+
+70. The area of an equilateral triangle is 16√3 cm². Its perimeter is:
+(a) 32 cm (b) 16 cm (c) 24 cm (d) 12 cm
+Answer: (c)
+Solution: The trap option 16 confuses the area's coefficient with the side. (√3/4)a² = 16√3 gives a² = 64, a = 8 cm, so perimeter = 3×8 = 24 cm. So the answer is 24 cm.
+Source: NCERT Class 9 Mathematics
+
+71. A right circular cylinder has volume 616 cm³ and height 4 cm. Its curved surface area is (take π = 22/7):
+(a) 176 cm² (b) 154 cm² (c) 308 cm² (d) 352 cm²
+Answer: (a)
+Solution: The trap option 308 is the total surface area, not the curved part. πr²h = 616 gives r² = 616×7/(22×4) = 49, so r = 7 cm. CSA = 2πrh = 2×(22/7)×7×4 = 176 cm². So the answer is 176 cm².
+Source: NCERT Class 9 Mathematics
+
+72. The diagonals of a rhombus are 16 cm and 30 cm. Its perimeter is:
+(a) 46 cm (b) 34 cm (c) 92 cm (d) 68 cm
+Answer: (d)
+Solution: The trap option 34 is just one side, not the perimeter. Half-diagonals are 8 and 15, so side = √(64+225) = 17 cm, and perimeter = 4×17 = 68 cm. So the answer is 68 cm.
+Source: NCERT Class 8 Mathematics
+
+73. A cone of height 24 cm and base radius 7 cm is reshaped into a sphere. The radius of the sphere is:
+(a) 14 cm (b) 7 cm (c) ∛294 cm (d) ∛98 cm
+Answer: (c)
+Solution: The trap option 7 cm assumes the radius stays the same, ignoring the height. Cone volume = (1/3)π×49×24 = 392π. Setting (4/3)πR³ = 392π gives R³ = 294, so R = ∛294 cm. So the answer is ∛294 cm.
+Source: NCERT Class 10 Mathematics
+
+74. A path 2 m wide runs around the outside of a square garden of side 20 m. The area of the path is:
+(a) 160 m² (b) 176 m² (c) 144 m² (d) 200 m²
+Answer: (b)
+Solution: The trap option 160 computes 4×20×2 but misses the four corner squares. Outer side = 24 m, so path area = 24² − 20² = 576 − 400 = 176 m². So the answer is 176 m².
+Source: PYQ-style
+
+75. The curved surface area of a cone is 550 cm² and its slant height is 25 cm. The volume of the cone is (take π = 22/7):
+(a) 1232 cm³ (b) 1078 cm³ (c) 1540 cm³ (d) 1386 cm³
+Answer: (a)
+Solution: The trap option 1078 comes from using the slant height 25 as the vertical height in the volume formula. πrl = 550 gives r = 550×7/(22×25) = 7 cm; height = √(625−49) = 24 cm. Volume = (1/3)×(22/7)×49×24 = 1232 cm³. So the answer is 1232 cm³.
+Source: NCERT Class 9 Mathematics
