@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 09-10-2026 09:15 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
+**आख़िरी update:** 09-10-2026 09:28 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Time Work (10th Maths) | 🔎 review हो रहा है | 31 मिनट |
-| W4 | Chapter 16 Algebra (10th Maths) | 🔎 review हो रहा है | 3 मिनट |
-| W5 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 105 मिनट |
-| W7 | Chapter 14 Mensuration (10th Maths) | 🔎 review हो रहा है | 21 मिनट |
-| W8 | Chapter 15 Geometry (10th Maths) | 🔎 review हो रहा है | 29 मिनट |
+| W1 | Chapter 11 Time Work (10th Maths) | 🔎 review हो रहा है | 43 मिनट |
+| W4 | Chapter 16 Algebra (10th Maths) | 🔎 review हो रहा है | 16 मिनट |
+| W5 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 4 मिनट |
+| W7 | Chapter 14 Mensuration (10th Maths) | 📤 push हो रहा है | 0 मिनट |
+| W8 | Chapter 15 Geometry (10th Maths) | 🔎 review हो रहा है | 41 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,6 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 21:28 — 10th Maths · Chapter 14 Mensuration
 - 09-10 21:07 — 10th English · Chapter 20 Sentence Improvement Basic
 - 09-10 21:03 — 10th Maths · Chapter 12 Time Distance
 - 09-10 20:54 — 10th Maths · Chapter 10 Compound Interest
@@ -60,16 +61,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 20:49:14   [Algebra] repaired set 04 (en + hi, key confirmed by an independent re-solve)
-09-10 20:49:57   [Time_Distance] review PYQ_en.txt: 3 issue(s): - Chat line "Here is what the data screams:" → Remove the chat line.
-09-10 20:50:17   [Geometry] review Content_hi.txt: 1 issue(s): - The claim “परीक्षाओं के 35% से अधिक ज्यामिति प्रश्नों में त्रिभुज आते हैं” is an invented exam statistic → Replac
-09-10 20:50:20   [Mixture_Alligation] Practice_hi_Set_05.txt try 2: rejected (parsed 24 questions, numbers 101…125)
-09-10 20:51:19   [Compound_Interest] review Short_Tricks_en.txt: 1 issue(s): - Box 6 effective rate formula uses R as a decimal while all other boxes treat R as a percentage → Effective r
-09-10 20:52:53   [Compound_Interest] review Short_Tricks_hi.txt: 1 issue(s): - बॉक्स 6 में प्रभावी दर का सूत्र गलत है: "(1 + R/n)^n – 1" लिखा है जबकि R प्रतिशत में है; सही सूत्र है "(1 + 
-09-10 20:54:12   [Compound_Interest] review: 7 section(s) corrected, 0 failed
-09-10 20:54:12   [Compound_Interest] written 7, failed 0; AI calls today 816/100000
-09-10 20:54:15   [Time_Distance] review PYQ_hi.txt: 1 issue(s): - The PYQ analysis table lists invented weightage percentages (35%, 25%, 15%, 90%, 10%, 10%, 5%) with no source → Delet
-09-10 20:54:29   [Sentence_Improvement_Basic] review Flashcards_en.txt: 1 issue(s): - Card 3: 'Like' is listed as a verb always followed by a gerund, but it can also take an infinitive (e.g., 'I l
 09-10 20:54:32 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_10_Compound_Interest in 101 min → 4edb14bf
 09-10 20:54:32 worker 1: nothing left
 09-10 20:54:34   [Mensuration] repaired set 03 (en + hi, key confirmed by an independent re-solve)
@@ -100,4 +91,14 @@
 09-10 21:12:01   [Algebra] repaired set 06 (en + hi, key confirmed by an independent re-solve)
 09-10 21:12:01   [Algebra] written 6, failed 0; AI calls today 862/100000
 09-10 21:15:45   [Algebra] review Content_en.txt: 2 issue(s): - Invented exam weightage claim "20–25% of questions arise directly from this way of thinking" → Remove the specifi
+09-10 21:21:23   [Time_Work] review PYQ_en.txt: 4 issue(s): - The introductory claim "Time and Work consistently contributes 4 to 6 questions per exam" is an invented exam statist
+09-10 21:22:48   [Algebra] review Content_hi.txt: 2 issue(s): - Claim that “20-25% सवाल पूछे जाते हैं” in SSC, Bank, Railway exams from algebra is an invented statistic without 
+09-10 21:23:57   [Mixture_Alligation] repaired set 06 (en + hi, key confirmed by an independent re-solve)
+09-10 21:23:57   [Mixture_Alligation] written 9, failed 3; AI calls today 873/100000
+09-10 21:25:58   [Time_Work] review PYQ_hi.txt: 3 issue(s): - Invented exam statistics: claim "हर परीक्षा में लगातार 4 से 6 प्रश्न" and difficulty distribution "40% आसान, 40% मध्य
+09-10 21:26:09   [Mixture_Alligation] REJECTED PYQ_en.txt: corrupted characters — not written
+09-10 21:26:19   [Geometry] FAILED review PYQ_hi.txt: too_long — the chapter must not be published unreviewed
+09-10 21:27:54   [Algebra] review Mind_Map.txt: 1 issue(s): - I3: a² − b² = a+b × a−b (missing parentheses, wrong order of operations) → a² − b² = (a+b)(a−b)
+09-10 21:28:08   [Mensuration] review: 2 section(s) corrected, 0 failed
+09-10 21:28:09   [Mensuration] written 2, failed 0; AI calls today 884/100000
 ```
