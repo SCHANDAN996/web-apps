@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 05:16 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:46 PM
+**आख़िरी update:** 09-10-2026 05:21 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:46 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 27 Budget Economic Survey (Graduation GK) | 🔎 review हो रहा है | 15 मिनट |
-| W2 | Chapter 28 Advanced Science Tech (Graduation GK) | ✍️ लिख रहा है | 113 मिनट |
-| W3 | Chapter 26 Advanced Polity (Graduation GK) | ✍️ लिख रहा है | 153 मिनट |
-| W4 | Chapter 29 Environment Conventions (Graduation GK) | ✍️ लिख रहा है | 63 मिनट |
-| W5 | Chapter 25 Govt Schemes (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 27 Budget Economic Survey (Graduation GK) | 🔎 review हो रहा है | 20 मिनट |
+| W2 | Chapter 28 Advanced Science Tech (Graduation GK) | ✍️ लिख रहा है | 118 मिनट |
+| W3 | Chapter 26 Advanced Polity (Graduation GK) | ✍️ लिख रहा है | 158 मिनट |
+| W4 | Chapter 29 Environment Conventions (Graduation GK) | ✍️ लिख रहा है | 68 मिनट |
+| W5 | Chapter 01 Number System Advanced (Graduation Maths) | ✍️ लिख रहा है | 4 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -21,7 +21,7 @@
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 9 | 13 | 0 |
-| 10th English | 3 | 0 | 17 |
+| 10th English | 5 | 0 | 15 |
 | 12th Maths | 0 | 0 | 23 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 3 | 0 | 22 |
@@ -30,7 +30,7 @@
 | Graduation GK | 24 | 1 | 3 |
 | Graduation Reasoning | 8 | 0 | 22 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **162** | **14** | **120** |
+| **कुल** | **164** | **14** | **118** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -42,17 +42,11 @@
 
 - Chapter 22 Defence (GK) — 2 बार
 - Chapter 13 Awards (GK) — 2 बार
-- Chapter 25 Govt Schemes (GK) — 1 बार
 - Chapter 27 Budget Economic Survey (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 16:42:35   [Govt_Schemes] review Feynman_en.txt: 1 issue(s): - The text states there are 3 Himalayan states (Uttarakhand, Himachal Pradesh, Jammu & Kashmir) for the 90:10 CSS f
-09-10 16:43:52   [Environment_Conventions] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 16:44:10   [Budget_Economic_Survey] Practice_en_Set_06.txt try 1: re-solve disagrees (Q127 key c vs re-solve b, Q131 key c vs re-solve a, Q140 key c vs re-solve a)
-09-10 16:44:46   [Govt_Schemes] review Feynman_hi.txt: 2 issue(s): - मनरेगा (मजदूरी हिस्सा) को 60:40 फंडिंग वाली केंद्र प्रायोजित योजना बताया गया है → मनरेगा का मजदूरी घटक 100% केंद्
-09-10 16:46:34   [Environment_Conventions] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 09-10 16:47:46   [Budget_Economic_Survey] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 09-10 16:49:37   [Environment_Conventions] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 09-10 16:50:11   [Environment_Conventions] Practice_hi_Set_02.txt try 1: rejected (parsed 1 questions, numbers 26…26)
@@ -88,4 +82,9 @@
 09-10 17:15:35   [Advanced_Science_Tech] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 09-10 17:16:18   [Govt_Schemes] review: 6 section(s) corrected, 0 failed
 09-10 17:16:18   [Govt_Schemes] written 6, failed 0; AI calls today 344/100000
+09-10 17:16:35 DONE Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_25_Govt_Schemes in 92 min → a16b6944
+09-10 17:16:37 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_01_Number_System_Advanced (TODO: todo 25, problems 0)
+09-10 17:18:38   [Number_System_Advanced] wrote Content_en.txt (10550 chars)
+09-10 17:18:40   [Advanced_Polity] Practice_en_Set_06.txt try 1: re-solve disagrees (Q130 key d vs re-solve a)
+09-10 17:19:58   [Budget_Economic_Survey] review Key_Facts_en.txt: 2 issue(s): - Contingency Fund (Part 1) enhancement year given as 2023 → should be 2021 (Contingency Fund of India (Amendment
 ```
