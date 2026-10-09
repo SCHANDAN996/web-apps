@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 06:47 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 06:49 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 14 Sports (12th GK) | ✍️ लिख रहा है | 31 मिनट |
-| W2 | Chapter 12 Biology (12th GK) | ✍️ लिख रहा है | 65 मिनट |
-| W3 | Chapter 10 Physics Daily (12th GK) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 13 Awards (12th GK) | ✍️ लिख रहा है | 35 मिनट |
-| W5 | Chapter 15 Days Dates (12th GK) | ✍️ लिख रहा है | 20 मिनट |
+| W1 | Chapter 14 Sports (12th GK) | ✍️ लिख रहा है | 32 मिनट |
+| W2 | Chapter 12 Biology (12th GK) | ✍️ लिख रहा है | 66 मिनट |
+| W3 | Chapter 16 Books Authors (12th GK) | ✍️ लिख रहा है | 1 मिनट |
+| W4 | Chapter 13 Awards (12th GK) | ✍️ लिख रहा है | 36 मिनट |
+| W5 | Chapter 15 Days Dates (12th GK) | ✍️ लिख रहा है | 22 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -46,13 +46,10 @@
 
 - Chapter 03 Modern History (GK) — 2 बार
 - Chapter 07 States Rivers (GK) — 2 बार
-- Chapter 10 Physics Daily (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 06:31:01   [Days_Dates] wrote Content_hi.txt (9043 chars)
-09-10 06:31:22   [Biology] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 09-10 06:31:37   [Biology] Practice_en_Set_02.txt try 1: rejected (parsed 3 questions, numbers 26…28)
 09-10 06:31:59   [Sports] wrote PYQ_hi.txt (7947 chars)
 09-10 06:32:00   [Days_Dates] wrote Key_Facts_en.txt (7970 chars)
@@ -91,4 +88,6 @@
 09-10 06:47:54   [Biology] Practice_hi_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
 09-10 06:47:57   [Physics_Daily] review: 7 section(s) corrected, 0 failed
 09-10 06:47:57   [Physics_Daily] written 7, failed 0; AI calls today 463/100000
+09-10 06:48:10 DONE 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_10_Physics_Daily in 59 min → c431913e
+09-10 06:48:11 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_16_Books_Authors (TODO: todo 25, problems 0)
 ```
