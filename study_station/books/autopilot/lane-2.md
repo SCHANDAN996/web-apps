@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 10:13 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 10:19 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 16 Books Authors (Graduation GK) | 🔎 review हो रहा है | 10 मिनट |
-| W2 | Chapter 18 Science Tech (Graduation GK) | ✍️ लिख रहा है | 1 मिनट |
-| W3 | Chapter 13 Awards (Graduation GK) | 🔎 review हो रहा है | 54 मिनट |
-| W4 | Chapter 17 Culture Art (Graduation GK) | ✍️ लिख रहा है | 54 मिनट |
-| W5 | Chapter 15 Days Dates (Graduation GK) | 🔎 review हो रहा है | 6 मिनट |
+| W1 | Chapter 16 Books Authors (Graduation GK) | 🔎 review हो रहा है | 15 मिनट |
+| W2 | Chapter 18 Science Tech (Graduation GK) | ✍️ लिख रहा है | 6 मिनट |
+| W3 | Chapter 13 Awards (Graduation GK) | 🔎 review हो रहा है | 59 मिनट |
+| W4 | Chapter 17 Culture Art (Graduation GK) | ✍️ लिख रहा है | 59 मिनट |
+| W5 | Chapter 15 Days Dates (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,6 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 10:19 — Graduation GK · Chapter 15 Days Dates
 - 09-10 10:12 — Graduation GK · Chapter 14 Sports
 - 09-10 09:19 — Graduation GK · Chapter 11 Chemistry
 - 09-10 09:10 — Graduation GK · Chapter 08 World Geography
@@ -49,16 +50,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 09:50:39   [Days_Dates] REJECTED review fix Key_Facts_en.txt: corrupted characters
-09-10 09:50:55   [Culture_Art] wrote Feynman_hi.txt (3409 chars)
-09-10 09:51:00   [Sports] review Key_Facts_hi.txt: 1 issue(s): - पियरे द कूबर्टिन → पियरे दे कूबर्टिन
-09-10 09:51:06   [Books_Authors] Practice_en_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 09:51:44   [Culture_Art] wrote Mind_Map.txt (3253 chars)
-09-10 09:52:34   [Culture_Art] wrote Flashcards_en.txt (5260 chars)
-09-10 09:52:56   [Days_Dates] review Feynman_en.txt: 1 issue(s): - The section states "World Leprosy Day ... is observed on the last Sunday of January (in India, 30 January, Gandhi
-09-10 09:53:00   [Days_Dates] REJECTED review fix Feynman_en.txt: too short
-09-10 09:54:04   [Sports] review Feynman_hi.txt: 1 issue(s): - राष्ट्रमंडल गेम्स में भाग लेने वाले देशों का विवरण गलत है: यह केवल पूर्व ब्रिटिश उपनिवेशों तक सीमित नहीं है, बल्क
-09-10 09:55:15   [Awards] review Feynman_en.txt: 1 issue(s): - "max 3 per year" for Bharat Ratna is outdated → the limit was increased to 5 per year by the 2024 amendment to th
 09-10 09:55:45   [Books_Authors] Practice_en_Set_06.txt try 2: re-solve disagrees (Q126 key a vs re-solve b)
 09-10 09:56:38   [Sports] review Mind_Map.txt: 1 issue(s): - C1a: First Indian Olympic Games year given as 1925 → Correct year is 1924 (first edition held in Lahore in 1924)
 09-10 09:57:50   [Sports] review Flashcards_en.txt: 1 issue(s): - Card 20: The explanation says the marathon distance was standardized "so the race could finish in front of the
@@ -89,4 +80,14 @@
 09-10 10:12:15 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_18_Science_Tech (TODO: todo 25, problems 0)
 09-10 10:12:51   [Culture_Art] wrote Memory_Hooks_hi.txt (4776 chars)
 09-10 10:13:17   [Awards] review Mind_Map.txt: 2 issue(s): - ज्ञानपीठ पुरस्कार (1965) → ज्ञानपीठ पुरस्कार (1961) [स्थापना वर्ष 1961; पहला पुरस्कार 1965 में दिया गया]
+09-10 10:13:58   [Days_Dates] review Key_Facts_en.txt: 1 issue(s): - 9 May listed as Rabindranath Tagore Jayanti → Tagore Jayanti is observed on 7 May (or 8 May per Bengali calenda
+09-10 10:15:39   [Science_Tech] Content_en.txt try 1: rejected (chat debris "Here is the")
+09-10 10:15:43   [Awards] review Flashcards_en.txt: 1 issue(s): - Card 12: Indira Gandhi's Bharat Ratna year given as 1972 → 1971
+09-10 10:16:38   [Culture_Art] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 10:17:01   [Books_Authors] review Key_Facts_hi.txt: 3 issue(s): - मेघदूतम् को 'संस्कृत महाकाव्य' बताया गया है → यह कालिदास का 'खण्डकाव्य' (लघु काव्य) है, महाकाव्य नहीं
+09-10 10:18:21   [Awards] review Flashcards_hi.txt: 2 issue(s): - Card 5: The answer claims Mother Teresa (1980) is the only foreign woman to receive Bharat Ratna posthumously 
+09-10 10:18:41   [Days_Dates] review Feynman_en.txt: 2 issue(s): - Table header "Floating Day" mislabels fixed days (National Safe Motherhood Day, World Thalassemia Day, Engineer's
+09-10 10:19:01   [Science_Tech] wrote Content_en.txt (13048 chars)
+09-10 10:19:10   [Days_Dates] review: 2 section(s) corrected, 0 failed
+09-10 10:19:10   [Days_Dates] written 2, failed 0; AI calls today 229/100000
 ```
