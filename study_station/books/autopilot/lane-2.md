@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 11:55 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 11:59 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Defence (Graduation GK) | ✍️ लिख रहा है | 69 मिनट |
-| W2 | Chapter 18 Science Tech (Graduation GK) | 🔎 review हो रहा है | 8 मिनट |
-| W3 | Chapter 21 International Orgs (Graduation GK) | ✍️ लिख रहा है | 82 मिनट |
-| W4 | Chapter 17 Culture Art (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
-| W5 | Chapter 19 Environment (Graduation GK) | ✍️ लिख रहा है | 96 मिनट |
+| W1 | Chapter 22 Defence (Graduation GK) | ✍️ लिख रहा है | 73 मिनट |
+| W2 | Chapter 18 Science Tech (Graduation GK) | 🔎 review हो रहा है | 12 मिनट |
+| W3 | Chapter 21 International Orgs (Graduation GK) | ✍️ लिख रहा है | 86 मिनट |
+| W4 | Chapter 23 Economic Terms (Graduation GK) | ✍️ लिख रहा है | 3 मिनट |
+| W5 | Chapter 19 Environment (Graduation GK) | ✍️ लिख रहा है | 100 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -48,17 +48,10 @@
 
 - Chapter 13 Awards (GK) — 2 बार
 - Chapter 18 Science Tech (GK) — 1 बार
-- Chapter 17 Culture Art (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 11:37:12   [Defence] REJECTED Practice_hi_Set_01.txt: no translation passed the checks — not written
-09-10 11:37:34   [Environment] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 11:37:41   [International_Orgs] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-09-10 11:38:19   [Culture_Art] review Flashcards_hi.txt: 2 issue(s): - Lalit Kala Akademi establishment year given as 1954 → correct year is 1955
-09-10 11:39:33   [Science_Tech] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 11:41:06   [Defence] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 09-10 11:41:18   [Environment] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 09-10 11:41:22   [International_Orgs] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 09-10 11:42:11   [Culture_Art] review PYQ_en.txt: 1 issue(s): - In Trap 2, the answer line states "Answer: 3 → 1 → 2" but the solution correctly explains the chronological order as 
@@ -93,4 +86,10 @@
 09-10 11:55:29   [Environment] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 09-10 11:55:50   [Culture_Art] review: 1 section(s) corrected, 0 failed
 09-10 11:55:50   [Culture_Art] written 1, failed 0; AI calls today 417/100000
+09-10 11:56:03 DONE Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_17_Culture_Art in 3 min → 012108f3
+09-10 11:56:04 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_23_Economic_Terms (TODO: todo 25, problems 0)
+09-10 11:56:35   [Defence] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 11:57:07   [Defence] Practice_hi_Set_04.txt try 1: rejected (parsed 1 questions, numbers 76…76)
+09-10 11:58:22   [Defence] Practice_hi_Set_04.txt try 2: rejected (parsed 0 questions, numbers -…-)
+09-10 11:59:42   [Environment] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 ```
