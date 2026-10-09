@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 01:17 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 01:32 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 06 Order Ranking (12th Reasoning) | ✍️ लिख रहा है | 95 मिनट |
-| W2 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 107 मिनट |
-| W3 | Chapter 04 Blood Relations (12th Reasoning) | ✍️ लिख रहा है | 109 मिनट |
-| W4 | Chapter 03 Coding Decoding (12th Reasoning) | ✍️ लिख रहा है | 154 मिनट |
+| W1 | Chapter 06 Order Ranking (12th Reasoning) | ✍️ लिख रहा है | 111 मिनट |
+| W2 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 123 मिनट |
+| W3 | Chapter 04 Blood Relations (12th Reasoning) | ✍️ लिख रहा है | 124 मिनट |
+| W4 | Chapter 03 Coding Decoding (12th Reasoning) | ✍️ लिख रहा है | 169 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -48,15 +48,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 12:27:24   [Direction_Sense] wrote Important_Rules_hi.txt (3414 chars)
-09-10 12:27:28   [Coding_Decoding] Practice_en_Set_04.txt try 1: rejected (Q98:leaked_reasoning,Q85:duplicate_options)
-09-10 12:28:51   [Order_Ranking] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-09-10 12:30:00   [Direction_Sense] Practice_en_Set_01.txt try 1: rejected (Q4:leaked_reasoning,Q7:leaked_reasoning,Q10:leaked_reasoning,Q13:leaked_reasoning,Q23:leaked_reasoning)
-09-10 12:31:49   [Classification] review Flashcards_hi.txt: 2 issue(s): - Card 10 explanation claims that in the series CE, FH, IK, LN “अन्य सभी में पहला अक्षर विषम स्थान पर है” — this
-09-10 12:35:41   [Order_Ranking] Practice_hi_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 12:38:40   [Classification] review PYQ_en.txt: 2 issue(s): - Q6 solution: The explanation claims the odd-one-out pattern is "starting from an odd letter" for CE, KM, PR, but PR s
-09-10 12:39:04   [Order_Ranking] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-09-10 12:39:09   [Order_Ranking] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
 09-10 12:41:51   [Blood_Relations] FAILED Important_Rules_hi.txt: too_long
 09-10 12:43:35   [Blood_Relations] Practice_en_Set_01.txt try 1: rejected (Q12:leaked_reasoning,Q21:leaked_reasoning)
 09-10 12:45:06   [Classification] review PYQ_hi.txt: 1 issue(s): - In Question 3 explanation, it is incorrectly stated that the first letter position 16 (P) is odd (विषम स्थान) → 16 is
@@ -88,4 +79,13 @@
 09-10 13:08:49   [Coding_Decoding] Practice_en_Set_05.txt try 1: rejected (Q109:leaked_reasoning,Q121:leaked_reasoning,Q119:duplicate_options)
 09-10 13:13:02   [Order_Ranking] Practice_en_Set_04.txt try 1: re-solve disagrees (Q82 key b vs re-solve d, Q94 key c vs re-solve a)
 09-10 13:17:06   [Blood_Relations] Practice_en_Set_02.txt try 2: re-solve disagrees (Q27 key a vs re-solve c, Q37 key d vs re-solve a)
+09-10 13:17:18   [Direction_Sense] Practice_en_Set_02.txt try 4: re-solve disagrees (Q42 key c vs re-solve a)
+09-10 13:17:18   [Direction_Sense] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
+09-10 13:17:18   [Direction_Sense] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+09-10 13:19:51   [Order_Ranking] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 13:20:49   [Direction_Sense] Practice_en_Set_03.txt try 1: rejected (Q53:leaked_reasoning,Q55:leaked_reasoning,Q57:leaked_reasoning,Q63:leaked_reasoning,Q68:leaked_reasoning)
+09-10 13:24:19   [Coding_Decoding] Practice_en_Set_05.txt try 2: re-solve disagrees (Q106 key a vs re-solve b)
+09-10 13:24:40   [Order_Ranking] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 13:26:44   [Order_Ranking] Practice_en_Set_05.txt try 1: rejected (Q113:leaked_reasoning,Q122:leaked_reasoning,Q123:leaked_reasoning)
+09-10 13:29:25   [Order_Ranking] Practice_en_Set_05.txt try 2: rejected (Q124:leaked_reasoning)
 ```
