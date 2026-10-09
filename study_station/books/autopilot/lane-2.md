@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 04:12 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:46 PM
+**आख़िरी update:** 09-10-2026 04:20 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:46 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 27 Budget Economic Survey (Graduation GK) | ✍️ लिख रहा है | 80 मिनट |
-| W2 | Chapter 28 Advanced Science Tech (Graduation GK) | ✍️ लिख रहा है | 49 मिनट |
-| W3 | Chapter 26 Advanced Polity (Graduation GK) | ✍️ लिख रहा है | 89 मिनट |
-| W4 | Chapter 24 Reports Indices (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
-| W5 | Chapter 25 Govt Schemes (Graduation GK) | ✍️ लिख रहा है | 27 मिनट |
+| W1 | Chapter 27 Budget Economic Survey (Graduation GK) | ✍️ लिख रहा है | 88 मिनट |
+| W2 | Chapter 28 Advanced Science Tech (Graduation GK) | ✍️ लिख रहा है | 57 मिनट |
+| W3 | Chapter 26 Advanced Polity (Graduation GK) | ✍️ लिख रहा है | 97 मिनट |
+| W4 | Chapter 29 Environment Conventions (Graduation GK) | ✍️ लिख रहा है | 7 मिनट |
+| W5 | Chapter 25 Govt Schemes (Graduation GK) | 🔎 review हो रहा है | 7 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -27,10 +27,10 @@
 | 12th Reasoning | 2 | 0 | 23 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 22 | 1 | 5 |
-| Graduation Reasoning | 5 | 0 | 25 |
+| Graduation GK | 23 | 1 | 4 |
+| Graduation Reasoning | 6 | 0 | 24 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **156** | **14** | **126** |
+| **कुल** | **158** | **14** | **124** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -46,18 +46,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 15:40:05   [Reports_Indices] review Content_hi.txt: 1 issue(s): - खंड 4 की तालिका में 'वैश्विक आर्थिक संभावनाएँ रिपोर्ट' का जारीकर्ता OECD दिया गया है → सही जारीकर्ता विश्व बैंक (
-09-10 15:40:10   [Govt_Schemes] Practice_en_Set_06.txt try 3: rejected (Q139:answer_solution_conflict)
-09-10 15:40:12   [Advanced_Polity] wrote Memory_Hooks_en.txt (6270 chars)
-09-10 15:40:32   [Advanced_Science_Tech] wrote Feynman_hi.txt (3231 chars)
-09-10 15:42:18   [Budget_Economic_Survey] Practice_en_Set_02.txt try 1: re-solve disagrees (Q26 key d vs re-solve c, Q44 key d vs re-solve a)
-09-10 15:44:09   [Govt_Schemes] Practice_en_Set_06.txt try 4: re-solve disagrees (Q137 key c vs re-solve d)
-09-10 15:44:09   [Govt_Schemes] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
-09-10 15:44:09   [Govt_Schemes] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-09-10 15:44:09   [Govt_Schemes] written 23, failed 2; AI calls today 198/100000
-09-10 15:44:09 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_25_Govt_Schemes after 117 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems []
-09-10 15:44:11 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_25_Govt_Schemes (TODO: todo 2, problems 0)
-09-10 15:44:25   [Budget_Economic_Survey] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 09-10 15:44:37   [Advanced_Polity] wrote Memory_Hooks_hi.txt (6774 chars)
 09-10 15:47:52   [Advanced_Polity] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 09-10 15:49:20   [Budget_Economic_Survey] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
@@ -86,4 +74,16 @@
 09-10 16:11:19   [Advanced_Polity] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 09-10 16:12:07   [Reports_Indices] review: 5 section(s) corrected, 0 failed
 09-10 16:12:07   [Reports_Indices] written 5, failed 0; AI calls today 244/100000
+09-10 16:12:24 DONE Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_24_Reports_Indices in 145 min → ad9c5f0c
+09-10 16:12:26 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_29_Environment_Conventions (TODO: todo 25, problems 0)
+09-10 16:12:40   [Budget_Economic_Survey] Practice_en_Set_04.txt try 2: re-solve disagrees (Q86 key a vs re-solve b)
+09-10 16:12:52   [Govt_Schemes] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+09-10 16:12:52   [Govt_Schemes] written 2, failed 0; AI calls today 247/100000
+09-10 16:14:09   [Environment_Conventions] wrote Content_en.txt (12266 chars)
+09-10 16:14:30   [Budget_Economic_Survey] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 16:16:29   [Environment_Conventions] wrote Content_hi.txt (9030 chars)
+09-10 16:16:59   [Advanced_Science_Tech] wrote PYQ_hi.txt (52545 chars)
+09-10 16:17:35   [Advanced_Polity] Practice_en_Set_03.txt try 1: re-solve disagrees (Q66 key b vs re-solve a)
+09-10 16:17:44   [Govt_Schemes] review Content_en.txt: 1 issue(s): - CSS funding pattern example cites MGNREGA and PMAY as typical 60:40/90:10 schemes, but MGNREGA has a distinct fun
+09-10 16:18:10   [Advanced_Science_Tech] wrote Memory_Hooks_en.txt (5558 chars)
 ```
