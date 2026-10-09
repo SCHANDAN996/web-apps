@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 06:52 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:46 PM
+**आख़िरी update:** 09-10-2026 07:07 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:46 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 26 Advanced Polity (Graduation GK) | 🔎 review हो रहा है | 66 मिनट |
-| W5 | Chapter 01 Number System Advanced (Graduation Maths) | ✍️ लिख रहा है | 95 मिनट |
+| W5 | Chapter 01 Number System Advanced (Graduation Maths) | ✍️ लिख रहा है | 111 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -41,21 +40,12 @@
 - Chapter 22 Defence (GK) — 2 बार
 - Chapter 13 Awards (GK) — 2 बार
 - Chapter 27 Budget Economic Survey (GK) — 2 बार
-- Chapter 26 Advanced Polity (GK) — 1 बार
+- Chapter 26 Advanced Polity (GK) — 2 बार
 - Chapter 28 Advanced Science Tech (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 18:03:19   [Number_System_Advanced] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 18:04:13   [Advanced_Polity] review Key_Facts_hi.txt: 4 issue(s): - न्यूनतम आयु 35 वर्ष (राज्यपाल 30) → न्यूनतम आयु 35 वर्ष (राज्यपाल 35)
-09-10 18:04:22   [Advanced_Science_Tech] Practice_hi_Set_06.txt try 2: rejected (Q129:needs_context,Q140:needs_context)
-09-10 18:04:22   [Budget_Economic_Survey] review: 8 section(s) corrected, 1 failed
-09-10 18:04:22   [Budget_Economic_Survey] written 8, failed 1; AI calls today 418/100000
-09-10 18:04:22 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_27_Budget_Economic_Survey after 72 min: todo [] problems []
-09-10 18:04:22 worker 0: nothing left
-09-10 18:07:13   [Number_System_Advanced] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-09-10 18:10:02   [Advanced_Science_Tech] Practice_hi_Set_06.txt try 3: rejected (Q129:needs_context,Q140:needs_context)
 09-10 18:11:11   [Number_System_Advanced] Practice_en_Set_02.txt try 1: rejected (Q31:leaked_reasoning,Q46:duplicate_options)
 09-10 18:13:27   [Advanced_Polity] review Feynman_hi.txt: 1 issue(s): - "फाइनेंशियल बिल (वित्त विधेयक)" गलत शब्दावली है → "फाइनेंशियल बिल (वित्तीय विधेयक)" होना चाहिए; वित्त विधेयक (Fin
 09-10 18:15:16   [Advanced_Science_Tech] Practice_hi_Set_06.txt try 4: rejected (Q129:needs_context,Q140:needs_context)
@@ -87,4 +77,13 @@
 09-10 18:47:37   [Advanced_Polity] REJECTED review fix PYQ_en.txt: chat debris "Text"
 09-10 18:48:37   [Number_System_Advanced] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 09-10 18:51:23   [Number_System_Advanced] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 18:53:08   [Advanced_Polity] review Memory_Hooks_en.txt: 1 issue(s): - Box 13: "100 Union, 61 State, 52 Concurrent — originally" is factually wrong; the original (1950) numbers we
+09-10 18:55:04   [Number_System_Advanced] Practice_en_Set_05.txt try 1: rejected (Q108:leaked_reasoning,Q112:leaked_reasoning,Q115:leaked_reasoning)
+09-10 18:57:10   [Advanced_Polity] review: 4 section(s) corrected, 3 failed
+09-10 18:57:10   [Advanced_Polity] written 4, failed 3; AI calls today 463/100000
+09-10 18:57:11 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_26_Advanced_Polity after 83 min: todo [] problems []
+09-10 18:57:11 worker 2: nothing left
+09-10 19:01:21   [Number_System_Advanced] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 19:03:49   [Number_System_Advanced] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 19:07:46   [Number_System_Advanced] Practice_en_Set_06.txt try 1: rejected (Q131:leaked_reasoning,Q137:leaked_reasoning,Q145:leaked_reasoning,Q146:leaked_reasoning)
 ```
