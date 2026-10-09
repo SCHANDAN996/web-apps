@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 08:44 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:12 PM
+**आख़िरी update:** 09-10-2026 08:48 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:12 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 Fractions Decimals (Graduation Maths) | ✍️ लिख रहा है | 68 मिनट |
-| W2 | Chapter 05 Percentage (Graduation Maths) | ✍️ लिख रहा है | 58 मिनट |
-| W3 | Chapter 06 Average (Graduation Maths) | ✍️ लिख रहा है | 41 मिनट |
-| W4 | Chapter 27 Budget Economic Survey (Graduation GK) | 🔎 review हो रहा है | 43 मिनट |
-| W5 | Chapter 28 Advanced Science Tech (Graduation GK) | 🔎 review हो रहा है | 25 मिनट |
-| W6 | Chapter 07 Ratio Proportion (Graduation Maths) | ✍️ लिख रहा है | 6 मिनट |
-| W7 | Chapter 02 LCM HCF (Graduation Maths) | ✍️ लिख रहा है | 91 मिनट |
-| W8 | Chapter 03 Simplification (Graduation Maths) | ✍️ लिख रहा है | 91 मिनट |
+| W1 | Chapter 04 Fractions Decimals (Graduation Maths) | ✍️ लिख रहा है | 72 मिनट |
+| W2 | Chapter 05 Percentage (Graduation Maths) | ✍️ लिख रहा है | 62 मिनट |
+| W3 | Chapter 06 Average (Graduation Maths) | ✍️ लिख रहा है | 44 मिनट |
+| W4 | Chapter 27 Budget Economic Survey (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
+| W5 | Chapter 28 Advanced Science Tech (Graduation GK) | 🔎 review हो रहा है | 29 मिनट |
+| W6 | Chapter 07 Ratio Proportion (Graduation Maths) | ✍️ लिख रहा है | 10 मिनट |
+| W7 | Chapter 02 LCM HCF (Graduation Maths) | ✍️ लिख रहा है | 95 मिनट |
+| W8 | Chapter 03 Simplification (Graduation Maths) | ✍️ लिख रहा है | 95 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,6 +37,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 20:48 — Graduation GK · Chapter 27 Budget Economic Survey
 - 09-10 20:38 — Graduation Maths · Chapter 01 Number System Advanced
 - 09-10 20:03 — Graduation GK · Chapter 26 Advanced Polity
 - 09-10 19:45 — Graduation GK · Chapter 22 Defence
@@ -50,21 +51,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 20:22:25   [LCM_HCF] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-09-10 20:22:59   [Percentage] wrote PYQ_hi.txt (7128 chars)
-09-10 20:23:18   [Percentage] wrote Short_Tricks_en.txt (1268 chars)
-09-10 20:25:01   [LCM_HCF] Practice_en_Set_03.txt try 1: rejected (Q55:leaked_reasoning,Q58:leaked_reasoning,Q61:leaked_reasoning)
-09-10 20:25:08   [Percentage] wrote Short_Tricks_hi.txt (6451 chars)
-09-10 20:25:27   [Advanced_Science_Tech] review Content_en.txt: 1 issue(s): - The mnemonic "P-G-L-S" is described as "roughly in order of lifting power", but the sequence PSLV → GSLV → LVM3 →
-09-10 20:25:34   [Fractions_Decimals] Practice_en_Set_02.txt try 2: re-solve disagrees (Q34 key b vs re-solve c)
-09-10 20:25:46   [Percentage] wrote Important_Formulas_en.txt (3133 chars)
-09-10 20:26:41   [Percentage] wrote Important_Formulas_hi.txt (2746 chars)
-09-10 20:27:09   [Simplification] Practice_en_Set_06.txt try 1: re-solve disagrees (Q137 key d vs re-solve a, Q146 key a vs re-solve d)
-09-10 20:27:37   [Percentage] Practice_en_Set_01.txt try 1: rejected (parsed 2 questions, numbers 1…2)
-09-10 20:28:59   [Fractions_Decimals] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-09-10 20:29:08   [Fractions_Decimals] Practice_hi_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 20:29:26   [Budget_Economic_Survey] review Feynman_hi.txt: 1 issue(s): - The claim "राजस्व घाटा ≤ प्राथमिक घाटा ≤ राजकोषीय घाटा" and the mnemonic "रा-प्रा-को" ladder are presented as uni
-09-10 20:32:29   [Number_System_Advanced] review Important_Formulas_en.txt: 2 issue(s): - Successive Division hint is mathematically wrong: "N = c·b·k + c·r₂…" → Correct reconstruction: N = a·
 09-10 20:33:28   [Fractions_Decimals] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 09-10 20:35:22   [Budget_Economic_Survey] review Flashcards_hi.txt: 1 issue(s): - File contains no valid flashcard content; it is corrupted/garbled data with repetitive numbers (e.g., "2544" r
 09-10 20:36:02   [Number_System_Advanced] review Important_Formulas_hi.txt: 2 issue(s): - Euler's totient formula φ(n) = n(1−1/a)(1−1/b)… is incorrect → φ(n) = n ∏_{p|n} (1 − 1/p) where p are 
@@ -90,4 +76,19 @@
 09-10 20:44:08   [Percentage] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
 09-10 20:44:38   [Ratio_Proportion] Feynman_en.txt try 2: rejected (chat debris "Here's the")
 09-10 20:44:38   [Ratio_Proportion] REJECTED Feynman_en.txt: chat debris "Here's the" — not written
+09-10 20:45:26   [LCM_HCF] Practice_en_Set_04.txt try 1: rejected (Q79:leaked_reasoning)
+09-10 20:45:42   [Ratio_Proportion] wrote Feynman_hi.txt (2123 chars)
+09-10 20:45:56   [Fractions_Decimals] Practice_en_Set_03.txt try 4: re-solve disagrees (Q51 key a vs re-solve ?, Q63 key a vs re-solve ?, Q73 key a vs re-solve ?)
+09-10 20:45:56   [Fractions_Decimals] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
+09-10 20:45:56   [Fractions_Decimals] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
+09-10 20:46:23   [Average] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 20:46:31   [Simplification] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 20:46:45   [Ratio_Proportion] wrote Mind_Map.txt (1965 chars)
+09-10 20:46:52   [Budget_Economic_Survey] review Memory_Hooks_en.txt: 1 issue(s): - Box 14: "Every Money Bill is a Finance Bill, but not every Finance Bill is a Money Bill" is incorrect → The 
+09-10 20:47:05   [Percentage] Practice_en_Set_02.txt try 1: rejected (Q44:leaked_reasoning,Q50:answer_solution_conflict)
+09-10 20:47:56   [Ratio_Proportion] wrote Flashcards_en.txt (2944 chars)
+09-10 20:48:33   [Fractions_Decimals] Practice_en_Set_04.txt try 1: rejected (Q80:leaked_reasoning,Q96:leaked_reasoning,Q81:duplicate_options)
+09-10 20:48:34   [Budget_Economic_Survey] review: 6 section(s) corrected, 0 failed
+09-10 20:48:34   [Budget_Economic_Survey] written 6, failed 0; AI calls today 282/100000
+09-10 20:48:39   [Average] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 ```
