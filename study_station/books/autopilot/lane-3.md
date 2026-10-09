@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 05:11 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 05:27 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 128 मिनट |
-| W2 | Chapter 08 Puzzles (12th Reasoning) | ✍️ लिख रहा है | 107 मिनट |
-| W3 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 162 मिनट |
-| W4 | Chapter 09 Venn Diagrams (12th Reasoning) | ✍️ लिख रहा है | 33 मिनट |
-| W5 | Chapter 04 Blood Relations (12th Reasoning) | ✍️ लिख रहा है | 67 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 143 मिनट |
+| W2 | Chapter 08 Puzzles (12th Reasoning) | ✍️ लिख रहा है | 122 मिनट |
+| W3 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 177 मिनट |
+| W4 | Chapter 09 Venn Diagrams (12th Reasoning) | ✍️ लिख रहा है | 48 मिनट |
+| W5 | Chapter 04 Blood Relations (12th Reasoning) | ✍️ लिख रहा है | 83 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -21,16 +21,16 @@
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 9 | 13 | 0 |
-| 10th English | 4 | 0 | 16 |
-| 12th Maths | 0 | 0 | 23 |
+| 10th English | 5 | 0 | 15 |
+| 12th Maths | 2 | 0 | 21 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 3 | 0 | 22 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 21 | 0 | 7 |
+| Graduation GK | 22 | 0 | 6 |
 | Graduation Reasoning | 8 | 0 | 22 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **160** | **13** | **123** |
+| **कुल** | **164** | **13** | **119** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -47,23 +47,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 16:24:53   [Puzzles] Practice_en_Set_01.txt try 2: re-solve disagrees (Q3 key a vs re-solve d, Q14 key a vs re-solve d)
-09-10 16:25:31   [Order_Ranking] review PYQ_hi.txt: 2 issue(s): - Question 5 data inconsistent: after interchange Ravi should occupy Suresh's original right position (25th) but is giv
-09-10 16:26:53   [Direction_Sense] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 16:31:21   [Order_Ranking] review Short_Tricks_hi.txt: 2 issue(s): - ट्रिक 2 में दिए गए सूत्र 'कुल − (A की रैंक + B की रैंक) − 1' गलत है; सही सूत्र 'कुल − (A की रैंक + B की रैंक
-09-10 16:33:53   [Direction_Sense] Practice_en_Set_05.txt try 1: rejected (Q103:leaked_reasoning,Q116:leaked_reasoning,Q121:leaked_reasoning,Q125:leaked_reasoning)
-09-10 16:36:31   [Order_Ranking] review Important_Rules_hi.txt: 2 issue(s): - नियम "बीच के व्यक्तियों की संख्या" में सूत्र "कुल − (पहले का स्थान + दूसरे का स्थान)" गलत है (यह एक ही छो
-09-10 16:37:41   [Blood_Relations] Practice_en_Set_04.txt try 2: re-solve disagrees (Q92 key c vs re-solve a)
-09-10 16:37:48   [Order_Ranking] review: 6 section(s) corrected, 0 failed
-09-10 16:37:48   [Order_Ranking] written 6, failed 0; AI calls today 187/100000
-09-10 16:38:05 DONE 12th_Level/Reasoning/Chapter_06_Order_Ranking in 46 min → e56fd766
-09-10 16:38:07 START 12th_Level/Reasoning/Chapter_09_Venn_Diagrams (TODO: todo 25, problems 0)
-09-10 16:39:29   [Venn_Diagrams] Content_en.txt try 1: rejected (chat debris "Here's the")
-09-10 16:39:39   [Puzzles] Practice_en_Set_01.txt try 3: re-solve disagrees (Q1 key c vs re-solve d)
-09-10 16:39:46   [Sitting_Arrangement] FAILED Practice_en_Set_02.txt: too_long
-09-10 16:39:46   [Sitting_Arrangement] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
-09-10 16:42:42   [Sitting_Arrangement] Practice_en_Set_03.txt try 1: rejected (Q51:leaked_reasoning,Q54:leaked_reasoning)
-09-10 16:42:45   [Venn_Diagrams] Content_en.txt try 2: rejected (corrupted characters)
 09-10 16:42:45   [Venn_Diagrams] REJECTED Content_en.txt: corrupted characters — not written
 09-10 16:44:44   [Venn_Diagrams] wrote Content_hi.txt (6971 chars)
 09-10 16:46:15   [Venn_Diagrams] wrote Feynman_en.txt (4370 chars)
@@ -87,4 +70,21 @@
 09-10 17:03:05   [Puzzles] Practice_en_Set_02.txt try 1: rejected (Q26:leaked_reasoning,Q44:duplicate_options)
 09-10 17:08:00   [Sitting_Arrangement] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 09-10 17:10:23   [Sitting_Arrangement] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 17:12:36   [Venn_Diagrams] Important_Rules_hi.txt try 1: answer too long — asking for a tighter version
+09-10 17:13:59   [Sitting_Arrangement] Practice_en_Set_04.txt try 1: rejected (Q93:leaked_reasoning,Q96:leaked_reasoning,Q99:leaked_reasoning,Q100:leaked_reasoning)
+09-10 17:14:05   [Venn_Diagrams] wrote Important_Rules_hi.txt (3603 chars)
+09-10 17:14:07   [Sitting_Arrangement] Practice_en_Set_04.txt try 2: rejected (parsed 0 questions, numbers -…-)
+09-10 17:14:13   [Sitting_Arrangement] Practice_en_Set_04.txt try 3: rejected (parsed 0 questions, numbers -…-)
+09-10 17:15:06   [Puzzles] Practice_en_Set_02.txt try 2: re-solve disagrees (Q26 key d vs re-solve ?, Q28 key b vs re-solve ?, Q42 key c vs re-solve ?, Q46 key c vs re-solve ?)
+09-10 17:15:15   [Direction_Sense] Practice_en_Set_05.txt try 4: re-solve disagrees (Q101 key d vs re-solve c, Q125 key a vs re-solve b)
+09-10 17:15:15   [Direction_Sense] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
+09-10 17:15:15   [Direction_Sense] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
+09-10 17:16:22   [Blood_Relations] Practice_en_Set_05.txt try 2: re-solve disagrees (Q121 key b vs re-solve -, Q122 key d vs re-solve -, Q123 key b vs re-solve -, Q124 key c vs re-solve
+09-10 17:18:26   [Puzzles] Practice_en_Set_02.txt try 3: rejected (Q50:answer_solution_conflict,Q31:duplicate_options)
+09-10 17:20:52   [Sitting_Arrangement] Practice_en_Set_04.txt try 4: rejected (Q88:leaked_reasoning)
+09-10 17:20:52   [Sitting_Arrangement] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
+09-10 17:20:52   [Sitting_Arrangement] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
+09-10 17:23:41   [Sitting_Arrangement] Practice_en_Set_05.txt try 1: rejected (Q114:leaked_reasoning,Q118:leaked_reasoning)
+09-10 17:25:11   [Sitting_Arrangement] Practice_en_Set_05.txt try 2: rejected (parsed 0 questions, numbers -…-)
+09-10 17:26:09   [Venn_Diagrams] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 ```
