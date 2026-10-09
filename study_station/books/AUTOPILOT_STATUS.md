@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 01:30 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 01:45 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 225 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 246 मिनट |
-| W5 | Chapter 11 Series (Graduation Reasoning) | ✍️ लिख रहा है | 113 मिनट |
+| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 240 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 262 मिनट |
+| W5 | Chapter 11 Series (Graduation Reasoning) | ✍️ लिख रहा है | 128 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -21,7 +21,7 @@
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 9 | 13 | 0 |
-| 10th English | 0 | 0 | 20 |
+| 10th English | 1 | 0 | 19 |
 | 12th Maths | 0 | 0 | 23 |
 | 12th GK | 17 | 0 | 7 |
 | 12th Reasoning | 1 | 0 | 24 |
@@ -30,7 +30,7 @@
 | Graduation GK | 19 | 0 | 9 |
 | Graduation Reasoning | 3 | 1 | 26 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **142** | **14** | **140** |
+| **कुल** | **143** | **14** | **139** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -50,16 +50,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 12:35:50   [Series] wrote Short_Tricks_en.txt (4873 chars)
-09-10 12:36:02   [Clock_Calendar] Practice_hi_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 12:37:55   [Series] wrote Short_Tricks_hi.txt (5897 chars)
-09-10 12:39:40   [Clock_Calendar] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 12:41:46   [Clock_Calendar] Practice_en_Set_05.txt try 1: rejected (Q116:leaked_reasoning)
-09-10 12:42:24   [Puzzles] FAILED Practice_en_Set_04.txt: too_long
-09-10 12:42:24   [Puzzles] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
-09-10 12:42:59   [Series] Important_Rules_en.txt try 1: rejected (corrupted characters)
-09-10 12:43:56   [Series] wrote Important_Rules_en.txt (3856 chars)
-09-10 12:44:09   [Clock_Calendar] Practice_en_Set_05.txt try 2: rejected (Q116:answer_solution_conflict)
 09-10 12:46:10   [Venn_Diagrams] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 09-10 12:46:40   [Series] wrote Important_Rules_hi.txt (3120 chars)
 09-10 12:48:23   [Venn_Diagrams] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
@@ -90,4 +80,14 @@
 09-10 13:22:56   [Series] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 09-10 13:23:49   [Sitting_Arrangement] Practice_en_Set_04.txt try 3: re-solve disagrees (Q77 key d vs re-solve b, Q78 key c vs re-solve b, Q89 key b vs re-solve d, Q99 key d vs re-solve c)
 09-10 13:25:48   [Series] Practice_en_Set_02.txt try 1: rejected (Q38:leaked_reasoning)
+09-10 13:34:57   [Series] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+09-10 13:37:25   [Sitting_Arrangement] Practice_en_Set_04.txt try 4: re-solve disagrees (Q84 key a vs re-solve c)
+09-10 13:37:25   [Sitting_Arrangement] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
+09-10 13:37:25   [Sitting_Arrangement] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
+09-10 13:37:45   [Series] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 13:39:37   [Series] Practice_en_Set_03.txt try 1: rejected (Q67:leaked_reasoning)
+09-10 13:40:10   [Sitting_Arrangement] Practice_en_Set_05.txt try 1: rejected (Q101:leaked_reasoning)
+09-10 13:42:21   [Sitting_Arrangement] Practice_en_Set_05.txt try 2: rejected (Q107:leaked_reasoning)
+09-10 13:42:38   [Puzzles] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 13:45:15   [Puzzles] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 ```
