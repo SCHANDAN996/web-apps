@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 03:39 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 03:55 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 79 मिनट |
-| W2 | Chapter 11 Series (Graduation Reasoning) | ✍️ लिख रहा है | 17 मिनट |
-| W3 | Chapter 03 Coding Decoding (Graduation Reasoning) | 🔎 review हो रहा है | 54 मिनट |
-| W4 | Chapter 10 Clock Calendar (Graduation Reasoning) | 🔎 review हो रहा है | 20 मिनट |
-| W5 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 107 मिनट |
+| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 94 मिनट |
+| W2 | Chapter 11 Series (Graduation Reasoning) | ✍️ लिख रहा है | 32 मिनट |
+| W3 | Chapter 03 Coding Decoding (Graduation Reasoning) | 🔎 review हो रहा है | 69 मिनट |
+| W4 | Chapter 10 Clock Calendar (Graduation Reasoning) | 🔎 review हो रहा है | 36 मिनट |
+| W5 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 122 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -47,15 +47,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 14:58:33   [Venn_Diagrams] review Content_hi.txt: 2 issue(s): - Invented exam statistic "90% छात्रों को उलझा देता है" → Replace with a non-specific phrase like "कई छात्रों को उल
-09-10 14:59:18   [Clock_Calendar] Practice_en_Set_05.txt try 1: rejected (Q118:leaked_reasoning)
-09-10 15:03:00   [Sitting_Arrangement] Practice_en_Set_01.txt try 4: re-solve disagrees (Q14 key b vs re-solve d)
-09-10 15:03:00   [Sitting_Arrangement] REJECTED Practice_en_Set_01.txt: no version passed the checks — not written
-09-10 15:03:00   [Sitting_Arrangement] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
-09-10 15:03:54   [Venn_Diagrams] review Flashcards_en.txt: 2 issue(s): - Card 14 claims Doctors, Men, Fathers are three mutually intersecting circles with no containment, but Fathers 
-09-10 15:05:21   [Coding_Decoding] REJECTED review fix Content_en.txt: corrupted characters
-09-10 15:05:30   [Venn_Diagrams] review Flashcards_hi.txt: 1 issue(s): - Card 4: The diagram for “पुरुष, पिता, डॉक्टर” shows three intersecting circles with no subset, but every fathe
-09-10 15:07:37   [Clock_Calendar] Practice_en_Set_05.txt try 2: re-solve disagrees (Q123 key d vs re-solve c)
 09-10 15:07:44   [Coding_Decoding] review Content_hi.txt: 1 issue(s): - In 'जाल 1', the claim that opposite letter coding (CAT → XZG) is mathematically the same as a '-23 shift' is wron
 09-10 15:09:17   [Venn_Diagrams] review PYQ_en.txt: 2 issue(s): - The sub-topic bullet "newspaper/语言/language problems" contains Chinese characters "语言" → replace with "language" or "
 09-10 15:09:43   [Sitting_Arrangement] Practice_en_Set_03.txt try 1: rejected (Q63:leaked_reasoning,Q66:leaked_reasoning)
@@ -87,4 +78,13 @@
 09-10 15:37:16   [Sitting_Arrangement] Practice_en_Set_04.txt try 1: rejected (Q89:leaked_reasoning)
 09-10 15:37:44   [Coding_Decoding] review PYQ_en.txt: 6 issue(s): - Q1: The coding rule for MANGO→NZOHQ is not consistently derived; the answer (b) ZOOKD for APPLE does not follow from 
 09-10 15:38:49   [Puzzles] Practice_en_Set_03.txt try 3: re-solve disagrees (Q51 key b vs re-solve a, Q73 key b vs re-solve a)
+09-10 15:40:35   [Clock_Calendar] review Feynman_hi.txt: 1 issue(s): - The heading "साढ़े-ग्यारह का खेल" incorrectly states 11.5; the relative speed of the hands is 5.5° per minute → C
+09-10 15:41:24   [Series] Practice_en_Set_04.txt try 2: re-solve disagrees (Q84 key d vs re-solve c)
+09-10 15:41:56   [Coding_Decoding] review PYQ_hi.txt: 5 issue(s): - Question 3: The example MIRROR → NIQQNS does not follow the claimed pattern +1, −1, +1, −1…; the answer (b) is incorr
+09-10 15:45:03   [Coding_Decoding] review Short_Tricks_en.txt: 3 issue(s): - BOX 1 contradicts itself: "Never write A=1, always write A=1" → remove the contradictory "Never write A=1" o
+09-10 15:46:06   [Series] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 15:47:36   [Series] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 15:48:57   [Series] Practice_en_Set_05.txt try 1: rejected (Q112:leaked_reasoning)
+09-10 15:51:33   [Coding_Decoding] review Short_Tricks_hi.txt: 3 issue(s): - Trick 3 example: CAT → FDB with uniform +3 shift is incorrect because T+3=W, not B → Correct example: CAT → 
+09-10 15:55:21   [Series] Practice_en_Set_05.txt try 2: re-solve disagrees (Q103 key a vs re-solve b, Q112 key d vs re-solve c)
 ```
