@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 09-10-2026 10:01 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
+**आख़िरी update:** 09-10-2026 10:06 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 10:05 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W5 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 37 मिनट |
+| W1 | Chapter 01 Noun (10th English) | 🔧 सुधार रहा है | 1 मिनट |
+| W2 | Chapter 03 Adjective (10th English) | 🔧 सुधार रहा है | 0 मिनट |
+| W3 | Chapter 04 Verb (10th English) | 🔧 सुधार रहा है | 0 मिनट |
+| W4 | Chapter 07 Preposition (10th English) | 🔎 review हो रहा है | 0 मिनट |
+| W5 | Chapter 12 Sentence Structure (10th English) | ✍️ लिख रहा है | 0 मिनट |
+| W6 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 0 मिनट |
+| W7 | Chapter 15 Geometry (10th Maths) | 🔧 सुधार रहा है | 0 मिनट |
+| W8 | Chapter 17 Data Interpretation (10th Maths) | 🔧 सुधार रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -16,7 +23,7 @@
 |---|---|---|---|
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
-| 10th Maths | 15 | 7 | 0 |
+| 10th Maths | 14 | 8 | 0 |
 | 10th English | 16 | 3 | 1 |
 | 12th Maths | 9 | 0 | 14 |
 | 12th GK | 22 | 0 | 2 |
@@ -26,76 +33,23 @@
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 9 | 0 | 21 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **200** | **10** | **86** |
+| **कुल** | **199** | **11** | **86** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- 09-10 21:47 — 10th Maths · Chapter 16 Algebra
-- 09-10 21:39 — 10th Maths · Chapter 11 Time Work
-- 09-10 21:28 — 10th Maths · Chapter 14 Mensuration
-- 09-10 21:07 — 10th English · Chapter 20 Sentence Improvement Basic
-- 09-10 21:03 — 10th Maths · Chapter 12 Time Distance
-- 09-10 20:54 — 10th Maths · Chapter 10 Compound Interest
-- 09-10 20:16 — 10th English · Chapter 18 Error Spotting Basic
-- 09-10 19:51 — 10th English · Chapter 17 Spelling
-- 09-10 19:33 — 10th English · Chapter 14 Antonyms
-- 09-10 19:30 — 10th English · Chapter 19 Fill in Blanks Basic
-- 09-10 19:28 — 10th English · Chapter 16 Idioms Phrases
-- 09-10 19:23 — 10th English · Chapter 15 One Word Substitution
-- 09-10 19:12 — 10th English · Chapter 13 Synonyms
-- 09-10 17:39 — 10th English · Chapter 08 Conjunction
-- 09-10 17:30 — 10th English · Chapter 11 Narration
-
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 04 Verb (English) — 2 बार
-- Chapter 03 Adjective (English) — 2 बार
-- Chapter 01 Noun (English) — 2 बार
-- Chapter 07 Preposition (English) — 2 बार
-- Chapter 12 Sentence Structure (English) — 2 बार
-- Chapter 15 Geometry (Maths) — 1 बार
+- अभी कोई नहीं
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 21:07:34 worker 2: nothing left
-09-10 21:08:30   [Geometry] review PYQ_hi.txt: 7 issue(s): - Introductory paragraph claims specific percentage weightages (35%, 25%, 20%, 20%) for geometry topics without any sou
-09-10 21:10:28   [Mensuration] review Mind_Map.txt: 1 issue(s): - Rectangle perimeter formula written as "2 × l+b" missing parentheses → should be "2(l+b)" or "2 × (l+b)"
-09-10 21:12:01   [Algebra] repaired set 06 (en + hi, key confirmed by an independent re-solve)
-09-10 21:12:01   [Algebra] written 6, failed 0; AI calls today 862/100000
-09-10 21:15:45   [Algebra] review Content_en.txt: 2 issue(s): - Invented exam weightage claim "20–25% of questions arise directly from this way of thinking" → Remove the specifi
-09-10 21:21:23   [Time_Work] review PYQ_en.txt: 4 issue(s): - The introductory claim "Time and Work consistently contributes 4 to 6 questions per exam" is an invented exam statist
-09-10 21:22:48   [Algebra] review Content_hi.txt: 2 issue(s): - Claim that “20-25% सवाल पूछे जाते हैं” in SSC, Bank, Railway exams from algebra is an invented statistic without 
-09-10 21:23:57   [Mixture_Alligation] repaired set 06 (en + hi, key confirmed by an independent re-solve)
-09-10 21:23:57   [Mixture_Alligation] written 9, failed 3; AI calls today 873/100000
-09-10 21:25:58   [Time_Work] review PYQ_hi.txt: 3 issue(s): - Invented exam statistics: claim "हर परीक्षा में लगातार 4 से 6 प्रश्न" and difficulty distribution "40% आसान, 40% मध्य
-09-10 21:26:09   [Mixture_Alligation] REJECTED PYQ_en.txt: corrupted characters — not written
-09-10 21:26:19   [Geometry] FAILED review PYQ_hi.txt: too_long — the chapter must not be published unreviewed
-09-10 21:27:54   [Algebra] review Mind_Map.txt: 1 issue(s): - I3: a² − b² = a+b × a−b (missing parentheses, wrong order of operations) → a² − b² = (a+b)(a−b)
-09-10 21:28:08   [Mensuration] review: 2 section(s) corrected, 0 failed
-09-10 21:28:09   [Mensuration] written 2, failed 0; AI calls today 884/100000
-09-10 21:28:28 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_14_Mensuration in 115 min → 456821aa
-09-10 21:28:28 worker 6: nothing left
-09-10 21:29:34   [Geometry] review Short_Tricks_hi.txt: 1 issue(s): - Trick 12: “अपने आयतन के ⅔ हिस्से के साथ” wrongly implies the sphere’s volume is 2/3 of itself → Correct: the
-09-10 21:29:48   [Algebra] review Flashcards_en.txt: 1 issue(s): - Card 10 back: "The story shows a² broke into four pieces." is wrong; the Feynman garden story illustrates (a+b
-09-10 21:30:38   [Geometry] review: 4 section(s) corrected, 1 failed
-09-10 21:30:38   [Geometry] written 4, failed 1; AI calls today 890/100000
-09-10 21:30:38 NOT OK 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_15_Geometry after 99 min: todo [] problems []
-09-10 21:30:38 worker 7: nothing left
-09-10 21:32:10   [Mixture_Alligation] set 01 try 1: re-solve disagrees (Q1 key c vs re-solve d, Q7 key b vs re-solve a)
-09-10 21:33:31   [Time_Work] review Short_Tricks_en.txt: 1 issue(s): - In mnemonic 5, the text says "Here, E (Efficiency) and T (Time) are the same." → Efficiency and Time are inv
-09-10 21:36:29   [Algebra] review PYQ_en.txt: 1 issue(s): - The introductory statistics (25% Algebra weightage, sub-topic percentages 35%/30%/25%, average time 45‑60 seconds) ar
-09-10 21:38:50   [Time_Work] review Short_Tricks_hi.txt: 1 issue(s): - In point 10, the statement 'घूर्णन तेज़ हुआ, समय कम नहीं' incorrectly says time does not decrease when speed
-09-10 21:39:08   [Mixture_Alligation] set 01 try 2: re-solve disagrees (Q1 key c vs re-solve d, Q7 key a vs re-solve b)
-09-10 21:39:50   [Time_Work] review: 6 section(s) corrected, 0 failed
-09-10 21:39:50   [Time_Work] written 6, failed 0; AI calls today 899/100000
-09-10 21:40:09 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_11_Time_Work in 136 min → 9eeeb43a
-09-10 21:40:09 worker 0: nothing left
-09-10 21:40:54   [Algebra] review PYQ_hi.txt: 3 issue(s): - "मात्रात्मक योग्यता खंड का 25% हिस्सा बीजगणित का होता है" → "Remove or cite official source; this weightage is invent
-09-10 21:47:46   [Algebra] review: 6 section(s) corrected, 0 failed
-09-10 21:47:46   [Algebra] written 6, failed 0; AI calls today 905/100000
-09-10 21:48:02 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_16_Algebra in 91 min → 798afbf9
-09-10 21:48:02 worker 3: nothing left
-09-10 21:48:05   [Mixture_Alligation] repaired set 01 (en + hi, key confirmed by an independent re-solve)
-09-10 21:52:25   [Mixture_Alligation] set 05 try 1: rejected (Q123:leaked_reasoning)
+09-10 22:05:20 autopilot start: 8 workers, reverse=True
+09-10 22:05:20 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_01_Noun (FIX: todo 0, problems 4)
+09-10 22:05:26 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective (FIX: todo 0, problems 1)
+09-10 22:05:30 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb (FIX: todo 0, problems 1)
+09-10 22:05:36 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_07_Preposition (OK: todo 0, problems 0)
+09-10 22:05:41 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_12_Sentence_Structure (TODO: todo 2, problems 0)
+09-10 22:05:47 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_13_Mixture_Alligation (FIX: todo 0, problems 16)
+09-10 22:05:52 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_15_Geometry (FIX: todo 0, problems 13)
+09-10 22:05:58 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_17_Data_Interpretation (FIX: todo 0, problems 19)
+09-10 22:06:15   [Noun] set 01 try 1: rejected (Q20:duplicate_options)
 ```
