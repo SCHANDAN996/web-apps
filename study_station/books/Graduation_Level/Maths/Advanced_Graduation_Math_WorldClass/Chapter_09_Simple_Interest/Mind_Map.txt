@@ -1,0 +1,39 @@
+```mermaid
+graph TD
+    A["साधारण ब्याज<br>Simple Interest"] --> B["मूल सूत्र<br>Basic Formula"]
+    A --> C["मुख्य घटक<br>Key Components"]
+    A --> D["मिश्रधन<br>Amount"]
+    A --> E["विशेष स्थितियाँ<br>Special Cases"]
+    A --> F["उन्नत प्रश्न-प्रकार<br>Advanced Question Types"]
+    A --> G["शॉर्ट ट्रिक्स<br>Short Tricks"]
+
+    B --> B1["SI = P × R × T / 100"]
+    B --> B2["P = SI × 100 / (R × T)"]
+    B --> B3["R = SI × 100 / (P × T)"]
+    B --> B4["T = SI × 100 / (P × R)"]
+
+    C --> C1["मूलधन P<br>Principal"]
+    C --> C2["दर R (% प्रति वर्ष)<br>Rate per annum"]
+    C --> C3["समय T (वर्ष)<br>Time in years"]
+    C --> C4["ब्याज SI<br>Interest"]
+
+    D --> D1["A = P + SI"]
+    D --> D2["A = P(1 + RT/100)"]
+
+    E --> E1["समय माह/दिन में<br>Time in months/days<br>माह ÷ 12, दिन ÷ 365"]
+    E --> E2["दर परिवर्तन<br>Rate changes midway"]
+    E --> E3["किस्तों में चुकौती<br>Repayment in instalments"]
+    E --> E4["ब्याज ही मूलधन बन जाए<br>SI equals Principal<br>RT = 100"]
+
+    F --> F1["दो निवेशों की तुलना<br>Comparing two investments"]
+    F --> F2["P का विभाजन अलग दरों पर<br>Splitting P at different rates"]
+    F --> F3["SI बनाम CI अंतर<br>SI vs CI difference<br>2 वर्ष: अंतर = P(R/100)²"]
+    F --> F4["कुछ वर्षों में n गुना<br>Becoming n times<br>T = (n−1)×100/R"]
+    F --> F5["ऋण एवं किस्त<br>Loan & Instalment problems"]
+
+    G --> G1["RT = 100 → SI = P"]
+    G --> G2["दर × समय = ब्याज %<br>Rate × Time = Interest %"]
+    G --> G3["n गुना: (n−1) भाग ब्याज<br>n times: (n−1) parts interest"]
+    G --> G4["SI-CI अंतर ट्रिक<br>Difference = P(R/100)²"]
+    G --> G5["भिन्न विधि<br>Fraction method<br>R% = 1/x रूप"]
+```
