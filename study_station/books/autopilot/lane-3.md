@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 04:41 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 04:56 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 97 मिनट |
-| W2 | Chapter 08 Puzzles (12th Reasoning) | ✍️ लिख रहा है | 76 मिनट |
-| W3 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 131 मिनट |
-| W4 | Chapter 09 Venn Diagrams (12th Reasoning) | ✍️ लिख रहा है | 3 मिनट |
-| W5 | Chapter 04 Blood Relations (12th Reasoning) | ✍️ लिख रहा है | 37 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 113 मिनट |
+| W2 | Chapter 08 Puzzles (12th Reasoning) | ✍️ लिख रहा है | 91 मिनट |
+| W3 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 146 मिनट |
+| W4 | Chapter 09 Venn Diagrams (12th Reasoning) | ✍️ लिख रहा है | 18 मिनट |
+| W5 | Chapter 04 Blood Relations (12th Reasoning) | ✍️ लिख रहा है | 52 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -28,9 +28,9 @@
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 21 | 0 | 7 |
-| Graduation Reasoning | 6 | 0 | 24 |
+| Graduation Reasoning | 7 | 0 | 23 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **157** | **13** | **126** |
+| **कुल** | **158** | **13** | **125** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -47,20 +47,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 15:57:56   [Puzzles] wrote Short_Tricks_en.txt (4892 chars)
-09-10 15:58:15   [Blood_Relations] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 15:59:22   [Puzzles] wrote Short_Tricks_hi.txt (4374 chars)
-09-10 15:59:30   [Puzzles] wrote Important_Rules_en.txt (729 chars)
-09-10 15:59:44   [Sitting_Arrangement] FAILED Important_Rules_hi.txt: rate_limited
-09-10 15:59:53   [Direction_Sense] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-09-10 16:00:39   [Blood_Relations] Practice_hi_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 16:01:04   [Sitting_Arrangement] Practice_en_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 16:01:24   [Puzzles] wrote Important_Rules_hi.txt (2912 chars)
-09-10 16:01:44   [Puzzles] Practice_en_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 16:03:52   [Direction_Sense] Practice_en_Set_04.txt try 1: rejected (Q80:leaked_reasoning,Q83:leaked_reasoning,Q84:leaked_reasoning)
-09-10 16:03:58   [Blood_Relations] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 16:03:58   [Blood_Relations] written 4, failed 6; AI calls today 157/100000
-09-10 16:03:59 NOT OK 12th_Level/Reasoning/Chapter_04_Blood_Relations after 131 min: todo ['Set 03 en: todo', 'Set 03 hi: todo', 'Set 04 en: todo', 'Set 04 hi: todo'] problems ['Flashcards_hi.txt: Hindi file is mostly not in Hindi']
 09-10 16:04:00 START 12th_Level/Reasoning/Chapter_04_Blood_Relations (TODO: todo 6, problems 1)
 09-10 16:07:29   [Blood_Relations] Practice_en_Set_03.txt try 1: rejected (Q57:leaked_reasoning,Q63:leaked_reasoning,Q71:leaked_reasoning,Q75:leaked_reasoning)
 09-10 16:11:23   [Order_Ranking] review Flashcards_en.txt: 3 issue(s): - "from the" missing a noun (e.g., left/right) → add "left" after each "the" (or specify the direction).
@@ -87,4 +73,18 @@
 09-10 16:39:39   [Puzzles] Practice_en_Set_01.txt try 3: re-solve disagrees (Q1 key c vs re-solve d)
 09-10 16:39:46   [Sitting_Arrangement] FAILED Practice_en_Set_02.txt: too_long
 09-10 16:39:46   [Sitting_Arrangement] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+09-10 16:42:42   [Sitting_Arrangement] Practice_en_Set_03.txt try 1: rejected (Q51:leaked_reasoning,Q54:leaked_reasoning)
+09-10 16:42:45   [Venn_Diagrams] Content_en.txt try 2: rejected (corrupted characters)
+09-10 16:42:45   [Venn_Diagrams] REJECTED Content_en.txt: corrupted characters — not written
+09-10 16:44:44   [Venn_Diagrams] wrote Content_hi.txt (6971 chars)
+09-10 16:46:15   [Venn_Diagrams] wrote Feynman_en.txt (4370 chars)
+09-10 16:47:12   [Venn_Diagrams] wrote Feynman_hi.txt (3192 chars)
+09-10 16:47:46   [Venn_Diagrams] wrote Mind_Map.txt (2210 chars)
+09-10 16:48:31   [Venn_Diagrams] wrote Flashcards_en.txt (4566 chars)
+09-10 16:49:23   [Direction_Sense] Practice_en_Set_05.txt try 2: re-solve disagrees (Q101 key d vs re-solve c, Q114 key d vs re-solve c, Q125 key c vs re-solve a)
+09-10 16:49:35   [Venn_Diagrams] wrote Flashcards_hi.txt (3540 chars)
+09-10 16:50:48   [Venn_Diagrams] wrote PYQ_en.txt (7975 chars)
+09-10 16:53:33   [Blood_Relations] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 16:55:09   [Venn_Diagrams] FAILED PYQ_hi.txt: rate_limited
+09-10 16:55:59   [Venn_Diagrams] wrote Short_Tricks_en.txt (4180 chars)
 ```
