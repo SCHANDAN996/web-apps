@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 06:43 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 06:58 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 102 मिनट |
-| W4 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 109 मिनट |
+| W2 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 118 मिनट |
+| W4 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 125 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -50,11 +50,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 17:36:24   [Sitting_Arrangement] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-09-10 17:39:20   [Dictionary_Order] Practice_en_Set_01.txt try 3: re-solve disagrees (Q4 key d vs re-solve a, Q16 key c vs re-solve d)
-09-10 17:41:06   [Puzzles] Practice_en_Set_06.txt try 3: re-solve disagrees (Q126 key a vs re-solve -, Q127 key a vs re-solve -, Q128 key d vs re-solve -, Q129 key c vs re-solve
-09-10 17:41:46   [Missing_Term] review Flashcards_hi.txt: 3 issue(s): - Card 6: Invented statistic “90% मामलों में” → Replace with “अक्सर” or remove the percentage claim.
-09-10 17:42:02   [Sitting_Arrangement] Practice_en_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
 09-10 17:45:22   [Sitting_Arrangement] Practice_en_Set_06.txt try 2: rejected (Q127:leaked_reasoning,Q145:leaked_reasoning)
 09-10 17:45:48   [Dictionary_Order] Practice_en_Set_01.txt try 4: re-solve disagrees (Q4 key b vs re-solve a)
 09-10 17:45:48   [Dictionary_Order] REJECTED Practice_en_Set_01.txt: no version passed the checks — not written
@@ -90,4 +85,9 @@
 09-10 18:42:37   [Dictionary_Order] FAILED Practice_en_Set_02.txt: too_long
 09-10 18:42:37   [Dictionary_Order] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
 09-10 18:42:55   [Dictionary_Order] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 18:45:06   [Alphabet_Questions] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 18:46:21   [Dictionary_Order] Practice_en_Set_03.txt try 2: rejected (Q52:leaked_reasoning,Q57:leaked_reasoning,Q66:leaked_reasoning)
+09-10 18:48:53   [Alphabet_Questions] Practice_en_Set_03.txt try 1: rejected (Q56:leaked_reasoning,Q63:leaked_reasoning,Q70:leaked_reasoning,Q74:leaked_reasoning)
+09-10 18:54:04   [Dictionary_Order] Practice_en_Set_03.txt try 3: re-solve disagrees (Q63 key a vs re-solve d, Q67 key b vs re-solve a, Q71 key a vs re-solve d)
+09-10 18:57:57   [Alphabet_Questions] Practice_en_Set_03.txt try 2: re-solve disagrees (Q53 key d vs re-solve c)
 ```
