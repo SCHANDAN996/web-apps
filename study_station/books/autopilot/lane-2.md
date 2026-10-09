@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 08:04 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 08:19 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Awards (Graduation GK) | ✍️ लिख रहा है | 100 मिनट |
-| W2 | Chapter 16 Books Authors (Graduation GK) | ✍️ लिख रहा है | 63 मिनट |
-| W3 | Chapter 15 Days Dates (Graduation GK) | ✍️ लिख रहा है | 72 मिनट |
-| W4 | Chapter 14 Sports (Graduation GK) | ✍️ लिख रहा है | 79 मिनट |
-| W5 | Chapter 12 Biology (Graduation GK) | 🔎 review हो रहा है | 41 मिनट |
+| W1 | Chapter 13 Awards (Graduation GK) | ✍️ लिख रहा है | 115 मिनट |
+| W2 | Chapter 16 Books Authors (Graduation GK) | ✍️ लिख रहा है | 78 मिनट |
+| W3 | Chapter 15 Days Dates (Graduation GK) | ✍️ लिख रहा है | 87 मिनट |
+| W4 | Chapter 14 Sports (Graduation GK) | ✍️ लिख रहा है | 94 मिनट |
+| W5 | Chapter 12 Biology (Graduation GK) | 🔎 review हो रहा है | 56 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -50,19 +50,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 07:22:16   [Biology] repaired PYQ_hi.txt (6797 chars)
-09-10 07:22:16   [Biology] written 1, failed 0; AI calls today 439/100000
-09-10 07:22:26   [Sports] wrote Memory_Hooks_hi.txt (6917 chars)
-09-10 07:23:57   [Books_Authors] wrote Feynman_hi.txt (2695 chars)
-09-10 07:26:13   [Biology] review Content_en.txt: 1 issue(s): - In Linguistic Bridge, Hindi for "Spinal cord" includes "रीढ़ की हड्डी की नस" which means "nerve of the backbone",
-09-10 07:27:52   [Books_Authors] wrote Mind_Map.txt (2876 chars)
-09-10 07:28:51   [Days_Dates] wrote Flashcards_hi.txt (4677 chars)
-09-10 07:29:44   [Books_Authors] wrote Flashcards_en.txt (3536 chars)
-09-10 07:31:47   [Days_Dates] wrote PYQ_en.txt (10664 chars)
-09-10 07:35:32   [Awards] Memory_Hooks_en.txt try 1: answer too long — asking for a tighter version
-09-10 07:36:30   [Books_Authors] wrote Flashcards_hi.txt (3109 chars)
-09-10 07:37:05   [Days_Dates] wrote PYQ_hi.txt (7039 chars)
-09-10 07:38:01   [Awards] wrote Memory_Hooks_en.txt (8048 chars)
 09-10 07:38:58   [Days_Dates] wrote Memory_Hooks_en.txt (5670 chars)
 09-10 07:39:08   [Books_Authors] wrote PYQ_en.txt (7929 chars)
 09-10 07:39:22   [Biology] review Content_hi.txt: 3 issue(s): - मस्तिष्क के तीन भागों में पश्चमस्तिष्क को केवल सेरिबेलम बताना और मेडुला को अलग भाग के रूप में प्रस्तुत करना गलत ह
@@ -90,4 +77,17 @@
 09-10 08:00:23   [Days_Dates] wrote Memory_Hooks_hi.txt (7389 chars)
 09-10 08:03:12   [Awards] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 09-10 08:03:46   [Days_Dates] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 08:05:00   [Books_Authors] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 08:05:09   [Sports] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 08:05:32   [Biology] FAILED review Mind_Map.txt: too_long — the chapter must not be published unreviewed
+09-10 08:06:33   [Awards] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 08:08:12   [Days_Dates] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 08:10:33   [Sports] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 08:11:40   [Days_Dates] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+09-10 08:14:07   [Sports] Practice_en_Set_06.txt try 1: rejected (Q129:leaked_reasoning)
+09-10 08:14:40   [Days_Dates] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 08:16:01   [Awards] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 08:17:28   [Days_Dates] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 08:18:23   [Awards] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 08:19:02   [Biology] review PYQ_hi.txt: 1 issue(s): - "BCG/BCG जैसे टीके" in the प्रतिरक्षा और टीकाकरण bullet contains a duplicate → correct to "BCG, DPT जैसे टीके" (or an
 ```
