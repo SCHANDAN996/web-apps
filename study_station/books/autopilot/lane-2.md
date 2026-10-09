@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 12:54 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:38 AM
+**आख़िरी update:** 10-10-2026 01:02 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:38 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Time Work (Graduation Maths) | ✍️ लिख रहा है | 9 मिनट |
-| W2 | Chapter 02 LCM HCF (Graduation Maths) | 🔎 review हो रहा है | 13 मिनट |
-| W3 | Chapter 03 Simplification (Graduation Maths) | 🔎 review हो रहा है | 16 मिनट |
-| W4 | Chapter 04 Fractions Decimals (Graduation Maths) | 🔎 review हो रहा है | 16 मिनट |
-| W5 | Chapter 12 Time Distance (Graduation Maths) | ✍️ लिख रहा है | 1 मिनट |
-| W6 | Chapter 07 Ratio Proportion (Graduation Maths) | 🔎 review हो रहा है | 5 मिनट |
-| W7 | Chapter 09 Simple Interest (Graduation Maths) | 🔎 review हो रहा है | 15 मिनट |
-| W8 | Chapter 10 Compound Interest (Graduation Maths) | ✍️ लिख रहा है | 15 मिनट |
+| W1 | Chapter 11 Time Work (Graduation Maths) | ✍️ लिख रहा है | 17 मिनट |
+| W2 | Chapter 02 LCM HCF (Graduation Maths) | 🔎 review हो रहा है | 21 मिनट |
+| W3 | Chapter 03 Simplification (Graduation Maths) | 🔎 review हो रहा है | 24 मिनट |
+| W4 | Chapter 04 Fractions Decimals (Graduation Maths) | 📤 push हो रहा है | 0 मिनट |
+| W5 | Chapter 12 Time Distance (Graduation Maths) | ✍️ लिख रहा है | 9 मिनट |
+| W6 | Chapter 07 Ratio Proportion (Graduation Maths) | 🔎 review हो रहा है | 13 मिनट |
+| W7 | Chapter 09 Simple Interest (Graduation Maths) | 🔎 review हो रहा है | 23 मिनट |
+| W8 | Chapter 10 Compound Interest (Graduation Maths) | ✍️ लिख रहा है | 23 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,7 +37,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 10-10 01:02 — Graduation Maths · Chapter 04 Fractions Decimals
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
@@ -48,18 +48,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 00:42:17   [Percentage] repaired Feynman_hi.txt (2326 chars)
-10-10 00:42:34   [Ratio_Proportion] Practice_en_Set_02.txt try 1: rejected (Q31:leaked_reasoning,Q33:leaked_reasoning,Q35:leaked_reasoning,Q41:leaked_reasoning,Q45:leaked_reasoning)
-10-10 00:43:00   [Awards] repaired Flashcards_hi.txt (4642 chars)
-10-10 00:43:00   [Awards] written 1, failed 0; AI calls today 23/100000
-10-10 00:43:12   [Simplification] review Feynman_en.txt: 5 issue(s): - Title "The Faining of BODMAS" contains a non-existent word "Faining" → Should be a relevant title like "The Feynm
-10-10 00:43:32   [Compound_Interest] Practice_en_Set_01.txt try 1: rejected (Q23:leaked_reasoning,Q25:leaked_reasoning)
-10-10 00:44:13   [Percentage] REJECTED Flashcards_hi.txt: corrupted characters — not written
-10-10 00:44:13   [Percentage] written 1, failed 1; AI calls today 27/100000
-10-10 00:44:26   [Fractions_Decimals] review Content_hi.txt: 1 issue(s): - Hook incorrectly states that 1/3 cannot be exactly written in decimal and that 0.333… is only an approximation → 
-10-10 00:44:39   [Awards] repaired Flashcards_hi.txt (4523 chars)
-10-10 00:44:39   [Awards] written 1, failed 0; AI calls today 30/100000
-10-10 00:44:39 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards after 3 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (45']
 10-10 00:44:42 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_11_Time_Work (TODO: todo 11, problems 0)
 10-10 00:44:47   [Simplification] review Feynman_hi.txt: 1 issue(s): - भाग (÷) में गोलाई का नियम गलत लिखा है: "भाज्य और भाजक को एक ही दिशा में गोल करो" कहा गया है, लेकिन उदाहरण 498 ÷ 5
 10-10 00:45:10   [Time_Work] wrote Feynman_en.txt (2297 chars)
@@ -88,4 +76,16 @@
 10-10 00:53:38   [Time_Distance] wrote Flashcards_hi.txt (2859 chars)
 10-10 00:53:49   [Compound_Interest] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 10-10 00:53:57   [Compound_Interest] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 00:55:11   [Time_Distance] Practice_en_Set_03.txt try 1: rejected (Q69:leaked_reasoning,Q70:answer_solution_conflict)
+10-10 00:55:22   [Time_Work] Practice_en_Set_02.txt try 2: re-solve disagrees (Q34 key b vs re-solve ?)
+10-10 00:55:32   [Ratio_Proportion] review Content_en.txt: 1 issue(s): - Section 9 income-expenditure example: solving 3x−5y=1000 and 2x−3y=1000 gives x=1000, incomes ₹3,000 and ₹2,000 →
+10-10 00:55:44   [Compound_Interest] Practice_en_Set_03.txt try 2: rejected (Q65:leaked_reasoning)
+10-10 00:59:46   [LCM_HCF] review PYQ_hi.txt: 1 issue(s): - In Question 6, the answer line states "उत्तर: (b)" but the correct answer is (a) 105/2 → Change the answer line to "उ
+10-10 01:00:46   [Time_Distance] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+10-10 01:00:53   [Simplification] review Short_Tricks_hi.txt: 2 issue(s): - म्नेमोनिक में "बड़े ओफिसर" गलत वर्तनी है → बड़े ऑफिसर
+10-10 01:01:38   [Compound_Interest] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+10-10 01:01:40   [Time_Work] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+10-10 01:01:48   [Time_Work] Practice_hi_Set_02.txt try 1: rejected (parsed 1 questions, numbers 26…26)
+10-10 01:02:30   [Fractions_Decimals] review: 3 section(s) corrected, 0 failed
+10-10 01:02:30   [Fractions_Decimals] written 3, failed 0; AI calls today 101/100000
 ```
