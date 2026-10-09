@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 10-10-2026 04:45 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 02:27 AM
+**आख़िरी update:** 10-10-2026 05:00 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 02:27 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W5 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 33 मिनट |
+| W5 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 9 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -22,11 +22,11 @@
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 10 | 0 | 15 |
 | 12th English | 25 | 0 | 0 |
-| Graduation Maths | 13 | 0 | 15 |
+| Graduation Maths | 14 | 0 | 14 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 13 | 0 | 17 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **233** | **5** | **58** |
+| **कुल** | **234** | **5** | **57** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -43,20 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 03:50:33   [Trigonometry] repaired Short_Tricks_hi.txt (5605 chars)
-10-10 03:50:36   [Trigonometry] set 02 try 1: rejected (parsed 0 questions, numbers -…-)
-10-10 03:52:21   [Probability] set 03 try 1: rejected (parsed 23 questions, numbers 51…75)
-10-10 03:54:44   [Probability] set 03 try 2: rejected (parsed 23 questions, numbers 51…75)
-10-10 03:56:00   [Probability] set 03 try 3: rejected (parsed 23 questions, numbers 51…75)
-10-10 03:56:13   [Trigonometry] set 02 try 2: rejected (parsed 24 questions, numbers 26…50)
-10-10 03:57:40   [Trigonometry] set 02 try 3: rejected (parsed 24 questions, numbers 26…50)
-10-10 03:58:33   [Probability] set 03 try 4: rejected (parsed 23 questions, numbers 51…75)
-10-10 03:58:33   [Probability] FAILED set 03: no version passed the checks — files left as they were
-10-10 03:58:51   [Trigonometry] set 02 try 4: rejected (parsed 24 questions, numbers 26…50)
-10-10 03:58:51   [Trigonometry] FAILED set 02: no version passed the checks — files left as they were
-10-10 03:58:51   [Trigonometry] written 1, failed 1; AI calls today 90/100000
-10-10 03:58:51 NOT OK 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_18_Trigonometry after 18 min: todo [] problems ['Set 02 en: 4/25 parsed', 'Set 02 hi: 0/25 parsed']
-10-10 03:58:53 worker 3: nothing left
 10-10 03:59:56   [Probability] set 05 try 1: rejected (parsed 24 questions, numbers 101…125)
 10-10 04:02:02   [Probability] set 05 try 2: rejected (parsed 24 questions, numbers 101…125)
 10-10 04:03:09   [Probability] set 05 try 3: rejected (parsed 24 questions, numbers 101…125)
@@ -83,4 +69,18 @@
 10-10 04:41:24   [Probability] set 05 try 1: rejected (parsed 24 questions, numbers 101…125)
 10-10 04:42:54   [Probability] set 05 try 2: rejected (parsed 24 questions, numbers 101…125)
 10-10 04:45:16   [Probability] set 05 try 3: rejected (parsed 24 questions, numbers 101…125)
+10-10 04:47:03   [Probability] set 05 try 4: rejected (parsed 24 questions, numbers 101…125)
+10-10 04:47:03   [Probability] FAILED set 05: no version passed the checks — files left as they were
+10-10 04:49:02   [Probability] set 06 try 1: rejected (parsed 23 questions, numbers 126…150)
+10-10 04:49:14   [Probability] set 06 try 2: rejected (parsed 0 questions, numbers -…-)
+10-10 04:49:16   [Probability] set 06 try 3: rejected (parsed 0 questions, numbers -…-)
+10-10 04:51:33   [Probability] set 06 try 4: rejected (parsed 23 questions, numbers 126…150)
+10-10 04:51:33   [Probability] FAILED set 06: no version passed the checks — files left as they were
+10-10 04:51:33   [Probability] written 0, failed 4; AI calls today 113/100000
+10-10 04:53:28   [Probability] set 02 try 1: rejected (parsed 23 questions, numbers 26…50)
+10-10 04:55:53   [Probability] set 02 try 2: rejected (parsed 23 questions, numbers 26…50)
+10-10 04:58:05   [Probability] set 02 try 3: rejected (parsed 23 questions, numbers 26…50)
+10-10 04:58:10   [Probability] set 02 try 4: rejected (parsed 0 questions, numbers -…-)
+10-10 04:58:10   [Probability] FAILED set 02: no version passed the checks — files left as they were
+10-10 04:59:50   [Probability] set 03 try 1: rejected (parsed 23 questions, numbers 51…75)
 ```
