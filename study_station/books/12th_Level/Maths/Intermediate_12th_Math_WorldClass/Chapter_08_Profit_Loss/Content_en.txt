@@ -1,0 +1,141 @@
+# Profit and Loss
+
+## 1. Why This Chapter Matters
+
+Profit and Loss is one of the most reliable scoring areas in the Arithmetic section of SSC, Railway, Bank and State exams. Almost every paper asks questions based on cost price, selling price, discount and marked price. The good news: a small set of formulas, used with care, solves nearly every question.
+
+## 2. Basic Terms
+
+- **Cost Price (CP):** The price at which an article is bought.
+- **Selling Price (SP):** The price at which an article is sold.
+- **Profit (Gain):** When SP > CP. Profit = SP − CP.
+- **Loss:** When SP < CP. Loss = CP − SP.
+- **Marked Price (MP):** The price printed on the article before any discount.
+- **Discount:** The reduction given on the marked price. SP = MP − Discount.
+
+## 3. Core Formulas
+
+- Profit % = (Profit ÷ CP) × 100
+- Loss % = (Loss ÷ CP) × 100
+- SP = CP × (100 + Profit%) ÷ 100
+- SP = CP × (100 − Loss%) ÷ 100
+- CP = SP × 100 ÷ (100 + Profit%)
+- CP = SP × 100 ÷ (100 − Loss%)
+- Discount % = (Discount ÷ MP) × 100
+- SP = MP × (100 − Discount%) ÷ 100
+
+**Key point:** Profit % and Loss % are always calculated on **CP**, but Discount % is always calculated on **MP**. Examiners exploit confusion between these two bases.
+
+## 4. Worked Examples
+
+**Example 1:** A shopkeeper buys a bag for ₹400 and sells it for ₹460. Find the profit %.
+
+Profit = 460 − 400 = ₹60. Profit % = (60 ÷ 400) × 100 = **15%**.
+
+**Example 2:** An article is sold for ₹810 at a loss of 10%. Find the CP.
+
+CP = 810 × 100 ÷ (100 − 10) = 810 × 100 ÷ 90 = **₹900**.
+
+**Example 3:** The marked price of a shirt is ₹500. A discount of 20% is given. Find the SP.
+
+SP = 500 × (100 − 20) ÷ 100 = 500 × 80 ÷ 100 = **₹400**.
+
+**Example 4:** A trader marks goods 25% above CP and gives a discount of 10%. Find the profit %.
+
+Let CP = ₹100. Then MP = ₹125. SP = 125 × 90 ÷ 100 = ₹112.50. Profit % = **12.5%**.
+
+## 5. Special Cases Frequently Asked
+
+- **Selling two articles at the same SP, one at x% profit and one at x% loss:** There is always an overall loss, and Loss % = (x² ÷ 100)%.
+- **Dishonest dealer using false weights:** Profit % = (Error ÷ True weight − Error) × 100, where Error = true weight − weight actually given.
+- **Successive discounts:** Two successive discounts of a% and b% equal a single discount of (a + b − ab/100)%. Successive discounts are never simply added.
+
+## 6. PYQ Pattern Analysis
+
+Examiners typically ask this chapter in these ways:
+
+- Direct calculation of profit % or loss % from given CP and SP — the easiest form.
+- Finding CP or SP when the percentage and the other price are given.
+- Marked price problems combining a markup on CP with a discount on MP — the most common trap is applying the discount to CP instead of MP.
+- The "same selling price, one profit one loss" pattern, where many students wrongly guess "no profit, no loss."
+- False-weight problems in which a dishonest shopkeeper claims to sell at cost price.
+- Successive discount questions testing whether you add the discounts (wrong) or apply them one after another (right).
+
+**Common traps:** nearly-correct statements that swap the base (CP vs MP), confusion between "profit on SP" and "profit on CP," and negative wording such as "there is NO loss."
+
+**Time tip:** Learn the fraction equivalents (10% = 1/10, 12.5% = 1/8, 20% = 1/5, 25% = 1/4). Most direct questions should take under 45 seconds with fractions instead of long multiplication.
+
+## 7. Mind Map
+
+```mermaid
+graph TD
+    A["Profit and Loss"] --> B["Basic Terms<br>CP, SP, MP"]
+    A --> C["Formulas<br>Profit% and Loss% on CP"]
+    A --> D["Discount<br>Always on MP"]
+    A --> E["Special Cases"]
+    E --> E1["Same SP: profit + loss<br>Overall loss = x²/100 %"]
+    E --> E2["False weights"]
+    E --> E3["Successive discounts<br>a + b − ab/100"]
+```
+
+## 8. Flashcards
+
+Card 1
+Front: What is Cost Price (CP)?
+Back: The price at which an article is bought.
+
+Card 2
+Front: What is Selling Price (SP)?
+Back: The price at which an article is sold.
+
+Card 3
+Front: Formula for Profit %
+Back: (Profit ÷ CP) × 100, where Profit = SP − CP.
+
+Card 4
+Front: Formula for Loss %
+Back: (Loss ÷ CP) × 100, where Loss = CP − SP.
+
+Card 5
+Front: On which price is profit % or loss % always calculated?
+Back: On the Cost Price (CP).
+
+Card 6
+Front: On which price is discount always calculated?
+Back: On the Marked Price (MP).
+
+Card 7
+Front: SP when CP and profit % are known
+Back: SP = CP × (100 + Profit%) ÷ 100.
+
+Card 8
+Front: CP when SP and loss % are known
+Back: CP = SP × 100 ÷ (100 − Loss%).
+
+Card 9
+Front: Two articles sold at the same SP, one at x% profit and one at x% loss — result?
+Back: Always an overall loss of (x² ÷ 100)%.
+
+Card 10
+Front: Single discount equal to successive discounts of a% and b%
+Back: (a + b − ab/100)%.
+
+Card 11
+Front: A trader marks goods 25% above CP and allows 10% discount. Profit %?
+Back: 12.5% (MP = 125, SP = 112.5 when CP = 100).
+
+Card 12
+Front: An article sold at ₹810 with 10% loss. CP?
+Back: ₹900 (CP = 810 × 100 ÷ 90).
+
+Card 13
+Front: Dishonest dealer false-weight profit % formula
+Back: (Error ÷ (True weight − Error)) × 100.
+
+Card 14
+Front: Fraction equivalents worth memorising
+Back: 10% = 1/10, 12.5% = 1/8, 20% = 1/5, 25% = 1/4, 50% = 1/2.
+
+Card 15
+Front: Biggest trap in marked price questions
+Back: Applying the discount to CP instead of MP — discount is always on MP.
