@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 10-10-2026 03:47 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
+**आख़िरी update:** 10-10-2026 04:02 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 145 मिनट |
-| W2 | Chapter 23 Quadratic Equations (12th Maths) | ✍️ लिख रहा है | 21 मिनट |
+| W1 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 1 मिनट |
+| W2 | Chapter 23 Quadratic Equations (12th Maths) | ✍️ लिख रहा है | 36 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -47,21 +47,11 @@
 - Chapter 14 Sports (GK) — 2 बार
 - Chapter 22 Number Series (Maths) — 2 बार
 - Chapter 23 Quadratic Equations (Maths) — 1 बार
+- Chapter 20 Probability (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 03:07:49 DONE 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_16_Algebra in 11 min → 6289ddd6
-10-10 03:07:51 worker 7: nothing left
-10-10 03:16:25   [Statistics] review PYQ_hi.txt: 1 issue(s): - उत्तर: (a) → उत्तर: (b)
-10-10 03:18:34   [Number_Series] FAILED review Content_hi.txt: network — the chapter must not be published unreviewed
-10-10 03:20:01   [Number_Series] review Mind_Map.txt: 3 issue(s): - Mermaid syntax is completely broken: mismatched brackets/quotes, invalid arrows (`-->` vs `=`), and truncated node 
-10-10 03:24:55   [Permutation_Combination] review: 3 section(s) corrected, 2 failed
-10-10 03:24:55   [Permutation_Combination] written 3, failed 2; AI calls today 155/100000
-10-10 03:24:55 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_21_Permutation_Combination after 119 min: todo [] problems []
-10-10 03:24:57 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_21_Permutation_Combination (OK: todo 0, problems 0)
-10-10 03:25:24   [Statistics] review Short_Tricks_hi.txt: 1 issue(s): - Trick 15 claims "माध्यिका हमेशा माध्य और बहुलक के बीच" → This is not universally true; it holds only for mod
-10-10 03:26:20   [Probability] Practice_en_Set_05.txt try 2: rejected (parsed 0 questions, numbers -…-)
 10-10 03:26:32   [Quadratic_Equations] FAILED Practice_en_Set_06.txt: network
 10-10 03:26:32   [Quadratic_Equations] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
 10-10 03:26:32   [Quadratic_Equations] written 2, failed 6; AI calls today 158/100000
@@ -91,4 +81,15 @@
 10-10 03:42:16 worker 3: nothing left
 10-10 03:42:27   [Quadratic_Equations] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 10-10 03:46:30   [Probability] Practice_en_Set_06.txt try 1: rejected (parsed 22 questions, numbers 126…150)
+10-10 03:52:35   [Probability] Practice_en_Set_06.txt try 2: rejected (parsed 23 questions, numbers 126…150)
+10-10 03:53:11   [Quadratic_Equations] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+10-10 03:56:47   [Quadratic_Equations] Practice_en_Set_04.txt try 1: rejected (Q88:leaked_reasoning)
+10-10 03:57:47   [Probability] Practice_en_Set_06.txt try 3: rejected (parsed 23 questions, numbers 126…150)
+10-10 03:59:49   [Quadratic_Equations] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+10-10 04:01:47   [Probability] Practice_en_Set_06.txt try 4: rejected (parsed 0 questions, numbers -…-)
+10-10 04:01:47   [Probability] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+10-10 04:01:47   [Probability] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+10-10 04:01:47   [Probability] written 2, failed 9; AI calls today 185/100000
+10-10 04:01:47 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_20_Probability after 159 min: todo ['Short_Tricks_en.txt', 'Set 02 en: todo', 'Set 02 hi: todo', 'Set 03 en: todo'] problems ['Content_en.txt: does not mention the chapter topic (probabil']
+10-10 04:01:50 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_20_Probability (TODO: todo 9, problems 1)
 ```
