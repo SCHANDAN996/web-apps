@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 02:23 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 02:29 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Para Jumbles (12th English) | ✍️ लिख रहा है | 14 मिनट |
-| W2 | Chapter 23 Sentence Arrangement (12th English) | ✍️ लिख रहा है | 6 मिनट |
-| W3 | Chapter 01 Analogy (12th Reasoning) | 🔎 review हो रहा है | 0 मिनट |
-| W4 | Chapter 03 Coding Decoding (12th Reasoning) | ✍️ लिख रहा है | 31 मिनट |
-| W5 | Chapter 04 Blood Relations (12th Reasoning) | ✍️ लिख रहा है | 31 मिनट |
+| W1 | Chapter 22 Para Jumbles (12th English) | ✍️ लिख रहा है | 20 मिनट |
+| W2 | Chapter 23 Sentence Arrangement (12th English) | ✍️ लिख रहा है | 11 मिनट |
+| W3 | Chapter 01 Analogy (12th Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W4 | Chapter 03 Coding Decoding (12th Reasoning) | ✍️ लिख रहा है | 36 मिनट |
+| W5 | Chapter 04 Blood Relations (12th Reasoning) | ✍️ लिख रहा है | 36 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,7 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 09-10 14:29 — 12th Reasoning · Chapter 01 Analogy
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
@@ -45,10 +45,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 13:52:33 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_23_Sentence_Arrangement (TODO: todo 2, problems 3)
-09-10 13:52:38 START 12th_Level/Reasoning/Chapter_01_Analogy (OK: todo 0, problems 0)
-09-10 13:52:43 START 12th_Level/Reasoning/Chapter_03_Coding_Decoding (TODO: todo 6, problems 3)
-09-10 13:52:48 START 12th_Level/Reasoning/Chapter_04_Blood_Relations (TODO: todo 10, problems 1)
 09-10 13:53:48   [Para_Jumbles] Practice_en_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
 09-10 13:54:18   [Analogy] review Content_en.txt: 1 issue(s): - The Trap 3 example (Apple : Fruit with options Mango : Tree and Carrot : Vegetable) incorrectly claims two option
 09-10 13:54:35   [Coding_Decoding] wrote Feynman_en.txt (4103 chars)
@@ -85,4 +81,8 @@
 09-10 14:23:08   [Analogy] written 2, failed 1; AI calls today 48/100000
 09-10 14:23:08 NOT OK 12th_Level/Reasoning/Chapter_01_Analogy after 31 min: todo [] problems []
 09-10 14:23:09 START 12th_Level/Reasoning/Chapter_01_Analogy (OK: todo 0, problems 0)
+09-10 14:24:40   [Blood_Relations] Practice_en_Set_03.txt try 1: rejected (Q53:leaked_reasoning,Q61:leaked_reasoning,Q68:leaked_reasoning,Q69:leaked_reasoning)
+09-10 14:26:02   [Analogy] review Short_Tricks_en.txt: 1 issue(s): - Box 5: The example "Horse : Mare" is presented as a male:female pair, but "horse" is gender-neutral (the mal
+09-10 14:29:22   [Analogy] review: 1 section(s) corrected, 0 failed
+09-10 14:29:22   [Analogy] written 1, failed 0; AI calls today 51/100000
 ```
