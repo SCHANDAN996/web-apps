@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 09:09 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 09:13 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 25 Word Roots (12th English) | ✍️ लिख रहा है | 2 मिनट |
-| W2 | Chapter 16 Idioms Phrases (12th English) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 22 Para Jumbles (12th English) | ✍️ लिख रहा है | 42 मिनट |
-| W4 | Chapter 23 Sentence Arrangement (12th English) | ✍️ लिख रहा है | 42 मिनट |
-| W5 | Chapter 24 RC Basic (12th English) | ✍️ लिख रहा है | 42 मिनट |
+| W1 | Chapter 25 Word Roots (12th English) | ✍️ लिख रहा है | 6 मिनट |
+| W2 | Chapter 01 Analogy (12th Reasoning) | ✍️ लिख रहा है | 3 मिनट |
+| W3 | Chapter 22 Para Jumbles (12th English) | ✍️ लिख रहा है | 46 मिनट |
+| W4 | Chapter 23 Sentence Arrangement (12th English) | ✍️ लिख रहा है | 46 मिनट |
+| W5 | Chapter 24 RC Basic (12th English) | ✍️ लिख रहा है | 46 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -23,14 +23,14 @@
 | 10th Maths | 9 | 13 | 0 |
 | 10th English | 0 | 0 | 20 |
 | 12th Maths | 0 | 0 | 23 |
-| 12th GK | 11 | 0 | 13 |
+| 12th GK | 12 | 0 | 12 |
 | 12th Reasoning | 0 | 0 | 25 |
 | 12th English | 21 | 0 | 4 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 9 | 0 | 19 |
+| Graduation GK | 11 | 0 | 17 |
 | Graduation Reasoning | 1 | 0 | 29 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **121** | **13** | **162** |
+| **कुल** | **124** | **13** | **159** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -40,11 +40,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 08:41:49   [RC_Basic] wrote Short_Tricks_en.txt (4673 chars)
-09-10 08:43:36   [Idioms_Phrases] review Content_hi.txt: 1 issue(s): - The Reading Comprehension passage misuses "incredible" to mean 'not believed'; "incredible" means 'amazing/unbeli
-09-10 08:43:38   [Sentence_Arrangement] Practice_en_Set_04.txt try 2: re-solve disagrees (Q79 key a vs re-solve b)
-09-10 08:44:41   [RC_Basic] wrote Short_Tricks_hi.txt (4597 chars)
-09-10 08:45:00   [Antonyms] review Flashcards_en.txt: 1 issue(s): - Card 10 presents "Triumph ↔ Disaster" as an antonym pair, but they are not antonyms (disaster is a calamity, n
 09-10 08:45:05   [Para_Jumbles] Mind_Map_hi.txt try 1: answer too long — asking for a tighter version
 09-10 08:45:29   [Para_Jumbles] wrote Mind_Map_hi.txt (1533 chars)
 09-10 08:45:35   [RC_Basic] wrote Important_Rules_en.txt (5542 chars)
@@ -80,4 +75,9 @@
 09-10 09:08:25   [Word_Roots] wrote Content_en.txt (7140 chars)
 09-10 09:09:48   [Idioms_Phrases] review: 7 section(s) corrected, 0 failed
 09-10 09:09:48   [Idioms_Phrases] written 7, failed 0; AI calls today 92/100000
+09-10 09:10:01 DONE 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_16_Idioms_Phrases in 43 min → 41abc151
+09-10 09:10:03 START 12th_Level/Reasoning/Chapter_01_Analogy (TODO: todo 25, problems 0)
+09-10 09:10:09   [Word_Roots] wrote Content_hi.txt (6014 chars)
+09-10 09:11:34   [Analogy] wrote Content_en.txt (6917 chars)
+09-10 09:12:13   [Para_Jumbles] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 ```
