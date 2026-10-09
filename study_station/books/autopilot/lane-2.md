@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 07:48 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 08:04 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Awards (Graduation GK) | ✍️ लिख रहा है | 84 मिनट |
-| W2 | Chapter 16 Books Authors (Graduation GK) | ✍️ लिख रहा है | 48 मिनट |
-| W3 | Chapter 15 Days Dates (Graduation GK) | ✍️ लिख रहा है | 57 मिनट |
-| W4 | Chapter 14 Sports (Graduation GK) | ✍️ लिख रहा है | 64 मिनट |
-| W5 | Chapter 12 Biology (Graduation GK) | 🔎 review हो रहा है | 26 मिनट |
+| W1 | Chapter 13 Awards (Graduation GK) | ✍️ लिख रहा है | 100 मिनट |
+| W2 | Chapter 16 Books Authors (Graduation GK) | ✍️ लिख रहा है | 63 मिनट |
+| W3 | Chapter 15 Days Dates (Graduation GK) | ✍️ लिख रहा है | 72 मिनट |
+| W4 | Chapter 14 Sports (Graduation GK) | ✍️ लिख रहा है | 79 मिनट |
+| W5 | Chapter 12 Biology (Graduation GK) | 🔎 review हो रहा है | 41 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -50,21 +50,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 07:11:26   [Books_Authors] wrote Key_Facts_en.txt (9987 chars)
-09-10 07:11:26   [Awards] wrote PYQ_en.txt (10784 chars)
-09-10 07:11:58   [Sports] wrote PYQ_en.txt (8482 chars)
-09-10 07:14:22   [Books_Authors] wrote Key_Facts_hi.txt (5458 chars)
-09-10 07:14:29   [Days_Dates] wrote Feynman_en.txt (2895 chars)
-09-10 07:16:12   [Biology] REJECTED PYQ_hi.txt: corrupted characters — not written
-09-10 07:16:43   [Sports] wrote PYQ_hi.txt (7172 chars)
-09-10 07:17:09   [Days_Dates] wrote Feynman_hi.txt (2544 chars)
-09-10 07:18:31   [Sports] wrote Memory_Hooks_en.txt (4864 chars)
-09-10 07:18:51   [Days_Dates] wrote Mind_Map.txt (2193 chars)
-09-10 07:19:01   [Biology] repaired Memory_Hooks_hi.txt (5377 chars)
-09-10 07:19:01   [Biology] written 1, failed 1; AI calls today 435/100000
-09-10 07:19:21   [Awards] wrote PYQ_hi.txt (7589 chars)
-09-10 07:21:32   [Days_Dates] wrote Flashcards_en.txt (5134 chars)
-09-10 07:21:54   [Books_Authors] wrote Feynman_en.txt (3048 chars)
 09-10 07:22:16   [Biology] repaired PYQ_hi.txt (6797 chars)
 09-10 07:22:16   [Biology] written 1, failed 0; AI calls today 439/100000
 09-10 07:22:26   [Sports] wrote Memory_Hooks_hi.txt (6917 chars)
@@ -90,4 +75,19 @@
 09-10 07:47:19   [Biology] review Mind_Map.txt: 4 issue(s): - Node G: Hindi "श्वसन तंत्र" (Respiratory System) contradicts English "Nervous System" → Hindi should be "तंत्रिका त
 09-10 07:47:30   [Books_Authors] wrote PYQ_hi.txt (6899 chars)
 09-10 07:47:44   [Sports] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 07:50:46   [Awards] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 07:51:20   [Sports] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 07:54:26   [Sports] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 07:54:38   [Books_Authors] Memory_Hooks_en.txt try 1: rejected (corrupted characters)
+09-10 07:54:45   [Awards] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+09-10 07:56:48   [Awards] Practice_hi_Set_02.txt try 1: rejected (parsed 8 questions, numbers 26…33)
+09-10 07:56:53   [Books_Authors] wrote Memory_Hooks_en.txt (4744 chars)
+09-10 07:56:59   [Sports] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 07:57:26   [Days_Dates] Memory_Hooks_hi.txt try 1: answer too long — asking for a tighter version
+09-10 07:59:34   [Books_Authors] wrote Memory_Hooks_hi.txt (5087 chars)
+09-10 07:59:43   [Awards] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 07:59:49   [Sports] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 08:00:23   [Days_Dates] wrote Memory_Hooks_hi.txt (7389 chars)
+09-10 08:03:12   [Awards] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 08:03:46   [Days_Dates] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 ```
