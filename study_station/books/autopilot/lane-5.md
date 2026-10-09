@@ -9,9 +9,8 @@
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
 | W3 | Chapter 19 Statistics (10th Maths) | 🔧 सुधार रहा है | 4 मिनट |
-| W4 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 15 मिनट |
-| W5 | Chapter 22 Permutation Combination (10th Maths) | 📤 push हो रहा है | 0 मिनट |
-| W6 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 13 मिनट |
+| W4 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 16 मिनट |
+| W6 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 14 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -25,11 +24,11 @@
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 8 | 0 | 17 |
 | 12th English | 25 | 0 | 0 |
-| Graduation Maths | 3 | 0 | 25 |
+| Graduation Maths | 4 | 0 | 24 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 12 | 0 | 18 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **213** | **7** | **76** |
+| **कुल** | **214** | **7** | **75** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -53,8 +52,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 00:46:02   [Mixture_Alligation] set 01 try 2: rejected (parsed 0 questions, numbers -…-)
-10-10 00:46:52   [Permutation_Combination] Practice_hi_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
 10-10 00:47:00   [Permutation_Combination] Practice_hi_Set_04.txt try 2: rejected (parsed 0 questions, numbers -…-)
 10-10 00:47:53   [Probability] set 06 try 2: rejected (parsed 0 questions, numbers -…-)
 10-10 00:49:25   [Permutation_Combination] repaired set 04 (en + hi, key confirmed by an independent re-solve)
@@ -93,4 +90,6 @@
 10-10 01:08:05   [Mixture_Alligation] set 01 try 3: rejected (parsed 0 questions, numbers -…-)
 10-10 01:09:36   [Permutation_Combination] review: 2 section(s) corrected, 0 failed
 10-10 01:09:36   [Permutation_Combination] written 2, failed 0; AI calls today 114/100000
+10-10 01:09:56 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_22_Permutation_Combination in 129 min → 069aa602
+10-10 01:09:59 worker 4: nothing left
 ```
