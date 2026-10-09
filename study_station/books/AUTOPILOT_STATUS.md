@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 06:19 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 06:34 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 Blood Relations (Graduation Reasoning) | ✍️ लिख रहा है | 113 मिनट |
-| W2 | Chapter 03 Coding Decoding (Graduation Reasoning) | ✍️ लिख रहा है | 126 मिनट |
-| W3 | Chapter 02 Classification (Graduation Reasoning) | ✍️ लिख रहा है | 174 मिनट |
-| W4 | Chapter 05 Direction Sense (Graduation Reasoning) | ✍️ लिख रहा है | 62 मिनट |
-| W5 | Chapter 06 Order Ranking (Graduation Reasoning) | ✍️ लिख रहा है | 27 मिनट |
+| W1 | Chapter 04 Blood Relations (Graduation Reasoning) | ✍️ लिख रहा है | 128 मिनट |
+| W2 | Chapter 03 Coding Decoding (Graduation Reasoning) | ✍️ लिख रहा है | 141 मिनट |
+| W3 | Chapter 02 Classification (Graduation Reasoning) | ✍️ लिख रहा है | 189 मिनट |
+| W4 | Chapter 05 Direction Sense (Graduation Reasoning) | ✍️ लिख रहा है | 77 मिनट |
+| W5 | Chapter 06 Order Ranking (Graduation Reasoning) | ✍️ लिख रहा है | 42 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md)
 
@@ -27,12 +27,12 @@
 | 12th Maths | 0 | 0 | 23 |
 | 12th GK | 8 | 0 | 16 |
 | 12th Reasoning | 0 | 0 | 25 |
-| 12th English | 14 | 0 | 11 |
+| 12th English | 16 | 0 | 9 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 7 | 0 | 21 |
 | Graduation Reasoning | 1 | 0 | 29 |
 | Graduation English | 28 | 1 | 1 |
-| **कुल** | **108** | **14** | **174** |
+| **कुल** | **110** | **14** | **172** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -48,20 +48,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 05:41:58   [Coding_Decoding] wrote Important_Rules_en.txt (4477 chars)
-09-10 05:42:00   [Analogy] review: 3 section(s) corrected, 1 failed
-09-10 05:42:00   [Analogy] written 3, failed 1; AI calls today 240/100000
-09-10 05:42:00 NOT OK Graduation_Level/Reasoning/Chapter_01_Analogy after 160 min: todo [] problems []
-09-10 05:42:02 START Graduation_Level/Reasoning/Chapter_01_Analogy (OK: todo 0, problems 0)
-09-10 05:42:22   [Direction_Sense] wrote Short_Tricks_hi.txt (5945 chars)
-09-10 05:42:42   [Blood_Relations] Practice_en_Set_02.txt try 3: rejected (Q39:leaked_reasoning)
-09-10 05:42:45   [Classification] Practice_en_Set_04.txt try 3: re-solve disagrees (Q83 key a vs re-solve d, Q93 key b vs re-solve a)
-09-10 05:43:33   [Direction_Sense] wrote Important_Rules_en.txt (3543 chars)
-09-10 05:43:38   [Coding_Decoding] wrote Important_Rules_hi.txt (3010 chars)
-09-10 05:44:34   [Direction_Sense] wrote Important_Rules_hi.txt (1807 chars)
-09-10 05:46:53   [Coding_Decoding] Practice_en_Set_01.txt try 1: rejected (Q22:leaked_reasoning,Q23:leaked_reasoning,Q13:duplicate_options,Q17:duplicate_options,Q21:duplicate_options)
-09-10 05:47:20   [Direction_Sense] Practice_en_Set_01.txt try 1: rejected (Q12:leaked_reasoning)
-09-10 05:48:00   [Analogy] review Content_hi.txt: 2 issue(s): - "80% छात्रों को फँसाता है" → invented statistic; replace with "कई छात्रों को फँसाता है" or remove the percentage
 09-10 05:51:39   [Analogy] review: 1 section(s) corrected, 0 failed
 09-10 05:51:39   [Analogy] written 1, failed 0; AI calls today 254/100000
 09-10 05:51:51 DONE Graduation_Level/Reasoning/Chapter_01_Analogy in 10 min → 4aebeffe
@@ -88,4 +74,18 @@
 09-10 06:15:44   [Order_Ranking] wrote Feynman_en.txt (6256 chars)
 09-10 06:16:06   [Blood_Relations] Practice_en_Set_03.txt try 2: re-solve disagrees (Q60 key c vs re-solve b)
 09-10 06:18:35   [Coding_Decoding] Practice_en_Set_02.txt try 1: rejected (Q26:leaked_reasoning,Q31:leaked_reasoning,Q36:leaked_reasoning,Q37:leaked_reasoning,Q40:leaked_reasoning)
+09-10 06:20:50   [Classification] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 06:21:59   [Direction_Sense] Practice_en_Set_02.txt try 4: re-solve disagrees (Q40 key d vs re-solve b, Q46 key a vs re-solve b)
+09-10 06:21:59   [Direction_Sense] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
+09-10 06:21:59   [Direction_Sense] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+09-10 06:22:55   [Classification] Practice_hi_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 06:25:21   [Classification] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 06:25:27   [Direction_Sense] Practice_en_Set_03.txt try 1: rejected (Q71:leaked_reasoning)
+09-10 06:28:12   [Blood_Relations] Practice_en_Set_03.txt try 3: re-solve disagrees (Q64 key b vs re-solve d)
+09-10 06:28:18   [Classification] Practice_en_Set_06.txt try 1: rejected (Q129:leaked_reasoning,Q130:leaked_reasoning,Q133:leaked_reasoning,Q134:leaked_reasoning,Q138:leaked_reasoning)
+09-10 06:29:17   [Direction_Sense] Practice_en_Set_03.txt try 2: re-solve disagrees (Q71 key a vs re-solve d, Q74 key b vs re-solve d)
+09-10 06:30:42   [Classification] Practice_en_Set_06.txt try 2: rejected (Q141:leaked_reasoning)
+09-10 06:31:04   [Order_Ranking] Feynman_hi.txt try 1: answer too long — asking for a tighter version
+09-10 06:34:07   [Order_Ranking] wrote Feynman_hi.txt (3714 chars)
+09-10 06:34:21   [Coding_Decoding] Practice_en_Set_02.txt try 2: re-solve disagrees (Q30 key b vs re-solve a)
 ```
