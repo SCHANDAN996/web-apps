@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 10-10-2026 04:48 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
+**आख़िरी update:** 10-10-2026 05:03 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 46 मिनट |
-| W2 | Chapter 23 Quadratic Equations (12th Maths) | 🔎 review हो रहा है | 33 मिनट |
+| W1 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 62 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -23,11 +22,11 @@
 | 12th GK | 22 | 2 | 0 |
 | 12th Reasoning | 10 | 0 | 15 |
 | 12th English | 25 | 0 | 0 |
-| Graduation Maths | 13 | 0 | 15 |
+| Graduation Maths | 14 | 0 | 14 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 13 | 0 | 17 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **235** | **6** | **55** |
+| **कुल** | **236** | **6** | **54** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -46,22 +45,12 @@
 - Chapter 13 Mixture Alligation (Maths) — 2 बार
 - Chapter 14 Sports (GK) — 2 बार
 - Chapter 22 Number Series (Maths) — 2 बार
-- Chapter 23 Quadratic Equations (Maths) — 1 बार
+- Chapter 23 Quadratic Equations (Maths) — 2 बार
 - Chapter 20 Probability (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 03:42:14 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_22_Number_Series after 79 min: todo [] problems []
-10-10 03:42:16 worker 3: nothing left
-10-10 03:42:27   [Quadratic_Equations] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-10-10 03:46:30   [Probability] Practice_en_Set_06.txt try 1: rejected (parsed 22 questions, numbers 126…150)
-10-10 03:52:35   [Probability] Practice_en_Set_06.txt try 2: rejected (parsed 23 questions, numbers 126…150)
-10-10 03:53:11   [Quadratic_Equations] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-10-10 03:56:47   [Quadratic_Equations] Practice_en_Set_04.txt try 1: rejected (Q88:leaked_reasoning)
-10-10 03:57:47   [Probability] Practice_en_Set_06.txt try 3: rejected (parsed 23 questions, numbers 126…150)
-10-10 03:59:49   [Quadratic_Equations] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-10-10 04:01:47   [Probability] Practice_en_Set_06.txt try 4: rejected (parsed 0 questions, numbers -…-)
 10-10 04:01:47   [Probability] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
 10-10 04:01:47   [Probability] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
 10-10 04:01:47   [Probability] written 2, failed 9; AI calls today 185/100000
@@ -92,4 +81,14 @@
 10-10 04:46:11   [Probability] Practice_hi_Set_03.txt try 4: rejected (parsed 24 questions, numbers 51…75)
 10-10 04:46:11   [Probability] REJECTED Practice_hi_Set_03.txt: no translation passed the checks — not written
 10-10 04:48:05   [Probability] Practice_en_Set_05.txt try 1: rejected (parsed 23 questions, numbers 101…125)
+10-10 04:49:36   [Quadratic_Equations] review Important_Formulas_en.txt: 1 issue(s): - In GP table, "Product of n terms" formula P = a²rⁿ⁻¹ is incorrect → Correct product of n terms is aⁿ r
+10-10 04:49:57   [Probability] Practice_en_Set_05.txt try 2: rejected (parsed 24 questions, numbers 101…125)
+10-10 04:50:52   [Quadratic_Equations] review Important_Formulas_hi.txt: 2 issue(s): - Difference of roots formula |α − β| = √D / a is incorrect when a < 0 → should be |α − β| = √D / |a| (o
+10-10 04:51:41   [Quadratic_Equations] review: 5 section(s) corrected, 1 failed
+10-10 04:51:41   [Quadratic_Equations] written 5, failed 1; AI calls today 224/100000
+10-10 04:51:41 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_23_Quadratic_Equations after 85 min: todo [] problems []
+10-10 04:51:41 worker 1: nothing left
+10-10 04:52:40   [Probability] Practice_en_Set_05.txt try 3: re-solve disagrees (Q110 key a vs re-solve ?)
+10-10 04:57:19   [Probability] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+10-10 05:03:37   [Probability] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 ```
