@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 12:39 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:17 PM
+**आख़िरी update:** 10-10-2026 12:44 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 159 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🔎 review हो रहा है | 52 मिनट |
-| W4 | Chapter 19 Cubes Dice (Graduation Reasoning) | ✍️ लिख रहा है | 243 मिनट |
-| W7 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 137 मिनट |
+| W1 | Chapter 22 Para Jumbles Adv (Graduation English) | 🔧 सुधार रहा है | 1 मिनट |
+| W2 | Chapter 02 Classification (Graduation Reasoning) | ✍️ लिख रहा है | 0 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🔎 review हो रहा है | 0 मिनट |
+| W4 | Chapter 08 Puzzles (Graduation Reasoning) | 🔧 सुधार रहा है | 0 मिनट |
+| W5 | Chapter 12 Missing Term (Graduation Reasoning) | 🔧 सुधार रहा है | 0 मिनट |
+| W6 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 0 मिनट |
+| W7 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 0 मिनट |
+| W8 | Chapter 19 Cubes Dice (Graduation Reasoning) | ✍️ लिख रहा है | 0 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -35,62 +39,18 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- 09-10 23:50 — Graduation Reasoning · Chapter 16 Statement Conclusion
-- 09-10 23:44 — Graduation Reasoning · Chapter 15 Mathematical Operations
-- 09-10 23:31 — Graduation Reasoning · Chapter 18 Inequality
-- 09-10 21:59 — Graduation Reasoning · Chapter 17 Course of Action
-
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 02 Classification (Reasoning) — 2 बार
-- Chapter 22 Para Jumbles Adv (English) — 2 बार
-- Chapter 08 Puzzles (Reasoning) — 2 बार
-- Chapter 12 Missing Term (Reasoning) — 2 बार
-- Chapter 14 Alphabet Questions (Reasoning) — 2 बार
-- Chapter 13 Dictionary Order (Reasoning) — 2 बार
-- Chapter 07 Sitting Arrangement (Reasoning) — 1 बार
+- अभी कोई नहीं
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 23:31:39   [Sitting_Arrangement] Practice_en_Set_01.txt try 3: re-solve disagrees (Q24 key a vs re-solve ?)
-09-10 23:33:34   [Mathematical_Operations] review Short_Tricks_en.txt: 1 issue(s): - Box 1 says "Division (Of)" but "Of" means multiplication, not division → "Of" should be listed as multiplica
-09-10 23:34:59   [Cubes_Dice] Practice_en_Set_04.txt try 2: re-solve disagrees (Q86 key d vs re-solve b)
-09-10 23:35:37   [Mirror_Water_Images] Practice_en_Set_02.txt try 2: re-solve disagrees (Q26 key d vs re-solve -, Q33 key c vs re-solve b, Q34 key c vs re-solve -, Q35 key b vs re-solve -, 
-09-10 23:37:52   [Paper_Folding_Cutting] Practice_en_Set_01.txt try 1: re-solve disagrees (Q15 key b vs re-solve c)
-09-10 23:38:19   [Mathematical_Operations] review Short_Tricks_hi.txt: 5 issue(s): - "ओफ" in Trick 1 mnemonic is a misspelling of "Of" → correct to "ऑफ" or "ऑफ़"
-09-10 23:39:31   [Paper_Folding_Cutting] Practice_en_Set_01.txt try 2: rejected (parsed 0 questions, numbers -…-)
-09-10 23:42:46   [Mirror_Water_Images] Practice_en_Set_02.txt try 3: re-solve disagrees (Q40 key a vs re-solve d, Q49 key c vs re-solve a)
-09-10 23:43:31   [Paper_Folding_Cutting] Practice_en_Set_01.txt try 3: rejected (parsed 0 questions, numbers -…-)
-09-10 23:44:37   [Sitting_Arrangement] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 23:44:38   [Cubes_Dice] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-09-10 23:44:53   [Mathematical_Operations] review: 6 section(s) corrected, 0 failed
-09-10 23:44:53   [Mathematical_Operations] written 6, failed 0; AI calls today 498/100000
-09-10 23:45:09 DONE Graduation_Level/Reasoning/Chapter_15_Mathematical_Operations in 83 min → 676d86c1
-09-10 23:45:09 worker 7: nothing left
-09-10 23:47:16   [Cubes_Dice] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 23:47:49   [Sitting_Arrangement] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-09-10 23:47:49   [Sitting_Arrangement] written 2, failed 0; AI calls today 501/100000
-09-10 23:48:58   [Cubes_Dice] Practice_en_Set_05.txt try 1: rejected (Q125:leaked_reasoning)
-09-10 23:50:35   [Statement_Conclusion] review: 3 section(s) corrected, 0 failed
-09-10 23:50:35   [Statement_Conclusion] written 3, failed 0; AI calls today 503/100000
-09-10 23:50:54 DONE Graduation_Level/Reasoning/Chapter_16_Statement_Conclusion in 62 min → 00bee57e
-09-10 23:50:54 worker 0: nothing left
-09-10 23:50:56   [Cubes_Dice] Practice_en_Set_05.txt try 2: rejected (Q125:leaked_reasoning)
-09-10 23:52:47   [Mirror_Water_Images] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-09-10 23:55:22   [Mirror_Water_Images] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-09-10 23:55:31   [Mirror_Water_Images] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
-10-10 00:03:56   [Sitting_Arrangement] review Feynman_hi.txt: 2 issue(s): - कहानी में 8 कुर्सियाँ और 8 मेहमान बताए गए हैं (मामा, मामी, चाचा, चाची, बुआ, फूफा, भाई, तुम), लेकिन शर्त में "फूफा
-10-10 00:07:44   [Cubes_Dice] Practice_en_Set_05.txt try 3: re-solve disagrees (Q104 key d vs re-solve ?, Q108 key b vs re-solve ?, Q117 key d vs re-solve ?, Q119 key c vs re-solve
-10-10 00:08:28   [Paper_Folding_Cutting] FAILED Practice_en_Set_01.txt: too_long
-10-10 00:08:28   [Paper_Folding_Cutting] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
-10-10 00:08:34   [Mirror_Water_Images] Practice_en_Set_03.txt try 2: re-solve disagrees (Q52 key d vs re-solve b, Q71 key a vs re-solve b)
-10-10 00:12:50   [Cubes_Dice] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-10-10 00:16:52   [Cubes_Dice] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-10-10 00:18:43   [Cubes_Dice] Practice_en_Set_06.txt try 1: rejected (Q132:leaked_reasoning,Q136:leaked_reasoning)
-10-10 00:23:03   [Mirror_Water_Images] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-10-10 00:23:11   [Paper_Folding_Cutting] Practice_en_Set_02.txt try 1: re-solve disagrees (Q26 key b vs re-solve -, Q27 key c vs re-solve -, Q28 key d vs re-solve -, Q29 key b vs re-solve -, 
-10-10 00:23:54   [Sitting_Arrangement] review PYQ_en.txt: 3 issue(s): - Q1 answer (a) is not a valid answer to "Who is on A's immediate left?"; option (a) describes a trap, not a person or 
-10-10 00:25:12   [Mirror_Water_Images] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-10-10 00:34:42   [Cubes_Dice] Practice_en_Set_06.txt try 2: re-solve disagrees (Q128 key b vs re-solve c, Q130 key c vs re-solve a, Q132 key d vs re-solve c, Q136 key b vs re-solve
+10-10 00:43:32 autopilot start: 8 workers, reverse=True
+10-10 00:43:33 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv (FIX: todo 0, problems 1)
+10-10 00:43:39 START Graduation_Level/Reasoning/Chapter_02_Classification (TODO: todo 1, problems 0)
+10-10 00:43:44 START Graduation_Level/Reasoning/Chapter_07_Sitting_Arrangement (OK: todo 0, problems 0)
+10-10 00:43:49 START Graduation_Level/Reasoning/Chapter_08_Puzzles (FIX: todo 0, problems 1)
+10-10 00:43:54 START Graduation_Level/Reasoning/Chapter_12_Missing_Term (FIX: todo 0, problems 1)
+10-10 00:43:59 START Graduation_Level/Reasoning/Chapter_13_Dictionary_Order (TODO: todo 6, problems 0)
+10-10 00:44:04 START Graduation_Level/Reasoning/Chapter_14_Alphabet_Questions (TODO: todo 6, problems 0)
+10-10 00:44:09 START Graduation_Level/Reasoning/Chapter_19_Cubes_Dice (TODO: todo 6, problems 1)
 ```
