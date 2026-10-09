@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 06:41 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 06:57 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Ratio Proportion (12th Maths) | ✍️ लिख रहा है | 89 मिनट |
-| W2 | Chapter 10 Compound Interest (12th Maths) | ✍️ लिख रहा है | 76 मिनट |
-| W3 | Chapter 08 Profit Loss (12th Maths) | ✍️ लिख रहा है | 80 मिनट |
-| W5 | Chapter 09 Simple Interest (12th Maths) | ✍️ लिख रहा है | 78 मिनट |
+| W1 | Chapter 07 Ratio Proportion (12th Maths) | ✍️ लिख रहा है | 104 मिनट |
+| W2 | Chapter 10 Compound Interest (12th Maths) | ✍️ लिख रहा है | 91 मिनट |
+| W3 | Chapter 08 Profit Loss (12th Maths) | ✍️ लिख रहा है | 95 मिनट |
+| W5 | Chapter 09 Simple Interest (12th Maths) | ✍️ लिख रहा है | 93 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -53,20 +53,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 18:05:43   [Ratio_Proportion] wrote Important_Formulas_en.txt (2611 chars)
-09-10 18:07:40   [Compound_Interest] wrote PYQ_en.txt (7346 chars)
-09-10 18:09:28   [Profit_Loss] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 18:09:37   [Simple_Interest] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 18:10:37   [Compound_Interest] wrote PYQ_hi.txt (8089 chars)
-09-10 18:11:51   [Simple_Interest] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-09-10 18:12:13   [Simple_Interest] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 18:12:31   [Compound_Interest] wrote Short_Tricks_en.txt (11360 chars)
-09-10 18:13:01   [Average] review Short_Tricks_hi.txt: 2 issue(s): - ट्रिक 7 का सूत्र "नया औसत = पुराना औसत ± (कुल बदलाव ÷ नई गिनती)" गलत है → सही सूत्र: नया औसत = (पुराना योग +
-09-10 18:13:47   [Compound_Interest] wrote Short_Tricks_hi.txt (5219 chars)
-09-10 18:14:12   [Compound_Interest] wrote Important_Formulas_en.txt (2392 chars)
-09-10 18:16:32   [Compound_Interest] wrote Important_Formulas_hi.txt (2233 chars)
-09-10 18:19:11   [Compound_Interest] Practice_en_Set_01.txt try 1: rejected (Q13:answer_solution_conflict)
-09-10 18:20:24   [Average] review Important_Formulas_hi.txt: 1 issue(s): - The claim "यही एक सूत्र लगभग 80% प्रश्नों की कुंजी है" is an invented exam weightage statistic without
 09-10 18:22:26   [Ratio_Proportion] Important_Formulas_hi.txt try 1: answer too long — asking for a tighter version
 09-10 18:23:27   [Average] review: 4 section(s) corrected, 1 failed
 09-10 18:23:27   [Average] written 4, failed 1; AI calls today 481/100000
@@ -93,4 +79,18 @@
 09-10 18:39:52   [Profit_Loss] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 09-10 18:41:56   [Simple_Interest] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 09-10 18:41:59   [Compound_Interest] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 18:44:18   [Profit_Loss] Practice_en_Set_03.txt try 1: rejected (parsed 5 questions, numbers 51…55)
+09-10 18:44:18   [Simple_Interest] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 18:44:22   [Profit_Loss] Practice_en_Set_03.txt try 2: rejected (parsed 0 questions, numbers -…-)
+09-10 18:46:13   [Compound_Interest] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 18:47:09   [Profit_Loss] Practice_en_Set_03.txt try 3: rejected (Q54:leaked_reasoning)
+09-10 18:48:08   [Simple_Interest] Practice_en_Set_04.txt try 1: rejected (Q83:leaked_reasoning,Q85:leaked_reasoning,Q88:answer_solution_conflict,Q90:answer_solution_conflict,Q92:leaked
+09-10 18:50:00   [Ratio_Proportion] FAILED Practice_en_Set_02.txt: too_long
+09-10 18:50:00   [Ratio_Proportion] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+09-10 18:50:03   [Ratio_Proportion] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 18:50:21   [Compound_Interest] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 18:52:50   [Compound_Interest] Practice_en_Set_05.txt try 1: rejected (Q115:answer_solution_conflict,Q125:leaked_reasoning)
+09-10 18:53:24   [Ratio_Proportion] Practice_en_Set_03.txt try 2: rejected (Q62:leaked_reasoning,Q63:leaked_reasoning,Q74:leaked_reasoning,Q75:leaked_reasoning)
+09-10 18:53:51   [Simple_Interest] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 18:56:29   [Simple_Interest] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 ```
