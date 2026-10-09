@@ -1,0 +1,178 @@
+# Direction Sense (Coded / Distance)
+
+## 1. Outline and Learning Goals
+
+In this chapter you will master:
+
+- The four cardinal directions and the four sub-directions, and how to rotate between them.
+- Distance questions: Pythagoras-based shortest distance, total distance travelled.
+- **Coded directions** — where "East" is called "North", or symbols like `@`, `#` stand for turns.
+- Shadow-based and clock-based direction questions.
+- The exact traps examiners set, and how to sidestep them in under 30 seconds.
+
+By the end, you should be able to solve any direction question — plain or coded — with a quick sketch and zero confusion.
+
+---
+
+## 2. The Hook: One Wrong Turn Costs You the Mark
+
+A man walks 5 km North, turns right, walks 3 km, turns right again and walks 5 km. Where is he?
+
+Most students answer "3 km East of the start" — correct. But change one word — "turns **left**" instead of right — and half the hall gets it wrong. Direction Sense is the cheapest marks in the paper: no formulas to memorise, no calculation beyond Pythagoras. Yet examiners harvest errors here every year, because students solve it **in their head** instead of **on paper**. This chapter teaches you one habit — *draw everything* — and the coded variants that SSC CGL, IBPS PO and state PCS prelims love.
+
+---
+
+## 3. The Common Struggle (You Are Not Alone)
+
+Students typically stumble on three things:
+
+1. **Left/right confusion after a turn.** When a person faces South, their left is *your* right on the page. The brain resists this.
+2. **Coded language.** "A @ B means A is 5 m North of B" — students decode the symbols but forget to apply them step by step.
+3. **"Shortest distance" vs "total distance".** The question asks one; students compute the other.
+
+Every one of these is fixed by the same cure: a small, neat diagram drawn as you read each line.
+
+---
+
+## 4. Chunk 1 — The Direction Grid
+
+Fix this in memory:
+
+```
+        North (N)
+          |
+West -----+----- East (E)
+          |
+        South (S)
+```
+
+Between them lie the sub-directions: **North-East (NE), North-West (NW), South-East (SE), South-West (SW)**.
+
+Key rotation facts:
+
+- Turning **right (clockwise)** from North → East → South → West → North.
+- Turning **left (anti-clockwise)** reverses the cycle.
+- A **180° turn** (about-turn) flips you to the opposite direction.
+- A **45° right turn** from North lands you on North-East.
+
+🧠 **Active Recall:** Close the book. A man faces West. He turns 90° left, then 180°, then 45° right. Which way does he face now? (Answer: West → left 90° = South → 180° = North → right 45° = North-East.)
+
+---
+
+## 5. Chunk 2 — The Golden Habit: Draw Line by Line
+
+Read the question **one sentence at a time**, and extend your sketch after each sentence. Never hold two moves in your head.
+
+**Example:** Ravi walks 4 km East, turns left and walks 3 km, then turns left and walks 4 km. How far and in which direction is he from the start?
+
+- Step 1: 4 km East (draw arrow right).
+- Step 2: Facing East, left = North; 3 km up.
+- Step 3: Facing North, left = West; 4 km left.
+
+He ends exactly **3 km North** of the start. Notice: the two 4 km legs cancel. Examiners deliberately include cancelling legs — students who don't draw never see the cancellation.
+
+🧠 **Active Recall:** If a person walks equal distances East then West, where is she relative to the start? Why does the middle leg's direction not matter for the final position in such cases?
+
+---
+
+## 6. Chunk 3 — Shortest Distance: Pythagoras
+
+When the start and end points form the legs of a right angle, the shortest (straight-line) distance is the hypotenuse:
+
+**Shortest distance = √(East-West displacement)² + (North-South displacement)²**
+
+**Example:** 3 km East, then 4 km North. Shortest distance = √(3² + 4²) = √25 = **5 km**, direction North-East.
+
+Memorise the common triplets examiners reuse: **(3, 4, 5), (6, 8, 10), (5, 12, 13), (8, 15, 17), (7, 24, 25)**. If you see 6 and 8, the answer is 10 — no calculation needed.
+
+⚠️ Distinguish carefully:
+- **Total distance travelled** = sum of all legs (3 + 4 = 7 km).
+- **Shortest/displacement distance** = 5 km.
+The question's wording decides which one is wanted. Underline it.
+
+🧠 **Active Recall:** A woman walks 12 m South, then 5 m East. Total distance? Shortest distance? (17 m; 13 m.)
+
+---
+
+## 7. Chunk 4 — Coded Directions (The Advanced Twist)
+
+This is where Graduation-level papers separate serious candidates. Two main coding styles appear:
+
+### Style A — Renamed directions
+"If South-East is called North, North is called West, and so on…"
+
+**Method:** Build a mapping table first. Find the rotation pattern (e.g., every direction shifted 135° clockwise), then answer in the *coded* language and convert back if the question demands the *real* direction.
+
+**Example:** If East is called North, North is called West, and West is called South, what is South called?
+Pattern: each name shifts 90° anti-clockwise (E→N, N→W, W→S). So South → **East**.
+
+### Style B — Symbol-coded relations
+"A @ B means A is 4 m North of B; A # B means A is 3 m East of B…"
+
+**Method:** Decode the expression **strictly left to right**, plotting each point on your sketch. The reference point keeps moving — the biggest source of error.
+
+**Example:** P @ Q # R means:
+- P @ Q: P is 4 m North of Q → so **Q is 4 m South of P**. Plot Q below P.
+- Q # R: Q is 3 m East of R → so **R is 3 m West of Q**. Plot R to the left of Q.
+
+Final: R is 4 m South and 3 m West of P → **5 m South-West of P** (3-4-5 triplet).
+
+⚠️ Note the inversion: "A is North of B" means **B is South of A**. When the code describes A relative to B but you must plot from a fixed start, flip the direction. In the example above, *both* symbols had to be flipped before plotting — skipping either flip lands you on the examiner's decoy answer.
+
+🧠 **Active Recall:** In "A * B means A is 6 m West of B", if we read P * Q, which point moves, and in which direction do we plot Q from P? (Q is 6 m **East** of P.)
+
+---
+
+## 8. Chunk 5 — Shadow and Clock Questions
+
+Two classic sub-types:
+
+**Shadow rule:**
+- **Sunrise (morning):** sun in East → shadow falls **West**.
+- **Sunset (evening):** sun in West → shadow falls **East**.
+- **Noon (in India):** sun roughly overhead/south → shadow negligible or North; exam questions usually avoid noon for this reason.
+
+**Example:** One morning, Asha faces her friend and her friend's shadow falls to Asha's right. In the morning the shadow points West, so Asha's right hand points West. If your right is West, you face **South** — hence Asha faces South and her friend faces **North**.
+
+**Clock rule:** At 3:00 the minute hand points East (if 12 is North), at 6:00 South, at 9:00 West. Questions like "the hour hand points North-East, where does the minute hand point at quarter past?" reduce to simple rotation.
+
+🧠 **Active Recall:** At sunset, a man's shadow is exactly in front of him. Which direction does he face? (East — shadow falls East, in front, so he faces East.)
+
+---
+
+## 9. Mnemonic Trick 🪄
+
+**"NESW — Never Eat Soggy Wafers"** — clockwise order: North → East → South → West. Right turn = move forward in the mnemonic; left turn = move backward.
+
+For coded renaming, use **"Map First, Solve Second"** — never start answering until your code-mapping table is written on the page.
+
+---
+
+## 10. Summary Table
+
+| Concept | Rule | Quick check |
+|---|---|---|
+| Right turn | Clockwise (N→E→S→W) | NESW forward |
+| Left turn | Anti-clockwise | NESW backward |
+| Opposite direction | 180° turn | N↔S, E↔W |
+| Shortest distance | √(x² + y²) | Triplets: 3-4-5, 5-12-13 |
+| Total distance | Sum of all legs | ≠ displacement |
+| Morning shadow | Falls West | Sun in East |
+| Evening shadow | Falls East | Sun in West |
+| Coded renaming | Build mapping table first | Map First, Solve Second |
+| Symbol codes (@, #) | Decode left to right, flip perspective | "A North of B" ⇒ B South of A |
+
+📌 **Review this chapter after 2 days.** Redo one plain-distance question, one Pythagoras question, and one coded question from memory — if all three flow without hesitation, the chapter is yours.
+
+---
+
+## ⚠️ Caution: Examiner's Trap
+
+**Trap 1 — Multiple plausible relations in the options.**
+In coded questions, options are designed so that two answers look right if you decode even one symbol in the wrong order (e.g., decoding right-to-left gives a neat "5 m North" that sits temptingly as option (a)). The examiner is testing sequence discipline. **Defence:** decode strictly left to right, and mark each plotted point with its letter on the sketch.
+
+**Trap 2 — Confusing vocabulary to rattle you.**
+Phrases like "in the direction diametrically opposite to the direction in which his shadow falls at sunrise" simply mean "East". Long, heavy wording hides a one-step idea. **Defence:** translate each heavy phrase into a plain direction *before* touching the options; never let the language rush you.
+
+**Trap 3 — Double-relation / two-person questions.**
+"Ravi is North of Mohan; Mohan is West of Sohan; Sohan is South of Dinesh…" — the question then asks Ravi's position relative to Dinesh. Students chain the relations mentally and flip one. **Defence:** fix one person as the origin, plot every other person on the diagram, and read the final answer off the sketch — never off memory. Also watch for the question switching the reference: "Dinesh is in which direction **from Ravi**?" reverses the answer.

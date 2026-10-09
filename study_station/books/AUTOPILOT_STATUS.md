@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 10:13 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 10:14 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 28 मिनट |
-| W2 | Chapter 05 Direction Sense (Graduation Reasoning) | 🔎 review हो रहा है | 25 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 50 मिनट |
-| W4 | Chapter 06 Order Ranking (Graduation Reasoning) | ✍️ लिख रहा है | 4 मिनट |
-| W5 | Chapter 04 Blood Relations (Graduation Reasoning) | ✍️ लिख रहा है | 2 मिनट |
+| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 29 मिनट |
+| W2 | Chapter 05 Direction Sense (Graduation Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 51 मिनट |
+| W4 | Chapter 06 Order Ranking (Graduation Reasoning) | ✍️ लिख रहा है | 5 मिनट |
+| W5 | Chapter 04 Blood Relations (Graduation Reasoning) | ✍️ लिख रहा है | 3 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md)
 
@@ -36,6 +36,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 10:14 — Graduation Reasoning · Chapter 05 Direction Sense
 - 09-10 09:05 — Graduation English · Chapter 30 Revision Tracker
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
@@ -50,9 +51,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 09:50:26   [Direction_Sense] review Content_en.txt: 2 issue(s): - Chunk 4 Style B example: "P @ Q # R" decoding states "R is 3 m East of Q" and gives final answer 5 m South-East o
-09-10 09:50:29   [Puzzles] wrote Feynman_en.txt (3721 chars)
-09-10 09:51:05   [Blood_Relations] Practice_en_Set_05.txt try 4: re-solve disagrees (Q101 key c vs re-solve a, Q121 key a vs re-solve -, Q122 key a vs re-solve -, Q123 key d vs re-solve
 09-10 09:51:05   [Blood_Relations] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
 09-10 09:51:05   [Blood_Relations] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
 09-10 09:51:27   [Puzzles] wrote Feynman_hi.txt (2784 chars)
@@ -90,4 +88,7 @@
 09-10 10:10:56 START Graduation_Level/Reasoning/Chapter_04_Blood_Relations (TODO: todo 4, problems 0)
 09-10 10:11:10   [Direction_Sense] review Short_Tricks_hi.txt: 2 issue(s): - Invented exam statistic "परीक्षा में 90% बार यही त्रिक आते हैं" in Trick 6 → Remove the unsourced percentage
 09-10 10:12:59   [Blood_Relations] Practice_en_Set_02.txt try 1: rejected (Q37:leaked_reasoning)
+09-10 10:13:40   [Order_Ranking] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 10:14:24   [Direction_Sense] review: 4 section(s) corrected, 0 failed
+09-10 10:14:24   [Direction_Sense] written 4, failed 0; AI calls today 161/100000
 ```
