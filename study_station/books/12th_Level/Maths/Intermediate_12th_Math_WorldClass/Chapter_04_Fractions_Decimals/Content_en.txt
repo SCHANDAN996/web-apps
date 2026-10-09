@@ -1,0 +1,203 @@
+# Fractions & Decimals
+
+## Why This Chapter Can Make or Break Your Score
+
+Here's a fact that surprises most aspirants: in almost every SSC, Banking, and Railway exam, you will never see a question that says *"solve this fraction."* And yet, fractions and decimals quietly hide inside **percentages, ratios, profit & loss, time & work, averages, and simplification** — a large part of the arithmetic paper stands on this one chapter.
+
+Think of it this way. A student who knows that 1/8 = 0.125 = 12.5% solves a percentage question in 10 seconds. A student who doesn't, reaches for long division and loses 90 seconds — and in a 25-questions-in-20-minutes game, 90 seconds is a small fortune.
+
+This chapter is that fortune. Let's claim it.
+
+**What you will master by the end:**
+1. Types of fractions and how to compare them in seconds
+2. Fraction ↔ Decimal ↔ Percentage conversions (the exam's favourite triangle)
+3. Terminating vs recurring decimals — and converting recurring ones back to fractions
+4. Operations on decimals without silly placement errors
+5. The standard fraction table that toppers memorise by heart
+
+---
+
+## 1. What Exactly Is a Fraction?
+
+A **fraction** is a way of writing a part of a whole. If a pizza is cut into 8 equal slices and you eat 3, you ate **3/8** of the pizza.
+
+- The top number is the **numerator** (how many parts you have) — here, 3.
+- The bottom number is the **denominator** (how many equal parts the whole is cut into) — here, 8.
+
+A memory hook: **"D for Denominator, D for Down."** The denominator sits *down* below the line.
+
+### Types of Fractions
+
+| Type | Meaning | Example |
+|---|---|---|
+| Proper fraction | Numerator < Denominator (value < 1) | 3/8 |
+| Improper fraction | Numerator ≥ Denominator (value ≥ 1) | 9/8 |
+| Mixed fraction | A whole number + a proper fraction | 1⅛ |
+| Like fractions | Same denominator | 2/7, 5/7 |
+| Unlike fractions | Different denominators | 2/7, 3/5 |
+| Equivalent fractions | Different look, same value | 1/2 = 2/4 = 50/100 |
+
+**Mixed ↔ Improper conversion** (asked constantly, directly or indirectly):
+- Mixed → Improper: multiply whole × denominator, add numerator. So 3²/₅ = (3×5 + 2)/5 = **17/5**.
+- Improper → Mixed: divide. 17 ÷ 5 = 3 remainder 2, so 17/5 = **3²/₅**.
+
+🧠 **Active Recall:** Without looking up — is 7/7 proper or improper? Convert 4³/₇ into an improper fraction. (Answers: improper, since numerator = denominator; and (4×7+3)/7 = 31/7.)
+
+---
+
+## 2. Comparing Fractions — The Examiner's Favourite Trap
+
+"Which is the largest: 3/7, 4/9, 5/11, 2/5?" Questions like this appear again and again, and students waste minutes finding LCMs. Don't.
+
+**Trick 1 — Cross-multiplication (for two fractions):**
+To compare a/b and c/d, compare **a×d** with **c×b**.
+Compare 3/7 and 4/9: 3×9 = 27 vs 4×7 = 28. Since 28 > 27, **4/9 is bigger**. Done in 5 seconds.
+
+**Trick 2 — Convert to decimals:**
+3/7 ≈ 0.428, 4/9 ≈ 0.444, 5/11 ≈ 0.454, 2/5 = 0.400. Largest = 5/11. If you know your fraction table (Section 5), this is instant.
+
+**Trick 3 — Equal numerators or denominators:**
+- Same numerator? The **smaller denominator wins**: 5/8 > 5/9 (fewer, bigger slices).
+- Same denominator? The **bigger numerator wins**: 7/12 > 5/12.
+
+🧠 **Active Recall:** Which is greater — 7/13 or 5/9? Use cross-multiplication before reading on. (7×9 = 63 vs 5×13 = 65, so 5/9 is greater.)
+
+---
+
+## 3. Decimals — Fractions Wearing a Different Uniform
+
+A **decimal** is just a fraction whose denominator is a power of 10: 0.3 = 3/10, 0.07 = 7/100, 0.125 = 125/1000 = 1/8.
+
+### The Golden Rules of Decimal Arithmetic
+
+**Addition/Subtraction:** Line up the decimal points. That's it.
+```
+  12.50
++  3.07
+= 15.57
+```
+
+**Multiplication:** Multiply as whole numbers, then count total decimal places in both numbers and place the point.
+0.4 × 0.25 → 4 × 25 = 100; total decimal places = 1 + 2 = 3 → **0.100 = 0.1**.
+
+**Division by 10, 100, 1000…:** Just shift the decimal point left.
+- 45.6 ÷ 10 = 4.56
+- 45.6 ÷ 100 = 0.456
+- Multiplication by 10, 100… shifts it **right**: 4.56 × 100 = 456.
+
+**Division of decimals:** Remove the decimal from the divisor by multiplying both numbers by the same power of 10.
+4.5 ÷ 0.15 = 450 ÷ 15 = **30**.
+
+🧠 **Active Recall:** Compute 0.6 × 0.05 and 7.2 ÷ 0.08 mentally. (Answers: 0.03 and 90.)
+
+---
+
+## 4. Terminating vs Recurring Decimals
+
+Divide 1 by 4: you get 0.25 — it **ends**. That's a **terminating decimal**.
+Divide 1 by 3: you get 0.3333… — it **never ends**. That's a **recurring (repeating) decimal**, written as 0.3̄.
+
+**How do you know in advance?** A fraction in lowest terms gives a terminating decimal **only if its denominator's prime factors are just 2s and 5s** (because our number system is base-10, and 10 = 2 × 5).
+
+- 3/8 → 8 = 2³ → terminates (0.375) ✔
+- 7/20 → 20 = 2² × 5 → terminates (0.35) ✔
+- 5/12 → 12 = 2² × 3 → has a 3 → **recurring** (0.41666…) ✘
+
+### Converting Recurring Decimals to Fractions (a guaranteed exam skill)
+
+- **Pure recurring** (everything repeats): put the repeating block over as many 9s as its digits.
+  - 0.3̄ = 3/9 = **1/3**
+  - 0.2̄7̄ = 27/99 = **3/11**
+  - 0.1̄2̄3̄ = 123/999 = **41/333**
+
+- **Mixed recurring** (some digits don't repeat): 
+  0.1666… = 0.16̄ → take (16 − 1)/90 = 15/90 = **1/6**.
+  Rule: *(whole block − non-repeating part) / (as many 9s as repeating digits, followed by as many 0s as non-repeating digits)*.
+
+🧠 **Active Recall:** Will 11/40 terminate? Convert 0.4̄5̄ to a fraction. (40 = 2³ × 5, so yes — 0.275. And 45/99 = 5/11.)
+
+---
+
+## 5. The Fraction–Decimal–Percentage Table (Memorise This!)
+
+This single table is the highest-yield item in the entire chapter. Toppers don't *calculate* these — they *recognise* them.
+
+| Fraction | Decimal | Percentage |
+|---|---|---|
+| 1/2 | 0.5 | 50% |
+| 1/3 | 0.333… | 33.33% |
+| 1/4 | 0.25 | 25% |
+| 1/5 | 0.2 | 20% |
+| 1/6 | 0.1666… | 16.67% |
+| 1/7 | 0.142857… | 14.29% |
+| 1/8 | 0.125 | 12.5% |
+| 1/9 | 0.111… | 11.11% |
+| 1/10 | 0.1 | 10% |
+| 1/11 | 0.0909… | 9.09% |
+| 1/12 | 0.0833… | 8.33% |
+| 1/15 | 0.0666… | 6.67% |
+| 1/16 | 0.0625 | 6.25% |
+| 1/20 | 0.05 | 5% |
+| 1/25 | 0.04 | 4% |
+
+**Bonus pattern:** multiples come free. If 1/8 = 12.5%, then 3/8 = 37.5%, 5/8 = 62.5%, 7/8 = 87.5%. One memorised fact becomes four.
+
+### 🎵 The Mnemonic: "The Pizza Family"
+
+Imagine a family that always orders pizza:
+- **Mom (1/2)** eats half — 50%. Easy.
+- **Dad (1/4)** eats a quarter — 25%, exactly half of Mom.
+- **Big brother (1/8)** eats half of Dad — 12.5%.
+- **Little sister (1/16)** eats half of brother — 6.25%.
+
+Each generation eats **half** of the previous one: 50 → 25 → 12.5 → 6.25. You'll never forget the even-denominator family again. (The odd ones — 1/3, 1/6, 1/9 — are the "recurring relatives" who never stop talking: 33.33…, 16.66…, 11.11…)
+
+🧠 **Active Recall:** Close the table. What is 5/8 as a percentage? What fraction is 6.25%? (62.5%; and 1/16.)
+
+---
+
+## 6. Fractions of Fractions, and "Of" Means Multiply
+
+Exam language loves the word **"of"**: *"two-thirds of three-fourths of 480."* Translate "of" as **×**:
+
+2/3 × 3/4 × 480 = (2 × 3 × 480)/(3 × 4) = 2880/12 = **240**.
+
+**Cancellation is your best friend.** Never multiply first and simplify later — cancel common factors *before* multiplying. In the example above, the 3s cancel and 480/4 = 120, giving 2 × 120 = 240 instantly.
+
+**Ascending/descending order questions:** convert each fraction to a decimal (using your table) and arrange. No LCM drama.
+
+🧠 **Active Recall:** Find 3/5 of 2/7 of 350. (3/5 × 2/7 × 350 → 350/5 = 70, 70 × 2 = 140, 140 × 3/7 = 60. Answer: 60.)
+
+---
+
+## 7. Common Traps the Examiner Sets
+
+1. **0.9 vs 0.09 vs 0.009** — misreading place value under time pressure. Always count digits after the decimal.
+2. **"Which is NOT equivalent to 3/4?"** — the negative wording. Read the question twice.
+3. **Recurring decimals written without the bar** — 0.33 is *not* 1/3; 0.3̄ is.
+4. **Adding fractions by adding tops and bottoms** — 1/2 + 1/3 is **not** 2/5. Common denominator first: 3/6 + 2/6 = 5/6.
+5. **Decimal point slips in division** — 0.36 ÷ 0.06 = 6, not 0.6. Shift both decimals equally.
+
+---
+
+## 📌 Chapter Summary Table
+
+| Concept | Key Rule | One-line Memory |
+|---|---|---|
+| Proper/Improper | Top < bottom → proper | "Proper is small" |
+| Mixed → Improper | (whole × den + num)/den | "Multiply, add, keep the bottom" |
+| Comparing fractions | Cross-multiply: a×d vs c×b | "Criss-cross, bigger product wins" |
+| Terminating decimal | Denominator = only 2s and 5s | "2 and 5 let it end" |
+| Pure recurring → fraction | Repeating block / 9…9 | "Repeaters ride on nines" |
+| Mixed recurring → fraction | (block − non-repeat) / 9…90…0 | "Nines for repeaters, zeros for latecomers" |
+| × or ÷ by 10, 100… | Shift the decimal point | "Multiply right, divide left" |
+| "Of" | Means multiply | "Of = ×" |
+| 1/8 family | 12.5%, halves each step | The Pizza Family |
+
+---
+
+## 🔁 Review Reminder
+
+You will forget most of this within 48 hours unless you revisit it — that's how memory works (the Ebbinghaus forgetting curve). **Review this chapter after 2 days**: redo the fraction table from memory, re-derive 0.16̄ = 1/6, and solve five comparison questions with cross-multiplication. Ten minutes of revision now saves an hour of re-learning before the exam.
+
+You've just built the foundation that percentages, ratios, and profit & loss all stand on. The next chapters will feel noticeably easier — that's your reward for mastering this one. 💪

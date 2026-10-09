@@ -1,0 +1,47 @@
+```mermaid
+graph TD
+    A["भिन्न और दशमलव<br>Fractions & Decimals"] --> B["भिन्न के प्रकार<br>Types of Fractions"]
+    A --> C["दशमलव<br>Decimals"]
+    A --> D["परिवर्तन<br>Conversions"]
+    A --> E["संक्रियाएँ<br>Operations"]
+    A --> F["तुलना और क्रम<br>Comparison & Order"]
+    A --> G["अनुप्रयोग<br>Applications"]
+
+    B --> B1["उचित भिन्न<br>Proper Fraction<br>(अंश < हर)"]
+    B --> B2["अनुचित भिन्न<br>Improper Fraction<br>(अंश ≥ हर)"]
+    B --> B3["मिश्रित भिन्न<br>Mixed Fraction"]
+    B --> B4["समतुल्य भिन्न<br>Equivalent Fractions"]
+    B --> B5["सरलतम रूप<br>Lowest Form<br>(HCF से भाग)"]
+
+    C --> C1["स्थानमान<br>Place Value<br>(दसवाँ, सौवाँ, हज़ारवाँ)"]
+    C --> C2["समान दशमलव<br>Like Decimals"]
+    C --> C3["असमान दशमलव<br>Unlike Decimals"]
+    C --> C4["सांत दशमलव<br>Terminating Decimal"]
+    C --> C5["आवर्ती दशमलव<br>Recurring Decimal"]
+
+    D --> D1["भिन्न → दशमलव<br>Fraction → Decimal<br>(अंश ÷ हर)"]
+    D --> D2["दशमलव → भिन्न<br>Decimal → Fraction<br>(10 की घात से भाग)"]
+    D --> D3["भिन्न → प्रतिशत<br>Fraction → Percentage<br>(× 100)"]
+    D --> D4["आवर्ती → भिन्न<br>Recurring → Fraction<br>(9, 99, 999 नियम)"]
+
+    E --> E1["जोड़-घटाव<br>Addition-Subtraction<br>(LCM से समान हर)"]
+    E --> E2["गुणा<br>Multiplication<br>(अंश×अंश, हर×हर)"]
+    E --> E3["भाग<br>Division<br>(व्युत्क्रम से गुणा)"]
+    E --> E4["दशमलव गुणा-भाग<br>Decimal × ÷<br>(दशमलव बिंदु गिनती)"]
+    E --> E5["BODMAS नियम<br>Order of Operations"]
+
+    F --> F1["समान हर → बड़ा अंश<br>Same Denominator"]
+    F --> F2["समान अंश → छोटा हर बड़ा<br>Same Numerator"]
+    F --> F3["क्रॉस गुणा विधि<br>Cross Multiplication"]
+    F --> F4["आरोही/अवरोही क्रम<br>Ascending/Descending"]
+
+    G --> G1["शेष/भाग वाले प्रश्न<br>Part-Whole Problems"]
+    G --> G2["धन और माप<br>Money & Measurement"]
+    G --> G3["प्रतिशत से संबंध<br>Link with Percentage"]
+    G --> G4["सरलीकरण प्रश्न<br>Simplification"]
+
+    B3 -.->|"मिश्रित ↔ अनुचित<br>Mixed ↔ Improper"| B2
+    D1 -.->|"हर = 2,4,5,8… → सांत<br>Terminating check"| C4
+    D1 -.->|"हर = 3,7,9,11… → आवर्ती<br>Recurring"| C5
+    E3 -.->|"KCF: Keep-Change-Flip"| E2
+```
