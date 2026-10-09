@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 09-10-2026 09:28 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
+**आख़िरी update:** 09-10-2026 09:31 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Time Work (10th Maths) | 🔎 review हो रहा है | 43 मिनट |
-| W4 | Chapter 16 Algebra (10th Maths) | 🔎 review हो रहा है | 16 मिनट |
-| W5 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 4 मिनट |
-| W7 | Chapter 14 Mensuration (10th Maths) | 📤 push हो रहा है | 0 मिनट |
-| W8 | Chapter 15 Geometry (10th Maths) | 🔎 review हो रहा है | 41 मिनट |
+| W1 | Chapter 11 Time Work (10th Maths) | 🔎 review हो रहा है | 46 मिनट |
+| W4 | Chapter 16 Algebra (10th Maths) | 🔎 review हो रहा है | 19 मिनट |
+| W5 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 7 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -57,18 +55,11 @@
 - Chapter 01 Noun (English) — 2 बार
 - Chapter 07 Preposition (English) — 2 बार
 - Chapter 12 Sentence Structure (English) — 2 बार
+- Chapter 15 Geometry (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 20:54:32 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_10_Compound_Interest in 101 min → 4edb14bf
-09-10 20:54:32 worker 1: nothing left
-09-10 20:54:34   [Mensuration] repaired set 03 (en + hi, key confirmed by an independent re-solve)
-09-10 20:54:34   [Mensuration] written 1, failed 0; AI calls today 820/100000
-09-10 20:55:24   [Mixture_Alligation] Practice_hi_Set_05.txt try 3: rejected (parsed 24 questions, numbers 101…125)
-09-10 20:56:04   [Sentence_Improvement_Basic] review Flashcards_hi.txt: 2 issue(s): - Card 3 lists “Wages” as a word that looks plural but takes a singular verb; “wages” is normally plural (e.g., 
-09-10 20:56:56   [Algebra] repaired set 05 (en + hi, key confirmed by an independent re-solve)
-09-10 20:57:46   [Time_Work] review Content_hi.txt: 1 issue(s): - In the introductory story, the king offers 30 additional workers (making 50 total), but the immediate brain-tease
 09-10 20:58:12   [Mixture_Alligation] Practice_hi_Set_05.txt try 4: rejected (parsed 24 questions, numbers 101…125)
 09-10 20:58:12   [Mixture_Alligation] REJECTED Practice_hi_Set_05.txt: no translation passed the checks — not written
 09-10 20:58:12   [Mixture_Alligation] FAILED set 05: Hindi translation rejected — files left as they were
@@ -101,4 +92,12 @@
 09-10 21:27:54   [Algebra] review Mind_Map.txt: 1 issue(s): - I3: a² − b² = a+b × a−b (missing parentheses, wrong order of operations) → a² − b² = (a+b)(a−b)
 09-10 21:28:08   [Mensuration] review: 2 section(s) corrected, 0 failed
 09-10 21:28:09   [Mensuration] written 2, failed 0; AI calls today 884/100000
+09-10 21:28:28 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_14_Mensuration in 115 min → 456821aa
+09-10 21:28:28 worker 6: nothing left
+09-10 21:29:34   [Geometry] review Short_Tricks_hi.txt: 1 issue(s): - Trick 12: “अपने आयतन के ⅔ हिस्से के साथ” wrongly implies the sphere’s volume is 2/3 of itself → Correct: the
+09-10 21:29:48   [Algebra] review Flashcards_en.txt: 1 issue(s): - Card 10 back: "The story shows a² broke into four pieces." is wrong; the Feynman garden story illustrates (a+b
+09-10 21:30:38   [Geometry] review: 4 section(s) corrected, 1 failed
+09-10 21:30:38   [Geometry] written 4, failed 1; AI calls today 890/100000
+09-10 21:30:38 NOT OK 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_15_Geometry after 99 min: todo [] problems []
+09-10 21:30:38 worker 7: nothing left
 ```
