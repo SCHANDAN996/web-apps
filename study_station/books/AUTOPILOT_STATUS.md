@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 03:16 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
+**आख़िरी update:** 10-10-2026 03:31 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 129 मिनट |
-| W2 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 102 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🔧 सुधार रहा है | 17 मिनट |
-| W4 | Chapter 22 Figure Series (Graduation Reasoning) | ✍️ लिख रहा है | 98 मिनट |
-| W5 | Chapter 23 Syllogism (Graduation Reasoning) | ✍️ लिख रहा है | 89 मिनट |
-| W6 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 53 मिनट |
-| W7 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 48 मिनट |
-| W8 | Chapter 19 Cubes Dice (Graduation Reasoning) | ✍️ लिख रहा है | 41 मिनट |
+| W1 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 144 मिनट |
+| W2 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 117 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🔧 सुधार रहा है | 32 मिनट |
+| W4 | Chapter 22 Figure Series (Graduation Reasoning) | ✍️ लिख रहा है | 113 मिनट |
+| W5 | Chapter 23 Syllogism (Graduation Reasoning) | ✍️ लिख रहा है | 104 मिनट |
+| W6 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 68 मिनट |
+| W7 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 63 मिनट |
+| W8 | Chapter 19 Cubes Dice (Graduation Reasoning) | ✍️ लिख रहा है | 56 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -54,16 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 02:33:56   [Mirror_Water_Images] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
-10-10 02:35:06   [Cubes_Dice] FAILED Practice_en_Set_06.txt: network
-10-10 02:35:06   [Cubes_Dice] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-10-10 02:35:06   [Cubes_Dice] written 0, failed 6; AI calls today 78/100000
-10-10 02:35:06 NOT OK Graduation_Level/Reasoning/Chapter_19_Cubes_Dice after 111 min: todo ['Set 01 en: todo', 'Set 01 hi: todo', 'Set 02 en: todo', 'Set 02 hi: todo'] problems ['Important_Rules_hi.txt: Hindi file is mostly not in Hindi']
-10-10 02:35:08 START Graduation_Level/Reasoning/Chapter_19_Cubes_Dice (TODO: todo 6, problems 1)
-10-10 02:38:32   [Paper_Folding_Cutting] FAILED Practice_en_Set_02.txt: network
-10-10 02:38:32   [Paper_Folding_Cutting] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
-10-10 02:39:38   [Cubes_Dice] Practice_en_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
-10-10 02:44:01   [Figure_Series] FAILED Feynman_hi.txt: rate_limited
 10-10 02:47:56   [Mirror_Water_Images] Practice_en_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
 10-10 02:48:11   [Figure_Series] Mind_Map.txt try 1: rejected (corrupted characters)
 10-10 02:48:51   [Cubes_Dice] Practice_en_Set_01.txt try 2: rejected (Q23:leaked_reasoning)
@@ -94,4 +84,14 @@
 10-10 03:06:09   [Paper_Folding_Cutting] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
 10-10 03:08:59   [Figure_Series] FAILED Mind_Map.txt: too_long
 10-10 03:12:53   [Dictionary_Order] Practice_en_Set_04.txt try 1: rejected (Q81:leaked_reasoning,Q82:leaked_reasoning,Q91:leaked_reasoning,Q94:leaked_reasoning,Q95:leaked_reasoning)
+10-10 03:20:55   [Mirror_Water_Images] Practice_en_Set_06.txt try 3: re-solve disagrees (Q137 key b vs re-solve c)
+10-10 03:23:53   [Sitting_Arrangement] repaired Content_hi.txt (6635 chars)
+10-10 03:24:27   [Figure_Series] wrote Flashcards_en.txt (6785 chars)
+10-10 03:24:33   [Syllogism] wrote Mind_Map.txt (2079 chars)
+10-10 03:26:10   [Cubes_Dice] Practice_en_Set_01.txt try 3: re-solve disagrees (Q8 key d vs re-solve c, Q10 key d vs re-solve b, Q17 key d vs re-solve c, Q22 key a vs re-solve c)
+10-10 03:27:58   [Paper_Folding_Cutting] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+10-10 03:28:02   [Figure_Series] wrote Flashcards_hi.txt (4300 chars)
+10-10 03:28:14   [Syllogism] wrote Flashcards_en.txt (9966 chars)
+10-10 03:28:24   [Dictionary_Order] Practice_en_Set_04.txt try 2: re-solve disagrees (Q76 key a vs re-solve d, Q79 key b vs re-solve c, Q80 key c vs re-solve b, Q91 key c vs re-solve a, 
+10-10 03:29:51   [Figure_Series] PYQ_en.txt try 1: rejected (output still looks like a prompt)
 ```
