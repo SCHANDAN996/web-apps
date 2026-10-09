@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 11:45 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 12:00 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Defence (12th GK) | 🔎 review हो रहा है | 15 मिनट |
-| W2 | Chapter 23 Economic Terms (12th GK) | ✍️ लिख रहा है | 60 मिनट |
-| W3 | Chapter 24 Reports Indices (12th GK) | ✍️ लिख रहा है | 32 मिनट |
-| W4 | Chapter 25 Govt Schemes (12th GK) | ✍️ लिख रहा है | 28 मिनट |
-| W5 | Chapter 01 Number System (12th Maths) | ✍️ लिख रहा है | 24 मिनट |
+| W1 | Chapter 22 Defence (12th GK) | 🔎 review हो रहा है | 30 मिनट |
+| W2 | Chapter 23 Economic Terms (12th GK) | ✍️ लिख रहा है | 75 मिनट |
+| W3 | Chapter 24 Reports Indices (12th GK) | ✍️ लिख रहा है | 47 मिनट |
+| W4 | Chapter 25 Govt Schemes (12th GK) | ✍️ लिख रहा है | 44 मिनट |
+| W5 | Chapter 01 Number System (12th Maths) | ✍️ लिख रहा है | 39 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -27,10 +27,10 @@
 | 12th Reasoning | 0 | 0 | 25 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 15 | 0 | 13 |
+| Graduation GK | 16 | 0 | 12 |
 | Graduation Reasoning | 3 | 0 | 27 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **137** | **15** | **144** |
+| **कुल** | **138** | **15** | **143** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -51,31 +51,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 11:20:43   [Economic_Terms] wrote Memory_Hooks_hi.txt (6254 chars)
-09-10 11:20:50 DONE 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_17_Culture_Art in 21 min → c5ce24d3
-09-10 11:20:52 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System (TODO: todo 25, problems 0)
-09-10 11:20:56   [Govt_Schemes] wrote Content_en.txt (11244 chars)
-09-10 11:21:33   [Defence] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 11:21:33   [Defence] written 25, failed 0; AI calls today 338/100000
-09-10 11:22:47   [Defence] repaired PYQ_en.txt (4105 chars)
-09-10 11:23:16   [Economic_Terms] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 11:23:43   [Reports_Indices] wrote Key_Facts_en.txt (8586 chars)
-09-10 11:24:10   [Number_System] wrote Content_en.txt (6916 chars)
-09-10 11:25:51   [Govt_Schemes] wrote Content_hi.txt (8974 chars)
-09-10 11:25:57   [Economic_Terms] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-09-10 11:25:58   [Reports_Indices] wrote Key_Facts_hi.txt (6498 chars)
-09-10 11:26:49   [Reports_Indices] wrote Feynman_en.txt (4681 chars)
-09-10 11:27:45   [Reports_Indices] wrote Feynman_hi.txt (3206 chars)
-09-10 11:28:16   [Reports_Indices] wrote Mind_Map.txt (1816 chars)
-09-10 11:28:49   [Reports_Indices] wrote Flashcards_en.txt (4581 chars)
-09-10 11:28:57   [Number_System] wrote Content_hi.txt (8599 chars)
-09-10 11:28:58   [Economic_Terms] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-09-10 11:29:35   [Defence] repaired PYQ_hi.txt (7184 chars)
-09-10 11:29:35   [Defence] written 2, failed 0; AI calls today 354/100000
-09-10 11:30:53   [Defence] review Content_en.txt: 1 issue(s): - Hindi translation for BSF incorrectly includes "पूर्व" → Correct Hindi is "सीमा सुरक्षा बल" (Border Security Forc
-09-10 11:31:02   [Number_System] Feynman_en.txt try 1: rejected (chat debris "Here's the")
-09-10 11:32:36   [Economic_Terms] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-09-10 11:33:10   [Reports_Indices] FAILED Flashcards_hi.txt: rate_limited
 09-10 11:34:38   [Reports_Indices] wrote PYQ_en.txt (7954 chars)
 09-10 11:35:43   [Economic_Terms] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 09-10 11:38:00   [Reports_Indices] wrote PYQ_hi.txt (7999 chars)
@@ -91,4 +66,29 @@
 09-10 11:44:19   [Number_System] wrote Flashcards_en.txt (2993 chars)
 09-10 11:44:19   [Govt_Schemes] wrote Key_Facts_en.txt (13833 chars)
 09-10 11:45:08   [Number_System] wrote Flashcards_hi.txt (2745 chars)
+09-10 11:46:38   [Number_System] wrote PYQ_en.txt (1403 chars)
+09-10 11:46:50   [Govt_Schemes] wrote Key_Facts_hi.txt (5539 chars)
+09-10 11:46:56   [Reports_Indices] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 11:46:57   [Reports_Indices] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 11:47:51   [Govt_Schemes] wrote Feynman_en.txt (4092 chars)
+09-10 11:48:34   [Govt_Schemes] wrote Feynman_hi.txt (2403 chars)
+09-10 11:48:36   [Defence] review Feynman_en.txt: 1 issue(s): - "Paramilitary is just an old, loose word people used for CAPF" is factually wrong; paramilitary is a broader term
+09-10 11:49:04   [Govt_Schemes] wrote Mind_Map.txt (2092 chars)
+09-10 11:49:11   [Number_System] wrote PYQ_hi.txt (6859 chars)
+09-10 11:49:54   [Reports_Indices] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 11:50:06   [Govt_Schemes] wrote Flashcards_en.txt (5607 chars)
+09-10 11:52:05   [Economic_Terms] FAILED Practice_hi_Set_03.txt: too_long
+09-10 11:52:12   [Govt_Schemes] wrote Flashcards_hi.txt (4500 chars)
+09-10 11:52:21   [Reports_Indices] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+09-10 11:54:57   [Number_System] wrote Short_Tricks_en.txt (10235 chars)
+09-10 11:55:03   [Defence] review Memory_Hooks_en.txt: 1 issue(s): - Box 13 heading "7-3-3" contradicts the content which states Army 7, Navy 3, Air Force 7 → change heading to 
+09-10 11:55:17   [Reports_Indices] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 11:55:46   [Number_System] Short_Tricks_hi.txt try 1: rejected (corrupted characters)
+09-10 11:56:02   [Economic_Terms] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 11:56:33   [Govt_Schemes] FAILED PYQ_en.txt: rate_limited
+09-10 11:58:48   [Number_System] wrote Short_Tricks_hi.txt (8605 chars)
+09-10 11:59:40   [Number_System] wrote Important_Formulas_en.txt (3399 chars)
+09-10 11:59:59   [Reports_Indices] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 12:00:34   [Defence] review Memory_Hooks_hi.txt: 1 issue(s): - Invented exam statistic: "रक्षा अध्याय में 70% प्रश्न बुनियादी तथ्यों ... से आते हैं — इन्हें पक्का करें। बच
+09-10 12:00:35   [Govt_Schemes] wrote PYQ_hi.txt (7793 chars)
 ```
