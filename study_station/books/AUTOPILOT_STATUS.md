@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 03:01 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
+**आख़िरी update:** 10-10-2026 03:16 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 114 मिनट |
-| W2 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 86 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🔧 सुधार रहा है | 1 मिनट |
-| W4 | Chapter 22 Figure Series (Graduation Reasoning) | ✍️ लिख रहा है | 83 मिनट |
-| W5 | Chapter 23 Syllogism (Graduation Reasoning) | ✍️ लिख रहा है | 73 मिनट |
-| W6 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 38 मिनट |
-| W7 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 33 मिनट |
-| W8 | Chapter 19 Cubes Dice (Graduation Reasoning) | ✍️ लिख रहा है | 25 मिनट |
+| W1 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 129 मिनट |
+| W2 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 102 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🔧 सुधार रहा है | 17 मिनट |
+| W4 | Chapter 22 Figure Series (Graduation Reasoning) | ✍️ लिख रहा है | 98 मिनट |
+| W5 | Chapter 23 Syllogism (Graduation Reasoning) | ✍️ लिख रहा है | 89 मिनट |
+| W6 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 53 मिनट |
+| W7 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 48 मिनट |
+| W8 | Chapter 19 Cubes Dice (Graduation Reasoning) | ✍️ लिख रहा है | 41 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -27,7 +27,7 @@
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 20 | 2 | 0 |
 | 10th English | 17 | 0 | 3 |
-| 12th Maths | 13 | 0 | 10 |
+| 12th Maths | 14 | 0 | 9 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 10 | 0 | 15 |
 | 12th English | 25 | 0 | 0 |
@@ -35,7 +35,7 @@
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 13 | 2 | 15 |
 | Graduation English | 29 | 1 | 0 |
-| **कुल** | **229** | **5** | **62** |
+| **कुल** | **230** | **5** | **61** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -54,12 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 02:27:33 NOT OK Graduation_Level/Reasoning/Chapter_14_Alphabet_Questions after 103 min: todo ['Set 03 en: todo', 'Set 03 hi: todo', 'Set 04 en: todo', 'Set 04 hi: todo'] problems []
-10-10 02:27:34 START Graduation_Level/Reasoning/Chapter_14_Alphabet_Questions (TODO: todo 6, problems 0)
-10-10 02:27:43   [Syllogism] FAILED Content_hi.txt: network
-10-10 02:28:59   [Sitting_Arrangement] review Short_Tricks_hi.txt: 3 issue(s): - "80% प्रश्न सिर्फ़ पक्की सूचनाओं से ही सुलझ जाते हैं" → आविष्कृत परीक्षा सांख्यिकी है; "अधिकांश प्रश्न" या स
-10-10 02:33:22   [Dictionary_Order] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
-10-10 02:33:56   [Mirror_Water_Images] FAILED Practice_en_Set_05.txt: network
 10-10 02:33:56   [Mirror_Water_Images] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
 10-10 02:35:06   [Cubes_Dice] FAILED Practice_en_Set_06.txt: network
 10-10 02:35:06   [Cubes_Dice] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
@@ -94,4 +88,10 @@
 10-10 03:01:07   [Dictionary_Order] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
 10-10 03:01:07   [Dictionary_Order] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
 10-10 03:01:07   [Mirror_Water_Images] Practice_en_Set_06.txt try 2: re-solve disagrees (Q130 key c vs re-solve a, Q145 key d vs re-solve b)
+10-10 03:03:05   [Syllogism] wrote Feynman_hi.txt (4025 chars)
+10-10 03:04:13   [Alphabet_Questions] Practice_en_Set_04.txt try 1: rejected (Q76:leaked_reasoning,Q77:leaked_reasoning,Q82:leaked_reasoning,Q92:leaked_reasoning,Q93:leaked_reasoning)
+10-10 03:06:09   [Paper_Folding_Cutting] FAILED Practice_en_Set_03.txt: too_long
+10-10 03:06:09   [Paper_Folding_Cutting] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
+10-10 03:08:59   [Figure_Series] FAILED Mind_Map.txt: too_long
+10-10 03:12:53   [Dictionary_Order] Practice_en_Set_04.txt try 1: rejected (Q81:leaked_reasoning,Q82:leaked_reasoning,Q91:leaked_reasoning,Q94:leaked_reasoning,Q95:leaked_reasoning)
 ```
