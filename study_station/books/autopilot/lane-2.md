@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 10:59 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 11:14 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Defence (Graduation GK) | ✍️ लिख रहा है | 12 मिनट |
-| W2 | Chapter 18 Science Tech (Graduation GK) | ✍️ लिख रहा है | 47 मिनट |
-| W3 | Chapter 21 International Orgs (Graduation GK) | ✍️ लिख रहा है | 25 मिनट |
-| W4 | Chapter 17 Culture Art (Graduation GK) | ✍️ लिख रहा है | 99 मिनट |
-| W5 | Chapter 19 Environment (Graduation GK) | ✍️ लिख रहा है | 39 मिनट |
+| W1 | Chapter 22 Defence (Graduation GK) | ✍️ लिख रहा है | 27 मिनट |
+| W2 | Chapter 18 Science Tech (Graduation GK) | ✍️ लिख रहा है | 62 मिनट |
+| W3 | Chapter 21 International Orgs (Graduation GK) | ✍️ लिख रहा है | 40 मिनट |
+| W4 | Chapter 17 Culture Art (Graduation GK) | ✍️ लिख रहा है | 115 मिनट |
+| W5 | Chapter 19 Environment (Graduation GK) | ✍️ लिख रहा है | 55 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -23,14 +23,14 @@
 | 10th Maths | 9 | 13 | 0 |
 | 10th English | 0 | 0 | 20 |
 | 12th Maths | 0 | 0 | 23 |
-| 12th GK | 13 | 0 | 11 |
+| 12th GK | 14 | 0 | 10 |
 | 12th Reasoning | 0 | 0 | 25 |
 | 12th English | 22 | 0 | 3 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 16 | 0 | 12 |
-| Graduation Reasoning | 2 | 0 | 28 |
+| Graduation Reasoning | 3 | 0 | 27 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **132** | **13** | **151** |
+| **कुल** | **134** | **13** | **149** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -50,31 +50,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 10:37:33   [Environment] wrote Feynman_hi.txt (2679 chars)
-09-10 10:38:19   [Environment] wrote Mind_Map.txt (2831 chars)
-09-10 10:38:21   [International_Orgs] wrote Content_hi.txt (7621 chars)
-09-10 10:39:12   [Science_Tech] wrote PYQ_hi.txt (6962 chars)
-09-10 10:40:21   [Science_Tech] wrote Memory_Hooks_en.txt (5789 chars)
-09-10 10:40:40   [Culture_Art] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-09-10 10:41:22   [International_Orgs] wrote Key_Facts_en.txt (8152 chars)
-09-10 10:42:02   [International_Orgs] Key_Facts_hi.txt try 1: rejected (corrupted characters)
-09-10 10:42:33   [Science_Tech] wrote Memory_Hooks_hi.txt (4920 chars)
-09-10 10:44:04   [Books_Authors] review: 6 section(s) corrected, 1 failed
-09-10 10:44:04   [Books_Authors] written 6, failed 1; AI calls today 284/100000
-09-10 10:44:04 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_16_Books_Authors after 93 min: todo [] problems []
-09-10 10:44:05 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_16_Books_Authors (OK: todo 0, problems 0)
-09-10 10:44:11   [International_Orgs] wrote Key_Facts_hi.txt (6396 chars)
-09-10 10:44:44   [Science_Tech] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 10:44:48   [International_Orgs] wrote Feynman_en.txt (3508 chars)
-09-10 10:45:03   [Culture_Art] Practice_en_Set_04.txt try 1: re-solve disagrees (Q76 key a vs re-solve b)
-09-10 10:45:32   [Books_Authors] review Key_Facts_hi.txt: 4 issue(s): - मेघदूतम् को 'संस्कृत महाकाव्य' बताया गया है → मेघदूतम् संस्कृत का खण्डकाव्य (लघु काव्य) है, महाकाव्य नहीं
-09-10 10:45:34   [International_Orgs] wrote Feynman_hi.txt (2349 chars)
-09-10 10:46:34   [Books_Authors] review: 1 section(s) corrected, 0 failed
-09-10 10:46:34   [Books_Authors] written 1, failed 0; AI calls today 291/100000
-09-10 10:46:46 DONE Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_16_Books_Authors in 2 min → fed3b303
-09-10 10:46:47 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_22_Defence (TODO: todo 25, problems 0)
-09-10 10:46:49   [International_Orgs] wrote Mind_Map.txt (2874 chars)
-09-10 10:46:53   [Science_Tech] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 09-10 10:47:13   [International_Orgs] wrote Flashcards_en.txt (558 chars)
 09-10 10:48:35   [Defence] wrote Content_en.txt (9604 chars)
 09-10 10:49:09   [International_Orgs] wrote Flashcards_hi.txt (4734 chars)
@@ -90,4 +65,29 @@
 09-10 10:57:09   [International_Orgs] Memory_Hooks_hi.txt try 1: rejected (corrupted characters)
 09-10 10:57:40   [Science_Tech] Practice_en_Set_03.txt try 1: rejected (parsed 7 questions, numbers 51…58)
 09-10 10:59:11   [Defence] wrote Key_Facts_hi.txt (8328 chars)
+09-10 10:59:36   [Culture_Art] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 10:59:55   [International_Orgs] wrote Memory_Hooks_hi.txt (6094 chars)
+09-10 11:00:01   [Defence] wrote Feynman_en.txt (3341 chars)
+09-10 11:00:13   [Environment] Flashcards_en.txt try 1: answer too long — asking for a tighter version
+09-10 11:01:09   [Science_Tech] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 11:01:11   [Environment] wrote Flashcards_en.txt (5765 chars)
+09-10 11:01:41   [Defence] wrote Feynman_hi.txt (2607 chars)
+09-10 11:02:41   [Defence] wrote Mind_Map.txt (2492 chars)
+09-10 11:02:49   [Environment] wrote Flashcards_hi.txt (4316 chars)
+09-10 11:03:09   [International_Orgs] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 11:03:18   [Culture_Art] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 11:03:32   [Defence] wrote Flashcards_en.txt (4945 chars)
+09-10 11:03:42   [Science_Tech] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 11:04:21   [Environment] wrote PYQ_en.txt (7916 chars)
+09-10 11:05:15   [International_Orgs] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 11:06:42   [Defence] wrote Flashcards_hi.txt (4024 chars)
+09-10 11:07:17   [Science_Tech] Practice_en_Set_04.txt try 1: re-solve disagrees (Q98 key c vs re-solve a)
+09-10 11:07:39   [International_Orgs] Practice_en_Set_02.txt try 1: re-solve disagrees (Q50 key a vs re-solve b)
+09-10 11:08:50   [Science_Tech] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 11:08:51   [Science_Tech] Practice_hi_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 11:09:11   [Culture_Art] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 11:09:25   [Defence] wrote PYQ_en.txt (9203 chars)
+09-10 11:11:59   [Science_Tech] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 11:12:06   [International_Orgs] Practice_en_Set_02.txt try 2: rejected (parsed 0 questions, numbers -…-)
+09-10 11:13:11   [Defence] wrote PYQ_hi.txt (6101 chars)
 ```
