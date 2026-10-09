@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 10-10-2026 04:33 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
+**आख़िरी update:** 10-10-2026 04:48 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 31 मिनट |
-| W2 | Chapter 23 Quadratic Equations (12th Maths) | 🔎 review हो रहा है | 18 मिनट |
+| W1 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 46 मिनट |
+| W2 | Chapter 23 Quadratic Equations (12th Maths) | 🔎 review हो रहा है | 33 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -52,14 +52,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 03:39:38 DONE 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_21_Permutation_Combination in 14 min → fbc4809f
-10-10 03:39:40 worker 2: nothing left
-10-10 03:39:58   [Statistics] review: 4 section(s) corrected, 0 failed
-10-10 03:39:58   [Statistics] written 4, failed 0; AI calls today 174/100000
-10-10 03:40:12 DONE 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_19_Statistics in 88 min → 5b52ea76
-10-10 03:40:15 worker 5: nothing left
-10-10 03:42:14   [Number_Series] review: 2 section(s) corrected, 1 failed
-10-10 03:42:14   [Number_Series] written 2, failed 1; AI calls today 177/100000
 10-10 03:42:14 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_22_Number_Series after 79 min: todo [] problems []
 10-10 03:42:16 worker 3: nothing left
 10-10 03:42:27   [Quadratic_Equations] wrote Practice_en_Set_02.txt (write, 25 MCQs)
@@ -92,4 +84,12 @@
 10-10 04:24:14   [Probability] Practice_en_Set_03.txt try 2: re-solve disagrees (Q53 key b vs re-solve ?)
 10-10 04:28:33   [Probability] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 10-10 04:33:03   [Probability] Practice_hi_Set_03.txt try 1: rejected (parsed 24 questions, numbers 51…75)
+10-10 04:36:55   [Quadratic_Equations] FAILED review Content_hi.txt: too_long — the chapter must not be published unreviewed
+10-10 04:40:34   [Probability] Practice_hi_Set_03.txt try 2: rejected (parsed 24 questions, numbers 51…75)
+10-10 04:41:58   [Quadratic_Equations] review Feynman_en.txt: 1 issue(s): - AP example description "You save ₹100 every week" contradicts the calculation (Week 10 = 100 + 9×100) which assum
+10-10 04:43:40   [Probability] Practice_hi_Set_03.txt try 3: rejected (parsed 24 questions, numbers 51…75)
+10-10 04:46:02   [Quadratic_Equations] review PYQ_en.txt: 1 issue(s): - Q6 solution has wrong factorization and answer: 2n²+3n-190=0 does not factor to (n-10)(2n+19); n=10 gives sum 230, no
+10-10 04:46:11   [Probability] Practice_hi_Set_03.txt try 4: rejected (parsed 24 questions, numbers 51…75)
+10-10 04:46:11   [Probability] REJECTED Practice_hi_Set_03.txt: no translation passed the checks — not written
+10-10 04:48:05   [Probability] Practice_en_Set_05.txt try 1: rejected (parsed 23 questions, numbers 101…125)
 ```
