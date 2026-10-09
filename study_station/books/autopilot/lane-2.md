@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 08:38 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:12 PM
+**आख़िरी update:** 09-10-2026 08:44 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:12 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 Fractions Decimals (Graduation Maths) | ✍️ लिख रहा है | 61 मिनट |
-| W2 | Chapter 05 Percentage (Graduation Maths) | ✍️ लिख रहा है | 51 मिनट |
-| W3 | Chapter 06 Average (Graduation Maths) | ✍️ लिख रहा है | 34 मिनट |
-| W4 | Chapter 27 Budget Economic Survey (Graduation GK) | 🔎 review हो रहा है | 36 मिनट |
-| W5 | Chapter 28 Advanced Science Tech (Graduation GK) | 🔎 review हो रहा है | 18 मिनट |
-| W6 | Chapter 01 Number System Advanced (Graduation Maths) | 📤 push हो रहा है | 0 मिनट |
-| W7 | Chapter 02 LCM HCF (Graduation Maths) | ✍️ लिख रहा है | 85 मिनट |
-| W8 | Chapter 03 Simplification (Graduation Maths) | ✍️ लिख रहा है | 84 मिनट |
+| W1 | Chapter 04 Fractions Decimals (Graduation Maths) | ✍️ लिख रहा है | 68 मिनट |
+| W2 | Chapter 05 Percentage (Graduation Maths) | ✍️ लिख रहा है | 58 मिनट |
+| W3 | Chapter 06 Average (Graduation Maths) | ✍️ लिख रहा है | 41 मिनट |
+| W4 | Chapter 27 Budget Economic Survey (Graduation GK) | 🔎 review हो रहा है | 43 मिनट |
+| W5 | Chapter 28 Advanced Science Tech (Graduation GK) | 🔎 review हो रहा है | 25 मिनट |
+| W6 | Chapter 07 Ratio Proportion (Graduation Maths) | ✍️ लिख रहा है | 6 मिनट |
+| W7 | Chapter 02 LCM HCF (Graduation Maths) | ✍️ लिख रहा है | 91 मिनट |
+| W8 | Chapter 03 Simplification (Graduation Maths) | ✍️ लिख रहा है | 91 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -28,12 +28,12 @@
 | 12th Maths | 5 | 0 | 18 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 6 | 0 | 19 |
-| 12th English | 24 | 0 | 1 |
+| 12th English | 25 | 0 | 0 |
 | Graduation Maths | 1 | 0 | 27 |
 | Graduation GK | 27 | 1 | 0 |
 | Graduation Reasoning | 8 | 0 | 22 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **186** | **14** | **96** |
+| **कुल** | **187** | **14** | **95** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -44,29 +44,12 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 13 Awards (GK) — 2 बार
-- Chapter 01 Number System Advanced (Maths) — 1 बार
 - Chapter 27 Budget Economic Survey (GK) — 1 बार
 - Chapter 28 Advanced Science Tech (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 20:15:04   [Fractions_Decimals] Practice_en_Set_02.txt try 1: rejected (Q38:leaked_reasoning)
-09-10 20:16:02   [Average] wrote PYQ_en.txt (6516 chars)
-09-10 20:16:15   [Percentage] wrote Flashcards_hi.txt (15146 chars)
-09-10 20:16:44   [Advanced_Science_Tech] review: 5 section(s) corrected, 0 failed
-09-10 20:16:44   [Advanced_Science_Tech] written 5, failed 0; AI calls today 197/100000
-09-10 20:16:44 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_28_Advanced_Science_Tech after 64 min: todo [] problems ['PYQ_hi.txt: much shorter than the English section (2984 vs 1']
-09-10 20:16:46 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_28_Advanced_Science_Tech (FIX: todo 0, problems 1)
-09-10 20:18:17   [Average] wrote PYQ_hi.txt (7010 chars)
-09-10 20:19:08   [Percentage] wrote PYQ_en.txt (7324 chars)
-09-10 20:19:28   [Advanced_Science_Tech] repaired PYQ_hi.txt (7268 chars)
-09-10 20:19:28   [Advanced_Science_Tech] written 1, failed 0; AI calls today 202/100000
-09-10 20:19:32   [Average] wrote Short_Tricks_en.txt (9838 chars)
-09-10 20:19:42   [LCM_HCF] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-09-10 20:19:46   [Number_System_Advanced] review PYQ_en.txt: 1 issue(s): - Q3 initial answer given as (d) → correct answer is (a) 1
-09-10 20:20:40   [Budget_Economic_Survey] review Key_Facts_en.txt: 1 issue(s): - glide path aims below 4.5% by 2025–26 → glide path aims to reach 4.5% by 2025–26
-09-10 20:22:19   [Average] wrote Short_Tricks_hi.txt (6107 chars)
 09-10 20:22:25   [LCM_HCF] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 09-10 20:22:59   [Percentage] wrote PYQ_hi.txt (7128 chars)
 09-10 20:23:18   [Percentage] wrote Short_Tricks_en.txt (1268 chars)
@@ -91,4 +74,20 @@
 09-10 20:37:23   [LCM_HCF] Practice_hi_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
 09-10 20:38:08   [Number_System_Advanced] review: 6 section(s) corrected, 0 failed
 09-10 20:38:08   [Number_System_Advanced] written 6, failed 0; AI calls today 248/100000
+09-10 20:38:24 DONE Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_01_Number_System_Advanced in 62 min → f4212037
+09-10 20:38:25 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_07_Ratio_Proportion (TODO: todo 25, problems 0)
+09-10 20:38:31   [Average] Important_Formulas_en.txt try 1: answer too long — asking for a tighter version
+09-10 20:38:34   [Average] Important_Formulas_en.txt try 2: rejected (too short)
+09-10 20:38:34   [Average] REJECTED Important_Formulas_en.txt: too short — not written
+09-10 20:39:23   [Average] wrote Important_Formulas_hi.txt (2044 chars)
+09-10 20:39:47   [Fractions_Decimals] Practice_en_Set_03.txt try 3: rejected (Q51:leaked_reasoning,Q52:leaked_reasoning,Q57:answer_solution_conflict,Q59:leaked_reasoning,Q69:leaked_reasoni
+09-10 20:39:53   [Simplification] Practice_en_Set_06.txt try 2: re-solve disagrees (Q139 key c vs re-solve ?, Q149 key a vs re-solve b)
+09-10 20:40:22   [Ratio_Proportion] wrote Content_en.txt (9500 chars)
+09-10 20:43:15   [LCM_HCF] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 20:43:21   [Ratio_Proportion] wrote Content_hi.txt (6227 chars)
+09-10 20:43:58   [Ratio_Proportion] Feynman_en.txt try 1: rejected (chat debris "Here's the")
+09-10 20:44:08   [Percentage] FAILED Practice_en_Set_01.txt: too_long
+09-10 20:44:08   [Percentage] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
+09-10 20:44:38   [Ratio_Proportion] Feynman_en.txt try 2: rejected (chat debris "Here's the")
+09-10 20:44:38   [Ratio_Proportion] REJECTED Feynman_en.txt: chat debris "Here's the" — not written
 ```
