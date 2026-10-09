@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 06:28 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 06:43 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 39 मिनट |
-| W2 | Chapter 08 Puzzles (12th Reasoning) | ✍️ लिख रहा है | 183 मिनट |
-| W3 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 45 मिनट |
-| W4 | Chapter 09 Venn Diagrams (12th Reasoning) | ✍️ लिख रहा है | 110 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 54 मिनट |
+| W2 | Chapter 08 Puzzles (12th Reasoning) | ✍️ लिख रहा है | 198 मिनट |
+| W3 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 60 मिनट |
+| W4 | Chapter 09 Venn Diagrams (12th Reasoning) | ✍️ लिख रहा है | 125 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -26,10 +26,10 @@
 | 12th Reasoning | 4 | 0 | 21 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 22 | 0 | 6 |
+| Graduation GK | 23 | 0 | 5 |
 | Graduation Reasoning | 8 | 0 | 22 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **167** | **13** | **116** |
+| **कुल** | **168** | **13** | **115** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -48,11 +48,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 17:49:01 NOT OK 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement after 166 min: todo ['Important_Rules_hi.txt', 'Set 01 en: todo', 'Set 01 hi: todo', 'Set 02 en: todo'] problems ['PYQ_hi.txt: Hindi file is mostly not in Hindi']
-09-10 17:49:03 START 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement (TODO: todo 11, problems 1)
-09-10 17:49:49   [Direction_Sense] FAILED Practice_en_Set_02.txt: rate_limited
-09-10 17:49:49   [Direction_Sense] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
-09-10 17:50:18   [Sitting_Arrangement] wrote Important_Rules_hi.txt (3809 chars)
 09-10 17:52:01   [Puzzles] Practice_en_Set_03.txt try 2: re-solve disagrees (Q57 key d vs re-solve c)
 09-10 17:52:02   [Sitting_Arrangement] Practice_en_Set_01.txt try 1: rejected (Q9:leaked_reasoning,Q25:leaked_reasoning)
 09-10 17:52:25   [Venn_Diagrams] wrote Practice_en_Set_02.txt (write, 25 MCQs)
@@ -88,4 +83,9 @@
 09-10 18:18:25   [Direction_Sense] Practice_en_Set_06.txt try 1: rejected (Q128:leaked_reasoning,Q131:leaked_reasoning,Q132:leaked_reasoning,Q138:leaked_reasoning,Q141:leaked_reasoning)
 09-10 18:19:04   [Puzzles] Practice_en_Set_05.txt try 1: rejected (Q101:leaked_reasoning,Q105:leaked_reasoning,Q121:leaked_reasoning,Q122:leaked_reasoning,Q114:duplicate_options
 09-10 18:21:53   [Venn_Diagrams] Practice_en_Set_04.txt try 1: re-solve disagrees (Q82 key a vs re-solve d, Q97 key d vs re-solve c)
+09-10 18:31:34   [Direction_Sense] Practice_en_Set_06.txt try 2: re-solve disagrees (Q126 key c vs re-solve ?, Q133 key d vs re-solve a)
+09-10 18:33:02   [Sitting_Arrangement] Practice_en_Set_02.txt try 2: re-solve disagrees (Q26 key b vs re-solve c, Q27 key d vs re-solve c, Q29 key b vs re-solve c, Q33 key b vs re-solve c, 
+09-10 18:36:28   [Puzzles] Practice_en_Set_05.txt try 2: re-solve disagrees (Q109 key c vs re-solve d, Q122 key c vs re-solve d)
+09-10 18:38:49   [Venn_Diagrams] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 18:42:22   [Direction_Sense] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 ```
