@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 08:25 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
+**आख़िरी update:** 09-10-2026 08:28 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Para Jumbles (12th English) | 🔎 review हो रहा है | 26 मिनट |
-| W2 | Chapter 23 Sentence Arrangement (12th English) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 03 Coding Decoding (12th Reasoning) | 🔎 review हो रहा है | 41 मिनट |
-| W4 | Chapter 05 Direction Sense (12th Reasoning) | 🔎 review हो रहा है | 26 मिनट |
-| W5 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 67 मिनट |
-| W6 | Chapter 08 Puzzles (12th Reasoning) | ✍️ लिख रहा है | 67 मिनट |
-| W7 | Chapter 11 Series (12th Reasoning) | ✍️ लिख रहा है | 1 मिनट |
-| W8 | Chapter 10 Clock Calendar (12th Reasoning) | ✍️ लिख रहा है | 67 मिनट |
+| W1 | Chapter 22 Para Jumbles (12th English) | 🔎 review हो रहा है | 29 मिनट |
+| W2 | Chapter 12 Missing Term (12th Reasoning) | ✍️ लिख रहा है | 2 मिनट |
+| W3 | Chapter 03 Coding Decoding (12th Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W4 | Chapter 05 Direction Sense (12th Reasoning) | 🔎 review हो रहा है | 29 मिनट |
+| W5 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 70 मिनट |
+| W6 | Chapter 08 Puzzles (12th Reasoning) | ✍️ लिख रहा है | 70 मिनट |
+| W7 | Chapter 11 Series (12th Reasoning) | ✍️ लिख रहा है | 4 मिनट |
+| W8 | Chapter 10 Clock Calendar (12th Reasoning) | ✍️ लिख रहा है | 70 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,25 +37,17 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 20:28 — 12th Reasoning · Chapter 03 Coding Decoding
 - 09-10 20:25 — 12th English · Chapter 23 Sentence Arrangement
 - 09-10 20:24 — 12th Reasoning · Chapter 09 Venn Diagrams
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 22 Para Jumbles (English) — 1 बार
-- Chapter 23 Sentence Arrangement (English) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 20:00:41   [Clock_Calendar] wrote Short_Tricks_en.txt (5267 chars)
-09-10 20:01:05   [Coding_Decoding] review Flashcards_en.txt: 3 issue(s): - Card 10: The example code "NZOH P" for MANGO does not match opposite-letter coding (which would be NZMTL) → Co
-09-10 20:01:32   [Para_Jumbles] review Content_en.txt: 2 issue(s): - "Kerala's literacy campaign began in 1989" is a wrong date; the Kerala Total Literacy Campaign started in 1990 in
-09-10 20:01:52   [Sitting_Arrangement] Practice_en_Set_01.txt try 3: re-solve disagrees (Q1 key d vs re-solve -, Q2 key a vs re-solve -, Q3 key b vs re-solve -, Q4 key c vs re-solve -, Q5 k
-09-10 20:02:50   [Coding_Decoding] review Flashcards_hi.txt: 1 issue(s): - Card 7: The example “MANGO → NZTLP” does not follow the opposite‑letter rule (M↔N, A↔Z, N↔M, G↔T, O↔L gives NZ
-09-10 20:02:51   [Sentence_Arrangement] review Content_en.txt: 1 issue(s): - The claim "In SSC CGL, CHSL, and IBPS exams, 4–6 questions from Para-Jumbles appear almost every year" is an inve
-09-10 20:03:03   [Direction_Sense] review Content_en.txt: 1 issue(s): - Type B solved example: rotation from South-East to North is 135° anticlockwise (3 steps), not 90°; West becomes S
-09-10 20:07:03   [Venn_Diagrams] review Short_Tricks_hi.txt: 5 issue(s): - 'अंदर = All, आधा = Some, अलग = No' — तीनों 'अ' से शुरू! → only 'अंदर' and 'अलग' start with 'अ'; 'आधा' starts
 09-10 20:07:38   [Direction_Sense] review Content_hi.txt: 1 issue(s): - Section 5 example misinterprets the code statement "'पूर्व' को 'उत्तर-पश्चिम' कहा जाता है" as coded "East" = real
 09-10 20:07:56   [Coding_Decoding] review PYQ_en.txt: 3 issue(s): - Q2 answer claims 12 for BED sum but correct sum is 11 (not in options) → Correct sum is 11; question options are flaw
 09-10 20:09:48   [Sentence_Arrangement] review Mind_Map_hi.txt: 2 issue(s): - C2: "Because ... so" is a grammatically incorrect example (redundant conjunctions) → Use "Because … therefore" o
@@ -88,4 +80,12 @@
 09-10 20:25:44   [Direction_Sense] review PYQ_hi.txt: 3 issue(s): - Question 2 solution incorrectly claims a 135° anti-clockwise rotation for the code "पूर्व को उत्तर-पश्चिम कहा जाता है
 09-10 20:25:55   [Sentence_Arrangement] review: 4 section(s) corrected, 0 failed
 09-10 20:25:55   [Sentence_Arrangement] written 4, failed 0; AI calls today 171/100000
+09-10 20:26:08 DONE 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_23_Sentence_Arrangement in 42 min → cd39e4ae
+09-10 20:26:10 START 12th_Level/Reasoning/Chapter_12_Missing_Term (TODO: todo 25, problems 0)
+09-10 20:26:44   [Para_Jumbles] review Short_Tricks_en.txt: 2 issue(s): - Claim that para jumbles are “45-second questions” → remove or qualify as a heuristic, not an exam fact
+09-10 20:27:10   [Coding_Decoding] review Important_Rules_en.txt: 1 issue(s): - Mixed Shifting example "ABC → CEG (+2, +4, +6)" is incorrect: applying shifts +2, +4, +6 to A, B, C gives
+09-10 20:27:27   [Sitting_Arrangement] Practice_en_Set_02.txt try 1: rejected (Q29:leaked_reasoning,Q30:leaked_reasoning,Q33:leaked_reasoning,Q36:leaked_reasoning,Q38:leaked_reasoning)
+09-10 20:27:32   [Missing_Term] wrote Content_en.txt (5752 chars)
+09-10 20:28:42   [Coding_Decoding] review: 8 section(s) corrected, 0 failed
+09-10 20:28:42   [Coding_Decoding] written 8, failed 0; AI calls today 180/100000
 ```

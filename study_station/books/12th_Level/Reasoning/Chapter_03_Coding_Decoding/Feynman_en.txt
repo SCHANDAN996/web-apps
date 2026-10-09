@@ -1,0 +1,110 @@
+# 🧒 The Feynman Way — Coding-Decoding Explained Like You're 12
+
+## The Secret Language of Two Friends
+
+Imagine this. Riya and Aman sit in the same class, and the teacher has a strict rule: **no passing notes in class.** But Riya *really* wants to tell Aman: "Meet me at the canteen."
+
+So they invent a secret rule between them:
+
+> **Every letter becomes the NEXT letter of the alphabet.**
+> A → B, B → C, C → D … and Z wraps around to A.
+
+Riya writes on her chit: **NFFU**
+
+Aman smiles. He just shifts every letter one step *backwards*:
+N→M, F→E, F→E, U→T = **MEET** ✅
+
+The teacher picks up the chit, reads "NFFU", shrugs, and throws it away. Mission accomplished.
+
+**Congratulations — you just did Coding-Decoding.** That's the *entire* chapter. Everything else is just fancier versions of Riya and Aman's trick.
+
+---
+
+## The Two Halves of Every Question
+
+Every coding-decoding question has exactly two jobs:
+
+1. **CODING** = locking the message (English word → secret code). Riya's job.
+2. **DECODING** = unlocking the message (secret code → English word). Aman's job.
+
+The exam gives you a *sample pair* — like "CAT is written as DBU" — and asks you to find the **rule** (the secret agreement), then apply it to a new word. Your only real task is: **catch the rule.**
+
+---
+
+## The Hardest Part: "How Do I Find the Rule Fast?"
+
+Here's where students panic. The word is coded, but *how*? Letter shift? Reverse? Jumbled? Here's the trick that makes it child's play:
+
+### 🔑 The Unforgettable Trick: **"Write the Numbers, Watch the Dance"**
+
+Letters are shy. Numbers are honest. The moment you convert letters to their **place values** (A=1, B=2, … Z=26), the hidden rule starts dancing in front of you.
+
+**Example:** In a code, DOG is written as FQI. How is CAT written?
+
+Step 1 — Write place values:
+
+| D | O | G |
+|---|---|---|
+| 4 | 15 | 7 |
+
+| F | Q | I |
+|---|---|---|
+| 6 | 17 | 9 |
+
+Step 2 — Compare each pair:
+- 4 → 6 (**+2**)
+- 15 → 17 (**+2**)
+- 7 → 9 (**+2**)
+
+The dance is obvious: **every letter jumps +2.** 🕺
+
+Step 3 — Apply to CAT: C(3)→E, A(1)→C, T(20)→V = **ECV** ✅
+
+That's it. Numbers never lie. If the difference isn't constant, check these usual suspects, in this order:
+
+1. **Constant shift** (+2, −3, etc.) — most common
+2. **Increasing shift** (+1, +2, +3…)
+3. **Reverse order** (word written backwards: DOG → GOD)
+4. **Opposite letters** (A↔Z, B↔Y, C↔X — pairs adding to 27)
+5. **Vowels vs consonants treated differently** (vowels +1, consonants −1, say)
+6. **Letter positions swapped** (1st↔3rd letter, etc.)
+
+### 🧠 Memory Hook: **"EJOTY"** — your alphabet GPS
+
+To recall place values instantly, remember the word **EJOTY**:
+**E**=5, **J**=10, **O**=15, **T**=20, **Y**=25 — the multiples of 5.
+
+Need K? J is 10, so K is 11. Need S? T is 20, so S is 19. No more counting on fingers in the exam hall!
+
+And for opposite letters, remember: **"Sum to 27"** — A(1)+Z(26)=27, M(13)+N(14)=27. If a letter and its code add to 27, it's an opposite-letter code.
+
+---
+
+## One More Story: The Number Code
+
+Sometimes the code isn't letters at all. "If PEN = 35, what is INK?"
+
+Don't panic — numbers again! P(16)+E(5)+N(14) = **35**. The rule was just *add the place values*. So INK = 9+14+11 = **34**. The exam loves this because students assume it must be complicated. It rarely is.
+
+---
+
+## 📝 Blurting Sheet — Your Turn!
+
+**Now try to write down all key points of this chapter on a blank sheet without looking up.**
+
+Cover this page and blurt out, from memory:
+- What coding and decoding mean (Riya and Aman's story)
+- The "Write the Numbers, Watch the Dance" method
+- The 6 usual suspects (rule types), in order
+- EJOTY and the Sum-to-27 opposite-letter trick
+- How number-sum codes work (PEN = 35)
+
+Check the sheet against this page. Whatever you missed — that's exactly what to revise tonight.
+
+---
+
+## ❓ One Question to Leave You Thinking
+
+If in a certain code, **WATER is written as XZUDQ**, can you spot the rule — and then tell me: how would **MANGO** be written in the same code?
+
+*(Hint: write the numbers, and watch the dance carefully — is the shift the same for every letter?)*

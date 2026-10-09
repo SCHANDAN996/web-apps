@@ -1,0 +1,79 @@
+Card 1
+Front: What is the very first thing you should write on your rough sheet before solving any coding question?
+Back: The alphabet with position numbers 1–26 (A=1 … Z=26) and the reverse positions (A=26 … Z=1). Most coding patterns are just position arithmetic.
+
+Card 2
+Front: If CAT is coded as 3120, what type of coding is this and how do you crack it?
+Back: Letter-to-number coding using alphabet positions: C=3, A=1, T=20. Always check whether numbers are positions, sum of positions, or positions ± a constant.
+
+Card 3
+Front: In "letter shifting" coding, what is the most common pattern examiners use?
+Back: Each letter is shifted by a fixed number (e.g., +2: A→C) or by an increasing pattern (+1, +2, +3…). Compare the first letters of word and code first — the shift reveals itself fastest there.
+
+Card 4
+Front: What is the EJOTY trick and what does it help you remember?
+Back: EJOTY gives the letters at positions 5, 10, 15, 20, 25: E(5), J(10), O(15), T(20), Y(25). From these anchor points you can count to any letter's position in 2–3 seconds without writing the whole alphabet.
+
+Card 5
+Front: How do you instantly recall the reverse position of any letter (e.g., what is the 7th letter from the end)?
+Back: Reverse position = 27 − normal position. So 7th from the end = 27 − 7 = 20 = T. Mnemonic: "27 minus" works because A(1) pairs with Z(26), and 1+26 = 27.
+
+Card 6
+Front: If DOG is coded as FQI, what is the pattern?
+Back: Each letter shifts +2: D→F, O→Q, G→I. When the shift is uniform, apply the same shift to decode or encode any other word.
+
+Card 7
+Front: In a mixed coding question, four sentences share words and codes. What is the solving strategy?
+Back: Find the common word in two sentences and the common code in their code strings — that pair is locked. Eliminate step by step; the leftover word matches the leftover code.
+
+Card 8
+Front: Examiner's trap: In mixed coding, two sentences share TWO words and TWO codes. Can you fix which code belongs to which word?
+Back: No — you can only say the two codes belong to those two words as a pair. Never assume order. The trap option assigns a definite code to one of them; reject it unless a third sentence breaks the tie.
+
+Card 9
+Front: What is "reverse order" coding and how do you spot it in 5 seconds?
+Back: The word is simply written backwards (e.g., RATE → ETAR), sometimes combined with a shift. Check if the code's letters are exactly the word's letters in reverse before trying complex patterns.
+
+Card 10
+Front: If MANGO is coded as NZMTL, what pattern is at work?
+Back: Opposite-letter (complementary) coding: each letter is replaced by its pair from the other end — M↔N, A↔Z, N↔M, G↔T, O↔L. Each pair's positions always sum to 27.
+
+Card 11
+Front: What is the quick mnemonic to remember opposite letter pairs?
+Back: Remember the pairs: AZ, BY, CX, DW, EV, FU, GT, HS, IR, JQ, KP, LO, MN. A popular memory hook: "AZad BoY" for AZ-BY, then note each pair sums to 27.
+
+Card 12
+Front: In symbol coding (e.g., A is @, B is #), what should you check before answering "how is WORD coded"?
+Back: Check that every letter of the new word has its symbol defined in the given examples. If a letter never appeared, the question is unsolvable — pick the option only if all letters are covered.
+
+Card 13
+Front: Examiner's trap: A code uses +1, +2, +3 shifting. You matched the first three letters and assumed +4 continues. When does this break?
+Back: When the pattern is actually +1, +2, +3, +1, +2… (repeating) or based on vowels/consonants. Always verify the pattern on ALL letters of the given example, not just the first few.
+
+Card 14
+Front: If "sky is blue" = "ka ma ta" and "blue is beautiful" = "ta ka ra", what is the code for "is"?
+Back: It cannot be determined uniquely. Both sentences share the words "is" and "blue" and the codes "ka" and "ta", so "is" is either "ka" or "ta" — only a third sentence containing "is" without "blue" can fix it. Classic trap: never guess between the two.
+
+Card 15
+Front: What is number coding of a word like "MASTER → 13-1-19-20-5-18" called, and what is its common variant?
+Back: Direct position coding. Common variants: sum of all positions (13+1+19+20+5+18 = 76), reverse positions (27−each), or positions of vowels only.
+
+Card 16
+Front: In "new pattern" coding (Bank exams), a condition table says "if the word starts with a vowel, code it as %". What is the key skill?
+Back: Apply conditions strictly in the given priority order and to the exact letter positions stated. Read every condition before coding — skipping the priority order is the biggest error.
+
+Card 17
+Front: How much time should you give one coding question, and when should you skip?
+Back: About 30–45 seconds. If after writing positions you see no pattern in the first two letters (shift, reverse, opposite), mark it and move on — return only if time remains.
+
+Card 18
+Front: If in a code language "PENCIL" is written as "CNPEIL" (letters rearranged), what should you check?
+Back: Letter rearrangement/permutation coding: track where each position moves (here the first two letters P, E swap to positions 3 and 4: P-E-N-C-I-L → C-N-P-E-I-L). Apply the same position map to the new word — don't look for alphabet shifts here.
+
+Card 19
+Front: Why do examiners love words like "EXAMINATION" in coding questions?
+Back: Repeated letters (A, I, N appear twice) expose wrong patterns instantly — if your rule gives two different codes for the same letter, the rule is wrong. Use repeated letters as a self-check.
+
+Card 20
+Front: What is the one-line master strategy for any coding-decoding question?
+Back: Write positions, compare letter-by-letter (first letters first), test the simplest pattern (shift → reverse → opposite → rearrangement), verify on every letter, then apply.

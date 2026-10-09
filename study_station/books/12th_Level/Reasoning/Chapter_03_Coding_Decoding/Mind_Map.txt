@@ -1,0 +1,31 @@
+```mermaid
+graph TD
+    A["कोडिंग-डिकोडिंग<br>Coding-Decoding"] --> B["मुख्य प्रकार<br>Main Types"]
+    A --> C["रणनीति<br>Strategy"]
+    A --> D["समय प्रबंधन<br>Time Management"]
+    A --> E["परीक्षक के जाल<br>Examiner Traps"]
+
+    B --> B1["अक्षर कोडिंग<br>Letter Coding<br>(+1, -1, reverse)"]
+    B --> B2["संख्या कोडिंग<br>Number Coding<br>(A=1 … Z=26)"]
+    B --> B3["प्रतिस्थापन कोडिंग<br>Substitution Coding<br>(लाल = नीला)"]
+    B --> B4["मिश्रित/वाक्य कोडिंग<br>Mixed/Sentence Coding<br>(common words से code निकालें)"]
+    B --> B5["चिह्न/प्रतीक कोडिंग<br>Symbol Coding<br>(@, #, $ शर्तों के साथ)"]
+
+    B1 --> B1a["स्थान मान याद रखें<br>Place Values<br>EJOTY: 5,10,15,20,25"]
+    B1 --> B1b["विपरीत अक्षर<br>Opposite Letters<br>योग = 27 (A-Z, B-Y)"]
+
+    C --> C1["पहले pattern पहचानें<br>Identify pattern first"]
+    C --> C2["अंतर/स्थान मान लिखें<br>Write differences/place values"]
+    C --> C3["विकल्पों से मिलान करें<br>Match with options"]
+    C --> C4["मिश्रित कोडिंग में<br>उभयनिष्ठ शब्द खोजें<br>Find common words"]
+
+    D --> D1["आसान प्रश्न: 20-30 सेकंड<br>Easy: 20-30 sec"]
+    D --> D2["कठिन/शर्त वाले: 45-60 सेकंड<br>Hard/conditional: 45-60 sec"]
+    D --> D3["2 मिनट से अधिक = छोड़ें<br>>2 min = Skip"]
+
+    E --> E1["आगे/पीछे दिशा भ्रम<br>Forward/backward<br>direction confusion"]
+    E --> E2["लगभग-सही विकल्प<br>Near-correct options<br>(एक अक्षर गलत)"]
+    E --> E3["विपरीत अक्षर योग 26 मान लेना<br>Opposite sum taken as 26<br>(सही = 27)"]
+    E --> E4["प्रतिस्थापन में वास्तविक अर्थ<br>Real meaning trap<br>in substitution"]
+    E --> E5["शर्तें गलत पढ़ना<br>Misreading conditions<br>in symbol coding"]
+```
