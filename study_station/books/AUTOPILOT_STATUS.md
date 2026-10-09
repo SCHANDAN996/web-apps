@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 09:59 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:17 PM
+**आख़िरी update:** 09-10-2026 10:07 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:17 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 16 Statement Conclusion (Graduation Reasoning) | ✍️ लिख रहा है | 155 मिनट |
-| W2 | Chapter 17 Course of Action (Graduation Reasoning) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 161 मिनट |
-| W4 | Chapter 19 Cubes Dice (Graduation Reasoning) | ✍️ लिख रहा है | 83 मिनट |
-| W5 | Chapter 18 Inequality (Graduation Reasoning) | ✍️ लिख रहा है | 115 मिनट |
-| W6 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 161 मिनट |
-| W7 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 50 मिनट |
-| W8 | Chapter 15 Mathematical Operations (Graduation Reasoning) | ✍️ लिख रहा है | 161 मिनट |
+| W1 | Chapter 16 Statement Conclusion (Graduation Reasoning) | ✍️ लिख रहा है | 162 मिनट |
+| W2 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 6 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 168 मिनट |
+| W4 | Chapter 19 Cubes Dice (Graduation Reasoning) | ✍️ लिख रहा है | 90 मिनट |
+| W5 | Chapter 18 Inequality (Graduation Reasoning) | ✍️ लिख रहा है | 122 मिनट |
+| W6 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 168 मिनट |
+| W7 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 57 मिनट |
+| W8 | Chapter 15 Mathematical Operations (Graduation Reasoning) | ✍️ लिख रहा है | 168 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -48,24 +48,10 @@
 - Chapter 08 Puzzles (Reasoning) — 2 बार
 - Chapter 12 Missing Term (Reasoning) — 2 बार
 - Chapter 14 Alphabet Questions (Reasoning) — 1 बार
-- Chapter 17 Course of Action (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 21:28:34   [Statement_Conclusion] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 21:29:06   [Mathematical_Operations] Practice_en_Set_05.txt try 1: rejected (Q101:leaked_reasoning,Q104:leaked_reasoning,Q105:leaked_reasoning,Q107:leaked_reasoning,Q110:leaked_reasoning)
-09-10 21:30:10   [Mathematical_Operations] Practice_en_Set_05.txt try 2: rejected (parsed 0 questions, numbers -…-)
-09-10 21:30:44   [Alphabet_Questions] FAILED Practice_en_Set_03.txt: too_long
-09-10 21:30:44   [Alphabet_Questions] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
-09-10 21:31:13   [Inequality] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 21:32:28   [Course_of_Action] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-09-10 21:34:13   [Mathematical_Operations] Practice_en_Set_05.txt try 3: rejected (Q101:leaked_reasoning,Q102:leaked_reasoning,Q107:leaked_reasoning,Q112:leaked_reasoning,Q114:leaked_reasoning)
-09-10 21:34:32   [Alphabet_Questions] Practice_en_Set_04.txt try 1: rejected (Q77:leaked_reasoning,Q80:leaked_reasoning,Q83:answer_solution_conflict,Q88:leaked_reasoning,Q91:leaked_reasoni
-09-10 21:35:25   [Cubes_Dice] Practice_en_Set_01.txt try 2: re-solve disagrees (Q7 key d vs re-solve a)
-09-10 21:37:01   [Course_of_Action] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-09-10 21:37:01   [Course_of_Action] written 2, failed 0; AI calls today 269/100000
-09-10 21:37:10   [Statement_Conclusion] Practice_en_Set_05.txt try 1: re-solve disagrees (Q112 key d vs re-solve a, Q118 key d vs re-solve c, Q125 key b vs re-solve a)
 09-10 21:40:34   [Dictionary_Order] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 09-10 21:41:09   [Course_of_Action] review Content_hi.txt: 3 issue(s): - The opening anecdote claims a specific 2019 bank exam question and that "हज़ारों छात्रों" chose a wrong answer → 
 09-10 21:43:16   [Dictionary_Order] Practice_hi_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
@@ -93,4 +79,17 @@
 09-10 21:59:22   [Alphabet_Questions] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
 09-10 21:59:56   [Course_of_Action] review: 2 section(s) corrected, 0 failed
 09-10 21:59:56   [Course_of_Action] written 2, failed 0; AI calls today 309/100000
+09-10 22:00:12 DONE Graduation_Level/Reasoning/Chapter_17_Course_of_Action in 34 min → bc1415e2
+09-10 22:00:14 START Graduation_Level/Reasoning/Chapter_20_Mirror_Water_Images (TODO: todo 25, problems 0)
+09-10 22:00:26   [Alphabet_Questions] Practice_en_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 22:00:52   [Dictionary_Order] Practice_en_Set_06.txt try 3: re-solve disagrees (Q131 key c vs re-solve d, Q144 key b vs re-solve a, Q147 key b vs re-solve a)
+09-10 22:01:22   [Inequality] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 22:01:43   [Mirror_Water_Images] wrote Content_en.txt (10088 chars)
+09-10 22:02:41   [Alphabet_Questions] Practice_en_Set_05.txt try 2: rejected (parsed 0 questions, numbers -…-)
+09-10 22:03:11   [Inequality] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 22:03:51   [Mirror_Water_Images] wrote Content_hi.txt (7247 chars)
+09-10 22:04:39   [Mirror_Water_Images] wrote Feynman_en.txt (3667 chars)
+09-10 22:05:08   [Alphabet_Questions] Practice_en_Set_05.txt try 3: rejected (Q108:leaked_reasoning,Q114:leaked_reasoning,Q115:leaked_reasoning,Q117:leaked_reasoning,Q118:leaked_reasoning)
+09-10 22:06:43   [Statement_Conclusion] Practice_en_Set_05.txt try 3: re-solve disagrees (Q105 key b vs re-solve c)
+09-10 22:07:04   [Mirror_Water_Images] wrote Feynman_hi.txt (2753 chars)
 ```
