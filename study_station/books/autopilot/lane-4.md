@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 02:47 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 02:50 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 03 Modern History (12th GK) | 🔎 review हो रहा है | 54 मिनट |
-| W2 | Chapter 24 Reports Indices (12th GK) | 🔎 review हो रहा है | 42 मिनट |
-| W3 | Chapter 25 Govt Schemes (12th GK) | 🔎 review हो रहा है | 25 मिनट |
-| W4 | Chapter 18 Science Tech (12th GK) | 📤 push हो रहा है | 0 मिनट |
-| W5 | Chapter 21 International Orgs (12th GK) | 🔎 review हो रहा है | 41 मिनट |
+| W1 | Chapter 03 Modern History (12th GK) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 24 Reports Indices (12th GK) | 🔎 review हो रहा है | 45 मिनट |
+| W3 | Chapter 25 Govt Schemes (12th GK) | 🔎 review हो रहा है | 29 मिनट |
+| W4 | Chapter 01 Number System (12th Maths) | ✍️ लिख रहा है | 3 मिनट |
+| W5 | Chapter 21 International Orgs (12th GK) | 🔎 review हो रहा है | 45 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -27,35 +27,25 @@
 | 12th Reasoning | 2 | 0 | 23 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 19 | 0 | 9 |
-| Graduation Reasoning | 3 | 0 | 27 |
+| Graduation GK | 20 | 0 | 8 |
+| Graduation Reasoning | 4 | 0 | 26 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **150** | **15** | **131** |
+| **कुल** | **152** | **15** | **129** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 14:50 — 12th GK · Chapter 03 Modern History
 - 09-10 14:47 — 12th GK · Chapter 18 Science Tech
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 12 Biology (GK) — 2 बार
 - Chapter 14 Sports (GK) — 2 बार
+- Chapter 03 Modern History (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 14:03:05   [Reports_Indices] wrote Flashcards_hi.txt (8656 chars)
-09-10 14:03:05   [Reports_Indices] written 1, failed 0; AI calls today 19/100000
-09-10 14:04:56   [Sports] repaired Memory_Hooks_hi.txt (4863 chars)
-09-10 14:04:56   [Sports] written 1, failed 0; AI calls today 20/100000
-09-10 14:04:56 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_14_Sports after 6 min: todo [] problems ['Memory_Hooks_hi.txt: much shorter than the English section (']
-09-10 14:04:57 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_25_Govt_Schemes (TODO: todo 3, problems 0)
-09-10 14:05:02   [Reports_Indices] repaired Flashcards_hi.txt (3337 chars)
-09-10 14:05:02   [Reports_Indices] written 1, failed 0; AI calls today 21/100000
-09-10 14:05:19   [International_Orgs] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-09-10 14:05:19   [International_Orgs] written 1, failed 0; AI calls today 22/100000
-09-10 14:05:28   [International_Orgs] review Content_en.txt: 1 issue(s): - Section titled "International Organizations" contains only repetitive placeholder text ("Imagine a world without 
-09-10 14:06:50   [Modern_History] review Key_Facts_en.txt: 1 issue(s): - Dandi March Examiner's Trap says distance given wrongly as ~240 miles/~385 km → The distance is actually ~240 m
 09-10 14:08:19   [Reports_Indices] review Content_en.txt: 1 issue(s): - CPI 2024 India rank given as 96 → the latest CPI report available in 2024 is CPI 2023 (released Jan 2024) where I
 09-10 14:09:49   [Science_Tech] review Content_en.txt: 3 issue(s): - "Exactly one year later, on 18 July 1980" → "On 18 July 1980 (the first SLV-3 launch was 10 August 1979, about 11
 09-10 14:10:45   [Govt_Schemes] wrote PYQ_en.txt (15063 chars)
@@ -84,4 +74,16 @@
 09-10 14:47:09   [Govt_Schemes] review Feynman_en.txt: 1 issue(s): - Pradhan Mantri Awas Yojana is listed as a Central Sector Scheme example → Pradhan Mantri Awas Yojana (both Gramin
 09-10 14:47:17   [Science_Tech] review: 6 section(s) corrected, 0 failed
 09-10 14:47:17   [Science_Tech] written 6, failed 0; AI calls today 97/100000
+09-10 14:47:29   [Modern_History] review: 3 section(s) corrected, 1 failed
+09-10 14:47:29   [Modern_History] written 3, failed 1; AI calls today 97/100000
+09-10 14:47:29 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_03_Modern_History after 55 min: todo [] problems []
+09-10 14:47:29 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_03_Modern_History (OK: todo 0, problems 0)
+09-10 14:47:31 DONE 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_18_Science_Tech in 55 min → 113ea320
+09-10 14:47:32 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System (TODO: todo 5, problems 1)
+09-10 14:47:51   [International_Orgs] review Memory_Hooks_en.txt: 1 issue(s): - SAARC: "8 Members, 1985, Kathmandu" → SAARC was founded in 1985 with 7 members (Bangladesh, Bhutan, India, M
+09-10 14:48:24   [Number_System] wrote Feynman_en.txt (2953 chars)
+09-10 14:49:10   [Modern_History] review Feynman_en.txt: 2 issue(s): - The claim "Udaipur was technically annexed under Lapse but later returned" is false; no state annexed under Doctr
+09-10 14:50:31   [Reports_Indices] review Memory_Hooks_hi.txt: 1 issue(s): - Mnemonic 9 heading "4 खंभे: एस-पी-एच-ई" is wrong; the four pillars of the Global Gender Gap Index are Econom
+09-10 14:50:56   [Modern_History] review: 1 section(s) corrected, 0 failed
+09-10 14:50:56   [Modern_History] written 1, failed 0; AI calls today 110/100000
 ```
