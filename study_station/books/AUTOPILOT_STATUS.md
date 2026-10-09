@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 10:14 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 10:28 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 29 मिनट |
-| W2 | Chapter 05 Direction Sense (Graduation Reasoning) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 51 मिनट |
-| W4 | Chapter 06 Order Ranking (Graduation Reasoning) | ✍️ लिख रहा है | 5 मिनट |
-| W5 | Chapter 04 Blood Relations (Graduation Reasoning) | ✍️ लिख रहा है | 3 मिनट |
+| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 43 मिनट |
+| W2 | Chapter 09 Venn Diagrams (Graduation Reasoning) | ✍️ लिख रहा है | 13 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 65 मिनट |
+| W4 | Chapter 06 Order Ranking (Graduation Reasoning) | 🔧 सुधार रहा है | 0 मिनट |
+| W5 | Chapter 04 Blood Relations (Graduation Reasoning) | ✍️ लिख रहा है | 17 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md)
 
@@ -29,10 +29,10 @@
 | 12th Reasoning | 0 | 0 | 25 |
 | 12th English | 22 | 0 | 3 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 13 | 0 | 15 |
-| Graduation Reasoning | 2 | 0 | 28 |
+| Graduation GK | 14 | 0 | 14 |
+| Graduation Reasoning | 2 | 1 | 27 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **129** | **13** | **154** |
+| **कुल** | **130** | **14** | **152** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -44,37 +44,12 @@
 - Chapter 03 Coding Decoding (Reasoning) — 2 बार
 - Chapter 22 Para Jumbles Adv (English) — 2 बार
 - Chapter 02 Classification (Reasoning) — 2 बार
-- Chapter 05 Direction Sense (Reasoning) — 1 बार
 - Chapter 06 Order Ranking (Reasoning) — 1 बार
 - Chapter 04 Blood Relations (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 09:51:05   [Blood_Relations] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
-09-10 09:51:05   [Blood_Relations] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
-09-10 09:51:27   [Puzzles] wrote Feynman_hi.txt (2784 chars)
-09-10 09:52:09   [Sitting_Arrangement] wrote Flashcards_hi.txt (5105 chars)
-09-10 09:52:16   [Puzzles] wrote Mind_Map.txt (2290 chars)
-09-10 09:53:20   [Puzzles] wrote Flashcards_en.txt (5696 chars)
-09-10 09:53:36   [Blood_Relations] Practice_en_Set_06.txt try 1: rejected (Q132:leaked_reasoning,Q138:leaked_reasoning)
-09-10 09:54:16   [Sitting_Arrangement] wrote PYQ_en.txt (10592 chars)
-09-10 09:55:08   [Puzzles] wrote Flashcards_hi.txt (5113 chars)
-09-10 09:56:51   [Direction_Sense] review Feynman_hi.txt: 1 issue(s): - Invented exam statistic "परीक्षा में 90% सवाल इन्हीं पर बनते हैं!" → Remove the claim or replace with a generic s
-09-10 09:56:52   [Sitting_Arrangement] wrote PYQ_hi.txt (9222 chars)
-09-10 09:56:56   [Order_Ranking] FAILED Practice_en_Set_05.txt: too_long
-09-10 09:56:56   [Order_Ranking] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
-09-10 09:57:00   [Puzzles] wrote PYQ_en.txt (8463 chars)
-09-10 09:57:57   [Sitting_Arrangement] wrote Short_Tricks_en.txt (4016 chars)
-09-10 09:59:48   [Sitting_Arrangement] wrote Short_Tricks_hi.txt (4904 chars)
-09-10 10:00:06   [Order_Ranking] Practice_en_Set_06.txt try 1: rejected (Q145:leaked_reasoning,Q150:leaked_reasoning)
-09-10 10:00:31   [Puzzles] wrote PYQ_hi.txt (8390 chars)
-09-10 10:00:40   [Puzzles] wrote Short_Tricks_en.txt (595 chars)
-09-10 10:00:41   [Sitting_Arrangement] wrote Important_Rules_en.txt (5106 chars)
-09-10 10:02:49   [Direction_Sense] review PYQ_hi.txt: 3 issue(s): - प्रश्न 5 में प्रारंभिक उत्तर (b) दिया गया है → सही उत्तर (a) उत्तर है
-09-10 10:05:01   [Puzzles] FAILED Short_Tricks_hi.txt: rate_limited
-09-10 10:05:44   [Blood_Relations] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 10:05:52   [Order_Ranking] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 09-10 10:06:32   [Puzzles] wrote Important_Rules_en.txt (3393 chars)
 09-10 10:08:30   [Order_Ranking] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 09-10 10:08:30   [Order_Ranking] written 3, failed 4; AI calls today 151/100000
@@ -91,4 +66,28 @@
 09-10 10:13:40   [Order_Ranking] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 09-10 10:14:24   [Direction_Sense] review: 4 section(s) corrected, 0 failed
 09-10 10:14:24   [Direction_Sense] written 4, failed 0; AI calls today 161/100000
+09-10 10:14:38 DONE Graduation_Level/Reasoning/Chapter_05_Direction_Sense in 41 min → ce5fefa2
+09-10 10:14:39 START Graduation_Level/Reasoning/Chapter_09_Venn_Diagrams (TODO: todo 25, problems 0)
+09-10 10:15:27   [Sitting_Arrangement] Important_Rules_hi.txt try 1: answer too long — asking for a tighter version
+09-10 10:15:40   [Venn_Diagrams] wrote Content_en.txt (6391 chars)
+09-10 10:17:31   [Venn_Diagrams] wrote Content_hi.txt (6152 chars)
+09-10 10:17:33   [Order_Ranking] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 10:18:14   [Sitting_Arrangement] wrote Important_Rules_hi.txt (5680 chars)
+09-10 10:19:12   [Venn_Diagrams] wrote Feynman_en.txt (3363 chars)
+09-10 10:19:43   [Order_Ranking] Practice_en_Set_05.txt try 1: rejected (Q106:leaked_reasoning,Q112:leaked_reasoning,Q115:leaked_reasoning,Q121:leaked_reasoning,Q122:leaked_reasoning)
+09-10 10:21:07   [Venn_Diagrams] wrote Feynman_hi.txt (2945 chars)
+09-10 10:21:39   [Venn_Diagrams] wrote Mind_Map.txt (1832 chars)
+09-10 10:21:54   [Blood_Relations] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+09-10 10:22:16   [Sitting_Arrangement] Practice_en_Set_01.txt try 1: rejected (Q1:leaked_reasoning,Q17:leaked_reasoning,Q21:leaked_reasoning,Q22:leaked_reasoning)
+09-10 10:23:03   [Venn_Diagrams] wrote Flashcards_en.txt (4467 chars)
+09-10 10:24:16   [Order_Ranking] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 10:24:24   [Venn_Diagrams] wrote Flashcards_hi.txt (3689 chars)
+09-10 10:25:47   [Sitting_Arrangement] Practice_en_Set_01.txt try 2: rejected (Q21:leaked_reasoning)
+09-10 10:26:13   [Venn_Diagrams] wrote PYQ_en.txt (10113 chars)
+09-10 10:26:16   [Blood_Relations] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 10:26:25   [Puzzles] FAILED Practice_en_Set_01.txt: too_long
+09-10 10:26:25   [Puzzles] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
+09-10 10:28:13   [Venn_Diagrams] wrote PYQ_hi.txt (7036 chars)
+09-10 10:28:28   [Order_Ranking] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 10:28:28   [Order_Ranking] written 4, failed 0; AI calls today 182/100000
 ```
