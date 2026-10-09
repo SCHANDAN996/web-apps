@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 12:55 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 01:01 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 LCM HCF (12th Maths) | ✍️ लिख रहा है | 51 मिनट |
-| W2 | Chapter 23 Economic Terms (12th GK) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 25 Govt Schemes (12th GK) | ✍️ लिख रहा है | 98 मिनट |
-| W5 | Chapter 01 Number System (12th Maths) | ✍️ लिख रहा है | 94 मिनट |
+| W1 | Chapter 02 LCM HCF (12th Maths) | ✍️ लिख रहा है | 57 मिनट |
+| W4 | Chapter 25 Govt Schemes (12th GK) | ✍️ लिख रहा है | 104 मिनट |
+| W5 | Chapter 01 Number System (12th Maths) | ✍️ लिख रहा है | 100 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -26,10 +25,10 @@
 | 12th Reasoning | 0 | 0 | 25 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 17 | 0 | 11 |
+| Graduation GK | 18 | 0 | 10 |
 | Graduation Reasoning | 3 | 0 | 27 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **140** | **15** | **141** |
+| **कुल** | **141** | **15** | **140** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -48,17 +47,11 @@
 - Chapter 03 Modern History (GK) — 2 बार
 - Chapter 18 Science Tech (GK) — 2 बार
 - Chapter 21 International Orgs (GK) — 2 बार
-- Chapter 23 Economic Terms (GK) — 1 बार
 - Chapter 24 Reports Indices (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 12:26:43   [Number_System] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-09-10 12:27:11   [Reports_Indices] Practice_en_Set_06.txt try 3: re-solve disagrees (Q141 key c vs re-solve a)
-09-10 12:29:12   [Number_System] Practice_en_Set_03.txt try 1: rejected (Q60:leaked_reasoning,Q62:leaked_reasoning,Q66:leaked_reasoning,Q67:answer_solution_conflict)
-09-10 12:29:15   [Reports_Indices] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 12:29:41   [LCM_HCF] Flashcards_en.txt try 1: answer too long — asking for a tighter version
 09-10 12:29:49   [Govt_Schemes] FAILED Practice_en_Set_02.txt: too_long
 09-10 12:29:49   [Govt_Schemes] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
 09-10 12:30:16   [Economic_Terms] review Content_hi.txt: 2 issue(s): - "GDP की गणना अब 2011-12 को आधार वर्ष मानकर की जाती है" uses "अब" without a year reference → add a year context, e
@@ -94,4 +87,9 @@
 09-10 12:55:11   [Economic_Terms] review: 5 section(s) corrected, 0 failed
 09-10 12:55:11   [Economic_Terms] written 5, failed 0; AI calls today 506/100000
 09-10 12:55:15   [Govt_Schemes] Practice_en_Set_05.txt try 1: rejected (Q122:leaked_reasoning)
+09-10 12:55:27 DONE 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_23_Economic_Terms in 35 min → 52a5836d
+09-10 12:55:27 worker 1: nothing left
+09-10 12:56:54   [Number_System] Practice_en_Set_04.txt try 2: re-solve disagrees (Q86 key a vs re-solve ?)
+09-10 12:58:30   [Govt_Schemes] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 12:59:29   [LCM_HCF] Practice_en_Set_02.txt try 2: rejected (parsed 0 questions, numbers -…-)
 ```
