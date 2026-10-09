@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 01:01 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 01:16 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 LCM HCF (12th Maths) | ✍️ लिख रहा है | 57 मिनट |
-| W4 | Chapter 25 Govt Schemes (12th GK) | ✍️ लिख रहा है | 104 मिनट |
-| W5 | Chapter 01 Number System (12th Maths) | ✍️ लिख रहा है | 100 मिनट |
+| W1 | Chapter 02 LCM HCF (12th Maths) | ✍️ लिख रहा है | 73 मिनट |
+| W5 | Chapter 01 Number System (12th Maths) | ✍️ लिख रहा है | 115 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -22,13 +21,13 @@
 | 10th English | 0 | 0 | 20 |
 | 12th Maths | 0 | 0 | 23 |
 | 12th GK | 18 | 2 | 4 |
-| 12th Reasoning | 0 | 0 | 25 |
+| 12th Reasoning | 1 | 0 | 24 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 18 | 0 | 10 |
+| Graduation GK | 19 | 0 | 9 |
 | Graduation Reasoning | 3 | 0 | 27 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **141** | **15** | **140** |
+| **कुल** | **143** | **15** | **138** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -48,20 +47,11 @@
 - Chapter 18 Science Tech (GK) — 2 बार
 - Chapter 21 International Orgs (GK) — 2 बार
 - Chapter 24 Reports Indices (GK) — 1 बार
+- Chapter 25 Govt Schemes (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 12:29:49   [Govt_Schemes] FAILED Practice_en_Set_02.txt: too_long
-09-10 12:29:49   [Govt_Schemes] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
-09-10 12:30:16   [Economic_Terms] review Content_hi.txt: 2 issue(s): - "GDP की गणना अब 2011-12 को आधार वर्ष मानकर की जाती है" uses "अब" without a year reference → add a year context, e
-09-10 12:30:33   [LCM_HCF] wrote Flashcards_en.txt (2826 chars)
-09-10 12:31:02   [Number_System] Practice_en_Set_03.txt try 2: rejected (Q60:leaked_reasoning,Q62:answer_solution_conflict,Q66:leaked_reasoning,Q67:answer_solution_conflict)
-09-10 12:32:53   [Reports_Indices] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 12:32:53   [Reports_Indices] written 24, failed 1; AI calls today 468/100000
-09-10 12:32:53 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_24_Reports_Indices after 80 min: todo ['Flashcards_hi.txt'] problems []
-09-10 12:32:53 worker 2: nothing left
-09-10 12:34:01   [Govt_Schemes] Practice_en_Set_03.txt try 1: re-solve disagrees (Q56 key b vs re-solve c)
 09-10 12:34:53   [LCM_HCF] FAILED Flashcards_hi.txt: rate_limited
 09-10 12:36:53   [Govt_Schemes] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 09-10 12:37:42   [LCM_HCF] wrote PYQ_en.txt (6388 chars)
@@ -92,4 +82,14 @@
 09-10 12:56:54   [Number_System] Practice_en_Set_04.txt try 2: re-solve disagrees (Q86 key a vs re-solve ?)
 09-10 12:58:30   [Govt_Schemes] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 09-10 12:59:29   [LCM_HCF] Practice_en_Set_02.txt try 2: rejected (parsed 0 questions, numbers -…-)
+09-10 13:04:24   [Govt_Schemes] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 13:08:34   [Govt_Schemes] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 13:10:55   [LCM_HCF] Practice_en_Set_02.txt try 3: re-solve disagrees (Q42 key a vs re-solve c, Q46 key c vs re-solve ?)
+09-10 13:11:54   [Govt_Schemes] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+09-10 13:11:54   [Govt_Schemes] written 22, failed 3; AI calls today 516/100000
+09-10 13:11:54 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_25_Govt_Schemes after 115 min: todo ['PYQ_en.txt', 'Set 02 en: todo', 'Set 02 hi: todo'] problems []
+09-10 13:11:54 worker 3: nothing left
+09-10 13:13:38   [Number_System] FAILED Practice_en_Set_04.txt: too_long
+09-10 13:13:38   [Number_System] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
+09-10 13:15:36   [LCM_HCF] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 ```
