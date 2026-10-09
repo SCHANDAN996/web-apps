@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 09-10-2026 07:12 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
+**आख़िरी update:** 09-10-2026 07:13 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 15 One Word Substitution (10th English) | 🔎 review हो रहा है | 19 मिनट |
-| W2 | Chapter 13 Synonyms (10th English) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 20 Sentence Improvement Basic (10th English) | ✍️ लिख रहा है | 8 मिनट |
+| W1 | Chapter 15 One Word Substitution (10th English) | 🔎 review हो रहा है | 20 मिनट |
+| W2 | Chapter 10 Compound Interest (10th Maths) | 🔧 सुधार रहा है | 0 मिनट |
+| W3 | Chapter 20 Sentence Improvement Basic (10th English) | ✍️ लिख रहा है | 9 मिनट |
 | W4 | Chapter 18 Error Spotting Basic (10th English) | ✍️ लिख रहा है | 99 मिनट |
-| W5 | Chapter 19 Fill in Blanks Basic (10th English) | 🔎 review हो रहा है | 6 मिनट |
-| W6 | Chapter 16 Idioms Phrases (10th English) | 🔎 review हो रहा है | 34 मिनट |
-| W7 | Chapter 14 Antonyms (10th English) | 🔎 review हो रहा है | 25 मिनट |
-| W8 | Chapter 17 Spelling (10th English) | 🔎 review हो रहा है | 21 मिनट |
+| W5 | Chapter 19 Fill in Blanks Basic (10th English) | 🔎 review हो रहा है | 7 मिनट |
+| W6 | Chapter 16 Idioms Phrases (10th English) | 🔎 review हो रहा है | 35 मिनट |
+| W7 | Chapter 14 Antonyms (10th English) | 🔎 review हो रहा है | 26 मिनट |
+| W8 | Chapter 17 Spelling (10th English) | 🔎 review हो रहा है | 22 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -59,12 +59,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 18:53:55   [Synonyms] review Flashcards_en.txt: 2 issue(s): - Card 8 says "Greek root 'bene'" → "bene" is a Latin root, not Greek.
-09-10 18:54:10   [Antonyms] review Content_hi.txt: 2 issue(s): - In the high-frequency antonym table, "Brave" (adjective) is paired with "Coward" (noun), violating the part-of-sp
-09-10 18:54:51   [Spelling] review Content_en.txt: 5 issue(s): - Title "The Examiner's Favourite 40 Words" claims 40 words but the table lists only 20 → Change title to "20 Words
-09-10 18:55:36   [Fill_in_Blanks_Basic] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-09-10 18:55:47   [One_Word_Substitution] review Content_en.txt: 1 issue(s): - In the 'People & their nature' family, "Omnivorous" is given as the one-word substitution for "One who lives on a
-09-10 18:58:09   [Error_Spotting_Basic] Practice_en_Set_04.txt try 1: re-solve disagrees (Q100 key d vs re-solve b)
 09-10 18:58:16   [Fill_in_Blanks_Basic] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 09-10 19:01:26   [Fill_in_Blanks_Basic] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 09-10 19:01:29   [Spelling] review Content_hi.txt: 1 issue(s): - परीक्षा में आने वाले 90% शब्द लगभग 300–400 शब्दों की एक तय सूची से घूमते हैं → यह दावा अप्रमाणित है; स्रोत के बिन
@@ -99,4 +93,10 @@
 09-10 19:12:26   [Fill_in_Blanks_Basic] review Content_hi.txt: 2 issue(s): - Invented statistic "90% छात्र 5 सेकंड में उत्तर दे सकते हैं — अगर उन्हें एक छोटा-सा नियम याद है। बाकी 10% सोचते र
 09-10 19:12:50   [Synonyms] review: 8 section(s) corrected, 0 failed
 09-10 19:12:50   [Synonyms] written 8, failed 0; AI calls today 505/100000
+09-10 19:13:08 DONE 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_13_Synonyms in 131 min → 8bcb5f13
+09-10 19:13:09 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_10_Compound_Interest (FIX: todo 0, problems 13)
+09-10 19:13:10   [Spelling] review Mind_Map_hi.txt: 1 issue(s): - B5: "Full + fill = fulfil एक L घटता है" → गलत नियम: "fulfil" शब्द "Full + fill" से नहीं बनता; सही नियम है कि "fu
+09-10 19:13:25   [Antonyms] review PYQ_en.txt: 3 issue(s): - Sound-Right Trap example claims "Artificial" is not a precise antonym of "Genuine" → "Artificial" is a valid antonym 
+09-10 19:13:25   [Sentence_Improvement_Basic] wrote Flashcards_hi.txt (4786 chars)
+09-10 19:13:29   [Error_Spotting_Basic] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 ```
