@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 09:04 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 09:06 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 World Geography (Graduation GK) | 🔎 review हो रहा है | 37 मिनट |
-| W2 | Chapter 09 Economy Basic (Graduation GK) | 🔎 review हो रहा है | 37 मिनट |
-| W3 | Chapter 10 Physics Daily (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 11 Chemistry (Graduation GK) | 🔎 review हो रहा है | 35 मिनट |
-| W5 | Chapter 12 Biology (Graduation GK) | 🔎 review हो रहा है | 37 मिनट |
+| W1 | Chapter 08 World Geography (Graduation GK) | 🔎 review हो रहा है | 39 मिनट |
+| W2 | Chapter 09 Economy Basic (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 13 Awards (Graduation GK) | ✍️ लिख रहा है | 1 मिनट |
+| W4 | Chapter 11 Chemistry (Graduation GK) | 🔎 review हो रहा है | 37 मिनट |
+| W5 | Chapter 12 Biology (Graduation GK) | 🔎 review हो रहा है | 39 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -23,37 +23,27 @@
 | 10th Maths | 9 | 13 | 0 |
 | 10th English | 0 | 0 | 20 |
 | 12th Maths | 0 | 0 | 23 |
-| 12th GK | 10 | 0 | 14 |
+| 12th GK | 11 | 0 | 13 |
 | 12th Reasoning | 0 | 0 | 25 |
 | 12th English | 19 | 0 | 6 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 12 | 0 | 16 |
 | Graduation Reasoning | 1 | 0 | 29 |
 | Graduation English | 28 | 0 | 2 |
-| **कुल** | **120** | **13** | **163** |
+| **कुल** | **121** | **13** | **162** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 09:06 — Graduation GK · Chapter 09 Economy Basic
 - 09-10 09:04 — Graduation GK · Chapter 10 Physics Daily
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 10 Physics Daily (GK) — 1 बार
+- Chapter 09 Economy Basic (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 08:26:45 autopilot start: 5 workers, reverse=True
-09-10 08:26:45 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_08_World_Geography (OK: todo 0, problems 0)
-09-10 08:26:50 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_09_Economy_Basic (OK: todo 0, problems 0)
-09-10 08:26:55 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_10_Physics_Daily (OK: todo 0, problems 0)
-09-10 08:27:00 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_11_Chemistry (TODO: todo 1, problems 1)
-09-10 08:27:05 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_12_Biology (OK: todo 0, problems 0)
-09-10 08:27:40   [Chemistry] wrote Feynman_en.txt (2951 chars)
-09-10 08:27:40   [Chemistry] written 1, failed 0; AI calls today 5/100000
-09-10 08:28:45   [Chemistry] REJECTED Feynman_hi.txt: corrupted characters — not written
-09-10 08:28:45   [Chemistry] written 0, failed 1; AI calls today 7/100000
-09-10 08:29:40   [Chemistry] repaired Feynman_hi.txt (3157 chars)
 09-10 08:29:40   [Chemistry] written 1, failed 0; AI calls today 10/100000
 09-10 08:29:53   [Physics_Daily] review Content_en.txt: 1 issue(s): - Static-Dynamic Link claims MRI and CT rest on electromagnetic induction → MRI uses nuclear magnetic resonance (st
 09-10 08:30:13   [Economy_Basic] review Content_hi.txt: 1 issue(s): - 1991 के संकट में गिरवी रखे सोने का गंतव्य गलत: "इंग्लैंड और स्विट्ज़रलैंड" → सही है "इंग्लैंड और जापान" (बैंक ऑफ 
@@ -83,4 +73,15 @@
 09-10 09:02:56 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_10_Physics_Daily (OK: todo 0, problems 0)
 09-10 09:04:41   [Physics_Daily] review: 0 section(s) corrected, 0 failed
 09-10 09:04:41   [Physics_Daily] written 0, failed 0; AI calls today 81/100000
+09-10 09:04:52 DONE Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_10_Physics_Daily in 2 min → 117f8bca
+09-10 09:04:53 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards (TODO: todo 3, problems 0)
+09-10 09:05:13   [World_Geography] review PYQ_hi.txt: 3 issue(s): - In Question 2, the trap type is labeled "मिलते-जुलते नाम" and the explanation says "नामों की समानता ही जाल है", but t
+09-10 09:05:18   [Economy_Basic] review: 3 section(s) corrected, 2 failed
+09-10 09:05:18   [Economy_Basic] written 3, failed 2; AI calls today 83/100000
+09-10 09:05:18 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_09_Economy_Basic after 38 min: todo [] problems []
+09-10 09:05:19 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_09_Economy_Basic (OK: todo 0, problems 0)
+09-10 09:05:51   [Chemistry] review PYQ_en.txt: 1 issue(s): - "Graphite is a good conductor of electricity because it contains free electrons between its layers" (marked ✅ True) →
+09-10 09:05:52   [Economy_Basic] review PYQ_en.txt: 7 issue(s): - Section title "# 📊 PYQ Analysis — Indian, not numbers)" is incomplete/corrupted → provide a complete, meaningful titl
+09-10 09:06:45   [Economy_Basic] review: 1 section(s) corrected, 0 failed
+09-10 09:06:45   [Economy_Basic] written 1, failed 0; AI calls today 89/100000
 ```
