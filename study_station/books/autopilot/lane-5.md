@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 09-10-2026 03:33 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 11:14 AM
+**आख़िरी update:** 09-10-2026 03:48 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 11:14 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Narration (10th English) | ✍️ लिख रहा है | 37 मिनट |
-| W2 | Chapter 10 Voice (10th English) | ✍️ लिख रहा है | 85 मिनट |
-| W4 | Chapter 07 Preposition (10th English) | 🔎 review हो रहा है | 52 मिनट |
-| W5 | Chapter 08 Conjunction (10th English) | ✍️ लिख रहा है | 121 मिनट |
+| W1 | Chapter 11 Narration (10th English) | ✍️ लिख रहा है | 53 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -43,29 +40,13 @@
 - Chapter 04 Verb (English) — 2 बार
 - Chapter 03 Adjective (English) — 2 बार
 - Chapter 09 Articles (English) — 1 बार
+- Chapter 10 Voice (English) — 1 बार
+- Chapter 08 Conjunction (English) — 1 बार
+- Chapter 07 Preposition (English) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 15:02:55   [Narration] REJECTED Mind_Map_en.txt: no usable mermaid graph — not written
-09-10 15:03:03   [Conjunction] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-09-10 15:05:20   [Preposition] review PYQ_en.txt: 2 issue(s): - Q6: The question text merges two unrelated items — a subject-verb agreement sentence with an intervening phrase and a
-09-10 15:05:37   [Articles] Practice_en_Set_05.txt try 1: re-solve disagrees (Q119 key a vs re-solve c)
-09-10 15:07:38   [Narration] Mind_Map_hi.txt try 1: rejected (corrupted characters)
-09-10 15:08:04   [Articles] Practice_en_Set_05.txt try 2: re-solve disagrees (Q119 key b vs re-solve c)
-09-10 15:09:18   [Conjunction] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-09-10 15:09:28   [Preposition] review PYQ_hi.txt: 2 issue(s): - "80% सवाल fixed preposition और in/on/at नियमों से बनते हैं" (invented exam statistic) → Remove the unsourced percenta
-09-10 15:09:58   [Narration] wrote Mind_Map_hi.txt (2019 chars)
-09-10 15:11:01   [Narration] wrote Flashcards_en.txt (4291 chars)
-09-10 15:11:31   [Articles] Practice_en_Set_05.txt try 3: rejected (parsed 0 questions, numbers -…-)
-09-10 15:12:41   [Conjunction] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 15:12:58   [Narration] wrote Flashcards_hi.txt (5279 chars)
-09-10 15:13:37   [Voice] FAILED Practice_hi_Set_03.txt: too_long
-09-10 15:14:59   [Articles] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-09-10 15:15:56   [Narration] wrote PYQ_en.txt (9063 chars)
-09-10 15:16:33   [Voice] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-09-10 15:17:47   [Narration] PYQ_hi.txt try 1: rejected (corrupted characters)
-09-10 15:18:52   [Voice] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 09-10 15:19:00   [Narration] PYQ_hi.txt try 2: rejected (corrupted characters)
 09-10 15:19:00   [Narration] REJECTED PYQ_hi.txt: corrupted characters — not written
 09-10 15:19:34   [Articles] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
@@ -87,4 +68,23 @@
 09-10 15:30:32   [Preposition] review Short_Tricks_hi.txt: 7 issue(s): - Trick 1 example "in morning" missing definite article → should be "in the morning"
 09-10 15:30:40   [Conjunction] Practice_en_Set_06.txt try 1: re-solve disagrees (Q130 key b vs re-solve ?, Q140 key b vs re-solve c, Q150 key d vs re-solve b)
 09-10 15:32:18   [Voice] Practice_en_Set_06.txt try 1: re-solve disagrees (Q142 key a vs re-solve b, Q149 key d vs re-solve b)
+09-10 15:34:27   [Voice] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 15:35:16   [Conjunction] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 15:35:25   [Narration] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 15:35:56   [Voice] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+09-10 15:35:56   [Voice] written 25, failed 1; AI calls today 504/100000
+09-10 15:35:56 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_10_Voice after 88 min: todo ['Set 03 hi: todo'] problems []
+09-10 15:35:56 worker 1: nothing left
+09-10 15:36:01   [Narration] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 15:36:42   [Conjunction] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+09-10 15:36:42   [Conjunction] written 24, failed 2; AI calls today 505/100000
+09-10 15:36:43 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_08_Conjunction after 124 min: todo ['Set 01 en: todo', 'Set 01 hi: todo'] problems []
+09-10 15:36:43 worker 4: nothing left
+09-10 15:37:50   [Preposition] review Important_Rules_hi.txt: 7 issue(s): - Morphology table row for 'pos/pon' shows combination 'pre + posit + ion' but example words 'deposit' and 
+09-10 15:38:30   [Narration] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 15:39:12   [Preposition] review: 7 section(s) corrected, 1 failed
+09-10 15:39:12   [Preposition] written 7, failed 1; AI calls today 507/100000
+09-10 15:39:12 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_07_Preposition after 167 min: todo [] problems []
+09-10 15:39:13 worker 3: nothing left
+09-10 15:47:02   [Narration] Practice_en_Set_02.txt try 1: re-solve disagrees (Q46 key b vs re-solve a)
 ```
