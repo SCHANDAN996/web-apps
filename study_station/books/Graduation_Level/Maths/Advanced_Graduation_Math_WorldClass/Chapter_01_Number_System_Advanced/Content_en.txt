@@ -1,0 +1,239 @@
+# Number System (Advanced)
+
+## Learning Goals
+
+By the end of this chapter, you will be able to:
+
+- Classify numbers confidently: natural, whole, integers, rational, irrational, real, and complex.
+- Apply divisibility rules and prime factorisation to solve LCM–HCF problems in seconds.
+- Master remainders, unit digits, and cyclicity — the favourite hunting ground of CAT, SSC CGL Tier-II, and IBPS PO Mains.
+- Handle base systems (binary, octal, hexadecimal) and conversions without fear.
+- Tackle factorial-based questions (trailing zeros, highest power dividing n!) with a one-line method.
+- Spot the traps examiners set: "almost-true" statements, sign confusion, and remainder-vs-divisor mix-ups.
+
+---
+
+## The Hook: A Number That Broke a Computer
+
+In 1996, the European Space Agency's Ariane 5 rocket exploded less than a minute after launch. The cause? A number. A 64-bit floating-point value was squeezed into a 16-bit integer — the number was too big for its "box," the system overflowed, and a rocket worth hundreds of millions of dollars turned into fireworks.
+
+Numbers are not just symbols. They live in *systems*, and every system has rules. In your exam, the "explosion" is quieter — one wrong assumption about remainders or unit digits, and 2 marks vanish. This chapter teaches you the rules of the box, so your numbers never overflow.
+
+---
+
+## 1. The Family Tree of Numbers
+
+Let's be honest — most aspirants *think* they know number types, then lose marks on a statement like "Every integer is a rational number." (It is true, by the way.) So let's build the tree properly.
+
+- **Natural numbers (N):** 1, 2, 3, … — counting numbers.
+- **Whole numbers (W):** 0, 1, 2, 3, … — natural numbers plus zero.
+- **Integers (Z):** …, −2, −1, 0, 1, 2, …
+- **Rational numbers (Q):** numbers expressible as p/q, where p, q are integers and q ≠ 0. Decimals that terminate (0.25) or repeat (0.333…) are rational.
+- **Irrational numbers:** cannot be written as p/q — √2, √3, π, e. Their decimals never terminate and never repeat.
+- **Real numbers (R):** rational + irrational — everything on the number line.
+- **Complex numbers:** a + bi, where i = √−1. (Rarely asked, but know the definition.)
+
+**Key exam facts:**
+
+- 0 is a whole number but *not* a natural number.
+- Every integer is rational (5 = 5/1), but not every rational is an integer (3/4).
+- The sum of a rational and an irrational number is always irrational. The product of two irrationals *can* be rational (√2 × √2 = 2) — a classic trap!
+
+🧠 **Active Recall:** Close the book. Is 0.999… (repeating forever) rational or irrational? Why? *(Hint: it equals exactly 1.)*
+
+---
+
+## 2. Prime Numbers and Factorisation — The Atoms of Arithmetic
+
+A **prime number** has exactly two factors: 1 and itself. 2 is the only even prime. 1 is *neither* prime nor composite — examiners love this.
+
+**Primes up to 100 (25 of them):** 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97.
+
+**Fundamental Theorem of Arithmetic:** Every integer greater than 1 can be written as a product of primes in exactly one way (order aside). Example: 360 = 2³ × 3² × 5.
+
+From prime factorisation N = aᵖ × bᑫ × cʳ …:
+
+- **Number of factors** = (p+1)(q+1)(r+1)…
+- **Sum of factors** = [(aᵖ⁺¹−1)/(a−1)] × [(bᑫ⁺¹−1)/(b−1)] × …
+- **Number of even factors** = p × (q+1)(r+1)… (when a = 2)
+- **Number of ways to write N as a product of two factors** = (number of factors)/2, if N is not a perfect square; (factors+1)/2 if it is.
+
+🧠 **Active Recall:** How many factors does 360 have? Compute it before reading on. *(Answer: (3+1)(2+1)(1+1) = 24.)*
+
+---
+
+## 3. Divisibility Rules — Your Speed Weapons
+
+| Divisor | Rule |
+|---|---|
+| 2 | Last digit even |
+| 3 | Sum of digits divisible by 3 |
+| 4 | Last two digits divisible by 4 |
+| 5 | Last digit 0 or 5 |
+| 6 | Divisible by both 2 and 3 |
+| 7 | Double the last digit, subtract from the rest; result divisible by 7 |
+| 8 | Last three digits divisible by 8 |
+| 9 | Sum of digits divisible by 9 |
+| 11 | (Sum of digits in odd places) − (sum in even places) is 0 or a multiple of 11 |
+| 12 | Divisible by both 3 and 4 |
+| 25 | Last two digits 00, 25, 50, or 75 |
+
+**Composite divisors:** To test divisibility by 72, test 8 and 9 (co-prime pair), *not* 6 and 12 — because 6 and 12 share factors. Always split into **co-prime** factors.
+
+🧠 **Active Recall:** Is 4,95,432 divisible by 11? By 8? Do it mentally.
+
+---
+
+## 4. LCM and HCF — The Twin Pillars
+
+- **HCF (GCD):** the largest number dividing all given numbers.
+- **LCM:** the smallest number divisible by all given numbers.
+
+**Golden relation (for two numbers):** LCM × HCF = Product of the two numbers. ⚠️ This works only for *two* numbers — a favourite trap.
+
+**Fractions:**
+- LCM of fractions = LCM of numerators / HCF of denominators
+- HCF of fractions = HCF of numerators / LCM of denominators
+
+**Remainder-flavoured models (asked constantly):**
+
+- "Greatest number that divides a, b, c leaving the *same* remainder r" → HCF of (a−r, b−r, c−r).
+- "Greatest number dividing a, b, c leaving remainders p, q, s" → HCF of (a−p, b−q, c−s).
+- "Smallest number which when divided by a, b, c leaves remainder r each time" → LCM(a, b, c) + r.
+- "Smallest number which when divided by a, b, c leaves remainders p, q, s where a−p = b−q = c−s = k" → LCM(a, b, c) − k.
+
+🧠 **Active Recall:** Why does the last formula *subtract* k? Say the reason aloud in one sentence.
+
+---
+
+## 5. Remainders — Where Toppers Are Made
+
+**Division algorithm:** Dividend = Divisor × Quotient + Remainder, with 0 ≤ Remainder < Divisor.
+
+**Negative remainders:** When 47 is divided by 8, remainder is 7. But thinking of it as "−1" (since 47 = 8×6 − 1) often makes calculations faster. Negative remainder = actual remainder − divisor.
+
+**Powerful remainder facts:**
+
+- (a × b) mod m = [(a mod m) × (b mod m)] mod m
+- (a + b) mod m = [(a mod m) + (b mod m)] mod m
+- aⁿ mod m: find the cycle of powers, then reduce n modulo the cycle length.
+
+**Classic results:**
+
+- xⁿ − aⁿ is divisible by (x − a) for all n.
+- xⁿ − aⁿ is divisible by (x + a) only when n is even.
+- xⁿ + aⁿ is divisible by (x + a) only when n is odd.
+- **Fermat's Little Theorem:** If p is prime and a is not a multiple of p, then aᵖ⁻¹ ≡ 1 (mod p).
+- **Wilson's Theorem:** (p−1)! ≡ −1 (mod p) for prime p.
+
+**Example:** Remainder when 2¹⁰⁰ is divided by 7? Powers of 2 mod 7 cycle: 2, 4, 1 (cycle length 3). 100 = 3×33 + 1, so remainder = 2.
+
+🧠 **Active Recall:** Find the remainder when 3⁵⁰ is divided by 7 using Fermat's theorem. *(3⁶ ≡ 1, so 3⁴⁸ ≡ 1, 3⁵⁰ ≡ 9 ≡ 2.)*
+
+---
+
+## 6. Unit Digits and Cyclicity
+
+The unit digit of aⁿ depends only on the unit digit of a, and it cycles:
+
+| Unit digit of a | Cycle | Length |
+|---|---|---|
+| 0, 1, 5, 6 | same always | 1 |
+| 2 | 2, 4, 8, 6 | 4 |
+| 3 | 3, 9, 7, 1 | 4 |
+| 4 | 4, 6 | 2 |
+| 7 | 7, 9, 3, 1 | 4 |
+| 8 | 8, 4, 2, 6 | 4 |
+| 9 | 9, 1 | 2 |
+
+**Method:** divide the exponent by the cycle length; use the remainder (if remainder is 0, use the last position of the cycle).
+
+**Example:** Unit digit of 7⁹⁵? Cycle of 7 is 7, 9, 3, 1. 95 ÷ 4 leaves remainder 3 → third position → **3**.
+
+🧠 **Active Recall:** Unit digit of 2²⁰²⁴? *(2024 ÷ 4 remainder 0 → 4th position → 6.)*
+
+---
+
+## 7. Factorials — Trailing Zeros and Highest Powers
+
+n! = 1 × 2 × 3 × … × n.
+
+**Trailing zeros in n!** = number of times 5 divides n! (2s are always plentiful):
+
+Zeros = ⌊n/5⌋ + ⌊n/25⌋ + ⌊n/125⌋ + …
+
+**Example:** Zeros in 100! = 20 + 4 = **24**.
+
+**Highest power of a prime p dividing n!** = ⌊n/p⌋ + ⌊n/p²⌋ + ⌊n/p³⌋ + …
+
+For a *composite* divisor (say, highest power of 6 = 2×3 in n!), find the powers of each prime and take the limiting one.
+
+🧠 **Active Recall:** How many trailing zeros does 250! have? *(50 + 10 + 2 = 62.)*
+
+---
+
+## 8. Base Systems — Thinking Like a Computer
+
+We count in **base 10**. Computers use **base 2** (binary), **base 8** (octal), **base 16** (hexadecimal: digits 0–9, A–F).
+
+**Base b → decimal:** multiply each digit by b raised to its position (from right, starting at 0).
+
+(1011)₂ = 1×2³ + 0×2² + 1×2¹ + 1×2⁰ = 8 + 0 + 2 + 1 = 11.
+
+**Decimal → base b:** divide repeatedly by b, collect remainders bottom-to-top.
+
+**Binary ↔ Octal/Hex shortcut:** group binary digits in 3s (octal) or 4s (hex) from the right.
+
+(101101)₂ → groups 101 | 101 → (55)₈.
+
+🧠 **Active Recall:** Convert (45)₁₀ to binary. *(101101)*
+
+---
+
+## 9. The Mnemonic Corner 🪄
+
+**"2-4-8-6, the Even Fix"** — the cycle of 2 is all even digits in order: 2, 4, 8, 6. And 8's cycle is the *reverse*: 8, 4, 2, 6. Remember: **"2 climbs up, 8 climbs down."**
+
+For divisibility by 11: **"Odd minus Even, Zero or Eleven"** — alternate digit sums must differ by 0 or a multiple of 11.
+
+---
+
+## 10. Examiner's Traps — Read Before You Regret
+
+1. **"Every whole number is a natural number"** — FALSE (0 is whole, not natural).
+2. **"Product of two irrationals is always irrational"** — FALSE (√2 × √8 = 4).
+3. **LCM × HCF = product** — only for *two* numbers.
+4. Remainder must be **less than the divisor** — options often include a value equal to the divisor.
+5. In "leaves remainder r" problems, check whether the question asks for the *smallest* or *greatest* such number.
+6. Cyclicity: when the exponent divides exactly (remainder 0), take the **last** element of the cycle, not the first.
+
+---
+
+## Summary Table
+
+| Concept | Core Result |
+|---|---|
+| Factors of N = aᵖbᑫcʳ | (p+1)(q+1)(r+1) |
+| LCM × HCF | = product (two numbers only) |
+| Same remainder r on dividing a, b, c | HCF of (a−r, b−r, c−r) |
+| Smallest number leaving remainder r with divisors a, b, c | LCM(a,b,c) + r |
+| Unit digit of aⁿ | Reduce n mod cycle length (0 → last position) |
+| Trailing zeros in n! | ⌊n/5⌋ + ⌊n/25⌋ + ⌊n/125⌋ + … |
+| Highest power of prime p in n! | ⌊n/p⌋ + ⌊n/p²⌋ + … |
+| Fermat's Little Theorem | aᵖ⁻¹ ≡ 1 (mod p), p prime, p ∤ a |
+| Divisibility by 11 | Alternate-sum difference = 0 or multiple of 11 |
+| Binary → decimal | Σ digit × 2^position |
+
+---
+
+## 🔁 Review This After 2 Days
+
+Don't just re-read. Cover the summary table and answer aloud:
+
+1. How many factors does 720 have?
+2. Remainder when 7⁸⁴ is divided by 5?
+3. Trailing zeros in 200!?
+4. Convert (110101)₂ to decimal.
+5. Smallest number which when divided by 4, 5, 6 leaves remainder 3 each time?
+
+If any answer takes more than 30 seconds, revisit that section — then test yourself again after another 2 days. Spaced repetition is how this chapter moves from "studied" to "scored."

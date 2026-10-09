@@ -1,0 +1,151 @@
+Questions 126–145: Easy | Questions 146–150: Medium
+
+126. Find the remainder when 2^1000 is divided by 13.
+(a) 1 (b) 12 (c) 9 (d) 3
+Answer: (d)
+Solution: The tempting trap is to compute 2^10 = 1024 ≡ 10 (mod 13) and stop there. By Fermat's little theorem, 2^12 ≡ 1 (mod 13). Since 1000 = 12 × 83 + 4, we get 2^1000 ≡ 2^4 = 16 ≡ 3 (mod 13), so the answer is 3.
+Source: PYQ-style
+
+127. How many zeros are there at the end of 100! + 200!?
+(a) 25 (b) 24 (c) 73 (d) 49
+Answer: (b)
+Solution: The trap is to add the zeros of both factorials (24 + 49 = 73). Since 100! divides 200!, the sum 100!(1 + k) has the same number of trailing zeros as 100!, because (1 + k) is not divisible by 10. Zeros in 100! = ⌊100/5⌋ + ⌊100/25⌋ = 20 + 4 = 24, so the answer is 24.
+Source: PYQ-style
+
+128. The number 7^86 − 3^86 is divisible by which of the following?
+(a) neither 4 nor 10 (b) 4 only (c) 10 only (d) both 4 and 10
+Answer: (d)
+Solution: The trap is to test only one divisor. Since 86 is even, a^n − b^n is divisible by both a − b = 4 and a + b = 10. Hence the number is divisible by both, so the answer is both 4 and 10.
+Source: PYQ-style
+
+129. What is the unit digit of 1! + 2! + 3! + … + 99!?
+(a) 1 (b) 7 (c) 3 (d) 9
+Answer: (c)
+Solution: The trap is to try summing all unit digits. From 5! onward every factorial ends in 0, so only 1! + 2! + 3! + 4! = 1 + 2 + 6 + 24 = 33 matters, so the answer is 3.
+Source: PYQ-style
+
+130. Find the last two digits of 7^85.
+(a) 07 (b) 43 (c) 49 (d) 93
+Answer: (a)
+Solution: The trap is to use the cycle of unit digits only, which cannot give two digits. Powers of 7 mod 100 cycle with period 4: 07, 49, 43, 01. Since 85 = 4 × 21 + 1, 7^85 ≡ 07 (mod 100), so the answer is 07.
+Source: PYQ-style
+
+131. A number when divided by 5 leaves remainder 3, when divided by 7 leaves remainder 5, and when divided by 9 leaves remainder 7. The smallest such number is:
+(a) 318 (b) 313 (c) 33 (d) 628
+Answer: (b)
+Solution: The trap is to apply the Chinese Remainder Theorem mechanically. Notice divisor − remainder = 2 in each case, so N + 2 is divisible by 5, 7 and 9. LCM(5, 7, 9) = 315, so N = 315 − 2 = 313, so the answer is 313.
+Source: PYQ-style
+
+132. How many numbers between 1 and 1000 are divisible by neither 2, 3 nor 5?
+(a) 266 (b) 267 (c) 333 (d) 466
+Answer: (a)
+Solution: The trap is to subtract only the individual counts (500 + 333 + 200 = 1033, giving a negative result). By inclusion–exclusion: divisible by 2, 3 or 5 = 500 + 333 + 200 − 166 − 100 − 66 + 33 = 734. Numbers divisible by none = 1000 − 734 = 266, so the answer is 266.
+Source: PYQ-style
+
+133. The HCF of two numbers is 13 and their LCM is 2028. If one number is 156, the other number is:
+(a) 196 (b) 182 (c) 169 (d) 208
+Answer: (c)
+Solution: The trap is to forget to check that the HCF must divide both numbers. Product = HCF × LCM = 13 × 2028 = 26364. Other number = 26364 ÷ 156 = 169, and 169 = 13 × 13 is divisible by 13, so the answer is 169.
+Source: PYQ-style
+
+134. What is the remainder when (17^23 + 19^23) is divided by 36?
+(a) 12 (b) 18 (c) 24 (d) 0
+Answer: (d)
+Solution: The trap is to expand binomially. Since 23 is odd, a^n + b^n is divisible by a + b. Here a + b = 17 + 19 = 36, so the expression is exactly divisible by 36, so the answer is 0.
+Source: PYQ-style
+
+135. The number 2^32 + 1 is:
+(a) prime (b) divisible by 3 (c) divisible by 641 (d) a perfect square
+Answer: (c)
+Solution: The trap is to assume all Fermat numbers are prime, as Fermat conjectured. Euler showed 2^32 + 1 = 4294967297 = 641 × 6700417, so it is composite, so the answer is divisible by 641.
+Source: PYQ-style
+
+136. Find the remainder when 1^5 + 2^5 + 3^5 + … + 100^5 is divided by 4.
+(a) 0 (b) 1 (c) 2 (d) 3
+Answer: (a)
+Solution: The trap is to compute the sum formula directly. Modulo 4, even^5 ≡ 0 and odd^5 ≡ odd. Among the 50 odd numbers from 1 to 99, 25 are ≡ 1 and 25 are ≡ 3 (mod 4), giving 25 × 1 + 25 × 3 = 100 ≡ 0 (mod 4), so the answer is 0.
+Source: PYQ-style
+
+137. The sum of all factors of 360 is:
+(a) 1150 (b) 1180 (c) 1170 (d) 1200
+Answer: (c)
+Solution: The trap is to list factors and miss some. 360 = 2^3 × 3^2 × 5. Sum of factors = (1+2+4+8)(1+3+9)(1+5) = 15 × 13 × 6 = 1170, so the answer is 1170.
+Source: PYQ-style
+
+138. How many factors of 1080 are perfect squares?
+(a) 4 (b) 8 (c) 6 (d) 12
+Answer: (a)
+Solution: The trap is to count all 32 factors instead of only square factors. 1080 = 2^3 × 3^3 × 5^1. A square factor needs even exponents: exponent of 2 can be 0 or 2 (2 ways), of 3 can be 0 or 2 (2 ways), of 5 only 0 (1 way). Total = 2 × 2 × 1 = 4, so the answer is 4.
+Source: PYQ-style
+
+139. If N = 2^5 × 3^4 × 5^2, how many factors of N are odd?
+(a) 10 (b) 30 (c) 20 (d) 15
+Answer: (d)
+Solution: The trap is to count all factors (6 × 5 × 3 = 90). Odd factors exclude the prime 2, so they come from 3^4 × 5^2: (4+1)(2+1) = 15, so the answer is 15.
+Source: PYQ-style
+
+140. The remainder when 3^97 is divided by 80 is:
+(a) 67 (b) 27 (c) 3 (d) 43
+Answer: (c)
+Solution: The trap is to apply Euler's theorem with φ(80) = 32 and get tangled in computation. Simpler: 3^4 = 81 ≡ 1 (mod 80). Then 3^97 = (3^4)^24 × 3 ≡ 1 × 3 = 3 (mod 80), so the answer is 3.
+Source: PYQ-style
+
+141. A number N has exactly 15 factors. Which of the following can N be?
+(a) 2^14 (b) Both first and third (c) 2^2 × 3^4 (d) 2^4 × 3^2
+Answer: (b)
+Solution: The trap is to think only one form is possible. 15 = 15 × 1 or 5 × 3, so N = p^14 or N = p^2 × q^4. Both 2^14 and 2^2 × 3^4 = 324 (factors (2+1)(4+1) = 15) work, so the answer is both first and third.
+Source: PYQ-style
+
+142. The greatest number that divides 122, 170 and 242 leaving remainders 2, 5 and 2 respectively is:
+(a) 12 (b) 20 (c) 15 (d) 24
+Answer: (c)
+Solution: The trap is to take the HCF of the original numbers. Subtract remainders: 120, 165, 240. HCF(120, 165, 240) = 15. Check: 122 = 15×8+2, 170 = 15×11+5, 242 = 15×16+2, so the answer is 15.
+Source: PYQ-style
+
+143. What is the digit in the unit place of (7^95 − 3^58)?
+(a) 4 (b) 2 (c) 6 (d) 0
+Answer: (a)
+Solution: The trap is to ignore that subtraction may need borrowing. Unit digit of 7^95: cycle 7, 9, 3, 1; 95 mod 4 = 3, giving 3. Unit digit of 3^58: cycle 3, 9, 7, 1; 58 mod 4 = 2, giving 9. Since 3 < 9, borrow: 13 − 9 = 4, so the answer is 4.
+Source: PYQ-style
+
+144. If the number 5P312 is divisible by 72, then P equals:
+(a) 5 (b) 7 (c) 8 (d) 9
+Answer: (b)
+Solution: The trap is to check only divisibility by 8 or only by 9. For 72 = 8 × 9: the last three digits 312 are divisible by 8 (312 = 8 × 39) for any P. Digit sum = 5 + P + 3 + 1 + 2 = 11 + P must be divisible by 9, so P = 7, so the answer is 7.
+Source: PYQ-style
+
+145. The sum of the digits of the number 10^25 − 7 is:
+(a) 218 (b) 221 (c) 220 (d) 219
+Answer: (d)
+Solution: The trap is to miscount the nines. Pattern: 10^3 − 7 = 993 (two 9s and a 3), 10^4 − 7 = 9993 (three 9s and a 3). So 10^25 − 7 has 24 nines followed by 3. Digit sum = 24 × 9 + 3 = 219, so the answer is 219.
+Source: PYQ-style
+
+146. How many integers from 1 to 300 are divisible by 3 or 5 but not by 15?
+(a) 80 (b) 120 (c) 140 (d) 100
+Answer: (b)
+Solution: The trap is to add 100 + 60 = 160 and stop. Divisible by 3: 100; by 5: 60; by 15: 20. By 3 or 5 = 100 + 60 − 20 = 140. Excluding multiples of 15: 140 − 20 = 120, so the answer is 120.
+Source: PYQ-style
+
+147. The remainder when 7^7^7 (i.e., 7 raised to 7^7) is divided by 5 is:
+(a) 3 (b) 1 (c) 2 (d) 4
+Answer: (a)
+Solution: The trap is to misread the power tower as (7^7)^7. Powers of 7 mod 5 cycle 2, 4, 3, 1 with period 4. Need exponent 7^7 mod 4: 7 ≡ −1 (mod 4), so 7^7 ≡ 3 (mod 4). Hence 7^(7^7) ≡ 7^3 ≡ 3 (mod 5), so the answer is 3.
+Source: PYQ-style
+
+148. The product of all factors of 36 is:
+(a) 6^9 (b) 36^4 (c) 6^8 (d) 36^5
+Answer: (a)
+Solution: The trap is to multiply factors one by one and err. 36 has (2+1)(2+1) = 9 factors. Product of all factors of N = N^(d/2) where d = number of factors = 36^(9/2) = 6^9, so the answer is 6^9.
+Source: PYQ-style
+
+149. If a and b are positive integers such that a^2 − b^2 = 105, how many ordered pairs (a, b) are possible?
+(a) 8 (b) 2 (c) 6 (d) 4
+Answer: (d)
+Solution: The trap is to count only factor pairs of 105 without the parity condition. (a−b)(a+b) = 105; both factors must have the same parity, and since 105 is odd, every factor pair works: (1,105), (3,35), (5,21), (7,15), giving 4 pairs, so the answer is 4.
+Source: PYQ-style
+
+150. The smallest positive integer n for which n! is divisible by 10^10 is:
+(a) 40 (b) 45 (c) 50 (d) 35
+Answer: (b)
+Solution: The trap is to assume n = 40 works. Count fives: for n = 40, ⌊40/5⌋ + ⌊40/25⌋ = 8 + 1 = 9, not enough. For n = 45: 9 + 1 = 10 fives, and twos are abundant, so the answer is 45.
+Source: PYQ-style
