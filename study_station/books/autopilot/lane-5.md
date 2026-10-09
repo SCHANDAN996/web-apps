@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 09-10-2026 10:48 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 10:05 PM
+**आख़िरी update:** 09-10-2026 10:52 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 10:05 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 20 Number Series (10th Maths) | 🔧 सुधार रहा है | 8 मिनट |
-| W2 | Chapter 18 Trigonometry (10th Maths) | 🔧 सुधार रहा है | 30 मिनट |
-| W3 | Chapter 19 Statistics (10th Maths) | 🔧 सुधार रहा है | 28 मिनट |
-| W4 | Chapter 07 Preposition (10th English) | 📤 push हो रहा है | 0 मिनट |
-| W5 | Chapter 12 Sentence Structure (10th English) | 🔎 review हो रहा है | 36 मिनट |
-| W6 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 42 मिनट |
-| W7 | Chapter 15 Geometry (10th Maths) | 🔧 सुधार रहा है | 42 मिनट |
-| W8 | Chapter 17 Data Interpretation (10th Maths) | 🔧 सुधार रहा है | 42 मिनट |
+| W1 | Chapter 20 Number Series (10th Maths) | 🔧 सुधार रहा है | 12 मिनट |
+| W2 | Chapter 18 Trigonometry (10th Maths) | 🔧 सुधार रहा है | 34 मिनट |
+| W3 | Chapter 19 Statistics (10th Maths) | 🔧 सुधार रहा है | 32 मिनट |
+| W4 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 3 मिनट |
+| W5 | Chapter 12 Sentence Structure (10th English) | 🔎 review हो रहा है | 40 मिनट |
+| W6 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 46 मिनट |
+| W7 | Chapter 15 Geometry (10th Maths) | 🔎 review हो रहा है | 1 मिनट |
+| W8 | Chapter 17 Data Interpretation (10th Maths) | 🔧 सुधार रहा है | 46 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -23,7 +23,7 @@
 |---|---|---|---|
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
-| 10th Maths | 14 | 8 | 0 |
+| 10th Maths | 15 | 7 | 0 |
 | 10th English | 17 | 3 | 0 |
 | 12th Maths | 10 | 0 | 13 |
 | 12th GK | 22 | 0 | 2 |
@@ -33,7 +33,7 @@
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 9 | 0 | 21 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **203** | **11** | **82** |
+| **कुल** | **204** | **10** | **82** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -48,13 +48,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 22:26:24   [Geometry] repaired set 03 (en + hi, key confirmed by an independent re-solve)
-09-10 22:28:55   [Mixture_Alligation] set 01 try 1: re-solve disagrees (Q1 key c vs re-solve d)
-09-10 22:31:00   [Trigonometry] repaired set 01 (en + hi, key confirmed by an independent re-solve)
-09-10 22:31:27   [Sentence_Structure] review Feynman_en.txt: 1 issue(s): - The exam shortcut "Count the finite verbs. One finite verb = Simple" is incorrect because a simple sentence can h
-09-10 22:32:01   [Data_Interpretation] repaired PYQ_hi.txt (11025 chars)
-09-10 22:33:21   [Mixture_Alligation] set 01 try 2: re-solve disagrees (Q1 key b vs re-solve d)
-09-10 22:34:38   [Trigonometry] set 02 try 1: rejected (parsed 24 questions, numbers 26…50)
 09-10 22:35:07   [Trigonometry] set 02 try 2: rejected (parsed 1 questions, numbers 26…26)
 09-10 22:35:09   [Sentence_Structure] review Feynman_hi.txt: 1 issue(s): - "90% गलतियों की जड़ है" is an invented/unsourced statistic → Replace with "अधिकांश गलतियों की जड़ है" or remove t
 09-10 22:35:12   [Noun] FAILED set 01: too_long
@@ -88,4 +81,11 @@
 09-10 22:47:34   [Statistics] FAILED set 01: too_long
 09-10 22:48:13   [Preposition] review: 2 section(s) corrected, 0 failed
 09-10 22:48:13   [Preposition] written 2, failed 0; AI calls today 124/100000
+09-10 22:48:32 DONE 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_07_Preposition in 43 min → 54229f5b
+09-10 22:48:35 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_21_Probability (FIX: todo 0, problems 12)
+09-10 22:49:53   [Probability] set 01 try 1: rejected (parsed 24 questions, numbers 1…25)
+09-10 22:49:56   [Trigonometry] repaired set 03 (en + hi, key confirmed by an independent re-solve)
+09-10 22:50:00   [Sentence_Structure] review Short_Tricks_hi.txt: 1 issue(s): - Skip Strategy states negative marking is −0.25 universally → Negative marking varies by exam (e.g., SSC CGL 
+09-10 22:51:16   [Geometry] repaired set 06 (en + hi, key confirmed by an independent re-solve)
+09-10 22:51:16   [Geometry] written 6, failed 0; AI calls today 131/100000
 ```
