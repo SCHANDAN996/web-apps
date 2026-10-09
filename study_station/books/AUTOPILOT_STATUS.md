@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 04:09 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 04:10 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 108 मिनट |
-| W2 | Chapter 11 Series (Graduation Reasoning) | 🔎 review हो रहा है | 0 मिनट |
-| W3 | Chapter 03 Coding Decoding (Graduation Reasoning) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 10 Clock Calendar (Graduation Reasoning) | 🔎 review हो रहा है | 50 मिनट |
-| W5 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 136 मिनट |
+| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 109 मिनट |
+| W2 | Chapter 11 Series (Graduation Reasoning) | 🔎 review हो रहा है | 1 मिनट |
+| W3 | Chapter 12 Missing Term (Graduation Reasoning) | ✍️ लिख रहा है | 0 मिनट |
+| W4 | Chapter 10 Clock Calendar (Graduation Reasoning) | 🔎 review हो रहा है | 51 मिनट |
+| W5 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 137 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -44,13 +44,10 @@
 
 - Chapter 22 Para Jumbles Adv (English) — 2 बार
 - Chapter 02 Classification (Reasoning) — 2 बार
-- Chapter 03 Coding Decoding (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 15:30:38   [Sitting_Arrangement] Practice_en_Set_03.txt try 3: rejected (parsed 1 questions, numbers 51…51)
-09-10 15:30:46   [Series] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 09-10 15:31:53   [Clock_Calendar] review Content_en.txt: 1 issue(s): - Opposite-hands formula "Time = H : (60H − 360)/11" for H < 6 gives a negative value → the correct formula is H : 
 09-10 15:32:27   [Series] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 09-10 15:33:42   [Series] Practice_en_Set_04.txt try 1: rejected (Q96:leaked_reasoning)
@@ -89,4 +86,6 @@
 09-10 16:09:05   [Series] written 10, failed 0; AI calls today 184/100000
 09-10 16:09:35   [Coding_Decoding] review: 1 section(s) corrected, 0 failed
 09-10 16:09:35   [Coding_Decoding] written 1, failed 0; AI calls today 185/100000
+09-10 16:09:52 DONE Graduation_Level/Reasoning/Chapter_03_Coding_Decoding in 9 min → f6f6063f
+09-10 16:09:54 START Graduation_Level/Reasoning/Chapter_12_Missing_Term (TODO: todo 25, problems 0)
 ```
