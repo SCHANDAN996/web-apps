@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 07:20 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 07:23 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 19 Fill in Blanks Adv (12th English) | 🔎 review हो रहा है | 26 मिनट |
-| W2 | Chapter 20 Sentence Improvement Adv (12th English) | 🔎 review हो रहा है | 14 मिनट |
-| W4 | Chapter 23 Sentence Arrangement (12th English) | ✍️ लिख रहा है | 51 मिनट |
-| W5 | Chapter 22 Para Jumbles (12th English) | ✍️ लिख रहा है | 54 मिनट |
+| W1 | Chapter 19 Fill in Blanks Adv (12th English) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 20 Sentence Improvement Adv (12th English) | 🔎 review हो रहा है | 17 मिनट |
+| W4 | Chapter 23 Sentence Arrangement (12th English) | ✍️ लिख रहा है | 54 मिनट |
+| W5 | Chapter 22 Para Jumbles (12th English) | ✍️ लिख रहा है | 57 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -33,6 +33,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 07:23 — 12th English · Chapter 19 Fill in Blanks Adv
 - 09-10 07:01 — 12th English · Chapter 21 Cloze Test
 - 09-10 06:28 — 12th English · Chapter 18 Error Spotting Adv
 - 09-10 06:25 — 12th English · Chapter 17 Spelling
@@ -56,12 +57,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 06:53:30   [Sentence_Arrangement] wrote Important_Rules_hi.txt (5308 chars)
-09-10 06:53:45   [Fill_in_Blanks_Adv] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 06:53:45   [Fill_in_Blanks_Adv] written 5, failed 0; AI calls today 693/100000
-09-10 06:55:04   [Para_Jumbles] wrote Flashcards_hi.txt (5339 chars)
-09-10 06:55:20   [Sentence_Improvement_Adv] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 06:56:08   [Fill_in_Blanks_Adv] review Content_en.txt: 2 issue(s): - The hook's specific claim "In 2019, a candidate lost a Bank PO seat by 0.25 marks" is an invented exam/year claim
 09-10 06:56:24   [Para_Jumbles] wrote PYQ_en.txt (10532 chars)
 09-10 06:57:04   [Sentence_Improvement_Adv] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 09-10 06:57:04   [Sentence_Improvement_Adv] written 22, failed 4; AI calls today 700/100000
@@ -96,4 +91,10 @@
 09-10 07:18:46   [Para_Jumbles] wrote Important_Rules_en.txt (4944 chars)
 09-10 07:18:57   [Para_Jumbles] Important_Rules_hi.txt try 1: rejected (too short)
 09-10 07:19:39   [Sentence_Improvement_Adv] review Flashcards_hi.txt: 2 issue(s): - Card 2: “Scissors” is listed in the SANAM mnemonic as a noun that looks plural but takes a singular verb; **Sc
+09-10 07:20:25   [Para_Jumbles] wrote Important_Rules_hi.txt (4815 chars)
+09-10 07:21:44   [Para_Jumbles] Practice_en_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 07:21:49   [Fill_in_Blanks_Adv] review Important_Rules_en.txt: 2 issue(s): - Rule 5: Hindi phrase "में जोर दिया" is incorrect for 'insist on'; standard Hindi uses "पर जोर दिया" → rep
+09-10 07:22:20   [Sentence_Improvement_Adv] review PYQ_hi.txt: 1 issue(s): - Question 5 underlined part only "to go" but sentence includes "me"; replacing only "to go" with "that I go" yields un
+09-10 07:23:18   [Fill_in_Blanks_Adv] review: 6 section(s) corrected, 0 failed
+09-10 07:23:19   [Fill_in_Blanks_Adv] written 6, failed 0; AI calls today 756/100000
 ```
