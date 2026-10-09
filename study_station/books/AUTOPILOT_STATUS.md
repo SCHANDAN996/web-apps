@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 10:28 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 10:43 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 43 मिनट |
-| W2 | Chapter 09 Venn Diagrams (Graduation Reasoning) | ✍️ लिख रहा है | 13 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 65 मिनट |
-| W4 | Chapter 06 Order Ranking (Graduation Reasoning) | 🔧 सुधार रहा है | 0 मिनट |
-| W5 | Chapter 04 Blood Relations (Graduation Reasoning) | ✍️ लिख रहा है | 17 मिनट |
+| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 58 मिनट |
+| W2 | Chapter 09 Venn Diagrams (Graduation Reasoning) | ✍️ लिख रहा है | 29 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 80 मिनट |
+| W4 | Chapter 06 Order Ranking (Graduation Reasoning) | 🔎 review हो रहा है | 9 मिनट |
+| W5 | Chapter 04 Blood Relations (Graduation Reasoning) | ✍️ लिख रहा है | 32 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md)
 
@@ -30,9 +30,9 @@
 | 12th English | 22 | 0 | 3 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 14 | 0 | 14 |
-| Graduation Reasoning | 2 | 1 | 27 |
+| Graduation Reasoning | 3 | 0 | 27 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **130** | **14** | **152** |
+| **कुल** | **131** | **13** | **152** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -50,20 +50,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 10:06:32   [Puzzles] wrote Important_Rules_en.txt (3393 chars)
-09-10 10:08:30   [Order_Ranking] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 10:08:30   [Order_Ranking] written 3, failed 4; AI calls today 151/100000
-09-10 10:08:30 NOT OK Graduation_Level/Reasoning/Chapter_06_Order_Ranking after 51 min: todo ['Set 04 en: todo', 'Set 04 hi: todo', 'Set 05 en: todo', 'Set 05 hi: todo'] problems ['Set 02 Practice_en_Set_02.txt: unverified exam/year source "', 'Set 02 Practice_hi_Set_02.txt: unverified exam/year source "']
-09-10 10:08:32 START Graduation_Level/Reasoning/Chapter_06_Order_Ranking (TODO: todo 4, problems 2)
-09-10 10:08:58   [Puzzles] wrote Important_Rules_hi.txt (2864 chars)
-09-10 10:10:13   [Order_Ranking] Practice_en_Set_04.txt try 1: rejected (Q96:leaked_reasoning)
-09-10 10:10:54   [Blood_Relations] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 10:10:54   [Blood_Relations] written 5, failed 4; AI calls today 154/100000
-09-10 10:10:55 NOT OK Graduation_Level/Reasoning/Chapter_04_Blood_Relations after 104 min: todo ['Set 02 en: todo', 'Set 02 hi: todo', 'Set 05 en: todo', 'Set 05 hi: todo'] problems []
-09-10 10:10:56 START Graduation_Level/Reasoning/Chapter_04_Blood_Relations (TODO: todo 4, problems 0)
-09-10 10:11:10   [Direction_Sense] review Short_Tricks_hi.txt: 2 issue(s): - Invented exam statistic "परीक्षा में 90% बार यही त्रिक आते हैं" in Trick 6 → Remove the unsourced percentage
-09-10 10:12:59   [Blood_Relations] Practice_en_Set_02.txt try 1: rejected (Q37:leaked_reasoning)
-09-10 10:13:40   [Order_Ranking] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 09-10 10:14:24   [Direction_Sense] review: 4 section(s) corrected, 0 failed
 09-10 10:14:24   [Direction_Sense] written 4, failed 0; AI calls today 161/100000
 09-10 10:14:38 DONE Graduation_Level/Reasoning/Chapter_05_Direction_Sense in 41 min → ce5fefa2
@@ -90,4 +76,18 @@
 09-10 10:28:13   [Venn_Diagrams] wrote PYQ_hi.txt (7036 chars)
 09-10 10:28:28   [Order_Ranking] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 09-10 10:28:28   [Order_Ranking] written 4, failed 0; AI calls today 182/100000
+09-10 10:28:49   [Puzzles] Practice_en_Set_02.txt try 1: rejected (Q37:leaked_reasoning)
+09-10 10:29:29   [Venn_Diagrams] wrote Short_Tricks_en.txt (5723 chars)
+09-10 10:29:37   [Venn_Diagrams] Short_Tricks_hi.txt try 1: rejected (corrupted characters)
+09-10 10:30:23   [Blood_Relations] Practice_en_Set_05.txt try 1: rejected (Q118:leaked_reasoning,Q124:leaked_reasoning)
+09-10 10:32:09   [Venn_Diagrams] wrote Short_Tricks_hi.txt (6305 chars)
+09-10 10:33:13   [Venn_Diagrams] wrote Important_Rules_en.txt (4389 chars)
+09-10 10:33:47   [Order_Ranking] repaired set 02 (en + hi, key confirmed by an independent re-solve)
+09-10 10:33:47   [Order_Ranking] written 1, failed 0; AI calls today 193/100000
+09-10 10:34:03   [Order_Ranking] review Content_en.txt: 1 issue(s): - Hook contains excessive repetition of "You are given a queue of people" (30+ times) and ends mid-sentence → Repla
+09-10 10:34:08   [Venn_Diagrams] wrote Important_Rules_hi.txt (2855 chars)
+09-10 10:37:46   [Order_Ranking] review Mind_Map.txt: 1 issue(s): - C3 Hindi label 'अंतर बदलाव' is incorrect terminology for Interchange questions → Should be 'अदला-बदली' or 'स्थान पर
+09-10 10:39:52   [Sitting_Arrangement] Practice_en_Set_01.txt try 3: re-solve disagrees (Q10 key a vs re-solve c, Q16 key d vs re-solve b, Q25 key a vs re-solve b)
+09-10 10:42:31   [Order_Ranking] review Flashcards_hi.txt: 1 issue(s): - Card 4: The swap-position mnemonic "नया स्थान = पुराना कुल" and the formula "कुल = 10 + (B का बाएँ स्थान) − 1"
+09-10 10:42:55   [Puzzles] Practice_en_Set_02.txt try 2: re-solve disagrees (Q26 key a vs re-solve c, Q30 key b vs re-solve d, Q49 key d vs re-solve a)
 ```
