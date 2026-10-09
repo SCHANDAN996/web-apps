@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 09:10 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 09:13 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 World Geography (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
-| W2 | Chapter 14 Sports (Graduation GK) | ✍️ लिख रहा है | 3 मिनट |
-| W3 | Chapter 13 Awards (Graduation GK) | ✍️ लिख रहा है | 5 मिनट |
-| W4 | Chapter 11 Chemistry (Graduation GK) | 🔎 review हो रहा है | 40 मिनट |
-| W5 | Chapter 15 Days Dates (Graduation GK) | ✍️ लिख रहा है | 0 मिनट |
+| W1 | Chapter 16 Books Authors (Graduation GK) | ✍️ लिख रहा है | 2 मिनट |
+| W2 | Chapter 14 Sports (Graduation GK) | ✍️ लिख रहा है | 6 मिनट |
+| W3 | Chapter 13 Awards (Graduation GK) | ✍️ लिख रहा है | 8 मिनट |
+| W4 | Chapter 11 Chemistry (Graduation GK) | 🔎 review हो रहा है | 43 मिनट |
+| W5 | Chapter 15 Days Dates (Graduation GK) | ✍️ लिख रहा है | 3 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -23,14 +23,14 @@
 | 10th Maths | 9 | 13 | 0 |
 | 10th English | 0 | 0 | 20 |
 | 12th Maths | 0 | 0 | 23 |
-| 12th GK | 11 | 0 | 13 |
+| 12th GK | 12 | 0 | 12 |
 | 12th Reasoning | 0 | 0 | 25 |
-| 12th English | 20 | 0 | 5 |
+| 12th English | 21 | 0 | 4 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 12 | 0 | 16 |
 | Graduation Reasoning | 1 | 0 | 29 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **123** | **13** | **160** |
+| **कुल** | **125** | **13** | **158** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -42,10 +42,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 08:52:27   [World_Geography] review Feynman_hi.txt: 2 issue(s): - यानी जापान में सोमवार की सुबह हो रही है, तो उसी पल अमेरिका में रविवार की रात चल रही है! → यानी जापान में सोमवार क
-09-10 08:53:01   [Chemistry] review Feynman_hi.txt: 1 issue(s): - मोल की परिभाषा कार्बन-12 के 12 ग्राम पर आधारित है जो 2019 से पुरानी है → नई SI परिभाषा: 1 मोल वह पदार्थ की मात्रा
-09-10 08:55:17   [Biology] review Mind_Map.txt: 3 issue(s): - G: श्वसन तंत्र<br>Nervous System → तंत्रिका तंत्र<br>Nervous System
-09-10 08:56:24   [Chemistry] review Mind_Map.txt: 1 issue(s): - Node C4 Hindi label "आकर्षण" means "attraction", not "Trends" → change to "प्रवृत्तियाँ" or "आवर्तीय प्रवृत्तियाँ" 
 09-10 08:57:07   [Economy_Basic] review PYQ_en.txt: 6 issue(s): - Section title corrupted: "PYQ Analysis — Indian, not numbers)" → complete the title (e.g., "PYQ Analysis — Indian Eco
 09-10 08:58:59   [Economy_Basic] REJECTED review fix PYQ_en.txt: corrupted characters
 09-10 08:59:52   [Physics_Daily] review Memory_Hooks_en.txt: 1 issue(s): - Desert coolers are painted black → Desert coolers are painted white/light colours to reflect heat; radiators
@@ -82,4 +78,8 @@
 09-10 09:09:49 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_15_Days_Dates (TODO: todo 6, problems 0)
 09-10 09:10:28   [World_Geography] review: 5 section(s) corrected, 0 failed
 09-10 09:10:28   [World_Geography] written 5, failed 0; AI calls today 100/100000
+09-10 09:10:40 DONE Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_08_World_Geography in 44 min → 3f22a498
+09-10 09:10:40 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_16_Books_Authors (TODO: todo 10, problems 0)
+09-10 09:10:56   [Chemistry] review PYQ_hi.txt: 1 issue(s): - Question 3 asks which metal is **not** liquid at room temperature, but gallium (mp ≈ 29.8 °C) and cesium (mp ≈ 28.4 °
+09-10 09:12:32   [Sports] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 ```
