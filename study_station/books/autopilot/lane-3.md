@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 08:20 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
+**आख़िरी update:** 09-10-2026 08:24 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Para Jumbles (12th English) | 🔎 review हो रहा है | 20 मिनट |
-| W2 | Chapter 23 Sentence Arrangement (12th English) | 🔎 review हो रहा है | 23 मिनट |
-| W3 | Chapter 03 Coding Decoding (12th Reasoning) | 🔎 review हो रहा है | 35 मिनट |
-| W4 | Chapter 05 Direction Sense (12th Reasoning) | 🔎 review हो रहा है | 20 मिनट |
-| W5 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 61 मिनट |
-| W6 | Chapter 08 Puzzles (12th Reasoning) | ✍️ लिख रहा है | 61 मिनट |
-| W7 | Chapter 09 Venn Diagrams (12th Reasoning) | 🔎 review हो रहा है | 3 मिनट |
-| W8 | Chapter 10 Clock Calendar (12th Reasoning) | ✍️ लिख रहा है | 61 मिनट |
+| W1 | Chapter 22 Para Jumbles (12th English) | 🔎 review हो रहा है | 24 मिनट |
+| W2 | Chapter 23 Sentence Arrangement (12th English) | 🔎 review हो रहा है | 27 मिनट |
+| W3 | Chapter 03 Coding Decoding (12th Reasoning) | 🔎 review हो रहा है | 39 मिनट |
+| W4 | Chapter 05 Direction Sense (12th Reasoning) | 🔎 review हो रहा है | 24 मिनट |
+| W5 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 65 मिनट |
+| W6 | Chapter 08 Puzzles (12th Reasoning) | ✍️ लिख रहा है | 65 मिनट |
+| W7 | Chapter 09 Venn Diagrams (12th Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W8 | Chapter 10 Clock Calendar (12th Reasoning) | ✍️ लिख रहा है | 65 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,7 +37,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 09-10 20:24 — 12th Reasoning · Chapter 09 Venn Diagrams
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
@@ -48,15 +48,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 19:54:32   [Venn_Diagrams] review Flashcards_en.txt: 1 issue(s): - Card 13 claims Doctors, Men, Fathers are three mutually intersecting circles with no containment → Fathers are
-09-10 19:55:18   [Sentence_Arrangement] repaired Content_hi.txt (6987 chars)
-09-10 19:55:45   [Clock_Calendar] PYQ_hi.txt try 1: answer too long — asking for a tighter version
-09-10 19:56:14   [Para_Jumbles] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 19:56:53   [Sentence_Arrangement] repaired Short_Tricks_hi.txt (4311 chars)
-09-10 19:56:53   [Sentence_Arrangement] written 2, failed 0; AI calls today 88/100000
-09-10 19:57:10   [Direction_Sense] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-09-10 19:57:10   [Direction_Sense] written 4, failed 0; AI calls today 89/100000
-09-10 19:57:28   [Coding_Decoding] review Mind_Map.txt: 1 issue(s): - B5 में "चीनी/प्रतीक कोडिंग" लिखा है; "चीनी" (Chinese/sugar) गलत है → "चिह्न/प्रतीक कोडिंग" या केवल "प्रतीक कोडिंग" 
 09-10 19:59:14   [Clock_Calendar] wrote PYQ_hi.txt (6330 chars)
 09-10 19:59:25   [Direction_Sense] repaired Content_hi.txt (6669 chars)
 09-10 19:59:25   [Direction_Sense] written 1, failed 0; AI calls today 96/100000
@@ -88,4 +79,13 @@
 09-10 20:18:53   [Venn_Diagrams] review Short_Tricks_hi.txt: 1 issue(s): - ट्रिक 3 में "केवल A" का सूत्र **n(A) − n(A∩B)** केवल दो समूहों के लिए सही है; तीन समूहों वाले वेन आरेख में "
 09-10 20:19:06   [Puzzles] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 09-10 20:19:25   [Coding_Decoding] review PYQ_hi.txt: 1 issue(s): - Question 4: The coding puzzle data is inconsistent (the two common words 'मोहन' and 'खाना' share only one common code
+09-10 20:20:52   [Direction_Sense] review PYQ_en.txt: 1 issue(s): - Q10: The solution correctly derives that Bina is South of Amit, but then states the answer is (b) West based on a mis
+09-10 20:21:17   [Sitting_Arrangement] Practice_en_Set_01.txt try 4: re-solve disagrees (Q6 key c vs re-solve a, Q9 key b vs re-solve a, Q16 key a vs re-solve c, Q23 key b vs re-solve a)
+09-10 20:21:17   [Sitting_Arrangement] REJECTED Practice_en_Set_01.txt: no version passed the checks — not written
+09-10 20:21:17   [Sitting_Arrangement] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
+09-10 20:22:00   [Para_Jumbles] review PYQ_hi.txt: 1 issue(s): - Question 5 answer (a) QPSR and explanation are wrong → Correct sequence is QSPR: Q (rain) → S (drains overflow) → P (
+09-10 20:22:43   [Sentence_Arrangement] review Short_Tricks_en.txt: 2 issue(s): - Trick 3 claims "This single check solves 60% of Para-jumbles" → Remove the invented statistic "60%" or repla
+09-10 20:24:10   [Venn_Diagrams] review: 1 section(s) corrected, 0 failed
+09-10 20:24:10   [Venn_Diagrams] written 1, failed 0; AI calls today 165/100000
+09-10 20:24:17   [Coding_Decoding] review Short_Tricks_en.txt: 1 issue(s): - Mnemonic Box 2 lists "AZad" as an opposite pair; the correct pair is "AZ" → Change "AZad" to "AZ" in the lis
 ```

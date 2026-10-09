@@ -1,0 +1,151 @@
+Questions 51–70: Easy | Questions 71–75: Medium
+
+51. In a class of 60 students, 35 play cricket, 28 play football and 12 play both. How many students play neither game?
+(a) 12 (b) 9 (c) 15 (d) 7
+Answer: (b)
+Solution: The tempting wrong answer 12 comes from confusing "play both" with "play neither". Students playing at least one game = 35 + 28 − 12 = 51, so neither = 60 − 51 = 9. The answer is 9.
+Source: PYQ-style
+
+52. In a survey of 100 people, 60 read newspaper A, 45 read newspaper B and 20 read both. How many read exactly one newspaper?
+(a) 85 (b) 65 (c) 55 (d) 40
+Answer: (b)
+Solution: The trap is to answer 85, which is the number reading at least one newspaper (60 + 45 − 20). Exactly one = (60 − 20) + (45 − 20) = 40 + 25 = 65, so the answer is 65.
+Source: PYQ-style
+
+53. In a group, 40 people like tea, 30 like coffee and 15 like both. If 10 people like neither, what is the total number of people in the group?
+(a) 55 (b) 70 (c) 65 (d) 60
+Answer: (c)
+Solution: The trap is to add 40 + 30 + 10 = 80, forgetting the overlap. People liking at least one = 40 + 30 − 15 = 55, so total = 55 + 10 = 65. The answer is 65.
+Source: PYQ-style
+
+54. Which Venn diagram best represents the relationship among: Women, Doctors, Mothers?
+(a) Three disjoint circles (b) Two circles inside one big circle (c) Three mutually intersecting circles (d) One circle intersecting two disjoint circles
+Answer: (c)
+Solution: The trap is to think mothers are entirely inside women and draw nested circles. Some women are doctors, some are mothers, some doctors are mothers, and some mothers are doctors — every pair can overlap, so three mutually intersecting circles are needed. The answer is three mutually intersecting circles.
+Source: PYQ-style
+
+55. Which Venn diagram best represents: Animals, Dogs, Cats?
+(a) Three intersecting circles (b) Three disjoint circles (c) Two disjoint circles inside a bigger circle (d) One circle inside another, third circle outside
+Answer: (c)
+Solution: The trap is drawing dogs and cats as intersecting circles — no animal is both a dog and a cat. All dogs and all cats are animals, but dogs and cats are disjoint, so the answer is two disjoint circles inside a bigger circle.
+Source: PYQ-style
+
+56. In a school, 50 students study Hindi, 40 study English and 25 study both. How many students study only Hindi?
+(a) 35 (b) 15 (c) 50 (d) 25
+Answer: (d)
+Solution: The trap is to answer 50, the total studying Hindi, instead of only Hindi. Only Hindi = 50 − 25 = 25, so the answer is 25.
+Source: PYQ-style
+
+57. In an examination, 65% of students passed in Mathematics, 55% passed in English and 30% passed in both. What percentage of students failed in both subjects?
+(a) 10% (b) 15% (c) 20% (d) 5%
+Answer: (a)
+Solution: The trap is to subtract only one subject from 100. Passed in at least one = 65 + 55 − 30 = 90%, so failed in both = 100 − 90 = 10%. The answer is 10%.
+Source: PYQ-style
+
+58. Which Venn diagram best represents: Earth, Moon, Sun?
+(a) Three disjoint circles (b) One circle inside another inside a third (c) Two intersecting circles and one disjoint (d) Three mutually intersecting circles
+Answer: (a)
+Solution: The trap is to nest Moon inside Earth because the Moon revolves around the Earth — revolution does not mean set membership. The Earth, Moon and Sun are three distinct celestial bodies with no overlap, so the answer is three disjoint circles.
+Source: PYQ-style
+
+59. In a class of 80 students, 45 like music, 38 like dance and 20 like both. How many like only dance?
+(a) 18 (b) 20 (c) 38 (d) 25
+Answer: (a)
+Solution: The trap is to answer 38, the total who like dance. Only dance = 38 − 20 = 18, so the answer is 18.
+Source: PYQ-style
+
+60. In a survey, 70 people like tea, 50 like coffee, 30 like milk; 20 like tea and coffee, 15 like coffee and milk, 10 like tea and milk, and 5 like all three. How many like at least one drink?
+(a) 105 (b) 120 (c) 100 (d) 110
+Answer: (d)
+Solution: The trap is to add 70 + 50 + 30 = 150 and subtract only the pairwise overlaps without adding back the triple overlap. At least one = 70 + 50 + 30 − 20 − 15 − 10 + 5 = 110, so the answer is 110.
+Source: PYQ-style
+
+61. In a survey, 70 people like tea, 50 like coffee, 30 like milk; 20 like tea and coffee, 15 like coffee and milk, 10 like tea and milk, and 5 like all three. How many like exactly two drinks?
+(a) 30 (b) 45 (c) 25 (d) 20
+Answer: (a)
+Solution: The trap is to add the pairwise figures 20 + 15 + 10 = 45, but each of those includes the 5 who like all three. Exactly two = (20 − 5) + (15 − 5) + (10 − 5) = 15 + 10 + 5 = 30, so the answer is 30.
+Source: PYQ-style
+
+62. Which Venn diagram best represents: Males, Fathers, Engineers?
+(a) One circle inside another, with a third circle intersecting both (b) Three mutually intersecting circles (c) Three disjoint circles (d) Two disjoint circles inside a third
+Answer: (a)
+Solution: The trap is to draw three mutually intersecting circles, which would wrongly imply that some fathers are not males. All fathers are males, while engineers cut across both (some males are engineers, some fathers are engineers, some engineers are neither). The answer is one circle inside another, with a third circle intersecting both.
+Source: PYQ-style
+
+63. In a group of 120 people, 75 can speak Hindi, 60 can speak English and 15 can speak neither. How many can speak both languages?
+(a) 30 (b) 25 (c) 35 (d) 20
+Answer: (a)
+Solution: The trap is to compute 75 + 60 − 120 = 15, forgetting the 15 who speak neither. Speakers of at least one language = 120 − 15 = 105, so both = 75 + 60 − 105 = 30. The answer is 30.
+Source: PYQ-style
+
+64. Which Venn diagram best represents: Apple, Fruit, Red things?
+(a) One circle inside another, with a third circle intersecting both (b) Three mutually intersecting circles (c) Three disjoint circles (d) Two disjoint circles inside a third
+Answer: (a)
+Solution: The trap is to draw three mutually intersecting circles, implying some apples are not fruits. All apples are fruits, but red things cut across both (some apples are red, some other fruits are red, some red things are not fruit). The answer is one circle inside another, with a third circle intersecting both.
+Source: PYQ-style
+
+65. In a colony, 40% of families own a car, 30% own a scooter and 10% own both. What percentage of families own neither?
+(a) 50% (b) 30% (c) 60% (d) 40%
+Answer: (d)
+Solution: The trap is to compute 100 − (40 + 30) = 30%, ignoring the overlap. Owning at least one vehicle = 40 + 30 − 10 = 60%, so neither = 100 − 60 = 40%. The answer is 40%.
+Source: PYQ-style
+
+66. In a class, 20 students play cricket, 15 play hockey and 8 play both. If every student plays at least one of these two games, how many students are in the class?
+(a) 35 (b) 27 (c) 43 (d) 23
+Answer: (b)
+Solution: The trap is to add 20 + 15 = 35 without removing the double-counted overlap. Total = 20 + 15 − 8 = 27, so the answer is 27.
+Source: PYQ-style
+
+67. Which Venn diagram best represents: Sparrows, Birds, Crows?
+(a) One circle inside another, third outside (b) Three mutually intersecting circles (c) Two disjoint circles inside a bigger circle (d) Three disjoint circles
+Answer: (c)
+Solution: The trap is to draw sparrows and crows as intersecting circles — no bird is both a sparrow and a crow. All sparrows and all crows are birds, and the two sets are disjoint, so the answer is two disjoint circles inside a bigger circle.
+Source: PYQ-style
+
+68. In an office of 90 employees, 50 know typing, 40 know shorthand and 20 know both. How many employees know neither skill?
+(a) 10 (b) 30 (c) 20 (d) 25
+Answer: (c)
+Solution: The trap is to subtract only one skill from 90. Knowing at least one skill = 50 + 40 − 20 = 70, so neither = 90 − 70 = 20. The answer is 20.
+Source: PYQ-style
+
+69. In a survey of 200 people, 120 watch cricket, 90 watch football and 50 watch both. How many watch only cricket?
+(a) 120 (b) 70 (c) 50 (d) 40
+Answer: (b)
+Solution: The trap is to answer 120, the total cricket watchers, instead of only cricket. Only cricket = 120 − 50 = 70, so the answer is 70.
+Source: PYQ-style
+
+70. Which Venn diagram best represents: Quadrilaterals, Rectangles, Squares?
+(a) Three mutually intersecting circles (b) Three disjoint circles (c) Two intersecting circles, one disjoint (d) One circle inside another which is inside a third circle
+Answer: (d)
+Solution: The trap is to draw rectangles and squares as merely intersecting. Every square is a rectangle and every rectangle is a quadrilateral, so the relation is fully nested. The answer is one circle inside another which is inside a third circle.
+Source: NCERT Class 9 Mathematics
+
+71. In a batch of 150 students, 80 passed in Physics, 70 passed in Chemistry and 40 passed in both. How many failed in both subjects?
+(a) 50 (b) 30 (c) 40 (d) 60
+Answer: (c)
+Solution: The trap is to compute 150 − (80 + 70) = 0 or to subtract only one subject. Passed in at least one = 80 + 70 − 40 = 110, so failed in both = 150 − 110 = 40. The answer is 40.
+Source: PYQ-style
+
+72. In a group of people, 25 like tea only, 20 like coffee only and 10 like both. If 5 like neither, what is the total number of people?
+(a) 55 (b) 65 (c) 50 (d) 60
+Answer: (d)
+Solution: The trap is to subtract the overlap again even though the "only" figures are already exclusive. Total = 25 + 20 + 10 + 5 = 60, so the answer is 60.
+Source: PYQ-style
+
+73. Which Venn diagram best represents: Doctors, Surgeons, Males?
+(a) Three mutually intersecting circles (b) Two disjoint circles inside a third (c) Three disjoint circles (d) One circle inside another, with a third circle intersecting both
+Answer: (d)
+Solution: The trap is to draw three mutually intersecting circles, implying some surgeons are not doctors. All surgeons are doctors, while males cut across both categories (some doctors are male, some surgeons are male, some males are neither). The answer is one circle inside another, with a third circle intersecting both.
+Source: PYQ-style
+
+74. In a town, 60% of people read Hindi newspapers, 45% read English newspapers and 25% read both. What percentage read exactly one type of newspaper?
+(a) 35% (b) 55% (c) 45% (d) 80%
+Answer: (b)
+Solution: The trap is to answer 80%, which is the percentage reading at least one newspaper (60 + 45 − 25). Exactly one = (60 − 25) + (45 − 25) = 35 + 20 = 55%, so the answer is 55%.
+Source: PYQ-style
+
+75. In a class of 50 students, 30 play cricket, 25 play football and 10 play both cricket and football. How many students play cricket or football but not both?
+(a) 45 (b) 35 (c) 30 (d) 40
+Answer: (b)
+Solution: The trap is to answer 45, the number playing at least one game (30 + 25 − 10), which includes those playing both. Playing exactly one = (30 − 10) + (25 − 10) = 20 + 15 = 35, so the answer is 35.
+Source: PYQ-style
