@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 10:33 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:12 PM
+**आख़िरी update:** 09-10-2026 10:46 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:12 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 Fractions Decimals (Graduation Maths) | ✍️ लिख रहा है | 39 मिनट |
-| W2 | Chapter 12 Time Distance (Graduation Maths) | ✍️ लिख रहा है | 21 मिनट |
-| W3 | Chapter 06 Average (Graduation Maths) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 08 Profit Loss (Graduation Maths) | ✍️ लिख रहा है | 104 मिनट |
-| W5 | Chapter 09 Simple Interest (Graduation Maths) | ✍️ लिख रहा है | 87 मिनट |
-| W6 | Chapter 07 Ratio Proportion (Graduation Maths) | ✍️ लिख रहा है | 114 मिनट |
-| W7 | Chapter 11 Time Work (Graduation Maths) | ✍️ लिख रहा है | 31 मिनट |
-| W8 | Chapter 10 Compound Interest (Graduation Maths) | ✍️ लिख रहा है | 32 मिनट |
+| W1 | Chapter 04 Fractions Decimals (Graduation Maths) | 🔎 review हो रहा है | 7 मिनट |
+| W2 | Chapter 12 Time Distance (Graduation Maths) | ✍️ लिख रहा है | 35 मिनट |
+| W3 | Chapter 13 Mixture Alligation (Graduation Maths) | ✍️ लिख रहा है | 13 मिनट |
+| W4 | Chapter 08 Profit Loss (Graduation Maths) | 🔎 review हो रहा है | 12 मिनट |
+| W5 | Chapter 09 Simple Interest (Graduation Maths) | 🔎 review हो रहा है | 4 मिनट |
+| W6 | Chapter 07 Ratio Proportion (Graduation Maths) | ✍️ लिख रहा है | 128 मिनट |
+| W7 | Chapter 11 Time Work (Graduation Maths) | ✍️ लिख रहा है | 45 मिनट |
+| W8 | Chapter 10 Compound Interest (Graduation Maths) | ✍️ लिख रहा है | 46 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -29,11 +29,11 @@
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 7 | 0 | 18 |
 | 12th English | 25 | 0 | 0 |
-| Graduation Maths | 3 | 0 | 25 |
+| Graduation Maths | 6 | 0 | 22 |
 | Graduation GK | 27 | 1 | 0 |
 | Graduation Reasoning | 9 | 0 | 21 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **202** | **9** | **85** |
+| **कुल** | **205** | **9** | **82** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -51,49 +51,48 @@
 - Chapter 05 Percentage (Maths) — 2 बार
 - Chapter 02 LCM HCF (Maths) — 2 बार
 - Chapter 04 Fractions Decimals (Maths) — 1 बार
-- Chapter 06 Average (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 22:14:23   [Simple_Interest] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 22:14:29   [Time_Work] wrote Flashcards_en.txt (3848 chars)
-09-10 22:15:17   [Average] review Flashcards_en.txt: 1 issue(s): - Card 2 back shows a garbled list of numbers instead of the correct sum → The sum should be 100 (Average × Coun
-09-10 22:15:28   [Compound_Interest] wrote PYQ_hi.txt (7497 chars)
-09-10 22:15:44   [Time_Distance] wrote Content_hi.txt (7454 chars)
-09-10 22:16:32   [Time_Work] wrote Flashcards_hi.txt (3453 chars)
-09-10 22:16:33   [Time_Distance] Feynman_en.txt try 1: rejected (chat debris "Here's the")
-09-10 22:16:51   [Compound_Interest] wrote Short_Tricks_en.txt (7972 chars)
-09-10 22:17:08   [Time_Distance] wrote Feynman_en.txt (3677 chars)
-09-10 22:17:12   [Profit_Loss] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-09-10 22:17:16   [Fractions_Decimals] Practice_en_Set_04.txt try 1: rejected (Q80:leaked_reasoning,Q83:leaked_reasoning,Q92:leaked_reasoning,Q93:leaked_reasoning,Q99:leaked_reasoning)
-09-10 22:18:33   [Time_Work] wrote PYQ_en.txt (9346 chars)
-09-10 22:18:51   [Simple_Interest] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-09-10 22:18:59   [Compound_Interest] wrote Short_Tricks_hi.txt (5722 chars)
-09-10 22:19:17   [Average] review Flashcards_hi.txt: 1 issue(s): - Card 7: The formula “नया व्यक्ति की आयु = पुराना औसत ± (औसत में परिवर्तन × नई कुल संख्या)” is incorrect; the s
-09-10 22:19:18   [Time_Distance] wrote Feynman_hi.txt (3123 chars)
-09-10 22:19:28   [Compound_Interest] wrote Important_Formulas_en.txt (2699 chars)
-09-10 22:19:53   [Ratio_Proportion] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-09-10 22:19:54   [Profit_Loss] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-09-10 22:19:56   [Time_Distance] wrote Mind_Map.txt (2053 chars)
-09-10 22:20:35   [Ratio_Proportion] Practice_hi_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 22:20:40   [Compound_Interest] wrote Important_Formulas_hi.txt (2153 chars)
-09-10 22:21:18   [Compound_Interest] Practice_en_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 22:22:13   [Profit_Loss] Practice_en_Set_06.txt try 1: rejected (Q128:leaked_reasoning,Q131:leaked_reasoning,Q136:leaked_reasoning,Q139:leaked_reasoning)
-09-10 22:22:50   [Time_Distance] Flashcards_en.txt try 1: rejected (corrupted characters)
-09-10 22:23:02   [Ratio_Proportion] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-09-10 22:23:03   [Simple_Interest] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-09-10 22:23:05   [Compound_Interest] Practice_en_Set_01.txt try 2: rejected (parsed 0 questions, numbers -…-)
-09-10 22:23:33   [Time_Distance] wrote Flashcards_en.txt (3442 chars)
-09-10 22:25:31   [Average] review Short_Tricks_en.txt: 1 issue(s): - Trick 2 formula: "New person's value = New average ± (Change in average × New number of members)" → Correct:
-09-10 22:25:39   [Fractions_Decimals] Practice_en_Set_04.txt try 2: re-solve disagrees (Q81 key b vs re-solve ?, Q97 key d vs re-solve ?)
-09-10 22:26:06   [Ratio_Proportion] Practice_en_Set_06.txt try 1: rejected (Q138:leaked_reasoning,Q141:leaked_reasoning,Q144:leaked_reasoning,Q145:leaked_reasoning,Q147:leaked_reasoning)
-09-10 22:27:32   [Average] review Short_Tricks_hi.txt: 1 issue(s): - Trick 8 claims "परीक्षा में 90% समय बचाने वाली ट्रिक!" which is an invented exam statistic → Remove the perc
-09-10 22:27:35   [Simple_Interest] Practice_en_Set_06.txt try 1: rejected (parsed 1 questions, numbers 126…126)
 09-10 22:27:51   [Profit_Loss] Practice_en_Set_06.txt try 2: re-solve disagrees (Q136 key a vs re-solve b)
 09-10 22:30:00   [Simple_Interest] Practice_en_Set_06.txt try 2: rejected (Q129:leaked_reasoning)
 09-10 22:30:35   [Average] review Important_Formulas_en.txt: 1 issue(s): - The second table row is completely corrupted: it merges multiple columns, shows a wrong formula "n(n1)
 09-10 22:32:25   [Profit_Loss] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 09-10 22:33:07   [Average] review: 7 section(s) corrected, 0 failed
 09-10 22:33:07   [Average] written 7, failed 0; AI calls today 560/100000
+09-10 22:33:20 DONE Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_06_Average in 36 min → 8389caa8
+09-10 22:33:22 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_13_Mixture_Alligation (TODO: todo 25, problems 0)
+09-10 22:34:38   [Profit_Loss] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+09-10 22:34:38   [Profit_Loss] written 25, failed 0; AI calls today 561/100000
+09-10 22:35:03   [Mixture_Alligation] Content_en.txt try 1: rejected (chat debris "Here's the")
+09-10 22:35:31   [Fractions_Decimals] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 22:37:08   [Mixture_Alligation] Content_en.txt try 2: rejected (chat debris "Here is the")
+09-10 22:37:08   [Mixture_Alligation] REJECTED Content_en.txt: chat debris "Here is the" — not written
+09-10 22:37:36   [Compound_Interest] Practice_en_Set_01.txt try 3: re-solve disagrees (Q24 key c vs re-solve a)
+09-10 22:37:51   [Fractions_Decimals] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 22:37:51   [Fractions_Decimals] written 4, failed 0; AI calls today 566/100000
+09-10 22:38:04   [Simple_Interest] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 22:39:09   [Fractions_Decimals] repaired Important_Formulas_hi.txt (3991 chars)
+09-10 22:39:09   [Fractions_Decimals] written 1, failed 0; AI calls today 569/100000
+09-10 22:39:30   [Mixture_Alligation] wrote Content_hi.txt (6501 chars)
+09-10 22:39:35   [Simple_Interest] Practice_hi_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 22:39:48   [Profit_Loss] review Content_en.txt: 2 issue(s): - Chunk 6 formula: "Profit % = (Error / True weight given) × 100" uses wrong denominator (true weight given) → shou
+09-10 22:40:20   [Mixture_Alligation] Feynman_en.txt try 1: rejected (chat debris "Here's the")
+09-10 22:40:36   [Ratio_Proportion] Practice_en_Set_06.txt try 2: re-solve disagrees (Q128 key d vs re-solve b)
+09-10 22:40:49   [Time_Work] PYQ_hi.txt try 1: answer too long — asking for a tighter version
+09-10 22:40:55   [Mixture_Alligation] wrote Feynman_en.txt (2897 chars)
+09-10 22:40:59   [Time_Distance] Flashcards_hi.txt try 1: answer too long — asking for a tighter version
+09-10 22:41:25   [Mixture_Alligation] wrote Feynman_hi.txt (2972 chars)
+09-10 22:42:00   [Mixture_Alligation] wrote Mind_Map.txt (1470 chars)
+09-10 22:42:03   [Simple_Interest] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+09-10 22:42:03   [Simple_Interest] written 25, failed 0; AI calls today 579/100000
+09-10 22:43:08   [Mixture_Alligation] wrote Flashcards_en.txt (3891 chars)
+09-10 22:44:39   [Mixture_Alligation] wrote Flashcards_hi.txt (3442 chars)
+09-10 22:44:53   [Time_Work] wrote PYQ_hi.txt (8823 chars)
+09-10 22:45:18   [Compound_Interest] Practice_en_Set_01.txt try 4: re-solve disagrees (Q25 key c vs re-solve ?)
+09-10 22:45:18   [Compound_Interest] REJECTED Practice_en_Set_01.txt: no version passed the checks — not written
+09-10 22:45:18   [Compound_Interest] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
+09-10 22:45:31   [Ratio_Proportion] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 22:46:07   [Simple_Interest] review Content_en.txt: 1 issue(s): - The formula D = nx + x·R·n(n−1)/200 for the loan amount in equal annual instalments under SI is incorrect; the co
 ```
