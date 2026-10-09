@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 07:59 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:12 PM
+**आख़िरी update:** 09-10-2026 08:03 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:12 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 Fractions Decimals (Graduation Maths) | ✍️ लिख रहा है | 23 मिनट |
-| W2 | Chapter 05 Percentage (Graduation Maths) | ✍️ लिख रहा है | 13 मिनट |
-| W3 | Chapter 26 Advanced Polity (Graduation GK) | 🔎 review हो रहा है | 46 मिनट |
-| W4 | Chapter 27 Budget Economic Survey (Graduation GK) | 🔎 review हो रहा है | 46 मिनट |
-| W5 | Chapter 28 Advanced Science Tech (Graduation GK) | 🔎 review हो रहा है | 36 मिनट |
-| W6 | Chapter 01 Number System Advanced (Graduation Maths) | 🔎 review हो रहा है | 6 मिनट |
-| W7 | Chapter 02 LCM HCF (Graduation Maths) | ✍️ लिख रहा है | 46 मिनट |
-| W8 | Chapter 03 Simplification (Graduation Maths) | ✍️ लिख रहा है | 46 मिनट |
+| W1 | Chapter 04 Fractions Decimals (Graduation Maths) | ✍️ लिख रहा है | 27 मिनट |
+| W2 | Chapter 05 Percentage (Graduation Maths) | ✍️ लिख रहा है | 17 मिनट |
+| W3 | Chapter 26 Advanced Polity (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
+| W4 | Chapter 27 Budget Economic Survey (Graduation GK) | 🔎 review हो रहा है | 1 मिनट |
+| W5 | Chapter 28 Advanced Science Tech (Graduation GK) | 🔎 review हो रहा है | 40 मिनट |
+| W6 | Chapter 01 Number System Advanced (Graduation Maths) | 🔎 review हो रहा है | 10 मिनट |
+| W7 | Chapter 02 LCM HCF (Graduation Maths) | ✍️ लिख रहा है | 50 मिनट |
+| W8 | Chapter 03 Simplification (Graduation Maths) | ✍️ लिख रहा है | 50 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,31 +37,18 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 20:03 — Graduation GK · Chapter 26 Advanced Polity
 - 09-10 19:45 — Graduation GK · Chapter 22 Defence
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 13 Awards (GK) — 2 बार
 - Chapter 01 Number System Advanced (Maths) — 1 बार
+- Chapter 27 Budget Economic Survey (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 19:38:33   [Simplification] Practice_en_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 19:39:53   [Fractions_Decimals] wrote Content_en.txt (7469 chars)
-09-10 19:40:30   [Budget_Economic_Survey] review Feynman_hi.txt: 3 issue(s): - राजकोषीय घाटा = सरकार की कुल उधारी → राजकोषीय घाटा = कुल खर्च − कुल प्राप्ति (उधार छोड़कर)
-09-10 19:42:45   [Simplification] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 19:43:44   [Defence] review Memory_Hooks_en.txt: 5 issue(s): - BOX 3 mnemonic "Papa Nourishes All Aspirants" does not match acronym P-A-N-A-A (missing 'A' for Agni) → Use 
-09-10 19:45:00   [Simplification] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-09-10 19:45:50   [Fractions_Decimals] wrote Content_hi.txt (9319 chars)
-09-10 19:45:59   [Defence] review: 3 section(s) corrected, 0 failed
-09-10 19:45:59   [Defence] written 3, failed 0; AI calls today 86/100000
-09-10 19:46:13 DONE Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_22_Defence in 33 min → 60efa9ca
-09-10 19:46:15 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_05_Percentage (TODO: todo 25, problems 0)
-09-10 19:46:33   [Budget_Economic_Survey] review Flashcards_en.txt: 1 issue(s): - Card 8 claims the Economic Survey has been in two parts since 2022–23; actually it has been a single document 
-09-10 19:46:44   [Advanced_Polity] review Feynman_hi.txt: 1 issue(s): - Invented statistic "90% विद्यार्थी फँसते हैं" with no source → Remove or replace with a non-quantified phrase lik
-09-10 19:46:45   [Fractions_Decimals] Feynman_en.txt try 1: rejected (chat debris "Here's the")
-09-10 19:47:56   [Advanced_Science_Tech] review Key_Facts_en.txt: 2 issue(s): - National Supercomputing Mission fact incorrectly includes Pratyush & Mihir as part of the mission → Pratyush an
 09-10 19:48:55   [Simplification] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
 09-10 19:48:59   [Fractions_Decimals] wrote Feynman_en.txt (3713 chars)
 09-10 19:50:08   [Fractions_Decimals] wrote Feynman_hi.txt (2506 chars)
@@ -87,4 +74,19 @@
 09-10 19:58:07   [LCM_HCF] wrote Short_Tricks_en.txt (5292 chars)
 09-10 19:58:13   [Fractions_Decimals] wrote Flashcards_en.txt (3994 chars)
 09-10 19:59:06   [Fractions_Decimals] wrote Flashcards_hi.txt (3360 chars)
+09-10 20:00:06   [LCM_HCF] wrote Short_Tricks_hi.txt (6562 chars)
+09-10 20:00:19   [Simplification] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 20:00:46   [LCM_HCF] wrote Important_Formulas_en.txt (3020 chars)
+09-10 20:00:52   [Budget_Economic_Survey] review Memory_Hooks_en.txt: 1 issue(s): - Box 14 claims "Every Money Bill is a Finance Bill" → Actually, not every Money Bill is a Finance Bill; the F
+09-10 20:00:55   [Budget_Economic_Survey] REJECTED review fix Memory_Hooks_en.txt: too short
+09-10 20:01:03   [Fractions_Decimals] wrote PYQ_en.txt (8411 chars)
+09-10 20:01:31   [Budget_Economic_Survey] review: 5 section(s) corrected, 1 failed
+09-10 20:01:31   [Budget_Economic_Survey] written 5, failed 1; AI calls today 131/100000
+09-10 20:01:31 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_27_Budget_Economic_Survey after 49 min: todo [] problems []
+09-10 20:01:33 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_27_Budget_Economic_Survey (OK: todo 0, problems 0)
+09-10 20:01:57   [LCM_HCF] wrote Important_Formulas_hi.txt (2809 chars)
+09-10 20:02:09   [Simplification] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 20:03:30   [Fractions_Decimals] wrote PYQ_hi.txt (6514 chars)
+09-10 20:03:33   [Advanced_Polity] review: 5 section(s) corrected, 0 failed
+09-10 20:03:33   [Advanced_Polity] written 5, failed 0; AI calls today 138/100000
 ```
