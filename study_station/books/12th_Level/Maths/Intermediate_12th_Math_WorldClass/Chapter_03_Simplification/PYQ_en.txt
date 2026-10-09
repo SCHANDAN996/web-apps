@@ -1,0 +1,116 @@
+# 📊 PYQ Analysis — Simplification (English)
+
+## 1. What Exams Actually Ask
+
+Simplification is the **highest-frequency arithmetic topic** across SSC CGL, IBPS PO/Clerk, RRB NTPC and CAT. It rarely appears as a "chapter" — it hides inside every calculation. Direct questions, though, follow a small set of repeating patterns:
+
+**Pattern A — BODMAS with brackets and 'of':** Long expressions mixing `÷`, `×`, `of`, and brackets. The trap is always the same: treating `of` as ordinary multiplication done left-to-right, or solving `÷` before `of`.
+
+**Pattern B — Fraction chains:** Expressions like `2/3 of 3/4 of 5/6 of a number`, or a fraction of a fraction equals a value — find the number. Exams love "a fraction of a fraction of…" wording.
+
+**Pattern C — Decimal + fraction hybrids:** `0.36 × 0.04 + 1/4 of 2.8` style questions that punish students who convert everything blindly instead of spotting clean cancellations.
+
+**Pattern D — Surds and square roots:** `√(x + √y)` simplification, rationalising denominators, and `√0.0009` type decimal-root traps.
+
+**Pattern E — Algebraic identities in disguise:** `a² − b²`, `(a+b)²`, `(a+b)³` hidden inside big numbers, e.g. `999² − 1` or `(103)²`. The "hard" look is the hook; the identity makes it a 10-second question.
+
+**Pattern F — Approximation (Bank exams):** IBPS/SBI ask "approximate value" questions with `≈` — you must round smartly, not compute exactly.
+
+**Pattern G — Missing number / find x:** `45% of 600 + ? = 30% of 900`. Pure BODMAS plus percentage fluency.
+
+**Pattern H — Continued fractions / ladder fractions:** `1 + 1/(1 + 1/(1+1/2))` — solve bottom-up.
+
+---
+
+## 2. The Examiner's Psychological Traps
+
+1. **The 'of' trap:** `24 ÷ 4 of 2` — most students compute `24 ÷ 8 = 3`? No — `of` binds first: `4 of 2 = 8`, so `24 ÷ 8 = 3` is actually correct here, but in `24 ÷ 4 × 2` the answer is `12`, not `3`. Examiners place `of` and `×` side by side to catch those who don't distinguish them.
+2. **The left-to-right illusion:** `100 − 50 + 25` — addition and subtraction have equal priority, solved left to right. Students who "add first" get `25`; correct is `75`.
+3. **The big-number fear:** Numbers like `9999 × 9999` look terrifying but collapse via `(10000−1)²`. The trap is panic, not maths.
+4. **The near-integer decimal:** `0.999…` or `3.6 ÷ 0.04` — shifting decimal points wrongly by one place is the most common error in RRB NTPC papers.
+5. **The negative-sign sandwich:** `−(−5) − (−3)` — double negatives eat marks.
+6. **The "all options look right" design:** Options are built from the three most common wrong methods (e.g., 3, 12, 48 for one expression). If your answer matches an option instantly, re-check — it may be the trap answer.
+
+---
+
+## 3. Top 10 High-Yield Questions (with Solutions)
+
+**Q1.** Simplify: `36 ÷ 6 of 3 × 2 + 5`
+(a) 9  (b) 17  (c) 4  (d) 29
+**Answer: (a) 9**
+**Solution:** `of` first: `6 of 3 = 18`. Then `36 ÷ 18 = 2`. Then `2 × 2 = 4`. Finally `4 + 5 = 9`.
+**Trap:** Doing `36 ÷ 6 = 6` first (left-to-right) gives `6×3×2+5 = 41`-style wrong paths. `of` outranks `÷`.
+**Source:** PYQ-style (SSC pattern)
+
+**Q2.** Simplify: `100 − 40 + 20 ÷ 5 × 2`
+(a) 68  (b) 76  (c) 64  (d) 72
+**Answer: (a) 68**
+**Solution:** `20 ÷ 5 = 4`; `4 × 2 = 8`; then left-to-right: `100 − 40 = 60`; `60 + 8 = 68`.
+**Trap:** Adding `40 + 20` first ("addition before subtraction") gives a wrong base. `+` and `−` are equal priority, left to right.
+**Source:** PYQ-style
+
+**Q3.** `2/3 of 3/4 of 5/8 of 960 = ?`
+(a) 300  (b) 240  (c) 360  (d) 200
+**Answer: (a) 300**
+**Solution:** Multiply fractions: `(2×3×5)/(3×4×8) = 30/96 = 5/16`. Then `5/16 × 960 = 300`.
+**Trap:** Cancelling only one pair of fractions. Cancel everything before multiplying 960.
+**Source:** PYQ-style (RRB NTPC pattern)
+
+**Q4.** `45% of 800 + ? = 30% of 1500`
+(a) 90  (b) 60  (c) 120  (d) 80
+**Answer: (a) 90**
+**Solution:** `45% of 800 = 360`; `30% of 1500 = 450`; `? = 450 − 360 = 90`.
+**Trap:** Computing `45% of 800` as `405` (slip of 45×9). Write `45 × 8 = 360` cleanly.
+**Source:** PYQ-style (IBPS Clerk pattern)
+
+**Q5.** Simplify: `√(0.0081) + √(0.0064)`
+(a) 0.17  (b) 0.017  (c) 1.7  (d) 0.15
+**Answer: (a) 0.17**
+**Solution:** `√0.0081 = 0.09` (since `9² = 81`, and 4 decimal places → 2). `√0.0064 = 0.08`. Sum = `0.17`.
+**Trap:** Decimal-place miscount — writing `0.9` instead of `0.09`. Rule: decimal places halve under a square root.
+**Source:** PYQ-style
+
+**Q6.** `999² − 1 = ?`
+(a) 998000  (b) 998001  (c) 997999  (d) 998002
+**Answer: (a) 998000**
+**Solution:** `a² − 1 = (a−1)(a+1) = 998 × 1000 = 998000`.
+**Trap:** Computing `999²` fully and then mis-subtracting. The identity is the intended 10-second route.
+**Source:** PYQ-style (SSC CGL pattern)
+
+**Q7.** Simplify: `1 + 1/(1 + 1/(1 + 1/2))`
+(a) 8/5  (b) 5/3  (c) 3/2  (d) 7/4
+**Answer: (a) 8/5**
+**Solution:** Bottom-up: `1 + 1/2 = 3/2`; `1/(3/2) = 2/3`; `1 + 2/3 = 5/3`; `1/(5/3) = 3/5`; `1 + 3/5 = 8/5`.
+**Trap:** Solving top-down. Ladder fractions are always solved from the bottom rung.
+**Source:** PYQ-style
+
+**Q8.** `(0.6 × 0.6 × 0.6 + 0.4 × 0.4 × 0.4) / (0.6 × 0.6 − 0.6 × 0.4 + 0.4 × 0.4) = ?`
+(a) 1.0  (b) 0.2  (c) 1.2  (d) 0.36
+**Answer: (a) 1.0**
+**Solution:** This is `(a³ + b³)/(a² − ab + b²) = a + b = 0.6 + 0.4 = 1.0`.
+**Trap:** Cubing each decimal by hand — 3 minutes gone. Recognise the `a³+b³` identity instantly.
+**Source:** PYQ-style (SSC CGL Mains pattern)
+
+**Q9.** Approximate (IBPS style): `24.98% of 799.8 + 39.9 ≈ ?`
+(a) 240  (b) 200  (c) 260  (d) 220
+**Answer: (a) 240**
+**Solution:** Round: `25% of 800 = 200`; `200 + 40 = 240`.
+**Trap:** Exact calculation wastes time; the word "approximate" and `≈` sign licence rounding to the nearest clean number.
+**Source:** PYQ-style (IBPS PO pattern)
+
+**Q10.** If `x − 1/x = 3`, find `x² + 1/x²`.
+(a) 9  (b) 11  (c) 7  (d) 13
+**Answer: (b) 11**
+**Solution:** Square both sides: `(x − 1/x)² = x² + 1/x² − 2 = 9`, so `x² + 1/x² = 11`.
+**Trap:** Forgetting the `−2` in the expansion and answering 9 — the trap option is always the unadjusted square.
+**Source:** PYQ-style (SSC/CAT pattern)
+
+---
+
+## 4. Strategy Summary
+
+- **Order of attack:** brackets → `of` → `÷`/`×` (left to right) → `+`/`−` (left to right).
+- **Scan for identities before computing** — any expression with cubes, squares of near-round numbers, or symmetric terms is an identity in disguise.
+- **In approximation questions, round first, compute once.**
+- **Verify with digit-sum or unit-digit check** when options are close — 5 seconds that save 1 mark.
+- **Revise these 10 patterns again after 2 days** — pattern recognition, not speed, is what simplification tests.

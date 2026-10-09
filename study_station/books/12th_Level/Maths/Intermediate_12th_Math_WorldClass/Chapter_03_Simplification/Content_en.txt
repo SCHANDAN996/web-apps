@@ -1,0 +1,208 @@
+# Simplification
+
+## The Chapter That Decides Your Rank in 30 Seconds
+
+Here's a fact that should make you sit up: in SSC CGL, IBPS PO, and RRB NTPC, simplification questions are often the **fastest marks in the entire paper**. A well-prepared student solves them in 20–30 seconds. An unprepared student spends 3 minutes on the same question — and still gets it wrong because of one tiny bracket.
+
+Same question. Same numbers. The only difference? **Order of operations and a few mental tricks.**
+
+That's what this chapter gives you. Not more maths — *faster* maths.
+
+**What you will learn in this chapter:**
+1. The BODMAS rule — and where students secretly break it
+2. Fractions, decimals, and percentages — converting between them instantly
+3. Surds, indices, and powers — simplified without fear
+4. Approximation — when "close enough" is the correct answer
+5. Speed tricks that turn 3-minute problems into 30-second ones
+
+---
+
+## 1. The Real Villain: Doing Operations in the Wrong Order
+
+Let's start with a trap that has fooled lakhs of aspirants:
+
+**What is 6 + 4 × 5?**
+
+If you said 50, you added first — and fell into the classic trap. The correct answer is **26**, because multiplication comes *before* addition: 6 + (4 × 5) = 6 + 20 = 26.
+
+Maths has a strict queue, like a railway reservation counter. Some operations are VIPs and go first. Break the queue, and your answer breaks too.
+
+### BODMAS — The VIP Queue of Maths
+
+| Letter | Stands for | Priority |
+|---|---|---|
+| **B** | Brackets ( ) , { } , [ ] | 1st — always |
+| **O** | Orders (powers, roots, "of") | 2nd |
+| **D** | Division | 3rd (left to right) |
+| **M** | Multiplication | 3rd (left to right) |
+| **A** | Addition | 4th (left to right) |
+| **S** | Subtraction | 4th (left to right) |
+
+**Important:** Division and Multiplication have *equal* rank — solve whichever comes first from the **left**. Same for Addition and Subtraction.
+
+**Example:** 24 ÷ 4 × 3 = ?
+- Wrong: 24 ÷ 12 = 2 (multiplied first — queue broken!)
+- Right: (24 ÷ 4) × 3 = 6 × 3 = **18**
+
+### The Memory Trick 🎭
+
+Remember BODMAS as: **"Big Oxen Drink Milk And Sleep"** — a giant ox who drinks milk and immediately falls asleep. Absurd? Yes. Unforgettable? Also yes. (Brackets, Orders, Division, Multiplication, Addition, Subtraction.)
+
+🧠 **Active Recall:** Without looking up — what does the 'O' in BODMAS stand for? And in 100 ÷ 10 × 5, which operation do you do first? (Answer: Orders; division, because it comes first from the left.)
+
+---
+
+## 2. Brackets Have Their Own Mini-Queue
+
+Inside BODMAS, brackets themselves follow an order:
+
+1. **Bar / Vinculum** (a line over numbers, e.g., $\overline{5-3}$) — first
+2. **Small brackets ( )**
+3. **Curly brackets { }**
+4. **Square brackets [ ]**
+
+**Example:** 20 − [12 − {8 − (6 − $\overline{4-2}$)}]
+- Bar first: $\overline{4-2}$ = 2
+- Small bracket: 6 − 2 = 4
+- Curly: 8 − 4 = 4
+- Square: 12 − 4 = 8
+- Final: 20 − 8 = **12**
+
+Work from the **innermost bracket outward**, like peeling an onion layer by layer.
+
+🧠 **Active Recall:** Which bracket is solved before ( )? (Answer: the bar/vinculum.)
+
+---
+
+## 3. "Of" — The Small Word That Causes Big Losses
+
+In simplification, **"of" means multiplication**, but it must be solved *before* division and multiplication signs.
+
+**Example:** 36 ÷ 6 of 2 + 5 = ?
+- "Of" first: 6 of 2 = 12
+- Then: 36 ÷ 12 + 5 = 3 + 5 = **8**
+- Trap answer: 36 ÷ 6 = 6, then 6 × 2 = 12, +5 = 17 ❌
+
+Examiners *love* this trap. Now you love it too — because it's a free mark.
+
+---
+
+## 4. Fractions, Decimals, Percentages — The Three Disguises of One Number
+
+Half the battle in simplification is converting quickly between these three forms.
+
+**Must-memorise conversions:**
+
+| Fraction | Decimal | Percentage |
+|---|---|---|
+| 1/2 | 0.5 | 50% |
+| 1/3 | 0.333… | 33.33% |
+| 1/4 | 0.25 | 25% |
+| 1/5 | 0.2 | 20% |
+| 1/6 | 0.1666… | 16.66% |
+| 1/8 | 0.125 | 12.5% |
+| 3/4 | 0.75 | 75% |
+| 2/5 | 0.4 | 40% |
+
+**Why this matters:** "37.5% of 160" looks scary. But 37.5% = 3/8, so the question is just (3/8) × 160 = **60**. Ten seconds, done.
+
+**Adding fractions:** use the LCM of denominators.
+$$\frac{2}{3} + \frac{3}{4} = \frac{8 + 9}{12} = \frac{17}{12} = 1\frac{5}{12}$$
+
+🧠 **Active Recall:** What is 12.5% as a fraction? What is 62.5% of 80? (Answer: 1/8; 62.5% = 5/8, so 5/8 × 80 = 50.)
+
+---
+
+## 5. Surds and Indices — Powers Without Panic
+
+**Laws of indices (your toolkit):**
+
+| Law | Formula | Example |
+|---|---|---|
+| Product | $a^m \times a^n = a^{m+n}$ | $2^3 \times 2^2 = 2^5 = 32$ |
+| Quotient | $a^m \div a^n = a^{m-n}$ | $3^5 \div 3^2 = 3^3 = 27$ |
+| Power of power | $(a^m)^n = a^{mn}$ | $(2^2)^3 = 2^6 = 64$ |
+| Zero power | $a^0 = 1$ | $99^0 = 1$ |
+| Negative power | $a^{-n} = \frac{1}{a^n}$ | $2^{-3} = \frac{1}{8}$ |
+| Fractional power | $a^{1/n} = \sqrt[n]{a}$ | $27^{1/3} = 3$ |
+
+**Simplifying surds:** break the number inside the root into a perfect square × remainder.
+$$\sqrt{72} = \sqrt{36 \times 2} = 6\sqrt{2}$$
+
+**Rationalising the denominator:** multiply top and bottom by the root.
+$$\frac{1}{\sqrt{2}} = \frac{1 \times \sqrt{2}}{\sqrt{2} \times \sqrt{2}} = \frac{\sqrt{2}}{2}$$
+
+🧠 **Active Recall:** What is $5^0$? What is $\sqrt{200}$ in simplest surd form? (Answer: 1; $\sqrt{100 \times 2} = 10\sqrt{2}$.)
+
+---
+
+## 6. Squares, Cubes, and Roots — Your Mental Calculator
+
+Memorise these cold. They appear *everywhere*.
+
+**Squares (1–30, the essentials):** 11² = 121, 12² = 144, 13² = 169, 14² = 196, 15² = 225, 16² = 256, 17² = 289, 18² = 324, 19² = 361, 20² = 400, 25² = 625, 30² = 900.
+
+**Cubes (1–15):** 2³ = 8, 3³ = 27, 4³ = 64, 5³ = 125, 6³ = 216, 7³ = 343, 8³ = 512, 9³ = 729, 10³ = 1000, 11³ = 1331, 12³ = 1728, 13³ = 2197, 14³ = 2744, 15³ = 3375.
+
+**Quick square trick (numbers ending in 5):** For 65² — multiply the first digit by (itself + 1): 6 × 7 = 42, then attach 25 → **4225**. Works for any number ending in 5: 85² = 8×9 then 25 = **7225**.
+
+🧠 **Active Recall:** Use the trick — what is 75²? (Answer: 7 × 8 = 56, attach 25 → 5625.)
+
+---
+
+## 7. Approximation — When the Exam *Wants* You to Estimate
+
+Bank exams (IBPS, SBI PO) love questions like:
+
+**≈ What is 49.98 × 20.03 ÷ 9.9?**
+
+Don't calculate exactly! Round: 50 × 20 ÷ 10 = **100**. Check the options — the closest one wins.
+
+**Rules of approximation:**
+- Round to the nearest "friendly" number (whole tens, easy squares).
+- √63.8 ≈ √64 = 8. (24.9)² ≈ 25² = 625.
+- Approximation is valid **only when options are far apart**. If options are close (like 100, 102, 104), calculate properly.
+
+---
+
+## 8. The Classic Exam Patterns
+
+**Pattern 1 — Mixed BODMAS:**
+$$48 \div 8 \times 3 + 12 - 5 = 6 \times 3 + 12 - 5 = 18 + 12 - 5 = \mathbf{25}$$
+
+**Pattern 2 — Find the missing number:**
+$$\frac{?}{15} = \frac{24}{45} \implies ? = \frac{24 \times 15}{45} = \mathbf{8}$$
+
+**Pattern 3 — Decimal operations:**
+$$0.4 \times 0.04 \times 0.004 = 0.000064$$
+(Count total decimal places: 1 + 2 + 3 = 6 places.)
+
+**Pattern 4 — Continued fractions:** solve from the **bottom up**.
+
+---
+
+## Summary Table
+
+| Concept | Key Rule | One-line Reminder |
+|---|---|---|
+| BODMAS | Brackets → Orders → D/M → A/S | "Big Oxen Drink Milk And Sleep" |
+| Brackets | Bar → ( ) → { } → [ ] | Peel the onion, inside out |
+| "Of" | Solve before ÷ and × | "Of" is a hidden multiplication VIP |
+| D/M and A/S | Equal rank, go left to right | The queue moves leftward |
+| Fractions ↔ % | Memorise 1/2 to 1/8 table | 37.5% = 3/8 instantly |
+| Indices | $a^m \cdot a^n = a^{m+n}$; $a^0 = 1$ | Same base? Add or subtract powers |
+| Surds | Pull out perfect squares | √72 = 6√2 |
+| Squares ending in 5 | n × (n+1), attach 25 | 65² = 4225 |
+| Approximation | Round, then check option gaps | Far options = estimate freely |
+
+---
+
+## Your Action Plan 🎯
+
+1. **Today:** Memorise the fraction-percentage table and squares up to 20.
+2. **Tomorrow:** Solve 20 BODMAS questions, timing each one.
+3. **This week:** Master the "of" trap and approximation.
+
+⏰ **Review this chapter after 2 days.** Close the book and write down BODMAS, the bracket order, and five fraction-percentage conversions from memory. What you can't recall is exactly what the exam will ask.
+
+Simplification isn't about being a maths genius. It's about respecting the queue, knowing your tables, and refusing the examiner's traps. You've got this. 💪

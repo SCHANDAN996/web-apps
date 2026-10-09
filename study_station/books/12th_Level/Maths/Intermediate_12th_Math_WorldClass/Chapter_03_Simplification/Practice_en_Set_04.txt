@@ -1,0 +1,149 @@
+76. Simplify: 48 ÷ 8 × 3 + 12 − 6
+(a) 18 (b) 24 (c) 30 (d) 12
+Answer: (b)
+Solution: The trap is doing 8 × 3 first and getting 48 ÷ 24 = 2, which wrongly treats multiplication as prior to division. By BODMAS, division and multiplication go left to right: 48 ÷ 8 = 6, then 6 × 3 = 18. Then 18 + 12 − 6 = 24, so the answer is 24.
+Source: NCERT Class 7 Mathematics
+
+77. Simplify: 15% of 240 + 25% of 160
+(a) 72 (b) 76 (c) 80 (d) 68
+Answer: (b)
+Solution: The tempting error is adding the percentages first (40% of 400 = 160), which mixes the bases. Compute separately: 15% of 240 = 36 and 25% of 160 = 40. Then 36 + 40 = 76, so the answer is 76.
+Source: NCERT Class 8 Mathematics
+
+78. Simplify: (3/5) of (7/9) of 450
+(a) 200 (b) 190 (c) 220 (d) 210
+Answer: (d)
+Solution: The trap is multiplying 3/5 × 450 = 270 and stopping, forgetting the second fraction. Correctly: (3/5) × (7/9) = 21/45 = 7/15, and 7/15 × 450 = 210, so the answer is 210.
+Source: NCERT Class 7 Mathematics
+
+79. Simplify: 0.6 × 0.5 + 0.04 ÷ 0.2
+(a) 0.62 (b) 0.32 (c) 0.5 (d) 0.26
+Answer: (c)
+Solution: The trap is computing left to right as (0.3 + 0.04) ÷ 0.2 = 1.7, ignoring operation order. By BODMAS: 0.6 × 0.5 = 0.30 and 0.04 ÷ 0.2 = 0.2, then 0.30 + 0.2 = 0.5, so the answer is 0.5.
+Source: NCERT Class 7 Mathematics
+
+80. Simplify: √144 + √81 − √25
+(a) 18 (b) 14 (c) 16 (d) 12
+Answer: (c)
+Solution: The trap is combining roots first as √(144 + 81 − 25) = √200, which is invalid since roots do not add like that. Individually: √144 = 12, √81 = 9, √25 = 5, so 12 + 9 − 5 = 16, so the answer is 16.
+Source: NCERT Class 8 Mathematics
+
+81. Simplify: 2/3 + 3/4 − 5/6
+(a) 2/3 (b) 5/12 (c) 1/2 (d) 7/12
+Answer: (d)
+Solution: The trap is adding numerators and denominators directly, giving 0/13 style nonsense or a wrong common base. LCM of 3, 4, 6 is 12: 8/12 + 9/12 − 10/12 = 7/12, so the answer is 7/12.
+Source: NCERT Class 7 Mathematics
+
+82. Simplify: 125 × 8 + 250 × 4 − 500
+(a) 1000 (b) 2000 (c) 1500 (d) 2500
+Answer: (c)
+Solution: The trap is adding everything first: 125 × (8 + 250) × 4 type grouping gives absurd values. Correctly: 125 × 8 = 1000, 250 × 4 = 1000, then 1000 + 1000 − 500 = 1500, so the answer is 1500.
+Source: NCERT Class 7 Mathematics
+
+83. Simplify: (17² − 8²) ÷ 9
+(a) 25 (b) 27 (c) 23 (d) 29
+Answer: (a)
+Solution: The trap is computing 17² − 8² = 289 − 64 = 225 and then misdividing, or wrongly writing (17 − 8)² = 81. Use a² − b² = (a+b)(a−b) = 25 × 9 = 225, then 225 ÷ 9 = 25, so the answer is 25.
+Source: NCERT Class 8 Mathematics
+
+84. Simplify: 36% of 450 − 12% of 250
+(a) 142 (b) 132 (c) 122 (d) 152
+Answer: (b)
+Solution: The trap is subtracting percentages first (24% of 200 = 48), which mixes different bases. Compute: 36% of 450 = 162 and 12% of 250 = 30, then 162 − 30 = 132, so the answer is 132.
+Source: NCERT Class 8 Mathematics
+
+85. Simplify: 7.5 × 4 + 12.5 × 8
+(a) 110 (b) 120 (c) 140 (d) 130
+Answer: (d)
+Solution: The trap is adding 7.5 + 4 and 12.5 + 8 first, treating it as bracketed sums. Multiplication comes first: 7.5 × 4 = 30 and 12.5 × 8 = 100, then 30 + 100 = 130, so the answer is 130.
+Source: NCERT Class 7 Mathematics
+
+86. Simplify: 5/8 of 96 + 3/4 of 48
+(a) 90 (b) 84 (c) 96 (d) 102
+Answer: (c)
+Solution: The trap is adding the fractions first (5/8 + 3/4 = 11/8) and applying to one number. Separately: 5/8 × 96 = 60 and 3/4 × 48 = 36, then 60 + 36 = 96, so the answer is 96.
+Source: NCERT Class 7 Mathematics
+
+87. Simplify: 1000 ÷ 25 ÷ 4 + 15
+(a) 20 (b) 25 (c) 30 (d) 15
+Answer: (b)
+Solution: The trap is computing 25 ÷ 4 first or adding 15 before dividing. Division goes left to right: 1000 ÷ 25 = 40, then 40 ÷ 4 = 10, then 10 + 15 = 25, so the answer is 25.
+Source: NCERT Class 7 Mathematics
+
+88. Simplify: (0.8)² + (0.6)²
+(a) 1.00 (b) 0.98 (c) 1.04 (d) 0.96
+Answer: (a)
+Solution: The trap is writing (0.8 + 0.6)² = 1.96, squaring the sum instead of summing the squares. Correctly: 0.64 + 0.36 = 1.00, so the answer is 1.00.
+Source: NCERT Class 8 Mathematics
+
+89. Simplify: 45 × 12 − 45 × 2
+(a) 500 (b) 540 (c) 400 (d) 450
+Answer: (d)
+Solution: The trap is computing 45 × 12 = 540 and forgetting to subtract fully, or subtracting only 2. Use the distributive property: 45 × (12 − 2) = 45 × 10 = 450, so the answer is 450.
+Source: NCERT Class 7 Mathematics
+
+90. Simplify: 3³ + 4² − 2⁴
+(a) 27 (b) 31 (c) 23 (d) 35
+Answer: (a)
+Solution: The trap is treating 3³ as 9 (multiplying 3 × 3) instead of 27. Correctly: 3³ = 27, 4² = 16, 2⁴ = 16, so 27 + 16 − 16 = 27, so the answer is 27.
+Source: NCERT Class 8 Mathematics
+
+91. Simplify: ⅔ of ⅗ of 900
+(a) 400 (b) 320 (c) 360 (d) 380
+Answer: (c)
+Solution: The trap is applying only one fraction: ⅔ × 900 = 600 and stopping. Multiply the fractions: (2/3) × (3/5) = 6/15 = 2/5, and 2/5 × 900 = 360, so the answer is 360.
+Source: NCERT Class 7 Mathematics
+
+92. Simplify: 18% of 350 + 22% of 350
+(a) 120 (b) 130 (c) 150 (d) 140
+Answer: (d)
+Solution: The trap is computing each and making a place-value slip, e.g. 18% of 350 = 6.3. Since the base is the same, add percentages: 40% of 350 = 140, so the answer is 140.
+Source: NCERT Class 8 Mathematics
+
+93. Simplify: 729 ÷ 27 × 3 − 9
+(a) 81 (b) 72 (c) 63 (d) 90
+Answer: (b)
+Solution: The trap is computing 27 × 3 = 81 first, giving 729 ÷ 81 = 9, then 9 − 9 = 0. Division and multiplication go left to right: 729 ÷ 27 = 27, then 27 × 3 = 81, then 81 − 9 = 72, so the answer is 72.
+Source: NCERT Class 7 Mathematics
+
+94. Simplify: 1.25 × 16 + 2.5 × 8
+(a) 40 (b) 36 (c) 44 (d) 32
+Answer: (a)
+Solution: The trap is adding 1.25 + 16 and 2.5 + 8 before multiplying. Multiplication first: 1.25 × 16 = 20 and 2.5 × 8 = 20, then 20 + 20 = 40, so the answer is 40.
+Source: NCERT Class 7 Mathematics
+
+95. Simplify: (5/6 − 1/3) × 24
+(a) 12 (b) 10 (c) 14 (d) 8
+Answer: (a)
+Solution: The trap is distributing wrongly as 5/6 × 24 − 1/3 = 20 − 0.33. Inside the bracket: 5/6 − 2/6 = 3/6 = 1/2, and 1/2 × 24 = 12, so the answer is 12.
+Source: NCERT Class 7 Mathematics
+
+96. Simplify: 64% of 275 + 36% of 275
+(a) 225 (b) 250 (c) 300 (d) 275
+Answer: (d)
+Solution: The trap is computing each part separately and making arithmetic slips like 64% of 275 = 170. Since the base is identical, 64% + 36% = 100%, and 100% of 275 = 275, so the answer is 275.
+Source: NCERT Class 8 Mathematics
+
+97. Simplify: √625 × √16 ÷ 10
+(a) 10 (b) 12 (c) 8 (d) 14
+Answer: (a)
+Solution: The trap is writing √(625 × 16) ÷ 10 = 100 ÷ 10 = 10 by luck, but with wrong method slips occur; do it stepwise. √625 = 25 and √16 = 4, so 25 × 4 = 100, then 100 ÷ 10 = 10, so the answer is 10.
+Source: NCERT Class 8 Mathematics
+
+98. Simplify: 840 ÷ 12 + 15 × 6 − 40
+(a) 120 (b) 130 (c) 110 (d) 140
+Answer: (a)
+Solution: The trap is working strictly left to right: 70 + 15 = 85, × 6 = 510, − 40 = 470. By BODMAS: 840 ÷ 12 = 70 and 15 × 6 = 90, then 70 + 90 − 40 = 120, so the answer is 120.
+Source: NCERT Class 7 Mathematics
+
+99. Simplify: 13² − 5² + 12
+(a) 144 (b) 156 (c) 168 (d) 132
+Answer: (b)
+Solution: The trap is writing (13 − 5)² = 64 and adding 12 to get 76. Correctly: 169 − 25 = 144, then 144 + 12 = 156, so the answer is 156.
+Source: NCERT Class 8 Mathematics
+
+100. Simplify: 2.4 × 25 + 1.6 × 25
+(a) 110 (b) 90 (c) 100 (d) 80
+Answer: (c)
+Solution: The trap is computing 2.4 × 25 = 60 and 1.6 × 25 = 40 but mis-adding as 90 or 110. Factor out 25: (2.4 + 1.6) × 25 = 4 × 25 = 100, so the answer is 100.
+Source: NCERT Class 7 Mathematics
