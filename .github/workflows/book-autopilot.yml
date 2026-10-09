@@ -87,7 +87,7 @@ jobs:
           git config user.name "study-station-book-autopilot"
           git config user.email "211449723+SCHANDAN996@users.noreply.github.com"
           mkdir -p ../books/autopilot
-          python tools/book_autopilot.py --workers 5 --reverse --only ${{ matrix.books }} \
+          python tools/book_autopilot.py --workers 8 --reverse --only ${{ matrix.books }} \
             --name "${{ matrix.lane }}" --status-file "${{ matrix.status }}" \
             --branch "$BOOKS_BRANCH" --state-dir "$RUNNER_TEMP/autopilot" --stop-new-after 240
       - name: Pack unfinished work
