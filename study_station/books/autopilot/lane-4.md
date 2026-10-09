@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 05:33 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 05:42 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Economy Basic (12th GK) | ✍️ लिख रहा है | 4 मिनट |
-| W2 | Chapter 08 World Geography (12th GK) | 🔎 review हो रहा है | 21 मिनट |
-| W3 | Chapter 10 Physics Daily (12th GK) | ✍️ लिख रहा है | 103 मिनट |
-| W4 | Chapter 11 Chemistry (12th GK) | ✍️ लिख रहा है | 51 मिनट |
-| W5 | Chapter 07 States Rivers (12th GK) | 🔎 review हो रहा है | 14 मिनट |
+| W1 | Chapter 09 Economy Basic (12th GK) | 🔎 review हो रहा है | 4 मिनट |
+| W2 | Chapter 08 World Geography (12th GK) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 10 Physics Daily (12th GK) | ✍️ लिख रहा है | 112 मिनट |
+| W4 | Chapter 11 Chemistry (12th GK) | ✍️ लिख रहा है | 60 मिनट |
+| W5 | Chapter 07 States Rivers (12th GK) | 🔎 review हो रहा है | 23 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -23,17 +23,18 @@
 | 10th Maths | 9 | 13 | 0 |
 | 10th English | 0 | 0 | 20 |
 | 12th Maths | 0 | 0 | 23 |
-| 12th GK | 7 | 0 | 17 |
+| 12th GK | 8 | 0 | 16 |
 | 12th Reasoning | 0 | 0 | 25 |
 | 12th English | 14 | 0 | 11 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 7 | 0 | 21 |
 | Graduation Reasoning | 0 | 0 | 30 |
 | Graduation English | 28 | 0 | 2 |
-| **कुल** | **106** | **13** | **177** |
+| **कुल** | **107** | **13** | **176** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 05:42 — 12th GK · Chapter 08 World Geography
 - 09-10 04:41 — 12th GK · Chapter 06 Physical Geography
 - 09-10 03:50 — 12th GK · Chapter 05 Polity
 - 09-10 03:39 — 12th GK · Chapter 02 Medieval History
@@ -48,17 +49,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 05:11:07   [World_Geography] repaired Flashcards_hi.txt (2443 chars)
-09-10 05:11:16   [Economy_Basic] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 05:11:44   [Chemistry] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-09-10 05:12:11   [World_Geography] repaired PYQ_hi.txt (3479 chars)
-09-10 05:12:11   [World_Geography] written 2, failed 0; AI calls today 244/100000
-09-10 05:13:05   [Physics_Daily] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-09-10 05:13:18   [States_Rivers] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-09-10 05:14:43   [World_Geography] review Content_en.txt: 1 issue(s): - Mount Everest height given as 8,849 m in the "Mountains" section and High-Yield Facts Table, but the 2020 revisio
-09-10 05:14:52   [Economy_Basic] Practice_en_Set_05.txt try 1: re-solve disagrees (Q121 key b vs re-solve d)
-09-10 05:15:15   [Economy_Basic] Practice_en_Set_05.txt try 2: rejected (parsed 0 questions, numbers -…-)
-09-10 05:15:31   [Chemistry] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 09-10 05:15:35   [Physics_Daily] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 09-10 05:16:51   [States_Rivers] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 09-10 05:16:51   [States_Rivers] written 3, failed 0; AI calls today 256/100000
@@ -88,4 +78,15 @@
 09-10 05:30:20   [Economy_Basic] wrote Feynman_hi.txt (2810 chars)
 09-10 05:33:07   [Chemistry] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 09-10 05:33:42   [States_Rivers] review Key_Facts_hi.txt: 2 issue(s): - 'रन ऑफ कच्छ' (स्पेलिंग) → 'रण ऑफ कच्छ'
+09-10 05:34:36   [Economy_Basic] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+09-10 05:36:51   [States_Rivers] review Feynman_en.txt: 1 issue(s): - The water divide between east- and west-flowing peninsular rivers is the Western Ghats, not the Vindhya–Satpura r
+09-10 05:37:17   [Chemistry] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 05:37:41   [World_Geography] review PYQ_en.txt: 1 issue(s): - Q1 answer claims Sahara is the world's largest desert → The Antarctic Desert is larger; the question should specify '
+09-10 05:38:20   [Economy_Basic] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 05:38:20   [Economy_Basic] written 3, failed 0; AI calls today 301/100000
+09-10 05:39:42   [World_Geography] review Memory_Hooks_en.txt: 1 issue(s): - Box 1 mnemonic "Aunt Annie Ate A Nasty Egg Sandwich" does not match the continent list (fifth word "Nasty" s
+09-10 05:40:20   [Chemistry] Practice_en_Set_06.txt try 1: re-solve disagrees (Q127 key a vs re-solve d)
+09-10 05:41:14   [Physics_Daily] FAILED Practice_hi_Set_05.txt: too_long
+09-10 05:42:36   [World_Geography] review: 6 section(s) corrected, 0 failed
+09-10 05:42:36   [World_Geography] written 6, failed 0; AI calls today 311/100000
 ```
