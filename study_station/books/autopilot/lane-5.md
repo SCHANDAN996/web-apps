@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 09-10-2026 09:47 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
+**आख़िरी update:** 09-10-2026 10:01 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W4 | Chapter 16 Algebra (10th Maths) | 📤 push हो रहा है | 0 मिनट |
-| W5 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 23 मिनट |
+| W5 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 37 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -19,15 +18,15 @@
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 15 | 7 | 0 |
 | 10th English | 16 | 3 | 1 |
-| 12th Maths | 8 | 0 | 15 |
+| 12th Maths | 9 | 0 | 14 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 6 | 0 | 19 |
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 1 | 0 | 27 |
 | Graduation GK | 27 | 0 | 1 |
-| Graduation Reasoning | 8 | 0 | 22 |
+| Graduation Reasoning | 9 | 0 | 21 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **198** | **10** | **88** |
+| **कुल** | **200** | **10** | **86** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -59,10 +58,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 21:05:53   [Time_Work] review Feynman_en.txt: 1 issue(s): - The statement “Efficiency Ratio : Time Ratio = 1:2 :: 2:1?” is mathematically incorrect → The correct relationshi
-09-10 21:07:14   [Sentence_Improvement_Basic] review: 3 section(s) corrected, 0 failed
-09-10 21:07:14   [Sentence_Improvement_Basic] written 3, failed 0; AI calls today 853/100000
-09-10 21:07:34 DONE 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_20_Sentence_Improvement_Basic in 36 min → 011ff48b
 09-10 21:07:34 worker 2: nothing left
 09-10 21:08:30   [Geometry] review PYQ_hi.txt: 7 issue(s): - Introductory paragraph claims specific percentage weightages (35%, 25%, 20%, 20%) for geometry topics without any sou
 09-10 21:10:28   [Mensuration] review Mind_Map.txt: 1 issue(s): - Rectangle perimeter formula written as "2 × l+b" missing parentheses → should be "2(l+b)" or "2 × (l+b)"
@@ -99,4 +94,8 @@
 09-10 21:40:54   [Algebra] review PYQ_hi.txt: 3 issue(s): - "मात्रात्मक योग्यता खंड का 25% हिस्सा बीजगणित का होता है" → "Remove or cite official source; this weightage is invent
 09-10 21:47:46   [Algebra] review: 6 section(s) corrected, 0 failed
 09-10 21:47:46   [Algebra] written 6, failed 0; AI calls today 905/100000
+09-10 21:48:02 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_16_Algebra in 91 min → 798afbf9
+09-10 21:48:02 worker 3: nothing left
+09-10 21:48:05   [Mixture_Alligation] repaired set 01 (en + hi, key confirmed by an independent re-solve)
+09-10 21:52:25   [Mixture_Alligation] set 05 try 1: rejected (Q123:leaked_reasoning)
 ```
