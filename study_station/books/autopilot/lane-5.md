@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 09-10-2026 09:31 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
+**आख़िरी update:** 09-10-2026 09:39 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Time Work (10th Maths) | 🔎 review हो रहा है | 46 मिनट |
-| W4 | Chapter 16 Algebra (10th Maths) | 🔎 review हो रहा है | 19 मिनट |
-| W5 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 7 मिनट |
+| W1 | Chapter 11 Time Work (10th Maths) | 📤 push हो रहा है | 0 मिनट |
+| W4 | Chapter 16 Algebra (10th Maths) | 🔎 review हो रहा है | 27 मिनट |
+| W5 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 15 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -32,6 +32,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 21:39 — 10th Maths · Chapter 11 Time Work
 - 09-10 21:28 — 10th Maths · Chapter 14 Mensuration
 - 09-10 21:07 — 10th English · Chapter 20 Sentence Improvement Basic
 - 09-10 21:03 — 10th Maths · Chapter 12 Time Distance
@@ -46,7 +47,6 @@
 - 09-10 17:39 — 10th English · Chapter 08 Conjunction
 - 09-10 17:30 — 10th English · Chapter 11 Narration
 - 09-10 17:18 — 10th English · Chapter 09 Articles
-- 09-10 17:11 — 10th English · Chapter 10 Voice
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
@@ -60,13 +60,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 20:58:12   [Mixture_Alligation] Practice_hi_Set_05.txt try 4: rejected (parsed 24 questions, numbers 101…125)
-09-10 20:58:12   [Mixture_Alligation] REJECTED Practice_hi_Set_05.txt: no translation passed the checks — not written
-09-10 20:58:12   [Mixture_Alligation] FAILED set 05: Hindi translation rejected — files left as they were
-09-10 21:00:11   [Mensuration] review Content_hi.txt: 4 issue(s): - "परिमाप ऐसे है जैसे" → "परिमाप ऐसा है जैसे" (विषय 'परिमाप' पुल्लिंग एकवचन है, इसलिए विशेषण 'ऐसा' आएगा)
-09-10 21:01:34   [Sentence_Improvement_Basic] review PYQ_hi.txt: 1 issue(s): - Question 1 is an invalid sentence improvement item: the grammatical error (wrong tense “is working” should be “has be
-09-10 21:02:18   [Time_Distance] review Short_Tricks_en.txt: 1 issue(s): - "Here are 12 outrageously memorable mnemonics" claims 12 items, but the section lists 14 numbered mnemonics 
-09-10 21:02:46   [Geometry] review PYQ_en.txt: 1 issue(s): - Q10 solution incorrectly states the sphere volume coefficient as (4/3)*(1/(4π)) ≈ 0.094 → correct coefficient is 1/(6
 09-10 21:03:44   [Time_Distance] review: 3 section(s) corrected, 0 failed
 09-10 21:03:44   [Time_Distance] written 3, failed 0; AI calls today 846/100000
 09-10 21:03:59 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_12_Time_Distance in 95 min → c44bc82f
@@ -100,4 +93,11 @@
 09-10 21:30:38   [Geometry] written 4, failed 1; AI calls today 890/100000
 09-10 21:30:38 NOT OK 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_15_Geometry after 99 min: todo [] problems []
 09-10 21:30:38 worker 7: nothing left
+09-10 21:32:10   [Mixture_Alligation] set 01 try 1: re-solve disagrees (Q1 key c vs re-solve d, Q7 key b vs re-solve a)
+09-10 21:33:31   [Time_Work] review Short_Tricks_en.txt: 1 issue(s): - In mnemonic 5, the text says "Here, E (Efficiency) and T (Time) are the same." → Efficiency and Time are inv
+09-10 21:36:29   [Algebra] review PYQ_en.txt: 1 issue(s): - The introductory statistics (25% Algebra weightage, sub-topic percentages 35%/30%/25%, average time 45‑60 seconds) ar
+09-10 21:38:50   [Time_Work] review Short_Tricks_hi.txt: 1 issue(s): - In point 10, the statement 'घूर्णन तेज़ हुआ, समय कम नहीं' incorrectly says time does not decrease when speed
+09-10 21:39:08   [Mixture_Alligation] set 01 try 2: re-solve disagrees (Q1 key c vs re-solve d, Q7 key a vs re-solve b)
+09-10 21:39:50   [Time_Work] review: 6 section(s) corrected, 0 failed
+09-10 21:39:50   [Time_Work] written 6, failed 0; AI calls today 899/100000
 ```

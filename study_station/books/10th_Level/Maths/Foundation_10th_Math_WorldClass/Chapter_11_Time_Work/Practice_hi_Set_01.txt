@@ -1,306 +1,151 @@
-📝 Practice MCQs: Time & Work — Set 6 (Q126–Q150)
-
-Q126. A and B can do a piece of work in 12 days and 15 days respectively. They work together for 4 days, then A leaves. B works for 4 more days and then B also leaves. C alone completes the remaining work in 2 days. In how many days can C alone do the whole work?
-(a) 12 days (b) 15 days (c) 20 days (d) 24 days
-
-Answer: (b) 15 days
-
-Solution:
-Total work = LCM(12, 15) = 60 units. A eff = 5, B eff = 4.
-First 4 days (A+B): (5+4)×4 = 36. Remaining = 24.
-Next 4 days (B alone): 4×4 = 16. Remaining = 8.
-C does 8 units in 2 days → C eff = 4.
-C's time = 60/4 = 15 days.
-Source: SSC CPO PYQ
-
-Q127. A is 20% more efficient than B, and B is 25% more efficient than C. C alone can do a work in 40 days. They all start together, but after 3 days A leaves, and after another 3 days B also leaves. In how many total days will the work be completed?
-(a) 26 days (b) 28 days (c) 30 days (d) 32 days
-
-Answer: (b) 28 days
-
-Solution:
-Efficiency ratio: A:B = 120:100 = 6:5, B:C = 125:100 = 5:4 → A:B:C = 6:5:4.
-C's eff = 4, so total work = 4 × 40 = 160 units. A=6, B=5.
-First 3 days (all): (6+5+4)×3 = 45. Remaining = 115.
-Next 3 days (B+C): (5+4)×3 = 27. Remaining = 88.
-C alone: 88/4 = 22 days. Total = 3+3+22 = 28 days.
-Source: SSC CGL PYQ
-
-Q128. A certain number of men can complete a piece of work in 60 days. If there were 8 more men, the work could be finished in 10 days less. How many men were originally there?
-(a) 32 (b) 36 (c) 40 (d) 44
-
-Answer: (c) 40
-
-Solution:
-Let original men = M. Work = 60M.
-With M+8 men, time = 50 days, work = 50(M+8).
-Equate: 60M = 50(M+8) → 60M = 50M + 400 → 10M = 400 → M = 40.
-Source: SSC CGL PYQ
-
-Q129. The efficiency ratio of A, B and C is 3 : 2 : 1. They undertake a work for ₹2800. A works for the entire duration, B works for 2/3 of the duration, and C works for 1/3 of the duration. What is A's share?
-(a) ₹1500 (b) ₹1800 (c) ₹2000 (d) ₹2100
-
-Answer: (b) ₹1800
-
-Solution:
-Let total duration = T days. Work done: A = 3T, B = 2 × (2T/3) = 4T/3, C = 1 × (T/3) = T/3.
-Work ratio = 3T : 4T/3 : T/3 = 9 : 4 : 1. Total parts = 14.
-A's share = (9/14) × 2800 = ₹1800.
-Source: SSC CGL PYQ
-
-Q130. Pipe A can fill a tank in 8 hours, pipe B in 12 hours. A leak C can empty half the tank in 6 hours. If A and B are opened for 2 hours, then C is also opened. In how many total hours will the tank be full?
-(a) 5⅓ hrs (b) 6 hrs (c) 6⅔ hrs (d) 7½ hrs
-
-Answer: (c) 6⅔ hrs
-
-Solution:
-A's rate = 1/8, B's = 1/12. Combined fill = 1/8 + 1/12 = 5/24 tank/hr.
-In 2 hours, filled = 5/24 × 2 = 5/12 tank. Remaining = 7/12.
-Leak C empties half in 6 hrs → full empty rate = 1/12 per hr.
-Net rate when all three open = 5/24 – 1/12 = 3/24 = 1/8 tank/hr.
-Time to fill remaining 7/12 = (7/12) / (1/8) = 56/12 = 14/3 hrs = 4⅔ hrs.
-Total time = 2 + 4⅔ = 6⅔ hrs.
-Source: SSC CGL PYQ
-
-Q131. 3 men, 2 women and 1 boy can complete a work in 10 days. 2 men, 3 women and 1 boy can complete it in 12 days. 1 man, 2 women and 3 boys can complete it in 15 days. In how many days will 1 man, 1 woman and 1 boy together complete the work?
-(a) 20 days (b) 22 days (c) 24 days (d) 26 days
-
-Answer: (c) 24 days
-
-Solution:
-Total work = LCM(10,12,15) = 60 units.
-(3M+2W+1B) × 10 = 60 → 3M+2W+B = 6 …(i)
-(2M+3W+1B) × 12 = 60 → 2M+3W+B = 5 …(ii)
-(1M+2W+3B) × 15 = 60 → M+2W+3B = 4 …(iii)
-Subtract (ii) from (i): M – W = 1 → M = W+1.
-Subtract (iii) from (ii): M + W – 2B = 1 → (W+1)+W –2B = 1 → 2W –2B = 0 → W = B.
-Put W = B and M = B+1 into (i): 3(B+1)+2B+B = 6 → 3B+3+3B = 6 → 6B = 3 → B=0.5, W=0.5, M=1.5.
-1M+1W+1B = 2.5 units/day. Time = 60/2.5 = 24 days.
-Source: SSC CGL PYQ
-
-Q132. A, B and C can complete a work in 12, 15 and 20 days respectively. They all start together. After 1 day, A leaves. B and C work for 3 more days and then B leaves. In how many total days will the remaining work be completed?
-(a) 12 days (b) 13 days (c) 14 days (d) 15 days
-
-Answer: (b) 13 days
-
-Solution:
-Total work = LCM(12,15,20) = 60 units. Eff: A=5, B=4, C=3.
-Day 1 (all): 5+4+3 = 12. Remaining = 48.
-Next 3 days (B+C): (4+3)×3 = 21. Remaining = 27.
-C alone: 27/3 = 9 days. Total days = 1+3+9 = 13 days.
-Source: SSC CHSL PYQ
-
-Q133. A and B together can do a work in 12 days, B and C in 15 days, C and A in 20 days. They work in a cycle: A alone on first day, B alone on second day, C alone on third day, and then repeating. In how many days will the work be finished?
-(a) 27 days (b) 30 days (c) 33 days (d) 36 days
-
-Answer: (b) 30 days
-
-Solution:
-2(A+B+C) = 1/12+1/15+1/20 = (5+4+3)/60 = 12/60 = 1/5 → A+B+C = 1/10.
-Individual rates: A = 1/10 – 1/15 = 1/30, B = 1/10 – 1/20 = 1/20, C = 1/10 – 1/12 = 1/60.
-Total work = 60 units. A=2, B=3, C=1.
-3-day cycle = 2+3+1 = 6 units. 10 cycles (30 days) = 60 units exactly.
-Source: SSC CPO PYQ
-
-Q134. A and B can do a piece of work in 24 days and 30 days respectively. They start working together. After some days, A leaves. B works alone for 1 day, then C joins B and they complete the remaining work in 5 days. If C alone takes 40 days to do the work, after how many days from the start did A leave?
-(a) 7 days (b) 8 days (c) 9 days (d) 10 days
-
-Answer: (c) 9 days
-
-Solution:
-Total work = LCM(24,30,40) = 120 units. A=5, B=4, C=3.
-Let A worked for x days together with B. Work done together = (5+4)x = 9x.
-B alone 1 day = 4. B+C for 5 days = (4+3)×5 = 35.
-Total work equation: 9x + 4 + 35 = 120 → 9x = 81 → x = 9 days.
-Source: SSC CGL PYQ
-
-Q135. A is 20% more efficient than B. B is 25% more efficient than C. Working together they can finish a work in 15 days. In how many days will A and C together finish the work?
-(a) 20 days (b) 21½ days (c) 22½ days (d) 24 days
-
-Answer: (c) 22½ days
-
-Solution:
-Efficiency A:B = 120:100 = 6:5, B:C = 125:100 = 5:4 → A:B:C = 6:5:4.
-Combined eff = 15. Total work = 15 × 15 = 225 units.
-A+C eff = 6+4 = 10. Time = 225/10 = 22.5 days.
-Source: SSC CGL PYQ
-
-Q136. A certain number of men can complete a piece of work in some days. If 2 men leave, the work takes 8 more days to complete. If 4 men join, the work is completed 4 days earlier. How many men are there initially?
-(a) 3 (b) 4 (c) 5 (d) 6
-
-Answer: (b) 4
-
-Solution:
-Let initial men = M, initial days = D. Work = MD.
-Case 1: (M–2)(D+8) = MD → –2D + 8M – 16 = 0 → 8M – 2D = 16 → 4M – D = 8.
-Case 2: (M+4)(D–4) = MD → 4D – 4M – 16 = 0 → –M + D = 4 → D = M + 4.
-Substitute: 4M – (M+4) = 8 → 3M = 12 → M = 4.
-Source: SSC CGL PYQ
-
-Q137. A, B and C can do a work in 10, 15 and 20 days respectively. They all start together. After 2 days A leaves. B and C continue for 3 more days, then B leaves and C finishes the work. If total wages for the work is ₹2100, what is B's share?
-(a) ₹500 (b) ₹600 (c) ₹700 (d) ₹800
-
-Answer: (c) ₹700
-
-Solution:
-Total work = LCM(10,15,20) = 60 units. A=6, B=4, C=3.
-First 2 days (all): (6+4+3)×2 = 26. Remaining = 34.
-Next 3 days (B+C): (4+3)×3 = 21. Remaining = 13.
-C alone: 13/3 days. B worked total 2+3 = 5 days, work = 4×5 = 20 units.
-C worked 2+3+13/3 = 28/3 days, work = 3×(28/3) = 28 units. A worked 2 days = 12 units.
-Ratio A:B:C = 12:20:28 = 3:5:7. B's share = (5/15)×2100 = ₹700.
-Source: SSC CGL PYQ
-
-Q138. A and B can do a work in 12 days and 15 days respectively. They work together for 4 days, then A leaves. B works alone for 4 days, then A rejoins and they complete the work. For how many days did A work in total?
-(a) 4⅔ days (b) 4⁸⁄₉ days (c) 5⅓ days (d) 5⁵⁄₉ days
-
-Answer: (b) 4⁸⁄₉ days
-
-Solution:
-Total work = LCM(12,15) = 60 units. A=5, B=4.
-First 4 days (A+B): (5+4)×4 = 36. Remaining = 24.
-Next 4 days (B alone): 4×4 = 16. Remaining = 8.
-A rejoins: (A+B) eff = 9, time = 8/9 days.
-A worked = 4 + 8/9 = 4⁸⁄₉ days.
-Source: SSC CHSL PYQ
-
-Q139. Pipes A, B and C can fill a tank in 6 hours, 8 hours and 12 hours respectively. They are opened simultaneously. After 2 hours, B is closed. After another 1 hour, C is also closed. In how many total hours is the tank filled?
-(a) 2½ hrs (b) 3 hrs (c) 3⅓ hrs (d) 4 hrs
-
-Answer: (b) 3 hrs
-
-Solution:
-Rates: A=1/6, B=1/8, C=1/12. Combined first 2 hrs = (1/6+1/8+1/12) = (4+3+2)/24 = 9/24 = 3/8 tank/hr.
-In 2 hrs: 2 × 3/8 = 6/8 = 3/4 tank. Remaining = 1/4.
-Next 1 hr (A+C): rate = 1/6+1/12 = 3/12 = 1/4 tank/hr. Fills exactly 1/4. Tank full in 2+1=3 hrs.
-Source: SSC CGL PYQ
-
-Q140. A and B can do a work in 12 days and 15 days respectively. They work on alternate days, starting with A. After some days, B leaves, and the remaining work is finished by A alone in 3 days. For how many days did they work alternately before B left?
-(a) 8 days (b) 10 days (c) 12 days (d) 14 days
-
-Answer: (b) 10 days
-
-Solution:
-Total work = LCM(12,15) = 60 units. A=5, B=4.
-Alternate days starting A: 2‑day cycle = 5+4 = 9 units.
-Let k cycles (2k days) of alternate work, then A alone 3 days.
-Work done = 9k + 5×3 = 9k+15 = 60 → 9k = 45 → k = 5 cycles.
-Days of alternate work = 2×5 = 10 days.
-Source: SSC CGL PYQ
-
-Q141. A is 25% less efficient than B. C is 20% more efficient than A. Together they can complete a work in 10 days. In how many days will B alone complete the work?
-(a) 25 days (b) 26½ days (c) 28 days (d) 30 days
-
-Answer: (b) 26½ days
-
-Solution:
-A = 0.75 B, C = 1.2 A = 1.2 × 0.75 B = 0.9 B.
-Efficiency ratio A:B:C = 0.75:1:0.9 = 15:20:18. Combined = 53.
-Total work = 53 × 10 = 530. B's time = 530/20 = 26.5 days.
-Source: SSC CGL PYQ
-
-Q142. A and B together can do a piece of work in 12 days. A alone can do it in 24 days. They start together for 4 days, then B leaves. A works alone for 4 days, then C joins A and they finish the remaining work in 6 days. In how many days can C alone do the work?
-(a) 20 days (b) 24 days (c) 28 days (d) 30 days
-
-Answer: (b) 24 days
-
-Solution:
-Work = LCM(12,24) = 24 units. A+B = 2, A=1 → B=1.
-First 4 days (A+B): 2×4 = 8, remaining 16.
-Next 4 days (A alone): 1×4 = 4, remaining 12.
-A+C 6 days: eff = 12/6 = 2. Since A=1, C=1.
-C alone time = 24/1 = 24 days.
-Source: SSC CHSL PYQ
-
-Q143. The efficiency ratio of A and B is 5:4. Together they can complete 2/3 of a work in 8 days. In how many days will A alone complete the full work?
-(a) 20 days (b) 21⅗ days (c) 24 days (d) 25 days
-
-Answer: (b) 21⅗ days
-
-Solution:
-Combined eff = 5+4 = 9. In 8 days, work done = 9×8 = 72 = 2/3 of total.
-Total work = 72 × (3/2) = 108 units. A's eff = 5, time = 108/5 = 21.6 days = 21⅗ days.
-Source: SSC CGL PYQ
-
-Q144. 18 men or 27 women can complete a work in 20 days. In how many days will 12 men and 18 women complete the same work?
-(a) 12 days (b) 15 days (c) 18 days (d) 20 days
-
-Answer: (b) 15 days
-
-Solution:
-18M = 27W → M = 1.5W. Total work = 18M × 20 = 360M = 540W.
-12M+18W = 12×1.5W+18W = 18W+18W = 36W. Time = 540/36 = 15 days.
-Source: SSC CGL PYQ
-
-Q145. A and B can do a piece of work in 30 days, B and C in 12 days, A and C in 15 days. They all start together. After 5 days, A leaves. B and C continue for 3 more days, then B leaves. In how many days will C alone complete the remaining work?
-(a) 3 days (b) 4 days (c) 5 days (d) 6 days
-
-Answer: (c) 5 days
-
-Solution:
-2(A+B+C) = 1/30+1/12+1/15 = (2+5+4)/60 = 11/60 → A+B+C = 11/120.
-Individual: A = 11/120 – 1/12 = 1/120, B = 11/120 – 1/15 = 3/120, C = 11/120 – 1/30 = 7/120.
-Total work = 120 units. A=1, B=3, C=7.
-First 5 days (all): (1+3+7)×5 = 55. Remaining = 65.
-Next 3 days (B+C): (3+7)×3 = 30. Remaining = 35.
-C alone: 35/7 = 5 days.
-Source: SSC CGL PYQ
-
-Q146. A can do a work in 20 days, B in 30 days. They work together for 4 days. Then C, whose efficiency is the average of A and B, joins them. In how many total days will the work be finished?
-(a) 8⅓ days (b) 9 days (c) 9⅓ days (d) 10 days
-
-Answer: (c) 9⅓ days
-
-Solution:
-A=1/20, B=1/30. Combined = 1/20+1/30 = 1/12. In 4 days: 4/12 = 1/3 work. Remaining = 2/3.
-C's eff = (1/20+1/30)/2 = (1/12)/2 = 1/24. All three = 1/12+1/24 = 3/24 = 1/8.
-Time for remaining = (2/3) / (1/8) = 16/3 = 5⅓ days. Total = 4 + 5⅓ = 9⅓ days.
-Source: SSC CGL PYQ
-
-Q147. A and B can do a work in 12 days and 18 days respectively. They work on alternate days, starting with A. On the days B works, he is assisted by C who is half as efficient as B. In how many days will the work be completed?
-(a) 10 days (b) 11 days (c) 12 days (d) 13 days
-
-Answer: (c) 12 days
-
-Solution:
-Total work = LCM(12,18) = 36 units. A=3, B=2. C = half of B = 1.
-Pattern: Day1 (A alone) = 3. Day2 (B+C) = 2+1 = 3. 2‑day cycle = 6.
-6 cycles (12 days) = 36 units exactly.
-Source: SSC CHSL PYQ
-
-Q148. The efficiency ratio of A, B and C is 7 : 5 : 4. They work together to complete a work for ₹8400. A and B work on all days, but C works only on every alternate day. What is C's share?
-(a) ₹1000 (b) ₹1200 (c) ₹1400 (d) ₹1600
-
-Answer: (b) ₹1200
-
-Solution:
-Let total duration be T days (assume T even). Work days: A=T, B=T, C=T/2.
-Work ratio = 7T : 5T : 4×(T/2) = 7 : 5 : 2. Total parts = 14.
-C's share = (2/14) × 8400 = ₹1200.
-Source: SSC CGL PYQ
-
-Q149. A and B together can do a work in 25 days, B and C in 20 days, C and A in 15 days. They work in a cyclic order: A alone on day 1, B alone on day 2, C alone on day 3, repeating. In how many days will the work be completed?
-(a) 36 days (b) 37½ days (c) 38¹²⁄₂₃ days (d) 40 days
-
-Answer: (c) 38¹²⁄₂₃ days
-
-Solution:
-2(A+B+C) = 1/25+1/20+1/15 = (12+15+20)/300 = 47/300 → A+B+C = 47/600.
-Individual: A = 47/600 – 1/20 = 17/600, B = 47/600 – 1/15 = 7/600, C = 47/600 – 1/25 = 23/600.
-Total work = 600 units. A=17, B=7, C=23. 3‑day cycle = 17+7+23 = 47.
-12 full cycles (36 days) = 12×47 = 564. Remaining = 36.
-Day 37 (A): 17 done, remaining 19. Day 38 (B): 7 done, remaining 12. Day 39 (C): 12/23 day.
-Total = 38 + 12/23 = 38¹²⁄₂₃ days.
-Source: SSC CGL PYQ
-
-Q150. A certain number of men can complete a work in 24 days. They start working, but after 10 days, 5 men leave. After another 10 days, 5 more men leave, and the remaining work is completed by the remaining men in the next 10 days. Find the initial number of men.
-(a) 20 (b) 25 (c) 30 (d) 35
-
-Answer: (b) 25
-
-Solution:
-Let initial men = N. Total work = 24N.
-First 10 days: work done = 10N. Remaining = 14N.
-Next 10 days (N–5 men): work done = 10(N–5) = 10N–50. Remaining = 14N – (10N–50) = 4N+50.
-Last 10 days (N–10 men): work = 10(N–10) = 4N+50 → 10N – 100 = 4N + 50 → 6N = 150 → N = 25.
-Source: SSC CGL PYQ
+📝 अभ्यास MCQ: समय और कार्य — सेट 1 (प्रश्न 1–25)
+
+1. A किसी कार्य को 10 दिनों में पूरा कर सकता है, और B उसी कार्य को 15 दिनों में पूरा कर सकता है। यदि वे एक साथ काम करें, तो वे कार्य को कितने दिनों में पूरा करेंगे?
+(a) 5 दिन (b) 7 दिन (c) 6 दिन (d) 8 दिन
+उत्तर: (c)
+हल: कुल कार्य = 10 और 15 का LCM = 30 इकाई। A की कार्यक्षमता = 3 इकाई/दिन, B की = 2 इकाई/दिन। संयुक्त कार्यक्षमता = 5 इकाई/दिन, अतः समय = 30/5 = 6 दिन। जाल यह है कि समयों को जोड़ दिया जाए, इसलिए उत्तर 6 दिन है।
+स्रोत: NCERT कक्षा 8 गणित
+
+2. A अकेला एक कार्य को 20 दिनों में कर सकता है, B अकेला 30 दिनों में। वे दोनों मिलकर कितने समय में करेंगे?
+(a) 10 दिन (b) 12 दिन (c) 15 दिन (d) 18 दिन
+उत्तर: (b)
+हल: कुल कार्य = LCM(20, 30) = 60 इकाई। A की क्षमता = 3, B की क्षमता = 2, संयुक्त क्षमता = 5, समय = 60/5 = 12 दिन। जाल यह है कि 20 और 30 का औसत ले लिया जाए, इसलिए उत्तर 12 दिन है।
+स्रोत: NCERT कक्षा 8 गणित
+
+3. A, B से दोगुना कार्यकुशल है। B अकेला एक कार्य को 30 दिनों में पूरा कर सकता है। A अकेला उसी कार्य को कितने दिनों में पूरा कर सकता है?
+(a) 20 दिन (b) 15 दिन (c) 12 दिन (d) 10 दिन
+उत्तर: (b)
+हल: कार्यक्षमता अनुपात A : B = 2 : 1, अतः समय अनुपात A : B = 1 : 2। B को 30 दिन लगते हैं, इसलिए A को 30/2 = 15 दिन लगेंगे। जाल यह है कि B के समय को आधा कर दिया जाए, इसलिए उत्तर 15 दिन है।
+स्रोत: NCERT कक्षा 8 गणित
+
+4. 8 आदमी एक कार्य को 12 दिनों में पूरा कर सकते हैं। उसी कार्य को 8 दिनों में पूरा करने के लिए कितने आदमियों की आवश्यकता होगी?
+(a) 10 आदमी (b) 16 आदमी (c) 12 आदमी (d) 14 आदमी
+उत्तर: (c)
+हल: M₁D₁ = M₂D₂, अतः 8 × 12 = M₂ × 8 ⇒ M₂ = 12 आदमी। जाल यह है कि 8 × 12 = 96 का प्रयोग कर दिया जाए, इसलिए उत्तर 12 आदमी है।
+स्रोत: NCERT कक्षा 8 गणित
+
+5. A एक कार्य को 18 दिनों में कर सकता है, B 24 दिनों में। वे 6 दिनों तक एक साथ काम करते हैं। कार्य का कितना भाग शेष रह जाता है?
+(a) 1/2 (b) 7/12 (c) 1/3 (d) 5/12
+उत्तर: (d)
+हल: कुल कार्य = LCM(18, 24) = 72 इकाई। A की क्षमता = 4, B की = 3, साथ में = 7। 6 दिनों में किया गया कार्य = 6 × 7 = 42। शेष कार्य = 30/72 = 5/12। जाल यह है कि किए गए कार्य की गणना कर दी जाए, इसलिए उत्तर 5/12 है।
+स्रोत: NCERT कक्षा 8 गणित
+
+6. A, B और C एक कार्य को क्रमशः 10, 12 और 15 दिनों में पूरा कर सकते हैं। वे तीनों मिलकर कार्य को कितने दिनों में पूरा करेंगे?
+(a) 4 दिन (b) 3 दिन (c) 5 दिन (d) 6 दिन
+उत्तर: (a)
+हल: कुल कार्य = LCM(10, 12, 15) = 60 इकाई। क्षमता: A = 6, B = 5, C = 4, कुल = 15। समय = 60/15 = 4 दिन। जाल यह है कि समयों का औसत ले लिया जाए, इसलिए उत्तर 4 दिन है।
+स्रोत: NCERT कक्षा 8 गणित
+
+7. 12 आदमी एक खेत की कटाई 7 दिनों में कर सकते हैं। 14 आदमी उसी खेत की कटाई कितने दिनों में कर सकते हैं?
+(a) 5 दिन (b) 8 दिन (c) 6 दिन (d) 10 दिन
+उत्तर: (c)
+हल: 12 × 7 = 14 × D ⇒ D = 84/14 = 6 दिन। जाल यह है कि 12 × 7 का गुणा कर दिया जाए, इसलिए उत्तर 6 दिन है।
+स्रोत: NCERT कक्षा 8 गणित
+
+8. A और B मिलकर एक कार्य को 10 दिनों में पूरा कर सकते हैं। B अकेला उसे 15 दिनों में पूरा कर सकता है। A अकेला उस कार्य को कितने दिनों में पूरा कर सकता है?
+(a) 30 दिन (b) 25 दिन (c) 20 दिन (d) 35 दिन
+उत्तर: (a)
+हल: 1/A + 1/15 = 1/10 ⇒ 1/A = 1/10 – 1/15 = (3 – 2)/30 = 1/30 ⇒ A को 30 दिन लगते हैं। जाल यह है कि अंतर ले लिया जाए, इसलिए उत्तर 30 दिन है।
+स्रोत: NCERT कक्षा 8 गणित
+
+9. A एक कार्य को 8 दिनों में कर सकता है, B 12 दिनों में। C की सहायता से वे कार्य को 3 दिनों में पूरा करते हैं। C अकेला उस कार्य को कितने दिनों में कर सकता है?
+(a) 6 दिन (b) 10 दिन (c) 8 दिन (d) 12 दिन
+उत्तर: (c)
+हल: कुल कार्य = LCM(8, 12) = 24 इकाई। A की क्षमता = 3, B की = 2, (A + B + C) की क्षमता = 24/3 = 8। C की क्षमता = 8 – 3 – 2 = 3। C अकेले का समय = 24/3 = 8 दिन। जाल यह है कि 8 और 12 का औसत ले लिया जाए, इसलिए उत्तर 8 दिन है।
+स्रोत: NCERT कक्षा 8 गणित
+
+10. A, B से तीन गुना कार्यकुशल है। B एक कार्य को 45 दिनों में पूरा करता है। A अकेला उसी कार्य को कितने दिनों में पूरा करेगा?
+(a) 10 दिन (b) 15 दिन (c) 12 दिन (d) 20 दिन
+उत्तर: (b)
+हल: कार्यक्षमता A:B = 3:1 → समय A:B = 1:3। B को 45 दिन लगते हैं ⇒ A को 45/3 = 15 दिन लगेंगे। जाल यह है कि औसत ले लिया जाए, इसलिए उत्तर 15 दिन है।
+स्रोत: NCERT कक्षा 8 गणित
+
+11. 20 आदमी एक कुआँ 15 दिनों में खोद सकते हैं। 30 आदमी उसी कुएँ को खोदने में कितने दिन लेंगे?
+(a) 10 दिन (b) 8 दिन (c) 12 दिन (d) 15 दिन
+उत्तर: (a)
+हल: 20 × 15 = 30 × D ⇒ D = 300/30 = 10 दिन। जाल यह है कि औसत ले लिया जाए, इसलिए उत्तर 10 दिन है।
+स्रोत: NCERT कक्षा 8 गणित
+
+12. A और B एक कार्य को क्रमशः 4 दिन और 6 दिन में कर सकते हैं। यदि वे A से शुरू करके एकांतर दिनों में काम करें, तो कार्य कितने दिनों में पूरा होगा?
+(a) 5 दिन (b) 6 दिन (c) 7 दिन (d) 8 दिन
+उत्तर: (a)
+हल: कुल कार्य = LCM(4, 6) = 12 इकाई। A की क्षमता = 3, B की = 2। 2-दिन का चक्र: 3 + 2 = 5 इकाई। 2 चक्रों (4 दिन) के बाद: 10 इकाई। दिन 5 (A की बारी): शेष 2 इकाई A द्वारा पूरी। कुल 5 दिन। जाल यह है कि 4 और 6 का औसत ले लिया जाए, इसलिए उत्तर 5 दिन है।
+स्रोत: NCERT कक्षा 8 गणित
+
+13. A, B और C एक कार्य को क्रमशः 6, 8 और 12 दिनों में पूरा कर सकते हैं। यदि वे एक साथ काम करें, तो उनकी दैनिक मज़दूरी किस अनुपात में बाँटी जानी चाहिए?
+(a) 3 : 4 : 2 (b) 4 : 3 : 2 (c) 2 : 3 : 4 (d) 4 : 2 : 3
+उत्तर: (b)
+हल: दैनिक कार्यक्षमता: A = 1/6, B = 1/8, C = 1/12। हरों का LCM = 24। A का दैनिक = 4, B का = 3, C का = 2। मज़दूरी ∝ दैनिक कार्य, अतः अनुपात = 4 : 3 : 2। जाल यह है कि समयों का औसत ले लिया जाए, इसलिए उत्तर 4 : 3 : 2 है।
+स्रोत: NCERT कक्षा 8 गणित
+
+14. 18 आदमी एक कार्य को 20 दिनों में पूरा कर सकते हैं। उसी कार्य को 15 दिनों में पूरा करने के लिए कितने आदमियों की आवश्यकता होगी?
+(a) 24 आदमी (b) 22 आदमी (c) 20 आदमी (d) 30 आदमी
+उत्तर: (a)
+हल: 18 × 20 = M × 15 ⇒ M = 360/15 = 24 आदमी। जाल यह है कि 18 और 20 का औसत ले लिया जाए, इसलिए उत्तर 24 आदमी है।
+स्रोत: NCERT कक्षा 8 गणित
+
+15. A एक कार्य को 25 दिनों में कर सकता है, B 20 दिनों में। वे 5 दिनों तक एक साथ काम करते हैं, फिर A चला जाता है। B शेष कार्य को कितने और दिनों में पूरा करेगा?
+(a) 8 दिन (b) 11 दिन (c) 10 दिन (d) 9 दिन
+उत्तर: (b)
+हल: कुल कार्य = LCM(25, 20) = 100 इकाई। A की क्षमता = 4, B की = 5, साथ में = 9। 5 दिनों में कार्य = 5 × 9 = 45। शेष = 55। B के दिन = 55/5 = 11 दिन। जाल यह है कि 25 और 20 का औसत ले लिया जाए, इसलिए उत्तर 11 दिन है।
+स्रोत: NCERT कक्षा 8 गणित
+
+16. A एक निश्चित कार्य को उतने ही समय में कर सकता है जितने समय में B और C मिलकर कर सकते हैं। A और B मिलकर उसे 10 दिनों में कर सकते हैं, और C अकेला 50 दिनों में। B अकेला उस कार्य को कितने दिनों में कर सकता है?
+(a) 20 दिन (b) 30 दिन (c) 25 दिन (d) 35 दिन
+उत्तर: (c)
+हल: दिया है: A का दैनिक कार्य = B का + C का। A + B = 1/10, C = 1/50। माना B का दैनिक = b, तब A का = b + 1/50। (b + 1/50) + b = 1/10 ⇒ 2b + 1/50 = 1/10 ⇒ 2b = 1/10 – 1/50 = 4/50 = 2/25 ⇒ b = 1/25। B अकेला 25 दिन लेता है। जाल यह है कि 10 और 50 का औसत ले लिया जाए, इसलिए उत्तर 25 दिन है।
+स्रोत: NCERT कक्षा 8 गणित
+
+17. 6 आदमी और 8 लड़के एक कार्य को 10 दिनों में कर सकते हैं। 26 आदमी और 48 लड़के उसी कार्य को 2 दिनों में कर सकते हैं। 15 आदमी और 20 लड़के उसी कार्य को कितने दिनों में पूरा करेंगे?
+(a) 4 दिन (b) 3 दिन (c) 2 दिन (d) 5 दिन
+उत्तर: (a)
+हल: माना 1 आदमी का 1-दिन का कार्य = M, 1 लड़के का = B। (6M + 8B) × 10 = (26M + 48B) × 2 ⇒ 60M + 80B = 52M + 96B ⇒ 8M = 16B ⇒ M = 2B। कुल कार्य = (6×2B + 8B) × 10 = 200B। 15M + 20B = 15×2B + 20B = 50B। समय = 200B / 50B = 4 दिन। जाल यह है कि 10 और 2 का औसत ले लिया जाए, इसलिए उत्तर 4 दिन है।
+स्रोत: NCERT कक्षा 8 गणित
+
+18. A, B और C मिलकर एक कार्य को 4 दिनों में पूरा कर सकते हैं। A अकेला 12 दिनों में, B अकेला 18 दिनों में। C अकेला उस कार्य को कितने दिनों में पूरा कर सकता है?
+(a) 8 दिन (b) 12 दिन (c) 10 दिन (d) 9 दिन
+उत्तर: (d)
+हल: कुल कार्य = LCM(4, 12, 18) = 36 इकाई। (A + B + C) की क्षमता = 36/4 = 9। A की क्षमता = 3, B की = 2, अतः C की क्षमता = 9 – 3 – 2 = 4। C का समय = 36/4 = 9 दिन। जाल यह है कि 4, 12 और 18 का औसत ले लिया जाए, इसलिए उत्तर 9 दिन है।
+स्रोत: NCERT कक्षा 8 गणित
+
+19. A और B एक कार्य को 12 दिनों में, B और C 15 दिनों में, C और A 20 दिनों में कर सकते हैं। A अकेला उस कार्य को कितने दिनों में पूरा करेगा?
+(a) 20 दिन (b) 25 दिन (c) 40 दिन (d) 30 दिन
+उत्तर: (d)
+हल: (A + B) = 1/12, (B + C) = 1/15, (C + A) = 1/20। जोड़ने पर: 2(A + B + C) = 1/12 + 1/15 + 1/20 = (5 + 4 + 3)/60 = 12/60 = 1/5। (A + B + C) = 1/10। A का दैनिक = (A + B + C) – (B + C) = 1/10 – 1/15 = 1/30। A अकेला = 30 दिन। जाल यह है कि 12, 15 और 20 का औसत ले लिया जाए, इसलिए उत्तर 30 दिन है।
+स्रोत: NCERT कक्षा 8 गणित
+
+20. यदि 10 आदमी या 20 महिलाएँ एक कार्य को 15 दिनों में कर सकते हैं, तो 5 आदमी और 10 महिलाएँ उसी कार्य को कितने दिनों में कर सकते हैं?
+(a) 10 दिन (b) 12 दिन (c) 20 दिन (d) 15 दिन
+उत्तर: (d)
+हल: 10 आदमी = 20 महिलाएँ ⇒ 1 आदमी = 2 महिलाएँ। 5 आदमी + 10 महिलाएँ = 5×2 महिलाएँ + 10 महिलाएँ = 20 महिलाएँ। 20 महिलाएँ 15 दिन लेती हैं (दिया है)। अतः समय = 15 दिन। जाल यह है कि 10 और 20 का औसत ले लिया जाए, इसलिए उत्तर 15 दिन है।
+स्रोत: NCERT कक्षा 8 गणित
+
+21. A, B से 30% अधिक कार्यकुशल है। B अकेला एक कार्य को 26 दिनों में पूरा कर सकता है। A अकेला उस कार्य को कितने दिनों में पूरा करेगा?
+(a) 18 दिन (b) 24 दिन (c) 22 दिन (d) 20 दिन
+उत्तर: (d)
+हल: कार्यक्षमता A = B का 130% → E_A : E_B = 130 : 100 = 13 : 10। समय अनुपात A : B = 10 : 13। B का समय = 26 दिन (13 इकाई) → 1 इकाई = 2 दिन। A का समय = 10 इकाई = 20 दिन। जाल यह है कि 26 और 30 का औसत ले लिया जाए, इसलिए उत्तर 20 दिन है।
+स्रोत: NCERT कक्षा 8 गणित
+
+22. A और B मिलकर एक कार्य को 8 दिनों में पूरा कर सकते हैं। उन्होंने एक साथ काम शुरू किया, पर 3 दिन बाद B चला गया और A ने शेष कार्य 10 दिनों में पूरा किया। B अकेला उस कार्य को कितने दिनों में पूरा कर सकता है?
+(a) 12 दिन (b) 14 दिन (c) 16 दिन (d) 20 दिन
+उत्तर: (c)
+हल: साथ में 1 दिन का कार्य = 1/8। 3 दिनों में किया गया कार्य = 3/8, शेष = 5/8। A, 5/8 को 10 दिनों में पूरा करता है → A का दैनिक = (5/8)/10 = 1/16। B का दैनिक = 1/8 – 1/16 = 1/16। B अकेला = 16 दिन। जाल यह है कि 8 और 10 का औसत ले लिया जाए, इसलिए उत्तर 16 दिन है।
+स्रोत: NCERT कक्षा 8 गणित
+
+23. 4 आदमी और 6 महिलाएँ एक कार्य को 8 दिनों में पूरा कर सकते हैं, जबकि 3 आदमी और 7 महिलाएँ उसे 10 दिनों में पूरा कर सकते हैं। 10 महिलाएँ अकेली उस कार्य को कितने दिनों में पूरा करेंगी?
+(a) 40 दिन (b) 35 दिन (c) 30 दिन (d) 45 दिन
+उत्तर: (a)
+हल: माना M, W क्रमशः एक आदमी और एक महिला का 1-दिन का कार्य है। (4M + 6W) × 8 = (3M + 7W) × 10 ⇒ 32M + 48W = 30M + 70W ⇒ 2M = 22W ⇒ M = 11W। कुल कार्य = (4×11W + 6W) × 8 = 50W × 8 = 400W। 10 महिलाओं की क्षमता = 10W, समय = 400W/10W = 40 दिन। जाल यह है कि 8 और 10 का औसत ले लिया जाए, इसलिए उत्तर 40 दिन है।
+स्रोत: NCERT कक्षा 8 गणित
+
+24. A अकेला एक कार्य को 20 दिनों में कर सकता है, B अकेला 30 दिनों में। वे कुछ दिनों तक एक साथ काम करते हैं, फिर B चला जाता है। A अकेला शेष कार्य को 10 दिनों में पूरा करता है। B ने कितने दिनों तक काम किया?
+(a) 4 दिन (b) 10 दिन (c) 8 दिन (d) 6 दिन
+उत्तर: (d)
+हल: कुल कार्य = LCM(20, 30) = 60 इकाई। A की क्षमता = 3, B की = 2। माना B ने x दिन काम किया (A के साथ)। A ने (x + 10) दिन काम किया। कुल कार्य: 3(x + 10) + 2x = 60 ⇒ 5x + 30 = 60 ⇒ 5x = 30 ⇒ x = 6। B ने 6 दिन काम किया। जाल यह है कि 20 और 30 का औसत ले लिया जाए, इसलिए उत्तर 6 दिन है।
+स्रोत: NCERT कक्षा 8 गणित
+
+25. A, B से 20% अधिक कार्यकुशल है, और B, C से 25% अधिक कार्यकुशल है। A, B और C मिलकर एक कार्य को 24 दिनों में पूरा करते हैं। A अकेला उस कार्य को कितने दिनों में पूरा करेगा?
+(a) 48 दिन (b) 60 दिन (c) 50 दिन (d) 72 दिन
+उत्तर: (b)
+हल: A = 1.2 B, B = 1.25 C। C = 4 इकाई (कार्यक्षमता) लें, तब B = 5, A = 1.2 × 5 = 6। अनुपात A : B : C = 6 : 5 : 4, संयुक्त = 15। कुल कार्य = 15 × 24 = 360 इकाई। A का समय = 360/6 = 60 दिन। जाल यह है कि 20 और 30 का औसत ले लिया जाए, इसलिए उत्तर 60 दिन है।
+स्रोत: NCERT कक्षा 8 गणित
