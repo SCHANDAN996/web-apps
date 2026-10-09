@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 10:19 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 10:28 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 16 Books Authors (Graduation GK) | 🔎 review हो रहा है | 15 मिनट |
-| W2 | Chapter 18 Science Tech (Graduation GK) | ✍️ लिख रहा है | 6 मिनट |
-| W3 | Chapter 13 Awards (Graduation GK) | 🔎 review हो रहा है | 59 मिनट |
-| W4 | Chapter 17 Culture Art (Graduation GK) | ✍️ लिख रहा है | 59 मिनट |
-| W5 | Chapter 15 Days Dates (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 16 Books Authors (Graduation GK) | 🔎 review हो रहा है | 25 मिनट |
+| W2 | Chapter 18 Science Tech (Graduation GK) | ✍️ लिख रहा है | 16 मिनट |
+| W3 | Chapter 13 Awards (Graduation GK) | 🔎 review हो रहा है | 69 मिनट |
+| W4 | Chapter 17 Culture Art (Graduation GK) | ✍️ लिख रहा है | 69 मिनट |
+| W5 | Chapter 19 Environment (Graduation GK) | ✍️ लिख रहा है | 9 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -28,9 +28,9 @@
 | 12th English | 22 | 0 | 3 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 16 | 0 | 12 |
-| Graduation Reasoning | 1 | 0 | 29 |
+| Graduation Reasoning | 2 | 0 | 28 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **131** | **13** | **152** |
+| **कुल** | **132** | **13** | **151** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -45,24 +45,10 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 13 Awards (GK) — 1 बार
-- Chapter 15 Days Dates (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 09:55:45   [Books_Authors] Practice_en_Set_06.txt try 2: re-solve disagrees (Q126 key a vs re-solve b)
-09-10 09:56:38   [Sports] review Mind_Map.txt: 1 issue(s): - C1a: First Indian Olympic Games year given as 1925 → Correct year is 1924 (first edition held in Lahore in 1924)
-09-10 09:57:50   [Sports] review Flashcards_en.txt: 1 issue(s): - Card 20: The explanation says the marathon distance was standardized "so the race could finish in front of the
-09-10 09:58:23   [Days_Dates] review Flashcards_en.txt: 1 issue(s): - Card 13: The claim that the months January, October, December are in alphabetical order is false (alphabetical
-09-10 09:59:32   [Days_Dates] review Flashcards_hi.txt: 8 issue(s): - File is corrupted/unusable as flashcards: after card 65 the content devolves into bare numbers, "sec", "car", 
-09-10 09:59:54   [Books_Authors] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 10:00:51   [Sports] review Flashcards_hi.txt: 1 issue(s): - Card 6: The ministry that clarified India has no official national sport in a 2012 RTI reply was the Ministry 
-09-10 10:00:58   [Culture_Art] Flashcards_hi.txt try 1: rejected (corrupted characters)
-09-10 10:03:12   [Books_Authors] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 10:03:12   [Books_Authors] written 10, failed 0; AI calls today 192/100000
-09-10 10:03:28   [Books_Authors] review Content_en.txt: 1 issue(s): - Section content is corrupted/unreadable (code fragments, random symbols, <|close|> tags, garbled text) → Replace 
-09-10 10:03:33   [Culture_Art] wrote Flashcards_hi.txt (4324 chars)
-09-10 10:04:33   [Sports] review PYQ_hi.txt: 1 issue(s): - 'चिनास्वामी' को खेल शब्दावली (Terms) की सूची में शामिल किया गया है, जबकि यह एक स्टेडियम (एम. चिन्नास्वामी स्टेडियम, ब
 09-10 10:06:13   [Culture_Art] wrote PYQ_en.txt (9025 chars)
 09-10 10:07:34   [Books_Authors] review Content_hi.txt: 1 issue(s): - "मेरी जेल का अनुभव (मंडेला)" हिंदी शीर्षक गलत है → नेल्सन मंडेला की आत्मकथा *Long Walk to Freedom* का मानक हिंदी 
 09-10 10:07:41   [Days_Dates] review: 2 section(s) corrected, 3 failed
@@ -90,4 +76,17 @@
 09-10 10:19:01   [Science_Tech] wrote Content_en.txt (13048 chars)
 09-10 10:19:10   [Days_Dates] review: 2 section(s) corrected, 0 failed
 09-10 10:19:10   [Days_Dates] written 2, failed 0; AI calls today 229/100000
+09-10 10:19:22 DONE Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_15_Days_Dates in 11 min → fcb492ee
+09-10 10:19:23 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_19_Environment (TODO: todo 25, problems 0)
+09-10 10:20:03   [Culture_Art] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 10:21:30   [Books_Authors] REJECTED review fix Key_Facts_hi.txt: too short
+09-10 10:23:03   [Science_Tech] wrote Content_hi.txt (11279 chars)
+09-10 10:23:59   [Culture_Art] Practice_en_Set_02.txt try 1: re-solve disagrees (Q38 key a vs re-solve b)
+09-10 10:25:16   [Books_Authors] review Mind_Map.txt: 1 issue(s): - D3: "आंधी युग — रामधारी सिंह दिनकर" is incorrect; *आंधी युग* (Andha Yug) is a 1954 Hindi play by **Dharamvir Bharat
+09-10 10:25:43   [Science_Tech] wrote Key_Facts_en.txt (11733 chars)
+09-10 10:26:41   [Awards] review Memory_Hooks_en.txt: 1 issue(s): - Bhanu Athaiya's Oscar year given as 1982 → correct award year is 1983 (55th Academy Awards)
+09-10 10:27:13   [Environment] wrote Content_en.txt (15824 chars)
+09-10 10:27:26   [Books_Authors] review Flashcards_hi.txt: 3 issue(s): - Card 3: लिखी गई अवधि 1942–46 बताई गई है, जबकि नेहरू ने ‘डिस्कवरी ऑफ इंडिया’ 1942–1945 में अहमदनगर जेल में लिखी
+09-10 10:28:54   [Science_Tech] wrote Key_Facts_hi.txt (8004 chars)
+09-10 10:29:01   [Culture_Art] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 ```
