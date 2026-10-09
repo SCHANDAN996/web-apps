@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 06:11 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 06:26 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Ratio Proportion (12th Maths) | ✍️ लिख रहा है | 59 मिनट |
-| W2 | Chapter 10 Compound Interest (12th Maths) | ✍️ लिख रहा है | 45 मिनट |
-| W3 | Chapter 08 Profit Loss (12th Maths) | ✍️ लिख रहा है | 49 मिनट |
-| W4 | Chapter 06 Average (12th Maths) | 🔎 review हो रहा है | 26 मिनट |
-| W5 | Chapter 09 Simple Interest (12th Maths) | ✍️ लिख रहा है | 47 मिनट |
+| W1 | Chapter 07 Ratio Proportion (12th Maths) | ✍️ लिख रहा है | 74 मिनट |
+| W2 | Chapter 10 Compound Interest (12th Maths) | ✍️ लिख रहा है | 61 मिनट |
+| W3 | Chapter 08 Profit Loss (12th Maths) | ✍️ लिख रहा है | 64 मिनट |
+| W5 | Chapter 09 Simple Interest (12th Maths) | ✍️ लिख रहा है | 63 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -24,13 +23,13 @@
 | 10th English | 7 | 0 | 13 |
 | 12th Maths | 4 | 1 | 18 |
 | 12th GK | 22 | 2 | 0 |
-| 12th Reasoning | 3 | 0 | 22 |
+| 12th Reasoning | 4 | 0 | 21 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 22 | 0 | 6 |
 | Graduation Reasoning | 8 | 0 | 22 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **168** | **16** | **112** |
+| **कुल** | **169** | **16** | **111** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -49,31 +48,11 @@
 - Chapter 01 Number System (Maths) — 2 बार
 - Chapter 02 LCM HCF (Maths) — 2 बार
 - Chapter 03 Simplification (Maths) — 2 बार
-- Chapter 06 Average (Maths) — 1 बार
+- Chapter 06 Average (Maths) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 17:48:36   [Ratio_Proportion] wrote Content_hi.txt (7715 chars)
-09-10 17:48:36   [Compound_Interest] Flashcards_en.txt try 1: answer too long — asking for a tighter version
-09-10 17:48:47   [Average] review Content_en.txt: 1 issue(s): - In Section 4 (Weighted Average), the alligation shortcut explanation incorrectly states the combined average sits
-09-10 17:49:08   [Ratio_Proportion] Feynman_en.txt try 1: rejected (chat debris "Here's the")
-09-10 17:50:25   [Ratio_Proportion] Feynman_en.txt try 2: rejected (chat debris "Here's the")
-09-10 17:50:25   [Ratio_Proportion] REJECTED Feynman_en.txt: chat debris "Here's the" — not written
-09-10 17:50:50   [Profit_Loss] wrote Mind_Map.txt (1841 chars)
-09-10 17:50:50   [Simple_Interest] wrote Short_Tricks_hi.txt (19194 chars)
-09-10 17:52:05   [Profit_Loss] wrote Flashcards_en.txt (3671 chars)
-09-10 17:53:06   [Ratio_Proportion] wrote Feynman_hi.txt (2321 chars)
-09-10 17:53:13   [Profit_Loss] wrote Flashcards_hi.txt (2537 chars)
-09-10 17:53:41   [Average] review Feynman_hi.txt: 1 issue(s): - The second example states that when a student leaves a group of 30 with average weight 50 kg and the new average 
-09-10 17:53:46   [Average] REJECTED review fix Feynman_hi.txt: too short
-09-10 17:54:23   [Profit_Loss] wrote PYQ_en.txt (7563 chars)
-09-10 17:55:11   [Simple_Interest] FAILED Important_Formulas_en.txt: rate_limited
-09-10 17:55:23   [Ratio_Proportion] wrote Mind_Map.txt (2308 chars)
-09-10 17:55:28   [Ratio_Proportion] Flashcards_en.txt try 1: rejected (corrupted characters)
-09-10 17:55:38   [Simple_Interest] wrote Important_Formulas_hi.txt (1635 chars)
-09-10 17:56:16   [Profit_Loss] wrote PYQ_hi.txt (5870 chars)
-09-10 17:57:15   [Ratio_Proportion] wrote Flashcards_en.txt (2667 chars)
 09-10 17:57:37   [Simple_Interest] Practice_en_Set_01.txt try 1: rejected (Q21:leaked_reasoning)
 09-10 17:57:51   [Average] review Flashcards_hi.txt: 1 issue(s): - Card 8: जाने वाले का मान = पुराना औसत − (बची संख्या × औसत में कमी) is wrong → जाने वाले का मान = पुराना औसत + 
 09-10 17:58:07   [Ratio_Proportion] wrote Flashcards_hi.txt (2691 chars)
@@ -94,4 +73,24 @@
 09-10 18:09:28   [Profit_Loss] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 09-10 18:09:37   [Simple_Interest] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 09-10 18:10:37   [Compound_Interest] wrote PYQ_hi.txt (8089 chars)
+09-10 18:11:51   [Simple_Interest] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 18:12:13   [Simple_Interest] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 18:12:31   [Compound_Interest] wrote Short_Tricks_en.txt (11360 chars)
+09-10 18:13:01   [Average] review Short_Tricks_hi.txt: 2 issue(s): - ट्रिक 7 का सूत्र "नया औसत = पुराना औसत ± (कुल बदलाव ÷ नई गिनती)" गलत है → सही सूत्र: नया औसत = (पुराना योग +
+09-10 18:13:47   [Compound_Interest] wrote Short_Tricks_hi.txt (5219 chars)
+09-10 18:14:12   [Compound_Interest] wrote Important_Formulas_en.txt (2392 chars)
+09-10 18:16:32   [Compound_Interest] wrote Important_Formulas_hi.txt (2233 chars)
+09-10 18:19:11   [Compound_Interest] Practice_en_Set_01.txt try 1: rejected (Q13:answer_solution_conflict)
+09-10 18:20:24   [Average] review Important_Formulas_hi.txt: 1 issue(s): - The claim "यही एक सूत्र लगभग 80% प्रश्नों की कुंजी है" is an invented exam weightage statistic without
+09-10 18:22:26   [Ratio_Proportion] Important_Formulas_hi.txt try 1: answer too long — asking for a tighter version
+09-10 18:23:27   [Average] review: 4 section(s) corrected, 1 failed
+09-10 18:23:27   [Average] written 4, failed 1; AI calls today 481/100000
+09-10 18:23:27 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_06_Average after 45 min: todo [] problems []
+09-10 18:23:27 worker 3: nothing left
+09-10 18:23:36   [Ratio_Proportion] wrote Important_Formulas_hi.txt (4022 chars)
+09-10 18:24:35   [Profit_Loss] FAILED Practice_hi_Set_01.txt: too_long
+09-10 18:25:24   [Ratio_Proportion] Practice_en_Set_01.txt try 1: rejected (Q21:leaked_reasoning,Q24:leaked_reasoning)
+09-10 18:25:28   [Compound_Interest] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 18:25:30   [Compound_Interest] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 18:25:50   [Profit_Loss] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
 ```
