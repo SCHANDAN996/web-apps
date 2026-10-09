@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 06:28 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 06:34 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 19 Fill in Blanks Adv (12th English) | ✍️ लिख रहा है | 89 मिनट |
-| W2 | Chapter 20 Sentence Improvement Adv (12th English) | ✍️ लिख रहा है | 75 मिनट |
-| W3 | Chapter 21 Cloze Test (12th English) | ✍️ लिख रहा है | 1 मिनट |
-| W4 | Chapter 18 Error Spotting Adv (12th English) | 📤 push हो रहा है | 0 मिनट |
-| W5 | Chapter 22 Para Jumbles (12th English) | ✍️ लिख रहा है | 3 मिनट |
+| W1 | Chapter 19 Fill in Blanks Adv (12th English) | ✍️ लिख रहा है | 2 मिनट |
+| W2 | Chapter 20 Sentence Improvement Adv (12th English) | ✍️ लिख रहा है | 81 मिनट |
+| W3 | Chapter 21 Cloze Test (12th English) | ✍️ लिख रहा है | 7 मिनट |
+| W4 | Chapter 23 Sentence Arrangement (12th English) | ✍️ लिख रहा है | 5 मिनट |
+| W5 | Chapter 22 Para Jumbles (12th English) | ✍️ लिख रहा है | 9 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -51,29 +51,11 @@
 - Chapter 14 Antonyms (English) — 2 बार
 - Chapter 16 Idioms Phrases (English) — 2 बार
 - Chapter 21 Cloze Test (English) — 1 बार
+- Chapter 19 Fill in Blanks Adv (English) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 06:04:05   [Fill_in_Blanks_Adv] Practice_en_Set_05.txt try 3: rejected (parsed 0 questions, numbers -…-)
-09-10 06:05:54   [Error_Spotting_Adv] review Content_hi.txt: 2 issue(s): - In the Linguistic Bridge table (row 2), the suggested correct English for "I am going to Delhi, no?" includes "is
-09-10 06:06:46   [Fill_in_Blanks_Adv] Practice_en_Set_05.txt try 4: re-solve disagrees (Q108 key c vs re-solve b)
-09-10 06:06:46   [Fill_in_Blanks_Adv] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
-09-10 06:06:46   [Fill_in_Blanks_Adv] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
-09-10 06:09:45   [Cloze_Test] Practice_en_Set_05.txt try 1: rejected (parsed 1 questions, numbers 101…101)
-09-10 06:10:19   [Fill_in_Blanks_Adv] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 06:10:30   [Error_Spotting_Adv] review Feynman_en.txt: 1 issue(s): - The blurting instruction asks for "The 5 'bridge words'" but the section lists 7 bridge phrases (of, with, along 
-09-10 06:10:45   [Spelling] review PYQ_hi.txt: 1 issue(s): - दावा कि SSC आदि परीक्षाओं में Spelling Check लगभग हर शिफ्ट में 1–3 प्रश्न आता है, सत्यापित नहीं है → इस विशिष्ट संख्य
-09-10 06:13:04   [Spelling] review Short_Tricks_en.txt: 1 issue(s): - Claim "India's #1 misspelt word in exams!" is an invented exam statistic → Remove the unverified claim or re
-09-10 06:13:09   [Cloze_Test] Practice_en_Set_05.txt try 2: re-solve disagrees (Q118 key a vs re-solve d)
-09-10 06:15:41   [Cloze_Test] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-09-10 06:15:43   [Error_Spotting_Adv] review Flashcards_en.txt: 1 issue(s): - Card 8 claims "I, you and he are guilty" has correct pronoun order, but the standard polite order is "You, he 
-09-10 06:16:47   [Sentence_Improvement_Adv] FAILED Practice_en_Set_03.txt: too_long
-09-10 06:16:47   [Sentence_Improvement_Adv] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
-09-10 06:17:25   [Cloze_Test] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-09-10 06:18:29   [Error_Spotting_Adv] review Flashcards_hi.txt: 1 issue(s): - Card 5: The back answer explains the “E‑5” rule (Each, Every, Everyone, Everybody, Everything = singular) but 
-09-10 06:19:48   [Sentence_Improvement_Adv] Practice_en_Set_04.txt try 1: re-solve disagrees (Q86 key d vs re-solve a, Q98 key a vs re-solve d)
-09-10 06:21:24   [Spelling] review Important_Rules_en.txt: 3 issue(s): - Rule 1 trap words list includes "weird, height, foreign" as exceptions to the "i before e except after c"
 09-10 06:22:38   [Sentence_Improvement_Adv] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 09-10 06:23:13   [Cloze_Test] Practice_en_Set_06.txt try 1: re-solve disagrees (Q145 key a vs re-solve ?)
 09-10 06:24:06   [Sentence_Improvement_Adv] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
@@ -95,4 +77,23 @@
 09-10 06:28:31   [Cloze_Test] Practice_en_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
 09-10 06:28:38   [Error_Spotting_Adv] review: 4 section(s) corrected, 0 failed
 09-10 06:28:38   [Error_Spotting_Adv] written 4, failed 0; AI calls today 638/100000
+09-10 06:28:48 DONE 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_18_Error_Spotting_Adv in 90 min → ede6a544
+09-10 06:28:50 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_23_Sentence_Arrangement (TODO: todo 26, problems 0)
+09-10 06:29:35   [Sentence_Arrangement] Content_en.txt try 1: rejected (chat debris "Here is the")
+09-10 06:30:28   [Para_Jumbles] wrote Content_hi.txt (10220 chars)
+09-10 06:30:30   [Sentence_Improvement_Adv] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 06:30:48   [Sentence_Arrangement] wrote Content_en.txt (7541 chars)
+09-10 06:31:18   [Para_Jumbles] wrote Feynman_en.txt (3272 chars)
+09-10 06:31:57   [Para_Jumbles] wrote Feynman_hi.txt (2571 chars)
+09-10 06:32:00   [Sentence_Arrangement] wrote Content_hi.txt (7524 chars)
+09-10 06:32:18   [Para_Jumbles] wrote Mind_Map_en.txt (1753 chars)
+09-10 06:32:31   [Fill_in_Blanks_Adv] FAILED Practice_hi_Set_06.txt: too_long
+09-10 06:32:31   [Fill_in_Blanks_Adv] written 21, failed 5; AI calls today 647/100000
+09-10 06:32:31 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_19_Fill_in_Blanks_Adv after 93 min: todo ['Set 04 en: todo', 'Set 04 hi: todo', 'Set 05 en: todo', 'Set 05 hi: todo'] problems []
+09-10 06:32:33 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_19_Fill_in_Blanks_Adv (TODO: todo 5, problems 0)
+09-10 06:32:33   [Sentence_Arrangement] wrote Feynman_en.txt (2731 chars)
+09-10 06:33:34   [Sentence_Arrangement] wrote Feynman_hi.txt (2579 chars)
+09-10 06:33:59   [Sentence_Arrangement] wrote Mind_Map_en.txt (1454 chars)
+09-10 06:34:38   [Cloze_Test] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 06:34:46   [Sentence_Arrangement] wrote Mind_Map_hi.txt (1808 chars)
 ```
