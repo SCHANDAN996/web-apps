@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 02:33 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:46 PM
+**आख़िरी update:** 09-10-2026 02:42 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:46 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Awards (Graduation GK) | 🔎 review हो रहा है | 46 मिनट |
-| W2 | Chapter 22 Defence (Graduation GK) | 🔎 review हो रहा है | 25 मिनट |
-| W3 | Chapter 23 Economic Terms (Graduation GK) | 🔎 review हो रहा है | 39 मिनट |
-| W4 | Chapter 24 Reports Indices (Graduation GK) | ✍️ लिख रहा है | 46 मिनट |
-| W5 | Chapter 25 Govt Schemes (Graduation GK) | ✍️ लिख रहा है | 46 मिनट |
+| W1 | Chapter 13 Awards (Graduation GK) | 🔎 review हो रहा है | 55 मिनट |
+| W2 | Chapter 22 Defence (Graduation GK) | 🔎 review हो रहा है | 34 मिनट |
+| W3 | Chapter 23 Economic Terms (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
+| W4 | Chapter 24 Reports Indices (Graduation GK) | ✍️ लिख रहा है | 55 मिनट |
+| W5 | Chapter 25 Govt Schemes (Graduation GK) | ✍️ लिख रहा है | 55 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -27,14 +27,14 @@
 | 12th Reasoning | 2 | 0 | 23 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 22 | 0 | 6 |
+| Graduation GK | 21 | 1 | 6 |
 | Graduation Reasoning | 3 | 0 | 27 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **148** | **13** | **135** |
+| **कुल** | **147** | **14** | **135** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 09-10 14:42 — Graduation GK · Chapter 23 Economic Terms
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
@@ -43,17 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 13:54:16   [Economic_Terms] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-09-10 13:54:16   [Economic_Terms] written 2, failed 0; AI calls today 13/100000
-09-10 13:57:54   [Defence] Practice_hi_Set_01.txt try 4: rejected (Q24:needs_context)
-09-10 13:57:54   [Defence] REJECTED Practice_hi_Set_01.txt: no translation passed the checks — not written
-09-10 13:57:54   [Defence] written 0, failed 1; AI calls today 15/100000
-09-10 13:57:54 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_22_Defence after 11 min: todo ['Set 01 hi: todo'] problems []
-09-10 13:57:56 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_22_Defence (TODO: todo 1, problems 0)
-09-10 13:58:10   [Economic_Terms] review Content_en.txt: 2 issue(s): - The statement "Since 1991, India follows the GDP concept for growth measurement (earlier GNP was used)" is incorr
-09-10 13:59:05   [Awards] review Content_hi.txt: 2 issue(s): - परिचय में लिखा है "डॉ. राधाकृष्णन उसी साल राष्ट्रपति बनने वाले थे" → डॉ. सर्वपल्ली राधाकृष्णन 1962 में राष्ट्रपति
-09-10 14:00:44   [Govt_Schemes] Content_hi.txt try 1: rejected (corrupted characters)
-09-10 14:02:03   [Defence] Practice_hi_Set_01.txt try 1: rejected (Q24:needs_context)
 09-10 14:07:15   [Govt_Schemes] wrote Content_hi.txt (12329 chars)
 09-10 14:07:34   [Defence] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 09-10 14:07:34   [Defence] written 1, failed 0; AI calls today 30/100000
@@ -83,4 +72,15 @@
 09-10 14:31:16   [Govt_Schemes] wrote Flashcards_hi.txt (4447 chars)
 09-10 14:33:17   [Govt_Schemes] wrote PYQ_en.txt (9061 chars)
 09-10 14:33:33   [Reports_Indices] wrote PYQ_hi.txt (6766 chars)
+09-10 14:35:11   [Reports_Indices] wrote Memory_Hooks_en.txt (6272 chars)
+09-10 14:36:25   [Govt_Schemes] wrote PYQ_hi.txt (8044 chars)
+09-10 14:37:18   [Reports_Indices] wrote Memory_Hooks_hi.txt (5070 chars)
+09-10 14:38:07   [Govt_Schemes] wrote Memory_Hooks_en.txt (7729 chars)
+09-10 14:40:04   [Economic_Terms] review Memory_Hooks_hi.txt: 1 issue(s): - Mnemonic 8: 'रा-वि-रा-प्र' lists four deficit terms but defines राजकोषीय घाटा as identical to वित्तीय घाटा, 
+09-10 14:40:12   [Reports_Indices] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 14:40:25   [Defence] review Key_Facts_hi.txt: 2 issue(s): - भारतीय तटरक्षक बल को "गृह मंत्रालय के अधीन" बताया गया है → भारतीय तटरक्षक बल रक्षा मंत्रालय के अधीन आता है
+09-10 14:40:50   [Govt_Schemes] wrote Memory_Hooks_hi.txt (6461 chars)
+09-10 14:42:22   [Reports_Indices] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 14:42:22   [Economic_Terms] review: 5 section(s) corrected, 0 failed
+09-10 14:42:22   [Economic_Terms] written 5, failed 0; AI calls today 82/100000
 ```
