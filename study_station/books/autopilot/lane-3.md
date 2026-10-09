@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 12:08 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
+**आख़िरी update:** 10-10-2026 12:24 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 16 Statement Conclusion (12th Reasoning) | ✍️ लिख रहा है | 99 मिनट |
-| W7 | Chapter 11 Series (12th Reasoning) | 🔎 review हो रहा है | 33 मिनट |
-| W8 | Chapter 10 Clock Calendar (12th Reasoning) | ✍️ लिख रहा है | 290 मिनट |
+| W2 | Chapter 16 Statement Conclusion (12th Reasoning) | ✍️ लिख रहा है | 114 मिनट |
+| W7 | Chapter 11 Series (12th Reasoning) | 🔎 review हो रहा है | 48 मिनट |
+| W8 | Chapter 10 Clock Calendar (12th Reasoning) | ✍️ लिख रहा है | 305 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -18,9 +18,9 @@
 |---|---|---|---|
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
-| 10th Maths | 15 | 7 | 0 |
+| 10th Maths | 16 | 6 | 0 |
 | 10th English | 17 | 0 | 3 |
-| 12th Maths | 10 | 0 | 13 |
+| 12th Maths | 11 | 0 | 12 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 10 | 0 | 15 |
 | 12th English | 25 | 0 | 0 |
@@ -28,7 +28,7 @@
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 12 | 0 | 18 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **211** | **7** | **78** |
+| **कुल** | **213** | **6** | **77** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -51,11 +51,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 23:25:02   [Alphabet_Questions] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 23:25:02   [Alphabet_Questions] written 19, failed 6; AI calls today 496/100000
-09-10 23:25:02 NOT OK 12th_Level/Reasoning/Chapter_14_Alphabet_Questions after 174 min: todo ['Set 02 en: todo', 'Set 02 hi: todo', 'Set 04 en: todo', 'Set 04 hi: todo'] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
-09-10 23:25:02 worker 0: nothing left
-09-10 23:25:39   [Statement_Conclusion] wrote Short_Tricks_en.txt (5574 chars)
 09-10 23:26:09   [Series] Practice_en_Set_06.txt try 2: re-solve disagrees (Q150 key c vs re-solve b)
 09-10 23:26:36   [Mathematical_Operations] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 09-10 23:26:36   [Mathematical_Operations] written 17, failed 8; AI calls today 498/100000
@@ -91,4 +86,9 @@
 09-10 23:56:40   [Statement_Conclusion] Practice_en_Set_02.txt try 1: re-solve disagrees (Q30 key b vs re-solve c, Q46 key d vs re-solve a)
 10-10 00:02:02   [Series] FAILED review Content_hi.txt: too_long — the chapter must not be published unreviewed
 10-10 00:08:00   [Statement_Conclusion] Practice_en_Set_02.txt try 2: re-solve disagrees (Q28 key c vs re-solve a, Q41 key a vs re-solve d)
+10-10 00:09:46   [Clock_Calendar] Practice_en_Set_05.txt try 2: re-solve disagrees (Q125 key a vs re-solve b)
+10-10 00:09:57   [Series] review Mind_Map.txt: 1 issue(s): - C2: example '+2,+3,−4' does not show constant difference → replace with '+2,+2,+2…' (constant difference)
+10-10 00:17:28   [Series] review Short_Tricks_en.txt: 2 issue(s): - "80% of number series in SSC/Bank exams crack open with simple differences" is an invented exam statistic → 
+10-10 00:23:49   [Statement_Conclusion] FAILED Practice_en_Set_02.txt: too_long
+10-10 00:23:49   [Statement_Conclusion] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
 ```
