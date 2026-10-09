@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 07:50 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 08:05 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 16 Books Authors (12th GK) | 🔎 review हो रहा है | 1 मिनट |
-| W4 | Chapter 13 Awards (12th GK) | ✍️ लिख रहा है | 97 मिनट |
+| W3 | Chapter 16 Books Authors (12th GK) | 🔎 review हो रहा है | 16 मिनट |
+| W4 | Chapter 13 Awards (12th GK) | ✍️ लिख रहा है | 112 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -50,17 +50,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 07:20:39   [Awards] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-09-10 07:21:43   [Days_Dates] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-09-10 07:21:52   [Books_Authors] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-09-10 07:22:20   [Sports] review Feynman_en.txt: 3 issue(s): - "The Old-Friends Club Meet (Commonwealth Games) — only countries that were once part of the British Empire (the C
-09-10 07:25:49   [Days_Dates] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-09-10 07:27:39   [Awards] Practice_en_Set_03.txt try 1: re-solve disagrees (Q65 key a vs re-solve b)
-09-10 07:28:03   [Sports] review Feynman_hi.txt: 3 issue(s): - English sentence "Write the finished file Feynman_hi.txt now, in Hindi (Devanagari). Output only the file content
-09-10 07:28:33   [Days_Dates] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 07:28:43   [Books_Authors] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-09-10 07:29:50   [Awards] Practice_en_Set_03.txt try 2: rejected (parsed 0 questions, numbers -…-)
-09-10 07:30:01   [Sports] review Flashcards_hi.txt: 3 issue(s): - Card 1 front: Nonsensical Hindi phrase “सूची तोड़े हुए सूची” → Replace with a clear question such as “ओलंपिक ख
 09-10 07:30:33   [Books_Authors] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 09-10 07:32:13   [Awards] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 09-10 07:34:18   [Awards] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
@@ -90,4 +79,15 @@
 09-10 07:47:07 worker 0: nothing left
 09-10 07:49:02   [Books_Authors] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 09-10 07:49:02   [Books_Authors] written 25, failed 0; AI calls today 586/100000
+09-10 07:50:22   [Awards] Practice_en_Set_05.txt try 1: re-solve disagrees (Q116 key a vs re-solve b)
+09-10 07:50:59   [Books_Authors] review Content_en.txt: 1 issue(s): - Modern Indian Books table and High-Yield Facts Table list "God of Small Things" without "The" → The God of Small 
+09-10 07:53:17   [Awards] Practice_en_Set_05.txt try 2: re-solve disagrees (Q121 key d vs re-solve b)
+09-10 07:55:53   [Awards] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 07:57:03   [Books_Authors] review Content_hi.txt: 3 issue(s): - खंड 2 में जयशंकर प्रसाद के लिए "छायावाद के त्रिवेदी" शब्द गलत है → "छायावाद के तीन प्रमुख कवि" या "छायावाद की त्र
+09-10 07:59:22   [Awards] Practice_hi_Set_05.txt try 1: rejected (Q122:needs_context)
+09-10 08:01:24   [Awards] Practice_hi_Set_05.txt try 2: rejected (Q122:needs_context)
+09-10 08:03:15   [Awards] Practice_hi_Set_05.txt try 3: rejected (Q122:needs_context)
+09-10 08:03:47   [Books_Authors] review Key_Facts_en.txt: 1 issue(s): - The entire section is corrupted with processing artifacts (`<|close|>`, `<|open|>`, `think`, `prompt`, `=`, `、`
+09-10 08:05:13   [Awards] Practice_hi_Set_05.txt try 4: rejected (Q122:needs_context)
+09-10 08:05:13   [Awards] REJECTED Practice_hi_Set_05.txt: no translation passed the checks — not written
 ```
