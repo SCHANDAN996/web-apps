@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 06:33 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:46 PM
+**आख़िरी update:** 09-10-2026 06:37 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:46 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 26 Advanced Polity (Graduation GK) | 🔎 review हो रहा है | 47 मिनट |
-| W4 | Chapter 29 Environment Conventions (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
-| W5 | Chapter 01 Number System Advanced (Graduation Maths) | ✍️ लिख रहा है | 76 मिनट |
+| W3 | Chapter 26 Advanced Polity (Graduation GK) | 🔎 review हो रहा है | 51 मिनट |
+| W5 | Chapter 01 Number System Advanced (Graduation Maths) | ✍️ लिख रहा है | 80 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -48,9 +47,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 17:49:09   [Number_System_Advanced] wrote Important_Formulas_en.txt (5040 chars)
-09-10 17:50:44   [Number_System_Advanced] wrote Important_Formulas_hi.txt (3871 chars)
-09-10 17:52:18   [Advanced_Science_Tech] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 09-10 17:53:54   [Environment_Conventions] review Key_Facts_hi.txt: 1 issue(s): "- "80% प्रश्न 15-सेकंड श्रेणी के" claim is an invented exam statistic → Remove the claim as it is not a verified
 09-10 17:54:18   [Advanced_Polity] review Content_hi.txt: 4 issue(s): - अम्बेडकर के भाषण की तिथि 17 अक्टूबर 1949 गलत है → सही तिथि 25 नवंबर 1949 है
 09-10 17:57:17   [Budget_Economic_Survey] review Memory_Hooks_en.txt: 1 issue(s): - Contingency Fund corpus given as ₹500 crore → correct corpus is ₹30,000 crore (since 2021 amendment)
@@ -88,4 +84,7 @@
 09-10 18:33:01   [Advanced_Polity] review PYQ_en.txt: 1 issue(s): - "statistically the most-tested answer for 'propounded'" → "the correct answer"
 09-10 18:33:11   [Environment_Conventions] review: 6 section(s) corrected, 0 failed
 09-10 18:33:11   [Environment_Conventions] written 6, failed 0; AI calls today 450/100000
+09-10 18:33:29 DONE Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_29_Environment_Conventions in 141 min → c0f1bd67
+09-10 18:33:29 worker 3: nothing left
+09-10 18:35:00   [Number_System_Advanced] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 ```
