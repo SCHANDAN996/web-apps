@@ -1,0 +1,161 @@
+# 🪄 Short Tricks — Complex Numbers
+
+---
+
+**🎯 Trick 1: The "i-Cycle of Four"**
+
+> **"i-Power? Divide by FOUR, check the FLOOR (remainder)!"**
+
+i¹ = i, i² = −1, i³ = −i, i⁴ = 1 — then it repeats forever.
+
+To find iⁿ: divide n by 4, keep only the remainder.
+- i²⁰²³ → 2023 ÷ 4 → remainder 3 → i³ = **−i**
+
+Memory hook: **"i takes a 4-stop train: i → −1 → −i → 1 → back to station."**
+
+---
+
+**🎯 Trick 2: Conjugate = "Mirror in the Water"**
+
+> **"Flip the sign of the imaginary part — like a reflection in a lake."**
+
+z = a + bi → z̄ = a − bi. The real part stays on land; the imaginary part dives underwater with the opposite sign.
+
+Use it for: division (multiply top & bottom by the conjugate of the denominator) and modulus (z·z̄ = |z|²).
+
+---
+
+**🎯 Trick 3: Modulus = "Pythagoras in Disguise"**
+
+> **"|z| is just the hypotenuse! Real² + Imaginary², then root it."**
+
+|a + bi| = √(a² + b²). Picture the point (a, b) — the modulus is its distance from the origin. If you can do the 3-4-5 triangle, you can do modulus: |3 + 4i| = 5.
+
+---
+
+**🎯 Trick 4: Division = "Conjugate Bomb"**
+
+> **"To divide, BOMB the denominator with its conjugate — top AND bottom!"**
+
+(a + bi)/(c + di): multiply numerator and denominator by (c − di). The denominator magically becomes real: c² + d².
+
+Why it works: (c + di)(c − di) = c² + d² — the imaginary parts cancel like +x − x.
+
+---
+
+**🎯 Trick 5: Argument Signs = "ASTC's Cousin"**
+
+> **"Argument lives by quadrant: All Students Take Coffee."**
+
+For z = a + bi, the argument θ depends on the quadrant of (a, b):
+- Q1 (a>0, b>0): θ = α
+- Q2 (a<0, b>0): θ = π − α
+- Q3 (a<0, b<0): θ = −(π − α) or α − π
+- Q4 (a>0, b<0): θ = −α
+
+where α = tan⁻¹|b/a|. **Never** just write tan⁻¹(b/a) blindly — check the quadrant first!
+
+---
+
+**🎯 Trick 6: Euler's Jewel = "e to the i-pi plus one equals zero"**
+
+> **"The five most famous numbers at one party: e, i, π, 1, 0."**
+
+e^(iπ) + 1 = 0. Chant it like a mantra. From this flows the polar form: z = r·e^(iθ) = r(cos θ + i sin θ).
+
+---
+
+**🎯 Trick 7: De Moivre = "Power Goes Inside, Angle Gets Multiplied"**
+
+> **"Raise to n? Multiply the ANGLE by n!"**
+
+(cos θ + i sin θ)ⁿ = cos(nθ) + i sin(nθ)
+
+Memory hook: **"The power jumps off the bracket and lands on the angle."** Works for negative and fractional n too (with care for multi-valued roots).
+
+---
+
+**🎯 Trick 8: nth Roots = "Slice the Pizza into n Pieces"**
+
+> **"n roots = n equally spaced points on a circle."**
+
+The nth roots of a complex number all have modulus r^(1/n) and arguments (θ + 2kπ)/n for k = 0, 1, …, n−1. They form a regular n-gon on the Argand plane.
+
+Cube roots of 1: 1, ω, ω² — spaced 120° apart like a Mercedes logo.
+
+---
+
+**🎯 Trick 9: Omega (ω) Rules = "The Magic Trio"**
+
+> **"ω³ = 1, and 1 + ω + ω² = 0 — the trio that sums to nothing."**
+
+For cube roots of unity:
+- ω³ = 1
+- 1 + ω + ω² = 0
+- ω = (−1 + i√3)/2, ω² = (−1 − i√3)/2
+
+Exam killer move: whenever you see 1 + ω + ω² anywhere in an expression, replace it with **0** instantly.
+
+---
+
+**🎯 Trick 10: |z₁ + z₂| ≤ |z₁| + |z₂| = "The Detour Rule"**
+
+> **"A direct walk is never longer than a detour."**
+
+Triangle inequality: going straight from origin to z₁ + z₂ can never be longer than going via z₁ then z₂. Equality holds only when z₁ and z₂ point in the **same direction** (same argument).
+
+---
+
+**🎯 Trick 11: Rotation Trick = "Multiply by i = Turn Left 90°"**
+
+> **"i is the steering wheel: multiply by i, rotate 90° anticlockwise."**
+
+- Multiply by i → rotate +90°
+- Multiply by −1 → rotate 180°
+- Multiply by −i → rotate −90° (clockwise)
+- Multiply by e^(iθ) → rotate by θ
+
+This turns geometry problems into one-line algebra.
+
+---
+
+**🎯 Trick 12: |z − z₀| = r = "Compass Equation"**
+
+> **"|z − z₀| = r draws a CIRCLE: centre z₀, radius r."**
+
+Read it as: "distance of z from z₀ is constantly r." Variants to recognise instantly:
+- |z − z₁| = |z − z₂| → perpendicular bisector of the segment joining z₁ and z₂
+- |z − z₁| + |z − z₂| = constant → ellipse
+- arg((z − z₁)/(z − z₂)) = constant → arc of a circle
+
+---
+
+**🎯 Trick 13: (1 + i)² = 2i = "The Diagonal Doubler"**
+
+> **"(1 + i) squared throws you straight onto the imaginary axis: 2i."**
+
+(1 + i)² = 1 + 2i + i² = 2i. Similarly (1 − i)² = −2i.
+
+Chain it: (1 + i)⁴ = −4, (1 + i)⁸ = 16. Huge powers of (1 + i) collapse in seconds — a favourite exam trap.
+
+---
+
+**🎯 Trick 14: Re & Im Extractor = "Average with the Mirror"**
+
+> **"Real part = average of z and its mirror; Imaginary part = half the difference (drop the i)."**
+
+- Re(z) = (z + z̄)/2
+- Im(z) = (z − z̄)/(2i)
+
+Hook: **"Add the mirror for Real, Subtract for Imaginary."** (A-S: Add-Subtract, in alphabetical order!)
+
+---
+
+**🎯 Trick 15: Purely Real vs Purely Imaginary = "Mirror Test"**
+
+> **"Equals its mirror → REAL. Equals negative mirror → IMAGINARY."**
+
+- z is purely real ⟺ z = z̄
+- z is purely imaginary ⟺ z = −z̄
+
+One-line proof power: no need to expand a + bi every time — just test against the conjugate.
