@@ -1,0 +1,29 @@
+# 📋 Important Formulas — LCM & HCF
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Product Rule | LCM × HCF = Product of the two numbers | When any 3 of the 4 values are known (only for TWO numbers) |
+| HCF by Division | HCF = last non-zero remainder (Euclid's algorithm: divide the larger number by the smaller, then divide the divisor by the remainder, repeat until remainder is 0) | Finding HCF of two large numbers |
+| LCM of Fractions | LCM of fractions = LCM of numerators / HCF of denominators | LCM of 2/3, 4/5 type questions |
+| HCF of Fractions | HCF of fractions = HCF of numerators / LCM of denominators | HCF of 3/4, 5/6 type questions |
+| HCF of Decimals | Remove decimals (equalise digits), find HCF, put decimal back | HCF of 0.6, 0.12, 0.24 |
+| LCM of Decimals | Remove decimals (equalise digits), find LCM, put decimal back | LCM of 1.2, 0.36 |
+| Co-prime Numbers | If HCF = 1, then LCM = a × b | Numbers like 8 and 15 |
+| LCM from HCF | LCM = (a × b) / HCF | Quick LCM when HCF is known |
+| Numbers from HCF & LCM | Numbers = H × x and H × y, where x, y are co-prime and x × y = LCM/HCF | "HCF = 12, LCM = 72, find numbers" |
+| Ratio of Numbers | If ratio a : b and HCF = H, numbers = aH, bH; LCM = abH | "Ratio 3:4, HCF 5" → 15, 20 |
+| Greatest number dividing with same remainder | HCF of (a − r), (b − r), (c − r) | "Leaves remainder r when dividing a, b, c" |
+| Greatest number dividing with different remainders | HCF of (a − r₁), (b − r₂), (c − r₃) | Different remainders r₁, r₂, r₃ |
+| Largest number dividing exactly | HCF of the numbers | "Greatest number that divides 48, 60, 72 exactly" |
+| Smallest number divisible by all | LCM of the numbers | "Least number divisible by 4, 6, 8" |
+| Smallest number leaving same remainder | LCM of divisors + r | "Leaves remainder 3 when divided by 4, 5, 6" |
+| Smallest number leaving remainders with common difference | LCM − k, where k = (divisor − remainder), same for all | "Remainder is 2 less than divisor" type |
+| Bells tolling together | LCM of intervals; next time = LCM | Bells ringing every 4, 6, 8 seconds |
+| Circular track meeting | LCM of individual lap times | Runners meeting again at starting point |
+| Maximum length of a piece | HCF of the lengths | Cutting ropes/planks into equal longest pieces |
+| Minimum tiles / square plot | Side of largest square tile = HCF of dimensions; Number of tiles = Area / HCF² | Tiling a floor 24 m × 18 m |
+| HCF of powers (same base) | a^min(m,n) | HCF of 2⁵ and 2⁸ = 2⁵ |
+| LCM of powers (same base) | a^max(m,n) | LCM of 3⁴ and 3⁷ = 3⁷ |
+| Prime Factorisation Rule | HCF = product of lowest powers of common primes; LCM = product of highest powers of all primes | Standard method for any set of numbers |
+| Consistency check | If LCM × HCF ≠ a × b, the data is inconsistent | Verifying "HCF = 5, LCM = 33" type traps (LCM must be a multiple of HCF) |
+| LCM is divisible by HCF | LCM / HCF = integer (always) | Quick elimination of wrong options |

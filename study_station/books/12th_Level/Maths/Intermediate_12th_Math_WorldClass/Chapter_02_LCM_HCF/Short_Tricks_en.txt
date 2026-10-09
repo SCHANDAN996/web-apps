@@ -1,0 +1,160 @@
+# 🪄 Short Tricks — LCM & HCF (Memory Tricks)
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 1 — "HCF is the HUMBLE one"**        │
+│ HCF = Highest Common Factor, but remember:   │
+│ HCF is HUMBLE — it is always SMALLER than    │
+│ (or equal to) the numbers.                   │
+│ LCM is LOUD & LARGE — always BIGGER than     │
+│ (or equal to) the numbers.                   │
+│ 👉 If your HCF answer is bigger than the     │
+│ numbers themselves — you made a mistake!     │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 2 — "Product = L × H" (The Marriage  │
+│ Formula)**                                   │
+│ For TWO numbers:                             │
+│ First × Second = LCM × HCF                   │
+│ Memory hook: "Two lovers (L & H) multiply    │
+│ to make the couple (the two numbers)."       │
+│ ⚠️ Works ONLY for 2 numbers — never 3!       │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 3 — "HCF takes the SHORTEST          │
+│ power, LCM takes the TALLEST"**              │
+│ In prime factorisation:                      │
+│ • HCF → common primes with the LOWEST power  │
+│ • LCM → all primes with the HIGHEST power    │
+│ Mnemonic: "HCF = Humble Lowest,              │
+│            LCM = Lavish Highest"             │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 4 — "Remainder SAME? Subtract it!"** │
+│ "Greatest number that divides a, b, c        │
+│ leaving the SAME remainder r":               │
+│ → HCF of (a−r), (b−r), (c−r)                 │
+│ Hook: "Same remainder? Kick it out first,    │
+│ then take HCF."                              │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 5 — "Different remainders?           │
+│ Subtract the DIFFERENCES"**                  │
+│ Greatest number dividing a, b, c leaving     │
+│ remainders r₁, r₂, r₃:                       │
+│ → HCF of (a−r₁), (b−r₂), (c−r₃)              │
+│ Hook: "Each number sheds its own remainder   │
+│ before entering the HCF club."               │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 6 — "Bells ring TOGETHER = LCM"**    │
+│ Bells toll at intervals of x, y, z minutes.  │
+│ When do they ring together again?            │
+│ → LCM(x, y, z)                               │
+│ Loci trick: Picture 3 temple bells of        │
+│ different sizes — the moment ALL boom        │
+│ together is the LCM moment. 🔔               │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 7 — "Smallest number leaving same    │
+│ remainder = LCM + r"**                       │
+│ "Least number which when divided by a, b, c  │
+│ leaves remainder r in each case":            │
+│ → LCM(a, b, c) + r                           │
+│ Hook: "LCM carries the remainder on its      │
+│ back — just ADD it."                         │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 8 — "Difference constant?            │
+│ LCM − k"**                                   │
+│ "Least number which when divided by a, b, c  │
+│ leaves remainders such that (divisor −       │
+│ remainder) = k (same for all)":              │
+│ → LCM(a, b, c) − k                           │
+│ Hook: "Constant gap? LCM falls SHORT by k."  │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 9 — "Fractions: TOP-BOTTOM flip"**   │
+│ • LCM of fractions = LCM of numerators /     │
+│   HCF of denominators                        │
+│ • HCF of fractions = HCF of numerators /     │
+│   LCM of denominators                        │
+│ Mnemonic: "LCM is TOP-HEAVY (LCM on top),    │
+│ HCF is BOTTOM-HEAVY (LCM at bottom)."        │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 10 — "Co-prime? Just MULTIPLY"**     │
+│ If two numbers are co-prime (HCF = 1):       │
+│ LCM = product of the two numbers.            │
+│ Hook: "Strangers (co-primes) don't share     │
+│ anything — so their LCM is the full          │
+│ multiplication."                             │
+│ Example: LCM(8, 9) = 72                      │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 11 — "HCF is a FACTOR of LCM"**      │
+│ HCF always divides LCM exactly.              │
+│ Exam trap check: If an option says HCF = 12, │
+│ LCM = 70 — reject instantly, since 12 ∤ 70.  │
+│ Hook: "The small boss (HCF) must fit inside  │
+│ the big boss (LCM)."                         │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 12 — "Ratio shortcut for 2           │
+│ numbers"**                                   │
+│ If HCF = h and numbers are in ratio a : b    │
+│ (a, b co-prime), then:                       │
+│ Numbers = ha and hb, and LCM = h × a × b     │
+│ Hook: "HCF is the seed; multiply by the      │
+│ ratio to grow both numbers." 🌱              │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 13 — "Biggest tile / longest tape    │
+│ = HCF"**                                     │
+│ "Largest square tile to pave a floor",       │
+│ "longest tape to measure exactly",           │
+│ "maximum students per row" — ALL mean HCF.   │
+│ Keyword spotter: LARGEST / GREATEST /        │
+│ MAXIMUM that DIVIDES → HCF.                  │
+│ LEAST / SMALLEST that is DIVIDED → LCM.      │
+│ Acronym: **"G-D-H, S-D-L"**                  │
+│ (Greatest-Divides-HCF, Smallest-Divided-LCM) │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 14 — "n-digit number trick"**        │
+│ "Greatest n-digit number divisible by        │
+│ a, b, c":                                    │
+│ Step 1: L = LCM(a, b, c)                     │
+│ Step 2: Divide greatest n-digit number       │
+│ (999…9) by L, subtract the remainder.        │
+│ For SMALLEST n-digit: add (L − remainder)    │
+│ to the smallest n-digit number (100…0).      │
+│ Hook: "Greatest → SUBTRACT the leftover;     │
+│ Smallest → ADD what's missing."              │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 15 — "The L-H Sandwich Check"**      │
+│ For any two numbers N₁, N₂:                  │
+│ HCF ≤ N₁, N₂ ≤ LCM                           │
+│ and HCF × LCM = N₁ × N₂                      │
+│ Use it as a 5-second answer validator in     │
+│ the exam — eliminate options where the       │
+│ product doesn't match.                       │
+│ Hook: "HCF and LCM sandwich the numbers —    │
+│ nothing escapes the sandwich!" 🥪            │
+└─────────────────────────────────────────────┘

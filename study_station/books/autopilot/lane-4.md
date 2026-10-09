@@ -11,9 +11,9 @@
 | W1 | Chapter 09 Simple Interest (12th Maths) | ✍️ लिख रहा है | 20 मिनट |
 | W2 | Chapter 10 Compound Interest (12th Maths) | 🔧 सुधार रहा है | 11 मिनट |
 | W3 | Chapter 11 Time Work (12th Maths) | ✍️ लिख रहा है | 17 मिनट |
-| W4 | Chapter 02 LCM HCF (12th Maths) | 🔎 review हो रहा है | 26 मिनट |
-| W5 | Chapter 03 Simplification (12th Maths) | 🔎 review हो रहा है | 22 मिनट |
-| W6 | Chapter 06 Average (12th Maths) | 📤 push हो रहा है | 0 मिनट |
+| W4 | Chapter 02 LCM HCF (12th Maths) | 📤 push हो रहा है | 0 मिनट |
+| W5 | Chapter 03 Simplification (12th Maths) | 🔎 review हो रहा है | 23 मिनट |
+| W6 | Chapter 12 Time Distance (12th Maths) | ✍️ लिख रहा है | 0 मिनट |
 | W7 | Chapter 07 Ratio Proportion (12th Maths) | ✍️ लिख रहा है | 26 मिनट |
 | W8 | Chapter 08 Profit Loss (12th Maths) | ✍️ लिख रहा है | 26 मिनट |
 
@@ -38,6 +38,7 @@
 ## ✅ autopilot से हाल में पूरे हुए
 
 - 09-10 19:45 — 12th Maths · Chapter 06 Average
+- 09-10 19:45 — 12th Maths · Chapter 02 LCM HCF
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
@@ -49,11 +50,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 19:27:54   [Number_System] FAILED Important_Formulas_hi.txt: rate_limited
-09-10 19:27:54   [Number_System] written 0, failed 1; AI calls today 48/100000
-09-10 19:27:54 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System after 6 min: todo [] problems ['Important_Formulas_hi.txt: much shorter than the English sec']
-09-10 19:27:56 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_11_Time_Work (TODO: todo 25, problems 0)
-09-10 19:28:40   [Simple_Interest] wrote Short_Tricks_en.txt (7349 chars)
 09-10 19:29:06   [Simple_Interest] wrote Important_Formulas_en.txt (2241 chars)
 09-10 19:29:20   [Time_Work] Content_en.txt try 1: rejected (chat debris "Here is the")
 09-10 19:29:34   [Compound_Interest] repaired Flashcards_hi.txt (2732 chars)
@@ -89,4 +85,9 @@
 09-10 19:44:21   [LCM_HCF] review Important_Formulas_en.txt: 1 issue(s): - HCF by Division formula states "HCF = last non-zero remainder's divisor" → should be "HCF = last non-z
 09-10 19:45:14   [Average] review: 2 section(s) corrected, 0 failed
 09-10 19:45:14   [Average] written 2, failed 0; AI calls today 103/100000
+09-10 19:45:27 DONE 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_06_Average in 27 min → c4269f5b
+09-10 19:45:28 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_12_Time_Distance (TODO: todo 25, problems 0)
+09-10 19:45:31   [LCM_HCF] review: 1 section(s) corrected, 0 failed
+09-10 19:45:31   [LCM_HCF] written 1, failed 0; AI calls today 104/100000
+09-10 19:45:34   [Simple_Interest] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 ```
