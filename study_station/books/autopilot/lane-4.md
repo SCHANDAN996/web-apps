@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 10-10-2026 02:01 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
+**आख़िरी update:** 10-10-2026 02:16 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,13 +8,13 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 38 मिनट |
-| W2 | Chapter 23 Quadratic Equations (12th Maths) | ✍️ लिख रहा है | 31 मिनट |
-| W3 | Chapter 21 Permutation Combination (12th Maths) | 🔎 review हो रहा है | 1 मिनट |
-| W4 | Chapter 22 Number Series (12th Maths) | ✍️ लिख रहा है | 32 मिनट |
-| W5 | Chapter 18 Data Interpretation (12th Maths) | 🔎 review हो रहा है | 29 मिनट |
-| W6 | Chapter 19 Statistics (12th Maths) | 🔧 सुधार रहा है | 15 मिनट |
-| W8 | Chapter 16 Algebra (12th Maths) | 🔎 review हो रहा है | 61 मिनट |
+| W1 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 53 मिनट |
+| W2 | Chapter 23 Quadratic Equations (12th Maths) | ✍️ लिख रहा है | 46 मिनट |
+| W3 | Chapter 21 Permutation Combination (12th Maths) | 🔎 review हो रहा है | 17 मिनट |
+| W4 | Chapter 22 Number Series (12th Maths) | ✍️ लिख रहा है | 47 मिनट |
+| W5 | Chapter 18 Data Interpretation (12th Maths) | 🔎 review हो रहा है | 44 मिनट |
+| W6 | Chapter 19 Statistics (12th Maths) | 🔧 सुधार रहा है | 4 मिनट |
+| W8 | Chapter 16 Algebra (12th Maths) | 🔎 review हो रहा है | 76 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -22,7 +22,7 @@
 |---|---|---|---|
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
-| 10th Maths | 19 | 3 | 0 |
+| 10th Maths | 20 | 2 | 0 |
 | 10th English | 17 | 0 | 3 |
 | 12th Maths | 15 | 3 | 5 |
 | 12th GK | 22 | 2 | 0 |
@@ -32,7 +32,7 @@
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 13 | 0 | 17 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **227** | **8** | **61** |
+| **कुल** | **228** | **7** | **61** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -46,24 +46,11 @@
 - Chapter 12 Biology (GK) — 2 बार
 - Chapter 13 Mixture Alligation (Maths) — 2 बार
 - Chapter 14 Sports (GK) — 2 बार
+- Chapter 19 Statistics (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 01:25:40   [Number_System] repaired Important_Formulas_hi.txt (3738 chars)
-10-10 01:25:40   [Number_System] written 1, failed 0; AI calls today 45/100000
-10-10 01:25:40 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System after 27 min: todo [] problems ['Important_Formulas_hi.txt: much shorter than the English sec']
-10-10 01:25:42 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_21_Permutation_Combination (TODO: todo 3, problems 0)
-10-10 01:27:10   [Probability] Content_en.txt try 1: rejected (chat debris "Here's the")
-10-10 01:27:58   [Ratio_Proportion] review: 1 section(s) corrected, 0 failed
-10-10 01:27:58   [Ratio_Proportion] written 1, failed 0; AI calls today 49/100000
-10-10 01:28:15 DONE 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_07_Ratio_Proportion in 44 min → 78f86004
-10-10 01:28:18 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_22_Number_Series (TODO: todo 3, problems 0)
-10-10 01:29:51   [Sports] REJECTED Memory_Hooks_hi.txt: corrupted characters — not written
-10-10 01:29:51   [Sports] written 0, failed 1; AI calls today 50/100000
-10-10 01:29:51 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_14_Sports after 14 min: todo [] problems ['Memory_Hooks_hi.txt: much shorter than the English section (']
-10-10 01:29:53 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_23_Quadratic_Equations (TODO: todo 8, problems 0)
-10-10 01:31:24   [Data_Interpretation] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 10-10 01:31:24   [Data_Interpretation] written 2, failed 0; AI calls today 51/100000
 10-10 01:31:44   [Statistics] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 10-10 01:31:57   [Data_Interpretation] review Content_en.txt: 1 issue(s): - The Hook section contains the same sentence repeated dozens of times ("Imagine you are a detective. You have a ta
@@ -90,4 +77,18 @@
 10-10 01:57:16   [Data_Interpretation] review Short_Tricks_hi.txt: 5 issue(s): - Trick 7: 1/3 = 33.33% is incorrect → correct value is 33.333...% (33⅓%)
 10-10 01:59:01   [Permutation_Combination] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 10-10 01:59:01   [Permutation_Combination] written 3, failed 0; AI calls today 83/100000
+10-10 02:01:32   [Permutation_Combination] review Content_en.txt: 1 issue(s): - The claim that every atom in the observable universe shuffling a deck a billion times per second since the Big Ba
+10-10 02:01:47   [Algebra] FAILED review Content_hi.txt: network — the chapter must not be published unreviewed
+10-10 02:01:51   [Number_Series] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+10-10 02:03:13   [Algebra] review Mind_Map.txt: 1 issue(s): - "a³+b³+c³−3abc" listed as an identity → it is an expression; the identity is a³+b³+c³−3abc = (a+b+c)(a²+b²+c²−ab−bc
+10-10 02:04:50   [Quadratic_Equations] FAILED Practice_en_Set_02.txt: network
+10-10 02:04:50   [Quadratic_Equations] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+10-10 02:06:19   [Probability] FAILED Short_Tricks_en.txt: network
+10-10 02:07:32   [Statistics] FAILED PYQ_hi.txt: network
+10-10 02:07:32   [Statistics] written 0, failed 1; AI calls today 88/100000
+10-10 02:11:59   [Statistics] repaired PYQ_hi.txt (826 chars)
+10-10 02:11:59   [Statistics] written 1, failed 0; AI calls today 89/100000
+10-10 02:12:00 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_19_Statistics after 53 min: todo [] problems ['PYQ_hi.txt: Hindi file is mostly not in Hindi', 'PYQ_hi.txt: much shorter than the English section (825 vs 77']
+10-10 02:12:02 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_19_Statistics (FIX: todo 0, problems 2)
+10-10 02:13:28   [Data_Interpretation] review Important_Formulas_en.txt: 1 issue(s): - Doubling Effect formula uses ≈ (approximation) but the formula 2x + x²/100 is exact for two successive
 ```
