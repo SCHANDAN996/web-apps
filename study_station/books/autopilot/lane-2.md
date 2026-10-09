@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 09:58 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 10:12 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 16 Books Authors (Graduation GK) | ✍️ लिख रहा है | 47 मिनट |
-| W2 | Chapter 14 Sports (Graduation GK) | 🔎 review हो रहा है | 30 मिनट |
-| W3 | Chapter 13 Awards (Graduation GK) | 🔎 review हो रहा है | 39 मिनट |
-| W4 | Chapter 17 Culture Art (Graduation GK) | ✍️ लिख रहा है | 39 मिनट |
-| W5 | Chapter 15 Days Dates (Graduation GK) | 🔎 review हो रहा है | 23 मिनट |
+| W1 | Chapter 16 Books Authors (Graduation GK) | 🔎 review हो रहा है | 8 मिनट |
+| W2 | Chapter 14 Sports (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 13 Awards (Graduation GK) | 🔎 review हो रहा है | 52 मिनट |
+| W4 | Chapter 17 Culture Art (Graduation GK) | ✍️ लिख रहा है | 52 मिनट |
+| W5 | Chapter 15 Days Dates (Graduation GK) | 🔎 review हो रहा है | 4 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -27,13 +27,14 @@
 | 12th Reasoning | 0 | 0 | 25 |
 | 12th English | 22 | 0 | 3 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 15 | 0 | 13 |
+| Graduation GK | 16 | 0 | 12 |
 | Graduation Reasoning | 1 | 0 | 29 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **130** | **13** | **153** |
+| **कुल** | **131** | **13** | **152** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 10:12 — Graduation GK · Chapter 14 Sports
 - 09-10 09:19 — Graduation GK · Chapter 11 Chemistry
 - 09-10 09:10 — Graduation GK · Chapter 08 World Geography
 - 09-10 09:09 — Graduation GK · Chapter 12 Biology
@@ -43,32 +44,11 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 13 Awards (GK) — 1 बार
+- Chapter 15 Days Dates (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 09:24:49   [Awards] review Content_hi.txt: 2 issue(s): - The claim "ये छहों पुरस्कार 1950 में स्थापित हुए" is incorrect; only the three wartime gallantry awards (Param Vi
-09-10 09:26:23   [Days_Dates] Practice_en_Set_06.txt try 1: rejected (Q143:leaked_reasoning)
-09-10 09:26:59   [Days_Dates] Practice_en_Set_06.txt try 2: rejected (parsed 0 questions, numbers -…-)
-09-10 09:28:37   [Sports] repaired Key_Facts_hi.txt (8481 chars)
-09-10 09:28:37   [Sports] written 1, failed 0; AI calls today 132/100000
-09-10 09:30:48   [Days_Dates] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 09:30:52   [Books_Authors] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-09-10 09:34:18   [Sports] review Content_hi.txt: 3 issue(s): - विज़ेमैन ट्रॉफी को पोलो की ट्रॉफी बताया गया है → विज़ी ट्रॉफी (Vizzy Trophy) क्रिकेट की घरेलू ट्रॉफी है; पोलो के 
-09-10 09:35:25   [Books_Authors] Practice_en_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 09:35:35   [Days_Dates] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 09:35:35   [Days_Dates] written 6, failed 0; AI calls today 140/100000
-09-10 09:38:06   [Days_Dates] review Content_en.txt: 2 issue(s): - The claim "2–3 Free Marks" in the chapter heading is an invented weightage claim → Remove the specific number or 
-09-10 09:39:10   [Books_Authors] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-09-10 09:40:13   [Awards] FAILED review Content_hi.txt: too_long — the chapter must not be published unreviewed
-09-10 09:40:30   [Culture_Art] Content_hi.txt try 1: answer too long — asking for a tighter version
-09-10 09:41:58   [Sports] review Key_Facts_en.txt: 1 issue(s): - Boxing bout (Olympic) listed as 3 rounds × 3 minutes → This applies only to men's bouts; women's bouts are 4 ro
-09-10 09:43:00   [Books_Authors] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 09:43:30   [Days_Dates] FAILED review Content_en.txt: rate_limited — the chapter must not be published unreviewed
-09-10 09:43:59   [Culture_Art] wrote Content_hi.txt (9782 chars)
-09-10 09:46:03   [Books_Authors] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-09-10 09:46:36   [Culture_Art] wrote Key_Facts_en.txt (12862 chars)
-09-10 09:48:16   [Culture_Art] wrote Key_Facts_hi.txt (5160 chars)
 09-10 09:48:38   [Awards] review Key_Facts_en.txt: 1 issue(s): - Bhanu Athaiya's Oscar for "Gandhi" was at the 1983 ceremony (55th Academy Awards, April 1983), not 1982 → corre
 09-10 09:48:55   [Culture_Art] wrote Feynman_en.txt (3485 chars)
 09-10 09:49:20   [Days_Dates] review Key_Facts_en.txt: 3 issue(s): - 9 May listed as Rabindranath Tagore Jayanti → Rabindranath Tagore Jayanti is observed on 7 May (not 9 May)
@@ -87,4 +67,26 @@
 09-10 09:56:38   [Sports] review Mind_Map.txt: 1 issue(s): - C1a: First Indian Olympic Games year given as 1925 → Correct year is 1924 (first edition held in Lahore in 1924)
 09-10 09:57:50   [Sports] review Flashcards_en.txt: 1 issue(s): - Card 20: The explanation says the marathon distance was standardized "so the race could finish in front of the
 09-10 09:58:23   [Days_Dates] review Flashcards_en.txt: 1 issue(s): - Card 13: The claim that the months January, October, December are in alphabetical order is false (alphabetical
+09-10 09:59:32   [Days_Dates] review Flashcards_hi.txt: 8 issue(s): - File is corrupted/unusable as flashcards: after card 65 the content devolves into bare numbers, "sec", "car", 
+09-10 09:59:54   [Books_Authors] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 10:00:51   [Sports] review Flashcards_hi.txt: 1 issue(s): - Card 6: The ministry that clarified India has no official national sport in a 2012 RTI reply was the Ministry 
+09-10 10:00:58   [Culture_Art] Flashcards_hi.txt try 1: rejected (corrupted characters)
+09-10 10:03:12   [Books_Authors] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+09-10 10:03:12   [Books_Authors] written 10, failed 0; AI calls today 192/100000
+09-10 10:03:28   [Books_Authors] review Content_en.txt: 1 issue(s): - Section content is corrupted/unreadable (code fragments, random symbols, <|close|> tags, garbled text) → Replace 
+09-10 10:03:33   [Culture_Art] wrote Flashcards_hi.txt (4324 chars)
+09-10 10:04:33   [Sports] review PYQ_hi.txt: 1 issue(s): - 'चिनास्वामी' को खेल शब्दावली (Terms) की सूची में शामिल किया गया है, जबकि यह एक स्टेडियम (एम. चिन्नास्वामी स्टेडियम, ब
+09-10 10:06:13   [Culture_Art] wrote PYQ_en.txt (9025 chars)
+09-10 10:07:34   [Books_Authors] review Content_hi.txt: 1 issue(s): - "मेरी जेल का अनुभव (मंडेला)" हिंदी शीर्षक गलत है → नेल्सन मंडेला की आत्मकथा *Long Walk to Freedom* का मानक हिंदी 
+09-10 10:07:41   [Days_Dates] review: 2 section(s) corrected, 3 failed
+09-10 10:07:41   [Days_Dates] written 2, failed 3; AI calls today 205/100000
+09-10 10:07:42 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_15_Days_Dates after 58 min: todo [] problems []
+09-10 10:07:43 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_15_Days_Dates (OK: todo 0, problems 0)
+09-10 10:09:02   [Awards] FAILED review Feynman_en.txt: too_long — the chapter must not be published unreviewed
+09-10 10:09:27   [Culture_Art] wrote PYQ_hi.txt (7638 chars)
+09-10 10:09:59   [Awards] review Feynman_hi.txt: 1 issue(s): - "भारत रत्न ... एक साल में अधिकतम 3 लोगों को" → यह नियम (संविधि) भले ही अधिकतम 3 कहता हो, लेकिन 2024 में एक ही वर्
+09-10 10:10:27   [Sports] review Memory_Hooks_hi.txt: 1 issue(s): - Invented exam statistic: "negative marking का खतरा 75% से ज़्यादा होता है" in Skip Tip 1 → Remove the specif
+09-10 10:11:05   [Culture_Art] wrote Memory_Hooks_en.txt (7523 chars)
+09-10 10:12:02   [Sports] review: 9 section(s) corrected, 0 failed
+09-10 10:12:02   [Sports] written 9, failed 0; AI calls today 212/100000
 ```
