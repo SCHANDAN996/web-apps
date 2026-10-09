@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 11:54 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:17 PM
+**आख़िरी update:** 10-10-2026 12:09 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:17 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 113 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🔎 review हो रहा है | 6 मिनट |
-| W4 | Chapter 19 Cubes Dice (Graduation Reasoning) | ✍️ लिख रहा है | 197 मिनट |
-| W7 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 91 मिनट |
+| W2 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 129 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🔎 review हो रहा है | 21 मिनट |
+| W4 | Chapter 19 Cubes Dice (Graduation Reasoning) | ✍️ लिख रहा है | 212 मिनट |
+| W7 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 106 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -25,13 +25,13 @@
 | 10th English | 17 | 0 | 3 |
 | 12th Maths | 10 | 0 | 13 |
 | 12th GK | 22 | 0 | 2 |
-| 12th Reasoning | 7 | 0 | 18 |
+| 12th Reasoning | 8 | 0 | 17 |
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 3 | 0 | 25 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 13 | 2 | 15 |
 | Graduation English | 29 | 1 | 0 |
-| **कुल** | **209** | **10** | **77** |
+| **कुल** | **210** | **10** | **76** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -53,13 +53,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 23:20:48   [Statement_Conclusion] review Flashcards_hi.txt: 2 issue(s): - कार्ड 15 का उदाहरण 'A, B है' और 'A, B नहीं है' व्याकरणिक रूप से गलत है → सही होगा 'A, B हैं' और 'A, B नहीं हैं
-09-10 23:21:15   [Mathematical_Operations] review PYQ_en.txt: 6 issue(s): - Q1 answer (c) 17 is incorrect for the given expression; correct evaluation yields 11 which is not an option → questio
-09-10 23:21:31   [Dictionary_Order] Practice_en_Set_06.txt try 4: re-solve disagrees (Q131 key b vs re-solve d)
-09-10 23:21:31   [Dictionary_Order] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
-09-10 23:21:31   [Dictionary_Order] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-09-10 23:21:31   [Dictionary_Order] written 2, failed 6; AI calls today 467/100000
-09-10 23:21:31 NOT OK Graduation_Level/Reasoning/Chapter_13_Dictionary_Order after 67 min: todo ['Set 03 en: todo', 'Set 03 hi: todo', 'Set 04 en: todo', 'Set 04 hi: todo'] problems []
 09-10 23:21:31 worker 5: nothing left
 09-10 23:28:36   [Mathematical_Operations] review PYQ_hi.txt: 8 issue(s): - प्रश्न 1 का उत्तर (b) 42 गलत है; प्रतिस्थापन के बाद व्यंजक `15 × 3 + 2 ÷ 5 − 4` का मान 41.4 आता है (या गणना में 38), 
 09-10 23:29:15   [Inequality] review Important_Rules_hi.txt: 2 issue(s): - In 1.3 “≥ निष्कर्ष की जाँच” the rule states “A ≥ C तभी सत्य जब A > C संभव हो और A = C भी संभव हो” which i
@@ -93,4 +86,11 @@
 09-10 23:50:54 worker 0: nothing left
 09-10 23:50:56   [Cubes_Dice] Practice_en_Set_05.txt try 2: rejected (Q125:leaked_reasoning)
 09-10 23:52:47   [Mirror_Water_Images] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+09-10 23:55:22   [Mirror_Water_Images] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 23:55:31   [Mirror_Water_Images] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 00:03:56   [Sitting_Arrangement] review Feynman_hi.txt: 2 issue(s): - कहानी में 8 कुर्सियाँ और 8 मेहमान बताए गए हैं (मामा, मामी, चाचा, चाची, बुआ, फूफा, भाई, तुम), लेकिन शर्त में "फूफा
+10-10 00:07:44   [Cubes_Dice] Practice_en_Set_05.txt try 3: re-solve disagrees (Q104 key d vs re-solve ?, Q108 key b vs re-solve ?, Q117 key d vs re-solve ?, Q119 key c vs re-solve
+10-10 00:08:28   [Paper_Folding_Cutting] FAILED Practice_en_Set_01.txt: too_long
+10-10 00:08:28   [Paper_Folding_Cutting] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
+10-10 00:08:34   [Mirror_Water_Images] Practice_en_Set_03.txt try 2: re-solve disagrees (Q52 key d vs re-solve b, Q71 key a vs re-solve b)
 ```
