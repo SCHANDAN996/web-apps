@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 12:03 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 12:15 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Defence (12th GK) | 📤 push हो रहा है | 0 मिनट |
-| W2 | Chapter 23 Economic Terms (12th GK) | ✍️ लिख रहा है | 78 मिनट |
-| W3 | Chapter 24 Reports Indices (12th GK) | ✍️ लिख रहा है | 50 मिनट |
-| W4 | Chapter 25 Govt Schemes (12th GK) | ✍️ लिख रहा है | 46 मिनट |
-| W5 | Chapter 01 Number System (12th Maths) | ✍️ लिख रहा है | 42 मिनट |
+| W1 | Chapter 02 LCM HCF (12th Maths) | ✍️ लिख रहा है | 12 मिनट |
+| W2 | Chapter 23 Economic Terms (12th GK) | ✍️ लिख रहा है | 90 मिनट |
+| W3 | Chapter 24 Reports Indices (12th GK) | ✍️ लिख रहा है | 63 मिनट |
+| W4 | Chapter 25 Govt Schemes (12th GK) | ✍️ लिख रहा है | 59 मिनट |
+| W5 | Chapter 01 Number System (12th Maths) | ✍️ लिख रहा है | 54 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -52,29 +52,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 11:41:44   [Govt_Schemes] Key_Facts_en.txt try 1: answer too long — asking for a tighter version
-09-10 11:41:58   [Number_System] wrote Feynman_hi.txt (2243 chars)
-09-10 11:42:03   [Reports_Indices] wrote Memory_Hooks_hi.txt (5745 chars)
-09-10 11:42:30   [Number_System] wrote Mind_Map.txt (2180 chars)
-09-10 11:43:39   [Defence] review Key_Facts_hi.txt: 1 issue(s): - नौसेना दिवस के लिए 'त्रिदेव ऑपरेशन' लिखा है → सही नाम 'ऑपरेशन ट्राइडेंट' (Operation Trident) है
-09-10 11:44:19   [Number_System] wrote Flashcards_en.txt (2993 chars)
-09-10 11:44:19   [Govt_Schemes] wrote Key_Facts_en.txt (13833 chars)
-09-10 11:45:08   [Number_System] wrote Flashcards_hi.txt (2745 chars)
-09-10 11:46:38   [Number_System] wrote PYQ_en.txt (1403 chars)
-09-10 11:46:50   [Govt_Schemes] wrote Key_Facts_hi.txt (5539 chars)
-09-10 11:46:56   [Reports_Indices] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 11:46:57   [Reports_Indices] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 11:47:51   [Govt_Schemes] wrote Feynman_en.txt (4092 chars)
-09-10 11:48:34   [Govt_Schemes] wrote Feynman_hi.txt (2403 chars)
-09-10 11:48:36   [Defence] review Feynman_en.txt: 1 issue(s): - "Paramilitary is just an old, loose word people used for CAPF" is factually wrong; paramilitary is a broader term
-09-10 11:49:04   [Govt_Schemes] wrote Mind_Map.txt (2092 chars)
-09-10 11:49:11   [Number_System] wrote PYQ_hi.txt (6859 chars)
-09-10 11:49:54   [Reports_Indices] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-09-10 11:50:06   [Govt_Schemes] wrote Flashcards_en.txt (5607 chars)
-09-10 11:52:05   [Economic_Terms] FAILED Practice_hi_Set_03.txt: too_long
-09-10 11:52:12   [Govt_Schemes] wrote Flashcards_hi.txt (4500 chars)
-09-10 11:52:21   [Reports_Indices] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-09-10 11:54:57   [Number_System] wrote Short_Tricks_en.txt (10235 chars)
 09-10 11:55:03   [Defence] review Memory_Hooks_en.txt: 1 issue(s): - Box 13 heading "7-3-3" contradicts the content which states Army 7, Navy 3, Air Force 7 → change heading to 
 09-10 11:55:17   [Reports_Indices] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 09-10 11:55:46   [Number_System] Short_Tricks_hi.txt try 1: rejected (corrupted characters)
@@ -92,4 +69,27 @@
 09-10 12:02:32   [Economic_Terms] Practice_en_Set_05.txt try 1: rejected (parsed 2 questions, numbers 101…102)
 09-10 12:03:15   [Defence] review: 6 section(s) corrected, 0 failed
 09-10 12:03:15   [Defence] written 6, failed 0; AI calls today 416/100000
+09-10 12:03:31 DONE 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_22_Defence in 140 min → b2df29ef
+09-10 12:03:32 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_02_LCM_HCF (TODO: todo 25, problems 0)
+09-10 12:04:05   [LCM_HCF] wrote Content_en.txt (486 chars)
+09-10 12:04:56   [Govt_Schemes] wrote Memory_Hooks_hi.txt (6702 chars)
+09-10 12:05:11   [Economic_Terms] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 12:05:12   [Reports_Indices] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 12:05:53   [Reports_Indices] Practice_en_Set_04.txt try 1: rejected (parsed 1 questions, numbers 76…76)
+09-10 12:06:35   [LCM_HCF] wrote Content_hi.txt (7522 chars)
+09-10 12:07:13   [LCM_HCF] Feynman_en.txt try 1: rejected (chat debris "Here's the")
+09-10 12:07:28   [Number_System] Practice_en_Set_01.txt try 1: rejected (Q20:leaked_reasoning)
+09-10 12:08:12   [LCM_HCF] wrote Feynman_en.txt (2702 chars)
+09-10 12:08:37   [Economic_Terms] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 12:09:03   [Reports_Indices] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 12:09:03   [Govt_Schemes] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 12:09:22   [Reports_Indices] Practice_hi_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 12:10:12   [Number_System] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 12:11:36   [Govt_Schemes] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 12:12:10   [Number_System] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 12:12:11   [Economic_Terms] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 12:12:33   [LCM_HCF] FAILED Feynman_hi.txt: rate_limited
+09-10 12:12:56   [Reports_Indices] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 12:14:51   [Number_System] Practice_en_Set_02.txt try 1: rejected (Q41:leaked_reasoning,Q45:leaked_reasoning)
+09-10 12:15:08   [LCM_HCF] wrote Mind_Map.txt (2706 chars)
 ```
