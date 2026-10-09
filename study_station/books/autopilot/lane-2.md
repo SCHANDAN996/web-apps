@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 10:12 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 10:13 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 16 Books Authors (Graduation GK) | 🔎 review हो रहा है | 8 मिनट |
-| W2 | Chapter 14 Sports (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 13 Awards (Graduation GK) | 🔎 review हो रहा है | 52 मिनट |
-| W4 | Chapter 17 Culture Art (Graduation GK) | ✍️ लिख रहा है | 52 मिनट |
-| W5 | Chapter 15 Days Dates (Graduation GK) | 🔎 review हो रहा है | 4 मिनट |
+| W1 | Chapter 16 Books Authors (Graduation GK) | 🔎 review हो रहा है | 10 मिनट |
+| W2 | Chapter 18 Science Tech (Graduation GK) | ✍️ लिख रहा है | 1 मिनट |
+| W3 | Chapter 13 Awards (Graduation GK) | 🔎 review हो रहा है | 54 मिनट |
+| W4 | Chapter 17 Culture Art (Graduation GK) | ✍️ लिख रहा है | 54 मिनट |
+| W5 | Chapter 15 Days Dates (Graduation GK) | 🔎 review हो रहा है | 6 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -49,10 +49,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 09:48:38   [Awards] review Key_Facts_en.txt: 1 issue(s): - Bhanu Athaiya's Oscar for "Gandhi" was at the 1983 ceremony (55th Academy Awards, April 1983), not 1982 → corre
-09-10 09:48:55   [Culture_Art] wrote Feynman_en.txt (3485 chars)
-09-10 09:49:20   [Days_Dates] review Key_Facts_en.txt: 3 issue(s): - 9 May listed as Rabindranath Tagore Jayanti → Rabindranath Tagore Jayanti is observed on 7 May (not 9 May)
-09-10 09:49:41   [Books_Authors] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 09-10 09:50:39   [Days_Dates] REJECTED review fix Key_Facts_en.txt: corrupted characters
 09-10 09:50:55   [Culture_Art] wrote Feynman_hi.txt (3409 chars)
 09-10 09:51:00   [Sports] review Key_Facts_hi.txt: 1 issue(s): - पियरे द कूबर्टिन → पियरे दे कूबर्टिन
@@ -89,4 +85,8 @@
 09-10 10:11:05   [Culture_Art] wrote Memory_Hooks_en.txt (7523 chars)
 09-10 10:12:02   [Sports] review: 9 section(s) corrected, 0 failed
 09-10 10:12:02   [Sports] written 9, failed 0; AI calls today 212/100000
+09-10 10:12:14 DONE Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_14_Sports in 65 min → b5d63336
+09-10 10:12:15 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_18_Science_Tech (TODO: todo 25, problems 0)
+09-10 10:12:51   [Culture_Art] wrote Memory_Hooks_hi.txt (4776 chars)
+09-10 10:13:17   [Awards] review Mind_Map.txt: 2 issue(s): - ज्ञानपीठ पुरस्कार (1965) → ज्ञानपीठ पुरस्कार (1961) [स्थापना वर्ष 1961; पहला पुरस्कार 1965 में दिया गया]
 ```
