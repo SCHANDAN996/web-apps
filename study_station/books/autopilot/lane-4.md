@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 02:38 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 02:47 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 03 Modern History (12th GK) | 🔎 review हो रहा है | 46 मिनट |
-| W2 | Chapter 24 Reports Indices (12th GK) | 🔎 review हो रहा है | 33 मिनट |
-| W3 | Chapter 25 Govt Schemes (12th GK) | 🔎 review हो रहा है | 17 मिनट |
-| W4 | Chapter 18 Science Tech (12th GK) | 🔎 review हो रहा है | 36 मिनट |
-| W5 | Chapter 21 International Orgs (12th GK) | 🔎 review हो रहा है | 33 मिनट |
+| W1 | Chapter 03 Modern History (12th GK) | 🔎 review हो रहा है | 54 मिनट |
+| W2 | Chapter 24 Reports Indices (12th GK) | 🔎 review हो रहा है | 42 मिनट |
+| W3 | Chapter 25 Govt Schemes (12th GK) | 🔎 review हो रहा है | 25 मिनट |
+| W4 | Chapter 18 Science Tech (12th GK) | 📤 push हो रहा है | 0 मिनट |
+| W5 | Chapter 21 International Orgs (12th GK) | 🔎 review हो रहा है | 41 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,7 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 09-10 14:47 — 12th GK · Chapter 18 Science Tech
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
@@ -44,14 +44,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 14:00:25   [Biology] written 1, failed 0; AI calls today 14/100000
-09-10 14:00:25 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_12_Biology after 4 min: todo [] problems ['Feynman_hi.txt: much shorter than the English section (2965 ']
-09-10 14:00:26 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_24_Reports_Indices (TODO: todo 1, problems 0)
-09-10 14:00:30   [International_Orgs] Practice_hi_Set_01.txt try 2: rejected (Q22:needs_context)
-09-10 14:02:19   [Science_Tech] repaired Memory_Hooks_hi.txt (5623 chars)
-09-10 14:02:19   [Science_Tech] written 1, failed 0; AI calls today 16/100000
-09-10 14:02:37   [Sports] repaired Memory_Hooks_hi.txt (4854 chars)
-09-10 14:02:37   [Sports] written 1, failed 0; AI calls today 18/100000
 09-10 14:03:05   [Reports_Indices] wrote Flashcards_hi.txt (8656 chars)
 09-10 14:03:05   [Reports_Indices] written 1, failed 0; AI calls today 19/100000
 09-10 14:04:56   [Sports] repaired Memory_Hooks_hi.txt (4863 chars)
@@ -84,4 +76,12 @@
 09-10 14:32:24   [Science_Tech] review Flashcards_hi.txt: 1 issue(s): - Card 16 front incorrectly states “SIM में मोबाइल तकनीक के तीन पीढ़ियाँ — 1G, 2G, 3G, 4G, 5G”; SIM is Subscribe
 09-10 14:35:46   [Reports_Indices] review Key_Facts_hi.txt: 1 issue(s): - The entry "विश्व अभिभावक रिपोर्ट / विश्व शिक्षा निगरानी रिपोर्ट (GEM)" incorrectly lists a "World Parenting Rep
 09-10 14:38:20   [Govt_Schemes] review Key_Facts_en.txt: 1 issue(s): - Lakhpati Didi trap: initial target stated as 1 crore → initial target was 2 crore (announced Aug 2023), revised
+09-10 14:39:07   [International_Orgs] review PYQ_hi.txt: 2 issue(s): - In Q7, the answer key says (c) NAM, but India is a founding member of the Non-Aligned Movement (1961 Belgrade Confere
+09-10 14:41:13   [Science_Tech] review PYQ_hi.txt: 1 issue(s): - प्रश्न 2: दूध की अम्लीयता (acidity) जाँचने के लिए लैक्टोमीटर का उपयोग गलत है — लैक्टोमीटर दूध का घनत्व/शुद्धता मापता 
+09-10 14:45:26   [Reports_Indices] review PYQ_hi.txt: 1 issue(s): - प्रश्न 2 के विकल्प (a) में HDI के स्वास्थ्य आयाम का संकेतक 'बाल्यावस्था में जीवन प्रत्याशा' लिखा है → सही है 'जन्म के
+09-10 14:45:35   [Modern_History] review Memory_Hooks_hi.txt: 3 issue(s): - डेनिश (1620, तंजौर) → डेनिश (1620, ट्रांकबार)
+09-10 14:45:50   [Science_Tech] review Memory_Hooks_hi.txt: 1 issue(s): - बॉक्स 6 में ग्रुप 1 का मेमोनिक "हिना लीना के रबी से फरार" का हिंदी मैपिंग गलत क्रम देता है: "ना = सोडियम" और
+09-10 14:47:09   [Govt_Schemes] review Feynman_en.txt: 1 issue(s): - Pradhan Mantri Awas Yojana is listed as a Central Sector Scheme example → Pradhan Mantri Awas Yojana (both Gramin
+09-10 14:47:17   [Science_Tech] review: 6 section(s) corrected, 0 failed
+09-10 14:47:17   [Science_Tech] written 6, failed 0; AI calls today 97/100000
 ```
