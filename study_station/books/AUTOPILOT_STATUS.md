@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 05:26 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 05:42 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 186 मिनट |
-| W2 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 26 मिनट |
-| W3 | Chapter 12 Missing Term (Graduation Reasoning) | ✍️ लिख रहा है | 1 मिनट |
-| W4 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 33 मिनट |
-| W5 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 214 मिनट |
+| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 201 मिनट |
+| W2 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 41 मिनट |
+| W3 | Chapter 12 Missing Term (Graduation Reasoning) | 🔎 review हो रहा है | 14 मिनट |
+| W4 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 48 मिनट |
+| W5 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 229 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -23,16 +23,16 @@
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 9 | 13 | 0 |
-| 10th English | 5 | 0 | 15 |
+| 10th English | 7 | 0 | 13 |
 | 12th Maths | 2 | 0 | 21 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 3 | 0 | 22 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 22 | 0 | 6 |
-| Graduation Reasoning | 8 | 0 | 22 |
+| Graduation Reasoning | 9 | 0 | 21 |
 | Graduation English | 29 | 1 | 0 |
-| **कुल** | **164** | **14** | **118** |
+| **कुल** | **167** | **14** | **115** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -51,17 +51,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 17:01:52   [Dictionary_Order] wrote Feynman_hi.txt (2855 chars)
-09-10 17:02:08   [Alphabet_Questions] wrote Content_en.txt (8732 chars)
-09-10 17:02:17   [Dictionary_Order] wrote Mind_Map.txt (2006 chars)
-09-10 17:04:30   [Dictionary_Order] wrote Flashcards_en.txt (4947 chars)
-09-10 17:05:23   [Alphabet_Questions] wrote Content_hi.txt (7022 chars)
-09-10 17:06:00   [Puzzles] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 17:06:17   [Alphabet_Questions] Feynman_en.txt try 1: rejected (chat debris "Here's the")
-09-10 17:06:50   [Dictionary_Order] wrote Flashcards_hi.txt (3885 chars)
-09-10 17:06:52   [Alphabet_Questions] Feynman_en.txt try 2: rejected (chat debris "Here's the")
-09-10 17:06:52   [Alphabet_Questions] REJECTED Feynman_en.txt: chat debris "Here's the" — not written
-09-10 17:07:35   [Missing_Term] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 09-10 17:08:17   [Puzzles] Practice_en_Set_06.txt try 1: rejected (Q126:leaked_reasoning,Q132:leaked_reasoning)
 09-10 17:08:32   [Alphabet_Questions] wrote Feynman_hi.txt (2999 chars)
 09-10 17:08:48   [Dictionary_Order] wrote PYQ_en.txt (10002 chars)
@@ -91,4 +80,15 @@
 09-10 17:25:25 NOT OK Graduation_Level/Reasoning/Chapter_12_Missing_Term after 76 min: todo ['Content_en.txt'] problems []
 09-10 17:25:27 START Graduation_Level/Reasoning/Chapter_12_Missing_Term (TODO: todo 1, problems 0)
 09-10 17:26:15   [Dictionary_Order] Practice_en_Set_01.txt try 1: rejected (Q8:leaked_reasoning,Q21:leaked_reasoning,Q25:leaked_reasoning)
+09-10 17:27:06   [Missing_Term] wrote Content_en.txt (7829 chars)
+09-10 17:27:06   [Missing_Term] written 1, failed 0; AI calls today 308/100000
+09-10 17:28:28   [Alphabet_Questions] Practice_en_Set_01.txt try 1: rejected (Q4:leaked_reasoning,Q8:leaked_reasoning,Q19:leaked_reasoning,Q20:leaked_reasoning,Q22:leaked_reasoning)
+09-10 17:30:27   [Missing_Term] review Content_en.txt: 1 issue(s): - Trap 1 example (4, 9, 19, 39, ?) claims a partial rule fits only the first two terms, but ×2+1 fits all given ter
+09-10 17:32:06   [Dictionary_Order] Practice_en_Set_01.txt try 2: re-solve disagrees (Q4 key a vs re-solve d, Q16 key b vs re-solve d, Q22 key d vs re-solve a)
+09-10 17:32:45   [Sitting_Arrangement] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 17:36:24   [Sitting_Arrangement] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 17:39:20   [Dictionary_Order] Practice_en_Set_01.txt try 3: re-solve disagrees (Q4 key d vs re-solve a, Q16 key c vs re-solve d)
+09-10 17:41:06   [Puzzles] Practice_en_Set_06.txt try 3: re-solve disagrees (Q126 key a vs re-solve -, Q127 key a vs re-solve -, Q128 key d vs re-solve -, Q129 key c vs re-solve
+09-10 17:41:46   [Missing_Term] review Flashcards_hi.txt: 3 issue(s): - Card 6: Invented statistic “90% मामलों में” → Replace with “अक्सर” or remove the percentage claim.
+09-10 17:42:02   [Sitting_Arrangement] Practice_en_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
 ```
