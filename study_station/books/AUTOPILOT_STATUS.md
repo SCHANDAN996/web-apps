@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 05:48 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 05:51 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 Blood Relations (Graduation Reasoning) | ✍️ लिख रहा है | 83 मिनट |
-| W2 | Chapter 03 Coding Decoding (Graduation Reasoning) | ✍️ लिख रहा है | 96 मिनट |
-| W3 | Chapter 02 Classification (Graduation Reasoning) | ✍️ लिख रहा है | 144 मिनट |
-| W4 | Chapter 05 Direction Sense (Graduation Reasoning) | ✍️ लिख रहा है | 31 मिनट |
-| W5 | Chapter 01 Analogy (Graduation Reasoning) | 🔎 review हो रहा है | 6 मिनट |
+| W1 | Chapter 04 Blood Relations (Graduation Reasoning) | ✍️ लिख रहा है | 86 मिनट |
+| W2 | Chapter 03 Coding Decoding (Graduation Reasoning) | ✍️ लिख रहा है | 99 मिनट |
+| W3 | Chapter 02 Classification (Graduation Reasoning) | ✍️ लिख रहा है | 146 मिनट |
+| W4 | Chapter 05 Direction Sense (Graduation Reasoning) | ✍️ लिख रहा है | 34 मिनट |
+| W5 | Chapter 01 Analogy (Graduation Reasoning) | 📤 push हो रहा है | 0 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md)
 
@@ -36,6 +36,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 05:51 — Graduation Reasoning · Chapter 01 Analogy
 - 09-10 04:12 — Graduation English · Chapter 23 Sentence Arrangement
 - 09-10 03:24 — Graduation English · Chapter 25 Word Roots
 
@@ -48,8 +49,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 05:19:49   [Blood_Relations] wrote Important_Rules_hi.txt (3248 chars)
-09-10 05:20:15   [Analogy] review Feynman_hi.txt: 1 issue(s): - The analogy example incorrectly states that चाचा's counterpart in the parent‑child relation is “भतीजा/बेटा”; चाचा
 09-10 05:21:32   [Direction_Sense] wrote Content_en.txt (9102 chars)
 09-10 05:22:02   [Blood_Relations] Practice_en_Set_01.txt try 1: rejected (Q20:leaked_reasoning)
 09-10 05:23:48   [Classification] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
@@ -88,4 +87,6 @@
 09-10 05:46:53   [Coding_Decoding] Practice_en_Set_01.txt try 1: rejected (Q22:leaked_reasoning,Q23:leaked_reasoning,Q13:duplicate_options,Q17:duplicate_options,Q21:duplicate_options)
 09-10 05:47:20   [Direction_Sense] Practice_en_Set_01.txt try 1: rejected (Q12:leaked_reasoning)
 09-10 05:48:00   [Analogy] review Content_hi.txt: 2 issue(s): - "80% छात्रों को फँसाता है" → invented statistic; replace with "कई छात्रों को फँसाता है" or remove the percentage
+09-10 05:51:39   [Analogy] review: 1 section(s) corrected, 0 failed
+09-10 05:51:39   [Analogy] written 1, failed 0; AI calls today 254/100000
 ```
