@@ -9,8 +9,8 @@
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
 | W1 | Chapter 22 Defence (Graduation GK) | ✍️ लिख रहा है | 6 मिनट |
-| W2 | Chapter 18 Science Tech (Graduation GK) | 🔎 review हो रहा है | 43 मिनट |
-| W3 | Chapter 21 International Orgs (Graduation GK) | 🔎 review हो रहा है | 17 मिनट |
+| W2 | Chapter 18 Science Tech (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 21 International Orgs (Graduation GK) | 🔎 review हो रहा है | 18 मिनट |
 | W4 | Chapter 23 Economic Terms (Graduation GK) | ✍️ लिख रहा है | 34 मिनट |
 | W5 | Chapter 19 Environment (Graduation GK) | 🔎 review हो रहा है | 15 मिनट |
 
@@ -34,6 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 12:30 — Graduation GK · Chapter 18 Science Tech
 - 09-10 11:55 — Graduation GK · Chapter 17 Culture Art
 - 09-10 10:46 — Graduation GK · Chapter 16 Books Authors
 - 09-10 10:19 — Graduation GK · Chapter 15 Days Dates
@@ -55,8 +56,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 12:09:56   [International_Orgs] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-09-10 12:11:02   [Defence] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 09-10 12:11:07   [Economic_Terms] Content_en.txt try 1: answer too long — asking for a tighter version
 09-10 12:12:08   [Environment] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 09-10 12:12:08   [Environment] written 24, failed 1; AI calls today 440/100000
@@ -95,4 +94,6 @@
 09-10 12:29:34   [International_Orgs] review Key_Facts_en.txt: 2 issue(s): - UN founded description says "24 October 1945, San Francisco Conference" → San Francisco Conference was April–Ju
 09-10 12:30:11   [Economic_Terms] wrote PYQ_en.txt (10927 chars)
 09-10 12:30:22   [Defence] Practice_hi_Set_01.txt try 2: rejected (Q24:needs_context)
+09-10 12:30:31   [Science_Tech] review: 6 section(s) corrected, 0 failed
+09-10 12:30:31   [Science_Tech] written 6, failed 0; AI calls today 489/100000
 ```
