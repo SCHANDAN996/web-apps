@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 05:18 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 05:33 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 Blood Relations (Graduation Reasoning) | ✍️ लिख रहा है | 52 मिनट |
-| W2 | Chapter 03 Coding Decoding (Graduation Reasoning) | ✍️ लिख रहा है | 66 मिनट |
-| W3 | Chapter 02 Classification (Graduation Reasoning) | ✍️ लिख रहा है | 113 मिनट |
-| W4 | Chapter 05 Direction Sense (Graduation Reasoning) | ✍️ लिख रहा है | 1 मिनट |
-| W5 | Chapter 01 Analogy (Graduation Reasoning) | 🔎 review हो रहा है | 3 मिनट |
+| W1 | Chapter 04 Blood Relations (Graduation Reasoning) | ✍️ लिख रहा है | 68 मिनट |
+| W2 | Chapter 03 Coding Decoding (Graduation Reasoning) | ✍️ लिख रहा है | 81 मिनट |
+| W3 | Chapter 02 Classification (Graduation Reasoning) | ✍️ लिख रहा है | 129 मिनट |
+| W4 | Chapter 05 Direction Sense (Graduation Reasoning) | ✍️ लिख रहा है | 16 मिनट |
+| W5 | Chapter 01 Analogy (Graduation Reasoning) | 🔎 review हो रहा है | 18 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md)
 
@@ -47,23 +47,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 04:50:46   [Classification] Practice_en_Set_02.txt try 2: rejected (Q49:leaked_reasoning,Q50:leaked_reasoning)
-09-10 04:52:59   [Blood_Relations] wrote Content_hi.txt (7110 chars)
-09-10 04:53:30   [Analogy] Practice_en_Set_06.txt try 1: re-solve disagrees (Q137 key d vs re-solve a, Q143 key b vs re-solve c)
-09-10 04:55:06   [Blood_Relations] Feynman_en.txt try 1: rejected (chat debris "Here's the")
-09-10 04:56:50   [Blood_Relations] Feynman_en.txt try 2: rejected (chat debris "Here's the")
-09-10 04:56:50   [Blood_Relations] REJECTED Feynman_en.txt: chat debris "Here's the" — not written
-09-10 04:58:32   [Blood_Relations] wrote Feynman_hi.txt (3098 chars)
-09-10 05:01:02   [Classification] FAILED Practice_en_Set_02.txt: rate_limited
-09-10 05:01:02   [Classification] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
-09-10 05:01:15   [Coding_Decoding] wrote Feynman_en.txt (2822 chars)
-09-10 05:02:19   [Blood_Relations] wrote Mind_Map.txt (1896 chars)
-09-10 05:03:26   [Coding_Decoding] Feynman_hi.txt try 1: rejected (corrupted characters)
-09-10 05:03:51   [Classification] Practice_en_Set_03.txt try 1: rejected (Q65:leaked_reasoning)
-09-10 05:04:16   [Blood_Relations] wrote Flashcards_en.txt (6227 chars)
-09-10 05:06:35   [Blood_Relations] wrote Flashcards_hi.txt (4914 chars)
-09-10 05:07:02   [Coding_Decoding] wrote Feynman_hi.txt (3655 chars)
-09-10 05:07:09   [Analogy] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 09-10 05:09:14   [Coding_Decoding] wrote Mind_Map.txt (1846 chars)
 09-10 05:09:29   [Blood_Relations] wrote PYQ_en.txt (11530 chars)
 09-10 05:11:27   [Classification] Practice_en_Set_03.txt try 2: rejected (parsed 0 questions, numbers -…-)
@@ -87,4 +70,21 @@
 09-10 05:17:52   [Blood_Relations] wrote Important_Rules_en.txt (3808 chars)
 09-10 05:18:21   [Coding_Decoding] wrote PYQ_en.txt (11027 chars)
 09-10 05:18:38   [Analogy] REJECTED review fix Content_hi.txt: too short
+09-10 05:19:26   [Direction_Sense] Content_en.txt try 1: rejected (chat debris "Here is the")
+09-10 05:19:49   [Blood_Relations] wrote Important_Rules_hi.txt (3248 chars)
+09-10 05:20:15   [Analogy] review Feynman_hi.txt: 1 issue(s): - The analogy example incorrectly states that चाचा's counterpart in the parent‑child relation is “भतीजा/बेटा”; चाचा
+09-10 05:21:32   [Direction_Sense] wrote Content_en.txt (9102 chars)
+09-10 05:22:02   [Blood_Relations] Practice_en_Set_01.txt try 1: rejected (Q20:leaked_reasoning)
+09-10 05:23:48   [Classification] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 05:24:04   [Analogy] review Mind_Map.txt: 2 issue(s): - C1c: Hindi "कार्य : कर्ता / उपकरण" does not match English "Tool : Worker / Function" → change Hindi to "उपकरण : कर्
+09-10 05:24:08   [Direction_Sense] wrote Content_hi.txt (7448 chars)
+09-10 05:25:29   [Direction_Sense] wrote Feynman_en.txt (3946 chars)
+09-10 05:25:50   [Classification] Practice_en_Set_04.txt try 1: rejected (Q86:leaked_reasoning,Q87:leaked_reasoning,Q93:leaked_reasoning,Q94:leaked_reasoning)
+09-10 05:27:02   [Direction_Sense] wrote Feynman_hi.txt (3095 chars)
+09-10 05:27:02   [Blood_Relations] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 05:27:46   [Direction_Sense] wrote Mind_Map.txt (2310 chars)
+09-10 05:28:18   [Classification] Practice_en_Set_04.txt try 2: rejected (Q86:leaked_reasoning,Q87:leaked_reasoning,Q93:leaked_reasoning,Q94:leaked_reasoning)
+09-10 05:29:17   [Direction_Sense] wrote Flashcards_en.txt (5658 chars)
+09-10 05:30:40   [Blood_Relations] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 05:30:48   [Direction_Sense] wrote Flashcards_hi.txt (4087 chars)
 ```
