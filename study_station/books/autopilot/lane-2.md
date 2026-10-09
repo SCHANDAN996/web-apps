@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 12:47 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 01:00 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 21 International Orgs (Graduation GK) | 🔎 review हो रहा है | 34 मिनट |
-| W4 | Chapter 23 Economic Terms (Graduation GK) | ✍️ लिख रहा है | 51 मिनट |
-| W5 | Chapter 19 Environment (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 21 International Orgs (Graduation GK) | 🔎 review हो रहा है | 48 मिनट |
+| W4 | Chapter 23 Economic Terms (Graduation GK) | ✍️ लिख रहा है | 64 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -21,14 +20,14 @@
 | 10th Maths | 9 | 13 | 0 |
 | 10th English | 0 | 0 | 20 |
 | 12th Maths | 0 | 0 | 23 |
-| 12th GK | 16 | 0 | 8 |
+| 12th GK | 17 | 0 | 7 |
 | 12th Reasoning | 0 | 0 | 25 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 20 | 0 | 8 |
 | Graduation Reasoning | 3 | 0 | 27 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **141** | **13** | **142** |
+| **कुल** | **142** | **13** | **141** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -48,19 +47,11 @@
 
 - Chapter 13 Awards (GK) — 2 बार
 - Chapter 21 International Orgs (GK) — 1 बार
-- Chapter 19 Environment (GK) — 1 बार
 - Chapter 22 Defence (GK) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 12:23:43   [Economic_Terms] wrote Feynman_hi.txt (2733 chars)
-09-10 12:23:59   [Defence] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 12:23:59   [Defence] written 22, failed 3; AI calls today 472/100000
-09-10 12:23:59 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_22_Defence after 97 min: todo ['Set 01 hi: todo', 'Set 03 en: todo', 'Set 03 hi: todo'] problems []
-09-10 12:24:00 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_22_Defence (TODO: todo 3, problems 0)
-09-10 12:24:34   [Economic_Terms] wrote Mind_Map.txt (3026 chars)
-09-10 12:25:17   [Economic_Terms] wrote Flashcards_en.txt (5284 chars)
 09-10 12:26:24   [Environment] review Mind_Map.txt: 1 issue(s): - B3: "आवासीय स्थान" is not the standard Hindi term for Niche; the correct term is "निच" or "पारिस्थितिक निच" → Repla
 09-10 12:26:35   [Economic_Terms] wrote Flashcards_hi.txt (4188 chars)
 09-10 12:26:53   [Defence] Practice_hi_Set_01.txt try 1: rejected (Q24:needs_context)
@@ -94,4 +85,11 @@
 09-10 12:45:51   [Environment] review Memory_Hooks_hi.txt: 2 issue(s): - Mnemonic 13: “शुष्क पौधों” (dry plants) is incorrect for the hotspot criterion → should be “संवहनी पौधे” (va
 09-10 12:47:10   [Environment] review: 5 section(s) corrected, 0 failed
 09-10 12:47:10   [Environment] written 5, failed 0; AI calls today 515/100000
+09-10 12:47:23 DONE Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_19_Environment in 35 min → 92411bec
+09-10 12:47:23 worker 4: nothing left
+09-10 12:47:35   [International_Orgs] review Flashcards_en.txt: 1 issue(s): - Back side repeats "New York City" 30 times instead of once → "New York City"
+09-10 12:50:44   [Economic_Terms] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 12:51:27   [International_Orgs] review PYQ_en.txt: 1 issue(s): - Global Hunger Index listed under "Reports and indices published by organizations" → Global Hunger Index is not publis
+09-10 12:54:24   [Economic_Terms] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+09-10 13:00:22   [Economic_Terms] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 ```
