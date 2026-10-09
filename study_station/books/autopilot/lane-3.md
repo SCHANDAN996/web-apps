@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 02:29 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 02:39 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Para Jumbles (12th English) | ✍️ लिख रहा है | 20 मिनट |
-| W2 | Chapter 23 Sentence Arrangement (12th English) | ✍️ लिख रहा है | 11 मिनट |
-| W3 | Chapter 01 Analogy (12th Reasoning) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 03 Coding Decoding (12th Reasoning) | ✍️ लिख रहा है | 36 मिनट |
-| W5 | Chapter 04 Blood Relations (12th Reasoning) | ✍️ लिख रहा है | 36 मिनट |
+| W1 | Chapter 22 Para Jumbles (12th English) | ✍️ लिख रहा है | 29 मिनट |
+| W2 | Chapter 23 Sentence Arrangement (12th English) | ✍️ लिख रहा है | 21 मिनट |
+| W3 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 9 मिनट |
+| W4 | Chapter 03 Coding Decoding (12th Reasoning) | ✍️ लिख रहा है | 1 मिनट |
+| W5 | Chapter 04 Blood Relations (12th Reasoning) | ✍️ लिख रहा है | 46 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -40,23 +40,11 @@
 
 - Chapter 22 Para Jumbles (English) — 1 बार
 - Chapter 23 Sentence Arrangement (English) — 1 बार
-- Chapter 01 Analogy (Reasoning) — 1 बार
+- Chapter 03 Coding Decoding (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 13:53:48   [Para_Jumbles] Practice_en_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 13:54:18   [Analogy] review Content_en.txt: 1 issue(s): - The Trap 3 example (Apple : Fruit with options Mango : Tree and Carrot : Vegetable) incorrectly claims two option
-09-10 13:54:35   [Coding_Decoding] wrote Feynman_en.txt (4103 chars)
-09-10 13:55:00   [Sentence_Arrangement] Practice_en_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 13:57:11   [Para_Jumbles] Practice_en_Set_06.txt try 2: rejected (Q144:duplicate_options)
-09-10 14:00:32   [Coding_Decoding] Practice_en_Set_02.txt try 1: rejected (Q26:leaked_reasoning)
-09-10 14:02:36   [Sentence_Arrangement] Practice_en_Set_04.txt try 2: re-solve disagrees (Q82 key a vs re-solve b, Q87 key a vs re-solve ?, Q89 key d vs re-solve ?, Q94 key a vs re-solve ?)
-09-10 14:03:55   [Para_Jumbles] Practice_en_Set_06.txt try 3: re-solve disagrees (Q139 key c vs re-solve a, Q140 key d vs re-solve c, Q142 key a vs re-solve c)
-09-10 14:04:12   [Analogy] review Feynman_hi.txt: 2 issue(s): - The claim "यहीं 90% बच्चे फँसते हैं!" is an invented statistic with no source → Remove or replace the unsourced "
-09-10 14:07:08   [Coding_Decoding] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-09-10 14:09:18   [Para_Jumbles] Practice_en_Set_06.txt try 4: re-solve disagrees (Q128 key c vs re-solve b, Q148 key c vs re-solve b)
-09-10 14:09:18   [Para_Jumbles] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
 09-10 14:09:18   [Para_Jumbles] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
 09-10 14:09:18   [Para_Jumbles] written 0, failed 2; AI calls today 27/100000
 09-10 14:09:18 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_22_Para_Jumbles after 17 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems []
@@ -85,4 +73,16 @@
 09-10 14:26:02   [Analogy] review Short_Tricks_en.txt: 1 issue(s): - Box 5: The example "Horse : Mare" is presented as a male:female pair, but "horse" is gender-neutral (the mal
 09-10 14:29:22   [Analogy] review: 1 section(s) corrected, 0 failed
 09-10 14:29:22   [Analogy] written 1, failed 0; AI calls today 51/100000
+09-10 14:29:35 DONE 12th_Level/Reasoning/Chapter_01_Analogy in 6 min → ed7a2f90
+09-10 14:29:37 START 12th_Level/Reasoning/Chapter_05_Direction_Sense (TODO: todo 11, problems 2)
+09-10 14:32:35   [Coding_Decoding] Practice_en_Set_06.txt try 2: re-solve disagrees (Q129 key a vs re-solve ?, Q148 key c vs re-solve ?)
+09-10 14:35:03   [Para_Jumbles] Practice_en_Set_06.txt try 2: re-solve disagrees (Q127 key a vs re-solve d, Q130 key c vs re-solve a, Q132 key b vs re-solve c, Q133 key c vs re-solve
+09-10 14:35:41   [Coding_Decoding] Practice_en_Set_06.txt try 3: rejected (parsed 0 questions, numbers -…-)
+09-10 14:37:29   [Coding_Decoding] Practice_en_Set_06.txt try 4: rejected (parsed 27 questions, numbers 126…152)
+09-10 14:37:29   [Coding_Decoding] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+09-10 14:37:29   [Coding_Decoding] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+09-10 14:37:29   [Coding_Decoding] written 4, failed 2; AI calls today 55/100000
+09-10 14:37:29 NOT OK 12th_Level/Reasoning/Chapter_03_Coding_Decoding after 45 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems ['Content_hi.txt: Hindi file is mostly not in Hindi', 'Content_hi.txt: does not mention the chapter topic (coding, ', 'Content_hi.txt: much shorter than the English section (320 v']
+09-10 14:37:31 START 12th_Level/Reasoning/Chapter_03_Coding_Decoding (TODO: todo 2, problems 3)
+09-10 14:38:47   [Blood_Relations] Practice_en_Set_03.txt try 2: rejected (parsed 0 questions, numbers -…-)
 ```
