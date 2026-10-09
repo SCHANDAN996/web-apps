@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 06:48 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 07:03 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Awards (Graduation GK) | ✍️ लिख रहा है | 24 मिनट |
-| W2 | Chapter 08 World Geography (Graduation GK) | 🔎 review हो रहा है | 47 मिनट |
-| W3 | Chapter 10 Physics Daily (Graduation GK) | 🔎 review हो रहा है | 32 मिनट |
-| W4 | Chapter 14 Sports (Graduation GK) | ✍️ लिख रहा है | 3 मिनट |
-| W5 | Chapter 12 Biology (Graduation GK) | ✍️ लिख रहा है | 106 मिनट |
+| W1 | Chapter 13 Awards (Graduation GK) | ✍️ लिख रहा है | 39 मिनट |
+| W2 | Chapter 16 Books Authors (Graduation GK) | ✍️ लिख रहा है | 3 मिनट |
+| W3 | Chapter 15 Days Dates (Graduation GK) | ✍️ लिख रहा है | 12 मिनट |
+| W4 | Chapter 14 Sports (Graduation GK) | ✍️ लिख रहा है | 18 मिनट |
+| W5 | Chapter 12 Biology (Graduation GK) | ✍️ लिख रहा है | 122 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -25,12 +25,12 @@
 | 12th Maths | 0 | 0 | 23 |
 | 12th GK | 9 | 0 | 15 |
 | 12th Reasoning | 0 | 0 | 25 |
-| 12th English | 16 | 0 | 9 |
+| 12th English | 17 | 0 | 8 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 10 | 0 | 18 |
 | Graduation Reasoning | 1 | 0 | 29 |
 | Graduation English | 28 | 0 | 2 |
-| **कुल** | **114** | **13** | **169** |
+| **कुल** | **115** | **13** | **168** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -43,37 +43,13 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 09 Economy Basic (GK) — 2 बार
-- Chapter 08 World Geography (GK) — 1 बार
-- Chapter 10 Physics Daily (GK) — 1 बार
+- Chapter 08 World Geography (GK) — 2 बार
+- Chapter 10 Physics Daily (GK) — 2 बार
 - Chapter 11 Chemistry (GK) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 06:22:23   [Chemistry] Feynman_en.txt try 1: rejected (chat debris "Here's the")
-09-10 06:22:53   [Biology] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-09-10 06:23:54   [Chemistry] Feynman_en.txt try 2: rejected (chat debris "Here is the")
-09-10 06:23:54   [Chemistry] REJECTED Feynman_en.txt: chat debris "Here is the" — not written
-09-10 06:23:54   [Chemistry] written 0, failed 1; AI calls today 339/100000
-09-10 06:23:54 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_11_Chemistry after 3 min: todo ['Feynman_en.txt'] problems ['Feynman_hi.txt: Hindi file is mostly not in Hindi']
-09-10 06:23:54 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards (TODO: todo 25, problems 0)
-09-10 06:24:07   [Physics_Daily] review Key_Facts_en.txt: 1 issue(s): - The entire section content is corrupted garbage text (repetitive "High-Y" strings) with no actual key facts, fi
-09-10 06:26:01   [World_Geography] review Key_Facts_hi.txt: 1 issue(s): - परिक्रमण अवधि (Revolution period) को 365 दिन 6 घंटे 9 मिनट बताया गया है, जो तारकीय वर्ष (sidereal year) है; कैल
-09-10 06:26:39   [Awards] wrote Content_en.txt (11705 chars)
-09-10 06:26:44   [Physics_Daily] REJECTED review fix Key_Facts_en.txt: chat debris "Text"
-09-10 06:29:03   [Biology] Practice_en_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 06:29:26   [Physics_Daily] review Feynman_hi.txt: 1 issue(s): - Invented statistic "90% विद्यार्थी फंसते हैं" → Remove the percentage or replace with a non-quantified phrase lik
-09-10 06:30:35   [Awards] wrote Content_hi.txt (10849 chars)
-09-10 06:31:53   [Economy_Basic] review PYQ_en.txt: 1 issue(s): - In the "Chronological Confusion" trap list, "RBI established 1934" is incorrect; the Reserve Bank of India was establ
-09-10 06:32:46   [Awards] wrote Key_Facts_en.txt (10389 chars)
-09-10 06:34:04   [Physics_Daily] review Mind_Map.txt: 2 issue(s): - Speed of sound given as 332 m/s but echo minimum distance given as 17.2 m (consistent with ~344 m/s) → Use consiste
-09-10 06:35:20   [Economy_Basic] review PYQ_hi.txt: 1 issue(s): - Q6: Option (b) and explanation incorrectly identify WPI releasing authority as 'आर्थिक मामले विभाग (वाणिज्य एवं उद्यो
-09-10 06:35:36   [Biology] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-09-10 06:35:59   [Awards] wrote Key_Facts_hi.txt (6541 chars)
-09-10 06:37:54   [Physics_Daily] review Flashcards_en.txt: 7 issue(s): - Card 1 back: "Water lowers the glass's resonant frequency, so the rim vibrates at a higher pitch" is incorrect
-09-10 06:38:01   [World_Geography] review Feynman_hi.txt: 1 issue(s): - "अमेरिका से जापान उड़ो तो एक दिन गायब — जैसे मंगलवार कभी आया ही नहीं" उदाहरण गलत है: पूर्व से पश्चिम (अमेरिका→जाप
-09-10 06:38:19   [Awards] wrote Feynman_en.txt (2734 chars)
-09-10 06:38:54   [Biology] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 09-10 06:39:22   [Economy_Basic] review Memory_Hooks_en.txt: 2 issue(s): - Hook 1 mnemonic "Papa Took Sugar" claims to stand for Primary, Secondary, Tertiary but the initials are P, T
 09-10 06:41:06   [Biology] Practice_en_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
 09-10 06:41:22   [Awards] wrote Feynman_hi.txt (2881 chars)
@@ -90,4 +66,28 @@
 09-10 06:46:48   [World_Geography] review Flashcards_hi.txt: 2 issue(s): - Card 9: The mnemonic "P-A-I-A-S" (5 letters) and the phrase "पापा आए इधर आओ सोनू" do not match the four oceans
 09-10 06:47:33   [Sports] wrote Content_en.txt (10348 chars)
 09-10 06:48:07   [Awards] wrote Flashcards_hi.txt (3803 chars)
+09-10 06:49:43   [Biology] Practice_en_Set_05.txt try 2: rejected (parsed 0 questions, numbers -…-)
+09-10 06:51:24   [Physics_Daily] review: 5 section(s) corrected, 1 failed
+09-10 06:51:24   [Physics_Daily] written 5, failed 1; AI calls today 400/100000
+09-10 06:51:25 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_10_Physics_Daily after 48 min: todo [] problems []
+09-10 06:51:25 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_15_Days_Dates (TODO: todo 25, problems 0)
+09-10 06:51:55   [Sports] wrote Content_hi.txt (9618 chars)
+09-10 06:52:22   [Biology] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 06:53:25   [World_Geography] review Memory_Hooks_en.txt: 3 issue(s): - Box 1 mnemonic "All Aunts Ate Samosas Every Afternoon Outside" (code A A A S E A O) places Europe before Ant
+09-10 06:54:23   [Days_Dates] wrote Content_en.txt (11619 chars)
+09-10 06:56:08   [Biology] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 06:56:43   [Sports] wrote Key_Facts_en.txt (8955 chars)
+09-10 06:57:44   [World_Geography] review Memory_Hooks_hi.txt: 1 issue(s): - Mnemonic 3 incorrectly uses 'सीमा' for the lower crust (SIMA); the correct Hindi term is 'सिमा' → Replace 'स
+09-10 06:58:03   [Sports] wrote Key_Facts_hi.txt (661 chars)
+09-10 06:58:56   [Days_Dates] wrote Content_hi.txt (10163 chars)
+09-10 07:00:05   [Sports] wrote Feynman_en.txt (2987 chars)
+09-10 07:00:25   [World_Geography] review: 9 section(s) corrected, 1 failed
+09-10 07:00:25   [World_Geography] written 9, failed 1; AI calls today 413/100000
+09-10 07:00:25 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_08_World_Geography after 63 min: todo [] problems []
+09-10 07:00:25 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_16_Books_Authors (TODO: todo 25, problems 0)
+09-10 07:01:19   [Days_Dates] wrote Key_Facts_en.txt (9413 chars)
+09-10 07:01:56   [Sports] wrote Feynman_hi.txt (2568 chars)
+09-10 07:02:10   [Books_Authors] wrote Content_en.txt (4731 chars)
+09-10 07:02:11   [Biology] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 07:03:27   [Sports] wrote Mind_Map.txt (2541 chars)
 ```
