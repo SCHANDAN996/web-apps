@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 01:14 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
+**आख़िरी update:** 10-10-2026 01:15 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,12 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 05 Direction Sense (12th Reasoning) | 📤 push हो रहा है | 0 मिनट |
-| W2 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 30 मिनट |
-| W3 | Chapter 10 Clock Calendar (12th Reasoning) | ✍️ लिख रहा है | 30 मिनट |
-| W4 | Chapter 11 Series (12th Reasoning) | 🔎 review हो रहा है | 30 मिनट |
-| W5 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 30 मिनट |
-| W6 | Chapter 14 Alphabet Questions (12th Reasoning) | ✍️ लिख रहा है | 30 मिनट |
+| W1 | Chapter 17 Course of Action (12th Reasoning) | ✍️ लिख रहा है | 0 मिनट |
+| W2 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 31 मिनट |
+| W3 | Chapter 10 Clock Calendar (12th Reasoning) | ✍️ लिख रहा है | 31 मिनट |
+| W4 | Chapter 11 Series (12th Reasoning) | 🔎 review हो रहा है | 31 मिनट |
+| W5 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 31 मिनट |
+| W6 | Chapter 14 Alphabet Questions (12th Reasoning) | ✍️ लिख रहा है | 31 मिनट |
 | W7 | Chapter 15 Mathematical Operations (12th Reasoning) | ✍️ लिख रहा है | 30 मिनट |
 | W8 | Chapter 16 Statement Conclusion (12th Reasoning) | ✍️ लिख रहा है | 30 मिनट |
 
@@ -23,17 +23,17 @@
 |---|---|---|---|
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
-| 10th Maths | 17 | 5 | 0 |
+| 10th Maths | 18 | 4 | 0 |
 | 10th English | 17 | 0 | 3 |
 | 12th Maths | 11 | 0 | 12 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 10 | 0 | 15 |
 | 12th English | 25 | 0 | 0 |
-| Graduation Maths | 3 | 0 | 25 |
+| Graduation Maths | 6 | 0 | 22 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 12 | 0 | 18 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **214** | **5** | **77** |
+| **कुल** | **218** | **4** | **74** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -42,9 +42,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 00:44:09 START 12th_Level/Reasoning/Chapter_15_Mathematical_Operations (TODO: todo 8, problems 0)
-10-10 00:44:14 START 12th_Level/Reasoning/Chapter_16_Statement_Conclusion (TODO: todo 13, problems 0)
-10-10 00:44:37   [Mathematical_Operations] wrote Feynman_en.txt (711 chars)
 10-10 00:44:40   [Statement_Conclusion] wrote Mind_Map.txt (1909 chars)
 10-10 00:45:02   [Statement_Conclusion] Practice_en_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
 10-10 00:45:30   [Sitting_Arrangement] Practice_en_Set_01.txt try 1: rejected (Q16:leaked_reasoning,Q23:leaked_reasoning,Q24:leaked_reasoning)
@@ -82,4 +79,7 @@
 10-10 01:14:22   [Alphabet_Questions] Practice_en_Set_04.txt try 3: rejected (Q91:leaked_reasoning,Q92:leaked_reasoning,Q96:leaked_reasoning,Q98:answer_solution_conflict,Q100:leaked_reason
 10-10 01:14:27   [Direction_Sense] review: 1 section(s) corrected, 0 failed
 10-10 01:14:27   [Direction_Sense] written 1, failed 0; AI calls today 75/100000
+10-10 01:14:39 DONE 12th_Level/Reasoning/Chapter_05_Direction_Sense in 31 min → 5159edf1
+10-10 01:14:41 START 12th_Level/Reasoning/Chapter_17_Course_of_Action (TODO: todo 25, problems 0)
+10-10 01:14:52   [Course_of_Action] wrote Content_en.txt (825 chars)
 ```
