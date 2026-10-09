@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 07:01 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 07:05 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 19 Fill in Blanks Adv (12th English) | 🔎 review हो रहा है | 7 मिनट |
-| W2 | Chapter 20 Sentence Improvement Adv (12th English) | ✍️ लिख रहा है | 4 मिनट |
-| W3 | Chapter 21 Cloze Test (12th English) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 23 Sentence Arrangement (12th English) | ✍️ लिख रहा है | 32 मिनट |
-| W5 | Chapter 22 Para Jumbles (12th English) | ✍️ लिख रहा है | 36 मिनट |
+| W1 | Chapter 19 Fill in Blanks Adv (12th English) | 🔎 review हो रहा है | 11 मिनट |
+| W2 | Chapter 20 Sentence Improvement Adv (12th English) | ✍️ लिख रहा है | 7 मिनट |
+| W4 | Chapter 23 Sentence Arrangement (12th English) | ✍️ लिख रहा है | 36 मिनट |
+| W5 | Chapter 22 Para Jumbles (12th English) | ✍️ लिख रहा है | 39 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -51,17 +50,12 @@
 
 - Chapter 14 Antonyms (English) — 2 बार
 - Chapter 16 Idioms Phrases (English) — 2 बार
-- Chapter 21 Cloze Test (English) — 1 बार
 - Chapter 19 Fill in Blanks Adv (English) — 1 बार
 - Chapter 20 Sentence Improvement Adv (English) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 06:43:42   [Sentence_Arrangement] PYQ_en.txt try 1: rejected (corrupted characters)
-09-10 06:45:52   [Fill_in_Blanks_Adv] Practice_en_Set_05.txt try 1: re-solve disagrees (Q114 key b vs re-solve c)
-09-10 06:46:33   [Sentence_Improvement_Adv] FAILED Practice_hi_Set_05.txt: too_long
-09-10 06:46:37   [Cloze_Test] review Feynman_hi.txt: 2 issue(s): - "90% छात्र" का आँकड़ा बिना किसी स्रोत के दिया गया है → यह आविष्कृत संख्या है, इसे हटाएँ या "अधिकांश छात्र" जैसे अ
 09-10 06:48:02   [Sentence_Arrangement] PYQ_en.txt try 2: rejected (corrupted characters)
 09-10 06:48:02   [Sentence_Arrangement] REJECTED PYQ_en.txt: corrupted characters — not written
 09-10 06:49:05   [Cloze_Test] review Flashcards_en.txt: 1 issue(s): - File content is corrupted/unreadable: contains only formatting artifacts (repeated "Card", "Front", "Back", "<
@@ -98,4 +92,8 @@
 09-10 07:00:07   [Sentence_Improvement_Adv] Practice_hi_Set_03.txt try 1: rejected (parsed 1 questions, numbers 52…52)
 09-10 07:01:21   [Cloze_Test] review: 6 section(s) corrected, 0 failed
 09-10 07:01:21   [Cloze_Test] written 6, failed 0; AI calls today 711/100000
+09-10 07:01:31 DONE 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_21_Cloze_Test in 34 min → df0ebf39
+09-10 07:01:31 worker 2: nothing left
+09-10 07:02:47   [Fill_in_Blanks_Adv] review Mind_Map_en.txt: 5 issue(s): - Line `A --> E="Step 4: Avoid]` has invalid Mermaid syntax (missing opening bracket, mismatched quote) → `A --> E
+09-10 07:03:41   [Sentence_Improvement_Adv] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 ```
