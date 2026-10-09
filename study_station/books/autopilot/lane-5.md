@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 09-10-2026 07:13 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
+**आख़िरी update:** 09-10-2026 07:23 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 15 One Word Substitution (10th English) | 🔎 review हो रहा है | 20 मिनट |
-| W2 | Chapter 10 Compound Interest (10th Maths) | 🔧 सुधार रहा है | 0 मिनट |
-| W3 | Chapter 20 Sentence Improvement Basic (10th English) | ✍️ लिख रहा है | 9 मिनट |
-| W4 | Chapter 18 Error Spotting Basic (10th English) | ✍️ लिख रहा है | 99 मिनट |
-| W5 | Chapter 19 Fill in Blanks Basic (10th English) | 🔎 review हो रहा है | 7 मिनट |
-| W6 | Chapter 16 Idioms Phrases (10th English) | 🔎 review हो रहा है | 35 मिनट |
-| W7 | Chapter 14 Antonyms (10th English) | 🔎 review हो रहा है | 26 मिनट |
-| W8 | Chapter 17 Spelling (10th English) | 🔎 review हो रहा है | 22 मिनट |
+| W1 | Chapter 15 One Word Substitution (10th English) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 10 Compound Interest (10th Maths) | 🔧 सुधार रहा है | 10 मिनट |
+| W3 | Chapter 20 Sentence Improvement Basic (10th English) | ✍️ लिख रहा है | 19 मिनट |
+| W4 | Chapter 18 Error Spotting Basic (10th English) | ✍️ लिख रहा है | 109 मिनट |
+| W5 | Chapter 19 Fill in Blanks Basic (10th English) | 🔎 review हो रहा है | 17 मिनट |
+| W6 | Chapter 16 Idioms Phrases (10th English) | 🔎 review हो रहा है | 44 मिनट |
+| W7 | Chapter 14 Antonyms (10th English) | 🔎 review हो रहा है | 36 मिनट |
+| W8 | Chapter 17 Spelling (10th English) | 🔎 review हो रहा है | 32 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,6 +37,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 19:23 — 10th English · Chapter 15 One Word Substitution
 - 09-10 19:12 — 10th English · Chapter 13 Synonyms
 - 09-10 17:39 — 10th English · Chapter 08 Conjunction
 - 09-10 17:30 — 10th English · Chapter 11 Narration
@@ -59,25 +60,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 18:58:16   [Fill_in_Blanks_Basic] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-09-10 19:01:26   [Fill_in_Blanks_Basic] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 19:01:29   [Spelling] review Content_hi.txt: 1 issue(s): - परीक्षा में आने वाले 90% शब्द लगभग 300–400 शब्दों की एक तय सूची से घूमते हैं → यह दावा अप्रमाणित है; स्रोत के बिन
-09-10 19:02:21   [Synonyms] review Short_Tricks_en.txt: 2 issue(s): - The claim "60% of tough exam words crack open with just 20 common roots" is an invented/unsourced exam stati
-09-10 19:03:29   [One_Word_Substitution] review Content_hi.txt: 1 issue(s): - The statement "ऐसा कोई शब्द नहीं!" about 'Unvisible' is false; 'Unvisible' exists as a rare/archaic variant, thou
-09-10 19:03:34   [Fill_in_Blanks_Basic] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 19:03:34   [Fill_in_Blanks_Basic] written 25, failed 1; AI calls today 466/100000
-09-10 19:03:35 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_19_Fill_in_Blanks_Basic after 84 min: todo ['Set 03 hi: todo'] problems ['Feynman_hi.txt: much shorter than the English section (653 v']
-09-10 19:03:35 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_19_Fill_in_Blanks_Basic (TODO: todo 1, problems 1)
-09-10 19:03:54   [Sentence_Structure] FAILED Practice_en_Set_02.txt: too_long
-09-10 19:03:54   [Sentence_Structure] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
-09-10 19:03:54   [Sentence_Structure] written 1, failed 2; AI calls today 467/100000
-09-10 19:03:54 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_12_Sentence_Structure after 33 min: todo ['Set 02 en: todo', 'Set 02 hi: todo'] problems []
-09-10 19:03:55 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_20_Sentence_Improvement_Basic (TODO: todo 26, problems 0)
-09-10 19:04:45   [Fill_in_Blanks_Basic] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-09-10 19:04:45   [Fill_in_Blanks_Basic] written 1, failed 0; AI calls today 469/100000
-09-10 19:05:07   [Sentence_Improvement_Basic] wrote Content_en.txt (6143 chars)
-09-10 19:05:27   [Synonyms] review Short_Tricks_hi.txt: 1 issue(s): - Trick 9 incorrectly states “VIV/JUV = जीवन”; the root JUV means “young” (as in juvenile), not “life” → Corre
-09-10 19:06:11   [Fill_in_Blanks_Basic] repaired Feynman_hi.txt (2738 chars)
 09-10 19:06:11   [Fill_in_Blanks_Basic] written 1, failed 0; AI calls today 476/100000
 09-10 19:07:12   [Sentence_Improvement_Basic] wrote Content_hi.txt (8260 chars)
 09-10 19:07:18   [Error_Spotting_Basic] Practice_en_Set_04.txt try 2: re-solve disagrees (Q96 key c vs re-solve ?)
@@ -99,4 +81,23 @@
 09-10 19:13:25   [Antonyms] review PYQ_en.txt: 3 issue(s): - Sound-Right Trap example claims "Artificial" is not a precise antonym of "Genuine" → "Artificial" is a valid antonym 
 09-10 19:13:25   [Sentence_Improvement_Basic] wrote Flashcards_hi.txt (4786 chars)
 09-10 19:13:29   [Error_Spotting_Basic] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 19:14:33   [Idioms_Phrases] review PYQ_hi.txt: 2 issue(s): - In the trap types table, the example for "मिलते-जुलते मुहावरे (Similar Idioms)" does not illustrate similar idioms; "
+09-10 19:14:46   [One_Word_Substitution] review PYQ_hi.txt: 1 issue(s): - Claim "हर शिफ्ट में लगभग 2–4 प्रश्न इस टॉपिक से पूछे जाते हैं" is an invented exam statistic without a cited exam/yea
+09-10 19:14:54   [Sentence_Improvement_Basic] wrote PYQ_en.txt (5697 chars)
+09-10 19:16:12   [Spelling] review Flashcards_hi.txt: 1 issue(s): - Card 4 claims “occur → occurred → occurrence, सब में double r” → occur has a single r; only occurred and occur
+09-10 19:16:19   [Sentence_Improvement_Basic] wrote PYQ_hi.txt (5684 chars)
+09-10 19:16:56   [Error_Spotting_Basic] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 19:17:24   [Sentence_Improvement_Basic] wrote Short_Tricks_en.txt (5039 chars)
+09-10 19:18:15   [Compound_Interest] REJECTED PYQ_en.txt: corrupted characters — not written
+09-10 19:18:47   [Error_Spotting_Basic] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 19:18:58   [One_Word_Substitution] review Short_Tricks_hi.txt: 1 issue(s): - Invented exam statistic “80% प्रश्न 15-20 जड़ों से बनते हैं” (no source/year) → Remove or replace with a ver
+09-10 19:19:33   [Sentence_Improvement_Basic] wrote Short_Tricks_hi.txt (6239 chars)
+09-10 19:20:35   [Sentence_Improvement_Basic] wrote Important_Rules_en.txt (4668 chars)
+09-10 19:20:53   [Fill_in_Blanks_Basic] review Mind_Map_hi.txt: 3 issue(s): - Node D duplicates root node A exactly (same label "अवधारणा: रिक्त स्थान भरें (सरल)<br>Fill in the Blanks (Basic)
+09-10 19:21:29   [Sentence_Improvement_Basic] wrote Important_Rules_hi.txt (3821 chars)
+09-10 19:22:01   [One_Word_Substitution] review Important_Rules_en.txt: 1 issue(s): - Invented exam statistic: "In a 25-question vocabulary section, at least 18–20 questions are 15-second rec
+09-10 19:22:39   [Fill_in_Blanks_Basic] review Flashcards_hi.txt: 1 issue(s): - Card 2: The blank in “Neither of the boys ___ done his homework.” is answered as “is”, but the correct auxilia
+09-10 19:23:24   [Antonyms] review Short_Tricks_hi.txt: 1 issue(s): - Trick 11: "-ice लगा तो भाववाचक" गलत व्याकरण नियम → Courage में -ice नहीं है फिर भी भाववाचक है; Cowardice का 
+09-10 19:23:26   [One_Word_Substitution] review: 7 section(s) corrected, 0 failed
+09-10 19:23:27   [One_Word_Substitution] written 7, failed 0; AI calls today 553/100000
 ```
