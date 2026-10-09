@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 10-10-2026 12:39 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 10:05 PM
+**आख़िरी update:** 10-10-2026 12:54 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 10:05 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 19 Statistics (10th Maths) | 🔧 सुधार रहा है | 25 मिनट |
-| W4 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 47 मिनट |
-| W5 | Chapter 22 Permutation Combination (10th Maths) | 🔧 सुधार रहा है | 1 मिनट |
-| W6 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 5 मिनट |
-| W8 | Chapter 17 Data Interpretation (10th Maths) | 🔎 review हो रहा है | 4 मिनट |
+| W3 | Chapter 19 Statistics (10th Maths) | 🔧 सुधार रहा है | 40 मिनट |
+| W4 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 0 मिनट |
+| W5 | Chapter 22 Permutation Combination (10th Maths) | 🔎 review हो रहा है | 5 मिनट |
+| W6 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 20 मिनट |
+| W8 | Chapter 17 Data Interpretation (10th Maths) | 🔎 review हो रहा है | 19 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -20,7 +20,7 @@
 |---|---|---|---|
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
-| 10th Maths | 17 | 5 | 0 |
+| 10th Maths | 18 | 4 | 0 |
 | 10th English | 17 | 3 | 0 |
 | 12th Maths | 11 | 0 | 12 |
 | 12th GK | 22 | 0 | 2 |
@@ -30,7 +30,7 @@
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 12 | 0 | 18 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **212** | **8** | **76** |
+| **कुल** | **213** | **7** | **76** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -47,27 +47,11 @@
 - Chapter 18 Trigonometry (Maths) — 2 बार
 - Chapter 17 Data Interpretation (Maths) — 1 बार
 - Chapter 13 Mixture Alligation (Maths) — 1 बार
+- Chapter 21 Probability (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 00:10:49   [Probability] set 02 try 4: rejected (parsed 23 questions, numbers 26…50)
-10-10 00:10:49   [Probability] FAILED set 02: no version passed the checks — files left as they were
-10-10 00:11:11   [Statistics] Practice_hi_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
-10-10 00:12:44   [Probability] set 03 try 1: rejected (parsed 23 questions, numbers 51…75)
-10-10 00:13:38   [Statistics] repaired set 06 (en + hi, key confirmed by an independent re-solve)
-10-10 00:13:38   [Statistics] written 4, failed 3; AI calls today 25/100000
-10-10 00:15:26   [Probability] set 03 try 2: rejected (parsed 23 questions, numbers 51…75)
-10-10 00:16:10   [Number_Series] review Short_Tricks_hi.txt: 1 issue(s): - स्मृति ट्रिक 2 में उदाहरण गलत है: "एक ने खाया सत्ताईस, चौंसठ ने खाया एक सौ पच्चीस, दो सौ सोलह ने खाया तीन सौ
-10-10 00:16:39   [Probability] set 03 try 3: rejected (parsed 23 questions, numbers 51…75)
-10-10 00:17:38   [Probability] set 03 try 4: rejected (parsed 23 questions, numbers 51…75)
-10-10 00:17:38   [Probability] FAILED set 03: no version passed the checks — files left as they were
-10-10 00:19:16   [Statistics] repaired set 01 (en + hi, key confirmed by an independent re-solve)
-10-10 00:22:18   [Number_Series] review: 8 section(s) corrected, 0 failed
-10-10 00:22:19   [Number_Series] written 8, failed 0; AI calls today 35/100000
-10-10 00:22:24   [Statistics] set 02 try 1: re-solve disagrees (Q27 key a vs re-solve b)
-10-10 00:22:38 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_20_Number_Series in 102 min → 9be6d4de
-10-10 00:22:41 worker 0: nothing left
 10-10 00:26:53   [Mixture_Alligation] FAILED set 01: too_long
 10-10 00:26:54   [Data_Interpretation] FAILED set 04: too_long
 10-10 00:26:54   [Data_Interpretation] written 3, failed 1; AI calls today 36/100000
@@ -91,4 +75,21 @@
 10-10 00:37:55   [Data_Interpretation] review Content_en.txt: 4 issue(s): - The claim "73% of candidates would waste all their time on one DI set" in the bank PO anecdote is an invented exa
 10-10 00:37:57   [Permutation_Combination] repaired set 06 (en + hi, key confirmed by an independent re-solve)
 10-10 00:37:57   [Permutation_Combination] written 5, failed 1; AI calls today 56/100000
+10-10 00:40:22   [Mixture_Alligation] set 01 try 1: re-solve disagrees (Q1 key c vs re-solve d, Q7 key d vs re-solve b)
+10-10 00:41:09   [Data_Interpretation] review Feynman_en.txt: 1 issue(s): - In the story, Raj sells orange juice but later his stall is called a "lemonade stand" → Change "lemonade stand" t
+10-10 00:42:41   [Statistics] Practice_hi_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 00:46:02   [Mixture_Alligation] set 01 try 2: rejected (parsed 0 questions, numbers -…-)
+10-10 00:46:52   [Permutation_Combination] Practice_hi_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 00:47:00   [Permutation_Combination] Practice_hi_Set_04.txt try 2: rejected (parsed 0 questions, numbers -…-)
+10-10 00:47:53   [Probability] set 06 try 2: rejected (parsed 0 questions, numbers -…-)
+10-10 00:49:25   [Permutation_Combination] repaired set 04 (en + hi, key confirmed by an independent re-solve)
+10-10 00:49:25   [Permutation_Combination] written 1, failed 0; AI calls today 77/100000
+10-10 00:51:11   [Mixture_Alligation] set 01 try 3: re-solve disagrees (Q1 key a vs re-solve d, Q7 key b vs re-solve d)
+10-10 00:52:19   [Probability] set 06 try 3: rejected (parsed 23 questions, numbers 126…150)
+10-10 00:53:51   [Probability] set 06 try 4: rejected (parsed 23 questions, numbers 126…150)
+10-10 00:53:51   [Probability] FAILED set 06: no version passed the checks — files left as they were
+10-10 00:53:51   [Probability] written 0, failed 5; AI calls today 82/100000
+10-10 00:53:51 NOT OK 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_21_Probability after 125 min: todo [] problems ['Set 01 en: 2/25 parsed', 'Set 01 hi: 2/25 parsed', 'Set 02 en: 1/25 parsed', 'Set 02 hi: 1/25 parsed']
+10-10 00:53:53   [Data_Interpretation] review PYQ_hi.txt: 2 issue(s): - In Q2 solution, stating that a 100% sum of percentages means each person has only one disease is incorrect → Correcti
+10-10 00:53:54 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_21_Probability (FIX: todo 0, problems 10)
 ```
