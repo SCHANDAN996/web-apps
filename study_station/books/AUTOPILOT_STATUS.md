@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 04:59 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 05:11 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 159 मिनट |
-| W2 | Chapter 11 Series (Graduation Reasoning) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 12 Missing Term (Graduation Reasoning) | ✍️ लिख रहा है | 50 मिनट |
-| W4 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 6 मिनट |
-| W5 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 187 मिनट |
+| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 170 मिनट |
+| W2 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 11 मिनट |
+| W3 | Chapter 12 Missing Term (Graduation Reasoning) | ✍️ लिख रहा है | 61 मिनट |
+| W4 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 18 मिनट |
+| W5 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 198 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -50,27 +50,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 16:22:18   [Missing_Term] wrote PYQ_en.txt (5917 chars)
-09-10 16:23:51   [Missing_Term] wrote PYQ_hi.txt (5239 chars)
-09-10 16:24:28   [Series] review Flashcards_en.txt: 2 issue(s): - Card 16 back: The example verification for series 5, 11, ?, 35, 51 incorrectly suggests differences +6, +12, +
-09-10 16:25:05   [Missing_Term] wrote Short_Tricks_en.txt (4601 chars)
-09-10 16:26:18   [Puzzles] Practice_en_Set_04.txt try 2: re-solve disagrees (Q100 key a vs re-solve b)
-09-10 16:26:57   [Missing_Term] wrote Short_Tricks_hi.txt (5278 chars)
-09-10 16:28:01   [Missing_Term] wrote Important_Rules_en.txt (4257 chars)
-09-10 16:28:08   [Series] review Flashcards_hi.txt: 5 issue(s): - Front side sequence claims to show "संख्या शृंखला में अंतर" (difference in number series) but contains irregul
-09-10 16:28:13   [Sitting_Arrangement] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-09-10 16:28:35   [Sitting_Arrangement] Practice_hi_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 16:29:25   [Missing_Term] wrote Important_Rules_hi.txt (3481 chars)
-09-10 16:29:48   [Clock_Calendar] review Short_Tricks_en.txt: 3 issue(s): - Box 4: Water image formula "18:30 − T" is incorrect for analog clocks → Water image requires vertical angle 
-09-10 16:33:00   [Series] review PYQ_hi.txt: 1 issue(s): - Unsourced claim "80% प्रश्न 3–4 मूल नियमों से बनते हैं" (invented exam statistic) → delete or replace with a non‑quan
-09-10 16:33:42   [Missing_Term] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 16:33:57   [Sitting_Arrangement] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 16:35:28   [Missing_Term] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-09-10 16:37:09   [Sitting_Arrangement] Practice_en_Set_05.txt try 1: rejected (Q111:leaked_reasoning)
-09-10 16:40:07   [Series] review Short_Tricks_en.txt: 3 issue(s): - Box 1: "90% of number series crack open at the difference level" is an invented statistic → replace with "Mo
-09-10 16:40:51   [Missing_Term] Practice_en_Set_02.txt try 1: re-solve disagrees (Q29 key b vs re-solve a)
-09-10 16:42:22   [Series] review Short_Tricks_hi.txt: 5 issue(s): - Trick 1 claim "70% प्रश्न यहीं सुलझ जाते हैं" is an invented exam statistic without source → remove or cite 
-09-10 16:45:44   [Puzzles] Practice_en_Set_04.txt try 3: re-solve disagrees (Q90 key a vs re-solve b, Q94 key d vs re-solve a)
 09-10 16:45:47   [Missing_Term] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 09-10 16:47:27   [Missing_Term] Practice_hi_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
 09-10 16:47:42   [Clock_Calendar] review Important_Rules_en.txt: 2 issue(s): - Hands at Right Angle example: "Between 3 and 4: at 3:00 and 3:32 8/11" is incorrect; the correct times fo
@@ -90,4 +69,25 @@
 09-10 16:59:30   [Dictionary_Order] wrote Feynman_en.txt (3526 chars)
 09-10 16:59:56   [Series] review: 10 section(s) corrected, 0 failed
 09-10 16:59:56   [Series] written 10, failed 0; AI calls today 262/100000
+09-10 17:00:10   [Puzzles] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 17:00:13 DONE Graduation_Level/Reasoning/Chapter_11_Series in 97 min → 91c16224
+09-10 17:00:16 START Graduation_Level/Reasoning/Chapter_14_Alphabet_Questions (TODO: todo 25, problems 0)
+09-10 17:00:58   [Missing_Term] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 17:01:52   [Dictionary_Order] wrote Feynman_hi.txt (2855 chars)
+09-10 17:02:08   [Alphabet_Questions] wrote Content_en.txt (8732 chars)
+09-10 17:02:17   [Dictionary_Order] wrote Mind_Map.txt (2006 chars)
+09-10 17:04:30   [Dictionary_Order] wrote Flashcards_en.txt (4947 chars)
+09-10 17:05:23   [Alphabet_Questions] wrote Content_hi.txt (7022 chars)
+09-10 17:06:00   [Puzzles] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 17:06:17   [Alphabet_Questions] Feynman_en.txt try 1: rejected (chat debris "Here's the")
+09-10 17:06:50   [Dictionary_Order] wrote Flashcards_hi.txt (3885 chars)
+09-10 17:06:52   [Alphabet_Questions] Feynman_en.txt try 2: rejected (chat debris "Here's the")
+09-10 17:06:52   [Alphabet_Questions] REJECTED Feynman_en.txt: chat debris "Here's the" — not written
+09-10 17:07:35   [Missing_Term] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 17:08:17   [Puzzles] Practice_en_Set_06.txt try 1: rejected (Q126:leaked_reasoning,Q132:leaked_reasoning)
+09-10 17:08:32   [Alphabet_Questions] wrote Feynman_hi.txt (2999 chars)
+09-10 17:08:48   [Dictionary_Order] wrote PYQ_en.txt (10002 chars)
+09-10 17:09:25   [Missing_Term] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 17:09:32   [Alphabet_Questions] wrote Mind_Map.txt (2305 chars)
+09-10 17:10:32   [Alphabet_Questions] wrote Flashcards_en.txt (4328 chars)
 ```
