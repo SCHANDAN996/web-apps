@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 09-10-2026 03:48 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 11:14 AM
+**आख़िरी update:** 09-10-2026 04:04 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 11:14 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Narration (10th English) | ✍️ लिख रहा है | 53 मिनट |
+| W1 | Chapter 11 Narration (10th English) | ✍️ लिख रहा है | 68 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -47,9 +47,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 15:19:00   [Narration] PYQ_hi.txt try 2: rejected (corrupted characters)
-09-10 15:19:00   [Narration] REJECTED PYQ_hi.txt: corrupted characters — not written
-09-10 15:19:34   [Articles] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 09-10 15:20:40   [Narration] wrote Short_Tricks_en.txt (6863 chars)
 09-10 15:21:57   [Conjunction] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 09-10 15:22:21   [Voice] wrote Practice_en_Set_05.txt (write, 25 MCQs)
@@ -87,4 +84,7 @@
 09-10 15:39:12 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_07_Preposition after 167 min: todo [] problems []
 09-10 15:39:13 worker 3: nothing left
 09-10 15:47:02   [Narration] Practice_en_Set_02.txt try 1: re-solve disagrees (Q46 key b vs re-solve a)
+09-10 15:51:07   [Narration] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+09-10 15:53:28   [Narration] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 15:54:44   [Narration] Practice_en_Set_03.txt try 1: rejected (parsed 24 questions, numbers 51…75)
 ```
