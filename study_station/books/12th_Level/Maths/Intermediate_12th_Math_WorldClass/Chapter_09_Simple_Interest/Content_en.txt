@@ -1,0 +1,158 @@
+# Simple Interest
+
+## Chapter Outline & Learning Goals
+
+By the end of this chapter, you will be able to:
+
+1. Define Principal, Rate, Time, Interest, and Amount — and never confuse them again.
+2. Apply the core formula **SI = (P × R × T) / 100** with full confidence.
+3. Solve exam favourites: finding P, R, or T when the other values are given.
+4. Handle tricky variations — money becoming "n times itself", changing rates, and instalment problems.
+5. Spot the traps examiners set in SSC CGL, IBPS PO, and RRB NTPC questions.
+
+---
+
+## The Hook: The ₹10,000 That Refused to Grow
+
+Imagine two friends in 2010. One keeps ₹10,000 in a box under his bed. The other puts ₹10,000 in a simple-interest deposit at 10% per year.
+
+Ten years later, the first friend still has ₹10,000. The second has ₹20,000 — double the money — without working a single extra hour.
+
+The difference? One understood a formula a 12-year-old can learn in five minutes: **Simple Interest**. Questions from this chapter appear regularly in SSC, Banking, and Railway exams, and each one is quick to solve once the formula is second nature. Let's make sure those marks are yours.
+
+---
+
+## "But I'm Bad at Maths…"
+
+Almost every aspirant says this. Here's the truth: Simple Interest is not really a "maths" chapter — it's a **one-formula chapter**. Every single question, no matter how dressed up, is just the same formula wearing different clothes. Once you see the pattern, you'll wonder why it ever scared you.
+
+So take a breath. We go one small chunk at a time.
+
+---
+
+## Chunk 1: The Five Pillars
+
+Every SI problem is built from five words. Learn them like old friends:
+
+- **Principal (P)** — the money you start with (borrowed or invested).
+- **Rate (R)** — the percentage charged per year (per annum).
+- **Time (T)** — the duration, always converted into **years**.
+- **Simple Interest (SI)** — the extra money earned or paid.
+- **Amount (A)** — Principal + Interest = the total at the end.
+
+**Key idea:** In *simple* interest, the interest is calculated **only on the original principal**, every single year. The principal never grows. (When interest starts earning its own interest, that's *compound* interest — a different chapter.)
+
+🧠 **Active Recall:** Close the book. What are the five pillars? Which one equals Principal + Interest?
+
+---
+
+## Chunk 2: The One Formula to Rule Them All
+
+$$SI = \frac{P \times R \times T}{100}$$
+
+And its inseparable twin:
+
+$$A = P + SI$$
+
+**Example:** P = ₹5,000, R = 8% p.a., T = 3 years.
+SI = (5000 × 8 × 3) / 100 = ₹1,200.
+Amount = 5000 + 1200 = **₹6,200**.
+
+Notice something beautiful: each year earns the *same* interest — ₹400 here. Year 1: ₹400. Year 2: ₹400. Year 3: ₹400. That's the fingerprint of simple interest.
+
+🧠 **Active Recall:** Without looking, write the SI formula. What stays constant every year in simple interest?
+
+---
+
+## Chunk 3: The Memory Trick 🐷
+
+Meet **"PeRTy the Pig"** — **P × R × T** over 100.
+
+Picture a pig at a party ("P-R-T-y"), and the entry ticket costs 100 rupees — that's the denominator. Every time you blank out in the exam hall, just ask: *"Where's my party pig?"* → SI = PRT/100.
+
+Weird? Yes. Unforgettable? Also yes.
+
+---
+
+## Chunk 4: Rearranging — Finding P, R, or T
+
+Examiners rarely hand you P, R, and T on a plate. They hide one. Just rearrange:
+
+- **P = (SI × 100) / (R × T)**
+- **R = (SI × 100) / (P × T)**
+- **T = (SI × 100) / (P × R)**
+
+**Example:** A sum earns ₹900 in 4 years at 5% p.a. Find the sum.
+P = (900 × 100) / (5 × 4) = 90000 / 20 = **₹4,500**.
+
+**Unit trap!** If time is given in months, divide by 12. If given in days, divide by 365. "6 months at 10% p.a." means T = 0.5, not 6.
+
+🧠 **Active Recall:** SI = ₹600, P = ₹4,000, T = 3 years. What's R? (Try it: answer is 5%.)
+
+---
+
+## Chunk 5: The Exam Favourite — "A Sum Becomes n Times Itself"
+
+This is one of the most repeated SI patterns in SSC and Banking exams.
+
+**Logic:** If money becomes **n times** the principal, then SI earned = (n − 1) × P.
+
+**Example:** A sum doubles in 8 years. Find the rate.
+Money doubles → SI = P. So P = (P × R × 8)/100 → R = 100/8 = **12.5% p.a.**
+
+**Shortcut:** If a sum doubles in T years at simple interest, **R = 100/T**. Triples? SI = 2P, so R = 200/T.
+
+🧠 **Active Recall:** A sum doubles in 10 years at SI. What's the rate? (10% — did the shortcut click?)
+
+---
+
+## Chunk 6: Changing Rates and Split Sums
+
+**Changing rates:** If the rate is R₁ for T₁ years and R₂ for T₂ years, add the interests separately:
+SI = P(R₁T₁ + R₂T₂)/100.
+
+**Split sums:** "₹8,000 is split into two parts, one at 6% and one at 9%…" — treat each part as its own mini-problem, then add. Never average the rates blindly; the parts may be unequal.
+
+🧠 **Active Recall:** Why can't you just average 6% and 9% when the two parts are unequal?
+
+---
+
+## Chunk 7: Simple Interest vs Compound Interest (Know the Difference)
+
+| Feature | Simple Interest | Compound Interest |
+|---|---|---|
+| Calculated on | Original principal only | Principal + accumulated interest |
+| Yearly interest | Same every year | Increases every year |
+| Growth | Straight line (linear) | Curved (exponential) |
+| Formula | PRT/100 | P(1 + R/100)ᵀ − P |
+
+For 1 year, SI and CI are **equal**. From year 2 onwards, CI pulls ahead. Examiners love asking for the *difference* between them — remember why the difference exists: CI pays interest on interest.
+
+---
+
+## Summary Table
+
+| Concept | Formula / Rule |
+|---|---|
+| Simple Interest | SI = (P × R × T) / 100 |
+| Amount | A = P + SI |
+| Principal | P = (SI × 100)/(R × T) |
+| Rate | R = (SI × 100)/(P × T) |
+| Time | T = (SI × 100)/(P × R) |
+| Sum doubles | R = 100/T |
+| Sum becomes n times | SI = (n − 1)P |
+| Months → years | T = months/12 |
+| SI vs CI (1 year) | Both equal |
+
+---
+
+## 🔁 Review This After 2 Days
+
+Don't trust your memory — test it. After 2 days, close the book and answer:
+
+1. Write the SI formula and its three rearrangements.
+2. A sum doubles in 5 years — what's the rate?
+3. Why is SI the same every year but CI is not?
+4. What was the pig's name, and what does he stand for? 🐷
+
+If you answer all four in under a minute, Simple Interest is officially yours. See you in the Practice Sets!

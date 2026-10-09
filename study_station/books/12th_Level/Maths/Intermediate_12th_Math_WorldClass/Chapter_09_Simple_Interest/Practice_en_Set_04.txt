@@ -1,0 +1,151 @@
+प्रश्न 76–95: आसान | प्रश्न 96–100: मध्यम
+
+76. A sum of ₹8,000 is lent at simple interest for 3 years. If the interest earned is ₹1,440, what is the annual rate of interest?
+(a) 5% (b) 6% (c) 7% (d) 8%
+Answer: (b)
+Solution: The trap is dividing 1440 by 8000 directly, which gives 18% — that is the total interest over 3 years, not the yearly rate. Use SI = PRT/100: 1440 = (8000 × R × 3)/100, so R = 144000/24000 = 6, so the answer is 6%.
+Source: NCERT Class 8 Mathematics
+
+77. At what rate percent per annum will a sum of ₹6,250 amount to ₹7,750 in 4 years at simple interest?
+(a) 4% (b) 5% (c) 6% (d) 8%
+Answer: (c)
+Solution: Interest = 7750 − 6250 = ₹1,500. The tempting error is computing 1500/6250 = 24% and picking a wrong option; that 24% is over 4 years. R = (1500 × 100)/(6250 × 4) = 150000/25000 = 6, so the answer is 6%.
+Source: PYQ-style
+
+78. A sum becomes ₹11,500 in 5 years and ₹13,000 in 8 years at simple interest. Find the sum.
+(a) ₹10,000 (b) ₹8,000 (c) ₹9,500 (d) ₹9,000
+Answer: (d)
+Solution: Interest for 3 extra years = 13000 − 11500 = ₹1,500, so yearly interest = ₹500. Interest for 5 years = ₹2,500. The trap is treating ₹11,500 itself as the principal. Principal = 11500 − 2500 = 9,000, so the answer is ₹9,000.
+Source: PYQ-style
+
+79. In how many years will a sum double itself at 12.5% per annum simple interest?
+(a) 6 years (b) 7 years (c) 8 years (d) 10 years
+Answer: (c)
+Solution: To double, interest must equal the principal: P = PRT/100, so T = 100/R = 100/12.5 = 8. The trap is computing 100/12.5 incorrectly as 12.5 years or halving it to 4. So the answer is 8 years.
+Source: NCERT Class 8 Mathematics
+
+80. A sum of money triples itself in 16 years at simple interest. In how many years will it become 5 times itself?
+(a) 28 years (b) 32 years (c) 24 years (d) 40 years
+Answer: (b)
+Solution: Tripling means interest = 2P in 16 years, so interest of P takes 8 years. To become 5 times, interest must be 4P, needing 4 × 8 = 32 years. The trap is scaling 16 × 5/3 ≈ 26.7, which wrongly assumes the amount grows linearly instead of the interest. So the answer is 32 years.
+Source: PYQ-style
+
+81. The simple interest on a sum for 6 years at 8% per annum is ₹2,880. Find the sum.
+(a) ₹5,000 (b) ₹5,500 (c) ₹6,500 (d) ₹6,000
+Answer: (d)
+Solution: The trap is computing 2880/48 = 60 and misreading it as the principal in hundreds. P = (SI × 100)/(R × T) = (2880 × 100)/(8 × 6) = 288000/48 = 6,000, so the answer is ₹6,000.
+Source: NCERT Class 8 Mathematics
+
+82. A man lends ₹10,000 in two parts such that the first part at 6% for 4 years gives the same interest as the second part at 8% for 3 years. Find the first part.
+(a) ₹5,000 (b) ₹4,000 (c) ₹6,000 (d) ₹7,000
+Answer: (a)
+Solution: Let the first part be x. Then x × 6 × 4 = (10000 − x) × 8 × 3, so 24x = 240000 − 24x, giving 48x = 240000 and x = 5,000. The trap is splitting the money in the ratio 6:8 instead of using the time-weighted rates 24:24. So the answer is ₹5,000.
+Source: PYQ-style
+
+83. The simple interest on a certain sum at 6% per annum for 4 years is ₹960 more than the interest on the same sum at 4% per annum for 4 years. Find the sum.
+(a) ₹10,000 (b) ₹11,000 (c) ₹15,000 (d) ₹12,000
+Answer: (d)
+Solution: First interest = P × 6 × 4/100 = 0.24P; second = P × 4 × 4/100 = 0.16P. Difference: 0.08P = 960, so P = 12,000. The trap is using the rate difference 2% for only 1 year, which gives ₹48,000. So the answer is ₹12,000.
+Source: PYQ-style
+
+84. A sum of ₹12,000 is invested at simple interest at 5% per annum for the first 2 years, and then the rate is increased to 8% per annum. Find the interest earned in the last 3 years.
+(a) ₹2,400 (b) ₹2,880 (c) ₹2,640 (d) ₹3,000
+Answer: (b)
+Solution: Interest for the last 3 years = 12000 × 8 × 3/100 = ₹2,880. The trap is averaging the rate to 6.5% and applying it to all 5 years, which mixes the two periods. So the answer is ₹2,880.
+Source: PYQ-style
+
+85. What sum will amount to ₹9,300 in 3 years at 8% per annum simple interest?
+(a) ₹7,500 (b) ₹7,000 (c) ₹7,200 (d) ₹7,800
+Answer: (a)
+Solution: Amount = P(1 + RT/100) = P × 1.24, so P = 9300/1.24 = 7,500. The trap is subtracting 24% of 9300, which gives ₹7,068 — the interest is 24% of the principal, not of the amount. So the answer is ₹7,500.
+Source: NCERT Class 8 Mathematics
+
+86. The difference between the simple interest received from two banks on ₹5,000 for 2 years is ₹250. Find the difference between their rates of interest.
+(a) 1.5% (b) 2.5% (c) 3% (d) 2%
+Answer: (b)
+Solution: Difference in interest = P × T × (R1 − R2)/100, so 250 = 5000 × 2 × d/100, giving d = 25000/10000 = 2.5. The trap is dividing 250 by 5000 to get 5% and forgetting the 2-year factor. So the answer is 2.5%.
+Source: PYQ-style
+
+87. A sum was put at simple interest at a certain rate for 3 years. Had it been put at 2% higher rate, it would have fetched ₹900 more. Find the sum.
+(a) ₹15,000 (b) ₹12,000 (c) ₹18,000 (d) ₹20,000
+Answer: (a)
+Solution: Extra interest = P × 2 × 3/100 = 900, so P = 900 × 100/6 = 15,000. The trap is using T = 1 year, which gives ₹45,000, or dividing 900 by 2 and stopping. So the answer is ₹15,000.
+Source: PYQ-style
+
+88. A person borrows ₹5,000 at 12% per annum simple interest. At the end of 4 years he repays ₹2,400 and agrees to pay the balance immediately after. How much is the balance (interest calculated on the original principal throughout)?
+(a) ₹5,000 (b) ₹4,800 (c) ₹5,200 (d) ₹4,600
+Answer: (a)
+Solution: Total interest for 4 years = 5000 × 12 × 4/100 = ₹2,400, so total amount = ₹7,400. Balance = 7400 − 2400 = ₹5,000. The trap is forgetting the interest and subtracting 2400 from 5000 to get ₹2,600. So the answer is ₹5,000.
+Source: PYQ-style
+
+89. The simple interest on a sum is 4/9 of the principal and the number of years is equal to the rate percent per annum. Find the rate.
+(a) 5% (b) 7½% (c) 6% (d) 6⅔%
+Answer: (d)
+Solution: SI/P = RT/100 = R²/100 = 4/9, so R² = 400/9 and R = 20/3 = 6⅔. The trap is taking R = 4/9 × 100 ≈ 44% or setting R = T = 4/9. So the answer is 6⅔%.
+Source: PYQ-style
+
+90. A sum of ₹15,500 is lent partly at 8% and partly at 10% simple interest. The total interest after 3 years is ₹4,200. Find the part lent at 8%.
+(a) ₹9,000 (b) ₹8,000 (c) ₹8,500 (d) ₹7,500
+Answer: (d)
+Solution: Let the 8% part be x. Then (x × 8 × 3 + (15500 − x) × 10 × 3)/100 = 4200, so 24x + 465000 − 30x = 420000, giving 6x = 45000 and x = 7,500. The trap is reporting the 10% part ₹8,000 instead of the 8% part asked. So the answer is ₹7,500.
+Source: PYQ-style
+
+91. At what rate percent per annum will the simple interest on ₹2,500 be ₹500 in 2 years 6 months?
+(a) 6% (b) 7% (c) 8% (d) 10%
+Answer: (c)
+Solution: T = 2.5 years. R = (500 × 100)/(2500 × 2.5) = 50000/6250 = 8. The trap is using T = 2 years, which gives 10%, and forgetting the extra 6 months. So the answer is 8%.
+Source: NCERT Class 8 Mathematics
+
+92. A sum amounts to ₹11,800 in 3 years and ₹13,000 in 5 years at simple interest. Find the sum and the rate.
+(a) ₹10,000, 5% (b) ₹10,000, 6% (c) ₹11,000, 6% (d) ₹9,000, 8%
+Answer: (b)
+Solution: Interest for 2 extra years = 13000 − 11800 = ₹1,200, so yearly interest = ₹600. Principal = 11800 − 3 × 600 = ₹10,000, and R = 600 × 100/10000 = 6%. The trap is treating ₹11,800 as the principal, which gives a wrong rate. So the answer is ₹10,000, 6%.
+Source: PYQ-style
+
+93. A man invests ₹4,000 at 5% and ₹3,500 at 4% simple interest. In how many years will the total interest from both investments be ₹1,020?
+(a) 3 years (b) 2.5 years (c) 4 years (d) 2 years
+Answer: (a)
+Solution: Yearly interest = 4000 × 5/100 + 3500 × 4/100 = 200 + 140 = ₹340. Time = 1020/340 = 3 years. The trap is averaging the principals or rates first and then solving, which distorts the yearly interest. So the answer is 3 years.
+Source: PYQ-style
+
+94. The simple interest on a sum for 5 years is two-fifths of the sum. The rate percent per annum is:
+(a) 6% (b) 7% (c) 10% (d) 8%
+Answer: (d)
+Solution: SI/P = 2/5 = RT/100 = 5R/100, so R = (2/5) × 100/5 = 8. The trap is computing (2/5) × 100 = 40% and then forgetting to divide by the 5 years. So the answer is 8%.
+Source: NCERT Class 8 Mathematics
+
+95. A sum of ₹7,200 is divided into two parts. The first part is invested at 6% for 2 years and the second at 4% for 3 years, and the interests are equal. Find the first part.
+(a) ₹3,200 (b) ₹4,200 (c) ₹3,600 (d) ₹4,000
+Answer: (c)
+Solution: Let the first part be x. Then x × 6 × 2 = (7200 − x) × 4 × 3, so 12x = 86400 − 12x, giving 24x = 86400 and x = 3,600. The trap is splitting in the ratio 6:4 instead of using the time-weighted products 12:12. So the answer is ₹3,600.
+Source: PYQ-style
+
+96. In what time will ₹8,500 amount to ₹15,725 at 17% per annum simple interest?
+(a) 5 years (b) 6 years (c) 4 years (d) 7 years
+Answer: (a)
+Solution: Interest = 15725 − 8500 = ₹7,225. T = (7225 × 100)/(8500 × 17) = 722500/144500 = 5. The trap is dividing 7225 by 8500 to get 0.85 and misreading it as years. So the answer is 5 years.
+Source: PYQ-style
+
+97. A certain sum becomes ₹5,600 in 2 years and ₹6,800 in 6 years at simple interest. Find the rate percent per annum.
+(a) 5% (b) 6% (c) 7% (d) 8%
+Answer: (b)
+Solution: Interest for 4 extra years = 6800 − 5600 = ₹1,200, so yearly interest = ₹300. Principal = 5600 − 2 × 300 = ₹5,000, and R = 300 × 100/5000 = 6%. The trap is dividing ₹1,200 by ₹5,600 to get the rate, mixing interest with the amount. So the answer is 6%.
+Source: PYQ-style
+
+98. A sum of money at simple interest amounts to ₹8,160 in 3 years and ₹9,600 in 6 years. The sum is:
+(a) ₹6,000 (b) ₹6,400 (c) ₹6,720 (d) ₹7,200
+Answer: (c)
+Solution: Interest for 3 extra years = 9600 − 8160 = ₹1,440, so yearly interest = ₹480. Interest for 3 years = ₹1,440. Principal = 8160 − 1440 = ₹6,720. The trap is taking ₹8,160 as the principal or halving ₹9,600. So the answer is ₹6,720.
+Source: PYQ-style
+
+99. A trader lends ₹20,000 at 12% per annum simple interest for 9 months. How much interest does he earn?
+(a) ₹1,800 (b) ₹1,600 (c) ₹2,000 (d) ₹2,400
+Answer: (a)
+Solution: T = 9/12 = 0.75 year. SI = 20000 × 12 × 0.75/100 = ₹1,800. The trap is computing 12% of 20000 = 2400 for a full year and forgetting the 9-month period. So the answer is ₹1,800.
+Source: NCERT Class 8 Mathematics
+
+100. The rate of simple interest for the first 2 years is 6%, for the next 3 years is 8%, and beyond 5 years is 10%. If a sum earns ₹3,360 as interest in 7 years, find the sum.
+(a) ₹6,500 (b) ₹5,000 (c) ₹6,000 (d) ₹7,500
+Answer: (c)
+Solution: Effective interest over 7 years = P/100 × (6 × 2 + 8 × 3 + 10 × 2) = P/100 × (12 + 24 + 20) = 56P/100. So 56P/100 = 3360, giving P = 336000/56 = 6,000. The trap is averaging the three rates to 8% for 7 years, which gives 56% only by coincidence here but fails in general — always weight each rate by its own years. So the answer is ₹6,000.
+Source: PYQ-style
