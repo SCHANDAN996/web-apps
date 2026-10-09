@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 10-10-2026 04:15 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 02:27 AM
+**आख़िरी update:** 10-10-2026 04:30 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 02:27 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W5 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 3 मिनट |
+| W5 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 18 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -22,11 +22,11 @@
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 10 | 0 | 15 |
 | 12th English | 25 | 0 | 0 |
-| Graduation Maths | 12 | 0 | 16 |
+| Graduation Maths | 13 | 0 | 15 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 13 | 0 | 17 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **232** | **5** | **59** |
+| **कुल** | **233** | **5** | **58** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -43,12 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 03:45:38   [Trigonometry] set 02 try 1: rejected (parsed 24 questions, numbers 26…50)
-10-10 03:45:59   [Probability] set 02 try 1: rejected (parsed 23 questions, numbers 26…50)
-10-10 03:46:57   [Trigonometry] set 02 try 2: rejected (parsed 24 questions, numbers 26…50)
-10-10 03:47:29   [Probability] set 02 try 2: rejected (parsed 0 questions, numbers -…-)
-10-10 03:48:04   [Trigonometry] set 02 try 3: rejected (parsed 24 questions, numbers 26…50)
-10-10 03:48:58   [Probability] set 02 try 3: rejected (parsed 23 questions, numbers 26…50)
 10-10 03:49:14   [Trigonometry] set 02 try 4: rejected (parsed 24 questions, numbers 26…50)
 10-10 03:49:14   [Trigonometry] FAILED set 02: no version passed the checks — files left as they were
 10-10 03:49:14   [Trigonometry] written 2, failed 1; AI calls today 80/100000
@@ -83,4 +77,10 @@
 10-10 04:11:49 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_21_Probability (FIX: todo 0, problems 8)
 10-10 04:14:59   [Probability] set 02 try 1: rejected (parsed 23 questions, numbers 26…50)
 10-10 04:15:01   [Probability] set 02 try 2: rejected (parsed 0 questions, numbers -…-)
+10-10 04:16:22   [Probability] set 02 try 3: rejected (parsed 23 questions, numbers 26…50)
+10-10 04:22:41   [Probability] set 02 try 4: rejected (parsed 0 questions, numbers -…-)
+10-10 04:22:41   [Probability] FAILED set 02: no version passed the checks — files left as they were
+10-10 04:23:55   [Probability] set 03 try 1: rejected (parsed 23 questions, numbers 51…75)
+10-10 04:25:04   [Probability] set 03 try 2: rejected (parsed 23 questions, numbers 51…75)
+10-10 04:26:46   [Probability] set 03 try 3: rejected (parsed 23 questions, numbers 51…75)
 ```
