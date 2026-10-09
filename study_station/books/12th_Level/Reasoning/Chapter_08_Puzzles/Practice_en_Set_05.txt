@@ -1,0 +1,151 @@
+Questions 101–120: Easy | Questions 121–125: Moderate
+
+101. Five friends A, B, C, D and E are sitting in a row facing north. A sits at one of the ends. B sits second to the right of A. C sits next to B. D does not sit next to A. Who sits in the middle?
+(a) B (b) E (c) D (d) C
+Answer: (a)
+Solution: The trap is placing A in the middle of the row; A must be at an end. With A at the left end, B is at position 3, C next to B at position 4, D not next to A so D takes position 5, and E fills position 2: A, E, B, C, D. The middle seat is position 3, so the answer is B.
+Source: PYQ-style
+
+102. In a family of six, P is the father of Q. R is the mother of Q. S is the brother of Q. T is the wife of S. U is the daughter of S. How is U related to P?
+(a) Granddaughter (b) Daughter (c) Sister (d) Niece
+Answer: (a)
+Solution: The trap is "niece" — U is the daughter of S, and S is the son of P (since S is the brother of P's child Q). The child of one's son is a granddaughter, so the answer is Granddaughter.
+Source: PYQ-style
+
+103. Six boxes are stacked one above another. Box M is immediately above box N. Box O is at the top. Box P is immediately below box N. Box Q is above box R but below box P. Which box is at the bottom?
+(a) R (b) Q (c) P (d) N
+Answer: (a)
+Solution: The trap is Q, which sits just above R but is not at the bottom. The full order from top is O, M, N, P, Q, R, so the answer is R.
+Source: PYQ-style
+
+104. A is taller than B but shorter than C. D is taller than C. E is shorter than B. Who is the shortest?
+(a) B (b) E (c) C (d) A
+Answer: (b)
+Solution: The trap is B, which looks shortest because A is "taller than B", but E is shorter than B. The order is D > C > A > B > E, so the answer is E.
+Source: PYQ-style
+
+105. Six people A, B, C, D, E and F sit in a circle facing the centre. A sits opposite D. B sits between A and C. E sits next to D. Who sits opposite B?
+(a) F (b) E (c) C (d) D
+Answer: (b)
+Solution: The trap is F, the only person not directly placed. Numbering seats 1–6: A(1), B(2), C(3), D(4) opposite A, E(5) next to D, F(6). The seat opposite B(2) is seat 5, so the answer is E.
+Source: PYQ-style
+
+106. In a code, if MONDAY is written as NPOEBZ, how is FRIDAY written?
+(a) GSJEAZ (b) GSJEBZ (c) HSJEBZ (d) GSKEBZ
+Answer: (b)
+Solution: Each letter shifts +1: F→G, R→S, I→J, D→E, A→B, Y→Z. The trap is GSJEAZ, where the solver forgets to shift the A, so the answer is GSJEBZ.
+Source: PYQ-style
+
+107. Five exams — Hindi, English, Maths, Science, Social — are held Monday to Friday. Maths is on Wednesday. English is before Hindi. Science is on Friday. Social is not on Monday. Which exam is on Monday?
+(a) English (b) Hindi (c) Social (d) Science
+Answer: (a)
+Solution: The trap is Social, but it is barred from Monday. Wednesday = Maths, Friday = Science; of the remaining days, English must come before Hindi, so Monday = English, Tuesday = Hindi, Thursday = Social. So the answer is English.
+Source: PYQ-style
+
+108. Pointing to a photo, Ravi said, "She is the daughter of my grandfather's only son." How is the girl related to Ravi?
+(a) Cousin (b) Mother (c) Sister (d) Aunt
+Answer: (c)
+Solution: The trap is "cousin" — but grandfather's only son is Ravi's own father, so his daughter is Ravi's sister. So the answer is Sister.
+Source: PYQ-style
+
+109. Six people P, Q, R, S, T and U sit in a circle facing the centre. P sits opposite S. Q sits next to P. R sits opposite Q. T sits next to S. Who sits opposite T?
+(a) R (b) P (c) U (d) Q
+Answer: (c)
+Solution: The trap is R, which is opposite Q, not opposite T. Numbering seats 1–6: P(1), S(4) opposite P, Q(2) next to P, R(5) opposite Q; T must sit next to S, and seat 5 is taken, so T is at seat 3 and U fills seat 6. The seat opposite T(3) is seat 6, so the answer is U.
+Source: PYQ-style
+
+110. In a row of students, Ramesh is 12th from the left and Suresh is 18th from the right. If they interchange positions, Ramesh becomes 20th from the left. How many students are in the row?
+(a) 36 (b) 39 (c) 38 (d) 37
+Answer: (d)
+Solution: The trap is 38, from adding 20 + 18 without subtracting the double-counted person. After interchange Ramesh stands at Suresh's place: 20th from left and 18th from right, so total = 20 + 18 − 1 = 37. So the answer is 37.
+Source: PYQ-style
+
+111. A clock shows 4:20. What is the angle between the hour and minute hands?
+(a) 0° (b) 10° (c) 20° (d) 30°
+Answer: (b)
+Solution: The trap is 20°, from ignoring the hour hand's drift past 4. Minute hand at 20 minutes = 120°; hour hand = 4×30 + 20×0.5 = 130°; difference = 10°. So the answer is 10°.
+Source: PYQ-style
+
+112. Six people A, B, C, D, E, F have different heights. A is taller than only two people. B is taller than A. C is shorter than D but taller than E. F is not the tallest. Who is the tallest?
+(a) B (b) C (c) F (d) D
+Answer: (d)
+Solution: The trap is B, which is taller than A but not necessarily the tallest. A is 4th tallest; C is below D; F is ruled out; so only D can top the order. So the answer is D.
+Source: PYQ-style
+
+113. If 1st January 2001 was a Monday, what day was 1st January 2005?
+(a) Sunday (b) Friday (c) Saturday (d) Thursday
+Answer: (c)
+Solution: The trap is Friday, from counting leap year 2004 as a normal year. Odd days: 2001 = 1, 2002 = 1, 2003 = 1, 2004 = 2; total 5; Monday + 5 = Saturday. So the answer is Saturday.
+Source: PYQ-style
+
+114. In a certain code, TEACHER is written as VGCEJGT. How is STUDENT written?
+(a) UVWFGPW (b) UVXFGPV (c) UVWFGPV (d) UVWFGQV
+Answer: (c)
+Solution: Each letter shifts +2: S→U, T→V, U→W, D→F, E→G, N→P, T→V. The traps shift one letter wrongly (last letter, or N, or D), so the answer is UVWFGPV.
+Source: PYQ-style
+
+115. Five friends P, Q, R, S, T like five different colours — red, blue, green, yellow and pink. P likes red. R likes blue. T likes yellow. Q does not like green. Which colour does S like?
+(a) Pink (b) Blue (c) Yellow (d) Green
+Answer: (d)
+Solution: The trap is pink — but Q cannot take green, so Q must take pink. Red, blue and yellow are already taken by P, R and T, leaving green for S. So the answer is Green.
+Source: PYQ-style
+
+116. A man walks 5 km north, turns right and walks 3 km, turns right again and walks 5 km. How far and in which direction is he from the start?
+(a) 8 km East (b) 3 km West (c) 3 km East (d) 5 km North
+Answer: (c)
+Solution: The trap is 8 km, from adding the legs instead of cancelling. North 5 and South 5 cancel out, leaving only the 3 km eastward leg. So the answer is 3 km East.
+Source: PYQ-style
+
+117. In a family, A is the son of B. C is the daughter of A. D is the mother of C. E is the husband of B. How is D related to B?
+(a) Daughter-in-law (b) Sister (c) Mother (d) Daughter
+Answer: (a)
+Solution: The trap is "daughter", from misreading the generation. D is the mother of A's daughter, so D is A's wife; since A is B's son, D is B's daughter-in-law. So the answer is Daughter-in-law.
+Source: PYQ-style
+
+118. Seven books — Physics, Chemistry, Maths, Biology, English, Hindi and GK — are arranged on a shelf. Physics is to the immediate right of Chemistry. Maths is at the left end. Hindi is to the immediate left of Maths. Biology is somewhere between Chemistry and English. Which book is at the right end?
+(a) Physics (b) Cannot be determined (c) Biology (d) English
+Answer: (b)
+Solution: The trap is English, which can sit at the right end in some arrangements but not all. With Maths(1) and Hindi(2), the Chemistry–Physics pair and the Chemistry–Biology–English spread can be placed in more than one valid way among seats 3–7, leaving either English or GK at the right end. So the answer is Cannot be determined.
+Source: PYQ-style
+
+119. If A + B means A is the brother of B, A − B means A is the sister of B, and A × B means A is the father of B, which expression shows that P is the uncle of R?
+(a) P + Q − R (b) P − Q × R (c) P × Q + R (d) P + Q × R
+Answer: (d)
+Solution: The trap is P × Q + R, which makes P the grandfather of R. In P + Q × R, Q is the father of R and P is Q's brother, so P is R's uncle. So the answer is P + Q × R.
+Source: PYQ-style
+
+120. In a queue, Asha is 7th from the front and 12th from the back. How many people are in the queue?
+(a) 19 (b) 17 (c) 20 (d) 18
+Answer: (d)
+Solution: The trap is 19, from adding 7 + 12 without subtracting the double-counted person. Total = 7 + 12 − 1 = 18. So the answer is 18.
+Source: PYQ-style
+
+121. Six people — K, L, M, N, O, P — sit in two rows of three facing each other. K faces N. L sits to the right of K. M faces L. O does not sit next to K. Who faces P?
+(a) L (b) O (c) M (d) K
+Answer: (b)
+Solution: The trap is assuming O must be far from K in the other row. Row 1 is K, L, O (L is right of K, and L sits between K and O, so O is not next to K). Row 2 has N opposite K and M opposite L, leaving P opposite O. So the answer is O.
+Source: PYQ-style
+
+122. Eight people A, B, C, D, E, F, G, H sit around a circular table facing the centre. A sits opposite E. B sits second to the left of A. C sits between B and E. F sits opposite B. G sits next to both A and F. Who sits opposite C?
+(a) F (b) D (c) G (d) E
+Answer: (c)
+Solution: The trap is F, which is opposite B, not opposite C. Numbering seats 1–8 clockwise: A(1), E(5) opposite A, B(3) second to the left of A, C(4) between B and E, F(7) opposite B; G must sit next to both A and F, so G takes seat 8. The seat opposite C(4) is seat 8, so the answer is G.
+Source: PYQ-style
+
+123. In a code language, "pit na som" means "bring me water", "na jo tod" means "water is life", "tub od pit" means "give me toy". Which word means "me"?
+(a) som (b) jo (c) na (d) pit
+Answer: (d)
+Solution: The trap is na — sentences 1 and 2 share "na" and the common word "water", so na = water. Sentences 1 and 3 share "pit" and the common word "me", so pit = me. So the answer is pit.
+Source: PYQ-style
+
+124. Five couples sit in a row of 10 chairs. Each husband sits next to his wife. Mr. A sits at one end. Mrs. B sits at the other end. Mr. C sits next to Mr. A. Mrs. A sits fourth from the left. If Mr. A is at the left end, who sits immediately to the right of Mrs. A?
+(a) Cannot be determined (b) Mr. A (c) Mr. C (d) Mrs. C
+Answer: (a)
+Solution: The trap is Mr. C, who is fixed at seat 2, not seat 5. Mr. A is at seat 1, Mr. C at seat 2 and Mrs. A at seat 4, but the clues fix nothing about seat 5, to the right of Mrs. A. So the answer is Cannot be determined.
+Source: PYQ-style
+
+125. A cube is painted red on all faces and cut into 64 equal smaller cubes. How many small cubes have exactly two painted faces?
+(a) 24 (b) 12 (c) 8 (d) 32
+Answer: (a)
+Solution: The trap is 12, from counting only one cube per edge. A 4×4×4 cube has 12 edges, and each edge contributes 4 − 2 = 2 cubes with exactly two painted faces: 12 × 2 = 24. So the answer is 24.
+Source: PYQ-style

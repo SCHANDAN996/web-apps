@@ -1,0 +1,151 @@
+Questions 126–145: Easy | Questions 146–150: Moderate
+
+126. Six persons P, Q, R, S, T and U sit in a row facing north. P sits third to the left of T. Q sits at the leftmost end. S sits immediately to the right of P. U is not adjacent to Q. Who sits second to the right of R?
+(a) P (b) T (c) U (d) S
+Answer: (c)
+Solution: The trap is misreading "third to the left of T" as "third to the right", which makes S the answer. P third to the left of T gives P at position 2 and T at position 5; S is immediately right of P at position 3; Q is fixed at position 1; U cannot be adjacent to Q, so U is at 6 and R at 4. Second to the right of R is position 6, so the answer is U.
+Source: PYQ-style
+
+127. In a family of six members A, B, C, D, E and F, there are two married couples. D is the grandmother of A and the mother of B. C is the wife of B and the mother of F. F is the granddaughter of E. How is A related to C?
+(a) Daughter (b) Cannot be determined (c) Granddaughter (d) Son
+Answer: (b)
+Solution: The trap is assuming A must be the daughter of B and C and picking "Daughter" by guessing. D is grandmother of A and mother of B, and C is the wife of B, so A is a child of B and C — but A's gender is never stated. So the answer is Cannot be determined.
+Source: PYQ-style
+
+128. Seven boxes A, B, C, D, E, F, G are stacked one above another. A is immediately above B. D is above E but below C. F is at the top. G is immediately below E. Only one box is between C and A. Which box is at the bottom?
+(a) B (b) E (c) D (d) G
+Answer: (d)
+Solution: The trap is placing D directly above E and forgetting that G must sit immediately below E, which wrongly pushes B to the bottom. The only arrangement satisfying every clue from top to bottom is F, C, D, A, B, E, G: A is immediately above B, D is above E and below C, G is immediately below E, and exactly one box (D) lies between C and A. So the answer is G.
+Source: PYQ-style
+
+129. Five friends M, N, O, P and Q like five different colours — red, blue, green, yellow, pink — and each belongs to a different city: Delhi, Mumbai, Pune, Goa, Jaipur. M likes red and is from Delhi. N is from Mumbai. O likes green. P is from Goa and does not like yellow. Q likes yellow. Which colour does N like?
+(a) Yellow (b) Pink (c) Blue (d) Green
+Answer: (c)
+Solution: The trap is giving pink to N by hasty elimination while forgetting that P cannot like yellow. Red, green and yellow are taken by M, O and Q; P cannot like yellow, so P likes pink. The only colour left for N is blue, so the answer is Blue.
+Source: PYQ-style
+
+130. In a certain code, if A is called B, B is called C, C is called D, D is called E and E is called A, then who is called C?
+(a) E (b) D (c) B (d) A
+Answer: (c)
+Solution: The trap is answering D by reading the question backwards as "what is C called". "B is called C" means B now carries the name C, so the one called C is B. So the answer is B.
+Source: PYQ-style
+
+131. Six persons A, B, C, D, E and F sit around a circular table facing the centre. A sits opposite D. B sits opposite E. C sits opposite F. A is immediately to the left of B. Who sits immediately to the right of D?
+(a) F (b) C (c) E (d) B
+Answer: (c)
+Solution: The trap is fixing A and B correctly but then placing D opposite B instead of opposite A. Fix A at seat 1; A immediately left of B puts B at seat 2; then D is opposite A at seat 4 and E is opposite B at seat 5. The seat immediately to the right of D is seat 5, so the answer is E.
+Source: PYQ-style
+
+132. Pointing to a woman, Ravi said, "She is the daughter of my grandfather's only son." How is the woman related to Ravi?
+(a) Sister (b) Mother (c) Aunt (d) Daughter
+Answer: (a)
+Solution: The trap is stopping at "grandfather's son" and calling her an aunt. Grandfather's only son is Ravi's father, and the father's daughter is Ravi's sister. So the answer is Sister.
+Source: PYQ-style
+
+133. Six lectures A, B, C, D, E, F are held from Monday to Saturday. A is on Thursday. B is immediately before E. C is after D but before F. D is not on Monday. Which lecture is on Monday?
+(a) C (b) F (c) D (d) B
+Answer: (d)
+Solution: The trap is putting D on Monday despite the clue forbidding it. With A on Thursday, the B–E pair can be Mon–Tue, Tue–Wed or Fri–Sat; Fri–Sat forces D onto Monday, and Tue–Wed leaves no valid place for the D–C–F chain. Hence B is on Monday and E on Tuesday, with D, C, F on Wednesday, Friday and Saturday. So the answer is B.
+Source: PYQ-style
+
+134. In a row of students, Ramesh is 12th from the left and Suresh is 18th from the right. If they interchange their positions, Ramesh becomes 25th from the left. How many students are there in the row?
+(a) 42 (b) 41 (c) 40 (d) 43
+Answer: (a)
+Solution: The trap is adding 25 + 18 = 43 and forgetting that the person at the interchange position is counted twice. After the swap Ramesh occupies Suresh's place, which is 25th from the left and 18th from the right, so total = 25 + 18 − 1 = 42. So the answer is 42.
+Source: PYQ-style
+
+135. Five persons A, B, C, D, E earn different salaries. A earns more than B but less than C. D earns more than C. E earns less than B. Who earns the second highest?
+(a) B (b) D (c) A (d) C
+Answer: (d)
+Solution: The trap is misplacing A above C and answering A. The full order is D > C > A > B > E, so D earns the most and C the second most. So the answer is C.
+Source: PYQ-style
+
+136. A clock shows 4:15. Through what angle has the hour hand moved from 4 o'clock?
+(a) 7.5° (b) 15° (c) 30° (d) 22.5°
+Answer: (a)
+Solution: The trap is answering 15° by matching 15 minutes directly to degrees. The hour hand moves 0.5° per minute, so in 15 minutes it moves 7.5°. So the answer is 7.5°.
+Source: NCERT Class 8 Mathematics
+
+137. P, Q, R, S, T are five houses in a row. P is to the right of Q. T is to the left of S but right of R. Q is to the left of R. Which house is in the middle?
+(a) T (b) R (c) P (d) S
+Answer: (b)
+Solution: The trap is building the order P, Q, R, T, S and answering P. The chain Q < R < T < S fixes four houses, and P must be to the right of Q, giving Q, P, R, T, S. The third (middle) house is R, so the answer is R.
+Source: PYQ-style
+
+138. In a group of 60 people, 35 play cricket, 28 play football and 12 play both. How many play neither game?
+(a) 5 (b) 9 (c) 11 (d) 7
+Answer: (b)
+Solution: The trap is computing 60 − 35 − 28 and ignoring the overlap of 12. Players of at least one game = 35 + 28 − 12 = 51, so neither = 60 − 51 = 9. So the answer is 9.
+Source: NCERT Class 11 Mathematics
+
+139. Six friends A, B, C, D, E, F sit in two rows of three facing each other. A faces D. B is to the left of A in the same row. E faces B. C is not at any end. Who faces C?
+(a) E (b) F (c) D (d) B
+Answer: (b)
+Solution: The trap is assuming C faces D because A faces D and C seems "near" A. In row 1, B is left of A, so the row is B, F, A; in the facing row, E sits opposite B and D opposite A, leaving C in the middle seat — which satisfies "C is not at any end". C faces the middle person of row 1, so the answer is F.
+Source: PYQ-style
+
+140. If the day before yesterday was Wednesday, what day will it be the day after tomorrow?
+(a) Friday (b) Monday (c) Saturday (d) Sunday
+Answer: (d)
+Solution: The trap is miscounting "day after tomorrow" as three days ahead and landing on Monday. Day before yesterday was Wednesday, so today is Friday; tomorrow is Saturday and the day after tomorrow is Sunday. So the answer is Sunday.
+Source: PYQ-style
+
+141. A man walks 5 km north, turns right and walks 3 km, turns right again and walks 5 km. He finally turns left and walks 2 km. How far and in which direction is he from the start?
+(a) 2 km East (b) 5 km East (c) 5 km West (d) 3 km East
+Answer: (b)
+Solution: The trap is ignoring the final left turn and answering 3 km East. The 5 km north and 5 km south cancel; facing south, a left turn points east, adding 2 km to the earlier 3 km east. Total displacement is 5 km East, so the answer is 5 km East.
+Source: PYQ-style
+
+142. In a code language, TEACHER is written as VGCEJGT. How will STUDENT be written?
+(a) UVWFGPV (b) UVWFGQV (c) UVWFGPW (d) UVWFGPU
+Answer: (a)
+Solution: The trap is applying +2 to all letters but slipping on the last letter, giving UVWFGPW. Each letter shifts by +2 (T→V, E→G, A→C and so on), so STUDENT becomes UVWFGPV. So the answer is UVWFGPV.
+Source: PYQ-style
+
+143. Five exams — Hindi, English, Maths, Science, GK — are held on consecutive days from Monday to Friday. Maths is before English but after Science. GK is immediately after Hindi. English is not on the last day. If Science is on Monday, which exam is on Friday?
+(a) Hindi (b) GK (c) English (d) Maths
+Answer: (b)
+Solution: The trap is placing English on Friday and forcing GK onto Thursday. Science is Monday; Maths must come after Science and before English, and English cannot be on Friday, so Maths is Tuesday and English is Wednesday. The Hindi–GK consecutive pair then fits Thursday–Friday, so the answer is GK.
+Source: PYQ-style
+
+144. A is the brother of B. B is the daughter of C. D is the father of C. E is the sister of D. How is E related to B?
+(a) Great-aunt (b) Mother (c) Grandmother (d) Aunt
+Answer: (a)
+Solution: The trap is calling E a grandmother because she belongs to the grandparents' generation. D is B's grandfather, and the grandfather's sister is a great-aunt (grand-aunt). So the answer is Great-aunt.
+Source: PYQ-style
+
+145. In a queue of five persons, F is ahead of E, E is ahead of B, B is ahead of C, and C is ahead of D. Who is exactly in the middle of the queue?
+(a) F (b) E (c) B (d) C
+Answer: (c)
+Solution: The trap is counting from the wrong end and answering C. The order from front to back is F, E, B, C, D, so the third (middle) person is B. So the answer is B.
+Source: PYQ-style
+
+146. A cube is painted red on all faces and cut into 64 equal smaller cubes. How many small cubes have exactly two painted faces?
+(a) 16 (b) 8 (c) 12 (d) 24
+Answer: (d)
+Solution: The trap is answering 12 by counting only the edges and forgetting each edge holds several cubes. A 4×4×4 cube has 12 edges, and each edge contributes (4 − 2) = 2 cubes with exactly two painted faces: 12 × 2 = 24. So the answer is 24.
+Source: PYQ-style
+
+147. Statements: All pens are books. Some books are tables. Conclusions: I. Some pens are tables. II. Some tables are books. Which conclusion(s) follow?
+(a) Only II (b) Only I (c) Both I and II (d) Neither I nor II
+Answer: (a)
+Solution: The trap is accepting conclusion I because the chain feels transitive — but "some books" breaks it, since pens may lie entirely outside tables. Conclusion II follows directly by converting "some books are tables". So the answer is Only II.
+Source: PYQ-style
+
+148. Seven persons A, B, C, D, E, F, G were born in different months of the same year. A was born before C but after E. D was born immediately after B. G was born before E. F was born after C. Only one person was born between G and B. Who was born first?
+(a) B (b) D (c) E (d) G
+Answer: (d)
+Solution: The trap is answering E because E precedes A and C, overlooking that G precedes E. The chain G < E < A < C < F with the consecutive pair B–D and one person between G and B fixes the order G, E, B, D, A, C, F. So the answer is G.
+Source: PYQ-style
+
+149. In a family, X is the son of Y. Z is the husband of Y. W is the daughter of Z. V is the brother of W. U is the son of V. How is U related to Y?
+(a) Grandson (b) Brother (c) Nephew (d) Son
+Answer: (a)
+Solution: The trap is answering "Nephew" by linking U to his aunt W instead of to Y. Y and Z are spouses, W and V are their children, and U is the son of V, making U the grandson of Y. So the answer is Grandson.
+Source: PYQ-style
+
+150. In a row of 40 students, Ravi is 15th from the left. What is his position from the right?
+(a) 25th (b) 27th (c) 26th (d) 24th
+Answer: (c)
+Solution: The trap is computing 40 − 15 = 25 and forgetting to add 1 for Ravi himself. Position from right = 40 − 15 + 1 = 26. So the answer is 26th.
+Source: NCERT Class 8 Mathematics

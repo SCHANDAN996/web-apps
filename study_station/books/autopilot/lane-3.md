@@ -10,9 +10,9 @@
 |---|---|---|---|
 | W2 | Chapter 16 Statement Conclusion (12th Reasoning) | ✍️ लिख रहा है | 84 मिनट |
 | W3 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 204 मिनट |
-| W6 | Chapter 08 Puzzles (12th Reasoning) | 🔎 review हो रहा है | 53 मिनट |
-| W7 | Chapter 11 Series (12th Reasoning) | 🔎 review हो रहा है | 17 मिनट |
-| W8 | Chapter 10 Clock Calendar (12th Reasoning) | ✍️ लिख रहा है | 274 मिनट |
+| W6 | Chapter 08 Puzzles (12th Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W7 | Chapter 11 Series (12th Reasoning) | 🔎 review हो रहा है | 18 मिनट |
+| W8 | Chapter 10 Clock Calendar (12th Reasoning) | ✍️ लिख रहा है | 275 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,6 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 23:53 — 12th Reasoning · Chapter 08 Puzzles
 - 09-10 22:28 — 12th Reasoning · Chapter 12 Missing Term
 - 09-10 20:31 — 12th English · Chapter 22 Para Jumbles
 - 09-10 20:28 — 12th Reasoning · Chapter 03 Coding Decoding
@@ -52,12 +53,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 23:19:38   [Dictionary_Order] Practice_en_Set_05.txt try 2: rejected (Q113:leaked_reasoning)
-09-10 23:20:34   [Alphabet_Questions] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 23:21:27   [Dictionary_Order] Practice_en_Set_05.txt try 3: rejected (Q113:leaked_reasoning)
-09-10 23:21:48   [Clock_Calendar] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-09-10 23:22:02   [Series] Practice_en_Set_06.txt try 1: rejected (parsed 1 questions, numbers 126…126)
-09-10 23:22:53   [Dictionary_Order] Practice_en_Set_05.txt try 4: rejected (Q113:leaked_reasoning)
 09-10 23:22:53   [Dictionary_Order] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
 09-10 23:22:53   [Dictionary_Order] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
 09-10 23:23:40   [Statement_Conclusion] wrote PYQ_hi.txt (8851 chars)
@@ -92,4 +87,10 @@
 09-10 23:52:23   [Puzzles] review Important_Rules_hi.txt: 5 issue(s): - "उस खाने में ✗" → "उस सेल में ✗"
 09-10 23:53:42   [Puzzles] review: 5 section(s) corrected, 0 failed
 09-10 23:53:42   [Puzzles] written 5, failed 0; AI calls today 525/100000
+09-10 23:53:59   [Dictionary_Order] Practice_en_Set_06.txt try 4: re-solve disagrees (Q148 key d vs re-solve c)
+09-10 23:53:59   [Dictionary_Order] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+09-10 23:53:59   [Dictionary_Order] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+09-10 23:53:59   [Dictionary_Order] written 15, failed 10; AI calls today 525/100000
+09-10 23:53:59 NOT OK 12th_Level/Reasoning/Chapter_13_Dictionary_Order after 205 min: todo ['Set 02 en: todo', 'Set 02 hi: todo', 'Set 03 en: todo', 'Set 03 hi: todo'] problems ['PYQ_hi.txt: much shorter than the English section (447 vs 13']
+09-10 23:53:59 worker 2: nothing left
 ```
