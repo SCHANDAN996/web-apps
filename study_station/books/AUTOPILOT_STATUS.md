@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 06:58 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 07:13 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 118 मिनट |
-| W4 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 125 मिनट |
+| W2 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 133 मिनट |
+| W4 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 140 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -20,7 +20,7 @@
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 9 | 13 | 0 |
-| 10th English | 7 | 0 | 13 |
+| 10th English | 8 | 0 | 12 |
 | 12th Maths | 2 | 0 | 21 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 4 | 0 | 21 |
@@ -29,7 +29,7 @@
 | Graduation GK | 23 | 0 | 5 |
 | Graduation Reasoning | 9 | 0 | 21 |
 | Graduation English | 29 | 1 | 0 |
-| **कुल** | **169** | **14** | **113** |
+| **कुल** | **170** | **14** | **112** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -50,17 +50,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 17:45:22   [Sitting_Arrangement] Practice_en_Set_06.txt try 2: rejected (Q127:leaked_reasoning,Q145:leaked_reasoning)
-09-10 17:45:48   [Dictionary_Order] Practice_en_Set_01.txt try 4: re-solve disagrees (Q4 key b vs re-solve a)
-09-10 17:45:48   [Dictionary_Order] REJECTED Practice_en_Set_01.txt: no version passed the checks — not written
-09-10 17:45:48   [Dictionary_Order] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
-09-10 17:46:09   [Alphabet_Questions] Practice_en_Set_01.txt try 2: re-solve disagrees (Q6 key c vs re-solve b, Q19 key b vs re-solve a, Q25 key a vs re-solve b)
-09-10 17:49:13   [Dictionary_Order] Practice_en_Set_02.txt try 1: rejected (Q26:leaked_reasoning,Q28:leaked_reasoning,Q30:leaked_reasoning,Q31:leaked_reasoning,Q32:leaked_reasoning)
-09-10 17:49:51   [Missing_Term] review Short_Tricks_hi.txt: 2 issue(s): - Trick 1 claims "80% प्रश्न सिर्फ़ 'अंतर' से हल हो जाते हैं" without any source or year → replace with a non‑
-09-10 17:59:15   [Puzzles] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 18:01:10   [Missing_Term] review Important_Rules_en.txt: 3 issue(s): - Position First example: series 3, 7, 13, 21 does not follow n² + n (which gives 2, 6, 12, 20); it follows
-09-10 18:01:36   [Alphabet_Questions] Practice_en_Set_01.txt try 3: re-solve disagrees (Q14 key b vs re-solve a)
-09-10 18:03:01   [Puzzles] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 09-10 18:03:01   [Puzzles] written 7, failed 2; AI calls today 345/100000
 09-10 18:03:02 NOT OK Graduation_Level/Reasoning/Chapter_08_Puzzles after 222 min: todo ['Set 01 en: todo', 'Set 01 hi: todo'] problems ['Short_Tricks_hi.txt: Hindi file is mostly not in Hindi']
 09-10 18:03:02 worker 0: nothing left
@@ -90,4 +79,15 @@
 09-10 18:48:53   [Alphabet_Questions] Practice_en_Set_03.txt try 1: rejected (Q56:leaked_reasoning,Q63:leaked_reasoning,Q70:leaked_reasoning,Q74:leaked_reasoning)
 09-10 18:54:04   [Dictionary_Order] Practice_en_Set_03.txt try 3: re-solve disagrees (Q63 key a vs re-solve d, Q67 key b vs re-solve a, Q71 key a vs re-solve d)
 09-10 18:57:57   [Alphabet_Questions] Practice_en_Set_03.txt try 2: re-solve disagrees (Q53 key d vs re-solve c)
+09-10 19:01:57   [Dictionary_Order] Practice_en_Set_03.txt try 4: re-solve disagrees (Q57 key d vs re-solve b, Q63 key d vs re-solve a)
+09-10 19:01:57   [Dictionary_Order] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
+09-10 19:01:57   [Dictionary_Order] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
+09-10 19:03:40   [Alphabet_Questions] Practice_en_Set_03.txt try 3: re-solve disagrees (Q53 key d vs re-solve c)
+09-10 19:04:23   [Dictionary_Order] Practice_en_Set_04.txt try 1: rejected (Q77:leaked_reasoning,Q80:leaked_reasoning,Q84:leaked_reasoning,Q89:leaked_reasoning,Q91:leaked_reasoning)
+09-10 19:04:52   [Dictionary_Order] Practice_en_Set_04.txt try 2: rejected (parsed 0 questions, numbers -…-)
+09-10 19:07:51   [Dictionary_Order] Practice_en_Set_04.txt try 3: rejected (Q84:leaked_reasoning,Q89:leaked_reasoning,Q93:leaked_reasoning,Q94:leaked_reasoning,Q97:leaked_reasoning)
+09-10 19:09:55   [Alphabet_Questions] Practice_en_Set_03.txt try 4: re-solve disagrees (Q53 key d vs re-solve c)
+09-10 19:09:55   [Alphabet_Questions] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
+09-10 19:09:55   [Alphabet_Questions] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
+09-10 19:12:19   [Alphabet_Questions] Practice_en_Set_04.txt try 1: rejected (Q76:leaked_reasoning,Q83:leaked_reasoning,Q86:leaked_reasoning,Q91:leaked_reasoning,Q92:leaked_reasoning)
 ```
