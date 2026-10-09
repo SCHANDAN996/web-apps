@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 11:45 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 12:00 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 06 Order Ranking (12th Reasoning) | ✍️ लिख रहा है | 4 मिनट |
-| W2 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 16 मिनट |
-| W3 | Chapter 04 Blood Relations (12th Reasoning) | ✍️ लिख रहा है | 17 मिनट |
-| W4 | Chapter 03 Coding Decoding (12th Reasoning) | ✍️ लिख रहा है | 62 मिनट |
-| W5 | Chapter 02 Classification (12th Reasoning) | ✍️ लिख रहा है | 2 मिनट |
+| W1 | Chapter 06 Order Ranking (12th Reasoning) | ✍️ लिख रहा है | 19 मिनट |
+| W2 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 31 मिनट |
+| W3 | Chapter 04 Blood Relations (12th Reasoning) | ✍️ लिख रहा है | 32 मिनट |
+| W4 | Chapter 03 Coding Decoding (12th Reasoning) | ✍️ लिख रहा है | 77 मिनट |
+| W5 | Chapter 02 Classification (12th Reasoning) | ✍️ लिख रहा है | 17 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -27,10 +27,10 @@
 | 12th Reasoning | 1 | 0 | 24 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 15 | 0 | 13 |
+| Graduation GK | 16 | 0 | 12 |
 | Graduation Reasoning | 3 | 0 | 27 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **136** | **13** | **147** |
+| **कुल** | **137** | **13** | **146** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -49,26 +49,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 11:26:18   [Classification] Practice_en_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 11:26:42   [Classification] Practice_en_Set_06.txt try 2: rejected (parsed 2 questions, numbers 126…127)
-09-10 11:26:55   [Analogy] review Short_Tricks_hi.txt: 3 issue(s): - Trick 3 claims "90% संख्या-प्रश्न इन्हीं तीन में सुलझ जाते हैं" → invented statistic without source; remove 
-09-10 11:27:50   [Para_Jumbles] Practice_en_Set_06.txt try 4: re-solve disagrees (Q127 key b vs re-solve a, Q148 key d vs re-solve b)
-09-10 11:27:50   [Para_Jumbles] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
-09-10 11:27:50   [Para_Jumbles] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-09-10 11:27:50   [Para_Jumbles] written 2, failed 2; AI calls today 346/100000
-09-10 11:27:50 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_22_Para_Jumbles after 66 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems []
-09-10 11:27:52 START 12th_Level/Reasoning/Chapter_04_Blood_Relations (TODO: todo 25, problems 0)
-09-10 11:28:28   [Word_Roots] review Short_Tricks_en.txt: 2 issue(s): - Trick 3: "MILLI=1000 (millennium)" is wrong; milli- means one-thousandth (1/1000), not 1000. The prefix for 
-09-10 11:28:31   [Classification] Practice_en_Set_06.txt try 3: rejected (parsed 0 questions, numbers -…-)
-09-10 11:29:11   [Analogy] review: 5 section(s) corrected, 2 failed
-09-10 11:29:11   [Analogy] written 5, failed 2; AI calls today 351/100000
-09-10 11:29:11 NOT OK 12th_Level/Reasoning/Chapter_01_Analogy after 45 min: todo [] problems []
-09-10 11:29:11   [Blood_Relations] Content_en.txt try 1: rejected (chat debris "Here is the")
-09-10 11:29:12 START 12th_Level/Reasoning/Chapter_05_Direction_Sense (TODO: todo 25, problems 0)
-09-10 11:30:29   [Blood_Relations] wrote Content_en.txt (6103 chars)
-09-10 11:31:00   [Coding_Decoding] Practice_en_Set_01.txt try 3: re-solve disagrees (Q3 key c vs re-solve b)
-09-10 11:32:00   [Word_Roots] review Short_Tricks_hi.txt: 2 issue(s): - Invented statistic "70% अनजाने शब्द इसी एक तरीके से हल हो जाते हैं" claimed without source → Remove the perc
-09-10 11:33:24   [Blood_Relations] wrote Content_hi.txt (5861 chars)
 09-10 11:34:02   [Blood_Relations] wrote Feynman_en.txt (3138 chars)
 09-10 11:35:43   [Blood_Relations] wrote Feynman_hi.txt (3613 chars)
 09-10 11:36:27   [Word_Roots] review Important_Rules_en.txt: 1 issue(s): - Rule 2 states prefixes never change word class → Prefixes like en- (enlarge) and be- (befriend) can chang
@@ -89,4 +69,24 @@
 09-10 11:44:39   [Coding_Decoding] Practice_en_Set_02.txt try 2: rejected (Q30:leaked_reasoning,Q35:leaked_reasoning,Q40:leaked_reasoning,Q41:leaked_reasoning,Q46:leaked_reasoning)
 09-10 11:44:50   [Classification] wrote Feynman_en.txt (3791 chars)
 09-10 11:45:03   [Order_Ranking] wrote Feynman_en.txt (3571 chars)
+09-10 11:45:58   [Coding_Decoding] Practice_en_Set_02.txt try 3: rejected (Q40:duplicate_options)
+09-10 11:47:04   [Order_Ranking] wrote Feynman_hi.txt (2920 chars)
+09-10 11:47:30   [Order_Ranking] wrote Mind_Map.txt (1729 chars)
+09-10 11:48:06   [Order_Ranking] wrote Flashcards_en.txt (2379 chars)
+09-10 11:49:20   [Direction_Sense] Content_en.txt try 1: answer too long — asking for a tighter version
+09-10 11:49:47   [Order_Ranking] wrote Flashcards_hi.txt (4324 chars)
+09-10 11:50:59   [Blood_Relations] Mind_Map.txt try 1: answer too long — asking for a tighter version
+09-10 11:51:12   [Direction_Sense] wrote Content_en.txt (8231 chars)
+09-10 11:51:12   [Order_Ranking] wrote PYQ_en.txt (8672 chars)
+09-10 11:51:33   [Direction_Sense] wrote Content_hi.txt (1071 chars)
+09-10 11:52:07   [Blood_Relations] wrote Mind_Map.txt (2867 chars)
+09-10 11:53:27   [Blood_Relations] wrote Flashcards_en.txt (4848 chars)
+09-10 11:54:07   [Classification] Practice_en_Set_03.txt try 1: re-solve disagrees (Q53 key b vs re-solve d, Q58 key b vs re-solve a, Q69 key c vs re-solve d, Q73 key d vs re-solve c)
+09-10 11:54:56   [Blood_Relations] wrote Flashcards_hi.txt (6696 chars)
+09-10 11:56:25   [Order_Ranking] wrote PYQ_hi.txt (6425 chars)
+09-10 11:57:59   [Order_Ranking] wrote Short_Tricks_en.txt (5284 chars)
+09-10 11:58:00   [Classification] Practice_en_Set_03.txt try 2: re-solve disagrees (Q53 key c vs re-solve d, Q58 key c vs re-solve b, Q69 key b vs re-solve d, Q73 key b vs re-solve c)
+09-10 11:58:23   [Order_Ranking] Short_Tricks_hi.txt try 1: rejected (too short)
+09-10 11:59:07   [Blood_Relations] wrote PYQ_en.txt (10177 chars)
+09-10 12:00:03   [Order_Ranking] wrote Short_Tricks_hi.txt (4466 chars)
 ```
