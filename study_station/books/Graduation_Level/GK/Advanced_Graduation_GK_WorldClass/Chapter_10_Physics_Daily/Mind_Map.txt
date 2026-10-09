@@ -1,0 +1,63 @@
+```mermaid
+graph TD
+    A["भौतिकी – दैनिक जीवन<br>Physics in Everyday Life"] --> B["गति एवं बल<br>Motion & Force"]
+    A --> C["ऊर्जा एवं कार्य<br>Energy & Work"]
+    A --> D["ऊष्मा<br>Heat"]
+    A --> E["प्रकाश<br>Light"]
+    A --> F["ध्वनि<br>Sound"]
+    A --> G["विद्युत एवं चुंबकत्व<br>Electricity & Magnetism"]
+    A --> H["द्रव यांत्रिकी<br>Fluid Mechanics"]
+
+    B --> B1["न्यूटन के 3 नियम<br>Newton's 3 Laws"]
+    B --> B2["जड़त्व – बस में झटका<br>Inertia – jerk in bus"]
+    B --> B3["संवेग संरक्षण<br>Momentum Conservation"]
+    B --> B4["घर्षण – लाभ/हानि<br>Friction – pros/cons"]
+    B --> B5["अभिकेन्द्र बल – मोड़ पर झुकाव<br>Centripetal – banking"]
+
+    C --> C1["स्थितिज/गतिज ऊर्जा<br>Potential/Kinetic Energy"]
+    C --> C2["ऊर्जा संरक्षण<br>Conservation of Energy"]
+    C --> C3["शक्ति = कार्य/समय<br>Power = Work/Time"]
+    C --> C4["1 यूनिट = 1 kWh<br>1 Unit = 1 kWh"]
+
+    D --> D1["चालन/संवहन/विकिरण<br>Conduction/Convection/Radiation"]
+    D --> D2["थर्मस – विकिरण को कम करता है<br>Thermos – reduces radiation"]
+    D --> D3["गुप्त ऊष्मा – बर्फ 0°C<br>Latent Heat – ice 0°C"]
+    D --> D4["भाप से ज़्यादा जलन<br>Steam burns more"]
+
+    E --> E1["परावर्तन – दर्पण<br>Reflection – mirrors"]
+    E --> E2["अपवर्तन – तारों का टिमटिमाना<br>Refraction – twinkling"]
+    E --> E3["पूर्ण आंतरिक परावर्तन – हीरा<br>TIR – diamond sparkle"]
+    E --> E4["प्रकीर्णन – नीला आसमान<br>Scattering – blue sky"]
+    E --> E5["उत्तल/अवतल लेंस उपयोग<br>Convex/Concave lens uses"]
+
+    F --> F1["अनुदैर्ध्य तरंग<br>Longitudinal Wave"]
+    F --> F2["गति 332 m/s (वायु, 0°C)<br>Speed 332 m/s (air, 0°C)"]
+    F --> F3["प्रतिध्वनि – न्यूनतम 16.6 m<br>Echo – min 16.6 m"]
+    F --> F4["पराश्रव्य >20000 Hz<br>Ultrasound >20000 Hz"]
+    F --> F5["डॉपलर प्रभाव<br>Doppler Effect"]
+
+    G --> G1["ओम का नियम V=IR<br>Ohm's Law V=IR"]
+    G --> G2["श्रेणी/समांतर – घर में समांतर<br>Series/Parallel – home parallel"]
+    G --> G3["फ्यूज – कम गलनांक<br>Fuse – low melting point"]
+    G --> G4["विद्युतचुंबकीय प्रेरण<br>EM Induction"]
+    G --> G5["AC 230V/50Hz भारत<br>AC 230V/50Hz India"]
+
+    H --> H1["दाब = बल/क्षेत्रफल<br>Pressure = Force/Area"]
+    H --> H2["आर्किमीडीज – उत्प्लावन<br>Archimedes – buoyancy"]
+    H --> H3["पास्कल – हाइड्रोलिक ब्रेक<br>Pascal – hydraulic brake"]
+    H --> H4["बरनौली – विमान पंख<br>Bernoulli – aeroplane wing"]
+    H --> H5["पृष्ठ तनाव – कीट जल पर<br>Surface Tension – insect on water"]
+
+    A --> I["परीक्षक के जाल<br>Examiner's Traps"]
+    I --> I1["भाप बनाम उबलता पानी<br>Steam vs boiling water"]
+    I --> I2["तारा टिमटिमाता, ग्रह नहीं<br>Star twinkles, planet not"]
+    I --> I3["ध्वनि निर्वात में नहीं<br>Sound needs medium"]
+    I --> I4["फ्यूज श्रेणी में, लाइव तार में<br>Fuse in series, live wire"]
+    I --> I5["दाब बनाम बल भ्रम<br>Pressure vs Force confusion"]
+
+    A --> J["रणनीति<br>Strategy"]
+    J --> J1["सूत्र + SI मात्रक रटें<br>Formulas + SI units"]
+    J --> J2["दैनिक उदाहरण से जोड़ें<br>Link daily examples"]
+    J --> J3["15/45 सेकंड नियम<br>15/45 second rule"]
+    J --> J4["नकारात्मक वाक्य ध्यान से<br>Read NOT-questions carefully"]
+```
