@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 09-10-2026 01:47 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 11:14 AM
+**आख़िरी update:** 09-10-2026 02:02 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 11:14 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 06 Adverb (10th English) | ✍️ लिख रहा है | 67 मिनट |
-| W2 | Chapter 02 Pronoun (10th English) | 🔎 review हो रहा है | 8 मिनट |
-| W3 | Chapter 09 Articles (10th English) | ✍️ लिख रहा है | 8 मिनट |
-| W4 | Chapter 07 Preposition (10th English) | ✍️ लिख रहा है | 55 मिनट |
-| W5 | Chapter 08 Conjunction (10th English) | ✍️ लिख रहा है | 14 मिनट |
+| W1 | Chapter 06 Adverb (10th English) | ✍️ लिख रहा है | 82 मिनट |
+| W2 | Chapter 02 Pronoun (10th English) | 🔎 review हो रहा है | 23 मिनट |
+| W3 | Chapter 09 Articles (10th English) | ✍️ लिख रहा है | 23 मिनट |
+| W4 | Chapter 07 Preposition (10th English) | ✍️ लिख रहा है | 70 मिनट |
+| W5 | Chapter 08 Conjunction (10th English) | ✍️ लिख रहा है | 30 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -46,17 +46,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 13:29:43   [Preposition] wrote Important_Rules_hi.txt (1300 chars)
-09-10 13:29:51   [Adjective] Practice_en_Set_06.txt try 1: re-solve disagrees (Q148 key c vs re-solve a)
-09-10 13:30:38   [Preposition] Practice_en_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 13:31:58   [Adjective] Practice_en_Set_06.txt try 2: rejected (parsed 0 questions, numbers -…-)
-09-10 13:32:05   [Tense] review: 8 section(s) corrected, 0 failed
-09-10 13:32:05   [Tense] written 8, failed 0; AI calls today 278/100000
-09-10 13:32:26 DONE 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_05_Tense in 138 min → 650320c4
-09-10 13:32:26 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_08_Conjunction (TODO: todo 26, problems 0)
-09-10 13:33:41   [Preposition] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 13:34:52   [Conjunction] wrote Content_en.txt (7146 chars)
-09-10 13:35:17   [Adverb] Practice_en_Set_05.txt try 1: re-solve disagrees (Q109 key c vs re-solve a, Q116 key c vs re-solve b)
 09-10 13:35:56   [Preposition] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 09-10 13:37:10   [Adjective] Practice_en_Set_06.txt try 3: re-solve disagrees (Q140 key b vs re-solve d)
 09-10 13:37:28   [Conjunction] wrote Content_hi.txt (7778 chars)
@@ -86,4 +75,15 @@
 09-10 13:45:18   [Conjunction] wrote Flashcards_hi.txt (4472 chars)
 09-10 13:46:32   [Conjunction] wrote PYQ_en.txt (5710 chars)
 09-10 13:46:53   [Pronoun] review Flashcards_en.txt: 1 issue(s): - Card 19: The question asks for the pronoun used for countries, ships, **and the moon**, but the answer only ad
+09-10 13:49:21   [Conjunction] wrote PYQ_hi.txt (6022 chars)
+09-10 13:50:30   [Adverb] Practice_en_Set_05.txt try 3: re-solve disagrees (Q120 key a vs re-solve ?)
+09-10 13:51:56   [Articles] Feynman_hi.txt try 1: rejected (corrupted characters)
+09-10 13:54:29   [Articles] wrote Feynman_hi.txt (1990 chars)
+09-10 13:54:36   [Adverb] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 13:55:59   [Articles] wrote Mind_Map_en.txt (1880 chars)
+09-10 13:57:21   [Articles] wrote Mind_Map_hi.txt (1369 chars)
+09-10 13:57:38   [Adverb] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 13:58:49   [Articles] wrote Flashcards_en.txt (3788 chars)
+09-10 14:01:03   [Articles] wrote Flashcards_hi.txt (4563 chars)
+09-10 14:01:25   [Preposition] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
 ```
