@@ -1,0 +1,216 @@
+# Permutation & Combination
+
+## The Chapter at a Glance
+
+**What you will learn:**
+1. The Fundamental Principle of Counting (Multiplication & Addition rules)
+2. Factorial notation and its shortcuts
+3. Permutations — when ORDER matters
+4. Combinations — when order does NOT matter
+5. Special cases: circular arrangements, repetition, identical objects, restrictions
+6. Classic exam models: committee selection, word formation, digit problems
+
+**Your goal:** Read any P&C question and instantly answer two questions — *"Does order matter?"* and *"Is repetition allowed?"* If you can do that, 80% of the battle is won.
+
+---
+
+## A Hook That Will Shock You
+
+How many ways can 52 playing cards be arranged in a row?
+
+The answer is 52! — roughly 8 × 10⁶⁷, an 8 followed by 67 zeros. That number is far larger than the number of seconds that have passed since the Big Bang, and far larger than the number of shuffles all of humanity could ever perform. Every time you shuffle a deck properly, you are almost certainly holding an order of cards that has **never existed before in human history**.
+
+That is the power of counting. And the beautiful part? You don't need to list anything. You just need two simple ideas: **multiply when tasks happen together, add when you choose between tasks.**
+
+---
+
+## "But Sir, I Always Mix Up P and C!"
+
+Every aspirant says this. You read a question, your mind freezes: *"Is this permutation or combination?"* Relax — this confusion is universal, and by the end of this chapter you will have a one-line test that kills it forever.
+
+The secret: **Permutation = Position matters. Combination = Committee (only membership matters).** We'll come back to this.
+
+---
+
+## 1. The Fundamental Principle of Counting
+
+### The Multiplication Rule (AND → Multiply)
+
+If one task can be done in **m** ways AND another independent task in **n** ways, then both together can be done in **m × n** ways.
+
+**Example:** You have 3 shirts and 4 trousers. An outfit = shirt AND trouser. Total outfits = 3 × 4 = **12**.
+
+### The Addition Rule (OR → Add)
+
+If a task can be done in **m** ways OR another (mutually exclusive) task in **n** ways, then the number of ways to do one of them is **m + n**.
+
+**Example:** You can travel by bus (5 routes) OR by train (3 routes). Total travel options = 5 + 3 = **8**.
+
+🧠 **Active Recall:** A restaurant offers 4 starters, 6 main courses, and 3 desserts. A full meal has one of each. How many meals? (Answer: 4 × 6 × 3 = 72 — AND means multiply!)
+
+---
+
+## 2. Factorial — The Engine of P&C
+
+**n! (n factorial)** = n × (n−1) × (n−2) × … × 3 × 2 × 1
+
+- 5! = 120, 6! = 720, 7! = 5040
+- **0! = 1** (by definition — exams love this!)
+- **1! = 1**
+
+**Key shortcut:** n! = n × (n−1)! — so 10! / 8! = 10 × 9 = 90. Never expand fully; cancel smartly.
+
+🧠 **Active Recall:** Without a calculator, find 8! / 6!. (Answer: 8 × 7 = 56.)
+
+---
+
+## 3. Permutation — When ORDER Matters
+
+A **permutation** is an arrangement of objects in a definite order.
+
+**Formula:** Number of permutations of **n** different objects taken **r** at a time:
+
+$$^nP_r = \frac{n!}{(n-r)!}$$
+
+**Example:** How many 3-letter "words" (meaningful or not) from A, B, C, D, E without repetition?
+⁵P₃ = 5! / 2! = 5 × 4 × 3 = **60**.
+
+**All n objects arranged:** nPn = n!
+
+### Permutation with Repetition Allowed
+
+If each place can be filled by any of n objects (repetition allowed), arrangements of r places = **nʳ**.
+
+**Example:** 3-digit codes from digits 0–9 with repetition = 10³ = 1000.
+
+### Permutation of Identical Objects
+
+If among n objects, p are alike of one kind, q of another, r of a third:
+
+$$\frac{n!}{p! \, q! \, r!}$$
+
+**Example:** Arrangements of the letters of **ALLAHABAD** = 9! / (4! × 2!) = 7560 (4 A's, 2 L's).
+
+🧠 **Active Recall:** In how many ways can the letters of "APPLE" be arranged? (Answer: 5! / 2! = 60 — the two P's are identical.)
+
+---
+
+## 4. Combination — When Order Does NOT Matter
+
+A **combination** is just a selection — a committee. Picking {A, B} is the same as picking {B, A}.
+
+**Formula:**
+
+$$^nC_r = \frac{n!}{r! \, (n-r)!}$$
+
+**Example:** Choose 3 players from 5: ⁵C₃ = 5! / (3! × 2!) = **10**.
+
+Notice: ⁵P₃ = 60 but ⁵C₃ = 10. Why? Because each group of 3 can be arranged in 3! = 6 ways, and 60 ÷ 6 = 10. **Combination = Permutation ÷ r!**
+
+### Golden Properties of Combinations
+
+- **ⁿCᵣ = ⁿCₙ₋ᵣ** (choosing 3 to include = choosing n−3 to exclude). So ¹⁰⁰C₉₈ = ¹⁰⁰C₂ = 4950 — huge time-saver!
+- **ⁿC₀ = ⁿCₙ = 1**
+- If ⁿCₓ = ⁿCᵧ, then either x = y or x + y = n.
+
+🧠 **Active Recall:** Compute ²⁰C₁₈ the smart way. (Answer: ²⁰C₂ = 20 × 19 / 2 = 190.)
+
+---
+
+## 5. The One-Line Test That Ends All Confusion
+
+Ask yourself: **"If I swap two chosen items, do I get a different result?"**
+
+- **YES** → Permutation (arrangement, rank, order, sequence, code)
+- **NO** → Combination (selection, committee, group, team, hand of cards)
+
+🎭 **Mnemonic — "P for Podium, C for Committee":**
+On a **podium**, 1st–2nd–3rd positions matter (Gold ≠ Silver) → **Permutation**.
+In a **committee**, it doesn't matter who was picked first — a member is a member → **Combination**.
+
+Silly but sticky: *"Podium people panic about position; Committee members are chill."*
+
+---
+
+## 6. Circular Permutations
+
+Arranging n people around a **round table**: fix one person's seat (rotation doesn't create a new arrangement), arrange the rest:
+
+$$(n-1)!$$
+
+**Example:** 6 people around a round table = 5! = **120** ways.
+
+**Necklace/garland special case:** If flipping (clockwise = anticlockwise) doesn't matter, divide by 2: **(n−1)! / 2**.
+
+🧠 **Active Recall:** 8 delegates sit at a round table. How many arrangements? (Answer: 7! = 5040.)
+
+---
+
+## 7. Restricted Arrangements — The Exam Favourites
+
+### "Always Together"
+Tie the together-items into **one bundle**, arrange the bundle with the rest, then multiply by internal arrangements.
+
+**Example:** 5 people in a row, 2 specific friends must sit together: treat the pair as 1 unit → 4! × 2! = **48**.
+
+### "Never Together"
+**Total − Together.** Example: 5! − 48 = 120 − 48 = **72**.
+
+### "Vowels Together / Consonants Together"
+Same bundle trick. For the word **"MACHINE"** with vowels together: bundle (A, I, E) + M, C, H, N → 5 units × internal 3! = 5! × 3! = **720**.
+
+### Selection with Conditions
+"At least one" problems: usually **Total − None**, or split into cases and ADD.
+
+**Example:** From 4 men and 3 women, a committee of 3 with **at least one woman**:
+Total − all men = ⁷C₃ − ⁴C₃ = 35 − 4 = **31**.
+
+🧠 **Active Recall:** From 5 boys and 4 girls, select 3 with exactly 2 girls. (Answer: ⁴C₂ × ⁵C₁ = 6 × 5 = 30.)
+
+---
+
+## 8. Classic Exam Models
+
+### Digit Problems
+How many 3-digit numbers from digits 1–5 without repetition? Hundreds place: 5 choices, tens: 4, units: 3 → 5 × 4 × 3 = **60**. (Watch out: if 0 is among the digits, the first place can't be 0 — handle it separately!)
+
+### Word Ranking
+Finding the rank of a word in dictionary order: count words starting with each smaller letter using factorials, then move letter by letter.
+
+### Derangement-flavoured & Distribution Problems
+At 12th level, know the basics: distributing n distinct objects into r distinct boxes with repetition = **rⁿ** (each object chooses a box — note the base/exponent flip from nʳ!).
+
+🧠 **Active Recall:** In how many ways can 4 different letters be posted into 3 letterboxes? (Answer: 3⁴ = 81 — each letter chooses a box.)
+
+---
+
+## Summary Table
+
+| Concept | Formula / Rule | Use When |
+|---|---|---|
+| Multiplication rule | m × n | Tasks joined by AND |
+| Addition rule | m + n | Choices joined by OR |
+| Factorial | n! = n × (n−1)! | Arranging all n objects |
+| Permutation | ⁿPᵣ = n!/(n−r)! | Order matters, no repetition |
+| Repetition allowed | nʳ | Codes, digits with repeat |
+| Identical objects | n!/(p!q!r!) | Words with repeated letters |
+| Combination | ⁿCᵣ = n!/(r!(n−r)!) | Selection only, order irrelevant |
+| Symmetry | ⁿCᵣ = ⁿCₙ₋ᵣ | Simplify big r |
+| Circular | (n−1)! | Round table |
+| Necklace | (n−1)!/2 | Garland, flip = same |
+| Together | Bundle × internal! | "Must sit together" |
+| Never together | Total − Together | "No two adjacent" |
+| At least one | Total − None | Committee conditions |
+
+---
+
+## 🔁 Review This After 2 Days
+
+Close the book and answer aloud:
+1. What is the one-line test to choose between P and C?
+2. Why is ⁿCᵣ = ⁿPᵣ ÷ r!?
+3. Why is a circular arrangement (n−1)! and not n!?
+4. What is 0! and why does the exam ask it?
+5. "At least one" — which two quantities do you subtract?
+
+If any answer hesitates, re-read just that section. You've got this — P&C is not about memorising formulas, it's about asking the right two questions: **Does order matter? Is repetition allowed?** Master that, and the formulas will follow you like a shadow.

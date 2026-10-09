@@ -1,0 +1,160 @@
+# 🪄 Short Tricks — Permutation & Combination
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **Trick 1 — "P = Position, C = Committee"** │
+│                                             │
+│ Permutation = POSITION matters (order).     │
+│ Combination = COMMITTEE (order doesn't      │
+│ matter — a committee of Ram, Shyam is the   │
+│ same as Shyam, Ram).                        │
+│ Ask yourself: "Am I arranging POSITIONS or  │
+│ picking a COMMITTEE?" → P or C decided!     │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **Trick 2 — "C is P's little brother"**     │
+│                                             │
+│ ⁿCᵣ = ⁿPᵣ / r!                              │
+│ Combination is just Permutation with the    │
+│ "arranging" part (r!) removed.              │
+│ Memory line: "Committee = Positions ÷       │
+│ their own shuffling."                       │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **Trick 3 — The AND/OR Rule**               │
+│                                             │
+│ AND → MULTIPLY (×)                          │
+│ OR  → ADD (+)                               │
+│ "Shirt AND pant" = 4 × 3 outfits.           │
+│ "Bus OR train" = 5 + 3 ways.                │
+│ Keyword: **"AND multiplies, OR adds."**     │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **Trick 4 — Factorial Countdown**           │
+│                                             │
+│ n! = n × (n−1) × (n−2) × … × 1              │
+│ Think of a rocket countdown: 5! =           │
+│ 5·4·3·2·1 = 120. 🚀                         │
+│ And the magic rule: **0! = 1** —            │
+│ "There's exactly ONE way to arrange         │
+│ nothing: do nothing!"                       │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **Trick 5 — "Repeat? Divide by the twins!"**│
+│                                             │
+│ Word arrangements with repeated letters:    │
+│ Total letters! ÷ (repeat! × repeat! …)      │
+│ APPLE → 5!/2! (P appears twice).            │
+│ Mnemonic: **"Twins share one seat —         │
+│ divide them out."**                         │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **Trick 6 — "Glue the Friends"**            │
+│                                             │
+│ "A and B must sit TOGETHER" → tie them with │
+│ glue into ONE bundle.                       │
+│ n people, 2 together: (n−1)! × 2!           │
+│ (bundle counts as one; friends swap inside) │
+│ Keyword: **TOGETHER = GLUE + internal 2!**  │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **Trick 7 — "Enemies use GAPS"**            │
+│                                             │
+│ "A and B must NOT sit together" →           │
+│ Total − Together.                           │
+│ "No two vowels together" → arrange          │
+│ consonants first, drop vowels into gaps.    │
+│ Mnemonic: **"Enemies stand in the gaps      │
+│ between friends."** _C_C_C_ → 4 gaps!       │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **Trick 8 — "Circles lose one seat"**       │
+│                                             │
+│ Circular arrangement = (n−1)!               │
+│ Why? In a circle, rotate everyone — nothing │
+│ changes. Fix ONE person, arrange the rest.  │
+│ Mnemonic: **"Round table? One guest is      │
+│ the anchor — (n−1)!"**                      │
+│ Garland/necklace (flip allowed) = (n−1)!/2  │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **Trick 9 — "ⁿCᵣ = ⁿCₙ₋ᵣ — the Lazy Law"**  │
+│                                             │
+│ Choosing 3 to TAKE = choosing 7 to LEAVE.   │
+│ So ¹⁰C₇ = ¹⁰C₃ (compute the smaller one!).  │
+│ Mnemonic: **"Pick the small side — the      │
+│ lazy way is the right way."**               │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **Trick 10 — "At least one? Go TOTAL minus  │
+│ NONE"**                                     │
+│                                             │
+│ "At least one" questions →                  │
+│ Total ways − ways with NONE.                │
+│ Mnemonic: **"At least = All − Empty."**     │
+│ Saves you from adding 5 separate cases!     │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **Trick 11 — "Committee with a VETO"**      │
+│                                             │
+│ "Select 4 from 6 men & 5 women, at least    │
+│ 1 woman" → ¹¹C₄ − ⁶C₄ (remove the all-men   │
+│ veto case).                                 │
+│ Mnemonic: **"When a group is banned,        │
+│ subtract their party."**                    │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **Trick 12 — "Stars & Bars = Chocolates &   │
+│ Partitions"**                               │
+│                                             │
+│ Identical items into distinct boxes:        │
+│ ⁿ⁺ʳ⁻¹Cᵣ₋₁                                   │
+│ Picture: 10 chocolates ★ in a row, 2 bars | │
+│ split them among 3 kids.                    │
+│ Mnemonic: **"Stars are sweets, Bars are     │
+│ walls."**                                   │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **Trick 13 — "Rank the Word = Dictionary    │
+│ Drill"**                                    │
+│                                             │
+│ Rank of a word: count letters smaller than  │
+│ the first letter × (n−1)!, then repeat for  │
+│ the next letter.                            │
+│ Mnemonic: **"Who jumps ahead of me? Count   │
+│ them, multiply, move on."**                 │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **Trick 14 — "Digits: Zero is a Diva"**     │
+│                                             │
+│ Forming numbers with digits including 0:    │
+│ the first place can NEVER be 0 — fill it    │
+│ first with the remaining choices.           │
+│ Mnemonic: **"Zero refuses to lead the       │
+│ parade."**                                  │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **Trick 15 — The Master Acronym: "O-R-D-E-R"│
+│                                             │
+│ **O**rder matters? → Permutation            │
+│ **R**epetition allowed? → nʳ                │
+│ **D**ivide by repeats (identical items)     │
+│ **E**xclude the banned case (Total − None)  │
+│ **R**ound table? → (n−1)!                   │
+│ Run every P&C problem through ORDER!        │
+└─────────────────────────────────────────────┘

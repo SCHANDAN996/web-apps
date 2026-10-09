@@ -1,0 +1,149 @@
+1. In how many ways can 5 different books be arranged on a shelf?
+(a) 120 (b) 25 (c) 60 (d) 720
+Answer: (a)
+Solution: Arranging 5 distinct books is a permutation of 5 objects taken all at once, which equals 5! = 5 × 4 × 3 × 2 × 1 = 120. The tempting option 720 is 6!, which would apply only if there were 6 books, so the answer is 120.
+Source: NCERT Class 11 Mathematics
+
+2. How many 3-digit numbers can be formed using the digits 1, 2, 3, 4, 5 without repetition?
+(a) 15 (b) 125 (c) 60 (d) 30
+Answer: (c)
+Solution: This is a permutation of 5 digits taken 3 at a time: 5P3 = 5 × 4 × 3 = 60. The option 125 comes from wrongly allowing repetition (5 × 5 × 5), but repetition is not allowed here, so the answer is 60.
+Source: NCERT Class 11 Mathematics
+
+3. The value of 6! is:
+(a) 720 (b) 120 (c) 5040 (d) 360
+Answer: (a)
+Solution: 6! = 6 × 5 × 4 × 3 × 2 × 1 = 720. The option 120 is 5!, a common slip when students stop multiplying one step early, so the answer is 720.
+Source: NCERT Class 11 Mathematics
+
+4. In how many ways can a committee of 3 members be chosen from 8 persons?
+(a) 24 (b) 56 (c) 336 (d) 512
+Answer: (b)
+Solution: Choosing a committee is a combination since order does not matter: 8C3 = (8 × 7 × 6)/(3 × 2 × 1) = 56. The option 336 is 8P3, which wrongly counts arrangements instead of selections, so the answer is 56.
+Source: NCERT Class 11 Mathematics
+
+5. The value of 7C2 is:
+(a) 21 (b) 42 (c) 14 (d) 49
+Answer: (a)
+Solution: 7C2 = (7 × 6)/(2 × 1) = 21. The option 42 is 7P2, which counts ordered pairs and ignores that selection is unordered, so the answer is 21.
+Source: NCERT Class 11 Mathematics
+
+6. How many words (meaningful or not) can be formed using all the letters of the word CAT?
+(a) 3 (b) 9 (c) 27 (d) 6
+Answer: (d)
+Solution: CAT has 3 distinct letters, so the number of arrangements is 3! = 6. The option 27 wrongly allows letters to repeat (3 × 3 × 3), but each letter is used exactly once, so the answer is 6.
+Source: NCERT Class 11 Mathematics
+
+7. The value of 5P2 is:
+(a) 10 (b) 20 (c) 25 (d) 15
+Answer: (b)
+Solution: 5P2 = 5 × 4 = 20. The option 10 is 5C2, which divides by 2! and is used for selection, not arrangement, so the answer is 20.
+Source: NCERT Class 11 Mathematics
+
+8. In how many ways can 4 people sit in a row?
+(a) 24 (b) 16 (c) 12 (d) 8
+Answer: (a)
+Solution: Four people in a row can be arranged in 4! = 24 ways. The option 16 comes from wrongly computing 4 × 4, which ignores that each seat reduces the choices left, so the answer is 24.
+Source: NCERT Class 11 Mathematics
+
+9. The value of 10C10 is:
+(a) 10 (b) 1 (c) 100 (d) 0
+Answer: (b)
+Solution: Choosing all 10 objects from 10 can be done in exactly one way, so 10C10 = 1. The option 10 wrongly treats it like choosing one object, so the answer is 1.
+Source: NCERT Class 11 Mathematics
+
+10. The value of 9C0 is:
+(a) 0 (b) 9 (c) 1 (d) 81
+Answer: (c)
+Solution: By definition, nC0 = 1 for any n, since there is exactly one way to choose nothing. The option 0 is a common misconception, but the empty selection counts as one way, so the answer is 1.
+Source: NCERT Class 11 Mathematics
+
+11. How many 2-digit numbers can be formed from the digits 1, 2, 3, 4 if repetition of digits is allowed?
+(a) 12 (b) 24 (c) 8 (d) 16
+Answer: (d)
+Solution: With repetition allowed, each of the two places can be filled in 4 ways: 4 × 4 = 16. The option 12 is 4P2, which applies only when repetition is not allowed, so the answer is 16.
+Source: NCERT Class 11 Mathematics
+
+12. In how many ways can the letters of the word PEN be arranged?
+(a) 3 (b) 12 (c) 9 (d) 6
+Answer: (d)
+Solution: PEN has 3 distinct letters, giving 3! = 6 arrangements. The option 3 counts only the letters, not their arrangements, so the answer is 6.
+Source: NCERT Class 11 Mathematics
+
+13. If nC2 = 15, then n equals:
+(a) 5 (b) 6 (c) 7 (d) 8
+Answer: (b)
+Solution: nC2 = n(n−1)/2 = 15 gives n(n−1) = 30, so n = 6 since 6 × 5 = 30. Testing the option 5 gives only 10, which is too small, so the answer is 6.
+Source: NCERT Class 11 Mathematics
+
+14. How many ways are there to select 2 fruits from 5 different fruits?
+(a) 20 (b) 25 (c) 10 (d) 15
+Answer: (c)
+Solution: Selection without order gives 5C2 = (5 × 4)/2 = 10. The option 20 is 5P2, which wrongly counts the order of picking, so the answer is 10.
+Source: NCERT Class 11 Mathematics
+
+15. The value of 0! is:
+(a) 0 (b) 2 (c) 1 (d) Undefined
+Answer: (c)
+Solution: By definition, 0! = 1, which keeps formulas like nCn = n!/(0! n!) = 1 consistent. The option 0 is a frequent misconception, so the answer is 1.
+Source: NCERT Class 11 Mathematics
+
+16. In how many ways can a president and a secretary be chosen from 10 members?
+(a) 45 (b) 20 (c) 100 (d) 90
+Answer: (d)
+Solution: The two posts are distinct, so order matters: 10P2 = 10 × 9 = 90. The option 45 is 10C2, which treats the two posts as identical, so the answer is 90.
+Source: NCERT Class 11 Mathematics
+
+17. How many diagonals does a hexagon have?
+(a) 6 (b) 12 (c) 9 (d) 15
+Answer: (c)
+Solution: Number of diagonals = nC2 − n = 6C2 − 6 = 15 − 6 = 9, since sides are not diagonals. The option 15 forgets to subtract the 6 sides, so the answer is 9.
+Source: NCERT Class 11 Mathematics
+
+18. In how many ways can 3 prizes be given to 3 students if each student gets exactly one prize?
+(a) 3 (b) 9 (c) 27 (d) 6
+Answer: (d)
+Solution: Distributing 3 distinct prizes among 3 students, one each, is 3! = 6 ways. The option 27 wrongly allows any prize to go to any student with repetition, so the answer is 6.
+Source: NCERT Class 11 Mathematics
+
+19. The value of 8C3 is:
+(a) 24 (b) 336 (c) 48 (d) 56
+Answer: (d)
+Solution: 8C3 = (8 × 7 × 6)/(3 × 2 × 1) = 336/6 = 56. The option 336 is the numerator before dividing by 3!, a common incomplete calculation, so the answer is 56.
+Source: NCERT Class 11 Mathematics
+
+20. How many straight lines can be drawn through 5 points, no three of which are collinear?
+(a) 20 (b) 10 (c) 15 (d) 5
+Answer: (b)
+Solution: Each pair of points gives one line: 5C2 = 10. The option 20 is 5P2, which counts each line twice by treating direction as different, so the answer is 10.
+Source: NCERT Class 11 Mathematics
+
+21. How many words can be formed using all the letters of the word APPLE?
+(a) 120 (b) 30 (c) 60 (d) 24
+Answer: (c)
+Solution: APPLE has 5 letters with P repeated twice, so arrangements = 5!/2! = 120/2 = 60. The option 120 ignores the repeated P and overcounts, so the answer is 60.
+Source: NCERT Class 11 Mathematics
+
+22. In how many ways can 6 people be seated around a round table?
+(a) 720 (b) 120 (c) 360 (d) 60
+Answer: (b)
+Solution: Circular arrangements of n people = (n−1)! = 5! = 120, since rotations of the same arrangement are identical. The option 720 is 6!, which wrongly treats the table like a straight row, so the answer is 120.
+Source: NCERT Class 11 Mathematics
+
+23. A committee of 4 is to be formed from 5 men and 4 women such that it contains exactly 2 men and 2 women. In how many ways can this be done?
+(a) 60 (b) 120 (c) 30 (d) 126
+Answer: (a)
+Solution: Choose 2 men in 5C2 = 10 ways and 2 women in 4C2 = 6 ways; total = 10 × 6 = 60. The option 120 comes from wrongly adding extra arrangements of the chosen members, so the answer is 60.
+Source: NCERT Class 11 Mathematics
+
+24. How many 4-letter words can be formed from the letters of the word SQUARE, using each letter at most once?
+(a) 360 (b) 720 (c) 15 (d) 120
+Answer: (a)
+Solution: SQUARE has 6 distinct letters, so arrangements of 4 letters = 6P4 = 6 × 5 × 4 × 3 = 360. The option 15 is 6C4, which only selects letters without arranging them, so the answer is 360.
+Source: NCERT Class 11 Mathematics
+
+25. In how many ways can the letters of the word BALLOON be arranged?
+(a) 1260 (b) 5040 (c) 2520 (d) 630
+Answer: (a)
+Solution: BALLOON has 7 letters with L repeated twice and O repeated twice, so arrangements = 7!/(2! × 2!) = 5040/4 = 1260. The option 5040 ignores both repetitions, and 2520 accounts for only one of them, so the answer is 1260.
+Source: NCERT Class 11 Mathematics

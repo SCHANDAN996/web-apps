@@ -1,0 +1,31 @@
+```mermaid
+graph TD
+    A["क्रमचय और संचय<br>Permutation & Combination"] --> B["गणना का मूल सिद्धांत<br>Fundamental Principle of Counting"]
+    A --> C["क्रमचय<br>Permutation"]
+    A --> D["संचय<br>Combination"]
+    A --> E["विशेष स्थितियाँ<br>Special Cases"]
+
+    B --> B1["गुणन नियम (AND)<br>Multiplication Rule"]
+    B --> B2["योग नियम (OR)<br>Addition Rule"]
+
+    C --> C1["सूत्र: nPr = n!/(n-r)!<br>Formula"]
+    C --> C2["क्रम मायने रखता है<br>Order Matters"]
+    C --> C3["पुनरावृत्ति के साथ: n^r<br>With Repetition"]
+    C --> C4["समान वस्तुओं के साथ<br>n!/(p!q!r!)"]
+    C --> C5["वृत्ताकार क्रमचय<br>Circular: (n-1)!"]
+
+    D --> D1["सूत्र: nCr = n!/(r!(n-r)!)<br>Formula"]
+    D --> D2["क्रम मायने नहीं रखता<br>Order Does Not Matter"]
+    D --> D3["nCr = nC(n-r)<br>Complementary Rule"]
+    D --> D4["nCr + nC(r-1) = (n+1)Cr<br>Pascal's Rule"]
+
+    E --> E1["हमेशा साथ / कभी साथ नहीं<br>Always Together / Never Together"]
+    E --> E2["कम से कम / अधिकतम<br>At Least / At Most"]
+    E --> E3["शब्द बनाना (Vowel/Consonant)<br>Word Formation"]
+    E --> E4["समिति/टीम चयन<br>Committee Selection"]
+    E --> E5["अंकों से संख्या बनाना<br>Number Formation"]
+
+    C2 -.->|"क्रम ज़रूरी = P<br>Order = P"| C1
+    D2 -.->|"क्रम ज़रूरी नहीं = C<br>No Order = C"| D1
+    D1 -.->|"nPr = nCr × r!"| C1
+```

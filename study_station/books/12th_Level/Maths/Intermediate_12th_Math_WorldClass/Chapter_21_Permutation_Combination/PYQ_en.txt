@@ -1,0 +1,119 @@
+# 📊 PYQ Analysis — Permutation & Combination (English)
+
+## How Exams Test This Chapter
+
+Permutation & Combination questions appear regularly in SSC CGL (Mains), IBPS PO, RRB NTPC and CAT. The good news: examiners do not invent new concepts — they recycle the same **question families** with new numbers and new disguises. If you learn to *recognise the family*, the question solves itself.
+
+### The recurring question families
+
+1. **Word arrangements** — letters of a word (BANANA, COMMITTEE, MISSISSIPPI), with or without repeated letters; vowels together; no two vowels together; fixed positions.
+2. **Committee / team selection** — choosing r people from n, with conditions like "at least one woman" or "a particular person must/must not be included".
+3. **Digit & number formation** — how many n-digit numbers from given digits, with or without repetition, divisible by 5, greater than a number, etc.
+4. **Circular arrangements** — people around a round table, beads in a necklace (clockwise = anticlockwise).
+5. **Geometry counting** — number of lines, triangles, diagonals from n points (no three collinear).
+6. **Distribution / grouping** — dividing people or objects into groups (equal groups need division by the factorial of the number of equal groups).
+7. **Direct formula questions** — find n from ⁿPᵣ or ⁿCᵣ equations.
+8. **Derangement-style / restriction puzzles** — "no two particular people sit together" (gap method).
+
+### The examiner's favourite traps
+
+- **Permutation vs Combination confusion**: the question says "select" but the situation actually involves order (e.g., President + Secretary = arrangement, not selection).
+- **Repeated letters ignored**: students compute 6! for BANANA and forget to divide by 3! × 2!.
+- **"At least one" trap**: the direct method needs many cases; the complement method (Total − None) is one line. Examiners place a tempting wrong option equal to the direct partial count.
+- **Circular vs linear**: using n! instead of (n−1)! for a round table.
+- **Zero in digit problems**: 0 cannot be the first digit — the most planted trap in number-formation questions.
+- **"Together" vs "not together"**: "not together" = Total − Together, not a fresh arrangement count.
+- **Necklace/garland trap**: dividing by 2 because flipping gives the same arrangement.
+
+### Time advice
+
+Formula-identification questions deserve ~30 seconds. Conditional arrangement/selection questions deserve 60–90 seconds. If a question needs more than 3 cases, look for the complement method before writing anything.
+
+---
+
+## Top 10 High-Yield Questions (with solutions and trap analysis)
+
+**Q1.** In how many different ways can the letters of the word "BANANA" be arranged?
+(a) 720 (b) 120 (c) 60 (d) 360
+**Answer: (c)**
+**Solution:** Total letters = 6, with A repeated 3 times and N repeated 2 times. Arrangements = 6! / (3! × 2!) = 720 / 12 = 60.
+**Trap:** Option (a) 720 = 6! catches students who ignore repetition. Option (b) 120 = 6!/3! catches those who divide only for A.
+**Source:** PYQ-style
+
+**Q2.** How many words can be formed from the letters of "COMMITTEE" such that all vowels come together?
+(a) 2160 (b) 4320 (c) 1080 (d) 720
+**Answer: (a)**
+**Solution:** Vowels O, I, E, E (4 vowels, E twice) treated as one block. Block + consonants C, M, M, T, T → 6 units with M and T each repeated twice: 6!/(2!×2!) = 180. Vowels arrange inside the block: 4!/2! = 12. Total = 180 × 12 = 2160.
+**Trap:** Forgetting that E repeats inside the vowel block (using 4! = 24 gives 4320 — option (b)).
+**Source:** PYQ-style
+
+**Q3.** In how many ways can a committee of 5 members be formed from 6 men and 4 women such that the committee has at least one woman?
+(a) 246 (b) 252 (c) 240 (d) 186
+**Answer: (a)**
+**Solution:** Use the complement: Total committees − all-men committees = ¹⁰C₅ − ⁶C₅ = 252 − 6 = 246.
+**Trap:** Option (b) 252 is the unrestricted total — planted for students who forget the condition. The direct method (1W+2W+3W+4W cases) wastes 3 minutes.
+**Source:** PYQ-style
+
+**Q4.** How many 3-digit numbers can be formed using the digits 0, 1, 2, 3, 4 without repetition?
+(a) 60 (b) 48 (c) 100 (d) 64
+**Answer: (b)**
+**Solution:** Hundreds place: 4 choices (0 not allowed). Tens place: 4 remaining choices (0 now allowed). Units place: 3 choices. Total = 4 × 4 × 3 = 48.
+**Trap:** Option (a) 60 = 5 × 4 × 3 ignores the zero restriction — the classic planted answer.
+**Source:** PYQ-style
+
+**Q5.** In how many ways can 6 people be seated around a circular table?
+(a) 720 (b) 120 (c) 360 (d) 24
+**Answer: (b)**
+**Solution:** Circular arrangements of n people = (n−1)! = 5! = 120.
+**Trap:** Option (a) 720 = 6! is the linear answer. In a circle, rotations of the same seating are identical, so fix one person and arrange the rest.
+**Source:** PYQ-style
+
+**Q6.** How many diagonals does a polygon with 10 sides have?
+(a) 45 (b) 35 (c) 40 (d) 30
+**Answer: (b)**
+**Solution:** Diagonals = ⁿC₂ − n = ¹⁰C₂ − 10 = 45 − 10 = 35. (Every pair of vertices gives a line; subtract the n sides.)
+**Trap:** Option (a) 45 = ¹⁰C₂ forgets to subtract the sides. Option (c) 40 comes from the half-remembered formula n(n−3) misapplied.
+**Source:** PYQ-style
+
+**Q7.** If ⁿP₂ = 56, find n.
+(a) 7 (b) 8 (c) 9 (d) 6
+**Answer: (b)**
+**Solution:** ⁿP₂ = n(n−1) = 56 → n² − n − 56 = 0 → (n−8)(n+7) = 0 → n = 8.
+**Trap:** Students who compute ⁿC₂ = 56 get n(n−1)/2 = 56 → n ≈ 11.3 and panic. Read the symbol: P means order matters.
+**Source:** PYQ-style
+
+**Q8.** In how many ways can the letters of "SCHOOL" be arranged so that the two O's are never together?
+(a) 240 (b) 360 (c) 120 (d) 480
+**Answer: (a)**
+**Solution:** Total arrangements = 6!/2! = 360. Arrangements with O's together (treat OO as one unit): 5! = 120. Required = 360 − 120 = 240.
+**Trap:** Option (b) 360 is the unrestricted total; option (c) 120 is the "together" count. "Never together" always means Total − Together.
+**Source:** PYQ-style
+
+**Q9.** From 5 boys and 3 girls, in how many ways can a team of 4 be selected so that it contains exactly 2 girls?
+(a) 30 (b) 60 (c) 45 (d) 90
+**Answer: (a)**
+**Solution:** Choose 2 girls from 3 AND 2 boys from 5: ³C₂ × ⁵C₂ = 3 × 10 = 30.
+**Trap:** "Exactly 2 girls" forces 2 boys too — students who compute only ³C₂ × ⁵C₂ correctly but then add extra cases for "3 girls" misread "exactly" as "at least". Option (d) 90 = ³C₂ × ⁵C₃ × ... style miscounts.
+**Source:** PYQ-style
+
+**Q10.** How many different necklaces can be made from 8 beads of different colours?
+(a) 5040 (b) 2520 (c) 40320 (d) 1260
+**Answer: (b)**
+**Solution:** Circular arrangements = (8−1)! = 5040. A necklace can be flipped, so clockwise and anticlockwise arrangements are identical: 5040 / 2 = 2520.
+**Trap:** Option (a) 5040 is the round-table answer — correct for people, wrong for a necklace. Option (c) 40320 = 8! is the linear answer. Remember: garland/necklace → divide by 2.
+**Source:** PYQ-style
+
+---
+
+## Quick Revision of Examiner Psychology
+
+| Trap | What examiner plants | Your defence |
+|---|---|---|
+| Repetition ignored | n! as an option | Always check for repeated letters/items first |
+| "At least one" | Unrestricted total as an option | Complement: Total − None |
+| Zero in digits | 5×4×3 style answer | Fix the first place separately |
+| Circle vs line | n! as an option | Circle → (n−1)!; necklace → (n−1)!/2 |
+| P vs C mix-up | Both ⁿPᵣ and ⁿCᵣ values as options | Ask: "Does order change the outcome?" |
+| Together / not together | "Together" count as an option | Not together = Total − Together |
+
+**Revision cue:** Re-attempt these 10 questions after 2 days without looking at the solutions. If any takes more than 90 seconds, revisit that question family in the Content section.

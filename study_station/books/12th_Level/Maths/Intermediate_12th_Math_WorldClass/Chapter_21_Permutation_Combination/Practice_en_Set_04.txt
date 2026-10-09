@@ -1,0 +1,151 @@
+Questions 76–100: Medium
+
+76. In how many ways can the letters of the word "APPLE" be arranged?
+(a) 120 (b) 60 (c) 30 (d) 24
+Answer: (b)
+Solution: The tempting wrong option 120 ignores the repeated P and uses plain 5!. The word APPLE has 5 letters with P repeated twice, so arrangements = 5!/2! = 120/2, so the answer is 60.
+Source: NCERT Class 11 Mathematics
+
+77. How many 3-digit numbers can be formed using the digits 1, 2, 3, 4, 5 if repetition of digits is allowed?
+(a) 60 (b) 125 (c) 100 (d) 25
+Answer: (b)
+Solution: The tempting wrong option 60 comes from 5 × 4 × 3, which wrongly assumes repetition is not allowed. Each of the 3 places can be filled in 5 ways since repetition is allowed, giving 5 × 5 × 5, so the answer is 125.
+Source: NCERT Class 11 Mathematics
+
+78. In how many ways can 5 boys and 3 girls be seated in a row so that all the girls sit together?
+(a) 5760 (b) 720 (c) 4320 (d) 40320
+Answer: (c)
+Solution: The tempting wrong option 720 forgets the internal arrangement of the girls inside their block. Treat the 3 girls as one block, giving 6 units arranged in 6! = 720 ways, and the girls arrange within the block in 3! = 6 ways, so total = 720 × 6, so the answer is 4320.
+Source: NCERT Class 11 Mathematics
+
+79. How many diagonals does a polygon with 10 sides have?
+(a) 45 (b) 35 (c) 40 (d) 30
+Answer: (b)
+Solution: The tempting wrong option 45 is C(10,2), which counts all segments joining vertices including the 10 sides. Diagonals = n(n−3)/2 = 10 × 7/2, so the answer is 35.
+Source: NCERT Class 11 Mathematics
+
+80. A committee of 4 is to be formed from 6 men and 4 women such that it contains at least one woman. In how many ways can this be done?
+(a) 150 (b) 195 (c) 180 (d) 210
+Answer: (b)
+Solution: The tempting wrong option 210 ignores the "at least one woman" condition entirely. Total committees = C(10,4) = 210 and all-men committees = C(6,4) = 15, so required = 210 − 15, so the answer is 195.
+Source: NCERT Class 11 Mathematics
+
+81. In how many ways can the letters of the word "MISSISSIPPI" be arranged?
+(a) 3465 (b) 39916800 (c) 69300 (d) 34650
+Answer: (d)
+Solution: The tempting wrong option 39916800 is plain 11!, ignoring all repeated letters. The word has 11 letters with I ×4, S ×4, P ×2, so arrangements = 11!/(4! × 4! × 2!) = 39916800/1152, so the answer is 34650.
+Source: NCERT Class 11 Mathematics
+
+82. How many numbers greater than 3000 can be formed from the digits 1, 2, 3, 4, 5 without repetition, using 4 digits?
+(a) 72 (b) 96 (c) 48 (d) 120
+Answer: (a)
+Solution: The tempting wrong option 120 is 5 × 4 × 3 × 2, ignoring the "greater than 3000" restriction. The thousands digit must be 3, 4 or 5 (3 choices), and the remaining places fill in 4 × 3 × 2 = 24 ways, so total = 3 × 24, so the answer is 72.
+Source: NCERT Class 11 Mathematics
+
+83. In how many ways can 6 different books be distributed among 3 students so that each student gets at least one book?
+(a) 216 (b) 540 (c) 360 (d) 729
+Answer: (b)
+Solution: The tempting wrong option 729 ignores the "each gets at least one" condition. By inclusion-exclusion: 3^6 − C(3,1)·2^6 + C(3,2)·1^6 = 729 − 192 + 3, so the answer is 540.
+Source: NCERT Class 11 Mathematics
+
+84. From a group of 7 men and 6 women, a committee of 5 is to be formed with exactly 3 men. In how many ways can this be done?
+(a) 525 (b) 350 (c) 700 (d) 210
+Answer: (a)
+Solution: The tempting wrong option 350 pairs C(7,3) with C(6,3) by mistake, which would make a 6-member committee. Choose 3 men from 7 in C(7,3) = 35 ways and 2 women from 6 in C(6,2) = 15 ways, so total = 35 × 15, so the answer is 525.
+Source: NCERT Class 11 Mathematics
+
+85. In how many ways can 8 people be seated around a circular table if two particular persons must sit together?
+(a) 1440 (b) 5040 (c) 720 (d) 10080
+Answer: (a)
+Solution: The tempting wrong option 5040 is 7!, which wrongly applies linear arrangement to a circle. Treat the pair as one unit, giving 7 units around a circle in (7−1)! = 720 ways, and the pair swaps in 2 ways, so total = 720 × 2, so the answer is 1440.
+Source: NCERT Class 11 Mathematics
+
+86. How many words can be formed from the letters of "DAUGHTER" so that the vowels always come together?
+(a) 4320 (b) 40320 (c) 2160 (d) 8640
+Answer: (a)
+Solution: The tempting wrong option 40320 is 8!, ignoring the togetherness condition. Vowels A, U, E form one block with the 5 consonants, giving 6 units in 6! = 720 ways, and the vowels arrange internally in 3! = 6 ways, so total = 720 × 6, so the answer is 4320.
+Source: NCERT Class 11 Mathematics
+
+87. A box contains 5 red and 4 blue balls. In how many ways can 3 balls be drawn such that at least one is blue?
+(a) 84 (b) 64 (c) 74 (d) 80
+Answer: (c)
+Solution: The tempting wrong option 84 ignores the "at least one blue" condition. Total draws = C(9,3) = 84 and all-red draws = C(5,3) = 10, so required = 84 − 10, so the answer is 74.
+Source: NCERT Class 11 Mathematics
+
+88. How many 4-letter words (with or without meaning) can be formed from the letters of "LOGARITHMS" using each letter at most once?
+(a) 5040 (b) 10000 (c) 210 (d) 720
+Answer: (a)
+Solution: The tempting wrong option 210 is C(10,4), which ignores the order of letters in a word. LOGARITHMS has 10 distinct letters, so arrangements = P(10,4) = 10 × 9 × 8 × 7, so the answer is 5040.
+Source: NCERT Class 11 Mathematics
+
+89. In how many ways can 5 prizes be given to 4 boys if each boy is eligible for all the prizes?
+(a) 20 (b) 625 (c) 1024 (d) 120
+Answer: (c)
+Solution: The tempting wrong option 625 is 5^4, which reverses the base and exponent — prizes are assigned to boys, so the number of boys is the base. Each prize can go to any of the 4 boys, giving 4^5, so the answer is 1024.
+Source: NCERT Class 11 Mathematics
+
+90. How many straight lines can be drawn through 10 points, no three of which are collinear?
+(a) 100 (b) 45 (c) 90 (d) 55
+Answer: (b)
+Solution: The tempting wrong option 90 doubles the count by treating each pair as ordered, but a line through two points is the same regardless of order. Each line needs 2 points, so lines = C(10,2), so the answer is 45.
+Source: NCERT Class 11 Mathematics
+
+91. In how many ways can the letters of "BANANA" be arranged?
+(a) 120 (b) 720 (c) 60 (d) 360
+Answer: (c)
+Solution: The tempting wrong option 720 is plain 6!, ignoring the repeated A's and N's. BANANA has 6 letters with A ×3 and N ×2, so arrangements = 6!/(3! × 2!) = 720/12, so the answer is 60.
+Source: NCERT Class 11 Mathematics
+
+92. A cricket team of 11 is to be selected from 15 players, and one particular player must be included. In how many ways can the team be chosen?
+(a) 455 (b) 1365 (c) 364 (d) 1001
+Answer: (d)
+Solution: The tempting wrong option 1365 is C(15,11), which ignores the compulsory inclusion. Since one player is fixed, choose the remaining 10 from the other 14: C(14,10) = C(14,4), so the answer is 1001.
+Source: NCERT Class 11 Mathematics
+
+93. How many 3-digit even numbers can be formed from the digits 1, 2, 3, 4, 5 without repetition?
+(a) 36 (b) 60 (c) 24 (d) 48
+Answer: (c)
+Solution: The tempting wrong option 60 is 5 × 4 × 3, ignoring the evenness condition. The units digit must be 2 or 4 (2 choices), and the other two places fill from the leftover 4 digits in 4 × 3 = 12 ways, so total = 2 × 12, so the answer is 24.
+Source: NCERT Class 11 Mathematics
+
+94. In how many ways can 4 boys and 4 girls be seated in a row so that boys and girls alternate?
+(a) 576 (b) 2880 (c) 40320 (d) 1152
+Answer: (d)
+Solution: The tempting wrong option 576 counts only one starting pattern. The row can start with a boy or a girl (2 patterns), with boys in 4! = 24 ways and girls in 4! = 24 ways, so total = 2 × 24 × 24, so the answer is 1152.
+Source: NCERT Class 11 Mathematics
+
+95. How many triangles can be formed from 12 points in a plane, of which 5 are collinear?
+(a) 220 (b) 200 (c) 210 (d) 110
+Answer: (c)
+Solution: The tempting wrong option 220 ignores that collinear points cannot form a triangle. Total triples = C(12,3) = 220 and degenerate triples from the 5 collinear points = C(5,3) = 10, so required = 220 − 10, so the answer is 210.
+Source: NCERT Class 11 Mathematics
+
+96. In how many ways can 10 identical balls be distributed among 3 distinct boxes if each box must get at least one ball?
+(a) 45 (b) 66 (c) 72 (d) 36
+Answer: (d)
+Solution: The tempting wrong option 66 is C(12,2), which allows empty boxes and ignores the "at least one" condition. By stars and bars with each box non-empty, ways = C(10−1, 3−1) = C(9,2), so the answer is 36.
+Source: NCERT Class 11 Mathematics
+
+97. In how many ways can the letters of the word "BETTER" be arranged so that the two T's are never together?
+(a) 180 (b) 90 (c) 60 (d) 120
+Answer: (d)
+Solution: The tempting wrong option 180 is the total arrangements 6!/(2! × 2!), which ignores the "never together" condition. Arrangements with the two T's together (treat TT as one block, E repeated twice) = 5!/2! = 60, so required = 180 − 60, so the answer is 120.
+Source: NCERT Class 11 Mathematics
+
+98. A student must answer 8 out of 12 questions, including exactly 4 of the first 6 questions. In how many ways can he choose?
+(a) 225 (b) 450 (c) 495 (d) 300
+Answer: (a)
+Solution: The tempting wrong option 495 is C(12,8), which ignores the condition that exactly 4 must come from the first 6. Choose 4 of the first 6 in C(6,4) = 15 ways and the remaining 4 from the last 6 in C(6,4) = 15 ways, so total = 15 × 15, so the answer is 225.
+Source: NCERT Class 11 Mathematics
+
+99. In how many ways can 7 different beads be strung into a necklace?
+(a) 2520 (b) 720 (c) 5040 (d) 360
+Answer: (d)
+Solution: The tempting wrong option 720 forgets that a necklace read clockwise and anticlockwise is the same. Circular arrangements of 7 beads = (7−1)! = 720, and dividing by 2 for flipping, so the answer is 360.
+Source: NCERT Class 11 Mathematics
+
+100. How many 5-digit numbers divisible by 4 can be formed using the digits 0, 1, 2, 3, 4, 5 without repetition?
+(a) 144 (b) 120 (c) 96 (d) 156
+Answer: (a)
+Solution: The tempting wrong option 120 wrongly assumes all endings behave alike, ignoring that endings containing 0 free up the first digit. Valid two-digit endings with distinct digits are 04, 12, 20, 24, 32, 40, 52; endings with 0 (04, 20, 40) give 4 × 3 × 2 = 24 each and endings without 0 (12, 24, 32, 52) give 3 × 3 × 2 = 18 each, so total = 3 × 24 + 4 × 18 = 72 + 72, so the answer is 144.
+Source: NCERT Class 11 Mathematics

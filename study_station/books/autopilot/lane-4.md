@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 10-10-2026 03:32 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
+**आख़िरी update:** 10-10-2026 03:39 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 130 मिनट |
-| W2 | Chapter 23 Quadratic Equations (12th Maths) | ✍️ लिख रहा है | 5 मिनट |
-| W3 | Chapter 21 Permutation Combination (12th Maths) | 🔎 review हो रहा है | 7 मिनट |
-| W4 | Chapter 22 Number Series (12th Maths) | 🔎 review हो रहा है | 52 मिनट |
-| W6 | Chapter 19 Statistics (12th Maths) | 🔎 review हो रहा है | 48 मिनट |
+| W1 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 137 मिनट |
+| W2 | Chapter 23 Quadratic Equations (12th Maths) | ✍️ लिख रहा है | 12 मिनट |
+| W3 | Chapter 21 Permutation Combination (12th Maths) | 📤 push हो रहा है | 0 मिनट |
+| W4 | Chapter 22 Number Series (12th Maths) | 🔎 review हो रहा है | 59 मिनट |
+| W6 | Chapter 19 Statistics (12th Maths) | 🔎 review हो रहा है | 55 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,6 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 10-10 03:39 — 12th Maths · Chapter 21 Permutation Combination
 - 10-10 03:07 — 12th Maths · Chapter 16 Algebra
 - 10-10 02:49 — 12th Maths · Chapter 18 Data Interpretation
 - 10-10 01:27 — 12th Maths · Chapter 07 Ratio Proportion
@@ -54,9 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 02:50:49   [Statistics] review Feynman_hi.txt: 1 issue(s): - The bold formatting in the sorted list after adding 200 highlights 18 and 20 as the middle two numbers, but the c
-10-10 02:52:09   [Quadratic_Equations] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-10-10 02:52:59   [Probability] Practice_en_Set_03.txt try 3: rejected (parsed 23 questions, numbers 51…75)
 10-10 02:55:32   [Permutation_Combination] review PYQ_hi.txt: 1 issue(s): - Question 5 initial answer line says (a) but the correct answer is (b) 60 → The first answer line should be (b) 60.
 10-10 02:56:41   [Probability] Practice_en_Set_03.txt try 4: rejected (parsed 23 questions, numbers 51…75)
 10-10 02:56:41   [Probability] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
@@ -94,4 +92,7 @@
 10-10 03:29:45   [Probability] Practice_en_Set_05.txt try 3: rejected (parsed 24 questions, numbers 101…125)
 10-10 03:31:05   [Permutation_Combination] review Feynman_en.txt: 1 issue(s): - The narrative says "you and your two best friends — Aman, Bina, and Chintu" but lists three names for two friends
 10-10 03:31:43   [Statistics] review Important_Formulas_hi.txt: 2 issue(s): - माध्य परिवर्तन सूत्र "नया माध्य = (पुराना माध्य × n ± कुल परिवर्तन) / n" तब गलत है जब प्रेक्षण जुड़ते/
+10-10 03:37:25   [Quadratic_Equations] Practice_en_Set_02.txt try 2: re-solve disagrees (Q50 key a vs re-solve ?)
+10-10 03:39:24   [Permutation_Combination] review: 2 section(s) corrected, 0 failed
+10-10 03:39:24   [Permutation_Combination] written 2, failed 0; AI calls today 173/100000
 ```
