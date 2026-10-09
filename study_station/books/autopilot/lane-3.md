@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 06:43 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 06:58 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 54 मिनट |
-| W2 | Chapter 08 Puzzles (12th Reasoning) | ✍️ लिख रहा है | 198 मिनट |
-| W3 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 60 मिनट |
-| W4 | Chapter 09 Venn Diagrams (12th Reasoning) | ✍️ लिख रहा है | 125 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 69 मिनट |
+| W2 | Chapter 08 Puzzles (12th Reasoning) | ✍️ लिख रहा है | 214 मिनट |
+| W4 | Chapter 09 Venn Diagrams (12th Reasoning) | ✍️ लिख रहा है | 140 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -42,23 +41,12 @@
 - Chapter 22 Para Jumbles (English) — 2 बार
 - Chapter 23 Sentence Arrangement (English) — 2 बार
 - Chapter 03 Coding Decoding (Reasoning) — 2 बार
-- Chapter 05 Direction Sense (Reasoning) — 1 बार
+- Chapter 05 Direction Sense (Reasoning) — 2 बार
 - Chapter 07 Sitting Arrangement (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 17:52:01   [Puzzles] Practice_en_Set_03.txt try 2: re-solve disagrees (Q57 key d vs re-solve c)
-09-10 17:52:02   [Sitting_Arrangement] Practice_en_Set_01.txt try 1: rejected (Q9:leaked_reasoning,Q25:leaked_reasoning)
-09-10 17:52:25   [Venn_Diagrams] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-09-10 17:52:44   [Direction_Sense] Practice_en_Set_05.txt try 1: rejected (Q110:leaked_reasoning,Q117:leaked_reasoning,Q122:leaked_reasoning,Q123:leaked_reasoning,Q124:leaked_reasoning)
-09-10 17:55:10   [Blood_Relations] review Flashcards_hi.txt: 1 issue(s): - Card 20: The river name “लोनी” is a misspelling; the correct name is “लूनी” (Luni) → Replace “लोनी” with “लूनी
-09-10 17:55:49   [Venn_Diagrams] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-09-10 17:56:22   [Puzzles] FAILED Practice_en_Set_03.txt: rate_limited
-09-10 17:56:22   [Puzzles] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
-09-10 17:58:06   [Puzzles] Practice_en_Set_04.txt try 1: rejected (Q84:leaked_reasoning,Q89:leaked_reasoning,Q94:leaked_reasoning)
-09-10 17:59:03   [Blood_Relations] review PYQ_en.txt: 3 issue(s): - Q1 answer (b) is incorrect: P − Q means P is sister of Q (female), so P cannot be maternal uncle (male); no option co
-09-10 18:00:25   [Direction_Sense] Practice_en_Set_05.txt try 2: re-solve disagrees (Q103 key a vs re-solve b, Q122 key b vs re-solve a)
 09-10 18:04:31   [Blood_Relations] review PYQ_hi.txt: 4 issue(s): - Question 1 initial answer "(b) पति" is incorrect → the correct relation is maternal grandfather (नाना), which is not 
 09-10 18:06:30   [Sitting_Arrangement] Practice_en_Set_01.txt try 2: re-solve disagrees (Q24 key d vs re-solve c)
 09-10 18:07:10   [Venn_Diagrams] Practice_en_Set_03.txt try 1: re-solve disagrees (Q62 key a vs re-solve b)
@@ -88,4 +76,15 @@
 09-10 18:36:28   [Puzzles] Practice_en_Set_05.txt try 2: re-solve disagrees (Q109 key c vs re-solve d, Q122 key c vs re-solve d)
 09-10 18:38:49   [Venn_Diagrams] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 09-10 18:42:22   [Direction_Sense] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 18:43:55   [Venn_Diagrams] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 18:47:42   [Direction_Sense] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+09-10 18:47:42   [Direction_Sense] written 2, failed 4; AI calls today 309/100000
+09-10 18:47:42 NOT OK 12th_Level/Reasoning/Chapter_05_Direction_Sense after 65 min: todo ['Set 02 en: todo', 'Set 02 hi: todo', 'Set 05 en: todo', 'Set 05 hi: todo'] problems ['Content_hi.txt: Hindi file is mostly not in Hindi', 'Content_hi.txt: much shorter than the English section (1070 ']
+09-10 18:47:42 worker 2: nothing left
+09-10 18:47:50   [Venn_Diagrams] Practice_en_Set_05.txt try 1: rejected (parsed 24 questions, numbers 101…125)
+09-10 18:49:57   [Venn_Diagrams] Practice_en_Set_05.txt try 2: rejected (parsed 24 questions, numbers 101…125)
+09-10 18:53:51   [Puzzles] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 18:56:58   [Puzzles] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 18:58:09   [Puzzles] Practice_en_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 18:58:51   [Sitting_Arrangement] Practice_en_Set_02.txt try 3: re-solve disagrees (Q30 key a vs re-solve d, Q45 key b vs re-solve a)
 ```
