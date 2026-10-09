@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 03:24 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 03:39 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 64 मिनट |
-| W2 | Chapter 11 Series (Graduation Reasoning) | ✍️ लिख रहा है | 1 मिनट |
-| W3 | Chapter 03 Coding Decoding (Graduation Reasoning) | 🔎 review हो रहा है | 38 मिनट |
-| W4 | Chapter 10 Clock Calendar (Graduation Reasoning) | 🔎 review हो रहा है | 5 मिनट |
-| W5 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 91 मिनट |
+| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 79 मिनट |
+| W2 | Chapter 11 Series (Graduation Reasoning) | ✍️ लिख रहा है | 17 मिनट |
+| W3 | Chapter 03 Coding Decoding (Graduation Reasoning) | 🔎 review हो रहा है | 54 मिनट |
+| W4 | Chapter 10 Clock Calendar (Graduation Reasoning) | 🔎 review हो रहा है | 20 मिनट |
+| W5 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 107 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -47,23 +47,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 14:45:54   [Coding_Decoding] repaired Content_hi.txt (7903 chars)
-09-10 14:45:54   [Coding_Decoding] written 1, failed 0; AI calls today 74/100000
-09-10 14:46:00   [Blood_Relations] review: 1 section(s) corrected, 0 failed
-09-10 14:46:00   [Blood_Relations] written 1, failed 0; AI calls today 75/100000
-09-10 14:46:17 DONE Graduation_Level/Reasoning/Chapter_04_Blood_Relations in 6 min → 9038b9f7
-09-10 14:46:19 START Graduation_Level/Reasoning/Chapter_10_Clock_Calendar (TODO: todo 4, problems 0)
-09-10 14:49:18   [Venn_Diagrams] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 14:49:57   [Coding_Decoding] review Content_en.txt: 1 issue(s): - In Type 1, the example "MAN → NCP" is analyzed as having shifts +1, +2, +2 and called inconsistent, then the text
-09-10 14:51:59   [Clock_Calendar] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-09-10 14:53:29   [Puzzles] Practice_en_Set_01.txt try 4: re-solve disagrees (Q2 key c vs re-solve b, Q12 key c vs re-solve a, Q20 key a vs re-solve c, Q21 key b vs re-solve d)
-09-10 14:53:29   [Puzzles] REJECTED Practice_en_Set_01.txt: no version passed the checks — not written
-09-10 14:53:29   [Puzzles] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
-09-10 14:53:33   [Venn_Diagrams] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 14:53:33   [Venn_Diagrams] written 2, failed 0; AI calls today 82/100000
-09-10 14:54:54   [Venn_Diagrams] review Content_en.txt: 1 issue(s): - Type 5 description "All three pairs partially overlap" does not match the example "Doctors, Women, Mothers" becau
-09-10 14:56:05   [Puzzles] Practice_en_Set_03.txt try 1: rejected (Q54:leaked_reasoning)
-09-10 14:56:33   [Clock_Calendar] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 09-10 14:58:33   [Venn_Diagrams] review Content_hi.txt: 2 issue(s): - Invented exam statistic "90% छात्रों को उलझा देता है" → Replace with a non-specific phrase like "कई छात्रों को उल
 09-10 14:59:18   [Clock_Calendar] Practice_en_Set_05.txt try 1: rejected (Q118:leaked_reasoning)
 09-10 15:03:00   [Sitting_Arrangement] Practice_en_Set_01.txt try 4: re-solve disagrees (Q14 key b vs re-solve d)
@@ -87,4 +70,21 @@
 09-10 15:22:54 START Graduation_Level/Reasoning/Chapter_11_Series (TODO: todo 10, problems 0)
 09-10 15:23:04   [Coding_Decoding] review Feynman_en.txt: 1 issue(s): - The example "TIGER → UJ HFS?" is incorrect → The correct coded form for the described growing shift (+1,+2,+3,+4,
 09-10 15:23:33   [Series] wrote Mind_Map.txt (1713 chars)
+09-10 15:24:59   [Series] wrote Flashcards_en.txt (5977 chars)
+09-10 15:26:29   [Sitting_Arrangement] Practice_en_Set_03.txt try 2: re-solve disagrees (Q51 key a vs re-solve b, Q53 key c vs re-solve d, Q57 key c vs re-solve a, Q62 key c vs re-solve d, 
+09-10 15:26:52   [Coding_Decoding] review Mind_Map.txt: 1 issue(s): - "चीनी/प्रतीक कोडिंग" → "प्रतीक कोडिंग" (चीनी का अर्थ 'चीनी/शुगर' या 'चाइनीज़' होता है, 'प्रतीक/सिंबल' नहीं)
+09-10 15:26:56   [Series] Practice_en_Set_03.txt try 1: rejected (Q54:leaked_reasoning,Q66:leaked_reasoning)
+09-10 15:30:10   [Coding_Decoding] review Flashcards_hi.txt: 1 issue(s): - Card 3: “90% प्रश्न इन्हीं तीन पैटर्न में आते हैं” is an invented exam statistic → Remove the percentage or re
+09-10 15:30:38   [Sitting_Arrangement] Practice_en_Set_03.txt try 3: rejected (parsed 1 questions, numbers 51…51)
+09-10 15:30:46   [Series] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 15:31:53   [Clock_Calendar] review Content_en.txt: 1 issue(s): - Opposite-hands formula "Time = H : (60H − 360)/11" for H < 6 gives a negative value → the correct formula is H : 
+09-10 15:32:27   [Series] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 15:33:42   [Series] Practice_en_Set_04.txt try 1: rejected (Q96:leaked_reasoning)
+09-10 15:35:01   [Sitting_Arrangement] Practice_en_Set_03.txt try 4: rejected (Q52:leaked_reasoning,Q56:leaked_reasoning,Q60:leaked_reasoning,Q62:leaked_reasoning,Q64:leaked_reasoning)
+09-10 15:35:01   [Sitting_Arrangement] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
+09-10 15:35:01   [Sitting_Arrangement] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
+09-10 15:35:37   [Clock_Calendar] review Content_hi.txt: 1 issue(s): - 1.4 में "हर 12 घंटे में 11 बार (6 बजे को छोड़कर, क्योंकि 6 बजे ठीक विपरीत होती हैं)" गलत है → सही है: "हर 12 घंटे
+09-10 15:37:16   [Sitting_Arrangement] Practice_en_Set_04.txt try 1: rejected (Q89:leaked_reasoning)
+09-10 15:37:44   [Coding_Decoding] review PYQ_en.txt: 6 issue(s): - Q1: The coding rule for MANGO→NZOHQ is not consistently derived; the answer (b) ZOOKD for APPLE does not follow from 
+09-10 15:38:49   [Puzzles] Practice_en_Set_03.txt try 3: re-solve disagrees (Q51 key b vs re-solve a, Q73 key b vs re-solve a)
 ```
