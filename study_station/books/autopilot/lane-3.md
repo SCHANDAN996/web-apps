@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 04:56 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 05:11 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 113 मिनट |
-| W2 | Chapter 08 Puzzles (12th Reasoning) | ✍️ लिख रहा है | 91 मिनट |
-| W3 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 146 मिनट |
-| W4 | Chapter 09 Venn Diagrams (12th Reasoning) | ✍️ लिख रहा है | 18 मिनट |
-| W5 | Chapter 04 Blood Relations (12th Reasoning) | ✍️ लिख रहा है | 52 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 128 मिनट |
+| W2 | Chapter 08 Puzzles (12th Reasoning) | ✍️ लिख रहा है | 107 मिनट |
+| W3 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 162 मिनट |
+| W4 | Chapter 09 Venn Diagrams (12th Reasoning) | ✍️ लिख रहा है | 33 मिनट |
+| W5 | Chapter 04 Blood Relations (12th Reasoning) | ✍️ लिख रहा है | 67 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -21,16 +21,16 @@
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 9 | 13 | 0 |
-| 10th English | 3 | 0 | 17 |
+| 10th English | 4 | 0 | 16 |
 | 12th Maths | 0 | 0 | 23 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 3 | 0 | 22 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 21 | 0 | 7 |
-| Graduation Reasoning | 7 | 0 | 23 |
+| Graduation Reasoning | 8 | 0 | 22 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **158** | **13** | **125** |
+| **कुल** | **160** | **13** | **123** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -47,17 +47,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 16:04:00 START 12th_Level/Reasoning/Chapter_04_Blood_Relations (TODO: todo 6, problems 1)
-09-10 16:07:29   [Blood_Relations] Practice_en_Set_03.txt try 1: rejected (Q57:leaked_reasoning,Q63:leaked_reasoning,Q71:leaked_reasoning,Q75:leaked_reasoning)
-09-10 16:11:23   [Order_Ranking] review Flashcards_en.txt: 3 issue(s): - "from the" missing a noun (e.g., left/right) → add "left" after each "the" (or specify the direction).
-09-10 16:14:06   [Direction_Sense] Practice_en_Set_04.txt try 2: re-solve disagrees (Q89 key b vs re-solve c)
-09-10 16:15:38   [Blood_Relations] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-09-10 16:17:47   [Blood_Relations] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-09-10 16:18:57   [Order_Ranking] review PYQ_en.txt: 1 issue(s): - Q10 answer and solution are incorrect: the middle person in the queue is C, not D → Correct answer: (b) C; order fron
-09-10 16:19:25   [Sitting_Arrangement] FAILED Practice_en_Set_01.txt: too_long
-09-10 16:19:25   [Sitting_Arrangement] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
-09-10 16:20:35   [Direction_Sense] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-09-10 16:20:58   [Blood_Relations] Practice_en_Set_04.txt try 1: rejected (Q79:leaked_reasoning,Q85:leaked_reasoning,Q99:leaked_reasoning)
 09-10 16:24:53   [Puzzles] Practice_en_Set_01.txt try 2: re-solve disagrees (Q3 key a vs re-solve d, Q14 key a vs re-solve d)
 09-10 16:25:31   [Order_Ranking] review PYQ_hi.txt: 2 issue(s): - Question 5 data inconsistent: after interchange Ravi should occupy Suresh's original right position (25th) but is giv
 09-10 16:26:53   [Direction_Sense] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
@@ -87,4 +76,15 @@
 09-10 16:53:33   [Blood_Relations] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 09-10 16:55:09   [Venn_Diagrams] FAILED PYQ_hi.txt: rate_limited
 09-10 16:55:59   [Venn_Diagrams] wrote Short_Tricks_en.txt (4180 chars)
+09-10 16:57:17   [Puzzles] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 16:57:45   [Blood_Relations] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 16:57:58   [Venn_Diagrams] wrote Short_Tricks_hi.txt (5065 chars)
+09-10 16:58:42   [Venn_Diagrams] wrote Important_Rules_en.txt (3965 chars)
+09-10 16:59:18   [Direction_Sense] Practice_en_Set_05.txt try 3: re-solve disagrees (Q114 key d vs re-solve c)
+09-10 17:00:05   [Puzzles] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 17:00:47   [Sitting_Arrangement] Practice_en_Set_03.txt try 2: re-solve disagrees (Q54 key a vs re-solve c, Q58 key d vs re-solve a, Q63 key a vs re-solve d, Q65 key a vs re-solve d, 
+09-10 17:00:55   [Blood_Relations] Practice_en_Set_05.txt try 1: rejected (Q106:leaked_reasoning,Q108:leaked_reasoning,Q111:leaked_reasoning)
+09-10 17:03:05   [Puzzles] Practice_en_Set_02.txt try 1: rejected (Q26:leaked_reasoning,Q44:duplicate_options)
+09-10 17:08:00   [Sitting_Arrangement] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 17:10:23   [Sitting_Arrangement] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 ```
