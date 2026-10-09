@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 06:16 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 06:19 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Economy Basic (12th GK) | 📤 push हो रहा है | 0 मिनट |
-| W2 | Chapter 12 Biology (12th GK) | ✍️ लिख रहा है | 33 मिनट |
-| W3 | Chapter 10 Physics Daily (12th GK) | 🔎 review हो रहा है | 5 मिनट |
-| W4 | Chapter 13 Awards (12th GK) | ✍️ लिख रहा है | 3 मिनट |
-| W5 | Chapter 07 States Rivers (12th GK) | 🔎 review हो रहा है | 57 मिनट |
+| W1 | Chapter 14 Sports (12th GK) | ✍️ लिख रहा है | 2 मिनट |
+| W2 | Chapter 12 Biology (12th GK) | ✍️ लिख रहा है | 36 मिनट |
+| W3 | Chapter 10 Physics Daily (12th GK) | 🔎 review हो रहा है | 8 मिनट |
+| W4 | Chapter 13 Awards (12th GK) | ✍️ लिख रहा है | 6 मिनट |
+| W5 | Chapter 07 States Rivers (12th GK) | 🔎 review हो रहा है | 59 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -45,19 +45,11 @@
 
 - Chapter 03 Modern History (GK) — 2 बार
 - Chapter 07 States Rivers (GK) — 1 बार
-- Chapter 09 Economy Basic (GK) — 1 बार
 - Chapter 10 Physics Daily (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 05:54:42   [States_Rivers] FAILED review Feynman_en.txt: too_long — the chapter must not be published unreviewed
-09-10 05:55:06   [Economy_Basic] review Feynman_en.txt: 1 issue(s): - Section content is corrupted/garbled (repeated fragments "The F", "The", "F", "1") and contains no actual explana
-09-10 05:55:59   [Chemistry] review Key_Facts_hi.txt: 3 issue(s): - "आमला सोडा" listed as Hindi name for NaHCO₃ (baking soda) is incorrect → correct Hindi name is "बेकिंग सोडा" or
-09-10 05:56:17   [States_Rivers] review Feynman_hi.txt: 1 issue(s): - "भंसक" (rift valley) गलत हिंदी शब्द है → सही शब्द "भ्रंश घाटी" है।
-09-10 05:59:18   [States_Rivers] review Mind_Map.txt: 1 issue(s): - E2: 'कोसी/कावेरी' listed under 'मिलते नाम' (similar names) is incorrect as they are not similar names → remove the 
-09-10 05:59:57   [Economy_Basic] review Feynman_hi.txt: 1 issue(s): - शुद्ध साधन आय → शुद्ध कारक आय (Net Factor Income from Abroad)
-09-10 06:02:03   [Chemistry] review PYQ_hi.txt: 1 issue(s): - The claim that General Chemistry appears in "almost every shift" with "1–3 questions" for SSC, Railway, Banking, and 
 09-10 06:03:42   [Biology] Key_Facts_en.txt try 1: answer too long — asking for a tighter version
 09-10 06:03:48   [States_Rivers] review Flashcards_en.txt: 1 issue(s): - Card 5: The mnemonic and list of Ganga's left-bank tributaries from west to east is incorrect; the correct ord
 09-10 06:03:54   [Physics_Daily] Key_Facts_en.txt try 1: answer too long — asking for a tighter version
@@ -91,4 +83,11 @@
 09-10 06:16:26   [Economy_Basic] review: 6 section(s) corrected, 0 failed
 09-10 06:16:26   [Economy_Basic] written 6, failed 0; AI calls today 378/100000
 09-10 06:16:34   [Biology] wrote PYQ_en.txt (8692 chars)
+09-10 06:16:36 DONE 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_09_Economy_Basic in 47 min → 0f426e94
+09-10 06:16:37 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_14_Sports (TODO: todo 25, problems 0)
+09-10 06:17:00   [Awards] wrote Content_hi.txt (9690 chars)
+09-10 06:17:55   [Awards] wrote Key_Facts_en.txt (6640 chars)
+09-10 06:18:07   [Sports] wrote Content_en.txt (7677 chars)
+09-10 06:18:10   [Biology] PYQ_hi.txt try 1: rejected (corrupted characters)
+09-10 06:18:17   [Physics_Daily] review Key_Facts_en.txt: 1 issue(s): - Table data corrupted: Examiner's Trap and Trap Type columns contain 30+ repetitions of "Blue light scattered by
 ```
