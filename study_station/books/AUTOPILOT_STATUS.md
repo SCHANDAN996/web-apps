@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 02:46 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 02:54 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 25 मिनट |
-| W2 | Chapter 09 Venn Diagrams (Graduation Reasoning) | ✍️ लिख रहा है | 7 मिनट |
-| W3 | Chapter 03 Coding Decoding (Graduation Reasoning) | 🔎 review हो रहा है | 0 मिनट |
-| W4 | Chapter 04 Blood Relations (Graduation Reasoning) | 📤 push हो रहा है | 0 मिनट |
-| W5 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 53 मिनट |
+| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 33 मिनट |
+| W2 | Chapter 09 Venn Diagrams (Graduation Reasoning) | 🔎 review हो रहा है | 0 मिनट |
+| W3 | Chapter 03 Coding Decoding (Graduation Reasoning) | 🔎 review हो रहा है | 8 मिनट |
+| W4 | Chapter 10 Clock Calendar (Graduation Reasoning) | ✍️ लिख रहा है | 7 मिनट |
+| W5 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 61 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -25,14 +25,14 @@
 | 10th Maths | 9 | 13 | 0 |
 | 10th English | 2 | 0 | 18 |
 | 12th Maths | 0 | 0 | 23 |
-| 12th GK | 17 | 0 | 7 |
+| 12th GK | 20 | 0 | 4 |
 | 12th Reasoning | 2 | 0 | 23 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 19 | 0 | 9 |
-| Graduation Reasoning | 5 | 0 | 25 |
+| Graduation GK | 20 | 0 | 8 |
+| Graduation Reasoning | 6 | 0 | 24 |
 | Graduation English | 29 | 1 | 0 |
-| **कुल** | **147** | **14** | **135** |
+| **कुल** | **152** | **14** | **130** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -42,21 +42,10 @@
 
 - Chapter 22 Para Jumbles Adv (English) — 2 बार
 - Chapter 02 Classification (Reasoning) — 2 बार
-- Chapter 04 Blood Relations (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 14:20:35   [Para_Jumbles_Adv] repaired Mind_Map_hi.txt (1540 chars)
-09-10 14:20:35   [Para_Jumbles_Adv] written 1, failed 0; AI calls today 40/100000
-09-10 14:20:35 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv after 3 min: todo [] problems ['Mind_Map_hi.txt: much shorter than the English section (1539']
-09-10 14:20:38 START Graduation_Level/Reasoning/Chapter_08_Puzzles (TODO: todo 9, problems 0)
-09-10 14:21:53   [Puzzles] wrote Short_Tricks_hi.txt (2407 chars)
-09-10 14:22:04   [Blood_Relations] review PYQ_en.txt: 2 issue(s): - Q3: Solution assumes "my uncle" is paternal uncle and that the grandfather's daughter is the aunt, but the question d
-09-10 14:25:55   [Classification] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 14:27:12   [Puzzles] Practice_en_Set_01.txt try 1: rejected (Q1:leaked_reasoning,Q9:leaked_reasoning,Q12:leaked_reasoning,Q21:leaked_reasoning)
-09-10 14:28:42   [Classification] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 14:28:42   [Classification] written 2, failed 1; AI calls today 51/100000
 09-10 14:28:42 NOT OK Graduation_Level/Reasoning/Chapter_02_Classification after 36 min: todo ['Set 01 hi: todo'] problems []
 09-10 14:28:44 START Graduation_Level/Reasoning/Chapter_02_Classification (TODO: todo 1, problems 0)
 09-10 14:29:34   [Blood_Relations] review Short_Tricks_hi.txt: 7 issue(s): - "आगे से पढ़ने वाला विद्यार्थी 80% समय उलझता है; पीछे से पढ़ने वाला 20 सेकंड में हल करता है" (ट्रिक 1) → आविष
@@ -87,4 +76,14 @@
 09-10 14:45:54   [Coding_Decoding] written 1, failed 0; AI calls today 74/100000
 09-10 14:46:00   [Blood_Relations] review: 1 section(s) corrected, 0 failed
 09-10 14:46:00   [Blood_Relations] written 1, failed 0; AI calls today 75/100000
+09-10 14:46:17 DONE Graduation_Level/Reasoning/Chapter_04_Blood_Relations in 6 min → 9038b9f7
+09-10 14:46:19 START Graduation_Level/Reasoning/Chapter_10_Clock_Calendar (TODO: todo 4, problems 0)
+09-10 14:49:18   [Venn_Diagrams] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 14:49:57   [Coding_Decoding] review Content_en.txt: 1 issue(s): - In Type 1, the example "MAN → NCP" is analyzed as having shifts +1, +2, +2 and called inconsistent, then the text
+09-10 14:51:59   [Clock_Calendar] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+09-10 14:53:29   [Puzzles] Practice_en_Set_01.txt try 4: re-solve disagrees (Q2 key c vs re-solve b, Q12 key c vs re-solve a, Q20 key a vs re-solve c, Q21 key b vs re-solve d)
+09-10 14:53:29   [Puzzles] REJECTED Practice_en_Set_01.txt: no version passed the checks — not written
+09-10 14:53:29   [Puzzles] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
+09-10 14:53:33   [Venn_Diagrams] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+09-10 14:53:33   [Venn_Diagrams] written 2, failed 0; AI calls today 82/100000
 ```
