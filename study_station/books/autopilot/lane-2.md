@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 12:45 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 12:47 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 21 International Orgs (Graduation GK) | 🔎 review हो रहा है | 32 मिनट |
-| W4 | Chapter 23 Economic Terms (Graduation GK) | ✍️ लिख रहा है | 49 मिनट |
-| W5 | Chapter 19 Environment (Graduation GK) | 🔎 review हो रहा है | 30 मिनट |
+| W3 | Chapter 21 International Orgs (Graduation GK) | 🔎 review हो रहा है | 34 मिनट |
+| W4 | Chapter 23 Economic Terms (Graduation GK) | ✍️ लिख रहा है | 51 मिनट |
+| W5 | Chapter 19 Environment (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -32,6 +32,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 12:47 — Graduation GK · Chapter 19 Environment
 - 09-10 12:30 — Graduation GK · Chapter 18 Science Tech
 - 09-10 11:55 — Graduation GK · Chapter 17 Culture Art
 - 09-10 10:46 — Graduation GK · Chapter 16 Books Authors
@@ -53,10 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 12:20:27   [Defence] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 12:20:45   [Defence] Practice_hi_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 12:22:03   [Economic_Terms] wrote Key_Facts_hi.txt (7937 chars)
-09-10 12:22:46   [Economic_Terms] wrote Feynman_en.txt (3398 chars)
 09-10 12:23:43   [Economic_Terms] wrote Feynman_hi.txt (2733 chars)
 09-10 12:23:59   [Defence] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 09-10 12:23:59   [Defence] written 22, failed 3; AI calls today 472/100000
@@ -93,4 +90,8 @@
 09-10 12:44:00 worker 0: nothing left
 09-10 12:44:01   [Economic_Terms] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 09-10 12:44:02   [Economic_Terms] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 12:45:38   [International_Orgs] review Mind_Map.txt: 1 issue(s): - F6 node claims "NATO/QUAD औपचारिक गठबंधन नहीं" (NATO/QUAD are not formal alliances) → NATO is a formal military all
+09-10 12:45:51   [Environment] review Memory_Hooks_hi.txt: 2 issue(s): - Mnemonic 13: “शुष्क पौधों” (dry plants) is incorrect for the hotspot criterion → should be “संवहनी पौधे” (va
+09-10 12:47:10   [Environment] review: 5 section(s) corrected, 0 failed
+09-10 12:47:10   [Environment] written 5, failed 0; AI calls today 515/100000
 ```
