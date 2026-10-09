@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 10-10-2026 01:25 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 10:05 PM
+**आख़िरी update:** 10-10-2026 01:40 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 10:05 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 19 Statistics (10th Maths) | 🔎 review हो रहा है | 10 मिनट |
-| W4 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 31 मिनट |
-| W6 | Chapter 13 Mixture Alligation (10th Maths) | 🔎 review हो रहा है | 4 मिनट |
+| W3 | Chapter 19 Statistics (10th Maths) | 🔎 review हो रहा है | 26 मिनट |
+| W4 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 46 मिनट |
+| W6 | Chapter 13 Mixture Alligation (10th Maths) | 🔎 review हो रहा है | 20 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -20,15 +20,15 @@
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 20 | 2 | 0 |
 | 10th English | 17 | 3 | 0 |
-| 12th Maths | 11 | 0 | 12 |
+| 12th Maths | 12 | 0 | 11 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 10 | 0 | 15 |
 | 12th English | 25 | 0 | 0 |
-| Graduation Maths | 7 | 0 | 21 |
+| Graduation Maths | 8 | 0 | 20 |
 | Graduation GK | 27 | 0 | 1 |
-| Graduation Reasoning | 12 | 0 | 18 |
+| Graduation Reasoning | 13 | 0 | 17 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **221** | **5** | **70** |
+| **कुल** | **224** | **5** | **67** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -52,18 +52,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 00:55:53   [Mixture_Alligation] written 2, failed 1; AI calls today 85/100000
-10-10 00:56:44   [Probability] set 01 try 2: rejected (parsed 23 questions, numbers 1…25)
-10-10 00:57:39   [Probability] set 01 try 3: rejected (parsed 15 questions, numbers 1…16)
-10-10 00:58:36   [Data_Interpretation] review: 3 section(s) corrected, 0 failed
-10-10 00:58:36   [Data_Interpretation] written 3, failed 0; AI calls today 93/100000
-10-10 00:58:43   [Probability] set 01 try 4: rejected (parsed 24 questions, numbers 1…25)
-10-10 00:58:43   [Probability] FAILED set 01: no version passed the checks — files left as they were
-10-10 00:58:54 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_17_Data_Interpretation in 32 min → 252c7759
-10-10 00:58:56 worker 7: nothing left
-10-10 00:59:09   [Statistics] FAILED set 02: too_long
-10-10 00:59:15   [Permutation_Combination] review Feynman_hi.txt: 1 issue(s): - "संचय" (accumulation/savings) used as the Hindi term for Combination → "संयोजन" (standard NCERT/exam term for Com
-10-10 00:59:42   [Mixture_Alligation] set 01 try 1: re-solve disagrees (Q1 key a vs re-solve d, Q24 key a vs re-solve b)
 10-10 01:05:02   [Statistics] repaired set 05 (en + hi, key confirmed by an independent re-solve)
 10-10 01:05:02   [Statistics] written 2, failed 1; AI calls today 104/100000
 10-10 01:05:02 NOT OK 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_19_Statistics after 165 min: todo [] problems ['Set 02 en: 0/25 parsed', 'Set 02 Practice_en_Set_02.txt: unverified exam/year source "', 'Set 02 hi: 0/25 parsed', 'Set 02 Practice_hi_Set_02.txt: unverified exam/year source "']
@@ -92,4 +80,16 @@
 10-10 01:24:31   [Statistics] review Content_hi.txt: 3 issue(s): - Incorrect Hindi word "लोकित" used in "y-अक्ष पर n/2 लोकित करके" and "कैसे लोकित करते हैं" → replace with "अंकित" 
 10-10 01:25:04   [Probability] set 03 try 3: rejected (parsed 23 questions, numbers 51…75)
 10-10 01:25:24   [Mixture_Alligation] review Content_en.txt: 1 issue(s): - The text claims alligation on profit percentages works for items with different cost prices (₹130/kg and ₹180/kg)
+10-10 01:27:48   [Probability] set 03 try 4: rejected (parsed 23 questions, numbers 51…75)
+10-10 01:27:48   [Probability] FAILED set 03: no version passed the checks — files left as they were
+10-10 01:28:11   [Probability] set 05 try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 01:28:50   [Probability] set 05 try 2: rejected (parsed 0 questions, numbers -…-)
+10-10 01:28:51   [Probability] set 05 try 3: rejected (parsed 0 questions, numbers -…-)
+10-10 01:28:54   [Mixture_Alligation] review Content_hi.txt: 1 issue(s): - पृथ्थीकरण (पूरे पाठ में प्रयुक्त गलत शब्द) → पृथक्करण
+10-10 01:32:18   [Probability] set 05 try 4: rejected (parsed 24 questions, numbers 101…125)
+10-10 01:32:18   [Probability] FAILED set 05: no version passed the checks — files left as they were
+10-10 01:33:40   [Probability] set 06 try 1: rejected (parsed 23 questions, numbers 126…150)
+10-10 01:34:49   [Statistics] review Feynman_hi.txt: 1 issue(s): - सबके मुँह खुले के खुले रह गए → सबके मुँह खुले रह गए
+10-10 01:36:53   [Mixture_Alligation] review Feynman_en.txt: 1 issue(s): - The claim that the price difference (0.40) directly equals the number of cheap glasses (2) and the difference (0.
+10-10 01:39:58   [Probability] set 06 try 2: rejected (parsed 23 questions, numbers 126…150)
 ```
