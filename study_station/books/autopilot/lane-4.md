@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 01:31 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 01:47 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 LCM HCF (12th Maths) | ✍️ लिख रहा है | 88 मिनट |
-| W5 | Chapter 01 Number System (12th Maths) | ✍️ लिख रहा है | 131 मिनट |
+| W1 | Chapter 02 LCM HCF (12th Maths) | ✍️ लिख रहा है | 103 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -18,7 +17,7 @@
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 9 | 13 | 0 |
-| 10th English | 0 | 0 | 20 |
+| 10th English | 1 | 0 | 19 |
 | 12th Maths | 0 | 0 | 23 |
 | 12th GK | 18 | 2 | 4 |
 | 12th Reasoning | 1 | 0 | 24 |
@@ -27,7 +26,7 @@
 | Graduation GK | 19 | 0 | 9 |
 | Graduation Reasoning | 3 | 0 | 27 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **143** | **15** | **138** |
+| **कुल** | **144** | **15** | **137** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -48,17 +47,11 @@
 - Chapter 21 International Orgs (GK) — 2 बार
 - Chapter 24 Reports Indices (GK) — 1 बार
 - Chapter 25 Govt Schemes (GK) — 1 बार
+- Chapter 01 Number System (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 12:43:11   [LCM_HCF] wrote Short_Tricks_hi.txt (7228 chars)
-09-10 12:43:47   [LCM_HCF] wrote Important_Formulas_en.txt (2887 chars)
-09-10 12:44:38   [Number_System] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-09-10 12:45:45   [LCM_HCF] wrote Important_Formulas_hi.txt (9083 chars)
-09-10 12:48:05   [LCM_HCF] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 12:48:14   [Govt_Schemes] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-09-10 12:48:25   [Number_System] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 09-10 12:50:03   [LCM_HCF] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 09-10 12:50:32   [Number_System] Practice_en_Set_04.txt try 1: rejected (Q78:answer_solution_conflict,Q89:answer_solution_conflict,Q91:leaked_reasoning,Q95:leaked_reasoning,Q96:leaked
 09-10 12:51:14   [Economic_Terms] review PYQ_en.txt: 2 issue(s): - Trap 1 solution incorrectly states that option (c) "GDP minus depreciation" defines NNP; it actually defines NDP → Op
@@ -92,4 +85,11 @@
 09-10 13:27:10   [Number_System] Practice_en_Set_06.txt try 2: rejected (Q135:leaked_reasoning,Q137:leaked_reasoning,Q140:leaked_reasoning,Q142:leaked_reasoning,Q143:leaked_reasoning)
 09-10 13:29:15   [LCM_HCF] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 09-10 13:31:52   [LCM_HCF] Practice_en_Set_04.txt try 1: rejected (Q83:leaked_reasoning,Q94:leaked_reasoning)
+09-10 13:34:08   [Number_System] Practice_en_Set_06.txt try 3: rejected (parsed 0 questions, numbers -…-)
+09-10 13:36:43   [Number_System] Practice_en_Set_06.txt try 4: rejected (Q130:leaked_reasoning,Q142:leaked_reasoning,Q145:leaked_reasoning,Q146:leaked_reasoning)
+09-10 13:36:43   [Number_System] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+09-10 13:36:43   [Number_System] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+09-10 13:36:43   [Number_System] written 20, failed 5; AI calls today 531/100000
+09-10 13:36:44 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System after 136 min: todo ['Feynman_en.txt', 'Set 04 en: todo', 'Set 04 hi: todo', 'Set 06 en: todo'] problems ['Short_Tricks_hi.txt: Hindi file is mostly not in Hindi']
+09-10 13:36:44 worker 4: nothing left
 ```
