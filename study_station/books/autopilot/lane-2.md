@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 06:22 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:46 PM
+**आख़िरी update:** 09-10-2026 06:33 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:46 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 26 Advanced Polity (Graduation GK) | 🔎 review हो रहा है | 36 मिनट |
-| W4 | Chapter 29 Environment Conventions (Graduation GK) | 🔎 review हो रहा है | 43 मिनट |
-| W5 | Chapter 01 Number System Advanced (Graduation Maths) | ✍️ लिख रहा है | 65 मिनट |
+| W3 | Chapter 26 Advanced Polity (Graduation GK) | 🔎 review हो रहा है | 47 मिनट |
+| W4 | Chapter 29 Environment Conventions (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
+| W5 | Chapter 01 Number System Advanced (Graduation Maths) | ✍️ लिख रहा है | 76 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -32,6 +32,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 18:33 — Graduation GK · Chapter 29 Environment Conventions
 - 09-10 17:16 — Graduation GK · Chapter 25 Govt Schemes
 - 09-10 16:12 — Graduation GK · Chapter 24 Reports Indices
 - 09-10 14:42 — Graduation GK · Chapter 23 Economic Terms
@@ -47,15 +48,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 17:40:53   [Environment_Conventions] review Content_en.txt: 1 issue(s): - Hook: "within just two years, 197 countries agreed to ban the chemicals causing the damage" is false; the Montrea
-09-10 17:42:22   [Advanced_Polity] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-09-10 17:43:06   [Budget_Economic_Survey] review Flashcards_en.txt: 1 issue(s): - Card 8 states "in two parts since 2022–23" for the Economic Survey; actually it was in two volumes until 2022–
-09-10 17:45:49   [Advanced_Polity] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 17:45:49   [Advanced_Polity] written 2, failed 0; AI calls today 389/100000
-09-10 17:46:30   [Advanced_Science_Tech] Practice_en_Set_06.txt try 1: re-solve disagrees (Q132 key c vs re-solve b)
-09-10 17:46:47   [Number_System_Advanced] wrote Short_Tricks_hi.txt (6370 chars)
-09-10 17:47:27   [Budget_Economic_Survey] FAILED review Flashcards_en.txt: rate_limited — the chapter must not be published unreviewed
-09-10 17:47:46   [Environment_Conventions] review Key_Facts_en.txt: 1 issue(s): - Claim "India has the highest number of Ramsar sites in Asia" (Part 1 table and Part 3 table) → As of 2024, Chin
 09-10 17:49:09   [Number_System_Advanced] wrote Important_Formulas_en.txt (5040 chars)
 09-10 17:50:44   [Number_System_Advanced] wrote Important_Formulas_hi.txt (3871 chars)
 09-10 17:52:18   [Advanced_Science_Tech] wrote Practice_en_Set_06.txt (write, 25 MCQs)
@@ -87,4 +79,13 @@
 09-10 18:18:24   [Environment_Conventions] review PYQ_hi.txt: 1 issue(s): - Section 1 states that the Rio Earth Summit had three conventions (UNFCCC, CBD, UNCCD) → UNCCD was adopted in 1994, no
 09-10 18:20:22   [Number_System_Advanced] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 09-10 18:21:10   [Advanced_Polity] review Flashcards_hi.txt: 1 issue(s): - Card 11 cites Article 56 for the Vice President's term → the correct article is Article 67
+09-10 18:23:09   [Number_System_Advanced] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 18:25:15   [Number_System_Advanced] Practice_en_Set_03.txt try 1: rejected (Q74:leaked_reasoning)
+09-10 18:27:25   [Advanced_Polity] REJECTED review fix Flashcards_hi.txt: corrupted characters
+09-10 18:28:23   [Number_System_Advanced] Practice_en_Set_03.txt try 2: re-solve disagrees (Q63 key c vs re-solve b)
+09-10 18:28:50   [Environment_Conventions] review Memory_Hooks_hi.txt: 2 issue(s): - CITES = Commercial International Trade Endangered Species → CITES = Convention on International Trade in End
+09-10 18:32:25   [Number_System_Advanced] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 18:33:01   [Advanced_Polity] review PYQ_en.txt: 1 issue(s): - "statistically the most-tested answer for 'propounded'" → "the correct answer"
+09-10 18:33:11   [Environment_Conventions] review: 6 section(s) corrected, 0 failed
+09-10 18:33:11   [Environment_Conventions] written 6, failed 0; AI calls today 450/100000
 ```
