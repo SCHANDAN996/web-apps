@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 09-10-2026 11:53 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 10:05 PM
+**आख़िरी update:** 10-10-2026 12:08 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 10:05 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,12 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 20 Number Series (10th Maths) | 🔎 review हो रहा है | 34 मिनट |
-| W3 | Chapter 19 Statistics (10th Maths) | 🔧 सुधार रहा है | 93 मिनट |
-| W4 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 1 मिनट |
-| W5 | Chapter 22 Permutation Combination (10th Maths) | 🔧 सुधार रहा है | 52 मिनट |
-| W6 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 2 मिनट |
-| W8 | Chapter 17 Data Interpretation (10th Maths) | 🔧 सुधार रहा है | 107 मिनट |
+| W1 | Chapter 20 Number Series (10th Maths) | 🔎 review हो रहा है | 49 मिनट |
+| W3 | Chapter 19 Statistics (10th Maths) | 🔧 सुधार रहा है | 109 मिनट |
+| W4 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 16 मिनट |
+| W5 | Chapter 22 Permutation Combination (10th Maths) | 🔧 सुधार रहा है | 67 मिनट |
+| W6 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 17 मिनट |
+| W8 | Chapter 17 Data Interpretation (10th Maths) | 🔧 सुधार रहा है | 12 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -25,13 +25,13 @@
 | 10th English | 17 | 3 | 0 |
 | 12th Maths | 10 | 0 | 13 |
 | 12th GK | 22 | 0 | 2 |
-| 12th Reasoning | 7 | 0 | 18 |
+| 12th Reasoning | 8 | 0 | 17 |
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 3 | 0 | 25 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 12 | 0 | 18 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **209** | **9** | **78** |
+| **कुल** | **210** | **9** | **77** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -49,24 +49,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 23:32:09   [Mixture_Alligation] set 05 try 4: re-solve disagrees (Q115 key a vs re-solve b)
-09-10 23:32:09   [Mixture_Alligation] FAILED set 05: no version passed the checks — files left as they were
-09-10 23:33:17   [Probability] repaired set 04 (en + hi, key confirmed by an independent re-solve)
-09-10 23:33:24   [Permutation_Combination] repaired set 03 (en + hi, key confirmed by an independent re-solve)
-09-10 23:33:51   [Probability] set 05 try 1: rejected (parsed 1 questions, numbers 101…101)
-09-10 23:34:05   [Probability] set 05 try 2: rejected (parsed 0 questions, numbers -…-)
-09-10 23:35:28   [Statistics] set 04 try 1: rejected (parsed 2 questions, numbers 76…78)
-09-10 23:37:22   [Data_Interpretation] repaired set 05 (en + hi, key confirmed by an independent re-solve)
-09-10 23:37:33   [Geometry] review Short_Tricks_hi.txt: 1 issue(s): - पाई आर स्क्वायर, इसकी जगह है गहरा → पाई आर स्क्वायर, गोल का चेहरा; पाई आर स्क्वायर, इसका क्षेत्र है πr²
-09-10 23:37:41   [Probability] set 05 try 3: rejected (parsed 24 questions, numbers 101…125)
-09-10 23:38:39   [Geometry] review: 6 section(s) corrected, 0 failed
-09-10 23:38:39   [Geometry] written 6, failed 0; AI calls today 252/100000
-09-10 23:38:59 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_15_Geometry in 93 min → f437bc15
-09-10 23:39:01 worker 6: nothing left
-09-10 23:40:25   [Probability] set 05 try 4: rejected (parsed 24 questions, numbers 101…125)
-09-10 23:40:25   [Probability] FAILED set 05: no version passed the checks — files left as they were
-09-10 23:42:03   [Trigonometry] FAILED set 02: too_long
-09-10 23:42:03   [Trigonometry] written 0, failed 1; AI calls today 254/100000
 09-10 23:42:07   [Statistics] repaired set 04 (en + hi, key confirmed by an independent re-solve)
 09-10 23:42:17   [Probability] set 06 try 1: rejected (parsed 23 questions, numbers 126…150)
 09-10 23:42:18   [Trigonometry] set 02 try 1: rejected (parsed 0 questions, numbers -…-)
@@ -89,4 +71,22 @@
 09-10 23:51:49   [Probability] FAILED set 06: no version passed the checks — files left as they were
 09-10 23:51:49   [Probability] written 1, failed 5; AI calls today 273/100000
 09-10 23:53:27   [Probability] set 01 try 1: rejected (parsed 24 questions, numbers 1…25)
+09-10 23:55:05   [Probability] set 01 try 2: rejected (parsed 24 questions, numbers 1…25)
+09-10 23:55:45   [Number_Series] review PYQ_en.txt: 4 issue(s): - Invented statistics in Data-Driven Insights (70%, 30%, 40–50 seconds per question) → Remove or provide verified sourc
+09-10 23:56:40   [Data_Interpretation] repaired set 06 (en + hi, key confirmed by an independent re-solve)
+09-10 23:56:40   [Data_Interpretation] written 5, failed 4; AI calls today 278/100000
+09-10 23:57:20   [Probability] set 01 try 3: rejected (parsed 24 questions, numbers 1…25)
+09-10 23:57:33   [Mixture_Alligation] REJECTED PYQ_en.txt: corrupted characters — not written
+09-10 23:57:56   [Mixture_Alligation] repaired Short_Tricks_hi.txt (316 chars)
+09-10 23:58:14   [Data_Interpretation] repaired Content_hi.txt (6497 chars)
+09-10 23:59:43   [Data_Interpretation] repaired PYQ_en.txt (11677 chars)
+09-10 23:59:54   [Probability] set 01 try 4: rejected (parsed 24 questions, numbers 1…25)
+09-10 23:59:54   [Probability] FAILED set 01: no version passed the checks — files left as they were
+10-10 00:01:50   [Permutation_Combination] FAILED set 04: too_long
+10-10 00:03:41   [Number_Series] review PYQ_hi.txt: 5 issue(s): - Q1 का उत्तर 41 → 39
+10-10 00:04:31   [Statistics] FAILED set 05: too_long
+10-10 00:04:49   [Mixture_Alligation] set 01 try 1: re-solve disagrees (Q1 key d vs re-solve c)
+10-10 00:04:52   [Data_Interpretation] repaired set 01 (en + hi, key confirmed by an independent re-solve)
+10-10 00:05:51   [Probability] set 02 try 1: rejected (parsed 23 questions, numbers 26…50)
+10-10 00:07:54   [Probability] set 02 try 2: rejected (parsed 23 questions, numbers 26…50)
 ```
