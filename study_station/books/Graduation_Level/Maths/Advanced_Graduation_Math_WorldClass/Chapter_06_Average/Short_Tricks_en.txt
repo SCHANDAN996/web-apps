@@ -1,0 +1,289 @@
+# 🪄 Short Tricks — Average (Advanced Level)
+
+---
+
+## 🎯 Trick 1: The "See-Saw Balance" Rule
+
+```
+┌─────────────────────────────────────────────────┐
+│  ⚖️ MNEMONIC: "Average is the BALANCE POINT"    │
+│                                                 │
+│  Think of average as the fulcrum of a see-saw.  │
+│  Total EXCESS above average = Total DEFICIT     │
+│  below average.                                 │
+│                                                 │
+│  USE: If one number is 6 above average, the     │
+│  others must collectively be 6 BELOW it.        │
+│  Never compute the full sum — just balance!     │
+└─────────────────────────────────────────────────┘
+```
+
+---
+
+## 🎯 Trick 2: "New Guy Pays the Bill" (Person Joins/Leaves)
+
+```
+┌─────────────────────────────────────────────────┐
+│  🚪 MNEMONIC: "NEW = OLD + (Change × New Count)"│
+│                                                 │
+│  When a person JOINS and the average rises:     │
+│  New person's value = Old average +             │
+│  (Change in average × New number of members)    │
+│                                                 │
+│  Equivalently: New person's value = New average │
+│  + (Change in average × Old number of members)  │
+│                                                 │
+│  Example: 10 members, avg 20. One joins, avg    │
+│  becomes 22. New person's value = 20 + 2×11     │
+│  = 42.                                          │
+│                                                 │
+│  Memory hook: "The NEWCOMER settles EVERYONE's  │
+│  account — including his own!"                  │
+└─────────────────────────────────────────────────┘
+```
+
+---
+
+## 🎯 Trick 3: "Replacement Ripple" (Person Replaced)
+
+```
+┌─────────────────────────────────────────────────┐
+│  🔄 MNEMONIC: "NEWCOMER = OLD PERSON +          │
+│               (Ripple × Group Size)"            │
+│                                                 │
+│  Age of new person = Age of replaced person +   │
+│  (Increase in average × Number of members)      │
+│                                                 │
+│  Memory hook: "One swap sends a RIPPLE through  │
+│  the WHOLE group — multiply by group size!"     │
+└─────────────────────────────────────────────────┘
+```
+
+---
+
+## 🎯 Trick 4: "AP Shortcut" — Average of Consecutive Numbers
+
+```
+┌─────────────────────────────────────────────────┐
+│  📏 MNEMONIC: "First + Last, Divide by 2 —      │
+│               That's the Average for You!"      │
+│                                                 │
+│  Average of consecutive/equally-spaced numbers  │
+│  = (First term + Last term) / 2                 │
+│                                                 │
+│  For ODD count: average = exact MIDDLE term.    │
+│  Memory hook: "Odd count? Grab the MIDDLE kid!" │
+└─────────────────────────────────────────────────┘
+```
+
+---
+
+## 🎯 Trick 5: "n(n+1) Twins" — Natural Number Averages
+
+```
+┌─────────────────────────────────────────────────┐
+│  🔢 MNEMONIC: "Natural numbers? Just ADD ONE    │
+│               and HALVE it!"                    │
+│                                                 │
+│  Average of first n natural numbers = (n+1)/2   │
+│  Average of first n EVEN numbers = n+1          │
+│  Average of first n ODD numbers = n             │
+│                                                 │
+│  Memory hook: "ODD is honest (just n),          │
+│  EVEN is extra (n+1), NATURAL needs a halve!"   │
+└─────────────────────────────────────────────────┘
+```
+
+---
+
+## 🎯 Trick 6: "Square & Cube Cousins"
+
+```
+┌─────────────────────────────────────────────────┐
+│  🧊 MNEMONIC: "Squares: (n+1)(2n+1)/6 per n     │
+│               Cubes: n(n+1)²/4 per n"           │
+│                                                 │
+│  Avg of squares of first n naturals:            │
+│       (n+1)(2n+1)/6                             │
+│  Avg of cubes of first n naturals:              │
+│       n(n+1)²/4                                 │
+│                                                 │
+│  Memory hook: "SQUARES climb 1-2-6 stairs,      │
+│  CUBES square the (n+1) and quarter the rest!"  │
+└─────────────────────────────────────────────────┘
+```
+
+---
+
+## 🎯 Trick 7: "Speed Trap — Never Average Speeds!"
+
+```
+┌─────────────────────────────────────────────────┐
+│  🚗 MNEMONIC: "Same DISTANCE? Harmonic!         │
+│               Same TIME? Arithmetic!"           │
+│                                                 │
+│  Equal distances at speeds x and y:             │
+│  Average speed = 2xy/(x+y)  ← Harmonic mean     │
+│                                                 │
+│  Memory hook: "DISTANCE Doubles the product,    │
+│  Divides the sum — 2xy over (x+y), chum!"       │
+│  ⚠️ TRAP: (x+y)/2 is the classic WRONG answer!  │
+└─────────────────────────────────────────────────┘
+```
+
+---
+
+## 🎯 Trick 8: "Weighted Average = Tug of War"
+
+```
+┌─────────────────────────────────────────────────┐
+│  🪢 MNEMONIC: "The HEAVIER group PULLS the      │
+│               average toward itself!"           │
+│                                                 │
+│  Combined average always lies CLOSER to the     │
+│  average of the group with MORE members.        │
+│                                                 │
+│  USE: Eliminate options instantly — if 30 boys  │
+│  avg 60 and 10 girls avg 70, combined avg must  │
+│  be between 60 and 65 (closer to boys).         │
+└─────────────────────────────────────────────────┘
+```
+
+---
+
+## 🎯 Trick 9: "Alligation Cross — The X-Move"
+
+```
+┌─────────────────────────────────────────────────┐
+│  ✖️ MNEMONIC: "CROSS-SUBTRACT to get the RATIO" │
+│                                                 │
+│      Avg₁ ──────┐                               │
+│                 ├── Combined Avg                │
+│      Avg₂ ──────┘                               │
+│                                                 │
+│  Ratio of groups = (Avg₂ − Combined) :          │
+│                    (Combined − Avg₁)            │
+│                                                 │
+│  Memory hook: "Draw the X, cross the swords,    │
+│  differences give the hordes (ratio)!"          │
+└─────────────────────────────────────────────────┘
+```
+
+---
+
+## 🎯 Trick 10: "The Cricket Innings Sprint"
+
+```
+┌─────────────────────────────────────────────────┐
+│  🏏 MNEMONIC: "New Avg × New Matches −          │
+│               Old Avg × Old Matches = Score"    │
+│                                                 │
+│  Runs in nth innings = n×(new avg) − (n−1)×(old)│
+│                                                 │
+│  Memory hook: "TOTAL after minus TOTAL before   │
+│  = what you scored at the door!"                │
+└─────────────────────────────────────────────────┘
+```
+
+---
+
+## 🎯 Trick 11: "The ±k Shift Rule"
+
+```
+┌─────────────────────────────────────────────────┐
+│  🛗 MNEMONIC: "Every number rides the SAME      │
+│               elevator — average rides too!"    │
+│                                                 │
+│  If every value increases by k → avg + k        │
+│  If every value × k → avg × k                   │
+│                                                 │
+│  Memory hook: "Whatever you do to ALL,          │
+│  you do to the AVERAGE. No exceptions!"         │
+└─────────────────────────────────────────────────┘
+```
+
+---
+
+## 🎯 Trick 12: "Wrong Entry Detective" (Correction Problems)
+
+```
+┌─────────────────────────────────────────────────┐
+│  🕵️ MNEMONIC: "Fix the SUM, not the average!"   │
+│                                                 │
+│  Correct sum = Wrong sum − Wrong entry +        │
+│                Correct entry                    │
+│  Then divide by count.                          │
+│                                                 │
+│  Memory hook: "Kick out the impostor, welcome   │
+│  the real guest — THEN divide!"                 │
+└─────────────────────────────────────────────────┘
+```
+
+---
+
+## 🎯 Trick 13: "The Deviation Method — Lazy Genius"
+
+```
+┌─────────────────────────────────────────────────┐
+│  😴 MNEMONIC: "Pick a FAKE average, then fix!"  │
+│                                                 │
+│  For big numbers (e.g., 487, 492, 495, 489):    │
+│  Assume avg = 490. Deviations: −3, +2, +5, −1   │
+│  Net = +3 → True avg = 490 + 3/4 = 490.75       │
+│                                                 │
+│  Memory hook: "Be LAZY: assume, deviate,        │
+│  adjust — done in 15 seconds!"                  │
+└─────────────────────────────────────────────────┘
+```
+
+---
+
+## 🎯 Trick 14: "AM ≥ GM ≥ HM — The Bully Order"
+
+```
+┌─────────────────────────────────────────────────┐
+│  👊 MNEMONIC: "A is the Biggest bully,          │
+│               H is the Humblest"                │
+│                                                 │
+│  Arithmetic Mean ≥ Geometric Mean ≥ Harmonic    │
+│  Mean (equality only when all values equal)     │
+│                                                 │
+│  Memory hook: "A-G-H: Alphabetical order =      │
+│  Descending order of size!"                     │
+└─────────────────────────────────────────────────┘
+```
+
+---
+
+## 🎯 Trick 15: "Two-Number Power Pack"
+
+```
+┌─────────────────────────────────────────────────┐
+│  ⚡ MNEMONIC: "For TWO numbers a and b:         │
+│               AM×HM = GM²  →  GM = √(AM×HM)"    │
+│                                                 │
+│  Also: AM = (a+b)/2, GM = √(ab),                │
+│        HM = 2ab/(a+b)                           │
+│                                                 │
+│  Memory hook: "G sits in the MIDDLE —           │
+│  geometrically AND in the formula AM×HM = GM²!" │
+└─────────────────────────────────────────────────┘
+```
+
+---
+
+## 🎯 Trick 16: "The 15-Second Elimination Scan"
+
+```
+┌─────────────────────────────────────────────────┐
+│  ⏱️ MNEMONIC: "Average must live BETWEEN        │
+│               min and max — kill options first!"│
+│                                                 │
+│  Before calculating, check: the answer MUST lie │
+│  between the smallest and largest values.       │
+│  Often 2 of 4 options die instantly.            │
+│                                                 │
+│  Memory hook: "No average escapes the           │
+│  MIN-MAX prison!"                               │
+└─────────────────────────────────────────────────┘
+```

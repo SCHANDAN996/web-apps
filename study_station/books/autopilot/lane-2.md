@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 10:31 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:12 PM
+**आख़िरी update:** 09-10-2026 10:33 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:12 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 Fractions Decimals (Graduation Maths) | ✍️ लिख रहा है | 37 मिनट |
-| W2 | Chapter 12 Time Distance (Graduation Maths) | ✍️ लिख रहा है | 19 मिनट |
-| W3 | Chapter 06 Average (Graduation Maths) | 🔎 review हो रहा है | 29 मिनट |
-| W4 | Chapter 08 Profit Loss (Graduation Maths) | ✍️ लिख रहा है | 102 मिनट |
-| W5 | Chapter 09 Simple Interest (Graduation Maths) | ✍️ लिख रहा है | 86 मिनट |
-| W6 | Chapter 07 Ratio Proportion (Graduation Maths) | ✍️ लिख रहा है | 113 मिनट |
-| W7 | Chapter 11 Time Work (Graduation Maths) | ✍️ लिख रहा है | 29 मिनट |
-| W8 | Chapter 10 Compound Interest (Graduation Maths) | ✍️ लिख रहा है | 31 मिनट |
+| W1 | Chapter 04 Fractions Decimals (Graduation Maths) | ✍️ लिख रहा है | 39 मिनट |
+| W2 | Chapter 12 Time Distance (Graduation Maths) | ✍️ लिख रहा है | 21 मिनट |
+| W3 | Chapter 06 Average (Graduation Maths) | 📤 push हो रहा है | 0 मिनट |
+| W4 | Chapter 08 Profit Loss (Graduation Maths) | ✍️ लिख रहा है | 104 मिनट |
+| W5 | Chapter 09 Simple Interest (Graduation Maths) | ✍️ लिख रहा है | 87 मिनट |
+| W6 | Chapter 07 Ratio Proportion (Graduation Maths) | ✍️ लिख रहा है | 114 मिनट |
+| W7 | Chapter 11 Time Work (Graduation Maths) | ✍️ लिख रहा है | 31 मिनट |
+| W8 | Chapter 10 Compound Interest (Graduation Maths) | ✍️ लिख रहा है | 32 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,6 +37,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 22:33 — Graduation Maths · Chapter 06 Average
 - 09-10 21:05 — Graduation GK · Chapter 28 Advanced Science Tech
 - 09-10 20:48 — Graduation GK · Chapter 27 Budget Economic Survey
 - 09-10 20:38 — Graduation Maths · Chapter 01 Number System Advanced
@@ -55,9 +56,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 22:13:42   [Time_Work] wrote Mind_Map.txt (1621 chars)
-09-10 22:14:04   [Average] review Mind_Map.txt: 2 issue(s): - D1: "सदस्य जुड़ना / Person Joins → औसत बढ़ता है" is incorrect; average may increase, decrease, or stay the same dep
-09-10 22:14:12   [Fractions_Decimals] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 09-10 22:14:23   [Simple_Interest] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 09-10 22:14:29   [Time_Work] wrote Flashcards_en.txt (3848 chars)
 09-10 22:15:17   [Average] review Flashcards_en.txt: 1 issue(s): - Card 2 back shows a garbled list of numbers instead of the correct sum → The sum should be 100 (Average × Coun
@@ -95,4 +93,7 @@
 09-10 22:27:51   [Profit_Loss] Practice_en_Set_06.txt try 2: re-solve disagrees (Q136 key a vs re-solve b)
 09-10 22:30:00   [Simple_Interest] Practice_en_Set_06.txt try 2: rejected (Q129:leaked_reasoning)
 09-10 22:30:35   [Average] review Important_Formulas_en.txt: 1 issue(s): - The second table row is completely corrupted: it merges multiple columns, shows a wrong formula "n(n1)
+09-10 22:32:25   [Profit_Loss] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 22:33:07   [Average] review: 7 section(s) corrected, 0 failed
+09-10 22:33:07   [Average] written 7, failed 0; AI calls today 560/100000
 ```
