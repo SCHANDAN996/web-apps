@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 11:50 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:17 PM
+**आख़िरी update:** 09-10-2026 11:54 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:17 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 16 Statement Conclusion (Graduation Reasoning) | 📤 push हो रहा है | 0 मिनट |
-| W2 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 110 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🔎 review हो रहा है | 2 मिनट |
-| W4 | Chapter 19 Cubes Dice (Graduation Reasoning) | ✍️ लिख रहा है | 194 मिनट |
-| W7 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 87 मिनट |
+| W2 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 113 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🔎 review हो रहा है | 6 मिनट |
+| W4 | Chapter 19 Cubes Dice (Graduation Reasoning) | ✍️ लिख रहा है | 197 मिनट |
+| W7 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 91 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -49,16 +48,11 @@
 - Chapter 12 Missing Term (Reasoning) — 2 बार
 - Chapter 14 Alphabet Questions (Reasoning) — 2 बार
 - Chapter 13 Dictionary Order (Reasoning) — 2 बार
-- Chapter 16 Statement Conclusion (Reasoning) — 1 बार
 - Chapter 07 Sitting Arrangement (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 23:15:42   [Paper_Folding_Cutting] wrote Important_Rules_hi.txt (3809 chars)
-09-10 23:16:23   [Inequality] review Short_Tricks_en.txt: 2 issue(s): - In Mnemonic 4, the rule "the WEAKEST sign in the chain decides the conclusion" is incorrect → In a same-dire
-09-10 23:17:29   [Cubes_Dice] Practice_en_Set_04.txt try 1: rejected (Q84:leaked_reasoning)
-09-10 23:17:30   [Mirror_Water_Images] Practice_en_Set_02.txt try 1: re-solve disagrees (Q33 key d vs re-solve c, Q48 key c vs re-solve a)
 09-10 23:20:48   [Statement_Conclusion] review Flashcards_hi.txt: 2 issue(s): - कार्ड 15 का उदाहरण 'A, B है' और 'A, B नहीं है' व्याकरणिक रूप से गलत है → सही होगा 'A, B हैं' और 'A, B नहीं हैं
 09-10 23:21:15   [Mathematical_Operations] review PYQ_en.txt: 6 issue(s): - Q1 answer (c) 17 is incorrect for the given expression; correct evaluation yields 11 which is not an option → questio
 09-10 23:21:31   [Dictionary_Order] Practice_en_Set_06.txt try 4: re-solve disagrees (Q131 key b vs re-solve d)
@@ -95,4 +89,8 @@
 09-10 23:48:58   [Cubes_Dice] Practice_en_Set_05.txt try 1: rejected (Q125:leaked_reasoning)
 09-10 23:50:35   [Statement_Conclusion] review: 3 section(s) corrected, 0 failed
 09-10 23:50:35   [Statement_Conclusion] written 3, failed 0; AI calls today 503/100000
+09-10 23:50:54 DONE Graduation_Level/Reasoning/Chapter_16_Statement_Conclusion in 62 min → 00bee57e
+09-10 23:50:54 worker 0: nothing left
+09-10 23:50:56   [Cubes_Dice] Practice_en_Set_05.txt try 2: rejected (Q125:leaked_reasoning)
+09-10 23:52:47   [Mirror_Water_Images] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 ```
