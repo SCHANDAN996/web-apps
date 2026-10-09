@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 12:02 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:12 PM
+**आख़िरी update:** 10-10-2026 12:18 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:12 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,12 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 12 Time Distance (Graduation Maths) | ✍️ लिख रहा है | 111 मिनट |
-| W3 | Chapter 13 Mixture Alligation (Graduation Maths) | ✍️ लिख रहा है | 89 मिनट |
-| W5 | Chapter 09 Simple Interest (Graduation Maths) | 🔎 review हो रहा है | 80 मिनट |
-| W6 | Chapter 14 Mensuration (Graduation Maths) | ✍️ लिख रहा है | 57 मिनट |
-| W7 | Chapter 11 Time Work (Graduation Maths) | ✍️ लिख रहा है | 121 मिनट |
-| W8 | Chapter 10 Compound Interest (Graduation Maths) | ✍️ लिख रहा है | 122 मिनट |
+| W2 | Chapter 12 Time Distance (Graduation Maths) | ✍️ लिख रहा है | 126 मिनट |
+| W3 | Chapter 13 Mixture Alligation (Graduation Maths) | ✍️ लिख रहा है | 104 मिनट |
+| W5 | Chapter 09 Simple Interest (Graduation Maths) | 🔎 review हो रहा है | 95 मिनट |
+| W6 | Chapter 14 Mensuration (Graduation Maths) | ✍️ लिख रहा है | 72 मिनट |
+| W7 | Chapter 11 Time Work (Graduation Maths) | ✍️ लिख रहा है | 136 मिनट |
+| W8 | Chapter 10 Compound Interest (Graduation Maths) | ✍️ लिख रहा है | 137 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -55,22 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 23:27:42   [Time_Distance] wrote Important_Formulas_en.txt (3919 chars)
-09-10 23:28:48   [Mensuration] wrote Short_Tricks_hi.txt (8127 chars)
-09-10 23:29:01   [Time_Distance] wrote Important_Formulas_hi.txt (3183 chars)
-09-10 23:29:29   [Mensuration] wrote Important_Formulas_en.txt (4597 chars)
-09-10 23:30:08   [Time_Distance] Practice_en_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 23:30:52   [Mensuration] wrote Important_Formulas_hi.txt (3480 chars)
-09-10 23:30:53   [Fractions_Decimals] review Important_Formulas_hi.txt: 2 issue(s): - दशमलव गुणा के उदाहरण में दशमलव स्थानों की गणना गलत: 0.2 (1 स्थान) और 0.03 (2 स्थान) का योग 3 होना चाहि
-09-10 23:31:47   [Fractions_Decimals] review: 4 section(s) corrected, 1 failed
-09-10 23:31:47   [Fractions_Decimals] written 4, failed 1; AI calls today 681/100000
-09-10 23:31:47 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_04_Fractions_Decimals after 98 min: todo [] problems []
-09-10 23:31:47 worker 0: nothing left
-09-10 23:33:36   [Time_Distance] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 23:33:56   [Mixture_Alligation] Practice_en_Set_02.txt try 3: re-solve disagrees (Q30 key c vs re-solve ?)
-09-10 23:36:14   [Time_Distance] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-09-10 23:37:38   [Mensuration] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 23:37:51   [Simple_Interest] FAILED review Feynman_hi.txt: too_long — the chapter must not be published unreviewed
 09-10 23:38:44   [Mixture_Alligation] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 09-10 23:39:40   [Mixture_Alligation] Practice_hi_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
 09-10 23:39:54   [Mensuration] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
@@ -95,4 +79,20 @@
 10-10 00:00:51   [Time_Distance] FAILED Practice_en_Set_03.txt: too_long
 10-10 00:00:51   [Time_Distance] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
 10-10 00:01:11   [Compound_Interest] Practice_en_Set_04.txt try 1: re-solve disagrees (Q98 key c vs re-solve ?)
+10-10 00:03:07   [Time_Work] Practice_en_Set_03.txt try 2: re-solve disagrees (Q56 key a vs re-solve b)
+10-10 00:03:42   [Mensuration] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+10-10 00:03:45   [Time_Distance] Practice_en_Set_04.txt try 1: rejected (Q83:leaked_reasoning,Q95:leaked_reasoning,Q97:leaked_reasoning)
+10-10 00:04:35   [Simple_Interest] review Short_Tricks_hi.txt: 2 issue(s): - Trick 13: Invented exam statistic "90% सवाल" without source/year → Remove or replace with a non-quantitative
+10-10 00:06:00   [Mensuration] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+10-10 00:06:23   [Mixture_Alligation] Practice_en_Set_04.txt try 2: re-solve disagrees (Q77 key a vs re-solve ?, Q85 key a vs re-solve b)
+10-10 00:07:43   [Compound_Interest] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+10-10 00:09:38   [Compound_Interest] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+10-10 00:11:09   [Mixture_Alligation] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+10-10 00:11:49   [Mixture_Alligation] Practice_hi_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 00:12:05   [Time_Distance] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+10-10 00:14:08   [Simple_Interest] review Important_Formulas_en.txt: 1 issue(s): - Annual instalment formula incorrectly includes "T" → x = 100D / [100n + R·n(n−1)/2]
+10-10 00:14:54   [Mensuration] Practice_en_Set_04.txt try 1: re-solve disagrees (Q84 key a vs re-solve c, Q94 key d vs re-solve b)
+10-10 00:15:29   [Time_Distance] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+10-10 00:16:19   [Compound_Interest] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+10-10 00:16:53   [Time_Work] Practice_en_Set_03.txt try 3: re-solve disagrees (Q56 key a vs re-solve d)
 ```
