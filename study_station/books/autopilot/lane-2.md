@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 02:41 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:38 AM
+**आख़िरी update:** 10-10-2026 02:56 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:38 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Time Work (Graduation Maths) | ✍️ लिख रहा है | 18 मिनट |
-| W2 | Chapter 15 Geometry (Graduation Maths) | ✍️ लिख रहा है | 87 मिनट |
-| W3 | Chapter 21 Complex Numbers (Graduation Maths) | ✍️ लिख रहा है | 9 मिनट |
-| W4 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 29 मिनट |
-| W5 | Chapter 18 Quadratic Equations (Graduation Maths) | ✍️ लिख रहा है | 43 मिनट |
-| W6 | Chapter 17 Algebra (Graduation Maths) | ✍️ लिख रहा है | 65 मिनट |
-| W7 | Chapter 16 Coordinate Geometry (Graduation Maths) | ✍️ लिख रहा है | 81 मिनट |
-| W8 | Chapter 20 Heights Distances (Graduation Maths) | ✍️ लिख रहा है | 22 मिनट |
+| W1 | Chapter 11 Time Work (Graduation Maths) | 🔎 review हो रहा है | 14 मिनट |
+| W2 | Chapter 15 Geometry (Graduation Maths) | ✍️ लिख रहा है | 3 मिनट |
+| W3 | Chapter 21 Complex Numbers (Graduation Maths) | ✍️ लिख रहा है | 24 मिनट |
+| W4 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 44 मिनट |
+| W5 | Chapter 18 Quadratic Equations (Graduation Maths) | ✍️ लिख रहा है | 59 मिनट |
+| W6 | Chapter 17 Algebra (Graduation Maths) | ✍️ लिख रहा है | 81 मिनट |
+| W7 | Chapter 16 Coordinate Geometry (Graduation Maths) | ✍️ लिख रहा है | 96 मिनट |
+| W8 | Chapter 20 Heights Distances (Graduation Maths) | ✍️ लिख रहा है | 37 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -25,15 +25,15 @@
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 20 | 2 | 0 |
 | 10th English | 17 | 0 | 3 |
-| 12th Maths | 12 | 0 | 11 |
+| 12th Maths | 13 | 0 | 10 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 10 | 0 | 15 |
 | 12th English | 25 | 0 | 0 |
-| Graduation Maths | 11 | 1 | 16 |
+| Graduation Maths | 12 | 1 | 15 |
 | Graduation GK | 27 | 1 | 0 |
 | Graduation Reasoning | 13 | 0 | 17 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **227** | **4** | **65** |
+| **कुल** | **229** | **4** | **63** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -52,48 +52,49 @@
 - Chapter 05 Percentage (Maths) — 2 बार
 - Chapter 13 Mixture Alligation (Maths) — 2 बार
 - Chapter 11 Time Work (Maths) — 1 बार
+- Chapter 15 Geometry (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 02:27:50   [Geometry] FAILED Practice_en_Set_04.txt: too_long
-10-10 02:27:50   [Geometry] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
-10-10 02:28:01   [Algebra] Practice_en_Set_04.txt try 3: rejected (Q94:leaked_reasoning,Q98:leaked_reasoning)
-10-10 02:28:33   [Coordinate_Geometry] Practice_en_Set_02.txt try 2: re-solve disagrees (Q49 key a vs re-solve ?)
-10-10 02:28:39   [Heights_Distances] wrote PYQ_en.txt (9020 chars)
-10-10 02:29:13   [Trigonometry] Content_hi.txt try 1: rejected (corrupted characters)
-10-10 02:29:53   [Algebra] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-10-10 02:30:36   [Mensuration] review Important_Formulas_hi.txt: 1 issue(s): - पथ (चारों ओर अंदर) का सूत्र केवल आंतरिक आयत का क्षेत्रफल देता है, पथ का नहीं → सही सूत्र: lb − (l−2w)(
-10-10 02:31:12   [Heights_Distances] wrote PYQ_hi.txt (8684 chars)
-10-10 02:31:24   [Algebra] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-10-10 02:31:27   [Trigonometry] wrote Content_hi.txt (6641 chars)
-10-10 02:31:42   [Coordinate_Geometry] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-10-10 02:31:46   [Mensuration] review: 2 section(s) corrected, 0 failed
-10-10 02:31:46   [Mensuration] written 2, failed 0; AI calls today 370/100000
-10-10 02:32:06 DONE Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_14_Mensuration in 36 min → 3c573873
-10-10 02:32:07   [Quadratic_Equations] PYQ_hi.txt try 1: answer too long — asking for a tighter version
-10-10 02:32:10 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_21_Complex_Numbers (TODO: todo 25, problems 0)
-10-10 02:32:55   [Trigonometry] wrote Feynman_en.txt (6805 chars)
-10-10 02:33:37   [Coordinate_Geometry] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-10-10 02:33:56   [Complex_Numbers] wrote Content_en.txt (10111 chars)
-10-10 02:34:06   [Algebra] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-10-10 02:34:09   [Quadratic_Equations] wrote PYQ_hi.txt (6327 chars)
-10-10 02:34:14   [Quadratic_Equations] Short_Tricks_en.txt try 1: rejected (too short)
-10-10 02:34:24   [Time_Work] Practice_en_Set_06.txt try 1: re-solve disagrees (Q126 key a vs re-solve b, Q139 key c vs re-solve d, Q143 key b vs re-solve ?)
-10-10 02:34:28   [Trigonometry] wrote Feynman_hi.txt (4000 chars)
-10-10 02:34:39   [Quadratic_Equations] Short_Tricks_en.txt try 2: rejected (too short)
-10-10 02:34:39   [Quadratic_Equations] REJECTED Short_Tricks_en.txt: too short — not written
-10-10 02:34:53   [Trigonometry] wrote Mind_Map.txt (1950 chars)
-10-10 02:36:25   [Quadratic_Equations] wrote Short_Tricks_hi.txt (6377 chars)
-10-10 02:36:59   [Quadratic_Equations] wrote Important_Formulas_en.txt (3999 chars)
-10-10 02:37:17   [Trigonometry] wrote Flashcards_en.txt (2011 chars)
-10-10 02:37:46   [Quadratic_Equations] wrote Important_Formulas_hi.txt (3485 chars)
-10-10 02:37:49   [Trigonometry] wrote Flashcards_hi.txt (1911 chars)
-10-10 02:39:13   [Trigonometry] wrote PYQ_en.txt (7473 chars)
-10-10 02:39:15   [Time_Work] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-10-10 02:39:46   [Coordinate_Geometry] Practice_en_Set_03.txt try 1: re-solve disagrees (Q66 key a vs re-solve ?)
-10-10 02:40:19   [Complex_Numbers] wrote Content_hi.txt (8162 chars)
-10-10 02:40:57   [Trigonometry] wrote PYQ_hi.txt (6747 chars)
-10-10 02:41:17   [Complex_Numbers] Feynman_en.txt try 1: rejected (chat debris "Here's the")
-10-10 02:41:45   [Complex_Numbers] wrote Feynman_en.txt (2482 chars)
+10-10 02:43:57   [Heights_Distances] wrote Short_Tricks_en.txt (5560 chars)
+10-10 02:44:08   [Coordinate_Geometry] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+10-10 02:44:21   [Trigonometry] wrote Important_Formulas_en.txt (480 chars)
+10-10 02:45:14   [Trigonometry] wrote Important_Formulas_hi.txt (4221 chars)
+10-10 02:45:16   [Complex_Numbers] wrote Flashcards_en.txt (3543 chars)
+10-10 02:45:18   [Heights_Distances] wrote Short_Tricks_hi.txt (6201 chars)
+10-10 02:45:35   [Heights_Distances] wrote Important_Formulas_en.txt (2307 chars)
+10-10 02:45:35   [Coordinate_Geometry] Practice_en_Set_04.txt try 1: rejected (Q90:leaked_reasoning)
+10-10 02:45:58   [Geometry] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+10-10 02:46:08   [Complex_Numbers] wrote Flashcards_hi.txt (3027 chars)
+10-10 02:46:09   [Heights_Distances] wrote Important_Formulas_hi.txt (2763 chars)
+10-10 02:46:34   [Quadratic_Equations] Practice_en_Set_01.txt try 1: re-solve disagrees (Q15 key d vs re-solve b)
+10-10 02:46:46   [Trigonometry] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+10-10 02:46:48   [Trigonometry] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 02:47:20   [Trigonometry] Practice_hi_Set_01.txt try 2: rejected (parsed 0 questions, numbers -…-)
+10-10 02:47:24   [Complex_Numbers] wrote PYQ_en.txt (7152 chars)
+10-10 02:48:03   [Geometry] Practice_en_Set_06.txt try 1: rejected (parsed 24 questions, numbers 126…150)
+10-10 02:48:12   [Quadratic_Equations] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+10-10 02:48:20   [Heights_Distances] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+10-10 02:49:04   [Complex_Numbers] wrote PYQ_hi.txt (5115 chars)
+10-10 02:49:46   [Time_Work] review PYQ_en.txt: 1 issue(s): - Q9: The question "5 men or 8 women can do a work in 24 days. In how many days can 3 men and 4 women do it?" with opti
+10-10 02:49:48   [Complex_Numbers] wrote Short_Tricks_en.txt (4924 chars)
+10-10 02:50:35   [Heights_Distances] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+10-10 02:50:35   [Quadratic_Equations] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+10-10 02:50:43   [Geometry] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+10-10 02:51:25   [Time_Work] review PYQ_hi.txt: 3 issue(s): - Question 2 answer line says (b) 12 days but solution correctly calculates 18 days → Correct answer is (d) 18 days
+10-10 02:52:30   [Heights_Distances] Practice_en_Set_02.txt try 1: rejected (Q35:leaked_reasoning)
+10-10 02:52:54   [Geometry] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+10-10 02:52:54   [Geometry] written 20, failed 5; AI calls today 446/100000
+10-10 02:52:54 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_15_Geometry after 98 min: todo ['Feynman_en.txt', 'Set 03 en: todo', 'Set 03 hi: todo', 'Set 04 en: todo'] problems ['Content_hi.txt: Hindi file is mostly not in Hindi', 'Feynman_hi.txt: Hindi file is mostly not in Hindi', 'Short_Tricks_hi.txt: Hindi file is mostly not in Hindi']
+10-10 02:52:57 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_15_Geometry (TODO: todo 5, problems 3)
+10-10 02:53:00   [Algebra] FAILED Practice_hi_Set_05.txt: too_long
+10-10 02:53:11   [Quadratic_Equations] Practice_en_Set_02.txt try 1: rejected (Q27:leaked_reasoning,Q41:leaked_reasoning)
+10-10 02:53:27   [Heights_Distances] Practice_en_Set_02.txt try 2: rejected (parsed 0 questions, numbers -…-)
+10-10 02:53:29   [Geometry] Feynman_en.txt try 1: rejected (chat debris "Here's your")
+10-10 02:53:56   [Geometry] Feynman_en.txt try 2: rejected (chat debris "Here's the")
+10-10 02:53:56   [Geometry] REJECTED Feynman_en.txt: chat debris "Here's the" — not written
+10-10 02:56:03   [Algebra] Practice_en_Set_06.txt try 1: re-solve disagrees (Q146 key c vs re-solve d)
+10-10 02:56:24   [Algebra] Practice_en_Set_06.txt try 2: rejected (parsed 0 questions, numbers -…-)
+10-10 02:56:28   [Time_Work] review Short_Tricks_en.txt: 1 issue(s): - The claim "90% of Time & Work problems collapse once you list per-day work" is an invented statistic with no
 ```
