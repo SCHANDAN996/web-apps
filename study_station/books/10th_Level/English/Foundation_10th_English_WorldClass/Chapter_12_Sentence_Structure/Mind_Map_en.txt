@@ -1,0 +1,40 @@
+```mermaid
+graph TD
+    A["Sentence Structure"] --> B["Basic Elements"]
+    A --> C["Types of Sentences"]
+    A --> D["Subject-Verb Agreement"]
+    A --> E["Examiner's Traps"]
+    A --> F["Strategies"]
+
+    B --> B1["Subject = Who/What"]
+    B --> B2["Verb = Action/State"]
+    B --> B3["Object = Receiver of action"]
+    B --> B4["Golden Rule:<br>No finite verb = No sentence"]
+
+    C --> C1["By Function"]
+    C --> C2["By Structure"]
+    C1 --> C1a["Declarative - states"]
+    C1 --> C1b["Interrogative - asks"]
+    C1 --> C1c["Imperative - commands"]
+    C1 --> C1d["Exclamatory - exclaims"]
+    C2 --> C2a["Simple = 1 clause"]
+    C2 --> C2b["Compound = 2 independent<br>+ FANBOYS"]
+    C2 --> C2c["Complex = 1 independent<br>+ 1 dependent"]
+    C2 --> C2d["Compound-Complex"]
+
+    D --> D1["Singular subject + singular verb"]
+    D --> D2["Plural subject + plural verb"]
+    D --> D3["Each/Every/Everyone = Singular"]
+    D --> D4["And = Plural | Or/Nor = nearest subject"]
+    D --> D5["Collective nouns = usually singular"]
+
+    E --> E1["Intervening Phrase Trap:<br>'The box of apples IS...'"]
+    E --> E2["Sound-Right Trap:<br>'What you are doing?' ❌"]
+    E --> E3["Collective Noun Trap:<br>'The team ARE...' ❌"]
+    E --> E4["Over-thinking Trap:<br>Simple rule, don't doubt"]
+
+    F --> F1["Attempt First:<br>Direct agreement questions<br>are quick wins"]
+    F --> F2["Take More Care:<br>Complex error-spotting<br>needs full reading"]
+    F --> F3["Find subject first,<br>then match the verb"]
+    F --> F4["Skip Strategy:<br>Long confusing sentence?<br>Mark & return later"]
+```

@@ -1,0 +1,39 @@
+```mermaid
+graph TD
+    A["वाक्य संरचना<br>Sentence Structure"] --> B["वाक्य के अंग<br>Parts of Sentence"]
+    A --> C["वाक्य के प्रकार<br>Types of Sentences"]
+    A --> D["प्रमुख स्वर्ण नियम<br>Golden Rules"]
+    A --> E["परीक्षक के जाल<br>Examiner Traps"]
+    A --> F["रणनीति<br>Strategy"]
+
+    B --> B1["कर्ता Subject<br>कौन/क्या"]
+    B --> B2["क्रिया Verb<br>क्रिया/स्थिति"]
+    B --> B3["कर्म Object<br>किसको/क्या"]
+    B --> B4["पूरक Complement<br>कर्ता/कर्म की पूरी जानकारी"]
+    B1 --> B5["Subject-Verb Agreement<br>एकवचन कर्ता = एकवचन क्रिया"]
+
+    C --> C1["संरचना के आधार पर"]
+    C1 --> C2["Simple<br>1 स्वतंत्र उपवाक्य"]
+    C1 --> C3["Compound<br>2+ स्वतंत्र + FANBOYS"]
+    C1 --> C4["Complex<br>1 स्वतंत्र + 1 आश्रित"]
+    C1 --> C5["Compound-Complex<br>2 स्वतंत्र + 1 आश्रित"]
+    C --> C6["अर्थ के आधार पर"]
+    C6 --> C7["Assertive / Interrogative<br>Imperative / Exclamatory"]
+
+    D --> D1["Intervening Phrase में<br>क्रिया मुख्य कर्ता से मेल खाए"]
+    D --> D2["Each/Every/Everyone<br>= एकवचन क्रिया"]
+    D --> D3["Either...or / Neither...nor<br>क्रिया निकटतम कर्ता के अनुसार"]
+    D --> D4["Collective Noun<br>एक इकाई = एकवचन"]
+    D --> D5["There is/are<br>क्रिया बाद वाले संज्ञा से"]
+    D --> D6["प्रश्न में Inversion<br>What are you doing?"]
+
+    E --> E1["Intervening Phrase जाल<br>The box of apples IS"]
+    E --> E2["Sound-Right जाल<br>सुनने में सही, नियम में गलत"]
+    E --> E3["हिंदी अनुवाद जाल<br>What you are doing? ✗"]
+    E --> E4["Over-thinking जाल<br>सरल उत्तर पर संदेह"]
+
+    F --> F1["15 सेकंड नियम<br>तथ्यात्मक प्रश्न"]
+    F --> F2["45 सेकंड नियम<br>तार्किक/त्रुटि प्रश्न"]
+    F --> F3["Skip Strategy<br>2 बार पढ़कर भी संदेह = छोड़ो"]
+    F --> F4["म्नेमोनिक<br>FANBOYS = समुच्चयबोधक"]
+```
