@@ -1,0 +1,137 @@
+# 📊 PYQ Analysis — Inequality (Advanced Level)
+
+## 1. How Exams Ask Questions from This Chapter
+
+Inequality is one of the most **reliable, high-frequency** chapters in the reasoning section of SSC CGL, IBPS PO/Clerk, SBI PO, RRB NTPC and State PCS prelims. It appears in **every single shift** of banking exams and in most shifts of SSC CGL Tier-I. The questions are almost always of two families:
+
+**Family A — Direct Symbol Questions (Coded Inequality):**
+A statement like `P > Q ≥ R = S < T` is given, followed by two conclusions (I and II). You must decide which conclusion(s) definitely follow. Options are typically:
+(a) Only I follows (b) Only II follows (c) Either I or II follows (d) Neither I nor II follows (e) Both follow
+
+**Family B — Symbol-Substitution Questions:**
+The symbols are redefined, e.g., "A @ B means A > B, A # B means A < B, A $ B means A = B". You must decode and then evaluate conclusions. This family is more common in IBPS/SBI PO; SSC prefers Family A.
+
+## 2. Sub-Topics That Repeat Most Often
+
+- **Two-conclusion format** with the standard five options — the single most repeated pattern.
+- **"Either–Or" cases** — the biggest trap area. Examiners love pairs like `P ≥ Q` and `P < Q` where students forget the three conditions of a valid either-or (same elements, complementary conclusions, neither individually definite).
+- **Mixed chains with a break** — e.g., `A > B ≥ C < D ≤ E` — where the sign reversal between C and D kills any definite relation between A and E. Students who "join the chain blindly" fall for it.
+- **≥ and ≤ handling** — conclusions using strict `>` when only `≥` is established (and vice versa). This is the examiner's favourite "almost-correct" trap.
+- **Coded symbols (@, #, $, %, &)** — decoding errors under time pressure.
+
+## 3. Exam-Wise Tendencies (in words, not numbers)
+
+- **IBPS PO / SBI PO (Prelims):** Inequality appears as a compact block of 3–5 questions, usually Family A with occasional coded versions. Speed matters most here — these are "free marks" if the rules are internalised.
+- **IBPS Clerk / RRB Clerk:** Slightly simpler chains, but the either-or trap still appears.
+- **SSC CGL / CHSL:** Usually 1–2 questions, direct symbols, shorter chains. The trap is the ≥ vs > confusion rather than long chains.
+- **RRB NTPC / State PCS:** Basic direct questions; rarely coded. A student who masters the core rules clears these comfortably.
+
+## 4. Examiner's Psychological Traps (How They Hook You)
+
+1. **The "chain-joining" illusion:** A long statement *feels* like everything is connected. The moment a `<` meets a `>` (sign reversal), the chain breaks — but under pressure the brain auto-connects the endpoints.
+2. **The "almost-true" conclusion:** `P ≥ Q` is given; the conclusion says `P > Q`. It looks right, feels right — and is wrong, because equality is possible.
+3. **The fake either-or:** Two conclusions look complementary but involve different elements, or one of them is already definitely true. A real either-or needs **both** conclusions to be individually indefinite.
+4. **The reverse-reading trap:** Conclusions written as `Q < P` when the statement gives `P > Q`. Same fact, reversed presentation — students mark "does not follow" out of haste.
+5. **Symbol fatigue in coded questions:** After decoding `@ # $ %`, the brain slips back to reading them as normal symbols mid-solution.
+
+## 5. High-Yield PYQ-Style Questions with Solutions
+
+*(Source: PYQ-style — representative of patterns repeatedly seen in SSC/Bank papers; not verbatim from any official key.)*
+
+---
+
+**Q1.** Statement: `M > N ≥ O = P < Q`
+Conclusions: I. `M > O`  II. `N ≥ P`
+
+**Answer:** Both I and II follow.
+**Solution:** M > N ≥ O gives M > O (strict sign dominates) → I true. N ≥ O = P gives N ≥ P → II true.
+**Trap:** Students doubt II because of the `=` in the middle — but `O = P` lets the `≥` pass through cleanly.
+
+---
+
+**Q2.** Statement: `A ≥ B = C > D`
+Conclusions: I. `A > D`  II. `A = D`
+
+**Answer:** Only I follows.
+**Solution:** A ≥ B = C > D ⇒ A > D (since A ≥ C and C > D forces A > D). So I is definite; II is impossible.
+**Trap:** This is a **fake either-or** — I and II look complementary, but I is *definitely* true, so "either-or" does not apply. Examiners count on students reflexively marking option (c).
+
+---
+
+**Q3.** Statement: `P ≤ Q < R ≥ S`
+Conclusions: I. `P < R`  II. `Q > S`
+
+**Answer:** Only I follows.
+**Solution:** P ≤ Q < R ⇒ P < R → I true. Between Q and S the chain breaks at `R ≥ S` (sign reversal), so II is not definite.
+**Trap:** The chain-joining illusion — Q < R and R ≥ S *feel* connected, but no relation between Q and S can be fixed.
+
+---
+
+**Q4.** Statement: `X ≥ Y > Z`
+Conclusions: I. `X > Z`  II. `X = Z`
+
+**Answer:** Only I follows.
+**Solution:** X ≥ Y > Z forces X > Z. II is impossible.
+**Trap:** Same fake either-or pattern as Q2 — a repeated examiner favourite.
+
+---
+
+**Q5.** Statement: `K < L ≤ M = N`
+Conclusions: I. `K < N`  II. `L ≤ N`
+
+**Answer:** Both follow.
+**Solution:** K < L ≤ M = N ⇒ K < N (I true). L ≤ M = N ⇒ L ≤ N (II true).
+**Trap:** None major — this is the "free mark" pattern; solve it in under 15 seconds and bank the time.
+
+---
+
+**Q6.** Statement: `E > F ≥ G; G ≤ H < I`
+Conclusions: I. `E > H`  II. `F ≥ G`
+
+**Answer:** Only II follows.
+**Solution:** Between E and H the chain breaks (F ≥ G ≤ H — reversal), so I is not definite. II is directly given.
+**Trap:** Two-statement format tempts students to merge everything into one chain. Merge only where the shared element allows it.
+
+---
+
+**Q7.** Statement: `R ≥ S > T`
+Conclusions: I. `R > T`  II. `S ≤ R`
+
+**Answer:** Both follow.
+**Solution:** R ≥ S > T ⇒ R > T (I true). R ≥ S is the same as S ≤ R (II true).
+**Trap:** Reverse-reading trap — II is just the statement flipped; hasty students reject it.
+
+---
+
+**Q8.** Statement: `U > V ≥ W < X ≤ Y`
+Conclusions: I. `U > W`  II. `V < Y`
+
+**Answer:** Only I follows.
+**Solution:** U > V ≥ W ⇒ U > W (I true). V to Y path breaks at W < X (reversal) → II not definite.
+**Trap:** Long chains create false confidence; only the first segment is usable.
+
+---
+
+**Q9.** Statement: `C ≥ D; D = E > F`
+Conclusions: I. `C > F`  II. `C = F`
+
+**Answer:** Only I follows.
+**Solution:** C ≥ D = E > F ⇒ C > F. II impossible.
+**Trap:** Third appearance of the fake either-or in this list — that is how often examiners reuse it.
+
+---
+
+**Q10.** Statement: `G < H ≤ I = J > K`
+Conclusions: I. `G < J`  II. `H ≤ J`
+
+**Answer:** Both follow.
+**Solution:** G < H ≤ I = J ⇒ G < J (I true). H ≤ I = J ⇒ H ≤ J (II true).
+**Trap:** The `J > K` tail is a distractor — irrelevant to both conclusions. Examiners add dead ends to waste your seconds.
+
+## 6. The 15-Second / 45-Second Rule — Reviewed for This Chapter
+
+- **15-second questions (attempt instantly):** Single-chain statements with no sign reversal and direct conclusions — e.g., **Q5 and Q10** above. Read, trace, mark. These are the fastest marks in the entire reasoning section.
+- **45-second questions (attempt with care):** Two-statement formats, coded symbols, or any either-or candidate — e.g., **Q6**. Decode/merge carefully; verify the three either-or conditions before marking option (c).
+- **Skip candidates:** In this chapter, a true "skip" is rare because every question is rule-based. The only genuine skip case is a **coded-symbol question with 5+ redefined symbols appearing late in the paper when under 2 minutes remain** — the decoding cost outweighs one mark. **Q2/Q4/Q9-type fake either-or questions should NOT be skipped** — they look tricky but fall in 20 seconds once you know the pattern.
+
+**Bottom line:** Inequality is a "banker chapter" — near-guaranteed presence, near-guaranteed marks. Master the sign-reversal break, the ≥/> distinction, and the three either-or conditions, and this chapter converts into pure time profit.

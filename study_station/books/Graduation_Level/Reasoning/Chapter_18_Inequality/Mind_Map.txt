@@ -1,0 +1,39 @@
+```mermaid
+graph TD
+    A["असमानता / Inequality"] --> B["मूल चिह्न<br>Basic Symbols"]
+    A --> C["प्रकार<br>Types"]
+    A --> D["हल करने की रणनीति<br>Strategies"]
+    A --> E["समय प्रबंधन<br>Time Management"]
+    A --> F["परीक्षक के जाल<br>Common Traps"]
+
+    B --> B1["'&gt;' बड़ा / Greater than"]
+    B --> B2["'&lt;' छोटा / Less than"]
+    B --> B3["'≥' बड़ा या बराबर<br>Greater or equal"]
+    B --> B4["'≤' छोटा या बराबर<br>Less or equal"]
+    B --> B5["'=' बराबर / Equal"]
+    B --> B6["'≠' बराबर नहीं<br>Not equal"]
+
+    C --> C1["प्रत्यक्ष असमानता<br>Direct Inequality<br>(A &gt; B ≥ C)"]
+    C --> C2["कोडित असमानता<br>Coded Inequality<br>(@, #, $, %, &amp;)"]
+    C --> C3["मात्रात्मक तुलना<br>Quantity Comparison<br>(Qty I vs Qty II)"]
+    C --> C4["निष्कर्ष-आधारित<br>Conclusion-based<br>(कथन → निष्कर्ष I/II)"]
+
+    D --> D1["शृंखला जोड़ना<br>Chain Linking<br>(समान चिह्न मिलाएँ)"]
+    D --> D2["समान तत्व खोजें<br>Find Common Element"]
+    D --> D3["विपरीत चिह्न = संबंध अनिश्चित<br>Opposite signs → No relation"]
+    D --> D4["Either-Or जाँच<br>Either-Or Check<br>(दोनों निष्कर्ष गलत + पूरक युग्म)"]
+    D --> D5["कोडित: पहले डिकोड करें<br>Decode symbols first"]
+
+    E --> E1["प्रत्यक्ष: 20–30 सेकंड<br>Direct: 20–30 sec"]
+    E --> E2["कोडित: 40–60 सेकंड<br>Coded: 40–60 sec"]
+    E --> E3["मात्रात्मक: 60–90 सेकंड<br>Quantity: 60–90 sec"]
+    E --> E4["पहले आसान सेट हल करें<br>Easy sets first"]
+    E --> E5["अटकने पर छोड़ें<br>Skip if stuck &gt; 90 sec"]
+
+    F --> F1["≥ को &gt; समझ लेना<br>Confusing ≥ with &gt;"]
+    F --> F2["विपरीत चिह्नों में जबरन निष्कर्ष<br>Forcing conclusion across opposite signs"]
+    F --> F3["Either-Or की शर्तें भूलना<br>Missing Either-Or conditions"]
+    F --> F4["कोड का गलत अर्थ<br>Wrong symbol decoding"]
+    F --> F5["'निश्चित रूप से सत्य' vs 'संभव'<br>Definite vs Possible conclusion"]
+    F --> F6["दोनों निष्कर्ष एक साथ गलत हो सकते हैं<br>Both conclusions can be false"]
+```

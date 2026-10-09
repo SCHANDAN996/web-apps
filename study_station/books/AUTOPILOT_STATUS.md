@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 11:23 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:17 PM
+**आख़िरी update:** 09-10-2026 11:31 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:17 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,13 +8,13 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 16 Statement Conclusion (Graduation Reasoning) | 🔎 review हो रहा है | 16 मिनट |
-| W2 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 83 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 30 मिनट |
-| W4 | Chapter 19 Cubes Dice (Graduation Reasoning) | ✍️ लिख रहा है | 167 मिनट |
-| W5 | Chapter 18 Inequality (Graduation Reasoning) | 🔎 review हो रहा है | 41 मिनट |
-| W7 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 60 मिनट |
-| W8 | Chapter 15 Mathematical Operations (Graduation Reasoning) | 🔎 review हो रहा है | 33 मिनट |
+| W1 | Chapter 16 Statement Conclusion (Graduation Reasoning) | 🔎 review हो रहा है | 24 मिनट |
+| W2 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 90 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 38 मिनट |
+| W4 | Chapter 19 Cubes Dice (Graduation Reasoning) | ✍️ लिख रहा है | 174 मिनट |
+| W5 | Chapter 18 Inequality (Graduation Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W7 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 68 मिनट |
+| W8 | Chapter 15 Mathematical Operations (Graduation Reasoning) | 🔎 review हो रहा है | 40 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -38,6 +38,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 23:31 — Graduation Reasoning · Chapter 18 Inequality
 - 09-10 21:59 — Graduation Reasoning · Chapter 17 Course of Action
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
@@ -56,11 +57,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 22:56:29   [Dictionary_Order] Practice_en_Set_06.txt try 1: rejected (Q127:leaked_reasoning,Q128:leaked_reasoning,Q141:leaked_reasoning,Q144:leaked_reasoning)
-09-10 22:56:35   [Statement_Conclusion] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 22:57:07   [Paper_Folding_Cutting] Mind_Map.txt try 1: answer too long — asking for a tighter version
-09-10 22:57:36   [Mathematical_Operations] review Content_en.txt: 2 issue(s): - In Chunk 1, the instruction "Division first: `2 ÷ 3 = 2/3`" incorrectly states that division precedes multiplicat
-09-10 22:58:02   [Paper_Folding_Cutting] wrote Mind_Map.txt (2372 chars)
 09-10 23:00:03   [Mirror_Water_Images] Practice_hi_Set_01.txt try 1: rejected (parsed 3 questions, numbers 1…3)
 09-10 23:00:13   [Statement_Conclusion] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 09-10 23:00:54   [Paper_Folding_Cutting] wrote Flashcards_en.txt (4451 chars)
@@ -96,4 +92,9 @@
 09-10 23:21:31   [Dictionary_Order] written 2, failed 6; AI calls today 467/100000
 09-10 23:21:31 NOT OK Graduation_Level/Reasoning/Chapter_13_Dictionary_Order after 67 min: todo ['Set 03 en: todo', 'Set 03 hi: todo', 'Set 04 en: todo', 'Set 04 hi: todo'] problems []
 09-10 23:21:31 worker 5: nothing left
+09-10 23:28:36   [Mathematical_Operations] review PYQ_hi.txt: 8 issue(s): - प्रश्न 1 का उत्तर (b) 42 गलत है; प्रतिस्थापन के बाद व्यंजक `15 × 3 + 2 ÷ 5 − 4` का मान 41.4 आता है (या गणना में 38), 
+09-10 23:29:15   [Inequality] review Important_Rules_hi.txt: 2 issue(s): - In 1.3 “≥ निष्कर्ष की जाँच” the rule states “A ≥ C तभी सत्य जब A > C संभव हो और A = C भी संभव हो” which i
+09-10 23:30:49   [Statement_Conclusion] review PYQ_hi.txt: 3 issue(s): - Question 3: The answer given is (a) केवल I, but from “नियमित अभ्यास आवश्यक है” (necessary condition) the contrapositi
+09-10 23:31:00   [Inequality] review: 6 section(s) corrected, 0 failed
+09-10 23:31:00   [Inequality] written 6, failed 0; AI calls today 476/100000
 ```
