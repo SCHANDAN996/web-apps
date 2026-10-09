@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 09-10-2026 07:44 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
+**आख़िरी update:** 09-10-2026 07:51 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Time Work (10th Maths) | 🔧 सुधार रहा है | 20 मिनट |
-| W2 | Chapter 10 Compound Interest (10th Maths) | 🔧 सुधार रहा है | 31 मिनट |
-| W3 | Chapter 20 Sentence Improvement Basic (10th English) | ✍️ लिख रहा है | 40 मिनट |
-| W4 | Chapter 18 Error Spotting Basic (10th English) | 🔎 review हो रहा है | 14 मिनट |
-| W5 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 13 मिनट |
-| W6 | Chapter 12 Time Distance (10th Maths) | 🔧 सुधार रहा है | 15 मिनट |
-| W7 | Chapter 14 Mensuration (10th Maths) | 🔧 सुधार रहा है | 11 मिनट |
-| W8 | Chapter 17 Spelling (10th English) | 🔎 review हो रहा है | 53 मिनट |
+| W1 | Chapter 11 Time Work (10th Maths) | 🔧 सुधार रहा है | 27 मिनट |
+| W2 | Chapter 10 Compound Interest (10th Maths) | 🔧 सुधार रहा है | 38 मिनट |
+| W3 | Chapter 20 Sentence Improvement Basic (10th English) | ✍️ लिख रहा है | 47 मिनट |
+| W4 | Chapter 18 Error Spotting Basic (10th English) | 🔎 review हो रहा है | 21 मिनट |
+| W5 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 20 मिनट |
+| W6 | Chapter 12 Time Distance (10th Maths) | 🔧 सुधार रहा है | 22 मिनट |
+| W7 | Chapter 14 Mensuration (10th Maths) | 🔧 सुधार रहा है | 18 मिनट |
+| W8 | Chapter 17 Spelling (10th English) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,6 +37,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 19:51 — 10th English · Chapter 17 Spelling
 - 09-10 19:33 — 10th English · Chapter 14 Antonyms
 - 09-10 19:30 — 10th English · Chapter 19 Fill in Blanks Basic
 - 09-10 19:28 — 10th English · Chapter 16 Idioms Phrases
@@ -59,20 +60,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 19:27:26   [Sentence_Improvement_Basic] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 19:28:00   [Error_Spotting_Basic] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 19:28:00   [Error_Spotting_Basic] written 26, failed 0; AI calls today 570/100000
-09-10 19:28:44   [Idioms_Phrases] review: 4 section(s) corrected, 0 failed
-09-10 19:28:44   [Idioms_Phrases] written 4, failed 0; AI calls today 575/100000
-09-10 19:28:52   [Sentence_Improvement_Basic] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-09-10 19:28:58 DONE 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_16_Idioms_Phrases in 56 min → 1d87e670
-09-10 19:29:00 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_12_Time_Distance (FIX: todo 0, problems 17)
-09-10 19:29:12   [Antonyms] review Important_Rules_en.txt: 3 issue(s): - Rule 4: The rule "Positive ↔ Negative connotation must flip" is incorrect for the example because both 'e
-09-10 19:29:43   [Error_Spotting_Basic] repaired Flashcards_hi.txt (3222 chars)
-09-10 19:29:43   [Error_Spotting_Basic] written 1, failed 0; AI calls today 580/100000
-09-10 19:29:59   [Time_Distance] repaired Content_en.txt (7629 chars)
-09-10 19:30:22   [Fill_in_Blanks_Basic] review: 3 section(s) corrected, 0 failed
-09-10 19:30:22   [Fill_in_Blanks_Basic] written 3, failed 0; AI calls today 582/100000
 09-10 19:30:36 DONE 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_19_Fill_in_Blanks_Basic in 27 min → 0b21587f
 09-10 19:30:38 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_13_Mixture_Alligation (FIX: todo 0, problems 16)
 09-10 19:30:44   [Time_Distance] repaired Content_hi.txt (1622 chars)
@@ -99,4 +86,18 @@
 09-10 19:42:03   [Mixture_Alligation] repaired Short_Tricks_en.txt (5864 chars)
 09-10 19:42:45   [Time_Work] Practice_hi_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
 09-10 19:43:17   [Sentence_Improvement_Basic] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 19:44:43   [Sentence_Improvement_Basic] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 19:44:46   [Mixture_Alligation] repaired Short_Tricks_hi.txt (5873 chars)
+09-10 19:44:57   [Sentence_Improvement_Basic] Practice_en_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 19:45:56   [Error_Spotting_Basic] review Feynman_hi.txt: 2 issue(s): - "बीच में बहुत सारा **समान** रख देता है" में **समान** (equal) गलत है → **सामान** (goods/stuff) होना चाहिए
+09-10 19:46:21   [Compound_Interest] repaired set 03 (en + hi, key confirmed by an independent re-solve)
+09-10 19:46:51   [Time_Distance] repaired set 02 (en + hi, key confirmed by an independent re-solve)
+09-10 19:47:19   [Mensuration] repaired set 02 (en + hi, key confirmed by an independent re-solve)
+09-10 19:49:27   [Sentence_Improvement_Basic] Practice_en_Set_04.txt try 2: re-solve disagrees (Q81 key b vs re-solve a, Q87 key a vs re-solve b)
+09-10 19:49:29   [Spelling] review Important_Rules_hi.txt: 1 issue(s): - Rule 12 lists 'permit → permission' as an example of the -sion pattern (for verbs ending in -d/-de/-ss), 
+09-10 19:49:54   [Time_Work] repaired set 02 (en + hi, key confirmed by an independent re-solve)
+09-10 19:50:16   [Mixture_Alligation] set 01 try 1: re-solve disagrees (Q1 key b vs re-solve d, Q7 key c vs re-solve a)
+09-10 19:51:22   [Spelling] review: 8 section(s) corrected, 0 failed
+09-10 19:51:22   [Spelling] written 8, failed 0; AI calls today 645/100000
+09-10 19:51:27   [Error_Spotting_Basic] review Mind_Map_en.txt: 1 issue(s): - Step 2: Check the 12 Golden Rules → Step 2: Check the 8 Golden Rules (or list all 12 rules)
 ```

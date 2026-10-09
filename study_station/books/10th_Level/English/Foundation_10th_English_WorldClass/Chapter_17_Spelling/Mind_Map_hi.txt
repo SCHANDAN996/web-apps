@@ -1,0 +1,31 @@
+```mermaid
+graph TD
+    A["वर्तनी जाँच<br>Spelling Check"] --> B["मूल नियम"]
+    A --> C["आम गलतियाँ"]
+    A --> D["परीक्षक के जाल"]
+    A --> E["रणनीति"]
+
+    B --> B1["I before E<br>except after C<br>believe, receive"]
+    B --> B2["Silent E हटाओ<br>+ ing/ed<br>hope → hoping"]
+    B --> B3["अंतिम अक्षर दोगुना<br>CVC शब्दों में<br>run → running"]
+    B --> B4["Y → I<br>happy → happily<br>लेकिन + ing में Y रहता है"]
+    B --> B5["full → ful/-ful<br>एक L घटता है<br>beautiful, careful, fulfil"]
+
+    C --> C1["Double Letter भ्रम<br>accommodate (cc, mm)<br>occurrence (cc, rr)"]
+    C --> C2["Silent Letters<br>knife, psychology<br>honest, doubt"]
+    C --> C3["-able / -ible<br>acceptable, visible"]
+    C --> C4["-ance / -ence<br>attendance, existence"]
+
+    D --> D1["Sound-Right जाल<br>सुनने में सही लगे<br>ज़रूरी नहीं सही हो"]
+    D --> D2["मिलते-जुलते शब्द<br>principal / principle<br>stationary / stationery"]
+    D --> D3["Over-thinking<br>सही वर्तनी को<br>गलत समझकर बदलना"]
+    D --> D4["British / American<br>colour / color<br>परीक्षा में British मान्य"]
+
+    E --> E1["15 सेकंड नियम<br>तथ्यात्मक वर्तनी प्रश्न<br>तुरंत हल करो"]
+    E --> E2["45 सेकंड नियम<br>चारों विकल्प मिलते-जुलते<br>हों तो ध्यान से जाँचो"]
+    E --> E3["Skip Strategy<br>अनजाना शब्द हो तो<br>अनुमान न लगाओ, आगे बढ़ो"]
+    E --> E4["Mnemonic याद करो<br>Big Elephants Can Always<br>Understand Small Elephants<br>= BECAUSE"]
+
+    B1 -.->|"जाल: weird, height<br>अपवाद हैं"| D1
+    C1 -.->|"बार-बार पूछे जाने वाले शब्द"| E1
+```
