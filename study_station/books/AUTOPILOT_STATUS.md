@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 12:09 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:17 PM
+**आख़िरी update:** 10-10-2026 12:24 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:17 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 129 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🔎 review हो रहा है | 21 मिनट |
-| W4 | Chapter 19 Cubes Dice (Graduation Reasoning) | ✍️ लिख रहा है | 212 मिनट |
-| W7 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 106 मिनट |
+| W2 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 144 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🔎 review हो रहा है | 36 मिनट |
+| W4 | Chapter 19 Cubes Dice (Graduation Reasoning) | ✍️ लिख रहा है | 228 मिनट |
+| W7 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 121 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -21,9 +21,9 @@
 |---|---|---|---|
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
-| 10th Maths | 15 | 7 | 0 |
+| 10th Maths | 16 | 6 | 0 |
 | 10th English | 17 | 0 | 3 |
-| 12th Maths | 10 | 0 | 13 |
+| 12th Maths | 11 | 0 | 12 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 8 | 0 | 17 |
 | 12th English | 25 | 0 | 0 |
@@ -31,7 +31,7 @@
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 13 | 2 | 15 |
 | Graduation English | 29 | 1 | 0 |
-| **कुल** | **210** | **10** | **76** |
+| **कुल** | **212** | **9** | **75** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -53,12 +53,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 23:21:31 worker 5: nothing left
-09-10 23:28:36   [Mathematical_Operations] review PYQ_hi.txt: 8 issue(s): - प्रश्न 1 का उत्तर (b) 42 गलत है; प्रतिस्थापन के बाद व्यंजक `15 × 3 + 2 ÷ 5 − 4` का मान 41.4 आता है (या गणना में 38), 
-09-10 23:29:15   [Inequality] review Important_Rules_hi.txt: 2 issue(s): - In 1.3 “≥ निष्कर्ष की जाँच” the rule states “A ≥ C तभी सत्य जब A > C संभव हो और A = C भी संभव हो” which i
-09-10 23:30:49   [Statement_Conclusion] review PYQ_hi.txt: 3 issue(s): - Question 3: The answer given is (a) केवल I, but from “नियमित अभ्यास आवश्यक है” (necessary condition) the contrapositi
-09-10 23:31:00   [Inequality] review: 6 section(s) corrected, 0 failed
-09-10 23:31:00   [Inequality] written 6, failed 0; AI calls today 476/100000
 09-10 23:31:16 DONE Graduation_Level/Reasoning/Chapter_18_Inequality in 83 min → bea017f4
 09-10 23:31:16 worker 4: nothing left
 09-10 23:31:39   [Sitting_Arrangement] Practice_en_Set_01.txt try 3: re-solve disagrees (Q24 key a vs re-solve ?)
@@ -93,4 +87,10 @@
 10-10 00:08:28   [Paper_Folding_Cutting] FAILED Practice_en_Set_01.txt: too_long
 10-10 00:08:28   [Paper_Folding_Cutting] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
 10-10 00:08:34   [Mirror_Water_Images] Practice_en_Set_03.txt try 2: re-solve disagrees (Q52 key d vs re-solve b, Q71 key a vs re-solve b)
+10-10 00:12:50   [Cubes_Dice] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+10-10 00:16:52   [Cubes_Dice] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+10-10 00:18:43   [Cubes_Dice] Practice_en_Set_06.txt try 1: rejected (Q132:leaked_reasoning,Q136:leaked_reasoning)
+10-10 00:23:03   [Mirror_Water_Images] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+10-10 00:23:11   [Paper_Folding_Cutting] Practice_en_Set_02.txt try 1: re-solve disagrees (Q26 key b vs re-solve -, Q27 key c vs re-solve -, Q28 key d vs re-solve -, Q29 key b vs re-solve -, 
+10-10 00:23:54   [Sitting_Arrangement] review PYQ_en.txt: 3 issue(s): - Q1 answer (a) is not a valid answer to "Who is on A's immediate left?"; option (a) describes a trap, not a person or 
 ```
