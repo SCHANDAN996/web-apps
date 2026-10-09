@@ -1,0 +1,27 @@
+```mermaid
+graph TD
+    A["Sentence Arrangement<br>(Para Jumbles / PQRS)"] --> B["Core Concepts"]
+    A --> C["Golden Rules"]
+    A --> D["Examiner's Traps"]
+    A --> E["Solving Strategy"]
+
+    B --> B1["Opening Sentence<br>Independent, no pronoun<br>like he/it/this"]
+    B --> B2["Mandatory Pairs<br>Cause-Effect, Question-Answer,<br>General-Specific"]
+    B --> B3["Closing Sentence<br>Conclusion words:<br>thus, hence, finally"]
+    B --> B4["Linking Devices<br>Pronouns, articles,<br>connectors, chronology"]
+
+    C --> C1["Rule 1: Sentence starting with<br>pronoun (he, it, they) is never first"]
+    C --> C2["Rule 2: 'The' follows 'A/An'<br>first mention → a, later → the"]
+    C --> C3["Rule 3: Connectors chain ideas<br>but, however, therefore, moreover"]
+    C --> C4["Rule 4: Time order<br>past → present → future"]
+    C --> C5["Rule 5: Idea flows<br>General statement → Example → Conclusion"]
+
+    D --> D1["Trap 1: Sound-Right Order<br>Feels natural but breaks<br>a mandatory pair"]
+    D --> D2["Trap 2: Pronoun Opener<br>Option starts with<br>'He/This/It' sentence"]
+    D --> D3["Trap 3: Over-thinking<br>Re-reading all orders;<br>use elimination instead"]
+
+    E --> E1["Step 1: Find the opener<br>(eliminate pronoun/connector starters)"]
+    E --> E2["Step 2: Lock 1-2 mandatory pairs"]
+    E --> E3["Step 3: Match with options<br>and eliminate"]
+    E --> E4["Step 4: Read final sequence once<br>(45-sec rule: inference type)"]
+```

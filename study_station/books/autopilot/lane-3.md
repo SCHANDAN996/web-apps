@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 08:24 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
+**आख़िरी update:** 09-10-2026 08:25 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Para Jumbles (12th English) | 🔎 review हो रहा है | 24 मिनट |
-| W2 | Chapter 23 Sentence Arrangement (12th English) | 🔎 review हो रहा है | 27 मिनट |
-| W3 | Chapter 03 Coding Decoding (12th Reasoning) | 🔎 review हो रहा है | 39 मिनट |
-| W4 | Chapter 05 Direction Sense (12th Reasoning) | 🔎 review हो रहा है | 24 मिनट |
-| W5 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 65 मिनट |
-| W6 | Chapter 08 Puzzles (12th Reasoning) | ✍️ लिख रहा है | 65 मिनट |
-| W7 | Chapter 09 Venn Diagrams (12th Reasoning) | 📤 push हो रहा है | 0 मिनट |
-| W8 | Chapter 10 Clock Calendar (12th Reasoning) | ✍️ लिख रहा है | 65 मिनट |
+| W1 | Chapter 22 Para Jumbles (12th English) | 🔎 review हो रहा है | 26 मिनट |
+| W2 | Chapter 23 Sentence Arrangement (12th English) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 03 Coding Decoding (12th Reasoning) | 🔎 review हो रहा है | 41 मिनट |
+| W4 | Chapter 05 Direction Sense (12th Reasoning) | 🔎 review हो रहा है | 26 मिनट |
+| W5 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 67 मिनट |
+| W6 | Chapter 08 Puzzles (12th Reasoning) | ✍️ लिख रहा है | 67 मिनट |
+| W7 | Chapter 11 Series (12th Reasoning) | ✍️ लिख रहा है | 1 मिनट |
+| W8 | Chapter 10 Clock Calendar (12th Reasoning) | ✍️ लिख रहा है | 67 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,22 +37,17 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 20:25 — 12th English · Chapter 23 Sentence Arrangement
 - 09-10 20:24 — 12th Reasoning · Chapter 09 Venn Diagrams
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 22 Para Jumbles (English) — 1 बार
 - Chapter 23 Sentence Arrangement (English) — 1 बार
-- Chapter 09 Venn Diagrams (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 19:59:14   [Clock_Calendar] wrote PYQ_hi.txt (6330 chars)
-09-10 19:59:25   [Direction_Sense] repaired Content_hi.txt (6669 chars)
-09-10 19:59:25   [Direction_Sense] written 1, failed 0; AI calls today 96/100000
-09-10 19:59:33   [Para_Jumbles] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 19:59:33   [Para_Jumbles] written 2, failed 0; AI calls today 97/100000
 09-10 20:00:41   [Clock_Calendar] wrote Short_Tricks_en.txt (5267 chars)
 09-10 20:01:05   [Coding_Decoding] review Flashcards_en.txt: 3 issue(s): - Card 10: The example code "NZOH P" for MANGO does not match opposite-letter coding (which would be NZMTL) → Co
 09-10 20:01:32   [Para_Jumbles] review Content_en.txt: 2 issue(s): - "Kerala's literacy campaign began in 1989" is a wrong date; the Kerala Total Literacy Campaign started in 1990 in
@@ -88,4 +83,9 @@
 09-10 20:24:10   [Venn_Diagrams] review: 1 section(s) corrected, 0 failed
 09-10 20:24:10   [Venn_Diagrams] written 1, failed 0; AI calls today 165/100000
 09-10 20:24:17   [Coding_Decoding] review Short_Tricks_en.txt: 1 issue(s): - Mnemonic Box 2 lists "AZad" as an opposite pair; the correct pair is "AZ" → Change "AZad" to "AZ" in the lis
+09-10 20:24:26 DONE 12th_Level/Reasoning/Chapter_09_Venn_Diagrams in 10 min → 24b298c4
+09-10 20:24:28 START 12th_Level/Reasoning/Chapter_11_Series (TODO: todo 25, problems 0)
+09-10 20:25:44   [Direction_Sense] review PYQ_hi.txt: 3 issue(s): - Question 2 solution incorrectly claims a 135° anti-clockwise rotation for the code "पूर्व को उत्तर-पश्चिम कहा जाता है
+09-10 20:25:55   [Sentence_Arrangement] review: 4 section(s) corrected, 0 failed
+09-10 20:25:55   [Sentence_Arrangement] written 4, failed 0; AI calls today 171/100000
 ```
