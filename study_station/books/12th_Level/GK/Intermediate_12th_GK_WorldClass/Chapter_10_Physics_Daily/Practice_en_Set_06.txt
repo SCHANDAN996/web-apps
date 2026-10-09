@@ -1,0 +1,150 @@
+126. A person pushes a wall with a force of 50 N for 10 seconds, but the wall does not move. The work done by the person on the wall is:
+(a) 500 J (b) 50 J (c) 5 J (d) 0 J
+Answer: (d)
+Solution: The tempting option is 500 J, obtained by blindly multiplying force by time or distance, but work requires displacement in the direction of force. Since the wall does not move, displacement is zero, so W = F × 0 = 0 J. Energy is spent inside the body as heat, but no mechanical work is done on the wall, so the answer is 0 J.
+Source: NCERT Class 9 Science (Work and Energy)
+
+127. An electric bulb rated 100 W, 220 V is connected to a 110 V supply. Assuming resistance stays constant, the power consumed will be approximately:
+(a) 100 W (b) 50 W (c) 25 W (d) 200 W
+Answer: (c)
+Solution: The trap is 50 W — many assume halving voltage halves power, but power varies with the square of voltage (P = V²/R). Halving V from 220 V to 110 V makes power (1/2)² = 1/4 of 100 W, so the answer is 25 W.
+Source: NCERT Class 10 Science (Electricity)
+
+128. A convex lens of focal length 20 cm forms a real image of an object placed at 30 cm. The image distance is:
+(a) 12 cm (b) 30 cm (c) 60 cm (d) 15 cm
+Answer: (c)
+Solution: Using 1/f = 1/v − 1/u with sign convention, u = −30 cm, f = +20 cm: 1/v = 1/20 − 1/30 = 1/60, giving v = 60 cm. The tempting 12 cm comes from wrongly adding the reciprocals. The image is real, inverted and magnified, so the answer is 60 cm.
+Source: NCERT Class 10 Science (Light – Reflection and Refraction)
+
+129. Two resistors of 6 Ω and 3 Ω are connected in parallel across a 12 V battery. The total current drawn from the battery is:
+(a) 1.33 A (b) 4 A (c) 6 A (d) 2 A
+Answer: (c)
+Solution: The trap is 1.33 A, which results from wrongly adding the resistances (9 Ω) as if in series. In parallel, 1/R = 1/6 + 1/3 = 1/2, so R = 2 Ω and I = 12/2 = 6 A. Alternatively, branch currents 2 A and 4 A add to 6 A, so the answer is 6 A.
+Source: NCERT Class 10 Science (Electricity)
+
+130. A body is thrown vertically upward with velocity 20 m/s. Taking g = 10 m/s², the maximum height reached is:
+(a) 10 m (b) 20 m (c) 40 m (d) 30 m
+Answer: (b)
+Solution: Using v² = u² − 2gh at the top where v = 0: h = u²/2g = 400/20 = 20 m. The tempting 40 m comes from forgetting the factor 2 in the denominator. Time to reach the top is 2 s, but average velocity is 10 m/s, again giving 20 m, so the answer is 20 m.
+Source: NCERT Class 9 Science (Motion / Gravitation)
+
+131. Statement P: A geostationary satellite appears stationary from Earth. Statement Q: Its orbital period equals Earth's rotation period and it revolves in the equatorial plane in the direction of Earth's rotation. Choose the correct option:
+(a) P true, Q false (b) P false, Q true (c) Both P and Q false (d) Both P and Q true
+Answer: (d)
+Solution: The trap lies in thinking "appears stationary" is an illusion or that any orbit period matching is enough — the satellite must also orbit eastward above the equator. Both conditions together make the satellite appear fixed over one longitude, so the answer is that both P and Q are true.
+Source: NCERT Class 11 Physics (Gravitation)
+
+132. The commercial unit of electrical energy, 1 kWh, equals:
+(a) 3.6 × 10⁵ J (b) 3.6 × 10³ J (c) 36 × 10⁶ J (d) 3.6 × 10⁶ J
+Answer: (d)
+Solution: The trap is 3.6 × 10⁵ J, arising from a slip in powers of ten. 1 kWh = 1000 W × 3600 s = 3,600,000 J = 3.6 × 10⁶ J, so the answer is 3.6 × 10⁶ J.
+Source: NCERT Class 10 Science (Electricity)
+
+133. A car moving at 72 km/h is stopped in 5 seconds by uniform braking. The retardation is:
+(a) 4 m/s² (b) 14.4 m/s² (c) 2 m/s² (d) 5 m/s²
+Answer: (a)
+Solution: The trap is 14.4 m/s², obtained by dividing 72 by 5 without converting km/h to m/s. Converting: 72 km/h = 20 m/s, so retardation = 20/5 = 4 m/s², and the answer is 4 m/s².
+Source: NCERT Class 9 Science (Motion)
+
+134. Which of the following correctly pairs the phenomenon with its cause?
+(a) Twinkling of stars — dispersion of light (b) Mirage — diffraction of light (c) Rainbow — total internal reflection only (d) Blue colour of sky — scattering of light
+Answer: (d)
+Solution: The trap is pairing twinkling with dispersion; twinkling is actually due to atmospheric refraction. A rainbow involves refraction, dispersion and internal reflection (not total internal reflection alone), and a mirage is due to refraction and total internal reflection, not diffraction. The blue sky is correctly explained by Rayleigh scattering, so the answer is that the blue colour of the sky is caused by scattering of light.
+Source: NCERT Class 10 Science (Human Eye and the Colourful World)
+
+135. A fuse wire is characterised by:
+(a) High melting point and high resistance (b) Low melting point and low resistance (c) Low melting point and high resistance (d) High melting point and low resistance
+Answer: (c)
+Solution: The trap is "low melting point and low resistance" — a low-resistance wire would not heat enough to melt quickly. A fuse needs comparatively high resistance (to produce heat, H = I²Rt) and a low melting point (to break the circuit on excess current), so the answer is low melting point and high resistance.
+Source: NCERT Class 10 Science (Magnetic Effects of Electric Current / Domestic Circuits)
+
+136. An object weighs 60 N in air and 40 N when fully immersed in water. The buoyant force and the weight of water displaced are respectively:
+(a) 20 N and 20 N (b) 100 N and 100 N (c) 20 N and 40 N (d) 40 N and 20 N
+Answer: (a)
+Solution: The trap is adding the two weights (100 N). Buoyant force = loss of weight = 60 − 40 = 20 N, and by Archimedes' principle this equals the weight of displaced water, so the answer is 20 N and 20 N.
+Source: NCERT Class 9 Science (Gravitation / Floatation)
+
+137. A sound wave travels from air into water. Which quantity remains unchanged?
+(a) Speed (b) Frequency (c) Wavelength (d) Amplitude
+Answer: (b)
+Solution: The trap is wavelength — since speed increases in water, wavelength must also increase (v = fλ), so it cannot stay constant. Frequency is determined by the source and does not change when a wave crosses a medium boundary, so the answer is frequency.
+Source: NCERT Class 9 Science (Sound)
+
+138. A ray of light passes from glass (refractive index 1.5) into air. The critical angle is closest to:
+(a) 42° (b) 30° (c) 49° (d) 60°
+Answer: (a)
+Solution: sin C = 1/μ = 1/1.5 = 0.667, giving C ≈ 41.8° ≈ 42°. The trap is 49°, which corresponds to μ = 1.33 (water) — a similar-name/similar-value confusion examiners use. For glass the answer is 42°.
+Source: NCERT Class 10/12 Science (Refraction, Total Internal Reflection)
+
+139. A machine gun fires 10 bullets per second, each of mass 20 g, with velocity 500 m/s. The average force exerted on the gun is:
+(a) 100 N (b) 10 N (c) 1000 N (d) 50 N
+Answer: (a)
+Solution: Force = rate of change of momentum = n × m × v = 10 × 0.02 × 500 = 100 N. The trap is 1000 N, which comes from using 20 g without converting to kilograms. With correct SI units the answer is 100 N.
+Source: NCERT Class 9/11 Science (Laws of Motion)
+
+140. Which statement about a concave mirror is correct when the object is placed between the pole and the focus?
+(a) Virtual, erect, magnified image behind the mirror (b) Real, inverted, diminished image (c) Real, inverted, magnified image (d) Virtual, erect, diminished image
+Answer: (a)
+Solution: The trap is "virtual, erect, diminished" — diminished virtual images belong to convex mirrors, a classic similar-instrument confusion. For a concave mirror with the object inside the focus, the image is virtual, erect and magnified (used in shaving mirrors), so the answer is virtual, erect, magnified image behind the mirror.
+Source: NCERT Class 10 Science (Light – Reflection and Refraction)
+
+141. A 2 kg mass and a 4 kg mass fall freely from the same height (neglecting air resistance). Compare their times to reach the ground:
+(a) The 4 kg mass takes half the time (b) Both take equal time (c) The 2 kg mass takes half the time (d) The 4 kg mass takes double the time
+Answer: (b)
+Solution: The trap is assuming the heavier body falls faster — a misconception since Aristotle's time. In free fall, acceleration g is independent of mass, so t = √(2h/g) is the same for both, and the answer is that both take equal time.
+Source: NCERT Class 9 Science (Gravitation)
+
+142. The power of a lens is +2.5 D. Its focal length and nature are:
+(a) 25 cm, convex (b) 40 cm, convex (c) 40 cm, concave (d) 2.5 m, convex
+Answer: (b)
+Solution: P = 1/f (in metres), so f = 1/2.5 = 0.4 m = 40 cm; positive power means a convex (converging) lens. The trap is 25 cm, which confuses power value with focal length. The answer is 40 cm, convex.
+Source: NCERT Class 10 Science (Light – Reflection and Refraction)
+
+143. In a domestic circuit, the correct colour coding (as per Indian convention) is:
+(a) Live — black, Neutral — green, Earth — red (b) Live — green, Neutral — red, Earth — black (c) Live — red, Neutral — black, Earth — green (d) Live — red, Neutral — green, Earth — black
+Answer: (c)
+Solution: The trap is the last option, which swaps neutral and earth colours — dangerous in practice and in exams. Standard Indian convention: live wire red, neutral black, earth green, so the answer is live — red, neutral — black, earth — green.
+Source: NCERT Class 10 Science (Magnetic Effects of Electric Current)
+
+144. A body moves with uniform speed in a circle. Which statement is correct?
+(a) Its velocity is constant (b) Its velocity changes continuously though speed is constant (c) Its acceleration is zero (d) No force acts on it
+Answer: (b)
+Solution: The traps are "velocity is constant" and "acceleration is zero" — both ignore that direction changes continuously in circular motion. A changing direction means changing velocity, hence centripetal acceleration and a net force exist, so the answer is that velocity changes continuously though speed is constant.
+Source: NCERT Class 9/11 Science (Motion)
+
+145. An echo is heard 0.5 s after the original sound from a cliff. Taking speed of sound as 340 m/s, the distance of the cliff is:
+(a) 170 m (b) 340 m (c) 85 m (d) 42.5 m
+Answer: (c)
+Solution: The trap is 170 m, which forgets that the sound travels to the cliff and back. Total path = 340 × 0.5 = 170 m, so one-way distance = 170/2 = 85 m, and the answer is 85 m.
+Source: NCERT Class 9 Science (Sound)
+
+146. Which of the following statements about magnetic field lines is incorrect?
+(a) They are discontinuous, starting in air and ending inside the magnet (b) They emerge from the north pole and merge at the south pole outside the magnet (c) They are crowded where the field is stronger (d) They never intersect each other
+Answer: (a)
+Solution: The trap lies in the first three statements all being true, pushing hasty readers to pick one of them. Magnetic field lines form continuous closed loops — outside the magnet they run from north to south and inside from south to north — so the incorrect statement is that they are discontinuous, and the answer is the statement about discontinuity.
+Source: NCERT Class 10 Science (Magnetic Effects of Electric Current)
+
+147. A ball dropped from a height rebounds to half that height. If the drop height is 20 m, the rebound height and the energy behaviour are:
+(a) 20 m; energy fully conserved mechanically (b) 10 m; some mechanical energy lost as heat/sound (c) 10 m; total energy of the universe decreased (d) 5 m; half the mass lost
+Answer: (b)
+Solution: The trap is "energy fully conserved mechanically" — if it were, the ball would rebound to the full 20 m. Rebounding to 10 m shows mechanical energy was converted to heat and sound during impact, while total energy (including all forms) stays conserved, so the answer is 10 m with some mechanical energy lost as heat/sound.
+Source: NCERT Class 9 Science (Work and Energy)
+
+148. The chronological order of these discoveries/principles is:
+P. Archimedes' principle Q. Newton's laws of motion R. Ohm's law S. Fleming's left-hand rule
+(a) Q, P, S, R (b) Q, P, R, S (c) P, R, Q, S (d) P, Q, R, S
+Answer: (d)
+Solution: The trap is placing Newton before Archimedes — a chronological confusion, since Archimedes lived in ancient Greece (3rd century BCE) while Newton published in 1687. Ohm's law came in 1827 and Fleming's rules in the late 19th century, so the correct sequence is P, Q, R, S, and the answer is P, Q, R, S.
+Source: PYQ-style (chronology of physics principles)
+
+149. A transformer steps up voltage from 220 V to 2200 V. If the primary has 100 turns, the secondary has:
+(a) 10 turns (b) 10000 turns (c) 2200 turns (d) 1000 turns
+Answer: (d)
+Solution: Vs/Vp = Ns/Np, so Ns = 100 × (2200/220) = 1000 turns. The trap is 10 turns, which inverts the ratio — a step-up transformer must have more secondary turns, not fewer. The answer is 1000 turns.
+Source: NCERT Class 12 Physics (Electromagnetic Induction / PYQ-style)
+
+150. Which of the following quantities is correctly matched with its SI unit?
+(a) Pressure — pascal (b) Power — joule (c) Work — watt (d) Frequency — decibel
+Answer: (a)
+Solution: The traps swap related units: power is measured in watt (joule is work/energy), and decibel measures sound intensity level, not frequency (hertz). Pressure = force/area is correctly measured in pascal (N/m²), so the answer is pressure — pascal.
+Source: NCERT Class 9 Science (Units of physical quantities)
