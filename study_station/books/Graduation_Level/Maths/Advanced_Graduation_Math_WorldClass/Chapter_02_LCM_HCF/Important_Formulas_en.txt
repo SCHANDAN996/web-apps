@@ -1,0 +1,29 @@
+# Important Formulas — LCM & HCF
+
+| Formula Name | Formula | One-line Use-Hint |
+|---|---|---|
+| Fundamental Relation | LCM × HCF = Product of the two numbers | Only for TWO numbers; fails for three or more |
+| HCF by Prime Factorisation | HCF = Product of common prime factors with lowest powers | Take only primes common to ALL numbers |
+| LCM by Prime Factorisation | LCM = Product of all prime factors with highest powers | Take every prime that appears anywhere |
+| HCF by Division Method | Divide larger by smaller repeatedly; the last non-zero remainder is the HCF | Best for large numbers (Euclid's algorithm) |
+| LCM of Fractions | LCM of fractions = LCM of numerators / HCF of denominators | "LCM up, HCF down" |
+| HCF of Fractions | HCF of fractions = HCF of numerators / LCM of denominators | "HCF up, LCM down" |
+| Numbers from HCF | Numbers = HCF × a and HCF × b, where a, b are co-prime | Use when HCF and LCM (or sum/product) are given |
+| Product via Co-prime Factors | If numbers are ha and hb, then LCM = HCF × a × b | a and b must be co-prime |
+| Remainder Same (LCM type) | Required number = LCM(a, b, c) × k + r | Smallest number leaving same remainder r on division by a, b, c |
+| Remainder Same (HCF type) | Required number = HCF of (x − r), (y − r), (z − r) | Greatest number dividing x, y, z leaving same remainder r |
+| Different Remainders, Same Difference | Required number = LCM(a, b, c) × k − d, where d = a − r₁ = b − r₂ = c − r₃ | When divisor − remainder is constant |
+| Greatest Number Dividing with Remainders | HCF of (x − r₁), (y − r₂), (z − r₃) | Greatest number leaving remainders r₁, r₂, r₃ on dividing x, y, z |
+| Bells Ringing Together | Time = LCM of individual intervals | Events repeating together (bells, lights, runners) |
+| Runners Meet at Start | Time = LCM of lap times | Circular track, same direction, meeting at starting point |
+| Maximum Equal Pieces | Length of each piece = HCF of all lengths | Cutting ropes/planks into equal longest pieces |
+| Minimum Square Tiles | Number of tiles = (l × b) / (HCF(l, b))² | Largest square tile to pave an l × b floor exactly |
+| HCF of Powers | HCF(aᵐ, aⁿ) = a^min(m,n) | Same base, take smaller power |
+| LCM of Powers | LCM(aᵐ, aⁿ) = a^max(m,n) | Same base, take larger power |
+| Co-prime Numbers | HCF = 1, LCM = product of the numbers | e.g., 8 and 15: HCF = 1, LCM = 120 |
+| HCF ≤ Numbers ≤ LCM | HCF ≤ each number ≤ LCM | Quick check to reject wrong options |
+| HCF Divides LCM | LCM is always a multiple of HCF | If LCM ÷ HCF is not an integer, data is inconsistent |
+| Ratio of Numbers | If numbers are in ratio a : b (co-prime), numbers = HCF × a, HCF × b | Combine with given HCF or LCM |
+| Sum of Two Numbers | Sum = HCF × (a + b), where a, b co-prime | Use with LCM = HCF × a × b to solve for a, b |
+| LCM of First n Naturals | LCM(1, 2, …, n) via highest prime powers ≤ n | e.g., LCM(1–10) = 2³ × 3² × 5 × 7 = 2520 |
+| HCF of (aᵐ − 1, aⁿ − 1) | HCF = a^HCF(m,n) − 1 | Classic advanced result for number-theory questions |

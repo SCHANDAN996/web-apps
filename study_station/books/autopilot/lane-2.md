@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 01:10 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:38 AM
+**आख़िरी update:** 10-10-2026 01:14 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:38 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Time Work (Graduation Maths) | ✍️ लिख रहा है | 25 मिनट |
-| W2 | Chapter 02 LCM HCF (Graduation Maths) | 🔎 review हो रहा है | 29 मिनट |
-| W3 | Chapter 03 Simplification (Graduation Maths) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 13 Mixture Alligation (Graduation Maths) | ✍️ लिख रहा है | 7 मिनट |
-| W5 | Chapter 12 Time Distance (Graduation Maths) | ✍️ लिख रहा है | 17 मिनट |
-| W6 | Chapter 07 Ratio Proportion (Graduation Maths) | 🔎 review हो रहा है | 21 मिनट |
-| W7 | Chapter 09 Simple Interest (Graduation Maths) | 🔎 review हो रहा है | 31 मिनट |
-| W8 | Chapter 10 Compound Interest (Graduation Maths) | ✍️ लिख रहा है | 31 मिनट |
+| W1 | Chapter 11 Time Work (Graduation Maths) | ✍️ लिख रहा है | 29 मिनट |
+| W2 | Chapter 02 LCM HCF (Graduation Maths) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 14 Mensuration (Graduation Maths) | ✍️ लिख रहा है | 3 मिनट |
+| W4 | Chapter 13 Mixture Alligation (Graduation Maths) | ✍️ लिख रहा है | 11 मिनट |
+| W5 | Chapter 12 Time Distance (Graduation Maths) | ✍️ लिख रहा है | 21 मिनट |
+| W6 | Chapter 07 Ratio Proportion (Graduation Maths) | 🔎 review हो रहा है | 24 मिनट |
+| W7 | Chapter 09 Simple Interest (Graduation Maths) | 🔎 review हो रहा है | 35 मिनट |
+| W8 | Chapter 10 Compound Interest (Graduation Maths) | ✍️ लिख रहा है | 35 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,6 +37,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 10-10 01:14 — Graduation Maths · Chapter 02 LCM HCF
 - 10-10 01:10 — Graduation Maths · Chapter 03 Simplification
 - 10-10 01:02 — Graduation Maths · Chapter 04 Fractions Decimals
 
@@ -49,15 +50,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 00:52:02   [Percentage] repaired Feynman_hi.txt (2449 chars)
-10-10 00:52:02   [Percentage] written 1, failed 0; AI calls today 63/100000
-10-10 00:52:47   [Percentage] repaired Feynman_hi.txt (2551 chars)
-10-10 00:52:47   [Percentage] written 1, failed 0; AI calls today 66/100000
-10-10 00:52:47 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_05_Percentage after 2 min: todo [] problems ['Feynman_hi.txt: much shorter than the English section (2550 ']
-10-10 00:52:50 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_12_Time_Distance (TODO: todo 7, problems 0)
-10-10 00:53:21   [Fractions_Decimals] review PYQ_en.txt: 1 issue(s): - Q6 answer key (a) 11/26 does not satisfy the given conditions; the correct fraction is 2/3 (16/24), which is not amon
-10-10 00:53:38   [Time_Distance] wrote Flashcards_hi.txt (2859 chars)
-10-10 00:53:49   [Compound_Interest] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 10-10 00:53:57   [Compound_Interest] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
 10-10 00:55:11   [Time_Distance] Practice_en_Set_03.txt try 1: rejected (Q69:leaked_reasoning,Q70:answer_solution_conflict)
 10-10 00:55:22   [Time_Work] Practice_en_Set_02.txt try 2: re-solve disagrees (Q34 key b vs re-solve ?)
@@ -89,4 +81,13 @@
 10-10 01:10:16   [Mixture_Alligation] Practice_en_Set_05.txt try 1: rejected (Q103:leaked_reasoning,Q108:leaked_reasoning,Q121:leaked_reasoning,Q124:answer_solution_conflict,Q125:leaked_re
 10-10 01:10:33   [Simplification] review: 3 section(s) corrected, 0 failed
 10-10 01:10:33   [Simplification] written 3, failed 0; AI calls today 127/100000
+10-10 01:10:53 DONE Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_03_Simplification in 32 min → fc1e6e67
+10-10 01:10:56 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_14_Mensuration (TODO: todo 8, problems 0)
+10-10 01:11:50   [Simple_Interest] review Short_Tricks_en.txt: 2 issue(s): - Trick 6: The installment formula uses compound discounting (1+R/100)^k, which is for compound interest, not 
+10-10 01:11:55   [Time_Work] Practice_en_Set_03.txt try 1: rejected (Q55:leaked_reasoning,Q57:leaked_reasoning,Q63:leaked_reasoning,Q64:leaked_reasoning,Q65:leaked_reasoning)
+10-10 01:12:21   [LCM_HCF] review Important_Formulas_hi.txt: 2 issue(s): - In "भिन्नों के लिए" table, row "स्मरण-ट्रिक", the "उपयोग-संकेत" column gives incorrect symbolic formul
+10-10 01:12:55   [Ratio_Proportion] review PYQ_en.txt: 4 issue(s): - Q3 answer key says (b) 1/8 but the solution correctly derives 1/5 → Change the answer key to (a) 1/5.
+10-10 01:13:25   [Mensuration] Content_en.txt try 1: rejected (chat debris "Here is the")
+10-10 01:14:16   [LCM_HCF] review: 4 section(s) corrected, 0 failed
+10-10 01:14:16   [LCM_HCF] written 4, failed 0; AI calls today 135/100000
 ```

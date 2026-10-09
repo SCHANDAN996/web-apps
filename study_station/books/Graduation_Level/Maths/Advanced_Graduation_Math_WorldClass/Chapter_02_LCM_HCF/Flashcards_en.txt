@@ -1,0 +1,79 @@
+Card 1
+Front: What is the HCF of two numbers also called?
+Back: GCD — Greatest Common Divisor (or Greatest Common Measure).
+
+Card 2
+Front: State the golden relation connecting LCM and HCF of two numbers a and b.
+Back: LCM × HCF = a × b (product of the two numbers).
+
+Card 3
+Front: Does LCM × HCF = product hold for three numbers?
+Back: No. It holds strictly for two numbers only — a classic exam trap.
+
+Card 4
+Front: What is the HCF of two co-prime numbers?
+Back: 1. (Co-prime numbers share no common factor other than 1.)
+
+Card 5
+Front: What is the LCM of two co-prime numbers?
+Back: Their product. E.g., LCM(8, 9) = 72.
+
+Card 6
+Front: How do you find the LCM of fractions?
+Back: LCM of fractions = LCM of numerators ÷ HCF of denominators.
+
+Card 7
+Front: How do you find the HCF of fractions?
+Back: HCF of fractions = HCF of numerators ÷ LCM of denominators.
+
+Card 8
+Front: What is the mnemonic to remember LCM vs HCF of fractions?
+Back: "LCM is a Lift — numerator goes UP; HCF is Heavy — numerator stays DOWN." LCM: LCM(top)/HCF(bottom); HCF: HCF(top)/LCM(bottom).
+
+Card 9
+Front: "Greatest number that divides a, b, c exactly" — LCM or HCF?
+Back: HCF. "Greatest divisor" → HCF; "smallest common multiple" → LCM.
+
+Card 10
+Front: "Least number exactly divisible by a, b, c" — LCM or HCF?
+Back: LCM.
+
+Card 11
+Front: What is the keyword trick to choose between LCM and HCF in word problems?
+Back: "Together again / bells ring / repeat" → LCM. "Greatest / maximum size / equal pieces" → HCF.
+
+Card 12
+Front: Find the least number which when divided by 12, 15, 20 leaves remainder 5 in each case.
+Back: LCM(12, 15, 20) + 5 = 60 + 5 = 65.
+
+Card 13
+Front: Find the greatest number that divides 90 and 120 leaving remainders 6 and 8 respectively.
+Back: HCF of (90−6) and (120−8) = HCF(84, 112) = 28.
+
+Card 14
+Front: If HCF of two numbers is 12 and LCM is 180, and one number is 36, find the other.
+Back: Other = (12 × 180) ÷ 36 = 60.
+
+Card 15
+Front: What is the ratio trick when HCF and the ratio of two numbers are given?
+Back: If ratio is x : y (co-prime) and HCF = h, the numbers are hx and hy; LCM = h·x·y.
+
+Card 16
+Front: What is the maximum value HCF can take relative to the numbers?
+Back: HCF ≤ the smallest number; LCM ≥ the largest number. (HCF ≤ numbers ≤ LCM.)
+
+Card 17
+Front: Three bells toll at intervals of 12, 18, 24 minutes. When do they toll together again?
+Back: After LCM(12, 18, 24) = 72 minutes.
+
+Card 18
+Front: What is the Euclid's division lemma statement used to find HCF?
+Back: For a > b: a = bq + r, 0 ≤ r < b; repeat HCF(b, r) until r = 0. Last non-zero remainder is the HCF.
+
+Card 19
+Front: What is the mnemonic for the LCM–HCF product rule?
+Back: "Love × Hate = Product of the Pair" — LCM × HCF = Product of the two numbers (pair only!).
+
+Card 20
+Front: The LCM of two numbers is 4 times their HCF, and their sum is 125 with HCF 25. Find the numbers.
+Back: LCM = 100; numbers = 25 and 100 (check: 25 × 100 = 25 × 100 ✓, sum = 125 ✓).
