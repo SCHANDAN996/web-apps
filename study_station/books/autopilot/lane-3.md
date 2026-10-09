@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 07:23 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 07:29 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 19 Fill in Blanks Adv (12th English) | 📤 push हो रहा है | 0 मिनट |
-| W2 | Chapter 20 Sentence Improvement Adv (12th English) | 🔎 review हो रहा है | 17 मिनट |
-| W4 | Chapter 23 Sentence Arrangement (12th English) | ✍️ लिख रहा है | 54 मिनट |
-| W5 | Chapter 22 Para Jumbles (12th English) | ✍️ लिख रहा है | 57 मिनट |
+| W2 | Chapter 20 Sentence Improvement Adv (12th English) | 📤 push हो रहा है | 0 मिनट |
+| W4 | Chapter 23 Sentence Arrangement (12th English) | ✍️ लिख रहा है | 60 मिनट |
+| W5 | Chapter 22 Para Jumbles (12th English) | ✍️ लिख रहा है | 64 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -33,6 +32,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 07:29 — 12th English · Chapter 20 Sentence Improvement Adv
 - 09-10 07:23 — 12th English · Chapter 19 Fill in Blanks Adv
 - 09-10 07:01 — 12th English · Chapter 21 Cloze Test
 - 09-10 06:28 — 12th English · Chapter 18 Error Spotting Adv
@@ -51,20 +51,11 @@
 
 - Chapter 14 Antonyms (English) — 2 बार
 - Chapter 16 Idioms Phrases (English) — 2 बार
-- Chapter 19 Fill in Blanks Adv (English) — 1 बार
 - Chapter 20 Sentence Improvement Adv (English) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 06:56:24   [Para_Jumbles] wrote PYQ_en.txt (10532 chars)
-09-10 06:57:04   [Sentence_Improvement_Adv] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 06:57:04   [Sentence_Improvement_Adv] written 22, failed 4; AI calls today 700/100000
-09-10 06:57:05 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_20_Sentence_Improvement_Adv after 104 min: todo ['Feynman_hi.txt', 'Set 03 en: todo', 'Set 03 hi: todo', 'Set 05 hi: todo'] problems []
-09-10 06:57:06 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_20_Sentence_Improvement_Adv (TODO: todo 4, problems 0)
-09-10 06:57:37   [Cloze_Test] review Short_Tricks_en.txt: 2 issue(s): - Trick 5 (FANBOYS vs. STILL): The mnemonic misclassifies conjunction functions (e.g., 'but' and 'yet' express
-09-10 06:57:45   [Sentence_Improvement_Adv] wrote Feynman_hi.txt (2593 chars)
-09-10 06:59:39   [Cloze_Test] review Important_Rules_en.txt: 1 issue(s): - The total time for a 10-blank cloze test is miscalculated: 6 fact-based blanks (90 sec) + 4 inference-bas
 09-10 07:00:00   [Sentence_Improvement_Adv] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 09-10 07:00:05   [Fill_in_Blanks_Adv] review Content_hi.txt: 1 issue(s): - The reading passage uses "malfunction" as a transitive verb ("will malfunction the delicate balance"), but "malfu
 09-10 07:00:07   [Sentence_Improvement_Adv] Practice_hi_Set_03.txt try 1: rejected (parsed 1 questions, numbers 52…52)
@@ -97,4 +88,12 @@
 09-10 07:22:20   [Sentence_Improvement_Adv] review PYQ_hi.txt: 1 issue(s): - Question 5 underlined part only "to go" but sentence includes "me"; replacing only "to go" with "that I go" yields un
 09-10 07:23:18   [Fill_in_Blanks_Adv] review: 6 section(s) corrected, 0 failed
 09-10 07:23:19   [Fill_in_Blanks_Adv] written 6, failed 0; AI calls today 756/100000
+09-10 07:23:29 DONE 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_19_Fill_in_Blanks_Adv in 51 min → 4ce1cd26
+09-10 07:23:29 worker 0: nothing left
+09-10 07:25:16   [Sentence_Improvement_Adv] review Short_Tricks_en.txt: 1 issue(s): - Trick 15 states "No-improvement is correct in roughly 1 of 5 questions, not 4 of 5" — this is an invented ex
+09-10 07:26:26   [Sentence_Arrangement] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 07:26:37   [Para_Jumbles] Practice_en_Set_01.txt try 2: re-solve disagrees (Q23 key a vs re-solve b, Q25 key c vs re-solve b)
+09-10 07:28:45   [Sentence_Arrangement] Practice_hi_Set_01.txt try 1: rejected (parsed 2 questions, numbers 1…3)
+09-10 07:29:30   [Sentence_Improvement_Adv] review: 7 section(s) corrected, 0 failed
+09-10 07:29:30   [Sentence_Improvement_Adv] written 7, failed 0; AI calls today 765/100000
 ```
