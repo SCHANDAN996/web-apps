@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 01:37 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
+**आख़िरी update:** 10-10-2026 01:45 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 30 मिनट |
-| W2 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 2 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🔎 review हो रहा है | 53 मिनट |
-| W4 | Chapter 08 Puzzles (Graduation Reasoning) | 📤 push हो रहा है | 0 मिनट |
-| W5 | Chapter 12 Missing Term (Graduation Reasoning) | 🔧 सुधार रहा है | 9 मिनट |
-| W6 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 53 मिनट |
-| W7 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 53 मिनट |
-| W8 | Chapter 19 Cubes Dice (Graduation Reasoning) | ✍️ लिख रहा है | 53 मिनट |
+| W1 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 38 मिनट |
+| W2 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 11 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🔎 review हो रहा है | 61 मिनट |
+| W4 | Chapter 22 Figure Series (Graduation Reasoning) | ✍️ लिख रहा है | 7 मिनट |
+| W5 | Chapter 12 Missing Term (Graduation Reasoning) | 🔧 सुधार रहा है | 17 मिनट |
+| W6 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 61 मिनट |
+| W7 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 61 मिनट |
+| W8 | Chapter 19 Cubes Dice (Graduation Reasoning) | ✍️ लिख रहा है | 61 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -31,11 +31,11 @@
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 10 | 0 | 15 |
 | 12th English | 25 | 0 | 0 |
-| Graduation Maths | 7 | 0 | 21 |
+| Graduation Maths | 8 | 0 | 20 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 13 | 2 | 15 |
 | Graduation English | 29 | 1 | 0 |
-| **कुल** | **221** | **7** | **68** |
+| **कुल** | **222** | **7** | **67** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -50,13 +50,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 01:01:44   [Para_Jumbles_Adv] written 1, failed 0; AI calls today 24/100000
-10-10 01:05:18   [Alphabet_Questions] Practice_en_Set_04.txt try 1: rejected (Q76:leaked_reasoning,Q77:leaked_reasoning,Q81:leaked_reasoning,Q83:leaked_reasoning,Q84:leaked_reasoning)
-10-10 01:05:58   [Classification] Practice_hi_Set_01.txt try 4: rejected (Q22:leaked_reasoning)
-10-10 01:05:58   [Classification] REJECTED Practice_hi_Set_01.txt: no translation passed the checks — not written
-10-10 01:05:58   [Classification] written 0, failed 1; AI calls today 30/100000
-10-10 01:05:59 NOT OK Graduation_Level/Reasoning/Chapter_02_Classification after 22 min: todo ['Set 01 hi: todo'] problems []
-10-10 01:06:00 START Graduation_Level/Reasoning/Chapter_02_Classification (TODO: todo 1, problems 0)
 10-10 01:06:26   [Dictionary_Order] FAILED Practice_en_Set_03.txt: network
 10-10 01:06:26   [Dictionary_Order] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
 10-10 01:06:49   [Para_Jumbles_Adv] repaired Mind_Map_hi.txt (1393 chars)
@@ -90,4 +83,11 @@
 10-10 01:34:17 START Graduation_Level/Reasoning/Chapter_21_Paper_Folding_Cutting (TODO: todo 12, problems 0)
 10-10 01:37:15   [Puzzles] review: 4 section(s) corrected, 0 failed
 10-10 01:37:15   [Puzzles] written 4, failed 0; AI calls today 60/100000
+10-10 01:37:27 DONE Graduation_Level/Reasoning/Chapter_08_Puzzles in 53 min → 0371ce13
+10-10 01:37:29 START Graduation_Level/Reasoning/Chapter_22_Figure_Series (TODO: todo 25, problems 0)
+10-10 01:38:22   [Sitting_Arrangement] review PYQ_hi.txt: 7 issue(s): - Answer for question 1 is wrong → correct answer is (a) E
+10-10 01:40:17   [Alphabet_Questions] FAILED Practice_en_Set_04.txt: too_long
+10-10 01:40:17   [Alphabet_Questions] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
+10-10 01:41:41   [Dictionary_Order] Practice_en_Set_04.txt try 2: re-solve disagrees (Q78 key d vs re-solve ?, Q81 key a vs re-solve c, Q82 key c vs re-solve a, Q87 key c vs re-solve b, 
+10-10 01:42:23   [Figure_Series] wrote Content_en.txt (8790 chars)
 ```
