@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 12:00 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 12:16 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 06 Order Ranking (12th Reasoning) | ✍️ लिख रहा है | 19 मिनट |
-| W2 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 31 मिनट |
-| W3 | Chapter 04 Blood Relations (12th Reasoning) | ✍️ लिख रहा है | 32 मिनट |
-| W4 | Chapter 03 Coding Decoding (12th Reasoning) | ✍️ लिख रहा है | 77 मिनट |
-| W5 | Chapter 02 Classification (12th Reasoning) | ✍️ लिख रहा है | 17 मिनट |
+| W1 | Chapter 06 Order Ranking (12th Reasoning) | ✍️ लिख रहा है | 34 मिनट |
+| W2 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 46 मिनट |
+| W3 | Chapter 04 Blood Relations (12th Reasoning) | ✍️ लिख रहा है | 48 मिनट |
+| W4 | Chapter 03 Coding Decoding (12th Reasoning) | ✍️ लिख रहा है | 93 मिनट |
+| W5 | Chapter 02 Classification (12th Reasoning) | 🔎 review हो रहा है | 9 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -23,14 +23,14 @@
 | 10th Maths | 9 | 13 | 0 |
 | 10th English | 0 | 0 | 20 |
 | 12th Maths | 0 | 0 | 23 |
-| 12th GK | 15 | 0 | 9 |
-| 12th Reasoning | 1 | 0 | 24 |
+| 12th GK | 16 | 0 | 8 |
+| 12th Reasoning | 2 | 0 | 23 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 16 | 0 | 12 |
 | Graduation Reasoning | 3 | 0 | 27 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **137** | **13** | **146** |
+| **कुल** | **139** | **13** | **144** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -49,34 +49,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 11:34:02   [Blood_Relations] wrote Feynman_en.txt (3138 chars)
-09-10 11:35:43   [Blood_Relations] wrote Feynman_hi.txt (3613 chars)
-09-10 11:36:27   [Word_Roots] review Important_Rules_en.txt: 1 issue(s): - Rule 2 states prefixes never change word class → Prefixes like en- (enlarge) and be- (befriend) can chang
-09-10 11:37:38   [Classification] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 11:39:14   [Coding_Decoding] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 11:40:51   [Coding_Decoding] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-09-10 11:41:04   [Word_Roots] review: 5 section(s) corrected, 0 failed
-09-10 11:41:04   [Word_Roots] written 5, failed 0; AI calls today 368/100000
-09-10 11:41:16 DONE 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_25_Word_Roots in 29 min → 9456960c
-09-10 11:41:18 START 12th_Level/Reasoning/Chapter_06_Order_Ranking (TODO: todo 25, problems 0)
-09-10 11:41:33   [Coding_Decoding] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 11:42:40   [Order_Ranking] wrote Content_en.txt (6221 chars)
-09-10 11:42:53   [Classification] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 11:42:53   [Classification] written 22, failed 3; AI calls today 371/100000
-09-10 11:42:53 NOT OK 12th_Level/Reasoning/Chapter_02_Classification after 109 min: todo ['Feynman_en.txt', 'Set 03 en: todo', 'Set 03 hi: todo'] problems []
-09-10 11:42:55 START 12th_Level/Reasoning/Chapter_02_Classification (TODO: todo 3, problems 0)
-09-10 11:44:31   [Order_Ranking] wrote Content_hi.txt (5706 chars)
-09-10 11:44:39   [Coding_Decoding] Practice_en_Set_02.txt try 2: rejected (Q30:leaked_reasoning,Q35:leaked_reasoning,Q40:leaked_reasoning,Q41:leaked_reasoning,Q46:leaked_reasoning)
-09-10 11:44:50   [Classification] wrote Feynman_en.txt (3791 chars)
-09-10 11:45:03   [Order_Ranking] wrote Feynman_en.txt (3571 chars)
-09-10 11:45:58   [Coding_Decoding] Practice_en_Set_02.txt try 3: rejected (Q40:duplicate_options)
-09-10 11:47:04   [Order_Ranking] wrote Feynman_hi.txt (2920 chars)
-09-10 11:47:30   [Order_Ranking] wrote Mind_Map.txt (1729 chars)
-09-10 11:48:06   [Order_Ranking] wrote Flashcards_en.txt (2379 chars)
-09-10 11:49:20   [Direction_Sense] Content_en.txt try 1: answer too long — asking for a tighter version
-09-10 11:49:47   [Order_Ranking] wrote Flashcards_hi.txt (4324 chars)
-09-10 11:50:59   [Blood_Relations] Mind_Map.txt try 1: answer too long — asking for a tighter version
-09-10 11:51:12   [Direction_Sense] wrote Content_en.txt (8231 chars)
 09-10 11:51:12   [Order_Ranking] wrote PYQ_en.txt (8672 chars)
 09-10 11:51:33   [Direction_Sense] wrote Content_hi.txt (1071 chars)
 09-10 11:52:07   [Blood_Relations] wrote Mind_Map.txt (2867 chars)
@@ -89,4 +61,32 @@
 09-10 11:58:23   [Order_Ranking] Short_Tricks_hi.txt try 1: rejected (too short)
 09-10 11:59:07   [Blood_Relations] wrote PYQ_en.txt (10177 chars)
 09-10 12:00:03   [Order_Ranking] wrote Short_Tricks_hi.txt (4466 chars)
+09-10 12:02:14   [Order_Ranking] wrote Important_Rules_en.txt (3623 chars)
+09-10 12:02:31   [Blood_Relations] wrote PYQ_hi.txt (9044 chars)
+09-10 12:03:01   [Blood_Relations] wrote Short_Tricks_en.txt (814 chars)
+09-10 12:03:15   [Coding_Decoding] Practice_en_Set_02.txt try 4: re-solve disagrees (Q34 key b vs re-solve d, Q44 key b vs re-solve a)
+09-10 12:03:15   [Coding_Decoding] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
+09-10 12:03:15   [Coding_Decoding] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+09-10 12:03:46   [Coding_Decoding] Practice_en_Set_03.txt try 1: rejected (parsed 1 questions, numbers 51…51)
+09-10 12:03:48   [Order_Ranking] wrote Important_Rules_hi.txt (2959 chars)
+09-10 12:03:56   [Classification] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 12:05:13   [Blood_Relations] wrote Short_Tricks_hi.txt (4984 chars)
+09-10 12:06:01   [Coding_Decoding] Practice_en_Set_03.txt try 2: rejected (Q54:answer_solution_conflict,Q57:leaked_reasoning,Q71:leaked_reasoning,Q55:duplicate_options,Q64:duplicate_opt
+09-10 12:06:40   [Classification] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 12:06:40   [Classification] written 3, failed 0; AI calls today 407/100000
+09-10 12:06:47   [Order_Ranking] Practice_en_Set_01.txt try 1: rejected (Q22:leaked_reasoning,Q23:leaked_reasoning)
+09-10 12:07:14   [Blood_Relations] Important_Rules_en.txt try 1: rejected (corrupted characters)
+09-10 12:07:48   [Blood_Relations] wrote Important_Rules_en.txt (3066 chars)
+09-10 12:08:05   [Direction_Sense] Feynman_en.txt try 1: answer too long — asking for a tighter version
+09-10 12:09:10   [Direction_Sense] Feynman_en.txt try 2: rejected (chat debris "Here is the")
+09-10 12:09:10   [Direction_Sense] REJECTED Feynman_en.txt: chat debris "Here is the" — not written
+09-10 12:10:32   [Classification] review Content_en.txt: 1 issue(s): - Type 3 example (ACE, BDF, FHJ, OQS) has no valid odd-one-out (all have gap 2, starting-letter parity gives 2-2 sp
+09-10 12:11:07   [Order_Ranking] FAILED Practice_en_Set_01.txt: rate_limited
+09-10 12:11:07   [Order_Ranking] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
+09-10 12:11:16   [Direction_Sense] wrote Feynman_hi.txt (2887 chars)
+09-10 12:11:55   [Direction_Sense] wrote Mind_Map.txt (2474 chars)
+09-10 12:12:54   [Order_Ranking] Practice_en_Set_02.txt try 1: rejected (Q39:leaked_reasoning)
+09-10 12:13:02   [Direction_Sense] wrote Flashcards_en.txt (4649 chars)
+09-10 12:15:02   [Direction_Sense] wrote Flashcards_hi.txt (3866 chars)
+09-10 12:16:13   [Classification] review Content_hi.txt: 2 issue(s): - The claim "SSC, Banking और Railway की परीक्षाओं में वर्गीकरण से लगभग हर शिफ्ट में 2–4 प्रश्न आते हैं" is an inven
 ```
