@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 04:59 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:38 AM
+**आख़िरी update:** 10-10-2026 05:14 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:38 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W6 | Chapter 24 Statistics (Graduation Maths) | ✍️ लिख रहा है | 57 मिनट |
-| W7 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 29 मिनट |
-| W8 | Chapter 26 Permutation Combination (Graduation Maths) | ✍️ लिख रहा है | 29 मिनट |
+| W6 | Chapter 24 Statistics (Graduation Maths) | ✍️ लिख रहा है | 72 मिनट |
+| W7 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 44 मिनट |
+| W8 | Chapter 26 Permutation Combination (Graduation Maths) | ✍️ लिख रहा है | 44 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -60,35 +60,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 04:45:26   [Calculus] written 24, failed 1; AI calls today 780/100000
-10-10 04:45:26 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_22_Calculus after 105 min: todo ['Content_en.txt'] problems ['Feynman_hi.txt: much shorter than the English section (2369 ']
-10-10 04:45:26 worker 0: nothing left
-10-10 04:45:36   [Probability] wrote Short_Tricks_hi.txt (534 chars)
-10-10 04:45:50   [Trigonometry] Practice_en_Set_06.txt try 1: rejected (parsed 24 questions, numbers 126…150)
-10-10 04:46:14   [Probability] wrote Important_Formulas_en.txt (2917 chars)
-10-10 04:46:41   [Data_Interpretation] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-10-10 04:46:41   [Data_Interpretation] written 20, failed 5; AI calls today 783/100000
-10-10 04:46:41 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_23_Data_Interpretation after 102 min: todo ['Feynman_en.txt', 'Set 03 en: todo', 'Set 03 hi: todo', 'Set 05 en: todo'] problems ['Feynman_hi.txt: Hindi file is mostly not in Hindi']
-10-10 04:46:41 worker 1: nothing left
-10-10 04:46:45   [Complex_Numbers] review Flashcards_hi.txt: 1 issue(s): - Card 14 claims "इकाई के सभी nवें मूलों का योग सदैव 0" → The sum of nth roots of unity is 0 for n>1; for n=1 th
-10-10 04:47:17   [Permutation_Combination] Content_hi.txt try 1: answer too long — asking for a tighter version
-10-10 04:47:20   [Probability] wrote Important_Formulas_hi.txt (2478 chars)
-10-10 04:47:33   [Statistics] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-10-10 04:48:06   [Trigonometry] Practice_en_Set_06.txt try 2: rejected (parsed 0 questions, numbers -…-)
-10-10 04:49:22   [Statistics] Practice_en_Set_04.txt try 1: rejected (Q88:leaked_reasoning)
-10-10 04:49:42   [Probability] Practice_en_Set_01.txt try 1: re-solve disagrees (Q13 key c vs re-solve ?, Q23 key d vs re-solve ?)
-10-10 04:50:50   [Quadratic_Equations] review Important_Formulas_en.txt: 2 issue(s): - Quadratic Equations: Difference of roots formula α − β = √D / a missing ± → α − β = ±√D / a (or |α − β
-10-10 04:50:54   [Trigonometry] Practice_en_Set_06.txt try 3: rejected (parsed 24 questions, numbers 126…150)
-10-10 04:51:48   [Probability] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-10-10 04:52:40   [Trigonometry] Practice_en_Set_06.txt try 4: rejected (parsed 23 questions, numbers 126…150)
-10-10 04:52:40   [Trigonometry] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
-10-10 04:52:40   [Trigonometry] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-10-10 04:52:40   [Trigonometry] written 3, failed 5; AI calls today 801/100000
-10-10 04:52:41 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_19_Trigonometry after 38 min: todo ['Set 03 en: todo', 'Set 03 hi: todo', 'Set 05 hi: todo', 'Set 06 en: todo'] problems []
-10-10 04:52:41 worker 3: nothing left
-10-10 04:52:43   [Complex_Numbers] review: 5 section(s) corrected, 0 failed
-10-10 04:52:43   [Complex_Numbers] written 5, failed 0; AI calls today 801/100000
-10-10 04:53:05 DONE Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_21_Complex_Numbers in 28 min → 8de9a0b4
 10-10 04:53:05 worker 2: nothing left
 10-10 04:53:20   [Statistics] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 10-10 04:53:46   [Probability] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
@@ -100,4 +71,33 @@
 10-10 04:55:32   [Probability] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 10-10 04:56:18   [Probability] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
 10-10 04:57:33   [Probability] Practice_en_Set_02.txt try 2: rejected (parsed 20 questions, numbers 26…50)
+10-10 05:00:07   [Probability] Practice_en_Set_02.txt try 3: rejected (parsed 21 questions, numbers 26…50)
+10-10 05:00:36   [Permutation_Combination] FAILED Content_hi.txt: too_long
+10-10 05:00:42   [Permutation_Combination] Feynman_en.txt try 1: rejected (too short)
+10-10 05:01:41   [Probability] Practice_en_Set_02.txt try 4: rejected (parsed 22 questions, numbers 26…49)
+10-10 05:01:41   [Probability] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
+10-10 05:01:41   [Probability] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+10-10 05:03:46   [Probability] Practice_en_Set_03.txt try 1: rejected (parsed 22 questions, numbers 51…75)
+10-10 05:05:55   [Probability] Practice_en_Set_03.txt try 2: rejected (parsed 21 questions, numbers 51…74)
+10-10 05:07:31   [Probability] Practice_en_Set_03.txt try 3: rejected (parsed 22 questions, numbers 51…75)
+10-10 05:08:16   [Statistics] FAILED Practice_hi_Set_04.txt: too_long
+10-10 05:08:23   [Permutation_Combination] Feynman_en.txt try 2: rejected (corrupted characters)
+10-10 05:08:23   [Permutation_Combination] REJECTED Feynman_en.txt: corrupted characters — not written
+10-10 05:09:00   [Permutation_Combination] wrote Feynman_hi.txt (2252 chars)
+10-10 05:09:17   [Probability] Practice_en_Set_03.txt try 4: rejected (parsed 21 questions, numbers 51…75)
+10-10 05:09:17   [Probability] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
+10-10 05:09:17   [Probability] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
+10-10 05:09:41   [Statistics] Practice_en_Set_05.txt try 1: rejected (parsed 24 questions, numbers 101…124)
+10-10 05:09:52   [Permutation_Combination] wrote Mind_Map.txt (1738 chars)
+10-10 05:10:43   [Permutation_Combination] wrote Flashcards_en.txt (3066 chars)
+10-10 05:10:50   [Probability] Practice_en_Set_04.txt try 1: rejected (parsed 21 questions, numbers 76…100)
+10-10 05:10:59   [Statistics] Practice_en_Set_05.txt try 2: rejected (Q110:leaked_reasoning,Q123:leaked_reasoning)
+10-10 05:11:30   [Permutation_Combination] wrote Flashcards_hi.txt (3164 chars)
+10-10 05:12:29   [Permutation_Combination] wrote PYQ_en.txt (7239 chars)
+10-10 05:12:43   [Permutation_Combination] wrote PYQ_hi.txt (515 chars)
+10-10 05:12:50   [Statistics] Practice_en_Set_05.txt try 3: rejected (parsed 0 questions, numbers -…-)
+10-10 05:13:21   [Permutation_Combination] wrote Short_Tricks_en.txt (4292 chars)
+10-10 05:13:29   [Probability] Practice_en_Set_04.txt try 2: rejected (parsed 23 questions, numbers 76…100)
+10-10 05:14:40   [Probability] Practice_en_Set_04.txt try 3: rejected (parsed 21 questions, numbers 76…100)
+10-10 05:14:44   [Permutation_Combination] wrote Short_Tricks_hi.txt (6658 chars)
 ```
