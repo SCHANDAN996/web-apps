@@ -1,149 +1,151 @@
-The angles of a triangle are in the ratio 1 : 2 : 3. The smallest angle is:
-(A) 20° (B) 30° (C) 40° (D) 50°
-Answer: (B) 30°
-Solution: Let angles be x, 2x, 3x. x + 2x + 3x = 180° ⇒ 6x = 180° ⇒ x = 30°.
-Source: NCERT Class 9
+Questions 101–120: Easy | Questions 121–125: Medium
 
-A chord of a circle of radius 13 cm is at a distance of 5 cm from the centre. The length of the chord is:
-(A) 12 cm (B) 24 cm (C) 26 cm (D) 20 cm
-Answer: (B) 24 cm
-Solution: Half chord = √(13² – 5²) = √(169 – 25) = √144 = 12 cm. Full chord = 2 × 12 = 24 cm.
+101. The angles of a triangle are in the ratio 1 : 2 : 3. The smallest angle is:
+(a) 20° (b) 30° (c) 40° (d) 50°
+Answer: (b)
+Solution: Let the angles be x, 2x and 3x. Then x + 2x + 3x = 180°, so 6x = 180° and x = 30°. The trap is picking 60°, which is the middle angle, not the smallest. So the answer is 30°.
+Source: NCERT Class 9 Mathematics
+
+102. A chord of a circle of radius 13 cm is at a distance of 5 cm from the centre. The length of the chord is:
+(a) 12 cm (b) 20 cm (c) 24 cm (d) 26 cm
+Answer: (c)
+Solution: The perpendicular from the centre bisects the chord, so half the chord = √(13² – 5²) = √144 = 12 cm. The trap is stopping at 12 cm, which is only half the chord. Full chord = 2 × 12 = 24 cm, so the answer is 24 cm.
+Source: NCERT Class 9 Mathematics
+
+103. A parallelogram has adjacent sides 12 cm and 8 cm. The distance between the longer sides is 5 cm. The distance between the shorter sides is:
+(a) 10 cm (b) 6.5 cm (c) 8 cm (d) 7.5 cm
+Answer: (d)
+Solution: Area = base × height = 12 × 5 = 60 cm². Taking 8 cm as base, height = 60/8 = 7.5 cm. The trap is assuming both heights are equal to 5 cm. So the answer is 7.5 cm.
 Source: PYQ-style
 
-A parallelogram has sides 12 cm and 8 cm. The distance between the longer sides is 5 cm. The distance between the shorter sides is:
-(A) 7.5 cm (B) 6.5 cm (C) 8 cm (D) 10 cm
-Answer: (A) 7.5 cm
-Solution: Area = base × height = 12 × 5 = 60 cm². With other side (8 cm) as base, height = Area/8 = 60/8 = 7.5 cm.
+104. The area of an equilateral triangle is 36√3 cm². Its side length is:
+(a) 6 cm (b) 12 cm (c) 18 cm (d) 9 cm
+Answer: (b)
+Solution: (√3/4)a² = 36√3 gives a² = 144, so a = 12 cm. The trap is taking a² = 36, which ignores the division by 4. So the answer is 12 cm.
+Source: NCERT Class 9 Mathematics
+
+105. Two tangents PA and PB from point P to a circle with centre O are inclined at 80° to each other. The measure of ∠AOB is:
+(a) 80° (b) 90° (c) 100° (d) 120°
+Answer: (c)
+Solution: The radius is perpendicular to the tangent, so ∠OAP = ∠OBP = 90°. In quadrilateral OAPB, ∠AOB = 360° – (90° + 90° + 80°) = 100°. The trap is answering 80°, the angle between the tangents itself. So the answer is 100°.
+Source: NCERT Class 10 Mathematics
+
+106. A chord of a circle of radius 14 cm subtends a right angle at the centre. The area of the minor segment is (π = 22/7):
+(a) 98 cm² (b) 112 cm² (c) 154 cm² (d) 56 cm²
+Answer: (d)
+Solution: Sector area = (90/360) × (22/7) × 14² = 154 cm²; triangle area = ½ × 14 × 14 = 98 cm². Segment = 154 – 98 = 56 cm². The trap is reporting 154 cm², which is the sector, not the segment. So the answer is 56 cm².
+Source: NCERT Class 10 Mathematics
+
+107. The diagonal of a cube is 12√3 cm. The volume of the cube is:
+(a) 1728 cm³ (b) 216 cm³ (c) 576 cm³ (d) 432 cm³
+Answer: (a)
+Solution: Diagonal = a√3 = 12√3, so a = 12 cm and volume = 12³ = 1728 cm³. The trap is using the face diagonal formula a√2, which gives a wrong edge. So the answer is 1728 cm³.
+Source: NCERT Class 8 Mathematics
+
+108. A cylindrical pipe has outer diameter 10 cm, inner diameter 8 cm and length 14 cm. The volume of metal used is (π = 22/7):
+(a) 396 cm³ (b) 400 cm³ (c) 560 cm³ (d) 616 cm³
+Answer: (a)
+Solution: Outer radius = 5 cm, inner radius = 4 cm. Volume = π(5² – 4²) × 14 = (22/7) × 9 × 14 = 396 cm³. The trap is using the diameters 10 and 8 directly as radii. So the answer is 396 cm³.
+Source: NCERT Class 9 Mathematics
+
+109. In ΔABC, AD is a median and G is the centroid. If AG = 6 cm, the length of AD is:
+(a) 9 cm (b) 12 cm (c) 15 cm (d) 18 cm
+Answer: (a)
+Solution: The centroid divides the median in the ratio 2 : 1, so AG : GD = 2 : 1 and GD = 3 cm. Hence AD = 6 + 3 = 9 cm. The trap is doubling AG to get 12 cm, which reverses the ratio. So the answer is 9 cm.
+Source: NCERT Class 10 Mathematics
+
+110. The ratio of the areas of two similar triangles is 4 : 9. If a side of the smaller triangle is 6 cm, the corresponding side of the larger triangle is:
+(a) 12 cm (b) 13.5 cm (c) 9 cm (d) 15 cm
+Answer: (c)
+Solution: The ratio of sides is the square root of the ratio of areas: √(4/9) = 2/3. Larger side = 6 × (3/2) = 9 cm. The trap is using the area ratio directly, giving 13.5 cm. So the answer is 9 cm.
+Source: NCERT Class 10 Mathematics
+
+111. A right circular cone has height 24 cm and slant height 25 cm. Its volume is (π = 22/7):
+(a) 1800 cm³ (b) 1256 cm³ (c) 1232 cm³ (d) 2200 cm³
+Answer: (c)
+Solution: Radius = √(25² – 24²) = √49 = 7 cm. Volume = ⅓ × (22/7) × 7² × 24 = 1232 cm³. The trap is using 25 cm as the radius instead of computing it from the slant height. So the answer is 1232 cm³.
+Source: NCERT Class 9 Mathematics
+
+112. A solid sphere of radius 6 cm is melted and recast into a solid cylinder of base radius 3 cm. The height of the cylinder is:
+(a) 16 cm (b) 24 cm (c) 48 cm (d) 32 cm
+Answer: (d)
+Solution: Volume of sphere = (4/3)π × 6³ = 288π cm³. Cylinder: π × 3² × h = 288π, so h = 32 cm. The trap is forgetting the factor 4/3 in the sphere's volume, which gives 24 cm. So the answer is 32 cm.
+Source: NCERT Class 10 Mathematics
+
+113. The difference between the interior and exterior angles of a regular polygon is 90°. The number of sides is:
+(a) 6 (b) 8 (c) 10 (d) 12
+Answer: (b)
+Solution: Interior + exterior = 180° and interior – exterior = 90°, so exterior = 45°. Number of sides = 360/45 = 8. The trap is dividing 360 by the interior angle 135°, which does not give an integer count directly. So the answer is 8.
+Source: NCERT Class 8 Mathematics
+
+114. A semicircular garden has perimeter 36 m, including the diameter. Its area is (π = 22/7):
+(a) 38.5 m² (b) 77 m² (c) 154 m² (d) 308 m²
+Answer: (b)
+Solution: Perimeter = πr + 2r = r(22/7 + 2) = r × 36/7 = 36, so r = 7 m. Area = ½ × (22/7) × 49 = 77 m². The trap is using πr alone as the perimeter, which omits the diameter. So the answer is 77 m².
+Source: NCERT Class 8 Mathematics
+
+115. The volume of a cube is numerically equal to its total surface area. The edge length is:
+(a) 2 units (b) 4 units (c) 6 units (d) 8 units
+Answer: (c)
+Solution: a³ = 6a² gives a = 6. The trap is using the lateral surface area 4a², which would give 4 units. So the answer is 6 units.
+Source: NCERT Class 8 Mathematics
+
+116. Two circles of radii 5 cm and 3 cm touch each other internally. The distance between their centres is:
+(a) 8 cm (b) 2 cm (c) 4 cm (d) 5 cm
+Answer: (b)
+Solution: For internal touching, the distance between centres equals the difference of radii: 5 – 3 = 2 cm. The trap is adding the radii to get 8 cm, which applies to external touching. So the answer is 2 cm.
+Source: NCERT Class 10 Mathematics
+
+117. A chord of length 30 cm is drawn in a circle of radius 17 cm. Its distance from the centre is:
+(a) 12 cm (b) 15 cm (c) 7 cm (d) 8 cm
+Answer: (d)
+Solution: Half the chord = 15 cm. Distance = √(17² – 15²) = √(289 – 225) = √64 = 8 cm. The trap is using the full chord 30 cm in the Pythagorean step. So the answer is 8 cm.
+Source: NCERT Class 9 Mathematics
+
+118. The base of an isosceles triangle is 16 cm and its area is 48 cm². Its perimeter is:
+(a) 30 cm (b) 36 cm (c) 40 cm (d) 24 cm
+Answer: (b)
+Solution: 48 = ½ × 16 × h gives h = 6 cm. Each equal side = √(8² + 6²) = 10 cm, so perimeter = 16 + 10 + 10 = 36 cm. The trap is taking the equal side as √(16² + 6²), forgetting the height bisects the base. So the answer is 36 cm.
+Source: NCERT Class 9 Mathematics
+
+119. In a cyclic quadrilateral ABCD, ∠A = 65° and ∠B = 75°. Then ∠D is:
+(a) 65° (b) 75° (c) 115° (d) 105°
+Answer: (d)
+Solution: Opposite angles of a cyclic quadrilateral are supplementary, and B is opposite D. So ∠D = 180° – 75° = 105°. The trap is computing 180° – 65° = 115°, which is ∠C, not ∠D. So the answer is 105°.
+Source: NCERT Class 9 Mathematics
+
+120. A right circular cone and a right circular cylinder have equal bases and equal volumes. The ratio of their heights (cone : cylinder) is:
+(a) 1 : 3 (b) 2 : 1 (c) 1 : 2 (d) 3 : 1
+Answer: (d)
+Solution: ⅓πr²h₁ = πr²h₂ gives h₁ = 3h₂, so the ratio is 3 : 1. The trap is inverting the ratio to 1 : 3. So the answer is 3 : 1.
+Source: NCERT Class 10 Mathematics
+
+121. A solid sphere of radius 6 cm is melted and drawn into a wire of diameter 2 mm. The length of the wire is:
+(a) 288 m (b) 144 m (c) 432 m (d) 576 m
+Answer: (a)
+Solution: Volume of sphere = (4/3)π × 6³ = 288π cm³. Wire radius = 0.1 cm, so length = 288π / (π × 0.01) = 28800 cm = 288 m. The trap is forgetting to convert millimetres to centimetres, which distorts the result by a factor of 100. So the answer is 288 m.
 Source: PYQ-style
 
-The area of an equilateral triangle is 36√3 cm². Its side length is:
-(A) 6 cm (B) 12 cm (C) 18 cm (D) 36 cm
-Answer: (B) 12 cm
-Solution: (√3/4)a² = 36√3 ⇒ a²/4 = 36 ⇒ a² = 144 ⇒ a = 12 cm.
-Source: NCERT Class 9
+122. Two circles of radii 5 cm and 3 cm have centres 4 cm apart and intersect at two points. The length of their common chord is:
+(a) 6 cm (b) 8 cm (c) 4.8 cm (d) 5 cm
+Answer: (a)
+Solution: The distance from the larger circle's centre to the chord is (5² – 3² + 4²)/(2 × 4) = 32/8 = 4 cm. Half chord = √(25 – 16) = 3 cm, so the chord is 6 cm. The trap is reporting 3 cm, which is only half the chord. So the answer is 6 cm.
+Source: NCERT Class 9 Mathematics
 
-Two tangents PA and PB from point P to a circle with centre O are inclined at 80°. The measure of ∠POA is:
-(A) 40° (B) 50° (C) 80° (D) 100°
-Answer: (B) 50°
-Solution: In quadrilateral PAOB, ∠PAO = ∠PBO = 90°. Sum = 360° ⇒ ∠AOB = 360° – (90°+90°+80°) = 100°. PO bisects ∠AOB, so ∠POA = 50°.
-Source: PYQ-style
+123. A triangle has sides 13 cm, 14 cm and 15 cm. Its area is:
+(a) 84 cm² (b) 96 cm² (c) 72 cm² (d) 108 cm²
+Answer: (a)
+Solution: Semi-perimeter s = 21 cm. By Heron's formula, area = √(21 × 8 × 7 × 6) = √7056 = 84 cm². The trap is using 15 as the height with base 14, which wrongly assumes a right triangle. So the answer is 84 cm².
+Source: NCERT Class 9 Mathematics
 
-A chord of a circle of radius 14 cm subtends a right angle at the centre. The area of the minor segment is (π = 22/7):
-(A) 56 cm² (B) 112 cm² (C) 154 cm² (D) 28 cm²
-Answer: (A) 56 cm²
-Solution: Area of sector = (90/360)×π×14² = ¼ × (22/7)×196 = 154 cm². Area of triangle = ½ × 14 × 14 = 98 cm². Area of segment = 154 – 98 = 56 cm².
-Source: PYQ-style
+124. An equilateral triangle is inscribed in a circle of radius 6 cm. The area of the triangle is:
+(a) 36√3 cm² (b) 48√3 cm² (c) 27√3 cm² (d) 54√3 cm²
+Answer: (c)
+Solution: For an inscribed equilateral triangle, side = r√3 = 6√3 cm. Area = (√3/4) × (6√3)² = (√3/4) × 108 = 27√3 cm². The trap is taking the side as 2r = 12 cm, which is the circumscribed case. So the answer is 27√3 cm².
+Source: NCERT Class 10 Mathematics
 
-The diagonal of a cube is 12√3 cm. The volume of the cube is:
-(A) 1728 cm³ (B) 576 cm³ (C) 216 cm³ (D) 432 cm³
-Answer: (A) 1728 cm³
-Solution: Diagonal = a√3 = 12√3 ⇒ a = 12 cm. Volume = a³ = 1728 cm³.
-Source: PYQ-style
-
-A cylindrical pipe has outer diameter 10 cm, inner diameter 8 cm, and length 14 cm. The volume of metal used in the pipe is (π = 22/7):
-(A) 396 cm³ (B) 400 cm³ (C) 560 cm³ (D) 600 cm³
-Answer: (A) 396 cm³
-Solution: Outer radius = 5 cm, inner = 4 cm. Cross-sectional area = π(5² – 4²) = 9π. Volume = 9π × 14 = 126π = 126 × (22/7) = 396 cm³.
-Source: PYQ-style
-
-In ΔABC, AD is a median and G is the centroid. If AG = 6 cm, the length of AD is:
-(A) 9 cm (B) 12 cm (C) 15 cm (D) 18 cm
-Answer: (A) 9 cm
-Solution: Centroid divides median in ratio 2:1 (AG:GD = 2:1). So AD = AG + GD = AG + AG/2 = 3/2 × AG = 3/2 × 6 = 9 cm.
-Source: PYQ-style
-
-The ratio of areas of two similar triangles is 4 : 9. If a side of the smaller triangle is 6 cm, the corresponding side of the larger triangle is:
-(A) 9 cm (B) 12 cm (C) 13.5 cm (D) 15 cm
-Answer: (A) 9 cm
-Solution: Side ratio = √(area ratio) = √(4/9) = 2/3. Larger side = 6 × (3/2) = 9 cm.
-Source: NCERT Class 10
-
-A right circular cone has height 24 cm and slant height 25 cm. Its volume is (π = 22/7):
-(A) 1232 cm³ (B) 1256 cm³ (C) 1800 cm³ (D) 2200 cm³
-Answer: (A) 1232 cm³
-Solution: Base radius r = √(25² – 24²) = 7 cm. Volume = ⅓ πr²h = ⅓ × (22/7) × 49 × 24 = (22/7) × 49 × 8 = 22 × 56 = 1232 cm³.
-Source: PYQ-style
-
-A solid sphere of radius 6 cm is melted and recast into a solid cylinder of base radius 3 cm. The height of the cylinder is:
-(A) 16 cm (B) 24 cm (C) 32 cm (D) 48 cm
-Answer: (C) 32 cm
-Solution: Volume of sphere = ⁴⁄₃ π × 6³ = 288π cm³. Cylinder volume = π × 3² × h = 9πh. Equate: 9πh = 288π ⇒ h = 32 cm.
-Source: PYQ-style
-
-The difference between the interior and exterior angles of a regular polygon is 90°. The number of sides is:
-(A) 6 (B) 8 (C) 10 (D) 12
-Answer: (B) 8
-Solution: Interior + exterior = 180°, interior – exterior = 90°. Solving gives exterior = 45°. Number of sides = 360°/45° = 8.
-Source: PYQ-style
-
-A semicircular garden has perimeter 36 m (including the diameter). Its area is (π = 22/7):
-(A) 77 m² (B) 154 m² (C) 38.5 m² (D) 308 m²
-Answer: (A) 77 m²
-Solution: Perimeter = πr + 2r = r(π + 2) = 36 ⇒ r(22/7 + 2) = r(36/7) = 36 ⇒ r = 7 m. Area = ½ πr² = ½ × (22/7) × 49 = 77 m².
-Source: PYQ-style
-
-The volume of a cube is numerically equal to its total surface area. The edge length is:
-(A) 6 units (B) 4 units (C) 2 units (D) 8 units
-Answer: (A) 6 units
-Solution: a³ = 6a² ⇒ a = 6.
-Source: NCERT Class 8
-
-Two circles of radii 5 cm and 3 cm touch internally. The distance between their centres is:
-(A) 2 cm (B) 8 cm (C) 5 cm (D) 4 cm
-Answer: (A) 2 cm
-Solution: For internal touch, distance = difference of radii = 5 – 3 = 2 cm.
-Source: NCERT Class 10
-
-A chord of length 30 cm is drawn in a circle of radius 17 cm. Its distance from the centre is:
-(A) 8 cm (B) 15 cm (C) 7 cm (D) 12 cm
-Answer: (A) 8 cm
-Solution: Half chord = 15 cm. Distance = √(17² – 15²) = √(289 – 225) = √64 = 8 cm.
-Source: PYQ-style
-
-The base of an isosceles triangle is 16 cm and its area is 48 cm². The perimeter is:
-(A) 30 cm (B) 36 cm (C) 40 cm (D) 24 cm
-Answer: (B) 36 cm
-Solution: Area = ½ × base × height ⇒ 48 = ½ × 16 × h ⇒ h = 6 cm. Equal side = √(8² + 6²) = 10 cm. Perimeter = 16 + 10 + 10 = 36 cm.
-Source: PYQ-style
-
-In a cyclic quadrilateral ABCD, ∠A = 65° and ∠B = 75°. Then ∠D is:
-(A) 65° (B) 75° (C) 105° (D) 115°
-Answer: (C) 105°
-Solution: In a cyclic quadrilateral, opposite angles sum to 180°. So ∠D = 180° – ∠B = 180° – 75° = 105°.
-Source: NCERT Class 9
-
-A right circular cone and a right circular cylinder have equal base and equal volume. The ratio of their heights (cone : cylinder) is:
-(A) 3 : 1 (B) 1 : 3 (C) 2 : 1 (D) 1 : 2
-Answer: (A) 3 : 1
-Solution: V_cone = ⅓ πr² h_c, V_cyl = πr² h_cy. With equal volumes, ⅓ h_c = h_cy ⇒ h_c : h_cy = 3 : 1.
-Source: NCERT Class 10
-
-A solid sphere of radius 6 cm is melted and drawn into a wire of diameter 2 mm. The length of the wire is:
-(A) 144 m (B) 288 m (C) 432 m (D) 576 m
-Answer: (B) 288 m
-Solution: Volume of sphere = ⁴⁄₃ π (6)³ = 288π cm³. Wire radius = 1 mm = 0.1 cm. Cross‑sectional area of wire = π (0.1)² = 0.01π cm². Length = Volume / Area = 288π / 0.01π = 28800 cm = 288 m.
-Source: PYQ-style
-
-Two circles of radii 5 cm and 3 cm intersect at two points. The distance between their centres is 4 cm. The length of the common chord is:
-(A) 6 cm (B) 8 cm (C) 5 cm (D) 4.8 cm
-Answer: (A) 6 cm
-Solution: Let distance from centre of larger circle to chord be d₁. Using formula d₁ = (r₁² – r₂² + d²) / (2d) = (25 – 9 + 16) / 8 = 32/8 = 4 cm. Half chord = √(r₁² – d₁²) = √(25 – 16) = 3 cm. Full chord = 6 cm.
-Source: NCERT Class 9 / SSC CGL Tier‑II
-
-A triangle has sides 13 cm, 14 cm, and 15 cm. Its area is:
-(A) 84 cm² (B) 96 cm² (C) 72 cm² (D) 108 cm²
-Answer: (A) 84 cm²
-Solution: Semi‑perimeter s = (13+14+15)/2 = 21 cm. Area = √[s(s–a)(s–b)(s–c)] = √(21×8×7×6) = √7056 = 84 cm² (Heron’s formula).
-Source: NCERT Class 9
-
-An equilateral triangle is inscribed in a circle of radius 6 cm. The area of the triangle is:
-(A) 27√3 cm² (B) 36√3 cm² (C) 48√3 cm² (D) 54√3 cm²
-Answer: (A) 27√3 cm²
-Solution: For an equilateral triangle inscribed in a circle, side = r√3 = 6√3 cm. Area = (√3/4) × (side)² = (√3/4) × 108 = 27√3 cm².
-Source: NCERT Class 10 / SSC CGL Tier‑II
-
-A sphere is inscribed in a right circular cone of base radius 6 cm and height 8 cm. The radius of the sphere is:
-(A) 2 cm (B) 3 cm (C) 4 cm (D) 5 cm
-Answer: (B) 3 cm
-Solution: Slant height l = √(6²+8²) = 10 cm. Radius of inscribed sphere r = (R × h) / (R + l) = (6 × 8) / (6 + 10) = 48 / 16 = 3 cm.
+125. A sphere is inscribed in a right circular cone of base radius 6 cm and height 8 cm. The radius of the sphere is:
+(a) 3 cm (b) 4 cm (c) 5 cm (d) 2 cm
+Answer: (a)
+Solution: Slant height = √(6² + 8²) = 10 cm. The inscribed sphere's radius = (R × h)/(R + l) = (6 × 8)/(6 + 10) = 48/16 = 3 cm. The trap is using r = R × h / (2l), which gives 2.4 cm and is not the correct formula. So the answer is 3 cm.
 Source: PYQ-style
