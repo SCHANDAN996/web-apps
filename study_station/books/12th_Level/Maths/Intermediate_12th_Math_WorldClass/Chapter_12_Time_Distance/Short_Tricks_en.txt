@@ -1,0 +1,211 @@
+# 🪄 Short Tricks — Time & Distance
+
+---
+
+┌─────────────────────────────────────────────────────────────┐
+│ 🧲 TRICK 1 — "DST: Don't Stop Traveling"                    │
+│                                                             │
+│ Distance = Speed × Time                                     │
+│                                                             │
+│ Remember the triangle:                                      │
+│         D                                                   │
+│       -----                                                 │
+│      S  ×  T                                                │
+│                                                             │
+│ Cover what you want:                                        │
+│ • Cover D → D = S × T                                       │
+│ • Cover S → S = D ÷ T                                       │
+│ • Cover T → T = D ÷ S                                       │
+│                                                             │
+│ 💡 Use: Every single problem starts here. Draw the triangle │
+│ in the exam margin once — never confuse the formula again.  │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│ 🚗 TRICK 2 — "18 is the GATE, 5 is the FLOOR"               │
+│                                                             │
+│ km/h → m/s : multiply by 5/18                               │
+│ m/s → km/h : multiply by 18/5                               │
+│                                                             │
+│ Memory hook: "BIG to small, take the SMALL fraction (5/18). │
+│ Small to BIG, take the BIG fraction (18/5)."                │
+│                                                             │
+│ 💡 Use: Train crossing problems. 72 km/h = 72 × 5/18 = 20 m/s│
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│ 🚂 TRICK 3 — "Pole = Train ALONE, Platform = Train + Friend"│
+│                                                             │
+│ • Crossing a POLE/man: Distance = Length of train only      │
+│ • Crossing a PLATFORM/bridge: Distance = Train + Platform   │
+│                                                             │
+│ Memory hook: A pole is a stranger — the train crosses it    │
+│ ALONE. A platform is a friend — they cross TOGETHER.        │
+│                                                             │
+│ 💡 Use: Instantly decide which length(s) to add.            │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│ ⚡ TRICK 4 — "Same SUBTRACT, Opposite ADD" (SS-OA)          │
+│                                                             │
+│ Relative speed of two moving objects:                       │
+│ • Same direction → SUBTRACT speeds                          │
+│ • Opposite direction → ADD speeds                           │
+│                                                             │
+│ Memory hook: "Friends walking the SAME way drift apart      │
+│ SLOWLY (subtract). Enemies walking OPPOSITE rush apart      │
+│ FAST (add)."                                                │
+│                                                             │
+│ 💡 Use: Two trains, boats, or runners — first find relative │
+│ speed, then Time = Total Distance ÷ Relative Speed.         │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│ 🍕 TRICK 5 — "Average Speed is the HUNGRY HARMONIC"         │
+│                                                             │
+│ Equal distances at speeds a and b:                          │
+│ Average Speed = 2ab / (a + b)                               │
+│                                                             │
+│ Memory hook: "TWICE the PRODUCT over the SUM" —             │
+│ chant: "2-Product-Sum, 2-Product-Sum!"                      │
+│                                                             │
+│ ⚠️ Trap: It's NOT (a+b)/2. The plain average is the exam's  │
+│ favourite wrong option!                                     │
+│                                                             │
+│ 💡 Use: "Goes at 40, returns at 60" → 2×40×60/100 = 48 km/h │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│ 🐢🐇 TRICK 6 — "Slow is FAT, Fast is THIN" (Time-Speed Flip)│
+│                                                             │
+│ If speed ratio = a : b, then time ratio = b : a (INVERSE)   │
+│                                                             │
+│ Memory hook: The tortoise (slow) takes a FAT amount of      │
+│ time; the hare (fast) takes a THIN slice. Speed and time    │
+│ always FLIP.                                                │
+│                                                             │
+│ 💡 Use: Speeds 3:4 → Times 4:3. No calculation needed!      │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│ ⏰ TRICK 7 — "Late-Early? ADD the GAPS!"                    │
+│                                                             │
+│ "Walking at x km/h he is L minutes late; at y km/h he is    │
+│ E minutes early."                                           │
+│ Distance = (x·y)/(y−x) × (L+E)/60                           │
+│                                                             │
+│ Memory hook: "Late + Early = TOTAL gap. Multiply speeds on  │
+│ top, difference below, total gap on the side."              │
+│                                                             │
+│ 💡 Use: Classic "reaches office late/early" problems —      │
+│ one line, no equations.                                     │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│ 🚤 TRICK 8 — "Boat & Stream: DADDY Subtracts"               │
+│                                                             │
+│ Downstream speed = Boat + Stream  (ADD)                     │
+│ Upstream speed   = Boat − Stream  (SUBTRACT)                │
+│ Boat = (D + U)/2 ,  Stream = (D − U)/2                      │
+│                                                             │
+│ Memory hook: "Downstream is a DADDY — generous, he ADDS.    │
+│ Upstream is UPSET — he SUBTRACTS."                          │
+│                                                             │
+│ 💡 Use: Given D and U, boat = average, stream = half-diff.  │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│ 🏃 TRICK 9 — "Circular Track: LCM is the MEETING KING"      │
+│                                                             │
+│ Two runners on a circular track meet (first time) at the    │
+│ start after: LCM of their individual lap times.             │
+│                                                             │
+│ Memory hook: "Round and round they go — where they MEET,    │
+│ LCM knows!"                                                 │
+│                                                             │
+│ 💡 Use: Laps in 4 min and 6 min → meet at start in          │
+│ LCM(4,6) = 12 min.                                          │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│ 🔫 TRICK 10 — "Gunshot Gap: Speed = Distance × 3600/Gap"    │
+│                                                             │
+│ A man hears two gunshots (fired 1 hr apart) only G minutes  │
+│ apart while moving toward the sound:                        │
+│ Speed of man / Speed of sound = (60 − G)/G                  │
+│                                                             │
+│ Memory hook: "The gap SHRINKS because you CHASE the sound — │
+│ shrink fraction = (60 − gap)/gap."                          │
+│                                                             │
+│ 💡 Use: Rare but deadly 10-second question in SSC CGL.      │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│ 🚶 TRICK 11 — "Stoppage Steals Minutes"                     │
+│                                                             │
+│ A train with stoppages covers less distance per hour:       │
+│ Stoppage time per hour = (Speed difference ÷ Faster speed)  │
+│ × 60 minutes                                                │
+│                                                             │
+│ Memory hook: "How much did the STOPS STEAL? Divide the      │
+│ stolen speed by the FULL speed, then × 60."                 │
+│                                                             │
+│ 💡 Use: 54 km/h without stops, 45 km/h with → (9/54)×60     │
+│ = 10 min stoppage per hour.                                 │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│ 🏅 TRICK 12 — "Race Beats: Winner's Time × Gap Math"        │
+│                                                             │
+│ "A beats B by x metres" means: when A finishes, B is x m    │
+│ behind. In the SAME time, A runs full length, B runs        │
+│ (length − x).                                               │
+│                                                             │
+│ Memory hook: "BEAT by metres = BEHIND by metres at the      │
+│ finish line photo."                                         │
+│                                                             │
+│ 💡 Use: Speed ratio A:B = L : (L−x). Convert race language  │
+│ into a ratio instantly.                                     │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│ 🪜 TRICK 13 — "Escalator: Steps You See = Steps You Climb   │
+│ ± Steps the Stairs Climb"                                   │
+│                                                             │
+│ Moving WITH escalator: Visible steps = Your steps +         │
+│ Escalator's steps. AGAINST: Your steps − Escalator's.       │
+│                                                             │
+│ Memory hook: Treat the escalator like a STREAM — it's just  │
+│ boats & streams wearing stairs! Same ADD/SUBTRACT rule.     │
+│                                                             │
+│ 💡 Use: Set up two equations (up trip, down trip) and solve │
+│ like boat-stream.                                           │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│ 🎯 TRICK 14 — "The 1-Minute Unit Check" (Safety Net)        │
+│                                                             │
+│ Before marking the answer, ask: "Are my units matching?"    │
+│ • km/h with minutes? → Convert minutes ÷ 60                 │
+│ • m/s with km? → Convert km × 1000                          │
+│                                                             │
+│ Memory hook: "UNIT mismatch = INSTANT zero. Spend 5 seconds │
+│ checking units — it saves 5 marks."                         │
+│                                                             │
+│ 💡 Use: Most silly mistakes in this chapter are unit        │
+│ errors. This trick is your last line of defence.            │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│ 🧠 MASTER MNEMONIC — "D-S-T Family Tree"                    │
+│                                                             │
+│ One sentence to rule the chapter:                           │
+│ "Daddy (Distance) Sits (Speed) Tall (Time) —                │
+│  Multiply the kids, Divide for one."                        │
+│                                                             │
+│ • Want D? Multiply the kids (S × T)                         │
+│ • Want S or T? Divide D by the other kid                    │
+│                                                             │
+│ 💡 Use: Draw the D/S×T triangle from Trick 1 while chanting │
+│ this — the whole chapter's base fits in your fist.          │
+└─────────────────────────────────────────────────────────────┘

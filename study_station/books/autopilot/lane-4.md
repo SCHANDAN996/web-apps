@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 09:50 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
+**आख़िरी update:** 09-10-2026 09:51 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,12 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 17 Trigonometry (12th Maths) | ✍️ लिख रहा है | 60 मिनट |
+| W1 | Chapter 17 Trigonometry (12th Maths) | ✍️ लिख रहा है | 61 मिनट |
 | W2 | Chapter 14 Mensuration (12th Maths) | ✍️ लिख रहा है | 1 मिनट |
-| W3 | Chapter 11 Time Work (12th Maths) | ✍️ लिख रहा है | 8 मिनट |
+| W3 | Chapter 11 Time Work (12th Maths) | ✍️ लिख रहा है | 9 मिनट |
 | W4 | Chapter 13 Mixture Alligation (12th Maths) | ✍️ लिख रहा है | 125 मिनट |
-| W5 | Chapter 18 Data Interpretation (12th Maths) | ✍️ लिख रहा है | 4 मिनट |
-| W6 | Chapter 12 Time Distance (12th Maths) | 🔎 review हो रहा है | 28 मिनट |
+| W5 | Chapter 18 Data Interpretation (12th Maths) | ✍️ लिख रहा है | 5 मिनट |
+| W6 | Chapter 12 Time Distance (12th Maths) | 📤 push हो रहा है | 0 मिनट |
 | W7 | Chapter 07 Ratio Proportion (12th Maths) | ✍️ लिख रहा है | 21 मिनट |
 | W8 | Chapter 16 Algebra (12th Maths) | ✍️ लिख रहा है | 65 मिनट |
 
@@ -37,6 +37,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 21:51 — 12th Maths · Chapter 12 Time Distance
 - 09-10 21:45 — 12th Maths · Chapter 15 Geometry
 - 09-10 20:49 — 12th Maths · Chapter 09 Simple Interest
 - 09-10 20:45 — 12th Maths · Chapter 08 Profit Loss
@@ -58,10 +59,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 21:34:32   [Algebra] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 21:35:14   [Mensuration] FAILED Practice_hi_Set_05.txt: too_long
-09-10 21:37:36   [Time_Distance] review PYQ_en.txt: 1 issue(s): - The trap explanation for Q2 is inaccurate; the trap of using only train or platform length yields 7.5 m/s or 12.5 m/s
-09-10 21:37:37   [Trigonometry] Important_Formulas_hi.txt try 1: answer too long — asking for a tighter version
 09-10 21:40:05   [Trigonometry] wrote Important_Formulas_hi.txt (6470 chars)
 09-10 21:40:23   [Ratio_Proportion] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 09-10 21:42:00   [Time_Work] FAILED Practice_hi_Set_06.txt: too_long
@@ -98,4 +95,8 @@
 09-10 21:49:27 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_14_Mensuration (TODO: todo 2, problems 1)
 09-10 21:49:29   [Ratio_Proportion] Practice_en_Set_06.txt try 1: rejected (Q126:leaked_reasoning,Q129:answer_solution_conflict,Q136:answer_solution_conflict)
 09-10 21:50:20   [Time_Distance] review Important_Formulas_en.txt: 2 issue(s): - "Train crossing a man in another train (opposite)" formula uses (L₁ + L₂) ÷ (S₁ + S₂) but a man is a p
+09-10 21:51:02   [Data_Interpretation] wrote Content_hi.txt (5794 chars)
+09-10 21:51:24   [Time_Distance] review: 4 section(s) corrected, 0 failed
+09-10 21:51:24   [Time_Distance] written 4, failed 0; AI calls today 446/100000
+09-10 21:51:27   [Data_Interpretation] wrote Feynman_en.txt (2332 chars)
 ```
