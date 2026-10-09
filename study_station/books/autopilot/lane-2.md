@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 06:37 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:46 PM
+**आख़िरी update:** 09-10-2026 06:52 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:46 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 26 Advanced Polity (Graduation GK) | 🔎 review हो रहा है | 51 मिनट |
-| W5 | Chapter 01 Number System Advanced (Graduation Maths) | ✍️ लिख रहा है | 80 मिनट |
+| W3 | Chapter 26 Advanced Polity (Graduation GK) | 🔎 review हो रहा है | 66 मिनट |
+| W5 | Chapter 01 Number System Advanced (Graduation Maths) | ✍️ लिख रहा है | 95 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -47,12 +47,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 17:53:54   [Environment_Conventions] review Key_Facts_hi.txt: 1 issue(s): "- "80% प्रश्न 15-सेकंड श्रेणी के" claim is an invented exam statistic → Remove the claim as it is not a verified
-09-10 17:54:18   [Advanced_Polity] review Content_hi.txt: 4 issue(s): - अम्बेडकर के भाषण की तिथि 17 अक्टूबर 1949 गलत है → सही तिथि 25 नवंबर 1949 है
-09-10 17:57:17   [Budget_Economic_Survey] review Memory_Hooks_en.txt: 1 issue(s): - Contingency Fund corpus given as ₹500 crore → correct corpus is ₹30,000 crore (since 2021 amendment)
-09-10 17:57:58   [Advanced_Science_Tech] Practice_hi_Set_06.txt try 1: rejected (Q129:needs_context,Q140:needs_context)
-09-10 17:59:49   [Number_System_Advanced] Practice_en_Set_01.txt try 1: re-solve disagrees (Q25 key c vs re-solve ?)
-09-10 18:02:32   [Budget_Economic_Survey] review Memory_Hooks_hi.txt: 1 issue(s): - Mnemonic 4's memory hook "नीति-अर्थ-टोकन: 100-1-1" assigns incorrect fixed numbers to cut motions → Policy C
 09-10 18:03:19   [Number_System_Advanced] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 09-10 18:04:13   [Advanced_Polity] review Key_Facts_hi.txt: 4 issue(s): - न्यूनतम आयु 35 वर्ष (राज्यपाल 30) → न्यूनतम आयु 35 वर्ष (राज्यपाल 35)
 09-10 18:04:22   [Advanced_Science_Tech] Practice_hi_Set_06.txt try 2: rejected (Q129:needs_context,Q140:needs_context)
@@ -87,4 +81,10 @@
 09-10 18:33:29 DONE Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_29_Environment_Conventions in 141 min → c0f1bd67
 09-10 18:33:29 worker 3: nothing left
 09-10 18:35:00   [Number_System_Advanced] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 18:37:36   [Number_System_Advanced] Practice_en_Set_04.txt try 1: rejected (Q79:leaked_reasoning,Q88:leaked_reasoning,Q90:leaked_reasoning,Q93:leaked_reasoning,Q99:leaked_reasoning)
+09-10 18:39:54   [Number_System_Advanced] Practice_en_Set_04.txt try 2: rejected (parsed 0 questions, numbers -…-)
+09-10 18:43:33   [Number_System_Advanced] Practice_en_Set_04.txt try 3: rejected (Q77:leaked_reasoning,Q85:leaked_reasoning,Q93:leaked_reasoning)
+09-10 18:47:37   [Advanced_Polity] REJECTED review fix PYQ_en.txt: chat debris "Text"
+09-10 18:48:37   [Number_System_Advanced] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 18:51:23   [Number_System_Advanced] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 ```
