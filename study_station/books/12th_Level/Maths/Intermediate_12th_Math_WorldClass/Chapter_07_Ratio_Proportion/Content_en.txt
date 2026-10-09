@@ -1,0 +1,162 @@
+# Ratio & Proportion
+
+## Chapter Outline & Learning Goals
+
+By the end of this chapter, you will be able to:
+
+1. Understand what a ratio really means and simplify any ratio.
+2. Distinguish between ratio, proportion, continued proportion, and variation.
+3. Apply componendo, dividendo, and their combinations confidently.
+4. Solve exam favourites: dividing an amount in a ratio, mixing ratios, income-expenditure problems, and coin problems.
+5. Spot the traps examiners set — and beat them in under 30 seconds.
+
+---
+
+## The Hook: A Cup of Tea That Fooled Everyone
+
+Two friends order tea. The first mixes milk and water in the ratio 3:1. The second mixes them in the ratio 5:2. Both claim, "My tea is milkier!" Who is right?
+
+Most students guess 5:2 because the numbers look bigger. But 3:1 means 75% milk, while 5:2 means only about 71% milk. **The smaller-looking ratio wins!**
+
+This is exactly why Ratio & Proportion is dangerous in exams — it *looks* easy, so students rush, and examiners cash in on that overconfidence. In SSC CGL, IBPS PO, and RRB NTPC, this chapter hides inside percentage, profit-loss, mixture, partnership, and time-work questions. Master it once, and you unlock marks across five other chapters.
+
+---
+
+## 1. What Is a Ratio?
+
+A **ratio** is a comparison of two quantities of the *same kind* by division. If a class has 40 boys and 30 girls, the ratio of boys to girls is:
+
+$$40 : 30 = 4 : 3$$
+
+Three golden rules:
+
+- **Same units only.** You cannot compare 2 kg with 500 g until you convert: 2000 g : 500 g = 4 : 1.
+- **A ratio has no unit.** It is a pure number.
+- **Order matters.** 4:3 is not the same as 3:4.
+
+In the ratio a : b, **a is the antecedent** (first term) and **b is the consequent** (second term).
+
+🧠 **Active Recall:** Without looking back — can you compare 3 hours with 45 minutes directly as 3:45? Why or why not? What is the correct ratio?
+
+---
+
+## 2. Types of Ratios
+
+For a ratio a : b (where a > b):
+
+| Type | Form | Example (4 : 3) |
+|---|---|---|
+| Duplicate ratio | a² : b² | 16 : 9 |
+| Triplicate ratio | a³ : b³ | 64 : 27 |
+| Sub-duplicate ratio | √a : √b | 2 : √3 |
+| Sub-triplicate ratio | ∛a : ∛b | ∛4 : ∛3 |
+| Inverse (reciprocal) ratio | b : a | 3 : 4 |
+
+**Compounding ratios:** When ratios are multiplied term by term: (2:3) compounded with (4:5) = (2×4) : (3×5) = 8 : 15.
+
+🧠 **Active Recall:** What is the duplicate ratio of 5 : 2? And the inverse ratio of 7 : 9?
+
+---
+
+## 3. Proportion — When Two Ratios Shake Hands
+
+Four quantities a, b, c, d are in **proportion** if:
+
+$$a : b = c : d \quad\Longleftrightarrow\quad ad = bc$$
+
+Written as a : b :: c : d. Here a and d are the **extremes**, b and c are the **means**. The magic rule:
+
+> **Product of extremes = Product of means**
+
+**Continued proportion:** a : b = b : c, i.e., b² = ac. Here b is the **mean proportional** between a and c, and c is the **third proportional** to a and b.
+
+**Fourth proportional:** If a : b = c : d, then d = bc/a.
+
+**Example:** Find the mean proportional between 4 and 25.
+b² = 4 × 25 = 100, so b = 10. ✔
+
+🧠 **Active Recall:** Find the third proportional to 9 and 12. (Hint: 9 : 12 = 12 : x.)
+
+---
+
+## 4. The Power Tools: Componendo & Dividendo
+
+If a : b = c : d, then:
+
+- **Componendo:** (a + b) : b = (c + d) : d
+- **Dividendo:** (a − b) : b = (c − d) : d
+- **Componendo-Dividendo:** (a + b) : (a − b) = (c + d) : (c − d)
+
+**Why it matters:** Questions like "If (3x + 2y) : (3x − 2y) = 5 : 3, find x : y" take 60 seconds by expansion but only 10 seconds by componendo-dividendo:
+
+$$\frac{3x}{2y} = \frac{5+3}{5-3} = \frac{8}{2} = 4 \implies \frac{x}{y} = \frac{8}{3}$$
+
+🧠 **Active Recall:** If (a + b) : (a − b) = 7 : 1, what is a : b? Try it with componendo-dividendo before peeking at any formula.
+
+---
+
+## 5. The Exam Favourites
+
+### (a) Dividing an amount in a ratio
+Divide ₹840 between A and B in the ratio 5 : 7.
+A's share = 840 × 5/12 = ₹350; B's share = 840 × 7/12 = ₹490.
+
+### (b) Combining ratios (the A:B, B:C chain)
+If A : B = 2 : 3 and B : C = 4 : 5, find A : B : C.
+Make B equal: LCM of 3 and 4 is 12.
+A : B = 8 : 12 and B : C = 12 : 15, so **A : B : C = 8 : 12 : 15**.
+
+### (c) Coins problem
+A bag has ₹1, 50p, and 25p coins in the ratio 3 : 4 : 5, totalling ₹225. Number of ₹1 coins?
+Value ratio = 3×1 : 4×0.5 : 5×0.25 = 3 : 2 : 1.25 = 12 : 8 : 5.
+₹1 coins' value = 225 × 12/25 = ₹108 → **108 coins**.
+
+### (d) Income–expenditure trap
+Incomes of A and B are in ratio 4 : 5, expenditures in ratio 3 : 4, and each saves ₹2000. Income of A?
+4x − 3y = 2000 and 5x − 4y = 2000. Solving: x = 2000, so A's income = **₹8000**.
+
+🧠 **Active Recall:** In the coin problem, why do we multiply the coin ratio by the coin values before splitting the total?
+
+---
+
+## 6. The Memory Trick 🎭
+
+**"The Cross-Multiply Cricket Match"** 🏏
+
+Imagine proportion a : b :: c : d as a cricket match. The **extremes** (a and d) are the opening batsmen standing at the two far ends; the **means** (b and c) are the runners squeezed in the middle. The umpire's rule: *"The match is fair only when the openers' product equals the runners' product."*
+
+So whenever you see "::", hear the umpire shout: **"Outside × Outside = Inside × Inside!"** — and you'll never forget ad = bc.
+
+For componendo-dividendo, remember: **"Add on top, subtract below"** — the plus sign climbs up, the minus sign dives down.
+
+---
+
+## 7. Common Traps Examiners Set
+
+1. **Unit mismatch** — 2 kg : 500 g is NOT 2 : 500.
+2. **"Increased in the ratio 3 : 5"** means new value = 5/3 of old, not an increase of 5/3.
+3. **Ratio of A:B and B:C** — you cannot write A:B:C until B is made equal in both.
+4. **Adding ratios directly** — 1:2 + 2:3 is not 3:5 (unless compounding is asked, which means multiplying).
+5. **Saving-based income problems** — savings = income − expenditure; set up two equations, don't guess.
+
+🧠 **Active Recall:** A number is increased in the ratio 7 : 9. If the original number is 63, what is the new number? (Careful — read trap #2 again.)
+
+---
+
+## 8. Summary Table
+
+| Concept | Key Rule |
+|---|---|
+| Ratio a : b | Same kind, same units, no unit in answer |
+| Proportion a:b :: c:d | ad = bc (extremes = means) |
+| Mean proportional of a, c | b = √(ac) |
+| Third proportional to a, b | x = b²/a |
+| Fourth proportional to a, b, c | x = bc/a |
+| Duplicate / Triplicate | a²:b² / a³:b³ |
+| Componendo-Dividendo | (a+b)/(a−b) = (c+d)/(c−d) |
+| Divide ₹X in ratio m:n | Shares = X·m/(m+n), X·n/(m+n) |
+| Chain A:B, B:C | Equalise B using LCM |
+
+---
+
+📌 **Review this chapter after 2 days.** Redo the Active Recall prompts without looking at the solutions — if you can answer all of them cold, Ratio & Proportion is officially yours.
