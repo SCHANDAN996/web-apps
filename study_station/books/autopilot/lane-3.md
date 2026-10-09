@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 11:30 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 11:41 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 25 Word Roots (12th English) | 🔎 review हो रहा है | 15 मिनट |
-| W2 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 1 मिनट |
-| W3 | Chapter 04 Blood Relations (12th Reasoning) | ✍️ लिख रहा है | 2 मिनट |
-| W4 | Chapter 03 Coding Decoding (12th Reasoning) | ✍️ लिख रहा है | 47 मिनट |
-| W5 | Chapter 02 Classification (12th Reasoning) | ✍️ लिख रहा है | 96 मिनट |
+| W1 | Chapter 25 Word Roots (12th English) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 11 मिनट |
+| W3 | Chapter 04 Blood Relations (12th Reasoning) | ✍️ लिख रहा है | 13 मिनट |
+| W4 | Chapter 03 Coding Decoding (12th Reasoning) | ✍️ लिख रहा है | 58 मिनट |
+| W5 | Chapter 02 Classification (12th Reasoning) | ✍️ लिख रहा है | 107 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,6 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 11:41 — 12th English · Chapter 25 Word Roots
 - 09-10 09:53 — 12th English · Chapter 24 RC Basic
 - 09-10 09:09 — 12th English · Chapter 16 Idioms Phrases
 - 09-10 09:06 — 12th English · Chapter 14 Antonyms
@@ -48,17 +49,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 11:09:56   [Classification] Practice_en_Set_03.txt try 3: rejected (parsed 0 questions, numbers -…-)
-09-10 11:11:34   [Word_Roots] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 11:11:34   [Word_Roots] written 24, failed 2; AI calls today 310/100000
-09-10 11:11:34 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_25_Word_Roots after 125 min: todo ['Feynman_en.txt', 'Set 05 hi: todo'] problems []
-09-10 11:11:36 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_25_Word_Roots (TODO: todo 2, problems 0)
-09-10 11:12:07   [Word_Roots] wrote Feynman_en.txt (2719 chars)
-09-10 11:12:37   [Classification] Practice_en_Set_03.txt try 4: rejected (parsed 0 questions, numbers -…-)
-09-10 11:12:37   [Classification] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
-09-10 11:12:37   [Classification] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
-09-10 11:13:05   [Analogy] review PYQ_hi.txt: 1 issue(s): - Question 9 option (b) is malformed ('XZG नहीं, XZF') → Option (b) should be a single valid choice like 'XZF'
-09-10 11:14:38   [Para_Jumbles] Practice_en_Set_06.txt try 2: re-solve disagrees (Q127 key d vs re-solve a, Q148 key a vs re-solve b)
 09-10 11:14:55   [Word_Roots] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 09-10 11:14:55   [Word_Roots] written 2, failed 0; AI calls today 317/100000
 09-10 11:15:43   [Classification] wrote Practice_en_Set_04.txt (write, 25 MCQs)
@@ -88,4 +78,15 @@
 09-10 11:29:11   [Blood_Relations] Content_en.txt try 1: rejected (chat debris "Here is the")
 09-10 11:29:12 START 12th_Level/Reasoning/Chapter_05_Direction_Sense (TODO: todo 25, problems 0)
 09-10 11:30:29   [Blood_Relations] wrote Content_en.txt (6103 chars)
+09-10 11:31:00   [Coding_Decoding] Practice_en_Set_01.txt try 3: re-solve disagrees (Q3 key c vs re-solve b)
+09-10 11:32:00   [Word_Roots] review Short_Tricks_hi.txt: 2 issue(s): - Invented statistic "70% अनजाने शब्द इसी एक तरीके से हल हो जाते हैं" claimed without source → Remove the perc
+09-10 11:33:24   [Blood_Relations] wrote Content_hi.txt (5861 chars)
+09-10 11:34:02   [Blood_Relations] wrote Feynman_en.txt (3138 chars)
+09-10 11:35:43   [Blood_Relations] wrote Feynman_hi.txt (3613 chars)
+09-10 11:36:27   [Word_Roots] review Important_Rules_en.txt: 1 issue(s): - Rule 2 states prefixes never change word class → Prefixes like en- (enlarge) and be- (befriend) can chang
+09-10 11:37:38   [Classification] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 11:39:14   [Coding_Decoding] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 11:40:51   [Coding_Decoding] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 11:41:04   [Word_Roots] review: 5 section(s) corrected, 0 failed
+09-10 11:41:04   [Word_Roots] written 5, failed 0; AI calls today 368/100000
 ```
