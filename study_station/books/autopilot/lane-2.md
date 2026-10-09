@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 05:05 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:46 PM
+**आख़िरी update:** 09-10-2026 05:16 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:46 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 27 Budget Economic Survey (Graduation GK) | 🔎 review हो रहा है | 5 मिनट |
-| W2 | Chapter 28 Advanced Science Tech (Graduation GK) | ✍️ लिख रहा है | 102 मिनट |
-| W3 | Chapter 26 Advanced Polity (Graduation GK) | ✍️ लिख रहा है | 143 मिनट |
-| W4 | Chapter 29 Environment Conventions (Graduation GK) | ✍️ लिख रहा है | 53 मिनट |
-| W5 | Chapter 25 Govt Schemes (Graduation GK) | 🔎 review हो रहा है | 52 मिनट |
+| W1 | Chapter 27 Budget Economic Survey (Graduation GK) | 🔎 review हो रहा है | 15 मिनट |
+| W2 | Chapter 28 Advanced Science Tech (Graduation GK) | ✍️ लिख रहा है | 113 मिनट |
+| W3 | Chapter 26 Advanced Polity (Graduation GK) | ✍️ लिख रहा है | 153 मिनट |
+| W4 | Chapter 29 Environment Conventions (Graduation GK) | ✍️ लिख रहा है | 63 मिनट |
+| W5 | Chapter 25 Govt Schemes (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,6 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 17:16 — Graduation GK · Chapter 25 Govt Schemes
 - 09-10 16:12 — Graduation GK · Chapter 24 Reports Indices
 - 09-10 14:42 — Graduation GK · Chapter 23 Economic Terms
 
@@ -47,15 +48,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 16:34:23   [Advanced_Science_Tech] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 16:35:38   [Environment_Conventions] wrote PYQ_en.txt (10747 chars)
-09-10 16:37:03   [Govt_Schemes] review Key_Facts_en.txt: 1 issue(s): - MGNREGA fact column says "launched 2005" → scheme launched February 2006 (Act passed 2005)
-09-10 16:37:45   [Environment_Conventions] wrote PYQ_hi.txt (6999 chars)
-09-10 16:38:53   [Environment_Conventions] wrote Memory_Hooks_en.txt (5944 chars)
-09-10 16:38:56   [Budget_Economic_Survey] Practice_hi_Set_05.txt try 4: rejected (Q125:needs_context)
-09-10 16:38:56   [Budget_Economic_Survey] REJECTED Practice_hi_Set_05.txt: no translation passed the checks — not written
-09-10 16:40:21   [Advanced_Polity] Practice_en_Set_04.txt try 2: re-solve disagrees (Q77 key a vs re-solve ?, Q87 key b vs re-solve c, Q91 key a vs re-solve b)
-09-10 16:41:37   [Environment_Conventions] wrote Memory_Hooks_hi.txt (6545 chars)
 09-10 16:42:35   [Govt_Schemes] review Feynman_en.txt: 1 issue(s): - The text states there are 3 Himalayan states (Uttarakhand, Himachal Pradesh, Jammu & Kashmir) for the 90:10 CSS f
 09-10 16:43:52   [Environment_Conventions] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 09-10 16:44:10   [Budget_Economic_Survey] Practice_en_Set_06.txt try 1: re-solve disagrees (Q127 key c vs re-solve b, Q131 key c vs re-solve a, Q140 key c vs re-solve a)
@@ -87,4 +79,13 @@
 09-10 17:04:26   [Budget_Economic_Survey] review Content_en.txt: 3 issue(s): - "Every year, SSC, Banking and State PCS exams ask 2–5 questions from this single event" (invented exam statistic/
 09-10 17:04:44   [Environment_Conventions] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 09-10 17:05:06   [Advanced_Polity] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 17:07:24   [Govt_Schemes] review Memory_Hooks_en.txt: 1 issue(s): - Box 12 states PMJJBY premium ₹436/year and PMSBY premium ₹20/year at launch on 9 May 2015 → At launch, PMJJB
+09-10 17:08:01   [Environment_Conventions] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 17:10:44   [Advanced_Science_Tech] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 17:11:15   [Environment_Conventions] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 17:14:31   [Govt_Schemes] review Memory_Hooks_hi.txt: 2 issue(s): - Skip Tip 1 invents a statistic: “नेगेटिव मार्किंग का खतरा 75% से ज़्यादा है” → remove the fabricated percent
+09-10 17:15:24   [Budget_Economic_Survey] review Content_hi.txt: 3 issue(s): - 18 फ़रवरी 1860 को भारत का पहला बजट पेश किया गया → 7 अप्रैल 1860 को भारत का पहला बजट जेम्स विल्सन द्वारा पेश किया 
+09-10 17:15:35   [Advanced_Science_Tech] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 17:16:18   [Govt_Schemes] review: 6 section(s) corrected, 0 failed
+09-10 17:16:18   [Govt_Schemes] written 6, failed 0; AI calls today 344/100000
 ```
