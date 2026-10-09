@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 06:12 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 06:27 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 72 मिनट |
-| W4 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 79 मिनट |
-| W5 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 259 मिनट |
+| W2 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 87 मिनट |
+| W4 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 94 मिनट |
+| W5 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 275 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -24,13 +24,13 @@
 | 10th English | 7 | 0 | 13 |
 | 12th Maths | 2 | 0 | 21 |
 | 12th GK | 22 | 0 | 2 |
-| 12th Reasoning | 3 | 0 | 22 |
+| 12th Reasoning | 4 | 0 | 21 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 22 | 0 | 6 |
 | Graduation Reasoning | 9 | 0 | 21 |
 | Graduation English | 29 | 1 | 0 |
-| **कुल** | **167** | **14** | **115** |
+| **कुल** | **168** | **14** | **114** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -50,9 +50,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 17:23:32   [Missing_Term] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 17:24:22   [Puzzles] Practice_en_Set_06.txt try 2: re-solve disagrees (Q142 key b vs re-solve c, Q144 key c vs re-solve a)
-09-10 17:25:24   [Missing_Term] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 09-10 17:25:24   [Missing_Term] written 24, failed 1; AI calls today 305/100000
 09-10 17:25:25 NOT OK Graduation_Level/Reasoning/Chapter_12_Missing_Term after 76 min: todo ['Content_en.txt'] problems []
 09-10 17:25:27 START Graduation_Level/Reasoning/Chapter_12_Missing_Term (TODO: todo 1, problems 0)
@@ -90,4 +87,7 @@
 09-10 18:07:45 worker 2: nothing left
 09-10 18:07:55   [Sitting_Arrangement] Practice_en_Set_06.txt try 3: re-solve disagrees (Q126 key c vs re-solve ?, Q127 key b vs re-solve ?, Q129 key c vs re-solve ?, Q130 key b vs re-solve
 09-10 18:11:31   [Alphabet_Questions] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 18:14:00   [Alphabet_Questions] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 18:16:24   [Dictionary_Order] Practice_en_Set_02.txt try 3: re-solve disagrees (Q26 key b vs re-solve c, Q30 key a vs re-solve b, Q32 key d vs re-solve a, Q34 key a vs re-solve c, 
+09-10 18:17:33   [Alphabet_Questions] Practice_en_Set_02.txt try 1: rejected (Q34:leaked_reasoning,Q42:leaked_reasoning,Q45:leaked_reasoning,Q46:leaked_reasoning,Q50:leaked_reasoning)
 ```
