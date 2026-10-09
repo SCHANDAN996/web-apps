@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 10:22 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
+**आख़िरी update:** 09-10-2026 10:28 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 14 Alphabet Questions (12th Reasoning) | ✍️ लिख रहा है | 110 मिनट |
-| W2 | Chapter 12 Missing Term (12th Reasoning) | 🔎 review हो रहा है | 23 मिनट |
-| W3 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 113 मिनट |
-| W4 | Chapter 15 Mathematical Operations (12th Reasoning) | ✍️ लिख रहा है | 101 मिनट |
-| W5 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 183 मिनट |
-| W6 | Chapter 08 Puzzles (12th Reasoning) | ✍️ लिख रहा है | 11 मिनट |
-| W7 | Chapter 11 Series (12th Reasoning) | ✍️ लिख रहा है | 117 मिनट |
-| W8 | Chapter 10 Clock Calendar (12th Reasoning) | ✍️ लिख रहा है | 183 मिनट |
+| W1 | Chapter 14 Alphabet Questions (12th Reasoning) | ✍️ लिख रहा है | 117 मिनट |
+| W2 | Chapter 12 Missing Term (12th Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 120 मिनट |
+| W4 | Chapter 15 Mathematical Operations (12th Reasoning) | ✍️ लिख रहा है | 108 मिनट |
+| W5 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 190 मिनट |
+| W6 | Chapter 08 Puzzles (12th Reasoning) | ✍️ लिख रहा है | 18 मिनट |
+| W7 | Chapter 11 Series (12th Reasoning) | ✍️ लिख रहा है | 124 मिनट |
+| W8 | Chapter 10 Clock Calendar (12th Reasoning) | ✍️ लिख रहा है | 190 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,6 +37,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 22:28 — 12th Reasoning · Chapter 12 Missing Term
 - 09-10 20:31 — 12th English · Chapter 22 Para Jumbles
 - 09-10 20:28 — 12th Reasoning · Chapter 03 Coding Decoding
 - 09-10 20:25 — 12th English · Chapter 23 Sentence Arrangement
@@ -51,16 +52,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 21:58:23   [Missing_Term] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 21:58:23   [Missing_Term] written 2, failed 0; AI calls today 355/100000
-09-10 21:59:04   [Series] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-09-10 22:00:09   [Alphabet_Questions] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-09-10 22:00:14   [Clock_Calendar] Practice_en_Set_03.txt try 3: re-solve disagrees (Q72 key d vs re-solve b)
-09-10 22:00:18   [Sitting_Arrangement] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 22:01:11   [Missing_Term] review Content_en.txt: 1 issue(s): - In the summary table, the alternate series example "2, 5, 4, 10, 6, ?" gives answer 15 with note "even track ×2",
-09-10 22:02:05   [Alphabet_Questions] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-09-10 22:02:50   [Sitting_Arrangement] Practice_en_Set_05.txt try 1: rejected (Q106:leaked_reasoning,Q109:leaked_reasoning)
-09-10 22:03:17   [Mathematical_Operations] Practice_en_Set_02.txt try 2: re-solve disagrees (Q35 key c vs re-solve b)
 09-10 22:03:32   [Series] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 09-10 22:04:40   [Series] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
 09-10 22:05:16   [Clock_Calendar] wrote Practice_en_Set_03.txt (write, 25 MCQs)
@@ -91,4 +82,14 @@
 09-10 22:20:16   [Mathematical_Operations] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
 09-10 22:21:22   [Sitting_Arrangement] Practice_en_Set_05.txt try 2: re-solve disagrees (Q101 key b vs re-solve c, Q102 key a vs re-solve c, Q105 key b vs re-solve a, Q112 key c vs re-solve
 09-10 22:21:55   [Series] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 22:22:17   [Dictionary_Order] Practice_en_Set_03.txt try 2: re-solve disagrees (Q52 key a vs re-solve b, Q54 key b vs re-solve a, Q61 key c vs re-solve a, Q67 key a vs re-solve ?)
+09-10 22:23:56   [Puzzles] Practice_en_Set_06.txt try 2: rejected (Q126:leaked_reasoning,Q128:leaked_reasoning,Q131:leaked_reasoning,Q132:leaked_reasoning,Q139:leaked_reasoning)
+09-10 22:25:25   [Series] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 22:25:38   [Clock_Calendar] Practice_en_Set_04.txt try 1: re-solve disagrees (Q81 key b vs re-solve a, Q98 key a vs re-solve d)
+09-10 22:26:39   [Alphabet_Questions] Practice_en_Set_04.txt try 4: re-solve disagrees (Q78 key b vs re-solve a, Q97 key c vs re-solve b)
+09-10 22:26:39   [Alphabet_Questions] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
+09-10 22:26:39   [Alphabet_Questions] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
+09-10 22:26:53   [Alphabet_Questions] Practice_en_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 22:28:59   [Missing_Term] review: 1 section(s) corrected, 0 failed
+09-10 22:28:59   [Missing_Term] written 1, failed 0; AI calls today 416/100000
 ```

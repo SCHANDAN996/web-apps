@@ -1,0 +1,109 @@
+# 📊 PYQ Analysis — Missing Term (Verbal Reasoning)
+
+## 1. How Exams Ask This Chapter
+
+Missing Term questions appear in almost every SSC (CGL, CHSL, MTS, GD), Banking (IBPS PO/Clerk, SBI), and Railway (NTPC, Group D) paper. Examiners test this chapter in three broad formats:
+
+- **Number series** — one term replaced by a blank or "?", the most frequent format.
+- **Letter series** — single letters or letter-groups with a gap.
+- **Alpha-numeric / mixed series** — letters and numbers combined (e.g., A2, C4, E6, ?).
+
+Within number series, the sub-topics that recur most often are:
+
+- **Difference-based series** (constant, increasing, or double differences) — the single most common pattern.
+- **Multiplication / ×n + k patterns** (e.g., ×2+1, ×3−2).
+- **Squares, cubes, and their neighbours** (n², n²±1, n³±n).
+- **Alternating / two interleaved series** — a favourite trap because students try one rule on all terms.
+- **Prime numbers and prime-based jumps.**
+- **Fraction / division series** (÷2, ×½) — less frequent but scoring.
+
+In letter series, the recurring patterns are: fixed alphabet gaps (+2, +3, increasing gaps), reverse-position logic, and vowel/consonant-based skips. In alpha-numeric series, the letter and number usually follow **independent** rules — examiners count on students mixing them up.
+
+## 2. Examiner's Traps (Psychological Hooks)
+
+1. **The "almost-fits" option:** The correct difference pattern gives 46, but an option shows 45 or 48 — students who compute only the last step hastily pick the near value.
+2. **Two-series illusion:** Terms 1, 3, 5 follow one rule and terms 2, 4, 6 another. The blank sits in the second series; students applying the first series' rule get a wrong but listed answer.
+3. **Order-of-operations trap:** In ×2+3 type series, applying +3 first then ×2 gives a tempting wrong option.
+4. **Square-neighbour confusion:** Series like 2, 5, 10, 17, 26 (n²+1) is mistaken for a difference series that "breaks" midway.
+5. **Letter-position slip:** Counting A=1…Z=26 wrongly by one (especially around J/K/L and P/Q/R) lands exactly on a distractor.
+6. **Negative-marking bait:** A series that looks complex (mixed operations) is actually simple, but its appearance pushes students to guess.
+
+## 3. Top 10 High-Yield Questions (with Solutions & Trap Analysis)
+
+**Q1.** 3, 6, 11, 18, 27, ?
+(a) 36 (b) 38 (c) 40 (d) 42
+**Answer: (b)**
+**Solution:** Differences are 3, 5, 7, 9 (odd numbers), so next difference = 11 → 27 + 11 = 38.
+**Trap:** Option (a) 36 tempts students who assume differences 3,5,7,9,9 (repeating 9). Always extend the difference pattern, don't repeat the last difference.
+**Source:** PYQ-style
+
+**Q2.** 4, 9, 19, 39, 79, ?
+(a) 159 (b) 149 (c) 169 (d) 158
+**Answer: (a)**
+**Solution:** Pattern is ×2+1: 4×2+1=9, 9×2+1=19, …, 79×2+1 = 159.
+**Trap:** Option (d) 158 = 79×2, for students who forget the "+1". Option (b) 149 catches those who switch to +10, +20, +40 differences and slip in addition.
+**Source:** PYQ-style
+
+**Q3.** 2, 6, 12, 20, 30, ?
+(a) 40 (b) 42 (c) 44 (d) 36
+**Answer: (b)**
+**Solution:** Terms are n²+n: 1×2, 2×3, 3×4, 4×5, 5×6, so next = 6×7 = 42. (Differences 4, 6, 8, 10, 12 also work.)
+**Trap:** Option (a) 40 comes from adding 10 instead of 12 to 30 — a last-step arithmetic slip the examiner banks on.
+**Source:** PYQ-style
+
+**Q4.** 1, 4, 9, 16, 25, ?, 49
+(a) 30 (b) 36 (c) 35 (d) 40
+**Answer: (b)**
+**Solution:** Perfect squares: 1², 2², 3², 4², 5², 6² = 36, 7².
+**Trap:** The given 49 after the blank confirms squares; students who ignore the term *after* the blank and try differences may stall. Always use terms on both sides of the gap.
+**Source:** PYQ-style
+
+**Q5.** 5, 11, 23, 47, 95, ?
+(a) 189 (b) 191 (c) 190 (d) 192
+**Answer: (b)**
+**Solution:** Pattern ×2+1: 5×2+1=11, …, 95×2+1 = 191.
+**Trap:** (a) 189 = 95×2−1 (wrong sign), (c) 190 = 95×2 (missing +1). Three distractors cluster around 190 — a classic near-value trap.
+**Source:** PYQ-style
+
+**Q6.** 3, 7, 6, 10, 9, 13, 12, ?
+(a) 15 (b) 16 (c) 14 (d) 18
+**Answer: (b)**
+**Solution:** Two interleaved series: odd positions 3, 6, 9, 12 (+3); even positions 7, 10, 13, ? (+3) → 16.
+**Trap:** Students applying +4, −1, +4, −1… to all terms still reach 16, but those who misread the alternation as +4, −1, +3… land on 15 or 14. This is the two-series illusion in its purest form.
+**Source:** PYQ-style
+
+**Q7.** 2, 3, 5, 7, 11, 13, ?
+(a) 15 (b) 17 (c) 16 (d) 19
+**Answer: (b)**
+**Solution:** Consecutive prime numbers; the prime after 13 is 17.
+**Trap:** Option (a) 15 tempts students who see "odd numbers" (+2 pattern) and forget 15 is not prime. The series *looks* like odd numbers — that is the hook.
+**Source:** PYQ-style
+
+**Q8.** 0, 7, 26, 63, 124, ?
+(a) 215 (b) 216 (c) 224 (d) 217
+**Answer: (a)**
+**Solution:** Terms are n³−1: 1³−1=0, 2³−1=7, 3³−1=26, …, 6³−1 = 215.
+**Trap:** (b) 216 = 6³ exactly — students who recognise cubes but forget the −1 fall here. **Skip-rule note:** if cube-neighbour patterns don't strike within 45 seconds, mark and move on; difference analysis on this series wastes time.
+**Source:** PYQ-style
+
+**Q9.** B, E, H, K, N, ?
+(a) P (b) Q (c) O (d) R
+**Answer: (b)**
+**Solution:** Alphabet positions 2, 5, 8, 11, 14 — gap of +3 each time → 17 = Q.
+**Trap:** Option (a) P (16) comes from counting the gap as +2 after N, or from an off-by-one position count (N=14 misread as 13). Write positions as numbers before deciding.
+**Source:** PYQ-style
+
+**Q10.** A1, C4, F9, J16, ?
+(a) N25 (b) O25 (c) M25 (d) N24
+**Answer: (b)**
+**Solution:** Letters: A, C, F, J — gaps +2, +3, +4, so next gap +5 → O. Numbers: 1², 2², 3², 4², 5² = 25. Answer O25.
+**Trap:** (a) N25 catches students who take a constant +4 letter gap; (d) N24 combines both errors. In mixed series, solve letter and number **separately** — the examiner designs distractors from half-solved patterns. **Skip-rule note:** this is a 45-second question; if the letter gaps don't reveal themselves quickly, skip rather than guess.
+**Source:** PYQ-style
+
+## 4. The 15-Second / 45-Second Rule — Reviewed Against PYQ Patterns
+
+- **15-second questions:** Constant-difference series, perfect squares/cubes, simple ×2 or +n letter gaps (like Q1, Q4, Q9). If the pattern is visible at first glance, answer immediately — these are the exam's free marks.
+- **45-second questions:** ×n+k patterns, two interleaved series, prime-based series, alpha-numeric mixes (like Q2, Q6, Q8, Q10). Give them one structured attempt: check differences → check ratio → check squares/cubes → check alternation. If none clicks in 45 seconds, mark for review and move on.
+- **Skip outright (in first pass):** Series with fractions plus alternating operations, or letter series needing reverse-position (Z=1) logic that isn't obvious — these consume 2+ minutes for 1 mark and carry negative-marking risk.
+
+**Bottom line:** Roughly two-thirds of Missing Term questions in these exams are difference-based or simple multiplication patterns — master those first, and treat exotic patterns as bonus, not as battles to win in the exam hall.

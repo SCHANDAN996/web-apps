@@ -1,0 +1,149 @@
+126. Find the missing term: 3, 7, 16, 35, 74, ?
+(a) 148 (b) 153 (c) 150 (d) 146
+Answer: (b)
+Solution: The tempting answer 148 comes from doubling and adding 1 throughout, but the added number itself grows: ×2+1, ×2+2, ×2+3, ×2+4, so next is ×2+5. 74×2+5 = 153, so the answer is 153.
+Source: PYQ-style
+
+127. Find the missing term: 2, 6, 12, 20, 30, 42, ?
+(a) 54 (b) 60 (c) 58 (d) 56
+Answer: (d)
+Solution: Many pick 54 by adding 12 to 42, but the differences are 4, 6, 8, 10, 12, so the next difference is 14. 42+14 = 56 (also n²+n for n=7), so the answer is 56.
+Source: PYQ-style
+
+128. Find the missing term: 1, 4, 27, 256, ?
+(a) 1024 (b) 1296 (c) 625 (d) 3125
+Answer: (d)
+Solution: The trap is to look for powers of 2 or 4 and choose 1024. Actually the terms are 1¹, 2², 3³, 4⁴, so the next is 5⁵ = 3125, so the answer is 3125.
+Source: PYQ-style
+
+129. Find the missing term: 5, 11, 23, 47, 95, ?
+(a) 191 (b) 189 (c) 193 (d) 195
+Answer: (a)
+Solution: Choosing 190-based options fails because the rule is ×2+1 each time: 5×2+1=11, 11×2+1=23, …, 95×2+1 = 191, so the answer is 191.
+Source: PYQ-style
+
+130. Find the missing term: 8, 15, 28, 53, 102, ?
+(a) 201 (b) 203 (c) 197 (d) 199
+Answer: (d)
+Solution: The trap is to assume ×2−1 throughout, which gives 203. Check: 8×2−1=15, 15×2−2=28, 28×2−3=53, 53×2−4=102; the subtracted number rises by 1, so next is 102×2−5 = 199, so the answer is 199.
+Source: PYQ-style
+
+131. Find the missing term: 6, 11, 21, 36, 56, ?
+(a) 77 (b) 83 (c) 79 (d) 81
+Answer: (d)
+Solution: Differences are 5, 10, 15, 20, so the next difference is 25, not 21 as a hasty pattern of "+5 then repeat" suggests. 56+25 = 81, so the answer is 81.
+Source: PYQ-style
+
+132. Find the missing term: 2, 3, 5, 9, 17, 33, ?
+(a) 63 (b) 67 (c) 65 (d) 61
+Answer: (c)
+Solution: The tempting 66 (not listed) and 63 come from doubling; but the rule is ×2−1: 2×2−1=3, 3×2−1=5, …, 33×2−1 = 65, so the answer is 65.
+Source: PYQ-style
+
+133. Find the missing term: 1, 2, 6, 24, 120, ?
+(a) 240 (b) 480 (c) 720 (d) 600
+Answer: (c)
+Solution: Multiplying by 2 again gives 240, which is the trap. The multipliers are ×2, ×3, ×4, ×5, so next is ×6: 120×6 = 720 (factorials), so the answer is 720.
+Source: PYQ-style
+
+134. Find the missing term: 0, 6, 24, 60, 120, ?
+(a) 210 (b) 200 (c) 180 (d) 240
+Answer: (a)
+Solution: The trap is to extend differences 6, 18, 36, 60 wrongly. Terms are n³−n: 1−1=0, 8−2=6, 27−3=24, 64−4=60, 125−5=120, so 216−6 = 210, so the answer is 210.
+Source: PYQ-style
+
+135. Find the missing term: 4, 9, 25, 49, 121, ?
+(a) 169 (b) 144 (c) 196 (d) 225
+Answer: (a)
+Solution: Choosing 144 (12²) is the trap of taking consecutive squares. These are squares of primes: 2², 3², 5², 7², 11², so next is 13² = 169, so the answer is 169.
+Source: PYQ-style
+
+136. Find the missing term: 3, 10, 29, 66, 127, ?
+(a) 220 (b) 216 (c) 218 (d) 214
+Answer: (c)
+Solution: Terms are n³+2: 1+2=3, 8+2=10, 27+2=29, 64+2=66, 125+2=127, so 216+2 = 218. The trap 216 is the bare cube without +2, so the answer is 218.
+Source: PYQ-style
+
+137. Find the missing term: 7, 26, 63, 124, 215, ?
+(a) 340 (b) 344 (c) 342 (d) 336
+Answer: (c)
+Solution: Terms are n³−1: 8−1=7, 27−1=26, 64−1=63, 125−1=124, 216−1=215, so 343−1 = 342. The trap 343-style rounding gives 344, so the answer is 342.
+Source: PYQ-style
+
+138. Find the missing term: 2, 5, 11, 23, 47, ?
+(a) 94 (b) 93 (c) 96 (d) 95
+Answer: (d)
+Solution: Doubling gives 94, the trap. The rule is ×2+1: 2×2+1=5, 5×2+1=11, …, 47×2+1 = 95, so the answer is 95.
+Source: PYQ-style
+
+139. Find the missing term: 1, 1, 2, 3, 5, 8, 13, ?
+(a) 21 (b) 20 (c) 22 (d) 19
+Answer: (a)
+Solution: This is the Fibonacci series where each term is the sum of the previous two: 8+13 = 21. The trap 20 comes from adding 7 as a "next difference", so the answer is 21.
+Source: PYQ-style
+
+140. Find the missing term: 4, 6, 10, 18, 34, ?
+(a) 64 (b) 62 (c) 68 (d) 66
+Answer: (d)
+Solution: Differences are 2, 4, 8, 16 (doubling), so the next difference is 32: 34+32 = 66. The trap 68 comes from doubling 34 directly, so the answer is 66.
+Source: PYQ-style
+
+141. Find the missing term: 11, 13, 17, 19, 23, 29, ?
+(a) 35 (b) 33 (c) 31 (d) 37
+Answer: (c)
+Solution: The trap is to add 6 again and get 35. The series is consecutive prime numbers; the prime after 29 is 31, so the answer is 31.
+Source: PYQ-style
+
+142. Find the missing term: 3, 8, 15, 24, 35, ?
+(a) 46 (b) 48 (c) 50 (d) 44
+Answer: (b)
+Solution: Terms are n²−1: 4−1=3, 9−1=8, 16−1=15, 25−1=24, 36−1=35, so 49−1 = 48. The trap 49-based guess gives 46 or 50, so the answer is 48.
+Source: PYQ-style
+
+143. Find the missing term: 2, 12, 36, 80, 150, ?
+(a) 250 (b) 252 (c) 248 (d) 256
+Answer: (b)
+Solution: Terms are n²(n+1): 1×2=2, 4×3=12, 9×4=36, 16×5=80, 25×6=150, so 36×7 = 252. The trap 250 comes from misreading differences, so the answer is 252.
+Source: PYQ-style
+
+144. Find the missing term: 5, 9, 17, 29, 45, ?
+(a) 67 (b) 65 (c) 63 (d) 69
+Answer: (b)
+Solution: Differences are 4, 8, 12, 16 (multiples of 4), so the next difference is 20: 45+20 = 65. The trap 61-style guess of difference 16 again is not offered, but 63 tempts those adding 18, so the answer is 65.
+Source: PYQ-style
+
+145. Find the missing term: 1, 8, 27, 64, 125, ?
+(a) 200 (b) 216 (c) 225 (d) 196
+Answer: (b)
+Solution: These are perfect cubes 1³ to 5³, so the next is 6³ = 216. The trap 225 is 15², confusing cubes with squares, so the answer is 216.
+Source: PYQ-style
+
+146. Find the missing term: 6, 13, 28, 59, 122, ?
+(a) 249 (b) 247 (c) 251 (d) 245
+Answer: (a)
+Solution: The trap is ×2+1 throughout, which gives 245. Check: 6×2+1=13, 13×2+2=28, 28×2+3=59, 59×2+4=122; the added number rises by 1, so next is 122×2+5 = 249, so the answer is 249.
+Source: PYQ-style
+
+147. Find the missing term: 10, 22, 46, 94, 190, ?
+(a) 382 (b) 380 (c) 384 (d) 378
+Answer: (a)
+Solution: Doubling gives 380, the trap. The rule is ×2+2: 10×2+2=22, 22×2+2=46, …, 190×2+2 = 382, so the answer is 382.
+Source: PYQ-style
+
+148. Find the missing term: 4, 18, 48, 100, 180, ?
+(a) 294 (b) 288 (c) 280 (d) 300
+Answer: (a)
+Solution: Terms are n²(n+1) starting at n=1… check: 1×2=2 no; instead use n³+n² with n=2: 8+4=12 no. Correct pattern: 2²×1=4, 3²×2=18, 4²×3=48, 5²×4=100, 6²×5=180, so 7²×6 = 294. The trap 288 comes from 12×24 mis-multiplication, so the answer is 294.
+Source: PYQ-style
+
+149. Find the missing term: 9, 27, 31, 93, 97, 291, ?
+(a) 297 (b) 295 (c) 873 (d) 299
+Answer: (b)
+Solution: The trap is 873 (×3 only). The pattern alternates ×3, +4: 9×3=27, 27+4=31, 31×3=93, 93+4=97, 97×3=291, so next is 291+4 = 295, so the answer is 295.
+Source: PYQ-style
+
+150. Find the missing term: 2, 7, 27, 107, 427, ?
+(a) 1705 (b) 1708 (c) 1707 (d) 1710
+Answer: (c)
+Solution: The rule is ×4−1: 2×4−1=7, 7×4−1=27, 27×4−1=107, 107×4−1=427, so 427×4−1 = 1707. The trap 1708 is plain ×4 without −1, so the answer is 1707.
+Source: PYQ-style

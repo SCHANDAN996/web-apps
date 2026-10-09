@@ -1,0 +1,39 @@
+```mermaid
+graph TD
+    A["लुप्त पद<br>Missing Term"] --> B["श्रृंखला के प्रकार<br>Types of Series"]
+    A --> C["पहचान रणनीति<br>Identification Strategy"]
+    A --> D["समय प्रबंधन<br>Time Management"]
+    A --> E["परीक्षक के जाल<br>Examiner Traps"]
+
+    B --> B1["संख्या श्रृंखला<br>Number Series"]
+    B --> B2["वर्ण श्रृंखला<br>Letter Series"]
+    B --> B3["अल्फा-न्यूमेरिक<br>Alpha-Numeric Series"]
+    B --> B4["आकृति/मिश्रित श्रृंखला<br>Mixed Series"]
+
+    B1 --> B1a["अंतर आधारित<br>Difference Based<br>(+2, +4, +6…)"]
+    B1 --> B1b["गुणन आधारित<br>Multiplication Based<br>(×2, ×3…)"]
+    B1 --> B1c["वर्ग/घन<br>Square/Cube<br>(n², n³, n²±1)"]
+    B1 --> B1d["दोहरी श्रृंखला<br>Alternate/Double Series"]
+    B1 --> B1e["मिश्रित क्रिया<br>Mixed Operations<br>(×2+1, ×3−2…)"]
+
+    B2 --> B2a["स्थान मान<br>Place Value<br>(A=1 … Z=26)"]
+    B2 --> B2b["स्थिर अंतर<br>Constant Gap<br>(+3, −2…)"]
+    B2 --> B2c["बढ़ता/घटता अंतर<br>Increasing/Decreasing Gap"]
+    B2 --> B2d["विपरीत छोर<br>Opposite Letters<br>(A-Z, B-Y…)"]
+
+    C --> C1["चरण 1: अंतर जाँचें<br>Step 1: Check Differences"]
+    C --> C2["चरण 2: अनुपात जाँचें<br>Step 2: Check Ratios"]
+    C --> C3["चरण 3: वर्ग/घन पहचानें<br>Step 3: Spot Squares/Cubes"]
+    C --> C4["चरण 4: एकांतर पद जाँचें<br>Step 4: Check Alternate Terms"]
+    C --> C5["चरण 5: उत्तर से पीछे सत्यापन<br>Step 5: Verify Backwards"]
+
+    D --> D1["15 सेकंड नियम<br>15-Second Rule:<br>पैटर्न न दिखे तो अगला चरण"]
+    D --> D2["45 सेकंड सीमा<br>45-Second Cap:<br>उसके बाद Skip/Mark"]
+    D --> D3["पहले आसान प्रश्न<br>Easy Questions First"]
+
+    E --> E1["लगभग-सही विकल्प<br>Near-Correct Options<br>(एक पद तक सही पैटर्न)"]
+    E --> E2["दोहरी श्रृंखला भ्रम<br>Double Series Confusion"]
+    E --> E3["वर्ग±1 जाल<br>Square ±1 Trap<br>(26 = 5²+1, 25 नहीं)"]
+    E --> E4["अंतर बनाम अनुपात<br>Difference vs Ratio Mix-up"]
+    E --> E5["वर्णों का स्थान मान भूलना<br>Wrong Letter Place Value<br>(J=10, M=13, R=18)"]
+```
