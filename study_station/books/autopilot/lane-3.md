@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 07:29 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 07:35 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 20 Sentence Improvement Adv (12th English) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 23 Sentence Arrangement (12th English) | ✍️ लिख रहा है | 60 मिनट |
-| W5 | Chapter 22 Para Jumbles (12th English) | ✍️ लिख रहा है | 64 मिनट |
+| W4 | Chapter 23 Sentence Arrangement (12th English) | ✍️ लिख रहा है | 66 मिनट |
+| W5 | Chapter 22 Para Jumbles (12th English) | ✍️ लिख रहा है | 70 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -51,16 +50,10 @@
 
 - Chapter 14 Antonyms (English) — 2 बार
 - Chapter 16 Idioms Phrases (English) — 2 बार
-- Chapter 20 Sentence Improvement Adv (English) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 07:00:00   [Sentence_Improvement_Adv] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-09-10 07:00:05   [Fill_in_Blanks_Adv] review Content_hi.txt: 1 issue(s): - The reading passage uses "malfunction" as a transitive verb ("will malfunction the delicate balance"), but "malfu
-09-10 07:00:07   [Sentence_Improvement_Adv] Practice_hi_Set_03.txt try 1: rejected (parsed 1 questions, numbers 52…52)
-09-10 07:01:21   [Cloze_Test] review: 6 section(s) corrected, 0 failed
-09-10 07:01:21   [Cloze_Test] written 6, failed 0; AI calls today 711/100000
 09-10 07:01:31 DONE 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_21_Cloze_Test in 34 min → df0ebf39
 09-10 07:01:31 worker 2: nothing left
 09-10 07:02:47   [Fill_in_Blanks_Adv] review Mind_Map_en.txt: 5 issue(s): - Line `A --> E="Step 4: Avoid]` has invalid Mermaid syntax (missing opening bracket, mismatched quote) → `A --> E
@@ -96,4 +89,9 @@
 09-10 07:28:45   [Sentence_Arrangement] Practice_hi_Set_01.txt try 1: rejected (parsed 2 questions, numbers 1…3)
 09-10 07:29:30   [Sentence_Improvement_Adv] review: 7 section(s) corrected, 0 failed
 09-10 07:29:30   [Sentence_Improvement_Adv] written 7, failed 0; AI calls today 765/100000
+09-10 07:29:40 DONE 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_20_Sentence_Improvement_Adv in 32 min → a7ac751f
+09-10 07:29:40 worker 1: nothing left
+09-10 07:30:45   [Sentence_Arrangement] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 07:31:43   [Para_Jumbles] Practice_en_Set_01.txt try 3: re-solve disagrees (Q23 key a vs re-solve b)
+09-10 07:34:22   [Sentence_Arrangement] Practice_en_Set_02.txt try 1: rejected (parsed 2 questions, numbers 26…27)
 ```
