@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 09:06 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 09:09 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 World Geography (Graduation GK) | 🔎 review हो रहा है | 39 मिनट |
-| W2 | Chapter 09 Economy Basic (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 13 Awards (Graduation GK) | ✍️ लिख रहा है | 1 मिनट |
-| W4 | Chapter 11 Chemistry (Graduation GK) | 🔎 review हो रहा है | 37 मिनट |
-| W5 | Chapter 12 Biology (Graduation GK) | 🔎 review हो रहा है | 39 मिनट |
+| W1 | Chapter 08 World Geography (Graduation GK) | 🔎 review हो रहा है | 42 मिनट |
+| W2 | Chapter 14 Sports (Graduation GK) | ✍️ लिख रहा है | 2 मिनट |
+| W3 | Chapter 13 Awards (Graduation GK) | ✍️ लिख रहा है | 4 मिनट |
+| W4 | Chapter 11 Chemistry (Graduation GK) | 🔎 review हो रहा है | 39 मिनट |
+| W5 | Chapter 12 Biology (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -29,29 +29,18 @@
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 12 | 0 | 16 |
 | Graduation Reasoning | 1 | 0 | 29 |
-| Graduation English | 28 | 0 | 2 |
-| **कुल** | **121** | **13** | **162** |
+| Graduation English | 29 | 0 | 1 |
+| **कुल** | **122** | **13** | **161** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 09:09 — Graduation GK · Chapter 12 Biology
 - 09-10 09:06 — Graduation GK · Chapter 09 Economy Basic
 - 09-10 09:04 — Graduation GK · Chapter 10 Physics Daily
-
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 09 Economy Basic (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 08:29:40   [Chemistry] written 1, failed 0; AI calls today 10/100000
-09-10 08:29:53   [Physics_Daily] review Content_en.txt: 1 issue(s): - Static-Dynamic Link claims MRI and CT rest on electromagnetic induction → MRI uses nuclear magnetic resonance (st
-09-10 08:30:13   [Economy_Basic] review Content_hi.txt: 1 issue(s): - 1991 के संकट में गिरवी रखे सोने का गंतव्य गलत: "इंग्लैंड और स्विट्ज़रलैंड" → सही है "इंग्लैंड और जापान" (बैंक ऑफ 
-09-10 08:33:14   [Biology] review Content_hi.txt: 1 issue(s): - Universal donor/recipient incorrectly stated as O/AB without Rh factor in Blood Groups section and Summary Table 
-09-10 08:35:32   [Chemistry] review Content_en.txt: 2 issue(s): - The Hook states the Haber process turns nitrogen into fertiliser → The Haber process synthesises ammonia from nit
-09-10 08:35:40   [Economy_Basic] review Key_Facts_en.txt: 1 issue(s): - "Poverty line calorie norm (Tendulkar-era origin)" misattributes the 2400/2100 kcal norms to the Tendulkar Comm
-09-10 08:36:15   [World_Geography] review Content_hi.txt: 2 issue(s): - "रूस इकलौता देश है जो यूरोप और एशिया में फैला है" → रूस इकलौता नहीं है; तुर्की, कज़ाखस्तान, अज़रबैजान, जॉर्जिया भ
-09-10 08:43:17   [Physics_Daily] review Feynman_hi.txt: 1 issue(s): - दही मथनी (मथानी) में मक्खन केंद्र में इकट्ठा होने का कथन तथ्यात्मक रूप से गलत है → पारंपरिक मथनी में मक्खन ऊपर तै
 09-10 08:46:30   [World_Geography] review Feynman_en.txt: 1 issue(s): - Earth's axis is tilted at about 23.5° from the vertical → Earth's axis is tilted at about 23.5° relative to the p
 09-10 08:46:43   [Chemistry] review Key_Facts_en.txt: 1 issue(s): -, Sh0
 09-10 08:49:30   [Physics_Daily] review Mind_Map.txt: 1 issue(s): - थर्मस – विकिरण रोक<br>Thermos – radiation stop → थर्मस – विकिरण को कम करता है<br>Thermos – reduces radiation
@@ -84,4 +73,12 @@
 09-10 09:05:52   [Economy_Basic] review PYQ_en.txt: 7 issue(s): - Section title "# 📊 PYQ Analysis — Indian, not numbers)" is incomplete/corrupted → provide a complete, meaningful titl
 09-10 09:06:45   [Economy_Basic] review: 1 section(s) corrected, 0 failed
 09-10 09:06:45   [Economy_Basic] written 1, failed 0; AI calls today 89/100000
+09-10 09:06:57 DONE Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_09_Economy_Basic in 1 min → 2cffe744
+09-10 09:06:57 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_14_Sports (TODO: todo 3, problems 1)
+09-10 09:07:41   [Sports] Practice_en_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 09:07:54   [Biology] review Memory_Hooks_en.txt: 1 issue(s): - Box 4 claims platelets are the least numerous blood cells (~2.5 lakh/µL) but WBCs (~7,000/µL) are actually f
+09-10 09:08:46   [World_Geography] review Memory_Hooks_hi.txt: 2 issue(s): - Mnemonic 1 phrase "आ अफ़्रीका नॉर्थ साउथ यूरोप ऑस्ट्रेलिया गया" omits Antarctica → add a hook for Antarctica
+09-10 09:09:09   [Sports] Practice_en_Set_01.txt try 2: rejected (answers not spread)
+09-10 09:09:37   [Biology] review: 3 section(s) corrected, 0 failed
+09-10 09:09:37   [Biology] written 3, failed 0; AI calls today 98/100000
 ```
