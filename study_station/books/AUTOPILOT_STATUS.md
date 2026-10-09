@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 11:44 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:17 PM
+**आख़िरी update:** 09-10-2026 11:50 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:17 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,12 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 16 Statement Conclusion (Graduation Reasoning) | 🔎 review हो रहा है | 37 मिनट |
-| W2 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 104 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 51 मिनट |
-| W4 | Chapter 19 Cubes Dice (Graduation Reasoning) | ✍️ लिख रहा है | 188 मिनट |
-| W7 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 82 मिनट |
-| W8 | Chapter 15 Mathematical Operations (Graduation Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 16 Statement Conclusion (Graduation Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 110 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🔎 review हो रहा है | 2 मिनट |
+| W4 | Chapter 19 Cubes Dice (Graduation Reasoning) | ✍️ लिख रहा है | 194 मिनट |
+| W7 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 87 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -31,12 +30,13 @@
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 3 | 0 | 25 |
 | Graduation GK | 27 | 0 | 1 |
-| Graduation Reasoning | 12 | 2 | 16 |
+| Graduation Reasoning | 13 | 2 | 15 |
 | Graduation English | 29 | 1 | 0 |
-| **कुल** | **208** | **10** | **78** |
+| **कुल** | **209** | **10** | **77** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 23:50 — Graduation Reasoning · Chapter 16 Statement Conclusion
 - 09-10 23:44 — Graduation Reasoning · Chapter 15 Mathematical Operations
 - 09-10 23:31 — Graduation Reasoning · Chapter 18 Inequality
 - 09-10 21:59 — Graduation Reasoning · Chapter 17 Course of Action
@@ -49,21 +49,12 @@
 - Chapter 12 Missing Term (Reasoning) — 2 बार
 - Chapter 14 Alphabet Questions (Reasoning) — 2 बार
 - Chapter 13 Dictionary Order (Reasoning) — 2 बार
-- Chapter 15 Mathematical Operations (Reasoning) — 1 बार
 - Chapter 16 Statement Conclusion (Reasoning) — 1 बार
 - Chapter 07 Sitting Arrangement (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 23:10:51   [Paper_Folding_Cutting] wrote Short_Tricks_en.txt (4367 chars)
-09-10 23:11:56   [Inequality] review PYQ_hi.txt: 1 issue(s): - Question 2 claims N ≥ P is false when N > P is true, but strict inequality implies the non-strict one; the book's own
-09-10 23:12:28   [Cubes_Dice] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-09-10 23:13:40   [Paper_Folding_Cutting] wrote Short_Tricks_hi.txt (6481 chars)
-09-10 23:14:18   [Paper_Folding_Cutting] wrote Important_Rules_en.txt (4012 chars)
-09-10 23:14:27   [Dictionary_Order] Practice_en_Set_06.txt try 3: re-solve disagrees (Q131 key c vs re-solve a, Q132 key b vs re-solve c, Q142 key a vs re-solve c, Q146 key c vs re-solve
-09-10 23:15:12   [Sitting_Arrangement] Practice_en_Set_01.txt try 2: re-solve disagrees (Q2 key c vs re-solve b, Q7 key d vs re-solve a, Q8 key c vs re-solve a, Q16 key a vs re-solve d, Q18
-09-10 23:15:26   [Cubes_Dice] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 09-10 23:15:42   [Paper_Folding_Cutting] wrote Important_Rules_hi.txt (3809 chars)
 09-10 23:16:23   [Inequality] review Short_Tricks_en.txt: 2 issue(s): - In Mnemonic 4, the rule "the WEAKEST sign in the chain decides the conclusion" is incorrect → In a same-dire
 09-10 23:17:29   [Cubes_Dice] Practice_en_Set_04.txt try 1: rejected (Q84:leaked_reasoning)
@@ -96,4 +87,12 @@
 09-10 23:44:38   [Cubes_Dice] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 09-10 23:44:53   [Mathematical_Operations] review: 6 section(s) corrected, 0 failed
 09-10 23:44:53   [Mathematical_Operations] written 6, failed 0; AI calls today 498/100000
+09-10 23:45:09 DONE Graduation_Level/Reasoning/Chapter_15_Mathematical_Operations in 83 min → 676d86c1
+09-10 23:45:09 worker 7: nothing left
+09-10 23:47:16   [Cubes_Dice] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 23:47:49   [Sitting_Arrangement] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 23:47:49   [Sitting_Arrangement] written 2, failed 0; AI calls today 501/100000
+09-10 23:48:58   [Cubes_Dice] Practice_en_Set_05.txt try 1: rejected (Q125:leaked_reasoning)
+09-10 23:50:35   [Statement_Conclusion] review: 3 section(s) corrected, 0 failed
+09-10 23:50:35   [Statement_Conclusion] written 3, failed 0; AI calls today 503/100000
 ```
