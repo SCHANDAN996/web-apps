@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 11:37 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
+**आख़िरी update:** 09-10-2026 11:52 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,13 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 17 Trigonometry (12th Maths) | 🔎 review हो रहा है | 16 मिनट |
-| W2 | Chapter 21 Permutation Combination (12th Maths) | ✍️ लिख रहा है | 71 मिनट |
-| W3 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 104 मिनट |
-| W4 | Chapter 13 Mixture Alligation (12th Maths) | ✍️ लिख रहा है | 65 मिनट |
-| W6 | Chapter 19 Statistics (12th Maths) | ✍️ लिख रहा है | 105 मिनट |
-| W7 | Chapter 23 Quadratic Equations (12th Maths) | ✍️ लिख रहा है | 32 मिनट |
-| W8 | Chapter 22 Number Series (12th Maths) | ✍️ लिख रहा है | 55 मिनट |
+| W1 | Chapter 17 Trigonometry (12th Maths) | 🔎 review हो रहा है | 31 मिनट |
+| W2 | Chapter 21 Permutation Combination (12th Maths) | ✍️ लिख रहा है | 86 मिनट |
+| W3 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 119 मिनट |
+| W6 | Chapter 19 Statistics (12th Maths) | ✍️ लिख रहा है | 120 मिनट |
+| W7 | Chapter 23 Quadratic Equations (12th Maths) | ✍️ लिख रहा है | 47 मिनट |
+| W8 | Chapter 22 Number Series (12th Maths) | ✍️ लिख रहा है | 70 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -22,7 +21,7 @@
 |---|---|---|---|
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
-| 10th Maths | 14 | 8 | 0 |
+| 10th Maths | 15 | 7 | 0 |
 | 10th English | 17 | 0 | 3 |
 | 12th Maths | 12 | 2 | 9 |
 | 12th GK | 22 | 2 | 0 |
@@ -30,9 +29,9 @@
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 3 | 0 | 25 |
 | Graduation GK | 27 | 0 | 1 |
-| Graduation Reasoning | 10 | 0 | 20 |
+| Graduation Reasoning | 12 | 0 | 18 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **207** | **12** | **77** |
+| **कुल** | **210** | **11** | **75** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -54,36 +53,13 @@
 - Chapter 07 Ratio Proportion (Maths) — 2 बार
 - Chapter 11 Time Work (Maths) — 2 बार
 - Chapter 16 Algebra (Maths) — 2 बार
-- Chapter 13 Mixture Alligation (Maths) — 1 बार
+- Chapter 13 Mixture Alligation (Maths) — 2 बार
 - Chapter 17 Trigonometry (Maths) — 1 बार
 - Chapter 18 Data Interpretation (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 23:13:16   [Number_Series] wrote PYQ_en.txt (7574 chars)
-09-10 23:13:52   [Trigonometry] Content_en.txt try 1: rejected (chat debris "Here is the")
-09-10 23:15:20   [Data_Interpretation] Practice_en_Set_05.txt try 1: re-solve disagrees (Q124 key b vs re-solve ?)
-09-10 23:15:24   [Trigonometry] wrote Content_en.txt (7343 chars)
-09-10 23:15:24   [Trigonometry] written 1, failed 0; AI calls today 666/100000
-09-10 23:16:07   [Number_Series] wrote PYQ_hi.txt (7129 chars)
-09-10 23:17:51   [Number_Series] wrote Short_Tricks_en.txt (10784 chars)
-09-10 23:18:39   [Permutation_Combination] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-09-10 23:19:09   [Statistics] Practice_en_Set_03.txt try 2: re-solve disagrees (Q59 key d vs re-solve ?)
-09-10 23:19:14   [Statistics] Practice_en_Set_03.txt try 3: rejected (parsed 0 questions, numbers -…-)
-09-10 23:19:41   [Data_Interpretation] FAILED Practice_en_Set_05.txt: rate_limited
-09-10 23:19:41   [Data_Interpretation] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
-09-10 23:19:56   [Number_Series] wrote Short_Tricks_hi.txt (7086 chars)
-09-10 23:20:28   [Trigonometry] repaired Flashcards_hi.txt (2736 chars)
-09-10 23:20:28   [Trigonometry] written 1, failed 0; AI calls today 673/100000
-09-10 23:20:46   [Number_Series] wrote Important_Formulas_en.txt (2228 chars)
-09-10 23:21:55   [Number_Series] wrote Important_Formulas_hi.txt (2740 chars)
-09-10 23:22:15   [Probability] Important_Formulas_hi.txt try 1: rejected (corrupted characters)
-09-10 23:22:55   [Permutation_Combination] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-09-10 23:23:05   [Mixture_Alligation] Practice_en_Set_06.txt try 1: re-solve disagrees (Q128 key d vs re-solve ?, Q150 key a vs re-solve ?)
-09-10 23:23:35   [Probability] wrote Important_Formulas_hi.txt (2929 chars)
-09-10 23:25:28   [Permutation_Combination] Practice_en_Set_04.txt try 1: rejected (Q98:answer_solution_conflict)
-09-10 23:25:53   [Data_Interpretation] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 09-10 23:26:46   [Number_Series] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 09-10 23:26:49   [Probability] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 09-10 23:28:13   [Quadratic_Equations] Feynman_en.txt try 1: answer too long — asking for a tighter version
@@ -101,4 +77,27 @@
 09-10 23:32:19   [Trigonometry] review Content_hi.txt: 1 issue(s): - 1852 में राधानाथ सिकदार द्वारा माउंट एवरेस्ट को सबसे ऊँची चोटी घोषित करने का तथ्य गलत है → सिकदार ने 1852 में चोट
 09-10 23:34:32   [Permutation_Combination] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 09-10 23:35:16   [Number_Series] Practice_hi_Set_01.txt try 1: rejected (parsed 2 questions, numbers 2…3)
+09-10 23:38:54   [Permutation_Combination] Practice_en_Set_05.txt try 1: re-solve disagrees (Q114 key c vs re-solve d, Q125 key b vs re-solve d)
+09-10 23:40:02   [Number_Series] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 23:40:12   [Statistics] Practice_en_Set_03.txt try 4: re-solve disagrees (Q53 key c vs re-solve ?, Q60 key a vs re-solve ?)
+09-10 23:40:12   [Statistics] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
+09-10 23:40:12   [Statistics] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
+09-10 23:43:09   [Statistics] Practice_en_Set_04.txt try 1: rejected (Q85:leaked_reasoning)
+09-10 23:43:25   [Number_Series] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+09-10 23:44:41   [Trigonometry] review Feynman_hi.txt: 1 issue(s): - The real-life example states "ऊँचाई = दूरी = 5 मीटर" when viewing the bulb at 45° from 5 m away, ignoring the obs
+09-10 23:46:06   [Permutation_Combination] Practice_en_Set_05.txt try 2: re-solve disagrees (Q114 key a vs re-solve d, Q125 key d vs re-solve b)
+09-10 23:46:30   [Number_Series] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 23:47:06   [Mixture_Alligation] FAILED Practice_hi_Set_06.txt: too_long
+09-10 23:47:06   [Mixture_Alligation] written 3, failed 2; AI calls today 715/100000
+09-10 23:47:06 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation after 76 min: todo ['Feynman_en.txt', 'Set 06 hi: todo'] problems []
+09-10 23:47:06 worker 3: nothing left
+09-10 23:48:15   [Probability] FAILED Practice_en_Set_02.txt: too_long
+09-10 23:48:15   [Probability] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+09-10 23:48:23   [Quadratic_Equations] Flashcards_en.txt try 1: answer too long — asking for a tighter version
+09-10 23:49:08   [Statistics] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 23:49:17   [Quadratic_Equations] wrote Flashcards_en.txt (3367 chars)
+09-10 23:49:41   [Number_Series] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 23:50:48   [Quadratic_Equations] wrote Flashcards_hi.txt (2832 chars)
+09-10 23:51:45   [Probability] Practice_en_Set_03.txt try 1: rejected (parsed 23 questions, numbers 51…75)
+09-10 23:52:12   [Quadratic_Equations] wrote PYQ_en.txt (6233 chars)
 ```
