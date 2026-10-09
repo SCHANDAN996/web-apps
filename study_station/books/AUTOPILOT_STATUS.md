@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 02:30 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
+**आख़िरी update:** 10-10-2026 02:45 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 83 मिनट |
-| W2 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 56 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🔎 review हो रहा है | 107 मिनट |
-| W4 | Chapter 22 Figure Series (Graduation Reasoning) | ✍️ लिख रहा है | 53 मिनट |
-| W5 | Chapter 23 Syllogism (Graduation Reasoning) | ✍️ लिख रहा है | 43 मिनट |
-| W6 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 8 मिनट |
-| W7 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 3 मिनट |
-| W8 | Chapter 19 Cubes Dice (Graduation Reasoning) | ✍️ लिख रहा है | 106 मिनट |
+| W1 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 99 मिनट |
+| W2 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 71 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🔎 review हो रहा है | 122 मिनट |
+| W4 | Chapter 22 Figure Series (Graduation Reasoning) | ✍️ लिख रहा है | 68 मिनट |
+| W5 | Chapter 23 Syllogism (Graduation Reasoning) | ✍️ लिख रहा है | 58 मिनट |
+| W6 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 23 मिनट |
+| W7 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 18 मिनट |
+| W8 | Chapter 19 Cubes Dice (Graduation Reasoning) | ✍️ लिख रहा है | 10 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -31,11 +31,11 @@
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 10 | 0 | 15 |
 | 12th English | 25 | 0 | 0 |
-| Graduation Maths | 10 | 0 | 18 |
+| Graduation Maths | 11 | 0 | 17 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 13 | 2 | 15 |
 | Graduation English | 29 | 1 | 0 |
-| **कुल** | **226** | **5** | **65** |
+| **कुल** | **227** | **5** | **64** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -48,22 +48,11 @@
 - Chapter 12 Missing Term (Reasoning) — 2 बार
 - Chapter 13 Dictionary Order (Reasoning) — 1 बार
 - Chapter 14 Alphabet Questions (Reasoning) — 1 बार
+- Chapter 19 Cubes Dice (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 01:40:17   [Alphabet_Questions] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
-10-10 01:41:41   [Dictionary_Order] Practice_en_Set_04.txt try 2: re-solve disagrees (Q78 key d vs re-solve ?, Q81 key a vs re-solve c, Q82 key c vs re-solve a, Q87 key c vs re-solve b, 
-10-10 01:42:23   [Figure_Series] wrote Content_en.txt (8790 chars)
-10-10 01:45:28   [Figure_Series] wrote Content_hi.txt (2112 chars)
-10-10 01:46:05   [Alphabet_Questions] Practice_en_Set_05.txt try 1: rejected (Q104:leaked_reasoning,Q106:leaked_reasoning,Q109:leaked_reasoning,Q116:leaked_reasoning,Q118:leaked_reasoning)
-10-10 01:47:11   [Missing_Term] repaired Important_Rules_hi.txt (37097 chars)
-10-10 01:47:11   [Missing_Term] written 1, failed 0; AI calls today 68/100000
-10-10 01:47:11 NOT OK Graduation_Level/Reasoning/Chapter_12_Missing_Term after 24 min: todo [] problems ['Important_Rules_hi.txt: Hindi file is mostly not in Hindi']
-10-10 01:47:13 START Graduation_Level/Reasoning/Chapter_23_Syllogism (TODO: todo 25, problems 0)
-10-10 01:55:07   [Dictionary_Order] Practice_en_Set_04.txt try 3: rejected (parsed 0 questions, numbers -…-)
-10-10 02:00:33   [Cubes_Dice] FAILED Practice_en_Set_02.txt: too_long
-10-10 02:00:33   [Cubes_Dice] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
 10-10 02:01:04   [Sitting_Arrangement] FAILED review PYQ_hi.txt: network — the chapter must not be published unreviewed
 10-10 02:02:37   [Sitting_Arrangement] review Short_Tricks_en.txt: 1 issue(s): - Box 8 claims side people have 3 neighbours in a rectangle/square arrangement → In standard seating puzzles, 
 10-10 02:04:09   [Dictionary_Order] Practice_en_Set_04.txt try 4: rejected (parsed 0 questions, numbers -…-)
@@ -92,4 +81,16 @@
 10-10 02:27:34 START Graduation_Level/Reasoning/Chapter_14_Alphabet_Questions (TODO: todo 6, problems 0)
 10-10 02:27:43   [Syllogism] FAILED Content_hi.txt: network
 10-10 02:28:59   [Sitting_Arrangement] review Short_Tricks_hi.txt: 3 issue(s): - "80% प्रश्न सिर्फ़ पक्की सूचनाओं से ही सुलझ जाते हैं" → आविष्कृत परीक्षा सांख्यिकी है; "अधिकांश प्रश्न" या स
+10-10 02:33:22   [Dictionary_Order] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 02:33:56   [Mirror_Water_Images] FAILED Practice_en_Set_05.txt: network
+10-10 02:33:56   [Mirror_Water_Images] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
+10-10 02:35:06   [Cubes_Dice] FAILED Practice_en_Set_06.txt: network
+10-10 02:35:06   [Cubes_Dice] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+10-10 02:35:06   [Cubes_Dice] written 0, failed 6; AI calls today 78/100000
+10-10 02:35:06 NOT OK Graduation_Level/Reasoning/Chapter_19_Cubes_Dice after 111 min: todo ['Set 01 en: todo', 'Set 01 hi: todo', 'Set 02 en: todo', 'Set 02 hi: todo'] problems ['Important_Rules_hi.txt: Hindi file is mostly not in Hindi']
+10-10 02:35:08 START Graduation_Level/Reasoning/Chapter_19_Cubes_Dice (TODO: todo 6, problems 1)
+10-10 02:38:32   [Paper_Folding_Cutting] FAILED Practice_en_Set_02.txt: network
+10-10 02:38:32   [Paper_Folding_Cutting] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+10-10 02:39:38   [Cubes_Dice] Practice_en_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 02:44:01   [Figure_Series] FAILED Feynman_hi.txt: rate_limited
 ```
