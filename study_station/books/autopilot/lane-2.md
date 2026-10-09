@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 12:33 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:12 PM
+**आख़िरी update:** 10-10-2026 12:39 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:38 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 12 Time Distance (Graduation Maths) | ✍️ लिख रहा है | 141 मिनट |
-| W3 | Chapter 13 Mixture Alligation (Graduation Maths) | ✍️ लिख रहा है | 119 मिनट |
-| W6 | Chapter 14 Mensuration (Graduation Maths) | ✍️ लिख रहा है | 87 मिनट |
-| W7 | Chapter 11 Time Work (Graduation Maths) | ✍️ लिख रहा है | 151 मिनट |
-| W8 | Chapter 10 Compound Interest (Graduation Maths) | ✍️ लिख रहा है | 153 मिनट |
+| W1 | Chapter 13 Awards (Graduation GK) | 🔧 सुधार रहा है | 1 मिनट |
+| W2 | Chapter 02 LCM HCF (Graduation Maths) | ✍️ लिख रहा है | 0 मिनट |
+| W3 | Chapter 03 Simplification (Graduation Maths) | 🔎 review हो रहा है | 0 मिनट |
+| W4 | Chapter 04 Fractions Decimals (Graduation Maths) | 🔎 review हो रहा है | 0 मिनट |
+| W5 | Chapter 05 Percentage (Graduation Maths) | ✍️ लिख रहा है | 0 मिनट |
+| W6 | Chapter 07 Ratio Proportion (Graduation Maths) | ✍️ लिख रहा है | 0 मिनट |
+| W7 | Chapter 09 Simple Interest (Graduation Maths) | 🔎 review हो रहा है | 0 मिनट |
+| W8 | Chapter 10 Compound Interest (Graduation Maths) | ✍️ लिख रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,65 +37,28 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- 09-10 23:18 — Graduation Maths · Chapter 08 Profit Loss
-- 09-10 22:33 — Graduation Maths · Chapter 06 Average
-- 09-10 21:05 — Graduation GK · Chapter 28 Advanced Science Tech
-- 09-10 20:48 — Graduation GK · Chapter 27 Budget Economic Survey
-- 09-10 20:38 — Graduation Maths · Chapter 01 Number System Advanced
-- 09-10 20:03 — Graduation GK · Chapter 26 Advanced Polity
-- 09-10 19:45 — Graduation GK · Chapter 22 Defence
+- अभी कोई नहीं
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 13 Awards (GK) — 2 बार
-- Chapter 03 Simplification (Maths) — 2 बार
-- Chapter 05 Percentage (Maths) — 2 बार
-- Chapter 02 LCM HCF (Maths) — 2 बार
-- Chapter 04 Fractions Decimals (Maths) — 2 बार
-- Chapter 07 Ratio Proportion (Maths) — 2 बार
-- Chapter 09 Simple Interest (Maths) — 1 बार
+- Chapter 02 LCM HCF (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 23:46:02   [Compound_Interest] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
-09-10 23:48:07   [Time_Work] Practice_en_Set_03.txt try 1: rejected (Q51:leaked_reasoning,Q53:leaked_reasoning,Q55:leaked_reasoning,Q62:leaked_reasoning,Q66:leaked_reasoning)
-09-10 23:51:26   [Simple_Interest] review PYQ_hi.txt: 2 issue(s): - प्रश्न 2 का दिया गया उत्तर (a) ₹4,200; 8% गलत है → सही उत्तर: मूलधन ₹4,200, ब्याज दर ≈ 9.52% (दिया गया कोई विकल्प सही
-09-10 23:53:59   [Mixture_Alligation] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-09-10 23:55:18   [Mensuration] FAILED Practice_en_Set_02.txt: too_long
-09-10 23:55:18   [Mensuration] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
-09-10 23:57:00   [Mixture_Alligation] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-09-10 23:57:06   [Mensuration] Practice_en_Set_03.txt try 1: rejected (Q56:leaked_reasoning,Q61:leaked_reasoning)
-09-10 23:59:08   [Simple_Interest] review Short_Tricks_en.txt: 1 issue(s): - The installment formula is missing the exponent n and final term, implying an infinite series → P = x/(1+R/1
-09-10 23:59:30   [Mixture_Alligation] Practice_en_Set_04.txt try 1: rejected (Q87:leaked_reasoning,Q92:leaked_reasoning,Q98:answer_solution_conflict)
-10-10 00:00:51   [Time_Distance] FAILED Practice_en_Set_03.txt: too_long
-10-10 00:00:51   [Time_Distance] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
-10-10 00:01:11   [Compound_Interest] Practice_en_Set_04.txt try 1: re-solve disagrees (Q98 key c vs re-solve ?)
-10-10 00:03:07   [Time_Work] Practice_en_Set_03.txt try 2: re-solve disagrees (Q56 key a vs re-solve b)
-10-10 00:03:42   [Mensuration] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-10-10 00:03:45   [Time_Distance] Practice_en_Set_04.txt try 1: rejected (Q83:leaked_reasoning,Q95:leaked_reasoning,Q97:leaked_reasoning)
-10-10 00:04:35   [Simple_Interest] review Short_Tricks_hi.txt: 2 issue(s): - Trick 13: Invented exam statistic "90% सवाल" without source/year → Remove or replace with a non-quantitative
-10-10 00:06:00   [Mensuration] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-10-10 00:06:23   [Mixture_Alligation] Practice_en_Set_04.txt try 2: re-solve disagrees (Q77 key a vs re-solve ?, Q85 key a vs re-solve b)
-10-10 00:07:43   [Compound_Interest] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-10-10 00:09:38   [Compound_Interest] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-10-10 00:11:09   [Mixture_Alligation] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-10-10 00:11:49   [Mixture_Alligation] Practice_hi_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
-10-10 00:12:05   [Time_Distance] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-10-10 00:14:08   [Simple_Interest] review Important_Formulas_en.txt: 1 issue(s): - Annual instalment formula incorrectly includes "T" → x = 100D / [100n + R·n(n−1)/2]
-10-10 00:14:54   [Mensuration] Practice_en_Set_04.txt try 1: re-solve disagrees (Q84 key a vs re-solve c, Q94 key d vs re-solve b)
-10-10 00:15:29   [Time_Distance] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-10-10 00:16:19   [Compound_Interest] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-10-10 00:16:53   [Time_Work] Practice_en_Set_03.txt try 3: re-solve disagrees (Q56 key a vs re-solve d)
-10-10 00:18:44   [Simple_Interest] review Important_Formulas_hi.txt: 2 issue(s): - The formula for "वार्षिक किस्त में ऋण चुकता" (P = x[ n/100 + n(n−1)R/(2×100×100) ]…) is dimensionally 
-10-10 00:19:58   [Time_Distance] Practice_en_Set_05.txt try 1: rejected (Q110:leaked_reasoning,Q123:leaked_reasoning,Q124:leaked_reasoning,Q125:leaked_reasoning)
-10-10 00:20:17   [Mixture_Alligation] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-10-10 00:22:26   [Simple_Interest] review: 7 section(s) corrected, 2 failed
-10-10 00:22:26   [Simple_Interest] written 7, failed 2; AI calls today 32/100000
-10-10 00:22:26 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_09_Simple_Interest after 197 min: todo [] problems []
-10-10 00:22:26 worker 4: nothing left
-10-10 00:23:50   [Mensuration] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-10-10 00:25:13   [Mixture_Alligation] Practice_en_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
-10-10 00:25:57   [Compound_Interest] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-10-10 00:32:53   [Mixture_Alligation] Practice_en_Set_05.txt try 2: rejected (Q105:answer_solution_conflict,Q106:leaked_reasoning,Q124:leaked_reasoning)
+10-10 00:38:11 autopilot start: 8 workers, reverse=True
+10-10 00:38:12 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards (FIX: todo 0, problems 1)
+10-10 00:38:19 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_02_LCM_HCF (TODO: todo 1, problems 2)
+10-10 00:38:24 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_03_Simplification (OK: todo 0, problems 0)
+10-10 00:38:29 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_04_Fractions_Decimals (OK: todo 0, problems 0)
+10-10 00:38:34 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_05_Percentage (TODO: todo 1, problems 1)
+10-10 00:38:39 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_07_Ratio_Proportion (TODO: todo 2, problems 0)
+10-10 00:38:44 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_09_Simple_Interest (OK: todo 0, problems 0)
+10-10 00:38:49 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_10_Compound_Interest (TODO: todo 7, problems 0)
+10-10 00:38:57   [LCM_HCF] Feynman_en.txt try 1: rejected (chat debris "Here's the")
+10-10 00:39:02   [LCM_HCF] Feynman_en.txt try 2: rejected (too short)
+10-10 00:39:02   [LCM_HCF] REJECTED Feynman_en.txt: too short — not written
+10-10 00:39:02   [LCM_HCF] written 0, failed 1; AI calls today 9/100000
+10-10 00:39:02 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_02_LCM_HCF after 1 min: todo ['Feynman_en.txt'] problems ['PYQ_hi.txt: Hindi file is mostly not in Hindi', 'PYQ_hi.txt: much shorter than the English section (541 vs 79']
+10-10 00:39:05 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_02_LCM_HCF (TODO: todo 1, problems 2)
 ```
