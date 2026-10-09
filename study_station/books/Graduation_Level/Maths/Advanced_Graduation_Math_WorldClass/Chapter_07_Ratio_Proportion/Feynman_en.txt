@@ -1,0 +1,91 @@
+# 🧒 Feynman Explanation: The Hardest Concept in Ratio & Proportion
+
+## The Concept That Tricks Everyone: "Compounding and Dividing Ratios" (Componendo–Dividendo)
+
+Ask any exam aspirant what scares them in this chapter, and most will whisper the same name: **Componendo–Dividendo**. It looks like a magic spell. But today, you'll understand it so well that you could explain it to your little cousin. Let's go.
+
+---
+
+## 🍕 The Pizza Shop Story
+
+Imagine you and your friend Ravi run a tiny pizza stall.
+
+- **You** put in 3 spoons of sauce per pizza.
+- **Ravi** puts in 5 spoons of cheese per pizza.
+
+So the "recipe ratio" of your contributions is **3 : 5**.
+
+Now here's the twist. One evening, a customer says: *"I don't care about sauce and cheese separately. Tell me about the WHOLE pizza versus just the extra cheese."*
+
+You scratch your head. Whole pizza = sauce + cheese = 3 + 5 = **8 parts**. Extra cheese over sauce = 5 − 3 = **2 parts**.
+
+So without touching a single spoon, you discovered two new ratios:
+
+- **(sauce + cheese) : (cheese − sauce) = 8 : 2**
+
+Congratulations — you just did **Componendo–Dividendo** with your bare hands. 🎉
+
+---
+
+## 🔑 So What Is the Rule, Really?
+
+If
+
+$$\frac{a}{b} = \frac{c}{d}$$
+
+then, automatically:
+
+$$\frac{a+b}{a-b} = \frac{c+d}{c-d}$$
+
+In pizza language: *"If two recipes are equally balanced, then (everything together) : (the difference) is also equally balanced."*
+
+- **Componendo** = ADD the top and bottom (a+b : b)
+- **Dividendo** = SUBTRACT them (a−b : b)
+- **Componendo–Dividendo** = do both at once and compare: **(a+b) : (a−b)**
+
+That's it. No magic. Just "add" and "subtract" wearing a fancy Latin coat.
+
+---
+
+## 🪄 The Unforgettable Trick: **"PLUS over MINUS"**
+
+Whenever you see a fraction equal to another fraction, chant this:
+
+> **"Same ratio? Then PLUS over MINUS is also the same ratio!"**
+
+Memory hook: Picture a **plus sign (+) sitting on top of a minus sign (−)** like a burger. 🍔 The burger is the fraction bar. Top bun = add, bottom bun = subtract. If the original fractions were equal, the burgers are equal too.
+
+**Quick test of the trick:**
+If x/y = 3/5, find (x+y)/(x−y).
+→ Burger it: (3+5)/(3−5) = 8/(−2) = **−4**. Done in 5 seconds. ⚡
+
+Notice the sign! Since 3 < 5, the bottom of the burger (3 − 5) is negative, so the answer is negative. That's perfectly fine — the rule works with signs exactly as normal subtraction does. If the question had asked for (x+y)/(y−x) instead, you'd flip the bottom and get 8/2 = **4**. Always subtract in the exact order the question asks.
+
+---
+
+## 🎯 Why Do Exams Love This?
+
+Because most students **memorize** the formula but freeze when the question hides it, like:
+
+> "If (4a + 3b) : (4a − 3b) = 5 : 3, find a : b."
+
+A memorizer panics. You? You just **un-burger** it:
+- Apply the trick in reverse: 4a : 3b = (5 + 3) : (5 − 3) = 8 : 2 = 4 : 1
+- So 4a/3b = 4/1 → a/b = (4 × 3)/4 = 3
+- Therefore **a : b = 3 : 1**. ✅
+
+The trap was never the math. The trap was the costume the math was wearing.
+
+---
+
+## ❓ Your Turn (The Feynman Test)
+
+Feynman said: *"If you can't explain it simply, you don't understand it well enough."*
+
+So here's your challenge — explain this to a friend (or to your wall) in one minute:
+
+> **If p/q = 7/3, what is (p+q)/(p−q), and WHY does the burger trick work?**
+
+(Answer to check yourself: (7+3)/(7−3) = 10/4 = **5/2**.)
+
+If you can answer that out loud without looking back — congratulations, the hardest concept in Ratio & Proportion now belongs to you. 🏆
