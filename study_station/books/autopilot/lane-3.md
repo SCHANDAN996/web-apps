@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 01:21 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
+**आख़िरी update:** 10-10-2026 01:30 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 17 Course of Action (12th Reasoning) | ✍️ लिख रहा है | 7 मिनट |
-| W2 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 38 मिनट |
-| W3 | Chapter 10 Clock Calendar (12th Reasoning) | ✍️ लिख रहा है | 38 मिनट |
-| W4 | Chapter 11 Series (12th Reasoning) | 📤 push हो रहा है | 0 मिनट |
-| W5 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 37 मिनट |
-| W6 | Chapter 14 Alphabet Questions (12th Reasoning) | ✍️ लिख रहा है | 37 मिनट |
-| W7 | Chapter 15 Mathematical Operations (12th Reasoning) | ✍️ लिख रहा है | 37 मिनट |
-| W8 | Chapter 16 Statement Conclusion (12th Reasoning) | ✍️ लिख रहा है | 37 मिनट |
+| W1 | Chapter 17 Course of Action (12th Reasoning) | ✍️ लिख रहा है | 15 मिनट |
+| W2 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 46 मिनट |
+| W3 | Chapter 10 Clock Calendar (12th Reasoning) | ✍️ लिख रहा है | 46 मिनट |
+| W4 | Chapter 18 Inequality (12th Reasoning) | ✍️ लिख रहा है | 8 मिनट |
+| W5 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 46 मिनट |
+| W6 | Chapter 14 Alphabet Questions (12th Reasoning) | ✍️ लिख रहा है | 46 मिनट |
+| W7 | Chapter 15 Mathematical Operations (12th Reasoning) | ✍️ लिख रहा है | 46 मिनट |
+| W8 | Chapter 16 Statement Conclusion (12th Reasoning) | ✍️ लिख रहा है | 46 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -25,50 +25,24 @@
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 18 | 4 | 0 |
 | 10th English | 17 | 0 | 3 |
-| 12th Maths | 11 | 0 | 12 |
+| 12th Maths | 12 | 0 | 11 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 10 | 0 | 15 |
 | 12th English | 25 | 0 | 0 |
-| Graduation Maths | 6 | 0 | 22 |
+| Graduation Maths | 7 | 0 | 21 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 12 | 0 | 18 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **218** | **4** | **74** |
+| **कुल** | **220** | **4** | **72** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
 - 10-10 01:21 — 12th Reasoning · Chapter 11 Series
 - 10-10 01:14 — 12th Reasoning · Chapter 05 Direction Sense
 
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 11 Series (Reasoning) — 1 बार
-
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 01:03:22   [Clock_Calendar] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
-10-10 01:03:23   [Direction_Sense] review PYQ_en.txt: 1 issue(s): - In Q8 explanation, "the direction 135° CW behind real East is North-West" is incorrect → 135° clockwise from East is 
-10-10 01:05:43   [Clock_Calendar] Practice_en_Set_05.txt try 1: rejected (Q121:leaked_reasoning)
-10-10 01:05:45   [Alphabet_Questions] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-10-10 01:07:11   [Sitting_Arrangement] Practice_en_Set_01.txt try 2: re-solve disagrees (Q21 key c vs re-solve b, Q22 key d vs re-solve b)
-10-10 01:08:41   [Alphabet_Questions] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-10-10 01:10:51   [Alphabet_Questions] Practice_en_Set_04.txt try 1: rejected (Q76:leaked_reasoning,Q78:leaked_reasoning,Q79:leaked_reasoning,Q92:leaked_reasoning,Q99:leaked_reasoning)
-10-10 01:10:55   [Series] review PYQ_hi.txt: 2 issue(s): - Section 1 claims “हर शिफ्ट में इस अध्याय से प्रश्न दिखते हैं” for SSC CGL, CHSL, MTS, RRB NTPC, Group D, IBPS/SBI → T
-10-10 01:11:40   [Alphabet_Questions] Practice_en_Set_04.txt try 2: rejected (parsed 0 questions, numbers -…-)
-10-10 01:12:00   [Clock_Calendar] Practice_en_Set_05.txt try 2: re-solve disagrees (Q120 key d vs re-solve b)
-10-10 01:12:06   [Statement_Conclusion] Practice_en_Set_02.txt try 1: re-solve disagrees (Q26 key c vs re-solve d, Q32 key a vs re-solve c, Q33 key c vs re-solve d, Q43 key b vs re-solve d)
-10-10 01:13:03   [Dictionary_Order] Practice_en_Set_03.txt try 2: re-solve disagrees (Q53 key d vs re-solve b, Q56 key c vs re-solve a)
-10-10 01:14:02   [Mathematical_Operations] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-10-10 01:14:22   [Alphabet_Questions] Practice_en_Set_04.txt try 3: rejected (Q91:leaked_reasoning,Q92:leaked_reasoning,Q96:leaked_reasoning,Q98:answer_solution_conflict,Q100:leaked_reason
-10-10 01:14:27   [Direction_Sense] review: 1 section(s) corrected, 0 failed
-10-10 01:14:27   [Direction_Sense] written 1, failed 0; AI calls today 75/100000
-10-10 01:14:39 DONE 12th_Level/Reasoning/Chapter_05_Direction_Sense in 31 min → 5159edf1
-10-10 01:14:41 START 12th_Level/Reasoning/Chapter_17_Course_of_Action (TODO: todo 25, problems 0)
-10-10 01:14:52   [Course_of_Action] wrote Content_en.txt (825 chars)
-10-10 01:16:01   [Clock_Calendar] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-10-10 01:16:46   [Statement_Conclusion] Practice_en_Set_02.txt try 2: re-solve disagrees (Q26 key c vs re-solve d)
-10-10 01:16:52   [Mathematical_Operations] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 10-10 01:17:34   [Alphabet_Questions] Practice_en_Set_04.txt try 4: rejected (Q90:leaked_reasoning)
 10-10 01:17:34   [Alphabet_Questions] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
 10-10 01:17:34   [Alphabet_Questions] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
@@ -87,4 +61,26 @@
 10-10 01:21:49   [Series] review: 0 section(s) corrected, 0 failed
 10-10 01:21:50   [Series] written 0, failed 0; AI calls today 94/100000
 10-10 01:21:50   [Course_of_Action] wrote Content_hi.txt (6034 chars)
+10-10 01:22:02 DONE 12th_Level/Reasoning/Chapter_11_Series in 2 min → c82ad24f
+10-10 01:22:03 START 12th_Level/Reasoning/Chapter_18_Inequality (TODO: todo 25, problems 0)
+10-10 01:22:04   [Statement_Conclusion] Practice_en_Set_02.txt try 3: rejected (parsed 0 questions, numbers -…-)
+10-10 01:22:20   [Course_of_Action] wrote Feynman_en.txt (3195 chars)
+10-10 01:22:26   [Course_of_Action] Feynman_hi.txt try 1: rejected (too short)
+10-10 01:23:08   [Inequality] Content_en.txt try 1: rejected (chat debris "Here is the")
+10-10 01:24:05   [Inequality] wrote Content_en.txt (7784 chars)
+10-10 01:24:45   [Course_of_Action] wrote Feynman_hi.txt (3760 chars)
+10-10 01:25:17   [Course_of_Action] wrote Mind_Map.txt (1984 chars)
+10-10 01:26:15   [Alphabet_Questions] Practice_en_Set_05.txt try 2: re-solve disagrees (Q105 key c vs re-solve b, Q112 key a vs re-solve c, Q114 key c vs re-solve d, Q122 key a vs re-solve
+10-10 01:27:06   [Course_of_Action] wrote Flashcards_en.txt (5464 chars)
+10-10 01:27:23   [Inequality] wrote Content_hi.txt (8461 chars)
+10-10 01:27:29   [Dictionary_Order] Practice_en_Set_03.txt try 3: re-solve disagrees (Q73 key c vs re-solve b)
+10-10 01:27:38   [Statement_Conclusion] Practice_en_Set_02.txt try 4: re-solve disagrees (Q26 key a vs re-solve c, Q27 key a vs re-solve d)
+10-10 01:27:38   [Statement_Conclusion] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
+10-10 01:27:38   [Statement_Conclusion] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+10-10 01:27:54   [Inequality] Feynman_en.txt try 1: rejected (chat debris "Here's the")
+10-10 01:28:39   [Inequality] Feynman_en.txt try 2: rejected (chat debris "Here's the")
+10-10 01:28:39   [Inequality] REJECTED Feynman_en.txt: chat debris "Here's the" — not written
+10-10 01:28:49   [Clock_Calendar] Practice_en_Set_06.txt try 2: rejected (parsed 0 questions, numbers -…-)
+10-10 01:29:48   [Course_of_Action] wrote Flashcards_hi.txt (4097 chars)
+10-10 01:30:25   [Inequality] Feynman_hi.txt try 1: rejected (too short)
 ```
