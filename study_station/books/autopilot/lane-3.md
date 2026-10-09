@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 01:01 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 01:03 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 06 Order Ranking (12th Reasoning) | ✍️ लिख रहा है | 80 मिनट |
-| W2 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 92 मिनट |
-| W3 | Chapter 04 Blood Relations (12th Reasoning) | ✍️ लिख रहा है | 94 मिनट |
-| W4 | Chapter 03 Coding Decoding (12th Reasoning) | ✍️ लिख रहा है | 138 मिनट |
-| W5 | Chapter 02 Classification (12th Reasoning) | 🔎 review हो रहा है | 55 मिनट |
+| W1 | Chapter 06 Order Ranking (12th Reasoning) | ✍️ लिख रहा है | 82 मिनट |
+| W2 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 94 मिनट |
+| W3 | Chapter 04 Blood Relations (12th Reasoning) | ✍️ लिख रहा है | 95 मिनट |
+| W4 | Chapter 03 Coding Decoding (12th Reasoning) | ✍️ लिख रहा है | 140 मिनट |
+| W5 | Chapter 02 Classification (12th Reasoning) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,6 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 13:03 — 12th Reasoning · Chapter 02 Classification
 - 09-10 11:41 — 12th English · Chapter 25 Word Roots
 - 09-10 09:53 — 12th English · Chapter 24 RC Basic
 - 09-10 09:09 — 12th English · Chapter 16 Idioms Phrases
@@ -49,9 +50,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 12:17:05   [Coding_Decoding] Practice_en_Set_03.txt try 3: re-solve disagrees (Q62 key a vs re-solve ?)
-09-10 12:20:37   [Direction_Sense] wrote PYQ_hi.txt (7903 chars)
-09-10 12:21:29   [Direction_Sense] wrote Short_Tricks_en.txt (3625 chars)
 09-10 12:22:25   [Coding_Decoding] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 09-10 12:22:52   [Order_Ranking] Practice_en_Set_02.txt try 2: re-solve disagrees (Q32 key c vs re-solve b)
 09-10 12:23:15   [Direction_Sense] wrote Short_Tricks_hi.txt (4307 chars)
@@ -89,4 +87,7 @@
 09-10 13:00:54   [Order_Ranking] Practice_en_Set_03.txt try 4: re-solve disagrees (Q62 key d vs re-solve ?)
 09-10 13:00:54   [Order_Ranking] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
 09-10 13:00:54   [Order_Ranking] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
+09-10 13:02:30   [Classification] review Important_Rules_hi.txt: 3 issue(s): - संख्या-गुण जाँच उदाहरण में व्याख्या गलत है: 144 = 12² (सम संख्या) है, न कि विषम संख्या का वर्ग; सही पैटर्
+09-10 13:03:31   [Classification] review: 8 section(s) corrected, 0 failed
+09-10 13:03:31   [Classification] written 8, failed 0; AI calls today 481/100000
 ```
