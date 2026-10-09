@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 09-10-2026 04:19 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 11:14 AM
+**आख़िरी update:** 09-10-2026 04:34 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 11:14 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Narration (10th English) | ✍️ लिख रहा है | 83 मिनट |
+| W1 | Chapter 11 Narration (10th English) | ✍️ लिख रहा है | 98 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -47,9 +47,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 15:23:53   [Narration] wrote Short_Tricks_hi.txt (6617 chars)
-09-10 15:23:54   [Articles] FAILED Practice_en_Set_06.txt: rate_limited
-09-10 15:23:54   [Articles] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
 09-10 15:23:54   [Articles] written 24, failed 2; AI calls today 486/100000
 09-10 15:23:54 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_09_Articles after 105 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems ['Important_Rules_hi.txt: Hindi file is mostly not in Hindi']
 09-10 15:23:54 worker 2: nothing left
@@ -87,4 +84,7 @@
 09-10 16:10:27   [Narration] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 09-10 16:17:31   [Narration] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 09-10 16:19:06   [Narration] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 16:25:33   [Narration] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 16:27:38   [Narration] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 16:30:14   [Narration] Practice_en_Set_06.txt try 1: re-solve disagrees (Q133 key c vs re-solve a, Q149 key c vs re-solve a)
 ```
