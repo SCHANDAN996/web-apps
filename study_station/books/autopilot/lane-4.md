@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 06:26 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 06:41 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Ratio Proportion (12th Maths) | ✍️ लिख रहा है | 74 मिनट |
-| W2 | Chapter 10 Compound Interest (12th Maths) | ✍️ लिख रहा है | 61 मिनट |
-| W3 | Chapter 08 Profit Loss (12th Maths) | ✍️ लिख रहा है | 64 मिनट |
-| W5 | Chapter 09 Simple Interest (12th Maths) | ✍️ लिख रहा है | 63 मिनट |
+| W1 | Chapter 07 Ratio Proportion (12th Maths) | ✍️ लिख रहा है | 89 मिनट |
+| W2 | Chapter 10 Compound Interest (12th Maths) | ✍️ लिख रहा है | 76 मिनट |
+| W3 | Chapter 08 Profit Loss (12th Maths) | ✍️ लिख रहा है | 80 मिनट |
+| W5 | Chapter 09 Simple Interest (12th Maths) | ✍️ लिख रहा है | 78 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -26,10 +26,10 @@
 | 12th Reasoning | 4 | 0 | 21 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 22 | 0 | 6 |
+| Graduation GK | 23 | 0 | 5 |
 | Graduation Reasoning | 8 | 0 | 22 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **169** | **16** | **111** |
+| **कुल** | **170** | **16** | **110** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -53,21 +53,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 17:57:37   [Simple_Interest] Practice_en_Set_01.txt try 1: rejected (Q21:leaked_reasoning)
-09-10 17:57:51   [Average] review Flashcards_hi.txt: 1 issue(s): - Card 8: जाने वाले का मान = पुराना औसत − (बची संख्या × औसत में कमी) is wrong → जाने वाले का मान = पुराना औसत + 
-09-10 17:58:07   [Ratio_Proportion] wrote Flashcards_hi.txt (2691 chars)
-09-10 17:58:29   [Ratio_Proportion] wrote PYQ_en.txt (1974 chars)
-09-10 17:58:54   [Profit_Loss] wrote Short_Tricks_en.txt (7915 chars)
-09-10 18:00:46   [Profit_Loss] wrote Short_Tricks_hi.txt (6592 chars)
-09-10 18:00:52   [Simple_Interest] Practice_en_Set_01.txt try 2: rejected (Q21:leaked_reasoning)
-09-10 18:01:19   [Profit_Loss] wrote Important_Formulas_en.txt (3047 chars)
-09-10 18:01:45   [Ratio_Proportion] wrote PYQ_hi.txt (7241 chars)
-09-10 18:02:01   [Profit_Loss] wrote Important_Formulas_hi.txt (2366 chars)
-09-10 18:03:14   [Ratio_Proportion] wrote Short_Tricks_en.txt (8322 chars)
-09-10 18:03:33   [Profit_Loss] Practice_en_Set_01.txt try 1: rejected (Q24:leaked_reasoning)
-09-10 18:04:16   [Compound_Interest] FAILED Flashcards_en.txt: too_long
-09-10 18:04:58   [Ratio_Proportion] wrote Short_Tricks_hi.txt (5724 chars)
-09-10 18:05:09   [Compound_Interest] wrote Flashcards_hi.txt (2922 chars)
 09-10 18:05:43   [Ratio_Proportion] wrote Important_Formulas_en.txt (2611 chars)
 09-10 18:07:40   [Compound_Interest] wrote PYQ_en.txt (7346 chars)
 09-10 18:09:28   [Profit_Loss] wrote Practice_en_Set_01.txt (write, 25 MCQs)
@@ -93,4 +78,19 @@
 09-10 18:25:28   [Compound_Interest] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 09-10 18:25:30   [Compound_Interest] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
 09-10 18:25:50   [Profit_Loss] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 18:27:13   [Profit_Loss] Practice_en_Set_02.txt try 2: rejected (parsed 0 questions, numbers -…-)
+09-10 18:27:33   [Compound_Interest] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 18:29:21   [Ratio_Proportion] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 18:31:25   [Ratio_Proportion] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 18:33:10   [Compound_Interest] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+09-10 18:33:26   [Ratio_Proportion] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 18:34:14   [Simple_Interest] FAILED Practice_en_Set_02.txt: too_long
+09-10 18:34:14   [Simple_Interest] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+09-10 18:35:28   [Compound_Interest] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 18:35:34   [Profit_Loss] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+09-10 18:36:55   [Simple_Interest] Practice_en_Set_03.txt try 1: rejected (Q57:leaked_reasoning,Q66:leaked_reasoning,Q73:leaked_reasoning,Q70:duplicate_options)
+09-10 18:39:25   [Compound_Interest] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 18:39:52   [Profit_Loss] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 18:41:56   [Simple_Interest] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 18:41:59   [Compound_Interest] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 ```
