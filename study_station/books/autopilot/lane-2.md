@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 09:45 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:12 PM
+**आख़िरी update:** 09-10-2026 10:01 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:12 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 Fractions Decimals (Graduation Maths) | ✍️ लिख रहा है | 129 मिनट |
-| W2 | Chapter 05 Percentage (Graduation Maths) | ✍️ लिख रहा है | 2 मिनट |
-| W3 | Chapter 06 Average (Graduation Maths) | ✍️ लिख रहा है | 102 मिनट |
-| W4 | Chapter 08 Profit Loss (Graduation Maths) | ✍️ लिख रहा है | 56 मिनट |
-| W5 | Chapter 09 Simple Interest (Graduation Maths) | ✍️ लिख रहा है | 40 मिनट |
-| W6 | Chapter 07 Ratio Proportion (Graduation Maths) | ✍️ लिख रहा है | 67 मिनट |
-| W7 | Chapter 02 LCM HCF (Graduation Maths) | ✍️ लिख रहा है | 152 मिनट |
-| W8 | Chapter 03 Simplification (Graduation Maths) | 🔎 review हो रहा है | 51 मिनट |
+| W1 | Chapter 04 Fractions Decimals (Graduation Maths) | ✍️ लिख रहा है | 7 मिनट |
+| W2 | Chapter 05 Percentage (Graduation Maths) | ✍️ लिख रहा है | 17 मिनट |
+| W3 | Chapter 06 Average (Graduation Maths) | ✍️ लिख रहा है | 3 मिनट |
+| W4 | Chapter 08 Profit Loss (Graduation Maths) | ✍️ लिख रहा है | 72 मिनट |
+| W5 | Chapter 09 Simple Interest (Graduation Maths) | ✍️ लिख रहा है | 55 मिनट |
+| W6 | Chapter 07 Ratio Proportion (Graduation Maths) | ✍️ लिख रहा है | 82 मिनट |
+| W7 | Chapter 02 LCM HCF (Graduation Maths) | ✍️ लिख रहा है | 13 मिनट |
+| W8 | Chapter 10 Compound Interest (Graduation Maths) | ✍️ लिख रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -23,17 +23,17 @@
 |---|---|---|---|
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
-| 10th Maths | 13 | 9 | 0 |
+| 10th Maths | 14 | 8 | 0 |
 | 10th English | 15 | 0 | 5 |
-| 12th Maths | 7 | 0 | 16 |
+| 12th Maths | 9 | 0 | 14 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 6 | 0 | 19 |
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 2 | 0 | 26 |
 | Graduation GK | 27 | 1 | 0 |
-| Graduation Reasoning | 8 | 0 | 22 |
+| Graduation Reasoning | 9 | 0 | 21 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **195** | **10** | **91** |
+| **कुल** | **199** | **9** | **88** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -46,50 +46,53 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 13 Awards (GK) — 2 बार
-- Chapter 03 Simplification (Maths) — 1 बार
+- Chapter 03 Simplification (Maths) — 2 बार
 - Chapter 05 Percentage (Maths) — 1 बार
+- Chapter 02 LCM HCF (Maths) — 1 बार
+- Chapter 04 Fractions Decimals (Maths) — 1 बार
+- Chapter 06 Average (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 21:23:11   [Ratio_Proportion] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
-09-10 21:23:14   [Fractions_Decimals] Practice_en_Set_06.txt try 1: rejected (Q136:answer_solution_conflict,Q143:leaked_reasoning,Q144:answer_solution_conflict,Q150:answer_solution_conflic
-09-10 21:24:41   [Simplification] review Mind_Map.txt: 2 issue(s): - B2 bracket order lists bar (vinculum) last; bar must be solved first → Correct order: Bar → ( ) → { } → [ ]
-09-10 21:24:49   [Profit_Loss] Practice_en_Set_02.txt try 1: rejected (Q40:leaked_reasoning,Q41:leaked_reasoning,Q45:leaked_reasoning)
-09-10 21:25:32   [Simple_Interest] wrote Short_Tricks_hi.txt (7073 chars)
-09-10 21:25:51   [Average] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 21:26:04   [Simple_Interest] wrote Important_Formulas_en.txt (2210 chars)
-09-10 21:26:29   [Percentage] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-09-10 21:26:39   [Simple_Interest] Important_Formulas_hi.txt try 1: rejected (corrupted characters)
-09-10 21:27:19   [Simple_Interest] wrote Important_Formulas_hi.txt (2482 chars)
-09-10 21:28:10   [Average] Practice_en_Set_05.txt try 1: rejected (Q114:leaked_reasoning,Q116:leaked_reasoning,Q119:leaked_reasoning,Q120:leaked_reasoning,Q122:leaked_reasoning)
-09-10 21:28:35   [Ratio_Proportion] Practice_en_Set_03.txt try 1: rejected (Q59:leaked_reasoning,Q60:leaked_reasoning,Q62:leaked_reasoning,Q67:leaked_reasoning,Q75:leaked_reasoning)
-09-10 21:29:40   [Simplification] review PYQ_en.txt: 1 issue(s): - Q2: The given expression 3/8 of 4/9 of 1575 + √? = 35% of 1000 − 75 yields √? = 12.5, ? = 156.25, which is not among 
-09-10 21:29:46   [Profit_Loss] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-09-10 21:30:40   [Percentage] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-09-10 21:31:21   [Simple_Interest] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 21:31:40   [Simple_Interest] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 21:31:41   [Ratio_Proportion] Practice_en_Set_03.txt try 2: rejected (Q55:leaked_reasoning)
-09-10 21:33:49   [Simple_Interest] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-09-10 21:34:04   [Profit_Loss] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-09-10 21:34:04   [Percentage] Practice_en_Set_06.txt try 1: rejected (Q142:leaked_reasoning,Q144:leaked_reasoning)
-09-10 21:34:15   [Profit_Loss] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 21:35:36   [Average] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-09-10 21:36:10   [Simplification] review Short_Tricks_hi.txt: 1 issue(s): - Trick 13 का घन म्नेमोनिक संख्याओं से मेल नहीं खाता (पच्चीस, सौ आदि गलत हैं) → सही घन: 1, 8, 27, 64, 125, 216
-09-10 21:36:12   [Ratio_Proportion] Practice_en_Set_03.txt try 3: re-solve disagrees (Q54 key d vs re-solve a)
-09-10 21:36:57   [LCM_HCF] Practice_en_Set_06.txt try 1: re-solve disagrees (Q134 key c vs re-solve a)
-09-10 21:37:16   [Fractions_Decimals] Practice_en_Set_06.txt try 2: re-solve disagrees (Q126 key c vs re-solve d)
-09-10 21:38:03   [Simple_Interest] Practice_en_Set_02.txt try 1: rejected (Q37:leaked_reasoning)
-09-10 21:38:15   [Average] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-09-10 21:41:02   [Percentage] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 21:41:21   [Ratio_Proportion] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-09-10 21:41:51   [Ratio_Proportion] Practice_hi_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 21:43:25   [Percentage] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 21:43:25   [Percentage] written 21, failed 4; AI calls today 424/100000
-09-10 21:43:25 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_05_Percentage after 117 min: todo ['Content_en.txt', 'Feynman_en.txt', 'Set 01 en: todo', 'Set 01 hi: todo'] problems ['Flashcards_hi.txt: Hindi file is mostly not in Hindi']
-09-10 21:43:27 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_05_Percentage (TODO: todo 4, problems 1)
-09-10 21:44:39   [Simple_Interest] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-09-10 21:44:42   [Percentage] wrote Content_en.txt (6145 chars)
 09-10 21:45:27   [Percentage] Feynman_en.txt try 1: rejected (chat debris "Here's the")
 09-10 21:45:43   [LCM_HCF] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 21:46:33   [Simplification] review Important_Formulas_en.txt: 1 issue(s): - Reciprocal Percentage example: 1/6 = 16.66% is a wrong calculation (1/6 = 16.666...%) → Correct exampl
+09-10 21:46:36   [Profit_Loss] Practice_en_Set_03.txt try 2: re-solve disagrees (Q72 key a vs re-solve ?)
+09-10 21:46:52   [Average] Practice_en_Set_06.txt try 1: re-solve disagrees (Q147 key b vs re-solve ?)
+09-10 21:47:13   [Simple_Interest] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 21:47:55   [LCM_HCF] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+09-10 21:47:55   [LCM_HCF] written 22, failed 3; AI calls today 434/100000
+09-10 21:47:55 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_02_LCM_HCF after 155 min: todo ['Feynman_en.txt', 'Set 05 en: todo', 'Set 05 hi: todo'] problems ['PYQ_hi.txt: Hindi file is mostly not in Hindi', 'PYQ_hi.txt: much shorter than the English section (541 vs 79']
+09-10 21:47:57 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_02_LCM_HCF (TODO: todo 3, problems 2)
+09-10 21:48:23   [Ratio_Proportion] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 21:48:55   [LCM_HCF] Feynman_en.txt try 1: rejected (chat debris "Here's the")
+09-10 21:48:57   [LCM_HCF] Feynman_en.txt try 2: rejected (too short)
+09-10 21:48:57   [LCM_HCF] REJECTED Feynman_en.txt: too short — not written
+09-10 21:50:41   [Ratio_Proportion] Practice_en_Set_04.txt try 1: rejected (Q90:leaked_reasoning,Q93:leaked_reasoning)
+09-10 21:51:32   [Fractions_Decimals] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 21:51:54   [Profit_Loss] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 21:52:31   [LCM_HCF] Practice_en_Set_05.txt try 1: rejected (Q113:leaked_reasoning,Q123:leaked_reasoning,Q125:leaked_reasoning)
+09-10 21:52:37   [Simple_Interest] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 21:53:13   [Average] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 21:53:27   [Fractions_Decimals] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+09-10 21:53:27   [Fractions_Decimals] written 21, failed 4; AI calls today 447/100000
+09-10 21:53:27 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_04_Fractions_Decimals after 137 min: todo ['Set 03 en: todo', 'Set 03 hi: todo', 'Set 04 en: todo', 'Set 04 hi: todo'] problems ['Important_Formulas_hi.txt: Hindi file is mostly not in Hindi', 'Important_Formulas_hi.txt: much shorter than the English sec']
+09-10 21:53:29 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_04_Fractions_Decimals (TODO: todo 4, problems 2)
+09-10 21:54:05   [Profit_Loss] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 21:54:49   [Simple_Interest] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 21:56:09   [Ratio_Proportion] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 21:56:23   [Fractions_Decimals] Practice_en_Set_03.txt try 1: rejected (Q51:leaked_reasoning,Q61:answer_solution_conflict,Q67:answer_solution_conflict)
+09-10 21:57:02   [Average] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+09-10 21:57:02   [Average] written 23, failed 2; AI calls today 454/100000
+09-10 21:57:02 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_06_Average after 113 min: todo ['Feynman_en.txt', 'Important_Formulas_en.txt'] problems []
+09-10 21:57:04 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_06_Average (TODO: todo 2, problems 0)
+09-10 21:57:28   [Simple_Interest] Practice_en_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 21:57:30   [LCM_HCF] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 21:59:13   [Average] wrote Feynman_en.txt (2831 chars)
+09-10 21:59:48   [Ratio_Proportion] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 22:00:07   [Simplification] review: 5 section(s) corrected, 1 failed
+09-10 22:00:07   [Simplification] written 5, failed 1; AI calls today 460/100000
+09-10 22:00:07 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_03_Simplification after 71 min: todo [] problems []
+09-10 22:00:09 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_10_Compound_Interest (TODO: todo 25, problems 0)
 ```
