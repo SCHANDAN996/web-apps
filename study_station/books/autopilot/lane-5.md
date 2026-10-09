@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 09-10-2026 07:29 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
+**आख़िरी update:** 09-10-2026 07:30 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Time Work (10th Maths) | 🔧 सुधार रहा है | 5 मिनट |
-| W2 | Chapter 10 Compound Interest (10th Maths) | 🔧 सुधार रहा है | 15 मिनट |
-| W3 | Chapter 20 Sentence Improvement Basic (10th English) | ✍️ लिख रहा है | 25 मिनट |
-| W4 | Chapter 18 Error Spotting Basic (10th English) | 🔧 सुधार रहा है | 1 मिनट |
-| W5 | Chapter 19 Fill in Blanks Basic (10th English) | 🔎 review हो रहा है | 22 मिनट |
-| W6 | Chapter 12 Time Distance (10th Maths) | 🔧 सुधार रहा है | 0 मिनट |
-| W7 | Chapter 14 Antonyms (10th English) | 🔎 review हो रहा है | 41 मिनट |
-| W8 | Chapter 17 Spelling (10th English) | 🔎 review हो रहा है | 38 मिनट |
+| W1 | Chapter 11 Time Work (10th Maths) | 🔧 सुधार रहा है | 6 मिनट |
+| W2 | Chapter 10 Compound Interest (10th Maths) | 🔧 सुधार रहा है | 17 मिनट |
+| W3 | Chapter 20 Sentence Improvement Basic (10th English) | ✍️ लिख रहा है | 26 मिनट |
+| W4 | Chapter 18 Error Spotting Basic (10th English) | 🔎 review हो रहा है | 0 मिनट |
+| W5 | Chapter 19 Fill in Blanks Basic (10th English) | 📤 push हो रहा है | 0 मिनट |
+| W6 | Chapter 12 Time Distance (10th Maths) | 🔧 सुधार रहा है | 1 मिनट |
+| W7 | Chapter 14 Antonyms (10th English) | 🔎 review हो रहा है | 43 मिनट |
+| W8 | Chapter 17 Spelling (10th English) | 🔎 review हो रहा है | 39 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -24,7 +24,7 @@
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 9 | 13 | 0 |
-| 10th English | 14 | 4 | 2 |
+| 10th English | 15 | 3 | 2 |
 | 12th Maths | 2 | 0 | 21 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 4 | 0 | 21 |
@@ -33,10 +33,11 @@
 | Graduation GK | 23 | 0 | 5 |
 | Graduation Reasoning | 8 | 0 | 22 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **175** | **17** | **104** |
+| **कुल** | **176** | **16** | **104** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 19:30 — 10th English · Chapter 19 Fill in Blanks Basic
 - 09-10 19:28 — 10th English · Chapter 16 Idioms Phrases
 - 09-10 19:23 — 10th English · Chapter 15 One Word Substitution
 - 09-10 19:12 — 10th English · Chapter 13 Synonyms
@@ -59,11 +60,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 19:13:10   [Spelling] review Mind_Map_hi.txt: 1 issue(s): - B5: "Full + fill = fulfil एक L घटता है" → गलत नियम: "fulfil" शब्द "Full + fill" से नहीं बनता; सही नियम है कि "fu
-09-10 19:13:25   [Antonyms] review PYQ_en.txt: 3 issue(s): - Sound-Right Trap example claims "Artificial" is not a precise antonym of "Genuine" → "Artificial" is a valid antonym 
-09-10 19:13:25   [Sentence_Improvement_Basic] wrote Flashcards_hi.txt (4786 chars)
-09-10 19:13:29   [Error_Spotting_Basic] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 19:14:33   [Idioms_Phrases] review PYQ_hi.txt: 2 issue(s): - In the trap types table, the example for "मिलते-जुलते मुहावरे (Similar Idioms)" does not illustrate similar idioms; "
 09-10 19:14:46   [One_Word_Substitution] review PYQ_hi.txt: 1 issue(s): - Claim "हर शिफ्ट में लगभग 2–4 प्रश्न इस टॉपिक से पूछे जाते हैं" is an invented exam statistic without a cited exam/yea
 09-10 19:14:54   [Sentence_Improvement_Basic] wrote PYQ_en.txt (5697 chars)
 09-10 19:16:12   [Spelling] review Flashcards_hi.txt: 1 issue(s): - Card 4 claims “occur → occurred → occurrence, सब में double r” → occur has a single r; only occurred and occur
@@ -99,4 +95,9 @@
 09-10 19:28:58 DONE 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_16_Idioms_Phrases in 56 min → 1d87e670
 09-10 19:29:00 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_12_Time_Distance (FIX: todo 0, problems 17)
 09-10 19:29:12   [Antonyms] review Important_Rules_en.txt: 3 issue(s): - Rule 4: The rule "Positive ↔ Negative connotation must flip" is incorrect for the example because both 'e
+09-10 19:29:43   [Error_Spotting_Basic] repaired Flashcards_hi.txt (3222 chars)
+09-10 19:29:43   [Error_Spotting_Basic] written 1, failed 0; AI calls today 580/100000
+09-10 19:29:59   [Time_Distance] repaired Content_en.txt (7629 chars)
+09-10 19:30:22   [Fill_in_Blanks_Basic] review: 3 section(s) corrected, 0 failed
+09-10 19:30:22   [Fill_in_Blanks_Basic] written 3, failed 0; AI calls today 582/100000
 ```
