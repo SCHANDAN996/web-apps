@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 05:51 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 06:04 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 Blood Relations (Graduation Reasoning) | ✍️ लिख रहा है | 86 मिनट |
-| W2 | Chapter 03 Coding Decoding (Graduation Reasoning) | ✍️ लिख रहा है | 99 मिनट |
-| W3 | Chapter 02 Classification (Graduation Reasoning) | ✍️ लिख रहा है | 146 मिनट |
-| W4 | Chapter 05 Direction Sense (Graduation Reasoning) | ✍️ लिख रहा है | 34 मिनट |
-| W5 | Chapter 01 Analogy (Graduation Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 04 Blood Relations (Graduation Reasoning) | ✍️ लिख रहा है | 98 मिनट |
+| W2 | Chapter 03 Coding Decoding (Graduation Reasoning) | ✍️ लिख रहा है | 111 मिनट |
+| W3 | Chapter 02 Classification (Graduation Reasoning) | ✍️ लिख रहा है | 159 मिनट |
+| W4 | Chapter 05 Direction Sense (Graduation Reasoning) | ✍️ लिख रहा है | 47 मिनट |
+| W5 | Chapter 06 Order Ranking (Graduation Reasoning) | ✍️ लिख रहा है | 12 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md)
 
@@ -44,26 +44,10 @@
 
 - Chapter 22 Para Jumbles Adv (English) — 2 बार
 - Chapter 30 Revision Tracker (English) — 2 बार
-- Chapter 01 Analogy (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 05:21:32   [Direction_Sense] wrote Content_en.txt (9102 chars)
-09-10 05:22:02   [Blood_Relations] Practice_en_Set_01.txt try 1: rejected (Q20:leaked_reasoning)
-09-10 05:23:48   [Classification] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-09-10 05:24:04   [Analogy] review Mind_Map.txt: 2 issue(s): - C1c: Hindi "कार्य : कर्ता / उपकरण" does not match English "Tool : Worker / Function" → change Hindi to "उपकरण : कर्
-09-10 05:24:08   [Direction_Sense] wrote Content_hi.txt (7448 chars)
-09-10 05:25:29   [Direction_Sense] wrote Feynman_en.txt (3946 chars)
-09-10 05:25:50   [Classification] Practice_en_Set_04.txt try 1: rejected (Q86:leaked_reasoning,Q87:leaked_reasoning,Q93:leaked_reasoning,Q94:leaked_reasoning)
-09-10 05:27:02   [Direction_Sense] wrote Feynman_hi.txt (3095 chars)
-09-10 05:27:02   [Blood_Relations] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 05:27:46   [Direction_Sense] wrote Mind_Map.txt (2310 chars)
-09-10 05:28:18   [Classification] Practice_en_Set_04.txt try 2: rejected (Q86:leaked_reasoning,Q87:leaked_reasoning,Q93:leaked_reasoning,Q94:leaked_reasoning)
-09-10 05:29:17   [Direction_Sense] wrote Flashcards_en.txt (5658 chars)
-09-10 05:30:40   [Blood_Relations] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-09-10 05:30:48   [Direction_Sense] wrote Flashcards_hi.txt (4087 chars)
-09-10 05:34:05   [Blood_Relations] Practice_en_Set_02.txt try 1: rejected (Q49:leaked_reasoning)
 09-10 05:34:52   [Direction_Sense] wrote PYQ_en.txt (668 chars)
 09-10 05:35:10   [Coding_Decoding] PYQ_hi.txt try 1: answer too long — asking for a tighter version
 09-10 05:35:24   [Analogy] review Short_Tricks_hi.txt: 2 issue(s): - ट्रिक 3 में "TOOL-WORK-PRODUCT तीन-मंजिला मंत्र" शीर्षक और कथन "व्यक्ति-आधारित सादृश्यता में तीन ही मंजिलें 
@@ -89,4 +73,19 @@
 09-10 05:48:00   [Analogy] review Content_hi.txt: 2 issue(s): - "80% छात्रों को फँसाता है" → invented statistic; replace with "कई छात्रों को फँसाता है" or remove the percentage
 09-10 05:51:39   [Analogy] review: 1 section(s) corrected, 0 failed
 09-10 05:51:39   [Analogy] written 1, failed 0; AI calls today 254/100000
+09-10 05:51:51 DONE Graduation_Level/Reasoning/Chapter_01_Analogy in 10 min → 4aebeffe
+09-10 05:51:53 START Graduation_Level/Reasoning/Chapter_06_Order_Ranking (TODO: todo 25, problems 0)
+09-10 05:51:56   [Direction_Sense] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 05:53:07   [Order_Ranking] wrote Content_en.txt (1267 chars)
+09-10 05:53:31   [Classification] Practice_en_Set_04.txt try 4: re-solve disagrees (Q86 key a vs re-solve d)
+09-10 05:53:31   [Classification] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
+09-10 05:53:31   [Classification] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
+09-10 05:54:33   [Blood_Relations] Practice_en_Set_02.txt try 4: re-solve disagrees (Q31 key a vs re-solve ?, Q39 key c vs re-solve a, Q41 key b vs re-solve a, Q45 key a vs re-solve ?)
+09-10 05:54:33   [Blood_Relations] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
+09-10 05:54:33   [Blood_Relations] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+09-10 05:56:07   [Order_Ranking] wrote Content_hi.txt (5709 chars)
+09-10 05:57:51   [Direction_Sense] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 05:59:02   [Blood_Relations] Practice_en_Set_03.txt try 1: rejected (Q53:leaked_reasoning,Q63:leaked_reasoning)
+09-10 06:00:31   [Direction_Sense] Practice_en_Set_02.txt try 1: rejected (Q30:leaked_reasoning,Q36:leaked_reasoning,Q41:leaked_reasoning,Q43:leaked_reasoning,Q44:leaked_reasoning)
+09-10 06:02:13   [Coding_Decoding] Practice_en_Set_01.txt try 2: re-solve disagrees (Q1 key d vs re-solve -, Q2 key d vs re-solve -, Q3 key c vs re-solve -, Q4 key d vs re-solve -, Q5 k
 ```
