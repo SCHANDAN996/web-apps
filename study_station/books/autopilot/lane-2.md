@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 03:49 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:46 PM
+**आख़िरी update:** 09-10-2026 04:04 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:46 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 27 Budget Economic Survey (Graduation GK) | ✍️ लिख रहा है | 57 मिनट |
-| W2 | Chapter 28 Advanced Science Tech (Graduation GK) | ✍️ लिख रहा है | 26 मिनट |
-| W3 | Chapter 26 Advanced Polity (Graduation GK) | ✍️ लिख रहा है | 66 मिनट |
-| W4 | Chapter 24 Reports Indices (Graduation GK) | 🔎 review हो रहा है | 16 मिनट |
-| W5 | Chapter 25 Govt Schemes (Graduation GK) | ✍️ लिख रहा है | 5 मिनट |
+| W1 | Chapter 27 Budget Economic Survey (Graduation GK) | ✍️ लिख रहा है | 73 मिनट |
+| W2 | Chapter 28 Advanced Science Tech (Graduation GK) | ✍️ लिख रहा है | 41 मिनट |
+| W3 | Chapter 26 Advanced Polity (Graduation GK) | ✍️ लिख रहा है | 82 मिनट |
+| W4 | Chapter 24 Reports Indices (Graduation GK) | 🔎 review हो रहा है | 32 मिनट |
+| W5 | Chapter 25 Govt Schemes (Graduation GK) | ✍️ लिख रहा है | 20 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -45,23 +45,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 15:22:49   [Defence] review: 8 section(s) corrected, 1 failed
-09-10 15:22:49   [Defence] written 8, failed 1; AI calls today 165/100000
-09-10 15:22:49 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_22_Defence after 85 min: todo [] problems []
-09-10 15:22:51 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_28_Advanced_Science_Tech (TODO: todo 25, problems 0)
-09-10 15:24:10   [Budget_Economic_Survey] wrote Memory_Hooks_en.txt (6865 chars)
-09-10 15:24:47   [Advanced_Science_Tech] wrote Content_en.txt (13661 chars)
-09-10 15:25:12   [Reports_Indices] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 15:25:12   [Reports_Indices] written 25, failed 0; AI calls today 169/100000
-09-10 15:26:34   [Budget_Economic_Survey] wrote Memory_Hooks_hi.txt (5480 chars)
-09-10 15:28:08   [Advanced_Science_Tech] wrote Content_hi.txt (12614 chars)
-09-10 15:28:20   [Reports_Indices] Practice_hi_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 15:30:09   [Govt_Schemes] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-09-10 15:30:15   [Advanced_Science_Tech] wrote Key_Facts_en.txt (10520 chars)
-09-10 15:32:40   [Reports_Indices] repaired set 06 (en + hi, key confirmed by an independent re-solve)
-09-10 15:32:40   [Reports_Indices] written 1, failed 0; AI calls today 178/100000
-09-10 15:35:46   [Advanced_Science_Tech] Key_Facts_hi.txt try 1: rejected (corrupted characters)
-09-10 15:36:22   [Govt_Schemes] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 09-10 15:36:23   [Govt_Schemes] Practice_en_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
 09-10 15:36:56   [Budget_Economic_Survey] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 09-10 15:36:58   [Advanced_Polity] PYQ_hi.txt try 1: answer too long — asking for a tighter version
@@ -85,4 +68,21 @@
 09-10 15:44:37   [Advanced_Polity] wrote Memory_Hooks_hi.txt (6774 chars)
 09-10 15:47:52   [Advanced_Polity] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 09-10 15:49:20   [Budget_Economic_Survey] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 15:50:27   [Advanced_Polity] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 15:53:02   [Reports_Indices] review Key_Facts_hi.txt: 4 issue(s): - वैश्विक जोखिम रिपोर्ट – जारीकर्ता: विश्व आर्थिक मंच (WEF) → वैश्विक जोखिम रिपोर्ट – जारीकर्ता: अलायंस डेवलपमेंट
+09-10 15:55:46   [Advanced_Science_Tech] Mind_Map.txt try 1: answer too long — asking for a tighter version
+09-10 15:57:02   [Budget_Economic_Survey] Practice_en_Set_03.txt try 1: re-solve disagrees (Q59 key d vs re-solve a)
+09-10 15:57:06   [Govt_Schemes] Practice_en_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 15:57:27   [Advanced_Polity] Practice_en_Set_02.txt try 1: re-solve disagrees (Q27 key b vs re-solve ?)
+09-10 15:58:12   [Advanced_Science_Tech] Mind_Map.txt try 2: rejected (no usable mermaid graph)
+09-10 15:58:12   [Advanced_Science_Tech] REJECTED Mind_Map.txt: no usable mermaid graph — not written
+09-10 15:58:49   [Reports_Indices] review Mind_Map.txt: 3 issue(s): - D2: WEF listed under Financial Institutions → WEF is a think tank/NGO, should be under D3 (NGO/Think Tank)
+09-10 15:59:31   [Advanced_Science_Tech] wrote Flashcards_en.txt (5790 chars)
+09-10 16:00:59   [Budget_Economic_Survey] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 16:01:07   [Advanced_Science_Tech] Flashcards_hi.txt try 1: rejected (corrupted characters)
+09-10 16:01:26   [Reports_Indices] review Flashcards_en.txt: 1 issue(s): - Card 8: Front states the Ease of Doing Business Report was discontinued in 2020, but the back says it was disc
+09-10 16:03:31   [Advanced_Science_Tech] wrote Flashcards_hi.txt (4723 chars)
+09-10 16:03:49   [Budget_Economic_Survey] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 16:04:07   [Govt_Schemes] Practice_en_Set_06.txt try 2: re-solve disagrees (Q148 key b vs re-solve ?)
+09-10 16:04:44   [Advanced_Polity] Practice_en_Set_02.txt try 2: re-solve disagrees (Q27 key d vs re-solve ?)
 ```
