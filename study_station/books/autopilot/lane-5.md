@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 10-10-2026 01:55 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 10:05 PM
+**आख़िरी update:** 10-10-2026 02:04 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 10:05 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 19 Statistics (10th Maths) | 🔎 review हो रहा है | 41 मिनट |
-| W4 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 9 मिनट |
+| W3 | Chapter 19 Statistics (10th Maths) | 📤 push हो रहा है | 0 मिनट |
+| W4 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 18 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -31,6 +31,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 10-10 02:04 — 10th Maths · Chapter 19 Statistics
 - 10-10 01:55 — 10th Maths · Chapter 13 Mixture Alligation
 - 10-10 01:09 — 10th Maths · Chapter 22 Permutation Combination
 - 10-10 00:58 — 10th Maths · Chapter 17 Data Interpretation
@@ -51,17 +52,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 01:14:49   [Mixture_Alligation] Practice_hi_Set_01.txt try 2: rejected (parsed 0 questions, numbers -…-)
-10-10 01:15:33   [Probability] set 02 try 4: rejected (parsed 23 questions, numbers 26…50)
-10-10 01:15:33   [Probability] FAILED set 02: no version passed the checks — files left as they were
-10-10 01:15:47   [Statistics] review Content_en.txt: 1 issue(s): - The Summary Table formulas are corrupted (raw LaTeX/Unicode artifacts like `Σ 𝑥 𝑛 n Σx ​ Σ 𝑓 𝑖 𝑥 𝑖 Σ 𝑓 𝑖 Σf i ​ Σ
-10-10 01:19:26   [Probability] set 03 try 1: rejected (parsed 23 questions, numbers 51…75)
-10-10 01:20:34   [Mixture_Alligation] repaired set 01 (en + hi, key confirmed by an independent re-solve)
-10-10 01:20:34   [Mixture_Alligation] written 1, failed 0; AI calls today 125/100000
-10-10 01:22:03   [Probability] set 03 try 2: rejected (parsed 23 questions, numbers 51…75)
-10-10 01:24:31   [Statistics] review Content_hi.txt: 3 issue(s): - Incorrect Hindi word "लोकित" used in "y-अक्ष पर n/2 लोकित करके" and "कैसे लोकित करते हैं" → replace with "अंकित" 
-10-10 01:25:04   [Probability] set 03 try 3: rejected (parsed 23 questions, numbers 51…75)
-10-10 01:25:24   [Mixture_Alligation] review Content_en.txt: 1 issue(s): - The text claims alligation on profit percentages works for items with different cost prices (₹130/kg and ₹180/kg)
 10-10 01:27:48   [Probability] set 03 try 4: rejected (parsed 23 questions, numbers 51…75)
 10-10 01:27:48   [Probability] FAILED set 03: no version passed the checks — files left as they were
 10-10 01:28:11   [Probability] set 05 try 1: rejected (parsed 0 questions, numbers -…-)
@@ -91,4 +81,15 @@
 10-10 01:55:02   [Mixture_Alligation] written 6, failed 0; AI calls today 167/100000
 10-10 01:55:22 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_13_Mixture_Alligation in 81 min → 11c78b44
 10-10 01:55:25 worker 5: nothing left
+10-10 01:57:11   [Probability] set 02 try 1: rejected (parsed 23 questions, numbers 26…50)
+10-10 01:57:24   [Probability] set 02 try 2: rejected (parsed 0 questions, numbers -…-)
+10-10 01:58:37   [Probability] set 02 try 3: rejected (parsed 23 questions, numbers 26…50)
+10-10 01:59:01   [Probability] set 02 try 4: rejected (parsed 0 questions, numbers -…-)
+10-10 01:59:01   [Probability] FAILED set 02: no version passed the checks — files left as they were
+10-10 02:00:35   [Probability] set 03 try 1: rejected (parsed 23 questions, numbers 51…75)
+10-10 02:02:21   [Probability] set 03 try 2: rejected (parsed 23 questions, numbers 51…75)
+10-10 02:03:09   [Statistics] review Short_Tricks_hi.txt: 1 issue(s): - ट्रिक 13 में "पारमार्थ" शब्द माध्य (Mean) के लिए गलत है; हिंदी सांख्यिकी में माध्य को "माध्य" या "औसत" कहते 
+10-10 02:03:59   [Probability] set 03 try 3: rejected (parsed 23 questions, numbers 51…75)
+10-10 02:04:27   [Statistics] review: 5 section(s) corrected, 0 failed
+10-10 02:04:27   [Statistics] written 5, failed 0; AI calls today 178/100000
 ```
