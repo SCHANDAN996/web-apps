@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 11:10 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 11:13 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 85 मिनट |
-| W2 | Chapter 09 Venn Diagrams (Graduation Reasoning) | ✍️ लिख रहा है | 55 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 107 मिनट |
-| W4 | Chapter 06 Order Ranking (Graduation Reasoning) | 📤 push हो रहा है | 0 मिनट |
-| W5 | Chapter 04 Blood Relations (Graduation Reasoning) | 🔎 review हो रहा है | 13 मिनट |
+| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 89 मिनट |
+| W2 | Chapter 09 Venn Diagrams (Graduation Reasoning) | ✍️ लिख रहा है | 59 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 110 मिनट |
+| W4 | Chapter 10 Clock Calendar (Graduation Reasoning) | ✍️ लिख रहा है | 3 मिनट |
+| W5 | Chapter 04 Blood Relations (Graduation Reasoning) | 🔎 review हो रहा है | 17 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md)
 
@@ -25,14 +25,14 @@
 | 10th Maths | 9 | 13 | 0 |
 | 10th English | 0 | 0 | 20 |
 | 12th Maths | 0 | 0 | 23 |
-| 12th GK | 13 | 0 | 11 |
+| 12th GK | 14 | 0 | 10 |
 | 12th Reasoning | 0 | 0 | 25 |
 | 12th English | 22 | 0 | 3 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 15 | 0 | 13 |
 | Graduation Reasoning | 4 | 0 | 26 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **133** | **13** | **150** |
+| **कुल** | **134** | **13** | **149** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -45,18 +45,11 @@
 - Chapter 03 Coding Decoding (Reasoning) — 2 बार
 - Chapter 22 Para Jumbles Adv (English) — 2 बार
 - Chapter 02 Classification (Reasoning) — 2 बार
-- Chapter 06 Order Ranking (Reasoning) — 1 बार
 - Chapter 04 Blood Relations (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 10:26:16   [Blood_Relations] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-09-10 10:26:25   [Puzzles] FAILED Practice_en_Set_01.txt: too_long
-09-10 10:26:25   [Puzzles] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
-09-10 10:28:13   [Venn_Diagrams] wrote PYQ_hi.txt (7036 chars)
-09-10 10:28:28   [Order_Ranking] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-09-10 10:28:28   [Order_Ranking] written 4, failed 0; AI calls today 182/100000
 09-10 10:28:49   [Puzzles] Practice_en_Set_02.txt try 1: rejected (Q37:leaked_reasoning)
 09-10 10:29:29   [Venn_Diagrams] wrote Short_Tricks_en.txt (5723 chars)
 09-10 10:29:37   [Venn_Diagrams] Short_Tricks_hi.txt try 1: rejected (corrupted characters)
@@ -91,4 +84,10 @@
 09-10 11:09:17   [Order_Ranking] review Important_Rules_hi.txt: 1 issue(s): - In 'स्थान बदलने (Interchange) का नियम', the formula "कुल = पुराना योग − 1" is incorrect/undefined → the c
 09-10 11:10:26   [Order_Ranking] review: 7 section(s) corrected, 0 failed
 09-10 11:10:26   [Order_Ranking] written 7, failed 0; AI calls today 240/100000
+09-10 11:10:37 DONE Graduation_Level/Reasoning/Chapter_06_Order_Ranking in 62 min → 25c5f3df
+09-10 11:10:38 START Graduation_Level/Reasoning/Chapter_10_Clock_Calendar (TODO: todo 25, problems 0)
+09-10 11:11:03   [Blood_Relations] review Flashcards_hi.txt: 4 issue(s): - Card 1 answer incorrectly states C is wife of A → C is husband of B, so C is son‑in‑law of A (A is father‑in‑l
+09-10 11:12:19   [Clock_Calendar] wrote Content_en.txt (8716 chars)
+09-10 11:13:00   [Venn_Diagrams] FAILED Practice_en_Set_01.txt: too_long
+09-10 11:13:00   [Venn_Diagrams] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
 ```
