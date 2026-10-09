@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 09-10-2026 11:07 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 10:05 PM
+**आख़िरी update:** 09-10-2026 11:22 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 10:05 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 20 Number Series (10th Maths) | 🔧 सुधार रहा है | 27 मिनट |
-| W2 | Chapter 18 Trigonometry (10th Maths) | 🔧 सुधार रहा है | 50 मिनट |
-| W3 | Chapter 19 Statistics (10th Maths) | 🔧 सुधार रहा है | 47 मिनट |
-| W4 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 18 मिनट |
-| W5 | Chapter 22 Permutation Combination (10th Maths) | 🔧 सुधार रहा है | 6 मिनट |
-| W6 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 61 मिनट |
-| W7 | Chapter 15 Geometry (10th Maths) | 🔎 review हो रहा है | 16 मिनट |
-| W8 | Chapter 17 Data Interpretation (10th Maths) | 🔧 सुधार रहा है | 61 मिनट |
+| W1 | Chapter 20 Number Series (10th Maths) | 🔎 review हो रहा है | 3 मिनट |
+| W2 | Chapter 18 Trigonometry (10th Maths) | 🔧 सुधार रहा है | 7 मिनट |
+| W3 | Chapter 19 Statistics (10th Maths) | 🔧 सुधार रहा है | 63 मिनट |
+| W4 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 34 मिनट |
+| W5 | Chapter 22 Permutation Combination (10th Maths) | 🔧 सुधार रहा है | 21 मिनट |
+| W6 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 77 मिनट |
+| W7 | Chapter 15 Geometry (10th Maths) | 🔎 review हो रहा है | 31 मिनट |
+| W8 | Chapter 17 Data Interpretation (10th Maths) | 🔧 सुधार रहा है | 76 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -23,17 +23,17 @@
 |---|---|---|---|
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
-| 10th Maths | 15 | 7 | 0 |
+| 10th Maths | 16 | 6 | 0 |
 | 10th English | 17 | 3 | 0 |
 | 12th Maths | 10 | 0 | 13 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 7 | 0 | 18 |
 | 12th English | 25 | 0 | 0 |
-| Graduation Maths | 2 | 0 | 26 |
+| Graduation Maths | 3 | 0 | 25 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 9 | 0 | 21 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **204** | **10** | **82** |
+| **कुल** | **206** | **9** | **81** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -49,28 +49,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 22:48:35 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_21_Probability (FIX: todo 0, problems 12)
-09-10 22:49:53   [Probability] set 01 try 1: rejected (parsed 24 questions, numbers 1…25)
-09-10 22:49:56   [Trigonometry] repaired set 03 (en + hi, key confirmed by an independent re-solve)
-09-10 22:50:00   [Sentence_Structure] review Short_Tricks_hi.txt: 1 issue(s): - Skip Strategy states negative marking is −0.25 universally → Negative marking varies by exam (e.g., SSC CGL 
-09-10 22:51:16   [Geometry] repaired set 06 (en + hi, key confirmed by an independent re-solve)
-09-10 22:51:16   [Geometry] written 6, failed 0; AI calls today 131/100000
-09-10 22:52:36   [Statistics] set 02 try 1: re-solve disagrees (Q27 key d vs re-solve b)
-09-10 22:52:38   [Probability] set 01 try 2: rejected (parsed 24 questions, numbers 1…25)
-09-10 22:54:36   [Data_Interpretation] repaired set 02 (en + hi, key confirmed by an independent re-solve)
-09-10 22:54:36   [Probability] set 01 try 3: rejected (parsed 24 questions, numbers 1…25)
-09-10 22:55:08   [Number_Series] repaired set 02 (en + hi, key confirmed by an independent re-solve)
-09-10 22:55:53   [Probability] set 01 try 4: rejected (parsed 24 questions, numbers 1…25)
-09-10 22:55:53   [Probability] FAILED set 01: no version passed the checks — files left as they were
-09-10 22:55:57   [Geometry] review Content_en.txt: 1 issue(s): - Triangles appear in over 35% of exam geometry questions. → Triangles appear frequently in exam geometry questions
-09-10 22:56:14   [Mixture_Alligation] repaired set 02 (en + hi, key confirmed by an independent re-solve)
-09-10 22:56:31   [Sentence_Structure] review Important_Rules_hi.txt: 1 issue(s): - Morphology table: root 'graph' with suffix '-y' incorrectly yields 'geography' (missing prefix 'geo-') → 
-09-10 22:57:32   [Data_Interpretation] set 03 try 1: re-solve disagrees (Q74 key c vs re-solve b)
-09-10 22:57:51   [Probability] set 02 try 1: rejected (parsed 23 questions, numbers 26…50)
-09-10 22:58:12   [Data_Interpretation] set 03 try 2: rejected (parsed 0 questions, numbers -…-)
-09-10 22:58:53   [Sentence_Structure] review: 7 section(s) corrected, 1 failed
-09-10 22:58:53   [Sentence_Structure] written 7, failed 1; AI calls today 154/100000
-09-10 22:58:53 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_12_Sentence_Structure after 53 min: todo [] problems []
 09-10 22:58:54 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_12_Sentence_Structure (OK: todo 0, problems 0)
 09-10 22:59:06   [Statistics] set 02 try 2: re-solve disagrees (Q27 key c vs re-solve b)
 09-10 22:59:49   [Probability] set 02 try 2: rejected (parsed 0 questions, numbers -…-)
@@ -89,4 +67,26 @@
 09-10 23:03:44   [Probability] FAILED set 02: no version passed the checks — files left as they were
 09-10 23:06:56   [Probability] set 03 try 1: rejected (parsed 23 questions, numbers 51…75)
 09-10 23:07:44   [Statistics] FAILED set 02: rate_limited
+09-10 23:08:23   [Permutation_Combination] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 23:08:31   [Probability] set 03 try 2: rejected (parsed 23 questions, numbers 51…75)
+09-10 23:09:11   [Trigonometry] repaired set 05 (en + hi, key confirmed by an independent re-solve)
+09-10 23:10:14   [Mixture_Alligation] repaired set 03 (en + hi, key confirmed by an independent re-solve)
+09-10 23:11:09   [Number_Series] repaired set 05 (en + hi, key confirmed by an independent re-solve)
+09-10 23:12:20   [Permutation_Combination] repaired set 01 (en + hi, key confirmed by an independent re-solve)
+09-10 23:12:34   [Geometry] review Mind_Map.txt: 2 issue(s): - A3 states "एकांतर कोण बराबर संगत कोण बराबर" without the necessary condition that the lines must be parallel → Add c
+09-10 23:15:11   [Number_Series] Practice_hi_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 23:15:19   [Data_Interpretation] repaired set 03 (en + hi, key confirmed by an independent re-solve)
+09-10 23:15:39   [Trigonometry] repaired set 06 (en + hi, key confirmed by an independent re-solve)
+09-10 23:15:39   [Trigonometry] written 8, failed 2; AI calls today 200/100000
+09-10 23:17:06   [Statistics] repaired set 03 (en + hi, key confirmed by an independent re-solve)
+09-10 23:17:52   [Trigonometry] repaired PYQ_hi.txt (10781 chars)
+09-10 23:18:17   [Mixture_Alligation] repaired set 04 (en + hi, key confirmed by an independent re-solve)
+09-10 23:18:43   [Mixture_Alligation] set 05 try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 23:19:10   [Number_Series] repaired set 06 (en + hi, key confirmed by an independent re-solve)
+09-10 23:19:10   [Number_Series] written 6, failed 0; AI calls today 207/100000
+09-10 23:19:45   [Trigonometry] set 02 try 1: rejected (parsed 24 questions, numbers 26…50)
+09-10 23:20:50   [Mixture_Alligation] set 05 try 2: rejected (Q123:leaked_reasoning)
+09-10 23:20:54   [Mixture_Alligation] set 05 try 3: rejected (parsed 0 questions, numbers -…-)
+09-10 23:21:56   [Trigonometry] set 02 try 2: rejected (parsed 24 questions, numbers 26…50)
+09-10 23:22:01   [Permutation_Combination] repaired set 02 (en + hi, key confirmed by an independent re-solve)
 ```
