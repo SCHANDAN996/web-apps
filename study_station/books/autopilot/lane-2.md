@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 01:13 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 01:15 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 21 International Orgs (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 23 Economic Terms (Graduation GK) | ✍️ लिख रहा है | 77 मिनट |
+| W4 | Chapter 23 Economic Terms (Graduation GK) | ✍️ लिख रहा है | 79 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -21,13 +20,13 @@
 | 10th English | 0 | 0 | 20 |
 | 12th Maths | 0 | 0 | 23 |
 | 12th GK | 17 | 0 | 7 |
-| 12th Reasoning | 0 | 0 | 25 |
+| 12th Reasoning | 1 | 0 | 24 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 20 | 0 | 8 |
 | Graduation Reasoning | 3 | 0 | 27 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **142** | **13** | **141** |
+| **कुल** | **143** | **13** | **140** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -47,14 +46,11 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 13 Awards (GK) — 2 बार
-- Chapter 21 International Orgs (GK) — 1 बार
 - Chapter 22 Defence (GK) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 12:30:22   [Defence] Practice_hi_Set_01.txt try 2: rejected (Q24:needs_context)
-09-10 12:30:31   [Science_Tech] review: 6 section(s) corrected, 0 failed
 09-10 12:30:31   [Science_Tech] written 6, failed 0; AI calls today 489/100000
 09-10 12:30:41 DONE Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_18_Science_Tech in 46 min → 2001d46c
 09-10 12:30:41 worker 1: nothing left
@@ -93,4 +89,6 @@
 09-10 13:11:58   [International_Orgs] review Memory_Hooks_hi.txt: 1 issue(s): - Mnemonic 4 claims to cover first 5 UN Secretaries-General but the mnemonic 'Try Lie Hammar U Wald' only cove
 09-10 13:13:17   [International_Orgs] review: 10 section(s) corrected, 0 failed
 09-10 13:13:17   [International_Orgs] written 10, failed 0; AI calls today 533/100000
+09-10 13:13:30 DONE Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_21_International_Orgs in 67 min → 79e16ae5
+09-10 13:13:30 worker 2: nothing left
 ```
