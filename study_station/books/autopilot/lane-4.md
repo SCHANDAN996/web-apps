@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 05:56 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 06:11 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Ratio Proportion (12th Maths) | ✍️ लिख रहा है | 44 मिनट |
-| W2 | Chapter 10 Compound Interest (12th Maths) | ✍️ लिख रहा है | 30 मिनट |
-| W3 | Chapter 08 Profit Loss (12th Maths) | ✍️ लिख रहा है | 34 मिनट |
-| W4 | Chapter 06 Average (12th Maths) | 🔎 review हो रहा है | 11 मिनट |
-| W5 | Chapter 09 Simple Interest (12th Maths) | ✍️ लिख रहा है | 32 मिनट |
+| W1 | Chapter 07 Ratio Proportion (12th Maths) | ✍️ लिख रहा है | 59 मिनट |
+| W2 | Chapter 10 Compound Interest (12th Maths) | ✍️ लिख रहा है | 45 मिनट |
+| W3 | Chapter 08 Profit Loss (12th Maths) | ✍️ लिख रहा है | 49 मिनट |
+| W4 | Chapter 06 Average (12th Maths) | 🔎 review हो रहा है | 26 मिनट |
+| W5 | Chapter 09 Simple Interest (12th Maths) | ✍️ लिख रहा है | 47 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -54,27 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 17:31:44   [Compound_Interest] wrote Mind_Map.txt (1361 chars)
-09-10 17:33:21   [Simple_Interest] Feynman_hi.txt try 1: rejected (corrupted characters)
-09-10 17:34:41   [Simple_Interest] wrote Feynman_hi.txt (2685 chars)
-09-10 17:35:42   [Average] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 17:36:19   [Simple_Interest] wrote Mind_Map.txt (1511 chars)
-09-10 17:37:09   [Simple_Interest] wrote Flashcards_en.txt (3417 chars)
-09-10 17:37:57   [Simple_Interest] wrote Flashcards_hi.txt (2797 chars)
-09-10 17:37:59   [Average] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 17:37:59   [Average] written 23, failed 2; AI calls today 414/100000
-09-10 17:37:59 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_06_Average after 86 min: todo ['Set 01 en: todo', 'Set 01 hi: todo'] problems []
-09-10 17:38:01 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_06_Average (TODO: todo 2, problems 0)
-09-10 17:39:36   [Simple_Interest] wrote PYQ_en.txt (9394 chars)
-09-10 17:41:52   [Simple_Interest] wrote PYQ_hi.txt (6930 chars)
-09-10 17:42:16   [Average] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 17:44:09   [Profit_Loss] Feynman_hi.txt try 1: answer too long — asking for a tighter version
-09-10 17:44:51   [Average] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-09-10 17:44:51   [Average] written 2, failed 0; AI calls today 419/100000
-09-10 17:45:56   [Profit_Loss] Feynman_hi.txt try 2: rejected (corrupted characters)
-09-10 17:45:56   [Profit_Loss] REJECTED Feynman_hi.txt: corrupted characters — not written
-09-10 17:46:13   [Simple_Interest] FAILED Short_Tricks_en.txt: rate_limited
-09-10 17:46:17   [Ratio_Proportion] FAILED Content_en.txt: too_long
 09-10 17:48:36   [Ratio_Proportion] wrote Content_hi.txt (7715 chars)
 09-10 17:48:36   [Compound_Interest] Flashcards_en.txt try 1: answer too long — asking for a tighter version
 09-10 17:48:47   [Average] review Content_en.txt: 1 issue(s): - In Section 4 (Weighted Average), the alligation shortcut explanation incorrectly states the combined average sits
@@ -94,4 +73,25 @@
 09-10 17:55:28   [Ratio_Proportion] Flashcards_en.txt try 1: rejected (corrupted characters)
 09-10 17:55:38   [Simple_Interest] wrote Important_Formulas_hi.txt (1635 chars)
 09-10 17:56:16   [Profit_Loss] wrote PYQ_hi.txt (5870 chars)
+09-10 17:57:15   [Ratio_Proportion] wrote Flashcards_en.txt (2667 chars)
+09-10 17:57:37   [Simple_Interest] Practice_en_Set_01.txt try 1: rejected (Q21:leaked_reasoning)
+09-10 17:57:51   [Average] review Flashcards_hi.txt: 1 issue(s): - Card 8: जाने वाले का मान = पुराना औसत − (बची संख्या × औसत में कमी) is wrong → जाने वाले का मान = पुराना औसत + 
+09-10 17:58:07   [Ratio_Proportion] wrote Flashcards_hi.txt (2691 chars)
+09-10 17:58:29   [Ratio_Proportion] wrote PYQ_en.txt (1974 chars)
+09-10 17:58:54   [Profit_Loss] wrote Short_Tricks_en.txt (7915 chars)
+09-10 18:00:46   [Profit_Loss] wrote Short_Tricks_hi.txt (6592 chars)
+09-10 18:00:52   [Simple_Interest] Practice_en_Set_01.txt try 2: rejected (Q21:leaked_reasoning)
+09-10 18:01:19   [Profit_Loss] wrote Important_Formulas_en.txt (3047 chars)
+09-10 18:01:45   [Ratio_Proportion] wrote PYQ_hi.txt (7241 chars)
+09-10 18:02:01   [Profit_Loss] wrote Important_Formulas_hi.txt (2366 chars)
+09-10 18:03:14   [Ratio_Proportion] wrote Short_Tricks_en.txt (8322 chars)
+09-10 18:03:33   [Profit_Loss] Practice_en_Set_01.txt try 1: rejected (Q24:leaked_reasoning)
+09-10 18:04:16   [Compound_Interest] FAILED Flashcards_en.txt: too_long
+09-10 18:04:58   [Ratio_Proportion] wrote Short_Tricks_hi.txt (5724 chars)
+09-10 18:05:09   [Compound_Interest] wrote Flashcards_hi.txt (2922 chars)
+09-10 18:05:43   [Ratio_Proportion] wrote Important_Formulas_en.txt (2611 chars)
+09-10 18:07:40   [Compound_Interest] wrote PYQ_en.txt (7346 chars)
+09-10 18:09:28   [Profit_Loss] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 18:09:37   [Simple_Interest] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 18:10:37   [Compound_Interest] wrote PYQ_hi.txt (8089 chars)
 ```
