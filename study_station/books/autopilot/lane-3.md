@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 03:16 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
+**आख़िरी update:** 10-10-2026 03:31 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 17 Course of Action (12th Reasoning) | ✍️ लिख रहा है | 121 मिनट |
-| W2 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 28 मिनट |
-| W3 | Chapter 19 Cubes Dice (12th Reasoning) | ✍️ लिख रहा है | 64 मिनट |
-| W4 | Chapter 18 Inequality (12th Reasoning) | 🔎 review हो रहा है | 40 मिनट |
-| W5 | Chapter 22 Figure Series (12th Reasoning) | ✍️ लिख रहा है | 4 मिनट |
-| W6 | Chapter 20 Mirror Water Images (12th Reasoning) | ✍️ लिख रहा है | 63 मिनट |
-| W7 | Chapter 21 Paper Folding Cutting (12th Reasoning) | ✍️ लिख रहा है | 34 मिनट |
-| W8 | Chapter 16 Statement Conclusion (12th Reasoning) | ✍️ लिख रहा है | 20 मिनट |
+| W1 | Chapter 17 Course of Action (12th Reasoning) | ✍️ लिख रहा है | 1 मिनट |
+| W2 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 43 मिनट |
+| W3 | Chapter 19 Cubes Dice (12th Reasoning) | ✍️ लिख रहा है | 79 मिनट |
+| W4 | Chapter 18 Inequality (12th Reasoning) | 🔎 review हो रहा है | 55 मिनट |
+| W5 | Chapter 22 Figure Series (12th Reasoning) | ✍️ लिख रहा है | 19 मिनट |
+| W6 | Chapter 20 Mirror Water Images (12th Reasoning) | ✍️ लिख रहा है | 78 मिनट |
+| W7 | Chapter 21 Paper Folding Cutting (12th Reasoning) | ✍️ लिख रहा है | 49 मिनट |
+| W8 | Chapter 16 Statement Conclusion (12th Reasoning) | ✍️ लिख रहा है | 35 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -49,48 +49,49 @@
 - Chapter 18 Inequality (Reasoning) — 1 बार
 - Chapter 07 Sitting Arrangement (Reasoning) — 1 बार
 - Chapter 16 Statement Conclusion (Reasoning) — 1 बार
+- Chapter 17 Course of Action (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 02:55:59   [Dictionary_Order] Practice_en_Set_05.txt try 4: rejected (parsed 0 questions, numbers -…-)
-10-10 02:55:59   [Dictionary_Order] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
-10-10 02:55:59   [Dictionary_Order] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
-10-10 02:56:14   [Statement_Conclusion] Practice_en_Set_06.txt try 4: rejected (parsed 0 questions, numbers -…-)
-10-10 02:56:14   [Statement_Conclusion] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
-10-10 02:56:14   [Statement_Conclusion] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-10-10 02:56:14   [Statement_Conclusion] written 7, failed 6; AI calls today 295/100000
-10-10 02:56:14 NOT OK 12th_Level/Reasoning/Chapter_16_Statement_Conclusion after 132 min: todo ['Set 02 en: todo', 'Set 02 hi: todo', 'Set 04 en: todo', 'Set 04 hi: todo'] problems []
-10-10 02:56:16 START 12th_Level/Reasoning/Chapter_16_Statement_Conclusion (TODO: todo 6, problems 0)
-10-10 02:56:39   [Paper_Folding_Cutting] wrote Flashcards_hi.txt (3501 chars)
-10-10 02:57:53   [Dictionary_Order] Practice_en_Set_06.txt try 1: rejected (Q126:leaked_reasoning,Q127:leaked_reasoning,Q128:leaked_reasoning,Q131:leaked_reasoning,Q133:leaked_reasoning)
-10-10 02:58:17   [Paper_Folding_Cutting] wrote PYQ_en.txt (8006 chars)
-10-10 02:58:29   [Course_of_Action] Practice_en_Set_05.txt try 1: re-solve disagrees (Q120 key d vs re-solve c)
-10-10 02:58:53   [Mirror_Water_Images] wrote Flashcards_en.txt (46360 chars)
-10-10 03:00:55   [Mirror_Water_Images] wrote Flashcards_hi.txt (4563 chars)
-10-10 03:01:35   [Paper_Folding_Cutting] wrote PYQ_hi.txt (7689 chars)
-10-10 03:01:36   [Course_of_Action] Practice_en_Set_05.txt try 2: re-solve disagrees (Q120 key d vs re-solve c)
-10-10 03:02:03   [Paper_Folding_Cutting] wrote Short_Tricks_en.txt (1884 chars)
-10-10 03:02:08   [Mirror_Water_Images] wrote PYQ_en.txt (8939 chars)
-10-10 03:03:22   [Paper_Folding_Cutting] wrote Short_Tricks_hi.txt (4337 chars)
-10-10 03:03:57   [Paper_Folding_Cutting] wrote Important_Rules_en.txt (4203 chars)
-10-10 03:04:40   [Dictionary_Order] Practice_en_Set_06.txt try 2: re-solve disagrees (Q126 key b vs re-solve c, Q132 key a vs re-solve b)
-10-10 03:04:43   [Mirror_Water_Images] wrote PYQ_hi.txt (20942 chars)
-10-10 03:04:50   [Statement_Conclusion] Practice_en_Set_02.txt try 1: re-solve disagrees (Q27 key c vs re-solve d, Q33 key c vs re-solve d, Q37 key b vs re-solve d, Q42 key d vs re-solve a, 
-10-10 03:05:25   [Paper_Folding_Cutting] wrote Important_Rules_hi.txt (3795 chars)
-10-10 03:06:25   [Cubes_Dice] FAILED Practice_en_Set_01.txt: too_long
-10-10 03:06:25   [Cubes_Dice] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
-10-10 03:06:54   [Inequality] FAILED review Content_en.txt: too_long — the chapter must not be published unreviewed
-10-10 03:07:24   [Sitting_Arrangement] Practice_en_Set_01.txt try 2: re-solve disagrees (Q11 key a vs re-solve c, Q14 key d vs re-solve a, Q21 key a vs re-solve b)
-10-10 03:09:50   [Statement_Conclusion] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-10-10 03:10:19   [Dictionary_Order] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-10-10 03:12:07   [Inequality] review Content_hi.txt: 1 issue(s): - नियम 3 और सारांश तालिका में 'कमजोर चिह्न जीतता है' गलत कथन है → सही नियम: एक ही दिशा में > और ≥ होने पर निष्कर्ष 
-10-10 03:12:24   [Dictionary_Order] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-10-10 03:12:24   [Dictionary_Order] written 2, failed 6; AI calls today 324/100000
 10-10 03:12:24 NOT OK 12th_Level/Reasoning/Chapter_13_Dictionary_Order after 59 min: todo ['Set 02 en: todo', 'Set 02 hi: todo', 'Set 03 en: todo', 'Set 03 hi: todo'] problems ['PYQ_hi.txt: much shorter than the English section (447 vs 13']
 10-10 03:12:25 START 12th_Level/Reasoning/Chapter_22_Figure_Series (TODO: todo 25, problems 0)
 10-10 03:12:37   [Statement_Conclusion] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 10-10 03:15:24   [Paper_Folding_Cutting] Practice_en_Set_01.txt try 1: re-solve disagrees (Q11 key c vs re-solve a, Q17 key a vs re-solve b)
 10-10 03:15:53   [Figure_Series] wrote Content_en.txt (7828 chars)
 10-10 03:16:33   [Inequality] review Feynman_hi.txt: 1 issue(s): - सुनहरा नियम की तीसरी शर्त गलत है: ≤/≥ आने पर भी निष्कर्ष पक्का हो सकता है यदि सभी चिह्न एक ही दिशा में हों (उदाहर
+10-10 03:16:56   [Mirror_Water_Images] Short_Tricks_en.txt try 1: rejected (corrupted characters)
+10-10 03:17:51   [Mirror_Water_Images] wrote Short_Tricks_en.txt (1106 chars)
+10-10 03:17:58   [Statement_Conclusion] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+10-10 03:18:36   [Figure_Series] wrote Content_hi.txt (6624 chars)
+10-10 03:19:13   [Figure_Series] wrote Feynman_en.txt (4002 chars)
+10-10 03:19:25   [Mirror_Water_Images] wrote Short_Tricks_hi.txt (4845 chars)
+10-10 03:19:29   [Figure_Series] wrote Feynman_hi.txt (694 chars)
+10-10 03:19:58   [Mirror_Water_Images] wrote Important_Rules_en.txt (3689 chars)
+10-10 03:20:08   [Mirror_Water_Images] wrote Important_Rules_hi.txt (302 chars)
+10-10 03:20:11   [Cubes_Dice] FAILED Practice_en_Set_02.txt: too_long
+10-10 03:20:11   [Cubes_Dice] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+10-10 03:20:12   [Course_of_Action] FAILED Practice_en_Set_05.txt: too_long
+10-10 03:20:12   [Course_of_Action] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
+10-10 03:20:14   [Sitting_Arrangement] Practice_en_Set_01.txt try 3: re-solve disagrees (Q15 key b vs re-solve d)
+10-10 03:20:16   [Figure_Series] wrote Mind_Map.txt (1645 chars)
+10-10 03:21:24   [Statement_Conclusion] Practice_hi_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 03:21:54   [Cubes_Dice] Practice_en_Set_03.txt try 1: rejected (Q62:leaked_reasoning,Q73:leaked_reasoning)
+10-10 03:22:10   [Mirror_Water_Images] Practice_en_Set_01.txt try 1: rejected (Q22:leaked_reasoning,Q25:leaked_reasoning)
+10-10 03:24:16   [Inequality] review Flashcards_hi.txt: 2 issue(s): - Card 8: Condition (3) incorrectly states that both conclusions together cover all three possibilities (>, =, <
+10-10 03:24:41   [Course_of_Action] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+10-10 03:25:02   [Statement_Conclusion] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+10-10 03:25:36   [Figure_Series] wrote Flashcards_en.txt (2198 chars)
+10-10 03:26:56   [Figure_Series] wrote Flashcards_hi.txt (4267 chars)
+10-10 03:27:44   [Inequality] review PYQ_en.txt: 1 issue(s): - Q5 answer line says "Either I or II follows" but the solution correctly determines only conclusion I follows → Change
+10-10 03:28:10   [Paper_Folding_Cutting] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+10-10 03:28:27   [Paper_Folding_Cutting] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 03:28:35   [Figure_Series] wrote PYQ_en.txt (8368 chars)
+10-10 03:30:24   [Course_of_Action] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+10-10 03:30:24   [Course_of_Action] written 21, failed 4; AI calls today 366/100000
+10-10 03:30:24 NOT OK 12th_Level/Reasoning/Chapter_17_Course_of_Action after 136 min: todo ['Important_Rules_en.txt', 'Set 02 hi: todo', 'Set 05 en: todo', 'Set 05 hi: todo'] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
+10-10 03:30:25 START 12th_Level/Reasoning/Chapter_17_Course_of_Action (TODO: todo 4, problems 1)
+10-10 03:30:59   [Course_of_Action] wrote Important_Rules_en.txt (3713 chars)
+10-10 03:31:16   [Paper_Folding_Cutting] Practice_hi_Set_01.txt try 2: rejected (parsed 0 questions, numbers -…-)
+10-10 03:31:29   [Figure_Series] PYQ_hi.txt try 1: rejected (corrupted characters)
 ```
