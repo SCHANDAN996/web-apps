@@ -9,10 +9,10 @@
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
 | W1 | Chapter 07 Ratio Proportion (12th Maths) | ✍️ लिख रहा है | 13 मिनट |
-| W2 | Chapter 05 Percentage (12th Maths) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 08 Profit Loss (12th Maths) | ✍️ लिख रहा है | 3 मिनट |
+| W2 | Chapter 10 Compound Interest (12th Maths) | ✍️ लिख रहा है | 0 मिनट |
+| W3 | Chapter 08 Profit Loss (12th Maths) | ✍️ लिख रहा है | 4 मिनट |
 | W4 | Chapter 06 Average (12th Maths) | ✍️ लिख रहा है | 73 मिनट |
-| W5 | Chapter 09 Simple Interest (12th Maths) | ✍️ लिख रहा है | 1 मिनट |
+| W5 | Chapter 09 Simple Interest (12th Maths) | ✍️ लिख रहा है | 2 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -48,14 +48,11 @@
 - Chapter 14 Sports (GK) — 2 बार
 - Chapter 01 Number System (Maths) — 2 बार
 - Chapter 02 LCM HCF (Maths) — 2 बार
-- Chapter 05 Percentage (Maths) — 1 बार
 - Chapter 03 Simplification (Maths) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 17:05:51   [Fractions_Decimals] review Flashcards_hi.txt: 1 issue(s): - कार्ड 17: प्रतिशत मान 16.6% दिया गया है, जबकि 1/6 का exact प्रतिशत 16.666…% है → 16.666…% (या 16.6̅%)
-09-10 17:07:33   [Percentage] review Feynman_en.txt: 4 issue(s): - The section is corrupted template text, not educational content: repetitive "The story" phrases, unclosed quotes,
 09-10 17:08:44   [Simplification] FAILED Practice_en_Set_06.txt: too_long
 09-10 17:08:44   [Simplification] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
 09-10 17:08:44   [Simplification] written 22, failed 3; AI calls today 356/100000
@@ -94,4 +91,6 @@
 09-10 17:25:18   [Average] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 09-10 17:25:20   [Percentage] review: 4 section(s) corrected, 0 failed
 09-10 17:25:20   [Percentage] written 4, failed 0; AI calls today 396/100000
+09-10 17:25:31 DONE 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_05_Percentage in 32 min → de96cc45
+09-10 17:25:33 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest (TODO: todo 25, problems 0)
 ```
