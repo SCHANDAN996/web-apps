@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 10-10-2026 02:11 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 10:05 PM
+**आख़िरी update:** 10-10-2026 02:26 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 10:05 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W4 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 25 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -22,11 +20,11 @@
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 10 | 0 | 15 |
 | 12th English | 25 | 0 | 0 |
-| Graduation Maths | 9 | 0 | 19 |
+| Graduation Maths | 10 | 0 | 18 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 13 | 0 | 17 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **225** | **5** | **66** |
+| **कुल** | **226** | **5** | **65** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -45,23 +43,11 @@
 - Chapter 03 Adjective (English) — 2 बार
 - Chapter 01 Noun (English) — 2 बार
 - Chapter 18 Trigonometry (Maths) — 2 बार
-- Chapter 21 Probability (Maths) — 1 बार
+- Chapter 21 Probability (Maths) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 01:28:54   [Mixture_Alligation] review Content_hi.txt: 1 issue(s): - पृथ्थीकरण (पूरे पाठ में प्रयुक्त गलत शब्द) → पृथक्करण
-10-10 01:32:18   [Probability] set 05 try 4: rejected (parsed 24 questions, numbers 101…125)
-10-10 01:32:18   [Probability] FAILED set 05: no version passed the checks — files left as they were
-10-10 01:33:40   [Probability] set 06 try 1: rejected (parsed 23 questions, numbers 126…150)
-10-10 01:34:49   [Statistics] review Feynman_hi.txt: 1 issue(s): - सबके मुँह खुले के खुले रह गए → सबके मुँह खुले रह गए
-10-10 01:36:53   [Mixture_Alligation] review Feynman_en.txt: 1 issue(s): - The claim that the price difference (0.40) directly equals the number of cheap glasses (2) and the difference (0.
-10-10 01:39:58   [Probability] set 06 try 2: rejected (parsed 23 questions, numbers 126…150)
-10-10 01:42:05   [Mixture_Alligation] review Feynman_hi.txt: 1 issue(s): - पृथ्थीकरण → अल्लिगेशन
-10-10 01:42:31   [Probability] set 06 try 3: rejected (parsed 0 questions, numbers -…-)
-10-10 01:46:08   [Probability] set 06 try 4: rejected (parsed 23 questions, numbers 126…150)
-10-10 01:46:08   [Probability] FAILED set 06: no version passed the checks — files left as they were
-10-10 01:46:08   [Probability] written 0, failed 5; AI calls today 156/100000
 10-10 01:46:11   [Probability] set 01 try 1: rejected (parsed 0 questions, numbers -…-)
 10-10 01:47:10   [Mixture_Alligation] review PYQ_en.txt: 1 issue(s): - Question 3: In the alligation step, (30−0) is incorrectly computed as 10 instead of 30, giving ratio 1:2; correct dif
 10-10 01:47:19   [Statistics] review PYQ_hi.txt: 3 issue(s): - The section title and decade-wise table include year 2026, which is in the future (current year 2025) → Change 2026 t
@@ -90,4 +76,16 @@
 10-10 02:08:05   [Probability] set 03 try 4: rejected (parsed 23 questions, numbers 51…75)
 10-10 02:08:05   [Probability] FAILED set 03: no version passed the checks — files left as they were
 10-10 02:10:29   [Probability] set 05 try 1: rejected (parsed 24 questions, numbers 101…125)
+10-10 02:12:06   [Probability] set 05 try 2: rejected (parsed 24 questions, numbers 101…125)
+10-10 02:13:17   [Probability] set 05 try 3: rejected (parsed 24 questions, numbers 101…125)
+10-10 02:15:20   [Probability] set 05 try 4: rejected (parsed 24 questions, numbers 101…125)
+10-10 02:15:20   [Probability] FAILED set 05: no version passed the checks — files left as they were
+10-10 02:16:35   [Probability] set 06 try 1: rejected (parsed 23 questions, numbers 126…150)
+10-10 02:21:30   [Probability] set 06 try 2: rejected (parsed 23 questions, numbers 126…150)
+10-10 02:22:47   [Probability] set 06 try 3: rejected (parsed 23 questions, numbers 126…150)
+10-10 02:24:38   [Probability] set 06 try 4: rejected (parsed 23 questions, numbers 126…150)
+10-10 02:24:38   [Probability] FAILED set 06: no version passed the checks — files left as they were
+10-10 02:24:38   [Probability] written 0, failed 5; AI calls today 186/100000
+10-10 02:24:38 NOT OK 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_21_Probability after 91 min: todo [] problems ['Set 01 en: 2/25 parsed', 'Set 01 hi: 2/25 parsed', 'Set 02 en: 1/25 parsed', 'Set 02 hi: 1/25 parsed']
+10-10 02:24:38 worker 3: nothing left
 ```
