@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 08:58 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 09:01 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 03 Modern History (12th GK) | 🔎 review हो रहा है | 25 मिनट |
-| W2 | Chapter 07 States Rivers (12th GK) | 🔎 review हो रहा है | 31 मिनट |
-| W3 | Chapter 15 Days Dates (12th GK) | 🔎 review हो रहा है | 22 मिनट |
-| W4 | Chapter 13 Awards (12th GK) | 🔎 review हो रहा है | 9 मिनट |
-| W5 | Chapter 17 Culture Art (12th GK) | ✍️ लिख रहा है | 22 मिनट |
+| W1 | Chapter 03 Modern History (12th GK) | 🔎 review हो रहा है | 29 मिनट |
+| W2 | Chapter 07 States Rivers (12th GK) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 15 Days Dates (12th GK) | 🔎 review हो रहा है | 26 मिनट |
+| W4 | Chapter 13 Awards (12th GK) | 🔎 review हो रहा है | 12 मिनट |
+| W5 | Chapter 17 Culture Art (12th GK) | ✍️ लिख रहा है | 25 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,7 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 09-10 09:01 — 12th GK · Chapter 07 States Rivers
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
@@ -44,8 +44,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 08:31:06   [Sports] written 1, failed 0; AI calls today 11/100000
-09-10 08:31:06 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_14_Sports after 4 min: todo [] problems ['Memory_Hooks_hi.txt: much shorter than the English section (']
 09-10 08:31:07 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_14_Sports (FIX: todo 0, problems 1)
 09-10 08:31:10   [Biology] repaired Feynman_hi.txt (3696 chars)
 09-10 08:31:10   [Biology] written 1, failed 0; AI calls today 12/100000
@@ -84,4 +82,6 @@
 09-10 08:55:08   [Days_Dates] review Feynman_hi.txt: 1 issue(s): - The claim that 14 September was chosen for Hindi Diwas because it was Vyohar Rajendra Singh's birthday is false →
 09-10 08:55:14   [States_Rivers] review Mind_Map.txt: 1 issue(s): - ब्रह्मपुत्र के उद्गम हिमनद का नाम "चेमा युंगडुंग" गलत है → सही नाम "चेमायुंगडुंग हिमनद" (Chemayungdung Glacier) है
 09-10 08:56:46   [Awards] review Content_hi.txt: 2 issue(s): - ज्ञानपीठ पुरस्कार के प्रथम विजेता जी. शंकर कुरुप की रचना 'ओटक्कुझल' का प्रकाशन वर्ष 1961 नहीं 1950 है → सही: 1950
+09-10 09:01:34   [States_Rivers] review: 3 section(s) corrected, 0 failed
+09-10 09:01:34   [States_Rivers] written 3, failed 0; AI calls today 66/100000
 ```
