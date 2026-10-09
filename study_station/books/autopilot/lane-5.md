@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 10-10-2026 04:30 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 02:27 AM
+**आख़िरी update:** 10-10-2026 04:45 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 02:27 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W5 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 18 मिनट |
+| W5 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 33 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -43,11 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 03:49:14   [Trigonometry] set 02 try 4: rejected (parsed 24 questions, numbers 26…50)
-10-10 03:49:14   [Trigonometry] FAILED set 02: no version passed the checks — files left as they were
-10-10 03:49:14   [Trigonometry] written 2, failed 1; AI calls today 80/100000
-10-10 03:50:16   [Probability] set 02 try 4: rejected (parsed 23 questions, numbers 26…50)
-10-10 03:50:16   [Probability] FAILED set 02: no version passed the checks — files left as they were
 10-10 03:50:33   [Trigonometry] repaired Short_Tricks_hi.txt (5605 chars)
 10-10 03:50:36   [Trigonometry] set 02 try 1: rejected (parsed 0 questions, numbers -…-)
 10-10 03:52:21   [Probability] set 03 try 1: rejected (parsed 23 questions, numbers 51…75)
@@ -83,4 +78,9 @@
 10-10 04:23:55   [Probability] set 03 try 1: rejected (parsed 23 questions, numbers 51…75)
 10-10 04:25:04   [Probability] set 03 try 2: rejected (parsed 23 questions, numbers 51…75)
 10-10 04:26:46   [Probability] set 03 try 3: rejected (parsed 23 questions, numbers 51…75)
+10-10 04:39:41   [Probability] set 03 try 4: rejected (parsed 0 questions, numbers -…-)
+10-10 04:39:41   [Probability] FAILED set 03: no version passed the checks — files left as they were
+10-10 04:41:24   [Probability] set 05 try 1: rejected (parsed 24 questions, numbers 101…125)
+10-10 04:42:54   [Probability] set 05 try 2: rejected (parsed 24 questions, numbers 101…125)
+10-10 04:45:16   [Probability] set 05 try 3: rejected (parsed 24 questions, numbers 101…125)
 ```
