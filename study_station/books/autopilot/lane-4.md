@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 03:04 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 03:09 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 LCM HCF (12th Maths) | ✍️ लिख रहा है | 13 मिनट |
-| W2 | Chapter 24 Reports Indices (12th GK) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 04 Fractions Decimals (12th Maths) | ✍️ लिख रहा है | 3 मिनट |
-| W4 | Chapter 01 Number System (12th Maths) | ✍️ लिख रहा है | 17 मिनट |
-| W5 | Chapter 03 Simplification (12th Maths) | ✍️ लिख रहा है | 11 मिनट |
+| W1 | Chapter 02 LCM HCF (12th Maths) | ✍️ लिख रहा है | 17 मिनट |
+| W2 | Chapter 05 Percentage (12th Maths) | ✍️ लिख रहा है | 4 मिनट |
+| W3 | Chapter 04 Fractions Decimals (12th Maths) | ✍️ लिख रहा है | 7 मिनट |
+| W4 | Chapter 01 Number System (12th Maths) | ✍️ लिख रहा है | 21 मिनट |
+| W5 | Chapter 03 Simplification (12th Maths) | ✍️ लिख रहा है | 16 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -44,18 +44,10 @@
 
 - Chapter 12 Biology (GK) — 2 बार
 - Chapter 14 Sports (GK) — 2 बार
-- Chapter 24 Reports Indices (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 14:47:29 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_03_Modern_History after 55 min: todo [] problems []
-09-10 14:47:29 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_03_Modern_History (OK: todo 0, problems 0)
-09-10 14:47:31 DONE 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_18_Science_Tech in 55 min → 113ea320
-09-10 14:47:32 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System (TODO: todo 5, problems 1)
-09-10 14:47:51   [International_Orgs] review Memory_Hooks_en.txt: 1 issue(s): - SAARC: "8 Members, 1985, Kathmandu" → SAARC was founded in 1985 with 7 members (Bangladesh, Bhutan, India, M
-09-10 14:48:24   [Number_System] wrote Feynman_en.txt (2953 chars)
-09-10 14:49:10   [Modern_History] review Feynman_en.txt: 2 issue(s): - The claim "Udaipur was technically annexed under Lapse but later returned" is false; no state annexed under Doctr
 09-10 14:50:31   [Reports_Indices] review Memory_Hooks_hi.txt: 1 issue(s): - Mnemonic 9 heading "4 खंभे: एस-पी-एच-ई" is wrong; the four pillars of the Global Gender Gap Index are Econom
 09-10 14:50:56   [Modern_History] review: 1 section(s) corrected, 0 failed
 09-10 14:50:56   [Modern_History] written 1, failed 0; AI calls today 110/100000
@@ -89,4 +81,11 @@
 09-10 15:04:14   [Fractions_Decimals] Content_en.txt try 1: rejected (chat debris "Here's the")
 09-10 15:04:32   [Reports_Indices] review: 1 section(s) corrected, 0 failed
 09-10 15:04:32   [Reports_Indices] written 1, failed 0; AI calls today 134/100000
+09-10 15:04:45 DONE 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_24_Reports_Indices in 12 min → a33c54a9
+09-10 15:04:47 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_05_Percentage (TODO: todo 25, problems 0)
+09-10 15:06:01   [Percentage] wrote Content_en.txt (8138 chars)
+09-10 15:07:16   [Fractions_Decimals] wrote Content_en.txt (9454 chars)
+09-10 15:07:18   [Number_System] Practice_en_Set_04.txt try 2: re-solve disagrees (Q80 key c vs re-solve ?)
+09-10 15:07:54   [Percentage] wrote Content_hi.txt (5994 chars)
+09-10 15:08:37   [Percentage] Feynman_en.txt try 1: rejected (chat debris "Here's the")
 ```
