@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 07:45 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
+**आख़िरी update:** 09-10-2026 07:49 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Simple Interest (12th Maths) | ✍️ लिख रहा है | 20 मिनट |
-| W2 | Chapter 10 Compound Interest (12th Maths) | 🔧 सुधार रहा है | 11 मिनट |
-| W3 | Chapter 11 Time Work (12th Maths) | ✍️ लिख रहा है | 17 मिनट |
-| W4 | Chapter 02 LCM HCF (12th Maths) | 📤 push हो रहा है | 0 मिनट |
-| W5 | Chapter 03 Simplification (12th Maths) | 🔎 review हो रहा है | 23 मिनट |
-| W6 | Chapter 12 Time Distance (12th Maths) | ✍️ लिख रहा है | 0 मिनट |
-| W7 | Chapter 07 Ratio Proportion (12th Maths) | ✍️ लिख रहा है | 26 मिनट |
-| W8 | Chapter 08 Profit Loss (12th Maths) | ✍️ लिख रहा है | 26 मिनट |
+| W1 | Chapter 09 Simple Interest (12th Maths) | ✍️ लिख रहा है | 24 मिनट |
+| W2 | Chapter 10 Compound Interest (12th Maths) | 🔧 सुधार रहा है | 15 मिनट |
+| W3 | Chapter 11 Time Work (12th Maths) | ✍️ लिख रहा है | 21 मिनट |
+| W4 | Chapter 13 Mixture Alligation (12th Maths) | ✍️ लिख रहा है | 3 मिनट |
+| W5 | Chapter 03 Simplification (12th Maths) | 🔎 review हो रहा है | 27 मिनट |
+| W6 | Chapter 12 Time Distance (12th Maths) | ✍️ लिख रहा है | 3 मिनट |
+| W7 | Chapter 07 Ratio Proportion (12th Maths) | ✍️ लिख रहा है | 30 मिनट |
+| W8 | Chapter 08 Profit Loss (12th Maths) | ✍️ लिख रहा है | 30 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -30,10 +30,10 @@
 | 12th Reasoning | 4 | 0 | 21 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 23 | 0 | 5 |
+| Graduation GK | 24 | 0 | 4 |
 | Graduation Reasoning | 8 | 0 | 22 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **176** | **17** | **103** |
+| **कुल** | **177** | **17** | **102** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -50,20 +50,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 19:29:06   [Simple_Interest] wrote Important_Formulas_en.txt (2241 chars)
-09-10 19:29:20   [Time_Work] Content_en.txt try 1: rejected (chat debris "Here is the")
-09-10 19:29:34   [Compound_Interest] repaired Flashcards_hi.txt (2732 chars)
-09-10 19:30:18   [Time_Work] Content_en.txt try 2: rejected (chat debris "Here's the")
-09-10 19:30:18   [Time_Work] REJECTED Content_en.txt: chat debris "Here's the" — not written
-09-10 19:30:20   [Simplification] review Feynman_hi.txt: 1 issue(s): - Invented statistic “90% बच्चे फँसते हैं” → Remove the fabricated percentage or replace with a non‑statistical phr
-09-10 19:30:31   [Compound_Interest] repaired PYQ_en.txt (7325 chars)
-09-10 19:30:31   [Compound_Interest] written 2, failed 0; AI calls today 59/100000
-09-10 19:31:06   [Simple_Interest] Practice_en_Set_02.txt try 1: rejected (Q32:leaked_reasoning)
-09-10 19:31:32   [Average] review Feynman_hi.txt: 1 issue(s): - The example "30 छात्रों का औसत वज़न 50 किग्रा है। एक छात्र जाने से औसत 49 किग्रा रह जाता है। जाने वाले का वज़न?" 
-09-10 19:32:26   [Compound_Interest] repaired Flashcards_hi.txt (2969 chars)
-09-10 19:32:26   [Compound_Interest] written 1, failed 0; AI calls today 63/100000
-09-10 19:32:26 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest after 6 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (29']
-09-10 19:32:27 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest (FIX: todo 0, problems 1)
 09-10 19:32:44   [Profit_Loss] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 09-10 19:34:04   [Compound_Interest] repaired Flashcards_hi.txt (3104 chars)
 09-10 19:34:04   [Compound_Interest] written 1, failed 0; AI calls today 66/100000
@@ -90,4 +76,18 @@
 09-10 19:45:31   [LCM_HCF] review: 1 section(s) corrected, 0 failed
 09-10 19:45:31   [LCM_HCF] written 1, failed 0; AI calls today 104/100000
 09-10 19:45:34   [Simple_Interest] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+09-10 19:45:40 DONE 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_02_LCM_HCF in 27 min → 5acc8ac8
+09-10 19:45:42 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation (TODO: todo 25, problems 0)
+09-10 19:46:09   [Mixture_Alligation] Content_en.txt try 1: rejected (too short)
+09-10 19:46:11   [Ratio_Proportion] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+09-10 19:46:24   [Simplification] review PYQ_hi.txt: 1 issue(s): - Question 1 trap explanation incorrectly states the mistaken calculation as "2 + 3 = 5"; the correct erroneous steps a
+09-10 19:47:00   [Time_Distance] wrote Content_en.txt (8989 chars)
+09-10 19:47:31   [Simple_Interest] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 19:47:37   [Mixture_Alligation] wrote Content_en.txt (8345 chars)
+09-10 19:47:55   [Time_Work] Flashcards_hi.txt try 1: rejected (corrupted characters)
+09-10 19:47:58   [Time_Work] Flashcards_hi.txt try 2: rejected (too short)
+09-10 19:47:58   [Time_Work] REJECTED Flashcards_hi.txt: too short — not written
+09-10 19:48:10   [Ratio_Proportion] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 19:48:30   [Time_Distance] wrote Content_hi.txt (5499 chars)
+09-10 19:49:02   [Time_Distance] wrote Feynman_en.txt (2541 chars)
 ```
