@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 09-10-2026 07:28 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
+**आख़िरी update:** 09-10-2026 07:29 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Time Work (10th Maths) | 🔧 सुधार रहा है | 4 मिनट |
+| W1 | Chapter 11 Time Work (10th Maths) | 🔧 सुधार रहा है | 5 मिनट |
 | W2 | Chapter 10 Compound Interest (10th Maths) | 🔧 सुधार रहा है | 15 मिनट |
-| W3 | Chapter 20 Sentence Improvement Basic (10th English) | ✍️ लिख रहा है | 24 मिनट |
-| W4 | Chapter 18 Error Spotting Basic (10th English) | 🔧 सुधार रहा है | 0 मिनट |
+| W3 | Chapter 20 Sentence Improvement Basic (10th English) | ✍️ लिख रहा है | 25 मिनट |
+| W4 | Chapter 18 Error Spotting Basic (10th English) | 🔧 सुधार रहा है | 1 मिनट |
 | W5 | Chapter 19 Fill in Blanks Basic (10th English) | 🔎 review हो रहा है | 22 मिनट |
-| W6 | Chapter 16 Idioms Phrases (10th English) | 📤 push हो रहा है | 0 मिनट |
+| W6 | Chapter 12 Time Distance (10th Maths) | 🔧 सुधार रहा है | 0 मिनट |
 | W7 | Chapter 14 Antonyms (10th English) | 🔎 review हो रहा है | 41 मिनट |
-| W8 | Chapter 17 Spelling (10th English) | 🔎 review हो रहा है | 37 मिनट |
+| W8 | Chapter 17 Spelling (10th English) | 🔎 review हो रहा है | 38 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -52,7 +52,6 @@
 - Chapter 01 Noun (English) — 2 बार
 - Chapter 07 Preposition (English) — 2 बार
 - Chapter 12 Sentence Structure (English) — 2 बार
-- Chapter 16 Idioms Phrases (English) — 1 बार
 - Chapter 17 Spelling (English) — 1 बार
 - Chapter 14 Antonyms (English) — 1 बार
 - Chapter 19 Fill in Blanks Basic (English) — 1 बार
@@ -60,9 +59,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 19:12:50   [Synonyms] written 8, failed 0; AI calls today 505/100000
-09-10 19:13:08 DONE 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_13_Synonyms in 131 min → 8bcb5f13
-09-10 19:13:09 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_10_Compound_Interest (FIX: todo 0, problems 13)
 09-10 19:13:10   [Spelling] review Mind_Map_hi.txt: 1 issue(s): - B5: "Full + fill = fulfil एक L घटता है" → गलत नियम: "fulfil" शब्द "Full + fill" से नहीं बनता; सही नियम है कि "fu
 09-10 19:13:25   [Antonyms] review PYQ_en.txt: 3 issue(s): - Sound-Right Trap example claims "Artificial" is not a precise antonym of "Genuine" → "Artificial" is a valid antonym 
 09-10 19:13:25   [Sentence_Improvement_Basic] wrote Flashcards_hi.txt (4786 chars)
@@ -100,4 +96,7 @@
 09-10 19:28:44   [Idioms_Phrases] review: 4 section(s) corrected, 0 failed
 09-10 19:28:44   [Idioms_Phrases] written 4, failed 0; AI calls today 575/100000
 09-10 19:28:52   [Sentence_Improvement_Basic] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 19:28:58 DONE 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_16_Idioms_Phrases in 56 min → 1d87e670
+09-10 19:29:00 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_12_Time_Distance (FIX: todo 0, problems 17)
+09-10 19:29:12   [Antonyms] review Important_Rules_en.txt: 3 issue(s): - Rule 4: The rule "Positive ↔ Negative connotation must flip" is incorrect for the example because both 'e
 ```
