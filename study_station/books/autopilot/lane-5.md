@@ -8,9 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 19 Statistics (10th Maths) | 🔎 review हो रहा है | 40 मिनट |
-| W4 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 8 मिनट |
-| W6 | Chapter 13 Mixture Alligation (10th Maths) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 19 Statistics (10th Maths) | 🔎 review हो रहा है | 41 मिनट |
+| W4 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 9 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -46,15 +45,12 @@
 - Chapter 03 Adjective (English) — 2 बार
 - Chapter 01 Noun (English) — 2 बार
 - Chapter 18 Trigonometry (Maths) — 2 बार
-- Chapter 13 Mixture Alligation (Maths) — 1 बार
 - Chapter 21 Probability (Maths) — 1 बार
 - Chapter 19 Statistics (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 01:14:26   [Statistics] written 1, failed 0; AI calls today 118/100000
-10-10 01:14:43   [Mixture_Alligation] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
 10-10 01:14:49   [Mixture_Alligation] Practice_hi_Set_01.txt try 2: rejected (parsed 0 questions, numbers -…-)
 10-10 01:15:33   [Probability] set 02 try 4: rejected (parsed 23 questions, numbers 26…50)
 10-10 01:15:33   [Probability] FAILED set 02: no version passed the checks — files left as they were
@@ -93,4 +89,6 @@
 10-10 01:54:37   [Probability] FAILED set 01: no version passed the checks — files left as they were
 10-10 01:55:02   [Mixture_Alligation] review: 6 section(s) corrected, 0 failed
 10-10 01:55:02   [Mixture_Alligation] written 6, failed 0; AI calls today 167/100000
+10-10 01:55:22 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_13_Mixture_Alligation in 81 min → 11c78b44
+10-10 01:55:25 worker 5: nothing left
 ```
