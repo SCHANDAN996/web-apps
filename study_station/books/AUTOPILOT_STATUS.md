@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 11:59 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 12:14 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 134 मिनट |
-| W2 | Chapter 09 Venn Diagrams (Graduation Reasoning) | ✍️ लिख रहा है | 104 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 156 मिनट |
-| W4 | Chapter 10 Clock Calendar (Graduation Reasoning) | ✍️ लिख रहा है | 48 मिनट |
-| W5 | Chapter 11 Series (Graduation Reasoning) | ✍️ लिख रहा है | 23 मिनट |
+| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 149 मिनट |
+| W2 | Chapter 09 Venn Diagrams (Graduation Reasoning) | ✍️ लिख रहा है | 119 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 171 मिनट |
+| W4 | Chapter 10 Clock Calendar (Graduation Reasoning) | ✍️ लिख रहा है | 63 मिनट |
+| W5 | Chapter 11 Series (Graduation Reasoning) | ✍️ लिख रहा है | 38 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -25,14 +25,14 @@
 | 10th Maths | 9 | 13 | 0 |
 | 10th English | 0 | 0 | 20 |
 | 12th Maths | 0 | 0 | 23 |
-| 12th GK | 15 | 0 | 9 |
+| 12th GK | 16 | 0 | 8 |
 | 12th Reasoning | 0 | 0 | 25 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 16 | 0 | 12 |
 | Graduation Reasoning | 3 | 1 | 26 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **136** | **14** | **146** |
+| **कुल** | **137** | **14** | **145** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -50,16 +50,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 11:17:43   [Blood_Relations] review PYQ_en.txt: 3 issue(s): - Q2 answer (b) is incorrect for the given symbol definitions; with '-' meaning 'sister', P is maternal aunt, not uncle
-09-10 11:18:17   [Clock_Calendar] wrote Mind_Map.txt (2559 chars)
-09-10 11:19:36   [Puzzles] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-09-10 11:19:56   [Venn_Diagrams] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-09-10 11:20:00   [Sitting_Arrangement] Practice_en_Set_02.txt try 3: re-solve disagrees (Q28 key c vs re-solve ?, Q32 key a vs re-solve c, Q43 key d vs re-solve c, Q44 key d vs re-solve b, 
-09-10 11:22:34   [Puzzles] Practice_en_Set_03.txt try 1: rejected (Q51:leaked_reasoning,Q55:leaked_reasoning,Q62:leaked_reasoning,Q63:leaked_reasoning,Q71:leaked_reasoning)
-09-10 11:22:38   [Blood_Relations] review PYQ_hi.txt: 1 issue(s): - प्रश्न 8 में दिया गया उत्तर (a) मामा गलत है → कथनों के अनुसार D, A का भाई है (A और C दोनों B की संतान हैं, D C का भाई
-09-10 11:23:29   [Clock_Calendar] wrote Flashcards_en.txt (4888 chars)
-09-10 11:24:56   [Venn_Diagrams] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-09-10 11:25:14   [Clock_Calendar] wrote Flashcards_hi.txt (3872 chars)
 09-10 11:27:20   [Venn_Diagrams] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 09-10 11:28:07   [Clock_Calendar] wrote PYQ_en.txt (9852 chars)
 09-10 11:29:09   [Blood_Relations] review Short_Tricks_hi.txt: 1 issue(s): - ट्रिक 3 के मंत्र में "भला-बुरा हाला" लिखा है, "हाला" (शराब/मदिरा) अर्थहीन है → "भला-बुरा हाल" होना चाहिए।
@@ -90,4 +80,14 @@
 09-10 11:52:37   [Venn_Diagrams] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 09-10 11:55:39   [Venn_Diagrams] Practice_en_Set_06.txt try 1: rejected (parsed 24 questions, numbers 126…150)
 09-10 11:57:18   [Sitting_Arrangement] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 12:02:27   [Sitting_Arrangement] Practice_en_Set_03.txt try 1: rejected (Q70:leaked_reasoning)
+09-10 12:03:16   [Puzzles] Practice_en_Set_03.txt try 3: re-solve disagrees (Q54 key c vs re-solve a)
+09-10 12:04:05   [Sitting_Arrangement] Practice_en_Set_03.txt try 2: rejected (parsed 0 questions, numbers -…-)
+09-10 12:05:27   [Venn_Diagrams] Practice_en_Set_06.txt try 2: re-solve disagrees (Q148 key d vs re-solve ?)
+09-10 12:07:27   [Sitting_Arrangement] Practice_en_Set_03.txt try 3: rejected (Q51:leaked_reasoning,Q52:leaked_reasoning,Q53:leaked_reasoning,Q60:leaked_reasoning)
+09-10 12:10:45   [Series] Flashcards_en.txt try 1: answer too long — asking for a tighter version
+09-10 12:11:49   [Clock_Calendar] FAILED Practice_en_Set_02.txt: too_long
+09-10 12:11:49   [Clock_Calendar] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+09-10 12:13:06   [Clock_Calendar] Practice_en_Set_03.txt try 1: rejected (Q54:answer_solution_conflict,Q55:answer_solution_conflict,Q56:answer_solution_conflict,Q57:answer_solution_con
+09-10 12:13:36   [Clock_Calendar] Practice_en_Set_03.txt try 2: rejected (parsed 0 questions, numbers -…-)
 ```
