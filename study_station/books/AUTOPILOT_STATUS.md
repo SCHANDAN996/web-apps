@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 06:27 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 06:43 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 87 मिनट |
-| W4 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 94 मिनट |
-| W5 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 275 मिनट |
+| W2 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 102 मिनट |
+| W4 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 109 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -27,10 +26,10 @@
 | 12th Reasoning | 4 | 0 | 21 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 22 | 0 | 6 |
+| Graduation GK | 23 | 0 | 5 |
 | Graduation Reasoning | 9 | 0 | 21 |
 | Graduation English | 29 | 1 | 0 |
-| **कुल** | **168** | **14** | **114** |
+| **कुल** | **169** | **14** | **113** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -46,20 +45,11 @@
 - Chapter 02 Classification (Reasoning) — 2 बार
 - Chapter 12 Missing Term (Reasoning) — 2 बार
 - Chapter 08 Puzzles (Reasoning) — 1 बार
+- Chapter 07 Sitting Arrangement (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 17:25:24   [Missing_Term] written 24, failed 1; AI calls today 305/100000
-09-10 17:25:25 NOT OK Graduation_Level/Reasoning/Chapter_12_Missing_Term after 76 min: todo ['Content_en.txt'] problems []
-09-10 17:25:27 START Graduation_Level/Reasoning/Chapter_12_Missing_Term (TODO: todo 1, problems 0)
-09-10 17:26:15   [Dictionary_Order] Practice_en_Set_01.txt try 1: rejected (Q8:leaked_reasoning,Q21:leaked_reasoning,Q25:leaked_reasoning)
-09-10 17:27:06   [Missing_Term] wrote Content_en.txt (7829 chars)
-09-10 17:27:06   [Missing_Term] written 1, failed 0; AI calls today 308/100000
-09-10 17:28:28   [Alphabet_Questions] Practice_en_Set_01.txt try 1: rejected (Q4:leaked_reasoning,Q8:leaked_reasoning,Q19:leaked_reasoning,Q20:leaked_reasoning,Q22:leaked_reasoning)
-09-10 17:30:27   [Missing_Term] review Content_en.txt: 1 issue(s): - Trap 1 example (4, 9, 19, 39, ?) claims a partial rule fits only the first two terms, but ×2+1 fits all given ter
-09-10 17:32:06   [Dictionary_Order] Practice_en_Set_01.txt try 2: re-solve disagrees (Q4 key a vs re-solve d, Q16 key b vs re-solve d, Q22 key d vs re-solve a)
-09-10 17:32:45   [Sitting_Arrangement] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 09-10 17:36:24   [Sitting_Arrangement] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 09-10 17:39:20   [Dictionary_Order] Practice_en_Set_01.txt try 3: re-solve disagrees (Q4 key d vs re-solve a, Q16 key c vs re-solve d)
 09-10 17:41:06   [Puzzles] Practice_en_Set_06.txt try 3: re-solve disagrees (Q126 key a vs re-solve -, Q127 key a vs re-solve -, Q128 key d vs re-solve -, Q129 key c vs re-solve
@@ -90,4 +80,14 @@
 09-10 18:14:00   [Alphabet_Questions] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 09-10 18:16:24   [Dictionary_Order] Practice_en_Set_02.txt try 3: re-solve disagrees (Q26 key b vs re-solve c, Q30 key a vs re-solve b, Q32 key d vs re-solve a, Q34 key a vs re-solve c, 
 09-10 18:17:33   [Alphabet_Questions] Practice_en_Set_02.txt try 1: rejected (Q34:leaked_reasoning,Q42:leaked_reasoning,Q45:leaked_reasoning,Q46:leaked_reasoning,Q50:leaked_reasoning)
+09-10 18:31:38   [Sitting_Arrangement] FAILED Practice_en_Set_06.txt: too_long
+09-10 18:31:38   [Sitting_Arrangement] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+09-10 18:31:38   [Sitting_Arrangement] written 4, failed 7; AI calls today 355/100000
+09-10 18:31:39 NOT OK Graduation_Level/Reasoning/Chapter_07_Sitting_Arrangement after 279 min: todo ['Feynman_en.txt', 'Set 01 en: todo', 'Set 01 hi: todo', 'Set 03 en: todo'] problems []
+09-10 18:31:39 worker 4: nothing left
+09-10 18:31:50   [Alphabet_Questions] Practice_en_Set_02.txt try 2: re-solve disagrees (Q26 key a vs re-solve b, Q27 key c vs re-solve d)
+09-10 18:39:36   [Alphabet_Questions] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+09-10 18:42:37   [Dictionary_Order] FAILED Practice_en_Set_02.txt: too_long
+09-10 18:42:37   [Dictionary_Order] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+09-10 18:42:55   [Dictionary_Order] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
 ```
