@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 09-10-2026 09:00 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
+**आख़िरी update:** 09-10-2026 09:03 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,13 +8,13 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Time Work (10th Maths) | 🔎 review हो रहा है | 16 मिनट |
-| W3 | Chapter 20 Sentence Improvement Basic (10th English) | 🔎 review हो रहा है | 18 मिनट |
-| W4 | Chapter 16 Algebra (10th Maths) | 🔧 सुधार रहा है | 43 मिनट |
-| W5 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 90 मिनट |
-| W6 | Chapter 12 Time Distance (10th Maths) | 🔎 review हो रहा है | 30 मिनट |
-| W7 | Chapter 14 Mensuration (10th Maths) | 🔎 review हो रहा है | 6 मिनट |
-| W8 | Chapter 15 Geometry (10th Maths) | 🔎 review हो रहा है | 14 मिनट |
+| W1 | Chapter 11 Time Work (10th Maths) | 🔎 review हो रहा है | 19 मिनट |
+| W3 | Chapter 20 Sentence Improvement Basic (10th English) | 🔎 review हो रहा है | 21 मिनट |
+| W4 | Chapter 16 Algebra (10th Maths) | 🔧 सुधार रहा है | 46 मिनट |
+| W5 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 93 मिनट |
+| W6 | Chapter 12 Time Distance (10th Maths) | 📤 push हो रहा है | 0 मिनट |
+| W7 | Chapter 14 Mensuration (10th Maths) | 🔎 review हो रहा है | 9 मिनट |
+| W8 | Chapter 15 Geometry (10th Maths) | 🔎 review हो रहा है | 17 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -36,6 +36,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 21:03 — 10th Maths · Chapter 12 Time Distance
 - 09-10 20:54 — 10th Maths · Chapter 10 Compound Interest
 - 09-10 20:16 — 10th English · Chapter 18 Error Spotting Basic
 - 09-10 19:51 — 10th English · Chapter 17 Spelling
@@ -61,11 +62,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 20:35:09   [Geometry] repaired set 05 (en + hi, key confirmed by an independent re-solve)
-09-10 20:36:09   [Mixture_Alligation] repaired set 04 (en + hi, key confirmed by an independent re-solve)
-09-10 20:36:12   [Mixture_Alligation] set 05 try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 20:36:39   [Sentence_Improvement_Basic] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 20:37:23   [Compound_Interest] review Mind_Map.txt: 3 issue(s): - F1: "A = P × 1 + R/100 की घात T" is ambiguous/incorrect → "A = P × (1 + R/100)^T"
 09-10 20:42:10   [Sentence_Improvement_Basic] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 09-10 20:42:10   [Sentence_Improvement_Basic] written 2, failed 0; AI calls today 780/100000
 09-10 20:42:19   [Algebra] repaired set 03 (en + hi, key confirmed by an independent re-solve)
@@ -101,4 +97,9 @@
 09-10 20:58:12   [Mixture_Alligation] REJECTED Practice_hi_Set_05.txt: no translation passed the checks — not written
 09-10 20:58:12   [Mixture_Alligation] FAILED set 05: Hindi translation rejected — files left as they were
 09-10 21:00:11   [Mensuration] review Content_hi.txt: 4 issue(s): - "परिमाप ऐसे है जैसे" → "परिमाप ऐसा है जैसे" (विषय 'परिमाप' पुल्लिंग एकवचन है, इसलिए विशेषण 'ऐसा' आएगा)
+09-10 21:01:34   [Sentence_Improvement_Basic] review PYQ_hi.txt: 1 issue(s): - Question 1 is an invalid sentence improvement item: the grammatical error (wrong tense “is working” should be “has be
+09-10 21:02:18   [Time_Distance] review Short_Tricks_en.txt: 1 issue(s): - "Here are 12 outrageously memorable mnemonics" claims 12 items, but the section lists 14 numbered mnemonics 
+09-10 21:02:46   [Geometry] review PYQ_en.txt: 1 issue(s): - Q10 solution incorrectly states the sphere volume coefficient as (4/3)*(1/(4π)) ≈ 0.094 → correct coefficient is 1/(6
+09-10 21:03:44   [Time_Distance] review: 3 section(s) corrected, 0 failed
+09-10 21:03:44   [Time_Distance] written 3, failed 0; AI calls today 846/100000
 ```
