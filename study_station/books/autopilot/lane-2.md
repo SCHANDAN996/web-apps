@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 02:56 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:38 AM
+**आख़िरी update:** 10-10-2026 03:00 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:38 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Time Work (Graduation Maths) | 🔎 review हो रहा है | 14 मिनट |
-| W2 | Chapter 15 Geometry (Graduation Maths) | ✍️ लिख रहा है | 3 मिनट |
-| W3 | Chapter 21 Complex Numbers (Graduation Maths) | ✍️ लिख रहा है | 24 मिनट |
-| W4 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 44 मिनट |
-| W5 | Chapter 18 Quadratic Equations (Graduation Maths) | ✍️ लिख रहा है | 59 मिनट |
-| W6 | Chapter 17 Algebra (Graduation Maths) | ✍️ लिख रहा है | 81 मिनट |
-| W7 | Chapter 16 Coordinate Geometry (Graduation Maths) | ✍️ लिख रहा है | 96 मिनट |
-| W8 | Chapter 20 Heights Distances (Graduation Maths) | ✍️ लिख रहा है | 37 मिनट |
+| W1 | Chapter 11 Time Work (Graduation Maths) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 15 Geometry (Graduation Maths) | ✍️ लिख रहा है | 7 मिनट |
+| W3 | Chapter 21 Complex Numbers (Graduation Maths) | ✍️ लिख रहा है | 28 मिनट |
+| W4 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 47 मिनट |
+| W5 | Chapter 18 Quadratic Equations (Graduation Maths) | ✍️ लिख रहा है | 62 मिनट |
+| W6 | Chapter 17 Algebra (Graduation Maths) | ✍️ लिख रहा है | 84 मिनट |
+| W7 | Chapter 16 Coordinate Geometry (Graduation Maths) | ✍️ लिख रहा है | 100 मिनट |
+| W8 | Chapter 20 Heights Distances (Graduation Maths) | ✍️ लिख रहा है | 41 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,6 +37,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 10-10 03:00 — Graduation Maths · Chapter 11 Time Work
 - 10-10 02:31 — Graduation Maths · Chapter 14 Mensuration
 - 10-10 02:18 — Graduation Maths · Chapter 10 Compound Interest
 - 10-10 01:57 — Graduation Maths · Chapter 12 Time Distance
@@ -57,17 +58,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 02:43:57   [Heights_Distances] wrote Short_Tricks_en.txt (5560 chars)
-10-10 02:44:08   [Coordinate_Geometry] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-10-10 02:44:21   [Trigonometry] wrote Important_Formulas_en.txt (480 chars)
-10-10 02:45:14   [Trigonometry] wrote Important_Formulas_hi.txt (4221 chars)
-10-10 02:45:16   [Complex_Numbers] wrote Flashcards_en.txt (3543 chars)
-10-10 02:45:18   [Heights_Distances] wrote Short_Tricks_hi.txt (6201 chars)
-10-10 02:45:35   [Heights_Distances] wrote Important_Formulas_en.txt (2307 chars)
-10-10 02:45:35   [Coordinate_Geometry] Practice_en_Set_04.txt try 1: rejected (Q90:leaked_reasoning)
-10-10 02:45:58   [Geometry] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-10-10 02:46:08   [Complex_Numbers] wrote Flashcards_hi.txt (3027 chars)
-10-10 02:46:09   [Heights_Distances] wrote Important_Formulas_hi.txt (2763 chars)
 10-10 02:46:34   [Quadratic_Equations] Practice_en_Set_01.txt try 1: re-solve disagrees (Q15 key d vs re-solve b)
 10-10 02:46:46   [Trigonometry] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 10-10 02:46:48   [Trigonometry] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
@@ -97,4 +87,15 @@
 10-10 02:56:03   [Algebra] Practice_en_Set_06.txt try 1: re-solve disagrees (Q146 key c vs re-solve d)
 10-10 02:56:24   [Algebra] Practice_en_Set_06.txt try 2: rejected (parsed 0 questions, numbers -…-)
 10-10 02:56:28   [Time_Work] review Short_Tricks_en.txt: 1 issue(s): - The claim "90% of Time & Work problems collapse once you list per-day work" is an invented statistic with no
+10-10 02:57:44   [Geometry] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+10-10 02:58:37   [Time_Work] review Important_Formulas_en.txt: 2 issue(s): - Duplicate rows for "Work in a day" (repeated 12+ times) → Keep only one entry for "Work in a day"
+10-10 02:58:47   [Heights_Distances] Practice_en_Set_02.txt try 3: rejected (parsed 0 questions, numbers -…-)
+10-10 02:59:40   [Geometry] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+10-10 02:59:54   [Time_Work] review Important_Formulas_hi.txt: 1 issue(s): - श्रृंखला नियम (Chain Rule) सूत्र में दोनों पक्षों का हर W₂ लिखा है → सही सूत्र: M₁D₁T₁E₁/W₁ = M₂D₂T₂E₂
+10-10 03:00:15   [Heights_Distances] Practice_en_Set_02.txt try 4: rejected (Q38:leaked_reasoning,Q39:leaked_reasoning,Q46:leaked_reasoning)
+10-10 03:00:15   [Heights_Distances] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
+10-10 03:00:15   [Heights_Distances] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+10-10 03:00:19   [Algebra] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+10-10 03:00:19   [Time_Work] review: 5 section(s) corrected, 0 failed
+10-10 03:00:19   [Time_Work] written 5, failed 0; AI calls today 469/100000
 ```

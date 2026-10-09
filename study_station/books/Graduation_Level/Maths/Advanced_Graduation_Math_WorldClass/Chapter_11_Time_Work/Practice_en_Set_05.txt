@@ -1,0 +1,151 @@
+Questions 101–120: Easy | Questions 121–125: Moderate
+
+101. A can do a piece of work in 12 days and B can do it in 18 days. They work together for 4 days, after which A leaves. In how many more days will B finish the remaining work?
+(a) 10 days (b) 6 days (c) 8 days (d) 12 days
+Answer: (c)
+Solution: The tempting wrong value 10 days comes from computing B's remaining time as if A had never helped. Combined rate = 1/12 + 1/18 = 5/36 per day, so in 4 days they complete 20/36 = 5/9, leaving 4/9. B alone needs (4/9)/(1/18) = 8 days, so the answer is 8 days.
+Source: PYQ-style
+
+102. A is twice as efficient as B. Together they finish a work in 14 days. In how many days can A alone finish it?
+(a) 18 days (b) 28 days (c) 21 days (d) 24 days
+Answer: (c)
+Solution: Many students wrongly double 14 to get 28. Let B's rate be x, so A's rate is 2x and combined 3x = 1/14, giving x = 1/42. A alone takes 1/(2x) = 21 days, so the answer is 21 days.
+Source: PYQ-style
+
+103. 12 men can complete a work in 18 days. After 6 days, 6 more men join. In how many total days will the work be completed?
+(a) 12 days (b) 16 days (c) 15 days (d) 14 days
+Answer: (d)
+Solution: The trap is to assume the remaining work still takes 12 more days with the original team. Total work = 12 × 18 = 216 man-days; in 6 days, 72 man-days are done, leaving 144. With 18 men, remaining time = 144/18 = 8 days, so total time = 6 + 8 = 14 days, so the answer is 14 days.
+Source: PYQ-style
+
+104. A and B together can do a work in 8 days, B and C in 12 days, and A and C in 16 days. In how many days can A, B and C together do the work?
+(a) 48/7 days (b) 6 days (c) 7 days (d) 96/13 days
+Answer: (d)
+Solution: A common error is averaging 8, 12 and 16 to get 12 days. Adding the three pair rates: 2(A+B+C) = 1/8 + 1/12 + 1/16 = 6/48 + 4/48 + 3/48 = 13/48, so the combined rate is 13/96 per day. Time = 96/13 days, so the answer is 96/13 days.
+Source: PYQ-style
+
+105. A can do a work in 10 days. He works for 4 days, then B finishes the rest in 9 days. In how many days can B alone do the whole work?
+(a) 12 days (b) 15 days (c) 20 days (d) 18 days
+Answer: (b)
+Solution: The trap is to compute B's time from the full work instead of the remaining work. A does 4/10 = 2/5 of the work, leaving 3/5, which B does in 9 days. B's full time = 9 × 5/3 = 15 days, so the answer is 15 days.
+Source: PYQ-style
+
+106. Pipe A can fill a tank in 6 hours and pipe B can empty it in 9 hours. If both are opened together, in how many hours will the tank be filled?
+(a) 12 hours (b) 15 hours (c) 18 hours (d) 16 hours
+Answer: (c)
+Solution: Students often add the times to get 15 hours. Net rate = 1/6 − 1/9 = 3/18 − 2/18 = 1/18 per hour, so the tank fills in 18 hours, so the answer is 18 hours.
+Source: PYQ-style
+
+107. 6 men or 9 women can do a work in 18 days. In how many days will 4 men and 6 women do the same work?
+(a) 13.5 days (b) 12 days (c) 15 days (d) 16 days
+Answer: (a)
+Solution: The trap is to average the headcounts without converting efficiencies. Since 6 men = 9 women, 1 man = 1.5 women, so 4 men + 6 women = 6 + 6 = 12 women. If 9 women take 18 days, 12 women take 18 × 9/12 = 13.5 days, so the answer is 13.5 days.
+Source: PYQ-style
+
+108. A can do a work in 20 days. He works alone for 5 days, then B joins him and together they finish the work in 6 more days. In how many days can B alone do the whole work?
+(a) 15 days (b) 12 days (c) 40/3 days (d) 10 days
+Answer: (c)
+Solution: The tempting error is to treat B's 6 days of joint work as B's solo pace. A does 5/20 = 1/4 alone, leaving 3/4; in the 6 joint days A adds 6/20 = 3/10, so B does 3/4 − 3/10 = 9/20 in 6 days. B's rate = 9/120 = 3/40 per day, so B alone takes 40/3 days, so the answer is 40/3 days.
+Source: PYQ-style
+
+109. A and B can do a work in 20 and 30 days respectively. They work on alternate days, starting with A. In how many days will the work be completed?
+(a) 23 days (b) 24 days (c) 25 days (d) 26 days
+Answer: (b)
+Solution: Many wrongly take the average of 20 and 30, getting 25. In each 2-day cycle, work done = 1/20 + 1/30 = 5/60 = 1/12. After 12 cycles, i.e. 24 days, the work is exactly complete, so the answer is 24 days.
+Source: PYQ-style
+
+110. Two pipes can fill a tank in 12 hours and 18 hours. A leak at the bottom empties the full tank in 36 hours. If all three operate together, in how many hours will the tank fill?
+(a) 6 hours (b) 9 hours (c) 8 hours (d) 12 hours
+Answer: (b)
+Solution: The trap is to ignore the leak and compute only the two filling pipes, getting 36/5 = 7.2 hours. Net rate = 1/12 + 1/18 − 1/36 = 3/36 + 2/36 − 1/36 = 4/36 = 1/9 per hour, so the tank fills in 9 hours, so the answer is 9 hours.
+Source: PYQ-style
+
+111. 4 men or 6 women can do a work in 20 days. In how many days will 2 men and 3 women do the same work?
+(a) 20 days (b) 18 days (c) 15 days (d) 24 days
+Answer: (a)
+Solution: The trap is to halve the team and double the time without converting efficiencies. Since 4 men = 6 women, 2 men = 3 women, so 2 men + 3 women = 6 women, which is exactly the team that takes 20 days. So the answer is 20 days.
+Source: PYQ-style
+
+112. A can do a work in 25 days. B is 25% more efficient than A. In how many days will B do the same work?
+(a) 18 days (b) 22 days (c) 24 days (d) 20 days
+Answer: (d)
+Solution: The classic trap is reducing 25 days by 25% to get 18.75 days — efficiency and time are inversely related, not directly. B's rate = 1.25 × (1/25) = 1/20 per day, so B takes 20 days, so the answer is 20 days.
+Source: PYQ-style
+
+113. A and B together can finish a work in 12 days. A alone can finish it in 20 days. If they are paid ₹3,200 for the work, what is B's share?
+(a) ₹1,600 (b) ₹1,280 (c) ₹1,920 (d) ₹2,000
+Answer: (b)
+Solution: Many split the money equally (₹1,600 each), ignoring that wages follow work done. B's rate = 1/12 − 1/20 = 2/60 = 1/30, so the ratio of work A : B = 1/20 : 1/30 = 3 : 2. B's share = (2/5) × 3200 = ₹1,280, so the answer is ₹1,280.
+Source: PYQ-style
+
+114. A can complete a work in 16 days. He works for 4 days and then leaves. B completes the remaining work in 16 days. In how many days can A and B together complete the whole work?
+(a) 10 days (b) 64/7 days (c) 12 days (d) 80/7 days
+Answer: (b)
+Solution: The trap is to assume B alone takes 16 days for the whole work. A does 4/16 = 1/4, leaving 3/4, which B does in 16 days, so B alone needs 64/3 days. Combined rate = 1/16 + 3/64 = 7/64, so together they take 64/7 days, so the answer is 64/7 days.
+Source: PYQ-style
+
+115. Two pipes can fill a tank in 12 and 18 minutes. Both are opened together, but after 3 minutes the first pipe is closed. How much longer will the second pipe take to fill the tank?
+(a) 9 minutes (b) 12 minutes (c) 13.5 minutes (d) 10.5 minutes
+Answer: (d)
+Solution: The tempting wrong value 9 minutes comes from subtracting 3 minutes from 12. In 3 minutes both pipes fill 3(1/12 + 1/18) = 3 × 5/36 = 5/12, leaving 7/12. The second pipe needs (7/12)/(1/18) = 10.5 minutes, so the answer is 10.5 minutes.
+Source: PYQ-style
+
+116. 20 men can build a wall in 15 days working 8 hours a day. In how many days will 25 men build the same wall working 10 hours a day?
+(a) 10 days (b) 12 days (c) 15 days (d) 9.6 days
+Answer: (d)
+Solution: The trap is to scale only by men and ignore hours, getting 12 days. Total work = 20 × 15 × 8 = 2400 man-hours. Required days = 2400/(25 × 10) = 9.6 days, so the answer is 9.6 days.
+Source: PYQ-style
+
+117. A is 50% more efficient than B, and C is 25% more efficient than A. If B alone can do a work in 36 days, in how many days will C alone do it?
+(a) 19.2 days (b) 20 days (c) 18 days (d) 24 days
+Answer: (a)
+Solution: Students often add the percentages to get 75% and compute 36/1.75 ≈ 20.6 days. A's rate = 1.5 × B's rate and C's rate = 1.25 × A's rate = 1.875 × B's rate. C's time = 36/1.875 = 19.2 days, so the answer is 19.2 days.
+Source: PYQ-style
+
+118. A, B and C can do a work in 10, 12 and 15 days respectively. They start together, but A leaves after 2 days and B leaves 3 days before completion. In how many days is the work finished?
+(a) 5 days (b) 6 days (c) 8 days (d) 7 days
+Answer: (d)
+Solution: The trap is to assume all three work the whole time, giving 4 days. Let total time be T days: A works 2 days, B works (T − 3) days, C works T days, so 2/10 + (T − 3)/12 + T/15 = 1. Multiplying by 60: 12 + 5(T − 3) + 4T = 60, giving 9T = 63 and T = 7, so the answer is 7 days.
+Source: PYQ-style
+
+119. A pipe can fill a tank in 8 hours. Due to a leak at the bottom, it takes 12 hours to fill. In how many hours will the leak alone empty the full tank?
+(a) 16 hours (b) 20 hours (c) 24 hours (d) 30 hours
+Answer: (c)
+Solution: The trap is to subtract the times, getting 12 − 8 = 4 hours. Leak's rate = 1/8 − 1/12 = 3/24 − 2/24 = 1/24 per hour, so the leak empties the tank in 24 hours, so the answer is 24 hours.
+Source: PYQ-style
+
+120. 5 men and 3 boys can do a work in 12 days, and 3 men and 5 boys can do the same work in 12 days. In how many days will 4 men and 4 boys do it?
+(a) 10 days (b) 11 days (c) 12 days (d) 14 days
+Answer: (c)
+Solution: The trap is to average the two teams' headcounts. Since both teams take equal time, 5m + 3b = 3m + 5b, giving m = b, so each team equals 8b per day and total work = 12 × 8b = 96b. A team of 4 men and 4 boys works at 8b per day, needing 96b/8b = 12 days, so the answer is 12 days.
+Source: PYQ-style
+
+121. A can do a work in 12 days and B in 18 days. They start together, but A leaves 3 days before the work is completed. In how many days is the work finished?
+(a) 9 days (b) 8 days (c) 10 days (d) 11 days
+Answer: (a)
+Solution: The trap is to assume A works throughout, giving the joint time 36/5 = 7.2 days. Let total time be T: B works all T days and A works (T − 3) days, so (T − 3)/12 + T/18 = 1. Multiplying by 36: 3(T − 3) + 2T = 36, giving 5T = 45 and T = 9, so the answer is 9 days.
+Source: PYQ-style
+
+122. A can do a work in 12 days, B in 16 days. They work alternately, one day each, starting with B. In how many days will the work be completed?
+(a) 13.75 days (b) 14.25 days (c) 14 days (d) 13.5 days
+Answer: (a)
+Solution: The trap is to use the average time of 14 days. In each 2-day cycle work done = 1/16 + 1/12 = 7/48; after 6 cycles (12 days), 42/48 is done, leaving 6/48. On day 13, B does 3/48, leaving 3/48 = 1/16; on day 14, A needs (1/16)/(1/12) = 3/4 day. Total = 13.75 days, so the answer is 13.75 days.
+Source: PYQ-style
+
+123. A tank is filled by three pipes A, B, C. A and B together fill it in 6 hours, B and C in 10 hours, and A and C in 7.5 hours. In how many hours does pipe A alone fill the tank?
+(a) 10 hours (b) 8 hours (c) 12 hours (d) 15 hours
+Answer: (a)
+Solution: The trap is to assume A alone equals the A+B time of 6 hours. Sum of pair rates: 2(A+B+C) = 1/6 + 1/10 + 1/7.5 = 5/30 + 3/30 + 4/30 = 12/30 = 2/5, so the combined rate is 1/5. A's rate = 1/5 − 1/10 = 1/10, so A alone takes 10 hours, so the answer is 10 hours.
+Source: PYQ-style
+
+124. A contractor employs 30 men to finish a work in 24 days. After 8 days, only one-fourth of the work is done. How many extra men must he employ to finish on time?
+(a) 10 men (b) 15 men (c) 25 men (d) 20 men
+Answer: (b)
+Solution: The tempting wrong value 20 men comes from misjudging the remaining work. One-fourth done by 30 men in 8 days means total work = 30 × 8 × 4 = 960 man-days; remaining 720 man-days must be done in 16 days, needing 720/16 = 45 men. Extra men = 45 − 30 = 15, so the answer is 15 men.
+Source: PYQ-style
+
+125. A, B and C working alone can finish a work in 8, 12 and 24 days. All three start together. After 2 days A leaves; 2 days later B also leaves. C completes the rest. In how many total days is the work finished?
+(a) 10 days (b) 9 days (c) 8 days (d) 12 days
+Answer: (a)
+Solution: The trap is to apply the joint rate of all three for the whole duration. First 2 days: all three do 2(1/8 + 1/12 + 1/24) = 2 × 6/24 = 1/2; next 2 days: B and C do 2(1/12 + 1/24) = 2 × 3/24 = 1/4, so 3/4 is done and 1/4 remains. C alone needs (1/4)/(1/24) = 6 days, giving total = 2 + 2 + 6 = 10 days, so the answer is 10 days.
+Source: PYQ-style

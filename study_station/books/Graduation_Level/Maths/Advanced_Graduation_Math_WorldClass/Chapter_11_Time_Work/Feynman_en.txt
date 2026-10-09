@@ -1,0 +1,64 @@
+# 🧒 Feynman Explanation: Time & Work
+
+## The Hardest Concept: "Why do we ADD rates but never add times?"
+
+This is where 9 out of 10 students slip. A does a job in 10 days, B in 15 days — and the brain screams "10 + 15 = 25 days together!" Wrong. Together they finish in **6 days**. Let's see why, with a story.
+
+---
+
+## 🍕 The Pizza Shop Story
+
+Imagine Ravi runs a pizza shop. Alone, he can bake **60 pizzas in 10 hours**. His friend Meena, alone, bakes the same 60 pizzas in **15 hours**.
+
+Now the boss says: "A wedding order! 60 pizzas, both of you work together. How long?"
+
+Little Chintu, age 12, says: "10 + 15 = 25 hours!"
+
+But wait — if they work **together**, how can it take *longer* than Ravi alone (10 hours)? That's like saying two runners together run slower than one. Impossible!
+
+**Here's the secret:** Don't count *time*. Count **pizzas per hour** — the *speed*.
+
+- Ravi's speed: 60 ÷ 10 = **6 pizzas/hour**
+- Meena's speed: 60 ÷ 15 = **4 pizzas/hour**
+- Together: 6 + 4 = **10 pizzas/hour** 🎉
+
+Time = 60 pizzas ÷ 10 per hour = **6 hours**. Done!
+
+---
+
+## 💡 The Big Idea
+
+**Speeds (rates) can be added. Times cannot.**
+
+Time is like the *length of a race*. Speed is *how fast you run*. Two people running together — their speeds combine, not their race lengths.
+
+That's why the formula is:
+
+> **1/Time together = 1/Time of A + 1/Time of B**
+
+We're adding *rates* (work per day), and the "1/time" form is just rate wearing a disguise.
+
+---
+
+## 🪄 The Unforgettable Trick: "LCM is the Total Pizza"
+
+Whenever two people finish a job in **a** and **b** days:
+
+1. Take **LCM(a, b)** = total work (the "total pizzas").
+2. Divide to get each person's daily speed.
+3. Add speeds, divide total work by combined speed.
+
+**Example:** A = 10 days, B = 15 days → LCM = 60 units.
+A does 6/day, B does 4/day → together 10/day → **60 ÷ 10 = 6 days.** ✔
+
+**Memory hook:** *"Don't marry the days, marry the LCM!"* 💍
+
+---
+
+## 🧠 Your Turn (Answer before you close this page!)
+
+A tap fills a tank in 4 hours. Another tap fills it in 6 hours. Both open together — how long to fill the tank?
+
+*(Hint: LCM of 4 and 6 is 12. Speeds are 3 and 2 per hour. Together 5 per hour. So…?)*
+
+**Answer: 12 ÷ 5 = 2.4 hours = 2 hours 24 minutes.** Did you get it? If yes — congratulations, you now think like Feynman! 🚀
