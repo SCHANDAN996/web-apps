@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 01:47 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:46 PM
+**आख़िरी update:** 09-10-2026 02:03 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:46 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Awards (Graduation GK) | 🔎 review हो रहा है | 0 मिनट |
-| W2 | Chapter 22 Defence (Graduation GK) | ✍️ लिख रहा है | 0 मिनट |
-| W3 | Chapter 23 Economic Terms (Graduation GK) | ✍️ लिख रहा है | 0 मिनट |
-| W4 | Chapter 24 Reports Indices (Graduation GK) | ✍️ लिख रहा है | 0 मिनट |
-| W5 | Chapter 25 Govt Schemes (Graduation GK) | ✍️ लिख रहा है | 0 मिनट |
+| W1 | Chapter 13 Awards (Graduation GK) | 🔎 review हो रहा है | 16 मिनट |
+| W2 | Chapter 22 Defence (Graduation GK) | ✍️ लिख रहा है | 5 मिनट |
+| W3 | Chapter 23 Economic Terms (Graduation GK) | 🔎 review हो रहा है | 8 मिनट |
+| W4 | Chapter 24 Reports Indices (Graduation GK) | ✍️ लिख रहा है | 15 मिनट |
+| W5 | Chapter 25 Govt Schemes (Graduation GK) | ✍️ लिख रहा है | 15 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -27,14 +27,18 @@
 | 12th Reasoning | 1 | 0 | 24 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 20 | 0 | 8 |
+| Graduation GK | 21 | 0 | 7 |
 | Graduation Reasoning | 3 | 0 | 27 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **144** | **13** | **139** |
+| **कुल** | **145** | **13** | **138** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
 - अभी कोई नहीं
+
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 22 Defence (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
@@ -45,4 +49,22 @@
 09-10 13:47:07 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_23_Economic_Terms (TODO: todo 2, problems 0)
 09-10 13:47:11 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_24_Reports_Indices (TODO: todo 25, problems 0)
 09-10 13:47:16 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_25_Govt_Schemes (TODO: todo 25, problems 0)
+09-10 13:49:28   [Govt_Schemes] wrote Content_en.txt (12299 chars)
+09-10 13:49:42   [Defence] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 13:50:09   [Economic_Terms] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 13:50:32   [Reports_Indices] wrote Content_en.txt (14493 chars)
+09-10 13:50:48   [Defence] Practice_hi_Set_01.txt try 2: rejected (parsed 0 questions, numbers -…-)
+09-10 13:51:06   [Awards] review Content_en.txt: 1 issue(s): - Jnanpith Award includes English as a language (added later) → Jnanpith Award is only for languages in the Eighth 
+09-10 13:54:07   [Defence] Practice_hi_Set_01.txt try 3: rejected (Q24:needs_context)
+09-10 13:54:16   [Economic_Terms] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 13:54:16   [Economic_Terms] written 2, failed 0; AI calls today 13/100000
+09-10 13:57:54   [Defence] Practice_hi_Set_01.txt try 4: rejected (Q24:needs_context)
+09-10 13:57:54   [Defence] REJECTED Practice_hi_Set_01.txt: no translation passed the checks — not written
+09-10 13:57:54   [Defence] written 0, failed 1; AI calls today 15/100000
+09-10 13:57:54 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_22_Defence after 11 min: todo ['Set 01 hi: todo'] problems []
+09-10 13:57:56 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_22_Defence (TODO: todo 1, problems 0)
+09-10 13:58:10   [Economic_Terms] review Content_en.txt: 2 issue(s): - The statement "Since 1991, India follows the GDP concept for growth measurement (earlier GNP was used)" is incorr
+09-10 13:59:05   [Awards] review Content_hi.txt: 2 issue(s): - परिचय में लिखा है "डॉ. राधाकृष्णन उसी साल राष्ट्रपति बनने वाले थे" → डॉ. सर्वपल्ली राधाकृष्णन 1962 में राष्ट्रपति
+09-10 14:00:44   [Govt_Schemes] Content_hi.txt try 1: rejected (corrupted characters)
+09-10 14:02:03   [Defence] Practice_hi_Set_01.txt try 1: rejected (Q24:needs_context)
 ```
