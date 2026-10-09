@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 09-10-2026 11:38 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 10:05 PM
+**आख़िरी update:** 09-10-2026 11:53 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 10:05 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 20 Number Series (10th Maths) | 🔎 review हो रहा है | 19 मिनट |
-| W2 | Chapter 18 Trigonometry (10th Maths) | 🔧 सुधार रहा है | 11 मिनट |
-| W3 | Chapter 19 Statistics (10th Maths) | 🔧 सुधार रहा है | 79 मिनट |
-| W4 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 50 मिनट |
-| W5 | Chapter 22 Permutation Combination (10th Maths) | 🔧 सुधार रहा है | 37 मिनट |
-| W6 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 92 मिनट |
-| W7 | Chapter 15 Geometry (10th Maths) | 📤 push हो रहा है | 0 मिनट |
-| W8 | Chapter 17 Data Interpretation (10th Maths) | 🔧 सुधार रहा है | 92 मिनट |
+| W1 | Chapter 20 Number Series (10th Maths) | 🔎 review हो रहा है | 34 मिनट |
+| W3 | Chapter 19 Statistics (10th Maths) | 🔧 सुधार रहा है | 93 मिनट |
+| W4 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 1 मिनट |
+| W5 | Chapter 22 Permutation Combination (10th Maths) | 🔧 सुधार रहा है | 52 मिनट |
+| W6 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 2 मिनट |
+| W8 | Chapter 17 Data Interpretation (10th Maths) | 🔧 सुधार रहा है | 107 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -31,9 +29,9 @@
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 3 | 0 | 25 |
 | Graduation GK | 27 | 0 | 1 |
-| Graduation Reasoning | 10 | 0 | 20 |
+| Graduation Reasoning | 12 | 0 | 18 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **207** | **9** | **80** |
+| **कुल** | **209** | **9** | **78** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -46,39 +44,11 @@
 - Chapter 04 Verb (English) — 2 बार
 - Chapter 03 Adjective (English) — 2 बार
 - Chapter 01 Noun (English) — 2 बार
-- Chapter 18 Trigonometry (Maths) — 1 बार
+- Chapter 18 Trigonometry (Maths) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 23:15:19   [Data_Interpretation] repaired set 03 (en + hi, key confirmed by an independent re-solve)
-09-10 23:15:39   [Trigonometry] repaired set 06 (en + hi, key confirmed by an independent re-solve)
-09-10 23:15:39   [Trigonometry] written 8, failed 2; AI calls today 200/100000
-09-10 23:17:06   [Statistics] repaired set 03 (en + hi, key confirmed by an independent re-solve)
-09-10 23:17:52   [Trigonometry] repaired PYQ_hi.txt (10781 chars)
-09-10 23:18:17   [Mixture_Alligation] repaired set 04 (en + hi, key confirmed by an independent re-solve)
-09-10 23:18:43   [Mixture_Alligation] set 05 try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 23:19:10   [Number_Series] repaired set 06 (en + hi, key confirmed by an independent re-solve)
-09-10 23:19:10   [Number_Series] written 6, failed 0; AI calls today 207/100000
-09-10 23:19:45   [Trigonometry] set 02 try 1: rejected (parsed 24 questions, numbers 26…50)
-09-10 23:20:50   [Mixture_Alligation] set 05 try 2: rejected (Q123:leaked_reasoning)
-09-10 23:20:54   [Mixture_Alligation] set 05 try 3: rejected (parsed 0 questions, numbers -…-)
-09-10 23:21:56   [Trigonometry] set 02 try 2: rejected (parsed 24 questions, numbers 26…50)
-09-10 23:22:01   [Permutation_Combination] repaired set 02 (en + hi, key confirmed by an independent re-solve)
-09-10 23:23:26   [Permutation_Combination] set 03 try 1: rejected (Q75:answer_solution_conflict)
-09-10 23:24:39   [Geometry] review PYQ_en.txt: 1 issue(s): - In Q10 solution, the sphere's volume coefficient is incorrectly written as (4/3)*(1/(4π)) ≈ 0.094; the correct coeffi
-09-10 23:25:00   [Number_Series] review Content_en.txt: 3 issue(s): - Invented exam statistic: Claim that "Over 60% of students left it blank or chose the wrong option" in 2023 SSC CG
-09-10 23:25:06   [Trigonometry] set 02 try 3: rejected (parsed 24 questions, numbers 26…50)
-09-10 23:25:30   [Data_Interpretation] FAILED set 04: rate_limited
-09-10 23:26:44   [Probability] FAILED set 03: too_long
-09-10 23:26:45   [Trigonometry] set 02 try 4: rejected (parsed 24 questions, numbers 26…50)
-09-10 23:26:45   [Trigonometry] FAILED set 02: no version passed the checks — files left as they were
-09-10 23:26:45   [Trigonometry] written 1, failed 1; AI calls today 224/100000
-09-10 23:26:45 NOT OK 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_18_Trigonometry after 69 min: todo [] problems ['Set 02 en: 4/25 parsed', 'Set 02 hi: 0/25 parsed']
-09-10 23:26:48 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_18_Trigonometry (FIX: todo 0, problems 2)
-09-10 23:27:20   [Number_Series] review Content_hi.txt: 2 issue(s): - "वो दिन जब 50 लाख विद्यार्थी चकरा गए" में 50 लाख का आँकड़ा काल्पनिक है → इस विशिष्ट संख्या को हटाएँ या "कई विद्या
-09-10 23:29:21   [Geometry] review PYQ_hi.txt: 2 issue(s): - The topic weightage percentages (35% triangles, 25% circles, 20% quadrilaterals, 20% 3D) are presented as data‑driven
-09-10 23:30:24   [Permutation_Combination] Practice_hi_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
 09-10 23:32:09   [Mixture_Alligation] set 05 try 4: re-solve disagrees (Q115 key a vs re-solve b)
 09-10 23:32:09   [Mixture_Alligation] FAILED set 05: no version passed the checks — files left as they were
 09-10 23:33:17   [Probability] repaired set 04 (en + hi, key confirmed by an independent re-solve)
@@ -91,4 +61,32 @@
 09-10 23:37:41   [Probability] set 05 try 3: rejected (parsed 24 questions, numbers 101…125)
 09-10 23:38:39   [Geometry] review: 6 section(s) corrected, 0 failed
 09-10 23:38:39   [Geometry] written 6, failed 0; AI calls today 252/100000
+09-10 23:38:59 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_15_Geometry in 93 min → f437bc15
+09-10 23:39:01 worker 6: nothing left
+09-10 23:40:25   [Probability] set 05 try 4: rejected (parsed 24 questions, numbers 101…125)
+09-10 23:40:25   [Probability] FAILED set 05: no version passed the checks — files left as they were
+09-10 23:42:03   [Trigonometry] FAILED set 02: too_long
+09-10 23:42:03   [Trigonometry] written 0, failed 1; AI calls today 254/100000
+09-10 23:42:07   [Statistics] repaired set 04 (en + hi, key confirmed by an independent re-solve)
+09-10 23:42:17   [Probability] set 06 try 1: rejected (parsed 23 questions, numbers 126…150)
+09-10 23:42:18   [Trigonometry] set 02 try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 23:42:20   [Number_Series] review Flashcards_en.txt: 3 issue(s): - Card 14 claims “60% of students in SSC CGL 2023” were fooled → this is an invented exam statistic; delete or r
+09-10 23:44:14   [Probability] set 06 try 2: rejected (parsed 23 questions, numbers 126…150)
+09-10 23:45:45   [Trigonometry] set 02 try 2: rejected (parsed 24 questions, numbers 26…50)
+09-10 23:46:39   [Probability] set 06 try 3: rejected (parsed 23 questions, numbers 126…150)
+09-10 23:46:58   [Permutation_Combination] set 04 try 1: re-solve disagrees (Q82 key a vs re-solve ?)
+09-10 23:47:00   [Data_Interpretation] set 06 try 1: re-solve disagrees (Q140 key c vs re-solve d)
+09-10 23:48:22   [Trigonometry] set 02 try 3: rejected (parsed 24 questions, numbers 26…50)
+09-10 23:48:41   [Number_Series] review Flashcards_hi.txt: 2 issue(s): - कार्ड 8 में "एक ने खाया सत्ताईस" कथन गलत है, क्योंकि 1 के बाद घन श्रेणी में 8 आता है → "एक ने खाया आठ" होना चा
+09-10 23:49:39   [Trigonometry] set 02 try 4: rejected (parsed 24 questions, numbers 26…50)
+09-10 23:49:39   [Trigonometry] FAILED set 02: no version passed the checks — files left as they were
+09-10 23:49:39   [Trigonometry] written 0, failed 1; AI calls today 270/100000
+09-10 23:49:39 NOT OK 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_18_Trigonometry after 23 min: todo [] problems ['Set 02 en: 4/25 parsed', 'Set 02 hi: 0/25 parsed']
+09-10 23:49:41 worker 1: nothing left
+09-10 23:51:01   [Mixture_Alligation] repaired set 06 (en + hi, key confirmed by an independent re-solve)
+09-10 23:51:01   [Mixture_Alligation] written 9, failed 3; AI calls today 271/100000
+09-10 23:51:49   [Probability] set 06 try 4: rejected (parsed 23 questions, numbers 126…150)
+09-10 23:51:49   [Probability] FAILED set 06: no version passed the checks — files left as they were
+09-10 23:51:49   [Probability] written 1, failed 5; AI calls today 273/100000
+09-10 23:53:27   [Probability] set 01 try 1: rejected (parsed 24 questions, numbers 1…25)
 ```
