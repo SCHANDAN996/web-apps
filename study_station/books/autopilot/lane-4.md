@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 10-10-2026 03:01 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
+**आख़िरी update:** 10-10-2026 03:07 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,12 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 99 मिनट |
-| W2 | Chapter 23 Quadratic Equations (12th Maths) | ✍️ लिख रहा है | 92 मिनट |
-| W3 | Chapter 21 Permutation Combination (12th Maths) | 🔎 review हो रहा है | 62 मिनट |
-| W4 | Chapter 22 Number Series (12th Maths) | 🔎 review हो रहा है | 22 मिनट |
-| W6 | Chapter 19 Statistics (12th Maths) | 🔎 review हो रहा है | 18 मिनट |
-| W8 | Chapter 16 Algebra (12th Maths) | 🔎 review हो रहा है | 5 मिनट |
+| W1 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 105 मिनट |
+| W2 | Chapter 23 Quadratic Equations (12th Maths) | ✍️ लिख रहा है | 97 मिनट |
+| W3 | Chapter 21 Permutation Combination (12th Maths) | 🔎 review हो रहा है | 68 मिनट |
+| W4 | Chapter 22 Number Series (12th Maths) | 🔎 review हो रहा है | 27 मिनट |
+| W6 | Chapter 19 Statistics (12th Maths) | 🔎 review हो रहा है | 23 मिनट |
+| W8 | Chapter 16 Algebra (12th Maths) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -35,6 +35,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 10-10 03:07 — 12th Maths · Chapter 16 Algebra
 - 10-10 02:49 — 12th Maths · Chapter 18 Data Interpretation
 - 10-10 01:27 — 12th Maths · Chapter 07 Ratio Proportion
 
@@ -53,11 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 02:23:39   [Probability] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
-10-10 02:24:24   [Permutation_Combination] review Feynman_en.txt: 1 issue(s): - Narrative says "you and your two best friends — Aman, Bina, and Chintu" (implies 4 people) but the problem uses o
-10-10 02:24:53   [Algebra] FAILED review Mind_Map.txt: network — the chapter must not be published unreviewed
-10-10 02:26:23   [Algebra] review Flashcards_hi.txt: 1 issue(s): - Card 14: The mnemonic “घात जितनी, k की घात उतनी; घटाओ घात × k” incorrectly suggests subtracting 2k for the squ
-10-10 02:33:43   [Statistics] FAILED PYQ_hi.txt: network
 10-10 02:33:43   [Statistics] written 0, failed 1; AI calls today 95/100000
 10-10 02:33:54   [Probability] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
 10-10 02:35:09   [Data_Interpretation] FAILED review Important_Formulas_en.txt: network — the chapter must not be published unreviewed
@@ -93,4 +89,9 @@
 10-10 02:56:56 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_16_Algebra (OK: todo 0, problems 0)
 10-10 02:57:39   [Quadratic_Equations] Practice_en_Set_06.txt try 1: rejected (Q133:leaked_reasoning,Q142:leaked_reasoning)
 10-10 03:00:16   [Algebra] review Content_hi.txt: 1 issue(s): - Invented exam statistic: "SSC CGL और IBPS PO के वो 4–6 प्रश्न भी बनते हैं जो हर साल पूछे जाते हैं" → Remove or qu
+10-10 03:03:39   [Permutation_Combination] review Important_Formulas_hi.txt: 1 issue(s): - अंतराल विधि (कभी साथ न हों) का सूत्र गलत है: ⁿ⁺¹Cᵣ × r! × (n − r + 1)! → सही सूत्र: (n−r)! × ⁿ⁻ʳ⁺¹Cᵣ ×
+10-10 03:04:47   [Quadratic_Equations] Practice_en_Set_06.txt try 2: re-solve disagrees (Q130 key d vs re-solve ?)
+10-10 03:04:59   [Probability] Practice_en_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 03:07:35   [Algebra] review: 1 section(s) corrected, 0 failed
+10-10 03:07:35   [Algebra] written 1, failed 0; AI calls today 141/100000
 ```

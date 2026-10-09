@@ -1,0 +1,265 @@
+# Algebra
+
+## Chapter Outline & Learning Goals
+- Understand the logic of variables, expressions, and equations.
+- Master algebraic identities and the laws of indices.
+- Solve linear and quadratic equations with confidence.
+- Handle surds and their properties.
+- Prepare for SSC CHSL, SSC CGL Tier-I, RRB NTPC, and similar exams.
+
+---
+
+## The Hook: The Number That Broke the Calculator
+
+Imagine you are 12, and your calculator just gave you 2. You think, "This is just a number." But what if I told you that this "2" is not just a number — it is a code. A code that, once you see it, you can't unsee. You are about to learn to read and write in this code. And the best part? You already know how to do it. You just don't know it yet.
+
+## The Common Struggle
+
+If the word "Algebra" makes you freeze, you're not alone. Most students panic the moment they see letters mixed with numbers. But here's the truth: algebra is not a new kind of maths. It is a language — a way to talk about numbers you don't know yet.
+
+Look at this: **x + 2 = 5**. This is just a sentence in that language. It says: "Some number, plus 2, equals 5." Your brain already solved it — the number is 3. Congratulations, you just did algebra. Everything in this chapter is about making that skill faster, sharper, and able to handle much harder sentences.
+
+---
+
+## 1. Variables, Constants, and Expressions
+
+- **Constant**: a fixed number, like 5, −3, or 7/2.
+- **Variable**: a letter (x, y, a, b) that stands for an unknown or changing number.
+- **Term**: a number, a variable, or a product of both — e.g., 7, x, 3xy, −5a².
+- **Expression**: terms joined by + or − — e.g., 3x² − 2x + 7.
+- **Coefficient**: the number multiplying a variable. In −5a², the coefficient is −5.
+
+**Like terms** have the same variables with the same powers: 3x² and −7x² are like terms; 3x² and 3x are not. Only like terms can be added or subtracted.
+
+**Example:** Simplify 4x² + 3x − 2x² + 5x.
+Combine like terms: (4x² − 2x²) + (3x + 5x) = **2x² + 8x**.
+
+---
+
+## 2. Algebraic Identities (The Heart of This Chapter)
+
+Examiners love identities. Memorise these until they are reflexes:
+
+1. (a + b)² = a² + 2ab + b²
+2. (a − b)² = a² − 2ab + b²
+3. a² − b² = (a + b)(a − b)
+4. (a + b)² + (a − b)² = 2(a² + b²)
+5. (a + b)² − (a − b)² = 4ab
+6. (a + b)³ = a³ + 3a²b + 3ab² + b³ = a³ + b³ + 3ab(a + b)
+7. (a − b)³ = a³ − b³ − 3ab(a − b)
+8. a³ + b³ = (a + b)(a² − ab + b²)
+9. a³ − b³ = (a − b)(a² + ab + b²)
+10. a³ + b³ + c³ − 3abc = (a + b + c)(a² + b² + c² − ab − bc − ca)
+
+**Special case of identity 10:** If a + b + c = 0, then **a³ + b³ + c³ = 3abc**. This is a favourite SSC shortcut.
+
+**Worked example:** If x + 1/x = 5, find x² + 1/x².
+Square both sides: (x + 1/x)² = x² + 2 + 1/x² = 25, so x² + 1/x² = **23**.
+
+**Key pattern to remember:**
+- x² + 1/x² = (x + 1/x)² − 2
+- x² + 1/x² = (x − 1/x)² + 2
+- x³ + 1/x³ = (x + 1/x)³ − 3(x + 1/x)
+- x³ − 1/x³ = (x − 1/x)³ + 3(x − 1/x)
+
+---
+
+## 3. Laws of Indices (Exponents)
+
+For a > 0 and integers (or rationals) m, n:
+
+1. aᵐ × aⁿ = aᵐ⁺ⁿ
+2. aᵐ ÷ aⁿ = aᵐ⁻ⁿ
+3. (aᵐ)ⁿ = aᵐⁿ
+4. (ab)ⁿ = aⁿbⁿ
+5. (a/b)ⁿ = aⁿ/bⁿ
+6. a⁰ = 1 (for a ≠ 0)
+7. a⁻ⁿ = 1/aⁿ
+8. a^(1/n) = ⁿ√a
+
+**Common trap:** aᵐ × aⁿ is NOT aᵐⁿ. Powers add when bases multiply; powers multiply when a power is raised to a power.
+
+**Example:** Simplify (2³ × 2⁵) ÷ 2⁴ = 2⁸ ÷ 2⁴ = 2⁴ = **16**.
+
+---
+
+## 4. Linear Equations
+
+A linear equation in one variable has the form ax + b = 0 (a ≠ 0), with solution x = −b/a.
+
+**Solving strategy:** get all x-terms on one side, constants on the other.
+
+**Example:** 3(x − 2) = 2x + 5
+3x − 6 = 2x + 5 → x = **11**.
+
+**Two variables:** For a₁x + b₁y = c₁ and a₂x + b₂y = c₂:
+- Unique solution if a₁/a₂ ≠ b₁/b₂
+- No solution if a₁/a₂ = b₁/b₂ ≠ c₁/c₂
+- Infinite solutions if a₁/a₂ = b₁/b₂ = c₁/c₂
+
+Solve by **elimination** (make one coefficient equal and subtract) or **substitution** (express one variable in terms of the other).
+
+---
+
+## 5. Quadratic Equations
+
+Standard form: **ax² + bx + c = 0**, a ≠ 0.
+
+**Quadratic formula:**
+x = [−b ± √(b² − 4ac)] / 2a
+
+**Discriminant** D = b² − 4ac tells you the nature of roots:
+- D > 0 → two distinct real roots
+- D = 0 → two equal real roots
+- D < 0 → no real roots
+
+**Sum and product of roots** (very frequently asked):
+- Sum of roots = −b/a
+- Product of roots = c/a
+
+**Example:** Solve x² − 5x + 6 = 0.
+Factorise: (x − 2)(x − 3) = 0, so x = **2 or 3**.
+Check: sum = 5 = −(−5)/1 ✓; product = 6 = 6/1 ✓.
+
+---
+
+## 6. Surds
+
+A **surd** is an irrational root that cannot be simplified to a rational number, like √2, √3, ³√5. (√4 = 2 is not a surd.)
+
+**Rules:**
+- √a × √b = √(ab)
+- √a ÷ √b = √(a/b)
+- a√c ± b√c = (a ± b)√c (only like surds combine)
+- (√a + √b)(√a − √b) = a − b
+
+**Rationalising the denominator:** multiply numerator and denominator by the conjugate.
+
+**Example:** 1/(√3 + √2) = (√3 − √2)/[(√3 + √2)(√3 − √2)] = (√3 − √2)/(3 − 2) = **√3 − √2**.
+
+---
+
+## 7. Exam Strategy: How Algebra Is Asked
+
+- **Identity-based questions** dominate: "If x + 1/x = k, find x³ + 1/x³." Learn the four patterns in Section 2 by heart.
+- **Condition tricks:** If a + b + c = 0 is given, immediately think a³ + b³ + c³ = 3abc.
+- **Quadratic roots:** questions often ask for sum/product of roots without solving — use −b/a and c/a directly.
+- **Surds:** rationalisation and comparing surds (e.g., which is larger, ³√4 or ⁴√5?) appear regularly. To compare, raise both to a common power (the LCM of the root indices).
+- **Trap alert:** options often include the result of a sign error (e.g., using +2 instead of −2 in x² + 1/x²). Write the identity first, then substitute.
+
+---
+
+## 8. Quick Revision Table
+
+| Concept | Key Result |
+|---|---|
+| (a + b)² | a² + 2ab + b² |
+| a² − b² | (a + b)(a − b) |
+| x² + 1/x² | (x + 1/x)² − 2 |
+| aᵐ × aⁿ | aᵐ⁺ⁿ |
+| a⁰ | 1 (a ≠ 0) |
+| Quadratic roots | x = [−b ± √(b² − 4ac)] / 2a |
+| Sum of roots | −b/a |
+| Product of roots | c/a |
+| If a + b + c = 0 | a³ + b³ + c³ = 3abc |
+| Rationalise 1/(√a + √b) | (√a − √b)/(a − b) |
+
+---
+
+## Mind Map
+
+```mermaid
+graph TD
+    A["Algebra"] --> B["Basics"]
+    A --> C["Identities"]
+    A --> D["Indices"]
+    A --> E["Equations"]
+    A --> F["Surds"]
+    B --> B1["Variables & Constants"]
+    B --> B2["Like Terms"]
+    C --> C1["(a ± b)², a² − b²"]
+    C --> C2["Cubes & a³ ± b³"]
+    C --> C3["x + 1/x patterns"]
+    D --> D1["aᵐ × aⁿ = aᵐ⁺ⁿ"]
+    D --> D2["a⁻ⁿ = 1/aⁿ"]
+    E --> E1["Linear: ax + b = 0"]
+    E --> E2["Quadratic: formula,<br>sum = −b/a, product = c/a"]
+    F --> F1["√a × √b = √(ab)"]
+    F --> F2["Rationalise with<br>conjugate"]
+```
+
+---
+
+## Flashcards
+
+Card 1
+Front: What is (a + b)²?
+Back: a² + 2ab + b²
+
+Card 2
+Front: What is a² − b² in factored form?
+Back: (a + b)(a − b)
+
+Card 3
+Front: If x + 1/x = k, what is x² + 1/x²?
+Back: k² − 2
+
+Card 4
+Front: If x − 1/x = k, what is x³ − 1/x³?
+Back: k³ + 3k
+
+Card 5
+Front: If a + b + c = 0, what is a³ + b³ + c³?
+Back: 3abc
+
+Card 6
+Front: What is aᵐ × aⁿ?
+Back: aᵐ⁺ⁿ
+
+Card 7
+Front: What is (aᵐ)ⁿ?
+Back: aᵐⁿ
+
+Card 8
+Front: What is a⁰ (a ≠ 0)?
+Back: 1
+
+Card 9
+Front: What is a⁻ⁿ?
+Back: 1/aⁿ
+
+Card 10
+Front: State the quadratic formula.
+Back: x = [−b ± √(b² − 4ac)] / 2a
+
+Card 11
+Front: For ax² + bx + c = 0, what is the sum of the roots?
+Back: −b/a
+
+Card 12
+Front: For ax² + bx + c = 0, what is the product of the roots?
+Back: c/a
+
+Card 13
+Front: What does the discriminant D = b² − 4ac tell us when D < 0?
+Back: The equation has no real roots.
+
+Card 14
+Front: What is a³ + b³ in factored form?
+Back: (a + b)(a² − ab + b²)
+
+Card 15
+Front: Rationalise 1/(√5 − √3).
+Back: (√5 + √3)/2
+
+Card 16
+Front: What is √a × √b?
+Back: √(ab)
+
+Card 17
+Front: When does a pair of linear equations have no solution?
+Back: When a₁/a₂ = b₁/b₂ ≠ c₁/c₂ (parallel lines).
+
+Card 18
+Front: What is (a + b)² − (a − b)²?
+Back: 4ab
