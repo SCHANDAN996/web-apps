@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 10:36 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
+**आख़िरी update:** 09-10-2026 10:51 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 17 Trigonometry (12th Maths) | ✍️ लिख रहा है | 106 मिनट |
-| W2 | Chapter 21 Permutation Combination (12th Maths) | ✍️ लिख रहा है | 11 मिनट |
-| W3 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 43 मिनट |
-| W4 | Chapter 13 Mixture Alligation (12th Maths) | ✍️ लिख रहा है | 4 मिनट |
-| W5 | Chapter 18 Data Interpretation (12th Maths) | ✍️ लिख रहा है | 50 मिनट |
-| W6 | Chapter 19 Statistics (12th Maths) | ✍️ लिख रहा है | 44 मिनट |
-| W7 | Chapter 07 Ratio Proportion (12th Maths) | 🔎 review हो रहा है | 26 मिनट |
-| W8 | Chapter 16 Algebra (12th Maths) | ✍️ लिख रहा है | 4 मिनट |
+| W1 | Chapter 17 Trigonometry (12th Maths) | ✍️ लिख रहा है | 121 मिनट |
+| W2 | Chapter 21 Permutation Combination (12th Maths) | ✍️ लिख रहा है | 26 मिनट |
+| W3 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 58 मिनट |
+| W4 | Chapter 13 Mixture Alligation (12th Maths) | ✍️ लिख रहा है | 20 मिनट |
+| W5 | Chapter 18 Data Interpretation (12th Maths) | ✍️ लिख रहा है | 65 मिनट |
+| W6 | Chapter 19 Statistics (12th Maths) | ✍️ लिख रहा है | 59 मिनट |
+| W7 | Chapter 07 Ratio Proportion (12th Maths) | 🔎 review हो रहा है | 42 मिनट |
+| W8 | Chapter 22 Number Series (12th Maths) | ✍️ लिख रहा है | 10 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -24,7 +24,7 @@
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 14 | 8 | 0 |
-| 10th English | 15 | 0 | 5 |
+| 10th English | 16 | 0 | 4 |
 | 12th Maths | 11 | 2 | 10 |
 | 12th GK | 22 | 2 | 0 |
 | 12th Reasoning | 7 | 0 | 18 |
@@ -33,7 +33,7 @@
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 9 | 0 | 21 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **202** | **12** | **82** |
+| **कुल** | **203** | **12** | **81** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -54,50 +54,50 @@
 - Chapter 10 Compound Interest (Maths) — 2 बार
 - Chapter 07 Ratio Proportion (Maths) — 1 बार
 - Chapter 11 Time Work (Maths) — 2 बार
-- Chapter 16 Algebra (Maths) — 1 बार
+- Chapter 16 Algebra (Maths) — 2 बार
 - Chapter 13 Mixture Alligation (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 22:19:10   [Mixture_Alligation] Practice_en_Set_06.txt try 3: re-solve disagrees (Q129 key b vs re-solve ?, Q141 key d vs re-solve -, Q142 key d vs re-solve -, Q143 key c vs re-solve
-09-10 22:19:14   [Data_Interpretation] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 22:20:02   [Statistics] wrote PYQ_en.txt (7771 chars)
-09-10 22:20:25   [Mensuration] review Short_Tricks_en.txt: 1 issue(s): - "Locus of the Cube" uses the wrong mathematical term; locus means a set of points satisfying a condition, no
-09-10 22:21:16   [Statistics] wrote PYQ_hi.txt (338 chars)
-09-10 22:22:44   [Statistics] wrote Short_Tricks_en.txt (8631 chars)
-09-10 22:23:15   [Data_Interpretation] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-09-10 22:24:21   [Statistics] wrote Short_Tricks_hi.txt (6044 chars)
-09-10 22:25:03   [Mensuration] review: 2 section(s) corrected, 0 failed
-09-10 22:25:03   [Mensuration] written 2, failed 0; AI calls today 535/100000
-09-10 22:25:09   [Statistics] wrote Important_Formulas_en.txt (3751 chars)
-09-10 22:25:16 DONE 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_14_Mensuration in 36 min → 88d6d34a
-09-10 22:25:18 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_21_Permutation_Combination (TODO: todo 25, problems 0)
-09-10 22:26:34   [Statistics] Important_Formulas_hi.txt try 1: rejected (corrupted characters)
-09-10 22:27:12   [Permutation_Combination] Content_en.txt try 1: rejected (chat debris "Here's the")
-09-10 22:27:17   [Statistics] wrote Important_Formulas_hi.txt (2958 chars)
-09-10 22:29:20   [Permutation_Combination] wrote Content_en.txt (8741 chars)
-09-10 22:30:24   [Trigonometry] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-09-10 22:31:18   [Ratio_Proportion] review Mind_Map.txt: 2 issue(s): - B4b: "a:b और c:d मिलाकर (a+c):(b+d)" is not a general rule; it holds only when a:b = c:d → Should state condition: 
-09-10 22:31:23   [Algebra] FAILED Practice_hi_Set_06.txt: too_long
-09-10 22:31:23   [Algebra] written 22, failed 3; AI calls today 545/100000
-09-10 22:31:23 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_16_Algebra after 106 min: todo ['Set 03 en: todo', 'Set 03 hi: todo', 'Set 06 hi: todo'] problems ['Flashcards_hi.txt: much shorter than the English section (24']
-09-10 22:31:24 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_16_Algebra (TODO: todo 3, problems 1)
-09-10 22:31:25   [Mixture_Alligation] Practice_en_Set_06.txt try 4: re-solve disagrees (Q129 key b vs re-solve ?, Q141 key d vs re-solve -, Q142 key d vs re-solve -, Q143 key c vs re-solve
-09-10 22:31:25   [Mixture_Alligation] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
-09-10 22:31:25   [Mixture_Alligation] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-09-10 22:31:25   [Mixture_Alligation] written 20, failed 5; AI calls today 546/100000
-09-10 22:31:25 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation after 166 min: todo ['Feynman_en.txt', 'Set 04 en: todo', 'Set 04 hi: todo', 'Set 06 en: todo'] problems []
-09-10 22:31:27 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation (TODO: todo 5, problems 0)
-09-10 22:31:56   [Data_Interpretation] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-09-10 22:32:16   [Mixture_Alligation] Feynman_en.txt try 1: rejected (chat debris "Here's the")
-09-10 22:32:23   [Trigonometry] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 22:33:14   [Statistics] Practice_en_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 22:33:58   [Probability] Content_hi.txt try 1: answer too long — asking for a tighter version
-09-10 22:34:11   [Permutation_Combination] Content_hi.txt try 1: rejected (corrupted characters)
-09-10 22:34:20   [Data_Interpretation] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-09-10 22:34:21   [Trigonometry] Practice_en_Set_05.txt try 1: rejected (Q103:duplicate_options,Q104:duplicate_options,Q105:duplicate_options,Q106:duplicate_options,Q109:duplicate_opt
 09-10 22:34:52   [Algebra] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 09-10 22:35:27   [Statistics] Practice_en_Set_01.txt try 2: rejected (Q9:leaked_reasoning)
 09-10 22:35:50   [Probability] wrote Content_hi.txt (6619 chars)
+09-10 22:37:03   [Permutation_Combination] wrote Content_hi.txt (7765 chars)
+09-10 22:37:06   [Algebra] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 22:37:14   [Statistics] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 22:37:30   [Trigonometry] Practice_en_Set_05.txt try 2: rejected (parsed 0 questions, numbers -…-)
+09-10 22:37:32   [Ratio_Proportion] review PYQ_en.txt: 1 issue(s): - The entire section is corrupted/garbled text (repetitive "hook", "Trap", "prompt for the prompt" loops) with no valid
+09-10 22:37:53   [Data_Interpretation] Practice_en_Set_03.txt try 1: rejected (Q62:leaked_reasoning)
+09-10 22:38:22   [Permutation_Combination] Feynman_en.txt try 1: rejected (chat debris "Here's the")
+09-10 22:39:16   [Permutation_Combination] Feynman_en.txt try 2: rejected (chat debris "Here's the")
+09-10 22:39:16   [Permutation_Combination] REJECTED Feynman_en.txt: chat debris "Here's the" — not written
+09-10 22:39:44   [Trigonometry] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 22:40:12   [Permutation_Combination] wrote Feynman_hi.txt (2815 chars)
+09-10 22:40:29   [Permutation_Combination] wrote Mind_Map.txt (1303 chars)
+09-10 22:41:05   [Statistics] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 22:41:26   [Algebra] FAILED Practice_hi_Set_06.txt: rate_limited
+09-10 22:41:26   [Algebra] written 2, failed 1; AI calls today 574/100000
+09-10 22:41:27 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_16_Algebra after 10 min: todo ['Set 06 hi: todo'] problems ['Flashcards_hi.txt: much shorter than the English section (24']
+09-10 22:41:28 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_22_Number_Series (TODO: todo 25, problems 0)
+09-10 22:41:41   [Permutation_Combination] wrote Flashcards_en.txt (3174 chars)
+09-10 22:41:50   [Statistics] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 22:41:53   [Ratio_Proportion] FAILED review PYQ_en.txt: rate_limited — the chapter must not be published unreviewed
+09-10 22:41:59   [Number_Series] wrote Content_en.txt (1255 chars)
+09-10 22:42:14   [Trigonometry] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 22:42:50   [Permutation_Combination] wrote Flashcards_hi.txt (2708 chars)
+09-10 22:43:20   [Statistics] Practice_en_Set_02.txt try 2: rejected (Q44:leaked_reasoning)
+09-10 22:44:08   [Trigonometry] Practice_en_Set_06.txt try 1: rejected (parsed 22 questions, numbers 126…150)
+09-10 22:44:14   [Permutation_Combination] wrote PYQ_en.txt (7689 chars)
+09-10 22:44:19   [Ratio_Proportion] review PYQ_hi.txt: 3 issue(s): - Question 6 initial answer line says "उत्तर: (c)" (40 ली) → correct answer is "उत्तर: (d)" (48 लीटर)
+09-10 22:44:37   [Number_Series] wrote Content_hi.txt (5941 chars)
+09-10 22:45:09   [Number_Series] Feynman_en.txt try 1: rejected (chat debris "Here is your")
+09-10 22:46:22   [Permutation_Combination] wrote PYQ_hi.txt (6066 chars)
+09-10 22:46:24   [Permutation_Combination] Short_Tricks_en.txt try 1: rejected (too short)
+09-10 22:46:59   [Data_Interpretation] Practice_en_Set_03.txt try 2: re-solve disagrees (Q69 key d vs re-solve c)
+09-10 22:47:46   [Permutation_Combination] wrote Short_Tricks_en.txt (6880 chars)
+09-10 22:49:30   [Mixture_Alligation] FAILED Feynman_en.txt: too_long
+09-10 22:49:37   [Permutation_Combination] wrote Short_Tricks_hi.txt (7684 chars)
+09-10 22:50:08   [Permutation_Combination] wrote Important_Formulas_en.txt (2714 chars)
+09-10 22:51:34   [Permutation_Combination] wrote Important_Formulas_hi.txt (2829 chars)
 ```
