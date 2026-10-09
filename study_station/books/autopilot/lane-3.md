@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 11:41 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 11:45 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 25 Word Roots (12th English) | 📤 push हो रहा है | 0 मिनट |
-| W2 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 11 मिनट |
-| W3 | Chapter 04 Blood Relations (12th Reasoning) | ✍️ लिख रहा है | 13 मिनट |
-| W4 | Chapter 03 Coding Decoding (12th Reasoning) | ✍️ लिख रहा है | 58 मिनट |
-| W5 | Chapter 02 Classification (12th Reasoning) | ✍️ लिख रहा है | 107 मिनट |
+| W1 | Chapter 06 Order Ranking (12th Reasoning) | ✍️ लिख रहा है | 4 मिनट |
+| W2 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 16 मिनट |
+| W3 | Chapter 04 Blood Relations (12th Reasoning) | ✍️ लिख रहा है | 17 मिनट |
+| W4 | Chapter 03 Coding Decoding (12th Reasoning) | ✍️ लिख रहा है | 62 मिनट |
+| W5 | Chapter 02 Classification (12th Reasoning) | ✍️ लिख रहा है | 2 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -44,23 +44,11 @@
 - Chapter 23 Sentence Arrangement (English) — 2 बार
 - Chapter 22 Para Jumbles (English) — 2 बार
 - Chapter 01 Analogy (Reasoning) — 2 बार
-- Chapter 25 Word Roots (English) — 1 बार
+- Chapter 02 Classification (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 11:14:55   [Word_Roots] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-09-10 11:14:55   [Word_Roots] written 2, failed 0; AI calls today 317/100000
-09-10 11:15:43   [Classification] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-09-10 11:17:36   [Classification] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 11:18:27   [Analogy] review Short_Tricks_en.txt: 1 issue(s): - Box 5: "Horse : Mare" given as male:female example → Horse is gender-neutral; male horse is stallion, so cor
-09-10 11:18:33   [Coding_Decoding] Practice_en_Set_01.txt try 2: re-solve disagrees (Q15 key c vs re-solve a)
-09-10 11:19:47   [Word_Roots] review Feynman_en.txt: 1 issue(s): - Invented exam statistic: the claim that SSC/Banking/Railway vocabulary questions use words from the same “40–50 G
-09-10 11:20:52   [Word_Roots] review Mind_Map_en.txt: 2 issue(s): - "Fact-based recall = 15 sec" → invented timing statistic with no source or exam reference
-09-10 11:20:54   [Para_Jumbles] Practice_en_Set_06.txt try 3: re-solve disagrees (Q127 key d vs re-solve a, Q148 key a vs re-solve b)
-09-10 11:23:14   [Classification] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-09-10 11:25:32   [Analogy] REJECTED review fix Short_Tricks_en.txt: corrupted characters
-09-10 11:25:55   [Classification] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 09-10 11:26:18   [Classification] Practice_en_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
 09-10 11:26:42   [Classification] Practice_en_Set_06.txt try 2: rejected (parsed 2 questions, numbers 126…127)
 09-10 11:26:55   [Analogy] review Short_Tricks_hi.txt: 3 issue(s): - Trick 3 claims "90% संख्या-प्रश्न इन्हीं तीन में सुलझ जाते हैं" → invented statistic without source; remove 
@@ -89,4 +77,16 @@
 09-10 11:40:51   [Coding_Decoding] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 09-10 11:41:04   [Word_Roots] review: 5 section(s) corrected, 0 failed
 09-10 11:41:04   [Word_Roots] written 5, failed 0; AI calls today 368/100000
+09-10 11:41:16 DONE 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_25_Word_Roots in 29 min → 9456960c
+09-10 11:41:18 START 12th_Level/Reasoning/Chapter_06_Order_Ranking (TODO: todo 25, problems 0)
+09-10 11:41:33   [Coding_Decoding] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 11:42:40   [Order_Ranking] wrote Content_en.txt (6221 chars)
+09-10 11:42:53   [Classification] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+09-10 11:42:53   [Classification] written 22, failed 3; AI calls today 371/100000
+09-10 11:42:53 NOT OK 12th_Level/Reasoning/Chapter_02_Classification after 109 min: todo ['Feynman_en.txt', 'Set 03 en: todo', 'Set 03 hi: todo'] problems []
+09-10 11:42:55 START 12th_Level/Reasoning/Chapter_02_Classification (TODO: todo 3, problems 0)
+09-10 11:44:31   [Order_Ranking] wrote Content_hi.txt (5706 chars)
+09-10 11:44:39   [Coding_Decoding] Practice_en_Set_02.txt try 2: rejected (Q30:leaked_reasoning,Q35:leaked_reasoning,Q40:leaked_reasoning,Q41:leaked_reasoning,Q46:leaked_reasoning)
+09-10 11:44:50   [Classification] wrote Feynman_en.txt (3791 chars)
+09-10 11:45:03   [Order_Ranking] wrote Feynman_en.txt (3571 chars)
 ```
