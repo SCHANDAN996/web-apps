@@ -1,0 +1,153 @@
+76. A clock gains 5 minutes every hour. If it is set right at 6 a.m., what time will it show when the correct time is 6 p.m. the same day?
+(a) 6:55 p.m. (b) 7:05 p.m. (c) 7:00 p.m. (d) 6:05 p.m.
+Answer: (c)
+Solution: The tempting answer 6:55 p.m. comes from subtracting the gain instead of adding it. From 6 a.m. to 6 p.m. is 12 hours, so the clock gains 12 × 5 = 60 minutes. It therefore shows 6:00 + 60 min = 7:00 p.m., so the answer is 7:00 p.m.
+Source: PYQ-style
+
+77. What is the angle between the two hands of a clock at 4:40?
+(a) 100° (b) 110° (c) 120° (d) 90°
+Answer: (a)
+Solution: Angle = |30H − 5.5M| = |30×4 − 5.5×40| = |120 − 220| = 100°. The trap is using 5M instead of 5.5M, which gives 100° wrongly computed as 120 − 220 = wrong sign handling; with the correct formula the answer is 100°.
+Source: PYQ-style
+
+78. At what time between 3 and 4 o'clock will the hands of a clock be together?
+(a) 16 4/11 min past 3 (b) 15 min past 3 (c) 16 min past 3 (d) 17 4/11 min past 3
+Answer: (a)
+Solution: Hands coincide at (60/11) × H minutes past H = (60/11) × 3 = 180/11 = 16 4/11 minutes past 3. The trap is 15 minutes, which ignores that the hour hand also moves. So the answer is 16 4/11 min past 3.
+Source: PYQ-style
+
+79. At what time between 7 and 8 o'clock will the hands of a clock be in a straight line but not together?
+(a) 5 5/11 min past 7 (b) 5 min past 7 (c) 10 10/11 min past 7 (d) 7 5/11 min past 7
+Answer: (a)
+Solution: For opposite hands, minutes = (60/11)(H − 6) when H > 6, i.e. (60/11)(7 − 6) = 60/11 = 5 5/11 min past 7. Choosing 10 10/11 comes from wrongly adding 6 instead of subtracting. So the answer is 5 5/11 min past 7.
+Source: PYQ-style
+
+80. How many times in a day are the hands of a clock at right angles?
+(a) 48 (b) 22 (c) 44 (d) 24
+Answer: (c)
+Solution: The trap is 48, obtained by doubling 24 hours × 2. In 12 hours the hands are at right angles 22 times (two positions are lost near 3 and 9 o'clock), so in 24 hours it is 44 times. So the answer is 44.
+Source: PYQ-style
+
+81. How many times in a day do the hands of a clock coincide?
+(a) 24 (b) 11 (c) 12 (d) 22
+Answer: (d)
+Solution: The trap is 24, assuming once per hour. Between 11 and 1 the hands coincide only once (at 12), so in 12 hours they coincide 11 times, and in 24 hours 22 times. So the answer is 22.
+Source: PYQ-style
+
+82. A watch loses 4 minutes every hour. It was set right at 9 a.m. What is the correct time when the watch shows 5 p.m.?
+(a) 5:30 p.m. (b) 5:34 2/7 p.m. (c) 5:32 p.m. (d) 5:28 p.m.
+Answer: (b)
+Solution: The trap is 5:32 p.m., adding 8 × 4 = 32 min directly. In 56 minutes of this watch, 60 minutes of correct time pass. The watch advanced 8 hours = 480 min, so correct time elapsed = 480 × 60/56 = 514 2/7 min = 8 h 34 2/7 min. Correct time = 9 a.m. + 8 h 34 2/7 min = 5:34 2/7 p.m., so the answer is 5:34 2/7 p.m.
+Source: PYQ-style
+
+83. The minute hand of a clock overtakes the hour hand at intervals of 65 minutes of correct time. How much does the clock gain or lose per day?
+(a) Loses 10 10/143 min (b) Gains 10 10/143 min (c) Gains 5 5/11 min (d) Loses 5 5/11 min
+Answer: (b)
+Solution: Correct overlap interval is 65 5/11 min. Here overlaps happen in 65 min of correct time, meaning the clock runs fast. Gain per overlap = 5/11 min in 65 min; per day (1440 min) gain = (5/11) × (1440/65) = 7200/715 = 10 10/143 min. So the answer is gains 10 10/143 min.
+Source: PYQ-style
+
+84. What is the reflex angle between the hands of a clock at 10:25?
+(a) 197.5° (b) 162.5° (c) 180° (d) 175°
+Answer: (a)
+Solution: Ordinary angle = |30×10 − 5.5×25| = |300 − 137.5| = 162.5°. The trap is stopping at 162.5°, but the question asks for the reflex angle = 360° − 162.5° = 197.5°. So the answer is 197.5°.
+Source: PYQ-style
+
+85. At what time between 9 and 10 o'clock will the hands of a clock be at right angles for the first time?
+(a) 32 8/11 min past 9 (b) 30 min past 9 (c) 27 3/11 min past 9 (d) 33 min past 9
+Answer: (a)
+Solution: For right angle, minutes = (60/11)(H ± 3). First time after 9: (60/11)(9 − 3) = 360/11 = 32 8/11 min past 9. The trap 27 3/11 uses the wrong sign first. So the answer is 32 8/11 min past 9.
+Source: PYQ-style
+
+86. What was the day of the week on 15 August 1947?
+(a) Saturday (b) Thursday (c) Friday (d) Wednesday
+Answer: (c)
+Solution: Odd days: 1600 years = 0, 300 years = 1, 46 years = 11 leap + 35 ordinary = 57 days ≡ 1 odd day. Days up to 15 Aug 1947: 31+28+31+30+31+30+31+15 = 227 ≡ 3 odd days. Total = 0+1+1+3 = 5 ≡ Friday. So the answer is Friday.
+Source: PYQ-style
+
+87. What was the day of the week on 26 January 1950?
+(a) Tuesday (b) Friday (c) Wednesday (d) Thursday
+Answer: (d)
+Solution: Odd days: 1600 = 0, 300 = 1, 49 years = 12 leap + 37 ordinary = 61 ≡ 5 odd days. January up to 26th = 26 ≡ 5 odd days. Total = 0+1+5+5 = 11 ≡ 4 = Thursday. So the answer is Thursday.
+Source: PYQ-style
+
+88. If 1 January 2004 was a Thursday, what day of the week was 1 January 2005?
+(a) Thursday (b) Friday (c) Saturday (d) Sunday
+Answer: (c)
+Solution: The trap is Friday, forgetting that 2004 is a leap year. A leap year has 2 odd days, so the next year's same date shifts by 2: Thursday + 2 = Saturday. So the answer is Saturday.
+Source: PYQ-style
+
+89. How many leap years were there from 1901 to 2000 (both inclusive)?
+(a) 25 (b) 23 (c) 26 (d) 24
+Answer: (d)
+Solution: The trap is 25, counting 1900 as a leap year. 1900 is a century year not divisible by 400, so it is not a leap year. Leap years are 1904, 1908, …, 2000: (2000 − 1904)/4 + 1 = 25 terms minus none — counting gives 24 (1904 to 1996 is 24 years, plus 2000 = 25? No: 1904…1996 = 24 terms, plus 2000 = 25). Careful recount: multiples of 4 from 1904 to 2000 = 25, but 1900 excluded already; 2000 is divisible by 400, so it counts. Multiples of 4 between 1901–2000: 1904 to 2000 = 25, and 1900 not in range, so 25? The range 1901–2000 contains multiples of 4: 1904…2000 = 25 numbers, none excluded (1900 out of range). Hence 25 is wrong as trap — correct count is 25? No: (2000−1904)/4+1 = 25. So the answer is 25.
+Answer: (a)
+Solution: Multiples of 4 from 1904 to 2000 = (2000 − 1904)/4 + 1 = 25. The trap is 24, subtracting 1900 which is not even in this range; 2000 is divisible by 400 and counts. So the answer is 25.
+Source: PYQ-style
+
+90. If today is Wednesday, what day will it be after 100 days?
+(a) Thursday (b) Friday (c) Saturday (d) Tuesday
+Answer: (b)
+Solution: 100 ÷ 7 = 14 weeks and 2 odd days. Wednesday + 2 = Friday. The trap is Thursday, using only 1 odd day. So the answer is Friday.
+Source: PYQ-style
+
+91. On what dates of March 2005 did Friday fall, if 1 March 2005 was a Tuesday?
+(a) 4, 11, 18, 25, 31 (b) 3, 10, 17, 24, 31 (c) 5, 12, 19, 26 (d) 4, 11, 18, 25
+Answer: (d)
+Solution: If 1 March is Tuesday, the first Friday is 4 March. Fridays then fall on 4, 11, 18, 25. The trap option adding 31 is wrong because 25 + 7 = 32 does not exist in March. So the answer is 4, 11, 18, 25.
+Source: PYQ-style
+
+92. The calendar of the year 2007 can be used again in which year?
+(a) 2017 (b) 2018 (c) 2012 (d) 2015
+Answer: (b)
+Solution: 2007 is an ordinary year. Add odd days year by year: 2007→2008 (+1), 2008 leap (+2), 2009 (+1), 2010 (+1), 2011 (+1), 2012 leap (+2), 2013 (+1), 2014 (+1), 2015 (+1), 2016 leap (+2), 2017 (+1) — cumulative reaches 14 (multiple of 7) at 2018. So the answer is 2018.
+Source: PYQ-style
+
+93. What was the day of the week on 2 October 1869 (birth of Mahatma Gandhi)?
+(a) Monday (b) Friday (c) Sunday (d) Saturday
+Answer: (d)
+Solution: Odd days: 1600 = 0, 200 years = 3, 68 years = 17 leap + 51 ordinary = 85 ≡ 1 odd day. Days to 2 Oct 1869: 31+28+31+30+31+30+31+31+30+2 = 275 ≡ 2 odd days. Total = 0+3+1+2 = 6 = Saturday. So the answer is Saturday.
+Source: PYQ-style
+
+94. If 5 March of a year is Monday, what day is 5 June of the same year (non-leap year)?
+(a) Wednesday (b) Tuesday (c) Monday (d) Thursday
+Answer: (b)
+Solution: Days from 5 March to 5 June: March 26 remaining + April 30 + May 31 + 5 = 92 days ≡ 1 odd day (92 = 13×7 + 1). Monday + 1 = Tuesday. The trap is Wednesday, miscounting the days of March. So the answer is Tuesday.
+Source: PYQ-style
+
+95. A clock shows 8:20. What is the angle between its hands?
+(a) 140° (b) 120° (c) 130° (d) 110°
+Answer: (c)
+Solution: Angle = |30×8 − 5.5×20| = |240 − 110| = 130°. The trap 120° comes from treating the hour hand as fixed at 8 and using 6° per minute only. So the answer is 130°.
+Source: PYQ-style
+
+96. In 16 minutes, how many degrees does the minute hand of a clock move more than the hour hand?
+(a) 88° (b) 96° (c) 80° (d) 90°
+Answer: (a)
+Solution: Minute hand moves 6°/min, hour hand 0.5°/min; relative speed = 5.5°/min. In 16 minutes: 5.5 × 16 = 88°. The trap 96° uses only the minute hand's movement. So the answer is 88°.
+Source: PYQ-style
+
+97. Which of the following years is a leap year?
+(a) 2100 (b) 1900 (c) 2400 (d) 2200
+Answer: (c)
+Solution: The trap is picking any century year divisible by 4. Century years must be divisible by 400: 2100, 1900 and 2200 are not divisible by 400, but 2400 is. So the answer is 2400.
+Source: PYQ-style
+
+98. If the day before yesterday was Saturday, what day will it be the day after tomorrow?
+(a) Tuesday (b) Wednesday (c) Friday (d) Thursday
+Answer: (d)
+Solution: Day before yesterday = Saturday, so today = Monday. Day after tomorrow = Monday + 2 = Wednesday? Careful: yesterday = Sunday, today = Monday, tomorrow = Tuesday, day after tomorrow = Wednesday. The trap is Thursday, adding 3 instead of 2. So the answer is Wednesday.
+Answer: (b)
+Solution: Day before yesterday was Saturday, so yesterday was Sunday and today is Monday. Day after tomorrow = Monday + 2 = Wednesday. The trap Thursday comes from adding 3 days to today. So the answer is Wednesday.
+Source: PYQ-style
+
+99. A clock strikes once at 1 o'clock, twice at 2 o'clock, and so on. How many times does it strike in 24 hours?
+(a) 156 (b) 78 (c) 144 (d) 132
+Answer: (a)
+Solution: The trap is 78, counting only 12 hours. In 12 hours strikes = 1+2+…+12 = 78; in 24 hours = 2 × 78 = 156. So the answer is 156.
+Source: PYQ-style
+
+100. If 1 January 2023 was a Sunday, on which day of the week did Christmas (25 December) fall in 2023?
+(a) Sunday (b) Monday (c) Tuesday (d) Saturday
+Answer: (b)
+Solution: Days from 1 Jan to 25 Dec 2023 (non-leap year): 365 − 7 = 358 days after 1 Jan; 358 ÷ 7 = 51 weeks + 1 odd day. Sunday + 1 = Monday. The trap is Sunday, assuming the year-end matches the year-start day. So the answer is Monday.
+Source: PYQ-style
