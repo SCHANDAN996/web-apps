@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 12:00 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 12:03 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Defence (12th GK) | 🔎 review हो रहा है | 30 मिनट |
-| W2 | Chapter 23 Economic Terms (12th GK) | ✍️ लिख रहा है | 75 मिनट |
-| W3 | Chapter 24 Reports Indices (12th GK) | ✍️ लिख रहा है | 47 मिनट |
-| W4 | Chapter 25 Govt Schemes (12th GK) | ✍️ लिख रहा है | 44 मिनट |
-| W5 | Chapter 01 Number System (12th Maths) | ✍️ लिख रहा है | 39 मिनट |
+| W1 | Chapter 22 Defence (12th GK) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 23 Economic Terms (12th GK) | ✍️ लिख रहा है | 78 मिनट |
+| W3 | Chapter 24 Reports Indices (12th GK) | ✍️ लिख रहा है | 50 मिनट |
+| W4 | Chapter 25 Govt Schemes (12th GK) | ✍️ लिख रहा है | 46 मिनट |
+| W5 | Chapter 01 Number System (12th Maths) | ✍️ लिख रहा है | 42 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,6 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 12:03 — 12th GK · Chapter 22 Defence
 - 09-10 11:20 — 12th GK · Chapter 17 Culture Art
 - 09-10 11:12 — 12th GK · Chapter 19 Environment
 - 09-10 09:28 — 12th GK · Chapter 13 Awards
@@ -51,13 +52,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 11:34:38   [Reports_Indices] wrote PYQ_en.txt (7954 chars)
-09-10 11:35:43   [Economic_Terms] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-09-10 11:38:00   [Reports_Indices] wrote PYQ_hi.txt (7999 chars)
-09-10 11:39:51   [Reports_Indices] wrote Memory_Hooks_en.txt (5662 chars)
-09-10 11:40:08   [Defence] review Key_Facts_en.txt: 1 issue(s): - First Indian Chief of Army Staff listed as Gen. K.M. Cariappa (1949) → The first Chief of Army Staff was Genera
-09-10 11:40:33   [Number_System] Feynman_en.txt try 2: rejected (corrupted characters)
-09-10 11:40:33   [Number_System] REJECTED Feynman_en.txt: corrupted characters — not written
 09-10 11:41:44   [Govt_Schemes] Key_Facts_en.txt try 1: answer too long — asking for a tighter version
 09-10 11:41:58   [Number_System] wrote Feynman_hi.txt (2243 chars)
 09-10 11:42:03   [Reports_Indices] wrote Memory_Hooks_hi.txt (5745 chars)
@@ -91,4 +85,11 @@
 09-10 11:59:59   [Reports_Indices] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 09-10 12:00:34   [Defence] review Memory_Hooks_hi.txt: 1 issue(s): - Invented exam statistic: "रक्षा अध्याय में 70% प्रश्न बुनियादी तथ्यों ... से आते हैं — इन्हें पक्का करें। बच
 09-10 12:00:35   [Govt_Schemes] wrote PYQ_hi.txt (7793 chars)
+09-10 12:01:03   [Number_System] wrote Important_Formulas_hi.txt (5307 chars)
+09-10 12:01:12   [Economic_Terms] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 12:02:05   [Govt_Schemes] wrote Memory_Hooks_en.txt (6827 chars)
+09-10 12:02:07   [Reports_Indices] Practice_hi_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 12:02:32   [Economic_Terms] Practice_en_Set_05.txt try 1: rejected (parsed 2 questions, numbers 101…102)
+09-10 12:03:15   [Defence] review: 6 section(s) corrected, 0 failed
+09-10 12:03:15   [Defence] written 6, failed 0; AI calls today 416/100000
 ```
