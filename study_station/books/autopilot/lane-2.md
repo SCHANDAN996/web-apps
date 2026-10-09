@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 09:00 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:12 PM
+**आख़िरी update:** 09-10-2026 09:05 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:12 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 Fractions Decimals (Graduation Maths) | ✍️ लिख रहा है | 83 मिनट |
-| W2 | Chapter 05 Percentage (Graduation Maths) | ✍️ लिख रहा है | 73 मिनट |
-| W3 | Chapter 06 Average (Graduation Maths) | ✍️ लिख रहा है | 56 मिनट |
-| W4 | Chapter 08 Profit Loss (Graduation Maths) | ✍️ लिख रहा है | 11 मिनट |
-| W5 | Chapter 28 Advanced Science Tech (Graduation GK) | 🔎 review हो रहा है | 40 मिनट |
-| W6 | Chapter 07 Ratio Proportion (Graduation Maths) | ✍️ लिख रहा है | 21 मिनट |
-| W7 | Chapter 02 LCM HCF (Graduation Maths) | ✍️ लिख रहा है | 107 मिनट |
-| W8 | Chapter 03 Simplification (Graduation Maths) | 🔎 review हो रहा है | 6 मिनट |
+| W1 | Chapter 04 Fractions Decimals (Graduation Maths) | ✍️ लिख रहा है | 88 मिनट |
+| W2 | Chapter 05 Percentage (Graduation Maths) | ✍️ लिख रहा है | 78 मिनट |
+| W3 | Chapter 06 Average (Graduation Maths) | ✍️ लिख रहा है | 61 मिनट |
+| W4 | Chapter 08 Profit Loss (Graduation Maths) | ✍️ लिख रहा है | 16 मिनट |
+| W5 | Chapter 28 Advanced Science Tech (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
+| W6 | Chapter 07 Ratio Proportion (Graduation Maths) | ✍️ लिख रहा है | 26 मिनट |
+| W7 | Chapter 02 LCM HCF (Graduation Maths) | ✍️ लिख रहा है | 111 मिनट |
+| W8 | Chapter 03 Simplification (Graduation Maths) | 🔎 review हो रहा है | 11 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,6 +37,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 21:05 — Graduation GK · Chapter 28 Advanced Science Tech
 - 09-10 20:48 — Graduation GK · Chapter 27 Budget Economic Survey
 - 09-10 20:38 — Graduation Maths · Chapter 01 Number System Advanced
 - 09-10 20:03 — Graduation GK · Chapter 26 Advanced Polity
@@ -51,14 +52,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 20:46:45   [Ratio_Proportion] wrote Mind_Map.txt (1965 chars)
-09-10 20:46:52   [Budget_Economic_Survey] review Memory_Hooks_en.txt: 1 issue(s): - Box 14: "Every Money Bill is a Finance Bill, but not every Finance Bill is a Money Bill" is incorrect → The 
-09-10 20:47:05   [Percentage] Practice_en_Set_02.txt try 1: rejected (Q44:leaked_reasoning,Q50:answer_solution_conflict)
-09-10 20:47:56   [Ratio_Proportion] wrote Flashcards_en.txt (2944 chars)
-09-10 20:48:33   [Fractions_Decimals] Practice_en_Set_04.txt try 1: rejected (Q80:leaked_reasoning,Q96:leaked_reasoning,Q81:duplicate_options)
-09-10 20:48:34   [Budget_Economic_Survey] review: 6 section(s) corrected, 0 failed
-09-10 20:48:34   [Budget_Economic_Survey] written 6, failed 0; AI calls today 282/100000
-09-10 20:48:39   [Average] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 09-10 20:48:46   [Percentage] Practice_en_Set_02.txt try 2: rejected (Q34:leaked_reasoning)
 09-10 20:48:50 DONE Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_27_Budget_Economic_Survey in 47 min → f3e4ba6c
 09-10 20:48:51 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_08_Profit_Loss (TODO: todo 25, problems 0)
@@ -91,4 +84,12 @@
 09-10 20:59:31   [Average] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 09-10 20:59:41   [Ratio_Proportion] wrote Important_Formulas_hi.txt (2811 chars)
 09-10 21:00:19   [Profit_Loss] wrote PYQ_en.txt (7551 chars)
+09-10 21:01:07   [Percentage] Practice_en_Set_03.txt try 1: rejected (Q67:leaked_reasoning)
+09-10 21:01:14   [Profit_Loss] PYQ_hi.txt try 1: rejected (corrupted characters)
+09-10 21:02:17   [LCM_HCF] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 21:03:37   [Average] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 21:04:14   [Profit_Loss] wrote PYQ_hi.txt (7091 chars)
+09-10 21:05:00   [Advanced_Science_Tech] review: 2 section(s) corrected, 0 failed
+09-10 21:05:00   [Advanced_Science_Tech] written 2, failed 0; AI calls today 324/100000
+09-10 21:05:10   [Percentage] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 ```
