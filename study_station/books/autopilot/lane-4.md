@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 09:09 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 09:13 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 03 Modern History (12th GK) | 🔎 review हो रहा है | 37 मिनट |
-| W2 | Chapter 18 Science Tech (12th GK) | ✍️ लिख रहा है | 7 मिनट |
-| W3 | Chapter 15 Days Dates (12th GK) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 13 Awards (12th GK) | 🔎 review हो रहा है | 20 मिनट |
-| W5 | Chapter 17 Culture Art (12th GK) | ✍️ लिख रहा है | 33 मिनट |
+| W1 | Chapter 03 Modern History (12th GK) | 🔎 review हो रहा है | 41 मिनट |
+| W2 | Chapter 18 Science Tech (12th GK) | ✍️ लिख रहा है | 11 मिनट |
+| W3 | Chapter 19 Environment (12th GK) | ✍️ लिख रहा है | 3 मिनट |
+| W4 | Chapter 13 Awards (12th GK) | 🔎 review हो रहा है | 24 मिनट |
+| W5 | Chapter 17 Culture Art (12th GK) | ✍️ लिख रहा है | 37 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -25,12 +25,12 @@
 | 12th Maths | 0 | 0 | 23 |
 | 12th GK | 14 | 2 | 8 |
 | 12th Reasoning | 0 | 0 | 25 |
-| 12th English | 19 | 0 | 6 |
+| 12th English | 21 | 0 | 4 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 7 | 0 | 21 |
+| Graduation GK | 11 | 0 | 17 |
 | Graduation Reasoning | 1 | 0 | 29 |
-| Graduation English | 28 | 0 | 2 |
-| **कुल** | **119** | **15** | **162** |
+| Graduation English | 29 | 0 | 1 |
+| **कुल** | **126** | **15** | **155** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -45,16 +45,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 08:35:52   [Sports] written 1, failed 0; AI calls today 20/100000
-09-10 08:35:52 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_14_Sports after 5 min: todo [] problems ['Memory_Hooks_hi.txt: much shorter than the English section (']
-09-10 08:35:53 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_17_Culture_Art (TODO: todo 25, problems 0)
-09-10 08:36:10   [Awards] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 08:36:10   [Modern_History] review Content_en.txt: 2 issue(s): - Hindi translation for "Presidency / Province" is "उपनिवेश / प्रान्त" → should be "प्रेसीडेंसी / प्रान्त" (or "प्र
-09-10 08:37:46   [Culture_Art] Content_en.txt try 1: rejected (corrupted characters)
-09-10 08:38:34   [Awards] Practice_hi_Set_05.txt try 1: rejected (Q122:needs_context)
-09-10 08:40:02   [Culture_Art] wrote Content_en.txt (10635 chars)
-09-10 08:40:30   [Days_Dates] review Content_en.txt: 1 issue(s): - Mnemonic 3 states Doctors' Day is only a birth anniversary → Doctors' Day (1 July) honours Dr. B.C. Roy on both h
-09-10 08:40:31   [Modern_History] FAILED review Content_en.txt: rate_limited — the chapter must not be published unreviewed
 09-10 08:41:17   [Awards] Practice_hi_Set_05.txt try 2: rejected (Q122:needs_context)
 09-10 08:43:26   [Culture_Art] wrote Content_hi.txt (9937 chars)
 09-10 08:45:39   [Modern_History] review Content_hi.txt: 2 issue(s): - मेरठ की छावनी में सिपाही मंगल पांडे ने अंग्रेज़ अफ़सर पर बंदूक तान दी। → मंगल पांडे की घटना बारकपुर (बाररकपोर) मे
@@ -85,4 +75,14 @@
 09-10 09:08:48   [Culture_Art] wrote Mind_Map.txt (3159 chars)
 09-10 09:09:40   [Days_Dates] review: 4 section(s) corrected, 0 failed
 09-10 09:09:40   [Days_Dates] written 4, failed 0; AI calls today 85/100000
+09-10 09:09:54   [Culture_Art] wrote Flashcards_en.txt (4968 chars)
+09-10 09:09:54 DONE 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_15_Days_Dates in 38 min → e744bfbf
+09-10 09:09:56 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_19_Environment (TODO: todo 25, problems 0)
+09-10 09:09:57   [Modern_History] review Flashcards_en.txt: 2 issue(s): - Card 4 front states both organisations were founded in 1885, but the United Indian Patriotic Association was f
+09-10 09:10:19   [Science_Tech] wrote Key_Facts_hi.txt (7081 chars)
+09-10 09:11:20   [Science_Tech] wrote Feynman_en.txt (3740 chars)
+09-10 09:11:21   [Awards] review Mind_Map.txt: 1 issue(s): - B5a note "(भाषा के लिए, व्यक्ति को नहीं पहली बार)" is factually wrong: Jnanpith Award is given to an author (person
+09-10 09:11:41   [Environment] wrote Content_en.txt (9182 chars)
+09-10 09:12:22   [Culture_Art] wrote Flashcards_hi.txt (4956 chars)
+09-10 09:12:56   [Science_Tech] wrote Feynman_hi.txt (2878 chars)
 ```
