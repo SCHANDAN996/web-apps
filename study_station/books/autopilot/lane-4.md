@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 10-10-2026 03:07 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
+**आख़िरी update:** 10-10-2026 03:17 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,12 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 105 मिनट |
-| W2 | Chapter 23 Quadratic Equations (12th Maths) | ✍️ लिख रहा है | 97 मिनट |
-| W3 | Chapter 21 Permutation Combination (12th Maths) | 🔎 review हो रहा है | 68 मिनट |
-| W4 | Chapter 22 Number Series (12th Maths) | 🔎 review हो रहा है | 27 मिनट |
-| W6 | Chapter 19 Statistics (12th Maths) | 🔎 review हो रहा है | 23 मिनट |
-| W8 | Chapter 16 Algebra (12th Maths) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 114 मिनट |
+| W2 | Chapter 23 Quadratic Equations (12th Maths) | ✍️ लिख रहा है | 107 मिनट |
+| W3 | Chapter 21 Permutation Combination (12th Maths) | 🔎 review हो रहा है | 78 मिनट |
+| W4 | Chapter 22 Number Series (12th Maths) | 🔎 review हो रहा है | 37 मिनट |
+| W6 | Chapter 19 Statistics (12th Maths) | 🔎 review हो रहा है | 33 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -49,14 +48,10 @@
 - Chapter 14 Sports (GK) — 2 बार
 - Chapter 19 Statistics (Maths) — 1 बार
 - Chapter 22 Number Series (Maths) — 1 बार
-- Chapter 16 Algebra (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 02:33:43   [Statistics] written 0, failed 1; AI calls today 95/100000
-10-10 02:33:54   [Probability] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
-10-10 02:35:09   [Data_Interpretation] FAILED review Important_Formulas_en.txt: network — the chapter must not be published unreviewed
 10-10 02:39:36   [Number_Series] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 10-10 02:39:36   [Number_Series] written 1, failed 0; AI calls today 97/100000
 10-10 02:39:57   [Data_Interpretation] review Important_Formulas_hi.txt: 1 issue(s): - किसी मान का कुल में हिस्सा निकालने पर → किसी मान का कुल का हिस्सा निकालने पर
@@ -94,4 +89,7 @@
 10-10 03:04:59   [Probability] Practice_en_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
 10-10 03:07:35   [Algebra] review: 1 section(s) corrected, 0 failed
 10-10 03:07:35   [Algebra] written 1, failed 0; AI calls today 141/100000
+10-10 03:07:49 DONE 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_16_Algebra in 11 min → 6289ddd6
+10-10 03:07:51 worker 7: nothing left
+10-10 03:16:25   [Statistics] review PYQ_hi.txt: 1 issue(s): - उत्तर: (a) → उत्तर: (b)
 ```
