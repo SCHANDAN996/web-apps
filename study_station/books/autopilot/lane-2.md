@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 02:42 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:46 PM
+**आख़िरी update:** 09-10-2026 02:48 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:46 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Awards (Graduation GK) | 🔎 review हो रहा है | 55 मिनट |
-| W2 | Chapter 22 Defence (Graduation GK) | 🔎 review हो रहा है | 34 मिनट |
-| W3 | Chapter 23 Economic Terms (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 24 Reports Indices (Graduation GK) | ✍️ लिख रहा है | 55 मिनट |
-| W5 | Chapter 25 Govt Schemes (Graduation GK) | ✍️ लिख रहा है | 55 मिनट |
+| W1 | Chapter 13 Awards (Graduation GK) | 🔎 review हो रहा है | 61 मिनट |
+| W2 | Chapter 22 Defence (Graduation GK) | 🔎 review हो रहा है | 41 मिनट |
+| W3 | Chapter 26 Advanced Polity (Graduation GK) | ✍️ लिख रहा है | 6 मिनट |
+| W4 | Chapter 24 Reports Indices (Graduation GK) | ✍️ लिख रहा है | 61 मिनट |
+| W5 | Chapter 25 Govt Schemes (Graduation GK) | ✍️ लिख रहा है | 61 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -23,14 +23,14 @@
 | 10th Maths | 9 | 13 | 0 |
 | 10th English | 2 | 0 | 18 |
 | 12th Maths | 0 | 0 | 23 |
-| 12th GK | 17 | 0 | 7 |
+| 12th GK | 18 | 0 | 6 |
 | 12th Reasoning | 2 | 0 | 23 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 21 | 1 | 6 |
-| Graduation Reasoning | 3 | 0 | 27 |
+| Graduation Reasoning | 4 | 0 | 26 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **147** | **14** | **135** |
+| **कुल** | **149** | **14** | **133** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -43,18 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 14:07:15   [Govt_Schemes] wrote Content_hi.txt (12329 chars)
-09-10 14:07:34   [Defence] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-09-10 14:07:34   [Defence] written 1, failed 0; AI calls today 30/100000
-09-10 14:07:36   [Economic_Terms] review Flashcards_en.txt: 1 issue(s): - Card 2: "remittances raise GNP" is incorrect; remittances are current transfers and increase Gross National Di
-09-10 14:10:27   [Govt_Schemes] wrote Key_Facts_en.txt (10904 chars)
-09-10 14:10:53   [Reports_Indices] Content_hi.txt try 1: answer too long — asking for a tighter version
-09-10 14:13:28   [Govt_Schemes] wrote Key_Facts_hi.txt (7445 chars)
-09-10 14:14:07   [Reports_Indices] wrote Content_hi.txt (9765 chars)
-09-10 14:15:02   [Govt_Schemes] wrote Feynman_en.txt (3535 chars)
-09-10 14:16:21   [Reports_Indices] wrote Key_Facts_en.txt (8726 chars)
-09-10 14:17:20   [Awards] review Mind_Map.txt: 1 issue(s): - C1a: "1901 से, 6 क्षेत्र" is incorrect; the Nobel Prize in Economics was added in 1969 → Correct: "1901 से 5 क्षेत्
-09-10 14:17:26   [Govt_Schemes] wrote Feynman_hi.txt (3320 chars)
 09-10 14:19:04   [Economic_Terms] review PYQ_hi.txt: 1 issue(s): - In Question 1 explanation, it incorrectly states that option (b) "GNP = GDP − मूल्यह्रास" is the NNP formula; the cor
 09-10 14:20:24   [Reports_Indices] wrote Key_Facts_hi.txt (7708 chars)
 09-10 14:21:01   [Govt_Schemes] wrote Mind_Map.txt (9260 chars)
@@ -83,4 +71,16 @@
 09-10 14:42:22   [Reports_Indices] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
 09-10 14:42:22   [Economic_Terms] review: 5 section(s) corrected, 0 failed
 09-10 14:42:22   [Economic_Terms] written 5, failed 0; AI calls today 82/100000
+09-10 14:42:38 DONE Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_23_Economic_Terms in 55 min → 3bc5b693
+09-10 14:42:40 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_26_Advanced_Polity (TODO: todo 25, problems 0)
+09-10 14:44:10   [Govt_Schemes] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 14:46:13   [Defence] review Feynman_en.txt: 1 issue(s): - INS Arihant firing K-15 / K-4 missiles → INS Arihant is armed with K-15 (Sagarika) missiles only; K-4 missiles ar
+09-10 14:46:19   [Reports_Indices] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 14:46:54   [Advanced_Polity] Content_en.txt try 1: rejected (corrupted characters)
+09-10 14:46:55   [Awards] review Memory_Hooks_hi.txt: 2 issue(s): - Mnemonic 14: सुभाष चंद्र बोस के भारत रत्न को "मामला निलंबित रहा" बताया गया है → वास्तव में घोषणा वापस ले ली 
+09-10 14:47:24   [Govt_Schemes] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 14:48:50   [Awards] review: 4 section(s) corrected, 1 failed
+09-10 14:48:50   [Awards] written 4, failed 1; AI calls today 95/100000
+09-10 14:48:50 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards after 62 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (37']
+09-10 14:48:52 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards (FIX: todo 0, problems 1)
 ```
