@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 02:54 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 03:09 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 33 मिनट |
-| W2 | Chapter 09 Venn Diagrams (Graduation Reasoning) | 🔎 review हो रहा है | 0 मिनट |
-| W3 | Chapter 03 Coding Decoding (Graduation Reasoning) | 🔎 review हो रहा है | 8 मिनट |
-| W4 | Chapter 10 Clock Calendar (Graduation Reasoning) | ✍️ लिख रहा है | 7 मिनट |
-| W5 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 61 मिनट |
+| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 48 मिनट |
+| W2 | Chapter 09 Venn Diagrams (Graduation Reasoning) | 🔎 review हो रहा है | 15 मिनट |
+| W3 | Chapter 03 Coding Decoding (Graduation Reasoning) | 🔎 review हो रहा है | 23 मिनट |
+| W4 | Chapter 10 Clock Calendar (Graduation Reasoning) | ✍️ लिख रहा है | 23 मिनट |
+| W5 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 76 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -23,16 +23,16 @@
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 9 | 13 | 0 |
-| 10th English | 2 | 0 | 18 |
+| 10th English | 3 | 0 | 17 |
 | 12th Maths | 0 | 0 | 23 |
-| 12th GK | 20 | 0 | 4 |
+| 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 2 | 0 | 23 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 20 | 0 | 8 |
 | Graduation Reasoning | 6 | 0 | 24 |
 | Graduation English | 29 | 1 | 0 |
-| **कुल** | **152** | **14** | **130** |
+| **कुल** | **155** | **14** | **127** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -46,20 +46,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 14:28:42 NOT OK Graduation_Level/Reasoning/Chapter_02_Classification after 36 min: todo ['Set 01 hi: todo'] problems []
-09-10 14:28:44 START Graduation_Level/Reasoning/Chapter_02_Classification (TODO: todo 1, problems 0)
-09-10 14:29:34   [Blood_Relations] review Short_Tricks_hi.txt: 7 issue(s): - "आगे से पढ़ने वाला विद्यार्थी 80% समय उलझता है; पीछे से पढ़ने वाला 20 सेकंड में हल करता है" (ट्रिक 1) → आविष
-09-10 14:29:41   [Classification] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 14:30:38   [Puzzles] Practice_en_Set_01.txt try 2: rejected (parsed 0 questions, numbers -…-)
-09-10 14:31:14   [Coding_Decoding] Practice_en_Set_06.txt try 3: re-solve disagrees (Q139 key c vs re-solve b)
-09-10 14:32:32   [Classification] Practice_hi_Set_01.txt try 2: rejected (Q22:leaked_reasoning)
-09-10 14:34:02   [Puzzles] Practice_en_Set_01.txt try 3: rejected (Q1:leaked_reasoning,Q7:leaked_reasoning,Q10:leaked_reasoning,Q12:leaked_reasoning,Q15:leaked_reasoning)
-09-10 14:36:00   [Blood_Relations] REJECTED review fix Short_Tricks_hi.txt: Short_Tricks_hi.txt: Hindi file is mostly not in Hindi
-09-10 14:36:21   [Classification] Practice_hi_Set_01.txt try 3: rejected (Q22:leaked_reasoning)
-09-10 14:37:54   [Blood_Relations] review Important_Rules_en.txt: 1 issue(s): - The example in 'Draw a Family Tree' misinterprets 'A + B − C' as A father, B mother, C child; using the s
-09-10 14:38:49   [Classification] Practice_hi_Set_01.txt try 4: rejected (Q22:leaked_reasoning)
-09-10 14:38:49   [Classification] REJECTED Practice_hi_Set_01.txt: no translation passed the checks — not written
-09-10 14:38:49   [Classification] written 0, failed 1; AI calls today 64/100000
 09-10 14:38:49 NOT OK Graduation_Level/Reasoning/Chapter_02_Classification after 10 min: todo ['Set 01 hi: todo'] problems []
 09-10 14:38:51 START Graduation_Level/Reasoning/Chapter_09_Venn_Diagrams (TODO: todo 2, problems 0)
 09-10 14:39:07   [Coding_Decoding] wrote Practice_en_Set_06.txt (write, 25 MCQs)
@@ -86,4 +72,18 @@
 09-10 14:53:29   [Puzzles] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
 09-10 14:53:33   [Venn_Diagrams] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 09-10 14:53:33   [Venn_Diagrams] written 2, failed 0; AI calls today 82/100000
+09-10 14:54:54   [Venn_Diagrams] review Content_en.txt: 1 issue(s): - Type 5 description "All three pairs partially overlap" does not match the example "Doctors, Women, Mothers" becau
+09-10 14:56:05   [Puzzles] Practice_en_Set_03.txt try 1: rejected (Q54:leaked_reasoning)
+09-10 14:56:33   [Clock_Calendar] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 14:58:33   [Venn_Diagrams] review Content_hi.txt: 2 issue(s): - Invented exam statistic "90% छात्रों को उलझा देता है" → Replace with a non-specific phrase like "कई छात्रों को उल
+09-10 14:59:18   [Clock_Calendar] Practice_en_Set_05.txt try 1: rejected (Q118:leaked_reasoning)
+09-10 15:03:00   [Sitting_Arrangement] Practice_en_Set_01.txt try 4: re-solve disagrees (Q14 key b vs re-solve d)
+09-10 15:03:00   [Sitting_Arrangement] REJECTED Practice_en_Set_01.txt: no version passed the checks — not written
+09-10 15:03:00   [Sitting_Arrangement] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
+09-10 15:03:54   [Venn_Diagrams] review Flashcards_en.txt: 2 issue(s): - Card 14 claims Doctors, Men, Fathers are three mutually intersecting circles with no containment, but Fathers 
+09-10 15:05:21   [Coding_Decoding] REJECTED review fix Content_en.txt: corrupted characters
+09-10 15:05:30   [Venn_Diagrams] review Flashcards_hi.txt: 1 issue(s): - Card 4: The diagram for “पुरुष, पिता, डॉक्टर” shows three intersecting circles with no subset, but every fathe
+09-10 15:07:37   [Clock_Calendar] Practice_en_Set_05.txt try 2: re-solve disagrees (Q123 key d vs re-solve c)
+09-10 15:07:44   [Coding_Decoding] review Content_hi.txt: 1 issue(s): - In 'जाल 1', the claim that opposite letter coding (CAT → XZG) is mathematically the same as a '-23 shift' is wron
+09-10 15:09:17   [Venn_Diagrams] review PYQ_en.txt: 2 issue(s): - The sub-topic bullet "newspaper/语言/language problems" contains Chinese characters "语言" → replace with "language" or "
 ```
