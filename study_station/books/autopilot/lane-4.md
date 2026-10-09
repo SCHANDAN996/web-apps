@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 10-10-2026 02:16 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
+**आख़िरी update:** 10-10-2026 02:31 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,13 +8,13 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 53 मिनट |
-| W2 | Chapter 23 Quadratic Equations (12th Maths) | ✍️ लिख रहा है | 46 मिनट |
-| W3 | Chapter 21 Permutation Combination (12th Maths) | 🔎 review हो रहा है | 17 मिनट |
-| W4 | Chapter 22 Number Series (12th Maths) | ✍️ लिख रहा है | 47 मिनट |
-| W5 | Chapter 18 Data Interpretation (12th Maths) | 🔎 review हो रहा है | 44 मिनट |
-| W6 | Chapter 19 Statistics (12th Maths) | 🔧 सुधार रहा है | 4 मिनट |
-| W8 | Chapter 16 Algebra (12th Maths) | 🔎 review हो रहा है | 76 मिनट |
+| W1 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 69 मिनट |
+| W2 | Chapter 23 Quadratic Equations (12th Maths) | ✍️ लिख रहा है | 61 मिनट |
+| W3 | Chapter 21 Permutation Combination (12th Maths) | 🔎 review हो रहा है | 32 मिनट |
+| W4 | Chapter 22 Number Series (12th Maths) | ✍️ लिख रहा है | 7 मिनट |
+| W5 | Chapter 18 Data Interpretation (12th Maths) | 🔎 review हो रहा है | 60 मिनट |
+| W6 | Chapter 19 Statistics (12th Maths) | 🔧 सुधार रहा है | 19 मिनट |
+| W8 | Chapter 16 Algebra (12th Maths) | 🔎 review हो रहा है | 92 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -28,11 +28,11 @@
 | 12th GK | 22 | 2 | 0 |
 | 12th Reasoning | 10 | 0 | 15 |
 | 12th English | 25 | 0 | 0 |
-| Graduation Maths | 9 | 0 | 19 |
+| Graduation Maths | 10 | 0 | 18 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 13 | 0 | 17 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **228** | **7** | **61** |
+| **कुल** | **229** | **7** | **60** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -47,22 +47,11 @@
 - Chapter 13 Mixture Alligation (Maths) — 2 बार
 - Chapter 14 Sports (GK) — 2 बार
 - Chapter 19 Statistics (Maths) — 1 बार
+- Chapter 22 Number Series (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 01:31:24   [Data_Interpretation] written 2, failed 0; AI calls today 51/100000
-10-10 01:31:44   [Statistics] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-10-10 01:31:57   [Data_Interpretation] review Content_en.txt: 1 issue(s): - The Hook section contains the same sentence repeated dozens of times ("Imagine you are a detective. You have a ta
-10-10 01:33:00   [Mixture_Alligation] Feynman_en.txt try 2: rejected (chat debris "Here's the")
-10-10 01:33:00   [Mixture_Alligation] REJECTED Feynman_en.txt: chat debris "Here's the" — not written
-10-10 01:34:23   [Permutation_Combination] wrote Feynman_en.txt (3015 chars)
-10-10 01:38:04   [Data_Interpretation] review Feynman_en.txt: 1 issue(s): - Invented exam statistic: "80% of DI questions become the same question wearing different clothes" → Replace with 
-10-10 01:38:47   [Statistics] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-10-10 01:39:26   [Mixture_Alligation] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-10-10 01:39:26   [Mixture_Alligation] written 1, failed 1; AI calls today 62/100000
-10-10 01:39:26 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation after 25 min: todo ['Feynman_en.txt'] problems []
-10-10 01:39:28 worker 6: nothing left
 10-10 01:40:06   [Algebra] review Content_hi.txt: 1 issue(s): - The claim "SSC CGL और IBPS PO के वो 4–6 प्रश्न भी बनते हैं जो हर साल पूछे जाते हैं" is an invented exam statistic
 10-10 01:40:14   [Probability] wrote Content_en.txt (358 chars)
 10-10 01:40:16   [Permutation_Combination] Practice_en_Set_05.txt try 1: rejected (Q120:leaked_reasoning)
@@ -91,4 +80,16 @@
 10-10 02:12:00 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_19_Statistics after 53 min: todo [] problems ['PYQ_hi.txt: Hindi file is mostly not in Hindi', 'PYQ_hi.txt: much shorter than the English section (825 vs 77']
 10-10 02:12:02 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_19_Statistics (FIX: todo 0, problems 2)
 10-10 02:13:28   [Data_Interpretation] review Important_Formulas_en.txt: 1 issue(s): - Doubling Effect formula uses ≈ (approximation) but the formula 2x + x²/100 is exact for two successive
+10-10 02:22:09   [Quadratic_Equations] FAILED Practice_en_Set_04.txt: network
+10-10 02:22:09   [Quadratic_Equations] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
+10-10 02:23:11   [Permutation_Combination] FAILED review Content_en.txt: network — the chapter must not be published unreviewed
+10-10 02:23:30   [Number_Series] FAILED Practice_hi_Set_06.txt: network
+10-10 02:23:30   [Number_Series] written 2, failed 1; AI calls today 91/100000
+10-10 02:23:30 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_22_Number_Series after 55 min: todo ['Set 06 hi: todo'] problems []
+10-10 02:23:33 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_22_Number_Series (TODO: todo 1, problems 0)
+10-10 02:23:39   [Probability] FAILED Practice_en_Set_02.txt: rate_limited
+10-10 02:23:39   [Probability] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+10-10 02:24:24   [Permutation_Combination] review Feynman_en.txt: 1 issue(s): - Narrative says "you and your two best friends — Aman, Bina, and Chintu" (implies 4 people) but the problem uses o
+10-10 02:24:53   [Algebra] FAILED review Mind_Map.txt: network — the chapter must not be published unreviewed
+10-10 02:26:23   [Algebra] review Flashcards_hi.txt: 1 issue(s): - Card 14: The mnemonic “घात जितनी, k की घात उतनी; घटाओ घात × k” incorrectly suggests subtracting 2k for the squ
 ```
