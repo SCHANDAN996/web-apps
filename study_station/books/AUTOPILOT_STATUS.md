@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 12:44 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 12:59 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 179 मिनट |
-| W2 | Chapter 09 Venn Diagrams (Graduation Reasoning) | ✍️ लिख रहा है | 24 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 201 मिनट |
-| W4 | Chapter 10 Clock Calendar (Graduation Reasoning) | ✍️ लिख रहा है | 94 मिनट |
-| W5 | Chapter 11 Series (Graduation Reasoning) | ✍️ लिख रहा है | 68 मिनट |
+| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 195 मिनट |
+| W2 | Chapter 09 Venn Diagrams (Graduation Reasoning) | ✍️ लिख रहा है | 39 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 216 मिनट |
+| W4 | Chapter 10 Clock Calendar (Graduation Reasoning) | ✍️ लिख रहा है | 109 मिनट |
+| W5 | Chapter 11 Series (Graduation Reasoning) | ✍️ लिख रहा है | 83 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -25,14 +25,14 @@
 | 10th Maths | 9 | 13 | 0 |
 | 10th English | 0 | 0 | 20 |
 | 12th Maths | 0 | 0 | 23 |
-| 12th GK | 16 | 0 | 8 |
+| 12th GK | 17 | 0 | 7 |
 | 12th Reasoning | 0 | 0 | 25 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 17 | 0 | 11 |
+| Graduation GK | 18 | 0 | 10 |
 | Graduation Reasoning | 3 | 1 | 26 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **138** | **14** | **144** |
+| **कुल** | **140** | **14** | **142** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -51,14 +51,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 12:07:27   [Sitting_Arrangement] Practice_en_Set_03.txt try 3: rejected (Q51:leaked_reasoning,Q52:leaked_reasoning,Q53:leaked_reasoning,Q60:leaked_reasoning)
-09-10 12:10:45   [Series] Flashcards_en.txt try 1: answer too long — asking for a tighter version
-09-10 12:11:49   [Clock_Calendar] FAILED Practice_en_Set_02.txt: too_long
-09-10 12:11:49   [Clock_Calendar] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
-09-10 12:13:06   [Clock_Calendar] Practice_en_Set_03.txt try 1: rejected (Q54:answer_solution_conflict,Q55:answer_solution_conflict,Q56:answer_solution_conflict,Q57:answer_solution_con
-09-10 12:13:36   [Clock_Calendar] Practice_en_Set_03.txt try 2: rejected (parsed 0 questions, numbers -…-)
-09-10 12:19:00   [Puzzles] Practice_en_Set_03.txt try 4: re-solve disagrees (Q53 key a vs re-solve ?, Q67 key a vs re-solve ?)
-09-10 12:19:00   [Puzzles] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
 09-10 12:19:00   [Puzzles] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
 09-10 12:20:26   [Venn_Diagrams] FAILED Practice_en_Set_06.txt: too_long
 09-10 12:20:26   [Venn_Diagrams] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
@@ -91,4 +83,12 @@
 09-10 12:42:59   [Series] Important_Rules_en.txt try 1: rejected (corrupted characters)
 09-10 12:43:56   [Series] wrote Important_Rules_en.txt (3856 chars)
 09-10 12:44:09   [Clock_Calendar] Practice_en_Set_05.txt try 2: rejected (Q116:answer_solution_conflict)
+09-10 12:46:10   [Venn_Diagrams] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 12:46:40   [Series] wrote Important_Rules_hi.txt (3120 chars)
+09-10 12:48:23   [Venn_Diagrams] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 12:49:24   [Puzzles] Practice_en_Set_05.txt try 1: rejected (Q101:leaked_reasoning,Q104:leaked_reasoning,Q105:leaked_reasoning,Q106:leaked_reasoning,Q114:leaked_reasoning)
+09-10 12:50:18   [Venn_Diagrams] Practice_en_Set_06.txt try 1: rejected (Q134:leaked_reasoning)
+09-10 12:51:17   [Venn_Diagrams] Practice_en_Set_06.txt try 2: rejected (parsed 0 questions, numbers -…-)
+09-10 12:53:24   [Clock_Calendar] Practice_en_Set_05.txt try 3: re-solve disagrees (Q117 key a vs re-solve c)
+09-10 12:58:15   [Venn_Diagrams] Practice_en_Set_06.txt try 3: rejected (parsed 24 questions, numbers 126…150)
 ```
