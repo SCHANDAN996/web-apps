@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 09:20 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
+**आख़िरी update:** 09-10-2026 09:35 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 17 Trigonometry (12th Maths) | ✍️ लिख रहा है | 30 मिनट |
-| W2 | Chapter 14 Mensuration (12th Maths) | ✍️ लिख रहा है | 87 मिनट |
-| W3 | Chapter 11 Time Work (12th Maths) | ✍️ लिख रहा है | 112 मिनट |
-| W4 | Chapter 13 Mixture Alligation (12th Maths) | ✍️ लिख रहा है | 94 मिनट |
-| W5 | Chapter 15 Geometry (12th Maths) | 🔎 review हो रहा है | 6 मिनट |
-| W6 | Chapter 12 Time Distance (12th Maths) | ✍️ लिख रहा है | 8 मिनट |
-| W7 | Chapter 07 Ratio Proportion (12th Maths) | ✍️ लिख रहा है | 121 मिनट |
-| W8 | Chapter 16 Algebra (12th Maths) | ✍️ लिख रहा है | 34 मिनट |
+| W1 | Chapter 17 Trigonometry (12th Maths) | ✍️ लिख रहा है | 45 मिनट |
+| W2 | Chapter 14 Mensuration (12th Maths) | ✍️ लिख रहा है | 103 मिनट |
+| W3 | Chapter 11 Time Work (12th Maths) | ✍️ लिख रहा है | 127 मिनट |
+| W4 | Chapter 13 Mixture Alligation (12th Maths) | ✍️ लिख रहा है | 109 मिनट |
+| W5 | Chapter 15 Geometry (12th Maths) | 🔎 review हो रहा है | 21 मिनट |
+| W6 | Chapter 12 Time Distance (12th Maths) | 🔎 review हो रहा है | 13 मिनट |
+| W7 | Chapter 07 Ratio Proportion (12th Maths) | ✍️ लिख रहा है | 5 मिनट |
+| W8 | Chapter 16 Algebra (12th Maths) | ✍️ लिख रहा है | 49 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -23,9 +23,9 @@
 |---|---|---|---|
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
-| 10th Maths | 11 | 11 | 0 |
+| 10th Maths | 12 | 10 | 0 |
 | 10th English | 15 | 0 | 5 |
-| 12th Maths | 8 | 2 | 13 |
+| 12th Maths | 9 | 2 | 12 |
 | 12th GK | 22 | 2 | 0 |
 | 12th Reasoning | 6 | 0 | 19 |
 | 12th English | 25 | 0 | 0 |
@@ -33,7 +33,7 @@
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 8 | 0 | 22 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **193** | **15** | **88** |
+| **कुल** | **195** | **14** | **87** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -51,28 +51,11 @@
 - Chapter 10 Compound Interest (Maths) — 2 बार
 - Chapter 12 Time Distance (Maths) — 1 बार
 - Chapter 15 Geometry (Maths) — 1 बार
+- Chapter 07 Ratio Proportion (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 21:05:39   [Geometry] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-09-10 21:05:46   [Algebra] wrote Short_Tricks_en.txt (9086 chars)
-09-10 21:05:55   [Trigonometry] wrote Feynman_hi.txt (2739 chars)
-09-10 21:06:44   [Trigonometry] wrote Mind_Map.txt (1605 chars)
-09-10 21:07:41   [Trigonometry] wrote Flashcards_en.txt (3564 chars)
-09-10 21:07:57   [Algebra] wrote Short_Tricks_hi.txt (8359 chars)
-09-10 21:08:05   [Time_Work] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-09-10 21:08:11   [Time_Distance] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 21:09:00   [Trigonometry] wrote Flashcards_hi.txt (629 chars)
-09-10 21:09:23   [Geometry] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 21:09:42   [Ratio_Proportion] Practice_en_Set_06.txt try 2: re-solve disagrees (Q127 key c vs re-solve ?)
-09-10 21:09:42   [Algebra] wrote Important_Formulas_en.txt (5570 chars)
-09-10 21:10:06   [Mixture_Alligation] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-09-10 21:11:02   [Trigonometry] wrote PYQ_en.txt (7624 chars)
-09-10 21:11:37   [Time_Distance] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 21:11:37   [Time_Distance] written 23, failed 2; AI calls today 361/100000
-09-10 21:11:37 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_12_Time_Distance after 86 min: todo ['Set 05 en: todo', 'Set 05 hi: todo'] problems []
-09-10 21:11:39 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_12_Time_Distance (TODO: todo 2, problems 0)
 09-10 21:12:27   [Algebra] wrote Important_Formulas_hi.txt (4160 chars)
 09-10 21:12:33   [Geometry] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 09-10 21:12:33   [Geometry] written 24, failed 1; AI calls today 363/100000
@@ -95,4 +78,22 @@
 09-10 21:19:40   [Trigonometry] wrote Important_Formulas_en.txt (5345 chars)
 09-10 21:19:57   [Mixture_Alligation] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 09-10 21:20:21   [Mixture_Alligation] Practice_hi_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 21:20:59   [Algebra] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 21:22:26   [Time_Distance] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 21:22:26   [Time_Distance] written 2, failed 0; AI calls today 385/100000
+09-10 21:23:34   [Mixture_Alligation] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 21:23:45   [Time_Work] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 21:24:38   [Geometry] review Feynman_hi.txt: 1 issue(s): - "AAA में A ही काफी है" शीर्षक/नियम गलत है → समरूपता की कसौटी **AA (दो कोण)** है, AAA नहीं; शीर्षक होना चाहिए "AA 
+09-10 21:25:23   [Algebra] Practice_en_Set_02.txt try 1: rejected (Q44:leaked_reasoning)
+09-10 21:29:43   [Ratio_Proportion] FAILED Practice_en_Set_06.txt: too_long
+09-10 21:29:43   [Ratio_Proportion] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+09-10 21:29:43   [Ratio_Proportion] written 6, failed 4; AI calls today 398/100000
+09-10 21:29:43 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_07_Ratio_Proportion after 131 min: todo ['Set 04 en: todo', 'Set 04 hi: todo', 'Set 06 en: todo', 'Set 06 hi: todo'] problems []
+09-10 21:29:44 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_07_Ratio_Proportion (TODO: todo 4, problems 0)
+09-10 21:29:45   [Algebra] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+09-10 21:29:55   [Geometry] review Flashcards_en.txt: 12 issue(s): - Card 2 (first set): Pythagorean theorem mnemonic "A²+B=C²" missing square on B → should be "A²+B²=C²"
+09-10 21:32:26   [Algebra] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 21:33:29   [Ratio_Proportion] Practice_en_Set_04.txt try 1: rejected (Q84:leaked_reasoning,Q86:leaked_reasoning,Q87:answer_solution_conflict)
+09-10 21:34:32   [Algebra] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 21:35:14   [Mensuration] FAILED Practice_hi_Set_05.txt: too_long
 ```
