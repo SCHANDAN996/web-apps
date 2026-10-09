@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 10-10-2026 03:17 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
+**आख़िरी update:** 10-10-2026 03:32 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 114 मिनट |
-| W2 | Chapter 23 Quadratic Equations (12th Maths) | ✍️ लिख रहा है | 107 मिनट |
-| W3 | Chapter 21 Permutation Combination (12th Maths) | 🔎 review हो रहा है | 78 मिनट |
-| W4 | Chapter 22 Number Series (12th Maths) | 🔎 review हो रहा है | 37 मिनट |
-| W6 | Chapter 19 Statistics (12th Maths) | 🔎 review हो रहा है | 33 मिनट |
+| W1 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 130 मिनट |
+| W2 | Chapter 23 Quadratic Equations (12th Maths) | ✍️ लिख रहा है | 5 मिनट |
+| W3 | Chapter 21 Permutation Combination (12th Maths) | 🔎 review हो रहा है | 7 मिनट |
+| W4 | Chapter 22 Number Series (12th Maths) | 🔎 review हो रहा है | 52 मिनट |
+| W6 | Chapter 19 Statistics (12th Maths) | 🔎 review हो रहा है | 48 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -48,29 +48,12 @@
 - Chapter 14 Sports (GK) — 2 बार
 - Chapter 19 Statistics (Maths) — 1 बार
 - Chapter 22 Number Series (Maths) — 1 बार
+- Chapter 21 Permutation Combination (Maths) — 1 बार
+- Chapter 23 Quadratic Equations (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 02:39:36   [Number_Series] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-10-10 02:39:36   [Number_Series] written 1, failed 0; AI calls today 97/100000
-10-10 02:39:57   [Data_Interpretation] review Important_Formulas_hi.txt: 1 issue(s): - किसी मान का कुल में हिस्सा निकालने पर → किसी मान का कुल का हिस्सा निकालने पर
-10-10 02:40:37   [Quadratic_Equations] Practice_en_Set_05.txt try 1: rejected (Q122:leaked_reasoning)
-10-10 02:41:49   [Permutation_Combination] FAILED review Feynman_en.txt: network — the chapter must not be published unreviewed
-10-10 02:42:25   [Permutation_Combination] review Feynman_hi.txt: 1 issue(s): - "संचय" शब्द का प्रयोग Combination के लिए गलत है → मानक हिंदी गणितीय शब्दावली (NCERT आदि) में Combination के लिए "
-10-10 02:42:52   [Number_Series] review Content_hi.txt: 2 issue(s): - In "परीक्षक के जाल" point 2, the text says "अंतर के अंतर (second difference) देखने पड़ते हैं" but the example 1, 
-10-10 02:43:55   [Statistics] repaired PYQ_hi.txt (6050 chars)
-10-10 02:43:55   [Statistics] written 1, failed 0; AI calls today 104/100000
-10-10 02:47:27   [Quadratic_Equations] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-10-10 02:48:22   [Probability] Practice_en_Set_03.txt try 2: rejected (parsed 22 questions, numbers 51…75)
-10-10 02:48:48   [Data_Interpretation] review: 5 section(s) corrected, 1 failed
-10-10 02:48:48   [Data_Interpretation] written 5, failed 1; AI calls today 113/100000
-10-10 02:48:48 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_18_Data_Interpretation after 91 min: todo [] problems []
-10-10 02:48:51 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_18_Data_Interpretation (OK: todo 0, problems 0)
-10-10 02:49:30   [Data_Interpretation] review: 0 section(s) corrected, 0 failed
-10-10 02:49:30   [Data_Interpretation] written 0, failed 0; AI calls today 116/100000
-10-10 02:49:43 DONE 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_18_Data_Interpretation in 1 min → 32217d2f
-10-10 02:49:46 worker 4: nothing left
 10-10 02:50:49   [Statistics] review Feynman_hi.txt: 1 issue(s): - The bold formatting in the sorted list after adding 200 highlights 18 and 20 as the middle two numbers, but the c
 10-10 02:52:09   [Quadratic_Equations] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 10-10 02:52:59   [Probability] Practice_en_Set_03.txt try 3: rejected (parsed 23 questions, numbers 51…75)
@@ -92,4 +75,23 @@
 10-10 03:07:49 DONE 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_16_Algebra in 11 min → 6289ddd6
 10-10 03:07:51 worker 7: nothing left
 10-10 03:16:25   [Statistics] review PYQ_hi.txt: 1 issue(s): - उत्तर: (a) → उत्तर: (b)
+10-10 03:18:34   [Number_Series] FAILED review Content_hi.txt: network — the chapter must not be published unreviewed
+10-10 03:20:01   [Number_Series] review Mind_Map.txt: 3 issue(s): - Mermaid syntax is completely broken: mismatched brackets/quotes, invalid arrows (`-->` vs `=`), and truncated node 
+10-10 03:24:55   [Permutation_Combination] review: 3 section(s) corrected, 2 failed
+10-10 03:24:55   [Permutation_Combination] written 3, failed 2; AI calls today 155/100000
+10-10 03:24:55 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_21_Permutation_Combination after 119 min: todo [] problems []
+10-10 03:24:57 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_21_Permutation_Combination (OK: todo 0, problems 0)
+10-10 03:25:24   [Statistics] review Short_Tricks_hi.txt: 1 issue(s): - Trick 15 claims "माध्यिका हमेशा माध्य और बहुलक के बीच" → This is not universally true; it holds only for mod
+10-10 03:26:20   [Probability] Practice_en_Set_05.txt try 2: rejected (parsed 0 questions, numbers -…-)
+10-10 03:26:32   [Quadratic_Equations] FAILED Practice_en_Set_06.txt: network
+10-10 03:26:32   [Quadratic_Equations] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+10-10 03:26:32   [Quadratic_Equations] written 2, failed 6; AI calls today 158/100000
+10-10 03:26:32 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_23_Quadratic_Equations after 117 min: todo ['Set 02 en: todo', 'Set 02 hi: todo', 'Set 04 en: todo', 'Set 04 hi: todo'] problems []
+10-10 03:26:34 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_23_Quadratic_Equations (TODO: todo 6, problems 0)
+10-10 03:27:46   [Permutation_Combination] review Content_en.txt: 2 issue(s): - The claim that every atom in the observable universe shuffling a deck a billion times per second since the Big Ba
+10-10 03:28:22   [Number_Series] review Short_Tricks_hi.txt: 2 issue(s): - "90% सवाल सिर्फ़ अंतर निकालते ही हल हो जाते हैं" (ट्रिक 1 में) → यह एक आविष्कृत परीक्षा सांख्यिकी है; इसे हट
+10-10 03:29:08   [Quadratic_Equations] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 03:29:45   [Probability] Practice_en_Set_05.txt try 3: rejected (parsed 24 questions, numbers 101…125)
+10-10 03:31:05   [Permutation_Combination] review Feynman_en.txt: 1 issue(s): - The narrative says "you and your two best friends — Aman, Bina, and Chintu" but lists three names for two friends
+10-10 03:31:43   [Statistics] review Important_Formulas_hi.txt: 2 issue(s): - माध्य परिवर्तन सूत्र "नया माध्य = (पुराना माध्य × n ± कुल परिवर्तन) / n" तब गलत है जब प्रेक्षण जुड़ते/
 ```
