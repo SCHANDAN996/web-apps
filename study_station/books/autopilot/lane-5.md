@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 09-10-2026 05:30 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
+**आख़िरी update:** 09-10-2026 05:39 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 15 One Word Substitution (10th English) | ✍️ लिख रहा है | 12 मिनट |
-| W2 | Chapter 13 Synonyms (10th English) | ✍️ लिख रहा है | 28 मिनट |
-| W3 | Chapter 12 Sentence Structure (10th English) | ✍️ लिख रहा है | 40 मिनट |
-| W4 | Chapter 07 Preposition (10th English) | 🔎 review हो रहा है | 3 मिनट |
-| W5 | Chapter 08 Conjunction (10th English) | 🔎 review हो रहा है | 34 मिनट |
-| W6 | Chapter 16 Idioms Phrases (10th English) | ✍️ लिख रहा है | 11 मिनट |
-| W7 | Chapter 14 Antonyms (10th English) | ✍️ लिख रहा है | 18 मिनट |
-| W8 | Chapter 11 Narration (10th English) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 15 One Word Substitution (10th English) | ✍️ लिख रहा है | 21 मिनट |
+| W2 | Chapter 13 Synonyms (10th English) | ✍️ लिख रहा है | 37 मिनट |
+| W3 | Chapter 12 Sentence Structure (10th English) | ✍️ लिख रहा है | 49 मिनट |
+| W4 | Chapter 18 Error Spotting Basic (10th English) | ✍️ लिख रहा है | 5 मिनट |
+| W5 | Chapter 08 Conjunction (10th English) | 📤 push हो रहा है | 0 मिनट |
+| W6 | Chapter 16 Idioms Phrases (10th English) | ✍️ लिख रहा है | 20 मिनट |
+| W7 | Chapter 14 Antonyms (10th English) | ✍️ लिख रहा है | 27 मिनट |
+| W8 | Chapter 17 Spelling (10th English) | ✍️ लिख रहा है | 8 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,6 +37,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 17:39 — 10th English · Chapter 08 Conjunction
 - 09-10 17:30 — 10th English · Chapter 11 Narration
 - 09-10 17:18 — 10th English · Chapter 09 Articles
 - 09-10 17:11 — 10th English · Chapter 10 Voice
@@ -46,41 +47,12 @@
 - Chapter 04 Verb (English) — 2 बार
 - Chapter 03 Adjective (English) — 2 बार
 - Chapter 01 Noun (English) — 2 बार
-- Chapter 07 Preposition (English) — 1 बार
+- Chapter 07 Preposition (English) — 2 बार
+- Chapter 08 Conjunction (English) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 17:17:46   [Noun] set 01 try 4: rejected (Q20:duplicate_options)
-09-10 17:17:46   [Noun] FAILED set 01: no version passed the checks — files left as they were
-09-10 17:17:46   [Noun] written 0, failed 1; AI calls today 146/100000
-09-10 17:17:46 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_01_Noun after 14 min: todo [] problems ['Set 01 en: Q20:duplicate_options', 'Set 01 en: answers not spread (one letter is correct in >15 ', 'Set 01 hi: Q20:duplicate_options', 'Set 01 hi: answers not spread (one letter is correct in >15 ']
-09-10 17:17:47 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_15_One_Word_Substitution (TODO: todo 26, problems 0)
-09-10 17:18:15   [Conjunction] review Flashcards_en.txt: 1 issue(s): - Card 11: The mnemonic "A WHITE BUS" is incorrectly expanded; the given list (After, When, If, Though, Although
-09-10 17:18:18   [Antonyms] wrote Feynman_hi.txt (2082 chars)
-09-10 17:18:26   [Sentence_Structure] wrote Important_Rules_hi.txt (4617 chars)
-09-10 17:18:36   [Articles] review: 1 section(s) corrected, 0 failed
-09-10 17:18:36   [Articles] written 1, failed 0; AI calls today 152/100000
-09-10 17:18:53 DONE 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_09_Articles in 38 min → f58ce3b1
-09-10 17:18:54 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_16_Idioms_Phrases (TODO: todo 26, problems 0)
-09-10 17:19:07   [Conjunction] REJECTED review fix Flashcards_en.txt: chat debris "Text"
-09-10 17:19:33   [Synonyms] wrote PYQ_en.txt (5873 chars)
-09-10 17:19:57   [Antonyms] wrote Mind_Map_en.txt (1644 chars)
-09-10 17:20:22   [Idioms_Phrases] wrote Content_en.txt (8249 chars)
-09-10 17:21:49   [Antonyms] wrote Mind_Map_hi.txt (1491 chars)
-09-10 17:21:53   [Synonyms] wrote PYQ_hi.txt (6050 chars)
-09-10 17:22:53   [Conjunction] review PYQ_en.txt: 2 issue(s): - Q9 answer is (c) but solution states both "whether" and "if" are used after "doubt", making (d) both (b) and (c) the 
-09-10 17:23:13   [Synonyms] wrote Short_Tricks_en.txt (6317 chars)
-09-10 17:23:13   [Sentence_Structure] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 17:23:15   [Idioms_Phrases] wrote Content_hi.txt (8332 chars)
-09-10 17:23:38   [Narration] review Important_Rules_en.txt: 1 issue(s): - In the morphology table, the 'Assert' row lists "desert (grammar sense)" as a related word, but "desert" 
-09-10 17:24:05   [Idioms_Phrases] wrote Feynman_en.txt (2350 chars)
-09-10 17:25:20   [Idioms_Phrases] wrote Feynman_hi.txt (3274 chars)
-09-10 17:25:37   [Idioms_Phrases] wrote Mind_Map_en.txt (1391 chars)
-09-10 17:26:00   [Idioms_Phrases] wrote Mind_Map_hi.txt (1395 chars)
-09-10 17:26:27   [Sentence_Structure] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-09-10 17:26:44   [Preposition] review: 1 section(s) corrected, 1 failed
-09-10 17:26:44   [Preposition] written 1, failed 1; AI calls today 177/100000
 09-10 17:26:44 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_07_Preposition after 47 min: todo [] problems []
 09-10 17:26:45 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_07_Preposition (OK: todo 0, problems 0)
 09-10 17:26:46   [Idioms_Phrases] wrote Flashcards_en.txt (3260 chars)
@@ -91,4 +63,34 @@
 09-10 17:30:00   [Synonyms] wrote Important_Rules_hi.txt (6336 chars)
 09-10 17:30:02   [Narration] review: 6 section(s) corrected, 0 failed
 09-10 17:30:02   [Narration] written 6, failed 0; AI calls today 187/100000
+09-10 17:30:19 DONE 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_11_Narration in 50 min → 9bb33c05
+09-10 17:30:19 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_17_Spelling (TODO: todo 26, problems 0)
+09-10 17:30:25   [Conjunction] review Short_Tricks_hi.txt: 1 issue(s): - Invented statistic "80% बार" in skip strategy tip 2 → Replace with "अक्सर" or "अधिकांशतः"
+09-10 17:31:43   [Preposition] review PYQ_hi.txt: 3 issue(s): - '80% सवाल fixed preposition और in/on/at नियमों से बनते हैं' is an unverified exam statistic → Remove or replace with 
+09-10 17:32:10   [Synonyms] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 17:33:49   [Preposition] REJECTED review fix PYQ_hi.txt: corrupted characters
+09-10 17:33:49   [Preposition] review: 0 section(s) corrected, 1 failed
+09-10 17:33:49   [Preposition] written 0, failed 1; AI calls today 194/100000
+09-10 17:33:49 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_07_Preposition after 7 min: todo [] problems []
+09-10 17:33:50 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_18_Error_Spotting_Basic (TODO: todo 26, problems 0)
+09-10 17:34:00   [Synonyms] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 17:35:10   [Conjunction] review Important_Rules_hi.txt: 1 issue(s): - In the morphology table, the entry for 'join' (join + -t = joint) is etymologically incorrect; 'joint' de
+09-10 17:35:20   [Idioms_Phrases] wrote PYQ_hi.txt (6679 chars)
+09-10 17:35:28   [One_Word_Substitution] Content_en.txt try 1: answer too long — asking for a tighter version
+09-10 17:35:29   [Error_Spotting_Basic] wrote Content_en.txt (7891 chars)
+09-10 17:35:58   [Synonyms] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+09-10 17:37:14   [One_Word_Substitution] wrote Content_en.txt (8993 chars)
+09-10 17:37:17   [Idioms_Phrases] wrote Short_Tricks_en.txt (7399 chars)
+09-10 17:37:37   [Error_Spotting_Basic] wrote Content_hi.txt (6497 chars)
+09-10 17:37:38   [Synonyms] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 17:37:56   [Conjunction] review: 5 section(s) corrected, 1 failed
+09-10 17:37:56   [Conjunction] written 5, failed 1; AI calls today 205/100000
+09-10 17:37:56 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_08_Conjunction after 58 min: todo [] problems []
+09-10 17:37:57 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_08_Conjunction (OK: todo 0, problems 0)
+09-10 17:38:27   [Antonyms] Flashcards_en.txt try 1: answer too long — asking for a tighter version
+09-10 17:38:41   [Spelling] Content_en.txt try 1: rejected (chat debris "Text")
+09-10 17:38:49   [One_Word_Substitution] wrote Content_hi.txt (5394 chars)
+09-10 17:39:08   [Idioms_Phrases] wrote Short_Tricks_hi.txt (8421 chars)
+09-10 17:39:14   [Conjunction] review: 0 section(s) corrected, 0 failed
+09-10 17:39:14   [Conjunction] written 0, failed 0; AI calls today 209/100000
 ```
