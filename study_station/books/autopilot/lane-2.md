@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 09:09 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 09:10 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 World Geography (Graduation GK) | 🔎 review हो रहा है | 42 मिनट |
-| W2 | Chapter 14 Sports (Graduation GK) | ✍️ लिख रहा है | 2 मिनट |
-| W3 | Chapter 13 Awards (Graduation GK) | ✍️ लिख रहा है | 4 मिनट |
-| W4 | Chapter 11 Chemistry (Graduation GK) | 🔎 review हो रहा है | 39 मिनट |
-| W5 | Chapter 12 Biology (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 08 World Geography (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 14 Sports (Graduation GK) | ✍️ लिख रहा है | 3 मिनट |
+| W3 | Chapter 13 Awards (Graduation GK) | ✍️ लिख रहा है | 5 मिनट |
+| W4 | Chapter 11 Chemistry (Graduation GK) | 🔎 review हो रहा है | 40 मिनट |
+| W5 | Chapter 15 Days Dates (Graduation GK) | ✍️ लिख रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -25,15 +25,16 @@
 | 12th Maths | 0 | 0 | 23 |
 | 12th GK | 11 | 0 | 13 |
 | 12th Reasoning | 0 | 0 | 25 |
-| 12th English | 19 | 0 | 6 |
+| 12th English | 20 | 0 | 5 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 12 | 0 | 16 |
 | Graduation Reasoning | 1 | 0 | 29 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **122** | **13** | **161** |
+| **कुल** | **123** | **13** | **160** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 09:10 — Graduation GK · Chapter 08 World Geography
 - 09-10 09:09 — Graduation GK · Chapter 12 Biology
 - 09-10 09:06 — Graduation GK · Chapter 09 Economy Basic
 - 09-10 09:04 — Graduation GK · Chapter 10 Physics Daily
@@ -41,11 +42,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 08:46:30   [World_Geography] review Feynman_en.txt: 1 issue(s): - Earth's axis is tilted at about 23.5° from the vertical → Earth's axis is tilted at about 23.5° relative to the p
-09-10 08:46:43   [Chemistry] review Key_Facts_en.txt: 1 issue(s): -, Sh0
-09-10 08:49:30   [Physics_Daily] review Mind_Map.txt: 1 issue(s): - थर्मस – विकिरण रोक<br>Thermos – radiation stop → थर्मस – विकिरण को कम करता है<br>Thermos – reduces radiation
-09-10 08:50:29   [Economy_Basic] review Flashcards_en.txt: 1 issue(s): - Card 19: claims NDP/NNP is preferred for growth comparisons → the preferred measure for growth comparisons is 
-09-10 08:51:28   [Economy_Basic] REJECTED review fix Flashcards_en.txt: corrupted characters
 09-10 08:52:27   [World_Geography] review Feynman_hi.txt: 2 issue(s): - यानी जापान में सोमवार की सुबह हो रही है, तो उसी पल अमेरिका में रविवार की रात चल रही है! → यानी जापान में सोमवार क
 09-10 08:53:01   [Chemistry] review Feynman_hi.txt: 1 issue(s): - मोल की परिभाषा कार्बन-12 के 12 ग्राम पर आधारित है जो 2019 से पुरानी है → नई SI परिभाषा: 1 मोल वह पदार्थ की मात्रा
 09-10 08:55:17   [Biology] review Mind_Map.txt: 3 issue(s): - G: श्वसन तंत्र<br>Nervous System → तंत्रिका तंत्र<br>Nervous System
@@ -81,4 +77,9 @@
 09-10 09:09:09   [Sports] Practice_en_Set_01.txt try 2: rejected (answers not spread)
 09-10 09:09:37   [Biology] review: 3 section(s) corrected, 0 failed
 09-10 09:09:37   [Biology] written 3, failed 0; AI calls today 98/100000
+09-10 09:09:45   [Awards] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 09:09:48 DONE Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_12_Biology in 43 min → 0a276f59
+09-10 09:09:49 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_15_Days_Dates (TODO: todo 6, problems 0)
+09-10 09:10:28   [World_Geography] review: 5 section(s) corrected, 0 failed
+09-10 09:10:28   [World_Geography] written 5, failed 0; AI calls today 100/100000
 ```
