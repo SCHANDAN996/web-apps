@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 08:20 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 08:25 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 16 Books Authors (12th GK) | 🔎 review हो रहा है | 31 मिनट |
+| W3 | Chapter 16 Books Authors (12th GK) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -30,6 +30,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 08:25 — 12th GK · Chapter 16 Books Authors
 - 09-10 06:47 — 12th GK · Chapter 10 Physics Daily
 - 09-10 06:16 — 12th GK · Chapter 09 Economy Basic
 - 09-10 06:12 — 12th GK · Chapter 11 Chemistry
@@ -50,8 +51,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 07:39:15   [Sports] review Memory_Hooks_en.txt: 1 issue(s): - "Dadasaheb (Dharmasthala)" is factually incorrect; Dadasaheb Phalke (father of Indian cinema) is from Mahara
-09-10 07:40:12   [Awards] Practice_en_Set_04.txt try 2: re-solve disagrees (Q91 key a vs re-solve d, Q92 key d vs re-solve b)
 09-10 07:40:20   [Days_Dates] Practice_en_Set_06.txt try 1: re-solve disagrees (Q139 key c vs re-solve a, Q145 key a vs re-solve c)
 09-10 07:41:04   [Books_Authors] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 09-10 07:42:40   [Awards] Practice_en_Set_04.txt try 3: re-solve disagrees (Q100 key a vs re-solve b)
@@ -90,4 +89,6 @@
 09-10 08:10:44 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_13_Awards after 118 min: todo ['Set 01 hi: todo', 'Set 04 en: todo', 'Set 04 hi: todo', 'Set 05 hi: todo'] problems []
 09-10 08:10:44 worker 3: nothing left
 09-10 08:17:08   [Books_Authors] review Flashcards_hi.txt: 1 issue(s): - Card 18 front contains a wrong associative clue: "रेड फोर्ट से जुड़ी" (linked to Red Fort) for 'द टेस्ट ऑफ माई
+09-10 08:25:33   [Books_Authors] review: 6 section(s) corrected, 0 failed
+09-10 08:25:33   [Books_Authors] written 6, failed 0; AI calls today 616/100000
 ```
