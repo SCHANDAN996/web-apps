@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 10-10-2026 12:22 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
+**आख़िरी update:** 10-10-2026 12:37 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 149 मिनट |
-| W6 | Chapter 19 Statistics (12th Maths) | ✍️ लिख रहा है | 151 मिनट |
-| W7 | Chapter 23 Quadratic Equations (12th Maths) | ✍️ लिख रहा है | 77 मिनट |
-| W8 | Chapter 22 Number Series (12th Maths) | ✍️ लिख रहा है | 101 मिनट |
+| W3 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 164 मिनट |
+| W7 | Chapter 23 Quadratic Equations (12th Maths) | ✍️ लिख रहा है | 92 मिनट |
+| W8 | Chapter 22 Number Series (12th Maths) | ✍️ लिख रहा है | 116 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -55,29 +54,11 @@
 - Chapter 13 Mixture Alligation (Maths) — 2 बार
 - Chapter 18 Data Interpretation (Maths) — 1 बार
 - Chapter 21 Permutation Combination (Maths) — 1 बार
+- Chapter 19 Statistics (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 23:58:19   [Number_Series] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-09-10 23:59:08   [Number_Series] Practice_hi_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 23:59:15   [Quadratic_Equations] wrote Short_Tricks_hi.txt (7676 chars)
-09-10 23:59:46   [Statistics] Practice_en_Set_05.txt try 2: rejected (Q121:leaked_reasoning)
-09-10 23:59:51   [Quadratic_Equations] wrote Important_Formulas_en.txt (3192 chars)
-10-10 00:00:45   [Quadratic_Equations] wrote Important_Formulas_hi.txt (3418 chars)
-10-10 00:01:20   [Number_Series] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-10-10 00:01:59   [Permutation_Combination] Practice_en_Set_05.txt try 4: re-solve disagrees (Q114 key c vs re-solve d)
-10-10 00:01:59   [Permutation_Combination] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
-10-10 00:01:59   [Permutation_Combination] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
-10-10 00:02:55   [Probability] Practice_en_Set_04.txt try 2: re-solve disagrees (Q76 key c vs re-solve ?, Q78 key a vs re-solve ?)
-10-10 00:03:46   [Permutation_Combination] Practice_en_Set_06.txt try 1: rejected (Q131:leaked_reasoning)
-10-10 00:04:07   [Statistics] Practice_en_Set_05.txt try 3: re-solve disagrees (Q121 key d vs re-solve ?)
-10-10 00:04:23   [Quadratic_Equations] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-10-10 00:07:09   [Permutation_Combination] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-10-10 00:08:06   [Quadratic_Equations] Practice_hi_Set_01.txt try 1: rejected (parsed 4 questions, numbers 1…5)
-10-10 00:08:21   [Quadratic_Equations] Practice_hi_Set_01.txt try 2: rejected (parsed 0 questions, numbers -…-)
-10-10 00:09:05   [Number_Series] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-10-10 00:09:12   [Probability] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 10-10 00:10:05   [Trigonometry] review Short_Tricks_en.txt: 3 issue(s): - Trick 6 claims "80% of identity questions are solved by these three." → Invented exam statistic; replace wit
 10-10 00:10:58   [Statistics] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 10-10 00:12:04   [Permutation_Combination] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
@@ -99,4 +80,23 @@
 10-10 00:21:47 DONE 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_17_Trigonometry in 70 min → 19680adc
 10-10 00:21:47 worker 0: nothing left
 10-10 00:22:26   [Quadratic_Equations] Practice_en_Set_02.txt try 1: re-solve disagrees (Q32 key b vs re-solve ?)
+10-10 00:23:12   [Probability] Practice_en_Set_05.txt try 3: rejected (parsed 0 questions, numbers -…-)
+10-10 00:23:31   [Quadratic_Equations] Practice_en_Set_02.txt try 2: rejected (Q32:leaked_reasoning)
+10-10 00:24:39   [Probability] Practice_en_Set_05.txt try 4: rejected (parsed 23 questions, numbers 101…125)
+10-10 00:24:39   [Probability] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
+10-10 00:24:39   [Probability] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
+10-10 00:28:39   [Probability] Practice_en_Set_06.txt try 1: rejected (parsed 22 questions, numbers 126…150)
+10-10 00:29:25   [Quadratic_Equations] Practice_en_Set_02.txt try 3: rejected (parsed 0 questions, numbers -…-)
+10-10 00:30:18   [Probability] Practice_en_Set_06.txt try 2: rejected (parsed 24 questions, numbers 126…149)
+10-10 00:31:11   [Quadratic_Equations] Practice_en_Set_02.txt try 4: rejected (Q28:leaked_reasoning,Q34:leaked_reasoning)
+10-10 00:31:11   [Quadratic_Equations] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
+10-10 00:31:11   [Quadratic_Equations] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+10-10 00:31:51   [Number_Series] Practice_en_Set_06.txt try 2: re-solve disagrees (Q137 key c vs re-solve a)
+10-10 00:32:34   [Statistics] FAILED Practice_en_Set_06.txt: too_long
+10-10 00:32:34   [Statistics] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+10-10 00:32:34   [Statistics] written 21, failed 4; AI calls today 45/100000
+10-10 00:32:34 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_19_Statistics after 161 min: todo ['Set 03 en: todo', 'Set 03 hi: todo', 'Set 06 en: todo', 'Set 06 hi: todo'] problems ['PYQ_hi.txt: much shorter than the English section (337 vs 77']
+10-10 00:32:34 worker 5: nothing left
+10-10 00:33:35   [Quadratic_Equations] Practice_en_Set_03.txt try 1: rejected (Q56:leaked_reasoning)
+10-10 00:36:34   [Quadratic_Equations] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 ```
