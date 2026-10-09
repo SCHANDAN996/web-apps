@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 09-10-2026 11:44 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 11:59 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 119 मिनट |
-| W2 | Chapter 09 Venn Diagrams (Graduation Reasoning) | ✍️ लिख रहा है | 89 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 141 मिनट |
-| W4 | Chapter 10 Clock Calendar (Graduation Reasoning) | ✍️ लिख रहा है | 33 मिनट |
-| W5 | Chapter 11 Series (Graduation Reasoning) | ✍️ लिख रहा है | 7 मिनट |
+| W1 | Chapter 08 Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 134 मिनट |
+| W2 | Chapter 09 Venn Diagrams (Graduation Reasoning) | ✍️ लिख रहा है | 104 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | ✍️ लिख रहा है | 156 मिनट |
+| W4 | Chapter 10 Clock Calendar (Graduation Reasoning) | ✍️ लिख रहा है | 48 मिनट |
+| W5 | Chapter 11 Series (Graduation Reasoning) | ✍️ लिख रहा है | 23 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -29,10 +29,10 @@
 | 12th Reasoning | 0 | 0 | 25 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 15 | 0 | 13 |
+| Graduation GK | 16 | 0 | 12 |
 | Graduation Reasoning | 3 | 1 | 26 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **135** | **14** | **147** |
+| **कुल** | **136** | **14** | **146** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -50,15 +50,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 11:11:03   [Blood_Relations] review Flashcards_hi.txt: 4 issue(s): - Card 1 answer incorrectly states C is wife of A → C is husband of B, so C is son‑in‑law of A (A is father‑in‑l
-09-10 11:12:19   [Clock_Calendar] wrote Content_en.txt (8716 chars)
-09-10 11:13:00   [Venn_Diagrams] FAILED Practice_en_Set_01.txt: too_long
-09-10 11:13:00   [Venn_Diagrams] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
-09-10 11:15:46   [Clock_Calendar] wrote Content_hi.txt (7392 chars)
-09-10 11:16:11   [Puzzles] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-09-10 11:16:26   [Clock_Calendar] wrote Feynman_en.txt (2822 chars)
-09-10 11:17:23   [Clock_Calendar] wrote Feynman_hi.txt (2406 chars)
-09-10 11:17:35   [Venn_Diagrams] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 09-10 11:17:43   [Blood_Relations] review PYQ_en.txt: 3 issue(s): - Q2 answer (b) is incorrect for the given symbol definitions; with '-' meaning 'sister', P is maternal aunt, not uncle
 09-10 11:18:17   [Clock_Calendar] wrote Mind_Map.txt (2559 chars)
 09-10 11:19:36   [Puzzles] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
@@ -90,4 +81,13 @@
 09-10 11:41:35   [Puzzles] Practice_en_Set_03.txt try 2: re-solve disagrees (Q54 key d vs re-solve a)
 09-10 11:42:35   [Series] wrote Content_hi.txt (6815 chars)
 09-10 11:43:38   [Clock_Calendar] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 11:45:44   [Series] wrote Feynman_en.txt (3310 chars)
+09-10 11:46:27   [Clock_Calendar] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 11:47:35   [Series] wrote Feynman_hi.txt (2838 chars)
+09-10 11:49:01   [Sitting_Arrangement] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+09-10 11:49:26   [Venn_Diagrams] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 11:51:55   [Series] FAILED Mind_Map.txt: rate_limited
+09-10 11:52:37   [Venn_Diagrams] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 11:55:39   [Venn_Diagrams] Practice_en_Set_06.txt try 1: rejected (parsed 24 questions, numbers 126…150)
+09-10 11:57:18   [Sitting_Arrangement] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 ```
