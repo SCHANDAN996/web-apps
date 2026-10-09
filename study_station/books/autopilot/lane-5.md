@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 09-10-2026 08:54 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
+**आख़िरी update:** 09-10-2026 09:00 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,13 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Time Work (10th Maths) | 🔎 review हो रहा है | 9 मिनट |
-| W2 | Chapter 10 Compound Interest (10th Maths) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 20 Sentence Improvement Basic (10th English) | 🔎 review हो रहा है | 12 मिनट |
-| W4 | Chapter 16 Algebra (10th Maths) | 🔧 सुधार रहा है | 37 मिनट |
-| W5 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 83 मिनट |
-| W6 | Chapter 12 Time Distance (10th Maths) | 🔎 review हो रहा है | 23 मिनट |
-| W7 | Chapter 14 Mensuration (10th Maths) | 🔧 सुधार रहा है | 9 मिनट |
-| W8 | Chapter 15 Geometry (10th Maths) | 🔎 review हो रहा है | 7 मिनट |
+| W1 | Chapter 11 Time Work (10th Maths) | 🔎 review हो रहा है | 16 मिनट |
+| W3 | Chapter 20 Sentence Improvement Basic (10th English) | 🔎 review हो रहा है | 18 मिनट |
+| W4 | Chapter 16 Algebra (10th Maths) | 🔧 सुधार रहा है | 43 मिनट |
+| W5 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 90 मिनट |
+| W6 | Chapter 12 Time Distance (10th Maths) | 🔎 review हो रहा है | 30 मिनट |
+| W7 | Chapter 14 Mensuration (10th Maths) | 🔎 review हो रहा है | 6 मिनट |
+| W8 | Chapter 15 Geometry (10th Maths) | 🔎 review हो रहा है | 14 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -23,17 +22,17 @@
 |---|---|---|---|
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
-| 10th Maths | 13 | 9 | 0 |
+| 10th Maths | 14 | 8 | 0 |
 | 10th English | 16 | 3 | 1 |
-| 12th Maths | 5 | 0 | 18 |
+| 12th Maths | 7 | 0 | 16 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 6 | 0 | 19 |
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 1 | 0 | 27 |
-| Graduation GK | 25 | 0 | 3 |
+| Graduation GK | 26 | 0 | 2 |
 | Graduation Reasoning | 8 | 0 | 22 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **191** | **12** | **93** |
+| **कुल** | **195** | **11** | **90** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -62,19 +61,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 20:29:29   [Time_Distance] repaired set 06 (en + hi, key confirmed by an independent re-solve)
-09-10 20:29:29   [Time_Distance] written 10, failed 0; AI calls today 745/100000
-09-10 20:30:37   [Time_Distance] repaired Content_hi.txt (3492 chars)
-09-10 20:30:37   [Time_Distance] written 1, failed 0; AI calls today 748/100000
-09-10 20:31:33   [Sentence_Improvement_Basic] FAILED Practice_en_Set_06.txt: too_long
-09-10 20:31:33   [Sentence_Improvement_Basic] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-09-10 20:31:33   [Sentence_Improvement_Basic] written 24, failed 2; AI calls today 749/100000
-09-10 20:31:33 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_20_Sentence_Improvement_Basic after 88 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems []
-09-10 20:31:34 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_20_Sentence_Improvement_Basic (TODO: todo 2, problems 0)
-09-10 20:31:34   [Mensuration] repaired set 05 (en + hi, key confirmed by an independent re-solve)
-09-10 20:32:47   [Compound_Interest] review Feynman_en.txt: 1 issue(s): - Year 3 amount for goblin bank is given as ₹133, but 100 × 1.1³ = ₹133.10 → Should be ₹133.10 or stated as approxi
-09-10 20:32:49   [Mixture_Alligation] Practice_hi_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 20:33:37   [Algebra] repaired set 02 (en + hi, key confirmed by an independent re-solve)
 09-10 20:35:09   [Geometry] repaired set 05 (en + hi, key confirmed by an independent re-solve)
 09-10 20:36:09   [Mixture_Alligation] repaired set 04 (en + hi, key confirmed by an independent re-solve)
 09-10 20:36:12   [Mixture_Alligation] set 05 try 1: rejected (parsed 0 questions, numbers -…-)
@@ -102,4 +88,17 @@
 09-10 20:54:12   [Compound_Interest] review: 7 section(s) corrected, 0 failed
 09-10 20:54:12   [Compound_Interest] written 7, failed 0; AI calls today 816/100000
 09-10 20:54:15   [Time_Distance] review PYQ_hi.txt: 1 issue(s): - The PYQ analysis table lists invented weightage percentages (35%, 25%, 15%, 90%, 10%, 10%, 5%) with no source → Delet
+09-10 20:54:29   [Sentence_Improvement_Basic] review Flashcards_en.txt: 1 issue(s): - Card 3: 'Like' is listed as a verb always followed by a gerund, but it can also take an infinitive (e.g., 'I l
+09-10 20:54:32 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_10_Compound_Interest in 101 min → 4edb14bf
+09-10 20:54:32 worker 1: nothing left
+09-10 20:54:34   [Mensuration] repaired set 03 (en + hi, key confirmed by an independent re-solve)
+09-10 20:54:34   [Mensuration] written 1, failed 0; AI calls today 820/100000
+09-10 20:55:24   [Mixture_Alligation] Practice_hi_Set_05.txt try 3: rejected (parsed 24 questions, numbers 101…125)
+09-10 20:56:04   [Sentence_Improvement_Basic] review Flashcards_hi.txt: 2 issue(s): - Card 3 lists “Wages” as a word that looks plural but takes a singular verb; “wages” is normally plural (e.g., 
+09-10 20:56:56   [Algebra] repaired set 05 (en + hi, key confirmed by an independent re-solve)
+09-10 20:57:46   [Time_Work] review Content_hi.txt: 1 issue(s): - In the introductory story, the king offers 30 additional workers (making 50 total), but the immediate brain-tease
+09-10 20:58:12   [Mixture_Alligation] Practice_hi_Set_05.txt try 4: rejected (parsed 24 questions, numbers 101…125)
+09-10 20:58:12   [Mixture_Alligation] REJECTED Practice_hi_Set_05.txt: no translation passed the checks — not written
+09-10 20:58:12   [Mixture_Alligation] FAILED set 05: Hindi translation rejected — files left as they were
+09-10 21:00:11   [Mensuration] review Content_hi.txt: 4 issue(s): - "परिमाप ऐसे है जैसे" → "परिमाप ऐसा है जैसे" (विषय 'परिमाप' पुल्लिंग एकवचन है, इसलिए विशेषण 'ऐसा' आएगा)
 ```
