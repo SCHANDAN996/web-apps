@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 03:09 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 03:24 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 LCM HCF (12th Maths) | ✍️ लिख रहा है | 17 मिनट |
-| W2 | Chapter 05 Percentage (12th Maths) | ✍️ लिख रहा है | 4 मिनट |
-| W3 | Chapter 04 Fractions Decimals (12th Maths) | ✍️ लिख रहा है | 7 मिनट |
-| W4 | Chapter 01 Number System (12th Maths) | ✍️ लिख रहा है | 21 मिनट |
-| W5 | Chapter 03 Simplification (12th Maths) | ✍️ लिख रहा है | 16 मिनट |
+| W1 | Chapter 02 LCM HCF (12th Maths) | ✍️ लिख रहा है | 33 मिनट |
+| W2 | Chapter 05 Percentage (12th Maths) | ✍️ लिख रहा है | 19 मिनट |
+| W3 | Chapter 04 Fractions Decimals (12th Maths) | ✍️ लिख रहा है | 22 मिनट |
+| W4 | Chapter 01 Number System (12th Maths) | 🔧 सुधार रहा है | 0 मिनट |
+| W5 | Chapter 03 Simplification (12th Maths) | ✍️ लिख रहा है | 31 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -22,15 +22,15 @@
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 9 | 13 | 0 |
 | 10th English | 3 | 0 | 17 |
-| 12th Maths | 0 | 0 | 23 |
+| 12th Maths | 0 | 1 | 22 |
 | 12th GK | 22 | 2 | 0 |
 | 12th Reasoning | 2 | 0 | 23 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 20 | 0 | 8 |
-| Graduation Reasoning | 4 | 0 | 26 |
+| Graduation Reasoning | 5 | 0 | 25 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **153** | **15** | **128** |
+| **कुल** | **154** | **16** | **126** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -48,33 +48,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 14:50:31   [Reports_Indices] review Memory_Hooks_hi.txt: 1 issue(s): - Mnemonic 9 heading "4 खंभे: एस-पी-एच-ई" is wrong; the four pillars of the Global Gender Gap Index are Econom
-09-10 14:50:56   [Modern_History] review: 1 section(s) corrected, 0 failed
-09-10 14:50:56   [Modern_History] written 1, failed 0; AI calls today 110/100000
-09-10 14:51:09 DONE 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_03_Modern_History in 3 min → 985acc0b
-09-10 14:51:11 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_02_LCM_HCF (TODO: todo 8, problems 2)
-09-10 14:51:37   [International_Orgs] review Memory_Hooks_hi.txt: 2 issue(s): - "एंतोनियो गुतेरेश (पुर्तगाल) — वर्तमान" without a year → add year (e.g., "2017 से वर्तमान") or omit "वर्तमान
-09-10 14:51:58   [Number_System] Practice_en_Set_04.txt try 1: rejected (Q93:leaked_reasoning)
-09-10 14:52:12   [LCM_HCF] wrote Feynman_hi.txt (2728 chars)
-09-10 14:52:33   [Reports_Indices] review: 5 section(s) corrected, 1 failed
-09-10 14:52:33   [Reports_Indices] written 5, failed 1; AI calls today 117/100000
-09-10 14:52:33 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_24_Reports_Indices after 52 min: todo [] problems []
-09-10 14:52:34 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_24_Reports_Indices (OK: todo 0, problems 0)
-09-10 14:52:42   [International_Orgs] review: 7 section(s) corrected, 0 failed
-09-10 14:52:42   [International_Orgs] written 7, failed 0; AI calls today 118/100000
-09-10 14:52:53 DONE 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_21_International_Orgs in 60 min → 38e9f368
-09-10 14:52:54 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_03_Simplification (TODO: todo 25, problems 0)
-09-10 14:54:42   [Simplification] Content_en.txt try 1: rejected (chat debris "Here's the")
-09-10 14:54:54   [LCM_HCF] wrote Flashcards_hi.txt (3220 chars)
-09-10 14:55:51   [Simplification] wrote Content_en.txt (8282 chars)
-09-10 14:58:49   [LCM_HCF] Practice_en_Set_04.txt try 1: rejected (Q87:answer_solution_conflict)
-09-10 14:58:50   [Govt_Schemes] review Memory_Hooks_hi.txt: 1 issue(s): - Mnemonic 12: "पोषण = पौष्टिक भाता" — 'भाता' is incorrect Hindi for food (it means 'likes') → should be "पौष्
-09-10 14:59:18   [Simplification] wrote Content_hi.txt (7428 chars)
-09-10 14:59:50   [Simplification] Feynman_en.txt try 1: rejected (chat debris "Here's the")
-09-10 15:00:47   [Simplification] Feynman_en.txt try 2: rejected (chat debris "Here's the")
-09-10 15:00:47   [Simplification] REJECTED Feynman_en.txt: chat debris "Here's the" — not written
-09-10 15:01:16   [Govt_Schemes] review: 4 section(s) corrected, 0 failed
-09-10 15:01:16   [Govt_Schemes] written 4, failed 0; AI calls today 131/100000
 09-10 15:01:30 DONE 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_25_Govt_Schemes in 56 min → 7a0671a9
 09-10 15:01:31 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_04_Fractions_Decimals (TODO: todo 25, problems 0)
 09-10 15:02:32   [Reports_Indices] review Content_en.txt: 2 issue(s): - The claim that SSC, Banking, Railway and State PCS papers ask 2–4 questions from reports and indices every year i
@@ -88,4 +61,31 @@
 09-10 15:07:18   [Number_System] Practice_en_Set_04.txt try 2: re-solve disagrees (Q80 key c vs re-solve ?)
 09-10 15:07:54   [Percentage] wrote Content_hi.txt (5994 chars)
 09-10 15:08:37   [Percentage] Feynman_en.txt try 1: rejected (chat debris "Here's the")
+09-10 15:09:29   [Simplification] Feynman_hi.txt try 1: rejected (corrupted characters)
+09-10 15:09:35   [Percentage] wrote Feynman_en.txt (3107 chars)
+09-10 15:09:53   [LCM_HCF] Practice_en_Set_04.txt try 2: re-solve disagrees (Q96 key d vs re-solve -, Q97 key b vs re-solve -, Q98 key d vs re-solve -, Q99 key d vs re-solve -, 
+09-10 15:10:19   [Number_System] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 15:10:39   [Fractions_Decimals] wrote Content_hi.txt (6777 chars)
+09-10 15:10:55   [Percentage] wrote Feynman_hi.txt (2182 chars)
+09-10 15:11:18   [Simplification] wrote Feynman_hi.txt (2524 chars)
+09-10 15:11:54   [Fractions_Decimals] wrote Feynman_en.txt (2479 chars)
+09-10 15:12:23   [Percentage] wrote Mind_Map.txt (1662 chars)
+09-10 15:12:37   [Number_System] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 15:13:16   [Fractions_Decimals] wrote Feynman_hi.txt (2144 chars)
+09-10 15:13:56   [Percentage] wrote Flashcards_en.txt (3733 chars)
+09-10 15:14:44   [Fractions_Decimals] wrote Mind_Map.txt (2112 chars)
+09-10 15:14:50   [LCM_HCF] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 15:15:04   [Number_System] Practice_en_Set_06.txt try 1: rejected (Q136:leaked_reasoning,Q139:leaked_reasoning,Q143:leaked_reasoning,Q146:leaked_reasoning,Q148:leaked_reasoning)
+09-10 15:15:59   [Percentage] wrote Flashcards_hi.txt (2215 chars)
+09-10 15:17:30   [Fractions_Decimals] wrote Flashcards_en.txt (3686 chars)
+09-10 15:18:03   [LCM_HCF] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 15:19:06   [Fractions_Decimals] wrote Flashcards_hi.txt (3481 chars)
+09-10 15:20:24   [Percentage] PYQ_en.txt try 1: rejected (corrupted characters)
+09-10 15:20:34   [Fractions_Decimals] wrote PYQ_en.txt (7128 chars)
+09-10 15:20:44   [Number_System] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 15:21:48   [Percentage] wrote PYQ_en.txt (7229 chars)
+09-10 15:23:58   [Fractions_Decimals] wrote PYQ_hi.txt (6570 chars)
+09-10 15:23:59   [Percentage] wrote PYQ_hi.txt (6824 chars)
+09-10 15:24:16   [Number_System] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+09-10 15:24:16   [Number_System] written 5, failed 0; AI calls today 169/100000
 ```
