@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 05:57 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 06:12 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 8 मिनट |
-| W2 | Chapter 08 Puzzles (12th Reasoning) | ✍️ लिख रहा है | 152 मिनट |
-| W3 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 14 मिनट |
-| W4 | Chapter 09 Venn Diagrams (12th Reasoning) | ✍️ लिख रहा है | 79 मिनट |
-| W5 | Chapter 04 Blood Relations (12th Reasoning) | 🔎 review हो रहा है | 18 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 23 मिनट |
+| W2 | Chapter 08 Puzzles (12th Reasoning) | ✍️ लिख रहा है | 168 मिनट |
+| W3 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 30 मिनट |
+| W4 | Chapter 09 Venn Diagrams (12th Reasoning) | ✍️ लिख रहा है | 94 मिनट |
+| W5 | Chapter 04 Blood Relations (12th Reasoning) | 🔎 review हो रहा है | 33 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -49,19 +49,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 17:26:09   [Venn_Diagrams] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 17:27:19   [Sitting_Arrangement] Practice_en_Set_05.txt try 3: rejected (parsed 2 questions, numbers 101…102)
-09-10 17:28:43   [Venn_Diagrams] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-09-10 17:31:48   [Venn_Diagrams] Practice_en_Set_02.txt try 1: rejected (parsed 24 questions, numbers 26…50)
-09-10 17:32:09   [Puzzles] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-09-10 17:35:06   [Blood_Relations] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-09-10 17:36:26   [Puzzles] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-09-10 17:37:58   [Blood_Relations] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-09-10 17:37:58   [Blood_Relations] written 6, failed 0; AI calls today 245/100000
-09-10 17:38:32   [Puzzles] Practice_en_Set_03.txt try 1: rejected (Q60:leaked_reasoning,Q73:leaked_reasoning,Q75:leaked_reasoning)
-09-10 17:39:09   [Blood_Relations] repaired Flashcards_hi.txt (2673 chars)
-09-10 17:39:09   [Blood_Relations] written 1, failed 0; AI calls today 247/100000
-09-10 17:41:58   [Blood_Relations] review Content_en.txt: 1 issue(s): - Active Recall answer for "He is the son of my mother's only daughter" incorrectly states "my brother" → Correct: 
 09-10 17:42:45   [Direction_Sense] FAILED Practice_en_Set_06.txt: too_long
 09-10 17:42:45   [Direction_Sense] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
 09-10 17:42:45   [Direction_Sense] written 5, failed 6; AI calls today 249/100000
@@ -89,4 +76,17 @@
 09-10 17:55:49   [Venn_Diagrams] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 09-10 17:56:22   [Puzzles] FAILED Practice_en_Set_03.txt: rate_limited
 09-10 17:56:22   [Puzzles] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
+09-10 17:58:06   [Puzzles] Practice_en_Set_04.txt try 1: rejected (Q84:leaked_reasoning,Q89:leaked_reasoning,Q94:leaked_reasoning)
+09-10 17:59:03   [Blood_Relations] review PYQ_en.txt: 3 issue(s): - Q1 answer (b) is incorrect: P − Q means P is sister of Q (female), so P cannot be maternal uncle (male); no option co
+09-10 18:00:25   [Direction_Sense] Practice_en_Set_05.txt try 2: re-solve disagrees (Q103 key a vs re-solve b, Q122 key b vs re-solve a)
+09-10 18:04:31   [Blood_Relations] review PYQ_hi.txt: 4 issue(s): - Question 1 initial answer "(b) पति" is incorrect → the correct relation is maternal grandfather (नाना), which is not 
+09-10 18:06:30   [Sitting_Arrangement] Practice_en_Set_01.txt try 2: re-solve disagrees (Q24 key d vs re-solve c)
+09-10 18:07:10   [Venn_Diagrams] Practice_en_Set_03.txt try 1: re-solve disagrees (Q62 key a vs re-solve b)
+09-10 18:08:22   [Blood_Relations] review Short_Tricks_en.txt: 1 issue(s): - BOX 1 "MOM KNOWS BEST" contains only repetitive tautological lines ("MOM" = "MOM" (Mother)) instead of a val
+09-10 18:09:54   [Sitting_Arrangement] Practice_en_Set_01.txt try 3: rejected (parsed 0 questions, numbers -…-)
+09-10 18:10:39   [Blood_Relations] review Short_Tricks_hi.txt: 1 issue(s): - Trick 6 wrongly states "पत्नी के रिश्ते = 'ससुराल पक्ष', पति के रिश्ते = 'मायका पक्ष'" → "मायका" is exclusiv
+09-10 18:12:07   [Sitting_Arrangement] Practice_en_Set_01.txt try 4: rejected (Q2:needs_context,Q3:needs_context,Q4:needs_context,Q5:needs_context,Q21:leaked_reasoning)
+09-10 18:12:07   [Sitting_Arrangement] REJECTED Practice_en_Set_01.txt: no version passed the checks — not written
+09-10 18:12:07   [Sitting_Arrangement] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
+09-10 18:12:20   [Venn_Diagrams] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 ```
