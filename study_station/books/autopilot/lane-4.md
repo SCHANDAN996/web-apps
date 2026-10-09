@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 08:05 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 08:20 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 16 Books Authors (12th GK) | 🔎 review हो रहा है | 16 मिनट |
-| W4 | Chapter 13 Awards (12th GK) | ✍️ लिख रहा है | 112 मिनट |
+| W3 | Chapter 16 Books Authors (12th GK) | 🔎 review हो रहा है | 31 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -46,18 +45,11 @@
 - Chapter 12 Biology (GK) — 1 बार
 - Chapter 15 Days Dates (GK) — 1 बार
 - Chapter 14 Sports (GK) — 1 बार
+- Chapter 13 Awards (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 07:30:33   [Books_Authors] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 07:32:13   [Awards] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-09-10 07:34:18   [Awards] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-09-10 07:35:40   [Days_Dates] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-09-10 07:36:50   [Sports] review PYQ_hi.txt: 2 issue(s): - "दादाभाई नौरोजी" को खेल पुरस्कार/ट्रॉफी के रूप में सूचीबद्ध किया गया है → ऐसा कोई खेल पुरस्कार नहीं है; सही आजीवन उपल
-09-10 07:37:04   [Books_Authors] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-09-10 07:37:26   [Awards] Practice_en_Set_04.txt try 1: re-solve disagrees (Q92 key a vs re-solve b)
-09-10 07:37:29   [Days_Dates] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 09-10 07:39:15   [Sports] review Memory_Hooks_en.txt: 1 issue(s): - "Dadasaheb (Dharmasthala)" is factually incorrect; Dadasaheb Phalke (father of Indian cinema) is from Mahara
 09-10 07:40:12   [Awards] Practice_en_Set_04.txt try 2: re-solve disagrees (Q91 key a vs re-solve d, Q92 key d vs re-solve b)
 09-10 07:40:20   [Days_Dates] Practice_en_Set_06.txt try 1: re-solve disagrees (Q139 key c vs re-solve a, Q145 key a vs re-solve c)
@@ -90,4 +82,12 @@
 09-10 08:03:47   [Books_Authors] review Key_Facts_en.txt: 1 issue(s): - The entire section is corrupted with processing artifacts (`<|close|>`, `<|open|>`, `think`, `prompt`, `=`, `、`
 09-10 08:05:13   [Awards] Practice_hi_Set_05.txt try 4: rejected (Q122:needs_context)
 09-10 08:05:13   [Awards] REJECTED Practice_hi_Set_05.txt: no translation passed the checks — not written
+09-10 08:07:14   [Books_Authors] review Key_Facts_hi.txt: 2 issue(s): - Part 1 entry for “अनसूटेबल बॉय” states “करण जौहर नहीं — यह गलत; सही: 'अन अनसूटेबल बॉय' करण जौहर की ही है”, whic
+09-10 08:08:35   [Awards] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 08:09:12   [Books_Authors] review Feynman_en.txt: 1 issue(s): - Misspelling of author name "Khuswant Singh" in the twin-pair table → should be "Khushwant Singh" (consistent spel
+09-10 08:10:44   [Awards] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+09-10 08:10:44   [Awards] written 21, failed 4; AI calls today 608/100000
+09-10 08:10:44 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_13_Awards after 118 min: todo ['Set 01 hi: todo', 'Set 04 en: todo', 'Set 04 hi: todo', 'Set 05 hi: todo'] problems []
+09-10 08:10:44 worker 3: nothing left
+09-10 08:17:08   [Books_Authors] review Flashcards_hi.txt: 1 issue(s): - Card 18 front contains a wrong associative clue: "रेड फोर्ट से जुड़ी" (linked to Red Fort) for 'द टेस्ट ऑफ माई
 ```
