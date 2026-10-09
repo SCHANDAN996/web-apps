@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 10:46 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:12 PM
+**आख़िरी update:** 09-10-2026 11:01 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:12 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 Fractions Decimals (Graduation Maths) | 🔎 review हो रहा है | 7 मिनट |
-| W2 | Chapter 12 Time Distance (Graduation Maths) | ✍️ लिख रहा है | 35 मिनट |
-| W3 | Chapter 13 Mixture Alligation (Graduation Maths) | ✍️ लिख रहा है | 13 मिनट |
-| W4 | Chapter 08 Profit Loss (Graduation Maths) | 🔎 review हो रहा है | 12 मिनट |
-| W5 | Chapter 09 Simple Interest (Graduation Maths) | 🔎 review हो रहा है | 4 मिनट |
-| W6 | Chapter 07 Ratio Proportion (Graduation Maths) | ✍️ लिख रहा है | 128 मिनट |
-| W7 | Chapter 11 Time Work (Graduation Maths) | ✍️ लिख रहा है | 45 मिनट |
-| W8 | Chapter 10 Compound Interest (Graduation Maths) | ✍️ लिख रहा है | 46 मिनट |
+| W1 | Chapter 04 Fractions Decimals (Graduation Maths) | 🔎 review हो रहा है | 22 मिनट |
+| W2 | Chapter 12 Time Distance (Graduation Maths) | ✍️ लिख रहा है | 50 मिनट |
+| W3 | Chapter 13 Mixture Alligation (Graduation Maths) | ✍️ लिख रहा है | 28 मिनट |
+| W4 | Chapter 08 Profit Loss (Graduation Maths) | 🔎 review हो रहा है | 27 मिनट |
+| W5 | Chapter 09 Simple Interest (Graduation Maths) | 🔎 review हो रहा है | 19 मिनट |
+| W6 | Chapter 07 Ratio Proportion (Graduation Maths) | ✍️ लिख रहा है | 13 मिनट |
+| W7 | Chapter 11 Time Work (Graduation Maths) | ✍️ लिख रहा है | 60 मिनट |
+| W8 | Chapter 10 Compound Interest (Graduation Maths) | ✍️ लिख रहा है | 61 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -24,7 +24,7 @@
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 14 | 8 | 0 |
-| 10th English | 15 | 0 | 5 |
+| 10th English | 17 | 0 | 3 |
 | 12th Maths | 10 | 0 | 13 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 7 | 0 | 18 |
@@ -33,7 +33,7 @@
 | Graduation GK | 27 | 1 | 0 |
 | Graduation Reasoning | 9 | 0 | 21 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **205** | **9** | **82** |
+| **कुल** | **207** | **9** | **80** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -51,27 +51,11 @@
 - Chapter 05 Percentage (Maths) — 2 बार
 - Chapter 02 LCM HCF (Maths) — 2 बार
 - Chapter 04 Fractions Decimals (Maths) — 1 बार
+- Chapter 07 Ratio Proportion (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 22:27:51   [Profit_Loss] Practice_en_Set_06.txt try 2: re-solve disagrees (Q136 key a vs re-solve b)
-09-10 22:30:00   [Simple_Interest] Practice_en_Set_06.txt try 2: rejected (Q129:leaked_reasoning)
-09-10 22:30:35   [Average] review Important_Formulas_en.txt: 1 issue(s): - The second table row is completely corrupted: it merges multiple columns, shows a wrong formula "n(n1)
-09-10 22:32:25   [Profit_Loss] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-09-10 22:33:07   [Average] review: 7 section(s) corrected, 0 failed
-09-10 22:33:07   [Average] written 7, failed 0; AI calls today 560/100000
-09-10 22:33:20 DONE Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_06_Average in 36 min → 8389caa8
-09-10 22:33:22 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_13_Mixture_Alligation (TODO: todo 25, problems 0)
-09-10 22:34:38   [Profit_Loss] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-09-10 22:34:38   [Profit_Loss] written 25, failed 0; AI calls today 561/100000
-09-10 22:35:03   [Mixture_Alligation] Content_en.txt try 1: rejected (chat debris "Here's the")
-09-10 22:35:31   [Fractions_Decimals] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-09-10 22:37:08   [Mixture_Alligation] Content_en.txt try 2: rejected (chat debris "Here is the")
-09-10 22:37:08   [Mixture_Alligation] REJECTED Content_en.txt: chat debris "Here is the" — not written
-09-10 22:37:36   [Compound_Interest] Practice_en_Set_01.txt try 3: re-solve disagrees (Q24 key c vs re-solve a)
-09-10 22:37:51   [Fractions_Decimals] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 22:37:51   [Fractions_Decimals] written 4, failed 0; AI calls today 566/100000
 09-10 22:38:04   [Simple_Interest] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 09-10 22:39:09   [Fractions_Decimals] repaired Important_Formulas_hi.txt (3991 chars)
 09-10 22:39:09   [Fractions_Decimals] written 1, failed 0; AI calls today 569/100000
@@ -95,4 +79,21 @@
 09-10 22:45:18   [Compound_Interest] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
 09-10 22:45:31   [Ratio_Proportion] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 09-10 22:46:07   [Simple_Interest] review Content_en.txt: 1 issue(s): - The formula D = nx + x·R·n(n−1)/200 for the loan amount in equal annual instalments under SI is incorrect; the co
+09-10 22:47:17   [Mixture_Alligation] wrote PYQ_en.txt (9085 chars)
+09-10 22:48:17   [Ratio_Proportion] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+09-10 22:48:17   [Ratio_Proportion] written 22, failed 3; AI calls today 593/100000
+09-10 22:48:17 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_07_Ratio_Proportion after 130 min: todo ['Feynman_en.txt', 'Set 02 en: todo', 'Set 02 hi: todo'] problems []
+09-10 22:48:19 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_07_Ratio_Proportion (TODO: todo 3, problems 0)
+09-10 22:49:17   [Ratio_Proportion] Feynman_en.txt try 1: rejected (chat debris "Here's the")
+09-10 22:50:09   [Mixture_Alligation] wrote PYQ_hi.txt (8038 chars)
+09-10 22:50:13   [Ratio_Proportion] wrote Feynman_en.txt (3152 chars)
+09-10 22:50:32   [Ratio_Proportion] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 22:50:35   [Fractions_Decimals] review Content_hi.txt: 2 issue(s): - Hook story claims all three friends are correct (तीनों सही हैं), but the first friend's answer ₹33 is exactly cor
+09-10 22:51:20   [Mixture_Alligation] wrote Short_Tricks_en.txt (5710 chars)
+09-10 22:53:27   [Simple_Interest] review Content_hi.txt: 2 issue(s): - In Part 4, the two-rate example (₹12,000 split at 5% and 8% for 2 years, total interest ₹1,560) incorrectly state
+09-10 22:53:31   [Mixture_Alligation] wrote Short_Tricks_hi.txt (7924 chars)
+09-10 22:55:05   [Mixture_Alligation] wrote Important_Formulas_en.txt (2961 chars)
+09-10 22:59:26   [Time_Distance] FAILED Flashcards_hi.txt: too_long
+09-10 23:01:21   [Time_Work] wrote Short_Tricks_en.txt (4333 chars)
+09-10 23:01:23   [Time_Distance] wrote PYQ_en.txt (8078 chars)
 ```
