@@ -15,7 +15,7 @@ permissions:
 
 jobs:
   write-books:
-    # Four lanes run side by side on different books (no two lanes touch the same chapter);
+    # Five lanes run side by side on different books (no two lanes touch the same chapter);
     # each lane keeps its own status page so their pushes never conflict.
     strategy:
       fail-fast: false
@@ -33,6 +33,9 @@ jobs:
           - lane: lane-4
             books: 12th_Level/GK 12th_Level/Maths
             status: autopilot/lane-4.md
+          - lane: lane-5
+            books: 10th_Level/English 10th_Level/Maths
+            status: autopilot/lane-5.md
     concurrency:
       group: book-autopilot-${{ matrix.lane }}
       cancel-in-progress: false
