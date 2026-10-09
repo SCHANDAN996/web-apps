@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 04:04 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:46 PM
+**आख़िरी update:** 09-10-2026 04:12 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:46 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 27 Budget Economic Survey (Graduation GK) | ✍️ लिख रहा है | 73 मिनट |
-| W2 | Chapter 28 Advanced Science Tech (Graduation GK) | ✍️ लिख रहा है | 41 मिनट |
-| W3 | Chapter 26 Advanced Polity (Graduation GK) | ✍️ लिख रहा है | 82 मिनट |
-| W4 | Chapter 24 Reports Indices (Graduation GK) | 🔎 review हो रहा है | 32 मिनट |
-| W5 | Chapter 25 Govt Schemes (Graduation GK) | ✍️ लिख रहा है | 20 मिनट |
+| W1 | Chapter 27 Budget Economic Survey (Graduation GK) | ✍️ लिख रहा है | 80 मिनट |
+| W2 | Chapter 28 Advanced Science Tech (Graduation GK) | ✍️ लिख रहा है | 49 मिनट |
+| W3 | Chapter 26 Advanced Polity (Graduation GK) | ✍️ लिख रहा है | 89 मिनट |
+| W4 | Chapter 24 Reports Indices (Graduation GK) | 📤 push हो रहा है | 0 मिनट |
+| W5 | Chapter 25 Govt Schemes (Graduation GK) | ✍️ लिख रहा है | 27 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,6 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 16:12 — Graduation GK · Chapter 24 Reports Indices
 - 09-10 14:42 — Graduation GK · Chapter 23 Economic Terms
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
@@ -45,14 +46,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 15:36:23   [Govt_Schemes] Practice_en_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 15:36:56   [Budget_Economic_Survey] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-09-10 15:36:58   [Advanced_Polity] PYQ_hi.txt try 1: answer too long — asking for a tighter version
-09-10 15:38:08   [Govt_Schemes] Practice_en_Set_06.txt try 2: rejected (answers not spread)
-09-10 15:38:37   [Advanced_Science_Tech] wrote Key_Facts_hi.txt (7172 chars)
-09-10 15:39:14   [Advanced_Science_Tech] wrote Feynman_en.txt (4122 chars)
-09-10 15:39:16   [Advanced_Polity] wrote PYQ_hi.txt (7550 chars)
-09-10 15:39:40   [Budget_Economic_Survey] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 09-10 15:40:05   [Reports_Indices] review Content_hi.txt: 1 issue(s): - खंड 4 की तालिका में 'वैश्विक आर्थिक संभावनाएँ रिपोर्ट' का जारीकर्ता OECD दिया गया है → सही जारीकर्ता विश्व बैंक (
 09-10 15:40:10   [Govt_Schemes] Practice_en_Set_06.txt try 3: rejected (Q139:answer_solution_conflict)
 09-10 15:40:12   [Advanced_Polity] wrote Memory_Hooks_en.txt (6270 chars)
@@ -85,4 +78,12 @@
 09-10 16:03:49   [Budget_Economic_Survey] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 09-10 16:04:07   [Govt_Schemes] Practice_en_Set_06.txt try 2: re-solve disagrees (Q148 key b vs re-solve ?)
 09-10 16:04:44   [Advanced_Polity] Practice_en_Set_02.txt try 2: re-solve disagrees (Q27 key d vs re-solve ?)
+09-10 16:05:56   [Advanced_Science_Tech] wrote PYQ_en.txt (10498 chars)
+09-10 16:06:06   [Reports_Indices] review PYQ_hi.txt: 1 issue(s): - फिनलैंड को प्रेस फ्रीडम इंडेक्स में शीर्ष देश बताया गया है → प्रेस फ्रीडम इंडेक्स में शीर्ष देश आमतौर पर नॉर्वे होता 
+09-10 16:07:43   [Advanced_Polity] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+09-10 16:07:50   [Govt_Schemes] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 16:10:04   [Budget_Economic_Survey] Practice_en_Set_04.txt try 1: re-solve disagrees (Q86 key b vs re-solve a)
+09-10 16:11:19   [Advanced_Polity] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 16:12:07   [Reports_Indices] review: 5 section(s) corrected, 0 failed
+09-10 16:12:07   [Reports_Indices] written 5, failed 0; AI calls today 244/100000
 ```
