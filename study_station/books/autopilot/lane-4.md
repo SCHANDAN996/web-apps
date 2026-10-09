@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 09:13 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 09:28 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 03 Modern History (12th GK) | 🔎 review हो रहा है | 41 मिनट |
-| W2 | Chapter 18 Science Tech (12th GK) | ✍️ लिख रहा है | 11 मिनट |
-| W3 | Chapter 19 Environment (12th GK) | ✍️ लिख रहा है | 3 मिनट |
-| W4 | Chapter 13 Awards (12th GK) | 🔎 review हो रहा है | 24 मिनट |
-| W5 | Chapter 17 Culture Art (12th GK) | ✍️ लिख रहा है | 37 मिनट |
+| W1 | Chapter 03 Modern History (12th GK) | 🔎 review हो रहा है | 8 मिनट |
+| W2 | Chapter 18 Science Tech (12th GK) | ✍️ लिख रहा है | 26 मिनट |
+| W3 | Chapter 19 Environment (12th GK) | ✍️ लिख रहा है | 18 मिनट |
+| W4 | Chapter 13 Awards (12th GK) | 📤 push हो रहा है | 0 मिनट |
+| W5 | Chapter 17 Culture Art (12th GK) | ✍️ लिख रहा है | 52 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,6 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 09:28 — 12th GK · Chapter 13 Awards
 - 09-10 09:09 — 12th GK · Chapter 15 Days Dates
 - 09-10 09:01 — 12th GK · Chapter 07 States Rivers
 
@@ -41,48 +42,49 @@
 
 - Chapter 12 Biology (GK) — 2 बार
 - Chapter 14 Sports (GK) — 2 बार
+- Chapter 03 Modern History (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 08:41:17   [Awards] Practice_hi_Set_05.txt try 2: rejected (Q122:needs_context)
-09-10 08:43:26   [Culture_Art] wrote Content_hi.txt (9937 chars)
-09-10 08:45:39   [Modern_History] review Content_hi.txt: 2 issue(s): - मेरठ की छावनी में सिपाही मंगल पांडे ने अंग्रेज़ अफ़सर पर बंदूक तान दी। → मंगल पांडे की घटना बारकपुर (बाररकपोर) मे
-09-10 08:46:03   [Awards] Practice_hi_Set_05.txt try 3: rejected (Q122:needs_context)
-09-10 08:46:17   [Culture_Art] wrote Key_Facts_en.txt (13755 chars)
-09-10 08:47:45   [Days_Dates] review Key_Facts_en.txt: 1 issue(s): - 10 May listed as fixed date for World Migratory Bird Day → World Migratory Bird Day is observed on the second S
-09-10 08:48:49   [Awards] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-09-10 08:48:49   [Awards] written 4, failed 0; AI calls today 38/100000
-09-10 08:50:52   [States_Rivers] review Feynman_en.txt: 2 issue(s): - The water divide is not a single ridge through the middle of India along the Western Ghats and Vindhya–Satpura ra
-09-10 08:51:46   [Awards] review Content_en.txt: 1 issue(s): - The claim that the Bharat Ratna limit of three per year was set by convention and that in practice no more than t
-09-10 08:53:59   [Days_Dates] review Feynman_en.txt: 1 issue(s): - World Maritime Day rule described as "last week of September (IMO decides)" → World Maritime Day is observed on t
-09-10 08:55:08   [Days_Dates] review Feynman_hi.txt: 1 issue(s): - The claim that 14 September was chosen for Hindi Diwas because it was Vyohar Rajendra Singh's birthday is false →
-09-10 08:55:14   [States_Rivers] review Mind_Map.txt: 1 issue(s): - ब्रह्मपुत्र के उद्गम हिमनद का नाम "चेमा युंगडुंग" गलत है → सही नाम "चेमायुंगडुंग हिमनद" (Chemayungdung Glacier) है
-09-10 08:56:46   [Awards] review Content_hi.txt: 2 issue(s): - ज्ञानपीठ पुरस्कार के प्रथम विजेता जी. शंकर कुरुप की रचना 'ओटक्कुझल' का प्रकाशन वर्ष 1961 नहीं 1950 है → सही: 1950
-09-10 09:01:34   [States_Rivers] review: 3 section(s) corrected, 0 failed
-09-10 09:01:34   [States_Rivers] written 3, failed 0; AI calls today 66/100000
-09-10 09:01:48 DONE 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_07_States_Rivers in 35 min → 346266cc
-09-10 09:01:49 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_18_Science_Tech (TODO: todo 25, problems 0)
-09-10 09:02:10   [Culture_Art] Key_Facts_hi.txt try 1: answer too long — asking for a tighter version
-09-10 09:02:25   [Modern_History] review Key_Facts_hi.txt: 1 issue(s): - मुस्लिम लीग का पहला अधिवेशन: 1908, अमृतसर → 1907, कराची
-09-10 09:03:27   [Science_Tech] wrote Content_en.txt (10778 chars)
-09-10 09:05:02   [Culture_Art] wrote Key_Facts_hi.txt (9011 chars)
-09-10 09:05:20   [Science_Tech] wrote Content_hi.txt (7079 chars)
-09-10 09:05:46   [Awards] review Key_Facts_hi.txt: 1 issue(s): - नोबेल अर्थशास्त्र पुरस्कार के वित्तपोषक का नाम "स्वर्गीय बैंक ऑफ स्वीडन" गलत है → सही नाम: "स्वीडन का केंद्रीय 
-09-10 09:06:04   [Culture_Art] wrote Feynman_en.txt (3812 chars)
-09-10 09:06:26   [Science_Tech] wrote Key_Facts_en.txt (7239 chars)
-09-10 09:08:06   [Culture_Art] wrote Feynman_hi.txt (3062 chars)
-09-10 09:08:48   [Culture_Art] wrote Mind_Map.txt (3159 chars)
-09-10 09:09:40   [Days_Dates] review: 4 section(s) corrected, 0 failed
-09-10 09:09:40   [Days_Dates] written 4, failed 0; AI calls today 85/100000
-09-10 09:09:54   [Culture_Art] wrote Flashcards_en.txt (4968 chars)
-09-10 09:09:54 DONE 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_15_Days_Dates in 38 min → e744bfbf
-09-10 09:09:56 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_19_Environment (TODO: todo 25, problems 0)
-09-10 09:09:57   [Modern_History] review Flashcards_en.txt: 2 issue(s): - Card 4 front states both organisations were founded in 1885, but the United Indian Patriotic Association was f
-09-10 09:10:19   [Science_Tech] wrote Key_Facts_hi.txt (7081 chars)
 09-10 09:11:20   [Science_Tech] wrote Feynman_en.txt (3740 chars)
 09-10 09:11:21   [Awards] review Mind_Map.txt: 1 issue(s): - B5a note "(भाषा के लिए, व्यक्ति को नहीं पहली बार)" is factually wrong: Jnanpith Award is given to an author (person
 09-10 09:11:41   [Environment] wrote Content_en.txt (9182 chars)
 09-10 09:12:22   [Culture_Art] wrote Flashcards_hi.txt (4956 chars)
 09-10 09:12:56   [Science_Tech] wrote Feynman_hi.txt (2878 chars)
+09-10 09:13:38   [Science_Tech] wrote Mind_Map.txt (2653 chars)
+09-10 09:13:51   [Awards] review Flashcards_hi.txt: 1 issue(s): - Card 18: इंदिरा गांधी को भारत रत्न 1972 में मिला बताया गया है → सही वर्ष 1971 है
+09-10 09:14:05   [Environment] wrote Content_hi.txt (8608 chars)
+09-10 09:14:17   [Science_Tech] wrote Flashcards_en.txt (4034 chars)
+09-10 09:14:21   [Culture_Art] wrote PYQ_en.txt (11251 chars)
+09-10 09:15:49   [Environment] wrote Key_Facts_en.txt (9710 chars)
+09-10 09:15:54   [Science_Tech] wrote Flashcards_hi.txt (3835 chars)
+09-10 09:16:41   [Modern_History] review Memory_Hooks_en.txt: 1 issue(s): - Box 3: Doctrine of Lapse victims order wrong (Nagpur before Jhansi) → Jhansi annexed 1853, Nagpur 1854; corr
+09-10 09:16:49   [Awards] review PYQ_hi.txt: 2 issue(s): - "द्यानचंद" (misspelled name in the bullet list under “मिलते-जुलते नाम”) → "ध्यानचंद"
+09-10 09:17:15   [Culture_Art] wrote PYQ_hi.txt (6403 chars)
+09-10 09:17:26   [Science_Tech] wrote PYQ_en.txt (8102 chars)
+09-10 09:18:40   [Culture_Art] wrote Memory_Hooks_en.txt (5551 chars)
+09-10 09:18:44   [Modern_History] review Memory_Hooks_hi.txt: 2 issue(s): - Mnemonic 3 claims William Bentinck banned child marriage ("बाल विवाह पर रोक") → Bentinck abolished Sati (182
+09-10 09:18:48   [Environment] wrote Key_Facts_hi.txt (7818 chars)
+09-10 09:19:07   [Modern_History] REJECTED review fix Memory_Hooks_hi.txt: corrupted characters
+09-10 09:19:07   [Modern_History] review: 4 section(s) corrected, 2 failed
+09-10 09:19:07   [Modern_History] written 4, failed 2; AI calls today 118/100000
+09-10 09:19:07 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_03_Modern_History after 52 min: todo [] problems []
+09-10 09:19:08 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_03_Modern_History (OK: todo 0, problems 0)
+09-10 09:19:17   [Environment] wrote Feynman_en.txt (2754 chars)
+09-10 09:20:08   [Environment] wrote Feynman_hi.txt (2302 chars)
+09-10 09:20:25   [Culture_Art] wrote Memory_Hooks_hi.txt (5081 chars)
+09-10 09:20:26   [Science_Tech] wrote PYQ_hi.txt (6241 chars)
+09-10 09:21:20   [Environment] wrote Mind_Map.txt (2896 chars)
+09-10 09:21:47   [Modern_History] review Content_en.txt: 1 issue(s): - In the Linguistic Bridge table, the Hindi term 'उपनिवेश' is incorrectly matched with 'Presidency' (उपनिवेश means 
+09-10 09:22:14   [Science_Tech] wrote Memory_Hooks_en.txt (6949 chars)
+09-10 09:22:16   [Culture_Art] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 09:22:42   [Science_Tech] wrote Memory_Hooks_hi.txt (800 chars)
+09-10 09:25:12   [Culture_Art] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+09-10 09:25:38   [Awards] review Memory_Hooks_hi.txt: 1 issue(s): - Mnemonic 6: Indian Nobel laureates listed in wrong chronological order (Mother Teresa 1979 placed before Kho
+09-10 09:26:23   [Culture_Art] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 09:26:33   [Science_Tech] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+09-10 09:27:04   [Modern_History] review Memory_Hooks_hi.txt: 3 issue(s): - Mnemonic 1 claims "क्रम से" (chronological order) but the mnemonic "पु-ड-ई-फ-ड" and bullet points list Danis
+09-10 09:28:03   [Awards] review: 7 section(s) corrected, 0 failed
+09-10 09:28:03   [Awards] written 7, failed 0; AI calls today 138/100000
 ```
