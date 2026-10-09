@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 01:30 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 01:46 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W4 | Chapter 23 Economic Terms (Graduation GK) | ✍️ लिख रहा है | 94 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -17,7 +15,7 @@
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 9 | 13 | 0 |
-| 10th English | 0 | 0 | 20 |
+| 10th English | 1 | 0 | 19 |
 | 12th Maths | 0 | 0 | 23 |
 | 12th GK | 17 | 0 | 7 |
 | 12th Reasoning | 1 | 0 | 24 |
@@ -26,7 +24,7 @@
 | Graduation GK | 20 | 0 | 8 |
 | Graduation Reasoning | 3 | 0 | 27 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **143** | **13** | **140** |
+| **कुल** | **144** | **13** | **139** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -47,17 +45,11 @@
 
 - Chapter 13 Awards (GK) — 2 बार
 - Chapter 22 Defence (GK) — 2 बार
+- Chapter 23 Economic Terms (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 12:30:41 worker 1: nothing left
-09-10 12:33:42   [Environment] review PYQ_hi.txt: 1 issue(s): - Banking परीक्षा-वार झुकाव में 'कुन्डली… नहीं' अवांछित/गलत शब्द है → इसे हटाएं या उचित शब्द (जैसे 'क्योटो प्रोटोकॉल') 
-09-10 12:34:07   [Defence] Practice_hi_Set_01.txt try 3: rejected (Q24:needs_context)
-09-10 12:34:36   [Economic_Terms] wrote PYQ_hi.txt (7982 chars)
-09-10 12:34:54   [Defence] Practice_hi_Set_01.txt try 4: rejected (parsed 0 questions, numbers -…-)
-09-10 12:34:54   [Defence] REJECTED Practice_hi_Set_01.txt: no translation passed the checks — not written
-09-10 12:35:59   [Economic_Terms] wrote Memory_Hooks_en.txt (5669 chars)
 09-10 12:37:01   [International_Orgs] review Key_Facts_hi.txt: 3 issue(s): - कॉमनवेल्थ सदस्य संख्या भाग 1 में 54 दी गई है → 56 सदस्य (गैबॉन/टोगो 2022 में जुड़ने के बाद)
 09-10 12:38:11   [Defence] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 09-10 12:38:52   [Economic_Terms] wrote Memory_Hooks_hi.txt (5760 chars)
@@ -91,4 +83,11 @@
 09-10 13:13:30 worker 2: nothing left
 09-10 13:16:27   [Economic_Terms] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 09-10 13:19:39   [Economic_Terms] Practice_en_Set_05.txt try 1: re-solve disagrees (Q125 key c vs re-solve d)
+09-10 13:35:53   [Economic_Terms] FAILED Practice_en_Set_05.txt: too_long
+09-10 13:35:53   [Economic_Terms] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
+09-10 13:40:01   [Economic_Terms] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+09-10 13:45:11   [Economic_Terms] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+09-10 13:45:11   [Economic_Terms] written 23, failed 2; AI calls today 538/100000
+09-10 13:45:11 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_23_Economic_Terms after 109 min: todo ['Set 05 en: todo', 'Set 05 hi: todo'] problems []
+09-10 13:45:11 worker 3: nothing left
 ```
