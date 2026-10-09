@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 09-10-2026 07:03 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
+**आख़िरी update:** 09-10-2026 07:18 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 03:01 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Awards (Graduation GK) | ✍️ लिख रहा है | 39 मिनट |
-| W2 | Chapter 16 Books Authors (Graduation GK) | ✍️ लिख रहा है | 3 मिनट |
-| W3 | Chapter 15 Days Dates (Graduation GK) | ✍️ लिख रहा है | 12 मिनट |
-| W4 | Chapter 14 Sports (Graduation GK) | ✍️ लिख रहा है | 18 मिनट |
-| W5 | Chapter 12 Biology (Graduation GK) | ✍️ लिख रहा है | 122 मिनट |
+| W1 | Chapter 13 Awards (Graduation GK) | ✍️ लिख रहा है | 54 मिनट |
+| W2 | Chapter 16 Books Authors (Graduation GK) | ✍️ लिख रहा है | 18 मिनट |
+| W3 | Chapter 15 Days Dates (Graduation GK) | ✍️ लिख रहा है | 27 मिनट |
+| W4 | Chapter 14 Sports (Graduation GK) | ✍️ लिख रहा है | 33 मिनट |
+| W5 | Chapter 12 Biology (Graduation GK) | 🔧 सुधार रहा है | 9 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -27,10 +27,10 @@
 | 12th Reasoning | 0 | 0 | 25 |
 | 12th English | 17 | 0 | 8 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 10 | 0 | 18 |
+| Graduation GK | 10 | 1 | 17 |
 | Graduation Reasoning | 1 | 0 | 29 |
 | Graduation English | 28 | 0 | 2 |
-| **कुल** | **115** | **13** | **168** |
+| **कुल** | **115** | **14** | **167** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -50,22 +50,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 06:39:22   [Economy_Basic] review Memory_Hooks_en.txt: 2 issue(s): - Hook 1 mnemonic "Papa Took Sugar" claims to stand for Primary, Secondary, Tertiary but the initials are P, T
-09-10 06:41:06   [Biology] Practice_en_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 06:41:22   [Awards] wrote Feynman_hi.txt (2881 chars)
-09-10 06:41:32   [World_Geography] review Mind_Map.txt: 1 issue(s): - The example under 'Almost-True Statements' ("Largest island: Greenland") is a true fact, not an almost-true/false t
-09-10 06:42:51   [Economy_Basic] review Memory_Hooks_hi.txt: 2 issue(s): - Mnemonic 2 lists the second RBI Governor as "सर जेम्स टेलर" → correct name is "सर जेम्स ब्रेड टेलर" (Sir Jam
-09-10 06:43:36   [Awards] wrote Mind_Map.txt (2850 chars)
-09-10 06:43:53   [World_Geography] review Flashcards_en.txt: 1 issue(s): - Card 18: "Ghana is near the Prime Meridian but south of the Equator's meeting point" is incorrect; Ghana lies 
-09-10 06:44:16   [Physics_Daily] review Flashcards_hi.txt: 2 issue(s): - कार्ड 8: VIBGYOR का हिन्दी मेमोनिक 'बैजानीहपील' का वर्णन गलत है → सही क्रम: बैंगनी (V), नील (I), नीला (B), हरा
-09-10 06:44:50   [Economy_Basic] review: 6 section(s) corrected, 1 failed
-09-10 06:44:50   [Economy_Basic] written 6, failed 1; AI calls today 386/100000
-09-10 06:44:50 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_09_Economy_Basic after 64 min: todo [] problems []
-09-10 06:44:51 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_14_Sports (TODO: todo 25, problems 0)
-09-10 06:45:14   [Awards] wrote Flashcards_en.txt (4748 chars)
-09-10 06:46:48   [World_Geography] review Flashcards_hi.txt: 2 issue(s): - Card 9: The mnemonic "P-A-I-A-S" (5 letters) and the phrase "पापा आए इधर आओ सोनू" do not match the four oceans
-09-10 06:47:33   [Sports] wrote Content_en.txt (10348 chars)
-09-10 06:48:07   [Awards] wrote Flashcards_hi.txt (3803 chars)
 09-10 06:49:43   [Biology] Practice_en_Set_05.txt try 2: rejected (parsed 0 questions, numbers -…-)
 09-10 06:51:24   [Physics_Daily] review: 5 section(s) corrected, 1 failed
 09-10 06:51:24   [Physics_Daily] written 5, failed 1; AI calls today 400/100000
@@ -90,4 +74,20 @@
 09-10 07:02:10   [Books_Authors] wrote Content_en.txt (4731 chars)
 09-10 07:02:11   [Biology] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 09-10 07:03:27   [Sports] wrote Mind_Map.txt (2541 chars)
+09-10 07:05:28   [Sports] wrote Flashcards_en.txt (4236 chars)
+09-10 07:05:37   [Days_Dates] wrote Key_Facts_hi.txt (9066 chars)
+09-10 07:07:39   [Sports] wrote Flashcards_hi.txt (4031 chars)
+09-10 07:07:59   [Books_Authors] wrote Content_hi.txt (12044 chars)
+09-10 07:08:53   [Awards] PYQ_en.txt try 1: answer too long — asking for a tighter version
+09-10 07:09:08   [Biology] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+09-10 07:09:08   [Biology] written 25, failed 0; AI calls today 424/100000
+09-10 07:11:26   [Books_Authors] wrote Key_Facts_en.txt (9987 chars)
+09-10 07:11:26   [Awards] wrote PYQ_en.txt (10784 chars)
+09-10 07:11:58   [Sports] wrote PYQ_en.txt (8482 chars)
+09-10 07:14:22   [Books_Authors] wrote Key_Facts_hi.txt (5458 chars)
+09-10 07:14:29   [Days_Dates] wrote Feynman_en.txt (2895 chars)
+09-10 07:16:12   [Biology] REJECTED PYQ_hi.txt: corrupted characters — not written
+09-10 07:16:43   [Sports] wrote PYQ_hi.txt (7172 chars)
+09-10 07:17:09   [Days_Dates] wrote Feynman_hi.txt (2544 chars)
+09-10 07:18:31   [Sports] wrote Memory_Hooks_en.txt (4864 chars)
 ```
