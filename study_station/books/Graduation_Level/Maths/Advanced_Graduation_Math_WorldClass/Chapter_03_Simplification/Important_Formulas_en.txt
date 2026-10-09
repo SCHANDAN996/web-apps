@@ -1,0 +1,45 @@
+# Important Formulas — Simplification & Approximation
+
+| Formula Name | Formula | One-line Use-Hint |
+|---|---|---|
+| BODMAS Rule | Bracket → Of → Division → Multiplication → Addition → Subtraction | Order of operations in every simplification |
+| Bracket Order | ( ) → { } → [ ] | Solve innermost bracket first |
+| Square of a Sum | (a + b)² = a² + 2ab + b² | Fast squaring of numbers near 50, 100 |
+| Square of a Difference | (a − b)² = a² − 2ab + b² | e.g., 98² = (100 − 2)² |
+| Difference of Squares | a² − b² = (a + b)(a − b) | e.g., 105 × 95 = 100² − 5² |
+| Cube of a Sum | (a + b)³ = a³ + 3a²b + 3ab² + b³ | Expanding cubes like 101³ |
+| Cube of a Difference | (a − b)³ = a³ − 3a²b + 3ab² − b³ | e.g., 99³ = (100 − 1)³ |
+| Sum of Cubes | a³ + b³ = (a + b)(a² − ab + b²) | Factorising cubic expressions |
+| Difference of Cubes | a³ − b³ = (a − b)(a² + ab + b²) | Factorising cubic expressions |
+| Sum of First n Naturals | 1 + 2 + … + n = n(n + 1)/2 | Series simplification |
+| Sum of First n Squares | 1² + 2² + … + n² = n(n + 1)(2n + 1)/6 | Square-series questions |
+| Sum of First n Cubes | 1³ + 2³ + … + n³ = [n(n + 1)/2]² | Cube-series questions |
+| Sum of First n Odd Numbers | 1 + 3 + 5 + … (n terms) = n² | Odd-number series |
+| Sum of First n Even Numbers | 2 + 4 + 6 + … (n terms) = n(n + 1) | Even-number series |
+| Surd Power Rule | (aᵐ)ⁿ = aᵐⁿ | Nested powers of surds |
+| Surd Multiplication | √a × √b = √(ab) | Combining roots |
+| Surd Division | √a / √b = √(a/b) | Simplifying root fractions |
+| Rationalisation | 1/(√a + √b) = (√a − √b)/(a − b) | Removing surd from denominator |
+| nth Root as Power | ⁿ√a = a^(1/n) | Converting roots to exponents |
+| Exponent Product | aᵐ × aⁿ = aᵐ⁺ⁿ | Same-base multiplication |
+| Exponent Quotient | aᵐ / aⁿ = aᵐ⁻ⁿ | Same-base division |
+| Negative Exponent | a⁻ᵐ = 1/aᵐ | Flipping fractions |
+| Zero Exponent | a⁰ = 1 (a ≠ 0) | Any non-zero base to power 0 |
+| Fraction to Percentage | x/y × 100% | Converting fractions in approximation |
+| Percentage of a Number | x% of N = (x × N)/100 | Base of all % simplifications |
+| Reciprocal Percentage | 1/n = (100/n)% | e.g., 1/8 = 12.5%, 1/6 = 16⅔% (≈ 16.67%) |
+| Approximation Rule | Round each number to nearest convenient value, then compute | Use when options are far apart |
+| Digit Sum (Casting out 9s) | Digit sum of a number ≡ number (mod 9) | Quick answer verification |
+| Divisibility by 11 | (Sum of odd-place digits) − (Sum of even-place digits) = 0 or multiple of 11 | Checking factors quickly |
+| Multiplication by 5 | N × 5 = (N × 10)/2 | Halve after adding a zero |
+| Multiplication by 25 | N × 25 = (N × 100)/4 | Divide by 4 after adding two zeros |
+| Multiplication by 125 | N × 125 = (N × 1000)/8 | Divide by 8 after adding three zeros |
+| Square of Number Ending in 5 | (10a + 5)² = a(a + 1) × 100 + 25 | e.g., 85² = 8×9 followed by 25 = 7225 |
+| Square Near 100 | (100 ± x)² = 10000 ± 200x + x² | e.g., 103² = 10609 |
+| Product of Numbers Near 100 | (100 + a)(100 + b) = 100(100 + a + b) + ab | e.g., 104 × 107 = 11128 |
+| Average of Series | Average = (First term + Last term)/2 | For equally spaced numbers |
+| Fraction Comparison | a/b vs c/d → compare a×d with b×c | Cross-multiplication method |
+| Mixed to Improper Fraction | a b/c = (ac + b)/c | Before any fraction operation |
+| Continued Fraction Rule | Solve from the bottom-most fraction upward | Ladder-type fractions |
+| 'Of' Means Multiply | a of b = a × b | 'Of' comes before division in BODMAS |
+| Vinculum (Bar) Rule | Bar over an expression is solved first, before brackets | e.g., in 5 + 3 − 2 with a bar over "3 − 2", compute 5 + (3 − 2) |

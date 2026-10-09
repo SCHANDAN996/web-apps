@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 01:09 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:38 AM
+**आख़िरी update:** 10-10-2026 01:10 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:38 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -9,11 +9,11 @@
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
 | W1 | Chapter 11 Time Work (Graduation Maths) | ✍️ लिख रहा है | 25 मिनट |
-| W2 | Chapter 02 LCM HCF (Graduation Maths) | 🔎 review हो रहा है | 28 मिनट |
-| W3 | Chapter 03 Simplification (Graduation Maths) | 🔎 review हो रहा है | 31 मिनट |
-| W4 | Chapter 13 Mixture Alligation (Graduation Maths) | ✍️ लिख रहा है | 6 मिनट |
+| W2 | Chapter 02 LCM HCF (Graduation Maths) | 🔎 review हो रहा है | 29 मिनट |
+| W3 | Chapter 03 Simplification (Graduation Maths) | 📤 push हो रहा है | 0 मिनट |
+| W4 | Chapter 13 Mixture Alligation (Graduation Maths) | ✍️ लिख रहा है | 7 मिनट |
 | W5 | Chapter 12 Time Distance (Graduation Maths) | ✍️ लिख रहा है | 17 मिनट |
-| W6 | Chapter 07 Ratio Proportion (Graduation Maths) | 🔎 review हो रहा है | 20 मिनट |
+| W6 | Chapter 07 Ratio Proportion (Graduation Maths) | 🔎 review हो रहा है | 21 मिनट |
 | W7 | Chapter 09 Simple Interest (Graduation Maths) | 🔎 review हो रहा है | 31 मिनट |
 | W8 | Chapter 10 Compound Interest (Graduation Maths) | ✍️ लिख रहा है | 31 मिनट |
 
@@ -23,7 +23,7 @@
 |---|---|---|---|
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
-| 10th Maths | 17 | 5 | 0 |
+| 10th Maths | 18 | 4 | 0 |
 | 10th English | 17 | 0 | 3 |
 | 12th Maths | 11 | 0 | 12 |
 | 12th GK | 22 | 0 | 2 |
@@ -33,10 +33,11 @@
 | Graduation GK | 27 | 1 | 0 |
 | Graduation Reasoning | 12 | 0 | 18 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **217** | **7** | **72** |
+| **कुल** | **218** | **6** | **72** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 10-10 01:10 — Graduation Maths · Chapter 03 Simplification
 - 10-10 01:02 — Graduation Maths · Chapter 04 Fractions Decimals
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
@@ -48,9 +49,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 00:51:04   [Percentage] written 2, failed 0; AI calls today 59/100000
-10-10 00:51:04 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_05_Percentage after 13 min: todo [] problems ['Feynman_hi.txt: much shorter than the English section (2968 ']
-10-10 00:51:06 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_05_Percentage (FIX: todo 0, problems 1)
 10-10 00:52:02   [Percentage] repaired Feynman_hi.txt (2449 chars)
 10-10 00:52:02   [Percentage] written 1, failed 0; AI calls today 63/100000
 10-10 00:52:47   [Percentage] repaired Feynman_hi.txt (2551 chars)
@@ -88,4 +86,7 @@
 10-10 01:07:27   [Simple_Interest] review PYQ_hi.txt: 1 issue(s): - प्रश्न 10 का उत्तर और सूत्र गलत है: ₹1,575 का ऋण आज लेकर 5% साधारण ब्याज पर 3 समान वार्षिक किस्तों में चुकाने पर प्रत
 10-10 01:08:28   [Ratio_Proportion] review Mind_Map.txt: 1 issue(s): - Node C1 incorrectly labels "a:b :: c:d" as "Continued Proportion" → Continued proportion is a:b = b:c; "a:b :: c:d"
 10-10 01:08:31   [LCM_HCF] review Important_Formulas_en.txt: 1 issue(s): - HCF by Division Method: "last non-zero remainder's divisor = HCF" is incorrect → The last non-zero rem
+10-10 01:10:16   [Mixture_Alligation] Practice_en_Set_05.txt try 1: rejected (Q103:leaked_reasoning,Q108:leaked_reasoning,Q121:leaked_reasoning,Q124:answer_solution_conflict,Q125:leaked_re
+10-10 01:10:33   [Simplification] review: 3 section(s) corrected, 0 failed
+10-10 01:10:33   [Simplification] written 3, failed 0; AI calls today 127/100000
 ```
