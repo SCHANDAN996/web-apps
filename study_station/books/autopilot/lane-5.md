@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 09-10-2026 07:51 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
+**आख़िरी update:** 09-10-2026 07:59 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 04:39 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Time Work (10th Maths) | 🔧 सुधार रहा है | 27 मिनट |
-| W2 | Chapter 10 Compound Interest (10th Maths) | 🔧 सुधार रहा है | 38 मिनट |
-| W3 | Chapter 20 Sentence Improvement Basic (10th English) | ✍️ लिख रहा है | 47 मिनट |
-| W4 | Chapter 18 Error Spotting Basic (10th English) | 🔎 review हो रहा है | 21 मिनट |
-| W5 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 20 मिनट |
-| W6 | Chapter 12 Time Distance (10th Maths) | 🔧 सुधार रहा है | 22 मिनट |
-| W7 | Chapter 14 Mensuration (10th Maths) | 🔧 सुधार रहा है | 18 मिनट |
-| W8 | Chapter 17 Spelling (10th English) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 11 Time Work (10th Maths) | 🔧 सुधार रहा है | 35 मिनट |
+| W2 | Chapter 10 Compound Interest (10th Maths) | 🔧 सुधार रहा है | 46 मिनट |
+| W3 | Chapter 20 Sentence Improvement Basic (10th English) | ✍️ लिख रहा है | 55 मिनट |
+| W4 | Chapter 18 Error Spotting Basic (10th English) | 🔎 review हो रहा है | 29 मिनट |
+| W5 | Chapter 13 Mixture Alligation (10th Maths) | 🔧 सुधार रहा है | 29 मिनट |
+| W6 | Chapter 12 Time Distance (10th Maths) | 🔧 सुधार रहा है | 30 मिनट |
+| W7 | Chapter 14 Mensuration (10th Maths) | 🔧 सुधार रहा है | 26 मिनट |
+| W8 | Chapter 15 Geometry (10th Maths) | 🔧 सुधार रहा है | 7 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -25,15 +25,15 @@
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 9 | 13 | 0 |
 | 10th English | 15 | 3 | 2 |
-| 12th Maths | 2 | 0 | 21 |
+| 12th Maths | 4 | 0 | 19 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 4 | 0 | 21 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 23 | 0 | 5 |
+| Graduation GK | 24 | 0 | 4 |
 | Graduation Reasoning | 8 | 0 | 22 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **176** | **16** | **104** |
+| **कुल** | **179** | **16** | **101** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -55,23 +55,10 @@
 - Chapter 01 Noun (English) — 2 बार
 - Chapter 07 Preposition (English) — 2 बार
 - Chapter 12 Sentence Structure (English) — 2 बार
-- Chapter 17 Spelling (English) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 19:30:36 DONE 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_19_Fill_in_Blanks_Basic in 27 min → 0b21587f
-09-10 19:30:38 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_13_Mixture_Alligation (FIX: todo 0, problems 16)
-09-10 19:30:44   [Time_Distance] repaired Content_hi.txt (1622 chars)
-09-10 19:31:23   [Time_Distance] repaired Short_Tricks_en.txt (5049 chars)
-09-10 19:31:34   [Sentence_Improvement_Basic] Practice_en_Set_02.txt try 1: re-solve disagrees (Q34 key b vs re-solve a)
-09-10 19:31:41   [Mixture_Alligation] repaired Content_en.txt (7008 chars)
-09-10 19:32:26   [Antonyms] review Important_Rules_hi.txt: 2 issue(s): - Claim "Antonym के 80% प्रश्न तथ्यात्मक होते हैं" is an invented exam statistic with no source → remove th
-09-10 19:33:00   [Antonyms] review: 6 section(s) corrected, 0 failed
-09-10 19:33:00   [Antonyms] written 6, failed 0; AI calls today 590/100000
-09-10 19:33:15 DONE 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_14_Antonyms in 49 min → 9129f0d6
-09-10 19:33:16 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_14_Mensuration (FIX: todo 0, problems 15)
-09-10 19:33:49   [Time_Distance] repaired Short_Tricks_hi.txt (4039 chars)
 09-10 19:33:56   [Sentence_Improvement_Basic] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 09-10 19:34:44   [Time_Work] repaired set 01 (en + hi, key confirmed by an independent re-solve)
 09-10 19:36:08   [Mixture_Alligation] repaired Content_hi.txt (7955 chars)
@@ -100,4 +87,16 @@
 09-10 19:51:22   [Spelling] review: 8 section(s) corrected, 0 failed
 09-10 19:51:22   [Spelling] written 8, failed 0; AI calls today 645/100000
 09-10 19:51:27   [Error_Spotting_Basic] review Mind_Map_en.txt: 1 issue(s): - Step 2: Check the 12 Golden Rules → Step 2: Check the 8 Golden Rules (or list all 12 rules)
+09-10 19:51:42 DONE 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_17_Spelling in 71 min → 84c2b0f6
+09-10 19:51:44 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_15_Geometry (FIX: todo 0, problems 13)
+09-10 19:52:15   [Time_Distance] repaired set 03 (en + hi, key confirmed by an independent re-solve)
+09-10 19:52:52   [Compound_Interest] repaired set 04 (en + hi, key confirmed by an independent re-solve)
+09-10 19:53:54   [Sentence_Improvement_Basic] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 19:54:09   [Error_Spotting_Basic] review Flashcards_en.txt: 1 issue(s): - Card 12 front sentence "I am working here ___ five years" uses present continuous with a duration, which is un
+09-10 19:55:43   [Sentence_Improvement_Basic] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 19:57:09   [Geometry] repaired set 01 (en + hi, key confirmed by an independent re-solve)
+09-10 19:57:09   [Mixture_Alligation] set 01 try 2: re-solve disagrees (Q7 key a vs re-solve c)
+09-10 19:57:47   [Time_Distance] set 04 try 1: rejected (parsed 1 questions, numbers 76…76)
+09-10 19:57:47   [Geometry] set 02 try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 19:57:57   [Sentence_Improvement_Basic] Practice_en_Set_05.txt try 1: re-solve disagrees (Q104 key c vs re-solve a)
 ```
