@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 03:24 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
+**आख़िरी update:** 09-10-2026 03:40 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 01:52 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 21 मिनट |
-| W2 | Chapter 08 Puzzles (12th Reasoning) | ✍️ लिख रहा है | 0 मिनट |
-| W3 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 55 मिनट |
-| W4 | Chapter 06 Order Ranking (12th Reasoning) | ✍️ लिख रहा है | 24 मिनट |
-| W5 | Chapter 04 Blood Relations (12th Reasoning) | ✍️ लिख रहा है | 92 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 36 मिनट |
+| W2 | Chapter 08 Puzzles (12th Reasoning) | ✍️ लिख रहा है | 15 मिनट |
+| W3 | Chapter 05 Direction Sense (12th Reasoning) | ✍️ लिख रहा है | 70 मिनट |
+| W4 | Chapter 06 Order Ranking (12th Reasoning) | ✍️ लिख रहा है | 39 मिनट |
+| W5 | Chapter 04 Blood Relations (12th Reasoning) | ✍️ लिख रहा है | 107 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -45,16 +45,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 15:00:33   [Coding_Decoding] written 0, failed 2; AI calls today 76/100000
-09-10 15:00:34 NOT OK 12th_Level/Reasoning/Chapter_03_Coding_Decoding after 23 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems ['Content_hi.txt: Hindi file is mostly not in Hindi', 'Content_hi.txt: does not mention the chapter topic (coding, ', 'Content_hi.txt: much shorter than the English section (320 v']
-09-10 15:00:35 START 12th_Level/Reasoning/Chapter_06_Order_Ranking (TODO: todo 6, problems 0)
-09-10 15:02:53   [Order_Ranking] Practice_en_Set_01.txt try 1: rejected (Q21:leaked_reasoning)
-09-10 15:03:19   [Para_Jumbles] Practice_en_Set_06.txt try 4: re-solve disagrees (Q127 key b vs re-solve a, Q145 key c vs re-solve a)
-09-10 15:03:19   [Para_Jumbles] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
-09-10 15:03:19   [Para_Jumbles] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-09-10 15:03:19   [Para_Jumbles] written 0, failed 2; AI calls today 78/100000
-09-10 15:03:19 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_22_Para_Jumbles after 54 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems []
-09-10 15:03:21 START 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement (TODO: todo 25, problems 0)
 09-10 15:03:25   [Order_Ranking] Practice_en_Set_01.txt try 2: rejected (parsed 0 questions, numbers -…-)
 09-10 15:04:24   [Direction_Sense] Practice_en_Set_02.txt try 2: re-solve disagrees (Q26 key c vs re-solve ?)
 09-10 15:04:37   [Order_Ranking] Practice_en_Set_01.txt try 3: rejected (Q21:answer_solution_conflict)
@@ -85,4 +75,14 @@
 09-10 15:24:37 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_23_Sentence_Arrangement after 67 min: todo ['Set 04 en: todo', 'Set 04 hi: todo'] problems ['Content_hi.txt: Hindi file is mostly not in Hindi', 'Short_Tricks_hi.txt: Hindi file is mostly not in Hindi', 'Short_Tricks_hi.txt: much shorter than the English section (']
 09-10 15:24:39 START 12th_Level/Reasoning/Chapter_08_Puzzles (TODO: todo 25, problems 0)
 09-10 15:24:44   [Order_Ranking] FAILED Practice_hi_Set_01.txt: too_long
+09-10 15:26:03   [Direction_Sense] Practice_en_Set_03.txt try 1: rejected (Q51:leaked_reasoning,Q53:leaked_reasoning,Q59:leaked_reasoning,Q61:leaked_reasoning,Q62:leaked_reasoning)
+09-10 15:26:26   [Puzzles] wrote Content_en.txt (9709 chars)
+09-10 15:26:50   [Order_Ranking] Practice_en_Set_03.txt try 1: rejected (Q57:leaked_reasoning,Q58:leaked_reasoning,Q62:leaked_reasoning,Q73:leaked_reasoning,Q75:leaked_reasoning)
+09-10 15:27:52   [Sitting_Arrangement] wrote PYQ_hi.txt (17811 chars)
+09-10 15:30:02   [Sitting_Arrangement] wrote Short_Tricks_en.txt (4382 chars)
+09-10 15:31:34   [Order_Ranking] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 15:35:00   [Order_Ranking] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 15:36:59   [Direction_Sense] Practice_en_Set_03.txt try 2: re-solve disagrees (Q51 key a vs re-solve b, Q60 key d vs re-solve a, Q64 key a vs re-solve d, Q73 key c vs re-solve b)
+09-10 15:37:10   [Order_Ranking] Practice_en_Set_06.txt try 1: rejected (Q150:leaked_reasoning)
+09-10 15:39:51   [Puzzles] Content_hi.txt try 1: rejected (corrupted characters)
 ```
