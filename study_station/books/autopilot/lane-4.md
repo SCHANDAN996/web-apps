@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 09-10-2026 01:16 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 01:31 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 LCM HCF (12th Maths) | ✍️ लिख रहा है | 73 मिनट |
-| W5 | Chapter 01 Number System (12th Maths) | ✍️ लिख रहा है | 115 मिनट |
+| W1 | Chapter 02 LCM HCF (12th Maths) | ✍️ लिख रहा है | 88 मिनट |
+| W5 | Chapter 01 Number System (12th Maths) | ✍️ लिख रहा है | 131 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -52,15 +52,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 12:34:53   [LCM_HCF] FAILED Flashcards_hi.txt: rate_limited
-09-10 12:36:53   [Govt_Schemes] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-09-10 12:37:42   [LCM_HCF] wrote PYQ_en.txt (6388 chars)
-09-10 12:38:09   [Number_System] Practice_en_Set_03.txt try 3: re-solve disagrees (Q53 key a vs re-solve ?)
-09-10 12:40:02   [LCM_HCF] wrote PYQ_hi.txt (6219 chars)
-09-10 12:40:18   [Govt_Schemes] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-09-10 12:41:25   [Economic_Terms] review Mind_Map.txt: 1 issue(s): - D2: 'राष्ट्रीयकरण: 1949' gives the wrong year for bank nationalisation (which was 1969) or fails to specify the ent
-09-10 12:41:26   [LCM_HCF] wrote Short_Tricks_en.txt (6989 chars)
-09-10 12:42:56   [Govt_Schemes] Practice_en_Set_04.txt try 1: re-solve disagrees (Q86 key d vs re-solve a)
 09-10 12:43:11   [LCM_HCF] wrote Short_Tricks_hi.txt (7228 chars)
 09-10 12:43:47   [LCM_HCF] wrote Important_Formulas_en.txt (2887 chars)
 09-10 12:44:38   [Number_System] wrote Practice_en_Set_03.txt (write, 25 MCQs)
@@ -92,4 +83,13 @@
 09-10 13:13:38   [Number_System] FAILED Practice_en_Set_04.txt: too_long
 09-10 13:13:38   [Number_System] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
 09-10 13:15:36   [LCM_HCF] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+09-10 13:16:54   [Number_System] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 13:17:59   [LCM_HCF] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+09-10 13:19:13   [Number_System] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 13:21:26   [LCM_HCF] Practice_en_Set_03.txt try 1: rejected (Q67:leaked_reasoning,Q74:leaked_reasoning)
+09-10 13:24:42   [Number_System] Practice_en_Set_06.txt try 1: rejected (parsed 1 questions, numbers 126…126)
+09-10 13:27:01   [LCM_HCF] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 13:27:10   [Number_System] Practice_en_Set_06.txt try 2: rejected (Q135:leaked_reasoning,Q137:leaked_reasoning,Q140:leaked_reasoning,Q142:leaked_reasoning,Q143:leaked_reasoning)
+09-10 13:29:15   [LCM_HCF] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 13:31:52   [LCM_HCF] Practice_en_Set_04.txt try 1: rejected (Q83:leaked_reasoning,Q94:leaked_reasoning)
 ```
