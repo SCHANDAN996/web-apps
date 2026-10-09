@@ -1,0 +1,35 @@
+```mermaid
+graph TD
+    A["Spelling Check<br>वर्तनी जाँच"] --> B["Core Rules"]
+    A --> C["Confusing Word Pairs"]
+    A --> D["Roots & Affixes"]
+    A --> E["Examiner's Traps"]
+    A --> F["Strategy"]
+
+    B --> B1["i before e<br>except after c<br>believe / receive"]
+    B --> B2["Silent e dropped<br>before vowel suffix<br>hope → hoping"]
+    B --> B3["Double consonant<br>CVC + stress<br>begin → beginning"]
+    B --> B4["-ful has one l<br>beautiful, careful"]
+    B --> B5["y → i before suffix<br>happy → happiness"]
+
+    C --> C1["their / there / they're"]
+    C --> C2["principal vs principle"]
+    C --> C3["stationary vs stationery"]
+    C --> C4["accept vs except"]
+    C --> C5["advice vs advise"]
+
+    D --> D1["Root: dict = say<br>predict, dictionary"]
+    D --> D2["Root: scrib = write<br>describe, manuscript"]
+    D --> D3["Prefix: mis- = wrong<br>misspell"]
+    D --> D4["Suffix: -able / -ible<br>readable, visible"]
+
+    E --> E1["Sound-Right Trap<br>definately ❌ definitely ✔"]
+    E --> E2["Double Letter Trap<br>accomodate ❌ accommodate ✔"]
+    E --> E3["Silent Letter Trap<br>goverment ❌ government ✔"]
+    E --> E4["Over-thinking<br>simple word looks wrong"]
+
+    F --> F1["15-sec: direct recall<br>spot the misspelt word"]
+    F --> F2["45-sec: all look correct<br>check each carefully"]
+    F --> F3["Skip if 2 options<br>both look right"]
+    F --> F4["Read word aloud<br>in your head"]
+```
