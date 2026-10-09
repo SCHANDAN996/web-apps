@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 08:28 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
+**आख़िरी update:** 09-10-2026 08:31 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 07:18 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Para Jumbles (12th English) | 🔎 review हो रहा है | 29 मिनट |
-| W2 | Chapter 12 Missing Term (12th Reasoning) | ✍️ लिख रहा है | 2 मिनट |
-| W3 | Chapter 03 Coding Decoding (12th Reasoning) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 05 Direction Sense (12th Reasoning) | 🔎 review हो रहा है | 29 मिनट |
-| W5 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 70 मिनट |
-| W6 | Chapter 08 Puzzles (12th Reasoning) | ✍️ लिख रहा है | 70 मिनट |
-| W7 | Chapter 11 Series (12th Reasoning) | ✍️ लिख रहा है | 4 मिनट |
-| W8 | Chapter 10 Clock Calendar (12th Reasoning) | ✍️ लिख रहा है | 70 मिनट |
+| W1 | Chapter 22 Para Jumbles (12th English) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 12 Missing Term (12th Reasoning) | ✍️ लिख रहा है | 4 मिनट |
+| W3 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 2 मिनट |
+| W4 | Chapter 05 Direction Sense (12th Reasoning) | 🔎 review हो रहा है | 31 मिनट |
+| W5 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 72 मिनट |
+| W6 | Chapter 08 Puzzles (12th Reasoning) | ✍️ लिख रहा है | 72 मिनट |
+| W7 | Chapter 11 Series (12th Reasoning) | ✍️ लिख रहा है | 6 मिनट |
+| W8 | Chapter 10 Clock Calendar (12th Reasoning) | ✍️ लिख रहा है | 72 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,6 +37,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 20:31 — 12th English · Chapter 22 Para Jumbles
 - 09-10 20:28 — 12th Reasoning · Chapter 03 Coding Decoding
 - 09-10 20:25 — 12th English · Chapter 23 Sentence Arrangement
 - 09-10 20:24 — 12th Reasoning · Chapter 09 Venn Diagrams
@@ -48,15 +49,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 20:07:38   [Direction_Sense] review Content_hi.txt: 1 issue(s): - Section 5 example misinterprets the code statement "'पूर्व' को 'उत्तर-पश्चिम' कहा जाता है" as coded "East" = real
-09-10 20:07:56   [Coding_Decoding] review PYQ_en.txt: 3 issue(s): - Q2 answer claims 12 for BED sum but correct sum is 11 (not in options) → Correct sum is 11; question options are flaw
-09-10 20:09:48   [Sentence_Arrangement] review Mind_Map_hi.txt: 2 issue(s): - C2: "Because ... so" is a grammatically incorrect example (redundant conjunctions) → Use "Because … therefore" o
-09-10 20:11:53   [Para_Jumbles] review Mind_Map_hi.txt: 3 issue(s): - "तथ्यात्मक जोड़ी: 15 सेकंड" → कोई मानक परीक्षा नियम नहीं; यह आविष्कृत समय-सीमा है
-09-10 20:12:28   [Direction_Sense] review Feynman_hi.txt: 1 issue(s): - The hint for the final practice question misapplies the clock trick: it claims that in the given code “उत्तर” mov
-09-10 20:13:20   [Venn_Diagrams] review Important_Rules_en.txt: 1 issue(s): - Minimum overlap formula n(A ∩ B) minimum = n(A) + n(B) − n(U) is incorrect (can be negative) → Correct fo
-09-10 20:14:27   [Venn_Diagrams] review: 4 section(s) corrected, 0 failed
-09-10 20:14:27   [Venn_Diagrams] written 4, failed 0; AI calls today 137/100000
-09-10 20:14:27 NOT OK 12th_Level/Reasoning/Chapter_09_Venn_Diagrams after 56 min: todo [] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
 09-10 20:14:29 START 12th_Level/Reasoning/Chapter_09_Venn_Diagrams (FIX: todo 0, problems 1)
 09-10 20:14:29   [Puzzles] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 09-10 20:15:20   [Sentence_Arrangement] review PYQ_en.txt: 1 issue(s): - Q6 question text duplicates Q5 (factory sentences) but answer (a) RQSP and solution describe a vocabulary question → 
@@ -88,4 +80,13 @@
 09-10 20:27:32   [Missing_Term] wrote Content_en.txt (5752 chars)
 09-10 20:28:42   [Coding_Decoding] review: 8 section(s) corrected, 0 failed
 09-10 20:28:42   [Coding_Decoding] written 8, failed 0; AI calls today 180/100000
+09-10 20:28:55 DONE 12th_Level/Reasoning/Chapter_03_Coding_Decoding in 70 min → f7f23065
+09-10 20:28:57 START 12th_Level/Reasoning/Chapter_13_Dictionary_Order (TODO: todo 25, problems 0)
+09-10 20:29:11   [Direction_Sense] review Short_Tricks_en.txt: 1 issue(s): - The claim "80% of coded-direction errors happen because..." uses an invented statistic → Remove the percenta
+09-10 20:29:33   [Missing_Term] wrote Content_hi.txt (5591 chars)
+09-10 20:30:03   [Direction_Sense] REJECTED review fix Short_Tricks_en.txt: corrupted characters
+09-10 20:30:10   [Dictionary_Order] Content_en.txt try 1: rejected (chat debris "Here is the")
+09-10 20:30:22   [Missing_Term] Feynman_en.txt try 1: rejected (chat debris "Here's the")
+09-10 20:31:02   [Para_Jumbles] review: 4 section(s) corrected, 0 failed
+09-10 20:31:02   [Para_Jumbles] written 4, failed 0; AI calls today 188/100000
 ```
