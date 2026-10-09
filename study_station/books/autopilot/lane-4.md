@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 03 Modern History (12th GK) | 🔎 review हो रहा है | 8 मिनट |
+| W1 | Chapter 03 Modern History (12th GK) | 🔎 review हो रहा है | 9 मिनट |
 | W2 | Chapter 18 Science Tech (12th GK) | ✍️ लिख रहा है | 26 मिनट |
 | W3 | Chapter 19 Environment (12th GK) | ✍️ लिख रहा है | 18 मिनट |
-| W4 | Chapter 13 Awards (12th GK) | 📤 push हो रहा है | 0 मिनट |
+| W4 | Chapter 21 International Orgs (12th GK) | ✍️ लिख रहा है | 0 मिनट |
 | W5 | Chapter 17 Culture Art (12th GK) | ✍️ लिख रहा है | 52 मिनट |
 
 ## 📊 हर किताब की प्रगति
@@ -27,10 +27,10 @@
 | 12th Reasoning | 0 | 0 | 25 |
 | 12th English | 21 | 0 | 4 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 11 | 0 | 17 |
+| Graduation GK | 12 | 0 | 16 |
 | Graduation Reasoning | 1 | 0 | 29 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **126** | **15** | **155** |
+| **कुल** | **127** | **15** | **154** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -47,9 +47,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 09:11:20   [Science_Tech] wrote Feynman_en.txt (3740 chars)
-09-10 09:11:21   [Awards] review Mind_Map.txt: 1 issue(s): - B5a note "(भाषा के लिए, व्यक्ति को नहीं पहली बार)" is factually wrong: Jnanpith Award is given to an author (person
-09-10 09:11:41   [Environment] wrote Content_en.txt (9182 chars)
 09-10 09:12:22   [Culture_Art] wrote Flashcards_hi.txt (4956 chars)
 09-10 09:12:56   [Science_Tech] wrote Feynman_hi.txt (2878 chars)
 09-10 09:13:38   [Science_Tech] wrote Mind_Map.txt (2653 chars)
@@ -87,4 +84,7 @@
 09-10 09:27:04   [Modern_History] review Memory_Hooks_hi.txt: 3 issue(s): - Mnemonic 1 claims "क्रम से" (chronological order) but the mnemonic "पु-ड-ई-फ-ड" and bullet points list Danis
 09-10 09:28:03   [Awards] review: 7 section(s) corrected, 0 failed
 09-10 09:28:03   [Awards] written 7, failed 0; AI calls today 138/100000
+09-10 09:28:17 DONE 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_13_Awards in 61 min → 6da24e26
+09-10 09:28:18 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_21_International_Orgs (TODO: todo 25, problems 0)
+09-10 09:28:28   [International_Orgs] wrote Content_en.txt (1063 chars)
 ```
