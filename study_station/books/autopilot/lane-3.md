@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 09:28 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 09:43 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 25 Word Roots (12th English) | ✍️ लिख रहा है | 21 मिनट |
-| W2 | Chapter 01 Analogy (12th Reasoning) | ✍️ लिख रहा है | 18 मिनट |
-| W3 | Chapter 22 Para Jumbles (12th English) | ✍️ लिख रहा है | 61 मिनट |
-| W4 | Chapter 23 Sentence Arrangement (12th English) | ✍️ लिख रहा है | 61 मिनट |
-| W5 | Chapter 24 RC Basic (12th English) | ✍️ लिख रहा है | 61 मिनट |
+| W1 | Chapter 25 Word Roots (12th English) | ✍️ लिख रहा है | 36 मिनट |
+| W2 | Chapter 01 Analogy (12th Reasoning) | ✍️ लिख रहा है | 33 मिनट |
+| W3 | Chapter 22 Para Jumbles (12th English) | ✍️ लिख रहा है | 76 मिनट |
+| W4 | Chapter 23 Sentence Arrangement (12th English) | ✍️ लिख रहा है | 76 मिनट |
+| W5 | Chapter 24 RC Basic (12th English) | 🔎 review हो रहा है | 6 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -25,44 +25,25 @@
 | 12th Maths | 0 | 0 | 23 |
 | 12th GK | 13 | 0 | 11 |
 | 12th Reasoning | 0 | 0 | 25 |
-| 12th English | 21 | 0 | 4 |
+| 12th English | 22 | 0 | 3 |
 | Graduation Maths | 0 | 0 | 28 |
 | Graduation GK | 12 | 0 | 16 |
 | Graduation Reasoning | 1 | 0 | 29 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **126** | **13** | **157** |
+| **कुल** | **127** | **13** | **156** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
 - 09-10 09:09 — 12th English · Chapter 16 Idioms Phrases
 - 09-10 09:06 — 12th English · Chapter 14 Antonyms
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 24 RC Basic (English) — 1 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 09:01:34   [RC_Basic] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-09-10 09:02:59   [Idioms_Phrases] review PYQ_hi.txt: 1 issue(s): - शरीर-अंग वाले मुहावरे की सूची में 'to face the music' शामिल है जो शरीर-अंग मुहावरा नहीं है → इसे हटाकर सही शरीर-अंग म
-09-10 09:03:25   [Sentence_Arrangement] Practice_en_Set_05.txt try 1: re-solve disagrees (Q101 key d vs re-solve b, Q112 key a vs re-solve b, Q115 key c vs re-solve a, Q118 key b vs re-solve
-09-10 09:05:14   [RC_Basic] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-09-10 09:05:18   [Antonyms] review Important_Rules_hi.txt: 2 issue(s): - Rule 9 contains a Hindi repetition "कभी-कभी-कभी" → correct to "कभी-कभी"
-09-10 09:06:13   [Idioms_Phrases] review Short_Tricks_en.txt: 3 issue(s): - In TRICK 3 (Colour Cluster), "once in a blue moon" is incorrectly listed under **Red** → it belongs under **
-09-10 09:06:49   [Antonyms] review: 5 section(s) corrected, 0 failed
-09-10 09:06:49   [Antonyms] written 5, failed 0; AI calls today 86/100000
-09-10 09:07:02 DONE 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_14_Antonyms in 40 min → 0165d0d3
-09-10 09:07:04 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_25_Word_Roots (TODO: todo 26, problems 0)
-09-10 09:07:25   [RC_Basic] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-09-10 09:08:25   [Word_Roots] wrote Content_en.txt (7140 chars)
-09-10 09:09:48   [Idioms_Phrases] review: 7 section(s) corrected, 0 failed
-09-10 09:09:48   [Idioms_Phrases] written 7, failed 0; AI calls today 92/100000
-09-10 09:10:01 DONE 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_16_Idioms_Phrases in 43 min → 41abc151
-09-10 09:10:03 START 12th_Level/Reasoning/Chapter_01_Analogy (TODO: todo 25, problems 0)
-09-10 09:10:09   [Word_Roots] wrote Content_hi.txt (6014 chars)
-09-10 09:11:34   [Analogy] wrote Content_en.txt (6917 chars)
-09-10 09:12:13   [Para_Jumbles] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-09-10 09:14:07   [Analogy] wrote Content_hi.txt (8193 chars)
-09-10 09:14:23   [Sentence_Arrangement] Practice_en_Set_05.txt try 2: re-solve disagrees (Q120 key b vs re-solve c)
-09-10 09:14:49   [Analogy] wrote Feynman_en.txt (3578 chars)
-09-10 09:15:12   [Word_Roots] Feynman_en.txt try 1: rejected (chat debris "Text")
 09-10 09:16:27   [Analogy] Feynman_hi.txt try 1: rejected (corrupted characters)
 09-10 09:19:24   [Analogy] Feynman_hi.txt try 2: rejected (corrupted characters)
 09-10 09:19:24   [Analogy] REJECTED Feynman_hi.txt: corrupted characters — not written
@@ -80,4 +61,27 @@
 09-10 09:27:09   [RC_Basic] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 09-10 09:28:10   [Para_Jumbles] Practice_en_Set_04.txt try 1: re-solve disagrees (Q76 key d vs re-solve b, Q79 key d vs re-solve c)
 09-10 09:28:48   [Analogy] wrote Short_Tricks_hi.txt (5050 chars)
+09-10 09:29:28   [Analogy] wrote Important_Rules_en.txt (4053 chars)
+09-10 09:31:34   [Analogy] wrote Important_Rules_hi.txt (3275 chars)
+09-10 09:31:49   [RC_Basic] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+09-10 09:31:49   [RC_Basic] written 24, failed 2; AI calls today 120/100000
+09-10 09:31:49 NOT OK 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_24_RC_Basic after 65 min: todo ['Set 05 en: todo', 'Set 05 hi: todo'] problems []
+09-10 09:31:51 START 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_24_RC_Basic (TODO: todo 2, problems 0)
+09-10 09:32:08   [Sentence_Arrangement] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 09:32:15   [RC_Basic] Practice_en_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
+09-10 09:34:22   [Word_Roots] FAILED Feynman_en.txt: too_long
+09-10 09:34:52   [Sentence_Arrangement] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 09:34:52   [RC_Basic] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+09-10 09:36:07   [Word_Roots] wrote Feynman_hi.txt (2886 chars)
+09-10 09:36:46   [Word_Roots] wrote Mind_Map_en.txt (1480 chars)
+09-10 09:37:09   [RC_Basic] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+09-10 09:37:09   [RC_Basic] written 2, failed 0; AI calls today 129/100000
+09-10 09:37:34   [Word_Roots] wrote Mind_Map_hi.txt (1752 chars)
+09-10 09:37:51   [Sentence_Arrangement] Practice_en_Set_06.txt try 1: rejected (Q131:leaked_reasoning)
+09-10 09:38:23   [Word_Roots] wrote Flashcards_en.txt (4590 chars)
+09-10 09:38:28   [RC_Basic] review Content_en.txt: 2 issue(s): - "RRB NTPC" listed as having Reading Comprehension in the main exam (Tier-1/CBT-1) → RRB NTPC CBT-1 does not have 
+09-10 09:38:33   [Para_Jumbles] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 09:41:00   [Word_Roots] wrote Flashcards_hi.txt (4618 chars)
+09-10 09:41:10   [RC_Basic] review Content_hi.txt: 1 issue(s): - RRB NTPC does not have an English reading comprehension section in its exam pattern → Remove RRB NTPC from the li
+09-10 09:42:23   [Para_Jumbles] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 ```
