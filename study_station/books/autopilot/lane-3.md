@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 09-10-2026 09:43 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
+**आख़िरी update:** 09-10-2026 09:53 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 08:26 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 25 Word Roots (12th English) | ✍️ लिख रहा है | 36 मिनट |
-| W2 | Chapter 01 Analogy (12th Reasoning) | ✍️ लिख रहा है | 33 मिनट |
-| W3 | Chapter 22 Para Jumbles (12th English) | ✍️ लिख रहा है | 76 मिनट |
-| W4 | Chapter 23 Sentence Arrangement (12th English) | ✍️ लिख रहा है | 76 मिनट |
-| W5 | Chapter 24 RC Basic (12th English) | 🔎 review हो रहा है | 6 मिनट |
+| W1 | Chapter 25 Word Roots (12th English) | ✍️ लिख रहा है | 46 मिनट |
+| W2 | Chapter 01 Analogy (12th Reasoning) | ✍️ लिख रहा है | 43 मिनट |
+| W3 | Chapter 22 Para Jumbles (12th English) | ✍️ लिख रहा है | 86 मिनट |
+| W4 | Chapter 23 Sentence Arrangement (12th English) | ✍️ लिख रहा है | 86 मिनट |
+| W5 | Chapter 24 RC Basic (12th English) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,6 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 09-10 09:53 — 12th English · Chapter 24 RC Basic
 - 09-10 09:09 — 12th English · Chapter 16 Idioms Phrases
 - 09-10 09:06 — 12th English · Chapter 14 Antonyms
 
@@ -44,15 +45,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 09:16:27   [Analogy] Feynman_hi.txt try 1: rejected (corrupted characters)
-09-10 09:19:24   [Analogy] Feynman_hi.txt try 2: rejected (corrupted characters)
-09-10 09:19:24   [Analogy] REJECTED Feynman_hi.txt: corrupted characters — not written
-09-10 09:19:28   [Para_Jumbles] Practice_hi_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
-09-10 09:20:03   [Analogy] wrote Mind_Map.txt (2404 chars)
-09-10 09:21:11   [Analogy] wrote Flashcards_en.txt (4976 chars)
-09-10 09:21:50   [Sentence_Arrangement] Practice_en_Set_05.txt try 3: re-solve disagrees (Q106 key b vs re-solve c, Q119 key d vs re-solve c)
-09-10 09:22:22   [Para_Jumbles] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-09-10 09:22:26   [Analogy] wrote Flashcards_hi.txt (3681 chars)
 09-10 09:24:00   [Analogy] wrote PYQ_en.txt (6574 chars)
 09-10 09:24:49   [RC_Basic] FAILED Practice_en_Set_05.txt: too_long
 09-10 09:24:49   [RC_Basic] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
@@ -84,4 +76,13 @@
 09-10 09:41:00   [Word_Roots] wrote Flashcards_hi.txt (4618 chars)
 09-10 09:41:10   [RC_Basic] review Content_hi.txt: 1 issue(s): - RRB NTPC does not have an English reading comprehension section in its exam pattern → Remove RRB NTPC from the li
 09-10 09:42:23   [Para_Jumbles] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+09-10 09:45:05   [Analogy] FAILED Practice_en_Set_01.txt: too_long
+09-10 09:45:05   [Analogy] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
+09-10 09:45:23   [RC_Basic] review Flashcards_en.txt: 1 issue(s): - Card 6: answer gives six tones instead of the requested four → list only four common tones (e.g., optimistic, 
+09-10 09:46:53   [Sentence_Arrangement] Practice_en_Set_06.txt try 2: re-solve disagrees (Q127 key d vs re-solve a, Q135 key a vs re-solve d, Q145 key a vs re-solve b)
+09-10 09:49:09   [Analogy] Practice_en_Set_02.txt try 1: re-solve disagrees (Q49 key a vs re-solve b)
+09-10 09:50:56   [RC_Basic] review Short_Tricks_hi.txt: 2 issue(s): - Trick 4 claims "90% मामलों में वह विकल्प गलत होता है" without evidence; this is an invented number → replace
+09-10 09:51:03   [Analogy] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+09-10 09:53:41   [RC_Basic] review: 4 section(s) corrected, 0 failed
+09-10 09:53:41   [RC_Basic] written 4, failed 0; AI calls today 160/100000
 ```

@@ -1,0 +1,31 @@
+```mermaid
+graph TD
+    A["Reading Comprehension<br>(Basic)"] --> B["Step 1: Survey<br>Read questions first<br>Skim passage"]
+    A --> C["Step 2: Read Actively<br>Underline keywords<br>Note tone words"]
+    A --> D["Step 3: Answer<br>Eliminate options<br>Return to passage"]
+    A --> E["Question Types"]
+    A --> F["Examiner's Traps"]
+    A --> G["Strategies"]
+
+    E --> E1["Fact-Based<br>Direct answer in text<br>15-Second Rule"]
+    E --> E2["Inference-Based<br>Read between lines<br>45-Second Rule"]
+    E --> E3["Vocabulary-in-Context<br>Meaning from sentence"]
+    E --> E4["Tone & Title<br>Author's attitude<br>Best heading"]
+
+    E1 --> E1a["Detective Approach:<br>Find the exact line"]
+    E2 --> E2a["Detective Approach:<br>Clue + Logic = Answer"]
+
+    F --> F1["Trap 1: Sound-Right<br>True in life, but<br>NOT in passage"]
+    F --> F2["Trap 2: Extreme Words<br>always, never, all<br>Usually wrong"]
+    F --> F3["Trap 3: Half-True<br>Option partly correct<br>partly twisted"]
+    F --> F4["Trap 4: Over-Thinking<br>Adding outside knowledge"]
+
+    G --> G1["Keyword Matching<br>Question word = Passage word"]
+    G --> G2["Elimination First<br>Cut 2 wrong options fast"]
+    G --> G3["Tone Mapping<br>Positive / Negative / Neutral"]
+    G --> G4["Skip Strategy<br>Hard inference? Mark & move"]
+    G --> G5["Never leave blank<br>if no negative marking"]
+
+    C --> C1["Paragraph Purpose<br>Intro / Support / Conclusion"]
+    D --> D1["Verify with line<br>before marking"]
+```
