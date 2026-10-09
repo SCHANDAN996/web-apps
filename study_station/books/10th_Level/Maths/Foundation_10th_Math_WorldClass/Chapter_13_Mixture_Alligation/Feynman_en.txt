@@ -2,92 +2,44 @@
 
 Imagine you have a lemonade stand. You make two kinds of lemonade.
 
-Sweet Sunny Lemonade costs $2 a glass. It’s super tasty. (This is the expensive one.)
+Sweet Sunny Lemonade costs $2 a glass. It's super tasty. (This is the expensive one.)
 
-Plain Cloudy Lemonade costs $1 a glass. It’s just okay. (The cheap one.)
+Plain Cloudy Lemonade costs $1 a glass. It's just okay. (The cheap one.)
 
-Now, you want to sell a new mix called "Afternoon Special" for $1.60 a glass. You want to know how many glasses of Sweet Sunny and Plain Cloudy you should mix to get that exact price.
+Now, you want to sell a new mix called "Afternoon Special" for $1.60 a glass. You want to know in what ratio you should mix Sweet Sunny and Plain Cloudy to get that exact price.
 
 Think about what happens when you mix them.
 
-If you take a glass of the expensive Sweet Sunny (
-2
-)
-𝑎
-𝑛
-𝑑
-𝑝
-𝑜
-𝑢
-𝑟
-𝑖
-𝑡
-𝑖
-𝑛
-𝑡
-𝑜
-𝑎
-𝑏
-𝑖
-𝑔
-𝑗
-𝑢
-𝑔
-,
-𝑡
-ℎ
-𝑎
-𝑡
-′
-𝑠
-2)andpouritintoabigjug,that
-′
-s2 worth. But you want the final mix to be $1.60 per glass. So the expensive glass is 40 cents too high (2.00 – 1.60 = 0.40). That extra 40 cents has to be "canceled out" by something cheaper.
+If you pour a glass of the expensive Sweet Sunny ($2) into a big jug, that's $2 worth. But you want the final mix to be $1.60 per glass. So the expensive glass is 40 cents too high (2.00 − 1.60 = 0.40). That extra 40 cents has to be "canceled out" by something cheaper.
 
-If you take a glass of the cheap Plain Cloudy ($1), it's 60 cents too low (1.60 – 1.00 = 0.60) compared to the mix price. That shortage needs to be balanced by the expensive lemonade.
+If you take a glass of the cheap Plain Cloudy ($1), it's 60 cents too low (1.60 − 1.00 = 0.60) compared to the mix price. That shortage needs to be balanced by the expensive lemonade.
 
-So, mixing one glass of Sweet Sunny adds 40 extra cents. One glass of Plain Cloudy adds 60 missing cents.
+So, each glass of Sweet Sunny adds 40 extra cents. Each glass of Plain Cloudy adds 60 missing cents.
 
 To make the price exactly $1.60, the total extra cents must equal the total missing cents.
 
 If I use 3 glasses of Sweet Sunny, that's 3 × 40¢ = 120¢ extra. How many glasses of Plain Cloudy give 120¢ missing? 120 ÷ 60 = 2 glasses. So 3 glasses of expensive and 2 glasses of cheap. The ratio is 3:2.
 
-Notice how the numbers flipped? The difference of the expensive price from the mean (0.40) ended up being the number of cheap glasses (2), and the difference of the cheap price from the mean (0.60) ended up being the number of expensive glasses (3). They swapped places! That's the magic of the alligation cross.
+Now notice something clever. Look at the two differences: 40¢ (expensive side) and 60¢ (cheap side). Write them as a ratio: 60 : 40, which simplifies to 3 : 2 — exactly our answer! The differences themselves don't tell you the actual number of glasses; they tell you the ratio. The cheap side's difference (60) becomes the expensive one's share, and the expensive side's difference (40) becomes the cheap one's share. They swap places! That's the magic of the alligation cross.
+
+And because it's a ratio, 3:2 also means 6:4 or 30:20 would work — any multiple keeps the price at $1.60.
 
 The "Never Forget" Seesaw Trick
 
 Picture a seesaw in a playground. The expensive lemonade sits on one end, the cheap lemonade on the other. The mix price is the balancing point in the middle.
 
-To lift the heavy expensive end down to the middle, you need a light person sitting far away on the cheap side.
+To balance, the side whose price is farther from the middle needs a smaller share, and the side closer to the middle needs a bigger share — just like a heavier kid must sit closer to the center of a seesaw.
 
-The distance from the expensive price to the middle (40¢) is the length of the cheap side’s seesaw arm.
+The expensive price ($2) is 40¢ from the middle — a short distance — so the expensive lemonade gets the bigger share (3 parts).
 
-The distance from the cheap price to the middle (60¢) is the length of the expensive side’s arm.
+The cheap price ($1) is 60¢ from the middle — a longer distance — so the cheap lemonade gets the smaller share (2 parts).
 
-So, the difference of the expensive one tells you how many cheap ones you need, and vice versa. Differences swap sides, just like the lengths of a seesaw from the balance point.
+So the differences swap sides: each side's distance from the middle gives the other side's share in the ratio.
 
-Remember: The rich kid’s price difference buys the poor kid’s quantity. Or as I like to say, “Extra money pays for more cheap stuff.”
+Remember: the bigger the gap from the mix price, the smaller the share you need of that ingredient.
 
 Your Turn!
 
-You have chocolates. Fancy ones cost
-5
-𝑒
-𝑎
-𝑐
-ℎ
-,
-𝑝
-𝑙
-𝑎
-𝑖
-𝑛
-𝑜
-𝑛
-𝑒
-𝑠
-𝑐
-𝑜
-𝑠
-𝑡
-5each,plainonescost2 each. You want to make a gift bag that averages $3 each. How many of each do you put? Try using the seesaw idea before you peek at the formula.
+You have chocolates. Fancy ones cost $5 each, plain ones cost $2 each. You want to make a gift bag that averages $3 each. In what ratio should you mix them? Try using the seesaw idea before you peek at the formula.
+
+(Hint: gaps are $2 and $1. Swap them, simplify, and check your answer by computing the average of 1 fancy and 2 plain chocolates.)

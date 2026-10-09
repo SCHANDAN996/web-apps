@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 10-10-2026 01:40 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 10:05 PM
+**आख़िरी update:** 10-10-2026 01:55 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 10:05 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 19 Statistics (10th Maths) | 🔎 review हो रहा है | 26 मिनट |
-| W4 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 46 मिनट |
-| W6 | Chapter 13 Mixture Alligation (10th Maths) | 🔎 review हो रहा है | 20 मिनट |
+| W3 | Chapter 19 Statistics (10th Maths) | 🔎 review हो रहा है | 40 मिनट |
+| W4 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 8 मिनट |
+| W6 | Chapter 13 Mixture Alligation (10th Maths) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -32,6 +32,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 10-10 01:55 — 10th Maths · Chapter 13 Mixture Alligation
 - 10-10 01:09 — 10th Maths · Chapter 22 Permutation Combination
 - 10-10 00:58 — 10th Maths · Chapter 17 Data Interpretation
 - 10-10 00:22 — 10th Maths · Chapter 20 Number Series
@@ -52,21 +53,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 01:05:02   [Statistics] repaired set 05 (en + hi, key confirmed by an independent re-solve)
-10-10 01:05:02   [Statistics] written 2, failed 1; AI calls today 104/100000
-10-10 01:05:02 NOT OK 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_19_Statistics after 165 min: todo [] problems ['Set 02 en: 0/25 parsed', 'Set 02 Practice_en_Set_02.txt: unverified exam/year source "', 'Set 02 hi: 0/25 parsed', 'Set 02 Practice_hi_Set_02.txt: unverified exam/year source "']
-10-10 01:05:05 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_19_Statistics (FIX: todo 0, problems 4)
-10-10 01:06:19   [Mixture_Alligation] set 01 try 2: re-solve disagrees (Q7 key c vs re-solve a)
-10-10 01:06:25   [Permutation_Combination] review Short_Tricks_hi.txt: 1 issue(s): - In point 1, the example calculation 3 × 4 × 2 = 30 is incorrect → 3 × 4 × 2 = 24
-10-10 01:06:37   [Probability] set 02 try 1: rejected (parsed 0 questions, numbers -…-)
-10-10 01:07:51   [Probability] set 02 try 2: rejected (parsed 23 questions, numbers 26…50)
-10-10 01:08:05   [Mixture_Alligation] set 01 try 3: rejected (parsed 0 questions, numbers -…-)
-10-10 01:09:36   [Permutation_Combination] review: 2 section(s) corrected, 0 failed
-10-10 01:09:36   [Permutation_Combination] written 2, failed 0; AI calls today 114/100000
-10-10 01:09:56 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_22_Permutation_Combination in 129 min → 069aa602
-10-10 01:09:59 worker 4: nothing left
-10-10 01:13:26   [Probability] set 02 try 3: rejected (parsed 0 questions, numbers -…-)
-10-10 01:14:26   [Statistics] repaired set 02 (en + hi, key confirmed by an independent re-solve)
 10-10 01:14:26   [Statistics] written 1, failed 0; AI calls today 118/100000
 10-10 01:14:43   [Mixture_Alligation] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
 10-10 01:14:49   [Mixture_Alligation] Practice_hi_Set_01.txt try 2: rejected (parsed 0 questions, numbers -…-)
@@ -92,4 +78,19 @@
 10-10 01:34:49   [Statistics] review Feynman_hi.txt: 1 issue(s): - सबके मुँह खुले के खुले रह गए → सबके मुँह खुले रह गए
 10-10 01:36:53   [Mixture_Alligation] review Feynman_en.txt: 1 issue(s): - The claim that the price difference (0.40) directly equals the number of cheap glasses (2) and the difference (0.
 10-10 01:39:58   [Probability] set 06 try 2: rejected (parsed 23 questions, numbers 126…150)
+10-10 01:42:05   [Mixture_Alligation] review Feynman_hi.txt: 1 issue(s): - पृथ्थीकरण → अल्लिगेशन
+10-10 01:42:31   [Probability] set 06 try 3: rejected (parsed 0 questions, numbers -…-)
+10-10 01:46:08   [Probability] set 06 try 4: rejected (parsed 23 questions, numbers 126…150)
+10-10 01:46:08   [Probability] FAILED set 06: no version passed the checks — files left as they were
+10-10 01:46:08   [Probability] written 0, failed 5; AI calls today 156/100000
+10-10 01:46:11   [Probability] set 01 try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 01:47:10   [Mixture_Alligation] review PYQ_en.txt: 1 issue(s): - Question 3: In the alligation step, (30−0) is incorrectly computed as 10 instead of 30, giving ratio 1:2; correct dif
+10-10 01:47:19   [Statistics] review PYQ_hi.txt: 3 issue(s): - The section title and decade-wise table include year 2026, which is in the future (current year 2025) → Change 2026 t
+10-10 01:50:53   [Mixture_Alligation] review PYQ_hi.txt: 1 issue(s): - Question 3 (बेईमान दूधवाला) has no correct option; the calculated water:milk ratio is 1:6, but the given choices are 
+10-10 01:51:48   [Probability] set 01 try 2: rejected (parsed 24 questions, numbers 1…25)
+10-10 01:52:31   [Probability] set 01 try 3: rejected (parsed 0 questions, numbers -…-)
+10-10 01:54:37   [Probability] set 01 try 4: rejected (parsed 24 questions, numbers 1…25)
+10-10 01:54:37   [Probability] FAILED set 01: no version passed the checks — files left as they were
+10-10 01:55:02   [Mixture_Alligation] review: 6 section(s) corrected, 0 failed
+10-10 01:55:02   [Mixture_Alligation] written 6, failed 0; AI calls today 167/100000
 ```
