@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 09-10-2026 04:04 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 11:14 AM
+**आख़िरी update:** 09-10-2026 04:19 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 09-10 11:14 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 Narration (10th English) | ✍️ लिख रहा है | 68 मिनट |
+| W1 | Chapter 11 Narration (10th English) | ✍️ लिख रहा है | 83 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -23,10 +23,10 @@
 | 12th Reasoning | 2 | 0 | 23 |
 | 12th English | 23 | 0 | 2 |
 | Graduation Maths | 0 | 0 | 28 |
-| Graduation GK | 20 | 0 | 8 |
-| Graduation Reasoning | 5 | 0 | 25 |
+| Graduation GK | 21 | 0 | 7 |
+| Graduation Reasoning | 6 | 0 | 24 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **155** | **15** | **126** |
+| **कुल** | **157** | **15** | **124** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -47,10 +47,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-09-10 15:20:40   [Narration] wrote Short_Tricks_en.txt (6863 chars)
-09-10 15:21:57   [Conjunction] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-09-10 15:22:21   [Voice] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-09-10 15:23:43   [Conjunction] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 09-10 15:23:53   [Narration] wrote Short_Tricks_hi.txt (6617 chars)
 09-10 15:23:54   [Articles] FAILED Practice_en_Set_06.txt: rate_limited
 09-10 15:23:54   [Articles] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
@@ -87,4 +83,8 @@
 09-10 15:51:07   [Narration] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 09-10 15:53:28   [Narration] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 09-10 15:54:44   [Narration] Practice_en_Set_03.txt try 1: rejected (parsed 24 questions, numbers 51…75)
+09-10 16:04:30   [Narration] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+09-10 16:10:27   [Narration] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+09-10 16:17:31   [Narration] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+09-10 16:19:06   [Narration] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 ```
