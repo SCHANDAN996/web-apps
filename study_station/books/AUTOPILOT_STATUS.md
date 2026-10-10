@@ -8,9 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 02 Classification (Graduation Reasoning) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 15 मिनट |
-| W5 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | 🔎 review हो रहा है | 15 मिनट |
+| W4 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 16 मिनट |
+| W5 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | 🔎 review हो रहा है | 16 मिनट |
 | W7 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 15 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
@@ -46,8 +45,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 17:01:39 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv after 1 min: todo [] problems ['Mind_Map_hi.txt: much shorter than the English section (1215']
-10-10 17:01:43 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv (FIX: todo 0, problems 1)
 10-10 17:02:09   [Para_Jumbles_Adv] repaired Mind_Map_hi.txt (1117 chars)
 10-10 17:02:10   [Para_Jumbles_Adv] written 1, failed 0; AI calls today 10/100000
 10-10 17:02:29   [Missing_Term] repaired Important_Rules_hi.txt (3624 chars)
@@ -86,4 +83,6 @@
 10-10 17:15:48 worker 5: nothing left
 10-10 17:16:18   [Classification] review: 2 section(s) corrected, 0 failed
 10-10 17:16:18   [Classification] written 2, failed 0; AI calls today 45/100000
+10-10 17:16:40 DONE Graduation_Level/Reasoning/Chapter_02_Classification in 16 min → ae08a9df
+10-10 17:16:45 worker 1: nothing left
 ```
