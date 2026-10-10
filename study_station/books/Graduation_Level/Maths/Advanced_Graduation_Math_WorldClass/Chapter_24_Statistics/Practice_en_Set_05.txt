@@ -1,0 +1,151 @@
+Questions 101–120: Easy | Questions 121–125: Moderate
+
+101. The mean of 10 observations is 15. If each observation is increased by 5, the new mean will be:
+(a) 15 (b) 50 (c) 25 (d) 20
+Answer: (d)
+Solution: The tempting wrong option is 50, which comes from wrongly multiplying 15 by 5 instead of adding. When every observation is increased by the same constant k, the mean also increases by k. New mean = 15 + 5 = 20, so the answer is 20.
+Source: NCERT Class 11 Statistics
+
+102. The median of the observations 11, 13, 15, 17, 19, 21 is:
+(a) 16 (b) 18 (c) 17 (d) 15
+Answer: (a)
+Solution: The tempting wrong option is 15, which is just the third value picked without averaging. With n = 6 (even), the median is the mean of the 3rd and 4th values: (15 + 17)/2 = 16, so the answer is 16.
+Source: NCERT Class 11 Statistics
+
+103. If the mode of the data 3, 5, 7, 5, 3, 5, x, 3 is 5, then the value of x is:
+(a) 3 (b) 9 (c) 7 (d) 5
+Answer: (d)
+Solution: The tempting wrong option is 3, chosen by assuming the smallest value repeats. Currently 3 appears 3 times and 5 appears 3 times; for 5 to be the unique mode, x must be 5, making 5 appear 4 times, so the answer is 5.
+Source: NCERT Class 11 Statistics
+
+104. The variance of the first 10 natural numbers is:
+(a) 9.17 (b) 8.25 (c) 10.5 (d) 11
+Answer: (b)
+Solution: The tempting wrong option is 10.5, which is the mean of the first 10 natural numbers, not the variance. Variance of first n natural numbers = (n² − 1)/12 = (100 − 1)/12 = 99/12 = 8.25, so the answer is 8.25.
+Source: NCERT Class 11 Statistics
+
+105. If the standard deviation of a data set is 6, its variance is:
+(a) 36 (b) 12 (c) 3 (d) 6
+Answer: (a)
+Solution: The tempting wrong option is 6, which confuses standard deviation with variance. Variance is the square of standard deviation: 6² = 36, so the answer is 36.
+Source: NCERT Class 11 Statistics
+
+106. The mean of 5 observations is 20. If one observation, 40, is removed, the mean of the remaining observations is:
+(a) 15 (b) 20 (c) 18 (d) 10
+Answer: (a)
+Solution: The tempting wrong option is 20, assuming removing a value leaves the mean unchanged. Total sum = 5 × 20 = 100; after removing 40, sum = 60 over 4 observations, giving mean = 60/4 = 15, so the answer is 15.
+Source: NCERT Class 11 Statistics
+
+107. For a moderately skewed distribution, if mean = 25 and mode = 21, the median is approximately:
+(a) 23.67 (b) 23 (c) 24 (d) 22.33
+Answer: (a)
+Solution: The tempting wrong option is 24, which is a plain average of mean and mode ignoring the empirical weights. Using the empirical relation Mode = 3 Median − 2 Mean: 21 = 3 Median − 50, so Median = 71/3 ≈ 23.67, so the answer is 23.67.
+Source: NCERT Class 11 Statistics
+
+108. The coefficient of variation of a data set with mean 50 and standard deviation 10 is:
+(a) 20% (b) 500% (c) 25% (d) 5%
+Answer: (a)
+Solution: The tempting wrong option is 5%, which comes from dividing mean by standard deviation instead of the reverse. CV = (SD/Mean) × 100 = (10/50) × 100 = 20%, so the answer is 20%.
+Source: NCERT Class 11 Statistics
+
+109. The range of the data 12, 7, 25, 18, 9, 30 is:
+(a) 18 (b) 21 (c) 23 (d) 25
+Answer: (c)
+Solution: The tempting wrong option is 18, obtained by subtracting the two middle-looking values instead of the extremes. Range = Maximum − Minimum = 30 − 7 = 23, so the answer is 23.
+Source: NCERT Class 11 Statistics
+
+110. If each observation of a data set is multiplied by 3, the standard deviation becomes:
+(a) unchanged (b) 3 times the original (c) one-third of the original (d) 9 times the original
+Answer: (b)
+Solution: The tempting wrong option is 9 times, which confuses the effect on variance with that on standard deviation. Multiplying all data by k multiplies the standard deviation by |k| (variance by k²), so the answer is 3 times the original.
+Source: NCERT Class 11 Statistics
+
+111. The mean deviation about the mean for the data 4, 7, 8, 9, 12 is:
+(a) 1.6 (b) 2 (c) 2.4 (d) 3.2
+Answer: (b)
+Solution: The tempting wrong option is 3.2, which results from dividing the total deviation by 4 instead of 5. Mean = 40/5 = 8; absolute deviations are 4, 1, 0, 1, 4, summing to 10; mean deviation = 10/5 = 2, so the answer is 2.
+Source: NCERT Class 11 Statistics
+
+112. In a frequency distribution, the sum of all frequencies is 50 and the sum of the products of values and frequencies is 400. The mean is:
+(a) 8 (b) 10 (c) 12.5 (d) 50
+Answer: (a)
+Solution: The tempting wrong option is 12.5, which comes from dividing 400 by 32 or misreading the totals. Mean = Σfx/Σf = 400/50 = 8, so the answer is 8.
+Source: NCERT Class 11 Statistics
+
+113. The median class of a distribution is 20–30 with cumulative frequency before it 18, frequency 12, and total frequency 50. The median is:
+(a) 25 (b) 26.67 (c) 25.83 (d) 27.5
+Answer: (c)
+Solution: The tempting wrong option is 25, which is just the class midpoint ignoring the cumulative frequency correction. Median = L + [(N/2 − cf)/f] × h = 20 + [(25 − 18)/12] × 10 = 20 + 5.83 = 25.83, so the answer is 25.83.
+Source: NCERT Class 11 Statistics
+
+114. If the correlation coefficient between X and Y is 0.8, then the correlation coefficient between 2X + 3 and 5Y − 1 is:
+(a) 4.0 (b) 1.6 (c) 0.16 (d) 0.8
+Answer: (d)
+Solution: The tempting wrong option is 4.0, which wrongly multiplies the coefficient by the scaling factors. Correlation is invariant under positive linear transformations (change of origin and scale), so the answer is 0.8.
+Source: NCERT Class 11 Statistics
+
+115. The geometric mean of 4 and 16 is:
+(a) 12 (b) 8 (c) 10 (d) 6
+Answer: (b)
+Solution: The tempting wrong option is 10, which is the arithmetic mean rather than the geometric mean. GM = √(4 × 16) = √64 = 8, so the answer is 8.
+Source: NCERT Class 11 Statistics
+
+116. The harmonic mean of 2 and 8 is:
+(a) 5 (b) 4 (c) 3.2 (d) 3
+Answer: (c)
+Solution: The tempting wrong option is 5, which is the arithmetic mean of 2 and 8. HM = 2ab/(a + b) = (2 × 2 × 8)/(2 + 8) = 32/10 = 3.2, so the answer is 3.2.
+Source: NCERT Class 11 Statistics
+
+117. For any two positive numbers a and b, which relation among AM, GM and HM always holds?
+(a) HM ≥ GM ≥ AM (b) AM ≤ GM ≤ HM (c) GM ≥ AM ≥ HM (d) AM ≥ GM ≥ HM
+Answer: (d)
+Solution: The tempting wrong option reverses the well-known inequality, placing HM at the top. For positive numbers, the arithmetic mean is always at least the geometric mean, which is at least the harmonic mean, so the answer is AM ≥ GM ≥ HM.
+Source: NCERT Class 11 Statistics
+
+118. The standard deviation of the data 5, 5, 5, 5, 5 is:
+(a) 1 (b) 0 (c) 5 (d) 25
+Answer: (b)
+Solution: The tempting wrong option is 5, which assumes the SD equals the repeated value. Since all observations are identical, there is no spread, so the answer is 0.
+Source: NCERT Class 11 Statistics
+
+119. If the sum of squares of deviations of 10 observations from their mean is 90, the variance is:
+(a) 3 (b) 10 (c) 9 (d) 90
+Answer: (c)
+Solution: The tempting wrong option is 3, which is the standard deviation, not the variance. Variance = Σ(x − mean)²/n = 90/10 = 9, so the answer is 9.
+Source: NCERT Class 11 Statistics
+
+120. The mode of a distribution with modal class 10–20, modal class frequency 18, preceding class frequency 10, succeeding class frequency 14, and class width 10 is:
+(a) 15 (b) 16.67 (c) 17.5 (d) 18
+Answer: (b)
+Solution: The tempting wrong option is 15, the class midpoint, which ignores the frequency adjustments. Mode = L + [(f1 − f0)/(2f1 − f0 − f2)] × h = 10 + [(18 − 10)/(36 − 10 − 14)] × 10 = 10 + (8/12) × 10 = 10 + 6.67 = 16.67, so the answer is 16.67.
+Source: NCERT Class 11 Statistics
+
+121. The mean of 100 observations was calculated as 40. Later it was found that one observation was misread as 83 instead of 53. The correct mean is:
+(a) 39.3 (b) 40.3 (c) 39.7 (d) 40.7
+Answer: (c)
+Solution: The tempting wrong option is 40.3, which adds the difference instead of subtracting it. Wrong sum = 100 × 40 = 4000; correct sum = 4000 − 83 + 53 = 3970; correct mean = 3970/100 = 39.7, so the answer is 39.7.
+Source: PYQ-style
+
+122. If the variance of 1, 2, 3, 4, 5 is 2, then the variance of 3, 6, 9, 12, 15 is:
+(a) 18 (b) 6 (c) 2 (d) 36
+Answer: (a)
+Solution: The tempting wrong option is 6, which multiplies the variance by 3 instead of by 3². The second data set is 3 times the first, so variance scales by 3² = 9: new variance = 2 × 9 = 18, so the answer is 18.
+Source: NCERT Class 11 Statistics
+
+123. The mean and standard deviation of 20 observations are 10 and 2 respectively. The sum of the squares of the observations is:
+(a) 2000 (b) 2160 (c) 2040 (d) 2080
+Answer: (d)
+Solution: The tempting wrong option is 2000, which uses only n × mean² and forgets the variance term. Using Σx² = n(σ² + mean²) = 20(4 + 100) = 20 × 104 = 2080, so the answer is 2080.
+Source: PYQ-style
+
+124. For a distribution, the mean is 10, the coefficient of variation is 40%, and the number of observations is 25. The sum of squares of the observations is:
+(a) 2800 (b) 2500 (c) 2600 (d) 2900
+Answer: (d)
+Solution: The tempting wrong option is 2500, which ignores the variance term entirely. CV = 40% gives SD = 0.4 × 10 = 4, so variance = 16. Using Σx² = n(σ² + mean²) = 25(16 + 100) = 25 × 116 = 2900, so the answer is 2900.
+Source: PYQ-style
+
+125. The quartile deviation of the data 2, 4, 6, 8, 10, 12, 14 is:
+(a) 3 (b) 6 (c) 4 (d) 2
+Answer: (c)
+Solution: The tempting wrong option is 6, which is Q3 − Q1 rather than half of it. Q1 is the median of the lower half (2, 4, 6) = 4; Q3 is the median of the upper half (10, 12, 14) = 12. Quartile deviation = (Q3 − Q1)/2 = (12 − 4)/2 = 4, so the answer is 4.
+Source: NCERT Class 11 Statistics

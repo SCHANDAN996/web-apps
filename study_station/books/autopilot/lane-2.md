@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 07:21 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
+**आख़िरी update:** 10-10-2026 07:24 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 23 Data Interpretation (Graduation Maths) | 🔎 review हो रहा है | 30 मिनट |
-| W2 | Chapter 26 Permutation Combination (Graduation Maths) | ✍️ लिख रहा है | 56 मिनट |
-| W3 | Chapter 13 Mixture Alligation (Graduation Maths) | 🔎 review हो रहा है | 58 मिनट |
-| W4 | Chapter 27 Number Series (Graduation Maths) | ✍️ लिख रहा है | 42 मिनट |
-| W5 | Chapter 24 Statistics (Graduation Maths) | 🔎 review हो रहा है | 33 मिनट |
-| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 57 मिनट |
-| W7 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 29 मिनट |
-| W8 | Chapter 20 Heights Distances (Graduation Maths) | 🔎 review हो रहा है | 49 मिनट |
+| W1 | Chapter 23 Data Interpretation (Graduation Maths) | 🔎 review हो रहा है | 34 मिनट |
+| W2 | Chapter 26 Permutation Combination (Graduation Maths) | ✍️ लिख रहा है | 59 मिनट |
+| W3 | Chapter 13 Mixture Alligation (Graduation Maths) | 🔎 review हो रहा है | 62 मिनट |
+| W4 | Chapter 27 Number Series (Graduation Maths) | ✍️ लिख रहा है | 46 मिनट |
+| W5 | Chapter 24 Statistics (Graduation Maths) | 📤 push हो रहा है | 0 मिनट |
+| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 60 मिनट |
+| W7 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 32 मिनट |
+| W8 | Chapter 20 Heights Distances (Graduation Maths) | 🔎 review हो रहा है | 52 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,6 +37,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 10-10 07:24 — Graduation Maths · Chapter 24 Statistics
 - 10-10 06:23 — Graduation Maths · Chapter 18 Quadratic Equations
 - 10-10 06:22 — Graduation Maths · Chapter 17 Algebra
 
@@ -51,16 +52,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 06:52:22   [Trigonometry] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-10-10 06:52:22   [Trigonometry] written 0, failed 5; AI calls today 128/100000
-10-10 06:52:22 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_19_Trigonometry after 48 min: todo ['Set 03 en: todo', 'Set 03 hi: todo', 'Set 05 hi: todo', 'Set 06 en: todo'] problems []
-10-10 06:52:26 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_19_Trigonometry (TODO: todo 5, problems 0)
-10-10 06:52:55   [Number_Series] Feynman_en.txt try 2: rejected (chat debris "Here's the")
-10-10 06:52:55   [Number_Series] REJECTED Feynman_en.txt: chat debris "Here's the" — not written
-10-10 06:54:01   [Probability] Practice_en_Set_03.txt try 3: rejected (parsed 21 questions, numbers 51…75)
-10-10 06:54:26   [Mixture_Alligation] review PYQ_hi.txt: 3 issue(s): - Question 6: Initial answer marked as (a) 81 L is wrong; correct answer is (b) 72.9 L. Also the statement "दूध = 567 ल
-10-10 06:56:30   [Statistics] review Feynman_en.txt: 5 issue(s): - The text is corrupted with numerous `<|close|>` tags and fragmented words (e.g., "ures of to a/b", "think", "anal
-10-10 06:56:32   [Heights_Distances] review Mind_Map.txt: 2 issue(s): - E2 formula for two points same side has denominator (tan β − tan α) which yields negative height; correct formula i
 10-10 06:57:57   [Data_Interpretation] review Content_hi.txt: 1 issue(s): - The hook invents a specific exam statistic and year claim (“CAT 2022 के एक स्लॉट में… हज़ारों छात्रों ने उसे छोड़
 10-10 06:58:33   [Number_Series] wrote Feynman_hi.txt (2271 chars)
 10-10 06:58:37   [Permutation_Combination] wrote Practice_en_Set_04.txt (write, 25 MCQs)
@@ -91,4 +82,14 @@
 10-10 07:19:12   [Trigonometry] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 10-10 07:20:12   [Statistics] review Important_Formulas_en.txt: 2 issue(s): - The relation AM–GM–HM incorrectly states GM² = AM × HM as a general identity; it holds only for two nu
 10-10 07:21:26   [Probability] Practice_en_Set_04.txt try 3: rejected (parsed 22 questions, numbers 76…100)
+10-10 07:21:49   [Heights_Distances] review Important_Formulas_en.txt: 1 issue(s): - Cloud/mirror-lake problem formula: Height of cloud = d·(tan θ₁+tan θ₂)/(tan θ₂−tan θ₁) is incorrect (g
+10-10 07:21:50   [Number_Series] wrote Flashcards_hi.txt (3777 chars)
+10-10 07:22:58   [Trigonometry] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+10-10 07:23:30   [Mixture_Alligation] review Important_Formulas_hi.txt: 1 issue(s): - Section 8 "समान बनाना" formula is incorrect: the expression (b·a′ − a·b′) / (b′ − a′) does not correct
+10-10 07:24:28   [Permutation_Combination] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+10-10 07:24:44   [Statistics] review: 6 section(s) corrected, 0 failed
+10-10 07:24:44   [Statistics] written 6, failed 0; AI calls today 200/100000
+10-10 07:24:55   [Probability] Practice_en_Set_04.txt try 4: rejected (parsed 21 questions, numbers 76…100)
+10-10 07:24:55   [Probability] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
+10-10 07:24:55   [Probability] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
 ```

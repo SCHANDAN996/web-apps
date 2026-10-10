@@ -1,0 +1,79 @@
+Card 1
+Front: What is the formula for the mean of grouped data (direct method)?
+Back: Mean = Σfᵢxᵢ / Σfᵢ, where xᵢ is the class mark and fᵢ is the frequency.
+
+Card 2
+Front: What is the relationship between Mean, Median and Mode (empirical formula)?
+Back: Mode = 3 Median − 2 Mean.
+
+Card 3
+Front: What is the mnemonic to remember the empirical relation Mode = 3 Median − 2 Mean?
+Back: "M3M2" — Mode needs 3 Medians minus 2 Means. Think: "Mode is 3–2 of Mean-Median."
+
+Card 4
+Front: What is the formula for the median of grouped data?
+Back: Median = l + [(N/2 − cf) / f] × h, where l = lower limit of median class, cf = cumulative frequency before it, f = its frequency, h = class width.
+
+Card 5
+Front: What is the formula for the mode of grouped data?
+Back: Mode = l + [(f₁ − f₀) / (2f₁ − f₀ − f₂)] × h, where f₁ = modal class frequency, f₀ and f₂ = frequencies of the classes before and after it.
+
+Card 6
+Front: What is variance and its formula?
+Back: Variance is the mean of squared deviations from the mean: σ² = Σ(xᵢ − x̄)² / N.
+
+Card 7
+Front: What is standard deviation?
+Back: The positive square root of variance: σ = √[Σ(xᵢ − x̄)² / N]. It measures spread in the same units as the data.
+
+Card 8
+Front: What is the Coefficient of Variation (CV) and when is it used?
+Back: CV = (σ / x̄) × 100. It compares variability of two datasets with different means or units — lower CV means more consistent.
+
+Card 9
+Front: What is the mnemonic to remember which measure is affected by extreme values?
+Back: "Mean is MEAN to outliers" — the mean is pulled by extreme values; the median stays put. Remember: Median = Middle = immune.
+
+Card 10
+Front: What is the assumed mean (shortcut) method for the mean?
+Back: Mean = a + Σfᵢdᵢ / Σfᵢ, where dᵢ = xᵢ − a and a is the assumed mean.
+
+Card 11
+Front: What is the step-deviation method formula?
+Back: Mean = a + (Σfᵢuᵢ / Σfᵢ) × h, where uᵢ = (xᵢ − a)/h and h is the class width.
+
+Card 12
+Front: What are quartiles Q₁, Q₂, Q₃?
+Back: Q₁ = 25th percentile (median of lower half), Q₂ = median (50th percentile), Q₃ = 75th percentile (median of upper half).
+
+Card 13
+Front: What is the interquartile range (IQR)?
+Back: IQR = Q₃ − Q₁. It measures the spread of the middle 50% of data and is resistant to outliers.
+
+Card 14
+Front: What is the mnemonic to remember the order of measures in a right-skewed distribution?
+Back: "Mean chases the tail" — in right skew: Mean > Median > Mode. In left skew, the order reverses.
+
+Card 15
+Front: If every value in a dataset is increased by k, what happens to the mean and standard deviation?
+Back: Mean increases by k; standard deviation stays unchanged (adding a constant doesn't change spread).
+
+Card 16
+Front: If every value in a dataset is multiplied by k, what happens to the mean and standard deviation?
+Back: Both are multiplied by k (variance is multiplied by k²).
+
+Card 17
+Front: What is the range of a dataset?
+Back: Range = Maximum value − Minimum value. It is the simplest measure of dispersion.
+
+Card 18
+Front: What is the combined mean of two groups with means x̄₁, x̄₂ and sizes n₁, n₂?
+Back: Combined mean = (n₁x̄₁ + n₂x̄₂) / (n₁ + n₂).
+
+Card 19
+Front: Which average is most appropriate for open-ended class intervals?
+Back: The median, because it does not depend on the extreme class limits, unlike the mean.
+
+Card 20
+Front: What is the mean deviation about the mean?
+Back: Mean deviation = Σ|xᵢ − x̄| / N — the average of absolute deviations from the mean.
