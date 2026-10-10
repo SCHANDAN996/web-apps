@@ -1,0 +1,151 @@
+Questions 1–20: Easy | Questions 21–25: Medium
+
+1. A square sheet of paper is folded once along its vertical midline and a single hole is punched through the folded layers. How many holes appear when the sheet is unfolded?
+(a) 1 (b) 4 (c) 3 (d) 2
+Answer: (d)
+Solution: One fold creates two layers, so one punch passes through both layers. On unfolding, the hole is mirrored across the fold line, giving two holes symmetric about the vertical midline. The tempting answer 4 assumes two folds, but there is only one fold here, so the answer is 2.
+Source: PYQ-style
+
+2. A sheet is folded twice — first along the vertical midline, then along the horizontal midline. One hole is punched through all layers. How many holes appear on unfolding?
+(a) 2 (b) 3 (c) 4 (d) 8
+Answer: (c)
+Solution: Each fold doubles the number of layers: 2 layers after the first fold, 4 after the second. One punch therefore makes 4 holes, mirrored across both fold lines. The tempting answer 8 wrongly doubles once more, so the answer is 4.
+Source: PYQ-style
+
+3. A paper is folded along its diagonal and a cut is made near the fold. When unfolded, the cut pattern will be:
+(a) Asymmetric about the diagonal (b) Randomly placed (c) Symmetric about the vertical midline (d) Symmetric about the diagonal
+Answer: (d)
+Solution: Any cut made on folded paper is reflected across the fold line when the paper is opened. Since the fold here is the diagonal, the resulting pattern must be mirror-symmetric about that diagonal, so the answer is symmetric about the diagonal.
+Source: PYQ-style
+
+4. A square sheet is folded into half vertically (left half over right half). A semicircular cut is made on the fold edge. What shape appears on the fold line after unfolding?
+(a) A full circle (b) A semicircle (c) A square (d) A triangle
+Answer: (a)
+Solution: A semicircle cut on the fold edge is mirrored to the other half on unfolding, and two mirror-image semicircles join to form a full circle. The tempting answer is a semicircle, which ignores the mirroring, so the answer is a full circle.
+Source: PYQ-style
+
+5. A sheet is folded once horizontally. A triangular cut is made with its base on the fold. After unfolding, the shape formed is:
+(a) A rhombus/kite shape (b) A triangle (c) A rectangle (d) A circle
+Answer: (a)
+Solution: The triangular cut is reflected across the fold, and two triangles joined base-to-base form a kite or rhombus-like quadrilateral. The tempting answer is a single triangle, which forgets the mirror copy, so the answer is a rhombus/kite shape.
+Source: PYQ-style
+
+6. A paper is folded twice along both midlines (vertical and horizontal). A hole is punched exactly at the corner where the two fold lines meet. How many holes appear on unfolding?
+(a) 1 (b) 2 (c) 4 (d) 3
+Answer: (a)
+Solution: A punch exactly on the intersection of both fold lines lies on both mirror axes, so all its reflections coincide at the same single point — the centre of the sheet. The tempting answer 4 applies the usual doubling rule without noticing the punch is on the fold intersection, so the answer is 1.
+Source: PYQ-style
+
+7. A sheet is folded once vertically and then once horizontally. A hole is punched on one fold line (but not at the intersection). How many holes appear on unfolding?
+(a) 4 (b) 3 (c) 1 (d) 2
+Answer: (d)
+Solution: A punch lying on one fold line is mirrored only across the other fold line; its reflection across the fold it sits on coincides with itself. Hence only 2 distinct holes appear. The tempting answer 4 ignores that the punch lies on a fold, so the answer is 2.
+Source: PYQ-style
+
+8. In paper folding questions, the golden rule for counting holes is:
+(a) Holes = 2 raised to the number of folds, adjusted for punches on fold lines (b) Holes = number of folds (c) Holes = number of cuts plus one (d) Holes are always 4
+Answer: (a)
+Solution: Each fold doubles the layers, so a punch through n folds normally gives 2^n holes; but punches lying on a fold line or at a fold intersection produce fewer distinct holes. The other options are fixed rules that fail in such cases, so the answer is 2 raised to the number of folds, adjusted for punches on fold lines.
+Source: PYQ-style
+
+9. A square sheet is folded along one diagonal. A hole is punched through the folded triangle away from the fold. How many holes appear on unfolding?
+(a) 1 (b) 3 (c) 4 (d) 2
+Answer: (d)
+Solution: One fold means two layers, so the punch makes two holes, mirror images across the diagonal. The tempting answer 4 assumes two folds, so the answer is 2.
+Source: PYQ-style
+
+10. A paper is folded into quarters (two folds). Two holes are punched through the folded quarter, both away from fold lines. How many holes appear on unfolding?
+(a) 4 (b) 6 (c) 8 (d) 16
+Answer: (c)
+Solution: Two folds create 4 layers, and each punch goes through all 4 layers, giving 4 holes per punch. Two punches give 4 × 2 = 8 holes. The tempting answer 4 counts only one punch, so the answer is 8.
+Source: PYQ-style
+
+11. A sheet is folded once vertically. A straight cut is made parallel to the fold, cutting through both layers. After unfolding, how many cut lines appear on the sheet?
+(a) 1 (b) 2 (c) 3 (d) 4
+Answer: (b)
+Solution: The cut passes through two layers, producing two cut lines that are mirror images across the vertical fold. The tempting answer 1 counts only the visible cut on the folded paper, so the answer is 2.
+Source: PYQ-style
+
+12. A circular sheet is folded into a semicircle and then into a quarter circle. One hole is punched through all layers away from the folds. How many holes appear on unfolding?
+(a) 2 (b) 6 (c) 4 (d) 8
+Answer: (c)
+Solution: Folding a circle into a semicircle gives 2 layers and folding again into a quarter gives 4 layers. One punch through 4 layers makes 4 holes arranged symmetrically. The tempting answer 8 wrongly assumes three folds, so the answer is 4.
+Source: PYQ-style
+
+13. A paper is folded once and a cut is made at the folded corner (the corner where the fold meets the edge). After unfolding, the cut appears:
+(a) Mirrored on both sides of the fold (b) Only on one side of the sheet (c) Only at the centre (d) Nowhere
+Answer: (a)
+Solution: Every cut on folded paper is reflected across the fold line when opened, so the corner cut appears as a mirror pair on both sides of the fold. The tempting answer places it on one side only, which ignores reflection, so the answer is mirrored on both sides of the fold.
+Source: PYQ-style
+
+14. A square sheet is folded along both diagonals (two folds). One hole is punched away from the fold lines. How many holes appear on unfolding?
+(a) 2 (b) 6 (c) 4 (d) 8
+Answer: (c)
+Solution: Two folds give 4 layers, so one punch produces 4 holes, mirrored across both diagonals. The tempting answer 8 assumes three folds, so the answer is 4.
+Source: PYQ-style
+
+15. A sheet is folded once horizontally and a V-shaped cut is made with its vertex pointing toward the fold. After unfolding, the pattern looks like:
+(a) An X or diamond-like shape symmetric about the fold (b) A single V (c) A straight line (d) A circle
+Answer: (a)
+Solution: The V is reflected across the horizontal fold, so the V and its mirror image join at the vertex region to form an X or diamond-like symmetric figure. The tempting answer is a single V, which ignores the mirror copy, so the answer is an X or diamond-like shape symmetric about the fold.
+Source: PYQ-style
+
+16. While solving paper folding problems, the correct solving order is:
+(a) Start from the first fold and move forward (b) Count only the visible holes (c) Start from the last fold and unfold step by step in reverse (d) Guess from the final folded figure
+Answer: (c)
+Solution: Unfolding in reverse order — undoing the last fold first — lets you mirror each hole or cut one step at a time without confusion. Starting forward or guessing leads to missed reflections, so the answer is start from the last fold and unfold step by step in reverse.
+Source: PYQ-style
+
+17. A paper is folded twice (vertical then horizontal). A hole is punched at the free corner of the folded quarter (the corner opposite to all folds). After unfolding, the holes are located:
+(a) All at the centre (b) At the four corners of the sheet (c) Only at two corners (d) Along one edge only
+Answer: (b)
+Solution: The free corner of the folded quarter corresponds to all four outer corners of the original sheet stacked together. Unfolding mirrors the punch to all four corners. The tempting answer places holes at the centre, which would happen only if the punch were at the fold intersection, so the answer is at the four corners of the sheet.
+Source: PYQ-style
+
+18. A sheet is folded once vertically. Two holes are punched on the folded sheet, one on the fold line and one away from it. How many holes appear on unfolding?
+(a) 4 (b) 3 (c) 2 (d) 1
+Answer: (b)
+Solution: The punch away from the fold gives 2 holes after mirroring, while the punch on the fold line stays as a single hole because its reflection coincides with itself. Total = 2 + 1 = 3. The tempting answer 4 mirrors both punches, so the answer is 3.
+Source: PYQ-style
+
+19. A rectangular sheet is folded into half along its length and a square cut is made with one side on the fold. After unfolding, the shape formed is:
+(a) A square (b) A rectangle twice as wide as the cut (c) A circle (d) A triangle
+Answer: (b)
+Solution: The square cut is mirrored across the fold, and two squares joined along one side form a rectangle whose width is double the square's side. The tempting answer is a square, which ignores the doubling across the fold, so the answer is a rectangle twice as wide as the cut.
+Source: PYQ-style
+
+20. In a paper cutting question, a sheet folded once has a cut made exactly on the fold line, removing a small semicircle. After unfolding, the sheet has:
+(a) Two separate semicircular notches (b) One circular hole on the fold line (c) No hole (d) Four holes
+Answer: (b)
+Solution: A semicircular cut on the fold is mirrored to form a complete circle centred on the fold line, giving one circular hole. The tempting answer of two semicircular notches treats the halves as separate, but they join into one hole, so the answer is one circular hole on the fold line.
+Source: PYQ-style
+
+21. A square sheet is folded along the vertical midline, then the folded sheet is folded along its horizontal midline, and finally folded along the diagonal of the small square. One hole is punched away from all fold lines. How many holes appear on unfolding?
+(a) 8 (b) 6 (c) 4 (d) 16
+Answer: (a)
+Solution: Three folds create 2 × 2 × 2 = 8 layers, so one punch produces 8 holes when unfolded step by step. The tempting answer 4 counts only two folds — a common slip when the diagonal fold is overlooked, so the answer is 8.
+Source: PYQ-style
+
+22. A sheet is folded twice (vertical, then horizontal). Three holes are punched: one at the fold intersection, one on one fold line, and one away from both folds. How many holes appear on unfolding?
+(a) 12 (b) 6 (c) 8 (d) 7
+Answer: (d)
+Solution: The punch at the fold intersection gives 1 hole, the punch on one fold line gives 2 holes, and the punch away from both folds gives 4 holes. Total = 1 + 2 + 4 = 7. The tempting answer 12 multiplies all three punches by 4, ignoring punches on folds, so the answer is 7.
+Source: PYQ-style
+
+23. A circular sheet is folded into a semicircle, then folded again into a quarter. A cut is made on the curved (outer) edge of the quarter, away from the folds. After unfolding, how many identical notches appear on the circle's boundary?
+(a) 2 (b) 8 (c) 6 (d) 4
+Answer: (d)
+Solution: Two folds give 4 layers, so the edge cut is mirrored across both fold lines, producing 4 notches evenly spaced on the circle's boundary. The tempting answer 8 assumes an extra fold, so the answer is 4.
+Source: PYQ-style
+
+24. A square sheet is folded along one diagonal, then folded again along the line joining the midpoints of the two equal sides of the resulting triangle. A hole is punched away from the fold lines. How many holes appear on unfolding?
+(a) 2 (b) 6 (c) 4 (d) 8
+Answer: (c)
+Solution: Two folds create 4 layers, so one punch yields 4 holes after both unfoldings. The tempting answer 8 wrongly applies three doublings — the midpoint fold is only the second fold, so the answer is 4.
+Source: PYQ-style
+
+25. A sheet is folded once vertically and once horizontally. A hole is punched near the fold intersection but slightly off both fold lines, and a second hole is punched exactly on the vertical fold line. How many holes appear on unfolding?
+(a) 8 (b) 6 (c) 5 (d) 4
+Answer: (b)
+Solution: The first punch is off both folds, so it mirrors to 4 holes; the second punch lies on the vertical fold, so it mirrors only across the horizontal fold, giving 2 holes. Total = 4 + 2 = 6. The tempting answer 8 mirrors both punches across both folds, ignoring that the second punch sits on a fold line, so the answer is 6.
+Source: PYQ-style

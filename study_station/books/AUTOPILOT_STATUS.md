@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 05:32 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 05:00 PM
+**आख़िरी update:** 10-10-2026 05:37 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 05:00 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W4 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 31 मिनट |
-| W5 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | 🔎 review हो रहा है | 31 मिनट |
-| W7 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 31 मिनट |
+| W4 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 36 मिनट |
+| W5 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W7 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 36 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -34,6 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 10-10 17:37 — Graduation Reasoning · Chapter 21 Paper Folding Cutting
 - 10-10 17:16 — Graduation Reasoning · Chapter 02 Classification
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
@@ -45,11 +46,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 17:03:00   [Para_Jumbles_Adv] repaired Mind_Map_hi.txt (1350 chars)
-10-10 17:03:00   [Para_Jumbles_Adv] written 1, failed 0; AI calls today 13/100000
-10-10 17:03:00 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv after 1 min: todo [] problems ['Mind_Map_hi.txt: much shorter than the English section (1349']
-10-10 17:03:04 worker 0: nothing left
-10-10 17:03:48   [Advanced_Puzzles] Practice_en_Set_03.txt try 1: rejected (Q55:leaked_reasoning,Q60:leaked_reasoning)
 10-10 17:03:51   [Statement_Argument] repaired PYQ_hi.txt (7836 chars)
 10-10 17:03:51   [Statement_Argument] written 1, failed 0; AI calls today 14/100000
 10-10 17:04:08   [Dictionary_Order] Practice_en_Set_04.txt try 1: rejected (Q99:leaked_reasoning)
@@ -85,4 +81,9 @@
 10-10 17:21:34   [Dictionary_Order] Practice_en_Set_04.txt try 3: re-solve disagrees (Q76 key d vs re-solve ?, Q78 key a vs re-solve ?, Q85 key b vs re-solve a, Q96 key c vs re-solve ?, 
 10-10 17:22:02   [Advanced_Puzzles] Practice_en_Set_03.txt try 2: re-solve disagrees (Q58 key c vs re-solve d, Q63 key a vs re-solve b, Q71 key a vs re-solve d, Q73 key d vs re-solve b)
 10-10 17:24:50   [Paper_Folding_Cutting] review Short_Tricks_en.txt: 1 issue(s): - Box 12 states "A diagonal fold reflects across the diagonal — top-left swaps with bottom-right" → this is on
+10-10 17:35:02   [Dictionary_Order] Practice_en_Set_04.txt try 4: re-solve disagrees (Q76 key d vs re-solve ?, Q78 key a vs re-solve ?, Q85 key b vs re-solve a)
+10-10 17:35:02   [Dictionary_Order] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
+10-10 17:35:02   [Dictionary_Order] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
+10-10 17:37:20   [Paper_Folding_Cutting] review: 3 section(s) corrected, 0 failed
+10-10 17:37:20   [Paper_Folding_Cutting] written 3, failed 0; AI calls today 56/100000
 ```
