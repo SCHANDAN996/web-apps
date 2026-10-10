@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 03:38 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:34 AM
+**आख़िरी update:** 10-10-2026 03:54 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:34 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W5 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 177 मिनट |
+| W5 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 192 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -51,10 +51,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 14:37:48 START Graduation_Level/Reasoning/Chapter_29_Logical_Consistency (TODO: todo 4, problems 0)
-10-10 14:43:19   [Logical_Consistency] Practice_en_Set_05.txt try 1: re-solve disagrees (Q110 key d vs re-solve a, Q125 key b vs re-solve d)
-10-10 14:46:00   [Data_Sufficiency] Practice_en_Set_04.txt try 3: re-solve disagrees (Q77 key d vs re-solve c, Q79 key c vs re-solve b, Q86 key c vs re-solve a, Q89 key a vs re-solve c, 
-10-10 14:47:47   [Advanced_Puzzles] Practice_en_Set_03.txt try 2: re-solve disagrees (Q53 key d vs re-solve a, Q54 key d vs re-solve a)
 10-10 14:50:37   [Logical_Consistency] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 10-10 14:53:01   [Logical_Consistency] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 10-10 14:57:30   [Data_Sufficiency] wrote Practice_en_Set_04.txt (write, 25 MCQs)
@@ -91,4 +87,8 @@
 10-10 15:28:10 DONE Graduation_Level/Reasoning/Chapter_29_Logical_Consistency in 50 min → 5092f77b
 10-10 15:28:12 worker 1: nothing left
 10-10 15:34:01   [Advanced_Puzzles] Practice_en_Set_04.txt try 2: re-solve disagrees (Q77 key a vs re-solve -, Q86 key d vs re-solve ?)
+10-10 15:44:53   [Advanced_Puzzles] Practice_en_Set_04.txt try 3: re-solve disagrees (Q98 key c vs re-solve b)
+10-10 15:53:28   [Advanced_Puzzles] Practice_en_Set_04.txt try 4: re-solve disagrees (Q98 key b vs re-solve c)
+10-10 15:53:28   [Advanced_Puzzles] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
+10-10 15:53:28   [Advanced_Puzzles] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
 ```
