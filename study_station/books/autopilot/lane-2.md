@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 07:52 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
+**आख़िरी update:** 10-10-2026 07:53 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,12 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 23 Data Interpretation (Graduation Maths) | 🔎 review हो रहा है | 61 मिनट |
-| W2 | Chapter 26 Permutation Combination (Graduation Maths) | 🔎 review हो रहा है | 8 मिनट |
-| W4 | Chapter 27 Number Series (Graduation Maths) | ✍️ लिख रहा है | 73 मिनट |
-| W5 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 27 मिनट |
-| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 88 मिनट |
-| W7 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 59 मिनट |
+| W1 | Chapter 23 Data Interpretation (Graduation Maths) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 26 Permutation Combination (Graduation Maths) | 🔎 review हो रहा है | 9 मिनट |
+| W4 | Chapter 27 Number Series (Graduation Maths) | ✍️ लिख रहा है | 75 मिनट |
+| W5 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 28 मिनट |
+| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 89 मिनट |
+| W7 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 61 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -35,6 +35,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 10-10 07:53 — Graduation Maths · Chapter 23 Data Interpretation
 - 10-10 07:35 — Graduation Maths · Chapter 13 Mixture Alligation
 - 10-10 07:25 — Graduation Maths · Chapter 20 Heights Distances
 - 10-10 07:24 — Graduation Maths · Chapter 24 Statistics
@@ -53,9 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 07:27:27   [Mixture_Alligation] written 7, failed 1; AI calls today 206/100000
-10-10 07:27:27 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_13_Mixture_Alligation after 83 min: todo [] problems []
-10-10 07:27:31 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_13_Mixture_Alligation (OK: todo 0, problems 0)
 10-10 07:28:30   [Data_Interpretation] review PYQ_en.txt: 1 issue(s): - Q5 answer is marked as (d) Neither, but the solution shows statement (2) is true, so the correct answer is (b) Only 2
 10-10 07:29:14   [Mixture_Alligation] review PYQ_hi.txt: 4 issue(s): - Heading "पृथ्थीकरण" is misspelled; the correct term is "पृथक्कीकरण" → Use "पृथक्कीकरण" instead of "पृथ्थीकरण".
 10-10 07:31:32   [Permutation_Combination] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
@@ -93,4 +91,7 @@
 10-10 07:49:29   [Data_Interpretation] review Important_Formulas_hi.txt: 1 issue(s): - दो मानों का प्रतिशत अंतर सूत्र में निरपेक्ष मान (|A−B|) का उपयोग गलत है; "B की तुलना में A कितना % अधि
 10-10 07:49:35   [Trigonometry] Practice_en_Set_06.txt try 1: rejected (parsed 22 questions, numbers 126…150)
 10-10 07:51:47   [Linear_Programming] Feynman_hi.txt try 1: rejected (corrupted characters)
+10-10 07:52:59   [Probability] Practice_en_Set_06.txt try 1: rejected (parsed 23 questions, numbers 126…150)
+10-10 07:53:38   [Data_Interpretation] review: 9 section(s) corrected, 0 failed
+10-10 07:53:38   [Data_Interpretation] written 9, failed 0; AI calls today 243/100000
 ```

@@ -1,0 +1,54 @@
+```mermaid
+graph TD
+    A["डेटा व्याख्या<br>Data Interpretation"] --> B["डेटा के प्रकार<br>Types of Data"]
+    A --> C["प्रस्तुति के रूप<br>Forms of Presentation"]
+    A --> D["आधारभूत गणनाएँ<br>Basic Calculations"]
+    A --> E["उन्नत अवधारणाएँ<br>Advanced Concepts"]
+    A --> F["परीक्षा रणनीति<br>Exam Strategy"]
+
+    B --> B1["संख्यात्मक डेटा<br>Numerical Data"]
+    B --> B2["श्रेणीबद्ध डेटा<br>Categorical Data"]
+    B --> B3["समय-श्रृंखला<br>Time Series"]
+
+    C --> C1["तालिका<br>Table"]
+    C --> C2["बार ग्राफ<br>Bar Graph"]
+    C --> C3["पाई चार्ट<br>Pie Chart"]
+    C --> C4["रेखा ग्राफ<br>Line Graph"]
+    C --> C5["मिश्रित/केसलेट<br>Mixed / Caselet"]
+    C --> C6["रडार/स्कैटर<br>Radar / Scatter"]
+
+    C2 --> C2a["साधारण बार<br>Simple Bar"]
+    C2 --> C2b["समूहित बार<br>Grouped Bar"]
+    C2 --> C2c["संचयी बार<br>Stacked Bar"]
+
+    C3 --> C3a["कोण = मान/कुल × 360°<br>Angle = Value/Total × 360°"]
+    C3 --> C3b["प्रतिशत रूपांतरण<br>Percentage Conversion"]
+
+    D --> D1["प्रतिशत<br>Percentage"]
+    D --> D2["अनुपात<br>Ratio"]
+    D --> D3["औसत<br>Average"]
+    D --> D4["वृद्धि दर<br>Growth Rate"]
+    D --> D5["तुलना<br>Comparison"]
+
+    D1 --> D1a["% परिवर्तन = अंतर/आधार × 100<br>% Change = Diff/Base × 100"]
+    D1 --> D1b["प्रतिशत बिंदु<br>Percentage Points"]
+
+    D4 --> D4a["CAGR<br>चक्रवृद्धि वार्षिक वृद्धि दर"]
+    D4 --> D4b["वर्ष-दर-वर्ष वृद्धि<br>YoY Growth"]
+
+    E --> E1["लगभग मान<br>Approximation"]
+    E --> E2["अनुपात-आधारित प्रश्न<br>Ratio-based Questions"]
+    E --> E3["लुप्त डेटा<br>Missing Data"]
+    E --> E4["डेटा पर्याप्तता<br>Data Sufficiency"]
+    E --> E5["कथन-निष्कर्ष<br>Statement-Conclusion"]
+
+    F --> F1["पहले प्रश्न पढ़ें<br>Read Question First"]
+    F --> F2["इकाइयाँ जाँचें<br>Check Units"]
+    F --> F3["विकल्प से उलटा हल<br>Reverse from Options"]
+    F --> F4["समय प्रबंधन<br>Time Management"]
+    F --> F5["ट्रैप से बचाव<br>Avoid Traps"]
+
+    F5 --> F5a["आधार वर्ष भ्रम<br>Base Year Confusion"]
+    F5 --> F5b["% बनाम % बिंदु<br>% vs Percentage Points"]
+    F5 --> F5c["पैमाना भ्रम<br>Scale Confusion"]
+```
