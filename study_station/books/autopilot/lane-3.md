@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 11-10-2026 12:50 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 12:03 AM
+**आख़िरी update:** 11-10-2026 01:06 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 12:03 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 13 Dictionary Order (12th Reasoning) | 🔎 review हो रहा है | 8 मिनट |
+| W2 | Chapter 13 Dictionary Order (12th Reasoning) | 🔎 review हो रहा है | 24 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -44,13 +44,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 00:12:16   [Statement_Conclusion] repaired Flashcards_hi.txt (3579 chars)
-11-10 00:12:16   [Statement_Conclusion] written 1, failed 0; AI calls today 18/100000
-11-10 00:12:16 NOT OK 12th_Level/Reasoning/Chapter_16_Statement_Conclusion after 6 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (35']
-11-10 00:12:17   [Course_of_Action] repaired Short_Tricks_hi.txt (4125 chars)
-11-10 00:12:20 worker 2: nothing left
-11-10 00:12:20   [Course_of_Action] written 1, failed 0; AI calls today 18/100000
-11-10 00:12:48   [Sitting_Arrangement] repaired Short_Tricks_hi.txt (4204 chars)
 11-10 00:12:48   [Sitting_Arrangement] written 1, failed 0; AI calls today 19/100000
 11-10 00:12:48 NOT OK 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement after 4 min: todo [] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
 11-10 00:12:51 worker 0: nothing left
@@ -84,4 +77,11 @@
 11-10 00:44:18   [Dictionary_Order] review Content_hi.txt: 1 issue(s): - In the step-by-step example for SCHOOL, SCENE, SCORE, SCHEME, the fourth letter of SCHEME is incorrectly given as
 11-10 00:46:55   [Dictionary_Order] review Feynman_en.txt: 1 issue(s): - In the SUN trap example, the fourth letters of SUNDAY and SUNNY are misidentified as A and Y; they are actually D
 11-10 00:50:33   [Dictionary_Order] review Mind_Map.txt: 1 issue(s): - C4 Hindi-English mismatch: Hindi "कौन-सा शब्द शब्दकोश में नहीं" means "which word is not in the dictionary", but En
+11-10 00:52:46   [Dictionary_Order] review Flashcards_en.txt: 1 issue(s): - Card 6 states the 5th letter of APPLAUSE is U → the 5th letter is A (APPLAUSE = A‑P‑P‑L‑A…).
+11-10 00:57:02   [Dictionary_Order] review PYQ_en.txt: 2 issue(s): - Q1: Answer marked (d) but solution shows correct order 2,3,4,1,5 (option a) → Correct answer is (a)
+11-10 00:59:12   [Dictionary_Order] review PYQ_hi.txt: 4 issue(s): - Question 1 answer and solution are incorrect: the correct dictionary order is 4,1,2,5,3 (GRAIN, GRASS, GREAT, GREEN, 
+11-10 01:01:50   [Dictionary_Order] review Short_Tricks_en.txt: 1 issue(s): - Mnemonic 7: The example "APPLE vs AXE — AXE wins because X beats P at position 2" is factually wrong; in dic
+11-10 01:03:07   [Dictionary_Order] REJECTED review fix Short_Tricks_en.txt: corrupted characters
+11-10 01:03:56   [Dictionary_Order] review Short_Tricks_hi.txt: 1 issue(s): - Trick 11 invents an exam statistic (“90% प्रश्न पहले तीन अक्षरों में ही सुलझ जाते हैं”) without any source o
+11-10 01:05:56   [Dictionary_Order] review Important_Rules_en.txt: 1 issue(s): - In the Letter Position formula example, "King beats Join (11 > 10)" is incorrect because in dictionary or
 ```
