@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 07:50 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 05:00 PM
+**आख़िरी update:** 10-10-2026 08:05 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 05:00 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W7 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 169 मिनट |
+| W7 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 184 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -45,9 +45,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 17:16:40 DONE Graduation_Level/Reasoning/Chapter_02_Classification in 16 min → ae08a9df
-10-10 17:16:45 worker 1: nothing left
-10-10 17:19:49   [Paper_Folding_Cutting] review PYQ_hi.txt: 2 issue(s): - In Question 3, the phrase “ऊपर-बाएँ कोने (जो मुड़ा कोना नहीं है)” wrongly identifies the corner; the cut is actually 
 10-10 17:21:34   [Dictionary_Order] Practice_en_Set_04.txt try 3: re-solve disagrees (Q76 key d vs re-solve ?, Q78 key a vs re-solve ?, Q85 key b vs re-solve a, Q96 key c vs re-solve ?, 
 10-10 17:22:02   [Advanced_Puzzles] Practice_en_Set_03.txt try 2: re-solve disagrees (Q58 key c vs re-solve d, Q63 key a vs re-solve b, Q71 key a vs re-solve d, Q73 key d vs re-solve b)
 10-10 17:24:50   [Paper_Folding_Cutting] review Short_Tricks_en.txt: 1 issue(s): - Box 12 states "A diagonal fold reflects across the diagonal — top-left swaps with bottom-right" → this is on
@@ -85,4 +82,7 @@
 10-10 19:01:27 worker 3: nothing left
 10-10 19:18:46   [Advanced_Puzzles] Practice_en_Set_05.txt try 2: re-solve disagrees (Q101 key a vs re-solve d, Q103 key c vs re-solve b, Q120 key b vs re-solve ?)
 10-10 19:38:19   [Advanced_Puzzles] Practice_en_Set_05.txt try 3: re-solve disagrees (Q101 key a vs re-solve c, Q105 key b vs re-solve c)
+10-10 19:50:40   [Advanced_Puzzles] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+10-10 19:56:11   [Advanced_Puzzles] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+10-10 20:04:10   [Advanced_Puzzles] Practice_en_Set_06.txt try 1: rejected (Q135:leaked_reasoning,Q137:leaked_reasoning,Q140:leaked_reasoning)
 ```
