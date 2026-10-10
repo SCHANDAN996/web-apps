@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 12:04 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 10:31 AM
+**आख़िरी update:** 10-10-2026 12:20 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 10:31 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 31 मिनट |
+| W2 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 46 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -45,8 +45,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 11:12:18   [Dictionary_Order] Practice_en_Set_03.txt try 4: re-solve disagrees (Q61 key c vs re-solve b, Q70 key a vs re-solve c, Q73 key c vs re-solve a)
-10-10 11:12:18   [Dictionary_Order] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
 10-10 11:12:18   [Dictionary_Order] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
 10-10 11:13:32   [Mirror_Water_Images] repaired PYQ_hi.txt (6663 chars)
 10-10 11:13:32   [Mirror_Water_Images] written 2, failed 0; AI calls today 96/100000
@@ -85,4 +83,6 @@
 10-10 11:51:01   [Dictionary_Order] Practice_en_Set_03.txt try 3: re-solve disagrees (Q53 key c vs re-solve b)
 10-10 12:04:52   [Dictionary_Order] FAILED Practice_en_Set_03.txt: too_long
 10-10 12:04:52   [Dictionary_Order] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
+10-10 12:08:24   [Dictionary_Order] Practice_en_Set_05.txt try 1: rejected (Q104:leaked_reasoning,Q107:leaked_reasoning,Q109:leaked_reasoning,Q112:leaked_reasoning,Q113:leaked_reasoning)
+10-10 12:15:49   [Dictionary_Order] Practice_en_Set_05.txt try 2: re-solve disagrees (Q101 key d vs re-solve b)
 ```
