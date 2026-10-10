@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 10:30 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
+**आख़िरी update:** 10-10-2026 10:31 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -50,7 +50,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 08:50:45   [Syllogism] review Short_Tricks_en.txt: 4 issue(s): - Mnemonic 10 claims "complementary pair like I + O" → Complementary pairs in syllogism are A-O and E-I; I and
 10-10 08:52:33   [Syllogism] review Short_Tricks_hi.txt: 1 issue(s): - Trick 10 की तीसरी शर्त में "दोनों I-टाइप हों जैसे Some A are B / No A is B" लिखा है → No A is B E-टाइप है, I
 10-10 08:53:25   [Figure_Series] Practice_en_Set_03.txt try 1: rejected (parsed 1 questions, numbers 51…51)
 10-10 08:54:48   [Syllogism] review Important_Rules_en.txt: 1 issue(s): - 'Some Not' Rule incorrectly states that "Some A are not B" cannot be drawn as a definite diagram and shou
@@ -90,4 +89,5 @@
 10-10 10:20:27   [Sitting_Arrangement] written 4, failed 2; AI calls today 456/100000
 10-10 10:20:27 NOT OK 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement after 109 min: todo ['Set 02 en: todo', 'Set 02 hi: todo'] problems ['PYQ_hi.txt: Hindi file is mostly not in Hindi']
 10-10 10:20:27 worker 0: nothing left
+10-10 10:31:14 autopilot end: done 7, failed 8
 ```
