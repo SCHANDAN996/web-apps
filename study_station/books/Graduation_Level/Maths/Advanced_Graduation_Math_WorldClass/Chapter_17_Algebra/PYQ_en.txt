@@ -1,0 +1,112 @@
+# 📊 PYQ Analysis — Algebra (Advanced Level)
+
+## How Exams Test Algebra: Pattern Analysis
+
+Algebra is one of the most reliable scoring areas across UPSC CSAT, SSC CGL Tier-II, IBPS PO Mains, CAT and State PCS exams. Instead of invented statistics, here is what repeated analysis of actual papers shows about **how** examiners frame questions:
+
+**1. The favourite sub-topics (asked again and again):**
+- **Quadratic equations** — nature of roots via discriminant, sum/product of roots, forming equations from roots.
+- **Identities** — (a±b)², (a±b)³, a³±b³, and the deadly x + 1/x family.
+- **Linear equations in two variables** — age problems, digit problems, work/wages framed as equations.
+- **Remainder & factor theorem** — "find the remainder when p(x) is divided by (x−a)".
+- **Inequalities & modulus** — especially in CAT and PO Mains.
+- **Progressions (AP/GP)** — nth term, sum, and mixed AP-GP traps.
+- **Functions & graphs** — domain, f(g(x)), maxima/minima of quadratics (CAT favourite).
+
+**2. The examiner's psychological traps:**
+- **The "almost right" option**: In x + 1/x = k questions, options include both k²−2 and k²+2 — sign slips are pre-planned.
+- **Sign confusion in identities**: (a−b)³ expansion's alternating signs; one wrong sign flips the answer to a listed option.
+- **Negative-root blindness**: Questions where x = −3 also satisfies the equation, but options tempt you with only the positive root.
+- **"Cannot be determined" bait**: In CSAT, when two equations in two variables are actually the same equation, the trap is to compute a value anyway.
+- **Time sink design**: A question that looks like heavy algebra but collapses with one substitution (e.g., let t = x + 1/x). The examiner rewards pattern recognition, not brute force.
+
+**3. Difficulty distribution by exam:**
+- **UPSC CSAT**: Basic quadratics, linear equations, AP/GP — solvable in 60–90 seconds if concepts are clear.
+- **SSC CGL Tier-II**: Identity-based simplification, x ± 1/x chains, factor theorem.
+- **IBPS PO Mains**: Quadratic comparison questions (Quantity I vs II), inequalities.
+- **CAT**: Functions, modulus, maxima-minima, higher-degree remainders — concept-heavy, calculation-light.
+
+---
+
+## 🎯 Top 10 High-Yield Questions (with Solutions)
+
+**Q1.** If x + 1/x = 5, find the value of x³ + 1/x³.
+(a) 100 (b) 110 (c) 120 (d) 125
+**Answer: (b)**
+**Solution:** x³ + 1/x³ = (x + 1/x)³ − 3(x + 1/x) = 125 − 15 = **110**.
+**Trap:** Option (d) 125 is (x+1/x)³ — the examiner bets you'll forget to subtract 3(x+1/x). Option (a) 100 catches those who subtract 25 instead of 15.
+**Source:** PYQ-style (SSC CGL pattern)
+
+**Q2.** If α and β are roots of x² − 7x + 12 = 0, find the equation whose roots are α² and β².
+(a) x² − 25x + 144 = 0 (b) x² − 49x + 144 = 0 (c) x² − 25x + 48 = 0 (d) x² − 24x + 144 = 0
+**Answer: (a)**
+**Solution:** α+β = 7, αβ = 12. New sum = α²+β² = 49 − 24 = 25; new product = (αβ)² = 144. Equation: x² − 25x + 144 = 0.
+**Trap:** Option (b) uses 49 (forgetting −2αβ). This is the single most repeated quadratic trap.
+**Source:** PYQ-style (Bank PO pattern)
+
+**Q3.** For what value of k does x² − kx + 9 = 0 have equal roots?
+(a) 3 (b) 6 (c) ±6 (d) 9
+**Answer: (c)**
+**Solution:** Equal roots ⇒ D = 0 ⇒ k² − 36 = 0 ⇒ k = ±6.
+**Trap:** Option (b) ignores the negative value. "Negative-root blindness" — CSAT and SSC both exploit this.
+**Source:** PYQ-style (CSAT pattern)
+
+**Q4.** If x − 1/x = 4, find x² + 1/x².
+(a) 14 (b) 16 (c) 18 (d) 20
+**Answer: (c)**
+**Solution:** x² + 1/x² = (x − 1/x)² + 2 = 16 + 2 = **18**.
+**Trap:** The sign flips! With minus, you ADD 2; with plus, you SUBTRACT 2. Options 14 and 18 are both planted for exactly this confusion.
+**Source:** PYQ-style (SSC CGL pattern)
+
+**Q5.** Find the remainder when x³ − 2x² + 3x − 4 is divided by (x − 2).
+(a) 0 (b) 2 (c) 4 (d) 6
+**Answer: (b)**
+**Solution:** By Remainder Theorem: p(2) = 8 − 8 + 6 − 4 = **2**.
+**Trap:** Students who do long division waste 3 minutes; the theorem gives it in 15 seconds. Option (a) tempts those who assume (x−2) "looks like" a factor.
+**Source:** PYQ-style (CAT/SSC pattern)
+
+**Q6.** If 2ˣ = 3ʸ = 6ᶻ, then 1/x + 1/y = ?
+(a) 1/z (b) 2/z (c) z (d) 1/(2z)
+**Answer: (a)**
+**Solution:** Let 2ˣ = 3ʸ = 6ᶻ = k. Then 2 = k^(1/x), 3 = k^(1/y), 6 = k^(1/z). Since 2×3 = 6: k^(1/x + 1/y) = k^(1/z) ⇒ 1/x + 1/y = **1/z**.
+**Trap:** Looks terrifying; collapses with one substitution. The examiner is testing whether you panic or substitute.
+**Source:** PYQ-style (CAT pattern)
+
+**Q7.** The sum of three consecutive terms of an AP is 27 and their product is 648. Find the middle term.
+(a) 6 (b) 9 (c) 12 (d) 8
+**Answer: (b)**
+**Solution:** Let terms be a−d, a, a+d. Sum = 3a = 27 ⇒ a = **9**. (Check: 648/9 = 72 = (9−d)(9+d) ⇒ d² = 9 ⇒ d = ±3; terms 6, 9, 12 ✓)
+**Trap:** The question only asks the middle term — sum alone gives it. Product data is a decoy to make you over-solve.
+**Source:** PYQ-style (CSAT pattern)
+
+**Q8.** If x² − 5x + 6 < 0, then x lies in:
+(a) x < 2 (b) 2 < x < 3 (c) x > 3 (d) x < 2 or x > 3
+**Answer: (b)**
+**Solution:** (x−2)(x−3) < 0 ⇒ roots 2 and 3; parabola opens upward, so expression is negative **between** the roots: 2 < x < 3.
+**Trap:** Option (d) is the answer for "> 0" — examiners pair the two. Remember: "< 0 → between roots; > 0 → outside roots" (for positive leading coefficient).
+**Source:** PYQ-style (PO Mains pattern)
+
+**Q9.** If a + b + c = 0, then a³ + b³ + c³ = ?
+(a) 0 (b) 3abc (c) abc (d) (a+b+c)³
+**Answer: (b)**
+**Solution:** Standard result: if a+b+c = 0, then a³+b³+c³ = **3abc**.
+**Trap:** Option (a) is the intuitive-but-wrong guess. This identity appears directly or embedded in SSC/Bank papers repeatedly.
+**Source:** PYQ-style (SSC CGL pattern)
+
+**Q10.** The minimum value of f(x) = x² − 6x + 13 is:
+(a) 2 (b) 4 (c) 9 (d) 13
+**Answer: (b)**
+**Solution:** Complete the square: f(x) = (x−3)² + 4. Minimum = **4** at x = 3.
+**Trap:** Option (d) 13 is f(0) — the "just read the constant" trap. Option (c) 9 is the vertex's x-value squared confusion. Completing the square beats formula memorisation here.
+**Source:** PYQ-style (CAT pattern)
+
+---
+
+## 🧭 Strategy Takeaways
+
+1. **Master the x ± 1/x family** — it generates dozens of question variants across SSC and Bank exams.
+2. **Discriminant questions** are 20-second gifts if you know D = b² − 4ac cold.
+3. **Substitute before you solve** — symmetric expressions (α²+β², 1/x + 1/y) almost always reduce via sum/product of roots.
+4. **Inequalities**: sketch the parabola mentally; never solve by plugging random values under time pressure.
+5. **CSAT special**: when data looks insufficient, check whether the two equations are actually multiples of each other before computing.
+6. **15/45-second rule**: if an algebra question hasn't cracked open in 45 seconds, mark it and move — it's designed as a time sink.
