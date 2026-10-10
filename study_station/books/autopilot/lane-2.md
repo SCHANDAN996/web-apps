@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 07:39 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
+**आख़िरी update:** 10-10-2026 07:55 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 31 मिनट |
-| W5 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 31 मिनट |
+| W3 | Chapter 19 Trigonometry (Graduation Maths) | 🔎 review हो रहा है | 8 मिनट |
+| W5 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 46 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -23,11 +23,11 @@
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 19 | 0 | 6 |
 | 12th English | 25 | 0 | 0 |
-| Graduation Maths | 23 | 3 | 2 |
+| Graduation Maths | 24 | 3 | 1 |
 | Graduation GK | 27 | 1 | 0 |
 | Graduation Reasoning | 26 | 0 | 4 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **270** | **6** | **20** |
+| **कुल** | **271** | **6** | **19** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -43,16 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 19:17:31 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards after 9 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (47']
-10-10 19:17:31 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards (FIX: todo 0, problems 1)
-10-10 19:18:03   [Linear_Programming] repaired Content_hi.txt (459 chars)
-10-10 19:18:03   [Linear_Programming] written 1, failed 0; AI calls today 15/100000
-10-10 19:18:03 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming after 9 min: todo [] problems ['Content_hi.txt: Hindi file is mostly not in Hindi', 'Content_hi.txt: much shorter than the English section (458 v']
-10-10 19:18:05 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming (FIX: todo 0, problems 2)
-10-10 19:20:05   [Awards] repaired Flashcards_hi.txt (3991 chars)
-10-10 19:20:05   [Awards] written 1, failed 0; AI calls today 17/100000
-10-10 19:20:13   [Percentage] repaired Feynman_hi.txt (2294 chars)
-10-10 19:20:13   [Percentage] written 1, failed 0; AI calls today 18/100000
 10-10 19:20:30   [Calculus] repaired Feynman_hi.txt (3440 chars)
 10-10 19:20:30   [Calculus] written 1, failed 0; AI calls today 19/100000
 10-10 19:20:30 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_22_Calculus after 12 min: todo [] problems ['Feynman_hi.txt: much shorter than the English section (3439 ']
@@ -83,4 +73,14 @@
 10-10 19:37:15   [Trigonometry] Practice_en_Set_06.txt try 3: re-solve disagrees (Q137 key b vs re-solve d)
 10-10 19:37:27   [Probability] FAILED Practice_en_Set_02.txt: too_long
 10-10 19:37:27   [Probability] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+10-10 19:41:54   [Probability] Practice_en_Set_03.txt try 1: re-solve disagrees (Q53 key a vs re-solve ?, Q69 key b vs re-solve ?)
+10-10 19:43:54   [Trigonometry] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+10-10 19:46:15   [Trigonometry] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+10-10 19:46:15   [Trigonometry] written 3, failed 0; AI calls today 33/100000
+10-10 19:46:33   [Probability] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+10-10 19:49:35   [Trigonometry] review Content_hi.txt: 2 issue(s): - "पहली सर्वसमिका को H² से भाग देने पर दूसरी, P² से भाग देने पर तीसरी मिल जाती है" गलत है → सही ट्रिक: पाइथागोरस प्
+10-10 19:49:46   [Probability] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+10-10 19:52:43   [Probability] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+10-10 19:53:18   [Trigonometry] review Feynman_hi.txt: 2 issue(s): - The mnemonic table incorrectly maps the phrase "पंडित बद्री प्रसाद" to sin = लंब/कर्ण; the standard mnemonic uses
+10-10 19:54:55   [Probability] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 ```
