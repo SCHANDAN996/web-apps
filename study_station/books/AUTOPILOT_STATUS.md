@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 08:05 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 05:00 PM
+**आख़िरी update:** 10-10-2026 08:20 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 05:00 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W7 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 184 मिनट |
+| W7 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 199 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -24,11 +24,11 @@
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 19 | 0 | 6 |
 | 12th English | 25 | 0 | 0 |
-| Graduation Maths | 23 | 0 | 5 |
+| Graduation Maths | 23 | 1 | 4 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 26 | 2 | 2 |
 | Graduation English | 29 | 1 | 0 |
-| **कुल** | **269** | **6** | **21** |
+| **कुल** | **269** | **7** | **20** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
