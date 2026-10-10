@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 06:33 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 05:00 PM
+**आख़िरी update:** 10-10-2026 06:48 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 05:00 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W4 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 17 मिनट |
-| W7 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 92 मिनट |
+| W4 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 32 मिनट |
+| W7 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 107 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -46,10 +46,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 17:08:00   [Classification] review Flashcards_en.txt: 1 issue(s): - Card 4: DFJ letter gaps described as "+2 then +3" → should be "+2 then +4" (D→F = +2, F→J = +4)
-10-10 17:10:53   [Statement_Argument] repaired PYQ_hi.txt (8431 chars)
-10-10 17:10:53   [Statement_Argument] written 1, failed 0; AI calls today 37/100000
-10-10 17:11:53   [Dictionary_Order] Practice_en_Set_04.txt try 2: re-solve disagrees (Q76 key b vs re-solve ?, Q78 key c vs re-solve ?, Q84 key c vs re-solve b, Q85 key c vs re-solve a, 
 10-10 17:14:31   [Paper_Folding_Cutting] review PYQ_en.txt: 6 issue(s): - "Typical load: 1–2 questions per paper in SSC CGL/CHSL Tier-I; 1 question in most Railway and Banking prelims." is an
 10-10 17:14:37   [Classification] review Important_Rules_hi.txt: 3 issue(s): - "अंकों का योग/गुणनफल नियम" उदाहरण में 24, 42, 33, 51 दिए गए हैं और कहा गया है कि केवल 33 का अंक-योग 6 है,
 10-10 17:15:43   [Statement_Argument] repaired PYQ_hi.txt (10815 chars)
@@ -86,4 +82,8 @@
 10-10 18:16:00 START Graduation_Level/Reasoning/Chapter_13_Dictionary_Order (TODO: todo 4, problems 0)
 10-10 18:21:13   [Dictionary_Order] Practice_en_Set_04.txt try 1: rejected (Q84:leaked_reasoning,Q86:leaked_reasoning,Q93:leaked_reasoning,Q95:leaked_reasoning)
 10-10 18:28:17   [Dictionary_Order] Practice_en_Set_04.txt try 2: re-solve disagrees (Q85 key a vs re-solve c, Q93 key c vs re-solve b, Q98 key d vs re-solve a)
+10-10 18:36:43   [Dictionary_Order] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+10-10 18:37:08   [Advanced_Puzzles] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+10-10 18:41:11   [Dictionary_Order] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+10-10 18:42:38   [Advanced_Puzzles] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 ```
