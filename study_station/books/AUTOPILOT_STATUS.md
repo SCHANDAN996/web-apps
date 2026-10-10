@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 09:44 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
+**आख़िरी update:** 10-10-2026 09:58 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 28 Critical Reasoning (Graduation Reasoning) | ✍️ लिख रहा है | 18 मिनट |
-| W2 | Chapter 27 Decision Making (Graduation Reasoning) | ✍️ लिख रहा है | 26 मिनट |
-| W3 | Chapter 24 Statement Assumption (Graduation Reasoning) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 44 मिनट |
-| W5 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 122 मिनट |
-| W6 | Chapter 26 Data Sufficiency (Graduation Reasoning) | ✍️ लिख रहा है | 80 मिनट |
-| W7 | Chapter 25 Statement Argument (Graduation Reasoning) | ✍️ लिख रहा है | 97 मिनट |
-| W8 | Chapter 20 Mirror Water Images (Graduation Reasoning) | 🔧 सुधार रहा है | 60 मिनट |
+| W1 | Chapter 28 Critical Reasoning (Graduation Reasoning) | ✍️ लिख रहा है | 32 मिनट |
+| W2 | Chapter 27 Decision Making (Graduation Reasoning) | ✍️ लिख रहा है | 5 मिनट |
+| W3 | Chapter 29 Logical Consistency (Graduation Reasoning) | ✍️ लिख रहा है | 13 मिनट |
+| W4 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 58 मिनट |
+| W5 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 136 मिनट |
+| W6 | Chapter 26 Data Sufficiency (Graduation Reasoning) | ✍️ लिख रहा है | 94 मिनट |
+| W7 | Chapter 25 Statement Argument (Graduation Reasoning) | ✍️ लिख रहा है | 111 मिनट |
+| W8 | Chapter 20 Mirror Water Images (Graduation Reasoning) | 🔧 सुधार रहा है | 74 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -54,32 +54,11 @@
 - Chapter 13 Dictionary Order (Reasoning) — 1 बार
 - Chapter 20 Mirror Water Images (Reasoning) — 1 बार
 - Chapter 21 Paper Folding Cutting (Reasoning) — 1 बार
-- Chapter 24 Statement Assumption (Reasoning) — 1 बार
+- Chapter 27 Decision Making (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 09:06:50 NOT OK Graduation_Level/Reasoning/Chapter_23_Syllogism after 134 min: todo [] problems []
-10-10 09:06:53 START Graduation_Level/Reasoning/Chapter_23_Syllogism (OK: todo 0, problems 0)
-10-10 09:09:17   [Syllogism] review Short_Tricks_en.txt: 1 issue(s): - Box 10: The either-or rule incorrectly lists I+O as a valid complementary pair; I and O are subcontraries (t
-10-10 09:10:44   [Statement_Argument] Practice_en_Set_04.txt try 1: re-solve disagrees (Q85 key b vs re-solve c, Q88 key d vs re-solve c, Q92 key a vs re-solve c, Q95 key d vs re-solve c)
-10-10 09:11:51   [Statement_Assumption] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-10-10 09:13:41   [Data_Sufficiency] FAILED Practice_en_Set_01.txt: too_long
-10-10 09:13:41   [Data_Sufficiency] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
-10-10 09:14:19   [Paper_Folding_Cutting] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-10-10 09:15:52   [Dictionary_Order] Practice_en_Set_06.txt try 2: re-solve disagrees (Q126 key c vs re-solve ?, Q140 key d vs re-solve b, Q143 key a vs re-solve ?)
-10-10 09:17:55   [Syllogism] review: 1 section(s) corrected, 0 failed
-10-10 09:17:55   [Syllogism] written 1, failed 0; AI calls today 244/100000
-10-10 09:18:12 DONE Graduation_Level/Reasoning/Chapter_23_Syllogism in 11 min → 5766432f
-10-10 09:18:15 START Graduation_Level/Reasoning/Chapter_27_Decision_Making (TODO: todo 3, problems 0)
-10-10 09:19:06   [Statement_Assumption] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-10-10 09:19:06   [Statement_Assumption] written 2, failed 0; AI calls today 245/100000
-10-10 09:19:32   [Figure_Series] FAILED review Short_Tricks_hi.txt: network — the chapter must not be published unreviewed
-10-10 09:20:42   [Figure_Series] review Important_Rules_en.txt: 1 issue(s): - Counting Rule description says "arithmetic pattern (+1, +2, ×2, etc.)" but ×2 is geometric, not arithmeti
-10-10 09:20:48   [Paper_Folding_Cutting] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-10-10 09:25:44   [Paper_Folding_Cutting] Practice_en_Set_03.txt try 1: rejected (parsed 22 questions, numbers 51…75)
-10-10 09:26:12   [Figure_Series] review: 5 section(s) corrected, 1 failed
-10-10 09:26:12   [Figure_Series] written 5, failed 1; AI calls today 261/100000
 10-10 09:26:12 NOT OK Graduation_Level/Reasoning/Chapter_22_Figure_Series after 108 min: todo [] problems []
 10-10 09:26:14 START Graduation_Level/Reasoning/Chapter_28_Critical_Reasoning (TODO: todo 25, problems 0)
 10-10 09:26:43   [Statement_Assumption] review Short_Tricks_hi.txt: 1 issue(s): - Skip Strategy point 2 states "guess की सफलता दर 25% से कम होती है" (guess success rate less than 25%), but f
@@ -99,4 +78,25 @@
 10-10 09:43:57   [Decision_Making] Practice_en_Set_06.txt try 2: rejected (parsed 0 questions, numbers -…-)
 10-10 09:44:52   [Statement_Assumption] review: 2 section(s) corrected, 0 failed
 10-10 09:44:52   [Statement_Assumption] written 2, failed 0; AI calls today 280/100000
+10-10 09:45:08 DONE Graduation_Level/Reasoning/Chapter_24_Statement_Assumption in 43 min → f59b019e
+10-10 09:45:11 START Graduation_Level/Reasoning/Chapter_29_Logical_Consistency (TODO: todo 25, problems 0)
+10-10 09:47:59   [Data_Sufficiency] Practice_en_Set_03.txt try 2: re-solve disagrees (Q61 key c vs re-solve a)
+10-10 09:48:24   [Decision_Making] Practice_en_Set_06.txt try 3: rejected (parsed 0 questions, numbers -…-)
+10-10 09:48:44   [Critical_Reasoning] wrote Content_hi.txt (9479 chars)
+10-10 09:49:54   [Logical_Consistency] wrote Content_en.txt (4234 chars)
+10-10 09:52:31   [Statement_Argument] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+10-10 09:52:33   [Critical_Reasoning] wrote Feynman_en.txt (3676 chars)
+10-10 09:53:04   [Mirror_Water_Images] set 04 try 3: re-solve disagrees (Q81 key d vs re-solve b)
+10-10 09:53:28   [Decision_Making] Practice_en_Set_06.txt try 4: rejected (answers not spread)
+10-10 09:53:28   [Decision_Making] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+10-10 09:53:28   [Decision_Making] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+10-10 09:53:28   [Decision_Making] written 1, failed 2; AI calls today 292/100000
+10-10 09:53:28 NOT OK Graduation_Level/Reasoning/Chapter_27_Decision_Making after 35 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems []
+10-10 09:53:31 START Graduation_Level/Reasoning/Chapter_27_Decision_Making (TODO: todo 2, problems 0)
+10-10 09:54:08   [Logical_Consistency] wrote Content_hi.txt (6807 chars)
+10-10 09:55:11   [Data_Sufficiency] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+10-10 09:56:20   [Dictionary_Order] Practice_en_Set_06.txt try 3: re-solve disagrees (Q126 key b vs re-solve ?, Q131 key d vs re-solve b, Q140 key a vs re-solve b)
+10-10 09:57:35   [Logical_Consistency] wrote Feynman_en.txt (4210 chars)
+10-10 09:57:37   [Critical_Reasoning] wrote Feynman_hi.txt (3084 chars)
+10-10 09:58:57   [Decision_Making] Practice_en_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
 ```
