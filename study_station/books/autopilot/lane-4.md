@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 10-10-2026 01:05 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:34 PM
+**आख़िरी update:** 10-10-2026 01:21 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:34 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W5 | Chapter 13 Mixture Alligation (12th Maths) | 🔎 review हो रहा है | 20 मिनट |
-| W6 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 31 मिनट |
+| W5 | Chapter 13 Mixture Alligation (12th Maths) | 🔎 review हो रहा है | 36 मिनट |
+| W6 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 46 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -44,7 +44,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 12:47:57   [Biology] written 1, failed 0; AI calls today 17/100000
 10-10 12:47:57 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_12_Biology after 14 min: todo [] problems ['Feynman_hi.txt: much shorter than the English section (2848 ']
 10-10 12:47:58 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_12_Biology (FIX: todo 0, problems 1)
 10-10 12:49:17   [Sports] repaired Memory_Hooks_hi.txt (60212 chars)
@@ -84,4 +83,5 @@
 10-10 13:05:53   [Compound_Interest] written 1, failed 0; AI calls today 30/100000
 10-10 13:05:53 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest after 12 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (29']
 10-10 13:05:57 worker 3: nothing left
+10-10 13:18:12   [Mixture_Alligation] review Feynman_en.txt: 1 issue(s): - 'Farther away = Pour more of it.' → Farther away means you pour LESS of that ingredient (you need MORE of the oth
 ```
