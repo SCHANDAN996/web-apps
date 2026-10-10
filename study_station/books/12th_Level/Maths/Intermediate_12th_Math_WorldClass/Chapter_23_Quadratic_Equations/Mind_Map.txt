@@ -1,0 +1,47 @@
+```mermaid
+graph TD
+    A["द्विघात समीकरण एवं श्रेणी<br>Quadratic Equations & Series"] --> B["द्विघात समीकरण<br>Quadratic Equations"]
+    A --> C["श्रेणी<br>Series / Progressions"]
+
+    B --> B1["मानक रूप<br>Standard Form<br>ax² + bx + c = 0, a ≠ 0"]
+    B --> B2["मूलों की प्रकृति<br>Nature of Roots"]
+    B --> B3["हल करने की विधियाँ<br>Methods of Solving"]
+    B --> B4["मूलों का योग व गुणनफल<br>Sum & Product of Roots"]
+    B --> B5["द्विघात समीकरण बनाना<br>Forming Equation from Roots"]
+
+    B2 --> B2a["विविक्तकर D = b² − 4ac<br>Discriminant"]
+    B2a --> B2b["D > 0 → दो भिन्न वास्तविक मूल<br>Two distinct real roots"]
+    B2a --> B2c["D = 0 → दो बराबर मूल<br>Two equal roots"]
+    B2a --> B2d["D < 0 → कोई वास्तविक मूल नहीं<br>No real roots"]
+
+    B3 --> B3a["गुणनखंड विधि<br>Factorisation"]
+    B3 --> B3b["पूर्ण वर्ग विधि<br>Completing the Square"]
+    B3 --> B3c["द्विघाती सूत्र<br>Quadratic Formula<br>x = (−b ± √D) / 2a"]
+
+    B4 --> B4a["मूलों का योग = −b/a<br>Sum = −b/a"]
+    B4 --> B4b["मूलों का गुणनफल = c/a<br>Product = c/a"]
+
+    B5 --> B5a["x² − (योग)x + (गुणनफल) = 0<br>x² − (Sum)x + (Product) = 0"]
+
+    C --> C1["समांतर श्रेणी (AP)<br>Arithmetic Progression"]
+    C --> C2["गुणोत्तर श्रेणी (GP)<br>Geometric Progression"]
+    C --> C3["विशेष श्रेणियों के योग<br>Sums of Special Series"]
+
+    C1 --> C1a["सार्व अंतर d<br>Common Difference"]
+    C1 --> C1b["nवाँ पद: aₙ = a + (n−1)d<br>nth Term"]
+    C1 --> C1c["n पदों का योग<br>Sum of n terms<br>Sₙ = n/2 [2a + (n−1)d]"]
+    C1 --> C1d["समांतर माध्य<br>Arithmetic Mean"]
+
+    C2 --> C2a["सार्व अनुपात r<br>Common Ratio"]
+    C2 --> C2b["nवाँ पद: aₙ = arⁿ⁻¹<br>nth Term"]
+    C2 --> C2c["n पदों का योग<br>Sum of n terms<br>Sₙ = a(rⁿ − 1)/(r − 1)"]
+    C2 --> C2d["अनंत GP का योग (|r| < 1)<br>Infinite Sum: S = a/(1 − r)"]
+    C2 --> C2e["गुणोत्तर माध्य<br>Geometric Mean"]
+
+    C3 --> C3a["Σn = n(n+1)/2<br>Sum of first n naturals"]
+    C3 --> C3b["Σn² = n(n+1)(2n+1)/6<br>Sum of squares"]
+    C3 --> C3c["Σn³ = [n(n+1)/2]²<br>Sum of cubes"]
+
+    B4 -.->|"मूल दिए हों तो<br>Roots given"| B5
+    C1 -.->|"AM ≥ GM संबंध<br>AM–GM relation"| C2
+```

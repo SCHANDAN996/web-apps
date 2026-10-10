@@ -1,0 +1,203 @@
+# 🪄 Short Tricks — Quadratic Equations & Series
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 1 — The "Minus-b Mantra" (Keyword)** │
+└─────────────────────────────────────────────┘
+
+**Formula:** x = [−b ± √(b² − 4ac)] / 2a
+
+**Memory chant (say it aloud, rhythmically):**
+*"A NEGATIVE boy (–b) couldn't DECIDE (±) whether to go to a SQUARE party (√) — b squared, minus FOUR A-C (4ac) — all over TWO A's (2a)!"*
+
+Sing it three times and the quadratic formula never leaves you. Every exam topper hums this in their head.
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 2 — "D for DECIDER" (Keyword)**      │
+└─────────────────────────────────────────────┘
+
+**Concept:** Discriminant D = b² − 4ac decides the nature of roots.
+
+**Trick:** D is the **D**ecider — it sits like a judge and declares:
+
+- **D > 0** → "Two Different Doors" → two distinct real roots
+- **D = 0** → "Dead Equal" → two equal roots
+- **D < 0** → "Dream roots" → imaginary (not real)
+
+**Loci:** Picture a judge (D) banging a gavel: positive = two doors open, zero = twins, negative = the roots vanish into a dream.
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 3 — "Vieta's Soup" (Acronym)**       │
+└─────────────────────────────────────────────┘
+
+**Formulas:** Sum of roots = −b/a, Product of roots = c/a
+
+**Acronym: "SP" — "Sum is a Surprise (minus!), Product is Plain."**
+
+- **S**um = **−**b/a (the minus is the surprise guest!)
+- **P**roduct = c/a (plain, no minus)
+
+**Memory hook:** *"Sum is SHY — it hides behind a minus sign. Product is PROUD — it stands bare."*
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 4 — "Build-a-Quad" (Keyword)**       │
+└─────────────────────────────────────────────┘
+
+**Formula:** x² − (sum)x + (product) = 0
+
+**Trick:** Remember the sandwich: **"x² minus SUM-bread plus PRODUCT-filling equals zero."**
+
+**Pattern chant:** *"Square, minus Sum, plus Product — S-S-P, done!"*
+
+If roots are 2 and 3: sum = 5, product = 6 → x² − 5x + 6 = 0. Build it in 5 seconds.
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 5 — "AP = Add Please" (Keyword)**    │
+└─────────────────────────────────────────────┘
+
+**Concept:** Arithmetic Progression — same difference added every time.
+
+**Trick:** **AP = "Add, Please!"** — the series keeps begging you to add the same number (d).
+
+**nth term:** aₙ = a + (n−1)d → *"Start at a, take (n−1) steps of size d."*
+
+**Loci:** Imagine a staircase: you stand on step 'a', and climb (n−1) stairs, each of height 'd'. Where you land is aₙ.
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 6 — "GP = Grow by Product" (Keyword)**│
+└─────────────────────────────────────────────┘
+
+**Concept:** Geometric Progression — multiply by the same ratio r every time.
+
+**Trick:** **GP = "Grow by Product"** — multiplication, not addition!
+
+**nth term:** aₙ = a·rⁿ⁻¹ → *"a times r, raised to (n−1)."*
+
+**Memory hook:** AP walks (adds), GP **jumps** (multiplies). 2, 6, 18, 54… is a kangaroo, not a staircase.
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 7 — "Average × Count" (Keyword)**    │
+└─────────────────────────────────────────────┘
+
+**Formula:** Sum of AP: Sₙ = n/2 × (first + last)
+
+**Trick:** *"Sum = Average × Count"* — and the average of an AP is simply (first + last)/2.
+
+**Memory hook:** Pair up the series like dancers: 1st with last, 2nd with 2nd-last — every pair sums to the same number! Number of pairs = n/2. **"Pair them, square them (well, multiply)!"**
+
+This is exactly how young Gauss summed 1 to 100 in seconds: 50 pairs × 101 = 5050.
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 8 — "GP Sum: r-1 Rule" (Acronym)**   │
+└─────────────────────────────────────────────┘
+
+**Formula:** Sₙ = a(rⁿ − 1)/(r − 1)  [for r > 1]
+
+**Trick:** **"BIG over SMALL"** — (rⁿ − 1) on top, (r − 1) below. The bigger power sits upstairs.
+
+**Flip rule:** If r < 1, flip BOTH: a(1 − rⁿ)/(1 − r). *"Whatever keeps everyone positive — flip top and bottom together, like flipping a mattress."*
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 9 — "Infinite GP: The Fence" (Loci)** │
+└─────────────────────────────────────────────┘
+
+**Formula:** S∞ = a/(1 − r), valid only when |r| < 1
+
+**Loci:** Imagine a frog jumping toward a fence: first jump = a, each next jump = r times smaller. The frog gets closer and closer but **never crosses** the fence at a/(1−r).
+
+**Memory hook:** *"Small r (less than 1) → finite sum. Big r → the frog explodes to infinity — no formula can save it!"*
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 10 — "Factor by SP Detective" (Method)**│
+└─────────────────────────────────────────────┘
+
+**Concept:** Factorising x² + bx + c quickly.
+
+**Trick:** Be a detective hunting two numbers whose **S**um = b and **P**roduct = c. **"Find the SP pair!"**
+
+Example: x² + 7x + 12 → need sum 7, product 12 → 3 and 4! → (x+3)(x+4).
+
+**Sign shortcut:** *"Product positive → same signs; product negative → opposite signs. The bigger number copies b's sign."*
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 11 — "AM ≥ GM: The Bully Rule" (Keyword)**│
+└─────────────────────────────────────────────┘
+
+**Concept:** Arithmetic Mean ≥ Geometric Mean (for positive numbers).
+
+**Trick:** **"AM is the Bully — always bigger or equal to GM."** They are equal only when all numbers are identical (*"the bully can't bully clones"*).
+
+**Exam use:** If sum of two positive numbers is fixed, product is MAXIMUM when both are equal. *"Equal shares = maximum product."*
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 12 — "Root-Sign Mirror" (Keyword)**  │
+└─────────────────────────────────────────────┘
+
+**Concept:** Signs of roots from the equation's coefficients.
+
+**Trick:** For ax² + bx + c = 0 (a > 0):
+
+- **Both roots negative** → all signs + + + (*"all plus = all minus roots"*)
+- **Both roots positive** → + − + (*"alternating = positive roots"*)
+- **Opposite sign roots** → c is negative (*"negative product = opposite roots"*)
+
+**Memory hook:** *"Product c/a is the mirror: negative product means roots live on opposite sides of zero."*
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 13 — "Common Difference Check" (Method)**│
+└─────────────────────────────────────────────┘
+
+**Concept:** Verify if a sequence is an AP.
+
+**Trick:** **"Subtract twice, save your marks!"** — Check a₂ − a₁ AND a₃ − a₂. If both equal, it's an AP. Never trust just one subtraction — examiners plant traps like 2, 4, 7, 11… (differences 2, 3, 4 — NOT an AP!).
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 14 — "Middle Term Magic" (Keyword)** │
+└─────────────────────────────────────────────┘
+
+**Concept:** In an AP with odd number of terms, the middle term × number of terms = sum.
+
+**Trick:** **"The middle term is the boss — it equals the average!"**
+
+Example: AP of 5 terms, middle (3rd) term = 10 → Sum = 5 × 10 = 50. Done in 3 seconds, no formula needed.
+
+**Bonus:** In any AP, terms equidistant from the ends sum equally: a₁ + aₙ = a₂ + aₙ₋₁ = … *"Equal distance, equal sum."*
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 15 — "The 4-Second Root Check" (Method)**│
+└─────────────────────────────────────────────┘
+
+**Concept:** Verify options in root-finding MCQs without solving.
+
+**Trick:** **"Don't solve — SUBSTITUTE!"** Plug each option into the equation. If LHS = 0, that's your root. In SSC/Bank exams, this is often faster than factorising.
+
+**Even faster:** Use SP check — does the option pair add to −b/a and multiply to c/a? *"Sum-Product first, substitution second, full solving LAST."*

@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 10-10-2026 05:51 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 05:19 AM
+**आख़िरी update:** 10-10-2026 05:55 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 05:19 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 23 Quadratic Equations (12th Maths) | 🔎 review हो रहा है | 5 मिनट |
-| W5 | Chapter 11 Time Work (12th Maths) | 🔎 review हो रहा है | 5 मिनट |
-| W7 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 31 मिनट |
+| W1 | Chapter 23 Quadratic Equations (12th Maths) | 📤 push हो रहा है | 0 मिनट |
+| W5 | Chapter 11 Time Work (12th Maths) | 🔎 review हो रहा है | 9 मिनट |
+| W7 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -32,6 +32,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 10-10 05:55 — 12th Maths · Chapter 23 Quadratic Equations
 - 10-10 05:39 — 12th Maths · Chapter 22 Number Series
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
@@ -43,21 +44,11 @@
 - Chapter 14 Sports (GK) — 2 बार
 - Chapter 13 Mixture Alligation (Maths) — 2 बार
 - Chapter 23 Quadratic Equations (Maths) — 1 बार
+- Chapter 20 Probability (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 05:26:48   [Sports] written 1, failed 0; AI calls today 34/100000
-10-10 05:26:48 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_14_Sports after 3 min: todo [] problems ['Memory_Hooks_hi.txt: much shorter than the English section (']
-10-10 05:26:49   [Number_Series] review Feynman_en.txt: 1 issue(s): - The story claims the uncle stacks boxes in a triangle, but the numbers 2, 6, 12, 20, 30 are not triangular number
-10-10 05:26:51 worker 1: nothing left
-10-10 05:27:27   [Quadratic_Equations] review Content_hi.txt: 1 issue(s): - Invented exam statistic "80% परीक्षा-सवाल इसी से हल होते हैं" → Replace with "अधिकांश परीक्षा-सवाल इसी से हल होते
-10-10 05:28:46   [Mixture_Alligation] Feynman_en.txt try 1: rejected (chat debris "Here's the")
-10-10 05:29:18   [Mixture_Alligation] Feynman_en.txt try 2: rejected (chat debris "Here's the")
-10-10 05:29:18   [Mixture_Alligation] REJECTED Feynman_en.txt: chat debris "Here's the" — not written
-10-10 05:29:18   [Mixture_Alligation] written 0, failed 1; AI calls today 43/100000
-10-10 05:29:19 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation after 5 min: todo ['Feynman_en.txt'] problems []
-10-10 05:29:21 worker 5: nothing left
 10-10 05:36:19   [Probability] Practice_en_Set_02.txt try 3: rejected (parsed 24 questions, numbers 26…50)
 10-10 05:36:48   [Number_Series] review Short_Tricks_en.txt: 1 issue(s): - Invented exam statistic: "90% of exam series crack within the first two checks" is an unsourced, made-up fig
 10-10 05:38:18   [Probability] Practice_en_Set_02.txt try 4: rejected (parsed 23 questions, numbers 26…50)
@@ -87,4 +78,15 @@
 10-10 05:47:45   [Probability] Practice_en_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
 10-10 05:51:10   [Time_Work] review Content_hi.txt: 2 issue(s): - Wrong name "राज़" in hook example → "राज"
 10-10 05:51:24   [Probability] Practice_en_Set_06.txt try 2: rejected (parsed 0 questions, numbers -…-)
+10-10 05:53:39   [Probability] Practice_en_Set_06.txt try 3: rejected (parsed 24 questions, numbers 126…150)
+10-10 05:54:26   [Quadratic_Equations] review Feynman_en.txt: 1 issue(s): - The "Case 1" paragraph is corrupted with hundreds of repeated fragments ("Two distinct real roots. → *Stone never
+10-10 05:54:58   [Time_Work] review Flashcards_hi.txt: 1 issue(s): - Card 5 front: “कार्य ∝ समय का व्युत्क्रम” is a wrong formula (work is directly proportional to time at constan
+10-10 05:55:04   [Probability] Practice_en_Set_06.txt try 4: rejected (parsed 24 questions, numbers 126…150)
+10-10 05:55:04   [Probability] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+10-10 05:55:04   [Probability] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+10-10 05:55:04   [Probability] written 0, failed 5; AI calls today 85/100000
+10-10 05:55:04 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_20_Probability after 35 min: todo ['Set 02 en: todo', 'Set 02 hi: todo', 'Set 03 hi: todo', 'Set 06 en: todo'] problems ['Content_en.txt: does not mention the chapter topic (probabil']
+10-10 05:55:07 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_20_Probability (TODO: todo 5, problems 1)
+10-10 05:55:29   [Quadratic_Equations] review: 1 section(s) corrected, 0 failed
+10-10 05:55:29   [Quadratic_Equations] written 1, failed 0; AI calls today 86/100000
 ```

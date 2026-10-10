@@ -1,0 +1,79 @@
+Card 1
+Front: What is the standard form of a quadratic equation?
+Back: ax² + bx + c = 0, where a ≠ 0. If a = 0, it becomes linear, not quadratic.
+
+Card 2
+Front: What is the quadratic formula for the roots of ax² + bx + c = 0?
+Back: x = [−b ± √(b² − 4ac)] / 2a
+
+Card 3
+Front: What is the discriminant, and what does it tell you?
+Back: D = b² − 4ac. D > 0 → two distinct real roots; D = 0 → two equal real roots; D < 0 → no real roots (complex roots).
+
+Card 4
+Front: For ax² + bx + c = 0, what are the sum and product of roots?
+Back: Sum of roots = −b/a; Product of roots = c/a.
+
+Card 5
+Front: Mnemonic trick: how do you instantly recall sum and product of roots without confusion?
+Back: "SP — Sum is Negative, Product is Positive": Sum = −b/a (sign flips), Product = c/a (sign stays). Remember: "Sum Switches Sign."
+
+Card 6
+Front: If roots are α and β, how do you form the quadratic equation?
+Back: x² − (α + β)x + αβ = 0, i.e., x² − (sum)x + (product) = 0.
+
+Card 7
+Front: When are the roots of ax² + bx + c = 0 equal in magnitude but opposite in sign?
+Back: When b = 0 (sum of roots = 0), e.g., x² − 9 = 0 gives x = ±3.
+
+Card 8
+Front: When are the roots reciprocals of each other?
+Back: When product of roots = 1, i.e., c = a. Example: 2x² − 5x + 2 = 0 has roots 2 and 1/2.
+
+Card 9
+Front: What is the condition for both roots of ax² + bx + c = 0 to be real and the parabola to open upward?
+Back: a > 0 makes the parabola open upward (minimum value); a < 0 opens downward (maximum value). Real roots need D ≥ 0.
+
+Card 10
+Front: What is the minimum (or maximum) value of ax² + bx + c, and where does it occur?
+Back: It occurs at x = −b/2a; the extreme value is (4ac − b²)/4a = −D/4a.
+
+Card 11
+Front: What is an arithmetic progression (AP)? Give its nth term formula.
+Back: A sequence with constant common difference d. nth term: aₙ = a + (n − 1)d.
+
+Card 12
+Front: What is the sum of the first n terms of an AP?
+Back: Sₙ = n/2 [2a + (n − 1)d] = n/2 (first term + last term).
+
+Card 13
+Front: Quick trick: what is the sum of the first n natural numbers?
+Back: n(n + 1)/2. First n odd numbers sum to n²; first n even numbers sum to n(n + 1).
+
+Card 14
+Front: What is a geometric progression (GP)? Give its nth term.
+Back: A sequence with constant common ratio r. nth term: aₙ = arⁿ⁻¹.
+
+Card 15
+Front: What is the sum of the first n terms of a GP (r ≠ 1)?
+Back: Sₙ = a(rⁿ − 1)/(r − 1) when r > 1, or a(1 − rⁿ)/(1 − r) when r < 1.
+
+Card 16
+Front: When does an infinite GP have a finite sum, and what is it?
+Back: When |r| < 1; sum to infinity S∞ = a/(1 − r).
+
+Card 17
+Front: If a, b, c are in AP, what is the relation between them? What if they are in GP?
+Back: AP: 2b = a + c (b is the arithmetic mean). GP: b² = ac (b is the geometric mean).
+
+Card 18
+Front: Mnemonic trick: how do you remember AP vs GP mean conditions?
+Back: "AP Adds, GP Multiplies": AP → 2b = a + c (addition); GP → b² = ac (multiplication). The middle letter of "GP" reminds you of Product.
+
+Card 19
+Front: In an AP, what is the shortcut for the sum of terms equidistant from the beginning and end?
+Back: They are equal: a₁ + aₙ = a₂ + aₙ₋₁ = a₃ + aₙ₋₂, and so on. Useful for fast sum calculations.
+
+Card 20
+Front: Exam trap: if D < 0, can the quadratic still be solved?
+Back: Yes, but roots are complex (imaginary): x = [−b ± i√(4ac − b²)]/2a. For SSC/Bank exams, the answer is usually "no real roots."

@@ -1,0 +1,65 @@
+# Important Formulas — Quadratic Equations & Series
+
+## A. Quadratic Equations
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Standard form | ax² + bx + c = 0, a ≠ 0 | Identify a, b, c first |
+| Quadratic formula | x = [−b ± √(b² − 4ac)] / 2a | When factorisation is hard |
+| Discriminant | D = b² − 4ac | Nature of roots |
+| Real & distinct roots | D > 0 | Two different roots |
+| Real & equal roots | D = 0 | Root = −b/2a |
+| No real roots | D < 0 | Complex/imaginary roots |
+| Perfect square (rational roots) | D is a perfect square | Roots are rational |
+| Sum of roots | α + β = −b/a | Use without solving |
+| Product of roots | αβ = c/a | Use without solving |
+| Form equation from roots | x² − (α+β)x + αβ = 0 | Given roots, build equation |
+| Difference of roots | α − β = √D / a | When α > β |
+| α² + β² | (α+β)² − 2αβ | Symmetric expressions |
+| α³ + β³ | (α+β)³ − 3αβ(α+β) | Cube-based questions |
+| 1/α + 1/β | (α+β)/αβ | Reciprocal roots |
+| Roots equal in magnitude, opposite sign | b = 0 | α = −β |
+| Reciprocal roots | a = c | α = 1/β |
+| Common root of two equations | (c₁a₂ − c₂a₁)² = (b₁c₂ − b₂c₁)(a₁b₂ − a₂b₁) | One root shared |
+| Maximum/Minimum of ax² + bx + c | value = −D/4a at x = −b/2a | a>0 → minimum; a<0 → maximum |
+| Sign of quadratic | ax²+bx+c has sign of a if D < 0 | Always positive/negative |
+
+## B. Arithmetic Progression (AP)
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| nth term | aₙ = a + (n−1)d | Find any term |
+| Common difference | d = aₙ − aₙ₋₁ | Check if series is AP |
+| Sum of n terms | Sₙ = n/2 [2a + (n−1)d] | When a, d, n known |
+| Sum (first & last term) | Sₙ = n/2 (a + l) | When last term l known |
+| nth term from sum | aₙ = Sₙ − Sₙ₋₁ | Given Sₙ formula |
+| Sum of first n natural numbers | n(n+1)/2 | 1+2+3+…+n |
+| Sum of first n odd numbers | n² | 1+3+5+… |
+| Sum of first n even numbers | n(n+1) | 2+4+6+… |
+| Sum of squares | n(n+1)(2n+1)/6 | 1²+2²+…+n² |
+| Sum of cubes | [n(n+1)/2]² | 1³+2³+…+n³ |
+| Arithmetic mean | A = (a+b)/2 | Insert AM between two numbers |
+
+## C. Geometric Progression (GP)
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| nth term | aₙ = arⁿ⁻¹ | Find any term |
+| Common ratio | r = aₙ / aₙ₋₁ | Check if series is GP |
+| Sum of n terms (r ≠ 1) | Sₙ = a(rⁿ − 1)/(r − 1), r > 1 | Finite GP sum |
+| Sum of n terms (r < 1) | Sₙ = a(1 − rⁿ)/(1 − r) | Same, avoids negatives |
+| Sum to infinity (\|r\| < 1) | S∞ = a/(1 − r) | Infinite GP |
+| Geometric mean | G = √(ab) | Insert GM between two numbers |
+| Product of n terms | P = aⁿ · rⁿ⁽ⁿ⁻¹⁾ᐟ² = (first term × last term)ⁿᐟ² | Equidistant terms pair to a constant |
+
+## D. Harmonic Progression (HP) & Mixed Series
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| HP definition | Reciprocals form an AP | Convert to AP to solve |
+| Harmonic mean | H = 2ab/(a+b) | Between two numbers |
+| AM–GM–HM relation | G² = A × H; A ≥ G ≥ H | Compare means |
+| Arithmetico-Geometric sum | S∞ = a/(1−r) + dr/(1−r)² | Series like a + (a+d)r + (a+2d)r² + … |
+| Sum of n²-type series | Σn² = n(n+1)(2n+1)/6 | Square-term series |
+| Sum of n³-type series | Σn³ = [n(n+1)/2]² | Cube-term series |
+| Telescoping series | 1/(n(n+1)) = 1/n − 1/(n+1) | Split and cancel terms |
