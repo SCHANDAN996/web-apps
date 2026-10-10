@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 08:51 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 05:00 PM
+**आख़िरी update:** 10-10-2026 09:06 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 05:00 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W7 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 7 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -41,16 +39,11 @@
 - Chapter 12 Missing Term (Reasoning) — 2 बार
 - Chapter 25 Statement Argument (Reasoning) — 2 बार
 - Chapter 13 Dictionary Order (Reasoning) — 2 बार
-- Chapter 30 Advanced Puzzles (Reasoning) — 1 बार
+- Chapter 30 Advanced Puzzles (Reasoning) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 17:35:02   [Dictionary_Order] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
-10-10 17:37:20   [Paper_Folding_Cutting] review: 3 section(s) corrected, 0 failed
-10-10 17:37:20   [Paper_Folding_Cutting] written 3, failed 0; AI calls today 56/100000
-10-10 17:37:40 DONE Graduation_Level/Reasoning/Chapter_21_Paper_Folding_Cutting in 37 min → 16c828a4
-10-10 17:37:45 worker 4: nothing left
 10-10 17:38:38   [Dictionary_Order] Practice_en_Set_06.txt try 1: rejected (Q128:leaked_reasoning,Q129:leaked_reasoning,Q131:leaked_reasoning,Q134:leaked_reasoning,Q136:leaked_reasoning)
 10-10 17:44:27   [Advanced_Puzzles] Practice_en_Set_03.txt try 3: re-solve disagrees (Q63 key d vs re-solve a)
 10-10 17:51:03   [Dictionary_Order] Practice_en_Set_06.txt try 2: re-solve disagrees (Q126 key c vs re-solve ?, Q128 key d vs re-solve c, Q129 key a vs re-solve c, Q132 key d vs re-solve
@@ -86,4 +79,9 @@
 10-10 20:44:14   [Advanced_Puzzles] written 6, failed 2; AI calls today 85/100000
 10-10 20:44:14 NOT OK Graduation_Level/Reasoning/Chapter_30_Advanced_Puzzles after 223 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems ['Important_Rules_hi.txt: much shorter than the English sectio']
 10-10 20:44:18 START Graduation_Level/Reasoning/Chapter_30_Advanced_Puzzles (TODO: todo 2, problems 1)
+10-10 21:01:49   [Advanced_Puzzles] FAILED Practice_en_Set_06.txt: network
+10-10 21:01:49   [Advanced_Puzzles] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+10-10 21:01:49   [Advanced_Puzzles] written 0, failed 2; AI calls today 85/100000
+10-10 21:01:50 NOT OK Graduation_Level/Reasoning/Chapter_30_Advanced_Puzzles after 18 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems ['Important_Rules_hi.txt: much shorter than the English sectio']
+10-10 21:01:50 worker 6: nothing left
 ```
