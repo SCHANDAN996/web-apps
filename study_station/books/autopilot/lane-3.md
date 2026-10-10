@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 09:27 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
+**आख़िरी update:** 10-10-2026 09:42 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | 🔎 review हो रहा है | 35 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -20,13 +18,13 @@
 | 10th English | 18 | 0 | 2 |
 | 12th Maths | 20 | 0 | 3 |
 | 12th GK | 22 | 0 | 2 |
-| 12th Reasoning | 20 | 4 | 1 |
+| 12th Reasoning | 19 | 5 | 1 |
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 25 | 0 | 3 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 26 | 0 | 4 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **275** | **4** | **17** |
+| **कुल** | **274** | **5** | **17** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -39,17 +37,11 @@
 - Chapter 24 Statement Assumption (Reasoning) — 2 बार
 - Chapter 17 Course of Action (Reasoning) — 2 बार
 - Chapter 13 Dictionary Order (Reasoning) — 2 बार
-- Chapter 07 Sitting Arrangement (Reasoning) — 1 बार
+- Chapter 07 Sitting Arrangement (Reasoning) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 19:27:05   [Dictionary_Order] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
-10-10 19:27:05   [Dictionary_Order] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
-10-10 19:27:05   [Dictionary_Order] written 0, failed 2; AI calls today 24/100000
-10-10 19:27:05 NOT OK 12th_Level/Reasoning/Chapter_13_Dictionary_Order after 18 min: todo ['Set 02 en: todo', 'Set 02 hi: todo'] problems ['PYQ_hi.txt: much shorter than the English section (447 vs 13']
-10-10 19:27:07 START 12th_Level/Reasoning/Chapter_13_Dictionary_Order (TODO: todo 2, problems 1)
-10-10 19:27:27   [Sitting_Arrangement] Practice_en_Set_02.txt try 2: re-solve disagrees (Q26 key c vs re-solve b, Q35 key b vs re-solve c, Q46 key d vs re-solve b)
 10-10 19:28:14   [Course_of_Action] repaired Short_Tricks_hi.txt (6745 chars)
 10-10 19:28:14   [Course_of_Action] written 1, failed 0; AI calls today 26/100000
 10-10 19:30:32   [Course_of_Action] repaired Short_Tricks_hi.txt (4844 chars)
@@ -84,4 +76,10 @@
 10-10 20:58:46   [Sitting_Arrangement] review Feynman_en.txt: 1 issue(s): - The example states "Esha takes the last chair" after placing four people, but with six friends (Aarav, Bina, Chin
 10-10 21:07:04   [Sitting_Arrangement] review PYQ_en.txt: 6 issue(s): - Q1 answer (b) F is incorrect; with given clues F sits at position 4, not the right end (position 6). The right end is
 10-10 21:16:38   [Sitting_Arrangement] review PYQ_hi.txt: 5 issue(s): - प्रश्न 3 का उत्तर (a) E गलत है क्योंकि दी गई शर्तों से दो वैध व्यवस्थाएँ बनती हैं (दाएँ छोर पर B या E), इसलिए उत्तर न
+10-10 21:28:02   [Sitting_Arrangement] review Short_Tricks_en.txt: 4 issue(s): - Box 3: Invented statistic "90% of row mistakes are direction mistakes" → remove the percentage or replace wi
+10-10 21:40:27   [Sitting_Arrangement] review Important_Rules_en.txt: 1 issue(s): - Overlapping rank check example incorrectly states "A and B may be the same or adjacent"; with total 8, 5t
+10-10 21:42:16   [Sitting_Arrangement] review: 6 section(s) corrected, 0 failed
+10-10 21:42:16   [Sitting_Arrangement] written 6, failed 0; AI calls today 61/100000
+10-10 21:42:16 NOT OK 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement after 92 min: todo [] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
+10-10 21:42:19 worker 0: nothing left
 ```
