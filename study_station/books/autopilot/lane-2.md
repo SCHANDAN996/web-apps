@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 04:55 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 03:21 PM
+**आख़िरी update:** 10-10-2026 05:10 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 03:21 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W5 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 51 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,17 +37,11 @@
 - Chapter 05 Percentage (Maths) — 2 बार
 - Chapter 28 Linear Programming (Maths) — 2 बार
 - Chapter 19 Trigonometry (Maths) — 2 बार
-- Chapter 25 Probability (Maths) — 1 बार
+- Chapter 25 Probability (Maths) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 15:59:41   [Trigonometry] Practice_en_Set_06.txt try 3: rejected (parsed 24 questions, numbers 126…149)
-10-10 16:03:38   [Trigonometry] Practice_en_Set_06.txt try 4: rejected (parsed 23 questions, numbers 126…150)
-10-10 16:03:38   [Trigonometry] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
-10-10 16:03:38   [Trigonometry] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-10-10 16:03:38   [Trigonometry] written 0, failed 3; AI calls today 52/100000
-10-10 16:03:38 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_19_Trigonometry after 18 min: todo ['Set 05 hi: todo', 'Set 06 en: todo', 'Set 06 hi: todo'] problems []
 10-10 16:03:43 worker 2: nothing left
 10-10 16:04:01   [Probability] Practice_en_Set_06.txt try 4: rejected (parsed 22 questions, numbers 126…150)
 10-10 16:04:01   [Probability] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
@@ -84,4 +76,10 @@
 10-10 16:45:02   [Probability] Practice_en_Set_06.txt try 1: rejected (parsed 23 questions, numbers 126…150)
 10-10 16:48:47   [Probability] Practice_en_Set_06.txt try 2: rejected (parsed 24 questions, numbers 126…150)
 10-10 16:52:51   [Probability] Practice_en_Set_06.txt try 3: rejected (parsed 23 questions, numbers 126…150)
+10-10 16:55:49   [Probability] Practice_en_Set_06.txt try 4: rejected (parsed 24 questions, numbers 126…150)
+10-10 16:55:49   [Probability] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+10-10 16:55:49   [Probability] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+10-10 16:55:49   [Probability] written 0, failed 10; AI calls today 72/100000
+10-10 16:55:49 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability after 52 min: todo ['Set 02 en: todo', 'Set 02 hi: todo', 'Set 03 en: todo', 'Set 03 hi: todo'] problems ['Flashcards_hi.txt: Hindi file is mostly not in Hindi', 'Flashcards_hi.txt: much shorter than the English section (46', 'Short_Tricks_hi.txt: much shorter than the English section (']
+10-10 16:55:54 worker 4: nothing left
 ```
