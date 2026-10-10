@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 03:20 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:29 AM
+**आख़िरी update:** 10-10-2026 03:21 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:29 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -44,7 +44,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 14:18:09   [Probability] Practice_en_Set_04.txt try 2: rejected (parsed 23 questions, numbers 76…99)
 10-10 14:19:17   [Number_Series] review Important_Formulas_hi.txt: 1 issue(s): - Invented statistic "70% श्रेणियाँ यहीं सुलझती हैं" in step 1 of गति-सूत्र → Remove the unverified perc
 10-10 14:20:34   [Probability] Practice_en_Set_04.txt try 3: rejected (parsed 21 questions, numbers 76…99)
 10-10 14:20:51   [Linear_Programming] Practice_en_Set_05.txt try 1: rejected (Q106:answer_solution_conflict,Q112:leaked_reasoning,Q114:leaked_reasoning,Q116:leaked_reasoning,Q121:leaked_re
@@ -84,4 +83,5 @@
 10-10 15:20:46   [Linear_Programming] written 0, failed 2; AI calls today 160/100000
 10-10 15:20:46 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming after 17 min: todo ['Set 04 en: todo', 'Set 04 hi: todo'] problems ['Content_hi.txt: much shorter than the English section (8282 ']
 10-10 15:20:50 worker 1: nothing left
+10-10 15:21:11 autopilot end: done 3, failed 6
 ```
