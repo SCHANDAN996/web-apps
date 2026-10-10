@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 10-10-2026 08:05 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:17 AM
+**आख़िरी update:** 10-10-2026 08:20 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:17 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W5 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 16 मिनट |
+| W5 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 32 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -24,9 +24,9 @@
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 20 | 0 | 8 |
 | Graduation GK | 27 | 0 | 1 |
-| Graduation Reasoning | 14 | 0 | 16 |
+| Graduation Reasoning | 15 | 0 | 15 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **249** | **5** | **42** |
+| **कुल** | **250** | **5** | **41** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -43,11 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 07:26:37   [Probability] set 02 try 3: rejected (parsed 23 questions, numbers 26…50)
-10-10 07:27:06   [Trigonometry] set 02 try 1: rejected (parsed 24 questions, numbers 26…50)
-10-10 07:28:04   [Probability] set 02 try 4: rejected (parsed 23 questions, numbers 26…50)
-10-10 07:28:04   [Probability] FAILED set 02: no version passed the checks — files left as they were
-10-10 07:30:03   [Trigonometry] set 02 try 2: rejected (parsed 24 questions, numbers 26…50)
 10-10 07:31:05   [Probability] set 03 try 1: rejected (parsed 23 questions, numbers 51…75)
 10-10 07:31:34   [Trigonometry] set 02 try 3: rejected (parsed 24 questions, numbers 26…50)
 10-10 07:32:17   [Probability] set 03 try 2: rejected (parsed 23 questions, numbers 51…75)
@@ -83,4 +78,9 @@
 10-10 08:00:31   [Probability] set 03 try 4: rejected (parsed 23 questions, numbers 51…75)
 10-10 08:00:31   [Probability] FAILED set 03: no version passed the checks — files left as they were
 10-10 08:01:37   [Probability] set 05 try 1: rejected (parsed 24 questions, numbers 101…125)
+10-10 08:06:01   [Probability] set 05 try 2: rejected (parsed 0 questions, numbers -…-)
+10-10 08:07:10   [Probability] set 05 try 3: rejected (parsed 24 questions, numbers 101…125)
+10-10 08:07:17   [Probability] set 05 try 4: rejected (parsed 0 questions, numbers -…-)
+10-10 08:07:17   [Probability] FAILED set 05: no version passed the checks — files left as they were
+10-10 08:19:58   [Probability] set 06 try 1: rejected (parsed 0 questions, numbers -…-)
 ```
