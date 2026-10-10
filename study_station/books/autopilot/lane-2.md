@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 08:07 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
+**आख़िरी update:** 10-10-2026 08:22 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 26 Permutation Combination (Graduation Maths) | 🔎 review हो रहा है | 23 मिनट |
-| W4 | Chapter 27 Number Series (Graduation Maths) | ✍️ लिख रहा है | 88 मिनट |
-| W5 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 42 मिनट |
-| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 103 मिनट |
+| W2 | Chapter 26 Permutation Combination (Graduation Maths) | 🔎 review हो रहा है | 39 मिनट |
+| W4 | Chapter 27 Number Series (Graduation Maths) | ✍️ लिख रहा है | 104 मिनट |
+| W5 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 57 मिनट |
+| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 10 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -48,24 +48,11 @@
 - Chapter 15 Geometry (Maths) — 2 बार
 - Chapter 19 Trigonometry (Maths) — 2 बार
 - Chapter 26 Permutation Combination (Maths) — 1 बार
+- Chapter 25 Probability (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 07:42:53   [Probability] Practice_en_Set_05.txt try 3: rejected (parsed 21 questions, numbers 101…125)
-10-10 07:43:39   [Permutation_Combination] repaired PYQ_hi.txt (8803 chars)
-10-10 07:43:39   [Permutation_Combination] written 1, failed 0; AI calls today 224/100000
-10-10 07:43:41   [Linear_Programming] wrote Content_hi.txt (8283 chars)
-10-10 07:44:40   [Number_Series] wrote PYQ_hi.txt (376 chars)
-10-10 07:44:46   [Trigonometry] Practice_hi_Set_05.txt try 4: rejected (parsed 24 questions, numbers 101…124)
-10-10 07:44:46   [Trigonometry] REJECTED Practice_hi_Set_05.txt: no translation passed the checks — not written
-10-10 07:45:16   [Data_Interpretation] review Important_Formulas_en.txt: 2 issue(s): - Two-Table Cross Data formula missing division by 100 → Required value = (Row share % × Column total) /
-10-10 07:46:30   [Permutation_Combination] review Content_hi.txt: 1 issue(s): - सारांश तालिका में वृत्ताकार क्रमचय के उपयोग में 'माला' शामिल है, लेकिन माला (garland) के लिए सूत्र (n-1)!/2 होता 
-10-10 07:47:24   [Probability] Practice_en_Set_05.txt try 4: rejected (parsed 24 questions, numbers 101…125)
-10-10 07:47:24   [Probability] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
-10-10 07:47:24   [Probability] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
-10-10 07:47:53   [Linear_Programming] wrote Feynman_en.txt (3635 chars)
-10-10 07:48:54   [Number_Series] wrote Short_Tricks_en.txt (8042 chars)
 10-10 07:49:29   [Data_Interpretation] review Important_Formulas_hi.txt: 1 issue(s): - दो मानों का प्रतिशत अंतर सूत्र में निरपेक्ष मान (|A−B|) का उपयोग गलत है; "B की तुलना में A कितना % अधि
 10-10 07:49:35   [Trigonometry] Practice_en_Set_06.txt try 1: rejected (parsed 22 questions, numbers 126…150)
 10-10 07:51:47   [Linear_Programming] Feynman_hi.txt try 1: rejected (corrupted characters)
@@ -92,4 +79,18 @@
 10-10 08:05:46   [Linear_Programming] Mind_Map.txt try 2: rejected (no usable mermaid graph)
 10-10 08:05:46   [Linear_Programming] REJECTED Mind_Map.txt: no usable mermaid graph — not written
 10-10 08:06:38   [Probability] Practice_en_Set_06.txt try 3: rejected (parsed 0 questions, numbers -…-)
+10-10 08:07:48   [Number_Series] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+10-10 08:11:30   [Permutation_Combination] FAILED review PYQ_en.txt: too_long — the chapter must not be published unreviewed
+10-10 08:12:10   [Permutation_Combination] review PYQ_hi.txt: 1 issue(s): - Question 8: The stated problem (6 red, 5 white, choose 4 with at least 2 red) yields 265 ways, but the answer key say
+10-10 08:12:22   [Probability] Practice_en_Set_06.txt try 4: rejected (parsed 22 questions, numbers 126…150)
+10-10 08:12:22   [Probability] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+10-10 08:12:22   [Probability] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+10-10 08:12:22   [Probability] written 1, failed 10; AI calls today 259/100000
+10-10 08:12:22 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability after 109 min: todo ['Set 02 en: todo', 'Set 02 hi: todo', 'Set 03 en: todo', 'Set 03 hi: todo'] problems ['Flashcards_hi.txt: Hindi file is mostly not in Hindi', 'Flashcards_hi.txt: much shorter than the English section (46', 'Short_Tricks_hi.txt: much shorter than the English section (']
+10-10 08:12:26 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability (TODO: todo 10, problems 3)
+10-10 08:14:08   [Number_Series] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 08:17:22   [Probability] Practice_en_Set_02.txt try 1: rejected (parsed 21 questions, numbers 26…50)
+10-10 08:19:11   [Number_Series] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+10-10 08:20:43   [Linear_Programming] wrote Flashcards_en.txt (3962 chars)
+10-10 08:22:53   [Permutation_Combination] review Important_Formulas_en.txt: 2 issue(s): - Selection with at least one of each type: formula (p+1)(q+1)(r+1)…−1 is for non-empty selection overal
 ```
