@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 12:20 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 10:31 AM
+**आख़िरी update:** 10-10-2026 12:35 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 10:31 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W2 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 46 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -40,16 +38,11 @@
 - Chapter 24 Statement Assumption (Reasoning) — 2 बार
 - Chapter 07 Sitting Arrangement (Reasoning) — 2 बार
 - Chapter 20 Mirror Water Images (Reasoning) — 2 बार
-- Chapter 13 Dictionary Order (Reasoning) — 1 बार
+- Chapter 13 Dictionary Order (Reasoning) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 11:12:18   [Dictionary_Order] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
-10-10 11:13:32   [Mirror_Water_Images] repaired PYQ_hi.txt (6663 chars)
-10-10 11:13:32   [Mirror_Water_Images] written 2, failed 0; AI calls today 96/100000
-10-10 11:13:32 NOT OK 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images after 41 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (44']
-10-10 11:13:35 START 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images (FIX: todo 0, problems 1)
 10-10 11:14:07   [Sitting_Arrangement] Practice_en_Set_02.txt try 3: rejected (Q39:leaked_reasoning)
 10-10 11:14:12   [Dictionary_Order] Practice_en_Set_05.txt try 1: rejected (Q101:leaked_reasoning,Q109:leaked_reasoning,Q112:leaked_reasoning,Q116:leaked_reasoning,Q119:leaked_reasoning)
 10-10 11:14:36   [Mirror_Water_Images] repaired Flashcards_hi.txt (2971 chars)
@@ -85,4 +78,9 @@
 10-10 12:04:52   [Dictionary_Order] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
 10-10 12:08:24   [Dictionary_Order] Practice_en_Set_05.txt try 1: rejected (Q104:leaked_reasoning,Q107:leaked_reasoning,Q109:leaked_reasoning,Q112:leaked_reasoning,Q113:leaked_reasoning)
 10-10 12:15:49   [Dictionary_Order] Practice_en_Set_05.txt try 2: re-solve disagrees (Q101 key d vs re-solve b)
+10-10 12:22:36   [Dictionary_Order] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+10-10 12:24:50   [Dictionary_Order] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+10-10 12:24:50   [Dictionary_Order] written 2, failed 4; AI calls today 120/100000
+10-10 12:24:50 NOT OK 12th_Level/Reasoning/Chapter_13_Dictionary_Order after 51 min: todo ['Set 02 en: todo', 'Set 02 hi: todo', 'Set 03 en: todo', 'Set 03 hi: todo'] problems ['PYQ_hi.txt: much shorter than the English section (447 vs 13']
+10-10 12:24:53 worker 1: nothing left
 ```
