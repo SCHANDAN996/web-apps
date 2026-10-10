@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 05:29 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:38 AM
+**आख़िरी update:** 10-10-2026 05:45 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:38 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W6 | Chapter 24 Statistics (Graduation Maths) | ✍️ लिख रहा है | 88 मिनट |
-| W7 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 59 मिनट |
-| W8 | Chapter 26 Permutation Combination (Graduation Maths) | ✍️ लिख रहा है | 59 मिनट |
+| W7 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 75 मिनट |
+| W8 | Chapter 26 Permutation Combination (Graduation Maths) | ✍️ लिख रहा है | 75 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -20,7 +19,7 @@
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 20 | 2 | 0 |
 | 10th English | 17 | 0 | 3 |
-| 12th Maths | 16 | 0 | 7 |
+| 12th Maths | 17 | 0 | 6 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 10 | 0 | 15 |
 | 12th English | 25 | 0 | 0 |
@@ -28,7 +27,7 @@
 | Graduation GK | 27 | 1 | 0 |
 | Graduation Reasoning | 13 | 0 | 17 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **235** | **5** | **56** |
+| **कुल** | **236** | **5** | **55** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -56,21 +55,11 @@
 - Chapter 19 Trigonometry (Maths) — 2 बार
 - Chapter 22 Calculus (Maths) — 1 बार
 - Chapter 23 Data Interpretation (Maths) — 1 बार
+- Chapter 24 Statistics (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 05:00:36   [Permutation_Combination] FAILED Content_hi.txt: too_long
-10-10 05:00:42   [Permutation_Combination] Feynman_en.txt try 1: rejected (too short)
-10-10 05:01:41   [Probability] Practice_en_Set_02.txt try 4: rejected (parsed 22 questions, numbers 26…49)
-10-10 05:01:41   [Probability] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
-10-10 05:01:41   [Probability] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
-10-10 05:03:46   [Probability] Practice_en_Set_03.txt try 1: rejected (parsed 22 questions, numbers 51…75)
-10-10 05:05:55   [Probability] Practice_en_Set_03.txt try 2: rejected (parsed 21 questions, numbers 51…74)
-10-10 05:07:31   [Probability] Practice_en_Set_03.txt try 3: rejected (parsed 22 questions, numbers 51…75)
-10-10 05:08:16   [Statistics] FAILED Practice_hi_Set_04.txt: too_long
-10-10 05:08:23   [Permutation_Combination] Feynman_en.txt try 2: rejected (corrupted characters)
-10-10 05:08:23   [Permutation_Combination] REJECTED Feynman_en.txt: corrupted characters — not written
 10-10 05:09:00   [Permutation_Combination] wrote Feynman_hi.txt (2252 chars)
 10-10 05:09:17   [Probability] Practice_en_Set_03.txt try 4: rejected (parsed 21 questions, numbers 51…75)
 10-10 05:09:17   [Probability] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
@@ -100,4 +89,15 @@
 10-10 05:21:00   [Probability] Practice_en_Set_05.txt try 3: rejected (parsed 23 questions, numbers 101…125)
 10-10 05:23:50   [Statistics] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 10-10 05:24:55   [Permutation_Combination] Important_Formulas_en.txt try 1: rejected (corrupted characters)
+10-10 05:31:13   [Statistics] Practice_hi_Set_06.txt try 1: rejected (parsed 1 questions, numbers 126…126)
+10-10 05:35:34   [Probability] FAILED Practice_en_Set_05.txt: too_long
+10-10 05:35:34   [Probability] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
+10-10 05:36:43   [Statistics] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+10-10 05:36:43   [Statistics] written 22, failed 3; AI calls today 840/100000
+10-10 05:36:43 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_24_Statistics after 95 min: todo ['Set 04 hi: todo', 'Set 05 en: todo', 'Set 05 hi: todo'] problems []
+10-10 05:36:43 worker 5: nothing left
+10-10 05:36:54   [Probability] Practice_en_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 05:40:07   [Permutation_Combination] FAILED Important_Formulas_en.txt: too_long
+10-10 05:40:59   [Permutation_Combination] wrote Important_Formulas_hi.txt (2696 chars)
+10-10 05:43:42   [Permutation_Combination] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 ```
