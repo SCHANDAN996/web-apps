@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 07:24 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
+**आख़िरी update:** 10-10-2026 07:40 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 16 मिनट |
-| W2 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 16 मिनट |
-| W4 | Chapter 17 Course of Action (12th Reasoning) | 🔧 सुधार रहा है | 1 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 31 मिनट |
+| W2 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 13 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -20,7 +19,7 @@
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 20 | 2 | 0 |
 | 10th English | 18 | 0 | 2 |
-| 12th Maths | 19 | 0 | 4 |
+| 12th Maths | 20 | 0 | 3 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 19 | 4 | 2 |
 | 12th English | 25 | 0 | 0 |
@@ -28,7 +27,7 @@
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 26 | 0 | 4 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **269** | **6** | **21** |
+| **कुल** | **270** | **6** | **20** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -39,29 +38,12 @@
 - Chapter 20 Mirror Water Images (Reasoning) — 2 बार
 - Chapter 16 Statement Conclusion (Reasoning) — 2 बार
 - Chapter 24 Statement Assumption (Reasoning) — 2 बार
+- Chapter 17 Course of Action (Reasoning) — 2 बार
+- Chapter 13 Dictionary Order (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 19:11:17   [Mirror_Water_Images] repaired Flashcards_hi.txt (3226 chars)
-10-10 19:11:17   [Mirror_Water_Images] written 1, failed 0; AI calls today 7/100000
-10-10 19:11:17 NOT OK 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images after 2 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (32']
-10-10 19:11:20 START 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images (FIX: todo 0, problems 1)
-10-10 19:11:29   [Dictionary_Order] Practice_en_Set_02.txt try 1: rejected (Q28:leaked_reasoning,Q32:leaked_reasoning,Q33:leaked_reasoning,Q38:leaked_reasoning,Q39:leaked_reasoning)
-10-10 19:11:58   [Statement_Assumption] repaired Short_Tricks_hi.txt (5552 chars)
-10-10 19:11:58   [Statement_Assumption] written 1, failed 0; AI calls today 9/100000
-10-10 19:12:06   [Statement_Conclusion] repaired Flashcards_hi.txt (3953 chars)
-10-10 19:12:06   [Statement_Conclusion] written 1, failed 0; AI calls today 10/100000
-10-10 19:12:29   [Sitting_Arrangement] Practice_en_Set_02.txt try 1: rejected (Q26:leaked_reasoning,Q28:leaked_reasoning,Q35:leaked_reasoning,Q38:leaked_reasoning,Q43:leaked_reasoning)
-10-10 19:12:48   [Mirror_Water_Images] repaired Flashcards_hi.txt (3880 chars)
-10-10 19:12:48   [Mirror_Water_Images] written 1, failed 0; AI calls today 12/100000
-10-10 19:13:41   [Statement_Conclusion] repaired Flashcards_hi.txt (3847 chars)
-10-10 19:13:41   [Statement_Conclusion] written 1, failed 0; AI calls today 14/100000
-10-10 19:13:41 NOT OK 12th_Level/Reasoning/Chapter_16_Statement_Conclusion after 5 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (38']
-10-10 19:13:43 START 12th_Level/Reasoning/Chapter_16_Statement_Conclusion (FIX: todo 0, problems 1)
-10-10 19:14:00   [Statement_Assumption] repaired Short_Tricks_hi.txt (6238 chars)
-10-10 19:14:00   [Statement_Assumption] written 1, failed 0; AI calls today 15/100000
-10-10 19:14:01 NOT OK 12th_Level/Reasoning/Chapter_24_Statement_Assumption after 5 min: todo [] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
 10-10 19:14:03 START 12th_Level/Reasoning/Chapter_24_Statement_Assumption (FIX: todo 0, problems 1)
 10-10 19:14:05   [Mirror_Water_Images] repaired Flashcards_hi.txt (3968 chars)
 10-10 19:14:05   [Mirror_Water_Images] written 1, failed 0; AI calls today 16/100000
@@ -83,4 +65,23 @@
 10-10 19:21:03   [Dictionary_Order] Practice_en_Set_02.txt try 3: rejected (Q33:leaked_reasoning)
 10-10 19:23:37   [Course_of_Action] REJECTED Short_Tricks_hi.txt: corrupted characters — not written
 10-10 19:23:37   [Course_of_Action] written 0, failed 1; AI calls today 22/100000
+10-10 19:25:54   [Course_of_Action] repaired Short_Tricks_hi.txt (5171 chars)
+10-10 19:25:54   [Course_of_Action] written 1, failed 0; AI calls today 23/100000
+10-10 19:25:54 NOT OK 12th_Level/Reasoning/Chapter_17_Course_of_Action after 17 min: todo [] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
+10-10 19:25:56 START 12th_Level/Reasoning/Chapter_17_Course_of_Action (FIX: todo 0, problems 1)
+10-10 19:27:05   [Dictionary_Order] Practice_en_Set_02.txt try 4: re-solve disagrees (Q32 key d vs re-solve c)
+10-10 19:27:05   [Dictionary_Order] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
+10-10 19:27:05   [Dictionary_Order] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+10-10 19:27:05   [Dictionary_Order] written 0, failed 2; AI calls today 24/100000
+10-10 19:27:05 NOT OK 12th_Level/Reasoning/Chapter_13_Dictionary_Order after 18 min: todo ['Set 02 en: todo', 'Set 02 hi: todo'] problems ['PYQ_hi.txt: much shorter than the English section (447 vs 13']
+10-10 19:27:07 START 12th_Level/Reasoning/Chapter_13_Dictionary_Order (TODO: todo 2, problems 1)
+10-10 19:27:27   [Sitting_Arrangement] Practice_en_Set_02.txt try 2: re-solve disagrees (Q26 key c vs re-solve b, Q35 key b vs re-solve c, Q46 key d vs re-solve b)
+10-10 19:28:14   [Course_of_Action] repaired Short_Tricks_hi.txt (6745 chars)
+10-10 19:28:14   [Course_of_Action] written 1, failed 0; AI calls today 26/100000
+10-10 19:30:32   [Course_of_Action] repaired Short_Tricks_hi.txt (4844 chars)
+10-10 19:30:32   [Course_of_Action] written 1, failed 0; AI calls today 27/100000
+10-10 19:30:32 NOT OK 12th_Level/Reasoning/Chapter_17_Course_of_Action after 5 min: todo [] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
+10-10 19:30:35 worker 3: nothing left
+10-10 19:31:23   [Dictionary_Order] Practice_en_Set_02.txt try 1: rejected (parsed 23 questions, numbers 26…50)
+10-10 19:34:43   [Dictionary_Order] Practice_en_Set_02.txt try 2: rejected (Q26:leaked_reasoning,Q29:leaked_reasoning)
 ```
