@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 08:43 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
+**आख़िरी update:** 10-10-2026 08:55 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 12 मिनट |
-| W5 | Chapter 22 Figure Series (12th Reasoning) | ✍️ लिख रहा है | 31 मिनट |
-| W7 | Chapter 20 Mirror Water Images (12th Reasoning) | ✍️ लिख रहा है | 54 मिनट |
-| W8 | Chapter 23 Syllogism (12th Reasoning) | 🔎 review हो रहा है | 11 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 24 मिनट |
+| W5 | Chapter 22 Figure Series (12th Reasoning) | ✍️ लिख रहा है | 43 मिनट |
+| W7 | Chapter 20 Mirror Water Images (12th Reasoning) | ✍️ लिख रहा है | 65 मिनट |
+| W8 | Chapter 23 Syllogism (12th Reasoning) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -33,6 +33,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 10-10 08:55 — 12th Reasoning · Chapter 23 Syllogism
 - 10-10 08:39 — 12th Reasoning · Chapter 19 Cubes Dice
 - 10-10 07:38 — 12th Reasoning · Chapter 10 Clock Calendar
 - 10-10 07:15 — 12th Reasoning · Chapter 14 Alphabet Questions
@@ -54,19 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 08:17:38   [Statement_Argument] written 4, failed 2; AI calls today 368/100000
-10-10 08:17:38 NOT OK 12th_Level/Reasoning/Chapter_25_Statement_Argument after 39 min: todo ['Set 02 en: todo', 'Set 02 hi: todo'] problems ['PYQ_hi.txt: Hindi file is mostly not in Hindi', 'PYQ_hi.txt: much shorter than the English section (2089 vs 1']
-10-10 08:17:41 START 12th_Level/Reasoning/Chapter_25_Statement_Argument (TODO: todo 2, problems 2)
-10-10 08:19:53   [Cubes_Dice] review Feynman_hi.txt: 2 issue(s): - The blurb (ब्लर्टिंग शीट) includes "दो कॉमन फलक हों तो क्या होता है?" as a main point of the chapter, but the cha
-10-10 08:20:30   [Syllogism] Practice_en_Set_06.txt try 1: re-solve disagrees (Q150 key c vs re-solve b)
-10-10 08:21:34   [Cubes_Dice] review Flashcards_en.txt: 1 issue(s): - Card 3: "The remaining two faces of each die are opposite to each other" is incorrect; in a single view of a d
-10-10 08:22:42   [Cubes_Dice] review Flashcards_hi.txt: 1 issue(s): - Card 4 explanation says "प्रत्येक किनारे पर n कट लगें तो कुल घन = n³" → n cuts per edge produce (n+1)³ small c
-10-10 08:23:51   [Mirror_Water_Images] Practice_en_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
-10-10 08:24:14   [Figure_Series] Practice_en_Set_02.txt try 2: re-solve disagrees (Q29 key d vs re-solve c, Q44 key a vs re-solve b)
-10-10 08:25:20   [Cubes_Dice] review PYQ_en.txt: 2 issue(s): - Q6 has two conflicting answers (initially (b) Ordinary, then revised (a) Standard) → keep only (a) Standard as the co
-10-10 08:26:47   [Syllogism] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-10-10 08:28:19   [Sitting_Arrangement] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-10-10 08:29:55   [Syllogism] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 10-10 08:29:55   [Syllogism] written 10, failed 0; AI calls today 389/100000
 10-10 08:31:05   [Sitting_Arrangement] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 10-10 08:31:05   [Sitting_Arrangement] written 2, failed 6; AI calls today 390/100000
@@ -94,4 +82,17 @@
 10-10 08:40:40   [Syllogism] review Flashcards_hi.txt: 1 issue(s): - Card 5 back: “भंसक (रिफ्ट) घाटी” uses the incorrect Hindi word “भंसक” for rift valley → replace with “भ्रंश (र
 10-10 08:41:56   [Mirror_Water_Images] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 10-10 08:42:12   [Figure_Series] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+10-10 08:44:03   [Syllogism] review PYQ_en.txt: 1 issue(s): - Q10 answer (c) and explanation are incorrect: from "No bird is a mammal" and "All sparrows are birds", only conclusio
+10-10 08:44:54   [Figure_Series] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+10-10 08:45:50   [Sitting_Arrangement] Practice_en_Set_01.txt try 2: re-solve disagrees (Q2 key c vs re-solve a, Q13 key c vs re-solve b, Q17 key a vs re-solve d, Q22 key c vs re-solve d)
+10-10 08:46:02   [Syllogism] review PYQ_hi.txt: 1 issue(s): - प्रश्न 5 में दिया गया उत्तर 'केवल II' गलत है; निष्कर्ष I ('कुछ डॉक्टर छात्र नहीं हैं') भी कथनों से वैध रूप से निकलता 
+10-10 08:46:27   [Mirror_Water_Images] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+10-10 08:49:19   [Mirror_Water_Images] Practice_en_Set_05.txt try 1: rejected (Q106:leaked_reasoning,Q118:leaked_reasoning,Q121:leaked_reasoning,Q125:leaked_reasoning)
+10-10 08:50:45   [Syllogism] review Short_Tricks_en.txt: 4 issue(s): - Mnemonic 10 claims "complementary pair like I + O" → Complementary pairs in syllogism are A-O and E-I; I and
+10-10 08:52:33   [Syllogism] review Short_Tricks_hi.txt: 1 issue(s): - Trick 10 की तीसरी शर्त में "दोनों I-टाइप हों जैसे Some A are B / No A is B" लिखा है → No A is B E-टाइप है, I
+10-10 08:53:25   [Figure_Series] Practice_en_Set_03.txt try 1: rejected (parsed 1 questions, numbers 51…51)
+10-10 08:54:48   [Syllogism] review Important_Rules_en.txt: 1 issue(s): - 'Some Not' Rule incorrectly states that "Some A are not B" cannot be drawn as a definite diagram and shou
+10-10 08:55:12   [Figure_Series] Practice_en_Set_03.txt try 2: rejected (Q64:leaked_reasoning)
+10-10 08:55:27   [Syllogism] review: 8 section(s) corrected, 0 failed
+10-10 08:55:27   [Syllogism] written 8, failed 0; AI calls today 432/100000
 ```

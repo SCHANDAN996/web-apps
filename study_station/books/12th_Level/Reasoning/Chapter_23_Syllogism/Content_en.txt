@@ -1,0 +1,203 @@
+# Syllogism (न्याय-वाक्य)
+
+## What You Will Learn
+
+By the end of this chapter, you will be able to:
+
+- Understand what a syllogism question is and how to solve it.
+- Identify the four types of statements: All, No, Some, Some Not.
+- Draw Venn diagrams for statements and test conclusions against them.
+- Handle special cases: possibility conclusions, complementary pairs (either–or), and negative conclusions.
+- Avoid the traps examiners set in SSC, Railway, and Bank exams.
+
+---
+
+## 1. What Is a Syllogism?
+
+A syllogism is a logical argument made of:
+
+1. **Statements (Premises)** — two or more sentences that you must accept as **true**, even if they contradict real-world facts.
+2. **Conclusions** — sentences that you must test: do they **definitely follow** from the statements?
+
+**Golden rule:** Forget what you know about the real world. If the statement says "All cats are dogs," then inside that question, all cats really are dogs.
+
+**Example:**
+
+- Statements: All pens are books. All books are chairs.
+- Conclusion: All pens are chairs. ✅ (definitely follows)
+
+---
+
+## 2. The Four Types of Statements
+
+| Statement | Meaning | Venn diagram |
+|---|---|---|
+| All A are B | Every A is inside B | Circle A fully inside circle B |
+| No A is B | A and B have nothing in common | Two separate circles |
+| Some A are B | At least one A is B | Circles A and B overlap |
+| Some A are not B | At least one A lies outside B | Part of A outside B |
+
+**Key facts to memorise:**
+
+- "Some" means **at least one** — it can also mean all. So if "All A are B" is true, "Some A are B" is also true.
+- "No A is B" and "No B is A" mean the same thing (both circles are separate).
+- "All A are B" does **not** mean "All B are A." (All apples are fruits, but not all fruits are apples.)
+- "Some A are B" does **not** automatically mean "Some A are not B."
+
+---
+
+## 3. Solving with Venn Diagrams — Step by Step
+
+**Step 1:** Draw the diagram for each statement. Draw the **minimum** arrangement first.
+
+**Step 2:** For each conclusion, ask: *Is this true in every possible diagram I could draw from these statements?*
+
+- If **yes in all cases** → the conclusion follows.
+- If it fails in **even one** possible diagram → the conclusion does **not** follow.
+
+**Worked Example 1:**
+
+- Statements: All dogs are animals. Some animals are cats.
+- Conclusions:
+  1. Some dogs are cats. ❌ (The "some animals" that are cats may lie outside the dogs circle — not definite.)
+  2. All dogs are animals. ✅ (Directly given.)
+
+**Worked Example 2 (negative statement):**
+
+- Statements: No pen is a pencil. All pencils are erasers.
+- Conclusions:
+  1. No pen is an eraser. ❌ (The eraser circle may or may not touch the pen circle — not definite.)
+  2. Some erasers are not pens. ✅ (The part of erasers inside pencils can never be pens, since no pen is a pencil.)
+
+---
+
+## 4. Special Cases
+
+### 4.1 Complementary Pairs (Either–Or)
+
+Two conclusions form an **either–or** pair when:
+
+- Both are doubtful (neither definitely follows alone), **and**
+- They have the same subject and predicate, **and**
+- One is positive and the other negative (e.g., "Some A are B" + "No A is B", or "Some A are B" + "Some A are not B").
+
+Then the answer is "either conclusion I or II follows."
+
+### 4.2 Possibility Conclusions
+
+A conclusion worded as a **possibility** ("Some A being B is a possibility") follows if the diagram does not forbid it — even if it is not definite. But if a definite conclusion already follows, the possibility version is usually not needed, and if the statement forbids it (e.g., "No A is B"), the possibility is false.
+
+### 4.3 Definite vs. Possible — the examiner's favourite trap
+
+- "Some A are B" (definite) needs proof in **every** diagram.
+- "Possibly some A are B" needs only **one** allowed diagram.
+
+---
+
+## 5. Common Traps in Exams
+
+1. **Real-world knowledge trap:** Statements may be absurd ("All tables are dogs"). Accept them anyway.
+2. **Reversal trap:** "All A are B" does not give "All B are A."
+3. **Some ≠ Some not:** From "Some A are B" alone, you cannot conclude "Some A are not B."
+4. **Middle-term jump:** "All A are B" + "All C are B" gives **no** definite relation between A and C.
+5. **Negative statement trap:** With "No A is B," any positive definite conclusion between A and B is false, but negative conclusions like "Some B are not A" may follow.
+
+---
+
+## 6. PYQ Pattern Analysis (परीक्षा पैटर्न)
+
+*(Pattern analysis in words — no invented counts.)*
+
+- **SSC (CGL, CHSL, MTS, GD) and RRB (NTPC, Group D):** Usually 2 statements + 2 conclusions, all four statement types mixed. Questions are direct; Venn diagrams solve them in under a minute.
+- **Bank exams (IBPS, SBI):** 3–4 statements, "only conclusion I / only II / both / neither / either–or" options, plus **possibility** conclusions and reverse-syllogism style items.
+- **Frequently repeated sub-topics:** complementary pairs (either–or), "Some are not" conclusions, and questions where a real-world-true conclusion does **not** logically follow.
+- **Examiner's traps:** near-correct conclusions that are only *possible* but not *definite*; conclusions that reverse "All A are B"; negative-worded options ("which does NOT follow").
+
+**Time tip:** Aim for 30–45 seconds per question. Draw small, quick diagrams — neatness does not earn marks.
+
+---
+
+## 7. Mind Map
+
+```mermaid
+graph TD
+    A["Syllogism"] --> B["Statements<br>(always taken as true)"]
+    A --> C["Conclusions<br>(must definitely follow)"]
+    B --> D["All A are B"]
+    B --> E["No A is B"]
+    B --> F["Some A are B"]
+    B --> G["Some A are not B"]
+    C --> H["Definite:<br>true in every diagram"]
+    C --> I["Possibility:<br>true in at least one diagram"]
+    C --> J["Either-Or:<br>complementary pair"]
+    A --> K["Method: Venn Diagrams"]
+    A --> L["Traps:<br>reversal, real-world facts,<br>some vs some-not"]
+```
+
+---
+
+## 8. Flashcards
+
+Card 1
+Front: What is a syllogism?
+Back: A logical argument with statements (taken as true) and conclusions that must be tested for whether they definitely follow.
+
+Card 2
+Front: What does "Some A are B" mean in logic?
+Back: At least one A is B. It can include the case where all A are B.
+
+Card 3
+Front: Does "All A are B" imply "All B are A"?
+Back: No. Reversal is not valid (all apples are fruits, but not all fruits are apples).
+
+Card 4
+Front: What is the diagram for "No A is B"?
+Back: Two completely separate circles — A and B share nothing.
+
+Card 5
+Front: When does a definite conclusion follow?
+Back: When it is true in every possible Venn diagram drawn from the statements.
+
+Card 6
+Front: When does a possibility conclusion follow?
+Back: When at least one valid diagram allows it and no statement forbids it.
+
+Card 7
+Front: What is a complementary (either–or) pair?
+Back: Two doubtful conclusions with the same subject and predicate, one positive and one negative — then "either I or II follows."
+
+Card 8
+Front: From "Some A are B," can we conclude "Some A are not B"?
+Back: No, not by itself. "Some" may include all.
+
+Card 9
+Front: Statements: All A are B; All B are C. Conclusion: All A are C?
+Back: Yes — it definitely follows (chain of inclusion).
+
+Card 10
+Front: Statements: All A are B; All C are B. Any definite relation between A and C?
+Back: No. Both being inside B does not connect A and C.
+
+Card 11
+Front: Should you use real-world knowledge in syllogism?
+Back: Never. Accept the statements as true even if they sound absurd.
+
+Card 12
+Front: "No A is B" — is "No B is A" also true?
+Back: Yes. Separation is mutual.
+
+Card 13
+Front: Statements: No pen is pencil; All pencils are erasers. What follows definitely?
+Back: Some erasers are not pens. (No pen is eraser does NOT follow.)
+
+Card 14
+Front: Which exams ask syllogism with possibility conclusions?
+Back: Bank exams (IBPS, SBI) frequently; SSC/Railway mostly ask definite conclusions.
+
+Card 15
+Front: Ideal time per syllogism question?
+Back: About 30–45 seconds using quick Venn diagrams.
+
+---
+
+*Source: Standard reasoning concepts (NCERT-level logic; pattern based on SSC/RRB/Bank exam trends).*
