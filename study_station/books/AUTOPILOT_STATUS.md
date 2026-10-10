@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 03:23 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:34 AM
+**आख़िरी update:** 10-10-2026 03:27 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:34 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 29 Logical Consistency (Graduation Reasoning) | 🔎 review हो रहा है | 15 मिनट |
-| W5 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 162 मिनट |
+| W2 | Chapter 29 Logical Consistency (Graduation Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W5 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 166 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -33,6 +33,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 10-10 15:27 — Graduation Reasoning · Chapter 29 Logical Consistency
 - 10-10 15:22 — Graduation Reasoning · Chapter 26 Data Sufficiency
 - 10-10 13:47 — Graduation Reasoning · Chapter 28 Critical Reasoning
 - 10-10 12:43 — Graduation Reasoning · Chapter 20 Mirror Water Images
@@ -52,10 +53,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 14:35:02   [Data_Sufficiency] Practice_en_Set_04.txt try 2: re-solve disagrees (Q77 key a vs re-solve c, Q78 key c vs re-solve a, Q79 key b vs re-solve a, Q80 key a vs re-solve d, 
-10-10 14:36:00   [Advanced_Puzzles] Practice_en_Set_03.txt try 1: rejected (Q55:leaked_reasoning,Q65:leaked_reasoning,Q69:leaked_reasoning,Q73:leaked_reasoning)
-10-10 14:37:46   [Logical_Consistency] Practice_en_Set_06.txt try 4: re-solve disagrees (Q127 key a vs re-solve d, Q128 key c vs re-solve a, Q129 key d vs re-solve a, Q145 key b vs re-solve
-10-10 14:37:46   [Logical_Consistency] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
 10-10 14:37:46   [Logical_Consistency] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
 10-10 14:37:46   [Logical_Consistency] written 6, failed 4; AI calls today 335/100000
 10-10 14:37:46 NOT OK Graduation_Level/Reasoning/Chapter_29_Logical_Consistency after 119 min: todo ['Set 05 en: todo', 'Set 05 hi: todo', 'Set 06 en: todo', 'Set 06 hi: todo'] problems []
@@ -92,4 +89,8 @@
 10-10 15:22:47 DONE Graduation_Level/Reasoning/Chapter_26_Data_Sufficiency in 60 min → fafa4ffa
 10-10 15:22:49 worker 7: nothing left
 10-10 15:23:08   [Logical_Consistency] review Short_Tricks_en.txt: 1 issue(s): - Mnemonic 3 incorrectly states that A-E and I-O are contradiction pairs ("A-E fight, I-O fight") → Only A-O a
+10-10 15:25:12   [Logical_Consistency] review Important_Rules_en.txt: 1 issue(s): - Rule 8 (Venn Diagram Method) incorrectly defines consistency: "A conclusion is consistent only if it hold
+10-10 15:26:50   [Logical_Consistency] review Important_Rules_hi.txt: 1 issue(s): - "चरमपंथी शब्द जाँच" uses the wrong Hindi term "चरमपंथी" (meaning extremist) for "extreme words"; it shoul
+10-10 15:27:56   [Logical_Consistency] review: 8 section(s) corrected, 0 failed
+10-10 15:27:56   [Logical_Consistency] written 8, failed 0; AI calls today 397/100000
 ```

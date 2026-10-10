@@ -1,0 +1,149 @@
+51. Statements: All pens are books. Some books are chairs. Conclusions: I. Some pens are chairs. II. Some chairs are books.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (b)
+Solution: The tempting trap is Conclusion I — "All pens are books" plus "Some books are chairs" does not force any pen to be a chair, because the books that are chairs may lie outside the pens circle. Conclusion II is just the converse of the second statement, so it definitely follows. Hence only II follows, so the answer is Only II follows.
+Source: PYQ-style (SSC/Bank syllogism pattern)
+
+52. Statements: No dog is a cat. All cats are animals. Conclusions: I. No dog is an animal. II. Some animals are not dogs.
+(a) Only I follows (b) Neither follows (c) Both follow (d) Only II follows
+Answer: (d)
+Solution: The trap is Conclusion I — dogs may still be animals through a route other than cats, so "No dog is an animal" is not forced. Since all cats are animals and no cat is a dog, those animal-cats are animals that are not dogs, so II follows. Hence only II follows, so the answer is Only II follows.
+Source: PYQ-style (SSC CGL syllogism pattern)
+
+53. Statements: Some teachers are doctors. All doctors are honest. Conclusions: I. Some teachers are honest. II. All honest people are doctors.
+(a) Both follow (b) Only II follows (c) Only I follows (d) Neither follows
+Answer: (c)
+Solution: The trap is Conclusion II — "All doctors are honest" cannot be reversed; honest people may include many non-doctors. But the teachers who are doctors must be honest, so some teachers are honest. Hence only I follows, so the answer is Only I follows.
+Source: PYQ-style (Bank PO syllogism pattern)
+
+54. Statements: All flowers are red. Some red things are sweet. Conclusions: I. Some flowers are sweet. II. All red things are flowers.
+(a) Neither follows (b) Only II follows (c) Both follow (d) Only I follows
+Answer: (a)
+Solution: The trap is Conclusion I — the sweet red things may be entirely outside the flowers circle, so no flower need be sweet. Conclusion II is an invalid reversal of "All flowers are red". Neither conclusion is forced, so the answer is Neither follows.
+Source: PYQ-style (SSC CHSL syllogism pattern)
+
+55. Statements: Some laptops are phones. No phone is a tablet. Conclusions: I. Some laptops are not tablets. II. No laptop is a tablet.
+(a) Neither follows (b) Only II follows (c) Both follow (d) Only I follows
+Answer: (d)
+Solution: The trap is Conclusion II — only the laptops that are phones are barred from being tablets; other laptops could be tablets, so a total ban is not forced. The laptops that are phones cannot be tablets, so some laptops are definitely not tablets. Hence only I follows, so the answer is Only I follows.
+Source: PYQ-style (IBPS syllogism pattern)
+
+56. In a certain code, "All politicians are honest" is a premise. Which conclusion is logically consistent with it?
+(a) Some honest people are politicians (b) No honest person is a politician (c) All honest people are politicians (d) Some politicians are not honest
+Answer: (a)
+Solution: The trap is the option claiming all honest people are politicians — that reverses the premise, which is invalid. The option denying any honest politician contradicts the premise, and the one saying some politicians are not honest also contradicts it. "All A are B" always implies "Some B are A", so the answer is Some honest people are politicians.
+Source: PYQ-style (logical consistency pattern)
+
+57. Statements: All A are B. All B are C. Conclusions: I. All A are C. II. Some C are A.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (c)
+Solution: This is a clean chain: A sits inside B and B inside C, so every A is a C, making I true. Since all A are C, at least some C are A, making II true as well. There is no trap here beyond overthinking, so the answer is Both follow.
+Source: PYQ-style (SSC syllogism pattern)
+
+58. Statements: Some boys are tall. No tall person is weak. Conclusions: I. Some boys are not weak. II. Some weak persons are boys.
+(a) Both follow (b) Only II follows (c) Only I follows (d) Neither follows
+Answer: (c)
+Solution: The trap is Conclusion II — nothing connects weak persons to boys; the boys who are tall are excluded from the weak group, and other boys are undecided. The tall boys cannot be weak, so some boys are definitely not weak. Hence only I follows, so the answer is Only I follows.
+Source: PYQ-style (Bank Clerk syllogism pattern)
+
+59. Which of the following pairs of statements is logically inconsistent (cannot both be true)?
+(a) No student failed; All students studied (b) All students passed; Ravi is a student (c) Some students passed; Some students failed (d) All students passed; Some students failed
+Answer: (d)
+Solution: The trap is the pair "Some passed; Some failed" — those can easily coexist in one class. But "All students passed" and "Some students failed" directly contradict each other, since some failing means not all passed. Hence that pair cannot both be true, so the answer is All students passed; Some students failed.
+Source: PYQ-style (logical consistency pattern)
+
+60. Statements: No mango is an apple. Some apples are sweet. Conclusions: I. Some sweet things are not mangoes. II. Some mangoes are sweet.
+(a) Neither follows (b) Only II follows (c) Both follow (d) Only I follows
+Answer: (d)
+Solution: The trap is Conclusion II — mangoes are only barred from being apples; nothing stops other mangoes from being sweet, but nothing forces it either, so II is not definite. The sweet apples cannot be mangoes, so some sweet things are certainly not mangoes. Hence only I follows, so the answer is Only I follows.
+Source: PYQ-style (SSC CGL syllogism pattern)
+
+61. Statements: All cars are vehicles. Some vehicles are red. Conclusions: I. Some cars are red. II. Some red things are vehicles.
+(a) Only II follows (b) Only I follows (c) Both follow (d) Neither follows
+Answer: (a)
+Solution: The trap is Conclusion I — the red vehicles may all be non-cars, so no car need be red. Conclusion II is the direct converse of "Some vehicles are red", which always holds. Hence only II follows, so the answer is Only II follows.
+Source: PYQ-style (RRB NTPC syllogism pattern)
+
+62. Given: "If it rains, the match is cancelled." The match is not cancelled. What must be true?
+(a) It rained (b) It did not rain (c) The match was played indoors (d) Rain is expected later
+Answer: (b)
+Solution: The trap is assuming extra information like an indoor match — the statement says nothing about venues. By contraposition, "If rain then cancelled" means "not cancelled implies not rain". Since the match was not cancelled, it did not rain, so the answer is It did not rain.
+Source: PYQ-style (conditional reasoning pattern)
+
+63. Given: "Only those who register can vote." Ravi voted. What must be true?
+(a) Ravi registered (b) Ravi did not register (c) Everyone who registers votes (d) Registration is optional
+Answer: (a)
+Solution: The trap is the option claiming everyone who registers votes — "only those who register can vote" makes registration necessary, not sufficient. Since Ravi voted and voting requires registration, Ravi must have registered, so the answer is Ravi registered.
+Source: PYQ-style (necessary condition pattern)
+
+64. Statements: Some poets are singers. All singers are dancers. Conclusions: I. Some poets are dancers. II. Some dancers are poets.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (c)
+Solution: The poets who are singers must be dancers, so some poets are dancers — I follows. "Some poets are dancers" converts directly to "Some dancers are poets", so II also follows. Hence both follow, so the answer is Both follow.
+Source: PYQ-style (Bank PO syllogism pattern)
+
+65. Which conclusion makes the argument inconsistent? Premises: All engineers are graduates. Some graduates are unemployed.
+(a) Some engineers may be unemployed (b) All engineers are definitely unemployed (c) Some graduates are engineers (d) It is possible that no engineer is unemployed
+Answer: (b)
+Solution: The trap is the possibility options — "may be" and "possibly not" are both consistent with the premises because the unemployed graduates may or may not be engineers. Claiming all engineers are definitely unemployed asserts something the premises do not support and contradicts the possibility that none are. Hence the inconsistent claim is All engineers are definitely unemployed, so the answer is All engineers are definitely unemployed.
+Source: PYQ-style (logical consistency pattern)
+
+66. Statements: No bird is a mammal. All sparrows are birds. Conclusions: I. No sparrow is a mammal. II. Some mammals are sparrows.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (a)
+Solution: The trap is Conclusion II — it directly contradicts the premises, since sparrows are birds and no bird is a mammal. Every sparrow is a bird, and birds are excluded from mammals, so no sparrow is a mammal. Hence only I follows, so the answer is Only I follows.
+Source: PYQ-style (SSC syllogism pattern)
+
+67. Given: "All that glitters is not gold." Which interpretation is logically correct?
+(a) Nothing that glitters is gold (b) Everything gold glitters (c) Gold never glitters (d) Not everything that glitters is gold
+Answer: (d)
+Solution: The classic trap is reading it as "Nothing that glitters is gold" — that is far stronger than the sentence. "All that glitters is not gold" means at least some glittering things are not gold, i.e., not everything that glitters is gold. Hence the correct reading is Not everything that glitters is gold, so the answer is Not everything that glitters is gold.
+Source: PYQ-style (statement interpretation pattern)
+
+68. Statements: Some books are new. All new books are costly. Conclusions: I. Some costly books are new. II. All books are costly.
+(a) Only II follows (b) Only I follows (c) Both follow (d) Neither follows
+Answer: (b)
+Solution: The trap is Conclusion II — only the new books are stated to be costly; old books may be cheap, so a universal claim fails. Since all new books are costly and some new books exist, some costly books are new. Hence only I follows, so the answer is Only I follows.
+Source: PYQ-style (IBPS Clerk syllogism pattern)
+
+69. Given: "If a number is divisible by 4, it is divisible by 2." A number is divisible by 2. What must be true?
+(a) It may or may not be divisible by 4 (b) It is divisible by 4 (c) It is not divisible by 4 (d) It is divisible by 8
+Answer: (a)
+Solution: The trap is affirming the consequent — divisibility by 2 does not guarantee divisibility by 4; 6 and 10 are counterexamples. The conditional only works forward from 4 to 2, so a number divisible by 2 may or may not be divisible by 4. Hence the answer is It may or may not be divisible by 4.
+Source: PYQ-style (conditional reasoning pattern)
+
+70. Statements: All chairs are tables. No table is a bed. Conclusions: I. No chair is a bed. II. Some beds are chairs.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (a)
+Solution: The trap is Conclusion II — it contradicts the premises outright, since chairs sit inside tables and tables are excluded from beds. Every chair is a table, and no table is a bed, so no chair can be a bed. Hence only I follows, so the answer is Only I follows.
+Source: PYQ-style (SSC CGL syllogism pattern)
+
+71. Which set of three statements is mutually consistent (all can be true together)?
+(a) All A are B; All B are C; No A is C (b) Some A are B; No B is C; Some A are C (c) All A are B; No B is C; Some A are C (d) No A is B; All B are C; All A are C
+Answer: (b)
+Solution: The trap lies in the other sets: if all A are B and all B are C, then A must be C, clashing with "No A is C"; similarly the third and fourth sets force contradictions through the chains. In the correct set, the A that are B avoid C, while other A can be C — no clash. Hence the consistent set is Some A are B; No B is C; Some A are C, so the answer is Some A are B; No B is C; Some A are C.
+Source: PYQ-style (consistency check pattern)
+
+72. Statements: Some fruits are bananas. All bananas are yellow. Conclusions: I. Some fruits are yellow. II. All yellow things are bananas.
+(a) Only II follows (b) Only I follows (c) Both follow (d) Neither follows
+Answer: (b)
+Solution: The trap is Conclusion II — reversing "All bananas are yellow" is invalid, since many yellow things are not bananas. The fruits that are bananas must be yellow, so some fruits are yellow. Hence only I follows, so the answer is Only I follows.
+Source: PYQ-style (Railway syllogism pattern)
+
+73. Given: "No honest person is a thief. Mohan is a thief." What must be true?
+(a) Mohan is honest (b) Mohan may be honest (c) Mohan is not honest (d) Honesty is unrelated to Mohan
+Answer: (c)
+Solution: The trap is the "may be honest" option — the premises leave no room for possibility here. Since the thief class and the honest class are completely separate and Mohan is inside the thief class, he cannot be honest. Hence Mohan is not honest, so the answer is Mohan is not honest.
+Source: PYQ-style (deductive reasoning pattern)
+
+74. Statements: All pens are blue. Some blue things are heavy. Conclusions: I. Some pens are heavy. II. Some blue things are pens.
+(a) Only I follows (b) Both follow (c) Only II follows (d) Neither follows
+Answer: (c)
+Solution: The trap is Conclusion I — the heavy blue things may all lie outside the pens circle, so no pen need be heavy; this double-relationship gap is the examiner's favourite. Conclusion II is the valid converse of "All pens are blue". Hence only II follows, so the answer is Only II follows.
+Source: PYQ-style (Bank PO syllogism pattern)
+
+75. Given: "Unless the alarm rings, the guard does not wake up." The guard woke up. What must be true?
+(a) The alarm did not ring (b) The alarm is broken (c) The guard woke up naturally (d) The alarm rang
+Answer: (d)
+Solution: The trap is the "woke up naturally" option — the statement permits no other cause of waking. "Unless P, not Q" means Q only if P: waking requires the alarm. Since the guard woke up, the alarm must have rung, so the answer is The alarm rang.
+Source: PYQ-style (unless-condition reasoning pattern)

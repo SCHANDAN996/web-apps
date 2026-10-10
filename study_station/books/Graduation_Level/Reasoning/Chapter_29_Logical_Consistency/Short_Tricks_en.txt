@@ -1,0 +1,143 @@
+# 🪄 Short Tricks & Mnemonics — Logical Consistency
+
+---
+
+## 🧠 Mnemonic 1: The "ALL-SOME-NO" Triangle
+
+**"Aunt Sally Never Argues"**
+- **A**LL → **S**OME → **N**O → **A**rgue (contradiction)
+- The three statement types (All, Some, No) and the fourth step: check for contradiction.
+- Whenever a consistency question appears, chant: *"Aunt Sally Never Argues"* — list each statement as ALL / SOME / NO, then hunt for the pair that argues (contradicts).
+
+---
+
+## 🧠 Mnemonic 2: Consistency vs. Truth
+
+**"Friends can LIE together, but they can't FIGHT together."**
+- Consistent statements = friends telling the same lie (all false, but no clash).
+- Inconsistent statements = friends fighting (they contradict each other).
+- **Truth doesn't matter — only harmony matters.** A set of false statements can still be consistent!
+
+---
+
+## 🧠 Mnemonic 3: The Contradiction Pairs
+
+**"A-O fight, E-I fight"** → remember **"AO, EI"** — the only two deadly pairs.
+- **A** (All S is P) contradicts **O** (Some S is not P)
+- **E** (No S is P) contradicts **I** (Some S is P)
+- Spot one of these two pairs → the set is inconsistent.
+- ⚠️ Don't confuse these with look-alikes:
+  - **A–E** ("All S is P" vs. "No S is P") are **contraries** — they cannot both be true, but both can be false. They clash on truth, but they are NOT strict contradictions.
+  - **I–O** ("Some S is P" vs. "Some S is not P") are **subcontraries** — they cannot both be false, but both can be true. They do NOT contradict each other.
+- For consistency questions, only the A–O and E–I pairs guarantee a logical contradiction.
+
+---
+
+## 🧠 Mnemonic 4: "Some" Never Means "All"
+
+**"SOME is a shy guest — it never claims the whole house."**
+- "Some cats are black" does NOT mean "All cats are black."
+- Examiner's trap: treating "Some" as "All" or "Some not" as "No."
+- Rule: **Some = at least one, possibly more — never assume the whole group.**
+
+---
+
+## 🧠 Mnemonic 5: The Negation Flip
+
+**"FLIP the coin: ALL↔SOME-NOT, NO↔SOME"**
+- Negation of "All are" = "Some are not" (NOT "None are"!)
+- Negation of "No S is P" = "Some S is P"
+- Classic trap: students negate "All" with "No." Remember — **the opposite of ALL is not NONE, it's SOME-NOT.**
+
+---
+
+## 🧠 Mnemonic 6: Consistency Check Order
+
+**"P-C-N: Pair, Clash, Nullify"**
+- **P**air up the statements (convert each to ALL/SOME/NO form)
+- **C**lash check — does any pair contradict?
+- **N**ullify — if a clash exists, the set is inconsistent; if not, consistent.
+- Three steps, every time. Never skip the Pair step.
+
+---
+
+## 🧠 Mnemonic 7: "Only" = Reverse Arrow
+
+**"ONLY is a U-turn sign 🔄"**
+- "Only A are B" = "All B are A" (the arrow REVERSES!)
+- "Only graduates are eligible" → "All eligible are graduates."
+- Trap: reading it as "All A are B." When you see ONLY, make a U-turn.
+
+---
+
+## 🧠 Mnemonic 8: Possibility vs. Certainty
+
+**"CAN is cheap, MUST is costly."**
+- A conclusion with "can be / possibly" is cheap — easy to satisfy, usually consistent.
+- A conclusion with "must be / definitely" is costly — needs full proof.
+- In consistency questions, **possibility statements survive; certainty statements die first.**
+
+---
+
+## 🧠 Mnemonic 9: The Common-Term Bridge
+
+**"No bridge, no conclusion."**
+- Two statements can only clash or combine if they share a **common term** (the bridge).
+- "All A are B" + "All C are D" → no common term → they can NEVER contradict each other.
+- Before checking contradiction, ask: *"Is there a bridge between these statements?"*
+
+---
+
+## 🧠 Mnemonic 10: Assumption = Hidden Foundation
+
+**"Assumption is the floor under the statement — remove it, the statement falls."**
+- Test: negate the assumption. If the statement collapses, it was a real assumption.
+- **Negation Test = the bulldozer test.** If bulldozing the assumption destroys the building (statement), it was load-bearing.
+
+---
+
+## 🧠 Mnemonic 11: Strong vs. Weak Arguments
+
+**"A strong argument goes to the ROOT, a weak one goes to the FRUIT."**
+- Strong: addresses the core issue, practical, logical, long-term.
+- Weak: emotional, trivial, example-based, "because I said so."
+- Trap words that signal WEAK: *"some people feel…", "it has always been…", "in one village…"*
+
+---
+
+## 🧠 Mnemonic 12: The "Both Consistent" Trap
+
+**"Two strangers in a lift don't fight — but they're not friends either."**
+- Two statements can be consistent (no contradiction) WITHOUT one following from the other.
+- Consistent ≠ Conclusion follows. Don't upgrade "no clash" into "therefore true."
+
+---
+
+## 🧠 Mnemonic 13: Course of Action — "PRACTICAL"
+
+**"Is it P-R-A-C? Practical, Realistic, Addresses the Cause?"**
+- A valid course of action must be **P**ractical, **R**ealistic, and **A**ddress the **C**ause (not just the symptom).
+- Reject actions that are extreme ("shut down all schools"), illegal, or only cosmetic.
+
+---
+
+## 🧠 Mnemonic 14: The 3-Statement Chain
+
+**"Chain breaks at the weakest SOME."**
+- All + All = All (strong chain)
+- All + Some = Some (chain weakens)
+- Some + Some = NO definite conclusion (chain breaks)
+- **Two "Some" statements can never produce a definite conclusion together.**
+
+---
+
+## ⏭️ Skip Strategy — When to Skip
+
+### Tip 1: The 20-Second Rule
+If after reading all statements you cannot convert them into ALL/SOME/NO form within **20 seconds**, mark and skip. Consistency questions with 4+ tangled statements eat 2–3 minutes — return only if time remains.
+
+### Tip 2: Skip "Double-Negative" Puzzles on First Pass
+Statements like *"It is not true that no A are not B"* require two negation flips. High error risk under pressure. **Attempt these only in the second round** — one wrong flip flips the answer.
+
+### Tip 3: Skip When Options Are Near-Identical
+If options differ only by one word ("must" vs. "can", "all" vs. "some"), the question is designed to trap. If you can't spot the decisive word difference in **15 seconds**, skip — guessing here is risky because the trap option is usually the most attractive one.

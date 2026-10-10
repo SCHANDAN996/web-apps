@@ -1,0 +1,53 @@
+# The Feynman Way: Logical Consistency Explained Like You're 12
+
+## The Story of the Four Friends and the Missing Mango
+
+Imagine four friends — Ravi, Meena, Chintu and Dolly — standing in front of an empty fruit basket. One mango is missing, and exactly one of them ate it. Each of them says something:
+
+- **Ravi:** "Meena ate the mango."
+- **Meena:** "Dolly ate the mango."
+- **Chintu:** "I did not eat the mango."
+- **Dolly:** "Meena is lying."
+
+Now here's the fun part. You are told: **exactly one of them is telling the truth.** Who ate the mango?
+
+Let's test each suspect, like a detective. Remember: one thief, and exactly one true statement.
+
+- Suppose **Ravi** ate it. Then Ravi's statement is false (Meena didn't do it), Meena's is false (Dolly didn't do it), Chintu's "I did not eat it" is **true**, and Dolly's "Meena is lying" is also **true**. That's two truths. **Contradiction!**
+- Suppose **Meena** ate it. Then Ravi's statement is **true**, Chintu's is **true**, and Dolly's is **true** (Meena really is lying). Three truths. **Contradiction!**
+- Suppose **Dolly** ate it. Then Meena's statement is **true**, Chintu's is **true** — already two truths. **Contradiction!**
+- Suppose **Chintu** ate it. Ravi's statement is false, Meena's is false, Chintu's "I did not eat it" is false, and Dolly's "Meena is lying" is **true** — exactly one truth. **No contradiction!**
+
+The only consistent scenario: **Chintu ate the mango, and Dolly is the one telling the truth.**
+
+**That whole detective process you just did? That IS Logical Consistency.** You assumed each possibility one by one, and threw away every assumption that crashed into a contradiction. The survivor is the answer.
+
+## The One Big Idea
+
+A set of statements is **consistent** if they can ALL be true at the same time in at least one possible situation. It is **inconsistent** if believing them all forces a contradiction — like saying "All cats are black" and "My cat is white" in the same breath.
+
+In exams, you never argue about what is *actually* true in the real world. You only ask: **"Can these statements live together without fighting?"**
+
+## The Unforgettable Trick: "The Roommate Test" 🏠
+
+Treat every statement as a **roommate** moving into one house.
+
+- Ask: *"Can all these roommates live in the same house without a fight?"*
+- If yes → **consistent**.
+- If two roommates directly attack each other ("The door is locked" vs "The door is not locked") → **inconsistent**, house explodes, reject.
+
+And for "which statement must be true" questions, use the **Flip Test**: flip the conclusion (assume it's false). If the house now explodes, the original conclusion was guaranteed. If the house survives, it was only "maybe true" — reject it.
+
+**Memory hook:** *Consistency = Can they coexist? Certainty = Does flipping cause an explosion?*
+
+## The Three Traps the Examiner Sets (Now You See Them Coming)
+
+1. **Real-world truth trap:** A statement like "Some politicians are honest" may feel true in real life, but if the given statements don't force it, it's NOT a valid conclusion. Your job is logic, not opinion.
+2. **The "Some" trap:** "Some A are B" does NOT mean "Some A are not B." In logic, "some" can even mean "all." Never assume leftovers exist.
+3. **The contradiction pair trap:** "All S is P" and "Some S is not P" cannot both be true — spotting this pair instantly solves half the consistency questions.
+
+## Blurting Sheet Instruction
+
+Now try to write down all key points of this chapter on a blank sheet without looking up — the definition of consistency, the Roommate Test, the Flip Test, the three traps, and the four-friends method of checking each assumption one by one. Then open the book and see what you missed.
+
+**Question for you:** If I say "No honest person is a thief" and "Ravi is a thief," can the statement "Ravi is honest" ever join these two roommates in the same house? Why or why not?

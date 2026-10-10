@@ -1,0 +1,114 @@
+# Logical Consistency
+
+Logical consistency means that the statements, conclusions, or answers in a problem do not contradict one another. In SSC, Railway, Bank, and State exams, this skill is tested through statement–conclusion questions, syllogisms, cause-and-effect questions, and "which option is logically consistent" questions. This chapter builds the core ideas step by step.
+
+## 1. What is Logical Consistency?
+
+A set of statements is **logically consistent** if all of them can be true at the same time. If two statements cannot both be true, they are **inconsistent** (contradictory).
+
+- Consistent: "All pens are blue." + "This is a pen." → This pen must be blue. No clash.
+- Inconsistent: "All pens are blue." + "This pen is red." → Both cannot be true together.
+
+**Exam tip:** In these questions, treat the given statements as 100% true, even if they sound false in real life (e.g., "All cats are dogs"). Your job is to check what *follows logically*, not what is true in the world.
+
+## 2. Key Building Blocks
+
+### 2.1 Statement and Conclusion
+- A **statement** is given information.
+- A **conclusion** is something that must be true if the statements are true.
+- A conclusion is valid only if it follows in **every possible case**, not just in one possible arrangement.
+
+### 2.2 Types of Statements (Syllogism Basics)
+
+| Type | Form | Example |
+|---|---|---|
+| Universal affirmative | All A are B | All pens are books |
+| Universal negative | No A is B | No pen is a book |
+| Particular affirmative | Some A are B | Some pens are books |
+| Particular negative | Some A are not B | Some pens are not books |
+
+### 2.3 Golden Rules of Syllogism
+1. From two **particular** statements (Some…, Some…), **no definite conclusion** follows.
+2. From two **negative** statements, **no definite conclusion** follows.
+3. If one statement is particular, the conclusion (if any) must be particular.
+4. If one statement is negative, the conclusion (if any) must be negative.
+5. "All A are B" does **not** mean "All B are A". But "Some B are A" does follow from "All A are B".
+6. "No A is B" also means "No B is A" (negative statements convert fully).
+
+### 2.4 Venn Diagram Method
+Draw circles for each term and shade/mark according to the statements. Then test each conclusion:
+- If the conclusion holds in **every** valid diagram → it follows.
+- If even one valid diagram breaks it → it does not follow.
+
+## 3. Common Exam Traps
+
+- **Real-life bias:** Rejecting a conclusion because it sounds odd in real life. Logic, not reality, decides.
+- **"All" reversed:** Assuming "All A are B" gives "All B are A". It does not.
+- **Possibility vs. certainty:** "Some A may be B" (possibility) can be correct even when "Some A are B" (definite) is not. Read the wording carefully.
+- **Either–or case:** When two conclusions are contradictory (one positive, one negative about the same terms) and neither follows alone, but one of them must be true, the answer is "either I or II follows".
+- **Negative wording:** "Which does NOT follow" — underline the NOT before solving.
+
+## 4. Solved Examples
+
+**Example 1**
+Statements: All dogs are animals. All animals are living beings.
+Conclusions: I. All dogs are living beings. II. Some living beings are dogs.
+
+*Solution:* Dogs ⊂ Animals ⊂ Living beings. So all dogs are living beings (I follows), and therefore some living beings are dogs (II follows). **Both follow.**
+
+**Example 2**
+Statements: Some pens are pencils. Some pencils are erasers.
+Conclusions: I. Some pens are erasers. II. No pen is an eraser.
+
+*Solution:* Two particular statements give no definite conclusion. Neither I nor II follows definitely. But I and II are contradictory, and one of them must be true. **Answer: Either I or II follows.**
+
+**Example 3**
+Statements: No chair is a table. All tables are desks.
+Conclusions: I. No chair is a desk. II. Some desks are not chairs.
+
+*Solution:* Chairs may or may not overlap with desks, so I does not follow. Since all tables are desks and no chair is a table, the part of desks that are tables is not chairs — so some desks are not chairs. **Only II follows.**
+
+## 5. Quick Strategy for the Exam
+
+1. Read statements; accept them as true.
+2. Draw a quick Venn diagram (10–15 seconds).
+3. Test each conclusion against the diagram.
+4. Check for the either–or case only when neither conclusion follows alone.
+5. Skip "real life" thinking entirely.
+
+## 6. Practice Questions
+
+**Q1.** Statements: All books are pages. All pages are papers.
+Conclusions: I. All books are papers. II. Some papers are books.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (c)
+Solution: Books ⊂ Pages ⊂ Papers, so all books are papers, and hence some papers are books. Both conclusions follow.
+Source: PYQ-style
+
+**Q2.** Statements: Some boys are students. Some students are players.
+Conclusions: I. Some boys are players. II. No boy is a player.
+(a) Only I follows (b) Only II follows (c) Either I or II follows (d) Both follow
+Answer: (c)
+Solution: Two particular statements give no definite conclusion, but I and II are contradictory, so exactly one must be true — either–or case.
+Source: PYQ-style
+
+**Q3.** Statements: No flower is a leaf. All leaves are green.
+Conclusions: I. No flower is green. II. Some green things are not flowers.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (b)
+Solution: Flowers may still be green through other categories, so I fails. The green things that are leaves cannot be flowers, so II follows.
+Source: PYQ-style
+
+**Q4.** Statements: All cups are plates. No plate is a spoon.
+Conclusions: I. No cup is a spoon. II. Some plates are cups.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (c)
+Solution: Cups are inside plates, and plates are fully outside spoons, so no cup is a spoon. "All cups are plates" also gives "some plates are cups".
+Source: PYQ-style
+
+**Q5.** Statements: Some teachers are doctors. All doctors are honest.
+Conclusions: I. Some teachers are honest. II. All teachers are honest.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (a)
+Solution: The teachers who are doctors are honest, so some teachers are honest. Nothing says all teachers are doctors, so II fails.
+Source: PYQ-style
