@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 10-10-2026 07:40 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
+**आख़िरी update:** 10-10-2026 07:55 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 18 Trigonometry (10th Maths) | 🔧 सुधार रहा है | 31 मिनट |
-| W4 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 31 मिनट |
+| W3 | Chapter 18 Trigonometry (10th Maths) | 🔧 सुधार रहा है | 47 मिनट |
+| W4 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 46 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -41,10 +41,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 19:08:57 worker 5: nothing left
-10-10 19:09:02 worker 6: nothing left
-10-10 19:09:07 worker 7: nothing left
-10-10 19:10:17   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
 10-10 19:10:17   [Verb] written 0, failed 1; AI calls today 4/100000
 10-10 19:10:23   [Adjective] FAILED set 03: re-translation still changes English sentences — left as it was
 10-10 19:10:23   [Adjective] written 0, failed 1; AI calls today 5/100000
@@ -81,4 +77,8 @@
 10-10 19:31:43   [Probability] repaired set 03 (en + hi, key confirmed by an independent re-solve)
 10-10 19:35:12   [Trigonometry] repaired set 03 (en + hi, key confirmed by an independent re-solve)
 10-10 19:40:31   [Probability] Practice_hi_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 19:42:48   [Probability] repaired set 04 (en + hi, key confirmed by an independent re-solve)
+10-10 19:46:57   [Trigonometry] repaired set 04 (en + hi, key confirmed by an independent re-solve)
+10-10 19:52:02   [Probability] repaired set 05 (en + hi, key confirmed by an independent re-solve)
+10-10 19:53:48   [Trigonometry] Practice_hi_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
 ```
