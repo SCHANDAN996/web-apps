@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 10:44 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
+**आख़िरी update:** 10-10-2026 10:49 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 28 Critical Reasoning (Graduation Reasoning) | ✍️ लिख रहा है | 78 मिनट |
-| W2 | Chapter 27 Decision Making (Graduation Reasoning) | 🔎 review हो रहा है | 21 मिनट |
-| W3 | Chapter 29 Logical Consistency (Graduation Reasoning) | ✍️ लिख रहा है | 59 मिनट |
-| W6 | Chapter 26 Data Sufficiency (Graduation Reasoning) | ✍️ लिख रहा है | 140 मिनट |
-| W8 | Chapter 20 Mirror Water Images (Graduation Reasoning) | 🔧 सुधार रहा है | 39 मिनट |
+| W1 | Chapter 28 Critical Reasoning (Graduation Reasoning) | ✍️ लिख रहा है | 83 मिनट |
+| W2 | Chapter 27 Decision Making (Graduation Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 29 Logical Consistency (Graduation Reasoning) | ✍️ लिख रहा है | 64 मिनट |
+| W6 | Chapter 26 Data Sufficiency (Graduation Reasoning) | ✍️ लिख रहा है | 145 मिनट |
+| W8 | Chapter 20 Mirror Water Images (Graduation Reasoning) | 🔧 सुधार रहा है | 43 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -36,6 +36,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 10-10 10:49 — Graduation Reasoning · Chapter 27 Decision Making
 - 10-10 09:44 — Graduation Reasoning · Chapter 24 Statement Assumption
 - 10-10 09:17 — Graduation Reasoning · Chapter 23 Syllogism
 - 10-10 08:06 — Graduation Reasoning · Chapter 19 Cubes Dice
@@ -57,14 +58,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 10:09:57   [Dictionary_Order] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-10-10 10:09:57   [Dictionary_Order] written 0, failed 6; AI calls today 315/100000
-10-10 10:09:57 NOT OK Graduation_Level/Reasoning/Chapter_13_Dictionary_Order after 147 min: todo ['Set 03 en: todo', 'Set 03 hi: todo', 'Set 04 en: todo', 'Set 04 hi: todo'] problems []
-10-10 10:09:57 worker 4: nothing left
-10-10 10:11:31   [Statement_Argument] Practice_en_Set_06.txt try 1: re-solve disagrees (Q130 key c vs re-solve b, Q131 key b vs re-solve a, Q132 key a vs re-solve d)
-10-10 10:11:47   [Logical_Consistency] wrote Mind_Map.txt (2043 chars)
-10-10 10:14:56   [Decision_Making] Practice_hi_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
-10-10 10:15:58   [Logical_Consistency] wrote Flashcards_en.txt (5671 chars)
 10-10 10:17:52   [Mirror_Water_Images] set 04 try 1: re-solve disagrees (Q81 key a vs re-solve c, Q86 key d vs re-solve ?, Q90 key d vs re-solve ?)
 10-10 10:18:14   [Critical_Reasoning] wrote PYQ_en.txt (11507 chars)
 10-10 10:19:41   [Logical_Consistency] wrote Flashcards_hi.txt (4332 chars)
@@ -97,4 +90,12 @@
 10-10 10:40:15 worker 6: nothing left
 10-10 10:41:01   [Critical_Reasoning] wrote Important_Rules_en.txt (2888 chars)
 10-10 10:42:56   [Decision_Making] review Important_Rules_en.txt: 1 issue(s): - Section content is corrupted/unreadable (contains only garbled text and `<|close|>` tags) → Replace with 
+10-10 10:46:27   [Data_Sufficiency] Practice_en_Set_04.txt try 4: re-solve disagrees (Q88 key d vs re-solve a)
+10-10 10:46:27   [Data_Sufficiency] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
+10-10 10:46:27   [Data_Sufficiency] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
+10-10 10:46:39   [Decision_Making] review Important_Rules_hi.txt: 2 issue(s): - The section content is corrupted with garbled characters (`<|close|>think<|close|>think`, `母`, `izes`, `U
+10-10 10:48:12   [Mirror_Water_Images] set 04 try 3: re-solve disagrees (Q81 key b vs re-solve c)
+10-10 10:49:18   [Decision_Making] review: 5 section(s) corrected, 0 failed
+10-10 10:49:18   [Decision_Making] written 5, failed 0; AI calls today 362/100000
+10-10 10:49:26   [Critical_Reasoning] wrote Important_Rules_hi.txt (4683 chars)
 ```
