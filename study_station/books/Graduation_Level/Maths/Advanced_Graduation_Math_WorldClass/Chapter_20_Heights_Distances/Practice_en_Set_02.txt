@@ -1,0 +1,151 @@
+प्रश्न 26–45: आसान | प्रश्न 46–50: मध्यम
+
+26. The angle of elevation of the top of a tower from a point on the ground is 30°. On walking 20 m towards the tower, the angle becomes 60°. The height of the tower is:
+(a) 10 m (b) 20√3 m (c) 20 m (d) 10√3 m
+Answer: (d)
+Solution: The trap is taking the height as 20√3 m by wrongly setting tan 60° = h/20, but 20 m is the distance walked, not the final distance. Let h be the height and x the final distance: h = x tan 60° = x√3 and h = (x + 20) tan 30° = (x + 20)/√3. Equating, 3x = x + 20, so x = 10 m and h = 10√3 m, so the answer is 10√3 m.
+Source: NCERT Class 10 Mathematics
+
+27. From the top of a 60 m high lighthouse, the angles of depression of two ships on the same side are 30° and 60°. The distance between the ships is:
+(a) 40 m (b) 80/√3 m (c) 60√3 m (d) 40√3 m
+Answer: (d)
+Solution: The trap is subtracting the distances in the wrong order or mixing up the tangent values. Distances from the foot: 60/tan 60° = 60/√3 = 20√3 m and 60/tan 30° = 60√3 m. Distance between ships = 60√3 − 20√3 = 40√3 m, so the answer is 40√3 m.
+Source: NCERT Class 10 Mathematics
+
+28. A ladder 15 m long leans against a wall making an angle of 60° with the ground. The height it reaches on the wall is:
+(a) 7.5 m (b) 15√3/2 m (c) 15√3 m (d) 7.5√3 m
+Answer: (b)
+Solution: The trap is using cos 60° instead of sin 60°, which gives 7.5 m — that is the distance of the foot from the wall, not the height. Height = 15 sin 60° = 15 × √3/2 = 15√3/2 m, so the answer is 15√3/2 m.
+Source: NCERT Class 10 Mathematics
+
+29. The angle of elevation of the sun when the shadow of a pole is √3 times its height is:
+(a) 15° (b) 45° (c) 60° (d) 30°
+Answer: (d)
+Solution: The trap is inverting the ratio and answering 60°. Here tan θ = height/shadow = h/(h√3) = 1/√3, so θ = 30°, so the answer is 30°.
+Source: NCERT Class 10 Mathematics
+
+30. From a point 30 m away from the foot of a tower, the angle of elevation of the top is 45°. The height of the tower is:
+(a) 30 m (b) 30/√3 m (c) 30√3 m (d) 15 m
+Answer: (a)
+Solution: The trap is overcomplicating with √3 values when tan 45° = 1. Height = 30 tan 45° = 30 × 1 = 30 m, so the answer is 30 m.
+Source: NCERT Class 10 Mathematics
+
+31. Two poles of heights 6 m and 11 m stand 12 m apart on level ground. The distance between their tops is:
+(a) 12 m (b) 15 m (c) 13 m (d) 17 m
+Answer: (c)
+Solution: The trap is adding the heights to get 17 m instead of taking the difference. Difference of heights = 11 − 6 = 5 m; distance between tops = √(12² + 5²) = √(144 + 25) = √169 = 13 m, so the answer is 13 m.
+Source: NCERT Class 10 Mathematics
+
+32. The angle of elevation of the top of a tower from a point is 45°. After moving 50 m away from the tower, the angle becomes 30°. The height of the tower is:
+(a) 50(√3 + 1) m (b) 50√3 m (c) 25(√3 − 1) m (d) 25(√3 + 1) m
+Answer: (d)
+Solution: The trap is using the (√3 − 1) form, which arises when moving towards, not away. Let h be the height: initial distance = h (since tan 45° = 1); new distance = h√3. So h√3 − h = 50, giving h = 50/(√3 − 1) = 25(√3 + 1) m, so the answer is 25(√3 + 1) m.
+Source: PYQ-style
+
+33. From the top of a cliff 100 m high, the angle of depression of a boat is 30°. After some time the angle becomes 60°. The distance travelled by the boat towards the cliff is:
+(a) 200/√3 m (b) 200√3 m (c) 100√3 m (d) 100/√3 m
+Answer: (a)
+Solution: The trap is computing only one position instead of the difference. Initial distance = 100/tan 30° = 100√3 m; final distance = 100/tan 60° = 100/√3 m. Distance travelled = 100√3 − 100/√3 = (300 − 100)/√3 = 200/√3 m, so the answer is 200/√3 m.
+Source: PYQ-style
+
+34. A kite is flying at a height of 75 m from the ground, attached to a string inclined at 60° to the horizontal. The length of the string (assumed straight) is:
+(a) 50√3 m (b) 75√3 m (c) 150 m (d) 75/√3 m
+Answer: (a)
+Solution: The trap is multiplying by sin 60° instead of dividing. String length L satisfies L sin 60° = 75, so L = 75/(√3/2) = 150/√3 = 50√3 m, so the answer is 50√3 m.
+Source: NCERT Class 10 Mathematics
+
+35. The shadow of a tower is 30 m longer when the sun's altitude is 30° than when it is 60°. The height of the tower is:
+(a) 15√3 m (b) 30√3 m (c) 15 m (d) 45 m
+Answer: (a)
+Solution: The trap is mixing up which shadow is longer; the lower sun gives the longer shadow. Shadows: h/tan 30° = h√3 and h/tan 60° = h/√3. Difference = h√3 − h/√3 = 2h/√3 = 30, so h = 15√3 m, so the answer is 15√3 m.
+Source: PYQ-style
+
+36. From the top of a building 30 m high, the angle of elevation of the top of a tower is 30° and the angle of depression of its foot is 60°. The height of the tower is:
+(a) 30 m (b) 40 m (c) 45 m (d) 60 m
+Answer: (b)
+Solution: The trap is forgetting to add the building's height to the extra height. Distance between them: 30/tan 60° = 30/√3 = 10√3 m. Extra height of tower above building = 10√3 × tan 30° = 10√3/√3 = 10 m. Total height = 30 + 10 = 40 m, so the answer is 40 m.
+Source: PYQ-style
+
+37. A man 1.8 m tall stands at a distance of 3.6 m from a lamp post and casts a shadow 5.4 m long. The height of the lamp post is:
+(a) 2.7 m (b) 4.5 m (c) 3.6 m (d) 3 m
+Answer: (d)
+Solution: The trap is using the shadow length 5.4 m alone instead of the total distance from the post. By similar triangles, H/(3.6 + 5.4) = 1.8/5.4, so H = 9 × 1.8/5.4 = 3 m, so the answer is 3 m.
+Source: NCERT Class 10 Mathematics
+
+38. The angles of elevation of the top of a tower from two points at distances a and b from its foot (on the same line, same side) are complementary. The height of the tower is:
+(a) ab (b) a + b (c) √(ab) (d) (a + b)/2
+Answer: (c)
+Solution: The trap is assuming the height is the average (a + b)/2. If the angles are θ and 90° − θ, then h = a tan θ and h = b tan(90° − θ) = b cot θ. Multiplying: h² = ab, so h = √(ab), so the answer is √(ab).
+Source: PYQ-style
+
+39. An aeroplane flying at a height of 3000 m passes vertically above another plane at an instant when the angles of elevation of the two planes from a point on the ground are 60° and 45°. The height of the lower plane is:
+(a) 1500√3 m (b) 1500 m (c) 2000 m (d) 1000√3 m
+Answer: (d)
+Solution: The trap is halving 3000 m because 45° looks like half of 60° — heights do not scale linearly with angles. Horizontal distance = 3000/tan 60° = 3000/√3 = 1000√3 m. Lower plane's height = 1000√3 × tan 45° = 1000√3 m, so the answer is 1000√3 m.
+Source: PYQ-style
+
+40. A tower subtends an angle of 30° at a point on the ground. On walking 100 m towards the tower, it subtends 60°. The height of the tower is:
+(a) 50√3 m (b) 100√3 m (c) 50 m (d) 100/√3 m
+Answer: (a)
+Solution: The trap is taking h = 100√3 by misplacing the 100 m. Let x be the final distance: h = x√3 and h = (x + 100)/√3. Then 3x = x + 100, x = 50 m, h = 50√3 m, so the answer is 50√3 m.
+Source: NCERT Class 10 Mathematics
+
+41. From the top of a 7 m high building, the angle of elevation of the top of a cable tower is 60° and the angle of depression of its foot is 45°. The height of the tower is:
+(a) 7(√3 + 1) m (b) 7(√3 − 1) m (c) 14 m (d) 7√3 m
+Answer: (a)
+Solution: The trap is reporting only the extra height 7√3 m and forgetting the building. Distance = 7/tan 45° = 7 m. Extra height = 7 tan 60° = 7√3 m. Total = 7 + 7√3 = 7(√3 + 1) m, so the answer is 7(√3 + 1) m.
+Source: NCERT Class 10 Mathematics (Exemplar)
+
+42. The angle of depression of a car from the top of a 75 m tower is 30°. The distance of the car from the foot of the tower is:
+(a) 150 m (b) 75/√3 m (c) 75√3 m (d) 75 m
+Answer: (c)
+Solution: The trap is dividing by tan 60° instead of tan 30°, giving 75/√3. Distance = 75/tan 30° = 75√3 m, so the answer is 75√3 m.
+Source: NCERT Class 10 Mathematics
+
+43. A vertical pole 20√3 m high stands on the ground. The angle of elevation of its top from a point 20 m from its foot is:
+(a) 30° (b) 60° (c) 45° (d) 75°
+Answer: (b)
+Solution: The trap is assuming a tall pole must give a small angle. tan θ = 20√3/20 = √3, so θ = 60°, so the answer is 60°.
+Source: NCERT Class 10 Mathematics
+
+44. The angle of elevation of a cloud from a point 60 m above a lake is 30° and the angle of depression of its reflection is 60°. The height of the cloud above the lake is:
+(a) 60 m (b) 90 m (c) 120 m (d) 180 m
+Answer: (c)
+Solution: The trap is ignoring that the reflection is as far below the lake surface as the cloud is above it. Let the cloud be h m above the lake: h − 60 = d tan 30° and h + 60 = d tan 60°, where d is the horizontal distance. Dividing, (h + 60)/(h − 60) = 3, giving h + 60 = 3h − 180, so h = 120 m, so the answer is 120 m.
+Source: NCERT Class 10 Mathematics (Exemplar)
+
+45. A man on the top of a 100 m tower observes a car moving towards it at uniform speed. The angle of depression changes from 30° to 45° in 10 seconds. The speed of the car is:
+(a) 10(√3 + 1) m/s (b) 10(√3 − 1) m/s (c) 10√3 m/s (d) 10 m/s
+Answer: (b)
+Solution: The trap is using only one distance instead of the difference. Distances: 100/tan 30° = 100√3 m and 100/tan 45° = 100 m. Distance covered = 100(√3 − 1) m in 10 s, so speed = 10(√3 − 1) m/s, so the answer is 10(√3 − 1) m/s.
+Source: PYQ-style
+
+46. From a point on the ground, the angles of elevation of the bottom and top of a flagstaff fixed on a building are 45° and 60°. If the building is 20 m high, the height of the flagstaff is:
+(a) 20(√3 − 1) m (b) 20√3 m (c) 20(√3 + 1) m (d) 20 m
+Answer: (a)
+Solution: The trap is reporting 20√3 m, which is the total height of building plus flagstaff. Distance from building = 20/tan 45° = 20 m. Total height = 20 tan 60° = 20√3 m. Flagstaff = 20√3 − 20 = 20(√3 − 1) m, so the answer is 20(√3 − 1) m.
+Source: PYQ-style
+
+47. Two ships are sailing on either side of a 100 m lighthouse. The angles of depression of the ships from the top are 45° and 30°. The distance between the ships is:
+(a) 100(√3 − 1) m (b) 200 m (c) 100(√3 + 1) m (d) 100√3 m
+Answer: (c)
+Solution: The trap is subtracting the distances, which applies when ships are on the same side; here they are on opposite sides, so distances add. Distances: 100/tan 45° = 100 m and 100/tan 30° = 100√3 m. Total = 100(√3 + 1) m, so the answer is 100(√3 + 1) m.
+Source: NCERT Class 10 Mathematics
+
+48. The angle of elevation of the top of a tower from a point A is 30°. From another point B, 40 m closer to the tower on the same line, the angle is 45°. The height of the tower is:
+(a) 20√3 m (b) 40(√3 + 1) m (c) 20(√3 + 1) m (d) 40 m
+Answer: (c)
+Solution: The trap is using the (√3 − 1) factor, which comes from moving away, not towards. Let h be the height: distance from B = h (tan 45° = 1), distance from A = h√3. So h√3 − h = 40, h = 40/(√3 − 1) = 20(√3 + 1) m, so the answer is 20(√3 + 1) m.
+Source: PYQ-style
+
+49. A pole 5 m high is fixed on top of a tower. From a point on the ground, the angles of elevation of the top and bottom of the pole are 60° and 30°. The height of the tower is:
+(a) 10 m (b) 2.5 m (c) 7.5 m (d) 5 m
+Answer: (b)
+Solution: The trap is taking the tower height as 5 m by assuming the pole equals the tower. Let the tower be h and distance d: h = d tan 30° = d/√3 and h + 5 = d tan 60° = d√3. Subtracting, 5 = d√3 − d/√3 = 2d/√3, so d = 5√3/2 and h = (5√3/2)/√3 = 2.5 m, so the answer is 2.5 m.
+Source: PYQ-style
+
+50. From the top of a hill, the angles of depression of two consecutive kilometre stones on a straight road leading to the hill are 30° and 60°. The height of the hill is:
+(a) √3 km (b) √3/2 km (c) 1/2 km (d) 2/√3 km
+Answer: (b)
+Solution: The trap is treating 1 km as the distance from the foot rather than the gap between the stones. Let h be the height: nearer stone at h/tan 60° = h/√3 km, farther at h/tan 30° = h√3 km. Gap = h√3 − h/√3 = 2h/√3 = 1 km, so h = √3/2 km, so the answer is √3/2 km.
+Source: PYQ-style

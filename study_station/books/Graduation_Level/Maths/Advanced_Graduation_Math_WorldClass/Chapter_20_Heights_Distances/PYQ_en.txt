@@ -1,0 +1,179 @@
+# 📊 PYQ Analysis — Heights & Distances (Advanced Level)
+
+## How Exams Test This Chapter
+
+Heights & Distances is a small chapter with a very predictable pattern bank. Across UPSC CSAT, SSC CGL Tier-II, IBPS PO Mains, CAT and State PCS prelims, examiners rotate the same handful of situations and only change the numbers. If you master the patterns below, almost every question in this chapter becomes a 30–60 second job.
+
+**The recurring sub-topics, in order of how often they appear:**
+
+1. **Two angles of elevation from points on the same line** — the classic "walk towards the tower, angle rises from 30° to 60°" setup. This is the single most repeated pattern.
+2. **Angle of elevation + angle of depression together** — observer on a building looking at the top and foot of another tower.
+3. **Two objects on opposite sides of a tower** — angles of elevation from both sides; height = sum of two parts.
+4. **Shadow problems** — shadow length changes as the sun's elevation changes.
+5. **Ladder / pole leaning against a wall** — Pythagoras mixed with trig ratios.
+6. **Kite, flagstaff-on-building, and broken-tree variants** — the same triangle wearing different costumes.
+7. **Complementary angles (θ and 90°−θ)** — height = √(product of distances), a favourite of CSAT.
+8. **Boat/river problems with depression angles** — speed × time combined with tan ratios.
+
+**The examiner's favourite traps (learn these by heart):**
+
+- **The "almost-right" value trap:** options include both `h` and `h√3`, both `20` and `20√3`. If you forget to multiply/divide by √3 at the last step, a wrong option is waiting for you.
+- **Angle confusion trap:** the angle of *depression* from the top equals the angle of *elevation* from the bottom (alternate angles) — but only if you draw the horizontal line. Students who skip the diagram misplace the angle inside the triangle.
+- **Distance-from-which-point trap:** "distance from the foot of the tower" vs "distance walked" vs "total distance between the two points". The question asks one; your formula gives another.
+- **Height of observer ignored:** in depression problems, the building's height must be *added* to or *subtracted* from the computed part. Forgetting this is the #1 error in PO Mains.
+- **Unit trap:** speed in km/h, time in minutes — convert before applying tan.
+- **Negative-statement trap:** "which of the following is NOT possible" — rare but deadly under time pressure.
+
+**Time advice:** if a question needs more than one triangle, spend 15 seconds drawing it properly. A clean diagram is faster than any shortcut.
+
+---
+
+## Top 10 High-Yield Questions (with Solutions and Trap Analysis)
+
+**Q1.** From a point on the ground, the angle of elevation of the top of a tower is 30°. On walking 40 m towards the tower, the angle becomes 60°. Find the height of the tower.
+
+(a) 20√3 m (b) 40√3 m (c) 20 m (d) 40/√3 m
+
+**Answer: (a)**
+
+**Solution:** Let height = h, nearer distance = x. Then h = x·tan60° = x√3, and h = (x+40)·tan30° = (x+40)/√3. Equating: x√3 = (x+40)/√3 → 3x = x + 40 → x = 20. So h = 20√3 m.
+
+**Trap:** Option (b) 40√3 tempts those who use 40 as x. Option (c) tempts those who report x instead of h. The examiner knows exactly which wrong step you'll take.
+
+**Source:** PYQ-style (SSC CGL pattern)
+
+---
+
+**Q2.** From the top of a 60 m high building, the angles of depression of the top and foot of a tower are 30° and 60° respectively. Find the height of the tower.
+
+(a) 20 m (b) 30 m (c) 40 m (d) 45 m
+
+**Answer: (c)**
+
+**Solution:** Distance between buildings: d = 60/tan60° = 60/√3 = 20√3 m. The part of the building above the tower's top: 60 − H = d·tan30° = 20√3 × (1/√3) = 20. So H = 60 − 20 = 40 m.
+
+**Trap:** Option (a) 20 is the *difference*, not the tower height — the classic "forgot to subtract" trap. Always ask: what exactly did I just compute?
+
+**Source:** PYQ-style (IBPS PO pattern)
+
+---
+
+**Q3.** The angles of elevation of the top of a tower from two points on the ground, on opposite sides of the tower and in the same straight line with its foot, are 30° and 60°. If the points are 100 m apart, find the height of the tower.
+
+(a) 25 m (b) 25√3 m (c) 50 m (d) 50√3 m
+
+**Answer: (b)**
+
+**Solution:** h = a·tan60° = b·tan30°, with a + b = 100. So a√3 = b/√3 → b = 3a → 4a = 100 → a = 25. Height h = 25√3 m.
+
+**Trap:** Students assume the points are on the *same* side and subtract distances (100 = b − a), getting a different answer. Read "opposite sides" carefully — it means ADD.
+
+**Source:** PYQ-style (SSC CGL Tier-II pattern)
+
+---
+
+**Q4.** The shadow of a vertical pole is √3 times its height. Find the angle of elevation of the sun.
+
+(a) 30° (b) 45° (c) 60° (d) 15°
+
+**Answer: (a)**
+
+**Solution:** tanθ = height/shadow = h/(h√3) = 1/√3 → θ = 30°.
+
+**Trap:** Option (c) 60° catches students who invert the ratio (shadow/height). Fix in memory: tanθ = object/shadow, always.
+
+**Source:** PYQ-style (CSAT pattern)
+
+---
+
+**Q5.** From a point P on the ground, the angle of elevation of the top of a tower is θ. From a point Q, twice as far from the foot of the tower as P, the angle of elevation is φ. If θ = 60°, find φ.
+
+(a) 30° (b) 45° (c) tan⁻¹(√3/2) (d) 15°
+
+**Answer: (c)**
+
+**Solution:** h = d·tan60° = d√3. From Q: tanφ = h/(2d) = √3/2 → φ = tan⁻¹(√3/2). Note φ is NOT 30° — halving the distance does not halve the angle.
+
+**Trap:** Option (a) exploits the false intuition "double distance = half angle". Tangent is not linear — this conceptual trap is a CSAT favourite.
+
+**Source:** PYQ-style (UPSC CSAT pattern)
+
+---
+
+**Q6.** A ladder 10 m long leans against a wall, making 60° with the ground. How high up the wall does it reach?
+
+(a) 5 m (b) 5√3 m (c) 10√3 m (d) 10/√3 m
+
+**Answer: (b)**
+
+**Solution:** Height = 10·sin60° = 10 × (√3/2) = 5√3 m.
+
+**Trap:** Option (a) comes from using cos60° (which gives the *foot distance*, not the height). In ladder problems, decide first: is the asked side opposite (use sin) or adjacent (use cos) to the given angle?
+
+**Source:** PYQ-style (SSC pattern)
+
+---
+
+**Q7.** The angles of elevation of the top of a tower from two points at distances a and b from its foot (on the same line, same side) are complementary (they add to 90°). Find the height of the tower.
+
+(a) a + b (b) √(ab) (c) ab (d) (a+b)/2
+
+**Answer: (b)**
+
+**Solution:** tanθ = h/a and tan(90°−θ) = h/b = cotθ = a/h. So h/b = a/h → h² = ab → h = √(ab).
+
+**Trap:** This result (geometric mean) surprises students who expect an arithmetic answer. Memorise it as a standalone fact — it appears verbatim in exams.
+
+**Source:** PYQ-style (CAT/CSAT pattern)
+
+---
+
+**Q8.** A man on the top of a 100 m cliff observes a boat at an angle of depression of 30°. After 1 minute, the angle of depression becomes 60° as the boat sails towards the cliff. Find the speed of the boat (in m/min).
+
+(a) 100/√3 (b) 200/√3 (c) 100√3 (d) 200√3
+
+**Answer: (b)**
+
+**Solution:** Initial distance = 100/tan30° = 100√3 m. Final distance = 100/tan60° = 100/√3 m. Distance covered = 100√3 − 100/√3 = (300 − 100)/√3 = 200/√3 m in 1 minute.
+
+**Trap:** Option (a) is just the final distance; option (c) is the initial distance. The question asks for the *difference*. Multi-step questions always plant intermediate answers as options.
+
+**Source:** PYQ-style (IBPS PO Mains pattern)
+
+---
+
+**Q9.** A tree breaks at a height of 6 m and its top touches the ground making 30° with the ground. Find the original height of the tree.
+
+(a) 12 m (b) 18 m (c) 6√3 m (d) 6(1+√3) m
+
+**Answer: (b)**
+
+**Solution:** The broken part is the hypotenuse: sin30° = 6/L → L = 6/0.5 = 12 m. Original height = standing part + broken part = 6 + 12 = 18 m.
+
+**Trap:** Option (a) 12 is only the broken part. The broken-tree model always needs the final ADDITION step — examiners count on you forgetting it.
+
+**Source:** PYQ-style (State PCS pattern)
+
+---
+
+**Q10.** From the top of a tower h metres high, the angles of depression of two objects on the same side, in line with the foot of the tower, are 45° and 60°. Find the distance between the two objects.
+
+(a) h(√3 − 1) (b) h(√3 − 1)/√3 (c) h(1 − 1/√3) written as h(√3−1)/√3 — both same (d) h/√3
+
+**Answer: (b)**
+
+**Solution:** Nearer object distance = h/tan60° = h/√3. Farther object distance = h/tan45° = h. Distance between them = h − h/√3 = h(√3 − 1)/√3.
+
+**Trap:** Option (a) results from rationalising incorrectly. Also note options (b) and (c) here illustrate how examiners write the same value in two algebraic forms — always simplify fully before matching. In a real paper only one form appears; practise converting between them.
+
+**Source:** PYQ-style (SSC CGL Tier-II pattern)
+
+---
+
+## Key Takeaways
+
+- One diagram per question — never solve mentally.
+- 30°/60° pairs dominate; 45° appears in roughly every third question.
+- The answer options always contain your intermediate values — finish the last step before looking at options.
+- Complementary-angle and opposite-sides variants are the "advanced" twists; memorise h = √(ab) and the add-vs-subtract distance rule.
+- Revise these 10 patterns again after 2 days.

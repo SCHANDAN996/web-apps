@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 07:24 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
+**आख़िरी update:** 10-10-2026 07:25 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -9,13 +9,13 @@
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
 | W1 | Chapter 23 Data Interpretation (Graduation Maths) | 🔎 review हो रहा है | 34 मिनट |
-| W2 | Chapter 26 Permutation Combination (Graduation Maths) | ✍️ लिख रहा है | 59 मिनट |
+| W2 | Chapter 26 Permutation Combination (Graduation Maths) | ✍️ लिख रहा है | 60 मिनट |
 | W3 | Chapter 13 Mixture Alligation (Graduation Maths) | 🔎 review हो रहा है | 62 मिनट |
 | W4 | Chapter 27 Number Series (Graduation Maths) | ✍️ लिख रहा है | 46 मिनट |
-| W5 | Chapter 24 Statistics (Graduation Maths) | 📤 push हो रहा है | 0 मिनट |
-| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 60 मिनट |
-| W7 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 32 मिनट |
-| W8 | Chapter 20 Heights Distances (Graduation Maths) | 🔎 review हो रहा है | 52 मिनट |
+| W5 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 0 मिनट |
+| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 61 मिनट |
+| W7 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 33 मिनट |
+| W8 | Chapter 20 Heights Distances (Graduation Maths) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,6 +37,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 10-10 07:25 — Graduation Maths · Chapter 20 Heights Distances
 - 10-10 07:24 — Graduation Maths · Chapter 24 Statistics
 - 10-10 06:23 — Graduation Maths · Chapter 18 Quadratic Equations
 - 10-10 06:22 — Graduation Maths · Chapter 17 Algebra
@@ -52,10 +53,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 06:57:57   [Data_Interpretation] review Content_hi.txt: 1 issue(s): - The hook invents a specific exam statistic and year claim (“CAT 2022 के एक स्लॉट में… हज़ारों छात्रों ने उसे छोड़
-10-10 06:58:33   [Number_Series] wrote Feynman_hi.txt (2271 chars)
-10-10 06:58:37   [Permutation_Combination] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-10-10 07:00:50   [Number_Series] wrote Mind_Map.txt (1923 chars)
 10-10 07:01:39   [Trigonometry] Practice_en_Set_03.txt try 1: rejected (parsed 24 questions, numbers 51…75)
 10-10 07:01:45   [Statistics] review PYQ_en.txt: 1 issue(s): - Section content is corrupted markup artifacts (`<|close|>`, `<|open|>`, `think`, `argument`, `thunderstand`, `#ias`) 
 10-10 07:02:08   [Data_Interpretation] review Feynman_en.txt: 1 issue(s): - Section content is corrupted with tokenizer tags (`<|close|>`, `<|open|>`, `<|sep|>`) and fragmented text, making
@@ -92,4 +89,8 @@
 10-10 07:24:55   [Probability] Practice_en_Set_04.txt try 4: rejected (parsed 21 questions, numbers 76…100)
 10-10 07:24:55   [Probability] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
 10-10 07:24:55   [Probability] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
+10-10 07:25:03 DONE Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_24_Statistics in 62 min → c784e419
+10-10 07:25:06 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming (TODO: todo 25, problems 0)
+10-10 07:25:26   [Heights_Distances] review: 7 section(s) corrected, 0 failed
+10-10 07:25:26   [Heights_Distances] written 7, failed 0; AI calls today 202/100000
 ```
