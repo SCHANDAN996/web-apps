@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 09:13 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
+**आख़िरी update:** 10-10-2026 09:17 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Figure Series (Graduation Reasoning) | 🔎 review हो रहा है | 43 मिनट |
-| W2 | Chapter 23 Syllogism (Graduation Reasoning) | 🔎 review हो रहा है | 6 मिनट |
-| W3 | Chapter 24 Statement Assumption (Graduation Reasoning) | ✍️ लिख रहा है | 11 मिनट |
-| W4 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 12 मिनट |
-| W5 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 90 मिनट |
-| W6 | Chapter 26 Data Sufficiency (Graduation Reasoning) | ✍️ लिख रहा है | 49 मिनट |
-| W7 | Chapter 25 Statement Argument (Graduation Reasoning) | ✍️ लिख रहा है | 66 मिनट |
-| W8 | Chapter 20 Mirror Water Images (Graduation Reasoning) | 🔧 सुधार रहा है | 28 मिनट |
+| W1 | Chapter 22 Figure Series (Graduation Reasoning) | 🔎 review हो रहा है | 48 मिनट |
+| W2 | Chapter 23 Syllogism (Graduation Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 24 Statement Assumption (Graduation Reasoning) | ✍️ लिख रहा है | 15 मिनट |
+| W4 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 17 मिनट |
+| W5 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 95 मिनट |
+| W6 | Chapter 26 Data Sufficiency (Graduation Reasoning) | ✍️ लिख रहा है | 53 मिनट |
+| W7 | Chapter 25 Statement Argument (Graduation Reasoning) | ✍️ लिख रहा है | 70 मिनट |
+| W8 | Chapter 20 Mirror Water Images (Graduation Reasoning) | 🔧 सुधार रहा है | 33 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -39,6 +39,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 10-10 09:17 — Graduation Reasoning · Chapter 23 Syllogism
 - 10-10 08:06 — Graduation Reasoning · Chapter 19 Cubes Dice
 - 10-10 07:33 — Graduation Reasoning · Chapter 07 Sitting Arrangement
 
@@ -58,12 +59,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 08:32:05   [Figure_Series] review Content_en.txt: 5 issue(s): - Invented exam statistic: "10–15 mark swing" in the Hook → Remove the specific number or replace with a generic st
-10-10 08:32:12   [Syllogism] review Short_Tricks_en.txt: 1 issue(s): - Box 10 condition 3: "One is positive, one negative (I+O pair, or A+E pair with some overlap)" is incorrect →
-10-10 08:37:56   [Figure_Series] review Content_hi.txt: 2 issue(s): - Invented exam statistic/weightage claim "90% प्रश्न इन्हीं से बनते हैं" → Remove the unsourced percentage or repl
-10-10 08:38:26   [Statement_Argument] Practice_en_Set_03.txt try 1: re-solve disagrees (Q52 key c vs re-solve b, Q65 key c vs re-solve a, Q69 key b vs re-solve c)
-10-10 08:41:21   [Data_Sufficiency] wrote PYQ_hi.txt (6794 chars)
-10-10 08:42:39   [Dictionary_Order] FAILED Practice_en_Set_04.txt: too_long
 10-10 08:42:39   [Dictionary_Order] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
 10-10 08:44:31   [Mirror_Water_Images] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 10-10 08:44:31   [Mirror_Water_Images] written 2, failed 0; AI calls today 204/100000
@@ -98,4 +93,10 @@
 10-10 09:09:17   [Syllogism] review Short_Tricks_en.txt: 1 issue(s): - Box 10: The either-or rule incorrectly lists I+O as a valid complementary pair; I and O are subcontraries (t
 10-10 09:10:44   [Statement_Argument] Practice_en_Set_04.txt try 1: re-solve disagrees (Q85 key b vs re-solve c, Q88 key d vs re-solve c, Q92 key a vs re-solve c, Q95 key d vs re-solve c)
 10-10 09:11:51   [Statement_Assumption] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+10-10 09:13:41   [Data_Sufficiency] FAILED Practice_en_Set_01.txt: too_long
+10-10 09:13:41   [Data_Sufficiency] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
+10-10 09:14:19   [Paper_Folding_Cutting] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+10-10 09:15:52   [Dictionary_Order] Practice_en_Set_06.txt try 2: re-solve disagrees (Q126 key c vs re-solve ?, Q140 key d vs re-solve b, Q143 key a vs re-solve ?)
+10-10 09:17:55   [Syllogism] review: 1 section(s) corrected, 0 failed
+10-10 09:17:55   [Syllogism] written 1, failed 0; AI calls today 244/100000
 ```

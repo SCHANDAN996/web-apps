@@ -1,0 +1,43 @@
+```mermaid
+graph TD
+    A["न्याय-वाक्य (Syllogism)<br>उन्नत / Advanced"] --> B["मूल अवधारणाएँ<br>Basic Concepts"]
+    A --> C["कथन के प्रकार<br>Types of Statements"]
+    A --> D["निष्कर्ष के प्रकार<br>Types of Conclusions"]
+    A --> E["हल करने की विधियाँ<br>Methods"]
+    A --> F["विशेष स्थितियाँ<br>Special Cases"]
+    A --> G["समय प्रबंधन<br>Time Management"]
+    A --> H["परीक्षक के जाल<br>Examiner Traps"]
+
+    B --> B1["तार्किक निष्कर्ष = 100% निश्चित<br>Conclusion must be CERTAIN"]
+    B --> B2["वास्तविक ज्ञान नहीं, कथन ही सत्य<br>Statements are true, not real-world facts"]
+    B --> B3["वितरण (Distribution)<br>पद पूरी श्रेणी में प्रयुक्त?"]
+
+    C --> C1["A: सभी S, P हैं<br>All S are P"]
+    C --> C2["E: कोई S, P नहीं<br>No S is P"]
+    C --> C3["I: कुछ S, P हैं<br>Some S are P"]
+    C --> C4["O: कुछ S, P नहीं हैं<br>Some S are not P"]
+
+    D --> D1["निश्चित निष्कर्ष<br>Definite Conclusion"]
+    D --> D2["संभावना / Possibility<br>'संभव है' वाले निष्कर्ष"]
+    D --> D3["Either-Or (या तो-या)<br>पूरक युग्म + दोनों अनिश्चित"]
+    D --> D4["Only a Few / Few<br>'केवल कुछ' वाले कथन"]
+
+    E --> E1["वेन आरेख विधि<br>Venn Diagram Method"]
+    E --> E2["नियम-आधारित विधि<br>Rules Method (A+E=O आदि)"]
+    E --> E3["50-100 नियम<br>All=100/100, Some=50/50"]
+    E --> E4["संभावना जाँच: आरेख बदलकर देखें<br>Possibility: redraw diagram"]
+
+    F --> F1["3+ कथन वाले प्रश्न<br>Multi-statement chains"]
+    F --> F2["नकारात्मक कथन मिश्रण<br>Mixed negative statements"]
+    F --> F3["Complementary Pair<br>A+O या E+I (same S,P)"]
+
+    G --> G1["सरल प्रश्न: 30-40 सेकंड<br>Easy: 30-40 sec"]
+    G --> G2["Either-Or/संभावना: 60-90 सेकंड<br>Hard: 60-90 sec"]
+    G --> G3["पहले नियम, फिर आरेख<br>Rules first, diagram if needed"]
+
+    H --> H1["'कुछ नहीं' ≠ 'कोई नहीं'<br>Some not ≠ No"]
+    H --> H2["Either-Or में दोनों निष्कर्ष<br>अलग-अलग गलत होने चाहिए"]
+    H --> H3["वास्तविक ज्ञान से मत जोड़ो<br>Don't use real-world logic"]
+    H --> H4["'Only a few' = कुछ हैं + कुछ नहीं<br>Only a few = Some + Some not"]
+    H --> H5["संभावना में निश्चित गलत भी<br>सही हो सकता है"]
+```
