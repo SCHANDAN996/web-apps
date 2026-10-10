@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 10-10-2026 01:05 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:33 PM
+**आख़िरी update:** 10-10-2026 01:21 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:33 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Noun (10th English) | 🔎 review हो रहा है | 26 मिनट |
-| W4 | Chapter 18 Trigonometry (10th Maths) | 🔧 सुधार रहा है | 31 मिनट |
-| W5 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 31 मिनट |
+| W1 | Chapter 01 Noun (10th English) | 🔎 review हो रहा है | 41 मिनट |
+| W4 | Chapter 18 Trigonometry (10th Maths) | 🔧 सुधार रहा है | 46 मिनट |
+| W5 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 46 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -42,7 +42,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 12:43:50   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
 10-10 12:43:50   [Verb] written 0, failed 1; AI calls today 23/100000
 10-10 12:43:50 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb after 10 min: todo [] problems ['Set 01 hi: English sentence translated (keep it in English) ']
 10-10 12:43:50 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb (FIX: todo 0, problems 1)
@@ -82,4 +81,5 @@
 10-10 12:53:30   [Trigonometry] FAILED set 02: no version passed the checks — files left as they were
 10-10 12:53:50   [Probability] set 03 try 4: rejected (parsed 23 questions, numbers 51…75)
 10-10 12:53:50   [Probability] FAILED set 03: no version passed the checks — files left as they were
+10-10 13:21:04   [Trigonometry] Practice_hi_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
 ```
