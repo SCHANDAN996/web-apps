@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 08:25 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
+**आख़िरी update:** 10-10-2026 08:40 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W5 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 76 मिनट |
+| W5 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 91 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -16,7 +16,7 @@
 |---|---|---|---|
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
-| 10th Maths | 20 | 2 | 0 |
+| 10th Maths | 22 | 0 | 0 |
 | 10th English | 18 | 0 | 2 |
 | 12th Maths | 20 | 0 | 3 |
 | 12th GK | 22 | 0 | 2 |
@@ -26,7 +26,7 @@
 | Graduation GK | 27 | 1 | 0 |
 | Graduation Reasoning | 26 | 0 | 4 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **271** | **6** | **19** |
+| **कुल** | **273** | **4** | **19** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -42,7 +42,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 19:22:59 worker 1: nothing left
 10-10 19:23:01   [Awards] repaired Flashcards_hi.txt (3974 chars)
 10-10 19:23:01   [Awards] written 1, failed 0; AI calls today 23/100000
 10-10 19:23:01 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards after 5 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (39']
@@ -82,4 +81,5 @@
 10-10 20:13:13 DONE Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_19_Trigonometry in 64 min → 3c529a20
 10-10 20:13:16 worker 2: nothing left
 10-10 20:16:19   [Probability] Practice_en_Set_06.txt try 1: rejected (Q148:leaked_reasoning)
+10-10 20:26:18   [Probability] Practice_en_Set_06.txt try 2: re-solve disagrees (Q127 key c vs re-solve ?, Q134 key a vs re-solve ?, Q145 key a vs re-solve ?)
 ```
