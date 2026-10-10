@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 11:15 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
+**आख़िरी update:** 10-10-2026 11:30 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 28 Critical Reasoning (Graduation Reasoning) | ✍️ लिख रहा है | 109 मिनट |
-| W3 | Chapter 29 Logical Consistency (Graduation Reasoning) | ✍️ लिख रहा है | 90 मिनट |
-| W6 | Chapter 26 Data Sufficiency (Graduation Reasoning) | ✍️ लिख रहा है | 171 मिनट |
+| W1 | Chapter 28 Critical Reasoning (Graduation Reasoning) | ✍️ लिख रहा है | 124 मिनट |
+| W3 | Chapter 29 Logical Consistency (Graduation Reasoning) | ✍️ लिख रहा है | 105 मिनट |
+| W6 | Chapter 26 Data Sufficiency (Graduation Reasoning) | ✍️ लिख रहा है | 186 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -55,12 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 10:33:36   [Statement_Argument] Practice_hi_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
-10-10 10:34:46   [Data_Sufficiency] Practice_en_Set_04.txt try 3: re-solve disagrees (Q89 key d vs re-solve c, Q97 key d vs re-solve a)
-10-10 10:35:18   [Paper_Folding_Cutting] FAILED Practice_en_Set_06.txt: too_long
-10-10 10:35:18   [Paper_Folding_Cutting] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-10-10 10:35:18   [Paper_Folding_Cutting] written 4, failed 2; AI calls today 343/100000
-10-10 10:35:19 NOT OK Graduation_Level/Reasoning/Chapter_21_Paper_Folding_Cutting after 95 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems []
 10-10 10:35:19 worker 3: nothing left
 10-10 10:36:05   [Logical_Consistency] wrote Short_Tricks_hi.txt (5064 chars)
 10-10 10:36:44   [Critical_Reasoning] wrote Short_Tricks_hi.txt (5633 chars)
@@ -95,4 +89,10 @@
 10-10 11:05:24   [Data_Sufficiency] Practice_en_Set_05.txt try 3: re-solve disagrees (Q107 key a vs re-solve c, Q108 key c vs re-solve d, Q114 key a vs re-solve c, Q118 key b vs re-solve
 10-10 11:14:39   [Critical_Reasoning] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 10-10 11:14:49   [Logical_Consistency] wrote Important_Rules_hi.txt (3775 chars)
+10-10 11:16:04   [Data_Sufficiency] Practice_en_Set_05.txt try 4: re-solve disagrees (Q114 key a vs re-solve c)
+10-10 11:16:04   [Data_Sufficiency] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
+10-10 11:16:04   [Data_Sufficiency] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
+10-10 11:20:37   [Data_Sufficiency] Practice_en_Set_06.txt try 1: rejected (Q137:leaked_reasoning)
+10-10 11:21:41   [Logical_Consistency] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+10-10 11:23:02   [Critical_Reasoning] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 ```
