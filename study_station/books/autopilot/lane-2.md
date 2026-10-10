@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 04:39 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 03:21 PM
+**आख़िरी update:** 10-10-2026 04:55 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 03:21 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W5 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 35 मिनट |
+| W5 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 51 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -44,12 +44,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 15:52:53   [Trigonometry] REJECTED Practice_hi_Set_05.txt: no translation passed the checks — not written
-10-10 15:53:29   [Probability] Practice_en_Set_06.txt try 1: rejected (parsed 24 questions, numbers 126…150)
-10-10 15:55:16   [Trigonometry] Practice_en_Set_06.txt try 1: rejected (parsed 23 questions, numbers 126…150)
-10-10 15:55:47   [Probability] Practice_en_Set_06.txt try 2: rejected (parsed 23 questions, numbers 126…150)
-10-10 15:57:00   [Trigonometry] Practice_en_Set_06.txt try 2: rejected (parsed 23 questions, numbers 126…150)
-10-10 15:59:00   [Probability] Practice_en_Set_06.txt try 3: rejected (parsed 24 questions, numbers 126…150)
 10-10 15:59:41   [Trigonometry] Practice_en_Set_06.txt try 3: rejected (parsed 24 questions, numbers 126…149)
 10-10 16:03:38   [Trigonometry] Practice_en_Set_06.txt try 4: rejected (parsed 23 questions, numbers 126…150)
 10-10 16:03:38   [Trigonometry] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
@@ -84,4 +78,10 @@
 10-10 16:34:17   [Probability] Practice_en_Set_05.txt try 1: rejected (parsed 23 questions, numbers 101…125)
 10-10 16:37:22   [Probability] Practice_en_Set_05.txt try 2: rejected (parsed 23 questions, numbers 101…125)
 10-10 16:39:51   [Probability] Practice_en_Set_05.txt try 3: rejected (parsed 21 questions, numbers 101…125)
+10-10 16:41:57   [Probability] Practice_en_Set_05.txt try 4: rejected (parsed 24 questions, numbers 101…125)
+10-10 16:41:57   [Probability] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
+10-10 16:41:57   [Probability] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
+10-10 16:45:02   [Probability] Practice_en_Set_06.txt try 1: rejected (parsed 23 questions, numbers 126…150)
+10-10 16:48:47   [Probability] Practice_en_Set_06.txt try 2: rejected (parsed 24 questions, numbers 126…150)
+10-10 16:52:51   [Probability] Practice_en_Set_06.txt try 3: rejected (parsed 23 questions, numbers 126…150)
 ```
