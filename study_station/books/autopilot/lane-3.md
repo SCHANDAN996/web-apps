@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 07:55 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
+**आख़िरी update:** 10-10-2026 08:10 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 46 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,16 +39,11 @@
 - Chapter 24 Statement Assumption (Reasoning) — 2 बार
 - Chapter 17 Course of Action (Reasoning) — 2 बार
 - Chapter 13 Dictionary Order (Reasoning) — 2 बार
+- Chapter 07 Sitting Arrangement (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 19:16:33   [Statement_Assumption] written 1, failed 0; AI calls today 17/100000
-10-10 19:17:24   [Statement_Conclusion] repaired Flashcards_hi.txt (3798 chars)
-10-10 19:17:24   [Statement_Conclusion] written 1, failed 0; AI calls today 19/100000
-10-10 19:17:24 NOT OK 12th_Level/Reasoning/Chapter_16_Statement_Conclusion after 4 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (37']
-10-10 19:17:27 worker 2: nothing left
-10-10 19:19:01   [Dictionary_Order] Practice_en_Set_02.txt try 2: re-solve disagrees (Q32 key d vs re-solve c, Q33 key a vs re-solve b, Q45 key a vs re-solve d)
 10-10 19:19:25   [Statement_Assumption] repaired Short_Tricks_hi.txt (4406 chars)
 10-10 19:19:25   [Statement_Assumption] written 1, failed 0; AI calls today 20/100000
 10-10 19:19:25 NOT OK 12th_Level/Reasoning/Chapter_24_Statement_Assumption after 5 min: todo [] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
@@ -83,4 +78,10 @@
 10-10 19:51:26   [Dictionary_Order] written 0, failed 2; AI calls today 35/100000
 10-10 19:51:26 NOT OK 12th_Level/Reasoning/Chapter_13_Dictionary_Order after 24 min: todo ['Set 02 en: todo', 'Set 02 hi: todo'] problems ['PYQ_hi.txt: much shorter than the English section (447 vs 13']
 10-10 19:51:28 worker 1: nothing left
+10-10 20:10:22   [Sitting_Arrangement] Practice_en_Set_02.txt try 4: re-solve disagrees (Q38 key b vs re-solve d, Q43 key b vs re-solve a)
+10-10 20:10:22   [Sitting_Arrangement] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
+10-10 20:10:22   [Sitting_Arrangement] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+10-10 20:10:22   [Sitting_Arrangement] written 0, failed 2; AI calls today 35/100000
+10-10 20:10:22 NOT OK 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement after 62 min: todo ['Set 02 en: todo', 'Set 02 hi: todo'] problems ['PYQ_hi.txt: Hindi file is mostly not in Hindi']
+10-10 20:10:24 START 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement (TODO: todo 2, problems 1)
 ```
