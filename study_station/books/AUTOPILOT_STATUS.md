@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 08:57 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
+**आख़िरी update:** 10-10-2026 09:13 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Figure Series (Graduation Reasoning) | 🔎 review हो रहा है | 28 मिनट |
-| W2 | Chapter 23 Syllogism (Graduation Reasoning) | 🔎 review हो रहा है | 69 मिनट |
-| W3 | Chapter 24 Statement Assumption (Graduation Reasoning) | ✍️ लिख रहा है | 83 मिनट |
-| W4 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 159 मिनट |
-| W5 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 75 मिनट |
-| W6 | Chapter 26 Data Sufficiency (Graduation Reasoning) | ✍️ लिख रहा है | 33 मिनट |
-| W7 | Chapter 25 Statement Argument (Graduation Reasoning) | ✍️ लिख रहा है | 50 मिनट |
-| W8 | Chapter 20 Mirror Water Images (Graduation Reasoning) | 🔧 सुधार रहा है | 13 मिनट |
+| W1 | Chapter 22 Figure Series (Graduation Reasoning) | 🔎 review हो रहा है | 43 मिनट |
+| W2 | Chapter 23 Syllogism (Graduation Reasoning) | 🔎 review हो रहा है | 6 मिनट |
+| W3 | Chapter 24 Statement Assumption (Graduation Reasoning) | ✍️ लिख रहा है | 11 मिनट |
+| W4 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 12 मिनट |
+| W5 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 90 मिनट |
+| W6 | Chapter 26 Data Sufficiency (Graduation Reasoning) | ✍️ लिख रहा है | 49 मिनट |
+| W7 | Chapter 25 Statement Argument (Graduation Reasoning) | ✍️ लिख रहा है | 66 मिनट |
+| W8 | Chapter 20 Mirror Water Images (Graduation Reasoning) | 🔧 सुधार रहा है | 28 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -51,31 +51,13 @@
 - Chapter 14 Alphabet Questions (Reasoning) — 2 बार
 - Chapter 13 Dictionary Order (Reasoning) — 1 बार
 - Chapter 20 Mirror Water Images (Reasoning) — 1 बार
+- Chapter 21 Paper Folding Cutting (Reasoning) — 1 बार
+- Chapter 24 Statement Assumption (Reasoning) — 1 बार
+- Chapter 23 Syllogism (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 08:09:14   [Syllogism] review Mind_Map.txt: 1 issue(s): - F3 में "I+O" को पूरक युग्म (Complementary Pair) बताया गया है → I+O पूरक युग्म नहीं हैं; सही पूरक युग्म A+O और E+I ह
-10-10 08:10:33   [Statement_Assumption] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-10-10 08:13:36   [Syllogism] review Flashcards_hi.txt: 1 issue(s): - Card 6 incorrectly generalizes that “Universal + Particular = केवल possibility, निश्चित निष्कर्ष नहीं”; a part
-10-10 08:16:07   [Dictionary_Order] Practice_en_Set_04.txt try 2: re-solve disagrees (Q77 key d vs re-solve a, Q81 key a vs re-solve ?, Q91 key a vs re-solve c)
-10-10 08:18:39   [Figure_Series] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-10-10 08:23:34   [Paper_Folding_Cutting] FAILED Practice_en_Set_03.txt: too_long
-10-10 08:23:34   [Paper_Folding_Cutting] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
-10-10 08:24:10   [Alphabet_Questions] FAILED Practice_hi_Set_04.txt: too_long
-10-10 08:24:10   [Alphabet_Questions] written 1, failed 1; AI calls today 187/100000
-10-10 08:24:10 NOT OK Graduation_Level/Reasoning/Chapter_14_Alphabet_Questions after 43 min: todo ['Set 04 hi: todo'] problems []
-10-10 08:24:12 START Graduation_Level/Reasoning/Chapter_26_Data_Sufficiency (TODO: todo 13, problems 0)
-10-10 08:24:53   [Statement_Assumption] Practice_en_Set_06.txt try 1: re-solve disagrees (Q127 key d vs re-solve a, Q134 key a vs re-solve d, Q138 key d vs re-solve a, Q140 key a vs re-solve
-10-10 08:25:17   [Figure_Series] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-10-10 08:25:17   [Figure_Series] written 2, failed 0; AI calls today 189/100000
-10-10 08:25:18   [Dictionary_Order] Practice_en_Set_04.txt try 3: re-solve disagrees (Q81 key c vs re-solve ?)
-10-10 08:25:57   [Syllogism] review PYQ_hi.txt: 2 issue(s): - Section 3 "Complementary pair" trap condition is incomplete: it only lists both conclusions false, same subject-predi
-10-10 08:26:05   [Mirror_Water_Images] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-10-10 08:29:53   [Figure_Series] repaired Content_hi.txt (7373 chars)
-10-10 08:29:53   [Figure_Series] written 1, failed 0; AI calls today 194/100000
-10-10 08:31:12   [Statement_Argument] FAILED Practice_en_Set_01.txt: too_long
-10-10 08:31:12   [Statement_Argument] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
 10-10 08:32:05   [Figure_Series] review Content_en.txt: 5 issue(s): - Invented exam statistic: "10–15 mark swing" in the Hook → Remove the specific number or replace with a generic st
 10-10 08:32:12   [Syllogism] review Short_Tricks_en.txt: 1 issue(s): - Box 10 condition 3: "One is positive, one negative (I+O pair, or A+E pair with some overlap)" is incorrect →
 10-10 08:37:56   [Figure_Series] review Content_hi.txt: 2 issue(s): - Invented exam statistic/weightage claim "90% प्रश्न इन्हीं से बनते हैं" → Remove the unsourced percentage or repl
@@ -95,4 +77,25 @@
 10-10 08:55:04   [Data_Sufficiency] Practice_en_Set_01.txt try 2: re-solve disagrees (Q16 key b vs re-solve a)
 10-10 08:56:22   [Statement_Argument] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 10-10 08:58:06   [Figure_Series] review Short_Tricks_en.txt: 2 issue(s): - Box 1 claims "90% of series crack within these" (invented statistic) → remove the percentage claim
+10-10 09:00:11   [Paper_Folding_Cutting] FAILED Practice_en_Set_06.txt: too_long
+10-10 09:00:11   [Paper_Folding_Cutting] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+10-10 09:00:11   [Paper_Folding_Cutting] written 2, failed 6; AI calls today 229/100000
+10-10 09:00:11 NOT OK Graduation_Level/Reasoning/Chapter_21_Paper_Folding_Cutting after 162 min: todo ['Set 01 en: todo', 'Set 01 hi: todo', 'Set 03 en: todo', 'Set 03 hi: todo'] problems []
+10-10 09:00:14 START Graduation_Level/Reasoning/Chapter_21_Paper_Folding_Cutting (TODO: todo 6, problems 0)
+10-10 09:01:52   [Statement_Assumption] FAILED Practice_en_Set_06.txt: too_long
+10-10 09:01:52   [Statement_Assumption] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+10-10 09:01:52   [Statement_Assumption] written 3, failed 2; AI calls today 229/100000
+10-10 09:01:52 NOT OK Graduation_Level/Reasoning/Chapter_24_Statement_Assumption after 88 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems []
+10-10 09:01:55   [Syllogism] review Important_Rules_hi.txt: 3 issue(s): - "या (Either-Or) की शर्तें" में "कुछ + कुछ नहीं" को मान्य या-जोड़ी बताया गया है (भाग 1 की तालिका और भाग 3 
+10-10 09:01:55 START Graduation_Level/Reasoning/Chapter_24_Statement_Assumption (TODO: todo 2, problems 0)
+10-10 09:04:09   [Statement_Argument] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+10-10 09:05:43   [Figure_Series] review Short_Tricks_hi.txt: 2 issue(s): - Trick 7 claims "परीक्षक की 80% शृंखलाओं में एक कदम में केवल एक तत्व बदलता है" — this is an invented exam sta
+10-10 09:06:18   [Mirror_Water_Images] set 04 try 1: re-solve disagrees (Q81 key c vs re-solve b)
+10-10 09:06:50   [Syllogism] review: 8 section(s) corrected, 1 failed
+10-10 09:06:50   [Syllogism] written 8, failed 1; AI calls today 236/100000
+10-10 09:06:50 NOT OK Graduation_Level/Reasoning/Chapter_23_Syllogism after 134 min: todo [] problems []
+10-10 09:06:53 START Graduation_Level/Reasoning/Chapter_23_Syllogism (OK: todo 0, problems 0)
+10-10 09:09:17   [Syllogism] review Short_Tricks_en.txt: 1 issue(s): - Box 10: The either-or rule incorrectly lists I+O as a valid complementary pair; I and O are subcontraries (t
+10-10 09:10:44   [Statement_Argument] Practice_en_Set_04.txt try 1: re-solve disagrees (Q85 key b vs re-solve c, Q88 key d vs re-solve c, Q92 key a vs re-solve c, Q95 key d vs re-solve c)
+10-10 09:11:51   [Statement_Assumption] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 ```
