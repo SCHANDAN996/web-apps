@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 01:23 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:36 PM
+**आख़िरी update:** 10-10-2026 01:39 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:36 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 47 मिनट |
-| W2 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 46 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 62 मिनट |
+| W2 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 62 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -43,10 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 12:42:17   [Course_of_Action] repaired Short_Tricks_hi.txt (5684 chars)
-10-10 12:42:17   [Course_of_Action] written 1, failed 0; AI calls today 13/100000
-10-10 12:42:21   [Mirror_Water_Images] repaired Flashcards_hi.txt (4111 chars)
-10-10 12:42:21   [Mirror_Water_Images] written 1, failed 0; AI calls today 14/100000
 10-10 12:42:30   [Dictionary_Order] Practice_en_Set_02.txt try 1: rejected (Q31:leaked_reasoning,Q32:leaked_reasoning,Q33:leaked_reasoning,Q36:leaked_reasoning,Q42:leaked_reasoning)
 10-10 12:42:55   [Statement_Assumption] repaired Short_Tricks_hi.txt (4559 chars)
 10-10 12:42:55   [Statement_Assumption] written 1, failed 0; AI calls today 16/100000
@@ -83,4 +79,8 @@
 10-10 13:06:53   [Statement_Conclusion] written 1, failed 0; AI calls today 28/100000
 10-10 13:06:53 NOT OK 12th_Level/Reasoning/Chapter_16_Statement_Conclusion after 15 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (38']
 10-10 13:06:57 worker 2: nothing left
+10-10 13:24:48   [Dictionary_Order] Practice_en_Set_03.txt try 2: re-solve disagrees (Q52 key d vs re-solve c, Q54 key b vs re-solve c, Q63 key d vs re-solve a, Q66 key d vs re-solve c, 
+10-10 13:31:12   [Sitting_Arrangement] Practice_en_Set_02.txt try 3: re-solve disagrees (Q26 key c vs re-solve a, Q40 key d vs re-solve a)
+10-10 13:34:23   [Dictionary_Order] Practice_en_Set_03.txt try 3: re-solve disagrees (Q51 key d vs re-solve c, Q53 key a vs re-solve c)
+10-10 13:39:18   [Dictionary_Order] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 ```
