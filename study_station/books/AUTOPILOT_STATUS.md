@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 01:22 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:34 AM
+**आख़िरी update:** 10-10-2026 01:37 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:34 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 28 Critical Reasoning (Graduation Reasoning) | 🔎 review हो रहा है | 14 मिनट |
-| W2 | Chapter 29 Logical Consistency (Graduation Reasoning) | ✍️ लिख रहा है | 43 मिनट |
-| W5 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 40 मिनट |
-| W7 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | 🔎 review हो रहा है | 26 मिनट |
-| W8 | Chapter 26 Data Sufficiency (Graduation Reasoning) | ✍️ लिख रहा है | 92 मिनट |
+| W1 | Chapter 28 Critical Reasoning (Graduation Reasoning) | 🔎 review हो रहा है | 30 मिनट |
+| W2 | Chapter 29 Logical Consistency (Graduation Reasoning) | ✍️ लिख रहा है | 58 मिनट |
+| W5 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 56 मिनट |
+| W7 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | 🔎 review हो रहा है | 42 मिनट |
+| W8 | Chapter 26 Data Sufficiency (Graduation Reasoning) | ✍️ लिख रहा है | 108 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -52,19 +52,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 12:48:54   [Advanced_Puzzles] wrote Flashcards_en.txt (4929 chars)
-10-10 12:49:32   [Dictionary_Order] Practice_en_Set_04.txt try 2: re-solve disagrees (Q78 key d vs re-solve c)
-10-10 12:49:32   [Critical_Reasoning] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-10-10 12:49:32   [Logical_Consistency] Practice_en_Set_02.txt try 1: re-solve disagrees (Q27 key a vs re-solve d, Q29 key a vs re-solve c, Q33 key b vs re-solve a, Q37 key d vs re-solve a, 
-10-10 12:50:07   [Advanced_Puzzles] wrote Flashcards_hi.txt (4646 chars)
-10-10 12:50:55   [Data_Sufficiency] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-10-10 12:51:26   [Dictionary_Order] Practice_en_Set_04.txt try 3: rejected (parsed 0 questions, numbers -…-)
-10-10 12:52:16   [Paper_Folding_Cutting] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-10-10 12:52:56   [Data_Sufficiency] Practice_en_Set_04.txt try 1: rejected (Q87:leaked_reasoning)
-10-10 12:52:59   [Critical_Reasoning] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-10-10 12:53:03   [Dictionary_Order] Practice_en_Set_04.txt try 4: rejected (parsed 0 questions, numbers -…-)
-10-10 12:53:03   [Dictionary_Order] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
-10-10 12:53:03   [Dictionary_Order] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
 10-10 12:53:24   [Dictionary_Order] Practice_en_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
 10-10 12:53:41   [Logical_Consistency] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 10-10 12:55:04   [Paper_Folding_Cutting] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
@@ -92,4 +79,17 @@
 10-10 13:20:12   [Dictionary_Order] written 0, failed 4; AI calls today 257/100000
 10-10 13:20:13 NOT OK Graduation_Level/Reasoning/Chapter_13_Dictionary_Order after 42 min: todo ['Set 04 en: todo', 'Set 04 hi: todo', 'Set 06 en: todo', 'Set 06 hi: todo'] problems []
 10-10 13:20:14 worker 3: nothing left
+10-10 13:24:02   [Logical_Consistency] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+10-10 13:24:57   [Logical_Consistency] Practice_hi_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 13:28:44   [Logical_Consistency] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+10-10 13:29:55   [Critical_Reasoning] review Feynman_hi.txt: 2 issue(s): - Invented exam weightage claim "परीक्षा का 80% खेल इस छिपी बीम का है" → Remove the specific percentage or replace 
+10-10 13:30:19   [Logical_Consistency] Practice_en_Set_04.txt try 1: rejected (Q82:leaked_reasoning)
+10-10 13:32:00   [Advanced_Puzzles] Practice_en_Set_01.txt try 2: re-solve disagrees (Q6 key c vs re-solve a, Q17 key c vs re-solve d, Q21 key a vs re-solve b)
+10-10 13:32:34   [Paper_Folding_Cutting] review Content_hi.txt: 1 issue(s): - "खुला कागज़ हमेशा उतनी सममितियाँ रखता है जितने मोड़ लगे थे" → खुले कागज़ में सममिति अक्षों की संख्या **मोड़ों की 
+10-10 13:33:49   [Data_Sufficiency] Practice_en_Set_04.txt try 3: re-solve disagrees (Q95 key c vs re-solve d)
+10-10 13:35:06   [Critical_Reasoning] review PYQ_en.txt: 1 issue(s): - 'SSC CGL / CHSL / NTPC' incorrectly groups NTPC under SSC exams → NTPC is conducted by RRB (Railway Recruitment Board
+10-10 13:35:11   [Paper_Folding_Cutting] review Feynman_en.txt: 2 issue(s): - "The Har Part" in the subheading → "The Hard Part"
+10-10 13:36:33   [Data_Sufficiency] Practice_en_Set_04.txt try 4: re-solve disagrees (Q90 key c vs re-solve a)
+10-10 13:36:33   [Data_Sufficiency] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
+10-10 13:36:33   [Data_Sufficiency] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
 ```
