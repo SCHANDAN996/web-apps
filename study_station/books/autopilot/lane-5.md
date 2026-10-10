@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 10-10-2026 07:24 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
+**आख़िरी update:** 10-10-2026 07:40 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 18 Trigonometry (10th Maths) | 🔧 सुधार रहा है | 16 मिनट |
-| W4 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 16 मिनट |
+| W3 | Chapter 18 Trigonometry (10th Maths) | 🔧 सुधार रहा है | 31 मिनट |
+| W4 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 31 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -19,7 +19,7 @@
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 20 | 2 | 0 |
 | 10th English | 18 | 2 | 0 |
-| 12th Maths | 19 | 0 | 4 |
+| 12th Maths | 20 | 0 | 3 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 19 | 0 | 6 |
 | 12th English | 25 | 0 | 0 |
@@ -27,7 +27,7 @@
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 26 | 0 | 4 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **269** | **4** | **23** |
+| **कुल** | **270** | **4** | **22** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -41,11 +41,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 19:08:30 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective (FIX: todo 0, problems 1)
-10-10 19:08:35 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb (FIX: todo 0, problems 1)
-10-10 19:08:42 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_18_Trigonometry (FIX: todo 0, problems 18)
-10-10 19:08:47 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_21_Probability (FIX: todo 0, problems 12)
-10-10 19:08:52 worker 4: nothing left
 10-10 19:08:57 worker 5: nothing left
 10-10 19:09:02 worker 6: nothing left
 10-10 19:09:07 worker 7: nothing left
@@ -81,4 +76,9 @@
 10-10 19:16:58   [Trigonometry] repaired Short_Tricks_hi.txt (4575 chars)
 10-10 19:20:43   [Trigonometry] repaired set 01 (en + hi, key confirmed by an independent re-solve)
 10-10 19:23:15   [Probability] repaired set 02 (en + hi, key confirmed by an independent re-solve)
+10-10 19:25:49   [Probability] set 03 try 1: rejected (Q53:answer_solution_conflict,Q57:answer_solution_conflict,Q60:answer_solution_conflict,Q62:answer_solution_conflict,Q68:answer
+10-10 19:27:57   [Trigonometry] repaired set 02 (en + hi, key confirmed by an independent re-solve)
+10-10 19:31:43   [Probability] repaired set 03 (en + hi, key confirmed by an independent re-solve)
+10-10 19:35:12   [Trigonometry] repaired set 03 (en + hi, key confirmed by an independent re-solve)
+10-10 19:40:31   [Probability] Practice_hi_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
 ```
