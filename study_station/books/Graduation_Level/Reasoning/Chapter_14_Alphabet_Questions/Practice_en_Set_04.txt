@@ -1,0 +1,151 @@
+Questions 76–100: Medium
+
+76. In the English alphabet, which letter is exactly midway between the 5th letter from the left and the 15th letter from the left?
+(a) J (b) I (c) K (d) H
+Answer: (a)
+Solution: The midway position is (5 + 15)/2 = 10, and the 10th letter is J. The trap is counting the letters lying between the two positions and picking K by mistake. So the answer is J.
+Source: PYQ-style
+
+77. If the letters of the word "COMPUTER" are arranged in alphabetical order, how many letters remain in the same position as in the original word?
+(a) 2 (b) 0 (c) 1 (d) 3
+Answer: (a)
+Solution: Original: C O M P U T E R; alphabetical order: C E M O P R T U. Comparing each position, only C (position 1) and M (position 3) stay unchanged. The trap is stopping after noticing C and answering 1. So the answer is 2.
+Source: PYQ-style
+
+78. How many pairs of letters in the word "MASTER" have as many letters between them in the word as there are in the English alphabet?
+(a) 1 (b) 0 (c) 3 (d) 2
+Answer: (c)
+Solution: Checking all pairs in M A S T E R: M–R has 4 letters between in both (N,O,P,Q and A,S,T,E); S–T has 0 in both; T–R has 1 in both (S in the alphabet, E in the word). That gives 3 pairs. The trap is checking only forward alphabetical pairs and missing T–R. So the answer is 3.
+Source: PYQ-style
+
+79. If A = 1, B = 2, … Z = 26, what is the sum of the letter values of the word "CAB"?
+(a) 5 (b) 6 (c) 7 (d) 8
+Answer: (b)
+Solution: C = 3, A = 1, B = 2, so the total is 3 + 1 + 2 = 6. The trap is miscounting C as 4 and getting 7. So the answer is 6.
+Source: PYQ-style
+
+80. Which letter is 7th to the right of the 13th letter from the left in the English alphabet?
+(a) S (b) T (c) U (d) R
+Answer: (b)
+Solution: The 13th letter is M, and 7 positions to its right is 13 + 7 = 20, which is T. The trap is counting M itself as the first step and landing on U. So the answer is T.
+Source: PYQ-style
+
+81. If the alphabet is written in reverse order, which letter will be 10th from the left?
+(a) P (b) R (c) Q (d) O
+Answer: (c)
+Solution: In the reversed alphabet, the letter at position n is 27 − n, so position 10 gives 27 − 10 = 17 = Q. The trap is using 26 − 10 = 16 and answering P. So the answer is Q.
+Source: PYQ-style
+
+82. In the word "EDUCATION", how many vowels are immediately followed by a consonant?
+(a) 2 (b) 1 (c) 3 (d) 4
+Answer: (d)
+Solution: In E D U C A T I O N, the vowels behave as follows: E→D yes, U→C yes, A→T yes, I→O no, O→N yes, giving 4. The trap is forgetting the final O before N and answering 3. So the answer is 4.
+Source: PYQ-style
+
+83. If every alternate letter of the alphabet starting from A is removed (A, C, E, …), which letter will be 5th in the remaining sequence?
+(a) I (b) H (c) J (d) K
+Answer: (c)
+Solution: The remaining letters are B, D, F, H, J, L, …, and the 5th is J. The trap is removing the even-position letters instead, which would give I. So the answer is J.
+Source: PYQ-style
+
+84. What is the 15th letter from the right end of the English alphabet?
+(a) L (b) K (c) M (d) J
+Answer: (a)
+Solution: From the right, position n corresponds to letter 27 − n, so 27 − 15 = 12 = L. The trap is computing 26 − 15 = 11 and answering K. So the answer is L.
+Source: PYQ-style
+
+85. In the word "TRIANGLE", if the first and last letters are interchanged, and then the second and second-last letters are interchanged, which letter will be 3rd from the left?
+(a) R (b) I (c) N (d) A
+Answer: (b)
+Solution: T R I A N G L E becomes E R I A N G L T after the first swap, then E L I A N G R T after the second swap; the 3rd letter is I. The trap is applying both swaps to the wrong pairs and picking R. So the answer is I.
+Source: PYQ-style
+
+86. How many meaningful English words can be formed using the letters E, A, T (each used exactly once)?
+(a) 3 (b) 1 (c) 4 (d) 2
+Answer: (a)
+Solution: EAT, TEA and ATE are all valid English words, giving 3 in total. The trap is counting only EAT and TEA and missing ATE. So the answer is 3.
+Source: PYQ-style
+
+87. If the word "KEYBOARD" is written with each letter replaced by the next letter in the alphabet, what is the 4th letter of the new word?
+(a) P (b) C (c) Y (d) Z
+Answer: (b)
+Solution: K→L, E→F, Y→Z, B→C, so the new word begins L F Z C and its 4th letter is C. The trap is treating Y as the 4th letter of the original word and answering Z. So the answer is C.
+Source: PYQ-style
+
+88. Which of the following words will appear third in a dictionary?
+(a) GRAND (b) GRAIN (c) GRAPH (d) GRASP
+Answer: (c)
+Solution: All four words begin with GRA, so compare the 4th letters: I (GRAIN) < N (GRAND) < P (GRAPH) < S (GRASP). The dictionary order is GRAIN, GRAND, GRAPH, GRASP, so the third word is GRAPH. The trap is comparing the 3rd letter, which is identical in all four words. So the answer is GRAPH.
+Source: PYQ-style
+
+89. If A is coded as Z, B as Y, C as X (reverse alphabet coding), how is "DOG" coded?
+(a) WLT (b) WLU (c) XLT (d) VLT
+Answer: (a)
+Solution: D is the 4th letter, so it maps to 27 − 4 = 23 = W; O (15th) maps to 12 = L; G (7th) maps to 20 = T, giving WLT. The trap is using 26 − n instead of 27 − n, which shifts every letter by one. So the answer is WLT.
+Source: PYQ-style
+
+90. Find the missing letter in the series: B, E, H, K, ?
+(a) M (b) L (c) O (d) N
+Answer: (d)
+Solution: B(2), E(5), H(8), K(11) increase by 3 each time, so the next letter is 14 = N. The trap is adding 2 instead of 3 and answering M. So the answer is N.
+Source: PYQ-style
+
+91. Find the missing letter: Z, W, T, Q, ?
+(a) N (b) M (c) O (d) P
+Answer: (a)
+Solution: Z(26), W(23), T(20), Q(17) decrease by 3 each time, so the next letter is 14 = N. The trap is subtracting 4 and answering M. So the answer is N.
+Source: PYQ-style
+
+92. In a certain code, each letter is shifted by +2 (A→C, B→D). How is "FAN" written in that code?
+(a) GBO (b) HCO (c) FCP (d) HCP
+Answer: (d)
+Solution: F→H, A→C, N→P, giving HCP. The trap is shifting by only +1, which produces GBO. So the answer is HCP.
+Source: PYQ-style
+
+93. How many letters of the word "BREAKDOWN" occupy the same position when the word is written in reverse?
+(a) 3 (b) 2 (c) 1 (d) 0
+Answer: (c)
+Solution: B R E A K D O W N reversed is N W O D K A E R B, and only the middle letter K (5th of 9) stays in its place. The trap is comparing letter shapes instead of positions and answering more than 1. So the answer is 1.
+Source: PYQ-style
+
+94. If the first half of the alphabet (A to M) is reversed and the rest is left unchanged, which letter will be 8th from the left?
+(a) F (b) G (c) H (d) E
+Answer: (a)
+Solution: The new sequence begins M L K J I H G F E D C B A N O …, so the 8th letter is F. The trap is reversing the whole alphabet instead of only the first 13 letters. So the answer is F.
+Source: PYQ-style
+
+95. Which letter is exactly midway between J and R in the English alphabet?
+(a) O (b) M (c) N (d) L
+Answer: (c)
+Solution: J = 10 and R = 18, so the midway position is (10 + 18)/2 = 14 = N. The trap is counting the letters between them and picking M or O. So the answer is N.
+Source: PYQ-style
+
+96. In the word "PSYCHOLOGY", which letter comes immediately after a consonant and immediately before a vowel?
+(a) O (b) H (c) Y (d) C
+Answer: (b)
+Solution: In P S Y C H O L O G Y, the letter H is preceded by C (a consonant) and followed by O (a vowel), satisfying both conditions. The trap is treating Y as a vowel and choosing it, but Y is followed by C, a consonant. So the answer is H.
+Source: PYQ-style
+
+97. If the letters of "DANGER" are rearranged to form "GARDEN", which letter of DANGER occupies the 2nd position in GARDEN?
+(a) R (b) N (c) D (d) A
+Answer: (d)
+Solution: The 2nd letter of GARDEN is A, which is the 2nd letter of DANGER. The trap is overcomplicating the position mapping and picking a neighbouring letter like N or R. So the answer is A.
+Source: PYQ-style
+
+98. Find the odd one out: BD, FH, JL, NP, QS
+(a) BD (b) QS (c) JL (d) NP
+Answer: (b)
+Solution: In BD, FH, JL and NP the first letter stands at an even position in the alphabet (2, 6, 10, 14), while in QS the first letter Q is 17th, an odd position, though every pair has a gap of +2. The trap is checking only the gap, which is identical in all five pairs. So the answer is QS.
+Source: PYQ-style
+
+99. If in reverse-alphabet coding (A↔Z, B↔Y, …) the word "TABLE" is coded as GZYOV, how is "CHAIR" coded?
+(a) XRYIS (b) XSZRJ (c) WSZRI (d) XSZRI
+Answer: (d)
+Solution: C(3)→X, H(8)→S, A(1)→Z, I(9)→R, R(18)→I, giving XSZRI. The trap is mapping I to Q by using 26 − n instead of 27 − n. So the answer is XSZRI.
+Source: PYQ-style
+
+100. In the English alphabet, how many letters stand at positions that are perfect squares?
+(a) 4 (b) 3 (c) 6 (d) 5
+Answer: (d)
+Solution: Perfect squares up to 26 are 1, 4, 9, 16 and 25, corresponding to A, D, I, P and Y — 5 letters. The trap is stopping at 16 and forgetting that 25 also falls within the alphabet. So the answer is 5.
+Source: PYQ-style
