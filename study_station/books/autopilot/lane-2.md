@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 11-10-2026 04:47 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:59 AM
+**आख़िरी update:** 11-10-2026 05:02 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:59 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Awards (Graduation GK) | 🔧 सुधार रहा है | 3 मिनट |
-| W2 | Chapter 05 Percentage (Graduation Maths) | 🔧 सुधार रहा है | 4 मिनट |
-| W4 | Chapter 28 Linear Programming (Graduation Maths) | 🔧 सुधार रहा है | 39 मिनट |
+| W1 | Chapter 13 Awards (Graduation GK) | 🔧 सुधार रहा है | 14 मिनट |
+| W4 | Chapter 28 Linear Programming (Graduation Maths) | 🔧 सुधार रहा है | 9 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,19 +36,13 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 25 Probability (Maths) — 2 बार
-- Chapter 05 Percentage (Maths) — 1 बार
+- Chapter 05 Percentage (Maths) — 2 बार
 - Chapter 13 Awards (GK) — 1 बार
+- Chapter 28 Linear Programming (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 03:59:49 autopilot start: 8 workers, reverse=True
-11-10 03:59:51 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards (FIX: todo 0, problems 2)
-11-10 03:59:57 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_05_Percentage (FIX: todo 0, problems 1)
-11-10 04:00:04 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability (TODO: todo 2, problems 3)
-11-10 04:00:09 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming (FIX: todo 0, problems 2)
-11-10 04:00:14 worker 4: nothing left
-11-10 04:00:19 worker 5: nothing left
 11-10 04:00:24 worker 6: nothing left
 11-10 04:00:29 worker 7: nothing left
 11-10 04:07:37   [Linear_Programming] repaired Content_hi.txt (8650 chars)
@@ -81,4 +74,13 @@
 11-10 04:47:25   [Linear_Programming] FAILED Content_hi.txt: too_long
 11-10 04:47:25   [Linear_Programming] written 0, failed 1; AI calls today 5/100000
 11-10 04:47:25 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming after 47 min: todo [] problems ['Content_hi.txt: much shorter than the English section (8649 ']
+11-10 04:47:31 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming (FIX: todo 0, problems 1)
+11-10 04:48:26   [Awards] repaired Flashcards_hi.txt (3848 chars)
+11-10 04:48:26   [Awards] written 1, failed 0; AI calls today 6/100000
+11-10 04:53:21   [Linear_Programming] repaired Content_hi.txt (6935 chars)
+11-10 04:53:21   [Linear_Programming] written 1, failed 0; AI calls today 7/100000
+11-10 04:56:05   [Percentage] REJECTED Feynman_hi.txt: corrupted characters — not written
+11-10 04:56:05   [Percentage] written 0, failed 1; AI calls today 8/100000
+11-10 04:56:05 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_05_Percentage after 24 min: todo [] problems ['Feynman_hi.txt: much shorter than the English section (1854 ']
+11-10 04:56:10 worker 1: nothing left
 ```
