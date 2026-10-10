@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 07:36 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
+**आख़िरी update:** 10-10-2026 07:52 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,12 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 23 Data Interpretation (Graduation Maths) | 🔎 review हो रहा है | 46 मिनट |
-| W2 | Chapter 26 Permutation Combination (Graduation Maths) | 🔧 सुधार रहा है | 1 मिनट |
-| W4 | Chapter 27 Number Series (Graduation Maths) | ✍️ लिख रहा है | 58 मिनट |
-| W5 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 11 मिनट |
-| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 72 मिनट |
-| W7 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 44 मिनट |
+| W1 | Chapter 23 Data Interpretation (Graduation Maths) | 🔎 review हो रहा है | 61 मिनट |
+| W2 | Chapter 26 Permutation Combination (Graduation Maths) | 🔎 review हो रहा है | 8 मिनट |
+| W4 | Chapter 27 Number Series (Graduation Maths) | ✍️ लिख रहा है | 73 मिनट |
+| W5 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 27 मिनट |
+| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 88 मिनट |
+| W7 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 59 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -25,13 +25,13 @@
 | 10th English | 17 | 0 | 3 |
 | 12th Maths | 19 | 0 | 4 |
 | 12th GK | 22 | 0 | 2 |
-| 12th Reasoning | 14 | 0 | 11 |
+| 12th Reasoning | 15 | 0 | 10 |
 | 12th English | 25 | 0 | 0 |
-| Graduation Maths | 20 | 3 | 5 |
+| Graduation Maths | 21 | 2 | 5 |
 | Graduation GK | 27 | 1 | 0 |
 | Graduation Reasoning | 14 | 0 | 16 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **248** | **6** | **42** |
+| **कुल** | **250** | **5** | **41** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -53,28 +53,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 07:19:12   [Trigonometry] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-10-10 07:20:12   [Statistics] review Important_Formulas_en.txt: 2 issue(s): - The relation AM–GM–HM incorrectly states GM² = AM × HM as a general identity; it holds only for two nu
-10-10 07:21:26   [Probability] Practice_en_Set_04.txt try 3: rejected (parsed 22 questions, numbers 76…100)
-10-10 07:21:49   [Heights_Distances] review Important_Formulas_en.txt: 1 issue(s): - Cloud/mirror-lake problem formula: Height of cloud = d·(tan θ₁+tan θ₂)/(tan θ₂−tan θ₁) is incorrect (g
-10-10 07:21:50   [Number_Series] wrote Flashcards_hi.txt (3777 chars)
-10-10 07:22:58   [Trigonometry] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-10-10 07:23:30   [Mixture_Alligation] review Important_Formulas_hi.txt: 1 issue(s): - Section 8 "समान बनाना" formula is incorrect: the expression (b·a′ − a·b′) / (b′ − a′) does not correct
-10-10 07:24:28   [Permutation_Combination] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-10-10 07:24:44   [Statistics] review: 6 section(s) corrected, 0 failed
-10-10 07:24:44   [Statistics] written 6, failed 0; AI calls today 200/100000
-10-10 07:24:55   [Probability] Practice_en_Set_04.txt try 4: rejected (parsed 21 questions, numbers 76…100)
-10-10 07:24:55   [Probability] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
-10-10 07:24:55   [Probability] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
-10-10 07:25:03 DONE Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_24_Statistics in 62 min → c784e419
-10-10 07:25:06 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming (TODO: todo 25, problems 0)
-10-10 07:25:26   [Heights_Distances] review: 7 section(s) corrected, 0 failed
-10-10 07:25:26   [Heights_Distances] written 7, failed 0; AI calls today 202/100000
-10-10 07:25:45 DONE Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_20_Heights_Distances in 81 min → ee5e925e
-10-10 07:25:49 worker 7: nothing left
-10-10 07:25:58   [Number_Series] wrote PYQ_en.txt (9177 chars)
-10-10 07:27:22   [Trigonometry] Practice_hi_Set_05.txt try 1: rejected (parsed 24 questions, numbers 101…124)
-10-10 07:27:27   [Mixture_Alligation] review: 7 section(s) corrected, 1 failed
 10-10 07:27:27   [Mixture_Alligation] written 7, failed 1; AI calls today 206/100000
 10-10 07:27:27 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_13_Mixture_Alligation after 83 min: todo [] problems []
 10-10 07:27:31 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_13_Mixture_Alligation (OK: todo 0, problems 0)
@@ -93,4 +71,26 @@
 10-10 07:35:14   [Mixture_Alligation] written 1, failed 0; AI calls today 216/100000
 10-10 07:35:36 DONE Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_13_Mixture_Alligation in 8 min → aeda2e9d
 10-10 07:35:40 worker 2: nothing left
+10-10 07:38:14   [Data_Interpretation] review Short_Tricks_hi.txt: 1 issue(s): - Invented exam statistic "30% DI सवाल दृश्य-अनुमान से हल!" → Remove the specific percentage claim or replace 
+10-10 07:38:54   [Linear_Programming] wrote Content_en.txt (48413 chars)
+10-10 07:39:06   [Probability] Practice_en_Set_05.txt try 2: rejected (parsed 23 questions, numbers 101…125)
+10-10 07:39:39   [Trigonometry] Practice_hi_Set_05.txt try 3: rejected (parsed 24 questions, numbers 101…124)
+10-10 07:41:25   [Number_Series] PYQ_hi.txt try 1: answer too long — asking for a tighter version
+10-10 07:42:53   [Probability] Practice_en_Set_05.txt try 3: rejected (parsed 21 questions, numbers 101…125)
+10-10 07:43:39   [Permutation_Combination] repaired PYQ_hi.txt (8803 chars)
+10-10 07:43:39   [Permutation_Combination] written 1, failed 0; AI calls today 224/100000
+10-10 07:43:41   [Linear_Programming] wrote Content_hi.txt (8283 chars)
+10-10 07:44:40   [Number_Series] wrote PYQ_hi.txt (376 chars)
+10-10 07:44:46   [Trigonometry] Practice_hi_Set_05.txt try 4: rejected (parsed 24 questions, numbers 101…124)
+10-10 07:44:46   [Trigonometry] REJECTED Practice_hi_Set_05.txt: no translation passed the checks — not written
+10-10 07:45:16   [Data_Interpretation] review Important_Formulas_en.txt: 2 issue(s): - Two-Table Cross Data formula missing division by 100 → Required value = (Row share % × Column total) /
+10-10 07:46:30   [Permutation_Combination] review Content_hi.txt: 1 issue(s): - सारांश तालिका में वृत्ताकार क्रमचय के उपयोग में 'माला' शामिल है, लेकिन माला (garland) के लिए सूत्र (n-1)!/2 होता 
+10-10 07:47:24   [Probability] Practice_en_Set_05.txt try 4: rejected (parsed 24 questions, numbers 101…125)
+10-10 07:47:24   [Probability] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
+10-10 07:47:24   [Probability] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
+10-10 07:47:53   [Linear_Programming] wrote Feynman_en.txt (3635 chars)
+10-10 07:48:54   [Number_Series] wrote Short_Tricks_en.txt (8042 chars)
+10-10 07:49:29   [Data_Interpretation] review Important_Formulas_hi.txt: 1 issue(s): - दो मानों का प्रतिशत अंतर सूत्र में निरपेक्ष मान (|A−B|) का उपयोग गलत है; "B की तुलना में A कितना % अधि
+10-10 07:49:35   [Trigonometry] Practice_en_Set_06.txt try 1: rejected (parsed 22 questions, numbers 126…150)
+10-10 07:51:47   [Linear_Programming] Feynman_hi.txt try 1: rejected (corrupted characters)
 ```
