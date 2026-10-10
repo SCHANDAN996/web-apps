@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 10:29 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
+**आख़िरी update:** 10-10-2026 10:44 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,13 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 28 Critical Reasoning (Graduation Reasoning) | ✍️ लिख रहा है | 63 मिनट |
-| W2 | Chapter 27 Decision Making (Graduation Reasoning) | 🔎 review हो रहा है | 6 मिनट |
-| W3 | Chapter 29 Logical Consistency (Graduation Reasoning) | ✍️ लिख रहा है | 44 मिनट |
-| W4 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 89 मिनट |
-| W6 | Chapter 26 Data Sufficiency (Graduation Reasoning) | ✍️ लिख रहा है | 125 मिनट |
-| W7 | Chapter 25 Statement Argument (Graduation Reasoning) | ✍️ लिख रहा है | 142 मिनट |
-| W8 | Chapter 20 Mirror Water Images (Graduation Reasoning) | 🔧 सुधार रहा है | 23 मिनट |
+| W1 | Chapter 28 Critical Reasoning (Graduation Reasoning) | ✍️ लिख रहा है | 78 मिनट |
+| W2 | Chapter 27 Decision Making (Graduation Reasoning) | 🔎 review हो रहा है | 21 मिनट |
+| W3 | Chapter 29 Logical Consistency (Graduation Reasoning) | ✍️ लिख रहा है | 59 मिनट |
+| W6 | Chapter 26 Data Sufficiency (Graduation Reasoning) | ✍️ लिख रहा है | 140 मिनट |
+| W8 | Chapter 20 Mirror Water Images (Graduation Reasoning) | 🔧 सुधार रहा है | 39 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -52,31 +50,13 @@
 - Chapter 14 Alphabet Questions (Reasoning) — 2 बार
 - Chapter 13 Dictionary Order (Reasoning) — 2 बार
 - Chapter 20 Mirror Water Images (Reasoning) — 1 बार
-- Chapter 21 Paper Folding Cutting (Reasoning) — 1 बार
+- Chapter 21 Paper Folding Cutting (Reasoning) — 2 बार
 - Chapter 27 Decision Making (Reasoning) — 1 बार
+- Chapter 25 Statement Argument (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 09:56:20   [Dictionary_Order] Practice_en_Set_06.txt try 3: re-solve disagrees (Q126 key b vs re-solve ?, Q131 key d vs re-solve b, Q140 key a vs re-solve b)
-10-10 09:57:35   [Logical_Consistency] wrote Feynman_en.txt (4210 chars)
-10-10 09:57:37   [Critical_Reasoning] wrote Feynman_hi.txt (3084 chars)
-10-10 09:58:57   [Decision_Making] Practice_en_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
-10-10 10:00:49   [Paper_Folding_Cutting] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-10-10 10:01:16   [Critical_Reasoning] wrote Mind_Map.txt (1782 chars)
-10-10 10:01:41   [Data_Sufficiency] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-10-10 10:04:58   [Statement_Argument] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-10-10 10:05:31   [Critical_Reasoning] wrote Flashcards_en.txt (5674 chars)
-10-10 10:05:36   [Data_Sufficiency] Practice_en_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
-10-10 10:05:42   [Mirror_Water_Images] set 04 try 4: re-solve disagrees (Q81 key d vs re-solve b, Q98 key d vs re-solve a)
-10-10 10:05:42   [Mirror_Water_Images] FAILED set 04: no version passed the checks — files left as they were
-10-10 10:05:42   [Mirror_Water_Images] written 0, failed 1; AI calls today 306/100000
-10-10 10:06:29   [Paper_Folding_Cutting] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-10-10 10:06:34   [Logical_Consistency] wrote Feynman_hi.txt (2394 chars)
-10-10 10:09:20   [Critical_Reasoning] wrote Flashcards_hi.txt (4637 chars)
-10-10 10:09:46   [Decision_Making] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-10-10 10:09:57   [Dictionary_Order] Practice_en_Set_06.txt try 4: re-solve disagrees (Q149 key d vs re-solve c)
-10-10 10:09:57   [Dictionary_Order] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
 10-10 10:09:57   [Dictionary_Order] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
 10-10 10:09:57   [Dictionary_Order] written 0, failed 6; AI calls today 315/100000
 10-10 10:09:57 NOT OK Graduation_Level/Reasoning/Chapter_13_Dictionary_Order after 147 min: todo ['Set 03 en: todo', 'Set 03 hi: todo', 'Set 04 en: todo', 'Set 04 hi: todo'] problems []
@@ -98,4 +78,23 @@
 10-10 10:27:14   [Critical_Reasoning] wrote Short_Tricks_en.txt (4879 chars)
 10-10 10:28:31   [Logical_Consistency] wrote PYQ_hi.txt (8862 chars)
 10-10 10:29:34   [Statement_Argument] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+10-10 10:30:22   [Decision_Making] review Feynman_hi.txt: 1 issue(s): - "निर्णय क्षमता के 90% सवालों में चार विकल्प इस तरह बने होते हैं" → यह एक आविष्कृत आंकड़ा है; इसे हटाएं या स्रोत स
+10-10 10:32:29   [Logical_Consistency] wrote Short_Tricks_en.txt (5560 chars)
+10-10 10:33:36   [Statement_Argument] Practice_hi_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 10:34:46   [Data_Sufficiency] Practice_en_Set_04.txt try 3: re-solve disagrees (Q89 key d vs re-solve c, Q97 key d vs re-solve a)
+10-10 10:35:18   [Paper_Folding_Cutting] FAILED Practice_en_Set_06.txt: too_long
+10-10 10:35:18   [Paper_Folding_Cutting] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+10-10 10:35:18   [Paper_Folding_Cutting] written 4, failed 2; AI calls today 343/100000
+10-10 10:35:19 NOT OK Graduation_Level/Reasoning/Chapter_21_Paper_Folding_Cutting after 95 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems []
+10-10 10:35:19 worker 3: nothing left
+10-10 10:36:05   [Logical_Consistency] wrote Short_Tricks_hi.txt (5064 chars)
+10-10 10:36:44   [Critical_Reasoning] wrote Short_Tricks_hi.txt (5633 chars)
+10-10 10:37:21   [Decision_Making] review Short_Tricks_hi.txt: 2 issue(s): - Trick 6 claims "90% मामलों में यही गलत है" → invented exam statistic; remove or replace with a qualified sta
+10-10 10:38:39   [Mirror_Water_Images] set 04 try 2: re-solve disagrees (Q81 key c vs re-solve d)
+10-10 10:40:15   [Statement_Argument] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+10-10 10:40:15   [Statement_Argument] written 6, failed 4; AI calls today 354/100000
+10-10 10:40:15 NOT OK Graduation_Level/Reasoning/Chapter_25_Statement_Argument after 153 min: todo ['Set 01 en: todo', 'Set 01 hi: todo', 'Set 04 en: todo', 'Set 04 hi: todo'] problems ['Flashcards_hi.txt: Hindi file is mostly not in Hindi', 'Short_Tricks_hi.txt: Hindi file is mostly not in Hindi']
+10-10 10:40:15 worker 6: nothing left
+10-10 10:41:01   [Critical_Reasoning] wrote Important_Rules_en.txt (2888 chars)
+10-10 10:42:56   [Decision_Making] review Important_Rules_en.txt: 1 issue(s): - Section content is corrupted/unreadable (contains only garbled text and `<|close|>` tags) → Replace with 
 ```
