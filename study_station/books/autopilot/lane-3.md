@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 10:00 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
+**आख़िरी update:** 10-10-2026 10:15 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 89 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 104 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -52,7 +52,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 08:44:03   [Syllogism] review PYQ_en.txt: 1 issue(s): - Q10 answer (c) and explanation are incorrect: from "No bird is a mammal" and "All sparrows are birds", only conclusio
 10-10 08:44:54   [Figure_Series] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 10-10 08:45:50   [Sitting_Arrangement] Practice_en_Set_01.txt try 2: re-solve disagrees (Q2 key c vs re-solve a, Q13 key c vs re-solve b, Q17 key a vs re-solve d, Q22 key c vs re-solve d)
 10-10 08:46:02   [Syllogism] review PYQ_hi.txt: 1 issue(s): - प्रश्न 5 में दिया गया उत्तर 'केवल II' गलत है; निष्कर्ष I ('कुछ डॉक्टर छात्र नहीं हैं') भी कथनों से वैध रूप से निकलता 
@@ -92,4 +91,5 @@
 10-10 09:39:19   [Sitting_Arrangement] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
 10-10 09:39:19   [Sitting_Arrangement] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
 10-10 09:52:52   [Sitting_Arrangement] Practice_en_Set_05.txt try 1: re-solve disagrees (Q103 key a vs re-solve c, Q112 key c vs re-solve a, Q121 key c vs re-solve a)
+10-10 10:01:43   [Sitting_Arrangement] Practice_en_Set_05.txt try 2: re-solve disagrees (Q112 key b vs re-solve a)
 ```
