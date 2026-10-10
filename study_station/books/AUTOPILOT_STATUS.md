@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 11-10-2026 05:02 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:59 AM
+**आख़िरी update:** 11-10-2026 05:03 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:59 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -43,7 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 04:08:12   [Advanced_Puzzles] written 1, failed 0; AI calls today 13/100000
 11-10 04:10:40   [Missing_Term] FAILED Important_Rules_hi.txt: empty
 11-10 04:10:40   [Missing_Term] written 0, failed 1; AI calls today 14/100000
 11-10 04:10:41   [Advanced_Puzzles] repaired Important_Rules_hi.txt (3559 chars)
@@ -83,4 +82,5 @@
 11-10 04:55:00   [Dictionary_Order] written 0, failed 2; AI calls today 25/100000
 11-10 04:55:00 NOT OK Graduation_Level/Reasoning/Chapter_13_Dictionary_Order after 24 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems []
 11-10 04:55:05 worker 2: nothing left
+11-10 05:03:05 autopilot end: done 0, failed 5
 ```
