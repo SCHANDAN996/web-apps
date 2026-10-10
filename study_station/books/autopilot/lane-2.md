@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 08:38 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
+**आख़िरी update:** 10-10-2026 08:53 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W4 | Chapter 27 Number Series (Graduation Maths) | ✍️ लिख रहा है | 119 मिनट |
-| W5 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 72 मिनट |
-| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 25 मिनट |
+| W4 | Chapter 27 Number Series (Graduation Maths) | ✍️ लिख रहा है | 134 मिनट |
+| W5 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 88 मिनट |
+| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 40 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -22,13 +22,13 @@
 | 10th English | 17 | 0 | 3 |
 | 12th Maths | 19 | 0 | 4 |
 | 12th GK | 22 | 0 | 2 |
-| 12th Reasoning | 15 | 0 | 10 |
+| 12th Reasoning | 16 | 0 | 9 |
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 21 | 2 | 5 |
 | Graduation GK | 27 | 1 | 0 |
 | Graduation Reasoning | 15 | 0 | 15 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **251** | **5** | **40** |
+| **कुल** | **252** | **5** | **39** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -52,14 +52,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 07:54:19   [Trigonometry] Practice_en_Set_06.txt try 2: rejected (parsed 24 questions, numbers 126…150)
-10-10 07:54:35   [Number_Series] wrote Short_Tricks_hi.txt (8816 chars)
-10-10 07:54:43   [Permutation_Combination] review PYQ_en.txt: 1 issue(s): - Q5: Option (b) is 604800 but the correct answer is 64800 → Option (b) should be 64800.
-10-10 07:56:20   [Linear_Programming] wrote Feynman_hi.txt (3836 chars)
-10-10 07:58:31   [Number_Series] wrote Important_Formulas_en.txt (3881 chars)
-10-10 07:59:03   [Trigonometry] Practice_en_Set_06.txt try 3: rejected (parsed 23 questions, numbers 126…150)
-10-10 08:00:48   [Linear_Programming] Mind_Map.txt try 1: rejected (no usable mermaid graph)
-10-10 08:02:21   [Number_Series] wrote Important_Formulas_hi.txt (4753 chars)
 10-10 08:02:58   [Trigonometry] Practice_en_Set_06.txt try 4: rejected (parsed 24 questions, numbers 126…150)
 10-10 08:02:58   [Trigonometry] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
 10-10 08:02:58   [Trigonometry] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
@@ -92,4 +84,12 @@
 10-10 08:32:47 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_26_Permutation_Combination after 61 min: todo [] problems []
 10-10 08:32:51 worker 1: nothing left
 10-10 08:34:57   [Linear_Programming] wrote PYQ_hi.txt (8093 chars)
+10-10 08:44:36   [Probability] Practice_en_Set_02.txt try 2: rejected (parsed 21 questions, numbers 26…49)
+10-10 08:45:15   [Number_Series] Practice_en_Set_02.txt try 2: rejected (parsed 0 questions, numbers -…-)
+10-10 08:48:38   [Probability] Practice_en_Set_02.txt try 3: rejected (parsed 23 questions, numbers 26…50)
+10-10 08:49:54   [Number_Series] Practice_en_Set_02.txt try 3: rejected (Q34:leaked_reasoning,Q40:leaked_reasoning)
+10-10 08:50:30   [Linear_Programming] wrote Short_Tricks_en.txt (5160 chars)
+10-10 08:52:54   [Probability] Practice_en_Set_02.txt try 4: rejected (parsed 22 questions, numbers 26…50)
+10-10 08:52:54   [Probability] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
+10-10 08:52:54   [Probability] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
 ```
