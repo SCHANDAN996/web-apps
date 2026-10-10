@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 11-10-2026 01:04 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 12:03 AM
+**आख़िरी update:** 11-10-2026 01:05 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 12:03 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -43,7 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 00:19:29   [Advanced_Puzzles] Practice_en_Set_06.txt try 1: re-solve disagrees (Q144 key b vs re-solve a)
 11-10 00:20:03   [Missing_Term] FAILED Important_Rules_hi.txt: too_long
 11-10 00:20:03   [Missing_Term] written 0, failed 1; AI calls today 13/100000
 11-10 00:20:03 NOT OK Graduation_Level/Reasoning/Chapter_12_Missing_Term after 17 min: todo [] problems ['Important_Rules_hi.txt: much shorter than the English sectio']
@@ -83,4 +82,5 @@
 11-10 00:58:02   [Advanced_Puzzles] written 0, failed 1; AI calls today 25/100000
 11-10 00:58:02 NOT OK Graduation_Level/Reasoning/Chapter_30_Advanced_Puzzles after 2 min: todo [] problems ['Important_Rules_hi.txt: much shorter than the English sectio']
 11-10 00:58:05 worker 4: nothing left
+11-10 01:05:10 autopilot end: done 0, failed 5
 ```
