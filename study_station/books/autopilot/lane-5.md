@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 10-10-2026 01:49 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:33 PM
+**आख़िरी update:** 10-10-2026 01:51 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:33 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Noun (10th English) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 18 Trigonometry (10th Maths) | 🔧 सुधार रहा है | 74 मिनट |
-| W5 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 10 मिनट |
+| W4 | Chapter 18 Trigonometry (10th Maths) | 🔧 सुधार रहा है | 77 मिनट |
+| W5 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 12 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -26,9 +25,9 @@
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 21 | 0 | 7 |
 | Graduation GK | 27 | 0 | 1 |
-| Graduation Reasoning | 21 | 0 | 9 |
+| Graduation Reasoning | 22 | 0 | 8 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **262** | **4** | **30** |
+| **कुल** | **263** | **4** | **29** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -38,15 +37,10 @@
 
 - Chapter 04 Verb (English) — 2 बार
 - Chapter 03 Adjective (English) — 2 बार
-- Chapter 01 Noun (English) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 12:53:30   [Trigonometry] FAILED set 02: no version passed the checks — files left as they were
-10-10 12:53:50   [Probability] set 03 try 4: rejected (parsed 23 questions, numbers 51…75)
-10-10 12:53:50   [Probability] FAILED set 03: no version passed the checks — files left as they were
-10-10 13:21:04   [Trigonometry] Practice_hi_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
 10-10 13:22:05   [Probability] repaired set 04 (en + hi, key confirmed by an independent re-solve)
 10-10 13:23:00   [Trigonometry] repaired set 03 (en + hi, key confirmed by an independent re-solve)
 10-10 13:23:14   [Probability] set 05 try 1: rejected (parsed 24 questions, numbers 101…125)
@@ -83,4 +77,8 @@
 10-10 13:48:21   [Probability] set 02 try 3: rejected (parsed 23 questions, numbers 26…50)
 10-10 13:49:11   [Noun] review: 1 section(s) corrected, 0 failed
 10-10 13:49:11   [Noun] written 1, failed 0; AI calls today 95/100000
+10-10 13:49:34 DONE 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_01_Noun in 2 min → 681f8f98
+10-10 13:49:37 worker 0: nothing left
+10-10 13:50:45   [Probability] set 02 try 4: rejected (parsed 23 questions, numbers 26…50)
+10-10 13:50:45   [Probability] FAILED set 02: no version passed the checks — files left as they were
 ```
