@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 07:12 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
+**आख़िरी update:** 10-10-2026 07:15 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 63 मिनट |
-| W2 | Chapter 10 Clock Calendar (12th Reasoning) | 🔎 review हो रहा है | 34 मिनट |
-| W3 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 24 मिनट |
-| W4 | Chapter 14 Alphabet Questions (12th Reasoning) | 🔎 review हो रहा है | 0 मिनट |
-| W5 | Chapter 22 Figure Series (12th Reasoning) | ✍️ लिख रहा है | 20 मिनट |
-| W6 | Chapter 19 Cubes Dice (12th Reasoning) | ✍️ लिख रहा है | 60 मिनट |
-| W7 | Chapter 20 Mirror Water Images (12th Reasoning) | ✍️ लिख रहा है | 43 मिनट |
-| W8 | Chapter 21 Paper Folding Cutting (12th Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 66 मिनट |
+| W2 | Chapter 10 Clock Calendar (12th Reasoning) | 🔎 review हो रहा है | 37 मिनट |
+| W3 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 27 मिनट |
+| W4 | Chapter 14 Alphabet Questions (12th Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W5 | Chapter 22 Figure Series (12th Reasoning) | ✍️ लिख रहा है | 23 मिनट |
+| W6 | Chapter 19 Cubes Dice (12th Reasoning) | ✍️ लिख रहा है | 62 मिनट |
+| W7 | Chapter 20 Mirror Water Images (12th Reasoning) | ✍️ लिख रहा है | 46 मिनट |
+| W8 | Chapter 23 Syllogism (12th Reasoning) | ✍️ लिख रहा है | 2 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,6 +37,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 10-10 07:15 — 12th Reasoning · Chapter 14 Alphabet Questions
 - 10-10 07:12 — 12th Reasoning · Chapter 21 Paper Folding Cutting
 - 10-10 06:51 — 12th Reasoning · Chapter 15 Mathematical Operations
 - 10-10 06:33 — 12th Reasoning · Chapter 18 Inequality
@@ -51,16 +52,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 06:53:48   [Figure_Series] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-10-10 06:54:21   [Cubes_Dice] Practice_en_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
-10-10 06:54:58   [Alphabet_Questions] review Feynman_en.txt: 1 issue(s): - The rule "Opposite direction words? The numbers add — but only after you flip everything to one side using 27" is
-10-10 06:55:42   [Alphabet_Questions] review Feynman_hi.txt: 1 issue(s): - The memory‑aid grouping “U–Z (21–25)” is wrong: Z is the 26th letter, so the fifth block should be “U–Y (21–25)” 
-10-10 06:55:45   [Cubes_Dice] Practice_en_Set_05.txt try 2: rejected (Q121:leaked_reasoning,Q125:answer_solution_conflict)
-10-10 06:56:18   [Dictionary_Order] Practice_en_Set_02.txt try 2: re-solve disagrees (Q26 key c vs re-solve ?, Q34 key a vs re-solve ?, Q38 key a vs re-solve ?, Q43 key c vs re-solve d, 
-10-10 06:57:40   [Alphabet_Questions] review Flashcards_en.txt: 2 issue(s): - Card 9 claims "Only one — M, the 14th letter" remains at the same position when the alphabet is reversed → Cor
-10-10 06:58:39   [Mirror_Water_Images] Practice_en_Set_02.txt try 3: re-solve disagrees (Q26 key b vs re-solve -, Q27 key c vs re-solve -, Q28 key c vs re-solve -, Q29 key d vs re-solve -, 
-10-10 06:59:24   [Cubes_Dice] Practice_en_Set_05.txt try 3: re-solve disagrees (Q105 key a vs re-solve c)
-10-10 06:59:44   [Sitting_Arrangement] Practice_en_Set_02.txt try 2: re-solve disagrees (Q29 key b vs re-solve c, Q47 key d vs re-solve a)
 10-10 07:00:07   [Alphabet_Questions] REJECTED review fix Flashcards_en.txt: corrupted characters
 10-10 07:00:09   [Paper_Folding_Cutting] review PYQ_hi.txt: 2 issue(s): - प्रश्न 1 का उत्तर (c) और हल गलत → सही उत्तर (a) है, क्योंकि छेद दोनों सिलवटों के मिलन-बिंदु पर है, इसलिए खोलने पर 1 छ
 10-10 07:00:17   [Clock_Calendar] review Flashcards_en.txt: 2 issue(s): - Card 16 back incorrectly states "Wednesday." as the answer → The correct answer is Saturday (61 days after Mon
@@ -91,4 +82,14 @@
 10-10 07:12:23   [Paper_Folding_Cutting] review: 3 section(s) corrected, 0 failed
 10-10 07:12:23   [Paper_Folding_Cutting] written 3, failed 0; AI calls today 215/100000
 10-10 07:12:31   [Alphabet_Questions] review Flashcards_en.txt: 1 issue(s): - Card 9 back states "Only one — M, the 14th letter" as the answer, but the correct answer is zero letters remai
+10-10 07:12:42 DONE 12th_Level/Reasoning/Chapter_21_Paper_Folding_Cutting in 38 min → de187c58
+10-10 07:12:44 START 12th_Level/Reasoning/Chapter_23_Syllogism (TODO: todo 10, problems 2)
+10-10 07:13:13   [Clock_Calendar] review PYQ_hi.txt: 2 issue(s): - "हर बड़ी परीक्षा में इस अध्याय से 1–3 प्रश्न लगभग तय माने जाते हैं" (unverified weightage claim without specific exam
+10-10 07:13:57   [Mirror_Water_Images] Practice_en_Set_04.txt try 3: re-solve disagrees (Q78 key a vs re-solve b, Q79 key b vs re-solve a, Q89 key a vs re-solve ?, Q91 key d vs re-solve a, 
+10-10 07:14:29   [Alphabet_Questions] review PYQ_en.txt: 4 issue(s): - Q2 first answer given as (b) → should be (a) M
+10-10 07:15:15   [Dictionary_Order] Practice_en_Set_02.txt try 4: re-solve disagrees (Q26 key d vs re-solve ?, Q34 key a vs re-solve ?, Q38 key a vs re-solve ?, Q44 key c vs re-solve d)
+10-10 07:15:15   [Dictionary_Order] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
+10-10 07:15:15   [Dictionary_Order] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+10-10 07:15:19   [Alphabet_Questions] review: 2 section(s) corrected, 0 failed
+10-10 07:15:19   [Alphabet_Questions] written 2, failed 0; AI calls today 223/100000
 ```

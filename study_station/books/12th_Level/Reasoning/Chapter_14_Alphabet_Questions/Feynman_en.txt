@@ -1,0 +1,63 @@
+# 🧒 The Feynman Way: Alphabet Questions Explained Like You're 12
+
+## The Hardest Concept: "Which letter is the Nth from the left/right of another letter?"
+
+Most students don't fail alphabet questions because they're hard. They fail because of one sneaky sentence:
+
+> *"Which letter is 5th to the **right** of the 8th letter from the **left**?"*
+
+Your brain reads "right" and "left" in the same line and short-circuits. Let me fix that forever with a story.
+
+---
+
+## 🚌 The Story of the School Bus Line
+
+Imagine 26 children standing in a line for the school bus. Child **A** is first, child **Z** is last. You are the bus monitor with a clipboard.
+
+Now, here's the golden rule of any line in the world:
+
+- **"From the left"** means: start counting from A (position 1, 2, 3…).
+- **"To the right of"** means: move **forward** in the line → **ADD**.
+- **"To the left of"** means: move **backward** in the line → **SUBTRACT**.
+
+That's it. The whole chapter is just **walking in a line**.
+
+**Try it:** "5th to the right of the 8th letter from the left."
+
+1. Find the 8th letter from the left → that's **H** (A=1, B=2 … H=8).
+2. Now walk 5 steps to the right (forward): 8 + 5 = 13.
+3. The 13th letter is **M**. Done. ✅
+
+**The trap version:** "5th to the **left** of the 8th letter from the **right**."
+
+1. 8th from the right = 27 − 8 = **19th from the left** → that's **S**.
+2. Walk 5 steps left (backward): 19 − 5 = 14 → **N**. ✅
+
+Notice the magic number **27**? Since there are 26 letters, *any* position from the right converts to the left by: **27 − (right position)**. The 1st from the right (Z) is 27 − 1 = 26th from the left. It always works.
+
+---
+
+## 🎯 The Unforgettable Trick: "RIGHT is PLUS, LEFT is MINUS, and 27 is the Bridge"
+
+Say it out loud three times:
+
+> **"Right = Add, Left = Subtract, and 27 flips the side."**
+
+The method has exactly two steps, always in this order:
+
+1. **Flip first:** If the reference position is given "from the right", convert it to "from the left" using **27 − (right position)**. Now everything is measured from one side only.
+2. **Then walk:** Apply the direction word to the converted position — **"right of" = add**, **"left of" = subtract**.
+
+That's the whole trick. Don't try to add or subtract based on whether the two direction words "match" — just flip to the left side first, then walk. Example: "left of the 8th from the right" → flip (27 − 8 = 19), then walk left (19 − 5 = 14). The direction word alone tells you whether to add or subtract.
+
+And for "middle letter between two letters" questions: add their positions, divide by 2. Between D (4) and J (10)? (4+10)/2 = 7 → **G**. If you get a ".5", there is no single middle letter — that's the examiner's trap!
+
+---
+
+## 📝 Blurting Sheet
+
+Now try to write down all key points of this chapter on a blank sheet without looking up: the EJOTY positions (E=5, J=10, O=15, T=20, Y=25), the 27-bridge rule, right=add / left=subtract, opposite-letter pairs that sum to 27 (A–Z, B–Y, C–X…), and the middle-letter formula. Then check what you missed — that gap is exactly what to revise tonight.
+
+---
+
+**Question for you:** If I ask for the letter that is 6th to the left of the 10th letter from the right — can you solve it in under 15 seconds using only the number 27?

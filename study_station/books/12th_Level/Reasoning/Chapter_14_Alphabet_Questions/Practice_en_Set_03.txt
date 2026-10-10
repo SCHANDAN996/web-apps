@@ -1,0 +1,151 @@
+Questions 51–75: Medium
+
+51. If the letters of the English alphabet are written in reverse order, which letter will be 8th to the right of the 15th letter from the left?
+(a) D (b) C (c) E (d) F
+Answer: (a)
+Solution: In the reversed alphabet, position n from the left equals normal position 27 − n. The 15th letter from the left is L, and 8 positions to its right is position 23, which corresponds to normal position 27 − 23 = 4. The trap is adding 8 to 15 and reading the 23rd letter of the normal alphabet (W); the reversal must be accounted for, so the answer is D.
+Source: PYQ-style
+
+52. How many pairs of letters in the word "CREATIVE" have as many letters between them in the word as in the English alphabet?
+(a) One (b) Four (c) Three (d) Two
+Answer: (c)
+Solution: Checking all pairs systematically, three pairs match: C–E (one letter between in both), T–V (one letter between in both) and A–E (three letters between in both, since A is at position 4 and E at position 8 in the word). The trap is stopping after finding C–E and T–V and missing A–E, so the answer is Three.
+Source: PYQ-style
+
+53. If A = 1, B = 2, … Z = 26, what is the value of the word "CAB"?
+(a) 5 (b) 7 (c) 8 (d) 6
+Answer: (d)
+Solution: C = 3, A = 1, B = 2; sum = 3 + 1 + 2 = 6. The trap is miscounting C as 4 or multiplying instead of adding, so the answer is 6.
+Source: PYQ-style
+
+54. Which letter is exactly midway between the 10th letter from the left and the 20th letter from the left in the English alphabet?
+(a) O (b) N (c) M (d) P
+Answer: (a)
+Solution: The midway position is (10 + 20)/2 = 15, and the 15th letter is O. The trap is counting inclusively and landing on N or P, so the answer is O.
+Source: PYQ-style
+
+55. In the word "DELIGHT", if the first and third letters are interchanged, and the second and fifth letters are interchanged, which letter will be third from the right?
+(a) I (b) G (c) L (d) E
+Answer: (d)
+Solution: After swapping the 1st and 3rd letters, DELIGHT becomes L E D I G H T; after swapping the 2nd and 5th, it becomes L G D I E H T. Counting from the right: T(1), H(2), E(3). The trap is applying only one swap, so the answer is E.
+Source: PYQ-style
+
+56. If every alternate letter starting from the first letter of the word "FRIEND" is removed, which letter will be in the middle of the remaining letters?
+(a) R (b) I (c) E (d) D
+Answer: (c)
+Solution: Removing the 1st, 3rd and 5th letters (F, I, N) leaves R, E, D, whose middle letter is E. The trap is removing the even-positioned letters instead, which would leave F, I, N, so the answer is E.
+Source: PYQ-style
+
+57. Which letter is 7th to the left of the 18th letter from the left in the English alphabet?
+(a) L (b) K (c) J (d) M
+Answer: (b)
+Solution: The 18th letter from the left is R, and 7 positions to its left is position 18 − 7 = 11, which is K. The trap is adding instead of subtracting (giving Y) or counting R itself as the first step (giving J), so the answer is K.
+Source: PYQ-style
+
+58. If the alphabet is divided into two equal halves, which letter is the last letter of the first half?
+(a) L (b) M (c) N (d) K
+Answer: (b)
+Solution: 26 letters split into two halves of 13 each; the first half ends at the 13th letter, which is M. The trap is choosing N, which is the first letter of the second half, so the answer is M.
+Source: PYQ-style
+
+59. In a certain code, the letters of the alphabet are numbered such that vowels are numbered 1 to 5 and consonants continue from 6. Under this scheme (A=1, E=2, I=3, O=4, U=5, B=6, C=7, D=8, F=9…), what is the code for G?
+(a) 9 (b) 11 (c) 10 (d) 12
+Answer: (c)
+Solution: The consonants in order are B=6, C=7, D=8, F=9, G=10. The trap is treating G as the 7th letter and adding 5 to get 11 or 12, ignoring that the vowels are numbered separately, so the answer is 10.
+Source: PYQ-style
+
+60. How many meaningful English words can be formed using the letters E, A, T (using each letter only once)?
+(a) Two (b) Five (c) Four (d) Three
+Answer: (d)
+Solution: The meaningful words are EAT, TEA and ATE — three in all. The trap is counting arrangements like TAE, which is not a standard English word, so the answer is Three.
+Source: PYQ-style
+
+61. If the word "MASTER" is written in reverse order, which letter will be second to the left of the third letter from the right?
+(a) T (b) R (c) A (d) E
+Answer: (d)
+Solution: The reversed word is R E T S A M. The third letter from the right is S, and the second letter to its left is E. The trap is counting from the left of the original word instead of the reversed one, so the answer is E.
+Source: PYQ-style
+
+62. Which of the following words will come first in a dictionary?
+(a) Plaster (b) Plasma (c) Plaque (d) Planet
+Answer: (d)
+Solution: All four words begin with "Pla", so compare the fourth letters: s, n, q, s. The smallest is "n" in Planet. The trap is comparing later letters before fixing the fourth letter, so the answer is Planet.
+Source: PYQ-style
+
+63. If the positions of the letters in the word "GARDEN" are reversed, which letter or letters will be in the middle?
+(a) Only R (b) D and R both (c) Only D (d) Only E
+Answer: (b)
+Solution: The reversed word is N E D R A G, which has 6 letters, so the two middle positions (3rd and 4th) are occupied by D and R. The trap is picking only one of them, but with an even number of letters both share the middle, so the answer is D and R both.
+Source: PYQ-style
+
+64. Find the missing letter in the series: B, E, H, K, ?
+(a) M (b) N (c) O (d) L
+Answer: (b)
+Solution: The pattern adds 3 each time: B(2), E(5), H(8), K(11), so the next is 14 = N. The trap is adding 2 or 4 by miscounting positions, so the answer is N.
+Source: PYQ-style
+
+65. Find the missing letter: Z, X, U, Q, ?
+(a) M (b) N (c) L (d) K
+Answer: (c)
+Solution: The gaps increase: Z→X is −2, X→U is −3, U→Q is −4, so the next gap is −5: Q(17) − 5 = 12 = L. The trap is continuing a constant gap of −3, which would wrongly give N, so the answer is L.
+Source: PYQ-style
+
+66. In the series A, C, F, J, O, ?, what comes next?
+(a) V (b) U (c) S (d) T
+Answer: (b)
+Solution: The gaps are +2, +3, +4, +5, so the next gap is +6: O(15) + 6 = 21 = U. The trap is applying +5 again, which would give T, so the answer is U.
+Source: PYQ-style
+
+67. If the letters of the word "POLITE" are arranged alphabetically, which letter will be third from the left?
+(a) I (b) O (c) L (d) P
+Answer: (c)
+Solution: In alphabetical order the letters are E, I, L, O, P, T, and the third from the left is L. The trap is forgetting that E comes before I, so the answer is L.
+Source: PYQ-style
+
+68. How many letters in the word "BLEND" remain in the same position when the letters are arranged in alphabetical order?
+(a) Two (b) Three (c) One (d) Four
+Answer: (a)
+Solution: The original order is B L E N D and the alphabetical order is B D E L N; comparing position by position, B stays at position 1 and E stays at position 3, while L, N and D all move. The trap is checking only the first letter and answering One, so the answer is Two.
+Source: PYQ-style
+
+69. If A is coded as Z, B as Y, C as X (opposite-letter coding), how is "DOG" coded?
+(a) WLT (b) XLU (c) WLU (d) VLT
+Answer: (a)
+Solution: The opposite of D (4th) is W (23rd), of O (15th) is L (12th), and of G (7th) is T (20th), so DOG becomes WLT. The trap is shifting letters by a fixed number instead of using opposite positions (27 − n), so the answer is WLT.
+Source: PYQ-style
+
+70. Which letter is the 9th to the right of the letter which is 12th from the left in the English alphabet?
+(a) U (b) S (c) T (d) V
+Answer: (a)
+Solution: The 12th letter from the left is L, and 9 positions to its right is position 12 + 9 = 21, which is U. The trap is counting L itself as the first step, which would wrongly give T, so the answer is U.
+Source: PYQ-style
+
+71. How many pairs of letters in the word "DREAM" have as many letters between them in the word as in the English alphabet?
+(a) Two (b) Three (c) One (d) Four
+Answer: (c)
+Solution: Only the pair D–A matches: in the word D R E A M there are two letters (R, E) between D and A, and in the alphabet there are two letters (B, C) between A and D. The trap is counting D–E, which are adjacent in the alphabet but have R between them in the word, so the answer is One.
+Source: PYQ-style
+
+72. If the first half of the alphabet is written in reverse order, which letter will be 5th to the right of the 10th letter from the left?
+(a) O (b) P (c) M (d) N
+Answer: (a)
+Solution: The new arrangement begins M L K J I H G F E D C B A N O P…, so the 10th letter from the left is D. Counting 5 to its right: C(1), B(2), A(3), N(4), O(5). The trap is stopping at N by miscounting, so the answer is O.
+Source: PYQ-style
+
+73. Find the odd one out:
+(a) BE (b) HL (c) JM (d) DG
+Answer: (b)
+Solution: In BE, DG and JM the second letter is 3 positions ahead of the first (B+3=E, D+3=G, J+3=M), but in HL the gap is 4 (H+4=L). The trap is checking only that the letters are different without measuring the gap, so the answer is HL.
+Source: PYQ-style
+
+74. If the letters of the word "TRIANGLE" are arranged with vowels first (in alphabetical order) followed by consonants (in alphabetical order), which letter will be fourth from the left?
+(a) A (b) I (c) L (d) G
+Answer: (d)
+Solution: The vowels are A, E, I and the consonants are G, L, N, R, T, giving the arrangement A E I G L N R T, in which the fourth letter is G. The trap is miscounting the vowels in TRIANGLE and starting the consonants one place too early, so the answer is G.
+Source: PYQ-style
+
+75. In the series C, G, L, R, ?, what is the next letter?
+(a) Y (b) Z (c) W (d) X
+Answer: (a)
+Solution: The gaps are C→G = +4, G→L = +5, L→R = +6, so the next gap is +7: R(18) + 7 = 25 = Y. The trap is applying +6 again, which would wrongly give X, so the answer is Y.
+Source: PYQ-style

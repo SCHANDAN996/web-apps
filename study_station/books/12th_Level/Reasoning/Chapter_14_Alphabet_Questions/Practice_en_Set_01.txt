@@ -1,0 +1,151 @@
+Questions 1–20: Easy | Questions 21–25: Medium
+
+1. Which letter is 7th to the right of the 13th letter of the English alphabet?
+(a) T (b) S (c) U (d) R
+Answer: (a)
+Solution: The 13th letter is M. Counting 7 letters to the right: N(1), O(2), P(3), Q(4), R(5), S(6), T(7). The trap is counting M itself as the first step, which wrongly gives S. So the answer is T.
+Source: PYQ-style
+
+2. How many letters are there between the 8th letter from the left and the 6th letter from the right in the English alphabet?
+(a) 11 (b) 13 (c) 12 (d) 10
+Answer: (c)
+Solution: The 8th letter from the left is H. The 6th letter from the right is the 21st from the left, i.e. U. Letters between H and U = 21 − 8 − 1 = 12. The trap is forgetting to subtract 1, which gives 13. So the answer is 12.
+Source: PYQ-style
+
+3. Which letter is exactly in the middle of the English alphabet?
+(a) N (b) L (c) M (d) Between M and N
+Answer: (d)
+Solution: The alphabet has 26 letters, an even number, so there is no single middle letter; the middle falls between the 13th letter M and the 14th letter N. Choosing M or N alone is the trap. So the answer is "Between M and N".
+Source: PYQ-style
+
+4. If the alphabet is written in reverse order, which letter will be 10th from the left?
+(a) P (b) O (c) Q (d) R
+Answer: (c)
+Solution: In reverse order, the 10th letter from the left is the 10th from the right in normal order, i.e. the 27 − 10 = 17th letter = Q. The trap is computing 26 − 10 = 16 = P, which is off by one. So the answer is Q.
+Source: PYQ-style
+
+5. What is the 18th letter of the English alphabet?
+(a) Q (b) S (c) P (d) R
+Answer: (d)
+Solution: Counting A=1, B=2, … the 18th letter is R. A quick check: 13 is M, so 18 is M + 5 = R. So the answer is R.
+Source: PYQ-style
+
+6. Which letter is 5th to the left of the 20th letter of the alphabet?
+(a) O (b) N (c) P (d) M
+Answer: (a)
+Solution: The 20th letter is T. Moving 5 to the left: S(1), R(2), Q(3), P(4), O(5). Counting T itself as step one wrongly gives P. So the answer is O.
+Source: PYQ-style
+
+7. How many vowels are there in the English alphabet?
+(a) 5 (b) 4 (c) 6 (d) 7
+Answer: (a)
+Solution: The vowels are A, E, I, O, U — five in total. The trap is counting Y as a vowel, which gives 6; in standard exam convention Y is treated as a consonant. So the answer is 5.
+Source: PYQ-style
+
+8. Which letter is midway between the 4th and the 16th letters of the alphabet?
+(a) I (b) K (c) H (d) J
+Answer: (d)
+Solution: The middle position between 4 and 16 is (4 + 16) ÷ 2 = 10, and the 10th letter is J. The trap is taking 16 − 4 = 12 and answering L instead of averaging. So the answer is J.
+Source: PYQ-style
+
+9. If A = 1, B = 2, C = 3, … what is the value of the letter X?
+(a) 24 (b) 23 (c) 22 (d) 25
+Answer: (a)
+Solution: X is the 24th letter of the alphabet, so its value is 24. A common slip is confusing X with W (23) or Y (25). So the answer is 24.
+Source: PYQ-style
+
+10. Which letter of the English alphabet is at the position equal to the smallest two-digit number?
+(a) J (b) I (c) K (d) L
+Answer: (a)
+Solution: The smallest two-digit number is 10, and the 10th letter of the alphabet is J. The trap is thinking of 11 as the smallest two-digit number and answering K. So the answer is J.
+Source: PYQ-style
+
+11. What is the sum of the positions of the letters C and F in the alphabet?
+(a) 9 (b) 8 (c) 10 (d) 11
+Answer: (a)
+Solution: C is the 3rd letter and F is the 6th letter, so 3 + 6 = 9. The trap is multiplying or miscounting F as the 7th letter. So the answer is 9.
+Source: PYQ-style
+
+12. Which letter comes immediately before the letter that comes immediately after S?
+(a) T (b) S (c) R (d) U
+Answer: (b)
+Solution: The letter immediately after S is T, and the letter immediately before T is S itself. The trap is over-thinking and answering R or T. So the answer is S.
+Source: PYQ-style
+
+13. How many letters in the English alphabet have a position number that is a multiple of 5?
+(a) 4 (b) 5 (c) 6 (d) 7
+Answer: (b)
+Solution: Multiples of 5 up to 26 are 5, 10, 15, 20, 25 — five positions, namely E, J, O, T, Y. Including 30 is impossible since the alphabet ends at 26. So the answer is 5.
+Source: PYQ-style
+
+14. If the letters of the alphabet are numbered from Z = 1 to A = 26, what is the value of K?
+(a) 15 (b) 14 (c) 17 (d) 16
+Answer: (d)
+Solution: K is the 11th letter from A, so in reverse numbering its value is 27 − 11 = 16. The trap is using 26 − 11 = 15, which is off by one. So the answer is 16.
+Source: PYQ-style
+
+15. Which letter is 9th from the right end of the English alphabet?
+(a) Q (b) R (c) S (d) P
+Answer: (b)
+Solution: The 9th letter from the right is the 27 − 9 = 18th from the left, which is R. Using 26 − 9 = 17 gives Q, the common trap. So the answer is R.
+Source: PYQ-style
+
+16. Which letter is exactly midway between A and Z in the English alphabet?
+(a) Between L and M (b) Between K and L (c) Between N and O (d) Between M and N
+Answer: (d)
+Solution: A is 1st and Z is 26th; the midpoint is (1 + 26) ÷ 2 = 13.5, i.e. between the 13th letter M and the 14th letter N. The trap is halving 26 to get 13 and naming M alone. So the answer is "Between M and N".
+Source: PYQ-style
+
+17. How many consonants are there in the English alphabet?
+(a) 20 (b) 22 (c) 21 (d) 19
+Answer: (c)
+Solution: There are 26 letters and 5 vowels, so consonants = 26 − 5 = 21. The trap is subtracting 6 vowels by counting Y, which gives 20. So the answer is 21.
+Source: PYQ-style
+
+18. Which letter is the 4th vowel from the left in the alphabet?
+(a) U (b) E (c) O (d) I
+Answer: (c)
+Solution: The vowels in order are A(1st), E(2nd), I(3rd), O(4th), U(5th). The trap is counting letters instead of vowels and answering D. So the answer is O.
+Source: PYQ-style
+
+19. If every alternate letter starting from A is removed (A, C, E, …), which letter will be the 5th in the remaining sequence?
+(a) I (b) H (c) J (d) K
+Answer: (c)
+Solution: Removing A, C, E, G, … leaves B, D, F, H, J, K, … The 5th remaining letter is J. The trap is counting from the original alphabet, giving E or I. So the answer is J.
+Source: PYQ-style
+
+20. What is the position of the letter T from the right end of the alphabet?
+(a) 5th (b) 6th (c) 8th (d) 7th
+Answer: (d)
+Solution: T is the 20th letter from the left, so from the right it is 27 − 20 = 7th. Using 26 − 20 = 6 is the off-by-one trap. So the answer is 7th.
+Source: PYQ-style
+
+21. In the word "MANGO", which letter is 2nd to the right of the letter that is 2nd to the left of G?
+(a) N (b) G (c) A (d) O
+Answer: (b)
+Solution: In M-A-N-G-O, the letter 2nd to the left of G is A, and the letter 2nd to the right of A is G (N is 1st, G is 2nd). The trap is mixing up left and right or stopping after one step, which gives N. So the answer is G.
+Source: PYQ-style
+
+22. If the first half of the alphabet is reversed, which letter will be 10th from the left?
+(a) D (b) C (c) E (d) B
+Answer: (a)
+Solution: Reversing A–M gives M, L, K, J, I, H, G, F, E, D, C, B, A, then N…Z. The 10th letter is D. The trap is reversing the whole alphabet or the second half instead. So the answer is D.
+Source: PYQ-style
+
+23. How many meaningful English words can be formed using the letters E, A, T (each used once)?
+(a) 5 (b) 3 (c) 4 (d) 2
+Answer: (b)
+Solution: The meaningful words are EAT, TEA, and ATE — three words. The trap is counting all 6 arrangements instead of only meaningful words. So the answer is 3.
+Source: PYQ-style
+
+24. In a certain code, each letter is replaced by the letter 3 places ahead (A→D, B→E, …). How is "CAB" written in this code?
+(a) FDB (b) FDE (c) EDC (d) FBE
+Answer: (b)
+Solution: C + 3 = F, A + 3 = D, B + 3 = E, giving FDE. The trap is shifting backward or shifting only some letters, as in the wrong options. So the answer is FDE.
+Source: PYQ-style
+
+25. If the letters of the word "LEADER" are arranged in alphabetical order, which letter will be in the middle?
+(a) D (b) A (c) E (d) L
+Answer: (c)
+Solution: Alphabetical order of L, E, A, D, E, R is A, D, E, E, L, R. With 6 letters, the middle lies between the 3rd and 4th letters, both of which are E, so the middle letter is E. The trap is picking the 3rd letter only or ignoring the repeated E. So the answer is E.
+Source: PYQ-style

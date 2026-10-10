@@ -1,0 +1,151 @@
+Questions 126–145: Easy | Questions 146–150: Moderate
+
+126. If the letters of the word "CHAMPION" are arranged in alphabetical order, how many letters remain in the same position as in the original word?
+(a) None (b) One (c) Three (d) Two
+Answer: (b)
+Solution: The trap is comparing with the reverse order or counting letters that merely stay in the same half of the word. Alphabetical order of C, H, A, M, P, I, O, N is A, C, H, I, M, N, O, P; comparing position by position with C-H-A-M-P-I-O-N, only O (7th position) stays in place. So the answer is One.
+Source: PYQ-style
+
+127. In the English alphabet, which letter is exactly midway between the 4th letter from the left and the 9th letter from the right?
+(a) J (b) L (c) K (d) M
+Answer: (c)
+Solution: The trap is counting the 9th letter from the right as R's neighbour by counting from the left. The 9th letter from the right is 26 − 9 + 1 = 18th from the left (R), and the 4th from the left is D; midway between positions 4 and 18 is (4 + 18)/2 = 11, which is K. So the answer is K.
+Source: PYQ-style
+
+128. In the word "ALPHABET", how many letters lie between the two A's?
+(a) 4 (b) 3 (c) 5 (d) 2
+Answer: (b)
+Solution: The trap is misreading the word and placing the second A at position 6, which would wrongly give 4. In A-L-P-H-A-B-E-T the A's are at positions 1 and 5, so the letters between them are L, P, H — three letters. So the answer is 3.
+Source: PYQ-style
+
+129. If A = 1, B = 2, … Z = 26, what is the value of the word "CAB" multiplied by the value of the word "BAD"?
+(a) 40 (b) 36 (c) 42 (d) 48
+Answer: (c)
+Solution: The trap is adding all six letters together (6 + 7 = 13) or multiplying the letter counts instead of the word values. CAB = 3 + 1 + 2 = 6 and BAD = 2 + 1 + 4 = 7, so the product is 6 × 7 = 42. So the answer is 42.
+Source: PYQ-style
+
+130. In a certain code, the letters of the alphabet are numbered in reverse order (Z = 1, Y = 2, … A = 26). What is the sum of the codes of the letters in "DOG"?
+(a) 60 (b) 55 (c) 52 (d) 58
+Answer: (b)
+Solution: The trap is using the normal positions D = 4, O = 15, G = 7 (sum 26) instead of the reversed ones. Reverse code = 27 − normal position: D = 23, O = 12, G = 20, and 23 + 12 + 20 = 55. So the answer is 55.
+Source: PYQ-style
+
+131. Which of the following words will appear third in a standard English dictionary?
+(a) GRAVITY (b) GRANITE (c) GRAPE (d) GRASP
+Answer: (d)
+Solution: The trap is comparing only the first three letters, which are identical (GRA) in three options. Compare the 4th letters: GRANITE (N), GRAPE (P), GRASP (S), GRAVITY (V), giving the order GRANITE, GRAPE, GRASP, GRAVITY. So the answer is GRASP.
+Source: PYQ-style
+
+132. If every alternate letter of the alphabet starting from B is deleted (B, D, F, …), which letter will be the 7th letter of the remaining sequence?
+(a) O (b) N (c) K (d) M
+Answer: (d)
+Solution: The trap is counting the 7th letter of the original alphabet (G) or deleting the odd-position letters instead. The remaining letters are A, C, E, G, I, K, M, O, Q, S, U, W, Y, and the 7th is M. So the answer is M.
+Source: PYQ-style
+
+133. The positions of how many letters in the word "WONDERFUL" remain unchanged when the letters are arranged in reverse alphabetical order?
+(a) Two (b) One (c) Four (d) Three
+Answer: (a)
+Solution: The trap is assuming only the first letter W stays fixed and stopping there. Reverse alphabetical order of W, O, N, D, E, R, F, U, L is W, U, R, O, N, L, F, E, D; comparing position by position, W (1st) and F (7th) both stay in place. So the answer is Two.
+Source: PYQ-style
+
+134. If the first half of the alphabet is written in reverse order, which letter will be 5th to the right of the 12th letter from the left?
+(a) B (b) C (c) Q (d) R
+Answer: (c)
+Solution: The trap is reversing the whole alphabet or the second half instead of the first. The new sequence is M L K J I H G F E D C B A N O P Q R S T U V W X Y Z; the 12th letter is B, and five positions to its right (13th to 17th: A, N, O, P, Q) ends at Q. So the answer is Q.
+Source: PYQ-style
+
+135. How many meaningful English words can be formed using the letters E, A, R, T (each letter used exactly once)?
+(a) Two (b) Three (c) Four (d) Five
+Answer: (b)
+Solution: The trap is counting non-words like "ERTA" or missing the valid word TARE (a weed). The valid four-letter words are RATE, TEAR and TARE — three in all. So the answer is Three.
+Source: PYQ-style
+
+136. In the word "SUBSTANTIAL", if all vowels are replaced by the next letter of the alphabet and all consonants by the previous letter, how many letters of the new string are vowels?
+(a) One (b) Three (c) Two (d) Four
+Answer: (a)
+Solution: The trap is counting the original four vowels (U, A, I, A), but each vowel shifts to the next letter and becomes a consonant (V, B, J, B). Among the consonants shifting one step back (S→R, B→A, T→S, N→M, L→K), only B→A produces a vowel. So the answer is One.
+Source: PYQ-style
+
+137. What is the 15th letter of the sequence obtained by writing the alphabet in reverse and then interchanging the positions of the 1st and 26th, 2nd and 25th letters, and so on (i.e., reversing again)?
+(a) O (b) N (c) P (d) K
+Answer: (a)
+Solution: The trap is performing the double operation mechanically and miscounting somewhere in the middle. Reversing the alphabet twice restores the original order A to Z, whose 15th letter is O. So the answer is O.
+Source: PYQ-style
+
+138. Which meaningful English word is formed by rearranging the letters of "NIGHT"?
+(a) THIGN (b) GNITH (c) THING (d) HINGT
+Answer: (c)
+Solution: The trap is picking an arrangement that looks plausible but is not an English word. Rearranging N, I, G, H, T gives the everyday word THING; the other arrangements are meaningless strings. So the answer is THING.
+Source: PYQ-style
+
+139. Which letter is 9th to the left of the letter which is 6th to the right of the 10th letter from the left in the English alphabet?
+(a) E (b) F (c) H (d) G
+Answer: (d)
+Solution: The trap is adding all the movements (10 + 6 + 9 = 25 → Y) instead of subtracting opposite directions. The 6th letter to the right of the 10th is the 16th letter (P), and 9 to the left of P is 16 − 9 = 7, which is G. So the answer is G.
+Source: PYQ-style
+
+140. In the word "CABLE", how many pairs of letters have as many letters between them in the word as there are between them in the English alphabet?
+(a) Three (b) Two (c) One (d) Four
+Answer: (c)
+Solution: The trap is counting C–A, which are adjacent in the word but have B between them in the alphabet. Checking all pairs, only A–B matches: adjacent in the word (positions 2 and 3) and adjacent in the alphabet. So the answer is One.
+Source: PYQ-style
+
+141. In a code, each letter's value is twice its normal alphabetical position (A = 2, B = 4, … Z = 52). What is the value of "CAT"?
+(a) 44 (b) 50 (c) 46 (d) 48
+Answer: (d)
+Solution: The trap is forgetting to double and writing C + A + T = 3 + 1 + 20 = 24. Doubling each position gives C = 6, A = 2, T = 40, and 6 + 2 + 40 = 48. So the answer is 48.
+Source: PYQ-style
+
+142. Arrange the words in dictionary order and pick the one that comes last: 1. PRECEDE 2. PRECAUTION 3. PRECIOUS 4. PRECISE
+(a) PRECEDE (b) PRECIOUS (c) PRECISE (d) PRECAUTION
+Answer: (c)
+Solution: The trap is stopping at "PRE", which is common to all four words. The 4th letters are A (PRECAUTION), E (PRECEDE), I (PRECIOUS), I (PRECISE); between the two I-words, the 5th letter O comes before S, so PRECISE comes after PRECIOUS. So the answer is PRECISE.
+Source: PYQ-style
+
+143. If the alphabet is divided into two halves and each half is written in reverse order, which letter is the 14th in the new sequence?
+(a) Z (b) A (c) N (d) M
+Answer: (a)
+Solution: The trap is answering N, the last letter of the new sequence, by confusing "14th from the start" with the end. The new sequence is M L K J I H G F E D C B A followed by Z Y X W V U T S R Q P O N, so the 14th letter (first of the second half) is Z. So the answer is Z.
+Source: PYQ-style
+
+144. How many letters in the word "JUXTAPOSITION" appear exactly twice?
+(a) Three (b) Two (c) Four (d) Five
+Answer: (a)
+Solution: The trap is missing one of the repeated letters or counting letters that appear only once. Counting each letter: T appears twice, O appears twice, I appears twice, and J, U, X, A, P, S, N appear once each — three letters appear exactly twice. So the answer is Three.
+Source: PYQ-style
+
+145. In the alphabet A to Z, every letter whose original position is a multiple of 3 is removed (C, F, I, …). Which letter is removed 5th?
+(a) L (b) O (c) M (d) N
+Answer: (b)
+Solution: The trap is recounting positions after each removal, which changes the positions; here the rule fixes the original positions. The multiples of 3 are positions 3, 6, 9, 12, 15, i.e. C, F, I, L, O, so the 5th letter removed is O. So the answer is O.
+Source: PYQ-style
+
+146. If "MONDAY" is written as "NPOEBZ" (each letter shifted +1), how is "FRIDAY" written in the same code, and what is the first letter of the code?
+(a) G (b) E (c) S (d) H
+Answer: (a)
+Solution: The trap is shifting only the first letter or shifting −1, which would give EQHCZX. Shifting every letter of FRIDAY by +1 gives F→G, R→S, I→J, D→E, A→B, Y→Z, i.e. GSJEBZ, whose first letter is G. So the answer is G.
+Source: PYQ-style
+
+147. The sum of the alphabetical positions of the letters of which of these words is the greatest?
+(a) TRY (b) ZOO (c) SKY (d) WHY
+Answer: (a)
+Solution: The trap is assuming the word containing Z automatically wins. WHY = 23 + 8 + 25 = 56, ZOO = 26 + 15 + 15 = 56, SKY = 19 + 11 + 25 = 55, but TRY = 20 + 18 + 25 = 63, which is the greatest. So the answer is TRY.
+Source: PYQ-style
+
+148. If the letters of the alphabet are assigned values A = 26, B = 25, … Z = 1, what is the difference between the values of "HE" and "ME"?
+(a) 3 (b) 4 (c) 6 (d) 5
+Answer: (d)
+Solution: The trap is mixing normal and reverse values for different letters in the same word. Reverse values: H = 19, E = 22, M = 14, so HE = 41 and ME = 36, and the difference is 41 − 36 = 5. So the answer is 5.
+Source: PYQ-style
+
+149. In the word "CONCENTRATION", if the first and last letters are interchanged, the second and second-last, and so on, which letter will be in the 7th position?
+(a) R (b) T (c) N (d) A
+Answer: (b)
+Solution: The trap is assuming the middle letter also moves during the interchange. The word has 13 letters, so complete interchange reverses it, and the 7th (middle) letter stays fixed; the 7th letter of C-O-N-C-E-N-T-R-A-T-I-O-N is T. So the answer is T.
+Source: PYQ-style
+
+150. A sequence is formed by writing the alphabet and then deleting all letters whose position is a perfect square (1, 4, 9, 16, 25). Which letter is the 10th in the new sequence?
+(a) K (b) N (c) L (d) M
+Answer: (d)
+Solution: The trap is reading the 10th letter of the original alphabet (J) after deleting A, D, I, P, Y. The remaining sequence begins B, C, E, F, G, H, J, K, L, M, and counting carefully the 10th letter is M. So the answer is M.
+Source: PYQ-style
