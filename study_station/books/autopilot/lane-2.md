@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 02:22 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:29 AM
+**आख़िरी update:** 10-10-2026 02:34 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:29 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 152 मिनट |
-| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 29 मिनट |
-| W8 | Chapter 27 Number Series (Graduation Maths) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 164 मिनट |
+| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 41 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -47,12 +46,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 13:46:38   [Geometry] review Flashcards_hi.txt: 1 issue(s): - कार्ड 1: '180° (अर्धवृत्त के कोण के बराबर)' incorrectly claims that the angle of a semicircle is 180°; the ang
-10-10 13:50:03   [Probability] Practice_en_Set_06.txt try 3: rejected (parsed 23 questions, numbers 126…150)
-10-10 13:52:48   [Probability] Practice_en_Set_06.txt try 4: rejected (parsed 23 questions, numbers 126…150)
-10-10 13:52:48   [Probability] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
-10-10 13:52:48   [Probability] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-10-10 13:52:48   [Probability] written 0, failed 10; AI calls today 114/100000
 10-10 13:52:48 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability after 143 min: todo ['Set 02 en: todo', 'Set 02 hi: todo', 'Set 03 en: todo', 'Set 03 hi: todo'] problems ['Flashcards_hi.txt: Hindi file is mostly not in Hindi', 'Flashcards_hi.txt: much shorter than the English section (46', 'Short_Tricks_hi.txt: much shorter than the English section (']
 10-10 13:52:52 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability (TODO: todo 10, problems 3)
 10-10 13:54:58   [Probability] Practice_en_Set_02.txt try 1: rejected (parsed 23 questions, numbers 26…50)
@@ -87,4 +80,10 @@
 10-10 14:20:51   [Linear_Programming] Practice_en_Set_05.txt try 1: rejected (Q106:answer_solution_conflict,Q112:leaked_reasoning,Q114:leaked_reasoning,Q116:leaked_reasoning,Q121:leaked_re
 10-10 14:22:37   [Number_Series] review: 7 section(s) corrected, 0 failed
 10-10 14:22:37   [Number_Series] written 7, failed 0; AI calls today 145/100000
+10-10 14:23:01 DONE Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_27_Number_Series in 172 min → a5361f37
+10-10 14:23:05 worker 7: nothing left
+10-10 14:26:10   [Linear_Programming] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+10-10 14:32:10   [Probability] Practice_en_Set_04.txt try 4: rejected (parsed 22 questions, numbers 76…100)
+10-10 14:32:10   [Probability] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
+10-10 14:32:10   [Probability] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
 ```
