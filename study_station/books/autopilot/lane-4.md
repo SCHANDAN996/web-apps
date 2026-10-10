@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 10-10-2026 02:22 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:34 PM
+**आख़िरी update:** 10-10-2026 02:23 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:34 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -20,11 +20,11 @@
 | 12th GK | 22 | 2 | 0 |
 | 12th Reasoning | 19 | 0 | 6 |
 | 12th English | 25 | 0 | 0 |
-| Graduation Maths | 22 | 0 | 6 |
+| Graduation Maths | 23 | 0 | 5 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 22 | 0 | 8 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **264** | **7** | **25** |
+| **कुल** | **265** | **7** | **24** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -42,7 +42,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 12:57:29   [Number_System] written 1, failed 0; AI calls today 27/100000
 10-10 12:57:29 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System after 15 min: todo [] problems ['Important_Formulas_hi.txt: much shorter than the English sec']
 10-10 12:57:33 worker 2: nothing left
 10-10 13:00:10   [Probability] Practice_en_Set_06.txt try 1: rejected (parsed 24 questions, numbers 126…149)
@@ -82,4 +81,5 @@
 10-10 14:16:55   [Probability] written 0, failed 1; AI calls today 56/100000
 10-10 14:16:55 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_20_Probability after 12 min: todo ['Set 03 hi: todo'] problems ['Content_en.txt: does not mention the chapter topic (probabil']
 10-10 14:16:59 worker 5: nothing left
+10-10 14:23:15 autopilot end: done 0, failed 6
 ```
