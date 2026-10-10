@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 11-10-2026 04:46 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:59 AM
+**आख़िरी update:** 11-10-2026 05:02 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:59 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,12 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | 🔧 सुधार रहा है | 11 मिनट |
-| W2 | Chapter 13 Dictionary Order (12th Reasoning) | 🔎 review हो रहा है | 46 मिनट |
-| W3 | Chapter 16 Statement Conclusion (12th Reasoning) | 🔧 सुधार रहा है | 9 मिनट |
-| W4 | Chapter 17 Course of Action (12th Reasoning) | 🔧 सुधार रहा है | 10 मिनट |
-| W5 | Chapter 20 Mirror Water Images (12th Reasoning) | 🔧 सुधार रहा है | 4 मिनट |
-| W6 | Chapter 24 Statement Assumption (12th Reasoning) | 🔧 सुधार रहा है | 1 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | 🔧 सुधार रहा है | 4 मिनट |
+| W2 | Chapter 13 Dictionary Order (12th Reasoning) | 🔎 review हो रहा है | 62 मिनट |
+| W3 | Chapter 16 Statement Conclusion (12th Reasoning) | 🔧 सुधार रहा है | 1 मिनट |
+| W4 | Chapter 17 Course of Action (12th Reasoning) | 🔧 सुधार रहा है | 1 मिनट |
+| W5 | Chapter 20 Mirror Water Images (12th Reasoning) | 🔧 सुधार रहा है | 9 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,7 +38,7 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 24 Statement Assumption (Reasoning) — 1 बार
+- Chapter 24 Statement Assumption (Reasoning) — 2 बार
 - Chapter 07 Sitting Arrangement (Reasoning) — 1 बार
 - Chapter 17 Course of Action (Reasoning) — 1 बार
 - Chapter 16 Statement Conclusion (Reasoning) — 1 बार
@@ -48,19 +47,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 04:00:11 START 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images (FIX: todo 0, problems 1)
-11-10 04:00:16 START 12th_Level/Reasoning/Chapter_24_Statement_Assumption (FIX: todo 0, problems 1)
-11-10 04:00:21 worker 6: nothing left
-11-10 04:00:26 worker 7: nothing left
-11-10 04:03:15   [Dictionary_Order] review Flashcards_en.txt: 1 issue(s): - Card 14 claims "M is the middle letter of the alphabet (13 letters before it, 13 after it)" → M is the 13th le
-11-10 04:12:30   [Course_of_Action] repaired Short_Tricks_hi.txt (4822 chars)
-11-10 04:12:30   [Course_of_Action] written 1, failed 0; AI calls today 12/100000
-11-10 04:18:56   [Statement_Assumption] FAILED Short_Tricks_hi.txt: network
-11-10 04:18:56   [Statement_Assumption] written 0, failed 1; AI calls today 12/100000
-11-10 04:23:16   [Sitting_Arrangement] FAILED Short_Tricks_hi.txt: network
-11-10 04:23:16   [Sitting_Arrangement] written 0, failed 1; AI calls today 12/100000
-11-10 04:23:26   [Statement_Conclusion] FAILED Flashcards_hi.txt: network
-11-10 04:23:26   [Statement_Conclusion] written 0, failed 1; AI calls today 12/100000
 11-10 04:23:36   [Mirror_Water_Images] FAILED Flashcards_hi.txt: network
 11-10 04:23:36   [Mirror_Water_Images] written 0, failed 1; AI calls today 12/100000
 11-10 04:24:21   [Statement_Assumption] repaired Short_Tricks_hi.txt (4510 chars)
@@ -88,4 +74,17 @@
 11-10 04:42:18 START 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images (FIX: todo 0, problems 1)
 11-10 04:45:33   [Statement_Assumption] FAILED Short_Tricks_hi.txt: empty
 11-10 04:45:33   [Statement_Assumption] written 0, failed 1; AI calls today 19/100000
+11-10 04:51:45   [Dictionary_Order] review Short_Tricks_hi.txt: 1 issue(s): - File content is corrupted/garbled (only repetitive numbers like "3.", "4.", "5.") with no coherent education
+11-10 04:52:43   [Mirror_Water_Images] repaired Flashcards_hi.txt (3418 chars)
+11-10 04:52:43   [Mirror_Water_Images] written 1, failed 0; AI calls today 22/100000
+11-10 04:55:55   [Statement_Assumption] repaired Short_Tricks_hi.txt (3758 chars)
+11-10 04:55:55   [Statement_Assumption] written 1, failed 0; AI calls today 23/100000
+11-10 04:55:55 NOT OK 12th_Level/Reasoning/Chapter_24_Statement_Assumption after 32 min: todo [] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
+11-10 04:55:58 worker 5: nothing left
+11-10 04:57:54   [Sitting_Arrangement] FAILED Short_Tricks_hi.txt: network
+11-10 04:57:54   [Sitting_Arrangement] written 0, failed 1; AI calls today 22/100000
+11-10 05:00:17   [Course_of_Action] repaired Short_Tricks_hi.txt (5990 chars)
+11-10 05:00:17   [Course_of_Action] written 1, failed 0; AI calls today 23/100000
+11-10 05:00:30   [Statement_Conclusion] FAILED Flashcards_hi.txt: network
+11-10 05:00:30   [Statement_Conclusion] written 0, failed 1; AI calls today 23/100000
 ```
