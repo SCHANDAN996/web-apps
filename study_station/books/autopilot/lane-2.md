@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 08:22 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
+**आख़िरी update:** 10-10-2026 08:38 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 26 Permutation Combination (Graduation Maths) | 🔎 review हो रहा है | 39 मिनट |
-| W4 | Chapter 27 Number Series (Graduation Maths) | ✍️ लिख रहा है | 104 मिनट |
-| W5 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 57 मिनट |
-| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 10 मिनट |
+| W4 | Chapter 27 Number Series (Graduation Maths) | ✍️ लिख रहा है | 119 मिनट |
+| W5 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 72 मिनट |
+| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 25 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -47,20 +46,12 @@
 - Chapter 22 Calculus (Maths) — 2 बार
 - Chapter 15 Geometry (Maths) — 2 बार
 - Chapter 19 Trigonometry (Maths) — 2 बार
-- Chapter 26 Permutation Combination (Maths) — 1 बार
+- Chapter 26 Permutation Combination (Maths) — 2 बार
 - Chapter 25 Probability (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 07:49:29   [Data_Interpretation] review Important_Formulas_hi.txt: 1 issue(s): - दो मानों का प्रतिशत अंतर सूत्र में निरपेक्ष मान (|A−B|) का उपयोग गलत है; "B की तुलना में A कितना % अधि
-10-10 07:49:35   [Trigonometry] Practice_en_Set_06.txt try 1: rejected (parsed 22 questions, numbers 126…150)
-10-10 07:51:47   [Linear_Programming] Feynman_hi.txt try 1: rejected (corrupted characters)
-10-10 07:52:59   [Probability] Practice_en_Set_06.txt try 1: rejected (parsed 23 questions, numbers 126…150)
-10-10 07:53:38   [Data_Interpretation] review: 9 section(s) corrected, 0 failed
-10-10 07:53:38   [Data_Interpretation] written 9, failed 0; AI calls today 243/100000
-10-10 07:53:57 DONE Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_23_Data_Interpretation in 101 min → 353af194
-10-10 07:54:01 worker 0: nothing left
 10-10 07:54:19   [Trigonometry] Practice_en_Set_06.txt try 2: rejected (parsed 24 questions, numbers 126…150)
 10-10 07:54:35   [Number_Series] wrote Short_Tricks_hi.txt (8816 chars)
 10-10 07:54:43   [Permutation_Combination] review PYQ_en.txt: 1 issue(s): - Q5: Option (b) is 604800 but the correct answer is 64800 → Option (b) should be 64800.
@@ -93,4 +84,12 @@
 10-10 08:19:11   [Number_Series] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 10-10 08:20:43   [Linear_Programming] wrote Flashcards_en.txt (3962 chars)
 10-10 08:22:53   [Permutation_Combination] review Important_Formulas_en.txt: 2 issue(s): - Selection with at least one of each type: formula (p+1)(q+1)(r+1)…−1 is for non-empty selection overal
+10-10 08:24:27   [Linear_Programming] wrote Flashcards_hi.txt (3416 chars)
+10-10 08:28:22   [Linear_Programming] wrote PYQ_en.txt (395 chars)
+10-10 08:29:07   [Number_Series] Practice_en_Set_02.txt try 1: rejected (Q34:leaked_reasoning,Q45:leaked_reasoning,Q46:leaked_reasoning)
+10-10 08:32:47   [Permutation_Combination] review: 3 section(s) corrected, 1 failed
+10-10 08:32:47   [Permutation_Combination] written 3, failed 1; AI calls today 272/100000
+10-10 08:32:47 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_26_Permutation_Combination after 61 min: todo [] problems []
+10-10 08:32:51 worker 1: nothing left
+10-10 08:34:57   [Linear_Programming] wrote PYQ_hi.txt (8093 chars)
 ```
