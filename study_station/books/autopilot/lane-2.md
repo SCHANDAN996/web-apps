@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 01:02 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:29 AM
+**आख़िरी update:** 10-10-2026 01:18 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:29 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 72 मिनट |
-| W3 | Chapter 15 Geometry (Graduation Maths) | 🔎 review हो रहा है | 12 मिनट |
-| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 92 मिनट |
-| W8 | Chapter 27 Number Series (Graduation Maths) | 🔎 review हो रहा है | 33 मिनट |
+| W2 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 87 मिनट |
+| W3 | Chapter 15 Geometry (Graduation Maths) | 🔎 review हो रहा है | 28 मिनट |
+| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 108 मिनट |
+| W8 | Chapter 27 Number Series (Graduation Maths) | 🔎 review हो रहा है | 49 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -46,10 +46,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 12:23:56   [Number_Series] written 4, failed 0; AI calls today 61/100000
-10-10 12:25:39   [Geometry] repaired Feynman_hi.txt (3685 chars)
-10-10 12:27:18   [Trigonometry] Practice_hi_Set_05.txt try 2: rejected (parsed 24 questions, numbers 101…124)
-10-10 12:27:38   [Linear_Programming] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 10-10 12:28:48   [Number_Series] repaired PYQ_hi.txt (6783 chars)
 10-10 12:28:48   [Number_Series] written 1, failed 0; AI calls today 65/100000
 10-10 12:29:50   [Probability] Practice_en_Set_03.txt try 3: rejected (parsed 23 questions, numbers 51…75)
@@ -86,4 +82,8 @@
 10-10 12:56:16   [Probability] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
 10-10 13:00:12   [Linear_Programming] Practice_hi_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
 10-10 13:02:51   [Probability] Practice_en_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 13:11:41   [Probability] Practice_en_Set_05.txt try 2: rejected (parsed 22 questions, numbers 101…125)
+10-10 13:15:09   [Probability] Practice_en_Set_05.txt try 3: rejected (parsed 22 questions, numbers 101…125)
+10-10 13:15:47   [Linear_Programming] Practice_hi_Set_02.txt try 2: rejected (parsed 0 questions, numbers -…-)
+10-10 13:18:12   [Geometry] review Flashcards_en.txt: 2 issue(s): - Missing answer for sum of exterior angles of any convex polygon → should be 360°
 ```
