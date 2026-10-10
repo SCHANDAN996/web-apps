@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 09:39 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
+**आख़िरी update:** 10-10-2026 09:54 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W4 | Chapter 27 Number Series (Graduation Maths) | ✍️ लिख रहा है | 180 मिनट |
-| W5 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 134 मिनट |
-| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 86 मिनट |
+| W4 | Chapter 27 Number Series (Graduation Maths) | ✍️ लिख रहा है | 196 मिनट |
+| W5 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 149 मिनट |
+| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 102 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -26,9 +26,9 @@
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 21 | 2 | 5 |
 | Graduation GK | 27 | 1 | 0 |
-| Graduation Reasoning | 16 | 0 | 14 |
+| Graduation Reasoning | 17 | 0 | 13 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **254** | **5** | **37** |
+| **कुल** | **255** | **5** | **36** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -52,14 +52,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 08:12:10   [Permutation_Combination] review PYQ_hi.txt: 1 issue(s): - Question 8: The stated problem (6 red, 5 white, choose 4 with at least 2 red) yields 265 ways, but the answer key say
-10-10 08:12:22   [Probability] Practice_en_Set_06.txt try 4: rejected (parsed 22 questions, numbers 126…150)
-10-10 08:12:22   [Probability] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
-10-10 08:12:22   [Probability] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-10-10 08:12:22   [Probability] written 1, failed 10; AI calls today 259/100000
-10-10 08:12:22 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability after 109 min: todo ['Set 02 en: todo', 'Set 02 hi: todo', 'Set 03 en: todo', 'Set 03 hi: todo'] problems ['Flashcards_hi.txt: Hindi file is mostly not in Hindi', 'Flashcards_hi.txt: much shorter than the English section (46', 'Short_Tricks_hi.txt: much shorter than the English section (']
-10-10 08:12:26 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability (TODO: todo 10, problems 3)
-10-10 08:14:08   [Number_Series] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
 10-10 08:17:22   [Probability] Practice_en_Set_02.txt try 1: rejected (parsed 21 questions, numbers 26…50)
 10-10 08:19:11   [Number_Series] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 10-10 08:20:43   [Linear_Programming] wrote Flashcards_en.txt (3962 chars)
@@ -92,4 +84,12 @@
 10-10 09:28:40   [Number_Series] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 10-10 09:30:07   [Probability] FAILED Practice_en_Set_03.txt: network
 10-10 09:30:07   [Probability] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
+10-10 09:40:58   [Probability] Practice_en_Set_04.txt try 1: rejected (parsed 23 questions, numbers 76…100)
+10-10 09:45:14   [Probability] Practice_en_Set_04.txt try 2: rejected (parsed 22 questions, numbers 76…100)
+10-10 09:49:44   [Probability] Practice_en_Set_04.txt try 3: rejected (parsed 0 questions, numbers -…-)
+10-10 09:51:31   [Linear_Programming] Important_Formulas_hi.txt try 1: answer too long — asking for a tighter version
+10-10 09:52:55   [Number_Series] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+10-10 09:54:15   [Probability] Practice_en_Set_04.txt try 4: rejected (parsed 22 questions, numbers 76…100)
+10-10 09:54:15   [Probability] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
+10-10 09:54:15   [Probability] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
 ```
