@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 02:22 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:34 AM
+**आख़िरी update:** 10-10-2026 02:38 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:34 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 29 Logical Consistency (Graduation Reasoning) | ✍️ लिख रहा है | 104 मिनट |
-| W5 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 101 मिनट |
-| W7 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | 🔎 review हो रहा है | 87 मिनट |
-| W8 | Chapter 26 Data Sufficiency (Graduation Reasoning) | ⏳ अगला अध्याय चुन रहा है | -1 मिनट |
+| W2 | Chapter 29 Logical Consistency (Graduation Reasoning) | ✍️ लिख रहा है | 0 मिनट |
+| W5 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 116 मिनट |
+| W8 | Chapter 26 Data Sufficiency (Graduation Reasoning) | ✍️ लिख रहा है | 15 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -27,11 +26,11 @@
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 19 | 0 | 6 |
 | 12th English | 25 | 0 | 0 |
-| Graduation Maths | 22 | 0 | 6 |
+| Graduation Maths | 23 | 0 | 5 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 24 | 2 | 4 |
 | Graduation English | 29 | 1 | 0 |
-| **कुल** | **266** | **5** | **25** |
+| **कुल** | **267** | **5** | **24** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -46,29 +45,14 @@
 - Chapter 22 Para Jumbles Adv (English) — 2 बार
 - Chapter 02 Classification (Reasoning) — 2 बार
 - Chapter 25 Statement Argument (Reasoning) — 2 बार
-- Chapter 21 Paper Folding Cutting (Reasoning) — 1 बार
+- Chapter 21 Paper Folding Cutting (Reasoning) — 2 बार
 - Chapter 13 Dictionary Order (Reasoning) — 2 बार
 - Chapter 26 Data Sufficiency (Reasoning) — 1 बार
+- Chapter 29 Logical Consistency (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 13:30:19   [Logical_Consistency] Practice_en_Set_04.txt try 1: rejected (Q82:leaked_reasoning)
-10-10 13:32:00   [Advanced_Puzzles] Practice_en_Set_01.txt try 2: re-solve disagrees (Q6 key c vs re-solve a, Q17 key c vs re-solve d, Q21 key a vs re-solve b)
-10-10 13:32:34   [Paper_Folding_Cutting] review Content_hi.txt: 1 issue(s): - "खुला कागज़ हमेशा उतनी सममितियाँ रखता है जितने मोड़ लगे थे" → खुले कागज़ में सममिति अक्षों की संख्या **मोड़ों की 
-10-10 13:33:49   [Data_Sufficiency] Practice_en_Set_04.txt try 3: re-solve disagrees (Q95 key c vs re-solve d)
-10-10 13:35:06   [Critical_Reasoning] review PYQ_en.txt: 1 issue(s): - 'SSC CGL / CHSL / NTPC' incorrectly groups NTPC under SSC exams → NTPC is conducted by RRB (Railway Recruitment Board
-10-10 13:35:11   [Paper_Folding_Cutting] review Feynman_en.txt: 2 issue(s): - "The Har Part" in the subheading → "The Hard Part"
-10-10 13:36:33   [Data_Sufficiency] Practice_en_Set_04.txt try 4: re-solve disagrees (Q90 key c vs re-solve a)
-10-10 13:36:33   [Data_Sufficiency] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
-10-10 13:36:33   [Data_Sufficiency] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
-10-10 13:39:24   [Logical_Consistency] Practice_en_Set_04.txt try 2: re-solve disagrees (Q77 key a vs re-solve -, Q85 key c vs re-solve b, Q96 key a vs re-solve -, Q97 key d vs re-solve -, 
-10-10 13:42:03   [Paper_Folding_Cutting] review Flashcards_hi.txt: 1 issue(s): - Card 15 incorrectly states “खुला कोना = मूल कागज़ का केंद्र” → the open corner after two folds is the original
-10-10 13:42:18   [Data_Sufficiency] Practice_en_Set_05.txt try 1: re-solve disagrees (Q110 key d vs re-solve c, Q118 key b vs re-solve d, Q120 key c vs re-solve d)
-10-10 13:45:13   [Critical_Reasoning] review Important_Rules_hi.txt: 1 issue(s): - Negation Test example uses an incorrect logical negation: “कोई बिल्ली काली नहीं” is not the proper negati
-10-10 13:45:48   [Logical_Consistency] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-10-10 13:47:21   [Critical_Reasoning] review: 3 section(s) corrected, 0 failed
-10-10 13:47:21   [Critical_Reasoning] written 3, failed 0; AI calls today 298/100000
 10-10 13:47:27   [Data_Sufficiency] Practice_en_Set_05.txt try 2: re-solve disagrees (Q125 key d vs re-solve c)
 10-10 13:47:34 DONE Graduation_Level/Reasoning/Chapter_28_Critical_Reasoning in 115 min → 62ba40f2
 10-10 13:47:36 worker 0: nothing left
@@ -93,4 +77,20 @@
 10-10 14:22:52   [Data_Sufficiency] written 8, failed 2; AI calls today 325/100000
 10-10 14:22:52 NOT OK Graduation_Level/Reasoning/Chapter_26_Data_Sufficiency after 154 min: todo ['Set 04 en: todo', 'Set 04 hi: todo'] problems []
 10-10 14:22:54 START Graduation_Level/Reasoning/Chapter_26_Data_Sufficiency (TODO: todo 2, problems 0)
+10-10 14:23:32   [Data_Sufficiency] Practice_en_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 14:24:20   [Paper_Folding_Cutting] review: 4 section(s) corrected, 1 failed
+10-10 14:24:20   [Paper_Folding_Cutting] written 4, failed 1; AI calls today 328/100000
+10-10 14:24:20 NOT OK Graduation_Level/Reasoning/Chapter_21_Paper_Folding_Cutting after 123 min: todo [] problems []
+10-10 14:24:22 worker 6: nothing left
+10-10 14:27:05   [Logical_Consistency] Practice_en_Set_06.txt try 3: re-solve disagrees (Q128 key b vs re-solve a, Q132 key d vs re-solve a, Q145 key a vs re-solve d)
+10-10 14:28:47   [Advanced_Puzzles] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+10-10 14:32:20   [Advanced_Puzzles] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+10-10 14:35:02   [Data_Sufficiency] Practice_en_Set_04.txt try 2: re-solve disagrees (Q77 key a vs re-solve c, Q78 key c vs re-solve a, Q79 key b vs re-solve a, Q80 key a vs re-solve d, 
+10-10 14:36:00   [Advanced_Puzzles] Practice_en_Set_03.txt try 1: rejected (Q55:leaked_reasoning,Q65:leaked_reasoning,Q69:leaked_reasoning,Q73:leaked_reasoning)
+10-10 14:37:46   [Logical_Consistency] Practice_en_Set_06.txt try 4: re-solve disagrees (Q127 key a vs re-solve d, Q128 key c vs re-solve a, Q129 key d vs re-solve a, Q145 key b vs re-solve
+10-10 14:37:46   [Logical_Consistency] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+10-10 14:37:46   [Logical_Consistency] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+10-10 14:37:46   [Logical_Consistency] written 6, failed 4; AI calls today 335/100000
+10-10 14:37:46 NOT OK Graduation_Level/Reasoning/Chapter_29_Logical_Consistency after 119 min: todo ['Set 05 en: todo', 'Set 05 hi: todo', 'Set 06 en: todo', 'Set 06 hi: todo'] problems []
+10-10 14:37:48 START Graduation_Level/Reasoning/Chapter_29_Logical_Consistency (TODO: todo 4, problems 0)
 ```
