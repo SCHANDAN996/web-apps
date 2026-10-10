@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 09:28 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
+**आख़िरी update:** 10-10-2026 09:43 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 28 Critical Reasoning (Graduation Reasoning) | ✍️ लिख रहा है | 2 मिनट |
-| W2 | Chapter 27 Decision Making (Graduation Reasoning) | ✍️ लिख रहा है | 10 मिनट |
-| W3 | Chapter 24 Statement Assumption (Graduation Reasoning) | 🔎 review हो रहा है | 9 मिनट |
-| W4 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 28 मिनट |
-| W5 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 105 मिनट |
-| W6 | Chapter 26 Data Sufficiency (Graduation Reasoning) | ✍️ लिख रहा है | 64 मिनट |
-| W7 | Chapter 25 Statement Argument (Graduation Reasoning) | ✍️ लिख रहा है | 81 मिनट |
-| W8 | Chapter 20 Mirror Water Images (Graduation Reasoning) | 🔧 सुधार रहा है | 43 मिनट |
+| W1 | Chapter 28 Critical Reasoning (Graduation Reasoning) | ✍️ लिख रहा है | 17 मिनट |
+| W2 | Chapter 27 Decision Making (Graduation Reasoning) | ✍️ लिख रहा है | 25 मिनट |
+| W3 | Chapter 24 Statement Assumption (Graduation Reasoning) | 🔎 review हो रहा है | 24 मिनट |
+| W4 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 43 मिनट |
+| W5 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 121 मिनट |
+| W6 | Chapter 26 Data Sufficiency (Graduation Reasoning) | ✍️ लिख रहा है | 79 मिनट |
+| W7 | Chapter 25 Statement Argument (Graduation Reasoning) | ✍️ लिख रहा है | 96 मिनट |
+| W8 | Chapter 20 Mirror Water Images (Graduation Reasoning) | 🔧 सुधार रहा है | 59 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -58,19 +58,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 09:00:11   [Paper_Folding_Cutting] FAILED Practice_en_Set_06.txt: too_long
-10-10 09:00:11   [Paper_Folding_Cutting] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-10-10 09:00:11   [Paper_Folding_Cutting] written 2, failed 6; AI calls today 229/100000
-10-10 09:00:11 NOT OK Graduation_Level/Reasoning/Chapter_21_Paper_Folding_Cutting after 162 min: todo ['Set 01 en: todo', 'Set 01 hi: todo', 'Set 03 en: todo', 'Set 03 hi: todo'] problems []
-10-10 09:00:14 START Graduation_Level/Reasoning/Chapter_21_Paper_Folding_Cutting (TODO: todo 6, problems 0)
-10-10 09:01:52   [Statement_Assumption] FAILED Practice_en_Set_06.txt: too_long
-10-10 09:01:52   [Statement_Assumption] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-10-10 09:01:52   [Statement_Assumption] written 3, failed 2; AI calls today 229/100000
-10-10 09:01:52 NOT OK Graduation_Level/Reasoning/Chapter_24_Statement_Assumption after 88 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems []
-10-10 09:01:55   [Syllogism] review Important_Rules_hi.txt: 3 issue(s): - "या (Either-Or) की शर्तें" में "कुछ + कुछ नहीं" को मान्य या-जोड़ी बताया गया है (भाग 1 की तालिका और भाग 3 
-10-10 09:01:55 START Graduation_Level/Reasoning/Chapter_24_Statement_Assumption (TODO: todo 2, problems 0)
-10-10 09:04:09   [Statement_Argument] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-10-10 09:05:43   [Figure_Series] review Short_Tricks_hi.txt: 2 issue(s): - Trick 7 claims "परीक्षक की 80% शृंखलाओं में एक कदम में केवल एक तत्व बदलता है" — this is an invented exam sta
 10-10 09:06:18   [Mirror_Water_Images] set 04 try 1: re-solve disagrees (Q81 key c vs re-solve b)
 10-10 09:06:50   [Syllogism] review: 8 section(s) corrected, 1 failed
 10-10 09:06:50   [Syllogism] written 8, failed 1; AI calls today 236/100000
@@ -98,4 +85,17 @@
 10-10 09:26:12 NOT OK Graduation_Level/Reasoning/Chapter_22_Figure_Series after 108 min: todo [] problems []
 10-10 09:26:14 START Graduation_Level/Reasoning/Chapter_28_Critical_Reasoning (TODO: todo 25, problems 0)
 10-10 09:26:43   [Statement_Assumption] review Short_Tricks_hi.txt: 1 issue(s): - Skip Strategy point 2 states "guess की सफलता दर 25% से कम होती है" (guess success rate less than 25%), but f
+10-10 09:29:19   [Statement_Argument] FAILED Practice_en_Set_04.txt: network
+10-10 09:29:19   [Statement_Argument] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
+10-10 09:32:29   [Decision_Making] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+10-10 09:34:48   [Data_Sufficiency] FAILED Practice_en_Set_02.txt: empty
+10-10 09:34:48   [Data_Sufficiency] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+10-10 09:36:01   [Statement_Assumption] review Important_Rules_hi.txt: 1 issue(s): - Negation Test example negates the statement "यह दवा असरदार है" instead of an assumption and omits the ass
+10-10 09:36:02   [Statement_Argument] Practice_en_Set_05.txt try 1: re-solve disagrees (Q115 key a vs re-solve c)
+10-10 09:37:16   [Decision_Making] Practice_en_Set_06.txt try 1: rejected (Q129:leaked_reasoning,Q134:leaked_reasoning)
+10-10 09:37:45   [Mirror_Water_Images] set 04 try 2: re-solve disagrees (Q81 key b vs re-solve a)
+10-10 09:41:56   [Data_Sufficiency] Practice_en_Set_03.txt try 1: rejected (Q57:leaked_reasoning,Q61:leaked_reasoning)
+10-10 09:42:20   [Critical_Reasoning] wrote Content_en.txt (1253 chars)
+10-10 09:43:35   [Statement_Argument] Practice_en_Set_05.txt try 2: re-solve disagrees (Q115 key d vs re-solve c)
+10-10 09:43:54   [Paper_Folding_Cutting] Practice_en_Set_03.txt try 2: re-solve disagrees (Q55 key d vs re-solve a)
 ```
