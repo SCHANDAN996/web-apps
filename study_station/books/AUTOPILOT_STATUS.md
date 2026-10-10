@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 01:37 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:34 AM
+**आख़िरी update:** 10-10-2026 01:47 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:34 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 28 Critical Reasoning (Graduation Reasoning) | 🔎 review हो रहा है | 30 मिनट |
-| W2 | Chapter 29 Logical Consistency (Graduation Reasoning) | ✍️ लिख रहा है | 58 मिनट |
-| W5 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 56 मिनट |
-| W7 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | 🔎 review हो रहा है | 42 मिनट |
-| W8 | Chapter 26 Data Sufficiency (Graduation Reasoning) | ✍️ लिख रहा है | 108 मिनट |
+| W1 | Chapter 28 Critical Reasoning (Graduation Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 29 Logical Consistency (Graduation Reasoning) | ✍️ लिख रहा है | 68 मिनट |
+| W5 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 66 मिनट |
+| W7 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | 🔎 review हो रहा है | 52 मिनट |
+| W8 | Chapter 26 Data Sufficiency (Graduation Reasoning) | ✍️ लिख रहा है | 118 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -36,6 +36,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 10-10 13:47 — Graduation Reasoning · Chapter 28 Critical Reasoning
 - 10-10 12:43 — Graduation Reasoning · Chapter 20 Mirror Water Images
 - 10-10 12:40 — Graduation Reasoning · Chapter 14 Alphabet Questions
 - 10-10 11:48 — Graduation Reasoning · Chapter 22 Figure Series
@@ -52,14 +53,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 12:53:24   [Dictionary_Order] Practice_en_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
-10-10 12:53:41   [Logical_Consistency] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-10-10 12:55:04   [Paper_Folding_Cutting] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-10-10 12:55:04   [Paper_Folding_Cutting] written 2, failed 0; AI calls today 235/100000
-10-10 12:55:39   [Advanced_Puzzles] PYQ_en.txt try 1: rejected (corrupted characters)
-10-10 12:56:10   [Logical_Consistency] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-10-10 12:56:40   [Critical_Reasoning] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-10-10 12:56:41   [Advanced_Puzzles] wrote PYQ_en.txt (7242 chars)
 10-10 12:56:56   [Critical_Reasoning] Practice_hi_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
 10-10 12:58:22   [Dictionary_Order] Practice_en_Set_06.txt try 2: rejected (Q126:leaked_reasoning,Q132:leaked_reasoning,Q134:leaked_reasoning,Q139:leaked_reasoning)
 10-10 12:59:14   [Advanced_Puzzles] wrote PYQ_hi.txt (9953 chars)
@@ -92,4 +85,12 @@
 10-10 13:36:33   [Data_Sufficiency] Practice_en_Set_04.txt try 4: re-solve disagrees (Q90 key c vs re-solve a)
 10-10 13:36:33   [Data_Sufficiency] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
 10-10 13:36:33   [Data_Sufficiency] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
+10-10 13:39:24   [Logical_Consistency] Practice_en_Set_04.txt try 2: re-solve disagrees (Q77 key a vs re-solve -, Q85 key c vs re-solve b, Q96 key a vs re-solve -, Q97 key d vs re-solve -, 
+10-10 13:42:03   [Paper_Folding_Cutting] review Flashcards_hi.txt: 1 issue(s): - Card 15 incorrectly states “खुला कोना = मूल कागज़ का केंद्र” → the open corner after two folds is the original
+10-10 13:42:18   [Data_Sufficiency] Practice_en_Set_05.txt try 1: re-solve disagrees (Q110 key d vs re-solve c, Q118 key b vs re-solve d, Q120 key c vs re-solve d)
+10-10 13:45:13   [Critical_Reasoning] review Important_Rules_hi.txt: 1 issue(s): - Negation Test example uses an incorrect logical negation: “कोई बिल्ली काली नहीं” is not the proper negati
+10-10 13:45:48   [Logical_Consistency] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+10-10 13:47:21   [Critical_Reasoning] review: 3 section(s) corrected, 0 failed
+10-10 13:47:21   [Critical_Reasoning] written 3, failed 0; AI calls today 298/100000
+10-10 13:47:27   [Data_Sufficiency] Practice_en_Set_05.txt try 2: re-solve disagrees (Q125 key d vs re-solve c)
 ```
