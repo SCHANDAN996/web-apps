@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 01:33 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:29 AM
+**आख़िरी update:** 10-10-2026 01:48 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:29 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 103 मिनट |
-| W3 | Chapter 15 Geometry (Graduation Maths) | 🔎 review हो रहा है | 43 मिनट |
-| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 123 मिनट |
-| W8 | Chapter 27 Number Series (Graduation Maths) | 🔎 review हो रहा है | 64 मिनट |
+| W2 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 118 मिनट |
+| W3 | Chapter 15 Geometry (Graduation Maths) | 🔎 review हो रहा है | 58 मिनट |
+| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 138 मिनट |
+| W8 | Chapter 27 Number Series (Graduation Maths) | 🔎 review हो रहा है | 79 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -27,9 +27,9 @@
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 23 | 2 | 3 |
 | Graduation GK | 27 | 1 | 0 |
-| Graduation Reasoning | 21 | 0 | 9 |
+| Graduation Reasoning | 22 | 0 | 8 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **263** | **5** | **28** |
+| **कुल** | **264** | **5** | **27** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -46,9 +46,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 12:34:03   [Probability] Practice_en_Set_03.txt try 4: rejected (parsed 21 questions, numbers 51…75)
-10-10 12:34:03   [Probability] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
-10-10 12:34:03   [Probability] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
 10-10 12:36:04   [Trigonometry] Practice_hi_Set_05.txt try 4: rejected (parsed 24 questions, numbers 101…124)
 10-10 12:36:04   [Trigonometry] REJECTED Practice_hi_Set_05.txt: no translation passed the checks — not written
 10-10 12:38:38   [Probability] Practice_en_Set_04.txt try 1: rejected (parsed 24 questions, numbers 76…100)
@@ -86,4 +83,7 @@
 10-10 13:30:58   [Probability] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
 10-10 13:32:00   [Linear_Programming] Practice_en_Set_03.txt try 1: rejected (Q57:leaked_reasoning,Q64:leaked_reasoning,Q75:answer_solution_conflict)
 10-10 13:32:49   [Number_Series] review PYQ_en.txt: 1 issue(s): - In Q6 solution, the example '15×2−2=28' incorrectly applies the stated rule '×2−1 each time' → it should be '15×2−1=2
+10-10 13:35:00   [Probability] Practice_en_Set_06.txt try 1: rejected (parsed 24 questions, numbers 126…150)
+10-10 13:45:25   [Probability] Practice_en_Set_06.txt try 2: rejected (parsed 24 questions, numbers 126…150)
+10-10 13:46:38   [Geometry] review Flashcards_hi.txt: 1 issue(s): - कार्ड 1: '180° (अर्धवृत्त के कोण के बराबर)' incorrectly claims that the angle of a semicircle is 180°; the ang
 ```
