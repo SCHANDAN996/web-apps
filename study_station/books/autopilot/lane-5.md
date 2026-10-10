@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 10-10-2026 01:21 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:33 PM
+**आख़िरी update:** 10-10-2026 01:36 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:33 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Noun (10th English) | 🔎 review हो रहा है | 41 मिनट |
-| W4 | Chapter 18 Trigonometry (10th Maths) | 🔧 सुधार रहा है | 46 मिनट |
-| W5 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 46 मिनट |
+| W1 | Chapter 01 Noun (10th English) | 🔎 review हो रहा है | 57 मिनट |
+| W4 | Chapter 18 Trigonometry (10th Maths) | 🔧 सुधार रहा है | 62 मिनट |
+| W5 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 62 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -42,19 +42,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 12:43:50   [Verb] written 0, failed 1; AI calls today 23/100000
-10-10 12:43:50 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb after 10 min: todo [] problems ['Set 01 hi: English sentence translated (keep it in English) ']
-10-10 12:43:50 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb (FIX: todo 0, problems 1)
-10-10 12:44:47   [Adjective] Practice_hi_Set_03.txt try 2: rejected (parsed 0 questions, numbers -…-)
-10-10 12:44:57   [Probability] set 02 try 2: rejected (parsed 23 questions, numbers 26…50)
-10-10 12:45:19   [Noun] review Content_en.txt: 2 issue(s): - The list claims "work" and "hair" are always uncountable, but both have countable uses (e.g., "a work of art", "a
-10-10 12:46:00   [Probability] set 02 try 3: rejected (parsed 23 questions, numbers 26…50)
-10-10 12:46:06   [Adjective] FAILED set 03: re-translation still changes English sentences — left as it was
-10-10 12:46:06   [Adjective] written 0, failed 1; AI calls today 30/100000
-10-10 12:46:06 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective after 12 min: todo [] problems ['Set 03 hi: English sentence translated (keep it in English) ']
-10-10 12:46:06 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective (FIX: todo 0, problems 1)
-10-10 12:46:14   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
-10-10 12:46:14   [Verb] written 0, failed 1; AI calls today 32/100000
 10-10 12:47:21   [Trigonometry] repaired set 01 (en + hi, key confirmed by an independent re-solve)
 10-10 12:47:37   [Adjective] FAILED set 03: re-translation still changes English sentences — left as it was
 10-10 12:47:37   [Adjective] written 0, failed 1; AI calls today 34/100000
@@ -82,4 +69,17 @@
 10-10 12:53:50   [Probability] set 03 try 4: rejected (parsed 23 questions, numbers 51…75)
 10-10 12:53:50   [Probability] FAILED set 03: no version passed the checks — files left as they were
 10-10 13:21:04   [Trigonometry] Practice_hi_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 13:22:05   [Probability] repaired set 04 (en + hi, key confirmed by an independent re-solve)
+10-10 13:23:00   [Trigonometry] repaired set 03 (en + hi, key confirmed by an independent re-solve)
+10-10 13:23:14   [Probability] set 05 try 1: rejected (parsed 24 questions, numbers 101…125)
+10-10 13:24:39   [Probability] set 05 try 2: rejected (parsed 24 questions, numbers 101…125)
+10-10 13:26:25   [Probability] set 05 try 3: rejected (parsed 24 questions, numbers 101…125)
+10-10 13:27:38   [Probability] set 05 try 4: rejected (parsed 24 questions, numbers 101…125)
+10-10 13:27:38   [Probability] FAILED set 05: no version passed the checks — files left as they were
+10-10 13:30:14   [Noun] review Flashcards_en.txt: 3 issue(s): - Collective Noun card: Front says "Three examples" but Back lists four (team, family, crowd, army) → Change Fro
+10-10 13:31:15   [Noun] REJECTED review fix Flashcards_en.txt: corrupted characters
+10-10 13:31:45   [Noun] review Flashcards_hi.txt: 1 issue(s): - Front asks for five words that never form a plural, but back lists ten words (advice, information, furniture, 
+10-10 13:31:58   [Trigonometry] repaired set 04 (en + hi, key confirmed by an independent re-solve)
+10-10 13:32:50   [Probability] set 06 try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 13:34:20   [Probability] set 06 try 2: rejected (parsed 23 questions, numbers 126…150)
 ```
