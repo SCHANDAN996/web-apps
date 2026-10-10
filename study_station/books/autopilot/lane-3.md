@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 09:14 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
+**आख़िरी update:** 10-10-2026 09:29 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 43 मिनट |
-| W5 | Chapter 22 Figure Series (12th Reasoning) | ✍️ लिख रहा है | 62 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 58 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -25,9 +24,9 @@
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 20 | 0 | 8 |
 | Graduation GK | 27 | 0 | 1 |
-| Graduation Reasoning | 15 | 0 | 15 |
+| Graduation Reasoning | 16 | 0 | 14 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **252** | **5** | **39** |
+| **कुल** | **253** | **5** | **38** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -46,18 +45,13 @@
 - Chapter 13 Dictionary Order (Reasoning) — 2 बार
 - Chapter 24 Statement Assumption (Reasoning) — 2 बार
 - Chapter 20 Mirror Water Images (Reasoning) — 2 बार
-- Chapter 22 Figure Series (Reasoning) — 1 बार
+- Chapter 22 Figure Series (Reasoning) — 2 बार
 - Chapter 25 Statement Argument (Reasoning) — 2 बार
 - Chapter 07 Sitting Arrangement (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 08:39:10   [Cubes_Dice] review Important_Rules_hi.txt: 1 issue(s): - Example for rule 'दो स्थितियों में एक उभयनिष्ठ फलक' wrongly concludes 1↔6 → The rule only yields 2↔4 and 
-10-10 08:39:16   [Syllogism] review Flashcards_en.txt: 2 issue(s): - Card 13 incorrectly includes "Some A are not B" as a complementary pair for "Some A are B" → The correct compl
-10-10 08:39:47   [Cubes_Dice] review: 9 section(s) corrected, 0 failed
-10-10 08:39:47   [Cubes_Dice] written 9, failed 0; AI calls today 409/100000
-10-10 08:40:09 DONE 12th_Level/Reasoning/Chapter_19_Cubes_Dice in 81 min → 250f70c0
 10-10 08:40:12 worker 5: nothing left
 10-10 08:40:40   [Syllogism] review Flashcards_hi.txt: 1 issue(s): - Card 5 back: “भंसक (रिफ्ट) घाटी” uses the incorrect Hindi word “भंसक” for rift valley → replace with “भ्रंश (र
 10-10 08:41:56   [Mirror_Water_Images] wrote Practice_en_Set_04.txt (write, 25 MCQs)
@@ -93,4 +87,9 @@
 10-10 09:11:55 worker 6: nothing left
 10-10 09:12:57   [Figure_Series] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 10-10 09:14:19   [Sitting_Arrangement] Practice_en_Set_02.txt try 2: re-solve disagrees (Q26 key d vs re-solve a, Q29 key d vs re-solve c, Q35 key a vs re-solve c, Q38 key c vs re-solve b, 
+10-10 09:17:40   [Figure_Series] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+10-10 09:17:40   [Figure_Series] written 5, failed 2; AI calls today 446/100000
+10-10 09:17:40 NOT OK 12th_Level/Reasoning/Chapter_22_Figure_Series after 66 min: todo ['Set 03 en: todo', 'Set 03 hi: todo'] problems ['Feynman_hi.txt: Hindi file is mostly not in Hindi', 'Feynman_hi.txt: much shorter than the English section (693 v', 'Short_Tricks_hi.txt: Hindi file is mostly not in Hindi']
+10-10 09:17:43 worker 4: nothing left
+10-10 09:27:48   [Sitting_Arrangement] Practice_en_Set_02.txt try 3: re-solve disagrees (Q34 key c vs re-solve b, Q50 key b vs re-solve ?)
 ```
