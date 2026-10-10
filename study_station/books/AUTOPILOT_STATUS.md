@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 09:43 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
+**आख़िरी update:** 10-10-2026 09:44 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 28 Critical Reasoning (Graduation Reasoning) | ✍️ लिख रहा है | 17 मिनट |
-| W2 | Chapter 27 Decision Making (Graduation Reasoning) | ✍️ लिख रहा है | 25 मिनट |
-| W3 | Chapter 24 Statement Assumption (Graduation Reasoning) | 🔎 review हो रहा है | 24 मिनट |
-| W4 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 43 मिनट |
-| W5 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 121 मिनट |
-| W6 | Chapter 26 Data Sufficiency (Graduation Reasoning) | ✍️ लिख रहा है | 79 मिनट |
-| W7 | Chapter 25 Statement Argument (Graduation Reasoning) | ✍️ लिख रहा है | 96 मिनट |
-| W8 | Chapter 20 Mirror Water Images (Graduation Reasoning) | 🔧 सुधार रहा है | 59 मिनट |
+| W1 | Chapter 28 Critical Reasoning (Graduation Reasoning) | ✍️ लिख रहा है | 18 मिनट |
+| W2 | Chapter 27 Decision Making (Graduation Reasoning) | ✍️ लिख रहा है | 26 मिनट |
+| W3 | Chapter 24 Statement Assumption (Graduation Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W4 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 44 मिनट |
+| W5 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 122 मिनट |
+| W6 | Chapter 26 Data Sufficiency (Graduation Reasoning) | ✍️ लिख रहा है | 80 मिनट |
+| W7 | Chapter 25 Statement Argument (Graduation Reasoning) | ✍️ लिख रहा है | 97 मिनट |
+| W8 | Chapter 20 Mirror Water Images (Graduation Reasoning) | 🔧 सुधार रहा है | 60 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -39,6 +39,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 10-10 09:44 — Graduation Reasoning · Chapter 24 Statement Assumption
 - 10-10 09:17 — Graduation Reasoning · Chapter 23 Syllogism
 - 10-10 08:06 — Graduation Reasoning · Chapter 19 Cubes Dice
 - 10-10 07:33 — Graduation Reasoning · Chapter 07 Sitting Arrangement
@@ -58,9 +59,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 09:06:18   [Mirror_Water_Images] set 04 try 1: re-solve disagrees (Q81 key c vs re-solve b)
-10-10 09:06:50   [Syllogism] review: 8 section(s) corrected, 1 failed
-10-10 09:06:50   [Syllogism] written 8, failed 1; AI calls today 236/100000
 10-10 09:06:50 NOT OK Graduation_Level/Reasoning/Chapter_23_Syllogism after 134 min: todo [] problems []
 10-10 09:06:53 START Graduation_Level/Reasoning/Chapter_23_Syllogism (OK: todo 0, problems 0)
 10-10 09:09:17   [Syllogism] review Short_Tricks_en.txt: 1 issue(s): - Box 10: The either-or rule incorrectly lists I+O as a valid complementary pair; I and O are subcontraries (t
@@ -98,4 +96,7 @@
 10-10 09:42:20   [Critical_Reasoning] wrote Content_en.txt (1253 chars)
 10-10 09:43:35   [Statement_Argument] Practice_en_Set_05.txt try 2: re-solve disagrees (Q115 key d vs re-solve c)
 10-10 09:43:54   [Paper_Folding_Cutting] Practice_en_Set_03.txt try 2: re-solve disagrees (Q55 key d vs re-solve a)
+10-10 09:43:57   [Decision_Making] Practice_en_Set_06.txt try 2: rejected (parsed 0 questions, numbers -…-)
+10-10 09:44:52   [Statement_Assumption] review: 2 section(s) corrected, 0 failed
+10-10 09:44:52   [Statement_Assumption] written 2, failed 0; AI calls today 280/100000
 ```
