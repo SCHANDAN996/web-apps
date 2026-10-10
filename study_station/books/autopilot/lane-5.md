@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 11-10-2026 04:00 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:59 AM
+**आख़िरी update:** 11-10-2026 04:16 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:59 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 03 Adjective (10th English) | 🔧 सुधार रहा है | 1 मिनट |
-| W2 | Chapter 04 Verb (10th English) | 🔧 सुधार रहा है | 0 मिनट |
+| W2 | Chapter 04 Verb (10th English) | 🔧 सुधार रहा है | 3 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -33,6 +32,10 @@
 
 - अभी कोई नहीं
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 03 Adjective (English) — 2 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
@@ -45,4 +48,19 @@
 11-10 04:00:12 worker 5: nothing left
 11-10 04:00:17 worker 6: nothing left
 11-10 04:00:22 worker 7: nothing left
+11-10 04:02:24   [Adjective] FAILED set 03: re-translation still changes English sentences — left as it was
+11-10 04:02:24   [Adjective] written 0, failed 1; AI calls today 2/100000
+11-10 04:05:26   [Verb] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
+11-10 04:06:36   [Adjective] FAILED set 03: re-translation still changes English sentences — left as it was
+11-10 04:06:36   [Adjective] written 0, failed 1; AI calls today 4/100000
+11-10 04:06:36 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective after 7 min: todo [] problems ['Set 03 hi: English sentence translated (keep it in English) ']
+11-10 04:06:36 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective (FIX: todo 0, problems 1)
+11-10 04:08:44   [Adjective] FAILED set 03: re-translation still changes English sentences — left as it was
+11-10 04:08:44   [Adjective] written 0, failed 1; AI calls today 5/100000
+11-10 04:12:16   [Verb] FAILED set 01: empty
+11-10 04:12:16   [Verb] written 0, failed 1; AI calls today 5/100000
+11-10 04:15:54   [Adjective] FAILED set 03: re-translation still changes English sentences — left as it was
+11-10 04:15:54   [Adjective] written 0, failed 1; AI calls today 6/100000
+11-10 04:15:54 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective after 9 min: todo [] problems ['Set 03 hi: English sentence translated (keep it in English) ']
+11-10 04:15:55 worker 0: nothing left
 ```
