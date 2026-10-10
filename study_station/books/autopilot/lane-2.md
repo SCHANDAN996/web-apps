@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 06:50 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
+**आख़िरी update:** 10-10-2026 07:06 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 23 Data Interpretation (Graduation Maths) | 🔎 review हो रहा है | 0 मिनट |
-| W2 | Chapter 26 Permutation Combination (Graduation Maths) | ✍️ लिख रहा है | 25 मिनट |
-| W3 | Chapter 13 Mixture Alligation (Graduation Maths) | 🔎 review हो रहा है | 28 मिनट |
-| W4 | Chapter 27 Number Series (Graduation Maths) | ✍️ लिख रहा है | 12 मिनट |
-| W5 | Chapter 24 Statistics (Graduation Maths) | 🔎 review हो रहा है | 2 मिनट |
-| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 26 मिनट |
-| W7 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 46 मिनट |
-| W8 | Chapter 20 Heights Distances (Graduation Maths) | 🔎 review हो रहा है | 18 मिनट |
+| W1 | Chapter 23 Data Interpretation (Graduation Maths) | 🔎 review हो रहा है | 15 मिनट |
+| W2 | Chapter 26 Permutation Combination (Graduation Maths) | ✍️ लिख रहा है | 40 मिनट |
+| W3 | Chapter 13 Mixture Alligation (Graduation Maths) | 🔎 review हो रहा है | 43 मिनट |
+| W4 | Chapter 27 Number Series (Graduation Maths) | ✍️ लिख रहा है | 27 मिनट |
+| W5 | Chapter 24 Statistics (Graduation Maths) | 🔎 review हो रहा है | 17 मिनट |
+| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 42 मिनट |
+| W7 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 13 मिनट |
+| W8 | Chapter 20 Heights Distances (Graduation Maths) | 🔎 review हो रहा है | 34 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -27,13 +27,13 @@
 | 10th English | 17 | 0 | 3 |
 | 12th Maths | 19 | 0 | 4 |
 | 12th GK | 22 | 0 | 2 |
-| 12th Reasoning | 11 | 0 | 14 |
+| 12th Reasoning | 12 | 0 | 13 |
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 20 | 2 | 6 |
 | Graduation GK | 27 | 1 | 0 |
 | Graduation Reasoning | 13 | 0 | 17 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **244** | **5** | **47** |
+| **कुल** | **245** | **5** | **46** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -46,34 +46,11 @@
 - Chapter 13 Awards (GK) — 2 बार
 - Chapter 22 Calculus (Maths) — 2 बार
 - Chapter 15 Geometry (Maths) — 2 बार
+- Chapter 19 Trigonometry (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 06:30:39   [Trigonometry] Practice_hi_Set_05.txt try 4: rejected (parsed 0 questions, numbers -…-)
-10-10 06:30:39   [Trigonometry] REJECTED Practice_hi_Set_05.txt: no translation passed the checks — not written
-10-10 06:31:49   [Permutation_Combination] Feynman_en.txt try 1: rejected (chat debris "Here's the")
-10-10 06:31:52   [Heights_Distances] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-10-10 06:31:53   [Heights_Distances] written 2, failed 0; AI calls today 90/100000
-10-10 06:32:29   [Mixture_Alligation] review Mind_Map.txt: 1 issue(s): - "पृथ्थीकरण" (main node & branch C) → "पृथक्कीकरण" (correct Hindi spelling for Alligation)
-10-10 06:33:47   [Probability] Practice_en_Set_02.txt try 2: rejected (parsed 22 questions, numbers 26…50)
-10-10 06:34:05   [Heights_Distances] review Content_en.txt: 1 issue(s): - The Hook states the survey team announced Everest's height in 1852; the height was computed in 1852 but officiall
-10-10 06:35:00   [Data_Interpretation] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-10-10 06:35:02   [Permutation_Combination] Feynman_en.txt try 2: rejected (corrupted characters)
-10-10 06:35:02   [Permutation_Combination] REJECTED Feynman_en.txt: corrupted characters — not written
-10-10 06:38:12   [Probability] Practice_en_Set_02.txt try 3: rejected (parsed 23 questions, numbers 26…50)
-10-10 06:38:23   [Permutation_Combination] wrote Important_Formulas_en.txt (2846 chars)
-10-10 06:38:26   [Geometry] Feynman_en.txt try 2: rejected (chat debris "Here's the")
-10-10 06:38:26   [Geometry] REJECTED Feynman_en.txt: chat debris "Here's the" — not written
-10-10 06:38:26   [Geometry] written 0, failed 1; AI calls today 102/100000
-10-10 06:38:26 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_15_Geometry after 16 min: todo ['Feynman_en.txt'] problems ['Content_hi.txt: Hindi file is mostly not in Hindi', 'Feynman_hi.txt: Hindi file is mostly not in Hindi', 'Short_Tricks_hi.txt: Hindi file is mostly not in Hindi']
-10-10 06:38:30 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_27_Number_Series (TODO: todo 25, problems 0)
-10-10 06:38:45   [Statistics] Practice_en_Set_05.txt try 1: re-solve disagrees (Q111 key c vs re-solve ?, Q120 key b vs re-solve ?, Q123 key a vs re-solve b)
-10-10 06:41:20   [Probability] Practice_en_Set_02.txt try 4: rejected (parsed 0 questions, numbers -…-)
-10-10 06:41:20   [Probability] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
-10-10 06:41:20   [Probability] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
-10-10 06:41:26   [Mixture_Alligation] review Flashcards_en.txt: 1 issue(s): - Card 12's parenthetical formula "Gain% = water/total × 100 when sold at CP" is incorrect → Gain% = (water/milk
-10-10 06:43:00   [Number_Series] wrote Content_en.txt (11249 chars)
 10-10 06:43:50   [Statistics] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 10-10 06:44:02   [Permutation_Combination] Practice_en_Set_04.txt try 1: rejected (Q94:leaked_reasoning)
 10-10 06:45:59   [Heights_Distances] review Content_hi.txt: 1 issue(s): - Mnemonic section's first bullet point contains draft text "**P**andit → **P**erpendicular (लंब) / **B**adri → **B
@@ -90,4 +67,28 @@
 10-10 06:50:40   [Statistics] review Content_en.txt: 1 issue(s): - The claim "This is 95% of what SSC, Banking, and CSAT ask" is an invented exam weightage statistic → Remove the u
 10-10 06:50:42   [Data_Interpretation] repaired Feynman_hi.txt (2322 chars)
 10-10 06:50:42   [Data_Interpretation] written 1, failed 0; AI calls today 124/100000
+10-10 06:51:12   [Data_Interpretation] review Content_en.txt: 3 issue(s): - The entire section is corrupted with markup artifacts (`<|close|>`, `<|open|>`, `think`) and nonsensical fragment
+10-10 06:51:43   [Heights_Distances] review Feynman_hi.txt: 1 issue(s): - The claim "इन तीनों से 90% सवाल बनते हैं" is an invented exam statistic with no source → Remove the percentage or
+10-10 06:52:16   [Permutation_Combination] Practice_en_Set_04.txt try 3: rejected (Q83:leaked_reasoning,Q98:leaked_reasoning)
+10-10 06:52:22   [Trigonometry] FAILED Practice_en_Set_06.txt: too_long
+10-10 06:52:22   [Trigonometry] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+10-10 06:52:22   [Trigonometry] written 0, failed 5; AI calls today 128/100000
+10-10 06:52:22 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_19_Trigonometry after 48 min: todo ['Set 03 en: todo', 'Set 03 hi: todo', 'Set 05 hi: todo', 'Set 06 en: todo'] problems []
+10-10 06:52:26 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_19_Trigonometry (TODO: todo 5, problems 0)
+10-10 06:52:55   [Number_Series] Feynman_en.txt try 2: rejected (chat debris "Here's the")
+10-10 06:52:55   [Number_Series] REJECTED Feynman_en.txt: chat debris "Here's the" — not written
+10-10 06:54:01   [Probability] Practice_en_Set_03.txt try 3: rejected (parsed 21 questions, numbers 51…75)
+10-10 06:54:26   [Mixture_Alligation] review PYQ_hi.txt: 3 issue(s): - Question 6: Initial answer marked as (a) 81 L is wrong; correct answer is (b) 72.9 L. Also the statement "दूध = 567 ल
+10-10 06:56:30   [Statistics] review Feynman_en.txt: 5 issue(s): - The text is corrupted with numerous `<|close|>` tags and fragmented words (e.g., "ures of to a/b", "think", "anal
+10-10 06:56:32   [Heights_Distances] review Mind_Map.txt: 2 issue(s): - E2 formula for two points same side has denominator (tan β − tan α) which yields negative height; correct formula i
+10-10 06:57:57   [Data_Interpretation] review Content_hi.txt: 1 issue(s): - The hook invents a specific exam statistic and year claim (“CAT 2022 के एक स्लॉट में… हज़ारों छात्रों ने उसे छोड़
+10-10 06:58:33   [Number_Series] wrote Feynman_hi.txt (2271 chars)
+10-10 06:58:37   [Permutation_Combination] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+10-10 07:00:50   [Number_Series] wrote Mind_Map.txt (1923 chars)
+10-10 07:01:39   [Trigonometry] Practice_en_Set_03.txt try 1: rejected (parsed 24 questions, numbers 51…75)
+10-10 07:01:45   [Statistics] review PYQ_en.txt: 1 issue(s): - Section content is corrupted markup artifacts (`<|close|>`, `<|open|>`, `think`, `argument`, `thunderstand`, `#ias`) 
+10-10 07:02:08   [Data_Interpretation] review Feynman_en.txt: 1 issue(s): - Section content is corrupted with tokenizer tags (`<|close|>`, `<|open|>`, `<|sep|>`) and fragmented text, making
+10-10 07:02:48   [Permutation_Combination] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+10-10 07:04:15   [Number_Series] Flashcards_en.txt try 1: rejected (corrupted characters)
+10-10 07:05:52   [Data_Interpretation] review Mind_Map.txt: 1 issue(s): - B1: Hindi label "सांख्यिकीय डेटा" means "Statistical Data", not "Numerical Data" → use "संख्यात्मक डेटा" or "मात्रा
 ```
