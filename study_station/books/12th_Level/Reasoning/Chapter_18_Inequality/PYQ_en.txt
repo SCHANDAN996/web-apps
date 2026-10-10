@@ -1,0 +1,163 @@
+# 📊 PYQ Analysis — Inequality (Verbal Reasoning)
+
+*(Pattern analysis based on the style of questions repeatedly seen in SSC, Banking, Railway and similar exams. We do not claim exact year-wise counts; instead, this section tells you **what kind** of questions come, **which sub-topics** dominate, and **what traps** the examiner sets.)*
+
+---
+
+## 1. How Exams Ask Questions from This Chapter
+
+Inequality questions appear in **two distinct formats**, and recognising the format in the first 3 seconds decides your strategy:
+
+**Format A — Direct Symbol Decoding (SSC / Railway favourite)**
+A statement uses symbols like `>`, `<`, `=`, `≥`, `≤` directly, and you must pick which conclusion(s) definitely follow. Sometimes symbols are *defined* in words first: "A @ B means A > B, A # B means A < B…" — you decode, then compare.
+
+**Format B — Coded Inequality (Banking favourite — IBPS, SBI, RBI)**
+Statements are given in coded form (e.g., `P $ Q` means `P ≥ Q`), you translate them into normal symbols, combine the chain, and test two conclusions. Answers follow the classic pattern:
+- (a) Only conclusion I follows
+- (b) Only conclusion II follows
+- (c) Either I or II follows
+- (d) Neither follows
+- (e) Both follow
+
+**Format C — Quantity Comparison (Banking mains / some SSC CGL)**
+"Quantity I vs Quantity II" — rare in pure reasoning, more common in quant, but the *logic* (establish a definite relation or say "cannot be determined") is identical.
+
+---
+
+## 2. Sub-Topics That Repeat Most Often
+
+In words, not numbers — this is what examiners keep returning to:
+
+1. **Single-chain conclusions** — `A > B ≥ C = D`, ask about `A vs D` or `B vs D`. The bread-and-butter question; appears in nearly every paper that touches this chapter.
+2. **Broken-chain / "cannot be determined" traps** — two separate statements like `A > B`, `C > B`, then a conclusion comparing `A` and `C`. The correct answer is almost always "does not follow," and this is the examiner's favourite trap.
+3. **Either-Or (complementary pair) cases** — conclusions like `I. A ≥ C` and `II. A < C`, or `I. A > C` / `II. A = C` / `III. A < C` reduced to a pair. Recognising a *complementary pair* (subject and predicate same, relations covering all possibilities) is a high-yield skill.
+4. **Coded symbols with mixed meanings** — one code for `>`, another for `≥`, another for `=`. Misreading `≥` as `>` is the single most common student error here.
+5. **Reverse-direction chains** — `A < B > C ≤ D`. When the chain "changes direction," no definite relation exists across the turn. Examiners love placing a tempting conclusion right across the turn.
+
+---
+
+## 3. Exam-Wise Tendencies (Qualitative)
+
+- **SSC (CGL / CHSL / MTS):** Usually 1–2 questions, direct symbols or simple word-defined codes. Difficulty: easy. These are *must-score* questions.
+- **Banking (IBPS PO/Clerk, SBI):** 3–5 questions in prelims reasoning, coded format, moderate difficulty, heavy use of Either-Or. Speed matters most here.
+- **Railway (NTPC / Group D):** Direct symbol comparison, occasionally "which symbol fits the blank" type (`A ? B ? C` so that `A > C` is true). Easy, quick marks.
+- **State exams:** Mirror SSC style; occasionally ask "which conclusion is *definitely false*" — read the question twice.
+
+---
+
+## 4. Top 10 High-Yield Question Patterns (with Solutions & Traps)
+
+---
+
+**Q1.** Statement: `M > N ≥ O = P`
+Conclusions: I. `M > P`  II. `N = P`
+
+**Answer:** Only I follows.
+**Solution:** Chain runs M > N ≥ O = P, so M > P is definite. For II, N ≥ P is true but N = P is not *certain* (N could be greater). A conclusion must hold in **every** case.
+**Trap:** Students see `N ≥ O = P` and assume equality is guaranteed. "≥" permits equality but does not promise it.
+
+---
+
+**Q2.** Statement: `A > B`, `C > B`
+Conclusion: `A > C`
+
+**Answer:** Does not follow.
+**Solution:** A and C are both only compared to B, never to each other. A=5, C=3 works; A=3, C=5 also works. No definite relation.
+**Trap:** The "common element B" creates an illusion of connection. This is the classic **broken-chain trap** — the most repeated trap in this chapter.
+
+---
+
+**Q3.** Statement: `P ≤ Q < R = S`
+Conclusions: I. `P < S`  II. `Q = S`
+
+**Answer:** Only I follows.
+**Solution:** P ≤ Q < R = S ⇒ P < S always (since Q < S strictly, and P ≤ Q). II fails because Q < S strictly.
+**Trap:** Conclusion II tempts students who merge `=` and `<` carelessly. A strict `<` anywhere in the chain blocks equality.
+
+---
+
+**Q4.** Statement: `X ≥ Y > Z`
+Conclusions: I. `X > Z`  II. `X = Z`
+
+**Answer:** Only I follows.
+**Solution:** X ≥ Y and Y > Z ⇒ X > Z strictly. II is impossible, not just uncertain.
+**Trap:** Some students mark "either I or II." Either-Or applies only when **neither** conclusion is definite and the pair is complementary. Here I is already definite, so Either-Or is ruled out.
+
+---
+
+**Q5.** Statement: `K = L ≥ M > N`
+Conclusions: I. `K > N`  II. `K = N`
+
+**Answer:** Only I follows.
+**Solution:** K = L ≥ M > N gives K ≥ M > N, so K > N is **definite**. Conclusion II (K = N) is impossible because the chain contains a strict `>`.
+**Trap:** This is the *reverse* trap — students who have memorised "≥ means Either-Or" apply the rule mechanically and answer Either-Or. Either-Or needs **uncertainty** first; here the chain is unbroken, so K > N is certain. Mechanical rule-application without checking the chain is the hook.
+
+---
+
+**Q6.** Coded: `A @ B` means A > B; `A # B` means A = B; `A & B` means A ≤ B.
+Statement: `P @ Q`, `Q & R`, `R # S`
+Conclusions: I. `P @ S`  II. `P & S`
+
+**Answer:** Either I or II follows.
+**Solution:** Decode: P > Q, Q ≤ R, R = S. The chain **breaks direction** at Q (P > Q but Q ≤ R) — P and S have no definite relation. I says P > S, II says P ≤ S: together they cover all possibilities (complementary pair), and neither is definite alone → Either-Or.
+**Trap:** Students who decode correctly but force a chain through Q pick I wrongly. Direction change = no definite relation.
+
+---
+
+**Q7.** Statement: `D ≥ E = F < G`
+Conclusions: I. `D ≥ F`  II. `G > E`
+
+**Answer:** Both follow.
+**Solution:** D ≥ E = F ⇒ D ≥ F (I ✓). G > F = E ⇒ G > E (II ✓).
+**Trap:** Under time pressure students verify only I and mark "only I." Always check **both** conclusions — "both follow" is a legitimate and frequent answer.
+
+---
+
+**Q8.** Statement: `T < U ≤ V = W`
+Conclusions: I. `T < W`  II. `U < W`
+
+**Answer:** Only I follows.
+**Solution:** T < U ≤ V = W ⇒ T < W (strict, because T < U). But U ≤ W, so U < W is not certain (U may equal W).
+**Trap:** II is the near-correct lure. `≤` permits equality; a strict conclusion from a non-strict chain is the examiner's oldest trick.
+
+---
+
+**Q9.** Statement: `G > H = I ≥ J`
+Conclusions: I. `G > J`  II. `H ≥ J`
+
+**Answer:** Both follow.
+**Solution:** G > H = I ≥ J ⇒ G > J (strict, since G > H and H ≥ J) ✓. H = I ≥ J ⇒ H ≥ J ✓.
+**Trap:** Students doubt I because "≥ J" appears at the end — but the strict `>` at the *start* of the chain dominates. One strict symbol upstream makes the whole comparison strict.
+
+---
+
+**Q10.** Statement: `R ≥ S`, `S > T`, `T = U`
+Conclusions: I. `R > U`  II. `S = U`
+
+**Answer:** Only I follows.
+**Solution:** Combine: R ≥ S > T = U ⇒ R > U ✓. II: S > U strictly, so S = U is false.
+**Trap:** Three separate statements must be merged into one chain first. Students who compare statements pairwise in isolation often flip I.
+
+---
+
+## 5. The 15-Second / 45-Second Rule — Applied
+
+**The rule:** If a question's approach is clear within ~15 seconds, solve it (target: under 45 seconds total). If the structure still looks tangled after 15 seconds, mark it and move on.
+
+**Skip candidates from the questions above:**
+
+- **Q6 (coded, three relations, direction change):** Decoding + chain-building + Either-Or verification can cross 60 seconds in a Banking prelim if the codes are unfamiliar. If after 15 seconds you haven't finished decoding all three statements cleanly, **skip and return later**. In SSC, where codes are simpler, attempt it.
+- **Q5-type questions (Either-Or temptation on a definite chain):** Do **not** skip — but only if you know the rule cold. If you find yourself hesitating between "Only I" and "Either-Or," that hesitation itself eats 30+ seconds; in that case mark it and move on.
+
+**Never skip:** Q1, Q3, Q7, Q8-type single-chain questions. These are 20–30 second certainties — the cheapest marks in the reasoning section.
+
+---
+
+## 6. Summary of Examiner Traps (Memorise This List)
+
+1. **Broken chain** — two statements sharing one element but no relation between the ends.
+2. **Direction change** — `A < B > C`: nothing definite across the turn.
+3. **≥ / ≤ treated as strict** — equality is *permitted*, never *guaranteed*.
+4. **Mechanical Either-Or** — applied even when one conclusion is already definite.
+5. **"Definitely false" wording** — the question asks what is *wrong*, not what follows. Read twice.
+6. **Code misreading** — confusing the code for `>` with the code for `≥` during fast decoding.

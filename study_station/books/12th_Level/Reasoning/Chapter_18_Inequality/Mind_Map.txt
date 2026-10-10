@@ -1,0 +1,36 @@
+```mermaid
+graph TD
+    A["असमानता<br>Inequality"] --> B["प्रतीक<br>Symbols"]
+    A --> C["प्रकार<br>Types"]
+    A --> D["हल करने की रणनीति<br>Solving Strategy"]
+    A --> E["समय प्रबंधन<br>Time Management"]
+    A --> F["परीक्षक के जाल<br>Examiner Traps"]
+
+    B --> B1["'&gt;' बड़ा<br>Greater than"]
+    B --> B2["'&lt;' छोटा<br>Less than"]
+    B --> B3["'≥' बड़ा या बराबर<br>Greater or equal"]
+    B --> B4["'≤' छोटा या बराबर<br>Less or equal"]
+    B --> B5["'=' बराबर<br>Equal"]
+
+    C --> C1["सीधी असमानता<br>Direct Inequality<br>(A &gt; B &gt; C)"]
+    C --> C2["कोडित असमानता<br>Coded Inequality<br>(@, #, $, %, &amp;)"]
+    C --> C3["निष्कर्ष वाली<br>Conclusion-based<br>(कथन → निष्कर्ष I/II)"]
+    C --> C4["राशि तुलना<br>Quantity Comparison<br>(Q1 बनाम Q2)"]
+
+    D --> D1["प्रतीकों को एक दिशा में लिखो<br>Convert all signs to one direction"]
+    D --> D2["श्रृंखला जोड़ो<br>Chain the elements<br>(A &gt; B, B &gt; C ⇒ A &gt; C)"]
+    D --> D3["कोडित में पहले डिकोड करो<br>Decode symbols first"]
+    D --> D4["निष्कर्ष जाँचो: निश्चित या नहीं<br>Check conclusion: definite or not"]
+    D --> D5["Either-Or की शर्तें जाँचो<br>Check Either-Or conditions<br>(पूरक युग्म + दोनों अलग-अलग असत्य)"]
+
+    E --> E1["सीधे प्रश्न: 20–30 सेकंड<br>Direct: 20–30 sec"]
+    E --> E2["कोडित/निष्कर्ष: 40–60 सेकंड<br>Coded/Conclusion: 40–60 sec"]
+    E --> E3["पहले प्रतीक-तालिका बनाओ, फिर प्रश्न<br>Make symbol table first, then solve"]
+    E --> E4["अटके तो छोड़ो, बाद में लौटो<br>Skip if stuck, return later"]
+
+    F --> F1["उल्टी दिशा का प्रतीक<br>Reversed sign direction<br>(A &lt; B को B &gt; A पढ़ना)"]
+    F --> F2["टूटी श्रृंखला से निष्कर्ष<br>Conclusion from broken chain<br>(A &gt; B, C &gt; B ⇒ A-C संबंध अनिश्चित)"]
+    F --> F3["≥ और &gt; में भ्रम<br>Confusion between ≥ and &gt;<br>(बराबर वाला केस भूलना)"]
+    F --> F4["Either-Or को दोनों सही समझना<br>Mistaking Either-Or for both true"]
+    F --> F5["कोड का गलत अर्थ<br>Wrong decoding of coded symbols"]
+```
