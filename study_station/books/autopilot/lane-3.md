@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 12:53 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:36 PM
+**आख़िरी update:** 10-10-2026 01:08 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:36 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 16 मिनट |
-| W2 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 16 मिनट |
-| W3 | Chapter 16 Statement Conclusion (12th Reasoning) | 🔧 सुधार रहा है | 1 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 31 मिनट |
+| W2 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 31 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,23 +38,11 @@
 - Chapter 24 Statement Assumption (Reasoning) — 2 बार
 - Chapter 17 Course of Action (Reasoning) — 2 बार
 - Chapter 20 Mirror Water Images (Reasoning) — 2 बार
-- Chapter 16 Statement Conclusion (Reasoning) — 1 बार
+- Chapter 16 Statement Conclusion (Reasoning) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 12:39:11   [Course_of_Action] written 1, failed 0; AI calls today 8/100000
-10-10 12:40:06   [Statement_Assumption] repaired Short_Tricks_hi.txt (4916 chars)
-10-10 12:40:06   [Statement_Assumption] written 1, failed 0; AI calls today 9/100000
-10-10 12:40:06 NOT OK 12th_Level/Reasoning/Chapter_24_Statement_Assumption after 3 min: todo [] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
-10-10 12:40:10 START 12th_Level/Reasoning/Chapter_24_Statement_Assumption (FIX: todo 0, problems 1)
-10-10 12:40:25   [Course_of_Action] repaired Short_Tricks_hi.txt (7358 chars)
-10-10 12:40:25   [Course_of_Action] written 1, failed 0; AI calls today 10/100000
-10-10 12:40:25 NOT OK 12th_Level/Reasoning/Chapter_17_Course_of_Action after 3 min: todo [] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
-10-10 12:40:28 START 12th_Level/Reasoning/Chapter_17_Course_of_Action (FIX: todo 0, problems 1)
-10-10 12:41:26   [Statement_Assumption] repaired Short_Tricks_hi.txt (5311 chars)
-10-10 12:41:26   [Statement_Assumption] written 1, failed 0; AI calls today 11/100000
-10-10 12:42:07   [Sitting_Arrangement] Practice_en_Set_02.txt try 1: rejected (Q26:leaked_reasoning,Q28:leaked_reasoning,Q35:leaked_reasoning,Q36:leaked_reasoning,Q37:leaked_reasoning)
 10-10 12:42:17   [Course_of_Action] repaired Short_Tricks_hi.txt (5684 chars)
 10-10 12:42:17   [Course_of_Action] written 1, failed 0; AI calls today 13/100000
 10-10 12:42:21   [Mirror_Water_Images] repaired Flashcards_hi.txt (4111 chars)
@@ -84,4 +71,16 @@
 10-10 12:52:04   [Statement_Conclusion] written 0, failed 1; AI calls today 21/100000
 10-10 12:52:04 NOT OK 12th_Level/Reasoning/Chapter_16_Statement_Conclusion after 15 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (39']
 10-10 12:52:07 START 12th_Level/Reasoning/Chapter_16_Statement_Conclusion (FIX: todo 0, problems 1)
+10-10 12:53:55   [Dictionary_Order] Practice_en_Set_02.txt try 3: re-solve disagrees (Q27 key a vs re-solve b, Q30 key a vs re-solve ?)
+10-10 12:54:24   [Dictionary_Order] Practice_en_Set_02.txt try 4: rejected (parsed 0 questions, numbers -…-)
+10-10 12:54:24   [Dictionary_Order] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
+10-10 12:54:24   [Dictionary_Order] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+10-10 12:56:04   [Sitting_Arrangement] Practice_en_Set_02.txt try 2: re-solve disagrees (Q33 key c vs re-solve b, Q38 key c vs re-solve d, Q43 key c vs re-solve d, Q46 key d vs re-solve a, 
+10-10 12:56:59   [Dictionary_Order] Practice_en_Set_03.txt try 1: rejected (Q57:leaked_reasoning,Q61:leaked_reasoning,Q66:leaked_reasoning)
+10-10 13:05:57   [Statement_Conclusion] FAILED Flashcards_hi.txt: too_long
+10-10 13:05:57   [Statement_Conclusion] written 0, failed 1; AI calls today 27/100000
+10-10 13:06:53   [Statement_Conclusion] repaired Flashcards_hi.txt (3897 chars)
+10-10 13:06:53   [Statement_Conclusion] written 1, failed 0; AI calls today 28/100000
+10-10 13:06:53 NOT OK 12th_Level/Reasoning/Chapter_16_Statement_Conclusion after 15 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (38']
+10-10 13:06:57 worker 2: nothing left
 ```
