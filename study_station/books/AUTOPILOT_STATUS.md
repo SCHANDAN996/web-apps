@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 08:06 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
+**आख़िरी update:** 10-10-2026 08:12 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Figure Series (Graduation Reasoning) | ✍️ लिख रहा है | 28 मिनट |
-| W2 | Chapter 23 Syllogism (Graduation Reasoning) | 🔎 review हो रहा है | 18 मिनट |
-| W3 | Chapter 24 Statement Assumption (Graduation Reasoning) | ✍️ लिख रहा है | 32 मिनट |
-| W4 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 108 मिनट |
-| W5 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 24 मिनट |
-| W6 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 25 मिनट |
-| W7 | Chapter 19 Cubes Dice (Graduation Reasoning) | 📤 push हो रहा है | 0 मिनट |
-| W8 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 10 मिनट |
+| W1 | Chapter 22 Figure Series (Graduation Reasoning) | ✍️ लिख रहा है | 34 मिनट |
+| W2 | Chapter 23 Syllogism (Graduation Reasoning) | 🔎 review हो रहा है | 23 मिनट |
+| W3 | Chapter 24 Statement Assumption (Graduation Reasoning) | ✍️ लिख रहा है | 38 मिनट |
+| W4 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 114 मिनट |
+| W5 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 29 मिनट |
+| W6 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 31 मिनट |
+| W7 | Chapter 25 Statement Argument (Graduation Reasoning) | ✍️ लिख रहा है | 5 मिनट |
+| W8 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 16 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -55,12 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 07:41:08 NOT OK Graduation_Level/Reasoning/Chapter_14_Alphabet_Questions after 92 min: todo ['Set 04 en: todo', 'Set 04 hi: todo'] problems []
-10-10 07:41:11 START Graduation_Level/Reasoning/Chapter_14_Alphabet_Questions (TODO: todo 2, problems 0)
-10-10 07:42:01   [Cubes_Dice] review PYQ_hi.txt: 4 issue(s): - यह सबसे लोकप्रिय प्रकार है — SSC CGL, CHSL और RRB NTPC में लगभग हर चक्र में दिखता है। → इसकी पुष्टि नहीं की जा सकती।
-10-10 07:42:21   [Statement_Assumption] Practice_en_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
-10-10 07:42:35   [Dictionary_Order] FAILED Practice_en_Set_06.txt: too_long
-10-10 07:42:35   [Dictionary_Order] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
 10-10 07:42:35   [Dictionary_Order] written 0, failed 6; AI calls today 130/100000
 10-10 07:42:35 NOT OK Graduation_Level/Reasoning/Chapter_13_Dictionary_Order after 93 min: todo ['Set 03 en: todo', 'Set 03 hi: todo', 'Set 04 en: todo', 'Set 04 hi: todo'] problems []
 10-10 07:42:37 START Graduation_Level/Reasoning/Chapter_13_Dictionary_Order (TODO: todo 6, problems 0)
@@ -95,4 +89,10 @@
 10-10 08:04:52   [Syllogism] review Feynman_hi.txt: 1 issue(s): - The claim "परीक्षा में 90% विद्यार्थी करते हैं" is an invented exam statistic → Remove the percentage or replace 
 10-10 08:06:47   [Cubes_Dice] review: 7 section(s) corrected, 0 failed
 10-10 08:06:47   [Cubes_Dice] written 7, failed 0; AI calls today 171/100000
+10-10 08:07:05 DONE Graduation_Level/Reasoning/Chapter_19_Cubes_Dice in 117 min → 9c1af200
+10-10 08:07:08 START Graduation_Level/Reasoning/Chapter_25_Statement_Argument (TODO: todo 10, problems 2)
+10-10 08:07:41   [Dictionary_Order] Practice_en_Set_04.txt try 1: rejected (Q81:leaked_reasoning,Q87:leaked_reasoning,Q93:leaked_reasoning)
+10-10 08:08:36   [Figure_Series] Practice_en_Set_06.txt try 3: re-solve disagrees (Q144 key b vs re-solve d)
+10-10 08:09:14   [Syllogism] review Mind_Map.txt: 1 issue(s): - F3 में "I+O" को पूरक युग्म (Complementary Pair) बताया गया है → I+O पूरक युग्म नहीं हैं; सही पूरक युग्म A+O और E+I ह
+10-10 08:10:33   [Statement_Assumption] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 ```
