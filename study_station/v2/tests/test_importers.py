@@ -65,3 +65,14 @@ def test_translation_pairing():
     other = parse_mcq_text("1. 25 का 10% कितना है?\n(a) 2.5 (b) 5 (c) 10 (d) 25\nउत्तर: (a)\n")[0]
     assert is_translation_pair(en, hi)
     assert not is_translation_pair(en, other)
+
+
+def test_maths_function_notation_is_not_an_option_marker():
+    from app.importers import parse_mcq_text
+    text = ('24. A and B are two events with P(A) = 0.5, P(B) = 0.4 and P(A ∩ B) = 0.2. What is P(A ∪ B)?\n'
+            '(a) 0.9 (b) 0.7 (c) 0.6 (d) 0.3\nAnswer: (b)\nSolution: 0.5 + 0.4 − 0.2 = 0.7, so the answer is 0.7.\n'
+            '25. If f(a) = 2a and a = 3, what is f(a)?\n(a) 3 (b) 5 (c) 6 (d) 9\nAnswer: (c)\nSolution: 2 × 3 = 6.\n')
+    qs = parse_mcq_text(text)
+    assert [q.number for q in qs] == [24, 25]
+    assert qs[0].options == ['0.9', '0.7', '0.6', '0.3'] and 'P(A ∪ B)' in qs[0].text
+    assert qs[1].options[qs[1].answer_index] == '6'

@@ -15,7 +15,8 @@ from pathlib import Path
 LETTERS = 'abcd'
 
 QSTART = re.compile(r'^\s*(?:\*\*)?(?:Q\.?\s*|प्रश्न\s*)?(\d{1,3})\s*[.)।:]\s*(?:\*\*)?\s*(.*)$')
-OPT = re.compile(r'\(([a-dA-D])\)\s*|(?:^|\s)([A-D])\)\s+')
+# An option marker is not part of a word: "P(A)", "f(a)", "n(B)" in maths stems are not options.
+OPT = re.compile(r'(?<![\w\u0900-\u097F])\(([a-dA-D])\)\s*|(?:^|\s)([A-D])\)\s+')
 ANSWER = re.compile(r'^\s*(?:\*\*)?(?:Correct\s+Answer|Answer|Ans|उत्तर|सही\s+उत्तर)\s*(?:\*\*)?\s*[:：]\s*(?:\*\*)?\s*\(?([a-dA-D])\b')
 SOLUTION = re.compile(r'^\s*(?:\*\*)?(?:Solution|Explanation|हल|व्याख्या)\s*(?:\*\*)?\s*[:：]\s*(?:\*\*)?\s*(.*)$')
 SOURCE = re.compile(r'^\s*(?:\*\*)?(?:Source|स्रोत)\s*(?:\*\*)?\s*[:：]\s*(.*)$')
@@ -66,6 +67,12 @@ def _clean_keep_lines(s):
 def _split_options(text):
     """'(a) 1 (b) 2 (c) 3 (d) 4' → ['1','2','3','4'] or None."""
     marks = list(OPT.finditer(text))
+    if len(marks) > 4:                     # stray markers in the stem: the options are the last a-b-c-d run
+        letters = [(m.group(1) or m.group(2)).lower() for m in marks]
+        starts = [i for i in range(len(marks) - 3) if letters[i:i + 4] == list(LETTERS)]
+        if not starts:
+            return None, None
+        marks = marks[starts[-1]:starts[-1] + 4]
     if len(marks) != 4:
         return None, None
     found = [(m.group(1) or m.group(2)).lower() for m in marks]
