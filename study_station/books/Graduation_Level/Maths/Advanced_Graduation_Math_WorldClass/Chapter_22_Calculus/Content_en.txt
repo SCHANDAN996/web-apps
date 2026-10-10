@@ -1,0 +1,158 @@
+# Calculus — The Mathematics of Change
+
+## Why This Chapter Matters
+
+Every year, questions from limits, derivatives, and integration appear across SSC CGL Tier-II, IBPS PO Mains, CAT, and State PCS exams — and most aspirants lose these marks not because the questions are hard, but because they never built a clear mental picture of what calculus actually *does*. This chapter fixes that.
+
+**Learning goals.** By the end of this chapter you will be able to:
+- Explain what a limit, derivative, and integral really mean (not just compute them).
+- Differentiate and integrate standard functions quickly and correctly.
+- Apply derivatives to maxima–minima and rate-of-change problems.
+- Spot the traps examiners set in calculus MCQs.
+
+---
+
+## The Hook: How Did We Measure the Speed of a Falling Apple?
+
+In 1665, Cambridge University shut down because of the plague. A 23-year-old Isaac Newton went home to his village — and, with nothing else to do, invented calculus.
+
+His problem was simple to state but impossible for the mathematics of his time: *an apple falls faster and faster as it drops. So what is its speed at one exact instant?* Average speed (distance ÷ time) fails here, because at a single instant, both distance and time are zero. Zero divided by zero is meaningless.
+
+Newton's escape was brilliant: **don't divide by zero — divide by something that approaches zero, and watch where the answer is heading.** That single idea — the limit — is the seed from which all of calculus grows. Master that one picture, and derivatives and integrals stop being formulas and start being obvious.
+
+---
+
+## 1. Limits — Asking "Where Are You Heading?"
+
+A limit answers one question: *as x gets closer and closer to some value a, what value does f(x) get closer and closer to?*
+
+We write: **lim (x→a) f(x) = L**
+
+Notice what this does *not* say. It does not say f(a) = L. The function may not even be defined at x = a. The limit only cares about the *journey*, not the destination.
+
+**Example.** f(x) = (x² − 1)/(x − 1). At x = 1, this is 0/0 — undefined. But factor the numerator: (x−1)(x+1)/(x−1) = x + 1 (for x ≠ 1). As x → 1, the value → 2. So the limit is 2, even though the function has a hole at x = 1.
+
+**Standard limits you must know cold:**
+- lim (x→0) sin x / x = 1
+- lim (x→0) tan x / x = 1
+- lim (x→0) (eˣ − 1)/x = 1
+- lim (x→0) ln(1 + x)/x = 1
+- lim (x→0) (aˣ − 1)/x = ln a
+- lim (x→∞) (1 + 1/x)ˣ = e
+
+**Indeterminate forms** — 0/0, ∞/∞, 0×∞, ∞ − ∞, 1^∞, 0⁰, ∞⁰ — are the examiner's favourite playground. For 0/0 and ∞/∞, **L'Hôpital's Rule** rescues you: differentiate numerator and denominator separately, then take the limit again.
+
+🧠 **Active Recall:** Without looking back — why is lim (x→1) (x²−1)/(x−1) equal to 2 even though the function is undefined at x = 1? And what does L'Hôpital's Rule apply to?
+
+---
+
+## 2. Continuity and Differentiability
+
+A function is **continuous** at x = a if three things hold together: f(a) exists, the limit exists, and both are equal. Intuitively: you can draw the graph through that point without lifting your pen.
+
+A function is **differentiable** at x = a if the derivative exists there — geometrically, the graph has a single, well-defined tangent. A corner (like |x| at x = 0) or a break destroys differentiability.
+
+**Golden chain of logic (examiners love this):**
+> Differentiable ⇒ Continuous. But Continuous ⇏ Differentiable.
+
+|x| at x = 0 is the classic counterexample: continuous, but the left slope (−1) and right slope (+1) disagree, so no derivative.
+
+🧠 **Active Recall:** State the chain: which implies which — continuity and differentiability? Give the standard counterexample.
+
+---
+
+## 3. The Derivative — Speedometer of a Function
+
+The derivative measures **instantaneous rate of change** — the slope of the tangent line:
+
+**f′(x) = lim (h→0) [f(x+h) − f(x)] / h**
+
+Think of a car. The odometer gives distance; the speedometer gives the *derivative* of distance. Differentiation is the operation that turns "how much" into "how fast."
+
+**Core rules:**
+- Power rule: d/dx (xⁿ) = n·xⁿ⁻¹
+- Product rule: (uv)′ = u′v + uv′
+- Quotient rule: (u/v)′ = (u′v − uv′)/v²
+- Chain rule: d/dx f(g(x)) = f′(g(x))·g′(x)
+
+**Standard derivatives:** (sin x)′ = cos x; (cos x)′ = −sin x; (tan x)′ = sec²x; (eˣ)′ = eˣ; (aˣ)′ = aˣ ln a; (ln x)′ = 1/x.
+
+**Mnemonic for the quotient rule — "Lo-D-Hi minus Hi-D-Lo, over Lo-Lo":**
+> Low (denominator) × D(derivative of) High (numerator) − High × D Low, all over Low squared.
+> (v·u′ − u·v′) / v² — say it once, never forget it.
+
+🧠 **Active Recall:** Differentiate x²·sin x using the product rule. Then recite the quotient-rule mnemonic.
+
+---
+
+## 4. Applications of Derivatives — Where Exams Strike
+
+**Maxima and minima.** Where f′(x) = 0, the tangent is flat — a candidate for a peak or a valley. Then check:
+- Second derivative test: f″(x) > 0 ⇒ minimum (cup ∪); f″(x) < 0 ⇒ maximum (cap ∩).
+- Memory hook: **positive second derivative = smiling curve = minimum at the bottom of the smile.**
+
+**Increasing/decreasing.** f′(x) > 0 ⇒ increasing; f′(x) < 0 ⇒ decreasing.
+
+**Rate of change word problems.** "A ladder slides down a wall…", "a balloon inflates…" — these are chain-rule problems in disguise: relate the variables, differentiate with respect to time, substitute.
+
+**Tangent and normal.** Slope of tangent at x = a is f′(a); slope of normal is −1/f′(a).
+
+🧠 **Active Recall:** f(x) = x³ − 3x. Where are the critical points, and which is a maximum? (Hint: f′(x) = 3x² − 3 = 0 gives x = ±1; check f″.)
+
+---
+
+## 5. Integration — Putting the Pieces Back Together
+
+If differentiation breaks a quantity into its rate, **integration rebuilds the quantity from its rate**. Geometrically, the definite integral ∫ₐᵇ f(x) dx is the **area under the curve** between x = a and x = b.
+
+**Fundamental Theorem of Calculus** — the bridge between the two worlds:
+> ∫ₐᵇ f(x) dx = F(b) − F(a), where F′(x) = f(x).
+
+Differentiation and integration are inverse operations — like multiplication and division.
+
+**Standard integrals:**
+- ∫ xⁿ dx = xⁿ⁺¹/(n+1) + C (n ≠ −1)
+- ∫ (1/x) dx = ln|x| + C
+- ∫ eˣ dx = eˣ + C ; ∫ aˣ dx = aˣ/ln a + C
+- ∫ sin x dx = −cos x + C ; ∫ cos x dx = sin x + C
+- ∫ sec²x dx = tan x + C
+
+**Techniques:** substitution (spot an inner function whose derivative sits beside it), integration by parts (∫u dv = uv − ∫v du — choose u by **ILATE**: Inverse, Log, Algebraic, Trig, Exponential), and partial fractions.
+
+**Don't forget +C** for indefinite integrals — examiners place "the answer without C" as a trap option.
+
+🧠 **Active Recall:** What does the Fundamental Theorem of Calculus connect? Evaluate ∫₀¹ 2x dx using it.
+
+---
+
+## 6. Definite Integrals and Areas
+
+Definite integrals carry powerful shortcut properties:
+- ∫ₐᵇ f(x) dx = −∫ᵦₐ f(x) dx
+- ∫ₐᵇ f(x) dx = ∫ₐᵇ f(a + b − x) dx  ← the "King property," a favourite in advanced exams
+- For even f: ∫₋ₐᵃ f = 2∫₀ᵃ f ; for odd f: ∫₋ₐᵃ f = 0
+
+**Area between curves** = ∫ (upper curve − lower curve) dx over the interval between intersection points.
+
+🧠 **Active Recall:** Without computing, what is ∫₋₂² x³ dx, and why?
+
+---
+
+## Summary Table
+
+| Concept | Core idea | Key tool | Exam trap |
+|---|---|---|---|
+| Limit | Where f(x) heads as x → a | Standard limits, L'Hôpital | 0/0 doesn't mean "undefined answer" |
+| Continuity | No break in graph | Limit = f(a) | Continuous need not be differentiable |
+| Derivative | Instantaneous rate / tangent slope | Power, product, quotient, chain rules | Sign errors in quotient rule |
+| Maxima–Minima | f′(x) = 0, then test | Second derivative test | f′(x)=0 is necessary, not sufficient |
+| Integration | Area / reverse of derivative | Substitution, by parts (ILATE) | Forgetting +C |
+| Definite integral | Net area from a to b | King property, even/odd | Odd function over symmetric limits = 0 |
+
+---
+
+## One-Line Memory Thread
+
+> **Limit** asks "where are you going?" → **Derivative** asks "how fast?" → **Integral** asks "how much in total?" Three questions, one subject.
+
+📌 **Review this chapter after 2 days** — re-attempt every Active Recall prompt from memory before re-reading. Then review again after a week. Calculus fades fast without spaced revision, but stays forever with it.

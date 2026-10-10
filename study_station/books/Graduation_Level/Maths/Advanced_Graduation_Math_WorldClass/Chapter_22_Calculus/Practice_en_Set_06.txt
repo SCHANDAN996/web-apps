@@ -1,0 +1,149 @@
+126. If f(x) = x³ − 3x² − 9x + 5, then the local maximum value of f(x) is
+(a) 5 (b) 10 (c) −22 (d) 0
+Answer: (b)
+Solution: The tempting wrong option 5 is just the constant term, which students pick without differentiating. f′(x) = 3x² − 6x − 9 = 3(x − 3)(x + 1) = 0 gives x = −1 or x = 3. f″(x) = 6x − 6; at x = −1, f″(−1) = −12 < 0, so x = −1 is a local maximum. f(−1) = −1 − 3 + 9 + 5 = 10, so the answer is 10.
+Source: NCERT Class 12 Mathematics, Chapter 6
+
+127. The value of lim(x→0) (eˣ − 1 − x)/x² is
+(a) 0 (b) 1/2 (c) 1 (d) 2
+Answer: (b)
+Solution: The tempting wrong option 1 comes from wrongly applying lim (eˣ − 1)/x = 1 to the whole numerator. Using the expansion eˣ = 1 + x + x²/2 + …, the numerator becomes x²/2 + x³/6 + …, so the limit is 1/2. Alternatively apply L'Hôpital twice: lim (eˣ − 1)/(2x) = lim eˣ/2 = 1/2, so the answer is 1/2.
+Source: NCERT Class 11 Mathematics, Chapter 13
+
+128. ∫ dx/(x² + 4x + 13) equals
+(a) (1/2) tan⁻¹((x + 2)/2) + C (b) tan⁻¹((x + 2)/3) + C (c) (1/3) tan⁻¹((x − 2)/3) + C (d) (1/3) tan⁻¹((x + 2)/3) + C
+Answer: (d)
+Solution: The tempting wrong option tan⁻¹((x + 2)/3) + C forgets the factor 1/a in the standard formula. Complete the square: x² + 4x + 13 = (x + 2)² + 9 = (x + 2)² + 3². Using ∫ du/(u² + a²) = (1/a) tan⁻¹(u/a), the integral is (1/3) tan⁻¹((x + 2)/3) + C, so the answer is (1/3) tan⁻¹((x + 2)/3) + C.
+Source: NCERT Class 12 Mathematics, Chapter 7
+
+129. The area enclosed between the curves y = x² and y = x is
+(a) 1/3 sq unit (b) 1/6 sq unit (c) 1/2 sq unit (d) 2/3 sq unit
+Answer: (b)
+Solution: The tempting wrong option 1/3 comes from integrating only x² from 0 to 1 and forgetting to subtract the line. The curves intersect where x² = x, i.e. x = 0 and x = 1. On [0, 1], x ≥ x², so area = ∫₀¹ (x − x²) dx = [x²/2 − x³/3]₀¹ = 1/2 − 1/3 = 1/6, so the answer is 1/6 sq unit.
+Source: NCERT Class 12 Mathematics, Chapter 8
+
+130. If y = xˣ (x > 0), then dy/dx at x = 1 is
+(a) 1 (b) e (c) 0 (d) 2
+Answer: (a)
+Solution: The tempting wrong option e confuses xˣ with eˣ. Take logarithms: ln y = x ln x. Differentiate: (1/y) dy/dx = ln x + 1, so dy/dx = xˣ(ln x + 1). At x = 1, dy/dx = 1·(0 + 1) = 1, so the answer is 1.
+Source: NCERT Class 12 Mathematics, Chapter 5
+
+131. The function f(x) = x³ − 6x² + 9x + 1 is strictly decreasing in the interval
+(a) (−∞, 1) (b) (1, 3) (c) (3, ∞) (d) (0, 1)
+Answer: (b)
+Solution: The tempting wrong option (−∞, 1) is where the function is actually increasing, a sign-reversal trap. f′(x) = 3x² − 12x + 9 = 3(x − 1)(x − 3). f′(x) < 0 when (x − 1)(x − 3) < 0, i.e. 1 < x < 3, so the answer is (1, 3).
+Source: NCERT Class 12 Mathematics, Chapter 6
+
+132. ∫₀^(π/2) sin²x dx equals
+(a) π/4 (b) π/2 (c) 1 (d) π
+Answer: (a)
+Solution: The tempting wrong option π/2 results from forgetting the factor 1/2 in the power-reduction identity. Use sin²x = (1 − cos 2x)/2: the integral is [x/2 − (sin 2x)/4]₀^(π/2) = π/4 − 0 = π/4, so the answer is π/4.
+Source: NCERT Class 12 Mathematics, Chapter 7
+
+133. The maximum value of f(x) = sin x + cos x is
+(a) 1 (b) 2 (c) √3 (d) √2
+Answer: (d)
+Solution: The tempting wrong option 2 comes from adding the individual maxima of sin x and cos x, which never occur at the same x. Write f(x) = √2 sin(x + π/4), whose maximum is √2, attained at x = π/4, so the answer is √2.
+Source: NCERT Class 11 Mathematics, Chapter 3
+
+134. If ∫ (x + 1)/(x² + 2x + 5) dx = (1/2) ln|x² + 2x + 5| + C, then the technique used is
+(a) Substitution with numerator as derivative of denominator (b) Integration by parts (c) Partial fractions (d) Trigonometric substitution
+Answer: (a)
+Solution: The tempting wrong option partial fractions fails here because x² + 2x + 5 has no real factors. Since d/dx(x² + 2x + 5) = 2x + 2 = 2(x + 1), the numerator is half the derivative of the denominator, giving (1/2) ln|x² + 2x + 5| + C directly, so the answer is substitution with numerator as derivative of denominator.
+Source: NCERT Class 12 Mathematics, Chapter 7
+
+135. lim(x→∞) (1 + 1/x)ˣ equals
+(a) e (b) 1 (c) ∞ (d) 0
+Answer: (a)
+Solution: The tempting wrong option 1 comes from arguing that 1 + 1/x → 1, ignoring that the exponent grows without bound — a classic 1^∞ indeterminate form. By the standard definition, lim(x→∞) (1 + 1/x)ˣ = e, so the answer is e.
+Source: NCERT Class 11 Mathematics, Chapter 13
+
+136. The slope of the tangent to the curve y = x³ − 3x at the point where it crosses the positive x-axis (other than origin) is
+(a) 0 (b) 3 (c) 6 (d) −3
+Answer: (c)
+Solution: The tempting wrong option 0 confuses the x-intercept with a stationary point. x³ − 3x = x(x² − 3) = 0 gives x = √3 as the positive non-zero intercept. dy/dx = 3x² − 3, and at x = √3 the slope is 9 − 3 = 6, so the answer is 6.
+Source: NCERT Class 12 Mathematics, Chapter 6
+
+137. ∫₁^e ln x dx equals
+(a) e − 1 (b) e (c) 0 (d) 1
+Answer: (d)
+Solution: The tempting wrong option e − 1 comes from evaluating ∫ ln x dx as x ln x − x but mis-substituting the limits. ∫ ln x dx = x ln x − x. Evaluating from 1 to e: (e·1 − e) − (0 − 1) = 0 + 1 = 1, so the answer is 1.
+Source: NCERT Class 12 Mathematics, Chapter 7
+
+138. If f(x) = |x − 2|, then at x = 2 the function is
+(a) Continuous but not differentiable (b) Continuous and differentiable (c) Discontinuous but differentiable (d) Neither continuous nor differentiable
+Answer: (a)
+Solution: The tempting wrong option "continuous and differentiable" ignores the corner in the graph of the modulus function. lim(x→2) |x − 2| = 0 = f(2), so f is continuous. But the left derivative is −1 and the right derivative is +1, which differ, so f is not differentiable at x = 2, so the answer is continuous but not differentiable.
+Source: NCERT Class 12 Mathematics, Chapter 5
+
+139. The minimum value of f(x) = x + 1/x for x > 0 is
+(a) 1 (b) 4 (c) 0 (d) 2
+Answer: (d)
+Solution: The tempting wrong option 1 comes from substituting x = 1 into only one term. By AM–GM, x + 1/x ≥ 2√(x·1/x) = 2, with equality at x = 1. Check: f′(x) = 1 − 1/x² = 0 gives x = 1, and f″(1) = 2 > 0, confirming a minimum of 2, so the answer is 2.
+Source: NCERT Class 12 Mathematics, Chapter 6
+
+140. d/dx [∫₀^x sin t dt] equals
+(a) cos x − 1 (b) −cos x (c) sin x (d) 1 − cos x
+Answer: (c)
+Solution: The tempting wrong option 1 − cos x is the value of the integral itself, not its derivative — students forget the Fundamental Theorem of Calculus. By the FTC, d/dx ∫₀^x sin t dt = sin x, so the answer is sin x.
+Source: NCERT Class 12 Mathematics, Chapter 7
+
+141. The curve y = x³ − 3x² + 2 has a point of inflection at x equal to
+(a) 0 (b) 1 (c) 2 (d) 3
+Answer: (b)
+Solution: The tempting wrong option 0 or 2 comes from solving f′(x) = 0, which gives stationary points, not inflection points. f′(x) = 3x² − 6x, f″(x) = 6x − 6 = 0 gives x = 1, and f″ changes sign there, so the point of inflection is at x = 1, so the answer is 1.
+Source: NCERT Class 12 Mathematics, Chapter 6
+
+142. ∫ dx/(eˣ + e⁻ˣ) equals
+(a) tan⁻¹(eˣ) + C (b) ln|eˣ + e⁻ˣ| + C (c) tan⁻¹(e⁻ˣ) + C (d) (1/2) ln|eˣ − e⁻ˣ| + C
+Answer: (a)
+Solution: The tempting wrong option ln|eˣ + e⁻ˣ| + C treats the denominator as if its derivative were the numerator, which it is not. Multiply numerator and denominator by eˣ: ∫ eˣ dx/(e²ˣ + 1). Put u = eˣ, du = eˣ dx, giving ∫ du/(u² + 1) = tan⁻¹ u + C = tan⁻¹(eˣ) + C, so the answer is tan⁻¹(eˣ) + C.
+Source: NCERT Class 12 Mathematics, Chapter 7
+
+143. If x = a cos θ, y = b sin θ, then dy/dx equals
+(a) (b/a) tan θ (b) −(a/b) cot θ (c) −(b/a) cot θ (d) (a/b) tan θ
+Answer: (c)
+Solution: The tempting wrong option −(a/b) cot θ swaps a and b, a common slip when differentiating parametric equations. dx/dθ = −a sin θ, dy/dθ = b cos θ, so dy/dx = (b cos θ)/(−a sin θ) = −(b/a) cot θ, so the answer is −(b/a) cot θ.
+Source: NCERT Class 12 Mathematics, Chapter 5
+
+144. The value of ∫₀^π x sin x dx is
+(a) 0 (b) π/2 (c) 2π (d) π
+Answer: (d)
+Solution: The tempting wrong option 0 comes from wrongly assuming the integral vanishes like ∫₀^π sin x dx over a symmetric interval — but x sin x is positive throughout (0, π). Integrate by parts: ∫ x sin x dx = −x cos x + sin x. Evaluating from 0 to π: (−π·(−1) + 0) − 0 = π, so the answer is π.
+Source: NCERT Class 12 Mathematics, Chapter 7
+
+145. For the function f(x) = x² e⁻ˣ, the local maximum occurs at x equal to
+(a) 0 (b) 1 (c) 2 (d) e
+Answer: (c)
+Solution: The tempting wrong option 0 is actually the local minimum, since f(0) = 0 and f(x) ≥ 0. f′(x) = e⁻ˣ(2x − x²) = x e⁻ˣ(2 − x) = 0 gives x = 0 or x = 2. f′ changes from positive to negative at x = 2, so the local maximum is at x = 2, so the answer is 2.
+Source: NCERT Class 12 Mathematics, Chapter 6
+
+146. lim(x→0) (sin 3x)/(tan 5x) equals
+(a) 5/3 (b) 3/5 (c) 1 (d) 0
+Answer: (b)
+Solution: The tempting wrong option 1 comes from carelessly applying sin θ/θ → 1 to both parts without tracking the coefficients. Rewrite as (sin 3x/3x)·(5x/tan 5x)·(3/5); the first two factors each tend to 1, leaving 3/5, so the answer is 3/5.
+Source: NCERT Class 11 Mathematics, Chapter 13
+
+147. The area bounded by y = sin x, the x-axis, from x = 0 to x = 2π, is
+(a) 0 sq units (b) 2 sq units (c) π sq units (d) 4 sq units
+Answer: (d)
+Solution: The tempting wrong option 0 is the value of the signed integral ∫₀^2π sin x dx, but area must count the negative part positively. Area = ∫₀^π sin x dx + |∫_π^2π sin x dx| = 2 + 2 = 4, so the answer is 4 sq units.
+Source: NCERT Class 12 Mathematics, Chapter 8
+
+148. If y = tan⁻¹((1 − cos x)/sin x) for 0 < x < π, then dy/dx equals
+(a) 1 (b) −1/2 (c) 1/2 (d) 2
+Answer: (c)
+Solution: The tempting wrong option 1 comes from assuming the argument simplifies to x instead of x/2. Using half-angle identities, (1 − cos x)/sin x = tan(x/2), so y = x/2 for 0 < x < π, and dy/dx = 1/2, so the answer is 1/2.
+Source: NCERT Class 12 Mathematics, Chapter 5
+
+149. ∫ x eˣ dx equals
+(a) eˣ(x − 1) + C (b) x eˣ + C (c) eˣ(x + 1) + C (d) x² eˣ/2 + C
+Answer: (a)
+Solution: The tempting wrong option x eˣ + C forgets to subtract the integral of the derivative in integration by parts. With u = x, dv = eˣ dx: ∫ x eˣ dx = x eˣ − ∫ eˣ dx = x eˣ − eˣ + C = eˣ(x − 1) + C, so the answer is eˣ(x − 1) + C.
+Source: NCERT Class 12 Mathematics, Chapter 7
+
+150. A spherical balloon is being inflated so that its radius increases at 2 cm/s. When the radius is 5 cm, the rate of increase of its volume is
+(a) 100π cm³/s (b) 50π cm³/s (c) 200π cm³/s (d) 400π cm³/s
+Answer: (c)
+Solution: The tempting wrong option 100π cm³/s comes from using the surface area 4πr² alone and forgetting to multiply by dr/dt. V = (4/3)πr³, so dV/dt = 4πr² (dr/dt) = 4π(25)(2) = 200π, so the answer is 200π cm³/s.
+Source: NCERT Class 12 Mathematics, Chapter 6

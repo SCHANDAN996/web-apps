@@ -1,0 +1,45 @@
+```mermaid
+graph TD
+    A["कलन (Calculus)"] --> B["सीमा<br>Limits"]
+    A --> C["अवकलन<br>Differentiation"]
+    A --> D["समाकलन<br>Integration"]
+    A --> E["अवकल समीकरण<br>Differential Equations"]
+    A --> F["अनुप्रयोग<br>Applications"]
+
+    B --> B1["सीमा की परिभाषा<br>Definition of Limit"]
+    B --> B2["बाईं/दाईं सीमा<br>LHL / RHL"]
+    B --> B3["सीमा के नियम<br>Limit Laws"]
+    B --> B4["मानक सीमाएँ<br>Standard Limits"]
+    B --> B5["L'Hôpital नियम<br>L'Hôpital Rule"]
+    B --> B6["सांतत्य<br>Continuity"]
+
+    C --> C1["प्रथम सिद्धांत<br>First Principle"]
+    C --> C2["अवकलन के नियम<br>Rules of Differentiation"]
+    C2 --> C2a["योग/गुणन/भाग नियम<br>Sum/Product/Quotient"]
+    C2 --> C2b["श्रृंखला नियम<br>Chain Rule"]
+    C2 --> C2c["प्रतिलोम फलन<br>Inverse Functions"]
+    C --> C3["प्रचलिक/अस्पष्ट अवकलन<br>Parametric/Implicit"]
+    C --> C4["उच्चतर कोटि अवकलज<br>Higher Order Derivatives"]
+    C --> C5["रोले/Lagrange प्रमेय<br>Rolle's / LMVT"]
+
+    D --> D1["अनिश्चित समाकलन<br>Indefinite Integral"]
+    D --> D2["समाकलन की विधियाँ<br>Methods of Integration"]
+    D2 --> D2a["प्रतिस्थापन<br>Substitution"]
+    D2 --> D2b["खंडशः समाकलन<br>By Parts (ILATE)"]
+    D2 --> D2c["आंशिक भिन्न<br>Partial Fractions"]
+    D --> D3["निश्चित समाकलन<br>Definite Integral"]
+    D3 --> D3a["समाकलन के गुण<br>Properties"]
+    D3 --> D3b["क्षेत्रफल<br>Area Under Curve"]
+    D --> D4["समाकलन का मूलभूत प्रमेय<br>FTC"]
+
+    E --> E1["कोटि व घात<br>Order & Degree"]
+    E --> E2["चर-पृथक्करण<br>Variable Separable"]
+    E --> E3["समघात समीकरण<br>Homogeneous"]
+    E --> E4["रैखिक अवकल समीकरण<br>Linear DE"]
+
+    F --> F1["स्पर्श रेखा/अभिलंब<br>Tangent & Normal"]
+    F --> F2["वर्धमान/ह्रासमान<br>Increasing/Decreasing"]
+    F --> F3["उच्चिष्ठ/निम्निष्ठ<br>Maxima & Minima"]
+    F --> F4["परिवर्तन की दर<br>Rate of Change"]
+    F --> F5["वक्र के नीचे क्षेत्रफल और आयतन<br>Area & Volume"]
+```

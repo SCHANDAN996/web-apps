@@ -1,0 +1,149 @@
+76. The derivative of f(x) = x³ − 6x² + 9x + 1 at x = 2 is
+(a) 3 (b) 0 (c) −3 (d) 9
+Answer: (c)
+Solution: The tempting wrong option is 0, obtained by setting f′(x) = 0 and solving for critical points instead of evaluating at x = 2. Differentiate: f′(x) = 3x² − 12x + 9. At x = 2: f′(2) = 12 − 24 + 9 = −3, so the answer is −3.
+Source: NCERT Class 12 Mathematics, Chapter 6
+
+77. If y = e^(2x) · sin x, then dy/dx equals
+(a) e^(2x)(sin x + 2 cos x) (b) e^(2x)(2 sin x + cos x) (c) 2e^(2x) · cos x (d) e^(2x)(2 sin x − cos x)
+Answer: (b)
+Solution: The tempting wrong option is 2e^(2x) · cos x, which differentiates each factor separately and multiplies — a classic product rule error. By the product rule: dy/dx = 2e^(2x) · sin x + e^(2x) · cos x = e^(2x)(2 sin x + cos x), so the answer is e^(2x)(2 sin x + cos x).
+Source: NCERT Class 12 Mathematics, Chapter 5
+
+78. The function f(x) = x³ − 3x has a local maximum at
+(a) x = 1 (b) x = 0 (c) x = −1 (d) x = 3
+Answer: (c)
+Solution: The tempting wrong option is x = 1, which is a critical point but is actually the local minimum. f′(x) = 3x² − 3 = 0 gives x = ±1. f″(x) = 6x; at x = −1, f″(−1) = −6 < 0, so x = −1 is a local maximum, so the answer is x = −1.
+Source: NCERT Class 12 Mathematics, Chapter 6
+
+79. ∫ (2x + 3)² dx equals
+(a) (2x + 3)³/3 + C (b) (2x + 3)³/2 + C (c) 2(2x + 3)³/3 + C (d) (2x + 3)³/6 + C
+Answer: (d)
+Solution: The tempting wrong option is (2x + 3)³/3 + C, which forgets to divide by the inner derivative 2. Using substitution u = 2x + 3, du = 2dx: ∫ u² (du/2) = u³/6 + C = (2x + 3)³/6 + C, so the answer is (2x + 3)³/6 + C.
+Source: NCERT Class 12 Mathematics, Chapter 7
+
+80. The value of ∫₀^(π/2) sin²x dx is
+(a) π/4 (b) π/2 (c) 1 (d) π
+Answer: (a)
+Solution: The tempting wrong option is π/2, which is the value of ∫ sin x dx over the same interval, not sin²x. Using sin²x = (1 − cos 2x)/2: the integral is [x/2 − sin 2x/4] from 0 to π/2 = π/4 − 0 = π/4, so the answer is π/4.
+Source: NCERT Class 12 Mathematics, Chapter 7
+
+81. If y = ln(sin x), then dy/dx equals
+(a) cot x (b) tan x (c) sec x (d) cosec x
+Answer: (a)
+Solution: The tempting wrong option is tan x, which results from inverting the ratio of cos x to sin x. By the chain rule: dy/dx = (1/sin x) · cos x = cot x, so the answer is cot x.
+Source: NCERT Class 12 Mathematics, Chapter 5
+
+82. The slope of the tangent to the curve y = x² − 4x + 5 at the point where x = 3 is
+(a) 4 (b) 2 (c) 6 (d) 0
+Answer: (b)
+Solution: The tempting wrong option is 0, which is the slope at the vertex (x = 2), not at x = 3. dy/dx = 2x − 4; at x = 3, slope = 6 − 4 = 2, so the answer is 2.
+Source: NCERT Class 12 Mathematics, Chapter 6
+
+83. ∫ x · e^x dx equals
+(a) e^x(x + 1) + C (b) e^x(x − 1) + C (c) x·e^x + C (d) e^x + C
+Answer: (b)
+Solution: The tempting wrong option is e^x(x + 1) + C, which comes from a sign slip in integration by parts. With u = x, dv = e^x dx: ∫ x·e^x dx = x·e^x − ∫ e^x dx = x·e^x − e^x + C = e^x(x − 1) + C, so the answer is e^x(x − 1) + C.
+Source: NCERT Class 12 Mathematics, Chapter 7
+
+84. The minimum value of f(x) = x² + 4x + 7 is
+(a) 7 (b) 4 (c) 3 (d) 11
+Answer: (c)
+Solution: The tempting wrong option is 7, which is just the constant term, not the minimum. f′(x) = 2x + 4 = 0 gives x = −2; f(−2) = 4 − 8 + 7 = 3, and since f″(x) = 2 > 0 it is a minimum, so the answer is 3.
+Source: NCERT Class 12 Mathematics, Chapter 6
+
+85. If y = x^x, then dy/dx equals
+(a) x^x · ln x (b) x · x^(x−1) (c) x^x(1 + ln x) (d) x^(x−1)
+Answer: (c)
+Solution: The tempting wrong option is x · x^(x−1), which wrongly applies the power rule to a variable exponent. Take logs: ln y = x ln x, so y′/y = 1 + ln x, giving dy/dx = x^x(1 + ln x), so the answer is x^x(1 + ln x).
+Source: NCERT Class 12 Mathematics, Chapter 5
+
+86. The area bounded by y = x², the x-axis, and the lines x = 0 and x = 2 is
+(a) 4/3 (b) 8 (c) 4 (d) 8/3
+Answer: (d)
+Solution: The tempting wrong option is 4, which is the value of the function at x = 2 rather than the integral. Area = ∫₀² x² dx = [x³/3]₀² = 8/3, so the answer is 8/3.
+Source: NCERT Class 12 Mathematics, Chapter 8
+
+87. lim (x→0) (sin 3x)/x equals
+(a) 0 (b) 1 (c) 3 (d) 1/3
+Answer: (c)
+Solution: The tempting wrong option is 1, which is the limit of (sin x)/x, ignoring the coefficient 3. Write (sin 3x)/x = 3 · (sin 3x)/(3x) → 3 · 1 = 3, so the answer is 3.
+Source: NCERT Class 11 Mathematics, Chapter 13
+
+88. The function f(x) = 2x³ − 9x² + 12x − 3 is increasing when
+(a) x < 1 or x > 2 (b) 1 < x < 2 (c) x > 0 (d) x < 0
+Answer: (a)
+Solution: The tempting wrong option is 1 < x < 2, which is exactly where the function is decreasing. f′(x) = 6x² − 18x + 12 = 6(x − 1)(x − 2); f′(x) > 0 when x < 1 or x > 2, so the answer is x < 1 or x > 2.
+Source: NCERT Class 12 Mathematics, Chapter 6
+
+89. ∫ dx/(x² + 4) equals
+(a) 2 tan⁻¹(x/2) + C (b) tan⁻¹(x/2) + C (c) (1/2) tan⁻¹(2x) + C (d) (1/2) tan⁻¹(x/2) + C
+Answer: (d)
+Solution: The tempting wrong option is tan⁻¹(x/2) + C, which omits the factor 1/a from the standard formula. Using ∫ dx/(x² + a²) = (1/a) tan⁻¹(x/a) with a = 2: the integral is (1/2) tan⁻¹(x/2) + C, so the answer is (1/2) tan⁻¹(x/2) + C.
+Source: NCERT Class 12 Mathematics, Chapter 7
+
+90. If x = a cos θ and y = b sin θ, then dy/dx equals
+(a) −(b/a) cot θ (b) (b/a) tan θ (c) −(a/b) cot θ (d) (a/b) tan θ
+Answer: (a)
+Solution: The tempting wrong option is (b/a) tan θ, which forgets both the minus sign from differentiating cos θ and the inversion of the ratio. dy/dθ = b cos θ, dx/dθ = −a sin θ, so dy/dx = (b cos θ)/(−a sin θ) = −(b/a) cot θ, so the answer is −(b/a) cot θ.
+Source: NCERT Class 12 Mathematics, Chapter 5
+
+91. The value of ∫₀¹ x/(1 + x²) dx is
+(a) ln 2 (b) 1/2 (c) 2 ln 2 (d) (1/2) ln 2
+Answer: (d)
+Solution: The tempting wrong option is ln 2, which misses the factor 1/2 from the substitution. Let u = 1 + x², du = 2x dx: the integral becomes (1/2)[ln(1 + x²)]₀¹ = (1/2)(ln 2 − ln 1) = (1/2) ln 2, so the answer is (1/2) ln 2.
+Source: NCERT Class 12 Mathematics, Chapter 7
+
+92. The second derivative of y = e^(3x) is
+(a) 3e^(3x) (b) 9e^(3x) (c) e^(3x) (d) 6e^(3x)
+Answer: (b)
+Solution: The tempting wrong option is 3e^(3x), which is only the first derivative. dy/dx = 3e^(3x); differentiating again, d²y/dx² = 9e^(3x), so the answer is 9e^(3x).
+Source: NCERT Class 12 Mathematics, Chapter 5
+
+93. The maximum value of f(x) = sin x + cos x is
+(a) √2 (b) 2 (c) 1 (d) 1/√2
+Answer: (a)
+Solution: The tempting wrong option is 2, obtained by adding the individual maxima of sin x and cos x, which never occur at the same x. Write f(x) = √2 sin(x + π/4), whose maximum is √2, so the answer is √2.
+Source: NCERT Class 12 Mathematics, Chapter 6
+
+94. ∫ tan x dx equals
+(a) ln|cos x| + C (b) −ln|cos x| + C (c) ln|sin x| + C (d) sec²x + C
+Answer: (b)
+Solution: The tempting wrong option is ln|cos x| + C, which drops the negative sign. ∫ tan x dx = ∫ (sin x/cos x) dx; with u = cos x, du = −sin x dx, giving −ln|cos x| + C (equivalently ln|sec x| + C), so the answer is −ln|cos x| + C.
+Source: NCERT Class 12 Mathematics, Chapter 7
+
+95. The point of inflection of f(x) = x³ − 6x² + 5x occurs at x equal to
+(a) 0 (b) 3 (c) 2 (d) 6
+Answer: (c)
+Solution: The tempting wrong option is 3, which is half of 6 but ignores the coefficient of x³. f″(x) = 6x − 12 = 0 gives x = 2, and f″ changes sign there, so the point of inflection is at x = 2, so the answer is 2.
+Source: NCERT Class 12 Mathematics, Chapter 6
+
+96. If y = sin⁻¹x, then dy/dx equals
+(a) −1/√(1 − x²) (b) 1/√(1 − x²) (c) 1/√(1 + x²) (d) √(1 − x²)
+Answer: (b)
+Solution: The tempting wrong option is 1/√(1 + x²), which is the derivative of sinh⁻¹x (or related to tan⁻¹ formulas), not sin⁻¹x. From x = sin y, dx/dy = cos y = √(1 − x²), so dy/dx = 1/√(1 − x²), so the answer is 1/√(1 − x²).
+Source: NCERT Class 12 Mathematics, Chapter 5
+
+97. The value of ∫₀^π sin x dx is
+(a) 2 (b) 1 (c) 0 (d) π
+Answer: (a)
+Solution: The tempting wrong option is 0, which is the integral over 0 to 2π where positive and negative halves cancel; over 0 to π, sin x is non-negative. ∫₀^π sin x dx = [−cos x]₀^π = −(−1) − (−1) = 2, so the answer is 2.
+Source: NCERT Class 12 Mathematics, Chapter 7
+
+98. For the curve y = x³ − 3x + 2, the equation of the tangent at the point (1, 0) is
+(a) y = 2x − 2 (b) y = x − 1 (c) y = 3x − 3 (d) y = 0
+Answer: (d)
+Solution: The tempting wrong option is y = 3x − 3, which uses the slope of y = x³ alone at x = 1 without the −3 term. dy/dx = 3x² − 3; at x = 1 the slope is 0, so the tangent is the horizontal line y = 0, so the answer is y = 0.
+Source: NCERT Class 12 Mathematics, Chapter 6
+
+99. ∫ (ln x)/x dx equals
+(a) (ln x)²/2 + C (b) (ln x)² + C (c) 1/x² + C (d) 2(ln x)² + C
+Answer: (a)
+Solution: The tempting wrong option is (ln x)² + C, which misses the factor 1/2 from the power rule. Let u = ln x, du = dx/x: ∫ u du = u²/2 + C = (ln x)²/2 + C, so the answer is (ln x)²/2 + C.
+Source: NCERT Class 12 Mathematics, Chapter 7
+
+100. The function f(x) = |x| at x = 0 is
+(a) continuous and differentiable (b) neither continuous nor differentiable (c) differentiable but not continuous (d) continuous but not differentiable
+Answer: (d)
+Solution: The tempting wrong option is "continuous and differentiable," but the left derivative (−1) and right derivative (+1) at x = 0 differ, so differentiability fails. Since both one-sided limits and f(0) equal 0, f is continuous at x = 0 but not differentiable there, so the answer is continuous but not differentiable.
+Source: NCERT Class 12 Mathematics, Chapter 5
