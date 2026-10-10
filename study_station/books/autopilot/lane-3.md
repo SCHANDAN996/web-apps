@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 08:58 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
+**आख़िरी update:** 10-10-2026 09:14 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 27 मिनट |
-| W5 | Chapter 22 Figure Series (12th Reasoning) | ✍️ लिख रहा है | 47 मिनट |
-| W7 | Chapter 20 Mirror Water Images (12th Reasoning) | ✍️ लिख रहा है | 69 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 43 मिनट |
+| W5 | Chapter 22 Figure Series (12th Reasoning) | ✍️ लिख रहा है | 62 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -46,7 +45,7 @@
 - Chapter 17 Course of Action (Reasoning) — 2 बार
 - Chapter 13 Dictionary Order (Reasoning) — 2 बार
 - Chapter 24 Statement Assumption (Reasoning) — 2 बार
-- Chapter 20 Mirror Water Images (Reasoning) — 1 बार
+- Chapter 20 Mirror Water Images (Reasoning) — 2 बार
 - Chapter 22 Figure Series (Reasoning) — 1 बार
 - Chapter 25 Statement Argument (Reasoning) — 2 बार
 - Chapter 07 Sitting Arrangement (Reasoning) — 1 बार
@@ -54,20 +53,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 08:31:07 START 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement (TODO: todo 6, problems 1)
-10-10 08:31:08   [Syllogism] repaired Flashcards_hi.txt (3066 chars)
-10-10 08:31:51   [Syllogism] repaired Important_Rules_hi.txt (3799 chars)
-10-10 08:31:51   [Syllogism] written 2, failed 0; AI calls today 392/100000
-10-10 08:32:36   [Syllogism] review Content_en.txt: 2 issue(s): - "### **Syllogy**" → "### **Syllogism**"
-10-10 08:32:40   [Statement_Argument] FAILED Practice_en_Set_02.txt: too_long
-10-10 08:32:40   [Statement_Argument] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
-10-10 08:32:40   [Statement_Argument] written 0, failed 2; AI calls today 393/100000
-10-10 08:32:40 NOT OK 12th_Level/Reasoning/Chapter_25_Statement_Argument after 15 min: todo ['Set 02 en: todo', 'Set 02 hi: todo'] problems ['PYQ_hi.txt: Hindi file is mostly not in Hindi', 'PYQ_hi.txt: much shorter than the English section (2089 vs 1']
-10-10 08:32:43 worker 1: nothing left
-10-10 08:33:39   [Sitting_Arrangement] Practice_en_Set_01.txt try 1: rejected (Q1:leaked_reasoning,Q16:leaked_reasoning,Q17:leaked_reasoning,Q21:leaked_reasoning,Q22:leaked_reasoning)
-10-10 08:33:40   [Cubes_Dice] review Short_Tricks_hi.txt: 1 issue(s): - Trick 11 claims “खुले पासे (open dice/net) में एक-एक फलक छोड़कर आने वाले फलक विपरीत होते हैं” as a universal
-10-10 08:34:47   [Mirror_Water_Images] Practice_en_Set_04.txt try 2: re-solve disagrees (Q86 key d vs re-solve a, Q87 key d vs re-solve c, Q89 key c vs re-solve d, Q94 key b vs re-solve c, 
-10-10 08:36:37   [Figure_Series] Practice_en_Set_02.txt try 3: re-solve disagrees (Q44 key b vs re-solve c)
 10-10 08:39:10   [Cubes_Dice] review Important_Rules_hi.txt: 1 issue(s): - Example for rule 'दो स्थितियों में एक उभयनिष्ठ फलक' wrongly concludes 1↔6 → The rule only yields 2↔4 and 
 10-10 08:39:16   [Syllogism] review Flashcards_en.txt: 2 issue(s): - Card 13 incorrectly includes "Some A are not B" as a complementary pair for "Some A are B" → The correct compl
 10-10 08:39:47   [Cubes_Dice] review: 9 section(s) corrected, 0 failed
@@ -94,4 +79,18 @@
 10-10 08:55:52 worker 7: nothing left
 10-10 08:56:36   [Figure_Series] Practice_en_Set_03.txt try 3: rejected (Q70:leaked_reasoning)
 10-10 08:58:05   [Sitting_Arrangement] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+10-10 09:00:04   [Sitting_Arrangement] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+10-10 09:00:16   [Mirror_Water_Images] Practice_en_Set_05.txt try 2: re-solve disagrees (Q110 key c vs re-solve a)
+10-10 09:03:22   [Sitting_Arrangement] Practice_en_Set_02.txt try 1: rejected (Q36:leaked_reasoning,Q48:leaked_reasoning)
+10-10 09:05:58   [Figure_Series] Practice_en_Set_03.txt try 4: re-solve disagrees (Q63 key c vs re-solve a, Q73 key b vs re-solve c)
+10-10 09:05:58   [Figure_Series] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
+10-10 09:05:58   [Figure_Series] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
+10-10 09:07:43   [Figure_Series] Practice_en_Set_04.txt try 1: rejected (Q76:leaked_reasoning,Q83:leaked_reasoning,Q89:leaked_reasoning)
+10-10 09:09:56   [Mirror_Water_Images] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+10-10 09:11:51   [Mirror_Water_Images] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+10-10 09:11:51   [Mirror_Water_Images] written 4, failed 2; AI calls today 444/100000
+10-10 09:11:52 NOT OK 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images after 82 min: todo ['Set 01 en: todo', 'Set 01 hi: todo'] problems ['Flashcards_hi.txt: much shorter than the English section (45', 'Important_Rules_hi.txt: Hindi file is mostly not in Hindi', 'Important_Rules_hi.txt: much shorter than the English sectio', 'PYQ_hi.txt: Hindi file is mostly not in Hindi']
+10-10 09:11:55 worker 6: nothing left
+10-10 09:12:57   [Figure_Series] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+10-10 09:14:19   [Sitting_Arrangement] Practice_en_Set_02.txt try 2: re-solve disagrees (Q26 key d vs re-solve a, Q29 key d vs re-solve c, Q35 key a vs re-solve c, Q38 key c vs re-solve b, 
 ```
