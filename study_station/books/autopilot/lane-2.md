@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 08:10 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
+**आख़िरी update:** 10-10-2026 08:12 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 19 Trigonometry (Graduation Maths) | 🔎 review हो रहा है | 24 मिनट |
-| W5 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 61 मिनट |
+| W3 | Chapter 19 Trigonometry (Graduation Maths) | 📤 push हो रहा है | 0 मिनट |
+| W5 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 64 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -31,7 +31,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 10-10 20:12 — Graduation Maths · Chapter 19 Trigonometry
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
@@ -43,9 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 19:22:28   [Calculus] written 1, failed 0; AI calls today 21/100000
-10-10 19:22:53   [Linear_Programming] repaired Content_hi.txt (7379 chars)
-10-10 19:22:53   [Linear_Programming] written 1, failed 0; AI calls today 22/100000
 10-10 19:22:57   [Percentage] repaired Feynman_hi.txt (2716 chars)
 10-10 19:22:57   [Percentage] written 1, failed 0; AI calls today 23/100000
 10-10 19:22:57 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_05_Percentage after 6 min: todo [] problems ['Feynman_hi.txt: much shorter than the English section (2715 ']
@@ -83,4 +80,7 @@
 10-10 20:04:32   [Probability] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 10-10 20:05:52   [Trigonometry] review Short_Tricks_en.txt: 1 issue(s): - Trick 2 table lists sin values as √0/2, √1/2, √2/2, √3/2, √4/2; √1/2 equals 1/√2 ≈ 0.707 but sin 30° = 1/2, 
 10-10 20:08:12   [Probability] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+10-10 20:11:22   [Trigonometry] review Important_Formulas_en.txt: 1 issue(s): - Section content is corrupted/unreadable garbage (random symbols, fragments, no coherent formulas or te
+10-10 20:12:58   [Trigonometry] review: 5 section(s) corrected, 0 failed
+10-10 20:12:58   [Trigonometry] written 5, failed 0; AI calls today 62/100000
 ```

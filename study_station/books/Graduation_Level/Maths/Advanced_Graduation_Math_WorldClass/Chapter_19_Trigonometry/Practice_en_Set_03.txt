@@ -1,0 +1,151 @@
+प्रश्न 51–70: आसान | प्रश्न 71–75: मध्यम
+
+51. If sin θ + cos θ = √2, then the value of sin θ · cos θ is
+(a) 1 (b) 1/2 (c) 1/4 (d) √2/2
+Answer: (b)
+Solution: The tempting wrong choice is 1, which comes from squaring only one term. Squaring the given equation: sin²θ + cos²θ + 2 sin θ cos θ = 2, so 1 + 2 sin θ cos θ = 2, giving sin θ cos θ = 1/2. So the answer is 1/2.
+Source: NCERT Class 11 Mathematics
+
+52. The value of tan 1° · tan 2° · tan 3° … tan 89° is
+(a) 0 (b) 1 (c) 1/2 (d) √3
+Answer: (b)
+Solution: The trap is 0, chosen by those who think tan 90° appears in the product — it does not, since the product stops at 89°. Pairing terms: tan k° · tan(90° − k°) = tan k° · cot k° = 1, and the middle term tan 45° = 1. So the answer is 1.
+Source: PYQ-style
+
+53. If tan θ = 3/4 and θ is acute, then the value of (sin θ + cos θ) is
+(a) 4/5 (b) 5/7 (c) 7/5 (d) 1
+Answer: (c)
+Solution: The tempting wrong choice is 5/7, which is the reciprocal obtained by careless division. With tan θ = 3/4, take opposite = 3, adjacent = 4, hypotenuse = 5, so sin θ = 3/5 and cos θ = 4/5. Then sin θ + cos θ = 3/5 + 4/5 = 7/5. So the answer is 7/5.
+Source: NCERT Class 10 Mathematics
+
+54. The value of sin² 25° + sin² 65° is
+(a) 1/2 (b) 1 (c) 2 (d) √3/2
+Answer: (b)
+Solution: The trap is 1/2, arising from wrongly applying the identity to only one term. Since sin 65° = sin(90° − 25°) = cos 25°, the expression becomes sin² 25° + cos² 25° = 1. So the answer is 1.
+Source: NCERT Class 10 Mathematics
+
+55. If 3 sin θ + 4 cos θ = 5, then the value of 4 sin θ − 3 cos θ is
+(a) 0 (b) 1 (c) 5 (d) 25
+Answer: (a)
+Solution: The tempting wrong choice is 5, from assuming both expressions are equal. Square and add the given equation with x = 4 sin θ − 3 cos θ: (3 sin θ + 4 cos θ)² + (4 sin θ − 3 cos θ)² = 9 + 16 = 25, so 25 + x² = 25, giving x = 0. So the answer is 0.
+Source: PYQ-style
+
+56. The value of cos 20° · cos 40° · cos 60° · cos 80° is
+(a) 1/8 (b) 1/16 (c) 1/4 (d) 1/32
+Answer: (b)
+Solution: The trap is 1/8, obtained by forgetting the factor cos 60° = 1/2. Using the identity cos θ · cos(60° − θ) · cos(60° + θ) = (1/4) cos 3θ with θ = 20°: cos 20° · cos 40° · cos 80° = (1/4) cos 60° = 1/8. Multiplying by cos 60° = 1/2 gives 1/16. So the answer is 1/16.
+Source: NCERT Class 11 Mathematics
+
+57. If sin θ = 5/13 and θ lies in the second quadrant, then the value of tan θ is
+(a) 12/5 (b) 5/12 (c) −5/12 (d) −12/5
+Answer: (c)
+Solution: The tempting wrong choice is 5/12, which ignores the quadrant. Here cos θ = −√(1 − 25/169) = −12/13 (negative in the second quadrant), so tan θ = sin θ / cos θ = (5/13)/(−12/13) = −5/12. So the answer is −5/12.
+Source: NCERT Class 11 Mathematics
+
+58. The value of (1 + tan² θ) · (1 − sin² θ) is
+(a) 1 (b) sec² θ (c) 2 (d) 0
+Answer: (a)
+Solution: The trap is sec² θ, chosen by those who simplify only the first bracket. Since 1 + tan² θ = sec² θ and 1 − sin² θ = cos² θ, the product is sec² θ · cos² θ = 1. So the answer is 1.
+Source: NCERT Class 10 Mathematics
+
+59. If tan θ + cot θ = 2, then the value of tan⁵ θ + cot⁵ θ is
+(a) 32 (b) 2 (c) 8 (d) 4
+Answer: (b)
+Solution: The tempting wrong choice is 32, from computing 2⁵ directly. From tan θ + cot θ = 2, we get tan²θ − 2 tan θ + 1 = 0, so tan θ = 1 and cot θ = 1. Then tan⁵ θ + cot⁵ θ = 1 + 1 = 2. So the answer is 2.
+Source: PYQ-style
+
+60. The value of sin 75° is
+(a) (√3 − 1)/(2√2) (b) (√3 + 1)/(2√2) (c) (√6 + √2)/2 (d) (√6 − √2)/4
+Answer: (b)
+Solution: The trap is (√3 − 1)/(2√2), which is sin 15°, not sin 75°. Using sin(45° + 30°) = sin 45° cos 30° + cos 45° sin 30° = (1/√2)(√3/2) + (1/√2)(1/2) = (√3 + 1)/(2√2). So the answer is (√3 + 1)/(2√2).
+Source: NCERT Class 11 Mathematics
+
+61. If cos A + cos² A = 1, then the value of sin² A + sin⁴ A is
+(a) 1 (b) 1/2 (c) 2 (d) 0
+Answer: (a)
+Solution: The tempting wrong choice is 2, from adding the exponents instead of the values. From the given, cos A = 1 − cos² A = sin² A. Then sin² A + sin⁴ A = cos A + cos² A = 1. So the answer is 1.
+Source: PYQ-style
+
+62. The value of tan 15° is
+(a) 1/(2 − √3) (b) 2 + √3 (c) √3 − 1 (d) 2 − √3
+Answer: (d)
+Solution: The trap is 2 + √3, which is cot 15°, not tan 15°. Using tan(45° − 30°) = (1 − 1/√3)/(1 + 1/√3) = (√3 − 1)/(√3 + 1) = 2 − √3 after rationalising. So the answer is 2 − √3.
+Source: NCERT Class 11 Mathematics
+
+63. If sec θ + tan θ = 3, then the value of sec θ − tan θ is
+(a) 1/3 (b) 3 (c) 1 (d) 9
+Answer: (a)
+Solution: The tempting wrong choice is 3, from assuming both expressions are equal. Since sec² θ − tan² θ = 1, we have (sec θ + tan θ)(sec θ − tan θ) = 1, so sec θ − tan θ = 1/3. So the answer is 1/3.
+Source: NCERT Class 10 Mathematics
+
+64. The value of sin 10° · sin 50° · sin 70° is
+(a) 1/4 (b) 1/16 (c) 1/8 (d) 1/2
+Answer: (c)
+Solution: The trap is 1/4, from using the identity but forgetting the final division. Using sin θ · sin(60° − θ) · sin(60° + θ) = (1/4) sin 3θ with θ = 10°: the product equals (1/4) sin 30° = (1/4)(1/2) = 1/8. So the answer is 1/8.
+Source: NCERT Class 11 Mathematics
+
+65. If 5 tan θ = 4, then the value of (5 sin θ − 3 cos θ)/(5 sin θ + 2 cos θ) is
+(a) 1/5 (b) 5/6 (c) 1/6 (d) 6/5
+Answer: (c)
+Solution: The tempting wrong choice is 5/6, from an arithmetic slip in the denominator. Divide numerator and denominator by cos θ: (5 tan θ − 3)/(5 tan θ + 2) = (4 − 3)/(4 + 2) = 1/6. So the answer is 1/6.
+Source: PYQ-style
+
+66. The value of cos² 15° − sin² 15° is
+(a) 1/2 (b) √2/2 (c) 1 (d) √3/2
+Answer: (d)
+Solution: The trap is 1/2, which is the value of cos 60° rather than cos 30°. Using cos² A − sin² A = cos 2A, the expression equals cos 30° = √3/2. So the answer is √3/2.
+Source: NCERT Class 11 Mathematics
+
+67. If sin θ + sin² θ = 1, then the value of cos² θ + cos⁴ θ is
+(a) 1 (b) 0 (c) 2 (d) 1/2
+Answer: (a)
+Solution: The tempting wrong choice is 2, from adding the powers instead of simplifying. From the given, sin θ = 1 − sin² θ = cos² θ. Then cos² θ + cos⁴ θ = sin θ + sin² θ = 1. So the answer is 1.
+Source: PYQ-style
+
+68. The value of (sin 30° + cos 60°)/(tan 45° + cot 45°) is
+(a) 1/2 (b) 1 (c) 2 (d) 1/4
+Answer: (a)
+Solution: The trap is 1, from evaluating only the numerator. Numerator: 1/2 + 1/2 = 1. Denominator: 1 + 1 = 2. Hence the value is 1/2. So the answer is 1/2.
+Source: NCERT Class 10 Mathematics
+
+69. If tan θ = 1/√7 and θ is acute, then the value of (cosec² θ − sec² θ)/(cosec² θ + sec² θ) is
+(a) 1/2 (b) 4/3 (c) 3/4 (d) 5/4
+Answer: (c)
+Solution: The tempting wrong choice is 4/3, the reciprocal obtained by swapping numerator terms. With tan² θ = 1/7: cosec² θ = 1 + cot² θ = 1 + 7 = 8 and sec² θ = 1 + tan² θ = 8/7. The expression becomes (8 − 8/7)/(8 + 8/7) = (48/7)/(64/7) = 3/4. So the answer is 3/4.
+Source: PYQ-style
+
+70. The value of sin(45° + θ) − cos(45° − θ) is
+(a) 1 (b) 2 sin θ (c) 0 (d) √2 sin θ
+Answer: (c)
+Solution: The trap is √2 sin θ, from expanding only the first term. Since cos(45° − θ) = sin(90° − (45° − θ)) = sin(45° + θ), the two terms are identical and their difference is 0. So the answer is 0.
+Source: NCERT Class 11 Mathematics
+
+71. If cos θ = 3/5 and θ is acute, then the value of (16 cot² θ + 9 tan² θ) is
+(a) 7 (b) 16 (c) 9 (d) 25
+Answer: (d)
+Solution: The tempting wrong choice is 7, from subtracting the two terms instead of adding them. Here sin θ = 4/5, so tan² θ = 16/9 and cot² θ = 9/16. Then 16 · (9/16) + 9 · (16/9) = 9 + 16 = 25. So the answer is 25.
+Source: PYQ-style
+
+72. The value of tan 5° · tan 25° · tan 45° · tan 65° · tan 85° is
+(a) 0 (b) 5 (c) √5 (d) 1
+Answer: (d)
+Solution: The trap is 0, from wrongly thinking tan 90° appears. Pairing: tan 5° · tan 85° = tan 5° · cot 5° = 1, and tan 25° · tan 65° = 1, with tan 45° = 1. The product is 1. So the answer is 1.
+Source: PYQ-style
+
+73. If sin A : cos A = 4 : 3, then the value of sin⁴ A − cos⁴ A is
+(a) 7/25 (b) 1/7 (c) 7/625 (d) 1/25
+Answer: (a)
+Solution: The tempting wrong choice is 7/625, from forgetting to factorise first. Here sin A = 4/5, cos A = 3/5. Then sin⁴ A − cos⁴ A = (sin² A − cos² A)(sin² A + cos² A) = 16/25 − 9/25 = 7/25. So the answer is 7/25.
+Source: PYQ-style
+
+74. The value of (sec 35°)/(cosec 55°) + (tan 40°)/(cot 50°) is
+(a) 1/2 (b) 1 (c) 0 (d) 2
+Answer: (d)
+Solution: The trap is 1, from simplifying only one fraction. Since cosec 55° = sec 35°, the first fraction equals 1; since cot 50° = tan 40°, the second fraction equals 1. Their sum is 2. So the answer is 2.
+Source: NCERT Class 10 Mathematics
+
+75. If 2 sin² θ + 3 cos θ = 3, where θ is acute, then the value of θ is
+(a) 90° (b) 45° (c) 30° (d) 60°
+Answer: (d)
+Solution: The tempting wrong choice is 90°, which is not acute and fails the condition. Rewrite: 2(1 − cos² θ) + 3 cos θ = 3, so 2 cos² θ − 3 cos θ + 1 = 0, giving (2 cos θ − 1)(cos θ − 1) = 0. Thus cos θ = 1/2 or cos θ = 1; the acute non-trivial solution is cos θ = 1/2, so θ = 60°. So the answer is 60°.
+Source: NCERT Class 11 Mathematics
