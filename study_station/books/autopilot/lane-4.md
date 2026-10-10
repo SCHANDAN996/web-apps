@@ -41,7 +41,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 19:13:09   [Sports] repaired Memory_Hooks_hi.txt (5981 chars)
 10-10 19:13:09   [Sports] written 1, failed 0; AI calls today 17/100000
 10-10 19:13:09 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_14_Sports after 5 min: todo [] problems ['Memory_Hooks_hi.txt: much shorter than the English section (']
 10-10 19:13:10 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_14_Sports (FIX: todo 0, problems 1)
@@ -81,4 +80,5 @@
 10-10 19:38:43   [Probability] written 4, failed 0; AI calls today 38/100000
 10-10 19:39:06 DONE 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_20_Probability in 30 min → e21c35e4
 10-10 19:39:10 worker 5: nothing left
+10-10 19:40:50 autopilot end: done 1, failed 5
 ```
