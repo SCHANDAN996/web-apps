@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 09:08 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
+**आख़िरी update:** 10-10-2026 09:24 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W4 | Chapter 27 Number Series (Graduation Maths) | ✍️ लिख रहा है | 150 मिनट |
-| W5 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 103 मिनट |
-| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 56 मिनट |
+| W4 | Chapter 27 Number Series (Graduation Maths) | ✍️ लिख रहा है | 165 मिनट |
+| W5 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 118 मिनट |
+| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 71 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -26,9 +26,9 @@
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 21 | 2 | 5 |
 | Graduation GK | 27 | 1 | 0 |
-| Graduation Reasoning | 15 | 0 | 15 |
+| Graduation Reasoning | 16 | 0 | 14 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **253** | **5** | **38** |
+| **कुल** | **254** | **5** | **37** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -52,8 +52,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 08:03:22   [Probability] Practice_en_Set_06.txt try 2: rejected (parsed 23 questions, numbers 126…150)
-10-10 08:05:46   [Linear_Programming] Mind_Map.txt try 2: rejected (no usable mermaid graph)
 10-10 08:05:46   [Linear_Programming] REJECTED Mind_Map.txt: no usable mermaid graph — not written
 10-10 08:06:38   [Probability] Practice_en_Set_06.txt try 3: rejected (parsed 0 questions, numbers -…-)
 10-10 08:07:48   [Number_Series] wrote Practice_en_Set_01.txt (write, 25 MCQs)
@@ -92,4 +90,6 @@
 10-10 09:06:44   [Probability] Practice_en_Set_03.txt try 3: rejected (parsed 22 questions, numbers 51…75)
 10-10 09:08:14   [Number_Series] FAILED Practice_en_Set_02.txt: too_long
 10-10 09:08:14   [Number_Series] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+10-10 09:11:10   [Linear_Programming] wrote Short_Tricks_hi.txt (9119 chars)
+10-10 09:12:10   [Number_Series] Practice_en_Set_03.txt try 1: rejected (Q64:leaked_reasoning)
 ```
