@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 11-10-2026 04:00 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:59 AM
+**आख़िरी update:** 11-10-2026 04:16 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:59 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 12 Biology (12th GK) | 🔧 सुधार रहा है | 1 मिनट |
-| W2 | Chapter 14 Sports (12th GK) | 🔧 सुधार रहा है | 0 मिनट |
-| W3 | Chapter 01 Number System (12th Maths) | 🔧 सुधार रहा है | 0 मिनट |
-| W4 | Chapter 10 Compound Interest (12th Maths) | 🔧 सुधार रहा है | 0 मिनट |
-| W5 | Chapter 13 Mixture Alligation (12th Maths) | 🔧 सुधार रहा है | 0 मिनट |
+| W1 | Chapter 12 Biology (12th GK) | 🔧 सुधार रहा है | 2 मिनट |
+| W2 | Chapter 14 Sports (12th GK) | 🔧 सुधार रहा है | 16 मिनट |
+| W3 | Chapter 01 Number System (12th Maths) | 🔧 सुधार रहा है | 16 मिनट |
+| W4 | Chapter 10 Compound Interest (12th Maths) | 🔧 सुधार रहा है | 16 मिनट |
+| W5 | Chapter 13 Mixture Alligation (12th Maths) | 🔧 सुधार रहा है | 16 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -48,4 +48,6 @@
 11-10 04:00:19 worker 5: nothing left
 11-10 04:00:24 worker 6: nothing left
 11-10 04:00:29 worker 7: nothing left
+11-10 04:14:13   [Biology] FAILED Feynman_hi.txt: rate_limited
+11-10 04:14:13   [Biology] written 0, failed 1; AI calls today 4/100000
 ```
