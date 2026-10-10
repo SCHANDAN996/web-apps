@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 08:55 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
+**आख़िरी update:** 10-10-2026 09:11 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W5 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 7 मिनट |
+| W5 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 22 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -43,8 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 19:24:17   [Calculus] written 1, failed 0; AI calls today 23/100000
-10-10 19:24:17 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_22_Calculus after 4 min: todo [] problems ['Feynman_hi.txt: much shorter than the English section (2681 ']
 10-10 19:24:19 worker 3: nothing left
 10-10 19:24:22   [Probability] Practice_en_Set_02.txt try 2: re-solve disagrees (Q48 key b vs re-solve ?)
 10-10 19:26:07   [Linear_Programming] repaired Content_hi.txt (6916 chars)
@@ -83,4 +81,6 @@
 10-10 20:48:42   [Probability] written 6, failed 4; AI calls today 64/100000
 10-10 20:48:42 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability after 100 min: todo ['Set 02 en: todo', 'Set 02 hi: todo', 'Set 06 en: todo', 'Set 06 hi: todo'] problems ['Flashcards_hi.txt: Hindi file is mostly not in Hindi', 'Flashcards_hi.txt: much shorter than the English section (46', 'Short_Tricks_hi.txt: much shorter than the English section (']
 10-10 20:48:44 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability (TODO: todo 4, problems 3)
+10-10 21:11:16   [Probability] FAILED Practice_en_Set_02.txt: network
+10-10 21:11:16   [Probability] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
 ```
