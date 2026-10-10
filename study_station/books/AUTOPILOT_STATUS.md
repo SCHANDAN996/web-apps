@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 03:22 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:34 AM
+**आख़िरी update:** 10-10-2026 03:23 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:34 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 29 Logical Consistency (Graduation Reasoning) | 🔎 review हो रहा है | 14 मिनट |
-| W5 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 161 मिनट |
-| W8 | Chapter 26 Data Sufficiency (Graduation Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 29 Logical Consistency (Graduation Reasoning) | 🔎 review हो रहा है | 15 मिनट |
+| W5 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 162 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -48,15 +47,11 @@
 - Chapter 25 Statement Argument (Reasoning) — 2 बार
 - Chapter 21 Paper Folding Cutting (Reasoning) — 2 बार
 - Chapter 13 Dictionary Order (Reasoning) — 2 बार
-- Chapter 26 Data Sufficiency (Reasoning) — 1 बार
 - Chapter 29 Logical Consistency (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 14:27:05   [Logical_Consistency] Practice_en_Set_06.txt try 3: re-solve disagrees (Q128 key b vs re-solve a, Q132 key d vs re-solve a, Q145 key a vs re-solve d)
-10-10 14:28:47   [Advanced_Puzzles] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-10-10 14:32:20   [Advanced_Puzzles] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 10-10 14:35:02   [Data_Sufficiency] Practice_en_Set_04.txt try 2: re-solve disagrees (Q77 key a vs re-solve c, Q78 key c vs re-solve a, Q79 key b vs re-solve a, Q80 key a vs re-solve d, 
 10-10 14:36:00   [Advanced_Puzzles] Practice_en_Set_03.txt try 1: rejected (Q55:leaked_reasoning,Q65:leaked_reasoning,Q69:leaked_reasoning,Q73:leaked_reasoning)
 10-10 14:37:46   [Logical_Consistency] Practice_en_Set_06.txt try 4: re-solve disagrees (Q127 key a vs re-solve d, Q128 key c vs re-solve a, Q129 key d vs re-solve a, Q145 key b vs re-solve
@@ -94,4 +89,7 @@
 10-10 15:20:49   [Logical_Consistency] review PYQ_en.txt: 1 issue(s): - Q4 answer (d) Neither follows is wrong → Correct answer is (c) Both follow: "Only a few laptops are tablets" means so
 10-10 15:22:33   [Data_Sufficiency] review: 5 section(s) corrected, 0 failed
 10-10 15:22:33   [Data_Sufficiency] written 5, failed 0; AI calls today 390/100000
+10-10 15:22:47 DONE Graduation_Level/Reasoning/Chapter_26_Data_Sufficiency in 60 min → fafa4ffa
+10-10 15:22:49 worker 7: nothing left
+10-10 15:23:08   [Logical_Consistency] review Short_Tricks_en.txt: 1 issue(s): - Mnemonic 3 incorrectly states that A-E and I-O are contradiction pairs ("A-E fight, I-O fight") → Only A-O a
 ```
