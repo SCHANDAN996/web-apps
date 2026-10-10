@@ -1,0 +1,167 @@
+# Mirror & Water Images
+
+## Outline & Learning Goals
+
+By the end of this chapter, you will be able to:
+
+1. Define what a mirror image and a water image actually are — in one line each.
+2. Predict the mirror image of any letter, number, word, or figure **without drawing it**.
+3. Predict the water image of any figure with the same confidence.
+4. Spot the examiner's favourite traps: near-identical options, rotated figures disguised as reflections, and asymmetric details hidden in corners.
+5. Solve any question of this type in under 20 seconds using a fixed checking order.
+
+---
+
+## The Hook: Your Brain Already Knows This
+
+Every morning you look into a mirror and instantly recognise yourself. You never confuse your reflection with a rotated photo of yourself. Your brain has been solving "mirror image" problems since childhood — for free, in zero time.
+
+The exam doesn't test a new skill. It tests whether you can do **on paper, under time pressure, with deliberately confusing options** what you already do effortlessly in front of a mirror. This chapter simply converts your everyday intuition into a mechanical, exam-proof procedure.
+
+---
+
+## The Common Struggle (And Why It Happens)
+
+Most students lose marks here for three reasons:
+
+- **They try to "see" the whole image at once** instead of checking one feature at a time. Under pressure, the whole-figure approach collapses.
+- **They confuse mirror image with rotation.** A 180° rotation and a water image can look similar for symmetric figures — examiners exploit exactly this.
+- **They ignore the position of the mirror.** A mirror on the *right* and a mirror on the *left* give the same shape, but a mirror placed *below* the figure is a completely different question (that's a water image).
+
+The fix: stop visualising the whole figure. Check **one anchor feature at a time**, in a fixed order. We'll build that order now.
+
+---
+
+## Chunk 1: What a Mirror Image Really Is
+
+**Rule:** When a mirror is placed vertically (on the left or right of a figure), the image undergoes **lateral inversion** — left and right swap, top and bottom stay unchanged.
+
+- The part of the figure **closest to the mirror** stays closest to the mirror in the image.
+- The part **farthest from the mirror** stays farthest.
+- Top remains top. Bottom remains bottom.
+
+**One-line definition:** *Mirror image = left-right flip, top-bottom unchanged.*
+
+Example with letters:
+
+- **b → d** (the loop flips sides)
+- **p → q**
+- **R → Я-like shape** (the leg points the other way)
+- **A, H, I, M, O, T, U, V, W, X, Y** — these are vertically symmetric, so their mirror images look **identical** to the original.
+
+🧠 **Active Recall:** Without looking back — in a mirror image, which pair swaps: left-right or top-bottom? And name three capital letters that look unchanged in a mirror.
+
+---
+
+## Chunk 2: What a Water Image Really Is
+
+**Rule:** A water image is the reflection in a horizontal water surface **below** the figure. Here **top and bottom swap**, while left and right stay unchanged.
+
+- The part of the figure **nearest the water line** stays nearest the water line.
+- Left stays left. Right stays right.
+
+**One-line definition:** *Water image = top-bottom flip, left-right unchanged.*
+
+Example with letters:
+
+- **M ↔ W** (water image of M is W, and vice versa)
+- **b → p** (loop stays on the same side, but moves from bottom to top)
+- **B, C, D, E, H, I, K, O, X** — horizontally symmetric capitals look (nearly) unchanged in water.
+
+**Memory hook (mnemonic):** **"Mirror swaps Mates (left-right), Water swaps Heights (top-bottom)."** Or remember: *M for Mirror, M for sideways Movement; W for Water, W for vertical Wave.*
+
+🧠 **Active Recall:** A flag points to the upper-right in the original. In its water image, where does it point? (Answer: lower-right — top-bottom flips, right stays right.)
+
+---
+
+## Chunk 3: Mirror Image vs. Water Image vs. Rotation — The Deadly Confusion
+
+This is where the examiner earns his salary. Three transformations look similar but are different:
+
+| Transformation | Left-Right | Top-Bottom |
+|---|---|---|
+| Mirror image (vertical mirror) | Swapped | Same |
+| Water image (horizontal surface) | Same | Swapped |
+| 180° rotation | Swapped | Swapped |
+
+Notice: **180° rotation = mirror flip + water flip together.** So for a figure that is symmetric in one direction, rotation and one of the reflections will look identical — and the examiner will place both as options.
+
+**Test yourself on the letter p:**
+- Mirror image of **p** → **q** (left-right swap)
+- Water image of **p** → **b** (top-bottom swap)
+- 180° rotation of **p** → **d** (both swap)
+
+Three different answers from one letter. If you can produce all three instantly, you've understood the chapter.
+
+🧠 **Active Recall:** Cover the table. What does a 180° rotation do to left-right and top-bottom? What is the water image of the letter **d**? (Answer: **q**.)
+
+---
+
+## Chunk 4: The Fixed Checking Order (Your 20-Second Procedure)
+
+Never scan options randomly. Use this order every single time:
+
+**Step 1 — Identify the question type.** Is the mirror/water line vertical (mirror) or horizontal (water)? In the exam, a dotted line is drawn — check its orientation first. If the mirror is shown on the *left*, the image appears on the left; on the *right*, image on the right. The shape of the flip is the same either way.
+
+**Step 2 — Pick one asymmetric anchor.** Find the most distinctive asymmetric detail: an arrowhead, a dot in a corner, a small tail, a number like 2 or 5. Symmetric parts are useless — they look the same after flipping.
+
+**Step 3 — Predict where the anchor goes.**
+- Mirror: anchor's left-right position reverses; height unchanged.
+- Water: anchor's top-bottom position reverses; side unchanged.
+
+**Step 4 — Eliminate, don't select.** Cross out every option where the anchor is wrong. Usually 2–3 options die instantly. Then check a **second anchor** among the survivors.
+
+**Step 5 — Check numbers/letters character by character.** For words or numbers, mentally flip each character and reverse the order of the string. Example: mirror image of **"25F"** → the string reverses order AND each character flips: it reads as flipped-F, flipped-5, flipped-2.
+
+🧠 **Active Recall:** Recite the five steps from memory. Why do we *eliminate* instead of *select*? (Because one wrong anchor kills an option with certainty, while one right anchor doesn't guarantee the whole option is right.)
+
+---
+
+## Chunk 5: Numbers, Clocks, and Words — Special Cases
+
+**Digits:** 0, 1, 8 look the same in a mirror (vertical symmetry). 3, 8 look the same in water (horizontal symmetry). Digits like 2, 4, 5, 6, 7, 9 change in both. **6 and 9 swap under 180° rotation** — a classic trap.
+
+**Clock questions:** "A clock shows 3:00 in the mirror — what is the real time?" Rule: **Real time = 11:60 − mirror time** (or 12:00 − mirror time when minutes are 00). Mirror shows 3:00 → real time = 9:00. Mirror shows 2:30 → 11:60 − 2:30 = 9:30. For water images of clocks (rare), the hands flip vertically instead.
+
+**Words:** Reverse the order of letters AND flip each letter. Mirror image of "MOM" still reads "MOM" (symmetric letters, palindrome) — examiners love hiding this.
+
+🧠 **Active Recall:** A mirror shows a clock at 4:15. Real time? (11:60 − 4:15 = 7:45.) Why does "MOM" survive a mirror but "DAD" doesn't? (D is not vertically symmetric.)
+
+---
+
+## Chunk 6: Advanced — Figures Inside Figures
+
+At the graduation level (SSC CGL, IBPS PO, State PCS), questions embed details: a triangle inside a circle with a dot in one quadrant, arrows on two sides, shading in one half. The procedure doesn't change — your discipline does:
+
+1. Flip the **outer frame** mentally (usually symmetric — ignore it).
+2. Flip the **inner shape** (check its orientation).
+3. Flip the **dot/shading/arrow** (this is your anchor — it's almost always the deciding feature).
+
+If two options differ only in the dot's quadrant, the question is *entirely* about the dot. Find the dot, flip it, done.
+
+---
+
+## Summary Table
+
+| Concept | What flips | What stays | Classic example |
+|---|---|---|---|
+| Mirror image (vertical mirror) | Left ↔ Right | Top, Bottom | b → d; R reverses |
+| Water image (horizontal surface) | Top ↔ Bottom | Left, Right | M → W; b → p |
+| 180° rotation | Both | Nothing | p → d; 6 → 9 |
+| Symmetric capitals (mirror) | — | A H I M O T U V W X Y | unchanged |
+| Symmetric capitals (water) | — | B C D E H I K O X | unchanged |
+| Clock in mirror | — | — | Real = 11:60 − mirror time |
+
+**Solving procedure:** Identify line orientation → pick asymmetric anchor → predict anchor's new position → eliminate → verify with second anchor.
+
+📌 **Review this chapter after 2 days.** Redo the letter-flip drills (p, b, d, q under all three transformations) from memory — if you can produce all 12 results in under a minute, the chapter is permanently yours.
+
+---
+
+## ⚠️ Caution: Examiner's Trap
+
+**Trap 1 — Blurry/low-contrast figures on screen.** In CBT exams (SSC, IBPS), figures sometimes render faintly, and a thin arrow or small dot becomes hard to see. Don't rush. Zoom your attention onto corners and tips of the figure *before* looking at options — the deciding detail is almost always at an edge, never in the centre.
+
+**Trap 2 — Near-identical options with one hidden difference.** Four options where three differ in obvious ways and two differ only in a tiny tail, dot, or line length. The examiner has decided this question is about that one pixel-sized feature. When two options look "the same," that's your signal: find the micro-difference first, then check where it should go after the flip. Never guess between lookalikes without locating the difference.
+
+**Trap 3 — A rotation disguised as a reflection.** One option is always the 180° rotation of the figure, planted to catch students who flip "both ways" by habit. Remember the table: mirror flips only left-right, water flips only top-bottom. If your anchor has moved **both** sideways and vertically in an option, that option is a rotation — reject it immediately, no matter how natural it looks.
