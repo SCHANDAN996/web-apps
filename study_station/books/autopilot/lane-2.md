@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 06:22 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
+**आख़िरी update:** 10-10-2026 06:23 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 23 Data Interpretation (Graduation Maths) | ✍️ लिख रहा है | 9 मिनट |
-| W2 | Chapter 22 Calculus (Graduation Maths) | 🔧 सुधार रहा है | 1 मिनट |
+| W1 | Chapter 23 Data Interpretation (Graduation Maths) | ✍️ लिख रहा है | 10 मिनट |
+| W2 | Chapter 22 Calculus (Graduation Maths) | 🔧 सुधार रहा है | 0 मिनट |
 | W3 | Chapter 13 Mixture Alligation (Graduation Maths) | 🔎 review हो रहा है | 0 मिनट |
-| W4 | Chapter 15 Geometry (Graduation Maths) | ✍️ लिख रहा है | 0 मिनट |
-| W5 | Chapter 17 Algebra (Graduation Maths) | 📤 push हो रहा है | 0 मिनट |
-| W6 | Chapter 18 Quadratic Equations (Graduation Maths) | 🔎 review हो रहा है | 16 मिनट |
-| W7 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 18 मिनट |
-| W8 | Chapter 20 Heights Distances (Graduation Maths) | ✍️ लिख रहा है | 18 मिनट |
+| W4 | Chapter 15 Geometry (Graduation Maths) | ✍️ लिख रहा है | 1 मिनट |
+| W5 | Chapter 24 Statistics (Graduation Maths) | ✍️ लिख रहा है | 0 मिनट |
+| W6 | Chapter 18 Quadratic Equations (Graduation Maths) | 📤 push हो रहा है | 0 मिनट |
+| W7 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 19 मिनट |
+| W8 | Chapter 20 Heights Distances (Graduation Maths) | ✍️ लिख रहा है | 19 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,6 +37,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 10-10 06:23 — Graduation Maths · Chapter 18 Quadratic Equations
 - 10-10 06:22 — Graduation Maths · Chapter 17 Algebra
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
@@ -49,12 +50,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 06:10:21 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_22_Calculus (TODO: todo 1, problems 1)
-10-10 06:10:35   [Trigonometry] Practice_en_Set_03.txt try 3: rejected (parsed 24 questions, numbers 51…75)
-10-10 06:10:50   [Mixture_Alligation] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-10-10 06:12:39   [Awards] repaired Flashcards_hi.txt (4578 chars)
-10-10 06:12:39   [Awards] written 1, failed 0; AI calls today 36/100000
-10-10 06:12:39 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards after 5 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (45']
 10-10 06:12:43 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_23_Data_Interpretation (TODO: todo 5, problems 1)
 10-10 06:13:18   [Mixture_Alligation] Practice_hi_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
 10-10 06:14:45   [Calculus] wrote Content_en.txt (10085 chars)
@@ -89,4 +84,10 @@
 10-10 06:22:34   [Mixture_Alligation] written 1, failed 0; AI calls today 68/100000
 10-10 06:22:34   [Algebra] review: 2 section(s) corrected, 0 failed
 10-10 06:22:34   [Algebra] written 2, failed 0; AI calls today 68/100000
+10-10 06:22:55 DONE Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_17_Algebra in 18 min → 2b7acb98
+10-10 06:22:59 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_24_Statistics (TODO: todo 3, problems 0)
+10-10 06:23:15   [Calculus] repaired Feynman_hi.txt (2661 chars)
+10-10 06:23:16   [Calculus] written 1, failed 0; AI calls today 70/100000
+10-10 06:23:30   [Quadratic_Equations] review: 1 section(s) corrected, 0 failed
+10-10 06:23:30   [Quadratic_Equations] written 1, failed 0; AI calls today 71/100000
 ```
