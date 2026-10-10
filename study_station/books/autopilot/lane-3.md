@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 11:06 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 10:31 AM
+**आख़िरी update:** 10-10-2026 11:18 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 10:31 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 9 मिनट |
-| W2 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 34 मिनट |
-| W5 | Chapter 20 Mirror Water Images (12th Reasoning) | 🔧 सुधार रहा है | 10 मिनट |
-| W6 | Chapter 22 Figure Series (12th Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 21 मिनट |
+| W2 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 46 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -42,33 +40,11 @@
 - Chapter 17 Course of Action (Reasoning) — 2 बार
 - Chapter 24 Statement Assumption (Reasoning) — 2 बार
 - Chapter 07 Sitting Arrangement (Reasoning) — 1 बार
+- Chapter 20 Mirror Water Images (Reasoning) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 10:45:56   [Statement_Argument] review Content_en.txt: 3 issue(s): - Invented statistic "90% of weak arguments fall into one of them" → Replace with "Most weak arguments fall into on
-10-10 10:46:25   [Figure_Series] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-10-10 10:48:05   [Statement_Argument] review Content_hi.txt: 2 issue(s): - खंड 6, बिंदु 2 में दावा कि "कुछ परीक्षाओं में 'या तो तर्क I या तर्क II मज़बूत है' विकल्प आता है" → लक्षित परीक्षा
-10-10 10:49:18   [Mirror_Water_Images] Practice_en_Set_01.txt try 2: re-solve disagrees (Q4 key c vs re-solve a)
-10-10 10:49:58   [Figure_Series] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-10-10 10:49:58   [Figure_Series] written 2, failed 0; AI calls today 40/100000
-10-10 10:50:51   [Figure_Series] repaired Feynman_hi.txt (3103 chars)
-10-10 10:51:56   [Figure_Series] repaired Short_Tricks_hi.txt (3062 chars)
-10-10 10:51:56   [Figure_Series] written 2, failed 0; AI calls today 43/100000
-10-10 10:52:25   [Mirror_Water_Images] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-10-10 10:52:34   [Figure_Series] review Content_hi.txt: 1 issue(s): - "यही 90% प्रश्नों में आते हैं" (आविष्कृत वेटेज दावा) → "ये पाँच प्रकार अधिकांश प्रश्नों में आते हैं" (बिना असमर्थ
-10-10 10:53:41   [Sitting_Arrangement] Practice_en_Set_02.txt try 3: re-solve disagrees (Q26 key c vs re-solve -, Q27 key c vs re-solve -, Q28 key d vs re-solve -, Q29 key a vs re-solve -, 
-10-10 10:54:02   [Dictionary_Order] FAILED Practice_en_Set_02.txt: too_long
-10-10 10:54:02   [Dictionary_Order] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
-10-10 10:55:23   [Mirror_Water_Images] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-10-10 10:55:23   [Mirror_Water_Images] written 2, failed 0; AI calls today 57/100000
-10-10 10:56:08   [Figure_Series] review Flashcards_hi.txt: 1 issue(s): - Card 6 incorrectly states that a mirror image flips left‑right on the horizontal axis and a water image flips 
-10-10 10:56:20   [Mirror_Water_Images] repaired Flashcards_hi.txt (3625 chars)
-10-10 10:56:58   [Sitting_Arrangement] Practice_en_Set_02.txt try 4: rejected (parsed 0 questions, numbers -…-)
-10-10 10:56:58   [Sitting_Arrangement] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
-10-10 10:56:58   [Sitting_Arrangement] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
-10-10 10:56:58   [Sitting_Arrangement] written 0, failed 2; AI calls today 62/100000
-10-10 10:56:58 NOT OK 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement after 25 min: todo ['Set 02 en: todo', 'Set 02 hi: todo'] problems ['PYQ_hi.txt: Hindi file is mostly not in Hindi']
 10-10 10:57:01 START 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement (TODO: todo 2, problems 1)
 10-10 10:57:17   [Dictionary_Order] Practice_en_Set_03.txt try 1: rejected (Q54:leaked_reasoning,Q57:leaked_reasoning,Q59:leaked_reasoning,Q61:leaked_reasoning,Q65:leaked_reasoning)
 10-10 10:57:21   [Mirror_Water_Images] repaired PYQ_hi.txt (2448 chars)
@@ -86,4 +62,27 @@
 10-10 11:05:45 worker 7: nothing left
 10-10 11:06:20   [Figure_Series] review: 5 section(s) corrected, 0 failed
 10-10 11:06:20   [Figure_Series] written 5, failed 0; AI calls today 88/100000
+10-10 11:06:40 DONE 12th_Level/Reasoning/Chapter_22_Figure_Series in 34 min → 86c9a10e
+10-10 11:06:43 worker 5: nothing left
+10-10 11:07:40   [Dictionary_Order] Practice_en_Set_03.txt try 3: re-solve disagrees (Q61 key b vs re-solve c, Q70 key b vs re-solve c, Q73 key b vs re-solve a)
+10-10 11:10:21   [Mirror_Water_Images] repaired set 04 (en + hi, key confirmed by an independent re-solve)
+10-10 11:10:21   [Mirror_Water_Images] written 4, failed 0; AI calls today 91/100000
+10-10 11:11:27   [Mirror_Water_Images] repaired Flashcards_hi.txt (4488 chars)
+10-10 11:11:42   [Sitting_Arrangement] Practice_en_Set_02.txt try 1: re-solve disagrees (Q27 key a vs re-solve b, Q28 key d vs re-solve c, Q29 key a vs re-solve d, Q34 key a vs re-solve b, 
+10-10 11:11:50   [Sitting_Arrangement] Practice_en_Set_02.txt try 2: rejected (parsed 0 questions, numbers -…-)
+10-10 11:12:18   [Dictionary_Order] Practice_en_Set_03.txt try 4: re-solve disagrees (Q61 key c vs re-solve b, Q70 key a vs re-solve c, Q73 key c vs re-solve a)
+10-10 11:12:18   [Dictionary_Order] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
+10-10 11:12:18   [Dictionary_Order] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
+10-10 11:13:32   [Mirror_Water_Images] repaired PYQ_hi.txt (6663 chars)
+10-10 11:13:32   [Mirror_Water_Images] written 2, failed 0; AI calls today 96/100000
+10-10 11:13:32 NOT OK 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images after 41 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (44']
+10-10 11:13:35 START 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images (FIX: todo 0, problems 1)
+10-10 11:14:07   [Sitting_Arrangement] Practice_en_Set_02.txt try 3: rejected (Q39:leaked_reasoning)
+10-10 11:14:12   [Dictionary_Order] Practice_en_Set_05.txt try 1: rejected (Q101:leaked_reasoning,Q109:leaked_reasoning,Q112:leaked_reasoning,Q116:leaked_reasoning,Q119:leaked_reasoning)
+10-10 11:14:36   [Mirror_Water_Images] repaired Flashcards_hi.txt (2971 chars)
+10-10 11:14:36   [Mirror_Water_Images] written 1, failed 0; AI calls today 99/100000
+10-10 11:16:01   [Mirror_Water_Images] repaired Flashcards_hi.txt (4097 chars)
+10-10 11:16:01   [Mirror_Water_Images] written 1, failed 0; AI calls today 100/100000
+10-10 11:16:02 NOT OK 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images after 2 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (40']
+10-10 11:16:05 worker 4: nothing left
 ```
