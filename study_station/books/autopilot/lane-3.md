@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 12:35 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 10:31 AM
+**आख़िरी update:** 10-10-2026 12:36 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 10:31 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -43,7 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 11:14:07   [Sitting_Arrangement] Practice_en_Set_02.txt try 3: rejected (Q39:leaked_reasoning)
 10-10 11:14:12   [Dictionary_Order] Practice_en_Set_05.txt try 1: rejected (Q101:leaked_reasoning,Q109:leaked_reasoning,Q112:leaked_reasoning,Q116:leaked_reasoning,Q119:leaked_reasoning)
 10-10 11:14:36   [Mirror_Water_Images] repaired Flashcards_hi.txt (2971 chars)
 10-10 11:14:36   [Mirror_Water_Images] written 1, failed 0; AI calls today 99/100000
@@ -83,4 +82,5 @@
 10-10 12:24:50   [Dictionary_Order] written 2, failed 4; AI calls today 120/100000
 10-10 12:24:50 NOT OK 12th_Level/Reasoning/Chapter_13_Dictionary_Order after 51 min: todo ['Set 02 en: todo', 'Set 02 hi: todo', 'Set 03 en: todo', 'Set 03 hi: todo'] problems ['PYQ_hi.txt: much shorter than the English section (447 vs 13']
 10-10 12:24:53 worker 1: nothing left
+10-10 12:36:00 autopilot end: done 2, failed 6
 ```
