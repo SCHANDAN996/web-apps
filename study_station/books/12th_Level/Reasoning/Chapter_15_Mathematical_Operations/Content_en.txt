@@ -1,0 +1,130 @@
+# Mathematical Operations
+
+## Outline & Learning Goals
+
+In this chapter you will learn to:
+- Decode questions where symbols are given fake meanings (e.g., '+' means '×')
+- Interchange signs or numbers and check which equation becomes correct
+- Balance equations by choosing the right set of signs
+- Apply BODMAS confidently under time pressure
+
+---
+
+## The Hook: When '+' Tells a Lie
+
+Imagine a world where '+' means multiply, '−' means divide, and nothing is what it looks like. Sounds like a puzzle from a movie? That is exactly what SSC, Banking and Railway exams do to you. They take a simple arithmetic sentence and secretly change the meaning of every symbol. Your job is not heavy calculation — your job is **translation**. Once you learn to translate, these questions become some of the fastest marks in the whole reasoning paper.
+
+## The Common Struggle (You Are Not Alone)
+
+Most students lose marks here for three reasons:
+1. They start calculating **before** rewriting the equation in real symbols.
+2. They forget BODMAS order while simplifying.
+3. In "interchange" questions, they test options randomly instead of smartly.
+
+We will fix all three, one small chunk at a time.
+
+---
+
+## Chunk 1: Symbol Substitution (The Core Type)
+
+**Rule:** The question says things like: "If '+' means '×', '−' means '+', '×' means '÷', and '÷' means '−'…" Then it gives you an expression.
+
+**Method — always follow these two steps:**
+1. **Rewrite first.** Take the given expression and replace every symbol with its real meaning, on paper. Never do this in your head.
+2. **Then solve by BODMAS.**
+
+**Example:** If '+' means '×', '−' means '÷', '×' means '+', '÷' means '−', find the value of:
+`8 + 4 − 3 × 2`
+
+Step 1 (rewrite): 8 × 4 ÷ 3 + 2
+Step 2 (BODMAS): 32 ÷ 3 + 2 = 10.67 + 2 ≈ 12.67
+
+If the answer looks odd, recheck the rewriting — 90% of errors happen in Step 1, not Step 2.
+
+🧠 **Active Recall:** Close the book. What are the two steps of symbol substitution, and in which step do most mistakes happen?
+
+---
+
+## Chunk 2: BODMAS — Your Only Calculator Rule
+
+**B**rackets → **O**f (×) → **D**ivision → **M**ultiplication → **A**ddition → **S**ubtraction
+
+Key points examiners exploit:
+- Division and Multiplication have **equal priority** — solve left to right.
+- Addition and Subtraction have **equal priority** — solve left to right.
+- 'Of' (जैसे "1/2 of 8") is solved before division/multiplication.
+
+**Example:** 24 ÷ 4 × 2 = ?
+Wrong: 24 ÷ 8 = 3 (multiplied first — trap!)
+Right: left to right → 6 × 2 = **12**
+
+🧠 **Active Recall:** Between ÷ and ×, which comes first in BODMAS? (Answer: neither — left to right!)
+
+---
+
+## Chunk 3: Interchanging Signs or Numbers
+
+**Type A — Interchange two signs:** "If '+' and '×' are interchanged, which equation is correct?"
+
+**Smart method:** Don't test all four options fully. Take the new meaning, rewrite each option, and check only the **division/multiplication part first** — if that doesn't give a whole number, reject the option instantly and move on.
+
+**Type B — Interchange two numbers:** "If 3 and 5 are interchanged, which equation becomes correct?" Swap the two digits in every option, then check.
+
+**Type C — Interchange sign AND number together:** Do both swaps in one rewrite, then BODMAS.
+
+🧠 **Active Recall:** In interchange questions, why should you check the division part of an option first? (Because a non-whole result lets you reject the option in 5 seconds.)
+
+---
+
+## Chunk 4: Balancing the Equation (Insert the Signs)
+
+**Type:** "Which set of signs makes the equation true? 15 ⃝ 3 ⃝ 5 ⃝ 2 = 10"
+
+**Method — work backwards from the answer:**
+- Look at the result (10). Is it small? Then division/subtraction is probably involved.
+- Try the option that creates a clean division first (e.g., 15 ÷ 3 = 5).
+- Verify the full chain by BODMAS.
+
+**Example:** 15 ÷ 3 + 5 × 2 = 5 + 10 = 15 ✗ … try 15 ÷ 3 × 5 − 2? No wait — check options one by one, but always start with the option containing '÷' if the numbers divide cleanly.
+
+🧠 **Active Recall:** When balancing an equation, which sign should you usually test first and why?
+
+---
+
+## Chunk 5: Coded Inequalities & Statements
+
+Some questions code relations: 'A + B' means 'A > B', 'A − B' means 'A < B', etc. Treat these exactly like symbol substitution: **translate the whole statement into real symbols first**, then judge the conclusion. Never mix coded and real meanings in the same line.
+
+---
+
+## Mnemonic Trick 🎯
+
+**"Rewrite Before You Write"** — chant this before every question of this chapter. Your pen's first job is translation, not calculation.
+
+For BODMAS order, remember: **"Big Orange Dogs Make Angry Sounds"** (Brackets, Of, Division, Multiplication, Addition, Subtraction).
+
+---
+
+## Summary Table
+
+| Question Type | First Move | Winning Habit |
+|---|---|---|
+| Symbol substitution | Rewrite all symbols on paper | Then strict BODMAS |
+| Interchange signs | Rewrite each option | Reject via division check first |
+| Interchange numbers | Swap digits in all options | Verify one full option |
+| Balance the equation | Look at the result size | Test '÷'-containing option first |
+| Coded relations | Translate entire statement | Never mix coded + real symbols |
+
+---
+
+## ⚠️ Caution: Examiner's Trap
+
+1. **More than one plausible relation in options:** In balancing/interchange questions, two options may *look* correct at first glance. The examiner designs one option that works only if you forget BODMAS (e.g., solving left-to-right blindly). Always verify with full BODMAS before marking.
+
+2. **Confusing wording to rattle you:** Phrases like "interchanged with each other" vs "replaced by" mean different things. "A is replaced by B" is one-way; "A and B are interchanged" is two-way. Read the instruction line twice — it is the most important line of the question.
+
+3. **Double-relation questions:** Some questions swap **two pairs** of symbols (e.g., '+'↔'−' AND '×'↔'÷'). Students often apply only one swap and get a confidently wrong answer. Count the swaps given, tick each one off as you rewrite.
+
+---
+
+📌 **Review this chapter after 2 days.** Redo the examples without looking at the solutions — if you can rewrite and solve each in under 45 seconds, this chapter is exam-ready.
