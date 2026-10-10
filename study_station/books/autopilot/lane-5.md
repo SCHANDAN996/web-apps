@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 10-10-2026 08:11 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
+**आख़िरी update:** 10-10-2026 08:26 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 18 Trigonometry (10th Maths) | 🔧 सुधार रहा है | 0 मिनट |
-| W4 | Chapter 21 Probability (10th Maths) | 🔎 review हो रहा है | 4 मिनट |
+| W3 | Chapter 18 Trigonometry (10th Maths) | 🔎 review हो रहा है | 10 मिनट |
+| W4 | Chapter 21 Probability (10th Maths) | 🔎 review हो रहा है | 19 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -17,17 +17,17 @@
 |---|---|---|---|
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
-| 10th Maths | 21 | 1 | 0 |
+| 10th Maths | 22 | 0 | 0 |
 | 10th English | 18 | 2 | 0 |
 | 12th Maths | 20 | 0 | 3 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 19 | 0 | 6 |
 | 12th English | 25 | 0 | 0 |
-| Graduation Maths | 23 | 0 | 5 |
+| Graduation Maths | 24 | 0 | 4 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 26 | 0 | 4 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **271** | **3** | **22** |
+| **कुल** | **273** | **2** | **21** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -41,10 +41,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 19:12:18 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb after 4 min: todo [] problems ['Set 01 hi: English sentence translated (keep it in English) ']
-10-10 19:12:18 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb (FIX: todo 0, problems 1)
-10-10 19:12:21   [Adjective] FAILED set 03: re-translation still changes English sentences — left as it was
-10-10 19:12:21   [Adjective] written 0, failed 1; AI calls today 9/100000
 10-10 19:12:21 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective after 4 min: todo [] problems ['Set 03 hi: English sentence translated (keep it in English) ']
 10-10 19:12:21 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective (FIX: todo 0, problems 1)
 10-10 19:12:50   [Trigonometry] repaired PYQ_hi.txt (9659 chars)
@@ -81,4 +77,8 @@
 10-10 20:08:53   [Probability] review Content_en.txt: 1 issue(s): - The card suits line incorrectly shows Hearts as ♦ and includes a correction note (“Hearts ♦? Actually Hearts ♥, D
 10-10 20:10:07   [Trigonometry] repaired set 06 (en + hi, key confirmed by an independent re-solve)
 10-10 20:10:07   [Trigonometry] written 10, failed 0; AI calls today 54/100000
+10-10 20:16:26   [Trigonometry] repaired Short_Tricks_en.txt (8594 chars)
+10-10 20:16:26   [Trigonometry] written 1, failed 0; AI calls today 62/100000
+10-10 20:18:48   [Probability] review PYQ_en.txt: 3 issue(s): - "Nearly 70% of incorrect answers fall into just three traps" is an invented statistic with no verifiable source → Rem
+10-10 20:23:39   [Trigonometry] review Flashcards_en.txt: 1 issue(s): - Card 11: The answer states cos θ = 12/13, but from sin θ = 5/13 the identity gives cos²θ = 144/169, so cos θ =
 ```
