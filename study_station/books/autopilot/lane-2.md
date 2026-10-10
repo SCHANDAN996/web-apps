@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 02:04 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:29 AM
+**आख़िरी update:** 10-10-2026 02:19 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:29 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 134 मिनट |
-| W3 | Chapter 15 Geometry (Graduation Maths) | 📤 push हो रहा है | 0 मिनट |
-| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 11 मिनट |
-| W8 | Chapter 27 Number Series (Graduation Maths) | 🔎 review हो रहा है | 95 मिनट |
+| W2 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 149 मिनट |
+| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 26 मिनट |
+| W8 | Chapter 27 Number Series (Graduation Maths) | 🔎 review हो रहा है | 110 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -42,26 +41,11 @@
 - Chapter 13 Awards (GK) — 2 बार
 - Chapter 22 Calculus (Maths) — 2 बार
 - Chapter 19 Trigonometry (Maths) — 2 बार
-- Chapter 15 Geometry (Maths) — 1 बार
 - Chapter 25 Probability (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 12:56:09 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_19_Trigonometry after 39 min: todo ['Set 05 hi: todo', 'Set 06 en: todo', 'Set 06 hi: todo'] problems []
-10-10 12:56:13 worker 3: nothing left
-10-10 12:56:16   [Probability] FAILED Practice_en_Set_04.txt: too_long
-10-10 12:56:16   [Probability] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
-10-10 13:00:12   [Linear_Programming] Practice_hi_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
-10-10 13:02:51   [Probability] Practice_en_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
-10-10 13:11:41   [Probability] Practice_en_Set_05.txt try 2: rejected (parsed 22 questions, numbers 101…125)
-10-10 13:15:09   [Probability] Practice_en_Set_05.txt try 3: rejected (parsed 22 questions, numbers 101…125)
-10-10 13:15:47   [Linear_Programming] Practice_hi_Set_02.txt try 2: rejected (parsed 0 questions, numbers -…-)
-10-10 13:18:12   [Geometry] review Flashcards_en.txt: 2 issue(s): - Missing answer for sum of exterior angles of any convex polygon → should be 360°
-10-10 13:27:37   [Linear_Programming] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-10-10 13:30:58   [Probability] Practice_en_Set_05.txt try 4: rejected (parsed 23 questions, numbers 101…125)
-10-10 13:30:58   [Probability] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
-10-10 13:30:58   [Probability] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
 10-10 13:32:00   [Linear_Programming] Practice_en_Set_03.txt try 1: rejected (Q57:leaked_reasoning,Q64:leaked_reasoning,Q75:answer_solution_conflict)
 10-10 13:32:49   [Number_Series] review PYQ_en.txt: 1 issue(s): - In Q6 solution, the example '15×2−2=28' incorrectly applies the stated rule '×2−1 each time' → it should be '15×2−1=2
 10-10 13:35:00   [Probability] Practice_en_Set_06.txt try 1: rejected (parsed 24 questions, numbers 126…150)
@@ -88,4 +72,18 @@
 10-10 14:03:48   [Linear_Programming] Practice_en_Set_04.txt try 1: rejected (Q80:leaked_reasoning,Q88:leaked_reasoning,Q92:answer_solution_conflict,Q94:leaked_reasoning,Q95:broken_questio
 10-10 14:04:40   [Geometry] review: 4 section(s) corrected, 0 failed
 10-10 14:04:40   [Geometry] written 4, failed 0; AI calls today 130/100000
+10-10 14:05:01 DONE Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_15_Geometry in 85 min → c9e5fee6
+10-10 14:05:05 worker 2: nothing left
+10-10 14:09:07   [Linear_Programming] Practice_en_Set_04.txt try 2: rejected (parsed 0 questions, numbers -…-)
+10-10 14:11:31   [Linear_Programming] Practice_en_Set_04.txt try 3: rejected (Q88:leaked_reasoning,Q91:leaked_reasoning,Q96:leaked_reasoning)
+10-10 14:12:56   [Number_Series] review Short_Tricks_en.txt: 1 issue(s): - Trick 10 anchor letters: Z=26 is not a multiple of 5; the multiples of 5 are E=5, J=10, O=15, T=20, Y=25 → c
+10-10 14:14:21   [Probability] FAILED Practice_en_Set_03.txt: too_long
+10-10 14:14:21   [Probability] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
+10-10 14:16:23   [Number_Series] review Short_Tricks_hi.txt: 2 issue(s): - Trick 4: Hindi typo "भीर में" → "भीतर में"
+10-10 14:16:53   [Probability] Practice_en_Set_04.txt try 1: rejected (parsed 23 questions, numbers 76…100)
+10-10 14:17:49   [Linear_Programming] Practice_en_Set_04.txt try 4: re-solve disagrees (Q88 key b vs re-solve a)
+10-10 14:17:49   [Linear_Programming] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
+10-10 14:17:49   [Linear_Programming] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
+10-10 14:18:09   [Probability] Practice_en_Set_04.txt try 2: rejected (parsed 23 questions, numbers 76…99)
+10-10 14:19:17   [Number_Series] review Important_Formulas_hi.txt: 1 issue(s): - Invented statistic "70% श्रेणियाँ यहीं सुलझती हैं" in step 1 of गति-सूत्र → Remove the unverified perc
 ```
