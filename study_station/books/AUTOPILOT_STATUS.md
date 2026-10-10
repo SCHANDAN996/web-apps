@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 07:33 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
+**आख़िरी update:** 10-10-2026 07:41 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Figure Series (Graduation Reasoning) | ✍️ लिख रहा है | 62 मिनट |
-| W2 | Chapter 23 Syllogism (Graduation Reasoning) | ✍️ लिख रहा है | 41 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 75 मिनट |
-| W5 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 84 मिनट |
-| W6 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 84 मिनट |
-| W7 | Chapter 19 Cubes Dice (Graduation Reasoning) | 🔎 review हो रहा है | 21 मिनट |
-| W8 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 83 मिनट |
+| W1 | Chapter 22 Figure Series (Graduation Reasoning) | ✍️ लिख रहा है | 3 मिनट |
+| W2 | Chapter 23 Syllogism (Graduation Reasoning) | ✍️ लिख रहा है | 49 मिनट |
+| W3 | Chapter 24 Statement Assumption (Graduation Reasoning) | ✍️ लिख रहा है | 7 मिनट |
+| W4 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 83 मिनट |
+| W5 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 92 मिनट |
+| W6 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 0 मिनट |
+| W7 | Chapter 19 Cubes Dice (Graduation Reasoning) | 🔎 review हो रहा है | 29 मिनट |
+| W8 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 91 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -29,13 +29,13 @@
 | 10th English | 17 | 0 | 3 |
 | 12th Maths | 19 | 0 | 4 |
 | 12th GK | 22 | 0 | 2 |
-| 12th Reasoning | 14 | 0 | 11 |
+| 12th Reasoning | 15 | 0 | 10 |
 | 12th English | 25 | 0 | 0 |
-| Graduation Maths | 18 | 0 | 10 |
+| Graduation Maths | 19 | 0 | 9 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 15 | 1 | 14 |
 | Graduation English | 29 | 1 | 0 |
-| **कुल** | **247** | **4** | **45** |
+| **कुल** | **249** | **4** | **43** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -46,25 +46,12 @@
 - Chapter 12 Missing Term (Reasoning) — 2 बार
 - Chapter 22 Para Jumbles Adv (English) — 2 बार
 - Chapter 02 Classification (Reasoning) — 2 बार
+- Chapter 22 Figure Series (Reasoning) — 1 बार
+- Chapter 14 Alphabet Questions (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 06:52:27 START Graduation_Level/Reasoning/Chapter_23_Syllogism (TODO: todo 5, problems 0)
-10-10 06:53:21   [Figure_Series] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-10-10 06:53:39   [Cubes_Dice] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-10-10 06:56:05   [Syllogism] wrote Content_en.txt (7083 chars)
-10-10 06:56:22   [Sitting_Arrangement] review Short_Tricks_en.txt: 1 issue(s): - Box 8 claims "side people have 3 neighbours" in a rectangle/square; in standard closed-loop seating puzzles 
-10-10 06:56:40   [Paper_Folding_Cutting] Practice_en_Set_02.txt try 1: re-solve disagrees (Q27 key b vs re-solve c, Q41 key b vs re-solve a)
-10-10 06:57:27   [Dictionary_Order] Practice_en_Set_06.txt try 1: rejected (Q128:leaked_reasoning,Q131:leaked_reasoning,Q139:leaked_reasoning,Q145:leaked_reasoning,Q146:leaked_reasoning)
-10-10 06:59:41   [Figure_Series] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-10-10 07:01:18   [Syllogism] wrote Content_hi.txt (7279 chars)
-10-10 07:01:33   [Mirror_Water_Images] Practice_en_Set_05.txt try 1: re-solve disagrees (Q101 key a vs re-solve b, Q105 key a vs re-solve -, Q106 key a vs re-solve -, Q107 key d vs re-solve
-10-10 07:02:24   [Cubes_Dice] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-10-10 07:02:24   [Cubes_Dice] written 2, failed 0; AI calls today 76/100000
-10-10 07:04:14   [Figure_Series] Practice_en_Set_06.txt try 1: rejected (Q150:leaked_reasoning)
-10-10 07:10:19   [Alphabet_Questions] Practice_en_Set_04.txt try 2: re-solve disagrees (Q76 key a vs re-solve c, Q77 key c vs re-solve a, Q79 key d vs re-solve b, Q81 key b vs re-solve a, 
-10-10 07:10:43   [Dictionary_Order] Practice_en_Set_06.txt try 2: re-solve disagrees (Q134 key d vs re-solve a, Q137 key a vs re-solve c)
 10-10 07:11:14   [Syllogism] wrote Feynman_en.txt (3597 chars)
 10-10 07:11:53   [Cubes_Dice] repaired Important_Rules_hi.txt (2771 chars)
 10-10 07:11:53   [Cubes_Dice] written 1, failed 0; AI calls today 83/100000
@@ -90,4 +77,19 @@
 10-10 07:33:42   [Sitting_Arrangement] review: 7 section(s) corrected, 0 failed
 10-10 07:33:42   [Sitting_Arrangement] written 7, failed 0; AI calls today 120/100000
 10-10 07:33:50   [Mirror_Water_Images] Practice_en_Set_05.txt try 3: re-solve disagrees (Q107 key a vs re-solve b)
+10-10 07:34:00 DONE Graduation_Level/Reasoning/Chapter_07_Sitting_Arrangement in 84 min → f4c10ef0
+10-10 07:34:02 START Graduation_Level/Reasoning/Chapter_24_Statement_Assumption (TODO: todo 5, problems 0)
+10-10 07:36:18   [Alphabet_Questions] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+10-10 07:38:08   [Figure_Series] Practice_en_Set_06.txt try 4: re-solve disagrees (Q144 key b vs re-solve d, Q148 key d vs re-solve b)
+10-10 07:38:08   [Figure_Series] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+10-10 07:38:08   [Figure_Series] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+10-10 07:38:08   [Figure_Series] written 5, failed 2; AI calls today 124/100000
+10-10 07:38:08 NOT OK Graduation_Level/Reasoning/Chapter_22_Figure_Series after 67 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems ['Content_hi.txt: Hindi file is mostly not in Hindi', 'Content_hi.txt: does not mention the chapter topic (classifi', 'Content_hi.txt: much shorter than the English section (2111 ']
+10-10 07:38:11 START Graduation_Level/Reasoning/Chapter_22_Figure_Series (TODO: todo 2, problems 3)
+10-10 07:38:22   [Statement_Assumption] wrote Flashcards_hi.txt (3321 chars)
+10-10 07:39:02   [Paper_Folding_Cutting] Practice_en_Set_03.txt try 1: re-solve disagrees (Q54 key b vs re-solve a)
+10-10 07:41:08   [Alphabet_Questions] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+10-10 07:41:08   [Alphabet_Questions] written 4, failed 2; AI calls today 128/100000
+10-10 07:41:08 NOT OK Graduation_Level/Reasoning/Chapter_14_Alphabet_Questions after 92 min: todo ['Set 04 en: todo', 'Set 04 hi: todo'] problems []
+10-10 07:41:11 START Graduation_Level/Reasoning/Chapter_14_Alphabet_Questions (TODO: todo 2, problems 0)
 ```
