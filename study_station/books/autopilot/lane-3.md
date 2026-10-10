@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 11-10-2026 01:06 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 12:03 AM
+**आख़िरी update:** 11-10-2026 01:21 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 12:03 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W2 | Chapter 13 Dictionary Order (12th Reasoning) | 🔎 review हो रहा है | 24 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,16 +37,11 @@
 - Chapter 07 Sitting Arrangement (Reasoning) — 2 बार
 - Chapter 20 Mirror Water Images (Reasoning) — 2 बार
 - Chapter 17 Course of Action (Reasoning) — 2 बार
-- Chapter 13 Dictionary Order (Reasoning) — 1 बार
+- Chapter 13 Dictionary Order (Reasoning) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 00:12:48   [Sitting_Arrangement] written 1, failed 0; AI calls today 19/100000
-11-10 00:12:48 NOT OK 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement after 4 min: todo [] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
-11-10 00:12:51 worker 0: nothing left
-11-10 00:13:06   [Statement_Assumption] repaired Short_Tricks_hi.txt (5125 chars)
-11-10 00:13:06   [Statement_Assumption] written 1, failed 0; AI calls today 19/100000
 11-10 00:13:06 NOT OK 12th_Level/Reasoning/Chapter_24_Statement_Assumption after 4 min: todo [] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
 11-10 00:13:09 worker 5: nothing left
 11-10 00:15:23   [Course_of_Action] repaired Short_Tricks_hi.txt (5811 chars)
@@ -84,4 +77,9 @@
 11-10 01:03:07   [Dictionary_Order] REJECTED review fix Short_Tricks_en.txt: corrupted characters
 11-10 01:03:56   [Dictionary_Order] review Short_Tricks_hi.txt: 1 issue(s): - Trick 11 invents an exam statistic (“90% प्रश्न पहले तीन अक्षरों में ही सुलझ जाते हैं”) without any source o
 11-10 01:05:56   [Dictionary_Order] review Important_Rules_en.txt: 1 issue(s): - In the Letter Position formula example, "King beats Join (11 > 10)" is incorrect because in dictionary or
+11-10 01:08:17   [Dictionary_Order] review Important_Rules_hi.txt: 1 issue(s): - "उल्टा क्रम (Z→A) सावधानी" का उदाहरण "Z→A क्रम में ZEBRA सबसे पहले" गलत है क्योंकि उल्टे वर्णमाला क्रम मे
+11-10 01:08:48   [Dictionary_Order] review: 9 section(s) corrected, 1 failed
+11-10 01:08:48   [Dictionary_Order] written 9, failed 1; AI calls today 48/100000
+11-10 01:08:48 NOT OK 12th_Level/Reasoning/Chapter_13_Dictionary_Order after 53 min: todo [] problems []
+11-10 01:08:52 worker 1: nothing left
 ```
