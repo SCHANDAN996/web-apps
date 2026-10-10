@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 02:25 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:36 PM
+**आख़िरी update:** 10-10-2026 02:40 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:36 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 43 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -38,18 +36,12 @@
 - Chapter 17 Course of Action (Reasoning) — 2 बार
 - Chapter 20 Mirror Water Images (Reasoning) — 2 बार
 - Chapter 16 Statement Conclusion (Reasoning) — 2 बार
-- Chapter 07 Sitting Arrangement (Reasoning) — 1 बार
+- Chapter 07 Sitting Arrangement (Reasoning) — 2 बार
 - Chapter 13 Dictionary Order (Reasoning) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 12:52:04 NOT OK 12th_Level/Reasoning/Chapter_16_Statement_Conclusion after 15 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (39']
-10-10 12:52:07 START 12th_Level/Reasoning/Chapter_16_Statement_Conclusion (FIX: todo 0, problems 1)
-10-10 12:53:55   [Dictionary_Order] Practice_en_Set_02.txt try 3: re-solve disagrees (Q27 key a vs re-solve b, Q30 key a vs re-solve ?)
-10-10 12:54:24   [Dictionary_Order] Practice_en_Set_02.txt try 4: rejected (parsed 0 questions, numbers -…-)
-10-10 12:54:24   [Dictionary_Order] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
-10-10 12:54:24   [Dictionary_Order] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
 10-10 12:56:04   [Sitting_Arrangement] Practice_en_Set_02.txt try 2: re-solve disagrees (Q33 key c vs re-solve b, Q38 key c vs re-solve d, Q43 key c vs re-solve d, Q46 key d vs re-solve a, 
 10-10 12:56:59   [Dictionary_Order] Practice_en_Set_03.txt try 1: rejected (Q57:leaked_reasoning,Q61:leaked_reasoning,Q66:leaked_reasoning)
 10-10 13:05:57   [Statement_Conclusion] FAILED Flashcards_hi.txt: too_long
@@ -84,4 +76,10 @@
 10-10 14:08:34 NOT OK 12th_Level/Reasoning/Chapter_13_Dictionary_Order after 26 min: todo ['Set 02 en: todo', 'Set 02 hi: todo'] problems ['PYQ_hi.txt: much shorter than the English section (447 vs 13']
 10-10 14:08:38 worker 1: nothing left
 10-10 14:16:32   [Sitting_Arrangement] Practice_en_Set_02.txt try 3: re-solve disagrees (Q49 key d vs re-solve a)
+10-10 14:25:39   [Sitting_Arrangement] Practice_en_Set_02.txt try 4: re-solve disagrees (Q28 key c vs re-solve b, Q39 key b vs re-solve d)
+10-10 14:25:39   [Sitting_Arrangement] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
+10-10 14:25:39   [Sitting_Arrangement] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+10-10 14:25:39   [Sitting_Arrangement] written 0, failed 2; AI calls today 49/100000
+10-10 14:25:39 NOT OK 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement after 44 min: todo ['Set 02 en: todo', 'Set 02 hi: todo'] problems ['PYQ_hi.txt: Hindi file is mostly not in Hindi']
+10-10 14:25:43 worker 0: nothing left
 ```
