@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 11-10-2026 12:49 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 12:03 AM
+**आख़िरी update:** 11-10-2026 01:04 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 12:03 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W5 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | 🔧 सुधार रहा है | 6 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -40,20 +38,11 @@
 - Chapter 25 Statement Argument (Reasoning) — 2 बार
 - Chapter 13 Dictionary Order (Reasoning) — 2 बार
 - Chapter 12 Missing Term (Reasoning) — 2 बार
+- Chapter 30 Advanced Puzzles (Reasoning) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 00:16:02   [Statement_Argument] written 1, failed 0; AI calls today 12/100000
-11-10 00:17:59   [Dictionary_Order] FAILED Practice_en_Set_06.txt: too_long
-11-10 00:17:59   [Dictionary_Order] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-11-10 00:17:59   [Dictionary_Order] written 0, failed 2; AI calls today 12/100000
-11-10 00:17:59 NOT OK Graduation_Level/Reasoning/Chapter_13_Dictionary_Order after 15 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems []
-11-10 00:18:01 START Graduation_Level/Reasoning/Chapter_13_Dictionary_Order (TODO: todo 2, problems 0)
-11-10 00:18:30   [Statement_Argument] repaired PYQ_hi.txt (7713 chars)
-11-10 00:18:30   [Statement_Argument] written 1, failed 0; AI calls today 13/100000
-11-10 00:18:30 NOT OK Graduation_Level/Reasoning/Chapter_25_Statement_Argument after 5 min: todo [] problems ['PYQ_hi.txt: much shorter than the English section (7712 vs 4']
-11-10 00:18:32 worker 3: nothing left
 11-10 00:19:29   [Advanced_Puzzles] Practice_en_Set_06.txt try 1: re-solve disagrees (Q144 key b vs re-solve a)
 11-10 00:20:03   [Missing_Term] FAILED Important_Rules_hi.txt: too_long
 11-10 00:20:03   [Missing_Term] written 0, failed 1; AI calls today 13/100000
@@ -84,4 +73,14 @@
 11-10 00:39:52 worker 2: nothing left
 11-10 00:43:44   [Advanced_Puzzles] FAILED Important_Rules_hi.txt: too_long
 11-10 00:43:44   [Advanced_Puzzles] written 0, failed 1; AI calls today 22/100000
+11-10 00:56:11   [Advanced_Puzzles] repaired Important_Rules_hi.txt (97092 chars)
+11-10 00:56:11   [Advanced_Puzzles] written 1, failed 0; AI calls today 23/100000
+11-10 00:56:11 NOT OK Graduation_Level/Reasoning/Chapter_30_Advanced_Puzzles after 53 min: todo [] problems ['Important_Rules_hi.txt: Hindi file is mostly not in Hindi']
+11-10 00:56:13 START Graduation_Level/Reasoning/Chapter_30_Advanced_Puzzles (FIX: todo 0, problems 1)
+11-10 00:57:11   [Advanced_Puzzles] repaired Important_Rules_hi.txt (3231 chars)
+11-10 00:57:11   [Advanced_Puzzles] written 1, failed 0; AI calls today 24/100000
+11-10 00:58:02   [Advanced_Puzzles] REJECTED Important_Rules_hi.txt: too short — not written
+11-10 00:58:02   [Advanced_Puzzles] written 0, failed 1; AI calls today 25/100000
+11-10 00:58:02 NOT OK Graduation_Level/Reasoning/Chapter_30_Advanced_Puzzles after 2 min: todo [] problems ['Important_Rules_hi.txt: much shorter than the English sectio']
+11-10 00:58:05 worker 4: nothing left
 ```
