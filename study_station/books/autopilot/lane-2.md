@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 07:55 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
+**आख़िरी update:** 10-10-2026 08:10 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 19 Trigonometry (Graduation Maths) | 🔎 review हो रहा है | 8 मिनट |
-| W5 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 46 मिनट |
+| W3 | Chapter 19 Trigonometry (Graduation Maths) | 🔎 review हो रहा है | 24 मिनट |
+| W5 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 61 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -43,12 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 19:20:30   [Calculus] repaired Feynman_hi.txt (3440 chars)
-10-10 19:20:30   [Calculus] written 1, failed 0; AI calls today 19/100000
-10-10 19:20:30 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_22_Calculus after 12 min: todo [] problems ['Feynman_hi.txt: much shorter than the English section (3439 ']
-10-10 19:20:32 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_22_Calculus (FIX: todo 0, problems 1)
-10-10 19:21:22   [Trigonometry] Practice_en_Set_06.txt try 1: rejected (Q140:leaked_reasoning,Q145:leaked_reasoning)
-10-10 19:22:28   [Calculus] repaired Feynman_hi.txt (2183 chars)
 10-10 19:22:28   [Calculus] written 1, failed 0; AI calls today 21/100000
 10-10 19:22:53   [Linear_Programming] repaired Content_hi.txt (7379 chars)
 10-10 19:22:53   [Linear_Programming] written 1, failed 0; AI calls today 22/100000
@@ -83,4 +77,10 @@
 10-10 19:52:43   [Probability] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 10-10 19:53:18   [Trigonometry] review Feynman_hi.txt: 2 issue(s): - The mnemonic table incorrectly maps the phrase "पंडित बद्री प्रसाद" to sin = लंब/कर्ण; the standard mnemonic uses
 10-10 19:54:55   [Probability] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+10-10 19:57:35   [Probability] Practice_en_Set_05.txt try 1: rejected (Q123:answer_solution_conflict)
+10-10 20:01:28   [Probability] Practice_en_Set_05.txt try 2: re-solve disagrees (Q105 key b vs re-solve ?)
+10-10 20:01:42   [Trigonometry] review PYQ_en.txt: 1 issue(s): - Pattern 3 cites sin10°·sin50°·sin70° as an example of complementary angle pairs, but that product does not use comple
+10-10 20:04:32   [Probability] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+10-10 20:05:52   [Trigonometry] review Short_Tricks_en.txt: 1 issue(s): - Trick 2 table lists sin values as √0/2, √1/2, √2/2, √3/2, √4/2; √1/2 equals 1/√2 ≈ 0.707 but sin 30° = 1/2, 
+10-10 20:08:12   [Probability] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 ```
