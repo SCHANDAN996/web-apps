@@ -1,0 +1,210 @@
+# 🪄 Short Tricks — Time & Work (Memory Magic)
+
+---
+
+┌─────────────────────────────────────────────┐
+│ 🧱 TRICK 1: The "LCM Pizza" Rule            │
+├─────────────────────────────────────────────┤
+│ A does work in 10 days, B in 15 days?       │
+│ Don't touch fractions! Order a PIZZA of     │
+│ LCM(10,15) = 30 slices.                     │
+│ A eats 3 slices/day, B eats 2 slices/day.   │
+│ Together: 5 slices/day → 30/5 = 6 days.     │
+│                                             │
+│ 🔑 KEYWORD: "LCM = Total Work = Pizza"      │
+│ Every Time-Work problem is just a pizza     │
+│ party. Convert days → slices, always.       │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ 🏠 TRICK 2: The "Efficiency House" (Loci)   │
+├─────────────────────────────────────────────┤
+│ Picture your house:                         │
+│ • DOOR = Total Work (LCM) — you enter       │
+│   with the LCM.                             │
+│ • KITCHEN = Efficiency (work/day) — where   │
+│   the daily cooking happens.                │
+│ • CLOCK on wall = Time = Work ÷ Efficiency. │
+│ Walk the house: Door → Kitchen → Clock.     │
+│                                             │
+│ 🔑 LOCI: Door-Kitchen-Clock =               │
+│ Work → Efficiency → Time                    │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ ⚡ TRICK 3: "WET" — The Master Equation     │
+├─────────────────────────────────────────────┤
+│ W = E × T                                   │
+│ Work = Efficiency × Time                    │
+│                                             │
+│ 🔑 ACRONYM: "WET" — Work gets WET when      │
+│ Efficiency and Time multiply!               │
+│ From WET, derive everything:                │
+│ E = W/T, T = W/E. One triangle, all answers.│
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ 🔄 TRICK 4: "MDH" — The Inverse Seesaw      │
+├─────────────────────────────────────────────┤
+│ M₁D₁H₁ = M₂D₂H₂ (for same work)             │
+│ Men × Days × Hours stays constant.          │
+│ More men? Fewer days. Seesaw!               │
+│                                             │
+│ 🔑 KEYWORD: "MAD-House" — In a MAD house,   │
+│ double the people, half the time.           │
+│ Men and Days are INVERSELY proportional.    │
+│ Add W: M₁D₁H₁/W₁ = M₂D₂H₂/W₂                │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ 🚪 TRICK 5: "Leaver's Last Day" Trick       │
+├─────────────────────────────────────────────┤
+│ A & B start together; A leaves after some   │
+│ days. Who finishes? B alone.                │
+│ Trick: Work done by B for ALL days +        │
+│ work done by A for his days = 1.            │
+│                                             │
+│ 🔑 MNEMONIC: "The one who STAYS, works      │
+│ ALL the days." Give B the full x days,      │
+│ give A only his shorter shift.              │
+│ Solve: x/B's time + (days A worked)/A's     │
+│ time = 1                                    │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ 🚰 TRICK 6: "Pipe Sign Language"            │
+├─────────────────────────────────────────────┤
+│ Inlet pipe = FRIEND (+)                     │
+│ Outlet pipe = ENEMY (−)                     │
+│ Tank fills in x, empties in y:              │
+│ Net = 1/x − 1/y                             │
+│                                             │
+│ 🔑 MNEMONIC: "Friends ADD, Enemies DRAIN."  │
+│ If enemy is stronger (y < x), tank NEVER    │
+│ fills — it empties! Check the sign before   │
+│ solving.                                    │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ 👫 TRICK 7: "A+B Together in 2 Lines"       │
+├─────────────────────────────────────────────┤
+│ A in a days, B in b days. Together =        │
+│         ab / (a + b)                        │
+│                                             │
+│ 🔑 KEYWORD: "Product over Sum" —            │
+│ "Multiply on top, Add below."               │
+│ 12 & 24 days? → (12×24)/(12+24) = 288/36    │
+│ = 8 days. No LCM needed for 2 workers!      │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ 💰 TRICK 8: "Wages Follow Work"             │
+├─────────────────────────────────────────────┤
+│ Wages are divided in ratio of WORK done,    │
+│ i.e., efficiency ratio (if same time).      │
+│ A:B wages = A's efficiency : B's efficiency │
+│                                             │
+│ 🔑 MNEMONIC: "No Work, No Wallet."          │
+│ If A is twice as fast, A takes home twice   │
+│ the money — even if the job feels equal!    │
+│ Ratio of efficiencies = inverse of days:    │
+│ A in 10d, B in 20d → wages 2:1 (not 1:2!)   │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ 🔁 TRICK 9: "Alternate Days — Pair It"      │
+├─────────────────────────────────────────────┤
+│ A and B work on alternate days.             │
+│ Step 1: Take a PAIR of 2 days.              │
+│ Step 2: Work per pair = A's 1-day + B's     │
+│ 1-day work.                                 │
+│ Step 3: Count pairs, handle the leftover    │
+│ fraction carefully — check WHO works last!  │
+│                                             │
+│ 🔑 MNEMONIC: "Dance in Pairs, Watch the     │
+│ Last Step." The final day belongs to        │
+│ whoever's turn it is — don't overshoot!     │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ ⏳ TRICK 10: "x Days More" Shortcut         │
+├─────────────────────────────────────────────┤
+│ A alone takes x days MORE than A+B together;│
+│ B alone takes y days more. Then:            │
+│     Together = √(xy) days                   │
+│                                             │
+│ 🔑 KEYWORD: "Root of the Extras."           │
+│ A takes 4 more, B takes 9 more →            │
+│ √(4×9) = 6 days together.                   │
+│ (Works only for this exact pattern!)        │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ 🧮 TRICK 11: "Fraction-to-Percent Brain"    │
+├─────────────────────────────────────────────┤
+│ Memorize work-rates as percents:            │
+│ 1/2=50%  1/3=33.3%  1/4=25%  1/5=20%        │
+│ 1/6=16.7%  1/8=12.5%  1/10=10%  1/12=8.33%  │
+│                                             │
+│ 🔑 MNEMONIC: "Half-Third-Quarter walk into  │
+│ a bar: 50, 33, 25."                         │
+│ A in 4 days + B in 4 days = 25%+25% = 50%/  │
+│ day → 2 days. Instant mental math!          │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ 🪜 TRICK 12: "Chain Rule Ladder"            │
+├─────────────────────────────────────────────┤
+│ Men, Days, Hours, Work — climb the ladder:  │
+│ • Men ↑ → Days ↓ (inverse)                  │
+│ • Hours ↑ → Days ↓ (inverse)                │
+│ • Work ↑ → Days ↑ (direct!)                 │
+│                                             │
+│ 🔑 MNEMONIC: "People fight time, Work feeds │
+│ time." More people crush the days; more     │
+│ work grows the days. Mark ↑↓ arrows BEFORE  │
+│ calculating — never after.                  │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ 🎯 TRICK 13: "Efficiency Ratio Swap"        │
+├─────────────────────────────────────────────┤
+│ If A is twice as efficient as B:            │
+│ Efficiency ratio A:B = 2:1                  │
+│ Time ratio A:B = 1:2 (SWAPPED!)             │
+│                                             │
+│ 🔑 KEYWORD: "Fast = Few days."              │
+│ The faster worker's TIME is smaller —       │
+│ ratios FLIP. Write E-ratio, flip it for     │
+│ T-ratio. Exams trap you right here!         │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ 🧊 TRICK 14: "Negative Work = Sabotage"     │
+├─────────────────────────────────────────────┤
+│ A builds, B destroys (or leak empties).     │
+│ Treat destroyer as NEGATIVE efficiency.     │
+│ Net = A's rate − B's rate.                  │
+│                                             │
+│ 🔑 MNEMONIC: "The Termite Rule" — termites  │
+│ eat while you build. Subtract the eater     │
+│ before you count the days.                  │
+│ If eater ≥ builder, the work NEVER ends.    │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ 🏁 TRICK 15: The Grand Master Story (Loci)  │
+├─────────────────────────────────────────────┤
+│ One walk through your house = whole chapter:│
+│ 1. DOOR: Enter with LCM (Total Work)        │
+│ 2. KITCHEN: Cook daily efficiency (WET)     │
+│ 3. TV ROOM: Watch the MAD-house seesaw      │
+│    (Men vs Days inverse)                    │
+│ 4. BATHROOM: Pipes — friends fill, enemies  │
+│    drain (+/−)                              │
+│ 5. WALLET on table: Wages follow work       │
+│ 6. STAIRS: Climb in PAIRS (alternate days)  │
+│                                             │
+│ 🔑 Walk this house before every exam —      │
+│ all 14 tricks live inside it!               │
+└─────────────────────────────────────────────┘

@@ -1,0 +1,106 @@
+# 📊 PYQ Analysis — Time & Work (English)
+
+## How Exams Test This Chapter
+
+Time & Work is one of the most dependable scoring areas in SSC CGL (Mains), IBPS PO, RRB NTPC and CAT. Across these exams, the questions revolve around a small set of repeatable patterns. Master the patterns below and you can recognise most questions within seconds of reading them.
+
+**The recurring question families:**
+
+1. **Basic one-person / two-person work** — "A does a job in x days, B in y days, together in how many days?" The foundation of everything else.
+2. **Efficiency ratio questions** — "A is twice as efficient as B" or "A takes half the time of B." Exams love hiding the ratio inside a sentence.
+3. **Leaving / joining midway** — "A and B start together, but A leaves after 3 days…" The single most repeated twist in SSC and IBPS.
+4. **Alternate days** — "A and B work on alternate days, A starting first." A classic trap zone.
+5. **Work and wages** — payment divided in the ratio of work done (efficiency × time).
+6. **Men, women, boys (MDH formula)** — "4 men or 6 women can do a work in…" — converting one group's capacity into another's.
+7. **Pipes and cisterns** — the same chapter wearing a different costume; outlet pipes are just "negative workers."
+8. **Chain rule / M₁D₁H₁ = M₂D₂H₂** — scaling men, days and hours together.
+9. **Negative work** — a leak, a destroyer, or a person undoing the work.
+10. **Fraction-of-work + remaining work** — "2/3 of the work is done in 10 days…" — tests whether you can scale proportionally.
+
+**The examiner's favourite traps (learn to smell them):**
+
+- **Near-correct statements:** options placed exactly where a common mistake lands (e.g., adding days instead of adding rates).
+- **Time vs. efficiency inversion:** "A is 50% more efficient than B" does NOT mean A takes 50% less time — it means A takes 2/3 of B's time. This confusion is the most exploited trap.
+- **Alternate-day off-by-one:** when total work is odd (in LCM units), the last day belongs to whoever's turn it is — many students divide by 2 blindly.
+- **"Leaves before completion" ambiguity:** "A leaves 3 days before the work finishes" ≠ "A leaves after 3 days." Reading one word wrong changes the whole equation.
+- **Wages split by days instead of work:** wages follow total work contributed, not just days present.
+- **Negative work sign error:** forgetting to subtract the leak/destroyer's rate.
+
+**Time strategy:** a basic question should take 30–40 seconds with the LCM method; leaving/joining and alternate-day questions deserve 60–90 seconds. If a question needs more than 2 minutes, mark it and return — there is always a shorter LCM-based path.
+
+---
+
+## Top 10 High-Yield Questions (with Solutions and Trap Analysis)
+
+**Q1.** A can do a piece of work in 12 days and B in 18 days. They work together for 4 days, after which A leaves. In how many more days will B finish the remaining work?
+(a) 5 (b) 6 (c) 7 (d) 8
+**Answer: (d)**
+**Solution:** LCM(12, 18) = 36 units. A = 3 units/day, B = 2 units/day. Together in 4 days: 4 × 5 = 20 units. Remaining = 36 − 20 = 16 units. B alone: 16 ÷ 2 = **8 days**.
+**Trap:** The question asks for *more* days after A leaves, not total days. Students who compute total time (4 + 8 = 12) pick a wrong option planted nearby. Always re-read what is asked.
+
+**Q2.** A is 50% more efficient than B. Together they finish a work in 12 days. In how many days can A alone finish it?
+(a) 18 (b) 20 (c) 24 (d) 30
+**Answer: (b)**
+**Solution:** Efficiency ratio A : B = 3 : 2. Combined rate = 5 parts; total work = 12 × 5 = 60 parts. A alone = 60 ÷ 3 = 20 days.
+**Trap:** "50% more efficient" ≠ "takes 50% less time." Students who halve B's time land on a planted wrong option. Efficiency and time are inversely proportional — convert the ratio first.
+
+**Q3.** A and B can do a work in 20 and 30 days respectively. They work on alternate days, A starting first. In how many days will the work be completed?
+(a) 23 (b) 24 (c) 25 (d) 26
+**Answer: (b)**
+**Solution:** LCM = 60 units. A = 3/day, B = 2/day. Every 2 days → 5 units. After 22 days (11 full cycles): 55 units. Day 23 is A's turn → 55 + 3 = 58 units. Remaining 2 units on day 24 (B's turn, rate 2/day) → done in 1 more day. Total = 24 days.
+**Trap:** Dividing 60 by 5 and writing "12 cycles = 24 days" works here only because it ends exactly; when the remainder is odd, the last day belongs to one person and fractional-day logic is needed. Never blindly multiply cycles.
+
+**Q4.** 4 men or 6 women can do a work in 20 days. In how many days will 6 men and 3 women together do the same work?
+(a) 6 (b) 8 (c) 10 (d) 12
+**Answer: (c)**
+**Solution:** 4 men = 6 women ⇒ 2M = 3W ⇒ 1 man = 1.5 women. So 6 men + 3 women = 9 + 3 = 12 women-equivalents. Total work = 6 women × 20 days = 120 women-days. Time = 120 ÷ 12 = **10 days**.
+**Trap:** Converting men into women (or vice versa) upside down — 1 man = 1.5 women, not 2/3 woman. Write the equation 4M = 6W first, then convert.
+
+**Q5.** A can do a work in 15 days. B is 25% more efficient than A. In how many days will B do the same work?
+(a) 10 (b) 11 (c) 12 (d) 13
+**Answer: (c)**
+**Solution:** Efficiency A : B = 4 : 5, so time A : B = 5 : 4. B's time = 15 × 4/5 = 12 days.
+**Trap:** Computing 25% of 15 = 3.75 and subtracting → 11.25 ≈ 11 (option b is the bait). Percentage of *efficiency* must be inverted before applying to *time*.
+
+**Q6.** A, B and C can do a work in 10, 12 and 15 days respectively. They work together and earn ₹900. What is B's share?
+(a) ₹240 (b) ₹300 (c) ₹360 (d) ₹400
+**Answer: (b)**
+**Solution:** LCM = 60 units. Rates: A = 6, B = 5, C = 4. Wages split in ratio 6 : 5 : 4 (total 15 parts). B's share = 900 × 5/15 = **₹300**.
+**Trap:** Splitting equally (₹300 each) coincidentally matches here — but the *method* matters; with different numbers equal-split fails. Wages always follow work done = rate × time, and since all worked the same time, the ratio is just the rates.
+
+**Q7.** A pipe can fill a tank in 8 hours. A leak at the bottom can empty it in 12 hours. With both open, in how many hours will the tank fill?
+(a) 20 (b) 24 (c) 16 (d) 18
+**Answer: (b)**
+**Solution:** Net rate = 1/8 − 1/12 = (3 − 2)/24 = 1/24. Tank fills in 24 hours.
+**Trap:** Adding the rates (1/8 + 1/12 = 5/24 → 4.8 h) — the leak is a *negative worker*. Any "emptying / destroying / leaking" agent must be subtracted.
+
+**Q8.** A and B together can do a work in 12 days. A alone can do it in 30 days. They start together, but B leaves 5 days before completion. In how many days is the work finished?
+(a) 14 (b) 15 (c) 16 (d) 18
+**Answer: (b)**
+**Solution:** LCM(12, 30) = 60 units. A + B = 5/day, A = 2/day ⇒ B = 3/day. In the last 5 days only A works: 5 × 2 = 10 units. The first 50 units are done together at 5/day → 10 days. Total = 10 + 5 = **15 days**.
+**Trap:** "Leaves 5 days before completion" means B is absent for the *final* 5 days — not that B worked only 5 days. Sketch a timeline before writing equations.
+
+**Q9.** 10 men can complete a work in 12 days working 8 hours a day. In how many days will 8 men complete the same work working 10 hours a day?
+(a) 10 (b) 12 (c) 15 (d) 18
+**Answer: (b)**
+**Solution:** M₁D₁H₁ = M₂D₂H₂ → 10 × 12 × 8 = 8 × D₂ × 10 → D₂ = 960/80 = 12 days.
+**Trap:** Forgetting the hours factor and using only M₁D₁ = M₂D₂ (gives 15 days — a planted option). Whenever hours-per-day appears, all three factors must enter the chain rule.
+
+**Q10.** A can do 2/3 of a work in 16 days. B can do 1/4 of the same work in 6 days. Working together, in how many days will they finish the whole work?
+(a) 12 (b) 14 (c) 16 (d) 18
+**Answer: (a)**
+**Solution:** A's full time = 16 × 3/2 = 24 days. B's full time = 6 × 4 = 24 days. Together: 1/24 + 1/24 = 2/24 = 1/12 → **12 days**.
+**Trap:** Using the given days directly (16 and 6) in the together-formula without scaling to the *whole* work. Always convert "fraction of work in t days" into "full work in T days" first.
+
+---
+
+## Key Takeaways for Revision
+
+- The **LCM (total-work-units) method** solves every family above — make it your default.
+- **Efficiency ↑ ⇒ time ↓** — invert ratios before using them.
+- **Wages follow work done**, not attendance.
+- **Leaks and destroyers are negative workers** — subtract their rates.
+- In **alternate-day** questions, track whose turn the last day is.
+- Read the final line twice: "more days," "total days," and "days before completion" are three different answers.
+
+*Revise these 10 patterns again after 2 days — recognition speed is what this chapter tests.*

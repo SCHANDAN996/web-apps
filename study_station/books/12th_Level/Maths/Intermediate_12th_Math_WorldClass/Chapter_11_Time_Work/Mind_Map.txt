@@ -1,0 +1,40 @@
+```mermaid
+graph TD
+    A["समय और कार्य<br>Time & Work"] --> B["मूल अवधारणा<br>Basic Concept"]
+    A --> C["कार्य-दर<br>Work Rate"]
+    A --> D["संयुक्त कार्य<br>Combined Work"]
+    A --> E["वैकल्पिक दिन<br>Alternate Days"]
+    A --> F["पाइप और टंकी<br>Pipes & Cisterns"]
+    A --> G["वेतन / मजदूरी<br>Wages"]
+    A --> H["MDH सूत्र<br>MDH Formula"]
+
+    B --> B1["कुल कार्य = 1 इकाई<br>Total Work = 1 unit"]
+    B --> B2["LCM विधि<br>LCM Method"]
+    B --> B3["दक्षता ∝ 1/समय<br>Efficiency ∝ 1/Time"]
+
+    C --> C1["1 दिन का कार्य = 1/n<br>1 day's work = 1/n"]
+    C --> C2["दक्षता अनुपात<br>Efficiency Ratio"]
+    C --> C3["A, B से x गुना कुशल<br>A is x times efficient"]
+
+    D --> D1["A+B का 1 दिन का कार्य<br>(A+B)'s 1 day work"]
+    D --> D2["1/a + 1/b = 1/T<br>Combined formula"]
+    D --> D3["तीन व्यक्ति<br>Three persons"]
+
+    E --> E1["2 दिन का चक्र<br>2-day cycle"]
+    E --> E2["शेष कार्य जाँच<br>Remaining work check"]
+
+    F --> F1["भरने वाला पाइप = +<br>Filling pipe = +ve"]
+    F --> F2["खाली करने वाला = −<br>Emptying pipe = −ve"]
+    F --> F3["रिसाव / Leak<br>Leak problems"]
+
+    G --> G1["वेतन ∝ कार्य का अनुपात<br>Wages ∝ Work done"]
+    G --> G2["दक्षता अनुपात में बँटवारा<br>Division by efficiency"]
+
+    H --> H1["M₁D₁H₁/W₁ = M₂D₂H₂/W₂"]
+    H --> H2["पुरुष-महिला-बच्चे<br>Men-Women-Children"]
+    H --> H3["खाना / राशन प्रश्न<br>Food & Provision"]
+
+    B2 --> D
+    C2 --> G
+    C --> H
+```
