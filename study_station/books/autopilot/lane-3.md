@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 09:44 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
+**आख़िरी update:** 10-10-2026 10:00 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 73 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 89 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -24,9 +24,9 @@
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 20 | 0 | 8 |
 | Graduation GK | 27 | 0 | 1 |
-| Graduation Reasoning | 16 | 0 | 14 |
+| Graduation Reasoning | 17 | 0 | 13 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **253** | **5** | **38** |
+| **कुल** | **254** | **5** | **37** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -52,7 +52,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 08:42:12   [Figure_Series] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 10-10 08:44:03   [Syllogism] review PYQ_en.txt: 1 issue(s): - Q10 answer (c) and explanation are incorrect: from "No bird is a mammal" and "All sparrows are birds", only conclusio
 10-10 08:44:54   [Figure_Series] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 10-10 08:45:50   [Sitting_Arrangement] Practice_en_Set_01.txt try 2: re-solve disagrees (Q2 key c vs re-solve a, Q13 key c vs re-solve b, Q17 key a vs re-solve d, Q22 key c vs re-solve d)
@@ -92,4 +91,5 @@
 10-10 09:39:19   [Sitting_Arrangement] Practice_en_Set_02.txt try 4: re-solve disagrees (Q26 key a vs re-solve -, Q28 key a vs re-solve c, Q29 key b vs re-solve -, Q30 key a vs re-solve -, 
 10-10 09:39:19   [Sitting_Arrangement] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
 10-10 09:39:19   [Sitting_Arrangement] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+10-10 09:52:52   [Sitting_Arrangement] Practice_en_Set_05.txt try 1: re-solve disagrees (Q103 key a vs re-solve c, Q112 key c vs re-solve a, Q121 key c vs re-solve a)
 ```
