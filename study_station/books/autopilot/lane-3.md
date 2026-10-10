@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 06:51 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
+**आख़िरी update:** 10-10-2026 06:56 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 41 मिनट |
-| W2 | Chapter 10 Clock Calendar (12th Reasoning) | 🔎 review हो रहा है | 13 मिनट |
-| W3 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 3 मिनट |
-| W4 | Chapter 14 Alphabet Questions (12th Reasoning) | 🔎 review हो रहा है | 9 मिनट |
-| W5 | Chapter 15 Mathematical Operations (12th Reasoning) | 📤 push हो रहा है | 0 मिनट |
-| W6 | Chapter 19 Cubes Dice (12th Reasoning) | ✍️ लिख रहा है | 38 मिनट |
-| W7 | Chapter 20 Mirror Water Images (12th Reasoning) | ✍️ लिख रहा है | 22 मिनट |
-| W8 | Chapter 21 Paper Folding Cutting (12th Reasoning) | 🔎 review हो रहा है | 13 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 47 मिनट |
+| W2 | Chapter 10 Clock Calendar (12th Reasoning) | 🔎 review हो रहा है | 18 मिनट |
+| W3 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 8 मिनट |
+| W4 | Chapter 14 Alphabet Questions (12th Reasoning) | 🔎 review हो रहा है | 14 मिनट |
+| W5 | Chapter 22 Figure Series (12th Reasoning) | ✍️ लिख रहा है | 4 मिनट |
+| W6 | Chapter 19 Cubes Dice (12th Reasoning) | ✍️ लिख रहा है | 43 मिनट |
+| W7 | Chapter 20 Mirror Water Images (12th Reasoning) | ✍️ लिख रहा है | 27 मिनट |
+| W8 | Chapter 21 Paper Folding Cutting (12th Reasoning) | 🔎 review हो रहा है | 18 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -49,16 +49,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 06:38:43   [Paper_Folding_Cutting] review Content_en.txt: 1 issue(s): - Invented exam statistic: "80% of the questions in this chapter become free marks" → Remove the statistic or repla
-10-10 06:39:09   [Cubes_Dice] Practice_en_Set_02.txt try 3: rejected (Q35:leaked_reasoning,Q43:leaked_reasoning)
-10-10 06:40:54   [Dictionary_Order] Practice_en_Set_03.txt try 4: rejected (Q51:leaked_reasoning,Q55:leaked_reasoning,Q62:leaked_reasoning,Q64:leaked_reasoning,Q67:leaked_reasoning)
-10-10 06:40:54   [Dictionary_Order] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
-10-10 06:40:54   [Dictionary_Order] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
-10-10 06:41:03   [Mathematical_Operations] review Flashcards_hi.txt: 1 issue(s): - Card 12 claims that when both sign and number interchanges are given, you must first change numbers then signs
-10-10 06:41:09   [Paper_Folding_Cutting] review Feynman_en.txt: 5 issue(s): - The entire section is corrupted with tokenizer artifacts ("<|close|>", "<|open|>", "think", "analysis") and garbl
-10-10 06:41:10   [Mirror_Water_Images] Practice_en_Set_01.txt try 3: re-solve disagrees (Q22 key c vs re-solve b)
-10-10 06:41:36   [Alphabet_Questions] repaired Short_Tricks_hi.txt (5101 chars)
-10-10 06:41:36   [Alphabet_Questions] written 1, failed 0; AI calls today 111/100000
 10-10 06:42:37   [Dictionary_Order] Practice_en_Set_05.txt try 1: rejected (Q102:leaked_reasoning,Q104:leaked_reasoning,Q116:leaked_reasoning,Q120:leaked_reasoning,Q125:leaked_reasoning)
 10-10 06:42:49   [Sitting_Arrangement] Practice_en_Set_02.txt try 1: re-solve disagrees (Q26 key d vs re-solve b, Q29 key d vs re-solve ?, Q33 key c vs re-solve ?, Q35 key c vs re-solve ?, 
 10-10 06:44:04   [Mathematical_Operations] review PYQ_en.txt: 6 issue(s): - Q1 (Symbol Substitution) example has no correct option: the correct answer is 3 but options are 6, 10, 14, 2 → includ
@@ -89,4 +79,14 @@
 10-10 06:51:00   [Alphabet_Questions] review Content_hi.txt: 1 issue(s): - '4था' (incorrect Hindi ordinal for 4th) → 'चौथा' or '4वाँ'
 10-10 06:51:14   [Mathematical_Operations] review: 7 section(s) corrected, 0 failed
 10-10 06:51:14   [Mathematical_Operations] written 7, failed 0; AI calls today 148/100000
+10-10 06:51:35 DONE 12th_Level/Reasoning/Chapter_15_Mathematical_Operations in 42 min → 3ba5b8ab
+10-10 06:51:38 START 12th_Level/Reasoning/Chapter_22_Figure_Series (TODO: todo 8, problems 3)
+10-10 06:51:52   [Cubes_Dice] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+10-10 06:53:07   [Clock_Calendar] review Feynman_hi.txt: 1 issue(s): - The text states "हर 1 मिनट में बड़ा भाई छोटे भाई से 5.5 मिनट की दूरी आगे निकल जाता है" (the minute hand gains 5.5
+10-10 06:53:48   [Figure_Series] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+10-10 06:54:21   [Cubes_Dice] Practice_en_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 06:54:58   [Alphabet_Questions] review Feynman_en.txt: 1 issue(s): - The rule "Opposite direction words? The numbers add — but only after you flip everything to one side using 27" is
+10-10 06:55:42   [Alphabet_Questions] review Feynman_hi.txt: 1 issue(s): - The memory‑aid grouping “U–Z (21–25)” is wrong: Z is the 26th letter, so the fifth block should be “U–Y (21–25)” 
+10-10 06:55:45   [Cubes_Dice] Practice_en_Set_05.txt try 2: rejected (Q121:leaked_reasoning,Q125:answer_solution_conflict)
+10-10 06:56:18   [Dictionary_Order] Practice_en_Set_02.txt try 2: re-solve disagrees (Q26 key c vs re-solve ?, Q34 key a vs re-solve ?, Q38 key a vs re-solve ?, Q43 key c vs re-solve d, 
 ```
