@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 10-10-2026 06:54 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:23 AM
+**आख़िरी update:** 10-10-2026 07:10 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:23 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W7 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 7 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,23 +37,11 @@
 - Chapter 10 Compound Interest (Maths) — 2 बार
 - Chapter 01 Number System (Maths) — 2 बार
 - Chapter 12 Biology (GK) — 2 बार
-- Chapter 20 Probability (Maths) — 1 बार
+- Chapter 20 Probability (Maths) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 06:30:59   [Mixture_Alligation] Feynman_en.txt try 2: rejected (chat debris "Here's the")
-10-10 06:30:59   [Mixture_Alligation] REJECTED Feynman_en.txt: chat debris "Here's the" — not written
-10-10 06:30:59   [Mixture_Alligation] written 0, failed 1; AI calls today 37/100000
-10-10 06:30:59 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation after 6 min: todo ['Feynman_en.txt'] problems []
-10-10 06:31:02 worker 5: nothing left
-10-10 06:31:16   [Biology] repaired Feynman_hi.txt (3409 chars)
-10-10 06:31:16   [Biology] written 1, failed 0; AI calls today 37/100000
-10-10 06:31:16 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_12_Biology after 2 min: todo [] problems ['Feynman_hi.txt: much shorter than the English section (3408 ']
-10-10 06:31:20 worker 0: nothing left
-10-10 06:31:26   [Probability] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-10-10 06:32:10   [Sports] repaired Memory_Hooks_hi.txt (6553 chars)
-10-10 06:32:10   [Sports] written 1, failed 0; AI calls today 38/100000
 10-10 06:32:11 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_14_Sports after 8 min: todo [] problems ['Memory_Hooks_hi.txt: much shorter than the English section (']
 10-10 06:32:14 worker 1: nothing left
 10-10 06:32:39   [Time_Work] review: 0 section(s) corrected, 0 failed
@@ -84,4 +70,16 @@
 10-10 06:47:40 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_20_Probability (TODO: todo 3, problems 1)
 10-10 06:50:52   [Probability] Practice_hi_Set_03.txt try 1: rejected (parsed 24 questions, numbers 51…75)
 10-10 06:53:22   [Probability] Practice_hi_Set_03.txt try 2: rejected (parsed 24 questions, numbers 51…75)
+10-10 06:55:31   [Probability] Practice_hi_Set_03.txt try 3: rejected (parsed 0 questions, numbers -…-)
+10-10 06:59:05   [Probability] Practice_hi_Set_03.txt try 4: rejected (parsed 24 questions, numbers 51…75)
+10-10 06:59:05   [Probability] REJECTED Practice_hi_Set_03.txt: no translation passed the checks — not written
+10-10 07:00:53   [Probability] Practice_en_Set_06.txt try 1: rejected (parsed 24 questions, numbers 126…150)
+10-10 07:02:08   [Probability] Practice_en_Set_06.txt try 2: rejected (parsed 24 questions, numbers 126…150)
+10-10 07:03:59   [Probability] Practice_en_Set_06.txt try 3: rejected (parsed 24 questions, numbers 126…150)
+10-10 07:06:08   [Probability] Practice_en_Set_06.txt try 4: rejected (parsed 23 questions, numbers 126…150)
+10-10 07:06:08   [Probability] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+10-10 07:06:08   [Probability] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+10-10 07:06:08   [Probability] written 0, failed 3; AI calls today 53/100000
+10-10 07:06:08 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_20_Probability after 18 min: todo ['Set 03 hi: todo', 'Set 06 en: todo', 'Set 06 hi: todo'] problems ['Content_en.txt: does not mention the chapter topic (probabil']
+10-10 07:06:12 worker 6: nothing left
 ```
