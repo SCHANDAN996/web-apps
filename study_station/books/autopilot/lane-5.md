@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 10-10-2026 12:35 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:33 PM
+**आख़िरी update:** 10-10-2026 12:50 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:33 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Noun (10th English) | 🔧 सुधार रहा है | 1 मिनट |
-| W2 | Chapter 03 Adjective (10th English) | 🔧 सुधार रहा है | 0 मिनट |
-| W3 | Chapter 04 Verb (10th English) | 🔧 सुधार रहा है | 0 मिनट |
-| W4 | Chapter 18 Trigonometry (10th Maths) | 🔧 सुधार रहा है | 0 मिनट |
-| W5 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 0 मिनट |
+| W1 | Chapter 01 Noun (10th English) | 🔎 review हो रहा है | 11 मिनट |
+| W4 | Chapter 18 Trigonometry (10th Maths) | 🔧 सुधार रहा है | 16 मिनट |
+| W5 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 16 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -21,32 +19,67 @@
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 20 | 2 | 0 |
-| 10th English | 17 | 3 | 0 |
+| 10th English | 18 | 2 | 0 |
 | 12th Maths | 19 | 0 | 4 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 19 | 0 | 6 |
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 21 | 0 | 7 |
 | Graduation GK | 27 | 0 | 1 |
-| Graduation Reasoning | 19 | 0 | 11 |
+| Graduation Reasoning | 21 | 0 | 9 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **259** | **5** | **32** |
+| **कुल** | **262** | **4** | **30** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
 - अभी कोई नहीं
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 04 Verb (English) — 2 बार
+- Chapter 03 Adjective (English) — 2 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 12:33:58 autopilot start: 8 workers, reverse=True
-10-10 12:33:59 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_01_Noun (FIX: todo 0, problems 4)
-10-10 12:34:04 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective (FIX: todo 0, problems 1)
-10-10 12:34:09 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb (FIX: todo 0, problems 1)
-10-10 12:34:16 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_18_Trigonometry (FIX: todo 0, problems 18)
-10-10 12:34:21 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_21_Probability (FIX: todo 0, problems 12)
-10-10 12:34:26 worker 5: nothing left
-10-10 12:34:31 worker 6: nothing left
-10-10 12:34:36 worker 7: nothing left
-10-10 12:34:40   [Noun] set 01 try 1: rejected (Q20:duplicate_options)
+10-10 12:38:23   [Trigonometry] repaired PYQ_hi.txt (11030 chars)
+10-10 12:39:06   [Noun] repaired set 01 (en + hi, key confirmed by an independent re-solve)
+10-10 12:39:06   [Noun] written 1, failed 0; AI calls today 17/100000
+10-10 12:40:12   [Verb] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 12:40:14   [Trigonometry] repaired Short_Tricks_en.txt (9474 chars)
+10-10 12:41:16   [Probability] set 01 try 4: rejected (parsed 0 questions, numbers -…-)
+10-10 12:41:16   [Probability] FAILED set 01: no version passed the checks — files left as they were
+10-10 12:43:28   [Trigonometry] repaired Short_Tricks_hi.txt (4762 chars)
+10-10 12:43:44   [Probability] set 02 try 1: rejected (parsed 23 questions, numbers 26…50)
+10-10 12:43:50   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
+10-10 12:43:50   [Verb] written 0, failed 1; AI calls today 23/100000
+10-10 12:43:50 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb after 10 min: todo [] problems ['Set 01 hi: English sentence translated (keep it in English) ']
+10-10 12:43:50 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb (FIX: todo 0, problems 1)
+10-10 12:44:47   [Adjective] Practice_hi_Set_03.txt try 2: rejected (parsed 0 questions, numbers -…-)
+10-10 12:44:57   [Probability] set 02 try 2: rejected (parsed 23 questions, numbers 26…50)
+10-10 12:45:19   [Noun] review Content_en.txt: 2 issue(s): - The list claims "work" and "hair" are always uncountable, but both have countable uses (e.g., "a work of art", "a
+10-10 12:46:00   [Probability] set 02 try 3: rejected (parsed 23 questions, numbers 26…50)
+10-10 12:46:06   [Adjective] FAILED set 03: re-translation still changes English sentences — left as it was
+10-10 12:46:06   [Adjective] written 0, failed 1; AI calls today 30/100000
+10-10 12:46:06 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective after 12 min: todo [] problems ['Set 03 hi: English sentence translated (keep it in English) ']
+10-10 12:46:06 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective (FIX: todo 0, problems 1)
+10-10 12:46:14   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
+10-10 12:46:14   [Verb] written 0, failed 1; AI calls today 32/100000
+10-10 12:47:21   [Trigonometry] repaired set 01 (en + hi, key confirmed by an independent re-solve)
+10-10 12:47:37   [Adjective] FAILED set 03: re-translation still changes English sentences — left as it was
+10-10 12:47:37   [Adjective] written 0, failed 1; AI calls today 34/100000
+10-10 12:48:22   [Probability] set 02 try 4: rejected (parsed 23 questions, numbers 26…50)
+10-10 12:48:22   [Probability] FAILED set 02: no version passed the checks — files left as they were
+10-10 12:48:52   [Trigonometry] set 02 try 1: rejected (parsed 24 questions, numbers 26…50)
+10-10 12:48:53   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
+10-10 12:48:53   [Verb] written 0, failed 1; AI calls today 37/100000
+10-10 12:48:53   [Adjective] FAILED set 03: re-translation still changes English sentences — left as it was
+10-10 12:48:53   [Adjective] written 0, failed 1; AI calls today 37/100000
+10-10 12:48:53 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb after 5 min: todo [] problems ['Set 01 hi: English sentence translated (keep it in English) ']
+10-10 12:48:56 worker 2: nothing left
+10-10 12:48:56 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective after 3 min: todo [] problems ['Set 03 hi: English sentence translated (keep it in English) ']
+10-10 12:48:59 worker 1: nothing left
+10-10 12:49:32   [Noun] review Content_hi.txt: 1 issue(s): - The list claims advice, information, furniture, luggage, news, work, bread, hair, money, poetry, scenery are alwa
+10-10 12:49:56   [Probability] set 03 try 1: rejected (parsed 23 questions, numbers 51…75)
+10-10 12:50:14   [Trigonometry] set 02 try 2: rejected (parsed 24 questions, numbers 26…50)
 ```
