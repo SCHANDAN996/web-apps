@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 08:39 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
+**आख़िरी update:** 10-10-2026 08:43 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 8 मिनट |
-| W5 | Chapter 22 Figure Series (12th Reasoning) | ✍️ लिख रहा है | 27 मिनट |
-| W6 | Chapter 19 Cubes Dice (12th Reasoning) | 📤 push हो रहा है | 0 मिनट |
-| W7 | Chapter 20 Mirror Water Images (12th Reasoning) | ✍️ लिख रहा है | 50 मिनट |
-| W8 | Chapter 23 Syllogism (12th Reasoning) | 🔎 review हो रहा है | 7 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 12 मिनट |
+| W5 | Chapter 22 Figure Series (12th Reasoning) | ✍️ लिख रहा है | 31 मिनट |
+| W7 | Chapter 20 Mirror Water Images (12th Reasoning) | ✍️ लिख रहा है | 54 मिनट |
+| W8 | Chapter 23 Syllogism (12th Reasoning) | 🔎 review हो रहा है | 11 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -46,7 +45,6 @@
 - Chapter 16 Statement Conclusion (Reasoning) — 2 बार
 - Chapter 17 Course of Action (Reasoning) — 2 बार
 - Chapter 13 Dictionary Order (Reasoning) — 2 बार
-- Chapter 19 Cubes Dice (Reasoning) — 1 बार
 - Chapter 24 Statement Assumption (Reasoning) — 2 बार
 - Chapter 20 Mirror Water Images (Reasoning) — 1 बार
 - Chapter 22 Figure Series (Reasoning) — 1 बार
@@ -56,11 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 08:14:12   [Figure_Series] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-10-10 08:15:42   [Cubes_Dice] review Feynman_en.txt: 1 issue(s): - "3 cuts along each edge" would produce 4 pieces per edge (64 cubes), not 27 → should be "2 cuts along each edge" 
-10-10 08:15:55   [Figure_Series] Practice_en_Set_02.txt try 1: rejected (Q35:leaked_reasoning,Q41:leaked_reasoning,Q46:leaked_reasoning)
-10-10 08:16:14   [Sitting_Arrangement] Practice_en_Set_06.txt try 3: re-solve disagrees (Q134 key b vs re-solve c, Q135 key b vs re-solve a, Q138 key a vs re-solve b, Q147 key b vs re-solve
-10-10 08:17:38   [Statement_Argument] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 10-10 08:17:38   [Statement_Argument] written 4, failed 2; AI calls today 368/100000
 10-10 08:17:38 NOT OK 12th_Level/Reasoning/Chapter_25_Statement_Argument after 39 min: todo ['Set 02 en: todo', 'Set 02 hi: todo'] problems ['PYQ_hi.txt: Hindi file is mostly not in Hindi', 'PYQ_hi.txt: much shorter than the English section (2089 vs 1']
 10-10 08:17:41 START 12th_Level/Reasoning/Chapter_25_Statement_Argument (TODO: todo 2, problems 2)
@@ -96,4 +89,9 @@
 10-10 08:39:16   [Syllogism] review Flashcards_en.txt: 2 issue(s): - Card 13 incorrectly includes "Some A are not B" as a complementary pair for "Some A are B" → The correct compl
 10-10 08:39:47   [Cubes_Dice] review: 9 section(s) corrected, 0 failed
 10-10 08:39:47   [Cubes_Dice] written 9, failed 0; AI calls today 409/100000
+10-10 08:40:09 DONE 12th_Level/Reasoning/Chapter_19_Cubes_Dice in 81 min → 250f70c0
+10-10 08:40:12 worker 5: nothing left
+10-10 08:40:40   [Syllogism] review Flashcards_hi.txt: 1 issue(s): - Card 5 back: “भंसक (रिफ्ट) घाटी” uses the incorrect Hindi word “भंसक” for rift valley → replace with “भ्रंश (र
+10-10 08:41:56   [Mirror_Water_Images] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+10-10 08:42:12   [Figure_Series] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 ```
