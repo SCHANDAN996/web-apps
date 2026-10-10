@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 03:53 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 03:21 PM
+**आख़िरी update:** 10-10-2026 04:09 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 03:21 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 8 मिनट |
-| W5 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 31 मिनट |
+| W5 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 4 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,30 +38,12 @@
 - Chapter 22 Calculus (Maths) — 2 बार
 - Chapter 05 Percentage (Maths) — 2 बार
 - Chapter 28 Linear Programming (Maths) — 2 बार
-- Chapter 19 Trigonometry (Maths) — 1 बार
+- Chapter 19 Trigonometry (Maths) — 2 बार
+- Chapter 25 Probability (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 15:33:27   [Probability] Practice_en_Set_03.txt try 2: rejected (parsed 24 questions, numbers 51…75)
-10-10 15:33:44   [Linear_Programming] repaired Content_hi.txt (6706 chars)
-10-10 15:33:44   [Linear_Programming] written 1, failed 0; AI calls today 29/100000
-10-10 15:34:44   [Probability] Practice_en_Set_03.txt try 3: rejected (parsed 20 questions, numbers 51…75)
-10-10 15:35:34   [Linear_Programming] repaired Content_hi.txt (7354 chars)
-10-10 15:35:34   [Linear_Programming] written 1, failed 0; AI calls today 31/100000
-10-10 15:35:34 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming after 13 min: todo [] problems ['Content_hi.txt: much shorter than the English section (7353 ']
-10-10 15:35:38 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming (FIX: todo 0, problems 1)
-10-10 15:36:45   [Probability] Practice_en_Set_03.txt try 4: rejected (parsed 22 questions, numbers 51…75)
-10-10 15:36:45   [Probability] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
-10-10 15:36:45   [Probability] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
-10-10 15:37:32   [Linear_Programming] repaired Content_hi.txt (6441 chars)
-10-10 15:37:32   [Linear_Programming] written 1, failed 0; AI calls today 33/100000
-10-10 15:37:54   [Probability] Practice_en_Set_04.txt try 1: rejected (parsed 21 questions, numbers 76…100)
-10-10 15:39:18   [Probability] Practice_en_Set_04.txt try 2: rejected (parsed 0 questions, numbers -…-)
-10-10 15:39:21   [Linear_Programming] repaired Content_hi.txt (7301 chars)
-10-10 15:39:21   [Linear_Programming] written 1, failed 0; AI calls today 36/100000
-10-10 15:39:21 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming after 4 min: todo [] problems ['Content_hi.txt: much shorter than the English section (7300 ']
-10-10 15:39:25 worker 5: nothing left
 10-10 15:41:03   [Probability] Practice_en_Set_04.txt try 3: rejected (parsed 21 questions, numbers 76…100)
 10-10 15:43:01   [Probability] Practice_en_Set_04.txt try 4: rejected (parsed 22 questions, numbers 76…100)
 10-10 15:43:01   [Probability] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
@@ -84,4 +65,23 @@
 10-10 15:52:53   [Trigonometry] Practice_hi_Set_05.txt try 4: rejected (parsed 24 questions, numbers 101…124)
 10-10 15:52:53   [Trigonometry] REJECTED Practice_hi_Set_05.txt: no translation passed the checks — not written
 10-10 15:53:29   [Probability] Practice_en_Set_06.txt try 1: rejected (parsed 24 questions, numbers 126…150)
+10-10 15:55:16   [Trigonometry] Practice_en_Set_06.txt try 1: rejected (parsed 23 questions, numbers 126…150)
+10-10 15:55:47   [Probability] Practice_en_Set_06.txt try 2: rejected (parsed 23 questions, numbers 126…150)
+10-10 15:57:00   [Trigonometry] Practice_en_Set_06.txt try 2: rejected (parsed 23 questions, numbers 126…150)
+10-10 15:59:00   [Probability] Practice_en_Set_06.txt try 3: rejected (parsed 24 questions, numbers 126…150)
+10-10 15:59:41   [Trigonometry] Practice_en_Set_06.txt try 3: rejected (parsed 24 questions, numbers 126…149)
+10-10 16:03:38   [Trigonometry] Practice_en_Set_06.txt try 4: rejected (parsed 23 questions, numbers 126…150)
+10-10 16:03:38   [Trigonometry] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+10-10 16:03:38   [Trigonometry] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+10-10 16:03:38   [Trigonometry] written 0, failed 3; AI calls today 52/100000
+10-10 16:03:38 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_19_Trigonometry after 18 min: todo ['Set 05 hi: todo', 'Set 06 en: todo', 'Set 06 hi: todo'] problems []
+10-10 16:03:43 worker 2: nothing left
+10-10 16:04:01   [Probability] Practice_en_Set_06.txt try 4: rejected (parsed 22 questions, numbers 126…150)
+10-10 16:04:01   [Probability] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+10-10 16:04:01   [Probability] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+10-10 16:04:02   [Probability] written 0, failed 10; AI calls today 52/100000
+10-10 16:04:02 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability after 42 min: todo ['Set 02 en: todo', 'Set 02 hi: todo', 'Set 03 en: todo', 'Set 03 hi: todo'] problems ['Flashcards_hi.txt: Hindi file is mostly not in Hindi', 'Flashcards_hi.txt: much shorter than the English section (46', 'Short_Tricks_hi.txt: much shorter than the English section (']
+10-10 16:04:06 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability (TODO: todo 10, problems 3)
+10-10 16:05:14   [Probability] Practice_en_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 16:07:41   [Probability] Practice_en_Set_02.txt try 2: rejected (parsed 24 questions, numbers 26…50)
 ```
