@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 10:10 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
+**आख़िरी update:** 10-10-2026 10:25 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W4 | Chapter 27 Number Series (Graduation Maths) | ✍️ लिख रहा है | 211 मिनट |
-| W5 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 164 मिनट |
-| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 117 मिनट |
+| W4 | Chapter 27 Number Series (Graduation Maths) | ✍️ लिख रहा है | 226 मिनट |
+| W5 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 180 मिनट |
+| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 132 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -52,14 +52,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 08:32:47   [Permutation_Combination] review: 3 section(s) corrected, 1 failed
-10-10 08:32:47   [Permutation_Combination] written 3, failed 1; AI calls today 272/100000
-10-10 08:32:47 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_26_Permutation_Combination after 61 min: todo [] problems []
-10-10 08:32:51 worker 1: nothing left
-10-10 08:34:57   [Linear_Programming] wrote PYQ_hi.txt (8093 chars)
-10-10 08:44:36   [Probability] Practice_en_Set_02.txt try 2: rejected (parsed 21 questions, numbers 26…49)
-10-10 08:45:15   [Number_Series] Practice_en_Set_02.txt try 2: rejected (parsed 0 questions, numbers -…-)
-10-10 08:48:38   [Probability] Practice_en_Set_02.txt try 3: rejected (parsed 23 questions, numbers 26…50)
 10-10 08:49:54   [Number_Series] Practice_en_Set_02.txt try 3: rejected (Q34:leaked_reasoning,Q40:leaked_reasoning)
 10-10 08:50:30   [Linear_Programming] wrote Short_Tricks_en.txt (5160 chars)
 10-10 08:52:54   [Probability] Practice_en_Set_02.txt try 4: rejected (parsed 22 questions, numbers 26…50)
@@ -92,4 +84,12 @@
 10-10 10:03:46   [Probability] Practice_en_Set_05.txt try 2: rejected (parsed 22 questions, numbers 101…125)
 10-10 10:07:17   [Number_Series] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 10-10 10:08:11   [Probability] Practice_en_Set_05.txt try 3: rejected (parsed 23 questions, numbers 101…125)
+10-10 10:13:15   [Number_Series] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+10-10 10:17:56   [Probability] Practice_en_Set_05.txt try 4: rejected (parsed 23 questions, numbers 101…125)
+10-10 10:17:56   [Probability] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
+10-10 10:17:56   [Probability] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
+10-10 10:19:33   [Linear_Programming] FAILED Practice_en_Set_01.txt: too_long
+10-10 10:19:33   [Linear_Programming] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
+10-10 10:20:58   [Number_Series] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+10-10 10:25:27   [Number_Series] Practice_en_Set_06.txt try 1: rejected (Q128:leaked_reasoning,Q132:leaked_reasoning,Q134:leaked_reasoning,Q144:leaked_reasoning)
 ```
