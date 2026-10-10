@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 08:40 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
+**आख़िरी update:** 10-10-2026 08:55 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W5 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 91 मिनट |
+| W5 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 7 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -38,15 +38,11 @@
 - Chapter 13 Awards (GK) — 2 बार
 - Chapter 28 Linear Programming (Maths) — 2 बार
 - Chapter 22 Calculus (Maths) — 2 बार
+- Chapter 25 Probability (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 19:23:01   [Awards] repaired Flashcards_hi.txt (3974 chars)
-10-10 19:23:01   [Awards] written 1, failed 0; AI calls today 23/100000
-10-10 19:23:01 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards after 5 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (39']
-10-10 19:23:03 worker 0: nothing left
-10-10 19:24:17   [Calculus] repaired Feynman_hi.txt (2682 chars)
 10-10 19:24:17   [Calculus] written 1, failed 0; AI calls today 23/100000
 10-10 19:24:17 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_22_Calculus after 4 min: todo [] problems ['Feynman_hi.txt: much shorter than the English section (2681 ']
 10-10 19:24:19 worker 3: nothing left
@@ -82,4 +78,9 @@
 10-10 20:13:16 worker 2: nothing left
 10-10 20:16:19   [Probability] Practice_en_Set_06.txt try 1: rejected (Q148:leaked_reasoning)
 10-10 20:26:18   [Probability] Practice_en_Set_06.txt try 2: re-solve disagrees (Q127 key c vs re-solve ?, Q134 key a vs re-solve ?, Q145 key a vs re-solve ?)
+10-10 20:48:42   [Probability] FAILED Practice_en_Set_06.txt: network
+10-10 20:48:42   [Probability] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+10-10 20:48:42   [Probability] written 6, failed 4; AI calls today 64/100000
+10-10 20:48:42 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability after 100 min: todo ['Set 02 en: todo', 'Set 02 hi: todo', 'Set 06 en: todo', 'Set 06 hi: todo'] problems ['Flashcards_hi.txt: Hindi file is mostly not in Hindi', 'Flashcards_hi.txt: much shorter than the English section (46', 'Short_Tricks_hi.txt: much shorter than the English section (']
+10-10 20:48:44 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability (TODO: todo 4, problems 3)
 ```
