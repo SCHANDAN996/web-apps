@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 10-10-2026 07:38 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
+**आख़िरी update:** 10-10-2026 07:40 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W6 | Chapter 20 Probability (12th Maths) | 📤 push हो रहा है | 0 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -43,8 +41,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 19:13:04 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_12_Biology after 3 min: todo [] problems ['Feynman_hi.txt: much shorter than the English section (2667 ']
-10-10 19:13:07 worker 0: nothing left
 10-10 19:13:09   [Sports] repaired Memory_Hooks_hi.txt (5981 chars)
 10-10 19:13:09   [Sports] written 1, failed 0; AI calls today 17/100000
 10-10 19:13:09 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_14_Sports after 5 min: todo [] problems ['Memory_Hooks_hi.txt: much shorter than the English section (']
@@ -83,4 +79,6 @@
 10-10 19:35:45   [Probability] review Important_Formulas_en.txt: 1 issue(s): - Cards — Total lists "12 face cards, 4 aces, 4 kings, 4 queens, 4 jacks" as separate categories, but ki
 10-10 19:38:43   [Probability] review: 4 section(s) corrected, 0 failed
 10-10 19:38:43   [Probability] written 4, failed 0; AI calls today 38/100000
+10-10 19:39:06 DONE 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_20_Probability in 30 min → e21c35e4
+10-10 19:39:10 worker 5: nothing left
 ```
