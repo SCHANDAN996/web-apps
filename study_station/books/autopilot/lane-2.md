@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 02:50 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:29 AM
+**आख़िरी update:** 10-10-2026 03:05 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:29 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 179 मिनट |
-| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 57 मिनट |
+| W2 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 1 मिनट |
+| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 72 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -42,21 +42,11 @@
 - Chapter 22 Calculus (Maths) — 2 बार
 - Chapter 19 Trigonometry (Maths) — 2 बार
 - Chapter 25 Probability (Maths) — 1 बार
+- Chapter 28 Linear Programming (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 13:57:32   [Number_Series] review PYQ_hi.txt: 2 issue(s): - पहले अंतर, फिर गुणन, फिर वर्ग/घन — यह क्रम 90% श्रेणियों को 30 सेकंड में सुलझा देता है। → पहले अंतर, फिर गुणन, फिर वर
-10-10 13:57:44   [Linear_Programming] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-10-10 13:57:45   [Probability] Practice_en_Set_02.txt try 3: rejected (parsed 22 questions, numbers 26…50)
-10-10 13:59:20   [Probability] Practice_en_Set_02.txt try 4: rejected (parsed 22 questions, numbers 26…50)
-10-10 13:59:20   [Probability] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
-10-10 13:59:20   [Probability] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
-10-10 14:00:55   [Linear_Programming] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-10-10 14:02:00   [Geometry] review Short_Tricks_en.txt: 1 issue(s): - Trick 6: The mnemonic "Odd-start triples: 3,5,7,8…" incorrectly includes 8 (even) and 20; the square-and-spl
-10-10 14:03:12   [Geometry] review Important_Formulas_en.txt: 1 issue(s): - File "Important_Formulas_en.txt" contains only a stream of numbers (mostly "1.") and a Thai character 
-10-10 14:03:48   [Linear_Programming] Practice_en_Set_04.txt try 1: rejected (Q80:leaked_reasoning,Q88:leaked_reasoning,Q92:answer_solution_conflict,Q94:leaked_reasoning,Q95:broken_questio
-10-10 14:04:40   [Geometry] review: 4 section(s) corrected, 0 failed
 10-10 14:04:40   [Geometry] written 4, failed 0; AI calls today 130/100000
 10-10 14:05:01 DONE Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_15_Geometry in 85 min → c9e5fee6
 10-10 14:05:05 worker 2: nothing left
@@ -86,4 +76,15 @@
 10-10 14:39:04   [Linear_Programming] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 10-10 14:41:42   [Probability] Practice_en_Set_05.txt try 2: rejected (parsed 23 questions, numbers 101…125)
 10-10 14:45:51   [Probability] Practice_en_Set_05.txt try 3: rejected (parsed 23 questions, numbers 101…125)
+10-10 14:50:33   [Linear_Programming] Practice_en_Set_06.txt try 1: rejected (Q129:leaked_reasoning,Q130:leaked_reasoning,Q132:leaked_reasoning,Q136:leaked_reasoning,Q137:leaked_reasoning)
+10-10 14:52:26   [Probability] Practice_en_Set_05.txt try 4: rejected (parsed 0 questions, numbers -…-)
+10-10 14:52:26   [Probability] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
+10-10 14:52:26   [Probability] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
+10-10 14:57:18   [Probability] Practice_en_Set_06.txt try 1: rejected (parsed 23 questions, numbers 126…150)
+10-10 14:58:34   [Linear_Programming] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+10-10 15:02:29   [Probability] Practice_en_Set_06.txt try 2: rejected (parsed 22 questions, numbers 126…150)
+10-10 15:03:51   [Linear_Programming] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+10-10 15:03:51   [Linear_Programming] written 11, failed 2; AI calls today 158/100000
+10-10 15:03:52 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming after 194 min: todo ['Set 04 en: todo', 'Set 04 hi: todo'] problems ['Content_hi.txt: much shorter than the English section (8282 ']
+10-10 15:03:56 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming (TODO: todo 2, problems 1)
 ```
