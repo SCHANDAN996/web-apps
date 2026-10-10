@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 07:09 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
+**आख़िरी update:** 10-10-2026 07:24 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,12 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Awards (Graduation GK) | 🔧 सुधार रहा है | 1 मिनट |
-| W2 | Chapter 05 Percentage (Graduation Maths) | 🔧 सुधार रहा है | 0 मिनट |
-| W3 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 0 मिनट |
-| W4 | Chapter 22 Calculus (Graduation Maths) | 🔧 सुधार रहा है | 0 मिनट |
-| W5 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 0 मिनट |
-| W6 | Chapter 28 Linear Programming (Graduation Maths) | 🔧 सुधार रहा है | 0 मिनट |
+| W3 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 16 मिनट |
+| W5 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 15 मिनट |
+| W6 | Chapter 28 Linear Programming (Graduation Maths) | 🔧 सुधार रहा है | 1 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,16 +34,54 @@
 
 - अभी कोई नहीं
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 05 Percentage (Maths) — 2 बार
+- Chapter 13 Awards (GK) — 2 बार
+- Chapter 28 Linear Programming (Maths) — 1 बार
+- Chapter 22 Calculus (Maths) — 2 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 19:08:29 autopilot start: 8 workers, reverse=True
-10-10 19:08:30 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards (FIX: todo 0, problems 1)
-10-10 19:08:35 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_05_Percentage (FIX: todo 0, problems 1)
-10-10 19:08:41 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_19_Trigonometry (TODO: todo 3, problems 0)
-10-10 19:08:46 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_22_Calculus (FIX: todo 0, problems 1)
-10-10 19:08:51 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability (TODO: todo 10, problems 3)
-10-10 19:08:56 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming (FIX: todo 0, problems 1)
-10-10 19:09:01 worker 6: nothing left
-10-10 19:09:06 worker 7: nothing left
+10-10 19:13:50   [Linear_Programming] written 1, failed 0; AI calls today 11/100000
+10-10 19:17:08   [Probability] Practice_en_Set_02.txt try 1: re-solve disagrees (Q29 key a vs re-solve ?, Q32 key b vs re-solve ?, Q48 key b vs re-solve ?)
+10-10 19:17:18   [Percentage] repaired Feynman_hi.txt (3083 chars)
+10-10 19:17:18   [Percentage] written 1, failed 0; AI calls today 13/100000
+10-10 19:17:18 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_05_Percentage after 9 min: todo [] problems ['Feynman_hi.txt: much shorter than the English section (3082 ']
+10-10 19:17:19 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_05_Percentage (FIX: todo 0, problems 1)
+10-10 19:17:31   [Awards] repaired Flashcards_hi.txt (4769 chars)
+10-10 19:17:31   [Awards] written 1, failed 0; AI calls today 14/100000
+10-10 19:17:31 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards after 9 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (47']
+10-10 19:17:31 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards (FIX: todo 0, problems 1)
+10-10 19:18:03   [Linear_Programming] repaired Content_hi.txt (459 chars)
+10-10 19:18:03   [Linear_Programming] written 1, failed 0; AI calls today 15/100000
+10-10 19:18:03 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming after 9 min: todo [] problems ['Content_hi.txt: Hindi file is mostly not in Hindi', 'Content_hi.txt: much shorter than the English section (458 v']
+10-10 19:18:05 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming (FIX: todo 0, problems 2)
+10-10 19:20:05   [Awards] repaired Flashcards_hi.txt (3991 chars)
+10-10 19:20:05   [Awards] written 1, failed 0; AI calls today 17/100000
+10-10 19:20:13   [Percentage] repaired Feynman_hi.txt (2294 chars)
+10-10 19:20:13   [Percentage] written 1, failed 0; AI calls today 18/100000
+10-10 19:20:30   [Calculus] repaired Feynman_hi.txt (3440 chars)
+10-10 19:20:30   [Calculus] written 1, failed 0; AI calls today 19/100000
+10-10 19:20:30 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_22_Calculus after 12 min: todo [] problems ['Feynman_hi.txt: much shorter than the English section (3439 ']
+10-10 19:20:32 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_22_Calculus (FIX: todo 0, problems 1)
+10-10 19:21:22   [Trigonometry] Practice_en_Set_06.txt try 1: rejected (Q140:leaked_reasoning,Q145:leaked_reasoning)
+10-10 19:22:28   [Calculus] repaired Feynman_hi.txt (2183 chars)
+10-10 19:22:28   [Calculus] written 1, failed 0; AI calls today 21/100000
+10-10 19:22:53   [Linear_Programming] repaired Content_hi.txt (7379 chars)
+10-10 19:22:53   [Linear_Programming] written 1, failed 0; AI calls today 22/100000
+10-10 19:22:57   [Percentage] repaired Feynman_hi.txt (2716 chars)
+10-10 19:22:57   [Percentage] written 1, failed 0; AI calls today 23/100000
+10-10 19:22:57 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_05_Percentage after 6 min: todo [] problems ['Feynman_hi.txt: much shorter than the English section (2715 ']
+10-10 19:22:59 worker 1: nothing left
+10-10 19:23:01   [Awards] repaired Flashcards_hi.txt (3974 chars)
+10-10 19:23:01   [Awards] written 1, failed 0; AI calls today 23/100000
+10-10 19:23:01 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards after 5 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (39']
+10-10 19:23:03 worker 0: nothing left
+10-10 19:24:17   [Calculus] repaired Feynman_hi.txt (2682 chars)
+10-10 19:24:17   [Calculus] written 1, failed 0; AI calls today 23/100000
+10-10 19:24:17 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_22_Calculus after 4 min: todo [] problems ['Feynman_hi.txt: much shorter than the English section (2681 ']
+10-10 19:24:19 worker 3: nothing left
+10-10 19:24:22   [Probability] Practice_en_Set_02.txt try 2: re-solve disagrees (Q48 key b vs re-solve ?)
 ```
