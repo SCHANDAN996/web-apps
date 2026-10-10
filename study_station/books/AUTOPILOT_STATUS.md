@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 07:26 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
+**आख़िरी update:** 10-10-2026 07:33 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Figure Series (Graduation Reasoning) | ✍️ लिख रहा है | 55 मिनट |
-| W2 | Chapter 23 Syllogism (Graduation Reasoning) | ✍️ लिख रहा है | 33 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🔎 review हो रहा है | 62 मिनट |
-| W4 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 68 मिनट |
-| W5 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 76 मिनट |
-| W6 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 76 मिनट |
-| W7 | Chapter 19 Cubes Dice (Graduation Reasoning) | 🔎 review हो रहा है | 14 मिनट |
-| W8 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 76 मिनट |
+| W1 | Chapter 22 Figure Series (Graduation Reasoning) | ✍️ लिख रहा है | 62 मिनट |
+| W2 | Chapter 23 Syllogism (Graduation Reasoning) | ✍️ लिख रहा है | 41 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W4 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 75 मिनट |
+| W5 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 84 मिनट |
+| W6 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 84 मिनट |
+| W7 | Chapter 19 Cubes Dice (Graduation Reasoning) | 🔎 review हो रहा है | 21 मिनट |
+| W8 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 83 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -39,7 +39,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 10-10 07:33 — Graduation Reasoning · Chapter 07 Sitting Arrangement
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
@@ -50,12 +50,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 06:52:24   [Classification] REJECTED Practice_hi_Set_01.txt: no translation passed the checks — not written
-10-10 06:52:24   [Classification] written 0, failed 1; AI calls today 62/100000
-10-10 06:52:25   [Dictionary_Order] Practice_en_Set_04.txt try 4: re-solve disagrees (Q78 key b vs re-solve c, Q83 key a vs re-solve c)
-10-10 06:52:25   [Dictionary_Order] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
-10-10 06:52:25   [Dictionary_Order] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
-10-10 06:52:25 NOT OK Graduation_Level/Reasoning/Chapter_02_Classification after 22 min: todo ['Set 01 hi: todo'] problems []
 10-10 06:52:27 START Graduation_Level/Reasoning/Chapter_23_Syllogism (TODO: todo 5, problems 0)
 10-10 06:53:21   [Figure_Series] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 10-10 06:53:39   [Cubes_Dice] wrote Practice_en_Set_02.txt (write, 25 MCQs)
@@ -90,4 +84,10 @@
 10-10 07:24:05   [Figure_Series] Practice_en_Set_06.txt try 3: rejected (parsed 0 questions, numbers -…-)
 10-10 07:25:01   [Cubes_Dice] review Mind_Map.txt: 1 issue(s): - B2a English says "n cuts per edge → n³ small cubes" → should be "n divisions per edge → n³ small cubes" (or "n part
 10-10 07:26:18   [Dictionary_Order] Practice_en_Set_06.txt try 3: re-solve disagrees (Q145 key b vs re-solve a, Q147 key b vs re-solve ?)
+10-10 07:28:59   [Alphabet_Questions] Practice_en_Set_05.txt try 2: re-solve disagrees (Q103 key d vs re-solve c, Q104 key a vs re-solve d, Q106 key b vs re-solve c, Q122 key b vs re-solve
+10-10 07:29:08   [Syllogism] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+10-10 07:29:10   [Sitting_Arrangement] review Important_Rules_en.txt: 1 issue(s): - Rectangular/Square Table rule states side-middle persons have 3 neighbours; in a square with 4 corners an
+10-10 07:33:42   [Sitting_Arrangement] review: 7 section(s) corrected, 0 failed
+10-10 07:33:42   [Sitting_Arrangement] written 7, failed 0; AI calls today 120/100000
+10-10 07:33:50   [Mirror_Water_Images] Practice_en_Set_05.txt try 3: re-solve disagrees (Q107 key a vs re-solve b)
 ```
