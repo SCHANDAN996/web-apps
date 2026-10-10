@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 07:56 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
+**आख़िरी update:** 10-10-2026 08:06 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Figure Series (Graduation Reasoning) | ✍️ लिख रहा है | 18 मिनट |
-| W2 | Chapter 23 Syllogism (Graduation Reasoning) | 🔎 review हो रहा है | 8 मिनट |
-| W3 | Chapter 24 Statement Assumption (Graduation Reasoning) | ✍️ लिख रहा है | 22 मिनट |
-| W4 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 98 मिनट |
-| W5 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 14 मिनट |
-| W6 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 15 मिनट |
-| W7 | Chapter 19 Cubes Dice (Graduation Reasoning) | 🔎 review हो रहा है | 45 मिनट |
-| W8 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 0 मिनट |
+| W1 | Chapter 22 Figure Series (Graduation Reasoning) | ✍️ लिख रहा है | 28 मिनट |
+| W2 | Chapter 23 Syllogism (Graduation Reasoning) | 🔎 review हो रहा है | 18 मिनट |
+| W3 | Chapter 24 Statement Assumption (Graduation Reasoning) | ✍️ लिख रहा है | 32 मिनट |
+| W4 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 108 मिनट |
+| W5 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 24 मिनट |
+| W6 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 25 मिनट |
+| W7 | Chapter 19 Cubes Dice (Graduation Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W8 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 10 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -39,6 +39,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 10-10 08:06 — Graduation Reasoning · Chapter 19 Cubes Dice
 - 10-10 07:33 — Graduation Reasoning · Chapter 07 Sitting Arrangement
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
@@ -54,17 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 07:36:18   [Alphabet_Questions] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-10-10 07:38:08   [Figure_Series] Practice_en_Set_06.txt try 4: re-solve disagrees (Q144 key b vs re-solve d, Q148 key d vs re-solve b)
-10-10 07:38:08   [Figure_Series] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
-10-10 07:38:08   [Figure_Series] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-10-10 07:38:08   [Figure_Series] written 5, failed 2; AI calls today 124/100000
-10-10 07:38:08 NOT OK Graduation_Level/Reasoning/Chapter_22_Figure_Series after 67 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems ['Content_hi.txt: Hindi file is mostly not in Hindi', 'Content_hi.txt: does not mention the chapter topic (classifi', 'Content_hi.txt: much shorter than the English section (2111 ']
-10-10 07:38:11 START Graduation_Level/Reasoning/Chapter_22_Figure_Series (TODO: todo 2, problems 3)
-10-10 07:38:22   [Statement_Assumption] wrote Flashcards_hi.txt (3321 chars)
-10-10 07:39:02   [Paper_Folding_Cutting] Practice_en_Set_03.txt try 1: re-solve disagrees (Q54 key b vs re-solve a)
-10-10 07:41:08   [Alphabet_Questions] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-10-10 07:41:08   [Alphabet_Questions] written 4, failed 2; AI calls today 128/100000
 10-10 07:41:08 NOT OK Graduation_Level/Reasoning/Chapter_14_Alphabet_Questions after 92 min: todo ['Set 04 en: todo', 'Set 04 hi: todo'] problems []
 10-10 07:41:11 START Graduation_Level/Reasoning/Chapter_14_Alphabet_Questions (TODO: todo 2, problems 0)
 10-10 07:42:01   [Cubes_Dice] review PYQ_hi.txt: 4 issue(s): - यह सबसे लोकप्रिय प्रकार है — SSC CGL, CHSL और RRB NTPC में लगभग हर चक्र में दिखता है। → इसकी पुष्टि नहीं की जा सकती।
@@ -94,4 +84,15 @@
 10-10 07:55:56   [Mirror_Water_Images] written 2, failed 2; AI calls today 153/100000
 10-10 07:55:57 NOT OK Graduation_Level/Reasoning/Chapter_20_Mirror_Water_Images after 106 min: todo ['Set 04 en: todo', 'Set 04 hi: todo'] problems []
 10-10 07:55:59 START Graduation_Level/Reasoning/Chapter_20_Mirror_Water_Images (TODO: todo 2, problems 0)
+10-10 07:59:10   [Syllogism] review Feynman_en.txt: 1 issue(s): - Either-Or Trap condition (a) states "both conclusions are individually false" → should be "both conclusions do no
+10-10 07:59:37   [Paper_Folding_Cutting] Practice_en_Set_03.txt try 2: re-solve disagrees (Q54 key a vs re-solve b)
+10-10 08:02:45   [Cubes_Dice] review Important_Rules_en.txt: 2 issue(s): - Non-Standard (General) Dice Rule: "If two dice show one common face in the same position, the remaining t
+10-10 08:03:11   [Statement_Assumption] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+10-10 08:03:19   [Dictionary_Order] Practice_en_Set_03.txt try 4: re-solve disagrees (Q60 key a vs re-solve d, Q62 key a vs re-solve c, Q71 key d vs re-solve b)
+10-10 08:03:19   [Dictionary_Order] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
+10-10 08:03:19   [Dictionary_Order] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
+10-10 08:04:38   [Alphabet_Questions] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+10-10 08:04:52   [Syllogism] review Feynman_hi.txt: 1 issue(s): - The claim "परीक्षा में 90% विद्यार्थी करते हैं" is an invented exam statistic → Remove the percentage or replace 
+10-10 08:06:47   [Cubes_Dice] review: 7 section(s) corrected, 0 failed
+10-10 08:06:47   [Cubes_Dice] written 7, failed 0; AI calls today 171/100000
 ```

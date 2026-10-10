@@ -1,0 +1,71 @@
+Card 1
+Front: A single die is thrown. What is the maximum possible sum of the numbers on any two adjacent faces?
+Back: 11 (faces 6 and 5). Adjacent faces can be any pair except opposites; the largest non-opposite pair is 6 + 5 = 11.
+
+Card 2
+Front: On a standard die, what is the sum of numbers on any pair of opposite faces?
+Back: 7. The opposite pairs are (1,6), (2,5) and (3,4).
+
+Card 3
+Front: Two dice show the same number on top. How can you quickly find the face opposite to a given number using both views?
+Back: If one face is common in both views and in the same position, the remaining two faces of one view are opposite to the remaining two of the other view, pair by pair (in order).
+
+Card 4
+Front: What is the "common face" rule when two views of a die share exactly one number?
+Back: The common number's opposite is the number NOT appearing in either view. The other two pairs are opposite to each other in cyclic order.
+
+Card 5
+Front: Mnemonic trick: How do you remember the opposite pairs of a standard die?
+Back: "7 is the key" — every opposite pair sums to 7: 1↔6, 2↔5, 3↔4. Just subtract from 7 to get the opposite face.
+
+Card 6
+Front: Mnemonic trick: When two dice views share one common face, how do you find opposites without drawing?
+Back: "Common face clockwise" — write the faces around the common face in clockwise order for both views; faces at the same position in the two lists are opposite to each other.
+
+Card 7
+Front: A cube is cut into 64 equal smaller cubes (4×4×4). How many small cubes have exactly 3 painted faces?
+Back: 8 — always the 8 corner cubes, regardless of cube size (for any n×n×n cube, n ≥ 2).
+
+Card 8
+Front: In an n×n×n painted cube, what is the formula for small cubes with exactly 2 painted faces?
+Back: 12(n − 2). These lie on the 12 edges, excluding the corner cubes.
+
+Card 9
+Front: In an n×n×n painted cube, how many small cubes have exactly 1 painted face?
+Back: 6(n − 2)² — the inner squares of each of the 6 faces.
+
+Card 10
+Front: In an n×n×n painted cube, how many small cubes have NO painted face?
+Back: (n − 2)³ — the completely inner cubes. For n = 4: (4−2)³ = 8.
+
+Card 11
+Front: Examiner's trap: A question says "a die is thrown" without saying "standard die." What should you check before assuming opposite faces sum to 7?
+Back: Check the given views. The sum-to-7 rule applies only to standard dice; exam questions often use non-standard dice where opposites must be derived from the views, not assumed.
+
+Card 12
+Front: Examiner's trap: In a "painted and cut cube" problem, the cube is painted on only some faces. What mistake do students make?
+Back: They blindly apply the 8 / 12(n−2) / 6(n−2)² formulas, which assume ALL faces are painted. With partial painting, count corners/edges touching only the painted faces.
+
+Card 13
+Front: A cube of side 5 cm is painted on all faces and cut into 1 cm cubes. How many cubes have at least 2 painted faces?
+Back: Cubes with 3 faces + cubes with 2 faces = 8 + 12(5−2) = 8 + 36 = 44.
+
+Card 14
+Front: If two views of a die show numbers 1,2,3 and 1,4,5, which number is opposite to 1?
+Back: 6 — the only number from 1–6 not appearing in either view (common face is 1, so the missing number is its opposite).
+
+Card 15
+Front: What is the minimum number of cuts needed to divide a cube into 27 identical smaller cubes?
+Back: 6 cuts — 2 cuts along each of the 3 dimensions (each dimension split into 3 parts needs 2 cuts).
+
+Card 16
+Front: A cube is painted red on two opposite faces and green on the rest, then cut into n³ cubes. Which small cubes have both red and green paint?
+Back: The edge cubes (excluding corners) that lie on edges joining a red face to a green face: 8(n − 2) such cubes, since 8 of the 12 edges touch one red and one green face.
+
+Card 17
+Front: In dice problems, what does it mean when two views share TWO common numbers?
+Back: The two common numbers are adjacent faces in both views; the remaining (third) face of one view is opposite to the remaining face of the other view.
+
+Card 18
+Front: Quick check: for an n×n×n painted cube, how do you verify your counts of 3-face, 2-face, 1-face and 0-face cubes?
+Back: They must add up to n³: 8 + 12(n−2) + 6(n−2)² + (n−2)³ = n³. If the total doesn't match, a count is wrong.

@@ -1,0 +1,151 @@
+Questions 101–120: Easy | Questions 121–125: Medium
+
+101. A cube is painted red on all its faces and then cut into 64 equal smaller cubes. How many smaller cubes have exactly two faces painted?
+(a) 12 (b) 24 (c) 8 (d) 36
+Answer: (b)
+Solution: The tempting answer is 12, which is just the number of edges. Each edge of the big cube contains n − 2 = 4 − 2 = 2 cubes with exactly two painted faces, and there are 12 edges, giving 12 × 2 = 24. So the answer is 24.
+Source: PYQ-style
+
+102. A cube of side 5 cm is painted on all faces and cut into 1 cm cubes. How many small cubes have no face painted?
+(a) 8 (b) 64 (c) 27 (d) 125
+Answer: (c)
+Solution: The tempting answer is 64, which is 4³, but the inner unpainted core has side n − 2 = 3, not n − 1. Unpainted cubes = (5 − 2)³ = 3³ = 27. So the answer is 27.
+Source: PYQ-style
+
+103. A cube is painted green on all faces and cut into 27 equal cubes. How many cubes have exactly one face painted?
+(a) 6 (b) 3 (c) 9 (d) 12
+Answer: (a)
+Solution: The tempting answer is 9, but one-face-painted cubes lie at the centre of each face, one per face when n = 3. With 6 faces, the count is 6 × (n − 2)² = 6 × 1 = 6. So the answer is 6.
+Source: PYQ-style
+
+104. In a standard die, the sum of numbers on opposite faces is 7. In one view the top face shows 1 and a side face shows 2. Which number is on the face opposite to 1?
+(a) 2 (b) 6 (c) 5 (d) 3
+Answer: (b)
+Solution: The tempting answer is 5, which confuses the opposite of 1 with the opposite of 2. Since opposite faces sum to 7, the face opposite 1 is 7 − 1 = 6. So the answer is 6.
+Source: PYQ-style
+
+105. In a standard die, the sum of numbers on opposite faces is 7. If the face showing 2 is on top, which number is at the bottom?
+(a) 3 (b) 4 (c) 5 (d) 6
+Answer: (c)
+Solution: The tempting answer is 6, but opposite faces sum to 7, not to a consecutive number. Opposite of 2 is 7 − 2 = 5. So the answer is 5.
+Source: PYQ-style
+
+106. A cube is painted red on two opposite faces, green on two opposite faces, and blue on the remaining two opposite faces. It is cut into 64 equal cubes. How many cubes have exactly two colours on them?
+(a) 16 (b) 32 (c) 48 (d) 24
+Answer: (d)
+Solution: The tempting answer is 48, which counts all edge cubes, but corner cubes carry three colours and must be excluded. Each of the 12 edges has n − 2 = 2 two-colour cubes, giving 12 × 2 = 24. So the answer is 24.
+Source: PYQ-style
+
+107. A cube of side 4 cm is painted on all faces and cut into 1 cm cubes. How many cubes have exactly three faces painted?
+(a) 4 (b) 8 (c) 6 (d) 12
+Answer: (b)
+Solution: The tempting answer is 12, which is the number of edges, but three-face-painted cubes occur only at corners. A cube always has 8 corners, so the answer is 8.
+Source: PYQ-style
+
+108. In a standard die, opposite faces sum to 7. Two views show the face 5 next to faces 4 and 6. Which number is opposite to 5?
+(a) 6 (b) 1 (c) 4 (d) 2
+Answer: (d)
+Solution: The tempting answers are 4 and 6, but faces seen next to 5 are adjacent, not opposite. Since opposite faces sum to 7, the face opposite 5 is 7 − 5 = 2. So the answer is 2.
+Source: PYQ-style
+
+109. A cube is painted black on all its faces and then cut into 125 equal smaller cubes. How many small cubes have at least one face painted?
+(a) 64 (b) 98 (c) 125 (d) 117
+Answer: (b)
+Solution: The tempting answer is 125, which counts every cube, but the inner core is unpainted. Unpainted cubes = (5 − 2)³ = 27, so painted cubes = 125 − 27 = 98. So the answer is 98.
+Source: PYQ-style
+
+110. If a standard die (opposite faces sum to 7) is thrown and the top face shows 3, what is the sum of the four vertical side faces?
+(a) 16 (b) 14 (c) 18 (d) 12
+Answer: (b)
+Solution: The tempting answer is 18, which sums all faces except the top, but the bottom face 4 must also be excluded. Total of all faces is 21; side faces = 21 − 3 − 4 = 14. So the answer is 14.
+Source: PYQ-style
+
+111. A wooden cube of side 6 cm is painted red and cut into 1 cm cubes. How many cubes have exactly two faces painted?
+(a) 24 (b) 36 (c) 48 (d) 60
+Answer: (c)
+Solution: The tempting answer is 24, which wrongly uses n − 2 = 2. Here n = 6, so each edge has 6 − 2 = 4 two-face cubes, and 12 × 4 = 48. So the answer is 48.
+Source: PYQ-style
+
+112. Three positions of a die show the face 1 adjacent to 2, 3, 4 and 5 in different views. Which number is opposite to 1?
+(a) 5 (b) 4 (c) 2 (d) 6
+Answer: (d)
+Solution: The tempting answers are 2, 4 and 5, but any face seen adjacent to 1 cannot be opposite it. Since 1 is adjacent to 2, 3, 4 and 5, the only remaining number is 6. So the answer is 6.
+Source: PYQ-style
+
+113. A cube painted on all faces is cut into 216 equal cubes. How many cubes have exactly one face painted?
+(a) 96 (b) 36 (c) 64 (d) 108
+Answer: (a)
+Solution: The tempting answer is 64, which is 4³, but one-face cubes are counted per face as (n − 2)². Here n = 6, so 6 × (6 − 2)² = 6 × 16 = 96. So the answer is 96.
+Source: PYQ-style
+
+114. A die is rolled twice. In the first view, faces 1, 2, 3 meet at a corner; in the second view, faces 1, 2, 5 meet at a corner. Which face is opposite to 2?
+(a) 1 (b) 3 (c) 6 (d) 5
+Answer: (c)
+Solution: The tempting answers are 3 and 5, but both meet 2 at a corner, so they are adjacent. Face 2 is adjacent to 1, 3, 5 and the hidden fourth neighbour 4, leaving 6 as opposite. So the answer is 6.
+Source: PYQ-style
+
+115. A cube of side 3 cm, painted on all faces, is cut into 1 cm cubes. What is the ratio of cubes with three painted faces to cubes with no painted face?
+(a) 1 : 8 (b) 8 : 1 (c) 6 : 1 (d) 8 : 3
+Answer: (b)
+Solution: The tempting answer is 1 : 8, which reverses the ratio. Three-face cubes = 8 (corners) and unpainted cubes = (3 − 2)³ = 1, so the ratio is 8 : 1. So the answer is 8 : 1.
+Source: PYQ-style
+
+116. A large cube is painted on all faces and cut into 343 equal cubes. How many cubes have no face painted?
+(a) 64 (b) 27 (c) 125 (d) 216
+Answer: (c)
+Solution: The tempting answer is 216, which is 6³, but the inner core has side n − 2 = 5, not n − 1. Unpainted cubes = 5³ = 125. So the answer is 125.
+Source: PYQ-style
+
+117. In a standard die (opposite faces sum to 7), which of the following pairs of faces can never be seen together at one corner?
+(a) 1 and 6 (b) 2 and 3 (c) 3 and 5 (d) 1 and 2
+Answer: (a)
+Solution: The tempting answer is 3 and 5, but 3 and 5 are adjacent faces and can meet at a corner. Since opposite faces sum to 7, 1 and 6 are opposite and can never meet at a corner. So the answer is 1 and 6.
+Source: PYQ-style
+
+118. A cube is painted blue on all faces and cut into 1000 equal cubes. How many cubes have exactly two faces painted?
+(a) 64 (b) 72 (c) 96 (d) 108
+Answer: (c)
+Solution: The tempting answer is 72, which wrongly uses n − 2 = 6. Here n = 10, so two-face cubes = 12 × (10 − 2) = 12 × 8 = 96. So the answer is 96.
+Source: PYQ-style
+
+119. In a standard die, opposite faces sum to 7. Two views show the face 4 next to faces 6 and 2. Which face is opposite to 4?
+(a) 3 (b) 6 (c) 1 (d) 2
+Answer: (a)
+Solution: The tempting answers are 6 and 2, but faces seen next to 4 are adjacent, not opposite. Since opposite faces sum to 7, the face opposite 4 is 7 − 4 = 3. So the answer is 3.
+Source: PYQ-style
+
+120. A cube painted on all faces is cut into 512 equal cubes. How many cubes have at least two faces painted?
+(a) 128 (b) 56 (c) 104 (d) 80
+Answer: (d)
+Solution: The tempting answer is 104, which adds wrong edge counts. Here n = 8: three-face cubes = 8, two-face cubes = 12 × (8 − 2) = 72, so at least two faces = 8 + 72 = 80. So the answer is 80.
+Source: PYQ-style
+
+121. A cube is painted red on one pair of opposite faces and left unpainted on the other four faces. It is then cut into 64 equal cubes. How many small cubes have exactly one painted face?
+(a) 40 (b) 24 (c) 16 (d) 32
+Answer: (d)
+Solution: The tempting answer is 16, which counts only the interior of the two red faces and forgets the edge cubes that touch exactly one red face. Each red face has 16 cubes with exactly one painted face, giving 16 × 2 = 32. So the answer is 32.
+Source: PYQ-style
+
+122. A cube of side 5 cm is painted red on all faces, cut into 1 cm cubes, and then all unpainted faces of the small cubes are painted blue. How many small cubes now have both red and blue on them?
+(a) 98 (b) 117 (c) 108 (d) 125
+Answer: (a)
+Solution: The tempting answer is 125, which counts every cube, but the 27 fully inner cubes become entirely blue with no red. Cubes with at least one red face = 125 − 27 = 98, and each of these also gets blue on its unpainted faces, so both colours appear on 98 cubes. So the answer is 98.
+Source: PYQ-style
+
+123. Three views of a die are given: view 1 — faces 1, 2, 3 at a corner; view 2 — faces 2, 3, 4 at a corner; view 3 — faces 3, 4, 5 at a corner. Which face is opposite to 3?
+(a) 6 (b) 4 (c) 2 (d) 5
+Answer: (a)
+Solution: The tempting answers are 2, 4 and 5, but each of them shares a corner with 3 in some view, so all are adjacent. Face 3 is adjacent to 1, 2, 4 and 5, leaving only 6 as opposite. So the answer is 6.
+Source: PYQ-style
+
+124. A cube of side 4 cm is painted on all faces and cut into 1 cm cubes. How many small cubes have at least one face painted?
+(a) 32 (b) 48 (c) 64 (d) 56
+Answer: (d)
+Solution: The tempting answer is 64, which counts every cube, but the inner core is unpainted. Total cubes = 64 and unpainted inner cubes = (4 − 2)³ = 8, so painted cubes = 64 − 8 = 56. So the answer is 56.
+Source: PYQ-style
+
+125. A solid cube of side 4 cm is painted on all faces and cut into 1 cm cubes. All cubes with at least one painted face are removed, and the remaining cubes are reassembled into a solid cube which is then painted on all its outer faces. How many small cubes now have exactly three faces painted?
+(a) 8 (b) 0 (c) 4 (d) 6
+Answer: (a)
+Solution: The tempting answer is 0, which assumes the small inner core has no corners, but every cube has 8 corners. The unpainted core is a 2 × 2 × 2 cube of 8 small cubes; after repainting, all 8 are corner cubes with three painted faces. So the answer is 8.
+Source: PYQ-style

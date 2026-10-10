@@ -1,0 +1,164 @@
+# 📊 PYQ Analysis — Cubes & Dice (Pattern Study)
+
+> **Note:** This section analyses the *pattern* of questions asked in SSC (CGL, CHSL, GD), Banking (IBPS PO/Clerk, SBI PO) and Railway (NTPC, Group D) exams. We do not claim exact year-wise counts — instead, here is what examiners repeatedly ask, how they trap you, and how to respond within the 15-second / 45-second rule.
+
+---
+
+## 1. How Exams Use This Chapter
+
+Cubes & Dice is a **low-frequency but high-certainty** chapter. It does not appear in every shift, but when it appears, the question is almost always from a small set of fixed templates. Aspirants who master the templates convert these into guaranteed marks; those who rely on "visualisation talent" lose time.
+
+**Where it appears most:**
+- **SSC CGL / CHSL (Tier-I):** Standard dice opposite-face questions and painted-cube counting are the favourites. Usually 1 question per paper when the chapter appears.
+- **Banking (IBPS/SBI):** Dice questions appear embedded in the reasoning section, often with letter/symbol faces instead of numbers, to break the "opposite pairs sum to 7" shortcut.
+- **Railway NTPC / Group D:** Simpler versions — two views of a dice, find the opposite face; or a single unfolded cube net.
+
+---
+
+## 2. Sub-topic Weightage (Qualitative)
+
+| Sub-topic | How often it appears | Difficulty trend |
+|---|---|---|
+| Opposite faces from 2–3 views of a dice | Very frequent | Easy–Moderate |
+| Standard vs non-standard dice identification | Frequent | Easy (if rule known) |
+| Painted cube cut into n³ smaller cubes (3/2/1/0 painted faces) | Frequent in SSC CGL | Moderate — formula-based |
+| Cube nets (which net folds into a valid cube / which face is opposite) | Moderate | Moderate |
+| Counting cubes in a stacked arrangement | Occasional | Moderate–Hard |
+| Dice with symbols/letters (non-numeric) | Rising trend in Banking | Moderate — kills shortcuts |
+
+**Key insight:** Roughly speaking, opposite-face problems and painted-cube problems together dominate. Master these two templates first.
+
+---
+
+## 3. Examiner's Traps (Psychological Hooks)
+
+1. **The "sum to 7" trap:** Examiners give a *non-standard* dice where adjacent faces sum to 7, hoping you blindly apply "opposite faces sum to 7." Always check whether the dice is standard first.
+2. **The rotated-view illusion:** Two views look different but share two faces — the remaining faces are opposite. Students who try to mentally rotate in 3D waste 60+ seconds; the rule solves it in 10.
+3. **The painted-cube formula swap:** Confusing "2 faces painted" (edges, 12(n−2)) with "1 face painted" (face centres, 6(n−2)²). Examiners place both numbers among the options.
+4. **The n=2 and n=3 edge cases:** For a 2×2×2 cube, *all* 8 small cubes have 3 painted faces; there is no 2-face or 1-face category. Options include "8" for the wrong category to catch formula-memorisers.
+5. **The hidden-cube trap (stacked arrangements):** A cube completely hidden inside or behind others is not visible in the figure. Examiners count on you counting only what you see.
+6. **The net trap:** In cube-net questions, two faces that *look* adjacent in the flat net may become opposite after folding. Examiners put the "visually adjacent" pair as an option.
+7. **Negative wording:** "Which face is NOT opposite to X?" — one careless reading flips the answer.
+
+---
+
+## 4. Top 10 High-Yield Questions (with Solutions & Trap Analysis)
+
+---
+
+**Q1.** Two views of the same dice are shown: View 1 shows faces (1, 2, 3); View 2 shows faces (1, 4, 5). Which face is opposite to face 1?
+
+(a) 2 (b) 3 (c) 6 (d) 5
+
+**Answer: (c)**
+**Solution:** Face 1 is common to both views. The faces seen with 1 are 2, 3, 4, 5 — all four are adjacent to 1. The only remaining face, 6, must be opposite to 1.
+**Trap:** Students try to determine opposites of 2 and 3 as well and get confused. The question only needs the elimination rule: a face is adjacent to exactly 4 faces; the 5th is opposite.
+**Source:** PYQ-style (SSC pattern)
+
+---
+
+**Q2.** A dice is thrown twice. First throw shows 3 on top with 2 facing you; second throw shows 3 on top with 6 facing you. Which number is opposite to 2?
+
+(a) 3 (b) 6 (c) 4 (d) 5
+
+**Answer: (b)**
+**Solution:** When the same face (3) is on top in both views, the remaining faces appear in cyclic order around it. The face facing you changes from 2 to 6 — with one common face fixed, if the other two visible faces differ pairwise, the differing faces in the same position are opposite. Hence 2 is opposite 6.
+**Trap:** The lure is (c) or (d) — students assume the unseen faces must be opposite. Rule: *one common face in the same position ⇒ the other two pairs are opposite.*
+**Source:** PYQ-style (SSC CGL pattern)
+
+---
+
+**Q3.** A cube is painted red on all faces and cut into 64 equal smaller cubes. How many small cubes have exactly two painted faces?
+
+(a) 8 (b) 12 (c) 24 (d) 36
+
+**Answer: (c)**
+**Solution:** 64 = 4³, so n = 4. Cubes with exactly two painted faces lie on edges (excluding corners): 12(n−2) = 12 × 2 = 24.
+**Trap:** Option (b) 12 is the number of *edges* — the formula-forgetter's answer. Option (a) 8 is the corner count, planted for those who mix up categories.
+**Source:** PYQ-style (SSC CGL pattern)
+
+---
+
+**Q4.** In the above cube (4×4×4, painted on all sides), how many small cubes have no painted face?
+
+(a) 4 (b) 8 (c) 16 (d) 24
+
+**Answer: (b)**
+**Solution:** Unpainted cubes form the inner core: (n−2)³ = 2³ = 8.
+**Trap:** Students compute (n−2)² = 4 (option a) by confusing the 2D face-centre formula with the 3D core formula.
+**Source:** PYQ-style
+
+---
+
+**Q5.** A cube is painted on all faces and cut into 27 equal cubes. How many cubes have exactly one painted face?
+
+(a) 3 (b) 6 (c) 9 (d) 12
+
+**Answer: (b)**
+**Solution:** n = 3. One-face-painted cubes are face centres: 6(n−2)² = 6 × 1 = 6.
+**Trap:** For n = 3, each face has exactly ONE centre cube — students who overthink write 9 (option c), confusing it with total cubes per face (n² = 9).
+**Source:** PYQ-style
+
+---
+
+**Q6.** On a standard dice, the face opposite to 4 is:
+
+(a) 1 (b) 2 (c) 3 (d) 5
+
+**Answer: (c)**
+**Solution:** On a standard dice, opposite faces sum to 7: 4 + 3 = 7, so 3 is opposite 4.
+**Trap:** This shortcut works ONLY for standard dice. If the question shows views of a non-standard dice, this rule must not be applied — that is the examiner's favourite reversal.
+**Source:** PYQ-style
+
+---
+
+**Q7.** Two positions of a dice with letters are shown: Position 1: A (top), B, C visible. Position 2: A (top), D, E visible. Which letter is on the face opposite to A?
+
+(a) B (b) D (c) F (d) C
+
+**Answer: (c)**
+**Solution:** A is adjacent to B, C, D, E (seen across both views). The only letter not adjacent to A is F, so F is opposite A.
+**Trap:** Letters instead of numbers — the "sum to 7" shortcut is dead here, and students who only memorised numeric tricks freeze. The elimination rule is universal.
+**Source:** PYQ-style (Banking pattern)
+
+---
+
+**Q8.** A cube of side 3 cm is painted red on two opposite faces, green on two opposite faces, and blue on the remaining two faces. It is cut into 27 cubes of side 1 cm. How many small cubes have exactly two colours on them?
+
+(a) 8 (b) 12 (c) 16 (d) 20
+
+**Answer: (b)**
+**Solution:** Edge cubes (non-corner) carry the colours of the two faces meeting at that edge: 12 edges × (n−2) = 12 × 1 = 12 cubes, each with exactly two colours. (Corners have 3 colours; face centres have 1.)
+**Trap:** Option (a) 8 is the corner count — but corners have THREE colours, not two. Multi-colour painting questions test category discipline, not new formulas.
+**Source:** PYQ-style (SSC CGL advanced pattern)
+
+---
+
+**Q9.** ⏭️ *Skip-candidate.* Four different views of the same dice are given, and you must determine the complete opposite-face mapping, then identify which of four new arrangements is possible.
+
+**Analysis:** With four views, the elimination rule must be applied repeatedly, and then each option must be verified against the full mapping. Realistic solving time: 90–150 seconds even for a well-prepared student.
+**Skip verdict:** **SKIP in the first pass** under the 45-second rule. Mark it, finish the section, return only if time remains. The mark is worth the same as a 10-second question.
+**Source:** PYQ-style (Banking mains pattern)
+
+---
+
+**Q10.** ⏭️ *Skip-candidate.* A 4×4×4 cube is painted, cut into 64 cubes, and then some cubes are removed from specific corners/edges; you must count cubes with a given paint pattern among the remainder.
+
+**Analysis:** Removal-based variants break all standard formulas — each removed cube must be tracked individually, and the adjacency of survivors changes. Error probability is high and time exceeds 2 minutes.
+**Skip verdict:** **SKIP unless it is the last question and you have a spare 2 minutes.** Attempt the standard version (Q3/Q4 type) first — those are the guaranteed marks.
+**Source:** PYQ-style
+
+---
+
+## 5. The 15-Second / 45-Second Rule — Reviewed for This Chapter
+
+| Question type | Expected time | Verdict |
+|---|---|---|
+| Standard dice opposite face (sum to 7) | ~10–15 sec | Instant attempt |
+| Two views, one common face → opposite face | ~15–20 sec | Attempt immediately |
+| Painted cube n³ → 3/2/1/0 face counts | ~20–30 sec (formula) | Attempt immediately |
+| Cube net → opposite faces | ~30–45 sec | Attempt if net is simple |
+| 3–4 views, full mapping + valid arrangement | 90+ sec | **Skip, return later** |
+| Painted cube with removals/recolouring | 120+ sec | **Skip** |
+
+**Bottom line:** Cubes & Dice rewards *template recognition*. If you cannot name the template within 5 seconds of reading, the question is a skip candidate for the first pass.
