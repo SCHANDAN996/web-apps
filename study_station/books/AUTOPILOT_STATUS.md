@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 12:21 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:34 AM
+**आख़िरी update:** 10-10-2026 12:36 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:34 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 28 Critical Reasoning (Graduation Reasoning) | ✍️ लिख रहा है | 29 मिनट |
-| W2 | Chapter 02 Classification (Graduation Reasoning) | 🔎 review हो रहा है | 26 मिनट |
-| W3 | Chapter 25 Statement Argument (Graduation Reasoning) | 🔧 सुधार रहा है | 1 मिनट |
-| W4 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 46 मिनट |
-| W5 | Chapter 14 Alphabet Questions (Graduation Reasoning) | 🔎 review हो रहा है | 4 मिनट |
-| W6 | Chapter 20 Mirror Water Images (Graduation Reasoning) | 🔎 review हो रहा है | 31 मिनट |
-| W7 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 0 मिनट |
-| W8 | Chapter 26 Data Sufficiency (Graduation Reasoning) | ✍️ लिख रहा है | 32 मिनट |
+| W1 | Chapter 28 Critical Reasoning (Graduation Reasoning) | ✍️ लिख रहा है | 44 मिनट |
+| W2 | Chapter 02 Classification (Graduation Reasoning) | 🔎 review हो रहा है | 41 मिनट |
+| W3 | Chapter 25 Statement Argument (Graduation Reasoning) | 🔎 review हो रहा है | 14 मिनट |
+| W4 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 61 मिनट |
+| W5 | Chapter 14 Alphabet Questions (Graduation Reasoning) | 🔎 review हो रहा है | 19 मिनट |
+| W6 | Chapter 20 Mirror Water Images (Graduation Reasoning) | 🔎 review हो रहा है | 46 मिनट |
+| W7 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 15 मिनट |
+| W8 | Chapter 26 Data Sufficiency (Graduation Reasoning) | ✍️ लिख रहा है | 47 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -33,9 +33,9 @@
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 21 | 0 | 7 |
 | Graduation GK | 27 | 0 | 1 |
-| Graduation Reasoning | 22 | 2 | 6 |
+| Graduation Reasoning | 23 | 1 | 6 |
 | Graduation English | 29 | 1 | 0 |
-| **कुल** | **262** | **5** | **29** |
+| **कुल** | **263** | **4** | **29** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -53,21 +53,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 12:04:21   [Classification] review Content_hi.txt: 1 issue(s): - In the letter classification example, the text claims DF does not have a +2 gap, but D (4) to F (6) is +2 → Repla
-10-10 12:04:23   [Statement_Argument] Practice_en_Set_01.txt try 1: re-solve disagrees (Q1 key c vs re-solve a, Q2 key a vs re-solve c, Q6 key d vs re-solve c, Q7 key a vs re-solve c, Q19 
-10-10 12:05:21   [Dictionary_Order] Practice_en_Set_04.txt try 4: re-solve disagrees (Q86 key a vs re-solve b, Q91 key d vs re-solve a)
-10-10 12:05:21   [Dictionary_Order] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
-10-10 12:05:21   [Dictionary_Order] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
-10-10 12:05:43   [Data_Sufficiency] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-10-10 12:08:08   [Mirror_Water_Images] review Feynman_hi.txt: 2 issue(s): - The mnemonic for mirror says “द से द, द से ब — दोनों 'द' से शुरू!” but 'बायाँ' starts with 'ब', not 'द' → Correct
-10-10 12:08:22   [Alphabet_Questions] review Short_Tricks_hi.txt: 2 issue(s): - Trick 2: Claim "ये अक्षर नीचे से भी वही स्थान रखते हैं जो ऊपर से" is false → CFILORUX letters have complemen
-10-10 12:08:30   [Data_Sufficiency] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-10-10 12:08:36   [Dictionary_Order] Practice_en_Set_06.txt try 1: rejected (Q126:leaked_reasoning,Q129:leaked_reasoning,Q131:leaked_reasoning,Q133:leaked_reasoning,Q139:leaked_reasoning)
-10-10 12:09:27   [Statement_Argument] Practice_en_Set_01.txt try 2: re-solve disagrees (Q1 key a vs re-solve c)
-10-10 12:09:43   [Critical_Reasoning] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-10-10 12:09:44   [Classification] review Mind_Map.txt: 1 issue(s): - B3 "अक्षर/युग्म वर्गीकरण / Letter / Pair Classification" and B4 "युग्म वर्गीकरण / Pair Classification" are duplicat
-10-10 12:12:26   [Alphabet_Questions] review Important_Rules_en.txt: 2 issue(s): - Opposite-Direction Addition rule and example are invalid; adding positions from opposite ends (e.g., 4th 
-10-10 12:13:34   [Statement_Argument] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 10-10 12:13:39   [Critical_Reasoning] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 10-10 12:14:54   [Classification] review PYQ_en.txt: 2 issue(s): - Q4: The options CE, FH, KM, PR all have a +2 alphabet gap, so no odd one exists; the given answer (c) KM is incorrect
 10-10 12:15:16   [Alphabet_Questions] review: 10 section(s) corrected, 0 failed
@@ -93,4 +78,19 @@
 10-10 12:21:19 START Graduation_Level/Reasoning/Chapter_21_Paper_Folding_Cutting (TODO: todo 2, problems 0)
 10-10 12:21:19   [Data_Sufficiency] Practice_en_Set_02.txt try 1: re-solve disagrees (Q28 key a vs re-solve d, Q30 key d vs re-solve a, Q33 key d vs re-solve c, Q35 key c vs re-solve a)
 10-10 12:21:26   [Critical_Reasoning] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+10-10 12:21:47   [Statement_Argument] repaired Short_Tricks_hi.txt (2325 chars)
+10-10 12:21:47   [Statement_Argument] written 2, failed 0; AI calls today 154/100000
+10-10 12:21:52   [Dictionary_Order] Practice_en_Set_06.txt try 3: re-solve disagrees (Q147 key a vs re-solve c)
+10-10 12:22:14   [Classification] review Short_Tricks_hi.txt: 2 issue(s): - In Trick 5 mnemonic, "आट" is used for 8 → correct Hindi is "आठ"
+10-10 12:22:52   [Alphabet_Questions] review Feynman_en.txt: 3 issue(s): - The entire section is corrupted/garbled text containing only repeated numbers (1, 2, 3, 4, 5, 0, 15, 25) and frag
+10-10 12:25:04   [Critical_Reasoning] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+10-10 12:25:16   [Classification] review Important_Rules_hi.txt: 2 issue(s): - In the "अंकों का योग/गुणनफल नियम" example, the claim "33 का अंक-योग 6, बाकियों का 6 नहीं" is wrong becaus
+10-10 12:27:11   [Statement_Argument] review Flashcards_en.txt: 2 issue(s): - Card 9: The explanation for when to choose "Either I or II is strong" is incorrect → In standard Statement & A
+10-10 12:28:04   [Statement_Argument] review Flashcards_hi.txt: 1 issue(s): - Card 17: Teesta River is incorrectly linked to Ganga water sharing; it is a Brahmaputra tributary. → The Ganga
+10-10 12:29:37   [Statement_Argument] REJECTED review fix Flashcards_hi.txt: Flashcards_hi.txt: Hindi file is mostly not in Hindi
+10-10 12:30:15   [Alphabet_Questions] review Flashcards_hi.txt: 1 issue(s): - Card 10: Wrong letter-pair answer for "RIGHT" – it claims R and I form a valid pair, but the only valid pair i
+10-10 12:31:23   [Statement_Argument] review PYQ_en.txt: 1 issue(s): - The claim that RBI Grade B has a "mains-level reasoning paper" is incorrect; RBI Grade B Phase 2 (mains) does not inc
+10-10 12:31:25   [Critical_Reasoning] Practice_en_Set_05.txt try 1: re-solve disagrees (Q101 key a vs re-solve ?)
+10-10 12:32:01   [Mirror_Water_Images] review Short_Tricks_hi.txt: 3 issue(s): - "90% गलतियाँ इसीलिए होती हैं" (invented statistic) → "अधिकांश गलतियाँ इसीलिए होती हैं"
+10-10 12:33:20   [Data_Sufficiency] Practice_en_Set_02.txt try 2: re-solve disagrees (Q28 key b vs re-solve a)
 ```
