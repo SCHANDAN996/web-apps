@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 11-10-2026 05:02 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:59 AM
+**आख़िरी update:** 11-10-2026 05:17 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:59 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | 🔧 सुधार रहा है | 4 मिनट |
-| W2 | Chapter 13 Dictionary Order (12th Reasoning) | 🔎 review हो रहा है | 62 मिनट |
-| W3 | Chapter 16 Statement Conclusion (12th Reasoning) | 🔧 सुधार रहा है | 1 मिनट |
-| W4 | Chapter 17 Course of Action (12th Reasoning) | 🔧 सुधार रहा है | 1 मिनट |
-| W5 | Chapter 20 Mirror Water Images (12th Reasoning) | 🔧 सुधार रहा है | 9 मिनट |
+| W2 | Chapter 13 Dictionary Order (12th Reasoning) | 🔎 review हो रहा है | 2 मिनट |
+| W3 | Chapter 16 Statement Conclusion (12th Reasoning) | 🔧 सुधार रहा है | 16 मिनट |
+| W4 | Chapter 17 Course of Action (12th Reasoning) | 🔧 सुधार रहा है | 17 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,28 +37,15 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 24 Statement Assumption (Reasoning) — 2 बार
-- Chapter 07 Sitting Arrangement (Reasoning) — 1 बार
+- Chapter 07 Sitting Arrangement (Reasoning) — 2 बार
 - Chapter 17 Course of Action (Reasoning) — 1 बार
 - Chapter 16 Statement Conclusion (Reasoning) — 1 बार
-- Chapter 20 Mirror Water Images (Reasoning) — 1 बार
+- Chapter 20 Mirror Water Images (Reasoning) — 2 बार
+- Chapter 13 Dictionary Order (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 04:23:36   [Mirror_Water_Images] FAILED Flashcards_hi.txt: network
-11-10 04:23:36   [Mirror_Water_Images] written 0, failed 1; AI calls today 12/100000
-11-10 04:24:21   [Statement_Assumption] repaired Short_Tricks_hi.txt (4510 chars)
-11-10 04:24:21   [Statement_Assumption] written 1, failed 0; AI calls today 13/100000
-11-10 04:24:21 NOT OK 12th_Level/Reasoning/Chapter_24_Statement_Assumption after 24 min: todo [] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
-11-10 04:24:24 START 12th_Level/Reasoning/Chapter_24_Statement_Assumption (FIX: todo 0, problems 1)
-11-10 04:26:39   [Dictionary_Order] FAILED review Flashcards_en.txt: network — the chapter must not be published unreviewed
-11-10 04:28:49   [Dictionary_Order] review PYQ_hi.txt: 1 issue(s): - Question 6 answer and reasoning are incorrect: the second word in dictionary order is QUIET, not QUICK → Correct answ
-11-10 04:35:12   [Sitting_Arrangement] repaired Short_Tricks_hi.txt (4723 chars)
-11-10 04:35:12   [Sitting_Arrangement] written 1, failed 0; AI calls today 18/100000
-11-10 04:35:12 NOT OK 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement after 35 min: todo [] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
-11-10 04:35:14 START 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement (FIX: todo 0, problems 1)
-11-10 04:35:20   [Dictionary_Order] review Short_Tricks_en.txt: 2 issue(s): - Mnemonic 7 states "APPLE vs AXE — AXE wins because X beats P at position 2" but in dictionary order APPLE co
-11-10 04:35:55   [Course_of_Action] FAILED Short_Tricks_hi.txt: network
 11-10 04:35:55   [Course_of_Action] written 0, failed 1; AI calls today 19/100000
 11-10 04:35:55 NOT OK 12th_Level/Reasoning/Chapter_17_Course_of_Action after 36 min: todo [] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
 11-10 04:35:58 START 12th_Level/Reasoning/Chapter_17_Course_of_Action (FIX: todo 0, problems 1)
@@ -87,4 +72,18 @@
 11-10 05:00:17   [Course_of_Action] written 1, failed 0; AI calls today 23/100000
 11-10 05:00:30   [Statement_Conclusion] FAILED Flashcards_hi.txt: network
 11-10 05:00:30   [Statement_Conclusion] written 0, failed 1; AI calls today 23/100000
+11-10 05:13:25   [Dictionary_Order] FAILED review Short_Tricks_hi.txt: network — the chapter must not be published unreviewed
+11-10 05:14:32   [Dictionary_Order] review: 2 section(s) corrected, 2 failed
+11-10 05:14:32   [Dictionary_Order] written 2, failed 2; AI calls today 25/100000
+11-10 05:14:33 NOT OK 12th_Level/Reasoning/Chapter_13_Dictionary_Order after 75 min: todo [] problems []
+11-10 05:14:35 START 12th_Level/Reasoning/Chapter_13_Dictionary_Order (OK: todo 0, problems 0)
+11-10 05:14:39   [Sitting_Arrangement] repaired Short_Tricks_hi.txt (12816 chars)
+11-10 05:14:39   [Sitting_Arrangement] written 1, failed 0; AI calls today 26/100000
+11-10 05:14:39 NOT OK 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement after 39 min: todo [] problems ['Short_Tricks_hi.txt: Hindi file is mostly not in Hindi', 'Short_Tricks_hi.txt: much shorter than the English section (']
+11-10 05:14:42 worker 0: nothing left
+11-10 05:15:19   [Dictionary_Order] review Flashcards_en.txt: 1 issue(s): - Card 14 claims M has 13 letters before and 13 after it → M is the 13th letter with 12 letters before it (A–L) 
+11-10 05:15:22   [Mirror_Water_Images] FAILED Flashcards_hi.txt: empty
+11-10 05:15:22   [Mirror_Water_Images] written 0, failed 1; AI calls today 26/100000
+11-10 05:15:22 NOT OK 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images after 33 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (34']
+11-10 05:15:25 worker 4: nothing left
 ```
