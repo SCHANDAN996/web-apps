@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 06:33 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
+**आख़िरी update:** 10-10-2026 06:41 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 24 मिनट |
-| W2 | Chapter 10 Clock Calendar (12th Reasoning) | ✍️ लिख रहा है | 24 मिनट |
-| W3 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 24 मिनट |
-| W4 | Chapter 14 Alphabet Questions (12th Reasoning) | ✍️ लिख रहा है | 24 मिनट |
-| W5 | Chapter 15 Mathematical Operations (12th Reasoning) | 🔎 review हो रहा है | 6 मिनट |
-| W6 | Chapter 19 Cubes Dice (12th Reasoning) | ✍️ लिख रहा है | 21 मिनट |
-| W7 | Chapter 20 Mirror Water Images (12th Reasoning) | ✍️ लिख रहा है | 4 मिनट |
-| W8 | Chapter 18 Inequality (12th Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 31 मिनट |
+| W2 | Chapter 10 Clock Calendar (12th Reasoning) | 🔎 review हो रहा है | 3 मिनट |
+| W3 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 31 मिनट |
+| W4 | Chapter 14 Alphabet Questions (12th Reasoning) | 🔧 सुधार रहा है | 2 मिनट |
+| W5 | Chapter 15 Mathematical Operations (12th Reasoning) | 🔎 review हो रहा है | 13 मिनट |
+| W6 | Chapter 19 Cubes Dice (12th Reasoning) | ✍️ लिख रहा है | 28 मिनट |
+| W7 | Chapter 20 Mirror Water Images (12th Reasoning) | ✍️ लिख रहा है | 11 मिनट |
+| W8 | Chapter 21 Paper Folding Cutting (12th Reasoning) | 🔎 review हो रहा है | 3 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -25,15 +25,15 @@
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 20 | 2 | 0 |
 | 10th English | 17 | 0 | 3 |
-| 12th Maths | 18 | 0 | 5 |
+| 12th Maths | 19 | 0 | 4 |
 | 12th GK | 22 | 0 | 2 |
-| 12th Reasoning | 12 | 2 | 11 |
+| 12th Reasoning | 14 | 3 | 8 |
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 16 | 0 | 12 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 13 | 0 | 17 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **240** | **4** | **52** |
+| **कुल** | **243** | **5** | **48** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -43,38 +43,10 @@
 
 - Chapter 16 Statement Conclusion (Reasoning) — 2 बार
 - Chapter 17 Course of Action (Reasoning) — 2 बार
-- Chapter 18 Inequality (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 06:22:10   [Inequality] review Flashcards_en.txt: 2 issue(s): - Card 9 incorrectly states that "A ≥ C" is not definitely true for "A > B ≥ C"; since A > C is certain, A ≥ C i
-10-10 06:22:41   [Mathematical_Operations] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-10-10 06:22:48   [Alphabet_Questions] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-10-10 06:23:40   [Mathematical_Operations] Practice_hi_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
-10-10 06:24:07   [Cubes_Dice] Practice_en_Set_01.txt try 1: re-solve disagrees (Q6 key d vs re-solve c, Q23 key c vs re-solve ?, Q25 key d vs re-solve ?)
-10-10 06:24:21   [Clock_Calendar] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-10-10 06:24:41   [Alphabet_Questions] Practice_en_Set_05.txt try 1: rejected (Q106:leaked_reasoning,Q113:leaked_reasoning,Q118:leaked_reasoning,Q121:leaked_reasoning,Q124:leaked_reasoning)
-10-10 06:25:19   [Mathematical_Operations] Practice_hi_Set_03.txt try 2: rejected (parsed 0 questions, numbers -…-)
-10-10 06:25:22   [Dictionary_Order] Practice_en_Set_02.txt try 3: re-solve disagrees (Q29 key a vs re-solve c, Q36 key d vs re-solve ?, Q38 key a vs re-solve ?, Q40 key b vs re-solve a, 
-10-10 06:26:13   [Sitting_Arrangement] Practice_en_Set_01.txt try 3: re-solve disagrees (Q5 key d vs re-solve a, Q23 key a vs re-solve d)
-10-10 06:26:15   [Sitting_Arrangement] Practice_en_Set_01.txt try 4: rejected (parsed 0 questions, numbers -…-)
-10-10 06:26:15   [Sitting_Arrangement] REJECTED Practice_en_Set_01.txt: no version passed the checks — not written
-10-10 06:26:15   [Sitting_Arrangement] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
-10-10 06:26:27   [Inequality] review Short_Tricks_en.txt: 1 issue(s): - Mnemonic Box 2 G condition defines genuine pair as (a > b and a < b) or (a ≥ b and a ≤ b) → Genuine either-o
-10-10 06:26:50   [Clock_Calendar] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-10-10 06:27:05   [Mathematical_Operations] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-10-10 06:27:05   [Mathematical_Operations] written 2, failed 0; AI calls today 61/100000
-10-10 06:27:20   [Cubes_Dice] Practice_en_Set_01.txt try 2: rejected (parsed 0 questions, numbers -…-)
-10-10 06:27:30   [Dictionary_Order] Practice_en_Set_02.txt try 4: rejected (Q41:leaked_reasoning)
-10-10 06:27:30   [Dictionary_Order] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
-10-10 06:27:30   [Dictionary_Order] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
-10-10 06:27:42   [Course_of_Action] FAILED Short_Tricks_hi.txt: too_long
-10-10 06:27:42   [Course_of_Action] written 0, failed 1; AI calls today 63/100000
-10-10 06:29:04   [Course_of_Action] repaired Short_Tricks_hi.txt (4439 chars)
-10-10 06:29:04   [Course_of_Action] written 1, failed 0; AI calls today 66/100000
-10-10 06:29:05 NOT OK 12th_Level/Reasoning/Chapter_17_Course_of_Action after 16 min: todo [] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
-10-10 06:29:07 START 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images (TODO: todo 9, problems 4)
 10-10 06:29:27   [Inequality] REJECTED review fix Short_Tricks_en.txt: corrupted characters
 10-10 06:29:53   [Cubes_Dice] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 10-10 06:31:18   [Mirror_Water_Images] Practice_en_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
@@ -88,4 +60,31 @@
 10-10 06:33:33   [Inequality] review: 0 section(s) corrected, 0 failed
 10-10 06:33:33   [Inequality] written 0, failed 0; AI calls today 78/100000
 10-10 06:33:34   [Dictionary_Order] Practice_en_Set_03.txt try 1: rejected (Q51:leaked_reasoning,Q57:leaked_reasoning,Q63:leaked_reasoning,Q67:leaked_reasoning,Q69:leaked_reasoning)
+10-10 06:33:54 DONE 12th_Level/Reasoning/Chapter_18_Inequality in 0 min → 3a55b9f4
+10-10 06:33:57 START 12th_Level/Reasoning/Chapter_21_Paper_Folding_Cutting (TODO: todo 2, problems 0)
+10-10 06:33:59   [Mathematical_Operations] review Content_hi.txt: 2 issue(s): - BODMAS तालिका में 'O' का अर्थ 'Of (का / घात)' दिया गया है → 'O' का अर्थ 'Orders (घात/मूल)' होता है; 'Of' (का) गुण
+10-10 06:34:54   [Paper_Folding_Cutting] wrote Content_en.txt (6582 chars)
+10-10 06:35:10   [Paper_Folding_Cutting] Practice_hi_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 06:35:36   [Mathematical_Operations] review Feynman_en.txt: 5 issue(s): - "B0/DMAS rule" → "BODMAS rule" (the acronym uses the letter O for Orders, not the digit 0)
+10-10 06:35:38   [Cubes_Dice] Practice_en_Set_02.txt try 1: rejected (Q44:leaked_reasoning)
+10-10 06:35:53   [Clock_Calendar] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+10-10 06:36:52   [Alphabet_Questions] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+10-10 06:37:22   [Cubes_Dice] Practice_en_Set_02.txt try 2: rejected (parsed 0 questions, numbers -…-)
+10-10 06:37:24   [Mathematical_Operations] review Feynman_hi.txt: 1 issue(s): - Invented statistic "90% बच्चे गलती करते हैं" → replace with a non-quantitative phrase like "कई बच्चे गलती करते है
+10-10 06:37:51   [Clock_Calendar] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+10-10 06:37:51   [Clock_Calendar] written 4, failed 0; AI calls today 94/100000
+10-10 06:37:54   [Paper_Folding_Cutting] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+10-10 06:37:54   [Paper_Folding_Cutting] written 2, failed 0; AI calls today 95/100000
+10-10 06:38:05   [Dictionary_Order] Practice_en_Set_03.txt try 2: re-solve disagrees (Q57 key a vs re-solve c, Q59 key a vs re-solve d, Q68 key d vs re-solve a, Q72 key d vs re-solve c, 
+10-10 06:38:17   [Alphabet_Questions] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+10-10 06:38:17   [Alphabet_Questions] written 4, failed 0; AI calls today 99/100000
+10-10 06:38:28   [Dictionary_Order] Practice_en_Set_03.txt try 3: rejected (parsed 0 questions, numbers -…-)
+10-10 06:38:43   [Paper_Folding_Cutting] review Content_en.txt: 1 issue(s): - Invented exam statistic: "80% of the questions in this chapter become free marks" → Remove the statistic or repla
+10-10 06:39:09   [Cubes_Dice] Practice_en_Set_02.txt try 3: rejected (Q35:leaked_reasoning,Q43:leaked_reasoning)
+10-10 06:40:54   [Dictionary_Order] Practice_en_Set_03.txt try 4: rejected (Q51:leaked_reasoning,Q55:leaked_reasoning,Q62:leaked_reasoning,Q64:leaked_reasoning,Q67:leaked_reasoning)
+10-10 06:40:54   [Dictionary_Order] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
+10-10 06:40:54   [Dictionary_Order] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
+10-10 06:41:03   [Mathematical_Operations] review Flashcards_hi.txt: 1 issue(s): - Card 12 claims that when both sign and number interchanges are given, you must first change numbers then signs
+10-10 06:41:09   [Paper_Folding_Cutting] review Feynman_en.txt: 5 issue(s): - The entire section is corrupted with tokenizer artifacts ("<|close|>", "<|open|>", "think", "analysis") and garbl
+10-10 06:41:10   [Mirror_Water_Images] Practice_en_Set_01.txt try 3: re-solve disagrees (Q22 key c vs re-solve b)
 ```
