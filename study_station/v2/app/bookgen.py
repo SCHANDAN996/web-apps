@@ -436,7 +436,7 @@ def question_fixes(why):
 
 def write_verified_set(db, user, name, n, out=print):
     """Write a new practice set; keep it only once it passes the checks and an independent re-solve."""
-    ask = user
+    ask, last_disputed = user, None
     for attempt in range(1, MAX_REPAIR_TRIES + 1):
         text = balance_answers(_clean_output(_ask(db, ask), name))
         if (why := _set_problem(text, n)):
@@ -451,8 +451,24 @@ def write_verified_set(db, user, name, n, out=print):
             return text
         out(f'  {name} try {attempt}: re-solve disagrees ({mismatch[:120]})')
         ask = practice_repair_request(name, text, n, [], mismatch)
+        last_disputed = (text, mismatch)
+    if last_disputed:
+        _keep_for_arbiter(name, n, *last_disputed, out)
     out(f'REJECTED {name}: no version passed the checks — not written')
     return None
+
+
+def _keep_for_arbiter(name, n, text, mismatch, out=print):
+    """A set that only fails because the two models disagree on a few keys is saved for a human/Claude to judge
+    (BOOKGEN_ARBITER_DIR); the arbiter fixes those questions and writes the set with --arbiter-apply."""
+    d = os.environ.get('BOOKGEN_ARBITER_DIR')
+    if not d:
+        return
+    Path(d).mkdir(parents=True, exist_ok=True)
+    p = Path(d) / f'{name}.json'
+    p.write_text(json.dumps({'name': name, 'set': n, 'mismatch': mismatch, 'text': text}, ensure_ascii=False,
+                            indent=1), encoding='utf-8')
+    out(f'  {name}: kept for the arbiter ({p.name})')
 
 
 def repair_set(db, chapter, n, problems, out=print):

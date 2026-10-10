@@ -158,9 +158,12 @@ class Pilot:
     def next_job(self):
         if self.args.stop_new_after and time.time() - self.t_start > self.args.stop_new_after * 60:
             return None                                      # time budget: finish running chapters, start none
+        skip = self.manual_chapters()
         with self.lock:
             for ch in self.chapters():
                 key = str(ch.relative_to(bookcheck.BOOKS_ROOT))
+                if key in skip:
+                    continue                                 # handled by hand (books/autopilot/MANUAL.txt)
                 if key in self.claimed or self.state['failed'].get(key, 0) >= self.args.max_fails:
                     continue
                 if bookcheck.chapter_status(ch)[0] == 'OK' and not self.uncommitted(ch):
@@ -174,6 +177,16 @@ class Pilot:
                 self.claimed.add(key)
                 return ch, key
         return None
+
+    def manual_chapters(self):
+        """Chapters the owner/Claude finish by hand: one books-relative chapter path per line in
+        books/autopilot/MANUAL.txt (# comments allowed). The autopilot never touches them."""
+        p = bookcheck.BOOKS_ROOT / 'autopilot' / 'MANUAL.txt'
+        try:
+            lines = p.read_text(encoding='utf-8').splitlines()
+        except OSError:
+            return set()
+        return {l.split('#')[0].strip().rstrip('/') for l in lines if l.split('#')[0].strip()}
 
     def key_for_worker(self):
         """Several NVIDIA keys (comma-separated in NVIDIA_API_KEY) are shared out over the workers, so each key
