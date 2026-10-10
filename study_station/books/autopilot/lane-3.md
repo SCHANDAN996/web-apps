@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 11:34 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 10:31 AM
+**आख़िरी update:** 10-10-2026 11:49 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 10:31 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 0 मिनट |
+| W2 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 16 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -24,9 +24,9 @@
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 20 | 0 | 8 |
 | Graduation GK | 27 | 0 | 1 |
-| Graduation Reasoning | 18 | 0 | 12 |
+| Graduation Reasoning | 19 | 0 | 11 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **257** | **6** | **33** |
+| **कुल** | **258** | **6** | **32** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -45,14 +45,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 11:05:45 worker 7: nothing left
-10-10 11:06:20   [Figure_Series] review: 5 section(s) corrected, 0 failed
-10-10 11:06:20   [Figure_Series] written 5, failed 0; AI calls today 88/100000
-10-10 11:06:40 DONE 12th_Level/Reasoning/Chapter_22_Figure_Series in 34 min → 86c9a10e
-10-10 11:06:43 worker 5: nothing left
-10-10 11:07:40   [Dictionary_Order] Practice_en_Set_03.txt try 3: re-solve disagrees (Q61 key b vs re-solve c, Q70 key b vs re-solve c, Q73 key b vs re-solve a)
-10-10 11:10:21   [Mirror_Water_Images] repaired set 04 (en + hi, key confirmed by an independent re-solve)
-10-10 11:10:21   [Mirror_Water_Images] written 4, failed 0; AI calls today 91/100000
 10-10 11:11:27   [Mirror_Water_Images] repaired Flashcards_hi.txt (4488 chars)
 10-10 11:11:42   [Sitting_Arrangement] Practice_en_Set_02.txt try 1: re-solve disagrees (Q27 key a vs re-solve b, Q28 key d vs re-solve c, Q29 key a vs re-solve d, Q34 key a vs re-solve b, 
 10-10 11:11:50   [Sitting_Arrangement] Practice_en_Set_02.txt try 2: rejected (parsed 0 questions, numbers -…-)
@@ -85,4 +77,12 @@
 10-10 11:33:20   [Dictionary_Order] written 0, failed 6; AI calls today 106/100000
 10-10 11:33:20 NOT OK 12th_Level/Reasoning/Chapter_13_Dictionary_Order after 61 min: todo ['Set 02 en: todo', 'Set 02 hi: todo', 'Set 03 en: todo', 'Set 03 hi: todo'] problems ['PYQ_hi.txt: much shorter than the English section (447 vs 13']
 10-10 11:33:23 START 12th_Level/Reasoning/Chapter_13_Dictionary_Order (TODO: todo 6, problems 1)
+10-10 11:35:24   [Dictionary_Order] Practice_en_Set_02.txt try 1: rejected (Q28:leaked_reasoning,Q42:leaked_reasoning)
+10-10 11:36:53   [Dictionary_Order] Practice_en_Set_02.txt try 2: rejected (parsed 0 questions, numbers -…-)
+10-10 11:39:09   [Dictionary_Order] Practice_en_Set_02.txt try 3: rejected (parsed 24 questions, numbers 26…50)
+10-10 11:42:29   [Dictionary_Order] Practice_en_Set_02.txt try 4: rejected (Q27:leaked_reasoning,Q40:leaked_reasoning,Q42:leaked_reasoning,Q46:leaked_reasoning,Q48:leaked_reasoning)
+10-10 11:42:29   [Dictionary_Order] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
+10-10 11:42:29   [Dictionary_Order] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+10-10 11:42:48   [Dictionary_Order] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 11:45:51   [Dictionary_Order] Practice_en_Set_03.txt try 2: rejected (Q60:leaked_reasoning,Q65:leaked_reasoning,Q69:leaked_reasoning,Q71:leaked_reasoning,Q73:leaked_reasoning)
 ```
