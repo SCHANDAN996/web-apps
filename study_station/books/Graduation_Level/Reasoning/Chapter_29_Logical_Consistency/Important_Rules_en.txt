@@ -1,0 +1,55 @@
+# Important Rules & Approaches — Logical Consistency
+
+## Part 1: Key Rules / Approaches
+
+| # | Rule / Approach | Description | Example |
+|---|---|---|---|
+| 1 | Consistency = No Contradiction | A set of statements is logically consistent if all of them can be true together. You do NOT check whether they are actually true — only whether they CAN be true at the same time. | "All A are B" + "Some A are not B" → inconsistent (cannot both hold). |
+| 2 | Truth vs. Consistency | Truth is about the real world; consistency is about mutual compatibility. False statements can still be consistent with each other. | "All cats can fly" + "Tommy is a cat" + "Tommy can fly" — all false in reality, but mutually consistent. |
+| 3 | Contradiction Pairs (Square of Opposition) | Memorise the four fatal pairs: (i) "All A are B" vs "Some A are not B"; (ii) "No A is B" vs "Some A are B". These can never be true together. | "No student passed" contradicts "Some students passed". |
+| 4 | Subaltern Rule | If "All A are B" is true, then "Some A are B" must be true. The reverse is NOT valid. | All roses are flowers ⇒ Some roses are flowers. ✓ |
+| 5 | "Some" Means "At Least One" | In logic, "some" includes the possibility of "all". Never read "some" as "only a few". | "Some politicians are honest" does not imply "some are dishonest". |
+| 6 | "Only A are B" = "All B are A" | Reverse the statement when converting "only". Common trap: students keep the original order. | "Only graduates are eligible" = "All eligible persons are graduates". |
+| 7 | Chain Consistency (Syllogism Link) | To test a chain A→B→C, check the middle term is distributed (covers "all") at least once; otherwise the link may break and consistency fails. | All A are B + All B are C ⇒ All A are C (consistent chain). |
+| 8 | Venn Diagram Method — Consistency vs. Validity | Draw the most inclusive diagram first. A set of statements is CONSISTENT if there exists at least one diagram in which all of them are true together. A conclusion is VALID (definitely follows) only if it holds in EVERY diagram in which the premises are true. Do not confuse the two tests. | "Some A are B" allows multiple diagrams — for consistency, one working diagram is enough; for a definite conclusion, test all. |
+| 9 | Possibility Cases | If asked "which conclusion is POSSIBLY true", accept anything not directly contradicted by the premises. | Premise: Some pens are red. "All pens may be red" is a valid possibility. |
+| 10 | Negative Premise Rule | If any premise is negative ("No…", "Some…not"), a definite positive universal conclusion ("All…") cannot follow. | No A is B + All B are C ⇏ All A are C. |
+| 11 | Two Particular Premises | From "Some…" + "Some…" no definite universal conclusion follows; only possibility conclusions may hold. | Some A are B + Some B are C ⇏ Some A are C (definite). |
+| 12 | Statement–Assumption Consistency | An assumption must be implicit AND consistent with the statement. An assumption contradicting the statement is always invalid. | Statement urges action ⇒ assumption "action is possible" is consistent. |
+| 13 | Statement–Conclusion Test | A conclusion follows only if it is a necessary consequence. "Could be true" is not enough for "definitely follows". | Conclusion adding new information (names, numbers) never follows. |
+| 14 | Course of Action Consistency | An action is valid only if it is practical, legal, and directly addresses the problem stated. Extreme or contradictory actions are rejected. | Problem: waterlogging → Action: improve drainage ✓; Action: ban rain ✗. |
+| 15 | Cause–Effect Consistency | Two events are effects of a common cause if neither can cause the other and both share a plausible source. Check chronology: cause must precede effect. | Train strike (cause) → commuters stranded (effect). |
+| 16 | Argument Strength Rule | A strong argument is relevant, factual, and addresses the core issue. Emotional, exaggerated, or example-only arguments are weak. | "Ban X because it causes proven harm" = strong; "Ban X because I dislike it" = weak. |
+| 17 | Elimination Method | In "which set is consistent" questions, test each option against the contradiction pairs (Rule 3) and eliminate — faster than proving one option fully. | Any option containing "All A are B" + "Some A are not B" is eliminated instantly. |
+| 18 | Complementary Pair Rule | In syllogisms, if neither conclusion follows individually but the two form an either-or (complementary) pair (I–O or A–E type on same terms), mark "either follows". | "Some A are C" / "No A is C" — if both fail individually, either-or may apply. |
+| 19 | No New Term Rule | A valid conclusion cannot contain a term that does not appear in the premises. | Premises about pens and books ⇒ conclusion about tables is invalid. |
+| 20 | Read Exactly, Not Emotionally | Never import real-world knowledge or opinions. Judge only by the given statements, even if they sound absurd. | "All men are women" — accept it as a premise and reason from it. |
+
+## Part 2: Time Management
+
+| Situation | Rule | Action |
+|---|---|---|
+| 15-Second Rule | If after 15 seconds you cannot identify the question type (syllogism / assumption / cause-effect / consistency set), mark and skip. | Return in the second pass; do not stall the section. |
+| 45-Second Rule | A standard consistency/syllogism question must be solved within 45 seconds using elimination or Venn diagrams. | If not done in 45 sec, eliminate obviously contradictory options, guess the best remaining, move on. |
+| Statement–Assumption / Conclusion | Target 30–40 seconds. Read the statement once, apply the "negation test" for assumptions. | Do not re-read more than twice. |
+| Cause–Effect / Course of Action | Target 25–35 seconds. Check chronology and practicality first — these eliminate most options. | Skip questions with long, confusing statements for the second pass. |
+| "Which set is consistent" (4–5 statements) | Target 45–60 seconds. Scan for contradiction pairs first (Rule 3) before deep analysis. | If two options survive after 60 sec, pick the one without negative–positive clash and move on. |
+| Section Strategy | Attempt direct syllogism and cause-effect first (fastest), then assumption/argument, then multi-statement consistency sets last. | Bank quick marks before time-consuming sets. |
+| Guessing Rule | Never blind-guess. Eliminate at least two options via contradiction pairs before guessing. | Negative marking makes random guessing costly. |
+
+## Part 3: Logical / Mathematical Formulas
+
+| Formula / Conversion | Meaning |
+|---|---|
+| All A are B ⇒ Some A are B (and Some B are A) | Universal affirmative implies particular (subaltern + conversion). |
+| No A is B ⇔ No B is A | Universal negative converts directly. |
+| Some A are B ⇔ Some B are A | Particular affirmative converts directly. |
+| Some A are not B ⇏ (no conversion) | Particular negative never converts. |
+| Only A are B = All B are A | "Only" reverses subject and predicate. |
+| All A are B + All B are C ⇒ All A are C | Valid chain (middle term B distributed). |
+| All A are B + No B is C ⇒ No A is C | Universal + negative ⇒ negative conclusion. |
+| Contradiction pairs: A↔O, E↔I | "All" contradicts "Some…not"; "No" contradicts "Some". |
+| Consistency test: ∃ at least one diagram where all statements hold | Consistency = possible together. |
+| Validity test: conclusion holds in every diagram where premises hold | Validity = necessarily follows. |
+| Negation test (assumptions): If negating the assumption destroys the statement ⇒ assumption is valid. | Quick validity check for statement–assumption questions. |
+| No numerical formulas exist for this chapter — all tools are the logical conversions and contradiction rules above. | — |

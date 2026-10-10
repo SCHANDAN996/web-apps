@@ -1,0 +1,34 @@
+```mermaid
+graph TD
+    A["पर्यायवाची<br>(Synonyms)"] --> B["अवधारणा"]
+    A --> C["मूल शब्द<br>(Roots)"]
+    A --> D["रणनीतियाँ"]
+    A --> E["परीक्षक के जाल"]
+    A --> F["अभ्यास योजना"]
+
+    B --> B1["समान अर्थ वाले शब्द<br>Happy = Joyful"]
+    B --> B2["100% समान अर्थ दुर्लभ<br>संदर्भ तय करता है"]
+    B --> B3["शब्द-भंडार =<br>परीक्षा की नींव"]
+
+    C --> C1["Bene = अच्छा<br>Benefit, Benevolent"]
+    C --> C2["Mal = बुरा<br>Malice, Malfunction"]
+    C --> C3["Dict = कहना<br>Predict, Dictate"]
+    C --> C4["Port = ले जाना<br>Transport, Export"]
+    C --> C5["Chron = समय<br>Chronicle, Chronic"]
+    C --> C6["Phil = प्रेम<br>Philanthropy, Bibliophile"]
+
+    D --> D1["विकल्प को वाक्य में<br>रखकर जाँचो"]
+    D --> D2["Root तोड़ो →<br>अर्थ का अनुमान"]
+    D --> D3["सकारात्मक/नकारात्मक<br>भाव मिलाओ"]
+    D --> D4["15 सेकंड नियम:<br>जाना शब्द = तुरंत उत्तर"]
+    D --> D5["45 सेकंड नियम:<br>अपरिचित शब्द = Root + संदर्भ"]
+
+    E --> E1["आंशिक पर्याय का जाल<br>Begin ≠ Commence हर संदर्भ में नहीं"]
+    E --> E2["ध्वनि-समान शब्द<br>Accept ≠ Except"]
+    E --> E3["अंत्यर्थी (Antonym)<br>को पर्याय समझना"]
+    E --> E4["अति-विश्लेषण<br>(Over-thinking) का जाल"]
+
+    F --> F1["रोज़ 10 नए शब्द<br>+ उनके पर्याय"]
+    F --> F2["Flashcards से<br>दोहराव (Revision)"]
+    F --> F3["2 दिन बाद दोहराएँ<br>फिर 7 दिन बाद"]
+```

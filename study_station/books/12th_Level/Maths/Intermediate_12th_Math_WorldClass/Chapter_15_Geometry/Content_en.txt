@@ -1,11 +1,233 @@
-# Chapter: Geometry, Level: intermediate
+# Geometry — The Art of Seeing Shapes
 
-@content_agent lang=en level=intermediate role='experienced educator and cognitive psychologist' 'Write a chapter on Geometry that makes even complex 12th-grade concepts feel incredibly simple. Follow Chain-of-Thought:
-1. First, outline the chapter and learning goals.
-2. Start with a powerful hook (story, shocking fact, contradiction).
-3. Acknowledge the learner's common struggle with 'Geometry' and build empathy.
-4. Break content into small chunks (Segmenting Principle).
-5. After every 2-3 paragraphs, insert an Active Recall Prompt (🧠).
-6. Include at least one memory trick (mnemonic) that is weird or funny.
-7. End with a summary table and 'Review this after 2 days' prompt.
-Keep language extremely simple, conversational, and motivational, but depth at 12th grade level.
+## Chapter Outline & Learning Goals
+
+By the end of this chapter, you will be able to:
+
+1. Master lines, angles, and their relationships (parallel lines, transversals).
+2. Conquer triangles — congruence, similarity, Pythagoras, and special centres.
+3. Decode circles — chords, tangents, and angle theorems.
+4. Handle quadrilaterals and polygons with confidence.
+5. Apply coordinate geometry basics (distance, section, slope).
+6. Solve mensuration-linked geometry questions the way SSC, Banking, and Railway exams ask them.
+
+---
+
+## The Hook: A Shape That Fooled the World
+
+In 1958, a mathematician named Roger Penrose drew a triangle that **cannot exist** — the famous "Penrose Triangle." It looks perfectly real on paper, yet no carpenter could ever build it. Millions of people stare at it and swear it's possible.
+
+That's the secret of geometry: **your eyes can lie, but the rules never do.**
+
+Every year, lakhs of SSC and Banking aspirants lose marks in geometry not because the questions are hard, but because they *trust their eyes* instead of trusting the theorems. A figure that "looks like" an isosceles triangle may not be one. An angle that "looks like" 90° may be 80°. The examiners know this — and they set traps exactly there.
+
+This chapter will train you to stop guessing and start *proving*. And here's the good news: geometry is the **most rule-based** part of maths. Learn roughly 20 theorems cold, and 90% of exam questions become mechanical.
+
+---
+
+## Part 1: Lines and Angles — The Alphabet of Geometry
+
+Everything in geometry is built from three undefined ideas: **point, line, and plane**. From these, we build angles.
+
+**Key facts you must know cold:**
+
+- A **straight angle** = 180°. A **complete angle** = 360°. A **right angle** = 90°.
+- **Complementary angles** add to 90°. **Supplementary angles** add to 180°.
+- When two lines intersect, **vertically opposite angles are equal**.
+- **Angles around a point** add up to 360°.
+
+Now the exam favourite: a **transversal** cutting two parallel lines. This single diagram generates hundreds of questions. Remember three pairs:
+
+1. **Corresponding angles** are equal (they sit in the same "corner" position).
+2. **Alternate interior angles** are equal (they form a "Z" shape).
+3. **Co-interior (same-side interior) angles** are supplementary (they form a "C" or "U" shape).
+
+🧠 **Active Recall:** Without looking back — two parallel lines are cut by a transversal. One angle is 65°. What are its corresponding angle, alternate interior angle, and co-interior angle? (Answers: 65°, 65°, 115°.)
+
+### 🎵 Mnemonic: "Z-F-C-U"
+
+Trace letters on the diagram:
+- **Z** → Alternate angles are equal.
+- **F** → Corresponding angles are equal.
+- **C/U** → Co-interior angles add to 180°.
+
+If you can spot a Z, F, or C hiding in the figure, the question is already solved. Examiners love rotating the diagram so the Z is upside down — train your eyes to hunt for the letters, not the orientation.
+
+---
+
+## Part 2: Triangles — The King of Geometry
+
+If geometry were a kingdom, the triangle would wear the crown. Roughly half of all exam geometry questions involve triangles directly or indirectly.
+
+### 2.1 Angle Sum and Exterior Angle
+
+- The three interior angles of a triangle always add to **180°**.
+- An **exterior angle** equals the **sum of the two opposite interior angles**. (This one line solves dozens of "find x" questions instantly.)
+
+### 2.2 Congruence — When Two Triangles Are Identical Twins
+
+Two triangles are congruent if they match by any of these tests:
+
+| Test | Meaning |
+|---|---|
+| **SSS** | All three sides equal |
+| **SAS** | Two sides + included angle equal |
+| **ASA / AAS** | Two angles + a side equal |
+| **RHS** | Right angle + hypotenuse + one side equal |
+
+⚠️ **Trap alert:** "AAA" (three equal angles) does **NOT** prove congruence — it only proves *similarity*. And "SSA" (two sides + a non-included angle) is not a valid test either. Examiners use both as wrong options constantly.
+
+### 2.3 Similarity — Same Shape, Different Size
+
+Two triangles are similar if their angles match (AA is enough). Then:
+
+- Corresponding sides are in the **same ratio** (say k).
+- Ratio of **areas = k²** (the square of the side ratio).
+
+That last point is a goldmine. If two similar triangles have sides in ratio 2:3, their areas are in ratio **4:9** — not 2:3. This is one of the most-tested traps in SSC CGL.
+
+🧠 **Active Recall:** Triangle ABC ~ Triangle DEF with AB:DE = 3:5. If area of ABC is 27 cm², what is area of DEF? (Answer: 27 × 25/9 = 75 cm².)
+
+### 2.4 Pythagoras and Friends
+
+In a right-angled triangle: **a² + b² = c²** (c = hypotenuse).
+
+Memorise the common **Pythagorean triplets** — they appear in exams with the numbers barely disguised:
+
+- (3, 4, 5) and multiples: (6, 8, 10), (9, 12, 15)…
+- (5, 12, 13)
+- (8, 15, 17)
+- (7, 24, 25)
+
+If you see legs 12 and 16, don't calculate — recognise (3,4,5) × 4 → hypotenuse = 20. This saves a full minute.
+
+### 2.5 The Four Centres of a Triangle
+
+This is where most students panic. Don't. Here's the clean version:
+
+| Centre | Made by | Special property |
+|---|---|---|
+| **Centroid (G)** | Medians | Divides each median in **2:1** (vertex side is longer) |
+| **Incentre (I)** | Angle bisectors | Centre of incircle; inradius r = Area/s |
+| **Circumcentre (O)** | Perpendicular bisectors of sides | Centre of circumcircle; equidistant from all vertices |
+| **Orthocentre (H)** | Altitudes | In a right triangle, it sits **at the right-angle vertex** |
+
+🎵 **Mnemonic: "G-I-O-H = Good Idiots Order Hot-chai"** — Centroid, Incentre, Circumcentre, Orthocentre. Silly? Yes. Unforgettable? Also yes.
+
+**Key exam facts:**
+- In an **equilateral triangle**, all four centres coincide at one point.
+- In a **right-angled triangle**, the circumcentre is the **midpoint of the hypotenuse** (so circumradius R = hypotenuse/2).
+- Centroid's 2:1 division is asked again and again.
+
+🧠 **Active Recall:** In a right triangle with hypotenuse 10 cm, what is the circumradius? (Answer: 5 cm — no calculation needed.)
+
+---
+
+## Part 3: Circles — Where Angles Bend
+
+Circles look friendly but hide the most elegant theorems in the syllabus.
+
+### 3.1 The Core Theorems
+
+1. The **angle at the centre** is **double** the angle at the circumference standing on the same arc. (∠centre = 2 × ∠circumference)
+2. **Angles in the same segment** are equal.
+3. The **angle in a semicircle is 90°** (Thales' theorem).
+4. Opposite angles of a **cyclic quadrilateral** are supplementary (add to 180°).
+
+### 3.2 Chords and Tangents
+
+- The perpendicular from the centre to a chord **bisects the chord**.
+- Equal chords are **equidistant from the centre**.
+- A tangent is **perpendicular to the radius** at the point of contact.
+- **Tangents from an external point are equal** in length.
+- **Alternate Segment Theorem:** the angle between a tangent and a chord equals the angle in the alternate segment.
+
+🧠 **Active Recall:** O is the centre, and arc AB subtends 80° at the centre. What angle does it subtend at any point on the remaining circumference? (Answer: 40°.)
+
+### 3.3 Two Circles Touching
+
+- Touching **externally**: distance between centres = r₁ + r₂.
+- Touching **internally**: distance between centres = r₁ − r₂.
+- Direct common tangents and transverse common tangents are classic formula-based questions — keep the formulas handy (see the Formulas section).
+
+---
+
+## Part 4: Quadrilaterals and Polygons
+
+### 4.1 The Quadrilateral Family
+
+- **Parallelogram:** opposite sides equal and parallel; diagonals **bisect** each other.
+- **Rectangle:** parallelogram + all angles 90°; diagonals **equal**.
+- **Rhombus:** all sides equal; diagonals bisect at **90°**.
+- **Square:** rectangle + rhombus combined — diagonals equal AND perpendicular.
+- **Trapezium:** exactly one pair of parallel sides.
+
+🎵 **Mnemonic for the family tree:** "**P**apa **R**am **R**eads **S**tories **T**onight" — Parallelogram → Rectangle → Rhombus → Square → Trapezium. Remember: every square is a rectangle and a rhombus, but not vice versa. Exams love "which statement is NOT true" questions on exactly this.
+
+### 4.2 Polygons
+
+For a regular polygon with **n sides**:
+
+- Sum of interior angles = **(n − 2) × 180°**
+- Each interior angle = **(n − 2) × 180° / n**
+- Each exterior angle = **360° / n**
+- Number of diagonals = **n(n − 3)/2**
+
+🧠 **Active Recall:** A regular polygon has each exterior angle = 40°. How many sides? (Answer: 360/40 = 9 sides — a nonagon.)
+
+---
+
+## Part 5: Coordinate Geometry — Geometry with Numbers
+
+Coordinate geometry converts shapes into algebra. Three formulas run the whole show:
+
+1. **Distance:** √[(x₂ − x₁)² + (y₂ − y₁)²]
+2. **Section formula (internal division in ratio m:n):** ((mx₂ + nx₁)/(m+n), (my₂ + ny₁)/(m+n))
+3. **Slope:** m = (y₂ − y₁)/(x₂ − x₁)
+
+Handy consequences:
+
+- **Midpoint** = average of the coordinates (section formula with m = n = 1).
+- Two lines are **parallel** if slopes are equal; **perpendicular** if the product of slopes = −1.
+- **Collinearity test:** area of the triangle formed by three points = 0.
+- **Centroid** of a triangle with vertices (x₁,y₁), (x₂,y₂), (x₃,y₃) = ((x₁+x₂+x₃)/3, (y₁+y₂+y₃)/3).
+
+🧠 **Active Recall:** Find the midpoint of (2, 6) and (8, −2). (Answer: (5, 2).)
+
+---
+
+## Part 6: The Examiner's Favourite Traps
+
+Before the summary, internalise these — they decide ranks:
+
+1. **"Looks like" is not "is."** Never assume equal sides or right angles from the figure unless stated or marked.
+2. **Area ratio of similar figures = square of side ratio.** Not the ratio itself.
+3. **AAA proves similarity, not congruence.**
+4. **Angle in a semicircle = 90°** — hidden right angles are everywhere in circle questions.
+5. **Exterior angle = sum of opposite interior angles** — often faster than using the 180° sum twice.
+6. In "which is NOT true" questions about quadrilaterals, check the family tree: square ⊂ rectangle, square ⊂ rhombus.
+
+---
+
+## Summary Table
+
+| Topic | Must-remember fact |
+|---|---|
+| Parallel lines + transversal | Z and F angles equal; C angles supplementary |
+| Triangle angle sum | 180°; exterior angle = sum of two opposite interiors |
+| Congruence | SSS, SAS, ASA, RHS (never AAA or SSA) |
+| Similarity | Sides in ratio k → areas in ratio k² |
+| Pythagoras | a² + b² = c²; triplets (3,4,5), (5,12,13), (8,15,17), (7,24,25) |
+| Centroid | Divides median 2:1 |
+| Right triangle | Circumradius = hypotenuse/2 |
+| Circle | Centre angle = 2 × circumference angle; semicircle angle = 90° |
+| Cyclic quadrilateral | Opposite angles sum to 180° |
+| Tangents | From external point, equal; tangent ⊥ radius |
+| Polygon (n sides) | Interior sum = (n−2)×180°; diagonals = n(n−3)/2 |
+| Coordinate geometry | Distance, section formula, slope; perpendicular slopes multiply to −1 |
+
+---
+
+## 🔁 Review Reminder
+
+**Review this chapter after 2 days.** Cover the summary table with your hand and try to write down every fact from memory. Whatever you can't recall — that's exactly what the examiner will ask. Revisit it, then attempt Practice Set 1.

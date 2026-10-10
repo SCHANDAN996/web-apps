@@ -1,24 +1,47 @@
 ```mermaid
 graph TD
-    R["🔗 सादृश्यता<br>Analogy"]
-    R --> D["📖 अर्थ<br>दो जोड़ियों में समान रिश्ता"]
-    R --> M["🗝️ हल का नियम<br>वाक्य बनाओ"]
-    R --> T["📂 प्रकार<br>Types"]
-    R --> TR["⚠️ जाल<br>Traps"]
+    A["सादृश्यता / Analogy"]
 
-    M --> M1["जोड़ी को वाक्य में जोड़ो"]
-    M --> M2["वही वाक्य विकल्प पर लगाओ"]
-    M --> M3["क्रम मायने रखता है"]
+    A --> T["मुख्य प्रकार<br>Major Types (WING)"]
+    A --> S["हल करने की तकनीकें<br>Solving Strategies"]
+    A --> TR["परीक्षक के जाल<br>Examiner's Traps"]
+    A --> TM["समय प्रबंधन<br>Time Management"]
 
-    T --> T1["पर्यायवाची / विलोम<br>Synonym / Antonym"]
-    T --> T2["अंश-पूर्ण<br>Part–Whole"]
-    T --> T3["कर्ता-औज़ार / उत्पाद<br>Worker–Tool"]
-    T --> T4["कारण-प्रभाव<br>Cause–Effect"]
-    T --> T5["वर्ग-सदस्य<br>Category–Member"]
-    T --> T6["संख्या सादृश्यता<br>4:16 :: 5:25"]
-    T --> T7["अक्षर सादृश्यता<br>AB:CD :: EF:GH"]
+    T --> W["W: शब्द सादृश्य<br>Word Analogy"]
+    T --> I["I: संख्या सादृश्य<br>Number Analogy"]
+    T --> N["N: वर्णमाला सादृश्य<br>Letter Analogy"]
+    T --> G["G: सामान्य ज्ञान<br>GK Analogy"]
 
-    TR --> TR1["नज़दीकी गलत विकल्प"]
-    TR --> TR2["क्रम उलटना"]
-    TR --> TR3["एक से ज़्यादा संबंध<br>सबसे मज़बूत चुनो"]
+    W --> W1["समानार्थी एवं विलोम<br>Synonyms & Antonyms"]
+    W --> W2["कार्यकर्ता एवं औजार/कार्यस्थल<br>Worker-Tool / Workplace"]
+    W --> W3["भाग एवं संपूर्ण<br>Part to Whole"]
+    W --> W4["कारण एवं प्रभाव<br>Cause and Effect"]
+
+    I --> I1["वर्ग एवं घन<br>Squares & Cubes (n², n³)"]
+    I --> I2["संक्रियाएँ<br>Addition, Subtraction, Multiplication"]
+    I --> I3["मिश्रित नियम<br>Combined (n² ± 1, ×k + c)"]
+    I --> I4["अंकों का योग/गुणा<br>Sum/Product of Digits"]
+
+    N --> N1["अक्षर क्रम संख्या<br>Alphabet Positions (A=1...Z=26)"]
+    N --> N2["विपरीत अक्षर<br>Opposite Letters (Sum = 27)"]
+    N --> N3["स्थानांतरण पैटर्न<br>Forward / Backward Shift (+k, -k)"]
+    N --> N4["क्रम परिवर्तन<br>Reverse / Mirror Pattern"]
+
+    G --> G1["देश एवं राजधानी/मुद्रा<br>Country-Capital / Currency"]
+    G --> G2["मापक यंत्र एवं इकाई<br>Instruments & Units"]
+    G --> G3["राज्य एवं लोकनृत्य/नदी<br>States, Rivers & Dance"]
+    G --> G4["वैज्ञानिक खोज एवं लेखक<br>Inventions & Books"]
+
+    S --> S1["वाक्य-पुल तकनीक<br>Sentence Bridge Method"]
+    S --> S2["क्योंकि-इसलिए परीक्षण<br>Because-Therefore Test"]
+    S --> S3["उल्टा संबंध सत्यापन<br>Reverse Relation Check (A→B, C→D)"]
+    S --> S4["संबंध को कसना<br>Tighten When Stuck Between 2 Options"]
+
+    TR --> TR1["समान दिखने वाले विकल्प<br>Near-Miss Look-alike Options"]
+    TR --> TR2["कठिन शब्दावली का डर<br>Rare / Unfamiliar Words"]
+    TR --> TR3["दोहरा संबंध<br>Double / Competing Relationships"]
+
+    TM --> TM1["15 सेकंड नियम<br>Recognize pattern or form bridge"]
+    TM --> TM2["45 सेकंड नियम<br>Substitute options & verify"]
+    TM --> TM3["1 मिनट अधिकतम सीमा<br>Skip/flag if unresolved, never stall"]
 ```

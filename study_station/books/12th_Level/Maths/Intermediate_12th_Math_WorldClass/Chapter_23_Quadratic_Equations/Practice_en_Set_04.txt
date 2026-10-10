@@ -1,3 +1,151 @@
-# Chapter: Quadratic Equations & Series, Level: intermediate, Set: 4/6
+प्रश्न 76–95: आसान | प्रश्न 96–100: मध्यम
 
-@content_agent +mcq_generator_bilingual lang=en level=intermediate 'Generate 25 MCQs for Quadratic Equations & Series. This is Set 4 (total 6 sets, 150 questions). Questions must be numbered 76 to 100. All 25 questions should be Medium. Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'
+76. If one root of the equation x² − 7x + k = 0 is 3, then the value of k is
+(a) 12 (b) 16 (c) 14 (d) 10
+Answer: (a)
+Solution: Substituting x = 3 gives 9 − 21 + k = 0, so k = 12. A common trap is to compute 7 × 3 = 21 and pick a value near it, but the constant term must satisfy the equation directly. So the answer is 12.
+Source: NCERT Class 10 Mathematics
+
+77. The discriminant of the equation 2x² − 4x + 3 = 0 is
+(a) 4 (b) 8 (c) −4 (d) −8
+Answer: (d)
+Solution: Discriminant = b² − 4ac = 16 − 24 = −8, so the roots are not real. The tempting wrong choice 8 comes from forgetting the minus sign in −4ac. So the answer is −8.
+Source: NCERT Class 10 Mathematics
+
+78. If the roots of x² − px + q = 0 are 2 and 5, then p + q equals
+(a) 12 (b) 10 (c) 7 (d) 17
+Answer: (d)
+Solution: Sum of roots p = 2 + 5 = 7 and product q = 2 × 5 = 10, so p + q = 17. Many students stop at the sum and pick 7, but the question asks for p + q. So the answer is 17.
+Source: NCERT Class 10 Mathematics
+
+79. The sum of the first 20 terms of the AP 3, 7, 11, … is
+(a) 800 (b) 820 (c) 840 (d) 860
+Answer: (b)
+Solution: Here a = 3, d = 4, n = 20. S₂₀ = (20/2)[2(3) + 19(4)] = 10 × 82 = 820. The trap is using 20 × 4 instead of 19 × 4 inside the bracket, which inflates the result. So the answer is 820.
+Source: NCERT Class 10 Mathematics
+
+80. The 15th term of the AP 5, 9, 13, … is
+(a) 69 (b) 57 (c) 65 (d) 61
+Answer: (d)
+Solution: a₁₅ = a + 14d = 5 + 14 × 4 = 61. A frequent slip is multiplying 15 × 4 instead of 14 × 4, giving 65. So the answer is 61.
+Source: NCERT Class 10 Mathematics
+
+81. For what value of k does the equation kx² − 6x + 2 = 0 have equal roots?
+(a) 9/2 (b) 4 (c) 3 (d) 6
+Answer: (a)
+Solution: Equal roots need discriminant zero: 36 − 8k = 0, so k = 36/8 = 9/2. The trap is setting 36 − 4k = 0 by ignoring the constant term 2, which gives 9. So the answer is 9/2.
+Source: NCERT Class 10 Mathematics
+
+82. The roots of x² + 5x + 6 = 0 are
+(a) 2 and 3 (b) 2 and −3 (c) −2 and −3 (d) −2 and 3
+Answer: (c)
+Solution: x² + 5x + 6 = (x + 2)(x + 3) = 0, giving x = −2, −3. The tempting pair 2 and 3 comes from ignoring that both factors have plus signs, so both roots are negative. So the answer is −2 and −3.
+Source: NCERT Class 10 Mathematics
+
+83. How many terms of the AP 9, 17, 25, … must be taken to give a sum of 636?
+(a) 12 (b) 11 (c) 10 (d) 13
+Answer: (a)
+Solution: Sₙ = (n/2)[18 + (n − 1)8] = 636 gives 4n² + 5n − 636 = 0, whose positive root is n = 12. The trap is miscomputing the bracket as 18 + 8n, which leads to a wrong quadratic. So the answer is 12.
+Source: NCERT Class 10 Mathematics
+
+84. If α and β are roots of 3x² − 5x + 2 = 0, then α² + β² equals
+(a) 25/9 (b) 7/9 (c) 11/9 (d) 13/9
+Answer: (d)
+Solution: α + β = 5/3 and αβ = 2/3. Then α² + β² = (5/3)² − 2(2/3) = 25/9 − 12/9 = 13/9. The trap is squaring the sum and stopping at 25/9 without subtracting 2αβ. So the answer is 13/9.
+Source: NCERT Class 11 Mathematics
+
+85. The 10th term of the GP 3, 6, 12, … is
+(a) 3072 (b) 1536 (c) 768 (d) 512
+Answer: (b)
+Solution: a₁₀ = ar⁹ = 3 × 2⁹ = 3 × 512 = 1536. The common slip is using r¹⁰ instead of r⁹, which doubles the result to 3072. So the answer is 1536.
+Source: NCERT Class 11 Mathematics
+
+86. The sum of the infinite GP 1, 1/3, 1/9, … is
+(a) 4/3 (b) 3/2 (c) 2 (d) 5/3
+Answer: (b)
+Solution: S = a/(1 − r) = 1/(1 − 1/3) = 1/(2/3) = 3/2. The trap is taking r = 3, which is invalid since the formula needs |r| less than 1. So the answer is 3/2.
+Source: NCERT Class 11 Mathematics
+
+87. If the equation x² − (k + 2)x + 2k = 0 has one root equal to 2, then k equals
+(a) 1 (b) 2 (c) any real number (d) 0
+Answer: (c)
+Solution: Substituting x = 2 gives 4 − 2(k + 2) + 2k = 0, which holds for every k since the equation factors as (x − 2)(x − k). The trap is assuming a unique k must exist and guessing 2. So the answer is any real number.
+Source: NCERT Class 10 Mathematics
+
+88. The sum of all two-digit natural numbers divisible by 7 is
+(a) 742 (b) 735 (c) 728 (d) 721
+Answer: (c)
+Solution: The numbers are 14, 21, …, 98, an AP with first term 14, last term 98 and 13 terms. Sum = (13/2)(14 + 98) = 13 × 56 = 728. The trap is counting 14 terms by including 7, which is not a two-digit number. So the answer is 728.
+Source: NCERT Class 10 Mathematics
+
+89. If the roots of x² − 8x + m = 0 differ by 2, then m equals
+(a) 12 (b) 16 (c) 15 (d) 10
+Answer: (c)
+Solution: Let the roots be r and r + 2. Sum gives 2r + 2 = 8, so r = 3 and the roots are 3 and 5, giving m = 15. The trap is taking m = 16 by assuming equal roots of 4 each. So the answer is 15.
+Source: NCERT Class 10 Mathematics
+
+90. The 7th term of an AP is 40 and the 13th term is 70. The first term is
+(a) 12 (b) 15 (c) 8 (d) 10
+Answer: (d)
+Solution: a + 6d = 40 and a + 12d = 70. Subtracting, 6d = 30, so d = 5 and a = 40 − 30 = 10. The trap is subtracting 7d instead of 6d from 40 after finding d. So the answer is 10.
+Source: NCERT Class 10 Mathematics
+
+91. The quadratic equation whose roots are 1/2 and −3 is
+(a) 2x² + 5x − 3 = 0 (b) 2x² − 5x − 3 = 0 (c) 2x² + 5x + 3 = 0 (d) x² + 5x − 3 = 0
+Answer: (a)
+Solution: Sum = 1/2 − 3 = −5/2 and product = −3/2. The equation is x² − (−5/2)x + (−3/2) = 0, i.e. 2x² + 5x − 3 = 0. The trap is flipping the sign of the middle term. So the answer is 2x² + 5x − 3 = 0.
+Source: NCERT Class 10 Mathematics
+
+92. The sum of the series 5 + 10 + 15 + … up to 20 terms is
+(a) 1050 (b) 1000 (c) 1100 (d) 950
+Answer: (a)
+Solution: This is an AP with a = 5, d = 5, n = 20. S = (20/2)[10 + 19 × 5] = 10 × 105 = 1050. The trap is using 20 × 5 instead of 19 × 5 in the bracket, which gives 1100. So the answer is 1050.
+Source: NCERT Class 10 Mathematics
+
+93. If x² + bx + 36 = 0 has equal roots, then the positive value of b is
+(a) 18 (b) 6 (c) 12 (d) 9
+Answer: (c)
+Solution: Equal roots require b² − 4 × 36 = 0, so b² = 144 and b = 12 (positive). The trap is answering 6 by taking the square root of 36 instead of 144. So the answer is 12.
+Source: NCERT Class 10 Mathematics
+
+94. The third term of a GP is 12 and the sixth term is 96. The common ratio is
+(a) 3 (b) 4 (c) 2 (d) 6
+Answer: (c)
+Solution: ar² = 12 and ar⁵ = 96. Dividing, r³ = 8, so r = 2. The trap is computing 96/12 = 8 and taking r = 4, forgetting to take the cube root. So the answer is 2.
+Source: NCERT Class 11 Mathematics
+
+95. The number of real roots of x² − 6x + 10 = 0 is
+(a) 1 (b) 0 (c) 2 (d) cannot be determined
+Answer: (b)
+Solution: Discriminant = 36 − 40 = −4 < 0, so there are no real roots. The trap is a sign slip that turns 36 − 40 into +4, suggesting two real roots. So the answer is 0.
+Source: NCERT Class 10 Mathematics
+
+96. The sum of the first n terms of an AP is 3n² + 2n. Its common difference is
+(a) 6 (b) 3 (c) 5 (d) 2
+Answer: (a)
+Solution: First term a = S₁ = 5, and S₂ = 16, so the second term is 16 − 5 = 11 and d = 11 − 5 = 6. The trap is reading the coefficient 3 as the common difference; actually d is twice that coefficient. So the answer is 6.
+Source: NCERT Class 11 Mathematics
+
+97. If α and β are roots of x² − 6x + 4 = 0, then 1/α + 1/β equals
+(a) 6 (b) 3/2 (c) 2/3 (d) 1/4
+Answer: (b)
+Solution: 1/α + 1/β = (α + β)/(αβ) = 6/4 = 3/2. The trap is inverting the ratio and answering 2/3, which is αβ/(α + β). So the answer is 3/2.
+Source: NCERT Class 10 Mathematics
+
+98. Which term of the AP 21, 18, 15, … is zero?
+(a) 6th (b) 8th (c) 9th (d) 7th
+Answer: (b)
+Solution: aₙ = 21 + (n − 1)(−3) = 0 gives (n − 1) × 3 = 21, so n − 1 = 7 and n = 8. The trap is dividing 21 by 3 and answering 7, forgetting to add 1 for the term count. So the answer is 8th.
+Source: NCERT Class 10 Mathematics
+
+99. The product of the roots of 5x² − 3x − 2 = 0 is
+(a) −2/5 (b) 2/5 (c) −3/5 (d) 3/5
+Answer: (a)
+Solution: Product of roots = c/a = −2/5. The trap is answering 2/5 by dropping the negative sign, or 3/5 by confusing the product with the sum of roots. So the answer is −2/5.
+Source: NCERT Class 10 Mathematics
+
+100. The sum of the series 1 + 2 + 4 + 8 + … up to 10 terms is
+(a) 511 (b) 1024 (c) 2047 (d) 1023
+Answer: (d)
+Solution: This is a GP with a = 1, r = 2, n = 10. S = a(rⁿ − 1)/(r − 1) = 2¹⁰ − 1 = 1023. The trap is answering 1024, which is 2¹⁰, forgetting to subtract 1. So the answer is 1023.
+Source: NCERT Class 11 Mathematics

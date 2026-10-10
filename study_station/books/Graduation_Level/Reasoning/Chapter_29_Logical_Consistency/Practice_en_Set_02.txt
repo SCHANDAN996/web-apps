@@ -1,0 +1,151 @@
+Questions 26–50: Medium
+
+26. Statements: All pens are books. Some books are chairs. Conclusions: I. Some pens are chairs. II. Some chairs are books.
+(a) Only I follows (b) Both follow (c) Only II follows (d) Neither follows
+Answer: (c)
+Solution: The tempting trap is conclusion I: since pens are inside books and some books are chairs, it feels like pens must touch chairs — but the books that are chairs may lie entirely outside the pens. Conclusion II is just the converse of "Some books are chairs", which always holds, so the answer is Only II follows.
+Source: PYQ-style
+
+27. Statements: No dog is a cat. All cats are animals. Conclusions: I. No dog is an animal. II. Some animals are not dogs.
+(a) Both follow (b) Only I follows (c) Only II follows (d) Neither follows
+Answer: (c)
+Solution: The trap is conclusion I — "no dog is a cat" does not push dogs outside animals, because dogs could be animals that are not cats. Since all cats are animals and no cat is a dog, at least the cat-animals are not dogs, so the answer is Only II follows.
+Source: PYQ-style
+
+28. Statements: Some teachers are doctors. All doctors are honest. Conclusions: I. Some teachers are honest. II. All honest people are doctors.
+(a) Neither follows (b) Only II follows (c) Only I follows (d) Both follow
+Answer: (c)
+Solution: The trap is conclusion II, a reversed "all": honest people may include many non-doctors. But the teachers who are doctors are necessarily honest, so the answer is Only I follows.
+Source: PYQ-style
+
+29. Statements: All flowers are leaves. No leaf is a root. Conclusions: I. No flower is a root. II. Some leaves are flowers.
+(a) Both follow (b) Only II follows (c) Only I follows (d) Neither follows
+Answer: (a)
+Solution: Since flowers sit entirely inside leaves and leaves never touch roots, no flower can be a root; and "all flowers are leaves" directly converts to "some leaves are flowers". Both conclusions hold, so the answer is Both follow.
+Source: PYQ-style
+
+30. Statements: Some cars are buses. Some buses are trucks. Conclusions: I. Some cars are trucks. II. Some trucks are buses.
+(a) Only II follows (b) Neither follows (c) Both follow (d) Only I follows
+Answer: (a)
+Solution: The trap is chaining two "some" statements — the buses that are cars and the buses that are trucks need not overlap, so conclusion I fails. Conclusion II is the valid converse of "some buses are trucks", so the answer is Only II follows.
+Source: PYQ-style
+
+31. Statements: All mobiles are gadgets. Some gadgets are costly. Conclusions: I. Some mobiles are costly. II. All gadgets are mobiles.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (d)
+Solution: Both conclusions are traps: the costly gadgets may exclude mobiles entirely, and "all gadgets are mobiles" reverses the given relation. Neither is guaranteed, so the answer is Neither follows.
+Source: PYQ-style
+
+32. Statements: No politician is honest. Some honest people are rich. Conclusions: I. Some rich people are not politicians. II. No rich person is a politician.
+(a) Both follow (b) Only II follows (c) Neither follows (d) Only I follows
+Answer: (d)
+Solution: The trap is conclusion II — rich people who are not in the "honest" group could still be politicians. But the honest-rich people definitely cannot be politicians, so the answer is Only I follows.
+Source: PYQ-style
+
+33. Statements: All A are B. All B are C. Conclusions: I. All A are C. II. Some C are A.
+(a) Only I follows (b) Both follow (c) Only II follows (d) Neither follows
+Answer: (b)
+Solution: This is a clean chain: A inside B inside C gives "all A are C", and whenever all A are C, at least some C are A. Both conclusions hold, so the answer is Both follow.
+Source: PYQ-style
+
+34. Statements: Some boys are students. No student is lazy. Conclusions: I. Some boys are not lazy. II. No boy is lazy.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (a)
+Solution: The trap is conclusion II — boys who are not students may well be lazy. But the student-boys are certainly not lazy, so the answer is Only I follows.
+Source: PYQ-style
+
+35. Statements: All cups are plates. All plates are spoons. Conclusions: I. All cups are spoons. II. All spoons are cups.
+(a) Both follow (b) Only II follows (c) Only I follows (d) Neither follows
+Answer: (c)
+Solution: The trap is conclusion II, which reverses the chain — spoons may be a much larger set than cups. The forward chain "cups → plates → spoons" is valid, so the answer is Only I follows.
+Source: PYQ-style
+
+36. Statements: Some fruits are sweet. All sweet things are harmful. Conclusions: I. Some fruits are harmful. II. All harmful things are sweet.
+(a) Only II follows (b) Neither follows (c) Both follow (d) Only I follows
+Answer: (d)
+Solution: Conclusion II is the classic reversed-"all" trap; harmful things need not be sweet. The sweet fruits must be harmful, so the answer is Only I follows.
+Source: PYQ-style
+
+37. Statements: No pen is a pencil. All pencils are erasers. Conclusions: I. Some erasers are not pens. II. No eraser is a pen.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (a)
+Solution: The trap is conclusion II — erasers that are not pencils could still be pens, so a universal "no" is too strong. But the pencil-erasers are certainly not pens, so the answer is Only I follows.
+Source: PYQ-style
+
+38. Statements: All rivers are streams. Some streams are canals. Conclusions: I. Some rivers are canals. II. Some canals are streams.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (b)
+Solution: The trap is assuming the canal-streams overlap the rivers; nothing forces that. The converse "some canals are streams" is always valid, so the answer is Only II follows.
+Source: PYQ-style
+
+39. Statements: Some books are novels. All novels are stories. Conclusions: I. Some books are stories. II. Some stories are novels.
+(a) Only I follows (b) Both follow (c) Only II follows (d) Neither follows
+Answer: (b)
+Solution: The books that are novels are stories, giving conclusion I; and "all novels are stories" converts to "some stories are novels", giving conclusion II. Both are valid, so the answer is Both follow.
+Source: PYQ-style
+
+40. Statements: All chairs are tables. No table is a bed. Conclusions: I. No chair is a bed. II. Some tables are chairs.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (c)
+Solution: Chairs lie inside tables, and tables never touch beds, so no chair is a bed; also "all chairs are tables" yields "some tables are chairs". Both conclusions hold, so the answer is Both follow.
+Source: PYQ-style
+
+41. Statements: Some singers are dancers. Some dancers are actors. Conclusions: I. Some singers are actors. II. Some actors are dancers.
+(a) Only II follows (b) Only I follows (c) Both follow (d) Neither follows
+Answer: (a)
+Solution: Two "some" statements cannot be chained — the dancer-singers and dancer-actors may be disjoint, which is the trap in conclusion I. Conclusion II is the valid converse, so the answer is Only II follows.
+Source: PYQ-style
+
+42. Statements: All gold is metal. Some metals are cheap. Conclusions: I. Some gold is cheap. II. No gold is cheap.
+(a) Only I follows (b) Neither follows (c) Only II follows (d) Both follow
+Answer: (b)
+Solution: Both conclusions are traps: the cheap metals may exclude gold, so conclusion I fails; but nothing forbids gold from being cheap either, so the negative conclusion II also fails. Hence the answer is Neither follows.
+Source: PYQ-style
+
+43. Statements: No bird is a mammal. All sparrows are birds. Conclusions: I. No sparrow is a mammal. II. Some mammals are sparrows.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (a)
+Solution: Conclusion II directly contradicts the premises and is a pure distractor. Sparrows lie inside birds, and birds never touch mammals, so the answer is Only I follows.
+Source: PYQ-style
+
+44. Statements: Some laptops are computers. All computers are machines. Conclusions: I. Some laptops are machines. II. All machines are computers.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (a)
+Solution: Conclusion II reverses "all computers are machines" — a frequent examiner's trap. The laptops that are computers must be machines, so the answer is Only I follows.
+Source: PYQ-style
+
+45. Statements: All poets are readers. Some readers are writers. Conclusions: I. Some poets are writers. II. Some readers are poets.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (b)
+Solution: The trap is conclusion I — the writer-readers may lie entirely outside the poets. But "all poets are readers" converts to "some readers are poets", so the answer is Only II follows.
+Source: PYQ-style
+
+46. Statements: Some apples are red. All red things are attractive. Conclusions: I. Some apples are attractive. II. All attractive things are red.
+(a) Neither follows (b) Only II follows (c) Both follow (d) Only I follows
+Answer: (d)
+Solution: Conclusion II is the reversed-"all" trap; attractiveness is not limited to red things. The red apples are necessarily attractive, so the answer is Only I follows.
+Source: PYQ-style
+
+47. Statements: No student is a player. Some players are tall. Conclusions: I. Some tall people are not students. II. Some students are tall.
+(a) Both follow (b) Only II follows (c) Neither follows (d) Only I follows
+Answer: (d)
+Solution: Conclusion II is a trap — nothing connects students to tallness, and the tall people mentioned are players, who exclude students. The tall players are certainly not students, so the answer is Only I follows.
+Source: PYQ-style
+
+48. Statements: All engineers are graduates. Some graduates are unemployed. Conclusions: I. Some engineers are unemployed. II. Some graduates are engineers.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (b)
+Solution: The trap is conclusion I — the unemployed graduates may include no engineers at all. "All engineers are graduates" converts to "some graduates are engineers", so the answer is Only II follows.
+Source: PYQ-style
+
+49. Statements: Some houses are big. All big things are expensive. Conclusions: I. Some houses are expensive. II. Some expensive things are houses.
+(a) Only I follows (b) Neither follows (c) Only II follows (d) Both follow
+Answer: (d)
+Solution: The big houses are expensive, giving conclusion I; and "some houses are expensive" converts directly to "some expensive things are houses", giving conclusion II. Hence the answer is Both follow.
+Source: PYQ-style
+
+50. Statements: All cats are animals. Some animals are black. Conclusions: I. Some cats are black. II. Some black things are animals.
+(a) Only I follows (b) Both follow (c) Only II follows (d) Neither follows
+Answer: (c)
+Solution: The trap is conclusion I — the black animals may be entirely non-cats, so cats and black need not meet. Conclusion II is the valid converse of "some animals are black", so the answer is Only II follows.
+Source: PYQ-style

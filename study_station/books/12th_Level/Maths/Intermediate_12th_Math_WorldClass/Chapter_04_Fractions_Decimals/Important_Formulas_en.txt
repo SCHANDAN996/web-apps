@@ -1,8 +1,87 @@
-# Chapter: Fractions & Decimals, Level: intermediate
+# 📋 Important Formulas — Fractions & Decimals
 
-@content_agent lang=en level=intermediate 'List all important formulas, equations, and rules for Fractions & Decimals.
-Instructions:
-- Only formulas and a one-line hint (when to use), no detailed explanation.
-- Present in a clean table: Formula Name | Formula | Use-Hint
-- Cover all formulas essential for solving exam questions.
-- Keep language simple and precise.'
+## 1. Basic Fraction Rules
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Fraction definition | Fraction = Numerator / Denominator | Identify parts of a whole |
+| Equivalent fractions | a/b = (a×k)/(b×k) = (a÷k)/(b÷k) | Comparing or simplifying fractions |
+| Comparing two fractions | a/b ⋛ c/d → compare a×d with c×b | Cross-multiplication; bigger product = bigger fraction |
+| Addition / Subtraction | a/b ± c/d = (a×d ± c×b)/(b×d) | Use when denominators differ; or take LCM of denominators |
+| Multiplication | (a/b) × (c/d) = (a×c)/(b×d) | Cancel common factors before multiplying |
+| Division | (a/b) ÷ (c/d) = (a/b) × (d/c) | "Keep–Change–Flip": invert the second fraction |
+| Reciprocal | Reciprocal of a/b = b/a | Needed for division of fractions |
+| Mixed → Improper | N R/D = (N×D + R)/D | Convert before any calculation |
+| Improper → Mixed | a/b = Quotient + Remainder/b | For final answers in mixed form |
+
+## 2. Fraction–Decimal–Percentage Conversion
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Fraction → Decimal | Divide numerator by denominator | a/b = a ÷ b |
+| Decimal → Fraction | 0.abcd… = abcd…/10ⁿ (n = decimal places) | Then reduce to lowest terms |
+| Fraction → Percentage | (a/b) × 100% | Multiply fraction by 100 |
+| Percentage → Fraction | x% = x/100 | Reduce to lowest terms |
+| Decimal → Percentage | 0.xy = xy% | Shift decimal point 2 places right |
+| Percentage → Decimal | x% = x/100 = 0.0x… | Shift decimal point 2 places left |
+
+## 3. Recurring (Repeating) Decimals
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Pure recurring decimal | 0.a̅ = a/9; 0.ab̅ = ab/99; 0.abc̅ = abc/999 | Denominator = as many 9s as repeating digits |
+| Mixed recurring decimal | 0.xy̅ = (xy − x)/90; 0.xy z̅ = (xyz − xy)/900 | Denominator: 9s for repeating digits, then 0s for non-repeating |
+| General rule | 0.(non-rep)(rep)̅ = [whole number − non-repeating part] / [9s followed by 0s] | One-line conversion for any recurring decimal |
+
+## 4. Operations on Decimals
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Addition / Subtraction | Align decimal points, then add/subtract | Fill missing places with zeros |
+| Multiplication | Multiply as whole numbers; decimal places in product = sum of decimal places of factors | 0.2 × 0.03 → 2×3 = 6, places = 1+2 = 3 → 0.006 |
+| Division by decimal | Multiply dividend & divisor by 10ⁿ to make divisor whole | 4.5 ÷ 0.15 = 450 ÷ 15 = 30 |
+| ×10, ×100, ×1000 | Shift decimal point right by 1, 2, 3 places | Quick multiplication by powers of 10 |
+| ÷10, ÷100, ÷1000 | Shift decimal point left by 1, 2, 3 places | Quick division by powers of 10 |
+
+## 5. Comparison & Ordering
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Comparing decimals | Equalize decimal places with zeros, then compare digit by digit from left | 0.5 vs 0.45 → 0.50 > 0.45 |
+| Comparing fractions (same numerator) | Smaller denominator → bigger fraction | 3/7 > 3/11 |
+| Comparing fractions (same denominator) | Bigger numerator → bigger fraction | 5/9 > 4/9 |
+| Fraction between two fractions | (a+c)/(b+d) lies between a/b and c/d | Quick check for "which lies between" questions |
+| Ascending/Descending order | Convert all to decimals OR make denominators equal (LCM) | Use decimals for speed in exams |
+
+## 6. Standard Fraction–Decimal–Percentage Values (Memorize)
+
+| Fraction | Decimal | Percentage |
+|---|---|---|
+| 1/2 | 0.5 | 50% |
+| 1/3 | 0.333… | 33⅓% |
+| 1/4 | 0.25 | 25% |
+| 1/5 | 0.2 | 20% |
+| 1/6 | 0.1666… | 16⅔% |
+| 1/7 | 0.142857… | 14²⁄₇% |
+| 1/8 | 0.125 | 12.5% |
+| 1/9 | 0.111… | 11⅑% |
+| 1/10 | 0.1 | 10% |
+| 1/11 | 0.0909… | 9¹⁄₁₁% |
+| 1/12 | 0.0833… | 8⅓% |
+| 1/15 | 0.0666… | 6⅔% |
+| 1/16 | 0.0625 | 6.25% |
+| 1/20 | 0.05 | 5% |
+| 1/25 | 0.04 | 4% |
+| 1/40 | 0.025 | 2.5% |
+| 1/50 | 0.02 | 2% |
+
+## 7. Quick-Use Exam Rules
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Sum of fractions of a whole | Sum of all parts = 1 | "Remaining part" problems: remaining = 1 − (sum of given parts) |
+| Part of a quantity | Part = Fraction × Total | "2/5 of ₹500" = (2/5) × 500 |
+| Finding the whole | Whole = Part ÷ Fraction | If 3/7 of a number is 45, number = 45 × 7/3 |
+| Successive fractions spent | Remaining = Total × (1 − f₁) × (1 − f₂) × … | "Spends 1/3, then 1/4 of rest" type problems |
+| HCF/LCM of fractions | HCF = HCF(numerators)/LCM(denominators); LCM = LCM(numerators)/HCF(denominators) | Direct formula for fraction HCF–LCM questions |
+| Terminating decimal test | a/b terminates ⇔ denominator (in lowest terms) has only factors 2 and/or 5 | 3/40 terminates (40 = 2³×5); 5/12 does not (12 has 3) |

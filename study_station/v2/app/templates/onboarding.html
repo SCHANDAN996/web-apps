@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+{% block title %}{{ tr('settings') if settings_mode else tr('brand') + ' — ' + tr('tagline') }}{% endblock %}
+{% block main %}
+{% if not settings_mode %}
+<section class="hero enter">
+  <h1>{{ tr('tagline') }}</h1>
+  <p>{{ L('अभ्यास, असली परीक्षा जैसे मॉक, ग़लतियों की दोहराई और नौकरियों की जानकारी — एक जगह, मुफ़्त।', 'Practice, real exam-style mocks, mistake revision and job updates — in one place, free.') }}</p>
+</section>
+{% endif %}
+<form id="onboard" class="card stack enter" style="margin-top:var(--sp-4)">
+  <h2>{{ tr('settings') if settings_mode else tr('onb_title') }}</h2>
+  <fieldset>
+    <legend>{{ tr('onb_lang') }}</legend>
+    <div class="chips">
+      {% for code, label in [('hi', 'हिंदी'), ('en', 'English')] %}
+      <label class="chip"><input type="radio" name="lang" value="{{ code }}" {% if lang == code %}checked{% endif %}>{{ label }}</label>
+      {% endfor %}
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>{{ tr('onb_level') }}</legend>
+    <div class="chips">
+      {% for code, hi, en in levels %}
+      <label class="chip"><input type="radio" name="level" value="{{ code }}" required {% if device and device.level == code %}checked{% endif %}>{{ L(hi, en) }}</label>
+      {% endfor %}
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>{{ tr('onb_exams') }}</legend>
+    <div class="chips">
+      {% for e in exams %}
+      <label class="chip" data-level="{{ e.level }}"><input type="checkbox" name="exams" value="{{ e.slug }}" {% if device and e.slug in (device.target_exams or []) %}checked{% endif %}>{{ L(e.name_hi, e.name_en) }}</label>
+      {% endfor %}
+    </div>
+  </fieldset>
+  <button class="btn btn-primary btn-block" type="submit">{{ tr('save') if settings_mode else tr('onb_save') }}</button>
+  <p class="xs muted" style="text-align:center">{{ tr('onb_hint') }}</p>
+</form>
+
+{% if settings_mode %}
+<section class="card enter" style="margin-top:var(--sp-4)">
+  <h2>{{ tr('theme') }}</h2>
+  <div class="seg seg-wide" role="radiogroup" aria-label="{{ tr('theme') }}">
+    <button type="button" class="seg-btn" data-theme-set="system" aria-pressed="false">{{ tr('theme_system') }}</button>
+    <button type="button" class="seg-btn" data-theme-set="light" aria-pressed="false">{{ tr('theme_light') }}</button>
+    <button type="button" class="seg-btn" data-theme-set="dark" aria-pressed="false">{{ tr('theme_dark') }}</button>
+  </div>
+  <p class="xs muted" style="margin:var(--sp-2) 0 0">{{ tr('theme_hint') }}</p>
+</section>
+{% endif %}
+
+<section class="card stack enter" id="sync" style="margin-top:var(--sp-4)">
+  <h2>{{ tr('sync_title') }}</h2>
+  <p class="small muted">{{ tr('sync_desc') }}</p>
+  {% if device %}
+  <div>
+    <button class="btn btn-secondary" id="syncMake" type="button">{{ tr('sync_make') }}</button>
+    <p id="syncCode" class="q-text" style="margin:var(--sp-3) 0 0;letter-spacing:.08em" hidden></p>
+    <p id="syncWarn" class="xs muted" hidden>{{ tr('sync_warn') }}</p>
+  </div>
+  {% endif %}
+  <form id="syncRestore" class="row">
+    <input class="in" name="code" required minlength="12" maxlength="24" autocomplete="off" autocapitalize="characters"
+           placeholder="SS-XXXX-XXXX-XXXX" aria-label="{{ tr('sync_enter') }}"
+           style="flex:1;min-width:0;min-height:var(--tap);padding:0 12px;border-radius:var(--r-md);border:1px solid var(--border);background:var(--surface)">
+    <button class="btn btn-primary" type="submit">{{ tr('sync_restore') }}</button>
+  </form>
+</section>
+{% endblock %}

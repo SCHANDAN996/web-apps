@@ -1,0 +1,158 @@
+# Permutation & Combination
+
+## The Chapter That Decides Ranks
+
+Here's a fact that should wake you up: in almost every advanced exam — SSC CGL Tier-II, IBPS PO Mains, CAT, UPSC CSAT — at least one question appears where the entire solution is a single line like **¹⁰C₃ = 120** or **8! = 40,320**. Students who understand the *logic* finish it in 20 seconds. Students who memorised formulas without understanding spend 4 minutes and still pick the wrong option.
+
+Why? Because Permutation & Combination (P&C) is not really a "maths" chapter. It is a **counting** chapter. And counting is something you've done since childhood — you just never learned its two secret rules.
+
+**Learning goals for this chapter:**
+1. Master the Fundamental Principle of Counting (AND rule vs OR rule).
+2. Clearly distinguish Permutation (order matters) from Combination (order doesn't).
+3. Handle circular arrangements, repetitions, and identical objects.
+4. Solve advanced patterns: selection with constraints, distribution, derangements, and grouping.
+5. Spot the examiner's traps before they trap you.
+
+---
+
+## 1. The Fundamental Principle of Counting — The Mother of All P&C
+
+Imagine you have 3 shirts and 2 trousers. How many outfits? You don't need a formula — you pair each shirt with each trouser: 3 × 2 = **6**.
+
+That's it. That's the **Multiplication Rule**: if task A can be done in *m* ways AND task B in *n* ways, both together can be done in **m × n** ways.
+
+Now the twin rule: if you must do task A **OR** task B (only one of them), the total is **m + n** ways.
+
+> **The golden question to ask yourself:** "Am I doing both tasks, or choosing one?"
+> - Both → **AND → Multiply (×)**
+> - One of them → **OR → Add (+)**
+
+🧠 **Active Recall:** A menu has 4 soups, 6 main courses, and 3 desserts. How many complete meals (one of each)? And how many choices if you pick *either* a soup *or* a dessert only? *(Answer: 4×6×3 = 72; and 4+3 = 7.)*
+
+---
+
+## 2. Factorial — The Engine of P&C
+
+**n! = n × (n−1) × (n−2) × … × 2 × 1**, and by definition **0! = 1**.
+
+Why does 0! = 1? Because there is exactly **one** way to arrange zero objects — do nothing. This tiny fact saves you in dozens of formula cancellations.
+
+Memorise these cold: 0!=1, 1!=1, 2!=2, 3!=6, 4!=24, 5!=120, 6!=720, 7!=5040, 8!=40320, 9!=362880, 10!=3628800.
+
+🧠 **Active Recall:** Without a calculator, what is 8! ÷ 6!? *(Answer: 8×7 = 56 — factorials cancel from the bottom up.)*
+
+---
+
+## 3. Permutation — When ORDER Matters
+
+A **permutation** is an arrangement. If you award Gold, Silver, Bronze among 8 athletes, then "A first, B second" is *different* from "B first, A second". Order matters.
+
+**Number of permutations of n distinct objects taken r at a time:**
+
+$$^nP_r = \frac{n!}{(n-r)!}$$
+
+Special case: arranging all n objects = **n!**.
+
+**With repetition allowed:** n^r (e.g., 3-digit codes from 5 digits, digits repeatable = 5³).
+
+**With identical objects:** if among n objects, p are alike of one kind, q of another:
+$$\frac{n!}{p!\,q!\,r!\dots}$$
+Classic example: the word **ALLAHABAD** has 9 letters with A×4, L×2 → arrangements = 9!/(4!·2!) = 7560.
+
+🧠 **Active Recall:** How many words (meaningful or not) can be formed from the letters of "LEVEL"? *(Answer: 5!/(2!·2!) = 30, since L and E each repeat twice.)*
+
+---
+
+## 4. Combination — When ORDER Does NOT Matter
+
+A **combination** is a selection. Choosing a committee of 3 from 10 people — the committee {Ram, Shyam, Mohan} is the *same* as {Mohan, Ram, Shyam}. Order is irrelevant.
+
+$$^nC_r = \frac{n!}{r!\,(n-r)!}$$
+
+**The bridge between the two:** ⁿPᵣ = ⁿCᵣ × r! — every selection of r objects can be arranged in r! ways. So a combination is just a permutation with the internal ordering *divided out*.
+
+**Key identities (examiners love these):**
+- ⁿCᵣ = ⁿCₙ₋ᵣ (choosing 3 to include = choosing n−3 to exclude)
+- ⁿC₀ = ⁿCₙ = 1
+- ⁿCᵣ + ⁿCᵣ₋₁ = ⁿ⁺¹Cᵣ (Pascal's rule)
+- ⁿC₀ + ⁿC₁ + … + ⁿCₙ = 2ⁿ (total subsets of an n-set)
+
+🧠 **Active Recall:** ¹²C₉ = ? Don't compute — use the identity. *(Answer: ¹²C₃ = 220.)*
+
+---
+
+## 5. 🎵 The Mnemonic That Ends All Confusion
+
+> **"P for Position, C for Committee."**
+>
+> **P**ermutation → **P**osition, **P**odium, **P**assword → order matters → **P** is **P**icky.
+> **C**ombination → **C**ommittee, **C**ombo meal, **C**ollection → order doesn't matter → **C** is **C**hill.
+
+One more for the counting rules: **"AND you multiply, OR you add"** — *"And-Multiply, Or-Add"* — say it like a chant: **AM-OA**.
+
+---
+
+## 6. Circular Permutations — The Round Table Trap
+
+Arranging n people in a **row**: n! ways.
+Arranging n people around a **circle**: **(n−1)!** ways.
+
+Why? In a circle, rotating everyone by one seat doesn't create a new arrangement — only *relative* positions matter. So we fix one person and arrange the remaining (n−1).
+
+**Garlands / necklaces (flipping allowed):** (n−1)! / 2, because a necklace looks the same when flipped.
+
+🧠 **Active Recall:** 6 people around a round table; 6 beads in a necklace. *(Answers: 5! = 120; 5!/2 = 60.)*
+
+---
+
+## 7. Advanced Patterns Every Graduation-Level Exam Tests
+
+**(a) "Together / Never together":** Treat the glued pair as one unit, arrange, then multiply by internal arrangements. "Never together" = Total − Together.
+
+**(b) Vowels together / consonants fixed:** Same glue technique on letter groups.
+
+**(c) At least / At most selections:** Break into cases and ADD. E.g., committee of 4 from 5 men, 4 women with *at least 2 women* = (²W + ³W + ⁴W cases) summed.
+
+**(d) Distributing n distinct objects into r distinct boxes (no box empty):** use inclusion–exclusion or Stirling logic; if boxes identical, it's a partition problem.
+
+**(e) Derangements** (no object in its original place):
+$$D_n = n!\left(1 - \frac{1}{1!} + \frac{1}{2!} - \dots + (-1)^n\frac{1}{n!}\right)$$
+Memorise: D₂=1, D₃=2, D₄=9, D₅=44. (The classic "letters in wrong envelopes" question.)
+
+**(f) Number of ways to select r from n with repetition allowed:** ⁿ⁺ʳ⁻¹Cᵣ (stars and bars — e.g., distributing identical chocolates among children).
+
+**(g) Geometry links:** Number of lines from n points (no 3 collinear) = ⁿC₂; triangles = ⁿC₃; diagonals of an n-gon = n(n−3)/2.
+
+🧠 **Active Recall:** In how many ways can 4 letters go into 4 wrong envelopes (none correct)? *(Answer: D₄ = 9.)*
+
+---
+
+## 8. The Examiner's Three Favourite Traps
+
+1. **The order trap:** "Committee of 3 with a president, secretary, treasurer" — sounds like combination, but the posts make it a **permutation** (or ⁿC₃ × 3!).
+2. **The "at least one" trap:** Students compute one case and forget the rest. Complement method is often faster: Total − (none).
+3. **The identical-objects trap:** Words like BANANA, MISSISSIPPI — forgetting to divide by repeated-letter factorials inflates the answer.
+
+---
+
+## 📋 Summary Table
+
+| Concept | Formula | Use When |
+|---|---|---|
+| AND rule | m × n | Both tasks together |
+| OR rule | m + n | Either task |
+| Factorial | n! = n(n−1)…1, 0! = 1 | Arranging all n |
+| Permutation | ⁿPᵣ = n!/(n−r)! | Order matters |
+| Combination | ⁿCᵣ = n!/[r!(n−r)!] | Order doesn't matter |
+| Identical objects | n!/(p!q!…) | Repeated items |
+| Circular | (n−1)! | Round table |
+| Necklace | (n−1)!/2 | Flipping allowed |
+| Repetition in selection | ⁿ⁺ʳ⁻¹Cᵣ | Identical items, distinct boxes |
+| Derangement | D₂=1, D₃=2, D₄=9, D₅=44 | Nothing in original place |
+| Total subsets | 2ⁿ | All possible selections |
+
+---
+
+## 🔁 Review Reminder
+
+**Review this chapter after 2 days.** Redo the Active Recall prompts without looking, re-derive ⁿPᵣ = ⁿCᵣ × r! once by hand, and re-solve one "at least one" problem using the complement method. Spaced repetition is what converts this chapter from "confusing" to "free marks".

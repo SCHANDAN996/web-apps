@@ -1,0 +1,22 @@
+{% extends 'admin/base.html' %}
+{% block title %}Jobs{% endblock %}
+{% block main %}
+<h1>Jobs</h1>
+<nav class="chips" style="margin-bottom:var(--sp-4)">
+  {% for s, label in [('pending', 'Pending (hidden)'), ('verified', 'Verified'), ('upcoming', 'Upcoming'), ('legacy', 'Legacy import')] %}
+  <a class="chip" href="?status={{ s }}" {% if s == status %}aria-current="true"{% endif %}>{{ label }}</a>{% endfor %}
+</nav>
+{% if status == 'pending' %}<p class="small muted">Only an aggregator mentioned these. Open one, paste the board's official notice URL and "Verify" — or run <code>python -m app.jobs add URL</code>.</p>{% endif %}
+<table class="tbl">
+  <thead><tr><th>Title</th><th>Type</th><th>Last date</th><th>Seen on</th><th></th></tr></thead>
+  <tbody>
+  {% for j in rows %}
+    <tr><td><b>{{ j.title[:110] }}</b><div class="xs muted">{{ j.org or '' }}</div></td>
+      <td class="xs">{{ j.job_type }}</td>
+      <td class="xs">{{ j.last_date.strftime('%d-%m-%Y') if j.last_date else (j.start_date.strftime('%m-%Y') if j.start_date else '—') }}</td>
+      <td class="xs">{{ j.sources|map(attribute='source')|unique|join(', ') }}</td>
+      <td><a class="btn btn-secondary btn-sm" href="/admin/jobs/{{ j.id }}">Open</a></td></tr>
+  {% else %}<tr><td colspan="5" class="muted">Nothing here.</td></tr>{% endfor %}
+  </tbody>
+</table>
+{% endblock %}

@@ -1,3 +1,46 @@
-# Chapter: Ratio & Proportion, Level: intermediate
+```mermaid
+graph TD
+    A["अनुपात और समानुपात<br>Ratio & Proportion"] --> B["अनुपात<br>Ratio"]
+    A --> C["समानुपात<br>Proportion"]
+    A --> D["अनुप्रयोग<br>Applications"]
 
-@content_agent 'Create a detailed mind map (Mermaid code) for the chapter "Ratio & Proportion". Show main concepts, sub-concepts, and their interconnections clearly.'
+    B --> B1["परिभाषा: a:b = a/b<br>Definition"]
+    B --> B2["पूर्व पद / उत्तर पद<br>Antecedent / Consequent"]
+    B --> B3["अनुपात के प्रकार<br>Types of Ratio"]
+    B --> B4["अनुपात के नियम<br>Rules of Ratio"]
+
+    B3 --> B3a["मिश्र अनुपात<br>Compound Ratio: ac:bd"]
+    B3 --> B3b["द्विगुण / त्रिगुण अनुपात<br>Duplicate a²:b² / Triplicate a³:b³"]
+    B3 --> B3c["उप-द्विगुण / उप-त्रिगुण<br>Sub-duplicate √a:√b / Sub-triplicate ∛a:∛b"]
+    B3 --> B3d["व्युत्क्रम अनुपात<br>Inverse Ratio: b:a"]
+
+    B4 --> B4a["गुणन/भाग से अनुपात अपरिवर्तित<br>Multiply/Divide both terms — ratio unchanged"]
+    B4 --> B4b["यदि a:b = c:d, तो (a+c):(b+d) = a:b<br>If a:b = c:d, then (a+c):(b+d) = a:b"]
+    B4 --> B4c["a:b = c:d बनाने हेतु LCM ट्रिक<br>LCM Trick to merge ratios"]
+
+    C --> C1["परिभाषा: a:b = c:d<br>a:b :: c:d"]
+    C --> C2["मध्य पदों का गुणनफल = बाह्य पदों का गुणनफल<br>Product of Means = Product of Extremes"]
+    C --> C3["समानुपात के प्रकार<br>Types of Proportion"]
+
+    C3 --> C3a["मध्य समानुपाती<br>Mean Proportional: b = √(ac)"]
+    C3 --> C3b["तृतीय समानुपाती<br>Third Proportional: c = b²/a"]
+    C3 --> C3c["चतुर्थ समानुपाती<br>Fourth Proportional: d = bc/a"]
+    C3 --> C3d["सतत समानुपात<br>Continued Proportion: a:b = b:c"]
+
+    C --> C4["अनुपात-समानुपात प्रमेय<br>Theorems"]
+    C4 --> C4a["विलोमानुपात<br>Invertendo: b:a = d:c"]
+    C4 --> C4b["परस्परानुपात<br>Alternendo: a:c = b:d"]
+    C4 --> C4c["योगानुपात<br>Componendo: (a+b):b = (c+d):d"]
+    C4 --> C4d["अंतरानुपात<br>Dividendo: (a−b):b = (c−d):d"]
+    C4 --> C4e["योग-अंतरानुपात<br>Componendo-Dividendo: (a+b)/(a−b) = (c+d)/(c−d)"]
+
+    D --> D1["धन / लाभ-हानि का बँटवारा<br>Sharing Money & Profit-Loss"]
+    D --> D2["मिश्रण और मिश्रधातु<br>Mixtures & Alloys"]
+    D --> D3["आयु संबंधी प्रश्न<br>Age Problems"]
+    D --> D4["आय / व्यय अनुपात<br>Income-Expenditure Ratio"]
+    D --> D5["संख्या में वृद्धि/कमी<br>Increase/Decrease in Ratio"]
+
+    D1 --> D1a["कुल राशि = अनुपात योग × k<br>Total = Sum of ratio parts × k"]
+    D2 --> D2a["मिश्रण में मात्रा = (अनुपात भाग / अनुपात योग) × कुल मात्रा<br>Quantity = (Ratio part / Sum of ratio parts) × Total"]
+    D3 --> D3a["वर्तमान आयु = अनुपात × k<br>Present age = Ratio × k"]
+```

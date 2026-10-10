@@ -1,3 +1,41 @@
-# Chapter: Average, Level: intermediate
+```mermaid
+graph TD
+    A["औसत / Average"] --> B["मूल सूत्र / Basic Formula<br>औसत = योग ÷ संख्या<br>Average = Sum ÷ Count"]
+    A --> C["औसत के प्रकार / Types"]
+    A --> D["संख्याओं पर आधारित / Number-Based"]
+    A --> E["व्यक्ति-समूह प्रश्न / Person-Group Problems"]
+    A --> F["गति-आयु-क्रिकेट / Speed-Age-Cricket"]
+    A --> G["शॉर्ट ट्रिक्स / Short Tricks"]
 
-@content_agent 'Create a detailed mind map (Mermaid code) for the chapter "Average". Show main concepts, sub-concepts, and their interconnections clearly.'
+    B --> B1["योग = औसत × संख्या<br>Sum = Average × Count"]
+    B --> B2["संख्या = योग ÷ औसत<br>Count = Sum ÷ Average"]
+
+    C --> C1["समांतर माध्य / Arithmetic Mean"]
+    C --> C2["भारित औसत / Weighted Average"]
+    C --> C3["क्रमागत संख्याओं का औसत<br>Average of Consecutive Numbers"]
+
+    C3 --> C3a["प्रथम n प्राकृत संख्याएँ<br>First n Natural Numbers<br>(n+1)/2"]
+    C3 --> C3b["प्रथम n सम संख्याएँ<br>First n Even Numbers<br>n+1"]
+    C3 --> C3c["प्रथम n विषम संख्याएँ<br>First n Odd Numbers<br>n"]
+    C3 --> C3d["वर्गों का औसत / Average of Squares<br>(n+1)(2n+1)/6"]
+
+    D --> D1["समान अंतर वाली श्रेणी / AP Series<br>औसत = (पहला + अंतिम)/2"]
+    D --> D2["संख्या बदलने पर औसत में परिवर्तन<br>Change in Average on Replacing Number"]
+
+    E --> E1["नया सदस्य जुड़ना / New Member Joins"]
+    E --> E2["सदस्य हटना / Member Leaves"]
+    E --> E3["गलत पढ़ी गई संख्या / Wrongly Read Number<br>सुधार = सही − गलत"]
+
+    F --> F1["औसत गति / Average Speed<br>समान दूरी: 2xy/(x+y)"]
+    F --> F2["औसत आयु / Average Age<br>n वर्ष बाद सबकी आयु +n"]
+    F --> F3["क्रिकेट औसत / Cricket Average<br>रन ÷ पारियाँ"]
+
+    G --> G1["विचलन विधि / Deviation Method<br>मान लिया औसत + शुद्ध विचलन"]
+    G --> G2["कुल प्रभाव = परिवर्तन × कुल संख्या<br>Total Effect = Change × Total Count"]
+    G --> G3["नया औसत = पुराना ± (अंतर ÷ नई संख्या)<br>New Avg = Old ± (Diff ÷ New Count)"]
+
+    B1 -.-> E1
+    B1 -.-> E2
+    D2 -.-> G2
+    C2 -.-> F1
+```

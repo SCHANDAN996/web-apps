@@ -1,0 +1,151 @@
+Questions 26–45: Easy | Questions 46–50: Medium
+
+26. In a row of students, Ravi is 12th from the left end and 18th from the right end. How many students are there in the row?
+(a) 28 (b) 30 (c) 29 (d) 31
+Answer: (c)
+Solution: The trap is adding 12 + 18 = 30, which counts Ravi twice. Total = position from left + position from right − 1 = 12 + 18 − 1 = 29, so the answer is 29.
+Source: PYQ-style
+
+27. In a class of 45 students, Meena's rank is 17th from the top. What is her rank from the bottom?
+(a) 27 (b) 28 (c) 30 (d) 29
+Answer: (d)
+Solution: The trap is computing 45 − 17 = 28, which forgets the +1 adjustment. Rank from bottom = Total − rank from top + 1 = 45 − 17 + 1 = 29, so the answer is 29.
+Source: PYQ-style
+
+28. In a row of boys, Aman is 10th from the left and Bhanu is 14th from the right. If they interchange their positions, Aman becomes 22nd from the left. How many boys are in the row?
+(a) 35 (b) 36 (c) 34 (d) 37
+Answer: (a)
+Solution: After interchange, Aman stands at Bhanu's original place, so that place is 22nd from the left and 14th from the right. Total = 22 + 14 − 1 = 35, so the answer is 35.
+Source: PYQ-style
+
+29. In a queue, Sita is 9th from the front and Gita is 15th from the back. There are 6 persons between them. What is the total number of persons in the queue if Sita is ahead of Gita?
+(a) 28 (b) 30 (c) 29 (d) 31
+Answer: (b)
+Solution: The trap is adding 1 extra for the "between" persons, but the 6 persons strictly between them are simply added to the two given positions. Total = 9 + 6 + 15 = 30, so the answer is 30.
+Source: PYQ-style
+
+30. Ram is taller than Shyam but shorter than Mohan. Sohan is taller than Mohan. Who is the shortest?
+(a) Shyam (b) Ram (c) Mohan (d) Sohan
+Answer: (a)
+Solution: The order is Sohan > Mohan > Ram > Shyam. The trap is assuming Ram is shortest because he is compared first, but Shyam is below Ram, so the answer is Shyam.
+Source: PYQ-style
+
+31. In a row of 40 students, Kiran is 8th from the left. What is his position from the right?
+(a) 34 (b) 32 (c) 31 (d) 33
+Answer: (d)
+Solution: The trap is 40 − 8 = 32, which misses the +1. Position from right = 40 − 8 + 1 = 33, so the answer is 33.
+Source: PYQ-style
+
+32. Five friends P, Q, R, S and T are sitting in a row facing north. Q is second from the left end. P is to the immediate right of Q. R is at the extreme right end. S sits between P and R. Who is at the extreme left end?
+(a) S (b) Q (c) T (d) P
+Answer: (c)
+Solution: With Q fixed at position 2, P is at 3, S at 4 and R at 5, leaving position 1 for T. The trap is placing Q at the left end since P is right of Q, but Q is second from the left, so the answer is T.
+Source: PYQ-style
+
+33. In a class, Anil's rank is 15th from the top and 20th from the bottom. How many students are in the class?
+(a) 34 (b) 33 (c) 35 (d) 36
+Answer: (a)
+Solution: The trap is 15 + 20 = 35, which double-counts Anil. Total = 15 + 20 − 1 = 34, so the answer is 34.
+Source: PYQ-style
+
+34. In a row of girls, Priya is 11th from the left and Neha is 17th from the right. If there are 5 girls between them, what is the total number of girls in the row (Priya is to the left of Neha)?
+(a) 31 (b) 32 (c) 34 (d) 33
+Answer: (d)
+Solution: The trap is adding 2 extra for Priya and Neha, but their positions already include them. Total = 11 + 5 + 17 = 33, so the answer is 33.
+Source: PYQ-style
+
+35. A is heavier than B. C is lighter than B. D is heavier than A but lighter than E. Who is the lightest?
+(a) C (b) A (c) B (d) D
+Answer: (a)
+Solution: The order is E > D > A > B > C. The trap is picking B because two comparisons involve B, but C is lighter than B, so the answer is C.
+Source: PYQ-style
+
+36. In a row of 50 persons, X is 13th from the left end and Y is 19th from the right end. How many persons are there between X and Y?
+(a) 20 (b) 17 (c) 19 (d) 18
+Answer: (d)
+Solution: Y's position from the left = 50 − 19 + 1 = 32. The trap is 32 − 13 = 19, which counts one endpoint; persons between = 32 − 13 − 1 = 18, so the answer is 18.
+Source: PYQ-style
+
+37. In a row of boys facing north, Rohan is 7th from the left. If he shifts 5 places to his right, he becomes 20th from the right. How many boys are in the row?
+(a) 32 (b) 31 (c) 30 (d) 33
+Answer: (b)
+Solution: New position from left = 7 + 5 = 12. The trap is using the original position 7 with 20, giving 26; using the shifted position, Total = 12 + 20 − 1 = 31, so the answer is 31.
+Source: PYQ-style
+
+38. Six books are kept on a shelf. Hindi is to the right of English but to the left of Maths. Science is to the left of English. History is to the right of Maths. Geography is between English and Hindi. Which book is at the extreme left?
+(a) English (b) Science (c) Hindi (d) Geography
+Answer: (b)
+Solution: The order from left is Science, English, Geography, Hindi, Maths, History. The trap is placing English at the left since many clues start from it, but Science is to its left, so the answer is Science.
+Source: PYQ-style
+
+39. In a row of 38 students, Deepa is 14th from the left end. What is her position from the right end?
+(a) 23 (b) 26 (c) 25 (d) 24
+Answer: (c)
+Solution: The trap is 38 − 14 = 24, which forgets the +1. Position from right = 38 − 14 + 1 = 25, so the answer is 25.
+Source: PYQ-style
+
+40. In a row, Mohan is 16th from the left and Sohan is 12th from the right. If they interchange positions, Mohan becomes 25th from the left. How many persons are between them originally?
+(a) 7 (b) 10 (c) 8 (d) 9
+Answer: (c)
+Solution: After interchange, Sohan's original place is 25th from the left, so Sohan was 25th from the left originally. The trap is 25 − 16 = 9, which counts one endpoint; persons between = 25 − 16 − 1 = 8, so the answer is 8.
+Source: PYQ-style
+
+41. P got more marks than Q. R got fewer marks than S but more than P. T got fewer marks than Q. Who got the second highest marks?
+(a) R (b) Q (c) S (d) P
+Answer: (a)
+Solution: The order is S > R > P > Q > T. The trap is choosing S, but S is the highest; the second highest is R, so the answer is R.
+Source: PYQ-style
+
+42. In a queue of 35 people, Asha is 9th from the front. How many people are behind her?
+(a) 25 (b) 26 (c) 27 (d) 28
+Answer: (b)
+Solution: The trap is 35 − 9 + 1 = 27, which gives her position from the back, not the count behind her. People behind = 35 − 9 = 26, so the answer is 26.
+Source: PYQ-style
+
+43. In a row of 28 students facing south, Karan is 10th from the left end as seen by the students. What is his position from the left as seen by a person facing the row?
+(a) 19 (b) 18 (c) 20 (d) 17
+Answer: (a)
+Solution: Facing south, the students' left is the observer's right, so Karan is 10th from the observer's right end. The trap is 28 − 10 = 18, which misses the +1; from the observer's left he is 28 − 10 + 1 = 19th, so the answer is 19.
+Source: PYQ-style
+
+44. Five boys A, B, C, D and E are ranked by height. A is taller than B but shorter than C. D is shorter than B. E is taller than C. Who is in the middle when arranged in descending order of height?
+(a) C (b) B (c) D (d) A
+Answer: (d)
+Solution: The descending order is E > C > A > B > D. The trap is choosing C because it appears central in the clues, but C is 2nd; the middle (3rd) position is A, so the answer is A.
+Source: PYQ-style
+
+45. In a row of 45 students, Ritu is 12th from the left and Meera is 10th from the right. How many students are there between them?
+(a) 22 (b) 25 (c) 23 (d) 24
+Answer: (c)
+Solution: Meera's position from the left = 45 − 10 + 1 = 36. The trap is 36 − 12 = 24, which includes one of the two girls; students between = 36 − 12 − 1 = 23, so the answer is 23.
+Source: PYQ-style
+
+46. In a test, Vikram scored more than Ajay but less than Deepak. Sanjay scored less than Ajay. Deepak did not score the highest. If Rahul scored the highest, who scored the lowest?
+(a) Vikram (b) Ajay (c) Sanjay (d) Deepak
+Answer: (c)
+Solution: The order is Rahul > Deepak > Vikram > Ajay > Sanjay. The trap is picking Ajay since Sanjay is only compared with Ajay, but Sanjay is below Ajay, so the answer is Sanjay.
+Source: PYQ-style
+
+47. In a row of boys, Sunil is 15th from the left and 15th from the right. How many boys should be added to the row so that the total becomes 40?
+(a) 11 (b) 9 (c) 10 (d) 12
+Answer: (a)
+Solution: The trap is computing the current total as 30 (forgetting −1) and answering 10. Current total = 15 + 15 − 1 = 29, so boys to add = 40 − 29 = 11, so the answer is 11.
+Source: PYQ-style
+
+48. In a row of 30 girls, Nisha is 6th from the left. After 4 girls join at the right end, what is Nisha's position from the right?
+(a) 27 (b) 29 (c) 28 (d) 30
+Answer: (b)
+Solution: The trap is using the old total 30, which gives 25. New total = 34, so position from right = 34 − 6 + 1 = 29, so the answer is 29.
+Source: PYQ-style
+
+49. A, B, C, D and E stand in a row. B is to the right of A. C is to the left of D but to the right of B. E is to the right of D. Who is exactly in the middle?
+(a) D (b) C (c) B (d) A
+Answer: (b)
+Solution: The order from left is A, B, C, D, E. The trap is choosing B because the first clue centres on B's position, but the middle (3rd) person is C, so the answer is C.
+Source: PYQ-style
+
+50. In a class, the ratio of boys to girls is 3:2 and there are 40 students. Rani, a girl, is 10th from the top in the whole class merit list. If 6 boys are above her, what is her rank among the girls?
+(a) 3 (b) 5 (c) 6 (d) 4
+Answer: (d)
+Solution: Above Rani there are 9 students, of whom 6 are boys, so 3 girls are above her. The trap is answering 3, the number of girls above her, instead of her rank; her rank among girls = 3 + 1 = 4, so the answer is 4.
+Source: PYQ-style

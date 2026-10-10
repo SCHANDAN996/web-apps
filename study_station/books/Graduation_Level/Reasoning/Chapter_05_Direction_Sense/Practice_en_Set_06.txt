@@ -1,0 +1,151 @@
+प्रश्न 126–145: आसान | प्रश्न 146–150: मध्यम (Questions 126–145: Easy | Questions 146–150: Moderate)
+
+126. A man walks 5 km North, turns right and walks 3 km, then turns right again and walks 5 km. How far and in which direction is he from the starting point?
+(a) 8 km East (b) 3 km East (c) 3 km West (d) 5 km North
+Answer: (b)
+Solution: The tempting wrong answer is 8 km East, obtained by wrongly adding the two 5 km legs. The two 5 km legs are in opposite directions (North then South), so they cancel out, leaving only the 3 km East leg, so the answer is 3 km East.
+Source: PYQ-style
+
+127. Point A is 4 m East of point B. Point C is 3 m North of point A. Point D is 4 m West of point C. Point E is 6 m North of point D. In which direction is point E with respect to point B?
+(a) South (b) West (c) East (d) North
+Answer: (d)
+Solution: The trap is to add the North movements of C and E and assume a North-East answer. Track coordinates: B = (0,0), A = (4,0), C = (4,3), D = (0,3), E = (0,9); E is directly above B, so the answer is North.
+Source: PYQ-style
+
+128. Ravi walks 10 m towards South, then turns left and walks 6 m, then turns left and walks 10 m. He then turns right and walks 4 m. How far is he from the starting point?
+(a) 6 m (b) 4 m (c) 10 m (d) 2 m
+Answer: (c)
+Solution: The trap is to answer 4 m by ignoring the first left turn. South 10 m, left (East) 6 m, left (North) 10 m cancels the South leg, then right from North-facing is East 4 m; net displacement = 6 + 4 = 10 m East, so the answer is 10 m.
+Source: PYQ-style
+
+129. In a coded direction system, 'North' is called 'East', 'East' is called 'South', 'South' is called 'West' and 'West' is called 'North'. A man walks 5 km towards what is called 'South'. In which actual direction does he walk?
+(a) West (b) East (c) South (d) North
+Answer: (b)
+Solution: The trap is to answer South by taking the word literally. Since 'East' is called 'South', walking towards what is called 'South' means actually walking East, so the answer is East.
+Source: PYQ-style
+
+130. A clock shows 3:00. The hour hand points North. In which direction does the minute hand point?
+(a) West (b) East (c) South (d) North
+Answer: (a)
+Solution: The trap is to answer North, assuming both hands align at 3:00. At 3:00 the minute hand points to 12 while the hour hand points to 3; if the 3-position is North, the 12-position is 90° anti-clockwise from it, which is West, so the answer is West.
+Source: PYQ-style
+
+131. A man facing North-West turns 90° clockwise, then 180° anti-clockwise, then 45° clockwise. Which direction is he facing now?
+(a) West (b) North-East (c) South-West (d) North
+Answer: (a)
+Solution: The trap is to add all turns as clockwise and get North. Net turn = 90° clockwise − 180° + 45° clockwise = 45° anti-clockwise; from North-West, 45° anti-clockwise gives West, so the answer is West.
+Source: PYQ-style
+
+132. Village P is 6 km West of village Q. Village R is 8 km South of village P. Village S is 6 km East of village R. What is the shortest distance between Q and S?
+(a) 8 km (b) 10 km (c) 6 km (d) 14 km
+Answer: (a)
+Solution: The trap is to compute 10 km using a 6-8-10 triangle, but the 6 km legs cancel. Q = (0,0), P = (−6,0), R = (−6,−8), S = (0,−8); S is directly 8 km South of Q, so the answer is 8 km.
+Source: PYQ-style
+
+133. A girl walks 20 m North, then 15 m East, then 20 m South, then 10 m West. How far is she from the starting point?
+(a) 10 m (b) 15 m (c) 5 m (d) 25 m
+Answer: (c)
+Solution: The trap is to answer 10 m by subtracting the East legs wrongly. North-South legs cancel (20 each); net East-West = 15 − 10 = 5 m East, so the answer is 5 m.
+Source: PYQ-style
+
+134. If South-East becomes North, and North-East becomes West, and all directions change accordingly, what will West become?
+(a) South (b) South-East (c) North-East (d) North-West
+Answer: (b)
+Solution: The trap is to rotate only 90° and answer North-East. South-East to North is a 135° anti-clockwise shift; applying the same shift, West moves 135° anti-clockwise to South-East, so the answer is South-East.
+Source: PYQ-style
+
+135. A man walks 3 km East, then 4 km North, then 3 km East again, then 4 km South. What is his distance from the starting point?
+(a) 8 km (b) 10 km (c) 5 km (d) 6 km
+Answer: (d)
+Solution: The trap is to use the 3-4-5 triangle and answer 5 km. North and South legs cancel (4 each); net = 3 + 3 = 6 km East, so the answer is 6 km.
+Source: PYQ-style
+
+136. Rohan starts from home, goes 4 km North, turns left and goes 3 km, turns left again and goes 4 km. He finally turns right and goes 3 km. In which direction is he from home?
+(a) West (b) East (c) North (d) South
+Answer: (a)
+Solution: The trap is to answer East by misreading the final right turn. North 4, left (West) 3, left (South) 4 cancels North, then right from South-facing is West 3; net = 6 km West, so the answer is West.
+Source: PYQ-style
+
+137. A pole's shadow falls to the West at sunrise. A man stands facing the pole with the shadow behind him. Which direction is he facing?
+(a) South (b) East (c) North (d) West
+Answer: (b)
+Solution: The trap is to answer West, the direction of the shadow. If the shadow (West) is behind him, he faces the opposite direction, so the answer is East.
+Source: PYQ-style
+
+138. A is 10 m North of B. C is 6 m East of B. D is 10 m South of C. What is the direction of A with respect to D?
+(a) North-East (b) North-West (c) South-West (d) South-East
+Answer: (b)
+Solution: The trap is to answer North-East by comparing only the North offsets. B = (0,0), A = (0,10), C = (6,0), D = (6,−10); from D, A is 6 m West and 20 m North, so the answer is North-West.
+Source: PYQ-style
+
+139. A man walks 12 m North, then 5 m East, then 12 m South. What is the shortest distance between his final position and starting point?
+(a) 12 m (b) 13 m (c) 5 m (d) 17 m
+Answer: (c)
+Solution: The trap is to answer 13 m by applying the 5-12-13 triangle, but the two 12 m legs cancel each other. Only the 5 m East leg remains, so the answer is 5 m.
+Source: PYQ-style
+
+140. In a code, 'North-East' is written as 'South', 'South-East' is written as 'West'. Following the same pattern, how will 'North-West' be written?
+(a) West (b) North (c) South (d) East
+Answer: (d)
+Solution: The trap is to assume a 90° rotation and answer North. North-East → South is a 135° clockwise shift, and South-East shifted 135° clockwise gives West, which matches; applying 135° clockwise to North-West gives East, so the answer is East.
+Source: PYQ-style
+
+141. A car travels 8 km West, turns right and travels 6 km, turns right again and travels 8 km, then turns left and travels 6 km. How far is it from the start?
+(a) 8 km (b) 6 km (c) 14 km (d) 12 km
+Answer: (d)
+Solution: The trap is to answer 6 km by ignoring the last leg. West 8, right (North) 6, right (East) 8 cancels West, then left from East-facing is North 6; net = 12 km North, so the answer is 12 km.
+Source: PYQ-style
+
+142. At 4:30 PM, the minute hand of a clock points South. In which direction does the hour hand point?
+(a) South-East (b) North-East (c) South-West (d) North-West
+Answer: (a)
+Solution: The trap is to answer South-West by mirroring the dial. At 4:30 the hour hand lies halfway between 4 and 5, which is 45° anti-clockwise from the 6-position; with the minute hand (6-position) pointing South, the hour hand points 45° toward the East side of South, so the answer is South-East.
+Source: PYQ-style
+
+143. P walks 7 m South, then 24 m East, then 7 m North. Q starts from the same point and walks 10 m East, then stops. What is the distance between P and Q at the end?
+(a) 14 m (b) 24 m (c) 10 m (d) 17 m
+Answer: (a)
+Solution: The trap is to compute 25 m using a 7-24-25 triangle, but the 7 m legs cancel. P ends 24 m East of start and Q is 10 m East of start; distance between them = 24 − 10 = 14 m, so the answer is 14 m.
+Source: PYQ-style
+
+144. A man facing South turns 135° anti-clockwise, then 45° clockwise. Which direction is he facing now?
+(a) West (b) South-East (c) East (d) North-East
+Answer: (c)
+Solution: The trap is to answer South-East by stopping at 45°. Net turn = 135° anti-clockwise − 45° clockwise = 90° anti-clockwise; from South, a 90° anti-clockwise rotation leads to East, so the answer is East.
+Source: PYQ-style
+
+145. Town X is 40 km North of town Y. Town Z is 30 km East of town Y. A helicopter flies directly from X to Z. What distance does it cover?
+(a) 50 km (b) 60 km (c) 70 km (d) 10 km
+Answer: (a)
+Solution: The trap is to add the legs and answer 70 km. X and Z form a right triangle with legs 40 km and 30 km from Y; direct distance = √(40² + 30²) = √2500 = 50 km, so the answer is 50 km.
+Source: PYQ-style
+
+146. A boy walks 6 m towards East, then 8 m towards South, then 6 m towards West. In which direction is he from the starting point and at what distance?
+(a) 6 m West (b) 10 m South-East (c) 8 m South (d) 8 m North
+Answer: (c)
+Solution: The trap is to answer 10 m South-East using the 6-8-10 triangle, but the East and West legs cancel. Only the 8 m South leg remains, so the answer is 8 m South.
+Source: PYQ-style
+
+147. If 'East' is coded as 'North', 'North' is coded as 'West', 'West' is coded as 'South', then 'South' will be coded as what, and a man walking towards coded 'West' actually walks in which direction?
+(a) South; South (b) East; East (c) South; East (d) East; South
+Answer: (d)
+Solution: The trap is to assume coded 'West' means actual West. The pattern shifts each name 90° anti-clockwise, so actual South is called 'East'; walking towards coded 'West' means actual South, since 'West' is the code for South, so the answer is East; South.
+Source: PYQ-style
+
+148. A man walks 9 m North, then 12 m East, then 9 m South, then 5 m West. What is the shortest distance from the starting point?
+(a) 12 m (b) 15 m (c) 7 m (d) 5 m
+Answer: (c)
+Solution: The trap is to answer 15 m using a 9-12-15 triangle, but the 9 m legs cancel. Net displacement = 12 − 5 = 7 m East, so the answer is 7 m.
+Source: PYQ-style
+
+149. Two friends start from the same point. One walks 5 km North and then 12 km East. The other walks 12 km North and then 5 km East. What is the distance between their final positions?
+(a) 7 km (b) 7√2 km (c) 13 km (d) 17 km
+Answer: (b)
+Solution: The trap is to answer 7 km by subtracting only one coordinate. Final positions are (12,5) and (5,12); the difference is 7 km along each axis, so distance = √(7² + 7²) = 7√2 km, so the answer is 7√2 km.
+Source: PYQ-style
+
+150. A runner goes 2 km North, 3 km East, 2 km South, 1 km West, 4 km North, 2 km West. How far and in which direction is he from the start?
+(a) 5 km North-East (b) 4 km East (c) 2 km North (d) 4 km North
+Answer: (d)
+Solution: The trap is to answer 5 km North-East by combining leftover East and North legs. East-West: 3 − 1 − 2 = 0; North-South: 2 − 2 + 4 = 4 km North, so the answer is 4 km North.
+Source: PYQ-style

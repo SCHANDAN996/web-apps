@@ -1,3 +1,79 @@
-# Chapter: Simple Interest, Level: intermediate
+Card 1
+Front: What is the one-line formula for Simple Interest?
+Back: SI = (P × R × T) / 100, where P = Principal, R = Rate % per annum, T = Time in years.
 
-@content_agent lang=en level=intermediate 'Create 15-20 flashcards for Simple Interest. Each card: front a curiosity-invoking question, back concise answer. Include at least 2 cards that ask about a mnemonic trick.'
+Card 2
+Front: In simple interest, does the interest amount change every year or stay the same?
+Back: It stays the same every year, because interest is always calculated on the original principal only.
+
+Card 3
+Front: How do you find the Amount once you know the Simple Interest?
+Back: Amount = Principal + Simple Interest (A = P + SI).
+
+Card 4
+Front: What is the mnemonic trick to remember the SI formula?
+Back: "Pretty Round Turtles" → P × R × T over 100. Just remember: PRT/100.
+
+Card 5
+Front: If the time is given in months, what must you do before applying the SI formula?
+Back: Convert months into years by dividing by 12 (e.g., 8 months = 8/12 year).
+
+Card 6
+Front: If the time is given in days, how do you convert it for the SI formula?
+Back: Divide the number of days by 365 (e.g., 73 days = 73/365 = 1/5 year).
+
+Card 7
+Front: A sum doubles in 10 years at simple interest. What is the rate?
+Back: 10% per annum. Trick: if a sum becomes n times in T years, R = 100(n − 1)/T.
+
+Card 8
+Front: What is the trick to find the time in which a sum doubles at a given rate?
+Back: T = 100/R years for doubling; for trebling, T = 200/R. (Time = 100 × (n − 1) / R.)
+
+Card 9
+Front: Rearrange the SI formula to find the Principal directly.
+Back: P = (SI × 100) / (R × T).
+
+Card 10
+Front: Rearrange the SI formula to find the Rate directly.
+Back: R = (SI × 100) / (P × T).
+
+Card 11
+Front: Rearrange the SI formula to find the Time directly.
+Back: T = (SI × 100) / (P × R).
+
+Card 12
+Front: If the rate and time are both doubled, what happens to the simple interest?
+Back: It becomes 4 times, because SI is directly proportional to both R and T.
+
+Card 13
+Front: What is the key difference between simple interest and compound interest?
+Back: In SI, interest is calculated only on the original principal; in CI, interest is calculated on principal plus accumulated interest.
+
+Card 14
+Front: A sum becomes ₹1,200 in 4 years at simple interest, with ₹200 as interest. What is the principal?
+Back: ₹1,000. Principal = Amount − SI = 1,200 − 200.
+
+Card 15
+Front: What is the mnemonic for remembering that SI grows in a straight line?
+Back: "Simple = Straight" — SI grows by equal steps each year, like equal stairs, never curving upward.
+
+Card 16
+Front: If ₹P gives SI of ₹x in T years, what SI will ₹2P give in the same time at the same rate?
+Back: ₹2x — SI is directly proportional to the principal.
+
+Card 17
+Front: The annual installment to repay a loan of ₹N in T equal yearly installments at R% SI — what is the core idea?
+Back: Each installment clears its share of principal plus the interest on that share for its remaining years; set up: N = x × T + x × R/100 × (sum of remaining years).
+
+Card 18
+Front: Two sums are lent at rates R₁ and R₂ and earn equal interest in the same time. What is the ratio of the principals?
+Back: P₁ : P₂ = R₂ : R₁ (inverse ratio, since P × R is constant).
+
+Card 19
+Front: What is the quick formula when a sum amounts to A₁ in T₁ years and A₂ in T₂ years at the same SI rate?
+Back: SI per year = (A₂ − A₁)/(T₂ − T₁); then Principal = A₁ − (SI per year × T₁).
+
+Card 20
+Front: Why can simple interest never exceed the principal in one year at rates below 100%?
+Back: Because one year's SI = P × R/100, which is less than P whenever R < 100%.

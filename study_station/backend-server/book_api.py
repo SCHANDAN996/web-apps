@@ -7,6 +7,7 @@ import re
 from datetime import datetime, timedelta
 from flask import Blueprint, jsonify, request, render_template
 from models import db, Book, BookChapter, PYQAnalysis, StudentProgress
+from security import rate_limit
 
 book_bp = Blueprint('book', __name__)
 
@@ -377,22 +378,33 @@ def generate_all_chapters(book_id):
 # ==========================================
 
 @book_bp.route('/api/progress', methods=['POST'])
+@rate_limit('progress', [(60, 60)])
 def update_progress():
     """Update student's spaced repetition progress using SM-2 algorithm"""
-    data = request.json
-    student_id = data.get('studentId', 'anonymous')
-    chapter_id = data.get('chapterId')
-    quality = data.get('quality', 3)  # 0-5 scale
-    
-    if not chapter_id:
-        return jsonify({'success': False, 'error': 'chapterId required'})
+    data = request.get_json(silent=True) or {}
+    student_id = str(data.get('studentId') or 'anonymous')[:100]
+    try:
+        chapter_id = int(data.get('chapterId'))
+        quality = int(data.get('quality', 3))  # 0-5 scale
+        score = data.get('score')
+        score = None if score is None else float(score)
+        time_spent = max(0, min(int(data.get('timeSpent', 0)), 24 * 60 * 60))
+    except (TypeError, ValueError):
+        return jsonify({'success': False, 'error': 'chapterId, quality, score and timeSpent must be numbers'}), 400
+    if not 0 <= quality <= 5:
+        return jsonify({'success': False, 'error': 'quality must be between 0 and 5'}), 400
+    if not db.session.get(BookChapter, chapter_id):
+        return jsonify({'success': False, 'error': 'Chapter not found'}), 404
     
     progress = StudentProgress.query.filter_by(
         student_id=student_id, chapter_id=chapter_id
     ).first()
     
     if not progress:
-        progress = StudentProgress(student_id=student_id, chapter_id=chapter_id)
+        # Column defaults only apply on flush — set them now so SM-2 math works.
+        progress = StudentProgress(student_id=student_id, chapter_id=chapter_id,
+                                   easiness_factor=2.5, interval_days=1,
+                                   repetition_count=0, score=0.0, total_time_spent=0)
         db.session.add(progress)
     
     # SM-2 Algorithm
@@ -415,8 +427,9 @@ def update_progress():
     
     progress.last_reviewed = datetime.utcnow()
     progress.next_review = datetime.utcnow() + timedelta(days=progress.interval_days)
-    progress.score = data.get('score', progress.score)
-    progress.total_time_spent += data.get('timeSpent', 0)
+    if score is not None:
+        progress.score = score
+    progress.total_time_spent = (progress.total_time_spent or 0) + time_spent
     
     db.session.commit()
     

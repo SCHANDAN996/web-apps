@@ -1,3 +1,151 @@
-# Chapter: Ratio & Proportion, Level: intermediate, Set: 3/6
+Questions 51–70: Easy | Questions 71–75: Moderate
 
-@content_agent +mcq_generator_bilingual lang=en level=intermediate 'Generate 25 MCQs for Ratio & Proportion. This is Set 3 (total 6 sets, 150 questions). Questions must be numbered 51 to 75. All 25 questions should be Medium. Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'
+51. Two numbers are in the ratio 3 : 5. If 9 is added to each, the ratio becomes 12 : 19. Find the smaller number.
+(a) 27 (b) 45 (c) 36 (d) 63
+Answer: (d)
+Solution: Let the numbers be 3x and 5x. Then (3x + 9)/(5x + 9) = 12/19, so 57x + 171 = 60x + 108, giving 3x = 63. The tempting error is reporting x = 21 as the answer, but the smaller number is 3x, so the answer is 63.
+Source: NCERT Class 8 Mathematics
+
+52. If A : B = 2 : 3 and B : C = 4 : 5, then A : B : C is:
+(a) 2 : 4 : 5 (b) 6 : 9 : 15 (c) 8 : 12 : 20 (d) 8 : 12 : 15
+Answer: (d)
+Solution: Make B equal in both ratios: B = 3 and B = 4, LCM is 12. Multiply the first ratio by 4 and the second by 3: A : B = 8 : 12 and B : C = 12 : 15. The trap is writing 2 : 3 : 5 directly without equalising B, so the answer is 8 : 12 : 15.
+Source: NCERT Class 8 Mathematics
+
+53. The ratio of incomes of A and B is 5 : 4 and the ratio of their expenditures is 3 : 2. If each saves ₹1600, find the income of A.
+(a) ₹5000 (b) ₹4000 (c) ₹2400 (d) ₹3200
+Answer: (b)
+Solution: Let incomes be 5x and 4x, expenditures 3y and 2y. Then 5x − 3y = 1600 and 4x − 2y = 1600. From the second, y = 2x − 800; substituting gives 5x − 6x + 2400 = 1600, so x = 800. The trap is assuming savings follow the income ratio, so the answer is ₹4000.
+Source: PYQ-style
+
+54. What number must be added to each term of the ratio 7 : 11 so that it becomes 4 : 5?
+(a) 7 (b) 9 (c) 11 (d) 5
+Answer: (b)
+Solution: Let the number be x. Then (7 + x)/(11 + x) = 4/5, so 35 + 5x = 44 + 4x, giving x = 9. The trap is cross-multiplying incorrectly as 35 + 5x = 44 + 5x, which gives no solution, so the answer is 9.
+Source: NCERT Class 8 Mathematics
+
+55. ₹782 is divided among A, B and C in the ratio 1/2 : 2/3 : 3/4. The share of B is:
+(a) ₹272 (b) ₹204 (c) ₹306 (d) ₹196
+Answer: (a)
+Solution: Convert fractions to whole numbers by multiplying by LCM 12: ratio = 6 : 8 : 9. Sum = 23 parts, so B's share = (8/23) × 782 = 8 × 34 = 272. The trap is treating 1/2 : 2/3 : 3/4 as 2 : 3 : 4 directly, so the answer is ₹272.
+Source: PYQ-style
+
+56. If 2A = 3B = 4C, then A : B : C is:
+(a) 2 : 3 : 4 (b) 3 : 4 : 6 (c) 6 : 4 : 3 (d) 4 : 3 : 2
+Answer: (c)
+Solution: Let 2A = 3B = 4C = k. Then A = k/2, B = k/3, C = k/4, and the ratio is 1/2 : 1/3 : 1/4 = 6 : 4 : 3 on multiplying by 12. The trap is writing 2 : 3 : 4, forgetting that a bigger multiplier means a smaller quantity, so the answer is 6 : 4 : 3.
+Source: NCERT Class 8 Mathematics
+
+57. The ratio of boys to girls in a school is 7 : 8. If the number of boys increases by 20% and girls by 10%, the new ratio is:
+(a) 14 : 11 (b) 21 : 22 (c) 22 : 21 (d) 7 : 8
+Answer: (b)
+Solution: Let boys = 70, girls = 80. New boys = 70 × 1.2 = 84, new girls = 80 × 1.1 = 88, giving 84 : 88 = 21 : 22. The trap is adding the percentages to the ratio terms directly, so the answer is 21 : 22.
+Source: PYQ-style
+
+58. The fourth proportional to 5, 8 and 15 is:
+(a) 24 (b) 30 (c) 18 (d) 20
+Answer: (a)
+Solution: Fourth proportional x satisfies 5 : 8 :: 15 : x, so 5x = 8 × 15 = 120, giving x = 24. The trap is computing the third proportional (8 × 8/5) instead of the fourth, so the answer is 24.
+Source: NCERT Class 8 Mathematics
+
+59. The mean proportional between 18 and 50 is:
+(a) 34 (b) 30 (c) 25 (d) 36
+Answer: (b)
+Solution: Mean proportional = √(18 × 50) = √900 = 30. The trap is taking the arithmetic mean (18 + 50)/2 = 34 instead of the geometric mean, so the answer is 30.
+Source: NCERT Class 8 Mathematics
+
+60. If a : b = 3 : 4, then (7a + 3b) : (7a − 3b) is:
+(a) 11 : 1 (b) 33 : 9 (c) 11 : 3 (d) 4 : 3
+Answer: (c)
+Solution: Put a = 3, b = 4. Then 7a + 3b = 21 + 12 = 33 and 7a − 3b = 21 − 12 = 9, giving 33 : 9 = 11 : 3. The trap is stopping at 33 : 9 without simplifying, so the answer is 11 : 3.
+Source: PYQ-style
+
+61. A and B receive money such that A gets 2/3 of what B gets, and B gets 1/4 of what C gets. If C gets ₹840, A gets:
+(a) ₹140 (b) ₹210 (c) ₹280 (d) ₹120
+Answer: (a)
+Solution: B = (1/4) × 840 = 210, and A = (2/3) × 210 = 140. The trap is computing A as 2/3 of C directly, ignoring the chain through B, so the answer is ₹140.
+Source: PYQ-style
+
+62. The ratio of two numbers is 4 : 7. If each number is decreased by 6, the ratio becomes 1 : 2. The sum of the original numbers is:
+(a) 44 (b) 55 (c) 77 (d) 66
+Answer: (d)
+Solution: Let the numbers be 4x and 7x. Then (4x − 6)/(7x − 6) = 1/2, so 8x − 12 = 7x − 6, giving x = 6. The numbers are 24 and 42; the trap is reporting x = 6 or one number instead of the sum, so the answer is 66.
+Source: PYQ-style
+
+63. If x : y = 3 : 2, then (x² + y²) : (x² − y²) is:
+(a) 13 : 5 (b) 3 : 2 (c) 5 : 13 (d) 9 : 4
+Answer: (a)
+Solution: Put x = 3, y = 2. Then x² + y² = 9 + 4 = 13 and x² − y² = 9 − 4 = 5, giving 13 : 5. The trap is squaring the ratio terms and writing 9 : 4, so the answer is 13 : 5.
+Source: PYQ-style
+
+64. A bag contains ₹1, 50 paise and 25 paise coins in the ratio 3 : 4 : 12. If the total value is ₹600, the number of 25 paise coins is:
+(a) 1200 (b) 1500 (c) 600 (d) 900
+Answer: (d)
+Solution: Let the coins be 3x, 4x, 12x. Value = 3x(1) + 4x(0.5) + 12x(0.25) = 8x = 600, so x = 75. The trap is reporting x = 75 or the total coins 19x, so the answer is 900.
+Source: PYQ-style
+
+65. If (a + b) : (b + c) : (c + a) = 6 : 7 : 8 and a + b + c = 14, then c equals:
+(a) 6 (b) 8 (c) 4 (d) 7
+Answer: (a)
+Solution: The three ratios sum to 21 parts = 2(a + b + c) = 28, so 1 part = 4/3. Then a + b = 6 × 4/3 = 8, giving c = 14 − 8 = 6. The trap is taking 1 part = 14/21, forgetting the sum counts each variable twice, so the answer is 6.
+Source: PYQ-style
+
+66. The ratio of the ages of a father and son is 7 : 2. After 10 years the ratio will be 9 : 4. The present age of the father is:
+(a) 49 years (b) 42 years (c) 28 years (d) 35 years
+Answer: (d)
+Solution: Let the ages be 7x and 2x. Then (7x + 10)/(2x + 10) = 9/4, so 28x + 40 = 18x + 90, giving 10x = 50, x = 5. The trap is reporting x = 5 or the son's age 10, so the answer is 35 years.
+Source: NCERT Class 8 Mathematics
+
+67. If a/b = 2/3, then the value of (4a + 5b)/(6a − b) is:
+(a) 13/9 (b) 23/9 (c) 23/3 (d) 7/3
+Answer: (b)
+Solution: Put a = 2, b = 3. Numerator = 8 + 15 = 23, denominator = 12 − 3 = 9, giving 23/9. The trap is a sign error making the denominator 12 + 3 = 15, so the answer is 23/9.
+Source: NCERT Class 8 Mathematics
+
+68. ₹1200 is divided between A and B so that A's share : B's share = 5 : 7. How much more does B get than A?
+(a) ₹300 (b) ₹200 (c) ₹100 (d) ₹150
+Answer: (b)
+Solution: Total parts = 12, so the difference = (7 − 5)/12 × 1200 = 2 × 100 = 200. The trap is reporting B's full share ₹700 instead of the difference asked, so the answer is ₹200.
+Source: NCERT Class 8 Mathematics
+
+69. The third proportional to 9 and 12 is:
+(a) 18 (b) 15 (c) 16 (d) 21
+Answer: (c)
+Solution: Third proportional x satisfies 9 : 12 :: 12 : x, so 9x = 144, giving x = 16. The trap is computing the mean proportional √(9 × 12) instead of b²/a, so the answer is 16.
+Source: NCERT Class 8 Mathematics
+
+70. In a mixture of 60 litres, milk and water are in the ratio 2 : 1. How much water must be added to make the ratio 1 : 2?
+(a) 30 litres (b) 40 litres (c) 50 litres (d) 60 litres
+Answer: (d)
+Solution: Milk = 40 litres, water = 20 litres. Let x litres of water be added: 40/(20 + x) = 1/2, so 20 + x = 80, giving x = 60. The trap is reversing the target ratio as 2 : 1, so the answer is 60 litres.
+Source: PYQ-style
+
+71. If A : B = 3 : 4, B : C = 5 : 6 and C : D = 8 : 9, then A : D is:
+(a) 5 : 8 (b) 3 : 9 (c) 5 : 9 (d) 1 : 2
+Answer: (c)
+Solution: A/D = (A/B)(B/C)(C/D) = (3/4)(5/6)(8/9) = 120/216 = 5/9. The trap is picking only the first and last terms 3 : 9, so the answer is 5 : 9.
+Source: PYQ-style
+
+72. The salaries of A, B and C are in the ratio 2 : 3 : 5. If increments of 15%, 10% and 20% are given respectively, the new ratio is:
+(a) 23 : 33 : 60 (b) 2 : 3 : 5 (c) 46 : 66 : 120 (d) 23 : 33 : 50
+Answer: (a)
+Solution: Take salaries 200, 300, 500. New salaries: 200 × 1.15 = 230, 300 × 1.10 = 330, 500 × 1.20 = 600, giving 23 : 33 : 60. The trap is adding percentages to the ratio terms instead of applying them to values, so the answer is 23 : 33 : 60.
+Source: PYQ-style
+
+73. If 30% of A = 0.25 of B = 1/5 of C, then A : B : C is:
+(a) 10 : 12 : 15 (b) 5 : 6 : 10 (c) 15 : 12 : 10 (d) 6 : 5 : 4
+Answer: (a)
+Solution: 0.3A = 0.25B = 0.2C = k gives A = 10k/3, B = 4k, C = 5k, so the ratio is 10/3 : 4 : 5 = 10 : 12 : 15 on multiplying by 3. The trap is writing 0.3 : 0.25 : 0.2 = 6 : 5 : 4, which inverts the relationship, so the answer is 10 : 12 : 15.
+Source: PYQ-style
+
+74. A and B started a business investing in the ratio 4 : 5. After 6 months A withdrew half his capital. The ratio in which profit should be divided at the end of the year is:
+(a) 4 : 5 (b) 2 : 3 (c) 3 : 5 (d) 5 : 3
+Answer: (c)
+Solution: A's effective capital-months = 4 × 6 + 2 × 6 = 36; B's = 5 × 12 = 60, giving 36 : 60 = 3 : 5. The trap is keeping the original ratio 4 : 5 and ignoring the withdrawal, so the answer is 3 : 5.
+Source: PYQ-style
+
+75. The ratio of copper to zinc in alloy P is 5 : 3 and in alloy Q is 3 : 2. Equal weights of P and Q are melted together. The ratio of copper to zinc in the new alloy is:
+(a) 8 : 5 (b) 41 : 29 (c) 49 : 31 (d) 4 : 3
+Answer: (c)
+Solution: Take 40 g of each alloy (LCM of 8 and 5). P gives 25 g copper and 15 g zinc; Q gives 24 g copper and 16 g zinc, totalling 49 : 31. The trap is simply adding the ratios to get 8 : 5, so the answer is 49 : 31.
+Source: PYQ-style

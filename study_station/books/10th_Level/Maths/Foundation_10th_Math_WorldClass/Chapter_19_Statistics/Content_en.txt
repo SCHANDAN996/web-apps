@@ -4,33 +4,27 @@ Chapter Outline & Learning Goals
 
 By the end of this chapter, you will be able to:
 
-Understand what data is and how it is organised.
-
-Compute Mean, Median, and Mode for raw (ungrouped) and grouped data.
-
-Choose the right measure of central tendency in real‑life situations.
-
-Read and draw basic graphs like histograms, frequency polygons, and ogives.
-
-Apply these concepts to solve typical SSC, Banking, and Railway questions confidently.
+- Understand what data is and how it is organised.
+- Compute Mean, Median, and Mode for raw (ungrouped) and grouped data.
+- Choose the right measure of central tendency in real-life situations.
+- Read and draw basic graphs like histograms, frequency polygons, and ogives.
+- Apply these concepts to solve typical SSC, Banking, and Railway questions confidently.
 
 The Number That Can Make You Rich… or Fool You Completely
 
-Imagine this: You walk into a small tea stall. Inside are two people—you and Elon Musk. The average (mean) wealth of that room suddenly becomes around 100 billion dollars. But your pocket still holds only fifty rupees. Did you suddenly become a billionaire? No. That “average” is a cruel joke if you don’t know how to read it.
+Imagine this: You walk into a small tea stall. Inside are two people—you and Elon Musk. The average (mean) wealth of that room suddenly becomes around 100 billion dollars. But your pocket still holds only fifty rupees. Did you suddenly become a billionaire? No. That "average" is a cruel joke if you don't know how to read it.
 
 Statistics is your shield against such number traps. It is nothing but the art and science of collecting, organising, and making sense of data. And once you master it, you will never be fooled by a headline again.
 
-📊 Competitive exams love statistics because it tests logical thinking, not just calculation. Think of this chapter as your “data‑detective” training.
+📊 Competitive exams love statistics because it tests logical thinking, not just calculation. Think of this chapter as your "data-detective" training.
 
 Why Does Statistics Feel Like a Monster?
 
-Be honest—the first time you saw a table with 50 numbers and the word “median class”, a part of you wanted to skip the chapter. You are not alone. Most students feel overwhelmed by the formulas. But here’s the secret: the whole chapter can be boiled down to three simple questions—
+Be honest—the first time you saw a table with 50 numbers and the word "median class", a part of you wanted to skip the chapter. You are not alone. Most students feel overwhelmed by the formulas. But here's the secret: the whole chapter can be boiled down to three simple questions—
 
-What is the most typical value? (Mean)
-
-What is the middle value? (Median)
-
-Which value appears the most? (Mode)
+1. What is the most typical value? (Mean)
+2. What is the middle value? (Median)
+3. Which value appears the most? (Mode)
 
 Once you can answer these three, you already own 80% of statistics. The rest is just learning how to handle tables neatly. So take a deep breath; we will walk this road step by tiny step.
 
@@ -40,82 +34,82 @@ Data is simply information in numbers. The marks of 40 students in a test, the m
 
 Data comes in two forms:
 
-Raw/Ungrouped Data: A list of individual numbers. Example: 12, 15, 11, 18, 12.
+- Raw/Ungrouped Data: A list of individual numbers. Example: 12, 15, 11, 18, 12.
+- Grouped Data: When data is too large, we compress it into class intervals. Example: 0-10, 10-20, 20-30, etc., with frequencies.
 
-Grouped Data: When data is too large, we compress it into class intervals. Example: 0‑10, 10‑20, 20‑30, etc., with frequencies.
+Our job is to find a single value that represents the whole dataset. Statisticians call it a "measure of central tendency."
 
-Our job is to find a single value that represents the whole dataset. Statisticians call it a “measure of central tendency.”
-
-🧠 Active Recall: If you have the marks: 5, 5, 5, 5, 5, what is the “central” value without doing any calculation? (Answer: 5, because all values are the same—every measure will be 5.) Think before moving on.
+🧠 Active Recall: If you have the marks: 5, 5, 5, 5, 5, what is the "central" value without doing any calculation? (Answer: 5, because all values are the same—every measure will be 5.) Think before moving on.
 
 2. The Three Musketeers of Central Tendency
-Musketeer	What it does	Best used when
-Mean (Average)	Pulls every value in equally	Data has no extreme outliers
-Median	Splits data into two equal halves	Data has extreme values (income, prices)
-Mode	Tells the most frequent value	Data is categorical (favourite colour, shoe size)
 
-Memory Trick (Mnemonic) – “MAD Middle Most”
-Mean = Average (All values Added)
-Median = Middle (after sorting)
-Mode = Most Often
-Think “MAD” → Mean = Average, Median = middle, Mode = most often. Picture a MAD scientist holding a calculator saying “Average? Middle? Most often? SIMPLE!”
+| Musketeer | What it does | Best used when |
+|---|---|---|
+| Mean (Average) | Pulls every value in equally | Data has no extreme outliers |
+| Median | Splits data into two equal halves | Data has extreme values (income, prices) |
+| Mode | Tells the most frequent value | Data is categorical (favourite colour, shoe size) |
 
-Now let’s unlock each one.
+Memory Trick (Mnemonic) – "MAD Middle Most"
+- Mean = Average (All values Added)
+- Median = Middle (after sorting)
+- Mode = Most Often
+
+Think "MAD" → Mean = Average, Median = middle, Mode = most often. Picture a MAD scientist holding a calculator saying "Average? Middle? Most often? SIMPLE!"
+
+Now let's unlock each one.
 
 3. Mean (The Sensitive Friend)
 
-The mean is calculated by adding up all the values and dividing by the number of values. It’s like a party where everyone gives an equal share of money and you split the total equally.
+The mean is calculated by adding up all the values and dividing by the number of values. It's like a party where everyone gives an equal share of money and you split the total equally.
 
 Formula for ungrouped data:
 Mean = (Sum of all observations) / (Number of observations)
 
 Example: Marks 10, 20, 30 → Sum = 60, Number = 3, Mean = 20.
 
-Why is the mean “sensitive”?
-Add one extreme value and the mean runs towards it. In the Elon Musk example, the mean shifted by billions. That’s why for incomes, mean is rarely used—one crorepati can make the whole village look rich.
+Why is the mean "sensitive"?
+Add one extreme value and the mean runs towards it. In the Elon Musk example, the mean shifted by billions. That's why for incomes, mean is rarely used—one crorepati can make the whole village look rich.
 
 🧠 Quick Check: The mean of 4, 8, x, 12 is 8. Find x.
-*(Stop, solve, then read answer: Sum = 4+8+x+12 = 24+x. Mean = (24+x)/4 = 8 → 24+x = 32 → x = 8)*
+(Stop, solve, then read answer: Sum = 4+8+x+12 = 24+x. Mean = (24+x)/4 = 8 → 24+x = 32 → x = 8)
 
 Mean for Grouped Data
 When data is in frequency tables, we have three methods:
 
-Direct Method: Mean = Σ(fᵢ·xᵢ) / Σfᵢ, where xᵢ is the class mark (mid‑point).
-
-Assumed Mean Method: Mean = a + (Σfᵢ·dᵢ)/Σfᵢ, where dᵢ = xᵢ − a.
-
-Step Deviation Method: Mean = a + (Σfᵢ·uᵢ)/Σfᵢ × h, where uᵢ = (xᵢ − a)/h.
+- Direct Method: Mean = Σ(fᵢ·xᵢ) / Σfᵢ, where xᵢ is the class mark (mid-point).
+- Assumed Mean Method: Mean = a + (Σfᵢ·dᵢ)/Σfᵢ, where dᵢ = xᵢ − a.
+- Step Deviation Method: Mean = a + (Σfᵢ·uᵢ)/Σfᵢ × h, where uᵢ = (xᵢ − a)/h.
 
 (All three give the same answer. Use step deviation when class sizes are equal—it saves tons of time!)
 
-🧠 Active Recall: For the class interval 20‑30, what is the class mark? *(Answer: (20+30)/2 = 25)*
+🧠 Active Recall: For the class interval 20-30, what is the class mark? (Answer: (20+30)/2 = 25)
 
 4. Median (The Middle Child)
 
-Median is the value exactly in the middle when data is arranged in ascending order. It doesn’t care about how big or small the extremes are. It simply stands in the middle like the quiet sibling who ignores the drama.
+Median is the value exactly in the middle when data is arranged in ascending order. It doesn't care about how big or small the extremes are. It simply stands in the middle like the quiet sibling who ignores the drama.
 
 Ungrouped data:
-If number of values (n) is odd, median = ((n+1)/2)ᵗʰ term.
-If n is even, median = average of (n/2)ᵗʰ and (n/2 +1)ᵗʰ terms.
+- If number of values (n) is odd, median = ((n+1)/2)th term.
+- If n is even, median = average of (n/2)th and (n/2 + 1)th terms.
 
-Example: 7, 3, 9, 1, 5 → Sort: 1, 3, 5, 7, 9 → n=5 (odd), (5+1)/2 = 3rd term → Median = 5.
+Example: 7, 3, 9, 1, 5 → Sort: 1, 3, 5, 7, 9 → n = 5 (odd), (5+1)/2 = 3rd term → Median = 5.
 
 Grouped data:
-Median = l + (n/2 − cf)/f × h
+Median = l + [(n/2 − cf) / f] × h
 where l = lower limit of median class, cf = cumulative frequency before median class, f = frequency of median class, h = class size.
 
 📈 The median class is the class whose cumulative frequency first becomes ≥ n/2.
 
-Graphical method: You can also find the median from an ogive (cumulative frequency curve) by locating n/2 on the y‑axis and dropping a perpendicular to the x‑axis.
+Graphical method: You can also find the median from an ogive (cumulative frequency curve) by locating n/2 on the y-axis and dropping a perpendicular to the x-axis.
 
-🧠 Fast Practice: Find the median of 12, 15, 11, 18, 20, 14. *(Answer: Sort: 11,12,14,15,18,20; n=6 even → median = average of 3rd & 4th = (14+15)/2 = 14.5)*
+🧠 Fast Practice: Find the median of 12, 15, 11, 18, 20, 14. (Answer: Sort: 11, 12, 14, 15, 18, 20; n = 6 even → median = average of 3rd & 4th = (14+15)/2 = 14.5)
 
 5. Mode (The Popular One)
 
 Mode is the value that appears most frequently. In a shoe company, mode tells which size sells the most—so they manufacture more of that size.
 
 Ungrouped data: Just look for the number with the highest frequency.
-Example: 2,3,2,4,2,5 → Mode = 2.
+Example: 2, 3, 2, 4, 2, 5 → Mode = 2.
 
 Grouped data:
 Mode = l + [(f₁ − f₀) / (2f₁ − f₀ − f₂)] × h
@@ -123,205 +117,49 @@ where l = lower limit of modal class (highest frequency), f₁ = frequency of mo
 
 ⚠️ Many students confuse the median formula with the mode formula. Keep them apart: median uses n/2 and cumulative frequency; mode uses the three neighbouring frequencies.
 
-🧠 Weird but Unforgettable Trick: Mode = “MOst DEmanded.” The modal class is the one with the MOst Data Entries. Say it aloud: “Mo-De!” like a fashion show. This will stick forever.
+🧠 Weird but Unforgettable Trick: Mode = "MOst DEmanded." The modal class is the one with the MOst Data Entries. Say it aloud: "Mo-De!" like a fashion show. This will stick forever.
 
 6. When to Use Which Measure?
 
-Mean: Use when data is symmetric and outliers are absent. Example: average height of a class.
-
-Median: Use when data is skewed (extremes). Example: average income of a country. The Indian government uses median household income to avoid distortion by billionaires.
-
-Mode: Use for categorical data or to find the most typical case. Example: most common blood group.
+- Mean: Use when data is symmetric and outliers are absent. Example: average height of a class.
+- Median: Use when data is skewed (extremes). Example: average income of a country. Median household income avoids distortion by a few billionaires.
+- Mode: Use for categorical data or to find the most typical case. Example: most common blood group.
 
 📉 Story reminder: In a company of 10 people, 9 earn ₹20,000 and the owner earns ₹2,00,000. Mean = ₹38,000 (misleading), Median = ₹20,000 (true picture), Mode = ₹20,000. Which one would you trust?
 
 7. A Quick Peek at Graphical Tools (for the competitive edge)
 
-Histogram: Like a bar chart for continuous class intervals (bars touch).
-
-Frequency Polygon: Join the mid‑points of histogram tops with straight lines. Can be drawn without the bars.
-
-Ogive (Cumulative Frequency Curve): “Less than” type or “more than” type. Used to find median, quartiles etc.
+- Histogram: Like a bar chart for continuous class intervals (bars touch).
+- Frequency Polygon: Join the mid-points of histogram tops with straight lines. Can be drawn without the bars.
+- Ogive (Cumulative Frequency Curve): "Less than" type or "more than" type. Used to find median, quartiles etc.
 
 These are rare in direct questions but often appear in data interpretation sections.
 
-🧠 Recall without notes: In an ogive, how do you locate the median? *(Answer: Mark n/2 on the y‑axis, draw a horizontal line to the curve, then drop a vertical line to the x‑axis.)*
+🧠 Recall without notes: In an ogive, how do you locate the median? (Answer: Mark n/2 on the y-axis, draw a horizontal line to the curve, then drop a vertical line to the x-axis.)
 
 Summary Table – Formulas at a Glance
-Measure	Ungrouped Data	Grouped Data
-Mean
-Σ
-𝑥
-𝑛
-n
-Σx
-	​
 
-
-Σ
-𝑓
-𝑖
-𝑥
-𝑖
-Σ
-𝑓
-𝑖
-Σf
-i
-	​
-
-Σf
-i
-	​
-
-x
-i
-	​
-
-	​
-
- (Direct)
-
-𝑎
-+
-Σ
-𝑓
-𝑖
-𝑑
-𝑖
-Σ
-𝑓
-𝑖
-a+
-Σf
-i
-	​
-
-Σf
-i
-	​
-
-d
-i
-	​
-
-	​
-
- (Assumed Mean)
-
-𝑎
-+
-Σ
-𝑓
-𝑖
-𝑢
-𝑖
-Σ
-𝑓
-𝑖
-⋅
-ℎ
-a+
-Σf
-i
-	​
-
-Σf
-i
-	​
-
-u
-i
-	​
-
-	​
-
-⋅h (Step Deviation)
-Median	Middle value after sorting
-𝑙
-+
-𝑛
-2
-−
-𝑐
-𝑓
-𝑓
-⋅
-ℎ
-l+
-f
-2
-n
-	​
-
-−cf
-	​
-
-⋅h
-Mode	Most frequent value
-𝑙
-+
-𝑓
-1
-−
-𝑓
-0
-2
-𝑓
-1
-−
-𝑓
-0
-−
-𝑓
-2
-⋅
-ℎ
-l+
-2f
-1
-	​
-
-−f
-0
-	​
-
-−f
-2
-	​
-
-f
-1
-	​
-
-−f
-0
-	​
-
-	​
-
-⋅h
+| Measure | Ungrouped Data | Grouped Data |
+|---|---|---|
+| Mean | Mean = Σx / n | Direct: Mean = Σ(fᵢ·xᵢ) / Σfᵢ; Assumed Mean: Mean = a + Σ(fᵢ·dᵢ) / Σfᵢ; Step Deviation: Mean = a + [Σ(fᵢ·uᵢ) / Σfᵢ] × h |
+| Median | Middle value after sorting (odd n: ((n+1)/2)th term; even n: average of (n/2)th and (n/2+1)th terms) | Median = l + [(n/2 − cf) / f] × h |
+| Mode | Most frequent value | Mode = l + [(f₁ − f₀) / (2f₁ − f₀ − f₂)] × h |
 
 Key Interpretations:
 
-Mean > Median > Mode → Positively skewed (tail to right, few high values).
-
-Mean < Median < Mode → Negatively skewed (tail to left, few low values).
-
-Mean = Median = Mode → Perfectly symmetric.
+- Mean > Median > Mode → Positively skewed (tail to right, few high values).
+- Mean < Median < Mode → Negatively skewed (tail to left, few low values).
+- Mean = Median = Mode → Perfectly symmetric.
 
 Your Challenge: Review After 2 Days
 
-Set a reminder on your phone right now: “Statistics – 2‑day recall”. When it rings, close your eyes and answer these without peeping:
+Set a reminder on your phone right now: "Statistics – 2-day recall". When it rings, close your eyes and answer these without peeping:
 
-Write the formula for median of grouped data and explain each term.
+1. Write the formula for median of grouped data and explain each term.
+2. Why is median used for income data instead of mean?
+3. Solve: Find mean and median of 10, 20, 30, 40, 500. Which is a better representative and why?
+4. Recall the "MAD Middle Most" memory trick and expand it.
 
-Why is median used for income data instead of mean?
+If you can answer these, you've truly made the concepts your own. If not, just spend 5 minutes revisiting the relevant part. That's the secret of toppers—spaced repetition.
 
-Solve: Find mean and median of 10, 20, 30, 40, 500. Which is a better representative and why?
-
-Recall the “MAD Middle Most” memory trick and expand it.
-
-If you can answer these, you’ve truly made the concepts your own. If not, just spend 5 minutes revisiting the relevant part. That’s the secret of toppers—spaced repetition.
-
-You now have a rock‑solid foundation in Statistics. Onwards!
+You now have a rock-solid foundation in Statistics. Onwards!

@@ -1,21 +1,26 @@
+# Mind Map: Mathematical Operations
+
 ```mermaid
 graph TD
-    R["➗ गणितीय संक्रियाएँ<br>Mathematical Operations"]
-    R --> D["📖 अर्थ<br>चिह्नों का अर्थ बदलना"]
-    R --> M["🗝️ नियम<br>BODMAS लागू रहता है"]
-    R --> T["📂 प्रकार<br>Types"]
-    R --> TR["⚠️ जाल<br>Traps"]
+    Root["Mathematical Operations"] --> Types["Problem Categories"]
+    Root --> CoreRules["Core Rules"]
+    Root --> Strategy["Strategy & Time Management"]
+    Root --> Traps["Examiner Traps"]
 
-    M --> M1["B कोष्ठक, O का/घात"]
-    M --> M2["D भाग, M गुणा"]
-    M --> M3["A जोड़, S घटाव"]
+    Types --> T1["Symbol Substitution<br/>(+, -, x, / swapped)"]
+    Types --> T2["Equation Balancing<br/>(Sign Interchange)"]
+    Types --> T3["Relational Coding<br/>(>, <, = as letters)"]
+    Types --> T4["Custom Operations<br/>(a * b = a² + b)"]
 
-    T --> T1["चिह्न प्रतिस्थापन<br>+ का अर्थ ×"]
-    T --> T2["चिह्न अदला-बदली<br>+ और − बदलो"]
-    T --> T3["समीकरण संतुलित करना"]
-    T --> T4["सत्य कथन पहचानना"]
+    CoreRules --> RDB["RDB Framework<br/>Replace -> Decode -> BODMAS"]
+    CoreRules --> BODMAS["BODMAS Hierarchy<br/>Brackets -> Div/Mult -> Add/Sub"]
+    CoreRules --> Signs["Pure Substitution<br/>Never compute while replacing"]
 
-    TR --> TR1["BODMAS भूलना"]
-    TR --> TR2["केवल एक चिह्न बदलना"]
-    TR --> TR3["पुराने चिह्न से हल"]
+    Strategy --> S1["Option Elimination<br/>Test Division Compatibility"]
+    Strategy --> S2["15-Second Rule<br/>Write full expression before solving"]
+    Strategy --> S3["45-Second Cap<br/>Skip if 2+ option checks fail"]
+
+    Traps --> P1["Incomplete Substitution<br/>Mixing old and new signs"]
+    Traps --> P2["Left-to-Right Bias<br/>Ignoring operator precedence"]
+    Traps --> P3["Fractional Confusion<br/>Rounding division too early"]
 ```

@@ -1,0 +1,151 @@
+Questions 101–120: Medium | Questions 121–125: Hard
+
+101. A man walks 5 km towards the North, then turns right and walks 3 km, then turns right again and walks 5 km. How far is he from the starting point?
+(a) 13 km (b) 5 km (c) 8 km (d) 3 km
+Answer: (d)
+Solution: The tempting answer 8 km comes from adding the legs, but distance from start is not the total path. The two 5 km legs (North then South) cancel each other, leaving only the 3 km East leg, so the answer is 3 km.
+Source: PYQ-style
+
+102. Ravi walks 10 m towards the East, turns left and walks 6 m, then turns left and walks 10 m. In which direction is he from the starting point?
+(a) North (b) West (c) East (d) South
+Answer: (a)
+Solution: The tempting answer West treats the last leg as the resultant, but the 10 m East and 10 m West legs cancel out. The remaining 6 m was walked after turning left from East, which is North, so the answer is North.
+Source: PYQ-style
+
+103. In a coded direction system, 'A @ B' means B is 4 m North of A, and 'A # B' means B is 3 m East of A. If P @ Q and Q # R, how far is P from R?
+(a) 5 m (b) 7 m (c) 12 m (d) 1 m
+Answer: (a)
+Solution: The tempting answer 7 m comes from simply adding 4 and 3, but the two legs are perpendicular. Q is 4 m North of P and R is 3 m East of Q, so PR = √(4² + 3²) = √25 = 5 m, so the answer is 5 m.
+Source: PYQ-style
+
+104. Sunita walks 8 km towards the South, then turns left and walks 6 km. How far and in which direction is she from the start?
+(a) 2 km, South (b) 14 km, South-East (c) 10 km, South-East (d) 10 km, South-West
+Answer: (c)
+Solution: The tempting answer 14 km adds the legs, ignoring that they are perpendicular. After walking South, a left turn faces East, so distance = √(8² + 6²) = 10 km towards South-East, so the answer is 10 km, South-East.
+Source: PYQ-style
+
+105. A boy facing West turns 135° clockwise. Which direction is he facing now?
+(a) South-West (b) South-East (c) North-West (d) North-East
+Answer: (d)
+Solution: The tempting answer South-East comes from turning anticlockwise by mistake. From West, 90° clockwise gives North, and a further 45° gives North-East, so the answer is North-East.
+Source: PYQ-style
+
+106. Point A is 6 m East of point B. Point C is 8 m North of point A. What is the shortest distance between B and C?
+(a) 14 m (b) 12 m (c) 10 m (d) 2 m
+Answer: (c)
+Solution: The tempting answer 14 m adds the two legs instead of applying Pythagoras. BC = √(6² + 8²) = √100 = 10 m, so the answer is 10 m.
+Source: PYQ-style
+
+107. Meena walks 4 km North, then 3 km West, then 4 km South. In which direction is she from the starting point?
+(a) East (b) West (c) North (d) South
+Answer: (b)
+Solution: The tempting answer North assumes the North and South legs do not cancel, but both are 4 km so they do. Only the 3 km West leg remains, so the answer is West.
+Source: PYQ-style
+
+108. If 'P $ Q' means Q is 5 m South of P and 'P % Q' means Q is 12 m West of P, then for X $ Y and Y % Z, what is the distance XZ?
+(a) 17 m (b) 13 m (c) 60 m (d) 7 m
+Answer: (b)
+Solution: The tempting answer 17 m adds 5 and 12, but the legs are perpendicular. XZ = √(5² + 12²) = √169 = 13 m, so the answer is 13 m.
+Source: PYQ-style
+
+109. A man walks 15 m towards the North-East. He then turns 90° anticlockwise and walks 15 m. In which direction is he from the start?
+(a) North (b) North-West (c) West (d) East
+Answer: (a)
+Solution: The tempting answer North-West is the direction of the second leg, not the resultant. The two equal legs at 90° (North-East then North-West) produce a resultant exactly midway between them, i.e. North, so the answer is North.
+Source: PYQ-style
+
+110. Rohan starts from his house, goes 7 km East, turns right and goes 24 km. How far is he from his house?
+(a) 31 km (b) 30 km (c) 17 km (d) 25 km
+Answer: (d)
+Solution: The tempting answer 31 km adds the legs, but they form a right angle. Distance = √(7² + 24²) = √625 = 25 km, so the answer is 25 km.
+Source: PYQ-style
+
+111. A clock shows 3:00. If the minute hand points East, in which direction does the hour hand point?
+(a) North (b) West (c) East (d) South
+Answer: (d)
+Solution: The tempting answer North assumes the hour hand is 90° anticlockwise from the minute hand. At 3:00 the hour hand is 90° clockwise from the minute hand, and 90° clockwise from East is South, so the answer is South.
+Source: PYQ-style
+
+112. Kiran walks 9 m North, turns right and walks 12 m, then turns right and walks 9 m. How far is he from the start?
+(a) 30 m (b) 12 m (c) 21 m (d) 9 m
+Answer: (b)
+Solution: The tempting answer 21 m adds the last two legs. The two 9 m legs (North then South) cancel, leaving the 12 m East leg, so the answer is 12 m.
+Source: PYQ-style
+
+113. Village P is 10 km West of village Q. Village R is 10 km South of village Q. In which direction is R from P?
+(a) South-West (b) South-East (c) North-East (d) North-West
+Answer: (b)
+Solution: The tempting answer South-West places R to the left of P, but R is actually to the right of P. From P, R lies 10 km East and 10 km South, i.e. South-East, so the answer is South-East.
+Source: PYQ-style
+
+114. A man facing South turns 45° clockwise, then 90° anticlockwise, then 135° clockwise. Which direction does he face now?
+(a) West (b) North-West (c) South-East (d) South-West
+Answer: (a)
+Solution: The tempting answer South-East comes from adding the turns with wrong signs. Net turn = 45° − 90° + 135° = 90° clockwise, and 90° clockwise from South is West, so the answer is West.
+Source: PYQ-style
+
+115. In a code, 'M * N' means N is 6 m East of M, 'M + N' means N is 8 m North of M. Given A * B and B + C, what is the distance AC?
+(a) 14 m (b) 10 m (c) 48 m (d) 2 m
+Answer: (b)
+Solution: The tempting answer 14 m adds the legs instead of using Pythagoras. AC = √(6² + 8²) = 10 m, so the answer is 10 m.
+Source: PYQ-style
+
+116. Deepak walks 20 m South, turns left and walks 20 m, then turns left again and walks 20 m. In which direction is he from the start?
+(a) East (b) South (c) North (d) West
+Answer: (a)
+Solution: The tempting answer North treats the last leg as the resultant. The two 20 m South–North legs cancel; the middle leg was East (left of South), so the answer is East.
+Source: PYQ-style
+
+117. A girl walks 5 km towards the North, then 12 km towards the East, and then 5 km towards the South. What is her distance from the starting point?
+(a) 22 km (b) 13 km (c) 12 km (d) 17 km
+Answer: (c)
+Solution: The tempting answer 13 km applies Pythagoras to 5 and 12 without noticing the North and South legs cancel. Only the 12 km East leg remains, so the answer is 12 km.
+Source: PYQ-style
+
+118. If South-East becomes North and North-East becomes West in a coded direction system, what does West become?
+(a) North-West (b) North-East (c) South-West (d) South-East
+Answer: (d)
+Solution: The tempting answer North-East assumes a 90° shift, but the shift is 135° anticlockwise (South-East → North). Applying the same 135° anticlockwise rotation to West gives South-East, so the answer is South-East.
+Source: PYQ-style
+
+119. Amit walks 30 m towards the East, turns right and walks 40 m. He wants to return to the start by the shortest route. How far must he walk?
+(a) 50 m (b) 60 m (c) 70 m (d) 10 m
+Answer: (a)
+Solution: The tempting answer 70 m is the total path walked, not the shortest return. Shortest distance = √(30² + 40²) = √2500 = 50 m, so the answer is 50 m.
+Source: PYQ-style
+
+120. Point X is 4 m North of point Y. Point Z is 3 m West of point Y. In which direction is Z from X?
+(a) North-East (b) South-West (c) South-East (d) North-West
+Answer: (b)
+Solution: The tempting answer North-West keeps X's northerly position in mind but forgets Z is below X. From X, Z lies 4 m down (South) and 3 m left (West), i.e. South-West, so the answer is South-West.
+Source: PYQ-style
+
+121. A man walks 6 km North, then 8 km East, then 6 km South, then 3 km West. How far is he from the starting point?
+(a) 10 km (b) 23 km (c) 5 km (d) 8 km
+Answer: (c)
+Solution: The tempting answer 10 km applies Pythagoras to 6 and 8 without cancelling opposite legs. Net North–South = 0; net East–West = 8 − 3 = 5 km East, so the answer is 5 km.
+Source: PYQ-style
+
+122. In a coded system, 'A & B' means B is 5 m North of A, 'A ! B' means B is 5 m South of A, 'A ? B' means B is 12 m East of A. Given P & Q, Q ! R and R ? S, how far is P from S?
+(a) 17 m (b) 13 m (c) 12 m (d) 22 m
+Answer: (c)
+Solution: The tempting answer 13 m uses 5 and 12 in Pythagoras, but the two 5 m legs cancel: Q is 5 m North of P and R is 5 m South of Q, so R coincides with P. Then S is 12 m East of R, which is P, so the answer is 12 m.
+Source: PYQ-style
+
+123. Two persons start from the same point. One walks 9 km North and then 12 km East; the other walks 9 km South and then 12 km West. What is the distance between their final positions?
+(a) 30 km (b) 15 km (c) 42 km (d) 24 km
+Answer: (a)
+Solution: The tempting answer 24 km doubles only the East–West gap. The first ends at (12, 9) and the second at (−12, −9); distance = √(24² + 18²) = √900 = 30 km, so the answer is 30 km.
+Source: PYQ-style
+
+124. A man walks 10 m North, then 10 m East, then 10 m South, then 10 m West, and repeats this square cycle 3 times. He then walks 6 m North and 8 m East. How far is he from the start?
+(a) 120 m (b) 14 m (c) 10 m (d) 2 m
+Answer: (c)
+Solution: The tempting answer 120 m adds up the entire path, but each complete square cycle brings him back to the start. After 3 cycles he is at the start, and the final legs give √(6² + 8²) = 10 m, so the answer is 10 m.
+Source: PYQ-style
+
+125. A drone flies 3 km East, 4 km North, 3 km West, then 4 km South, and repeats this cycle 5 times, then flies 6 km East and 8 km North. How far is it from the starting point?
+(a) 0 km (b) 14 km (c) 100 km (d) 10 km
+Answer: (d)
+Solution: The tempting answer 0 km assumes the whole journey cancels, but cancellation happens only within each complete cycle. After 5 complete cycles the drone is back at the start, and the final legs of 6 km East and 8 km North give √(6² + 8²) = 10 km, so the answer is 10 km.
+Source: PYQ-style

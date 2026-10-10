@@ -1,3 +1,151 @@
-# Chapter: Time & Distance, Level: intermediate, Set: 3/6
+प्रश्न 51–70: आसान | प्रश्न 71–75: मध्यम
 
-@content_agent +mcq_generator_bilingual lang=en level=intermediate 'Generate 25 MCQs for Time & Distance. This is Set 3 (total 6 sets, 150 questions). Questions must be numbered 51 to 75. All 25 questions should be Medium. Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'
+51. A train 240 m long crosses a pole in 12 seconds. What is the speed of the train in km/h?
+(a) 72 km/h (b) 80 km/h (c) 60 km/h (d) 90 km/h
+Answer: (a)
+Solution: Speed = distance/time = 240/12 = 20 m/s. Converting to km/h: 20 × 18/5 = 72 km/h. The trap is forgetting the 18/5 conversion, so the answer is 72 km/h.
+Source: NCERT Class 8 Mathematics
+
+52. A man covers a certain distance in 4 hours at 45 km/h. How long will he take to cover the same distance at 60 km/h?
+(a) 3 hours (b) 2.5 hours (c) 2 hours (d) 3.5 hours
+Answer: (a)
+Solution: Distance = 45 × 4 = 180 km. Time at 60 km/h = 180/60 = 3 hours. The tempting wrong option 2.5 hours comes from mishandling the inverse speed-time ratio, so the answer is 3 hours.
+Source: NCERT Class 8 Mathematics
+
+53. Two trains of lengths 150 m and 250 m run towards each other on parallel tracks at speeds of 40 km/h and 50 km/h. In how much time will they cross each other?
+(a) 14 seconds (b) 20 seconds (c) 18 seconds (d) 16 seconds
+Answer: (d)
+Solution: Relative speed = 40 + 50 = 90 km/h = 90 × 5/18 = 25 m/s. Total length = 150 + 250 = 400 m, so time = 400/25 = 16 seconds. The trap is adding speeds in km/h without converting to m/s, so the answer is 16 seconds.
+Source: PYQ-style
+
+54. A car travels the first half of a journey at 30 km/h and the second half at 60 km/h. What is its average speed for the whole journey?
+(a) 45 km/h (b) 42 km/h (c) 48 km/h (d) 40 km/h
+Answer: (d)
+Solution: For equal distances, average speed = 2xy/(x+y) = 2 × 30 × 60/90 = 40 km/h. The trap is the simple mean 45 km/h, which ignores that more time is spent at the lower speed, so the answer is 40 km/h.
+Source: NCERT Class 9 Science (Motion)
+
+55. A boat goes 30 km downstream in 2 hours and the same distance upstream in 3 hours. What is the speed of the boat in still water?
+(a) 10 km/h (b) 12 km/h (c) 12.5 km/h (d) 15 km/h
+Answer: (c)
+Solution: Downstream speed = 30/2 = 15 km/h; upstream speed = 30/3 = 10 km/h. Boat speed in still water = (15 + 10)/2 = 12.5 km/h. The trap is taking 15 km/h directly, so the answer is 12.5 km/h.
+Source: PYQ-style
+
+56. A man walks at 5 km/h and reaches his office 10 minutes late. If he walks at 6 km/h, he reaches 10 minutes early. What is the distance to his office?
+(a) 8 km (b) 10 km (c) 12 km (d) 15 km
+Answer: (b)
+Solution: Let distance be d. Then d/5 − d/6 = 20/60 hours (the total gap between late and early). So d/30 = 1/3, giving d = 10 km. The trap is using only 10 minutes instead of the 20-minute gap, so the answer is 10 km.
+Source: PYQ-style
+
+57. A train 180 m long is running at 54 km/h. How long will it take to cross a platform 120 m long?
+(a) 15 seconds (b) 18 seconds (c) 20 seconds (d) 24 seconds
+Answer: (c)
+Solution: Speed = 54 × 5/18 = 15 m/s. Total distance = 180 + 120 = 300 m, so time = 300/15 = 20 seconds. The trap is using only the train's length and forgetting the platform, so the answer is 20 seconds.
+Source: NCERT Class 8 Mathematics
+
+58. A and B start from the same point and walk in opposite directions at 4 km/h and 5 km/h. After how much time will they be 27 km apart?
+(a) 2 hours (b) 2.5 hours (c) 3 hours (d) 3.5 hours
+Answer: (c)
+Solution: Moving in opposite directions, relative speed = 4 + 5 = 9 km/h. Time = 27/9 = 3 hours. The trap is subtracting the speeds, which applies only to the same direction, so the answer is 3 hours.
+Source: NCERT Class 8 Mathematics
+
+59. A cyclist covers a distance of 750 m in 2 minutes 30 seconds. What is his speed in km/h?
+(a) 18 km/h (b) 20 km/h (c) 15 km/h (d) 24 km/h
+Answer: (a)
+Solution: Time = 150 seconds. Speed = 750/150 = 5 m/s = 5 × 18/5 = 18 km/h. The trap is misreading 2 minutes 30 seconds as 230 seconds, so the answer is 18 km/h.
+Source: NCERT Class 9 Science (Motion)
+
+60. A train passes a man standing on a platform in 8 seconds and passes the 264 m long platform completely in 20 seconds. What is the length of the train?
+(a) 160 m (b) 176 m (c) 180 m (d) 200 m
+Answer: (b)
+Solution: Let train length be L. Speed = L/8, and crossing the platform gives (L + 264)/20 = L/8. So 8L + 2112 = 20L, giving L = 176 m. The trap is assuming the 20 seconds covers only the platform, so the answer is 176 m.
+Source: PYQ-style
+
+61. A man travels 160 km at 64 km/h and the next 160 km at 80 km/h. What is his average speed for the whole journey?
+(a) 70 km/h (b) 71.1 km/h (c) 72 km/h (d) 74 km/h
+Answer: (b)
+Solution: Time for first part = 160/64 = 2.5 h; second part = 160/80 = 2 h. Average speed = 320/4.5 ≈ 71.1 km/h. The trap is the simple mean 72 km/h, which ignores unequal times, so the answer is 71.1 km/h.
+Source: NCERT Class 9 Science (Motion)
+
+62. The speed of a boat in still water is 11 km/h and the speed of the stream is 3 km/h. How much time will the boat take to go 56 km upstream?
+(a) 7 hours (b) 5 hours (c) 6 hours (d) 8 hours
+Answer: (a)
+Solution: Upstream speed = 11 − 3 = 8 km/h. Time = 56/8 = 7 hours. The trap is adding the stream speed, which applies only downstream, so the answer is 7 hours.
+Source: PYQ-style
+
+63. A bus covers a certain distance in 6 hours at 50 km/h. By how much should its speed increase to cover the same distance in 5 hours?
+(a) 8 km/h (b) 15 km/h (c) 10 km/h (d) 12 km/h
+Answer: (c)
+Solution: Distance = 50 × 6 = 300 km. Required speed = 300/5 = 60 km/h, so the increase = 60 − 50 = 10 km/h. The trap is answering 60 km/h, the new speed, instead of the increase asked, so the answer is 10 km/h.
+Source: NCERT Class 8 Mathematics
+
+64. Two trains start at the same time from stations A and B, 300 km apart, and travel towards each other at 55 km/h and 65 km/h. After how long will they meet?
+(a) 2 hours (b) 3.5 hours (c) 3 hours (d) 2.5 hours
+Answer: (d)
+Solution: Relative speed = 55 + 65 = 120 km/h. Time = 300/120 = 2.5 hours. The trap is using the difference of speeds, which suits same-direction pursuit, so the answer is 2.5 hours.
+Source: PYQ-style
+
+65. A man can row 9 km/h in still water. He takes twice as long to row upstream as to row downstream the same distance. What is the speed of the stream?
+(a) 3.5 km/h (b) 2 km/h (c) 3 km/h (d) 4 km/h
+Answer: (c)
+Solution: Double the time upstream means downstream speed is twice the upstream speed. So 9 + s = 2(9 − s), giving 3s = 9 and s = 3 km/h. The trap is reversing the ratio and taking upstream speed as double, so the answer is 3 km/h.
+Source: PYQ-style
+
+66. A train 400 m long running at 90 km/h crosses a bridge in 36 seconds. What is the length of the bridge?
+(a) 400 m (b) 550 m (c) 450 m (d) 500 m
+Answer: (d)
+Solution: Speed = 90 × 5/18 = 25 m/s. Distance covered in 36 s = 25 × 36 = 900 m = train length + bridge length. Bridge = 900 − 400 = 500 m. The trap is reporting 900 m as the bridge length and forgetting to subtract the train, so the answer is 500 m.
+Source: PYQ-style
+
+67. A person travels equal distances at 40 km/h and 60 km/h. What is his average speed?
+(a) 48 km/h (b) 52 km/h (c) 50 km/h (d) 45 km/h
+Answer: (a)
+Solution: Average speed for equal distances = 2 × 40 × 60/(40 + 60) = 4800/100 = 48 km/h. The trap is the arithmetic mean 50 km/h, valid only for equal times, so the answer is 48 km/h.
+Source: NCERT Class 9 Science (Motion)
+
+68. A 300 m long train crosses a man walking at 6 km/h in the same direction in 30 seconds. What is the speed of the train?
+(a) 36 km/h (b) 42 km/h (c) 45 km/h (d) 40 km/h
+Answer: (b)
+Solution: Relative speed = 300/30 = 10 m/s = 36 km/h. Since they move in the same direction, train speed = 36 + 6 = 42 km/h. The trap is ignoring the man's motion and answering 36 km/h, so the answer is 42 km/h.
+Source: PYQ-style
+
+69. A man covers 2/5 of his 100 km journey by bus at 40 km/h, 2/5 by train at 60 km/h, and the rest by cycle at 10 km/h. What is the total time taken?
+(a) 3 hours (b) 3 hours 20 minutes (c) 4 hours (d) 3 hours 40 minutes
+Answer: (d)
+Solution: Bus: 40 km at 40 km/h = 60 min. Train: 40 km at 60 km/h = 40 min. Cycle: remaining 20 km at 10 km/h = 120 min. Total = 220 min = 3 hours 40 minutes. The trap is forgetting the remaining 1/5 of the journey and stopping at 100 minutes, so the answer is 3 hours 40 minutes.
+Source: PYQ-style
+
+70. A thief runs at 8 km/h and a policeman chases him at 10 km/h. If the thief is initially 400 m ahead, how long will the policeman take to catch him?
+(a) 12 minutes (b) 10 minutes (c) 15 minutes (d) 18 minutes
+Answer: (a)
+Solution: Relative speed = 10 − 8 = 2 km/h = 2000 m per 60 min. Time to cover 400 m = 400/2000 × 60 = 12 minutes. The trap is adding the speeds, which applies to opposite directions, so the answer is 12 minutes.
+Source: PYQ-style
+
+71. A car travels at 72 km/h. How many metres does it cover in 15 seconds?
+(a) 250 m (b) 350 m (c) 300 m (d) 400 m
+Answer: (c)
+Solution: Speed = 72 × 5/18 = 20 m/s. Distance in 15 s = 20 × 15 = 300 m. The trap is multiplying 72 directly by 15 without converting units, so the answer is 300 m.
+Source: NCERT Class 9 Science (Motion)
+
+72. A boat takes 4 hours to go 24 km downstream and 6 hours to return the same distance upstream. What is the speed of the stream?
+(a) 2.5 km/h (b) 1 km/h (c) 2 km/h (d) 1.5 km/h
+Answer: (b)
+Solution: Downstream speed = 24/4 = 6 km/h; upstream speed = 24/6 = 4 km/h. Stream speed = (6 − 4)/2 = 1 km/h. The trap is taking the full difference 2 km/h instead of halving it, so the answer is 1 km/h.
+Source: PYQ-style
+
+73. A man reaches his destination 20 minutes late when he walks at 3 km/h and 10 minutes early when he walks at 4 km/h. What is the distance to his destination?
+(a) 6 km (b) 5 km (c) 4 km (d) 8 km
+Answer: (a)
+Solution: Let distance be d. Then d/3 − d/4 = 30/60 = 1/2 hour. So d/12 = 1/2, giving d = 6 km. The trap is using 20 − 10 = 10 minutes instead of the total 30-minute gap, so the answer is 6 km.
+Source: PYQ-style
+
+74. Two trains of equal length cross a pole in 10 seconds and 15 seconds respectively. In what time will they cross each other when moving in opposite directions?
+(a) 10 seconds (b) 15 seconds (c) 14 seconds (d) 12 seconds
+Answer: (d)
+Solution: Let each train's length be L. Speeds are L/10 and L/15, so relative speed = L/10 + L/15 = L/6. Total distance = 2L, giving time = 2L/(L/6) = 12 seconds. The trap is averaging 10 and 15 to get 12.5 seconds, so the answer is 12 seconds.
+Source: PYQ-style
+
+75. A man travels from A to B at 20 km/h and returns at 30 km/h. If the total journey takes 5 hours, what is the distance between A and B?
+(a) 50 km (b) 60 km (c) 70 km (d) 80 km
+Answer: (b)
+Solution: Let one-way distance be d. Then d/20 + d/30 = 5, so 5d/60 = 5, giving d = 60 km. The trap is using the average speed 25 km/h × 5 h = 125 km as the one-way distance, so the answer is 60 km.
+Source: NCERT Class 8 Mathematics

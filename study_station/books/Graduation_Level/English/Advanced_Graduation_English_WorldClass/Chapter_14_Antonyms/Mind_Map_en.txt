@@ -1,0 +1,35 @@
+```mermaid
+graph TD
+    A["Antonyms<br>Words of Opposite Meaning"] --> B["Core Concept"]
+    A --> C["Word-Building Strategy"]
+    A --> D["Examiner's Traps"]
+    A --> E["Solving Strategy"]
+    A --> F["High-Yield Roots"]
+
+    B --> B1["Gradable Opposite<br>Hot ↔ Cold (degrees exist)"]
+    B --> B2["Complementary Opposite<br>Dead ↔ Alive (no middle)"]
+    B --> B3["Relational Opposite<br>Buy ↔ Sell"]
+    B --> B4["Contextual Opposite<br>Opposite depends on usage"]
+
+    C --> C1["Negative Prefixes<br>un-, in-, dis-, mis-, non-"]
+    C --> C2["in- changes form<br>im- before p/b/m<br>il- before l, ir- before r"]
+    C --> C3["Suffixes like -ful and -less<br>change meaning<br>Careful ↔ Careless"]
+    C --> C4["Not all opposites use prefixes<br>Generous → Stingy"]
+
+    D --> D1["Near-Synonym Trap<br>Option looks similar, not opposite"]
+    D --> D2["Partial Opposite Trap<br>Only opposite in one context"]
+    D --> D3["Degree Trap<br>Happy → Furious (too extreme)<br>Correct: Sad"]
+    D --> D4["Sound-Right Trap<br>Word sounds negative<br>but isn't the antonym"]
+
+    E --> E1["Step 1: Identify tone<br>Positive or Negative word?"]
+    E --> E2["Step 2: Eliminate synonyms first"]
+    E --> E3["Step 3: Match degree of intensity"]
+    E --> E4["15-Second Rule<br>Common words = Fact-based = 15 sec"]
+    E --> E5["45-Second Rule<br>Rare/abstract words = 45 sec<br>else SKIP and return"]
+
+    F --> F1["BENE = good<br>Benevolent ↔ Malevolent"]
+    F --> F2["MAL = bad<br>Malign ↔ Benign"]
+    F --> F3["PHIL = love<br>Philanthropist ↔ Misanthropist"]
+    F --> F4["AMBI = both<br>Ambiguous ↔ Explicit"]
+    F --> F5["LOQU = speak<br>Loquacious ↔ Taciturn"]
+```

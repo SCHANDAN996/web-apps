@@ -1,0 +1,38 @@
+```mermaid
+graph TD
+    A["Word Roots &<br>Morphology"] --> B["Core Concepts"]
+    A --> C["High-Yield Roots"]
+    A --> D["Rules &<br>Strategies"]
+    A --> E["Examiner's Traps"]
+    A --> F["Exam Strategy"]
+
+    B --> B1["Root = core meaning<br>(dict, port, spect)"]
+    B --> B2["Prefix = before root<br>(pre-, anti-, re-)"]
+    B --> B3["Suffix = after root<br>(-tion, -ology, -ist)"]
+    B --> B4["Word = Prefix + Root + Suffix<br>un-predict-able"]
+
+    C --> C1["DICT = say<br>predict, verdict, dictate"]
+    C --> C2["PORT = carry<br>transport, import, portable"]
+    C --> C3["SPECT = look<br>inspect, spectator, retrospect"]
+    C --> C4["BENE/MAL = good/bad<br>benefit, malice"]
+    C --> C5["CHRON = time<br>chronology, synchronize"]
+    C --> C6["PHIL/PHOB = love/fear<br>philanthropy, phobia"]
+    C --> C7["LOGY = study<br>biology, geology"]
+    C --> C8["CRED = believe<br>credible, incredible"]
+
+    D --> D1["Rule 1: Break unknown word<br>into prefix + root + suffix"]
+    D --> D2["Rule 2: Guess meaning<br>from root, verify with context"]
+    D --> D3["Rule 3: One root unlocks<br>10-20 words"]
+    D --> D4["Rule 4: Suffix shows<br>part of speech"]
+    D --> D5["Mnemonic: PORT = PORTer<br>carries bags"]
+
+    E --> E1["Trap 1: Similar-looking roots<br>BI (two) vs BIO (life)"]
+    E --> E2["Trap 2: False friends<br>invaluable = very valuable,<br>not 'not valuable'"]
+    E --> E3["Trap 3: Same spelling,<br>different root<br>REIGN vs REIN"]
+    E --> E4["Trap 4: Over-thinking —<br>trust the root, not the sound"]
+
+    F --> F1["15-sec: Fact-based<br>direct root meaning Qs"]
+    F --> F2["45-sec: Inference-based<br>word-in-context, tone Qs"]
+    F --> F3["Skip Strategy: if root unknown,<br>eliminate by prefix polarity<br>(+/-) and move on"]
+    F --> F4["Revise flashcards<br>after 2 days"]
+```

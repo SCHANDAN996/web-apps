@@ -1,0 +1,205 @@
+# Coordinate Geometry
+
+## Learning Goals
+
+By the end of this chapter, you will be able to:
+
+- Find distances, midpoints, and section points between any two coordinates
+- Calculate the slope, equation, and angle of any straight line
+- Work confidently with circles, parabolas, ellipses, and hyperbolas
+- Compute areas of triangles and polygons using coordinates
+- Solve locus problems — the favourite hunting ground of CAT and SSC CGL Tier-II
+
+---
+
+## The Hook: A Lost Ship and a Genius in Bed
+
+In 1637, a French mathematician named René Descartes was lying sick in bed, watching a fly crawl across his ceiling. He wondered: *"How can I describe the fly's exact position using only numbers?"* His answer — two perpendicular number lines — became the **Cartesian plane**, and it changed mathematics forever.
+
+Why should you care? Because every GPS satellite, every Google Maps route, every missile trajectory, and every CAT question on "the locus of a point" runs on Descartes' idea. Coordinate Geometry is not a chapter — it is the **bridge between algebra and geometry**. Master it, and geometry problems become pure calculation. No diagrams to guess, no constructions to fumble. Just numbers.
+
+---
+
+## Why Students Fear This Chapter (And Why You Won't)
+
+Most aspirants struggle here for one reason: they memorise 40 formulas without seeing the **one idea behind all of them** — *every geometric object is just a set of points satisfying an equation*. A line is not a drawing; it is the set of all (x, y) where ax + by + c = 0. Once this clicks, formulas stop being memory burdens and become obvious consequences.
+
+We will build the chapter in small chunks. Read each chunk, pause, and test yourself at every 🧠 prompt.
+
+---
+
+## Chunk 1: The Distance Formula — Pythagoras in Disguise
+
+The distance between two points A(x₁, y₁) and B(x₂, y₂) is:
+
+$$d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
+
+This is nothing but the Pythagoras theorem. The horizontal gap (x₂ − x₁) and vertical gap (y₂ − y₁) are the two legs of a right triangle; the distance is the hypotenuse.
+
+**Example:** Distance between (2, 3) and (6, 6) = √[(6−2)² + (6−3)²] = √(16+9) = √25 = **5**.
+
+🧠 **Active Recall:** Without looking back — what is the distance between (0, 0) and (3, 4)? Why does this formula remind you of a right triangle?
+
+---
+
+## Chunk 2: Section Formula — Dividing a Journey
+
+If point P divides the line joining A(x₁, y₁) and B(x₂, y₂) in the ratio **m : n** (internally):
+
+$$P = \left(\frac{mx_2 + nx_1}{m+n}, \frac{my_2 + ny_1}{m+n}\right)$$
+
+Notice the **cross pattern**: m multiplies x₂ (the *far* end), n multiplies x₁. The midpoint is the special case m = n = 1:
+
+$$M = \left(\frac{x_1+x_2}{2}, \frac{y_1+y_2}{2}\right)$$
+
+For **external** division, replace n with −n (or m with −m). Examiners love asking: "In what ratio does the x-axis divide the segment joining (2, −3) and (5, 6)?" Trick: on the x-axis, y = 0, so set the y-part of the section formula to zero and solve for the ratio.
+
+🧠 **Active Recall:** In the section formula, which coordinate does 'm' multiply — the near point or the far point? What is the midpoint of (4, 8) and (10, 2)?
+
+---
+
+## Chunk 3: Area of a Triangle — The Shoelace
+
+For vertices (x₁, y₁), (x₂, y₂), (x₃, y₃):
+
+$$\text{Area} = \frac{1}{2}\left| x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2) \right|$$
+
+**Mnemonic — "The Shoelace":** Write the coordinates in a column, repeat the first point at the bottom, then cross-multiply diagonally down (add) and diagonally up (subtract), and halve the result. It looks like lacing a shoe!
+
+**Killer application:** If the area comes out **zero**, the three points are **collinear**. This is the fastest collinearity test in the entire syllabus — far quicker than checking slopes.
+
+🧠 **Active Recall:** What does a zero area tell you about three points? Compute the area of the triangle with vertices (0,0), (4,0), (0,3).
+
+---
+
+## Chunk 4: Slope — The Personality of a Line
+
+The slope (gradient) of a line through (x₁, y₁) and (x₂, y₂):
+
+$$m = \frac{y_2 - y_1}{x_2 - x_1} = \tan\theta$$
+
+where θ is the angle the line makes with the positive x-axis.
+
+- m > 0 → line rises left to right
+- m < 0 → line falls left to right
+- m = 0 → horizontal line
+- m undefined → vertical line
+
+**Parallel lines:** m₁ = m₂. **Perpendicular lines:** m₁ × m₂ = −1.
+
+**Mnemonic — "Perpendicular = Negative Reciprocal = Flip and Switch":** If one slope is 2/3, the perpendicular slope is −3/2. Flip the fraction, switch the sign.
+
+🧠 **Active Recall:** A line has slope 4. What is the slope of (a) a line parallel to it, (b) a line perpendicular to it?
+
+---
+
+## Chunk 5: Equations of a Line — Five Costumes, One Actor
+
+The same straight line can be written in five standard forms:
+
+1. **Slope-intercept:** y = mx + c (c = y-intercept)
+2. **Point-slope:** y − y₁ = m(x − x₁)
+3. **Two-point:** y − y₁ = [(y₂ − y₁)/(x₂ − x₁)](x − x₁)
+4. **Intercept form:** x/a + y/b = 1 (a, b = x and y intercepts)
+5. **General form:** ax + by + c = 0, where slope = −a/b
+
+**Exam gold:** From ax + by + c = 0, read the slope instantly as **−a/b**. No rearranging needed. For 3x + 4y − 12 = 0, slope = −3/4.
+
+**Distance of a point (x₁, y₁) from line ax + by + c = 0:**
+
+$$d = \frac{|ax_1 + by_1 + c|}{\sqrt{a^2 + b^2}}$$
+
+**Distance between parallel lines** ax + by + c₁ = 0 and ax + by + c₂ = 0:
+
+$$d = \frac{|c_1 - c_2|}{\sqrt{a^2 + b^2}}$$
+
+🧠 **Active Recall:** What is the slope of 5x − 2y + 7 = 0? What goes in the numerator of the point-to-line distance formula?
+
+---
+
+## Chunk 6: Angle Between Two Lines
+
+$$\tan\theta = \left| \frac{m_1 - m_2}{1 + m_1 m_2} \right|$$
+
+If m₁m₂ = −1, the denominator vanishes → θ = 90°. This single formula quietly contains the perpendicularity condition — a classic examiner trap is to ask for the angle when the lines are actually perpendicular.
+
+---
+
+## Chunk 7: The Circle — One Fixed Point, One Fixed Distance
+
+A circle is the locus of all points at a fixed distance (radius r) from a fixed point (centre).
+
+- **Standard form:** (x − h)² + (y − k)² = r², centre (h, k)
+- **General form:** x² + y² + 2gx + 2fy + c = 0, centre (−g, −f), radius = √(g² + f² − c)
+
+**Mnemonic — "Centre flips, radius squares":** From the general form, the centre coordinates are the *negatives* of half the coefficients of x and y, and the radius needs g² + f² − c under the root.
+
+**Condition check:** If g² + f² − c < 0, no real circle exists. CAT and CGL Tier-II both test this boundary.
+
+**Tangent length** from external point (x₁, y₁): √(x₁² + y₁² + 2gx₁ + 2fy₁ + c) — just substitute the point into the left side of the general equation and take the root.
+
+🧠 **Active Recall:** For x² + y² − 6x + 4y − 12 = 0, what are the centre and radius? (Hint: 2g = −6, 2f = 4.)
+
+---
+
+## Chunk 8: Conic Sections — The Eccentricity Family
+
+Cut a cone with a plane at different angles and you get the conic family. The unifying parameter is **eccentricity (e)** — how "stretched" the curve is:
+
+| Conic | Eccentricity | Standard Equation |
+|---|---|---|
+| Circle | e = 0 | x² + y² = r² |
+| Parabola | e = 1 | y² = 4ax |
+| Ellipse | 0 < e < 1 | x²/a² + y²/b² = 1 |
+| Hyperbola | e > 1 | x²/a² − y²/b² = 1 |
+
+**Mnemonic — "0-1-less-more: Circle, Parabola, Ellipse, Hyperbola"** — say it as a rhythm: *zero, one, less, more*.
+
+**Parabola essentials (y² = 4ax):** focus (a, 0), directrix x = −a, latus rectum = 4a.
+
+**Ellipse essentials:** for a > b, foci at (±ae, 0), e = √(1 − b²/a²), and the defining property — the **sum of distances from any point on the ellipse to the two foci is constant = 2a**.
+
+**Hyperbola essentials:** foci (±ae, 0), e = √(1 + b²/a²), and the **difference** of distances to the foci is constant = 2a.
+
+**Mnemonic — "Ellipse Adds, Hyperbola Subtracts"** — sum for ellipse, difference for hyperbola.
+
+🧠 **Active Recall:** Which conic has e = 1? For an ellipse, is the sum of focal distances constant, or the difference?
+
+---
+
+## Chunk 9: Locus — The Detective Work
+
+A **locus** is the path traced by a point moving under a given condition. The method never changes:
+
+1. Let the moving point be (h, k).
+2. Translate the given condition into an equation in h and k.
+3. Replace (h, k) with (x, y) — that equation is the locus.
+
+**Example:** A point moves so that its distance from (2, 0) always equals its distance from the y-axis. Then √[(h−2)² + k²] = |h| → h² − 4h + 4 + k² = h² → k² = 4h − 4 → **y² = 4(x − 1)**, a parabola. Notice how the locus method *gave birth* to the conic — this is why examiners adore it.
+
+🧠 **Active Recall:** What are the three steps of every locus problem?
+
+---
+
+## Summary Table
+
+| Concept | Key Formula | One-Line Memory |
+|---|---|---|
+| Distance | √[(x₂−x₁)² + (y₂−y₁)²] | Pythagoras in disguise |
+| Section (m:n) | ((mx₂+nx₁)/(m+n), (my₂+ny₁)/(m+n)) | m multiplies the far end |
+| Midpoint | ((x₁+x₂)/2, (y₁+y₂)/2) | Just average |
+| Triangle area | ½\|x₁(y₂−y₃)+x₂(y₃−y₁)+x₃(y₁−y₂)\| | Shoelace; zero ⇒ collinear |
+| Slope | m = (y₂−y₁)/(x₂−x₁) = tanθ | Rise over run |
+| Perpendicular | m₁m₂ = −1 | Flip and switch |
+| Line slope (general) | −a/b from ax+by+c=0 | Read it, don't rearrange |
+| Point-line distance | \|ax₁+by₁+c\|/√(a²+b²) | Plug the point into the line |
+| Circle (general) | centre (−g,−f), r = √(g²+f²−c) | Centre flips, radius squares |
+| Eccentricity | 0, 1, <1, >1 | Circle, Parabola, Ellipse, Hyperbola |
+| Ellipse vs Hyperbola | sum = 2a vs difference = 2a | Ellipse Adds, Hyperbola Subtracts |
+| Locus | condition → equation in (h,k) → (x,y) | Three-step detective |
+
+---
+
+## 🔁 Review This After 2 Days
+
+Close the book and write from memory: the distance formula, the section formula, the shoelace area, the point-to-line distance, the circle's centre-radius from the general form, and the eccentricity values of all four conics. Then re-attempt every 🧠 prompt in this chapter. What you cannot recall after 2 days is exactly what the exam will punish — revise those chunks first.

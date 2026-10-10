@@ -1,0 +1,35 @@
+{% extends 'admin/base.html' %}
+{% block title %}Job{% endblock %}
+{% block main %}
+<p class="small"><a href="/admin/jobs?status={{ job.status }}">← Back</a></p>
+<h1>{{ job.title }} <span class="badge">{{ job.status }}</span></h1>
+<section class="card" style="margin-bottom:var(--sp-4)">
+  <h2>Seen on</h2>
+  <ul class="list">{% for s in sources %}<li class="list-item"><span class="badge {{ 'badge-ok' if s.kind == 'official' else '' }}">{{ s.kind }}</span><span class="grow"><b>{{ s.source }}</b> — <a href="{{ s.url|safe_url or '#' }}" target="_blank" rel="noopener nofollow">{{ s.title[:90] }}</a></span></li>{% endfor %}</ul>
+</section>
+<form method="post" class="card">
+  <input type="hidden" name="back_status" value="{{ job.status }}">
+  <div class="two">
+    <label class="f">Title<input name="title" value="{{ job.title }}"></label>
+    <label class="f">Organisation<input name="org" value="{{ job.org or '' }}"></label>
+    <label class="f">Official notification URL (PDF/notice on the board's site)<input name="notification_url" value="{{ job.notification_url or '' }}"></label>
+    <label class="f">Official website<input name="official_url" value="{{ job.official_url or '' }}"></label>
+    <label class="f">Application start (YYYY-MM-DD){% if job.job_type == 'upcoming' %} / expected notification{% endif %}<input name="start_date" value="{{ job.start_date or '' }}"></label>
+    <label class="f">Last date (YYYY-MM-DD)<input name="last_date" value="{{ job.last_date or '' }}"></label>
+    <label class="f">Vacancies<input name="vacancies" value="{{ job.vacancies or '' }}"></label>
+    <label class="f">Advt. No.<input name="advt_no" value="{{ job.advt_no or '' }}"></label>
+    <label class="f">Age min<input name="age_min" value="{{ job.age_min or '' }}"></label>
+    <label class="f">Age max<input name="age_max" value="{{ job.age_max or '' }}"></label>
+    <label class="f">Min qualification<select name="min_qualification"><option value="">—</option>{% for v in ['10th', '12th', 'graduate'] %}<option {% if job.min_qualification == v %}selected{% endif %}>{{ v }}</option>{% endfor %}</select></label>
+    <label class="f">Category<select name="category">{% for v in ['ssc', 'railway', 'banking', 'defence', 'psc', 'psu', 'teaching', 'govt'] %}<option {% if job.category == v %}selected{% endif %}>{{ v }}</option>{% endfor %}</select></label>
+    <label class="f">Type<select name="job_type">{% for v in ['latest', 'upcoming', 'admit', 'results', 'answer'] %}<option {% if job.job_type == v %}selected{% endif %}>{{ v }}</option>{% endfor %}</select></label>
+  </div>
+  <label class="f">Eligibility (short)<textarea name="eligibility" rows="3">{{ job.eligibility or '' }}</textarea></label>
+  <div class="row" style="flex-wrap:wrap;margin-top:var(--sp-4)">
+    <button class="btn btn-primary" name="action" value="verify">✓ Save & publish (verified)</button>
+    <button class="btn btn-secondary" name="action" value="save">Save</button>
+    {% if job.status == 'verified' %}<button class="btn btn-secondary" name="action" value="unpublish">Unpublish</button>{% endif %}
+    <button class="btn btn-ghost" name="action" value="delete" data-confirm="Delete this job?">Delete</button>
+  </div>
+</form>
+{% endblock %}

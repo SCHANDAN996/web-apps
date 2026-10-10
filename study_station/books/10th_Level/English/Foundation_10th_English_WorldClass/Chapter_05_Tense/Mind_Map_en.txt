@@ -1,0 +1,41 @@
+```mermaid
+graph TD
+    A["TENSE<br>Time of Action"] --> B["Present"]
+    A --> C["Past"]
+    A --> D["Future"]
+
+    B --> B1["Simple Present<br>V1 / V1+s/es<br>Habit, Truth, Routine"]
+    B --> B2["Present Continuous<br>is/am/are + V1+ing<br>Action happening now"]
+    B --> B3["Present Perfect<br>has/have + V3<br>Just completed action"]
+    B --> B4["Present Perfect Continuous<br>has/have + been + V1+ing<br>Since / For"]
+
+    C --> C1["Simple Past<br>V2<br>Finished action, ago/yesterday"]
+    C --> C2["Past Continuous<br>was/were + V1+ing<br>Action going on in past"]
+    C --> C3["Past Perfect<br>had + V3<br>Earlier of two past actions"]
+    C --> C4["Past Perfect Continuous<br>had + been + V1+ing<br>Duration before a past point"]
+
+    D --> D1["Simple Future<br>will/shall + V1"]
+    D --> D2["Future Continuous<br>will be + V1+ing"]
+    D --> D3["Future Perfect<br>will have + V3<br>By / Before + time"]
+    D --> D4["Future Perfect Continuous<br>will have been + V1+ing"]
+
+    A --> R["6 GOLDEN RULES"]
+    R --> R1["Universal truth = Simple Present<br>The sun rises in the east"]
+    R --> R2["Since + point of time<br>For + period of time"]
+    R --> R3["Two past actions:<br>Earlier = Past Perfect, Later = Simple Past"]
+    R --> R4["No Continuous with stative verbs<br>know, believe, love, own"]
+    R --> R5["If clause = Simple Present<br>Main clause = Simple Future"]
+    R --> R6["By + future time = Future Perfect"]
+
+    A --> T["EXAMINER'S TRAPS"]
+    T --> T1["Sound-Right Trap<br>'I am knowing him' ❌<br>'I know him' ✔️"]
+    T --> T2["Since/For Confusion<br>since 2010 ✔️ for 2010 ❌"]
+    T --> T3["Double Past Trap<br>'When I reached, the train left' ❌<br>'...the train had left' ✔️"]
+    T --> T4["Over-thinking<br>Simple signal words decide the tense"]
+
+    A --> S["STRATEGY"]
+    S --> S1["Spot the time signal:<br>now, since, ago, by, yesterday"]
+    S --> S2["Fact-based = 15 seconds<br>Signal word → direct rule"]
+    S --> S3["Inference-based = 45 seconds<br>Sequence of two actions"]
+    S --> S4["Skip if: no signal word<br>+ two options look identical"]
+```

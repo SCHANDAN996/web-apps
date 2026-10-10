@@ -1,0 +1,45 @@
+```mermaid
+graph TD
+    A["निर्णय क्षमता<br>Decision Making"] --> B["परिभाषा<br>Definition"]
+    A --> C["प्रकार<br>Types"]
+    A --> D["रणनीति<br>Strategies"]
+    A --> E["समय प्रबंधन<br>Time Management"]
+    A --> F["परीक्षक के जाल<br>Examiner Traps"]
+
+    B --> B1["दी गई स्थिति में<br>सबसे उपयुक्त विकल्प चुनना<br>Choosing best course of action"]
+    B --> B2["तर्क + नैतिकता + व्यावहारिकता<br>Logic + Ethics + Practicality"]
+
+    C --> C1["परिस्थिति-आधारित निर्णय<br>Situation-based Decisions"]
+    C --> C2["कार्रवाई का तरीका<br>Course of Action"]
+    C --> C3["पास/फेल मानदंड<br>Eligibility Criteria<br>(Pass/Fail Conditions)"]
+    C --> C4["डेटा पर्याप्तता जैसे निर्णय<br>Data-based Judgement"]
+
+    C1 --> C1A["आपात स्थिति<br>Emergency Situations"]
+    C1 --> C1B["कार्यस्थल दुविधा<br>Workplace Dilemmas"]
+    C1 --> C1C["सार्वजनिक हित<br>Public Interest Cases"]
+
+    C2 --> C2A["तर्कसंगत + व्यावहारिक<br>Logical + Practical"]
+    C2 --> C2B["समस्या का मूल समाधान<br>Addresses Root Cause"]
+    C2 --> C2C["अत्यधिक/असंबंधित कार्रवाई गलत<br>Extreme/Irrelevant = Wrong"]
+
+    C3 --> C3A["सभी शर्तें जाँचें<br>Check ALL Conditions"]
+    C3 --> C3B["एक शर्त टूटे = अयोग्य<br>One Fail = Ineligible"]
+    C3 --> C3C["अपवाद खंड ध्यान दें<br>Note Exception Clauses"]
+
+    D --> D1["समस्या पहचानो<br>Identify the Core Problem"]
+    D --> D2["विकल्पों का मूल्यांकन<br>Evaluate All Options"]
+    D --> D3["नियम/कानून प्राथमिकता<br>Rules & Law First"]
+    D --> D4["दीर्घकालिक लाभ चुनें<br>Prefer Long-term Benefit"]
+    D --> D5["व्यक्तिगत भावना हटाएँ<br>Remove Personal Bias"]
+
+    E --> E1["प्रति प्रश्न 45-60 सेकंड<br>45-60 sec per Question"]
+    E --> E2["पहले आसान मानदंड प्रश्न<br>Criteria Questions First"]
+    E --> E3["लंबी स्थिति = अंत में<br>Long Passages Last"]
+    E --> E4["अटके तो छोड़ें<br>Skip if Stuck"]
+
+    F --> F1["भावनात्मक विकल्प<br>Emotional Options"]
+    F --> F2["अत्यधिक कठोर कार्रवाई<br>Extreme Harsh Actions"]
+    F --> F3["आंशिक रूप से सही कथन<br>Partially Correct Statements"]
+    F --> F4["मानदंड में छिपा अपवाद<br>Hidden Exception in Criteria"]
+    F --> F5["दोनों सही लगने वाला भ्रम<br>Both-seem-correct Confusion"]
+```

@@ -1,0 +1,44 @@
+# Important Formulas — Number Series & Logic
+
+| Formula Name | Formula / Rule | One-line Use-Hint |
+|---|---|---|
+| Arithmetic Series (nth term) | aₙ = a + (n − 1)d | Constant difference between terms |
+| Arithmetic Series (sum) | Sₙ = n/2 × [2a + (n − 1)d] = n/2 × (a + l) | Sum of equally spaced terms |
+| Geometric Series (nth term) | aₙ = a × rⁿ⁻¹ | Constant ratio between terms |
+| Geometric Series (sum, r ≠ 1) | Sₙ = a(rⁿ − 1)/(r − 1) | Sum of multiplied terms |
+| Infinite GP sum (\|r\| < 1) | S∞ = a/(1 − r) | Converging geometric series |
+| Sum of first n naturals | Σn = n(n + 1)/2 | Series 1, 2, 3, … |
+| Sum of first n squares | Σn² = n(n + 1)(2n + 1)/6 | Series 1, 4, 9, 16, … |
+| Sum of first n cubes | Σn³ = [n(n + 1)/2]² | Series 1, 8, 27, 64, … |
+| Sum of first n odd numbers | n² | 1 + 3 + 5 + … (n terms) |
+| Sum of first n even numbers | n(n + 1) | 2 + 4 + 6 + … (n terms) |
+| Difference method | Δ₁, Δ₂, Δ₃ … (successive differences) | If 1st differences vary, take 2nd/3rd differences |
+| Second-difference rule | Constant Δ₂ ⇒ quadratic: aₙ = an² + bn + c | Detects n²-type series |
+| Mixed (alternating) series | Odd positions → one rule; even positions → another | Split into two interleaved series |
+| Multiplier-increment pattern | ×1, ×2, ×3, … or ×2+1, ×2+2, … | Check growing multipliers with added constants |
+| Fibonacci-type rule | aₙ = aₙ₋₁ + aₙ₋₂ | Each term = sum of previous two |
+| Prime number check | Test divisibility by primes ≤ √n | Identify prime-based series |
+| Square/cube proximity | aₙ = n² ± k or n³ ± k | Terms near perfect squares/cubes |
+| Letter position | A=1, B=2, … Z=26 (reverse: Z=1 … A=26) | Alphabet series & coding |
+| Opposite letters | Sum of positions = 27 (A↔Z, B↔Y, …) | Quick letter-pair coding |
+| Syllogism: Universal affirmative | All A are B ⇒ Some B are A (conversion) | Only "Some" converts safely |
+| Syllogism: Universal negative | No A is B ⇔ No B is A | Full conversion allowed |
+| Syllogism: Middle term rule | Middle term must be distributed at least once | Invalid if middle term undistributed in both premises |
+| Syllogism: Two particulars | No valid conclusion from two particular premises | "Some + Some" ⇒ no definite conclusion |
+| Syllogism: Two negatives | No valid conclusion from two negative premises | Both "No" ⇒ reject |
+| Negative premise rule | If one premise is negative, conclusion must be negative | Sign carries through |
+| Statement–Conclusion test | Conclusion valid only if true in ALL Venn cases | One counter-case kills it |
+| Cause–Effect rule | Same source ⇒ common cause; direct link ⇒ cause/effect | Check timing and independence |
+| Blood relation shorthand | + = male, − = female, ↔ = spouse, vertical = parent–child | Draw a quick family tree |
+| Direction sense | Net displacement = √(x² + y²) (Pythagoras) | Resolve into East–West / North–South components |
+| Clock angle | θ = \|30H − 5.5M\| | Angle between hour and minute hands |
+| Clock coincidence | Hands coincide every 65 5/11 min | Overlap problems |
+| Calendar odd days | Ordinary year = 1, leap year = 2 odd days | Day-of-week shifting |
+| Leap year test | Divisible by 4; century years need ÷400 | 1900 not leap, 2000 leap |
+| Ranking formula | Total = (rank from top) + (rank from bottom) − 1 | Position-in-row problems |
+| Seating (circular) | Fix one person, arrange rest relative | Removes rotational duplicates |
+| Coding–decoding shift | Letter ± k positions (mod 26) | Constant-shift ciphers |
+| Binary logic (truth-teller/liar) | Assume one type, test consistency | Contradiction ⇒ flip assumption |
+| Input–output rule | Track one element's movement per step | Machine rearrangement patterns |
+| Inequality chain | a > b ≥ c ⇒ a > c | Combine signs; ≥ and > chain gives > |
+| Wrong-number-in-series | Rebuild rule from 3+ consistent terms, find outlier | Verify rule holds for all other terms |

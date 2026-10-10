@@ -1,0 +1,176 @@
+Questions 101–120: Medium | Questions 121–125: Hard
+
+101. Statements: All pens are books. Some books are tables.
+Conclusions: I. Some pens are tables. II. Some books are pens.
+(a) Only I follows (b) Only II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (b)
+Solution: The tempting trap is Conclusion I — "All pens are books" plus "Some books are tables" does not force any overlap between pens and tables, since the books that are tables may be entirely outside the pens. Conclusion II is a valid conversion of "All pens are books" (All A are B implies Some B are A). So the answer is Only II follows.
+Source: PYQ-style
+
+102. Statements: Some cats are dogs. All dogs are animals.
+Conclusions: I. Some cats are animals. II. All animals are dogs.
+(a) Neither I nor II follows (b) Only II follows (c) Both I and II follow (d) Only I follows
+Answer: (d)
+Solution: Conclusion II is the trap — "All dogs are animals" cannot be reversed into "All animals are animals' subset dogs"; conversion only gives "Some animals are dogs". Conclusion I follows because the cats that are dogs must be animals. So the answer is Only I follows.
+Source: PYQ-style
+
+103. Statements: No apple is a banana. Some bananas are oranges.
+Conclusions: I. Some oranges are not apples. II. No orange is an apple.
+(a) Both I and II follow (b) Only II follows (c) Only I follows (d) Neither I nor II follows
+Answer: (c)
+Solution: Conclusion II is the trap — a universal negative cannot be drawn from a particular statement; oranges outside the banana group may still be apples. Conclusion I follows: the oranges that are bananas cannot be apples, so at least some oranges are not apples. So the answer is Only I follows.
+Source: PYQ-style
+
+104. Statements: All chairs are desks. All desks are rooms.
+Conclusions: I. All chairs are rooms. II. Some rooms are chairs.
+(a) Only I follows (b) Only II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (c)
+Solution: This is a straight chain: chairs ⊆ desks ⊆ rooms, so all chairs are rooms, and conversion gives some rooms are chairs. The trap is thinking a particular conclusion cannot follow from universal premises — it can, via conversion. So the answer is Both I and II follow.
+Source: PYQ-style
+
+105. Statements: Some teachers are doctors. No doctor is a lawyer.
+Conclusions: I. Some teachers are not lawyers. II. No teacher is a lawyer.
+(a) Only II follows (b) Only I follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (b)
+Solution: Conclusion II is the trap — the teachers who are not doctors may well be lawyers, so a universal negative is not forced. Conclusion I follows because the teachers who are doctors cannot be lawyers. So the answer is Only I follows.
+Source: PYQ-style
+
+106. Statements: All flowers are leaves. Some leaves are green.
+Conclusions: I. Some flowers are green. II. Some leaves are flowers.
+(a) Only I follows (b) Neither I nor II follows (c) Both I and II follow (d) Only II follows
+Answer: (d)
+Solution: Conclusion I is the trap — the green leaves may lie entirely outside the flowers, so no definite link exists between flowers and green. Conclusion II follows by conversion of "All flowers are leaves". So the answer is Only II follows.
+Source: PYQ-style
+
+107. Statements: No boy is a girl. Some girls are students.
+Conclusions: I. Some students are not boys. II. Some boys are students.
+(a) Only I follows (b) Only II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (a)
+Solution: Conclusion II is the trap — nothing in the premises places any boy inside students. Conclusion I follows: the students who are girls cannot be boys, so some students are definitely not boys. So the answer is Only I follows.
+Source: PYQ-style
+
+108. Statements: Some cars are buses. All buses are trucks. No truck is a cycle.
+Conclusions: I. Some cars are trucks. II. No bus is a cycle.
+(a) Only I follows (b) Both I and II follow (c) Only II follows (d) Neither I nor II follows
+Answer: (b)
+Solution: The cars that are buses are trucks, so some cars are trucks — I follows. Since all buses are trucks and no truck is a cycle, no bus can be a cycle — II follows. The trap is to reject II because the negative premise does not mention buses directly; the chain carries it. So the answer is Both I and II follow.
+Source: PYQ-style
+
+109. Statements: All mangoes are fruits. Some fruits are sweet.
+Conclusions: I. Some mangoes are sweet. II. All fruits are mangoes.
+(a) Neither I nor II follows (b) Only II follows (c) Both I and II follow (d) Only I follows
+Answer: (a)
+Solution: Both conclusions are traps. I fails because the sweet fruits may be outside the mangoes. II fails because "All mangoes are fruits" converts only to "Some fruits are mangoes", never to "All fruits are mangoes". So the answer is Neither I nor II follows.
+Source: PYQ-style
+
+110. Statements: Some books are papers. All papers are white.
+Conclusions: I. Some books are white. II. Some white things are papers.
+(a) Only I follows (b) Both I and II follow (c) Only II follows (d) Neither I nor II follows
+Answer: (b)
+Solution: The books that are papers are white, so I follows. Conversion of "All papers are white" gives "Some white things are papers", so II follows. The trap is dismissing II as a mere restatement — valid conversion counts as following. So the answer is Both I and II follow.
+Source: PYQ-style
+
+111. Statements: All A are B. No B is C. Some C are D.
+Conclusions: I. No A is C. II. Some D are not B.
+(a) Only I follows (b) Both I and II follow (c) Only II follows (d) Neither I nor II follows
+Answer: (b)
+Solution: Since all A are B and no B is C, no A can be C — I follows. The D that are C cannot be B (as no B is C), so some D are not B — II follows. The trap is to think the negative premise blocks only A; it blocks everything inside C from being B. So the answer is Both I and II follow.
+Source: PYQ-style
+
+112. Statements: Some pens are pencils. Some pencils are erasers.
+Conclusions: I. Some pens are erasers. II. Some pencils are pens.
+(a) Only I follows (b) Neither I nor II follows (c) Both I and II follow (d) Only II follows
+Answer: (d)
+Solution: Conclusion I is the classic trap — two particular statements ("Some…Some…") never yield a definite conclusion linking the two end terms. Conclusion II follows by conversion of the first statement. So the answer is Only II follows.
+Source: PYQ-style
+
+113. Statements: All dogs are faithful. Some faithful creatures are black.
+Conclusions: I. Some dogs are black. II. All faithful creatures are dogs.
+(a) Neither I nor II follows (b) Only II follows (c) Both I and II follow (d) Only I follows
+Answer: (a)
+Solution: Both are traps. I fails because the black faithful creatures may not be dogs. II fails because "All dogs are faithful" cannot be reversed into a universal. So the answer is Neither I nor II follows.
+Source: PYQ-style
+
+114. Statements: No mobile is a laptop. All laptops are computers.
+Conclusions: I. Some computers are not mobiles. II. No computer is a mobile.
+(a) Neither I nor II follows (b) Only II follows (c) Both I and II follow (d) Only I follows
+Answer: (d)
+Solution: Conclusion II is the trap — computers that are not laptops may be mobiles, so a universal negative is not forced. Conclusion I follows: the computers that are laptops cannot be mobiles. So the answer is Only I follows.
+Source: PYQ-style
+
+115. Statements: Some rivers are canals. All canals are long.
+Conclusions: I. Some rivers are long. II. Some long things are rivers.
+(a) Only I follows (b) Only II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (c)
+Solution: The rivers that are canals are long, so I follows; converting I gives II. The trap is to think a conclusion derived from another conclusion is invalid — derived conclusions are perfectly valid. So the answer is Both I and II follow.
+Source: PYQ-style
+
+116. Statements: All stars are bright. Some bright things are planets. No planet is a star.
+Conclusions: I. Some bright things are not stars. II. Some planets are bright.
+(a) Only I follows (b) Both I and II follow (c) Only II follows (d) Neither I nor II follows
+Answer: (b)
+Solution: II follows directly by conversion of "Some bright things are planets". Since those bright planets cannot be stars (no planet is a star), some bright things are not stars — I follows. The trap is to reject I because the negative premise seems unrelated to brightness; the chain connects them. So the answer is Both I and II follow.
+Source: PYQ-style
+
+117. Statements: Some students are players. All players are fit. Some fit people are tall.
+Conclusions: I. Some students are fit. II. Some students are tall.
+(a) Both I and II follow (b) Only II follows (c) Only I follows (d) Neither I nor II follows
+Answer: (c)
+Solution: Conclusion II is the trap — the tall fit people may lie entirely outside the students, and two particular links cannot be chained. Conclusion I follows: the students who are players are fit. So the answer is Only I follows.
+Source: PYQ-style
+
+118. Statements: All cups are plates. Some plates are spoons. No spoon is a fork.
+Conclusions: I. Some plates are not forks. II. Some cups are spoons.
+(a) Neither I nor II follows (b) Only II follows (c) Both I and II follow (d) Only I follows
+Answer: (d)
+Solution: Conclusion II is the trap — the spoons among the plates may be outside the cups. Conclusion I follows: the plates that are spoons cannot be forks. So the answer is Only I follows.
+Source: PYQ-style
+
+119. Statements: Some A are B. All B are C. All C are D.
+Conclusions: I. Some A are D. II. Some D are B.
+(a) Only I follows (b) Only II follows (c) Neither I nor II follows (d) Both I and II follow
+Answer: (d)
+Solution: The A that are B are C and hence D, so I follows. Since all B are C and all C are D, all B are D, which converts to "Some D are B" — II follows. The trap is to stop the chain midway and reject II. So the answer is Both I and II follow.
+Source: PYQ-style
+
+120. Statements: No tree is a bush. Some bushes are plants. All plants are green.
+Conclusions: I. Some plants are not trees. II. Some green things are bushes.
+(a) Only I follows (b) Only II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (c)
+Solution: The plants that are bushes cannot be trees, so I follows. The bushes that are plants are green, so some green things are bushes — II follows. The trap is to reject I because "tree" and "plant" never appear in one premise; the bush link joins them. So the answer is Both I and II follow.
+Source: PYQ-style
+
+121. Statements: Some doctors are engineers. All engineers are graduates. No graduate is unemployed.
+Conclusions: I. Some doctors are not unemployed. II. All engineers being unemployed is a possibility.
+(a) Only I follows (b) Only II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (a)
+Solution: Conclusion II is the trap — since all engineers are graduates and no graduate is unemployed, no engineer can be unemployed, so the possibility is impossible, not open. Conclusion I follows: the doctors who are engineers are graduates and hence not unemployed. So the answer is Only I follows.
+Source: PYQ-style
+
+122. Statements: All red things are blue. No blue thing is green. Some green things are yellow.
+Conclusions: I. Some yellow things are not blue. II. No red thing is green. III. Some blue things being yellow is a possibility.
+(a) All I, II and III follow (b) Only II and III follow (c) Only I and III follow (d) Only I and II follow
+Answer: (a)
+Solution: The trap is to reject III — although no blue thing is green, nothing forbids blue things from being yellow, so the possibility holds. I follows because the yellow green things cannot be blue; II follows because red ⊆ blue and blue ∩ green is empty. So the answer is All I, II and III follow.
+Source: PYQ-style
+
+123. Statements: Some pens are inks. All inks are liquids. Some liquids are not colours.
+Conclusions: I. Some pens are liquids. II. Some inks are not colours. III. All pens being colours is a possibility.
+(a) Only I and III follow (b) Only I and II follow (c) Only I follows (d) All I, II and III follow
+Answer: (a)
+Solution: Conclusion II is the trap — "Some liquids are not colours" does not fix which liquids are excluded, so the inks may all be colours; a particular negative about the wider set says nothing definite about the subset. I follows directly (pens that are inks are liquids), and III holds because nothing bars pens from being colours. So the answer is Only I and III follow.
+Source: PYQ-style
+
+124. Statements: All A are B. Some B are C. No C is D. All D are E.
+Conclusions: I. Some B are not D. II. Some E are not C. III. Some A are C.
+(a) Only I and III follow (b) Only II and III follow (c) Only I and II follow (d) All I, II and III follow
+Answer: (c)
+Solution: Conclusion III is the trap — the C among the B may lie entirely outside the A, so no definite A–C link exists. I follows because the B that are C cannot be D; II follows because the E that are D cannot be C (no C is D means no D is C). So the answer is Only I and II follow.
+Source: PYQ-style
+
+125. Statements: Some trains are buses. Some buses are cars. All cars are vehicles. No vehicle is a cycle.
+Conclusions: I. Some buses are vehicles. II. Some trains are not cycles. III. All buses being cycles is a possibility.
+(a) Only I follows (b) Only I and II follow (c) Only I and III follow (d) All I, II and III follow
+Answer: (a)
+Solution: Conclusions II and III are traps. II fails because the trains that are buses may not be the buses that are cars — the trains may lie outside vehicles entirely, so nothing definite about trains and cycles follows. III fails because the buses that are cars are vehicles and cannot be cycles, so "all buses are cycles" is impossible. I follows since the buses that are cars are vehicles. So the answer is Only I follows.
+Source: PYQ-style

@@ -1,0 +1,61 @@
+# 🧒 The Feynman Way: Cubes & Dice Explained Like You're 12
+
+## The Story of the Painted Box
+
+Imagine your uncle gives you a big wooden cube for your birthday — a perfect cube, like a giant dice. You decide to paint the whole outside **red**. It looks beautiful!
+
+Now comes the fun part. You take a saw and cut the cube into smaller cubes — 2 cuts along each edge, so each edge is divided into 3 pieces and you get **27 little cubes** (3 × 3 × 3), like a Rubik's Cube pulled apart.
+
+You spread all 27 little cubes on the table and ask: *"How many of these little cubes have red paint on them? And on how many faces?"*
+
+This is exactly the question examiners ask. Let's solve it like a detective.
+
+---
+
+## Think About WHERE Each Little Cube Was Sitting
+
+A little cube's paint depends only on **where it lived** inside the big cube:
+
+**1. The Corner Cubes — 3 painted faces**
+A corner cube sticks out in 3 directions, so 3 of its faces got painted. A cube has **8 corners**, so there are always **8 cubes with 3 painted faces**. Always. Whether the big cube is cut into 8, 27, 64 or 1000 pieces — the 8 corners never change.
+
+**2. The Edge Cubes — 2 painted faces**
+Cubes sitting on an edge but NOT at the corner show 2 faces. Each edge has (n − 2) such cubes (the two corners are removed), and a cube has 12 edges:
+**12 × (n − 2)** cubes with 2 painted faces.
+
+**3. The Face-Centre Cubes — 1 painted face**
+Cubes in the middle of a face show only 1 face. Each face has (n − 2)² of them, and there are 6 faces:
+**6 × (n − 2)²** cubes with 1 painted face.
+
+**4. The Hidden Core — 0 painted faces**
+Deep inside, completely untouched by paint: **(n − 2)³** cubes.
+
+Check with our 3 × 3 × 3 cube (n = 3):
+- 3 faces painted: 8
+- 2 faces painted: 12 × 1 = 12
+- 1 face painted: 6 × 1 = 6
+- 0 faces painted: 1
+- Total: 8 + 12 + 6 + 1 = **27** ✓ It all adds up!
+
+---
+
+## The Unforgettable Trick: "The Onion Rule" 🧅
+
+Think of the big cube as an onion:
+
+- **Corners = 8** (memorize this — it NEVER changes)
+- **Everything else = peel one layer off.** The unpainted core is the inner onion: (n − 2)³. Whatever is left on the outside "skin" is painted.
+
+And here's the golden check: **all four answers must add up to n³**. If your numbers don't total n³, you made a mistake — recalculate!
+
+For dice questions, remember the **Opposite Faces Trick**: on a standard dice, opposite faces add to 7 (1↔6, 2↔5, 3↔4). And if two views of a dice show **one common face in the same position**, the remaining faces are opposite to each other in order.
+
+---
+
+## 📝 Blurting Sheet Time!
+
+Now try to write down all key points of this chapter on a blank sheet without looking up. Write the four paint formulas, the corner rule, the n³ check, and the dice opposite-face rules — all from memory. Then compare with this page and mark what you missed.
+
+---
+
+**Question for you:** If a cube is cut into 64 little cubes (n = 4), how many cubes have exactly 2 painted faces — and can you verify your answer using the n³ check?

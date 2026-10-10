@@ -1,0 +1,117 @@
+# 📊 PYQ Analysis — Ratio & Proportion (Advanced Level)
+
+## How Examiners Test This Chapter
+
+Ratio & Proportion rarely appears as a "pure" question at the advanced level. Examiners **embed** it inside other topics — mixtures, partnerships, ages, income-expenditure, speed-time, and geometry. If you analyse papers from SSC CGL Tier-II, IBPS PO Mains and State PCS prelims, a clear pattern emerges:
+
+**The five favourite question families:**
+
+1. **Combining / splitting ratios** — "If A:B = 2:3 and B:C = 4:5, find A:C." The trap is forgetting to make the common term (B) equal before merging.
+2. **Income–Expenditure–Savings** — "Incomes are in ratio 5:3, expenditures 9:5, each saves ₹X." The trap is assuming savings are also in a ratio — they are not; you must set up equations.
+3. **Mixtures & replacement** — milk-water replacement problems where the ratio changes after each operation. The trap is applying the ratio to the *removed* quantity instead of the *remaining* quantity.
+4. **Coins / notes / distribution** — "A bag contains ₹1, 50p, 25p coins in ratio…" The trap is confusing the *number* ratio with the *value* ratio.
+5. **Partnership & proportionate division** — dividing profit, salary or a number in a given ratio, often with a "difference between shares" twist. The trap is dividing by the wrong total of ratio parts.
+
+**The examiner's psychological hooks (learn to spot these):**
+
+- **The "almost-right" statement:** options include the answer you get if you invert the ratio (e.g., 3:2 instead of 2:3). Always re-read *who is compared to whom*.
+- **The common-term trap:** in A:B and B:C chains, the value of B differs in the two ratios; merging without equalising gives a tempting wrong option.
+- **The negative-wording trap:** "which is NOT possible" or "cannot be determined" — read the stem twice.
+- **The unit trap:** ratio of quantities in different units (kg vs grams, hours vs minutes) — convert first.
+- **The added/removed twist:** "some quantity is added so the ratio becomes…" — set up (a+x)/(b+x), not a/(b+x).
+
+**Time strategy:** pure ratio questions should take 30–45 seconds; mixture and income-expenditure ones 60–90 seconds. If a question needs three equations, mark it and return later.
+
+---
+
+## Top 10 High-Yield Questions (with Solutions)
+
+**Q1.** If A : B = 2 : 3 and B : C = 4 : 5, then A : C = ?
+(a) 2 : 5 (b) 8 : 15 (c) 6 : 5 (d) 3 : 4
+
+**Answer: (b)**
+**Solution:** Make B equal: A:B = 2:3 = 8:12; B:C = 4:5 = 12:15. So A:B:C = 8:12:15, giving A:C = 8:15.
+**Hook:** Option (a) 2:5 tempts those who just take the two "outer" numbers. The common term B (3 and 4) must be equalised first.
+**Source: PYQ-style**
+
+**Q2.** The incomes of A and B are in the ratio 3 : 2 and their expenditures in the ratio 5 : 3. If each saves ₹1,000, A's income is:
+(a) ₹3,000 (b) ₹4,000 (c) ₹6,000 (d) ₹9,000
+
+**Answer: (c)**
+**Solution:** Let incomes be 3x, 2x and expenditures 5y, 3y. Then 3x − 5y = 1000 and 2x − 3y = 1000. Multiply the first equation by 2 and the second by 3: 6x − 10y = 2000 and 6x − 9y = 3000. Subtracting gives y = 1000, then x = 2000. A's income = 3x = ₹6,000.
+**Hook:** Many assume savings are also in a ratio. Savings here are *equal amounts* (₹1,000 each), not a ratio — that is why two equations are needed.
+**Source: PYQ-style**
+
+**Q3.** A vessel contains milk and water in the ratio 5 : 3. What fraction of the mixture must be replaced with water so that the ratio becomes 1 : 1?
+(a) 1/5 (b) 1/8 (c) 1/4 (d) 2/5
+
+**Answer: (a)**
+**Solution:** Milk is 5/8 of the mixture. Replacing fraction f removes milk in proportion, so milk left = (5/8)(1−f). For a 1:1 ratio, milk must be 1/2: (5/8)(1−f) = 1/2 → 1−f = 4/5 → f = 1/5. Check the water side: final water = (3/8)(4/5) + 1/5 = 3/10 + 2/10 = 1/2 ✓.
+**Hook:** The trap is computing only the milk loss and forgetting the added water — always verify both components sum correctly.
+**Source: PYQ-style**
+
+**Q4.** ₹7,000 is divided among A, B and C such that A : B = 2 : 3 and B : C = 4 : 5. B's share is:
+(a) ₹1,600 (b) ₹2,000 (c) ₹2,400 (d) ₹3,000
+
+**Answer: (c)**
+**Solution:** Equalise B: A:B = 2:3 = 8:12 and B:C = 4:5 = 12:15, so A:B:C = 8:12:15. Total parts = 35. B's share = (12/35) × 7000 = ₹2,400.
+**Hook:** Examiners choose totals divisible by the sum of the parts; if your division is not clean, you merged the ratios wrongly. Option (b) ₹2,000 tempts those who divide by 35 parts but take 10 parts instead of 12.
+**Source: PYQ-style**
+
+**Q5.** The ratio of boys to girls in a school is 7 : 8. If the number of boys increases by 20% and girls increase by 10%, the new ratio is:
+(a) 21 : 22 (b) 22 : 21 (c) 7 : 8 (d) 21 : 20
+
+**Answer: (a)**
+**Solution:** New boys = 7 × 1.2 = 8.4; new girls = 8 × 1.1 = 8.8. Ratio = 8.4 : 8.8 = 84 : 88 = 21 : 22.
+**Hook:** Option (d) 21:20 comes from wrongly adding 20 and 10 to the ratio terms. Percentage changes multiply, they don't add.
+**Source: PYQ-style**
+
+**Q6.** A bag contains ₹1, 50-paise and 25-paise coins in the ratio 3 : 4 : 5 (by number). If the total value is ₹93.75, the number of 50-paise coins is:
+(a) 60 (b) 75 (c) 100 (d) 125
+
+**Answer: (a)**
+**Solution:** Let the numbers of coins be 3x, 4x, 5x. Total value = 3x(1) + 4x(0.5) + 5x(0.25) = 3x + 2x + 1.25x = 6.25x = 93.75 → x = 15. Number of 50-paise coins = 4x = 60.
+**Hook:** The classic trap — treating 3:4:5 as the *value* ratio instead of the *count* ratio. Convert counts to values first.
+**Source: PYQ-style**
+
+**Q7.** If (3a + 5b) : (3a − 5b) = 5 : 1, then a : b = ?
+(a) 5 : 3 (b) 3 : 5 (c) 5 : 2 (d) 2 : 5
+
+**Answer: (c)**
+**Solution:** By componendo-dividendo: [(3a+5b)+(3a−5b)] / [(3a+5b)−(3a−5b)] = (5+1)/(5−1) → 6a/10b = 6/4 = 3/2 → a/b = (3×10)/(2×6) = 30/12 = 5/2. So a : b = 5 : 2.
+**Hook:** Componendo-dividendo is the intended shortcut; expanding fully wastes 2 minutes. But apply it carefully — swapping numerator and denominator is the common slip.
+**Source: PYQ-style**
+
+**Q8.** The ages of a father and son are in the ratio 7 : 2. After 10 years the ratio becomes 9 : 4. The father's present age is:
+(a) 35 years (b) 42 years (c) 49 years (d) 56 years
+
+**Answer: (a)**
+**Solution:** (7x + 10)/(2x + 10) = 9/4 → 28x + 40 = 18x + 90 → 10x = 50 → x = 5. Father's present age = 7 × 5 = 35 years.
+**Hook:** The *difference* of ages stays constant — a useful cross-check: now 35 − 10 = 25; after 10 years 45 − 20 = 25 ✓.
+**Source: PYQ-style**
+
+**Q9.** Two numbers are in the ratio 3 : 5. If 9 is subtracted from each, the ratio becomes 12 : 23. The smaller number is:
+(a) 27 (b) 33 (c) 49 (d) 55
+
+**Answer: (b)**
+**Solution:** (3x − 9)/(5x − 9) = 12/23 → 69x − 207 = 60x − 108 → 9x = 99 → x = 11. Smaller number = 3 × 11 = 33.
+**Hook:** Cross-multiplication sign errors are the trap here: −207 vs −108. Write each step; don't do it mentally under exam pressure.
+**Source: PYQ-style**
+
+**Q10.** In a partnership, A invests ₹8,000 for 6 months and B invests ₹6,000 for 8 months. The profit-sharing ratio A : B is:
+(a) 1 : 1 (b) 4 : 3 (c) 3 : 4 (d) 2 : 3
+
+**Answer: (a)**
+**Solution:** Profit ratio = (capital × time) ratio = (8000 × 6) : (6000 × 8) = 48000 : 48000 = 1 : 1.
+**Hook:** Option (b) 4:3 tempts those who use only capitals (8000:6000); option (c) tempts those who use only time (6:8 = 3:4). Partnership profit always uses capital × time.
+**Source: PYQ-style**
+
+---
+
+## Key Takeaways for Exam Day
+
+- **Merge before you solve:** in chain ratios (A:B, B:C), equalise the common term first — most wrong options are built on skipping this.
+- **Ratio ≠ amount:** a ratio question always needs one real number (total, difference, or saving) to become solvable. Find it in the stem.
+- **Componendo-dividendo** converts ugly (x+y):(x−y) forms into one-line answers — practise it until automatic.
+- **Verify with the constant:** in age problems the difference is constant; in replacement problems the total volume is constant. Use these as 5-second checks.
+- **Read the comparison direction twice:** "A to B" vs "B to A" flips the answer, and the flipped answer is always present among the options.

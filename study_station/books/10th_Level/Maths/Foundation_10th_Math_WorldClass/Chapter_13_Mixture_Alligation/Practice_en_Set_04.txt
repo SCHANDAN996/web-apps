@@ -1,378 +1,126 @@
-Set 4: Mixture & Alligation (All 25 Medium)
-
-Q76. A shopkeeper mixes two varieties of rice costing ₹30/kg and ₹40/kg. He sells the mixture at ₹44/kg and earns a profit of 10%. In what ratio must the two varieties be mixed?
-(A) 1 : 4
-(B) 4 : 1
-(C) 3 : 2
-(D) 2 : 3
-
-Answer: (B) 4 : 1
-Solution:
-SP = ₹44, profit = 10% → CP of mixture = 44 × 100/110 = ₹40/kg.
-Alligation on CPs: cheaper ₹30, dearer ₹40, mean ₹40.
-Since mean equals the dearer price, the ratio of cheaper : dearer is (40-40) : (40-30) = 0 : 10, i.e., no dearer? Wait, that would mean only dearer is used. But the question asks in what ratio must they be mixed to get mean ₹40, which is exactly the price of the dearer. That means the cheaper must be 0, which doesn't make sense. So I need to adjust numbers.
-I'll change the numbers so that mean is between 30 and 40, say SP yields CP = ₹34. So SP=37.40, profit 10% gives CP 34. Alligation: (40-34)=6, (34-30)=4 → ratio 6:4=3:2. So I'll set SP=37.40 for 10% profit? 34*1.1=37.4, yes. So Q76: A shopkeeper mixes two varieties of rice costing ₹30/kg and ₹40/kg. He sells the mixture at ₹37.40/kg and earns a profit of 10%. In what ratio must they be mixed? Answer 3:2. That works. I'll rewrite.
-
-Revised Q76: A shopkeeper mixes two varieties of rice costing ₹30 per kg and ₹40 per kg. He sells the mixture at ₹37.40 per kg and earns a profit of 10%. In what ratio must the two varieties be mixed?
-(A) 3 : 2
-(B) 2 : 3
-(C) 1 : 1
-(D) 5 : 3
-Answer: (A) 3 : 2
-Solution: SP=37.4, profit 10% → CP = 37.4/1.1 = 34. Alligation: (40-34)=6, (34-30)=4 → ratio 6:4=3:2 (cheaper:dearer).
-Source: SSC CGL (Adapted)
-
-Q77. A vessel contains 120 litres of pure milk. 30 litres is drawn off and replaced with water. This process is repeated twice. What is the quantity of milk left in the vessel?
-(A) 61.44 litres
-(B) 64.8 litres
-(C) 72.9 litres
-(D) 76.8 litres
-
-Answer: (B) 64.8 litres? Wait, 120*(1-30/120)^2 = 120*(3/4)^2 = 120*(9/16)=67.5 litres? Let's recalc: 30/120 = 1/4, so (1-1/4)=3/4, square =9/16, 120*9/16=67.5. Not in options. So I'll choose numbers to fit an option. I want a medium question with repeated replacement. Let's use 80 litres, 8 litres removed twice, gave 64.8 (which is exactly option B). So Q77: 80 litres milk, 8 litres removed and replaced with water, repeated twice. Answer 64.8 litres. That's similar to earlier ones but with different numbers. But to avoid repetition, I'll do 125 litres milk, 25 litres drawn and replaced twice. Milk left = 125*(1-25/125)^2 = 125*(4/5)^2 = 125*16/25 = 80 litres. Options: 64.8, 80, 96, 100. So answer 80 litres. I'll set that.
-
-Q77. A vessel contains 125 litres of pure milk. 25 litres is drawn off and replaced with water. This process is repeated once more. What is the quantity of milk left?
-(A) 60 litres
-(B) 75 litres
-(C) 80 litres
-(D) 100 litres
-Answer: (C) 80 litres
-Solution: Milk left = 125 × (1 – 25/125)² = 125 × (4/5)² = 125 × 16/25 = 80 litres.
-Source: SSC CGL (Tier I)
-
-Q78. In what ratio must a 30% alcohol solution be mixed with a 45% alcohol solution to get a 40% alcohol solution?
-(A) 1 : 2
-(B) 2 : 1
-(C) 1 : 1
-(D) 3 : 1
-
-Answer: (C) 1 : 1
-Solution: Alligation: (45-40)=5, (40-30)=10 → ratio of 30% to 45% = 5:10 = 1:2. Wait, that gives 1:2, not 1:1. To get 1:1, need (45-40) and (40-30) equal, which means 5 and 10, not equal. So I'll change target to 35%: (45-35)=10, (35-30)=5 → ratio 10:5=2:1 for 30% to 45%. That's 2:1, answer B. Let's do a 1:1 mixture: target 37.5%, not asked. So I'll set target 35% and answer 2:1. That's medium.
-
-Q78. In what ratio must a 30% alcohol solution be mixed with a 45% alcohol solution to get a 35% alcohol solution?
-(A) 1 : 2
-(B) 2 : 1
-(C) 1 : 1
-(D) 3 : 1
-Answer: (B) 2 : 1
-Solution: Alligation: (45-35)=10, (35-30)=5 → cheaper:dearer = 10:5 = 2:1. Thus 30% solution : 45% solution = 2:1.
-Source: NCERT
-
-Q79. A jar contains 80 litres of a mixture of milk and water in the ratio 7 : 3. How much water must be added so that the ratio of milk to water becomes 7 : 5?
-(A) 12 litres
-(B) 16 litres
-(C) 20 litres
-(D) 24 litres
-
-Answer: (B) 16 litres
-Solution: Milk = (7/10)×80 = 56 L, water = 24 L. Let x litres water be added. Then 56/(24+x) = 7/5 → 280 = 168 + 7x → 7x = 112 → x = 16 L.
-Source: IBPS Clerk
-
-Q80. A container contains a mixture of two liquids A and B in the ratio 7 : 5. When 12 litres of the mixture is drawn off and the container is filled with B, the ratio of A and B becomes 7 : 9. Find the capacity of the container.
-(A) 36 litres
-(B) 42 litres
-(C) 48 litres
-(D) 54 litres
-
-Answer: (B) 42 litres
-Solution: Let capacity = 12x (A = 7x, B = 5x). 12 L drawn: A out = (7/12)×12 = 7 L, B out = 5 L. After adding B: A = 7x – 7, B = 5x – 5 + 12 = 5x + 7. Ratio 7:9 → (7x – 7)/(5x + 7) = 7/9 → 9(7x – 7) = 7(5x + 7) → 63x – 63 = 35x + 49 → 28x = 112 → x = 4. Total capacity = 12×4 = 48? Wait, 12x = 48, not 42. Check: 12x = 12*4=48. But I set options with 42 as answer. I'll recalc: 9(7x – 7) = 63x – 63, 7(5x + 7) = 35x + 49. 63x – 63 = 35x + 49 → 28x = 112 → x = 4. So total 48, not 42. So I need to adjust numbers to get 42. Let's set ratio becomes 7:9 after adding B, and initial ratio 7:5, but perhaps change the drawn amount. I'll solve for x with total 42: then x = 42/12 = 3.5, not integer. So maybe change initial ratio to get neat x. Let initial ratio be 4:3 (A:B). Then total capacity = 7x. 12 L drawn, A out = (4/7)*12 = 48/7 ≈ not integer. I'll just use my calculation and give answer 48, option (C). So Q80 answer 48 litres. I'll set options accordingly: (A) 36 (B) 42 (C) 48 (D) 54. Answer (C) 48.
-
-Q80. A container contains a mixture of two liquids A and B in the ratio 7 : 5. When 12 litres of the mixture is drawn off and the container is filled with B, the ratio of A to B becomes 7 : 9. Find the capacity of the container.
-(A) 36 litres
-(B) 42 litres
-(C) 48 litres
-(D) 54 litres
-Answer: (C) 48 litres
-Solution: Let capacity = 12x (A=7x, B=5x). After removal and addition, A = 7x – 7, B = 5x + 7. Given (7x – 7)/(5x + 7) = 7/9 → 63x – 63 = 35x + 49 → 28x = 112 → x=4, capacity = 48 L.
-Source: SSC CGL (Adapted)
-
-Q81. A milkman dilutes 20 litres of milk with water to make a profit of 15% by selling the mixture at the cost price of pure milk. How much water (in litres) did he add?
-(A) 3
-(B) 4
-(C) 5
-(D) 6
-
-Answer: (A) 3
-Solution: Let CP of milk per litre = ₹1. CP of 20 L = ₹20. Profit 15% → SP = ₹23. Since SP per litre = ₹1, total volume sold = 23 L. Water added = 23 – 20 = 3 litres.
-Source: IBPS PO
-
-Q82. A 72-litre mixture of milk and water contains milk and water in the ratio 5 : 1. How much water must be added to make the ratio 4 : 5?
-(A) 66 litres
-(B) 72 litres
-(C) 78 litres
-(D) 84 litres
-
-Answer: (C) 78 litres
-Solution: Milk = (5/6)×72 = 60 L, water = 12 L. For milk:water = 4:5, water needed = 5/4 × 60 = 75 L. Water to be added = 75 – 12 = 63 L. Wait, 75-12=63, not in options. I'll recalc: 5/4 of milk 60 is 75, so add 63. Options: 66,72,78,84. So not 63. I'll change milk to 4:5 ratio means milk:water = 4:5, so water = 5/4 milk. If milk=60, water=75, add 63. So maybe initial ratio 5:2? Let's try to fit options. If we want water added = 78, then final water = 12 + 78 = 90, milk=60, ratio 60:90 = 2:3, not 4:5. To get 4:5, milk:water = 4:5, water = 75, add 63. So 78 is close but not. I'll adjust numbers: Let initial mixture 80 L, milk:water=5:3, milk=50, water=30, target 2:5 (milk:water 2:5) then water needed = 5/2*50=125, add 95. Not. I'll rework to get one of the options. Suppose initial ratio 3:1, volume 80 L, milk=60, water=20, target 3:5, water=100, add 80. Not in options. I'll use a different approach: The question may ask "to make the ratio of water to milk 4:5"? Then water to milk = 4:5, water = 4/5 milk = 48, add 36. Not. I'll just craft a fresh one: Mixture of 60 L, milk:water = 2:1, milk=40, water=20. Add x water to make milk:water = 1:3? Then water needed = 3*40=120, add 100. Not. I'll just use numbers that give answer 78: milk unchanged 60, water initially 12, add 78 -> water 90, ratio 60:90=2:3, which is not 4:5. If target ratio 2:3, then water = 3/2*60=90, add 78, answer 78. So I'll set target ratio 2:3. That gives milk:water=2:3. So Q82: A 72-litre mixture of milk and water contains milk and water in the ratio 5 : 1. How much water must be added to make the ratio of milk to water 2 : 3? Answer 78 litres.
-
-Q82. A 72-litre mixture of milk and water contains milk and water in the ratio 5 : 1. How much water must be added to make the ratio of milk to water 2 : 3?
-(A) 66 litres
-(B) 72 litres
-(C) 78 litres
-(D) 84 litres
-Answer: (C) 78 litres
-Solution: Milk = (5/6)×72 = 60 L, water = 12 L. Let x L water be added. Then 60/(12+x) = 2/3 → 180 = 24 + 2x → 2x = 156 → x = 78 L.
-Source: SSC CGL (Adapted)
-
-Q83. A mixture of 50 litres of milk and water contains 60% milk. How much water must be evaporated so that the percentage of milk becomes 75%?
-(A) 5 litres
-(B) 10 litres
-(C) 15 litres
-(D) 20 litres
-
-Answer: (B) 10 litres
-Solution: Milk = 60% of 50 = 30 L, water = 20 L. After evaporation, milk remains 30 L and becomes 75% of new total. New total = 30/0.75 = 40 L. Water evaporated = 50 – 40 = 10 L.
-Source: NCERT Exemplar
-
-Q84. Two alloys X and Y contain copper and zinc in the ratios 3 : 1 and 1 : 3 respectively. Equal weights of the two are melted together. What is the ratio of copper to zinc in the resulting alloy?
-(A) 1 : 1
-(B) 3 : 1
-(C) 1 : 3
-(D) 2 : 1
-
-Answer: (A) 1 : 1
-Solution: Copper fraction in X = 3/4, in Y = 1/4. Equal weights: total copper = 3/4 + 1/4 = 1 part per unit weight, total zinc = 1/4 + 3/4 = 1. Ratio = 1:1.
-Source: NCERT
-
-Q85. A solution of 100 litres contains 40% acid. How much pure acid must be added so that the resulting solution contains 60% acid?
-(A) 40 litres
-(B) 45 litres
-(C) 50 litres
-(D) 55 litres
-
-Answer: (C) 50 litres
-Solution: Acid = 40 L, water = 60 L. Let x L pure acid be added. (40 + x)/(100 + x) = 60/100 = 3/5 → 5(40+x) = 3(100+x) → 200 + 5x = 300 + 3x → 2x = 100 → x = 50 L.
-Source: NCERT
-
-Q86. A container contains 160 litres of a mixture of milk and water in the ratio 3 : 1. 40 litres of the mixture is taken out and replaced with water. What is the ratio of milk to water in the resultant mixture?
-(A) 9 : 7
-(B) 7 : 9
-(C) 3 : 2
-(D) 2 : 3
-
-Answer: (A) 9 : 7
-Solution: Milk = (3/4)×160 = 120 L, water = 40 L. 40 L removal: milk out = 30 L, water out = 10 L. Remaining milk = 90 L, water = 30 L. Add 40 L water → water = 70 L. Ratio = 90:70 = 9:7.
-Source: SSC CGL (Tier I)
-
-Q87. A trader mixes 45 kg of sugar at ₹32 per kg with 55 kg of sugar at ₹40 per kg. He sells the mixture at ₹44 per kg. What is his profit percentage?
-(A) 10%
-(B) 15%
-(C) 20%
-(D) 25%
-
-Answer: (C) 20%
-Solution: Total CP = 45×32 + 55×40 = 1440 + 2200 = 3640. Total weight = 100 kg, CP/kg = 36.40. SP = 44, profit per kg = 7.60, profit% = (7.60/36.40)×100 = 20.88%? Wait, 7.6/36.4 = 76/364 = 19/91 ≈ 0.2088 → 20.88%, not exactly 20%. I'll adjust quantities to get exact 20%. Wanted CP per kg = 44/1.2 = 36.66... not nice. Let's do quantities to get CP/kg = 40? No, SP 44, profit 20% => CP = 44/1.2 = 36.666. So mix to get CP 36.67. Alligation: 32 and 40 to get 36.67. Difference: 40-36.67=3.33, 36.67-32=4.67, ratio = 3.33:4.67 = 1:1.4 approx. Not exact. I'll just use problem where answer is 20% exactly. For 20% profit on CP, SP = 1.2 CP. So if CP/kg = 35, SP = 42. Mix 32 and 40 to get 35: (40-35)=5, (35-32)=3 → ratio 5:3. So if we take 50 kg of 32 and 30 kg of 40, CP = 50*32+30*40=1600+1200=2800, total 80 kg, CP/kg=35. SP=42, profit 20%. So Q87 could be: mixes 50 kg at ₹32 and 30 kg at ₹40, sells at ₹42, profit 20%. I'll use that.
-
-Q87. A trader mixes 50 kg of sugar at ₹32 per kg with 30 kg of sugar at ₹40 per kg. He sells the mixture at ₹42 per kg. What is his profit percentage?
-(A) 10%
-(B) 15%
-(C) 20%
-(D) 25%
-Answer: (C) 20%
-Solution: Total CP = 50×32 + 30×40 = 1600+1200=2800, weight=80kg, CP/kg=35. SP=42, profit=7, profit% = (7/35)×100 = 20%.
-Source: IBPS PO
-
-Q88. A vessel contains 60 litres of a mixture of milk and water in the ratio 2 : 1. How much of this mixture must be taken out and replaced with water so that the ratio becomes 1 : 2?
-(A) 25 litres
-(B) 30 litres
-(C) 35 litres
-(D) 40 litres
-
-Answer: (B) 30 litres
-Solution: Milk = 40 L, water = 20 L. Let x L be removed and replaced with water. Milk left = 40 – (2/3)x, water left = 20 – (1/3)x + x = 20 + (2/3)x. For ratio 1:2 → (40 – 2x/3) / (20 + 2x/3) = 1/2 → 80 – 4x/3 = 20 + 2x/3 → 60 = 6x/3 = 2x → x = 30 L.
-Source: SSC CGL
-
-Q89. A bottle contains 80 ml of a mixture of alcohol and water with 25% alcohol. How much alcohol must be evaporated so that the alcohol percentage becomes 20%? (Evaporation removes only alcohol)
-(A) 5 ml
-(B) 8 ml
-(C) 10 ml
-(D) 12 ml
-
-Answer: (A) 5 ml? Wait, if alcohol evaporates, the total volume reduces. Let's recalc: initial alcohol=20 ml, water=60 ml. Let x ml alcohol evaporate. Remaining alcohol=20–x, total volume=80–x. For alcohol % = 20%: (20–x)/(80–x) = 20/100 = 1/5 → 5(20–x) = 80–x → 100–5x = 80–x → 20 = 4x → x=5 ml. So answer 5 ml. So option (A) 5 ml. I'll set options including 5,8,10,12, answer 5.
-
-Q89. A bottle contains 80 ml of a mixture of alcohol and water with 25% alcohol. How much alcohol must be evaporated so that the alcohol percentage becomes 20%? (Assume only alcohol evaporates.)
-(A) 4 ml
-(B) 5 ml
-(C) 8 ml
-(D) 10 ml
-Answer: (B) 5 ml
-Solution: Alcohol = 25% of 80 = 20 ml, water = 60 ml. Let x ml alcohol evaporate. (20–x)/(80–x) = 1/5 → 100–5x = 80–x → 4x=20 → x=5 ml.
-Source: IBPS Clerk
-
-Q90. A dealer purchased 60 kg of wheat at ₹12 per kg and 40 kg at ₹18 per kg. He mixed them and sold the mixture at ₹15 per kg. Find his gain or loss percent.
-(A) 5% loss
-(B) 5% profit
-(C) 4% profit
-(D) No profit no loss
-
-Answer: (C) 4% profit? Let's compute: CP = 60×12 + 40×18 = 720+720=1440, total 100kg, CP/kg=14.4. SP=15, profit=0.60, profit% = (0.60/14.4)×100 = 4.166% ≈ 4.17%, not exactly 4% or 5%. So options may have 4% or 5%. I'll adjust quantities to get exact 4% or 5%. For profit 5%, SP = 1.05×CP/kg. Let CP/kg = 14.5, SP=15.225. Not. I'll choose numbers to get CP/kg=14.5 from mix of 12 and 18: (18-14.5)=3.5, (14.5-12)=2.5, ratio 3.5:2.5=7:5. So mix 70kg at 12 and 50kg at 18? 70×12+50×18=840+900=1740, total 120kg, CP/kg=14.5, SP=15, profit 0.5, %=0.5/14.5=3.45%. Not nice. I'll just use a straightforward alligation problem: dealer mixes 30 kg at ₹10 and 20 kg at ₹15, sells at ₹14.4? I'll keep the percentages simple. I'll use 50 kg at ₹20 and 50 kg at ₹30, sells at ₹27.5 for 10% profit? I'll set a problem where answer is 5% profit exactly. Suppose CP/kg = 20, SP=21 gives 5%. So mix to get CP=20. If we have rice at ₹18 and ₹22. Alligation: (22-20)=2, (20-18)=2, ratio 1:1. So mix equal quantities, say 40kg each, total CP=40×18+40×22=720+880=1600, 80kg, CP/kg=20, SP=21, profit 5%. So Q90: A dealer purchases 40 kg of rice at ₹18 per kg and 40 kg at ₹22 per kg, mixes them and sells at ₹21 per kg. Profit %? (C) 5%. I'll set options accordingly.
-
-Q90. A dealer purchases 40 kg of rice at ₹18 per kg and 40 kg at ₹22 per kg. He mixes them and sells the mixture at ₹21 per kg. What is his profit percentage?
-(A) 4%
-(B) 5%
-(C) 6%
-(D) 8%
-Answer: (B) 5%
-Solution: Total CP = 40×18 + 40×22 = 720+880=1600, total weight=80 kg, CP/kg=20. SP/kg=21, profit=1, profit% = (1/20)×100 = 5%.
-Source: SSC CGL (Adapted)
-
-Q91. A container has 90 litres of a mixture of spirit and water with 60% spirit. Some quantity of mixture is taken out and replaced with water so that spirit becomes 45%. Find the quantity of mixture replaced.
-(A) 18.5 litres
-(B) 22.5 litres
-(C) 27 litres
-(D) 31.5 litres
-
-Answer: (B) 22.5 litres
-Solution: Spirit = 60% of 90 = 54 L. Let x litres be replaced. Spirit left = 54 – (0.6)x = 54 – 0.6x. Final spirit % = 45% of 90 = 40.5 L. So 54 – 0.6x = 40.5 → 0.6x = 13.5 → x = 13.5/0.6 = 22.5 L.
-Source: SSC CGL (Tier I)
-
-Q92. A milkman has 50 litres of milk. He sells a part of it at cost price and adds water to the remaining milk to sell it at cost price. Overall, he makes a profit of 25%. How much milk did he sell at cost price without dilution?
-(A) 10 litres
-(B) 12.5 litres
-(C) 15 litres
-(D) 20 litres
-
-Answer: (A) 10 litres? Let's think: He sells x litres pure milk at cost price, and dilutes (50-x) litres milk with water and sells at cost price, making 25% profit overall. The profit on diluted part is the water added. For diluted part, if he adds water to (50-x) milk to sell at cost price, profit% on that part = (water added)/(milk in that part). We need overall profit 25% on total milk 50 L. Let CP per litre = ₹1. Total CP = 50. SP = 50 * 1.25 = 62.5. He sells x litres pure milk at ₹1/litre = x rupees. The remaining (50-x) litres of milk is diluted to (50-x)+W litres, sold at ₹1 per litre, revenue = (50-x)+W. Total revenue = x + (50-x) + W = 50 + W. Set equal to 62.5 → W = 12.5 litres. That water came from dilution of (50-x) milk. So profit on that part = 12.5, milk in that part = 50-x, thus water/milk = 12.5/(50-x). Also overall profit 25%, effectively total mixture = 62.5 litres (50 milk + 12.5 water). So he sold 62.5 litres total, meaning he diluted all the milk? No, he sold some pure milk separately, the rest diluted. So total volume sold = x (pure milk) + (50-x + W) diluted mixture = 50 + W. So 50+W = 62.5, W=12.5. That W is water added to the diluted part. Now, what is x? The question likely asks how much pure milk he sold without dilution, i.e., x. But we have only one equation, x can be any value? Wait, the profit overall is 25%, no matter what x is, as long as total water added is 12.5. But the water is added only to the remaining milk. So the water added = 12.5 litres, and the milk that was diluted = 50-x. So ratio water:milk in diluted part = 12.5 : (50-x). But that doesn't give x uniquely unless we assume he sells the diluted mixture at the same per litre price as pure milk, which we did. But overall profit is fixed, so x can be anything from 0 to 50? Actually, if he sells some pure milk separately, that pure milk sale gives profit 0% (since at cost). The diluted part gives profit >0. To achieve overall 25% on total milk, the weighted average profit% = (x*0% + (50-x)*p%) / 50 = 25%, where p% is profit on diluted part. So (50-x)*p = 1250 => p = 1250/(50-x). But also p% = (water added)/(milk in that part)*100 = (W/(50-x))*100. And total water W = 12.5 (from earlier total volume reasoning). So (12.5/(50-x))*100 = 1250/(50-x). That's identity. So x can be any value; the question might miss a condition, e.g., he sells the diluted mixture at cost price, which we used already. So the problem may instead ask: "He sells the entire milk after adding water making a profit of 25%. How much water did he add?" That's 12.5, not in options. I'll craft a better medium question: A milkman buys 40 litres of milk. He sells 10 litres at cost price, adds x litres water to the remaining and sells at cost price, overall profit 20%. Find x. Let CP total = 40C. SP from 10 L = 10C. Remaining 30 L milk diluted to (30+W) sold at C/litre => revenue (30+W)C. Total SP = (40+W)C. Profit 20% => SP = 1.2*40C = 48C. So 40+W = 48 → W=8. So he added 8 litres water. And he sold 10 litres pure, answer 10. Options: 10, 15, 20, 25. So answer (A) 10. That works. So Q92: A milkman buys 40 litres of milk. He sells 10 litres at cost price and adds water to the remaining milk and sells it at cost price. If his overall profit is 20%, how much milk did he sell without dilution? Answer 10 litres.
-
-Q92. A milkman buys 40 litres of milk. He sells a certain quantity at cost price and dilutes the remaining with water, selling it at cost price. If his overall profit is 20%, how many litres did he sell without dilution?
-(A) 10 litres
-(B) 15 litres
-(C) 20 litres
-(D) 25 litres
-Answer: (A) 10 litres
-Solution: Let CP per litre = ₹1. Total CP = 40. Profit 20% → SP = 48. Let x litres sold pure, then revenue from pure = x. Remaining milk = 40–x, diluted to (40–x)+W sold at ₹1/litre gives revenue (40–x)+W. Total revenue = x + 40 – x + W = 40 + W = 48 → W = 8. The water added is 8 L. No further condition needed; x can be anything? Actually, the problem asks how much sold without dilution. It seems there is no unique x from just overall profit; but the fact that he adds water to the remaining means the diluted part profit% is (W/(40–x))100. But overall profit% is 20% weighted average: (x0 + (40–x)* (8/(40–x)*100) )/40 = (8)/40 *100? Wait, profit of diluted part = (W/(40–x))*100 = (8/(40–x))*100. So total profit = (40–x)* profit per litre? Let's compute profit in rupees: Pure part profit = 0. Diluted part profit = W = 8. Total profit = 8. Total CP = 40, profit% = 8/40*100 = 20%. So the profit is independent of x, the water added is fixed 8 L. The diluted milk quantity is 40–x, water added 8, so the ratio of water to milk in diluted mixture is 8:(40–x). But x is not determined by overall profit alone. However, perhaps the question assumes he sells the entire diluted mixture after adding water, and we need to know how much milk was sold pure, but that seems underdetermined. Maybe there's an additional condition like the profit percentage on the diluted part is same as overall? Not. I need to re-read: "He sells a part of it at cost price and adds water to the remaining milk to sell it at cost price." That implies he sells some milk pure, and then separately adds water to the remaining milk and sells that mixture at cost price. The total profit is 25% originally. In my calculation, profit = water added exactly. So if overall profit 20%, water added = 20% of total milk = 20% of 40 L = 8 L. So water added is 8 L. But what is x? To determine x, we need to know, for example, the ratio of water to milk in the diluted mixture, or that he sold equal quantities of pure and diluted? The problem likely intends that he sells the entire milk after addition of water, not splitting. Actually, typical "dishonest milkman" problems: he adds water to all milk and sells at cost price, profit% = (water/milk)*100. So if profit 20%, water/milk = 20/100 = 1/5. So if milk=40 L, water=8 L. So he added 8 L water. Then he didn’t sell any milk pure; all milk was diluted. So my initial version was wrong. I'll change Q92 to a different medium question. I'll use: A shopkeeper mixes two varieties of sugar costing ₹45 and ₹55 per kg. He sells the mixture at ₹60 per kg making a profit of 20%. Find the ratio. Already used. I'll make a new one.
-
-Q92. In what ratio must a 20% alcohol solution be mixed with a 35% alcohol solution to get a 28% alcohol solution?
-(A) 7 : 8
-(B) 8 : 7
-(C) 5 : 3
-(D) 3 : 5
-
-Answer: (A) 7 : 8
-Solution: Alligation: (35-28)=7, (28-20)=8 → ratio of 20% to 35% = 7:8.
-Source: NCERT
-
-Q93. A container holds 200 litres of pure milk. 40 litres is taken out and replaced with water. Then 40 litres of the mixture is again taken out and replaced with water. Find the quantity of milk remaining.
-(A) 120 litres
-(B) 128 litres
-(C) 144 litres
-(D) 160 litres
-
-Answer: (B) 128 litres
-Solution: Milk left = 200 × (1 – 40/200)^2 = 200 × (4/5)^2 = 200 × 16/25 = 128 litres.
-Source: SSC CGL (Tier I)
-
-Q94. A mixture of 60 litres of milk and water contains 20% water. How much milk must be added to make the water percentage 15%?
-(A) 15 litres
-(B) 20 litres
-(C) 25 litres
-(D) 30 litres
-
-Answer: (B) 20 litres
-Solution: Water = 12 L, milk = 48 L. Let x L milk be added. Then 12 / (60 + x) = 15/100 → 12/(60+x) = 3/20 → 240 = 180 + 3x → 3x = 60 → x = 20 L.
-Source: IBPS Clerk
-
-Q95. Two vessels contain mixtures of milk and water in the ratios 4 : 1 and 3 : 2 respectively. In what ratio must they be mixed to get a mixture containing milk and water in the ratio 7 : 3?
-(A) 3 : 2
-(B) 2 : 3
-(C) 5 : 2
-(D) 2 : 5
-
-Answer: (C) 5 : 2
-Solution: Milk fractions: first = 4/5, second = 3/5, target = 7/10. Alligation: (4/5 – 7/10) = 1/10, (7/10 – 3/5) = 1/10. That gives ratio 1:1. Not 5:2. So I need different ratios. I'll set first vessel 5:1 (5/6), second 2:3 (2/5), target 3:2 (3/5). Alligation: (5/6 – 3/5) = (25/30-18/30)=7/30, (3/5 – 2/5)=1/5=6/30 → ratio 7:6. Not 5:2. I'll craft to get 5:2. Let target milk fraction = m, first milk fraction a, second b, a>m>b. Ratio of first quantity to second = (m-b) : (a-m). Set that ratio 5:2. So (m-b)/(a-m) = 5/2. Choose a=4/5, b=1/5, then m should satisfy (m - 1/5) / (4/5 - m) = 5/2 → 2(m - 0.2) = 5(0.8 - m) → 2m - 0.4 = 4 - 5m → 7m = 4.4 → m = 4.4/7 = 0.6286 ≈ 22/35. Target milk:water = 22:13, not nice. I'll choose a=7/10, b=1/4, target m=1/2. Then (m-b)=1/4, (a-m)=1/5, ratio (1/4)/(1/5)=5/4, not 5/2. To get 5/2, need (m-b) = 5k, (a-m)=2k. So if a-m=2k, m-b=5k. Let a=0.7, m=0.5, then a-m=0.2=2k → k=0.1, so m-b=0.5 → b=0. So b cannot be zero. I'll just set a=9/10, b=1/5, target m such that (m-0.2)/(0.9-m)=5/2. Solve: 2(m-0.2)=5(0.9-m) → 2m-0.4=4.5-5m → 7m=4.9 → m=0.7. So target m=0.7, but that equals a, which is 9/10? No, 0.7 is not 0.9. So a=0.9, m=0.7 gives a-m=0.2, m-b=0.5 with b=0.2. So ratios: first vessel: milk fraction 0.9 => 9:1, second: 0.2 => 1:4, target 0.7 => 7:3. That works. So Q95: Two vessels contain mixtures of milk and water in the ratios 9:1 and 1:4 respectively. In what ratio must they be mixed to get a 7:3 mixture? Alligation: (9/10 - 7/10)=2/10=0.2, (7/10-1/5)=7/10-2/10=5/10=0.5. Ratio of first (dearer) : second (cheaper) = (mean - cheaper) : (dearer - mean) = 0.5 : 0.2 = 5:2. So answer 5:2. Nice.
-
-Q95. Two vessels contain mixtures of milk and water in the ratios 9 : 1 and 1 : 4 respectively. In what ratio must they be mixed to get a mixture containing milk and water in the ratio 7 : 3?
-(A) 3 : 2
-(B) 2 : 3
-(C) 5 : 2
-(D) 2 : 5
-Answer: (C) 5 : 2
-Solution: Milk fraction first = 9/10, second = 1/5 = 2/10, target = 7/10. Alligation: (9/10-7/10)=2/10, (7/10-2/10)=5/10 → ratio of cheaper (second) to dearer (first) = 2/10:5/10 = 2:5, so first:second = 5:2.
-Source: SSC CGL (Tier II)
-
-Q96. A solution of 84 litres contains acid and water in the ratio 3 : 4. How much water must be evaporated so that the ratio of acid to water becomes 2 : 1?
-(A) 28 litres
-(B) 36 litres
-(C) 42 litres
-(D) 56 litres
-
-Answer: (A) 28 litres
-Solution: Acid = (3/7)×84 = 36 L, water = 48 L. Let x L water evaporate. Acid remains 36 L, water = 48–x. For acid:water = 2:1 → 36/(48–x) = 2/1 → 36 = 96 – 2x → 2x = 60 → x = 30 L. Not in options. So recalc: 36 = 2*(48-x) => 36 = 96 - 2x => 2x=60 => x=30. Options: 28,36,42,56. 30 not there. So change numbers. Let acid = 2/1 ratio means water = 1/2 acid = 18 L. So water must reduce from 48 to 18, evaporate 30 L. To get one of the options, let's set initial ratio 3:5? Then acid 3/8 of 84 = 31.5, not integer. I'll set total 80 L, acid:water = 2:3, acid=32, water=48, target 2:1, acid=32, water needed 16, evaporate 32 L. Still not. I'll craft a problem where answer is 28. Suppose initial mixture 112 L, acid:water = 4:3, acid=64, water=48, target 4:1, water=16, evaporate 32. Not 28. I'll do: mixture 100 L, acid:water = 3:2, acid=60, water=40, target 6:1, water=10, evaporate 30. I'll just adjust to get answer 28: initial mixture 70 L, acid:water = 3:4, acid=30, water=40, target 5:2? No. I'll use a simpler approach: I want evaporation quantity x to be in options 28. Let initial water W, acid A, after evaporation (A/(W-x)) = desired ratio. I'll set A=42, W=70, total=112, but maybe not. I'll set A=72, W=72, target 2:1, water needed 36, evaporate 36, answer 36. That's option B. Let's do that: 144 L mixture, acid:water=1:1, acid=72, water=72, target 2:1, water needed 36, evaporate 36. So Q96: A 144-litre mixture has acid and water in ratio 1:1. How much water evaporate to get ratio 2:1? Answer 36. Good.
-
-Q96. A solution of 144 litres contains acid and water in the ratio 1 : 1. How much water must be evaporated so that the ratio of acid to water becomes 2 : 1?
-(A) 28 litres
-(B) 36 litres
-(C) 42 litres
-(D) 56 litres
-Answer: (B) 36 litres
-Solution: Acid = 72 L, water = 72 L. Let x L water evaporate. Acid : water = 72 : (72–x) = 2 : 1 → 72 = 2(72–x) → 72 = 144 – 2x → 2x = 72 → x = 36.
-Source: SSC CGL (Adapted)
-
-Q97. A shopkeeper bought 50 kg of rice at ₹16 per kg and 75 kg at ₹20 per kg. He mixed them and sold the mixture at ₹21 per kg. Find his overall profit or loss percentage.
-(A) 12% profit
-(B) 14% profit
-(C) 15% profit
-(D) 18% profit
-
-Answer: (B) 14% profit? Let's compute: CP = 50*16 + 75*20 = 800+1500=2300, total 125 kg, CP/kg = 18.4. SP=21, profit=2.6, % = (2.6/18.4)*100 = 14.13% ≈ 14%. So (B). I'll check options: 12%, 14%, 15%, 18%. 14.13% is closer to 14%. I'll adjust quantities to get exact 14%. Let CP/kg = x, profit% 14% → SP = 1.14x. We have SP=21, so x = 21/1.14 ≈ 18.421. Our CP=18.4 close. I'll choose quantities to make CP exactly 18.4? No, I'll just use 60 kg at 16 and 40 kg at 20: CP=60*16+40*20=960+800=1760, 100kg, CP/kg=17.6, SP=21, profit=3.4, %=19.31%. Not. I'll just keep the numbers that give 14%. The question is medium, 14% is fine. I'll set answer (B) 14% and state exactly 14% by choosing different numbers. Wanted CP/kg = 21/1.14 = 18.421... not nice. I'll use profit 15%: CP/kg = 21/1.15 = 18.26. I'll mix 50 kg at 16 and 75 kg at 20 gave 18.4 (difference 0.14). I'll adjust to get 18.26: alligation (20-18.26)=1.74, (18.26-16)=2.26, ratio 1.74:2.26=174:226=87:113, not nice. I'll just use a problem where profit% is exactly 12.5% or 10%. I'll make SP=22, CP=20, profit 10%. Mix 16 and 20 to get 20? That's pure dearer. Not. I'll use a simple one: wheat at ₹12 and ₹18 mixed equally, CP=15, SP=16.5, profit 10%. Already used. I'll just present Q97 with numbers that give 14% exactly if I choose 50 kg at ₹18 and 50 kg at ₹22? CP=900+1100=2000, 100kg, CP/kg=20, SP=22.8, profit 14%: 20*1.14=22.8. So if he sells at 22.8, profit 14%. Not in options. My SP was 21. I'll change to 22.8 and options. Better: 75 kg at ₹24 and 25 kg at ₹30? CP=1800+750=2550, 100kg, CP/kg=25.5, SP=29.07 for 14%. Not nice. I'll just accept 14.13% and round to 14% as answer. Many exam questions do that. So Q97.
-
-Q97. A shopkeeper bought 50 kg of rice at ₹16 per kg and 75 kg at ₹20 per kg. He mixed them and sold the mixture at ₹21 per kg. His profit percentage is approximately:
-(A) 12%
-(B) 14%
-(C) 16%
-(D) 18%
-Answer: (B) 14%
-Solution: CP = 50×16 + 75×20 = 800+1500=2300, total 125 kg, CP/kg = 18.4. SP=21, profit/kg=2.6, profit% = (2.6/18.4)×100 = 14.13% ≈ 14%.
-Source: IBPS PO
-
-Q98. A vessel contains 56 litres of a mixture of milk and water in the ratio 5 : 2. How much milk must be added so that the ratio of milk to water becomes 4 : 1?
-(A) 6 litres
-(B) 8 litres
-(C) 10 litres
-(D) 12 litres
-
-Answer: (A) 6 litres? Milk=40, water=16. Target milk:water = 4:1 => water=16, milk=64. Milk to add=24. Not in options. So I'll change the numbers. Let's set initial 56 L, ratio 3:1, milk=42, water=14, target 4:1, milk=56, add 14. Not in options. I'll set initial 60 L, ratio 2:1, milk=40, water=20, target 5:2? milk:water=5:2, water=20 => milk=50, add 10. Option (C) 10. So I'll use that. Q98: A vessel contains 60 litres of a mixture of milk and water in the ratio 2 : 1. How much milk must be added so that the ratio becomes 5 : 2? Answer 10 litres. Good.
-
-Q98. A vessel contains 60 litres of a mixture of milk and water in the ratio 2 : 1. How much milk must be added so that the ratio of milk to water becomes 5 : 2?
-(A) 6 litres
-(B) 8 litres
-(C) 10 litres
-(D) 12 litres
-Answer: (C) 10 litres
-Solution: Milk=40 L, water=20 L. For 5:2, water 20 L → milk needed = (5/2)×20 = 50 L. Milk to add = 10 L.
-Source: SSC CGL (Adapted)
-
-Q99. A jar contains a mixture of two liquids A and B in the ratio 4 : 1. When 10 litres of the mixture is taken out and 20 litres of liquid B is added, the ratio becomes 1 : 1. Find the initial quantity of the mixture.
-(A) 30 litres
-(B) 35 litres
-(C) 40 litres
-(D) 45 litres
-
-Answer: (C) 40 litres? Let's solve: Let initial = 5x (A=4x, B=x). Remove 10 L: A out = 8 L, B out = 2 L. Remaining A=4x-8, B=x-2. Add 20 L B: B = x-2+20 = x+18. Ratio 1:1 => 4x-8 = x+18 → 3x=26 → x=26/3 not integer. Not. Need integer. I'll adjust numbers: Remove 10 L, add 10 L B? That would be earlier type. Here it says add 20 L B. I'll design to get integer. Let initial 5x, A=4x, B=x. After removal 10 L, A=4x-8, B=x-2. Add y L B, ratio 1:1 => 4x-8 = x-2+y => 3x-6 = y. So if y=20, then 3x-6=20 => 3x=26, x not integer. If y=10, 3x-6=10 => 3x=16 no. If y=12, 3x-6=12 => 3x=18 => x=6, total=30. So if add 12 L B, answer 30 L. Option (A) 30. Then numbers: A out 8, B out 2, add 12, B becomes x-2+12=x+10, A=4x-8, ratio 1:1 => 4x-8=x+10 => 3x=18 => x=6, total=30. So I'll set y=12.
-
-Q99. A jar contains a mixture of two liquids A and B in the ratio 4 : 1. When 10 litres of the mixture is taken out and 12 litres of liquid B is added, the ratio of A to B becomes 1 : 1. Find the initial quantity of the mixture.
-(A) 30 litres
-(B) 35 litres
-(C) 40 litres
-(D) 45 litres
-Answer: (A) 30 litres
-Solution: Let initial = 5x, A=4x, B=x. After removal, A=4x-8, B=x-2. Add 12 L B, B=x+10. 4x-8 = x+10 → 3x=18 → x=6, total=30 L.
-Source: SSC CGL (Adapted)
-
-Q100. A 52-litre mixture of milk and water contains milk and water in the ratio 7 : 6. How much water must be added to make the ratio 7 : 8?
-(A) 8 litres
-(B) 10 litres
-(C) 12 litres
-(D) 14 litres
-
-Answer: (C) 12 litres? Milk = (7/13)×52 = 28 L, water = 24 L. For ratio 7:8, water needed = (8/7)×28 = 32 L. Water to add = 32 - 24 = 8 L. That gives 8, option A. So I'll change numbers. If I want answer 12, set initial ratio 7:5, 60 L, milk=35, water=25, target 7:8, water=40, add 15. Not 12. I'll just let answer be 8. Option (A) 8. So Q100 answer 8. I'll adjust options: (A) 8 litres (B) 10 (C) 12 (D) 14. Answer (A). So final question.
-
-Q100. A 52-litre mixture of milk and water contains milk and water in the ratio 7 : 6. How much water must be added to make the ratio 7 : 8?
-(A) 8 litres
-(B) 10 litres
-(C) 12 litres
-(D) 14 litres
-Answer: (A) 8 litres
-Solution: Milk = (7/13)×52 = 28 L, water = 24 L. For milk:water = 7:8, water = (8/7)×28 = 32 L. Water to add = 32 - 24 = 8 L.
-Source: IBPS Clerk
-
-End of Set 4.
+Set 4: Mixture & Alligation — All 25 questions Medium difficulty
+
+76. A shopkeeper mixes two varieties of rice costing ₹30 per kg and ₹40 per kg. He sells the mixture at ₹37.40 per kg and earns a profit of 10%. In what ratio must the two varieties be mixed?
+(a) 2 : 3 (b) 3 : 2 (c) 1 : 1 (d) 5 : 3
+Answer: (b)
+Solution: The trap is applying alligation on the selling price ₹37.40 directly, which gives a wrong ratio. First find the cost price of the mixture: CP = 37.40 × 100/110 = ₹34 per kg. Alligation on ₹30 and ₹40 with mean ₹34 gives (40 − 34) : (34 − 30) = 6 : 4, so the answer is 3 : 2.
+
+77. A vessel contains 125 litres of pure milk. 25 litres is drawn off and replaced with water. This process is repeated once more. What is the quantity of milk left?
+(a) 80 litres (b) 75 litres (c) 100 litres (d) 60 litres
+Answer: (a)
+Solution: The trap is subtracting 25 litres twice (125 − 50 = 75), which ignores that the second draw removes a mixture, not pure milk. Milk left = 125 × (1 − 25/125)² = 125 × (4/5)² = 125 × 16/25, so the answer is 80 litres.
+
+78. In what ratio must a 30% alcohol solution be mixed with a 45% alcohol solution to get a 35% alcohol solution?
+(a) 1 : 2 (b) 2 : 1 (c) 1 : 1 (d) 3 : 1
+Answer: (b)
+Solution: The trap is writing the differences in the wrong order and answering 1 : 2. By alligation, quantity of 30% solution : quantity of 45% solution = (45 − 35) : (35 − 30) = 10 : 5, so the answer is 2 : 1.
+
+79. A jar contains 80 litres of a mixture of milk and water in the ratio 7 : 3. How much water must be added so that the ratio of milk to water becomes 7 : 5?
+(a) 12 litres (b) 16 litres (c) 20 litres (d) 24 litres
+Answer: (b)
+Solution: The trap is changing both quantities; only water is added, so milk stays fixed at (7/10) × 80 = 56 litres. For ratio 7 : 5, water must be (5/7) × 56 = 40 litres, and 40 − 24 = 16, so the answer is 16 litres.
+
+80. A container contains a mixture of two liquids A and B in the ratio 7 : 5. When 12 litres of the mixture is drawn off and the container is filled with B, the ratio of A to B becomes 7 : 9. Find the capacity of the container.
+(a) 48 litres (b) 42 litres (c) 36 litres (d) 54 litres
+Answer: (a)
+Solution: The trap is forgetting that the 12 litres drawn off removes A and B in the same 7 : 5 ratio, i.e. 7 litres of A and 5 litres of B. Let capacity be 12x; then (7x − 7)/(5x − 5 + 12) = 7/9 gives 63x − 63 = 35x + 49, so x = 4 and the answer is 48 litres.
+
+81. A milkman dilutes 20 litres of milk with water to make a profit of 15% by selling the mixture at the cost price of pure milk. How much water did he add?
+(a) 6 litres (b) 4 litres (c) 5 litres (d) 3 litres
+Answer: (d)
+Solution: The trap is taking 15% of a wrong base; profit here comes entirely from the free water sold at milk's price. Let CP be ₹1 per litre: CP of 20 litres is ₹20, and for 15% profit the selling must fetch ₹23, i.e. 23 litres sold, so the answer is 3 litres.
+
+82. A 72-litre mixture of milk and water contains milk and water in the ratio 5 : 1. How much water must be added to make the ratio of milk to water 2 : 3?
+(a) 66 litres (b) 72 litres (c) 84 litres (d) 78 litres
+Answer: (d)
+Solution: The trap is solving for the final water quantity (90 litres) instead of the water to be added. Milk = (5/6) × 72 = 60 litres stays fixed; 60/(12 + x) = 2/3 gives 180 = 24 + 2x, so x = 78 and the answer is 78 litres.
+
+83. A mixture of 50 litres of milk and water contains 60% milk. How much water must be evaporated so that the percentage of milk becomes 75%?
+(a) 5 litres (b) 15 litres (c) 10 litres (d) 20 litres
+Answer: (c)
+Solution: The trap is reducing milk along with water; evaporation removes only water, so milk stays at 30 litres. If 30 litres is 75% of the new mixture, the new total is 30/0.75 = 40 litres, and 50 − 40 = 10, so the answer is 10 litres.
+
+84. Two alloys X and Y contain copper and zinc in the ratios 3 : 1 and 1 : 3 respectively. Equal weights of the two are melted together. What is the ratio of copper to zinc in the resulting alloy?
+(a) 1 : 3 (b) 3 : 1 (c) 1 : 1 (d) 2 : 1
+Answer: (c)
+Solution: The trap is averaging the ratios as (3+1) : (1+3) = 4 : 4 without checking fractions, which luckily matches here, but the correct method uses copper fractions 3/4 and 1/4. With equal weights, total copper = 3/4 + 1/4 = 1 and total zinc = 1/4 + 3/4 = 1, so the answer is 1 : 1.
+
+85. A solution of 100 litres contains 40% acid. How much pure acid must be added so that the resulting solution contains 60% acid?
+(a) 50 litres (b) 45 litres (c) 40 litres (d) 55 litres
+Answer: (a)
+Solution: The trap is keeping the total volume at 100 litres in the equation; adding acid increases the total too. Solving (40 + x)/(100 + x) = 3/5 gives 200 + 5x = 300 + 3x, so x = 50 and the answer is 50 litres.
+
+86. A container contains 160 litres of a mixture of milk and water in the ratio 3 : 1. 40 litres of the mixture is taken out and replaced with water. What is the ratio of milk to water in the resultant mixture?
+(a) 3 : 2 (b) 7 : 9 (c) 9 : 7 (d) 2 : 3
+Answer: (c)
+Solution: The trap is assuming the 40 litres removed is all milk or all water; it is removed in the 3 : 1 ratio, i.e. 30 litres milk and 10 litres water. Remaining milk = 90 litres, water = 30 + 40 = 70 litres, so the answer is 9 : 7.
+
+87. A trader mixes 50 kg of sugar at ₹32 per kg with 30 kg of sugar at ₹40 per kg. He sells the mixture at ₹42 per kg. What is his profit percentage?
+(a) 10% (b) 20% (c) 15% (d) 25%
+Answer: (b)
+Solution: The trap is taking the simple average cost ₹36 instead of the weighted average. Total CP = 50 × 32 + 30 × 40 = ₹2800 for 80 kg, so CP per kg = ₹35; profit = 42 − 35 = ₹7, and (7/35) × 100 = 20, so the answer is 20%.
+
+88. A vessel contains 60 litres of a mixture of milk and water in the ratio 2 : 1. How much of this mixture must be taken out and replaced with water so that the ratio becomes 1 : 2?
+(a) 30 litres (b) 35 litres (c) 40 litres (d) 25 litres
+Answer: (a)
+Solution: The trap is replacing only water in the equation; the removed mixture takes away milk in the 2 : 1 ratio too. Milk left = 40 − 2x/3 and water = 20 + 2x/3; setting (40 − 2x/3)/(20 + 2x/3) = 1/2 gives 80 − 4x/3 = 20 + 2x/3, so x = 30 and the answer is 30 litres.
+
+89. A bottle contains 80 ml of a mixture of alcohol and water with 25% alcohol. How much alcohol must be evaporated so that the alcohol percentage becomes 20%? (Assume only alcohol evaporates.)
+(a) 4 ml (b) 10 ml (c) 8 ml (d) 5 ml
+Answer: (d)
+Solution: The trap is keeping the total volume at 80 ml; evaporation of alcohol reduces the total volume as well. Solving (20 − x)/(80 − x) = 1/5 gives 100 − 5x = 80 − x, so 4x = 20 and the answer is 5 ml.
+
+90. A dealer purchases 40 kg of rice at ₹18 per kg and 40 kg at ₹22 per kg. He mixes them and sells the mixture at ₹21 per kg. What is his profit percentage?
+(a) 4% (b) 6% (c) 5% (d) 8%
+Answer: (c)
+Solution: The trap is computing profit on the selling price instead of the cost price. Total CP = 40 × 18 + 40 × 22 = ₹1600 for 80 kg, so CP per kg = ₹20; profit per kg = ₹1, and (1/20) × 100 = 5, so the answer is 5%.
+
+91. A container has 90 litres of a mixture of spirit and water with 60% spirit. Some quantity of the mixture is taken out and replaced with water so that spirit becomes 45%. Find the quantity of mixture replaced.
+(a) 18.5 litres (b) 27 litres (c) 22.5 litres (d) 31.5 litres
+Answer: (c)
+Solution: The trap is computing the spirit removed (54 − 40.5 = 13.5 litres) and reporting it as the answer; the mixture removed contains only 60% spirit. So 0.6x = 13.5 gives x = 22.5, and the answer is 22.5 litres.
+
+92. In what ratio must a 20% alcohol solution be mixed with a 35% alcohol solution to get a 28% alcohol solution?
+(a) 5 : 3 (b) 8 : 7 (c) 7 : 8 (d) 3 : 5
+Answer: (c)
+Solution: The trap is reversing the alligation differences and answering 8 : 7. Quantity of 20% solution : quantity of 35% solution = (35 − 28) : (28 − 20) = 7 : 8, so the answer is 7 : 8.
+
+93. A container holds 200 litres of pure milk. 40 litres is taken out and replaced with water, and then 40 litres of the mixture is again taken out and replaced with water. Find the quantity of milk remaining.
+(a) 120 litres (b) 144 litres (c) 160 litres (d) 128 litres
+Answer: (d)
+Solution: The trap is subtracting 40 litres twice (200 − 80 = 120), ignoring that the second draw is only 80% milk. Milk left = 200 × (1 − 40/200)² = 200 × (4/5)² = 200 × 16/25, so the answer is 128 litres.
+
+94. A mixture of 60 litres of milk and water contains 20% water. How much milk must be added to make the water percentage 15%?
+(a) 20 litres (b) 15 litres (c) 25 litres (d) 30 litres
+Answer: (a)
+Solution: The trap is letting the water quantity change; only milk is added, so water stays at 12 litres. If 12 litres is 15% of the new mixture, the new total is 12/0.15 = 80 litres, and 80 − 60 = 20, so the answer is 20 litres.
+
+95. Two vessels contain mixtures of milk and water in the ratios 9 : 1 and 1 : 4 respectively. In what ratio must they be mixed to get a mixture containing milk and water in the ratio 7 : 3?
+(a) 3 : 2 (b) 2 : 3 (c) 2 : 5 (d) 5 : 2
+Answer: (d)
+Solution: The trap is applying alligation on the ratios directly instead of converting to milk fractions: 9/10, 1/5 = 2/10 and target 7/10. First vessel : second vessel = (7/10 − 2/10) : (9/10 − 7/10) = 5/10 : 2/10, so the answer is 5 : 2.
+
+96. A solution of 144 litres contains acid and water in the ratio 1 : 1. How much water must be evaporated so that the ratio of acid to water becomes 2 : 1?
+(a) 36 litres (b) 42 litres (c) 56 litres (d) 28 litres
+Answer: (a)
+Solution: The trap is halving the water to 36 litres and reporting that as the evaporated amount; 36 litres is the water remaining, not removed. Acid stays at 72 litres, so water must become 36 litres, and 72 − 36 = 36, so the answer is 36 litres.
+
+97. A shopkeeper bought 50 kg of rice at ₹16 per kg and 75 kg at ₹20 per kg. He mixed them and sold the mixture at ₹21 per kg. His profit percentage is approximately:
+(a) 12% (b) 14% (c) 18% (d) 16%
+Answer: (b)
+Solution: The trap is using the simple average cost ₹18 instead of the weighted average. Total CP = 50 × 16 + 75 × 20 = ₹2300 for 125 kg, so CP per kg = ₹18.40; profit = ₹2.60 per kg, and (2.60/18.40) × 100 ≈ 14.1%, so the answer is 14%.
+
+98. A vessel contains 60 litres of a mixture of milk and water in the ratio 2 : 1. How much milk must be added so that the ratio of milk to water becomes 5 : 2?
+(a) 6 litres (b) 10 litres (c) 8 litres (d) 12 litres
+Answer: (b)
+Solution: The trap is computing the final milk quantity (50 litres) instead of the milk to be added. Water stays fixed at 20 litres, so milk needed = (5/2) × 20 = 50 litres, and 50 − 40 = 10, so the answer is 10 litres.
+
+99. A jar contains a mixture of two liquids A and B in the ratio 4 : 1. When 10 litres of the mixture is taken out and 12 litres of liquid B is added, the ratio of A to B becomes 1 : 1. Find the initial quantity of the mixture.
+(a) 45 litres (b) 35 litres (c) 40 litres (d) 30 litres
+Answer: (d)
+Solution: The trap is removing 10 litres of only one liquid; the draw removes A and B in the 4 : 1 ratio, i.e. 8 litres of A and 2 litres of B. Let the initial quantity be 5x; then 4x − 8 = x − 2 + 12 gives 3x = 18, x = 6, so the answer is 30 litres.
+
+100. A 52-litre mixture of milk and water contains milk and water in the ratio 7 : 6. How much water must be added to make the ratio 7 : 8?
+(a) 8 litres (b) 10 litres (c) 12 litres (d) 14 litres
+Answer: (a)
+Solution: The trap is reporting the final water quantity (32 litres) instead of the water to be added. Milk stays fixed at (7/13) × 52 = 28 litres; for ratio 7 : 8, water must be (8/7) × 28 = 32 litres, and 32 − 24 = 8, so the answer is 8 litres.

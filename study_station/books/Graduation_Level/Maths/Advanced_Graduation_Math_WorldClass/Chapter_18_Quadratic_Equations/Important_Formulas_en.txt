@@ -1,0 +1,80 @@
+# Important Formulas — Quadratic Equations & Series
+
+## A. Quadratic Equations
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Standard form | ax² + bx + c = 0, a ≠ 0 | Identify a, b, c first |
+| Quadratic formula | x = [−b ± √(b² − 4ac)] / 2a | When factorisation fails |
+| Discriminant | D = b² − 4ac | Nature of roots |
+| Real & distinct roots | D > 0 | Two different roots |
+| Real & equal roots | D = 0 | Root = −b/2a |
+| Complex roots | D < 0 | No real roots |
+| Perfect square (rational roots) | D is a perfect square, a,b,c rational | Roots rational |
+| Sum of roots | α + β = −b/a | Direct from coefficients |
+| Product of roots | αβ = c/a | Direct from coefficients |
+| Forming equation from roots | x² − (α+β)x + αβ = 0 | Given roots, build equation |
+| Difference of roots | α − β = ±√D / a (i.e., \|α − β\| = √D / \|a\|) | When roots asked separately |
+| α² + β² | (α+β)² − 2αβ | Symmetric expressions |
+| α³ + β³ | (α+β)³ − 3αβ(α+β) | Cube-based questions |
+| 1/α + 1/β | (α+β)/αβ | Reciprocal roots |
+| α²β + αβ² | αβ(α+β) | Mixed symmetric terms |
+| Common root (both equations) | (c₁a₂ − c₂a₁)² = (b₁c₂ − b₂c₁)(a₁b₂ − a₂b₁) | One common root condition |
+| Both roots common | a₁/a₂ = b₁/b₂ = c₁/c₂ | Proportional coefficients |
+| Roots equal in magnitude, opposite sign | b = 0 | α + β = 0 |
+| Reciprocal roots | a = c | αβ = 1 |
+| Maximum/Minimum value of ax²+bx+c | (4ac − b²)/4a at x = −b/2a | a>0 → min; a<0 → max |
+| Sign of quadratic | ax²+bx+c > 0 ∀x iff a>0, D<0 | Always-positive condition |
+| Roots > k | D ≥ 0, α+β > 2k, (α−k)(β−k) > 0 | Location of roots |
+| Roots on either side of k | a·f(k) < 0 | k lies between roots |
+
+## B. Arithmetic Progression (AP)
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| nth term | aₙ = a + (n−1)d | a = first term, d = common difference |
+| Sum of n terms | Sₙ = n/2 [2a + (n−1)d] | Standard sum |
+| Sum (first + last known) | Sₙ = n/2 (a + l) | l = last term |
+| nth term from sum | aₙ = Sₙ − Sₙ₋₁ | When Sₙ formula given |
+| Sum of first n naturals | 1+2+…+n = n(n+1)/2 | Base series |
+| Sum of first n squares | 1²+2²+…+n² = n(n+1)(2n+1)/6 | Square series |
+| Sum of first n cubes | 1³+2³+…+n³ = [n(n+1)/2]² | Cube series |
+| Sum of first n odd numbers | 1+3+5+… = n² | Odd series |
+| Sum of first n even numbers | 2+4+6+… = n(n+1) | Even series |
+| Arithmetic mean | AM of a, b = (a+b)/2 | Single AM insertion |
+| n AMs between a and b | d = (b−a)/(n+1) | Insert means |
+| Terms in AP (3 terms) | a−d, a, a+d | Symmetric assumption |
+| Terms in AP (4 terms) | a−3d, a−d, a+d, a+3d | Symmetric assumption |
+
+## C. Geometric Progression (GP)
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| nth term | aₙ = arⁿ⁻¹ | r = common ratio |
+| Sum of n terms (r ≠ 1) | Sₙ = a(rⁿ − 1)/(r − 1), r > 1; Sₙ = a(1 − rⁿ)/(1 − r), r < 1 | Finite GP sum |
+| Sum to infinity (\|r\| < 1) | S∞ = a/(1 − r) | Infinite GP |
+| Geometric mean | GM of a, b = √(ab) | Single GM insertion |
+| Product of n terms | P = aⁿ · r^(n(n−1)/2) = (a·aₙ)^(n/2) | Product questions |
+| Terms in GP (3 terms) | a/r, a, ar | Symmetric assumption |
+| Recurring decimal as fraction | 0.ababab… = ab/99 | Convert via infinite GP |
+
+## D. Harmonic Progression (HP) & Means
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| HP definition | Reciprocals form an AP | Convert to AP to solve |
+| nth term of HP | 1 / [a + (n−1)d] | Via corresponding AP |
+| Harmonic mean | HM = 2ab/(a+b) | Two numbers |
+| AM–GM–HM relation | AM ≥ GM ≥ HM | Inequality questions |
+| AM × HM | AM × HM = GM² | For two positive numbers |
+
+## E. Special / Mixed Series
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Sum of n(n+1) type | Σn(n+1) = n(n+1)(n+2)/3 | Product series |
+| Sum of n(n+1)(n+2) | Σ = n(n+1)(n+2)(n+3)/4 | Triple product series |
+| Arithmetico-Geometric sum | S∞ = a/(1−r) + dr/(1−r)² | AGP infinite sum |
+| Telescoping series | Σ 1/[n(n+1)] = 1 − 1/(n+1) | Partial fractions split |
+| Σ(2n−1) | = n² | Odd numbers check |
+| Number of terms in AP | n = [(l − a)/d] + 1 | Counting terms |

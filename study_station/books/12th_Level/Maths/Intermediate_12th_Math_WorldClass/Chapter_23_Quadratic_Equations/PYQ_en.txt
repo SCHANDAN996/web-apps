@@ -1,3 +1,112 @@
-# Chapter: Quadratic Equations & Series, Level: intermediate
+# 📊 PYQ Analysis: Quadratic Equations & Series
 
-@pyq_agent lang=en level=intermediate 'Analyse PYQs of Quadratic Equations & Series for last 10 years (SSC CGL Mains, IBPS PO, RRB NTPC, CAT etc.). Give top 10 high-yield questions with solutions. Also explain what psychological hook or trap each question uses.'
+## How Exams Test This Chapter
+
+Across SSC CGL (Mains), IBPS PO, RRB NTPC and similar exams, this chapter appears in two distinct flavours:
+
+**1. Quadratic Equations** — The most repeated patterns are:
+- Finding roots using the quadratic formula or factorisation
+- Using **sum and product of roots** (α + β = −b/a, αβ = c/a) without actually solving
+- Nature of roots via the **discriminant** (D = b² − 4ac)
+- Forming a new equation when roots are modified (e.g., roots doubled, reciprocals, squares)
+- Comparing two equations (IBPS PO favourite): solve x-equation and y-equation, then decide x > y, x < y, x = y, or relation cannot be determined
+
+**2. Series (AP/GP and Number Series)** — The repeated patterns are:
+- nth term and sum of n terms of an **Arithmetic Progression**
+- nth term and sum of a **Geometric Progression** (including infinite GP)
+- **Missing/wrong number series**: differences, double differences, ×n ± k patterns, squares/cubes ± k, alternating operations
+- Word problems disguised as AP (salary increments, instalments, savings)
+
+## The Examiner's Traps (Psychological Hooks)
+
+- **Sign trap**: In α + β = −b/a, students forget the minus sign when b is negative.
+- **"Almost correct" options**: One option matches a calculation with a single sign error — it is placed there deliberately.
+- **Discriminant confusion**: "Real and equal" needs D = 0, not D > 0. Options mix these up.
+- **Series with two interleaved patterns**: Odd-position terms follow one rule, even-position terms another. Students who check only consecutive differences get stuck.
+- **Wrong-number series**: The wrong term is often off by just 1 or 2, so a hasty solver misses it.
+- **Relation-cannot-be-determined**: In IBPS-style comparison questions, when both equations have mixed-sign roots, the honest answer is often "cannot be determined" — but students force a comparison.
+- **AP word problems**: The question asks for the *sum* but students stop after finding the *nth term* (or vice versa).
+
+---
+
+## Top 10 High-Yield Questions (with Solutions)
+
+**Q1.** If the roots of x² − 7x + 12 = 0 are α and β, find the value of α² + β².
+(a) 25 (b) 49 (c) 23 (d) 1
+**Answer: (a)**
+**Solution:** α + β = 7, αβ = 12. α² + β² = (α + β)² − 2αβ = 49 − 24 = 25.
+**Trap:** Option (b) 49 catches students who forget to subtract 2αβ.
+**Source:** PYQ-style (NCERT Class 10 concept)
+
+**Q2.** For what value of k does the equation x² − kx + 9 = 0 have equal roots?
+(a) 3 (b) 6 (c) ±6 (d) 9
+**Answer: (c)**
+**Solution:** Equal roots ⇒ D = 0 ⇒ k² − 36 = 0 ⇒ k = ±6.
+**Trap:** Option (b) catches those who take only the positive value; the equation allows both.
+**Source:** PYQ-style
+
+**Q3.** Solve: x² − 5x + 6 = 0 and y² − 8y + 15 = 0. Compare x and y.
+(a) x > y (b) x < y (c) x ≥ y (d) x ≤ y
+**Answer: (d)**
+**Solution:** x = 2, 3; y = 3, 5. Every value of x is ≤ every value of y (2 ≤ 3, 2 ≤ 5, 3 ≤ 3, 3 ≤ 5). Hence x ≤ y.
+**Trap:** Students see x = 3 and y = 3 and pick "x = y", ignoring the other root pairs. Always check all four combinations.
+**Source:** PYQ-style (IBPS PO pattern)
+
+**Q4.** If one root of x² − 6x + k = 0 is twice the other, find k.
+(a) 6 (b) 8 (c) 9 (d) 12
+**Answer: (b)**
+**Solution:** Let roots be r and 2r. Sum: 3r = 6 ⇒ r = 2. Product: 2r² = k ⇒ k = 2 × 4 = 8.
+**Trap:** Option (d) 12 comes from mishandling the product r × 2r — a deliberate near-miss.
+**Source:** PYQ-style
+
+**Q5.** Find the 15th term of the AP: 7, 12, 17, 22, …
+(a) 72 (b) 77 (c) 82 (d) 67
+**Answer: (b)**
+**Solution:** a = 7, d = 5. a₁₅ = a + 14d = 7 + 70 = 77.
+**Trap:** Using n·d instead of (n−1)·d gives 82 — option (c) is planted for exactly this error.
+**Source:** NCERT Class 10 Maths (Ch. Arithmetic Progressions)
+
+**Q6.** How many terms of the AP 5, 9, 13, … must be taken so that their sum is 230?
+(a) 9 (b) 10 (c) 11 (d) 12
+**Answer: (b)**
+**Solution:** Sₙ = n/2 [2(5) + (n−1)4] = n(2n + 3) = 230 ⇒ 2n² + 3n − 230 = 0 ⇒ (n − 10)(2n + 23) = 0 ⇒ n = 10. Check: S₁₀ = 10 × 23 = 230. ✓
+**Trap:** The negative root (−23/2) must be rejected — the number of terms must be a natural number.
+**Source:** NCERT Class 10 Maths
+
+**Q7.** Find the missing number: 4, 9, 19, 39, 79, ?
+(a) 159 (b) 160 (c) 158 (d) 149
+**Answer: (a)**
+**Solution:** Pattern: ×2 + 1. 4×2+1 = 9, 9×2+1 = 19, 19×2+1 = 39, 39×2+1 = 79, 79×2+1 = 159.
+**Trap:** The differences (5, 10, 20, 40) also double, giving 79 + 80 = 159 — but students who assume "+5, +10, +15…" land on a planted wrong option.
+**Source:** PYQ-style (RRB NTPC pattern)
+
+**Q8.** Find the wrong number in the series: 3, 8, 15, 24, 34, 48
+(a) 8 (b) 15 (c) 34 (d) 48
+**Answer: (c)**
+**Solution:** Pattern: n² − 1 for n = 2, 3, 4, 5, 6, 7 → 3, 8, 15, 24, 35, 48. So 34 should be 35.
+**Trap:** The wrong term differs by only 1 — quick solvers accept 34 because the differences "look almost" like consecutive odd numbers.
+**Source:** PYQ-style
+
+**Q9.** The sum of the first 3 terms of a GP is 13 and their product is 27. Find the common ratio (r > 1).
+(a) 2 (b) 3 (c) 4 (d) 3/2
+**Answer: (b)**
+**Solution:** Take terms a/r, a, ar. Product = a³ = 27 ⇒ a = 3. Sum: 3/r + 3 + 3r = 13 ⇒ 3r² − 10r + 3 = 0 ⇒ r = 3 or 1/3. Since r > 1, r = 3.
+**Trap:** r = 1/3 also satisfies the equations; the condition r > 1 is the filter students skip.
+**Source:** PYQ-style (NCERT Class 11 concept)
+
+**Q10.** Find the sum to infinity of the GP: 1, 1/3, 1/9, 1/27, …
+(a) 3/2 (b) 4/3 (c) 2 (d) 5/3
+**Answer: (a)**
+**Solution:** a = 1, r = 1/3 (|r| < 1). S∞ = a/(1 − r) = 1/(1 − 1/3) = 1/(2/3) = 3/2.
+**Trap:** Option (b) 4/3 comes from using a/(1 + r) or misreading the ratio — sign and ratio slips are the classic hooks here.
+**Source:** PYQ-style (NCERT Class 11 concept)
+
+---
+
+## Key Takeaways for Revision
+
+- Master **α + β and αβ** manipulations — they solve most quadratic questions in under 30 seconds.
+- For comparison questions, **list all root pairs** before deciding.
+- In series, check **differences → double differences → ×/÷ patterns → squares/cubes** in that order.
+- In AP/GP word problems, underline whether the question wants the **term** or the **sum**.
+- Reject negative/fractional answers where the context demands a natural number (number of terms, people, years).

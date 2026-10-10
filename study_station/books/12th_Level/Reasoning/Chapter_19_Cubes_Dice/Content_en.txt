@@ -1,0 +1,131 @@
+# Cubes & Dice
+
+## Outline & Learning Goals
+
+By the end of this chapter, you will be able to:
+
+1. Identify the **net of a cube** and tell which faces will be opposite each other.
+2. Solve **standard dice** and **ordinary dice** problems in seconds.
+3. Find the number on the hidden face when two views of the same dice are given.
+4. Count **painted small cubes** (faces painted, unpainted, etc.) after cutting a big cube.
+5. Spot the examiner's favourite traps before they trap you.
+
+---
+
+## The Hook: One Cube, Six Secrets
+
+Imagine a magician hands you a dice and says, "I can see the bottom face without lifting it." Sounds impossible? It isn't. In competitive exams, the dice is that magician — and **you** are about to learn the trick. Cubes and dice questions are among the quickest to solve in the reasoning section: students who know the rules finish them in under 30 seconds while others keep rotating imaginary cubes in their heads.
+
+Let's make you the fast one.
+
+---
+
+## The Common Struggle (You're Not Alone)
+
+Most students struggle here because:
+
+- They try to **visualise 3D rotation** in their head — and the brain drops the cube halfway.
+- They memorise formulas without knowing **when** to apply which one.
+- They mix up **standard dice** and **ordinary dice** rules.
+
+The fix? Don't rotate the cube in your mind. Use **rules** — small, mechanical, foolproof rules. That's exactly what this chapter gives you.
+
+---
+
+## Part 1: The Dice — Basics First
+
+A **dice** is a cube with numbers 1 to 6 on its six faces.
+
+**Two types of dice:**
+
+**1. Standard Dice:** Sum of opposite faces is always **7**.
+- 1 ↔ 6, 2 ↔ 5, 3 ↔ 4
+
+**2. Ordinary (Non-standard) Dice:** Opposite faces do **not** necessarily add to 7. You must find opposites from the given views.
+
+🧠 **Active Recall:** In a standard dice, what is opposite to 3? … (Answer: 4, because 3 + 4 = 7.)
+
+---
+
+## Part 2: The Golden Rule for Two Views of One Dice
+
+When **two views of the same dice** are shown and **one face is common** in both views (and in the **same position**):
+
+> **Rule:** The remaining two faces of each view are opposite to each other, pair by pair.
+
+**Example:**
+- View 1: 1 (top), 2 (front), 3 (side)
+- View 2: 1 (top), 4 (front), 5 (side)
+
+Face 1 is common and on top in both. So: 2 ↔ 4 and 3 ↔ 5. The leftover number 6 is opposite to 1.
+
+**When two faces are common** in both views, the remaining two faces are opposite to each other directly.
+
+🧠 **Active Recall:** Two views show faces (2, 3, 5) and (2, 3, 6). What is opposite to 5? … (Answer: 6 — two faces 2 and 3 are common, so the remaining faces 5 and 6 are opposite.)
+
+---
+
+## Part 3: Nets of a Cube
+
+A **net** is a flat shape that folds into a cube. There are exactly **11 valid nets** of a cube.
+
+**Rule to find opposite faces in a net:**
+
+> In a straight row/column of 4 squares, the **1st is opposite the 3rd**, and the **2nd is opposite the 4th**. The two leftover squares are opposite each other.
+
+**Quick check for an invalid net:** If four squares meet at one point (a 2×2 block of four with extras attached wrongly), or if folding makes two faces overlap — it can never form a cube.
+
+🧠 **Active Recall:** In a row of four squares numbered 1-2-3-4, which face is opposite 1? … (Answer: 3.)
+
+---
+
+## Part 4: Painted Cube Problems (The Cutting Chapter)
+
+A big cube of side **n** units is painted on all faces and cut into **n³** small cubes.
+
+| Type of small cube | Formula |
+|---|---|
+| 3 faces painted (corners) | **8** (always) |
+| 2 faces painted (edges) | **12(n − 2)** |
+| 1 face painted (face centres) | **6(n − 2)²** |
+| 0 faces painted (inside) | **(n − 2)³** |
+
+**Memory trick (mnemonic): "8-12-6-1, the cube's family"** — 8 corners, 12 edges, 6 faces, 1 inner body. The powers go 0, 1, 2, 3 with (n−2): 8·(n−2)⁰, 12·(n−2)¹, 6·(n−2)², 1·(n−2)³.
+
+**Example:** n = 4 → 3-face: 8; 2-face: 12×2 = 24; 1-face: 6×4 = 24; 0-face: 8. Total = 64 = 4³ ✓
+
+🧠 **Active Recall:** A cube is cut into 27 small cubes (n = 3). How many have no paint? … (Answer: (3−2)³ = 1.)
+
+---
+
+## Part 5: Dice Rolled on a Path
+
+When a dice **rolls** along squares on the floor, track only the **top and bottom**:
+- Rolling forward: top → front side, back side → top.
+- The face that was opposite the direction of rolling comes on top.
+
+Practice with a real dice or eraser once — this topic becomes permanent in memory.
+
+---
+
+## Summary Table
+
+| Concept | Key Rule |
+|---|---|
+| Standard dice | Opposite faces sum to 7 |
+| Two views, 1 common face (same position) | Remaining faces are opposite in pairs |
+| Two views, 2 common faces | Leftover faces are opposite |
+| Net (row of 4) | 1st↔3rd, 2nd↔4th |
+| Painted cube | 8 / 12(n−2) / 6(n−2)² / (n−2)³ |
+
+📅 **Review this chapter after 2 days.** Redo the Active Recall questions without looking — if you answer all instantly, the chapter is yours forever.
+
+---
+
+## ⚠️ Caution: Examiner's Trap
+
+**Trap 1 — Blurry figures on screen:** In CBT exams, dice figures may look unclear. Never guess from a hazy image — re-read the numbers written on faces carefully. One misread number flips the whole answer.
+
+**Trap 2 — Look-alike views with a hidden difference:** Two dice views may appear identical, but one number is changed (e.g., 4 instead of 5). The examiner hides the difference so you apply the "common face" rule wrongly. Always list the three numbers of each view **before** applying any rule.
+
+**Trap 3 — Rotation vs. mirror image:** A rotated dice is the same dice; a mirror image is a **different** dice. If a question asks "which dice cannot be formed," the mirror arrangement of a valid view is usually the answer. Check the clockwise order of three faces meeting at a corner — if the order is reversed, it's a mirror trap.

@@ -1,0 +1,220 @@
+# Profit & Loss
+
+## What You Will Master in This Chapter
+
+By the end of this chapter, you will be able to:
+
+1. Calculate profit, loss, profit % and loss % from any given data — even when the numbers are disguised.
+2. Handle successive discounts, marked price problems, and dishonest-dealer tricks in seconds.
+3. Solve Advanced-level problems: selling two items at the same price, faulty weights, and CP-of-x-articles-equals-SP-of-y-articles puzzles.
+4. Spot the traps examiners set in SSC CGL Tier-II, IBPS PO Mains, CAT and CSAT.
+
+---
+
+## The Hook: The Shopkeeper Who "Lost" Money and Still Got Rich
+
+A fruit seller in Delhi buys apples at ₹100 per kg. He sells them at ₹100 per kg — the *same* price. Zero profit, right? Yet at the end of the year, he buys a new scooter.
+
+His secret? His weighing scale shows 1 kg but actually gives only 800 grams. He "sells at cost price" and pockets a 25% profit on every sale.
+
+Welcome to Profit & Loss — the chapter where *what you see is never the full story*. Almost every Advanced-level question in this topic is a story of hidden numbers: a marked price hiding a discount, a cost price hidden inside a percentage, a false weight hiding a profit. Your job is to become the detective.
+
+---
+
+## First, Let's Admit Something
+
+Most students don't fail Profit & Loss because the maths is hard. They fail because of three habits:
+
+- **Calculating percentage on the wrong base.** Profit % is *always* on Cost Price — but under exam pressure, students divide by Selling Price.
+- **Adding percentages blindly.** A 20% discount followed by a 10% discount is NOT a 30% discount.
+- **Freezing when the question hides CP.** "By selling at ₹480, a man gains 20%" — the CP isn't given, and panic begins.
+
+We will kill all three habits, one chunk at a time.
+
+---
+
+## Chunk 1: The Foundation — CP, SP, Profit, Loss
+
+**Cost Price (CP):** What the seller pays to acquire the item.
+**Selling Price (SP):** What the buyer pays the seller.
+
+- **Profit** = SP − CP (when SP > CP)
+- **Loss** = CP − SP (when CP > SP)
+
+And the two golden formulas — memorise these until they feel like your own name:
+
+> **Profit % = (Profit / CP) × 100**
+> **Loss % = (Loss / CP) × 100**
+
+Notice the base: **always CP**. Not SP. Not Marked Price. CP. The examiner's favourite trap is to make you divide by SP. Don't.
+
+From these, two working formulas you'll use constantly:
+
+> **SP = CP × (100 + Profit%)/100** and **SP = CP × (100 − Loss%)/100**
+> **CP = SP × 100/(100 + Profit%)** and **CP = SP × 100/(100 − Loss%)**
+
+**Example:** A trader sells a chair at ₹480 and gains 20%. Find CP.
+CP = 480 × 100/120 = **₹400**. One line. Done.
+
+🧠 **Active Recall:** Close the book. A man sells a bag at ₹630 at a loss of 10%. What was the CP? (Answer: 630 × 100/90 = ₹700.) Why do we divide by 90 and not 110?
+
+---
+
+## Chunk 2: The Fraction Shortcut — Think in Parts, Not Percentages
+
+Here's a mindset shift that separates toppers from the rest: **convert percentages into fractions.**
+
+- 20% profit = 1/5 → CP is 5 parts, profit is 1 part, SP is 6 parts.
+- 25% loss = 1/4 → CP is 4 parts, SP is 3 parts.
+- 12.5% = 1/8, 16.66% = 1/6, 33.33% = 1/3, 14.28% = 1/7.
+
+**Example:** SP = ₹720, profit = 20%. Profit is 1/5 of CP, so SP = 6/5 of CP. CP = 720 × 5/6 = ₹600. Profit = ₹120. No calculator, no long division.
+
+**Mnemonic — "PROFIT sits on COST":** Whenever you forget the base, say this sentence. Profit % sits on Cost Price. The base is always below, always CP.
+
+🧠 **Active Recall:** Write the fraction forms of 12.5%, 16.66%, and 33.33% from memory. If SP is 7 parts and profit is 1 part, what is the profit %? (Answer: CP = 6 parts, so 1/6 = 16.66%.)
+
+---
+
+## Chunk 3: Marked Price and Discount — The Two-Layer Game
+
+Shops rarely sell at the price printed on the tag. That printed price is the **Marked Price (MP)**. The reduction offered is the **Discount**, and discount % is always calculated **on MP**:
+
+> **Discount % = (Discount / MP) × 100**
+> **SP = MP × (100 − Discount%)/100**
+
+So a full problem has two layers: **MP → (discount) → SP**, and **CP → (profit) → SP**. The SP is the bridge connecting them.
+
+**Example:** A shopkeeper marks an article 40% above CP and gives a 10% discount. Find profit %.
+Let CP = 100. MP = 140. SP = 140 × 90/100 = 126. Profit = **26%**.
+
+Notice: 40% markup with 10% discount gives 26%, not 30%. Percentages never add directly when bases differ.
+
+🧠 **Active Recall:** MP is 50% above CP, discount is 20%. What's the profit %? (Answer: 150 × 0.8 = 120 → 20% profit.)
+
+---
+
+## Chunk 4: Successive Discounts — The Trap That Catches Everyone
+
+Two successive discounts of 20% and 10% are NOT equal to a single 30% discount. Why? The second discount applies to the *already reduced* price.
+
+> **Single equivalent discount = a + b − (ab/100)**
+
+For 20% and 10%: 20 + 10 − (20×10/100) = 30 − 2 = **28%**.
+
+Quick check with ₹100: after 20% off → ₹80; after 10% off on ₹80 → ₹72. Total discount ₹28 = 28%. Confirmed.
+
+**Mnemonic — "Add, then subtract the product's percent":** a + b − ab/100. Say it as a chant: *"Add them, then cut their product percent."*
+
+This same formula works for successive *markups* too (with + signs), and for a markup followed by a discount (use a negative sign for the discount).
+
+🧠 **Active Recall:** What single discount equals two successive discounts of 25% and 20%? (Answer: 25 + 20 − 5 = 40%.)
+
+---
+
+## Chunk 5: The Classic — Two Items Sold at the Same Price
+
+This is the most repeated Advanced-level pattern in SSC and Bank exams:
+
+> *A man sells two articles at the same price — one at a profit of x% and the other at a loss of x%. Overall, there is always a LOSS of x²/100 %.*
+
+**Example:** Two watches sold at ₹990 each; one at 10% profit, one at 10% loss.
+Overall loss = 10²/100 = **1%**.
+
+Why always a loss? The CP of the loss-item is *higher* than the CP of the profit-item, so the rupee loss outweighs the rupee gain. Verify: CP₁ = 990×100/110 = 900; CP₂ = 990×100/90 = 1100. Total CP = 2000, total SP = 1980. Loss = ₹20 on ₹2000 = 1%.
+
+**Warning:** This shortcut works ONLY when both SPs are equal AND both percentages are equal. Change either condition and you must calculate each CP separately.
+
+🧠 **Active Recall:** Two items sold at ₹500 each, one at 20% gain, one at 20% loss. Overall result? (Answer: loss of 20²/100 = 4%.)
+
+---
+
+## Chunk 6: Dishonest Dealer and Faulty Weights
+
+Remember our apple seller from the hook? Here's his mathematics:
+
+> **Profit % = (Error / False weight) × 100 = [(True weight − False weight) / False weight] × 100**
+
+He claims to sell 1000 g but gives 800 g. His cost is for 800 g, his revenue is the price of 1000 g.
+
+Profit % = (1000 − 800)/800 × 100 = 200/800 × 100 = **25%**.
+
+The trap: students divide by 1000 and get 20%. Wrong. The base is what the customer *actually gets* (the false weight), because that's what the dealer actually paid for.
+
+If the dealer *also* cheats while buying (takes 1200 g, pays for 1000 g) and cheats while selling (gives 800 g, charges for 1000 g), the profit compounds. Handle it by the parts method: goods received = 1200 units, goods delivered = 800 units, money paid = price of 1000 units, money received = price of 1000 × (1200/800) = 1500 units → profit = (1500 − 1000)/1000 = **50%**.
+
+🧠 **Active Recall:** A milkman sells at CP but mixes water so that 1 litre of mixture contains 800 ml milk. Profit %? (Answer: 200/800 = 25%.)
+
+---
+
+## Chunk 7: CP of x Articles = SP of y Articles
+
+Pattern: *"The cost price of 15 articles equals the selling price of 12 articles. Find profit %."*
+
+Method: CP of 15 = SP of 12. Assume each article's CP = ₹1 → total CP = ₹15, and this equals SP of 12 articles. So SP per article = 15/12 = ₹1.25. Profit per article = ₹0.25 on CP ₹1 → **25%**.
+
+General rule:
+
+> If CP of *x* articles = SP of *y* articles (x > y), then **Profit % = (x − y)/y × 100**.
+
+Here: (15 − 12)/12 × 100 = 25%. One line.
+
+🧠 **Active Recall:** CP of 20 pens = SP of 16 pens. Profit %? (Answer: 4/16 = 25%.)
+
+---
+
+## Chunk 8: Advanced Twists — What Tier-II and Mains Actually Ask
+
+**1. "Selling at ₹X gives twice the profit/loss of selling at ₹Y."**
+Set up equations. Example: Selling at ₹540 gives twice the profit of selling at ₹480. Let CP = c. Then 540 − c = 2(480 − c) → 540 − c = 960 − 2c → c = ₹420.
+
+**2. "Profit % equals the CP in rupees."** Example: SP = ₹264 and profit % numerically equals CP. Let CP = x; then SP = x + x²/100. Test x = 120: 120 + 120×120/100 = 120 + 144 = 264 ✓. So CP = ₹120. Lesson: **test the options** instead of solving the quadratic — examiners choose numbers that work out cleanly, and option-testing is far faster under time pressure.
+
+**3. Price reduction and consumption:** "If the price falls 20%, a man can buy 5 kg more for ₹600." 20% of ₹600 = ₹120 buys 5 kg at the reduced price → reduced price = ₹24/kg → original = ₹30/kg.
+
+**4. Profit calculated on SP instead of CP:** Some questions state "a trader calculates his profit on SP." Then Profit % (on SP) = Profit/SP × 100. Convert carefully: 20% on SP = 25% on CP (since profit is 1/5 of SP = 1/4 of CP).
+
+🧠 **Active Recall:** A trader claims 25% profit but calculates it on SP. What is his real profit % on CP? (Answer: 25/75 = 33.33%.)
+
+---
+
+## The Examiner's Trap Box
+
+- **Wrong base:** Profit % on SP instead of CP — the #1 error.
+- **Adding percentages:** 40% markup + 10% discount ≠ 30% profit.
+- **Equal-SP-two-items:** forgetting it's *always* a loss, or applying the formula when percentages differ.
+- **Faulty weights:** dividing by the claimed weight instead of the delivered weight.
+- **"Sold at CP" with false weights:** students write 0% profit. Never 0% — the weight fraud *is* the profit.
+
+---
+
+## Summary Table
+
+| Concept | Formula / Rule | Remember |
+|---|---|---|
+| Profit / Loss | SP − CP / CP − SP | Base is always CP |
+| Profit % | (Profit/CP) × 100 | "PROFIT sits on COST" |
+| SP from CP | CP × (100 ± p%)/100 | + for profit, − for loss |
+| CP from SP | SP × 100/(100 ± p%) | Reverse the sign logic |
+| Discount % | (Discount/MP) × 100 | Base is MP |
+| Successive discounts a%, b% | a + b − ab/100 | Never just add |
+| Two items, same SP, ±x% | Loss = x²/100 % | Always a loss |
+| Faulty weight | (Error/False weight) × 100 | Divide by what's delivered |
+| CP of x = SP of y | (x − y)/y × 100 % | x > y → profit |
+| Markup m% + discount d% | Net = m − d − md/100 % | Signs matter |
+
+---
+
+## 🔁 Review This Chapter After 2 Days
+
+Close the book and test yourself on these five questions:
+
+1. What is the base for profit % — and for discount %?
+2. Single equivalent of 30% + 20% successive discounts?
+3. Two items sold at ₹800 each, one at 25% profit, one at 25% loss — overall result?
+4. A dealer gives 900 g instead of 1 kg, selling at CP — profit %?
+5. CP of 18 articles = SP of 15 articles — profit %?
+
+*(Answers: 1. CP and MP. 2. 44%. 3. Loss of 6.25%. 4. 11.11%. 5. 20%.)*
+
+If you got all five right, move to the Practice Sets. If not, re-read the relevant chunk — then come back in 2 days.

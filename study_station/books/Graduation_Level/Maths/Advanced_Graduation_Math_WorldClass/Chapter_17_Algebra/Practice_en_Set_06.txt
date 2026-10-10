@@ -1,0 +1,149 @@
+126. If x + 1/x = 5, then the value of x³ + 1/x³ is
+(a) 100 (b) 125 (c) 110 (d) 115
+Answer: (c)
+Solution: The tempting wrong choice 125 comes from simply cubing 5, forgetting the correction term. Use the identity x³ + 1/x³ = (x + 1/x)³ − 3(x + 1/x) = 125 − 15 = 110, so the answer is 110.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+127. If a + b + c = 0, then the value of (a²/bc + b²/ca + c²/ab) is
+(a) 0 (b) 3 (c) 1 (d) −3
+Answer: (b)
+Solution: Many students pick 0 because a + b + c = 0, but that trap ignores the identity a³ + b³ + c³ = 3abc when the sum is zero. The expression equals (a³ + b³ + c³)/abc = 3abc/abc = 3, so the answer is 3.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+128. If x² − 3x + 1 = 0, then the value of x⁴ + 1/x⁴ is
+(a) 51 (b) 49 (c) 45 (d) 47
+Answer: (d)
+Solution: The trap 49 comes from squaring 7 directly without the second step. Dividing by x gives x + 1/x = 3, so x² + 1/x² = 9 − 2 = 7, and x⁴ + 1/x⁴ = 49 − 2 = 47, so the answer is 47.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+129. The roots of the equation x² − 8x + 15 = 0 are
+(a) −3 and 5 (b) −3 and −5 (c) 3 and −5 (d) 3 and 5
+Answer: (d)
+Solution: The trap options with negative signs arise from mishandling the middle term's sign. Factorising: (x − 3)(x − 5) = 0 gives x = 3 or x = 5, and indeed 3 + 5 = 8 and 3 × 5 = 15, so the answer is 3 and 5.
+Source: NCERT Class 10 Mathematics (Quadratic Equations)
+
+130. If α and β are roots of 2x² − 7x + 3 = 0, then the value of α² + β² is
+(a) 25/4 (b) 49/4 (c) 37/4 (d) 41/4
+Answer: (c)
+Solution: The tempting 49/4 comes from squaring the sum of roots without subtracting 2αβ. Here α + β = 7/2 and αβ = 3/2, so α² + β² = (7/2)² − 2(3/2) = 49/4 − 3 = 37/4, so the answer is 37/4.
+Source: NCERT Class 10 Mathematics (Quadratic Equations)
+
+131. For what value of k does the equation x² + kx + 9 = 0 have equal roots?
+(a) ±3 (b) ±9 (c) ±6 (d) ±4
+Answer: (c)
+Solution: The trap ±3 comes from taking the square root of 9 and forgetting the factor 2. Equal roots need discriminant zero: k² − 36 = 0, so k = ±6, so the answer is ±6.
+Source: NCERT Class 10 Mathematics (Quadratic Equations)
+
+132. If x = 2 + √3, then the value of x² + 1/x² is
+(a) 16 (b) 14 (c) 12 (d) 10
+Answer: (b)
+Solution: The trap 16 comes from computing (x + 1/x)² and forgetting to subtract 2. Here 1/x = 2 − √3, so x + 1/x = 4, and x² + 1/x² = 16 − 2 = 14, so the answer is 14.
+Source: NCERT Class 9 Mathematics (Number Systems)
+
+133. If a³ + b³ = 91 and a + b = 7, then the value of ab is
+(a) 10 (b) 14 (c) 12 (d) 8
+Answer: (c)
+Solution: The trap 14 comes from dividing 91 by 7 and misreading the result as ab. Using a³ + b³ = (a + b)³ − 3ab(a + b): 91 = 343 − 21ab, so 21ab = 252 and ab = 12, so the answer is 12.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+134. The value of (x − y)³ + (y − z)³ + (z − x)³ is
+(a) 3(x − y)(y − z)(z − x) (b) 0 (c) (x − y)(y − z)(z − x) (d) x³ + y³ + z³ − 3xyz
+Answer: (a)
+Solution: The trap 0 tempts students because the three terms seem to cancel, but cubes do not cancel like first powers. Since (x − y) + (y − z) + (z − x) = 0, the sum of cubes equals 3(x − y)(y − z)(z − x), so the answer is 3(x − y)(y − z)(z − x).
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+135. If 2ˣ = 4ʸ = 8ᶻ and x + y + z = 11, then the value of x is
+(a) 3 (b) 4 (c) 6 (d) 2
+Answer: (c)
+Solution: The trap 4 comes from assigning equal values to x, y, z, but the bases differ. Writing all in base 2: 2ˣ = 2²ʸ = 2³ᶻ, so x = 2y = 3z. Let x = 6k, y = 3k, z = 2k; then 11k = 11, k = 1, giving x = 6, so the answer is 6.
+Source: NCERT Class 9 Mathematics (Number Systems)
+
+136. If x + y = 10 and xy = 21, then the value of x³ + y³ is
+(a) 340 (b) 400 (c) 370 (d) 430
+Answer: (c)
+Solution: The trap 400 comes from cubing 10 and ignoring the correction term entirely. Using x³ + y³ = (x + y)³ − 3xy(x + y) = 1000 − 630 = 370, so the answer is 370.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+137. The remainder when x³ − 2x² + 3x − 4 is divided by (x − 2) is
+(a) 6 (b) 4 (c) 0 (d) 2
+Answer: (d)
+Solution: The trap 0 comes from assuming x = 2 is a root without checking. By the Remainder Theorem, substitute x = 2: 8 − 8 + 6 − 4 = 2, so the answer is 2.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+138. If (x − 2) is a factor of x³ − 3x² + kx − 2, then the value of k is
+(a) −5 (b) −3 (c) 5 (d) 3
+Answer: (d)
+Solution: The trap −3 comes from a sign slip while moving terms across the equation. By the Factor Theorem, f(2) = 0: 8 − 12 + 2k − 2 = 0, so 2k = 6 and k = 3, so the answer is 3.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+139. If a/b + b/a = 2, where a, b ≠ 0, then which of the following is true?
+(a) a = −b (b) a = b (c) a = 2b (d) ab = 1
+Answer: (b)
+Solution: The trap ab = 1 looks plausible because cross-multiplication involves ab, but it does not satisfy the equation in general. Multiplying by ab: a² + b² = 2ab, so (a − b)² = 0, giving a = b, so the answer is a = b.
+Source: NCERT Class 10 Mathematics (Quadratic Equations)
+
+140. The sum of the roots of the equation x² − (sum of roots)x + (product of roots) = 0, given that the roots are 4 and 7, is
+(a) 11 (b) 28 (c) 3 (d) 47
+Answer: (a)
+Solution: The trap 28 is the product of the roots, which students confuse with the sum. The equation is x² − 11x + 28 = 0, and the sum of roots is 4 + 7 = 11, so the answer is 11.
+Source: NCERT Class 10 Mathematics (Quadratic Equations)
+
+141. If x = 3 + 2√2, then the value of √x − 1/√x is
+(a) 2 (b) 2√2 (c) 4 (d) √2
+Answer: (a)
+Solution: The trap 2√2 comes from computing √x + 1/√x instead of the difference. Here x = (√2 + 1)², so √x = √2 + 1 and 1/√x = √2 − 1; the difference is 2, so the answer is 2.
+Source: NCERT Class 9 Mathematics (Number Systems)
+
+142. If a + b + c = 6 and a² + b² + c² = 14, then the value of ab + bc + ca is
+(a) 22 (b) 11 (c) 8 (d) 14
+Answer: (b)
+Solution: The trap 22 comes from forgetting the factor 2 in the expansion of (a + b + c)². Using (a + b + c)² = a² + b² + c² + 2(ab + bc + ca): 36 = 14 + 2(ab + bc + ca), so ab + bc + ca = 11, so the answer is 11.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+143. The quadratic equation whose roots are the reciprocals of the roots of x² − 5x + 6 = 0 is
+(a) x² + 5x + 6 = 0 (b) x² − 5x + 6 = 0 (c) 6x² + 5x + 1 = 0 (d) 6x² − 5x + 1 = 0
+Answer: (d)
+Solution: The trap x² − 5x + 6 = 0 tempts students who think reciprocal roots leave the equation unchanged. Original roots are 2 and 3; reciprocals are 1/2 and 1/3 with sum 5/6 and product 1/6, giving x² − (5/6)x + 1/6 = 0, i.e. 6x² − 5x + 1 = 0, so the answer is 6x² − 5x + 1 = 0.
+Source: NCERT Class 10 Mathematics (Quadratic Equations)
+
+144. If 3ˣ⁺¹ + 3ˣ = 108, then the value of x is
+(a) 3 (b) 4 (c) 2 (d) 5
+Answer: (a)
+Solution: The trap 4 comes from splitting 108 as 81 + 27 and misassigning the exponents. Factoring: 3ˣ(3 + 1) = 108, so 3ˣ = 27 = 3³, giving x = 3, so the answer is 3.
+Source: NCERT Class 9 Mathematics (Number Systems)
+
+145. If x² + y² = 25 and xy = 12, then the value of (x + y)² is
+(a) 49 (b) 37 (c) 25 (d) 61
+Answer: (a)
+Solution: The trap 37 comes from simply adding 25 and 12, forgetting that 2xy is needed. Using (x + y)² = x² + y² + 2xy = 25 + 24 = 49, so the answer is 49.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+146. The value of (0.75)³ + (0.25)³ + 3 × 0.75 × 0.25 × (0.75 + 0.25) is
+(a) 1 (b) 0.75 (c) 1.25 (d) 0.5
+Answer: (a)
+Solution: The trap 0.75 comes from computing only the first cube and ignoring the structure. The expression is the expansion of (0.75 + 0.25)³ = 1³ = 1, so the answer is 1.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+147. If x − 1/x = 4, then the value of x² + 1/x² is
+(a) 16 (b) 18 (c) 14 (d) 20
+Answer: (b)
+Solution: The trap 16 comes from squaring 4 and forgetting the sign change: with a minus in the given relation, the correction is +2, not −2. Squaring: x² + 1/x² − 2 = 16, so x² + 1/x² = 18, so the answer is 18.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+148. The number of real roots of the equation x² + 4x + 9 = 0 is
+(a) 0 (b) 1 (c) 2 (d) infinite
+Answer: (a)
+Solution: The trap 2 tempts students who assume every quadratic has two roots. The discriminant is 16 − 36 = −20 < 0, so there are no real roots, so the answer is 0.
+Source: NCERT Class 10 Mathematics (Quadratic Equations)
+
+149. If a = 7 − 4√3, then the value of √a + 1/√a is
+(a) 2√3 (b) 4 (c) 2 (d) 14
+Answer: (b)
+Solution: The trap 2√3 comes from computing √a − 1/√a instead of the sum. Here a = (2 − √3)², so √a = 2 − √3 and 1/√a = 2 + √3; the sum is 4, so the answer is 4.
+Source: NCERT Class 9 Mathematics (Number Systems)
+
+150. If x + y + z = 9 and xy + yz + zx = 26, then the value of x³ + y³ + z³ − 3xyz is
+(a) 54 (b) 81 (c) 9 (d) 27
+Answer: (d)
+Solution: The trap 81 comes from cubing 9 directly without applying the identity. Using x³ + y³ + z³ − 3xyz = (x + y + z)(x² + y² + z² − xy − yz − zx), where x² + y² + z² = 81 − 52 = 29, we get 9 × (29 − 26) = 27, so the answer is 27.
+Source: NCERT Class 9 Mathematics (Polynomials)

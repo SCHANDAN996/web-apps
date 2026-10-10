@@ -1,0 +1,151 @@
+प्रश्न 51–70: आसान | प्रश्न 71–75: मध्यम
+
+51. In a certain code language, "MOTHER" is written as "NPUIFS". How will "FATHER" be written in that code?
+(a) GBUIFS (b) GAUIFS (c) GBUIFR (d) GBTIFS
+Answer: (a)
+Solution: Each letter is shifted one step forward: M→N, O→P, T→U, H→I, E→F, R→S. The tempting option GBTIFS wrongly keeps T unchanged, but every letter must move forward by one, so the answer is GBUIFS.
+Source: PYQ-style
+
+52. In a certain code, "DELHI" is written as "CDKGH". How is "MUMBAI" written in that code?
+(a) LTLAZJ (b) LTLBZH (c) LTLAZH (d) NTLAZH
+Answer: (c)
+Solution: Each letter is shifted one step backward: D→C, E→D, L→K, H→G, I→H. The option NTLAZH wrongly shifts the first letter forward; the rule is uniformly minus one, so the answer is LTLAZH.
+Source: PYQ-style
+
+53. If "WATER" is coded as "XBUFS" and "FIRE" is coded as "GJSF", then how is "EARTH" coded?
+(a) FBSVH (b) FASUI (c) FBSUI (d) FBSUJ
+Answer: (c)
+Solution: Both examples shift every letter one step forward (W→X, A→B, F→G, I→J). The option FBSUJ wrongly shifts the last letter by two; the rule is plus one for all letters, so the answer is FBSUI.
+Source: PYQ-style
+
+54. In a code language, "ROSE" is written as "6821" and "CHAIR" is written as "73456". How will "SEARCH" be written?
+(a) 261473 (b) 214673 (c) 216743 (d) 216473
+Answer: (b)
+Solution: From ROSE: S=2, E=1; from CHAIR: A=4, R=6, C=7, H=3. So SEARCH = 2, 1, 4, 6, 7, 3. The trap option 216473 swaps the digits for A and R; matching each letter carefully, the answer is 214673.
+Source: PYQ-style
+
+55. In a certain code, "PAPER" is written as "OZODQ". How is "PENCIL" written in that code?
+(a) ODMBHK (b) ODMBHL (c) ODMCHK (d) PDMBHK
+Answer: (a)
+Solution: Each letter moves one step backward: P→O, A→Z, P→O, E→D, R→Q, so PENCIL becomes O, D, M, B, H, K. The trap option PDMBHK forgets to shift the first letter; applying minus one uniformly, the answer is ODMBHK.
+Source: PYQ-style
+
+56. If "TRAIN" is coded as "WUDLQ", how will "COACH" be coded?
+(a) FRDFK (b) FRDEK (c) FRDFJ (d) FQDFK
+Answer: (a)
+Solution: Each letter is shifted three steps forward: T→W, R→U, A→D, I→L, N→Q. The option FRDEK wrongly shifts the fourth letter by only two; the shift is uniformly three, so the answer is FRDFK.
+Source: PYQ-style
+
+57. In a certain code, "MANGO" is written as "NBOHP". How is "APPLE" written in that code?
+(a) BQPMF (b) BQQNF (c) BQQME (d) BQQMF
+Answer: (d)
+Solution: Each letter moves one step forward: M→N, A→B, N→O, G→H, O→P. Applying plus one to APPLE gives B, Q, Q, M, F. The trap option BQQNF shifts the fourth letter by two; with uniform plus one, the answer is BQQMF.
+Source: PYQ-style
+
+58. In a code, "BIRD" is written as "DKTF". How will "FISH" be written?
+(a) HKVJ (b) HKUJ (c) GKUJ (d) HKUK
+Answer: (b)
+Solution: Each letter moves two steps forward: B→D, I→K, R→T, D→F. The option HKUK shifts the last letter by three instead of two; the shift is uniformly two, so the answer is HKUJ.
+Source: PYQ-style
+
+59. If "CLOCK" is coded as "XOLXP", how is "WATCH" coded?
+(a) DZGXR (b) DZFXS (c) DZGXT (d) DZGXS
+Answer: (d)
+Solution: This is an opposite-letter (Atbash) code: C↔X, L↔O, O↔L, K↔P. Applying the same pairing to WATCH: W→D, A→Z, T→G, C→X, H→S. The trap option DZGXR wrongly pairs H with R; the correct opposite of H is S, so the answer is DZGXS.
+Source: PYQ-style
+
+60. In a certain code, "SCHOOL" is written as "TDIPPM". How is "COLLEGE" written?
+(a) DPMMFGF (b) DPMMFHE (c) DPMMFHF (d) DPMMFHG
+Answer: (c)
+Solution: Each letter shifts one step forward: S→T, C→D, H→I, O→P, L→M. So COLLEGE becomes D, P, M, M, F, H, F. The option DPMMFHG wrongly shifts the last letter by two; the rule is plus one throughout, so the answer is DPMMFHF.
+Source: PYQ-style
+
+61. In a code language, "123" means "hot filtered coffee", "356" means "very hot day" and "589" means "day and night". Which digit stands for "very"?
+(a) 6 (b) 5 (c) 3 (d) 9
+Answer: (a)
+Solution: Comparing the first two codes, "hot" is common and so is digit 3; comparing the last two, "day" is common and so is digit 5. Removing hot=3 and day=5 from "356" leaves very=6. The trap is picking 5, which actually stands for "day", so the answer is 6.
+Source: PYQ-style
+
+62. In a certain code, "pit na som" means "bring me water", "na jo tod" means "water is life", "tub od pit" means "give me toy" and "som tod" means "good life". Which word stands for "is"?
+(a) na (b) jo (c) tod (d) od
+Answer: (b)
+Solution: "water" is common to the first two sentences and the common code is "na"; "life" is common to the second and fourth sentences and the common code is "tod". Removing na=water and tod=life from "na jo tod" leaves jo=is. The trap is choosing "tod", which actually means "life", so the answer is jo.
+Source: PYQ-style
+
+63. If A = 1, B = 2, C = 3, and so on, then what is the code for the word "CAB" if the code is the sum of letter values?
+(a) 4 (b) 5 (c) 6 (d) 7
+Answer: (c)
+Solution: C = 3, A = 1, B = 2, so the sum is 3 + 1 + 2 = 6. The trap option 5 comes from miscounting C as 2; C is the third letter, so the answer is 6.
+Source: PYQ-style
+
+64. In a certain code, "ZEBRA" is written as "YDAQZ". How is "TIGER" written?
+(a) SHFDQ (b) SHFDR (c) SHGDQ (d) TJFDQ
+Answer: (a)
+Solution: Each letter moves one step backward: Z→Y, E→D, B→A, R→Q, A→Z (wrap-around). Applying minus one to TIGER gives S, H, F, D, Q. The trap option SHFDR forgets that R moves back to Q; applying the rule uniformly, the answer is SHFDQ.
+Source: PYQ-style
+
+65. In a code, "MASTER" is written as "NZHGVI". How is "DOCTOR" written?
+(a) WKXGLI (b) WLXGLI (c) WLXGLJ (d) WLXGMI
+Answer: (b)
+Solution: This is an opposite-letter code: M↔N, A↔Z, S↔H, T↔G, E↔V, R↔I. Applying it to DOCTOR: D→W, O→L, C→X, T→G, O→L, R→I. The trap option WKXGLI wrongly pairs O with K; the opposite of O is L, so the answer is WLXGLI.
+Source: PYQ-style
+
+66. If "GOOD" is coded as "HPPE", how is "BEST" coded?
+(a) CFTU (b) CFTV (c) CGTU (d) CFSU
+Answer: (a)
+Solution: Each letter moves one step forward: G→H, O→P, O→P, D→E. Applying plus one to BEST gives C, F, T, U. The trap option CFTV shifts the last letter by two; the rule is uniformly plus one, so the answer is CFTU.
+Source: PYQ-style
+
+67. In a certain code, "FAN" is written as "21" (sum of positions: 6+1+14). How is "CUP" written in that code?
+(a) 42 (b) 38 (c) 40 (d) 36
+Answer: (c)
+Solution: C = 3, U = 21, P = 16, so the sum is 3 + 21 + 16 = 40. The trap option 38 comes from taking U as 19 (confusing it with S); U is the 21st letter, so the answer is 40.
+Source: PYQ-style
+
+68. In a code language, "WATER" is written as "DZGVI". How is "CHAIR" written?
+(a) XSZRJ (b) XSZRI (c) XSZQI (d) XSZRH
+Answer: (b)
+Solution: This is an opposite-letter (Atbash) code: W↔D, A↔Z, T↔G, E↔V, R↔I. Applying it to CHAIR: C→X, H→S, A→Z, I→R, R→I. The trap option XSZRJ wrongly pairs R with J; the opposite of R is I, so the answer is XSZRI.
+Source: PYQ-style
+
+69. In a certain code, each letter is replaced by double its alphabet position, so "CAT" is coded as "6240" (C=3→6, A=1→2, T=20→40). How is "BED" coded?
+(a) 41028 (b) 4810 (c) 24108 (d) 4108
+Answer: (d)
+Solution: B = 2 → 4, E = 5 → 10, D = 4 → 8, so the code is 4, 10, 8 written together. The trap option 41028 inserts an extra digit by mishandling the doubling of B; B doubled is simply 4, so the answer is 4108.
+Source: PYQ-style
+
+70. In a certain code, "LIGHT" is written as "MJHIU". How is "DARK" written?
+(a) EBSL (b) EBSM (c) EASM (d) EBSN
+Answer: (a)
+Solution: Each letter moves one step forward: L→M, I→J, G→H, H→I, T→U. Applying plus one to DARK gives E, B, S, L. The trap option EBSM shifts the last letter by two; the rule is plus one, so the answer is EBSL.
+Source: PYQ-style
+
+71. In a code, "MOBILE" is written as "NPCJMF". How is "LAPTOP" written?
+(a) MBQUQQ (b) MBQUPQ (c) MBQUPP (d) MBQURQ
+Answer: (b)
+Solution: Each letter moves one step forward: M→N, O→P, B→C, I→J, L→M, E→F. Applying plus one to LAPTOP gives M, B, Q, U, P, Q. The trap option MBQUQQ swaps the last two letters; following the uniform plus-one rule, the answer is MBQUPQ.
+Source: PYQ-style
+
+72. If "SUN" is coded as "TVO", how is "MOON" coded?
+(a) NOPO (b) NPPQ (c) NQPO (d) NPPO
+Answer: (d)
+Solution: Each letter moves one step forward: S→T, U→V, N→O. Applying plus one to MOON gives N, P, P, O. The trap option NPPQ shifts the last letter by two; the rule is uniformly plus one, so the answer is NPPO.
+Source: PYQ-style
+
+73. In a certain code, "EXAM" is written as "FYBN". How is "TEST" written?
+(a) UGTU (b) UFTS (c) UFTV (d) UFTU
+Answer: (d)
+Solution: Each letter moves one step forward: E→F, X→Y, A→B, M→N. Applying plus one to TEST gives U, F, T, U. The trap option UFTV shifts the last letter by two; the rule is uniformly plus one, so the answer is UFTU.
+Source: PYQ-style
+
+74. In a code language, "KING" is written as "LJOH". How is "QUEEN" written?
+(a) RVEFO (b) RVFFP (c) RVFGO (d) RVFFO
+Answer: (d)
+Solution: Each letter moves one step forward: K→L, I→J, N→O, G→H. Applying plus one to QUEEN gives R, V, F, F, O. The trap option RVFFP shifts the last letter by two; the rule is plus one throughout, so the answer is RVFFO.
+Source: PYQ-style
+
+75. In a certain code, "PLANT" is written as "QMBOU". How is "FLOWER" written?
+(a) GMPWFS (b) GMPXFR (c) GMPXFS (d) GMPXFT
+Answer: (c)
+Solution: Each letter moves one step forward: P→Q, L→M, A→B, N→O, T→U. Applying plus one to FLOWER gives G, M, P, X, F, S. The trap option GMPXFR leaves the last letter unshifted — R shifted by one is S, not R; the rule is plus one for every letter, so the answer is GMPXFS.
+Source: PYQ-style

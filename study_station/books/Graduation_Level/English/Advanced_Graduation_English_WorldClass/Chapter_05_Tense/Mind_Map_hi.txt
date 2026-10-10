@@ -1,0 +1,42 @@
+```mermaid
+graph TD
+    A["काल (Tense)"] --> B["Present<br>वर्तमान काल"]
+    A --> C["Past<br>भूतकाल"]
+    A --> D["Future<br>भविष्यत काल"]
+
+    B --> B1["Simple Present<br>सत्य/आदत<br>V1/V1+s/es"]
+    B --> B2["Present Continuous<br>is/am/are + V-ing<br>अभी चल रहा"]
+    B --> B3["Present Perfect<br>has/have + V3<br>अभी-अभी पूरा"]
+    B --> B4["Present Perfect Continuous<br>has/have been + V-ing<br>since/for के साथ"]
+
+    C --> C1["Simple Past<br>V2<br>समाप्त क्रिया"]
+    C --> C2["Past Continuous<br>was/were + V-ing"]
+    C --> C3["Past Perfect<br>had + V3<br>दो क्रियाओं में पहली"]
+    C --> C4["Past Perfect Continuous<br>had been + V-ing"]
+
+    D --> D1["Simple Future<br>will/shall + V1"]
+    D --> D2["Future Continuous<br>will be + V-ing"]
+    D --> D3["Future Perfect<br>will have + V3"]
+    D --> D4["Future Perfect Continuous<br>will have been + V-ing"]
+
+    A --> E["स्वर्ण नियम"]
+    E --> E1["since = निश्चित समय<br>for = अवधि"]
+    E --> E2["if/when clause में<br>will नहीं, Simple Present"]
+    E --> E3["Universal Truth हमेशा<br>Simple Present"]
+    E --> E4["by/before + समय<br>→ Perfect Tense"]
+
+    A --> F["परीक्षक के जाल"]
+    F --> F1["Sound-Right जाल<br>सुनने में सही, नियम में गलत"]
+    F --> F2["Intervening Phrase<br>since/for भ्रम"]
+    F --> F3["Over-thinking<br>सरल वाक्य में Perfect लगाना"]
+    F --> F4["wish/if only के बाद<br>Past (काल्पनिक)"]
+
+    A --> G["रणनीति"]
+    G --> G1["15 सेकंड: तथ्यात्मक<br>समय-संकेतक पहचानो"]
+    G --> G2["45 सेकंड: तार्किक<br>दो क्रियाओं का क्रम"]
+    G --> G3["Skip: दोनों विकल्प<br>लगभग समान हों तो"]
+
+    A --> H["म्नेमोनिक"]
+    H --> H1["S-C-P-PC: Simple-Continuous<br>-Perfect-Perfect Continuous"]
+    H --> H2["SINCE बिंदु, FOR दूरी"]
+```

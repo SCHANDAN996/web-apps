@@ -1,0 +1,37 @@
+```mermaid
+graph TD
+    A["वर्गीकरण / Classification<br>विषम को पहचानो / Find the Odd One Out"] --> B["प्रकार / Types"]
+    A --> C["रणनीति / Strategy"]
+    A --> D["समय प्रबंधन / Time Management"]
+    A --> E["परीक्षक के जाल / Examiner Traps"]
+
+    B --> B1["शब्द वर्गीकरण<br>Word Classification"]
+    B --> B2["संख्या वर्गीकरण<br>Number Classification"]
+    B --> B3["अक्षर वर्गीकरण<br>Letter Classification"]
+
+    B1 --> B1a["अर्थ-आधारित समूह<br>Meaning-based groups<br>फल, पशु, पेशा, देश-राजधानी"]
+    B1 --> B1b["श्रेणी बनाम सदस्य<br>Category vs Member<br>गुलाब : फूल"]
+    B1 --> B1c["भाग बनाम समग्र<br>Part vs Whole"]
+
+    B2 --> B2a["अभाज्य / भाज्य<br>Prime / Composite"]
+    B2 --> B2b["वर्ग / घन ± k<br>Squares / Cubes ± k"]
+    B2 --> B2c["विभाज्यता नियम<br>Divisibility Rules"]
+    B2 --> B2d["अंकों का योग / गुणन<br>Sum / Product of Digits"]
+
+    B3 --> B3a["वर्णमाला स्थिति<br>Alphabet Positions"]
+    B3 --> B3b["स्वर / व्यंजन पैटर्न<br>Vowel / Consonant Pattern"]
+    B3 --> B3c["अंतर पैटर्न<br>Gap Pattern +2, +3..."]
+
+    C --> C1["चरण 1: सभी विकल्पों में<br>सामान्य गुण खोजें<br>Find common property"]
+    C --> C2["चरण 2: गुण की जाँच<br>4 में से 3 पर लागू करें"]
+    C --> C3["चरण 3: एक से अधिक गुण हो तो<br>सबसे विशिष्ट गुण चुनें<br>Choose most specific property"]
+
+    D --> D1["आसान प्रश्न: 15-20 सेकंड<br>Easy: 15-20 sec"]
+    D --> D2["कठिन प्रश्न: अधिकतम 45 सेकंड<br>Hard: max 45 sec"]
+    D --> D3["पहचान न हो तो छोड़ें<br>Skip if no pattern in 30 sec"]
+
+    E --> E1["लगभग-सही गुण<br>Near-correct property<br>सभी विषम हैं, एक सम है"]
+    E --> E2["दोहरे गुण का भ्रम<br>Two valid properties<br>विशिष्ट गुण ही उत्तर"]
+    E --> E3["सतही समानता<br>Superficial similarity<br>शब्द की लंबाई, अक्षर गिनती"]
+    E --> E4["संख्या में कई पैटर्न<br>Multiple number patterns<br>वर्ग और विषम दोनों लागू"]
+```

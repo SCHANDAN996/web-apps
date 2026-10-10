@@ -1,0 +1,66 @@
+```mermaid
+graph TD
+    A["भारतीय संविधान<br>Indian Constitution"] --> B["निर्माण<br>Formation"]
+    A --> C["स्रोत<br>Sources"]
+    A --> D["प्रस्तावना<br>Preamble"]
+    A --> E["भाग एवं अनुसूचियाँ<br>Parts & Schedules"]
+    A --> F["मौलिक अधिकार<br>Fundamental Rights"]
+    A --> G["मौलिक कर्तव्य<br>Fundamental Duties"]
+    A --> H["DPSP<br>नीति निदेशक तत्व"]
+    A --> I["संशोधन<br>Amendments"]
+    A --> J["परीक्षक के जाल<br>Examiner Traps"]
+
+    B --> B1["कैबिनेट मिशन 1946<br>Cabinet Mission"]
+    B --> B2["संविधान सभा पहली बैठक<br>9 दिसंबर 1946"]
+    B --> B3["अध्यक्ष: डॉ. राजेन्द्र प्रसाद<br>Chairman: Dr. Rajendra Prasad"]
+    B --> B4["मसौदा समिति: डॉ. भीमराव अंबेडकर<br>Drafting Committee: Dr. B.R. Ambedkar"]
+    B --> B5["अंगीकृत: 26 नवंबर 1949<br>Adopted: 26 Nov 1949"]
+    B --> B6["लागू: 26 जनवरी 1950<br>Enforced: 26 Jan 1950"]
+
+    C --> C1["ब्रिटेन: संसदीय प्रणाली<br>Britain: Parliamentary System"]
+    C --> C2["USA: मौलिक अधिकार, न्यायिक पुनरावलोकन<br>USA: FR, Judicial Review"]
+    C --> C3["आयरलैंड: DPSP<br>Ireland: Directive Principles"]
+    C --> C4["कनाडा: संघीय ढाँचा<br>Canada: Federal Structure"]
+    C --> C5["जर्मनी: आपातकाल<br>Germany: Emergency"]
+    C --> C6["ऑस्ट्रेलिया: समवर्ती सूची<br>Australia: Concurrent List"]
+    C --> C7["USSR: मौलिक कर्तव्य<br>USSR: Fundamental Duties"]
+
+    D --> D1["अमेरिकी संविधान से प्रेरित<br>Inspired by USA"]
+    D --> D2["42वाँ संशोधन 1976<br>42nd Amendment 1976"]
+    D --> D3["जोड़े गए शब्द: समाजवादी, धर्मनिरपेक्ष, अखंडता<br>Added: Socialist, Secular, Integrity"]
+    D --> D4["केशवानंद भारती केस 1973<br>Kesavananda Bharati Case"]
+
+    E --> E1["मूल: 22 भाग, 395 अनुच्छेद, 8 अनुसूचियाँ<br>Original: 22 Parts, 395 Articles, 8 Schedules"]
+    E --> E2["वर्तमान (2025 तक): 12 अनुसूचियाँ<br>Now (as of 2025): 12 Schedules"]
+    E --> E3["9वीं अनुसूची: पहला संशोधन 1951<br>9th Schedule: 1st Amendment"]
+    E --> E4["10वीं: दल-बदल (52वाँ, 1985)<br>10th: Anti-Defection"]
+    E --> E5["11वीं: पंचायत (73वाँ, 1992)<br>11th: Panchayats"]
+    E --> E6["12वीं: नगरपालिका (74वाँ, 1992)<br>12th: Municipalities"]
+
+    F --> F1["अनुच्छेद 12–35<br>Articles 12–35"]
+    F --> F2["समानता का अधिकार: 14–18<br>Equality: 14–18"]
+    F --> F3["स्वतंत्रता: 19–22<br>Freedom: 19–22"]
+    F --> F4["शोषण के विरुद्ध: 23–24<br>Against Exploitation: 23–24"]
+    F --> F5["धार्मिक स्वतंत्रता: 25–28<br>Religion: 25–28"]
+    F --> F6["संस्कृति-शिक्षा: 29–30<br>Cultural & Educational: 29–30"]
+    F --> F7["संवैधानिक उपचार: 32<br>Constitutional Remedies: 32"]
+    F --> F8["अंबेडकर: अनुच्छेद 32 = हृदय और आत्मा<br>Ambedkar: Art 32 = Heart & Soul"]
+
+    G --> G1["अनुच्छेद 51A, भाग IVA<br>Article 51A, Part IVA"]
+    G --> G2["42वाँ संशोधन 1976 (स्वर्ण सिंह समिति)<br>42nd Amendment (Swaran Singh Committee)"]
+    G --> G3["मूल 10, अब 11 (86वाँ संशोधन 2002)<br>Originally 10, now 11 (86th Amendment)"]
+
+    H --> H1["अनुच्छेद 36–51, भाग IV<br>Articles 36–51, Part IV"]
+    H --> H2["गैर-न्यायोचित<br>Non-justiciable"]
+    H --> H3["गांधीवादी, समाजवादी, उदारवादी तत्व<br>Gandhian, Socialist, Liberal"]
+
+    I --> I1["अनुच्छेद 368<br>Article 368"]
+    I --> I2["मूल ढाँचा सिद्धांत<br>Basic Structure Doctrine"]
+    I --> I3["42वाँ संशोधन = लघु संविधान<br>42nd = Mini Constitution"]
+
+    J --> J1["जाल: अंगीकृत 26 नवंबर बनाम लागू 26 जनवरी<br>Trap: Adopted vs Enforced dates"]
+    J --> J2["जाल: DPSP आयरलैंड से, कर्तव्य USSR से<br>Trap: DPSP-Ireland vs Duties-USSR"]
+    J --> J3["जाल: अनुच्छेद 32 बनाम 226<br>Trap: Art 32 vs Art 226"]
+    J --> J4["जाल: मूल 8 अनुसूचियाँ, अब 12<br>Trap: 8 vs 12 Schedules"]
+    J --> J5["रणनीति: तिथि-स्रोत-अनुच्छेद त्रिक याद करें<br>Strategy: Date-Source-Article triad"]
+```

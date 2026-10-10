@@ -1,0 +1,416 @@
+Practice Set 02 (Questions 26–50)
+
+Difficulty: Medium | Total Questions: 25
+Contains at least 2 trap questions marked with ⚠️.
+
+
+Q26. (Medium) ⚠️ Figure Series:
+Problem Figures:
+(i) A circle containing a single dot at the centre.
+(ii) Two concentric circles, no dot.
+(iii) A square containing a single dot at the centre.
+(iv) Two concentric squares, no dot.
+(v) ?
+(A) A triangle with a dot at the centre (B) Two concentric triangles, no dot (C) A square with a dot at the centre (D) A circle with a dot at the centre
+
+Answer: (A) A triangle with a dot at the centre
+
+Solution:
+Examiner's Trap: Odd positions (1, 3, 5): outer shape changes in sequence (circle → square → triangle) with a single central dot. Even positions (2, 4): concentric duplication of previous shape without dot. Step (v) is odd, requiring a triangle with a central dot. Hence, the correct option is (A).
+
+Source: SSC CGL
+
+Q27. (Medium) ⚠️ Classification (Odd One Out):
+Problem Figures:
+(1) A regular pentagon, all sides fully connected.
+(2) A rectangle with a tiny 1 mm gap in one corner.
+(3) A circle, fully closed.
+(4) A triangle, fully closed.
+(5) A hexagon, fully closed.
+(A) Figure 1 (B) Figure 2 (C) Figure 3 (D) Figure 4
+
+Answer: (B) Figure 2
+
+Solution:
+Examiner's Trap: All figures except Figure 2 are completely closed polygons or curves. The minute gap in Figure 2 makes it an open figure, making it the odd one out. Hence, the correct option is (B).
+
+Source: SSC CHSL
+
+Q28. (Medium) Figure Series (Rotation + Element Count):
+Problem Figures:
+(i) Equilateral triangle pointing up, with 1 small tail line at its base.
+(ii) Square pointing top-right (rotated 45°), with 2 tail lines at its base.
+(iii) Pentagon pointing right (rotated 90°), with 3 tail lines at its base.
+(iv) ?
+(A) Hexagon pointing right, 3 lines (B) Pentagon pointing right, 4 lines (C) Hexagon pointing bottom-right (rotated 135°), 4 lines (D) Square pointing top-right, 4 lines
+
+Answer: (C) Hexagon pointing bottom-right (rotated 135°), 4 lines
+
+Solution:
+Sides increase by 1 (3 → 4 → 5 → 6 = hexagon). Rotation is 45° clockwise per step (0° → 45° → 90° → 135° = bottom-right). Number of tail lines equals step number (1, 2, 3, 4). Step 4 is a hexagon pointing bottom-right with 4 lines. Hence, the correct option is (C).
+
+Source: SSC MTS
+
+Q29. (Medium) Figure Series (Shifting + Shading):
+Problem Figures:
+A square divided into a 2×2 grid (four small squares).
+(i) Top-left square is black, rest white.
+(ii) Top-right square is black, rest white.
+(iii) Bottom-right square is black, rest white.
+(iv) Bottom-left square is black, rest white.
+(v) ?
+(A) Centre is black (B) Top-right square is black (C) Bottom-right square is black (D) Top-left square is black
+
+Answer: (D) Top-left square is black
+
+Solution:
+The shaded square moves clockwise through the 4 positions: top-left → top-right → bottom-right → bottom-left → top-left. Hence, the correct option is (D).
+
+Source: RRB NTPC
+
+Q30. (Medium) Figure Series (Alternating Rotation & Mirror):
+Problem Figures:
+(i) Arrow pointing right.
+(ii) Arrow pointing left (mirror reflection).
+(iii) Arrow pointing up (rotated 90° anticlockwise from step 1).
+(iv) Arrow pointing down (mirror reflection of step 3).
+(v) ?
+(A) Arrow pointing left (B) Arrow pointing right (C) Arrow pointing up (D) Arrow pointing down
+
+Answer: (A) Arrow pointing left
+
+Solution:
+Odd positions (1, 3, 5): arrow rotates 90° anticlockwise (right → up → left). Even positions (2, 4): horizontal mirror of previous odd position. Position (v) is odd, rotating 90° anticlockwise from up to left. Hence, the correct option is (A).
+
+Source: RRB Group D
+
+Q31. (Medium) Classification (Odd One Out):
+Problem Figures:
+(1) A triangle with a line intersecting all three sides (3 intersection points).
+(2) A square with one diagonal (2 perimeter intersections).
+(3) A circle with a chord (2 intersections).
+(4) A pentagon with a line crossing two sides (2 intersections).
+(5) A hexagon with a line connecting two non-adjacent vertices (2 intersections).
+(A) Figure 2 (B) Figure 1 (C) Figure 3 (D) Figure 4
+
+Answer: (B) Figure 1
+
+Solution:
+All figures except Figure 1 have exactly two boundary intersection points with the traversing line, while Figure 1 has three intersection points, making Figure 1 the odd one out. Hence, the correct option is (B).
+
+Source: SSC CGL
+
+Q32. (Medium) Figure Series (Spiral Dot Addition):
+Problem Figures:
+A 3×3 grid of positions numbered 1 to 9 (row-wise from top-left).
+(i) Dot at position 1.
+(ii) Dots at positions 1, 2.
+(iii) Dots at positions 1, 2, 3.
+(iv) Dots at positions 1, 2, 3, 6.
+(v) ?
+(A) Dots at positions 1, 2, 3, 6, 4 (B) Dots at positions 1, 2, 3, 6, 5 (centre) (C) Dots at positions 1, 2, 3, 6, 9 (bottom-right) (D) Dots at all 9 positions
+
+Answer: (C) Dots at positions 1, 2, 3, 6, 9 (bottom-right)
+
+Solution:
+Dots are added in a clockwise spiral sequence along the perimeter: 1 → 2 → 3 → 6 → 9 → 8 → 7 → 4 → 5. Step (v) adds position 9. Hence, the correct option is (C).
+
+Source: SSC CHSL
+
+Q33. (Medium) Figure Series (Rotation + Shading):
+Problem Figures:
+A square containing a small circle. The circle is either black or white.
+(i) Circle at top-left, black.
+(ii) Circle at top-right, white.
+(iii) Circle at bottom-right, black.
+(iv) Circle at bottom-left, white.
+(v) ?
+(A) Circle at bottom-right, black (B) Circle at top-right, white (C) Circle at top-left, white (D) Circle at top-left, black
+
+Answer: (D) Circle at top-left, black
+
+Solution:
+The circle moves clockwise corner-to-corner (top-left → top-right → bottom-right → bottom-left → top-left). Color alternates (black → white → black → white → black). Step (v) is top-left, black. Hence, the correct option is (D).
+
+Source: SSC MTS
+
+Q34. (Medium) Classification (Odd One Out):
+Problem Figures:
+(1) A rectangle (2 lines of symmetry).
+(2) An isosceles triangle (1 line of symmetry).
+(3) A regular hexagon (6 lines of symmetry).
+(4) A square (4 lines of symmetry).
+(5) An equilateral triangle (3 lines of symmetry).
+(A) Figure 2 (B) Figure 1 (C) Figure 3 (D) Figure 4
+
+Answer: (A) Figure 2
+
+Solution:
+All figures except Figure 2 have multiple lines of symmetry. The isosceles triangle has only one line of symmetry, making Figure 2 the odd one out. Hence, the correct option is (A).
+
+Source: RRB NTPC
+
+Q35. (Medium) Figure Series (Independent Two-Element Motion):
+Problem Figures:
+A square containing a dot and a small triangle.
+(i) Dot at top-left; triangle at bottom-right pointing up.
+(ii) Dot at top-right; triangle at top-right pointing right.
+(iii) Dot at bottom-right; triangle at top-left pointing down.
+(iv) Dot at bottom-left; triangle at bottom-left pointing left.
+(v) ?
+(A) Dot at top-right; triangle at bottom-left pointing right (B) Dot at top-left; triangle at bottom-right pointing up (C) Dot at top-left; triangle at bottom-right pointing down (D) Dot at bottom-right; triangle at top-left pointing down
+
+Answer: (B) Dot at top-left; triangle at bottom-right pointing up
+
+Solution:
+The dot moves clockwise corner-to-corner (completing a full cycle at step 5 back to top-left). The triangle moves anticlockwise corner-to-corner and rotates 90° clockwise at each step (completing its cycle back to bottom-right pointing up). Hence, the correct option is (B).
+
+Source: RRB Group D
+
+Q36. (Medium) Figure Series (Mirror Alternation):
+Problem Figures:
+(i) Arrow pointing right.
+(ii) Arrow pointing left (mirror reflection across vertical axis).
+(iii) Arrow pointing up (rotated 90° anticlockwise from step 1).
+(iv) Arrow pointing down (mirror reflection of step 3).
+(v) ?
+(A) Arrow pointing right (B) Arrow pointing up (C) Arrow pointing left (D) Arrow pointing down
+
+Answer: (C) Arrow pointing left
+
+Solution:
+Odd positions follow a 90° anticlockwise rotation sequence: right → up → left. Even positions are the mirror reflections of preceding odd figures. Step (v) is odd, pointing left. Hence, the correct option is (C).
+
+Source: SSC CGL
+
+Q37. (Medium) Classification (Odd One Out):
+Problem Figures:
+(1) Square divided into 4 equal quadrants by 2 orthogonal lines.
+(2) Regular hexagon divided into 6 equal triangles by 3 diagonals.
+(3) Circle divided into 3 unequal parts by 2 parallel chords.
+(4) Equilateral triangle divided into 3 equal parts by 3 medians.
+(5) Regular octagon divided into 8 equal parts by 4 lines.
+(A) Figure 1 (B) Figure 2 (C) Figure 4 (D) Figure 3
+
+Answer: (D) Figure 3
+
+Solution:
+All figures except Figure 3 are divided into equal, congruent sectors, making Figure 3 the odd one out. Hence, the correct option is (D).
+
+Source: SSC CHSL
+
+Q38. (Medium) Figure Series (Element Replacement):
+Problem Figures:
+Four distinct symbols at the corners of a square: Triangle (top-left), Circle (top-right), Square (bottom-right), Cross (bottom-left).
+(i) Original configuration.
+(ii) Triangle replaced by Star; other 3 shift 1 position clockwise.
+(iii) Circle replaced by Diamond; other 3 shift 1 position clockwise.
+(iv) Square replaced by Heart; other 3 shift 1 position clockwise.
+(v) Cross replaced by Arrow; other 3 shift 1 position clockwise.
+Which symbol is now at the top-left corner?
+(A) Star (B) Diamond (C) Heart (D) Arrow
+
+Answer: (A) Star
+
+Solution:
+Tracking the replacement and cyclic shift: following the steps, Star shifts from position to position and returns to top-left at step 5. Hence, the correct option is (A).
+
+Source: SSC MTS
+
+Q39. (Medium) Figure Series (Clockwise Shading Progression):
+Problem Figures:
+A regular hexagon divided into 6 triangular sectors numbered 1 to 6 clockwise from top.
+(i) Sector 1 shaded.
+(ii) Sectors 1 and 2 shaded.
+(iii) Sectors 1, 2, and 3 shaded.
+(iv) Sectors 1, 2, 3, and 4 shaded.
+(v) ?
+(A) All 6 sectors shaded (B) Sectors 1, 2, 3, 4, 5 shaded (C) Sectors 2, 3, 4, 5 shaded (D) Only sector 5 shaded
+
+Answer: (B) Sectors 1, 2, 3, 4, 5 shaded
+
+Solution:
+One additional sector is shaded clockwise at each step (+1 sector). Step (v) shades sector 5 as well, making sectors 1 through 5 shaded. Hence, the correct option is (B).
+
+Source: RRB NTPC
+
+Q40. (Medium) Classification (Odd One Out):
+Problem Figures:
+(1) Regular triangle (all angles 60°).
+(2) Regular pentagon (all angles 108°).
+(3) Regular hexagon (all angles 120°).
+(4) Kite with angles 90°, 110°, 90°, 70°.
+(5) Regular octagon (all angles 135°).
+(A) Figure 1 (B) Figure 2 (C) Figure 4 (D) Figure 3
+
+Answer: (C) Figure 4
+
+Solution:
+All figures except Figure 4 are regular polygons. The kite is an irregular quadrilateral, making Figure 4 the odd one out. Hence, the correct option is (C).
+
+Source: RRB Group D
+
+Q41. (Medium) Figure Series (Line Addition + Rotation):
+Problem Figures:
+(i) A single vertical line segment.
+(ii) Two perpendicular lines forming an 'L' shape (rotated 90° clockwise).
+(iii) Three lines forming a 'U' shape (rotated 90° clockwise).
+(iv) Four lines forming an open square with one side missing.
+(v) ?
+(A) A circle (B) A pentagon with 5 lines (C) A triangle with 3 lines (D) A closed square rotated 90° clockwise
+
+Answer: (D) A closed square rotated 90° clockwise
+
+Solution:
+Each step adds 1 line segment and rotates the shape 90° clockwise. Step 5 adds the final segment to complete a closed square, rotated 90° clockwise. Hence, the correct option is (D).
+
+Source: SSC CGL
+
+Q42. (Medium) Figure Series (Counter-Moving Elements):
+Problem Figures:
+Inside a circle representing a clock face, a black dot moves clockwise and a white square moves anticlockwise.
+(i) Dot at 12, square at 12.
+(ii) Dot at 3, square at 9.
+(iii) Dot at 6, square at 6.
+(iv) Dot at 9, square at 3.
+(v) ?
+(A) Dot at 12, square at 12 (B) Dot at 3, square at 9 (C) Dot at 6, square at 6 (D) Dot at 9, square at 3
+
+Answer: (A) Dot at 12, square at 12
+
+Solution:
+The dot advances 90° clockwise per step (12 → 3 → 6 → 9 → 12). The square advances 90° anticlockwise per step (12 → 9 → 6 → 3 → 12). At step 5, both arrive back at 12. Hence, the correct option is (A).
+
+Source: SSC CHSL
+
+Q43. (Medium) Classification (Odd One Out):
+Problem Figures:
+(1) Convex pentagon.
+(2) Convex hexagon.
+(3) 5-pointed star (concave polygon with reflex angles).
+(4) Convex octagon.
+(5) Convex heptagon.
+(A) Figure 1 (B) Figure 3 (C) Figure 2 (D) Figure 4
+
+Answer: (B) Figure 3
+
+Solution:
+All figures except Figure 3 are convex polygons (no interior angle > 180°). The star (Figure 3) is a concave polygon containing reflex inward-pointing vertices. Hence, the correct option is (B).
+
+Source: SSC MTS
+
+Q44. (Medium) Figure Series (Alternate Enclosing and Deletion):
+Problem Figures:
+(i) A single circle.
+(ii) Circle containing an inner dot.
+(iii) Only the dot (outer circle removed).
+(iv) Dot enclosed inside a square.
+(v) ?
+(A) Circle containing an inner square (B) Square containing an inner dot (C) Only the square (inner dot removed) (D) Only the dot
+
+Answer: (C) Only the square (inner dot removed)
+
+Solution:
+Pattern rule: Step 1 = Outer shape. Step 2 = Add inner dot. Step 3 = Remove outer shape (leaving dot). Step 4 = Add new outer shape (square). Step 5 = Remove inner dot (leaving only the square). Hence, the correct option is (C).
+
+Source: RRB NTPC
+
+Q45. (Medium) Figure Series (Sector Shading Shift):
+Problem Figures:
+A circle divided into 8 equal sectors (like pizza slices) numbered 1 to 8 clockwise from top.
+(i) Sectors 1 and 2 shaded.
+(ii) Sectors 2 and 3 shaded.
+(iii) Sectors 3 and 4 shaded.
+(iv) Sectors 4 and 5 shaded.
+(v) ?
+(A) Sectors 1 and 2 shaded (B) Sectors 6 and 7 shaded (C) Sectors 4 and 5 shaded (D) Sectors 5 and 6 shaded
+
+Answer: (D) Sectors 5 and 6 shaded
+
+Solution:
+The pair of shaded sectors shifts 1 sector clockwise at each step. At step (v), sectors 5 and 6 are shaded. Hence, the correct option is (D).
+
+Source: RRB Group D
+
+Q46. (Medium) Classification (Odd One Out):
+Problem Figures:
+(1) Equilateral triangle with 1 vertical line of symmetry.
+(2) Square with both diagonals shown (lines of symmetry).
+(3) Rectangle with both axes of symmetry.
+(4) Regular pentagon with a vertical line of symmetry.
+(5) General non-rectangular parallelogram with a diagonal line.
+(A) Figure 5 (B) Figure 2 (C) Figure 3 (D) Figure 1
+
+Answer: (A) Figure 5
+
+Solution:
+All figures except Figure 5 possess line symmetry and their drawn lines are axes of symmetry. A general non-rectangular parallelogram has no line of symmetry. Hence, the correct option is (A).
+
+Source: SSC CGL
+
+Q47. (Medium) Figure Series (Mirror + Rotation):
+Problem Figures:
+A flag attached to a flagpole: flagpole vertical on left, flag extending to the right.
+(i) Pole on left, flag right.
+(ii) Mirror image: pole on right, flag left.
+(iii) Assembly rotated 90° clockwise (pole horizontal at top, flag hanging down).
+(iv) Mirror reflection of (iii) (pole horizontal at bottom, flag extending up).
+(v) ?
+(A) Pole vertical on left, flag pointing right (B) Pole vertical on right, flag pointing left (180° rotation of original) (C) Pole horizontal at top, flag down (D) Pole horizontal at bottom, flag up
+
+Answer: (B) Pole vertical on right, flag pointing left (180° rotation of original)
+
+Solution:
+Odd positions follow a 90° clockwise rotation: (i) = 0°, (iii) = 90°, (v) = 180° (pole vertical on right, flag extending left). Hence, the correct option is (B).
+
+Source: SSC CHSL
+
+Q48. (Medium) Figure Series (Three Independent Elements):
+Problem Figures:
+A square containing a dot, a small triangle, and a small circle.
+(i) Dot at top-left, triangle at top-right pointing up, circle at bottom-left.
+(ii) Dot at top-right, triangle at bottom-right pointing right, circle at top-left.
+(iii) Dot at bottom-right, triangle at bottom-left pointing down, circle at top-right.
+(iv) Dot at bottom-left, triangle at top-left pointing left, circle at bottom-right.
+(v) ?
+(A) Dot at bottom-right, triangle at bottom-left pointing down, circle at top-left (B) Dot at top-right, triangle at bottom-right pointing right, circle at bottom-left (C) Dot at top-left, triangle at top-right pointing up, circle at bottom-left (D) Dot at bottom-left, triangle at top-left pointing left, circle at top-right
+
+Answer: (C) Dot at top-left, triangle at top-right pointing up, circle at bottom-left
+
+Solution:
+All three elements cycle through corners clockwise: dot advances 1 corner, triangle advances 1 corner and rotates 90° clockwise, circle advances 1 corner clockwise. Step (v) returns to the initial configuration. Hence, the correct option is (C).
+
+Source: SSC MTS
+
+Q49. (Medium) ⚠️ Classification (Odd One Out):
+Problem Figures:
+Five visually near-identical squares, each containing a diagonal line from top-left to bottom-right.
+(1) Solid diagonal line touching both vertices exactly.
+(2) Solid diagonal line touching both vertices exactly.
+(3) Solid diagonal line with a microscopic 0.5 mm gap at the top-left vertex.
+(4) Solid diagonal line touching both vertices exactly.
+(5) Solid diagonal line touching both vertices exactly.
+(A) Figure 1 (B) Figure 2 (C) Figure 4 (D) Figure 3
+
+Answer: (D) Figure 3
+
+Solution:
+Examiner's Trap: In Figures 1, 2, 4, 5, the diagonal line touches the corners of the square. In Figure 3, there is a minute gap separating the line from the top-left corner, making it an open/disconnected line. Hence, the correct option is (D).
+
+Source: RRB NTPC
+
+Q50. (Medium) Figure Series (Alternating Expansion and Contraction):
+Problem Figures:
+(i) 1 circle.
+(ii) 2 concentric circles.
+(iii) 1 square.
+(iv) 2 concentric squares.
+(v) ?
+(A) 2 concentric triangles (B) 1 triangle (C) 1 circle (D) 2 circles
+
+Answer: (B) 1 triangle
+
+Solution:
+Odd positions show a single shape in order: circle → square → triangle. Even positions show concentric pairs. Step (v) is odd, requiring 1 single triangle. Hence, the correct option is (B).
+
+Source: RRB Group D

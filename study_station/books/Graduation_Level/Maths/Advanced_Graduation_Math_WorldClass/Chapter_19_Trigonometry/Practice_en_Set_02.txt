@@ -1,0 +1,149 @@
+26. If sin θ + cos θ = √2, then the value of sin θ · cos θ is
+(a) 1/4 (b) 1/2 (c) √2/2 (d) 1
+Answer: (b)
+Solution: Squaring both sides: (sin θ + cos θ)² = sin²θ + cos²θ + 2 sin θ cos θ = 1 + 2 sin θ cos θ = 2. So 2 sin θ cos θ = 1, giving sin θ cos θ = 1/2. The tempting wrong option is 1, which comes from forgetting to divide by 2 after subtracting 1 from 2. So the answer is 1/2.
+Source: NCERT Class 11 Mathematics
+
+27. The value of tan 1° · tan 2° · tan 3° … tan 89° is
+(a) 1 (b) 0 (c) √3 (d) undefined
+Answer: (a)
+Solution: Pair terms: tan k° · tan(90° − k°) = tan k° · cot k° = 1. There are 44 such pairs and the middle term tan 45° = 1, so the whole product is 1. The trap is thinking the product is undefined because tan 90° is undefined — but tan 90° never appears in the product. So the answer is 1.
+Source: PYQ-style
+
+28. If tan θ = 3/4 and θ lies in the third quadrant, then sin θ equals
+(a) −3/5 (b) 3/5 (c) 4/5 (d) −4/5
+Answer: (a)
+Solution: tan θ = 3/4 gives a 3-4-5 triangle, so |sin θ| = 3/5. In the third quadrant sine is negative, hence sin θ = −3/5. The trap is 3/5, which ignores the quadrant sign; in the third quadrant both sine and cosine are negative while tangent is positive. So the answer is −3/5.
+Source: NCERT Class 11 Mathematics
+
+29. The value of cos² 15° + cos² 75° is
+(a) 1 (b) 1/2 (c) 3/2 (d) 2
+Answer: (a)
+Solution: cos 75° = sin 15°, so cos² 15° + cos² 75° = cos² 15° + sin² 15° = 1. The tempting wrong option is 2, from wrongly adding the two squares as if each were 1. So the answer is 1.
+Source: NCERT Class 11 Mathematics
+
+30. If sin A = 1/2 and cos B = 1/2, with A and B acute, then A + B equals
+(a) 60° (b) 120° (c) 90° (d) 45°
+Answer: (c)
+Solution: sin A = 1/2 gives A = 30°, and cos B = 1/2 gives B = 60°, so A + B = 90°. The trap is 60°, obtained by taking both angles as 30° by misreading cos B = 1/2 as B = 30°. So the answer is 90°.
+Source: NCERT Class 10 Mathematics
+
+31. The value of sin 60° · cos 30° + cos 60° · sin 30° is
+(a) 1/2 (b) √3/2 (c) 1 (d) 0
+Answer: (c)
+Solution: This is sin(60° + 30°) = sin 90° = 1 by the sine addition formula. Directly: (√3/2)(√3/2) + (1/2)(1/2) = 3/4 + 1/4 = 1. The trap is √3/2, from computing only the first product. So the answer is 1.
+Source: NCERT Class 11 Mathematics
+
+32. If 2 sin²θ + 3 cos θ = 3, then cos θ equals
+(a) 1/2 or 1 (b) 1 (c) 1/2 (d) −1
+Answer: (a)
+Solution: Replace sin²θ = 1 − cos²θ: 2 − 2cos²θ + 3cos θ = 3, so 2cos²θ − 3cos θ + 1 = 0, factoring as (2cos θ − 1)(cos θ − 1) = 0. Hence cos θ = 1/2 or cos θ = 1. The trap is picking only 1/2 and missing the second root. So the answer is 1/2 or 1.
+Source: NCERT Class 11 Mathematics
+
+33. The maximum value of 3 sin θ + 4 cos θ is
+(a) √7 (b) 7 (c) 5 (d) 25
+Answer: (c)
+Solution: The maximum of a sin θ + b cos θ is √(a² + b²) = √(9 + 16) = √25 = 5. The tempting wrong option is 7, from simply adding 3 and 4, which is impossible since sine and cosine cannot both be 1 at the same angle. So the answer is 5.
+Source: NCERT Class 11 Mathematics
+
+34. If tan θ + cot θ = 2, then tan²θ + cot²θ equals
+(a) 4 (b) 2 (c) 0 (d) 1
+Answer: (b)
+Solution: Square the given equation: tan²θ + cot²θ + 2 tan θ cot θ = 4. Since tan θ · cot θ = 1, we get tan²θ + cot²θ = 4 − 2 = 2. The trap is 4, from forgetting to subtract the cross term 2. So the answer is 2.
+Source: PYQ-style
+
+35. The value of (1 + tan²θ) cos²θ is
+(a) tan²θ (b) sec²θ (c) cos²θ (d) 1
+Answer: (d)
+Solution: 1 + tan²θ = sec²θ, so the expression becomes sec²θ · cos²θ = 1. The trap is sec²θ, from stopping after applying the identity and forgetting to multiply by cos²θ. So the answer is 1.
+Source: NCERT Class 10 Mathematics
+
+36. From the top of a 60 m high tower, the angle of depression of a point on the ground is 30°. The distance of the point from the foot of the tower is
+(a) 60√3 m (b) 60 m (c) 20√3 m (d) 30 m
+Answer: (a)
+Solution: tan 30° = 60/d, so d = 60/tan 30° = 60√3 m. The trap is 20√3 m, which results from multiplying by tan 30° instead of dividing. So the answer is 60√3 m.
+Source: NCERT Class 10 Mathematics
+
+37. The value of sin² 45° + cos² 45° − tan² 45° is
+(a) 1 (b) −1 (c) 2 (d) 0
+Answer: (d)
+Solution: sin²45° + cos²45° = 1 and tan²45° = 1, so the expression is 1 − 1 = 0. The trap is 1, from forgetting that tan 45° = 1 and treating the last term as zero. So the answer is 0.
+Source: NCERT Class 10 Mathematics
+
+38. If cos θ = 5/13 and θ is acute, then the value of (sin θ − cos θ)/(sin θ + cos θ) is
+(a) 12/13 (b) 7/17 (c) 7/13 (d) 5/12
+Answer: (b)
+Solution: cos θ = 5/13 gives a 5-12-13 triangle, so sin θ = 12/13. Then (12/13 − 5/13)/(12/13 + 5/13) = (7/13)/(17/13) = 7/17. The trap is 7/13, from forgetting to divide by the denominator sum 17/13. So the answer is 7/17.
+Source: PYQ-style
+
+39. The value of tan 45°/(1 + tan² 45°) + cot 45°/(1 + cot² 45°) is
+(a) 1 (b) 1/2 (c) 2 (d) 0
+Answer: (a)
+Solution: tan 45° = cot 45° = 1, so each fraction is 1/(1 + 1) = 1/2, and the sum is 1. Alternatively, tan θ/(1 + tan²θ) = sin θ cos θ, so the sum is 2 sin 45° cos 45° = sin 90° = 1. The trap is 1/2, from computing only one of the two equal terms. So the answer is 1.
+Source: NCERT Class 11 Mathematics
+
+40. If sin θ − cos θ = 0, then the value of sin⁴θ + cos⁴θ is
+(a) 1 (b) 3/4 (c) 1/4 (d) 1/2
+Answer: (d)
+Solution: sin θ = cos θ means θ = 45°, so sin⁴θ + cos⁴θ = (1/√2)⁴ + (1/√2)⁴ = 1/4 + 1/4 = 1/2. The trap is 1, from wrongly assuming the sum of fourth powers also equals 1 like the sum of squares. So the answer is 1/2.
+Source: PYQ-style
+
+41. The angle of elevation of the sun when the shadow of a pole is √3 times its height is
+(a) 60° (b) 45° (c) 30° (d) 90°
+Answer: (c)
+Solution: tan θ = height/shadow = 1/√3, so θ = 30°. The trap is 60°, which comes from inverting the ratio and taking tan θ = √3. So the answer is 30°.
+Source: NCERT Class 10 Mathematics
+
+42. The value of cos 1° · cos 2° · cos 3° … cos 180° is
+(a) 1 (b) −1 (c) 1/2 (d) 0
+Answer: (d)
+Solution: The product contains cos 90° = 0, so the entire product is 0. The trap is 1, from wrongly pairing cos k° with cos(180° − k°) without noticing the zero factor. So the answer is 0.
+Source: PYQ-style
+
+43. If sec θ + tan θ = 5, then sec θ − tan θ equals
+(a) 1 (b) 5 (c) 1/5 (d) 25
+Answer: (c)
+Solution: Since sec²θ − tan²θ = 1, we have (sec θ + tan θ)(sec θ − tan θ) = 1, so sec θ − tan θ = 1/5. The trap is 5, from assuming the two expressions are equal rather than reciprocal. So the answer is 1/5.
+Source: NCERT Class 11 Mathematics
+
+44. The value of sin(45° + θ) − cos(45° − θ) is
+(a) 1 (b) 0 (c) 2 sin θ (d) √2 sin θ
+Answer: (b)
+Solution: cos(45° − θ) = sin(90° − (45° − θ)) = sin(45° + θ), so the two terms are equal and their difference is 0. The trap is 2 sin θ, from expanding both terms and making a sign error in the second expansion. So the answer is 0.
+Source: NCERT Class 11 Mathematics
+
+45. A ladder 10 m long leans against a wall making an angle of 60° with the ground. The height reached on the wall is
+(a) 5 m (b) 5√2 m (c) 10√3 m (d) 5√3 m
+Answer: (d)
+Solution: Height = 10 sin 60° = 10 × (√3/2) = 5√3 m. The trap is 5 m, which uses cos 60° (the distance from the wall) instead of sin 60°. So the answer is 5√3 m.
+Source: NCERT Class 10 Mathematics
+
+46. If 3 tan θ = 4, then the value of (3 sin θ + 2 cos θ)/(3 sin θ − 2 cos θ) is
+(a) 6 (b) 2 (c) 3 (d) 4/3
+Answer: (c)
+Solution: Divide numerator and denominator by cos θ: (3 tan θ + 2)/(3 tan θ − 2) = (4 + 2)/(4 − 2) = 6/2 = 3. The trap is 6, from forgetting to divide by the denominator after computing the numerator as 6. So the answer is 3.
+Source: PYQ-style
+
+47. The value of (sin 30° + cos 60°)/(tan 45° + cot 45°) is
+(a) 1/2 (b) 1 (c) 2 (d) 1/4
+Answer: (a)
+Solution: sin 30° = 1/2, cos 60° = 1/2, so the numerator is 1; tan 45° = 1, cot 45° = 1, so the denominator is 2. The value is 1/2. The trap is 1, from taking the denominator as 1 by treating tan 45° + cot 45° as a single unit. So the answer is 1/2.
+Source: NCERT Class 10 Mathematics
+
+48. If sin θ = 3/5 and θ is in the second quadrant, then tan θ equals
+(a) 3/4 (b) −4/3 (c) 4/3 (d) −3/4
+Answer: (d)
+Solution: sin θ = 3/5 gives |cos θ| = 4/5, and in the second quadrant cosine is negative, so tan θ = (3/5)/(−4/5) = −3/4. The trap is 3/4, which ignores the quadrant sign of cosine. So the answer is −3/4.
+Source: NCERT Class 11 Mathematics
+
+49. The value of tan 10° · tan 20° · tan 70° · tan 80° is
+(a) 0 (b) 1 (c) √3 (d) 1/√3
+Answer: (b)
+Solution: Pair complementary angles: tan 10° · tan 80° = tan 10° · cot 10° = 1 and tan 20° · tan 70° = tan 20° · cot 20° = 1, so the product is 1. The trap is √3, from confusing this with tan 60° which does not appear here. So the answer is 1.
+Source: PYQ-style
+
+50. If cos A + cos²A = 1, then the value of sin²A + sin⁴A is
+(a) 1/2 (b) 1 (c) 2 (d) 0
+Answer: (b)
+Solution: From cos A + cos²A = 1, we get cos A = 1 − cos²A = sin²A. Then sin²A + sin⁴A = cos A + cos²A = 1. The trap is 1/2, from substituting a specific angle like 45° which does not satisfy the given condition. So the answer is 1.
+Source: PYQ-style

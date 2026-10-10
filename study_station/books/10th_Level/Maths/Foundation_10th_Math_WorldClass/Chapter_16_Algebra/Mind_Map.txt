@@ -1,25 +1,25 @@
 ```mermaid
 graph TD
     R["🧩 बीजगणित<br>Algebra"]
-    R --> B["🔤 मूल बातें"]
+    R --> B["🔤 मूल बातें<br>Basics"]
     R --> I["📜 सर्वसमिकाएँ<br>Identities"]
-    R --> E["⚖️ समीकरण"]
+    R --> E["⚖️ समीकरण<br>Equations"]
     R --> P["📈 बहुपद<br>Polynomials"]
 
-    B --> B1["चर x, y —<br>अचर 2, 5, π"]
-    B --> B2["पद, गुणांक, घात"]
+    B --> B1["चर x, y — अचर 2, 5, π<br>Variables & Constants"]
+    B --> B2["पद, गुणांक, घात<br>Terms, Coefficients, Powers"]
 
-    I --> I1["a+b का वर्ग =<br>a² + 2ab + b²"]
-    I --> I2["a−b का वर्ग =<br>a² − 2ab + b²"]
-    I --> I3["a² − b² =<br>a+b × a−b"]
-    I --> I4["a³ + b³ और a³ − b³<br>के सूत्र"]
-    I --> I5["x + 1/x वाले प्रश्न:<br>वर्ग करके निकालो"]
+    I --> I1["(a+b)² = a² + 2ab + b²"]
+    I --> I2["(a−b)² = a² − 2ab + b²"]
+    I --> I3["a² − b² = (a+b)(a−b)"]
+    I --> I4["a³ + b³ और a³ − b³<br>के सूत्र / Cube Formulas"]
+    I --> I5["x + 1/x वाले प्रश्न:<br>वर्ग करके निकालो<br>Square to Solve"]
 
-    E --> E1["रैखिक समीकरण:<br>एक चर, घात 1"]
-    E --> E2["युगपत समीकरण:<br>विलोपन / प्रतिस्थापन"]
-    E --> E3["द्विघात: ax² + bx + c = 0<br>श्रीधराचार्य सूत्र"]
-    E --> E4["मूलों का योग = −b/a<br>गुणनफल = c/a"]
+    E --> E1["रैखिक समीकरण: एक चर, घात 1<br>Linear Equation"]
+    E --> E2["युगपत समीकरण: विलोपन / प्रतिस्थापन<br>Simultaneous Equations"]
+    E --> E3["द्विघात: ax² + bx + c = 0<br>श्रीधराचार्य सूत्र / Quadratic Formula"]
+    E --> E4["मूलों का योग = −b/a<br>गुणनफल = c/a<br>Sum & Product of Roots"]
 
-    P --> P1["शेषफल प्रमेय"]
-    P --> P2["गुणनखंड प्रमेय:<br>p(a) = 0 तो x−a गुणनखंड"]
+    P --> P1["शेषफल प्रमेय<br>Remainder Theorem"]
+    P --> P2["गुणनखंड प्रमेय: p(a) = 0<br>तो x−a गुणनखंड<br>Factor Theorem"]
 ```

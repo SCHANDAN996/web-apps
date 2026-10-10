@@ -1,0 +1,47 @@
+# Paper Folding & Cutting — The Feynman Method
+
+## The Hard Concept: The Hard Part of Paper Folding & Cutting
+
+Imagine you are making a paper plane. You fold a flat sheet, and something interesting happens: the paper is still the same 2D sheet, but every fold creates a **line of symmetry**. Whatever you do on one side of the fold gets **mirrored** on the other side when you unfold it.
+
+That single idea — *a fold is a mirror* — is the whole secret of this chapter. The hard part is not the folding; it is keeping track of **how many mirrors** you have created and **in which order** they reflect.
+
+## Explain It Like You're Teaching a Friend
+
+Take a square sheet of paper.
+
+1. **Fold it once** (say, left half onto right half). Now punch one hole through the folded paper. When you open it, how many holes do you see? **Two** — because the fold acted like a mirror, and the punch went through two layers.
+2. **Fold it twice** (left to right, then top to bottom). Now the paper has **four layers**. One punch = **four holes** when unfolded, placed symmetrically about both fold lines.
+3. **The rule:** each fold doubles the number of layers (if the fold covers the whole sheet). So *n* full folds → 2ⁿ layers → one punch makes 2ⁿ holes.
+
+Cutting works the same way. If you cut a shape along a folded edge, the unfolded paper shows that shape **reflected** across the fold line — like a butterfly's two wings.
+
+## The Order Matters
+
+Folds are undone in **reverse order** — the last fold is opened first. So when you track a hole or a cut:
+
+- Start from the final folded figure.
+- Unfold the **last** fold first: mirror every hole/cut across that fold line.
+- Then unfold the next fold: mirror **all** the holes (old + new) across that line.
+- Repeat until the sheet is fully open.
+
+Skipping the reverse order is the most common mistake in exams.
+
+## Cutting on a Fold Edge vs. Away from It
+
+- **Cut on the fold line:** the shape opens into a symmetric figure (a half-heart cut on the fold becomes a full heart).
+- **Cut away from the fold:** the shape appears as two (or more) separate mirror copies.
+
+## Quick Self-Test (Explain Aloud)
+
+Without looking above, explain to an imaginary student:
+
+1. Why does one punch make 4 holes after two folds?
+2. Why must you unfold in reverse order?
+3. A circle is punched near a corner of a twice-folded square — where will the four holes appear?
+
+If you can answer all three in simple words — *layers double, mirrors reflect, last fold opens first* — you have truly understood the concept. If you stumble, go back to the step where your explanation broke and rebuild it. That is the Feynman Method: **if you can't explain it simply, you haven't understood it yet.**
+
+## One-Line Summary
+
+**Every fold is a mirror; every punch multiplies by the number of layers; always unfold in reverse order.**

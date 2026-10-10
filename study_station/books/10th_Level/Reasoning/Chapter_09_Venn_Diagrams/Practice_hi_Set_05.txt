@@ -1,0 +1,194 @@
+प्रश्न 101–115: मध्यम | प्रश्न 116–125: कठिन
+
+101. शर्ट, कपास, कपड़ा के बीच संबंध को सर्वोत्तम रूप से दर्शाने वाला वेन आरेख कौन-सा है?
+Which of the following Venn diagrams best represents the relationship among: *Shirt, Cotton, Fabric*?
+(a) कपास कपड़ा के अंदर, शर्ट कपड़े को काटता हुआ (Cotton inside Fabric, Shirt overlapping Fabric) (b) शर्ट कपड़ा के अंदर, कपास कपड़ा के अंदर, दोनों अलग (Shirt inside Fabric, Cotton inside Fabric, separate) (c) शर्ट कपास के अंदर, कपास कपड़ा के अंदर (Shirt inside Cotton, Cotton inside Fabric) (d) कपास कपड़ा के अंदर, शर्ट अलग (Cotton inside Fabric, Shirt separate)
+उत्तर: (a)
+हल: All cotton is fabric. Shirt is made of fabric; some shirts are cotton, some not. So Shirt partially overlaps Fabric, and Cotton is a subset of Fabric.
+स्रोत: PYQ-शैली
+
+102. बाघ, मांसाहारी, शाकाहारी के लिए सही वेन आरेख चुनें।
+Choose the Venn diagram for *Tiger, Carnivore, Herbivore*।
+(a) बाघ मांसाहारी के अंदर, मांसाहारी और शाकाहारी काटते हुए (Tiger inside Carnivore, Carnivore and Herbivore overlapping) (b) बाघ मांसाहारी के अंदर, मांसाहारी और शाकाहारी अलग (Tiger inside Carnivore, Carnivore and Herbivore separate) (c) बाघ मांसाहारी और शाकाहारी दोनों के अंदर (Tiger inside both Carnivore and Herbivore) (d) बाघ मांसाहारी के अंदर, शाकाहारी मांसाहारी के अंदर (Tiger inside Carnivore, Herbivore inside Carnivore)
+उत्तर: (b)
+हल: All tigers are carnivores. Carnivores and herbivores are disjoint categories. So separate circles, Tiger inside Carnivore.
+स्रोत: PYQ-शैली
+
+103. 300 लोगों के समूह में 180 हिंदी, 140 अंग्रेजी, 80 दोनों जानते हैं। कितने कोई भी नहीं जानते?
+In a group of 300 people, 180 know Hindi, 140 know English, 80 know both. How many know neither?
+(a) 40 (b) 50 (c) 60 (d) 70
+उत्तर: (c)
+हल: n(H ∪ E) = 180+140-80 = 240. Neither = 300-240 = 60.
+स्रोत: PYQ-शैली
+
+104. दिए गए वेन आरेख में त्रिभुज = इंजीनियर, वर्ग = MBA, वृत्त = अनुभवी। संख्याएँ: केवल इंजीनियर=15, केवल MBA=12, केवल अनुभवी=18, इंजीनियर और MBA केवल=7, MBA और अनुभवी केवल=6, इंजीनियर और अनुभवी केवल=9, तीनों=5। कितने इंजीनियर या अनुभवी हैं लेकिन MBA नहीं?
+In the given Venn diagram, triangle = Engineers, square = MBAs, circle = Experienced. Numbers: only Engineers=15, only MBAs=12, only Experienced=18, Engineers & MBAs only=7, MBAs & Exp only=6, Engineers & Exp only=9, all three=5. How many are engineers or experienced but not MBAs?
+(a) 47 (b) 39 (c) 45 (d) 42
+उत्तर: (d)
+हल: Engineers or Experienced but not MBAs = only Engineers (15) + only Experienced (18) + (Engineers & Exp only) (9) = 42.
+स्रोत: PYQ-शैली
+
+105. [जाल] *कुर्सी, मेज़, लकड़ी के लिए कौन-सा वेन आरेख सही है?*
+Which Venn diagram represents the sets *Chair, Table, Wood*?
+(a) कुर्सी और मेज़ अलग, लकड़ी दोनों को काटती हुई (Chair and Table separate, Wood overlapping both) (b) कुर्सी और मेज़ लकड़ी के अंदर, अलग-अलग (Chair and Table inside Wood, separate) (c) कुर्सी और मेज़ लकड़ी को काटते हुए, तीनों काटते हुए (Chair and Table overlapping Wood, all three overlap) (d) कुर्सी मेज़ के अंदर, लकड़ी अलग (Chair inside Table, Wood separate)
+उत्तर: (a)
+हल: Chair and Table are distinct furniture items (disjoint). Wood is a material; not all chairs/tables are wooden, so Wood overlaps both. Trap: Many students wrongly place Chair and Table inside Wood, implying all chairs and tables are wooden.
+स्रोत: PYQ-शैली
+
+106. कथन: कुछ फूल लाल हैं। सभी लाल चीज़ें रंगीन हैं। कोई रंगीन चीज़ अदृश्य नहीं है।
+निष्कर्ष: I. कुछ फूल रंगीन हैं। II. कोई लाल चीज़ अदृश्य नहीं है।
+Statements: Some flowers are red. All red things are coloured. No coloured thing is invisible.
+Conclusions: I. Some flowers are coloured. II. No red thing is invisible.
+(a) केवल I अनुसरण करता है (b) दोनों अनुसरण करते हैं (c) केवल II अनुसरण करता है (d) कोई भी अनुसरण नहीं करता
+उत्तर: (b)
+हल: I: Some flowers are red, all red are coloured → those flowers are coloured. True. II: All red are coloured, coloured ∩ invisible = ∅ → red ∩ invisible = ∅. True.
+स्रोत: PYQ-शैली
+
+107. वेन आरेख में X = धूम्रपान करने वाले, Y = शराब पीने वाले, Z = अधिक वज़न वाले। संख्याएँ: केवल X=9, केवल Y=11, केवल Z=14, X∩Y केवल=5, Y∩Z केवल=7, X∩Z केवल=4, तीनों=3। ठीक दो कितने हैं?
+In a Venn diagram, circle X = Smokers, circle Y = Drinkers, circle Z = Overweight. Numbers: only X=9, only Y=11, only Z=14, X∩Y only=5, Y∩Z only=7, X∩Z only=4, all three=3. How many are exactly two of these?
+(a) 19 (b) 12 (c) 16 (d) 15
+उत्तर: (c)
+हल: Exactly two = 5+7+4 = 16.
+स्रोत: PYQ-शैली
+
+108. गाजर, सब्जी, संतरा के लिए सही विकल्प कौन-सा है?
+Which option correctly shows *Carrot, Vegetable, Orange*?
+(a) गाजर सब्जी के अंदर, संतरा सब्जी के अंदर (Carrot inside Vegetable, Orange inside Vegetable) (b) गाजर और संतरा सब्जी के अंदर, अलग-अलग (Carrot and Orange inside Vegetable, separate) (c) गाजर सब्जी के अंदर, संतरा सब्जी को काटता हुआ (Carrot inside Vegetable, Orange overlapping Vegetable) (d) गाजर सब्जी के अंदर, संतरा अलग (Carrot inside Vegetable, Orange separate)
+उत्तर: (d)
+हल: Carrot is a vegetable. Orange is a fruit, not a vegetable. So Carrot ⊆ Vegetable, Orange separate.
+स्रोत: PYQ-शैली
+
+109. कथन: सभी बिल्लियाँ स्तनधारी हैं। कुछ स्तनधारी पालतू हैं। कोई पालतू जंगली नहीं है।
+निष्कर्ष: I. कुछ बिल्लियाँ पालतू हैं। II. कुछ स्तनधारी जंगली नहीं हैं।
+Statements: All cats are mammals. Some mammals are pets. No pet is wild.
+Conclusions: I. Some cats are pets. II. Some mammals are not wild.
+(a) केवल II अनुसरण करता है (b) केवल I अनुसरण करता है (c) दोनों अनुसरण करते हैं (d) कोई भी अनुसरण नहीं करता
+उत्तर: (a)
+हल: I: Cats may not overlap pets. Not definite. II: Some mammals are pets, pets are not wild → those mammals are not wild. True.
+स्रोत: PYQ-शैली
+
+110. एक सर्वेक्षण में 75% कॉफी, 65% चाय, 50% दोनों पसंद करते हैं। कितने प्रतिशत कोई भी पसंद नहीं करते?
+In a survey, 75% like coffee, 65% like tea, 50% like both. What percentage like neither?
+(a) 5% (b) 10% (c) 15% (d) 20%
+उत्तर: (b)
+हल: n(C ∪ T) = 75+65-50 = 90%. Neither = 10%.
+स्रोत: PYQ-शैली
+
+111. कथन: कुछ किताबें उपन्यास हैं। सभी उपन्यास कथाएँ हैं। कोई कथा जीवनी नहीं है।
+निष्कर्ष: I. कुछ किताबें कथाएँ हैं। II. कुछ जीवनियाँ उपन्यास नहीं हैं।
+Statements: Some books are novels. All novels are fictions. No fiction is a biography.
+Conclusions: I. Some books are fictions. II. Some biographies are not novels.
+(a) केवल I अनुसरण करता है (b) केवल II अनुसरण करता है (c) दोनों अनुसरण करते हैं (d) कोई भी अनुसरण नहीं करता
+उत्तर: (c)
+हल: I: Some books are novels, novels ⊆ fictions → those books are fictions. True. II: Novels ⊆ fictions, fictions ∩ biographies = ∅ → no novel is a biography, so some biographies are not novels (all). True.
+स्रोत: PYQ-शैली
+
+112. पुलिस, चोर, अपराधी के लिए सबसे उपयुक्त वेन आरेख कौन-सा है?
+Which Venn diagram best fits *Police, Thief, Criminal*?
+(a) चोर अपराधी के अंदर, पुलिस अपराधी को काटता हुआ (Thief inside Criminal, Police overlapping Criminal) (b) पुलिस अपराधी के अंदर, चोर अपराधी के अंदर, अलग (Police inside Criminal, Thief inside Criminal, separate) (c) चोर पुलिस के अंदर, अपराधी अलग (Thief inside Police, Criminal separate) (d) चोर अपराधी के अंदर, पुलिस अलग (Thief inside Criminal, Police separate)
+उत्तर: (d)
+हल: All thieves are criminals. Police are law enforcers, not criminals. So Thief ⊆ Criminal, Police separate.
+स्रोत: PYQ-शैली
+
+113. दिए गए चित्र में त्रिभुज = पुरुष, वर्ग = खिलाड़ी, वृत्त = कोच। संख्याएँ: केवल पुरुष=22, केवल खिलाड़ी=16, केवल कोच=14, पुरुष और खिलाड़ी केवल=9, खिलाड़ी और कोच केवल=6, पुरुष और कोच केवल=8, तीनों=4। कितने खिलाड़ी नहीं हैं?
+In the given figure, triangle = Males, square = Players, circle = Coaches. Numbers: only Males=22, only Players=16, only Coaches=14, Males & Players only=9, Players & Coaches only=6, Males & Coaches only=8, all three=4. How many are not players?
+(a) 44 (b) 48 (c) 40 (d) 36
+उत्तर: (a)
+हल: Not players = only Males (22) + only Coaches (14) + (Males & Coaches only) (8) = 44.
+स्रोत: PYQ-शैली
+
+114. कथन: सभी कुर्सियाँ फर्नीचर हैं। कुछ फर्नीचर लकड़ी का है। कोई लकड़ी की चीज़ प्लास्टिक नहीं है।
+निष्कर्ष: I. कुछ कुर्सियाँ लकड़ी की हैं। II. कुछ फर्नीचर प्लास्टिक नहीं है।
+Statements: All chairs are furniture. Some furniture is wooden. No wooden thing is plastic.
+Conclusions: I. Some chairs are wooden. II. Some furniture is not plastic.
+(a) केवल I अनुसरण करता है (b) केवल II अनुसरण करता है (c) दोनों अनुसरण करते हैं (d) कोई भी अनुसरण नहीं करता
+उत्तर: (b)
+हल: Chairs ⊆ Furniture. Some furniture wooden, but chairs may be entirely non-wooden. I false. II: Wooden furniture is not plastic, so some furniture is not plastic. True.
+स्रोत: PYQ-शैली
+
+115. 150 छात्रों की कक्षा में 90 अंग्रेजी में, 80 हिंदी में, 70 दोनों में उत्तीर्ण हुए। दोनों में अनुत्तीर्ण कितने हैं?
+In a class of 150 students, 90 passed in English, 80 passed in Hindi, 70 passed in both. How many failed in both?
+(a) 40 (b) 30 (c) 50 (d) 60
+उत्तर: (c)
+हल: Passed in at least one = 90+80-70 = 100. Failed in both = 150-100 = 50.
+स्रोत: PYQ-शैली
+
+116. [जाल] *डॉक्टर, स्टेथोस्कोप, नर्स के लिए सही वेन आरेख कौन-सा है?*
+Which Venn diagram represents *Doctor, Stethoscope, Nurse*?
+(a) डॉक्टर और नर्स अलग, स्टेथोस्कोप डॉक्टर को काटता हुआ (Doctor and Nurse separate, Stethoscope overlapping Doctor) (b) डॉक्टर और नर्स स्टेथोस्कोप के अंदर (Doctor and Nurse inside Stethoscope) (c) डॉक्टर स्टेथोस्कोप के अंदर, नर्स अलग (Doctor inside Stethoscope, Nurse separate) (d) तीन अलग-अलग वृत्त (Three separate circles)
+उत्तर: (d)
+हल: Doctor (person), stethoscope (tool), nurse (person) are distinct classes. No class overlap; functional association irrelevant. Trap: Real-life association (doctor uses stethoscope, nurse assists) leads to wrong choices like (A) or (C).
+स्रोत: PYQ-शैली
+
+117. कथन: कुछ कुत्ते मित्रवत हैं। सभी मित्रवत जानवर पालतू हैं। कोई पालतू खतरनाक नहीं है।
+निष्कर्ष: I. कुछ कुत्ते पालतू हैं। II. कुछ मित्रवत जानवर खतरनाक नहीं हैं।
+Statements: Some dogs are friendly. All friendly animals are pets. No pet is dangerous.
+Conclusions: I. Some dogs are pets. II. Some friendly animals are not dangerous.
+(a) दोनों अनुसरण करते हैं (b) केवल I अनुसरण करता है (c) केवल II अनुसरण करता है (d) कोई भी अनुसरण नहीं करता
+उत्तर: (a)
+हल: I: Some dogs are friendly, friendly ⊆ pets → those dogs are pets. True. II: Friendly ⊆ pets, pets ∩ dangerous = ∅ → no friendly is dangerous, so some are not dangerous (all). True.
+स्रोत: PYQ-शैली
+
+118. आँख, नाक, चेहरा के लिए वेन आरेख चुनें।
+Choose the diagram for *Eye, Nose, Face*।
+(a) आँख नाक के अंदर, नाक चेहरा के अंदर (Eye inside Nose, Nose inside Face) (b) आँख और नाक चेहरा के अंदर, अलग-अलग (Eye and Nose inside Face, separate) (c) चेहरा आँख के अंदर, नाक अलग (Face inside Eye, Nose separate) (d) आँख और नाक चेहरा के अंदर, काटते हुए (Eye and Nose overlapping inside Face)
+उत्तर: (b)
+हल: Eye and nose are distinct parts of the face; they are disjoint subsets of Face.
+स्रोत: PYQ-शैली
+
+119. कथन: कोई नदी झील नहीं है। सभी झीलें जलाशय हैं। कुछ जलाशय महासागर हैं।
+निष्कर्ष: I. कुछ जलाशय नदियाँ नहीं हैं। II. कुछ महासागर नदियाँ नहीं हैं।
+Statements: No river is a lake. All lakes are water bodies. Some water bodies are oceans.
+Conclusions: I. Some water bodies are not rivers. II. Some oceans are not rivers.
+(a) केवल II अनुसरण करता है (b) दोनों अनुसरण करते हैं (c) केवल I अनुसरण करता है (d) कोई भी अनुसरण नहीं करता
+उत्तर: (c)
+हल: I: Lakes are water bodies and not rivers → some water bodies are not rivers. True. II: Oceans could intersect rivers; not definite.
+स्रोत: PYQ-शैली
+
+120. वेन आरेख में A = गायक, B = नर्तक, C = अभिनेता। संख्याएँ: केवल A=10, केवल B=12, केवल C=14, A∩B केवल=5, B∩C केवल=7, A∩C केवल=8, तीनों=3। कुल कितने हैं?
+In the Venn diagram, circle A = Singers, circle B = Dancers, circle C = Actors. Numbers: only A=10, only B=12, only C=14, A∩B only=5, B∩C only=7, A∩C only=8, all three=3. Total how many are there?
+(a) 56 (b) 54 (c) 62 (d) 59
+उत्तर: (d)
+हल: Total = 10+12+14+5+7+8+3 = 59.
+स्रोत: PYQ-शैली
+
+121. [कठिन] *कथन: सभी सेब फल हैं। कोई फल सब्ज़ी नहीं है। कुछ सब्ज़ियाँ हरी हैं।*
+निष्कर्ष: I. कुछ हरी चीज़ें फल नहीं हैं। II. कुछ सेब सब्ज़ी नहीं हैं।
+Statements: All apples are fruits. No fruit is a vegetable. Some vegetables are green.
+Conclusions: I. Some green things are not fruits. II. Some apples are not vegetables.
+(a) दोनों अनुसरण करते हैं (b) केवल I अनुसरण करता है (c) केवल II अनुसरण करता है (d) कोई भी अनुसरण नहीं करता
+उत्तर: (a)
+हल: I: Some vegetables are green, vegetables are not fruits → those green things are not fruits. True. II: All apples are fruits, no fruit is vegetable → no apple is vegetable, so some apples are not vegetables (all). True.
+स्रोत: PYQ-शैली
+
+122. [कठिन + जाल] *खिलाड़ी, दर्शक, स्टेडियम के लिए सर्वश्रेष्ठ वेन आरेख कौन-सा है?*
+Which Venn diagram best represents *Players, Spectators, Stadium*?
+(a) खिलाड़ी और दर्शक स्टेडियम के अंदर, अलग-अलग (Players and Spectators inside Stadium, separate) (b) तीन अलग-अलग वृत्त (Three separate circles) (c) खिलाड़ी स्टेडियम के अंदर, दर्शक स्टेडियम को काटता हुआ (Players inside Stadium, Spectators overlapping Stadium) (d) खिलाड़ी और दर्शक अलग, स्टेडियम दोनों को काटता हुआ (Players and Spectators separate, Stadium overlapping both)
+उत्तर: (b)
+हल: Player (person), spectator (person), stadium (place) are distinct classes. No subset relationship. Trap: Real-world scenario of players and spectators being inside a stadium leads to wrong subset choices.
+स्रोत: PYQ-शैली
+
+123. [कठिन] *कथन: केवल कुछ शिक्षक प्रधानाचार्य हैं। सभी प्रधानाचार्य स्नातक हैं। कोई स्नातक अल्पस्नातक नहीं है।*
+निष्कर्ष: I. कुछ शिक्षक प्रधानाचार्य नहीं हैं। II. कुछ शिक्षक अल्पस्नातक नहीं हैं।
+Statements: Only a few teachers are principals. All principals are graduates. No graduate is an undergraduate.
+Conclusions: I. Some teachers are not principals. II. Some teachers are not undergraduates.
+(a) केवल निष्कर्ष II अनुसरण करता है (b) दोनों निष्कर्ष अनुसरण करते हैं (c) केवल निष्कर्ष I अनुसरण करता है (d) कोई भी अनुसरण नहीं करता
+उत्तर: (c)
+हल: 'केवल कुछ शिक्षक प्रधानाचार्य हैं' का अर्थ है कि कुछ शिक्षक प्रधानाचार्य हैं और कुछ नहीं हैं। अतः निष्कर्ष I सीधे अनुसरण करता है। निष्कर्ष II निश्चित नहीं है। केवल निष्कर्ष I अनुसरण करता है।
+स्रोत: PYQ-शैली
+
+124. [कठिन] *500 परिवारों की एक सोसायटी में प्रत्येक परिवार अधिकतम एक वाहन रखता है: कार, बाइक, या साइकिल। कार वाले 180, बाइक वाले 210, साइकिल वाले 110 हैं। ठीक एक वाहन वाले परिवारों की संख्या कितनी है?*
+In a housing society of 500 families, each family owns at most one type of vehicle: car, bike, or cycle. Number owning car = 180, bike = 210, cycle = 110. How many families own exactly one vehicle?
+(a) 400 (b) 300 (c) 250 (d) 500
+उत्तर: (d)
+हल: "At most one" means sets are disjoint. Total owning = 180+210+110 = 500, exactly total families. So all own exactly one vehicle.
+स्रोत: PYQ-शैली
+
+125. [कठिन] *कथन: सभी तारे ग्रह हैं। कुछ ग्रह उपग्रह हैं। कोई उपग्रह सूर्य नहीं है।*
+निष्कर्ष: I. कुछ ग्रह उपग्रह नहीं हैं। II. कुछ तारे उपग्रह हैं। III. कोई तारा सूर्य नहीं है।
+Statements: All stars are planets. Some planets are moons. No moon is a sun.
+Conclusions: I. Some planets are not moons. II. Some stars are moons. III. No star is a sun.
+(a) केवल निष्कर्ष II अनुसरण करता है (b) केवल निष्कर्ष I अनुसरण करता है (c) निष्कर्ष I और III दोनों अनुसरण करते हैं (d) कोई भी अनुसरण नहीं करता
+उत्तर: (b)
+हल: सभी तारे ग्रह हैं और कुछ ग्रह उपग्रह हैं। तारों और उपग्रहों में कोई निश्चित संबंध नहीं है। अतः केवल निष्कर्ष I अनुसरण करता है।
+स्रोत: PYQ-शैली

@@ -1,0 +1,79 @@
+Card 1
+Front: What does a Venn diagram actually show?
+Back: It shows logical relationships between groups (sets) using overlapping circles — each circle is one group, and the overlapping regions show members belonging to more than one group.
+
+Card 2
+Front: In a Venn diagram, what does the overlapping region of two circles represent?
+Back: The elements that belong to BOTH groups simultaneously (the intersection, A ∩ B).
+
+Card 3
+Front: If circle A lies completely inside circle B, what is the relationship?
+Back: All A are B (A is a subset of B), but some B may not be A. Example: all Doctors are Graduates, but not all Graduates are Doctors.
+
+Card 4
+Front: What do two completely separate (non-touching) circles mean?
+Back: No element of one group belongs to the other — "No A is B." Example: Cats and Dogs.
+
+Card 5
+Front: Three groups A, B, C are given. What does the centremost region (common to all three circles) represent?
+Back: Elements belonging to all three groups at once — A ∩ B ∩ C.
+
+Card 6
+Front: What is the formula for "exactly two" groups in a 3-set Venn problem?
+Back: (Only A and B) = (A ∩ B) − (A ∩ B ∩ C). Always subtract the triple-overlap region from each pairwise overlap.
+
+Card 7
+Front: What is the standard formula for the total in a two-set Venn diagram?
+Back: Total = Only A + Only B + Both + Neither. Or: n(A ∪ B) = n(A) + n(B) − n(A ∩ B).
+
+Card 8
+Front: In a class, 20 play cricket, 15 play football, 8 play both. How many play at least one game?
+Back: 20 + 15 − 8 = 27. The "both" group is counted twice if you simply add, so subtract it once.
+
+Card 9
+Front: Mnemonic trick — how do you quickly remember to subtract the overlap?
+Back: "Add the circles, cut the common." When you add two sets, the intersection gets counted twice — so "cut" (subtract) it once.
+
+Card 10
+Front: Mnemonic trick — how do you fill a 3-set Venn diagram without errors?
+Back: "Inside-out rule": always start filling from the innermost region (all three), then the pairwise regions, then the outer-only regions. Never fill outside-in.
+
+Card 11
+Front: Examiner's trap — the question says "students who play ONLY cricket." What mistake do most students make?
+Back: They use the full cricket number instead of subtracting those who play other games too. "Only cricket" = Cricket − (cricket with any other game). The word "only" changes everything.
+
+Card 12
+Front: Examiner's trap — "How many play neither game?" What is the common error?
+Back: Students forget that "neither" = Total − (at least one). You must first compute the union, then subtract from the total class strength — the total is often given separately and quietly.
+
+Card 13
+Front: Which diagram fits: Doctors, Men, Fathers?
+Back: All fathers are men, so the Fathers circle lies completely inside the Men circle. The Doctors circle cuts through both — some doctors are men, some doctors are fathers, and some doctors are neither.
+
+Card 14
+Front: Which diagram fits: Women, Mothers, Sisters?
+Back: All mothers and all sisters are women, so the Mothers and Sisters circles sit inside the Women circle and overlap each other — a mother can also be a sister.
+
+Card 15
+Front: Which diagram fits: Apples, Fruits, Red things?
+Back: Apples circle completely inside Fruits (all apples are fruits); Red things circle cuts through both — some apples are red, some other fruits are red, and some red things are not fruits at all.
+
+Card 16
+Front: In "best fit diagram" questions, what is the fastest solving approach?
+Back: Test each pair with "All/Some/No": ask "Are ALL A also B?" (containment), "Can SOME A be B?" (overlap), "Can NO A be B?" (separate). Then match with the option figures.
+
+Card 17
+Front: What does "at least one" mean in Venn language, and how is it calculated?
+Back: It means the union — everyone in any circle. At least one = Total − Neither, or n(A) + n(B) − n(Both).
+
+Card 18
+Front: If 60% like tea, 50% like coffee, and 30% like both, what percent like neither?
+Back: At least one = 60 + 50 − 30 = 80%. Neither = 100 − 80 = 20%.
+
+Card 19
+Front: In a 3-set problem, how do you find "exactly one" group?
+Back: Exactly one = Total − (exactly two) − (all three) − (neither). Or add the three "only" regions: Only A + Only B + Only C.
+
+Card 20
+Front: Why should you never assume two groups overlap just because they sound related?
+Back: Relationship must be logically necessary, not probable. Example: "Students" and "Players" — some students may be players, so overlap; but "Boys" and "Girls" can never overlap. Always test with All/Some/No logic, not intuition.

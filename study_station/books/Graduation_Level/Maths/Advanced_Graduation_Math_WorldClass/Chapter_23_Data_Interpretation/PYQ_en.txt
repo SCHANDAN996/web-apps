@@ -1,0 +1,95 @@
+# 📊 PYQ Analysis — Data Interpretation (Advanced Level)
+
+## How Exams Test This Chapter
+
+Data Interpretation is not a test of calculation — it is a test of **reading under pressure**. Across UPSC CSAT, SSC CGL Tier-II, IBPS PO Mains, CAT and State PCS papers, the same handful of demands keep returning:
+
+- **Percentage change and comparison** — "By what percent did X exceed Y?" is the single most repeated question type. The trap is almost always the **base**: students divide by the wrong year's value.
+- **Ratio and average from tables** — multi-row tables where you must first *select* the right rows, then compute. The trap is reading the wrong row/column intersection.
+- **Approximation questions** — options spaced widely apart, signalling that exact calculation wastes time. The trap is over-calculating when estimation suffices.
+- **Statement-based questions** (CSAT and PO Mains favourites) — "Which of the following statements is/are correct?" Each statement must be verified against the data. The trap is the **almost-true statement**: correct numbers, wrong comparison direction.
+- **Missing-data / conditional questions** — "If the value in 2021 grows at the same rate…" The trap is applying absolute growth instead of percentage growth (or vice versa).
+- **Pie chart + table combinations** — one chart gives shares, another gives totals; you must multiply across. The trap is treating a percentage as an absolute value.
+
+### The examiner's favourite psychological traps
+
+1. **The base-year swap** — "A is what percent more than B" vs "B is what percent less than A" give different answers; options include both.
+2. **The unit trap** — data in lakhs, question in crores; or tonnes vs kg.
+3. **The "cannot be determined" option** — CSAT loves asking what the data *cannot* tell you. Students waste minutes computing something that was never asked.
+4. **The nearly-correct statement** — three statements true, one with a subtly reversed inequality.
+5. **The average-of-averages error** — averaging percentages or averages directly instead of recomputing from totals.
+
+---
+
+## Top 10 High-Yield Questions (with solutions)
+
+**Q1.** A company's revenue rose from ₹240 crore in Year 1 to ₹300 crore in Year 2. By what percent did revenue increase?
+(a) 20% (b) 25% (c) 30% (d) 60%
+**Answer: (b)**
+**Solution:** Increase = 60; base = 240 → 60/240 × 100 = 25%. **Trap:** option (a) 20% comes from dividing by 300 (the new value) — the classic base-year swap.
+**Source:** PYQ-style
+
+**Q2.** In a pie chart, sector A is 72° of a total of ₹50 lakh. What is A's value?
+(a) ₹8 lakh (b) ₹10 lakh (c) ₹12 lakh (d) ₹15 lakh
+**Answer: (b)**
+**Solution:** 72°/360° = 1/5 → 50/5 = ₹10 lakh. **Trap:** students who compute 72% of 50 get ₹36 lakh and panic; degrees ≠ percent.
+**Source:** PYQ-style
+
+**Q3.** A table shows sales: 2019 — 400 units, 2020 — 500 units, 2021 — 450 units. The average annual sales over the three years is:
+(a) 440 (b) 450 (c) 460 (d) 475
+**Answer: (b)**
+**Solution:** (400+500+450)/3 = 1350/3 = 450. **Trap:** option (d) tempts those who divide by 2 or mis-add as 1425.
+**Source:** PYQ-style
+
+**Q4.** City P's population grew 10% in Year 1 and 20% in Year 2 (on the new base). Net growth over two years:
+(a) 30% (b) 32% (c) 28% (d) 35%
+**Answer: (b)**
+**Solution:** 1.10 × 1.20 = 1.32 → 32%. **Trap:** option (a) 30% is the additive error — successive percentages never add directly.
+**Source:** PYQ-style
+
+**Q5.** Statement-based (CSAT style): A bar graph shows wheat output: State X — 80 tonnes, State Y — 60 tonnes. Consider: (1) X produced 25% more than Y. (2) Y produced 25% less than X.
+(a) Only 1 (b) Only 2 (c) Both (d) Neither
+**Answer: (b)**
+**Solution:** X vs Y: 20/60 = 33.3% more, so statement (1) is false. Y vs X: 20/80 = 25% less, so statement (2) is true. Hence only statement 2 is correct. **Trap:** the two statements *feel* equivalent; the base change makes them different. This asymmetry is the most repeated CSAT hook.
+**Source:** PYQ-style
+
+**Q6.** A pie chart shows expenses: Rent 30%, Food 25%, Others 45%. If total expense is ₹80,000, Food exceeds Rent by:
+(a) ₹4,000 (b) ₹5,000 (c) ₹8,000 (d) Food does not exceed Rent
+**Answer: (d)**
+**Solution:** Food (25%) < Rent (30%), so the premise is false. **Trap:** the question embeds a false assumption; hasty solvers compute |30−25|% × 80,000 = ₹4,000 and pick (a). Always verify the direction of comparison first.
+**Source:** PYQ-style
+
+**Q7.** Table: Imports ₹500 cr, Exports ₹400 cr in Year A; Imports ₹550 cr, Exports ₹480 cr in Year B. The trade deficit (Imports − Exports) in Year B compared to Year A:
+(a) Increased by ₹30 cr (b) Decreased by ₹30 cr (c) Increased by ₹70 cr (d) Stayed the same
+**Answer: (b)**
+**Solution:** Deficit A = 100; Deficit B = 70 → decreased by ₹30 cr. **Trap:** option (c) ₹70 cr is the Year-B deficit itself — answering a different question than asked.
+**Source:** PYQ-style
+
+**Q8.** If a value rises from 80 to 100, it must fall by what percent to return to 80?
+(a) 20% (b) 25% (c) 15% (d) 18%
+**Answer: (a)**
+**Solution:** Fall = 20 on base 100 → 20%. **Trap:** 25% is the *rise* percentage; rise and fall percents for the same gap are never equal.
+**Source:** PYQ-style
+
+**Q9.** A line graph shows a firm's profit rising steadily from ₹20 lakh to ₹40 lakh over 4 years. Which statement CANNOT be determined from the graph?
+(a) Total profit over 4 years (b) The year of maximum profit (c) The firm's expenditure in any year (d) Percentage growth over the period
+**Answer: (c)**
+**Solution:** Profit data alone can never reveal expenditure (Expenditure = Revenue − Profit, and revenue is not given). **Trap:** students compute (a), (b), (d) successfully and assume everything is derivable — CSAT's "cannot be determined" hook.
+**Source:** PYQ-style
+
+**Q10.** In a table, Machine A produces 120 items in 5 hours; Machine B produces 180 items in 6 hours. Ratio of their hourly rates (A:B):
+(a) 4:5 (b) 5:4 (c) 2:3 (d) 3:2
+**Answer: (a)**
+**Solution:** A: 120/5 = 24/hr; B: 180/6 = 30/hr → 24:30 = 4:5. **Trap:** option (d) 3:2 comes from comparing raw totals (120:180 inverted) without normalising per hour — the "compare like with like" trap.
+**Source:** PYQ-style
+
+---
+
+## Strategy Takeaways
+
+- **Read the question before the data.** DI rewards targeted reading; scanning the whole table first burns time.
+- **Check the base in every percentage question.** Ask: "percent *of what*?"
+- **Match units before computing.** Convert everything to one unit at the start.
+- **For statement questions, test each statement independently** — never assume consistency between them.
+- **When options are far apart, approximate.** When options are close (e.g., 32% vs 33%), compute exactly.
+- **Budget roughly 60–90 seconds per DI question** in bank/SSC exams; in CSAT, skip a heavy set and return if time permits.

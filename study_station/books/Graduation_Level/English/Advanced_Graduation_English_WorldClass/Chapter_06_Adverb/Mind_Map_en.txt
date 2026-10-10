@@ -1,0 +1,56 @@
+```mermaid
+graph TD
+    A["Adverb<br>क्रियाविशेषण"] --> B["What It Modifies"]
+    A --> C["Types"]
+    A --> D["Position Rules"]
+    A --> E["Comparison"]
+    A --> F["12 Golden Rules"]
+    A --> G["Examiner's Traps"]
+    A --> H["Strategies"]
+
+    B --> B1["Verb: He runs fast"]
+    B --> B2["Adjective: very tall"]
+    B --> B3["Another Adverb: quite slowly"]
+    B --> B4["Whole Sentence: Fortunately, he passed"]
+
+    C --> C1["Manner: slowly, well"]
+    C --> C2["Time: now, yesterday, already"]
+    C --> C3["Place: here, there, everywhere"]
+    C --> C4["Frequency: always, often, seldom"]
+    C --> C5["Degree: very, too, quite, almost"]
+    C --> C6["Sentence: certainly, obviously"]
+
+    D --> D1["Manner-Place-Time order<br>He sang well at the hall yesterday"]
+    D --> D2["Frequency adverb before main verb<br>He always comes late"]
+    D --> D3["After be-verb<br>He is always late"]
+    D --> D4["Enough AFTER adj/adv<br>tall enough, fast enough"]
+    D --> D5["Only next to the word it modifies"]
+
+    E --> E1["Positive: fast"]
+    E --> E2["Comparative: faster"]
+    E --> E3["Superlative: fastest"]
+    E --> E4["Irregular: well-better-best<br>badly-worse-worst"]
+
+    F --> F1["Adverb modifies verb, not noun"]
+    F --> F2["No adverb after linking verb<br>She looks happy (not happily)"]
+    F --> F3["Hard vs Hardly<br>Fast vs Fastly (wrong!)"]
+    F --> F4["Too = negative sense<br>too tired to work"]
+    F --> F5["Very + positive, Much + comparative<br>much better"]
+    F --> F6["Seldom, rarely, hardly = negative<br>no 'not' with them"]
+    F --> F7["Else takes 'but'<br>none else but"]
+    F --> F8["Lately vs Late<br>lately = recently"]
+    F --> F9["Fairly vs Rather<br>fairly = pleasant, rather = unpleasant"]
+    F --> F10["Ago with past tense only"]
+    F --> F11["Yet in negatives/questions"]
+    F --> F12["Still before, Yet after in contrast"]
+
+    G --> G1["Sound-Right Trap<br>'He did it quick' ❌ → quickly"]
+    G --> G2["Double Negative Trap<br>'He hardly does not work' ❌"]
+    G --> G3["Intervening Phrase Trap<br>adverb far from its verb"]
+    G --> G4["Over-thinking Trap<br>simple position rule overanalysed"]
+
+    H --> H1["15-sec: spot adjective used as adverb"]
+    H --> H2["45-sec: position & meaning-based errors"]
+    H --> H3["Mnemonic: MPT = Manner-Place-Time<br>'My Pet Tiger'"]
+    H --> H4["Skip Strategy: if 'only' position confuses,<br>mark & return"]
+```

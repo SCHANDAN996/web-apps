@@ -1,0 +1,70 @@
+```mermaid
+graph TD
+    A["सामान्य रसायन<br>General Chemistry"]
+
+    A --> B["पदार्थ<br>Matter"]
+    A --> C["परमाणु की संरचना<br>Structure of the Atom"]
+    A --> D["आवर्त सारणी<br>Periodic Table"]
+    A --> E["रासायनिक अभिक्रियाएँ<br>Chemical Reactions"]
+    A --> F["अम्ल, क्षारक, लवण<br>Acids, Bases, Salts"]
+    A --> G["धातु और अधातु<br>Metals and Non-metals"]
+    A --> H["कार्बन यौगिक<br>Carbon Compounds"]
+    A --> T["परीक्षक के जाल<br>Examiner's Traps"]
+    A --> S["रणनीति<br>Strategy"]
+
+    B --> B1["अवस्थाएँ: ठोस, द्रव, गैस, प्लाज़्मा, BEC<br>States of matter"]
+    B --> B2["K = °C + 273<br>Ice 273 K, water boils 373 K"]
+    B --> B3["ऊर्ध्वपातन: कपूर, NH4Cl, शुष्क बर्फ़<br>Sublimation"]
+    B --> B4["पृथक्करण<br>Separation"]
+    B4 --> B41["क्रीम - अपकेंद्रण<br>Cream - Centrifugation"]
+    B4 --> B42["स्याही - वर्णलेखन<br>Ink - Chromatography"]
+    B4 --> B43["वायु - प्रभाजी आसवन<br>Air - Fractional distillation"]
+    B --> B5["टिंडल प्रभाव: दूध, कोहरा<br>Tyndall effect: colloids"]
+
+    C --> C1["टॉमसन - इलेक्ट्रॉन<br>Thomson - Electron"]
+    C --> C2["गोल्डस्टीन - केनाल किरणें<br>Goldstein - Canal rays"]
+    C --> C3["रदरफ़ोर्ड - नाभिक, सोने की पन्नी<br>Rutherford - Nucleus"]
+    C --> C4["चैडविक - न्यूट्रॉन 1932<br>Chadwick - Neutron"]
+    C --> C5["Z = प्रोटॉन, A = प्रोटॉन + न्यूट्रॉन<br>Atomic number, Mass number"]
+    C --> C6["समस्थानिक: Z समान<br>Isotopes: same Z"]
+    C --> C7["समभारिक: A समान, Ar-40 और Ca-40<br>Isobars: same A"]
+
+    D --> D1["डॉबेराइनर - त्रिक<br>Döbereiner - Triads"]
+    D --> D2["न्यूलैंड्स - अष्टक, कैल्सियम तक<br>Newlands - Octaves"]
+    D --> D3["मेंडेलीफ़ - परमाणु द्रव्यमान, एका-तत्व<br>Mendeleev - Atomic mass"]
+    D --> D4["मोज़ले - परमाणु क्रमांक<br>Moseley - Atomic number"]
+    D --> D5["18 समूह, 7 आवर्त<br>18 groups, 7 periods"]
+
+    E --> E1["संयोजन: CaO + H2O<br>Combination"]
+    E --> E2["वियोजन: CaCO3, AgCl धूप में<br>Decomposition"]
+    E --> E3["विस्थापन: Fe + CuSO4<br>Displacement"]
+    E --> E4["द्विविस्थापन: BaSO4 अवक्षेप<br>Double displacement"]
+    E --> E5["रेडॉक्स: ऑक्सीजन लेना = ऑक्सीकरण<br>Redox"]
+    E --> E6["संक्षारण और विकृतगंधिता<br>Corrosion and Rancidity"]
+
+    F --> F1["pH 7 उदासीन, दाँत क्षय 5.5 से नीचे<br>pH scale"]
+    F --> F2["सूचक: फ़ीनॉल्फ़्थेलिन गुलाबी क्षारक में<br>Indicators"]
+    F --> F3["प्राकृतिक अम्ल: इमली-टार्टरिक, टमाटर-ऑक्सैलिक<br>Natural acids"]
+    F --> F4["लवण: NaHCO3, Na2CO3·10H2O, CaOCl2, CaSO4·½H2O<br>Important salts"]
+
+    G --> G1["अपवाद: पारा द्रव धातु, ब्रोमीन द्रव अधातु<br>Exceptions"]
+    G --> G2["ग्रेफ़ाइट चालक, आयोडीन चमकीला<br>Graphite, Iodine"]
+    G --> G3["सक्रियता श्रेणी K से Au<br>Reactivity series"]
+    G --> G4["मिश्रधातु: पीतल Cu+Zn, काँसा Cu+Sn<br>Alloys"]
+    G --> G5["अम्लराज 3 : 1 HCl : HNO3<br>Aqua regia"]
+
+    H --> H1["शृंखलन और चतुःसंयोजकता<br>Catenation, Tetravalency"]
+    H --> H2["अपररूप: हीरा, ग्रेफ़ाइट, C-60<br>Allotropes"]
+    H --> H3["CnH2n+2, CnH2n, CnH2n−2<br>Alkane, Alkene, Alkyne"]
+    H --> H4["सिरका 5–8% एथेनॉइक अम्ल<br>Vinegar"]
+    H --> H5["साबुनीकरण, एस्टरीकरण, हाइड्रोजनीकरण<br>Key reactions"]
+
+    T --> T1["समस्थानिक बनाम समभारिक<br>Similar name"]
+    T --> T2["ऑक्सीकृत बनाम अपचयित<br>Reverse causation"]
+    T --> T3["'सभी धातुएँ ठोस' - पारा अपवाद<br>Negative phrasing"]
+    T --> T4["जिप्सम बनाम प्लास्टर ऑफ़ पेरिस<br>Almost correct"]
+
+    S --> S1["15 सेकंड: नाम, सूत्र, खोजकर्ता<br>Fact questions"]
+    S --> S2["45 सेकंड: गणना, आवर्त-स्थान, कथन<br>Analytical questions"]
+    S --> S3["'सभी', 'केवल' पढ़ते ही अपवाद सोचें<br>Watch absolute words"]
+```

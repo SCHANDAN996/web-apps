@@ -1,0 +1,34 @@
+```mermaid
+graph TD
+    A["त्रुटि पहचान (उन्नत)<br>Error Spotting (Advanced)"] --> B["मुख्य नियम क्षेत्र"]
+    A --> C["परीक्षक के जाल"]
+    A --> D["रणनीति"]
+    A --> E["शब्दावली (Roots)"]
+
+    B --> B1["कर्ता-क्रिया समझौता<br>Subject-Verb Agreement"]
+    B --> B2["काल (Tense) की एकरूपता"]
+    B --> B3["सर्वनाम का संदर्भ<br>Pronoun Reference"]
+    B --> B4["समानांतर रचना<br>Parallelism"]
+    B --> B5["विशेषण बनाम क्रिया-विशेषण<br>Adjective vs Adverb"]
+    B --> B6["Preposition के स्थिर प्रयोग"]
+
+    B1 --> B1a["Intervening Phrase<br>कर्ता और क्रिया के बीच का वाक्यांश"]
+    B1 --> B1b["Collective Noun<br>एकवचन या बहुवचन?"]
+    B1 --> B1c["Each / Every / Neither<br>हमेशा एकवचन क्रिया"]
+
+    C --> C1["Sound-Right जाल<br>सुनने में सही, व्याकरण में गलत"]
+    C --> C2["Over-thinking जाल<br>सही वाक्य को गलत मान लेना"]
+    C --> C3["कालक्रम भ्रम<br>Since vs For, Past vs Present Perfect"]
+    C --> C4["मिलते-जुलते शब्द<br>Principal/Principle, Affect/Effect"]
+
+    D --> D1["15/45 सेकंड नियम"]
+    D --> D2["Skip Strategy<br>शक हो तो छोड़ो, नेगेटिव मार्किंग से बचो"]
+    D --> D3["वाक्य को टुकड़ों में बाँटो<br>कर्ता खोजो → क्रिया जाँचो"]
+
+    D1 --> D1a["तथ्यात्मक प्रश्न<br>15 सेकंड में हल"]
+    D1 --> D1b["तार्किक/अनुमान प्रश्न<br>45 सेकंड तक"]
+
+    E --> E1["Greek/Latin Roots<br>spect, dict, port, cred, bio"]
+    E --> E2["प्रत्यय (Suffix)<br>-tion, -able, -ous"]
+    E --> E3["उपसर्ग (Prefix)<br>pre-, anti-, inter-"]
+```

@@ -10,10 +10,10 @@ How to calculate probability like a pro using a single golden formula
 
 Tricks for tackling coin, dice, and card problems that every exam loves
 
-How to avoid the 5 most common traps that trick millions of students
+How to avoid the most common traps that trick millions of students
 
 The Birthday Surprise
-Imagine you’re at a party with just 23 people. What’s the chance that two people share the same birthday? Your brain probably screams “very small”—maybe 5%? The shocking truth: it’s over 50%! With 50 people, it jumps to 97%. This isn’t magic. It’s probability. And once you tame it, you’ll see the hidden order behind coincidence. But first, let’s be honest—probability has a way of making us feel stupid even when we’re smart.
+Imagine you’re at a party with just 23 people. What’s the chance that two people share the same birthday? Your brain probably screams “very small”—maybe 5%? The surprising truth: it’s over 50%. With 50 people, it rises to about 97%. This isn’t magic. It’s probability. And once you tame it, you’ll see the hidden order behind coincidence. But first, let’s be honest—probability has a way of making us feel confused even when we’re smart.
 
 I know how it feels.
 Probability is weird. Our brains are built to see patterns, not juggle uncertainty. A fair coin lands heads five times in a row. Your gut says, “Tails is due next.” That’s the Gambler’s Fallacy—a mental trap that even math teachers fall for. If you’ve ever doubted yourself while solving these problems, you’re not alone. The good news? Once you replace gut feelings with just a few clear tools, the confusion melts away. Let’s build those tools together, one tiny step at a time.
@@ -112,19 +112,19 @@ No need to list them in panic; just apply the rule when asked “total possible 
 
 2 dice: 6 × 6 = 36 outcomes
 
-Most common trap: Students confuse the number of ways to get a sum (like sum=7) with the number of outcomes. Sum 7 can happen in 6 ways (1+6, 2+5, 3+4, 4+3, 5+2, 6+1). So P(sum=7) = 6/36 = 1/6.
+Most common trap: Students confuse the number of ways to get a sum (like sum = 7) with the number of outcomes. Sum 7 can happen in 6 ways (1+6, 2+5, 3+4, 4+3, 5+2, 6+1). So P(sum = 7) = 6/36 = 1/6.
 
 🧠 Active Recall Prompt: Which sum on two dice has the highest probability? (Think: number of ways.)
 
 3. Cards
 
-A standard deck has 52 cards: 26 red, 26 black. 4 suits (Hearts ♦? Actually Hearts ♥, Diamonds ♦, Clubs ♣, Spades ♠) each of 13 cards: Ace, 2–10, Jack, Queen, King.
+A standard deck has 52 cards: 26 red, 26 black. There are 4 suits — Hearts ♥, Diamonds ♦, Clubs ♣, Spades ♠ — each of 13 cards: Ace, 2–10, Jack, Queen, King.
 
 Face cards: Jack, Queen, King of each suit → 12 face cards total.
 
 Aces: 4
 
-Golden shortcomb: Probability = (Number of cards that satisfy the condition) / 52.
+Golden shortcut: Probability = (Number of cards that satisfy the condition) / 52.
 
 🧠 Active Recall Prompt: What is the probability of drawing a black queen? There are 2 black queens (♣Q, ♠Q). So 2/52 = 1/26. Did you remember both suits?
 
@@ -148,6 +148,7 @@ Coins (n coins)	Total outcomes	2ⁿ
 Dice (2 dice)	Total outcomes	36
 Cards	Deck size	52 (12 faces, 4 aces)
 “At least one”	Avoid long lists	1 – P(none)
+
 🧠 Your Final Active Recall Challenge
 
 Before you close the chapter, ask yourself these 5 questions aloud:

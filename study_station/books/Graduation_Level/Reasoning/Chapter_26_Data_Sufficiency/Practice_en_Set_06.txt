@@ -1,0 +1,201 @@
+Practice Set 6 — Data Sufficiency (Hard) | Questions 126–150: Hard (mixed traps)
+
+126. What is the two-digit number?
+I. The sum of the digits is 9.
+II. The number obtained by reversing the digits exceeds the original number by 27.
+(a) Both statements together are sufficient, but neither alone is sufficient (b) Statement II alone is sufficient, but Statement I alone is not sufficient (c) Both statements together are not sufficient (d) Statement I alone is sufficient, but Statement II alone is not sufficient
+Answer: (a)
+Solution: The trap is assuming Statement II alone fixes the number — pairs like 14/41, 25/52, 36/63 all differ by 27 on reversal, so II alone gives multiple answers, and I alone also fits many numbers (18, 27, 36, …). Combining: digits sum to 9 and differ by 3 (since 27/9 = 3), giving digits 3 and 6, and the original must be the smaller arrangement, so the answer is that both statements together are sufficient.
+Source: PYQ-style (Bank PO pattern)
+
+127. Among A, B, C and D, who is the tallest?
+I. A is taller than B and C.
+II. D is taller than A.
+(a) Statement I alone is sufficient, but Statement II alone is not sufficient (b) Both statements together are sufficient, but neither alone is sufficient (c) Statement II alone is sufficient, but Statement I alone is not sufficient (d) Both statements together are not sufficient
+Answer: (b)
+Solution: The trap is stopping at Statement I — it puts A above B and C but says nothing about D, and Statement II alone only compares D with A. Together: D > A > B and C, so D is the tallest, and the answer is that both statements together are sufficient.
+Source: PYQ-style (comparison)
+
+128. Is the integer x an odd number?
+I. x is divisible by 3.
+II. x + 1 is an even number.
+(a) Statement II alone is sufficient, but Statement I alone is not sufficient (b) Statement I alone is sufficient, but Statement II alone is not sufficient (c) Both statements together are sufficient, but neither alone is sufficient (d) Both statements together are not sufficient
+Answer: (a)
+Solution: The trap is Statement I — multiples of 3 can be odd (9) or even (6), so it gives no definite answer. Statement II: if x + 1 is even, then x must be odd — a definite "yes" — so the answer is that Statement II alone is sufficient.
+Source: PYQ-style (number theory)
+
+129. In a row of students facing north, what is Ravi's position from the left?
+I. Ravi is 12th from the right.
+II. There are 30 students in the row.
+(a) Statement I alone is sufficient, but Statement II alone is not sufficient (b) Both statements together are sufficient, but neither alone is sufficient (c) Statement II alone is sufficient, but Statement I alone is not sufficient (d) Both statements together are not sufficient
+Answer: (b)
+Solution: Statement I alone gives only the right-side position; without the total strength the left position cannot be found, and Statement II alone gives only the total. Together: position from left = 30 − 12 + 1 = 19th, so the answer is that both statements together are sufficient.
+Source: SSC CGL pattern (ranking)
+
+130. What is the code for "sky" in the code language?
+I. In that language, "blue sky high" is coded as "ta na ma" and "sky is blue" is coded as "na pa ta".
+II. In that language, "high sky limit" is coded as "ma na ka".
+(a) Both statements together are not sufficient (b) Statement II alone is sufficient, but Statement I alone is not sufficient (c) Statement I alone is sufficient, but Statement II alone is not sufficient (d) Both statements together are sufficient, but neither alone is sufficient
+Answer: (d)
+Solution: The trap is picking Statement I alone: comparing its two phrases, the common words are "blue" and "sky" and the common codes are "ta" and "na", so "sky" cannot be fixed between the two. Combining with II: "high" = "ma" (the only word common to "blue sky high" and "high sky limit" with common code "ma"), so in Statement II "sky" must be "na", and the answer is that both statements together are sufficient.
+Source: IBPS PO pattern (coding-decoding)
+
+131. Is triangle ABC a right-angled triangle?
+I. The sides are in the ratio 3 : 4 : 5.
+II. The area of the triangle is 6 square units.
+(a) Both statements together are not sufficient (b) Statement II alone is sufficient, but Statement I alone is not sufficient (c) Statement I alone is sufficient, but Statement II alone is not sufficient (d) Both statements together are sufficient, but neither alone is sufficient
+Answer: (c)
+Solution: The trap is Statement II — an area of 6 fits many triangles (base 4, height 3; base 12, height 1), most of them not right-angled, so II alone cannot decide. Statement I: sides 3k, 4k, 5k satisfy (3k)² + (4k)² = (5k)², so the triangle is always right-angled, and the answer is that Statement I alone is sufficient.
+Source: SSC CGL pattern (geometry)
+
+132. Is the year Y (a positive integer) a leap year?
+I. Y is divisible by 4.
+II. Y is divisible by 100.
+(a) Both statements together are not sufficient (b) Statement II alone is sufficient, but Statement I alone is not sufficient (c) Both statements together are sufficient, but neither alone is sufficient (d) Statement I alone is sufficient, but Statement II alone is not sufficient
+Answer: (a)
+Solution: The trap is thinking divisibility by 4 settles leap years — century years need divisibility by 400. Even together, Y could be 1900 (divisible by 4 and 100, not a leap year) or 2000 (divisible by 4 and 100, and a leap year), so no definite answer exists and the answer is that both statements together are not sufficient.
+Source: PYQ-style (calendar, examiner's trap — century rule)
+
+133. Among X, Y and Z, who is the heaviest?
+I. X is heavier than Y.
+II. Y is heavier than Z.
+(a) Statement I alone is sufficient, but Statement II alone is not sufficient (b) Statement II alone is sufficient, but Statement I alone is not sufficient (c) Both statements together are sufficient, but neither alone is sufficient (d) Both statements together are not sufficient
+Answer: (c)
+Solution: Statement I alone never mentions Z, and Statement II alone never mentions X, so neither alone can rank all three. Together: X > Y > Z, so X is the heaviest, and the answer is that both statements together are sufficient.
+Source: PYQ-style (ordering)
+
+134. What is the value of x + y?
+I. x² − y² = 20.
+II. x − y = 4.
+(a) Statement I alone is sufficient, but Statement II alone is not sufficient (b) Statement II alone is sufficient, but Statement I alone is not sufficient (c) Both statements together are not sufficient (d) Both statements together are sufficient, but neither alone is sufficient
+Answer: (d)
+Solution: The trap is thinking Statement I alone suffices because x² − y² = (x−y)(x+y) = 20 — but without x − y, x + y can be any factor pair of 20 (1×20, 2×10, 4×5). Statement II alone gives only the difference. Together: x + y = 20/4 = 5, so the answer is that both statements together are sufficient.
+Source: Bank PO pattern (algebra)
+
+135. How is M related to N?
+I. N is the son of P, who is the wife of Q.
+II. M is the brother of Q.
+(a) Statement I alone is sufficient, but Statement II alone is not sufficient (b) Both statements together are not sufficient (c) Statement II alone is sufficient, but Statement I alone is not sufficient (d) Both statements together are sufficient, but neither alone is sufficient
+Answer: (d)
+Solution: Statement I alone never mentions M, and Statement II alone never mentions N, so neither alone can connect them. Together: Q is N's father and M is Q's brother, so M is N's paternal uncle, and the answer is that both statements together are sufficient.
+Source: SSC pattern (blood relation)
+
+136. A train crosses a platform. What is the length of the train?
+I. The train crosses the platform in 30 seconds at 60 km/h.
+II. The platform is 300 metres long.
+(a) Statement II alone is sufficient, but Statement I alone is not sufficient (b) Statement I alone is sufficient, but Statement II alone is not sufficient (c) Both statements together are sufficient, but neither alone is sufficient (d) Both statements together are not sufficient
+Answer: (c)
+Solution: The trap is treating the 500 m from Statement I (60 × 5/18 × 30) as the train's length — it is actually train + platform combined, and Statement II alone gives only the platform. Together: train length = 500 − 300 = 200 m, so the answer is that both statements together are sufficient.
+Source: RRB NTPC pattern (speed-distance)
+
+137. Is the integer n divisible by 15?
+I. n is divisible by 5.
+II. n is divisible by 3.
+(a) Both statements together are sufficient, but neither alone is sufficient (b) Statement I alone is sufficient, but Statement II alone is not sufficient (c) Statement II alone is sufficient, but Statement I alone is not sufficient (d) Both statements together are not sufficient
+Answer: (a)
+Solution: Divisibility by 5 alone (e.g., 10) or by 3 alone (e.g., 9) does not ensure divisibility by 15, so neither statement suffices alone. Since 3 and 5 are coprime, a number divisible by both is divisible by 15 — a definite "yes" — so the answer is that both statements together are sufficient.
+Source: PYQ-style (number system)
+
+138. Five boxes A, B, C, D, E are stacked one above another. Which box is at the bottom?
+I. A is immediately above B. D is immediately above E.
+II. C is above D, and A is below E.
+(a) Statement I alone is sufficient, but Statement II alone is not sufficient (b) Both statements together are sufficient, but neither alone is sufficient (c) Statement II alone is sufficient, but Statement I alone is not sufficient (d) Both statements together are not sufficient
+Answer: (b)
+Solution: Statement I alone gives two separate pairs (A over B, D over E) with C floating, so the bottom is not fixed; Statement II alone gives C above D and A below E but no complete order. Together: C, then the D–E pair, then the A–B pair, giving the stack C, D, E, A, B from top to bottom, so B is at the bottom and the answer is that both statements together are sufficient.
+Source: IBPS pattern (ordering puzzle)
+
+139. What is the rate of interest per annum?
+I. A sum doubles itself in 8 years at simple interest.
+II. The sum invested is ₹10,000.
+(a) Statement II alone is sufficient, but Statement I alone is not sufficient (b) Both statements together are sufficient, but neither alone is sufficient (c) Statement I alone is sufficient, but Statement II alone is not sufficient (d) Both statements together are not sufficient
+Answer: (c)
+Solution: The trap is Statement II — the principal is irrelevant to the rate when the doubling time is known, and II alone says nothing about interest. From I: simple interest equals the principal in 8 years, so rate = (P × 100)/(P × 8) = 12.5% per annum, and the answer is that Statement I alone is sufficient.
+Source: Bank Clerk pattern (simple interest)
+
+140. In which direction is point F with respect to point G?
+I. F is 5 m north of H. H is 5 m east of G.
+II. G is south-west of J.
+(a) Statement I alone is sufficient, but Statement II alone is not sufficient (b) Statement II alone is sufficient, but Statement I alone is not sufficient (c) Both statements together are sufficient, but neither alone is sufficient (d) Both statements together are not sufficient
+Answer: (a)
+Solution: The trap is Statement II, which introduces point J — J is never connected to F, so II cannot help. From I: F is north of H and H is east of G, so F lies north-east of G, and the answer is that Statement I alone is sufficient.
+Source: SSC CHSL pattern (direction sense)
+
+141. What is the average of five consecutive even numbers?
+I. The smallest number is 12.
+II. The numbers are positive.
+(a) Statement II alone is sufficient, but Statement I alone is not sufficient (b) Statement I alone is sufficient, but Statement II alone is not sufficient (c) Both statements together are sufficient, but neither alone is sufficient (d) Both statements together are not sufficient
+Answer: (b)
+Solution: The trap is Statement II — positivity is already implied and fixes nothing about which even numbers are taken. From I alone the set is 12, 14, 16, 18, 20 with average 16, so the answer is that Statement I alone is sufficient.
+Source: PYQ-style (consecutive numbers)
+
+142. Did A score more than B in the test?
+I. A scored 20% more than C.
+II. B scored 25% more than C.
+(a) Both statements together are not sufficient (b) Statement II alone is sufficient, but Statement I alone is not sufficient (c) Statement I alone is sufficient, but Statement II alone is not sufficient (d) Both statements together are sufficient, but neither alone is sufficient
+Answer: (d)
+Solution: Each statement compares only one of them with C, so neither alone settles A versus B. Together: A = 1.20C and B = 1.25C, so B > A — a definite "no" — and the answer is that both statements together are sufficient.
+Source: Bank PO pattern (percentage comparison)
+
+143. What is the capacity of the tank?
+I. Pipe P alone fills the tank in 6 hours.
+II. Pipes P and Q together fill the tank in 4 hours.
+(a) Both statements together are sufficient, but neither alone is sufficient (b) Statement II alone is sufficient, but Statement I alone is not sufficient (c) Both statements together are not sufficient (d) Statement I alone is sufficient, but Statement II alone is not sufficient
+Answer: (c)
+Solution: The trap is computing Q's rate (1/4 − 1/6 = 1/12) and feeling satisfied — but rates give only fractions of the tank per hour, never the actual capacity in litres. Neither statement gives any volume or flow in litres, so even together the capacity cannot be found, and the answer is that both statements together are not sufficient.
+Source: PYQ-style (examiner's trap — rates vs absolute quantity)
+
+144. Among five friends K, L, M, N and O, who got the highest marks?
+I. K scored more than L and M. N scored less than M.
+II. O scored more than K.
+(a) Both statements together are sufficient, but neither alone is sufficient (b) Statement II alone is sufficient, but Statement I alone is not sufficient (c) Statement I alone is sufficient, but Statement II alone is not sufficient (d) Both statements together are not sufficient
+Answer: (a)
+Solution: Statement I places K above L, M and N but says nothing about O, and Statement II alone only says O is above K. Together: O > K > L, M > N, so O is the highest, and the answer is that both statements together are sufficient.
+Source: SSC pattern (comparison)
+
+145. What is the present age of the father?
+I. The ratio of the father's age to the son's age is 5 : 2.
+II. After 5 years, the ratio of their ages will be 11 : 5.
+(a) Statement I alone is sufficient, but Statement II alone is not sufficient (b) Both statements together are not sufficient (c) Statement II alone is sufficient, but Statement I alone is not sufficient (d) Both statements together are sufficient, but neither alone is sufficient
+Answer: (d)
+Solution: A ratio alone never gives actual ages — infinitely many pairs fit 5 : 2, so neither statement suffices alone. Together: let ages be 5k and 2k; (5k+5)/(2k+5) = 11/5 gives 25k + 25 = 22k + 55, so k = 10 and the father is 50 years old, and the answer is that both statements together are sufficient.
+Source: Bank Clerk pattern (ages)
+
+146. Is the positive integer p a prime number?
+I. p leaves remainder 1 when divided by 6.
+II. p is less than 50.
+(a) Statement I alone is sufficient, but Statement II alone is not sufficient (b) Both statements together are not sufficient (c) Both statements together are sufficient, but neither alone is sufficient (d) Statement II alone is sufficient, but Statement I alone is not sufficient
+Answer: (b)
+Solution: The trap is believing "remainder 1 on division by 6" means prime — all primes above 3 have this form, but so do composites like 25 and 49. Even with p < 50, p could be 7, 13, 19 (prime) or 25, 35, 49 (composite), so no definite answer exists and the answer is that both statements together are not sufficient.
+Source: PYQ-style (examiner's trap — converse of a prime property)
+
+147. How many children are there in the class?
+I. If each child is given 4 toffees, 12 toffees remain.
+II. If each child is given 6 toffees, 8 toffees fall short.
+(a) Statement II alone is sufficient, but Statement I alone is not sufficient (b) Statement I alone is sufficient, but Statement II alone is not sufficient (c) Both statements together are sufficient, but neither alone is sufficient (d) Both statements together are not sufficient
+Answer: (c)
+Solution: Each statement alone has two unknowns (children and total toffees), so neither suffices alone. Together: 4n + 12 = 6n − 8, giving 2n = 20 and n = 10 children, so the answer is that both statements together are sufficient.
+Source: SSC pattern (linear equation)
+
+148. What is the selling price of the article?
+I. The article was sold at a profit of 20%.
+II. The cost price of the article is ₹500.
+(a) Statement II alone is sufficient, but Statement I alone is not sufficient (b) Both statements together are sufficient, but neither alone is sufficient (c) Statement I alone is sufficient, but Statement II alone is not sufficient (d) Both statements together are not sufficient
+Answer: (b)
+Solution: A profit percentage without the cost price, or a cost price without the profit percentage, cannot give the selling price, so neither statement suffices alone. Together: SP = 500 × 1.20 = ₹600, and the answer is that both statements together are sufficient.
+Source: RRB pattern (profit-loss)
+
+149. In a certain code, how is "GOOD" written?
+I. In that code, "FOOD" is written as "HPPE".
+II. In that code, "GOLD" is written as "HPME".
+(a) Both statements together are sufficient, but neither alone is sufficient (b) Statement I alone is sufficient, but Statement II alone is not sufficient (c) Both statements together are not sufficient (d) Statement II alone is sufficient, but Statement I alone is not sufficient
+Answer: (d)
+Solution: The trap is Statement I — it shows the codes for F, O and D, but G never appears in "FOOD", so the code for G stays unknown. Statement II alone gives G→H, O→P and D→E from "GOLD" → "HPME", which is everything needed to write "GOOD" as "HPPE", so the answer is that Statement II alone is sufficient.
+Source: PYQ-style (coding, examiner's trap — missing letter)
+
+150. Six persons P, Q, R, S, T and U sit around a circular table facing the centre. Who sits opposite P?
+I. Q sits opposite S, and R sits opposite T.
+II. Q sits to the immediate left of T.
+(a) Statement I alone is sufficient, but Statement II alone is not sufficient (b) Statement II alone is sufficient, but Statement I alone is not sufficient (c) Both statements together are sufficient, but neither alone is sufficient (d) Both statements together are not sufficient
+Answer: (a)
+Solution: The trap is Statement II — a left-right adjacency between Q and T says nothing about who faces P. From I alone: the three opposite pairs are Q–S, R–T, and therefore the only remaining pair is P–U, so U sits opposite P, and the answer is that Statement I alone is sufficient.
+Source: IBPS PO pattern (circular seating)

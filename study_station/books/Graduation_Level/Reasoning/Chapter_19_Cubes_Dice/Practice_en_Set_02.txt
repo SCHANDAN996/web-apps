@@ -1,0 +1,151 @@
+प्रश्न 26–45: आसान | प्रश्न 46–50: मध्यम
+
+26. A cube is painted red on all its faces and then cut into 64 equal smaller cubes. How many smaller cubes have exactly two faces painted?
+(a) 36 (b) 8 (c) 12 (d) 24
+Answer: (d)
+Solution: The tempting wrong answer is 12, which is just the number of edges. A cube cut into 64 pieces has 4 cubes along each edge (4³ = 64). On each of the 12 edges, the two corner cubes have three painted faces, so only 4 − 2 = 2 cubes per edge have exactly two painted faces. Total = 12 × 2 = 24, so the answer is 24.
+Source: PYQ-style
+
+27. A cube of side 5 cm is painted green on all faces and cut into 1 cm cubes. How many small cubes have no face painted?
+(a) 125 (b) 27 (c) 64 (d) 8
+Answer: (b)
+Solution: Many students answer 64 by wrongly using (n − 1)³. Unpainted cubes form the inner cube of side (n − 2), where n = 5. So unpainted cubes = (5 − 2)³ = 3³ = 27, so the answer is 27.
+Source: PYQ-style
+
+28. A cube is cut into 125 identical smaller cubes after being painted on all faces. How many cubes have exactly one face painted?
+(a) 54 (b) 48 (c) 60 (d) 36
+Answer: (a)
+Solution: The trap is to use n² per face instead of (n − 2)², which wrongly gives 6 × 25 = 150. Here n = 5 (since 5³ = 125). Cubes with exactly one painted face lie on the face interiors: 6 × (n − 2)² = 6 × 9 = 54, so the answer is 54.
+Source: PYQ-style
+
+29. A wooden cube is painted on all sides and cut into 27 equal cubes. How many cubes have three faces painted?
+(a) 4 (b) 8 (c) 6 (d) 12
+Answer: (b)
+Solution: Only corner cubes have three painted faces, and a cube always has 8 corners regardless of how many pieces it is cut into. The option 12 tempts those who confuse corners with edges, so the answer is 8.
+Source: PYQ-style
+
+30. Two positions of the same dice are shown. In position 1, the top face is 1 and the front face is 2. In position 2, the top face is 2 and the front face is 3. Which number is on the face opposite to 2?
+(a) 4 (b) 3 (c) 1 (d) 5
+Answer: (a)
+Solution: The trap is to pick 1 or 3, but faces seen adjacent to 2 can never be opposite it. From the two views, 1 and 3 are adjacent to 2; the remaining side faces adjacent to 2 are 5 and 6. The only number from 1 to 6 not adjacent to 2 is 4, so the answer is 4.
+Source: PYQ-style
+
+31. A cube is painted red on two opposite faces, green on two opposite faces, and blue on the remaining two opposite faces. It is cut into 64 equal cubes. How many cubes have exactly two colours on them?
+(a) 16 (b) 48 (c) 32 (d) 24
+Answer: (d)
+Solution: The trap answer 32 counts all edge cubes, but corner cubes carry three colours and must be excluded. Each of the 12 edges has 4 cubes, of which 2 are corners; so 2 cubes per edge have exactly two painted faces of two different colours. Total = 12 × 2 = 24, so the answer is 24.
+Source: PYQ-style
+
+32. On a standard dice, the sum of numbers on opposite faces is 7. If the face showing 3 is on top, which number is at the bottom?
+(a) 4 (b) 5 (c) 2 (d) 6
+Answer: (a)
+Solution: Some students pick 2, thinking consecutive numbers are opposite, which is the trap. On a standard dice, opposite faces sum to 7, so the face opposite 3 is 7 − 3 = 4, so the answer is 4.
+Source: PYQ-style
+
+33. A cube of side 6 cm is painted black on all faces and cut into 1 cm cubes. How many cubes have at least two faces painted?
+(a) 64 (b) 56 (c) 44 (d) 72
+Answer: (b)
+Solution: The trap is to include one-face cubes or to forget the corners. Cubes with three painted faces = 8 (corners). Cubes with exactly two painted faces = 12 × (6 − 2) = 48. At least two = 8 + 48 = 56, so the answer is 56.
+Source: PYQ-style
+
+34. Two views of a dice show: View 1 — faces 4, 5, 6 meeting at a corner; View 2 — faces 4, 5, 2 meeting at a corner. Which number is opposite to 5?
+(a) 4 (b) 1 (c) 6 (d) 2
+Answer: (b)
+Solution: The trap is to choose 2 or 6, but both are seen adjacent to 5. Faces 4, 6 and 2 are all adjacent to 5, and the fourth adjacent face is 3. The only number from 1 to 6 not adjacent to 5 is 1, so the answer is 1.
+Source: PYQ-style
+
+35. A cube is painted on all faces and cut into 216 equal small cubes. How many small cubes have exactly one face painted?
+(a) 64 (b) 150 (c) 108 (d) 96
+Answer: (d)
+Solution: Here n = 6 (6³ = 216). The trap is using n² per face, giving 6 × 36 = 216. One-face cubes lie in the interior of each face: 6 × (n − 2)² = 6 × 16 = 96, so the answer is 96.
+Source: PYQ-style
+
+36. A dice is thrown so that the numbers 1, 2, 3 are visible on three faces meeting at a corner. On a standard dice (opposite faces sum to 7), which three numbers meet at the corner exactly opposite to this one?
+(a) 4, 5, 6 (b) 2, 3, 4 (c) 1, 5, 6 (d) 3, 4, 5
+Answer: (a)
+Solution: The trap is to think the opposite corner shares some numbers with the original corner. The corner opposite to a given corner is formed by the three faces opposite to the original three faces. Opposites of 1, 2, 3 are 6, 5, 4 respectively, so the answer is 4, 5, 6.
+Source: PYQ-style
+
+37. A cube painted on all faces is cut into 1000 small cubes. How many cubes have no paint at all?
+(a) 512 (b) 343 (c) 729 (d) 216
+Answer: (a)
+Solution: The trap is computing (n − 1)³ = 729. Here n = 10 (10³ = 1000). Unpainted cubes = (n − 2)³ = 8³ = 512, so the answer is 512.
+Source: PYQ-style
+
+38. In a dice, the face with 1 dot is opposite the face with 6 dots, 2 is opposite 5, and 3 is opposite 4. If the dice is rolled so that the top face changes from 1 to 2, which of the following can be the bottom face?
+(a) 6 (b) 1 (c) 5 (d) 3
+Answer: (c)
+Solution: The trap is choosing 6, which was the bottom only when 1 was on top. After rolling, 2 is on top, so the bottom must be the face opposite 2, which is 5, so the answer is 5.
+Source: PYQ-style
+
+39. A cube is painted red on all faces and cut into 64 equal cubes. What is the ratio of cubes with three painted faces to cubes with no painted faces?
+(a) 2 : 1 (b) 1 : 1 (c) 1 : 2 (d) 3 : 1
+Answer: (b)
+Solution: The trap is to assume corners must outnumber hidden cubes. Three-face cubes = 8 (corners). Unpainted cubes = (4 − 2)³ = 8. Ratio = 8 : 8 = 1 : 1, so the answer is 1 : 1.
+Source: PYQ-style
+
+40. Two positions of a dice are shown. Position 1: top = 6, front = 4. Position 2: top = 6, front = 1. If the right face in position 1 is 5, what is the right face in position 2?
+(a) 2 (b) 5 (c) 4 (d) 1
+Answer: (c)
+Solution: The trap is picking 5 again, but the dice has rotated about the vertical axis since 6 stays on top. When the front changes from 4 to 1 (a half turn of the side ring), the face that was at the back, namely 4's opposite side position, comes into play and the right face becomes 4. So the answer is 4.
+Source: PYQ-style
+
+41. A cube of side 4 cm is painted on all faces and cut into 1 cm cubes. How many cubes have at least one face painted?
+(a) 48 (b) 64 (c) 56 (d) 60
+Answer: (c)
+Solution: The trap is answering 64, the total number of cubes. Unpainted cubes = (4 − 2)³ = 8. Cubes with at least one painted face = 64 − 8 = 56, so the answer is 56.
+Source: PYQ-style
+
+42. A dice has numbers 1 to 6. In one view, 2 is on top and 3 faces you. In another view of the same dice, 5 is on top and 3 still faces you. Which number is opposite to 3?
+(a) 2 (b) 1 (c) 6 (d) 5
+Answer: (c)
+Solution: The trap is choosing 2 or 5, but both are seen adjacent to 3. Since 3 faces you in both views while the top changes, 2 and 5 are adjacent to 3, and the two remaining side faces 1 and 4 are also adjacent to 3. The only number not adjacent to 3 is 6, so the answer is 6.
+Source: PYQ-style
+
+43. A cube is painted blue on all faces and cut into 343 equal small cubes. How many cubes have exactly two faces painted?
+(a) 49 (b) 84 (c) 60 (d) 98
+Answer: (c)
+Solution: Here n = 7 (7³ = 343). The trap is computing 12 × 7 = 84, forgetting to remove the corner cubes from each edge. Two-face cubes = 12 × (n − 2) = 12 × 5 = 60, so the answer is 60.
+Source: PYQ-style
+
+44. A large cube is made of 125 small cubes. The entire surface is painted. The small cubes with paint are then removed. How many small cubes remain?
+(a) 25 (b) 27 (c) 64 (d) 98
+Answer: (b)
+Solution: The trap is subtracting only a wrong count of surface cubes instead of finding the inner core directly. Removing all painted cubes leaves the inner cube of side (5 − 2) = 3. Remaining cubes = 3³ = 27, so the answer is 27.
+Source: PYQ-style
+
+45. On a standard dice, which of the following pairs of numbers can never appear on adjacent faces?
+(a) 2 and 3 (b) 4 and 5 (c) 1 and 2 (d) 3 and 4
+Answer: (d)
+Solution: The trap is to guess randomly, but on a standard dice the opposite pairs are (1, 6), (2, 5) and (3, 4). Opposite faces can never be adjacent, and 3 is opposite 4, so the answer is 3 and 4.
+Source: PYQ-style
+
+46. A cube is painted orange on all faces and cut into 64 equal cubes. The cubes with no paint are separated and one of them is chosen. If that inner cube were itself painted and cut into 27 tiny cubes, how many tiny cubes would have three painted faces?
+(a) 1 (b) 4 (c) 8 (d) 27
+Answer: (c)
+Solution: The trap is overthinking the first stage; it only tells us the chosen piece is itself a cube. Any cube cut into 27 pieces has exactly 8 corner cubes with three painted faces, so the answer is 8.
+Source: PYQ-style
+
+47. On a standard dice, opposite faces sum to 7. The dice is placed with 6 on top and 2 facing you. Which number is at the bottom?
+(a) 5 (b) 2 (c) 4 (d) 1
+Answer: (d)
+Solution: The trap is answering 5, which is opposite 2, but 2 is the front face, not the top. The bottom face is opposite the top face 6, and 7 − 6 = 1, so the answer is 1.
+Source: PYQ-style
+
+48. A cube of side 3 cm, painted on all faces, is cut into 1 cm cubes. How many cubes have at most one face painted?
+(a) 7 (b) 9 (c) 8 (d) 12
+Answer: (a)
+Solution: The trap is counting only the single central unpainted cube and forgetting the face-centre cubes. At most one painted face means zero or one painted face: zero-face cubes = (3 − 2)³ = 1, and one-face cubes = 6 × (3 − 2)² = 6. Total = 1 + 6 = 7, so the answer is 7.
+Source: PYQ-style
+
+49. A dice is rolled twice. In the first roll the top face shows 4; after rolling it once towards you, the top face shows 2. On a standard dice (opposite faces sum to 7), which face is now at the bottom?
+(a) 3 (b) 1 (c) 6 (d) 5
+Answer: (d)
+Solution: The trap is answering 3, which is opposite 4, but 4 is no longer on top. After the roll, 2 is on top, so the bottom face is opposite 2, which is 7 − 2 = 5, so the answer is 5.
+Source: PYQ-style
+
+50. A cube is painted on all faces and cut into 512 equal small cubes. How many cubes have exactly one or two faces painted?
+(a) 288 (b) 240 (c) 296 (d) 384
+Answer: (a)
+Solution: Here n = 8 (8³ = 512). The trap is including the 8 corner cubes, but they have three painted faces. One-face cubes = 6 × (8 − 2)² = 216, and two-face cubes = 12 × (8 − 2) = 72. Total = 216 + 72 = 288, so the answer is 288.
+Source: PYQ-style

@@ -1,3 +1,110 @@
-# Chapter: Probability, Level: intermediate
+# 📊 PYQ Analysis — Probability (Intermediate Level)
 
-@pyq_agent lang=en level=intermediate 'Analyse PYQs of Probability for last 10 years (SSC CGL Mains, IBPS PO, RRB NTPC, CAT etc.). Give top 10 high-yield questions with solutions. Also explain what psychological hook or trap each question uses.'
+## How Exams Test Probability — Pattern Analysis
+
+Probability questions in SSC CGL (Mains), IBPS PO, RRB NTPC and CAT follow a small set of repeatable patterns. Once you recognise the *type*, the question rarely takes more than 30–45 seconds.
+
+**The recurring sub-topics:**
+
+1. **Coins and dice** — the entry point. Tossing 2–3 coins, rolling one or two dice, finding P(sum = 7), P(at least one head), etc. These appear in almost every banking prelims and SSC paper.
+2. **Cards (52-card deck)** — P(king), P(red face card), P(ace or spade). The trap is always the composition of the deck: 26 red, 12 face cards, 4 aces.
+3. **Balls from a bag (without replacement)** — the most frequent pattern in IBPS PO and SSC CGL Mains. Two or three balls drawn; find P(both same colour) or P(different colours).
+4. **"At least one" questions** — solved fastest by the complement rule: P(at least one) = 1 − P(none). Examiners love this because students who add probabilities directly get a wrong option that is *also listed*.
+5. **Addition theorem with overlapping events** — P(A ∪ B) = P(A) + P(B) − P(A ∩ B). The trap: forgetting to subtract the intersection (e.g., king AND heart).
+6. **Conditional probability / independent events** — P(A ∩ B) = P(A)·P(B) for independent events; appears more in CAT and IBPS PO Mains.
+7. **Odds and expectation-style framing** — "odds in favour 3:2" means P = 3/5. A classic conversion trap.
+8. **Two-dice sum tables** — sums 2 to 12 with 36 outcomes; sum 7 has the most combinations (6). Memorising this table converts a 2-minute question into a 10-second one.
+
+**The examiner's favourite traps (psychological hooks):**
+
+- **Near-correct options:** If the answer is 11/36, the options will include 1/6 (forgot to count both orders) and 12/36 (double-counted one case).
+- **Replacement confusion:** "Two balls drawn" — with or without replacement? The word is often buried mid-sentence. The two answers differ, and both appear as options.
+- **"At least one" bait:** Students compute P(one) instead of 1 − P(none).
+- **Negative wording:** "Which is NOT possible as a probability?" — options like 1.2 or −0.3 test the range 0 ≤ P ≤ 1.
+- **Similar-name confusion:** Mutually exclusive vs independent — these are *not* the same, and papers exploit the mix-up.
+
+**Time advice:** If a question needs listing more than ~10 cases, switch to combinations (ⁿCᵣ) immediately. Never enumerate under exam pressure.
+
+---
+
+## Top 10 High-Yield Questions (with Solutions)
+
+**Q1.** Two dice are thrown together. What is the probability that the sum of the numbers is 9?
+(a) 1/6  (b) 1/9  (c) 1/12  (d) 2/9
+**Answer: (b)**
+**Solution:** Favourable outcomes: (3,6), (4,5), (5,4), (6,3) = 4. Total = 36. P = 4/36 = 1/9.
+**Trap:** Option (d) 2/9 tempts those who count (4,5) and (3,6) twice by mistake; option (a) tempts those who think "6 favourable sums exist."
+**Source:** PYQ-style (SSC pattern)
+
+**Q2.** A bag has 4 red and 6 blue balls. Two balls are drawn at random (without replacement). What is the probability that both are red?
+(a) 2/15  (b) 4/25  (c) 1/5  (d) 3/10
+**Answer: (a)**
+**Solution:** P = ⁴C₂/¹⁰C₂ = 6/45 = 2/15.
+**Trap:** Option (b) 4/25 = (4/10)² is the *with replacement* answer — the classic replacement-confusion hook.
+**Source:** PYQ-style (IBPS pattern)
+
+**Q3.** A card is drawn from a well-shuffled deck of 52 cards. Find the probability of getting a king or a heart.
+(a) 4/13  (b) 17/52  (c) 3/13  (d) 1/4
+**Answer: (a)**
+**Solution:** P(K) + P(H) − P(K∩H) = 4/52 + 13/52 − 1/52 = 16/52 = 4/13.
+**Trap:** Option (b) 17/52 comes from forgetting to subtract the king of hearts — the overlap trap.
+**Source:** NCERT Class 11 Mathematics
+
+**Q4.** A coin is tossed 3 times. What is the probability of getting at least one head?
+(a) 3/4  (b) 7/8  (c) 1/2  (d) 5/8
+**Answer: (b)**
+**Solution:** P(at least one head) = 1 − P(no head) = 1 − (1/2)³ = 1 − 1/8 = 7/8.
+**Trap:** Option (a) 3/4 attracts students who add P(1 head) + P(2 heads) and stop; option (c) is the "gut feel" answer.
+**Source:** PYQ-style (SSC/RRB pattern)
+
+**Q5.** The odds in favour of an event are 3 : 2. What is the probability of the event?
+(a) 3/2  (b) 2/5  (c) 3/5  (d) 2/3
+**Answer: (c)**
+**Solution:** Odds in favour a : b ⇒ P = a/(a+b) = 3/5.
+**Trap:** Option (d) 2/3 is the inverted ratio; option (a) is impossible since probability cannot exceed 1.
+**Source:** PYQ-style (Banking pattern)
+
+**Q6.** Two cards are drawn from a deck of 52 cards without replacement. What is the probability that both are aces?
+(a) 1/169  (b) 1/221  (c) 4/663  (d) 1/26
+**Answer: (b)**
+**Solution:** P = (4/52) × (3/51) = 12/2652 = 1/221.
+**Trap:** Option (a) 1/169 = (1/13)² is again the *with replacement* answer — the most repeated trap in this chapter.
+**Source:** PYQ-style (SSC CGL Mains pattern)
+
+**Q7.** A speaks truth in 75% of cases and B in 80% of cases. In what percentage of cases are they likely to contradict each other in stating the same fact?
+(a) 35%  (b) 30%  (c) 65%  (d) 5%
+**Answer: (a)**
+**Solution:** Contradiction = A true & B false, or A false & B true = (3/4)(1/5) + (1/4)(4/5) = 3/20 + 4/20 = 7/20 = 35%.
+**Trap:** Option (d) 5% is P(both lie); option (c) is P(agree). The question's wording "contradict" is the hook — read it twice.
+**Source:** PYQ-style (CAT/IBPS PO pattern)
+
+**Q8.** From a bag containing 5 white and 3 black balls, one ball is drawn. What is the probability that it is NOT white?
+(a) 5/8  (b) 3/8  (c) 3/5  (d) 1/8
+**Answer: (b)**
+**Solution:** P(not white) = P(black) = 3/8.
+**Trap:** Option (a) 5/8 is P(white) — the negative-wording trap. "NOT" questions are deliberately placed when candidates are rushing.
+**Source:** NCERT Class 10 Mathematics
+
+**Q9.** If P(A) = 0.4, P(B) = 0.5 and A and B are independent events, find P(A ∪ B).
+(a) 0.9  (b) 0.7  (c) 0.2  (d) 0.8
+**Answer: (b)**
+**Solution:** P(A∩B) = 0.4 × 0.5 = 0.2. P(A∪B) = 0.4 + 0.5 − 0.2 = 0.7.
+**Trap:** Option (a) 0.9 comes from simply adding — treating independent events as mutually exclusive. That confusion is exactly what this question tests.
+**Source:** NCERT Class 12 Mathematics
+
+**Q10.** A number is chosen at random from the first 20 natural numbers. What is the probability that it is a multiple of 3 or 5?
+(a) 9/20  (b) 1/2  (c) 11/20  (d) 7/20
+**Answer: (a)**
+**Solution:** Multiples of 3: 6 (3,6,9,12,15,18); multiples of 5: 4 (5,10,15,20); common (15): 1. Favourable = 6 + 4 − 1 = 9. P = 9/20.
+**Trap:** Option (b) 1/2 = 10/20 comes from forgetting that 15 is counted twice — the same overlap trap as Q3, in number form.
+**Source:** PYQ-style (RRB NTPC pattern)
+
+---
+
+## Key Takeaways for Revision
+
+- Master the **two-dice sum table** (36 outcomes; sum 7 → 6 ways) and the **52-card deck composition** — these two alone cover a large share of questions.
+- For "at least one", always use **1 − P(none)**.
+- Check **replacement vs without replacement** before touching the formula.
+- Overlap questions (king-or-heart, multiple-of-3-or-5) always need the **intersection subtracted once**.
+- Verify every answer lies in **[0, 1]** — a 10-second sanity check that kills silly mistakes.

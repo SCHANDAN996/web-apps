@@ -1,0 +1,43 @@
+# The Feynman Way: Understanding Series Like a 12-Year-Old
+
+## The Cricket Scoreboard Story
+
+Imagine you're watching a cricket match, but the scoreboard is broken. It only shows the runs scored in each over, one over at a time:
+
+**Over 1: 4 runs, Over 2: 8 runs, Over 3: 12 runs, Over 4: 16 runs, Over 5: ?**
+
+You don't need to be a mathematician to guess Over 5. Your brain has already spotted the secret: the batsman is hitting exactly 4 more runs every over. So Over 5 = **20 runs**.
+
+**That is ALL a series question is.** A series is just a broken scoreboard. Numbers (or letters) follow a hidden rule, one step at a time, and your job is to find the rule and predict the next step. The examiner isn't testing your maths — he's testing whether you can find the *pattern* hiding in plain sight.
+
+## The Hardest Part: When the Rule Itself Keeps Changing
+
+Here's where most students get trapped. Easy series have one fixed rule (+4, ×2, and so on). But examiners love series where **the rule itself follows a rule**. Look at this:
+
+**3, 5, 9, 17, 33, ?**
+
+Try +2, +4, +8, +16... wait — the *gaps* are doubling! The gaps are 2, 4, 8, 16, so the next gap is 32, and the answer is **65**.
+
+Think of it like climbing stairs where each step is twice as high as the last. The numbers aren't following one rule — the *differences* are. This is called a **second-level pattern**, and it's the single most common trick in SSC and Banking exams.
+
+**The golden habit:** When a series doesn't crack in 10 seconds, don't stare at the numbers — stare at the *gaps between the numbers*. Write the differences above each pair. If the differences look random, take the differences of the differences. Most "impossible" series surrender at this second level.
+
+## Letter Series: Same Game, Different Costumes
+
+Letter series scare students, but they're just number series wearing costumes. A = 1, B = 2, C = 3... Z = 26. That's it.
+
+**A, C, F, J, ?** → Convert: 1, 3, 6, 10 → gaps are +2, +3, +4 → next gap +5 → 15 = **O**.
+
+**The unforgettable trick — "The EJOTY Hand":** Remember five anchor letters: **E(5), J(10), O(15), T(20), Y(25)** — spell "EJOTY". Now you never need to count from A. Need the position of R? T is 20, so R is 20 − 2 = 18. Done in 2 seconds. This one trick saves precious seconds on every letter question.
+
+## The Examiner's Three Favourite Traps
+
+1. **The alternating series:** Two series interleaved like a zipper — odd positions follow one rule, even positions another. If gaps look chaotic, check positions 1-3-5 and 2-4-6 separately.
+2. **The wrong-number question:** Here one term breaks the rule. Find the rule from the *healthy* terms first, then hunt the impostor.
+3. **The "almost fits" option:** In 2, 6, 12, 20, 30, ? — both 42 (+12) and 40 (×2) might tempt you. Always verify your rule against *every* given term, not just the last two.
+
+## Blurting Sheet
+
+Now try to write down all key points of this chapter on a blank sheet without looking up — the gap method, second-level differences, EJOTY, alternating series, and the three traps. Whatever you couldn't recall is exactly what you need to revise tonight.
+
+**Question for you:** In the series 4, 9, 19, 39, 79, ? — can you spot whether the rule is "×2 + 1" or "gaps doubling + 5"... and does it matter if both give the same answer?

@@ -1,122 +1,151 @@
-Set 1: Venn Diagrams MCQs (English)
-Questions 1–16: Easy | Questions 17–20: Medium
+Questions 1–15: Easy to Medium | Questions 16–25: Medium to Hard
 
-Q1. 40 people like apples, 30 like oranges, 10 like both. How many like at least one?
-(a) 60 (b) 70 (c) 80 (d) 50
-Answer: (a) 60
-Solution: n(A∪B) = 40 + 30 − 10 = 60.
-Source: NCERT Reasoning
+1. Which of the following Venn diagrams best represents the relationship among: India, Asia, Earth?
+(a) One circle inside another, and both inside a third (concentric circles) (b) Three separate circles (c) Two separate circles inside one large circle (d) Three mutually overlapping circles
+Answer: (a)
+Solution: India is entirely within Asia, and Asia is entirely on Earth. Hence, they form three concentric nested circles.
+Source: PYQ-style
 
-Q2. From Q1's data, how many like only apples?
-(a) 30 (b) 40 (c) 20 (d) 10
-Answer: (a) 30
-Solution: Only apples = 40 − 10 = 30.
-Source: SSC MTS
+2. Which Venn diagram shows the correct relationship among: Pen, Pencil, Eraser?
+(a) Three mutually overlapping circles (b) Three separate (mutually disjoint) circles (c) One large circle containing two smaller circles (d) Two intersecting circles, third separate
+Answer: (b)
+Solution: Pen, pencil, and eraser are distinct stationery items with no subset or overlap relation. Hence, three separate circles.
+Source: PYQ-style
 
-Q3. Which relationship fits: Dog, Cat, Animal?
-(a) Three separate (b) Dog and Cat separate, both inside Animal (c) All overlapping (d) Nested
-Answer: (b) Dog and Cat separate, both inside Animal
-Solution: Both are animals but different from each other.
-Source: SSC CHSL
+3. Select the Venn diagram that best illustrates the relationship: Women, Mothers, Engineers.
+(a) Three completely separate circles (b) Two separate circles inside a large circle (c) One circle (Mothers) completely inside another (Women), and a third circle (Engineers) intersecting both (d) Three separate circles with no nested subset
+Answer: (c)
+Solution: All mothers are women (Mothers ⊂ Women). Some women and some mothers are engineers. Hence, the Engineers circle intersects both circles.
+Source: PYQ-style
 
-Q4. 20 like A, 15 like B, 5 like both. How many like at least one?
-(a) 30 (b) 35 (c) 25 (d) 40
-Answer: (a) 30
-Solution: n(A∪B) = 20 + 15 − 5 = 30.
-Source: RRB NTPC
+4. Which Venn diagram best represents the classes: Doctors, Surgeons, Neurologists?
+(a) Three concentric circles (b) Two overlapping circles inside a large circle (c) Three mutually overlapping circles (d) One large circle (Doctors) containing two smaller non-overlapping circles
+Answer: (d)
+Solution: Both surgeons and neurologists are doctors, but they represent distinct medical specializations. Hence, two disjoint circles inside a large circle.
+Source: PYQ-style
 
-Q5. Out of 50 people, 20 like A, 15 like B, 5 like both. How many like neither?
-(a) 20 (b) 25 (c) 15 (d) 30
-Answer: (a) 20
-Solution: At least one = 20 + 15 − 5 = 30. Neither = 50 − 30 = 20.
-Source: SSC CGL
+5. Choose the correct diagram for: Players, Singers, Doctors.
+(a) Three mutually overlapping circles (triple intersection) (b) Three completely separate circles (c) One circle inside another, third separate (d) Two overlapping circles, third separate
+Answer: (a)
+Solution: A person can be any combination of player, singer, and doctor (including all three). Hence, three mutually overlapping circles.
+Source: PYQ-style
 
-Q6. The formula for the number in A or B is:
-(a) n(A) + n(B) (b) n(A) + n(B) − n(A∩B) (c) n(A) − n(B) (d) n(A) × n(B)
-Answer: (b) n(A) + n(B) − n(A∩B)
-Solution: Subtract the shared part once.
-Source: NCERT Reasoning
+6. In a geometric Venn diagram: Triangle = Teachers, Circle = Graduates, Rectangle = Women. Numbers are: only teachers = 4, only graduates = 6, only women = 7, teachers and graduates (not women) = 3, graduates and women (not teachers) = 5, all three = 1. How many graduate women are NOT teachers?
+(a) 6 (b) 5 (c) 7 (d) 8
+Answer: (b)
+Solution: Graduate women who are not teachers corresponds to the region common to Circle and Rectangle outside Triangle = 5.
+Source: PYQ-style
 
-Q7. 30 like tea, 20 like coffee, 8 like both. How many like only coffee?
-(a) 12 (b) 8 (c) 20 (d) 22
-Answer: (a) 12
-Solution: Only coffee = 20 − 8 = 12.
-Source: SSC MTS
+7. In a Venn diagram, circle A = Men, circle B = Employed, circle C = Educated. Which region represents men who are educated but NOT employed?
+(a) Region only inside circle A (b) Intersection of A and B (c) Intersection of A and C excluding B (d) Intersection of all three circles
+Answer: (c)
+Solution: Men (A) who are educated (C) but not employed (outside B) corresponds to (A ∩ C) excluding B.
+Source: PYQ-style
 
-Q8. Which diagram shows "all cats are animals"?
-(a) Two separate circles (b) Two overlapping circles (c) Cat circle inside Animal (d) Animal circle inside Cat
-Answer: (c) Cat circle inside Animal
-Solution: "All cats are animals" → the Cat circle sits fully inside the Animal circle.
-Source: SSC CHSL
+8. In a school, circle represents Cricket, triangle Football, and square Hockey. How many students play both Cricket and Football but NOT Hockey (region: Cricket ∩ Football - Hockey)?
+(a) 3 (b) 5 (c) 7 (d) 4
+Answer: (d)
+Solution: The region common to the circle and triangle outside the square contains the value 4.
+Source: PYQ-style
 
-Q9. 25 like tea, 25 like coffee, 10 like both. How many like at least one?
-(a) 40 (b) 50 (c) 60 (d) 35
-Answer: (a) 40
-Solution: n(A∪B) = 25 + 25 − 10 = 40.
-Source: RRB Group D
+9. In a survey, 55% of people like tea, 45% like coffee, and 20% like both. What percentage of people like neither tea nor coffee?
+(a) 20% (b) 15% (c) 25% (d) 30%
+Answer: (a)
+Solution: Union = 55% + 45% - 20% = 80%. Neither = 100% - 80% = 20%.
+Source: PYQ-style
 
-Q10. Which diagram shows "no pen is a book"?
-(a) Two separate circles (b) Two overlapping circles (c) One inside another (d) Three circles
-Answer: (a) Two separate circles
-Solution: "No pen is a book" → completely separate (disjoint) circles.
-Source: NCERT Reasoning
+10. In a Venn diagram of families using three energy sources: LPG, Electricity, and Solar, how many families use only LPG and Solar (and NOT Electricity)?
+(a) 8 (b) 12 (c) 10 (d) 15
+Answer: (b)
+Solution: The intersection of LPG and Solar circles excluding Electricity yields 12.
+Source: PYQ-style
 
-Q11. 60 study math, 40 study science, 20 study both. How many study at least one?
-(a) 80 (b) 100 (c) 60 (d) 120
-Answer: (a) 80
-Solution: n(A∪B) = 60 + 40 − 20 = 80.
-Source: SSC CGL
+11. Statements: All flowers are plants. Some plants are trees. Conclusions: I. Some trees are flowers. II. Some plants are flowers.
+(a) Only conclusion I follows (b) Both conclusions I and II follow (c) Only conclusion II follows (d) Neither conclusion follows
+Answer: (c)
+Solution: Since Flowers ⊂ Plants, Some plants are definitely flowers (II follows). There is no guaranteed overlap between Trees and Flowers (I does not follow).
+Source: PYQ-style
 
-Q12. From Q11's data, how many study only math?
-(a) 40 (b) 60 (c) 20 (d) 80
-Answer: (a) 40
-Solution: Only math = 60 − 20 = 40.
-Source: SSC MTS
+12. Statements: No book is a pen. All pens are pencils. Conclusions: I. Some books are pencils. II. Some pencils are not books.
+(a) Only conclusion I follows (b) Both conclusions follow (c) Neither conclusion follows (d) Only conclusion II follows
+Answer: (d)
+Solution: Pens ⊂ Pencils, and no pen is a book. Those pencils which are pens can never be books. Hence, 'Some pencils are not books' definitely follows.
+Source: PYQ-style
 
-Q13. Which relationship fits: Rose, Flower, Plant?
-(a) Three separate (b) All overlapping (c) Rose inside Flower inside Plant (d) Two separate, one inside
-Answer: (c) Rose inside Flower inside Plant
-Solution: Every rose is a flower, and every flower is a plant — three nested circles.
-Source: SSC CHSL
+13. Statements: Some actors are singers. All singers are dancers. Conclusions: I. Some actors are dancers. II. All dancers are singers.
+(a) Only conclusion I follows (b) Only conclusion II follows (c) Both conclusions follow (d) Neither conclusion follows
+Answer: (a)
+Solution: Actors who are singers are necessarily dancers, so Some actors are dancers (I follows). All dancers are singers is not necessarily true (II does not follow).
+Source: PYQ-style
 
-Q14. Out of 100 people, 70 like A, 60 like B, 40 like both. How many like neither?
-(a) 10 (b) 20 (c) 30 (d) 0
-Answer: (a) 10
-Solution: At least one = 70 + 60 − 40 = 90. Neither = 100 − 90 = 10.
-Source: RRB NTPC
+14. Statements: All mangoes are fruits. No fruit is a vegetable. Conclusions: I. No mango is a vegetable. II. Some vegetables are mangoes.
+(a) Only conclusion II follows (b) Only conclusion I follows (c) Both conclusions follow (d) Neither conclusion follows
+Answer: (b)
+Solution: Mangoes ⊂ Fruits, and Fruits and Vegetables are completely disjoint. Thus, no mango can be a vegetable. Only I follows.
+Source: PYQ-style
 
-Q15. Which diagram shows "some students are players"?
-(a) Two separate (b) Two overlapping (c) One inside another (d) Three separate
-Answer: (b) Two overlapping
-Solution: "Some" means partial overlap.
-Source: NCERT Reasoning
+15. Statements: Some cats are dogs. All dogs are rats. No rat is a bat. Conclusions: I. Some cats are rats. II. No cat is a bat.
+(a) Only conclusion II follows (b) Both conclusions follow (c) Only conclusion I follows (d) Neither conclusion follows
+Answer: (c)
+Solution: The part of cats that are dogs is inside rats, so Some cats are rats (I follows). Cats outside dogs and rats could intersect bats, so II is not definite.
+Source: PYQ-style
 
-Q16. 35 like A, 25 like B, 15 like both. How many like at least one?
-(a) 45 (b) 60 (c) 50 (d) 40
-Answer: (a) 45
-Solution: n(A∪B) = 35 + 25 − 15 = 45.
-Source: SSC MTS
+16. Which Venn diagram represents the sets: College, Principal, Students?
+(a) Three mutually overlapping circles (b) Three concentric nested circles (c) Two overlapping circles, third separate (d) One large circle (College) containing two separate non-overlapping circles (Principal and Students)
+Answer: (d)
+Solution: Principal and Students are both members of a College, but a Principal is not a Student. Thus, two disjoint circles inside a large circle.
+Source: PYQ-style
 
-Q17. (Medium) From "35 like A, 25 like B, 15 like both", how many like only A?
-(a) 20 (b) 10 (c) 15 (d) 35
-Answer: (a) 20
-Solution: Only A = 35 − 15 = 20.
-Source: SSC CGL
+17. Choose the diagram for: Furniture, Chair, Table.
+(a) One large circle (Furniture) containing two separate non-overlapping circles (Chair and Table) (b) Three separate circles (c) Two overlapping circles inside a large circle (d) Three mutually overlapping circles
+Answer: (a)
+Solution: Both Chair and Table are types of Furniture, but chairs are distinct from tables. Thus, two disjoint circles inside a large circle.
+Source: PYQ-style
 
-Q18. (Medium) Which diagram fits: some men are doctors, some doctors are engineers, some engineers are men?
-(a) Three separate circles (b) Three mutually overlapping circles (c) Nested circles (d) Two overlapping
-Answer: (b) Three mutually overlapping circles
-Solution: Each pair shares "some", so all three circles overlap one another.
-Source: SSC CGL
+18. Which option fits the words: Car, Vehicle, Petrol?
+(a) Three mutually overlapping circles (b) One large circle (Vehicle) containing Car, and Petrol as a completely separate circle (c) One large circle containing two overlapping circles (d) Two separate circles, third inside one of them
+Answer: (b)
+Solution: Car is a type of vehicle (Car ⊂ Vehicle). Petrol is a fuel, not a vehicle, so it forms an entirely separate disjoint circle.
+Source: PYQ-style
 
-Q19. (Medium) 50 like X, 40 like Y, 15 like both. How many like only Y?
-(a) 25 (b) 40 (c) 15 (d) 35
-Answer: (a) 25
-Solution: Only Y = 40 − 15 = 25.
-Source: RRB Group D
+19. In a Venn diagram with three intersecting circles A, B, and C, how many distinct bounded regions are formed?
+(a) 6 (b) 8 (c) 7 (d) 9
+Answer: (c)
+Solution: Three intersecting circles form exactly 7 distinct bounded regions: 3 individual only, 3 pairwise only, and 1 triple intersection.
+Source: PYQ-style
 
-Q20. (Medium) Out of 80 people, 40 like X, 30 like Y, 10 like both. How many like neither?
-(a) 20 (b) 10 (c) 30 (d) 0
-Answer: (a) 20
-Solution: At least one = 40 + 30 − 10 = 60. Neither = 80 − 60 = 20.
-Source: SSC CGL
+20. If 'only A' = 5, 'only B' = 7, 'only C' = 9, 'A and B only' = 3, 'A and C only' = 2, 'B and C only' = 4, and 'all three' = 1, how many total elements are in set A?
+(a) 9 (b) 10 (c) 12 (d) 11
+Answer: (d)
+Solution: Total in A = only A + (A∩B only) + (A∩C only) + all three = 5 + 3 + 2 + 1 = 11.
+Source: PYQ-style
+
+21. Which Venn diagram correctly shows the relationship among: Paper, Book, Printer?
+(a) Paper and Book overlapping, Printer as a separate circle (b) Three completely separate circles (c) Three concentric circles (d) Three mutually overlapping circles
+Answer: (a)
+Solution: Some paper is used in books, and books are made of paper. Printer is an electronic machine, entirely disjoint from both.
+Source: PYQ-style
+
+22. Statements: Some pencils are pens. No pen is an eraser. Conclusions: I. Some pencils are not erasers. II. All pencils being pens is a possibility.
+(a) Only conclusion I follows (b) Both conclusions I and II follow (c) Only conclusion II follows (d) Neither conclusion follows
+Answer: (b)
+Solution: The part of pencils that are pens cannot be erasers (I follows). Statements do not forbid all pencils from being pens, so the possibility is valid (II follows).
+Source: PYQ-style
+
+23. In a diagram: Triangle = Players, Square = Graduates, Circle = Indians. If only players = 8, only graduates = 6, and players and graduates (not Indians) = 4, how many persons are either players or graduates, but NOT Indians?
+(a) 17 (b) 19 (c) 18 (d) 21
+Answer: (c)
+Solution: Persons in Players or Graduates outside Indians = 8 + 6 + 4 = 18.
+Source: PYQ-style
+
+24. Which Venn diagram best represents: Males, Brothers, Sisters?
+(a) Two overlapping circles inside a large circle (b) Three mutually overlapping circles (c) Three completely separate circles (d) One large circle (Males) containing Brothers, and Sisters as a separate circle
+Answer: (d)
+Solution: All brothers are males (Brothers ⊂ Males). Sisters are females and cannot be males, so Sisters forms a separate disjoint circle.
+Source: PYQ-style
+
+25. Statements: All windows are doors. No door is a wall. Some walls are roofs. Conclusions: I. Some roofs are windows. II. No window is a wall.
+(a) Only conclusion I follows (b) Only conclusion II follows (c) Both conclusions follow (d) Neither conclusion follows
+Answer: (b)
+Solution: Windows ⊂ Doors, and Doors ∩ Walls = ∅, which implies Windows ∩ Walls = ∅ (II follows). Roofs and Windows have no definite intersection (I does not follow).
+Source: PYQ-style

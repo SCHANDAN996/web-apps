@@ -1,24 +1,41 @@
-# Feynman Technique: Missing Term in Simple Words
+🧒 Feynman Technique: The Trick of the Hidden Twins
 
-Tell your younger brother: "Think of a jigsaw puzzle — one piece in the middle is missing. By looking at the other pieces you can tell what fits in the middle. Missing term is exactly this — finding the answer for the 'blank' from the surrounding terms."
+Imagine you're at a party. There are two DJs, DJ Even and DJ Odd. DJ Even plays a beat: boom... boom... boom... – every beat is louder by 2 decibels: 10, 12, 14, 16. DJ Odd plays a different tune: clap... clap... clap... – every clap gets 3 decibels louder: 5, 8, 11, 14. They take turns. The sound you hear is: 10, 5, 12, 8, 14, 11, 16, 14.
 
-**First catch the rule around it, then apply the same to the blank.**
+If I ask you, “What comes next?” you might get confused because you’re hearing two songs mixed together. But once you realise that one singer only sings at odd positions (1st, 3rd, 5th) and the other only at even positions (2nd, 4th, 6th), you simply separate them in your mind. Then you find each song’s own simple pattern. That’s the “double series” or “interleaved series” — the hardest concept in Missing Term made child’s play.
 
-## The Biggest Trick: Check All Three Directions
+The Unforgettable Trick: “Split and High-Five”
+Whenever you see a series that doesn’t make sense as a whole, give it a high-five:
 
-In a matrix, the rule may be hidden anywhere:
-- In the row — left to right
-- In the column — top to bottom
-- Or in the diagonal
+Split the sequence into two hands: left hand (odd positions) and right hand (even positions).
 
-Whatever rule fits the other rows/columns, apply it to the ?.
+Write them down separately.
 
-## Blurting Sheet (Write from Memory)
+Now find the pattern for each hand independently — they’re almost always simple addition/subtraction or multiplication.
 
-Close the book and write:
-1. What is the first step to solve a missing term?
-2. Where can the rule be in a matrix?
-3. What are the three types?
-4. What is the most common trap?
+Example: 3, 21, 5, 18, 7, 15, ?, ?
+Left hand (1st, 3rd, 5th): 3, 5, 7 → +2 each time → next is 9.
+Right hand (2nd, 4th, 6th): 21, 18, 15 → –3 each time → next is 12.
+Answer: 9, 12.
 
-Whatever you cannot write, read again.
+That’s it. No magic, just separating the twin series. The examiners love to wrap simple patterns in a tangled ribbon, and you’re the one who untangles them.
+
+So, why is this the hardest? Because your brain tries to connect every number to its neighbour, and when 3 jumps to 21 (+18), then 21 to 5 (–16), it looks random. But you’ve now learned that some neighbours don’t belong to the same family. They’re just politely taking turns.
+
+📝 Blurting Sheet Instruction
+
+Now close the book. Take a blank sheet of paper. Without peeking, write down:
+
+How to recognise a double series.
+
+The “Split and High-Five” trick in your own words.
+
+Solve a fresh double series you invent yourself and explain the steps.
+
+The two main pattern types (number and alphabet) and how to tackle them.
+
+The EJOTY mnemonic and the “A to Z sum is 27” rule.
+
+After you’ve written everything you remember, open the chapter and fill in what you missed with a different coloured pen. That’s how Feynman mastered hard topics — by teaching them to an empty chair.
+
+Final Question: What if a triple series appears — three patterns taking turns? Can you extend the Split and High-Five trick to three hands? How would you find the next term in 1, 10, 100, 2, 20, 200, 3, 30, ? Think about it.

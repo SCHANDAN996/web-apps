@@ -1,0 +1,40 @@
+```mermaid
+graph TD
+    A["शृंखला / Series"] --> B["संख्या शृंखला<br>Number Series"]
+    A --> C["वर्ण शृंखला<br>Letter Series"]
+    A --> D["अल्फ़ा-न्यूमेरिक<br>Alphanumeric Series"]
+    A --> E["चित्र शृंखला<br>Figure Series"]
+
+    B --> B1["अंकगणितीय<br>Arithmetic (+/−)"]
+    B --> B2["गुणोत्तर<br>Geometric (×/÷)"]
+    B --> B3["वर्ग/घन<br>Squares & Cubes"]
+    B --> B4["मिश्रित पैटर्न<br>Mixed (×2+1 आदि)"]
+    B --> B5["दोहरी शृंखला<br>Two Interleaved Series"]
+    B --> B6["अभाज्य संख्या<br>Prime Numbers"]
+
+    C --> C1["स्थान मान याद रखें<br>Place Values (A=1…Z=26)"]
+    C --> C2["स्थिर अंतर<br>Constant Gap"]
+    C --> C3["बढ़ता/घटता अंतर<br>Increasing/Decreasing Gap"]
+    C --> C4["विपरीत क्रम<br>Reverse Order"]
+    C --> C5["समूह पैटर्न<br>Group Pattern (ABC, CDE…)"]
+
+    D --> D1["अक्षर + संख्या मिश्रण<br>Letter + Number Mix"]
+    D --> D2["स्थान-आधारित प्रश्न<br>Position-based Questions"]
+
+    A --> F["रणनीति<br>Strategy"]
+    F --> F1["पहले अंतर देखें<br>Check Differences First"]
+    F --> F2["फिर अनुपात<br>Then Ratios"]
+    F --> F3["वर्ग/घन पहचानें<br>Spot Squares/Cubes"]
+    F --> F4["वैकल्पिक पद जाँचें<br>Check Alternate Terms"]
+
+    A --> G["समय प्रबंधन<br>Time Management"]
+    G --> G1["आसान: 15–20 सेकंड<br>Easy: 15–20 sec"]
+    G --> G2["कठिन: 45 सेकंड में छोड़ें<br>Skip after 45 sec"]
+    G --> G3["पहले आसान प्रश्न<br>Easy Questions First"]
+
+    A --> H["परीक्षक के जाल<br>Examiner Traps"]
+    H --> H1["दोहरी शृंखला को एक समझना<br>Mistaking Interleaved for Single"]
+    H --> H2["गलत पद में लगभग-सही विकल्प<br>Near-correct Options"]
+    H --> H3["वर्ण मान की गिनती में भूल<br>Miscounting Letter Values"]
+    H --> H4["घटता क्रम न देखना<br>Missing Decreasing Pattern"]
+```

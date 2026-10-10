@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block title %}{{ tr('practice_title') }} — {{ tr('brand') }}{% endblock %}
+{% block main %}
+<h1>{{ tr('practice_title') }}</h1>
+<p class="muted">{{ tr('practice_desc') }}</p>
+{% if has_books or ca_recent %}
+<div class="tile-row">
+  {% if has_books %}<a class="tile card-link" href="/books"><svg class="icon"><use href="#i-book"/></svg><b>{{ tr('books_title') }}</b><span class="xs muted">{{ tr('books_tile') }}</span></a>{% endif %}
+  {% if ca_recent %}<a class="tile card-link" href="/current-affairs"><svg class="icon"><use href="#i-news"/></svg><b>{{ tr('ca_title') }}</b><span class="xs muted">{{ tr('ca_tile') }}</span></a>{% endif %}
+</div>
+{% endif %}
+<label class="search" for="topicSearch">
+  <svg class="icon" aria-hidden="true"><use href="#i-search"/></svg>
+  <input id="topicSearch" type="search" placeholder="{{ tr('topic_search') }}" autocomplete="off" enterkeyhint="search">
+</label>
+<nav class="sec-tabs subject-tabs" aria-label="{{ tr('subjects') }}">
+  {% for s in subjects %}<a class="chip" href="#{{ s.slug }}" data-subject-tab="{{ s.slug }}">{{ L(s.name_hi, s.name_en) }}</a>{% endfor %}
+</nav>
+<p class="empty small" id="searchEmpty" hidden>{{ tr('topic_search_none') }}</p>
+{% for s in subjects %}
+<section class="card enter subject-sec" id="{{ s.slug }}" data-subject="{{ s.slug }}" style="margin-bottom:var(--sp-4);scroll-margin-top:72px">
+  <h2>{{ L(s.name_hi, s.name_en) }}</h2>
+  <ul class="list">
+    {% for tp in s.topics if counts.get(tp.id) %}
+    {% set m = mastery.get(tp.id) %}
+    <li data-topic-name="{{ (tp.name_hi ~ ' ' ~ tp.name_en)|lower }}"><a class="list-item" href="/practice/{{ s.slug }}/{{ tp.slug }}">
+      <div class="grow">
+        <b>{{ L(tp.name_hi, tp.name_en) }}</b>
+        <div class="xs muted">{{ counts[tp.id] }} {{ tr('questions') }}{% if m %} · {{ tr('accuracy') }} {{ m.accuracy }}%{% endif %}</div>
+        {% if m %}<div class="meter {{ 'ok' if m.accuracy >= 75 else ('warn' if m.accuracy >= 50 else 'bad') }}" style="margin-top:6px"><i style="width:{{ m.accuracy }}%"></i></div>{% endif %}
+      </div>
+      <svg class="icon chev"><use href="#i-chev"/></svg>
+    </a></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}
+{% endblock %}

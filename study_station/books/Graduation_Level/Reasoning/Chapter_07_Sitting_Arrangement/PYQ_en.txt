@@ -1,0 +1,179 @@
+# 📊 PYQ Analysis — Sitting Arrangement (Complex)
+
+## 1. How Exams Test This Chapter (Pattern Analysis)
+
+Across SSC (CGL, CHSL), Banking (IBPS PO/Clerk, SBI PO), Railway (NTPC) and State PCS prelims, complex sitting arrangement questions appear as **puzzle sets** — one paragraph of clues followed by 3–5 questions. The recurring sub-topics, in rough order of how often examiners return to them:
+
+1. **Circular arrangement with mixed facing** — some face the centre, some face outward. This is the single most repeated complex variant.
+2. **Linear row with two facing directions** — some face North, some South, in one or two parallel rows.
+3. **Arrangement + extra attribute** — persons + their cities/professions/colours/favourite items. The arrangement is only half the puzzle; the attribute mapping is the other half.
+4. **Rectangular/square table** — persons at corners and at mid-sides, with mixed facing.
+5. **Floor-based or row+column hybrids** — technically "puzzle" but solved with the same seating logic.
+6. **Blood relation embedded in seating** — "the wife of X sits second to the left of Y."
+
+**Exam-wise flavour (qualitative, not counts):**
+- **Banking (IBPS/SBI):** the heaviest user — long puzzles with 8–10 persons, two variables, and "who sits third to the right of the one who likes X" phrasing.
+- **SSC CGL/CHSL:** shorter, 5–8 persons, usually one variable; circular with mixed facing is the favourite.
+- **Railway NTPC:** single-question seating, mostly linear or simple circular, all facing one way.
+- **State PCS:** moderate length, often rectangular tables.
+
+## 2. The Examiner's Traps (Psychological Hooks)
+
+- **Trap 1 — "Second to the right of the person facing outward":** the direction of right/left flips for outward-facing persons. Students who mark everyone as centre-facing lose the whole set.
+- **Trap 2 — Negative clues:** "A does not sit next to B or C." Students ignore negative clues until the end, then find two possible diagrams. Negative clues must be applied *during* placement.
+- **Trap 3 — Dummy/uncertain positions:** the puzzle deliberately leaves one person placeable in two seats until a late clue resolves it. Students who fix that person early build the whole diagram on sand.
+- **Trap 4 — "Between" ambiguity:** "P sits between Q and R" does NOT say Q–P–R or R–P–Q. Both orders must be kept open.
+- **Trap 5 — Attribute chain:** "The doctor sits opposite the one from Delhi, who is next to the engineer." Students try to place attributes before fixing seats; the correct order is seats first, attributes second.
+- **Trap 6 — Similar names:** P, Q, R vs. Priya, Pooja, Prakash — designed to cause misreading under time pressure.
+- **Trap 7 — "Immediate neighbour of the wife of X":** mixes blood relation with seating; students solve the relation but forget to convert it into a seat constraint.
+
+## 3. The 15-Second / 45-Second Rule — Reviewed for This Chapter
+
+- **15-second scan:** read the clue paragraph once. If you can identify (a) shape, (b) number of persons, (c) facing directions, and (d) at least one *fixed anchor* clue ("X sits at the corner facing centre"), the set is solvable — invest time.
+- **45-second checkpoint:** if after 45 seconds you have not placed even 3 persons with certainty, **skip the entire set** and return later. Seating sets are all-or-nothing: a half-built diagram earns zero marks for 5 questions.
+- **Skip immediately if:** 9–10 persons + two attributes + mixed facing + mostly negative clues. This combination is a known time-sink in Banking prelims; attempt it only after all easier sets are done.
+- **Never skip if:** 5–6 persons, single row or single circle, all facing one direction, with one direct anchor clue. These are 5 quick marks.
+
+## 4. Ten High-Yield PYQ-Style Questions (with Trap Analysis)
+
+---
+
+**Q1.** Eight persons A–H sit around a circular table. A, B, C, D face the centre; E, F, G, H face outward. A sits second to the right of E. Based only on this information, who sits on A's immediate left?
+(a) The person two seats clockwise from E
+(b) The person immediately clockwise from A
+(c) Cannot be determined from the given clue alone
+(d) E himself
+
+**Answer:** (c)
+**Solution:** The clue fixes A's seat relative to E (two seats anticlockwise from E, since E faces outward and an outward-facing person's right is anticlockwise). But it says nothing about which of the remaining six persons occupies the seat next to A — more clues are needed. The trap is assuming the clue chain already determines every neighbour.
+**Trap used:** Trap 1 — facing-direction flip, plus over-assumption of a complete diagram.
+**Source:** PYQ-style (IBPS PO pattern)
+
+---
+
+**Q2.** Six persons P, Q, R, S, T, U sit in a row facing North. S sits at the left end. Q sits immediately to the right of S. P sits second to the right of Q. R sits at the right end. Which must be true?
+(a) Q is at the left end
+(b) P is third from the left
+(c) P is fourth from the left
+(d) Q is third from the left
+
+**Answer:** (c)
+**Solution:** S is at position 1, Q immediately right of S is at position 2, and P second to the right of Q is at position 4. R at position 6 is consistent, leaving T and U in positions 3 and 5. The trap is miscounting "second to the right" as the adjacent seat.
+**Trap used:** position-counting error — treating "second to the right" as "immediately to the right."
+**Source:** PYQ-style (SSC CGL pattern)
+
+---
+
+**Q3.** "M sits between N and O." Which arrangement does this guarantee?
+(a) N–M–O only
+(b) O–M–N only
+(c) Either N–M–O or O–M–N
+(d) M is exactly in the middle of the row
+
+**Answer:** (c)
+**Solution:** "Between" fixes M's neighbours as N and O but not their order. Both sequences satisfy the clue. "Middle of the row" is a different claim entirely.
+**Trap used:** Trap 4 — between-ambiguity.
+**Source:** PYQ-style
+
+---
+
+**Q4.** In a circular set of 8 facing the centre, you have placed 5 persons and find person X can sit in either of two seats. What should you do?
+(a) Fix X in the left seat and continue
+(b) Fix X in the right seat and continue
+(c) Keep both possibilities open and look for an unused clue
+(d) Abandon the set
+
+**Answer:** (c)
+**Solution:** A well-designed puzzle always contains one clue that resolves the ambiguity later. Fixing X arbitrarily risks rebuilding the entire diagram. Abandoning is premature — the 45-second rule applies only when fewer than 3 persons are placed.
+**Trap used:** Trap 3 — dummy position.
+**Source:** PYQ-style
+
+---
+
+**Q5.** Eight persons sit around a square table, four at corners facing centre, four at mid-sides facing outward. "The doctor sits opposite the engineer." If the doctor is at a corner, where is the engineer?
+(a) At the opposite corner
+(b) At the opposite mid-side
+(c) At either adjacent mid-side
+(d) Cannot be determined
+
+**Answer:** (a)
+**Solution:** On a square table, "opposite" of a corner is the diagonally opposite corner; opposite of a mid-side is the opposite mid-side. The trap is pairing a corner with a mid-side as "opposite."
+**Trap used:** geometry confusion on square tables.
+**Source:** PYQ-style (Banking pattern)
+
+---
+
+**Q6.** In a two-row puzzle, Row 1 faces South, Row 2 faces North, persons in the same column face each other. "A faces the person who is second to the right of B" (B in Row 2). For B, second to the right means:
+(a) Two seats to B's own right (eastward if North-facing)
+(b) Two seats clockwise
+(c) Two seats toward A's row
+(d) Two seats to A's right
+
+**Answer:** (a)
+**Solution:** Right/left always follow the *person's own* facing. B faces North, so B's right hand points eastward on the diagram, and "second to the right of B" is two seats eastward from B. Options (c) and (d) mix reference frames — the classic trap.
+**Trap used:** Trap 1 — reference-frame mixing across rows.
+**Source:** PYQ-style (IBPS Clerk pattern)
+
+---
+
+**Q7.** "The wife of K sits second to the left of K" in a circle facing centre. K's wife is L. This clue tells you:
+(a) Only a blood relation
+(b) Only a seating position
+(c) Both — L occupies the seat two places to K's left
+(d) Nothing until K's seat is fixed
+
+**Answer:** (c)
+**Solution:** The relation (K–L are spouses) and the position (L is two left of K) are both usable immediately as a linked pair, even before K's absolute seat is known — they move as a block.
+**Trap used:** Trap 7 — relation-to-seat conversion.
+**Source:** PYQ-style
+
+---
+
+**Q8.** A 10-person circular puzzle gives 9 clues, of which 6 are negative ("X is not next to Y"). Under the 15/45-second rule you should:
+(a) Attempt it first — more clues means easier
+(b) Attempt it only after finishing shorter sets
+(c) Skip it permanently
+(d) Solve only 2 of its 5 questions
+
+**Answer:** (b)
+**Solution:** Negative-clue-heavy, 10-person sets are the slowest category. They are solvable but must be queued after quick sets. Permanent skip wastes a solvable set; attempting first risks the whole paper's timing.
+**Trap used:** time-sink design.
+**Skip verdict:** Defer — do not attempt first.
+**Source:** PYQ-style (SBI PO pattern)
+
+---
+
+**Q9.** Five persons A, B, C, D, E sit in a row facing North. A sits at one end. B sits immediately right of A. C sits at the other end. Who sits in the middle?
+(a) B
+(b) C
+(c) D or E — cannot be decided
+(d) D
+
+**Answer:** (c)
+**Solution:** Fixed: A–B–_–_–C. Positions 3 and 4 hold D and E in either order; no clue separates them. The trap is assuming the puzzle must be fully determined — some questions only ask what *is* determined.
+**Trap used:** over-assumption of uniqueness.
+**Source:** PYQ-style (SSC CHSL pattern)
+
+---
+
+**Q10.** In an 8-person circle (all facing centre) with attributes (8 cities), you have fixed all 8 seats but mapped only 5 cities in 45 seconds. Two questions ask about seats, three about cities. You should:
+(a) Answer the 2 seat-based questions, then continue mapping
+(b) Skip all 5 questions
+(c) Guess the 3 city questions
+(d) Restart the diagram
+
+**Answer:** (a)
+**Solution:** Bank the questions whose answers are already certain, then invest remaining time in the attribute chain. Never restart a correct diagram, and never guess in negative-marking exams.
+**Trap used:** all-or-nothing thinking.
+**Skip verdict:** Partial attempt is correct — skip only the unresolved sub-questions, not the set.
+**Source:** PYQ-style (Banking pattern)
+
+---
+
+## 5. Key Takeaways
+
+- Fix **seats first, attributes second** — reversing this order is the costliest habit.
+- Treat facing direction as the first thing to mark on the diagram, not the last.
+- Keep ambiguous placements open; the resolving clue always exists.
+- Apply the 45-second checkpoint ruthlessly: fewer than 3 confirmed placements → skip and return.
+- Negative clues are placement tools, not afterthoughts.

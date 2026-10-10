@@ -1,0 +1,151 @@
+Questions 76–100: Medium
+
+76. Six persons P, Q, R, S, T and U sit in a row facing north. P sits third to the left of T. Q sits to the immediate right of P. S is not an immediate neighbour of T. U sits at one of the extreme ends. Who sits at the extreme right end?
+(a) S (b) R (c) T (d) Q
+Answer: (c)
+Solution: The tempting answer is R, if one assumes the unknown person must fill the last seat. P third to the left of T with Q immediately right of P fixes the block P–Q–_–T; U at an end and S away from T force the arrangement U, S, P, Q, R, T, so the answer is T.
+Source: PYQ-style
+
+77. In a family of six members A, B, C, D, E and F, there are two married couples. D is the grandmother of A and the mother of B. C is the wife of B and the mother of F. F is the granddaughter of E. How is A related to C?
+(a) Son (b) Cannot be determined (c) Granddaughter (d) Daughter
+Answer: (b)
+Solution: The trap is assuming A must be a daughter because F is a granddaughter. D is grandmother of A and mother of B, so A is a child of B and C — but A's gender is never stated, so the answer is "Cannot be determined".
+Source: PYQ-style
+
+78. Five boxes A, B, C, D and E are stacked one above another. A is immediately above C. D is immediately below E. E is above A. B is at the bottom. Which box is at the top?
+(a) D (b) A (c) E (d) C
+Answer: (c)
+Solution: The tempting answer is D, if one stops at "D is immediately below E" and forgets E must also sit above the A–C block. The only consistent stack from top is E, D, A, C, B, so the answer is E.
+Source: PYQ-style
+
+79. Seven lectures on subjects M, N, O, P, Q, R and S are held from Monday to Sunday. O is on Wednesday. M is on Friday, and P is immediately before M. Q is on Sunday. N is neither on Monday nor on Saturday. R is before N. Which subject is on Monday?
+(a) R (b) P (c) S (d) N
+Answer: (a)
+Solution: The trap is placing P on Monday by assuming the P–M pair starts the week. With O on Wednesday, P–M fixed on Thursday–Friday and Q on Sunday, the free days are Monday, Tuesday and Saturday; N can only take Tuesday, and R must come before N, so R takes Monday and S takes Saturday, so the answer is R.
+Source: PYQ-style
+
+80. Six friends A, B, C, D, E and F sit around a circular table facing the centre. A sits opposite D. B is to the immediate right of A. C sits opposite B. E sits next to C. Who sits to the immediate left of D?
+(a) F (b) E (c) C (d) B
+Answer: (a)
+Solution: The tempting answer is E, since E sits next to C and feels close to D. Placing A, putting B on A's right, D opposite A and C opposite B leaves E beside C; the remaining seat, immediate left of D, goes to F, so the answer is F.
+Source: PYQ-style
+
+81. Five persons V, W, X, Y and Z like five different colours — red, blue, green, yellow and pink. V likes red. W does not like blue or green. X likes blue. Z likes yellow. Which colour does W like?
+(a) Blue (b) Pink (c) Green (d) Yellow
+Answer: (b)
+Solution: The trap is assigning green to W by overlooking the explicit ban on blue and green. Red goes to V, blue to X, yellow to Z; W cannot take blue or green, so W takes the only remaining colour, pink, so the answer is Pink.
+Source: PYQ-style
+
+82. Six employees A, B, C, D, E and F have different salaries. A earns more than B but less than C. D earns more than E but less than B. F earns more than C. Who earns the second highest?
+(a) A (b) B (c) C (d) F
+Answer: (c)
+Solution: The tempting answer is A, if the chain is read as A above C. The full order is F above C above A above B above D above E, so the second highest is C, so the answer is C.
+Source: PYQ-style
+
+83. Five cities P, Q, R, S and T are visited by a salesman. He visits P first and Q second. He visits T immediately after Q. He visits R before S. Which city does he visit last?
+(a) S (b) R (c) Q (d) T
+Answer: (a)
+Solution: The trap is putting T last because the Q–T pair sounds terminal. With P first, Q second, T immediately after Q, and R before S, the only valid order is P, Q, T, R, S, so the answer is S.
+Source: PYQ-style
+
+84. In a row of students facing north, M is 12th from the left and N is 18th from the right. When they interchange positions, M becomes 20th from the left. How many students are there in the row?
+(a) 38 (b) 35 (c) 36 (d) 37
+Answer: (d)
+Solution: The tempting answer is 38, from adding 20 and 18 without subtracting the overlap. After swapping, M's new position (20th from left) equals N's old position, so total = 20 + 18 − 1 = 37, so the answer is 37.
+Source: PYQ-style
+
+85. Four married couples sit in a row of eight chairs. Each husband sits beside his wife. A is married to B; C is married to D; E is married to F; G is married to H. A sits at one end, and C sits at the other end. D sits third from the left. Who sits fourth from the left?
+(a) C (b) E (c) B (d) Cannot be determined
+Answer: (d)
+Solution: The trap is assuming the couple blocks fix every seat. A at one end and C at the other, with D third from left, still leaves multiple valid arrangements for the middle seats, so the fourth seat cannot be fixed, so the answer is "Cannot be determined".
+Source: PYQ-style
+
+86. Six books on Physics, Chemistry, Biology, Maths, English and Hindi are kept in a pile. Maths is below Physics but above Hindi. English is at the top. Biology is immediately above Chemistry. Chemistry is not at the bottom. Which book is at the bottom?
+(a) Hindi (b) Chemistry (c) Biology (d) Maths
+Answer: (a)
+Solution: The tempting answer is Chemistry, if "not at the bottom" is misread as "at the bottom". The consistent pile from top is English, Physics, Maths, Biology, Chemistry, Hindi, so the answer is Hindi.
+Source: PYQ-style
+
+87. P, Q, R, S, T and U are seated in two rows of three, facing each other. P faces U. Q is to the left of P. R faces Q. S is to the right of R. Who faces T?
+(a) R (b) Q (c) S (d) P
+Answer: (c)
+Solution: The trap is matching T with R by ignoring that S sits to the right of R. Row one is Q, P, T; the facing row is R, U, S — so T faces S, so the answer is S.
+Source: PYQ-style
+
+88. Five friends A, B, C, D and E were born in five different months — January, March, May, July and September of the same year. A was born before C but after E. D was born in July. B was born after C. Who was born in January?
+(a) A (b) B (c) C (d) E
+Answer: (d)
+Solution: The tempting answer is A, if "after E" is misread as "before E". The order is E, A, C, then B after C, with D fixed in July; the earliest month, January, belongs to E, so the answer is E.
+Source: PYQ-style
+
+89. Seven persons stand in a queue. K is behind L but ahead of M. N is ahead of L. O is behind M but ahead of P. Q is ahead of N. Who is exactly in the middle of the queue?
+(a) N (b) L (c) M (d) K
+Answer: (d)
+Solution: The tempting answer is L, if Q's position ahead of N is ignored. The full order from front is Q, N, L, K, M, O, P — the fourth (middle) person is K, so the answer is K.
+Source: PYQ-style
+
+90. Six persons P, Q, R, S, T and U sit around a circular table facing the centre. P sits opposite S. Q sits to the immediate left of P. R sits between S and T. Who sits opposite Q?
+(a) T (b) R (c) S (d) U
+Answer: (b)
+Solution: The tempting answer is T, since T is grouped with S and R in the clues. Fix P and S opposite each other; Q takes the seat immediately left of P, and R must sit between S and T, which places R directly opposite Q while U fills the last seat, so the answer is R.
+Source: PYQ-style
+
+91. Five boxes contain different numbers of apples: 10, 20, 30, 40 and 50. Box J has more than Box K but fewer than Box L. Box M has exactly 30. Box N has more than Box L. Which box has 50 apples?
+(a) J (b) L (c) M (d) N
+Answer: (d)
+Solution: The tempting answer is L, if "N more than L" is overlooked. The chain is N above L above J above K, with M fixed at 30; the maximum, 50, must belong to N, so the answer is N.
+Source: PYQ-style
+
+92. In a family, R is the son of S. T is the daughter of R. U is the mother of T. V is the brother of R. W is the father of S. How is V related to T?
+(a) Grandfather (b) Father (c) Uncle (d) Brother
+Answer: (c)
+Solution: The trap is "Father", since V is male and close to R's generation — but R is T's father. V, being R's brother, is T's paternal uncle, so the answer is Uncle.
+Source: PYQ-style
+
+93. Six teams A, B, C, D, E and F finished a race in distinct positions. A finished before B but after C. D finished last but one. E finished before C. F finished after B. Who finished first?
+(a) E (b) C (c) F (d) A
+Answer: (a)
+Solution: The tempting answer is C, if E's position before C is missed. The order is E, C, A, B, D, F, with D fifth (last but one) and F last, so first place goes to E, so the answer is E.
+Source: PYQ-style
+
+94. Five persons P, Q, R, S and T live on floors 1 to 5 of a building (floor 1 is the lowest). P lives immediately above Q. R lives on floor 3. T lives above R. S lives on floor 5. Who lives on floor 4?
+(a) P (b) T (c) S (d) Q
+Answer: (b)
+Solution: The tempting answer is S, if "S lives on floor 5" is misread as floor 4. R is on 3 and S on 5; the consecutive pair Q–P can only fit on floors 1–2, leaving T on floor 4, which also satisfies T above R, so the answer is T.
+Source: PYQ-style
+
+95. Five friends scored different marks. X scored more than Y but less than Z. W scored more than Z. V scored less than Y. Who scored the third highest?
+(a) X (b) Y (c) Z (d) V
+Answer: (a)
+Solution: The tempting answer is Z, if W's position above Z is ignored. The order is W above Z above X above Y above V, so the third highest is X, so the answer is X.
+Source: PYQ-style
+
+96. A meeting starts between 4 pm and 5 pm when the minute hand and hour hand of a clock coincide. At what time (approximately) does it start?
+(a) 4:20 pm (b) 4:22:30 pm (c) 4:21:49 pm (d) 4:25 pm
+Answer: (c)
+Solution: The trap is 4:20, a rough guess ignoring that the hour hand also moves. The hands coincide at 60 × 4 / 11 = 21.818 minutes past 4, i.e., about 4:21:49, so the answer is 4:21:49 pm.
+Source: PYQ-style
+
+97. Six persons P, Q, R, S, T and U live on six floors of a building (ground floor = 1, top floor = 6). P lives on floor 4. S lives on floor 1. Q lives immediately above P. R lives immediately below T. Who lives on the top floor?
+(a) T (b) U (c) Q (d) R
+Answer: (b)
+Solution: The tempting answer is T, if the R–T pair is placed at the top without checking the consecutive-floor condition. S is on 1, P on 4 and Q on 5; the R–T pair needs two consecutive free floors, which is only 2–3, leaving floor 6 for U, so the answer is U.
+Source: PYQ-style
+
+98. Five persons A, B, C, D and E wear shirts of five different colours — white, black, red, green and blue. A does not wear white or black. B wears red. C does not wear white. E wears blue. What colour does C wear?
+(a) Green (b) Black (c) White (d) Red
+Answer: (b)
+Solution: The trap is green for C, ignoring that A also needs a colour. B wears red and E wears blue; A rejects white and black, so A takes green; C rejects white, leaving black for C and white for D, so the answer is Black.
+Source: PYQ-style
+
+99. In a 3×3 grid puzzle, numbers 1 to 9 are placed so that each row, column and diagonal sums to 15. If 5 is in the centre and 2 is in the top-left corner, which number is in the bottom-right corner?
+(a) 8 (b) 6 (c) 9 (d) 7
+Answer: (a)
+Solution: The tempting answer is 9, the largest number, but the diagonal must sum to 15. The diagonal through the centre gives 2 + 5 + x = 15, so x = 8, so the answer is 8.
+Source: PYQ-style
+
+100. Six friends — Monu, Neha, Om, Pia, Qadir and Ria — sit around a circular table facing the centre. Monu is second to the left of Neha. Om sits opposite Neha. Pia is to the immediate left of Om. Qadir sits next to Monu. Who sits opposite Monu?
+(a) Pia (b) Qadir (c) Om (d) Ria
+Answer: (d)
+Solution: The trap is Pia, if her seat beside Om is confused with the seat opposite Monu. Placing Neha, Monu two seats to her left, Om opposite Neha, Pia on Om's left and Qadir beside Monu leaves Ria in the only remaining seat, which is exactly opposite Monu, so the answer is Ria.
+Source: PYQ-style

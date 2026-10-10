@@ -1,3 +1,41 @@
-# Chapter: Profit & Loss, Level: intermediate
+```mermaid
+graph TD
+    A["लाभ और हानि<br>Profit & Loss"] --> B["मूल अवधारणाएँ<br>Basic Concepts"]
+    A --> C["लाभ-हानि प्रतिशत<br>Profit-Loss %"]
+    A --> D["बट्टा / छूट<br>Discount"]
+    A --> E["विशेष केस<br>Special Cases"]
+    A --> F["दुष्ट व्यापारी<br>Dishonest Dealer"]
 
-@content_agent 'Create a detailed mind map (Mermaid code) for the chapter "Profit & Loss". Show main concepts, sub-concepts, and their interconnections clearly.'
+    B --> B1["क्रय मूल्य (CP)<br>Cost Price"]
+    B --> B2["विक्रय मूल्य (SP)<br>Selling Price"]
+    B --> B3["अंकित मूल्य (MP)<br>Marked Price"]
+    B --> B4["लाभ = SP − CP<br>Profit = SP − CP"]
+    B --> B5["हानि = CP − SP<br>Loss = CP − SP"]
+
+    C --> C1["लाभ% = (लाभ/CP)×100<br>Profit% = (Profit/CP)×100"]
+    C --> C2["हानि% = (हानि/CP)×100<br>Loss% = (Loss/CP)×100"]
+    C --> C3["SP = CP×(100±P%)/100<br>SP from CP and %"]
+    C --> C4["CP = SP×100/(100±P%)<br>CP from SP and %"]
+
+    D --> D1["छूट = MP − SP<br>Discount = MP − SP"]
+    D --> D2["छूट% = (छूट/MP)×100<br>Discount% on MP"]
+    D --> D3["क्रमिक छूट<br>Successive Discounts"]
+    D3 --> D3a["समतुल्य छूट = a+b−ab/100<br>Equivalent Discount"]
+    D --> D4["छूट के बाद भी लाभ<br>Profit after Discount"]
+    D4 --> D4a["MP/CP = (100+P%)/(100−D%)"]
+
+    E --> E1["समान SP, एक पर लाभ% = दूसरे पर हानि%<br>Same SP, gain% = loss%"]
+    E1 --> E1a["हमेशा हानि = x²/100 %<br>Always Loss = x²/100 %"]
+    E --> E2["वस्तुओं की संख्या पर आधारित<br>Based on number of articles"]
+    E2 --> E2a["SP of x = CP of y वाले प्रश्न"]
+    E --> E3["क्रमिक लाभ/हानि<br>Successive Profit/Loss"]
+    E3 --> E3a["a+b+ab/100 फॉर्मूला"]
+    E --> E4["मिश्रण / दो मूल्यों पर बिक्री<br>Selling at two prices"]
+
+    F --> F1["कम तौलना / नकली बाट<br>False Weights"]
+    F1 --> F1a["लाभ% = (गड़बड़ी/सही तौल)×100<br>Gain% = (Error/True weight)×100"]
+    F --> F2["छूट + कम तौल दोनों<br>Discount + False weight"]
+
+    C1 -.->|"आधार हमेशा CP<br>Base is always CP"| B1
+    D2 -.->|"आधार हमेशा MP<br>Base is always MP"| B3
+```

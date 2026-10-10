@@ -1,0 +1,326 @@
+📝 Practice Set 4 (Questions 76–100)
+
+Medium (76–100) | Total 25 MCQs
+Includes at least 2 Examiner's Trap questions (marked with ⚠️).
+
+Q76. (Medium) ⚠️ In a certain code: ‘A # B’ ⇒ A ≥ B, ‘A @ B’ ⇒ A ≤ B, ‘A * B’ ⇒ A = B, ‘A % B’ ⇒ A > B, ‘A $ B’ ⇒ A < B
+Statements: P # Q, Q * R, R # S
+Conclusions:
+I. P % S
+II. P * S
+(A) Either I or II follows (B) Only II follows (C) Only I follows (D) Neither I nor II follows
+
+Answer: (A) Either I or II follows
+
+Solution:
+Decoded: P ≥ Q = R ≥ S ⇒ P ≥ S. Either P > S (I) or P = S (II) must hold. Both together form a complementary pair. Hence, the correct option is (A).
+
+Source: SSC CGL
+
+Q77. (Medium) Statements: A > B ≥ C < D = E; F < E ≤ G
+Conclusions:
+I. A > C
+II. B < G
+III. D ≤ G
+(A) II and III follow (B) I and III follow (C) I and II follow (D) All follow
+
+Answer: (B) I and III follow
+
+Solution:
+From A > B ≥ C, A > C holds (I true). Chain between B and G reverses at C (B ≥ C < D = E ≤ G), so no definite relation (II false). D = E ≤ G ⇒ D ≤ G holds (III true). Hence, the correct option is (B).
+
+Source: SSC CHSL
+
+Q78. (Medium) Which of the following expressions ensures ‘X < Z’ and ‘Y ≥ W’ are definitely true?
+(A) X = Y < Z ≤ W (B) X ≤ Y > Z = W (C) X < Y = Z ≥ W (D) X > Y ≥ Z < W
+
+Answer: (C) X < Y = Z ≥ W
+
+Solution:
+In (a): X < Y = Z ⇒ X < Z, and Y = Z ≥ W ⇒ Y ≥ W. Both conditions are definitely satisfied. Hence, the correct option is (C).
+
+Source: SSC MTS
+
+Q79. (Medium) ⚠️ In a certain code: ‘A ↑ B’ ⇒ A > B, ‘A ↓ B’ ⇒ A < B, ‘A ↔ B’ ⇒ A = B, ‘A → B’ ⇒ A ≥ B, ‘A ← B’ ⇒ A ≤ B
+Statements: P → Q, Q ↓ R, R ↔ S, S ← T
+Conclusions:
+I. P ↓ T
+II. P ↑ T
+(A) Only I follows (B) Only II follows (C) Either I or II follows (D) Neither I nor II follows
+
+Answer: (D) Neither I nor II follows
+
+Solution:
+Decoded: P ≥ Q < R = S ≤ T. Between P and T, signs reverse at Q. No definite relation exists. Since equality (=) is omitted, they do not form a complementary pair. Hence, the correct option is (D).
+
+Source: RRB NTPC
+
+Q80. (Medium) Statements: M = N ≥ O > P; Q < P ≤ R
+Conclusions:
+I. M > Q
+II. N > R
+III. O ≥ R
+(A) Only I follows (B) I and II follow (C) Only III follows (D) None follows
+
+Answer: (A) Only I follows
+
+Solution:
+M = N ≥ O > P > Q ⇒ M > Q (I true). N ≥ O > P ≤ R reverses at P; no definite relation between N and R (II false). O > P ≤ R also reverses at P (III false). Hence, the correct option is (A).
+
+Source: RRB Group D
+
+Q81. (Medium) Which symbols should replace the blanks in ‘P _ Q _ R _ S’ such that ‘P ≤ R’ and ‘Q > S’ are definitely true?
+(A) ≤, >, = (B) <, =, > (C) =, ≥, < (D) >, ≤, ≥
+
+Answer: (B) <, =, >
+
+Solution:
+Using '<, =, >': P < Q = R ⇒ P < R (which satisfies P ≤ R), and Q = R > S ⇒ Q > S. Both hold. Hence, the correct option is (B).
+
+Source: SSC CGL
+
+Q82. (Medium) Statements: A < B ≤ C; D > C; E = D ≥ F
+Conclusions:
+I. A < D
+II. F ≤ C
+III. B < E
+(A) I and II follow (B) II and III follow (C) I and III follow (D) All follow
+
+Answer: (C) I and III follow
+
+Solution:
+A < B ≤ C < D ⇒ A < D (I true). F ≤ D and D > C reverses at D; no definite relation (II false). B ≤ C < D = E ⇒ B < E (III true). Hence, the correct option is (C).
+
+Source: SSC CHSL
+
+Q83. (Medium) In a certain code: ‘A % B’ ⇒ A ≥ B, ‘A * B’ ⇒ A = B, ‘A @ B’ ⇒ A > B, ‘A # B’ ⇒ A < B, ‘A $ B’ ⇒ A ≤ B
+Statements: X % Y, Y * Z, Z @ W
+Conclusions:
+I. X @ W
+II. X * W
+(A) Neither I nor II follows (B) Only II follows (C) Either I or II follows (D) Only I follows
+
+Answer: (D) Only I follows
+
+Solution:
+Decoded: X ≥ Y = Z > W ⇒ X > W (strict '>' in chain). Thus X @ W (I) definitely follows. X * W (II) is false. Hence, the correct option is (D).
+
+Source: SSC MTS
+
+Q84. (Medium) Statements: P ≤ Q = R < S; T = S > U; V ≤ U
+Conclusions:
+I. Q < T
+II. R > V
+III. P < U
+(A) Only I follows (B) I and II follow (C) I and III follow (D) All follow
+
+Answer: (A) Only I follows
+
+Solution:
+Q = R < S = T ⇒ Q < T (I true). R < S > U ≥ V reverses at S (II false). P ≤ Q = R < S > U reverses at S (III false). Hence, the correct option is (A).
+
+Source: RRB NTPC
+
+Q85. (Medium) Which symbols should replace the blanks in ‘A _ B _ C _ D _ E’ such that ‘A > D’ and ‘B ≤ E’ definitely hold?
+(A) >, =, <, ≤ (B) >, =, =, ≤ (C) ≥, >, =, ≥ (D) <, ≥, >, =
+
+Answer: (B) >, =, =, ≤
+
+Solution:
+Using '>, =, =, ≤': A > B = C = D ≤ E ⇒ A > D definitely holds, and B = D ≤ E ⇒ B ≤ E definitely holds. Hence, the correct option is (B).
+
+Source: RRB Group D
+
+Q86. (Medium) In a certain code: ‘A @ B’ ⇒ A ≥ B, ‘A * B’ ⇒ A = B, ‘A % B’ ⇒ A > B, ‘A # B’ ⇒ A < B, ‘A $ B’ ⇒ A ≤ B
+Statements: M @ N, N * O, O % P
+Conclusions:
+I. M % P
+II. M * P
+(A) Either I or II follows (B) Only II follows (C) Only I follows (D) Neither I nor II follows
+
+Answer: (C) Only I follows
+
+Solution:
+Decoded: M ≥ N = O > P ⇒ M > P. Thus M % P (I) is definitely true. M * P (II) is false. Hence, the correct option is (C).
+
+Source: SSC CGL
+
+Q87. (Medium) Statements: A > B ≤ C; D = C < E; F ≥ E > G
+Conclusions:
+I. A > E
+II. B < F
+III. D ≤ G
+(A) None follows (B) I and II follow (C) II and III follow (D) Only II follows
+
+Answer: (D) Only II follows
+
+Solution:
+A > B ≤ C < E reverses at B (I false). B ≤ C < E ≤ F ⇒ B < F (II true). D = C < E > G reverses at E (III false). Hence, the correct option is (D).
+
+Source: SSC CHSL
+
+Q88. (Medium) Which of the following expressions makes both ‘P ≥ R’ and ‘Q > T’ definitely false?
+(A) P ≤ Q < R ≤ T (B) P < Q > R = T (C) P = Q ≤ R < T (D) P > Q ≥ R > T
+
+Answer: (A) P ≤ Q < R ≤ T
+
+Solution:
+In (a): P ≤ Q < R ⇒ P < R, which makes P ≥ R definitely false. Q < R ≤ T ⇒ Q < T, which makes Q > T definitely false. Hence, the correct option is (A).
+
+Source: SSC MTS
+
+Q89. (Medium) In a certain code: ‘A + B’ ⇒ A ≤ B, ‘A – B’ ⇒ A = B, ‘A × B’ ⇒ A > B, ‘A ÷ B’ ⇒ A < B, ‘A = B’ ⇒ A ≥ B
+Statements: X – Y, Y ÷ Z, Z = W
+Conclusions:
+I. X ÷ W
+II. X – W
+(A) Only I follows (B) Neither I nor II follows (C) Either I or II follows (D) Only II follows
+
+Answer: (B) Neither I nor II follows
+
+Solution:
+Decoded: X = Y < Z ≥ W. Between X and W, signs reverse at Z. No definite relation exists. Missing '>' means not a complementary pair. Hence, the correct option is (B).
+
+Source: RRB NTPC
+
+Q90. (Medium) Statements: M > N = O ≥ P; Q < P; R ≤ Q
+Conclusions:
+I. O > R
+II. N > Q
+III. M ≥ Q
+(A) I and II follow (B) II and III follow (C) All follow (D) I and III follow
+
+Answer: (C) All follow
+
+Solution:
+O ≥ P > Q ≥ R ⇒ O > R (I true). N = O ≥ P > Q ⇒ N > Q (II true). M > N = O ≥ P > Q ⇒ M > Q, which implies M ≥ Q holds (III true). Hence, the correct option is (C).
+
+Source: RRB Group D
+
+Q91. (Medium) In a certain code: ‘A % B’ ⇒ A > B, ‘A # B’ ⇒ A < B, ‘A * B’ ⇒ A = B, ‘A @ B’ ⇒ A ≤ B, ‘A $ B’ ⇒ A ≥ B
+Statements: P % Q, Q # R, R * S, S @ T
+Conclusions:
+I. P % T
+II. T % P
+(A) Only I follows (B) Only II follows (C) Either I or II follows (D) Neither I nor II follows
+
+Answer: (D) Neither I nor II follows
+
+Solution:
+Decoded: P > Q < R = S ≤ T. At Q, signs point in opposite directions (> and <). No definite relation between P and T. Neither follows. Hence, the correct option is (D).
+
+Source: SSC CGL
+
+Q92. (Medium) Which symbols should replace the blanks in ‘A _ B _ C _ D’ so that ‘A ≥ D’ is definitely false and ‘B < C’ is definitely true?
+(A) <, <, = (B) ≤, >, = (C) >, ≤, > (D) =, <, ≥
+
+Answer: (A) <, <, =
+
+Solution:
+Using '<, <, =': A < B < C = D ⇒ A < D (so A ≥ D is definitely false), and B < C is directly given. Both conditions hold. Hence, the correct option is (A).
+
+Source: SSC CHSL
+
+Q93. (Medium) In a certain code: ‘A α B’ ⇒ A > B, ‘A β B’ ⇒ A < B, ‘A γ B’ ⇒ A = B, ‘A δ B’ ⇒ A ≥ B, ‘A ε B’ ⇒ A ≤ B
+Statements: P δ Q, Q β R, R γ S, S ε T
+Conclusions:
+I. P β T
+II. P α T
+(A) Only I follows (B) Neither I nor II follows (C) Either I or II follows (D) Only II follows
+
+Answer: (B) Neither I nor II follows
+
+Solution:
+Decoded: P ≥ Q < R = S ≤ T. Chain breaks at Q. Missing equality (=) between P and T means I and II are not complementary. Neither follows. Hence, the correct option is (B).
+
+Source: SSC MTS
+
+Q94. (Medium) Statements: A > B ≥ C = D; E < D; F = E ≤ G
+Conclusions:
+I. A > G
+II. C > F
+III. B ≥ E
+(A) Only II follows (B) I and II follow (C) II and III follow (D) None follows
+
+Answer: (C) II and III follow
+
+Solution:
+A > B ≥ C = D > E = F ≤ G reverses at F (I false). C = D > E = F ⇒ C > F (II true). B ≥ C = D > E ⇒ B > E, so B ≥ E is also true (III true). Hence, the correct option is (C).
+
+Source: RRB NTPC
+
+Q95. (Medium) Which of the following expressions makes both ‘X > Y’ and ‘Z ≤ Y’ definitely true?
+(A) X > Z ≥ Y (B) X ≥ Z = Y (C) Z ≤ X > Y (D) X > Z = Y
+
+Answer: (D) X > Z = Y
+
+Solution:
+In (d): X > Z = Y ⇒ X > Y, and Z = Y satisfies Z ≤ Y. Both conditions are definitely true. Hence, the correct option is (D).
+
+Source: RRB Group D
+
+Q96. (Medium) ⚠️ In a certain code: ‘A @ B’ ⇒ A ≥ B, ‘A * B’ ⇒ A = B, ‘A # B’ ⇒ A < B, ‘A $ B’ ⇒ A ≤ B, ‘A % B’ ⇒ A > B
+Statements: X @ Y, Y * Z, Z # W, W $ V
+Conclusions:
+I. X # V
+II. X @ V
+(A) Either I or II follows (B) Only II follows (C) Only I follows (D) Neither I nor II follows
+
+Answer: (A) Either I or II follows
+
+Solution:
+Decoded: X ≥ Y = Z < W ≤ V. Relation between X and V is undetermined; all possibilities (<, =, >) exist. I (X < V) and II (X ≥ V) together cover all possibilities, forming a complementary pair. Hence, the correct option is (A).
+
+Source: SSC CGL
+
+Q97. (Medium) Statements: A = B > C; D < C ≤ E; F > E
+Conclusions:
+I. A > D
+II. B ≤ F
+III. C < F
+(A) Only I follows (B) I and III follow (C) II and III follow (D) All follow
+
+Answer: (B) I and III follow
+
+Solution:
+A = B > C > D ⇒ A > D (I true). B > C ≤ E < F reverses at C (II false). C ≤ E < F ⇒ C < F (III true). Hence, the correct option is (B).
+
+Source: SSC CHSL
+
+Q98. (Medium) In a certain code: ‘A * B’ ⇒ A = B, ‘A % B’ ⇒ A > B, ‘A $ B’ ⇒ A ≤ B, ‘A # B’ ⇒ A < B, ‘A @ B’ ⇒ A ≥ B
+Statements: M * N, N % O, O $ P
+Conclusions:
+I. M % P
+II. M # P
+(A) Only I follows (B) Only II follows (C) Neither I nor II follows (D) Either I or II follows
+
+Answer: (C) Neither I nor II follows
+
+Solution:
+Decoded: M = N > O ≤ P. At O, signs reverse (> and ≤). All three possibilities exist, but I (M > P) and II (M < P) omit equality (=). Neither follows. Hence, the correct option is (C).
+
+Source: SSC MTS
+
+Q99. (Medium) Which symbols should replace the blanks in ‘A _ B _ C _ D’ such that ‘A < C’ and ‘B > D’ are definitely true?
+(A) =, <, > (B) >, <, = (C) ≤, >, = (D) <, =, >
+
+Answer: (D) <, =, >
+
+Solution:
+Using '<, =, >': A < B = C > D ⇒ A < C definitely holds, and B = C > D ⇒ B > D definitely holds. Hence, the correct option is (D).
+
+Source: RRB NTPC
+
+Q100. (Medium) ⚠️ In a certain code: ‘A % B’ ⇒ A > B, ‘A * B’ ⇒ A = B, ‘A $ B’ ⇒ A ≤ B, ‘A # B’ ⇒ A < B, ‘A @ B’ ⇒ A ≥ B
+Statements: P % Q, Q * R, R $ S, S # T
+Conclusions:
+I. P % T
+II. P $ T
+(A) Only I follows (B) Either I or II follows (C) Only II follows (D) Neither I nor II follows
+
+Answer: (B) Either I or II follows
+
+Solution:
+Decoded: P > Q = R ≤ S < T. Between P and T, signs reverse at R. All three possibilities exist. I (P > T) and II (P ≤ T) together cover all possibilities, forming a complementary pair. Hence, the correct option is (B).
+
+Source: RRB Group D

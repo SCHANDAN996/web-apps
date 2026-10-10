@@ -1,0 +1,140 @@
+# Series — Crack the Pattern, Crack the Exam
+
+## 1. What You Will Learn
+
+A "series" question gives you a sequence of numbers, letters, or figures that follow a hidden rule, and asks you to find the missing or next term. By the end of this chapter you will be able to:
+
+- Recognise the standard types of number series (arithmetic, geometric, squares, cubes, mixed operations).
+- Solve alphabet and alpha-numeric series using letter positions.
+- Handle "wrong term in the series" questions.
+- Apply a quick checking order in the exam so you do not waste time.
+
+Series questions appear in almost every government exam's reasoning section — SSC (CGL, CHSL, GD, MTS), RRB (NTPC, Group D), Bank exams (IBPS, SBI) and State exams. They are scoring because the method is fixed: find the rule, apply the rule.
+
+## 2. Number Series — The Main Types
+
+### 2.1 Arithmetic Series (constant difference)
+
+Each term changes by a fixed number.
+
+**Example:** 4, 9, 14, 19, ?
+Rule: +5 each time → next term = **24**.
+
+The difference itself can also form a pattern:
+
+**Example:** 3, 5, 9, 17, 33, ?
+Differences: 2, 4, 8, 16 (doubling) → next difference 32 → answer = **65**.
+
+### 2.2 Geometric Series (constant ratio)
+
+Each term is multiplied (or divided) by a fixed number.
+
+**Example:** 5, 15, 45, 135, ?
+Rule: ×3 each time → next term = **405**.
+
+### 2.3 Square and Cube Series
+
+Terms are based on squares (n²) or cubes (n³), sometimes with a small addition or subtraction.
+
+**Example:** 1, 4, 9, 16, 25, ? → squares of 1, 2, 3, 4, 5 → next = 6² = **36**.
+
+**Example:** 2, 5, 10, 17, 26, ? → these are n² + 1 (1+1, 4+1, 9+1, …) → next = 36 + 1 = **37**.
+
+**Tip:** Memorise squares up to 25² = 625 and cubes up to 12³ = 1728. Most exam series use numbers from this range.
+
+### 2.4 Mixed / Alternating Operations
+
+Two operations alternate, or the multiplier itself grows.
+
+**Example:** 7, 14, 13, 26, 25, ?
+Rule: ×2, −1, ×2, −1 → next = 25 × 2 = **50**.
+
+**Example:** 2, 6, 24, 120, ?
+Rule: ×3, ×4, ×5 → next = 120 × 6 = **720**.
+
+### 2.5 Two Interleaved Series
+
+Odd-position terms follow one rule; even-position terms follow another.
+
+**Example:** 1, 10, 3, 20, 5, 30, ?
+Odd positions: 1, 3, 5 (+2). Even positions: 10, 20, 30 (+10) → next (odd position) = **7**.
+
+### 2.6 Prime Numbers and Special Sequences
+
+**Example:** 2, 3, 5, 7, 11, 13, ? → consecutive primes → next = **17**.
+
+## 3. Alphabet Series
+
+Write down letter positions first: A=1, B=2, … M=13, N=14, … Z=26. Remembering "EJOTY" (E=5, J=10, O=15, T=20, Y=25) helps you locate any letter quickly.
+
+### 3.1 Constant Gap
+
+**Example:** C, F, I, L, ?
+Positions: 3, 6, 9, 12 (+3) → next = 15 = **O**.
+
+### 3.2 Increasing Gap
+
+**Example:** A, C, F, J, ?
+Gaps: +2, +3, +4 → next gap +5 → 10 + 5 = 15 = **O**.
+
+### 3.3 Letter Groups
+
+**Example:** AZ, BY, CX, DW, ?
+First letters: A, B, C, D (+1). Second letters: Z, Y, X, W (−1) → next = **EV**.
+
+### 3.4 Alpha-Numeric Series
+
+**Example:** Z1A, X2D, V3G, T4J, ?
+Letters: Z, X, V, T (−2 each). Numbers: 1, 2, 3, 4 (+1). End letters: A, D, G, J (+3) → next = **R5M**.
+
+## 4. Wrong Term in the Series
+
+Here one term breaks the rule. Find the rule from the majority of terms, then identify the misfit.
+
+**Example:** 2, 6, 12, 20, 32, 42
+Check: differences should be 4, 6, 8, 10, 12 (i.e., terms n² + n: 2, 6, 12, 20, 30, 42). The term **32** is wrong; it should be 30.
+
+**Method:** Compute differences (or ratios) for the whole row. The place where the pattern breaks twice (once entering, once leaving) marks the wrong term.
+
+## 5. A Quick Checking Order for the Exam
+
+When you see a number series, test in this order — it covers most exam questions:
+
+1. **Differences** — constant, or themselves forming a pattern (+2, +4, +6 … or ×2)?
+2. **Ratio** — is each term a fixed multiple of the previous one?
+3. **Squares/cubes** — are terms near n² or n³ (± a small number)?
+4. **Alternation** — two operations alternating, or two interleaved series?
+5. **Primes or special numbers.**
+
+If the numbers grow slowly, think differences; if they grow fast, think multiplication, squares, or cubes.
+
+## 6. Common Traps Set by Examiners
+
+- **Near-correct options:** If the answer is 37, options will include 36 and 38. Write your full calculation before looking at options.
+- **Double patterns:** A series may look like +3, +5, +7 but actually be +prime numbers. Check one step further before deciding.
+- **Interleaved series disguised as one:** If no single rule fits, split odd and even positions.
+- **Letter position slips:** Confusing M (13) with N (14) is the most common error in alphabet series. Use EJOTY to verify.
+
+## 7. Solved Examples
+
+**Q1.** 11, 13, 17, 19, 23, ?
+These are consecutive prime numbers. Next prime after 23 = **29**.
+
+**Q2.** 4, 18, 48, 100, ?
+Try n³ + n²: 1+1=2? No. Try n² × (n+1): 1×2=2? No. Check n³ + n² for n=2: 8+4=12? No. Try differences: 14, 30, 52 — second differences 16, 22 — not clean. Try n²(n+1) starting n=1: 2, 12, 36, 100? No. Try n³ + n: 2, 10, 30, 68? No. Try (n+1)² × n… Instead note 4 = 2²×1, 18 = 3²×2, 48 = 4²×3, 100 = 5²×4 → next = 6²×5 = **180**. (Lesson: when simple rules fail, compare each term with nearby squares.)
+
+**Q3.** B, E, H, K, ?
+Positions 2, 5, 8, 11 (+3) → 14 = **N**.
+
+**Q4.** 3, 7, 16, 35, 74, ?
+Check ×2 + 1: 3→7 ✓, 7→15 ✗. Check differences: 4, 9, 19, 39 — each is roughly double plus 1: 4×2+1=9, 9×2+1=19, 19×2+1=39 → next difference = 39×2+1 = 79 → answer = 74 + 79 = **153**.
+
+## 8. Key Takeaways
+
+- Series = find the rule, apply the rule. No rule, no answer — never guess from "feel".
+- Master squares to 25, cubes to 12, primes to 50, and letter positions (EJOTY).
+- Use the fixed checking order: differences → ratio → squares/cubes → alternation → primes.
+- For "wrong term" questions, the misfit breaks the difference pattern twice.
+- Practise daily; speed in series comes from pattern memory, not calculation.
+
+*Source: NCERT Class 6–10 Mathematics (patterns, squares, cubes, primes); PYQ-style reasoning practice.*

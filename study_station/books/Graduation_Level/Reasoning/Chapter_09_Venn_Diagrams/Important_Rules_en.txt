@@ -1,0 +1,42 @@
+# Important Rules & Approaches — Venn Diagrams
+
+## Part 1: Key Rules / Approaches
+
+| Rule Name | Description | Example |
+|---|---|---|
+| Identify the Relationship Type | Every pair of items has one of 5 relations: Subset (all A are B), Disjoint (no A is B), Overlapping (some A are B), Equal (A = B), or Universal set containing both. | Doctors ⊂ Graduates (subset); Cats and Dogs (disjoint); Singers and Dancers (overlapping). |
+| Subset Rule | If every member of group A belongs to group B, draw circle A completely inside circle B. | All Sparrows are Birds → Sparrow circle inside Bird circle. |
+| Disjoint Rule | If no member of A can be a member of B, draw two separate, non-touching circles. | Tables and Dogs → two separate circles. |
+| Overlap Rule | If some (but not all) members of A are B, draw two intersecting circles. | Some Teachers are Mothers → intersecting circles. |
+| Universal Set Rule | When a common category covers all given items, enclose all circles in one rectangle/big circle. | Men, Women, Children → all inside "Humans". |
+| Three-Circle Rule | For three groups, first fix the strongest relation (subset/disjoint), then place the third circle accordingly. | Elephant, Animal, Tiger: Tiger inside Animal; Elephant inside Animal but separate from Tiger. |
+| "Some" ≠ "All" Rule | In exams, "some A are B" means partial overlap only — never draw full containment for "some". | "Some students are players" → intersecting circles, not one inside the other. |
+| Region Counting Rule | In number-based Venn questions, label each region and use: only A = A − (A∩B); exactly two groups = sum of pairwise intersections − 3×(all three). | Students playing only Cricket = Cricket total − those playing both. |
+| Inclusion–Exclusion Approach | For two sets: n(A∪B) = n(A) + n(B) − n(A∩B). For three sets, add all singles, subtract pairwise, add triple. | 40 like tea, 30 like coffee, 10 like both → 40+30−10 = 60 like at least one. |
+| Neither/Outside Rule | "Neither A nor B" = Total − n(A∪B). Always check if a total/universal figure is given. | 100 students, 60 like at least one game → 40 like neither. |
+| Minimum/Maximum Overlap Rule | Maximum intersection = smaller set; Minimum intersection = n(A) + n(B) − Total (if positive, else 0). | 70 pass Maths, 60 pass English out of 100 → minimum passing both = 70+60−100 = 30. |
+| Draw Before Deciding | Never answer from imagination — sketch the circles first, then match with options. | For "Pen, Stationery, Book": draw Book and Pen as disjoint inside Stationery. |
+| Elimination Approach | Reject options where a clearly disjoint pair is shown overlapping, or a subset pair is shown separate. | If option shows "Apple" overlapping "Fruit", eliminate it instantly. |
+
+## Part 2: Time Management
+
+| Situation | Time Rule | Action |
+|---|---|---|
+| Simple 2–3 item relation question | 15-second rule | If the relation (subset/disjoint/overlap) is not clear within 15 seconds, mark and skip; return later. |
+| Standard diagram-selection question | 20–30 seconds | Sketch mentally, eliminate 2 wrong options, confirm, and move on. |
+| Number-based (inclusion–exclusion) question | 45-second rule | If the region values or equation are not set up within 45 seconds, skip — these consume time if data is tricky. |
+| Three-set word problem | 45–60 seconds | Draw the 3-circle diagram, fill the innermost region first, work outward; if stuck after 60 seconds, skip. |
+| Revision pass | Last 5 minutes | Attempt skipped questions — Venn questions often become obvious on a fresh look. |
+
+## Part 3: Logical / Mathematical Formulas
+
+| Formula | Expression | Use |
+|---|---|---|
+| Two-set union | n(A∪B) = n(A) + n(B) − n(A∩B) | Total liking at least one of two things. |
+| Only A | n(A only) = n(A) − n(A∩B) | Members belonging exclusively to A. |
+| Neither A nor B | Total − n(A∪B) | Members outside both circles. |
+| Three-set union | n(A∪B∪C) = n(A)+n(B)+n(C) − n(A∩B) − n(B∩C) − n(A∩C) + n(A∩B∩C) | Total in three overlapping groups. |
+| Exactly two groups | n(A∩B) + n(B∩C) + n(A∩C) − 3·n(A∩B∩C) | Members in exactly two of the three sets. |
+| Exactly one group | n(A∪B∪C) − [exactly two] − n(A∩B∩C) | Members in only one set. |
+| Minimum overlap (two sets) | max[0, n(A) + n(B) − Total] | Least possible number in both groups. |
+| Maximum overlap (two sets) | min[n(A), n(B)] | Greatest possible number in both groups. |

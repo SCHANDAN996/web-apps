@@ -1,0 +1,13 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+jinja2==3.1.5
+SQLAlchemy==2.0.36
+python-multipart==0.0.20
+# job aggregation
+httpx==0.28.1
+beautifulsoup4==4.12.3
+pypdf>=6.1.3,<7
+# AI tutor / question & current-affairs generation (optional; needs ANTHROPIC_API_KEY)
+anthropic>=1.11,<2
+# tests
+pytest==8.3.4

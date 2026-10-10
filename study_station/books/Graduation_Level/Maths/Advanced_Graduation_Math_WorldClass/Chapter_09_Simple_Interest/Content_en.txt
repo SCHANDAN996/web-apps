@@ -1,0 +1,151 @@
+# Simple Interest
+
+## Learning Goals
+
+By the end of this chapter, you will be able to:
+
+- Compute Simple Interest (SI) for any principal, rate, and time — including fractional years and months.
+- Find any one unknown (P, R, or T) when the other three are given.
+- Handle "amount becomes n times" and "sum doubles/triples" problems in seconds.
+- Solve instalment, part-investment, and rate-change problems that appear in SSC CGL Tier-II, IBPS PO Mains, and CSAT.
+- Spot the traps examiners set between Simple Interest and Compound Interest.
+
+---
+
+## The Hook: The ₹10,000 Lesson
+
+Two friends each borrow ₹10,000 for 3 years at 10% per year. One borrows on **simple interest**, the other on **compound interest**. At the end, the first friend pays back ₹13,000. The second pays back ₹13,310. Same money, same rate, same time — yet ₹310 apart.
+
+That ₹310 gap is exactly why examiners love this chapter. Simple Interest looks trivially easy, and that is precisely the trap: under exam pressure, students mix up SI and CI, forget to convert months into years, or misread "amount" as "interest." Master SI deeply, and you not only secure these marks — you build the foundation for Compound Interest, which is just SI applied repeatedly.
+
+---
+
+## 1. What Simple Interest Really Means
+
+When you borrow money, you pay a "rent" for using it. That rent is called **interest**. In **simple** interest, the rent is calculated **only on the original sum** (the principal), every single year. It never grows, never compounds.
+
+- **Principal (P):** the original sum borrowed or invested.
+- **Rate (R):** interest per ₹100 per year, written as R% p.a.
+- **Time (T):** the period, always converted into **years**.
+- **Simple Interest (SI):** the total rent paid.
+- **Amount (A):** Principal + Interest = P + SI.
+
+The core formula:
+
+**SI = (P × R × T) / 100**
+
+**Amount A = P + SI = P(1 + RT/100)**
+
+🧠 **Active Recall:** Without looking — if P = ₹5,000, R = 8%, T = 2 years, what is the SI? What is the Amount? (SI = ₹800, A = ₹5,800. Check yourself.)
+
+---
+
+## 2. Why the Formula Works (Don't Just Memorise It)
+
+R% means: every year, you pay ₹R for every ₹100 of principal. So in one year, interest on ₹P is (P × R)/100. Over T years, multiply by T. That's it — the whole formula is just "rent per year × number of years."
+
+This understanding unlocks the rearrangements instantly:
+
+- **P = (SI × 100) / (R × T)**
+- **R = (SI × 100) / (P × T)**
+- **T = (SI × 100) / (P × R)**
+
+Notice the pattern: whatever you want sits alone; SI × 100 is always on top; the other two variables multiply below.
+
+🧠 **Active Recall:** A sum earns ₹1,200 as SI in 4 years at 5%. Can you find the principal using the rearranged formula? (P = 1200 × 100 / (5 × 4) = ₹6,000.)
+
+---
+
+## 3. The Time Trap: Months and Days
+
+Examiners rarely give clean years. Convert carefully:
+
+- **Months → years:** divide by 12. (T = 8 months = 8/12 = 2/3 year)
+- **Days → years:** divide by 365 (unless the question says 366 or 360).
+
+**Example:** SI on ₹7,300 at 6% for 73 days.
+T = 73/365 = 1/5 year. SI = (7300 × 6 × 1/5)/100 = ₹87.60.
+
+A classic trap: "2 years 6 months" must become 2.5 years **before** you apply the formula — students who plug in 2.6 lose the mark.
+
+---
+
+## 4. The "Becomes n Times" Family
+
+This is the most repeated advanced pattern. If a sum **becomes n times itself** (i.e., Amount = nP), then the interest earned is (n − 1)P.
+
+So: **(n − 1)P = PRT/100  →  RT = 100(n − 1)**
+
+**Example:** A sum doubles in 8 years at SI. Find the rate.
+Here n = 2, so RT = 100 → R × 8 = 100 → R = 12.5%.
+
+**The killer follow-up:** "A sum doubles in 8 years. In how many years will it become 4 times (at the same SI rate)?"
+Doubling means earning 1P of interest in 8 years. To become 4 times, you must earn 3P — three times the interest — so 3 × 8 = **24 years**. In SI, interest grows linearly, so time scales linearly. (In CI it would be 16 years — a favourite confusion trap!)
+
+🧠 **Active Recall:** A sum triples in 12 years at simple interest. When will it become 5 times? (Tripling = earning 2P in 12 years, so 1P per 6 years. Five times = earning 4P → 24 years.)
+
+---
+
+## 5. Split Investments and Rate Changes
+
+**Split investment:** ₹P is split into two parts at rates R₁ and R₂ for the same time, earning equal interest. Then the parts are in the ratio **R₂ : R₁** (inverse ratio — the higher rate needs the smaller part).
+
+**Example:** ₹10,000 split at 6% and 8% for equal SI in the same time. Parts ratio = 8 : 6 = 4 : 3, so the part at 6% is 4/7 × 10,000 = ₹5,714.29 and the part at 8% is 3/7 × 10,000 = ₹4,285.71. Verify: SI₁ = (5714.29 × 6 × T)/100 = 342.86T and SI₂ = (4285.71 × 8 × T)/100 = 342.86T — equal. ✓
+
+**Rate change over time:** If the rate is R₁ for T₁ years and R₂ for T₂ years, just add the interests:
+**SI = P(R₁T₁ + R₂T₂)/100**
+
+---
+
+## 6. Instalments — The Advanced Favourite
+
+A debt is repaid in equal annual instalments of ₹x under simple interest at rate R. The reliable method: **each instalment, paid after a different number of years, clears a different slice of the loan.** An instalment of ₹x paid after T years clears a principal slice of:
+
+**Principal slice = x / (1 + RT/100)**
+
+because that slice, plus T years of simple interest on it, grows to exactly ₹x. Add the slices of all instalments to get the loan:
+
+**Loan = Σ x / (1 + RTᵢ/100)**, where Tᵢ = 1, 2, 3, … years for the 1st, 2nd, 3rd, … instalment.
+
+**Example:** A loan is repaid in 2 annual instalments of ₹1,050 each at 10% SI. Find the loan.
+- First instalment (paid after 1 year): 1050 / (1 + 10×1/100) = 1050/1.1 = ₹954.55
+- Second instalment (paid after 2 years): 1050 / (1 + 10×2/100) = 1050/1.2 = ₹875
+- Loan = 954.55 + 875 = **₹1,829.55**
+
+**Lesson:** there is no safe one-line shortcut here — divide each instalment by (1 + RT/100) with its own T, then add. Trust the method, not a formula you half-remember.
+
+🧠 **Active Recall:** Why does each instalment get divided by a *different* factor? (Because each is paid after a different number of years, so each carries a different amount of interest.)
+
+---
+
+## 7. SI vs CI — Know the Boundary
+
+For **1 year**, SI and CI are identical. They diverge from year 2 onward, because CI pays interest on interest. For 2 years, the difference is P(R/100)². If a question mentions "interest on interest" or "compounded," leave this chapter's formulas behind. If the question says nothing about the type of interest, read it twice before assuming — many exams state "simple interest" explicitly, and when they don't, the wording usually tells you which one is meant.
+
+---
+
+## 🧠 Mnemonic: "PeRT-100"
+
+Remember the formula as a person: **Mr. PeRT works for 100.**
+**P × R × T over 100** — Principal, Rate, Time, divided by 100. And his wife **"A = P + SI"** — the Amount is always Principal *plus* his salary (SI), never minus. If you can picture Mr. PeRT handing his paycheque to Mrs. A, you will never swap Amount and Interest again.
+
+---
+
+## Summary Table
+
+| Concept | Formula / Rule | Watch Out For |
+|---|---|---|
+| Simple Interest | SI = PRT/100 | T must be in years |
+| Amount | A = P + SI = P(1 + RT/100) | Amount ≠ Interest |
+| Find P, R, T | SI×100 on top, other two below | Units of R (% p.a.) |
+| Months/Days | ÷12 or ÷365 | 2 yr 6 mo = 2.5, not 2.6 |
+| Becomes n times | RT = 100(n − 1) | "n times" ≠ "n times more" loosely used — read carefully |
+| Time to multiply further | SI grows linearly with time | Don't apply CI logic |
+| Equal SI, split sum | Parts in inverse ratio of rates | R₂ : R₁, not R₁ : R₂ |
+| Changing rates | SI = P(R₁T₁ + R₂T₂)/100 | Add interests separately |
+| Instalments | Loan = Σ x/(1 + RTᵢ/100) | Each instalment has its own T |
+| SI vs CI | Same for 1 year; differ after | Difference for 2 yrs = P(R/100)² |
+
+---
+
+📌 **Review this chapter after 2 days.** Redo the "becomes n times" and instalment examples with a pen, without looking at the solutions — those two families decide most SI questions in Tier-II and PO Mains.

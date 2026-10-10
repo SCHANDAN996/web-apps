@@ -1,0 +1,151 @@
+प्रश्न 101–120: आसान | प्रश्न 121–125: मध्यम
+
+101. What is the remainder when 7^84 is divided by 342?
+(a) 1 (b) 7 (c) 49 (d) 343
+Answer: (a)
+Solution: The tempting trap is to compute 7^3 = 343 and guess 7 or 49 for higher powers. Since 7^3 = 343 ≡ 1 (mod 342) and 84 = 3 × 28, we get 7^84 = (7^3)^28 ≡ 1^28 = 1 (mod 342), so the answer is 1.
+Source: PYQ-style
+
+102. The number 2^58 + 1 is divisible by which of the following?
+(a) 3 (b) 5 (c) 7 (d) 11
+Answer: (b)
+Solution: Many students test 3 first, but 2^58 + 1 ≡ 1 + 1 = 2 (mod 3), so 3 fails. Since 58 is even, 2^58 = 4^29 and 4 ≡ −1 (mod 5), so 4^29 ≡ −1 (mod 5), giving 2^58 + 1 ≡ 0 (mod 5), so the answer is 5.
+Source: PYQ-style
+
+103. How many zeros are there at the end of 125!?
+(a) 31 (b) 30 (c) 25 (d) 32
+Answer: (a)
+Solution: The trap is to count only multiples of 5 (125/5 = 25) and stop there. We must add the extra 5s from multiples of 25 (125/25 = 5) and of 125 (125/125 = 1). Total = 25 + 5 + 1 = 31, so the answer is 31.
+Source: NCERT Class 11 Mathematics
+
+104. If n is a positive integer, then n^3 − n is always divisible by:
+(a) 6 (b) 4 (c) 9 (d) 12
+Answer: (a)
+Solution: The trap is 12, since n^3 − n = (n−1)n(n+1) is a product of three consecutive integers and students overcount the factors of 2. Three consecutive integers always contain a multiple of 3 and at least one even number, so the product is divisible by 6; but for n = 2 the value is 6, which is not divisible by 4, 9 or 12, so the answer is 6.
+Source: PYQ-style
+
+105. What is the unit digit of 3^2023 + 7^2023?
+(a) 2 (b) 0 (c) 4 (d) 6
+Answer: (b)
+Solution: The trap is to misread the unit-digit cycles. For 3, the cycle is 3, 9, 7, 1 and 2023 mod 4 = 3, giving unit digit 7; for 7, the cycle is 7, 9, 3, 1 and 2023 mod 4 = 3, giving unit digit 3. Sum = 7 + 3 = 10, so the answer is 0.
+Source: PYQ-style
+
+106. The HCF of two numbers is 13 and their LCM is 2028. If one number is 169, the other number is:
+(a) 132 (b) 156 (c) 144 (d) 169
+Answer: (b)
+Solution: The trap is to divide 2028 by 13 and report the result without checking consistency with 169. Other number = (HCF × LCM) / one number = (13 × 2028)/169 = 156. Verify: 169 = 13^2 and 156 = 12 × 13, so HCF = 13 and LCM = 13^2 × 12 = 2028, so the answer is 156.
+Source: PYQ-style
+
+107. What is the remainder when 2^1000 is divided by 7?
+(a) 1 (b) 4 (c) 6 (d) 2
+Answer: (d)
+Solution: The trap is to reduce the exponent mod 7 instead of using the cycle of 2 mod 7. Since 2^3 = 8 ≡ 1 (mod 7) and 1000 = 3 × 333 + 1, we get 2^1000 ≡ 1^333 × 2 = 2 (mod 7), so the answer is 2.
+Source: PYQ-style
+
+108. How many factors of 3600 are perfect squares?
+(a) 9 (b) 12 (c) 15 (d) 18
+Answer: (b)
+Solution: The trap is to count all factors: 3600 = 2^4 × 3^2 × 5^2 has (4+1)(2+1)(2+1) = 45 factors, and students pick a number derived from 45. For a perfect-square factor every exponent must be even: the exponent of 2 can be 0, 2 or 4 (3 choices), of 3 can be 0 or 2 (2 choices), and of 5 can be 0 or 2 (2 choices). Total = 3 × 2 × 2 = 12, so the answer is 12.
+Source: PYQ-style
+
+109. The sum of the digits of a two-digit number is 11. If the digits are reversed, the number decreases by 27. The original number is:
+(a) 92 (b) 65 (c) 83 (d) 74
+Answer: (d)
+Solution: The trap is to write reversed − original = 27, which gives a negative and confuses the signs. With digits x (tens) and y (units): x + y = 11 and (10x + y) − (10y + x) = 27, so 9(x − y) = 27 and x − y = 3. Solving gives x = 7, y = 4, so the answer is 74.
+Source: NCERT Class 10 Mathematics
+
+110. What is the largest number that divides 398, 436 and 542 leaving remainders 7, 11 and 15 respectively?
+(a) 15 (b) 19 (c) 17 (d) 21
+Answer: (c)
+Solution: The trap is to take the HCF of the original numbers directly, ignoring the remainders. Subtract the remainders: 398 − 7 = 391, 436 − 11 = 425, 542 − 15 = 527. Now 391 = 17 × 23, 425 = 17 × 25 and 527 = 17 × 31, so the HCF is 17, so the answer is 17.
+Source: PYQ-style
+
+111. If 1^3 + 2^3 + 3^3 + … + 10^3 = 3025, then the value of 2^3 + 4^3 + 6^3 + … + 20^3 is:
+(a) 24200 (b) 30250 (c) 18150 (d) 12100
+Answer: (a)
+Solution: The trap is to double 3025 or to square it. Each term is (2k)^3 = 8k^3, so the required sum = 8 × (1^3 + 2^3 + … + 10^3) = 8 × 3025 = 24200, so the answer is 24200.
+Source: NCERT Class 11 Mathematics
+
+112. What is the remainder when 5^99 is divided by 13?
+(a) 8 (b) 5 (c) 12 (d) 1
+Answer: (a)
+Solution: The trap is to guess 1 by assuming the exponent 99 reduces to a multiple of the cycle length. Since 5^4 = 625 = 13 × 48 + 1 ≡ 1 (mod 13) and 99 = 4 × 24 + 3, we get 5^99 ≡ 5^3 = 125 ≡ 125 − 117 = 8 (mod 13), so the answer is 8.
+Source: PYQ-style
+
+113. What is the remainder when 1! + 2! + 3! + … + 100! is divided by 15?
+(a) 3 (b) 0 (c) 9 (d) 12
+Answer: (a)
+Solution: The trap is to try summing all 100 factorials mod 15 one by one. From 5! = 120 onward, every factorial contains the factors 3 and 5, hence is divisible by 15. Only 1! + 2! + 3! + 4! = 1 + 2 + 6 + 24 = 33 matters, and 33 mod 15 = 3, so the answer is 3.
+Source: PYQ-style
+
+114. A number when divided by 5 leaves remainder 3, when divided by 7 leaves remainder 5, and when divided by 9 leaves remainder 7. The smallest such number is:
+(a) 103 (b) 313 (c) 173 (d) 243
+Answer: (b)
+Solution: The trap is to apply the Chinese remainder method mechanically without noticing the pattern: in each case divisor − remainder = 2. So N + 2 is divisible by 5, 7 and 9; LCM(5, 7, 9) = 315, hence N = 315 − 2 = 313, so the answer is 313.
+Source: PYQ-style
+
+115. The sum of all two-digit numbers divisible by 7 is:
+(a) 676 (b) 756 (c) 702 (d) 728
+Answer: (d)
+Solution: The trap is to take 7 or 105 as an endpoint, though both are not two-digit numbers. Two-digit multiples of 7 run from 14 to 98, giving (98 − 14)/7 + 1 = 13 terms. Sum = (13/2) × (14 + 98) = (13/2) × 112 = 13 × 56 = 728, so the answer is 728.
+Source: NCERT Class 10 Mathematics
+
+116. The number 7^6 − 1 is completely divisible by which of the following?
+(a) 50 (b) 45 (c) 48 (d) 35
+Answer: (c)
+Solution: The trap is to test only small obvious divisors and stop. Factor: 7^6 − 1 = (7^3 − 1)(7^3 + 1) = 342 × 344 = 117648. It is even, so 45 fails; it does not end in 0, so 50 fails; and 117648/7 is not an integer, so 35 fails. But 117648 = 48 × 2451, so the answer is 48.
+Source: PYQ-style
+
+117. How many numbers between 100 and 1000 are divisible by both 6 and 9?
+(a) 50 (b) 45 (c) 40 (d) 55
+Answer: (a)
+Solution: The trap is to count multiples of 6 and multiples of 9 separately and add, which double-counts. A number divisible by both 6 and 9 is divisible by LCM(6, 9) = 18. Multiples of 18 from 108 to 990 number (990 − 108)/18 + 1 = 49 + 1 = 50, so the answer is 50.
+Source: NCERT Class 10 Mathematics
+
+118. The unit digit of (1!)^1 + (2!)^2 + (3!)^3 + (4!)^4 + (5!)^5 is:
+(a) 9 (b) 5 (c) 3 (d) 7
+Answer: (d)
+Solution: The trap is to compute full factorials and lose track of the unit digits. Unit digits: 1!^1 = 1; 2!^2 = 4; 3!^3 = 6^3 ends in 6; 4!^4 = 24^4 ends in 6; 5!^5 = 120^5 ends in 0. Sum of unit digits = 1 + 4 + 6 + 6 + 0 = 17, so the answer is 7.
+Source: PYQ-style
+
+119. If the number 653ab is divisible by 90, where a and b are digits, then a + b equals:
+(a) 2 (b) 6 (c) 4 (d) 8
+Answer: (c)
+Solution: The trap is to apply only the rule of 9 and forget the rule of 10. Divisibility by 90 needs divisibility by both 9 and 10. For 10, b = 0. For 9: 6 + 5 + 3 + a + 0 = 14 + a must be divisible by 9, so a = 4. Then a + b = 4 + 0 = 4, so the answer is 4.
+Source: PYQ-style
+
+120. The product of all the factors of 36 is:
+(a) 6^8 × 9 (b) 6^9 (c) 36^4 (d) 36^5
+Answer: (b)
+Solution: The trap is to multiply the factors 1, 2, 3, 4, 6, 9, 12, 18, 36 pairwise and make an arithmetic slip. A number N with d factors has product of factors = N^(d/2). Here 36 has 9 factors, so the product = 36^(9/2) = 6^9, so the answer is 6^9.
+Source: PYQ-style
+
+121. What is the remainder when (17^23 + 19^23) is divided by 36?
+(a) 24 (b) 12 (c) 18 (d) 0
+Answer: (d)
+Solution: The trap is to expand each power mod 36 separately and drown in computation. Since 23 is odd, a^n + b^n is divisible by a + b, so 17^23 + 19^23 is divisible by 17 + 19 = 36, so the answer is 0.
+Source: PYQ-style
+
+122. Let N = 2^4 × 3^5 × 5^3 × 7^2. How many factors of N are divisible by 30?
+(a) 144 (b) 120 (c) 160 (d) 180
+Answer: (d)
+Solution: The trap is to count all factors (5 × 6 × 4 × 3 = 360) and then guess a fraction. A factor divisible by 30 = 2 × 3 × 5 must contain each of 2, 3, 5 at least once: the exponent of 2 has 4 choices (1–4), of 3 has 5 choices (1–5), of 5 has 3 choices (1–3), and of 7 has 3 choices (0–2). Total = 4 × 5 × 3 × 3 = 180, so the answer is 180.
+Source: PYQ-style
+
+123. What is the last non-zero digit of 25!?
+(a) 2 (b) 8 (c) 4 (d) 6
+Answer: (c)
+Solution: The trap is to strip zeros by dividing by 10 repeatedly and then multiply the remaining unit digits carelessly. 25! has floor(25/5) + floor(25/25) = 6 trailing zeros; removing the six 2 × 5 pairs and multiplying the remaining factors mod 10 (the standard sequential computation gives 5! → 2, 10! → 8, 15! → 8, 20! → 4, 25! → 4) yields 4, so the answer is 4.
+Source: PYQ-style
+
+124. The smallest positive integer n for which n! is divisible by 10^6 is:
+(a) 20 (b) 24 (c) 25 (d) 30
+Answer: (c)
+Solution: The trap is to think 10^6 needs six 10s and guess n = 30 or n = 60 by gut feel. Trailing zeros of n! equal floor(n/5) + floor(n/25) + …, and we need at least 6. For n = 24 the count is 4; for n = 25 it is 5 + 1 = 6, so the answer is 25.
+Source: PYQ-style
+
+125. What is the remainder when 3^100 + 5^100 is divided by 8?
+(a) 0 (b) 4 (c) 2 (d) 6
+Answer: (c)
+Solution: The trap is to note 3^2 ≡ 1 (mod 8), conclude 3^100 ≡ 1, and then assume 5^100 behaves differently. In fact 5^2 = 25 ≡ 1 (mod 8) as well, so 5^100 ≡ 1. Sum ≡ 1 + 1 = 2 (mod 8), so the answer is 2.
+Source: PYQ-style

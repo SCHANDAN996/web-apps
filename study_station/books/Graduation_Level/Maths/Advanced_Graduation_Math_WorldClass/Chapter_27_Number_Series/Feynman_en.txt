@@ -1,0 +1,70 @@
+# Feynman Explains: Number Series & Logic
+
+## The Detective Who Never Guessed
+
+Imagine a 12-year-old detective named **Mira**. One day she finds a strange note on her desk:
+
+> **3, 6, 12, 24, ?**
+
+Her little brother shouts, "48! Easy — it doubles!" And he's right. But Mira frowns. "Wait," she says. "What if the rule is *'add 3, then add 6, then add 12, then add 24'* — the gaps themselves double? That also gives 48. But what if the rule is *'each number is the previous one times 2'*? Same answer... but what if the rule is something sneaky, like *'multiply by 2, but the 6th term subtracts 5'*? Then the answer after 48 would be different!"
+
+And that, friends, is the **hardest concept in Number Series**: **a series never tells you its rule — you have to interrogate it.**
+
+## The Big Secret: Series Don't Have Rules, They Have *Suspects*
+
+Here's what most students get wrong. They think a number series is a math problem. It isn't. It's a **crime scene**. The numbers are clues, and your job is to figure out *which criminal* (which pattern) produced them.
+
+The suspects are always the same gang:
+
+1. **Adder** — adds a fixed number (2, 5, 7, 10…)
+2. **Multiplier** — multiplies (×2, ×3…)
+3. **Shapeshifter** — the *gaps* themselves form a pattern (differences of differences!)
+4. **Alternator** — two series hiding inside one, taking turns
+5. **Squarer/Cuber** — n², n³, or n² ± something
+6. **Mixer** — does two operations in a loop (×2 + 1, ×2 + 2, ×2 + 3…)
+
+Mira's trick? She never stares at the numbers. **She stares at the gaps between them.**
+
+## The Magic Move: "Subtract First, Think Later"
+
+Take this scary-looking series:
+
+> **4, 9, 19, 39, 79, ?**
+
+Don't panic. Don't guess. Just subtract each pair:
+
+- 9 − 4 = **5**
+- 19 − 9 = **10**
+- 39 − 19 = **20**
+- 79 − 39 = **40**
+
+Look! The gaps are 5, 10, 20, 40 — doubling! So the next gap is 80, and the answer is 79 + 80 = **159**.
+
+One subtraction turned a monster into a mouse. If the first gaps look random, subtract the gaps *again* (second differences). If those are equal, it was a quadratic (n²-type) pattern all along. Detectives call this "peeling the onion."
+
+## The Unforgettable Trick: **"GAP-SNAP"**
+
+Say it like a superhero move: **GAP-SNAP!**
+
+- **GAP** — Write the **G**aps **A**bove the **P**airs (subtract neighbours).
+- **SNAP** — **S**till stuck? **N**ow **A**lternate (split odd/even positions) or check **P**roducts (×2, ×3, squares).
+
+If GAP-SNAP fails, the series is almost always a **Mixer**: try "×2 + 1, ×2 + 2, ×2 + 3…" — the most common trap in bank exams.
+
+## The Logic Twist: Wrong Number Series
+
+Sometimes the exam flips the game: instead of finding the *next* number, you must find the **impostor** — the one number that breaks the rule. Mira's method stays the same: build the pattern from the numbers that *agree* with each other, and the odd one exposes itself. Majority rules. If five numbers follow ×2 + 1 and one doesn't, the one is your criminal.
+
+## Why This Matters Beyond Exams
+
+Feynman would say: this isn't really about numbers. It's about a life skill — **never assume the first pattern you see is the only one.** The world, like a number series, always has more than one possible explanation. The smart person tests the gaps before believing the story.
+
+## Your Turn 🎯
+
+Mira left one last note on *your* desk:
+
+> **2, 3, 5, 9, 17, 33, ?**
+
+Use GAP-SNAP. What are the gaps? What do the gaps themselves do? And can you find *two different rules* that both give the same next number — but would disagree on the number after that?
+
+Solve it, and you're officially a detective.

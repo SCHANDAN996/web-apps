@@ -1,0 +1,151 @@
+प्रश्न 126–145: आसान | प्रश्न 146–150: मध्यम
+
+126. The average of 11 numbers is 50. The average of the first 6 numbers is 49 and that of the last 6 numbers is 52. What is the 6th number?
+(a) 46 (b) 48 (c) 50 (d) 56
+Answer: (d)
+Solution: The tempting wrong answer 50 comes from assuming the middle number equals the overall average, ignoring the overlap. Sum of all 11 numbers = 11 × 50 = 550; sum of first 6 = 294; sum of last 6 = 312. The 6th number is counted twice, so it equals 294 + 312 − 550 = 56, so the answer is 56.
+Source: PYQ-style
+
+127. The average weight of a group of 30 boys increases by 1 kg when a boy weighing 45 kg is replaced by a new boy. What is the weight of the new boy?
+(a) 75 kg (b) 70 kg (c) 76 kg (d) 80 kg
+Answer: (a)
+Solution: The trap answer 46 kg (not listed, leading many to 70 kg) comes from adding just 1 kg to 45 kg, forgetting the increase applies to all 30 members. Total increase = 30 × 1 = 30 kg, so the new boy weighs 45 + 30 = 75 kg, so the answer is 75 kg.
+Source: PYQ-style
+
+128. The average of five consecutive even numbers is 24. What is the average of the next five consecutive even numbers that follow them?
+(a) 29 (b) 32 (c) 34 (d) 30
+Answer: (c)
+Solution: The trap answer 29 comes from adding 5 to 24, but each of the next five even numbers is 10 more than the corresponding earlier number. The numbers are 20, 22, 24, 26, 28; the next five are 30, 32, 34, 36, 38 with average 34, so the answer is 34.
+Source: NCERT Class 10 Mathematics
+
+129. The average age of a family of 6 members is 22 years. If the youngest member is 8 years old, what was the average age of the family just before the birth of the youngest member?
+(a) 15 years (b) 16 years (c) 16.8 years (d) 18 years
+Answer: (c)
+Solution: The trap answer 16 years comes from dividing (132 − 8) by a wrong member count. Total present age = 6 × 22 = 132; eight years ago the other 5 members totalled 132 − 8 − 5 × 8 = 84. Average = 84/5 = 16.8 years, so the answer is 16.8 years.
+Source: PYQ-style
+
+130. A batsman has a certain average after 16 innings. In the 17th innings he scores 85 runs, thereby increasing his average by 3 runs. What is his average after 17 innings?
+(a) 43 (b) 34 (c) 40 (d) 37
+Answer: (d)
+Solution: The trap answer 40 comes from adding 3 to a wrongly computed old average of 37. Let the new average be x; then 16(x − 3) + 85 = 17x, giving x = 85 − 48 = 37, so the answer is 37.
+Source: PYQ-style
+
+131. The average of three numbers is 77. The first number is twice the second and the second is twice the third. What is the first number?
+(a) 110 (b) 121 (c) 132 (d) 99
+Answer: (c)
+Solution: The trap answer 110 comes from taking the ratio as 2:1:1 instead of 4:2:1. Let the third number be x; then the numbers are 4x, 2x, x with sum 7x = 231, so x = 33 and the first number is 132, so the answer is 132.
+Source: PYQ-style
+
+132. The average marks of 100 students were found to be 40. Later it was discovered that a score of 53 was misread as 83. What is the correct average?
+(a) 39.4 (b) 39.5 (c) 40.3 (d) 39.7
+Answer: (d)
+Solution: The trap answer 40.3 comes from adding the correction instead of subtracting it, since 83 was recorded higher than the true 53. Correct total = 4000 − 30 = 3970, so correct average = 39.7, so the answer is 39.7.
+Source: PYQ-style
+
+133. The average of 8 observations is 25. If one observation, 17, is deleted and two new observations, 29 and 35, are added, what is the new average?
+(a) 26 (b) 27 (c) 27.4 (d) 28
+Answer: (c)
+Solution: The trap answer 27 comes from dividing the new total by 9 incorrectly or rounding too early. New total = 200 − 17 + 29 + 35 = 247 over 9 observations, giving 247/9 ≈ 27.4, so the answer is 27.4.
+Source: PYQ-style
+
+134. In a class, the average score of boys is 70 and that of girls is 73. The average score of the whole class is 71.8. What is the ratio of boys to girls?
+(a) 2 : 3 (b) 3 : 2 (c) 4 : 5 (d) 5 : 4
+Answer: (a)
+Solution: The trap answer 3 : 2 comes from inverting the alligation differences. By alligation, boys : girls = (73 − 71.8) : (71.8 − 70) = 1.2 : 1.8 = 2 : 3, so the answer is 2 : 3.
+Source: PYQ-style
+
+135. The average of 20 numbers is zero. Of them, at the most, how many may be greater than zero?
+(a) 0 (b) 19 (c) 10 (d) 1
+Answer: (b)
+Solution: The trap answer 10 comes from assuming positives and negatives must balance in count, but the balance is in sum, not count. If 19 numbers are positive, the 20th can be one negative number equal in magnitude to their total, so the answer is 19.
+Source: PYQ-style
+
+136. A cricketer's average for 11 matches is 23 runs. In the next 4 matches he scores 40, 55, 30 and 15 runs. What is his new average?
+(a) 25 (b) 26.2 (c) 27 (d) 26
+Answer: (b)
+Solution: The trap answer 26 comes from rounding prematurely or averaging the two averages directly. Total runs = 11 × 23 + 140 = 393 over 15 matches, giving 393/15 = 26.2, so the answer is 26.2.
+Source: PYQ-style
+
+137. The average salary of all workers in a factory is Rs 8,000. The average salary of 7 technicians is Rs 12,000 and that of the rest is Rs 6,000. How many workers are there in the factory?
+(a) 20 (b) 23 (c) 22 (d) 21
+Answer: (d)
+Solution: The trap answer 20 comes from a slip in cross-multiplication. Let total workers be n: 8000n = 84000 + 6000(n − 7), so 2000n = 42000 and n = 21, so the answer is 21.
+Source: PYQ-style
+
+138. The average of the first 100 positive integers is 50.5. If each number is multiplied by 2 and then 5 is subtracted from each, what is the new average?
+(a) 95 (b) 96 (c) 101 (d) 100
+Answer: (b)
+Solution: The trap answer 101 comes from applying only the multiplication and forgetting the subtraction. Average scales with every linear operation: new average = 2 × 50.5 − 5 = 96, so the answer is 96.
+Source: NCERT Class 10 Mathematics
+
+139. The average age of 24 students and their teacher is 15 years. If the teacher's age is excluded, the average drops by 1 year. What is the teacher's age?
+(a) 39 years (b) 40 years (c) 38 years (d) 41 years
+Answer: (a)
+Solution: The trap answer 40 comes from adding the drop of 1 year only once instead of accounting for all 24 students. Total of all 25 = 375; total of 24 students = 24 × 14 = 336; teacher's age = 375 − 336 = 39 years, so the answer is 39 years.
+Source: PYQ-style
+
+140. The average of 5 numbers is 27. If one number is excluded, the average becomes 25. What is the excluded number?
+(a) 25 (b) 27 (c) 30 (d) 35
+Answer: (d)
+Solution: The trap answer 27 comes from assuming the excluded number equals the old average, which holds only when the average does not change. Excluded number = 5 × 27 − 4 × 25 = 135 − 100 = 35, so the answer is 35.
+Source: PYQ-style
+
+141. Three years ago, the average age of a family of 5 members was 17 years. A baby having been born, the average age of the family is the same today. What is the age of the baby?
+(a) 3 years (b) 1 year (c) 2 years (d) 1.5 years
+Answer: (c)
+Solution: The trap answer 3 years comes from dividing 15 by 5 instead of accounting for the 6th member. Three years ago the total was 85; today the 5 members total 100, while 6 members at average 17 total 102. Baby's age = 102 − 100 = 2 years, so the answer is 2 years.
+Source: PYQ-style
+
+142. The average of 9 numbers is 18. The average of the first 5 is 15 and that of the last 3 is 20. What is the 6th number?
+(a) 21 (b) 27 (c) 30 (d) 24
+Answer: (b)
+Solution: The trap answer 24 comes from averaging 15 and 20, which ignores the counts. Sum of all 9 = 162; sum of first 5 = 75; sum of last 3 = 60; the 6th number = 162 − 75 − 60 = 27, so the answer is 27.
+Source: PYQ-style
+
+143. A man buys 13 articles at Rs 70 each, 15 at Rs 60 each and 12 at Rs 65 each. What is the average price per article?
+(a) Rs 65 (b) Rs 64.75 (c) Rs 65.25 (d) Rs 64.50
+Answer: (b)
+Solution: The trap answer Rs 65 comes from taking the simple average of 70, 60 and 65, ignoring the different quantities. Total cost = 910 + 900 + 780 = 2590 over 40 articles, giving 2590/40 = Rs 64.75, so the answer is Rs 64.75.
+Source: PYQ-style
+
+144. The average of 50 numbers is 38. If two numbers, 45 and 55, are discarded, what is the average of the remaining numbers?
+(a) 36.5 (b) 37.5 (c) 37 (d) 38
+Answer: (b)
+Solution: The trap answer 38 comes from assuming discarding 45 and 55 leaves the average unchanged — it does not, since their average 50 differs from 38. Remaining total = 1900 − 100 = 1800 over 48 numbers, giving 1800/48 = 37.5, so the answer is 37.5.
+Source: PYQ-style
+
+145. In an examination, the average marks of all students is 52. The average marks of passed students is 60 and that of failed students is 20. If 200 students appeared, how many passed?
+(a) 160 (b) 140 (c) 180 (d) 120
+Answer: (a)
+Solution: The trap answer 140 comes from inverting the alligation ratio. By alligation, passed : failed = (52 − 20) : (60 − 52) = 32 : 8 = 4 : 1, so passed students = 4/5 × 200 = 160, so the answer is 160.
+Source: PYQ-style
+
+146. The average of x and 1/x (x ≠ 0) is M. What is the average of x² and 1/x²?
+(a) M² − 2 (b) 2M² + 1 (c) 4M² − 2 (d) 2M² − 1
+Answer: (d)
+Solution: The trap answer M² − 2 comes from squaring the average directly without the factor adjustments. Given x + 1/x = 2M, squaring gives x² + 1/x² = 4M² − 2, whose average is (4M² − 2)/2 = 2M² − 1, so the answer is 2M² − 1.
+Source: PYQ-style
+
+147. The average weight of A, B and C is 45 kg. If the average weight of A and B is 40 kg and that of B and C is 38 kg, what is the weight of B?
+(a) 21 kg (b) 17 kg (c) 20 kg (d) 26 kg
+Answer: (a)
+Solution: The trap answer 26 kg comes from subtracting the two pair-sums wrongly. A + B + C = 3 × 45 = 135; A + B = 80; B + C = 76. Then B = 80 + 76 − 135 = 21 kg, so the answer is 21 kg.
+Source: PYQ-style
+
+148. The average of five consecutive odd numbers is 61. What is the difference between the highest and the lowest of these numbers?
+(a) 8 (b) 10 (c) 12 (d) 16
+Answer: (a)
+Solution: The trap answer 10 comes from taking 5 × 2, but with five terms there are only 4 gaps of 2. The numbers are 57, 59, 61, 63, 65; difference = 65 − 57 = 8, so the answer is 8.
+Source: NCERT Class 10 Mathematics
+
+149. A library has an average of 510 visitors on Sundays and 240 on other days of the week. What is the average number of visitors per day in a month of 30 days beginning with a Sunday?
+(a) 285 (b) 276 (c) 280 (d) 290
+Answer: (a)
+Solution: The trap answer 276 comes from taking 4 Sundays, but a 30-day month starting on Sunday has 5 Sundays. Total visitors = 5 × 510 + 25 × 240 = 8550, giving 8550/30 = 285, so the answer is 285.
+Source: PYQ-style
+
+150. The average of 7 consecutive numbers is 20. The largest of these numbers is increased by 14 and the smallest is decreased by 7. What is the new average of the 7 numbers?
+(a) 20 (b) 23 (c) 21 (d) 22
+Answer: (c)
+Solution: The trap answer 22 comes from adding the net change 7 directly to the average instead of dividing by the count. Net change in total = +14 − 7 = +7, spread over 7 numbers, so the average rises by 1, giving 21, so the answer is 21.
+Source: PYQ-style

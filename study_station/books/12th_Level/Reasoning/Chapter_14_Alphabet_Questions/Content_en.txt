@@ -1,0 +1,216 @@
+# Alphabet Questions
+
+## What You Will Learn
+
+By the end of this chapter, you will be able to:
+
+1. Recall the position of any letter (A=1 to Z=26) within 2 seconds — from both ends.
+2. Solve "which letter is the Nth to the left/right of X" questions without writing the whole alphabet.
+3. Handle letter-pair counting questions (like "how many pairs in the word EXAMINATION have as many letters between them as in the alphabet?").
+4. Crack dictionary-order and word-formation questions quickly.
+5. Spot the traps examiners plant in options — before they trap you.
+
+---
+
+## The Hook: 26 Letters, Zero Maths, Full Marks
+
+Here is a secret most toppers know but few share: **alphabet questions are the cheapest marks in the entire reasoning paper.** No formulas. No calculations. No diagrams. Just 26 letters that you have known since childhood.
+
+Yet every year, thousands of students lose 2–4 marks here. Why? Not because the questions are hard — but because they solve them the *slow* way (writing A B C D… on the rough sheet) and then panic when the clock runs out.
+
+This chapter will make you so fast that when others are still counting on their fingers, you will already be marking the answer.
+
+---
+
+## The Common Struggle (You Are Not Alone)
+
+Be honest — have you ever done this in an exam?
+
+> "Which letter is 7th to the right of the 12th letter from the left?"
+> You: *A, B, C, D, E, F, G, H, I, J, K, L… okay L is 12th… now M, N, O, P, Q, R, S… S!*
+
+That took you 25–30 seconds. A trained student does it in **5 seconds** using pure position arithmetic: 12 + 7 = 19 → S.
+
+The struggle is real, and it has three causes:
+
+- **Cause 1:** You never memorised letter positions (E=5, J=10, M=13…).
+- **Cause 2:** You mix up "from the left" and "from the right."
+- **Cause 3:** You count the starting letter itself when you should move *away* from it.
+
+We will fix all three, one by one.
+
+---
+
+## Chunk 1: The Foundation — Letter Positions
+
+Everything in this chapter stands on one pillar: **knowing each letter's number instantly.**
+
+| A | B | C | D | E | F | G | H | I | J | K | L | M |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 |
+
+| N | O | P | Q | R | S | T | U | V | W | X | Y | Z |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 |
+
+### 🧠 Active Recall Prompt
+Close the table. Answer aloud: What is the position of H? Of Q? Of V? Which letter is 17th? Which is 9th? Check yourself before reading on.
+
+### 🎯 Mnemonic Trick: "EJOTY"
+
+Remember the word **EJOTY** — these are the letters at positions 5, 10, 15, 20, 25:
+
+- **E** = 5
+- **J** = 10
+- **O** = 15
+- **T** = 20
+- **Y** = 25
+
+Once these five "anchor posts" are fixed in memory, every other letter is just ±1, ±2, ±3 from an anchor. Need R? T is 20, so S=19, R=18. Done — no counting from A.
+
+A second helper: **"CFILORUX"** — letters at multiples of 3 (C=3, F=6, I=9, L=12, O=15, R=18, U=21, X=24). Use whichever sticks.
+
+---
+
+## Chunk 2: The Golden Rule of Left and Right
+
+The English alphabet is written **left to right**: A on the left, Z on the right.
+
+- **From the left** = normal position (A=1 … Z=26).
+- **From the right** = reverse position (Z=1 … A=26).
+
+**The Conversion Formula (memorise this):**
+
+> **Position from right = 27 − Position from left**
+
+Why 27? Because 26 letters + 1. Check: A is 1st from left → 27 − 1 = 26th from right. Correct!
+
+**Examples:**
+- M is 13th from left → 27 − 13 = **14th from right**.
+- 9th from right → 27 − 9 = 18th from left → **R**.
+
+### 🧠 Active Recall Prompt
+Without looking: K is 11th from the left. What is it from the right? What letter is 20th from the right? (Answers: 16th; 27−20=7 → G.)
+
+---
+
+## Chunk 3: Type 1 — "Nth Letter to the Left/Right of X"
+
+This is the most frequently asked type. The method is pure addition and subtraction.
+
+**Setup:** Imagine a number line. Left = minus, Right = plus.
+
+**Rules:**
+1. "To the **right** of X (from left)" → **add**.
+2. "To the **left** of X (from left)" → **subtract**.
+3. If the reference is "from the right," first convert it to "from the left" using 27 − n.
+
+**One rule that never changes:** "to the right" **always** means moving towards Z (position number increases), and "to the left" **always** means moving towards A (position number decreases) — no matter whether the reference letter was counted from the left end or the right end. Only the *starting position* changes with "from left/from right"; the *direction words* never change meaning.
+
+**Example 1:** Which letter is 6th to the right of the 10th letter from the left?
+→ 10 + 6 = 16 → **P**. (5 seconds, no alphabet writing.)
+
+**Example 2:** Which letter is 4th to the left of the 15th letter from the left?
+→ 15 − 4 = 11 → **K**.
+
+**Example 3 (mixed ends):** Which letter is 5th to the right of the 8th letter from the right?
+→ Convert: 8th from right = 27 − 8 = 19th from left = S. Now 19 + 5 = 24 → **X**.
+
+⚠️ **The #1 mistake:** Students count the starting letter. "6th to the right of J" means K is the 1st, not J. You are *moving* 6 steps away from J.
+
+### 🧠 Active Recall Prompt
+Solve in your head: (a) 3rd to the left of the 14th letter. (b) 2nd to the left of the 5th letter from the right. (Answers: (a) 14−3=11 → K; (b) 5th from right = 27−5 = 22nd from left = V; 2nd to its left = 22−2 = 20 → T.)
+
+**Boundary check:** If your arithmetic ever gives a number below 1 or above 26, the movement runs off the end of the alphabet. Re-read the question — you have probably swapped "left" and "right" somewhere, or misread which end the reference is counted from. Well-set exam questions always land between 1 and 26.
+
+---
+
+## Chunk 4: Type 2 — The Middle Letter Between Two Letters
+
+**Question pattern:** "Which letter is exactly midway between H and P?"
+
+**Method:** Average the positions.
+- H = 8, P = 16 → (8 + 16) / 2 = 12 → **L**.
+
+If the average is not a whole number (e.g., between F=6 and K=11 → 8.5), there is **no single middle letter** — the two middle letters are the 8th (H) and 9th (I). Some questions ask for exactly this pair.
+
+### 🧠 Active Recall Prompt
+Find the middle letter between D and T. (Answer: D=4, T=20 → 12 → L.)
+
+---
+
+## Chunk 5: Type 3 — Letter Pairs in a Word
+
+**Question pattern:** "How many pairs of letters in the word **TEACHER** have as many letters between them (in the word) as in the English alphabet?"
+
+**Method:**
+1. Write the position number above each letter of the word.
+2. Check every pair: if the difference of their alphabet positions equals (gap in word + 1), it counts.
+3. Check **both directions** (forward and backward) unless the question says "only forward."
+
+**Example:** Word = **DREAM** (D=4, R=18, E=5, A=1, M=13)
+- D and E: adjacent in alphabet (4,5). In the word, D is at place 1, E at place 3 — one letter (R) between them. In the alphabet, D and E have zero letters between them. Not a match.
+- D and A: positions 4 and 1, two letters (B, C) between them in alphabet. In the word, D (place 1) and A (place 4) have two letters (R, E) between them. **Match!** ✓
+
+This type rewards patience, not speed. Budget more time here.
+
+---
+
+## Chunk 6: Type 4 — Dictionary Order & Word Formation
+
+**Dictionary order:** Arrange words as they appear in a dictionary. Compare letter by letter from the left; the first different letter decides.
+
+**Example:** Arrange: APPLE, APPLY, APART, APEX
+- All start with AP. Third letters: P, P, A, E → APART (A) first, APEX (E) second.
+- APPLE vs APPLY: fourth letter L vs L, fifth E vs Y → APPLE before APPLY.
+- Order: **APART → APEX → APPLE → APPLY**.
+
+**Word formation:** "How many meaningful words can be formed from the 2nd, 4th, 6th letters of…" — there is no shortcut; pick the letters, try arrangements, and be honest: if you find only one word, the answer is one, not "two" just because the option looks tempting.
+
+### 🧠 Active Recall Prompt
+Arrange in dictionary order: RATE, RARE, RASH, RANK. (Answer: RANK, RARE, RASH, RATE — compare third letters N, R, S, T.)
+
+---
+
+## Chunk 7: Type 5 — Alphabet Series (Missing Letter)
+
+A series like: **C, F, I, L, ?**
+
+**Method:** Convert to numbers → 3, 6, 9, 12 → gaps of +3 → next = 15 → **O**.
+
+Common gap patterns examiners use:
+- Constant gap: +2, +3, +4…
+- Increasing gap: +1, +2, +3, +4…
+- Two interleaved series: positions 1,3,5… follow one rule; 2,4,6… follow another.
+- Reverse moves: −2, −3…
+
+Always write the numbers above the letters — patterns invisible in letters become obvious in numbers.
+
+---
+
+## Summary Table
+
+| Type | Core Tool | Key Formula / Trick |
+|---|---|---|
+| Letter positions | EJOTY anchors | E=5, J=10, O=15, T=20, Y=25 |
+| Right-end conversion | 27 − n | Right position = 27 − Left position |
+| Left/Right movement | Add / Subtract | Right = + (towards Z), Left = − (towards A); never count the starting letter |
+| Middle letter | Average | (a + b) / 2 |
+| Letter pairs in a word | Position differences | Check both directions |
+| Dictionary order | Letter-by-letter compare | First differing letter decides |
+| Alphabet series | Convert to numbers | Look for constant / increasing / interleaved gaps |
+
+📌 **Review this chapter after 2 days.** Redo every Active Recall Prompt from memory. If you can still answer them all, the chapter is yours forever.
+
+---
+
+## ⚠️ Caution: Examiner's Trap
+
+**Trap 1: Options showing more than one plausible relationship.**
+In series and pair questions, examiners design two options that both "look" connected — e.g., a series with gaps +2, +3, +4 where one option continues +5 and another repeats +4. Always verify the pattern against **every** given term, not just the last two. A pattern that fits only the last step is bait.
+
+**Trap 2: Confusing language to disorient you.**
+Phrases like "7th to the right of the 5th letter from the right of the 12th letter from the left" are deliberately stacked. Do not solve them in one mental jump. Break the chain: find the 12th letter (L), then 5th from the right of it, then 7th right of that — one step at a time, writing each intermediate letter. Remember: "right" always means towards Z and "left" always means towards A, at every step of the chain. Students who rush the chain lose the mark; students who split it earn it.
+
+**Trap 3: Double-relationship questions.**
+Some questions hide two conditions — e.g., "pairs with as many letters between them as in the alphabet, **in both forward and backward order**." If you count only forward, you land exactly on the wrong option the examiner prepared for you. Read the question twice and underline direction words: *left/right, from left/from right, forward/backward, only/all*.

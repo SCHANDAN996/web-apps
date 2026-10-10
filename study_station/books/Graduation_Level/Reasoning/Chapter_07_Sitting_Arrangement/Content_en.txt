@@ -1,0 +1,138 @@
+# Sitting Arrangement (Complex)
+
+## Outline & Learning Goals
+
+By the end of this chapter, you will be able to:
+
+1. Solve **circular arrangements with people facing both inside and outside** — the single most feared format in SSC CGL, IBPS PO and RRB NTPC mains-level papers.
+2. Handle **double-row (parallel row) arrangements** where two rows face each other.
+3. Crack **arrangements with extra variables** — person + city + profession + colour — without losing track.
+4. Deal with **incomplete/conditional clues** ("A sits two places away from B, who is not adjacent to C") using a systematic case-elimination method.
+5. Decide in 10 seconds whether a puzzle is worth attempting in the exam hall — and when to skip.
+
+---
+
+## The Hook: One Puzzle, Five Marks, Ninety Seconds
+
+In almost every bank PO and SSC CGL paper, sitting arrangement does not come as one question — it comes as a **block of 4–5 questions hanging on a single puzzle**. Solve the arrangement once, and you harvest five answers almost for free. Get the arrangement wrong, and you lose five marks in one stroke. No other reasoning topic has this "all-or-nothing" character. That is why toppers treat this chapter as an **investment**, not a question: spend 90–120 seconds building a rock-solid diagram, then collect the marks.
+
+The good news? Complex arrangements are not harder thinking — they are just **more disciplined drawing**. This chapter teaches you that discipline.
+
+---
+
+## First, Let's Admit the Struggle
+
+Every aspirant has felt this: you read the clues, draw a circle, place two people confidently… and then clue number four says *"P sits second to the right of the person who faces Q"* — and suddenly your diagram has three possible versions, your rough sheet is a mess, and panic sets in.
+
+The struggle is real, and it has three root causes:
+
+- **Mixing up left/right when people face outward** (their left is your right on paper).
+- **Trying to place people immediately** instead of first collecting "fixed points."
+- **Not writing down the second possibility** when a clue allows two cases — then forgetting the first case existed.
+
+We will kill each of these, one by one.
+
+---
+
+## Chunk 1: The Golden Rule — Fix Before You Fit
+
+In complex puzzles, never start placing people from clue 1. First scan **all** clues and find:
+
+1. **Absolute clues** — "R sits at the head of the table," "M faces the centre and sits exactly opposite T." These give fixed positions. Place them first.
+2. **Relative clues** — "A is second to the left of B." These are rubber bands: they only become useful once one end is anchored.
+3. **Negative clues** — "C is NOT adjacent to D." These don't place anyone, but they eliminate cases later. Write them in a corner of your diagram as a checklist.
+
+**Order of attack: Absolute → Relative → Negative-check.**
+
+🧠 **Active Recall:** In a circular puzzle, which type of clue should you place first — "X sits opposite Y" or "X is not adjacent to Y"? Why?
+
+---
+
+## Chunk 2: Facing In + Facing Out — The Direction Trap
+
+This is where "complex" truly begins. When some people face the **centre** and some face **outward**:
+
+- For a person facing the **centre**: their left = anti-clockwise on your paper; their right = clockwise.
+- For a person facing **outward**: everything flips — their left = clockwise; their right = anti-clockwise.
+
+**Mnemonic — "IN-AC, OUT-C":**
+> **IN**side-facing → left is **A**nti-**C**lockwise.
+> **OUT**side-facing → left is **C**lockwise.
+
+Say it once, and you'll never flip directions again.
+
+**Pro technique:** The moment you read the puzzle, mark each person's facing direction with a tiny arrow on the circle *before* placing anyone. Direction errors cause more wrong answers than logic errors.
+
+🧠 **Active Recall:** A person sits facing outward. "Second to his left" means you move which way on your diagram — clockwise or anti-clockwise?
+
+---
+
+## Chunk 3: The Two-Case Method (Your Safety Net)
+
+When a clue allows two possibilities ("B sits two places away from A" — but on which side?), do NOT guess. Do this:
+
+1. Draw **Case 1** and **Case 2** side by side — small, quick sketches.
+2. Keep filling both with the remaining clues.
+3. One case will eventually **contradict a clue** (usually a negative clue). Cross it out. The survivor is your answer diagram.
+
+Toppers don't avoid multiple cases — they **manage** them. The moment a case dies, all its questions become certain.
+
+🧠 **Active Recall:** Why should you never "mentally remember" the second case instead of drawing it?
+
+---
+
+## Chunk 4: Double-Row (Parallel) Arrangements
+
+Two rows of 5–6 people each, facing each other (Row 1 faces south, Row 2 faces north, or similar). Key points:
+
+- Draw two horizontal lines. Mark **who faces whom** — opposite pairs are the backbone of these puzzles.
+- Remember: for the row facing **north** (toward the top of your page), left/right work normally; for the row facing **south**, left and right are **mirror-flipped** on your paper.
+- Clues like "P faces the person who is second to the right of Q" chain the two rows together — always convert them into: *position in Row 2 → opposite position in Row 1 → then move.*
+
+---
+
+## Chunk 5: Arrangements with Extra Variables
+
+"Eight people, eight cities, eight professions." The fear is psychological. The method:
+
+- Use a **table**, not just a diagram: rows = positions around the circle, columns = Name | City | Profession.
+- Fill the seating logic in the diagram; fill the attribute logic in the table. Never mix the two jobs in one drawing.
+- Clues like "the person from Delhi sits opposite the doctor" are **bridges** — they connect the table to the diagram. Solve bridges last, after pure position clues.
+
+🧠 **Active Recall:** In a person + city + profession puzzle, why do we keep two separate structures (diagram + table) instead of one crowded diagram?
+
+---
+
+## Chunk 6: Rectangular, Square and "Corner + Middle" Arrangements
+
+People sit at 4 corners and 4 middles of sides. Standard facts:
+
+- A corner person has **two neighbours** (the middles of the two adjacent sides); a middle-of-side person also has two neighbours (the two corners of that side).
+- "Opposite" works differently for the two types: for a **corner** person, the opposite is the **diagonally opposite corner**; for a **middle-of-side** person, the opposite is the **middle of the opposite side**.
+- "Facing inside/outside" mixes freely here — apply the **IN-AC, OUT-C** rule exactly as in circles.
+- Draw the rectangle with **numbered positions 1–8** going clockwise. Numbering greatly reduces silly mistakes.
+
+---
+
+## Summary Table
+
+| Situation | First Move | Biggest Danger |
+|---|---|---|
+| Circle, all facing centre | Place absolute clues | Left/right slip |
+| Circle, mixed facing | Mark arrows first (IN-AC, OUT-C) | Direction flip for outward-facing |
+| Two possible cases | Draw Case 1 & Case 2 | Forgetting one case |
+| Parallel rows | Mark opposite pairs | Mirror-flip in south-facing row |
+| Extra variables | Diagram + table separately | Crowding one diagram |
+| Rectangle/square | Number positions 1–8 | Wrong "opposite" pairs (corner ↔ corner, middle ↔ middle) |
+
+**⏳ Review this chapter after 2 days.** Redraw one mixed-facing circle puzzle from memory — if your directions still come out right, the chapter is yours.
+
+---
+
+## ⚠️ Caution: Examiner's Trap
+
+1. **The "almost-same" option trap:** In complex arrangements, options often show two or more plausible-looking relationships ("A is second to the left of C" vs "A is third to the left of C"). Examiners design these from the *wrong-facing* version of the correct diagram. If your answer matches an option too quickly, re-check the facing direction of the person involved.
+
+2. **Confusing language as a weapon:** Phrases like *"sits second to the right of the person who faces the one who is immediate left of X"* are deliberately chained to exhaust you. Translate them step by step on paper — never in your head. The trap is not logic; it is **mental overload**.
+
+3. **Double-relationship questions:** "Who sits between the doctor and the person from Jaipur?" requires two solved layers (position + attribute). Examiners place such questions first in the block to scare you into skipping the whole set. Solve the position-only questions first; the double-relationship ones become easy once the table is complete.

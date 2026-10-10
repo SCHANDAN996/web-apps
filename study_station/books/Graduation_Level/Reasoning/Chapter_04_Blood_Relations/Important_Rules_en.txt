@@ -1,0 +1,32 @@
+# Important Rules & Approaches — Blood Relations (Coded/Complex)
+
+## Part 1: Key Rules/Approaches
+
+| Rule Name | Description | Example |
+|---|---|---|
+| Decode Symbols First | Before solving, convert every coded symbol into its relation (e.g., A + B = A is father of B). Write the key at the top of your rough work. | If "P × Q" means "P is the mother of Q", then R × S means R is mother of S. |
+| Draw a Family Tree | Always convert the coded chain into a diagram: males in squares/▲, females in circles/●, same generation on one level, marriage shown by a double line (=). | If + means "father of" and − means "mother of", then A + B − C becomes a three-generation tree: A (father) and B (mother) are parents of C. |
+| Solve Left to Right (Chain Rule) | In expressions like A + B × C − D, apply relations step by step from left to right, fixing each person's gender and generation as you go. | A + B (A father of B), B × C (B mother of C) → A is paternal grandfather of C. |
+| Gender Marking Rule | Mark gender (+ for male, − for female) the moment a relation reveals it. Never assume gender from a name. | "X is the sister of Y" fixes X as female but says nothing about Y's gender. |
+| Generation Level Rule | Parent/child relations shift one generation; sibling/spouse relations stay on the same level. Count levels to answer "how is X related to Y". | Father's brother's son = same generation as you → cousin. |
+| Backward Reading (for "how is X related to Y") | When the question asks about the last person's relation to the first, read the chain in reverse and invert each relation. | If A is father of B, then B is son/daughter of A — invert while tracing back. |
+| Elimination via Gender | If the answer options require a specific gender (e.g., "aunt"), eliminate options the moment the person's gender is unknown or opposite. | If M's gender is not fixed, "M is the uncle" cannot be concluded. |
+| Only-Child / Spouse Trap Check | Marriage (=) does not change blood relation; relations through a spouse are "in-law" relations. Check whether the question wants blood relation or in-law relation. | Wife's brother = brother-in-law, not brother. |
+| Statement-Based Coded Questions | For "Which expression means 'A is the nephew of B'?" type questions, build the target relation first, then test each option against it. | Nephew needs: male, one generation down, through a sibling of B. |
+| Minimum-Member Questions | For "minimum number of members in the family", merge persons wherever possible (one person can play multiple roles). | Father + son + daughter can be just 3 members, not more. |
+
+## Part 2: Time Management
+
+| Rule | Guideline |
+|---|---|
+| 15-Second Rule | If within 15 seconds you cannot decode the symbol key or see how the chain connects, mark the question and skip — return only if time remains. |
+| 45-Second Rule | A standard coded blood-relation question (3–4 person chain) must be finished within 45 seconds, including the family tree. If the tree is still incomplete at 45 seconds, make your best elimination-based guess and move on. |
+| Puzzle-Set Rule | For a family puzzle with 3–4 linked questions, invest up to 2–3 minutes in one accurate family tree — the time is recovered because all linked questions then take under 15 seconds each. |
+| Gender-Unknown Rule | If a question hinges on an unknown gender and no option says "cannot be determined", skip immediately — solving further wastes time. |
+| Revision Priority | In the last minutes, re-attempt only those skipped questions where the symbol key was already decoded; never start a fresh long chain. |
+
+## Part 3: Logical/Mathematical Formulas
+
+| Formula | Application |
+|---|---|
+| No formulas for this chapter | Blood Relations is purely logical; there are no numerical formulas. The only "tools" are the symbol-decoding key, the family-tree diagram, and generation-level counting. |

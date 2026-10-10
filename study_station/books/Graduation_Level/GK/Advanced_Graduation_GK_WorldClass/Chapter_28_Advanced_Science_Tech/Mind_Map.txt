@@ -1,0 +1,51 @@
+```mermaid
+graph TD
+    A["उन्नत विज्ञान-प्रौद्योगिकी<br>Advanced Science & Tech"] --> B["अंतरिक्ष विज्ञान<br>Space Science"]
+    A --> C["परमाणु ऊर्जा<br>Nuclear Energy"]
+    A --> D["सूचना प्रौद्योगिकी<br>Information Technology"]
+    A --> E["जैव-प्रौद्योगिकी<br>Biotechnology"]
+    A --> F["रक्षा प्रौद्योगिकी<br>Defence Technology"]
+    A --> G["नवीन ऊर्जा<br>New & Renewable Energy"]
+
+    B --> B1["ISRO की स्थापना: 1969<br>ISRO founded: 1969"]
+    B --> B2["मुख्यालय: बेंगलुरु<br>HQ: Bengaluru"]
+    B --> B3["PSLV / GSLV / LVM3<br>Launch Vehicles"]
+    B --> B4["चंद्रयान-3: दक्षिणी ध्रुव क्षेत्र पर लैंडिंग (2023)<br>Chandrayaan-3: South polar region landing"]
+    B --> B5["आदित्य-L1: सूर्य मिशन<br>Aditya-L1: Solar Mission"]
+
+    C --> C1["भाभा परमाणु अनुसंधान केंद्र (BARC)<br>Trombay, Mumbai"]
+    C --> C2["तीन-चरणीय परमाणु कार्यक्रम<br>Three-Stage Nuclear Programme<br>(होमी भाभा / Homi Bhabha)"]
+    C --> C3["थोरियम → तीसरा चरण<br>Thorium → Third Stage"]
+    C --> C4["NPCIL: परमाणु ऊर्जा निगम<br>Nuclear Power Corporation"]
+
+    D --> D1["सुपरकंप्यूटर: PARAM श्रृंखला<br>PARAM series (C-DAC)"]
+    D --> D2["5G / AI / क्वांटम कंप्यूटिंग<br>5G / AI / Quantum Computing"]
+    D --> D3["राष्ट्रीय क्वांटम मिशन<br>National Quantum Mission"]
+    D --> D4["सेमीकंडक्टर मिशन<br>India Semiconductor Mission"]
+
+    E --> E1["DNA की खोज संरचना: वॉटसन-क्रिक (1953)<br>DNA structure: Watson-Crick"]
+    E --> E2["जीन संपादन: CRISPR-Cas9<br>Gene Editing: CRISPR-Cas9"]
+    E --> E3["Bt कपास: भारत में स्वीकृत GM फसल<br>Bt Cotton: Approved GM crop"]
+    E --> E4["जैव-सूचना विज्ञान / स्टेम सेल<br>Bioinformatics / Stem Cell"]
+
+    F --> F1["DRDO: स्थापना 1958, मुख्यालय नई दिल्ली<br>DRDO: 1958, New Delhi"]
+    F --> F2["मिसाइलें: अग्नि, पृथ्वी, ब्रह्मोस, आकाश<br>Missiles: Agni, Prithvi, BrahMos, Akash"]
+    F --> F3["ब्रह्मोस: भारत-रूस संयुक्त उद्यम<br>BrahMos: India-Russia JV"]
+    F --> F4["INS विक्रांत: स्वदेशी विमानवाहक<br>INS Vikrant: Indigenous carrier"]
+
+    G --> G1["MNRE: नवीन और नवीकरणीय ऊर्जा मंत्रालय<br>Ministry of New & Renewable Energy"]
+    G --> G2["राष्ट्रीय हाइड्रोजन मिशन<br>National Green Hydrogen Mission"]
+    G --> G3["सौर ऊर्जा: अंतर्राष्ट्रीय सौर गठबंधन (ISA)<br>International Solar Alliance"]
+
+    A --> H["परीक्षक के जाल<br>Examiner's Traps"]
+    H --> H1["ISRO (1969) बनाम INCOSPAR (1962)<br>स्थापना वर्ष का भ्रम / Year confusion"]
+    H --> H2["PSLV बनाम GSLV — क्रायोजेनिक इंजन<br>Cryogenic engine confusion"]
+    H --> H3["अग्नि (बैलिस्टिक) बनाम ब्रह्मोस (क्रूज़)<br>Ballistic vs Cruise missile"]
+    H --> H4["यूरेनियम बनाम थोरियम चरण<br>Uranium vs Thorium stage"]
+    H --> H5["लगभग-सही कथन व नकारात्मक प्रश्न<br>Near-true statements & NOT questions"]
+
+    A --> I["रणनीति<br>Strategy"]
+    I --> I1["स्थिर तथ्य पहले: संस्था, वर्ष, मुख्यालय<br>Static facts first: bodies, years, HQs"]
+    I --> I2["मिशन-वाहन-लक्ष्य त्रिक याद करें<br>Remember Mission-Vehicle-Target triad"]
+    I --> I3["15 सेकंड: तथ्यात्मक प्रश्न<br>45 सेकंड: कथन-आधारित प्रश्न<br>15s facts / 45s statement questions"]
+```

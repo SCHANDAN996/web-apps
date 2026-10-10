@@ -1,319 +1,151 @@
-In an equilateral triangle of side 10 cm, the length of the altitude is:
-(A) 5√3 cm (B) 10√3 cm (C) 5 cm (D) 10 cm
-Answer: (A) 5√3 cm
-Solution: Altitude h = (√3/2) × side = (√3/2) × 10 = 5√3 cm.
-Source: NCERT Class 9 / SSC CPO 2020
+प्रश्न 101–120: आसान | प्रश्न 121–125: मध्यम
 
-A chord of circle of radius 13 cm is 10 cm away from the centre. The length of the chord is:
-(A) 12 cm (B) 24 cm (C) 26 cm (D) 20 cm
-Answer: (B) 24 cm
-Solution: Half chord = √(13² – 10²) = √(169 – 100) = √69 = 8.306... Wait, 13²=169, 10²=100, difference=69, √69≈8.3, chord length ≈16.6, not integer. Not nice. So better use other numbers. Instead, use radius 10, distance 6 gave 16. Already used. Let's find a neat combo: radius 15, distance 9 gives chord 24 (since 15²–9²=144, √=12, chord 24). Yes. So: "A chord of a circle of radius 15 cm is at a distance of 9 cm from the centre. Find the chord length." Then answer 24. But earlier Q52 used radius 15, distance 9, chord 24. So I'll use radius 17, distance 8: 17²–8²=289–64=225, half chord=15, chord=30. Good. So I'll set: radius 17 cm, distance 8 cm. Then chord length = 30 cm. Options: (A) 15 cm (B) 30 cm (C) 34 cm (D) 20 cm. Answer (B). I'll do that.
+101. एक त्रिभुज के कोण 1 : 2 : 3 के अनुपात में हैं। सबसे छोटा कोण है:
+(a) 20° (b) 30° (c) 40° (d) 50°
+उत्तर: (b)
+हल: मान लें कोण x, 2x और 3x हैं। तब x + 2x + 3x = 180°, अतः 6x = 180° और x = 30°। जाल यह है कि 60° चुन लिया जाए, जो मध्य कोण है, सबसे छोटा नहीं। अतः उत्तर 30° है।
+स्रोत: NCERT कक्षा 9 गणित
 
-Question: A chord of a circle of radius 17 cm is at a distance of 8 cm from the centre. The length of the chord is:
-(A) 15 cm (B) 30 cm (C) 34 cm (D) 20 cm
-Answer: (B) 30 cm
-Solution: Half chord = √(17² – 8²) = √(289 – 64) = √225 = 15 cm. Full chord = 30 cm.
-Source: NCERT Class 9 / SSC CGL 2019
+102. 13 सेमी त्रिज्या वाले वृत्त की एक जीवा केंद्र से 5 सेमी की दूरी पर है। जीवा की लंबाई है:
+(a) 12 सेमी (b) 20 सेमी (c) 24 सेमी (d) 26 सेमी
+उत्तर: (c)
+हल: केंद्र से डाला गया लंब जीवा को समद्विभाजित करता है, अतः आधी जीवा = √(13² – 5²) = √144 = 12 सेमी। जाल यह है कि 12 सेमी पर रुक जाएँ, जो केवल आधी जीवा है। पूरी जीवा = 2 × 12 = 24 सेमी, अतः उत्तर 24 सेमी है।
+स्रोत: NCERT कक्षा 9 गणित
 
-Two adjacent angles of a parallelogram are in the ratio 2 : 3. The measure of the smaller angle is:
-(A) 36° (B) 72° (C) 90° (D) 108°
-Answer: (B) 72°
-Solution: Adjacent angles sum to 180°. Let angles be 2x and 3x. 5x = 180° → x = 36°. Smaller = 2x = 72°.
-Source: NCERT Class 8 / SSC CHSL 2018
+103. एक समांतर चतुर्भुज की आसन्न भुजाएँ 12 सेमी और 8 सेमी हैं। लंबी भुजाओं के बीच की दूरी 5 सेमी है। छोटी भुजाओं के बीच की दूरी है:
+(a) 10 सेमी (b) 6.5 सेमी (c) 8 सेमी (d) 7.5 सेमी
+उत्तर: (d)
+हल: क्षेत्रफल = आधार × ऊँचाई = 12 × 5 = 60 सेमी²। 8 सेमी को आधार मानने पर, ऊँचाई = 60/8 = 7.5 सेमी। जाल यह है कि दोनों ऊँचाइयाँ 5 सेमी मान ली जाएँ। अतः उत्तर 7.5 सेमी है।
+स्रोत: PYQ-style
 
-A rhombus has diagonals of lengths 24 cm and 10 cm. The perimeter of the rhombus is:
-(A) 52 cm (B) 68 cm (C) 104 cm (D) 120 cm
-Answer: (A) 52 cm
-Solution: Diagonals bisect each other at right angles. Half-diagonals: 12 cm and 5 cm. Side = √(12² + 5²) = √(144+25) = √169 = 13 cm. Perimeter = 4 × 13 = 52 cm.
-Source: NCERT Class 8 / SSC CGL 2021
+104. एक समबाहु त्रिभुज का क्षेत्रफल 36√3 सेमी² है। इसकी भुजा की लंबाई है:
+(a) 6 सेमी (b) 12 सेमी (c) 18 सेमी (d) 9 सेमी
+उत्तर: (b)
+हल: (√3/4)a² = 36√3 से a² = 144, अतः a = 12 सेमी। जाल यह है कि a² = 36 ले लिया जाए, जो 4 से भाग देने को नज़रअंदाज़ करता है। अतः उत्तर 12 सेमी है।
+स्रोत: NCERT कक्षा 9 गणित
 
-In a circle, a tangent at point P meets a radius OP. The angle between the tangent and the radius is:
-(A) 0° (B) 45° (C) 90° (D) 180°
-Answer: (C) 90°
-Solution: The tangent at any point of a circle is perpendicular to the radius through the point of contact.
-Source: NCERT Class 10
+105. केंद्र O वाले वृत्त पर बिंदु P से खींची गई दो स्पर्श रेखाएँ PA और PB परस्पर 80° पर झुकी हैं। ∠AOB का माप है:
+(a) 80° (b) 90° (c) 100° (d) 120°
+उत्तर: (c)
+हल: त्रिज्या स्पर्श रेखा पर लंब होती है, अतः ∠OAP = ∠OBP = 90°। चतुर्भुज OAPB में, ∠AOB = 360° – (90° + 90° + 80°) = 100°। जाल यह है कि 80° उत्तर दे दिया जाए, जो स्वयं स्पर्श रेखाओं के बीच का कोण है। अतः उत्तर 100° है।
+स्रोत: NCERT कक्षा 10 गणित
 
-A sector of a circle of radius 12 cm has a central angle of 60°. Its area is (π = 3.14):
-(A) 37.68 cm² (B) 75.36 cm² (C) 113.04 cm² (D) 150.72 cm²
-Answer: (B) 75.36 cm²
-Solution: Area of sector = (θ/360) × πr² = (60/360) × 3.14 × 144 = (1/6) × 3.14 × 144 = 3.14 × 24 = 75.36 cm².
-Source: NCERT Class 10 / SSC CHSL 2019
+106. 14 सेमी त्रिज्या वाले वृत्त की एक जीवा केंद्र पर समकोण अंतरित करती है। लघु वृत्तखंड का क्षेत्रफल है (π = 22/7):
+(a) 98 सेमी² (b) 112 सेमी² (c) 154 सेमी² (d) 56 सेमी²
+उत्तर: (d)
+हल: त्रिज्यखंड का क्षेत्रफल = (90/360) × (22/7) × 14² = 154 सेमी²; त्रिभुज का क्षेत्रफल = ½ × 14 × 14 = 98 सेमी²। वृत्तखंड = 154 – 98 = 56 सेमी²। जाल यह है कि 154 सेमी² बता दिया जाए, जो त्रिज्यखंड है, वृत्तखंड नहीं। अतः उत्तर 56 सेमी² है।
+स्रोत: NCERT कक्षा 10 गणित
 
-The sum of interior angles of a decagon (10-sided polygon) is:
-(A) 1440° (B) 1800° (C) 1080° (D) 1260°
-Answer: (A) 1440°
-Solution: Sum = (n–2)×180° = (10–2)×180° = 8×180° = 1440°.
-Source: NCERT Class 8
+107. एक घन का विकर्ण 12√3 सेमी है। घन का आयतन है:
+(a) 1728 सेमी³ (b) 216 सेमी³ (c) 576 सेमी³ (d) 432 सेमी³
+उत्तर: (a)
+हल: विकर्ण = a√3 = 12√3, अतः a = 12 सेमी और आयतन = 12³ = 1728 सेमी³। जाल यह है कि फलक-विकर्ण का सूत्र a√2 लगा दिया जाए, जिससे भुजा गलत आती है। अतः उत्तर 1728 सेमी³ है।
+स्रोत: NCERT कक्षा 8 गणित
 
-A triangle and a parallelogram have the same base and lie between the same parallels. If the area of the triangle is 30 cm², the area of the parallelogram is:
-(A) 15 cm² (B) 30 cm² (C) 45 cm² (D) 60 cm²
-Answer: (D) 60 cm²
-Solution: If a triangle and a parallelogram are on the same base and between the same parallels, the area of the parallelogram is twice that of the triangle. So area = 2×30 = 60 cm².
-Source: NCERT Class 9 / SSC CGL 2017
+108. एक बेलनाकार पाइप का बाहरी व्यास 10 सेमी, आंतरिक व्यास 8 सेमी और लंबाई 14 सेमी है। प्रयुक्त धातु का आयतन है (π = 22/7):
+(a) 396 सेमी³ (b) 400 सेमी³ (c) 560 सेमी³ (d) 616 सेमी³
+उत्तर: (a)
+हल: बाहरी त्रिज्या = 5 सेमी, आंतरिक त्रिज्या = 4 सेमी। आयतन = π(5² – 4²) × 14 = (22/7) × 9 × 14 = 396 सेमी³। जाल यह है कि व्यास 10 और 8 को सीधे त्रिज्या मान लिया जाए। अतः उत्तर 396 सेमी³ है।
+स्रोत: NCERT कक्षा 9 गणित
 
-The volumes of two spheres are in the ratio 64 : 27. The ratio of their radii is:
-(A) 8:3 (B) 4:3 (C) 16:9 (D) 2:1
-Answer: (B) 4:3
-Solution: Volume ratio = (r₁/r₂)³ = 64/27 = (4/3)³. So radii ratio = 4:3.
-Source: NCERT Class 9 / SSC CGL 2020
+109. ΔABC में AD एक माध्यिका है और G केंद्रक है। यदि AG = 6 सेमी, तो AD की लंबाई है:
+(a) 9 सेमी (b) 12 सेमी (c) 15 सेमी (d) 18 सेमी
+उत्तर: (a)
+हल: केंद्रक माध्यिका को 2 : 1 के अनुपात में विभाजित करता है, अतः AG : GD = 2 : 1 और GD = 3 सेमी। इसलिए AD = 6 + 3 = 9 सेमी। जाल यह है कि AG को दोगुना करके 12 सेमी निकाल लिया जाए, जो अनुपात को उलट देता है। अतः उत्तर 9 सेमी है।
+स्रोत: NCERT कक्षा 10 गणित
 
-In a rectangle, the length is 20% more than the breadth. If the breadth is 25 cm, the length is:
-(A) 20 cm (B) 30 cm (C) 35 cm (D) 40 cm
-Answer: (B) 30 cm
-Solution: Length = breadth + 20% of breadth = 25 + 0.2×25 = 25 + 5 = 30 cm.
-Source: SSC CHSL 2018
+110. दो समरूप त्रिभुजों के क्षेत्रफलों का अनुपात 4 : 9 है। यदि छोटे त्रिभुज की एक भुजा 6 सेमी है, तो बड़े त्रिभुज की संगत भुजा है:
+(a) 12 सेमी (b) 13.5 सेमी (c) 9 सेमी (d) 15 सेमी
+उत्तर: (c)
+हल: भुजाओं का अनुपात क्षेत्रफलों के अनुपात का वर्गमूल होता है: √(4/9) = 2/3। बड़ी भुजा = 6 × (3/2) = 9 सेमी। जाल यह है कि क्षेत्रफल का अनुपात सीधे लगा दिया जाए, जिससे 13.5 सेमी आता है। अतः उत्तर 9 सेमी है।
+स्रोत: NCERT कक्षा 10 गणित
 
-A right circular cone of base radius 6 cm and height 8 cm has slant height:
-(A) 10 cm (B) 12 cm (C) 14 cm (D) 9 cm
-Answer: (A) 10 cm
-Solution: Slant height l = √(r² + h²) = √(6² + 8²) = √(36+64) = √100 = 10 cm.
-Source: NCERT Class 9
+111. एक लंबवृत्तीय शंकु की ऊँचाई 24 सेमी और तिर्यक ऊँचाई 25 सेमी है। इसका आयतन है (π = 22/7):
+(a) 1800 सेमी³ (b) 1256 सेमी³ (c) 1232 सेमी³ (d) 2200 सेमी³
+उत्तर: (c)
+हल: त्रिज्या = √(25² – 24²) = √49 = 7 सेमी। आयतन = ⅓ × (22/7) × 7² × 24 = 1232 सेमी³। जाल यह है कि तिर्यक ऊँचाई से त्रिज्या निकालने के बजाय 25 सेमी को ही त्रिज्या मान लिया जाए। अतः उत्तर 1232 सेमी³ है।
+स्रोत: NCERT कक्षा 9 गणित
 
-In ΔABC, D and E are points on AB and AC respectively such that DE || BC. If AD = 4 cm, DB = 6 cm, and AE = 5 cm, then EC is:
-(A) 7.5 cm (B) 10 cm (C) 6 cm (D) 8 cm
-Answer: (A) 7.5 cm
-Solution: By BPT (Thales), AD/DB = AE/EC → 4/6 = 5/EC → EC = (5×6)/4 = 30/4 = 7.5 cm.
-Source: NCERT Class 10 / SSC CGL 2019
+112. 6 सेमी त्रिज्या का एक ठोस गोला पिघलाकर 3 सेमी आधार-त्रिज्या के ठोस बेलन में ढाला जाता है। बेलन की ऊँचाई है:
+(a) 16 सेमी (b) 24 सेमी (c) 48 सेमी (d) 32 सेमी
+उत्तर: (d)
+हल: गोले का आयतन = (4/3)π × 6³ = 288π सेमी³। बेलन: π × 3² × h = 288π, अतः h = 32 सेमी। जाल यह है कि गोले के आयतन में 4/3 का गुणक भूल जाएँ, जिससे 24 सेमी आता है। अतः उत्तर 32 सेमी है।
+स्रोत: NCERT कक्षा 10 गणित
 
-The circumference of a circle is 88 cm. Its area is (π = 22/7):
-(A) 616 cm² (B) 2464 cm² (C) 154 cm² (D) 308 cm²
-Answer: (A) 616 cm²
-Solution: Circumference = 2πr = 88 → r = 88/(2π) = 88/(2×22/7) = (88×7)/(44) = 14 cm. Area = πr² = (22/7)×196 = 616 cm².
-Source: NCERT Class 7 / SSC CGL 2016
+113. एक सम बहुभुज के अंतःकोण और बहिष्कोण का अंतर 90° है। भुजाओं की संख्या है:
+(a) 6 (b) 8 (c) 10 (d) 12
+उत्तर: (b)
+हल: अंतःकोण + बहिष्कोण = 180° और अंतःकोण – बहिष्कोण = 90°, अतः बहिष्कोण = 45°। भुजाओं की संख्या = 360/45 = 8। जाल यह है कि 360 को अंतःकोण 135° से भाग दिया जाए, जिससे सीधे पूर्णांक संख्या नहीं मिलती। अतः उत्तर 8 है।
+स्रोत: NCERT कक्षा 8 गणित
 
-The edge of a cube is doubled. The percentage increase in its volume is:
-(A) 100% (B) 300% (C) 700% (D) 800%
-Answer: (C) 700% (or 800% increase? Let's check: Original volume = a³. New volume = (2a)³ = 8a³. Increase = 7a³, percentage = (7a³/a³)×100 = 700%. Yes, increase is 700%, so new volume is 800% of original, but percentage increase is 700%.)
-Solution: Volume increases from V to 8V, increase = 7V, % increase = 700%.
-Source: SSC CGL 2017
+114. एक अर्धवृत्ताकार बगीचे का परिमाप 36 मी है, जिसमें व्यास भी शामिल है। इसका क्षेत्रफल है (π = 22/7):
+(a) 38.5 मी² (b) 77 मी² (c) 154 मी² (d) 308 मी²
+उत्तर: (b)
+हल: परिमाप = πr + 2r = r(22/7 + 2) = r × 36/7 = 36, अतः r = 7 मी। क्षेत्रफल = ½ × (22/7) × 49 = 77 मी²। जाल यह है कि परिमाप के रूप में केवल πr लिया जाए, जिससे व्यास छूट जाता है। अतः उत्तर 77 मी² है।
+स्रोत: NCERT कक्षा 8 गणित
 
-A cylinder and a cone have equal bases and equal heights. If the volume of the cylinder is 300 cm³, the volume of the cone is:
-(A) 100 cm³ (B) 150 cm³ (C) 200 cm³ (D) 300 cm³
-Answer: (A) 100 cm³
-Solution: Cone volume = ⅓ cylinder volume = ⅓ × 300 = 100 cm³.
-Source: NCERT Class 10 / SSC CPO 2021
+115. एक घन का आयतन संख्यात्मक रूप से उसके कुल पृष्ठीय क्षेत्रफल के बराबर है। भुजा की लंबाई है:
+(a) 2 इकाई (b) 4 इकाई (c) 6 इकाई (d) 8 इकाई
+उत्तर: (c)
+हल: a³ = 6a² से a = 6। जाल यह है कि पार्श्व पृष्ठीय क्षेत्रफल 4a² ले लिया जाए, जिससे 4 इकाई आएगा। अतः उत्तर 6 इकाई है।
+स्रोत: NCERT कक्षा 8 गणित
 
-Two circles with radii 8 cm and 6 cm touch each other externally. The length of the direct common tangent is:
-(A) 2√14 cm (B) 2√48 cm (C) 14 cm (D) 10 cm
-Answer: (B) 2√48 cm → but 2√48 = 2√(16×3) = 8√3, not integer. Actually direct common tangent length for externally touching circles = 2√(r₁r₂) = 2√(8×6)=2√48 = 8√3. If we want a neat integer, use 9 and 4 gave 12. But we already had that. New pair: 12 and 3 → 2√36=12. Radius 12 and 3 gives 12. So I'll use radii 12 cm and 3 cm touching externally. Then answer 12 cm. But need options: Let's do radii 12 and 3, tangent length = 2√(12×3)=2√36=12 cm. Then answer (C) 12 cm. I'll rewrite:
+116. 5 सेमी और 3 सेमी त्रिज्या वाले दो वृत्त एक-दूसरे को आंतरिक रूप से स्पर्श करते हैं। उनके केंद्रों के बीच की दूरी है:
+(a) 8 सेमी (b) 2 सेमी (c) 4 सेमी (d) 5 सेमी
+उत्तर: (b)
+हल: आंतरिक स्पर्श में केंद्रों के बीच की दूरी त्रिज्याओं के अंतर के बराबर होती है: 5 – 3 = 2 सेमी। जाल यह है कि त्रिज्याएँ जोड़कर 8 सेमी निकाल लिया जाए, जो बाह्य स्पर्श पर लागू होता है। अतः उत्तर 2 सेमी है।
+स्रोत: NCERT कक्षा 10 गणित
 
-Question: Two circles of radii 12 cm and 3 cm touch externally. The length of the direct common tangent is:
-(A) 15 cm (B) 9 cm (C) 12 cm (D) 6 cm
-Answer: (C) 12 cm
-Solution: For externally touching circles, direct common tangent = 2√(r₁r₂) = 2√(12×3)=2√36=12 cm.
-Source: SSC CPO 2017
+117. 17 सेमी त्रिज्या वाले वृत्त में 30 सेमी लंबी एक जीवा खींची गई है। केंद्र से इसकी दूरी है:
+(a) 12 सेमी (b) 15 सेमी (c) 7 सेमी (d) 8 सेमी
+उत्तर: (d)
+हल: आधी जीवा = 15 सेमी। दूरी = √(17² – 15²) = √(289 – 225) = √64 = 8 सेमी। जाल यह है कि पाइथागोरस के चरण में पूरी जीवा 30 सेमी ले ली जाए। अतः उत्तर 8 सेमी है।
+स्रोत: NCERT कक्षा 9 गणित
 
-A ladder is placed against a wall with its foot 5 m away from the wall. If the ladder reaches a height of 12 m on the wall, its length is:
-(A) 10 m (B) 13 m (C) 15 m (D) 17 m
-Answer: (B) 13 m
-Solution: Length = √(12² + 5²) = √(144+25) = √169 = 13 m.
-Source: NCERT Class 10 / SSC CGL 2016
+118. एक समद्विबाहु त्रिभुज का आधार 16 सेमी है और क्षेत्रफल 48 सेमी² है। इसका परिमाप है:
+(a) 30 सेमी (b) 36 सेमी (c) 40 सेमी (d) 24 सेमी
+उत्तर: (b)
+हल: 48 = ½ × 16 × h से h = 6 सेमी। प्रत्येक समान भुजा = √(8² + 6²) = 10 सेमी, अतः परिमाप = 16 + 10 + 10 = 36 सेमी। जाल यह है कि समान भुजा √(16² + 6²) ले ली जाए, यह भूलकर कि ऊँचाई आधार को समद्विभाजित करती है। अतः उत्तर 36 सेमी है।
+स्रोत: NCERT कक्षा 9 गणित
 
-The area of a trapezium with parallel sides of lengths 14 cm and 6 cm and height 8 cm is:
-(A) 80 cm² (B) 100 cm² (C) 120 cm² (D) 160 cm²
-Answer: (A) 80 cm²
-Solution: Area = ½ × (14+6) × 8 = ½ × 20 × 8 = 80 cm².
-Source: NCERT Class 8
+119. एक चक्रीय चतुर्भुज ABCD में ∠A = 65° और ∠B = 75° है। तब ∠D है:
+(a) 65° (b) 75° (c) 115° (d) 105°
+उत्तर: (d)
+हल: चक्रीय चतुर्भुज के सम्मुख कोण संपूरक होते हैं, और B का सम्मुख D है। अतः ∠D = 180° – 75° = 105°। जाल यह है कि 180° – 65° = 115° निकाल लिया जाए, जो ∠C है, ∠D नहीं। अतः उत्तर 105° है।
+स्रोत: NCERT कक्षा 9 गणित
 
-A regular polygon has each exterior angle measuring 30°. The number of sides of the polygon is:
-(A) 6 (B) 8 (C) 10 (D) 12
-Answer: (D) 12
-Solution: Sum of exterior angles = 360°. Each exterior = 360°/n = 30° → n = 360/30 = 12.
-Source: NCERT Class 8 / SSC CHSL 2020
+120. एक लंबवृत्तीय शंकु और एक लंबवृत्तीय बेलन के आधार और आयतन बराबर हैं। उनकी ऊँचाइयों का अनुपात (शंकु : बेलन) है:
+(a) 1 : 3 (b) 2 : 1 (c) 1 : 2 (d) 3 : 1
+उत्तर: (d)
+हल: ⅓πr²h₁ = πr²h₂ से h₁ = 3h₂, अतः अनुपात 3 : 1 है। जाल यह है कि अनुपात उलटकर 1 : 3 कर दिया जाए। अतः उत्तर 3 : 1 है।
+स्रोत: NCERT कक्षा 10 गणित
 
-A solid metallic sphere of radius 5 cm is melted and recast into a solid cylinder of radius 5 cm. The height of the cylinder is:
-(A) 10/3 cm (B) 20/3 cm (C) 5 cm (D) 10 cm
-Answer: (B) 20/3 cm
-Solution: Volume sphere = (4/3)π×5³ = (500/3)π. Cylinder volume = π×5²×h = 25πh. Equate: 25πh = (500/3)π → h = (500/3)/25 = 20/3 cm.
-Source: SSC CGL 2018
+121. 6 सेमी त्रिज्या का एक ठोस गोला पिघलाकर 2 मिमी व्यास के तार में खींचा जाता है। तार की लंबाई है:
+(a) 288 मी (b) 144 मी (c) 432 मी (d) 576 मी
+उत्तर: (a)
+हल: गोले का आयतन = (4/3)π × 6³ = 288π सेमी³। तार की त्रिज्या = 0.1 सेमी, अतः लंबाई = 288π / (π × 0.01) = 28800 सेमी = 288 मी। जाल यह है कि मिलीमीटर को सेंटीमीटर में बदलना भूल जाएँ, जिससे परिणाम 100 गुना बिगड़ जाता है। अतः उत्तर 288 मी है।
+स्रोत: PYQ-style
 
-In the given figure, O is the centre and ∠AOC = 130°. The measure of ∠ABC, where B is a point on the minor arc AC, is:
-(A) 65° (B) 115° (C) 130° (D) 100°
-Answer: (B) 115°
-Explanation: Wait, for a point B on the minor arc, the angle subtended by major arc AC at the centre is 130°, so the minor arc AC measures 130° (central angle). The angle at the circumference subtended by the same minor arc AC is half of central angle: ∠ABC = ½ × 130° = 65°? But that would be if B is on the major arc. Actually, if B is on the minor arc AC, then the angle subtended by the major arc AC at the centre is 360°–130°=230°, and ∠ABC (on minor arc) would be half of that, 115°. The question says "B is a point on the minor arc AC". So need to clarify. I'll use typical question: "O is the centre and ∠AOC = 130°. The measure of ∠ABC, where B is a point on the major arc AC, is 65°." Many exams ask that. I'll set B on the major arc. So angle at circumference = ½×130° = 65°. Option (A). That's simple. But to make it medium, we can set B on minor arc and ask angle, answer 115°. Let's do: "B is a point on the minor arc AC." Then ∠ABC = ½ × (360°–130°) = 115°. So answer (B) 115°. I'll do that.
+122. 5 सेमी और 3 सेमी त्रिज्या वाले दो वृत्तों के केंद्र 4 सेमी की दूरी पर हैं और वे दो बिंदुओं पर प्रतिच्छेद करते हैं। उनकी उभयनिष्ठ जीवा की लंबाई है:
+(a) 6 सेमी (b) 8 सेमी (c) 4.8 सेमी (d) 5 सेमी
+उत्तर: (a)
+हल: बड़े वृत्त के केंद्र से जीवा तक की दूरी = (5² – 3² + 4²)/(2 × 4) = 32/8 = 4 सेमी। आधी जीवा = √(25 – 16) = 3 सेमी, अतः जीवा 6 सेमी है। जाल यह है कि 3 सेमी बता दिया जाए, जो केवल आधी जीवा है। अतः उत्तर 6 सेमी है।
+स्रोत: NCERT कक्षा 9 गणित
 
-Question: In a circle with centre O, ∠AOC = 130°. B is a point on the minor arc AC. Find ∠ABC.
-(A) 65° (B) 115° (C) 130° (D) 180°
-Answer: (B) 115°
-Solution: The minor arc AC subtends 130° at centre. The remaining major arc AC subtends 360°–130° = 230°. Angle at circumference by major arc = ½ × 230° = 115°. B is on minor arc, so ∠ABC uses major arc. Thus ∠ABC = 115°.
-Source: NCERT Class 9 / SSC CGL 2020
+123. एक त्रिभुज की भुजाएँ 13 सेमी, 14 सेमी और 15 सेमी हैं। इसका क्षेत्रफल है:
+(a) 84 सेमी² (b) 96 सेमी² (c) 72 सेमी² (d) 108 सेमी²
+उत्तर: (a)
+हल: अर्धपरिमाप s = 21 सेमी। हीरोन के सूत्र से, क्षेत्रफल = √(21 × 8 × 7 × 6) = √7056 = 84 सेमी²। जाल यह है कि आधार 14 के साथ 15 को ऊँचाई मान लिया जाए, जो गलत तरीके से समकोण त्रिभुज मानता है। अतः उत्तर 84 सेमी² है।
+स्रोत: NCERT कक्षा 9 गणित
 
-A rectangular field has its length and breadth in the ratio 3 : 2. If the area is 216 m², the perimeter is:
-(A) 60 m (B) 72 m (C) 84 m (D) 96 m
-Answer: (A) 60 m
-Solution: Let length=3x, breadth=2x. Area = 6x² = 216 → x² = 36 → x = 6. So length=18, breadth=12. Perimeter = 2(18+12) = 60 m.
-Source: SSC CHSL 2019
+124. 6 सेमी त्रिज्या वाले वृत्त में एक समबाहु त्रिभुज अंकित है। त्रिभुज का क्षेत्रफल है:
+(a) 36√3 सेमी² (b) 48√3 सेमी² (c) 27√3 सेमी² (d) 54√3 सेमी²
+उत्तर: (c)
+हल: अंकित समबाहु त्रिभुज के लिए, भुजा = r√3 = 6√3 सेमी। क्षेत्रफल = (√3/4) × (6√3)² = (√3/4) × 108 = 27√3 सेमी²। जाल यह है कि भुजा 2r = 12 सेमी ले ली जाए, जो परिबद्ध (परिगत) स्थिति का है। अतः उत्तर 27√3 सेमी² है।
+स्रोत: NCERT कक्षा 10 गणित
 
-A circle is drawn with the diagonal of a square of side 14 cm as its diameter. The area of the circle is (π = 22/7):
-(A) 154 cm² (B) 308 cm² (C) 616 cm² (D) 77 cm²
-Answer: (B) 308 cm²
-Solution: Diagonal of square = 14√2 cm. So radius = 7√2 cm. Area = πr² = (22/7)×(7√2)² = (22/7)×98 = 22×14 = 308 cm².
-Source: NCERT Class 10 / SSC CGL 2017
-
-In a right-angled triangle, the lengths of the legs are 5 cm and 12 cm. The radius of the inscribed circle (inradius) is:
-(A) 1 cm (B) 2 cm (C) 3 cm (D) 4 cm
-Answer: (B) 2 cm
-Solution: Hypotenuse = √(5²+12²) = 13 cm. Area = ½×5×12 = 30 cm². Semi-perimeter s = (5+12+13)/2 = 15 cm. Inradius = Area/s = 30/15 = 2 cm.
-Source: NCERT Class 10 / SSC CGL 2021
-
-A wire when bent in the form of an equilateral triangle encloses an area of 36√3 cm². If the same wire is bent to form a circle, the area of the circle is (π = 22/7):
-(A) 154 cm² (B) 1232 cm² (C) 616 cm² (D) 308 cm²
-Answer: (C) 616 cm²? Let's compute: Area equilateral = (√3/4)a² = 36√3 → a²/4 = 36 → a² = 144 → a = 12 cm. Perimeter = 3a = 36 cm. Wire length = 36 cm. Circumference of circle = 2πr = 36 → r = 36/(2π) = 18/π. With π=22/7, r = 18 × 7/22 = 126/22 = 63/11 ≈ 5.727 cm. Area = πr² = (22/7)×(63/11)² = (22/7)×(3969/121) = (22×3969)/(7×121). 121/22=5.5? Actually 22/121 = 2/11. So (22/7)×(3969/121) = (3969×22)/(7×121) = (3969/7)×(22/121) = (567)×(2/11) = 1134/11 ≈ 103.09 cm². Not matching. Let's recalc: 3969/121 = 32.801... multiply by 22/7: 32.801 * 3.142 = 103.1. Not among options. Maybe they use π=22/7 and radius = 36/(2*22/7)=36*7/44=252/44=63/11=5.727. Area = (22/7)*(63/11)^2 = (22/7)*(3969/121) = (22*3969)/(7*121) = (2*3969)/(7*11) since 22/121=2/11 → (2*3969)/(77)=7938/77=103.09. Not an option. So maybe the wire is bent into a square then a circle? I need a different known problem. A common PL: "A wire is bent into an equilateral triangle of side 12 cm. If it is rebent into a circle, area is?" Side 12, perimeter 36, radius = 36/(2π)=18/π, area=324/π. With π=22/7, area=324*7/22=103.09. Not in options. Options are 154, 1232, 616, 308. So I'll pick a problem that yields one of these. Another common: "A wire bent into a square of side 11 cm, area 121 cm², then bent into circle, area 154 cm²." That's set 2 Q68 had square from circle. Could do this: "A wire bent into an equilateral triangle encloses area 16√3 cm²." Then a²/4=16 → a=8, perimeter=24. Circle radius = 12/π ≈ 3.82, area = 144/π ≈ 45.8, not. So not. I'll change to rectangle: "A wire bent into a rectangle of length 12 cm and breadth 6 cm, area 72 cm², perimeter 36 → circle area 103 again. Not. So maybe I'll use a different shape: A wire bent into a square of side 14 cm (perimeter 56). Then circle radius = 28/π ≈ 8.91, area = 784/π ≈ 249.5, not. Square side 7: perimeter 28, circle radius = 14/π ≈ 4.46, area = 196/π ≈ 62.4. So not. So maybe I'll use a different question: "The circumference of a circle is equal to the perimeter of a square of side 22 cm. The area of the circle is (π = 22/7):" Square perimeter = 88 cm, circumference = 88 = 2πr → r=14 cm, area=616 cm². That yields 616, option (C). So I'll craft that.
-
-Question: The circumference of a circle equals the perimeter of a square of side 22 cm. The area of the circle is (π = 22/7):
-(A) 154 cm² (B) 308 cm² (C) 616 cm² (D) 1232 cm²
-Answer: (C) 616 cm²
-Solution: Perimeter of square = 4 × 22 = 88 cm. Circumference = 2πr = 88 → r = 14 cm. Area = πr² = (22/7)×196 = 616 cm².
-Source: NCERT Class 7 / SSC CGL 2018
-
-Great. So Q100 will be that.
-
-Now compile all 25 questions 76-100, no MCQs repeated from earlier sets (I'll check). So final list.76. In an equilateral triangle of side 10 cm, the length of the altitude is:
-(A) 5√3 cm (B) 10√3 cm (C) 5 cm (D) 10 cm
-Answer: (A) 5√3 cm
-Solution: Altitude = (√3/2) × side = (√3/2) × 10 = 5√3 cm.
-Source: NCERT Class 9 / SSC CPO 2020
-
-A chord of a circle of radius 17 cm is at a distance of 8 cm from the centre. The length of the chord is:
-(A) 15 cm (B) 30 cm (C) 34 cm (D) 20 cm
-Answer: (B) 30 cm
-Solution: Half chord = √(17² – 8²) = √(289 – 64) = √225 = 15 cm. Full chord = 2 × 15 = 30 cm.
-Source: NCERT Class 9 / SSC CGL 2019
-
-Two adjacent angles of a parallelogram are in the ratio 2 : 3. The smaller angle is:
-(A) 36° (B) 72° (C) 90° (D) 108°
-Answer: (B) 72°
-Solution: Adjacent angles sum to 180°. Let them be 2x, 3x ⇒ 5x = 180° ⇒ x = 36°. Smaller = 2x = 72°.
-Source: NCERT Class 8 / SSC CHSL 2018
-
-A rhombus has diagonals of length 24 cm and 10 cm. The perimeter of the rhombus is:
-(A) 52 cm (B) 68 cm (C) 104 cm (D) 120 cm
-Answer: (A) 52 cm
-Solution: Diagonals bisect at right angles. Half-diagonals: 12 cm, 5 cm. Side = √(12² + 5²) = 13 cm. Perimeter = 4 × 13 = 52 cm.
-Source: NCERT Class 8 / SSC CGL 2021
-
-The angle between the tangent and the radius at the point of contact is:
-(A) 0° (B) 45° (C) 90° (D) 180°
-Answer: (C) 90°
-Solution: Radius is perpendicular to tangent at the point of contact.
-Source: NCERT Class 10
-
-A sector of a circle of radius 12 cm has central angle 60°. Its area is (π = 3.14):
-(A) 37.68 cm² (B) 75.36 cm² (C) 113.04 cm² (D) 150.72 cm²
-Answer: (B) 75.36 cm²
-Solution: Area = (θ/360) × πr² = (60/360) × 3.14 × 144 = (1/6) × 3.14 × 144 = 3.14 × 24 = 75.36 cm².
-Source: NCERT Class 10 / SSC CHSL 2019
-
-The sum of interior angles of a decagon (10 sides) is:
-(A) 1440° (B) 1800° (C) 1080° (D) 1260°
-Answer: (A) 1440°
-Solution: Sum = (n – 2)×180° = 8×180° = 1440°.
-Source: NCERT Class 8
-
-A triangle and a parallelogram lie on the same base and between the same parallels. If area of the triangle is 30 cm², the area of the parallelogram is:
-(A) 15 cm² (B) 30 cm² (C) 45 cm² (D) 60 cm²
-Answer: (D) 60 cm²
-Solution: When on same base and between same parallels, parallelogram area = 2 × area of triangle = 60 cm².
-Source: NCERT Class 9 / SSC CGL 2017
-
-The volumes of two spheres are in the ratio 64 : 27. The ratio of their radii is:
-(A) 8 : 3 (B) 4 : 3 (C) 16 : 9 (D) 2 : 1
-Answer: (B) 4 : 3
-Solution: (r₁/r₂)³ = 64/27 = (4/3)³, so radii ratio = 4 : 3.
-Source: NCERT Class 9 / SSC CGL 2020
-
-In a rectangle, length is 20% more than breadth. If breadth is 25 cm, the length is:
-(A) 20 cm (B) 30 cm (C) 35 cm (D) 40 cm
-Answer: (B) 30 cm
-Solution: Length = 25 + 20% of 25 = 25 + 5 = 30 cm.
-Source: SSC CHSL 2018
-
-A right circular cone of base radius 6 cm and height 8 cm has slant height:
-(A) 10 cm (B) 12 cm (C) 14 cm (D) 9 cm
-Answer: (A) 10 cm
-Solution: Slant height l = √(r² + h²) = √(36 + 64) = √100 = 10 cm.
-Source: NCERT Class 9
-
-In ΔABC, DE || BC with D on AB, E on AC. AD = 4 cm, DB = 6 cm, AE = 5 cm. EC is:
-(A) 7.5 cm (B) 10 cm (C) 6 cm (D) 8 cm
-Answer: (A) 7.5 cm
-Solution: By Basic Proportionality Theorem, AD/DB = AE/EC ⇒ 4/6 = 5/EC ⇒ EC = (5×6)/4 = 7.5 cm.
-Source: NCERT Class 10 / SSC CGL 2019
-
-The circumference of a circle is 88 cm. Its area is (π = 22/7):
-(A) 616 cm² (B) 2464 cm² (C) 154 cm² (D) 308 cm²
-Answer: (A) 616 cm²
-Solution: 2πr = 88 ⇒ r = 14 cm. Area = πr² = (22/7)×196 = 616 cm².
-Source: NCERT Class 7 / SSC CGL 2016
-
-If the edge of a cube is doubled, the percentage increase in its volume is:
-(A) 100% (B) 300% (C) 700% (D) 800%
-Answer: (C) 700%
-Solution: Original volume = a³, new volume = (2a)³ = 8a³. Increase = 7a³, % increase = 700%.
-Source: SSC CGL 2017
-
-A cylinder and a cone have equal base and equal height. If volume of cylinder is 300 cm³, volume of cone is:
-(A) 100 cm³ (B) 150 cm³ (C) 200 cm³ (D) 300 cm³
-Answer: (A) 100 cm³
-Solution: Cone volume = ⅓ of cylinder volume = ⅓ × 300 = 100 cm³.
-Source: NCERT Class 10 / SSC CPO 2021
-
-Two circles of radii 12 cm and 3 cm touch externally. The length of the direct common tangent is:
-(A) 15 cm (B) 9 cm (C) 12 cm (D) 6 cm
-Answer: (C) 12 cm
-Solution: Length = 2√(r₁r₂) = 2√(12×3) = 2√36 = 12 cm.
-Source: SSC CPO 2017
-
-A ladder with foot 5 m from a wall reaches a height of 12 m on the wall. The length of the ladder is:
-(A) 10 m (B) 13 m (C) 15 m (D) 17 m
-Answer: (B) 13 m
-Solution: Length = √(12² + 5²) = √(144+25) = √169 = 13 m.
-Source: NCERT Class 10 / SSC CGL 2016
-
-The area of a trapezium with parallel sides 14 cm and 6 cm and height 8 cm is:
-(A) 80 cm² (B) 100 cm² (C) 120 cm² (D) 160 cm²
-Answer: (A) 80 cm²
-Solution: Area = ½ × (14+6) × 8 = ½ × 20 × 8 = 80 cm².
-Source: NCERT Class 8
-
-A regular polygon has each exterior angle 30°. The number of sides is:
-(A) 6 (B) 8 (C) 10 (D) 12
-Answer: (D) 12
-Solution: 360°/n = 30° ⇒ n = 360/30 = 12.
-Source: NCERT Class 8 / SSC CHSL 2020
-
-A solid metallic sphere of radius 5 cm is melted and recast into a solid cylinder of radius 5 cm. The height of the cylinder is:
-(A) 10/3 cm (B) 20/3 cm (C) 5 cm (D) 10 cm
-Answer: (B) 20/3 cm
-Solution: Volume sphere = (4/3)π×125 = (500/3)π. Cylinder volume = π×25×h. Equate: 25πh = (500/3)π ⇒ h = 20/3 cm.
-Source: SSC CGL 2018
-
-In a circle with centre O, ∠AOC = 130°. B is a point on the minor arc AC. The angle ∠ABC is:
-(A) 65° (B) 115° (C) 130° (D) 180°
-Answer: (B) 115°
-Solution: Major arc AC subtends 360°–130° = 230° at centre. ∠ABC on minor arc = ½ × 230° = 115°.
-Source: NCERT Class 9 / SSC CGL 2020
-
-A rectangular field has length and breadth in ratio 3:2 and area 216 m². Its perimeter is:
-(A) 60 m (B) 72 m (C) 84 m (D) 96 m
-Answer: (A) 60 m
-Solution: Let length=3x, breadth=2x. Area = 6x² = 216 ⇒ x=6. Length=18, breadth=12. Perimeter = 2(18+12)=60 m.
-Source: SSC CHSL 2019
-
-A circle is drawn with the diagonal of a square of side 14 cm as diameter. The area of the circle is (π = 22/7):
-(A) 154 cm² (B) 308 cm² (C) 616 cm² (D) 77 cm²
-Answer: (B) 308 cm²
-Solution: Diagonal = 14√2 cm ⇒ radius = 7√2 cm. Area = (22/7)×(7√2)² = (22/7)×98 = 308 cm².
-Source: NCERT Class 10 / SSC CGL 2017
-
-In a right triangle with legs 5 cm and 12 cm, the inradius is:
-(A) 1 cm (B) 2 cm (C) 3 cm (D) 4 cm
-Answer: (B) 2 cm
-Solution: Hypotenuse = √(5²+12²)=13 cm. Area = ½×5×12=30 cm². s = (5+12+13)/2=15 cm. r = Area/s = 30/15=2 cm.
-Source: NCERT Class 10 / SSC CGL 2021
-
-The circumference of a circle equals the perimeter of a square of side 22 cm. The area of the circle is (π = 22/7):
-(A) 154 cm² (B) 308 cm² (C) 616 cm² (D) 1232 cm²
-Answer: (C) 616 cm²
-Solution: Perimeter of square = 88 cm = circumference. 2πr = 88 → r = 14 cm. Area = πr² = (22/7)×196 = 616 cm².
-Source: NCERT Class 7 / SSC CGL 2018
+125. 6 सेमी आधार-त्रिज्या और 8 सेमी ऊँचाई वाले लंबवृत्तीय शंकु में एक गोला अंतर्निहित है। गोले की त्रिज्या है:
+(a) 3 सेमी (b) 4 सेमी (c) 5 सेमी (d) 2 सेमी
+उत्तर: (a)
+हल: तिर्यक ऊँचाई = √(6² + 8²) = 10 सेमी। अंतर्निहित गोले की त्रिज्या = (R × h)/(R + l) = (6 × 8)/(6 + 10) = 48/16 = 3 सेमी। जाल यह है कि r = R × h / (2l) लगा दिया जाए, जिससे 2.4 सेमी आता है और यह सही सूत्र नहीं है। अतः उत्तर 3 सेमी है।
+स्रोत: PYQ-style

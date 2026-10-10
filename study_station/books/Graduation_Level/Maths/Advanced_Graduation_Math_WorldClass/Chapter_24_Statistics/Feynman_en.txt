@@ -1,0 +1,57 @@
+# The Feynman Explanation: Standard Deviation — The "Average Distance from the Average"
+
+## The Losing Match
+
+Imagine two cricket players. Both score an **average of 40 runs** per match over 10 matches.
+
+- **Player A** scores: 38, 42, 40, 39, 41, 40, 38, 42, 39, 41
+- **Player B** scores: 5, 95, 10, 80, 40, 2, 98, 30, 60, 40
+
+Same average — 40. But would you pick them equally for your team? Of course not. Player A is **consistent**; Player B is a gamble. The average alone hides this. You need a number that measures **how spread out** the scores are. That number is the **standard deviation**.
+
+## The One-Line Idea
+
+> Standard deviation = the *typical distance* of the data points from their own average.
+
+- **Small** standard deviation → data huddles close to the mean (consistent, predictable).
+- **Large** standard deviation → data is scattered far from the mean (inconsistent, risky).
+
+## How to Build It (Step by Step)
+
+Take a tiny data set: **2, 4, 6**
+
+**Step 1 — Find the mean.**
+Mean = (2 + 4 + 6) ÷ 3 = **4**
+
+**Step 2 — Find each point's distance from the mean (deviation).**
+2 − 4 = −2; 4 − 4 = 0; 6 − 4 = +2
+
+**Step 3 — Square the deviations** (this removes minus signs and punishes big gaps more).
+(−2)² = 4; 0² = 0; (+2)² = 4
+
+**Step 4 — Average the squares.** This is the **variance**.
+Variance = (4 + 0 + 4) ÷ 3 = 8/3 ≈ 2.67
+
+**Step 5 — Take the square root** to return to the original units.
+Standard deviation = √(8/3) ≈ **1.63**
+
+So the "typical distance" of these numbers from their mean 4 is about 1.63.
+
+## Why Square and Then Root?
+
+If you simply averaged the deviations (−2, 0, +2), the positives and negatives would cancel out and you'd always get zero — useless. Squaring fixes the sign problem; the final square root brings the answer back into the same units as the data (runs, marks, rupees — not "square runs").
+
+## Exam Memory Hook
+
+**M-D-S-A-R**: **M**ean → **D**eviations → **S**quare them → **A**verage (variance) → **R**oot.
+
+And remember: **variance = (standard deviation)²**. If a question gives variance 25, the standard deviation is 5 — not 625.
+
+## Common Exam Traps
+
+- **Adding a constant to every value** (e.g., every score +5) shifts the mean but leaves the standard deviation **unchanged** — the spread doesn't move.
+- **Multiplying every value by k** multiplies the standard deviation by |k|.
+- Standard deviation is **never negative**. If your answer is negative, you made an error.
+- Don't confuse **variance** (σ²) with **standard deviation** (σ) — examiners love swapping them in options.
+
+*Sources: NCERT Class 11 Mathematics, Chapter on Statistics*

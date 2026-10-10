@@ -1,0 +1,79 @@
+Card 1
+Front: What is the fundamental difference between Permutation and Combination?
+Back: Permutation = arrangement (order matters); Combination = selection (order does not matter).
+
+Card 2
+Front: State the formula for ⁿPᵣ.
+Back: ⁿPᵣ = n! / (n−r)!
+
+Card 3
+Front: State the formula for ⁿCᵣ.
+Back: ⁿCᵣ = n! / [r!(n−r)!]
+
+Card 4
+Front: What is the relation between ⁿPᵣ and ⁿCᵣ?
+Back: ⁿPᵣ = ⁿCᵣ × r! (selection first, then arrange the r chosen items).
+
+Card 5
+Front: What is the mnemonic to remember which of P and C cares about order?
+Back: "P = Position, C = Committee." Position needs order; a committee is just a group — order is irrelevant.
+
+Card 6
+Front: What is the value of 0! and why does it matter?
+Back: 0! = 1. It makes formulas like ⁿPₙ = n! and ⁿCₙ = 1 work consistently.
+
+Card 7
+Front: How many ways can n distinct objects be arranged in a circle?
+Back: (n−1)! — fix one object to remove rotational duplicates.
+
+Card 8
+Front: How many ways can n distinct beads be arranged in a necklace (or garland)?
+Back: (n−1)!/2 — a necklace can also be flipped, so clockwise and anticlockwise are identical.
+
+Card 9
+Front: How many arrangements are there of n objects where p are identical of one kind, q of another?
+Back: n! / (p! q! …) — divide by the factorials of repeated items.
+
+Card 10
+Front: What is the Addition Principle of counting?
+Back: If task A can be done in m ways and task B in n ways (mutually exclusive, "OR"), total ways = m + n.
+
+Card 11
+Front: What is the Multiplication Principle of counting?
+Back: If task A is done in m ways AND then task B in n ways, total ways = m × n.
+
+Card 12
+Front: What is the mnemonic for choosing between addition and multiplication?
+Back: "OR → Add, AND → Multiply." (Either/or choices add; sequential stages multiply.)
+
+Card 13
+Front: State the key identity: ⁿCᵣ = ?
+Back: ⁿCᵣ = ⁿCₙ₋ᵣ (choosing r to include = choosing n−r to leave out).
+
+Card 14
+Front: State Pascal's rule for combinations.
+Back: ⁿCᵣ + ⁿCᵣ₋₁ = ⁿ⁺¹Cᵣ.
+
+Card 15
+Front: How many ways can r identical items be distributed among n distinct boxes (boxes may be empty)?
+Back: ⁿ⁺ʳ⁻¹Cᵣ (stars and bars method).
+
+Card 16
+Front: In how many ways can a committee of r people be chosen from n if k particular people must always be included?
+Back: ⁿ⁻ᵏCᵣ₋ₖ — fix the k members, choose the rest from the remaining pool.
+
+Card 17
+Front: What is the sum of all combinations ⁿC₀ + ⁿC₁ + … + ⁿCₙ?
+Back: 2ⁿ (total number of subsets of an n-element set).
+
+Card 18
+Front: How many ways can n distinct objects be arranged so that two particular objects are never together?
+Back: n! − (n−1)! × 2! — total arrangements minus arrangements where the two are glued together as one block.
+
+Card 19
+Front: What is the "Gap Method" mnemonic for keeping objects separated?
+Back: "Seat the calm ones first, then slip the restless ones into the gaps." Arrange the unrestricted items, then place restricted items in the gaps (including ends).
+
+Card 20
+Front: How many diagonals does a polygon with n sides have?
+Back: ⁿC₂ − n = n(n−3)/2 — all pairs of vertices minus the n sides.

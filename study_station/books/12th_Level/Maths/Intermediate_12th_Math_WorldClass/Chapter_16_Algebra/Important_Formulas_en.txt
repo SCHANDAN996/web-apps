@@ -1,8 +1,105 @@
-# Chapter: Algebra, Level: intermediate
+# 📋 Important Formulas — Algebra
 
-@content_agent lang=en level=intermediate 'List all important formulas, equations, and rules for Algebra.
-Instructions:
-- Only formulas and a one-line hint (when to use), no detailed explanation.
-- Present in a clean table: Formula Name | Formula | Use-Hint
-- Cover all formulas essential for solving exam questions.
-- Keep language simple and precise.'
+## 1. Algebraic Identities
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Square of a Sum | (a + b)² = a² + 2ab + b² | Expanding brackets, quick squaring of numbers like 102² |
+| Square of a Difference | (a − b)² = a² − 2ab + b² | Expanding, finding (a−b)² when a²+b² and ab are given |
+| Difference of Squares | a² − b² = (a + b)(a − b) | Factorisation; fast multiplication like 98 × 102 |
+| Sum of Squares relation | a² + b² = (a + b)² − 2ab = (a − b)² + 2ab | When a+b (or a−b) and ab are known |
+| (a+b)² + (a−b)² | = 2(a² + b²) | Eliminating the ab term |
+| (a+b)² − (a−b)² | = 4ab | Finding ab from two squares |
+| Cube of a Sum | (a + b)³ = a³ + b³ + 3ab(a + b) | Cubing numbers, identity-based simplification |
+| Cube of a Difference | (a − b)³ = a³ − b³ − 3ab(a − b) | Cubing, simplification |
+| Sum of Cubes | a³ + b³ = (a + b)(a² − ab + b²) | Factorisation of cubic expressions |
+| Difference of Cubes | a³ − b³ = (a − b)(a² + ab + b²) | Factorisation of cubic expressions |
+| a³ + b³ + c³ − 3abc | = (a + b + c)(a² + b² + c² − ab − bc − ca) | Classic exam identity; if a+b+c = 0, then a³+b³+c³ = 3abc |
+| (a + b + c)² | = a² + b² + c² + 2(ab + bc + ca) | Three-term expansions |
+| (x + a)(x + b) | = x² + (a + b)x + ab | Fast expansion of binomial products |
+
+## 2. Powers & Exponents (Laws of Indices)
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Product Rule | aᵐ × aⁿ = aᵐ⁺ⁿ | Same base multiplied → add powers |
+| Quotient Rule | aᵐ ÷ aⁿ = aᵐ⁻ⁿ | Same base divided → subtract powers |
+| Power of a Power | (aᵐ)ⁿ = aᵐⁿ | Nested exponents → multiply powers |
+| Power of a Product | (ab)ⁿ = aⁿbⁿ | Distribute power over multiplication |
+| Power of a Quotient | (a/b)ⁿ = aⁿ/bⁿ | Distribute power over division |
+| Zero Exponent | a⁰ = 1 (a ≠ 0) | Any non-zero number to power 0 is 1 |
+| Negative Exponent | a⁻ⁿ = 1/aⁿ | Negative power → reciprocal |
+| Fractional Exponent | a^(m/n) = ⁿ√(aᵐ) | Converting between roots and powers |
+
+## 3. Surds & Roots
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Root as Power | ⁿ√a = a^(1/n) | Converting surds to indices |
+| Product of Roots | √a × √b = √(ab) | Simplifying surds |
+| Quotient of Roots | √a / √b = √(a/b) | Simplifying surd fractions |
+| Rationalising (basic) | 1/(√a) = √a / a | Removing surd from denominator |
+| Rationalising (conjugate) | 1/(√a + √b) = (√a − √b)/(a − b) | Multiply by conjugate; denominator becomes a − b |
+
+## 4. Quadratic Equations (ax² + bx + c = 0, a ≠ 0)
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Quadratic Formula | x = [−b ± √(b² − 4ac)] / 2a | Solving any quadratic directly |
+| Discriminant | D = b² − 4ac | Checking nature of roots without solving |
+| Real & Distinct Roots | D > 0 | Two different real roots |
+| Real & Equal Roots | D = 0 | One repeated root: x = −b/2a |
+| No Real Roots | D < 0 | Roots are imaginary |
+| Sum of Roots | α + β = −b/a | Use when roots' sum is asked |
+| Product of Roots | αβ = c/a | Use when roots' product is asked |
+| Forming the Equation | x² − (α + β)x + αβ = 0 | Building a quadratic from given roots |
+| Difference of Roots | α − β = √D / a | Finding gap between roots |
+
+## 5. Arithmetic Progression (AP)
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| nth Term | aₙ = a + (n − 1)d | Finding any term; a = first term, d = common difference |
+| Sum of n Terms | Sₙ = n/2 [2a + (n − 1)d] | Sum when first term and d are known |
+| Sum (first + last) | Sₙ = n/2 (a + l) | Sum when first and last terms are known |
+| nth Term from Sum | aₙ = Sₙ − Sₙ₋₁ | Finding a term when sum formula is given |
+| Sum of First n Naturals | 1 + 2 + … + n = n(n + 1)/2 | Very frequent in exams |
+| Sum of Squares | 1² + 2² + … + n² = n(n + 1)(2n + 1)/6 | Square-series questions |
+| Sum of Cubes | 1³ + 2³ + … + n³ = [n(n + 1)/2]² | Cube-series questions |
+
+## 6. Geometric Progression (GP)
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| nth Term | aₙ = arⁿ⁻¹ | a = first term, r = common ratio |
+| Sum of n Terms (r ≠ 1) | Sₙ = a(rⁿ − 1)/(r − 1), r > 1 | Sum of finite GP |
+| Sum of n Terms (r < 1) | Sₙ = a(1 − rⁿ)/(1 − r) | Same formula, easier form when r < 1 |
+| Infinite Sum (|r| < 1) | S∞ = a/(1 − r) | Never-ending GP with shrinking terms |
+
+## 7. Ratio, Proportion & Variation
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Proportion | a : b = c : d ⇒ ad = bc | Cross-multiplication rule |
+| Componendo-Dividendo | If a/b = c/d, then (a+b)/(a−b) = (c+d)/(c−d) | Quick ratio transformations |
+| Direct Variation | y ∝ x ⇒ y = kx | y grows as x grows |
+| Inverse Variation | y ∝ 1/x ⇒ y = k/x | y shrinks as x grows |
+| Mean Proportion | b = √(ac) when a : b = b : c | Middle term of continued proportion |
+
+## 8. Inequalities & Modulus
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Modulus Definition | |x| = x if x ≥ 0; |x| = −x if x < 0 | Removing modulus sign |
+| Modulus Inequality | |x| < a ⇒ −a < x < a | Bounded range questions |
+| Modulus Inequality | |x| > a ⇒ x < −a or x > a | Outside-range questions |
+| Sign Flip Rule | Multiplying/dividing by a negative reverses the inequality | Solving inequalities carefully |
+| AM ≥ GM | (a + b)/2 ≥ √(ab), for a, b > 0 | Maximum/minimum value questions |
+
+## 9. Handy Number Facts
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Sum of First n Odd Numbers | 1 + 3 + 5 + … = n² | Odd-number series |
+| Sum of First n Even Numbers | 2 + 4 + 6 + … = n(n + 1) | Even-number series |
+| (a + b)(a − b) trick | e.g., 47 × 53 = 50² − 3² = 2491 | Mental multiplication near a round number |

@@ -1,0 +1,151 @@
+प्रश्न 76–95: आसान | प्रश्न 96–100: मध्यम
+
+76. If one root of the equation x² − 8x + k = 0 is twice the other, then the value of k is
+(a) 16/9 (b) 64/9 (c) 32/9 (d) 128/9
+Answer: (d)
+Solution: The tempting wrong option 64/9 comes from taking the roots as 4 and 8, whose sum is 12, not 8. Let the roots be r and 2r; then 3r = 8, so r = 8/3 and k = (8/3)(16/3) = 128/9, so the answer is 128/9.
+Source: NCERT Class 10 Mathematics
+
+77. The discriminant of the equation 3x² − 2√6x + 2 = 0 is
+(a) 0 (b) 12 (c) 24 (d) −12
+Answer: (a)
+Solution: The trap is forgetting to square the √6 in b², which gives a nonzero value if done carelessly. Here b² = (−2√6)² = 24 and 4ac = 4(3)(2) = 24, so D = 24 − 24 = 0, meaning equal roots, so the answer is 0.
+Source: NCERT Class 10 Mathematics
+
+78. If α and β are the roots of x² − 5x + 6 = 0, then the value of α² + β² is
+(a) 25 (b) 12 (c) 13 (d) 37
+Answer: (c)
+Solution: The tempting wrong option 25 comes from squaring the sum directly, but α² + β² = (α+β)² − 2αβ. With α+β = 5 and αβ = 6, we get 25 − 12 = 13, so the answer is 13.
+Source: NCERT Class 10 Mathematics
+
+79. The sum of the first 20 terms of the AP 3, 7, 11, 15, … is
+(a) 820 (b) 780 (c) 760 (d) 800
+Answer: (a)
+Solution: The tempting wrong option 800 comes from miscomputing the bracket as 80 instead of 82. Here a = 3, d = 4, so S₂₀ = (20/2)[2(3) + 19(4)] = 10 × 82 = 820, so the answer is 820.
+Source: NCERT Class 10 Mathematics
+
+80. For what value of p does the equation px² − 6x + 3 = 0 have equal roots?
+(a) 2 (b) −3 (c) 6 (d) 3
+Answer: (d)
+Solution: The tempting wrong option 6 comes from dividing 36 by 6 instead of by 12. Equal roots need D = 0: 36 − 12p = 0, giving p = 3, so the answer is 3.
+Source: NCERT Class 10 Mathematics
+
+81. The 10th term of the GP 2, 6, 18, … is
+(a) 2 × 3¹⁰ (b) 3⁹ (c) 2 × 3⁹ (d) 6 × 3⁹
+Answer: (c)
+Solution: The tempting wrong option 2 × 3¹⁰ uses n instead of n − 1 in the exponent. The nth term is arⁿ⁻¹ = 2 × 3⁹, so the answer is 2 × 3⁹.
+Source: NCERT Class 11 Mathematics
+
+82. If the roots of x² + bx + c = 0 are −3 and 5, then the values of b and c are
+(a) b = 2, c = 15 (b) b = 2, c = −15 (c) b = −2, c = −15 (d) b = −2, c = 15
+Answer: (c)
+Solution: The trap is forgetting that the product (−3)(5) = −15 is negative and that b equals minus the sum. Sum of roots = 2 = −b, so b = −2, and product = −15 = c, so the answer is b = −2, c = −15.
+Source: NCERT Class 10 Mathematics
+
+83. How many terms of the AP 5, 9, 13, … must be taken so that their sum is 230?
+(a) 10 (b) 9 (c) 8 (d) 12
+Answer: (a)
+Solution: The tempting wrong option 12 comes from picking a value without checking it in the sum formula. Sₙ = (n/2)[10 + (n−1)4] = n(2n + 3) = 230 gives 2n² + 3n − 230 = 0, i.e. (n − 10)(2n + 23) = 0, and rejecting the negative root gives n = 10, so the answer is 10.
+Source: NCERT Class 10 Mathematics
+
+84. If α and β are roots of 2x² − 7x + 3 = 0, then 1/α + 1/β equals
+(a) 7/2 (b) 7/3 (c) 3/7 (d) −7/3
+Answer: (b)
+Solution: The tempting wrong option 3/7 inverts the correct ratio. 1/α + 1/β = (α+β)/(αβ) = (7/2)/(3/2) = 7/3, so the answer is 7/3.
+Source: NCERT Class 10 Mathematics
+
+85. The sum of the infinite GP 1 + 1/3 + 1/9 + … is
+(a) 3/2 (b) 4/3 (c) 2 (d) 9/4
+Answer: (a)
+Solution: The tempting wrong option 4/3 comes from misapplying the formula with r = 1/4. With a = 1 and r = 1/3, S = a/(1 − r) = 1/(2/3) = 3/2, so the answer is 3/2.
+Source: NCERT Class 11 Mathematics
+
+86. The quadratic equation whose roots are 2 + √3 and 2 − √3 is
+(a) x² − 4x − 1 = 0 (b) x² + 4x + 1 = 0 (c) x² − 4x + 7 = 0 (d) x² − 4x + 1 = 0
+Answer: (d)
+Solution: The tempting wrong option x² − 4x + 7 = 0 adds the squares of 2 and √3 instead of computing the product (2+√3)(2−√3) = 4 − 3 = 1. Sum = 4 and product = 1 give x² − 4x + 1 = 0, so the answer is x² − 4x + 1 = 0.
+Source: NCERT Class 10 Mathematics
+
+87. The 15th term of the AP whose 5th term is 19 and 9th term is 35 is
+(a) 71 (b) 63 (c) 59 (d) 67
+Answer: (c)
+Solution: The tempting wrong option 67 comes from adding 8d instead of 6d to the 9th term. From a + 4d = 19 and a + 8d = 35, subtracting gives 4d = 16, so d = 4, and T₁₅ = T₉ + 6d = 35 + 24 = 59, so the answer is 59.
+Source: NCERT Class 10 Mathematics
+
+88. If the equation x² − kx + 16 = 0 has real and equal roots, the positive value of k is
+(a) 4 (b) 16 (c) 32 (d) 8
+Answer: (d)
+Solution: The tempting wrong option 16 comes from setting k equal to the constant term instead of using the discriminant. Equal roots need k² − 64 = 0, so k = ±8, and the positive value is 8, so the answer is 8.
+Source: NCERT Class 10 Mathematics
+
+89. The sum of all two-digit numbers divisible by 7 is
+(a) 714 (b) 735 (c) 742 (d) 728
+Answer: (d)
+Solution: The tempting wrong option 735 comes from wrongly including 7 itself, which is not a two-digit number. The numbers are 14, 21, …, 98, with n = (98 − 14)/7 + 1 = 13 terms, so Sum = (13/2)(14 + 98) = 13 × 56 = 728, so the answer is 728.
+Source: NCERT Class 10 Mathematics
+
+90. If the sum of the roots of x² − (k+1)x + 9 = 0 is 7, then the product of the roots is
+(a) 12 (b) 9 (c) 6 (d) 7
+Answer: (b)
+Solution: The tempting wrong option 7 confuses the sum with the product. The product of roots of ax² + bx + c = 0 is c/a = 9 regardless of k (the condition k + 1 = 7 only fixes k = 6), so the answer is 9.
+Source: NCERT Class 10 Mathematics
+
+91. The 8th term of the GP 3, −6, 12, −24, … is
+(a) 192 (b) 384 (c) −384 (d) −192
+Answer: (c)
+Solution: The tempting wrong option 384 ignores the sign: with r = −2, even-position terms are negative. T₈ = 3 × (−2)⁷ = 3 × (−128) = −384, so the answer is −384.
+Source: NCERT Class 11 Mathematics
+
+92. The nature of the roots of 2x² + 5x + 5 = 0 is
+(a) real and distinct (b) real and equal (c) imaginary (d) rational
+Answer: (c)
+Solution: The tempting wrong option "real and distinct" comes from miscomputing D as 25 + 40. Here D = 25 − 4(2)(5) = 25 − 40 = −15 < 0, so the roots are imaginary, so the answer is imaginary.
+Source: NCERT Class 10 Mathematics
+
+93. If the nth term of an AP is 4n − 3, then the sum of its first 25 terms is
+(a) 1250 (b) 1225 (c) 1275 (d) 1300
+Answer: (b)
+Solution: The tempting wrong option 1300 computes 4Σn and forgets to subtract 3n = 75. Here a = T₁ = 1 and T₂₅ = 97, so S₂₅ = (25/2)(1 + 97) = 25 × 49 = 1225, so the answer is 1225.
+Source: NCERT Class 10 Mathematics
+
+94. If α and β are roots of x² − 6x + 4 = 0, then the equation whose roots are α² and β² is
+(a) x² − 28x + 8 = 0 (b) x² − 28x + 16 = 0 (c) x² − 36x + 16 = 0 (d) x² − 20x + 16 = 0
+Answer: (b)
+Solution: The tempting wrong option x² − 36x + 16 = 0 uses (α+β)² = 36 as the new sum without subtracting 2αβ. New sum = α² + β² = 36 − 8 = 28 and new product = (αβ)² = 16, giving x² − 28x + 16 = 0, so the answer is x² − 28x + 16 = 0.
+Source: NCERT Class 11 Mathematics
+
+95. The sum of the series 1 + 4 + 7 + 10 + … up to 30 terms is
+(a) 1305 (b) 1335 (c) 1365 (d) 1395
+Answer: (b)
+Solution: The tempting wrong option 1365 comes from using 30d instead of 29d in the bracket. S₃₀ = (30/2)[2(1) + 29(3)] = 15 × 89 = 1335, so the answer is 1335.
+Source: NCERT Class 10 Mathematics
+
+96. If x = 2 is a root of x² − 5x + k = 0, then the other root is
+(a) 3 (b) −3 (c) 5 (d) 2
+Answer: (a)
+Solution: The tempting wrong option 5 confuses the coefficient of x with a root. Sum of roots = 5, so the other root = 5 − 2 = 3 (and k = 2 × 3 = 6, which is consistent), so the answer is 3.
+Source: NCERT Class 10 Mathematics
+
+97. Three numbers in GP have product 216 and sum 26. The common ratio (taking the increasing GP) is
+(a) 3 (b) 3/2 (c) 4 (d) 2
+Answer: (a)
+Solution: The tempting wrong option 2 gives the right product with middle term 6 but the sum becomes 21, not 26. Let the numbers be a/r, a, ar; then a³ = 216 gives a = 6, and 6/r + 6 + 6r = 26 gives 3r² − 10r + 3 = 0, so r = 3 or 1/3, and the increasing GP takes r = 3, so the answer is 3.
+Source: NCERT Class 11 Mathematics
+
+98. The value of √(12 + √(12 + √(12 + … ∞))) is
+(a) 12 (b) 3 (c) 6 (d) 4
+Answer: (d)
+Solution: The tempting wrong option 3 is the negative root of the equation, which a square-root value cannot take. Setting x = √(12 + x) gives x² − x − 12 = 0, i.e. (x − 4)(x + 3) = 0, and since x > 0, x = 4, so the answer is 4.
+Source: PYQ-style
+
+99. If the ratio of the sums of the first n terms of two APs is (7n + 1) : (4n + 27), then the ratio of their 11th terms is
+(a) 78 : 71 (b) 148 : 111 (c) 3 : 2 (d) 74 : 55
+Answer: (b)
+Solution: The tempting wrong option 78 : 71 comes from substituting n = 11 directly, which is not the method. For the ratio of the kth terms, put n = 2k − 1 = 21: the ratio is (7·21 + 1) : (4·21 + 27) = 148 : 111, so the answer is 148 : 111.
+Source: NCERT Class 11 Mathematics
+
+100. The number of real roots of the equation (x − 1)² + (x − 2)² + (x − 3)² = 0 is
+(a) 0 (b) 1 (c) 2 (d) 3
+Answer: (a)
+Solution: The tempting wrong option 1 assumes one value of x can make all three squares zero, but no single x makes x − 1, x − 2 and x − 3 all zero at once. A sum of squares of real numbers is zero only if each term is zero, which is impossible here, so the answer is 0.
+Source: PYQ-style

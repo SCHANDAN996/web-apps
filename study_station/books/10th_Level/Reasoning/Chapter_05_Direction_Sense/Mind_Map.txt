@@ -1,23 +1,21 @@
 ```mermaid
-graph TD
-    R["🧭 दिशा ज्ञान<br>Direction Sense"]
-    R --> D["📖 आठ दिशाएँ<br>N S E W + कोणीय"]
-    R --> M["🗝️ नियम<br>तीर बनाओ"]
-    R --> T["📂 प्रकार<br>Types"]
-    R --> TR["⚠️ जाल<br>Traps"]
+flowchart TD
+    Root["Direction Sense (दिशा ज्ञान)"] --> D1["Core Directions (मूल दिशाएं)"]
+    Root --> D2["Turns & Rotations (मोड़ और घूर्णन)"]
+    Root --> D3["Shadow Problems (परछाईं आधारित)"]
+    Root --> D4["Distance & Displacement (दूरी और विस्थापन)"]
 
-    D --> D1["ऊपर N, नीचे S<br>दाएँ E, बाएँ W"]
-    D --> D2["सूरज पूर्व से उगता है"]
+    D1 --> D1A["Cardinal: North, South, East, West"]
+    D1 --> D1B["Intercardinal: North-East, North-West, South-East, South-West"]
 
-    M --> M1["हर कदम एक तीर"]
-    M --> M2["उत्तर मुँह: दायाँ=पूर्व"]
-    M --> M3["दक्षिण मुँह: उल्टा"]
+    D2 --> D2A["Right Turn = 90° Clockwise"]
+    D2 --> D2B["Left Turn = 90° Anticlockwise"]
+    D2 --> D2C["About Turn = 180° Reverse"]
 
-    T --> T1["अंतिम दिशा<br>Final Direction"]
-    T --> T2["सबसे छोटी दूरी<br>पाइथागोरस √(a²+b²)"]
-    T --> T3["परछाई आधारित<br>सुबह पश्चिम, शाम पूर्व"]
+    D3 --> D3A["Morning: Sun in East, Shadow falls West"]
+    D3 --> D3B["Evening: Sun in West, Shadow falls East"]
+    D3 --> D3C["Noon 12 PM: No Shadow directly beneath"]
 
-    TR --> TR1["मुँह की दिशा भूलना"]
-    TR --> TR2["परछाई की दिशा"]
-    TR --> TR3["दूरी बनाम विस्थापन"]
+    D4 --> D4A["Total Distance = Sum of all segment lengths"]
+    D4 --> D4B["Shortest Distance = Pythagoras Theorem (H² = B² + P²)"]
 ```

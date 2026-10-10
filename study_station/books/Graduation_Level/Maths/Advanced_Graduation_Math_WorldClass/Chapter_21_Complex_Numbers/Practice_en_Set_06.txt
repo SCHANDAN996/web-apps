@@ -1,0 +1,151 @@
+प्रश्न 126–145: आसान | प्रश्न 146–150: मध्यम (Questions 126–145: Easy | Questions 146–150: Moderate)
+
+126. If z = (1 + i√3)/(1 − i√3), then z¹⁰⁰ equals
+(a) 1 (b) −1 (c) −1/2 − i√3/2 (d) −1/2 + i√3/2
+Answer: (d)
+Solution: The trap is treating z as a cube root of unity and reducing 100 mod 3 incorrectly, or attempting a binomial expansion. In polar form, 1 + i√3 = 2e^(iπ/3) and 1 − i√3 = 2e^(−iπ/3), so z = e^(2iπ/3) and z³ = 1. Then z¹⁰⁰ = (z³)³³·z = z = e^(2iπ/3) = −1/2 + i√3/2, so the answer is −1/2 + i√3/2.
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+127. If |z − 4| = |z + 4|, then the locus of z is
+(a) a circle of radius 4 (b) the imaginary axis (c) the real axis (d) the line x = 4
+Answer: (b)
+Solution: The trap is assuming the locus is a circle because moduli are involved; equal distances give a straight line. The condition says z is equidistant from 4 and −4, so the locus is the perpendicular bisector of the segment joining (4, 0) and (−4, 0), which is x = 0, so the answer is the imaginary axis.
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+128. If z₁ = 3 + 4i and z₂ = 5 − 12i, then |z₁/z₂| equals
+(a) 1 (b) 13/5 (c) 25/169 (d) 5/13
+Answer: (d)
+Solution: The trap is squaring the quotient and reporting 25/169, forgetting to take the square root. Using |z₁/z₂| = |z₁|/|z₂| with |z₁| = √(9 + 16) = 5 and |z₂| = √(25 + 144) = 13, we get 5/13, so the answer is 5/13.
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+129. The value of (1 + i)⁸ + (1 − i)⁸ is
+(a) 32 (b) −32 (c) 16 (d) 0
+Answer: (a)
+Solution: The trap is assuming the two terms cancel because of the sign change, giving 0; but the even power makes both terms positive. Since (1 + i)² = 2i, (1 + i)⁸ = (2i)⁴ = 16, and similarly (1 − i)⁸ = (−2i)⁴ = 16, so the answer is 32.
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+130. If z = cos θ + i sin θ, then zⁿ + 1/zⁿ equals
+(a) 2 cos nθ (b) 2 sin nθ (c) cos nθ (d) 2i sin nθ
+Answer: (a)
+Solution: The trap is subtracting instead of adding, which would give 2i sin nθ. By De Moivre's theorem, zⁿ = cos nθ + i sin nθ and 1/zⁿ = cos nθ − i sin nθ, and adding cancels the sine terms, so the answer is 2 cos nθ.
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+131. The number of solutions of z² + |z|² = 0, where z is a complex number, is
+(a) 1 (b) infinitely many (c) 4 (d) 2
+Answer: (b)
+Solution: The trap is concluding z = 0 is the only solution, as one would over the reals. Writing z = x + iy gives z² + |z|² = 2x² + 2ixy = 0, which forces x = 0 with y arbitrary, so every purely imaginary number works and the answer is infinitely many.
+Source: PYQ-style
+
+132. If ω is a complex cube root of unity, then (1 + ω − ω²)⁷ equals
+(a) −128ω² (b) 128ω (c) −128ω (d) 128ω²
+Answer: (a)
+Solution: The trap is writing 1 + ω − ω² as −2ω instead of −2ω², which flips the final power of ω. Since 1 + ω = −ω², the bracket equals −2ω², and (−2ω²)⁷ = −128ω¹⁴ = −128ω², so the answer is −128ω².
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+133. If |z| = 1 and z ≠ −1, then (z − 1)/(z + 1) is
+(a) purely real (b) equal to 1 (c) purely imaginary (d) of modulus 1
+Answer: (c)
+Solution: The trap is assuming the quotient has modulus 1 just because |z| = 1; for example z = 1 gives 0, whose modulus is not 1. With z = e^(iθ), the quotient simplifies to i tan(θ/2), which has zero real part, so the answer is purely imaginary.
+Source: PYQ-style
+
+134. The argument of (1 − i√3)/(1 + i√3) is
+(a) −π/3 (b) −2π/3 (c) π/3 (d) 2π/3
+Answer: (b)
+Solution: The trap is considering only one factor and answering −π/3. The numerator is 2e^(−iπ/3) and the denominator is 2e^(iπ/3), so the quotient is e^(−2iπ/3), and −2π/3 lies in the principal range (−π, π], so the answer is −2π/3.
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+135. If z₁, z₂, z₃ are vertices of an equilateral triangle inscribed in the circle |z| = 1 with z₁ = 1, then z₁z₂z₃ equals
+(a) i (b) −1 (c) 1 (d) ω
+Answer: (c)
+Solution: The trap is summing the vertices, which gives 0, instead of multiplying them. The vertices are the cube roots of unity 1, ω, ω², spaced by 2π/3 on the unit circle, and 1·ω·ω² = ω³ = 1, so the answer is 1.
+Source: PYQ-style
+
+136. The minimum value of |z − 1| + |z + 1| for any complex number z is
+(a) 1 (b) 4 (c) √2 (d) 2
+Answer: (d)
+Solution: The trap is testing only z = 0 and guessing √2 or misapplying the inequality. By the triangle inequality, |z − 1| + |z + 1| ≥ |(z − 1) − (z + 1)| = 2, with equality for every z on the segment joining −1 and 1, so the answer is 2.
+Source: PYQ-style
+
+137. If (x + iy)^(1/3) = a + ib, then x/a + y/b equals
+(a) 4(a² − b²) (b) 4(a² + b²) (c) a² − b² (d) 2(a² − b²)
+Answer: (a)
+Solution: The trap is adding x + y directly instead of dividing each by a and b first. Cubing gives x = a(a² − 3b²) and y = b(3a² − b²), so x/a + y/b = (a² − 3b²) + (3a² − b²) = 4a² − 4b², so the answer is 4(a² − b²).
+Source: PYQ-style
+
+138. If 1, ω, ω², …, ω⁹ are the ten 10th roots of unity, then the sum 1 + ω + ω² + … + ω⁹ equals
+(a) 10 (b) 1 (c) 0 (d) −1
+Answer: (c)
+Solution: The trap is adding the moduli, each equal to 1, and answering 10; but the roots cancel pairwise as vectors. By Vieta's formulas applied to z¹⁰ − 1 = 0, the coefficient of z⁹ is 0, so the sum of all ten roots is 0, so the answer is 0.
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+139. If |z − 2 − 3i| ≤ 2, then the maximum value of |z| is
+(a) √13 (b) √13 + 2 (c) √13 − 2 (d) 13
+Answer: (b)
+Solution: The trap is answering √13, which is only the distance from the origin to the centre, forgetting the radius. The region is a disc centred at 2 + 3i with radius 2, and the farthest point from the origin is at distance √13 + 2, so the answer is √13 + 2.
+Source: PYQ-style
+
+140. If z satisfies z + |z| = 2 + 8i, then |z|² equals
+(a) 68 (b) 208 (c) 100 (d) 289
+Answer: (d)
+Solution: The trap is stopping at x = −15 and reporting |z|² = 225, forgetting the imaginary part. Since |z| is real, z = x + 8i, and x + √(x² + 64) = 2 gives x = −15, so |z|² = 225 + 64 = 289, so the answer is 289.
+Source: PYQ-style
+
+141. The complex number z = (3 + 4i)/(4 − 3i) has argument
+(a) π/4 (b) π/2 (c) −π/2 (d) 3π/4
+Answer: (b)
+Solution: The trap is estimating arg(3 + 4i) − arg(4 − 3i) numerically and rounding to π/4. Multiplying numerator and denominator by 4 + 3i gives (12 + 9i + 16i − 12)/25 = i exactly, whose argument is π/2, so the answer is π/2.
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+142. If α and β are roots of z² + z + 1 = 0, then α²⁰²⁴ + β²⁰²⁴ equals
+(a) −1 (b) 0 (c) 1 (d) 2
+Answer: (a)
+Solution: The trap is assuming each high power equals 1 and answering 2. The roots are ω and ω², and since 2024 = 3·674 + 2, the powers are ω² and ω⁴ = ω, whose sum is ω + ω² = −1, so the answer is −1.
+Source: PYQ-style
+
+143. The locus of z satisfying arg((z − 1)/(z + 1)) = π/2 is
+(a) the circle x² + y² = 1, excluding ±1 (b) a pair of lines (c) a parabola (d) a straight line
+Answer: (a)
+Solution: The trap is confusing this with |z − 1| = |z + 1| and choosing a straight line. The condition means the segment from −1 to 1 subtends a right angle at z, so by the angle-in-a-semicircle theorem z lies on the circle with diameter joining −1 and 1, excluding the endpoints, so the answer is the circle x² + y² = 1, excluding ±1.
+Source: PYQ-style
+
+144. If z₁ = 2 + 3i and z₂ = 1 − i, then |z₁ + z₂|² + |z₁ − z₂|² equals
+(a) 15 (b) 26 (c) 30 (d) 34
+Answer: (c)
+Solution: The trap is computing only |z₁ + z₂|² = 18 or only |z₁ − z₂|² = 17 and picking a nearby number. By the parallelogram law the sum equals 2(|z₁|² + |z₂|²) = 2(13 + 2) = 30, so the answer is 30.
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+145. The value of iⁿ + i^(n+1) + i^(n+2) + i^(n+3) for any integer n is
+(a) 1 (b) 4i (c) 0 (d) −1
+Answer: (c)
+Solution: The trap is testing only n = 1 and assuming the sum depends on n. Factoring out iⁿ leaves 1 + i + i² + i³ = 1 + i − 1 − i = 0 for every n, so the answer is 0.
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+146. If z = (i − 1)/(i + 1), then z⁴ equals
+(a) i (b) −1 (c) −i (d) 1
+Answer: (d)
+Solution: The trap is stopping after squaring and answering −1. Simplifying, z = (i − 1)(1 − i)/2 = −(1 − i)²/2 = i, so z⁴ = i⁴ = 1, so the answer is 1.
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+147. If the complex numbers z₁, z₂, z₃ satisfy |z₁| = |z₂| = |z₃| = 1 and z₁ + z₂ + z₃ = 0, then z₁² + z₂² + z₃² equals
+(a) 0 (b) 1 (c) 3 (d) −3
+Answer: (a)
+Solution: The trap is assuming the squares sum to 3 because each number has modulus 1. Conjugating the given sum and using 1/zₖ = z̄ₖ gives z₁z₂ + z₂z₃ + z₃z₁ = 0, so z₁² + z₂² + z₃² = (z₁ + z₂ + z₃)² − 2(z₁z₂ + z₂z₃ + z₃z₁) = 0, so the answer is 0.
+Source: PYQ-style
+
+148. The number of complex numbers z satisfying z³ = z̄ is
+(a) 3 (b) 4 (c) 2 (d) 5
+Answer: (d)
+Solution: The trap is forgetting z = 0 and answering 4. Taking moduli gives |z| = 0 or |z| = 1; z = 0 works, and for |z| = 1 multiplying by z gives z⁴ = |z|² = 1, which has 4 roots, so the total is 5, so the answer is 5.
+Source: PYQ-style
+
+149. If z satisfies |z − 3i| = 3, then the maximum value of |z + 1| is
+(a) √10 (b) 3 + √10 (c) 6 (d) √13
+Answer: (b)
+Solution: The trap is answering √10, which is only the distance from −1 to the centre of the circle. The locus is the circle centred at 3i with radius 3, and the farthest point from −1 is at distance |3i − (−1)| + 3 = √10 + 3, so the answer is 3 + √10.
+Source: PYQ-style
+
+150. If (1 + i√3)ⁿ is purely real for a positive integer n, then the smallest such n is
+(a) 2 (b) 4 (c) 3 (d) 6
+Answer: (c)
+Solution: The trap is answering 6 by confusing "purely real" with "positive real"; n = 3 gives −8, which is real though negative. Since 1 + i√3 = 2e^(iπ/3), the power is 2ⁿe^(inπ/3), real when nπ/3 is a multiple of π, i.e., n is a multiple of 3, so the answer is 3.
+Source: NCERT Class 11 Mathematics, Chapter 5

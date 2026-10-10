@@ -1,0 +1,27 @@
+```mermaid
+graph TD
+    A["एक शब्द प्रतिस्थापन<br>One-word Substitution"] --> B["मूल शब्द<br>Roots"]
+    A --> C["प्रमुख श्रेणियाँ<br>Categories"]
+    A --> D["परीक्षक के जाल<br>Traps"]
+    A --> E["रणनीति<br>Strategy"]
+
+    B --> B1["Greek Roots<br>auto = स्वयं<br>bio = जीवन<br>phobia = डर"]
+    B --> B2["Latin Roots<br>omni = सब<br>mort = मृत्यु<br>manu = हाथ"]
+    B --> B3["प्रत्यय<br>-cide = हत्या<br>-phile = प्रेमी<br>-cracy = शासन"]
+
+    C --> C1["व्यक्ति / लोग<br>Optimist, Pessimist<br>Introvert, Extrovert"]
+    C --> C2["डर / Phobias<br>Claustrophobia<br>Hydrophobia"]
+    C --> C3["हत्या / Killing<br>Homicide, Suicide<br>Regicide, Fratricide"]
+    C --> C4["शासन / Government<br>Democracy, Autocracy<br>Bureaucracy"]
+    C --> C5["अध्ययन / Study<br>Biology, Zoology<br>Philology"]
+    C --> C6["समूह / Collection<br>Bouquet, Fleet<br>Swarm, Herd"]
+
+    D --> D1["मिलते-जुलते शब्द<br>Optimist ≠ Optician<br>Philanthropist ≠ Philatelist"]
+    D --> D2["Sound-Right जाल<br>कान से सही लगने वाला<br>गलत विकल्प"]
+    D --> D3["Over-thinking<br>सीधा तथ्यात्मक प्रश्न<br>ज़्यादा सोचकर गलत"]
+
+    E --> E1["15 सेकंड नियम<br>तथ्यात्मक OWS<br>तुरंत उत्तर"]
+    E --> E2["Root से अनुमान<br>अज्ञात शब्द = मूल + प्रत्यय<br>तोड़कर समझो"]
+    E --> E3["Skip Strategy<br>दोनों विकल्प अज्ञात हों<br>तो छोड़ो, बाद में आओ"]
+    E --> E4["दोहराव<br>2 दिन बाद रिवीज़न<br>Flashcards से"]
+```

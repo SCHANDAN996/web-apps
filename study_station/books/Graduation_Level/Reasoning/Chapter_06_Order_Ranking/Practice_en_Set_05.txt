@@ -1,0 +1,151 @@
+Questions 101–120: Medium | Questions 121–125: Hard
+
+101. In a row of 40 students, Ravi is 12th from the left end. What is his position from the right end?
+(a) 28th (b) 30th (c) 27th (d) 29th
+Answer: (d)
+Solution: The trap is computing 40 − 12 = 28, which forgets that Ravi himself must be counted. Position from right = Total − Position from left + 1 = 40 − 12 + 1 = 29, so the answer is 29th.
+Source: PYQ-style
+
+102. In a class, Sita ranks 8th from the top and 15th from the bottom. How many students are there in the class?
+(a) 21 (b) 23 (c) 24 (d) 22
+Answer: (d)
+Solution: The trap is adding 8 + 15 = 23, which counts Sita twice. Total = 8 + 15 − 1 = 22, so the answer is 22.
+Source: PYQ-style
+
+103. In a row of boys, A is 10th from the left and B is 9th from the right. If they interchange their positions, A becomes 15th from the left. How many boys are there in the row?
+(a) 25 (b) 24 (c) 22 (d) 23
+Answer: (d)
+Solution: After interchange, A sits at B's original seat, so that seat is 15th from the left and 9th from the right. The trap is using A's old rank 10 with 9, which mixes two different seats. Total = 15 + 9 − 1 = 23, so the answer is 23.
+Source: PYQ-style
+
+104. Ram is taller than Shyam but shorter than Mohan. Geeta is taller than Mohan. Who is the tallest?
+(a) Ram (b) Shyam (c) Mohan (d) Geeta
+Answer: (d)
+Solution: The order is Geeta > Mohan > Ram > Shyam. The trap is picking Mohan because he is taller than two people, but Geeta stands above Mohan, so the answer is Geeta.
+Source: PYQ-style
+
+105. In a queue, Priya is 7th from the front and Neha is 12th from the back. If there are 25 people in the queue, how many people stand between Priya and Neha?
+(a) 6 (b) 5 (c) 7 (d) 8
+Answer: (a)
+Solution: Neha's position from the front = 25 − 12 + 1 = 14. The trap is computing 14 − 7 = 7, which counts one of the two girls. People between = 14 − 7 − 1 = 6, so the answer is 6.
+Source: PYQ-style
+
+106. In a row of 36 students, Sunil is 15th from the left end. What is his position from the right end?
+(a) 22nd (b) 20th (c) 23rd (d) 21st
+Answer: (a)
+Solution: The trap is computing 36 − 15 = 21, which omits Sunil himself. Position from right = 36 − 15 + 1 = 22, so the answer is 22nd.
+Source: PYQ-style
+
+107. In a row of 50 students, Kiran is 18th from the left and Manoj is 20th from the right. How many students are between them?
+(a) 11 (b) 12 (c) 14 (d) 13
+Answer: (b)
+Solution: Manoj from the left = 50 − 20 + 1 = 31. The trap is computing 31 − 18 = 13, which includes one of the two boys. Students between = 31 − 18 − 1 = 12, so the answer is 12.
+Source: PYQ-style
+
+108. A is heavier than B. C is lighter than B. D is heavier than A but lighter than E. Who is the lightest?
+(a) B (b) C (c) D (d) A
+Answer: (b)
+Solution: The order is E > D > A > B > C. The trap is picking B because C is compared only with B, but C is lighter than B, so the answer is C.
+Source: PYQ-style
+
+109. In a class of 60 students, 45 students passed in Maths and the last passed student is 45th from the top. If Renu got 30th rank, how many passed students rank below her?
+(a) 14 (b) 16 (c) 15 (d) 17
+Answer: (c)
+Solution: Passed students occupy ranks 1 to 45. The trap is using the class strength 60 and computing 60 − 30 = 30, which includes failed students. Passed students below Renu = 45 − 30 = 15, so the answer is 15.
+Source: PYQ-style
+
+110. In a row, X is 16th from either end of the row. How many persons are there in the row?
+(a) 30 (b) 32 (c) 31 (d) 33
+Answer: (c)
+Solution: The trap is adding 16 + 16 = 32, which counts X twice. Total = 16 + 16 − 1 = 31, so the answer is 31.
+Source: PYQ-style
+
+111. Five friends scored different marks. Anil scored more than Bala. Chitra scored less than Bala. Deepak scored more than Anil. Esha scored more than Chitra but less than Bala. Who scored the second highest?
+(a) Bala (b) Deepak (c) Anil (d) Esha
+Answer: (c)
+Solution: The order is Deepak > Anil > Bala > Esha > Chitra. The trap is picking Bala because she beats two people, but Anil is above Bala and only Deepak is above Anil, so the answer is Anil.
+Source: PYQ-style
+
+112. In a row of girls, Asha is 12th from the left and Bina is 15th from the right. If they interchange positions, Asha becomes 18th from the left. How many girls are in the row?
+(a) 31 (b) 32 (c) 33 (d) 30
+Answer: (b)
+Solution: After interchange, Asha sits at Bina's original seat, which is 18th from the left and 15th from the right. The trap is using Asha's old rank 12 with 15, giving 26, which mixes two seats. Total = 18 + 15 − 1 = 32, so the answer is 32.
+Source: PYQ-style
+
+113. In an examination, Rakesh's rank is 13th from the top and 28th from the bottom among the students who passed. 6 students failed and 4 did not appear. How many students were enrolled in total?
+(a) 46 (b) 50 (c) 48 (d) 52
+Answer: (b)
+Solution: Passed students = 13 + 28 − 1 = 40. The trap is stopping at 40 or adding only the failed students; the absentees must also be counted. Total enrolled = 40 + 6 + 4 = 50, so the answer is 50.
+Source: PYQ-style
+
+114. In a row of 35 children, M is 15th from the right end and there are 10 children between M and N. What is N's position from the left end if N is to the left of M?
+(a) 10th (b) 11th (c) 9th (d) 12th
+Answer: (a)
+Solution: M from the left = 35 − 15 + 1 = 21. The trap is subtracting only 10, giving 11, but with 10 children between them N is 11 places away. N's position = 21 − 10 − 1 = 10, so the answer is 10th.
+Source: PYQ-style
+
+115. Madan is taller than Naveen. Om is taller than Madan. Prakash is shorter than Naveen. Who is the tallest?
+(a) Naveen (b) Madan (c) Om (d) Prakash
+Answer: (c)
+Solution: The order is Om > Madan > Naveen > Prakash. The trap is picking Madan because he appears in two comparisons, but Om is taller than Madan, so the answer is Om.
+Source: PYQ-style
+
+116. In a class, Ajay is ranked 10th from the top. Vijay is 7 ranks below Ajay. If Vijay is 25th from the bottom, how many students are in the class?
+(a) 40 (b) 42 (c) 43 (d) 41
+Answer: (d)
+Solution: Vijay's rank from the top = 10 + 7 = 17. The trap is using Ajay's rank directly: 10 + 25 − 1 = 34, which ignores the 7-rank gap. Total = 17 + 25 − 1 = 41, so the answer is 41.
+Source: PYQ-style
+
+117. Among five boxes, box A is heavier than box B. Box C is lighter than box B. Box D is heavier than box A. Box E is lighter than box C. Which box is the second heaviest?
+(a) B (b) A (c) D (d) C
+Answer: (b)
+Solution: The order is D > A > B > C > E. The trap is picking D, which is the heaviest, not the second heaviest. The box just below D is A, so the answer is A.
+Source: PYQ-style
+
+118. In a row of 45 students, the student who is 12th from the left and the student who is 18th from the right exchange places. What is the new position from the right of the student who was originally 12th from the left?
+(a) 17th (b) 28th (c) 18th (d) 34th
+Answer: (c)
+Solution: After the exchange, that student occupies the seat which is 18th from the right, so his position from the right becomes 18th. The trap is recomputing 45 − 12 + 1 = 34, which gives his old position from the right, not the new one, so the answer is 18th.
+Source: PYQ-style
+
+119. Rohan is taller than Kunal. Mohan is shorter than Kunal. Sohan is taller than Rohan. Who is the shortest?
+(a) Mohan (b) Kunal (c) Rohan (d) Sohan
+Answer: (a)
+Solution: The order is Sohan > Rohan > Kunal > Mohan. The trap is picking Kunal because Mohan is defined only relative to him, but Mohan is shorter than Kunal, so the answer is Mohan.
+Source: PYQ-style
+
+120. In a queue of 30 people, Asha is 8th from the front. Two people ahead of Asha leave the queue. What is Asha's new position from the front?
+(a) 5th (b) 8th (c) 10th (d) 6th
+Answer: (d)
+Solution: When two people ahead of her leave, her position improves by 2: 8 − 2 = 6. The trap is adding 2 to get 10, which is the wrong direction since people ahead left, so the answer is 6th.
+Source: PYQ-style
+
+121. In a row of students, A is 10th from the left and B is 17th from the right. When they interchange positions, A becomes 21st from the left. How many students are in the row?
+(a) 37 (b) 38 (c) 36 (d) 35
+Answer: (a)
+Solution: After interchange, A occupies B's original seat, so that seat is 21st from the left and 17th from the right. The trap is combining A's old rank 10 with B's new position, which mixes two different seats. Total = 21 + 17 − 1 = 37, so the answer is 37.
+Source: PYQ-style
+
+122. In a class of 45 students, Seema is 12th from the top. How many students rank below her?
+(a) 32 (b) 33 (c) 35 (d) 34
+Answer: (b)
+Solution: The trap is computing 45 − 12 + 1 = 34, which gives her position from the bottom, not the count of students below her. Students below = 45 − 12 = 33, so the answer is 33.
+Source: PYQ-style
+
+123. Six persons P, Q, R, S, T, U have different heights. P is taller than Q but shorter than R. S is taller than R. T is shorter than Q but taller than U. Who is the third tallest?
+(a) P (b) R (c) Q (d) S
+Answer: (a)
+Solution: The order is S > R > P > Q > T > U. The trap is picking R because it is taller than P and Q, but S is above R, making R second and P third, so the answer is P.
+Source: PYQ-style
+
+124. In a row of 40 persons, A is 14th from the left. B is to the right of A with 11 persons between them, and C is exactly in the middle of A and B. What is C's position from the right end?
+(a) 21st (b) 20th (c) 22nd (d) 19th
+Answer: (a)
+Solution: B's position from the left = 14 + 11 + 1 = 26. C is midway: (14 + 26)/2 = 20th from the left. The trap is reporting 20 as the final answer, but the question asks from the right: 40 − 20 + 1 = 21, so the answer is 21st.
+Source: PYQ-style
+
+125. In a merit list of 80 candidates, Kavita is 25th from the top. After 5 candidates above her and 3 candidates below her are removed for document issues, and 2 new candidates are inserted just above Kavita, what is her new rank from the top?
+(a) 21st (b) 23rd (c) 22nd (d) 20th
+Answer: (c)
+Solution: Removing 5 candidates above her moves her up to 25 − 5 = 20th, and inserting 2 above her pushes her to 20 + 2 = 22nd. The trap is adjusting for the 3 candidates removed below her, which does not change her rank, so the answer is 22nd.
+Source: PYQ-style

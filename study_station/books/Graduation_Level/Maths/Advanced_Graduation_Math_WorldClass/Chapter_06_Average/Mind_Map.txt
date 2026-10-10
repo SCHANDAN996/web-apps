@@ -1,0 +1,38 @@
+```mermaid
+graph TD
+    A["औसत / Average"] --> B["मूल सूत्र / Basic Formula"]
+    A --> C["प्रकार / Types"]
+    A --> D["मिश्रण और प्रतिस्थापन /<br>Replacement & Mixture"]
+    A --> E["भारित औसत / Weighted Average"]
+    A --> F["गति-आधारित / Speed-based"]
+    A --> G["विविध / Miscellaneous"]
+
+    B --> B1["औसत = योग ÷ संख्या<br>Avg = Sum ÷ Count"]
+    B --> B2["योग = औसत × संख्या<br>Sum = Avg × Count"]
+    B --> B3["संख्या = योग ÷ औसत<br>Count = Sum ÷ Avg"]
+
+    C --> C1["प्राकृत संख्याएँ / Natural Numbers<br>पहली n का औसत = (n+1)/2"]
+    C --> C2["सम संख्याएँ / Even Numbers<br>पहली n सम का औसत = n+1"]
+    C --> C3["विषम संख्याएँ / Odd Numbers<br>पहली n विषम का औसत = n"]
+    C --> C4["क्रमागत संख्याएँ / Consecutive<br>औसत = मध्य पद / Middle Term"]
+    C --> C5["समांतर श्रेणी / AP<br>औसत = (पहला + अंतिम)/2"]
+
+    D --> D1["सदस्य जुड़ना / Person Joins<br>औसत बदल सकता है<br>(नए सदस्य के मान पर निर्भर)"]
+    D --> D2["सदस्य छोड़ना / Person Leaves<br>औसत बदल सकता है<br>(छोड़ने वाले सदस्य के मान पर निर्भर)"]
+    D --> D3["प्रतिस्थापन / Replacement<br>नया = पुराना ± n×(औसत में परिवर्तन)"]
+    D --> D4["आयु समस्या / Age Problems<br>वर्षों बाद/पहले का औसत"]
+
+    E --> E1["सूत्र / Formula<br>(w₁x₁+w₂x₂)/(w₁+w₂)"]
+    E --> E2["क्रिकेट / Cricket<br>पारियों × रन"]
+    E --> E3["वर्ग-मिश्रण / Class Mix<br>छात्रों की संख्या भार के रूप में"]
+    E --> E4["एलीगेशन / Alligation<br>अनुपात = (d−m):(m−c)"]
+
+    F --> F1["औसत गति / Average Speed<br>समान दूरी: 2xy/(x+y)"]
+    F --> F2["असमान दूरी / Unequal Distance<br>कुल दूरी ÷ कुल समय"]
+    F --> F3["तीन गतियाँ / Three Speeds<br>समान दूरी: 3xyz/(xy+yz+zx)"]
+
+    G --> G1["गलत प्रविष्टि / Wrong Entry<br>सुधार = सही − गलत"]
+    G --> G2["क्रमागत पद ज्ञात करना /<br>Finding Consecutive Terms"]
+    G --> G3["अधिकतम/न्यूनतम / Max-Min<br>शेष को न्यूनतम रखें"]
+    G --> G4["औसत में परिवर्तन /<br>Change in Average<br>Δ = कुल परिवर्तन ÷ संख्या"]
+```

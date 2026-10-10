@@ -121,6 +121,7 @@ def export_jobs_js(jobs, website_dir, limit=200):
     """
     import json
     from datetime import datetime, timedelta
+    from security import safe_url
 
     type_map = {
         'LATEST_JOB': 'latest', 'RESULT': 'results',
@@ -145,7 +146,7 @@ def export_jobs_js(jobs, website_dir, limit=200):
             'category': chip_map.get(job.category or '', 'govt'),
             'isNew': bool(job.created_at and job.created_at > new_cutoff),
             'url': f'jobs/job_{job.id}.html',
-            'official': job.official_url or job.application_url,
+            'official': safe_url(job.official_url) or safe_url(job.application_url),
         })
 
     js_path = os.path.join(website_dir, 'js', 'jobs_data.js')

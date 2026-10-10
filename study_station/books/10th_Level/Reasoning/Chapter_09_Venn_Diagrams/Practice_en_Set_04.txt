@@ -1,0 +1,151 @@
+Questions 76–90: Medium | Questions 91–100: Hard
+
+76. Which of the following Venn diagrams best represents the relationship among: Sparrow, Bird, Ostrich?
+(a) Sparrow inside Bird, Ostrich inside Bird, no overlap between Sparrow and Ostrich (b) Sparrow inside Ostrich, Ostrich inside Bird (c) Three separate circles (d) Sparrow and Ostrich overlapping inside Bird
+Answer: (a)
+Solution: Both sparrow and ostrich are distinct types of birds. They are subsets of Bird, and they are disjoint (a sparrow cannot be an ostrich). So the correct diagram is one large circle ‘Bird’ containing two separate smaller circles.
+Source: PYQ-style
+
+77. Choose the Venn diagram that correctly depicts: Painter, Artist, Musician.
+(a) Painter inside Artist, Musician inside Artist, no overlap (b) All three overlapping (c) Painter inside Artist, Musician overlapping Artist (d) Painter inside Musician, Artist separate
+Answer: (b)
+Solution: All painters and musicians are artists. A painter can also be a musician. So the correct diagram: three intersecting circles, all overlapping, with Artist being a broader set but in standard logical Venn, all three can mutually overlap.
+Source: PYQ-style
+
+78. In a group of 180 people, 100 like tea, 80 like coffee, 40 like both. How many like neither?
+(a) 20 (b) 30 (c) 40 (d) 50
+Answer: (c)
+Solution: n(T ∪ C) = 100 + 80 – 40 = 140. Neither = 180 – 140 = 40.
+Source: PYQ-style
+
+79. In the given Venn diagram, circle P = Professor, circle Q = Researcher, circle R = Scientist. Numbers: only P=14, only Q=10, only R=16, P∩Q only=6, Q∩R only=7, P∩R only=5, all three=4. How many are professors but not researchers?
+(a) 23 (b) 15 (c) 21 (d) 19
+Answer: (d)
+Solution: Professors not researchers = only P + (P∩R only) = 14 + 5 = 19. Note: all three includes researchers, so excluded.
+Source: PYQ-style
+
+80. [Trap] Which Venn diagram represents the relationship among Fan, Table Fan, Ceiling Fan?
+(a) Table Fan and Ceiling Fan inside Fan, separate (b) Table Fan and Ceiling Fan inside Fan, overlapping (c) Table Fan inside Ceiling Fan, both inside Fan (d) Three overlapping circles
+Answer: (a)
+Solution: Both table fan and ceiling fan are distinct, mutually exclusive types of fans. Thus, both are non-overlapping subsets inside the larger circle representing Fan.
+Source: PYQ-style
+
+81. Statements: Some actors are dancers. All dancers are singers. No singer is a painter. Conclusions: I. Some actors are singers. II. Some dancers are not painters.
+(a) Only I follows (b) Both I and II follow (c) Only II follows (d) Neither I nor II follows
+Answer: (b)
+Solution: I: Some actors are dancers, all dancers are singers → those actors are singers. True. II: All dancers are singers, and singers and painters are disjoint. So no dancer is a painter, which implies some dancers are not painters (in fact, all are not). True.
+Source: PYQ-style
+
+82. In the given Venn diagram, triangle = Engineers, rectangle = Managers, circle = Post‑graduates. Numbers: only Engineers=11, only Managers=9, only PG=13, Engg & Mgrs only=5, Mgrs & PG only=7, Engg & PG only=6, all three=3. How many are neither engineers nor managers?
+(a) 20 (b) 16 (c) 13 (d) 22
+Answer: (c)
+Solution: Neither engineers nor managers = only PG (since PG is the circle, and that region is outside both engineer and manager sets) = 13.
+Source: PYQ-style
+
+83. Which Venn diagram fits Fruits, Vegetables, Potatoes?
+(a) Potato inside Fruits, Vegetables separate (b) Fruits and Vegetables overlapping, Potato inside both (c) Potato inside Vegetables, Fruits overlapping Vegetables (d) Potato inside Vegetables, Fruits separate
+Answer: (d)
+Solution: Potato is a vegetable. Fruits and vegetables are distinct biological categories (though some overlap like tomatoes, but in standard class logic, they are disjoint sets in these exam questions). So Potato inside Vegetables, and Fruits is separate.
+Source: PYQ-style
+
+84. Statements: All books are pages. Some pages are words. No word is a letter. Conclusions: I. Some books are words. II. Some pages are not letters.
+(a) Only II follows (b) Only I follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (a)
+Solution: I: Books ⊆ Pages. Some pages are words, but books may not overlap words. Not definite. II: Those pages that are words are not letters. So some pages are not letters. True.
+Source: PYQ-style
+
+85. In a group of 250 people, 140 can drive, 110 can swim, 60 can do both. How many can do neither?
+(a) 40 (b) 60 (c) 50 (d) 70
+Answer: (b)
+Solution: n(D ∪ S) = 140 + 110 – 60 = 190. Neither = 250 – 190 = 60.
+Source: PYQ-style
+
+86. [Trap] Select the Venn diagram that represents the relationship among Car, Steering, Tyre.
+(a) Car inside Steering, Tyre separate (b) Three overlapping circles (c) Steering and Tyre inside Car, separate (d) Steering inside Tyre, Tyre inside Car
+Answer: (c)
+Solution: Steering and tyre are distinct parts of a car; they are not overlapping categories. Both are subsets of Car, and they are disjoint. Trap: Many might think they are separate from Car or overlap.
+Source: PYQ-style
+
+87. Statements: Some shirts are cotton. All cotton is fabric. Some fabric is synthetic. Conclusions: I. Some shirts are fabric. II. Some synthetic is cotton.
+(a) Only II follows (b) Both I and II follow (c) Neither I nor II follows (d) Only I follows
+Answer: (d)
+Solution: I: Some shirts are cotton, all cotton is fabric → those shirts are fabric. True. II: Some fabric is synthetic, but that synthetic fabric may not be cotton. No definite overlap between synthetic and cotton. False.
+Source: PYQ-style
+
+88. Which Venn diagram correctly shows Mango, Fruit, Sweet?
+(a) Mango inside Fruit, Sweet overlapping Fruit (b) Mango inside Fruit, Sweet inside Fruit (c) Mango inside Fruit, Sweet separate (d) Mango and Sweet inside Fruit, overlapping
+Answer: (a)
+Solution: All mangoes are fruits. Sweet is a taste; some fruits are sweet, some are not. So Sweet is a set that partially overlaps Fruit.
+Source: PYQ-style
+
+89. In the given figure, circle A = Males, circle B = Employed, circle C = Urban. Numbers: only A=17, only B=14, only C=19, A∩B only=8, B∩C only=6, A∩C only=9, all three=5. How many are employed urban males?
+(a) 14 (b) 5 (c) 22 (d) 11
+Answer: (b)
+Solution: Employed urban males = A ∩ B ∩ C = all three region = 5.
+Source: PYQ-style
+
+90. Statements: All buses are vehicles. Some vehicles are electric. No electric vehicle is diesel. Conclusions: I. Some buses are electric. II. No bus is diesel.
+(a) Only I follows (b) Only II follows (c) Neither I nor II follows (d) Both I and II follow
+Answer: (c)
+Solution: I: Buses may be in the non-electric part of vehicles. Not definite. II: Buses are vehicles, but they could be diesel if they are not electric. No prohibition. So neither follows.
+Source: PYQ-style
+
+91. Which option best represents Crow, Bird, Tree?
+(a) Crow inside Bird, Tree overlapping Bird (b) Crow inside Tree, Bird separate (c) Crow and Tree inside Bird (d) Crow inside Bird, Tree separate
+Answer: (d)
+Solution: All crows are birds. Tree is a distinct class, not a subclass or superclass of birds. So Crow inside Bird, Tree separate.
+Source: PYQ-style
+
+92. In a school, 65% students play cricket, 55% play hockey, 30% play both. What percentage play at least one?
+(a) 90% (b) 70% (c) 85% (d) 95%
+Answer: (a)
+Solution: n(C ∪ H) = 65 + 55 – 30 = 90%.
+Source: PYQ-style
+
+93. [Trap] Which Venn diagram shows Doctor, Engineer, Profession?
+(a) Doctor inside Engineer, both inside Profession (b) Doctor and Engineer inside Profession, separate (c) Profession inside Doctor, Engineer separate (d) Doctor inside Profession, Engineer separate
+Answer: (b)
+Solution: Both doctor and engineer are professions. So they are subsets of Profession, and they are distinct, so disjoint. Trap: Some might pick (D) thinking Engineer is not a profession? No, it is. So both are inside.
+Source: PYQ-style
+
+94. Statements: Some pens are blue. All blue items are dark. No dark thing is light. Conclusions: I. Some pens are dark. II. Some pens are not light.
+(a) Only I follows (b) Only II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (c)
+Solution: I: Some pens are blue, all blue are dark → those pens are dark. True. II: Those dark pens are not light. So some pens are not light. True.
+Source: PYQ-style
+
+95. In the Venn diagram, circle X = Married, circle Y = Employed, circle Z = Educated. Numbers: only X=6, only Y=8, only Z=10, X∩Y only=4, Y∩Z only=5, X∩Z only=3, all three=2. How many are married but not educated?
+(a) 8 (b) 12 (c) 14 (d) 10
+Answer: (d)
+Solution: Married but not educated = only X (6) + (X∩Y only) (4) = 10. (X∩Z only and all three are educated, so excluded.)
+Source: PYQ-style
+
+96. Choose the diagram for Milk, Water, Liquid.
+(a) Milk and Water inside Liquid, no overlap (b) Milk and Water inside Liquid, overlapping (c) Milk inside Liquid, Water separate (d) Water inside Milk, Milk inside Liquid
+Answer: (a)
+Solution: Milk and water are both liquids, but they are distinct substances; so they are disjoint subsets of Liquid.
+Source: PYQ-style
+
+97. Statements: All bats are balls. No ball is a stump. Some stumps are wickets. Conclusions: I. Some wickets are not balls. II. No bat is a stump.
+(a) Only I follows (b) Both I and II follow (c) Only II follows (d) Neither I nor II follows
+Answer: (b)
+Solution: II: Bat ⊆ Ball, Ball ∩ Stump = ∅ → Bat ∩ Stump = ∅. True. I: Some stumps are wickets, and stumps are not balls. So those wickets are not balls. Hence some wickets are not balls. True.
+Source: PYQ-style
+
+98. In a college, 300 students study Maths, 250 study Physics, 150 study both. Total students 500. How many study neither?
+(a) 50 (b) 75 (c) 100 (d) 125
+Answer: (c)
+Solution: n(M ∪ P) = 300+250-150 = 400. Neither = 500-400 = 100.
+Source: PYQ-style
+
+99. Which Venn diagram represents Keyboard, Monitor, Computer?
+(a) Computer inside Keyboard, Monitor separate (b) Keyboard inside Monitor, Monitor inside Computer (c) Three separate circles (d) Keyboard and Monitor inside Computer, separate
+Answer: (d)
+Solution: Keyboard and monitor are parts/components of a computer. In class logic, they are subsets of Computer (or parts of it). They are distinct, so disjoint subsets.
+Source: PYQ-style
+
+100. [Trap] Statements: All teachers are graduates. No graduate is a student. Some students are athletes. Conclusions: I. No teacher is a student. II. Some athletes are not graduates.
+(a) Only I follows (b) Both I and II follow (c) Only II follows (d) Neither I nor II follows
+Answer: (b)
+Solution: I: Teacher ⊆ Graduate, Graduate ∩ Student = ∅ → Teacher ∩ Student = ∅. True. II: Some students are athletes, and students are not graduates (since no graduate is student). So those athletes (who are students) are not graduates. Thus some athletes are not graduates. True. Trap: The phrase “some students are athletes” might lead one to think athletes could overlap graduates too, but the specific student-athletes are definitely not graduates. So II follows.
+Source: PYQ-style

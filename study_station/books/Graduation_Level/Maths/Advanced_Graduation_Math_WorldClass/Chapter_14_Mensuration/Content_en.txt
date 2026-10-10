@@ -1,0 +1,174 @@
+# Mensuration — Measuring the World Around You
+
+## Learning Goals
+
+By the end of this chapter, you will be able to:
+
+- Compute areas and perimeters of all standard 2D figures (triangles, quadrilaterals, circles, polygons) without hesitation.
+- Master 3D mensuration: surface areas and volumes of prisms, cylinders, cones, spheres, pyramids and frustums.
+- Handle combination solids, hollow objects, and "melted-and-recast" problems.
+- Apply shortcut ratios (scaling laws) that solve 30-second questions in 10 seconds.
+- Spot the classic traps examiners set in SSC CGL Tier-II, IBPS PO Mains, CAT and CSAT.
+
+---
+
+## The Hook: A ₹40 Lakh Mistake
+
+In 2019, a contractor in Pune was hired to paint a cylindrical water tank. He measured the tank's diameter as 4 m and height as 6 m, and calculated the area to be painted as π × 4 × 6 = 24π ≈ 75.4 m². He quoted his price accordingly.
+
+He lost money on the job. Why?
+
+Because the curved surface area of a cylinder is **2πrh** — and r is the *radius*, not the diameter. The true area was 2 × π × 2 × 6 = 24π… wait, that matches. His real mistake? He forgot the **top circular lid** (πr²) and, worse, quoted for the *inside* painting too, which needed the inner radius. One chapter of mensuration, ignored, cost him lakhs.
+
+Mensuration is not "formula rattna." It is the mathematics of *physical space* — and examiners love it precisely because one wrong letter (r vs d, CSA vs TSA) destroys the whole answer.
+
+---
+
+## "But I Keep Forgetting Formulas…"
+
+Every aspirant says this. Here is the truth: you forget formulas because you memorise them as *strings of symbols*. Your brain stores *stories and shapes*, not strings.
+
+So in this chapter, every formula comes attached to a picture in words. Learn the picture, and the formula rebuilds itself in the exam hall — even under stress.
+
+🧠 **Active Recall:** Before reading further — write down, from memory, the area of a trapezium and the volume of a cone. Check yourself in 2 minutes.
+
+---
+
+## Part 1: The 2D World — Areas and Perimeters
+
+### Triangles: The Mother of All Shapes
+
+Every polygon can be cut into triangles. So triangle formulas are the foundation.
+
+- **Basic:** Area = ½ × base × height
+- **Heron's formula** (when all three sides a, b, c are known):
+  - s = (a + b + c)/2 (semi-perimeter)
+  - Area = √[s(s−a)(s−b)(s−c)]
+- **Equilateral triangle** (side a): Area = (√3/4) a²; Height = (√3/2) a
+- **Right triangle:** Area = ½ × (product of the two legs)
+
+**Advanced nugget:** For any triangle, Area = ½ ab·sinC (two sides and the included angle). CSAT and CAT love this when the height is not given.
+
+### Quadrilaterals
+
+- **Rectangle:** Area = l × b; Perimeter = 2(l + b); Diagonal = √(l² + b²)
+- **Square:** Area = a²; Diagonal = a√2 (so Area = d²/2 — a favourite shortcut!)
+- **Parallelogram:** Area = base × height (the *perpendicular* height, not the slant side — classic trap)
+- **Rhombus:** Area = ½ × d₁ × d₂ (product of diagonals, halved)
+- **Trapezium:** Area = ½ × (sum of parallel sides) × height
+
+🧠 **Active Recall:** A rhombus and a square both have all sides equal. Why does the rhombus have a *smaller* area for the same side length? (Hint: think of the square being "pushed over" — what shrinks?)
+
+### Circles
+
+- Area = πr²; Circumference = 2πr
+- **Sector** (angle θ in degrees): Area = (θ/360) × πr²; Arc length = (θ/360) × 2πr
+- **Segment:** Sector area − triangle area
+
+**Memory trick — "Pie Are Square":** People say "pie are round," but mathematically, **π r²** — "pie are squared." You will never swap Area and Circumference again.
+
+---
+
+## Part 2: The Scaling Laws — Your Secret Weapon
+
+This is where Advanced-level thinking begins.
+
+**If all linear dimensions of a figure are multiplied by k:**
+- Perimeter scales by **k**
+- Area scales by **k²**
+- Volume scales by **k³**
+
+Example: Radius of a sphere is doubled (k = 2). Surface area becomes 4×, volume becomes 8×. No calculation needed — this single idea solves dozens of exam questions.
+
+🧠 **Active Recall:** The side of a cube is increased by 50% (k = 1.5). By what percent does its volume increase? (Answer: 1.5³ = 3.375 → 237.5% increase. Most students wrongly say 150%.)
+
+---
+
+## Part 3: The 3D World — Surface Area and Volume
+
+### The Big Family Tree
+
+**Prism family (uniform cross-section):** Volume = (base area) × height. That's it. Cube, cuboid, cylinder — all are prisms.
+
+- **Cuboid:** V = lbh; TSA = 2(lb + bh + hl); Diagonal = √(l² + b² + h²)
+- **Cube:** V = a³; TSA = 6a²; Diagonal = a√3
+- **Cylinder:** V = πr²h; CSA = 2πrh; TSA = 2πr(h + r)
+
+**Pointed family (comes to an apex):** Volume = ⅓ × (base area) × height. The "one-third" is the soul of this family.
+
+- **Cone:** V = ⅓πr²h; CSA = πrl where l = √(r² + h²); TSA = πr(l + r)
+- **Pyramid:** V = ⅓ × base area × h
+
+**Sphere family:**
+- **Sphere:** V = (4/3)πr³; Surface area = 4πr²
+- **Hemisphere:** V = (2/3)πr³; CSA = 2πr²; TSA = 3πr² (curved + flat circle)
+
+🧠 **Active Recall:** Why is a hemisphere's TSA = 3πr² and not 2πr²? Say the reason out loud before checking above.
+
+### The Frustum — The Examiner's Darling
+
+Cut the top off a cone parallel to the base: you get a **frustum** (think of a bucket).
+
+- V = (⅓)πh(R² + r² + Rr)
+- CSA = πl(R + r), where l = √(h² + (R−r)²)
+
+Buckets, glasses, and lampshades in exams are always frustums.
+
+---
+
+## Part 4: The Three Classic Problem Types
+
+### Type 1: Melted and Recast
+
+"A metallic sphere of radius 9 cm is melted and recast into small spheres of radius 3 cm. How many?"
+
+**Golden rule: Volume is conserved.** Number = Big volume / Small volume = (9/3)³ = 27. (Notice — the scaling law again!)
+
+### Type 2: Surface Area Changes on Joining/Cutting
+
+When two cubes are joined, two faces disappear from the exposed surface. When a cube is cut, new faces appear. Always track *which faces* are lost or gained — never recompute from scratch.
+
+### Type 3: Cost, Painting, Fencing, Carpeting
+
+These are mensuration wearing a disguise. Convert words to geometry:
+- "Carpet the floor" → area of rectangle
+- "Paint the walls" → area of 4 walls = 2h(l + b) — no floor, no ceiling!
+- "Fence the field" → perimeter
+- "Plaster inside a tank open at top" → CSA + base, not TSA
+
+🧠 **Active Recall:** A room is painted on walls AND ceiling. Write the expression for the painted area. (Answer: 2h(l+b) + lb.)
+
+---
+
+## Mnemonic: "CONE has ONE-third, SPHERE has FOUR-thirds"
+
+- **CONE** → the word has "ONE" hidden in it → **⅓** πr²h
+- **SPHERE** → "FOUR" rhymes with the round "O" of a ball → **4/3** πr³ and **4**πr²
+
+One glance at the word, and the fraction appears. Try forgetting it now — you can't.
+
+---
+
+## Summary Table
+
+| Shape | Area / Surface Area | Volume |
+|---|---|---|
+| Triangle | ½ × b × h; √[s(s−a)(s−b)(s−c)] | — |
+| Trapezium | ½ × (a + b) × h | — |
+| Circle | πr² | — |
+| Cube | 6a² | a³ |
+| Cuboid | 2(lb + bh + hl) | lbh |
+| Cylinder | CSA 2πrh; TSA 2πr(h+r) | πr²h |
+| Cone | CSA πrl; TSA πr(l+r) | ⅓πr²h |
+| Sphere | 4πr² | (4/3)πr³ |
+| Hemisphere | CSA 2πr²; TSA 3πr² | (2/3)πr³ |
+| Frustum | πl(R+r) | (⅓)πh(R² + r² + Rr) |
+
+**Scaling law:** length ×k → area ×k² → volume ×k³.
+**Conservation law:** melting/recasting keeps volume constant.
+
+---
+
+## 🔁 Review this chapter after 2 days.
+
+Close the book and rebuild every formula from the pictures: the "one-third" pointed family, "pie are squared," and the k–k²–k³ ladder. If you can rebuild them, you own them.

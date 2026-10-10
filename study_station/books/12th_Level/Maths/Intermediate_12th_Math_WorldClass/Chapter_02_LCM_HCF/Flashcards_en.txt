@@ -1,3 +1,79 @@
-# Chapter: LCM & HCF, Level: intermediate
+Card 1
+Front: What is the HCF of two numbers, in one line?
+Back: The largest number that divides both numbers exactly (also called GCD).
 
-@content_agent lang=en level=intermediate 'Create 15-20 flashcards for LCM & HCF. Each card: front a curiosity-invoking question, back concise answer. Include at least 2 cards that ask about a mnemonic trick.'
+Card 2
+Front: What is the LCM of two numbers, in one line?
+Back: The smallest number that is exactly divisible by both numbers.
+
+Card 3
+Front: What is the golden product rule connecting LCM and HCF?
+Back: For two numbers: LCM × HCF = Product of the two numbers. (Works only for TWO numbers!)
+
+Card 4
+Front: Mnemonic trick — how do you remember which of LCM/HCF is bigger?
+Back: "LCM is Large, HCF is Humble." LCM ≥ numbers; HCF ≤ numbers.
+
+Card 5
+Front: What is the HCF of two co-prime numbers?
+Back: 1. (Co-prime = no common factor other than 1, e.g., 8 and 15.)
+
+Card 6
+Front: What is the LCM of two co-prime numbers?
+Back: Their product. E.g., LCM(8, 15) = 120.
+
+Card 7
+Front: In prime factorisation, how do you find HCF?
+Back: Take each COMMON prime factor with its LOWEST power. HCF(2³·3², 2²·3⁵) = 2²·3².
+
+Card 8
+Front: In prime factorisation, how do you find LCM?
+Back: Take EVERY prime factor present with its HIGHEST power. LCM(2³·3², 2²·3⁵) = 2³·3⁵.
+
+Card 9
+Front: Mnemonic trick — how to remember lowest vs highest powers for HCF/LCM?
+Back: "HCF is Humble — takes the Lowest; LCM is Lavish — takes the Largest."
+
+Card 10
+Front: How do you find the HCF of fractions?
+Back: HCF of fractions = HCF of numerators ÷ LCM of denominators.
+
+Card 11
+Front: How do you find the LCM of fractions?
+Back: LCM of fractions = LCM of numerators ÷ HCF of denominators.
+
+Card 12
+Front: "Greatest number that divides a, b, c leaving the same remainder r" — what's the formula?
+Back: HCF of (a−r, b−r, c−r).
+
+Card 13
+Front: "Greatest number that divides a, b, c leaving remainders p, q, s" — what's the formula?
+Back: HCF of (a−p, b−q, c−s).
+
+Card 14
+Front: "Smallest number which when divided by a, b, c leaves the same remainder r" — formula?
+Back: LCM(a, b, c) + r.
+
+Card 15
+Front: "Smallest number which when divided by a, b, c leaves remainders p, q, s" — what's the trick?
+Back: If a−p = b−q = c−s = k (common difference), answer = LCM(a, b, c) − k.
+
+Card 16
+Front: Bells toll at intervals of a, b, c seconds — when do they ring together again?
+Back: After LCM(a, b, c) seconds. (Classic "together again" = LCM keyword.)
+
+Card 17
+Front: Exam keyword trick — which word signals HCF and which signals LCM?
+Back: "Greatest/Largest/Maximum size" → HCF. "Smallest/Least/Together again/Minimum" → LCM.
+
+Card 18
+Front: If HCF of two numbers is h, what form do the numbers take?
+Back: ha and hb, where a and b are co-prime. Then LCM = h·a·b.
+
+Card 19
+Front: What is the LCM of 12, 18 and 24?
+Back: 72. (12 = 2²·3, 18 = 2·3², 24 = 2³·3 → LCM = 2³·3² = 72.)
+
+Card 20
+Front: Can LCM × HCF = product work for three numbers?
+Back: No! The product rule holds only for two numbers — a favourite exam trap.

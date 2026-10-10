@@ -1,0 +1,151 @@
+Questions 76–90: Medium | Questions 91–100: Hard
+
+76. Six persons A, B, C, D, E, and F are sitting in a row facing north. A sits second to the left of B. C sits exactly between A and B. D sits to the immediate right of E. F sits at one of the extreme ends. E does not sit adjacent to A. Who sits to the immediate left of A?
+(a) Cannot be determined (b) C (c) D (d) F
+Answer: (a)
+Solution: Two different valid arrangements satisfy the conditions: (F, A, C, B, E, D) where F is to the immediate left of A, and (F, E, D, A, C, B) where D is to the immediate left of A. Hence, it cannot be determined.
+Source: PYQ-style
+
+77. Seven persons A, B, C, D, E, F, and G live on floors 1 to 7 of a building (1 = ground, 7 = top). A lives on an odd-numbered floor. B lives immediately above C. D lives three floors below E. F lives on the 6th floor. G lives between A and F. Only one person lives between B and D. Who lives on the 3rd floor?
+(a) B (b) A (c) C (d) D
+Answer: (b)
+Solution: Arrangement (1 to 7): 1-C, 2-B, 3-A, 4-D, 5-G, 6-F, 7-E. The person living on the 3rd floor is A.
+Source: PYQ-style
+
+78. Eight persons P, Q, R, S, T, U, V, and W are sitting around a circular table facing the center. P sits opposite Q. T sits exactly between Q and U. R sits opposite U. W sits opposite T. S sits second to the left of P. Who sits to the immediate right of Q?
+(a) U (b) V (c) T (d) W
+Answer: (c)
+Solution: Arrangement clockwise: Q, T, U, S, P, W, R, V. Facing center, the person sitting to the immediate right of Q is T.
+Source: PYQ-style
+
+79. Six persons are sitting in two parallel rows. In Row-1, A, B, and C face south; in Row-2, P, Q, and R face north. A sits opposite the person who sits to the immediate left of R. B sits at the left end of Row-1. Who sits opposite C?
+(a) P (b) Q (c) Cannot be determined (d) R
+Answer: (d)
+Solution: Row-1 (facing south): B(1), A(2), C(3). Row-2 (facing north): 1, 2, R(3). Immediate left of R is position 2, opposite A. Thus, opposite C sits R.
+Source: PYQ-style
+
+80. Five friends A, B, C, D, and E have different heights. A is taller than B but not shorter than C. B is taller than only D. E is shorter than A but taller than B. Who is the tallest?
+(a) Cannot be determined (b) A (c) D (d) E
+Answer: (a)
+Solution: The height order gives A > E > B > D, but the relative order between A and C is not uniquely fixed. Thus, the tallest cannot be determined.
+Source: PYQ-style
+
+81. A person walks 30 meters north from point X, then turns left and walks 40 meters, then turns left again and walks 30 meters. How far is he now from his starting point X?
+(a) 30 m (b) 40 m (c) 50 m (d) 70 m
+Answer: (b)
+Solution: 30 m north and 30 m south cancel out. The net displacement is 40 m west. Distance from starting point = 40 m.
+Source: PYQ-style
+
+82. Seven persons A, B, C, D, E, F, and G appear in an exam from Monday to Sunday. A appears on Monday and B on Friday. G appears on Sunday. C appears immediately before D. Only one person appears between A and C. Who appears on Wednesday?
+(a) D (b) E (c) C (d) F
+Answer: (c)
+Solution: Schedule: 1(Mon)-A, 2(Tue)-F, 3(Wed)-C, 4(Thu)-D, 5(Fri)-B, 6(Sat)-E, 7(Sun)-G. C appears on Wednesday.
+Source: PYQ-style
+
+83. Seven boxes A, B, C, D, E, F, and G are kept one above another (1 = bottom, 7 = top). A is on an even-numbered floor. B is three boxes above C. F is on the 7th floor. G is between A and B. D is immediately above E. Which box is on the 2nd floor?
+(a) C (b) E (c) G (d) D
+Answer: (d)
+Solution: Floor order: 1-E, 2-D, 3-C, 4-B, 5-G, 6-A, 7-F. The box on the 2nd floor is D.
+Source: PYQ-style
+
+84. In a row of boys, A is 4th from the left end and B is 6th from the right end. If exactly 3 boys sit between A and B, and A sits to the left of B, how many total boys are in the row?
+(a) 13 (b) 11 (c) 15 (d) 17
+Answer: (a)
+Solution: Total boys = (A from left) + (boys between) + (B from right) = 4 + 3 + 6 = 13.
+Source: PYQ-style
+
+85. Six persons A, B, C, D, E, and F are sitting around a circular table facing the center. A sits second to the right of B. E sits opposite F. C sits to the immediate right of A. B and C are not adjacent to each other. Who sits opposite A?
+(a) C (b) D (c) E (d) F
+Answer: (b)
+Solution: Arrangement (clockwise 1 to 6): 1-A, 2-F, 3-B, 4-D, 5-E, 6-C. Directly opposite A(1) at position 4 sits D.
+Source: PYQ-style
+
+86. Six students P, Q, R, S, T, and U scored different marks. P scored more than Q. Q scored more than only T and U. S scored more than R, but the relation between P and S is not known. Who scored the highest marks?
+(a) P (b) S (c) Cannot be determined (d) T
+Answer: (c)
+Solution: Either P or S could have the highest score as no comparative clue links them. Hence, it cannot be determined.
+Source: PYQ-style
+
+87. Eight persons A, B, C, D, E, F, G, and H live on eight floors (1 to 8). F lives on the top floor (8). H lives on the 5th floor. A lives on the 6th floor and G lives between A and F. B lives immediately above C. Who lives on the 2nd floor?
+(a) C (b) D (c) E (d) B
+Answer: (d)
+Solution: Arrangement (1 to 8): 1-C, 2-B, 3-D, 4-E, 5-H, 6-A, 7-G, 8-F. The person on the 2nd floor is B.
+Source: PYQ-style
+
+88. Seven friends take leave from Monday to Sunday. Q takes leave on Tuesday, P on Saturday, and V on Sunday. Only one person takes leave between Q and R (R is after Q). T takes leave immediately before U. Who takes leave on Thursday?
+(a) T (b) R (c) S (d) U
+Answer: (a)
+Solution: Schedule: Mon-S, Tue-Q, Wed-R, Thu-T, Fri-U, Sat-P, Sun-V. On Thursday, T takes leave.
+Source: PYQ-style
+
+89. A person walks 15 meters north from point A, turns right and walks 20 meters, turns left and walks 10 meters, turns right and walks 5 meters, and finally turns right and walks 25 meters. How far is he from point A?
+(a) 20 m (b) 25 m (c) 30 m (d) 35 m
+Answer: (b)
+Solution: North = 15 + 10 = 25 m, South = 25 m (net vertical = 0). East = 20 + 5 = 25 m. Net distance = 25 m.
+Source: PYQ-style
+
+90. Six persons sit in two parallel rows. In Row-1, A, B, C face south; in Row-2, X, Y, Z face north. B sits at the right end of Row-1. C sits opposite Y. A sits opposite the person to the immediate left of Z. Who sits opposite B?
+(a) X (b) Y (c) Z (d) Cannot be determined
+Answer: (c)
+Solution: Row-1 (south): C(1), A(2), B(3). Row-2 (north): Y(1), X(2), Z(3). X is immediate left of Z and opposite A. Opposite B(3) sits Z(3).
+Source: PYQ-style
+
+91. Seven boxes A, B, C, D, E, F, and G are kept (1=bottom, 7=top). A is on an even floor. B is three boxes above C. D is immediately above E. F is at the top (7). G is below A but above B. Which box is on the 1st floor?
+(a) A (b) B (c) E (d) C
+Answer: (d)
+Solution: Order: 1-C, 2-E, 3-D, 4-B, 5-G, 6-A, 7-F. The box on the 1st floor is C.
+Source: PYQ-style
+
+92. A certain number of persons are sitting in a row facing north. A is 4th from the left end. B is 5th from the right end. Only one person sits between A and B. How many total persons are in the row?
+(a) Cannot be determined (b) 6 (c) 10 (d) 11
+Answer: (a)
+Solution: With overlapping, total = 4 + 5 - 1 - 2 = 6; without overlapping, total = 4 + 1 + 5 = 10. Since both are valid, it cannot be determined.
+Source: PYQ-style
+
+93. Five friends A, B, C, D, and E have different heights. A is taller than B. C is shorter than D. E is taller than A. D is shorter than B. Who is the shortest?
+(a) D (b) C (c) E (d) Cannot be determined
+Answer: (b)
+Solution: Height order: E > A > B > D > C. The shortest friend is C.
+Source: PYQ-style
+
+94. Seven persons A, B, C, D, E, F, and G are sitting in a row facing north. G sits at the extreme right end. A sits at the extreme left end. C sits to the immediate left of F. D sits to the immediate right of F. B sits exactly between A and C. E sits exactly between D and G. Who sits to the immediate left of F?
+(a) A (b) B (c) C (d) G
+Answer: (c)
+Solution: Left to right arrangement: 1-A, 2-B, 3-C, 4-F, 5-D, 6-E, 7-G. F is at position 4 and to his immediate left is C (position 3).
+Source: PYQ-style
+
+95. Seven boxes P, Q, R, S, T, U, and V are stacked (1=bottom, 7=top). U is on the top floor (7). T is at the bottom (1) and S is immediately above T. R is immediately above S. Q is three boxes above R. V is immediately below P. Which box is on the 2nd floor?
+(a) R (b) T (c) V (d) S
+Answer: (d)
+Solution: Floor order (1 to 7): 1-T, 2-S, 3-R, 4-V, 5-P, 6-Q, 7-U. The box on the 2nd floor is S.
+Source: PYQ-style
+
+96. Eight persons A, B, C, D, E, F, G, and H live on floors 1 to 8 of a building. F lives on the top floor (8). H lives on the 5th floor. A lives on the 6th floor and G lives between A and F. E lives on the 4th floor and D lives three floors below E. Who lives on the 1st floor?
+(a) D (b) A (c) C (d) E
+Answer: (a)
+Solution: D = E(4) - 3 = Floor 1. Hence, D lives on the 1st floor.
+Source: PYQ-style
+
+97. Six persons P, Q, R, S, T, and U are sitting in a row facing north. P sits second to the left of Q. U sits exactly between P and Q. R sits to the immediate left of S. T sits at the left end. Who sits to the immediate right of P?
+(a) Q (b) U (c) R (d) S
+Answer: (b)
+Solution: Left to right order: 1-T, 2-P, 3-U, 4-Q, 5-R, 6-S. To the immediate right of P(2) sits U(3).
+Source: PYQ-style
+
+98. Seven persons P, Q, R, S, T, U, and V take leave from Monday to Sunday. P takes leave on Monday, Q on Friday, and R on Sunday. S takes leave immediately before T. Only one person takes leave between P and S. U takes leave after V but before R. Who takes leave on Thursday?
+(a) P (b) R (c) T (d) S
+Answer: (c)
+Solution: Days: 1(Mon)-P, 2(Tue)-V, 3(Wed)-S, 4(Thu)-T, 5(Fri)-Q, 6(Sat)-U, 7(Sun)-R. Thus, T takes leave on Thursday.
+Source: PYQ-style
+
+99. Five persons A, B, C, D, and E have different weights. A is heavier than D. D is heavier than C. C is heavier than E. E is heavier than B. Who is the lightest?
+(a) C (b) D (c) E (d) B
+Answer: (d)
+Solution: Weight order: A > D > C > E > B. The lightest person is B.
+Source: PYQ-style
+
+100. Six persons sit in two parallel rows, three in each. Row-1 faces south: A, B, C; Row-2 faces north: X, Y, Z. A sits opposite the person who sits to the immediate right of Y. C sits at the left end of Row-1. X sits opposite B. Who sits to the immediate left of Z?
+(a) A (b) Y (c) B (d) X
+Answer: (b)
+Solution: Row-1 (facing south): 1-C, 2-A, 3-B. Row-2 (facing north): 1-Y, 2-Z, 3-X. To the immediate left of Z(2) sits Y(1).
+Source: PYQ-style

@@ -1,0 +1,120 @@
+# 📊 PYQ विश्लेषण — प्लेसमेंट टेस्ट (Placement Test)
+
+## यह अध्याय क्यों अलग है?
+
+"प्लेसमेंट टेस्ट" कोई एक विषय नहीं — यह पूरी अंग्रेज़ी परीक्षा का **मंच** है। इसलिए यहाँ PYQ विश्लेषण का मतलब है: परीक्षक वास्तव में किस *तरह* के प्रश्न पूछता है, किन उप-विषयों को बार-बार चुनता है, और किन जालों में छात्र फँसते हैं। यह विश्लेषण **शब्दों में** है — हमारे पास वर्ष-वार प्रश्न-गिनती का प्रमाणित आँकड़ा नहीं है, इसलिए कोई आवृत्ति तालिका या "भार %" नहीं दिया गया है।
+
+---
+
+## 🔍 पैटर्न विश्लेषण: परीक्षक क्या पूछता है
+
+### 1. बार-बार आने वाले उप-विषय
+
+- **Subject–Verb Agreement** — लगभग हर शिफ्ट में। खासकर जब कर्ता और क्रिया के बीच लंबा वाक्यांश (intervening phrase) घुसा दिया जाता है।
+- **Articles (a/an/the)** — छोटा विषय, बड़ा फसाद। "the" के प्रयोग/अप्रयोग पर कथन-आधारित प्रश्न।
+- **Tense की गड़बड़ी** — since/for के साथ perfect tense, और reported speech में tense-shift।
+- **Prepositions** — fixed prepositions (depend on, consist of, abide by) सीधे याद माँगते हैं।
+- **Error Spotting** — एक वाक्य, चार भाग, एक गलती। यहाँ "sound-right" जाल सबसे ज़्यादा चलता है।
+- **Reading Comprehension** — टोन (tone) और अनुमान (inference) पर आधारित प्रश्न; सीधे तथ्य वाले प्रश्न कम, "लेखक क्या सुझाता है" वाले ज़्यादा।
+- **Synonyms/Antonyms व One-word substitution** — ग्रीक/लैटिन मूल शब्दों से बने शब्द (जैसे *benevolent, chronology, autocrat*)।
+
+### 2. परीक्षक के चार प्रमुख जाल
+
+| जाल | कैसे काम करता है | उदाहरण |
+|---|---|---|
+| **Intervening Phrase** | कर्ता और क्रिया के बीच लंबा वाक्यांश डालकर क्रिया बहुवचन करवा देता है | "The quality of the mangoes *were* good." ❌ (कर्ता quality है, mangoes नहीं) |
+| **Collective Noun** | team/jury/committee को देखकर बिना सोचे बहुवचन या एकवचन क्रिया लगवाता है | "The jury *has* given its verdict." ✔ (एकमत निर्णय = एकवचन) |
+| **Sound-Right** | बोलचाल में सही लगने वाला रूप व्याकरण में गलत होता है | "What you are doing?" ❌ → "What *are you* doing?" ✔ |
+| **Over-thinking** | सीधा तथ्यात्मक प्रश्न होता है, छात्र ज़रूरत से ज़्यादा सोचकर सही उत्तर बदल देता है | "He is senior ___ me." → *to* (सीधा नियम, सोचने की जगह नहीं) |
+
+---
+
+## 🎯 शीर्ष 10 हाई-यील्ड प्रश्न (हल सहित)
+
+**प्रश्न 1.** The number of students in the class ___ increasing every year.
+(a) are (b) were (c) is (d) have been
+**उत्तर: (c)**
+**हल:** "The number of" हमेशा एकवचन क्रिया लेता है; "a number of" बहुवचन लेता है।
+**जाल-प्रकार:** Intervening Phrase — "students" देखकर (a) टिक करने की गलती।
+**स्रोत:** PYQ-style
+
+**प्रश्न 2.** Each of the boys ___ given a certificate.
+(a) were (b) was (c) have (d) are
+**उत्तर: (b)**
+**हल:** Each/Every/Everyone के बाद क्रिया सदैव एकवचन।
+**जाल-प्रकार:** Intervening Phrase — "boys" का प्रभाव।
+**स्रोत:** PYQ-style
+
+**प्रश्न 3.** He has been working in this office ___ 2015.
+(a) for (b) from (c) since (d) by
+**उत्तर: (c)**
+**हल:** निश्चित समय-बिंदु (2015) के साथ *since*; अवधि (10 years) के साथ *for*।
+**जाल-प्रकार:** Sound-Right — बोलचाल में "from 2015" सुनने में ठीक लगता है।
+**स्रोत:** PYQ-style
+
+**प्रश्न 4.** The committee ___ divided in its opinion on the new policy.
+(a) is (b) are (c) were (d) have been
+**उत्तर: (a)**
+**हल:** वाक्य में सर्वनाम "its" (एकवचन) प्रयोग हुआ है, इसलिए क्रिया भी एकवचन होगी — "is"। यदि सर्वनाम "their" होता, तभी बहुवचन क्रिया ("are") सही मानी जाती। क्रिया और सर्वनाम का संख्या-मेल (agreement) अनिवार्य है।
+**जाल-प्रकार:** Collective Noun — "divided" पढ़कर बहुवचन (b) चुनने की जल्दबाज़ी; पर "its" ही असली संकेत है।
+**स्रोत:** PYQ-style
+
+**प्रश्न 5.** Choose the correctly spelt word:
+(a) Occurence (b) Occurrence (c) Ocurrence (d) Occurrance
+**उत्तर: (b)**
+**हल:** Occur → Occurring → Occurrence: double 'c' और double 'r' दोनों।
+**जाल-प्रकार:** Over-thinking — सभी विकल्प लगभग एक जैसे दिखते हैं; नियम याद हो तो 10 सेकंड का प्रश्न।
+**स्रोत:** PYQ-style
+
+**प्रश्न 6.** Neither of the two answers ___ correct.
+(a) are (b) were (c) is (d) have been
+**उत्तर: (c)**
+**हल:** Neither/Either (of) के साथ एकवचन क्रिया।
+**जाल-प्रकार:** Intervening Phrase — "answers" बहुवचन देखकर भ्रम।
+**स्रोत:** PYQ-style
+
+**प्रश्न 7.** Spot the error: "One of my friend (a)/ is coming (b)/ to the party tonight. (c)/ No error (d)"
+**उत्तर: (a)**
+**हल:** "One of + बहुवचन संज्ञा" — सही रूप "one of my *friends*"। क्रिया एकवचन (is) सही है।
+**जाल-प्रकार:** Sound-Right — बोलचाल में "one of my friend" अक्सर सुना जाता है।
+**स्रोत:** PYQ-style
+
+**प्रश्न 8.** The synonym of "BENEVOLENT" is:
+(a) cruel (b) kind (c) wealthy (d) strict
+**उत्तर: (b)**
+**हल:** लैटिन मूल *bene* = अच्छा/भला + *volens* = इच्छा रखने वाला → भलाई चाहने वाला, दयालु।
+**जाल-प्रकार:** Over-thinking — "wealthy" लुभाता है क्योंकि benevolent लोग दान करते हैं, पर अर्थ दयालु है।
+**स्रोत:** PYQ-style
+
+**प्रश्न 9.** She said that she ___ the letter the previous day.
+(a) posted (b) had posted (c) has posted (d) posts
+**उत्तर: (b)**
+**हल:** Reported speech में past simple → past perfect; "yesterday" → "the previous day"।
+**जाल-प्रकार:** Sound-Right — (a) बोलने में सहज लगता है, पर नियत क्रम past perfect माँगता है।
+**स्रोत:** PYQ-style
+
+**प्रश्न 10.** (RC-टोन प्रश्न) किसी गद्यांश में लेखक AI के लाभ बताता है परंतु बार-बार "however", "yet", "caution" जैसे शब्द प्रयोग करता है। लेखक की टोन है:
+(a) उत्साही (enthusiastic) (b) सतर्क-आशावादी (cautiously optimistic) (c) निराशाजनक (pessimistic) (d) तटस्थ-उदासीन (indifferent)
+**उत्तर: (b)**
+**हल:** लाभ स्वीकारना + चेतावनी देना = संतुलित, सतर्क आशावाद। पूरी तरह सकारात्मक या नकारात्मक विकल्प चुनना टोन-प्रश्नों की सबसे आम गलती है।
+**जाल-प्रकार:** Over-thinking — एक पंक्ति पढ़कर चरम (extreme) टोन चुन लेना।
+**स्रोत:** PYQ-style
+
+---
+
+## ⏱️ 15/45-सेकंड नियम — दो प्रश्नों पर लागू
+
+**प्रश्न 5 (Spelling — Occurrence):** यह **तथ्यात्मक (Fact-based)** प्रश्न है। नियम याद है या नहीं — सोचने से उत्तर नहीं बनेगा। **15 सेकंड** में टिक करो; न आए तो छोड़ो, बाद में नहीं सुधरेगा।
+
+**प्रश्न 10 (RC-Tone):** यह **तार्किक (Inference-based)** प्रश्न है। गद्यांश के संकेत-शब्दों (however, yet) को जोड़कर निष्कर्ष निकालना है। यहाँ **45 सेकंड** देना उचित है — जल्दबाज़ी में चरम टोन (a या c) चुनने की गलती होती है।
+
+**सूत्र याद रखो:** *"तथ्य = 15, तर्क = 45 — जो याद है वो तुरंत, जो निकालना है वो धीरे।"*
+
+---
+
+## 📌 निष्कर्ष
+
+- Error spotting और subject–verb agreement में **intervening phrase** जाल सबसे घातक है — हमेशा असली कर्ता खोजो।
+- Collective noun प्रश्नों में केवल "divided/united" मत देखो — वाक्य में आया **सर्वनाम (its/their)** भी जाँचो; क्रिया और सर्वनाम की संख्या एक जैसी होनी चाहिए।
+- RC में चरम टोन वाले विकल्प (extreme options) प्रायः गलत होते हैं — संतुलित विकल्प को प्राथमिकता दो।
+- तथ्यात्मक प्रश्नों पर over-thinking ही सबसे बड़ा जाल है — पहला सही-लगा उत्तर अक्सर सही होता है।

@@ -1,0 +1,343 @@
+📝 Practice Set 6 (Questions 126–150)
+
+Hard (126–150) | Total 25 MCQs
+Includes at least 2 Examiner's Trap questions (marked with ⚠️).
+
+Q126. (Hard) ⚠️ In a certain code: ‘A @ B’ ⇒ A ≥ B, ‘A # B’ ⇒ A ≤ B, ‘A % B’ ⇒ A > B, ‘A $ B’ ⇒ A < B, ‘A * B’ ⇒ A = B
+Statements: P % Q, Q $ R, R * S, S # T, T @ U, U % V, V $ W
+Conclusions:
+I. P % W
+II. Q $ U
+(A) Neither I nor II follows (B) Only II follows (C) Either I or II follows (D) Only I follows
+
+Answer: (A) Neither I nor II follows
+
+Solution:
+Decoded: P > Q < R = S ≤ T ≥ U > V < W. Between P and W, signs reverse at Q and V. Between Q and U, signs reverse at T. Neither follows. Hence, the correct option is (A).
+
+Source: SSC CGL
+
+Q127. (Hard) Statements: A > B ≥ C < D = E ≤ F; G = F > H; I ≤ H; J > I
+Conclusions:
+I. A > E
+II. C < G
+III. F > I
+IV. B < J
+(A) I and III follow (B) II and III follow (C) II, III and IV follow (D) All follow
+
+Answer: (B) II and III follow
+
+Solution:
+I: A > B ≥ C < D = E reverses at C (false). II: C < D = E ≤ F = G ⇒ C < G (true). III: F = G > H ≥ I ⇒ F > I (true). IV: B and J have breaks at C and H (false). Thus II and III follow. Hence, the correct option is (B).
+
+Source: SSC CHSL
+
+Q128. (Hard) ⚠️ Which set of symbols should replace the blanks in ‘P _ Q _ R _ S _ T’ so that both ‘P > S’ and ‘Q ≤ T’ are definitely true?
+(A) >, >, >, ≤ (B) >, =, >, ≤ (C) None of these (D) ≥, >, =, ≤
+
+Answer: (C) None of these
+
+Solution:
+In (a), (b), and (c): P > S requires Q to be strictly less than P, but Q ≤ T requires Q ≤ R ≤ S ≤ T; when Q > R, Q ≤ T cannot be guaranteed. Hence none of the given options satisfies both conditions simultaneously. Hence, the correct option is (C).
+
+Source: SSC MTS
+
+Q129. (Hard) In a certain code: ‘A α B’ ⇒ A > B, ‘A β B’ ⇒ A < B, ‘A γ B’ ⇒ A = B, ‘A δ B’ ⇒ A ≥ B, ‘A ε B’ ⇒ A ≤ B
+Statements: M δ N, N α O, O γ P, P β Q, Q δ R, R ε S, S α T
+Conclusions:
+I. M α Q
+II. O β R
+III. N γ P
+IV. R α T
+(A) II and III follow (B) Only I follows (C) Only IV follows (D) None follows
+
+Answer: (D) None follows
+
+Solution:
+Decoded: M ≥ N > O = P < Q ≥ R ≤ S > T. In all four conclusions, the chain reverses at P, Q, or S. None of the conclusions definitely follows. Hence, the correct option is (D).
+
+Source: RRB NTPC
+
+Q130. (Hard) Statements: A ≥ B > C = D; E < D ≤ F = G; H > G = I; J ≤ I
+Conclusions:
+I. A > E
+II. C < H
+III. B ≤ F
+IV. J < H
+(A) I, II and IV follow (B) I and II follow (C) II and IV follow (D) All follow
+
+Answer: (A) I, II and IV follow
+
+Solution:
+I: A ≥ B > C = D > E ⇒ A > E (true). II: C = D ≤ F = G < H ⇒ C < H (true). III: B > C = D ≤ F reverses at D (false). IV: J ≤ I = G < H ⇒ J < H (true). Thus I, II and IV follow. Hence, the correct option is (A).
+
+Source: RRB Group D
+
+Q131. (Hard) Which expression ensures ‘A > C’ is definitely true and ‘B < D’ is definitely false?
+(A) A > B > C = D (B) A > B ≥ C ≥ D (C) A > B = C < D (D) A = B > C < D
+
+Answer: (B) A > B ≥ C ≥ D
+
+Solution:
+In (d): A > B ≥ C ≥ D ⇒ A > C (true), and B ≥ C ≥ D ⇒ B ≥ D (which makes B < D definitely false). Both conditions are satisfied. Hence, the correct option is (B).
+
+Source: SSC CGL
+
+Q132. (Hard) In a certain code: ‘A @ B’ ⇒ A ≤ B, ‘A # B’ ⇒ A ≥ B, ‘A $ B’ ⇒ A < B, ‘A % B’ ⇒ A > B, ‘A * B’ ⇒ A = B
+Statements: P % Q, Q $ R, R * S, S @ T
+Conclusions:
+I. P % T
+II. P * T
+(A) Only I follows (B) Only II follows (C) Neither I nor II follows (D) Either I or II follows
+
+Answer: (C) Neither I nor II follows
+
+Solution:
+Decoded: P > Q < R = S ≤ T. At Q, signs reverse (> and <). No definite relation between P and T. Since '<' is missing, they do not form a complementary pair. Neither follows. Hence, the correct option is (C).
+
+Source: SSC CHSL
+
+Q133. (Hard) Statements: P > Q < R < S = T < V; V > X > Y
+Conclusions:
+I. Q < V
+II. P > T
+III. R < V
+IV. Y < V
+(A) All follow (B) I, II and IV follow (C) II, III and IV follow (D) I, III and IV follow
+
+Answer: (D) I, III and IV follow
+
+Solution:
+I: Q < R < S = T < V ⇒ Q < V (true). II: P > Q < R reverses at Q (false). III: R < S = T < V ⇒ R < V (true). IV: Y < X < V ⇒ Y < V (true). Thus I, III and IV follow. Hence, the correct option is (D).
+
+Source: SSC MTS
+
+Q134. (Hard) In a certain code: ‘A @ B’ ⇒ A ≤ B, ‘A # B’ ⇒ A ≥ B, ‘A $ B’ ⇒ A < B, ‘A % B’ ⇒ A > B, ‘A * B’ ⇒ A = B
+Statements: X # Y, Y $ Z, Z * W, W % V, V @ U
+Conclusions:
+I. X % V
+II. X * V
+III. Y $ U
+(A) None follows (B) Only I follows (C) Only III follows (D) Either I or II follows
+
+Answer: (A) None follows
+
+Solution:
+Decoded: X ≥ Y < Z = W > V ≤ U. Signs reverse at Y between X and V, and at W between Y and U. None of the conclusions definitely follows. Hence, the correct option is (A).
+
+Source: RRB NTPC
+
+Q135. (Hard) Which of the following expressions will make ‘A < E’ definitely false?
+(A) A < B ≤ C = D < E (B) A ≥ B > C = D ≥ E (C) A ≤ B < C = D ≤ E (D) A = B < C < D = E
+
+Answer: (B) A ≥ B > C = D ≥ E
+
+Solution:
+In (b): A ≥ B > C = D ≥ E ⇒ A > E. Since A is strictly greater than E, ‘A < E’ is definitely false. Hence, the correct option is (B).
+
+Source: RRB Group D
+
+Q136. (Hard) Statements: A ≥ B = C < D ≤ E; F = E > G; H ≤ G; I = H
+Conclusions:
+I. A > D
+II. B < F
+III. H < E
+IV. I > E
+(A) II, III and IV follow (B) I and II follow (C) II and III follow (D) All follow
+
+Answer: (C) II and III follow
+
+Solution:
+I: A ≥ B = C < D reverses at B (false). II: B = C < D ≤ E = F ⇒ B < F (true). III: H ≤ G < E ⇒ H < E (true). IV: I = H ≤ G < E ⇒ I < E, so I > E is false. Thus II and III follow. Hence, the correct option is (C).
+
+Source: SSC CGL
+
+Q137. (Hard) ⚠️ In a certain code: ‘A @ B’ ⇒ A > B, ‘A # B’ ⇒ A < B, ‘A * B’ ⇒ A = B, ‘A $ B’ ⇒ A ≤ B, ‘A % B’ ⇒ A ≥ B
+Statements: X % Y, Y * Z, Z # W, W $ V, V @ U
+Conclusions:
+I. X @ U
+II. X $ U
+(A) Only I follows (B) Only II follows (C) Neither I nor II follows (D) Either I or II follows
+
+Answer: (D) Either I or II follows
+
+Solution:
+Decoded: X ≥ Y = Z < W ≤ V > U. Between X and U, signs reverse at Z. All three possibilities exist. I (X > U) and II (X ≤ U) together cover all possibilities, forming a complementary pair. Hence, the correct option is (D).
+
+Source: SSC CHSL
+
+Q138. (Hard) Which expression ensures both ‘X > Z’ and ‘Y ≥ W’ are definitely true?
+(A) X > Y > Z ≥ W (B) X ≥ Y > Z = W (C) X > Y = Z ≥ W (D) X = Y > Z ≤ W
+
+Answer: (A) X > Y > Z ≥ W
+
+Solution:
+In (c): X > Y > Z ≥ W ⇒ X > Z (true), and Y > Z ≥ W ⇒ Y > W, which satisfies Y ≥ W. Both hold definitely. Hence, the correct option is (A).
+
+Source: SSC MTS
+
+Q139. (Hard) Statements: P > Q = R < S > T; U = T; V < U; W > V
+Conclusions:
+I. Q < S
+II. P > T
+III. U > V
+IV. W > T
+(A) I, II and III follow (B) I and III follow (C) II and IV follow (D) All follow
+
+Answer: (B) I and III follow
+
+Solution:
+I: Q = R < S ⇒ Q < S (true). II: P > Q = R < S > T reverses at Q and S (false). III: V < U ⇒ U > V (true). IV: W > V < U = T reverses at V (false). Thus I and III follow. Hence, the correct option is (B).
+
+Source: RRB NTPC
+
+Q140. (Hard) In a certain code: ‘A @ B’ ⇒ A ≤ B, ‘A # B’ ⇒ A > B, ‘A * B’ ⇒ A = B, ‘A % B’ ⇒ A < B, ‘A $ B’ ⇒ A ≥ B
+Statements: M # N, N * O, O % P, P @ Q, Q $ R
+Conclusions:
+I. M # Q
+II. N % R
+III. O $ Q
+(A) I and II follow (B) Only I follows (C) None follows (D) II and III follow
+
+Answer: (C) None follows
+
+Solution:
+Decoded: M > N = O < P ≤ Q ≥ R. I: Signs reverse at O (false). II: Signs reverse at Q (false). III: O < P ≤ Q ⇒ O < Q, so O ≥ Q is false. None follows. Hence, the correct option is (C).
+
+Source: RRB Group D
+
+Q141. (Hard) Statements: A ≥ B = C < D > E; F = E < G; H ≥ G; I = H
+Conclusions:
+I. A > E
+II. B < G
+III. I > F
+IV. C ≥ H
+(A) I, II and III follow (B) I and III follow (C) II and IV follow (D) Only III follows
+
+Answer: (D) Only III follows
+
+Solution:
+I: Reverses at D (false). II: Reverses at D (false). III: I = H ≥ G > E = F ⇒ I > F (true). IV: Reverses at D and G (false). Thus only III follows. Hence, the correct option is (D).
+
+Source: SSC CGL
+
+Q142. (Hard) In a certain code: ‘A @ B’ ⇒ A ≥ B, ‘A # B’ ⇒ A ≤ B, ‘A % B’ ⇒ A > B, ‘A $ B’ ⇒ A < B, ‘A * B’ ⇒ A = B
+Statements: P % Q, Q # R, R * S, S $ T, T @ U
+Conclusions:
+I. P % U
+II. Q $ U
+(A) Neither I nor II follows (B) Only II follows (C) Either I or II follows (D) Only I follows
+
+Answer: (A) Neither I nor II follows
+
+Solution:
+Decoded: P > Q ≤ R = S < T ≥ U. Between P and U, signs reverse at Q and T. Between Q and U, signs reverse at T. Neither follows. Hence, the correct option is (A).
+
+Source: SSC CHSL
+
+Q143. (Hard) ⚠️ Which symbols should replace the blanks in ‘M _ N _ O _ P _ Q’ so that both ‘M > P’ and ‘N ≤ Q’ are definitely true?
+(A) >, =, <, ≤ (B) None of these (C) ≥, >, <, = (D) >, >, =, ≤
+
+Answer: (B) None of these
+
+Solution:
+In (b), M > N > O = P gives M > P (true), but N > O = P ≤ Q has opposite signs, leaving N and Q undetermined. No option guarantees both. Hence None of these. Hence, the correct option is (B).
+
+Source: SSC MTS
+
+Q144. (Hard) Statements: P = Q ≥ R > S; T = S < U; V < U > W; X = V
+Conclusions:
+I. Q > T
+II. R < V
+III. P > W
+IV. X < U
+(A) I, III and IV follow (B) I, II and IV follow (C) I and IV follow (D) All follow
+
+Answer: (C) I and IV follow
+
+Solution:
+I: Q ≥ R > S = T ⇒ Q > T (true). II: R > S < U > V reverses at S and U (false). III: P = Q ≥ R > S < U > W reverses at S and U (false). IV: X = V < U ⇒ X < U (true). Thus I and IV follow. Hence, the correct option is (C).
+
+Source: RRB NTPC
+
+Q145. (Hard) In a certain code: ‘A @ B’ ⇒ A ≥ B, ‘A # B’ ⇒ A ≤ B, ‘A % B’ ⇒ A > B, ‘A $ B’ ⇒ A < B, ‘A * B’ ⇒ A = B
+Statements: M % N, N $ O, O * P, P # Q, Q @ R, R $ S, S % T
+Conclusions:
+I. M % S
+II. N $ R
+(A) Only I follows (B) Only II follows (C) Either I or II follows (D) Neither I nor II follows
+
+Answer: (D) Neither I nor II follows
+
+Solution:
+Decoded: M > N < O = P ≤ Q ≥ R < S > T. Signs reverse at N, Q, and R between M and S, and at Q between N and R. Neither follows. Hence, the correct option is (D).
+
+Source: RRB Group D
+
+Q146. (Hard) Statements: A > B > C = D > E = F; G = E; H > G; I ≤ F
+Conclusions:
+I. A > D
+II. B > E
+III. H > F
+IV. C ≥ F
+(A) I, II and III follow (B) I and III follow (C) II and IV follow (D) All follow
+
+Answer: (A) I, II and III follow
+
+Solution:
+I: A > B > C = D ⇒ A > D (true). II: B > C = D > E ⇒ B > E (true). III: H > G = E = F ⇒ H > F (true). IV: C = D > E = F ⇒ C > F, so C ≥ F is strictly false (equality impossible). Thus I, II and III follow. Hence, the correct option is (A).
+
+Source: SSC CGL
+
+Q147. (Hard) ⚠️ In a certain code: ‘A @ B’ ⇒ A ≤ B, ‘A # B’ ⇒ A > B, ‘A * B’ ⇒ A = B, ‘A % B’ ⇒ A < B, ‘A $ B’ ⇒ A ≥ B
+Statements: P $ Q, Q # R, R * S, S % T, T @ U
+Conclusions:
+I. P # T
+II. P @ T
+(A) Only I follows (B) Either I or II follows (C) Only II follows (D) Neither I nor II follows
+
+Answer: (B) Either I or II follows
+
+Solution:
+Decoded: P ≥ Q > R = S < T ≤ U. Between P and T, signs reverse at S (> and <). All three possibilities exist. I (P > T) and II (P ≤ T) cover all possibilities, forming a complementary pair. Hence, the correct option is (B).
+
+Source: SSC CHSL
+
+Q148. (Hard) Which symbols in ‘A _ B _ C _ D’ make both ‘A > C’ and ‘B ≤ D’ definitely true?
+(A) >, ≥, = (B) ≥, >, ≤ (C) >, =, ≤ (D) >, >, ≤
+
+Answer: (C) >, =, ≤
+
+Solution:
+Using '>, =, ≤': A > B = C ≤ D ⇒ A > C (since A > B = C), and B = C ≤ D ⇒ B ≤ D. Both hold definitely. Hence, the correct option is (C).
+
+Source: SSC MTS
+
+Q149. (Hard) Statements: A > B ≥ C = D < E ≤ F; G = F; H > G; I = H
+Conclusions:
+I. A > D
+II. B < F
+III. H > E
+IV. C < G
+(A) All follow (B) I, II and III follow (C) II, III and IV follow (D) I, III and IV follow
+
+Answer: (D) I, III and IV follow
+
+Solution:
+I: A > B ≥ C = D ⇒ A > D (true). II: B ≥ C = D < E ≤ F reverses at D (false). III: H > G = F ≥ E ⇒ H > E (true). IV: C = D < E ≤ F = G ⇒ C < G (true). Thus I, III and IV follow. Hence, the correct option is (D).
+
+Source: RRB NTPC
+
+Q150. (Hard) ⚠️ In a certain code: ‘A @ B’ ⇒ A ≥ B, ‘A # B’ ⇒ A ≤ B, ‘A % B’ ⇒ A > B, ‘A $ B’ ⇒ A < B, ‘A * B’ ⇒ A = B
+Statements: P % Q, Q $ R, R * S, S # T, T % U, U @ V, V @ W, W $ X, X % Y
+Conclusions:
+I. P % Y
+II. Q $ V
+(A) Only I follows (B) Neither I nor II follows (C) Either I or II follows (D) Only II follows
+
+Answer: (B) Neither I nor II follows
+
+Solution:
+Decoded: P > Q < R = S ≤ T > U ≥ V ≥ W < X > Y. In this multi-variable chain, signs reverse at Q and T between P and Y, and at T between Q and V. Neither follows. Hence, the correct option is (B).
+
+Source: RRB Group D

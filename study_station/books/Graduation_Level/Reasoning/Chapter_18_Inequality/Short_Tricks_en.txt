@@ -1,0 +1,106 @@
+🪄 SHORT TRICKS & MNEMONICS — INEQUALITY
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧠 MNEMONIC 1 — "The Hungry Crocodile"
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+The crocodile always opens its mouth toward the BIGGER number.
+A > B → crocodile eats A (A is bigger).
+A < B → crocodile eats B.
+Never read the symbol — just ask: "Whom is the croc eating?"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧠 MNEMONIC 2 — "GOLD Chain" (for combining signs)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+**G**reater signs **O**nly **L**ink in the same **D**irection.
+A > B > C → you may conclude A > C.
+A > B < C → the chain BREAKS at the opposite sign → NO relation between A and C.
+Same direction = chain survives. Opposite direction = chain snaps.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧠 MNEMONIC 3 — "The Gatekeeper ≥"
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+≥ and ≤ are gatekeepers: they allow EQUALITY through.
+A ≥ B means A is bigger OR equal — never "strictly bigger."
+Trap: if the conclusion says A > B but the statement gives A ≥ B, it is NOT definitely true (A = B is possible).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧠 MNEMONIC 4 — "One Strong Sign Makes the Chain Strong"
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+> and < are STRONG signs; ≥ and ≤ are WEAK signs.
+In a same-direction chain, the conclusion follows the STRONGEST sign present:
+A ≥ B ≥ C → conclusion A ≥ C ✔ (all signs weak → weak conclusion).
+A ≥ B > C → conclusion A > C ✔ (one strong sign makes the whole chain strong).
+A > B ≥ C → conclusion A > C ✔ (strong sign present).
+Rule: if even one strict sign (> or <) appears in the chain, the conclusion is strict; only when ALL signs are weak (≥/≤) is the conclusion weak.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧠 MNEMONIC 5 — "Either-Or: The Twins Rule"
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Either-Or works ONLY when three conditions hold — remember **S-C-N**:
+**S**ame pair of elements in both conclusions,
+**C**omplementary signs (one ≥ and one <, or one > and one ≤),
+**N**o definite relation possible from the statement.
+If all three pass → "either I or II follows." Miss even one → both false.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧠 MNEMONIC 6 — "The Mirror Flip"
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+A > B is the same as B < A. Flip the sentence, flip the sign.
+When statements mix directions (P > Q, R < Q), rewrite everything facing ONE way (R < Q → Q > R) before chaining. Most "no relation" errors come from not flipping.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧠 MNEMONIC 7 — "Coded Inequality: Decode First, Think Later"
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+In coded questions (A @ B means A > B), write the decoder on your rough sheet FIRST:
+@ → >, # → <, $ → =, % → ≥, & → ≤
+Then translate the ENTIRE question before solving. Solving while decoding = guaranteed silly mistake.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧠 MNEMONIC 8 — "The Dead-End Sign"
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+When chaining A > B < C, the < sign is a dead end — you cannot cross it.
+Trick: draw the chain on paper; the moment two arrowheads POINT AT EACH OTHER (→ ←), stop. Any conclusion across that gap is false.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧠 MNEMONIC 9 — "Equal is the Silent Killer"
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Examiners hide = inside ≥ and ≤.
+Statement: A ≥ B, B ≥ A → actually means A = B!
+Whenever the same pair appears with opposite weak signs, check: the only possibility is equality. Conclusions claiming A > B or A < B are both false.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧠 MNEMONIC 10 — "One Chain, One Verdict"
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Before checking any conclusion, build ONE master chain:
+A > B = C ≥ D > E
+Now every conclusion is answered by reading positions on this single line — never re-read the statements for each conclusion. Build once, answer four.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧠 MNEMONIC 11 — "Negative Conclusions Need a Full Bridge"
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Conclusion "A is NOT greater than C" (A ≤ C) is true only if the chain gives ≤ or = the whole way. If even one link is missing or reversed, the negative conclusion collapses. Don't assume "not greater" just because "greater" failed — check the actual bridge.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧠 MNEMONIC 12 — "The 10-Second Scan"
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Before solving, scan the two conclusions:
+- Different element pairs with no connecting chain? → instant "neither follows."
+- Same pair, complementary signs, no relation? → likely "either-or."
+- Same pair, one strong one weak? → check whether any strict sign appears in the chain.
+These three patterns cover the most common question types — a useful rule of thumb, not a fixed ratio.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧠 MNEMONIC 13 — "Write Big, Think Small"
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+On the rough sheet, write symbols HUGE: > ≥ = ≤ <.
+Most errors are not logic errors — they are reading ≥ as >. Big symbols = zero misreads.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⏭️ SKIP STRATEGY — WHEN TO SKIP
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. **The 15-Second Chain Rule:** If you cannot build the master chain within 15 seconds (too many elements, mixed directions, 4+ statements), mark it and move on. Return only if time remains — a tangled 6-element chain can eat 2 minutes for 1 mark.
+
+2. **Coded Inequality with 5+ Symbols:** If the code table has five or more symbols AND the statements are long, skip on the first pass. Decode-and-translate errors are costly; attempt these only in the second round with a fresh mind.
+
+3. **Double Either-Or Traps:** If both conclusions look like either-or candidates but the pairs are slightly different (A vs C in one, A vs D in the other), do NOT guess — this is the examiner's favourite trap. Verify the "same pair" condition carefully or skip. A wrong either-or guess costs 1 mark plus negative marking; a skip costs nothing.

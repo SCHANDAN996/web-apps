@@ -1,0 +1,190 @@
+# Blood Relations (Coded/Complex)
+
+## 1. Why This Chapter Decides Your Rank
+
+In SSC CGL, IBPS PO, and RRB NTPC, blood relation questions are almost guaranteed — and the **coded** version is where toppers separate themselves from the crowd. A simple "A is the brother of B" question takes 20 seconds. But when the examiner writes "A + B means A is the father of B; A − B means A is the sister of B…" and asks you to decode a chain of five symbols, most students either freeze or burn 3 minutes. This chapter exists so that you never do either.
+
+The good news: coded blood relations is not a test of intelligence. It is a test of **method**. Master one method — the family tree — and every question in this chapter becomes mechanical.
+
+**Learning goals.** By the end of this chapter you will be able to:
+1. Decode any symbol-based blood relation code (+, −, ×, ÷, @, #, $, etc.) in under 15 seconds.
+2. Draw a clean family tree using gender symbols and generation levels.
+3. Solve "pointing to a photograph" and "statement-based" complex relations.
+4. Spot the examiner's three favourite traps before they catch you.
+
+---
+
+## 2. The Struggle Is Real — and Fixable
+
+Ask any aspirant what goes wrong in coded blood relations and you hear the same three complaints:
+
+- "I understood the code, but halfway through the chain I forgot who was whose father."
+- "I couldn't tell if the person was male or female, so I guessed."
+- "I solved it correctly but picked the wrong option because 'maternal uncle' and 'paternal uncle' confused me."
+
+All three problems have one root cause: **solving in the head instead of on paper.** The moment you draw, the confusion disappears. So our first rule of this chapter is not a trick — it is a discipline:
+
+> **Rule Zero: Never solve a coded blood relation question without drawing the tree.**
+
+---
+
+## 3. Chunk 1 — The Family Tree Notation (Your Only Tool)
+
+Before touching codes, fix your drawing language. Use this universal notation:
+
+| Symbol | Meaning |
+|---|---|
+| □ (square) or `M` in a box | Male |
+| ○ (circle) or `F` in a circle | Female |
+| `=` (double line) | Married couple |
+| `—` (single horizontal line) | Siblings |
+| Vertical line downward | Parent → Child (next generation) |
+| `?` inside shape | Gender unknown |
+
+**Generation levels matter.** Grandparents are +2, parents +1, you are 0, children −1, grandchildren −2. Many traps (e.g., "grandson" vs "son") are pure generation errors.
+
+**Example.** "Ravi is the son of Meena. Meena is the wife of Suresh."
+Draw: Suresh □ = Meena ○, with a vertical line down to Ravi □. Done — three facts, one picture, zero confusion.
+
+🧠 **Active Recall:** Without looking above — which symbol shows a married couple, and which shows siblings? What does `?` inside a circle mean?
+
+---
+
+## 4. Chunk 2 — Decoding the Symbols (The Core Skill)
+
+In coded questions, the examiner replaces relationship words with symbols. A typical code set looks like this:
+
+> **A + B** means A is the **father** of B
+> **A − B** means A is the **mother** of B
+> **A × B** means A is the **brother** of B
+> **A ÷ B** means A is the **sister** of B
+
+**The decoding algorithm (follow it every single time):**
+
+1. **Read the code table once, then translate each pair as you go** — never try to hold the whole expression in your head.
+2. **Work left to right**, drawing the tree as you decode each pair.
+3. **Mark gender the instant a code gives it.** "Father" → male, "sister" → female. If a code says only "child of," mark `?`.
+4. **Answer only what is asked.** Once the tree is drawn, the final relation is read off, not re-derived.
+
+**Worked Example 1.**
+Code: `P + Q` means P is father of Q; `P − Q` means P is mother of Q; `P × Q` means P is brother of Q.
+Question: In `A + B − C × D`, how is A related to D?
+
+Decode step by step:
+- `A + B` → A is father of B (A = □, B is child).
+- `B − C` → B is mother of C (B = ○, C is child). So A and B are parents of C.
+- `C × D` → C is brother of D (C = □, D is sibling of C).
+
+Tree: A (father) and B (mother) → children C (son) and D. So **A is the father of D.** Notice D's gender is never given — but the question only asked how *A* relates to D, and "father" needs only A's gender. This is a classic examiner trick: they withhold D's gender to make you think the question is unsolvable. It isn't.
+
+🧠 **Active Recall:** In the code above, if the question were "How is D related to A?", why could the answer be only "child" and not "son" or "daughter"?
+
+---
+
+## 5. Chunk 3 — The "Which Expression Means…?" Format
+
+The second major format reverses the direction. Instead of decoding an expression, you must **find** the expression that encodes a target relation.
+
+**Worked Example 2.**
+Code: `P @ Q` → P is wife of Q; `P # Q` → P is son of Q; `P $ Q` → P is sister of Q.
+Question: Which expression means "R is the daughter of T"?
+
+Test each option by decoding:
+- (a) `T # R` → T is son of R. Wrong direction.
+- (b) `R # T` → R is son of T. R is male here — wrong, we need daughter.
+- (c) `R $ X # T` → R is sister of X; X is son of T. R is female, child-generation of T → **R is daughter of T.** ✔
+
+**Method:** For "which expression" questions, decode every option fully. Never stop at the first pair — the gender you need is often revealed only in the last pair.
+
+🧠 **Active Recall:** Why is testing option (b) above a trap even though "R # T" puts R in the child's position of T?
+
+---
+
+## 6. Chunk 4 — Statement-Based Complex Relations (No Symbols, Still Hard)
+
+Not all complex questions use codes. Some hide the relation inside a paragraph:
+
+**Worked Example 3 (Pointing type).**
+"Pointing to a man in a photograph, a woman said, 'His brother's father is the only son of my grandfather.' How is the woman related to the man?"
+
+Decode from the **end of the sentence backward** (this is the key trick for pointing questions):
+- "the only son of my grandfather" → the woman's **father** (grandfather's only son = her father, since "only son" rules out uncles).
+- "His brother's father" → the man's brother's father = the man's **father**.
+- So: the man's father = the woman's father → they are **siblings**. The woman is the man's **sister**.
+
+**Backward-reading rule:** In "X's Y's Z is …" sentences, always start from the last person mentioned and walk back toward the speaker.
+
+**Worked Example 4 (Two-family chain).**
+"A is the son of B. C, B's sister, has a son D and a daughter E. F is the maternal uncle of D. How is A related to D?"
+
+Tree it: B (parent of A) has sister C. C's children are D and E. So A and D are children of two sisters → **cousins**. (F is extra information — examiners plant irrelevant data to waste your time. Learn to ignore it.)
+
+🧠 **Active Recall:** In Example 4, what was the irrelevant piece of information, and why did the examiner include it?
+
+---
+
+## 7. Chunk 5 — Gender-Ambiguity and Double Relations (Advanced)
+
+**Gender-ambiguous names.** Indian exams love names like Kiran, Suman, Kamal, Preeti — usable by any gender. Rule: **never assume gender from a name.** Assume gender only when the question states it ("he," "her son," "sister") or a code forces it ("father" ⇒ male).
+
+**Double relations.** Two people can be related in two ways. Example: "A man marries the daughter of his mother's brother." The wife is his **cousin** by birth and his **wife** by marriage. If the question asks "How was she related to him before marriage?" — the answer is **cousin (maternal uncle's daughter)**. Read the question's time frame carefully.
+
+**Worked Example 5.**
+"Introducing a boy, a girl said, 'He is the son of the daughter of the father of my uncle.' How is the boy related to the girl?"
+
+Backward decode:
+- "my uncle" → girl's uncle (father's brother, typically).
+- "father of my uncle" → girl's **grandfather**.
+- "daughter of the grandfather" → could be the girl's **aunt** (or mother — ambiguity!). If aunt: her son is the girl's **cousin**. If mother: the boy is her **brother**.
+
+When a question is genuinely ambiguous, the exam's official answer usually takes the most direct reading — here, "cousin" is the standard accepted answer because "uncle" implies the paternal line and "daughter of grandfather" is then the aunt. Note this pattern: **examiners intend the reading that keeps the chain outside the speaker's immediate nuclear family.**
+
+🧠 **Active Recall:** State the two rules from this chunk in your own words: (1) about names, (2) about which reading to prefer in ambiguous chains.
+
+---
+
+## 8. Mnemonic Trick — "FMSB" and the Tree Mantra
+
+**Mnemonic 1 — Relation order:** Remember **"F-M-S-B"** (Father, Mother, Son, Brother) as the four relations codes use most. When a code table has 4 symbols, expect exactly these four in some order — decode accordingly.
+
+**Mnemonic 2 — The Tree Mantra:** *"Code a pair, draw a line; gender first, then combine."* Say it before every coded question. It forces the two habits that prevent 90% of errors: translating pair-by-pair and marking gender immediately.
+
+**Mnemonic 3 — Pointing questions:** *"Start at the END, walk to ME."* The last person in the sentence is your anchor; walk the chain back to the speaker.
+
+---
+
+## 9. Summary Table
+
+| Format | Signal | Method | Time target |
+|---|---|---|---|
+| Coded expression → find relation | "A + B means…" | Decode left→right, draw tree, mark gender | 30–40 sec |
+| Find the correct expression | "Which means R is daughter of T?" | Decode every option fully; check gender in last pair | 40–50 sec |
+| Pointing / introducing | "Pointing to a photo…" | Read backward from the end of the sentence | 30–45 sec |
+| Paragraph chain | Multiple statements | Build full tree; ignore planted extra data | 45–60 sec |
+| Gender-ambiguous | Neutral names, no pronouns | Never assume gender; answer only what's provable | — |
+| Double relation | Marriage within family | Check the time frame asked ("before marriage"?) | — |
+
+**Golden rules recap:**
+1. Rule Zero — always draw the tree.
+2. Mark gender the moment it is known; `?` otherwise.
+3. Decode pair by pair, left to right.
+4. Pointing questions: start at the end, walk to the speaker.
+5. Ignore planted irrelevant characters.
+6. Answer only what is asked — nothing more.
+
+📌 **Review this chapter after 2 days.** Redraw the notation table and re-solve Worked Examples 1, 3 and 5 from memory. If you can do all three in under 4 minutes total, you are exam-ready for this topic.
+
+---
+
+## ⚠️ Caution: Examiner's Trap
+
+**Trap 1 — Multiple plausible relations in the options.**
+The examiner designs options so that two answers *look* correct. Example: the true relation is "father," but options include both "father" and "uncle" — and students who misread one pair in the chain land on "uncle." Defence: never pick an option until the **entire** expression is decoded and drawn. Half-decoded chains produce exactly the wrong answers the examiner planted.
+
+**Trap 2 — Confusing vocabulary to rattle you.**
+Terms like "maternal uncle," "paternal aunt," "niece," "sister-in-law," "grandnephew" are used to create panic, not difficulty. Defence: convert every fancy term into tree language instantly — "maternal uncle" = mother's brother (one vertical step up, then a sibling line). If you can place it on the tree, the word has no power over you. Also remember: "cousin" in Indian exams needs no gender; don't reject an option just because it says "cousin" instead of "cousin brother."
+
+**Trap 3 — Double-relation and time-frame questions.**
+When two people are related twice (e.g., cousin who becomes wife), the examiner asks the relation in a specific frame — "before marriage," "after marriage," "by birth." Students who compute the relation correctly but ignore the frame lose the mark. Defence: underline the time-frame word in the question before solving. Similarly, watch for negative phrasing like "which is NOT possible" — one misread word flips the entire answer.
+
+**Bonus trap — the irrelevant character.** As in Worked Example 4, examiners insert a person (like "F, the maternal uncle") who contributes nothing to the asked relation. Every extra person costs you 15–20 seconds if you try to place them. Place them on the tree only if the asked relation passes through them.

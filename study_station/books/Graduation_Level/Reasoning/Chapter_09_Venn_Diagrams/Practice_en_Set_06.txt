@@ -1,0 +1,151 @@
+Practice Set 6 — Venn Diagrams (Hard): Questions 126–145 Easy | Questions 146–150 Moderate
+
+126. In a class of 120 students, 60 play cricket, 50 play football and 40 play hockey. 20 play cricket and football, 15 play football and hockey, 10 play cricket and hockey, and 5 play all three. How many students play none of the three games?
+(a) 15 (b) 10 (c) 20 (d) 5
+Answer: (b)
+Solution: The tempting wrong answer 15 comes from forgetting to add back those playing all three in the formula. By inclusion–exclusion, playing at least one game = 60 + 50 + 40 − 20 − 15 − 10 + 5 = 110, so none = 120 − 110, and the answer is 10.
+Source: PYQ-style
+
+127. In a survey of 200 people, 110 read newspaper A, 90 read newspaper B and 80 read newspaper C. 40 read A and B, 30 read B and C, 25 read A and C, and 15 read all three. How many read exactly one newspaper?
+(a) 115 (b) 125 (c) 135 (d) 145
+Answer: (c)
+Solution: The trap is to subtract the pairwise figures without adding back the all-three group, which gives smaller wrong values. Only A = 110 − 40 − 25 + 15 = 60; only B = 90 − 40 − 30 + 15 = 35; only C = 80 − 30 − 25 + 15 = 40; exactly one = 60 + 35 + 40, so the answer is 135.
+Source: PYQ-style
+
+128. In a group, 70% like tea, 60% like coffee, and 20% like neither. What percentage like both tea and coffee?
+(a) 40% (b) 30% (c) 45% (d) 50%
+Answer: (d)
+Solution: The trap is to compute 70 + 60 − 100 = 30%, which ignores the neither group. Since 20% like neither, 80% like at least one, so both = 70 + 60 − 80, and the answer is 50%.
+Source: PYQ-style
+
+129. In a class, 45 students passed in Mathematics, 40 in Science and 30 in both. If 15 students failed in both subjects, how many students are in the class?
+(a) 75 (b) 65 (c) 70 (d) 80
+Answer: (c)
+Solution: The trap answer 85 comes from adding 45 + 40 + 15 without subtracting the overlap. Passed in at least one = 45 + 40 − 30 = 55; total = 55 + 15, so the answer is 70.
+Source: PYQ-style
+
+130. In an office, 60% of employees know Hindi, 50% know English and 30% know both. What percentage know exactly one of the two languages?
+(a) 40% (b) 50% (c) 60% (d) 30%
+Answer: (b)
+Solution: The trap is to answer 80%, the union, which includes those knowing both languages. Only Hindi = 60 − 30 = 30%; only English = 50 − 30 = 20%; exactly one = 30 + 20, so the answer is 50%.
+Source: PYQ-style
+
+131. In a survey of 150 people, 80 like tea, 70 like coffee and 50 like both. How many like neither?
+(a) 50 (b) 60 (c) 40 (d) 45
+Answer: (a)
+Solution: The trap answer 100 is the union itself, not the complement of the union. At least one = 80 + 70 − 50 = 100; neither = 150 − 100, so the answer is 50.
+Source: PYQ-style
+
+132. In a class of 60 students, 25 play cricket, 30 play football and 10 play both. How many play exactly one game?
+(a) 35 (b) 30 (c) 40 (d) 25
+Answer: (a)
+Solution: The trap answer 45 is the union, which includes the both-game players. Only cricket = 25 − 10 = 15; only football = 30 − 10 = 20; exactly one = 15 + 20, so the answer is 35.
+Source: PYQ-style
+
+133. In a town, 65% of families own a scooter, 45% own a car and 25% own both. What percentage of families own neither?
+(a) 10% (b) 25% (c) 20% (d) 15%
+Answer: (d)
+Solution: The trap is to report 85%, which is the percentage owning at least one vehicle, not neither. At least one = 65 + 45 − 25 = 85%; neither = 100 − 85, so the answer is 15%.
+Source: PYQ-style
+
+134. In a group of 100 students, 48 study Physics, 55 study Chemistry and 42 study Biology. 20 study Physics and Chemistry, 18 study Chemistry and Biology, 15 study Physics and Biology, and 8 study all three. How many study none of the three subjects?
+(a) 0 (b) 5 (c) 2 (d) 8
+Answer: (a)
+Solution: The trap answer 8 confuses the all-three count with the none count. At least one = 48 + 55 + 42 − 20 − 18 − 15 + 8 = 100; none = 100 − 100, so the answer is 0.
+Source: PYQ-style
+
+135. In a survey, 40% of people read only Hindi newspapers, 30% read only English newspapers and 10% read both. What percentage read neither?
+(a) 15% (b) 20% (c) 25% (d) 10%
+Answer: (b)
+Solution: The trap is to subtract 10 again from the only-figures, but those figures are already exclusive. At least one = 40 + 30 + 10 = 80%; neither = 100 − 80, so the answer is 20%.
+Source: PYQ-style
+
+136. In a class, the number of students who like only Maths is 20, only Science is 15, both Maths and Science is 10. If 5 students like neither, the total number of students is:
+(a) 40 (b) 50 (c) 45 (d) 55
+Answer: (b)
+Solution: The trap answer 45 omits the neither group; every region of the diagram plus the outside region must be counted. Total = 20 + 15 + 10 + 5, so the answer is 50.
+Source: PYQ-style
+
+137. In a colony of 250 families, 120 subscribe to channel X, 100 to channel Y and 60 to both. How many families subscribe to exactly one channel?
+(a) 90 (b) 100 (c) 110 (d) 80
+Answer: (b)
+Solution: The trap answer 160 is the union, which wrongly includes the both-group. Only X = 120 − 60 = 60; only Y = 100 − 60 = 40; exactly one = 60 + 40, so the answer is 100.
+Source: PYQ-style
+
+138. In a batch of 90 students, 50 play cricket, 40 play football and 20 play both. The number of students who play neither game is:
+(a) 20 (b) 25 (c) 15 (d) 10
+Answer: (a)
+Solution: The trap is to confuse the overlap of 20 with the outside region; they happen to differ here only after calculation. At least one = 50 + 40 − 20 = 70; neither = 90 − 70, so the answer is 20.
+Source: PYQ-style
+
+139. In a survey of 300 people, 180 like tea, 150 like coffee and 90 like both. How many like at most one of the two drinks?
+(a) 210 (b) 240 (c) 180 (d) 200
+Answer: (a)
+Solution: The trap is to answer 240, which is at least one; "at most one" means exactly one or neither. Exactly one = (180 − 90) + (150 − 90) = 150; neither = 300 − 240 = 60; at most one = 150 + 60, so the answer is 210.
+Source: PYQ-style
+
+140. In a school, 55% of students play cricket, 35% play hockey and 15% play both. What percentage of students play cricket but not hockey?
+(a) 35% (b) 45% (c) 40% (d) 50%
+Answer: (c)
+Solution: The trap answer 55% is the whole cricket circle, which includes those who also play hockey. Cricket but not hockey = 55 − 15, so the answer is 40%.
+Source: PYQ-style
+
+141. In a group of 80 people, 45 speak English, 35 speak French and 15 speak both. How many speak neither language?
+(a) 15 (b) 20 (c) 10 (d) 5
+Answer: (a)
+Solution: The trap is to assume the neither count must differ from the both count; verify by regions: only English 30, only French 20, both 15, neither 15, total 80. At least one = 45 + 35 − 15 = 65; neither = 80 − 65, so the answer is 15.
+Source: PYQ-style
+
+142. In a class of 50 students, 30 passed in English, 25 passed in Maths and 10 passed in both. How many failed in both subjects?
+(a) 10 (b) 15 (c) 5 (d) 0
+Answer: (c)
+Solution: The trap answer 10 treats the both-passed group as the both-failed group. Passed in at least one = 30 + 25 − 10 = 45; failed in both = 50 − 45, so the answer is 5.
+Source: PYQ-style
+
+143. In a survey of 500 people, 60% like brand A, 50% like brand B and 30% like both. How many people like neither brand?
+(a) 50 (b) 150 (c) 100 (d) 200
+Answer: (c)
+Solution: The trap answer 150 comes from wrongly taking 30% of 500 as the neither group. At least one = 60 + 50 − 30 = 80%, i.e. 400 people; neither = 500 − 400, so the answer is 100.
+Source: PYQ-style
+
+144. In a group, 40 people like only tea, 30 like only coffee and 20 like both. If the total group is 100, how many like neither?
+(a) 5 (b) 20 (c) 15 (d) 10
+Answer: (d)
+Solution: The trap is to subtract the both-group again from the only-figures; since "only" values are already exclusive, just add all regions. At least one = 40 + 30 + 20 = 90; neither = 100 − 90, so the answer is 10.
+Source: PYQ-style
+
+145. In a college of 200 students, 90 play cricket, 80 play football, 70 play hockey; 30 play cricket and football, 25 play football and hockey, 20 play cricket and hockey, and 10 play all three. How many play exactly two games?
+(a) 55 (b) 35 (c) 65 (d) 45
+Answer: (d)
+Solution: The trap answer 75 adds the pairwise figures directly, which counts the all-three students three times. Exactly two = (30 − 10) + (25 − 10) + (20 − 10) = 20 + 15 + 10, so the answer is 45.
+Source: PYQ-style
+
+146. In a survey, 70% of people watch TV, 50% read books and 30% do both. What percentage do exactly one of the two activities?
+(a) 60% (b) 40% (c) 50% (d) 70%
+Answer: (a)
+Solution: The trap answer 90% is the union, which includes the both-group. Only TV = 70 − 30 = 40%; only books = 50 − 30 = 20%; exactly one = 40 + 20, so the answer is 60%.
+Source: PYQ-style
+
+147. In a class of 100 students, 60 like Maths, 50 like English and 20 like both. The number of students who like Maths or English but not both is:
+(a) 50 (b) 70 (c) 80 (d) 60
+Answer: (b)
+Solution: The trap answer 90 is the union; "but not both" excludes the overlap. Only Maths = 60 − 20 = 40; only English = 50 − 20 = 30; exactly one = 40 + 30, so the answer is 70.
+Source: PYQ-style
+
+148. In a group of 120 people, 75 like tea, 65 like coffee and 45 like both. How many like at least one of the two drinks?
+(a) 85 (b) 90 (c) 100 (d) 95
+Answer: (d)
+Solution: The trap answer 140 adds the two circles without removing the overlap counted twice. At least one = 75 + 65 − 45, so the answer is 95.
+Source: PYQ-style
+
+149. In a survey of 400 people, 220 read magazine P, 180 read magazine Q and 100 read both. How many read neither magazine?
+(a) 80 (b) 120 (c) 100 (d) 60
+Answer: (c)
+Solution: The trap is to assume the neither count must differ from the both count; verify: only P = 120, only Q = 80, both = 100, neither = 100, total = 400. At least one = 220 + 180 − 100 = 300; neither = 400 − 300, so the answer is 100.
+Source: PYQ-style
+
+150. In a batch of 150 students, 80 study Hindi, 70 study English, 60 study Sanskrit; 30 study Hindi and English, 25 study English and Sanskrit, 20 study Hindi and Sanskrit, and 10 study all three. How many students study none of the three languages?
+(a) 10 (b) 0 (c) 15 (d) 5
+Answer: (d)
+Solution: The tempting wrong answer 15 comes from subtracting the all-three group instead of adding it back in the formula. At least one = 80 + 70 + 60 − 30 − 25 − 20 + 10 = 145; none = 150 − 145, so the answer is 5.
+Source: PYQ-style

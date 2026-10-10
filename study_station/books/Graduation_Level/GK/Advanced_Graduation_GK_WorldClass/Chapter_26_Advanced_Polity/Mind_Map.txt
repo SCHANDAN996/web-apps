@@ -1,0 +1,49 @@
+```mermaid
+graph TD
+    A["उन्नत भारतीय राजव्यवस्था<br>Advanced Indian Polity"] --> B["संविधान की बुनियाद<br>Constitutional Foundations"]
+    A --> C["संघीय ढाँचा<br>Union Government"]
+    A --> D["राज्य व केंद्र-राज्य संबंध<br>State & Centre-State Relations"]
+    A --> E["संवैधानिक निकाय<br>Constitutional Bodies"]
+    A --> F["न्यायपालिका<br>Judiciary"]
+    A --> G["परीक्षक के जाल<br>Examiner's Traps"]
+    A --> H["रणनीति<br>Strategy"]
+
+    B --> B1["मूल संरचना सिद्धांत<br>Basic Structure Doctrine<br>केशवानंद भारती 1973"]
+    B --> B2["संशोधन: अनुच्छेद 368<br>Amendment: Article 368"]
+    B --> B3["मौलिक अधिकार: अनुच्छेद 12-35<br>Fundamental Rights: Art 12-35"]
+    B --> B4["DPSP: अनुच्छेद 36-51<br>Directive Principles: Art 36-51"]
+    B --> B5["मौलिक कर्तव्य: अनुच्छेद 51A<br>Fundamental Duties: Art 51A<br>42वाँ संशोधन 1976"]
+
+    C --> C1["राष्ट्रपति: अनुच्छेद 52-62<br>President: Art 52-62<br>वेटो, अध्यादेश Art 123"]
+    C --> C2["प्रधानमंत्री व मंत्रिपरिषद<br>PM & Council of Ministers<br>Art 74-75"]
+    C --> C3["संसद: लोकसभा + राज्यसभा<br>Parliament: Lok Sabha + Rajya Sabha<br>धन विधेयक Art 110"]
+    C --> C4["उपराष्ट्रपति: अनुच्छेद 63<br>Vice-President: Art 63<br>राज्यसभा के पदेन सभापति"]
+
+    D --> D1["राज्यपाल: अनुच्छेद 153-167<br>Governor: Art 153-167"]
+    D --> D2["सातवीं अनुसूची<br>7th Schedule<br>संघ 100, राज्य 61, समवर्ती 52"]
+    D --> D3["राष्ट्रपति शासन: अनुच्छेद 356<br>President's Rule: Art 356<br>एस.आर. बोम्मई 1994"]
+    D --> D4["वित्त आयोग: अनुच्छेद 280<br>Finance Commission: Art 280"]
+
+    E --> E1["चुनाव आयोग: अनुच्छेद 324<br>Election Commission: Art 324"]
+    E --> E2["UPSC: अनुच्छेद 315-323<br>UPSC: Art 315-323"]
+    E --> E3["CAG: अनुच्छेद 148-151<br>CAG: Art 148-151"]
+    E --> E4["अटॉर्नी जनरल: अनुच्छेद 76<br>Attorney General: Art 76"]
+    E --> E5["NHRC: 1993 अधिनियम<br>NHRC: Act of 1993<br>गैर-संवैधानिक निकाय"]
+
+    F --> F1["सुप्रीम कोर्ट: अनुच्छेद 124-147<br>Supreme Court: Art 124-147"]
+    F --> F2["हाई कोर्ट: अनुच्छेद 214-231<br>High Courts: Art 214-231"]
+    F --> F3["रिट: अनुच्छेद 32 व 226<br>Writs: Art 32 & 226<br>226 की सीमा अधिक"]
+    F --> F4["न्यायिक पुनरावलोकन<br>Judicial Review<br>Art 13, 32, 226"]
+    F --> F5["NJAC बनाम कोलेजियम<br>NJAC vs Collegium<br>99वाँ संशोधन रद्द 2015"]
+
+    G --> G1["अनुच्छेद भ्रम<br>Article Confusion<br>356 बनाम 352 बनाम 360"]
+    G --> G2["संशोधन भ्रम<br>Amendment Confusion<br>42वाँ बनाम 44वाँ"]
+    G --> G3["लगभग-सही कथन<br>Near-Correct Statements<br>राष्ट्रपति निर्वाचित vs मनोनीत"]
+    G --> G4["नकारात्मक वाक्य<br>Negative Wording<br>कौन-सा सही नहीं है"]
+    G --> G5["निकाय भ्रम<br>Body Confusion<br>संवैधानिक vs वैधानिक"]
+
+    H --> H1["15/45 सेकंड नियम<br>15/45 Second Rule<br>आसान पहले, कठिन बाद में"]
+    H --> H2["अनुच्छेद-सूची रटें<br>Memorise Article Lists<br>52, 74, 110, 280, 324, 356"]
+    H --> H3["मील के पत्थर केस<br>Landmark Cases<br>केशवानंद, बोम्मई, मिनर्वा मिल्स"]
+    H --> H4["Skip Strategy<br>अनिश्चित कथन-प्रश्न छोड़ें<br>नेगेटिव मार्किंग से बचें"]
+```

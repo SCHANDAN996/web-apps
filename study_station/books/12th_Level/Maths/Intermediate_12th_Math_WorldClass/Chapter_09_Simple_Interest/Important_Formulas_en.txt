@@ -1,8 +1,28 @@
-# Chapter: Simple Interest, Level: intermediate
+# Important Formulas — Simple Interest
 
-@content_agent lang=en level=intermediate 'List all important formulas, equations, and rules for Simple Interest.
-Instructions:
-- Only formulas and a one-line hint (when to use), no detailed explanation.
-- Present in a clean table: Formula Name | Formula | Use-Hint
-- Cover all formulas essential for solving exam questions.
-- Keep language simple and precise.'
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Simple Interest (SI) | SI = (P × R × T) / 100 | Basic formula; P = Principal, R = Rate % p.a., T = Time in years |
+| Principal | P = (SI × 100) / (R × T) | When SI, rate and time are given |
+| Rate | R = (SI × 100) / (P × T) | When SI, principal and time are given |
+| Time | T = (SI × 100) / (P × R) | When SI, principal and rate are given |
+| Amount | A = P + SI = P(1 + RT/100) | Total money received/paid back |
+| SI from Amount | SI = A − P | When final amount and principal are known |
+| Time in months | T = months / 12 | Convert months to years before applying formula |
+| Time in days | T = days / 365 | Convert days to years (use 366 for leap year if asked) |
+| Sum becomes n times | T = (n − 1) × 100 / R | Money becomes n times itself at rate R |
+| Sum becomes n times (rate) | R = (n − 1) × 100 / T | Find rate when sum becomes n times in T years |
+| Sum doubles | T = 100 / R | Special case of n = 2 |
+| Sum triples | T = 200 / R | Special case of n = 3 |
+| Two rates, same SI | P₁R₁T₁ = P₂R₂T₂ | When two investments earn equal interest |
+| Principal split (two parts) | P₁ = (SI × 100 − P × R₂ × T) / (T(R₁ − R₂)) | Sum P lent partly at R₁% and partly at R₂% for T years |
+| Equal annual instalment | x = 100A / [100n + R·n(n−1)/2] | Repaying debt A in n equal yearly instalments at rate R% |
+| SI for fractional rate | Use R as given (e.g., 5/2 %) | Convert mixed fractions to improper fractions first |
+| Change in SI | ΔSI = P × ΔR × T / 100 | When rate changes by ΔR |
+| SI ratio (same P, T) | SI₁ : SI₂ = R₁ : R₂ | Compare interests at different rates |
+| SI ratio (same P, R) | SI₁ : SI₂ = T₁ : T₂ | Compare interests over different times |
+| Annual SI (direct) | SI per year = P × R / 100 | SI is equal every year — key difference from CI |
+| Difference CI − SI (2 yrs) | CI − SI = P(R/100)² | Only for 2 years; used in comparison questions |
+| Difference CI − SI (3 yrs) | CI − SI = P(R/100)²(3 + R/100) | Only for 3 years |
+| Principal from CI–SI diff (2 yrs) | P = Diff × (100/R)² | Find P when CI–SI difference for 2 years is given |
+| Rate from CI–SI diff (2 yrs) | R = (2 × Diff / SI) × 100 | When 2-year SI and CI–SI difference are known |

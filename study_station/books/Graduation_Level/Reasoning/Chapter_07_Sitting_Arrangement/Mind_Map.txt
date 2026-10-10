@@ -1,0 +1,46 @@
+```mermaid
+graph TD
+    A["बैठक व्यवस्था (जटिल)<br>Sitting Arrangement (Complex)"] --> B["मुख्य प्रकार<br>Main Types"]
+    A --> C["समाधान रणनीति<br>Solution Strategy"]
+    A --> D["समय प्रबंधन<br>Time Management"]
+    A --> E["परीक्षक के जाल<br>Examiner Traps"]
+
+    B --> B1["वृत्ताकार<br>Circular"]
+    B --> B2["रैखिक<br>Linear / Row"]
+    B --> B3["आयताकार / वर्गाकार<br>Rectangular / Square"]
+    B --> B4["समानांतर पंक्तियाँ<br>Parallel Rows"]
+    B --> B5["फर्श-आधारित<br>Floor-based Puzzle"]
+    B --> B6["बॉक्स / स्टैक<br>Box / Stack Puzzle"]
+
+    B1 --> B1a["केन्द्र की ओर मुख<br>Facing Centre"]
+    B1 --> B1b["बाहर की ओर मुख<br>Facing Outside"]
+    B1 --> B1c["मिश्रित दिशा<br>Mixed Facing"]
+    B2 --> B2a["एक पंक्ति - एक दिशा<br>Single Row, One Direction"]
+    B2 --> B2b["एक पंक्ति - उत्तर/दक्षिण मिश्रित<br>Single Row, North/South Mixed"]
+    B4 --> B4a["आमने-सामने<br>Face to Face"]
+    B4 --> B4b["एक ही दिशा में<br>Same Direction"]
+
+    C --> C1["निश्चित सुराग पहले<br>Definite Clues First"]
+    C --> C2["नकारात्मक सुराग बाद में<br>Negative Clues Later"]
+    C --> C3["संभावना-आधारित सुराग<br>Possibility-based Clues"]
+    C --> C4["आरेख बनाएँ<br>Draw Diagram"]
+    C --> C5["केस विभाजन<br>Case Splitting"]
+    C --> C6["अतिरिक्त जानकारी जोड़ें<br>Link Extra Attributes"]
+
+    C4 --> C4a["वृत्त में समान दूरी<br>Equal Gaps in Circle"]
+    C4 --> C4b["दिशा तीर अंकित करें<br>Mark Facing Arrows"]
+    C5 --> C5a["2 केस बनाएँ<br>Make 2 Cases"]
+    C5 --> C5b["गलत केस हटाएँ<br>Eliminate Wrong Case"]
+
+    D --> D1["पहले 30 सेकंड: सुराग पढ़ें<br>First 30 sec: Read All Clues"]
+    D --> D2["2-3 मिनट: आरेख पूरा<br>2-3 min: Complete Diagram"]
+    D --> D3["एक आरेख से 4-5 प्रश्न<br>One Diagram Solves 4-5 Questions"]
+    D --> D4["अटकने पर छोड़ें<br>Skip if Stuck"]
+
+    E --> E1["बाएँ/दाएँ भ्रम<br>Left/Right Confusion"]
+    E --> E2["केन्द्र vs बाहर मुख<br>Centre vs Outside Facing"]
+    E --> E3["'के बीच' vs 'बगल में'<br>'Between' vs 'Adjacent'"]
+    E --> E4["'ठीक बाएँ' vs 'बाएँ'<br>'Immediate Left' vs 'Left'"]
+    E --> E5["क्रमांक गिनती की गलती<br>Position Counting Error"]
+    E --> E6["अधूरी जानकारी पर अनुमान<br>Assuming Incomplete Info"]
+```

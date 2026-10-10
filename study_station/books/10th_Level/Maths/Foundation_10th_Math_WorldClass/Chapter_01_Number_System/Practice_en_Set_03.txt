@@ -1,337 +1,249 @@
-Set 3: Number System MCQs (English)
-Questions 51–75: All Medium
+Q51. (Medium) If the four-digit number 4x65 is completely divisible by 9, what is the value of digit x?
+(A) 3 (B) 2 (C) 4 (D) 5
 
-Q51. If the number
-4
-𝑥
-65
-4x65 is divisible by 9, what is the value of
-𝑥
-x?
-(a) 2 (b) 3 (c) 4 (d) 5
-Answer: (b) 3
-Solution: Sum of digits = 4 + x + 6 + 5 = 15 + x. For divisibility by 9, sum must be a multiple of 9. 15 + x = 18 ⇒ x = 3. (27 is too large for a single digit.)
-Source: NCERT Class 8
+Answer: (A) 3
 
-Q52. The LCM of 24, 36, and 40 is
-(a) 720 (b) 360 (c) 480 (d) 240
-Answer: (b) 360
-Solution: 24 = 2³×3, 36 = 2²×3², 40 = 2³×5. LCM = 2³×3²×5 = 8×9×5 = 360.
-Source: NCERT Class 6
+Solution:
+By the divisibility rule for 9, the sum of all digits must be a multiple of 9. Sum = 4 + x + 6 + 5 = 15 + x. The smallest single digit x making 15 + x divisible by 9 is x = 18 – 15 = 3. Therefore, the value of x is 3. Hence, the correct option is (A).
 
-Q53. The HCF of 48 and 180 expressed as a linear combination is
-(a) 48 × 4 – 180 × 1 (b) 180 × 1 – 48 × 3 (c) 180 × 4 – 48 × 15 (d) 48 × 4 – 180 × 1
-Answer: (d) 48 × 4 – 180 × 1
-Solution: HCF(48,180) = 12. 48×4 = 192, 192 – 180 = 12. So 48×4 – 180×1 = 12.
-Source: NCERT Class 10
-
-Q54. The number of three-digit numbers divisible by 7 is
-(a) 128 (b) 127 (c) 129 (d) 126
-Answer: (a) 128
-Solution: Smallest 3-digit divisible by 7: 105 (7×15). Largest: 994 (7×142). Count = 142 – 15 + 1 = 128.
 Source: SSC CGL
 
-Q55. Which of the following fractions has a non-terminating repeating decimal expansion?
-(a)
-7
-20
-20
-7
-	​
+Q52. (Medium) What is the Least Common Multiple (LCM) of 24, 36, and 40?
+(A) 240 (B) 360 (C) 480 (D) 720
 
- (b)
-11
-40
-40
-11
-	​
+Answer: (B) 360
 
- (c)
-13
-15
-15
-13
-	​
+Solution:
+Prime factorizations: 24 = 2³ × 3, 36 = 2² × 3², 40 = 2³ × 5. Taking the highest power of each prime factor: LCM = 2³ × 3² × 5 = 8 × 9 × 5 = 360. Thus, the LCM is 360. Hence, the correct option is (B).
 
- (d)
-9
-25
-25
-9
-	​
-
-Answer: (c)
-13
-15
-15
-13
-	​
-
-Solution: Denominator prime factorization: 20 = 2²×5 (terminating), 40 = 2³×5 (terminating), 25 = 5² (terminating). 15 = 3×5, contains factor 3, so repeating.
-Source: NCERT Class 10
-
-Q56. The unit digit of
-3
-58
-+
-7
-42
-3
-58
-+7
-42
- is
-(a) 0 (b) 2 (c) 8 (d) 6
-Answer: (c) 8
-Solution: Cyclicity of 3: 3,9,7,1. 58 mod 4 = 2 → 3²=9. Cyclicity of 7: 7,9,3,1. 42 mod 4 = 2 → 7²=49 → unit digit 9. Sum unit digits: 9+9=18 → unit digit 8.
-Source: RRB NTPC
-
-Q57. If x and y are two prime numbers such that x < y and x + y = 24, then how many such pairs exist?
-(a) 1 (b) 2 (c) 3 (d) 4
-Answer: (c) 3
-Solution: Primes <24: 5+19=24, 7+17=24, 11+13=24. Also 2+22 no (22 not prime), 3+21 no. So three pairs: (5,19), (7,17), (11,13).
-Source: Bank PO
-
-Q58. The least number which is a perfect square and also divisible by 8, 12, and 15 is
-(a) 3600 (b) 2400 (c) 14400 (d) 900
-Answer: (a) 3600
-Solution: LCM of 8,12,15 = 120. To make it a perfect square, multiply by missing factors to get even exponents: 120 = 2³×3×5 → need 2×3×5 = 30 → 120×30=3600 = 60².
-Source: SSC CGL
-
-Q59. How many prime numbers are there between 1 and 30?
-(a) 9 (b) 10 (c) 11 (d) 12
-Answer: (b) 10
-Solution: Primes up to 30: 2,3,5,7,11,13,17,19,23,29 → 10.
-Source: NCERT Class 6
-
-Q60. If
-𝑝
-p and
-𝑞
-q are co-prime numbers, then their LCM is
-(a) p + q (b) p – q (c) pq (d) 1
-Answer: (c) pq
-Solution: For co-prime numbers, HCF = 1, so LCM = Product = pq.
-Source: NCERT Class 10
-
-Q61. The remainder when
-123
-×
-456
-×
-789
-123×456×789 is divided by 9 is
-(a) 0 (b) 3 (c) 6 (d) 8
-Answer: (a) 0
-Solution: Find remainders of each modulo 9: 123 → 1+2+3=6; 456 → 4+5+6=15→1+5=6; 789 → 7+8+9=24→2+4=6. Product of remainders: 6×6×6=216 → sum digits 9 → remainder 0. So divisible by 9.
 Source: SSC CHSL
 
-Q62. The product of two irrational numbers is
-(a) always irrational (b) always rational (c) can be rational or irrational (d) always an integer
-Answer: (c) can be rational or irrational
-Solution: √2 × √8 = √16 = 4 (rational); √2 × √3 = √6 (irrational). So it depends.
-Source: NCERT Class 9
+Q53. (Medium) The HCF of 48 and 180 is 12. Expressing 12 as an integral linear combination of 48 and 180 gives:
+(A) 180 × 4 – 48 × 15 (B) 180 × 1 – 48 × 3 (C) 48 × 4 – 180 × 1 (D) 48 × 5 – 180 × 1
 
-Q63. The greatest 4-digit number that is divisible by 15, 25, 40, and 75 is
-(a) 9600 (b) 9800 (c) 9000 (d) 9900
-Answer: (a) 9600
-Solution: LCM of 15,25,40,75: 15=3×5, 25=5², 40=2³×5, 75=3×5². LCM = 2³×3×5² = 600. Largest 4-digit = 9999. 9999 ÷ 600 = 16 remainder 399. 9999 – 399 = 9600.
-Source: SSC CGL
-
-Q64. The number
-0.142857142857...
-0.142857142857... expressed as a fraction in simplest form is
-(a)
-1
-7
-7
-1
-	​
-
- (b)
-142857
-999999
-999999
-142857
-	​
-
- (c)
-2
-13
-13
-2
-	​
-
- (d)
-1
-6
-6
-1
-	​
-
-Answer: (a)
-1
-7
-7
-1
-	​
-
-Solution: Recognize repeating block of 6 digits. Let x = 0.142857... 1,000,000x = 142857.142857... Subtract: 999,999x = 142857 ⇒ x = 142857/999999 = 1/7.
-Source: NCERT Class 9
-
-Q65. Find the smallest number that when divided by 12, 16, 20, and 25 leaves remainder 7 in each case.
-(a) 1207 (b) 2407 (c) 1200 (d) 2400
-Answer: (a) 1207
-Solution: LCM of 12,16,20,25 = 1200. Required number = 1200 + 7 = 1207.
-Source: RRB NTPC
-
-Q66. The number of factors of 360 is
-(a) 20 (b) 22 (c) 24 (d) 26
-Answer: (c) 24
-Solution: 360 = 2³ × 3² × 5¹. Number of factors = (3+1)(2+1)(1+1) = 4×3×2 = 24.
-Source: NCERT Class 8
-
-Q67. Which of the following numbers is irrational?
-(a)
-25
-25
-	​
-
- (b)
-49
-49
-	​
-
- (c)
-12
-12
-	​
-
- (d)
-0.04
-0.04
-	​
-
-Answer: (c)
-12
-12
-	​
+Answer: (C) 48 × 4 – 180 × 1
 
 Solution:
-25
-=
-5
-25
-	​
+Using the Euclidean algorithm: 180 = 48 × 3 + 36, and 48 = 36 × 1 + 12. Rearranging gives: 12 = 48 – 36 × 1 = 48 – (180 – 48 × 3) = 48 × 4 – 180 × 1. Evaluating gives 192 – 180 = 12. Thus, the linear combination is 48 × 4 – 180 × 1. Hence, the correct option is (C).
 
-=5,
-49
-=
-7
-49
-	​
+Source: SSC MTS
 
-=7,
-0.04
-=
-0.2
-0.04
-	​
+Q54. (Medium) How many three-digit positive integers are completely divisible by 7?
+(A) 132 (B) 126 (C) 130 (D) 128
 
-=0.2 all rational.
-12
-=
-2
-3
-12
-	​
+Answer: (D) 128
 
-=2
-3
-	​
-
- is irrational because
-3
-3
-	​
-
- is irrational.
-Source: NCERT Class 9
-
-Q68. If the HCF of 210 and 55 is expressed as
-210
-×
-5
-+
-55
-𝑦
-210×5+55y, then y is
-(a) –19 (b) 19 (c) –5 (d) 5
-Answer: (a) –19
-Solution: HCF(210,55) = 5. 210×5 + 55y = 5 ⇒ 1050 + 55y = 5 ⇒ 55y = –1045 ⇒ y = –19.
-Source: NCERT Class 10
-
-Q69. The sum of the largest and smallest 2-digit prime numbers is
-(a) 108 (b) 106 (c) 104 (d) 100
-Answer: (a) 108
-Solution: Smallest 2-digit prime = 11. Largest 2-digit prime = 97. Sum = 108.
-Source: Bank PO
-
-Q70. The number
-22
-7
-7
-22
-	​
-
- is
-(a) rational (b) irrational (c) integer (d) a surd
-Answer: (a) rational
 Solution:
-22
-7
-7
-22
-	​
+The smallest 3-digit multiple of 7 is 105 (7 × 15) and the largest 3-digit multiple is 994 (7 × 142). The total count is an arithmetic progression: N = 142 – 15 + 1 = 128 numbers. Thus, there are 128 such numbers. Hence, the correct option is (D).
 
- is a fraction of two integers, hence rational. It is an approximation of π, not π itself.
-Source: NCERT Class 9
-
-Q71. The digits of a two-digit number differ by 2, and the number is 7 times the sum of its digits. The number is
-(a) 42 (b) 53 (c) 35 (d) 24
-Answer: (a) 42
-Solution: Let number = 10a + b. Given a – b = 2 (or b – a = 2) and 10a + b = 7(a+b) → 10a + b = 7a + 7b → 3a = 6b → a = 2b. Substitute a=2b into a – b = 2 gives 2b – b = b = 2, a = 4. Number = 42.
-Source: SSC CGL
-
-Q72. The LCM of two numbers is 45 times their HCF. If one number is 125 and the sum of their LCM and HCF is 1150, find the other number.
-(a) 225 (b) 250 (c) 200 (d) 275
-Answer: (a) 225
-Solution: Let HCF = h, LCM = 45h. Sum: h + 45h = 46h = 1150 ⇒ h = 25. LCM = 45×25 = 1125. Product of numbers = LCM×HCF = 1125×25 = 28125. Other number = 28125 ÷ 125 = 225.
-Source: SSC CGL
-
-Q73. The unit digit of
-(
-1234
-)
-5678
-(1234)
-5678
- is
-(a) 2 (b) 4 (c) 6 (d) 8
-Answer: (c) 6
-Solution: Unit digit depends only on 4. Cyclicity of 4: 4¹=4, 4²=16 → 6, 4³=64 → 4, cycle of 2. Exponent 5678 is even, so unit digit = 6.
 Source: RRB NTPC
 
-Q74. What is the least number by which 4320 must be multiplied to make it a perfect cube?
-(a) 25 (b) 50 (c) 75 (d) 100
-Answer: (b) 50
-Solution: Prime factorization: 4320 = 2⁵ × 3³ × 5. For a perfect cube, exponents must be multiples of 3. Need 2¹ (to make 2⁶), 5² (to make 5³). Multiply by 2 × 5² = 50.
+Q55. (Medium) Which of the following rational fractions has a non-terminating repeating decimal expansion?
+(A) 13/15 (B) 7/20 (C) 11/40 (D) 9/25
+
+Answer: (A) 13/15
+
+Solution:
+Factoring the denominators: 20 = 2² × 5 (terminating), 40 = 2³ × 5 (terminating), 25 = 5² (terminating). For 13/15, the denominator is 15 = 3 × 5; having a prime factor 3 other than 2 or 5 causes a non-terminating repeating expansion. Thus, 13/15 has a non-terminating repeating decimal. Hence, the correct option is (A).
+
+Source: RRB Group D
+
+Q56. (Medium) Find the unit digit of the expression 3⁵⁸ + 7⁴².
+(A) 0 (B) 8 (C) 2 (D) 6
+
+Answer: (B) 8
+
+Solution:
+For 3⁵⁸: cyclicity is 4. 58 = 4 × 14 + 2, remainder 2, so 3² = 9. For 7⁴²: cyclicity is 4. 42 = 4 × 10 + 2, remainder 2, so 7² = 49 (unit 9). Adding unit digits: 9 + 9 = 18, which gives unit digit 8. Hence, the unit digit is 8. Hence, the correct option is (B).
+
 Source: SSC CGL
 
-Q75. The product of three consecutive positive integers is always divisible by
-(a) 2 (b) 3 (c) 4 (d) 6
-Answer: (d) 6
-Solution: Among any three consecutive integers, at least one is even (divisible by 2) and exactly one is divisible by 3. So product divisible by 2×3=6.
-Source: NCERT Class 10
+Q57. (Medium) (⚠️ Examiner's Trap) If x and y are two distinct prime numbers such that x < y and x + y = 24, how many such pairs (x, y) exist?
+(A) 4 (B) 2 (C) 3 (D) 5
 
-End of Set 3.
+Answer: (C) 3
+
+Solution:
+Testing prime numbers less than 24: (5, 19) since 5 + 19 = 24; (7, 17) since 7 + 17 = 24; (11, 13) since 11 + 13 = 24. Note that (1, 23) is invalid because 1 is not prime, and (3, 21) is invalid because 21 = 3 × 7 is composite. Therefore, exactly 3 such prime pairs exist. Hence, the correct option is (C).
+
+Source: SSC CHSL
+
+Q58. (Medium) Find the least positive integer that is a perfect square and is also divisible by 8, 12, and 15.
+(A) 7200 (B) 1200 (C) 2400 (D) 3600
+
+Answer: (D) 3600
+
+Solution:
+LCM(8, 12, 15) = 120. In prime factored form: 120 = 2³ × 3¹ × 5¹. To make the exponents of all prime factors even for a perfect square, we must multiply by 2¹ × 3¹ × 5¹ = 30. The required least perfect square is 120 × 30 = 3600 (= 60²). Thus, the number is 3600. Hence, the correct option is (D).
+
+Source: SSC MTS
+
+Q59. (Medium) How many prime numbers exist between 1 and 30?
+(A) 10 (B) 8 (C) 9 (D) 11
+
+Answer: (A) 10
+
+Solution:
+Listing all prime numbers strictly between 1 and 30: 2, 3, 5, 7, 11, 13, 17, 19, 23, and 29. Counting these gives exactly 10 prime numbers. Hence, the correct option is (A).
+
+Source: RRB NTPC
+
+Q60. (Medium) If p and q are two co-prime positive integers, what is their Least Common Multiple (LCM)?
+(A) p + q (B) pq (C) p – q (D) 1
+
+Answer: (B) pq
+
+Solution:
+For any two co-prime numbers, their Highest Common Factor (HCF) is 1. Since LCM × HCF = p × q, we have LCM × 1 = pq, which gives LCM = pq. Hence, the correct option is (B).
+
+Source: RRB Group D
+
+Q61. (Medium) What is the remainder when the product 123 × 456 × 789 is divided by 9?
+(A) 6 (B) 3 (C) 0 (D) 8
+
+Answer: (C) 0
+
+Solution:
+Modulo 9 remainders equal the sum of digits mod 9: 123 has sum 1+2+3 = 6 ≡ 6; 456 has sum 4+5+6 = 15 ≡ 6; 789 has sum 7+8+9 = 24 ≡ 6. Multiplying remainders: 6 × 6 × 6 = 216. The sum of digits of 216 is 2+1+6 = 9 ≡ 0 (mod 9). Thus, the remainder is 0. Hence, the correct option is (C).
+
+Source: SSC CGL
+
+Q62. (Medium) The product of any two irrational numbers is:
+(A) Always an integer (B) Always irrational (C) Always rational (D) Sometimes rational, sometimes irrational
+
+Answer: (D) Sometimes rational, sometimes irrational
+
+Solution:
+Multiplying √2 by √2 yields 2 (a rational number). Multiplying √2 by √3 yields √6 (an irrational number). Thus, the product of two irrational numbers can be sometimes rational, sometimes irrational. Hence, the correct option is (D).
+
+Source: SSC CHSL
+
+Q63. (Medium) What is the greatest four-digit number that is exactly divisible by 15, 25, 40, and 75?
+(A) 9600 (B) 9800 (C) 9750 (D) 9900
+
+Answer: (A) 9600
+
+Solution:
+Prime factorizations: 15 = 3 × 5, 25 = 5², 40 = 2³ × 5, 75 = 3 × 5². LCM = 2³ × 3 × 5² = 8 × 3 × 25 = 600. The greatest 4-digit number is 9999. Dividing 9999 by 600 yields a quotient of 16 with remainder 399. 9999 – 399 = 9600 (or 600 × 16 = 9600). Thus, the greatest four-digit number is 9600. Hence, the correct option is (A).
+
+Source: SSC MTS
+
+Q64. (Medium) The repeating decimal 0.142857142857... expressed as a fraction in simplest form is:
+(A) 142857/999999 (B) 1/7 (C) 2/13 (D) 1/6
+
+Answer: (B) 1/7
+
+Solution:
+Let x = 0.142857142857... Multiplying by 10⁶ gives 1,000,000x = 142857.142857... Subtracting gives 999,999x = 142857, so x = 142857 / 999999. Dividing numerator and denominator by 142857 gives exactly 1/7. Thus, the fraction is 1/7. Hence, the correct option is (B).
+
+Source: RRB NTPC
+
+Q65. (Medium) Find the least positive integer that leaves a remainder of 7 when divided by 12, 16, 20, and 25.
+(A) 1200 (B) 1193 (C) 1207 (D) 2407
+
+Answer: (C) 1207
+
+Solution:
+The required number is given by LCM(12, 16, 20, 25) + 7. Factoring: 12 = 2² × 3, 16 = 2⁴, 20 = 2² × 5, 25 = 5². LCM = 2⁴ × 3 × 5² = 16 × 3 × 25 = 1200. Adding remainder 7 gives 1200 + 7 = 1207. Thus, the required number is 1207. Hence, the correct option is (C).
+
+Source: RRB Group D
+
+Q66. (Medium) What is the total number of positive divisors (factors) of 360?
+(A) 30 (B) 18 (C) 20 (D) 24
+
+Answer: (D) 24
+
+Solution:
+Prime factorization of 360 is 360 = 2³ × 3² × 5¹. The number of factors is found by adding 1 to each exponent and multiplying: (3 + 1)(2 + 1)(1 + 1) = 4 × 3 × 2 = 24 factors. Hence, the number of factors is 24. Hence, the correct option is (D).
+
+Source: SSC CGL
+
+Q67. (Medium) Which of the following numbers is an irrational number?
+(A) √12 (B) √25 (C) √49 (D) √0.04
+
+Answer: (A) √12
+
+Solution:
+Evaluating the values: √25 = 5 (rational), √49 = 7 (rational), and √0.04 = 0.2 (rational). For √12 = √(4 × 3) = 2√3, since √3 is irrational, 2√3 is an irrational number. Thus, √12 is an irrational number. Hence, the correct option is (A).
+
+Source: SSC CHSL
+
+Q68. (Medium) If the HCF of 210 and 55 is expressed in the form 210 × 5 + 55y, find the value of integer y.
+(A) 19 (B) –19 (C) –5 (D) 5
+
+Answer: (B) –19
+
+Solution:
+By Euclidean algorithm: 210 = 55 × 3 + 45, 55 = 45 × 1 + 10, 45 = 10 × 4 + 5, 10 = 5 × 2 + 0. Thus HCF(210, 55) = 5. Setting up the equation: 210 × 5 + 55y = 5 → 1050 + 55y = 5 → 55y = –1045 → y = –1045 / 55 = –19. Therefore, the value of y is –19. Hence, the correct option is (B).
+
+Source: SSC MTS
+
+Q69. (Medium) What is the sum of the largest two-digit prime number and the smallest two-digit prime number?
+(A) 110 (B) 106 (C) 108 (D) 104
+
+Answer: (C) 108
+
+Solution:
+The smallest two-digit prime number is 11, and the largest two-digit prime number is 97. Their sum is 11 + 97 = 108. Thus, the sum is 108. Hence, the correct option is (C).
+
+Source: RRB NTPC
+
+Q70. (Medium) (⚠️ Examiner's Trap) The fractional number 22/7 is mathematically classified as a/an:
+(A) A surd (B) Irrational number (C) Integer (D) Rational number
+
+Answer: (D) Rational number
+
+Solution:
+The number 22/7 is expressed as the ratio of two integers (p = 22, q = 7 with q ≠ 0), so by definition it is a rational number. Although 22/7 is commonly used as a numerical approximation for the irrational constant π, 22/7 itself is strictly rational. Hence, the correct option is (D).
+
+Source: RRB Group D
+
+Q71. (Medium) The digits of a two-digit number differ by 2, and the number is exactly 7 times the sum of its digits. What is the number?
+(A) 42 (B) 24 (C) 64 (D) 46
+
+Answer: (A) 42
+
+Solution:
+Let the number be 10t + u. Given: 10t + u = 7(t + u) → 10t + u = 7t + 7u → 3t = 6u → t = 2u. The difference of digits is |t – u| = 2 → |2u – u| = u = 2. Thus t = 2(2) = 4. The number is 10(4) + 2 = 42. Check: digits 4 – 2 = 2; sum = 6; 7 × 6 = 42. Therefore, the number is 42. Hence, the correct option is (A).
+
+Source: SSC CGL
+
+Q72. (Medium) The LCM of two positive numbers is 45 times their HCF. If one of the numbers is 125 and the sum of their LCM and HCF is 1150, find the other number.
+(A) 175 (B) 225 (C) 250 (D) 275
+
+Answer: (B) 225
+
+Solution:
+Let HCF = H. Then LCM = 45H. Given LCM + HCF = 1150 → 45H + H = 1150 → 46H = 1150 → H = 25. Thus LCM = 45 × 25 = 1125. By product formula: Number 1 × Number 2 = LCM × HCF → 125 × Number 2 = 1125 × 25 → Number 2 = (1125 × 25) / 125 = 1125 / 5 = 225. Therefore, the other number is 225. Hence, the correct option is (B).
+
+Source: SSC CHSL
+
+Q73. (Medium) What is the unit digit of (1234)⁵⁶⁷⁸?
+(A) 4 (B) 2 (C) 6 (D) 8
+
+Answer: (C) 6
+
+Solution:
+The unit digit depends only on the base unit digit 4. Powers of 4 follow a 2-step cycle: 4¹ = 4 (odd exponent) and 4² = 16 → unit 6 (even exponent). Since 5678 is an even exponent, the unit digit is 6. Hence, the unit digit is 6. Hence, the correct option is (C).
+
+Source: SSC MTS
+
+Q74. (Medium) What is the least positive integer by which 4320 must be multiplied so that the resulting product is a perfect cube?
+(A) 100 (B) 25 (C) 10 (D) 50
+
+Answer: (D) 50
+
+Solution:
+Prime factorization of 4320: 4320 = 432 × 10 = (16 × 27) × (2 × 5) = 2⁵ × 3³ × 5¹. For a perfect cube, every prime exponent must be a multiple of 3. We need 2¹ to raise 2⁵ to 2⁶, and 5² to raise 5¹ to 5³. The required multiplying factor is 2¹ × 5² = 2 × 25 = 50. Thus, the least number is 50. Hence, the correct option is (D).
+
+Source: RRB NTPC
+
+Q75. (Medium) The product of any three consecutive positive integers is always divisible by which number?
+(A) 8 (B) 6 (C) 12 (D) 24
+
+Answer: (B) 6
+
+Solution:
+Among any three consecutive positive integers, at least one is divisible by 2 and exactly one is divisible by 3. By the division algorithm, their product is always divisible by 2 × 3 = 6. Thus, the product is always divisible by 6. Hence, the correct option is (B).
+
+Source: RRB Group D

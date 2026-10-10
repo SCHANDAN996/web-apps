@@ -1,0 +1,209 @@
+# 🪄 Short Tricks — Compound Interest (Mnemonic Toolbox)
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 1 — "P is the Seed, A is the Tree"** │
+│                                             │
+│ Formula: **A = P(1 + r/100)ⁿ**              │
+│ Memory hook: Plant **P** (Principal) as a   │
+│ seed. Every year it grows by **r%**, and    │
+│ after **n** years you harvest the tree **A**│
+│ (Amount). The seed never disappears — it    │
+│ keeps multiplying itself!                   │
+│ Keyword: **"Seed → Tree → Amount"**         │
+└─────────────────────────────────────────────┘
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 2 — "CI = Tree MINUS Seed"**        │
+│                                             │
+│ **CI = A − P = P[(1 + r/100)ⁿ − 1]**        │
+│ Never compute CI directly. Always grow the  │
+│ full tree (Amount), then chop off the seed  │
+│ (Principal). What's left is pure interest.  │
+│ Keyword: **"Grow first, subtract later."**  │
+└─────────────────────────────────────────────┘
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 3 — "The 2-Year Twin Formula"**     │
+│                                             │
+│ For 2 years: **CI = P·(r/100)·(2 + r/100)** │
+│ Mnemonic: **"DOUBLE the rate, then let the  │
+│ rate SQUARE-dance with itself."**           │
+│ i.e., effective 2-yr rate = 2r + r²/100     │
+│ Example: 10% → 20 + 1 = **21%** effective.  │
+│ Keyword: **"2r plus r-squared-over-100"**   │
+└─────────────────────────────────────────────┘
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 4 — "The 3-Year Triple-Decker"**    │
+│                                             │
+│ Effective 3-yr rate = **3r + 3r²/100 +      │
+│ r³/10000**                                  │
+│ Mnemonic: **"3-3-1, the Pascal Bun!"**      │
+│ Coefficients 3, 3, 1 come from Pascal's     │
+│ triangle row (1 3 3 1). Powers of r climb   │
+│ 1, 2, 3 while denominators climb 100,       │
+│ 100², 100³.                                 │
+│ Keyword: **"Pascal feeds Compound Interest"**│
+└─────────────────────────────────────────────┘
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 5 — "SI is a Ladder, CI is a Lift"**│
+│                                             │
+│ SI grows in equal steps (arithmetic):       │
+│ +Pr, +Pr, +Pr…                              │
+│ CI grows by multiplication (geometric):     │
+│ ×(1+r), ×(1+r), ×(1+r)…                     │
+│ Mnemonic: **"Simple Steps, Compound         │
+│ Catapult."** For year 1, both are EQUAL —   │
+│ the lift and ladder start on the same floor!│
+│ Keyword: **"Year 1: SI = CI. Always."**     │
+└─────────────────────────────────────────────┘
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 6 — "DIFF = P·(r/100)² for 2 Years"**│
+│                                             │
+│ CI − SI (2 years) = **P(r/100)²**           │
+│ Mnemonic: **"The difference is the SQUARE   │
+│ of the rate's share of the principal."**    │
+│ If CI−SI = ₹10 at 10%, then P = 10/(0.1)²   │
+│ = ₹1000. Instant reverse calculation!       │
+│ Keyword: **"Small diff? Square it back!"**  │
+└─────────────────────────────────────────────┘
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 7 — "HALF the Year, HALF the Rate,  │
+│ DOUBLE the Count"**                         │
+│                                             │
+│ Half-yearly compounding: rate → **r/2**,    │
+│ time → **2n**.                              │
+│ Quarterly: rate → **r/4**, time → **4n**.   │
+│ Mnemonic: **"Slice the rate, multiply the   │
+│ wait."** The smaller the slice, the more    │
+│ slices you get!                             │
+│ Keyword: **"Divide r, Multiply n"**         │
+└─────────────────────────────────────────────┘
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 8 — "The 8% → 12, 10% → 11, 5% →   │
+│ 21 Fraction Friends"**                      │
+│                                             │
+│ Memorise growth factors as fractions:       │
+│ 5% → 21/20 | 10% → 11/10 | 20% → 6/5 |      │
+│ 25% → 5/4 | 12.5% → 9/8 | 4% → 26/25        │
+│ Mnemonic: **"Fractions fly faster than      │
+│ decimals."** A = P × (11/10)² = P × 121/100 │
+│ — done in 5 seconds, no calculator!         │
+│ Keyword: **"Think 11/10, not 1.1"**         │
+└─────────────────────────────────────────────┘
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 9 — "Rule of 72: The Doubling       │
+│ Detective"**                                │
+│                                             │
+│ Money doubles in ≈ **72/r** years.          │
+│ 8% → 9 yrs | 10% → 7.2 yrs | 12% → 6 yrs    │
+│ Mnemonic: **"72 is the magic mirror — rate  │
+│ looks in, doubling time looks out."**       │
+│ Keyword: **"72 ÷ rate = double date"**      │
+└─────────────────────────────────────────────┘
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 10 — "Different Rates? Ride the     │
+│ Relay!"**                                   │
+│                                             │
+│ Rates r₁, r₂, r₃ for successive years:      │
+│ A = P(1+r₁/100)(1+r₂/100)(1+r₃/100)         │
+│ Mnemonic: **"Each year passes the baton —   │
+│ the new runner starts where the old one     │
+│ finished."** Never average the rates!       │
+│ Keyword: **"Multiply the batons"**          │
+└─────────────────────────────────────────────┘
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 11 — "Depreciation = CI with a      │
+│ MINUS Moustache"**                          │
+│                                             │
+│ Value after n years = **P(1 − r/100)ⁿ**     │
+│ Mnemonic: **"Same formula, sad face — the   │
+│ plus grows a minus moustache when machines  │
+│ age."** Population growth = plus; machine   │
+│ value = minus.                              │
+│ Keyword: **"Plus for people, minus for      │
+│ machines"**                                 │
+└─────────────────────────────────────────────┘
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 12 — "The 3-Year DIFF Deluxe"**     │
+│                                             │
+│ CI − SI (3 years) = **P(r/100)²(3 + r/100)**│
+│ Mnemonic: **"Square the rate, then gift it  │
+│ a 3-plus-rate hat."** The 2-year diff has   │
+│ no hat; the 3-year diff wears one!          │
+│ Keyword: **"Square + Hat = 3-year gap"**    │
+└─────────────────────────────────────────────┘
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 13 — "Amount Given? Rewind the      │
+│ Film!"**                                    │
+│                                             │
+│ If A and n are given, find P:               │
+│ **P = A ÷ (1 + r/100)ⁿ**                    │
+│ Mnemonic: **"To find the seed, press        │
+│ REWIND — divide the tree by its growth."**  │
+│ Multiplication forward = division backward. │
+│ Keyword: **"Divide to rewind"**             │
+└─────────────────────────────────────────────┘
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 14 — "Installment Instinct: The     │
+│ Present-Value Parade"**                     │
+│                                             │
+│ Loan repaid in equal installments x:        │
+│ **P = x/(1+r/100) + x/(1+r/100)² + …**      │
+│ Mnemonic: **"Every future payment marches   │
+│ BACKWARD to today, shrinking one growth-    │
+│ factor per year of waiting."**              │
+│ Keyword: **"Discount each EMI home"**       │
+└─────────────────────────────────────────────┘
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 15 — "The 10% Two-Year Blitz"**     │
+│                                             │
+│ At 10% for 2 years: A = P × 121/100, so     │
+│ CI = **21% of P**, SI = 20% of P, diff =    │
+│ **1% of P**.                                │
+│ Mnemonic: **"121 is 11 squared — 10% twice  │
+│ always lands on 121."** If CI = ₹210, P =   │
+│ ₹1000. If diff = ₹10, P = ₹1000.            │
+│ Keyword: **"11² = 121 — the 10% anthem"**   │
+└─────────────────────────────────────────────┘

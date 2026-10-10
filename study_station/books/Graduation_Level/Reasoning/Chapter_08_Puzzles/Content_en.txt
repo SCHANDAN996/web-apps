@@ -1,0 +1,141 @@
+# Puzzles (Complex)
+
+## Outline & Learning Goals
+
+By the end of this chapter, you will be able to:
+
+1. Recognise the main types of complex puzzles asked in SSC CGL, IBPS PO, and State PCS exams — floor puzzles, box/stacking puzzles, scheduling (day/month) puzzles, comparison puzzles, and mixed variable puzzles.
+2. Convert long, confusing clues into a clean table or diagram within 60–90 seconds.
+3. Handle "negative clues" (e.g., "A does not live on an even floor") without panic.
+4. Spot and avoid the examiner's favourite traps.
+5. Decide quickly whether a puzzle is worth solving in the exam hall — or worth skipping.
+
+---
+
+## The Hook: Why Toppers Love Puzzles (and Others Fear Them)
+
+Here is a secret from exam halls: a single complex puzzle set usually carries **5 questions**. Solve the puzzle once, and you get 5 marks for the price of one piece of thinking. Miss it, and you lose 5 marks in one shot.
+
+That is why puzzles are the highest "return on investment" topic in reasoning — and also the riskiest. This chapter teaches you to be on the winning side.
+
+---
+
+## First, Let's Admit the Common Struggle
+
+Almost every aspirant says the same three things:
+
+- "The clues are so long, I forget the first clue by the time I read the last one."
+- "I make a table, but halfway through, two arrangements seem possible."
+- "I spend 8 minutes on one puzzle and still get it wrong."
+
+All three problems have **one root cause**: trying to hold the puzzle in your head instead of on paper. Complex puzzles are not a test of intelligence — they are a test of **organised thinking**. Let's build that organisation, chunk by chunk.
+
+---
+
+## Chunk 1: What Makes a Puzzle "Complex"?
+
+A simple puzzle has one variable (e.g., 5 people in a row). A **complex** puzzle has **two or more variables linked together**:
+
+- 7 people + 7 floors + 7 different colours
+- 6 boxes + 6 positions + 6 different fruits
+- 8 people + 8 months + 8 cities
+
+Your job is to build a **grid** where every person gets exactly one value of each variable, using the clues to eliminate impossibilities.
+
+> 🧠 **Active Recall:** Without looking back — what two things make a puzzle "complex"? (Answer: multiple variables linked together, and clues that connect them indirectly.)
+
+---
+
+## Chunk 2: The Golden Method — "Fix, Chain, Eliminate"
+
+Follow these three steps for every complex puzzle:
+
+**Step 1 — FIX:** Find the clue that gives a *definite* position. Example: "C lives on the 3rd floor." Write it down immediately. Definite clues are your anchors.
+
+**Step 2 — CHAIN:** Find clues that *connect* to your anchor. Example: "The person who likes red lives two floors above C." Now red is fixed on floor 5. Keep chaining — each fixed fact unlocks the next.
+
+**Step 3 — ELIMINATE:** Use negative clues last. "A does not like blue" means nothing alone, but once only two slots remain, it becomes decisive.
+
+**Mnemonic — "FCE: First Cement Everything":**
+**F**ix → **C**hain → **E**liminate. Cement the definite facts first; the flexible ones settle on their own.
+
+---
+
+## Chunk 3: Worked Mini-Example (Floor Puzzle)
+
+*Five people P, Q, R, S, T live on floors 1–5 (1 = bottom). Clues:*
+1. *R lives on floor 4.* → **FIX**: R = 4.
+2. *P lives immediately above R.* → **CHAIN**: P = 5.
+3. *Q lives below R but not on floor 1.* → Q = 2 or 3.
+4. *S lives on floor 1.* → **FIX**: S = 1, so Q = 3, and T = 2.
+
+Done. Notice: we never guessed. We fixed, chained, and the rest fell into place.
+
+> 🧠 **Active Recall:** In the example above, which clue was used last, and why? (Clue 3 — the negative/conditional clue — because it only became useful after other slots were fixed.)
+
+---
+
+## Chunk 4: Handling Two-Variable Puzzles (The Table Method)
+
+When a second variable (colour, city, fruit) enters, draw a table:
+
+| Floor | Person | Colour |
+|-------|--------|--------|
+| 5     |        |        |
+| 4     |        |        |
+| ...   |        |        |
+
+Rules of the table:
+- Write **definite** facts in ink (mentally permanent).
+- Write **possibilities** as small notes (e.g., "Q/T" in a cell).
+- The moment a possibility is confirmed, erase the alternative everywhere else.
+
+**Key habit:** After placing each fact, re-scan all unused clues. Complex puzzles are solved in *waves*, not in one straight line.
+
+---
+
+## Chunk 5: When Two Cases Are Possible
+
+Sometimes a clue gives a genuine fork: "M sits two seats away from K" — but on which side? 
+
+**Strategy:** Draw **Case 1 and Case 2** side by side. Keep solving both. In 90% of exam puzzles, one case will collide with a later clue and die. The surviving case is your answer.
+
+**Warning:** Never carry more than two cases. If a puzzle needs three or more parallel cases, it is a **skip candidate** in the real exam (see Skip Strategy section).
+
+> 🧠 **Active Recall:** What should you do when a clue allows two arrangements? (Draw both cases, solve in parallel, and let a later clue kill one of them.)
+
+---
+
+## Chunk 6: Scheduling & Comparison Puzzles
+
+- **Day/Month puzzles:** Draw a vertical timeline. Watch for traps like "before March" vs "after March" and months with different numbers of days when dates are involved.
+- **Comparison puzzles** ("A is taller than B but shorter than C"): Convert every clue into a single chain: C > A > B. Merge chains only when a common person appears in both.
+
+---
+
+## Summary Table
+
+| Puzzle Type | Best Tool | First Move |
+|---|---|---|
+| Floor/Stack | Vertical column diagram | Fix the definite floor |
+| Two-variable | Grid table | Anchor one variable, chain the other |
+| Scheduling | Timeline | Fix exact dates/days first |
+| Comparison | Inequality chain (A > B) | Merge chains via common person |
+| Two possible cases | Parallel Case 1 / Case 2 | Solve both until one dies |
+
+**⏳ Time rule:** 60–90 seconds to set up the diagram; 3–4 minutes total for a 5-question set. If no anchor clue appears after reading twice, mark it for the second round.
+
+📅 **Review this chapter after 2 days** — redraw the FCE method and the summary table from memory.
+
+---
+
+## ⚠️ Caution: Examiner's Trap
+
+**Trap 1 — Multiple possible relations shown in options.**
+The question asks "Who lives on floor 3?" and two options *look* possible because you left a possibility unresolved. The examiner designs clues so that only one arrangement survives **all** clues. If two options seem right, you have missed applying one clue — go back and re-check the negative clues.
+
+**Trap 2 — Confusing vocabulary to rattle you.**
+Words like "immediately above," "somewhere above," "between," and "not adjacent" have precise meanings. "Somewhere above" does **not** mean immediately above. "Between A and B" does **not** always mean exactly in the middle. Read each relational word literally — the examiner banks on you skimming.
+
+**Trap 3 — Double-relation questions.**
+Questions like "Who likes the colour of the person living two floors above Q?" force you to chain two steps. Students often answer the first step (the person two floors above Q) instead of the final one (the colour-liker). Always re-read the question after solving and answer the **last** link of the chain, not the middle one.

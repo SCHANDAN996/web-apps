@@ -1,0 +1,178 @@
+# Puzzles (Intermediate)
+
+## 1. Outline and Learning Goals
+
+In this chapter you will learn to solve **intermediate-level puzzles** — the kind where information is given in a scattered, indirect way and you must arrange it into a clear structure. By the end, you will be able to:
+
+- Convert a confusing paragraph of clues into a neat **table or diagram**.
+- Solve **seating arrangement** puzzles (linear and circular, facing inside/outside).
+- Solve **floor-based, box/stack, and scheduling (day/month)** puzzles.
+- Handle puzzles with **two or more variables** (person + city + colour + profession).
+- Use the **"definite first, possible later"** method to avoid getting stuck.
+- Spot and escape the traps examiners plant in the options.
+
+---
+
+## 2. The Hook: Why Toppers Love Puzzles
+
+Here is a secret most students never realise: **a puzzle question is not one question — it is five.** In SSC, Banking and Railway exams, one puzzle set is followed by 4–5 questions. Solve the arrangement once, and you collect 4–5 marks in one go. No other topic in reasoning gives such a return on a single investment of 3–4 minutes.
+
+The students who fear puzzles are the ones who try to hold everything in their head. The students who score are the ones who **draw**. This chapter will turn you into the second kind.
+
+---
+
+## 3. The Common Struggle (You Are Not Alone)
+
+Almost every aspirant says the same three things:
+
+1. *"I read the clues five times and still don't know where to start."*
+2. *"I make the table, but one clue never fits, so I start again."*
+3. *"I solve it correctly but it takes 10 minutes."*
+
+All three problems have one root cause: **starting with the wrong clue.** Intermediate puzzles deliberately hide the starting point. Once you learn to find the *anchor clue* (the one fixed fact), the rest of the puzzle falls like dominoes.
+
+🧠 **Active Recall:** Before reading further, answer this — in a puzzle with 8 clues, should you start with the first clue, or with the clue that fixes something definitely? Why?
+
+---
+
+## 4. Chunk 1: The Golden Method — "Definite First, Possible Later"
+
+Every intermediate puzzle contains two types of clues:
+
+- **Definite clues** — fix a position with certainty. Example: *"A sits at the extreme left end."*
+- **Relative clues** — connect two or more people. Example: *"B sits two places to the right of A."*
+- **Negative clues** — tell what is NOT true. Example: *"C does not sit next to D."*
+
+**The method:**
+
+1. **Scan all clues first.** Do not start solving from clue 1.
+2. Pick the **most definite clue** and place it in your diagram. This is your *anchor*.
+3. Attach **relative clues** to the anchor, one by one.
+4. If a clue has **two possibilities**, draw both cases side by side (Case 1 / Case 2). The moment one case contradicts a later clue, **delete it** and continue with the survivor.
+5. Use **negative clues last** — they usually eliminate the wrong case.
+
+🧠 **Active Recall:** What do you do when a clue gives two possible positions? (Say it aloud before checking: draw both cases, then eliminate.)
+
+---
+
+## 5. Chunk 2: Linear Seating — The Foundation
+
+In a row, first fix the **direction** everyone faces:
+
+- **Facing North:** their right = your right.
+- **Facing South:** their right = your **left** (mirror image). This single point causes the most errors in exams.
+
+**Worked mini-example:** Five people P, Q, R, S, T sit in a row facing North. P is at one end. Q is second to the left of P. R sits between Q and S. T is not next to P.
+
+- Anchor: P is at an end. Try P at the extreme **left** → Q would need two seats to the left of P, which do not exist. Case deleted. So P must be at the extreme **right** end → _ _ Q _ P
+- R sits between Q and S → S R Q _ P
+- T is not next to P → the only remaining seat is position 4, which is not next to P → **S R Q T P** ✔
+
+Notice what happened: the first case was eliminated by a simple impossibility, and the negative clue ("T not next to P") confirmed the final placement. This is the standard pattern — draw cases, delete the dead one, continue with the survivor.
+
+🧠 **Active Recall:** If everyone faces South, "second to the right of A" means second to *your* left or right?
+
+---
+
+## 6. Chunk 3: Circular Seating — Inside vs Outside
+
+In a circle there are no ends, so the anchor is simply the first person you place anywhere.
+
+- **Facing centre:** right = anticlockwise, left = clockwise.
+- **Facing outside (away from centre):** everything **reverses** — right = clockwise.
+
+**Mnemonic — "IN-AC, OUT-C":**
+> **IN**side facing → right goes **A**nti**C**lockwise.
+> **OUT**side facing → right goes **C**lockwise.
+
+**Mixed facing** (some in, some out) is the true intermediate level. Handle each person's direction **individually** — never assume the whole circle faces one way. Write a small ↑ (in) or ↓ (out) above each name as you place them.
+
+🧠 **Active Recall:** 6 people face the centre. X sits second to the right of Y. Moving clockwise or anticlockwise from Y — which way do you count?
+
+---
+
+## 7. Chunk 4: Floor, Box and Scheduling Puzzles
+
+These are the same puzzle wearing different clothes:
+
+| Type | Structure | Typical clues |
+|---|---|---|
+| Floor puzzle | 5–8 floors, one person each | "A lives on an even floor", "Two floors between B and C" |
+| Box/Stack | Boxes stacked 1 (top) to n (bottom) | "Only two boxes below box M" |
+| Scheduling | Days (Mon–Sun) or months | "Exam on a day starting with T", "Three days gap" |
+
+**Key habits:**
+
+- Always **number** the floors/boxes/days before placing anything.
+- "Two floors between B and C" means a **gap of 3 positions** (B _ _ C). Students who read it as a gap of 2 lose the whole set.
+- "Immediately above/below" = adjacent, no gap.
+- In scheduling, watch for **hidden anchors**: "the day starting with T" could be Tuesday *or* Thursday — two cases again!
+
+🧠 **Active Recall:** "There are three boxes between P and Q." How many positions apart are P and Q?
+
+---
+
+## 8. Chunk 5: Two-Variable Puzzles (Person + City + Colour)
+
+Now each person carries extra attributes. The tool is a **grid table**:
+
+| Person | Floor | City | Colour |
+|---|---|---|---|
+| A | 3 | Delhi | Red |
+| B | … | … | … |
+
+Rules of the grid:
+
+1. Fill **definite cells first** (e.g., "D lives on floor 1").
+2. When a clue links two attributes ("the person from Pune likes Blue"), mark them as a **pair** and move the pair together.
+3. Use **elimination marks**: if A is not from Mumbai, write a small ✗ in that cell. Intermediate puzzles are often solved purely by crossing out impossibilities.
+4. When only one empty cell remains in a row or column, it fills itself — always check for these **free cells**.
+
+🧠 **Active Recall:** Why should you mark ✗ (eliminations) instead of only ✓ (confirmations)?
+
+---
+
+## 9. Chunk 6: Comparison and Order Puzzles
+
+Clues like "A is taller than B but shorter than C" form a **chain**. Convert words into symbols immediately:
+
+- "A > B" for taller/heavier/older/faster.
+- Chain them: C > A > B.
+- Watch for **incomplete chains**: if E's position is never fixed relative to D, the answer to "who is definitely taller" may be "cannot be determined" — and that is a legitimate answer the examiner loves to hide.
+
+**Trap phrase:** "A is not the tallest" ≠ "A is the shortest." It only removes A from the top position.
+
+🧠 **Active Recall:** "P is heavier than Q. R is lighter than Q." Who is definitely the heaviest — and can you tell who is lightest?
+
+---
+
+## 10. Time Strategy in the Exam
+
+- A 5-question puzzle set deserves **4–5 minutes maximum**. If the diagram is not converging by minute 3, mark it and move on — return in the second round.
+- Solve the **easiest-looking set first** (linear row < floor < circle < mixed-facing < 3-variable grid).
+- Never solve a puzzle **in your head** to save time. A 20-second diagram saves 3 minutes of confusion.
+
+---
+
+## 11. Summary Table
+
+| Puzzle type | First step | Biggest danger |
+|---|---|---|
+| Linear row | Fix facing direction, place anchor at an end | South-facing mirror error |
+| Circular | Place any one person, mark ↑/↓ per person | Mixed facing assumed uniform |
+| Floor/Box | Number positions, then anchor | "Between" gap miscounted |
+| Scheduling | List days/months, find hidden anchors | "T-day" type double meanings |
+| Grid (2–3 variables) | Definite cells, then pairs, then ✗ marks | Not tracking eliminations |
+| Comparison | Convert to > and < chains | "Not the tallest" misread |
+
+**Review this chapter after 2 days.** Redraw one diagram of each type from memory — if you can rebuild the method without looking, it is yours.
+
+---
+
+## ⚠️ Caution: Examiner's Trap
+
+1. **More than one possible arrangement shown in options.** The examiner designs the puzzle so that a half-solved arrangement still matches one option. If you stop after placing 5 of 7 people, an option will be waiting for your incomplete diagram. **Always finish the full arrangement before looking at the options** — and if a question says "which of the following is definitely true," test every option against your final diagram, not your memory.
+
+2. **Confusing wording to mislead you.** Phrases like "two persons sit between A and B" (gap of 3 seats), "A sits second to the left of the one who faces B," or "not more than two floors above C" are deliberately twisted. **Translate every clue into a symbol or mini-diagram before using it.** Never carry a verbal clue in your head — words deceive, diagrams don't.
+
+3. **Double-relationship questions.** Some questions ask about a *relationship of a relationship*: "Who sits opposite the person who is second to the right of the one from Jaipur?" Students answer the inner relationship and forget the outer one. **Solve such questions in two written steps** — first find the inner person (mark them ★), then answer the outer question about ★.

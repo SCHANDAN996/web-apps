@@ -1,0 +1,151 @@
+Questions 1–20: Easy | Questions 21–25: Medium
+
+1. Statements: All pens are books. All books are chairs. Which conclusion logically follows?
+(a) All chairs are pens (b) All pens are chairs (c) Some chairs are not pens (d) No pen is a chair
+Answer: (b)
+Solution: The tempting wrong option claims all chairs are pens, but "all A are B" never reverses. Since pens ⊆ books ⊆ chairs, every pen is a chair, so the answer is "All pens are chairs".
+Source: PYQ-style
+
+2. Statements: Some dogs are cats. Some cats are rats. Which conclusion definitely follows?
+(a) None of these definitely follows (b) All dogs are rats (c) No dog is a rat (d) Some dogs are rats
+Answer: (a)
+Solution: Two "some" statements with no universal link give no definite relation between dogs and rats; the tempting first option is only a possibility, not a certainty. Hence no listed conclusion definitely follows.
+Source: PYQ-style
+
+3. Statements: No apple is a banana. All bananas are fruits. Which conclusion follows?
+(a) No fruit is an apple (b) Some fruits are not apples (c) All fruits are bananas (d) Some apples are fruits
+Answer: (b)
+Solution: The trap is concluding "no fruit is an apple", but apples could still be fruits through another path. Since all bananas are fruits and no banana is an apple, those banana-fruits are not apples, so "Some fruits are not apples" follows.
+Source: PYQ-style
+
+4. Statements: All teachers are students. Some students are players. Conclusion I: Some teachers are players. Conclusion II: All teachers are students.
+(a) Only II follows (b) Only I follows (c) Both follow (d) Neither follows
+Answer: (a)
+Solution: Conclusion I is the trap — "some students are players" does not say those students are teachers. Conclusion II merely restates the first statement, so only II follows.
+Source: PYQ-style
+
+5. Statements: All flowers are leaves. Some leaves are trees. Which is a valid conclusion?
+(a) All flowers are leaves (b) All trees are flowers (c) Some flowers are trees (d) No flower is a tree
+Answer: (a)
+Solution: Options claiming a flower–tree link are traps because the middle term "leaves" is not distributed in both premises. The only certain conclusion is the direct restatement: all flowers are leaves.
+Source: PYQ-style
+
+6. Statements: Some boys are girls. No girl is a woman. Which conclusion follows?
+(a) All boys are women (b) Some boys are not women (c) No boy is a woman (d) Some women are boys
+Answer: (b)
+Solution: The trap is "no boy is a woman", which overextends the negative premise. The boys who are girls cannot be women, so "Some boys are not women" follows.
+Source: PYQ-style
+
+7. Statements: All cars are vehicles. All vehicles are machines. Conclusion: All cars are machines.
+(a) Definitely true (b) Definitely false (c) Probably true (d) Cannot be determined
+Answer: (a)
+Solution: This is a straight chain: cars ⊆ vehicles ⊆ machines. There is no trap here; transitivity makes the conclusion definitely true.
+Source: PYQ-style
+
+8. Statements: No cat is a dog. Some dogs are pets. Which conclusion follows?
+(a) Some cats are pets (b) No pet is a cat (c) All pets are dogs (d) Some pets are not cats
+Answer: (d)
+Solution: The trap is "no pet is a cat", but cats could be pets via another route. The pets that are dogs are certainly not cats, so "Some pets are not cats" follows.
+Source: PYQ-style
+
+9. Statements: All A are B. All B are C. All C are D. Which conclusion follows?
+(a) All D are A (b) No A is D (c) Some D are A (d) All D are C
+Answer: (c)
+Solution: The trap is reversing the chain into "all D are A". Since A ⊆ D, at least some D (namely all A) are A, so "Some D are A" follows.
+Source: PYQ-style
+
+10. Statements: Some books are pens. All pens are pencils. Which conclusion follows?
+(a) No book is a pencil (b) All books are pencils (c) Some books are pencils (d) All pencils are books
+Answer: (c)
+Solution: The trap is "all books are pencils", which stretches a "some" premise. The books that are pens are pencils, so "Some books are pencils" follows.
+Source: PYQ-style
+
+11. Statements: All mangoes are sweet. Some sweet things are costly. Conclusion I: Some mangoes are costly. Conclusion II: All mangoes are sweet.
+(a) Only I follows (b) Neither follows (c) Both follow (d) Only II follows
+Answer: (d)
+Solution: Conclusion I is the classic trap — the costly sweet things need not be mangoes. Conclusion II restates the first premise, so only II follows.
+Source: PYQ-style
+
+12. Statements: No bird is a mammal. All sparrows are birds. Which conclusion follows?
+(a) No sparrow is a mammal (b) Some sparrows are mammals (c) All mammals are sparrows (d) Some mammals are birds
+Answer: (a)
+Solution: Sparrows lie entirely inside birds, and birds are entirely outside mammals, so sparrows cannot be mammals. Hence "No sparrow is a mammal" follows.
+Source: PYQ-style
+
+13. Statements: Some chairs are tables. Some tables are desks. Which conclusion definitely follows?
+(a) Some chairs are desks (b) All chairs are desks (c) No definite conclusion linking chairs and desks (d) Some desks are chairs
+Answer: (c)
+Solution: Both premises are particular with undistributed middle term "tables", so any chair–desk link is only possible, not definite. The tempting first option is a possibility trap; no definite conclusion follows.
+Source: PYQ-style
+
+14. Statements: All cups are plates. No plate is a spoon. Which conclusion follows?
+(a) Some plates are spoons (b) Some cups are spoons (c) All spoons are cups (d) No cup is a spoon
+Answer: (d)
+Solution: Cups are inside plates, and plates are wholly outside spoons, so cups cannot touch spoons. Hence "No cup is a spoon" follows.
+Source: PYQ-style
+
+15. Statements: Some students are intelligent. All intelligent people are hardworking. Which conclusion follows?
+(a) All students are hardworking (b) Some students are hardworking (c) No student is hardworking (d) All hardworking people are students
+Answer: (b)
+Solution: The trap is upgrading to "all students are hardworking". Only the intelligent students are certainly hardworking, so "Some students are hardworking" follows.
+Source: PYQ-style
+
+16. Statements: All roses are flowers. Some flowers fade quickly. Conclusion I: Some roses fade quickly. Conclusion II: Some flowers are roses.
+(a) Only I follows (b) Both follow (c) Only II follows (d) Neither follows
+Answer: (c)
+Solution: Conclusion I is the trap — the quickly fading flowers may not be roses. From "all roses are flowers", conversion gives "some flowers are roses", so only II follows.
+Source: PYQ-style
+
+17. Statements: No politician is honest. Some honest people are poor. Which conclusion follows?
+(a) Some politicians are poor (b) No poor person is a politician (c) All politicians are poor (d) Some poor people are not politicians
+Answer: (d)
+Solution: The trap is "no poor person is a politician", which overextends the negative premise. The poor people who are honest cannot be politicians, so "Some poor people are not politicians" follows.
+Source: PYQ-style
+
+18. Statements: All lions are animals. All animals are living beings. Which conclusion follows?
+(a) All living beings are lions (b) All animals are lions (c) No lion is a living being (d) Some living beings are lions
+Answer: (d)
+Solution: The trap is reversing the chain into "all living beings are lions". Since lions ⊆ living beings, at least some living beings are lions, so "Some living beings are lions" follows.
+Source: PYQ-style
+
+19. Statements: Some mobiles are laptops. All laptops are costly. Which conclusion follows?
+(a) All mobiles are costly (b) Some mobiles are costly (c) No mobile is costly (d) All costly things are mobiles
+Answer: (b)
+Solution: The mobiles that are laptops must be costly; the trap is extending this to all mobiles. Hence "Some mobiles are costly" follows.
+Source: PYQ-style
+
+20. Statements: All poets are readers. Some readers are writers. Which conclusion definitely follows?
+(a) Some poets are writers (b) All poets are writers (c) Some readers are poets (d) No poet is a writer
+Answer: (c)
+Solution: Options linking poets and writers are traps because the middle term "readers" is undistributed in both premises. Conversion of the first premise gives "Some readers are poets", which definitely follows.
+Source: PYQ-style
+
+21. Statements: All engineers are graduates. Some graduates are doctors. No doctor is a teacher. Conclusion I: Some engineers are doctors. Conclusion II: Some graduates are not teachers.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (b)
+Solution: Conclusion I is the trap — the doctor-graduates need not be engineers. But the graduates who are doctors cannot be teachers, so "Some graduates are not teachers" follows; only II follows.
+Source: PYQ-style
+
+22. Statements: Some A are B. No B is C. All C are D. Conclusion I: Some A are not C. Conclusion II: Some D are not B.
+(a) Both follow (b) Only II follows (c) Only I follows (d) Neither follows
+Answer: (a)
+Solution: The A's that are B cannot be C, so I follows. The D's that are C cannot be B (since no B is C), so II follows. Hence both conclusions follow.
+Source: PYQ-style
+
+23. Statements: All pens are inks. Some inks are black. All black things are dark. Conclusion I: Some pens are dark. Conclusion II: Some inks are dark.
+(a) Only I follows (b) Neither follows (c) Both follow (d) Only II follows
+Answer: (d)
+Solution: Conclusion I is the trap — the black inks may not be pens, so the pen–dark link is not certain. But inks that are black are certainly dark, so only II follows.
+Source: PYQ-style
+
+24. Statements: No X is Y. Some Y are Z. Some Z are W. Conclusion I: Some Z are not X. Conclusion II: Some W are not X.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (a)
+Solution: Conclusion II is the trap — the W's that are Z might be exactly the Z's that are not Y, leaving no certain W–X relation. The Z's that are Y cannot be X, so only I follows.
+Source: PYQ-style
+
+25. Statements: All gold is metal. Some metals are heavy. All heavy things sink. Conclusion I: Some gold sinks. Conclusion II: Some metals sink.
+(a) Only I follows (b) Both follow (c) Only II follows (d) Neither follows
+Answer: (c)
+Solution: Conclusion I is the trap — the heavy metals need not be gold, so gold's sinking is not guaranteed. Metals that are heavy certainly sink, so only II follows.
+Source: PYQ-style

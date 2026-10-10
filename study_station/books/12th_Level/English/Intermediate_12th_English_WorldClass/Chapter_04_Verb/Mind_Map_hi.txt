@@ -1,0 +1,19 @@
+```mermaid
+graph TD
+    A["क्रिया (Verb)<br>परिभाषा और प्रकार"]
+    A --> B["मुख्य क्रिया (Main Verb)"]
+    A --> C["सहायक क्रिया (Auxiliary Verb)"]
+    A --> D["सकर्मक क्रिया<br>(Transitive Verb)<br>कर्म आवश्यक"]
+    A --> E["अकर्मक क्रिया<br>(Intransitive Verb)<br>कर्म आवश्यक नहीं"]
+    A --> F["क्रिया के रूप<br>V1, V2, V3<br>V-ing, V-s/es"]
+    A --> G["काल (Tense)<br>वर्तमान, भूत, भविष्य"]
+    A --> H["वाच्य (Voice)<br>Active / Passive"]
+    A --> I["मोडल्स (Modals)<br>can, may, must आदि"]
+    A --> J["परीक्षक के जाल<br>Subject-Verb असंगति<br>काल का भ्रम"]
+    B --> B1["अर्थ स्वयं पूर्ण करती है"]
+    C --> C1["be, do, have<br>मुख्य क्रिया की सहायता"]
+    D --> D1["उदा: He reads a book"]
+    E --> E1["उदा: The baby sleeps"]
+    G --> G1["प्रत्येक काल के 4 रूप<br>Simple, Continuous<br>Perfect, Perfect Continuous"]
+    J --> J1["एकवचन कर्ता + एकवचन क्रिया<br>बहुवचन कर्ता + बहुवचन क्रिया"]
+```

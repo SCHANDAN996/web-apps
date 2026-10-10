@@ -1,0 +1,96 @@
+# 📊 PYQ Analysis — Venn Diagrams (Verbal Reasoning)
+
+## 1. How Exams Use This Chapter
+
+Venn Diagrams appear in two distinct forms across SSC (CGL, CHSL, MTS, GD), Banking (IBPS, SBI), and Railway (RRB NTPC, Group D) exams:
+
+**Form A — Relationship Diagrams (Verbal):** You are given three or four words (e.g., "Doctors, Engineers, Men") and must pick the diagram that correctly shows their relationship. This is the most frequent form and is purely conceptual — no calculation needed.
+
+**Form B — Data-Based Diagrams (Quantitative Reasoning):** A diagram with numbers in regions is given, and you must answer 2–4 questions like "How many students play only cricket?" or "How many play exactly two games?" This form tests the inclusion–exclusion principle.
+
+## 2. Sub-Topic Weightage (Pattern in Words)
+
+- **Relationship diagrams dominate** — most papers carry at least one question asking you to choose the correct diagram for a word triplet. The favourite triplets involve: one category fully inside another (Dog, Animal, Pet), two overlapping categories (Women, Doctors, Mothers), and three mutually exclusive categories (Pen, Book, Chair).
+- **"Exactly two" / "only one" counting questions** are the second most common type, especially in Banking and RRB NTPC, where one diagram supports multiple questions.
+- **Syllogism-style overlaps** occasionally merge with Venn logic ("Some A are B, some B are C") — treat these as Venn problems, not pure syllogisms.
+- **Four-set diagrams** are rare but appear in higher-tier papers (SSC CGL Tier-II, IBPS PO) and are the biggest time-traps.
+
+## 3. Exam-Wise Tendencies
+
+- **SSC CGL / CHSL:** Mostly Form A (relationship selection). Questions are quick — 15–20 seconds each. Traps rely on confusing "subset" with "overlap."
+- **RRB NTPC / Group D:** Mix of both forms. Data-based questions use clean numbers; arithmetic is easy, but reading the regions correctly is the challenge.
+- **IBPS / SBI (Banking):** Form B dominates, often as a 3-question set on one diagram. "Exactly two" and "at least one" phrasing is the standard trap.
+- **State exams:** Simple Form A questions with everyday word groups (fruits, professions, family relations).
+
+## 4. Examiner's Traps (Psychological Hooks)
+
+1. **Subset vs. Overlap confusion:** "Women, Mothers, Doctors" — Mothers ⊂ Women (all mothers are women), but Doctors only *overlap* Women. Students who draw three intersecting circles fall for the trap.
+2. **The "sounds related" trap:** "Pen, Pencil, Stationery" — both pen and pencil are *inside* stationery (two separate circles inside a big one), not overlapping each other. Related ≠ overlapping.
+3. **"Exactly two" vs. "at least two":** In data questions, "exactly two games" excludes the centre region (all three); "at least two" includes it. This single word changes the answer.
+4. **The universal-set rectangle:** Some questions show a rectangle (e.g., "All students") around the circles. Numbers *outside* the circles but inside the rectangle are asked as "those who play none."
+5. **Near-correct options:** Options differ by one region only (e.g., 12 vs. 15 because one includes the centre). Always re-read which regions the question wants.
+
+## 5. High-Yield Question Patterns with Solutions
+
+**Q1.** Which diagram best represents: *Men, Fathers, Doctors*?
+**Solution:** All fathers are men (Fathers ⊂ Men). Doctors overlap both (some men are doctors, some fathers are doctors, some doctors are neither). Correct diagram: a small circle (Fathers) fully inside a big circle (Men), with a third circle (Doctors) cutting across both.
+**Trap:** Drawing three mutually intersecting circles — wrong, because no father can be outside Men.
+*Source: PYQ-style (NCERT-based reasoning)*
+
+**Q2.** Which diagram best represents: *Apple, Mango, Fruit*?
+**Solution:** Apple and Mango are both fruits but share nothing with each other. Diagram: two separate small circles inside one big circle (Fruit).
+**Trap:** Overlapping Apple and Mango — they are disjoint categories.
+*Source: PYQ-style*
+
+**Q3.** In a class, a diagram shows: Cricket circle = 25, Football circle = 20, overlap = 8. How many play **only** Cricket?
+**Solution:** Only Cricket = 25 − 8 = **17**.
+**Trap:** Answering 25 — forgetting that the circle total includes the overlap.
+*Source: PYQ-style*
+
+**Q4.** In the same diagram, how many play **exactly one** game?
+**Solution:** Only Cricket (17) + Only Football (20 − 8 = 12) = **29**.
+**Trap:** Adding the full circles (25 + 20 = 45) — double-counts the overlap.
+*Source: PYQ-style*
+
+**Q5.** Which diagram best represents: *Earth, Moon, Sun*?
+**Solution:** Three completely separate circles — none is a subset of another, none overlaps.
+**Trap:** Assuming "Moon revolves around Earth" means Moon ⊂ Earth. Physical relation ≠ category relation.
+*Source: PYQ-style*
+
+**Q6.** Three sets: Singers = 40, Dancers = 30, Actors = 20; pairwise overlaps = 10, 8, 6; all three = 4. How many are in **exactly two** activities?
+**Solution:** Exactly two = (10 − 4) + (8 − 4) + (6 − 4) = 6 + 4 + 2 = **12**.
+**Trap:** Adding 10 + 8 + 6 = 24 — pairwise overlaps already contain the centre (all three), which must be removed.
+*Source: PYQ-style*
+
+**Q7.** Which diagram best represents: *Professor, Researcher, Scientist*?
+**Solution:** Three mutually intersecting circles — a person can be any combination of these, and none is fully inside another.
+**Trap:** Forcing a subset relation where only overlap exists.
+*Source: PYQ-style*
+
+**Q8.** Rectangle = 100 students; circle A (Tea) = 60, circle B (Coffee) = 50, overlap = 20. How many take **neither**?
+**Solution:** At least one = 60 + 50 − 20 = 90. Neither = 100 − 90 = **10**.
+**Trap:** Forgetting the rectangle (universal set) and answering based only on the circles.
+*Source: PYQ-style*
+
+**Q9.** Which diagram best represents: *Vehicle, Car, Wheel*?
+**Solution:** Car ⊂ Vehicle (subset), but Wheel is *not* a vehicle — it is a part, not a category. Wheel overlaps neither as a subset; correct representation: Car inside Vehicle, Wheel as a separate circle (a part–whole relation is shown disjoint in standard exam convention).
+**Trap:** Putting Wheel inside Car because "cars have wheels." Venn diagrams show *category membership*, not parts.
+*Source: PYQ-style*
+
+**Q10.** In a three-set diagram, region values are given. "How many study Hindi **or** English but not Sanskrit?" — with Hindi = 30, English = 25, H∩E only = 5, H∩S only = 4, E∩S only = 3, all three = 2.
+**Solution:** Hindi-only = 30 − (5 + 4 + 2) = 19; English-only = 25 − (5 + 3 + 2) = 15; H∩E only = 5. Total = 19 + 15 + 5 = **39**.
+**Trap:** Including the "all three" region (2) — "but not Sanskrit" excludes it.
+*Source: PYQ-style*
+
+## 6. Skip Decisions — 15-sec / 45-sec Rule
+
+- **Q6-type (three-set "exactly two" with raw pairwise overlaps):** If the diagram is *not* pre-drawn and you must compute all regions from scratch, this crosses 45 seconds for most students. **Skip on first pass**; return after finishing quick questions. If the diagram regions are already labelled, it becomes a 20-second question — attempt it.
+- **Q10-type (four-condition filtering, "or…but not"):** The phrasing demands careful region selection; under pressure, error probability is high. **Skip if a full region breakdown is required**; attempt only if you have already mapped the diagram for a previous question in the same set.
+- **Q1/Q2/Q5-type (relationship selection):** Always attempt — these are 15-second questions and the highest ROI in the chapter.
+
+## 7. Key Takeaways
+
+1. Master the five standard relationships: subset, disjoint, overlap, subset-pair-inside-superset, and triple overlap — Form A is then free marks.
+2. In Form B, always compute "only" regions first; every other answer builds on them.
+3. Read "exactly" / "at least" / "only" / "none" twice before answering — the trap is in the wording, not the arithmetic.
+4. Attempt relationship questions first; treat multi-region counting sets as second-pass material.

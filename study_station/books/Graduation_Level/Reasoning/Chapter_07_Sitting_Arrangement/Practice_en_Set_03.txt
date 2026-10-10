@@ -1,0 +1,151 @@
+Questions 51–70: Easy | Questions 71–75: Moderate
+
+51. Six persons A, B, C, D, E and F sit in a row facing north. B sits at the right end. C sits third from the left. A sits second to the left of C. D sits to the immediate right of A. E is not adjacent to B. Who sits at the left end?
+(a) F (b) E (c) D (d) A
+Answer: (d)
+Solution: C third from the left fixes C at position 3, so A is at position 1 and D at position 2, with B at position 6. E cannot sit next to B, so E takes position 4 and F position 5. The trap is F, the last-placed person, but the left end belongs to A, so the answer is A.
+Source: PYQ-style
+
+52. Six persons P, Q, R, S, T and U sit in a row facing north. P sits at the left end. Q sits second to the right of P. R sits to the immediate left of T. T sits at an extreme end. S is not adjacent to P. Who sits at the right end?
+(a) T (b) S (c) R (d) U
+Answer: (a)
+Solution: P is at position 1 and Q at position 3. Since T is at an extreme end and R must be immediately left of T, T takes position 6 with R at position 5. S cannot sit next to P, so S takes position 4 and U position 2. The trap is S, who ends up near the end, but the right end is T, so the answer is T.
+Source: PYQ-style
+
+53. Eight friends sit around a square table, four at the corners facing the centre and four at the middle of the sides facing outward. M sits at a corner. N faces outward and sits to the immediate left of M. O sits opposite M. P faces the centre and sits second to the right of O. Q sits between O and P. R sits third to the right of M. Who sits opposite N?
+(a) O (b) Q (c) P (d) R
+Answer: (d)
+Solution: Place M at a corner; N, facing outward, takes the side seat immediately left of M. O is the corner opposite M, P is the corner second to O's right, and Q fills the side seat between them. R, third to the right of inward-facing M, lands exactly on the side seat across from N. The trap is O, who is opposite M rather than N, so the answer is R.
+Source: PYQ-style
+
+54. Seven persons A, B, C, D, E, F and G sit in a row facing south. A sits at the left end. B sits third to the left of A. C sits exactly between B and D. E sits at the right end. F is not adjacent to A. Who sits second to the right of C?
+(a) G (b) D (c) F (d) B
+Answer: (c)
+Solution: Facing south, left means toward the diagram's right, so B sits at position 4 with A at position 1. C between B and D fixes D at 6 and C at 5, and E takes 7. F cannot touch A, so F is at 3 and G at 2. Second to the right of south-facing C means two seats toward the diagram's left, which is F; the trap is forgetting the south-facing reversal and picking D, so the answer is F.
+Source: PYQ-style
+
+55. Six persons X, Y, Z, W, V and U sit around a circular table facing the centre. X sits opposite Y. Z sits to the immediate right of X. W sits to the immediate left of Y. V sits to the immediate right of Y. Who sits to the immediate left of V?
+(a) Y (b) U (c) Z (d) X
+Answer: (a)
+Solution: Fix X and Y opposite each other. Z takes the seat right of X, W the seat left of Y, and V the seat right of Y, leaving U in the last seat. V's immediate left neighbour, counting clockwise from V, is Y. The trap is W, who sits on Y's other side and feels adjacent to V, so the answer is Y.
+Source: PYQ-style
+
+56. Ten persons sit in two parallel rows of five each. Row 1 faces south and Row 2 faces north, and each person faces exactly one person in the other row. A sits at the left end of Row 1. C sits at the right end of Row 2. D sits at the left end of Row 2. Who does C face?
+(a) D (b) A (c) The person at the right end of Row 1 (d) The person second to the right of A
+Answer: (b)
+Solution: Row 1 faces south, so its left end is on the diagram's right side; Row 2 faces north, so its right end is also on the diagram's right side. C and A therefore stand in the same column and face each other. The trap is matching the two rows end-to-end on the same side without the facing reversal, which points to the right end of Row 1, so the answer is A.
+Source: PYQ-style
+
+57. Eight persons P, Q, R, S, T, U, V and W sit around a circular table facing the centre. P sits opposite R. Q sits second to the right of P. S sits to the immediate right of R. U sits to the immediate left of P. T sits to the immediate right of Q. Who sits opposite U?
+(a) Q (b) S (c) T (d) V
+Answer: (c)
+Solution: Fix P at seat 1 and R opposite at seat 5. Q, second to the right of P, sits two places anticlockwise; T, immediately right of Q, sits one more place anticlockwise; U is immediately clockwise from P. Counting across the table, the seat opposite U is exactly T's seat. The trap is S, who was placed near R and feels like U's natural pair, so the answer is T.
+Source: PYQ-style
+
+58. Six persons P, Q, R, S, T and U sit in a row facing north. P sits at the left end. Q sits second to the right of P. U sits to the immediate left of Q. R sits to the immediate left of S. T is adjacent to Q. Who sits at the right end?
+(a) S (b) R (c) U (d) T
+Answer: (a)
+Solution: P is at position 1, Q at position 3 and U at position 2. T must touch Q, and position 2 is taken, so T sits at position 4. The R–S block then fits only at positions 5 and 6. The trap is U, who sits snugly beside Q but is second from the left, so the answer is S.
+Source: PYQ-style
+
+59. Six persons A, B, C, D, E and F sit around a hexagonal table facing the centre, one on each side. A sits opposite D. B sits to the immediate left of A. E sits between F and D. C is not adjacent to A. Who sits opposite B?
+(a) C (b) D (c) E (d) F
+Answer: (c)
+Solution: Fix A and D opposite, and B immediately left of A. The F–E–D block fits on the far side with E between F and D, leaving C in the only seat not touching A. Counting across the hexagon, the side opposite B belongs to E. The trap is C, who sits near B but not across from him, so the answer is E.
+Source: PYQ-style
+
+60. Nine persons sit in a row facing north. D sits fourth from the left. G sits exactly in the middle of the row. B sits second to the right of G. How many persons sit between D and G?
+(a) One (b) Three (c) Zero (d) Two
+Answer: (c)
+Solution: In a row of nine, the middle position is the 5th, so G sits 5th. D is 4th from the left, immediately beside G, with no seat between them. The trap is an off-by-one error that counts positions 4 and 5 as having one seat in between, so the answer is zero.
+Source: PYQ-style
+
+61. Eight persons H, I, J, K, L, M, N and O sit around a circular table facing the centre. H sits third to the right of I. J sits second to the left of I. K sits opposite I. L sits between J and K. M is an immediate neighbour of J. Who sits third to the right of K?
+(a) J (b) H (c) L (d) M
+Answer: (d)
+Solution: Fix I; H is three seats anticlockwise, J two seats clockwise, and K opposite. L fills the seat between J and K, and M must then take the seat on J's other side. Counting three seats anticlockwise from K lands exactly on M. The trap is L, who sits adjacent to K and feels close to the answer, so the answer is M.
+Source: PYQ-style
+
+62. Five couples sit around a circular table, and each husband sits opposite his own wife. Mr. A sits second to the right of Mrs. B. Mrs. C sits to the immediate left of Mr. A. Who is the wife of Mr. A?
+(a) Mrs. C (b) The woman sitting opposite Mr. A (c) Mrs. B (d) Mrs. B's neighbour
+Answer: (b)
+Solution: The defining rule of the arrangement is that each husband faces his own wife, so Mr. A's wife is whoever sits across from him, regardless of the other clues. The trap is Mrs. C: sitting next to Mr. A feels like a spouse clue, but adjacency is not the stated marriage rule, so the answer is the woman sitting opposite Mr. A.
+Source: PYQ-style
+
+63. Seven persons G, R, S, T, U, V and W sit in a row facing south. R sits at the right end. S sits third to the right of R. T sits exactly between S and U. V sits to the immediate right of U. W sits second to the left of S. Who sits in the middle of the row?
+(a) V (b) S (c) T (d) U
+Answer: (b)
+Solution: Facing south, right means toward the diagram's left, so from R at position 7, S lands at position 4. T between S and U fixes U at 2 and T at 3; V immediately right of U takes position 1; W second left of S takes position 6, leaving G at 5. The middle seat is position 4, which is S; the trap is T, who sits between S and U but one seat off centre, so the answer is S.
+Source: PYQ-style
+
+64. Four persons P, Q, R and S sit around a square table, one on each side, all facing the centre. P sits on the south side. Q sits to the immediate right of P. R sits opposite P. Who sits to the immediate left of R?
+(a) P (b) S (c) R (d) Q
+Answer: (d)
+Solution: P faces the centre from the south side, so P's right hand points east and Q takes the east side. R, opposite P, sits on the north side facing south, so R's left hand also points east, which is Q's side. The trap is S, who fills the remaining west side and sits to R's right, so the answer is Q.
+Source: PYQ-style
+
+65. Six persons sit in two rows of three facing each other. P's row faces north and Q's row faces south. P faces Q. R sits to the right of P. S faces R. T sits to the right of Q. Who faces T?
+(a) The person at the left end of P's row (b) P (c) R (d) S
+Answer: (a)
+Solution: Since Q faces south, Q's right is the diagram's left, so T sits one column to the diagram-left of Q, while P occupies Q's column in the other row. That column in P's row is the seat immediately left of P, i.e. the left end of P's row. The trap is P, since P faces Q and the mind drags T opposite P, so the answer is the person at the left end of P's row.
+Source: PYQ-style
+
+66. Eight persons M, N, O, P, Q, R, S and T sit around a circular table facing outward. M sits second to the right of N. O sits opposite N. P sits to the immediate right of O. Q sits between M and O. R sits second to the right of O. Who sits opposite M?
+(a) P (b) R (c) Q (d) S
+Answer: (b)
+Solution: Facing outward reverses directions, so right means clockwise in the diagram. From N, M is two seats clockwise, O is across, P is one seat clockwise from O, Q fills the seat between M and O, and R, second clockwise from O, lands exactly opposite M. The trap is applying inward-facing directions and landing on Q, so the answer is R.
+Source: PYQ-style
+
+67. In a row of eight persons facing north, V sits fourth from the right. W sits second to the left of V. X sits at an extreme end. Y sits exactly between W and V. How many persons sit between Y and the left end?
+(a) One (b) Four (c) Two (d) Three
+Answer: (c)
+Solution: Fourth from the right in a row of eight is position 5 from the left, so V is at 5. W is second to V's left at position 3, and Y between them sits at position 4. Between position 4 and the left end lie positions 2 and 3, which is two persons. The trap is counting Y's own seat or the end seat and answering three, so the answer is two.
+Source: PYQ-style
+
+68. Six persons A, B, C, D, E and F sit around a circular table facing the centre. A sits opposite B. C sits second to the right of A. D sits to the immediate right of B. E sits adjacent to D. Which pair sits opposite each other?
+(a) D and F (b) C and F (c) C and D (d) E and F
+Answer: (a)
+Solution: Fix A opposite B. C is two seats anticlockwise from A, D is immediately anticlockwise from B, and E must sit beside D in the only free seat next to him, leaving F in the last seat. Reading across the table, C faces E and D faces F. The trap is pairing C with F because they were placed last, but they sit side by side, so the answer is D and F.
+Source: PYQ-style
+
+69. Ten persons sit in a row facing north. G sits third from the left. H sits fourth from the right. I sits exactly midway between G and H. How many persons sit between I and H?
+(a) Three (b) Zero (c) Two (d) One
+Answer: (d)
+Solution: G is at position 3, and H, fourth from the right in a row of ten, is at position 7. Midway between 3 and 7 is position 5, where I sits. Between position 5 and position 7 lies only position 6, which is one person. The trap is counting the seats 5, 6 and 7 together and answering two, so the answer is one.
+Source: PYQ-style
+
+70. Eight persons sit around a circular table; four face the centre and four face outward, alternately. J faces the centre. K sits second to the left of J. L sits opposite J. M sits to the immediate right of K. Which direction does M face?
+(a) Outward (b) Centre (c) Cannot be determined (d) Same as L
+Answer: (a)
+Solution: With strict alternation, J's neighbours face outward; K, two seats away, faces inward like J; and M, immediately beside K, must face outward to keep the alternation. The trap is "cannot be determined," but the alternation rule fixes every seat's direction, so the answer is outward.
+Source: PYQ-style
+
+71. Seven persons A, B, C, D, E, F and G sit in a row facing north. C sits third to the left of E. A sits at the right end. B sits to the immediate right of C. D sits between E and F. Who sits at the left end?
+(a) F (b) D (c) C (d) G
+Answer: (c)
+Solution: A fixes position 7. C third left of E with B immediately right of C fits only when C is at position 1, B at 2 and E at 4; then D between E and F gives D at 5 and F at 6, leaving G at 3. Every other placement of the C–E pair blocks the D-between-E-and-F condition. The trap is G, the leftover person, who actually sits third, so the answer is C.
+Source: PYQ-style
+
+72. Six persons sit around a triangular table, one at each corner facing the centre and one at the middle of each side facing outward. P sits at a corner. Q sits at the middle of a side. R also sits at the middle of a side. Who among P, Q and R faces the centre?
+(a) P and Q (b) Only P (c) P and R (d) All three
+Answer: (b)
+Solution: The rule of the table is that corner sitters face the centre and side-middle sitters face outward. P is at a corner, so P faces in, while Q and R, both at side middles, face outward. The trap is assuming Q sits "opposite" P and therefore also faces in, so the answer is only P.
+Source: PYQ-style
+
+73. Eight persons sit in two rows of four facing each other. Row 1 faces north and Row 2 faces south. S sits at the right end of Row 1. T faces S. U sits second to the right of T. Who faces U?
+(a) S (b) T (c) The person at the left end of Row 1 (d) The person second to the left of S
+Answer: (d)
+Solution: S faces north at the right end, so S is in the diagram's rightmost column, and T faces S from the same column in Row 2. T faces south, so T's right is the diagram's left, putting U two columns to the diagram-left of T. U therefore faces the person two seats to S's left in Row 1. The trap is forgetting the facing reversal and picking the person at the left end of Row 1, so the answer is the person second to the left of S.
+Source: PYQ-style
+
+74. Eight persons A, B, C, D, E, F, G and H sit around a circular table facing the centre. A sits opposite E. B sits third to the right of A. C sits between A and B on the same arc. D sits opposite B. F is adjacent to both E and G. Who sits to the immediate left of D?
+(a) G (b) F (c) C (d) H
+Answer: (a)
+Solution: Fix A opposite E, and B three seats anticlockwise from A, so D, opposite B, sits immediately clockwise from A. F must touch both E and G, which fixes F beside E and G beside F on the far side. The seat immediately left of D, counting clockwise, is then exactly G's seat. The trap is F, who sits near E and feels central, so the answer is G.
+Source: PYQ-style
+
+75. Ten persons sit in a row facing north. K sits fourth from the left. L sits third from the right. M sits exactly midway between K and L. At which position from the left does M sit?
+(a) Fifth (b) Sixth (c) Seventh (d) Fourth
+Answer: (b)
+Solution: K is at position 4, and L, third from the right in a row of ten, is at position 8. The exact midpoint of positions 4 and 8 is position 6, so M sits sixth from the left. The trap is halving the gap of four seats and stopping at position 5, an off-by-one slip, so the answer is sixth.
+Source: PYQ-style

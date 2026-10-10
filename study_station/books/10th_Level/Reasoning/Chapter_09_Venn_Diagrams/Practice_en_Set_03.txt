@@ -1,0 +1,151 @@
+Questions 51–65: Medium | Questions 66–75: Hard
+
+51. Which of the following Venn diagrams best represents the relationship among: Sun, Moon, Stars?
+(a) Three separate circles (b) One large circle containing two overlapping circles (c) Three overlapping circles (d) One circle inside another, third separate
+Answer: (a)
+Solution: Sun is a star, but "Stars" as a class includes many celestial bodies. Sun is a member of Stars; Moon is a natural satellite; they are distinct classes with no subset relationships among the given words as general categories. In standard logical Venn, Sun, Moon, and Stars are treated as disjoint because Moon is not a star, Sun is a specific star but the class "Stars" is larger and "Sun" is not a subclass; so three separate circles.
+Source: PYQ-style
+
+52. Choose the Venn diagram for Mammals, Whales, Fishes.
+(a) Whales inside Fishes, Mammals separate (b) Whales inside Mammals, Fishes separate from Mammals (c) Whales inside Mammals, Fishes overlapping Mammals (d) Three overlapping circles
+Answer: (b)
+Solution: All whales are mammals. Fish is a distinct biological class, disjoint from mammals. So one circle Mammals containing Whales, and a separate circle for Fishes.
+Source: PYQ-style
+
+53. In a group of 200 people, 120 speak Hindi, 100 speak English, 60 speak both. How many speak neither?
+(a) 20 (b) 30 (c) 40 (d) 10
+Answer: (c)
+Solution: n(H ∪ E) = 120+100-60 = 160. Neither = 200-160 = 40.
+Source: PYQ-style
+
+54. In the given Venn diagram, circle A = Men, circle B = Players, circle C = Artists. Regions: only Men=10, only Players=8, only Artists=12, Men & Players only=5, Players & Artists only=4, Men & Artists only=6, all three=3. How many are either men or players but not artists?
+(a) 28 (b) 21 (c) 25 (d) 23
+Answer: (d)
+Solution: Men or Players but not Artists = regions inside A or B but outside C: only Men (10), only Players (8), Men & Players only (5). Sum = 10+8+5 = 23.
+Source: PYQ-style
+
+55. [Trap] Select the Venn diagram that correctly shows the relationship among Book, Author, Publisher.
+(a) Three separate circles (b) One large circle containing two separate circles (c) Author inside Book, Publisher separate (d) Book inside Author, Publisher overlapping
+Answer: (a)
+Solution: Book is an object, Author is a person, Publisher is an entity/company. They belong to entirely different categories. No subset or overlap relationship exists in class logic. Many students mistakenly relate them functionally (author writes book, publisher publishes book), but Venn deals with class membership, not association. Hence three disjoint circles. Trap: Functional association vs class membership.
+Source: PYQ-style
+
+56. Statements: All pencils are pens. Some pens are erasers. No eraser is a sharpener. Conclusions: I. Some pencils are erasers. II. Some pens are not sharpeners.
+(a) Only I follows (b) Only II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (b)
+Solution: I: Pencils ⊆ Pens. Some pens are erasers does not guarantee that the pencil part overlaps erasers. So I false. II: The pens that are erasers (some pens) are definitely not sharpeners (since no eraser is sharpener). So those pens are not sharpeners. Hence II true.
+Source: PYQ-style
+
+57. In a Venn diagram with three sets A, B, C, it is given that only A=8, only B=6, only C=10, A∩B only=4, B∩C only=5, A∩C only=3, all three=2. How many elements are in at least two sets?
+(a) 12 (b) 10 (c) 14 (d) 16
+Answer: (c)
+Solution: At least two = (exactly two) + (all three) = (4+5+3) + 2 = 12+2 = 14.
+Source: PYQ-style
+
+58. Which option best represents Square, Rectangle, Polygon?
+(a) Square inside Polygon, Rectangle separate (b) Rectangle inside Square, Square inside Polygon (c) All three overlapping (d) Square inside Rectangle, Rectangle inside Polygon
+Answer: (d)
+Solution: All squares are rectangles, all rectangles are polygons. So nested circles.
+Source: PYQ-style
+
+59. Statements: No river is an ocean. All oceans are water bodies. Some water bodies are lakes. Conclusions: I. Some water bodies are not rivers. II. No lake is a river.
+(a) Only I follows (b) Only II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (a)
+Solution: I: Oceans are water bodies, and rivers are disjoint from oceans. So oceans are water bodies that are not rivers. Hence some water bodies are not rivers. True. II: Lakes are some water bodies, but could overlap with rivers? Rivers are disjoint from oceans, but could intersect lakes. No statement prohibits lakes and rivers overlapping. So II not definite.
+Source: PYQ-style
+
+60. [Trap] Which Venn diagram accurately represents Doctor, Patient, Hospital?
+(a) Three overlapping circles (b) Three separate circles (c) Doctor and Patient inside Hospital, no overlap between Doctor and Patient (d) Doctor inside Hospital, Patient separate
+Answer: (b)
+Solution: Doctor is a professional, Patient is a person with a role, Hospital is an institution. None is a subclass of another. They belong to distinct class categories. Overlap in real-world interaction doesn't imply class overlap. So three separate circles. Trap: Real-world association (doctors and patients in hospital) misleads to choose overlapping or subset relations.
+Source: PYQ-style
+
+61. In a survey, 70% like cricket, 60% like football, 40% like both. What percentage like at most one?
+(a) 50% (b) 40% (c) 60% (d) 70%
+Answer: (c)
+Solution: Like at least one = 70+60-40 = 90%. At most one = total - both = 100% - 40% = 60%.
+Source: PYQ-style
+
+62. Statements: All chairs are tables. Some tables are wooden. No wooden thing is plastic. Conclusions: I. Some chairs are wooden. II. Some tables are not plastic.
+(a) Only I follows (b) Both I and II follow (c) Neither I nor II follows (d) Only II follows
+Answer: (d)
+Solution: I: Chairs ⊆ Tables. Some tables are wooden does not force the chair subset to intersect wooden. False. II: The tables that are wooden are not plastic. So some tables (those wooden) are not plastic. True.
+Source: PYQ-style
+
+63. Choose the Venn diagram for Milk, Curd, Buttermilk.
+(a) Three separate circles (b) Curd inside Milk, Buttermilk inside Curd (c) All inside a large circle 'Dairy', but separate from each other (d) Three overlapping circles
+Answer: (a)
+Solution: Milk, curd, and buttermilk are distinct dairy products. None is a subclass of another; they are separate entities. So three disjoint circles. (No universal set given like Dairy in the options, so simple separate circles.)
+Source: PYQ-style
+
+64. In the given figure, triangle = Teachers, square = Post-graduates, circle = Rural. Numbers: only Teachers=9, only Post-graduates=7, only Rural=11, Teachers & PG only=4, PG & Rural only=6, Teachers & Rural only=5, all three=3. How many are exactly two of these?
+(a) 18 (b) 15 (c) 12 (d) 14
+Answer: (b)
+Solution: Exactly two = (4+6+5) = 15.
+Source: PYQ-style
+
+65. Statements: Some bags are wallets. All wallets are leather. No leather is cloth. Conclusions: I. Some bags are leather. II. No wallet is cloth.
+(a) Only I follows (b) Only II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (c)
+Solution: I: Some bags are wallets, and wallets are leather, so those bags are leather. II: Wallets ⊆ Leather, Leather ∩ Cloth = ∅ → Wallets ∩ Cloth = ∅. True.
+Source: PYQ-style
+
+66. [Trap] Which Venn diagram best fits Fruit, Apple, Seed?
+(a) Apple inside Fruit, Seed separate (b) Seed inside Fruit, Apple inside Seed (c) Apple inside Fruit, Seed overlapping Fruit (d) Apple inside Fruit, Seed inside Apple
+Answer: (d)
+Solution: All apples are fruits. Seeds are a part of an apple; in class logic, a seed is not a subclass of apple but can be considered a component. However, standard competitive exams often treat "Seed" as a part, so they might show it separate. But the most common answer in such word grouping: Apple ⊆ Fruit, and Seed is a part of Apple, so nested. Many students get confused because seed is also a part of fruit directly. Still, the best representation is Apple inside Fruit, Seed inside Apple (since seeds are inside apples). Trap: Part-whole relationship might confuse; students may think Seed is separate from Apple or Fruit, but the most plausible logical nesting is used.
+Source: PYQ-style
+
+67. Which option correctly shows Teacher, Student, School?
+(a) Teacher and Student inside School, no overlap (b) Three separate circles (c) Teacher inside School, Student overlapping Teacher (d) Student inside Teacher, School separate
+Answer: (a)
+Solution: Both teachers and students are part of a school's ecosystem; they are disjoint classes within the school environment. So one large circle School with two separate subsets.
+Source: PYQ-style
+
+68. In the Venn diagram, A=Doctors, B=Singers, C=Indians. Numbers: only A=13, only B=11, only C=15, A∩B only=6, B∩C only=8, A∩C only=7, all three=4. How many are exactly one of these?
+(a) 43 (b) 39 (c) 35 (d) 41
+Answer: (b)
+Solution: Exactly one = only A + only B + only C = 13+11+15 = 39.
+Source: PYQ-style
+
+69. Statements: Some mobiles are laptops. No laptop is a tablet. All tablets are gadgets. Conclusions: I. Some mobiles are not tablets. II. No laptop is a gadget.
+(a) Only II follows (b) Both I and II follow (c) Only I follows (d) Neither I nor II follows
+Answer: (c)
+Solution: I: The mobiles that are laptops are not tablets (since no laptop is tablet). So some mobiles are not tablets. True. II: Laptops could be gadgets; there's no statement preventing laptops from being gadgets. So II false.
+Source: PYQ-style
+
+70. Which Venn diagram represents Metals, Gold, Silver?
+(a) Gold inside Silver, both inside Metals (b) Metals inside Gold, Silver inside Gold (c) Three overlapping circles (d) Gold and Silver inside Metals, no overlap between Gold and Silver
+Answer: (d)
+Solution: Gold and silver are distinct metals. Both are subsets of Metals, and they are disjoint. So one big circle Metals containing two non-overlapping circles.
+Source: PYQ-style
+
+71. Statements: Some roses are red. All red things are beautiful. Some beautiful things are flowers. Conclusions: I. Some roses are beautiful. II. Some flowers are red.
+(a) Only I follows (b) Only II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (a)
+Solution: I: Some roses are red, and all red are beautiful → those roses are beautiful. True. II: Some beautiful things are flowers. Red is inside beautiful. But flowers could overlap only the non-red beautiful part. So no guarantee that any flower is red. False.
+Source: PYQ-style
+
+72. In a class, 80% passed in English, 70% in Maths, 60% in both. What percentage passed in exactly one subject?
+(a) 20% (b) 30% (c) 10% (d) 40%
+Answer: (b)
+Solution: Passed in at least one = 80+70-60 = 90%. Exactly one = at least one - both = 90% - 60% = 30%.
+Source: PYQ-style
+
+73. [Trap] Choose the Venn diagram for Bird, Ostrich, Fly.
+(a) Ostrich inside Bird, Fly overlapping Bird (b) Fly inside Bird, Ostrich outside Bird (c) Ostrich inside Bird, Fly separate (d) All three separate
+Answer: (c)
+Solution: Ostrich is a bird (subset). Fly is an action, not a class of creatures. So Fly is a completely disjoint set. Many students think of "flying birds" and get confused, but Fly is not a subclass of Bird. Hence separate circle. Trap: Confusing an action with a class; also the real-world fact that ostriches don't fly might tempt to overlap or separate incorrectly.
+Source: PYQ-style
+
+74. Statements: All dogs are animals. Some animals are wild. No wild creature is pet. Conclusions: I. Some dogs are wild. II. No dog is pet.
+(a) Only I follows (b) Only II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (d)
+Solution: Dogs ⊆ Animals. Some animals are wild means Animals ∩ Wild ≠ ∅. I: Dogs may be entirely in the non-wild part of animals, so not definite. II: Wild and Pet are disjoint. Dogs could be pet if they are not wild. No statement prohibits dogs from being pets. So II false.
+Source: PYQ-style
+
+75. Which option correctly shows Players, Cricket, Hockey?
+(a) Cricket inside Players, Hockey separate (b) Cricket and Hockey inside Players, no overlap (c) Three overlapping circles (d) Players inside Cricket, Hockey inside Cricket
+Answer: (b)
+Solution: Cricket and Hockey are sports; but here "Cricket" likely refers to people who play cricket, i.e., cricketers. In word-to-diagram questions, "Cricket" often means the players of cricket. So both cricketers and hockey players are subsets of Players, and they are distinct (unless some play both, but generally disjoint in these questions). However, many such questions treat them as separate specialties within Players. Overlap could be possible, but standard answer in SSC is disjoint subsets inside Players. We'll go with (A).
+Source: PYQ-style

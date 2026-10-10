@@ -1,20 +1,47 @@
 ```mermaid
 graph TD
-    R["🧩 वर्गीकरण<br>Classification"]
-    R --> D["📖 अर्थ<br>बेमेल चीज़ ढूँढना"]
-    R --> M["🗝️ नियम<br>बहुमत का साझा गुण"]
-    R --> T["📂 प्रकार<br>Types"]
-    R --> TR["⚠️ जाल<br>Traps"]
+    A["वर्गीकरण / Classification<br>(Odd One Out)"]
 
-    M --> M1["पहले साझा गुण पहचानो"]
-    M --> M2["फिर बाहर वाला चुनो"]
+    A --> T["मुख्य प्रकार<br>Major Types"]
+    A --> S["हल करने की तकनीकें<br>Solving Strategies"]
+    A --> TR["परीक्षक के जाल<br>Examiner's Traps"]
+    A --> TM["समय प्रबंधन<br>Time Management"]
 
-    T --> T1["शब्द वर्गीकरण<br>Word — फूल vs फल"]
-    T --> T2["अक्षर वर्गीकरण<br>Letter — gap पैटर्न"]
-    T --> T3["संख्या वर्गीकरण<br>Number — अभाज्य/वर्ग/घन"]
-    T --> T4["सामान्य ज्ञान<br>GK — देश vs शहर"]
+    T --> L["अक्षर आधारित<br>Letter Based"]
+    T --> N["संख्या आधारित<br>Number Based"]
+    T --> W["शब्द आधारित<br>Word Based"]
+    T --> G["सामान्य ज्ञान आधारित<br>GK Based"]
+    T --> M["मिश्रित वर्गीकरण<br>Mixed Alphanumeric"]
 
-    TR --> TR1["एक से ज़्यादा आधार"]
-    TR --> TR2["छिपा हुआ गुण"]
-    TR --> TR3["जल्दबाज़ी से बचो"]
+    L --> L1["स्थिति अंतर<br>Positional Gap (+k, -k)"]
+    L --> L2["विपरीत अक्षर<br>Opposite Letters (Sum = 27)"]
+    L --> L3["स्वर-व्यंजन<br>Vowels vs Consonants"]
+    L --> L4["स्थिति योग<br>Sum of Letter Values"]
+
+    N --> N1["सम / विषम<br>Even vs Odd"]
+    N --> N2["अभाज्य / भाज्य<br>Prime vs Composite"]
+    N --> N3["वर्ग एवं घन<br>Squares & Cubes (n², n³)"]
+    N --> N4["अंकों का योग/गुणा<br>Sum / Product of Digits"]
+
+    W --> W1["अर्थ एवं श्रेणी<br>Semantic Category"]
+    W --> W2["कार्य एवं साधन<br>Function vs Product"]
+    W --> W3["बनावट एवं अक्षर संख्या<br>Word Structure / Length"]
+
+    G --> G1["भूगोल: देश, राजधानी, नदियाँ<br>Geography: Capitals, Rivers"]
+    G --> G2["विज्ञान: SI मात्रक, विटामिन<br>Science: SI Units, Vitamins"]
+    G --> G3["खेल: खिलाड़ी संख्या, मैदान<br>Sports: Players, Venues"]
+
+    M --> M1["अक्षर + संख्या संबंध<br>Letter Rank to Number"]
+    M --> M2["दोहरा चरण सत्यापन<br>Verify Both Steps"]
+
+    S --> S1["प्राथमिक आधार पहले<br>Primary Standard Rule First"]
+    S --> S2["स्थिति संख्या तुरंत लिखें<br>Note Numerical Positions"]
+    S --> S3["4-समान 1-भिन्न नियम<br>4 Follow Common Rule, 1 Differs"]
+
+    TR --> TR1["एक से अधिक संबंध<br>Multiple Competing Rules"]
+    TR --> TR2["कठिन शब्दावली का भय<br>Intimidating Unfamiliar Words"]
+    TR --> TR3["1 का अभाज्य जाल<br>1 is Neither Prime nor Composite"]
+
+    TM --> TM1["15 सेकंड नियम<br>Immediate pattern detection"]
+    TM --> TM2["45 सेकंड अधिकतम सीमा<br>Flag and move if stuck"]
 ```

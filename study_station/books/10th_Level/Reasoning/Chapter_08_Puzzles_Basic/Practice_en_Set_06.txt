@@ -1,0 +1,151 @@
+Questions 126–140: Medium | Questions 141–150: Hard
+
+126. Eight persons A, B, C, D, E, F, G, and H sit around a circular table. E faces the center and his immediate neighbors face outwards. The facing directions alternate. A sits second to the left of B. F sits opposite G. H sits to the immediate right of A. Who sits second to the left of E?
+(a) B (b) A (c) C (d) D
+Answer: (a)
+Solution: With alternating directions, a unique valid arrangement is obtained in which B sits second to the left of E.
+Source: PYQ-style
+
+127. Seven boxes A, B, C, D, E, F, and G are stacked one above another (1 = bottom, 7 = top). A is on an odd prime floor. B is three boxes above C. D is immediately above E. F is not on the 7th floor. G is between A and F. Only one box is between B and D. Which box is on the 5th floor?
+(a) B (b) G (c) D (d) F
+Answer: (b)
+Solution: Analyzing the constraints, the box placed on the 5th floor is G.
+Source: PYQ-style
+
+128. Six persons A, B, C, D, E, and F are sitting in a row facing north. A sits second to the left of B. C sits exactly between A and B. D sits to the immediate right of E. F sits at one of the extreme ends. E does not sit adjacent to A. Who sits to the immediate left of A?
+(a) C (b) D (c) Cannot be determined (d) F
+Answer: (c)
+Solution: Two arrangements are valid: (F, A, C, B, E, D) and (E, D, A, C, B, F), giving F and D respectively to the immediate left of A. Hence, it cannot be determined.
+Source: PYQ-style
+
+129. Seven persons A, B, C, D, E, F, and G live on floors 1 to 7. A lives on an even-numbered floor. B lives three floors above C. D lives immediately above E. F lives on the 4th floor. G lives between A and B. Only one person lives between B and D. Who lives on the 2nd floor?
+(a) B (b) C (c) G (d) E
+Answer: (d)
+Solution: Floor order (1 to 7): 1-C, 2-E, 3-D, 4-F, 5-B, 6-G, 7-A. The person living on the 2nd floor is E.
+Source: PYQ-style
+
+130. Seven persons A, B, C, D, E, F, and G attend a meeting from Monday to Sunday. D attends on Wednesday and G on Sunday. Only one person attends between C and D (C attends before D). E attends immediately before F. Only one person attends between A and B. Who attends on Friday?
+(a) E (b) A (c) C (d) F
+Answer: (a)
+Solution: Schedule: Mon-C, Tue-B, Wed-D, Thu-A, Fri-E, Sat-F, Sun-G. On Friday, E attends.
+Source: PYQ-style
+
+131. In a row, a certain number of persons are sitting facing north. A is 4th from the left end. B is 6th from the right end. Three persons sit between A and B. How many total persons are in the row?
+(a) 13 (b) Cannot be determined (c) 14 (d) 15
+Answer: (b)
+Solution: Without overlap, total = 4 + 3 + 6 = 13; with overlap, total = 4 + 6 - 3 - 2 = 5. Since relative positions are not specified, it cannot be determined.
+Source: PYQ-style
+
+132. Seven boxes P, Q, R, S, T, U, and V are stacked (1 = bottom, 7 = top). P is on an even floor. U is on the 4th floor. Q is three boxes above R. S is immediately above T. V is between P and Q. Which box is on the 1st floor?
+(a) S (b) T (c) R (d) V
+Answer: (c)
+Solution: Stack: 1-R, 2-T, 3-S, 4-U, 5-Q, 6-V, 7-P. The box on the 1st floor is R.
+Source: PYQ-style
+
+133. In a row facing north, A is 5th from the left and B is 5th from the right. Only one person sits between A and B. How many total persons are in the row?
+(a) 7 (b) 9 (c) 11 (d) Cannot be determined
+Answer: (d)
+Solution: Without overlap, total = 5 + 1 + 5 = 11; with overlap, total = 5 + 5 - 1 - 2 = 7. Both are valid, so it cannot be determined.
+Source: PYQ-style
+
+134. Eight persons A, B, C, D, E, F, G, and H sit around a circular table facing alternately towards the center and outwards. E faces the center. A sits second to the left of B. F sits opposite G. H sits to the immediate right of A. Who sits to the immediate left of G?
+(a) E (b) B (c) C (d) D
+Answer: (a)
+Solution: According to the alternating circular arrangement, the person sitting to the immediate left of G is E.
+Source: PYQ-style
+
+135. Seven persons P, Q, R, S, T, U, and V live on floors 1 to 7. P lives on an odd-numbered floor. U lives on the 4th floor. Q lives one floor above R. T lives three floors above S. V lives between P and Q. Who lives on the 6th floor?
+(a) P (b) V (c) Q (d) T
+Answer: (b)
+Solution: Floor order: 1-S, 2-R, 3-Q, 4-U, 5-T, 6-V, 7-P. On the 6th floor lives V.
+Source: PYQ-style
+
+136. Six persons A, B, C, D, E, and F are sitting in a row facing north. A sits second to the left of B. C sits exactly between A and B. D sits to the immediate right of E. F sits at the right end. E does not sit adjacent to A. Who sits exactly between B and D?
+(a) B (b) D (c) C (d) E
+Answer: (c)
+Solution: Arrangement: E, D, A, C, B, F. Between D and B sit A and C. Among the options, C is correct.
+Source: PYQ-style
+
+137. Among six friends P, Q, R, S, T, and U of different heights, P is shorter than only S. T is taller than U and not shorter than Q. R is shorter than U. Who is the second tallest friend?
+(a) P (b) R (c) S (d) T
+Answer: (d)
+Solution: Analyzing the height ranking, T is the correct choice.
+Source: PYQ-style
+
+138. Seven persons A, B, C, D, E, F, and G are sitting in a row facing north. F sits at the extreme left end. A sits fourth to the left of G. D sits to the immediate right of E. B sits second to the right of C. G does not sit at the right end. Who is in the second position from the left?
+(a) A (b) B (c) D (d) E
+Answer: (a)
+Solution: Row order (1 to 7): 1-F, 2-A, 3-E, 4-D, 5-C, 6-G, 7-B. The second person from left is A.
+Source: PYQ-style
+
+139. Eight boxes A, B, C, D, E, F, G, and H are kept (1=bottom, 8=top). H is on the 1st floor and F on the 6th floor. A is on an even floor. B is three boxes above C. D is immediately above E. G is between A and F. Which box is on the 7th floor?
+(a) A (b) G (c) B (d) D
+Answer: (b)
+Solution: Order: 1-H, 2-C, 3-E, 4-D, 5-B, 6-F, 7-G, 8-A. On the 7th floor is box G.
+Source: PYQ-style
+
+140. Six persons P, Q, R, S, T, and U are sitting in a row facing north. P sits third to the left of Q. U sits exactly between P and Q. R sits to the immediate left of S. T sits at one end. Who sits to the immediate left of P?
+(a) R (b) S (c) Cannot be determined (d) T
+Answer: (c)
+Solution: Multiple valid arrangements satisfy all clues, so who sits immediately left of P cannot be uniquely determined.
+Source: PYQ-style
+
+141. Seven persons A, B, C, D, E, F, and G attend a seminar from Monday to Sunday. G attends on Monday and D on Friday. Only two persons attend between C and D (C attends before D). E attends immediately before F. Only one person attends between A and B. Who attends on Thursday?
+(a) B (b) E (c) F (d) A
+Answer: (d)
+Solution: Schedule: Mon-G, Tue-C, Wed-B, Thu-A, Fri-D, Sat-E, Sun-F. On Thursday, person A attends.
+Source: PYQ-style
+
+142. Eight persons A, B, C, D, E, F, G, and H sit around a circular table facing the center. A sits third to the left of B. F sits opposite G. C sits to the immediate right of D. E sits second to the left of H. How many persons sit between A and E (counting clockwise from A)?
+(a) 3 (b) 2 (c) 4 (d) 5
+Answer: (a)
+Solution: According to the arrangement, A and E sit opposite each other, meaning 3 persons sit between them.
+Source: PYQ-style
+
+143. Seven persons P, Q, R, S, T, U, and V live on floors 1 to 7. V lives on the 6th floor. Q lives on an odd floor. R lives immediately above S. U lives three floors above T. P lives between Q and V. Who lives on the 7th floor?
+(a) R (b) Q (c) S (d) U
+Answer: (b)
+Solution: Order: 1-T, 2-S, 3-R, 4-U, 5-P, 6-V, 7-Q. On the 7th floor lives Q.
+Source: PYQ-style
+
+144. A certain number of persons are sitting in a row facing north. A is 6th from the left end. B is 7th from the right end. Two persons sit between A and B. What is the position of B from the left end?
+(a) 6th (b) 7th (c) Cannot be determined (d) 8th
+Answer: (c)
+Solution: If B is right of A, B is 9th from left; if left of A, B is 3rd from left. Since relative position is not specified, it cannot be determined.
+Source: PYQ-style
+
+145. Six persons A, B, C, D, E, and F are sitting in a row facing north. A sits third to the left of B. C sits exactly between A and B. D sits to the immediate right of E. F sits at one of the ends. Who sits to the immediate left of A?
+(a) B (b) D (c) E (d) Cannot be determined
+Answer: (d)
+Solution: Multiple valid arrangements satisfy the clues, so who sits immediately left of A cannot be uniquely determined.
+Source: PYQ-style
+
+146. Seven boxes A, B, C, D, E, F, and G are stacked (1=bottom, 7=top). A is on an even floor and F is on the 7th floor. B is three boxes above C. D is immediately above E. G is between A and B. Which box is on the 1st floor?
+(a) E (b) C (c) D (d) G
+Answer: (a)
+Solution: Order: 1-E, 2-D, 3-C, 4-B, 5-G, 6-A, 7-F. The box on the 1st floor is E.
+Source: PYQ-style
+
+147. Eight persons A, B, C, D, E, F, G, and H sit around a circular table facing alternately towards the center and outside. A faces the center. B sits third to the right of A. C sits opposite D. E sits to the immediate left of F. H sits to the immediate right of B. Who sits opposite E?
+(a) A (b) D (c) B (d) C
+Answer: (b)
+Solution: According to the circular arrangement, the person sitting opposite E is D.
+Source: PYQ-style
+
+148. Seven persons P, Q, R, S, T, U, and V attend a seminar from Monday to Sunday. V attends on Monday and S on Friday. Three persons attend between R and S. T attends immediately before U. P attends before Q. Who attends on Tuesday?
+(a) P (b) Q (c) R (d) T
+Answer: (c)
+Solution: Schedule: Mon-V, Tue-R, Wed-P, Thu-Q, Fri-S, Sat-T, Sun-U. On Tuesday, person R attends.
+Source: PYQ-style
+
+149. Six persons A, B, C, D, E, and F have different heights. A is taller than B. B is taller than E. E is taller than F. D is taller than C. A is taller than D. Who is the shortest person?
+(a) D (b) E (c) F (d) Cannot be determined
+Answer: (d)
+Solution: No comparative clue exists between F and C, so either could be the shortest. Hence, it cannot be determined.
+Source: PYQ-style
+
+150. Seven persons A, B, C, D, E, F, and G are sitting in a row facing north. F sits at the extreme right end. A sits fourth to the left of G. D sits to the immediate left of E. B sits second to the right of C. G does not sit at any extreme end. Who sits to the immediate left of F?
+(a) A (b) G (c) D (d) E
+Answer: (b)
+Solution: Order: 1-C, 2-A, 3-B, 4-D, 5-E, 6-G, 7-F. To the immediate left of F(7) sits G(6).
+Source: PYQ-style

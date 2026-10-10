@@ -1,0 +1,37 @@
+```mermaid
+graph TD
+    A["Articles<br>a / an / the"] --> B["Indefinite: A / AN"]
+    A --> C["Definite: THE"]
+    A --> D["Zero Article<br>(no article)"]
+
+    B --> B1["A + consonant sound<br>a boy, a university, a one-rupee note"]
+    B --> B2["AN + vowel sound<br>an apple, an hour, an honest man"]
+    B --> B3["Used for: first mention,<br>one of many, professions<br>He is a teacher"]
+
+    C --> C1["Specific / already mentioned<br>I saw a dog. The dog was black"]
+    C --> C2["Unique things<br>the sun, the moon, the earth"]
+    C --> C3["Superlatives & ordinals<br>the best, the first"]
+    C --> C4["Rivers, oceans, mountain ranges<br>the Ganga, the Pacific, the Himalayas"]
+    C --> C5["Holy books & newspapers<br>the Ramayana, the Times of India"]
+
+    D --> D1["Plural & uncountable (general)<br>Dogs are loyal. Water is life"]
+    D --> D2["Proper nouns<br>India, Ram, Mount Everest"]
+    D --> D3["Languages, subjects, games, meals<br>Hindi, Physics, cricket, lunch"]
+    D --> D4["Fixed phrases<br>go to school, at home, by bus"]
+
+    A --> E["Golden Rules"]
+    E --> E1["Sound matters, not spelling<br>an MBA, a European"]
+    E --> E2["Same person = one 'the'<br>The poet and philosopher is here"]
+    E --> E3["Two persons = repeat 'the'<br>The poet and the philosopher are here"]
+
+    A --> F["Examiner's Traps"]
+    F --> F1["Silent 'h'<br>an hour, an heir (not a hour)"]
+    F --> F2["Vowel letter, consonant sound<br>a useful book, a union"]
+    F --> F3["Countries: no 'the'<br>but the USA, the UK, the UAE"]
+    F --> F4["School/hospital: purpose decides<br>go to school vs go to the school"]
+
+    A --> G["Strategy"]
+    G --> G1["15-sec: sound check, unique nouns,<br>superlatives (fact-based)"]
+    G --> G2["45-sec: specific vs general sense,<br>fixed phrases (inference-based)"]
+    G --> G3["Mnemonic: 'SOUND decides A/AN,<br>not the LETTER'"]
+```

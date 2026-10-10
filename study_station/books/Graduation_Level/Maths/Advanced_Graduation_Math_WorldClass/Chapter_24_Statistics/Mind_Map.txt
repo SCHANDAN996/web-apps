@@ -1,0 +1,49 @@
+```mermaid
+graph TD
+    A["सांख्यिकी<br>Statistics"] --> B["आँकड़ों का संग्रह<br>Data Collection"]
+    A --> C["आँकड़ों का प्रस्तुतीकरण<br>Data Presentation"]
+    A --> D["केंद्रीय प्रवृत्ति<br>Central Tendency"]
+    A --> E["विचलन / अपकिरण<br>Dispersion"]
+    A --> F["सहसंबंध व प्रतिगमन<br>Correlation & Regression"]
+    A --> G["प्रायिकता आधार<br>Probability Basics"]
+    A --> H["सूचकांक<br>Index Numbers"]
+
+    B --> B1["प्राथमिक आँकड़े<br>Primary Data"]
+    B --> B2["द्वितीयक आँकड़े<br>Secondary Data"]
+    B --> B3["चर: असतत / सतत<br>Variable: Discrete / Continuous"]
+
+    C --> C1["बारंबारता बंटन<br>Frequency Distribution"]
+    C --> C2["वर्ग अंतराल, वर्ग-माप<br>Class Interval, Class Mark"]
+    C --> C3["संचयी बारंबारता<br>Cumulative Frequency"]
+    C --> C4["आलेख: आयतचित्र, बारंबारता बहुभुज, तोरण<br>Histogram, Polygon, Ogive"]
+
+    D --> D1["माध्य<br>Mean"]
+    D --> D2["माध्यिका<br>Median"]
+    D --> D3["बहुलक<br>Mode"]
+    D1 --> D1a["प्रत्यक्ष / कल्पित माध्य / पद-विचलन विधि<br>Direct / Assumed / Step-Deviation"]
+    D2 --> D2a["माध्यिका वर्ग + सूत्र<br>Median Class + Formula"]
+    D3 --> D3a["बहुलक वर्ग + सूत्र<br>Modal Class + Formula"]
+    D --> D4["संबंध: बहुलक = 3माध्यिका − 2माध्य<br>Mode = 3Median − 2Mean"]
+    D --> D5["चतुर्थक, दशक, शतांकक<br>Quartiles, Deciles, Percentiles"]
+
+    E --> E1["परास<br>Range"]
+    E --> E2["चतुर्थक विचलन<br>Quartile Deviation"]
+    E --> E3["माध्य विचलन<br>Mean Deviation"]
+    E --> E4["प्रसरण व मानक विचलन<br>Variance & Std Deviation"]
+    E --> E5["विचरण गुणांक CV<br>Coefficient of Variation"]
+    E4 --> E4a["σ² = Σ(x−x̄)²/N<br>Variance Formula"]
+
+    F --> F1["कार्ल पियर्सन गुणांक r<br>Pearson's r (−1 से +1)"]
+    F --> F2["स्पीयरमैन कोटि सहसंबंध<br>Spearman's Rank Correlation"]
+    F --> F3["प्रतिगमन रेखाएँ<br>Regression Lines"]
+    F --> F4["bxy × byx = r²<br>Regression Coefficients"]
+
+    G --> G1["प्रतिदर्श समष्टि<br>Sample Space"]
+    G --> G2["P(A) = अनुकूल/कुल<br>Favourable/Total"]
+    G --> G3["योग व गुणन नियम<br>Addition & Multiplication Rules"]
+    G --> G4["पूरक घटना<br>Complementary Events"]
+
+    H --> H1["लास्पेयर<br>Laspeyres"]
+    H --> H2["पाशे<br>Paasche"]
+    H --> H3["फिशर का आदर्श सूचकांक<br>Fisher's Ideal Index"]
+```

@@ -1,0 +1,136 @@
+# 📊 PYQ Analysis — Syllogism (Verbal Reasoning)
+
+## 1. How Exams Ask Questions from This Chapter
+
+Syllogism is one of the most **reliable scoring areas** in Verbal Reasoning. Across SSC (CGL, CHSL, MTS), Banking (IBPS PO/Clerk, SBI PO), and Railway (RRB NTPC, Group D), the chapter appears in a small number of stable formats. Instead of memorising question counts, learn the **formats** — they repeat year after year.
+
+### The 5 recurring formats
+
+1. **Two statements + two conclusions** — decide which conclusion(s) follow. (Most common in SSC and Railway.)
+2. **Three statements + three/four conclusions** — "Only I and II follow" style. (Common in Banking prelims.)
+3. **"Possibility" conclusions** — "Some A being B is a possibility." (Banking favourite; rare in SSC.)
+4. **Reverse syllogism** — conclusions are given; choose the set of statements that makes them true. (Banking mains, occasionally SSC CGL.)
+5. **Venn-diagram-based selection** — pick the diagram that represents the statements. (SSC CHSL/MTS, Railway.)
+
+### Sub-topics that repeat most often
+
+- **"All A are B" + "Some B are C"** combinations — the classic trap where students wrongly conclude "Some A are C."
+- **Negative statements** ("No A is B") mixed with positive ones — students forget that a negative statement can never yield a positive definite conclusion.
+- **"Some not" conclusions** — the single biggest trap area; "Some A are not B" almost never follows unless a negative statement forces it.
+- **Complementary pairs (either–or)** — "Some A are B" + "No A is B" as an either–or case when the subject–predicate match and neither conclusion follows independently.
+- **Possibility cases** — "All A being B is a possibility" follows whenever there is no definite negative relation blocking it.
+
+### Exam-wise tendency (qualitative)
+
+- **SSC CGL / CHSL:** 2-statement, 2-conclusion questions dominate; Venn-diagram selection questions are frequent; difficulty is easy-to-moderate.
+- **RRB NTPC / Group D:** Straightforward "All–Some–No" questions; rarely uses possibility or either–or; very scoring.
+- **IBPS / SBI (Banking):** 3-statement questions, possibility conclusions, and reverse syllogism appear regularly; traps are more deliberate.
+
+---
+
+## 2. The Examiner's Traps (Psychological Hooks)
+
+| Trap | How it works |
+|---|---|
+| **Real-world bias** | Statements like "All cats are dogs" feel false, so students reject valid conclusions. Logic ignores real-world truth. |
+| **"Some" misread as "some not"** | In logic, "Some A are B" does NOT imply "Some A are not B." Examiners place "Some not" as a tempting conclusion. |
+| **Middle-term chaining** | "All A are B, All B are C" → students over-apply this to "All A are B, Some B are C" and wrongly chain A to C. |
+| **Almost-correct conclusion** | "Some C are A" is offered when only "Some A are C" follows (or vice versa) — conversion direction is tested. |
+| **Either–or blindness** | Students mark "neither follows" when the two conclusions form a complementary pair (Some/No with same terms). |
+| **Possibility overreach** | "X is a possibility" is marked false because it isn't definite — but possibility conclusions follow unless definitely contradicted. |
+| **Negative-to-positive** | A positive conclusion is offered from a set containing "No A is B" — impossible, but tempting under time pressure. |
+
+---
+
+## 3. Top 10 High-Yield Questions (with Solutions & Trap Analysis)
+
+**Q1.** Statements: All pens are books. All books are chairs.
+Conclusions: I. All pens are chairs. II. Some chairs are pens.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (c)
+Solution: "All A are B + All B are C" gives "All A are C" — so I follows. Converting "All pens are chairs" gives "Some chairs are pens" — II follows.
+Trap: Students think II is "too weak" to be a conclusion. A definite conclusion, however weak, still follows.
+Source: PYQ-style
+
+**Q2.** Statements: All dogs are animals. Some animals are cats.
+Conclusions: I. Some dogs are cats. II. Some cats are animals.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (b)
+Solution: The middle term "animals" is not distributed in both premises in a way that links dogs to cats — I does not follow. II is a direct conversion of statement 2.
+Trap: The classic chaining trap — students connect dogs→animals→cats. "Some" in the middle term blocks the chain.
+Source: PYQ-style
+
+**Q3.** Statements: No mango is an apple. Some apples are sweet.
+Conclusions: I. Some sweet things are not mangoes. II. No sweet thing is a mango.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (a)
+Solution: The part of "sweet" that lies inside "apples" can never be mango (since no mango is an apple) — so I follows. II overreaches: other sweet things could still be mangoes.
+Trap: II looks like a "stronger version" of I and tempts students who equate "some are not" with "none."
+Source: PYQ-style
+
+**Q4.** Statements: Some boys are students. Some students are players.
+Conclusions: I. Some boys are players. II. No boy is a player.
+(a) Only I follows (b) Only II follows (c) Either I or II follows (d) Neither follows
+Answer: (c)
+Solution: Two "Some" statements with an undistributed middle term give no definite conclusion. But I and II share the same subject and predicate and form a "Some + No" complementary pair — so either–or applies.
+Trap: Students mark (d), forgetting the complementary-pair rule. This is the most repeated either–or pattern in SSC.
+Source: PYQ-style
+
+**Q5.** Statements: All flowers are leaves. No leaf is a root.
+Conclusions: I. No flower is a root. II. Some roots are flowers.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (a)
+Solution: Flowers sit entirely inside leaves, and leaves have zero overlap with roots — so no flower can be a root. II directly contradicts this.
+Trap: Real-world bias — students know flowers and roots are connected in nature and hesitate to accept "No flower is a root."
+Source: PYQ-style
+
+**Q6.** Statements: Some chairs are tables. No table is a fan.
+Conclusions: I. Some chairs are not fans. II. All chairs being fans is a possibility.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (a)
+Solution: The chairs that are tables cannot be fans, so "Some chairs are not fans" is definite. II is impossible — if all chairs were fans, the table-chairs would be fans too, contradicting statement 2.
+Trap: Possibility overreach in reverse — students accept II because "possibility sounds safe." A possibility is blocked whenever it contradicts a definite negative.
+⏱️ **Skip-rule note:** Possibility + negative-statement combos like this sit at the 45-second boundary. If your Venn diagram isn't clean in one attempt, mark and move on.
+Source: PYQ-style
+
+**Q7.** Statements: All A are B. All B are C. No C is D.
+Conclusions: I. No A is D. II. Some C are A. III. No B is D.
+(a) Only I and II follow (b) Only II and III follow (c) Only I and III follow (d) All follow
+Answer: (d)
+Solution: A ⊆ B ⊆ C, and C has no overlap with D — so neither A nor B can touch D (I and III follow). Converting "All A are C" gives "Some C are A" (II follows).
+Trap: Three-statement questions pressure students into checking only the "obvious" conclusion; examiners hide an extra valid one (here, II).
+Source: PYQ-style
+
+**Q8.** Statements: Some teachers are doctors. All doctors are honest.
+Conclusions: I. Some teachers are honest. II. All teachers are honest.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (a)
+Solution: The teacher–doctor overlap group is entirely inside "honest," so some teachers are definitely honest. "All teachers" overreaches — nothing is said about teachers who aren't doctors.
+Trap: II is the "almost-correct" upgrade of I. Under time pressure, students who verified I quickly also tick II.
+Source: PYQ-style
+
+**Q9.** Statements: All mobiles are gadgets. Some gadgets are costly.
+Conclusions: I. Some mobiles are costly. II. Some mobiles being costly is a possibility.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (b)
+Solution: No definite link exists between mobiles and costly (the middle term "gadgets" carries only "Some"), so I fails. But nothing forbids the overlap — hence the possibility conclusion II follows.
+Trap: Students who reject I often reject II out of habit ("if it's not definite, it's wrong"). Possibility conclusions follow unless definitely contradicted.
+⏱️ **Skip-rule note:** If your exam is SSC/Railway (where possibility questions are rare) and you haven't practised this type, this is a 15-second skip candidate — don't learn a new rule mid-exam.
+Source: PYQ-style
+
+**Q10.** Statements: No bird is a mammal. All sparrows are birds.
+Conclusions: I. No sparrow is a mammal. II. Some mammals are not sparrows.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (a)
+Solution: Sparrows sit entirely inside birds, and birds never touch mammals — so no sparrow can be a mammal; I follows. II does not follow: the premises never confirm that any mammals exist, and in exam logic a "Some X are not Y" conclusion needs a definite member of X, which a "No" statement cannot supply.
+Trap: Students assume that when two sets are fully disjoint, "Some X are not Y" is automatically valid. It is not — disjointness alone does not prove that the X set has any members. Treat "some not" conclusions with extra suspicion.
+Source: PYQ-style
+
+---
+
+## 4. The 15-Second / 45-Second Rule — Reviewed Against This Chapter
+
+- **15-second questions:** 2-statement "All + All" or "All + No" chains (like Q1, Q5). Draw one quick Venn diagram or apply the chain rule mentally — these must be attempted first and banked.
+- **45-second questions:** 3-statement sets (Q7), either–or checks (Q4), and possibility conclusions (Q6, Q9). Attempt only after the 15-second batch is done.
+- **Skip signals:** (a) a possibility conclusion combined with a negative statement you can't diagram cleanly in one pass; (b) reverse-syllogism questions in a speed-based exam — verifying four statement-sets against given conclusions routinely crosses 60 seconds; (c) any question where you catch yourself re-reading the statements a third time.
+- **Golden rule:** In syllogism, a wrong answer usually comes from a *rushed* diagram, not a hard concept. If the diagram feels messy, skip — the next question is likely a 15-second "All + All" gift.

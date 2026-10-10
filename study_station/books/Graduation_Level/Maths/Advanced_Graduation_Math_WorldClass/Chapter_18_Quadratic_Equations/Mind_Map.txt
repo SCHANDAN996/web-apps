@@ -1,0 +1,56 @@
+```mermaid
+graph TD
+    A["द्विघात समीकरण एवं श्रेणी<br>Quadratic Equations & Series"] --> B["द्विघात समीकरण<br>Quadratic Equations"]
+    A --> C["श्रेणी<br>Series & Progressions"]
+
+    B --> B1["मानक रूप<br>Standard Form<br>ax² + bx + c = 0"]
+    B --> B2["मूलों के सूत्र<br>Roots Formulas"]
+    B --> B3["विविक्तकर<br>Discriminant D = b² - 4ac"]
+    B --> B4["मूलों की प्रकृति<br>Nature of Roots"]
+    B --> B5["मूल-गुणांक संबंध<br>Root-Coefficient Relations"]
+    B --> B6["समीकरण निर्माण<br>Forming Equation"]
+
+    B2 --> B2a["गुणनखंड विधि<br>Factorisation"]
+    B2 --> B2b["पूर्ण वर्ग विधि<br>Completing Square"]
+    B2 --> B2c["श्रीधराचार्य सूत्र<br>Quadratic Formula<br>x = (-b ± √D)/2a"]
+
+    B3 --> B3a["D > 0 → दो भिन्न वास्तविक मूल<br>Two distinct real roots"]
+    B3 --> B3b["D = 0 → समान मूल<br>Equal roots"]
+    B3 --> B3c["D < 0 → काल्पनिक मूल<br>Imaginary roots"]
+    B3 --> B3d["D पूर्ण वर्ग → परिमेय मूल<br>Perfect square → Rational roots"]
+
+    B5 --> B5a["योग α + β = -b/a<br>Sum of roots"]
+    B5 --> B5b["गुणनफल αβ = c/a<br>Product of roots"]
+    B5 --> B5c["|α - β| = √D/|a|<br>Difference of roots"]
+
+    B6 --> B6a["x² - (योग)x + गुणनफल = 0<br>x² - (sum)x + product = 0"]
+    B6 --> B6b["मूलों पर संक्रियाएँ<br>α²+β², 1/α+1/β, α³+β³"]
+
+    C --> C1["समांतर श्रेणी AP<br>Arithmetic Progression"]
+    C --> C2["गुणोत्तर श्रेणी GP<br>Geometric Progression"]
+    C --> C3["हरात्मक श्रेणी HP<br>Harmonic Progression"]
+    C --> C4["विशेष श्रेणियाँ<br>Special Series"]
+
+    C1 --> C1a["nवाँ पद Tn = a + (n-1)d<br>nth term"]
+    C1 --> C1b["योग Sn = n/2[2a+(n-1)d]<br>Sum of n terms"]
+    C1 --> C1c["Sn = n/2(a + l)<br>First-last term formula"]
+    C1 --> C1d["समांतर माध्य AM<br>Arithmetic Mean"]
+
+    C2 --> C2a["nवाँ पद Tn = arⁿ⁻¹<br>nth term"]
+    C2 --> C2b["योग Sn = a(rⁿ-1)/(r-1)<br>Sum of n terms"]
+    C2 --> C2c["अनंत योग S∞ = a/(1-r), |r|<1<br>Infinite sum"]
+    C2 --> C2d["गुणोत्तर माध्य GM<br>Geometric Mean"]
+
+    C3 --> C3a["HP के पद = AP के व्युत्क्रम<br>Reciprocals form AP"]
+    C3 --> C3b["AM ≥ GM ≥ HM<br>Means inequality"]
+
+    C4 --> C4a["Σn = n(n+1)/2<br>Sum of naturals"]
+    C4 --> C4b["Σn² = n(n+1)(2n+1)/6<br>Sum of squares"]
+    C4 --> C4c["Σn³ = [n(n+1)/2]²<br>Sum of cubes"]
+    C4 --> C4d["अंकगणितीय-गुणोत्तर श्रेणी<br>Arithmetico-Geometric Series"]
+
+    A --> D["परीक्षा रणनीति<br>Exam Strategy"]
+    D --> D1["मूलों की प्रकृति पर सीधे प्रश्न<br>Direct D-based questions"]
+    D --> D2["AP-GP मिश्रित प्रश्न<br>Mixed AP-GP traps"]
+    D --> D3["शर्त-आधारित प्रश्न<br>Condition-based questions"]
+```

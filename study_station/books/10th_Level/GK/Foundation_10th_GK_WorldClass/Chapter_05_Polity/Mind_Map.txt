@@ -1,0 +1,28 @@
+```mermaid
+flowchart TD
+    A[Indian Polity & Governance] --> B[Union Government]
+    A --> C[State Government]
+    A --> D[Judiciary]
+    A --> E[Constitutional Bodies]
+    A --> F[Local Self-Government]
+
+    B --> B1[President & Vice-President Art 52-73]
+    B --> B2[Prime Minister & Council of Ministers Art 74-78]
+    B --> B3[Parliament: Lok Sabha & Rajya Sabha Art 79-122]
+
+    C --> C1[Governor Art 153-162]
+    C --> C2[Chief Minister & State Council Art 163-167]
+    C --> C3[State Legislature Art 168-212]
+
+    D --> D1[Supreme Court Art 124-147]
+    D --> D2[High Courts Art 214-232]
+    D --> D3[Subordinate Courts Art 233-237]
+
+    E --> E1[Election Commission Art 324]
+    E --> E2[Comptroller & Auditor General Art 148]
+    E --> E3[Finance Commission Art 280]
+    E --> E4[Union Public Service Commission Art 315]
+
+    F --> F1[Panchayati Raj 73rd Amendment Part IX]
+    F --> F2[Municipalities 74th Amendment Part IX-A]
+```

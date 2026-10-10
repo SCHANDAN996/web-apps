@@ -1,0 +1,151 @@
+Questions 76–95: Easy | Questions 96–100: Medium
+
+76. At 8 a.m., a man stands in a field. His shadow falls exactly behind him. In which direction is he facing?
+(a) East (b) West (c) North (d) South
+Answer: (a)
+Solution: In the morning, the Sun is in the East and shadows fall toward the West. Since his shadow falls behind him, he is facing East.
+Source: PYQ-style
+
+77. A person walks 20 m East, then turns left and walks 20 m, and then turns right and walks 10 m. What is the shortest distance from the starting point?
+(a) 30 m (b) 10√13 m (c) 20 m (d) 25 m
+Answer: (b)
+Solution: Net East displacement = 20 + 10 = 30 m, North displacement = 20 m. By Pythagoras theorem, shortest distance = √(30² + 20²) = √1300 = 10√13 m.
+Source: PYQ-style
+
+78. A boy walks 30 m South, turns right and walks 40 m, turns right and walks 30 m, and finally turns left and walks 20 m. In which direction is he from his starting point?
+(a) North (b) East (c) West (d) South
+Answer: (c)
+Solution: The 30 m South and 30 m North cancel out. Net Westward displacement = 40 + 20 = 60 m. Therefore, he is West of his starting point.
+Source: PYQ-style
+
+79. At 5 p.m., a woman notices that her shadow falls to her right. In which direction is she facing?
+(a) West (b) South (c) East (d) North
+Answer: (d)
+Solution: In the evening, the Sun is in the West, so shadows fall toward the East. Her right side being East means she is facing North.
+Source: PYQ-style
+
+80. A is 5 m North of B. C is 12 m East of A. D is 5 m South of C. What is the shortest distance between A and D?
+(a) 13 m (b) 12 m (c) 5 m (d) 10 m
+Answer: (a)
+Solution: From A to C is 12 m East; from C to D is 5 m South. In right triangle ACD, shortest distance AD = √(12² + 5²) = √169 = 13 m.
+Source: PYQ-style
+
+81. A person stands facing West. He turns 135° anticlockwise, then 90° clockwise, and then 45° anticlockwise. In which direction is he facing now?
+(a) North (b) South (c) East (d) West
+Answer: (b)
+Solution: Net rotation = -135° + 90° - 45° = -90° (anticlockwise). Turning 90° anticlockwise from West (270°) points to South (180°).
+Source: PYQ-style
+
+82. A man walks 15 m North, then 8 m West, then 15 m South, and finally 6 m East. How far and in which direction is he from the start?
+(a) 8 m West (b) 2 m East (c) 2 m West (d) 14 m East
+Answer: (c)
+Solution: The 15 m North and 15 m South cancel out. Net horizontal displacement = 8 - 6 = 2 m West. Therefore, he is 2 m West of his starting point.
+Source: PYQ-style
+
+83. At 12 noon, a boy stands facing the Sun. In which direction will his shadow fall?
+(a) West (b) North (c) South (d) Directly beneath his feet
+Answer: (d)
+Solution: At 12 noon, the Sun is directly overhead, so the shadow falls directly beneath the feet.
+Source: PYQ-style
+
+84. If 'East' is called 'North', 'West' as 'South', 'North' as 'West', and 'South' as 'East', what will 'North-West' be called?
+(a) South-West (b) North-East (c) South-East (d) West-North
+Answer: (a)
+Solution: North becomes West and West becomes South. Therefore, North-West becomes West-South, which is South-West.
+Source: PYQ-style
+
+85. A person walks 10 m East, turns left and walks 10 m, then turns about (180°) and walks 20 m. In which direction is he from the starting point?
+(a) North-East (b) South-East (c) South-West (d) North-West
+Answer: (b)
+Solution: East 10 m brings him to (10,0). Walking 10 m North and then 20 m South leaves him at (10,-10). Since x is positive and y is negative, he is South-East of the start.
+Source: PYQ-style
+
+86. In a code, 'Left' means East, 'Right' means West, 'Forward' means North, and 'Backward' means South. A person facing North turns according to: Left, Forward, Right. Which direction is he facing at the end?
+(a) North (b) East (c) West (d) South
+Answer: (c)
+Solution: The final instruction executed is 'Right', which codes for turning towards West. Therefore, he is facing West.
+Source: PYQ-style
+
+87. A woman walks 12 m South, then 5 m West, then 6 m North, and then 5 m East. How far is she from her starting point?
+(a) 4 m (b) 10 m (c) 8 m (d) 6 m
+Answer: (d)
+Solution: The 5 m West and 5 m East cancel horizontally. Net Southward displacement = 12 - 6 = 6 m. Therefore, she is 6 m from the start.
+Source: PYQ-style
+
+88. Point P is 4 m West of Q. R is 3 m North of Q. S is 4 m East of R. What is the shortest distance between Q and S?
+(a) 5 m (b) 7 m (c) 6 m (d) 4 m
+Answer: (a)
+Solution: Let Q = (0,0). Then R = (0,3) and S = (4,3). Shortest distance QS = √(4² + 3²) = √25 = 5 m.
+Source: PYQ-style
+
+89. A person walks 25 m East, turns right and walks 10 m, then turns about (180°) and walks 10 m. How far is he from the starting point?
+(a) 10 m (b) 25 m (c) 35 m (d) 0 m
+Answer: (b)
+Solution: Walking 10 m South and 10 m North cancels the vertical displacement, leaving 25 m East. Therefore, the distance is 25 m.
+Source: PYQ-style
+
+90. If 'South-East' is called 'North', what will 'West' be called? (assuming uniform rotation)
+(a) South-West (b) North-East (c) South-East (d) North-West
+Answer: (c)
+Solution: South-East (135°) shifts 135° anticlockwise to become North (0°). Applying the same 135° anticlockwise shift to West (270°) gives South-East (135°).
+Source: PYQ-style
+
+91. A boy walks 6 m North, 8 m West, 6 m South, and 2 m East. In which direction is he from his starting point?
+(a) East (b) North (c) South (d) West
+Answer: (d)
+Solution: The 6 m North and 6 m South cancel out. Net horizontal displacement = 8 - 2 = 6 m West. Therefore, he is West of his starting point.
+Source: PYQ-style
+
+92. At 7 a.m., a person starts walking towards his shadow. He walks 10 m, then turns left and walks 10 m. In which direction is he from his starting point?
+(a) South-West (b) North-West (c) North-East (d) South-East
+Answer: (a)
+Solution: In the morning, shadow is West. He walks 10 m West, then turns left (South) and walks 10 m. Therefore, he is South-West of the starting point.
+Source: PYQ-style
+
+93. A person walks 5 m East, 10 m North, 10 m West, 5 m South, and 5 m East. What is the shortest distance from the start?
+(a) 10 m (b) 5 m (c) 0 m (d) 15 m
+Answer: (b)
+Solution: East-West displacement = 5 - 10 + 5 = 0 m. North-South displacement = 10 - 5 = 5 m. Therefore, the shortest distance from the start is 5 m.
+Source: PYQ-style
+
+94. Point A is 7 m South of B. Point C is 24 m East of B. What is the straight-line distance between A and C?
+(a) 17 m (b) 24 m (c) 25 m (d) 31 m
+Answer: (c)
+Solution: In right triangle ABC: AC = √(24² + 7²) = √(576 + 49) = √625 = 25 m. Therefore, the correct answer is 25 m.
+Source: PYQ-style
+
+95. At 6 p.m., a boy stands facing West. In which direction is his shadow falling?
+(a) South (b) West (c) North (d) East
+Answer: (d)
+Solution: In the evening, the Sun is in the West, so all shadows fall towards the East.
+Source: PYQ-style
+
+96. A man walks 15 m North, then 20 m East, then 15 m South, and finally 10 m West. What is the straight-line distance from the start?
+(a) 10 m (b) 5 m (c) 15 m (d) 20 m
+Answer: (a)
+Solution: The 15 m North and 15 m South cancel out vertically. Net Eastward displacement = 20 - 10 = 10 m. Therefore, the distance is 10 m.
+Source: PYQ-style
+
+97. A person is facing South-West. He turns 90° to his left, then turns 180°, and finally turns 90° to his right. In which direction is he facing now?
+(a) South-East (b) North-East (c) North-West (d) South-West
+Answer: (b)
+Solution: Facing South-West (225°): Turning 90° left brings him to South-East (135°). Turning 180° brings him to North-West (315°). Finally turning 90° right brings him to North-East (45°).
+Source: PYQ-style
+
+98. A woman walks 10 m West, then 6 m North, then 4 m East, and then 3 m South. In which direction is she from her starting point?
+(a) South-West (b) North-East (c) North-West (d) South-East
+Answer: (c)
+Solution: Net Westward displacement = 10 - 4 = 6 m; net Northward displacement = 6 - 3 = 3 m. Therefore, she is in the North-West direction from her starting point.
+Source: PYQ-style
+
+99. If 'North' means 'South-East', and 'West' means 'North-East', what does 'South' mean?
+(a) South-East (b) South-West (c) North-East (d) North-West
+Answer: (d)
+Solution: The directions rotate 135° clockwise. Therefore, South (180°) + 135° = 315°, which is North-West.
+Source: PYQ-style
+
+100. A child walks 8 m East, then 5 m North, then 4 m West, then 5 m South, and finally 2 m East. How far and in which direction is he from the start?
+(a) 4 m East (b) 6 m East (c) 8 m East (d) 10 m East
+Answer: (b)
+Solution: The 5 m North and 5 m South cancel out. Net Eastward displacement = 8 - 4 + 2 = 6 m. Therefore, he is 6 m East of his starting point.
+Source: PYQ-style

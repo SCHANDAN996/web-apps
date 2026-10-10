@@ -1,3 +1,153 @@
-# Chapter: Algebra, Level: intermediate, Set: 2/6
+प्रश्न 26–45: आसान | प्रश्न 46–50: मध्यम
 
-@content_agent +mcq_generator_bilingual lang=en level=intermediate 'Generate 25 MCQs for Algebra. This is Set 2 (total 6 sets, 150 questions). Questions must be numbered 26 to 50. All 25 questions should be Medium. Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'
+26. If x + 1/x = 5, then the value of x² + 1/x² is
+(a) 25 (b) 23 (c) 27 (d) 21
+Answer: (b)
+Solution: The tempting wrong option 25 comes from simply squaring 5 without subtracting 2. Squaring both sides: (x + 1/x)² = x² + 2 + 1/x² = 25, so x² + 1/x² = 25 − 2 = 23. So the answer is 23.
+Source: NCERT Class 9 Mathematics
+
+27. If a + b = 10 and ab = 21, then the value of a² + b² is
+(a) 42 (b) 79 (c) 100 (d) 58
+Answer: (d)
+Solution: The tempting wrong option 100 comes from squaring 10 directly and forgetting the cross term. Using (a + b)² = a² + 2ab + b², we get a² + b² = 100 − 2(21) = 100 − 42 = 58. So the answer is 58.
+Source: NCERT Class 9 Mathematics
+
+28. If x − 1/x = 3, then the value of x² + 1/x² is
+(a) 7 (b) 11 (c) 9 (d) 13
+Answer: (b)
+Solution: The tempting wrong option 7 comes from subtracting 2 as in the sum formula, but here the sign changes. Squaring: (x − 1/x)² = x² − 2 + 1/x² = 9, so x² + 1/x² = 9 + 2 = 11. So the answer is 11.
+Source: NCERT Class 9 Mathematics
+
+29. The factors of x² + 7x + 12 are
+(a) (x + 3)(x + 4) (b) (x + 2)(x + 6) (c) (x − 3)(x − 4) (d) (x + 1)(x + 12)
+Answer: (a)
+Solution: The tempting wrong option (x + 2)(x + 6) also gives product 12 but its middle term is 8x, not 7x. We need two numbers with sum 7 and product 12, which are 3 and 4, giving (x + 3)(x + 4). So the answer is (x + 3)(x + 4).
+Source: NCERT Class 9 Mathematics
+
+30. If x + y = 8 and x − y = 4, then the value of xy is
+(a) 16 (b) 12 (c) 10 (d) 14
+Answer: (b)
+Solution: The tempting wrong option 16 comes from using (x + y)²/4 = 16, which is the maximum product, not the actual one. Adding the equations: 2x = 12, so x = 6 and y = 2, hence xy = 12. So the answer is 12.
+Source: NCERT Class 10 Mathematics
+
+31. If x² − 5x + 6 = 0, then the sum of the roots is
+(a) −5 (b) 6 (c) 5 (d) −6
+Answer: (c)
+Solution: The tempting wrong option −5 comes from copying the coefficient of x directly, forgetting the sign change. For ax² + bx + c = 0, sum of roots = −b/a = −(−5)/1 = 5. So the answer is 5.
+Source: NCERT Class 10 Mathematics
+
+32. If a² + b² = 41 and ab = 20, then the value of a + b is
+(a) 7 (b) 81 (c) 11 (d) 9
+Answer: (d)
+Solution: The tempting wrong option 81 comes from adding 41 + 20 + 20 and forgetting to take the square root. (a + b)² = a² + b² + 2ab = 41 + 40 = 81, so a + b = 9 (taking the positive value). So the answer is 9.
+Source: NCERT Class 9 Mathematics
+
+33. The value of (x + 3)² − (x − 3)² is
+(a) 18 (b) 6x (c) 12x (d) 2x² + 18
+Answer: (c)
+Solution: The tempting wrong option 18 comes from computing only the constant terms and dropping x. Using a² − b² = (a + b)(a − b): (2x)(6) = 12x. So the answer is 12x.
+Source: NCERT Class 9 Mathematics
+
+34. If 2x + 3y = 12 and 3x + 2y = 13, then the value of x + y is
+(a) 7 (b) 4 (c) 5 (d) 6
+Answer: (c)
+Solution: The tempting wrong option 6 comes from a slip in elimination while solving for x and y separately. Simply add both equations: 5x + 5y = 25, so x + y = 5. So the answer is 5.
+Source: NCERT Class 10 Mathematics
+
+35. If x + 1/x = 2, then the value of x⁵ + 1/x⁵ is
+(a) 10 (b) 2 (c) 32 (d) 0
+Answer: (b)
+Solution: The tempting wrong option 32 comes from computing 2⁵, but x + 1/x = 2 forces x = 1. Then x⁵ + 1/x⁵ = 1 + 1 = 2. So the answer is 2.
+Source: NCERT Class 9 Mathematics
+
+36. The remainder when x³ + 2x² − 5x + 3 is divided by (x − 1) is
+(a) 1 (b) 3 (c) −1 (d) 5
+Answer: (a)
+Solution: The tempting wrong option 3 comes from picking the constant term instead of evaluating the polynomial. By the Remainder Theorem, remainder = p(1) = 1 + 2 − 5 + 3 = 1. So the answer is 1.
+Source: NCERT Class 9 Mathematics
+
+37. If x = 2 + √3, then the value of x + 1/x is
+(a) 3 (b) 2√3 (c) 2 (d) 4
+Answer: (d)
+Solution: The tempting wrong option 2√3 comes from doubling only the irrational part. Here 1/x = 1/(2 + √3) = 2 − √3 after rationalising, so x + 1/x = (2 + √3) + (2 − √3) = 4. So the answer is 4.
+Source: NCERT Class 9 Mathematics
+
+38. The product of the roots of 3x² − 7x + 4 = 0 is
+(a) 4 (b) 4/3 (c) −4/3 (d) 7/3
+Answer: (b)
+Solution: The tempting wrong option 4 comes from taking the constant term without dividing by the coefficient of x². Product of roots = c/a = 4/3. So the answer is 4/3.
+Source: NCERT Class 10 Mathematics
+
+39. If a + b + c = 0, then the value of a³ + b³ + c³ is
+(a) 0 (b) (a + b + c)³ (c) abc (d) 3abc
+Answer: (d)
+Solution: The tempting wrong option 0 comes from assuming the cubes also cancel like the terms themselves. The identity states: if a + b + c = 0, then a³ + b³ + c³ = 3abc. So the answer is 3abc.
+Source: NCERT Class 9 Mathematics
+
+40. If x² + 1/x² = 7, then the value of x + 1/x is
+(a) 9 (b) √7 (c) 7 (d) 3
+Answer: (d)
+Solution: The tempting wrong option √7 comes from taking the square root directly without adding 2. (x + 1/x)² = x² + 1/x² + 2 = 7 + 2 = 9, so x + 1/x = 3 (positive value). So the answer is 3.
+Source: NCERT Class 9 Mathematics
+
+41. The factors of 6x² − 7x − 3 are
+(a) (2x − 3)(3x + 1) (b) (2x + 3)(3x − 1) (c) (6x + 1)(x − 3) (d) (3x − 3)(2x + 1)
+Answer: (a)
+Solution: The tempting wrong option (2x + 3)(3x − 1) gives the middle term +7x, the wrong sign. We need two numbers with product −18 and sum −7, i.e. −9 and +2: 6x² − 9x + 2x − 3 = 3x(2x − 3) + 1(2x − 3) = (2x − 3)(3x + 1). So the answer is (2x − 3)(3x + 1).
+Source: NCERT Class 9 Mathematics
+
+42. If x + y = 12 and xy = 35, then the value of x³ + y³ is
+(a) 468 (b) 1728 (c) 1333 (d) 1008
+Answer: (a)
+Solution: The tempting wrong option 1728 comes from cubing 12 directly and ignoring the subtraction term. x³ + y³ = (x + y)³ − 3xy(x + y) = 1728 − 3(35)(12) = 1728 − 1260 = 468. So the answer is 468.
+Source: NCERT Class 9 Mathematics
+
+43. If 3x − 4y = 5 and xy = 3, then the value of 27x³ − 64y³ is
+(a) 305 (b) 665 (c) 540 (d) 125
+Answer: (b)
+Solution: The tempting wrong option 125 comes from cubing 5 directly and ignoring the correction term. Using a³ − b³ = (a − b)³ + 3ab(a − b) with a = 3x, b = 4y: 27x³ − 64y³ = 5³ + 3(12xy)(5) = 125 + 3(36)(5) = 125 + 540 = 665. So the answer is 665.
+Source: NCERT Class 9 Mathematics
+
+44. The value of k for which (x − 2) is a factor of x³ − 3x² + kx − 4 is
+(a) 4 (b) −4 (c) 6 (d) −6
+Answer: (c)
+Solution: The tempting wrong option −6 comes from a sign slip while substituting x = 2. By the Factor Theorem, p(2) = 8 − 12 + 2k − 4 = 0, so 2k − 8 = 0, giving k = 4... checking: 8 − 12 − 4 = −8, hence 2k = 8 and k = 4. So the answer is 4.
+Answer: (a)
+Solution: The tempting wrong option −4 comes from a sign slip while substituting x = 2. By the Factor Theorem, p(2) = 8 − 12 + 2k − 4 = 0, so 2k = 8, giving k = 4. So the answer is 4.
+Source: NCERT Class 9 Mathematics
+
+45. If x = 3 and y = −2, then the value of x² − xy + y² is
+(a) 19 (b) 7 (c) 13 (d) 5
+Answer: (a)
+Solution: The tempting wrong option 7 comes from mishandling the sign of the middle term. Substituting: 9 − (3)(−2) + 4 = 9 + 6 + 4 = 19. So the answer is 19.
+Source: NCERT Class 8 Mathematics
+
+46. The simplified form of (a² − b²)/(a − b) is
+(a) a + b (b) a − b (c) a² + b² (d) 1
+Answer: (a)
+Solution: The tempting wrong option a − b comes from cancelling as if the numerator were (a − b)². Since a² − b² = (a + b)(a − b), dividing by (a − b) leaves a + b. So the answer is a + b.
+Source: NCERT Class 8 Mathematics
+
+47. If 2ˣ = 8ʸ and x + y = 8, then the value of y is
+(a) 2 (b) 6 (c) 4 (d) 3
+Answer: (a)
+Solution: The tempting wrong option 6 comes from swapping x and y at the end. Since 8ʸ = 2³ʸ, we get x = 3y; then 3y + y = 8, so y = 2. So the answer is 2.
+Source: NCERT Class 9 Mathematics
+
+48. If the roots of x² − kx + 16 = 0 are equal, then the positive value of k is
+(a) 8 (b) 4 (c) 16 (d) 12
+Answer: (a)
+Solution: The tempting wrong option 4 comes from taking √16 and forgetting the factor 2. For equal roots, discriminant = 0: k² − 64 = 0, so k = ±8, and the positive value is 8. So the answer is 8.
+Source: NCERT Class 10 Mathematics
+
+49. If a/b = 3/4, then the value of (5a + 3b)/(5a − 3b) is
+(a) 7/3 (b) 3 (c) 27/7 (d) 9
+Answer: (d)
+Solution: The tempting wrong option 3 comes from cancelling 5 and 3 carelessly. Put a = 3k, b = 4k: numerator = 15k + 12k = 27k, denominator = 15k − 12k = 3k, ratio = 27k/3k = 9. So the answer is 9.
+Source: NCERT Class 10 Mathematics
+
+50. If x² − 3x + 1 = 0, then the value of x² + 1/x² is
+(a) 9 (b) 11 (c) 7 (d) 5
+Answer: (c)
+Solution: The tempting wrong option 9 comes from squaring 3 and forgetting to subtract 2. Dividing the equation by x: x − 3 + 1/x = 0, so x + 1/x = 3; then x² + 1/x² = 9 − 2 = 7. So the answer is 7.
+Source: NCERT Class 10 Mathematics

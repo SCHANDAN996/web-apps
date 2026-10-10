@@ -1,3 +1,151 @@
-# Chapter: Time & Distance, Level: intermediate, Set: 4/6
+Questions 76–95: Easy | Questions 96–100: Moderate
 
-@content_agent +mcq_generator_bilingual lang=en level=intermediate 'Generate 25 MCQs for Time & Distance. This is Set 4 (total 6 sets, 150 questions). Questions must be numbered 76 to 100. All 25 questions should be Medium. Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'
+76. A train 240 m long crosses a platform in 30 seconds at a speed of 54 km/h. What is the length of the platform?
+(a) 180 m (b) 200 m (c) 190 m (d) 210 m
+Answer: (d)
+Solution: Speed = 54 × 5/18 = 15 m/s. In 30 s the train covers 15 × 30 = 450 m, which equals train length plus platform length, so platform = 450 − 240 = 210 m. The tempting wrong option 200 m comes from subtracting 250 m instead of 240 m. So the answer is 210 m.
+Source: PYQ-style
+
+77. A man walks at 5 km/h and reaches his office 10 minutes late. If he walks at 6 km/h, he reaches 5 minutes early. What is the distance to his office?
+(a) 9 km (b) 7.5 km (c) 8 km (d) 6 km
+Answer: (b)
+Solution: Use D = (S1 × S2 × time difference)/(S2 − S1) = (5 × 6 × 15/60)/(6 − 5) = 7.5 km. The trap is taking the time difference as 5 minutes instead of 10 + 5 = 15 minutes, which gives 2.5 km. So the answer is 7.5 km.
+Source: PYQ-style
+
+78. Two trains start from stations A and B, 300 km apart, at the same time and travel towards each other at 40 km/h and 60 km/h. After how many hours will they meet?
+(a) 3 hours (b) 2 hours (c) 4 hours (d) 5 hours
+Answer: (a)
+Solution: Relative speed = 40 + 60 = 100 km/h. Time = 300/100 = 3 hours. The trap is using the difference of speeds (20 km/h), which wrongly gives 15 hours. So the answer is 3 hours.
+Source: PYQ-style
+
+79. A boat travels 24 km downstream in 2 hours and the same distance upstream in 3 hours. What is the speed of the boat in still water?
+(a) 10 km/h (b) 11 km/h (c) 9 km/h (d) 12 km/h
+Answer: (a)
+Solution: Downstream speed = 24/2 = 12 km/h; upstream speed = 24/3 = 8 km/h. Boat speed = (12 + 8)/2 = 10 km/h. The trap is dividing 24 by the average time 2.5 hours, which gives 9.6 km/h. So the answer is 10 km/h.
+Source: PYQ-style
+
+80. A car covers a certain distance in 8 hours. If the speed is increased by 10 km/h, the same distance is covered in 6 hours. What is the distance?
+(a) 240 km (b) 220 km (c) 200 km (d) 260 km
+Answer: (a)
+Solution: Let speed be x. Then 8x = 6(x + 10), so 2x = 60 and x = 30 km/h. Distance = 8 × 30 = 240 km. The trap is computing 6 × 30 = 180 km by forgetting that the increased speed applies to the 6-hour case. So the answer is 240 km.
+Source: PYQ-style
+
+81. A train crosses a pole in 12 seconds and a 180 m long platform in 30 seconds. What is the length of the train?
+(a) 150 m (b) 100 m (c) 140 m (d) 120 m
+Answer: (d)
+Solution: Let train length be L. Speed = L/12. Also (L + 180)/30 = L/12, so 12L + 2160 = 30L, giving L = 120 m. The trap is using 180/30 = 6 m/s as the train's speed, which mixes up the quantities. So the answer is 120 m.
+Source: PYQ-style
+
+82. A and B start together from the same point and walk in opposite directions at 4 km/h and 5 km/h. How far apart will they be after 3 hours?
+(a) 30 km (b) 24 km (c) 27 km (d) 21 km
+Answer: (c)
+Solution: Relative speed in opposite directions = 4 + 5 = 9 km/h. Distance apart = 9 × 3 = 27 km. The trap is using the difference (1 km/h), which gives only 3 km. So the answer is 27 km.
+Source: PYQ-style
+
+83. A man covers 2/5 of his journey by train, 1/3 by bus and the remaining 8 km on foot. What is the total length of the journey?
+(a) 28 km (b) 30 km (c) 24 km (d) 36 km
+Answer: (b)
+Solution: Fraction covered = 2/5 + 1/3 = 6/15 + 5/15 = 11/15. Remaining = 4/15 = 8 km, so total = 8 × 15/4 = 30 km. The trap is adding the fractions wrongly as 3/8 and solving from that. So the answer is 30 km.
+Source: PYQ-style
+
+84. A cyclist covers a distance at 12 km/h and returns at 8 km/h. What is his average speed for the whole journey?
+(a) 9 km/h (b) 10 km/h (c) 9.6 km/h (d) 10.4 km/h
+Answer: (c)
+Solution: Average speed = 2 × 12 × 8/(12 + 8) = 192/20 = 9.6 km/h. The trap is taking the simple average (12 + 8)/2 = 10 km/h, which is wrong because the times differ. So the answer is 9.6 km/h.
+Source: PYQ-style
+
+85. A train running at 72 km/h crosses a man standing on a platform in 10 seconds. What is the length of the train?
+(a) 200 m (b) 240 m (c) 220 m (d) 180 m
+Answer: (a)
+Solution: Speed = 72 × 5/18 = 20 m/s. Length = 20 × 10 = 200 m. The trap is forgetting the 5/18 conversion and computing 72 × 10 = 720 m. So the answer is 200 m.
+Source: PYQ-style
+
+86. Two cars start from the same place at speeds of 50 km/h and 65 km/h in the same direction. After how long will they be 60 km apart?
+(a) 3 hours (b) 5 hours (c) 4 hours (d) 6 hours
+Answer: (c)
+Solution: Relative speed in the same direction = 65 − 50 = 15 km/h. Time = 60/15 = 4 hours. The trap is adding the speeds (115 km/h), which gives a meaningless fraction of an hour. So the answer is 4 hours.
+Source: PYQ-style
+
+87. A boat's speed in still water is 15 km/h and the stream flows at 3 km/h. How long will it take to go 36 km downstream and return?
+(a) 5 hours (b) 5.5 hours (c) 6 hours (d) 6.5 hours
+Answer: (a)
+Solution: Downstream = 15 + 3 = 18 km/h, time = 36/18 = 2 h. Upstream = 15 − 3 = 12 km/h, time = 36/12 = 3 h. Total = 5 hours. The trap is using still-water speed for both legs: 72/15 = 4.8 h. So the answer is 5 hours.
+Source: PYQ-style
+
+88. A man travels 120 km. He covers half the distance at 40 km/h and the remaining half at 60 km/h. What is his average speed?
+(a) 45 km/h (b) 50 km/h (c) 48 km/h (d) 52 km/h
+Answer: (c)
+Solution: Time = 60/40 + 60/60 = 1.5 + 1 = 2.5 h. Average speed = 120/2.5 = 48 km/h. The trap is the simple average (40 + 60)/2 = 50 km/h, which ignores the unequal times. So the answer is 48 km/h.
+Source: PYQ-style
+
+89. A train 150 m long is running at 90 km/h. In how much time will it cross a bridge 350 m long?
+(a) 18 s (b) 20 s (c) 22 s (d) 24 s
+Answer: (b)
+Solution: Speed = 90 × 5/18 = 25 m/s. Total distance = 150 + 350 = 500 m. Time = 500/25 = 20 s. The trap is using only the bridge length: 350/25 = 14 s. So the answer is 20 s.
+Source: PYQ-style
+
+90. Walking at 3/4 of his usual speed, a man reaches his office 20 minutes late. What is his usual time to reach the office?
+(a) 70 minutes (b) 50 minutes (c) 60 minutes (d) 80 minutes
+Answer: (c)
+Solution: At 3/4 speed, time becomes 4/3 of usual, so the extra time is 1/3 of usual time. Usual time = 20 × 3 = 60 minutes. The trap is computing 20 × 4 = 80 minutes by using 4 instead of the difference 4 − 3 = 3. So the answer is 60 minutes.
+Source: PYQ-style
+
+91. Two trains of lengths 120 m and 180 m run towards each other at 45 km/h and 63 km/h. In how much time will they cross each other?
+(a) 8 s (b) 10 s (c) 9 s (d) 12 s
+Answer: (b)
+Solution: Relative speed = 45 + 63 = 108 km/h = 108 × 5/18 = 30 m/s. Total length = 120 + 180 = 300 m. Time = 300/30 = 10 s. The trap is subtracting the speeds (18 km/h = 5 m/s), which gives 60 s. So the answer is 10 s.
+Source: PYQ-style
+
+92. A person travels from A to B at 30 km/h and returns at 20 km/h, taking a total of 10 hours. What is the distance between A and B?
+(a) 110 km (b) 120 km (c) 100 km (d) 130 km
+Answer: (b)
+Solution: Let distance be D. Then D/30 + D/20 = 10, so (2D + 3D)/60 = 10, giving 5D = 600 and D = 120 km. The trap is using average speed 25 km/h × 10 h = 250 km and halving wrongly to 125 km. So the answer is 120 km.
+Source: PYQ-style
+
+93. A thief runs at 8 km/h. A policeman chases him at 10 km/h. If the thief is initially 400 m ahead, how long will the policeman take to catch him?
+(a) 10 minutes (b) 18 minutes (c) 15 minutes (d) 12 minutes
+Answer: (d)
+Solution: Relative speed = 10 − 8 = 2 km/h = 2000 m per 60 min. Time to cover 400 m = 400/2000 × 60 = 12 minutes. The trap is using the policeman's full speed 10 km/h, which ignores that the thief is also moving. So the answer is 12 minutes.
+Source: PYQ-style
+
+94. A bus covers a distance in 5 hours at 48 km/h. By how much should the speed be increased to cover the same distance in 4 hours?
+(a) 10 km/h (b) 14 km/h (c) 15 km/h (d) 12 km/h
+Answer: (d)
+Solution: Distance = 48 × 5 = 240 km. Required speed = 240/4 = 60 km/h. Increase = 60 − 48 = 12 km/h. The trap is answering 60 km/h, the new speed, instead of the increase asked. So the answer is 12 km/h.
+Source: PYQ-style
+
+95. A man rows 30 km downstream and 18 km upstream in a total of 6 hours. He can also row 40 km downstream and 12 km upstream in 6 hours. What is his downstream speed?
+(a) 8 km/h (b) 12 km/h (c) 10 km/h (d) 15 km/h
+Answer: (c)
+Solution: Let downstream speed be x and upstream speed be y. Then 30/x + 18/y = 6 and 40/x + 12/y = 6. Multiplying the first equation by 2 and the second by 3 gives 60/x + 36/y = 12 and 120/x + 36/y = 18; subtracting, 60/x = 6, so x = 10 km/h (check: y = 6, and 30/10 + 18/6 = 3 + 3 = 6 ✓). The trap is averaging the two downstream distances, which gives 35 km/h-type nonsense. So the answer is 10 km/h.
+Source: PYQ-style
+
+96. A train passes two persons walking in the same direction at 3 km/h and 6 km/h in 9 seconds and 10 seconds respectively. What is the length of the train?
+(a) 60 m (b) 75 m (c) 70 m (d) 80 m
+Answer: (b)
+Solution: Let train speed be v m/s and length L. Then L = 9(v − 5/6) and L = 10(v − 5/3). Setting them equal: 9v − 7.5 = 10v − 50/3, so v = 55/6 m/s. Then L = 9 × (55/6 − 5/6) = 9 × 50/6 = 75 m. The trap is ignoring the walkers' own speeds and using L = 9v or 10v directly. So the answer is 75 m.
+Source: PYQ-style
+
+97. A car travels the first 160 km at 40 km/h and the next 160 km at 80 km/h. What is the average speed for the whole journey?
+(a) 53.33 km/h (b) 50 km/h (c) 55 km/h (d) 60 km/h
+Answer: (a)
+Solution: Time = 160/40 + 160/80 = 4 + 2 = 6 h. Average speed = 320/6 = 53.33 km/h. The trap is the simple average (40 + 80)/2 = 60 km/h, which is wrong because the times differ. So the answer is 53.33 km/h.
+Source: PYQ-style
+
+98. A man can row 9 km/h in still water. He takes twice as long to row up a stream as to row down it. What is the speed of the stream?
+(a) 2 km/h (b) 4.5 km/h (c) 4 km/h (d) 3 km/h
+Answer: (d)
+Solution: Time ratio 2:1 means speed ratio 1:2, so (9 − s) : (9 + s) = 1 : 2. Then 2(9 − s) = 9 + s, giving 18 − 2s = 9 + s, so s = 3 km/h. The trap is inverting the ratio, which gives a negative or absurd value. So the answer is 3 km/h.
+Source: PYQ-style
+
+99. A train leaves Delhi at 8 AM at 60 km/h. Another train leaves Delhi at 10 AM in the same direction at 80 km/h. At what time will the second train overtake the first?
+(a) 2 PM (b) 5 PM (c) 3 PM (d) 4 PM
+Answer: (d)
+Solution: By 10 AM the first train has a 120 km lead. Relative speed = 80 − 60 = 20 km/h, so catching up takes 120/20 = 6 hours after 10 AM, i.e. 4 PM. The trap is measuring 6 hours from 8 AM, which gives 2 PM. So the answer is 4 PM.
+Source: PYQ-style
+
+100. A and B run a 1 km race. A gives B a start of 100 m and still beats him by 20 seconds. If A runs at 10 m/s, what is B's speed?
+(a) 7.5 m/s (b) 7 m/s (c) 6 m/s (d) 8 m/s
+Answer: (a)
+Solution: A runs 1000 m in 1000/10 = 100 s. B runs only 900 m and finishes 20 s after A, so B's time = 100 + 20 = 120 s. B's speed = 900/120 = 7.5 m/s. The trap is dividing 1000 m by 120 s (≈ 8.33 m/s), forgetting B ran only 900 m. So the answer is 7.5 m/s.
+Source: PYQ-style

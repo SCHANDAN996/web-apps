@@ -1,52 +1,184 @@
-# Clock & Calendar
+Clock & Calendar
+Learning Goals
 
-At 3 o'clock, what angle do the two hands of a clock make? A right angle — 90°! Clock and calendar questions are of this kind — angles between hands, or finding the day of a given date.
+Convert any clock time to angle, mirror time, or water image within seconds.
 
-**Definition:** This chapter has two parts — (1) Clock: angle between hands and time; (2) Calendar: the day of a given date, leap years, and odd days.
+Identify when hands meet, are opposite, or at right angles—without drawing a clock face.
 
-🧠 Recall: What angle do the clock hands make at 3 o'clock?
+Determine the day of any date—past or future—confidently.
 
-## Part 1: Clock
+Spot examiner traps and never get tricked by similar-looking options.
 
-A clock turns a full circle (360°) in 12 hours.
-- Each hour = 360° ÷ 12 = **30°**
-- Minute hand: **6°** per minute (360° ÷ 60)
-- Hour hand: **0.5°** per minute (30° ÷ 60)
+Build speed so that you solve a Calendar sum in under 30 seconds and a Clock sum in under 45 seconds.
 
-**Angle formula:** angle between hands = |30 × hours − 5.5 × minutes|
+What if I told you that even a top ranker freezes when the clock question says “acute angle at 2:48” and the options are 130°, 132°, 128°, and 134°?
+The difference between a guess and a sure-shot answer is not more practice. It is knowing how the examiner designs the trap.
 
-```svg 3 o'clock: hour hand at 3, minute hand at 12 → 90° angle
-<svg viewBox="0 0 200 200" width="200" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Clock at 3 o'clock, 90 degree angle">
-  <circle cx="100" cy="100" r="80" style="fill:none;stroke:var(--fig-line);stroke-width:2"/>
-  <text x="100" y="32" text-anchor="middle" style="fill:var(--fig-text);font-size:13px;font-weight:700">12</text>
-  <text x="172" y="105" text-anchor="middle" style="fill:var(--fig-text);font-size:13px;font-weight:700">3</text>
-  <text x="100" y="180" text-anchor="middle" style="fill:var(--fig-text);font-size:13px;font-weight:700">6</text>
-  <text x="28" y="105" text-anchor="middle" style="fill:var(--fig-text);font-size:13px;font-weight:700">9</text>
-  <line x1="100" y1="100" x2="100" y2="45" style="stroke:var(--fig-accent);stroke-width:3"/>
-  <line x1="100" y1="100" x2="150" y2="100" style="stroke:var(--fig-accent3);stroke-width:4"/>
-  <circle cx="100" cy="100" r="4" style="fill:var(--fig-text)"/>
-  <text x="128" y="88" text-anchor="middle" style="fill:var(--fig-danger);font-size:12px">90°</text>
-</svg>
-```
+This chapter will give you that lens.
 
-## Part 2: Calendar
+Why Clock & Calendar Feels Tricky
 
-**Odd Days:** the days left over after complete weeks.
-- An ordinary year (365 days) = 52 weeks + **1 odd day**
-- A leap year (366 days) = 52 weeks + **2 odd days**
+Most students treat Clock as pure geometry and Calendar as pure memorisation. The truth? Clock is a game of relative speed. Calendar is a system of remainders. Once you shift from “I must remember everything” to “I’ll understand the core rule,” the whole topic lightens.
 
-**Leap Year Rule:**
-- A year exactly divisible by 4 is a leap year (like 2024, 2028).
-- A century year (100, 200…) is a leap year only if divisible by 400 (2000 is a leap year, but 1900 is not).
+We will go step by step, in tiny, digestible chunks. After every 2–3 chunks, I’ll ask you an Active Recall question (look for 🧠). Do not skip them. They force your brain to retrieve the rule, which is how real learning sticks.
 
-🧠 Recall: How many odd days are there in an ordinary year?
+CLOCK
+Chunk 1 – The Two Speeds You Must Know
 
-## The Examiner's Trap
+Minute hand (MH) covers 360° in 60 minutes → 6° per minute.
 
-⚠️ **Trap 1 — forgetting the hand moves:** The hour hand keeps moving too! At 3:30 the hour hand is not at 3, but between 3 and 4.
+Hour hand (HH) covers 360° in 12 hours (720 minutes) → 0.5° per minute.
 
-⚠️ **Trap 2 — century leap years:** 1900 is not a leap year (not divisible by 400), but 2000 is.
+🧠 Stop. Close your eyes. Recall: MH speed = ?°, HH speed = ?° per minute.
 
-⚠️ **Trap 3 — two possible angles:** The hands make both a smaller and a larger angle (summing to 360°); choose as the question asks.
+Chunk 2 – Relative Speed: The Magic Number 5.5
 
-Review this after 2 days.
+The minute hand gains on the hour hand every minute.
+Gain per minute = 6° – 0.5° = 5.5°.
+
+This one number solves everything—coincidence, opposite, right angle.
+
+To gain 360° (a full lap, i.e., hands coincide again), time = 360 / 5.5 = 65⁵⁄₁₁ minutes.
+
+In 12 hours, they coincide 11 times.
+
+In 12 hours, they are opposite 11 times, at right angles 22 times.
+
+🧠 If the hands are together now, after how many minutes will they next be together?
+
+Chunk 3 – Angle Between Hands Formula
+
+The formula you must own:
+θ = | 30H – 5.5M |
+(where H = hour as per clock face, M = minutes)
+
+If θ > 180°, take 360° – θ for the smaller angle.
+
+Example: 2:20 → |30×2 – 5.5×20| = |60 – 110| = 50°.
+
+🧠 Find the angle at 7:25 using the formula. Do it now before reading further.
+
+Chunk 4 – Mirror and Water Images
+
+Mirror image time (what you see in a mirror): Subtract the given time from 11:60.
+e.g., 3:25 → 11:60 – 3:25 = 8:35.
+
+Water image time (reflection in water): Subtract from 18:30 or think of it as 17:90 minus the given time.
+e.g., 3:25 → 18:30 – 3:25 = 15:05, which is 3:05 PM.
+
+Mnemonic: Mirror → Minus from Midnight (11:60). Water → Work with 18:30 (half past six). Silly, but it stays.
+
+🧠 The clock shows 4:40. What is its mirror image time?
+
+Chunk 5 – Faulty Clock
+
+A faulty clock gains/loses time. The relationship:
+True time : Clock time = True interval : Clock interval
+If a clock gains 5 minutes in 24 hours, the ratio of true time to clock time is 24×60 : 24×60+5 = 1440:1445.
+
+So if the faulty clock shows 10:00 AM after 24 true hours, true time = 10:00 AM × (1440/1445) – adjust accordingly. But most questions ask “when will it show correct time again?” That happens after it has gained/lost exactly 12 hours (720 minutes). Time = 720 / gain per day × 1 day.
+
+🧠 *A watch gains 6 minutes per day. After how many days will it show the right time again? (720/6 = 120 days)*
+
+CALENDAR
+Chunk 1 – Odd Days: The Backbone
+
+Ordinary year: 365 days → 52 weeks + 1 odd day.
+
+Leap year: 366 days → 52 weeks + 2 odd days.
+
+Leap year rule: Divisible by 4. Century years (like 1900) must be divisible by 400 to be leap. 2000 was leap, 1900 was not.
+
+🧠 *How many odd days in 3 ordinary years? (3 × 1 = 3 odd days, i.e., 3 days shift forward)*
+
+Chunk 2 – Century Codes for Speed
+
+Memorise these four numbers:
+
+Century	Code
+1600–1699	6
+1700–1799	4
+1800–1899	2
+1900–1999	0
+2000–2099	6
+
+For most competitive exams (1900s and 2000s), just remember: 1900s = 0, 2000s = 6. That’s enough.
+
+Chunk 3 – Month Codes (Ordinary Year)
+Month	Code
+Jan	0
+Feb	3
+Mar	3
+Apr	6
+May	1
+Jun	4
+Jul	6
+Aug	2
+Sep	5
+Oct	0
+Nov	3
+Dec	5
+
+In a leap year, Jan = 6, Feb = 2. Rest remain same.
+
+🧠 In an ordinary year, what is the month code of December? (5)
+
+Chunk 4 – Day Calculation Formula
+
+Day = (Date + Month Code + Year Code + Century Code) mod 7
+
+Year Code = (Last two digits of year + ⌊last two digits/4⌋) mod 7.
+Then add century code.
+
+After mod 7: 0 = Sunday, 1 = Monday, … 6 = Saturday. (Check your reference; this works for a common system where 0 = Sunday.)
+
+Example: 15th August 1947
+Date = 15, Month code (Aug) = 2, Year (47) → 47 + 11 (⌊47/4⌋) = 58 mod 7 = 2 (since 56 is multiple of 7). Century code (1900) = 0. Sum = 15+2+2+0 = 19 → 19 mod 7 = 5 → Friday. Yes, India’s Independence Day was a Friday.
+
+🧠 Calculate 26th Jan 1950. (Republic Day was Thursday. Try it.)
+
+Chunk 5 – Same Calendar Year
+
+For an ordinary year, the calendar repeats after 6 years (sometimes 11). Leap year calendar repeats after 28 years. In exams, they often ask: “Which year after 2024 will have the same calendar as 2024?” 2024 is leap, so 2024 + 28 = 2052.
+
+🧠 *If 2025 is ordinary, the same calendar will be 2031? Yes, because 2025 odd days = 1, 2026:2, 2027:3, 2028 (leap):5, 2029:6, 2030:0, 2031:1 — after 6 years the odd day matches and the 2028 leap does not disturb.* (Wait, careful: after a leap year the gap changes. But for simplicity, the 6-year rule holds for many ordinary years between leaps; always calculate odd days if uncertain.)
+
+⚠️ Caution: Examiner's Trap
+
+Options with multiple plausible angles
+When you apply formula |30H – 5.5M|, you may get a number like 132°. The examiner will place 132°, 228°, 48°, and 130° as options. The trap: They want the smaller angle, so you must choose 132° if it’s ≤180°, else 360–θ. They also keep a slight off-by-one-degree option (130° instead of 132°) to catch those who approximate. Always calculate exact decimal: 5.5 × M exactly.
+
+Difficult wording to confuse mirror/water
+“What time will a clock show in water if the clock’s reflection in water shows 3:40?” This double reflection question means you do the water image twice, or they just give a reflected time and ask for real time. Many students apply mirror rule instead of water rule. The trick: Water = subtract from 18:30; Mirror = subtract from 11:60. Underline the word “water” or “mirror” before touching numbers.
+
+Dual relationships in Calendar – same date, different century
+“Which year after 2004 will have the same calendar?” The straightforward 11-year shift fails because 2000 was a century leap, altering odd days. The examiner sets options: 2010, 2011, 2012, 2015. You must calculate exact odd day pattern instead of blindly adding 6 or 11. The trap preys on those who memorize a rigid pattern without checking leap year effects.
+
+“Hands overlap” vs “hands coincide” in 12-hour period
+The phrasing “How many times do the hands of a clock overlap between 1 PM and 11:59 PM?” They expect 10 times (since at 12 they coincide exactly at 12:00 AM next day, not within). If the question says “from 1 to 12”, the count is 11, but they’ll put 11 and 10 both as options. Read boundaries.
+
+📋 Summary Table: Quick Revision
+Concept	Core Rule / Formula
+MH speed	6° per minute
+HH speed	0.5° per minute
+Relative gain	5.5° per minute
+Angle between hands		30H – 5.5M	, if >180 then 360–angle
+Mirror time	11:60 – given time
+Water time	18:30 – given time
+Odd days (ordinary/leap)	1 / 2
+Leap year check	÷4, but century ÷400
+Day formula	(Date + Month code + Year code + Century code) mod 7
+Same calendar (ordinary)	Generally after 6 or 11 years; verify odd day pattern
+🧠 Review This After 2 Days
+
+When you revisit, try these without looking:
+
+Derive the 65⁵⁄₁₁ minute coincidence rule.
+
+Find the day of 1st January 2000.
+
+Convert 9:10 into mirror time.
+
+Recall the three biggest examiner traps you just read.
+
+Self-testing after a gap is where speed is born.

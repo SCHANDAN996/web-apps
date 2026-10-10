@@ -1,0 +1,98 @@
+# 🪄 Short Tricks & Mnemonics — Coding-Decoding
+
+---
+
+## 🧠 Mnemonic Box 1: The Alphabet Position Song
+**"EJOTY — Every Jolly Owl Tells Yarns"**
+E=5, J=10, O=15, T=20, Y=25. These five anchor letters let you find ANY letter's position in 2 seconds. Count forward or backward from the nearest anchor instead of counting from A every time.
+
+---
+
+## 🧠 Mnemonic Box 2: Reverse Positions
+**"27 minus me = my mirror"**
+Reverse position of any letter = 27 − (normal position). A(1)↔Z(26), B(2)↔Y(25). Remember: **"AZ, BY, CX, DW, EV, FU, GT, HS, IR, JQ, KP, LO, MN"** — the 13 opposite pairs. Just chant "AZ-BY-CX-DW" like a train rhythm!
+
+---
+
+## 🧠 Mnemonic Box 3: Letter Shifting
+**"Plus goes right, Minus goes left — like a number line"**
+If CAT → DBU, each letter moved +1 (right). If CAT → BZS, each moved −1 (left). Always check the FIRST letter's shift first — it usually reveals the whole pattern.
+
+---
+
+## 🧠 Mnemonic Box 4: Mixed Shifts
+**"Odd-Even Dance: +1, +2, +1, +2…"**
+When a single shift doesn't fit all letters, try alternating shifts: 1st letter +1, 2nd letter +2, 3rd +1, 4th +2. Examiners LOVE this pattern. If single shift fails in 10 seconds, jump straight to alternating.
+
+---
+
+## 🧠 Mnemonic Box 5: Vowel-Consonant Split
+**"Vowels go UP, Consonants go DOWN"**
+A classic trap pattern: vowels shifted +1, consonants shifted −1 (or vice versa). When uniform shifting fails, separate the word into vowels and consonants and check each group.
+
+---
+
+## 🧠 Mnemonic Box 6: Number Coding
+**"Letters are numbers in disguise"**
+A=1, B=2 … Z=26. If DOG = 26, check: D(4)+O(15)+G(7) = 26. Three golden operations to test, in order: **Sum → Product → Sum of squares**. Most number-coding questions fall in one of these.
+
+---
+
+## 🧠 Mnemonic Box 7: Reverse Word Coding
+**"Mirror, mirror, read it backward"**
+If TABLE = ELBAT, the word is simply reversed. Before hunting for complex patterns, ALWAYS read the code backward — it takes 3 seconds and solves many "tough-looking" questions instantly.
+
+---
+
+## 🧠 Mnemonic Box 8: Substitution Coding
+**"One word's trash is another's treasure — find the common word"**
+In "sky is blue" = "ka la ma" type questions, find the COMMON word in two sentences and the COMMON code. Common word ↔ common code. Eliminate, don't calculate.
+
+---
+
+## 🧠 Mnemonic Box 9: The "Cannot Be Determined" Trap
+**"Lonely word = Lonely answer"**
+If a word appears in only ONE sentence and its code also appears only once, you cannot fix its exact code — but if options ask for it, the answer is often that unique leftover code. If TWO words remain unfixed, answer = "cannot be determined."
+
+---
+
+## 🧠 Mnemonic Box 10: Letter-Pair Swap
+**"Hold hands and switch"**
+If MASTER = AMTSRE, adjacent pairs swap places: MA→AM, ST→TS, ER→RE. Check for pair-swapping when letters in the code are the SAME as the original word, just jumbled.
+
+---
+
+## 🧠 Mnemonic Box 11: First-Last Swap
+**"Ends trade places, middle stays lazy"**
+If CODING = GODINC, check: first and last letters swapped (C↔G), middle untouched. Very common in SSC exams. Compare positions 1 and last before anything else.
+
+---
+
+## 🧠 Mnemonic Box 12: Symbol Coding
+**"Symbols are just letters wearing costumes"**
+If A = @, B = #, C = $ — treat each symbol as a direct substitution. Write the mapping table FIRST on your rough sheet, then decode. Never try to decode symbol-by-symbol in your head.
+
+---
+
+## 🧠 Mnemonic Box 13: The Position-Difference Trick
+**"Measure the gap, not the letter"**
+Write positions: C(3)→F(6) means gap of +3. If all gaps are equal → simple shift. If gaps grow (+1, +2, +3) → progressive shift. Gaps tell the story faster than letters do.
+
+---
+
+## 🧠 Mnemonic Box 14: Chinese/Phrase Coding Order
+**"Match longest with longest"**
+When matching sentences to codes, start with the LONGEST sentence and its code — more common words = more eliminations = faster solution.
+
+---
+
+## ⏭️ SKIP STRATEGY — When to Skip a Coding-Decoding Question
+
+**🚩 Skip Rule 1: The 15-Second Pattern Test**
+If you cannot identify the pattern (shift, reverse, swap, substitution) within 15 seconds of reading the question, mark it and move on. Coding questions are pattern-recognition — they either "click" fast or eat 3 minutes. Return only if time remains.
+
+**🚩 Skip Rule 2: The Multi-Sentence Substitution Monster**
+If a substitution question has 4+ sentences with 4+ codes and asks for a word that appears in only one sentence, the elimination chain is long. If your first elimination attempt doesn't narrow it down, skip — the risk of a wrong answer (negative marking!) outweighs the gain.
+
+**🚩 Skip Rule 3: The "New Pattern" Trap**
+If the coding uses an unusual operation (sum of squares, position × 2, vowels counted separately) and none of your standard 5 checks (shift / reverse / swap / sum / substitution) work in 20 seconds, SKIP immediately. These are designed as time-traps. A skipped question costs 0 marks; a wrong guess costs marks in negative marking.

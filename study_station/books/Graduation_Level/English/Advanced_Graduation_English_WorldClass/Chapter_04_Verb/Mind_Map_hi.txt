@@ -1,0 +1,34 @@
+```mermaid
+graph TD
+    A["क्रिया (Verb)"] --> B["प्रकार"]
+    A --> C["Subject-Verb Agreement"]
+    A --> D["Tense का संचालन"]
+    A --> E["परीक्षक के जाल"]
+    A --> F["रणनीति"]
+
+    B --> B1["Main Verb<br>क्रिया का मुख्य रूप"]
+    B --> B2["Auxiliary Verb<br>is/am/are, has/have, do/does"]
+    B --> B3["Transitive<br>कर्म चाहिए: He wrote a letter"]
+    B --> B4["Intransitive<br>कर्म नहीं: She sleeps"]
+    B --> B5["Finite vs Non-Finite<br>Infinitive, Gerund, Participle"]
+
+    C --> C1["एकवचन कर्ता → एकवचन क्रिया"]
+    C --> C2["Intervening Phrase जाल<br>The quality of apples IS good"]
+    C --> C3["Collective Noun<br>team/jury/family"]
+    C --> C4["Each/Every/Neither → Singular"]
+    C --> C5["And से जुड़े कर्ता → Plural<br>पर एक ही वस्तु हो तो Singular"]
+
+    D --> D1["Present/Past/Future"]
+    D --> D2["Since + point of time<br>For + period of time"]
+    D --> D3["If clause → Present<br>Main clause → Future"]
+    D --> D4["Wish/If only → Past<br>काल्पनिक स्थिति"]
+
+    E --> E1["Sound-Right जाल<br>कान से सही लगे पर नियम से गलत"]
+    E --> E2["Over-thinking जाल<br>सरल प्रश्न में जटिलता खोजना"]
+    E --> E3["हिंदी अनुवाद जाल<br>What you are doing? ❌<br>What are you doing? ✔"]
+
+    F --> F1["15 सेकंड: तथ्यात्मक<br>सीधा नियम-आधारित प्रश्न"]
+    F --> F2["45 सेकंड: तार्किक<br>टोन/अनुमान/जटिल त्रुटि"]
+    F --> F3["Skip Strategy<br>दो विकल्पों में उलझो तो mark करके आगे बढ़ो"]
+    F --> F4["Mnemonic<br>कर्ता देखो, क्रिया जोड़ो"]
+```

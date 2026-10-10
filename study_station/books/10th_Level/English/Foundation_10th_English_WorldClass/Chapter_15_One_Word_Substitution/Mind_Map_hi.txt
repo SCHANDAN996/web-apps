@@ -1,0 +1,31 @@
+```mermaid
+graph TD
+    A["एक शब्द प्रतिस्थापन<br>One-word Substitution"] --> B["मूल शब्द से पहचानो<br>Roots"]
+    A --> C["मुख्य श्रेणियाँ"]
+    A --> D["परीक्षक के जाल"]
+    A --> E["रणनीति"]
+
+    B --> B1["-cide = मारना<br>Homicide, Suicide"]
+    B --> B2["-phile = प्रेमी<br>Bibliophile, Anglophile"]
+    B --> B3["-phobia = डर<br>Claustrophobia, Hydrophobia"]
+    B --> B4["-cracy = शासन<br>Democracy, Autocracy"]
+    B --> B5["-logy = विद्या<br>Biology, Zoology"]
+    B --> B6["-maniac = पागलपन<br>Kleptomaniac, Pyromaniac"]
+
+    C --> C1["व्यक्ति / लोग<br>Optimist, Pessimist, Introvert"]
+    C --> C2["मृत्यु / हत्या<br>Genocide, Infanticide"]
+    C --> C3["शासन / सत्ता<br>Monarchy, Anarchy"]
+    C --> C4["भाषा / लेखन<br>Polyglot, Calligraphy"]
+    C --> C5["स्थान / घर<br>Apiary, Aviary, Granary"]
+    C --> C6["भोजन / आदत<br>Vegetarian, Cannibal, Teetotaller"]
+
+    D --> D1["मिलते-जुलते शब्द<br>Philanthropist ≠ Philatelist"]
+    D --> D2["लगभग-सही विकल्प<br>Amateur ≠ Novice"]
+    D --> D3["हिंदी अनुवाद का भ्रम<br>शब्दशः अनुवाद न करें"]
+    D --> D4["Over-thinking<br>पहला सटीक विकल्प चुनें"]
+
+    E --> E1["15 सेकंड नियम<br>सीधा तथ्यात्मक प्रश्न"]
+    E --> E2["45 सेकंड नियम<br>वाक्य-संदर्भ वाला प्रश्न"]
+    E --> E3["Skip Strategy<br>अनजाना root = छोड़ दो"]
+    E --> E4["2 दिन बाद दोहराएँ<br>फ्लैशकार्ड से"]
+```

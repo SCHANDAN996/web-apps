@@ -1,0 +1,166 @@
+# Direction Sense (Coded)
+
+## 1. What This Chapter Will Do For You
+
+By the end of this chapter you will be able to:
+
+- Decode any "coded direction" question in under 30 seconds.
+- Handle questions where directions are replaced by symbols, words, or rotations.
+- Avoid the 3 classic traps examiners plant in the options.
+- Know exactly when to attempt and when to skip.
+
+---
+
+## 2. The Hook: One Symbol Can Flip Your Whole Answer
+
+Imagine this. You are solving a direction question. You draw your diagram perfectly. North up, South down, East right, West left. You trace the man's path step by step. You are confident.
+
+And the answer is wrong.
+
+Why? Because the question quietly told you at the start: *"In a certain code, North-East is called North, North is called North-West..."* — and you solved it using the **real** directions instead of the **coded** ones.
+
+This is the single most common way students lose a free mark. Coded direction questions are not harder than normal direction questions. They are the **same question wearing a mask**. Your job is to remove the mask first, then solve.
+
+---
+
+## 3. Why Students Struggle Here
+
+Three reasons, and all three are fixable:
+
+1. **They start drawing before decoding.** They read the movement part and immediately start tracing. The code table at the top gets ignored.
+2. **They mix real and coded directions.** Halfway through, the brain slips back to real North, real East.
+3. **They panic at long code tables.** A question with 8 coded directions looks scary. It is actually easier — because the code is fully given, there is zero ambiguity.
+
+Remember: **the examiner is not testing your sense of direction. He is testing whether you follow instructions literally.**
+
+---
+
+## 4. The Two Types of Coded Direction Questions
+
+### Type A: Symbol/Word Substitution
+
+Directions are renamed. Example:
+
+> In a certain code: North is called East, East is called South, South is called West, West is called North.
+
+Now if a man walks 5 km towards "North" (in code), he is **actually** walking East.
+
+**Golden rule:** Build a translation table FIRST. Then replace every coded word in the question with the real direction. Then solve like a normal direction question.
+
+### Type B: Rotation Coding
+
+The whole compass is rotated. Example:
+
+> If South-East becomes North, what will North-East become?
+
+Here the compass has rotated by some fixed angle. Find the angle, apply the same rotation to the asked direction.
+
+**Golden rule:** Find the shift (e.g., 135° anticlockwise), then apply the **same shift** to the target direction.
+
+🧠 **Active Recall:** Before reading on — in Type A, what must you build before touching the movement part of the question? (Answer: the translation table.)
+
+---
+
+## 5. The Compass You Must Know Blindfolded
+
+Everything in this chapter stands on 8 directions and the angles between them:
+
+- 4 cardinal: North (N), East (E), South (S), West (W)
+- 4 sub-cardinal: North-East (NE), South-East (SE), South-West (SW), North-West (NW)
+
+Key facts:
+
+- Adjacent directions (N to NE, NE to E...) are **45°** apart.
+- N to E (clockwise) = 90°. N to S = 180°.
+- Opposite pairs: N↔S, E↔W, NE↔SW, NW↔SE.
+
+**Mnemonic for clockwise order — "Never Eat Soggy Wafers":**
+**N**orth → **E**ast → **S**outh → **W**est (clockwise).
+And the sub-directions sit between them: N–NE–E–SE–S–SW–W–NW–back to N.
+
+🧠 **Active Recall:** Say the full clockwise ring of 8 directions out loud, twice. If you stumble on SW vs SE, fix it now — this is where most rotation errors are born.
+
+---
+
+## 6. Type A Solved: The 3-Step Method
+
+**Question:** In a certain code, North is called West, West is called South, South is called East, and East is called North. A man walks 4 km towards "South", then turns left and walks 3 km. In which (real) direction is he from the start?
+
+**Step 1 — Translation table:**
+
+| Code word | Real direction |
+|---|---|
+| North | West |
+| West | South |
+| South | East |
+| East | North |
+
+**Step 2 — Translate the question.** "Walks towards South" → code South = **real East**. So he walks 4 km East.
+
+**Step 3 — Solve normally.** Facing East, left turn = North. Walks 3 km North. Final position: North-East of start.
+
+**Answer: North-East.**
+
+Notice: the walking part was trivial. All the marks were in Step 1.
+
+🧠 **Active Recall:** In the question above, why is the left turn taken as North and not something coded? (Answer: turns — left/right — are never coded; only the named directions are. Left of real East is always real North.)
+
+**Critical point:** Left and right turns are **never** coded. Only the 8 direction names get replaced. The moment you translate the starting direction into a real direction, the rest of the problem is a plain direction problem.
+
+---
+
+## 7. Type B Solved: Rotation Questions
+
+**Question:** If South-East becomes North, then what will West become?
+
+**Step 1 — Find the rotation.** SE → N. On the ring N–NE–E–SE–S–SW–W–NW, moving **anticlockwise** from SE means going back along the ring: SE→E→NE→N = **3 steps = 135° anticlockwise**. (Check clockwise: SE→S→SW→W→NW→N = 5 steps = 225° — longer, so the intended shift is 135° anticlockwise.)
+
+**Step 2 — Apply the same shift to West.** Move 3 steps anticlockwise from W (again going back along the ring): W→SW→S→SE. So West becomes **South-East**.
+
+**Answer: South-East.**
+
+**Shortcut:** Count positions on the 8-direction ring. Each step = 45°. Same number of steps, same direction of rotation, applied to everything. Be careful which way "anticlockwise" runs on the ring: from any direction, anticlockwise takes you towards the direction that sits **before** it in the clockwise list (from W, anticlockwise goes to SW, not NW).
+
+🧠 **Active Recall:** If East becomes South, the compass rotated how many degrees and which way? (Answer: 90° clockwise.) Now — what does North become? (Answer: East.)
+
+---
+
+## 8. Mixed Trap: Coded Directions + Shadow/Time Clues
+
+Sometimes the examiner combines coding with a shadow clue: "One morning, a man's shadow falls to his 'left' (where left is coded)..." Treat it in layers:
+
+1. Solve the **real-world clue first** using real directions (morning sun = real East, shadow = real West).
+2. **Then** apply the code if the question asks for the answer in coded terms — or decode first if the clue itself is given in code.
+
+Never mix the two layers in one step. Layer 1 = reality. Layer 2 = code. Keep them separate and you cannot go wrong.
+
+---
+
+## 9. Speed Benchmarks
+
+- Type A (substitution): 20–30 seconds. Table (10s) + translate (5s) + trace (10s).
+- Type B (rotation): 15–20 seconds. It is pure counting on the ring.
+- If a question has **both** a long code table **and** a 4-step movement path, budget 45 seconds — or mark it for the second pass.
+
+---
+
+## 10. Summary Table
+
+| Situation | First move | Key rule |
+|---|---|---|
+| Directions renamed (Type A) | Build translation table | Turns (left/right) are never coded |
+| Compass rotated (Type B) | Find shift in steps of 45° | Apply identical shift to target |
+| Shadow/time clue inside code | Solve real clue first, then code | Keep reality and code in separate layers |
+| Answer asked "in code" | Solve in real terms, then re-encode | Don't forget the final re-encoding step |
+
+**Review this chapter after 2 days.** Redraw the 8-direction ring from memory and re-solve one Type A and one Type B question without looking at the solutions.
+
+---
+
+## ⚠️ Caution: Examiner's Trap
+
+**Trap 1 — The half-coded answer.** The question gives directions in code and asks the answer "as per the code". Students solve correctly in real directions, then forget to convert the final answer back into code. If your real answer is East and the code says "West is called East", the correct option is **West**, not East. Always check: does the question want the answer in real terms or coded terms?
+
+**Trap 2 — Coding the turns.** The code table renames North, South, East, West — it does **not** rename left and right. Students who translate "turns left" using the code table destroy the whole question. Left of the (real) facing direction is fixed by geometry, not by the code.
+
+**Trap 3 — Rotation direction confusion.** In Type B, "SE becomes North" can be reached by rotating clockwise **or** anticlockwise — but only one matches the second clue if given, and the shorter rotation is the intended one. When two clues are given (e.g., "SE becomes N and NE becomes W"), verify your rotation against **both** before answering. Options will include the answer from the wrong-direction rotation — that is the bait.

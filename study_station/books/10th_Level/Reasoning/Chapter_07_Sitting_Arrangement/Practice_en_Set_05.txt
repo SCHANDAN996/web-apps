@@ -1,0 +1,151 @@
+Questions 101–115: Medium | Questions 116–125: Hard
+
+101. Six persons A, B, C, D, E, and F are sitting in a row facing north. A is second to the left of D. B is to the immediate right of C. E sits at the left end. F is to the immediate right of E. D is not a neighbour of F. Who sits third to the right of C?
+(a) D (b) B (c) E (d) F
+Answer: (a)
+Solution: Arrangement (left to right): 1-E, 2-F, 3-C, 4-A, 5-B, 6-D. Third to the right of C(3) is D at seat 6.
+Source: PYQ-style
+
+102. Six persons P, Q, R, S, T, and U are sitting around a circular table facing the centre. P is second to the left of Q. R is to the immediate right of P. S is second to the right of T. U sits directly opposite R. Who is to the immediate left of U?
+(a) P (b) S (c) Q (d) T
+Answer: (b)
+Solution: Arrangement (clockwise): 1-Q, 2-R, 3-P, 4-S, 5-U, 6-T. Immediate left of U(5) (clockwise) is S at seat 4.
+Source: PYQ-style
+
+103. Six persons P, Q, R, S, T, and U are sitting in a row facing north. P is second to the left of Q and to the immediate left of R. S is to the immediate right of T. U sits at the left end. R is not a neighbour of T. Who sits second to the right of U?
+(a) P (b) Q (c) R (d) S
+Answer: (c)
+Solution: Arrangement (left to right): 1-U, 2-P, 3-R, 4-Q, 5-T, 6-S. Second to the right of U(1) is R at seat 3.
+Source: PYQ-style
+
+104. Eight persons A, B, C, D, E, F, G, and H are sitting in a circle facing the centre. A is second to the left of B. C is third to the right of D. E is an immediate neighbour of both F and G. H sits directly opposite F. Who sits third to the left of H?
+(a) C (b) D (c) G (d) A
+Answer: (d)
+Solution: Arrangement (clockwise): 1-B, 2-D, 3-A, 4-F, 5-E, 6-G, 7-C, 8-H. Third to the left of H(8) (clockwise) is A at seat 3.
+Source: PYQ-style
+
+105. Seven persons P, Q, R, S, T, U, and V are sitting in a row facing north. R is fourth to the right of P. Q is to the immediate left of S. U is second to the left of T. V sits at the left end. P is not a neighbour of V. Which of the following is definitely true?
+(a) S sits to the immediate right of Q. (b) Q sits at the right end. (c) T sits to the immediate left of R. (d) U sits second to the right of V.
+Answer: (a)
+Solution: Arrangement (left to right): 1-V, 2-U, 3-P, 4-T, 5-Q, 6-S, 7-R. S(6) sits to the immediate right of Q(5), which is true.
+Source: PYQ-style
+
+106. Six persons A, B, C, D, E, and F are sitting in a circle facing the centre. A is third to the left of B. C is to the immediate right of A. D is second to the right of E. F is not a neighbour of D. Who sits directly opposite B?
+(a) C (b) A (c) E (d) F
+Answer: (b)
+Solution: Arrangement (clockwise): 1-B, 2-E, 3-C, 4-A, 5-F, 6-D. Directly opposite B(1) is A at seat 4.
+Source: PYQ-style
+
+107. Six persons A, B, C, D, E, and F are sitting in a row facing north. A is second to the left of D and to the immediate right of B. C is second to the right of E. F sits at the right end. B is not a neighbour of E. Who sits second to the left of C?
+(a) A (b) B (c) E (d) D
+Answer: (c)
+Solution: Arrangement (left to right): 1-B, 2-A, 3-E, 4-D, 5-C, 6-F. Second to the left of C(5) is E at seat 3.
+Source: PYQ-style
+
+108. Eight persons A, B, C, D, E, F, G, and H are sitting in a circle facing the centre. A is third to the left of B. C is to the immediate right of A. D is second to the left of E. F sits directly opposite D. G is an immediate neighbour of H. Who sits second to the right of G?
+(a) A (b) B (c) D (d) C
+Answer: (d)
+Solution: Arrangement (clockwise): 1-B, 2-F, 3-C, 4-A, 5-G, 6-D, 7-H, 8-E. Second to the right of G(5) is C at seat 3.
+Source: PYQ-style
+
+109. Seven persons A, B, C, D, E, F, and G are sitting in a row facing north. D is second to the right of B. C is to the immediate left of E. F is second to the left of G. A sits at the left end. B is not a neighbour of A. Which of the following is definitely false?
+(a) G sits second to the left of E. (b) F sits to the immediate left of B. (c) C sits to the immediate right of D. (d) E sits at the right end.
+Answer: (a)
+Solution: Arrangement (left to right): 1-A, 2-F, 3-B, 4-G, 5-D, 6-C, 7-E. G(4) is third to the left of E(7), not second. Hence it is false.
+Source: PYQ-style
+
+110. Six persons P, Q, R, S, T, and U are sitting in a circle facing the centre. P is second to the left of Q. R is to the immediate right of P. S is second to the right of T. U sits directly opposite R. Who is to the immediate left of U?
+(a) P (b) S (c) Q (d) T
+Answer: (b)
+Solution: Arrangement (clockwise): 1-Q, 2-R, 3-P, 4-S, 5-U, 6-T. Immediate left of U(5) is S at seat 4.
+Source: PYQ-style
+
+111. Eight persons A, B, C, D, E, F, G, and H are sitting in a row facing north. D is fourth to the right of A. B is to the immediate left of C. E is second to the left of F. G sits at the left end. H sits at the right end. Who sits third to the left of H?
+(a) B (b) C (c) E (d) F
+Answer: (c)
+Solution: Arrangement (left to right): 1-G, 2-A, 3-B, 4-C, 5-E, 6-D, 7-F, 8-H. Third to the left of H(8) is E at seat 5.
+Source: PYQ-style
+
+112. Eight persons are sitting in two parallel rows with four each, Row 1 (A,B,C,D) facing north and Row 2 (P,Q,R,S) facing south. A sits directly opposite P. C is immediate left of A. Q is immediate right of P. B is at left end of Row 1, D at right end. R faces B. Who sits directly opposite D?
+(a) P (b) Q (c) R (d) S
+Answer: (d)
+Solution: Row 1: 1-B, 2-C, 3-A, 4-D. Row 2 (facing): 1-R, 2-Q, 3-P, 4-S. Directly opposite D is S.
+Source: PYQ-style
+
+113. Six persons A, B, C, D, E, and F are sitting in a row facing north. A is second to the left of D and to the immediate right of B. C is to the immediate left of E. F sits at the right end. B is not a neighbour of D. Who sits second to the left of F?
+(a) D (b) A (c) B (d) C
+Answer: (a)
+Solution: Arrangement (left to right): 1-B, 2-A, 3-C, 4-D, 5-E, 6-F. Second to the left of F(6) is D at seat 4.
+Source: PYQ-style
+
+114. Six persons P, Q, R, S, T, and U are sitting in a circle facing the centre. P is second to the left of Q. R is to the immediate right of P. S is second to the right of T. U sits directly opposite R. Who is to the immediate right of R?
+(a) P (b) Q (c) T (d) S
+Answer: (b)
+Solution: Arrangement (clockwise): 1-Q, 2-R, 3-P, 4-S, 5-U, 6-T. Immediate right of R(2) (anti-clockwise) is Q at seat 1.
+Source: PYQ-style
+
+115. Seven persons A, B, C, D, E, F, and G are sitting in a row facing north. D is second to the right of B. C is to the immediate left of E. F is second to the left of G. A sits at the left end. B is not a neighbour of A. Which of the following is definitely false?
+(a) F sits to the immediate left of B. (b) C sits to the immediate right of D. (c) G sits second to the left of E. (d) E sits at the right end.
+Answer: (c)
+Solution: Arrangement (left to right): 1-A, 2-F, 3-B, 4-G, 5-D, 6-C, 7-E. G(4) is third to the left of E(7), not second. Thus it is false.
+Source: PYQ-style
+
+116. Six persons A, B, C, D, E, and F are sitting in a row facing north. A is third to the left of D. B is to the immediate right of C. E sits at the left end. F is to the immediate right of E. D is not a neighbour of F. Who sits second to the right of C?
+(a) B (b) E (c) F (d) D
+Answer: (d)
+Solution: Arrangement (left to right): 1-E, 2-F, 3-A, 4-C, 5-B, 6-D. Second to the right of C(4) is D at seat 6.
+Source: PYQ-style
+
+117. Six persons P, Q, R, S, T, and U are sitting in a circle facing the centre. P is second to the left of Q. R is to the immediate right of P. S is second to the right of T. U sits directly opposite R. Who is to the immediate left of R?
+(a) P (b) Q (c) T (d) U
+Answer: (a)
+Solution: Arrangement (clockwise): 1-Q, 2-R, 3-P, 4-S, 5-U, 6-T. Immediate left of R(2) (clockwise) is P at seat 3.
+Source: PYQ-style
+
+118. Eight persons A, B, C, D, E, F, G, and H are sitting in a row facing north. D is fourth to the left of H. B is to the immediate right of A. C is second to the right of E. F sits at the left end. G sits at the right end. H is not a neighbour of G. Who sits third to the left of G?
+(a) B (b) E (c) C (d) D
+Answer: (b)
+Solution: Arrangement (left to right): 1-F, 2-D, 3-A, 4-B, 5-E, 6-H, 7-C, 8-G. Third to the left of G(8) is E at seat 5.
+Source: PYQ-style
+
+119. Six persons P, Q, R, S, T, and U are sitting in a row facing north. P is second to the left of S and to the immediate right of Q. T is to the immediate left of U. R sits at the right end. Q is not a neighbour of R. Who sits second to the left of R?
+(a) P (b) Q (c) S (d) T
+Answer: (c)
+Solution: Arrangement (left to right): 1-Q, 2-P, 3-T, 4-S, 5-U, 6-R. Second to the left of R(6) is S at seat 4.
+Source: PYQ-style
+
+120. Six persons P, Q, R, S, T, and U are sitting in a circle facing the centre. P is second to the left of Q. R is to the immediate right of P. S is second to the right of T. U sits directly opposite R. Who sits directly opposite S?
+(a) Q (b) T (c) U (d) P
+Answer: (d)
+Solution: Arrangement (clockwise): In the circle, directly opposite S (3 seats away) is P.
+Source: PYQ-style
+
+121. Eight persons A, B, C, D, E, F, G, and H are sitting in a row facing north. D is third to the right of A. G is second to the left of B. Only two persons sit between C and F. H sits at the right end. E sits to the immediate left of F. A is not a neighbour of H. Who sits fourth to the left of E?
+(a) A (b) B (c) C (d) D
+Answer: (a)
+Solution: Arrangement (left to right): 1-G, 2-A, 3-B, 4-C, 5-D, 6-E, 7-F, 8-H. Fourth to the left of E(6) is A at seat 2.
+Source: PYQ-style
+
+122. Eight persons P, Q, R, S, T, U, V, and W are sitting in a circle facing the centre. P is fourth to the right of Q. R is to the immediate left of P. S is third to the left of T. U is second to the right of V. W is an immediate neighbour of both R and T. Who sits directly opposite W?
+(a) P (b) S (c) Q (d) U
+Answer: (b)
+Solution: Arrangement (clockwise): 1-Q, 2-U, 3-S, 4-V, 5-P, 6-R, 7-W, 8-T. Directly opposite W(7) (4 seats away) is S at seat 3.
+Source: PYQ-style
+
+123. Seven persons A, B, C, D, E, F, and G are sitting in a row facing north. B is fourth to the right of A. D sits exactly between C and F. E is second to the left of G. C sits at the left end. Who sits second to the right of D?
+(a) A (b) E (c) B (d) F
+Answer: (c)
+Solution: Arrangement (left to right): 1-C, 2-A, 3-E, 4-D, 5-G, 6-B, 7-F. Second to the right of D(4) is B at seat 6.
+Source: PYQ-style
+
+124. Eight persons P, Q, R, S, T, U, V, and W are sitting in a row facing north. R is fourth to the right of P. Q is to the immediate left of S. T is second to the right of U. V sits at the left end. W sits at the right end. P is not a neighbour of V. Who sits second to the right of Q?
+(a) S (b) T (c) U (d) R
+Answer: (d)
+Solution: Arrangement (left to right): 1-V, 2-U, 3-P, 4-T, 5-Q, 6-S, 7-R, 8-W. Second to the right of Q(5) is R at seat 7.
+Source: PYQ-style
+
+125. Six persons A, B, C, D, E, and F are sitting in a circle facing the centre. A is second to the left of B and third to the right of C. D is an immediate neighbour of E. F sits directly opposite D. Who sits second to the right of E?
+(a) A (b) C (c) B (d) F
+Answer: (b)
+Solution: Arrangement (clockwise): 1-A, 2-F, 3-B, 4-C, 5-D, 6-E. Second to the right of E(6) (anti-clockwise) is C at seat 4.
+Source: PYQ-style

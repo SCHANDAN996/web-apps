@@ -1,320 +1,151 @@
-Set 5: Mixture & Alligation (Medium 20 + Hard 5)
+Set 5: Mixture & Alligation — Questions 101–120: Medium | Questions 121–125: Hard
 
-Q101. In what ratio must water (cost ₹0) be mixed with milk costing ₹48 per litre to obtain a mixture worth ₹32 per litre?
-(A) 1 : 2
-(B) 2 : 1
-(C) 1 : 3
-(D) 3 : 1
+101. In what ratio must water (cost ₹0) be mixed with milk costing ₹48 per litre to obtain a mixture worth ₹32 per litre?
+(a) 1 : 3 (b) 2 : 1 (c) 1 : 2 (d) 3 : 1
+Answer: (c)
+Solution: By alligation, water : milk = (48 − 32) : (32 − 0) = 16 : 32 = 1 : 2. The trap is reversing the differences, which gives 2 : 1; the dearer ingredient's difference goes with the cheaper ingredient. So the answer is 1 : 2.
+Source: PYQ-style
 
-Answer: (A) 1 : 2
-Solution:
-Alligation: water = ₹0, milk = ₹48, mean = ₹32.
-(48 – 32) = 16, (32 – 0) = 32 → ratio of water : milk = 16:32 = 1:2.
-Source: SSC CGL (Adapted)
+102. A trader mixes 10 kg of rice at ₹30 per kg with 20 kg of rice at ₹45 per kg and sells the mixture at ₹48 per kg. What is his profit percentage?
+(a) 15% (b) 20% (c) 25% (d) 30%
+Answer: (b)
+Solution: Total CP = 10×30 + 20×45 = ₹1200 for 30 kg, so CP per kg = ₹40. Profit per kg = 48 − 40 = ₹8, and profit% = (8/40)×100 = 20%. The trap is computing profit on ₹48 instead of ₹40, which gives about 16.7%. So the answer is 20%.
+Source: PYQ-style
 
-Q102. A trader mixes 10 kg of rice at ₹30 per kg with 20 kg of rice at ₹45 per kg and sells the mixture at ₹48 per kg. What is his profit percentage?
-(A) 15%
-(B) 20%
-(C) 25%
-(D) 30%
+103. A vessel contains 60 litres of milk. 12 litres is taken out and replaced with water, and this process is repeated once more. What is the ratio of milk to water in the final mixture?
+(a) 9 : 16 (b) 16 : 9 (c) 25 : 16 (d) 16 : 25
+Answer: (b)
+Solution: Milk left = 60 × (1 − 12/60)² = 60 × (4/5)² = 38.4 L, so water = 60 − 38.4 = 21.6 L and the ratio is 38.4 : 21.6 = 16 : 9. The trap is inverting the ratio to 9 : 16. So the answer is 16 : 9.
+Source: PYQ-style
 
-Answer: (B) 20%
-Solution:
-Total CP = 10×30 + 20×45 = 300 + 900 = 1200. Total weight = 30 kg, CP/kg = ₹40.
-SP = ₹48/kg, profit = ₹8/kg. Profit% = (8/40)×100 = 20%.
-Source: IBPS Clerk
+104. How many kilograms of sugar costing ₹18 per kg must be mixed with 30 kg of sugar costing ₹24 per kg so that selling the mixture at ₹25.30 per kg earns a profit of 15%?
+(a) 10 kg (b) 25 kg (c) 20 kg (d) 15 kg
+Answer: (d)
+Solution: CP of mixture = 25.30/1.15 = ₹22 per kg. Alligation gives (24 − 22) : (22 − 18) = 2 : 4 = 1 : 2 for the ₹18 sugar to the ₹24 sugar, so required quantity = 30/2 = 15 kg. The trap is using ₹25.30 directly as the mean price instead of first finding the cost price. So the answer is 15 kg.
+Source: PYQ-style
 
-Q103. A vessel contains 60 litres of milk. 12 litres is taken out and replaced with water. This process is repeated once more. What is the ratio of milk to water in the final mixture?
-(A) 16 : 9
-(B) 9 : 16
-(C) 25 : 16
-(D) 16 : 25
+105. A 40-litre mixture of alcohol and water contains 30% alcohol. How much water must be added so that the alcohol becomes 20%?
+(a) 25 litres (b) 30 litres (c) 20 litres (d) 35 litres
+Answer: (c)
+Solution: Alcohol = 30% of 40 = 12 L, and this stays constant. If x litres of water are added, 12/(40 + x) = 1/5, giving x = 20 litres. The trap is taking 20% of 40 = 8 L and adding that, ignoring that the total volume also grows. So the answer is 20 litres.
+Source: NCERT Class 8 Mathematics
 
-Answer: (A) 16 : 9
-Solution:
-Milk left = 60 × (1 – 12/60)² = 60 × (4/5)² = 60 × 16/25 = 38.4 L. Water = 60 – 38.4 = 21.6 L.
-Ratio = 38.4 : 21.6 = 384 : 216 = 16 : 9.
-Source: SSC CGL (Tier I)
+106. A container holds liquids A and B in the ratio 5 : 3. When 8 litres of the mixture is drawn off and replaced with B, the ratio becomes 3 : 5. Find the capacity of the container.
+(a) 16 litres (b) 20 litres (c) 24 litres (d) 32 litres
+Answer: (b)
+Solution: Let capacity be 8x. After removal, A = 5x − 5 and B = 3x − 3 + 8 = 3x + 5. Setting (5x − 5)/(3x + 5) = 3/5 gives 25x − 25 = 9x + 15, so x = 2.5 and capacity = 20 litres. The trap is forgetting that the 8 litres removed also carries away 5 litres of A and 3 litres of B. So the answer is 20 litres.
+Source: PYQ-style
 
-Q104. How many kilograms of sugar costing ₹18 per kg must be mixed with 30 kg of sugar costing ₹24 per kg so that by selling the mixture at ₹25.30 per kg a profit of 15% is earned?
-(A) 10 kg
-(B) 15 kg
-(C) 20 kg
-(D) 25 kg
+107. Two equal vessels contain milk and water in the ratios 5 : 4 and 4 : 5. Their contents are poured into a third vessel. What is the ratio of milk to water in the final mixture?
+(a) 1 : 1 (b) 4 : 5 (c) 9 : 10 (d) 5 : 4
+Answer: (a)
+Solution: Since the vessels are equal and both ratios total 9 parts, total milk = 5 + 4 = 9 parts and total water = 4 + 5 = 9 parts. The trap is adding the ratios term by term as 9 : 9 but then "simplifying" wrongly, or averaging the ratios to get 9 : 10. So the answer is 1 : 1.
+Source: NCERT Class 8 Mathematics
 
-Answer: (B) 15 kg
-Solution:
-SP = ₹25.30, Profit = 15% → CP = 25.30 / 1.15 = ₹22 per kg.
-Alligation: (24 – 22) = 2, (22 – 18) = 4 → ratio of ₹18 sugar : ₹24 sugar = 2:4 = 1:2.
-Given 30 kg of ₹24 sugar, quantity of ₹18 sugar required = (1/2)×30 = 15 kg.
-Source: SSC CGL
+108. A vessel contains 120 litres of a mixture of acid and water with 75% acid. How much water must be evaporated so that the acid becomes 90%?
+(a) 20 litres (b) 15 litres (c) 25 litres (d) 30 litres
+Answer: (a)
+Solution: Acid = 75% of 120 = 90 L, which is unchanged by evaporation. For acid to be 90%, new total = 90/0.9 = 100 L, so water evaporated = 120 − 100 = 20 litres. The trap is reducing water by 15% of 120 = 18 L or assuming acid also evaporates. So the answer is 20 litres.
+Source: PYQ-style
 
-Q105. A 40-litre mixture of alcohol and water contains 30% alcohol. How much water must be added so that the alcohol becomes 20%?
-(A) 20 litres
-(B) 25 litres
-(C) 30 litres
-(D) 35 litres
+109. In what ratio should a shopkeeper mix teas costing ₹200/kg and ₹280/kg so that selling the mixture at ₹300/kg earns a profit of 25%?
+(a) 1 : 2 (b) 2 : 1 (c) 1 : 1 (d) 3 : 2
+Answer: (c)
+Solution: CP of mixture = 300/1.25 = ₹240 per kg. Alligation gives (280 − 240) : (240 − 200) = 40 : 40 = 1 : 1. The trap is applying alligation with ₹300 as the mean, which gives 2 : 1. So the answer is 1 : 1.
+Source: PYQ-style
 
-Answer: (A) 20 litres
-Solution:
-Alcohol = 30% of 40 = 12 L. Let x L water be added.
-12 / (40 + x) = 20/100 = 1/5 → 60 = 40 + x → x = 20 L.
-Source: NCERT
+110. A milkman adds 2 litres of water to 18 litres of milk and sells the mixture at the cost price of milk. What is his profit percentage?
+(a) 8% (b) 10% (c) 11.11% (d) 12.5%
+Answer: (c)
+Solution: He pays for 18 L but sells 20 L at milk's price, so profit% = (2/18) × 100 = 100/9 ≈ 11.11%. The trap is computing 2/20 = 10%, using the selling volume instead of the cost volume. So the answer is 11.11%.
+Source: PYQ-style
 
-Q106. A container contains a mixture of two liquids A and B in the ratio 5 : 3. When 8 litres of the mixture is drawn off and the container is filled with B, the ratio of A to B becomes 3 : 5. Find the capacity of the container.
-(A) 16 litres
-(B) 20 litres
-(C) 24 litres
-(D) 32 litres
+111. A 30-litre mixture of spirit and water contains 20% water. How much spirit must be added to make the water 10%?
+(a) 20 litres (b) 25 litres (c) 35 litres (d) 30 litres
+Answer: (d)
+Solution: Water = 20% of 30 = 6 L, and it stays constant. If x litres of spirit are added, 6/(30 + x) = 1/10, giving x = 30 litres. The trap is adding spirit to the water only, or taking 10% of 30 = 3 L as the answer. So the answer is 30 litres.
+Source: NCERT Class 8 Mathematics
 
-Answer: (B) 20 litres
-Solution:
-Let capacity = 8x (A = 5x, B = 3x). After removal and addition, A = 5x – 5, B = 3x – 3 + 8 = 3x + 5.
-Given (5x – 5) / (3x + 5) = 3/5 → 25x – 25 = 9x + 15 → 16x = 40 → x = 2.5, capacity = 20 L.
-Source: SSC CGL
+112. A container has 50 litres of pure milk. 10 litres is removed and replaced with water; then 20 litres of the mixture is removed and replaced with water. How much milk is left?
+(a) 20 litres (b) 28 litres (c) 24 litres (d) 32 litres
+Answer: (c)
+Solution: After the first step, milk = 40 L. In the second step, 20 L of an 80%-milk mixture is removed, taking away 16 L of milk, so milk left = 40 − 16 = 24 litres. The trap is subtracting the full 20 L from the milk, giving 20 L. So the answer is 24 litres.
+Source: PYQ-style
 
-Q107. Two equal vessels contain mixtures of milk and water in the ratios 5 : 4 and 4 : 5 respectively. The contents are poured into a third vessel. What is the ratio of milk to water in the final mixture?
-(A) 1 : 1
-(B) 5 : 4
-(C) 4 : 5
-(D) 9 : 10
+113. A trader bought 40 kg of wheat at ₹15 per kg and 20 kg at ₹18 per kg, mixed them, and sold the mixture at ₹20 per kg. Find his profit percent.
+(a) 20% (b) 25% (c) 28% (d) 30%
+Answer: (b)
+Solution: Total CP = 40×15 + 20×18 = ₹960 for 60 kg, so CP per kg = ₹16. Profit per kg = 20 − 16 = ₹4, and profit% = (4/16)×100 = 25%. The trap is averaging the two prices as ₹16.50 instead of taking the weighted mean. So the answer is 25%.
+Source: PYQ-style
 
-Answer: (A) 1 : 1
-Solution:
-First vessel: milk = 5 parts, water = 4 parts (total 9). Second: milk = 4, water = 5.
-Total milk = 5+4=9, water = 4+5=9 → ratio = 1:1.
-Source: NCERT
+114. An 80-litre solution of acid and water contains 25% acid. How much acid must be added to make the solution 40% acid?
+(a) 20 litres (b) 15 litres (c) 25 litres (d) 30 litres
+Answer: (a)
+Solution: Water = 60 L stays constant and must become 60% of the new solution, so new total = 100 L and acid added = 100 − 80 = 20 litres. The trap is solving (20 + x)/80 = 0.4, which ignores the increase in total volume and gives 12 L. So the answer is 20 litres.
+Source: NCERT Class 8 Mathematics
 
-Q108. A vessel contains 120 litres of a mixture of acid and water, with 75% acid. How much water must be evaporated so that the acid becomes 90%?
-(A) 15 litres
-(B) 20 litres
-(C) 25 litres
-(D) 30 litres
+115. Two vessels contain milk and water in the ratios 3 : 1 and 2 : 3. In what ratio must these mixtures be combined to get milk and water in the ratio 1 : 1?
+(a) 2 : 5 (b) 1 : 1 (c) 3 : 4 (d) 5 : 2
+Answer: (a)
+Solution: Milk fractions are 3/4 and 2/5, with target 1/2. Alligation gives (1/2 − 2/5) : (3/4 − 1/2) = 1/10 : 1/4 = 2 : 5 for the first mixture to the second. The trap is reversing the differences and answering 5 : 2. So the answer is 2 : 5.
+Source: PYQ-style
 
-Answer: (B) 20 litres
-Solution:
-Acid = 75% of 120 = 90 L, water = 30 L. After evaporation, acid = 90 L = 90% of new total.
-New total = 90/0.9 = 100 L. Water evaporated = 120 – 100 = 20 L.
-Source: IBPS PO
+116. A vessel has 60 litres of milk and water in the ratio 5 : 3. How much mixture must be replaced with water so that the ratio becomes 5 : 7?
+(a) 15 litres (b) 30 litres (c) 25 litres (d) 20 litres
+Answer: (d)
+Solution: Milk = 37.5 L and water = 22.5 L. If x litres are replaced, milk left = 37.5 − 5x/8 and water = 22.5 + 5x/8. Setting the ratio to 5/7 gives 7(37.5 − 5x/8) = 5(22.5 + 5x/8), so x = 20 litres. The trap is adding x fully to water without subtracting the water removed with the mixture. So the answer is 20 litres.
+Source: PYQ-style
 
-Q109. In what ratio should a shopkeeper mix two varieties of tea costing ₹200/kg and ₹280/kg so that by selling the mixture at ₹300/kg he earns a profit of 25%?
-(A) 1 : 2
-(B) 2 : 1
-(C) 1 : 1
-(D) 3 : 2
+117. A grocer mixes 5 kg of sugar at ₹20 per kg with 5 kg at ₹30 per kg. At what price per kg should he sell the mixture to gain 12%?
+(a) ₹28 (b) ₹27 (c) ₹26 (d) ₹29
+Answer: (a)
+Solution: Total CP = 100 + 150 = ₹250 for 10 kg, so CP per kg = ₹25. Selling price for 12% gain = 25 × 1.12 = ₹28. The trap is adding 12% of the total ₹250 to one kg's price or computing 12% on ₹30. So the answer is ₹28.
+Source: PYQ-style
 
-Answer: (C) 1 : 1
-Solution:
-SP = ₹300, Profit 25% → CP = 300/1.25 = ₹240/kg.
-Alligation: (280 – 240) = 40, (240 – 200) = 40 → ratio = 1:1.
-Source: SSC CGL
+118. Two alloys contain gold and copper in the ratios 3 : 1 and 5 : 3. Equal weights of the two are melted together. What is the ratio of gold to copper in the new alloy?
+(a) 5 : 11 (b) 7 : 5 (c) 5 : 7 (d) 11 : 5
+Answer: (d)
+Solution: Gold fractions are 3/4 and 5/8; with equal weights the gold fraction is (3/4 + 5/8)/2 = 11/16, so copper is 5/16 and the ratio is 11 : 5. The trap is adding the ratio terms directly as 8 : 4 = 2 : 1, which ignores the different total parts. So the answer is 11 : 5.
+Source: PYQ-style
 
-Q110. A milkman adds 2 litres of water to 18 litres of milk and sells the mixture at the cost price of milk. What is his profit percentage?
-(A) 8%
-(B) 10%
-(C) 11.11%
-(D) 12.5%
+119. A 60-litre solution contains 20% sugar. How much sugar must be added so that the new solution contains 50% sugar?
+(a) 30 litres (b) 36 litres (c) 33 litres (d) 39 litres
+Answer: (b)
+Solution: Sugar = 12 L and water = 48 L. For 50% sugar, sugar must equal water, i.e. 48 L, so sugar to add = 48 − 12 = 36 litres. The trap is taking 30% of 60 = 18 L and adding only that, forgetting the total volume grows. So the answer is 36 litres.
+Source: NCERT Class 8 Mathematics
 
-Answer: (C) 11.11%
-Solution:
-Profit% = (Water added / Milk) × 100 = (2/18)×100 = 100/9 = 11.11%.
-Source: IBPS Clerk
+120. A vessel is full of pure alcohol. 10% of the contents is removed and replaced with water, and this is done three times in all. What is the approximate percentage of alcohol in the final mixture?
+(a) 72.9% (b) 71.5% (c) 70.0% (d) 73.5%
+Answer: (a)
+Solution: Alcohol left = 100 × (0.9)³ = 72.9%. The trap is subtracting 10% three times linearly, giving 70%, which ignores that later removals take out a diluted mixture. So the answer is 72.9%.
+Source: PYQ-style
 
-Q111. A mixture of 30 litres of spirit and water contains 20% water. How much spirit must be added to make the water percentage 10%?
-(A) 20 litres
-(B) 25 litres
-(C) 30 litres
-(D) 35 litres
+121. Vessel A has milk and water in the ratio 3 : 2 and vessel B in the ratio 5 : 4. They are mixed in the ratio 5 : 3 by volume. What is the ratio of milk to water in the final mixture?
+(a) 7 : 5 (b) 5 : 7 (c) 8 : 7 (d) 7 : 8
+Answer: (a)
+Solution: Take 5 units of A and 3 units of B. Milk = 5×(3/5) + 3×(5/9) = 3 + 5/3 = 14/3, and water = 8 − 14/3 = 10/3, giving 14 : 10 = 7 : 5. The trap is mixing equal volumes instead of the 5 : 3 volumes, which changes the ratio. So the answer is 7 : 5.
+Source: PYQ-style
 
-Answer: (C) 30 litres
-Solution:
-Water = 20% of 30 = 6 L, spirit = 24 L. Let x L spirit be added.
-6 / (30 + x) = 10/100 = 1/10 → 60 = 30 + x → x = 30 L.
-Source: NCERT
+122. Three teas costing ₹15, ₹20 and ₹30 per kg are mixed; the first two are in the ratio 2 : 3. The mixture is sold at ₹27 per kg at a 20% profit. In what ratio are the three varieties mixed?
+(a) 3 : 3 : 2 (b) 2 : 3 : 5 (c) 3 : 2 : 3 (d) 2 : 3 : 3
+Answer: (d)
+Solution: Mean CP = 27/1.2 = ₹22.5. The 2 : 3 blend of the first two costs (30 + 60)/5 = ₹18 per kg. Alligating ₹18 with ₹30 around ₹22.5 gives 7.5 : 4.5 = 5 : 3, so the blend contributes 5 parts (split 2 : 3) and the third tea 3 parts. The trap is alligating each tea separately with the mean. So the answer is 2 : 3 : 3.
+Source: PYQ-style
 
-Q112. A container contains 50 litres of pure milk. 10 litres is removed and replaced with water. Then 20 litres of the mixture is removed and replaced with water. What is the quantity of milk left?
-(A) 20 litres
-(B) 24 litres
-(C) 28 litres
-(D) 32 litres
+123. A vessel has 100 litres of milk and water in the ratio 5 : 3. 20% of the mixture is replaced with water, and this is repeated three times in all. How much pure milk must then be added to make milk and water equal?
+(a) 30 litres (b) 32 litres (c) 34 litres (d) 36 litres
+Answer: (d)
+Solution: Initial milk = 62.5 L; after three replacements milk = 62.5 × (0.8)³ = 32 L, so water = 68 L. To equalise, milk needed = 68 − 32 = 36 litres. The trap is computing milk as 100 × (0.8)³ = 51.2 L, forgetting milk was only 62.5 L initially. So the answer is 36 litres.
+Source: PYQ-style
 
-Answer: (B) 24 litres
-Solution:
-After first: milk = 40 L, water = 10 L.
-Second removal (20 L): milk out = (40/50)×20 = 16 L, water out = 4 L.
-Milk left = 40 – 16 = 24 L. (Water remains unchanged after replacement with water).
-Source: SSC CGL
+124. A vessel has alcohol and water in the ratio 3 : 1. First 20% of the mixture is replaced with water; then 25% of the result is replaced with a solution containing alcohol and water in the ratio 2 : 3. What is the final ratio of alcohol to water?
+(a) 13 : 11 (b) 5 : 4 (c) 11 : 9 (d) 7 : 5
+Answer: (c)
+Solution: Start with 100 units: alcohol 75, water 25. After the first step alcohol = 60, water = 40. Removing 25 units takes out 15 alcohol and 10 water, leaving 45 and 30; adding 25 units of the 2 : 3 solution adds 10 alcohol and 15 water, giving 55 : 45 = 11 : 9. The trap is treating the added solution as pure water, which gives 9 : 11. So the answer is 11 : 9.
+Source: PYQ-style
 
-Q113. A trader bought 40 kg of wheat at ₹15 per kg and 20 kg at ₹18 per kg. He mixed them and sold the mixture at ₹20 per kg. Find his profit percent.
-(A) 20%
-(B) 25%
-(C) 28%
-(D) 30%
-
-Answer: (B) 25%
-Solution:
-Total CP = 40×15 + 20×18 = 600+360=960, total 60 kg, CP/kg = 16.
-SP = ₹20, profit = 4, profit% = (4/16)×100 = 25%.
-Source: IBPS PO
-
-Q114. A solution of 80 litres of acid and water contains 25% acid. How much acid must be added to make the solution 40% acid?
-(A) 15 litres
-(B) 20 litres
-(C) 25 litres
-(D) 30 litres
-
-Answer: (B) 20 litres
-Solution:
-Acid = 25% of 80 = 20 L, water = 60 L. Let x L acid be added.
-(20 + x)/(80 + x) = 40/100 = 2/5 → 5(20+x) = 2(80+x) → 100+5x=160+2x → 3x=60 → x=20 L.
-Source: NCERT
-
-Q115. Two vessels contain milk and water in the ratios 3 : 1 and 2 : 3 respectively. In what ratio must these mixtures be mixed to obtain a mixture with milk and water in the ratio 1 : 1?
-(A) 2 : 5
-(B) 5 : 2
-(C) 1 : 1
-(D) 3 : 4
-
-Answer: (A) 2 : 5
-Solution:
-Milk fractions: first = 3/4, second = 2/5, target = 1/2.
-Alligation: (3/4 – 1/2) = 1/4, (1/2 – 2/5) = 1/10.
-Ratio of second (cheaper) to first (dearer) = (1/4) : (1/10) = 5:2, so first:second = 2:5.
-Source: SSC CGL
-
-Q116. A vessel contains 60 litres of a mixture of milk and water in the ratio 5 : 3. How much of the mixture must be taken out and replaced with water so that the ratio of milk to water becomes 5 : 7?
-(A) 15 litres
-(B) 20 litres
-(C) 25 litres
-(D) 30 litres
-
-Answer: (B) 20 litres
-Solution:
-Milk = 37.5 L, water = 22.5 L. Let x L be replaced.
-Milk left = 37.5 – (5/8)x, water left = 22.5 – (3/8)x + x = 22.5 + (5/8)x.
-For 5:7 → (37.5 – 5x/8) / (22.5 + 5x/8) = 5/7 → cross-multiply: 7(37.5 – 5x/8) = 5(22.5 + 5x/8)
-→ 262.5 – 35x/8 = 112.5 + 25x/8 → 150 = 60x/8 = 7.5x → x = 20 L.
-Source: SSC CGL (Tier II)
-
-Q117. A grocer mixes 5 kg of sugar costing ₹20 per kg and 5 kg costing ₹30 per kg. At what price per kg should he sell the mixture to gain 12%?
-(A) ₹26
-(B) ₹27
-(C) ₹28
-(D) ₹29
-
-Answer: (C) ₹28
-Solution:
-Total CP = 5×20 + 5×30 = 100+150=250, weight 10 kg, CP/kg = ₹25.
-SP for 12% profit = 25×1.12 = ₹28.
-Source: IBPS Clerk
-
-Q118. Two alloys contain gold and copper in the ratios 3 : 1 and 5 : 3 respectively. Equal weights of the two are melted together. What is the ratio of gold to copper in the new alloy?
-(A) 11 : 5
-(B) 5 : 11
-(C) 7 : 5
-(D) 5 : 7
-
-Answer: (A) 11 : 5
-Solution:
-Gold fraction first = 3/4, second = 5/8. Average gold fraction = (3/4 + 5/8)/2 = (6/8+5/8)/2 = 11/16.
-Copper fraction = 5/16, ratio = 11:5.
-Source: SSC CGL
-
-Q119. A solution of 60 litres contains 20% sugar. How much sugar must be added so that the new solution contains 50% sugar?
-(A) 30 litres
-(B) 33 litres
-(C) 36 litres
-(D) 39 litres
-
-Answer: (C) 36 litres
-Solution:
-Sugar = 12 L, water = 48 L. For 50% sugar, sugar must equal water = 48 L. Sugar to add = 48 – 12 = 36 L.
-Source: NCERT
-
-Q120. A vessel is full of pure alcohol. 10% of the alcohol is taken out and replaced with water. This process is repeated two more times. What is the approximate percentage of alcohol in the final mixture?
-(A) 70.0%
-(B) 71.5%
-(C) 72.9%
-(D) 73.5%
-
-Answer: (C) 72.9%
-Solution:
-Alcohol left = 100 × (1 – 0.1)³ = 100 × 0.9³ = 72.9%.
-Source: SSC CGL (Tier I)
-
-Q121. (Hard) Vessel A contains milk and water in the ratio 3 : 2, and vessel B contains them in the ratio 5 : 4. These two vessels are mixed in the ratio 5 : 3 (A : B) by volume. What is the ratio of milk to water in the final mixture?
-(A) 7 : 5
-(B) 5 : 7
-(C) 8 : 7
-(D) 7 : 8
-
-Answer: (A) 7 : 5
-Solution:
-Milk fraction A = 3/5, B = 5/9. Take 5 units of A and 3 units of B.
-Milk = 5×(3/5) + 3×(5/9) = 3 + 5/3 = 14/3. Total volume = 8 units.
-Water = 8 – 14/3 = 10/3. Ratio milk:water = 14:10 = 7:5.
-Source: SSC CGL (Tier II)
-
-Q122. (Hard) Three varieties of tea costing ₹15, ₹20 and ₹30 per kg are mixed. The ratio of the first two is 2 : 3. The mixture is sold at ₹27 per kg making a profit of 20%. What is the ratio in which the three varieties are mixed?
-(A) 2 : 3 : 3
-(B) 2 : 3 : 5
-(C) 3 : 2 : 3
-(D) 3 : 3 : 2
-
-Answer: (A) 2 : 3 : 3
-Solution:
-SP = ₹27, Profit = 20% → CP = 27/1.2 = ₹22.5 per kg.
-CP of mixture of first two (₹15 and ₹20) in ratio 2:3 = (2×15 + 3×20)/5 = (30+60)/5 = ₹18 per kg.
-Now alligate this ₹18/kg mixture with the third variety at ₹30/kg to get mean ₹22.5.
-(30 – 22.5) = 7.5, (22.5 – 18) = 4.5 → ratio of ₹18 mix : ₹30 = 7.5 : 4.5 = 5 : 3.
-Thus the mixture of first two is 5 parts, third is 3 parts. Since first two are in ratio 2:3 (total 5 parts), overall ratio of first : second : third = 2 : 3 : 3.
-Source: SSC CGL (Mains)
-
-Q123. (Hard) A vessel contains 100 litres of a mixture of milk and water in the ratio 5 : 3. 20% of the mixture is taken out and replaced with water. This process is repeated two more times (i.e., three times in total). How many litres of pure milk must be added to the resulting mixture so that the ratio of milk to water becomes 1 : 1?
-(A) 30
-(B) 32
-(C) 34
-(D) 36
-
-Answer: (D) 36
-Solution:
-Initial milk = (5/8)×100 = 62.5 L.
-After three replacements of 20% with water, milk = 62.5 × (0.8)³ = 62.5 × 0.512 = 32 L.
-Water = 100 – 32 = 68 L. Let x L milk be added.
-Then 32 + x = 68 → x = 36 L.
-Source: SSC CGL (Tier II, Adapted)
-
-Q124. (Hard) A vessel contains a mixture of alcohol and water in the ratio 3 : 1. 20% of the mixture is withdrawn and replaced with water. Then 25% of the resulting mixture is withdrawn and replaced with an alcohol-water solution having alcohol and water in the ratio 2 : 3. What is the ratio of alcohol to water in the final mixture?
-(A) 13 : 11
-(B) 11 : 9
-(C) 5 : 4
-(D) 7 : 5
-
-Answer: (B) 11 : 9
-Solution:
-Let initial volume = 100 units (alcohol 75, water 25).
-First replacement (20%): alcohol = 75×0.8 = 60, water = 25×0.8 + 20 = 20+20=40. Total 100.
-Second replacement: remove 25% (25 units) from mixture (60 alcohol, 40 water).
-Alcohol out = 25×0.6 = 15, water out = 25×0.4 = 10.
-Remaining: alcohol = 60–15 = 45, water = 40–10 = 30.
-Add 25 units of 2:3 alcohol-water solution: alcohol added = (2/5)×25 = 10, water added = 15.
-Final: alcohol = 45+10=55, water = 30+15=45. Ratio = 55:45 = 11:9.
-Source: SSC CGL (Tier II)
-
-Q125. (Hard) A vessel contains 100 litres of a mixture of milk and water in the ratio 3 : 2. 20% of the mixture is taken out and replaced with water. Then 25% of the mixture is taken out and replaced with water. Finally, 50% of the mixture is taken out and replaced with water. What is the final ratio of milk to water?
-(A) 9 : 41
-(B) 9 : 16
-(C) 9 : 25
-(D) 9 : 34
-
-Answer: (A) 9 : 41
-Solution:
-Initial milk = 60 L, water = 40 L.
-First replacement (20%, i.e., 20 L): milk = 60×0.8 = 48, water = 40×0.8 + 20 = 32+20=52.
-Second replacement (25%, i.e., 25 L): milk out = 25% of 48 = 12, water out = 25% of 52 = 13.
-Milk = 48–12 = 36, water = 52–13+25 = 64.
-Third replacement (50%, i.e., 50 L): milk out = 50% of 36 = 18, water out = 50% of 64 = 32.
-Milk = 36–18 = 18, water = 64–32+50 = 82. Ratio = 18:82 = 9:41.
-Source: SSC CGL (Tier II)
-
-End of Set 5.
+125. A vessel has 100 litres of milk and water in the ratio 3 : 2. Successively, 20%, then 25%, then 50% of the mixture is removed and replaced with water each time. What is the final ratio of milk to water?
+(a) 9 : 16 (b) 9 : 41 (c) 9 : 25 (d) 9 : 34
+Answer: (b)
+Solution: Milk starts at 60 L. After the three steps, milk = 60 × 0.8 × 0.75 × 0.5 = 18 L, and water = 100 − 18 = 82 L, giving 18 : 82 = 9 : 41. The trap is applying the three fractions to the whole 100 L instead of only to the milk, which distorts both quantities. So the answer is 9 : 41.
+Source: PYQ-style

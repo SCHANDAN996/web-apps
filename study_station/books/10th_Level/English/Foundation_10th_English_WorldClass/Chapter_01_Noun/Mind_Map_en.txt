@@ -1,0 +1,44 @@
+```mermaid
+graph TD
+    A["NOUN<br>The Naming Word"] --> B["5 Types"]
+    A --> C["Number<br>Singular / Plural"]
+    A --> D["Gender"]
+    A --> E["Case"]
+    A --> F["12 Golden Rules"]
+    A --> G["Examiner's Traps"]
+    A --> H["Exam Strategy"]
+
+    B --> B1["Proper Noun<br>Ram, India, Ganga<br>Always Capital"]
+    B --> B2["Common Noun<br>boy, city, river"]
+    B --> B3["Collective Noun<br>team, army, jury"]
+    B --> B4["Material Noun<br>gold, water, rice<br>Usually Uncountable"]
+    B --> B5["Abstract Noun<br>honesty, freedom, kindness"]
+
+    C --> C1["Regular: +s / +es<br>boy-boys, box-boxes"]
+    C --> C2["Irregular<br>man-men, child-children<br>foot-feet, mouse-mice"]
+    C --> C3["Same in Both<br>sheep, deer, aircraft"]
+    C --> C4["Always Plural<br>scissors, trousers, police, cattle"]
+    C --> C5["Always Singular<br>news, physics, mathematics"]
+
+    D --> D1["Masculine: king, actor"]
+    D --> D2["Feminine: queen, actress"]
+    D --> D3["Common: teacher, student"]
+    D --> D4["Neuter: table, book"]
+
+    E --> E1["Possessive Case<br>boy's book, girls' school"]
+    E --> E2["No apostrophe with<br>non-living things<br>leg of the table"]
+
+    F --> F1["Uncountable nouns take<br>singular verb: The news IS good"]
+    F --> F2["No 'a/an' before uncountables<br>an advice = WRONG"]
+    F --> F3["Collective noun + singular verb<br>when acting as one unit"]
+    F --> F4["Scenery, furniture, luggage,<br>information = no plural form"]
+
+    G --> G1["Sound-Right Trap<br>'The news are' sounds OK<br>but is WRONG"]
+    G --> G2["Intervening Phrase Trap<br>'The quality of apples WAS good'<br>verb matches 'quality', not 'apples'"]
+    G --> G3["False Plural Trap<br>'many informations' = WRONG"]
+    G --> G4["Over-thinking Trap<br>Don't change correct simple answers"]
+
+    H --> H1["15-Second Rule<br>Fact-based: identify type,<br>spot plural error"]
+    H --> H2["45-Second Rule<br>Inference: error spotting in<br>long sentences with phrases"]
+    H --> H3["Skip Strategy<br>Flag long error-spotting Qs,<br>return after easy wins"]
+```

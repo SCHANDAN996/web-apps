@@ -1,0 +1,166 @@
+# Simplification & Approximation
+
+## The 90-Second Trap That Decides Your Rank
+
+In IBPS PO Mains, a candidate once spent 4 minutes solving a single simplification question — and got it wrong. Another candidate glanced at the same question, rounded the numbers, and picked the answer in 20 seconds. The difference wasn't intelligence. It was **strategy**.
+
+Simplification and Approximation questions look like pure arithmetic, but they are actually tests of **decision-making under time pressure**. Exams like SSC CGL Tier-II, IBPS PO, SBI PO, and CSAT use them to filter out candidates who calculate everything from those who calculate *smartly*.
+
+**Learning goals for this chapter:**
+- Master BODMAS and its hidden traps
+- Learn when to approximate and when *not* to
+- Build a toolkit of fast-calculation techniques (digit sums, fractions, percentages)
+- Recognise the examiner's favourite traps before they catch you
+
+---
+
+## 1. The Foundation: BODMAS Done Right
+
+Every simplification question begins with the order of operations:
+
+**B**rackets → **O**rders (powers, roots) → **D**ivision → **M**ultiplication → **A**ddition → **S**ubtraction
+
+But here's what most students miss: **Division and Multiplication have equal priority** — solve them left to right. Same for Addition and Subtraction.
+
+**Example:** 24 ÷ 4 × 2 = ?
+- Wrong: 24 ÷ (4 × 2) = 3
+- Right: (24 ÷ 4) × 2 = 6 × 2 = **12**
+
+Also remember the bracket hierarchy: **Vinculum (bar) → ( ) → { } → [ ]**. The bar is the smallest and is solved first.
+
+🧠 **Active Recall:** Without looking back — which two operations share equal priority, and in what order do you solve them? What comes before round brackets?
+
+---
+
+## 2. The Golden Question: Exact or Approximate?
+
+Before touching a single number, look at the **answer options**. This one habit separates toppers from the rest.
+
+**Approximate when:**
+- Options are far apart (e.g., 120, 480, 950, 1800)
+- The question says "approximately" or "≈"
+- Numbers are ugly decimals like 19.97, 49.8, 24.9%
+
+**Calculate exactly when:**
+- Options are close (e.g., 246, 248, 250, 252)
+- The question involves exact fractions or surds that cancel
+
+**Rule of thumb:** If the gap between options is more than 5% of the values, approximation is safe. If options differ by 1–2%, calculate precisely.
+
+🧠 **Active Recall:** You see options 118, 240, 365, 490. Should you approximate? What if the options were 240, 242, 244, 246?
+
+---
+
+## 3. The Approximation Toolkit
+
+### Technique 1: Round to Friendly Numbers
+19.97 × 5.03 ≈ 20 × 5 = **100**
+498 ÷ 24.9 ≈ 500 ÷ 25 = **20**
+
+### Technique 2: Percentage ↔ Fraction Conversions
+Memorise these — they appear constantly:
+
+| Percentage | Fraction | Percentage | Fraction |
+|---|---|---|---|
+| 12.5% | 1/8 | 37.5% | 3/8 |
+| 16.66% | 1/6 | 62.5% | 5/8 |
+| 33.33% | 1/3 | 66.66% | 2/3 |
+| 14.28% | 1/7 | 87.5% | 7/8 |
+| 11.11% | 1/9 | 83.33% | 5/6 |
+
+**Example:** 37.5% of 640 = (3/8) × 640 = **240** — done in 3 seconds.
+
+### Technique 3: Break Multiplication Apart
+17 × 23 = 17 × 20 + 17 × 3 = 340 + 51 = **391**
+48 × 25 = 48 × 100/4 = 4800/4 = **1200**
+
+🧠 **Active Recall:** What is 62.5% as a fraction? How would you compute 36 × 25 in under 5 seconds?
+
+---
+
+## 4. The Digit Sum Check (Casting Out Nines)
+
+This is your **verification weapon**. Add the digits of a number repeatedly until one digit remains. The digit sum of a correct answer must match the digit sum of your computed expression.
+
+**Example:** Is 347 × 26 = 9,022 correct?
+- Digit sum of 347: 3+4+7 = 14 → 5
+- Digit sum of 26: 8
+- 5 × 8 = 40 → 4
+- Digit sum of 9,022: 9+0+2+2 = 13 → 4 ✓ (consistent)
+
+**Caution:** Digit sums can confirm but not guarantee — a wrong answer can occasionally match. Use it to *eliminate* options, not to prove.
+
+**Mnemonic — "NINE is FINE":** When casting out nines, you can drop any 9s or digit pairs summing to 9 instantly. In 9,022, the 9 vanishes immediately: 0+2+2 = 4.
+
+🧠 **Active Recall:** Use digit sums to check: does 128 × 13 = 1,664 pass the test?
+
+---
+
+## 5. Surds, Squares and Square Roots
+
+Advanced papers love mixing surds into simplification.
+
+**Key facts to have at your fingertips:**
+- Squares of 1–30 (at minimum 1–25): 17² = 289, 23² = 529, 29² = 841
+- √2 ≈ 1.414, √3 ≈ 1.732, √5 ≈ 2.236
+- (a + b)² = a² + 2ab + b² and (a − b)(a + b) = a² − b²
+
+**Fast square trick (numbers ending in 5):** 65² = 6 × 7 | 25 = **4225**. Multiply the tens digit by (itself + 1), then append 25.
+
+**Near-100 squares:** 98² = (100 − 2)² = 10000 − 400 + 4 = **9604**
+
+🧠 **Active Recall:** Compute 75² and 103² using the tricks above. What is √3 approximately?
+
+---
+
+## 6. The Examiner's Favourite Traps
+
+**Trap 1 — The left-to-right illusion:** 100 − 50 + 25. Students who group (50 + 25) get 25; the correct left-to-right answer is 75.
+
+**Trap 2 — Over-approximation:** Rounding 49.8% of 199.6 to 50% of 200 = 100 is fine when options are 60, 100, 140, 180 — but dangerous when options are 98, 100, 102, 104.
+
+**Trap 3 — Decimal drift:** 0.1 + 0.2 × 0.3. Multiplication first: 0.1 + 0.06 = **0.16**, not 0.09.
+
+**Trap 4 — Negative sign slips:** In expressions like 45 − (12 − 18), the inner bracket gives −6, so the answer is 45 + 6 = **51**.
+
+🧠 **Active Recall:** Solve 80 − 30 + 20 left to right. Then solve 0.4 + 0.6 × 0.5. Which trap does each illustrate?
+
+---
+
+## 7. A Worked Advanced Example
+
+**Question:** 24.96% of 799.8 + 15.9 × 4.1 − 49.7 ≈ ?
+
+**Step 1 — Scan options first.** Assume they're widely spaced, so approximate.
+
+**Step 2 — Round:** 25% of 800 + 16 × 4 − 50
+
+**Step 3 — Compute:** (1/4) × 800 = 200; 16 × 4 = 64; so 200 + 64 − 50 = **214**
+
+Total time: under 30 seconds. The exact calculation would take 3 minutes and risk arithmetic slips.
+
+---
+
+## Summary Table
+
+| Concept | Core Rule | Speed Tip |
+|---|---|---|
+| BODMAS | Brackets → Orders → D/M (L→R) → A/S (L→R) | Bar bracket first |
+| Approximation | Check option gaps before rounding | Gap > 5% → safe to round |
+| % ↔ Fraction | 37.5% = 3/8, 62.5% = 5/8 | Convert, then cancel |
+| Digit Sum | Drop 9s; sums must match | Eliminate wrong options |
+| Squares | (x5)² = x(x+1)\|25 | 85² = 7225 instantly |
+| Traps | Left-to-right for = priority ops | Never group A/S or D/M |
+
+---
+
+## 🔁 Review This After 2 Days
+
+Close the book and answer from memory:
+1. What is the full BODMAS order, and which pairs share priority?
+2. When is approximation unsafe?
+3. Write the fractions for 12.5%, 37.5%, 62.5%, 83.33%.
+4. Compute 95² and 62.5% of 480 mentally.
+5. What does the digit-sum check prove — and what can it *not* prove?
+
+If you stumble on any, re-read that section today — not tomorrow.

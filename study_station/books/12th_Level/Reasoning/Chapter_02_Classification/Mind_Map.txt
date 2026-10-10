@@ -1,0 +1,39 @@
+```mermaid
+graph TD
+    A["वर्गीकरण / Classification<br>भिन्न को पहचानो / Find the Odd One Out"] --> B["मुख्य प्रकार / Main Types"]
+    A --> C["रणनीति / Strategy"]
+    A --> D["समय प्रबंधन / Time Management"]
+    A --> E["परीक्षक के जाल / Examiner Traps"]
+
+    B --> B1["शब्द वर्गीकरण<br>Word Classification"]
+    B --> B2["संख्या वर्गीकरण<br>Number Classification"]
+    B --> B3["अक्षर/युग्म वर्गीकरण<br>Letter / Pair Classification"]
+    B --> B4["आकृति वर्गीकरण<br>Figure Classification"]
+
+    B1 --> B1a["अर्थ आधारित<br>Meaning-based: फल, पशु, पेशा"]
+    B1 --> B1b["वर्ग/श्रेणी आधारित<br>Category-based"]
+    B1 --> B1c["समानार्थी/विलोम<br>Synonym / Antonym"]
+
+    B2 --> B2a["सम/विषम, अभाज्य<br>Even/Odd, Prime"]
+    B2 --> B2b["वर्ग/घन ± n<br>Square/Cube ± n"]
+    B2 --> B2c["अंकों का योग/गुणन<br>Sum/Product of Digits"]
+    B2 --> B2d["भाज्यता नियम<br>Divisibility Rules"]
+
+    B3 --> B3a["वर्णमाला स्थिति<br>Alphabet Position"]
+    B3 --> B3b["स्वर/व्यंजन पैटर्न<br>Vowel/Consonant Pattern"]
+    B3 --> B3c["अक्षरों का अंतर<br>Letter Gap Pattern"]
+
+    C --> C1["पहले सामान्य गुण खोजें<br>Find Common Property First"]
+    C --> C2["3 समान, 1 भिन्न<br>3 Alike, 1 Different"]
+    C --> C3["कई गुण जाँचें<br>Check Multiple Properties"]
+    C --> C4["उत्तर सत्यापित करें<br>Verify Before Marking"]
+
+    D --> D1["आसान प्रश्न: 15-20 सेकंड<br>Easy: 15-20 sec"]
+    D --> D2["कठिन: 45 सेकंड से अधिक नहीं<br>Hard: Max 45 sec"]
+    D --> D3["अटके तो छोड़ें, बाद में आएँ<br>Skip & Return"]
+
+    E --> E1["एक से अधिक संभव आधार<br>Multiple Possible Bases"]
+    E --> E2["सतही समानता का भ्रम<br>Superficial Similarity"]
+    E --> E3["लगभग-सही विकल्प<br>Almost-Correct Options"]
+    E --> E4["संख्या में छिपा दोहरा पैटर्न<br>Hidden Double Pattern"]
+```

@@ -1,0 +1,47 @@
+```mermaid
+graph TD
+    A["Adjective<br>Describes a Noun or Pronoun"] --> B["Types"]
+    A --> C["Degrees of Comparison"]
+    A --> D["Position & Order"]
+    A --> E["6 Golden Rules"]
+    A --> F["Examiner's Traps"]
+    A --> G["Strategies"]
+
+    B --> B1["Descriptive: tall, honest"]
+    B --> B2["Quantitative: some, much, little, many"]
+    B --> B3["Numeral: two, first, second"]
+    B --> B4["Demonstrative: this, that, such"]
+    B --> B5["Distributive: each, every, either"]
+    B --> B6["Interrogative: which, what, whose"]
+    B --> B7["Possessive: my, their"]
+    B --> B8["Proper: Indian, French"]
+
+    C --> C1["Positive: tall"]
+    C --> C2["Comparative: taller + than<br>two things only"]
+    C --> C3["Superlative: tallest + the<br>three or more"]
+    C --> C4["Irregular: good-better-best<br>bad-worse-worst<br>much-more-most"]
+    C --> C5["Latin comparatives: senior, junior,<br>superior, inferior, prior<br>take TO not THAN"]
+
+    D --> D1["Attributive: before noun<br>a brave soldier"]
+    D --> D2["Predicative: after verb<br>the soldier is brave"]
+    D --> D3["Order: OSASCOMP<br>Opinion-Size-Age-Shape-<br>Colour-Origin-Material-Purpose"]
+    D --> D4["Enough: after adjective<br>before noun<br>tall enough, enough time"]
+
+    E --> E1["Adjective after linking verbs:<br>be, seem, feel, look<br>She feels SAD not sadly"]
+    E --> E2["No plural form:<br>a five-year-old boy<br>a ten-rupee note"]
+    E --> E3["The + adjective = plural class<br>the rich, the poor"]
+    E --> E4["Comparative needs THAN<br>Superlative needs THE"]
+    E --> E5["Unique adjectives: unique, perfect,<br>universal — no degrees"]
+    E --> E6["Little = almost none<br>A little = some<br>The little = all that is there"]
+
+    F --> F1["Sound-Right Trap:<br>He is more superior — WRONG<br>He is superior — RIGHT"]
+    F --> F2["Double Comparative Trap:<br>more better — WRONG"]
+    F --> F3["Intervening Phrase Trap:<br>One of the best PLAYERS is..."]
+    F --> F4["Over-thinking Trap:<br>elder vs older<br>elder = family, no than"]
+    F --> F5["Adverb vs Adjective:<br>He runs fast — fast is both"]
+
+    G --> G1["15-sec Fact Qs:<br>degree forms, little/a little,<br>senior-junior rule"]
+    G --> G2["45-sec Inference Qs:<br>complex error spotting,<br>sentence improvement"]
+    G --> G3["Skip Strategy:<br>if both options look right,<br>check for double comparative<br>or Latin comparative first"]
+    G --> G4["Mnemonic: OSASCOMP<br>for adjective order"]
+```

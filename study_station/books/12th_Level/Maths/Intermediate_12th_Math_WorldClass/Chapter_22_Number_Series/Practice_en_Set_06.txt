@@ -1,3 +1,151 @@
-# Chapter: Number Series, Level: intermediate, Set: 6/6
+प्रश्न 126–145: आसान | प्रश्न 146–150: मध्यम
 
-@content_agent +mcq_generator_bilingual lang=en level=intermediate 'Generate 25 MCQs for Number Series. This is Set 6 (total 6 sets, 150 questions). Questions must be numbered 126 to 150. All 25 questions should be Hard. Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'
+126. Find the missing term: 3, 10, 29, 66, 127, ?
+(a) 216 (b) 224 (c) 218 (d) 230
+Answer: (c)
+Solution: The tempting option 216 comes from assuming cubes only (6³ = 216), but the pattern is n³ + 2: 1³+2 = 3, 2³+2 = 10, 3³+2 = 29, 4³+2 = 66, 5³+2 = 127, so next is 6³+2 = 218. So the answer is 218.
+Source: PYQ-style
+
+127. Find the missing term: 2, 6, 21, 88, 445, ?
+(a) 1780 (b) 2230 (c) 2676 (d) 2670
+Answer: (c)
+Solution: The trap is to look for a constant multiplier; here the multiplier itself increases: 2×2+2 = 6, 6×3+3 = 21, 21×4+4 = 88, 88×5+5 = 445, so next is 445×6+6 = 2676. So the answer is 2676.
+Source: PYQ-style
+
+128. Find the wrong term: 4, 9, 25, 49, 121, 168, 289
+(a) 25 (b) 49 (c) 289 (d) 168
+Answer: (d)
+Solution: The series is squares of consecutive primes: 2² = 4, 3² = 9, 5² = 25, 7² = 49, 11² = 121, 13² = 169, 17² = 289. The term 168 looks plausible because it is close to 169, but it should be 169. So the wrong term is 168.
+Source: PYQ-style
+
+129. Find the missing term: 1, 4, 27, 256, 3125, ?
+(a) 46656 (b) 7776 (c) 15625 (d) 65536
+Answer: (a)
+Solution: The pattern is n raised to the power n: 1¹ = 1, 2² = 4, 3³ = 27, 4⁴ = 256, 5⁵ = 3125, so next is 6⁶ = 46656. The tempting option 7776 is only 6⁵, which ignores the rising exponent. So the answer is 46656.
+Source: PYQ-style
+
+130. Find the missing term: 8, 15, 28, 53, 102, ?
+(a) 203 (b) 199 (c) 197 (d) 205
+Answer: (b)
+Solution: Each term is double the previous minus a growing number: 8×2−1 = 15, 15×2−2 = 28, 28×2−3 = 53, 53×2−4 = 102, so next is 102×2−5 = 199. The trap is to assume plain doubling, which would wrongly suggest 204. So the answer is 199.
+Source: PYQ-style
+
+131. Find the missing term: 5, 11, 23, 47, 95, ?
+(a) 189 (b) 191 (c) 193 (d) 190
+Answer: (b)
+Solution: The pattern is ×2+1 each time: 5×2+1 = 11, 11×2+1 = 23, 23×2+1 = 47, 47×2+1 = 95, so next is 95×2+1 = 191. The tempting option 189 comes from mistakenly adding the last difference 96 instead of doubling and adding 1. So the answer is 191.
+Source: PYQ-style
+
+132. Find the wrong term: 3, 4, 10, 32, 136, 685
+(a) 32 (b) 10 (c) 136 (d) 685
+Answer: (a)
+Solution: The pattern is ×1+1, ×2+2, ×3+3, ×4+4, ×5+5: 3×1+1 = 4, 4×2+2 = 10, 10×3+3 = 33, 33×4+4 = 136, 136×5+5 = 685. The term 32 is tempting because it is close to 33, but it breaks the rule. So the wrong term is 32.
+Source: PYQ-style
+
+133. Find the missing term: 7, 26, 63, 124, 215, ?
+(a) 340 (b) 342 (c) 344 (d) 336
+Answer: (b)
+Solution: The pattern is n³−1: 2³−1 = 7, 3³−1 = 26, 4³−1 = 63, 5³−1 = 124, 6³−1 = 215, so next is 7³−1 = 342. The tempting option 344 comes from repeating the last difference 129 instead of using the next difference 127. So the answer is 342.
+Source: PYQ-style
+
+134. Find the missing term: 11, 13, 17, 19, 23, 29, 31, 37, 41, ?
+(a) 42 (b) 47 (c) 45 (d) 43
+Answer: (d)
+Solution: This is simply the list of consecutive prime numbers starting from 11, and after 41 the next prime is 43. The tempting option 47 skips 43, and 45 is not prime at all. So the answer is 43.
+Source: NCERT Class 8 Mathematics
+
+135. Find the missing term: 1, 2, 6, 15, 31, 56, ?
+(a) 89 (b) 91 (c) 92 (d) 90
+Answer: (c)
+Solution: Differences are 1, 4, 9, 16, 25 — perfect squares. The next difference is 36, giving 56+36 = 92. The tempting option 91 comes from adding 35 by misreading the last difference as 30. So the answer is 92.
+Source: PYQ-style
+
+136. Find the missing term: 4, 18, 48, 100, 180, ?
+(a) 300 (b) 288 (c) 294 (d) 296
+Answer: (c)
+Solution: The pattern is (n+1)²×n: 2²×1 = 4, 3²×2 = 18, 4²×3 = 48, 5²×4 = 100, 6²×5 = 180, so next is 7²×6 = 294. The tempting option 288 is 2×144, a plain doubling trap. So the answer is 294.
+Source: PYQ-style
+
+137. Find the wrong term: 2, 6, 15, 30, 56, 92
+(a) 6 (b) 15 (c) 56 (d) 30
+Answer: (d)
+Solution: Differences should be consecutive squares: 2+4 = 6, 6+9 = 15, 15+16 = 31, 31+25 = 56, 56+36 = 92. The term 30 is tempting because 15+15 = 30 feels natural, but the difference must be 16, giving 31. So the wrong term is 30.
+Source: PYQ-style
+
+138. Find the missing term: 0, 6, 24, 60, 120, ?
+(a) 210 (b) 216 (c) 240 (d) 180
+Answer: (a)
+Solution: The pattern is n³−n: 1³−1 = 0, 2³−2 = 6, 3³−3 = 24, 4³−4 = 60, 5³−5 = 120, so next is 6³−6 = 210. The tempting option 216 is just 6³, forgetting to subtract n. So the answer is 210.
+Source: PYQ-style
+
+139. Find the missing term: 2, 12, 36, 80, 150, ?
+(a) 252 (b) 250 (c) 256 (d) 240
+Answer: (a)
+Solution: The pattern is n²×(n+1): 1²×2 = 2, 2²×3 = 12, 3²×4 = 36, 4²×5 = 80, 5²×6 = 150, so next is 6²×7 = 252. The tempting option 250 comes from wrongly adding a flat 100 to 150. So the answer is 252.
+Source: PYQ-style
+
+140. Find the missing term: 13, 25, 51, 101, 203, ?
+(a) 405 (b) 407 (c) 403 (d) 409
+Answer: (a)
+Solution: The pattern alternates ×2−1 and ×2+1: 13×2−1 = 25, 25×2+1 = 51, 51×2−1 = 101, 101×2+1 = 203, so next is 203×2−1 = 405. The tempting option 407 comes from adding 1 instead of subtracting at the last step. So the answer is 405.
+Source: PYQ-style
+
+141. Find the missing term: 6, 13, 28, 59, 122, ?
+(a) 251 (b) 247 (c) 245 (d) 249
+Answer: (d)
+Solution: The pattern is ×2+1, ×2+2, ×2+3, ×2+4, so the next step is ×2+5: 6×2+1 = 13, 13×2+2 = 28, 28×2+3 = 59, 59×2+4 = 122, and 122×2+5 = 249. The tempting option 247 comes from adding only 3 at the last step. So the answer is 249.
+Source: PYQ-style
+
+142. Find the wrong term: 1, 8, 27, 64, 124, 216, 343
+(a) 216 (b) 27 (c) 8 (d) 124
+Answer: (d)
+Solution: The series is cubes of natural numbers: 1³ = 1, 2³ = 8, 3³ = 27, 4³ = 64, 5³ = 125, 6³ = 216, 7³ = 343. The term 124 is tempting because it is close to 125, but it should be 125. So the wrong term is 124.
+Source: NCERT Class 8 Mathematics
+
+143. Find the missing term: 4, 6, 12, 14, 28, 30, ?
+(a) 60 (b) 62 (c) 58 (d) 56
+Answer: (a)
+Solution: The pattern alternates +2 and ×2: 4+2 = 6, 6×2 = 12, 12+2 = 14, 14×2 = 28, 28+2 = 30, so next is 30×2 = 60. The tempting option 62 comes from applying +2 again instead of switching to doubling. So the answer is 60.
+Source: PYQ-style
+
+144. Find the missing term: 3, 8, 17, 32, 57, ?
+(a) 96 (b) 98 (c) 100 (d) 102
+Answer: (c)
+Solution: The pattern is 2ⁿ + n²: 2¹+1² = 3, 2²+2² = 8, 2³+3² = 17, 2⁴+4² = 32, 2⁵+5² = 57, so next is 2⁶+6² = 64+36 = 100. The tempting option 98 comes from extending the differences 5, 9, 15, 25 by a guessed gap instead of the exact rule. So the answer is 100.
+Source: PYQ-style
+
+145. Find the missing term: 9, 27, 31, 155, 161, 1127, ?
+(a) 1133 (b) 1135 (c) 2254 (d) 1288
+Answer: (b)
+Solution: The operations grow alternately: ×3, +4, ×5, +6, ×7, so the next step is +8: 9×3 = 27, 27+4 = 31, 31×5 = 155, 155+6 = 161, 161×7 = 1127, and 1127+8 = 1135. The tempting option 2254 comes from multiplying by 2 wrongly. So the answer is 1135.
+Source: PYQ-style
+
+146. Find the wrong term: 5, 10, 17, 26, 37, 50, 64
+(a) 10 (b) 26 (c) 50 (d) 64
+Answer: (d)
+Solution: The pattern is n²+1: 2²+1 = 5, 3²+1 = 10, 4²+1 = 17, 5²+1 = 26, 6²+1 = 37, 7²+1 = 50, 8²+1 = 65. The last term should be 65, not 64; the trap is that 64 is a familiar perfect square and looks plausible. So the wrong term is 64.
+Source: PYQ-style
+
+147. Find the missing term: 1, 3, 7, 15, 31, 63, ?
+(a) 126 (b) 127 (c) 129 (d) 125
+Answer: (b)
+Solution: Each term is 2ⁿ−1: 2¹−1 = 1, 2²−1 = 3, 2³−1 = 7, 2⁴−1 = 15, 2⁵−1 = 31, 2⁶−1 = 63, so next is 2⁷−1 = 127. The tempting option 126 comes from doubling 63 without adding 1. So the answer is 127.
+Source: NCERT Class 8 Mathematics
+
+148. Find the missing term: 2, 5, 11, 23, 47, 95, 191, ?
+(a) 381 (b) 385 (c) 383 (d) 379
+Answer: (c)
+Solution: The pattern is ×2+1 throughout: 2×2+1 = 5, 5×2+1 = 11, 11×2+1 = 23, 23×2+1 = 47, 47×2+1 = 95, 95×2+1 = 191, so next is 191×2+1 = 383. The tempting option 381 comes from subtracting instead of adding at the last step. So the answer is 383.
+Source: PYQ-style
+
+149. Find the missing term: 17, 19, 23, 29, 37, 47, 59, ?
+(a) 71 (b) 73 (c) 67 (d) 69
+Answer: (b)
+Solution: Differences are 2, 4, 6, 8, 10, 12 — consecutive even numbers. The next difference is 14, giving 59+14 = 73. The tempting option 71 comes from adding 12 again instead of moving to 14. So the answer is 73.
+Source: PYQ-style
+
+150. Find the missing term: 4, 5, 9, 18, 34, 59, ?
+(a) 95 (b) 93 (c) 97 (d) 91
+Answer: (a)
+Solution: Differences are 1, 4, 9, 16, 25 — perfect squares (1², 2², 3², 4², 5²). The next difference is 6² = 36, giving 59+36 = 95. The tempting option 93 comes from adding 34, repeating the previous difference by mistake. So the answer is 95.
+Source: PYQ-style

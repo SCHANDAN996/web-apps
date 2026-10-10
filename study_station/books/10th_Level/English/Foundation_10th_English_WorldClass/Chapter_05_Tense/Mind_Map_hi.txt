@@ -1,0 +1,41 @@
+```mermaid
+graph TD
+    A["काल (Tense)<br>क्रिया का समय"] --> B["Present<br>वर्तमान काल"]
+    A --> C["Past<br>भूतकाल"]
+    A --> D["Future<br>भविष्य काल"]
+
+    B --> B1["Simple Present<br>V1/V1+s/es<br>He goes"]
+    B --> B2["Present Continuous<br>is/am/are + V-ing<br>He is going"]
+    B --> B3["Present Perfect<br>has/have + V3<br>He has gone"]
+    B --> B4["Present Perfect Continuous<br>has/have been + V-ing<br>since/for"]
+
+    C --> C1["Simple Past<br>V2<br>He went"]
+    C --> C2["Past Continuous<br>was/were + V-ing"]
+    C --> C3["Past Perfect<br>had + V3<br>पहले हुआ काम"]
+    C --> C4["Past Perfect Continuous<br>had been + V-ing"]
+
+    D --> D1["Simple Future<br>will/shall + V1"]
+    D --> D2["Future Continuous<br>will be + V-ing"]
+    D --> D3["Future Perfect<br>will have + V3"]
+    D --> D4["Future Perfect Continuous<br>will have been + V-ing"]
+
+    A --> R["स्वर्ण नियम"]
+    R --> R1["since = निश्चित समय<br>for = अवधि"]
+    R --> R2["Universal truth = Simple Present<br>The sun rises in the east"]
+    R --> R3["when + Past Continuous<br>while + Past Continuous"]
+    R --> R4["by/before + समय = Future Perfect"]
+    R --> R5["if/when/as soon as के बाद<br>will नहीं, Simple Present"]
+    R --> R6["Stative verbs में -ing नहीं<br>know, love, believe, own"]
+
+    A --> T["परीक्षक के जाल"]
+    T --> T1["I am knowing ❌<br>I know ✅"]
+    T --> T2["since 5 years ❌<br>for 5 years ✅"]
+    T --> T3["When I will come ❌<br>When I come ✅"]
+    T --> T4["had + V2 ❌<br>had + V3 ✅"]
+
+    A --> S["रणनीति"]
+    S --> S1["Signal word पहचानो<br>yesterday, already, since, tomorrow"]
+    S --> S2["15 सेकंड: सीधा नियम वाला प्रश्न"]
+    S --> S3["45 सेकंड: दो क्रियाओं वाला<br>sequence of tense"]
+    S --> S4["Mnemonic: SPC<br>Simple-Perfect-Continuous"]
+```

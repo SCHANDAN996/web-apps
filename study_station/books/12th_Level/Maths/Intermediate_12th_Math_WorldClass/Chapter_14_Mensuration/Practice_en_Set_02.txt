@@ -1,3 +1,151 @@
-# Chapter: Mensuration, Level: intermediate, Set: 2/6
+Questions 26–45: Easy | Questions 46–50: Medium
 
-@content_agent +mcq_generator_bilingual lang=en level=intermediate 'Generate 25 MCQs for Mensuration. This is Set 2 (total 6 sets, 150 questions). Questions must be numbered 26 to 50. All 25 questions should be Medium. Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'
+26. The area of a triangle whose sides are 13 cm, 14 cm and 15 cm is:
+(a) 90 cm² (b) 96 cm² (c) 72 cm² (d) 84 cm²
+Answer: (d)
+Solution: Many students compute (1/2)×14×15 = 105 or guess 96 by doubling, but the base-height is unknown, so use Heron's formula. s = (13+14+15)/2 = 21. Area = √[21×8×7×6] = √7056 = 84, so the answer is 84 cm².
+Source: NCERT Class 9 Mathematics
+
+27. The perimeter of a rectangle is 60 cm and its length is twice its breadth. The area of the rectangle is:
+(a) 240 cm² (b) 150 cm² (c) 180 cm² (d) 200 cm²
+Answer: (d)
+Solution: The trap is taking length 20 and breadth 10 directly from 60/3, forgetting the perimeter counts both pairs of sides. Let breadth = x, length = 2x; 2(x+2x) = 60 gives x = 10, length = 20. Area = 20×10 = 200, so the answer is 200 cm².
+Source: NCERT Class 8 Mathematics
+
+28. The circumference of a circle is 44 cm. Its area is: (Take π = 22/7)
+(a) 77 cm² (b) 616 cm² (c) 308 cm² (d) 154 cm²
+Answer: (d)
+Solution: The tempting wrong value 616 comes from using r = 14 instead of 7. From 2πr = 44, r = 44×7/44 = 7 cm. Area = (22/7)×7×7 = 154, so the answer is 154 cm².
+Source: NCERT Class 10 Mathematics
+
+29. The diagonal of a square is 10√2 cm. The area of the square is:
+(a) 200 cm² (b) 100 cm² (c) 50 cm² (d) 100√2 cm²
+Answer: (b)
+Solution: Students often square the diagonal to get 200, forgetting that area = d²/2, not d². Area = (10√2)²/2 = 200/2 = 100, so the answer is 100 cm².
+Source: NCERT Class 8 Mathematics
+
+30. The area of a rhombus is 240 cm² and one of its diagonals is 16 cm. The other diagonal is:
+(a) 24 cm (b) 30 cm (c) 20 cm (d) 15 cm
+Answer: (b)
+Solution: The trap is using Area = d1×d2 (without the half), which gives 15 cm. Since Area = (1/2)d1d2, 240 = (1/2)×16×d2, so d2 = 30, so the answer is 30 cm.
+Source: NCERT Class 8 Mathematics
+
+31. A wheel of radius 35 cm makes 100 revolutions. The distance covered is: (Take π = 22/7)
+(a) 220 m (b) 110 m (c) 440 m (d) 22 m
+Answer: (a)
+Solution: The common error is forgetting to convert cm to m, giving 22,000 as if it were metres. Circumference = 2×(22/7)×35 = 220 cm; distance = 220×100 = 22,000 cm = 220 m, so the answer is 220 m.
+Source: NCERT Class 10 Mathematics
+
+32. The area of a trapezium is 180 cm² and the sum of its parallel sides is 30 cm. The distance between the parallel sides is:
+(a) 10 cm (b) 6 cm (c) 12 cm (d) 15 cm
+Answer: (c)
+Solution: Omitting the half in the formula gives 6 cm, the tempting wrong option. Area = (1/2)×(sum of parallel sides)×h, so 180 = (1/2)×30×h, giving h = 12, so the answer is 12 cm.
+Source: NCERT Class 8 Mathematics
+
+33. The volume of a cube is 512 cm³. Its total surface area is:
+(a) 384 cm² (b) 512 cm² (c) 256 cm² (d) 320 cm²
+Answer: (a)
+Solution: The trap is computing lateral surface area 4a² = 256 instead of total surface area. Edge a = ∛512 = 8 cm; TSA = 6a² = 6×64 = 384, so the answer is 384 cm².
+Source: NCERT Class 9 Mathematics
+
+34. The radius of a cylinder is 7 cm and its height is 10 cm. Its curved surface area is: (Take π = 22/7)
+(a) 220 cm² (b) 748 cm² (c) 440 cm² (d) 1540 cm²
+Answer: (c)
+Solution: The value 748 is the total surface area (adding 2πr² = 308), which the question does not ask. CSA = 2πrh = 2×(22/7)×7×10 = 440, so the answer is 440 cm².
+Source: NCERT Class 9 Mathematics
+
+35. The volume of a cone of radius 3 cm and height 7 cm is: (Take π = 22/7)
+(a) 44 cm³ (b) 198 cm³ (c) 132 cm³ (d) 66 cm³
+Answer: (d)
+Solution: Forgetting the factor 1/3 gives 198 cm³, the tempting wrong option. Volume = (1/3)πr²h = (1/3)×(22/7)×9×7 = 66, so the answer is 66 cm³.
+Source: NCERT Class 9 Mathematics
+
+36. The surface area of a sphere of radius 3 cm is: (Take π = 22/7)
+(a) 36π cm² (b) 12π cm² (c) 108π cm² (d) 9π cm²
+Answer: (a)
+Solution: The trap is using πr² = 9π, which is only the area of one great circle, not the whole surface. Surface area of a sphere = 4πr² = 4π×9 = 36π, so the answer is 36π cm².
+Source: NCERT Class 9 Mathematics
+
+37. The area of an equilateral triangle of side 8 cm is:
+(a) 8√3 cm² (b) 16√3 cm² (c) 64√3 cm² (d) 32√3 cm²
+Answer: (b)
+Solution: Using (√3/2)a² instead of (√3/4)a² gives 32√3, the tempting wrong option. Area = (√3/4)×64 = 16√3, so the answer is 16√3 cm².
+Source: NCERT Class 10 Mathematics
+
+38. The length and breadth of a rectangle are in the ratio 3:2 and its area is 216 cm². Its perimeter is:
+(a) 72 cm (b) 30 cm (c) 60 cm (d) 54 cm
+Answer: (c)
+Solution: The trap is reporting 30 cm, which is only the semi-perimeter l+b. Let sides be 3x and 2x; 6x² = 216 gives x = 6, so sides are 18 and 12. Perimeter = 2(18+12) = 60, so the answer is 60 cm.
+Source: NCERT Class 8 Mathematics
+
+39. A path 2 m wide runs around a square park of side 30 m, outside it. The area of the path is:
+(a) 256 m² (b) 240 m² (c) 244 m² (d) 120 m²
+Answer: (a)
+Solution: Computing 4×30×2 = 240 ignores the four corner squares of the path. Outer side = 30+4 = 34 m; path area = 34² − 30² = 1156 − 900 = 256, so the answer is 256 m².
+Source: NCERT Class 8 Mathematics
+
+40. The area of a sector of a circle of radius 14 cm with central angle 90° is: (Take π = 22/7)
+(a) 616 cm² (b) 308 cm² (c) 154 cm² (d) 77 cm²
+Answer: (c)
+Solution: Taking the full circle's area gives 616 cm², the tempting wrong option. Sector area = (90/360)×(22/7)×14×14 = (1/4)×616 = 154, so the answer is 154 cm².
+Source: NCERT Class 10 Mathematics
+
+41. The volume of a cylinder is 1540 cm³ and its height is 10 cm. Its radius is: (Take π = 22/7)
+(a) 7 cm (b) 14 cm (c) 3.5 cm (d) 10 cm
+Answer: (a)
+Solution: Solving πr²h = 1540 with r = 14 gives a volume four times too large; the trap is forgetting that r is squared. r² = 1540×7/(22×10) = 49, so r = 7, so the answer is 7 cm.
+Source: NCERT Class 9 Mathematics
+
+42. The slant height of a cone is 13 cm and its base radius is 5 cm. Its height is:
+(a) 8 cm (b) 10 cm (c) 12 cm (d) 18 cm
+Answer: (c)
+Solution: The trap is subtracting directly, 13 − 5 = 8, instead of using Pythagoras. h = √(l² − r²) = √(169 − 25) = √144 = 12, so the answer is 12 cm.
+Source: NCERT Class 9 Mathematics
+
+43. Three cubes of edges 3 cm, 4 cm and 5 cm are melted to form a single cube. The edge of the new cube is:
+(a) 8 cm (b) 12 cm (c) 5 cm (d) 6 cm
+Answer: (d)
+Solution: Adding the edges gives 12 cm, the tempting wrong option; volumes, not edges, add. Total volume = 27 + 64 + 125 = 216 = 6³, so the answer is 6 cm.
+Source: NCERT Class 9 Mathematics
+
+44. The area of a parallelogram is 300 cm² and its base is 25 cm. The corresponding height is:
+(a) 24 cm (b) 12 cm (c) 15 cm (d) 6 cm
+Answer: (b)
+Solution: Introducing a factor of 1/2 (as in triangles) gives 24 cm, the tempting wrong option. Area of parallelogram = base × height, so h = 300/25 = 12, so the answer is 12 cm.
+Source: NCERT Class 8 Mathematics
+
+45. The radius of a circle is doubled. Its area becomes:
+(a) 4 times (b) 2 times (c) 8 times (d) 16 times
+Answer: (a)
+Solution: The trap is assuming area also doubles, like the circumference does. Area ∝ r², so doubling r multiplies area by 2² = 4, so the answer is 4 times.
+Source: NCERT Class 10 Mathematics
+
+46. A rectangular hall 12 m long and 8 m wide is to be paved with square tiles of side 40 cm. The number of tiles required is:
+(a) 600 (b) 240 (c) 60 (d) 2400
+Answer: (a)
+Solution: Forgetting to convert units (dividing 96 by 0.16 incorrectly or by 40) gives 240 or 2.4, the tempting wrong values. Hall area = 96 m² = 960,000 cm²; tile area = 1600 cm²; tiles = 960,000/1600 = 600, so the answer is 600.
+Source: NCERT Class 8 Mathematics
+
+47. The total surface area of a hemisphere of radius 7 cm is: (Take π = 22/7)
+(a) 308 cm² (b) 462 cm² (c) 154 cm² (d) 616 cm²
+Answer: (b)
+Solution: The trap is using 2πr² = 308, which is only the curved part; a hemisphere also has a flat circular base. TSA = 3πr² = 3×(22/7)×49 = 462, so the answer is 462 cm².
+Source: NCERT Class 10 Mathematics
+
+48. The diagonals of a rhombus are 24 cm and 10 cm. The side of the rhombus is:
+(a) 26 cm (b) 17 cm (c) 13 cm (d) 12 cm
+Answer: (c)
+Solution: Using the full diagonals in Pythagoras gives √(576+100) = 26, the tempting wrong option; diagonals bisect each other. Side = √(12² + 5²) = √169 = 13, so the answer is 13 cm.
+Source: NCERT Class 8 Mathematics
+
+49. A wire bent into a square of side 22 cm is rebent into a circle. The radius of the circle is: (Take π = 22/7)
+(a) 11 cm (b) 7 cm (c) 22 cm (d) 14 cm
+Answer: (d)
+Solution: Dividing the perimeter 88 by 4 again gives 22, the tempting wrong option; the wire's length becomes the circumference. 2πr = 88 gives r = 88×7/44 = 14, so the answer is 14 cm.
+Source: NCERT Class 10 Mathematics
+
+50. The volume of a sphere is 36π cm³. Its radius is:
+(a) 9 cm (b) 3 cm (c) 6 cm (d) 2 cm
+Answer: (b)
+Solution: Setting πr³ = 36π (dropping 4/3) gives r = ∛36, a non-integer trap. (4/3)πr³ = 36π gives r³ = 27, so r = 3, so the answer is 3 cm.
+Source: NCERT Class 9 Mathematics

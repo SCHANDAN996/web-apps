@@ -1,0 +1,39 @@
+```mermaid
+graph TD
+    A["Precis Writing"] --> B["What is a Precis?"]
+    A --> C["Golden Rules"]
+    A --> D["Step-by-Step Method"]
+    A --> E["Examiner's Traps"]
+    A --> F["Strategy & Time Management"]
+
+    B --> B1["A concise summary<br>about one-third of original length"]
+    B --> B2["Same meaning, tone & order<br>as the original passage"]
+    B --> B3["Written in your OWN words<br>not copied sentences"]
+
+    C --> C1["Rule 1: Read passage 2-3 times<br>before writing"]
+    C --> C2["Rule 2: One-third length<br>(word limit discipline)"]
+    C --> C3["Rule 3: Third person &<br>indirect (reported) speech"]
+    C --> C4["Rule 4: Past tense preferred<br>unless universal truth"]
+    C --> C5["Rule 5: No personal opinions,<br>examples or illustrations"]
+    C --> C6["Rule 6: One single paragraph<br>unless passage demands more"]
+    C --> C7["Rule 7: Give a suitable TITLE<br>(4-6 words, captures theme)"]
+    C --> C8["Rule 8: No direct quotations,<br>figures of speech or questions"]
+
+    D --> D1["Step 1: Skim - grasp<br>the central theme"]
+    D --> D2["Step 2: Read again - underline<br>key ideas, ignore details"]
+    D --> D3["Step 3: Draft - compress<br>using own vocabulary"]
+    D --> D4["Step 4: Count words -<br>trim to one-third"]
+    D --> D5["Step 5: Revise - check grammar,<br>flow and title"]
+
+    E --> E1["Trap 1: Copying whole sentences<br>from the passage = zero marks"]
+    E --> E2["Trap 2: Adding own opinion<br>or outside knowledge"]
+    E --> E3["Trap 3: Keeping examples &<br>statistics that should be dropped"]
+    E --> E4["Trap 4: Wrong title -<br>too narrow or too broad"]
+    E --> E5["Trap 5: Exceeding word limit<br>or writing too short"]
+
+    F --> F1["15-sec check: Is this sentence<br>a main idea or a detail?"]
+    F --> F2["45-sec work: Paraphrase<br>each main idea in own words"]
+    F --> F3["Compression tools:<br>one word for a phrase,<br>omit repetitions, merge ideas"]
+    F --> F4["Title test: Could this title<br>fit the WHOLE passage?"]
+    F --> F5["Final scan: tense, person,<br>word count, single paragraph"]
+```

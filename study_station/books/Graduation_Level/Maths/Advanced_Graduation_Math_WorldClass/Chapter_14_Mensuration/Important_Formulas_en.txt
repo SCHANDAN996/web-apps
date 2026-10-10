@@ -1,0 +1,88 @@
+# Important Formulas — Mensuration
+
+## 1. Plane Figures (2D)
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Area of Triangle | ½ × base × height | When base & height known |
+| Heron's Formula | √[s(s−a)(s−b)(s−c)], s = (a+b+c)/2 | When all 3 sides known |
+| Area of Equilateral Triangle | (√3/4) a² | Side a given |
+| Height of Equilateral Triangle | (√3/2) a | Also used in hexagon problems |
+| Area of Isosceles Triangle | (b/4)√(4a² − b²) | a = equal sides, b = base |
+| Area of Square | a² ; also d²/2 | d = diagonal |
+| Diagonal of Square | a√2 | Quick link between side & diagonal |
+| Area of Rectangle | l × b | Perimeter = 2(l+b) |
+| Diagonal of Rectangle | √(l² + b²) | Pythagoras |
+| Area of Parallelogram | base × height | Height ⊥ base |
+| Area of Rhombus | ½ × d₁ × d₂ | Diagonals bisect at 90° |
+| Side of Rhombus | ½√(d₁² + d₂²) | From half-diagonals |
+| Area of Trapezium | ½ × (sum of parallel sides) × height | Height = distance between parallels |
+| Area of Quadrilateral | ½ × d × (h₁ + h₂) | d = diagonal, h₁,h₂ = offsets |
+| Area of Regular Hexagon | (3√3/2) a² | = 6 equilateral triangles |
+| Area of Regular Octagon | 2(1+√2) a² | Rare, but asked in CAT |
+| Circumference of Circle | 2πr | π ≈ 22/7 or 3.14 |
+| Area of Circle | πr² | Base for ring, sector, segment |
+| Area of Ring (Annulus) | π(R² − r²) | R = outer, r = inner radius |
+| Area of Sector | (θ/360°) × πr² | θ in degrees |
+| Length of Arc | (θ/360°) × 2πr | Same fraction of circumference |
+| Area of Segment | Area of sector − area of triangle | Minor segment |
+| Perimeter of Semicircle | πr + 2r | Don't forget the diameter! |
+| Area of Semicircle | ½πr² | Half of circle |
+
+## 2. Solid Figures (3D)
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Volume of Cuboid | l × b × h | Basic brick shape |
+| Surface Area of Cuboid (TSA) | 2(lb + bh + hl) | All 6 faces |
+| LSA of Cuboid | 2h(l + b) | 4 walls only (room painting) |
+| Diagonal of Cuboid | √(l² + b² + h²) | Longest rod inside a room |
+| Volume of Cube | a³ | a = edge |
+| TSA of Cube | 6a² | 6 equal faces |
+| LSA of Cube | 4a² | 4 side faces |
+| Diagonal of Cube | a√3 | Body diagonal |
+| Volume of Cylinder | πr²h | Base area × height |
+| CSA of Cylinder | 2πrh | Curved part only (label of a tin) |
+| TSA of Cylinder | 2πr(h + r) | CSA + 2 circular ends |
+| Volume of Hollow Cylinder | π(R² − r²)h | Pipe problems |
+| Volume of Cone | (1/3)πr²h | One-third of cylinder |
+| CSA of Cone | πrl | l = slant height |
+| TSA of Cone | πr(l + r) | CSA + base |
+| Slant Height of Cone | l = √(r² + h²) | Pythagoras on r, h |
+| Volume of Frustum of Cone | (1/3)πh(R² + r² + Rr) | Bucket shape |
+| CSA of Frustum | π(R + r)l, l = √(h² + (R−r)²) | Lampshade shape |
+| Volume of Sphere | (4/3)πr³ | Ball |
+| Surface Area of Sphere | 4πr² | Only one surface |
+| Volume of Hemisphere | (2/3)πr³ | Half sphere |
+| CSA of Hemisphere | 2πr² | Curved dome |
+| TSA of Hemisphere | 3πr² | Dome + flat base |
+| Volume of Spherical Shell | (4/3)π(R³ − r³) | Hollow ball |
+| Volume of Prism | Base area × height | Any uniform cross-section |
+| Volume of Pyramid | (1/3) × Base area × height | One-third rule again |
+
+## 3. Conversion & Combination Rules
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Melting/Recasting | Volume before = Volume after | n small spheres → 1 big: n·(4/3)πr³ = (4/3)πR³ |
+| Ratio of Volumes (similar solids) | (ratio of sides)³ | If sides in ratio a:b, volumes a³:b³ |
+| Ratio of Surface Areas (similar solids) | (ratio of sides)² | Areas scale with square |
+| Cylinder ⊃ Cone (same base & height) | V_cyl : V_cone = 3 : 1 | Classic exam ratio |
+| Sphere in Cylinder (fitting) | V_sphere = (2/3) V_cylinder | Archimedes' result |
+| Path around rectangle (outside) | (l+2w)(b+2w) − lb | w = width of path |
+| Path inside rectangle | lb − (l−2w)(b−2w) | Garden with inner path |
+| Carpet/Road crossing | w(l + b − w) | Two crossing paths of width w |
+| Wheel revolutions | Distance / 2πr | No. of rotations = distance ÷ circumference |
+| Cubes cut from a cube | (N)³ small cubes, N = big edge/small edge | Painted-cube problems |
+| 3-face painted cubes | Always 8 (corners) | Painted cube rule |
+| 2-face painted cubes | 12(N − 2) | Edges minus corners |
+| 1-face painted cubes | 6(N − 2)² | Face centres |
+| 0-face painted cubes | (N − 2)³ | Inner core |
+
+## 4. Unit Conversions
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Area | 1 m² = 10,000 cm² = 100 dm² | Square the length factor |
+| Volume | 1 m³ = 10⁶ cm³ = 1000 litres | 1 litre = 1000 cm³ |
+| Land | 1 hectare = 10,000 m² | Field-area problems |

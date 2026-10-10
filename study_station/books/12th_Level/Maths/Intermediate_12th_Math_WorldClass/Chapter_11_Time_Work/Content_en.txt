@@ -1,11 +1,137 @@
-# Chapter: Time & Work, Level: intermediate
+# Time & Work
 
-@content_agent lang=en level=intermediate role='experienced educator and cognitive psychologist' 'Write a chapter on Time & Work that makes even complex 12th-grade concepts feel incredibly simple. Follow Chain-of-Thought:
-1. First, outline the chapter and learning goals.
-2. Start with a powerful hook (story, shocking fact, contradiction).
-3. Acknowledge the learner's common struggle with 'Time & Work' and build empathy.
-4. Break content into small chunks (Segmenting Principle).
-5. After every 2-3 paragraphs, insert an Active Recall Prompt (🧠).
-6. Include at least one memory trick (mnemonic) that is weird or funny.
-7. End with a summary table and 'Review this after 2 days' prompt.
-Keep language extremely simple, conversational, and motivational, but depth at 12th grade level.
+## Chapter Outline & Learning Goals
+
+By the end of this chapter, you will be able to:
+
+1. Convert "days to finish" into "work per day" (the single most important move in this chapter).
+2. Solve problems of two or more people working together or alternately.
+3. Handle efficiency ratios, wages distribution, and "leaving/joining midway" problems.
+4. Crack pipes & cisterns — which is just Time & Work wearing a disguise.
+5. Spot the traps examiners set in SSC CGL, IBPS PO and RRB NTPC questions.
+
+---
+
+## The Hook: The Examiner's Favourite ATM
+
+A fact that should wake you up: Time & Work is one of the most reliably asked topics in SSC CGL, CHSL, RRB NTPC and IBPS papers — and its questions are almost always solvable in under 30 seconds if you know one idea. Just one.
+
+That idea is this: **never think in days, think in "work per day".**
+
+Students who think in days get stuck in fractions like 1/6 + 1/8 and panic. Students who think in "units of work per day" finish the same question mentally. This chapter will turn you into the second kind of student.
+
+---
+
+## The Struggle is Real (And It's Not Your Fault)
+
+If Time & Work has ever made you feel slow, here's why: school taught you the formula *Work = Rate × Time*, but exams ask twisted versions — "A works for 3 days and leaves, then B finishes it..." Suddenly the neat formula feels useless.
+
+The truth? Every single twisted question is built from the same three building blocks. Master the blocks, and the twists become free marks.
+
+---
+
+## Building Block 1: Work Per Day (The Unit Method)
+
+If A can finish a job in 10 days, then in 1 day A finishes **1/10 of the job**.
+
+That's it. That is the entire foundation.
+
+- A finishes in 10 days → A's 1-day work = 1/10
+- B finishes in 15 days → B's 1-day work = 1/15
+- Together in 1 day = 1/10 + 1/15 = 5/30 = 1/6 → so together they need **6 days**.
+
+**The LCM shortcut (use this in exams):** Instead of fractions, assume the total work = LCM of the days.
+
+Example: A in 10 days, B in 15 days. LCM(10, 15) = 30 units of work.
+- A does 30/10 = 3 units/day
+- B does 30/15 = 2 units/day
+- Together = 5 units/day → Time = 30/5 = **6 days**. No fractions, no fear.
+
+🧠 **Active Recall:** A can do a job in 12 days, B in 18 days. Using LCM = 36, how many units does each do per day, and how long do they take together? (Answer: A = 3, B = 2, together = 36/5 = 7.2 days.)
+
+---
+
+## Building Block 2: Efficiency and Ratios
+
+Sometimes the exam doesn't give days — it gives a comparison: "A is twice as efficient as B."
+
+Efficiency and time are **inversely related**. If A is twice as efficient as B, A takes **half** the time.
+
+- Efficiency ratio A : B = 2 : 1 → Time ratio A : B = 1 : 2
+
+**Memory trick (weird but sticky):** *"Fast person, small clock."* The faster worker's time number is always the smaller one. If you ever get confused about which ratio flips, picture a lazy tortoise with a giant clock and a speedy rabbit with a tiny watch. **Efficiency flips time.**
+
+Example: A is 50% more efficient than B. B alone takes 30 days. Find A's time.
+- Efficiency A : B = 3 : 2 → Time A : B = 2 : 3 → A takes (2/3) × 30 = **20 days**.
+
+🧠 **Active Recall:** A is thrice as efficient as B, and B takes 24 days. How long does A take? How long together? (Answer: A = 8 days; together: LCM 24 → A = 3, B = 1 unit/day → 24/4 = 6 days.)
+
+---
+
+## Building Block 3: Leaving, Joining, and Alternating Days
+
+This is where exams earn their money. The method never changes: **track the work done, chunk by chunk.**
+
+**Type 1 — Someone leaves midway:**
+A can finish in 10 days, B in 15 days. Both start, but A leaves after 2 days. When does the work end?
+- Total work = 30 units. A = 3/day, B = 2/day.
+- First 2 days together: 5 × 2 = 10 units done. Remaining = 20.
+- B alone: 20/2 = 10 more days. Total = 2 + 10 = **12 days**.
+
+**Type 2 — Alternate days:**
+A (10 days) and B (15 days) work on alternate days, A starting.
+- Every 2 days: 3 + 2 = 5 units done. 30 units ÷ 5 = 6 cycles → **12 days**.
+- (If it doesn't divide evenly, finish the last partial day with a fraction — exams love this.)
+
+🧠 **Active Recall:** In the alternate-days example above, what if the total work were 28 units instead of 30 (A still does 3 units/day, B still 2 units/day)? (Answer: 5 full cycles = 25 units in 10 days; day 11 is A's turn and only 3 units remain, which A completes in exactly 1 day → **11 days**.)
+
+---
+
+## Pipes & Cisterns: Time & Work in Disguise
+
+A pipe filling a tank is a worker. A pipe **emptying** a tank is a worker with **negative efficiency**. That's the whole chapter.
+
+Example: Pipe A fills a tank in 6 hours, pipe B empties it in 12 hours. Both open — when is the tank full?
+- LCM(6, 12) = 12 units. A = +2/hour, B = −1/hour. Net = +1/hour → **12 hours**.
+
+**Trap alert:** If the net rate comes out negative, the tank will *never* fill. Examiners include this option to catch students who calculate blindly.
+
+🧠 **Active Recall:** A fills in 4 hours, B fills in 6 hours, C empties in 12 hours. All open together — time to fill? (Answer: LCM 12 → 3 + 2 − 1 = 4/hour → 3 hours.)
+
+---
+
+## Wages: Work Done = Money Earned
+
+When people work together and get paid, the payment splits in the ratio of **work done** (efficiency × days worked), not just days present.
+
+Example: A and B finish a job for ₹900. A alone could do it in 6 days, B in 9 days; they work together throughout.
+- LCM 18 → A = 3/day, B = 2/day. Ratio of work = 3 : 2.
+- A gets 3/5 × 900 = **₹540**, B gets **₹360**.
+
+---
+
+## The Examiner's Three Favourite Traps
+
+1. **"A and B together take X days, A alone takes Y days"** — find B by subtraction, not guessing: B's rate = combined rate − A's rate.
+2. **Man-days problems:** "10 men finish in 12 days" → total work = 120 man-days. If men change, divide 120 by the new number. (Men × Days stays constant when work is fixed.)
+3. **Fractional last day** in alternate-day questions — always check whether the work ends mid-cycle.
+
+---
+
+## Summary Table
+
+| Concept | Core Rule | Quick Formula |
+|---|---|---|
+| 1-day work | Days → fraction of work | 1-day work = 1/n |
+| Unit method | Total work = LCM of days | Rate = LCM ÷ days |
+| Working together | Add the rates | Time = Work ÷ (sum of rates) |
+| Efficiency ↔ Time | Inverse relation | Eff. ratio a:b → Time ratio b:a |
+| Leaving midway | Track work chunk by chunk | Work done + remaining ÷ new rate |
+| Alternate days | Count work per 2-day cycle | Cycles × 2, then handle remainder |
+| Pipes | Outlet = negative worker | Net rate = fillers − emptiers |
+| Wages | Pay ∝ work done | Split in ratio of (efficiency × days) |
+| Man-days | M₁D₁ = M₂D₂ (fixed work) | Also M₁D₁H₁ = M₂D₂H₂ with hours |
+
+---
+
+📌 **Review this chapter after 2 days.** Close the book and try to re-derive the summary table from memory — especially the LCM unit method and the efficiency-time flip. If you can rebuild the table, you own this chapter.

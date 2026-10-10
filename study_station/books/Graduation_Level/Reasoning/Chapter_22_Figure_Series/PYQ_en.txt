@@ -1,0 +1,115 @@
+# 📊 PYQ Analysis — Figure Series / Classification (Non-Verbal Reasoning)
+
+*(Pattern analysis based on the recurring style of questions in SSC CGL/CHSL, IBPS PO/Clerk, RRB NTPC and State PCS prelims. Since non-verbal questions are drawn as images, this section analyses the **type and trap** of questions examiners repeat, in words — not invented year-wise counts.)*
+
+---
+
+## 1. What Examiners Actually Ask
+
+Across SSC, Banking and Railway exams, non-verbal series/classification questions cluster around a small set of repeatable patterns. If you master these, you cover the overwhelming majority of what appears:
+
+**A. Figure Series (find the next figure)**
+- **Rotation-based:** an element (arrow, dot, line, shaded sector) rotates by a fixed or increasing angle (45°, 90°, 135°…) clockwise or anti-clockwise.
+- **Movement-based:** a symbol moves along the corners/sides of a square — one step, two steps, or alternating steps.
+- **Addition/Deletion:** one element is added or removed in each step (lines, dots, petals, sides).
+- **Count progression:** number of sides or elements follows 3, 4, 5, 6… or 1, 2, 4, 8… or +2, +3, +4…
+- **Mirror/Flip alternation:** the figure alternates between original and mirror image, or flips vertically then horizontally.
+- **Shading shift:** the shaded region moves one sector at a time, or shading alternates between two parts.
+- **Interchange:** two symbols swap positions following a fixed route (e.g., corner symbols move clockwise while the centre symbol changes).
+
+**B. Figure Classification (odd one out)**
+- Four figures follow a property; one violates it. Typical properties:
+  - Element count (odd vs even number of lines/dots).
+  - Closed vs open figure; number of enclosed regions.
+  - Position of dot relative to shaded region or line.
+  - Rotation direction (three rotate clockwise, one anti-clockwise).
+  - Symmetry (three have a line of symmetry, one does not).
+  - One figure is a rotation of another; the odd one is a **mirror image** (the classic trap).
+
+**C. Analogy & embedded/complete-the-pattern** (asked less often but regularly in SSC CGL Tier-I and RRB NTPC): figure A : B :: C : ? where the transformation is rotation, reflection, or element addition.
+
+---
+
+## 2. Exam-wise Emphasis (in words)
+
+- **SSC CGL / CHSL:** Series questions dominate; rotation + element-count combinations are the favourite. Classification (odd figure out) appears almost every paper, usually 1–2 questions. Difficulty: easy to moderate — speed matters more than depth.
+- **IBPS / SBI PO-Clerk:** Fewer non-verbal questions, but when they appear they combine **two simultaneous rules** (e.g., dot moves clockwise *while* a line is added). Trap-heavy.
+- **RRB NTPC / Group D:** Straightforward single-rule series; rotation and shading-shift are most common. High scoring, low time cost.
+- **State PCS prelims:** Occasional; usually classification based on symmetry or enclosed regions.
+
+---
+
+## 3. The Examiner's Traps (Psychological Hooks)
+
+1. **The mirror-image decoy:** In classification, the odd figure looks like a rotation of the others but is actually a **reflection**. Your brain auto-completes rotations; always check chirality (clockwise order of features).
+2. **Two rules running together:** You spot the dot moving and lock the answer — but the *number of lines* also changes, and only one option satisfies both. Never stop after finding one pattern; verify a second feature.
+3. **Increasing-step rotation:** The element moves 45°, then 90°, then 135°. Candidates who assume a constant step pick the "next 45°" decoy.
+4. **Alternating series:** Odd-position figures follow one rule, even-position figures another. The decoy continues the odd-position rule into an even position.
+5. **Count trap in classification:** Three figures have an *even* number of elements, one has odd — but the figures are drawn to look visually similar so you hunt for shape differences instead of counting.
+6. **Near-identical options:** Two options differ only in the direction of one small arrowhead or the shade of one sector. Under time pressure, candidates mark the first plausible option.
+7. **Negative wording in classification:** "Which does NOT belong" — candidates find the common property and mark a member of the group instead of the outsider.
+
+---
+
+## 4. High-Yield Question Types with Solutions
+
+*(Representative PYQ-style questions — the exact forms that recur.)*
+
+**Q1. Series:** A square contains a dot at a corner. In each step the dot moves one corner clockwise, and one extra line is added inside the square. Find the 5th figure.
+**Solution:** Track both features independently: dot position after 4 moves = back to start (4 corners, 4 steps). Lines: 1, 2, 3, 4 → 5th figure has 5 lines. Answer = dot at starting corner + 5 lines.
+**Trap:** Options include dot at the *next* corner with 5 lines — catches those who over-count the move.
+
+**Q2. Series:** An arrow rotates 90° clockwise each step; a small circle alternates between the arrow's head and tail.
+**Solution:** After 4 steps the arrow completes a full turn. The circle's position alternates, so in odd steps it's at the head. Answer = arrow in original direction, circle at head (if step 5).
+**Trap:** The alternating element is easy to miss; decoys keep the circle fixed.
+
+**Q3. Classification:** Four figures each show a triangle with a dot. In three, the dot lies *inside* the triangle and *outside* an inner circle; in one, the dot lies inside both.
+**Solution:** Check dot position relative to **each** closed region separately. The odd one shares both regions.
+**Trap:** Candidates check only "inside triangle" and conclude all are same.
+
+**Q4. Classification:** Figures A–E are similar star/arrow shapes. Three are rotations of one another; one is a mirror image.
+**Solution:** Fix one feature (e.g., the longest arm) and read the order of the remaining features clockwise. The mirror image reverses that order.
+**Trap:** This is the single most repeated classification trap — rotation vs reflection.
+
+**Q5. Series:** Number of sides of the outer figure increases 3 → 4 → 5 → 6; inner shading alternates black/white.
+**Solution:** Next = 7-sided figure (heptagon) with the alternating shade.
+**Trap:** A hexagon option with the "correct" shade tempts those who lose count.
+
+**Q6. Series:** A symbol moves along the sides of a square: 1 step, then 2, then 3…
+**Solution:** Next move = 4 steps (back to same side). Increasing-step pattern.
+**Trap:** Constant-step assumption gives the adjacent-side decoy.
+
+**Q7. Analogy:** Figure A rotated 90° anti-clockwise gives B. Apply the same to C.
+**Solution:** Rotate C exactly 90° anti-clockwise — do not "improve" or mirror it.
+**Trap:** One option is 90° *clockwise* — direction confusion under pressure.
+
+**Q8. Classification:** Four figures have an even number of enclosed regions; one has an odd number.
+**Solution:** Count enclosed regions, not lines. Odd one = the one with 3 (or 5) regions.
+**Trap:** Visual similarity makes candidates compare shapes instead of counting regions.
+
+**Q9. Series:** Two symbols interchange positions each step along a fixed clockwise route while the centre symbol rotates 45°.
+**Solution:** Track the swap route and the centre rotation separately; combine only at the end.
+**Trap:** Options satisfying only one of the two rules.
+
+**Q10. Series:** A shaded sector moves one step anti-clockwise while the whole figure rotates 90° clockwise.
+**Solution:** Compute the shade's *net* position relative to the page, not relative to the figure.
+**Trap:** Tracking shade relative to the rotating figure gives the wrong sector — the hardest common trap.
+
+---
+
+## 5. Skip Strategy — 15-sec / 45-sec Rule Review
+
+- **15-second rule:** If within 15 seconds you cannot name the rule ("dot moves clockwise + line added"), mark and move on. Non-verbal questions are either instant or time-sinks.
+- **45-second cap:** Even if you see a pattern, if two options still survive after 45 seconds, pick the one satisfying **two** features and move on.
+- **Skip immediately (Q9, Q10 types):** Questions with *two independent moving elements plus rotation* (like Q9/Q10 above) are classic 60–90 second traps. In SSC/Bank, one such question costs you two easy ones elsewhere. Attempt these only in the second pass.
+- **Never skip (Q1, Q4, Q5 types):** Single-rule rotation, count progression, and rotation-vs-reflection classification are 15–20 second scorers — always attempt first.
+
+---
+
+## 6. Key Takeaways
+
+1. Name the rule aloud (silently) before looking at options — options are designed to hijack pattern-guessing.
+2. Always verify a **second feature** before marking; dual-rule questions are now the norm.
+3. In classification, default checks: count → symmetry → rotation vs reflection → position of dot/shade.
+4. Mirror-image decoys and increasing-step movements are the examiner's two favourite hooks.
+5. Treat double-movement series as second-pass questions under the 45-second cap.

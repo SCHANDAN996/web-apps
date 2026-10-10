@@ -1,0 +1,39 @@
+# Important Rules & Approaches — Inequality
+
+## Part 1: Key Rules/Approaches
+
+| Rule Name | Description | Example |
+|---|---|---|
+| Symbol Meaning | Memorise: > (greater than), < (less than), ≥ (greater or equal), ≤ (less or equal), = (equal), ≠ (not equal) | A > B means A is greater than B |
+| Chain Rule (Transitivity) | If A > B and B > C, then A > C. Combine statements into one chain before checking conclusions. | A > B > C ⇒ A > C (true) |
+| Same-Direction Rule | Conclusions can be drawn only when symbols point in the same direction along the chain. | A > B > C ⇒ A > C valid; A > B < C ⇒ no relation between A and C |
+| Opposite-Symbol Rule | If symbols face each other (> … <), no definite relation exists between the two ends. | A > B < C ⇒ A vs C: cannot be determined |
+| Priority of Symbols | Between two elements, > or < (strict) is stronger than ≥ or ≤; = is strongest. | A ≥ B ≥ C gives A ≥ C, not A > C |
+| Either-Or Case | When no definite relation exists and the two conclusions are complementary (e.g., A > B and A ≤ B, or A ≥ B and A < B) covering all possibilities, "either I or II follows". | Conclusions: A > B; A ≤ B → either-or |
+| ≥ and ≤ Splitting | A ≥ B means A > B or A = B; A ≤ B means A < B or A = B. Check all parts. | A ≥ B is false only if A < B is certain |
+| Coded Inequality | First decode symbols as per the given key (e.g., 'P @ Q' means P > Q), then solve normally. | '@' = '>', so A @ B → A > B |
+| Definite vs Possible | "Follows" only if the conclusion is definitely true in every case; a merely possible relation does not follow. | A ≥ B > C ⇒ A > C definitely follows |
+| Negative Conclusion Trap | A conclusion saying "A is not greater than B" follows only if A ≤ B is certain. | A > B chain ⇒ "A < B" never follows |
+
+## Part 2: Time Management
+
+| Situation | Action |
+|---|---|
+| First 15 seconds | Read all statements, merge them into a single chain (e.g., A > B = C ≥ D). If the chain forms cleanly, proceed. |
+| 15-second rule | If symbols clash (opposite directions) and no chain forms within 15 seconds, mark "no relation / either-or" quickly or skip — do not force a chain. |
+| Next 30 seconds (45-second rule) | Test each conclusion against the chain: same direction → follows; opposite direction → does not follow; complementary pair with no relation → either-or. |
+| Beyond 45 seconds | If still unsure after 45 seconds, mark the most logical option and move on; return only if time remains. |
+| Coded inequality | Spend the first 10 seconds writing the decoded symbols above the coded ones; never decode mentally mid-question. |
+| Per-question target | 20–30 seconds per conclusion in a 5-question set; the whole set should finish in about 2 minutes. |
+
+## Part 3: Logical/Mathematical Formulas
+
+| Formula | Meaning |
+|---|---|
+| A > B and B > C ⇒ A > C | Transitivity of strict inequality |
+| A ≥ B and B ≥ C ⇒ A ≥ C | Transitivity of weak inequality |
+| A ≥ B and B > C ⇒ A > C | One strict symbol makes the result strict |
+| A > B ⇔ B < A | Reversal of inequality |
+| A ≥ B ⇔ (A > B or A = B) | Splitting of ≥ |
+| A ≤ B ⇔ (A < B or A = B) | Splitting of ≤ |
+| Either-or condition | No definite relation between X and Y, and the two conclusions are complementary pairs covering all possibilities: (X > Y and X ≤ Y), or (X ≥ Y and X < Y), or (X = Y and X ≠ Y) |

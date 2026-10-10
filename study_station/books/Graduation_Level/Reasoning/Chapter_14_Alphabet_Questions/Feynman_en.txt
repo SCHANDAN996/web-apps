@@ -1,0 +1,108 @@
+# Feynman Technique: Alphabet Questions (Reasoning)
+
+## What is this section?
+
+The Feynman Technique means: if you can explain a topic in simple words, as if teaching a friend, you truly understand it. In this section we explain **Alphabet Questions** — one of the most repeated topics in SSC, Railway, Bank and State exam reasoning — in plain, teach-it-yourself language.
+
+---
+
+## 1. The one thing you must memorise
+
+Every alphabet question is built on **letter positions**. Learn these until they are automatic:
+
+| Letter | A | B | C | D | E | F | G | H | I | J | K | L | M |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Position | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 |
+
+| Letter | N | O | P | Q | R | S | T | U | V | W | X | Y | Z |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Position | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 |
+
+**Memory tricks (explain these to yourself out loud):**
+- **EJOTY** — E(5), J(10), O(15), T(20), Y(25). These five anchor letters let you count quickly to any letter.
+- M is 13 and N is 14 — the middle pair of the alphabet (26 letters, so the middle falls between 13 and 14).
+
+---
+
+## 2. The four standard question types
+
+### Type 1: Position-based ("Which letter is 7th to the right of K?")
+
+**Explain it like this:** "Right of" means *add* to the position, "left of" means *subtract*.
+
+- K = 11. 7th to the right = 11 + 7 = 18 = **R**.
+- 5th to the left of T: T = 20, 20 − 5 = 15 = **O**.
+
+**Examiner's trap:** "7th to the right of the 5th letter from the left" — do it step by step: 5th letter = E, then 7 right of E = 5 + 7 = 12 = L.
+
+### Type 2: Alphabet series (find the next term)
+
+Example: A, C, F, J, O, ?
+
+**Explain it like this:** Write the positions: 1, 3, 6, 10, 15. The gaps are +2, +3, +4, +5 — so the next gap is +6: 15 + 6 = 21 = **U**.
+
+Always convert letters to numbers first; the pattern is almost always in the gaps (differences) or in alternating +/− steps.
+
+### Type 3: Letter coding (if CAT = 3-1-20, what is DOG?)
+
+**Explain it like this:** Each letter is replaced by its position, or shifted by a fixed number.
+
+- Direct position: DOG = 4-15-7.
+- Shift coding: if CAT is written as DBU, every letter moved +1. Then DOG = EPH.
+
+Check the given example first — it always reveals the rule (position, +1, −1, reverse position, etc.).
+
+### Type 4: Reverse position / opposite letters
+
+**Explain it like this:** Position from the end = 27 − position from the start.
+
+- 5th from the end = 27 − 5 = 22 = **V**.
+- Opposite pairs add to 27: A↔Z (1+26), B↔Y (2+25), C↔X, D↔W, E↔V … M↔N (13+14).
+
+---
+
+## 3. Solved examples (teach-back style)
+
+**Example 1:** Which letter is 9th to the right of the 8th letter from the left?
+- 8th letter = H (position 8). 9 to the right: 8 + 9 = 17 = **Q**.
+
+**Example 2:** Complete the series: Z, X, U, Q, ?
+- Positions: 26, 24, 21, 17. Gaps: −2, −3, −4, so next −5: 17 − 5 = 12 = **L**.
+
+**Example 3:** In a code, PEN is written as QFO. How is INK written?
+- Each letter +1 (P→Q, E→F, N→O). So INK → **JOL**.
+
+**Example 4:** Which letter is exactly in the middle of the alphabet?
+- 26 letters, so no single middle letter — the middle lies between **M (13) and N (14)**. (A classic trap question.)
+
+---
+
+## 4. Common examiner traps
+
+- **"From the right" vs "from the left"** — read twice before solving.
+- **Near-correct options:** if the answer is Q (17), options often include P (16) and R (18) — off-by-one errors are the most common mistake.
+- **Mixed directions:** "left of the letter which is right of…" — break it into small steps, never do it in one jump.
+- **Series with two interleaved patterns:** odd positions follow one rule, even positions another (e.g., A, Z, C, X, E, V…).
+
+---
+
+## 5. Quick practice (check yourself)
+
+1. 12th letter from the right end of the alphabet? → 27 − 12 = 15 = **O**
+2. Next term: B, E, H, K, ? → gaps +3 each → **N**
+3. If BOY = 2-15-25, then GIRL = ? → **7-9-18-12**
+4. Opposite letter of H? → 27 − 8 = 19 = **S**
+5. 6th to the left of P? → 16 − 6 = 10 = **J**
+
+---
+
+## 6. Feynman self-test
+
+Close this file and explain aloud, in your own words:
+1. How do you find a letter "n positions to the right/left"?
+2. What is the 27-rule for reverse positions?
+3. What is the first step in any alphabet series question?
+
+If you stumble on any of these, re-read that part — that is exactly where the exam will catch you.
+
+Source: PYQ-style (standard reasoning syllabus of SSC/Railway/Bank exams)

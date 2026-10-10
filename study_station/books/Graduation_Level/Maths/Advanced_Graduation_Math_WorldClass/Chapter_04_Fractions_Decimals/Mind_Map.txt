@@ -1,0 +1,49 @@
+```mermaid
+graph TD
+    A["भिन्न और दशमलव<br>Fractions & Decimals"] --> B["भिन्न के प्रकार<br>Types of Fractions"]
+    A --> C["भिन्न पर संक्रियाएँ<br>Operations on Fractions"]
+    A --> D["दशमलव<br>Decimals"]
+    A --> E["रूपांतरण<br>Conversions"]
+    A --> F["तुलना और क्रम<br>Comparison & Ordering"]
+    A --> G["उन्नत अवधारणाएँ<br>Advanced Concepts"]
+
+    B --> B1["उचित भिन्न (अंश < हर)<br>Proper Fraction"]
+    B --> B2["विषम भिन्न (अंश ≥ हर)<br>Improper Fraction"]
+    B --> B3["मिश्र भिन्न<br>Mixed Fraction"]
+    B --> B4["समतुल्य भिन्न<br>Equivalent Fractions"]
+    B --> B5["इकाई भिन्न (अंश = 1)<br>Unit Fraction"]
+
+    C --> C1["जोड़-घटाव: LCM विधि<br>Add/Subtract via LCM"]
+    C --> C2["गुणा: अंश×अंश, हर×हर<br>Multiplication"]
+    C --> C3["भाग: व्युत्क्रम से गुणा<br>Division via Reciprocal"]
+    C --> C4["BODMAS क्रम<br>Order of Operations"]
+    C --> C5["'का' = गुणा<br>'of' = Multiplication"]
+
+    D --> D1["सांत दशमलव<br>Terminating Decimals"]
+    D --> D2["आवर्ती दशमलव<br>Recurring Decimals"]
+    D --> D3["शुद्ध vs मिश्रित आवर्ती<br>Pure vs Mixed Recurring"]
+    D --> D4["दशमलव संक्रियाएँ<br>Decimal Operations"]
+    D --> D5["स्थानीय मान<br>Place Value"]
+
+    E --> E1["भिन्न → दशमलव<br>Fraction to Decimal"]
+    E --> E2["दशमलव → भिन्न<br>Decimal to Fraction"]
+    E --> E3["आवर्ती → p/q रूप<br>Recurring to p/q"]
+    E --> E4["भिन्न → प्रतिशत<br>Fraction to Percentage"]
+
+    F --> F1["हर समान करें<br>Common Denominator"]
+    F --> F2["अंश समान करें<br>Common Numerator"]
+    F --> F3["क्रॉस-गुणा विधि<br>Cross-Multiplication"]
+    F --> F4["दशमलव में बदलकर तुलना<br>Convert to Decimal"]
+
+    G --> G1["मिश्रित आवर्ती सूत्र<br>Mixed Recurring Formula"]
+    G --> G2["घातांक और भिन्न<br>Powers & Fractions"]
+    G --> G3["श्रेणी योग (1/n(n+1))<br>Series Summation"]
+    G --> G4["निरंतर भिन्न<br>Continued Fractions"]
+    G --> G5["परिमेय vs अपरिमेय<br>Rational vs Irrational"]
+
+    E1 --> H["परीक्षा ट्रैप<br>Exam Traps"]
+    D2 --> H
+    H --> H1["0.999... = 1<br>Confusion Point"]
+    H --> H2["हर में 2/5 के अतिरिक्त अभाज्य गुणनखंड<br>→ आवर्ती दशमलव"]
+    H --> H3["लगभग-सही विकल्प<br>Near-Correct Options"]
+```

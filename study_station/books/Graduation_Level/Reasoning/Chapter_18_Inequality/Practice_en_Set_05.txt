@@ -1,0 +1,151 @@
+Questions 101–120: Medium | Questions 121–125: Hard
+
+101. In the expression P > Q ≥ R = S < T, which of the following conclusions is definitely true?
+(a) T > Q (b) Q > T (c) P > T (d) P > R
+Answer: (d)
+Solution: The tempting option T > Q fails because the chain breaks at S < T — the sign reverses, so no relation between Q and T can be fixed. But P > Q ≥ R gives P > R directly through the common term Q, so the answer is P > R.
+Source: PYQ-style
+
+102. Statement: A ≥ B = C > D ≤ E. Which conclusion follows?
+(a) E > B (b) A > D (c) A = C (d) C < E
+Answer: (b)
+Solution: E > B is tempting but the chain breaks at D ≤ E, so E and B cannot be compared. Since A ≥ B = C > D, we get A ≥ C > D, hence A > D is definite, so the answer is A > D.
+Source: PYQ-style
+
+103. Statement: M < N ≤ O = P > Q. Which of the following is definitely false?
+(a) O > Q (b) N ≤ P (c) M > P (d) M < P
+Answer: (c)
+Solution: M < P follows from M < N ≤ O = P, and N ≤ P and O > Q also follow directly. The claim M > P contradicts the established M < P, so it is definitely false, so the answer is M > P.
+Source: PYQ-style
+
+104. Statement: X > Y ≥ Z; Z < W ≤ V. Which conclusion is definitely true?
+(a) X > W (b) Y > V (c) V > Y (d) X > Z
+Answer: (d)
+Solution: X > W and Y > V are tempting but the two chains are joined only by Z < W, which gives no fixed relation between the X–Y–Z group and the W–V group. Within the first chain, X > Y ≥ Z guarantees X > Z, so the answer is X > Z.
+Source: PYQ-style
+
+105. Statement: G ≥ H > I = J < K. How many of the following are definitely true: (1) G > I, (2) H > J, (3) K > H?
+(a) Only 1 (b) Only 1 and 2 (c) Only 2 and 3 (d) All three
+Answer: (b)
+Solution: K > H is tempting but the chain breaks at J < K, so K and H cannot be compared. G ≥ H > I gives G > I, and H > I = J gives H > J, so the answer is Only 1 and 2.
+Source: PYQ-style
+
+106. Statement: B ≤ C < D = E ≥ F. Which conclusion does NOT follow?
+(a) C < E (b) B < D (c) E ≥ F (d) B > F
+Answer: (d)
+Solution: C < E follows from C < D = E; B < D follows from B ≤ C < D; E ≥ F is given directly. B > F cannot be established because the chain breaks at E ≥ F, leaving no fixed relation between B and F, so the answer is B > F.
+Source: PYQ-style
+
+107. Statement: R > S = T ≥ U < V. Conclusions: I. R > U, II. V > S. Which follow(s)?
+(a) Only I (b) Only II (c) Both I and II (d) Neither I nor II
+Answer: (a)
+Solution: V > S is tempting but the chain breaks at U < V, so V and S cannot be compared. R > S = T ≥ U gives R > U directly, so the answer is Only I.
+Source: PYQ-style
+
+108. Statement: K ≥ L > M; M = N < O. Which is definitely true?
+(a) K > N (b) O > L (c) K = N (d) L < O
+Answer: (a)
+Solution: O > L is tempting but the chain breaks at N < O, so O and L cannot be compared. K ≥ L > M = N gives K > N, so the answer is K > N.
+Source: PYQ-style
+
+109. Statement: P ≤ Q < R ≤ S = T. Which conclusion is definitely true?
+(a) Q = S (b) T < Q (c) P = T (d) P < T
+Answer: (d)
+Solution: P = T is tempting because equality symbols appear, but P ≤ Q < R ≤ S = T contains a strict "<" between Q and R, forcing P < T. Q = S fails since Q < R ≤ S gives Q < S, so the answer is P < T.
+Source: PYQ-style
+
+110. Statement: D > E ≥ F = G; H > G. Which conclusion is definitely true?
+(a) D = H (b) H > E (c) F > H (d) D > G
+Answer: (d)
+Solution: H > E is tempting but H connects only through H > G, and E ≥ G, so H and E cannot be compared. D > E ≥ F = G gives D > G, so the answer is D > G.
+Source: PYQ-style
+
+111. Statement: J < K ≤ L = M > N. Conclusions: I. J < M, II. L > N. Which follow(s)?
+(a) Only I (b) Only II (c) Both I and II (d) Neither I nor II
+Answer: (c)
+Solution: J < K ≤ L = M gives J < M, so I follows. L = M > N gives L > N, so II follows; both conclusions are established through unbroken chains, so the answer is Both I and II.
+Source: PYQ-style
+
+112. Statement: U ≥ V > W < X ≤ Y. Which conclusion is definitely true?
+(a) Y = W (b) U > X (c) X > U (d) U > W
+Answer: (d)
+Solution: U > X is tempting but the chain breaks at W < X, so U and X cannot be compared at all. U ≥ V > W gives U > W through an unbroken chain, so the answer is U > W.
+Source: PYQ-style
+
+113. Statement: A = B > C ≥ D < E. Conclusions: I. A > D, II. B < E. Which follow(s)?
+(a) Only I (b) Only II (c) Both I and II (d) Neither I nor II
+Answer: (a)
+Solution: B < E is tempting but the chain breaks at D < E, so B and E cannot be compared. A = B > C ≥ D gives A > D, so the answer is Only I.
+Source: PYQ-style
+
+114. Statement: F > G = H; H ≤ I < J. Which conclusion is definitely true?
+(a) F > I (b) J > G (c) F > J (d) G > J
+Answer: (b)
+Solution: F > I is tempting but the chain breaks at H ≤ I, so F and I cannot be compared. G = H ≤ I < J gives G < J, i.e., J > G, so the answer is J > G.
+Source: PYQ-style
+
+115. Statement: S ≤ T < U; U = V ≥ W. Which conclusion does NOT follow?
+(a) T < V (b) S > W (c) V ≥ W (d) S < U
+Answer: (b)
+Solution: S < U follows from S ≤ T < U; T < V follows from T < U = V; V ≥ W is given. S > W cannot be established since the chain breaks at V ≥ W, leaving no fixed relation between S and W, so the answer is S > W.
+Source: PYQ-style
+
+116. Statement: L > M ≥ N = O; P < O. Which conclusion is definitely true?
+(a) P > M (b) N = P (c) M > P (d) L < P
+Answer: (c)
+Solution: N = P is tempting because N = O, but N = O > P forces N > P, so equality fails. M ≥ N = O > P gives M > P through an unbroken chain, so the answer is M > P.
+Source: PYQ-style
+
+117. Statement: C < D ≤ E = F ≥ G. Conclusions: I. C < F, II. E ≥ G. Which follow(s)?
+(a) Only I (b) Only II (c) Both I and II (d) Neither I nor II
+Answer: (c)
+Solution: C < D ≤ E = F gives C < F, so I follows. E = F ≥ G gives E ≥ G, so II follows; both chains are unbroken, so the answer is Both I and II.
+Source: PYQ-style
+
+118. Statement: W ≥ X > Y; Y < Z ≤ A. Which is definitely true?
+(a) W > Y (b) A > X (c) W > Z (d) X > A
+Answer: (a)
+Solution: A > X and W > Z are tempting but the two chains meet only at Y < Z, which fixes nothing between the W–X group and the Z–A group. W ≥ X > Y gives W > Y, so the answer is W > Y.
+Source: PYQ-style
+
+119. Statement: N < O = P ≥ Q > R. Which conclusion is definitely true?
+(a) P = Q (b) N > P (c) N < P (d) N > Q
+Answer: (c)
+Solution: P = Q is tempting because "≥" allows equality, but it is not guaranteed, so it is not definite. N < O = P gives N < P directly through an unbroken chain, so the answer is N < P.
+Source: PYQ-style
+
+120. Statement: H ≥ I = J < K ≤ L. Which conclusion is definitely true?
+(a) H ≥ J (b) H > K (c) K > L (d) L < J
+Answer: (a)
+Solution: H > K is tempting but the chain breaks at J < K, so H and K cannot be compared. H ≥ I = J gives H ≥ J directly, so the answer is H ≥ J.
+Source: PYQ-style
+
+121. Statement: A > B ≥ C = D; E > F ≥ D. Conclusions: I. A > D, II. E > C. Which follow(s)?
+(a) Neither I nor II (b) Both I and II (c) Only II (d) Only I
+Answer: (b)
+Solution: The trap is to think the two chains cannot be linked, but D = C joins them. A > B ≥ C = D gives A > D, so I follows; E > F ≥ D = C gives E > C strictly since E > F, so II also follows, so the answer is Both I and II.
+Source: PYQ-style
+
+122. Statement: P ≥ Q = R > S; T ≥ S > U. Conclusions: I. P > U, II. R > T. Which follow(s)?
+(a) Neither I nor II (b) Only II (c) Only I (d) Both I and II
+Answer: (c)
+Solution: R > T is the trap: R > S and T ≥ S give no fixed relation between R and T, since T could equal or exceed R. But P ≥ Q = R > S > U gives P > U through an unbroken chain, so the answer is Only I.
+Source: PYQ-style
+
+123. Statement: M = N > O ≥ P; Q > R = P. Conclusions: I. M > P, II. Q > O. Which follow(s)?
+(a) Only I (b) Only II (c) Both I and II (d) Neither I nor II
+Answer: (a)
+Solution: Q > O is the trap: Q > R = P and O ≥ P give no fixed relation between Q and O, since O could exceed Q. M = N > O ≥ P gives M > P strictly, so the answer is Only I.
+Source: PYQ-style
+
+124. Statement: X ≥ Y > Z = A; B > C ≥ A. Conclusions: I. X > A, II. B > Z, III. Y > C. Which follow(s)?
+(a) Only I and II (b) Only I (c) Only II and III (d) All three
+Answer: (a)
+Solution: Y > C is the trap: Y > Z = A and C ≥ A allow C to be larger than Y, so III is not definite. X ≥ Y > Z = A gives X > A, so I follows; B > C ≥ A = Z gives B > Z, so II follows, so the answer is Only I and II.
+Source: PYQ-style
+
+125. Statement: D ≤ E < F = G; H ≥ I = G > J. Conclusions: I. F > J, II. H ≥ F, III. D < G. Which follow(s)?
+(a) Only I (b) All three (c) Only I and III (d) Only I and II
+Answer: (b)
+Solution: The trap is to assume the two chains cannot be linked, but G is common to both. F = G > J gives F > J, so I follows; H ≥ I = G = F gives H ≥ F, so II follows; D ≤ E < F = G gives D < G, so III follows, so the answer is All three.
+Source: PYQ-style

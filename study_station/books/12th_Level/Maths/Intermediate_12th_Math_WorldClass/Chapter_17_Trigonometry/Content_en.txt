@@ -1,11 +1,161 @@
-# Chapter: Trigonometry, Level: intermediate
+# Trigonometry
 
-@content_agent lang=en level=intermediate role='experienced educator and cognitive psychologist' 'Write a chapter on Trigonometry that makes even complex 12th-grade concepts feel incredibly simple. Follow Chain-of-Thought:
-1. First, outline the chapter and learning goals.
-2. Start with a powerful hook (story, shocking fact, contradiction).
-3. Acknowledge the learner's common struggle with 'Trigonometry' and build empathy.
-4. Break content into small chunks (Segmenting Principle).
-5. After every 2-3 paragraphs, insert an Active Recall Prompt (🧠).
-6. Include at least one memory trick (mnemonic) that is weird or funny.
-7. End with a summary table and 'Review this after 2 days' prompt.
-Keep language extremely simple, conversational, and motivational, but depth at 12th grade level.
+## The Chapter at a Glance
+
+**Learning goals — by the end of this chapter you will be able to:**
+1. Define all six trigonometric ratios and read them from any right triangle.
+2. Recall the values of sin, cos, tan for 0°, 30°, 45°, 60°, 90° in under 10 seconds.
+3. Use complementary-angle relations (sin θ = cos(90°−θ)) to simplify expressions.
+4. Apply the three core identities (sin²θ + cos²θ = 1, etc.) to prove and evaluate.
+5. Solve height-and-distance problems using angles of elevation and depression.
+
+---
+
+## The Hook: Measuring the Unmeasurable
+
+Around 600 BCE, the Greek thinker Thales stood before the Great Pyramid of Giza and did something that seemed like magic: he measured its height **without climbing it**. He simply waited until his own shadow equalled his height, then measured the pyramid's shadow. Same sun, same angle — so the pyramid's height equalled its shadow's length.
+
+That single idea — *angles let you convert distances you can measure into distances you can't* — is the beating heart of trigonometry. Surveyors use it to map mountains. Astronomers use it to measure the distance to stars. Your phone's GPS uses it every second. And SSC, Banking, and Railway exams use it to test *you*, every single year.
+
+## "But I Always Forget the Formulas…"
+
+If trigonometry makes you nervous, you're in the majority. Most students struggle not because the maths is hard, but because they try to memorise 40 formulas as disconnected facts. Here's the secret: **almost everything in this chapter comes from just three seeds** — the definition of sine, the Pythagoras theorem, and one small table of values. Grow those three seeds properly, and the rest of the forest grows by itself.
+
+Let's plant them, one chunk at a time.
+
+---
+
+## Chunk 1: The Six Ratios
+
+Take a right-angled triangle. Pick one of the non-right angles and call it θ (theta). Now the three sides get names **relative to θ**:
+
+- **Hypotenuse (H)** — the side opposite the right angle (always the longest).
+- **Perpendicular / Opposite (P)** — the side facing θ.
+- **Base / Adjacent (B)** — the side touching θ (that isn't the hypotenuse).
+
+The six ratios are:
+
+| Ratio | Definition |
+|---|---|
+| sin θ | P / H |
+| cos θ | B / H |
+| tan θ | P / B |
+| cosec θ | H / P (= 1/sin θ) |
+| sec θ | H / B (= 1/cos θ) |
+| cot θ | B / P (= 1/tan θ) |
+
+Notice the pattern: the last three are just the first three flipped upside down. Learn three, get six free.
+
+**🧠 Active Recall:** Close the book. In a right triangle with angle θ, which side is the "perpendicular"? Write down sin θ, cos θ, and tan θ from memory. Now — what is sec θ the reciprocal of?
+
+### 🎭 Memory Trick: The Pandit Ji Trick
+
+Remember **"Pandit Badri Prasad, Har Har Bole"**:
+
+- **P**andit **B**adri **P**rasad → sin θ = **P**/**H**… wait, here's the full mapping:
+- sin θ → **P**erpendicular / **H**ypotenuse (**P**andit **H**ar)
+- cos θ → **B**ase / **H**ypotenuse (**B**adri **H**ar)
+- tan θ → **P**erpendicular / **B**ase (**P**rasad **B**ole)
+
+Say it aloud twice — "Pandit Badri Prasad, Har Har Bole" — and the three core ratios are locked in forever.
+
+---
+
+## Chunk 2: The Famous Table (0°, 30°, 45°, 60°, 90°)
+
+Exams love these five angles. Here's the table — but don't memorise it blindly. Use the trick below it.
+
+| Angle | 0° | 30° | 45° | 60° | 90° |
+|---|---|---|---|---|---|
+| sin | 0 | 1/2 | 1/√2 | √3/2 | 1 |
+| cos | 1 | √3/2 | 1/√2 | 1/2 | 0 |
+| tan | 0 | 1/√3 | 1 | √3 | not defined |
+
+**The square-root trick for sin:** Write 0, 1, 2, 3, 4 under the five angles. Divide each by 4. Take the square root. Done:
+
+- sin 0° = √(0/4) = 0
+- sin 30° = √(1/4) = 1/2
+- sin 45° = √(2/4) = 1/√2
+- sin 60° = √(3/4) = √3/2
+- sin 90° = √(4/4) = 1
+
+**Cos is just sin read backwards.** And **tan = sin ÷ cos**. So really, you memorise *one row* with a child's counting trick, and the whole table rebuilds itself.
+
+**🧠 Active Recall:** Without looking: what is sin 60°? What is cos 30°? (Notice anything?) What is tan 45°, and why is it exactly 1?
+
+---
+
+## Chunk 3: Complementary Angles — The Mirror Rule
+
+Two angles that add to 90° are called **complementary**. Here's the beautiful rule:
+
+> The sine of an angle equals the cosine of its complement.
+
+- sin θ = cos (90° − θ)
+- tan θ = cot (90° − θ)
+- sec θ = cosec (90° − θ)
+
+That's why sin 30° = cos 60° = 1/2. The "co" in cosine, cotangent, cosecant literally means "of the complement."
+
+**Exam favourite:** "If sin 3A = cos (A − 26°), find A." Since sin x = cos(90° − x), we get 3A + (A − 26°) = 90°, so 4A = 116°, A = 29°. One line of algebra — if you spot the mirror rule.
+
+**🧠 Active Recall:** Fill in the blanks: cos 70° = sin ___°. sec 25° = cosec ___°. If tan 2θ = cot 4θ, what is 2θ + 4θ?
+
+---
+
+## Chunk 4: The Three Identities — Your Power Tools
+
+Start with Pythagoras: in a right triangle, P² + B² = H². Divide everything by H²:
+
+> **sin²θ + cos²θ = 1** ← the mother identity
+
+Divide the mother by cos²θ:
+
+> **1 + tan²θ = sec²θ**
+
+Divide by sin²θ instead:
+
+> **1 + cot²θ = cosec²θ**
+
+Three identities, one parent. These power nearly every "prove that" and "evaluate" question in SSC and Banking exams.
+
+**Classic exam move:** If sin θ + cos θ = 1, find sin θ · cos θ. Square both sides: sin²θ + cos²θ + 2 sin θ cos θ = 1 → 1 + 2 sin θ cos θ = 1 → **sin θ cos θ = 0**. The identity did all the work.
+
+**🧠 Active Recall:** Derive 1 + tan²θ = sec²θ from sin²θ + cos²θ = 1 (one step). If sec θ − tan θ = 1/3, can you guess what sec θ + tan θ must be? (Hint: multiply the pair — what does (sec−tan)(sec+tan) equal?)
+
+---
+
+## Chunk 5: Heights and Distances — Trigonometry Goes Outside
+
+Two words unlock this whole topic:
+
+- **Angle of elevation** — you look *up* at something (top of a tower). Measured above the horizontal.
+- **Angle of depression** — you look *down* from somewhere high. Measured below the horizontal.
+
+The standard setup: a tower, a person on the ground, and the angle of elevation θ. Then:
+
+> **tan θ = height of tower / distance from tower**
+
+**Example:** From a point 20 m from the foot of a tower, the angle of elevation of the top is 60°. Height = 20 × tan 60° = 20√3 ≈ 34.6 m.
+
+**The shadow classic:** When the angle of elevation of the sun is 45°, a pole's shadow equals its height (because tan 45° = 1). At 30°, shadow = height × √3. At 60°, shadow = height ÷ √3. Exams ask this in dozens of disguises.
+
+**🧠 Active Recall:** A kite flies with its string making 60° to the ground. If the string is 60 m long, how high is the kite? (Which ratio connects height to the string — the hypotenuse?)
+
+---
+
+## Summary Table
+
+| Concept | Key fact | One-line use |
+|---|---|---|
+| Six ratios | sin=P/H, cos=B/H, tan=P/B; rest are reciprocals | Read any right triangle |
+| Standard table | sin row = √(0,1,2,3,4 / 4) | Instant values for 0°–90° |
+| Complementary rule | sin θ = cos(90°−θ) | Solve "sin A = cos B" equations |
+| Identities | sin²+cos²=1; 1+tan²=sec²; 1+cot²=cosec² | Prove & evaluate expressions |
+| Elevation/Depression | tan θ = height / distance | Tower, shadow, kite problems |
+
+---
+
+## 🔁 Review Reminder
+
+**Review this chapter after 2 days.** Rebuild the value table using only the √(n/4) trick, recite "Pandit Badri Prasad, Har Har Bole," and re-derive the three identities from Pythagoras. If all three come back in under 5 minutes — the chapter is yours. Then move to the Practice Sets.

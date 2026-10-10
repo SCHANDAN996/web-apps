@@ -1,3 +1,52 @@
-# Chapter: Statistics, Level: intermediate
+```mermaid
+graph TD
+    A["सांख्यिकी<br>Statistics"] --> B["आँकड़ों का संग्रह<br>Data Collection"]
+    A --> C["आँकड़ों का प्रस्तुतीकरण<br>Data Presentation"]
+    A --> D["केंद्रीय प्रवृत्ति के माप<br>Measures of Central Tendency"]
+    A --> E["विचलन के माप<br>Measures of Dispersion"]
+    A --> F["आरेखीय प्रस्तुति<br>Graphical Representation"]
 
-@content_agent 'Create a detailed mind map (Mermaid code) for the chapter "Statistics". Show main concepts, sub-concepts, and their interconnections clearly.'
+    B --> B1["प्राथमिक आँकड़े<br>Primary Data"]
+    B --> B2["द्वितीयक आँकड़े<br>Secondary Data"]
+    B --> B3["अवर्गीकृत / वर्गीकृत<br>Ungrouped / Grouped Data"]
+
+    C --> C1["बारंबारता बंटन<br>Frequency Distribution"]
+    C --> C2["वर्ग अंतराल<br>Class Interval"]
+    C --> C3["संचयी बारंबारता<br>Cumulative Frequency"]
+    C --> C4["वर्ग चिह्न / मध्य बिंदु<br>Class Mark / Midpoint"]
+
+    D --> D1["माध्य<br>Mean"]
+    D --> D2["माध्यिका<br>Median"]
+    D --> D3["बहुलक<br>Mode"]
+
+    D1 --> D1a["प्रत्यक्ष विधि<br>Direct Method"]
+    D1 --> D1b["कल्पित माध्य विधि<br>Assumed Mean Method"]
+    D1 --> D1c["पद-विचलन विधि<br>Step Deviation Method"]
+
+    D2 --> D2a["विषम पद: (n+1)/2 वाँ पद<br>Odd n: (n+1)/2th term"]
+    D2 --> D2b["सम पद: दो मध्य पदों का औसत<br>Even n: average of two middle terms"]
+
+    D3 --> D3a["अधिकतम बारंबारता वाला मान<br>Value with highest frequency"]
+
+    D1 -.->|संबंध| G["अनुभवजन्य संबंध<br>Empirical Relation:<br>3 Median = Mode + 2 Mean"]
+    D2 -.-> G
+    D3 -.-> G
+
+    E --> E1["परास<br>Range"]
+    E --> E2["माध्य विचलन<br>Mean Deviation"]
+    E --> E3["प्रसरण<br>Variance"]
+    E --> E4["मानक विचलन<br>Standard Deviation"]
+    E --> E5["विचरण गुणांक<br>Coefficient of Variation (CV)"]
+
+    E3 --> E4
+    E4 --> E5
+
+    F --> F1["दंड आरेख<br>Bar Graph"]
+    F --> F2["आयत चित्र<br>Histogram"]
+    F --> F3["बारंबारता बहुभुज<br>Frequency Polygon"]
+    F --> F4["तोरण (ओजाइव)<br>Ogive / Cumulative Frequency Curve"]
+    F --> F5["पाई चार्ट<br>Pie Chart"]
+
+    F4 -.->|माध्यिका ज्ञात करने में| D2
+    F2 -.->|बहुलक ज्ञात करने में| D3
+```

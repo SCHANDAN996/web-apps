@@ -1,0 +1,45 @@
+```mermaid
+graph TD
+    A["अक्षर आधारित प्रश्न<br>Alphabet Questions"] --> B["आधारभूत ज्ञान<br>Basics"]
+    A --> C["प्रश्नों के प्रकार<br>Types of Questions"]
+    A --> D["रणनीतियाँ<br>Strategies"]
+    A --> E["समय प्रबंधन<br>Time Management"]
+    A --> F["परीक्षक के जाल<br>Common Traps"]
+
+    B --> B1["स्थान मान याद करें<br>Place Values A=1 … Z=26"]
+    B --> B2["विपरीत अक्षर युग्म<br>Opposite Pairs: A-Z, B-Y … M-N"]
+    B --> B3["EJOTY तकनीक<br>E=5, J=10, O=15, T=20, Y=25"]
+    B --> B4["विपरीत स्थान = 27 − स्थान<br>Reverse Position = 27 − n"]
+
+    C --> C1["स्थान-मान प्रश्न<br>Position Value Questions"]
+    C --> C2["बाएँ/दाएँ से स्थिति<br>Position from Left/Right"]
+    C --> C3["अक्षर युग्म गिनती<br>Letter Pair Counting"]
+    C --> C4["शब्द निर्माण<br>Word Formation"]
+    C --> C5["वर्णमाला श्रृंखला<br>Alphabet Series"]
+    C --> C6["शब्दकोश क्रम<br>Dictionary Order"]
+    C --> C7["उलटा क्रम / आधा उलटा<br>Reversed / Half-Reversed Alphabet"]
+
+    C2 --> C2A["बाएँ से nवाँ = n<br>Left n = n"]
+    C2 --> C2B["दाएँ से nवाँ = 27 − n<br>Right n = 27 − n"]
+    C2 --> C2C["बाएँ से स्थिति + दाएँ से स्थिति = 27<br>Left Position + Right Position = 27"]
+
+    C3 --> C3A["शब्द के अक्षरों के बीच<br>अंग्रेजी वर्णमाला जितने अक्षर<br>Pairs with same gap as in alphabet"]
+    C3 --> C3B["आगे और पीछे दोनों दिशा जाँचें<br>Check Forward & Backward"]
+
+    D --> D1["EJOTY से तुरंत स्थान<br>Instant Position via EJOTY"]
+    D --> D2["विकल्प से उलटा हल<br>Back-solving from Options"]
+    D --> D3["श्रृंखला में अंतर पैटर्न<br>Gap Pattern in Series: +1, +2, ×2…"]
+    D --> D4["स्वर/व्यंजन अलग करें<br>Separate Vowels/Consonants"]
+
+    E --> E1["स्थान-मान प्रश्न: 15 सेकंड<br>Position Qs: 15 sec"]
+    E --> E2["युग्म/श्रृंखला: 30–45 सेकंड<br>Pair/Series: 30–45 sec"]
+    E --> E3["कठिन शब्द-निर्माण छोड़ें<br>Skip lengthy word-formation"]
+    E --> E4["पहले आसान सेट हल करें<br>Attempt easy sets first"]
+
+    F --> F1["बाएँ/दाएँ उलटना<br>Left-Right Confusion"]
+    F --> F2["27 − n भूलना<br>Forgetting 27 − n Rule"]
+    F --> F3["युग्म गिनती में दिशा छूटना<br>Missing Backward Pairs"]
+    F --> F4["श्रृंखला में दोहरा पैटर्न<br>Alternating/Double Series Trap"]
+    F --> F5["'नहीं' वाले नकारात्मक प्रश्न<br>Negative-worded Questions"]
+    F --> F6["उलटी वर्णमाला में स्थान गलती<br>Position Error in Reversed Alphabet"]
+```

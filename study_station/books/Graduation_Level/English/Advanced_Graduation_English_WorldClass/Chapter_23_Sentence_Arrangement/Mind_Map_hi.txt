@@ -1,0 +1,30 @@
+```mermaid
+graph TD
+    A["वाक्य क्रम<br>Sentence Arrangement"] --> B["पहचान के संकेत<br>Opening Clues"]
+    A --> C["जोड़े बनाना<br>Mandatory Pairs"]
+    A --> D["क्रम की जाँच<br>Sequence Logic"]
+    A --> E["परीक्षक के जाल<br>Traps"]
+    A --> F["रणनीति<br>Strategy"]
+
+    B --> B1["सर्वनाम से शुरुआत नहीं<br>He, It, This = बाद में"]
+    B --> B2["परिचय वाक्य पहले<br>General → Specific"]
+    B --> B3["संकेतक शब्द<br>However, Therefore, Also"]
+
+    C --> C1["Noun → Pronoun<br>पहले नाम, फिर सर्वनाम"]
+    C --> C2["Cause → Effect<br>कारण पहले, परिणाम बाद"]
+    C --> C3["Question → Answer<br>प्रश्न पहले, उत्तर बाद"]
+    C --> C4["General → Example<br>कथन पहले, उदाहरण बाद"]
+
+    D --> D1["कालक्रम<br>Chronology"]
+    D --> D2["तर्क क्रम<br>Idea → Support → Conclusion"]
+    D --> D3["Linking Words<br>Firstly, Moreover, Finally"]
+
+    E --> E1["Sound-Right जाल<br>सुनने में सही, क्रम में गलत"]
+    E --> E2["Intervening Phrase<br>बीच का वाक्य भ्रमित करता है"]
+    E --> E3["Over-thinking<br>सरल क्रम को जटिल मत बनाओ"]
+
+    F --> F1["15 सेकंड नियम<br>स्पष्ट Pair वाले प्रश्न"]
+    F --> F2["45 सेकंड नियम<br>6 वाक्यों वाले जटिल क्रम"]
+    F --> F3["Elimination<br>पहला-अंतिम वाक्य पकड़ो, विकल्प काटो"]
+    F --> F4["Skip Strategy<br>2 मिनट से ज़्यादा लगे तो छोड़ो"]
+```

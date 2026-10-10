@@ -1,0 +1,57 @@
+```mermaid
+graph TD
+    A["आर्थिक शब्दावली और अवधारणाएँ<br>Economic Terms & Concepts"] --> B["राष्ट्रीय आय<br>National Income"]
+    A --> C["मुद्रास्फीति<br>Inflation"]
+    A --> D["बैंकिंग और मौद्रिक नीति<br>Banking & Monetary Policy"]
+    A --> E["बजट और राजकोषीय नीति<br>Budget & Fiscal Policy"]
+    A --> F["विदेशी व्यापार<br>Foreign Trade"]
+    A --> G["कराधान<br>Taxation"]
+    A --> H["परीक्षक के जाल<br>Examiner's Traps"]
+    A --> I["रणनीति<br>Strategy"]
+
+    B --> B1["GDP: देश की सीमा के भीतर उत्पादन<br>Production within borders"]
+    B --> B2["GNP = GDP + विदेशों से शुद्ध आय<br>Net income from abroad"]
+    B --> B3["NNP = GNP − मूल्यह्रास<br>Depreciation"]
+    B --> B4["प्रति व्यक्ति आय = राष्ट्रीय आय ÷ जनसंख्या<br>Per Capita Income"]
+    B --> B5["आधार वर्ष बनाम चालू कीमतें<br>Base Year vs Current Prices"]
+
+    C --> C1["मुद्रास्फीति: कीमतों में वृद्धि<br>General price rise"]
+    C --> C2["अपस्फीति: कीमतों में गिरावट<br>Deflation"]
+    C --> C3["स्टैगफ्लेशन: मंदी + महंगाई<br>Stagnation + Inflation"]
+    C --> C4["WPI बनाम CPI<br>Wholesale vs Consumer Index"]
+    C --> C5["मांग-जनित बनाम लागत-जनित<br>Demand-pull vs Cost-push"]
+
+    D --> D1["RBI: केंद्रीय बैंक (1935 स्थापना)<br>Central Bank est. 1935"]
+    D --> D2["रेपो दर: RBI से बैंकों को ऋण<br>Repo Rate"]
+    D --> D3["रिवर्स रेपो: बैंकों से RBI को जमा<br>Reverse Repo"]
+    D --> D4["CRR: RBI के पास नकद आरक्षित<br>Cash Reserve Ratio"]
+    D --> D5["SLR: तरल संपत्ति में आरक्षित<br>Statutory Liquidity Ratio"]
+    D --> D6["मुद्रा आपूर्ति: M1, M2, M3, M4<br>Money Supply Measures"]
+
+    E --> E1["राजकोषीय घाटा = व्यय − आय (ऋण छोड़कर)<br>Fiscal Deficit"]
+    E --> E2["राजस्व घाटा बनाम प्राथमिक घाटा<br>Revenue vs Primary Deficit"]
+    E --> E3["FRBM अधिनियम 2003<br>Fiscal Responsibility Act"]
+    E --> E4["विनिवेश: सरकारी हिस्सेदारी बिक्री<br>Disinvestment"]
+
+    F --> F1["भुगतान संतुलन (BoP)<br>Balance of Payments"]
+    F --> F2["चालू खाता बनाम पूंजी खाता<br>Current vs Capital Account"]
+    F --> F3["विनिमय दर: तैरती बनाम स्थिर<br>Floating vs Fixed Rate"]
+    F --> F4["विदेशी मुद्रा भंडार<br>Forex Reserves"]
+    F --> F5["FDI बनाम FII/FPI<br>Direct vs Portfolio Investment"]
+
+    G --> G1["प्रत्यक्ष कर: आयकर, निगम कर<br>Direct Taxes"]
+    G --> G2["अप्रत्यक्ष कर: GST<br>Indirect Taxes"]
+    G --> G3["GST: 1 जुलाई 2017 से<br>GST since 1 July 2017"]
+    G --> G4["कर का प्रभाव बनाम भार<br>Impact vs Incidence"]
+
+    H --> H1["जाल 1: GDP बनाम GNP भ्रम<br>GDP vs GNP Confusion"]
+    H --> H2["जाल 2: रेपो बनाम रिवर्स रेपो उलटना<br>Repo vs Reverse Repo Swap"]
+    H --> H3["जाल 3: WPI बनाम CPI मिलान<br>WPI vs CPI Mix-up"]
+    H --> H4["जाल 4: घाटों के नामों का भ्रम<br>Deficit Types Confusion"]
+    H --> H5["जाल 5: लगभग-सही कथन<br>Almost-True Statements"]
+
+    I --> I1["परिभाषा + सूत्र + उदाहरण साथ याद करें<br>Definition + Formula + Example"]
+    I --> I2["तुलना तालिकाएँ बनाएँ<br>Make Comparison Tables"]
+    I --> I3["15/45 सेकंड नियम<br>15/45 Second Rule"]
+    I --> I4["अनिश्चित प्रश्न छोड़ें<br>Skip Uncertain Questions"]
+```

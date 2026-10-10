@@ -1,0 +1,43 @@
+```mermaid
+graph TD
+    A["PRONOUN<br>A word used in place of a Noun"] --> B["Types of Pronouns"]
+    A --> C["Golden Rules"]
+    A --> D["Examiner's Traps"]
+    A --> E["Exam Strategy"]
+
+    B --> B1["Personal<br>I, we, you, he, she, it, they"]
+    B --> B2["Possessive<br>mine, ours, yours, his, hers, theirs"]
+    B --> B3["Reflexive<br>myself, himself, themselves"]
+    B --> B4["Demonstrative<br>this, that, these, those"]
+    B --> B5["Interrogative<br>who, whom, whose, which, what"]
+    B --> B6["Relative<br>who, whom, whose, which, that"]
+    B --> B7["Indefinite<br>someone, anybody, each, everyone"]
+    B --> B8["Reciprocal<br>each other, one another"]
+    B --> B9["Distributive<br>each, either, neither"]
+
+    C --> C1["Rule 1: Pronoun agrees with its<br>Antecedent in number and gender"]
+    C --> C2["Rule 2: Each / Either / Neither<br>take SINGULAR verb"]
+    C --> C3["Rule 3: Order of persons<br>231 Good, 123 Bad"]
+    C --> C4["Rule 4: Verb + Preposition<br>takes OBJECTIVE case (me, him)"]
+    C --> C5["Rule 5: Who = Subject<br>Whom = Object"]
+    C --> C6["Rule 6: Reflexive needs a subject<br>He availed himself..."]
+    C --> C7["Rule 7: One... one's / his<br>never his or her mixed"]
+    C --> C8["Rule 8: Everyone / Everybody<br>= Singular pronoun (his, not their)"]
+    C --> C9["Rule 9: Each other = two<br>One another = more than two"]
+    C --> C10["Rule 10: Than / As followed by<br>SUBJECTIVE case (than I, than he)"]
+    C --> C11["Rule 11: Relative 'that' after<br>superlative, all, only, same"]
+    C --> C12["Rule 12: Possessive has NO apostrophe<br>yours, hers, its, ours"]
+
+    D --> D1["TRAP: Between you and I<br>Correct: Between you and me"]
+    D --> D2["TRAP: Everyone... their<br>Correct: Everyone... his"]
+    D --> D3["TRAP: It's vs Its<br>It's = It is; Its = possessive"]
+    D --> D4["TRAP: Who vs Whom<br>Answer he = who; him = whom"]
+    D --> D5["TRAP: Myself without subject<br>Myself went to Delhi = WRONG"]
+
+    E --> E1["15-sec FACT questions<br>Case, agreement, reflexive"]
+    E --> E2["45-sec INFERENCE questions<br>Error spotting in long sentences"]
+    E --> E3["Step 1: Find the antecedent"]
+    E --> E4["Step 2: Check number and gender"]
+    E --> E5["Step 3: Check case<br>subject or object"]
+    E --> E6["Skip Strategy: If two options look<br>correct, check the antecedent again"]
+```

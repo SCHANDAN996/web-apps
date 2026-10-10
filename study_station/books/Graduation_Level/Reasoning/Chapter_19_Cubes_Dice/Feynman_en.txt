@@ -1,0 +1,39 @@
+# 🧒 The Feynman Way — Cubes & Dice Explained Like You're 12
+
+## The Story of the Painted Box
+
+Imagine your uncle gives you a big wooden cube for your birthday — like a giant Rubik's cube, but plain. You decide to paint it bright red on **all six faces**. Once the paint dries, you take a saw and cut it into smaller cubes — 2 cuts along each edge, giving you 3 pieces per edge and 27 little cubes in total (3 × 3 × 3).
+
+Now here's the fun part. You pick up the little cubes one by one and notice something strange:
+
+- **Some cubes have 3 faces painted.** Where were they hiding? Right at the **corners**! A cube has exactly **8 corners**, so exactly **8 little cubes** got 3 painted faces. Always 8 — whether the big cube was cut into 27 pieces or 1000 pieces. Corners are corners.
+- **Some have 2 faces painted.** These sat on the **edges**, but not at the corners. Each edge of a 3×3×3 cube has only **1** such middle cube, and a cube has **12 edges** — so 12 cubes with 2 painted faces.
+- **Some have just 1 face painted.** These were stuck in the **middle of each face** — never touching an edge. A 3×3×3 cube has 1 such cube per face × 6 faces = **6 cubes**.
+- **And one lucky cube has NO paint at all!** It was buried deep inside, completely hidden. (3−2)³ = **1 cube**.
+
+That's it. You now understand the hardest cube-cutting concept in every competitive exam — because you *saw* it, not memorized it.
+
+## The Unforgettable Trick: "Corner-Edge-Face-Core"
+
+Think of the big cube as a house:
+
+- **Corners** = the 8 pillars of the house → **3 painted faces** (always 8, never changes!)
+- **Edges** = the 12 doorframes → **2 painted faces** → formula: **12 × (n − 2)**
+- **Faces** = the 6 walls → **1 painted face** → formula: **6 × (n − 2)²**
+- **Core** = the treasure room inside → **0 painted faces** → formula: **(n − 2)³**
+
+where **n** = number of small cubes along one edge.
+
+**Memory hook:** "The **C**at **E**ats **F**ish in the **C**ellar" — **C**orner (3 faces), **E**dge (2 faces), **F**ace (1 face), **C**ellar/Core (0 faces). And notice the pattern: the formulas go 8, 12(n−2), 6(n−2)², (n−2)³ — the powers of (n−2) climb 0, 1, 2, 3 while the multipliers fall 8, 12, 6, 1. Beautiful symmetry!
+
+## The Dice Version of the Same Story
+
+Now imagine those little cubes are dice. A **standard die** has one golden rule: **opposite faces always add to 7** (1↔6, 2↔5, 3↔4). So if an exam shows you two views of the same die and one face is common, the faces you *can't* see touching it are its opposite. If **two faces are common** in both views, the remaining two faces are opposite to each other. If **one face is common and in the same position**, rotate around it — the faces that line up are opposites.
+
+**Examiner's trap:** They show a die where 1 is next to 6 and ask "is this a standard die?" — NO! On a standard die, 1 and 6 can never touch, because they're opposites. If two faces adding to 7 appear side by side, it's a **non-standard (general) die**.
+
+## 📝 Blurting Sheet
+
+Now try to write down all key points of this chapter on a blank sheet without looking up — the four painted-cube formulas, the standard-die rule, the opposite-face tricks, and the examiner's traps. Whatever you couldn't recall is exactly what you need to revise tonight.
+
+**Question for you:** If a cube is cut into 64 small cubes (4 × 4 × 4), how many small cubes will have exactly 2 painted faces — and can you get the answer in under 10 seconds using the trick above?

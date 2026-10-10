@@ -1,0 +1,41 @@
+```mermaid
+graph TD
+    A["आँकड़ों की पर्याप्तता<br>Data Sufficiency"] --> B["मूल सिद्धांत<br>Core Principle"]
+    A --> C["प्रश्न के प्रकार<br>Types of Questions"]
+    A --> D["हल करने की रणनीति<br>Solving Strategy"]
+    A --> E["उत्तर विकल्प<br>Answer Options"]
+    A --> F["समय प्रबंधन<br>Time Management"]
+    A --> G["परीक्षक के जाल<br>Examiner Traps"]
+
+    B --> B1["उत्तर निकालना नहीं,<br>केवल पर्याप्तता जाँचनी है<br>Check sufficiency, don't solve"]
+    B --> B2["हर कथन अलग जाँचें<br>Test each statement alone first"]
+    B --> B3["फिर दोनों मिलाकर जाँचें<br>Then test both combined"]
+
+    C --> C1["दो-कथन प्रश्न<br>Two-Statement Questions"]
+    C --> C2["तीन-कथन प्रश्न<br>Three-Statement Questions"]
+    C --> C3["तर्क/निष्कर्ष आधारित<br>Reasoning-based DS"]
+    C --> C4["गणित आधारित<br>Quant-based DS"]
+    C --> C5["कोडिंग/रक्त संबंध/दिशा<br>Coding, Blood Relation, Direction"]
+
+    D --> D1["चरण 1: प्रश्न ध्यान से पढ़ें<br>Step 1: Read question carefully"]
+    D --> D2["चरण 2: केवल कथन I जाँचें<br>Step 2: Test Statement I alone"]
+    D --> D3["चरण 3: केवल कथन II जाँचें<br>Step 3: Test Statement II alone"]
+    D --> D4["चरण 4: ज़रूरत हो तो I+II मिलाकर<br>Step 4: Combine I+II if needed"]
+    D --> D5["अद्वितीय उत्तर चाहिए<br>Unique answer required"]
+
+    E --> E1["(a) केवल I पर्याप्त<br>Only I sufficient"]
+    E --> E2["(b) केवल II पर्याप्त<br>Only II sufficient"]
+    E --> E3["(c) I या II अकेला पर्याप्त<br>Either I or II alone"]
+    E --> E4["(d) दोनों मिलकर पर्याप्त<br>Both together sufficient"]
+    E --> E5["(e) दोनों मिलकर भी अपर्याप्त<br>Both together not sufficient"]
+
+    F --> F1["45–60 सेकंड प्रति प्रश्न<br>45–60 sec per question"]
+    F --> F2["पूर्ण गणना में समय न गँवाएँ<br>Don't waste time in full calculation"]
+    F --> F3["कठिन प्रश्न छोड़ना सीखें<br>Learn to skip hard ones"]
+
+    G --> G1["उत्तर निकालने का लोभ<br>Temptation to solve fully"]
+    G --> G2["दो संभावित उत्तर = अपर्याप्त<br>Two possible answers = insufficient"]
+    G --> G3["कथनों को मिलाकर पहले से मान लेना<br>Assuming statements together prematurely"]
+    G --> G4["सामान्य ज्ञान मिलाना<br>Mixing outside/general knowledge"]
+    G --> G5["'Either' बनाम 'Both' भ्रम<br>Either vs Both confusion"]
+```

@@ -1,17 +1,80 @@
-# Short Tricks: Cubes & Dice
+🪄 Short Tricks + Skip Strategy
 
-Trick: Memorise the four painted-cube formulas — 3 painted = 8 (corners); 2 painted = 12(n−2); 1 painted = 6(n−2)²; 0 painted = (n−2)³.
+🃏 Mnemonic 1: The “Seven Heaven” Rule
 
-Trick: The corner pieces (3 painted faces) are always 8 — whatever n is.
+“1 and 6 pick up sticks, 2 and 5 dance a jive, 3 and 4 love to score — opposite pairs always sum to 7 in a standard dice.”
+Trick: To find an opposite, subtract the number from 7. Done in one second.
 
-Trick: Total small cubes = n³. As a check, the four counts should add up to n³.
+🃏 Mnemonic 2: Clockwise Cousins
 
-Trick: On a die, the opposite number = 7 − the given number (standard die).
+“When a face appears twice, roll your eyes clockwise twice!”
+Trick: In two views with a common face, imagine yourself standing on that face. Turn clockwise and note the first neighbour in each view. Those two neighbours are opposite. The second neighbours are opposite too. No need to fold anything.
 
-Trick: Remember the pairs — 1↔6, 2↔5, 3↔4 (each pair sums to 7).
+🃏 Mnemonic 3: O‑CAN
 
-Trick: In a two-position die, treat the number common to both as fixed, then rotate the rest.
+“Opposite Cannot be Adjacent, Never!”
+Trick: In any open dice net, if two faces share an edge, they will NEVER be opposite. First rule out all touching pairs, then use the cross‑stretch rule for the rest.
 
-Skip Strategy: Skip tangled two-die puzzles; do the direct painted-cube formula questions first.
+🃏 Mnemonic 4: Cross‑Stretch Marriage
 
-💡 Mnemonic: "Corner 3, edge 2, face 1, inner 0" and "the magic of 7 on a die".
+“First marries Third, Second marries Fourth, Top elopes with Bottom.”
+Trick: In the classic cross net, the middle row has four faces. The 1st and 3rd are opposite, 2nd and 4th are opposite. The lone face on top is opposite the lone face at the bottom. Voilà!
+
+🃏 Mnemonic 5: T‑Shirt Arms
+
+“Arms of the T‑shirt hug each other, they never become opposite!”
+Trick: In a T‑shaped net, the two faces at the ends of the horizontal arms become adjacent when folded. They look far apart on the net, but they end up as neighbours. Never pair them as opposites.
+
+🃏 Mnemonic 6: 3‑2‑1‑0 Paint Song
+
+“Three on corners, eight my friend, Two on edges, that will never bend, One on faces, six flat squares, Zero inside, nobody stares.”
+Trick: Remember the sequence from outside in – 3,2,1,0. It directly gives the painted cube counts. Sing it before the exam, and you’ll never mess up the formulas.
+
+🃏 Mnemonic 7: Edge Magic Formula
+
+“Edges are 12, middle is (n‑2) – multiply them, 2‑face is born.”
+Trick: For 2‑face painted cubes, just remember: 12 edges × (n‑2) middle cubes per edge. For 1‑face, 6 faces × (n‑2)². For 0‑face, (n‑2)³. The “2” is constant, n varies.
+
+🃏 Mnemonic 8: “Only” vs “At least” Trap
+
+“Only two ignores the crew; at least two includes the corners too.”
+Trick: If question says “only two faces”, do NOT add the 8 corner cubes. If it says “at least two faces”, add them (they have three faces, which is at least two). One word changes the answer drastically.
+
+🃏 Mnemonic 9: The Top‑View Tower
+
+“Look down from the sky, write the heights, and sum them high.”
+Trick: For counting cubes in a solid, draw the top‑view grid, write the height of each column as seen from the top, and add them all. This single method works for almost every solid.
+
+🃏 Mnemonic 10: Hidden Cubes Scream
+
+“Front hides what’s behind; to find the hidden, always top‑view mind.”
+Trick: When counting hidden cubes from a specific view, don’t just look at the picture. Use the top‑view heights. A taller front column hides the back column’s cubes at lower levels.
+
+🃏 Mnemonic 11: The Non‑Standard Snake
+
+“If sum ain’t seven, don’t blame the heavens; use common‑face logic, it’s geometric magic.”
+Trick: Never assume opposite sum = 7 unless the question explicitly says “standard dice”. For non‑standard dice, only the clockwise/common‑face method works.
+
+🃏 Mnemonic 12: Folding Visualisation Shortcut
+
+“Base stays, walls rise – the opposite lies where the chain dies.”
+Trick: In an open dice net, pick any square as the base. Mentally fold the adjacent squares up. Two squares that are three steps apart along a straight line in the net become opposite.
+
+🃏 Mnemonic 13: The 8‑Corner Family
+
+“No matter how big, the corners are eight – they always have three faces, that’s their fate.”
+Trick: In any painted cube problem, the number of cubes with three painted faces is always 8. Period.
+
+🏃 Skip Strategy Tips
+
+Skip Tip 1: 15‑Second Rule for Opposites
+
+If you see two dice views and cannot identify a common face within 15 seconds, mark the question and move on. The common face is the key; without it, the puzzle often becomes a time‑sink. Return later with fresh eyes.
+
+Skip Tip 2: Net Folding Confusion
+
+If after 30 seconds you still cannot mentally fold an open dice net or identify even one opposite pair, use the O‑CAN rule to eliminate two options and make an educated guess. Do not spend more than 45 seconds total. A confused guess is better than a blank.
+
+Skip Tip 3: Complex Solids
+
+If a solid cube‑counting question has irregular steps, holes, or multiple layers that you cannot simplify into a top‑view grid within 20 seconds, skip it. These are rare but consume disproportionate time. Secure the easy dice and painted cube questions first.

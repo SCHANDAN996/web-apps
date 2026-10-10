@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="{{ lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>{% block title %}{{ tr('brand') }}{% endblock %}</title>
+  <meta name="description" content="{% block description %}{{ tr('tagline') }}{% endblock %}">
+  {% if site_url %}<link rel="canonical" href="{{ site_url }}{{ path }}">{% endif %}
+  {% block robots %}{% endblock %}
+  <meta name="theme-color" content="#F9F9FF" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#111318" media="(prefers-color-scheme: dark)">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/static/icon.svg?v={{ asset_v }}" type="image/svg+xml">
+  <script src="/static/js/theme.js?v={{ asset_v }}"></script>
+  <link rel="stylesheet" href="/static/css/app.css?v={{ asset_v }}">
+  {% block head %}{% endblock %}
+</head>
+<body class="{% block body_class %}{% endblock %}">
+{% include '_icons.html' %}
+<a class="sr-only" href="#main">{{ tr('skip_to_content') }}</a>
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="{{ tr('brand') }}"><span class="brand-mark"><svg class="icon icon-sm"><use href="#i-book"/></svg></span><span class="brand-name">{{ tr('brand') }}</span></a>
+    <div class="top-actions">
+      <button class="btn btn-ghost btn-sm" id="langBtn" data-next="{{ 'en' if lang == 'hi' else 'hi' }}" aria-label="Change language">
+        <svg class="icon icon-sm"><use href="#i-globe"/></svg>{{ tr('lang_switch') }}
+      </button>
+      <a class="btn btn-ghost icon-btn" href="/settings" aria-label="{{ tr('settings') }}"><svg class="icon"><use href="#i-gear"/></svg></a>
+    </div>
+  </div>
+</header>
+{% block nav %}
+<nav class="tabbar" aria-label="Main">
+  {% set tabs = [('/', 'i-home', 'nav_home'), ('/practice', 'i-book', 'nav_practice'), ('/mock', 'i-timer', 'nav_mock'), ('/revise', 'i-repeat', 'nav_revise'), ('/jobs', 'i-briefcase', 'nav_jobs')] %}
+  {% for href, icon, key in tabs %}
+  <a class="tab" href="{{ href }}" {% if (href == '/' and path == '/') or (href != '/' and path.startswith(href)) %}aria-current="page"{% endif %}>
+    <svg class="icon"><use href="#{{ icon }}"/></svg>{{ tr(key) }}
+  </a>
+  {% endfor %}
+</nav>
+{% endblock %}
+<main id="main" class="wrap">{% block main %}{% endblock %}</main>
+<script id="ss-boot" type="application/json">{{ {'lang': lang, 't': strings, 'ai': ai_enabled}|tojson }}</script>
+<script src="/static/js/app.js?v={{ asset_v }}" defer></script>
+{% block scripts %}{% endblock %}
+</body>
+</html>

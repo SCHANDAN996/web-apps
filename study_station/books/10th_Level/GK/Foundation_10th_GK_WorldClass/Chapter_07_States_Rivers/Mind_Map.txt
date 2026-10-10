@@ -1,0 +1,73 @@
+```mermaid
+graph TD
+    A["राज्य एवं नदियाँ<br>States & Rivers"]
+
+    A --> S["राज्य<br>States"]
+    A --> R["नदियाँ<br>Rivers"]
+    A --> T["परीक्षक के जाल<br>Examiner's Traps"]
+    A --> ST["रणनीति<br>Strategies"]
+
+    S --> S1["28 राज्य, 8 केंद्र शासित प्रदेश<br>28 States, 8 UTs since 26 Jan 2020"]
+    S --> S2["पुनर्गठन<br>Reorganisation"]
+    S --> S3["राजधानियाँ<br>Capitals"]
+    S --> S4["अंतरराष्ट्रीय सीमाएँ<br>Borders"]
+    S --> S5["सबसे बड़ा/छोटा<br>Largest/Smallest"]
+
+    S2 --> S2a["आंध्र राज्य 1953<br>First linguistic state"]
+    S2 --> S2b["राज्य पुनर्गठन अधिनियम 1956<br>Fazl Ali Commission 1953"]
+    S2 --> S2c["महाराष्ट्र, गुजरात 1960<br>Nagaland 1963, Haryana 1966"]
+    S2 --> S2d["छत्तीसगढ़, उत्तराखंड, झारखंड 2000<br>Telangana 2014"]
+    S2 --> S2e["J&K, लद्दाख UT<br>31 Oct 2019"]
+
+    S3 --> S3a["पूर्वोत्तर: ईटानगर, दिसपुर, शिलांग, कोहिमा<br>Imphal, Aizawl, Agartala, Gangtok"]
+    S3 --> S3b["चंडीगढ़: पंजाब + हरियाणा<br>Chandigarh shared capital"]
+    S3 --> S3c["श्री विजय पुरम 2024<br>formerly Port Blair"]
+
+    S4 --> S4a["बांग्लादेश: 5 राज्य<br>WB longest border"]
+    S4 --> S4b["म्यांमार: 4 राज्य<br>Arunachal, Nagaland, Manipur, Mizoram"]
+    S4 --> S4c["कर्क रेखा: 8 राज्य<br>Tropic of Cancer: 8 states"]
+
+    S5 --> S5a["क्षेत्रफल: राजस्थान / गोवा<br>Area: Rajasthan / Goa"]
+    S5 --> S5b["जनसंख्या 2011: उ.प्र. / सिक्किम<br>Population: UP / Sikkim"]
+    S5 --> S5c["UT: लद्दाख / लक्षद्वीप<br>Largest / Smallest UT"]
+
+    R --> H["हिमालयी नदियाँ - बारहमासी<br>Himalayan - perennial"]
+    R --> P["प्रायद्वीपीय नदियाँ - मौसमी<br>Peninsular - seasonal"]
+
+    H --> H1["सिंधु तंत्र<br>Indus: Jhelum, Chenab, Ravi, Beas, Sutlej"]
+    H --> H2["गंगा तंत्र<br>Ganga system"]
+    H --> H3["ब्रह्मपुत्र<br>Tsangpo - Dihang - Jamuna"]
+
+    H1 --> H1a["सिंधु जल संधि 1960<br>Ravi, Beas, Sutlej to India"]
+    H1 --> H1b["भाखड़ा - सतलुज, पोंग - ब्यास<br>Bhakra - Sutlej, Pong - Beas"]
+
+    H2 --> H2a["देवप्रयाग: भागीरथी + अलकनंदा<br>Ganga formed at Devprayag"]
+    H2 --> H2b["दायाँ तट: यमुना, सोन<br>Right bank: Yamuna, Son"]
+    H2 --> H2c["बायाँ तट: गोमती, घाघरा, गंडक, कोसी<br>Left bank tributaries"]
+    H2 --> H2d["प्रयागराज संगम, फरक्का, सुंदरबन<br>Prayagraj, Farakka, Sundarbans"]
+
+    H3 --> H3a["नामचा बरवा U-मोड़<br>U-turn at Namcha Barwa"]
+    H3 --> H3b["माजुली नदी-द्वीप<br>Majuli river island"]
+
+    P --> E["पूर्व-वाहिनी, डेल्टा<br>East-flowing, deltas"]
+    P --> W["पश्चिम-वाहिनी, ज्वारनदमुख<br>West-flowing, estuaries"]
+
+    E --> E1["महानदी - सिहावा, हीराकुंड<br>Mahanadi - Hirakud"]
+    E --> E2["गोदावरी - त्र्यंबकेश्वर, दक्षिण गंगा<br>Godavari - largest peninsular"]
+    E --> E3["कृष्णा - महाबलेश्वर, नागार्जुन सागर<br>Krishna - Tungabhadra, Musi"]
+    E --> E4["कावेरी - ब्रह्मगिरि, KRS, मेट्टूर<br>Kaveri - Sivasamudram falls"]
+
+    W --> W1["नर्मदा - अमरकंटक, भ्रंश घाटी<br>Narmada - rift valley, Sardar Sarovar"]
+    W --> W2["ताप्ती - मुलताई, सूरत<br>Tapi - Multai, Surat"]
+    W --> W3["माही, साबरमती, लूनी<br>Mahi crosses Tropic twice"]
+
+    T --> T1["लगभग सही: सरदार सरोवर ताप्ती पर?<br>Almost true: it is on Narmada"]
+    T --> T2["समान नाम: KRS कृष्णा पर?<br>Similar name: KRS is on Kaveri"]
+    T --> T3["कालानुक्रम: हिमाचल 1966 या 1971?<br>Chronology: full state 1971"]
+    T --> T4["नकारात्मक: कौन-सा राज्य नहीं?<br>Negative phrasing: read NOT twice"]
+
+    ST --> ST1["15 सेकंड: राजधानी, बाँध, उद्गम<br>15 sec: capital, dam, source"]
+    ST --> ST2["45 सेकंड: क्रम, बहु-कथन<br>45 sec: ordering, statements"]
+    ST --> ST3["सूत्र: जो चलेगा रास्ते बिना सहारा<br>Mnemonic: J-C-R-B-S"]
+    ST --> ST4["नक्शा बनाकर दोहराएँ<br>Revise by drawing the map"]
+```

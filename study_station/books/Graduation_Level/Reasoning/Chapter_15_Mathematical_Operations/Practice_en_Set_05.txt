@@ -1,0 +1,151 @@
+Questions 101–120: Medium | Questions 121–125: Hard
+
+101. If 'A' means '+', 'B' means '−', 'C' means '×' and 'D' means '÷', then the value of 12 C 3 A 8 B 6 D 2 is:
+(a) 41 (b) 39 (c) 43 (d) 37
+Answer: (a)
+Solution: Replacing the letters gives 12 × 3 + 8 − 6 ÷ 2. By BODMAS, 12 × 3 = 36 and 6 ÷ 2 = 3, so 36 + 8 − 3 = 41. The tempting wrong option 39 comes from subtracting 6 from 8 before dividing, so the answer is 41.
+Source: PYQ-style
+
+102. If 'P' means '+', 'Q' means '−', 'R' means '×' and 'S' means '÷', then the value of 24 S 6 R 3 Q 5 P 2 is:
+(a) 7 (b) 11 (c) 13 (d) 9
+Answer: (d)
+Solution: Replacing the letters gives 24 ÷ 6 × 3 − 5 + 2. By BODMAS, 24 ÷ 6 = 4 and 4 × 3 = 12, so 12 − 5 + 2 = 9. The tempting wrong option 11 comes from adding 2 before subtracting 5, so the answer is 9.
+Source: PYQ-style
+
+103. If 'P' denotes '×', 'Q' denotes '÷', 'R' denotes '+' and 'S' denotes '−', then the value of 18 Q 3 P 2 R 5 S 4 is:
+(a) 15 (b) 17 (c) 13 (d) 11
+Answer: (c)
+Solution: Replacing the letters gives 18 ÷ 3 × 2 + 5 − 4. By BODMAS, 18 ÷ 3 = 6 and 6 × 2 = 12, so 12 + 5 − 4 = 13. The tempting wrong option 15 comes from adding 5 before multiplying by 2, so the answer is 13.
+Source: PYQ-style
+
+104. If 4 * 3 = 19 and 5 * 2 = 27, then 6 * 4 = ?
+(a) 40 (b) 36 (c) 44 (d) 38
+Answer: (a)
+Solution: The rule is a * b = a² + b: 4² + 3 = 19 and 5² + 2 = 27, both fit. So 6² + 4 = 36 + 4 = 40. The tempting wrong option 36 comes from forgetting to add b after squaring, so the answer is 40.
+Source: PYQ-style
+
+105. If 4 @ 3 = 7 and 8 @ 5 = 13, then 10 @ 7 = ?
+(a) 17 (b) 15 (c) 19 (d) 13
+Answer: (a)
+Solution: The rule is simple addition: 4 + 3 = 7 and 8 + 5 = 13, both fit. So 10 + 7 = 17. The trap is hunting for a complicated formula when plain addition fits both pairs, so the answer is 17.
+Source: PYQ-style
+
+106. If 3 # 4 = 25 and 5 # 2 = 29, then 6 # 3 = ?
+(a) 39 (b) 42 (c) 45 (d) 36
+Answer: (c)
+Solution: The rule is a # b = a² + b²: 9 + 16 = 25 and 25 + 4 = 29, both fit. So 36 + 9 = 45. The tempting wrong option 39 comes from computing 6² + 3 instead of 6² + 3², so the answer is 45.
+Source: PYQ-style
+
+107. If 5 $ 4 = 41 and 6 $ 3 = 45, then 7 $ 2 = ?
+(a) 51 (b) 53 (c) 49 (d) 55
+Answer: (b)
+Solution: The rule is a $ b = a² + b²: 25 + 16 = 41 and 36 + 9 = 45, both fit. So 49 + 4 = 53. The tempting wrong option 51 comes from computing 7² + 2 instead of 7² + 2², so the answer is 53.
+Source: PYQ-style
+
+108. If '+' means '−', '−' means '×', '×' means '÷' and '÷' means '+', then the value of 18 × 3 + 5 − 2 ÷ 4 is:
+(a) 2 (b) 0 (c) 4 (d) 6
+Answer: (b)
+Solution: Replacing the signs gives 18 ÷ 3 − 5 × 2 + 4. By BODMAS, 18 ÷ 3 = 6 and 5 × 2 = 10, so 6 − 10 + 4 = 0. The tempting wrong option 4 comes from subtracting and adding left to right without doing the multiplication first, so the answer is 0.
+Source: PYQ-style
+
+109. If 2 = 6, 3 = 12, 4 = 20 and 5 = 30, then 8 = ?
+(a) 64 (b) 72 (c) 56 (d) 48
+Answer: (b)
+Solution: The rule is n = n × (n + 1): 2 × 3 = 6, 3 × 4 = 12, 4 × 5 = 20 and 5 × 6 = 30, all fit. So 8 × 9 = 72. The tempting wrong option 64 comes from squaring 8 instead of multiplying by the next number, so the answer is 72.
+Source: PYQ-style
+
+110. If 1 = 4, 2 = 8, 3 = 12 and 4 = 16, then 7 = ?
+(a) 28 (b) 24 (c) 32 (d) 21
+Answer: (a)
+Solution: The rule is n = 4n: 1 × 4 = 4, 2 × 4 = 8, 3 × 4 = 12 and 4 × 4 = 16, all fit. So 7 × 4 = 28. The trap is assuming a complex pattern when simple multiplication by 4 fits every pair, so the answer is 28.
+Source: PYQ-style
+
+111. If 'A + B' means 'A is the father of B', 'A − B' means 'A is the mother of B' and 'A × B' means 'A is the brother of B', then which expression means 'P is the father of R'?
+(a) P + Q − R (b) P + R × Q (c) P + R (d) P × Q + R
+Answer: (c)
+Solution: By definition, 'P + R' directly means P is the father of R, with no extra person needed. The tempting wrong option P + Q − R does also make P the father of R, but it needlessly introduces Q and is not the direct expression, so the answer is P + R.
+Source: PYQ-style
+
+112. If 'M × N' means 'M is the wife of N', 'M + N' means 'M is the son of N' and 'M − N' means 'M is the sister of N', then in 'T + P × Q', how is T related to Q?
+(a) Nephew (b) Grandson (c) Brother (d) Son
+Answer: (d)
+Solution: T + P means T is the son of P, and P × Q means P is the wife of Q. Since T is the son of P and P is Q's wife, T is also the son of Q. The tempting wrong option grandson comes from wrongly inserting an extra generation between T and Q, so the answer is son.
+Source: PYQ-style
+
+113. If 4 & 3 = 16 and 5 & 2 = 15, then 6 & 4 = ?
+(a) 28 (b) 24 (c) 32 (d) 30
+Answer: (d)
+Solution: The rule is a & b = a × b + a: 4 × 3 + 4 = 16 and 5 × 2 + 5 = 15, both fit. So 6 × 4 + 6 = 24 + 6 = 30. The tempting wrong option 24 comes from stopping at the product and forgetting to add a, so the answer is 30.
+Source: PYQ-style
+
+114. If 'A' means '−', 'B' means '+', 'C' means '÷' and 'D' means '×', then the value of 30 C 5 D 2 A 4 B 3 is:
+(a) 9 (b) 13 (c) 11 (d) 15
+Answer: (c)
+Solution: Replacing the letters gives 30 ÷ 5 × 2 − 4 + 3. By BODMAS, 30 ÷ 5 = 6 and 6 × 2 = 12, so 12 − 4 + 3 = 11. The tempting wrong option 13 comes from adding 3 before subtracting 4, so the answer is 11.
+Source: PYQ-style
+
+115. If 9 % 3 = 6 and 12 % 4 = 8, then 15 % 5 = ?
+(a) 8 (b) 12 (c) 15 (d) 10
+Answer: (d)
+Solution: The rule is simple subtraction: 9 − 3 = 6 and 12 − 4 = 8, both fit. So 15 − 5 = 10. The trap is assuming division (9 ÷ 3 = 3), which fails the second pair, so the answer is 10.
+Source: PYQ-style
+
+116. If 4 ! 2 = 6 and 9 ! 3 = 12, then 12 ! 4 = ?
+(a) 8 (b) 12 (c) 16 (d) 20
+Answer: (c)
+Solution: The rule is simple addition: 4 + 2 = 6 and 9 + 3 = 12, both fit. So 12 + 4 = 16. The tempting wrong option 8 comes from dividing 12 by 4 and then adding 4, so the answer is 16.
+Source: PYQ-style
+
+117. If 'R' means '+', 'S' means '−', 'T' means '×' and 'U' means '÷', then the value of 20 U 5 T 2 R 6 S 3 is:
+(a) 11 (b) 13 (c) 9 (d) 15
+Answer: (a)
+Solution: Replacing the letters gives 20 ÷ 5 × 2 + 6 − 3. By BODMAS, 20 ÷ 5 = 4 and 4 × 2 = 8, so 8 + 6 − 3 = 11. The tempting wrong option 13 comes from adding 6 before multiplying by 2, so the answer is 11.
+Source: PYQ-style
+
+118. If 6 @ 4 = 10 and 11 @ 7 = 18, then 15 @ 9 = ?
+(a) 24 (b) 22 (c) 26 (d) 20
+Answer: (a)
+Solution: The rule is simple addition: 6 + 4 = 10 and 11 + 7 = 18, both fit. So 15 + 9 = 24. The trap is looking for a hidden multiplication when plain addition fits both pairs, so the answer is 24.
+Source: PYQ-style
+
+119. If 3 * 5 = 34 and 4 * 6 = 52, then 5 * 7 = ?
+(a) 72 (b) 70 (c) 74 (d) 68
+Answer: (c)
+Solution: The rule is a * b = a² + b²: 9 + 25 = 34 and 16 + 36 = 52, both fit. So 25 + 49 = 74. The tempting wrong option 70 comes from computing 2 × 5 × 7, so the answer is 74.
+Source: PYQ-style
+
+120. If 'A' means '×', 'B' means '+', 'C' means '−' and 'D' means '÷', then the value of 16 D 4 A 3 B 5 C 2 is:
+(a) 15 (b) 17 (c) 19 (d) 13
+Answer: (a)
+Solution: Replacing the letters gives 16 ÷ 4 × 3 + 5 − 2. By BODMAS, 16 ÷ 4 = 4 and 4 × 3 = 12, so 12 + 5 − 2 = 15. The tempting wrong option 17 comes from adding 5 before multiplying by 3, so the answer is 15.
+Source: PYQ-style
+
+121. If 2 # 3 = 13, 3 # 4 = 25 and 4 # 5 = 41, then 5 # 6 = ?
+(a) 59 (b) 55 (c) 57 (d) 61
+Answer: (d)
+Solution: The rule is a # b = a² + b²: 4 + 9 = 13, 9 + 16 = 25 and 16 + 25 = 41, all fit. So 25 + 36 = 61. The tempting wrong option 55 comes from computing 5 × 6 + 25, so the answer is 61.
+Source: PYQ-style
+
+122. If 'P + Q' means 'P is the brother of Q', 'P − Q' means 'P is the sister of Q', 'P × Q' means 'P is the father of Q' and 'P ÷ Q' means 'P is the mother of Q', then which expression means 'R is the maternal uncle of T'?
+(a) R + S × T (b) R + S ÷ T (c) R − S ÷ T (d) R × S ÷ T
+Answer: (b)
+Solution: A maternal uncle is the brother of the mother. In R + S ÷ T, R is the brother of S and S is the mother of T, so R is the brother of T's mother. The tempting wrong option R − S ÷ T makes R a sister, i.e. an aunt, so the answer is R + S ÷ T.
+Source: PYQ-style
+
+123. If '×' means '÷', '÷' means '+', '+' means '−' and '−' means '×', then the value of 48 × 8 − 4 + 2 ÷ 6 is:
+(a) 24 (b) 28 (c) 26 (d) 22
+Answer: (b)
+Solution: Replacing the signs gives 48 ÷ 8 × 4 − 2 + 6. By BODMAS, 48 ÷ 8 = 6 and 6 × 4 = 24, so 24 − 2 + 6 = 28. The tempting wrong option 26 comes from an arithmetic slip in the final addition, so the answer is 28.
+Source: PYQ-style
+
+124. If 7 $ 3 = 58 and 8 $ 4 = 80, then 9 $ 5 = ?
+(a) 104 (b) 106 (c) 102 (d) 108
+Answer: (b)
+Solution: The rule is a $ b = a² + b²: 49 + 9 = 58 and 64 + 16 = 80, both fit. So 81 + 25 = 106. The tempting wrong option 104 comes from a slip while adding the two squares, so the answer is 106.
+Source: PYQ-style
+
+125. If 'A × B' means 'A is the daughter of B', 'A + B' means 'A is the husband of B' and 'A − B' means 'A is the son of B', then in 'M × N + P − Q', how is M related to Q?
+(a) Mother (b) Daughter (c) Sister (d) Granddaughter
+Answer: (d)
+Solution: M × N means M is the daughter of N; N + P means N is the husband of P; P − Q means P is the son of Q. So N is the daughter-in-law of Q, and M, being N's daughter, is the granddaughter of Q. The trap is stopping at daughter by ignoring the chain through P, so the answer is granddaughter.
+Source: PYQ-style

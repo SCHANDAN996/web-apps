@@ -1,0 +1,32 @@
+# Important Rules & Approaches — Blood Relations (Coded)
+
+## Part 1: Key Rules/Approaches
+
+| Rule Name | Description | Example |
+|---|---|---|
+| Decode Symbols First | Before solving, write the meaning of every symbol (+, −, ×, ÷) in plain words. | A + B means "A is the father of B" |
+| Gender Rule | A symbol tells the relationship of the FIRST person to the SECOND; note who is male/female. | A − B = "A is the sister of B" → A is female |
+| Left-to-Right Reading | In coded chains, read consecutive pairs one by one from left to right and build the family step by step. | P + Q − R means decode P+Q (P is father of Q), then Q−R (Q is sister of R) |
+| Draw a Family Tree | Use a diagram: males in squares (□), females in circles (○), couples joined by =, generations stacked vertically. | □ = ○ shows a married couple |
+| Generation Levels | Parents/uncles/aunts go one level UP; children/nephews/nieces go one level DOWN; siblings/spouses stay on the SAME level. | Father → one level above; son → one level below |
+| Self-Reference Trap | "Pointing to" questions: replace "my" with the speaker and work backwards from the end of the sentence. | "She is the daughter of my mother's son" → start from "my mother's son" |
+| Elimination by Gender | If the question asks for a female relation (aunt, niece, sister), eliminate options needing a male. | "How is X related as niece?" → X must be female |
+| Verify the Full Chain | After decoding, re-read the whole expression once to confirm no pair was misread. | Check P × Q ÷ R again before answering |
+| Common Symbol Set | Most exams use: + (father/male parent), − (mother/female parent), × (brother), ÷ (sister) — but ALWAYS read the code given in the question, never assume. | Codes change from question to question |
+| Spouse ≠ Blood | Husband/wife relations are by marriage, not blood; keep them on the same level with = sign. | Brother's wife = sister-in-law |
+
+## Part 2: Time Management
+
+| Situation | Rule | Action |
+|---|---|---|
+| 15-Second Rule | If the symbol meanings are not clear within 15 seconds of reading, do not start guessing. | Mark the question and move on; return later |
+| 45-Second Rule | A standard coded blood-relation question should be solved within 45 seconds (decode + tree + answer). | If the family tree is still confusing after 45 seconds, skip |
+| Long Chains (4+ symbols) | Chains with 4 or more symbols take longer; attempt them only after finishing shorter questions. | Solve 2–3 symbol questions first |
+| "Pointing to" Questions | These need backward reading; give them up to 45 seconds, not more. | If the sentence has 3+ clauses, skip on first pass |
+| Revision Pass | In the last minutes, re-attempt skipped questions with a fresh family tree. | Attempt decoded questions only if confident — SSC, Railway and Bank exams deduct marks for wrong answers |
+
+## Part 3: Logical/Mathematical Formulas
+
+| Formula | Meaning | Use |
+|---|---|---|
+| No formulas for this chapter | Blood Relations is purely logical; there are no numerical formulas. | Success depends on symbol decoding, family-tree drawing, and generation tracking |

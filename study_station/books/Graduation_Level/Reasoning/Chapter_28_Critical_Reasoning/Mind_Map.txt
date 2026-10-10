@@ -1,0 +1,40 @@
+```mermaid
+graph TD
+    A["आलोचनात्मक तर्क<br>Critical Reasoning"] --> B["तर्क की संरचना<br>Argument Structure"]
+    A --> C["प्रश्न के प्रकार<br>Question Types"]
+    A --> D["रणनीतियाँ<br>Strategies"]
+    A --> E["समय प्रबंधन<br>Time Management"]
+    A --> F["परीक्षक के जाल<br>Common Traps"]
+
+    B --> B1["परिकल्पना<br>Assumption"]
+    B --> B2["निष्कर्ष<br>Conclusion"]
+    B --> B3["आधार<br>Premise"]
+    B --> B4["अनुमान<br>Inference"]
+    B --> B5["कारण-प्रभाव<br>Cause-Effect"]
+
+    C --> C1["कथन-परिकल्पना<br>Statement-Assumption"]
+    C --> C2["कथन-निष्कर्ष<br>Statement-Conclusion"]
+    C --> C3["कथन-तर्क<br>Statement-Argument"]
+    C --> C4["कथन-कार्यवाही<br>Statement-Course of Action"]
+    C --> C5["मजबूत/कमजोर करना<br>Strengthen-Weaken"]
+    C --> C6["विरोधाभास<br>Paradox"]
+    C --> C7["तर्क का मूल्यांकन<br>Evaluate Argument"]
+
+    D --> D1["पहले प्रश्न पढ़ें<br>Read Question First"]
+    D --> D2["निष्कर्ष पहचानें<br>Identify Conclusion"]
+    D --> D3["नकारात्मक परीक्षण<br>Negation Test"]
+    D --> D4["चरम शब्दों से सावधान<br>Beware Extreme Words"]
+    D --> D5["दायरे से बाहर विकल्प काटें<br>Eliminate Out-of-Scope"]
+
+    E --> E1["सरल प्रश्न: 30-40 सेकंड<br>Easy: 30-40 sec"]
+    E --> E2["कठिन प्रश्न: 60-90 सेकंड<br>Hard: 60-90 sec"]
+    E --> E3["लंबा गद्यांश = पहले छोड़ें<br>Long Passage = Skip First"]
+    E --> E4["अनुमान लगाने से पहले 2 विकल्प काटें<br>Eliminate 2 Before Guessing"]
+
+    F --> F1["लगभग-सही कथन<br>Almost-True Statements"]
+    F --> F2["कालक्रम भ्रम<br>Sequence Confusion"]
+    F --> F3["सभी/कुछ का उलटना<br>All vs Some Reversal"]
+    F --> F4["आवश्यक बनाम पर्याप्त<br>Necessary vs Sufficient"]
+    F --> F5["भावनात्मक/राय वाले विकल्प<br>Emotional/Opinion Options"]
+    F --> F6["साहचर्य बनाम कारण<br>Correlation vs Causation"]
+```

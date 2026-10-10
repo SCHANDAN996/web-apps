@@ -1,3 +1,149 @@
-# Chapter: Profit & Loss, Level: intermediate, Set: 6/6
+126. A shopkeeper marks his goods 40% above the cost price and allows a discount of 10% on the marked price. What is his profit percentage?
+(a) 30% (b) 28% (c) 24% (d) 26%
+Answer: (d)
+Solution: The tempting answer is 40 − 10 = 30%, but discount applies to the marked price, not the cost price. Let CP = ₹100, so MP = ₹140 and SP = 140 × 0.90 = ₹126. Profit = 126 − 100 = ₹26 on ₹100, so the answer is 26%.
+Source: NCERT Class 8 Maths (Comparing Quantities)
 
-@content_agent +mcq_generator_bilingual lang=en level=intermediate 'Generate 25 MCQs for Profit & Loss. This is Set 6 (total 6 sets, 150 questions). Questions must be numbered 126 to 150. All 25 questions should be Hard. Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'
+127. A single discount equivalent to two successive discounts of 20% and 25% is:
+(a) 40% (b) 42.5% (c) 45% (d) 35%
+Answer: (a)
+Solution: Simply adding 20 + 25 = 45% is the trap, because the second discount acts on the already reduced price. On ₹100: after 20% off, price = ₹80; after 25% off, price = 80 × 0.75 = ₹60. Total discount = 100 − 60 = ₹40, so the answer is 40%.
+Source: PYQ-style
+
+128. Selling an article for ₹X causes a loss of 25%, while selling it for ₹Y gives a profit of 25%. The ratio X : Y is:
+(a) 3 : 5 (b) 4 : 5 (c) 2 : 3 (d) 1 : 2
+Answer: (a)
+Solution: Do not assume the ratio is 1 : 2 just because the percentages look symmetric. X = 75% of CP and Y = 125% of CP, so X : Y = 75 : 125 = 3 : 5. Hence the answer is 3 : 5.
+Source: PYQ-style
+
+129. An article is sold at a profit of 25%. Had it been bought at 20% less and sold for ₹10.50 less, the profit would have been 30%. The original cost price is:
+(a) ₹40 (b) ₹50 (c) ₹45 (d) ₹60
+Answer: (b)
+Solution: A common slip is applying 30% to the original CP instead of the reduced CP. Let CP = C; SP = 1.25C. New CP = 0.8C, new SP = 1.25C − 10.50, and 1.25C − 10.50 = 1.30 × 0.8C = 1.04C. So 0.21C = 10.50, giving C = ₹50. Check: SP = 62.50; new CP = 40, new SP = 52, profit = 12/40 = 30%. The answer is ₹50.
+Source: PYQ-style
+
+130. A dishonest dealer claims to sell rice at cost price but uses a 900 g weight in place of 1 kg. His actual profit percentage is:
+(a) 11.11% (b) 10% (c) 12.5% (d) 9.09%
+Answer: (a)
+Solution: The trap is computing 100/1000 = 10%, but profit % is always on the cost actually incurred. He gives 900 g worth of goods and receives the price of 1000 g, so profit = 100/900 × 100 = 11.11%. The answer is 11.11%.
+Source: PYQ-style
+
+131. A trader marks his goods 25% above cost price, gives a 10% discount, and also cheats by giving only 900 g instead of 1 kg. His overall profit percentage is:
+(a) 12.5% (b) 25% (c) 20% (d) 15%
+Answer: (b)
+Solution: Ignoring the weight fraud and computing only 1.25 × 0.90 − 1 = 12.5% is the trap. For goods costing ₹0.90 (900 g), he charges 1.25 × 0.90 = ₹1.125. Profit = 1.125 − 0.90 = 0.225 on 0.90, i.e. 0.225/0.90 × 100 = 25%. The answer is 25%.
+Source: PYQ-style
+
+132. A sells an article to B at 20% profit, and B sells it to C at 25% profit. If C pays ₹600, the cost price for A was:
+(a) ₹450 (b) ₹400 (c) ₹480 (d) ₹500
+Answer: (b)
+Solution: Subtracting 45% from 600 is wrong because the profits compound. A's CP × 1.20 × 1.25 = 600, so A's CP = 600/1.5 = ₹400. The answer is ₹400.
+Source: PYQ-style
+
+133. A man buys two articles for the same price each. He sells one at a profit of 20% and the other at a loss of 20%. Overall he:
+(a) neither gains nor loses (b) loses 4% (c) gains 2% (d) gains 4%
+Answer: (a)
+Solution: The trap is assuming a 4% loss as in the equal-SP case; here the cost prices are equal, not the selling prices. Let each CP = ₹100; total CP = ₹200, total SP = 120 + 80 = ₹200. There is neither gain nor loss, so the answer is neither gains nor loses.
+Source: NCERT Class 8 Maths (Comparing Quantities)
+
+134. When the price of sugar falls by 20%, a family can buy 5 kg more sugar for ₹600. The reduced price of sugar per kg is:
+(a) ₹20 (b) ₹25 (c) ₹24 (d) ₹30
+Answer: (c)
+Solution: The trap is dividing 600 by 5 to get ₹120 or taking 20% of the wrong base. The saving due to the price fall is 20% of ₹600 = ₹120, and this saving buys 5 extra kg, so the reduced price = 120/5 = ₹24 per kg. The answer is ₹24.
+Source: PYQ-style
+
+135. A man sells an article at a loss of 5%. Had he sold it for ₹27 more, he would have gained 4%. The cost price is:
+(a) ₹270 (b) ₹320 (c) ₹300 (d) ₹350
+Answer: (c)
+Solution: The trap is treating ₹27 as 5% or 4% of CP; it actually bridges the gap from −5% to +4%, i.e. 9% of CP. So 9% of CP = 27, giving CP = 27 × 100/9 = ₹300. The answer is ₹300.
+Source: PYQ-style
+
+136. A trader sells two articles at ₹990 each. On one he gains 10% and on the other he loses 10%. His overall result is:
+(a) no profit, no loss (b) loss of ₹20 (c) profit of ₹20 (d) loss of ₹10
+Answer: (b)
+Solution: "No profit, no loss" is the classic trap; equal gain and loss percentages on equal selling prices always give a net loss. CP of first = 990/1.1 = ₹900, CP of second = 990/0.9 = ₹1100; total CP = ₹2000, total SP = ₹1980. Loss = ₹20, so the answer is loss of ₹20.
+Source: PYQ-style
+
+137. A merchant's profit is 20% of the selling price. His profit as a percentage of the cost price is:
+(a) 20% (b) 25% (c) 16.67% (d) 30%
+Answer: (b)
+Solution: Quoting 20% again is the trap because the base changes from SP to CP. If SP = ₹100, profit = ₹20 and CP = ₹80. Profit on CP = 20/80 × 100 = 25%. The answer is 25%.
+Source: PYQ-style
+
+138. A shopkeeper wants to earn a 25% profit after allowing a 20% discount on the marked price. By what percentage above the cost price should he mark his goods?
+(a) 45% (b) 50% (c) 56.25% (d) 60%
+Answer: (c)
+Solution: Adding 25 + 20 = 45% is the trap. MP × 0.80 = CP × 1.25, so MP/CP = 1.25/0.80 = 1.5625. The markup is 56.25% above CP, so the answer is 56.25%.
+Source: PYQ-style
+
+139. After allowing successive discounts of 10% and 20%, an article is sold for ₹144. Its marked price is:
+(a) ₹180 (b) ₹190 (c) ₹200 (d) ₹210
+Answer: (c)
+Solution: Adding the discounts to get 30% and computing 144/0.70 ≈ ₹205.7 is the trap. MP × 0.90 × 0.80 = 144, so MP = 144/0.72 = ₹200. The answer is ₹200.
+Source: PYQ-style
+
+140. The cost price of 16 articles equals the selling price of 12 articles. The profit percentage is:
+(a) 33⅓% (b) 25% (c) 30% (d) 40%
+Answer: (a)
+Solution: Taking 4/16 = 25% is the trap; profit must be measured on the cost side. Profit on the deal = 16 − 12 = 4 articles' worth against a cost of 12, so profit % = 4/12 × 100 = 33⅓%. The answer is 33⅓%.
+Source: PYQ-style
+
+141. A grocer mixes rice costing ₹40 per kg with rice costing ₹60 per kg and sells the mixture at ₹62.50 per kg, gaining 25%. The mixing ratio (cheaper : dearer) is:
+(a) 2 : 1 (b) 1 : 2 (c) 3 : 2 (d) 1 : 1
+Answer: (d)
+Solution: Using the selling price ₹62.50 directly in alligation is the trap; first find the mixture's cost price. CP of mixture = 62.50/1.25 = ₹50. By alligation, ratio = (60 − 50) : (50 − 40) = 10 : 10 = 1 : 1. The answer is 1 : 1.
+Source: NCERT Class 8 Maths (Comparing Quantities)
+
+142. A man sells a watch at a loss of 5%. Had he sold it for ₹56.25 more, he would have gained 10%. The cost price of the watch is:
+(a) ₹375 (b) ₹365 (c) ₹350 (d) ₹400
+Answer: (a)
+Solution: Treating ₹56.25 as 10% of CP is the trap; it covers the swing from −5% to +10%, i.e. 15% of CP. So CP = 56.25 × 100/15 = ₹375. The answer is ₹375.
+Source: PYQ-style
+
+143. An article is listed at ₹500. After three successive discounts of 10% each, its selling price is:
+(a) ₹350 (b) ₹360 (c) ₹370 (d) ₹364.50
+Answer: (d)
+Solution: Taking a flat 30% discount to get ₹350 is the trap; each discount acts on the reduced price. SP = 500 × 0.9 × 0.9 × 0.9 = 500 × 0.729 = ₹364.50. The answer is ₹364.50.
+Source: PYQ-style
+
+144. A shopkeeper offers "buy 4, get 1 free" on identical articles. The effective discount percentage is:
+(a) 20% (b) 25% (c) 15% (d) 10%
+Answer: (a)
+Solution: Computing 1/4 = 25% is the trap; the free article is measured against the total received. The customer pays for 4 and gets 5, so discount = 1/5 × 100 = 20%. The answer is 20%.
+Source: PYQ-style
+
+145. The ratio of the cost price to the selling price of an article is 5 : 6. The profit percentage is:
+(a) 16.67% (b) 15% (c) 25% (d) 20%
+Answer: (d)
+Solution: Computing 1/6 = 16.67% is the trap; profit % uses CP as the base. Profit = 6 − 5 = 1 part on CP of 5 parts, so profit % = 1/5 × 100 = 20%. The answer is 20%.
+Source: NCERT Class 8 Maths (Comparing Quantities)
+
+146. A man buys 11 oranges for ₹10 and sells 10 oranges for ₹11. His profit percentage is:
+(a) 20% (b) 10% (c) 21% (d) 11%
+Answer: (c)
+Solution: Assuming 10% because the numbers look swapped is the trap. CP per orange = 10/11, SP per orange = 11/10. Profit % = (11/10 − 10/11)/(10/11) × 100 = (21/110)/(10/11) × 100 = 21%. The answer is 21%.
+Source: PYQ-style
+
+147. A trader finds that if he doubles the selling price of an article, his profit triples. His original profit percentage is:
+(a) 50% (b) 100% (c) 75% (d) 200%
+Answer: (b)
+Solution: Let CP = C and original profit = P, so SP = C + P. Doubling SP triples profit: 2(C + P) = C + 3P, which gives C = P. Profit % = P/C × 100 = 100%. The answer is 100%.
+Source: PYQ-style
+
+148. Selling an article at 80% of its marked price yields a profit of 12%. If the article is sold at the full marked price, the profit percentage will be:
+(a) 32% (b) 35% (c) 45% (d) 40%
+Answer: (d)
+Solution: Adding 20% to 12% to get 32% is the trap. CP = 0.8M/1.12 = (5/7)M. Selling at M gives profit = M − (5/7)M = (2/7)M on CP (5/7)M, i.e. (2/7)/(5/7) × 100 = 40%. The answer is 40%.
+Source: PYQ-style
+
+149. A trader marks his goods 50% above the cost price and still earns a 20% profit after giving a discount. The discount percentage is:
+(a) 30% (b) 25% (c) 15% (d) 20%
+Answer: (d)
+Solution: Subtracting 50 − 20 = 30% is the trap because the discount is on the marked price. Let CP = ₹100, MP = ₹150, SP = ₹120. Discount = 30/150 × 100 = 20%. The answer is 20%.
+Source: PYQ-style
+
+150. An article passes through two dealers; the first gains 10% and the second gains 20%. If the final customer pays ₹660, the original cost price was:
+(a) ₹480 (b) ₹520 (c) ₹500 (d) ₹550
+Answer: (c)
+Solution: Deducting a flat 30% from 660 is the trap since the gains compound. CP × 1.10 × 1.20 = 660, so CP = 660/1.32 = ₹500. The answer is ₹500.
+Source: PYQ-style

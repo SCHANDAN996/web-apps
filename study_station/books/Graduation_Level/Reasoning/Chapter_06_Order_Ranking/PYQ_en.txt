@@ -1,0 +1,104 @@
+# 📊 PYQ Analysis — Order & Ranking (Advanced Level)
+
+## 1. How Exams Ask Questions from This Chapter
+
+Order & Ranking is a **permanent fixture** of the reasoning section in SSC CGL, IBPS PO/Clerk, RRB NTPC, and State PCS prelims. The questions are never about memorised facts — they test whether you can convert verbal statements into inequalities and count positions without double-counting. Across exams, the question styles repeat in these recognisable forms:
+
+**Sub-topics that appear again and again:**
+
+1. **Single-row position questions** — "Ravi is 12th from the left and 18th from the right; how many students are in the row?" (Formula: Total = Left + Right − 1)
+2. **Two-person interchange questions** — A and B swap positions; find the new rank or total strength.
+3. **Between-two-persons counting** — "How many persons sit between X and Y?" The trap is whether endpoints are included.
+4. **Comparison chains** — "A is taller than B but shorter than C; D is taller than C…" — building an inequality chain and finding the tallest/shortest or the one in the middle.
+5. **Rank from both ends after removal/addition** — some persons leave or join the row.
+6. **Overlapping/ambiguous statements** — deliberately incomplete data where the answer is "cannot be determined" (Banking exams love this).
+7. **Marks/age/height-based ranking** — same logic, different costume.
+
+**Exam-wise flavour (qualitative):**
+
+- **SSC CGL / CHSL / NTPC:** Direct formula-based questions dominate — single row, both-ends rank, interchange. Usually solvable in 15–30 seconds.
+- **IBPS PO / Clerk, SBI PO:** Longer comparison chains, "cannot be determined" options, and ranking embedded inside puzzle-style data. These take 45+ seconds.
+- **State PCS prelims:** Statement-based questions — "Which of the following statements is sufficient?" — testing logical completeness rather than arithmetic.
+
+## 2. The Examiner's Traps (Psychological Hooks)
+
+- **The −1 trap:** Forgetting to subtract 1 in Total = L + R − 1, because the person is counted from both sides. This is the single most common error.
+- **"Between" ambiguity:** "5 persons between A and B" — candidates add or subtract wrongly when converting to rank difference (|rank A − rank B| = 6, not 5).
+- **Interchange confusion:** After swapping, the *person's* rank changes but the *position number* stays — candidates mix up whose new rank is being asked.
+- **Near-correct statements:** In comparison chains, one statement like "E is not the shortest" is designed to look sufficient when it is not.
+- **Negative wording:** "Who is NOT taller than C?" — candidates answer the tallest instead.
+- **Mid-position illusion:** "Exactly in the middle" is only possible with an odd total; examiners give an even total and watch candidates force an answer.
+- **Unspecified order:** When two persons' ranks from opposite ends are given along with the count between them, but their left–right order is not stated, two different totals are possible — the honest answer is "cannot be determined."
+
+## 3. Top 10 High-Yield PYQ-Style Questions with Solutions
+
+**Q1.** In a row of students, Rahul is 15th from the left end and 12th from the right end. How many students are there in the row?
+(a) 26 (b) 27 (c) 25 (d) 28
+**Answer: (a)**
+**Solution:** Total = 15 + 12 − 1 = 26. **Trap:** Option (b) 27 is the raw sum 15 + 12 — placed there for those who forget the −1.
+**Source:** PYQ-style
+
+**Q2.** In a class, Sita ranks 8th from the top and 35th from the bottom. How many students are in the class?
+(a) 42 (b) 43 (c) 41 (d) 44
+**Answer: (a)**
+**Solution:** Total = 8 + 35 − 1 = 42. Same both-ends formula; the numbers change, the structure doesn't.
+**Source:** PYQ-style
+
+**Q3.** In a row of 40 boys, A is 10th from the left. What is his position from the right?
+(a) 30 (b) 31 (c) 29 (d) 32
+**Answer: (b)**
+**Solution:** Position from right = 40 − 10 + 1 = 31. **Trap:** Option (a) 30 = 40 − 10, the classic missing +1.
+**Source:** PYQ-style
+
+**Q4.** In a queue, P is 14th from the front and Q is 20th from the back. They interchange their positions, and now P is 25th from the front. How many persons are in the queue?
+(a) 44 (b) 45 (c) 38 (d) 39
+**Answer: (a)**
+**Solution:** After the interchange, P stands at Q's original position. So Q's original position is 25th from the front — and we are told it is also 20th from the back. Total = 25 + 20 − 1 = 44. **Trap:** Using P's original 14 instead of the new 25 gives 33 — the examiner banks on you not tracking *whose* position moved. The position number stays fixed; only the person standing there changes.
+**Source:** PYQ-style
+
+**Q5.** A is taller than B. C is taller than A. D is taller than C but shorter than E. Who is the tallest?
+(a) C (b) D (c) E (d) A
+**Answer: (c)**
+**Solution:** Chain: B < A < C < D < E. E is tallest. **Trap:** Option (b) D tempts those who stop reading at "D is taller than C."
+**Source:** PYQ-style
+
+**Q6.** In a row of girls facing north, M is 9th from the left and N is 12th from the right. If there are 5 girls between M and N, what is the total number of girls in the row?
+(a) 26 (b) 25 (c) 27 (d) Cannot be determined
+**Answer: (d)**
+**Solution:** The order of M and N is not stated. If M is to the **left** of N: total = 9 + 5 + 12 = 26. If N is to the **left** of M: total = 9 + 12 − 5 − 2 = 14 (the 5 girls between and the 2 endpoints are counted twice). Both arrangements satisfy the given data, so the total cannot be determined. **Trap:** Assuming M is left of N without being told — Banking exams plant exactly this ambiguity and reward option (d).
+**Source:** PYQ-style
+
+**Q7.** Ramesh is 7 ranks ahead of Suresh in a class of 39 students. If Suresh is 17th from the last, what is Ramesh's rank from the start?
+(a) 14th (b) 15th (c) 16th (d) 17th
+**Answer: (c)**
+**Solution:** Suresh from start = 39 − 17 + 1 = 23rd. Ramesh is 7 ahead = 23 − 7 = 16th from start. **Trap:** Adding 7 (getting 30th) instead of subtracting — "ahead" means *towards the front*, i.e., a smaller rank number.
+**Source:** PYQ-style
+
+**Q8.** Five friends P, Q, R, S, T scored different marks. P scored more than Q but less than R. S scored more than T but less than Q. Who scored the least?
+(a) Q (b) S (c) T (d) P
+**Answer: (c)**
+**Solution:** Chain: T < S < Q < P < R. Least = T. **Trap:** Option (b) S — candidates who build only half the chain pick S.
+**Source:** PYQ-style
+
+**Q9.** In a row, X is 16th from either end. How many persons are in the row?
+(a) 31 (b) 32 (c) 30 (d) 33
+**Answer: (a)**
+**Solution:** Total = 16 + 16 − 1 = 31. Note the total is odd — X is exactly in the middle. **Trap:** 32 (forgetting −1) is the planted distractor.
+**Source:** PYQ-style
+
+**Q10.** In a class, Kiran is 11th from the top and 20th from the bottom among the boys. If there are 12 girls in the class, what is the total strength of the class?
+(a) 30 (b) 42 (c) 41 (d) 43
+**Answer: (b)**
+**Solution:** Boys = 11 + 20 − 1 = 30. Total = 30 + 12 = 42. **Trap:** Option (a) 30 — forgetting the girls; the extra sentence is pure misdirection for hasty readers.
+**Source:** PYQ-style
+
+## 4. Skip-or-Solve Verdicts (15-sec / 45-sec Rule)
+
+- **Q1, Q2, Q3, Q9 (single-row formula type):** ✅ **Solve in 15 seconds.** One formula, one subtraction. Never skip these — they are the cheapest marks in the section.
+- **Q4 (interchange type):** ⚠️ **45-second zone.** Solve only if you have practised the "position stays, person moves" model; otherwise mark and return. In a Banking prelim with tight sectional timing, this is a legitimate skip on first pass.
+- **Q6 (ambiguous-order type):** ⚠️ **Read twice before answering.** If the left–right order is not given, check whether both arrangements work — if they do, "cannot be determined" is the answer, and spotting that takes under 30 seconds once you know the pattern.
+- **Q7 (rank-ahead conversion):** ⚠️ **45-second zone.** Two conversions (last→start, then ±7) double the error chance. Attempt in the second pass if your first pass left time.
+- **Q5, Q8 (comparison chains):** ✅ Solve, but write the chain on paper — 20–30 seconds. Do not attempt mentally; chain errors are silent.
+- **Any question with "cannot be determined" as an option (Banking pattern):** ⚠️ Read twice before solving; if data feels incomplete after one read, it usually is — answer accordingly or skip.
+
+**Golden rule for this chapter:** If the question needs only Total = L + R − 1 or its rearrangement, it is a 15-second gift — take it. If it needs tracking two people through an interchange or a 5-link inequality chain, budget 45 seconds and decide after one read.

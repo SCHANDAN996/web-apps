@@ -1,0 +1,79 @@
+Card 1
+Front: What is the first check you should run on any number series?
+Back: Look at the differences between consecutive terms — constant difference means AP; if differences themselves form a pattern, it is a second-order (or higher) series.
+
+Card 2
+Front: In the series 2, 6, 12, 20, 30, ?, what is the next term and why?
+Back: 42. Differences are 4, 6, 8, 10 (increasing by 2), so next difference is 12 → 30 + 12 = 42. (Also n² + n pattern.)
+
+Card 3
+Front: What is a geometric series and how do you spot it quickly?
+Back: Each term is multiplied by a fixed ratio. Spot it by dividing consecutive terms — if the ratio is constant (e.g., ×2, ×3, ×1.5), it is geometric.
+
+Card 4
+Front: What does the mnemonic "D-R-S-P" stand for when attacking a series?
+Back: Difference – Ratio – Squares/cubes – Prime/alternate Pattern. Check in this order: differences first, then ratios, then squares/cubes, then primes or alternating patterns.
+
+Card 5
+Front: In a mixed series like 3, 6, 5, 10, 9, 18, ?, what is happening?
+Back: Two alternating operations: ×2, −1, ×2, −1 … So next term = 18 − 1 = 17.
+
+Card 6
+Front: What is an "alternate series" (twin series)?
+Back: Two independent series interleaved — odd-position terms follow one rule, even-position terms another. Always split positions 1,3,5… and 2,4,6… separately.
+
+Card 7
+Front: Series: 1, 4, 9, 16, 25, ? — what type is it and what comes next?
+Back: Perfect squares (n²). Next term = 36.
+
+Card 8
+Front: Series: 1, 8, 27, 64, 125, ? — what comes next?
+Back: Perfect cubes (n³). Next term = 216 (6³).
+
+Card 9
+Front: What is the Fibonacci-type (addition) series rule?
+Back: Each term is the sum of the previous two terms: a, b, a+b, a+2b, … e.g., 2, 3, 5, 8, 13, 21.
+
+Card 10
+Front: In letter series, what is the fastest conversion tool?
+Back: Memorize letter positions (A=1 … Z=26) and use EJOTY (E=5, J=10, O=15, T=20, Y=25) as anchor points to locate any letter instantly.
+
+Card 11
+Front: What does the mnemonic "EJOTY" help you remember?
+Back: The positions of the 5th, 10th, 15th, 20th, 25th letters: E-5, J-10, O-15, T-20, Y-25 — anchors for fast letter-to-number conversion.
+
+Card 12
+Front: Series: 2, 3, 5, 7, 11, 13, ? — what type and next term?
+Back: Prime numbers in order. Next term = 17.
+
+Card 13
+Front: In a "wrong number in series" question, what is the strategy?
+Back: Find the rule that fits most terms; the single term that breaks the pattern is the wrong one. Verify the rule holds on both sides of the suspect term.
+
+Card 14
+Front: Series: 4, 9, 25, 49, 121, ? — what is the hidden pattern?
+Back: Squares of primes: 2², 3², 5², 7², 11² → next is 13² = 169.
+
+Card 15
+Front: What is a "difference of differences" (second-order) series?
+Back: When first differences are not constant, take differences of the differences. If those are constant or patterned, the series is quadratic in nature.
+
+Card 16
+Front: Series: 1, 2, 6, 24, 120, ? — what is the rule?
+Back: Factorials (1!, 2!, 3!, 4!, 5!) or successive multiplication ×2, ×3, ×4, ×5 → next = 720.
+
+Card 17
+Front: In letter series "AZ, BY, CX, DW, ?", what comes next?
+Back: EV. First letter moves forward (A,B,C,D,E), second letter moves backward (Z,Y,X,W,V).
+
+Card 18
+Front: What is the trap in series like 5, 10, 20, 40, 80 where a "×2" seems obvious but one term is wrong?
+Back: Examiners replace one term with a near-fit (e.g., 42 instead of 40). Always verify the ratio/difference at every step, not just the first two terms.
+
+Card 19
+Front: What does the mnemonic "S-C-P-F" remind you to test in tough series?
+Back: Squares, Cubes, Primes, Factorials — the four special-number families to test when differences and ratios both fail.
+
+Card 20
+Front: Series: 3, 7, 16, 35, 74, ? — what is the rule?
+Back: ×2 + 1, ×2 + 2, ×2 + 3, ×2 + 4 … So next = 74 × 2 + 5 = 153.

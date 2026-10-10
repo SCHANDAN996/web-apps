@@ -1,0 +1,91 @@
+# Important Formulas — Statistics
+
+## 1. Measures of Central Tendency
+
+| Formula Name | Formula | One-line Use-Hint |
+|---|---|---|
+| Mean (ungrouped) | x̄ = Σxᵢ / n | Simple average of all values |
+| Mean (grouped, direct) | x̄ = Σfᵢxᵢ / Σfᵢ | xᵢ = class mid-point |
+| Mean (assumed mean) | x̄ = A + Σfᵢdᵢ / Σfᵢ, dᵢ = xᵢ − A | Use when values are large |
+| Mean (step deviation) | x̄ = A + h·(Σfᵢuᵢ / Σfᵢ), uᵢ = (xᵢ − A)/h | Use when class width h is uniform |
+| Combined mean | x̄ = (n₁x̄₁ + n₂x̄₂) / (n₁ + n₂) | Merging two groups |
+| Weighted mean | x̄w = Σwᵢxᵢ / Σwᵢ | When items carry different weights |
+| Median (ungrouped) | n odd → ((n+1)/2)th term; n even → mean of (n/2)th & (n/2+1)th terms | Arrange in order first |
+| Median (grouped) | Median = l + [(N/2 − cf)/f] × h | l = lower limit of median class, cf = preceding cumulative frequency |
+| Mode (ungrouped) | Most frequent value | Highest frequency wins |
+| Mode (grouped) | Mode = l + [(f₁ − f₀)/(2f₁ − f₀ − f₂)] × h | f₁ = modal class freq, f₀ & f₂ = neighbours |
+| Empirical relation | Mode = 3 Median − 2 Mean | For moderately skewed distributions |
+| Geometric mean | GM = (x₁·x₂·…·xₙ)^(1/n) | Growth rates, ratios |
+| Harmonic mean | HM = n / Σ(1/xᵢ) | Averaging speeds/rates |
+| Relation AM–GM–HM | AM ≥ GM ≥ HM | Equality only when all values equal; for two numbers, GM² = AM × HM |
+
+## 2. Measures of Dispersion
+
+| Formula Name | Formula | One-line Use-Hint |
+|---|---|---|
+| Range | R = L − S | Largest minus smallest value |
+| Coefficient of range | (L − S)/(L + S) | Unit-free comparison |
+| Quartile deviation (QD) | QD = (Q₃ − Q₁)/2 | Semi-interquartile range |
+| Coefficient of QD | (Q₃ − Q₁)/(Q₃ + Q₁) | Compares spread across datasets |
+| Mean deviation (about mean) | MD = Σfᵢ|xᵢ − x̄| / N | Absolute deviations, ignore sign |
+| Variance (ungrouped) | σ² = Σ(xᵢ − x̄)² / n | Average of squared deviations |
+| Variance (shortcut) | σ² = (Σxᵢ²/n) − x̄² | Faster for hand calculation |
+| Variance (grouped) | σ² = [Σfᵢxᵢ² / N] − x̄² | With frequencies |
+| Standard deviation | σ = √variance | Same unit as data |
+| SD (step deviation) | σ = h·√[Σfᵢuᵢ²/N − (Σfᵢuᵢ/N)²] | uᵢ = (xᵢ − A)/h |
+| Combined SD (2 groups) | σ² = [n₁(σ₁² + d₁²) + n₂(σ₂² + d₂²)]/(n₁+n₂), dᵢ = x̄ᵢ − x̄ | dᵢ measured from combined mean |
+| Coefficient of variation | CV = (σ/x̄) × 100 | Lower CV → more consistent |
+| Variance of ax + b | Var(ax + b) = a²·Var(x) | Shift b has no effect on spread |
+
+## 3. Position Measures
+
+| Formula Name | Formula | One-line Use-Hint |
+|---|---|---|
+| Quartiles (grouped) | Qₖ = l + [(kN/4 − cf)/f] × h, k = 1, 2, 3 | Same pattern as median |
+| Percentiles (grouped) | Pₖ = l + [(kN/100 − cf)/f] × h | k = 1…99 |
+| Quartiles (ungrouped) | Qₖ = value of k(n+1)/4 th item | After arranging in order |
+
+## 4. Skewness & Moments
+
+| Formula Name | Formula | One-line Use-Hint |
+|---|---|---|
+| Karl Pearson's skewness | Sk = (Mean − Mode)/σ | Sign shows direction of tail |
+| Bowley's skewness | Sk = (Q₃ + Q₁ − 2Q₂)/(Q₃ − Q₁) | Use when mode is ill-defined |
+| r-th central moment | μᵣ = Σfᵢ(xᵢ − x̄)ʳ / N | μ₁ = 0 always; μ₂ = σ² |
+| β₁ (skewness measure) | β₁ = μ₃² / μ₂³ | β₁ = 0 → symmetric |
+| β₂ (kurtosis) | β₂ = μ₄ / μ₂² | β₂ = 3 normal; > 3 leptokurtic; < 3 platykurtic |
+
+## 5. Correlation & Regression
+
+| Formula Name | Formula | One-line Use-Hint |
+|---|---|---|
+| Covariance | Cov(x,y) = Σ(xᵢ − x̄)(yᵢ − ȳ)/n | Sign shows direction of relation |
+| Karl Pearson's r | r = Cov(x,y)/(σₓ·σ_y) | Always −1 ≤ r ≤ +1 |
+| r (shortcut) | r = [nΣxy − ΣxΣy] / √{[nΣx² − (Σx)²][nΣy² − (Σy)²]} | Direct computation from raw data |
+| Spearman's rank correlation | R = 1 − [6Σdᵢ² / n(n² − 1)] | dᵢ = rank difference; no ties |
+| Rank correlation (with ties) | Add m(m²−1)/12 to Σd² for each tied group of size m | Correction factor |
+| Regression coefficient b_yx | b_yx = r·(σ_y/σₓ) = Σ(x−x̄)(y−ȳ)/Σ(x−x̄)² | Slope of y on x line |
+| Regression coefficient b_xy | b_xy = r·(σₓ/σ_y) = Σ(x−x̄)(y−ȳ)/Σ(y−ȳ)² | Slope of x on y line |
+| Regression line y on x | y − ȳ = b_yx (x − x̄) | Predict y from x |
+| Regression line x on y | x − x̄ = b_xy (y − ȳ) | Predict x from y |
+| r from regressions | r = ±√(b_yx · b_xy) | Sign = common sign of the two coefficients |
+| Angle between regression lines | tan θ = [(1 − r²)/|r|]·[σₓσ_y/(σₓ² + σ_y²)] | Acute angle; r = 0 → lines perpendicular; r = ±1 → coincide |
+
+## 6. Probability & Distributions (Statistics-linked)
+
+| Formula Name | Formula | One-line Use-Hint |
+|---|---|---|
+| Binomial mean & variance | Mean = np; Variance = npq | q = 1 − p |
+| Poisson mean & variance | Mean = Variance = λ | Rare events |
+| Normal distribution (standard) | Z = (X − μ)/σ | Standardisation for tables |
+| Standard error of mean | SE = σ/√n | Sampling distribution of x̄ |
+
+## 7. Index Numbers & Time Series
+
+| Formula Name | Formula | One-line Use-Hint |
+|---|---|---|
+| Simple index number | I = (p₁/p₀) × 100 | Current vs base period |
+| Laspeyres' index | L = [Σp₁q₀/Σp₀q₀] × 100 | Base-period weights |
+| Paasche's index | P = [Σp₁q₁/Σp₀q₁] × 100 | Current-period weights |
+| Fisher's ideal index | F = √(L × P) | Geometric mean of L and P |
+| Trend (least squares, line) | y = a + bx; a = Σy/n, b = Σxy/Σx² | Take x as deviations from middle year |

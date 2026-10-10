@@ -1,3 +1,104 @@
-# Chapter: LCM & HCF, Level: intermediate
+# 📊 PYQ Analysis: LCM & HCF
 
-@pyq_agent lang=en level=intermediate 'Analyse PYQs of LCM & HCF for last 10 years (SSC CGL Mains, IBPS PO, RRB NTPC, CAT etc.). Give top 10 high-yield questions with solutions. Also explain what psychological hook or trap each question uses.'
+## How Exams Test This Chapter
+
+Across SSC, IBPS and RRB exams, LCM & HCF questions follow a small set of repeating patterns. Examiners rarely ask "find the LCM" directly — they hide the concept inside a story. Here is what actually repeats:
+
+**1. The "remainder" family (most frequent).**
+"Find the smallest number which when divided by a, b, c leaves remainder r" — or leaves *different* remainders. The trap: students forget whether to add or subtract the remainder. Rule: same remainder → LCM + r; remainders differ by a constant gap → LCM − gap.
+
+**2. The "greatest number dividing" family.**
+"Greatest number that divides x, y, z leaving the same remainder" → HCF of the *differences*. The trap: students take HCF of the numbers themselves.
+
+**3. Bells / lights / runners meeting again.**
+"Bells toll at intervals of a, b, c seconds; when do they toll together?" → pure LCM. The trap: converting minutes/seconds wrongly, or answering with the LCM when the question asks "after how many *minutes*".
+
+**4. Product relation: LCM × HCF = product of two numbers.**
+Given two of the three quantities, find the third. The trap: this formula works for **two numbers only** — applying it to three numbers is a classic wrong option.
+
+**5. HCF-based cutting / packing.**
+"Greatest length of tape that can measure planks of lengths a, b, c exactly" → HCF. "Minimum number of square tiles / largest square tile" → HCF of dimensions. The trap: confusing "largest square tile" (HCF) with "minimum tiles to pave" (area ÷ HCF²).
+
+**6. Fractions.**
+LCM of fractions = LCM of numerators / HCF of denominators; HCF of fractions = HCF of numerators / LCM of denominators. The trap: swapping the two formulas — examiners always include the swapped answer as an option.
+
+**7. Ratio-based.**
+"Two numbers are in ratio a:b, their HCF is h, find LCM" → numbers are ah and bh, LCM = abh. The trap: forgetting that coprime ratio is assumed.
+
+**8. Word traps.**
+"Smallest number divisible by…" (LCM) vs "greatest number dividing…" (HCF). Negative wording ("which is NOT…") and near-identical options (e.g., 360 vs 630) are the standard psychological hooks.
+
+---
+
+## Top 10 High-Yield Questions (with Solutions)
+
+**Q1.** Find the smallest number which when divided by 12, 15 and 20 leaves remainder 4 in each case.
+(a) 64 (b) 124 (c) 304 (d) 604
+**Answer: (a)**
+**Solution:** LCM(12, 15, 20) = 60. Required number = 60k + 4; the smallest is 60 + 4 = 64. Hook: options like 304 (= 60×5 + 4) tempt students who assume the answer must be a large number — but the question asks for the *smallest*.
+**Source:** PYQ-style (remainder family)
+
+**Q2.** Find the smallest number which when divided by 5, 6, 7 and 8 leaves remainder 3 in each case, but is divisible by 9.
+(a) 843 (b) 1683 (c) 2523 (d) 3363
+**Answer: (b)**
+**Solution:** LCM(5,6,7,8) = 840. Number = 840k + 3. Test divisibility by 9: k=1 → 843 (8+4+3=15, no); k=2 → 1683 (1+6+8+3=18, yes). Hook: 843 looks right if you skip the divisibility check.
+**Source:** PYQ-style
+
+**Q3.** The greatest number which divides 398, 436 and 542 leaving remainders 7, 11 and 15 respectively is:
+(a) 17 (b) 23 (c) 34 (d) 51
+**Answer: (a)**
+**Solution:** Subtract remainders: 398−7=391, 436−11=425, 542−15=527. HCF(391, 425, 527) = 17 (391 = 17×23, 425 = 17×25, 527 = 17×31). Hook: taking HCF of the original numbers gives 1, pushing students to guess.
+**Source:** PYQ-style
+
+**Q4.** Six bells toll at intervals of 2, 4, 6, 8, 10 and 12 seconds. If they toll together now, after how long will they toll together again?
+(a) 60 s (b) 120 s (c) 240 s (d) 720 s
+**Answer: (b)**
+**Solution:** LCM(2,4,6,8,10,12) = 120 seconds. Hook: 720 comes from careless multiplication; 60 is the LCM of only some of the intervals.
+**Source:** PYQ-style
+
+**Q5.** The HCF and LCM of two numbers are 12 and 504. If one number is 72, the other is:
+(a) 64 (b) 84 (c) 96 (d) 108
+**Answer: (b)**
+**Solution:** Other = (12 × 504)/72 = 6048/72 = 84. Hook: dividing 504 by 72 first (getting 7) and stopping, or multiplying instead of dividing.
+**Source:** PYQ-style
+
+**Q6.** The LCM of 2/3, 4/9 and 5/6 is:
+(a) 20/3 (b) 20/9 (c) 10/3 (d) 40/3
+**Answer: (a)**
+**Solution:** LCM of fractions = LCM(2,4,5)/HCF(3,9,6) = 20/3. Hook: option (b) 20/9 comes from using HCF of numerators wrongly; the swapped formula is the planted trap.
+**Source:** PYQ-style
+
+**Q7.** Two numbers are in the ratio 3:4 and their HCF is 5. Their LCM is:
+(a) 30 (b) 60 (c) 75 (d) 120
+**Answer: (b)**
+**Solution:** Numbers = 15 and 20. LCM = 3 × 4 × 5 = 60. Hook: students using the ratio sum (7×5=35) fall for distractors; the shortcut is product of ratio terms × HCF.
+**Source:** PYQ-style
+
+**Q8.** Find the greatest length of a rope that can measure exactly ropes of 45 m, 75 m and 105 m.
+(a) 5 m (b) 15 m (c) 25 m (d) 35 m
+**Answer: (b)**
+**Solution:** HCF(45, 75, 105) = 15 m. Hook: "greatest length that measures" = HCF; students who read fast and compute the LCM (1575) find no matching option and panic.
+**Source:** PYQ-style
+
+**Q9.** The smallest square number exactly divisible by 8, 15 and 20 is:
+(a) 900 (b) 1600 (c) 3600 (d) 6400
+**Answer: (c)**
+**Solution:** LCM(8,15,20) = 120 = 2³ × 3 × 5. To make a perfect square, raise all powers to even: 2⁴ × 3² × 5² = 16 × 9 × 25 = 3600. Hook: 900 and 1600 are squares but not divisible by all three; the question tests *both* conditions.
+**Source:** PYQ-style
+
+**Q10.** The HCF of two numbers is 23 and their LCM is 1449. If one number is 161, the other is:
+(a) 207 (b) 189 (c) 299 (d) 253
+**Answer: (a)**
+**Solution:** Other = (23 × 1449)/161 = 33327/161 = 207. Check: 161 = 7×23, 207 = 9×23, HCF = 23 ✓. Hook: options are all multiples of 23, so divisibility alone can't eliminate them — full computation is forced.
+**Source:** PYQ-style
+
+---
+
+## Examiner's Trap Playbook (Summary)
+
+- **Add vs subtract remainder** — read whether remainders are equal (add) or differ by a constant (subtract).
+- **LCM × HCF = product** — valid for two numbers only.
+- **"Smallest divisible" = LCM; "greatest dividing" = HCF** — one word flips the whole method.
+- **Fractions** — LCM: numerator-LCM over denominator-HCF; HCF is the exact reverse.
+- **Unit conversion** — bells in seconds, answer asked in minutes.
+- **Near-miss options** — the swapped-formula answer is always present among the choices. Verify, don't guess.

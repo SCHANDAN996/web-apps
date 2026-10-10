@@ -1,0 +1,114 @@
+# 📊 PYQ Analysis — Calculus (Advanced Level)
+
+## How Exams Test Calculus
+
+Calculus appears in advanced-level exams (UPSC CSAT, CAT, IBPS PO Mains, SSC CGL Tier-II, State PCS mains-level aptitude) in a very predictable costume. Examiners rarely ask you to "differentiate" or "integrate" directly — instead they wrap the concept inside a real-life situation: a changing area, a rising water level, a profit to be maximised, a distance covered with varying speed.
+
+The recurring question families are:
+
+1. **Maxima–Minima applications** — the single most repeated family. Fencing a field with minimum wire, maximising profit/area, minimising cost of a box. The trap: students differentiate correctly but forget to check whether the critical point is a maximum or a minimum.
+2. **Rate of change (related rates)** — a ladder sliding down a wall, a balloon being inflated, water level rising in a tank. The trap: differentiating with respect to the wrong variable, or forgetting the chain rule factor.
+3. **Basic differentiation rules** — product, quotient, chain rule applied to composite functions. The trap: sign errors in the quotient rule and missing the inner derivative in the chain rule.
+4. **Definite integrals as area** — area under a curve, or interpreting ∫v dt as total distance. The trap: ignoring the sign of the function (area below the x-axis counts negative in the integral but positive as geometric area).
+5. **Limits and continuity** — especially 0/0 forms solvable by factorisation or standard limits like lim(x→0) sin x / x = 1. The trap: substituting x = 0 directly and concluding "undefined" instead of simplifying first.
+6. **Increasing/decreasing functions and tangents** — slope of tangent = dy/dx at a point. The trap: confusing the slope of the tangent with the slope of the normal (they are negative reciprocals).
+
+### The Examiner's Favourite Traps
+
+- **The "almost right" statement:** "If f′(x) = 0 at x = a, then f has a maximum at a." False — it could be a minimum or a point of inflection (e.g., f(x) = x³ at x = 0).
+- **The chain-rule leak:** d/dx [sin(2x)] = cos(2x) is offered as an option; the correct answer 2cos(2x) sits quietly beside it.
+- **The constant massacre:** differentiating a constant term and writing 1 instead of 0.
+- **The units illusion:** in related-rates problems, options differ only by units (cm/s vs cm²/s) — a hint that dimensional checking alone can eliminate two options.
+- **The negative-wording trap:** "Which of the following is NOT true…" — read the stem twice before touching the options.
+
+### Time Strategy
+
+A standard maxima–minima or related-rates question should take 60–90 seconds if you recognise the template instantly. If you find yourself setting up a fresh model from scratch for more than 2 minutes, mark it and move on — these questions reward pattern memory, not derivation stamina.
+
+---
+
+## Top 10 High-Yield Questions (with Solutions)
+
+**Q1.** If y = x³ − 3x, then y has a local maximum at:
+(a) x = 1  (b) x = −1  (c) x = 0  (d) x = 3
+**Answer: (b)**
+**Solution:** dy/dx = 3x² − 3 = 0 ⇒ x = ±1. Second derivative: d²y/dx² = 6x. At x = −1, it is −6 < 0 ⇒ maximum. At x = +1, it is +6 > 0 ⇒ minimum.
+**Trap:** Option (a) catches students who stop after finding the critical points and pick the positive one by habit. Always run the second-derivative test.
+**Source:** NCERT Class 12 Mathematics (Applications of Derivatives)
+
+**Q2.** d/dx (x · eˣ) equals:
+(a) eˣ  (b) x·eˣ  (c) eˣ(1 + x)  (d) eˣ(1 − x)
+**Answer: (c)**
+**Solution:** Product rule: d/dx(x·eˣ) = 1·eˣ + x·eˣ = eˣ(1 + x).
+**Trap:** Option (b) tempts those who differentiate only the first factor; option (a) tempts those who differentiate only eˣ. The product rule needs *both* terms.
+**Source:** PYQ-style
+
+**Q3.** lim(x→0) (sin 3x)/x equals:
+(a) 0  (b) 1  (c) 3  (d) 1/3
+**Answer: (c)**
+**Solution:** (sin 3x)/x = 3 · (sin 3x)/(3x) → 3 × 1 = 3, using lim(θ→0) sin θ/θ = 1 with θ = 3x.
+**Trap:** Option (b) is the standard limit memorised by rote — but the coefficient 3 inside the sine scales the answer. Match the denominator to the angle.
+**Source:** NCERT Class 11 Mathematics (Limits)
+
+**Q4.** The slope of the tangent to the curve y = x² at the point (2, 4) is:
+(a) 2  (b) 4  (c) 8  (d) 1
+**Answer: (b)**
+**Solution:** dy/dx = 2x; at x = 2, slope = 4.
+**Trap:** Option (a) is the derivative formula itself (2x) misread as the value; option (c) is x² evaluated wrongly as slope. The derivative must be *evaluated at the point*.
+**Source:** NCERT Class 12 Mathematics
+
+**Q5.** ∫₀¹ 2x dx equals:
+(a) 0  (b) 1  (c) 2  (d) 1/2
+**Answer: (b)**
+**Solution:** ∫2x dx = x²; evaluating from 0 to 1 gives 1² − 0² = 1. Geometrically this is the area of the triangle under y = 2x between 0 and 1: ½ × 1 × 2 = 1. ✔
+**Trap:** Option (c) comes from forgetting to divide when integrating (writing 2x² instead of x²). Cross-check simple integrals with geometry.
+**Source:** NCERT Class 12 Mathematics (Integrals)
+
+**Q6.** A spherical balloon is being inflated so that its radius increases at 2 cm/s. When the radius is 5 cm, the rate of increase of its volume is:
+(a) 100π cm³/s  (b) 200π cm³/s  (c) 40π cm³/s  (d) 500π cm³/s
+**Answer: (b)**
+**Solution:** V = (4/3)πr³ ⇒ dV/dt = 4πr² · dr/dt = 4π(25)(2) = 200π cm³/s.
+**Trap:** Option (a) results from forgetting the chain-rule factor dr/dt = 2. In related rates, *every* derivative with respect to t must carry its dt-partner.
+**Source:** PYQ-style
+
+**Q7.** d/dx [ln x / x] equals:
+(a) 1/x²  (b) (1 − ln x)/x²  (c) (1 + ln x)/x²  (d) ln x / x²
+**Answer: (b)**
+**Solution:** Quotient rule: [x·(1/x) − ln x·1]/x² = (1 − ln x)/x².
+**Trap:** Option (c) is the sign-flipped version — the quotient rule subtracts, and the order matters: (v·u′ − u·v′)/v². Say it as "bottom × top′ minus top × bottom′".
+**Source:** PYQ-style
+
+**Q8.** A farmer has 100 m of fencing to enclose a rectangular field against a straight wall (the wall forms one side, no fencing needed there). The maximum area he can enclose is:
+(a) 625 m²  (b) 1250 m²  (c) 2500 m²  (d) 500 m²
+**Answer: (b)**
+**Solution:** Let the side parallel to the wall be L and the two perpendicular sides be W each. Then L + 2W = 100. Area A = L·W = (100 − 2W)W = 100W − 2W². dA/dW = 100 − 4W = 0 ⇒ W = 25, L = 50. A = 50 × 25 = 1250 m². (Second derivative −4 < 0 ⇒ maximum.)
+**Trap:** Option (c) = 2500 m² comes from writing the constraint as L + W = 100 (forgetting that *two* widths need fencing), giving L = W = 50. Option (a) = 625 m² is the maximum area if all *four* sides were fenced with 100 m (a 25 × 25 square) — the classic misread. The wall replaces one side; read the constraint aloud before modelling.
+**Source:** PYQ-style
+
+**Q9.** The function f(x) = x³ is:
+(a) increasing for all real x
+(b) decreasing for all real x
+(c) increasing only for x > 0
+(d) has a local minimum at x = 0
+**Answer: (a)**
+**Solution:** f′(x) = 3x² ≥ 0 for all x, and f′ is zero only at the single point x = 0 (a point of inflection, not an extremum). So f is increasing everywhere.
+**Trap:** Option (d) exploits the reflex "f′ = 0 means extremum". At x = 0 the second derivative is also 0 and the sign of f′ does not change — no extremum. This is the examiner's favourite conceptual hook.
+**Source:** NCERT Class 12 Mathematics
+
+**Q10.** If s = t³ − 6t² + 9t gives the position of a particle, its velocity is zero at t = 1 and t = 3. The acceleration at t = 1 is:
+(a) −6  (b) 6  (c) 0  (d) −12
+**Answer: (a)**
+**Solution:** v = ds/dt = 3t² − 12t + 9; a = dv/dt = 6t − 12. At t = 1: a = 6 − 12 = −6.
+**Trap:** Option (c) tempts students who confuse "velocity is zero" with "acceleration is zero" — a body momentarily at rest can still be accelerating (like a ball at the top of its toss). Velocity and acceleration are independent derivatives.
+**Source:** PYQ-style
+
+---
+
+## Key Takeaways
+
+- **Maxima–minima and related rates dominate** — master the two templates (constraint → one variable → differentiate → second-derivative test; and "differentiate everything with respect to t").
+- **Every trap is a skipped step:** the missing chain-rule factor, the unchecked second derivative, the misread constraint, the sign flip in the quotient rule.
+- **Verify with a second method where possible** — geometry for simple integrals, units for related rates, sign analysis for extrema.
+- **Read negative stems twice** ("NOT", "except") — calculus options are designed so that the careless reading has a matching wrong answer waiting.
+
+*Revise this analysis again after 2 days, and re-attempt all 10 questions without looking at the solutions.*

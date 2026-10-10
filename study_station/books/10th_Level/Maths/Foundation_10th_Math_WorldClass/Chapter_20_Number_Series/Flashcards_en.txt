@@ -21,8 +21,8 @@ Front: How do you quickly separate an alternating series like 2, 9, 5, 12, 8, 15
 Back: Pull apart odd and even positions. Odd positions: 2, 5, 8, 11 (+3). Even positions: 9, 12, 15, ? (+3) → answer 18.
 
 Card 6
-Front: What is the infamous “difference of differences” method also called in the Feynman story?
-Back: The “Onion Peel” method – peel layer 1 (differences), if messy peel layer 2 (differences of differences), if still messy peel layer 3. The pattern eventually becomes simple.
+Front: What is the “difference of differences” method also called, and how does it work?
+Back: The “Onion Peel” method – peel layer 1 (differences); if messy, peel layer 2 (differences of differences); if still messy, peel layer 3. The pattern eventually becomes simple.
 
 Card 7
 Front: What bizarre image helps you remember the onion peel method forever?
@@ -53,8 +53,8 @@ Front: 1, 2, 3, 5, 8, 13, ___. Name this famous sequence.
 Back: Fibonacci series – each term is the sum of the two previous terms. Next: 8+13=21. Also watch for variations (sum of three terms, product, etc.).
 
 Card 14
-Front: The series is 4, 5, 7, 11, 19, ___. What fooled 60% of students in SSC CGL 2023?
-Back: The differences are powers of 2: +1, +2, +4, +8, +16 → next difference +16? Actually, 4 to 5 (+1=2⁰?), 5 to 7 (+2=2¹), 7 to 11 (+4=2²), 11 to 19 (+8=2³), 19 to next (+16=2⁴) → answer 35. (Or +2^(n-1) pattern). Students missed the exponential nature.
+Front: The series is 4, 5, 7, 11, 19, ___. What is the trap here?
+Back: The differences are powers of 2: +1 (2⁰), +2 (2¹), +4 (2²), +8 (2³), so the next difference is +16 (2⁴) → answer 19+16=35. Students often miss the exponential nature of the differences and look for a simple constant gap.
 
 Card 15
 Front: 0, 3, 8, 15, 24, ___. What is the “difference of differences” shortcut?
@@ -74,7 +74,7 @@ Back: ×3 –1 pattern: 3×3–1=8, 8×3–1=23, 23×3–1=68 → next 68×3–1
 
 Card 19
 Front: What is the first-aid technique when a series looks completely random?
-Back: Don’t panic. Write differences in a row. If that row is random, write differences of differences. 80% of tough series yield at the second difference. If still random, try ratios or check for alternating patterns.
+Back: Don’t panic. Write differences in a row. If that row is random, write differences of differences – most tough series crack open at the second difference. If still random, try ratios or check for alternating patterns.
 
 Card 20
 Front: Complete the mnemonic: “One ATE twenty-seven, sixty-four ATE one-twenty-five, …” What comes next?

@@ -1,0 +1,149 @@
+26. In how many ways can 6 boys and 4 girls be seated in a row so that no two girls sit together?
+(a) 10! − 6!4! (b) 6! × ⁶P₄ (c) 6! × ⁷P₄ (d) 7! × 4!
+Answer: (c)
+Solution: The tempting wrong option 10! − 6!4! wrongly assumes only the "all girls together" case needs removal, ignoring partial adjacency. First seat the 6 boys in 6! ways; this creates 7 gaps (including ends). Choose and arrange 4 girls in these gaps in ⁷P₄ ways, so the answer is 6! × ⁷P₄.
+Source: NCERT Class 11 Mathematics, Chapter 7
+
+27. How many words can be formed using all the letters of the word "BANANA"?
+(a) 720 (b) 360 (c) 120 (d) 60
+Answer: (d)
+Solution: The trap answer 720 treats all 6 letters as distinct, but BANANA has 3 A's and 2 N's. Total arrangements = 6!/(3! × 2!) = 720/12 = 60, so the answer is 60.
+Source: NCERT Class 11 Mathematics, Chapter 7
+
+28. A committee of 5 is to be formed from 6 men and 4 women such that it contains at least 2 women. In how many ways can this be done?
+(a) 186 (b) 180 (c) 120 (d) 246
+Answer: (a)
+Solution: The trap is to compute ⁴C₂ × ⁸C₃ = 224, which double-counts committees with 3 or 4 women. Correct: ⁴C₂·⁶C₃ + ⁴C₃·⁶C₂ + ⁴C₄·⁶C₁ = 6×20 + 4×15 + 1×6 = 120 + 60 + 6 = 186, so the answer is 186.
+Source: PYQ-style (Bank PO pattern)
+
+29. In how many ways can the letters of "MISSISSIPPI" be arranged?
+(a) 39916800 (b) 34650 (c) 69300 (d) 3465
+Answer: (b)
+Solution: The trap 39916800 is 11!, ignoring repetitions. MISSISSIPPI has 11 letters with 4 I's, 4 S's, 2 P's. Arrangements = 11!/(4! × 4! × 2!) = 39916800/1152 = 34650, so the answer is 34650.
+Source: NCERT Class 11 Mathematics, Chapter 7
+
+30. How many 4-digit numbers greater than 5000 can be formed using the digits 0, 1, 2, 3, 4, 5, 6 without repetition?
+(a) 240 (b) 360 (c) 480 (d) 720
+Answer: (a)
+Solution: The trap is to take all 4-digit numbers (6×6×5×4 = 720) without the "greater than 5000" condition. The thousands digit must be 5 or 6, giving 2 choices; the remaining three places take 6 × 5 × 4 = 120 arrangements. Total = 2 × 120 = 240, so the answer is 240.
+Source: PYQ-style (SSC CGL pattern)
+
+31. In how many ways can 8 people be seated around a circular table if two particular persons must sit together?
+(a) 1440 (b) 5040 (c) 720 (d) 10080
+Answer: (a)
+Solution: The trap 5040 is 7!, the count without any condition. Treat the pair as one unit: 7 units in a circle give (7−1)! = 720 arrangements, and the pair can swap internally in 2 ways. Total = 720 × 2 = 1440, so the answer is 1440.
+Source: NCERT Class 11 Mathematics, Chapter 7
+
+32. From a pack of 52 cards, in how many ways can 5 cards be drawn such that exactly 3 are face cards?
+(a) ¹²C₅ (b) ¹²C₃ × ⁴⁰C₂ × 2 (c) ⁵²C₅ (d) ¹²C₃ × ⁴⁰C₂
+Answer: (d)
+Solution: The trap ⁵²C₅ ignores the face-card condition entirely. There are 12 face cards and 40 non-face cards; choose 3 face cards in ¹²C₃ ways and 2 non-face cards in ⁴⁰C₂ ways, so the answer is ¹²C₃ × ⁴⁰C₂.
+Source: PYQ-style (IBPS PO pattern)
+
+33. How many diagonals does a polygon with 12 sides have?
+(a) 48 (b) 66 (c) 60 (d) 54
+Answer: (d)
+Solution: The trap 66 is ¹²C₂, which counts the 12 sides as well. Diagonals = ¹²C₂ − 12 = 66 − 12 = 54, so the answer is 54.
+Source: NCERT Class 11 Mathematics, Chapter 7
+
+34. In how many ways can 5 different prizes be distributed among 4 boys if each boy can receive any number of prizes?
+(a) 120 (b) 625 (c) 1024 (d) 20
+Answer: (c)
+Solution: The trap 625 = 5⁴ wrongly assigns boys to prizes instead of prizes to boys. Each of the 5 prizes can go to any of the 4 boys, giving 4⁵ = 1024 ways, so the answer is 1024.
+Source: PYQ-style (CAT pattern)
+
+35. How many words can be formed from the letters of "DAUGHTER" so that the vowels always come together?
+(a) 2160 (b) 40320 (c) 4320 (d) 8640
+Answer: (c)
+Solution: The trap 40320 is 8!, ignoring the vowel condition. Vowels A, U, E form one block; the block plus 5 consonants gives 6 units arranged in 6! = 720 ways, and vowels arrange internally in 3! = 6 ways. Total = 720 × 6 = 4320, so the answer is 4320.
+Source: NCERT Class 11 Mathematics, Chapter 7
+
+36. A box contains 5 red and 4 blue balls. In how many ways can 4 balls be selected so that at least one is blue?
+(a) 121 (b) 126 (c) 120 (d) 125
+Answer: (a)
+Solution: The trap is computing ⁴C₁ × ⁸C₃ = 224, which double-counts selections with more than one blue ball. Use complement: total selections ⁹C₄ = 126 minus all-red selections ⁵C₄ = 5, giving 126 − 5 = 121, so the answer is 121.
+Source: PYQ-style (Bank Clerk pattern)
+
+37. How many 3-digit even numbers can be formed using the digits 1, 2, 3, 4, 5, 6 without repetition?
+(a) 30 (b) 120 (c) 90 (d) 60
+Answer: (d)
+Solution: The trap 120 is ⁶P₃, the count of all 3-digit numbers without the even condition. The units digit must be 2, 4, or 6 (3 choices); the remaining two places take 5 × 4 = 20 arrangements. Total = 3 × 20 = 60, so the answer is 60.
+Source: NCERT Class 11 Mathematics, Chapter 7
+
+38. In how many ways can 10 identical apples be distributed among 3 children so that each child gets at least one apple?
+(a) 28 (b) 66 (c) 45 (d) 36
+Answer: (d)
+Solution: The trap 66 is ¹²C₂, the count when children may get zero apples. With at least one each, give one apple to each child first, then distribute the remaining 7 freely: ⁷⁺³⁻¹C₃₋₁ = ⁹C₂ = 36, so the answer is 36.
+Source: PYQ-style (CAT pattern)
+
+39. How many arrangements of the word "ENGINEERING" are possible?
+(a) 554400 (b) 39916800 (c) 277200 (d) 138600
+Answer: (c)
+Solution: The trap 39916800 is 11!, ignoring repetitions. ENGINEERING has 11 letters with 3 E's, 3 N's, 2 G's, 2 I's. Arrangements = 11!/(3! × 3! × 2! × 2!) = 39916800/144 = 277200, so the answer is 277200.
+Source: NCERT Class 11 Mathematics, Chapter 7
+
+40. A student must answer 8 out of 12 questions, including exactly 4 of the first 6 questions. In how many ways can he choose?
+(a) 225 (b) 495 (c) 150 (d) 300
+Answer: (a)
+Solution: The trap 495 is ¹²C₈, ignoring the split condition. Choose 4 of the first 6 in ⁶C₄ = 15 ways and 4 of the last 6 in ⁶C₄ = 15 ways. Total = 15 × 15 = 225, so the answer is 225.
+Source: PYQ-style (SSC CGL pattern)
+
+41. In how many ways can 4 men and 4 women be seated in a row so that men and women alternate?
+(a) 576 (b) 1152 (c) 40320 (d) 2304
+Answer: (b)
+Solution: The trap 40320 is 8!, ignoring alternation. Two patterns exist: MWMWMWMW or WMWMWMWM. Each pattern gives 4! × 4! = 576 arrangements, and 2 × 576 = 1152, so the answer is 1152.
+Source: NCERT Class 11 Mathematics, Chapter 7
+
+42. How many numbers between 100 and 1000 have all distinct digits?
+(a) 729 (b) 900 (c) 648 (d) 504
+Answer: (c)
+Solution: The trap 900 counts all three-digit numbers including repeated digits. Hundreds digit: 9 choices (1–9); tens digit: 9 choices (0 plus remaining); units digit: 8 choices. Total = 9 × 9 × 8 = 648, so the answer is 648.
+Source: PYQ-style (CSAT pattern)
+
+43. In how many ways can a team of 11 players be chosen from 15 players if one particular player must always be included?
+(a) 1365 (b) 1001 (c) 364 (d) 455
+Answer: (b)
+Solution: The trap 1365 is ¹⁵C₁₁, ignoring the fixed player. Fix that player, then choose the remaining 10 from 14: ¹⁴C₁₀ = ¹⁴C₄ = 1001, so the answer is 1001.
+Source: NCERT Class 11 Mathematics, Chapter 7
+
+44. How many different signals can be made by hoisting 5 flags of different colours on a vertical pole, using any number of them at a time?
+(a) 720 (b) 120 (c) 325 (d) 31
+Answer: (c)
+Solution: The trap 120 counts only signals using all 5 flags. Signals can use 1, 2, 3, 4, or 5 flags: ⁵P₁ + ⁵P₂ + ⁵P₃ + ⁵P₄ + ⁵P₅ = 5 + 20 + 60 + 120 + 120 = 325, so the answer is 325.
+Source: PYQ-style (Railway pattern)
+
+45. In how many ways can 6 different books be arranged on a shelf so that two particular books are never together?
+(a) 480 (b) 720 (c) 240 (d) 600
+Answer: (a)
+Solution: The trap 240 subtracts wrongly by treating the pair as fixed in one order only. Total arrangements = 6! = 720; together-arrangements = 2 × 5! = 240. Required = 720 − 240 = 480, so the answer is 480.
+Source: NCERT Class 11 Mathematics, Chapter 7
+
+46. How many triangles can be formed by joining the vertices of a decagon?
+(a) 45 (b) 120 (c) 720 (d) 90
+Answer: (b)
+Solution: The trap 45 is ¹⁰C₂, which counts line segments, not triangles. Any 3 of the 10 vertices form a triangle (no three vertices are collinear): ¹⁰C₃ = 120, so the answer is 120.
+Source: NCERT Class 11 Mathematics, Chapter 7
+
+47. A group has 8 members. In how many ways can a president, a secretary, and a treasurer be chosen if no member can hold more than one post?
+(a) 512 (b) 336 (c) 56 (d) 24
+Answer: (b)
+Solution: The trap 56 is ⁸C₃, which ignores that the three posts are distinct. Since posts differ, order matters: ⁸P₃ = 8 × 7 × 6 = 336, so the answer is 336.
+Source: PYQ-style (SSC CHSL pattern)
+
+48. How many 5-letter words (meaningful or not) can be formed from the letters of "APPLE" using all letters?
+(a) 60 (b) 120 (c) 30 (d) 20
+Answer: (a)
+Solution: The trap 120 is 5!, ignoring the repeated P. APPLE has 5 letters with P repeated twice: 5!/2! = 60, so the answer is 60.
+Source: NCERT Class 11 Mathematics, Chapter 7
+
+49. In how many ways can 7 people sit around a round table so that two particular persons are never adjacent?
+(a) 600 (b) 720 (c) 360 (d) 480
+Answer: (d)
+Solution: The trap 360 halves 6! without justification. Total circular arrangements = 6! = 720; adjacent arrangements (pair as one unit) = 2 × 5! = 240. Required = 720 − 240 = 480, so the answer is 480.
+Source: PYQ-style (CAT pattern)
+
+50. From 5 consonants and 4 vowels, how many words of 3 consonants and 2 vowels can be formed?
+(a) 3600 (b) 7200 (c) 1200 (d) 1440
+Answer: (b)
+Solution: The trap 1200 = ⁵C₃ × ⁴C₂ × 5! ÷ 6 wrongly divides the arrangement count. Choose letters in ⁵C₃ × ⁴C₂ = 10 × 6 = 60 ways, then arrange all 5 letters in 5! = 120 ways. Total = 60 × 120 = 7200, so the answer is 7200.
+Source: NCERT Class 11 Mathematics, Chapter 7

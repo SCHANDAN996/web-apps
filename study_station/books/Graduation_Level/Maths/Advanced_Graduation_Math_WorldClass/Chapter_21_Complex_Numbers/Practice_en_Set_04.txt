@@ -1,0 +1,151 @@
+Questions 76–95: Easy | Questions 96–100: Medium
+
+76. If z = 3 + 4i, then |z|² equals
+(a) 5 (b) 7 (c) 49 (d) 25
+Answer: (d)
+Solution: The tempting wrong option is 5, which is |z| itself, not |z|². Here |z| = √(3² + 4²) = √25 = 5, so |z|² = 25. The answer is 25.
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+77. The multiplicative inverse of 2 − 3i is
+(a) (2 + 3i)/13 (b) (2 − 3i)/13 (c) (2 + 3i)/5 (d) (3 + 2i)/13
+Answer: (a)
+Solution: The trap is dividing by 5 instead of 13; the denominator must be |z|² = 2² + (−3)² = 13, not |z|. Inverse = z̄/|z|² = (2 + 3i)/13. The answer is (2 + 3i)/13.
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+78. If (1 + i)(1 + 2i)(1 + 3i) = x + iy, then x + y equals
+(a) 20 (b) 10 (c) −10 (d) 0
+Answer: (c)
+Solution: First multiply (1 + i)(1 + 2i) = 1 + 3i + 2i² = −1 + 3i. Then (−1 + 3i)(1 + 3i) = −1 − 3i + 3i + 9i² = −10 + 0i. So x = −10, y = 0, and x + y = −10; the trap is stopping after the first product and guessing 10. The answer is −10.
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+79. The value of i⁵⁷ + i⁷⁰ is
+(a) 1 + i (b) −1 + i (c) 1 − i (d) −1 − i
+Answer: (b)
+Solution: The trap is reducing the powers wrongly: divide each exponent by 4 and use the remainder. 57 = 4×14 + 1, so i⁵⁷ = i; 70 = 4×17 + 2, so i⁷⁰ = i² = −1. Sum = −1 + i. The answer is −1 + i.
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+80. If z = x + iy and |z − 2| = |z + 2|, then the locus of z is
+(a) the x-axis (b) the circle x² + y² = 4 (c) the y-axis (d) the line y = x
+Answer: (c)
+Solution: The trap is assuming a circle; equal distances from two fixed points give a perpendicular bisector, a straight line. Points equidistant from (2, 0) and (−2, 0) satisfy x = 0, the y-axis. The answer is the y-axis.
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+81. The argument of z = −1 − i is
+(a) π/4 (b) −π/4 (c) −3π/4 (d) 3π/4
+Answer: (c)
+Solution: The trap is answering π/4, which ignores the quadrant. Since both real and imaginary parts are negative, z lies in the third quadrant, so arg z = −π + π/4 = −3π/4 (principal value). The answer is −3π/4.
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+82. If |z| = 1 and w = (z − 1)/(z + 1), z ≠ −1, then Re(w) equals
+(a) −1 (b) 1 (c) 0 (d) |z − 1|/|z + 1|
+Answer: (c)
+Solution: The trap is assuming w is purely real. Write z = cos θ + i sin θ; then w = (z − 1)/(z + 1) = i tan(θ/2), which is purely imaginary, so Re(w) = 0. The answer is 0.
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+83. The modulus of (1 + i)/(1 − i) is
+(a) 2 (b) 1 (c) √2 (d) 1/√2
+Answer: (b)
+Solution: The trap is computing the simplified form i and then guessing √2. Using |z₁/z₂| = |z₁|/|z₂| = √2/√2 = 1. The answer is 1.
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+84. If z₁ = 2 + 3i and z₂ = 1 − i, then z₁z₂ equals
+(a) −1 + 5i (b) 5 + i (c) 5 + 5i (d) −1 + i
+Answer: (b)
+Solution: The trap is forgetting that i² = −1 flips a sign: (2 + 3i)(1 − i) = 2 − 2i + 3i − 3i² = 2 + i + 3 = 5 + i. The answer is 5 + i.
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+85. The conjugate of (2 + i)² is
+(a) 5 − 4i (b) 3 + 4i (c) −3 − 4i (d) 3 − 4i
+Answer: (d)
+Solution: First expand: (2 + i)² = 4 + 4i + i² = 3 + 4i. The trap is conjugating before expanding and getting confused with signs; the conjugate of 3 + 4i is 3 − 4i. The answer is 3 − 4i.
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+86. If z + z̄ = 8 and z − z̄ = 6i, then z equals
+(a) 3 + 4i (b) 4 − 3i (c) 8 + 6i (d) 4 + 3i
+Answer: (d)
+Solution: Adding the equations: 2z = 8 + 6i, so z = 4 + 3i. The trap is mixing up which equation gives the real part; z + z̄ = 2Re(z) = 8 gives Re(z) = 4, and z − z̄ = 2i Im(z) = 6i gives Im(z) = 3. The answer is 4 + 3i.
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+87. The polar form of z = −√3 + i is
+(a) 2(cos π/6 + i sin π/6) (b) 2(cos 5π/6 + i sin 5π/6) (c) 2(cos 2π/3 + i sin 2π/3) (d) 4(cos 5π/6 + i sin 5π/6)
+Answer: (b)
+Solution: The trap is using π/6, which is only the reference angle, not the actual argument. |z| = √(3 + 1) = 2, and z is in the second quadrant, so θ = π − π/6 = 5π/6. The answer is 2(cos 5π/6 + i sin 5π/6).
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+88. If ω is a complex cube root of unity, then (1 + ω)(1 + ω²) equals
+(a) 1 (b) 0 (c) −1 (d) ω
+Answer: (a)
+Solution: The trap is answering 0 by misusing 1 + ω + ω² = 0. Expand: 1 + ω + ω² + ω³ = 0 + 1 = 1, since ω³ = 1. The answer is 1.
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+89. If ω is a complex cube root of unity, then (1 + ω − ω²)² equals
+(a) −4ω² (b) −4ω (c) 4ω² (d) 4ω
+Answer: (d)
+Solution: The trap is squaring −2ω instead of −2ω². Since 1 + ω + ω² = 0, we have 1 + ω = −ω², so 1 + ω − ω² = −2ω². Squaring gives 4ω⁴ = 4ω³·ω = 4ω. The answer is 4ω.
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+90. The number of solutions of z² + |z| = 0, where z is complex, is
+(a) 1 (b) 3 (c) 4 (d) 2
+Answer: (b)
+Solution: The trap is assuming only z = 0 works. Since z² = −|z| is real and non-positive, z must be purely imaginary, say z = iy. Then −y² + |y| = 0 gives |y|(|y| − 1) = 0, so y = 0, 1, −1, giving z = 0, i, −i. The answer is 3.
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+91. If |z − 4i| + |z + 4i| = 10, then the locus of z is
+(a) an ellipse (b) a circle (c) a hyperbola (d) a straight line
+Answer: (a)
+Solution: The trap is choosing circle; a constant sum of distances from two fixed points defines an ellipse, not a circle. Here the foci are (0, 4) and (0, −4) and the sum 10 exceeds 8, the distance between the foci, so the locus is an ellipse. The answer is an ellipse.
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+92. The value of (1 + i)¹⁰ is
+(a) 32 (b) −32i (c) 32i (d) 1024i
+Answer: (c)
+Solution: The trap is computing |1 + i|¹⁰ = 1024 and ignoring the angle. Since (1 + i)² = 2i, we get (1 + i)¹⁰ = (2i)⁵ = 32i⁵ = 32i. The answer is 32i.
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+93. If z = (3 + 4i)/(4 − 3i), then arg(z) equals
+(a) π/2 (b) π/4 (c) 0 (d) π
+Answer: (a)
+Solution: Multiply numerator and denominator by the conjugate: (3 + 4i)(4 + 3i)/(16 + 9) = (12 + 9i + 16i + 12i²)/25 = 25i/25 = i. The trap is adding the arguments of numerator and denominator instead of subtracting. arg(i) = π/2. The answer is π/2.
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+94. If |z₁| = |z₂| = |z₃| = 1 and z₁ + z₂ + z₃ = 0, then 1/z₁ + 1/z₂ + 1/z₃ equals
+(a) 0 (b) 1 (c) 3 (d) z₁z₂z₃
+Answer: (a)
+Solution: The trap is guessing 3 by treating each reciprocal as 1. Since |zₖ| = 1, we have 1/zₖ = z̄ₖ, so the sum equals the conjugate of (z₁ + z₂ + z₃), which is the conjugate of 0. The answer is 0.
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+95. The real part of (1 − i)⁻² is
+(a) 1 (b) 1/2 (c) −1/2 (d) 0
+Answer: (d)
+Solution: (1 − i)² = 1 − 2i + i² = −2i, so (1 − i)⁻² = 1/(−2i) = i/2. The trap is reporting 1/2, which is the coefficient of the imaginary part, not the real part. The answer is 0.
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+96. If z lies on the circle |z| = 2, then |z + 1/z| lies in the interval
+(a) [3/2, 2] (b) [0, 5/2] (c) [1, 3] (d) [3/2, 5/2]
+Answer: (d)
+Solution: The trap is using only the triangle inequality upper bound 2 + 1/2 = 5/2 and ignoring the lower bound. By the reverse triangle inequality, |z + 1/z| ≥ |2 − 1/2| = 3/2, and ≤ 2 + 1/2 = 5/2; both bounds are attained, at z = ±2 and z = ±2i respectively. The answer is [3/2, 5/2].
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+97. If (x + iy)^(1/3) = a + ib, then x/a + y/b equals
+(a) 4(a² + b²) (b) 4(a² − b²) (c) a² − b² (d) 2(a² − b²)
+Answer: (b)
+Solution: Cubing: x + iy = (a + ib)³ = a³ − 3ab² + i(3a²b − b³). So x/a = a² − 3b² and y/b = 3a² − b². Adding gives x/a + y/b = 4a² − 4b² = 4(a² − b²); the trap is subtracting the two ratios instead of adding. The answer is 4(a² − b²).
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+98. The least positive integer n for which ((1 + i)/(1 − i))ⁿ = 1 is
+(a) 2 (b) 6 (c) 4 (d) 8
+Answer: (c)
+Solution: (1 + i)/(1 − i) = (1 + i)²/2 = 2i/2 = i. The trap is answering 2, thinking i² = 1; actually i² = −1. We need iⁿ = 1, and the least such positive n is 4. The answer is 4.
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+99. If z₁ and z₂ are non-zero complex numbers such that |z₁ + z₂| = |z₁| + |z₂|, then
+(a) arg z₁ = arg z₂ (b) arg z₁ + arg z₂ = π (c) z₁z₂ is purely imaginary (d) |z₁| = |z₂|
+Answer: (a)
+Solution: The trap is assuming equal moduli; equality in the triangle inequality depends on direction, not magnitude. Equality |z₁ + z₂| = |z₁| + |z₂| holds exactly when z₁ and z₂ point the same way, i.e. one is a positive real multiple of the other. The answer is arg z₁ = arg z₂.
+Source: NCERT Class 11 Mathematics, Chapter 5
+
+100. If z = cos θ + i sin θ, then (z²ⁿ − 1)/(z²ⁿ + 1) equals
+(a) i tan nθ (b) tan nθ (c) i cot nθ (d) −i tan nθ
+Answer: (a)
+Solution: The trap is dropping the i and writing tan nθ. By De Moivre's theorem, z²ⁿ = cos nθ + i sin nθ, and dividing numerator and denominator by zⁿ gives (zⁿ − z⁻ⁿ)/(zⁿ + z⁻ⁿ) = (2i sin nθ)/(2 cos nθ) = i tan nθ. The answer is i tan nθ.
+Source: NCERT Class 11 Mathematics, Chapter 5

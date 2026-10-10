@@ -1,0 +1,144 @@
+# Mathematical Operations
+
+## 1. Outline & Learning Goals
+
+In this chapter you will master:
+
+- **Symbol substitution** — where `+` means `−`, `×` means `÷`, and so on.
+- **Interchanging signs and numbers** — which swap makes an equation correct?
+- **Balancing equations** — inserting the right signs to make a statement true.
+- **BODMAS-based evaluation** after decoding the symbols.
+- **Coded operations** — letters or words standing for operators.
+
+By the end, you should be able to decode any symbol puzzle in under 45 seconds and spot the examiner's favourite traps before they catch you.
+
+---
+
+## 2. The Hook
+
+Imagine the examiner hands you this:
+
+> If `+` means `÷`, `÷` means `×`, `×` means `−` and `−` means `+`, what is the value of `8 + 4 ÷ 2 × 6 − 3`?
+
+Most students freeze. But here is the secret: **this is not a maths question at all.** It is a *translation* question. The arithmetic itself is Class-5 level. The only skill being tested is whether you can calmly rewrite the sentence in a new language and then follow one sacred rule — BODMAS. Once you see it that way, this chapter becomes free marks.
+
+---
+
+## 3. The Common Struggle (You Are Not Alone)
+
+Almost every aspirant makes the same three mistakes here:
+
+1. **Solving left to right** instead of following BODMAS after substitution.
+2. **Substituting symbols halfway** — changing the first two signs, then forgetting and using the original meaning for the third.
+3. **Panicking at the options** when two options look "almost right."
+
+The fix for all three is one habit: **rewrite the entire expression in real symbols first, on paper, before touching any calculation.** Never decode in your head.
+
+🧠 **Active Recall:** Before reading on, close your eyes and answer — why should you never solve a substituted expression left to right?
+
+---
+
+## 4. Chunk 1 — Symbol Substitution (The Core Type)
+
+**The rule:** Replace every symbol with its new meaning, *then* apply BODMAS.
+
+**Example:** If `+` means `×`, `−` means `+`, `×` means `÷`, `÷` means `−`, find:
+`16 ÷ 4 + 2 × 3 − 1`
+
+**Step 1 — Translate:**
+`16 − 4 × 2 ÷ 3 + 1` … wait, careful! Translate symbol by symbol:
+- `÷` → `−`
+- `+` → `×`
+- `×` → `÷`
+- `−` → `+`
+
+So: `16 − 4 × 2 ÷ 3 + 1`
+
+**Step 2 — BODMAS:** Division first: `2 ÷ 3 = 2/3`. Hmm — that gives a fraction, which is a red flag. In exam questions the numbers are usually chosen to divide cleanly, so if you get an ugly fraction, **re-check your translation.** That habit alone saves more marks than any shortcut.
+
+🧠 **Active Recall:** What are the two steps of every substitution question, in order?
+
+---
+
+## 5. Chunk 2 — Interchanging Signs or Numbers
+
+Here the question says: *"Which interchange of two signs (or two numbers) makes the equation correct?"*
+
+**The strategy — do NOT try all combinations.** Use these filters:
+
+- **Division filter:** If the equation contains `÷`, after interchange the division must still produce a whole number (usually). Test only interchanges that keep division clean.
+- **Magnitude filter:** If the LHS is much smaller than the RHS, the interchange probably converts a `−` or `÷` into a `×` or `+` (something that *grows* the value).
+
+**Example:** `5 + 3 × 8 − 12 ÷ 4 = 3`. Which interchange works?
+Try `+` and `−`: `5 − 3 × 8 + 12 ÷ 4 = 5 − 24 + 3 = −16`. No.
+Try `×` and `÷`: `5 + 3 ÷ 8 × 12 − 4` — messy fraction, skip.
+Try `−` and `÷`: `5 + 3 × 8 ÷ 12 − 4 = 5 + 2 − 4 = 3`. ✓
+
+Notice how the filters eliminated two of the three tries instantly.
+
+🧠 **Active Recall:** Name the two filters that save you from testing every interchange.
+
+---
+
+## 6. Chunk 3 — Balancing Equations (Insert the Signs)
+
+You are given something like: `7 ? 3 ? 4 = 25` and must pick the right pair of signs.
+
+**Golden method — work backwards from the answer:**
+- Answer 25 is *large* → at least one `×` is almost certain.
+- `7 × 3 = 21`, and `21 + 4 = 25`. Done: `×` then `+`.
+
+Backwards-thinking turns a guessing game into a 10-second check. Always ask: *"Which operation can produce a number this big (or this small)?"*
+
+🧠 **Active Recall:** In balancing questions, why do we start from the result instead of the numbers?
+
+---
+
+## 7. Chunk 4 — Coded Operations (Letters & Words)
+
+Sometimes operators hide behind letters: *"A means +, B means −, C means ×, D means ÷."* Or words: *"'goes' means +, 'into' means ×…"*
+
+The method never changes:
+1. Write a **mini dictionary** on your rough sheet: `A = +`, `B = −`…
+2. Translate the full expression.
+3. BODMAS.
+
+The dictionary step feels slow but is actually the fastest path — it kills the "halfway substitution" error from Section 3.
+
+---
+
+## 8. Mnemonic Trick 🎯
+
+Remember the workflow with **"T-B-C"** — *Translate, BODMAS, Check*:
+
+> **"The Brave Cat"** — Translate first, BODMAS second, Check the division is clean.
+
+And for BODMAS order itself: **"Big Dragons Make Apple Sauce"** — Brackets, Division, Multiplication, Addition, Subtraction.
+
+🧠 **Active Recall:** Recite the T-B-C workflow and what each letter stands for.
+
+---
+
+## 9. Summary Table
+
+| Question Type | First Move | Key Check |
+|---|---|---|
+| Symbol substitution | Rewrite all symbols on paper | Division should come out clean |
+| Interchange signs/numbers | Use division & magnitude filters | Test fewest possible swaps |
+| Balancing equations | Work backwards from the result | Big answer → look for `×` |
+| Coded (letters/words) | Write a mini dictionary | Translate fully before solving |
+| All types | T-B-C: Translate, BODMAS, Check | Never solve left to right |
+
+📅 **Review this chapter after 2 days.** Redo one question of each type from memory — if the T-B-C workflow comes back to you without notes, you own this chapter.
+
+---
+
+## ⚠️ Caution: Examiner's Trap
+
+**Trap 1 — The "almost right" option.** After substitution, the examiner places one option that you get if you solve *left to right* instead of BODMAS, and another you get if you forget to substitute one symbol. Defence: translate fully on paper, then strictly follow BODMAS.
+
+**Trap 2 — Confusing language to hide a simple operation.** Phrases like "P is multiplied by the difference of Q and R" are designed to make you misplace brackets. It means `P × (Q − R)`, not `P × Q − R`. Defence: convert wordy sentences into brackets first — "difference of", "sum of", "product of" always create a bracket.
+
+**Trap 3 — Double-relationship questions.** In interchange questions, sometimes *two* interchanges appear to work if you check carelessly (e.g., forgetting that division must yield a whole number, or checking only part of the equation). Defence: verify the **complete** equation after interchange, and apply the clean-division filter before committing.
+
+**Trap 3 — Double-relationship questions.** In interchange questions, sometimes *two* interchanges appear to work if you check carelessly (e.g., forgetting that division must yield a whole number, or checking only part of the equation). Defence: verify the **complete** equation after interchange, and apply the clean-division filter before committing.

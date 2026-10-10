@@ -1,3 +1,294 @@
-# Chapter: Trigonometry, Level: intermediate
+# 🪄 Short Tricks — Trigonometry (Memory Magic)
 
-@content_agent lang=en level=intermediate role='mnemonic specialist' 'Create 10-15 fun and outrageous memory tricks (Mnemonics) for all key formulas, rules and concepts of Trigonometry. Each trick should be unforgettable. Use Keyword Method, Loci, or Acronyms wherever possible. Present each trick in a separate box.'
+---
+
+## 🎯 Trick 1: SOH – CAH – TOA (The King of All Tricks)
+
+```
+┌─────────────────────────────────────────────┐
+│  SOH  →  Sin = Opposite / Hypotenuse        │
+│  CAH  →  Cos = Adjacent / Hypotenuse        │
+│  TOA  →  Tan = Opposite / Adjacent          │
+│                                             │
+│  Say it like a word: "SOH-CAH-TOA"          │
+│  (sounds like a karate move — HIYA!)        │
+└─────────────────────────────────────────────┘
+```
+**Use:** The moment you see a right triangle, chant SOH-CAH-TOA before touching the pen.
+
+---
+
+## 🎯 Trick 2: "Pandit Badri Prasad, Har Har Bole" (Pandit Ji Trick)
+
+```
+┌─────────────────────────────────────────────┐
+│  Pandit Badri Prasad                        │
+│  Har    Har   Bole                          │
+│                                             │
+│  P/H    B/H     P/B                         │
+│  sin    cos     tan                         │
+│                                             │
+│  P = Perpendicular (लंब)                    │
+│  B = Base (आधार)                            │
+│  H = Hypotenuse (कर्ण)                      │
+└─────────────────────────────────────────────┘
+```
+**Use:** Instant recall of sin, cos, tan ratios — works even under exam pressure.
+
+---
+
+## 🎯 Trick 3: The 0-1-2-3-4 Finger Table (sin values)
+
+```
+┌─────────────────────────────────────────────┐
+│  Angle:   0°    30°    45°    60°    90°    │
+│  Number:  0     1      2      3      4      │
+│                                             │
+│  sin θ = √(number)/2                        │
+│                                             │
+│  sin 0°  = √0/2 = 0                         │
+│  sin 30° = √1/2 = 1/2                       │
+│  sin 45° = √2/2 = 1/√2                      │
+│  sin 60° = √3/2                             │
+│  sin 90° = √4/2 = 1                         │
+│                                             │
+│  cos = same table READ BACKWARDS!           │
+│  tan = sin ÷ cos                            │
+└─────────────────────────────────────────────┘
+```
+**Use:** Never memorize the value table again — just count 0,1,2,3,4 and take √n/2.
+
+---
+
+## 🎯 Trick 4: "All Silver Tea Cups" (Quadrant Signs)
+
+```
+┌─────────────────────────────────────────────┐
+│  Quadrant I   → ALL positive                │
+│  Quadrant II  → SILVER → Sin positive       │
+│  Quadrant III → TEA    → Tan positive       │
+│  Quadrant IV  → CUPS   → Cos positive       │
+│                                             │
+│  Going anti-clockwise: A → S → T → C        │
+│  "After School, Take Coffee"                │
+└─────────────────────────────────────────────┘
+```
+**Use:** Any question like "sign of sin 210°?" — 210° is in Q-III → only tan positive → sin is negative. Done in 3 seconds.
+
+---
+
+## 🎯 Trick 5: "CO goes with CO" (Complementary Pairs)
+
+```
+┌─────────────────────────────────────────────┐
+│  CO-functions swap at 90°:                  │
+│                                             │
+│  sin ↔ COs                                  │
+│  tan ↔ COtan                                │
+│  sec ↔ COsec                                │
+│                                             │
+│  sin(90° − θ) = cos θ                       │
+│  tan(90° − θ) = cot θ                       │
+│  sec(90° − θ) = cosec θ                     │
+│                                             │
+│  Memory hook: "CO meets CO at 90"           │
+└─────────────────────────────────────────────┘
+```
+**Use:** Questions like "sin 25° = cos ?" → 90 − 25 = 65°. Instant.
+
+---
+
+## 🎯 Trick 6: The "1 + tan² = sec²" Family Photo
+
+```
+┌─────────────────────────────────────────────┐
+│  Papa identity:    sin²θ + cos²θ = 1        │
+│                                             │
+│  Divide by cos²θ →  tan²θ + 1 = sec²θ       │
+│  Divide by sin²θ →  1 + cot²θ = cosec²θ     │
+│                                             │
+│  Trick: ONE papa, TWO children.             │
+│  Just divide — never memorize 3 formulas!   │
+└─────────────────────────────────────────────┘
+```
+**Use:** Many identity questions can be solved using these three identities. Derive, don't cram.
+
+---
+
+## 🎯 Trick 7: "Sin is Generous, Cos is Selfish" (A ± B formulas)
+
+```
+┌─────────────────────────────────────────────┐
+│  sin(A + B) = sinA·cosB + cosA·sinB         │
+│  → Sin SHARES: mixes with everyone          │
+│    (sign stays SAME: + gives +)             │
+│                                             │
+│  cos(A + B) = cosA·cosB − sinA·sinB         │
+│  → Cos is SELFISH: keeps own kind together  │
+│    (sign FLIPS: + gives −)                  │
+│                                             │
+│  Hook: "Sin mixes happily,                  │
+│         Cos flips the sign!"                │
+└─────────────────────────────────────────────┘
+```
+**Use:** Never confuse the ± signs in expansion formulas again.
+
+---
+
+## 🎯 Trick 8: The 45-45-90 & 30-60-90 "Triangle Twins"
+
+```
+┌─────────────────────────────────────────────┐
+│  45°-45°-90° triangle:                      │
+│  sides = 1 : 1 : √2                         │
+│  ("Two twins and a √2 bodyguard")           │
+│                                             │
+│  30°-60°-90° triangle:                      │
+│  sides = 1 : √3 : 2                         │
+│  ("Small 1, middle √3, big boss 2")         │
+│  1 sits opposite 30°, 2 is hypotenuse       │
+└─────────────────────────────────────────────┘
+```
+**Use:** Any standard-angle ratio can be derived from these two triangles in 10 seconds.
+
+---
+
+## 🎯 Trick 9: "Height-Distance = Shadow Game"
+
+```
+┌─────────────────────────────────────────────┐
+│  Angle 30° → shadow = height × √3 (LONG)    │
+│  Angle 45° → shadow = height × 1  (EQUAL)   │
+│  Angle 60° → shadow = height ÷ √3 (SHORT)   │
+│                                             │
+│  Hook: "Bigger angle, shorter shadow —      │
+│  the sun climbs up, the shadow shrinks!"    │
+│                                             │
+│  tan θ = height / shadow  ← always          │
+└─────────────────────────────────────────────┘
+```
+**Use:** Most height-and-distance questions in exams use standard angles 30°, 45°, 60°. This table solves them directly.
+
+---
+
+## 🎯 Trick 10: "Double Angle = Clone Wars" (2θ formulas)
+
+```
+┌─────────────────────────────────────────────┐
+│  sin 2θ = 2 sinθ cosθ                       │
+│  ("Sin clones into TWO — 2sc")              │
+│                                             │
+│  cos 2θ = cos²θ − sin²θ                     │
+│         = 2cos²θ − 1                        │
+│         = 1 − 2sin²θ                        │
+│  ("Cos has THREE disguises — pick any!")    │
+│                                             │
+│  tan 2θ = 2tanθ / (1 − tan²θ)               │
+│  ("Tan divides by 1 minus its square")      │
+└─────────────────────────────────────────────┘
+```
+**Use:** In cos 2θ questions, choose the disguise that matches the given data (only sin given? use 1 − 2sin²θ).
+
+---
+
+## 🎯 Trick 11: "π = 180° — The Currency Exchange"
+
+```
+┌─────────────────────────────────────────────┐
+│  Radians ↔ Degrees:                         │
+│                                             │
+│  π radians = 180°  (the EXCHANGE RATE)      │
+│                                             │
+│  Degrees → Radians: multiply by π/180       │
+│  Radians → Degrees: multiply by 180/π       │
+│                                             │
+│  Hook: "Going to π-land? Multiply by π.     │
+│  Coming home? Divide it out."               │
+│                                             │
+│  Common coins: π/6=30°, π/4=45°,            │
+│  π/3=60°, π/2=90°                           │
+└─────────────────────────────────────────────┘
+```
+
+---
+
+## 🎯 Trick 12: "Sec and Cosec are the BODYGUARDS"
+
+```
+┌─────────────────────────────────────────────┐
+│  sec θ = 1/cos θ   (bodyguard of cos)       │
+│  cosec θ = 1/sin θ (bodyguard of sin)       │
+│  cot θ = 1/tan θ   (bodyguard of tan)       │
+│                                             │
+│  ⚠ TRAP ALERT:                              │
+│  sec goes with COS (not sin!)               │
+│  cosec goes with SIN (not cos!)             │
+│                                             │
+│  Hook: "The bodyguards SWAPPED bosses —     │
+│  sec protects cos, cosec protects sin."     │
+└─────────────────────────────────────────────┘
+```
+**Use:** This swap is the examiner's favourite trap. Remember the swap, dodge the trap.
+
+---
+
+## 🎯 Trick 13: "Maximum-Minimum = The Sin-Cos Cage"
+
+```
+┌─────────────────────────────────────────────┐
+│  −1 ≤ sin θ ≤ 1                             │
+│  −1 ≤ cos θ ≤ 1                             │
+│  ("Sin and Cos live in a CAGE from −1 to 1")│
+│                                             │
+│  tan θ and cot θ → any value (−∞ to +∞)     │
+│  sec θ and cosec θ → NEVER between −1 and 1 │
+│  ("Bodyguards stay OUTSIDE the cage")       │
+│                                             │
+│  a sin θ + b cos θ → max = √(a² + b²),      │
+│                      min = −√(a² + b²)      │
+└─────────────────────────────────────────────┘
+```
+**Use:** "Max value of 3 sin θ + 4 cos θ?" → √(9+16) = 5. Two seconds, no working.
+
+---
+
+## 🎯 Trick 14: "Complementary Twins Multiply to 1"
+
+```
+┌─────────────────────────────────────────────┐
+│  If A + B = 90°, then:                      │
+│                                             │
+│  sin A · sin B = sin A · cos A  (pair up!)  │
+│  tan A · tan B = 1   ← GOLDEN RESULT        │
+│  tan 1°·tan 2°·…·tan 89° = 1                │
+│                                             │
+│  Hook: "Twins at 90 multiply to ONE."       │
+│  (tan 45° = 1 sits alone in the middle)     │
+└─────────────────────────────────────────────┘
+```
+**Use:** Long product chains like tan 1°·tan 2°…tan 89° collapse to 1 instantly.
+
+---
+
+## 🎯 Trick 15: The "Exam Hall 5-Second Checklist"
+
+```
+┌─────────────────────────────────────────────┐
+│  Before solving ANY trig question, ask:     │
+│                                             │
+│  1️⃣  Standard angle? (0,30,45,60,90)        │
+│      → use the 0-1-2-3-4 table              │
+│  2️⃣  Complementary? (90° − θ)               │
+│      → CO meets CO                          │
+│  3️⃣  Identity? → Papa + 2 children          │
+│  4️⃣  Height-distance? → Shadow Game         │
+│  5️⃣  Max-min? → The Cage + √(a²+b²)         │
+│                                             │
+│  A large portion of trigonometry questions  │
+│  fall into these five categories!           │
+└─────────────────────────────────────────────┘
+```
+
+---
+
+**🔁 Revision Signal:** Revise these tricks after 2 days, then after 7 days. Say each mnemonic OUT LOUD once — spoken memory sticks twice as fast as silent reading.

@@ -1,0 +1,151 @@
+Questions 1–20: Easy | Questions 21–25: Medium
+
+1. A standard die is thrown. What is the sum of the numbers on the top and bottom faces?
+(a) 7 (b) 6 (c) 8 (d) 9
+Answer: (a)
+Solution: On a standard die, opposite faces always add up to 7, so any top–bottom pair sums to 7. The trap is thinking the sum depends on which face is on top, so the answer is 7.
+Source: PYQ-style
+
+2. On a standard die, which number is opposite to the face showing 3?
+(a) 2 (b) 5 (c) 6 (d) 4
+Answer: (d)
+Solution: Opposite faces of a standard die sum to 7, so the face opposite 3 is 7 − 3 = 4. The trap answer 6 is just the highest face, not the opposite one, so the answer is 4.
+Source: PYQ-style
+
+3. A cube has how many edges?
+(a) 10 (b) 8 (c) 6 (d) 12
+Answer: (d)
+Solution: A cube has 6 faces, 8 vertices and 12 edges. The trap answer 8 is the number of vertices, not edges, so the answer is 12.
+Source: NCERT Class 8 Mathematics
+
+4. A cube has how many vertices (corners)?
+(a) 8 (b) 4 (c) 6 (d) 12
+Answer: (a)
+Solution: A cube has 8 corners where three faces meet. The tempting answer 12 is the number of edges, not vertices, so the answer is 8.
+Source: NCERT Class 8 Mathematics
+
+5. Two positions of a die are shown. In position 1, faces 1, 2, 3 are visible; in position 2, faces 2, 3, 5 are visible. Which number is opposite to 2?
+(a) 6 (b) 3 (c) 5 (d) 1
+Answer: (a)
+Solution: Faces 1, 3 and 5 all touch 2, so none of them can be opposite it. The only remaining number is 6, so the answer is 6.
+Source: PYQ-style
+
+6. A cube is painted on all six faces and cut into 27 equal smaller cubes. How many small cubes have exactly three painted faces?
+(a) 6 (b) 8 (c) 12 (d) 4
+Answer: (b)
+Solution: Cubes with three painted faces lie only at the corners, and a cube has 8 corners. The trap answer 12 counts the edge cubes, so the answer is 8.
+Source: PYQ-style
+
+7. A cube painted on all faces is cut into 64 equal small cubes. How many small cubes have no painted face?
+(a) 4 (b) 8 (c) 16 (d) 27
+Answer: (b)
+Solution: With 4 cubes per edge, the unpainted inner cubes form a cube of side 4 − 2 = 2, giving 2³ = 8 cubes. The trap answer 4 uses only the side length, not its cube, so the answer is 8.
+Source: PYQ-style
+
+8. On a standard die, which pair of faces is opposite?
+(a) 1 and 2 (b) 5 and 6 (c) 2 and 5 (d) 2 and 3
+Answer: (c)
+Solution: Opposite pairs on a standard die are 1–6, 2–5 and 3–4. The pairs 1–2, 5–6 and 2–3 are adjacent faces, so the answer is 2 and 5.
+Source: PYQ-style
+
+9. A cube painted on all faces is cut into 125 equal small cubes. How many small cubes have exactly one painted face?
+(a) 54 (b) 36 (c) 48 (d) 64
+Answer: (a)
+Solution: With 5 cubes per edge, one-face-painted cubes per face are (5 − 2)² = 9, and over 6 faces that is 54. The trap answer 36 uses 6 × 6 instead of 9 × 6, so the answer is 54.
+Source: PYQ-style
+
+10. On a standard die, which number is opposite to the face showing 5?
+(a) 3 (b) 2 (c) 6 (d) 1
+Answer: (b)
+Solution: Opposite faces of a standard die sum to 7, so the face opposite 5 is 7 − 5 = 2. The trap answer 1 is opposite 6, not 5, so the answer is 2.
+Source: PYQ-style
+
+11. How many faces does a cuboid have?
+(a) 8 (b) 4 (c) 6 (d) 12
+Answer: (c)
+Solution: A cuboid, like a cube, has 6 faces, 12 edges and 8 vertices. The trap answer 12 is the number of edges, so the answer is 6.
+Source: NCERT Class 8 Mathematics
+
+12. A cube painted on all faces is cut into 8 equal small cubes. How many small cubes have exactly two painted faces?
+(a) 8 (b) 4 (c) 0 (d) 12
+Answer: (c)
+Solution: When cut into 8 cubes, every small cube is a corner cube with three painted faces, so none has exactly two painted faces. The trap answer 8 assumes the usual edge formula applies, so the answer is 0.
+Source: PYQ-style
+
+13. A die shows 2 on top and 3 facing you. On a standard die, which number is on the bottom?
+(a) 5 (b) 4 (c) 6 (d) 1
+Answer: (a)
+Solution: The bottom face is opposite the top face 2, and opposite faces sum to 7, giving 7 − 2 = 5. The trap answer 4 is opposite 3, the front face, so the answer is 5.
+Source: PYQ-style
+
+14. A cube painted on all faces is cut into 27 equal small cubes. How many small cubes have exactly two painted faces?
+(a) 12 (b) 8 (c) 6 (d) 4
+Answer: (a)
+Solution: Two-face-painted cubes lie on edges excluding corners: 12 edges × (3 − 2) = 12 cubes. The trap answer 8 counts the corner cubes, so the answer is 12.
+Source: PYQ-style
+
+15. Which of the following can be folded into a cube?
+(a) 6 squares arranged in a 2×3 rectangle (b) A cross of 4 squares in a row with one square above and one below the second square (c) A strip of 6 squares in one row (d) 5 squares in a row with one attached at the end
+Answer: (b)
+Solution: A straight strip of 6 and a 2×3 rectangle both force overlapping faces when folded. The cross net folds correctly into a cube, so the answer is the cross of 4 squares in a row with one square above and one below the second square.
+Source: NCERT Class 7 Mathematics
+
+16. A cube painted on all faces is cut into 64 equal small cubes. How many small cubes have exactly three painted faces?
+(a) 4 (b) 8 (c) 12 (d) 24
+Answer: (b)
+Solution: Three-painted-face cubes are always the corner cubes, and a cube has exactly 8 corners regardless of the cut size. The trap answer 24 counts edge cubes, so the answer is 8.
+Source: PYQ-style
+
+17. Two positions of a die are shown. In position 1, faces 1, 2, 3 are visible; in position 2, faces 1, 4, 5 are visible. Which number is opposite 1?
+(a) 6 (b) 4 (c) 2 (d) 5
+Answer: (a)
+Solution: From the two positions, 1 touches 2, 3, 4 and 5, so its opposite must be the only remaining number, 6. The trap is picking 5, which is adjacent to 1, so the answer is 6.
+Source: PYQ-style
+
+18. A cube painted on all faces is cut into 27 equal small cubes. How many small cubes have exactly one painted face?
+(a) 12 (b) 9 (c) 6 (d) 8
+Answer: (c)
+Solution: One-face-painted cubes are the centre cube of each face: (3 − 2)² = 1 per face × 6 faces = 6. The trap answer 12 counts the edge cubes, so the answer is 6.
+Source: PYQ-style
+
+19. On a standard die, the face opposite 6 is:
+(a) 3 (b) 2 (c) 5 (d) 1
+Answer: (d)
+Solution: Opposite faces sum to 7, so the face opposite 6 is 7 − 6 = 1. The trap answer 5 is opposite 2, not 6, so the answer is 1.
+Source: PYQ-style
+
+20. A cube painted on all faces is cut into 64 equal small cubes. How many small cubes have exactly two painted faces?
+(a) 12 (b) 16 (c) 32 (d) 24
+Answer: (d)
+Solution: Two-face-painted cubes lie on edges excluding corners: 12 edges × (4 − 2) = 24. The trap answer 12 forgets the 2 middle cubes per edge, so the answer is 24.
+Source: PYQ-style
+
+21. A cube painted on all faces is cut into 216 equal small cubes. How many small cubes have at least one painted face?
+(a) 64 (b) 125 (c) 152 (d) 98
+Answer: (c)
+Solution: Total cubes are 216 and unpainted inner cubes are (6 − 2)³ = 64, so painted cubes are 216 − 64 = 152. The trap answer 64 is the unpainted count, so the answer is 152.
+Source: PYQ-style
+
+22. A cube painted on all faces is cut into 125 equal small cubes. How many small cubes have exactly two painted faces?
+(a) 12 (b) 24 (c) 48 (d) 36
+Answer: (d)
+Solution: With 5 cubes per edge, two-face-painted cubes are 12 edges × (5 − 2) = 36. The trap answer 12 counts only one cube per edge, so the answer is 36.
+Source: PYQ-style
+
+23. A cube painted red on two opposite faces, green on two opposite faces and blue on the remaining two faces is cut into 27 equal small cubes. How many small cubes have exactly two colours on them?
+(a) 24 (b) 36 (c) 12 (d) 8
+Answer: (c)
+Solution: Two-colour cubes lie on the edges but not at the corners, since corner cubes show three colours. Each of the 12 edges has 3 − 2 = 1 middle cube, giving 12 × 1 = 12 two-colour cubes. The trap answer 8 counts the three-colour corner cubes, so the answer is 12.
+Source: PYQ-style
+
+24. A die is thrown twice. On a standard die, what is the probability that the sum of the two numbers on the top faces is 7?
+(a) 1/12 (b) 1/6 (c) 1/9 (d) 5/36
+Answer: (b)
+Solution: Favourable outcomes for sum 7 are (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) — 6 outcomes out of 36, giving 6/36 = 1/6. The trap answer 5/36 misses one ordered pair, so the answer is 1/6.
+Source: PYQ-style
+
+25. A cube painted on all faces is cut into 1000 equal small cubes. How many small cubes have exactly one painted face?
+(a) 296 (b) 486 (c) 512 (d) 384
+Answer: (d)
+Solution: With 10 cubes per edge, one-face-painted cubes per face are (10 − 2)² = 64, and over 6 faces that is 384. The trap answer 512 is the unpainted inner count (8³), so the answer is 384.
+Source: PYQ-style

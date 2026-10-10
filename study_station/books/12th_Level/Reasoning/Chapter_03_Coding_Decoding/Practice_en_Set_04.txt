@@ -1,0 +1,151 @@
+Questions 76–100: Medium
+
+76. In a certain code, "MASTER" is written as "OCUVGT". How is "PLANET" written in that code?
+(a) QNCPGV (b) RNCQGV (c) RNCPGV (d) RNCPGU
+Answer: (c)
+Solution: Each letter moves +2: M→O, A→C, S→U, T→V, E→G, R→T. The tempting option RNCQGV wrongly shifts N to Q instead of P. Applying +2 to PLANET gives R, N, C, P, G, V, so the answer is RNCPGV.
+Source: PYQ-style
+
+77. If "FRIEND" is coded as "GQJDMC", how will "ENEMY" be coded?
+(a) FMGMZ (b) EMFLZ (c) FMFLY (d) FMFLZ
+Answer: (d)
+Solution: The pattern alternates +1, −1: F+1=G, R−1=Q, I+1=J, E−1=D, N+1=M, D−1=C. The trap FMFLY forgets the final +1 on Y. For ENEMY: E+1=F, N−1=M, E+1=F, M−1=L, Y+1=Z, so the answer is FMFLZ.
+Source: PYQ-style
+
+78. In a code, "WATER" is written as "XBUFS". How is "MONEY" written?
+(a) NOPFZ (b) NPOFY (c) NPOFZ (d) MPOFZ
+Answer: (c)
+Solution: Every letter shifts +1: W→X, A→B, T→U, E→F, R→S. The trap MPOFZ keeps the first letter unchanged, which breaks the uniform shift. MONEY becomes N, P, O, F, Z, so the answer is NPOFZ.
+Source: PYQ-style
+
+79. If "DELHI" is coded as "73541" and "CALCUTTA" as "82589662", how will "CALICUT" be coded?
+(a) 8251968 (b) 8251986 (c) 8259186 (d) 8251896
+Answer: (d)
+Solution: Letters map to fixed digits: C=8, A=2, L=5, I=1, U=9, T=6. The trap 8251986 swaps the digits for I and U. CALICUT = 8,2,5,1,8,9,6, so the answer is 8251896.
+Source: PYQ-style
+
+80. In a certain language, "pit na som" means "bring me water", "na jo tod" means "water is life", and "tub od pit" means "give me toy". Which word means "me"?
+(a) na (b) som (c) pit (d) jo
+Answer: (c)
+Solution: "water" is common to the first two sentences, so "na" = water — this makes na the trap. "me" is common to the first and third sentences, and the common code word is "pit", so the answer is pit.
+Source: PYQ-style
+
+81. If "ROSE" is coded as "6821", "CHAIR" as "73456", and "PREACH" as "961473", what is the code for "SEARCH"?
+(a) 214673 (b) 216473 (c) 216743 (d) 261473
+Answer: (a)
+Solution: From the three words: S=2, E=1, A=4, R=6, C=7, H=3. The trap 216473 swaps the digits for A and R. SEARCH = 2,1,4,6,7,3, so the answer is 214673.
+Source: PYQ-style
+
+82. In a code, "TIGER" is written as "QDFHS". How is "LEOPARD" written?
+(a) CQZONMD (b) DQZONMD (c) CQZNNMD (d) CQZONME
+Answer: (a)
+Solution: The word is reversed and each letter shifts −1: TIGER reversed is REGIT, then −1 gives QDFHS. The trap DQZONMD shifts the first letter by +1 instead of −1. LEOPARD reversed is DRAPOEL, shifted −1 gives C,Q,Z,O,N,M,D, so the answer is CQZONMD.
+Source: PYQ-style
+
+83. If A = 1, B = 2, … Z = 26, and "CAT" is coded as 24 (sum of letter values), what is the code for "DOG"?
+(a) 24 (b) 26 (c) 28 (d) 30
+Answer: (b)
+Solution: CAT = 3+1+20 = 24 confirms the sum rule. The trap 24 comes from carelessly copying the example's value. DOG = 4+15+7 = 26, so the answer is 26.
+Source: PYQ-style
+
+84. In a certain code, "MACHINE" is written as "LBBIHOD". How is "DANGER" written?
+(a) CBMHDT (b) CBMGDS (c) CZMHDS (d) CBMHDS
+Answer: (d)
+Solution: The pattern alternates −1, +1: M−1=L, A+1=B, C−1=B, H+1=I, I−1=H, N+1=O, E−1=D. The trap CZMHDS applies −1 to every letter. For DANGER: D−1=C, A+1=B, N−1=M, G+1=H, E−1=D, R+1=S, so the answer is CBMHDS.
+Source: PYQ-style
+
+85. If "PAPER" is coded as "OZODQ", how will "PENCIL" be coded?
+(a) ODMBHK (b) ODMBIK (c) ODMBHL (d) ODMBHJ
+Answer: (a)
+Solution: Each letter shifts −1: P→O, A→Z, P→O, E→D, R→Q. The trap ODMBHJ wrongly shifts L to J, a −2 step. PENCIL becomes O, D, M, B, H, K, so the answer is ODMBHK.
+Source: PYQ-style
+
+86. In a code language, "she is good" is written as "ka ta ma", "he is bad" is written as "ta na sa", and "she and he" is written as "ka pa na". What is the code for "good"?
+(a) pa (b) ma (c) ta (d) ka
+Answer: (b)
+Solution: "is" is common to sentences 1 and 2, so "ta" = is; "she" is common to 1 and 3, so "ka" = she. The trap ka is "she", not "good". The remaining word in sentence 1 is "good" = ma, so the answer is ma.
+Source: PYQ-style
+
+87. If "BRAIN" is written as "DTCGP", how is "SMART" written?
+(a) UOCTU (b) UOCTV (c) UOCSV (d) UNCTV
+Answer: (b)
+Solution: Each letter shifts +2: B→D, R→T, A→C, I→G, N→P. The trap UOCTU shifts the last letter T by only +1. SMART becomes U, O, C, T, V, so the answer is UOCTV.
+Source: PYQ-style
+
+88. In a certain code, "123" means "hot filtered coffee", "356" means "very hot day", and "589" means "day and night". Which digit stands for "very"?
+(a) 3 (b) 5 (c) 6 (d) 9
+Answer: (c)
+Solution: "hot" is common to sentences 1 and 2, so 3 = hot; "day" is common to 2 and 3, so 5 = day. The trap 5 is "day", not "very". The remaining digit in sentence 2 is 6 = very, so the answer is 6.
+Source: PYQ-style
+
+89. If "WINDOW" is coded as "XJOEPX", how is "DOOR" coded?
+(a) EPPS (b) EPQS (c) EPPQ (d) FQQS
+Answer: (a)
+Solution: Each letter shifts +1: W→X, I→J, N→O, D→E, O→P, W→X. The trap FQQS applies +2 to every letter. DOOR becomes E, P, P, S, so the answer is EPPS.
+Source: PYQ-style
+
+90. In a code, "MOBILE" is written as "NQDKNF". How is "LAPTOP" written?
+(a) MCRVQQ (b) MCRUQQ (c) MCRVQP (d) MBRVQQ
+Answer: (a)
+Solution: The shifts are +1 for the first and last letters and +2 for all middle letters: M+1=N, O+2=Q, B+2=D, I+2=K, L+2=N, E+1=F. The trap MCRVQP forgets the final +1 on P. LAPTOP: L+1=M, A+2=C, P+2=R, T+2=V, O+2=Q, P+1=Q, so the answer is MCRVQQ.
+Source: PYQ-style
+
+91. If "EARTH" is coded as "FCUXJ", how is "VENUS" coded?
+(a) WFQYX (b) WGPYX (c) WGQYV (d) WGQYX
+Answer: (d)
+Solution: The shifts grow as +1, +2, +3, +4, +5: E+1=F, A+2=C, R+3=U, T+4=X, H+5=J. The trap WGPYX adds only +2 to N instead of +3. VENUS: V+1=W, E+2=G, N+3=Q, U+4=Y, S+5=X, so the answer is WGQYX.
+Source: PYQ-style
+
+92. In a certain code, "GOOD" is written as "HQQF". How is "BEST" written?
+(a) CFUV (b) CGUU (c) CGUV (d) CFTV
+Answer: (c)
+Solution: The first letter shifts +1 and the rest shift +2: G+1=H, O+2=Q, O+2=Q, D+2=F. The trap CFUV applies +1 to the second letter. BEST: B+1=C, E+2=G, S+2=U, T+2=V, so the answer is CGUV.
+Source: PYQ-style
+
+93. If "SCHOOL" is coded as "TDIPPM", how is "COLLEGE" coded?
+(a) DPMMFHE (b) DPMMFHF (c) DPMMFGF (d) DPMMFHG
+Answer: (b)
+Solution: Each letter shifts +1: S→T, C→D, H→I, O→P, O→P, L→M. The trap DPMMFHG shifts the last letter by +2. COLLEGE becomes D, P, M, M, F, H, F, so the answer is DPMMFHF.
+Source: PYQ-style
+
+94. In a code, "TRAIN" is written as "USBJO". How is "COACH" written?
+(a) DPBDJ (b) DPBCI (c) DPCDI (d) DPBDI
+Answer: (d)
+Solution: Each letter shifts +1: T→U, R→S, A→B, I→J, N→O. The trap DPBCI leaves the fourth letter unshifted. COACH becomes D, P, B, D, I, so the answer is DPBDI.
+Source: PYQ-style
+
+95. If "MANGO" is coded as "OCPIQ", how is "APPLE" coded?
+(a) CRRNF (b) CQRNG (c) CRRMH (d) CRRNG
+Answer: (d)
+Solution: Each letter shifts +2: M→O, A→C, N→P, G→I, O→Q. The trap CRRNF shifts the last letter E by only +1. APPLE becomes C, R, R, N, G, so the answer is CRRNG.
+Source: PYQ-style
+
+96. In a certain language, "ram is tall" is coded as "lu ka mi", "shyam is short" is coded as "ka ne po", and "ram and shyam" is coded as "lu ti ne". What is the code for "tall"?
+(a) ka (b) mi (c) lu (d) ti
+Answer: (b)
+Solution: "is" is common to sentences 1 and 2, so ka = is; "ram" is common to 1 and 3, so lu = ram. The trap lu is "ram", not "tall". The remaining word in sentence 1 is "tall" = mi, so the answer is mi.
+Source: PYQ-style
+
+97. If "CANDLE" is written as "DCOEMF", how is "BOTTLE" written?
+(a) CQUUMF (b) CQUUNF (c) CQUUMG (d) CPUUMF
+Answer: (a)
+Solution: The second letter shifts +2 and all others shift +1: C+1=D, A+2=C, N+1=O, D+1=E, L+1=M, E+1=F. The trap CPUUMF shifts the second letter by only +1. BOTTLE: B+1=C, O+2=Q, T+1=U, T+1=U, L+1=M, E+1=F, so the answer is CQUUMF.
+Source: PYQ-style
+
+98. In a code, "FATHER" is coded as "HCVJGT". How is "MOTHER" coded?
+(a) OQVJGT (b) OQVJGS (c) OQVJGU (d) OPUJGT
+Answer: (a)
+Solution: Each letter shifts +2: F→H, A→C, T→V, H→J, E→G, R→T. The trap OPUJGT applies +1 to the second letter O instead of +2. MOTHER becomes O, Q, V, J, G, T, so the answer is OQVJGT.
+Source: PYQ-style
+
+99. If "LIGHT" is coded as "MKHIU", how is "DARK" coded?
+(a) EBSL (b) ECSM (c) ECSL (d) ECTK
+Answer: (c)
+Solution: The second letter shifts +2 and the rest shift +1: L+1=M, I+2=K, G+1=H, H+1=I, T+1=U. The trap EBSL shifts the second letter A by only +1. DARK: D+1=E, A+2=C, R+1=S, K+1=L, so the answer is ECSL.
+Source: PYQ-style
+
+100. In a certain code, "PLANT" is written as "QMBOU". How is "FLOWER" written?
+(a) GMPXFR (b) GMPXFS (c) GMPWFS (d) GMPXFT
+Answer: (b)
+Solution: Each letter shifts +1: P→Q, L→M, A→B, N→O, T→U. The trap GMPXFR leaves the last letter unshifted. FLOWER becomes G, M, P, X, F, S, so the answer is GMPXFS.
+Source: PYQ-style

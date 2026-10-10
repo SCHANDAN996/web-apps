@@ -1,3 +1,45 @@
-# Chapter: Algebra, Level: intermediate
+```mermaid
+graph TD
+    A["बीजगणित / Algebra"] --> B["बीजीय व्यंजक<br>Algebraic Expressions"]
+    A --> C["सर्वसमिकाएँ<br>Identities"]
+    A --> D["समीकरण<br>Equations"]
+    A --> E["बहुपद<br>Polynomials"]
+    A --> F["अनुक्रम एवं श्रेणी<br>Sequences & Series"]
+    A --> G["असमिकाएँ<br>Inequalities"]
 
-@content_agent 'Create a detailed mind map (Mermaid code) for the chapter "Algebra". Show main concepts, sub-concepts, and their interconnections clearly.'
+    B --> B1["चर एवं अचर<br>Variables & Constants"]
+    B --> B2["पद, गुणांक<br>Terms, Coefficients"]
+    B --> B3["सरलीकरण<br>Simplification"]
+
+    C --> C1["(a+b)² = a²+2ab+b²"]
+    C --> C2["(a−b)² = a²−2ab+b²"]
+    C --> C3["a²−b² = (a+b)(a−b)"]
+    C --> C4["(a+b)³ व (a−b)³<br>Cubic Identities"]
+    C --> C5["a³+b³+c³−3abc"]
+    C --> C6["x + 1/x प्रकार<br>x + 1/x Type"]
+
+    D --> D1["रैखिक समीकरण<br>Linear Equations"]
+    D --> D2["द्विघात समीकरण<br>Quadratic Equations"]
+    D1 --> D1a["एक चर / दो चर<br>One / Two Variables"]
+    D2 --> D2a["मूलों का योग = −b/a<br>Sum of Roots"]
+    D2 --> D2b["मूलों का गुणनफल = c/a<br>Product of Roots"]
+    D2 --> D2c["विविक्तकर D = b²−4ac<br>Discriminant"]
+
+    E --> E1["गुणनखंडन<br>Factorization"]
+    E --> E2["शेषफल प्रमेय<br>Remainder Theorem"]
+    E --> E3["गुणनखंड प्रमेय<br>Factor Theorem"]
+
+    F --> F1["समांतर श्रेणी (AP)<br>Arithmetic Progression"]
+    F --> F2["गुणोत्तर श्रेणी (GP)<br>Geometric Progression"]
+    F1 --> F1a["nवाँ पद: a+(n−1)d"]
+    F1 --> F1b["योग: n/2 [2a+(n−1)d]"]
+    F2 --> F2a["nवाँ पद: arⁿ⁻¹"]
+    F2 --> F2b["योग: a(rⁿ−1)/(r−1)"]
+
+    G --> G1["चिह्न नियम<br>Sign Rules"]
+    G --> G2["ऋण से गुणा पर चिह्न पलटता है<br>Flip on × Negative"]
+
+    C --> D2
+    E --> D2
+    C6 --> C
+```

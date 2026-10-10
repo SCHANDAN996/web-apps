@@ -1,0 +1,151 @@
+Questions 126–145: Easy | Questions 146–150: Medium
+
+126. In a row, A is 10th from the left and B is 12th from the right. If they interchange their positions, A becomes 18th from the left. What is the total number of persons in the row?
+(a) 29 (b) 27 (c) 28 (d) 30
+Answer: (a)
+Solution: After interchange, A occupies B’s original spot (18th from left and 12th from right). Total persons = 18 + 12 - 1 = 29.
+Source: PYQ-style
+
+127. In a row of 40 persons, B is 12th from the right end. C is 6th to the left of B. D is 4th to the right of C. What is D’s position from the left end?
+(a) 25th (b) 27th (c) 26th (d) 28th
+Answer: (b)
+Solution: B’s position from left = 40 - 12 + 1 = 29th. C’s position from left = 29 - 6 = 23rd. D’s position from left = 23 + 4 = 27th. Therefore, D is 27th.
+Source: PYQ-style
+
+128. In a queue, P is 15th from the front and Q is 17th from the back. R is exactly in the middle of P and Q. If there are 4 persons between P and R, what could be the total number of persons in the queue?
+(a) 41 or 23 (b) 39 or 21 (c) 41 or 21 (d) 43 or 21
+Answer: (c)
+Solution: Case 1 (P ahead): Q front = 15 + 4 + 1 + 4 + 1 = 25. Total = 25 + 17 - 1 = 41. Case 2 (Q ahead): Q front = 15 - (4 + 1 + 4 + 1) = 5. Total = 5 + 17 - 1 = 21. Both are valid. Thus, total is 41 or 21.
+Source: PYQ-style
+
+129. In a class of 50 students, A is 16th from the top and B is 22nd from the bottom. How many students are there between A and B?
+(a) 10 (b) 11 (c) 13 (d) 12
+Answer: (d)
+Solution: Total = 50. Sum of ranks = 16 + 22 = 38. Since Total > 38, students between A and B = 50 - 38 = 12.
+Source: PYQ-style
+
+130. In a row of boys, A is 15th from the left and B is 4th to the right of A. If B is 16th from the right end, what is the total number of boys in the row?
+(a) 34 (b) 32 (c) 33 (d) 35
+Answer: (a)
+Solution: B’s position from left = 15 + 4 = 19th. Given B is 16th from right, Total = 19 + 16 - 1 = 34.
+Source: PYQ-style
+
+131. In a queue, X is 10th from the front and Y is 14th from the back. Z is exactly in the middle of X and Y. If there are 8 persons between X and Z, what is the total number of persons in the queue (assuming no overlap)?
+(a) 39 (b) 41 (c) 40 (d) 42
+Answer: (b)
+Solution: Since Z is midway between X and Y, there are also 8 persons between Z and Y. Position of Y from front = 10 + 8 + 1 + 8 + 1 = 28. Total persons = 28 + 14 - 1 = 41.
+Source: PYQ-style
+
+132. In a row, A is 6 places to the left of B. B is 8th from the right end. If A is 12th from the left end, what is the total number of persons in the row?
+(a) 23 (b) 24 (c) 25 (d) 26
+Answer: (c)
+Solution: B’s position from left = 12 + 6 = 18th. Given B is 8th from right, Total = 18 + 8 - 1 = 25.
+Source: PYQ-style
+
+133. In a class of 60 students, A is 18th from the top and B is 25th from the bottom. If they interchange their positions, what will be A’s new position from the bottom?
+(a) 24th (b) 26th (c) 27th (d) 25th
+Answer: (d)
+Solution: After interchange, A occupies B’s original position, which was 25th from the bottom. Therefore, A’s new position from the bottom is 25th. Therefore, A is 25th.
+Source: PYQ-style
+
+134. In a row, P is 11th from the left and Q is 9th from the right. If there are 6 persons between them, what is the maximum possible number of persons in the row?
+(a) 26 (b) 24 (c) 25 (d) 27
+Answer: (a)
+Solution: Maximum total occurs without overlap: Total = 11 + 9 + 6 = 26.
+Source: PYQ-style
+
+135. In a row, A is 17th from the left and B is 13th from the right. If they interchange their positions, A becomes 24th from the left. What will be B’s new position from the right end?
+(a) 18th (b) 20th (c) 19th (d) 21st
+Answer: (b)
+Solution: Total persons = 24 + 13 - 1 = 36. After interchange, B occupies A’s original spot (17th from left). B’s new position from right = 36 - 17 + 1 = 20th. Therefore, B is 20th.
+Source: PYQ-style
+
+136. In a row of 44 persons, A is 15th from the left and B is 20th from the right. C is exactly in the middle of A and B. What is C’s position from the left end?
+(a) 18th (b) 19th (c) 20th (d) 21st
+Answer: (c)
+Solution: B’s position from left = 44 - 20 + 1 = 25th. Since C is midway between A (15th) and B (25th), C’s position from left = (15 + 25) / 2 = 20th. Therefore, C is 20th.
+Source: PYQ-style
+
+137. In a queue, A is 14th from the front and B is 12th from the back. C is exactly in the middle of A and B. If there are 5 persons between A and C, what is the total number of persons in the queue (assuming A is ahead of B)?
+(a) 35 (b) 36 (c) 38 (d) 37
+Answer: (d)
+Solution: Since C is midway between A and B, there are also 5 persons between C and B. Position of B from front = 14 + 5 + 1 + 5 + 1 = 26. Total persons = 26 + 12 - 1 = 37.
+Source: PYQ-style
+
+138. In a row of 20 persons, X is 8th from the left end. Y is 5 places to the right of X. What is Y’s position from the right end?
+(a) 8th (b) 7th (c) 9th (d) 10th
+Answer: (a)
+Solution: Y’s position from left = 8 + 5 = 13th. Rank from right = 20 - 13 + 1 = 8th. Therefore, Y is 8th.
+Source: PYQ-style
+
+139. In a row, A is 20th from the left and B is 15th from the right. If they interchange their positions, A becomes 27th from the left. What is the total number of persons in the row?
+(a) 39 (b) 41 (c) 40 (d) 42
+Answer: (b)
+Solution: After interchange, A occupies B’s original spot (27th from left and 15th from right). Total persons = 27 + 15 - 1 = 41.
+Source: PYQ-style
+
+140. In a class of 40 students, A is 18th from the top. If 4 new students join the class and are all placed below A, what will be A’s rank from the bottom in the new class?
+(a) 25th (b) 26th (c) 27th (d) 28th
+Answer: (c)
+Solution: New total = 40 + 4 = 44. Since A’s top rank is 18th, A’s rank from bottom = 44 - 18 + 1 = 27th. Therefore, A is 27th.
+Source: PYQ-style
+
+141. In a row, P is 7 places to the right of Q, and R is 4 places to the right of P. If Q is 5th from the left end and R is 18th from the right end, what is the total number of persons in the row?
+(a) 31 (b) 32 (c) 34 (d) 33
+Answer: (d)
+Solution: P’s position from left = 5 + 7 = 12th. R’s position from left = 12 + 4 = 16th. Given R is 18th from right, Total = 16 + 18 - 1 = 33.
+Source: PYQ-style
+
+142. In a row, A is 15th from the left and B is 16th from the right. If they interchange their positions, A becomes 21st from the left. What is the total number of persons in the row?
+(a) 36 (b) 34 (c) 35 (d) 37
+Answer: (a)
+Solution: After interchange, A occupies B’s original spot (21st from left and 16th from right). Total persons = 21 + 16 - 1 = 36.
+Source: PYQ-style
+
+143. In a queue, A is 12th from the front and B is 8th from the back. If they interchange their positions, A becomes 18th from the front. What will be B’s new position from the back end?
+(a) 12th (b) 14th (c) 13th (d) 15th
+Answer: (b)
+Solution: Total persons = 18 + 8 - 1 = 25. After interchange, B occupies A’s original place (12th from front). B’s new position from back = 25 - 12 + 1 = 14th. Therefore, B is 14th.
+Source: PYQ-style
+
+144. In a row of 59 persons, A is 18th from the left and B is 22nd from the right. C is exactly in the middle of A and B. What is C’s position from the left end?
+(a) 26th (b) 27th (c) 28th (d) 29th
+Answer: (c)
+Solution: B’s position from left = 59 - 22 + 1 = 38th. Since C is midway between A (18th) and B (38th), C’s position from left = (18 + 38) / 2 = 28th. Therefore, C is 28th.
+Source: PYQ-style
+
+145. In a row, A is 9th from the left and B is 11th from the right. If there are 6 persons between them, what could be the total number of persons in the row?
+(a) 26 or 14 (b) 24 or 12 (c) 28 or 12 (d) 26 or 12
+Answer: (d)
+Solution: Case 1 (Non-overlap): Total = 9 + 11 + 6 = 26. Case 2 (Overlap): Total = (9 + 11) - 6 - 2 = 12. Both cases are valid since min(9, 11) = 9 >= 6 + 2. Thus, the total can be 26 or 12.
+Source: PYQ-style
+
+146. In a row of 48 students, P is 16th from the left and Q is 15th from the right. R is exactly in the middle of P and Q. What is R’s position from the left end?
+(a) 25th (b) 23rd (c) 24th (d) 26th
+Answer: (a)
+Solution: Q’s position from left = 48 - 15 + 1 = 34th. Since R is midway between P (16th) and Q (34th), R’s position from left = (16 + 34) / 2 = 25th. Therefore, R is 25th.
+Source: PYQ-style
+
+147. In a row, P is 18th from the left and Q is 10th from the right. If they interchange their positions, P becomes 24th from the left. What will be Q’s new position from the right end?
+(a) 14th (b) 16th (c) 15th (d) 17th
+Answer: (b)
+Solution: Total persons = 24 + 10 - 1 = 33. After interchange, Q occupies P’s original place (18th from left). Q’s new position from right = 33 - 18 + 1 = 16th. Therefore, Q is 16th.
+Source: PYQ-style
+
+148. In a row of 50 students, A is 26th from the left and B is 28th from the right. If they interchange their positions, what will be B’s new position from the left end?
+(a) 24th (b) 25th (c) 26th (d) 27th
+Answer: (c)
+Solution: When A and B interchange, B occupies A’s original spot, which was 26th from the left. Therefore, B’s new position from the left end is 26th. Therefore, B is 26th.
+Source: PYQ-style
+
+149. In a queue, X is 11th from the front and Y is 13th from the back. Z is 4 places behind X and 6 places ahead of Y. What is the total number of persons in the queue?
+(a) 31 (b) 32 (c) 34 (d) 33
+Answer: (d)
+Solution: Z’s position from front = 11 + 4 = 15th. Y’s position from front = 15 + 6 = 21st. Total persons = 21 + 13 - 1 = 33.
+Source: PYQ-style
+
+150. In a row of 45 persons, A is 18th from the left and B is 14th from the right. C is 6 places to the left of A. What is C’s position from the right end?
+(a) 32nd (b) 34th (c) 33rd (d) 35th
+Answer: (b)
+Solution: C’s position from left = 18 - 6 = 12th. C’s position from right = 45 - 12 + 1 = 34th. Therefore, C is 34th.
+Source: PYQ-style

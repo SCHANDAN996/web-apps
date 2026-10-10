@@ -1,0 +1,110 @@
+{% extends 'base.html' %}
+{% block main %}
+<div class="stack">
+  {% set done = stats.today_answered %}
+  {% set pct = [100, (done * 10)]|min %}
+  <section class="today-card enter" aria-label="{{ tr('goal_line') }}">
+    <div class="today-top">
+      <div class="grow">
+        <h1 class="today-hello">{{ tr(greet) }}</h1>
+        <p class="today-goal">{% if done >= 10 %}{{ tr('goal_done') }}{% elif done == 0 %}{{ tr('goal_line') }}{% else %}{{ tr('goal_left').format(n=10 - done) }}{% endif %}</p>
+      </div>
+      <div class="ring" role="img" aria-label="{{ done }}/10">
+        <svg viewBox="0 0 44 44" aria-hidden="true"><circle class="ring-track" cx="22" cy="22" r="19"/>
+          {% if pct %}<circle class="ring-fill" cx="22" cy="22" r="19" pathLength="100" style="stroke-dasharray: {{ pct }} 100"/>{% endif %}</svg>
+        <span><b>{{ [done, 10]|min }}</b>/10</span>
+      </div>
+    </div>
+    {% set wd = tr('week_days').split(',') %}
+    <div class="week" aria-label="{{ tr('streak_n').format(n=stats.streak_days) }}">
+      {% for d in stats.week %}
+      <span class="day{% if d.active %} is-on{% endif %}{% if loop.last %} is-today{% endif %}"><i></i>{{ wd[d.weekday] }}</span>
+      {% endfor %}
+      <span class="streak"><svg class="icon icon-sm"><use href="#i-flame"/></svg>{{ tr('streak_n').format(n=stats.streak_days) }}</span>
+    </div>
+  </section>
+
+  <div class="install card row" id="installCard" hidden>
+    <svg class="icon" style="color:var(--brand)"><use href="#i-download"/></svg>
+    <span class="grow"><b>{{ tr('install_title') }}</b><span class="xs muted block">{{ tr('install_desc') }}</span></span>
+    <button class="btn btn-primary btn-sm" type="button" id="installBtn">{{ tr('install_btn') }}</button>
+  </div>
+
+  <section class="card plan enter" aria-labelledby="plan-h">
+    <h2 id="plan-h">{{ tr('plan_title') }}</h2>
+    <ul class="list">
+      <li><a class="list-item" href="/revise">
+        <span class="plan-dot{% if not stats.due_reviews %} is-done{% endif %}"><svg class="icon icon-sm"><use href="#i-{{ 'check' if not stats.due_reviews else 'repeat' }}"/></svg></span>
+        <span class="grow"><b>{% if stats.due_reviews %}{{ tr('plan_revise').format(n=stats.due_reviews) }}{% else %}{{ tr('plan_revise_none') }}{% endif %}</b>
+          <span class="xs muted block">{{ tr('revise_short') }}</span></span>
+        <svg class="icon chev"><use href="#i-chev"/></svg></a></li>
+      {% if today_topic %}
+      <li><button class="list-item" type="button" data-practice="{{ today_topic }}">
+        <span class="plan-dot{% if done >= 10 %} is-done{% endif %}"><svg class="icon icon-sm"><use href="#i-{{ 'check' if done >= 10 else 'target' }}"/></svg></span>
+        <span class="grow"><b>{{ tr('plan_practice') }}</b><span class="xs muted block">{{ tr('plan_practice_sub').format(n=[done, 10]|min) }}</span></span>
+        <svg class="icon chev"><use href="#i-chev"/></svg></button></li>
+      {% endif %}
+      {% if has_books %}
+      <li><a class="list-item" href="/books" id="planRead">
+        <span class="plan-dot"><svg class="icon icon-sm"><use href="#i-book"/></svg></span>
+        <span class="grow"><b data-continue-label="{{ tr('plan_continue') }}">{{ tr('plan_read') }}</b><span class="xs muted block">{{ tr('plan_read_sub') }}</span></span>
+        <svg class="icon chev"><use href="#i-chev"/></svg></a></li>
+      {% endif %}
+      {% if ca_recent %}
+      <li><a class="list-item" href="/current-affairs">
+        <span class="plan-dot"><svg class="icon icon-sm"><use href="#i-news"/></svg></span>
+        <span class="grow"><b>{{ tr('ca_today') }}</b><span class="xs muted block">{{ tr('plan_ca_sub') }}</span></span>
+        <svg class="icon chev"><use href="#i-chev"/></svg></a></li>
+      {% endif %}
+    </ul>
+  </section>
+
+  <section class="enter">
+    <div class="row-between"><h2>{{ tr('your_exams') }}</h2><a class="small tap-link" href="/settings">{{ tr('settings') }}</a></div>
+    <div class="hscroll">
+      {% for e in exams %}
+      <a class="card card-link exam-card" href="/mock/{{ e.slug }}">
+        <span class="badge badge-brand">{{ e.body }}</span>
+        <h3 style="margin:var(--sp-2) 0 4px">{{ L(e.name_hi, e.name_en) }}</h3>
+        <p class="small muted" style="margin:0">{{ e.stage_en }} · {{ e.duration_min }} {{ tr('minutes') }}</p>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="card enter">
+    <h2>{{ tr('weak_topics') }}</h2>
+    {% if stats.weak_topics %}
+    <ul class="list">
+      {% for tp in stats.weak_topics %}
+      <li><div class="list-item"><div class="grow"><b>{{ tp.name[lang] }}</b>
+        <div class="meter bad" style="margin-top:6px"><i style="width:{{ tp.accuracy }}%"></i></div></div>
+        <span class="badge badge-bad">{{ tp.accuracy }}%</span>
+        <button class="btn btn-secondary btn-sm" data-practice="{{ tp.id }}">{{ tr('start') }}</button></div></li>
+      {% endfor %}
+    </ul>
+    {% else %}<p class="muted small" style="margin:0">{{ tr('weak_empty') }}</p>{% endif %}
+  </section>
+
+  <section class="enter">
+    <h2>{{ tr('quick_practice') }}</h2>
+    <div class="grid">
+      {% for tp, n in quick %}
+      <button class="card card-link" style="text-align:left;cursor:pointer" data-practice="{{ tp.id }}">
+        <b>{{ L(tp.name_hi, tp.name_en) }}</b>
+        <p class="xs muted" style="margin:0">{{ L(tp.subject.name_hi, tp.subject.name_en) }} · {{ n }} {{ tr('questions') }}</p>
+      </button>
+      {% endfor %}
+    </div>
+  </section>
+
+  {% if jobs %}
+  <section class="card enter">
+    <div class="row-between"><h2>{{ tr('nav_jobs') }}</h2><a class="small tap-link" href="/jobs">{{ tr('all') }}</a></div>
+    <ul class="list">{% for j in jobs %}<li><a class="list-item" href="/jobs/{{ j.slug }}"><span class="grow">{{ j.title }}</span><svg class="icon chev"><use href="#i-chev"/></svg></a></li>{% endfor %}</ul>
+  </section>
+  {% endif %}
+
+  <a class="btn btn-secondary btn-block" href="/progress"><svg class="icon"><use href="#i-chart"/></svg>{{ tr('progress') }}</a>
+</div>
+{% endblock %}

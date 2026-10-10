@@ -1,0 +1,68 @@
+# Feynman Explanation: The Magic of Remainders & Cyclicity
+
+## The Hardest Concept: Why 7^100 Has a Knowable Last Digit
+
+Imagine your friend asks you: *"What is the last digit of 7 raised to the power 100?"*
+
+Your calculator gives up. The number has 85 digits! But a 12-year-old with the right trick can answer it in 20 seconds. Let me show you how — with a story about a clock.
+
+---
+
+## The Story of the Broken Clock
+
+Imagine a strange clock that has **only 10 numbers** — 0 to 9 — and just one hand. Every time you multiply by 7, the hand jumps forward 7 positions. When it passes 9, it wraps around to 0 and keeps going.
+
+That wrapping around? **That's all a "last digit" is.** The last digit of any number is just where the hand stops on this 10-number clock. Mathematicians call this "mod 10," but you can just call it *the clock game*.
+
+Now watch what happens when we keep multiplying by 7:
+
+- 7¹ → hand lands on **7**
+- 7² = 49 → hand lands on **9**
+- 7³ = 343 → hand lands on **3**
+- 7⁴ = 2401 → hand lands on **1**
+- 7⁵ → hand lands on **7** again!
+
+Wait. Did you see that? After just 4 jumps, the hand came **back to where it started**. The pattern 7, 9, 3, 1 repeats forever — like a song with only 4 notes, playing on loop.
+
+---
+
+## The Unforgettable Trick: "The 4-Station Train"
+
+Think of the powers of 7 as a **train that visits 4 stations** in a circle:
+
+**Station 1 → 7, Station 2 → 9, Station 3 → 3, Station 4 → 1** …and back to Station 1.
+
+So to find the last digit of 7^100, just ask: *after 100 stops, which station is the train at?*
+
+Divide 100 by 4 → remainder **0**. Remainder 0 means the train completed full circles and stopped at the **last station** — Station 4, which is **1**.
+
+**The last digit of 7^100 is 1.** Done. No calculator. No 85-digit number.
+
+### The trick in one line:
+> **"Power ÷ 4, check the remainder — the remainder is your station number. Remainder 0? Go to station 4."**
+
+---
+
+## Why This Works Everywhere
+
+Every single digit has its own loop:
+
+- **2, 3, 7, 8** → loop of 4 (the long trains)
+- **4, 9** → loop of 2 (short trains: 4, 6, 4, 6… and 9, 1, 9, 1…)
+- **0, 1, 5, 6** → loop of 1 (lazy trains — they never move! 5^anything always ends in 5)
+
+So the whole "scary" topic of cyclicity is really just this: **every digit is a train going in a small circle, and your job is to find which station it stops at.**
+
+The same clock trick powers remainders too. "What is the remainder when 2^50 is divided by 7?" — same game, just a clock with 7 numbers instead of 10. Find the loop, divide the power by the loop length, read the remainder.
+
+---
+
+## 🧠 Your Turn
+
+Here's a question to test your new superpower — no calculator allowed:
+
+**What is the last digit of 3^2024?**
+
+(Hint: The 3-train visits stations 3, 9, 7, 1. Divide 2024 by 4. Where does the train stop?)
+
+If you can answer that, congratulations — you now understand a concept that is frequently asked in exams like SSC CGL and IBPS PO, and you learned it with a toy clock and a train.

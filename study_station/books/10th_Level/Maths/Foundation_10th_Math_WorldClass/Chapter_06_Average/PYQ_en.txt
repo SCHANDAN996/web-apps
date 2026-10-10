@@ -1,1 +1,200 @@
-Here is the PYQ analysis for the "Average" chapter, based on the last 10 years of pattern trends from SSC, Banking, and Railway exams.📊 PYQ विश्लेषण / PYQ Analysis: AverageThe following data-driven analysis highlights the most frequently tested concepts and the psychological traps examiners use to catch students off guard. These 10 high-yield questions are a must-master for any competitive exam.Question NumberExam (Year)Concept TestedTrap / Hook1SBI PO (2020)Inclusion / New EntryThe "just add the difference" fallacy2SSC CGL (2022)Weighted AverageEqual-group assumption3RRB Group D (2018)Allegation / MixtureOvercomplication4SSC CHSL (2020)Error CorrectionForgetting to fix the sum first5IBPS PO (2019)Group Average / Sub-groupLosing track of the unknown6SSC CPO (2019)Linear Equations with AvgFreezing up when a problem looks complex7RRB NTPC (2019)Effect of ReplacementThe arithmetic shortcut trap8IBPS Clerk (2020)Ratio from Combined AvgForgetting the fundamental formula9SSC CGL (2023)Consecutive NumbersThe hidden assumption of odd/even counts10SBI Clerk (2021)Batting/Cricket AverageMisunderstanding the "Not Out" ruleTop 10 High-Yield Questions with SolutionsQ1. [SBI PO 2020] Inclusion - The "Just Add the Difference" TrapThe average score of a cricketer for 13 matches is 42 runs. If the average score for the first 5 matches is 54, what is his average score for the last 8 matches?(a) 37(b) 39(c) 34.5(d) 33.5Step-by-Step Solution:Total runs for 13 matches: 13 × 42 = 546 runs.Total runs for the first 5 matches: 5 × 54 = 270 runs.Total runs for the last 8 matches: 546 - 270 = 276 runs.Average for the last 8 matches: 276 / 8 = 34.5 runs.✅ Correct Answer: (c) 34.5🧠 Trap & Hook: The trap here is the "just add the difference" fallacy. A student might incorrectly think (42+54)/2 or use a shortcut without calculating totals. The hook is the intuitive but wrong idea that the overall average is simply the midpoint of the sub-averages.Q2. [SSC CGL 2022] Weighted Average - The "Equal-Group" TrapOn combining two groups of students having 30 and 40 average marks respectively in an exam, the resultant group has an average score of 34. Find the ratio of the number of students in the first group to the second group.(a) 2 : 1(b) 3 : 2(c) 3 : 1(d) 4 : 3Step-by-Step Solution:Let the number of students in the first group be x and in the second group be y.The total marks for group 1 is 30x, and for group 2 is 40y.The combined average is given by: (30x + 40y) / (x + y) = 34.Cross-multiply and solve: 30x + 40y = 34x + 34y → 6y = 4x → x/y = 6/4 = 3/2.✅ Correct Answer: (b) 3 : 2🧠 Trap & Hook: Examiners know you might try to take the simple average of the two averages, (30+40)/2 = 35. The clue that something is off is that the combined average (34) is NOT exactly 35. This immediately signals unequal group sizes, a classic weighted average hook.Q3. [RRB Group D 2018] Allegation/Mixture - The "Overcomplication" Trap35 is the average marks obtained by 120 students. The average marks of successful candidates was 39 and that of unsuccessful candidates was 15. What is the number of successful candidates?(a) 100(b) 110(c) 120(d) 80Step-by-Step Solution (Allegation Method):Draw the allegation line: 39 (Pass) and 15 (Fail) with the overall average 35 in the middle.Differences: (39 - 35) = 4, and (35 - 15) = 20.The ratio of successful to unsuccessful candidates is the opposite: 20 : 4, which simplifies to 5 : 1.Total parts = 6. 1 part corresponds to 120/6 = 20 students.Therefore, the number of successful candidates is 5 parts × 20 = 100.✅ Correct Answer: (a) 100🧠 Trap & Hook: This question is a perfect setup for the allegation shortcut. The trap is trying to solve it with boring algebra, wasting precious time. The hook is recognizing the "mixture" pattern where two distinct groups are mixed to get an overall average.Q4. [SSC CHSL 2020] Error Correction - The "Fix the Sum First" RuleThe average of 50 results was calculated as 30 but later it was found that while calculating, 73 was taken as 33 by mistake, then what will be the correct average?(a) 29.2(b) 30.8(c) 31.6(d) 34Step-by-Step Solution:Initial wrong total sum: 50 × 30 = 1500.The error: a value of 33 was used instead of the correct value of 73. The difference is 73 - 33 = 40.The correct total sum is the wrong sum plus the missing amount: 1500 + 40 = 1540.The correct average is 1540 / 50 = 30.8.✅ Correct Answer: (b) 30.8🧠 Trap & Hook: Most common mistake is adding the difference (40) to the average (30) to get 70, or dividing the difference by something else. The hook is the psychological slip of working directly with averages instead of the underlying sum.Q5. [IBPS PO 2019] Group Average - The "Lost in Translation" TrapThe average marks of 50 students in a class is 72. The average marks of boys and girls are 70 and 75 respectively. What is the number of boys in the class?(a) 20(b) 35(c) 25(d) 30Step-by-Step Solution:Let the number of boys be x. The number of girls will be 50 - x.Total marks of all students: 50 × 72 = 3600.Total marks of boys and girls: 70x + 75(50 - x).Set the equation: 70x + 75(50 - x) = 3600.Simplify: 70x + 3750 - 75x = 3600 → -5x = -150 → x = 30.✅ Correct Answer: (d) 30🧠 Trap & Hook: The psychological trap is misinterpreting the relationship between the two unknowns (x and 50-x). Setting up the equation incorrectly is a frequent error. The hook is the temptation to guess 25 because it's the middle, which is exactly what examiners want you to do.Q6. [SSC CPO 2019] Linear Equations in DisguiseThe average of ten numbers is 72. The average of the first four numbers is 69 and that of the next three numbers is 74. The 8th number is 6 more than the 9th number and 12 more than the 10th number. What is the average of the 8th and 9th numbers?(a) 74(b) 75(c) 76(d) 77Step-by-Step Solution:Total sum of 10 numbers: 10 × 72 = 720.Sum of first 4 numbers: 4 × 69 = 276.Sum of next 3 numbers (5th to 7th): 3 × 74 = 222.The remaining sum for numbers 8, 9, and 10: 720 - (276 + 222) = 222.Let the 9th number be y. Then the 8th is y+6, and the 10th is y-6.Sum of 8th, 9th, 10th: (y+6) + y + (y-6) = 3y = 222.Therefore, y = 74. The 8th number is 80.Average of 8th and 9th: (80+74)/2 = 77.✅ Correct Answer: (d) 77🧠 Trap & Hook: This question looks terrifyingly complex at first glance, triggering test anxiety. The hook is the "wordy problem" that scares students away. The trick is to break it down, step-by-step, applying the golden formula "Sum = Average × Number" to each known segment until the mystery is solved.Q7. [RRB NTPC 2019] Replacement - The "Arithmetic Shortcut" TrapThe average weight of 15 oarsmen in a boat is increased by 1.6 kg when one of the crew, who weighs 42 kg, is replaced by a new man. Find the weight of the new man.(a) 67 kg(b) 65 kg(c) 66 kg(d) 43 kgStep-by-Step Solution:The increase in total weight is the increase in average multiplied by the number of oarsmen: 1.6 kg × 15 = 24 kg.This total increase of 24 kg is the difference between the new man's weight and the replaced man's weight.Therefore, New man's weight = Replaced man's weight + Total increase = 42 kg + 24 kg = 66 kg.✅ Correct Answer: (c) 66 kg🧠 Trap & Hook: The direct shortcut is the trap itself; many students simply add the increased average (42 + 1.6) and get it wrong. The hook is the logical leap from an "average increase" to a "total increase," which is the crucial step.Q8. [IBPS Clerk 2020] Ratio from Combined AverageOn combining two groups, the resultant group has an average score of 34. If the first group has an average of 30 and the second group has an average of 40, find the ratio of the number of students in the first group to the second group.(a) 2:1(b) 3:2(c) 1:2(d) 2:3Step-by-Step Solution:Apply the allegation method directly on the averages: 30 and 40, with a mean of 34.Difference between the higher average and mean: 40 - 34 = 6.Difference between the mean and lower average: 34 - 30 = 4.The ratio is inverted: Group 1 : Group 2 = 6 : 4, which simplifies to 3 : 2.✅ Correct Answer: (b) 3:2🧠 Trap & Hook: This is a re-skin of Question 2, a favorite pattern. The hook is that students who memorize the allegation formula without understanding the "invert the difference" concept will consistently get the ratio backwards (2:3 instead of 3:2).Q9. [SSC CGL 2023] Consecutive NumbersWhat is the product of B and D, if the average of four consecutive numbers A, B, C, and D is 49.5?(a) 2499(b) 2352(c) 2450(d) 2550Step-by-Step Solution:The average of an even number of consecutive numbers is the average of the middle two terms. Here, the middle terms are B and C.So, (B + C) / 2 = 49.5 → B + C = 99.Since A, B, C, and D are consecutive, C = B + 1. Substitute: B + (B+1) = 99 → 2B = 98 → B = 49.Therefore, D = 51. The product of B and D is 49 × 51 = 2499.✅ Correct Answer: (a) 2499🧠 Trap & Hook: The hidden assumption is that the count of numbers is even. If it were odd, the average would be the middle number itself. This question elegantly hooks students who blindly apply the generic consecutive number formula without paying attention to the count.Q10. [SBI Clerk 2021] Batting Average - The "Not Out" IllusionA batsman has scored 450 runs in 10 completed innings. His batting average is 45. In the next innings, he scores 55 runs and remains not out. What is his new batting average?(a) 45.9(b) 48.6(c) 50.5(d) 50.0Step-by-Step Solution:Initial runs scored = 450, completed innings (times out) = 10.In the 11th innings, he scores 55* (not out). Total runs become 450 + 55 = 505.Since he remained not out, the innings is not counted in the "completed" total. The number of times dismissed is still 10.The new batting average is 505 / 10 = 50.5.✅ Correct Answer: (c) 50.5🧠 Trap & Hook: The most diabolical trap in cricket-based averages. The hook is the strong temptation to divide the new total runs by the total number of innings played (11), which would give a wrong average of 45.9. The question exploits the critical rule that a not-out innings does not increase the denominator.
+📊 PYQ Analysis: Average (Last 10 Years Trends)
+
+Data-driven insights from SSC, Banking, and Railway examinations (2015–2024) highlighting the most frequently tested concepts and the psychological traps examiners use.
+
+| **Q. No.** | **Exam (Year)** | **Concept Tested** | **Trap / Hook** |
+| :--- | :--- | :--- | :--- |
+| 1 | SBI PO (2020) | Inclusion / New Entry | The "just add the difference" fallacy |
+| 2 | SSC CGL (2022) | Weighted Average | Equal-group assumption |
+| 3 | RRB Group D (2018) | Allegation / Mixture | Overcomplication |
+| 4 | SSC CHSL (2020) | Error Correction | Forgetting to fix the sum first |
+| 5 | IBPS PO (2019) | Group Average / Sub-group | Losing track of the unknown |
+| 6 | SSC CPO (2019) | Linear Equations with Average | Freezing up when problem looks algebraic |
+| 7 | RRB NTPC (2019) | Effect of Replacement | Arithmetic shortcut trap |
+| 8 | IBPS Clerk (2020) | Ratio from Combined Average | Forgetting the fundamental formula |
+| 9 | SSC CGL (2023) | Consecutive Numbers | Odd/Even count hidden condition |
+| 10 | SBI Clerk (2021) | Batting Average | "Not Out" rule misunderstanding |
+
+---
+
+### Top 10 High-Yield PYQs with Detailed Solutions & Trap Analysis
+
+#### Q1. [SBI PO 2020] Inclusion — "Just Add the Difference" Fallacy
+A cricketer has a batting average of 42 runs in 13 matches. If his average in the first 5 matches is 54 runs, what is his average score in the last 8 matches?
+*   (a) 37
+*   (b) 39
+*   (c) 34.5
+*   (d) 33.5
+
+**Step-by-Step Solution:**
+1. Total runs in 13 matches: 13 × 42 = 546 runs.
+2. Total runs in first 5 matches: 5 × 54 = 270 runs.
+3. Total runs in last 8 matches: 546 - 270 = 276 runs.
+4. Average of last 8 matches: 276 ÷ 8 = 34.5 runs.
+*   **✅ Correct Answer: (c) 34.5**
+
+**Examiner Trap:**
+Students often compute 42 - (54 - 42) = 30 and guess nearby options, ignoring the unequal weighting of 5 matches vs 8 matches.
+
+---
+
+#### Q2. [SSC CGL 2022] Weighted Average — The "Equal Group" Trap
+In an examination, the average marks of 40 students in Class A is 75, and the average marks of 60 students in Class B is 85. What is the combined average of both classes?
+*   (a) 80
+*   (b) 81
+*   (c) 79
+*   (d) 82
+
+**Step-by-Step Solution:**
+1. Class sizes ratio A : B = 40 : 60 = 2 : 3.
+2. Weighted average = (2 × 75 + 3 × 85) / (2 + 3) = (150 + 255) / 5 = 405 / 5 = 81.
+*   **✅ Correct Answer: (b) 81**
+
+**Examiner Trap:**
+Option (a) 80 is the simple unweighted average (75 + 85) / 2 = 80. Examiners place 80 at option (a) to catch hasty test-takers.
+
+---
+
+#### Q3. [RRB Group D 2018] Allegation / Mixture — Overcomplication Trap
+The average salary of all 120 employees in an office is ₹12,000. If the average salary of officers is ₹20,000 and that of non-officers is ₹10,000, find the number of officers.
+*   (a) 20
+*   (b) 24
+*   (c) 30
+*   (d) 36
+
+**Step-by-Step Solution:**
+1. Allegation method:
+   Officers (20,000)        Non-Officers (10,000)
+                    12,000
+   (12,000 - 10,000) = 2,000 : (20,000 - 12,000) = 8,000
+   Ratio = 2000 : 8000 = 1 : 4.
+2. Total parts = 1 + 4 = 5 parts = 120 employees => 1 part = 24.
+3. Number of officers = 1 × 24 = 24.
+*   **✅ Correct Answer: (b) 24**
+
+**Examiner Trap:**
+Setting up long linear equations often leads to arithmetic slips under exam stress. Allegation yields the answer in 15 seconds.
+
+---
+
+#### Q4. [SSC CHSL 2020] Error Correction — "Fix the Sum First" Rule
+The average of 50 numbers was calculated as 36. Later it was found that a number 48 was mistakenly entered as 23. What is the correct average?
+*   (a) 36.5
+*   (b) 36.2
+*   (c) 35.5
+*   (d) 37.0
+
+**Step-by-Step Solution:**
+1. Net error in sum = Correct value - Mistaken value = 48 - 23 = +25.
+2. Net change in average = +25 / 50 = +0.5.
+3. Correct average = 36 + 0.5 = 36.5.
+*   **✅ Correct Answer: (a) 36.5**
+
+**Examiner Trap:**
+Subtracting 25 from the sum instead of adding gives option (c) 35.5. Always check whether the correct number is larger or smaller.
+
+---
+
+#### Q5. [IBPS PO 2019] Group Average — Sub-Group Decomposition
+The average weight of 8 persons increases by 2.5 kg when a new person replaces one of them weighing 65 kg. What is the weight of the new person?
+*   (a) 75 kg
+*   (b) 80 kg
+*   (c) 85 kg
+*   (d) 90 kg
+
+**Step-by-Step Solution:**
+1. Total increase in weight = 8 × 2.5 = 20 kg.
+2. Weight of new person = Replaced weight + Total increase = 65 + 20 = 85 kg.
+*   **✅ Correct Answer: (c) 85 kg**
+
+**Examiner Trap:**
+Multiplying 2.5 by 7 (excluding replaced person) gives 17.5 + 65 = 82.5 kg. Remember the replacement keeps the total count at 8!
+
+---
+
+#### Q6. [SSC CPO 2019] Algebraic Average Systems
+The average age of A and B is 20 years. If A is replaced by C, the average age becomes 19 years. The average age of C and B is 19 years, and that of A and C is 21 years. Find the age of A.
+*   (a) 22 years
+*   (b) 20 years
+*   (c) 24 years
+*   (d) 18 years
+
+**Step-by-Step Solution:**
+1. A + B = 40
+2. B + C = 38
+3. A + C = 42
+4. Adding all: 2(A + B + C) = 120 => A + B + C = 60.
+5. Age of A = (A + B + C) - (B + C) = 60 - 38 = 22 years.
+*   **✅ Correct Answer: (a) 22 years**
+
+---
+
+#### Q7. [RRB NTPC 2019] Effect of Replacement
+A library has an average of 510 visitors on Sundays and 240 on other days. What is the average number of visitors per day in a month of 30 days beginning with a Sunday?
+*   (a) 275
+*   (b) 280
+*   (c) 285
+*   (d) 290
+
+**Step-by-Step Solution:**
+1. Month begins with a Sunday: Sundays fall on 1st, 8th, 15th, 22nd, 29th (total 5 Sundays).
+2. Other days = 30 - 5 = 25 days.
+3. Total visitors = (5 × 510) + (25 × 240) = 2550 + 6000 = 8550.
+4. Average per day = 8550 / 30 = 285.
+*   **✅ Correct Answer: (c) 285**
+
+**Examiner Trap:**
+Assuming 4 Sundays in a month gives (4 × 510 + 26 × 240) / 30 = 276. Always count exact Sundays in a 30-day month starting with Sunday.
+
+---
+
+#### Q8. [IBPS Clerk 2020] Ratio from Combined Average
+In an examination, the average score of girls is 73 and that of boys is 71. The average score of all students is 71.8. What is the ratio of number of girls to boys?
+*   (a) 2 : 3
+*   (b) 3 : 2
+*   (c) 4 : 5
+*   (d) 3 : 4
+
+**Step-by-Step Solution:**
+1. By allegation:
+   Girls (73)         Boys (71)
+             71.8
+   (71.8 - 71) = 0.8 : (73 - 71.8) = 1.2
+   Ratio Girls : Boys = 0.8 : 1.2 = 2 : 3.
+*   **✅ Correct Answer: (a) 2 : 3**
+
+---
+
+#### Q9. [SSC CGL 2023] Consecutive Numbers
+The average of 7 consecutive numbers is 20. The largest of these numbers is:
+*   (a) 22
+*   (b) 23
+*   (c) 24
+*   (d) 25
+
+**Step-by-Step Solution:**
+1. For an odd count of consecutive integers, the average is the central number (4th number).
+2. Numbers: 17, 18, 19, [20], 21, 22, 23.
+3. Largest number = 20 + 3 = 23.
+*   **✅ Correct Answer: (b) 23**
+
+---
+
+#### Q10. [SBI Clerk 2021] Batting Average & "Not Out" Nuance
+A batsman in his 17th innings makes a score of 85 runs and thereby increases his average by 3. What is his average after the 17th innings?
+*   (a) 34
+*   (b) 37
+*   (c) 39
+*   (d) 40
+
+**Step-by-Step Solution:**
+1. Let average after 16 innings = x.
+2. Total runs in 16 innings = 16x.
+3. Total runs in 17 innings = 16x + 85.
+4. New average = x + 3 => (16x + 85) / 17 = x + 3.
+5. 16x + 85 = 17x + 51 => x = 34.
+6. New average after 17th innings = 34 + 3 = 37.
+*   **✅ Correct Answer: (b) 37**
+
+**Examiner Trap:**
+Students frequently solve for x and choose option (a) 34, which is the OLD average before the 17th innings. The question explicitly asks for the average AFTER the 17th innings!

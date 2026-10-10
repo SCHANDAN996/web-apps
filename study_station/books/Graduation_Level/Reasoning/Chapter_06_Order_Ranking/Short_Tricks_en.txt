@@ -1,0 +1,114 @@
+# 🪄 Short Tricks — Order & Ranking
+
+---
+
+**Box 1 — The "Left + Right − 1" Chant**
+> *"Left plus Right, minus one — that's how the total's done!"*
+
+Total persons = (Position from Left) + (Position from Right) − 1.
+The "−1" exists because the person is counted twice. Shout the rhyme, never forget the minus.
+
+---
+
+**Box 2 — "DOUBLE TROUBLE, SUBTRACT THE BUBBLE"**
+When one person's rank is given from both ends, that person is the "bubble" counted twice — pop it by subtracting 1.
+> *"Same face from both the sides? Count it once, not twice!"*
+
+---
+
+**Box 3 — "MID = (Total + 1) ÷ 2, When Total Is Odd, It's True!"**
+Middle position in an odd-numbered row = (N + 1)/2.
+Memory hook: *"Odd crowd? Add one, halve it — you've found the middleman."*
+⚠️ Trap: If N is even, there is NO single middle — two people share it (N/2 and N/2 + 1).
+
+---
+
+**Box 4 — "SWAP = SUM" (Interchange Trick)**
+When two people interchange positions and a new rank is given:
+> New total = (old rank from one end) + (new rank from the other end) − 1.
+Mnemonic: *"When they SWAP, the ranks SUM — then minus one, and you're done."*
+
+---
+
+**Box 5 — "Between Them? Subtract and Shrink!"**
+Number of persons between two people = (difference of positions) − 1.
+> *"Between means EXCLUDE the ends — so shrink by one, my friend."*
+Trap alert: "Between A and B" never includes A and B themselves.
+
+---
+
+**Box 6 — "TALL-SMALL, Count Them All" (Overlap Trap)**
+If A is taller than B, and B is taller than C — never assume positions; only the ORDER is known, not gaps.
+Mnemonic: *"Taller-than is a chain, not a number — don't count what you can't number!"*
+
+---
+
+**Box 7 — "FLIP the Rank" Formula**
+Rank from opposite end = Total − Rank + 1.
+> *"To FLIP a rank, take N, subtract the rank, then add one back again."*
+Example: 10th from top in 40 students → 40 − 10 + 1 = 31st from bottom.
+
+---
+
+**Box 8 — "Row of Two Ends? Anchor First!"**
+In seating/standing line puzzles, fix the person whose position is stated from an end FIRST.
+Mnemonic: *"Anchor the ends, then fill the middle — that's how you solve the riddle."*
+
+---
+
+**Box 9 — "Minimum Total? OVERLAP It!"**
+When asked the *minimum* number of persons in a row given two ranks from the same side:
+> *"Minimum means maximum overlap — let the two descriptions share the same people."*
+Maximum = add them up; Minimum = the larger number alone (if one description can contain the other).
+
+---
+
+**Box 10 — "RATIO Ranks? Multiply the Mystery"**
+If ranks are given as a ratio (e.g., 2 : 3 from two ends), assume ranks 2x and 3x, then use 2x + 3x − 1 = Total.
+> *"Ratio in the row? Call it x, and let the algebra flow."*
+
+---
+
+**Box 11 — "After the Swap, Count the Gap"**
+When positions interchange, the number of persons between the two swappers stays the SAME before and after.
+Mnemonic: *"Swap the seats, not the crowd — the gap between them stays proud."*
+
+---
+
+**Box 12 — "Nth from Left = (N−1) People Before"**
+If you're 7th in a queue, exactly 6 people stand before you — not 7.
+> *"Your rank minus YOU = people ahead of you."*
+Silly hook: *"Don't count yourself in the queue — you're not waiting for yourself!"*
+
+---
+
+**Box 13 — "Two Rows Facing? Mirror, Mirror!"**
+In two-row facing arrangements, the person opposite is at the SAME position number from the same end.
+> *"Facing rows are mirror shows — same slot, different row."*
+
+---
+
+**Box 14 — "Draw It or Drown"**
+For any puzzle with 3+ conditions, sketch a line of dashes: _ _ _ _ _ and place names.
+Mnemonic: *"Three conditions on the page? Draw the dashes, earn your wage."*
+Mental-only solving of ranking puzzles is the #1 cause of silly errors.
+
+---
+
+**Box 15 — "EXACTLY vs AT LEAST — The Examiner's Twin Trap"**
+"Exactly 5 people between" ≠ "at least 5 people between."
+> *"EXACTLY is a locked door; AT LEAST is an open floor."*
+Read the qualifier twice before solving — this single word flips the answer.
+
+---
+
+## ⏭️ Skip Strategy — When to Skip an Order & Ranking Question
+
+**Tip 1 — The 20-Second Rule:**
+If after 20 seconds you cannot identify whether the question needs the "Left + Right − 1" formula, the swap formula, or a full arrangement diagram — mark it and move on. Ranking questions are quick wins ONLY when the type is recognized instantly.
+
+**Tip 2 — Skip Multi-Condition Puzzles in Round 1:**
+If a question has 4+ interlocking conditions ("A is taller than B but shorter than C, who is…"), it is a mini-puzzle, not a formula question. Attempt it only in the second pass after all direct-formula questions are done. One such puzzle can eat the time of 3 easy questions.
+
+**Tip 3 — Skip Ambiguous-Language Traps Under Time Pressure:**
+Questions mixing "at least / at most / exactly / cannot be determined" demand careful re-reading. If less than 30 seconds remain in your reasoning section, skip these — a rushed read almost guarantees the trap answer. Return only if time is left.

@@ -1,0 +1,43 @@
+```mermaid
+graph TD
+    A["त्रिकोणमिति<br>Trigonometry"] --> B["कोण और माप<br>Angles & Measurement"]
+    A --> C["त्रिकोणमितीय अनुपात<br>Trigonometric Ratios"]
+    A --> D["मानक कोणों के मान<br>Standard Angle Values"]
+    A --> E["सर्वसमिकाएँ<br>Identities"]
+    A --> F["ऊँचाई और दूरी<br>Heights & Distances"]
+    A --> G["त्रिकोणमितीय समीकरण<br>Trigonometric Equations"]
+    A --> H["प्रतिलोम फलन<br>Inverse Functions"]
+
+    B --> B1["डिग्री माप<br>Degree Measure"]
+    B --> B2["रेडियन माप<br>Radian Measure"]
+    B --> B3["π रेडियन = 180°<br>π radians = 180°"]
+    B --> B4["चाप की लंबाई l = rθ<br>Arc Length l = rθ"]
+
+    C --> C1["sin, cos, tan<br>sin, cos, tan"]
+    C --> C2["cosec, sec, cot<br>cosec, sec, cot"]
+    C --> C3["पायथागोरस संबंध<br>Pythagorean Relations"]
+    C --> C4["चतुर्थांश और चिह्न<br>Quadrants & Signs"]
+    C4 --> C4a["ASTC नियम<br>ASTC Rule<br>(All-Sin-Tan-Cos)"]
+
+    D --> D1["0°, 30°, 45°, 60°, 90°<br>0°, 30°, 45°, 60°, 90°"]
+    D --> D2["पूरक कोण<br>Complementary Angles<br>sin(90°−θ) = cos θ"]
+    D --> D3["ऋणात्मक कोण<br>Negative Angles<br>sin(−θ) = −sin θ"]
+
+    E --> E1["मूल सर्वसमिकाएँ<br>Basic Identities<br>sin²θ + cos²θ = 1"]
+    E --> E2["1 + tan²θ = sec²θ<br>1 + tan²θ = sec²θ"]
+    E --> E3["1 + cot²θ = cosec²θ<br>1 + cot²θ = cosec²θ"]
+    E --> E4["योग/अंतर सूत्र<br>Sum & Difference<br>sin(A±B), cos(A±B)"]
+    E --> E5["द्विकोण सूत्र<br>Double Angle<br>sin 2θ = 2sinθcosθ"]
+    E --> E6["त्रिकोण सूत्र<br>Triple Angle<br>sin 3θ = 3sinθ − 4sin³θ"]
+    E --> E7["गुणनफल ↔ योग<br>Product ↔ Sum<br>2sinAcosB आदि"]
+
+    F --> F1["उन्नयन कोण<br>Angle of Elevation"]
+    F --> F2["अवनमन कोण<br>Angle of Depression"]
+    F --> F3["tan θ = लंब/आधार<br>tan θ = Height/Base"]
+
+    G --> G1["मुख्य मान<br>Principal Values"]
+    G --> G2["व्यापक हल<br>General Solutions<br>sin θ = 0 ⇒ θ = nπ"]
+
+    H --> H1["sin⁻¹, cos⁻¹, tan⁻¹<br>sin⁻¹, cos⁻¹, tan⁻¹"]
+    H --> H2["प्रांत और परिसर<br>Domain & Range"]
+```

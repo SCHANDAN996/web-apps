@@ -1,0 +1,54 @@
+```mermaid
+graph TD
+    A["प्राचीन भारतीय इतिहास<br>Ancient Indian History"] --> B["पुरापाषाण से ताम्रपाषाण तक<br>Stone Age to Chalcolithic"]
+    A --> C["सिंधु घाटी सभ्यता<br>Indus Valley Civilization"]
+    A --> D["वैदिक काल<br>Vedic Age"]
+    A --> E["महाजनपद एवं धार्मिक आंदोलन<br>Mahajanapadas & Religious Movements"]
+    A --> F["मौर्य साम्राज्य<br>Mauryan Empire"]
+    A --> G["मौर्योत्तर काल<br>Post-Mauryan Period"]
+    A --> H["गुप्त साम्राज्य<br>Gupta Empire"]
+    A --> I["दक्षिण भारत<br>South India"]
+
+    B --> B1["पुरापाषाण: शिकारी-संग्राहक<br>Palaeolithic: Hunter-gatherers"]
+    B --> B2["मध्यपाषाण: माइक्रोलिथ<br>Mesolithic: Microliths"]
+    B --> B3["नवपाषाण: कृषि की शुरुआत<br>Neolithic: Farming begins"]
+    B --> B4["मेहरगढ़: सबसे प्राचीन कृषि स्थल<br>Mehrgarh: Earliest farming site"]
+
+    C --> C1["हड़प्पा, मोहनजोदड़ो, धोलावीरा<br>Harappa, Mohenjo-daro, Dholavira"]
+    C --> C2["जाल: लिपि अपठित<br>Trap: Script undeciphered"]
+    C --> C3["जाल: घोड़ा/लोहा अज्ञात<br>Trap: Horse/Iron unknown"]
+    C --> C4["लोथल: बंदरगाह<br>Lothal: Dockyard"]
+
+    D --> D1["ऋग्वैदिक: 1500-1000 ई.पू.<br>Rig Vedic: 1500-1000 BCE"]
+    D --> D2["उत्तरवैदिक: 1000-600 ई.पू.<br>Later Vedic: 1000-600 BCE"]
+    D --> D3["ऋग्वेद: सबसे प्राचीन वेद<br>Rig Veda: Oldest Veda"]
+    D --> D4["जाल: सिंधु को सप्तसिंधु<br>Trap: Sapta Sindhu region"]
+
+    E --> E1["16 महाजनपद<br>16 Mahajanapadas"]
+    E --> E2["बुद्ध: 563 ई.पू., बोधगया<br>Buddha: 563 BCE, Bodh Gaya"]
+    E --> E3["महावीर: 24वें तीर्थंकर<br>Mahavira: 24th Tirthankara"]
+    E --> E4["जाल: ऋषभदेव = प्रथम तीर्थंकर<br>Trap: Rishabhdev = 1st Tirthankara"]
+
+    F --> F1["चंद्रगुप्त मौर्य: 322 ई.पू.<br>Chandragupta Maurya: 322 BCE"]
+    F --> F2["अशोक: कलिंग युद्ध 261 ई.पू.<br>Ashoka: Kalinga War 261 BCE"]
+    F --> F3["कौटिल्य: अर्थशास्त्र<br>Kautilya: Arthashastra"]
+    F --> F4["जाल: बिंदुसार ≠ अशोक का पिता भ्रम<br>Trap: Bindusara confusion"]
+
+    G --> G1["शुंग, सातवाहन, कुषाण<br>Shunga, Satavahana, Kushana"]
+    G --> G2["कनिष्क: शक संवत 78 ई.<br>Kanishka: Saka Era 78 CE"]
+    G --> G3["जाल: शक संवत ≠ विक्रम संवत (57 ई.पू.)<br>Trap: Saka vs Vikram Era"]
+
+    H --> H1["समुद्रगुप्त: प्रयाग प्रशस्ति<br>Samudragupta: Prayaga Prashasti"]
+    H --> H2["चंद्रगुप्त II: विक्रमादित्य<br>Chandragupta II: Vikramaditya"]
+    H --> H3["कालिदास, आर्यभट<br>Kalidasa, Aryabhata"]
+    H --> H4["जाल: फाह्यान गुप्त काल, ह्वेनसांग हर्ष काल<br>Trap: Fa-Hien (Gupta) vs Hiuen Tsang (Harsha)"]
+
+    I --> I1["चोल, चेर, पांड्य<br>Chola, Chera, Pandya"]
+    I --> I2["संगम साहित्य<br>Sangam Literature"]
+    I --> I3["पल्लव: कांचीपुरम<br>Pallavas: Kanchipuram"]
+
+    A --> J["रणनीति<br>Strategy"]
+    J --> J1["कालक्रम पहले याद करें<br>Memorize chronology first"]
+    J --> J2["15/45 सेकंड नियम<br>15/45 second rule"]
+    J --> J3["मिलते नामों की सूची बनाएं<br>List similar-sounding names"]
+```

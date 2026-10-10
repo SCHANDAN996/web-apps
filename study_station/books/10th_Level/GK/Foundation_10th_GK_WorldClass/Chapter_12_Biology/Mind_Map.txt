@@ -1,0 +1,63 @@
+```mermaid
+graph TD
+    A["जीवविज्ञान – मानव शरीर<br>Biology – Human Body"]
+
+    A --> B["कोशिका व ऊतक<br>Cell and Tissue"]
+    B --> B1["रॉबर्ट हुक 1665 – कोशिका<br>Robert Hooke 1665 – Cell"]
+    B --> B2["माइटोकॉन्ड्रिया – बिजलीघर<br>Mitochondria – Powerhouse"]
+    B --> B3["लयनकाय – आत्मघाती थैली<br>Lysosome – Suicide bag"]
+    B --> B4["रक्त – तरल संयोजी ऊतक<br>Blood – Fluid connective tissue"]
+    B --> B5["जाल: कोशिका भित्ति केवल पादप में<br>Trap: Cell wall only in plants"]
+
+    A --> C["पाचन तंत्र<br>Digestive System"]
+    C --> C1["आमाशय – HCl, पेप्सिन<br>Stomach – HCl, Pepsin"]
+    C --> C2["यकृत – पित्त, सबसे बड़ी ग्रंथि<br>Liver – Bile, Largest gland"]
+    C --> C3["अग्न्याशय – ट्रिप्सिन, लाइपेज़<br>Pancreas – Trypsin, Lipase"]
+    C --> C4["छोटी आँत – दीर्घरोम<br>Small intestine – Villi"]
+    C --> C5["जाल: पित्त में एंजाइम नहीं<br>Trap: Bile has no enzyme"]
+
+    A --> D["श्वसन तंत्र<br>Respiratory System"]
+    D --> D1["कूपिकाएँ – गैस विनिमय<br>Alveoli – Gas exchange"]
+    D --> D2["पेशी – लैक्टिक अम्ल, ऐंठन<br>Muscle – Lactic acid, Cramps"]
+    D --> D3["यीस्ट – इथेनॉल + CO2<br>Yeast – Ethanol + CO2"]
+
+    A --> E["परिसंचरण तंत्र<br>Circulatory System"]
+    E --> E1["हृदय – 4 कक्ष, दोहरा परिसंचरण<br>Heart – 4 chambers, Double circulation"]
+    E --> E2["O सर्वदाता, AB सर्वग्राही<br>O Universal donor, AB Universal recipient"]
+    E --> E3["रक्तचाप लगभग 120/80 mm Hg<br>BP about 120/80 mm Hg"]
+    E --> E4["जाल: फुफ्फुस धमनी में विऑक्सीजनित रक्त<br>Trap: Pulmonary artery has deoxygenated blood"]
+
+    A --> F["उत्सर्जन तंत्र<br>Excretory System"]
+    F --> F1["वृक्काणु – छानने की इकाई<br>Nephron – Filtering unit"]
+    F --> F2["यूरिया यकृत में बनता है<br>Urea is made in the liver"]
+
+    A --> G["नियंत्रण एवं समन्वय<br>Control and Coordination"]
+    G --> G1["प्रमस्तिष्क – सोचना<br>Cerebrum – Thinking"]
+    G --> G2["अनुमस्तिष्क – संतुलन<br>Cerebellum – Balance"]
+    G --> G3["पीयूष – मास्टर ग्रंथि<br>Pituitary – Master gland"]
+    G --> G4["आयोडीन की कमी – घेंघा<br>Iodine deficiency – Goitre"]
+    G --> G5["इंसुलिन की कमी – मधुमेह<br>Insulin deficiency – Diabetes"]
+
+    A --> H["कंकाल व ज्ञानेंद्रियाँ<br>Skeleton and Senses"]
+    H --> H1["206 हड्डियाँ; फीमर सबसे लंबी<br>206 bones; Femur longest"]
+    H --> H2["स्टेपीज़ सबसे छोटी<br>Stapes smallest"]
+    H --> H3["निकट-दृष्टि – अवतल लेंस<br>Myopia – Concave lens"]
+
+    A --> I["विटामिन व खनिज<br>Vitamins and Minerals"]
+    I --> I1["A – रतौंधी<br>A – Night blindness"]
+    I --> I2["C – स्कर्वी<br>C – Scurvy"]
+    I --> I3["D – रिकेट्स<br>D – Rickets"]
+    I --> I4["B12 – कोबाल्ट<br>B12 – Cobalt"]
+    I --> I5["जाल: वसा में घुलनशील A D E K<br>Trap: Fat-soluble A D E K"]
+
+    A --> J["रोग व वाहक<br>Diseases and Vectors"]
+    J --> J1["एनॉफ़िलीज़ – मलेरिया<br>Anopheles – Malaria"]
+    J --> J2["एडीज़ – डेंगू<br>Aedes – Dengue"]
+    J --> J3["क्यूलेक्स – फ़ाइलेरिया<br>Culex – Filaria"]
+    J --> J4["एंटीबायोटिक विषाणु पर बेअसर<br>Antibiotics do not act on viruses"]
+
+    A --> K["रणनीति<br>Strategy"]
+    K --> K1["वन-लाइनर – 15 सेकंड<br>One-liners – 15 seconds"]
+    K --> K2["कथन व अपवाद – 45 सेकंड<br>Statements and exceptions – 45 seconds"]
+    K --> K3["सभी / हमेशा / नहीं पर रुकें<br>Pause at all / always / NOT"]
+```

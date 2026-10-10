@@ -1,409 +1,151 @@
-Set 2: Permutation & Combination — Foundation Level (Medium)
-
-Q26. In how many ways can the letters of the word ‘LEADER’ be arranged so that the vowels always occupy odd positions?
-(1) 72 (2) 36 (3) 144 (4) 108
-
-Answer: (3) 144
-Solution: The word ‘LEADER’ has 6 letters: vowels E,A,E (3 vowels, E repeated twice) and consonants L,D,R (3 distinct). Odd positions in a 6-letter word: positions 1,3,5 (3 odd places). We need to place all 3 vowels in these 3 odd positions. Number of ways to arrange 3 vowels (with E repeated twice) in 3 positions = 3!/2! = 3. Then, arrange the 3 consonants in the remaining 3 even positions (2,4,6) in 3! = 6 ways. Total = 3 × 6 = 18? That seems low. Wait, we must check: word 'LEADER' has letters L,E,A,D,E,R. Vowels: E,A,E (3 vowels, E twice). Consonants: L,D,R (3 distinct). Odd positions: 1,3,5 (3 places). We need to place all 3 vowels in these 3 places. Arrangements of vowels in odd places: since positions are fixed, we just permute the 3 vowels among themselves, accounting for repetition: 3!/2! = 3. For the even positions (2,4,6), we have 3 consonants to arrange: 3! = 6. So total 3×6=18. But that's not among options. Let's re-evaluate: odd positions might be 1,3,5 or possibly we count odd places as the 1st, 3rd, 5th letters. Yes. So total 18. None of the options match. So perhaps I misinterpreted "odd positions". Could be that the vowels occupy all odd places? The question says "so that the vowels always occupy odd positions." It means that all odd positions are filled by vowels, and the remaining (even) positions by consonants. The word has 6 letters, so 3 odd positions, 3 even. We have 3 vowels, exactly enough to fill all odd positions. So arrangement of vowels in those 3 positions: 3! / 2! = 3. Then consonants in even positions: 3! = 6. Total 18. Not in options. Option 72,36,144,108. Maybe the word 'LEADER' has 6 distinct consonants? Actually L,D,R are 3, plus? No, just L,E,A,D,E,R. So 3 vowels, 3 consonants. So 18 is correct, but not listed. Let's double-check: Maybe they consider odd positions in terms of the arrangement of the whole word such that no two vowels are together? That would be different. "Vowels occupy odd positions" means vowels go to positions 1,3,5. That's what I did. But 18 is missing. Could there be another interpretation: odd positions could be the 1st, 3rd, 5th positions of the word, and we have 3 vowels, so they must occupy all odd positions, so indeed 3! / 2! = 3, consonants in even positions 3! = 6, 18. No match. So I'll adjust the word to something that yields a listed result. Perhaps I'll change the word to 'LEADER' but maybe they meant 'LEADER' has 6 letters, vowels E,A,E and L,D,R, correct. So maybe the answer is 36? If we had 4 vowels and 2 consonants? Not. I'll re-read: maybe odd positions are the odd-numbered places from the start, and we have to place the vowels there, but not necessarily all odds? If we have more vowels than odd places? No. So something's off. Let's scrap this question or modify it to another medium question that fits. I'll create a different medium question. I'll think of a typical medium question: "In how many ways can 5 boys and 3 girls be seated in a row such that no two girls sit together?" That's classic. Answer: Arrange 5 boys: 5! ways. Then 6 gaps (before, between, after) choose 3 for girls: 6P3 = 120. Total 120*120 = 14400? Not among options. But I need options within 3-digit numbers. The set is foundation level, so numbers should be manageable. So I'll pick medium questions with smaller numbers. I'll adjust. Let's do this: Q26: "In how many ways can 4 boys and 2 girls be seated in a row such that the two girls always sit together?" This is a medium difficulty (block method). That would be 5! * 2! = 240. So options: 240, 480, 120, 720. I'll make that Q26. That fits.
-
-So Q26: "In how many ways can 4 boys and 2 girls be seated in a row such that the two girls always sit together?" Answer: (2) 240. Solution: Treat girls as block, then 5 units arrange = 5!, then internal girls arrange 2! = 2, total 240. Source: SSC CHSL.
-
-I'll produce 25 medium MCQs, numbered 26-50, each with step-by-step solution. I'll ensure a variety: arrangements with conditions, circular permutations, combinations with conditions, handshake/diagonals, words with repetitions and constraints, at least one condition, etc.
-
-Now, list of 25 medium questions. I'll include traps like "at least one", "exactly", "vowels together", "no two vowels together", "circular arrangement with condition", etc. I'll number them 26-50.
-
-I'll start writing them.Set 2: Permutation & Combination — Foundation Level (Medium)
-
-Q26. In how many ways can 4 boys and 2 girls be seated in a row such that the two girls always sit together?
-(1) 480 (2) 240 (3) 120 (4) 720
-
-Answer: (2) 240
-Solution: Treat the 2 girls as a single block. Now we have 4 boys + 1 block = 5 units, which can be arranged in 5! = 120 ways. Within the block, the 2 girls can be arranged in 2! = 2 ways. Total = 120 × 2 = 240.
-Source: SSC CHSL 2023
-
-Q27. How many 4-digit numbers can be formed using the digits 1, 2, 3, 4, 5 without repetition such that the number is divisible by 4?
-(1) 24 (2) 36 (3) 48 (4) 60
-
-Answer: (1) 24
-Solution: A number is divisible by 4 if its last two digits form a number divisible by 4. From {1,2,3,4,5}, two-digit combinations divisible by 4: 12, 24, 32, 52. So 4 possible endings. For each, the first two digits are chosen from the remaining 3 digits and arranged in 3P2 = 6 ways. Total = 4 × 6 = 24.
-Source: SSC CGL 2020
-
-Q28. In how many ways can 5 persons sit around a circular table if two particular persons must always sit together?
-(1) 12 (2) 24 (3) 36 (4) 48
-
-Answer: (3) 36? Wait, let's compute: Circular arrangement with two together. Treat the two as a block. Then we have 1 block + 3 other persons = 4 units in a circle: (4-1)! = 3! = 6. Inside block, 2! = 2. So 6*2 = 12. But that's not 36. Maybe they also consider the two persons can be arranged within the block, giving 12. So none option matches 12. Let's recompute: If it's 5 persons, two together, circular arrangement: total persons 5, treat two together as one unit, then we have 4 units. Circular arrangement of 4 units: (4-1)! = 6. Multiply by 2! = 12. So answer 12. Option (1) 12, (2)24, (3)36, (4)48. So (1) 12 is correct. So I'll set answer (1) 12. Good. I'll use that.
-
-Answer: (1) 12
-Solution: Treat the two particular persons as a single block. Now we have 4 units to arrange in a circle: (4-1)! = 3! = 6 ways. Within the block, the two can be arranged in 2! = 2 ways. Total = 6 × 2 = 12.
-Source: SSC CPO 2022
-
-Q29. From 6 men and 4 women, a committee of 5 is to be formed containing exactly 3 men. How many ways can it be done?
-(1) 120 (2) 180 (3) 240 (4) 60
-
-Answer: (1) 120
-Solution: Choose 3 men from 6: 6C3 = 20. Choose 2 women from 4: 4C2 = 6. Total = 20 × 6 = 120.
-Source: IBPS PO Pre 2020
-
-Q30. How many words (with or without meaning) can be formed using all the letters of the word ‘SUCCESS’ such that no two S’s are together?
-(1) 24 (2) 12 (3) 36 (4) 48
-
-Answer: (2) 12
-Solution: Total letters: S,U,C,C,E,S,S → 7 letters with S repeated 3 times, C repeated 2 times. If no two S’s together, we first arrange the non-S letters: U, C, C, E (4 letters, C repeated twice). Arrangements = 4!/2! = 12. These create 5 gaps (including ends) to place 3 S’s such that no two S’s are together. We need to choose 3 of these 5 gaps: 5C3 = 10. Then place S’s (identical) in those gaps. Total = 12 × 10? That's 120, not 12. Let's recalc: Actually we must ensure no two S's together, and we have 3 S's. Method: Arrange U,C,C,E first: number of distinct arrangements = 4! / 2! = 12. That creates 5 gaps (_ U _ C _ C _ E _ ), but careful: gaps between letters and ends. Count gaps: before first letter, between each pair, after last letter: total 5 gaps. We need to choose 3 of these 5 gaps to place the 3 S’s. The number of ways to choose 3 gaps = 5C3 = 10. Since the S’s are identical, that's it. So total = 12 * 10 = 120. Not 12. Option (2) 12, (4) 48, (1)24, (3)36. None 120. So I need to adjust. Perhaps the word has fewer S's. Maybe the question is "no two S's are together" in a word with only 2 S's? Then it would be easier. Let's change the word to 'MISSISSIPPI'? Too complex. I'll change the question to a smaller word: "MASS" has 4 letters M,A,S,S. No two S's together? That's small. For 'MASS': total letters 4, S repeated twice. Arrangements where no two S's together: arrange M,A first: 2! = 2. Then 3 gaps, choose 2 for S's: 3C2 = 3. Total 6. Not in options. So I need a word yielding one of the given options. Options: 24,12,36,48. Maybe word 'SUCCESS' but answer is 12? Let's see if there's a different interpretation: "using all the letters" and "no two S's are together". Could be that we treat S's as identical and we just need arrangements where S's are separated. I got 120, but maybe they also impose that no two C's are together? Not stated. Or maybe the word is 'SUCCESS' but they consider S's together? I'll just change to a different medium question to avoid complication. I'll do: "In how many ways can the letters of the word 'BANANA' be arranged such that no two N's are together?" BANANA: letters B, A, N, A, N, A (3 A's, 2 N's, 1 B). Arrange non-N letters: B, A, A, A (4 letters, A repeated 3 times). Arrangements = 4! / 3! = 4. Gaps: 5. Choose 2 gaps for N's: 5C2 = 10. Total 4*10=40. Not in options. So I'll drop this and find a standard medium question.
-
-I'll replace Q30 with a simpler one: "In how many ways can 5 persons be seated in a row if two particular persons refuse to sit together?" Total ways 5! = 120. Ways they sit together: treat as block, 4!*2! = 48. So not together = 120 - 48 = 72. So answer 72. Options: 72, 96, 120, 48. So that's a good medium question. So Q30: In how many ways can 5 persons be seated in a row if two particular persons never sit together? (1) 72 (2) 96 (3) 120 (4) 48. Answer (1) 72. Source: NCERT Ex 7.4.
-
-Thus I'll use that.
-
-Q30: In how many ways can 5 persons be seated in a row if two particular persons never sit together?
-(1) 72 (2) 96 (3) 120 (4) 48
-
-Answer: (1) 72
-Solution: Total arrangements = 5! = 120. Treat the two particular persons as a block: then 4 units arranged in 4! ways, and the block can be arranged in 2! ways, so 4! × 2! = 48. Therefore, arrangements with them not together = 120 – 48 = 72.
-Source: NCERT Class 11 Ex 7.4
-
-Now continue with 25 medium questions. I'll craft each with 4 options, solution, and source.
-
-List of topics for medium:
-
-Circular permutations with conditions (like Q28 done)
-
-Vowels together/not together
-
-At least one selection
-
-Forming numbers with constraints
-
-Committee with multiple conditions
-
-Arranging letters with repetitions and restrictions
-
-Handshake/diagonals (medium)
-
-Finding n from equation
-
-Multi-step fundamental counting principle
-
-Mixed P&C problem
-
-I'll generate them sequentially.
-
-Q31. A bag contains 5 red and 4 blue balls. In how many ways can 3 balls be drawn such that at least one ball is red?
-(1) 80 (2) 74 (3) 84 (4) 76
-
-Answer: (1) 80 (wait, compute: total ways to draw 3 from 9 = 84. Ways with no red (all blue) = 4C3 = 4. So at least one red = 84-4=80. So 80 is option (1). Good.
-Solution: Total selections = 9C3 = 84. Selections with no red = 4C3 = 4. Therefore, at least one red = 84 – 4 = 80.
-Source: SSC CGL 2019
-
-Q32. How many numbers greater than 5000 can be formed from the digits 0,1,2,3,4,5 using each digit at most once?
-(1) 600 (2) 480 (3) 360 (4) 720
-
-Answer: Need to compute: Numbers greater than 5000 with given digits without repetition. This could be 4-digit or 5-digit or 6-digit numbers? The digits are 0-5 (6 digits). Using each at most once, so numbers can be up to 6-digit. But "greater than 5000" means numbers with 4 digits (since 4-digit numbers can be >5000) or 5-digit or 6-digit. But careful: 4-digit numbers greater than 5000: the thousands digit must be 5 only (since digits >5 not available). With 5 in thousand's place, remaining 3 digits from 0,1,2,3,4 (5 digits) arranged: 5P3 = 60. But also 5-digit numbers: first digit cannot be 0, so 5 choices (1,2,3,4,5), then arrange remaining 5 digits in 5P4 = 120? Actually 5-digit: 5 choices for first digit (non-zero), then arrange remaining 5 digits (including 0) in the remaining 4 places: 5P4 = 120, so 5*120 = 600. 6-digit numbers: first digit cannot be 0, so 5 choices, then remaining 5 digits arranged in 5! = 120, so 5*120 = 600. So total numbers >5000 = 4-digit >5000: only those with thousand digit 5: 60. Plus all 5-digit numbers: 600. Plus all 6-digit numbers: 600. But wait, 5-digit numbers are automatically >5000, so 600. 6-digit numbers also >5000, so 600. So total = 60+600+600 = 1260. Not in options. So maybe the question means numbers formed using exactly 4 digits? Or "4-digit numbers"? I'll adjust: "How many 4-digit numbers greater than 5000 can be formed from the digits 0,1,2,3,4,5 without repetition?" Then answer: Thousands digit can be 5 only (since >5000 means 5000-5000, but 5000 is not formed as digits cannot repeat and 5000 uses 5,0,0,0 not allowed. So thousands digit 5. Then hundreds, tens, units from remaining digits {0,1,2,3,4}: 5P3 = 60. So answer 60. Not in options. So I'll scrap or choose a simpler one: "How many 3-digit numbers can be formed from digits 1,2,3,4,5 without repetition?" That's 60, easy. But medium? That's easy. I'll pick another.
-
-Maybe "How many 4-digit numbers can be formed from digits 0,1,2,3,4,5 without repetition, that are divisible by 5?" That's medium. Let's compute: For a number to be divisible by 5, last digit 0 or 5. Case 1: last digit 0, then thousands digit: 5 choices (can't be 0), hundreds: 4 choices, tens: 3, total 5*4*3=60. Case 2: last digit 5, thousands: 4 choices (can't be 0,5), hundreds: 4 (0 allowed), tens: 3, total 4*4*3=48. Sum=108. So answer 108. Options could be 108, 120, 96, 84. So I'll use that. So Q32: "How many 4-digit numbers divisible by 5 can be formed using the digits 0,1,2,3,4,5 without repetition?" (1) 108 (2) 120 (3) 96 (4) 84. Answer (1) 108. Source: SSC CGL pattern.
-
-Thus I'll set Q32 accordingly.
-
-Q33. In how many ways can 7 persons be seated around a circular table such that two particular persons never sit together?
-(1) 480 (2) 600 (3) 720 (4) 840
-
-Solution: Total circular arrangements = (7-1)! = 720. Treat the two as block: then 6 units circular arrangement = (6-1)! = 120, inside block 2! = 2, so 240. So not together = 720 - 240 = 480. Answer (1) 480.
-Source: SSC CPO
-
-Q34. A man has 4 friends. In how many ways can he invite one or more of them to a party?
-(1) 15 (2) 16 (3) 4! (4) 4
-
-Answer: Each friend can be invited or not: 2^4 = 16. Exclude the case of inviting none (0 friends), so 16 - 1 = 15. Answer (1) 15.
-Source: NCERT Class 11 Ex 7.4
-
-Q35. How many different arrangements can be made by taking 4 letters from the word ‘EXAMINATION’?
-This might be too complex due to repetitions of A,I,N. I'll avoid. Instead: "How many words can be formed using all letters of the word ‘MONDAY’ such that vowels are never together?" MONDAY: letters M,O,N,D,A,Y (6 distinct, vowels O and A). Total arrangements = 6! = 720. Arrangements where vowels together: treat OA as block, then 5 units, arrange 5! = 120, multiply by 2! = 2, so 240. So not together = 720 - 240 = 480. So answer 480. Options: 480, 600, 720, 240. So Q35: "In how many ways can the letters of the word ‘MONDAY’ be arranged so that the two vowels are never together?" (1) 480 (2) 600 (3) 720 (4) 240. Answer (1) 480.
-Source: NCERT Class 11 Ex 7.4
-
-Q36. From a group of 6 men and 5 women, a committee of 4 is to be formed. In how many ways can it be done if the committee must contain at least one woman?
-(1) 325 (2) 425 (3) 295 (4) 330
-
-Solution: Total committees = 11C4 = 330. Committees with no women (all men) = 6C4 = 15. So at least one woman = 330 - 15 = 315. Not in options. Hmm, options: 325, 425, 295, 330. 315 is not there. So adjust numbers. Maybe 6 men, 4 women, committee of 4, at least one woman: total 10C4=210, all men 6C4=15, so 195. Not in those. So I'll choose a different question.
-
-Better: "From 5 men and 4 women, a committee of 5 is formed containing at least 3 men." That's medium. Compute: Cases: 3 men 2 women: 5C3*4C2=10*6=60; 4 men 1 woman: 5C4*4C1=5*4=20; 5 men 0 women: 5C5=1. Total 81. Options: 81, 45, 80, 120. So I'll use that. So Q36: "From 5 men and 4 women, a committee of 5 is formed. How many ways can it contain at least 3 men?" Answer (1) 81.
-Source: Bank PO Pre 2019
-
-Q37. How many 3-digit numbers can be formed using the digits 1,2,3,4,5,6,7 without repetition that are odd?
-(1) 180 (2) 210 (3) 120 (4) 150
-
-Solution: Unit digit odd: 4 choices (1,3,5,7). Then hundreds digit: 6 remaining, tens: 5. Total 4*6*5=120. Answer (3) 120. But 120 is also there, so I need to verify. 6*5=30, times 4 = 120. So 120 is correct. Option (3) 120. I'll set answer (3) 120. That's easy, but it's foundation medium perhaps. I'll keep it.
-Source: SSC CGL
-
-Q38. In how many ways can 5 identical red balls and 4 identical blue balls be arranged in a row?
-(1) 126 (2) 120 (3) 24 (4) 210
-
-Solution: Total 9 balls, 5 identical red, 4 identical blue. Number of distinct arrangements = 9!/(5!4!) = 126. Answer (1) 126.
-Source: NCERT Class 11 Ex 7.4
-
-Q39. How many different signals can be made by hoisting 5 different flags in a vertical stack if at least 2 flags are to be used?
-(1) 320 (2) 325 (3) 300 (4) 120
-
-Solution: Using 2 flags: 5P2 = 20; 3 flags: 5P3 = 60; 4 flags: 5P4 = 120; 5 flags: 5P5 = 120. Sum = 20+60+120+120=320. Answer (1) 320.
-Source: NCERT Class 11 Ex 7.3
-
-Q40. The number of ways in which a student can choose 5 courses from 9 courses, if two particular courses are compulsory, is:
-(1) 35 (2) 21 (3) 42 (4) 84
-
-Solution: Since two are compulsory, we need to choose remaining 3 from the other 7 courses: 7C3 = 35. Answer (1) 35.
-Source: NCERT Class 11 Ex 7.4
-
-Q41. How many 4-letter codes can be formed using the first 10 letters of the English alphabet (A-J) if no letter can be repeated and the code must start with a vowel?
-(1) 1512 (2) 5040 (3) 720 (4) 2160
-
-Solution: Vowels among A-J: A, E, I (3 vowels). First letter: 3 choices. Then remaining 3 letters from 9 remaining distinct letters: 9P3 = 9×8×7 = 504. Total = 3 × 504 = 1512. Answer (1) 1512.
-Source: SSC CGL pattern
-
-Q42. In how many ways can the letters of the word ‘BALLOON’ be arranged such that the two L’s are together?
-(1) 360 (2) 180 (3) 720 (4) 120
-
-Solution: ‘BALLOON’ has letters B,A,L,L,O,O,N (7 letters, L twice, O twice). Treat the two L’s as a block 'LL'. Then we have units: B, A, LL, O, O, N (6 units, with O repeated twice). Arrange 6 units = 6!/2! = 360. The block 'LL' is identical so no internal arrangement. Total = 360. Answer (1) 360.
-Source: SSC CHSL 2021
-
-Q43. A polygon has 44 diagonals. The number of sides is:
-(1) 11 (2) 10 (3) 12 (4) 8
-
-Solution: Number of diagonals = nC2 - n = n(n-3)/2 = 44 → n(n-3)=88 → n²-3n-88=0 → n=11 or n=-8 → n=11. Answer (1) 11.
-Source: NCERT Class 11 Ex 7.4
-
-Q44. There are 6 items in column A and 6 items in column B. A student is asked to match each item in column A to an item in column B. How many possible (correct or incorrect) matches are there if each item in column B can be used only once?
-(1) 720 (2) 6! (3) Both (1) and (2) (4) 36
-
-Answer: It's the number of bijections = 6! = 720. So both (1) and (2) are same. I'll phrase as (1) 720 (2) 6! and (3) Both are same, (4) 36. But I'll just give 720 as answer and note it's 6!. So answer (1) 720.
-Solution: This is a permutation of 6 distinct items: 6! = 720.
-Source: NCERT Class 11 Ex 7.2
-
-Q45. In how many ways can 3 letters be posted in 4 letter boxes? (Each box can take any number of letters)
-(1) 64 (2) 81 (3) 24 (4) 12
-
-Solution: Each letter has 4 choices of boxes, so total ways = 4^3 = 64. Answer (1) 64.
-Source: NCERT Class 11 Ex 7.1
-
-Q46. How many 5-digit telephone numbers can be constructed using the digits 0 to 9 if each number starts with 67 and no digit appears more than once?
-(1) 336 (2) 720 (3) 10080 (4) 30240
-
-Solution: The number must be 5-digit, starts with 67, so first two digits fixed. Remaining 3 digits from the remaining 8 digits (0-9 excluding 6,7) with no repetition: 8P3 = 8×7×6 = 336. Answer (1) 336.
-Source: NCERT Class 11 Ex 7.1
-
-Q47. A committee of 3 is to be formed from 3 boys and 2 girls. The committee must contain at least one girl. Number of ways is:
-(1) 6 (2) 9 (3) 7 (4) 10
-
-Solution: Total committees = 5C3 = 10. Committees with no girl (all boys) = 3C3 = 1. So at least one girl = 10-1 = 9. Answer (2) 9.
-Source: NCERT Class 11 Ex 7.4
-
-Q48. If nC2 = 36, then n equals:
-(1) 9 (2) 8 (3) 10 (4) 6
-
-Solution: nC2 = n(n-1)/2 = 36 → n(n-1)=72 → n²-n-72=0 → n=9 or n=-8 → n=9. Answer (1) 9.
-Source: NCERT Class 11 Ex 7.4
-
-Q49. In how many ways can 6 identical maths books and 4 identical physics books be arranged on a shelf so that the physics books are always together?
-(1) 35 (2) 210 (3) 5040 (4) 120
-
-Solution: Treat the 4 physics books as one block. So we have 6 identical maths + 1 block = 7 units, but the maths books are identical, physics block is considered one item but the block itself is identical inside? Actually the physics books are identical, so block is also indistinguishable from any other arrangement? The block is treated as a single unit. Total units: 6 identical M's and 1 block P-block. The number of arrangements of these 7 units where 6 are identical M's = 7!/6! = 7. But the block itself has identical books, so internal arrangement is only 1 way. So total = 7. That would be extremely low, not in options. Wait, maybe the books are distinct? No, they are identical. If all physics books are identical, then arranging the block internal gives 1 way. So total 7. But 7 not in options. So likely the books are distinct, but the problem says identical. I'll change to distinct books? I'll specify "6 different maths books and 4 different physics books" then answer: treat physics as block: 7 units arrange in 7! ways, internal physics 4! ways, total 7!*4! = 5040*24 = 120960, too big. Not in options. So maybe the books are identical, but then the answer 7 is not there. So I'll adapt: "6 identical maths books and 4 identical physics books, and the physics books are always together." Then we need to arrange the block of physics among the maths. Since maths identical, the only variation is the position of the block among the 6 maths: there are 7 gaps (before first, between, after last). So 7 ways. That's not a listed option. So maybe the question expects: treat the block as one, so total 7 items, but the maths are identical, so arrangements = 7!/(6!1!) = 7, still 7. So not matches. I'll replace Q49 with a different medium question.
-
-Better: "In how many ways can 5 different rings be worn on 4 fingers of one hand, if any number of rings can be worn on any finger?" That's 4^5 = 1024. Not among typical 3-digit options. I'll do a different one: "How many 3-digit numbers can be formed using digits 0-9 if repetition is not allowed and the number must be a multiple of 5?" That yields: last digit 0 or 5. Case 0: units=0, hundreds 9 choices (1-9), tens 8 choices = 9*8=72. Case 5: units=5, hundreds 8 choices (1-9 except 5), tens 8 (0-9 except hundreds and 5) = 8*8=64. Total 136. Not 136 in options. Let's not.
-
-I'll pick a simpler medium: "How many words can be formed by using all letters of the word 'DAUGHTER' so that the vowels always come together?" DAUGHTER: letters D,A,U,G,H,T,E,R (8 distinct, vowels A,U,E). Treat vowels as block: 6 units (5 consonants + block) arrange 6! = 720. Vowels inside block 3! = 6. Total 4320. Options: 4320, 720, 2160, 1440. Answer 4320. So Q49: "In how many ways can the letters of the word 'DAUGHTER' be arranged so that the vowels always come together?" (1) 4320 (2) 720 (3) 2160 (4) 1440. Answer (1) 4320. Source: NCERT Ex 7.4.
-
-I'll do that.
-
-Q50. A box contains 2 white, 3 black, and 4 red balls. In how many ways can 4 balls be drawn so that exactly 2 are red?
-(1) 126 (2) 105 (3) 210 (4) 84
-
-Solution: Exactly 2 red balls from 4: 4C2 = 6. The remaining 2 balls must be from the 5 non-red balls (2 white + 3 black = 5): 5C2 = 10. Total = 6 × 10 = 60. Not in options. So I'll adjust to get a number in options. If exactly 1 red: 4C1=4, remaining 3 from 5: 5C3=10, total 40. Not. If we need at least 2 red: sum of 2 red, 3 red, 4 red. 2 red: 6*10=60; 3 red: 4C3=4, remaining 1 from 5:5C1=5 ->20; 4 red: 4C4=1 ->1; total 81. Not in options. So I'll pick different parameters. Let's do: 3 red, 2 white, 1 black? Not.
-
-I'll change Q50 to a different medium question: "In how many ways can a cricket team of 11 players be chosen from 15 players if a particular player is never included?" Answer: 14C11 = 14C3 = 364. Not in options. Or "if a particular player is always included": then choose remaining 10 from 14: 14C10 = 1001. Not in options. So I'll pick a question with options like 126, 210, 252, etc.
-
-I'll do: "How many different words can be formed by using all the letters of the word 'MATHEMATICS' such that the two M's are together?" That's complex. Avoid.
-
-Instead, I'll choose: "A committee of 6 is to be formed from 5 men and 6 women. In how many ways can it be done if the committee must contain exactly 3 men?" 5C3 * 6C3 = 10*20=200. Options: 200, 300, 400, 500. So I'll make Q50: "A committee of 6 is to be formed from 5 men and 6 women. In how many ways can it be done if exactly 3 men are to be included?" Answer (1) 200. That's a nice medium.
-
-Thus Q50: (1) 200 (2) 300 (3) 400 (4) 500. Answer (1) 200. Source: Bank PO.
-
-Now I'll assemble all 25 questions with proper numbers and solutions, ensuring each is medium. I'll include the final summary.
-
-I'll produce the final answer.Set 2: Permutation & Combination — Foundation Level (Medium)
-
-Q26. In how many ways can 4 boys and 2 girls be seated in a row such that the two girls always sit together?
-(1) 480 (2) 240 (3) 120 (4) 720
-
-Answer: (2) 240
-Solution: Treat the 2 girls as a single block. Now we have 4 boys + 1 block = 5 units, which can be arranged in 5! = 120 ways. Within the block, the 2 girls can be arranged in 2! = 2 ways. Total = 120 × 2 = 240.
-Source: SSC CHSL 2023
-
-Q27. How many 4-digit numbers can be formed using the digits 1, 2, 3, 4, 5 without repetition such that the number is divisible by 4?
-(1) 24 (2) 36 (3) 48 (4) 60
-
-Answer: (1) 24
-Solution: A number is divisible by 4 if its last two digits form a number divisible by 4. From {1,2,3,4,5}, the two-digit endings divisible by 4 are 12, 24, 32, 52 → 4 choices. For each ending, the first two digits are arranged from the remaining 3 digits in 3P2 = 6 ways. Total = 4 × 6 = 24.
-Source: SSC CGL 2020
-
-Q28. In how many ways can 5 persons sit around a circular table if two particular persons must always sit together?
-(1) 12 (2) 24 (3) 36 (4) 48
-
-Answer: (1) 12
-Solution: Treat the two particular persons as a single block. Now we have 4 units in a circle: (4-1)! = 3! = 6 ways. Within the block, the two persons can be arranged in 2! = 2 ways. Total = 6 × 2 = 12.
-Source: SSC CPO 2022
-
-Q29. From 6 men and 4 women, a committee of 5 is to be formed containing exactly 3 men. How many ways can it be done?
-(1) 120 (2) 180 (3) 240 (4) 60
-
-Answer: (1) 120
-Solution: Choose 3 men from 6: 6C3 = 20. Choose 2 women from 4: 4C2 = 6. Total = 20 × 6 = 120.
-Source: IBPS PO Pre 2020
-
-Q30. In how many ways can 5 persons be seated in a row if two particular persons never sit together?
-(1) 72 (2) 96 (3) 120 (4) 48
-
-Answer: (1) 72
-Solution: Total arrangements = 5! = 120. Treat the two as a block: 4! × 2! = 48 arrangements where they are together. So arrangements with them not together = 120 – 48 = 72.
-Source: NCERT Class 11 Ex 7.4
-
-Q31. A bag contains 5 red and 4 blue balls. In how many ways can 3 balls be drawn such that at least one ball is red?
-(1) 80 (2) 74 (3) 84 (4) 76
-
-Answer: (1) 80
-Solution: Total ways to draw 3 balls from 9 = 9C3 = 84. Ways with no red ball (all blue) = 4C3 = 4. Therefore, at least one red = 84 – 4 = 80.
-Source: SSC CGL 2019
-
-Q32. How many 4-digit numbers divisible by 5 can be formed using the digits 0,1,2,3,4,5 without repetition?
-(1) 108 (2) 120 (3) 96 (4) 84
-
-Answer: (1) 108
-Solution: A number divisible by 5 ends in 0 or 5.
-Case 1: last digit 0 → thousands place: 5 choices (1-5), hundreds: 4, tens: 3 → 5×4×3 = 60.
-Case 2: last digit 5 → thousands place: 4 choices (1,2,3,4, cannot be 0 or 5), hundreds: 4 (0 allowed), tens: 3 → 4×4×3 = 48.
-Total = 60 + 48 = 108.
-Source: SSC CGL 2018 (adapted)
-
-Q33. In how many ways can 7 persons be seated around a circular table such that two particular persons never sit together?
-(1) 480 (2) 600 (3) 720 (4) 840
-
-Answer: (1) 480
-Solution: Total circular arrangements = (7-1)! = 720. Arrangements with the two together: treat them as a block → (6-1)! × 2! = 120 × 2 = 240. Therefore, not together = 720 – 240 = 480.
-Source: SSC CPO 2021
-
-Q34. A man has 4 friends. In how many ways can he invite one or more of them to a party?
-(1) 15 (2) 16 (3) 4! (4) 4
-
-Answer: (1) 15
-Solution: Each friend can be invited or not: 2⁴ = 16 possibilities. Excluding the case of inviting none, the number of ways = 16 – 1 = 15.
-Source: NCERT Class 11 Ex 7.4
-
-Q35. In how many ways can the letters of the word ‘MONDAY’ be arranged so that the two vowels are never together?
-(1) 480 (2) 600 (3) 720 (4) 240
-
-Answer: (1) 480
-Solution: Total arrangements = 6! = 720. Vowels O and A together: treat OA as a block → 5! × 2! = 120 × 2 = 240. Therefore, not together = 720 – 240 = 480.
-Source: NCERT Class 11 Ex 7.4
-
-Q36. From 5 men and 4 women, a committee of 5 is formed. How many ways can it contain at least 3 men?
-(1) 81 (2) 45 (3) 80 (4) 120
-
-Answer: (1) 81
-Solution: Cases: 3 men & 2 women → 5C3 × 4C2 = 10 × 6 = 60; 4 men & 1 woman → 5C4 × 4C1 = 5 × 4 = 20; 5 men & 0 women → 5C5 = 1. Total = 60 + 20 + 1 = 81.
-Source: Bank PO Pre 2019
-
-Q37. How many 3-digit numbers can be formed using the digits 1,2,3,4,5,6,7 without repetition that are odd?
-(1) 180 (2) 210 (3) 120 (4) 150
-
-Answer: (3) 120
-Solution: Unit digit must be odd: 4 choices (1,3,5,7). Then hundreds digit: 6 remaining choices, tens: 5 choices. Total = 4 × 6 × 5 = 120.
-Source: SSC CGL 2017
-
-Q38. In how many ways can 5 identical red balls and 4 identical blue balls be arranged in a row?
-(1) 126 (2) 120 (3) 24 (4) 210
-
-Answer: (1) 126
-Solution: Total 9 balls, 5 identical red, 4 identical blue. Number of distinct arrangements = 9!/(5! 4!) = 126.
-Source: NCERT Class 11 Ex 7.4
-
-Q39. How many different signals can be made by hoisting 5 different flags in a vertical stack if at least 2 flags are to be used?
-(1) 320 (2) 325 (3) 300 (4) 120
-
-Answer: (1) 320
-Solution: Using 2 flags: 5P2 = 20; 3 flags: 5P3 = 60; 4 flags: 5P4 = 120; 5 flags: 5P5 = 120. Total = 20 + 60 + 120 + 120 = 320.
-Source: NCERT Class 11 Ex 7.3
-
-Q40. The number of ways in which a student can choose 5 courses from 9 courses, if two particular courses are compulsory, is:
-(1) 35 (2) 21 (3) 42 (4) 84
-
-Answer: (1) 35
-Solution: Since two courses are compulsory, the student must choose 3 more from the remaining 7 courses: 7C3 = 35.
-Source: NCERT Class 11 Ex 7.4
-
-Q41. How many 4-letter codes can be formed using the first 10 letters of the English alphabet (A-J) if no letter can be repeated and the code must start with a vowel?
-(1) 1512 (2) 5040 (3) 720 (4) 2160
-
-Answer: (1) 1512
-Solution: Vowels among A-J: A, E, I (3 vowels). First letter: 3 choices. Remaining 3 letters from the other 9 distinct letters: 9P3 = 9×8×7 = 504. Total = 3 × 504 = 1512.
-Source: SSC CHSL 2022
-
-Q42. In how many ways can the letters of the word ‘BALLOON’ be arranged such that the two L’s are together?
-(1) 360 (2) 180 (3) 720 (4) 120
-
-Answer: (1) 360
-Solution: Treat the two L’s as a single block ‘LL’. Letters: B,A,LL,O,O,N (6 units, O repeated twice). Arrangements = 6!/2! = 360. The block has no internal arrangement (identical letters).
-Source: SSC CHSL 2021
-
-Q43. A polygon has 44 diagonals. The number of sides is:
-(1) 11 (2) 10 (3) 12 (4) 8
-
-Answer: (1) 11
-Solution: Number of diagonals = n(n-3)/2 = 44 → n(n-3) = 88 → n² – 3n – 88 = 0 → (n-11)(n+8)=0 → n=11.
-Source: NCERT Class 11 Ex 7.4
-
-Q44. There are 6 items in column A and 6 items in column B. A student is asked to match each item in column A to an item in column B. How many possible (correct or incorrect) matches are there if each item in column B can be used only once?
-(1) 720 (2) 30 (3) 36 (4) 120
-
-Answer: (1) 720
-Solution: The number of one-to-one matchings is the number of permutations of 6 distinct items: 6! = 720.
-Source: NCERT Class 11 Ex 7.2
-
-Q45. In how many ways can 3 letters be posted in 4 letter boxes? (Each box can take any number of letters)
-(1) 64 (2) 81 (3) 24 (4) 12
-
-Answer: (1) 64
-Solution: Each letter has 4 choices, independent of others → total ways = 4³ = 64.
-Source: NCERT Class 11 Ex 7.1
-
-Q46. How many 5-digit telephone numbers can be constructed using the digits 0 to 9 if each number starts with 67 and no digit appears more than once?
-(1) 336 (2) 720 (3) 10080 (4) 30240
-
-Answer: (1) 336
-Solution: First two digits fixed as 6 and 7. Remaining 3 digits chosen from the remaining 8 digits (0-9 excluding 6,7) without repetition: 8P3 = 8×7×6 = 336.
-Source: NCERT Class 11 Ex 7.1
-
-Q47. A committee of 3 is to be formed from 3 boys and 2 girls. The committee must contain at least one girl. Number of ways is:
-(1) 6 (2) 9 (3) 7 (4) 10
-
-Answer: (2) 9
-Solution: Total committees = 5C3 = 10. Committees with no girl (all 3 boys) = 1. So at least one girl = 10 – 1 = 9.
-Source: NCERT Class 11 Ex 7.4
-
-Q48. If nC2 = 36, then n equals:
-(1) 9 (2) 8 (3) 10 (4) 6
-
-Answer: (1) 9
-Solution: nC2 = n(n-1)/2 = 36 → n(n-1) = 72 → n² – n – 72 = 0 → n = 9 or n = –8 (reject). So n = 9.
-Source: NCERT Class 11 Ex 7.4
-
-Q49. In how many ways can the letters of the word ‘DAUGHTER’ be arranged so that the vowels always come together?
-(1) 4320 (2) 720 (3) 2160 (4) 1440
-
-Answer: (1) 4320
-Solution: Vowels: A, U, E (3 vowels). Treat them as one block. Total units = 5 consonants + 1 block = 6. Arrange 6 units in 6! = 720 ways. Vowels within block can be arranged in 3! = 6 ways. Total = 720 × 6 = 4320.
-Source: NCERT Class 11 Ex 7.4
-
-Q50. A committee of 6 is to be formed from 5 men and 6 women. In how many ways can it be done if exactly 3 men are to be included?
-(1) 200 (2) 300 (3) 400 (4) 500
-
-Answer: (1) 200
-Solution: Choose 3 men from 5: 5C3 = 10. Choose 3 women from 6: 6C3 = 20. Total = 10 × 20 = 200.
-Source: IBPS Clerk Mains 2020
-
-🚀 Review this set after 2 days. Pick any 3 incorrect or tricky questions, re-solve them, and explain the underlying trap aloud in 30 seconds to lock in the concept.
+Set 2: Permutation & Combination — Foundation Level (Medium) | Questions 26–45: Medium | Questions 46–50: Harder Medium
+
+26. In how many ways can 4 boys and 2 girls be seated in a row such that the two girls always sit together?
+(a) 480 (b) 720 (c) 120 (d) 240
+Answer: (d)
+Solution: The trap is arranging all 6 people freely (720) and forgetting the "together" condition. Treat the 2 girls as one block: 5 units arrange in 5! = 120 ways, and the girls swap inside the block in 2! = 2 ways, so the answer is 240.
+Source: PYQ-style
+
+27. How many 4-digit numbers can be formed using the digits 1, 2, 3, 4, 5 without repetition such that the number is divisible by 4?
+(a) 24 (b) 48 (c) 36 (d) 60
+Answer: (a)
+Solution: Many students take any 4 digits (5P4 = 120) and divide by 4, which is wrong. Divisibility by 4 depends on the last two digits: valid endings are 12, 24, 32, 52 (4 choices), and the first two digits come from the remaining 3 digits in 3 × 2 = 6 ways, so the answer is 24.
+Source: PYQ-style
+
+28. In how many ways can 5 persons sit around a circular table if two particular persons must always sit together?
+(a) 12 (b) 24 (c) 36 (d) 48
+Answer: (a)
+Solution: The trap is using 5! = 120 (linear) instead of circular counting. Treat the pair as one block: 4 units around a circle give (4 − 1)! = 6 ways, times 2! = 2 inside the block, so the answer is 12.
+Source: PYQ-style
+
+29. From 6 men and 4 women, a committee of 5 is to be formed containing exactly 3 men. In how many ways can this be done?
+(a) 120 (b) 240 (c) 60 (d) 180
+Answer: (a)
+Solution: The trap is choosing only the men (6C3 = 20) and forgetting the 2 women needed to complete the committee. Multiply 6C3 = 20 by 4C2 = 6, so the answer is 120.
+Source: PYQ-style
+
+30. In how many ways can 5 persons be seated in a row if two particular persons never sit together?
+(a) 96 (b) 48 (c) 120 (d) 72
+Answer: (d)
+Solution: The trap is reporting 48, which is actually the number of arrangements where the two sit together. Total arrangements are 5! = 120 and together-arrangements are 4! × 2! = 48, so the answer is 120 − 48 = 72.
+Source: NCERT Class 11 Mathematics
+
+31. A bag contains 5 red and 4 blue balls. In how many ways can 3 balls be drawn such that at least one ball is red?
+(a) 74 (b) 84 (c) 80 (d) 76
+Answer: (c)
+Solution: Adding separate cases (1 red, 2 red, 3 red) invites arithmetic slips; the complement is cleaner. Total draws are 9C3 = 84 and all-blue draws are 4C3 = 4, so the answer is 84 − 4 = 80.
+Source: PYQ-style
+
+32. How many 4-digit numbers divisible by 5 can be formed using the digits 0, 1, 2, 3, 4, 5 without repetition?
+(a) 96 (b) 120 (c) 108 (d) 84
+Answer: (c)
+Solution: The trap is treating both endings alike and ignoring that 0 cannot lead. Ending in 0 gives 5 × 4 × 3 = 60 numbers; ending in 5 gives 4 × 4 × 3 = 48 numbers, so the answer is 60 + 48 = 108.
+Source: PYQ-style
+
+33. In how many ways can 7 persons be seated around a circular table such that two particular persons never sit together?
+(a) 600 (b) 480 (c) 840 (d) 720
+Answer: (b)
+Solution: The trap is answering 720, which counts all circular arrangements without any restriction. Together-arrangements are (6 − 1)! × 2! = 240, so the answer is 720 − 240 = 480.
+Source: PYQ-style
+
+34. A man has 4 friends. In how many ways can he invite one or more of them to a party?
+(a) 16 (b) 15 (c) 24 (d) 8
+Answer: (b)
+Solution: The trap is answering 16, which includes the case where nobody is invited. Each friend has 2 choices (invited or not), giving 2⁴ = 16, and removing the "none invited" case, the answer is 15.
+Source: NCERT Class 11 Mathematics
+
+35. In how many ways can the letters of the word MONDAY be arranged so that the two vowels are never together?
+(a) 600 (b) 720 (c) 480 (d) 240
+Answer: (c)
+Solution: The trap is answering 240, which is the count where the vowels are together. Total arrangements are 6! = 720 and together-arrangements are 5! × 2! = 240, so the answer is 720 − 240 = 480.
+Source: NCERT Class 11 Mathematics
+
+36. From 5 men and 4 women, a committee of 5 is to be formed containing at least 3 men. In how many ways can this be done?
+(a) 45 (b) 81 (c) 80 (d) 120
+Answer: (b)
+Solution: The trap is stopping at the 3-men case (60) and missing the other valid cases. Add 5C3 × 4C2 = 60, 5C4 × 4C1 = 20, and 5C5 × 4C0 = 1, so the answer is 81.
+Source: PYQ-style
+
+37. How many 3-digit odd numbers can be formed using the digits 1, 2, 3, 4, 5, 6, 7 without repetition?
+(a) 120 (b) 210 (c) 150 (d) 180
+Answer: (a)
+Solution: The trap is filling the hundreds place first and losing track of odd choices for the units place. Fix the units digit first: 4 odd choices, then 6 choices for hundreds and 5 for tens, so the answer is 4 × 6 × 5 = 120.
+Source: PYQ-style
+
+38. In how many distinct ways can 5 identical red balls and 4 identical blue balls be arranged in a row?
+(a) 210 (b) 120 (c) 24 (d) 126
+Answer: (d)
+Solution: The trap is answering 9! = 362880-style thinking, ignoring that identical balls make many arrangements the same. Divide by the repetitions: 9!/(5! × 4!), so the answer is 126.
+Source: NCERT Class 11 Mathematics
+
+39. How many different signals can be made by hoisting some of 5 different flags in a vertical stack if at least 2 flags must be used?
+(a) 325 (b) 300 (c) 320 (d) 120
+Answer: (c)
+Solution: The trap is counting only the 5-flag case (120) and ignoring smaller stacks. Add 5P2 + 5P3 + 5P4 + 5P5 = 20 + 60 + 120 + 120, so the answer is 320.
+Source: NCERT Class 11 Mathematics
+
+40. A student must choose 5 courses out of 9, and 2 particular courses are compulsory. In how many ways can the choice be made?
+(a) 21 (b) 84 (c) 42 (d) 35
+Answer: (d)
+Solution: The trap is computing 9C5 = 126-style selections without fixing the compulsory courses. With 2 courses fixed, only 3 more are chosen from the remaining 7: 7C3, so the answer is 35.
+Source: NCERT Class 11 Mathematics
+
+41. How many 4-letter codes can be formed from the letters A to J if no letter is repeated and the code must start with a vowel?
+(a) 5040 (b) 1512 (c) 2160 (d) 720
+Answer: (b)
+Solution: The trap is filling all four places freely (10 × 9 × 8 × 7 = 5040) and ignoring the vowel condition. The first place has 3 vowel choices (A, E, I), then 9 × 8 × 7 = 504 for the rest, so the answer is 3 × 504 = 1512.
+Source: PYQ-style
+
+42. In how many ways can the letters of the word BALLOON be arranged so that the two L's are together?
+(a) 180 (b) 720 (c) 360 (d) 120
+Answer: (c)
+Solution: The trap is computing 7!/(2! × 2!) = 1260 without applying the together condition. Treat LL as one block: 6 units with O repeated twice give 6!/2!, so the answer is 360.
+Source: PYQ-style
+
+43. A polygon has 44 diagonals. How many sides does it have?
+(a) 10 (b) 12 (c) 8 (d) 11
+Answer: (d)
+Solution: The trap is using nC2 = 44 directly, which counts sides plus diagonals. Diagonals equal n(n − 3)/2 = 44, giving n² − 3n − 88 = 0 and n = 11, so the answer is 11.
+Source: NCERT Class 11 Mathematics
+
+44. Six items in column A are to be matched with six items in column B, each item of B used exactly once. How many different matchings are possible?
+(a) 36 (b) 720 (c) 120 (d) 30
+Answer: (b)
+Solution: The trap is answering 6 × 6 = 36, which allows reuse of column B items. The first item has 6 choices, the next 5, and so on, giving 6!, so the answer is 720.
+Source: NCERT Class 11 Mathematics
+
+45. In how many ways can 3 different letters be posted in 4 letter boxes if each box can hold any number of letters?
+(a) 64 (b) 24 (c) 81 (d) 12
+Answer: (a)
+Solution: The trap is computing 3⁴ = 81 by reversing letters and boxes. Each of the 3 letters independently has 4 box choices, giving 4³, so the answer is 64.
+Source: NCERT Class 11 Mathematics
+
+46. How many 5-digit telephone numbers can be formed using digits 0 to 9 if each number must start with 67 and no digit repeats?
+(a) 720 (b) 30240 (c) 10080 (d) 336
+Answer: (d)
+Solution: The trap is arranging all 10 digits freely instead of fixing the first two places. With 6 and 7 used, the last three places take 8 × 7 × 6 arrangements, so the answer is 336.
+Source: NCERT Class 11 Mathematics
+
+47. A committee of 3 is to be formed from 3 boys and 2 girls, and it must contain at least one girl. In how many ways can this be done?
+(a) 9 (b) 7 (c) 6 (d) 10
+Answer: (a)
+Solution: The trap is answering 10, the total number of committees, without removing the all-boy case. Total committees are 5C3 = 10 and the all-boy committee is 1, so the answer is 9.
+Source: NCERT Class 11 Mathematics
+
+48. If nC2 = 36, what is the value of n?
+(a) 8 (b) 9 (c) 10 (d) 6
+Answer: (b)
+Solution: The trap is solving n(n − 1) = 36 and getting confused between n and n − 1. Since n(n − 1)/2 = 36 gives n(n − 1) = 72 = 9 × 8, the answer is 9.
+Source: NCERT Class 11 Mathematics
+
+49. In how many ways can the letters of the word DAUGHTER be arranged so that the vowels always come together?
+(a) 720 (b) 2160 (c) 4320 (d) 1440
+Answer: (c)
+Solution: The trap is answering 720, which arranges the 6 units but forgets the vowels' internal order. The block of 3 vowels plus 5 consonants gives 6! = 720 arrangements, times 3! = 6 inside the block, so the answer is 4320.
+Source: NCERT Class 11 Mathematics
+
+50. A committee of 6 is to be formed from 5 men and 6 women with exactly 3 men included. In how many ways can this be done?
+(a) 200 (b) 400 (c) 500 (d) 300
+Answer: (a)
+Solution: The trap is adding 5C3 and 6C3 instead of multiplying the two independent choices. Choose 3 men in 5C3 = 10 ways and 3 women in 6C3 = 20 ways, so the answer is 10 × 20 = 200.
+Source: PYQ-style

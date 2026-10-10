@@ -1,0 +1,151 @@
+Questions 101–115: Medium | Questions 116–125: Hard
+
+101. Which of the following Venn diagrams best represents the relationship among: Shirt, Cotton, Fabric?
+(a) Cotton inside Fabric, Shirt overlapping Fabric (b) Shirt inside Fabric, Cotton inside Fabric, separate (c) Shirt inside Cotton, Cotton inside Fabric (d) Cotton inside Fabric, Shirt separate
+Answer: (a)
+Solution: All cotton is fabric. Shirt is made of fabric; some shirts are cotton, some are not. So Shirt partially overlaps Fabric, and Cotton is a subset of Fabric.
+Source: PYQ-style
+
+102. Choose the Venn diagram for Tiger, Carnivore, Herbivore.
+(a) Tiger inside Carnivore, Carnivore and Herbivore overlapping (b) Tiger inside Carnivore, Carnivore and Herbivore separate (c) Tiger inside Carnivore and Herbivore overlapping (d) Tiger inside Carnivore, Herbivore inside Carnivore
+Answer: (b)
+Solution: All tigers are carnivores. Carnivores and herbivores are disjoint biological categories based on diet. So separate circles, with Tiger inside Carnivore.
+Source: PYQ-style
+
+103. In a group of 300 people, 180 know Hindi, 140 know English, 80 know both. How many know neither?
+(a) 40 (b) 50 (c) 60 (d) 70
+Answer: (c)
+Solution: n(H ∪ E) = 180+140-80 = 240. Neither = 300-240 = 60.
+Source: PYQ-style
+
+104. In the given Venn diagram, triangle = Engineers, square = MBAs, circle = Experienced. Numbers: only Engineers=15, only MBAs=12, only Experienced=18, Engineers & MBAs only=7, MBAs & Exp only=6, Engineers & Exp only=9, all three=5. How many are engineers or experienced but not MBAs?
+(a) 47 (b) 39 (c) 45 (d) 42
+Answer: (d)
+Solution: Engineers or Experienced but not MBAs = only Engineers (15) + only Experienced (18) + (Engineers & Exp only) (9) = 15+18+9 = 42. (All three includes MBAs so excluded.)
+Source: PYQ-style
+
+105. [Trap] Which Venn diagram represents the sets Chair, Table, Wood?
+(a) Chair and Table separate, Wood overlapping both (b) Chair and Table inside Wood, separate (c) Chair and Table overlapping Wood, all three overlap (d) Chair inside Table, Wood separate
+Answer: (a)
+Solution: Chair and Table are distinct furniture items (disjoint classes). Wood is a material; chairs and tables can be made of wood, so Wood overlaps with both Chair and Table. Trap: Many assume Chair and Table are made of wood, so they might put them inside Wood, but that would mean all chairs and tables are wood, which is false.
+Source: PYQ-style
+
+106. Statements: Some flowers are red. All red things are coloured. No coloured thing is invisible. Conclusions: I. Some flowers are coloured. II. No red thing is invisible.
+(a) Only I follows (b) Both I and II follow (c) Only II follows (d) Neither I nor II follows
+Answer: (b)
+Solution: I: Some flowers are red, all red are coloured → those flowers are coloured. True. II: All red are coloured, coloured ∩ invisible = ∅ → red ∩ invisible = ∅. So no red thing is invisible. True.
+Source: PYQ-style
+
+107. In a Venn diagram, circle X = Smokers, circle Y = Drinkers, circle Z = Overweight. Numbers: only X=9, only Y=11, only Z=14, X∩Y only=5, Y∩Z only=7, X∩Z only=4, all three=3. How many are exactly two of these?
+(a) 19 (b) 12 (c) 16 (d) 15
+Answer: (c)
+Solution: Exactly two = (5+7+4) = 16.
+Source: PYQ-style
+
+108. Which option correctly shows Carrot, Vegetable, Orange?
+(a) Carrot inside Vegetable, Orange inside Vegetable (b) Carrot and Orange inside Vegetable, separate (c) Carrot inside Vegetable, Orange overlapping Vegetable (d) Carrot inside Vegetable, Orange separate
+Answer: (d)
+Solution: Carrot is a vegetable. Orange is a fruit, not a vegetable. So Carrot ⊆ Vegetable, Orange separate.
+Source: PYQ-style
+
+109. Statements: All cats are mammals. Some mammals are pets. No pet is wild. Conclusions: I. Some cats are pets. II. Some mammals are not wild.
+(a) Only II follows (b) Only I follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (a)
+Solution: I: Cats may or may not overlap pets. Not definite. II: Some mammals are pets, and pets are not wild. So those mammals are not wild. Hence some mammals are not wild. True.
+Source: PYQ-style
+
+110. In a survey, 75% like coffee, 65% like tea, 50% like both. What percentage like neither?
+(a) 5% (b) 10% (c) 15% (d) 20%
+Answer: (b)
+Solution: n(C ∪ T) = 75+65-50 = 90%. Neither = 10%.
+Source: PYQ-style
+
+111. Statements: Some books are novels. All novels are fictions. No fiction is a biography. Conclusions: I. Some books are fictions. II. Some biographies are not novels.
+(a) Only I follows (b) Only II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (c)
+Solution: I: Some books are novels, all novels are fictions → those books are fictions. True. II: No fiction is a biography, and novels ⊆ fiction, so no novel is a biography. Hence all biographies are not novels, so some biographies are not novels is true (in fact all). So II follows.
+Source: PYQ-style
+
+112. Which Venn diagram best fits Police, Thief, Criminal?
+(a) Thief inside Criminal, Police overlapping Criminal (b) Police inside Criminal, Thief inside Criminal, separate (c) Thief inside Police, Criminal separate (d) Thief inside Criminal, Police separate
+Answer: (d)
+Solution: All thieves are criminals. Police are law enforcers, not criminals. So Thief ⊆ Criminal, Police separate.
+Source: PYQ-style
+
+113. In the given figure, triangle = Males, square = Players, circle = Coaches. Numbers: only Males=22, only Players=16, only Coaches=14, Males & Players only=9, Players & Coaches only=6, Males & Coaches only=8, all three=4. How many are not players?
+(a) 44 (b) 48 (c) 40 (d) 36
+Answer: (a)
+Solution: Not players = all regions outside the square = only Males (22) + only Coaches (14) + (Males & Coaches only) (8) = 44.
+Source: PYQ-style
+
+114. Statements: All chairs are furniture. Some furniture is wooden. No wooden thing is plastic. Conclusions: I. Some chairs are wooden. II. Some furniture is not plastic.
+(a) Only I follows (b) Only II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (b)
+Solution: I: Chairs may be entirely outside the wooden part. Not definite. II: The wooden furniture is not plastic. So some furniture is not plastic. True.
+Source: PYQ-style
+
+115. In a class of 150 students, 90 passed in English, 80 passed in Hindi, 70 passed in both. How many failed in both?
+(a) 40 (b) 30 (c) 50 (d) 60
+Answer: (c)
+Solution: Passed in at least one = 90+80-70 = 100. Failed in both = 150-100 = 50.
+Source: PYQ-style
+
+116. [Trap] Which Venn diagram represents Doctor, Stethoscope, Nurse?
+(a) Doctor and Nurse separate, Stethoscope overlapping Doctor (b) Doctor and Nurse inside Stethoscope (c) Doctor inside Stethoscope, Nurse separate (d) Three separate circles
+Answer: (d)
+Solution: Doctor (person), stethoscope (tool), nurse (person) are all distinct classes. A stethoscope is not a person, a nurse is not a doctor. No class overlap; functional association is irrelevant. Trap: Real-life association (doctor uses stethoscope, nurse assists) misleads to choose overlapping diagrams.
+Source: PYQ-style
+
+117. Statements: Some dogs are friendly. All friendly animals are pets. No pet is dangerous. Conclusions: I. Some dogs are pets. II. Some friendly animals are not dangerous.
+(a) Both I and II follow (b) Only I follows (c) Only II follows (d) Neither I nor II follows
+Answer: (a)
+Solution: I: Some dogs are friendly, all friendly are pets → those dogs are pets. True. II: All friendly are pets, no pet is dangerous → no friendly is dangerous, so some friendly are not dangerous (in fact all). True.
+Source: PYQ-style
+
+118. Choose the diagram for Eye, Nose, Face.
+(a) Eye inside Nose, Nose inside Face (b) Eye and Nose inside Face, separate (c) Face inside Eye, Nose separate (d) Eye and Nose overlapping inside Face
+Answer: (b)
+Solution: Both eye and nose are parts of the face. They are distinct organs, so disjoint subsets of Face.
+Source: PYQ-style
+
+119. Statements: No river is a lake. All lakes are water bodies. Some water bodies are oceans. Conclusions: I. Some water bodies are not rivers. II. Some oceans are not rivers.
+(a) Only II follows (b) Both I and II follow (c) Only I follows (d) Neither I nor II follows
+Answer: (c)
+Solution: I: Lakes are water bodies, and lakes are not rivers (since no river is lake). So there exist water bodies (lakes) that are not rivers. True. II: Oceans are some water bodies, but they may or may not overlap rivers. Rivers and lakes are disjoint, but rivers and oceans could intersect? The statement doesn't forbid rivers from being oceans. In reality no, but logically possible. So not definite.
+Source: PYQ-style
+
+120. In the Venn diagram, circle A = Singers, circle B = Dancers, circle C = Actors. Numbers: only A=10, only B=12, only C=14, A∩B only=5, B∩C only=7, A∩C only=8, all three=3. Total how many are there?
+(a) 56 (b) 54 (c) 62 (d) 59
+Answer: (d)
+Solution: Total = sum of all regions = 10+12+14+5+7+8+3 = 59.
+Source: PYQ-style
+
+121. [Hard] Statements: All apples are fruits. No fruit is a vegetable. Some vegetables are green. Conclusions: I. Some green things are not fruits. II. Some apples are not vegetables.
+(a) Both I and II follow (b) Only I follows (c) Only II follows (d) Neither I nor II follows
+Answer: (a)
+Solution: II: All apples are fruits, no fruit is vegetable → no apple is vegetable. That means all apples are not vegetables, so “some apples are not vegetables” is true (in fact all). So II follows. I: Some vegetables are green, and vegetables are not fruits (since no fruit is vegetable). So those green vegetables are not fruits. Hence some green things are not fruits. True. Both follow. This is hard because of the conversion of “No fruit is vegetable” to “No vegetable is fruit”, allowing the chain.
+Source: PYQ-style
+
+122. [Hard + Trap] Which Venn diagram best represents Players, Spectators, Stadium?
+(a) Players and Spectators inside Stadium, separate (b) Three separate circles (c) Players inside Stadium, Spectators overlapping Stadium (d) Players and Spectators separate, Stadium overlapping both
+Answer: (b)
+Solution: Player (person), spectator (person), stadium (place) are all distinct classes. A player is not a stadium, a spectator is not a stadium, and players are not spectators (class-wise). They belong to different categories; no subset relationship. So three disjoint circles. Trap: Real-world scenario of players and spectators being in a stadium leads to wrong answers like (A) or (C).
+Source: PYQ-style
+
+123. [Hard] Statements: Some mobiles are tablets. All tablets are gadgets. Some gadgets are laptops. No laptop is a mobile. Conclusions: I. Some tablets are not laptops. II. Some mobiles are not laptops.
+(a) Only conclusion II follows (b) Both conclusions follow (c) Only conclusion I follows (d) Neither conclusion follows
+Answer: (c)
+Solution: Only a few teachers are principals means some teachers are principals and some teachers are not principals. Therefore, conclusion I follows directly. The second conclusion does not necessarily follow. Only I follows.
+Source: PYQ-style
+
+124. [Hard] In a housing society of 500 families, each family owns at most one type of vehicle: car, bike, or cycle. The data from a Venn diagram (three mutually exclusive sets? Actually "at most one" means no family owns more than one type, so sets are disjoint). The number of families owning car is 180, bike is 210, cycle is 110. How many families own exactly one vehicle?
+(a) 400 (b) 300 (c) 250 (d) 500
+Answer: (d)
+Solution: Since "at most one" means no overlap, the sets are disjoint. The numbers given sum to 180+210+110 = 500, which equals total families. So all families own exactly one vehicle (no one owns none, because total matches). Thus exactly one vehicle = 500.
+Source: PYQ-style
+
+125. [Hard] Statements: All stars are planets. Some planets are moons. No moon is a sun. Conclusions: I. Some planets are not moons. II. Some stars are moons. III. No star is a sun.
+(a) Only conclusion II follows (b) Only conclusion I follows (c) Both conclusions I and III follow (d) None follows
+Answer: (b)
+Solution: All stars are planets, and some planets are moons. There is no forced intersection between stars and moons, nor is there a definite exclusion between stars and sun. Thus, only conclusion I follows.
+Source: PYQ-style
