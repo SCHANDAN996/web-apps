@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 11-10-2026 12:19 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 12:03 AM
+**आख़िरी update:** 11-10-2026 12:35 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 12:03 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 4 मिनट |
+| W2 | Chapter 13 Dictionary Order (12th Reasoning) | 🔧 सुधार रहा है | 9 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -20,13 +20,13 @@
 | 10th English | 18 | 0 | 2 |
 | 12th Maths | 20 | 0 | 3 |
 | 12th GK | 22 | 0 | 2 |
-| 12th Reasoning | 19 | 5 | 1 |
+| 12th Reasoning | 19 | 6 | 0 |
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 25 | 0 | 3 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 26 | 0 | 4 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **274** | **5** | **17** |
+| **कुल** | **274** | **6** | **16** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -44,9 +44,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 00:09:51 NOT OK 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images after 6 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (34']
-11-10 00:09:54 START 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images (FIX: todo 0, problems 1)
-11-10 00:09:55   [Statement_Assumption] REJECTED Short_Tricks_hi.txt: corrupted characters — not written
 11-10 00:09:55   [Statement_Assumption] written 0, failed 1; AI calls today 15/100000
 11-10 00:10:16   [Course_of_Action] repaired Short_Tricks_hi.txt (4810 chars)
 11-10 00:10:16   [Course_of_Action] written 1, failed 0; AI calls today 16/100000
@@ -84,4 +81,7 @@
 11-10 00:18:14   [Mirror_Water_Images] written 1, failed 0; AI calls today 21/100000
 11-10 00:18:14 NOT OK 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images after 8 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (42']
 11-10 00:18:17 worker 4: nothing left
+11-10 00:23:23   [Dictionary_Order] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+11-10 00:25:25   [Dictionary_Order] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+11-10 00:25:25   [Dictionary_Order] written 2, failed 0; AI calls today 23/100000
 ```
