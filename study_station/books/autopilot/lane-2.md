@@ -42,7 +42,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 16:03:43 worker 2: nothing left
 10-10 16:04:01   [Probability] Practice_en_Set_06.txt try 4: rejected (parsed 22 questions, numbers 126…150)
 10-10 16:04:01   [Probability] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
 10-10 16:04:01   [Probability] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
@@ -82,4 +81,5 @@
 10-10 16:55:49   [Probability] written 0, failed 10; AI calls today 72/100000
 10-10 16:55:49 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability after 52 min: todo ['Set 02 en: todo', 'Set 02 hi: todo', 'Set 03 en: todo', 'Set 03 hi: todo'] problems ['Flashcards_hi.txt: Hindi file is mostly not in Hindi', 'Flashcards_hi.txt: much shorter than the English section (46', 'Short_Tricks_hi.txt: much shorter than the English section (']
 10-10 16:55:54 worker 4: nothing left
+10-10 17:10:51 autopilot end: done 0, failed 6
 ```
