@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 11:05 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 10:31 AM
+**आख़िरी update:** 10-10-2026 11:06 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 10:31 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 8 मिनट |
-| W2 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 33 मिनट |
-| W5 | Chapter 20 Mirror Water Images (12th Reasoning) | 🔧 सुधार रहा है | 9 मिनट |
-| W6 | Chapter 22 Figure Series (12th Reasoning) | 🔎 review हो रहा है | 13 मिनट |
-| W8 | Chapter 25 Statement Argument (12th Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 9 मिनट |
+| W2 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 34 मिनट |
+| W5 | Chapter 20 Mirror Water Images (12th Reasoning) | 🔧 सुधार रहा है | 10 मिनट |
+| W6 | Chapter 22 Figure Series (12th Reasoning) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,6 +33,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 10-10 11:06 — 12th Reasoning · Chapter 22 Figure Series
 - 10-10 11:05 — 12th Reasoning · Chapter 25 Statement Argument
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
@@ -46,10 +46,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 10:43:13   [Statement_Argument] written 2, failed 0; AI calls today 30/100000
-10-10 10:43:24   [Sitting_Arrangement] Practice_en_Set_02.txt try 2: re-solve disagrees (Q27 key c vs re-solve d, Q28 key a vs re-solve b, Q45 key b vs re-solve d)
-10-10 10:45:11   [Statement_Argument] repaired PYQ_hi.txt (7841 chars)
-10-10 10:45:11   [Statement_Argument] written 1, failed 0; AI calls today 32/100000
 10-10 10:45:56   [Statement_Argument] review Content_en.txt: 3 issue(s): - Invented statistic "90% of weak arguments fall into one of them" → Replace with "Most weak arguments fall into on
 10-10 10:46:25   [Figure_Series] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 10-10 10:48:05   [Statement_Argument] review Content_hi.txt: 2 issue(s): - खंड 6, बिंदु 2 में दावा कि "कुछ परीक्षाओं में 'या तो तर्क I या तर्क II मज़बूत है' विकल्प आता है" → लक्षित परीक्षा
@@ -86,4 +82,8 @@
 10-10 11:05:22   [Statement_Argument] review: 4 section(s) corrected, 0 failed
 10-10 11:05:22   [Statement_Argument] written 4, failed 0; AI calls today 86/100000
 10-10 11:05:35   [Figure_Series] review Important_Rules_hi.txt: 1 issue(s): - तत्वों का योग/विलोपन नियम का उदाहरण गलत है: △ → ⬠ → ⬡ भुजाओं की संख्या बढ़ाता है, न कि रेखा जोड़ता/हटाता 
+10-10 11:05:41 DONE 12th_Level/Reasoning/Chapter_25_Statement_Argument in 33 min → ad72fead
+10-10 11:05:45 worker 7: nothing left
+10-10 11:06:20   [Figure_Series] review: 5 section(s) corrected, 0 failed
+10-10 11:06:20   [Figure_Series] written 5, failed 0; AI calls today 88/100000
 ```
