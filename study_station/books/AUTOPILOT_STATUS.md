@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 04:39 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:34 AM
+**आख़िरी update:** 10-10-2026 04:54 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:34 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W5 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 238 मिनट |
+| W5 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 253 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -51,10 +51,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 15:00:25   [Logical_Consistency] Practice_en_Set_06.txt try 1: re-solve disagrees (Q136 key d vs re-solve a, Q146 key c vs re-solve a)
-10-10 15:01:10   [Data_Sufficiency] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-10-10 15:01:10   [Data_Sufficiency] written 2, failed 0; AI calls today 350/100000
-10-10 15:01:47   [Advanced_Puzzles] Practice_en_Set_03.txt try 3: re-solve disagrees (Q52 key a vs re-solve d)
 10-10 15:03:20   [Advanced_Puzzles] Practice_en_Set_03.txt try 4: rejected (parsed 0 questions, numbers -…-)
 10-10 15:03:20   [Advanced_Puzzles] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
 10-10 15:03:20   [Advanced_Puzzles] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
@@ -91,4 +87,8 @@
 10-10 15:57:44   [Advanced_Puzzles] Practice_en_Set_05.txt try 1: rejected (Q101:leaked_reasoning,Q108:leaked_reasoning,Q110:leaked_reasoning)
 10-10 16:14:18   [Advanced_Puzzles] Practice_en_Set_05.txt try 2: re-solve disagrees (Q101 key d vs re-solve b)
 10-10 16:27:52   [Advanced_Puzzles] Practice_en_Set_05.txt try 3: re-solve disagrees (Q101 key c vs re-solve b)
+10-10 16:43:58   [Advanced_Puzzles] Practice_en_Set_05.txt try 4: re-solve disagrees (Q101 key d vs re-solve b, Q105 key a vs re-solve c, Q121 key a vs re-solve b)
+10-10 16:43:58   [Advanced_Puzzles] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
+10-10 16:43:58   [Advanced_Puzzles] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
+10-10 16:54:17   [Advanced_Puzzles] Practice_en_Set_06.txt try 1: rejected (Q126:leaked_reasoning,Q129:leaked_reasoning,Q131:leaked_reasoning,Q132:leaked_reasoning,Q133:leaked_reasoning)
 ```
