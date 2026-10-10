@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 10-10-2026 06:19 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:17 AM
+**आख़िरी update:** 10-10-2026 06:34 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:17 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Noun (10th English) | 🔧 सुधार रहा है | 1 मिनट |
-| W2 | Chapter 03 Adjective (10th English) | 🔧 सुधार रहा है | 0 मिनट |
-| W3 | Chapter 04 Verb (10th English) | 🔧 सुधार रहा है | 0 मिनट |
-| W4 | Chapter 18 Trigonometry (10th Maths) | 🔧 सुधार रहा है | 0 मिनट |
-| W5 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 0 मिनट |
+| W4 | Chapter 18 Trigonometry (10th Maths) | 🔧 सुधार रहा है | 15 मिनट |
+| W5 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 15 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -22,31 +19,67 @@
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 20 | 2 | 0 |
 | 10th English | 17 | 3 | 0 |
-| 12th Maths | 18 | 0 | 5 |
+| 12th Maths | 19 | 0 | 4 |
 | 12th GK | 22 | 0 | 2 |
-| 12th Reasoning | 10 | 0 | 15 |
+| 12th Reasoning | 11 | 0 | 14 |
 | 12th English | 25 | 0 | 0 |
-| Graduation Maths | 14 | 0 | 14 |
+| Graduation Maths | 16 | 0 | 12 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 13 | 0 | 17 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **236** | **5** | **55** |
+| **कुल** | **240** | **5** | **51** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
 - अभी कोई नहीं
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 04 Verb (English) — 2 बार
+- Chapter 03 Adjective (English) — 2 बार
+- Chapter 01 Noun (English) — 2 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 06:17:59 autopilot start: 8 workers, reverse=True
-10-10 06:17:59 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_01_Noun (FIX: todo 0, problems 4)
-10-10 06:18:04 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective (FIX: todo 0, problems 1)
-10-10 06:18:09 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb (FIX: todo 0, problems 1)
-10-10 06:18:15 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_18_Trigonometry (FIX: todo 0, problems 18)
-10-10 06:18:20 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_21_Probability (FIX: todo 0, problems 12)
-10-10 06:18:25 worker 5: nothing left
-10-10 06:18:30 worker 6: nothing left
-10-10 06:18:35 worker 7: nothing left
-10-10 06:18:46   [Noun] set 01 try 1: rejected (Q20:duplicate_options)
+10-10 06:25:00 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb after 3 min: todo [] problems ['Set 01 hi: English sentence translated (keep it in English) ']
+10-10 06:25:02 worker 2: nothing left
+10-10 06:25:05   [Noun] set 01 try 4: rejected (parsed 0 questions, numbers -…-)
+10-10 06:25:05   [Noun] FAILED set 01: no version passed the checks — files left as they were
+10-10 06:25:05   [Noun] written 0, failed 1; AI calls today 21/100000
+10-10 06:26:04   [Trigonometry] repaired Short_Tricks_hi.txt (9898 chars)
+10-10 06:26:15   [Noun] set 01 try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 06:27:12   [Noun] set 01 try 2: rejected (Q20:duplicate_options)
+10-10 06:27:34   [Adjective] FAILED set 03: re-translation still changes English sentences — left as it was
+10-10 06:27:34   [Adjective] written 0, failed 1; AI calls today 26/100000
+10-10 06:27:34 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective after 4 min: todo [] problems ['Set 03 hi: English sentence translated (keep it in English) ']
+10-10 06:27:35 worker 1: nothing left
+10-10 06:27:49   [Noun] set 01 try 3: rejected (Q20:duplicate_options)
+10-10 06:28:28   [Noun] set 01 try 4: rejected (Q20:duplicate_options)
+10-10 06:28:28   [Noun] FAILED set 01: no version passed the checks — files left as they were
+10-10 06:28:28   [Noun] written 0, failed 1; AI calls today 28/100000
+10-10 06:28:28 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_01_Noun after 10 min: todo [] problems ['Set 01 en: Q20:duplicate_options', 'Set 01 en: answers not spread (one letter is correct in >15 ', 'Set 01 hi: Q20:duplicate_options', 'Set 01 hi: answers not spread (one letter is correct in >15 ']
+10-10 06:28:28 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_01_Noun (FIX: todo 0, problems 4)
+10-10 06:28:45   [Probability] repaired set 01 (en + hi, key confirmed by an independent re-solve)
+10-10 06:28:51   [Trigonometry] repaired set 01 (en + hi, key confirmed by an independent re-solve)
+10-10 06:28:57   [Trigonometry] set 02 try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 06:29:05   [Noun] set 01 try 1: rejected (Q20:duplicate_options)
+10-10 06:29:20   [Noun] set 01 try 2: rejected (parsed 0 questions, numbers -…-)
+10-10 06:30:07   [Trigonometry] set 02 try 2: rejected (parsed 24 questions, numbers 26…50)
+10-10 06:30:14   [Noun] set 01 try 3: rejected (Q20:duplicate_options)
+10-10 06:30:52   [Noun] set 01 try 4: rejected (Q20:duplicate_options)
+10-10 06:30:52   [Noun] FAILED set 01: no version passed the checks — files left as they were
+10-10 06:30:52   [Noun] written 0, failed 1; AI calls today 36/100000
+10-10 06:31:20   [Trigonometry] set 02 try 3: rejected (parsed 0 questions, numbers -…-)
+10-10 06:31:32   [Probability] set 02 try 1: rejected (parsed 23 questions, numbers 26…50)
+10-10 06:31:39   [Noun] set 01 try 1: rejected (Q20:duplicate_options)
+10-10 06:32:23   [Noun] set 01 try 2: rejected (Q20:duplicate_options)
+10-10 06:32:25   [Trigonometry] set 02 try 4: rejected (parsed 24 questions, numbers 26…50)
+10-10 06:32:25   [Trigonometry] FAILED set 02: no version passed the checks — files left as they were
+10-10 06:33:38   [Noun] set 01 try 3: rejected (Q20:duplicate_options)
+10-10 06:34:08   [Noun] set 01 try 4: rejected (Q20:duplicate_options)
+10-10 06:34:08   [Noun] FAILED set 01: no version passed the checks — files left as they were
+10-10 06:34:09   [Noun] written 0, failed 1; AI calls today 44/100000
+10-10 06:34:09 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_01_Noun after 6 min: todo [] problems ['Set 01 en: Q20:duplicate_options', 'Set 01 en: answers not spread (one letter is correct in >15 ', 'Set 01 hi: Q20:duplicate_options', 'Set 01 hi: answers not spread (one letter is correct in >15 ']
+10-10 06:34:10 worker 0: nothing left
 ```
