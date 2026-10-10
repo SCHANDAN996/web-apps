@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 11-10-2026 04:16 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:59 AM
+**आख़िरी update:** 11-10-2026 04:31 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:59 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,12 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | 🔧 सुधार रहा है | 16 मिनट |
-| W2 | Chapter 13 Dictionary Order (12th Reasoning) | 🔎 review हो रहा है | 16 मिनट |
-| W3 | Chapter 16 Statement Conclusion (12th Reasoning) | 🔧 सुधार रहा है | 16 मिनट |
-| W4 | Chapter 17 Course of Action (12th Reasoning) | 🔧 सुधार रहा है | 3 मिनट |
-| W5 | Chapter 20 Mirror Water Images (12th Reasoning) | 🔧 सुधार रहा है | 16 मिनट |
-| W6 | Chapter 24 Statement Assumption (12th Reasoning) | 🔧 सुधार रहा है | 15 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | 🔧 सुधार रहा है | 8 मिनट |
+| W2 | Chapter 13 Dictionary Order (12th Reasoning) | 🔎 review हो रहा है | 31 मिनट |
+| W3 | Chapter 16 Statement Conclusion (12th Reasoning) | 🔧 सुधार रहा है | 8 मिनट |
+| W4 | Chapter 17 Course of Action (12th Reasoning) | 🔧 सुधार रहा है | 18 मिनट |
+| W5 | Chapter 20 Mirror Water Images (12th Reasoning) | 🔧 सुधार रहा है | 7 मिनट |
+| W6 | Chapter 24 Statement Assumption (12th Reasoning) | 🔧 सुधार रहा है | 7 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,6 +37,10 @@
 
 - अभी कोई नहीं
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 24 Statement Assumption (Reasoning) — 1 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
@@ -52,4 +56,18 @@
 11-10 04:03:15   [Dictionary_Order] review Flashcards_en.txt: 1 issue(s): - Card 14 claims "M is the middle letter of the alphabet (13 letters before it, 13 after it)" → M is the 13th le
 11-10 04:12:30   [Course_of_Action] repaired Short_Tricks_hi.txt (4822 chars)
 11-10 04:12:30   [Course_of_Action] written 1, failed 0; AI calls today 12/100000
+11-10 04:18:56   [Statement_Assumption] FAILED Short_Tricks_hi.txt: network
+11-10 04:18:56   [Statement_Assumption] written 0, failed 1; AI calls today 12/100000
+11-10 04:23:16   [Sitting_Arrangement] FAILED Short_Tricks_hi.txt: network
+11-10 04:23:16   [Sitting_Arrangement] written 0, failed 1; AI calls today 12/100000
+11-10 04:23:26   [Statement_Conclusion] FAILED Flashcards_hi.txt: network
+11-10 04:23:26   [Statement_Conclusion] written 0, failed 1; AI calls today 12/100000
+11-10 04:23:36   [Mirror_Water_Images] FAILED Flashcards_hi.txt: network
+11-10 04:23:36   [Mirror_Water_Images] written 0, failed 1; AI calls today 12/100000
+11-10 04:24:21   [Statement_Assumption] repaired Short_Tricks_hi.txt (4510 chars)
+11-10 04:24:21   [Statement_Assumption] written 1, failed 0; AI calls today 13/100000
+11-10 04:24:21 NOT OK 12th_Level/Reasoning/Chapter_24_Statement_Assumption after 24 min: todo [] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
+11-10 04:24:24 START 12th_Level/Reasoning/Chapter_24_Statement_Assumption (FIX: todo 0, problems 1)
+11-10 04:26:39   [Dictionary_Order] FAILED review Flashcards_en.txt: network — the chapter must not be published unreviewed
+11-10 04:28:49   [Dictionary_Order] review PYQ_hi.txt: 1 issue(s): - Question 6 answer and reasoning are incorrect: the second word in dictionary order is QUIET, not QUICK → Correct answ
 ```
