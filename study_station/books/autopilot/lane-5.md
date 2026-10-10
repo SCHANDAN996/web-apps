@@ -1,15 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 11-10-2026 01:05 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 12:34 AM
+**आख़िरी update:** 11-10-2026 01:21 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 12:34 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W1 | Chapter 03 Adjective (10th English) | 🔧 सुधार रहा है | 9 मिनट |
-| W2 | Chapter 04 Verb (10th English) | 🔧 सुधार रहा है | 10 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -35,8 +32,8 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 03 Adjective (English) — 1 बार
-- Chapter 04 Verb (English) — 1 बार
+- Chapter 03 Adjective (English) — 2 बार
+- Chapter 04 Verb (English) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
@@ -70,4 +67,9 @@
 11-10 01:06:03   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
 11-10 01:06:03   [Verb] written 0, failed 1; AI calls today 9/100000
 11-10 01:06:03 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb after 16 min: todo [] problems ['Set 01 hi: English sentence translated (keep it in English) ']
+11-10 01:06:07 worker 1: nothing left
+11-10 01:18:37   [Adjective] FAILED set 03: network
+11-10 01:18:37   [Adjective] written 0, failed 1; AI calls today 8/100000
+11-10 01:18:37 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective after 35 min: todo [] problems ['Set 03 hi: English sentence translated (keep it in English) ']
+11-10 01:18:40 worker 0: nothing left
 ```
