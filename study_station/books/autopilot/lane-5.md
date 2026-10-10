@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 10-10-2026 06:34 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:17 AM
+**आख़िरी update:** 10-10-2026 06:49 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:17 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W4 | Chapter 18 Trigonometry (10th Maths) | 🔧 सुधार रहा है | 15 मिनट |
-| W5 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 15 मिनट |
+| W4 | Chapter 18 Trigonometry (10th Maths) | 🔧 सुधार रहा है | 31 मिनट |
+| W5 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 31 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -42,11 +42,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 06:25:00 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb after 3 min: todo [] problems ['Set 01 hi: English sentence translated (keep it in English) ']
-10-10 06:25:02 worker 2: nothing left
-10-10 06:25:05   [Noun] set 01 try 4: rejected (parsed 0 questions, numbers -…-)
-10-10 06:25:05   [Noun] FAILED set 01: no version passed the checks — files left as they were
-10-10 06:25:05   [Noun] written 0, failed 1; AI calls today 21/100000
 10-10 06:26:04   [Trigonometry] repaired Short_Tricks_hi.txt (9898 chars)
 10-10 06:26:15   [Noun] set 01 try 1: rejected (parsed 0 questions, numbers -…-)
 10-10 06:27:12   [Noun] set 01 try 2: rejected (Q20:duplicate_options)
@@ -82,4 +77,9 @@
 10-10 06:34:09   [Noun] written 0, failed 1; AI calls today 44/100000
 10-10 06:34:09 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_01_Noun after 6 min: todo [] problems ['Set 01 en: Q20:duplicate_options', 'Set 01 en: answers not spread (one letter is correct in >15 ', 'Set 01 hi: Q20:duplicate_options', 'Set 01 hi: answers not spread (one letter is correct in >15 ']
 10-10 06:34:10 worker 0: nothing left
+10-10 06:37:03   [Trigonometry] repaired set 03 (en + hi, key confirmed by an independent re-solve)
+10-10 06:42:33   [Trigonometry] repaired set 04 (en + hi, key confirmed by an independent re-solve)
+10-10 06:45:28   [Probability] FAILED set 02: too_long
+10-10 06:47:20   [Probability] set 03 try 1: rejected (parsed 23 questions, numbers 51…75)
+10-10 06:47:58   [Trigonometry] repaired set 05 (en + hi, key confirmed by an independent re-solve)
 ```
