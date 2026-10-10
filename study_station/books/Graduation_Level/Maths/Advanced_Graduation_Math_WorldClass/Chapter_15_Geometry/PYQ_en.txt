@@ -1,0 +1,105 @@
+# 📊 PYQ Analysis — Geometry (Advanced Level)
+
+## How Exams Test Geometry
+
+Geometry questions in UPSC CSAT, SSC CGL Tier-II, IBPS PO Mains and CAT follow remarkably stable patterns. Examiners rarely ask you to merely recall a formula — they wrap formulas inside **multi-step situations** where the real test is choosing the right theorem quickly.
+
+**The recurring question families:**
+
+1. **Triangle centres and side relations** — circumradius, inradius, medians, angle bisectors. The trap: confusing which centre divides what in which ratio.
+2. **Similarity and congruence** — hidden similar triangles inside circles, ladders against walls, shadows. The trap: assuming similarity without establishing the angle equality.
+3. **Circle theorems** — angle in a semicircle, alternate segment theorem, cyclic quadrilaterals, tangent-secant relations. The trap: the "almost right angle" that isn't subtended by a diameter.
+4. **Mensuration hybrids** — area of shaded regions (circle minus triangle, sector minus segment). The trap: computing a full area when only a fraction is asked.
+5. **Coordinate-free locus thinking** — "a point moves so that…" The trap: over-calculating when a one-line locus argument solves it.
+6. **Quadrilateral properties** — parallelogram diagonal relations, trapezium mid-segment. The trap: applying parallelogram rules to a general quadrilateral.
+
+**The examiner's favourite psychological hooks:**
+
+- **The near-miss statement**: "The angle subtended by a chord at the centre is equal to the angle at the circumference" — missing the word *twice*. Read every word.
+- **The diagram that lies**: figures are not to scale. An angle that looks like 90° is 90° only if stated or provable.
+- **The unit switch**: radius given in cm, answer options in m²; or π = 22/7 expected when you used 3.14.
+- **The negative question**: "Which of the following is NOT true…" — under time pressure, candidates pick the first true statement.
+- **The redundant data**: extra lengths or angles inserted to make you doubt the short solution.
+
+---
+
+## Top 10 High-Yield Questions (with Solutions)
+
+**Q1.** In a triangle ABC, the angle bisector of ∠A meets BC at D. If AB = 8 cm, AC = 6 cm and BC = 7 cm, find BD.
+(a) 3 cm (b) 3.5 cm (c) 4 cm (d) 4.5 cm
+**Answer: (c)**
+**Solution:** By the Angle Bisector Theorem, BD : DC = AB : AC = 8 : 6 = 4 : 3. Since BD + DC = 7, BD = (4/7) × 7 = 4 cm.
+**Hook:** Candidates often split BC equally (3.5 cm) assuming the bisector hits the midpoint — it does so only when AB = AC.
+**Source:** PYQ-style (Angle Bisector Theorem; NCERT Class 10 Triangles)
+
+**Q2.** Two circles of radii 5 cm and 3 cm touch each other externally. The length of their direct common tangent is:
+(a) 8 cm (b) √60 cm (c) √15 cm (d) 15 cm
+**Answer: (b)**
+**Solution:** For externally touching circles, direct common tangent = 2√(r₁r₂) = 2√(5×3) = 2√15 = √60 cm.
+**Hook:** Option (a) tempts those who add radii (5+3 = 8, which is the *distance between centres*, not the tangent).
+**Source:** PYQ-style (standard circle theorem)
+
+**Q3.** In a cyclic quadrilateral ABCD, ∠A = 75°. Then ∠C equals:
+(a) 75° (b) 105° (c) 115° (d) 95°
+**Answer: (b)**
+**Solution:** Opposite angles of a cyclic quadrilateral are supplementary: ∠C = 180° − 75° = 105°.
+**Hook:** Option (a) traps those who confuse cyclic quadrilaterals with parallelograms (where opposite angles are equal).
+**Source:** NCERT Class 9–10 (Circles)
+
+**Q4.** The medians of a triangle meet at G. If the area of the triangle is 84 cm², the area of the triangle formed by joining the midpoints of the sides is:
+(a) 42 cm² (b) 28 cm² (c) 21 cm² (d) 14 cm²
+**Answer: (c)**
+**Solution:** The medial triangle has sides half of the original, so its area is (1/2)² = 1/4 of the original: 84/4 = 21 cm². (G is irrelevant data.)
+**Hook:** The mention of centroid G is **redundant data** — it pushes candidates toward the 1:2 centroid ratio, which has nothing to do with the question.
+**Source:** PYQ-style (Midpoint Theorem; NCERT Class 9)
+
+**Q5.** A ladder 13 m long leans against a wall, its foot 5 m from the wall. If the foot slides 1 m further out, how far does the top slide down?
+(a) 1 m (b) 2 m (c) 7 − √133 m (d) 12 − √133 m
+**Answer: (d)**
+**Solution:** Initially, height = √(13² − 5²) = √144 = 12 m. After sliding, base = 6 m, height = √(169 − 36) = √133 m. Drop = 12 − √133 m.
+**Hook:** Option (a) exploits the intuition that sliding 1 m at the bottom means 1 m at the top — false because the ladder's length is fixed and the geometry is nonlinear.
+**Source:** PYQ-style (Pythagoras; NCERT Class 10)
+
+**Q6.** PA and PB are tangents from an external point P to a circle with centre O. If ∠APB = 60°, then ∠AOB equals:
+(a) 60° (b) 90° (c) 120° (d) 150°
+**Answer: (c)**
+**Solution:** Radius is perpendicular to tangent, so ∠OAP = ∠OBP = 90°. In quadrilateral OAPB: ∠AOB = 360° − 90° − 90° − 60° = 120°.
+**Hook:** Many assume ∠AOB = ∠APB (option a) by a false symmetry argument.
+**Source:** NCERT Class 10 (Circles, tangent properties)
+
+**Q7.** The sides of a triangle are 13, 14 and 15. Its area is:
+(a) 84 (b) 90 (c) 96 (d) 105
+**Answer: (a)**
+**Solution:** s = (13+14+15)/2 = 21. Area = √[21(21−13)(21−14)(21−15)] = √(21×8×7×6) = √7056 = 84.
+**Hook:** The 13-14-15 triangle is a classic exam favourite precisely because Heron's formula gives a clean answer — memorising it saves 90 seconds. Candidates who attempt height-based methods waste time.
+**Source:** PYQ-style (Heron's formula; NCERT Class 9)
+
+**Q8.** In a circle, chord AB subtends ∠ACB = 40° at the circumference. The angle subtended by AB at the centre is:
+(a) 40° (b) 80° (c) 100° (d) 140°
+**Answer: (b)**
+**Solution:** Angle at centre = 2 × angle at circumference (same arc) = 2 × 40° = 80°.
+**Hook:** Option (a) is the classic near-miss — the theorem says *twice*, and examiners count on hasty reading.
+**Source:** NCERT Class 9 (Circles)
+
+**Q9.** A square is inscribed in a circle of radius r. The ratio of the area of the circle to the area of the square is:
+(a) π : 2 (b) π : 4 (c) 2 : π (d) π : 1
+**Answer: (a)**
+**Solution:** Diagonal of square = 2r, so side = r√2 and area = 2r². Circle area = πr². Ratio = πr² : 2r² = π : 2.
+**Hook:** Options (b) and (d) trap those who take the side as r or 2r instead of r√2 — the diagonal, not the radius, determines the side.
+**Source:** PYQ-style (inscribed figures; NCERT Class 10)
+
+**Q10.** In triangle ABC, D and E are midpoints of AB and AC. If DE = 6 cm and the area of triangle ADE is 9 cm², the area of trapezium DECB is:
+(a) 18 cm² (b) 27 cm² (c) 36 cm² (d) 45 cm²
+**Answer: (b)**
+**Solution:** By the Midpoint Theorem, DE ∥ BC and BC = 2·DE, so △ADE ~ △ABC with ratio 1:2, hence areas 1:4. Area of ABC = 36 cm², so trapezium DECB = 36 − 9 = 27 cm².
+**Hook:** Option (c) is the area of the *whole* triangle — the question asks only for the trapezium. Always re-read what region is demanded.
+**Source:** PYQ-style (Midpoint Theorem + similarity; NCERT Class 9–10)
+
+---
+
+## Strategy Takeaways
+
+- **Master five theorems cold**: Pythagoras, Angle Bisector, Midpoint, angle-at-centre = 2 × angle-at-circumference, tangent ⊥ radius. Most geometry MCQs reduce to one of these.
+- **Draw your own figure** when none is given; never trust the printed figure's proportions.
+- **Check units and what is asked** (whole area vs shaded area, radius vs diameter) before marking.
+- **15/45-second rule**: if the theorem is visible in 15 seconds, solve; if the figure needs construction, mark and return within 45 seconds of thought.

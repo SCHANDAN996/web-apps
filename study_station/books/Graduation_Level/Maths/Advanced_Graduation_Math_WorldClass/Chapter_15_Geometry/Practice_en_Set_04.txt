@@ -1,0 +1,149 @@
+76. In a triangle ABC, the sides are AB = 13 cm, BC = 14 cm and CA = 15 cm. What is the area of the triangle?
+(a) 78 cm² (b) 90 cm² (c) 84 cm² (d) 96 cm²
+Answer: (c)
+Solution: The tempting wrong option 90 comes from taking (13 × 14)/2, wrongly assuming a right angle. Use Heron's formula: s = (13 + 14 + 15)/2 = 21. Area = √[21 × 8 × 7 × 6] = √7056 = 84 cm², so the answer is 84 cm².
+Source: NCERT Class 9 Mathematics (Heron's Formula)
+
+77. The angles of a quadrilateral are in the ratio 2 : 3 : 4 : 6. What is the measure of the largest angle?
+(a) 144° (b) 120° (c) 132° (d) 156°
+Answer: (a)
+Solution: The trap option 120° comes from dividing 360° by 3 instead of using the ratio sum. Sum of ratio parts = 2 + 3 + 4 + 6 = 15, and the angle sum of a quadrilateral is 360°. Largest angle = (6/15) × 360° = 144°, so the answer is 144°.
+Source: NCERT Class 9 Mathematics (Quadrilaterals)
+
+78. Two circles of radii 5 cm and 3 cm touch each other externally. What is the distance between their centres?
+(a) 2 cm (b) 8 cm (c) 15 cm (d) 4 cm
+Answer: (b)
+Solution: The tempting option 2 cm is the difference of radii, which applies to internal touching, not external. For external contact, distance between centres = sum of radii = 5 + 3 = 8 cm, so the answer is 8 cm.
+Source: NCERT Class 10 Mathematics (Circles)
+
+79. In a circle of radius 10 cm, a chord of length 16 cm is drawn. What is the perpendicular distance of the chord from the centre?
+(a) 8 cm (b) 6 cm (c) 5 cm (d) 7 cm
+Answer: (b)
+Solution: The trap option 8 cm is half the chord, which students often report directly without applying Pythagoras. The perpendicular from the centre bisects the chord, giving a right triangle with hypotenuse 10 and base 8. Distance = √(100 − 64) = √36 = 6 cm, so the answer is 6 cm.
+Source: NCERT Class 9 Mathematics (Circles)
+
+80. The diagonals of a rhombus are 24 cm and 10 cm. What is the length of each side of the rhombus?
+(a) 17 cm (b) 15 cm (c) 13 cm (d) 12 cm
+Answer: (c)
+Solution: The tempting option 17 cm comes from using the full diagonals (24 and 10) in Pythagoras instead of their halves. Diagonals of a rhombus bisect each other at right angles, so side = √(12² + 5²) = √(144 + 25) = √169 = 13 cm, so the answer is 13 cm.
+Source: NCERT Class 9 Mathematics (Quadrilaterals)
+
+81. The exterior angle of a regular polygon is 40°. How many sides does the polygon have?
+(a) 8 (b) 10 (c) 12 (d) 9
+Answer: (d)
+Solution: The trap option 8 comes from dividing 360° by 45°, confusing exterior with interior angle. Number of sides = 360°/exterior angle = 360/40 = 9, so the answer is 9.
+Source: NCERT Class 8 Mathematics (Understanding Quadrilaterals)
+
+82. In triangle ABC, angle A = 50° and angle B = 60°. The bisectors of angles B and C meet at point O. What is angle BOC?
+(a) 125° (b) 115° (c) 110° (d) 120°
+Answer: (b)
+Solution: The tempting option 120° comes from using 90° + A/2 with A wrongly taken as 60°. Angle C = 180° − 50° − 60° = 70°. The incentre formula gives angle BOC = 90° + A/2 = 90° + 25° = 115°, so the answer is 115°.
+Source: NCERT Class 9 Mathematics (Triangles)
+
+83. A tangent is drawn from an external point to a circle of radius 6 cm. If the distance of the point from the centre is 10 cm, what is the length of the tangent?
+(a) 6 cm (b) 7 cm (c) 9 cm (d) 8 cm
+Answer: (d)
+Solution: The trap option 6 cm is just the radius, which students pick when they forget the right triangle. Tangent is perpendicular to the radius, so tangent length = √(10² − 6²) = √64 = 8 cm, so the answer is 8 cm.
+Source: NCERT Class 10 Mathematics (Circles)
+
+84. The ratio of the areas of two similar triangles is 16 : 25. What is the ratio of their corresponding sides?
+(a) 4 : 5 (b) 16 : 25 (c) 8 : 12.5 (d) 256 : 625
+Answer: (a)
+Solution: The tempting option 16 : 25 is the area ratio itself, which students report when they forget to take the square root. For similar triangles, ratio of areas = square of ratio of sides, so sides ratio = √16 : √25 = 4 : 5, so the answer is 4 : 5.
+Source: NCERT Class 10 Mathematics (Triangles)
+
+85. In a parallelogram ABCD, angle A = 70°. What is angle C?
+(a) 110° (b) 140° (c) 90° (d) 70°
+Answer: (d)
+Solution: The tempting option 110° is the adjacent angle B, which students give when they confuse opposite with adjacent angles. In a parallelogram, opposite angles are equal, so angle C = angle A = 70°, so the answer is 70°.
+Source: NCERT Class 9 Mathematics (Quadrilaterals)
+
+86. An isosceles triangle has two equal sides of 10 cm each and a base of 12 cm. What is its area?
+(a) 60 cm² (b) 48 cm² (c) 40 cm² (d) 54 cm²
+Answer: (b)
+Solution: The trap option 60 cm² comes from (12 × 10)/2, using a slant side as the height. The altitude bisects the base: height = √(10² − 6²) = √64 = 8 cm. Area = (1/2) × 12 × 8 = 48 cm², so the answer is 48 cm².
+Source: NCERT Class 9 Mathematics (Heron's Formula)
+
+87. The angle subtended by an arc at the centre of a circle is 100°. What angle does the same arc subtend at any point on the remaining part of the circle?
+(a) 50° (b) 100° (c) 200° (d) 25°
+Answer: (a)
+Solution: The tempting option 100° assumes the angle is the same everywhere, ignoring the central angle theorem. The angle at the centre is double the angle at the circumference, so the required angle = 100°/2 = 50°, so the answer is 50°.
+Source: NCERT Class 9 Mathematics (Circles)
+
+88. A ladder 13 m long leans against a wall, with its foot 5 m from the wall. How high up the wall does the ladder reach?
+(a) 12 m (b) 10 m (c) 11 m (d) 8 m
+Answer: (a)
+Solution: The trap option 10 m comes from halving the ladder length instead of applying Pythagoras. Height = √(13² − 5²) = √(169 − 25) = √144 = 12 m, so the answer is 12 m.
+Source: NCERT Class 10 Mathematics (Triangles / Pythagoras)
+
+89. The sum of the interior angles of a polygon is 1260°. How many sides does it have?
+(a) 7 (b) 9 (c) 8 (d) 10
+Answer: (b)
+Solution: The tempting option 7 comes from dividing 1260 by 180 and forgetting to add 2. Using (n − 2) × 180° = 1260°, we get n − 2 = 7, so n = 9, so the answer is 9.
+Source: NCERT Class 8 Mathematics (Understanding Quadrilaterals)
+
+90. In triangle PQR, PQ = PR and angle Q = 65°. What is angle P?
+(a) 65° (b) 55° (c) 50° (d) 60°
+Answer: (c)
+Solution: The trap option 65° assumes all angles equal, treating the triangle as equilateral. Since PQ = PR, angles opposite them are equal: angle R = angle Q = 65°. Then angle P = 180° − 130° = 50°, so the answer is 50°.
+Source: NCERT Class 9 Mathematics (Triangles)
+
+91. Two parallel chords of lengths 6 cm and 8 cm lie on the same side of the centre of a circle of radius 5 cm. What is the distance between the chords?
+(a) 2 cm (b) 4 cm (c) 3 cm (d) 1 cm
+Answer: (d)
+Solution: The tempting option 2 cm comes from subtracting the half-chords (4 − 3) instead of the distances from the centre. Distances from centre: √(25 − 9) = 4 cm for the 6 cm chord and √(25 − 16) = 3 cm for the 8 cm chord. Since both are on the same side, distance between them = 4 − 3 = 1 cm, so the answer is 1 cm.
+Source: NCERT Class 9 Mathematics (Circles)
+
+92. The perimeter of an equilateral triangle is 36 cm. What is its area?
+(a) 30√3 cm² (b) 24√3 cm² (c) 48√3 cm² (d) 36√3 cm²
+Answer: (d)
+Solution: The trap option 24√3 comes from using side 8 cm by misdividing the perimeter. Side = 36/3 = 12 cm. Area = (√3/4) × 12² = (√3/4) × 144 = 36√3 cm², so the answer is 36√3 cm².
+Source: NCERT Class 9 Mathematics (Heron's Formula)
+
+93. In a right-angled triangle, the hypotenuse is 25 cm and one leg is 7 cm. What is the length of the other leg?
+(a) 18 cm (b) 20 cm (c) 24 cm (d) 26 cm
+Answer: (c)
+Solution: The tempting option 18 cm comes from 25 − 7, subtracting instead of using Pythagoras. Other leg = √(25² − 7²) = √(625 − 49) = √576 = 24 cm, so the answer is 24 cm.
+Source: NCERT Class 10 Mathematics (Triangles / Pythagoras)
+
+94. ABCD is a cyclic quadrilateral. If angle A = 85°, what is angle C?
+(a) 85° (b) 95° (c) 105° (d) 90°
+Answer: (b)
+Solution: The trap option 85° assumes opposite angles are equal, which is true for a parallelogram, not a cyclic quadrilateral. Opposite angles of a cyclic quadrilateral are supplementary, so angle C = 180° − 85° = 95°, so the answer is 95°.
+Source: NCERT Class 9 Mathematics (Circles)
+
+95. The medians of a triangle meet at point G. If a median AD is 18 cm long, what is the length of AG?
+(a) 12 cm (b) 9 cm (c) 6 cm (d) 15 cm
+Answer: (a)
+Solution: The tempting option 9 cm is half the median, but the centroid divides the median in the ratio 2 : 1, not 1 : 1. AG = (2/3) × 18 = 12 cm, so the answer is 12 cm.
+Source: NCERT Class 10 Mathematics (Triangles)
+
+96. A regular hexagon has side 6 cm. What is its area?
+(a) 48√3 cm² (b) 36√3 cm² (c) 54√3 cm² (d) 60√3 cm²
+Answer: (c)
+Solution: The trap option 36√3 comes from computing only four of the six equilateral triangles. A regular hexagon = 6 equilateral triangles of side 6, so area = 6 × (√3/4) × 36 = 54√3 cm², so the answer is 54√3 cm².
+Source: NCERT Class 8 Mathematics (Mensuration)
+
+97. In triangle ABC, D and E are midpoints of AB and AC respectively. If BC = 14 cm, what is DE?
+(a) 7 cm (b) 14 cm (c) 10 cm (d) 28 cm
+Answer: (a)
+Solution: The tempting option 14 cm assumes DE equals BC, ignoring the midpoint theorem. By the midpoint theorem, the segment joining midpoints of two sides is parallel to and half of the third side: DE = 14/2 = 7 cm, so the answer is 7 cm.
+Source: NCERT Class 9 Mathematics (Triangles)
+
+98. The angle between two tangents drawn from an external point to a circle is 60°. What is the angle subtended by the chord joining the points of contact at the centre?
+(a) 120° (b) 60° (c) 90° (d) 150°
+Answer: (a)
+Solution: The trap option 60° assumes the central angle equals the angle between the tangents. The angle between the tangents and the central angle are supplementary (radius is perpendicular to tangent), so the central angle = 180° − 60° = 120°, so the answer is 120°.
+Source: NCERT Class 10 Mathematics (Circles)
+
+99. The sides of a triangle are 9 cm, 12 cm and 15 cm. What is the radius of its circumcircle?
+(a) 6 cm (b) 9 cm (c) 7.5 cm (d) 12 cm
+Answer: (c)
+Solution: The tempting option 6 cm is the inradius-style guess (area/s), but the question asks for the circumradius. Since 9² + 12² = 15², the triangle is right-angled, and the circumradius of a right triangle is half the hypotenuse = 15/2 = 7.5 cm, so the answer is 7.5 cm.
+Source: NCERT Class 9 Mathematics (Circles)
+
+100. In a trapezium, the parallel sides are 10 cm and 16 cm, and the distance between them is 6 cm. What is its area?
+(a) 96 cm² (b) 72 cm² (c) 84 cm² (d) 78 cm²
+Answer: (d)
+Solution: The trap option 96 cm² comes from 16 × 6, using only the longer parallel side. Area of trapezium = (1/2) × (sum of parallel sides) × height = (1/2) × (10 + 16) × 6 = 78 cm², so the answer is 78 cm².
+Source: NCERT Class 8 Mathematics (Mensuration)

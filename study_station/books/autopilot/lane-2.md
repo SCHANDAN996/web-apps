@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 133 मिनट |
-| W3 | Chapter 15 Geometry (Graduation Maths) | 🔎 review हो रहा है | 74 मिनट |
+| W2 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 134 मिनट |
+| W3 | Chapter 15 Geometry (Graduation Maths) | 📤 push हो रहा है | 0 मिनट |
 | W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 11 मिनट |
 | W8 | Chapter 27 Number Series (Graduation Maths) | 🔎 review हो रहा है | 95 मिनट |
 
@@ -33,6 +33,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 10-10 14:04 — Graduation Maths · Chapter 15 Geometry
 - 10-10 11:55 — Graduation Maths · Chapter 26 Permutation Combination
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
@@ -47,8 +48,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 12:56:09   [Trigonometry] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-10-10 12:56:09   [Trigonometry] written 0, failed 3; AI calls today 94/100000
 10-10 12:56:09 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_19_Trigonometry after 39 min: todo ['Set 05 hi: todo', 'Set 06 en: todo', 'Set 06 hi: todo'] problems []
 10-10 12:56:13 worker 3: nothing left
 10-10 12:56:16   [Probability] FAILED Practice_en_Set_04.txt: too_long
@@ -87,4 +86,6 @@
 10-10 14:02:00   [Geometry] review Short_Tricks_en.txt: 1 issue(s): - Trick 6: The mnemonic "Odd-start triples: 3,5,7,8…" incorrectly includes 8 (even) and 20; the square-and-spl
 10-10 14:03:12   [Geometry] review Important_Formulas_en.txt: 1 issue(s): - File "Important_Formulas_en.txt" contains only a stream of numbers (mostly "1.") and a Thai character 
 10-10 14:03:48   [Linear_Programming] Practice_en_Set_04.txt try 1: rejected (Q80:leaked_reasoning,Q88:leaked_reasoning,Q92:answer_solution_conflict,Q94:leaked_reasoning,Q95:broken_questio
+10-10 14:04:40   [Geometry] review: 4 section(s) corrected, 0 failed
+10-10 14:04:40   [Geometry] written 4, failed 0; AI calls today 130/100000
 ```
