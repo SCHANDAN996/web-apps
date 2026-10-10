@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 10-10-2026 08:26 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
+**आख़िरी update:** 10-10-2026 08:29 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 18 Trigonometry (10th Maths) | 🔎 review हो रहा है | 10 मिनट |
-| W4 | Chapter 21 Probability (10th Maths) | 🔎 review हो रहा है | 19 मिनट |
+| W3 | Chapter 18 Trigonometry (10th Maths) | 📤 push हो रहा है | 0 मिनट |
+| W4 | Chapter 21 Probability (10th Maths) | 🔎 review हो रहा है | 22 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -31,7 +31,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 10-10 20:29 — 10th Maths · Chapter 18 Trigonometry
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
@@ -41,8 +41,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 19:12:21 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective after 4 min: todo [] problems ['Set 03 hi: English sentence translated (keep it in English) ']
-10-10 19:12:21 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective (FIX: todo 0, problems 1)
 10-10 19:12:50   [Trigonometry] repaired PYQ_hi.txt (9659 chars)
 10-10 19:14:05   [Adjective] FAILED set 03: re-translation still changes English sentences — left as it was
 10-10 19:14:05   [Adjective] written 0, failed 1; AI calls today 12/100000
@@ -81,4 +79,6 @@
 10-10 20:16:26   [Trigonometry] written 1, failed 0; AI calls today 62/100000
 10-10 20:18:48   [Probability] review PYQ_en.txt: 3 issue(s): - "Nearly 70% of incorrect answers fall into just three traps" is an invented statistic with no verifiable source → Rem
 10-10 20:23:39   [Trigonometry] review Flashcards_en.txt: 1 issue(s): - Card 11: The answer states cos θ = 12/13, but from sin θ = 5/13 the identity gives cos²θ = 144/169, so cos θ =
+10-10 20:29:59   [Trigonometry] review: 1 section(s) corrected, 0 failed
+10-10 20:29:59   [Trigonometry] written 1, failed 0; AI calls today 75/100000
 ```
