@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 10:59 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
+**आख़िरी update:** 10-10-2026 11:15 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 28 Critical Reasoning (Graduation Reasoning) | ✍️ लिख रहा है | 93 मिनट |
-| W3 | Chapter 29 Logical Consistency (Graduation Reasoning) | ✍️ लिख रहा है | 74 मिनट |
-| W6 | Chapter 26 Data Sufficiency (Graduation Reasoning) | ✍️ लिख रहा है | 155 मिनट |
+| W1 | Chapter 28 Critical Reasoning (Graduation Reasoning) | ✍️ लिख रहा है | 109 मिनट |
+| W3 | Chapter 29 Logical Consistency (Graduation Reasoning) | ✍️ लिख रहा है | 90 मिनट |
+| W6 | Chapter 26 Data Sufficiency (Graduation Reasoning) | ✍️ लिख रहा है | 171 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -24,13 +24,13 @@
 | 10th English | 17 | 0 | 3 |
 | 12th Maths | 19 | 0 | 4 |
 | 12th GK | 22 | 0 | 2 |
-| 12th Reasoning | 17 | 0 | 8 |
+| 12th Reasoning | 19 | 0 | 6 |
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 20 | 0 | 8 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 19 | 2 | 9 |
 | Graduation English | 29 | 1 | 0 |
-| **कुल** | **256** | **5** | **35** |
+| **कुल** | **258** | **5** | **33** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -55,9 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 10:29:34   [Statement_Argument] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-10-10 10:30:22   [Decision_Making] review Feynman_hi.txt: 1 issue(s): - "निर्णय क्षमता के 90% सवालों में चार विकल्प इस तरह बने होते हैं" → यह एक आविष्कृत आंकड़ा है; इसे हटाएं या स्रोत स
-10-10 10:32:29   [Logical_Consistency] wrote Short_Tricks_en.txt (5560 chars)
 10-10 10:33:36   [Statement_Argument] Practice_hi_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
 10-10 10:34:46   [Data_Sufficiency] Practice_en_Set_04.txt try 3: re-solve disagrees (Q89 key d vs re-solve c, Q97 key d vs re-solve a)
 10-10 10:35:18   [Paper_Folding_Cutting] FAILED Practice_en_Set_06.txt: too_long
@@ -95,4 +92,7 @@
 10-10 10:55:29   [Logical_Consistency] wrote Important_Rules_en.txt (7267 chars)
 10-10 10:57:42   [Data_Sufficiency] Practice_en_Set_05.txt try 2: rejected (parsed 0 questions, numbers -…-)
 10-10 10:58:51   [Critical_Reasoning] Practice_en_Set_01.txt try 1: re-solve disagrees (Q5 key c vs re-solve a)
+10-10 11:05:24   [Data_Sufficiency] Practice_en_Set_05.txt try 3: re-solve disagrees (Q107 key a vs re-solve c, Q108 key c vs re-solve d, Q114 key a vs re-solve c, Q118 key b vs re-solve
+10-10 11:14:39   [Critical_Reasoning] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+10-10 11:14:49   [Logical_Consistency] wrote Important_Rules_hi.txt (3775 chars)
 ```
