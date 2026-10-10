@@ -1,0 +1,151 @@
+Questions 126–145: Easy | Questions 146–150: Medium
+
+126. A bag contains 5 red and 4 blue balls. Two balls are drawn at random without replacement. What is the probability that both balls are of the same colour?
+(a) 2/9 (b) 4/9 (c) 1/2 (d) 5/9
+Answer: (b)
+Solution: The trap is treating the two draws as independent, which inflates the value. Without replacement: P(both red) = (5/9)(4/8) = 20/72 and P(both blue) = (4/9)(3/8) = 12/72. Total = 32/72 = 4/9, so the answer is 4/9.
+Source: NCERT Class 11 Mathematics
+
+127. Three dice are thrown simultaneously. What is the probability of getting a sum of 10?
+(a) 25/216 (b) 7/24 (c) 27/216 (d) 1/6
+Answer: (c)
+Solution: The tempting wrong option 25/216 comes from miscounting ordered triples. The patterns giving sum 10 are 1-3-6 (6 arrangements), 1-4-5 (6), 2-2-6 (3), 2-3-5 (6), 2-4-4 (3), 3-3-4 (3), totalling 27 favourable outcomes out of 216, so the answer is 27/216.
+Source: NCERT Class 11 Mathematics
+
+128. A speaks truth in 60% of cases and B speaks truth in 70% of cases. What is the probability that they contradict each other in stating the same fact?
+(a) 0.18 (b) 0.42 (c) 0.46 (d) 0.54
+Answer: (c)
+Solution: The trap is computing agreement instead of contradiction. Contradiction = A true and B false, or A false and B true = (0.6)(0.3) + (0.4)(0.7) = 0.18 + 0.28 = 0.46, so the answer is 0.46.
+Source: PYQ-style
+
+129. From a pack of 52 cards, two cards are drawn at random. What is the probability that both are aces or both are kings?
+(a) 4/221 (b) 1/221 (c) 8/663 (d) 2/221
+Answer: (d)
+Solution: The trap is adding simple fractions like 4/52 + 4/52 instead of using combinations. P(both aces) = C(4,2)/C(52,2) = 6/1326 and P(both kings) = 6/1326. Total = 12/1326 = 2/221, so the answer is 2/221.
+Source: NCERT Class 11 Mathematics
+
+130. The probability that A can solve a problem is 2/3 and that B can solve it is 3/4. If both try independently, what is the probability that the problem is solved?
+(a) 11/12 (b) 5/12 (c) 7/12 (d) 1/2
+Answer: (a)
+Solution: The trap is adding 2/3 + 3/4, which exceeds 1 and is impossible for a probability. The problem is solved unless both fail: 1 − (1/3)(1/4) = 1 − 1/12 = 11/12, so the answer is 11/12.
+Source: PYQ-style
+
+131. A box contains 10 bulbs, of which 4 are defective. Three bulbs are drawn one by one without replacement. What is the probability that exactly two are defective?
+(a) 3/10 (b) 3/8 (c) 1/5 (d) 7/20
+Answer: (a)
+Solution: The trap is forgetting that the two defectives and one good bulb can appear in three different orders. Favourable = C(4,2) × C(6,1) = 36 out of C(10,3) = 120, giving 36/120 = 3/10, so the answer is 3/10.
+Source: NCERT Class 11 Mathematics
+
+132. Two numbers are selected at random from 1 to 20. What is the probability that their sum is even?
+(a) 1/2 (b) 10/19 (c) 9/19 (d) 11/19
+Answer: (c)
+Solution: The trap is assuming 1/2 by symmetry, but selection without replacement breaks it. The sum is even when both numbers are even or both are odd: [C(10,2) + C(10,2)]/C(20,2) = 90/190 = 9/19, so the answer is 9/19.
+Source: PYQ-style
+
+133. A letter is chosen at random from the word "ASSASSINATION". What is the probability that it is a vowel?
+(a) 5/13 (b) 7/13 (c) 6/13 (d) 4/13
+Answer: (c)
+Solution: The trap is counting distinct vowels instead of all vowel positions. The word has 13 letters with vowels A, A, A, I, I, O, that is 6 vowels, so the probability is 6/13, so the answer is 6/13.
+Source: NCERT Class 10 Mathematics
+
+134. The odds in favour of an event are 3:5. What is the probability of the event?
+(a) 3/5 (b) 5/8 (c) 3/8 (d) 2/5
+Answer: (c)
+Solution: The trap is writing 3/5 directly from the odds ratio. Odds of 3:5 in favour mean probability = 3/(3+5) = 3/8, so the answer is 3/8.
+Source: NCERT Class 11 Mathematics
+
+135. A and B throw a die alternately, A starting first. The first to throw a 6 wins. What is the probability that A wins?
+(a) 5/11 (b) 1/2 (c) 7/12 (d) 6/11
+Answer: (d)
+Solution: The trap is assuming equal chances of 1/2, ignoring that A moves first. P(A wins) = 1/6 + (5/6)(5/6)(1/6) + … = (1/6)/(1 − 25/36) = (1/6)/(11/36) = 6/11, so the answer is 6/11.
+Source: PYQ-style
+
+136. Four persons are chosen at random from a group of 3 men, 2 women and 4 children. What is the probability that exactly two of them are children?
+(a) 10/21 (b) 3/7 (c) 2/7 (d) 5/21
+Answer: (a)
+Solution: The trap is using only C(4,2)/C(9,4) and forgetting the other two persons chosen. Favourable = C(4,2) × C(5,2) = 6 × 10 = 60 out of C(9,4) = 126, giving 60/126 = 10/21, so the answer is 10/21.
+Source: PYQ-style
+
+137. A card is drawn from a well-shuffled pack. What is the probability that it is either a heart or a queen?
+(a) 17/52 (b) 4/13 (c) 3/13 (d) 1/4
+Answer: (b)
+Solution: The trap is adding 13/52 + 4/52 = 17/52, double-counting the queen of hearts. Correct count: 13 hearts + 3 other queens = 16 cards, giving 16/52 = 4/13, so the answer is 4/13.
+Source: NCERT Class 10 Mathematics
+
+138. A bag contains 6 white and 4 black balls. Two balls are drawn successively with replacement. What is the probability that the first is white and the second is black?
+(a) 6/25 (b) 3/10 (c) 4/15 (d) 12/95
+Answer: (a)
+Solution: The trap is using the without-replacement value (6/10)(4/9) = 4/15. With replacement the draws are independent: (6/10)(4/10) = 24/100 = 6/25, so the answer is 6/25.
+Source: NCERT Class 11 Mathematics
+
+139. In a single throw of two dice, what is the probability of getting a doublet or a sum of 8?
+(a) 2/9 (b) 5/18 (c) 11/36 (d) 1/4
+Answer: (b)
+Solution: The trap is adding 6/36 + 5/36 = 11/36, double-counting the outcome 4-4 which is both a doublet and sums to 8. Correct count: 6 + 5 − 1 = 10 outcomes, giving 10/36 = 5/18, so the answer is 5/18.
+Source: NCERT Class 10 Mathematics
+
+140. The probability that it will rain tomorrow is 0.4 and the probability that a student will catch the bus is 0.7, independent of rain. What is the probability that it rains and the student misses the bus?
+(a) 0.18 (b) 0.28 (c) 0.10 (d) 0.12
+Answer: (d)
+Solution: The trap is multiplying 0.4 × 0.7 = 0.28, which is the probability of rain and catching the bus. Missing the bus has probability 0.3, so the required probability = 0.4 × 0.3 = 0.12, so the answer is 0.12.
+Source: PYQ-style
+
+141. From a group of 5 boys and 3 girls, a committee of 3 is formed at random. What is the probability that the committee has at least one girl?
+(a) 23/28 (b) 15/28 (c) 5/28 (d) 3/8
+Answer: (a)
+Solution: The trap is computing only the exactly-one-girl case. Use the complement: P(no girl) = C(5,3)/C(8,3) = 10/56 = 5/28, so P(at least one girl) = 1 − 5/28 = 23/28, so the answer is 23/28.
+Source: NCERT Class 11 Mathematics
+
+142. A die is thrown twice. What is the probability that the number on the second throw is greater than the number on the first throw?
+(a) 1/2 (b) 5/12 (c) 7/12 (d) 5/6
+Answer: (b)
+Solution: The trap is answering 1/2 by symmetry, forgetting the 6 tie outcomes. Of 36 outcomes, 6 are ties; the remaining 30 split equally between the two orders, so favourable = 15, giving 15/36 = 5/12, so the answer is 5/12.
+Source: PYQ-style
+
+143. Three coins are tossed. Given that at least one coin shows heads, what is the probability that all three show heads?
+(a) 1/8 (b) 1/7 (c) 1/4 (d) 3/7
+Answer: (b)
+Solution: The trap is answering 1/8, ignoring the given condition. Conditional on at least one head, the sample space has 7 outcomes (excluding all tails), of which only the all-heads outcome is favourable, giving 1/7, so the answer is 1/7.
+Source: NCERT Class 11 Mathematics
+
+144. A bag contains 3 red, 4 white and 5 blue balls. Three balls are drawn at random. What is the probability that one ball of each colour is drawn?
+(a) 3/11 (b) 5/22 (c) 1/6 (d) 9/44
+Answer: (a)
+Solution: The trap is multiplying (3/12)(4/12)(5/12) as if drawing with replacement in a fixed order. Favourable = C(3,1) × C(4,1) × C(5,1) = 60 out of C(12,3) = 220, giving 60/220 = 3/11, so the answer is 3/11.
+Source: PYQ-style
+
+145. The probability that a man hits a target is 1/4. He fires 3 times independently. What is the probability that he hits the target at least once?
+(a) 3/4 (b) 37/64 (c) 1/64 (d) 27/64
+Answer: (b)
+Solution: The trap is adding 1/4 three times to get 3/4. Use the complement: P(no hit) = (3/4)³ = 27/64, so P(at least one hit) = 1 − 27/64 = 37/64, so the answer is 37/64.
+Source: NCERT Class 11 Mathematics
+
+146. Two cards are drawn from a pack of 52 cards without replacement. What is the probability that the first is a king and the second is a queen?
+(a) 1/169 (b) 2/169 (c) 16/663 (d) 4/663
+Answer: (d)
+Solution: The trap is computing (4/52)(4/52) = 1/169 as if the draw were with replacement. Without replacement: (4/52)(4/51) = 16/2652 = 4/663, so the answer is 4/663.
+Source: NCERT Class 11 Mathematics
+
+147. In a class, 30% of students play cricket, 20% play football and 10% play both. What is the probability that a randomly chosen student plays cricket or football?
+(a) 0.3 (b) 0.5 (c) 0.4 (d) 0.6
+Answer: (c)
+Solution: The trap is adding 0.3 + 0.2 = 0.5, double-counting those who play both games. By inclusion-exclusion: 0.3 + 0.2 − 0.1 = 0.4, so the answer is 0.4.
+Source: NCERT Class 11 Mathematics
+
+148. A number is chosen at random from the first 100 natural numbers. What is the probability that it is divisible by 4 or 6?
+(a) 1/4 (b) 8/25 (c) 41/100 (d) 33/100
+Answer: (d)
+Solution: The trap is adding 25 + 16 = 41, double-counting multiples of 12. Multiples of 4 = 25, of 6 = 16, of 12 = 8, so favourable = 25 + 16 − 8 = 33, giving 33/100, so the answer is 33/100.
+Source: PYQ-style
+
+149. A family has two children. Given that at least one of them is a boy, what is the probability that both are boys?
+(a) 1/2 (b) 2/3 (c) 1/4 (d) 1/3
+Answer: (d)
+Solution: The trap is answering 1/2, treating the other child as independent. Given at least one boy, the sample space is boy-boy, boy-girl, girl-boy (3 equally likely cases), of which only boy-boy is favourable, giving 1/3, so the answer is 1/3.
+Source: NCERT Class 11 Mathematics
+
+150. An urn contains 4 red and 6 green balls. Two balls are drawn without replacement. Given that at least one ball is red, what is the probability that both are red?
+(a) 1/5 (b) 1/6 (c) 2/15 (d) 3/14
+Answer: (a)
+Solution: The trap is computing P(both red) = C(4,2)/C(10,2) = 2/15 without applying the condition. P(at least one red) = 1 − C(6,2)/C(10,2) = 1 − 15/45 = 30/45. Conditional probability = (6/45)/(30/45) = 6/30 = 1/5, so the answer is 1/5.
+Source: PYQ-style

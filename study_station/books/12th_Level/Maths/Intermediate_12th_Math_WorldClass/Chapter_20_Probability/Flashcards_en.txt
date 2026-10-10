@@ -1,0 +1,79 @@
+Card 1
+Front: What is the probability of a sure event and an impossible event?
+Back: Sure event = 1; Impossible event = 0. Probability always lies between 0 and 1.
+
+Card 2
+Front: What is the basic formula for probability of an event E?
+Back: P(E) = Number of favourable outcomes ÷ Total number of equally likely outcomes.
+
+Card 3
+Front: A coin is tossed once. What is the probability of getting a head?
+Back: 1/2. Two equally likely outcomes (H, T), one favourable.
+
+Card 4
+Front: What is the sum of the probabilities of an event and its complement?
+Back: P(E) + P(E′) = 1, so P(E′) = 1 − P(E). "At least one" problems → use 1 − P(none).
+
+Card 5
+Front: A die is thrown. What is the probability of getting a prime number?
+Back: Primes on a die: 2, 3, 5 → 3/6 = 1/2. (Trap: 1 is NOT prime!)
+
+Card 6
+Front: How many cards are in a standard deck, and how is it divided?
+Back: 52 cards: 4 suits × 13 ranks. 26 red (hearts + diamonds), 26 black (spades + clubs); 12 face cards; 4 aces.
+
+Card 7
+Front: What is the probability of drawing a king from a well-shuffled deck?
+Back: 4/52 = 1/13 (one king in each of the 4 suits).
+
+Card 8
+Front: What are mutually exclusive events?
+Back: Events that cannot happen together: P(A ∩ B) = 0. Then P(A ∪ B) = P(A) + P(B).
+
+Card 9
+Front: State the general addition rule of probability.
+Back: P(A ∪ B) = P(A) + P(B) − P(A ∩ B). Subtract the overlap so it isn't counted twice.
+
+Card 10
+Front: What are independent events and how do you find P(A and B)?
+Back: One event's outcome doesn't affect the other. P(A ∩ B) = P(A) × P(B).
+
+Card 11
+Front: Two dice are thrown. How many total outcomes, and which sum is most likely?
+Back: 36 outcomes. Sum 7 is most likely — 6 ways: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) → P = 6/36 = 1/6.
+
+Card 12
+Front: What is the mnemonic trick to remember the "at least one" shortcut?
+Back: "At least one? Flip it to NONE!" — P(at least one) = 1 − P(none). Complement first, subtract last.
+
+Card 13
+Front: What mnemonic helps remember the two-dice sum probabilities?
+Back: "7 is Heaven" — the sums rise 1,2,3,4,5,6 then fall 5,4,3,2,1 (for sums 2 to 12), peaking at 7 with 6 ways.
+
+Card 14
+Front: A bag has 3 red and 5 blue balls. One ball is drawn. P(red)?
+Back: 3/8. Favourable = 3 red, total = 8 balls.
+
+Card 15
+Front: Two balls are drawn together from 3 red and 5 blue balls. P(both red)?
+Back: ³C₂/⁸C₂ = 3/28. Use combinations when drawn together (without replacement).
+
+Card 16
+Front: What is conditional probability P(A|B)?
+Back: Probability of A given that B has occurred: P(A|B) = P(A ∩ B) ÷ P(B), where P(B) > 0.
+
+Card 17
+Front: What is the difference between "with replacement" and "without replacement" draws?
+Back: With replacement → events independent, probabilities stay the same. Without replacement → probabilities change each draw (dependent events).
+
+Card 18
+Front: What is the probability of getting exactly 2 heads in 3 coin tosses?
+Back: 3/8. Favourable: HHT, HTH, THH (3 ways) out of 2³ = 8 outcomes.
+
+Card 19
+Front: Can probability ever be negative or greater than 1?
+Back: Never. 0 ≤ P(E) ≤ 1. If your answer breaks this, recheck the counting.
+
+Card 20
+Front: In a leap year, what is the probability of having 53 Sundays?
+Back: 2/7. A leap year has 52 weeks + 2 extra days; favourable pairs: (Sat, Sun) and (Sun, Mon) out of 7 possible pairs.

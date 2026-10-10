@@ -1,0 +1,73 @@
+# Probability Explained Like You're 12 🎲
+
+## The Hardest Concept: Why "AND" Multiplies but "OR" Adds
+
+Ask any exam aspirant what confuses them most in Probability, and they'll say the same thing:
+
+> "When do I multiply? When do I add? I always mix them up!"
+
+Let's fix that forever — with a story about a boy named **Raju and his two lucky coins**.
+
+---
+
+## The Story of Raju's Coins
+
+Raju wants two things to happen tomorrow:
+
+1. His coin toss lands **Heads**, **AND**
+2. His friend's coin toss also lands **Heads**.
+
+Now think like a 12-year-old. If you want **BOTH** things to happen, life gets *harder*, right? One coin showing Heads is a 50-50 chance. But demanding that **both** coins obey you? That's stricter. The chance must get **smaller**.
+
+- Chance of first Heads = 1/2
+- Chance of second Heads = 1/2
+- Chance of **both** = 1/2 × 1/2 = **1/4** ✅
+
+Smaller! Just as your gut said. When you demand more (AND), you **multiply** — and multiplying fractions shrinks the answer.
+
+---
+
+## Now Raju Relaxes His Demand
+
+Raju says: "Okay, fine. I'll be happy if **either** coin shows Heads. First one **OR** second one — any will do!"
+
+Now life gets *easier*. You have two shots at happiness instead of one strict demand. So the chance must get **bigger**.
+
+- Chance = 1/2 + 1/2 − (overlap) = **3/4** ✅
+
+Bigger! When you accept more options (OR), you **add** — and adding grows the answer.
+
+*(We subtract the overlap 1/4 because the case "both Heads" got counted twice — but the big idea is: OR = add.)*
+
+---
+
+## 🧠 The Trick You'll Never Forget
+
+> **"AND is a strict teacher — he MULTIPLIES your troubles.**
+> **OR is a kind friend — he ADDS to your chances."**
+
+Or even shorter:
+
+> **AND → × (demands shrink chances)**
+> **OR → + (options grow chances)**
+
+Picture it: a strict teacher with a big **×** marked on your homework, and a friendly buddy **+**-ing extra marks to your score. You'll never mix them up again.
+
+---
+
+## One More Gut-Check Rule
+
+After solving any probability question, ask yourself:
+
+- Did I demand many things together (AND)? Then my answer should be **smaller** than each individual chance.
+- Did I allow alternatives (OR)? Then my answer should be **bigger** than each individual chance.
+
+If your answer violates this — you probably swapped × and +. Go back and check!
+
+---
+
+## ❓ Your Turn
+
+Raju now rolls **two dice** and says: "I win if I get a 6 on the first die **AND** a 6 on the second die."
+
+Before calculating, answer from your gut: should the probability be bigger or smaller than 1/6? Now multiply and find the exact answer. Did your gut agree?

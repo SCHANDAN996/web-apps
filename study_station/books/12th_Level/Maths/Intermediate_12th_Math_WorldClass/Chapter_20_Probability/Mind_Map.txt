@@ -1,0 +1,46 @@
+```mermaid
+graph TD
+    A["प्रायिकता<br>Probability"] --> B["मूल अवधारणाएँ<br>Basic Concepts"]
+    A --> C["प्रायिकता के नियम<br>Rules of Probability"]
+    A --> D["प्रकार<br>Types of Events"]
+    A --> E["गिनती के सिद्धांत<br>Counting Principles"]
+    A --> F["मानक प्रयोग<br>Standard Experiments"]
+    A --> G["सशर्त प्रायिकता<br>Conditional Probability"]
+
+    B --> B1["यादृच्छिक प्रयोग<br>Random Experiment"]
+    B --> B2["प्रतिदर्श समष्टि<br>Sample Space (S)"]
+    B --> B3["घटना<br>Event (E)"]
+    B --> B4["P(E) = अनुकूल परिणाम / कुल परिणाम<br>Favourable / Total Outcomes"]
+    B4 --> B5["0 ≤ P(E) ≤ 1"]
+
+    C --> C1["पूरक घटना<br>Complementary: P(E') = 1 − P(E)"]
+    C --> C2["योग नियम<br>Addition Rule"]
+    C2 --> C3["P(A∪B) = P(A)+P(B)−P(A∩B)"]
+    C2 --> C4["अपवर्जी घटनाएँ<br>Mutually Exclusive: P(A∪B) = P(A)+P(B)"]
+    C --> C5["गुणन नियम<br>Multiplication Rule"]
+    C5 --> C6["स्वतंत्र घटनाएँ<br>Independent: P(A∩B) = P(A)×P(B)"]
+
+    D --> D1["निश्चित घटना<br>Sure Event: P = 1"]
+    D --> D2["असंभव घटना<br>Impossible Event: P = 0"]
+    D --> D3["समसंभाव्य घटनाएँ<br>Equally Likely Events"]
+    D --> D4["अपवर्जी घटनाएँ<br>Mutually Exclusive"]
+    D --> D5["स्वतंत्र घटनाएँ<br>Independent Events"]
+    D --> D6["संपूर्ण घटनाएँ<br>Exhaustive Events"]
+
+    E --> E1["क्रमचय<br>Permutation: nPr = n!/(n−r)!"]
+    E --> E2["संचय<br>Combination: nCr = n!/r!(n−r)!"]
+    E --> E3["गुणन सिद्धांत<br>Multiplication Principle"]
+    E1 --> F
+    E2 --> F
+
+    F --> F1["सिक्का उछालना<br>Coin Toss"]
+    F --> F2["पासा फेंकना<br>Dice Throw"]
+    F --> F3["ताश की गड्डी<br>Cards (52)"]
+    F --> F4["थैली से गेंदें<br>Balls from Bag"]
+    F2 --> F5["दो पासे: कुल 36 परिणाम<br>Two Dice: 36 Outcomes"]
+    F3 --> F6["13-13 प्रत्येक सूट<br>4 Suits × 13 Cards"]
+
+    G --> G1["P(A|B) = P(A∩B)/P(B)"]
+    G --> G2["बिना प्रतिस्थापना<br>Without Replacement"]
+    G --> G3["बेयस प्रमेय<br>Bayes' Theorem"]
+```
