@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 11-10-2026 12:34 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 12:03 AM
+**आख़िरी update:** 11-10-2026 12:49 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 12:03 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 16 मिनट |
-| W5 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | 🔧 सुधार रहा है | 5 मिनट |
+| W5 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | 🔧 सुधार रहा है | 6 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -39,20 +38,12 @@
 
 - Chapter 22 Para Jumbles Adv (English) — 2 बार
 - Chapter 25 Statement Argument (Reasoning) — 2 बार
-- Chapter 13 Dictionary Order (Reasoning) — 1 बार
+- Chapter 13 Dictionary Order (Reasoning) — 2 बार
 - Chapter 12 Missing Term (Reasoning) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 00:09:29   [Para_Jumbles_Adv] written 1, failed 0; AI calls today 9/100000
-11-10 00:09:51   [Statement_Argument] repaired PYQ_hi.txt (8440 chars)
-11-10 00:09:51   [Statement_Argument] written 1, failed 0; AI calls today 10/100000
-11-10 00:13:05   [Statement_Argument] repaired PYQ_hi.txt (8476 chars)
-11-10 00:13:05   [Statement_Argument] written 1, failed 0; AI calls today 11/100000
-11-10 00:13:05 NOT OK Graduation_Level/Reasoning/Chapter_25_Statement_Argument after 10 min: todo [] problems ['PYQ_hi.txt: much shorter than the English section (8475 vs 4']
-11-10 00:13:08 START Graduation_Level/Reasoning/Chapter_25_Statement_Argument (FIX: todo 0, problems 1)
-11-10 00:16:02   [Statement_Argument] repaired PYQ_hi.txt (8596 chars)
 11-10 00:16:02   [Statement_Argument] written 1, failed 0; AI calls today 12/100000
 11-10 00:17:59   [Dictionary_Order] FAILED Practice_en_Set_06.txt: too_long
 11-10 00:17:59   [Dictionary_Order] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
@@ -85,4 +76,12 @@
 11-10 00:29:33   [Advanced_Puzzles] written 2, failed 0; AI calls today 19/100000
 11-10 00:31:51   [Dictionary_Order] Practice_en_Set_06.txt try 2: re-solve disagrees (Q126 key d vs re-solve c, Q130 key c vs re-solve b, Q148 key d vs re-solve b)
 11-10 00:33:51   [Dictionary_Order] Practice_en_Set_06.txt try 3: rejected (Q127:leaked_reasoning)
+11-10 00:39:50   [Dictionary_Order] Practice_en_Set_06.txt try 4: re-solve disagrees (Q143 key d vs re-solve b)
+11-10 00:39:50   [Dictionary_Order] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+11-10 00:39:50   [Dictionary_Order] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+11-10 00:39:50   [Dictionary_Order] written 0, failed 2; AI calls today 23/100000
+11-10 00:39:50 NOT OK Graduation_Level/Reasoning/Chapter_13_Dictionary_Order after 22 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems []
+11-10 00:39:52 worker 2: nothing left
+11-10 00:43:44   [Advanced_Puzzles] FAILED Important_Rules_hi.txt: too_long
+11-10 00:43:44   [Advanced_Puzzles] written 0, failed 1; AI calls today 22/100000
 ```
