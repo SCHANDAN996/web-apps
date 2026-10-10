@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 10-10-2026 07:34 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:17 AM
+**आख़िरी update:** 10-10-2026 07:50 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:17 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W5 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 12 मिनट |
+| W5 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 1 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -20,13 +20,13 @@
 | 10th English | 17 | 3 | 0 |
 | 12th Maths | 19 | 0 | 4 |
 | 12th GK | 22 | 0 | 2 |
-| 12th Reasoning | 14 | 0 | 11 |
+| 12th Reasoning | 15 | 0 | 10 |
 | 12th English | 25 | 0 | 0 |
-| Graduation Maths | 18 | 0 | 10 |
+| Graduation Maths | 19 | 0 | 9 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 14 | 0 | 16 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **246** | **5** | **45** |
+| **कुल** | **248** | **5** | **43** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -38,24 +38,11 @@
 - Chapter 03 Adjective (English) — 2 बार
 - Chapter 01 Noun (English) — 2 बार
 - Chapter 18 Trigonometry (Maths) — 2 बार
+- Chapter 21 Probability (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 07:09:17   [Trigonometry] set 02 try 3: rejected (parsed 0 questions, numbers -…-)
-10-10 07:10:40   [Trigonometry] set 02 try 4: rejected (parsed 24 questions, numbers 26…50)
-10-10 07:10:40   [Trigonometry] FAILED set 02: no version passed the checks — files left as they were
-10-10 07:13:57   [Probability] set 05 try 3: rejected (parsed 24 questions, numbers 101…125)
-10-10 07:14:17   [Trigonometry] repaired set 06 (en + hi, key confirmed by an independent re-solve)
-10-10 07:14:17   [Trigonometry] written 3, failed 1; AI calls today 72/100000
-10-10 07:14:17 NOT OK 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_18_Trigonometry after 56 min: todo [] problems ['Set 02 en: 4/25 parsed', 'Set 02 hi: 0/25 parsed']
-10-10 07:14:19 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_18_Trigonometry (FIX: todo 0, problems 2)
-10-10 07:14:57   [Probability] set 05 try 4: rejected (parsed 24 questions, numbers 101…125)
-10-10 07:14:57   [Probability] FAILED set 05: no version passed the checks — files left as they were
-10-10 07:16:24   [Probability] set 06 try 1: rejected (parsed 23 questions, numbers 126…150)
-10-10 07:17:59   [Probability] set 06 try 2: rejected (parsed 23 questions, numbers 126…150)
-10-10 07:19:20   [Probability] set 06 try 3: rejected (parsed 23 questions, numbers 126…150)
-10-10 07:20:16   [Trigonometry] set 02 try 1: rejected (parsed 0 questions, numbers -…-)
 10-10 07:22:04   [Probability] set 06 try 4: rejected (parsed 23 questions, numbers 126…150)
 10-10 07:22:04   [Probability] FAILED set 06: no version passed the checks — files left as they were
 10-10 07:22:04   [Probability] written 2, failed 4; AI calls today 78/100000
@@ -82,4 +69,18 @@
 10-10 07:33:26   [Probability] set 03 try 3: rejected (parsed 23 questions, numbers 51…75)
 10-10 07:35:01   [Probability] set 03 try 4: rejected (parsed 0 questions, numbers -…-)
 10-10 07:35:01   [Probability] FAILED set 03: no version passed the checks — files left as they were
+10-10 07:36:08   [Probability] set 05 try 1: rejected (parsed 24 questions, numbers 101…125)
+10-10 07:37:52   [Probability] set 05 try 2: rejected (parsed 24 questions, numbers 101…125)
+10-10 07:39:05   [Probability] set 05 try 3: rejected (parsed 24 questions, numbers 101…125)
+10-10 07:40:51   [Probability] set 05 try 4: rejected (parsed 24 questions, numbers 101…125)
+10-10 07:40:51   [Probability] FAILED set 05: no version passed the checks — files left as they were
+10-10 07:41:17   [Probability] set 06 try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 07:42:38   [Probability] set 06 try 2: rejected (parsed 23 questions, numbers 126…150)
+10-10 07:45:37   [Probability] set 06 try 3: rejected (parsed 23 questions, numbers 126…150)
+10-10 07:48:23   [Probability] set 06 try 4: rejected (parsed 23 questions, numbers 126…150)
+10-10 07:48:23   [Probability] FAILED set 06: no version passed the checks — files left as they were
+10-10 07:48:23   [Probability] written 0, failed 4; AI calls today 100/100000
+10-10 07:48:23 NOT OK 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_21_Probability after 90 min: todo [] problems ['Set 02 en: 1/25 parsed', 'Set 02 hi: 1/25 parsed', 'Set 03 en: 0/25 parsed', 'Set 03 hi: 0/25 parsed']
+10-10 07:48:24 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_21_Probability (FIX: todo 0, problems 8)
+10-10 07:49:46   [Probability] set 02 try 1: rejected (parsed 23 questions, numbers 26…50)
 ```
