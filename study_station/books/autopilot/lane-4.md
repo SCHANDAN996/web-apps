@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 10-10-2026 07:09 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
+**आख़िरी update:** 10-10-2026 07:25 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,12 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 12 Biology (12th GK) | 🔧 सुधार रहा है | 0 मिनट |
-| W2 | Chapter 14 Sports (12th GK) | 🔧 सुधार रहा है | 0 मिनट |
-| W3 | Chapter 01 Number System (12th Maths) | 🔧 सुधार रहा है | 0 मिनट |
-| W4 | Chapter 10 Compound Interest (12th Maths) | 🔧 सुधार रहा है | 0 मिनट |
-| W5 | Chapter 13 Mixture Alligation (12th Maths) | 🔧 सुधार रहा है | 0 मिनट |
-| W6 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 0 मिनट |
+| W3 | Chapter 01 Number System (12th Maths) | 🔧 सुधार रहा है | 11 मिनट |
+| W4 | Chapter 10 Compound Interest (12th Maths) | 🔧 सुधार रहा है | 10 मिनट |
+| W6 | Chapter 20 Probability (12th Maths) | 🔎 review हो रहा है | 6 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -23,7 +20,7 @@
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 20 | 2 | 0 |
 | 10th English | 18 | 0 | 2 |
-| 12th Maths | 19 | 3 | 1 |
+| 12th Maths | 20 | 3 | 0 |
 | 12th GK | 22 | 2 | 0 |
 | 12th Reasoning | 19 | 0 | 6 |
 | 12th English | 25 | 0 | 0 |
@@ -31,26 +28,61 @@
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 26 | 0 | 4 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **269** | **7** | **20** |
+| **कुल** | **270** | **7** | **19** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
 - अभी कोई नहीं
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 12 Biology (GK) — 2 बार
+- Chapter 13 Mixture Alligation (Maths) — 2 बार
+- Chapter 10 Compound Interest (Maths) — 1 बार
+- Chapter 01 Number System (Maths) — 1 बार
+- Chapter 14 Sports (GK) — 2 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 19:08:30 autopilot start: 8 workers, reverse=True
-10-10 19:08:31 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_12_Biology (FIX: todo 0, problems 1)
-10-10 19:08:36 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_14_Sports (FIX: todo 0, problems 1)
-10-10 19:08:42 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System (FIX: todo 0, problems 1)
-10-10 19:08:47 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest (FIX: todo 0, problems 1)
-10-10 19:08:52 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation (FIX: todo 0, problems 1)
-10-10 19:08:58 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_20_Probability (TODO: todo 1, problems 1)
-10-10 19:09:03 worker 6: nothing left
-10-10 19:09:08 worker 7: nothing left
-10-10 19:09:11   [Biology] REJECTED Feynman_hi.txt: corrupted characters — not written
-10-10 19:09:11   [Biology] written 0, failed 1; AI calls today 6/100000
-10-10 19:09:50   [Compound_Interest] repaired Flashcards_hi.txt (4335 chars)
-10-10 19:09:50   [Compound_Interest] written 1, failed 0; AI calls today 7/100000
+10-10 19:11:31 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest after 3 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (24']
+10-10 19:11:31   [Biology] repaired Feynman_hi.txt (2769 chars)
+10-10 19:11:33   [Biology] written 1, failed 0; AI calls today 13/100000
+10-10 19:11:34 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest (FIX: todo 0, problems 1)
+10-10 19:12:04   [Number_System] repaired Important_Formulas_hi.txt (3695 chars)
+10-10 19:12:04   [Number_System] written 1, failed 0; AI calls today 15/100000
+10-10 19:12:05 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System after 3 min: todo [] problems ['Important_Formulas_hi.txt: much shorter than the English sec']
+10-10 19:12:07 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System (FIX: todo 0, problems 1)
+10-10 19:12:38   [Mixture_Alligation] repaired Flashcards_hi.txt (3268 chars)
+10-10 19:12:38   [Mixture_Alligation] written 1, failed 0; AI calls today 16/100000
+10-10 19:13:03   [Biology] repaired Feynman_hi.txt (2668 chars)
+10-10 19:13:03   [Biology] written 1, failed 0; AI calls today 17/100000
+10-10 19:13:04 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_12_Biology after 3 min: todo [] problems ['Feynman_hi.txt: much shorter than the English section (2667 ']
+10-10 19:13:07 worker 0: nothing left
+10-10 19:13:09   [Sports] repaired Memory_Hooks_hi.txt (5981 chars)
+10-10 19:13:09   [Sports] written 1, failed 0; AI calls today 17/100000
+10-10 19:13:09 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_14_Sports after 5 min: todo [] problems ['Memory_Hooks_hi.txt: much shorter than the English section (']
+10-10 19:13:10 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_14_Sports (FIX: todo 0, problems 1)
+10-10 19:13:32   [Number_System] repaired Important_Formulas_hi.txt (4002 chars)
+10-10 19:13:32   [Number_System] written 1, failed 0; AI calls today 18/100000
+10-10 19:13:41   [Mixture_Alligation] repaired Flashcards_hi.txt (3004 chars)
+10-10 19:13:41   [Mixture_Alligation] written 1, failed 0; AI calls today 19/100000
+10-10 19:13:41 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation after 2 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (30']
+10-10 19:13:44 worker 4: nothing left
+10-10 19:14:18   [Compound_Interest] repaired Flashcards_hi.txt (1382 chars)
+10-10 19:14:18   [Compound_Interest] written 1, failed 0; AI calls today 19/100000
+10-10 19:15:38   [Probability] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+10-10 19:15:38   [Probability] written 1, failed 0; AI calls today 20/100000
+10-10 19:16:12   [Sports] repaired Memory_Hooks_hi.txt (6242 chars)
+10-10 19:16:12   [Sports] written 1, failed 0; AI calls today 21/100000
+10-10 19:16:57   [Probability] REJECTED Content_en.txt: chat debris "Here's the" — not written
+10-10 19:16:57   [Probability] written 0, failed 1; AI calls today 22/100000
+10-10 19:18:11   [Sports] repaired Memory_Hooks_hi.txt (5158 chars)
+10-10 19:18:11   [Sports] written 1, failed 0; AI calls today 23/100000
+10-10 19:18:11 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_14_Sports after 5 min: todo [] problems ['Memory_Hooks_hi.txt: much shorter than the English section (']
+10-10 19:18:15 worker 1: nothing left
+10-10 19:18:52   [Probability] repaired Content_en.txt (9017 chars)
+10-10 19:18:52   [Probability] written 1, failed 0; AI calls today 23/100000
+10-10 19:21:31   [Probability] review Content_en.txt: 4 issue(s): - Chat line "Here is a fact that shocks almost everyone who hears it for the first time." → "A fact that shocks alm
+10-10 19:24:57   [Probability] review Mind_Map.txt: 2 issue(s): - F1 (सिक्का उछालना/Coin Toss) incorrectly links to F5 (दो पासे: कुल 36 परिणाम/Two Dice: 36 Outcomes) → F2 (पासा फेंक
 ```
