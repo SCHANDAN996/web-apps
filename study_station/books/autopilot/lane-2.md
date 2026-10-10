@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 11:11 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
+**आख़िरी update:** 10-10-2026 11:26 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W5 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 226 मिनट |
+| W5 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 241 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -51,9 +51,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 09:52:55   [Number_Series] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-10-10 09:54:15   [Probability] Practice_en_Set_04.txt try 4: rejected (parsed 22 questions, numbers 76…100)
-10-10 09:54:15   [Probability] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
 10-10 09:54:15   [Probability] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
 10-10 09:57:19   [Linear_Programming] wrote Important_Formulas_hi.txt (3459 chars)
 10-10 09:57:24   [Number_Series] Practice_en_Set_04.txt try 1: rejected (Q93:leaked_reasoning,Q98:leaked_reasoning)
@@ -91,4 +88,7 @@
 10-10 10:48:26   [Linear_Programming] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
 10-10 10:48:26   [Linear_Programming] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
 10-10 10:58:54   [Linear_Programming] Practice_en_Set_03.txt try 1: re-solve disagrees (Q71 key b vs re-solve ?, Q74 key a vs re-solve d)
+10-10 11:17:00   [Linear_Programming] FAILED Practice_en_Set_03.txt: too_long
+10-10 11:17:00   [Linear_Programming] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
+10-10 11:22:03   [Linear_Programming] Practice_en_Set_04.txt try 1: rejected (Q78:leaked_reasoning,Q83:leaked_reasoning,Q84:leaked_reasoning,Q94:leaked_reasoning,Q100:leaked_reasoning)
 ```
