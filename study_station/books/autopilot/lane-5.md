@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 10-10-2026 03:23 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:33 PM
+**आख़िरी update:** 10-10-2026 03:39 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:33 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W5 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 22 मिनट |
+| W5 | Chapter 21 Probability (10th Maths) | 🔧 सुधार रहा है | 37 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -24,9 +24,9 @@
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 23 | 0 | 5 |
 | Graduation GK | 27 | 0 | 1 |
-| Graduation Reasoning | 23 | 0 | 7 |
+| Graduation Reasoning | 24 | 0 | 6 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **266** | **4** | **26** |
+| **कुल** | **267** | **4** | **25** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
