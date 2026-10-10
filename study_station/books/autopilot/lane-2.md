@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 11-10-2026 04:00 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:59 AM
+**आख़िरी update:** 11-10-2026 04:16 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:59 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Awards (Graduation GK) | 🔧 सुधार रहा है | 1 मिनट |
-| W2 | Chapter 05 Percentage (Graduation Maths) | 🔧 सुधार रहा है | 0 मिनट |
-| W3 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 0 मिनट |
-| W4 | Chapter 28 Linear Programming (Graduation Maths) | 🔧 सुधार रहा है | 0 मिनट |
+| W1 | Chapter 13 Awards (Graduation GK) | 🔧 सुधार रहा है | 16 मिनट |
+| W2 | Chapter 05 Percentage (Graduation Maths) | 🔧 सुधार रहा है | 16 मिनट |
+| W3 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 16 मिनट |
+| W4 | Chapter 28 Linear Programming (Graduation Maths) | 🔧 सुधार रहा है | 8 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -47,4 +47,6 @@
 11-10 04:00:19 worker 5: nothing left
 11-10 04:00:24 worker 6: nothing left
 11-10 04:00:29 worker 7: nothing left
+11-10 04:07:37   [Linear_Programming] repaired Content_hi.txt (8650 chars)
+11-10 04:07:37   [Linear_Programming] written 1, failed 0; AI calls today 4/100000
 ```
