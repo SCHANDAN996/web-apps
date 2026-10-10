@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 02:19 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:29 AM
+**आख़िरी update:** 10-10-2026 02:22 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:29 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 149 मिनट |
-| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 26 मिनट |
-| W8 | Chapter 27 Number Series (Graduation Maths) | 🔎 review हो रहा है | 110 मिनट |
+| W2 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 152 मिनट |
+| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 29 मिनट |
+| W8 | Chapter 27 Number Series (Graduation Maths) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -32,6 +32,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 10-10 14:22 — Graduation Maths · Chapter 27 Number Series
 - 10-10 14:04 — Graduation Maths · Chapter 15 Geometry
 - 10-10 11:55 — Graduation Maths · Chapter 26 Permutation Combination
 
@@ -46,10 +47,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 13:32:00   [Linear_Programming] Practice_en_Set_03.txt try 1: rejected (Q57:leaked_reasoning,Q64:leaked_reasoning,Q75:answer_solution_conflict)
-10-10 13:32:49   [Number_Series] review PYQ_en.txt: 1 issue(s): - In Q6 solution, the example '15×2−2=28' incorrectly applies the stated rule '×2−1 each time' → it should be '15×2−1=2
-10-10 13:35:00   [Probability] Practice_en_Set_06.txt try 1: rejected (parsed 24 questions, numbers 126…150)
-10-10 13:45:25   [Probability] Practice_en_Set_06.txt try 2: rejected (parsed 24 questions, numbers 126…150)
 10-10 13:46:38   [Geometry] review Flashcards_hi.txt: 1 issue(s): - कार्ड 1: '180° (अर्धवृत्त के कोण के बराबर)' incorrectly claims that the angle of a semicircle is 180°; the ang
 10-10 13:50:03   [Probability] Practice_en_Set_06.txt try 3: rejected (parsed 23 questions, numbers 126…150)
 10-10 13:52:48   [Probability] Practice_en_Set_06.txt try 4: rejected (parsed 23 questions, numbers 126…150)
@@ -86,4 +83,8 @@
 10-10 14:17:49   [Linear_Programming] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
 10-10 14:18:09   [Probability] Practice_en_Set_04.txt try 2: rejected (parsed 23 questions, numbers 76…99)
 10-10 14:19:17   [Number_Series] review Important_Formulas_hi.txt: 1 issue(s): - Invented statistic "70% श्रेणियाँ यहीं सुलझती हैं" in step 1 of गति-सूत्र → Remove the unverified perc
+10-10 14:20:34   [Probability] Practice_en_Set_04.txt try 3: rejected (parsed 21 questions, numbers 76…99)
+10-10 14:20:51   [Linear_Programming] Practice_en_Set_05.txt try 1: rejected (Q106:answer_solution_conflict,Q112:leaked_reasoning,Q114:leaked_reasoning,Q116:leaked_reasoning,Q121:leaked_re
+10-10 14:22:37   [Number_Series] review: 7 section(s) corrected, 0 failed
+10-10 14:22:37   [Number_Series] written 7, failed 0; AI calls today 145/100000
 ```

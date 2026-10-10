@@ -1,0 +1,152 @@
+# 🪄 Short Tricks — Number Series & Logic
+
+---
+
+┌─────────────────────────────────────────────────────────┐
+│ **TRICK 1 — "D-S-Q-C" : The Detective's Ladder**        │
+│                                                         │
+│ **D**ifference → **S**econd difference → **Q**uotient → │
+│ **C**ombination                                         │
+│                                                         │
+│ Always climb the ladder in order: first subtract        │
+│ neighbours, then subtract again, then divide, then look │
+│ for mixed (+, ×) patterns. Most exam series surrender   │
+│ at the first two rungs!                                 │
+└─────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────┐
+│ **TRICK 2 — "GAP grows? Multiply! GAP steady? Add!"**   │
+│                                                         │
+│ If the gaps between terms are roughly EQUAL →           │
+│ arithmetic (add/subtract).                              │
+│ If the gaps themselves GROW fast → think multiplication │
+│ or squares.                                             │
+│ Memory hook: *"Steady steps walk, growing gaps fly."*   │
+└─────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────┐
+│ **TRICK 3 — "n² ± n²" : The Square Neighbourhood**      │
+│                                                         │
+│ Numbers like 26, 35, 50, 65, 82 scream "I live next to  │
+│ a square!" (25+1, 36−1, 49+1, 64+1, 81+1).              │
+│ Whenever a term sits within ±3 of a perfect square or   │
+│ cube, CHECK that pattern first.                         │
+│ Mnemonic: *"Every oddball number has a square landlord."*│
+└─────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────┐
+│ **TRICK 4 — "×2+1, ×2+2, ×2+3…" : The Escalator**       │
+│                                                         │
+│ Series like 3, 7, 16, 35, 74 → each term ×2 plus a      │
+│ rising number (+1, +2, +3, +4).                         │
+│ When doubling roughly fits but not exactly, the         │
+│ leftover is an arithmetic rider.                        │
+│ Hook: *"Double the passenger, add one more stop."*      │
+└─────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────┐
+│ **TRICK 5 — "ALT-ERNATE" : The Two-Headed Snake**       │
+│                                                         │
+│ If differences jump wildly (small, big, small, big),    │
+│ split the series into ODD-position and EVEN-position    │
+│ terms — two clean series hiding in one.                 │
+│ Mnemonic: *"When one snake wriggles, check if it's      │
+│ actually TWO snakes."*                                  │
+└─────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────┐
+│ **TRICK 6 — "Prime Time" : 2-3-5-7-11-13**              │
+│                                                         │
+│ Series of primes, primes±1, or prime gaps appear often. │
+│ Chant the first 10 primes like a phone number:          │
+│ **2-3-5-7 / 11-13 / 17-19 / 23-29**                     │
+│ If differences are 1,2,2,4,2,4… suspect primes!         │
+└─────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────┐
+│ **TRICK 7 — "FIBO the Builder" : a+b=c**                │
+│                                                         │
+│ 1, 1, 2, 3, 5, 8, 13… each term = sum of previous two.  │
+│ Variants: a+b−1, a×b, a+2b.                             │
+│ Test: does term 3 ≈ term 1 + term 2? If yes, Fibonacci  │
+│ family. Hook: *"FIBO builds every floor from the two    │
+│ floors below."*                                         │
+└─────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────┐
+│ **TRICK 8 — "CUBE-icle" : The Cube Office**             │
+│                                                         │
+│ Memorise cubes 1³–15³ cold:                             │
+│ 1, 8, 27, 64, 125, 216, 343, 512, 729, 1000,            │
+│ 1331, 1728, 2197, 2744, 3375.                           │
+│ Mnemonic for 11–13: *"1331 is a palindrome palace,      │
+│ 1728 = a dozen gross, 2197 = 13's lucky cube."*         │
+└─────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────┐
+│ **TRICK 9 — "DIGIT Flip" : Sum, Product, Reverse**      │
+│                                                         │
+│ Letter/digit series trick: when numbers look random,    │
+│ try digit operations — sum of digits, product of        │
+│ digits, or reversal (12→21, 36→63).                     │
+│ Hook: *"When the number won't talk, interrogate its     │
+│ digits."*                                               │
+└─────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────┐
+│ **TRICK 10 — "A1Z26 Chant" : Alphabet = Numbers**       │
+│                                                         │
+│ For letter series, instantly convert: A=1 … Z=26.       │
+│ Anchor letters — the multiples of 5:                    │
+│ **E=5, J=10, O=15, T=20, Y=25**, plus **Z=26** as the   │
+│ end anchor.                                             │
+│ Mnemonic: *"E-J-O-T-Y: Every Joker Owes Twenty Yen."*   │
+│ From these anchors, count ±1, ±2 to any letter fast.    │
+└─────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────┐
+│ **TRICK 11 — "Vowel VIP" : AEIOU in Letter Series**     │
+│                                                         │
+│ Many letter series hide vowels, consonant skips, or     │
+│ reverse-alphabet pairs (AZ, BY, CX, DW… sum = 27).      │
+│ Rule: *"A+Z = 27, B+Y = 27 — the 27 Club."*             │
+│ If letters pair to 27, it's a mirror series.            │
+└─────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────┐
+│ **TRICK 12 — "Wrong-Number Radar" : The 3-Second Scan** │
+│                                                         │
+│ To find the WRONG term: compute differences of the      │
+│ whole series first. The wrong term creates TWO odd      │
+│ gaps (one before it, one after).                        │
+│ Hook: *"A liar always stains both neighbours."*         │
+│ Fix the gap pattern, and the impostor exposes itself.   │
+└─────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────┐
+│ **TRICK 13 — "Syllogism Venn, Never Verbal"**           │
+│                                                         │
+│ In logic (All A are B…), NEVER argue in words — draw    │
+│ circles. "All" = inner circle; "Some" = overlapping;    │
+│ "No" = separate circles.                                │
+│ Mnemonic: *"Words deceive, circles never lie."*         │
+│ Check conclusions against EVERY possible diagram.       │
+└─────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────┐
+│ **TRICK 14 — "SOME ≠ ALL, but ALL ⇒ SOME"**             │
+│                                                         │
+│ The classic trap: "All A are B" DOES imply "Some A are  │
+│ B", but "Some A are B" NEVER implies "All A are B".     │
+│ Memory hook: *"The ocean contains a drop; a drop        │
+│ contains no ocean."*                                    │
+└─────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────┐
+│ **TRICK 15 — "Ratio Rope" for Mixed Series**            │
+│                                                         │
+│ When terms alternate operations (×2, ÷3, ×2, ÷3…),      │
+│ tie terms in pairs with a "rope": (t1→t2), (t3→t4).     │
+│ The same operation repeats within each pair.            │
+│ Hook: *"Pair them before you scare them."*              │
+└─────────────────────────────────────────────────────────┘
