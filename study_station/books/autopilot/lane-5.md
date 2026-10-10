@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 10-10-2026 04:09 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:33 PM
+**आख़िरी update:** 10-10-2026 04:10 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:33 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -40,7 +40,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 14:48:41   [Probability] set 03 try 4: rejected (parsed 23 questions, numbers 51…75)
 10-10 14:48:41   [Probability] FAILED set 03: no version passed the checks — files left as they were
 10-10 14:51:11   [Probability] set 05 try 1: rejected (parsed 24 questions, numbers 101…125)
 10-10 14:52:30   [Probability] set 05 try 2: rejected (parsed 24 questions, numbers 101…125)
@@ -80,4 +79,5 @@
 10-10 15:56:54   [Probability] written 0, failed 5; AI calls today 162/100000
 10-10 15:56:54 NOT OK 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_21_Probability after 98 min: todo [] problems ['Set 01 en: 2/25 parsed', 'Set 01 hi: 2/25 parsed', 'Set 02 en: 1/25 parsed', 'Set 02 hi: 1/25 parsed']
 10-10 15:56:57 worker 4: nothing left
+10-10 16:10:16 autopilot end: done 1, failed 4
 ```
