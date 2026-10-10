@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 09:29 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
+**आख़िरी update:** 10-10-2026 09:44 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 58 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 73 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -52,9 +52,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 08:40:12 worker 5: nothing left
-10-10 08:40:40   [Syllogism] review Flashcards_hi.txt: 1 issue(s): - Card 5 back: “भंसक (रिफ्ट) घाटी” uses the incorrect Hindi word “भंसक” for rift valley → replace with “भ्रंश (र
-10-10 08:41:56   [Mirror_Water_Images] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 10-10 08:42:12   [Figure_Series] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 10-10 08:44:03   [Syllogism] review PYQ_en.txt: 1 issue(s): - Q10 answer (c) and explanation are incorrect: from "No bird is a mammal" and "All sparrows are birds", only conclusio
 10-10 08:44:54   [Figure_Series] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
@@ -92,4 +89,7 @@
 10-10 09:17:40 NOT OK 12th_Level/Reasoning/Chapter_22_Figure_Series after 66 min: todo ['Set 03 en: todo', 'Set 03 hi: todo'] problems ['Feynman_hi.txt: Hindi file is mostly not in Hindi', 'Feynman_hi.txt: much shorter than the English section (693 v', 'Short_Tricks_hi.txt: Hindi file is mostly not in Hindi']
 10-10 09:17:43 worker 4: nothing left
 10-10 09:27:48   [Sitting_Arrangement] Practice_en_Set_02.txt try 3: re-solve disagrees (Q34 key c vs re-solve b, Q50 key b vs re-solve ?)
+10-10 09:39:19   [Sitting_Arrangement] Practice_en_Set_02.txt try 4: re-solve disagrees (Q26 key a vs re-solve -, Q28 key a vs re-solve c, Q29 key b vs re-solve -, Q30 key a vs re-solve -, 
+10-10 09:39:19   [Sitting_Arrangement] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
+10-10 09:39:19   [Sitting_Arrangement] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
 ```
