@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 05:17 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
+**आख़िरी update:** 10-10-2026 05:33 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,12 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 23 Syllogism (12th Reasoning) | ✍️ लिख रहा है | 90 मिनट |
-| W4 | Chapter 24 Statement Assumption (12th Reasoning) | ✍️ लिख रहा है | 87 मिनट |
-| W5 | Chapter 22 Figure Series (12th Reasoning) | ✍️ लिख रहा है | 125 मिनट |
-| W6 | Chapter 20 Mirror Water Images (12th Reasoning) | ✍️ लिख रहा है | 184 मिनट |
-| W7 | Chapter 21 Paper Folding Cutting (12th Reasoning) | ✍️ लिख रहा है | 155 मिनट |
-| W8 | Chapter 25 Statement Argument (12th Reasoning) | ✍️ लिख रहा है | 60 मिनट |
+| W1 | Chapter 23 Syllogism (12th Reasoning) | ✍️ लिख रहा है | 106 मिनट |
+| W4 | Chapter 24 Statement Assumption (12th Reasoning) | ✍️ लिख रहा है | 102 मिनट |
+| W5 | Chapter 22 Figure Series (12th Reasoning) | ✍️ लिख रहा है | 140 मिनट |
+| W6 | Chapter 20 Mirror Water Images (12th Reasoning) | ✍️ लिख रहा है | 199 मिनट |
+| W7 | Chapter 21 Paper Folding Cutting (12th Reasoning) | ✍️ लिख रहा है | 171 मिनट |
+| W8 | Chapter 25 Statement Argument (12th Reasoning) | ✍️ लिख रहा है | 76 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -53,24 +53,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 04:52:40   [Syllogism] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
-10-10 04:53:49   [Mirror_Water_Images] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-10-10 04:54:07   [Statement_Assumption] Practice_en_Set_02.txt try 1: re-solve disagrees (Q31 key c vs re-solve a, Q38 key b vs re-solve c)
-10-10 04:54:10   [Paper_Folding_Cutting] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-10-10 04:54:36   [Figure_Series] Practice_en_Set_04.txt try 3: re-solve disagrees (Q79 key b vs re-solve c, Q87 key a vs re-solve b)
-10-10 04:55:30   [Mirror_Water_Images] Practice_hi_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
-10-10 04:55:30   [Statement_Argument] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-10-10 04:57:12   [Statement_Assumption] Practice_en_Set_02.txt try 2: re-solve disagrees (Q31 key c vs re-solve a)
-10-10 04:57:42   [Mirror_Water_Images] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-10-10 04:58:02   [Cubes_Dice] Practice_en_Set_06.txt try 4: re-solve disagrees (Q134 key b vs re-solve c)
-10-10 04:58:02   [Cubes_Dice] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
-10-10 04:58:02   [Cubes_Dice] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-10-10 04:58:02   [Cubes_Dice] written 14, failed 11; AI calls today 574/100000
-10-10 04:58:02 NOT OK 12th_Level/Reasoning/Chapter_19_Cubes_Dice after 166 min: todo ['Mind_Map.txt', 'Set 01 en: todo', 'Set 01 hi: todo', 'Set 02 en: todo'] problems []
-10-10 04:58:02 worker 2: nothing left
-10-10 04:58:54   [Mirror_Water_Images] Practice_en_Set_04.txt try 1: rejected (Q86:leaked_reasoning)
-10-10 04:59:08   [Statement_Argument] Practice_en_Set_02.txt try 1: re-solve disagrees (Q27 key d vs re-solve c, Q28 key c vs re-solve b, Q31 key c vs re-solve a, Q38 key c vs re-solve a, 
-10-10 04:59:21   [Statement_Assumption] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 10-10 04:59:32   [Statement_Argument] Practice_en_Set_02.txt try 2: rejected (parsed 0 questions, numbers -…-)
 10-10 05:02:33   [Statement_Assumption] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 10-10 05:04:12   [Statement_Assumption] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
@@ -93,4 +75,22 @@
 10-10 05:16:41   [Syllogism] Practice_en_Set_04.txt try 3: re-solve disagrees (Q77 key a vs re-solve b)
 10-10 05:17:25   [Statement_Assumption] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 10-10 05:17:39   [Statement_Assumption] Practice_en_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 05:18:26   [Figure_Series] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+10-10 05:18:44   [Statement_Argument] Practice_en_Set_03.txt try 1: re-solve disagrees (Q53 key c vs re-solve b, Q65 key b vs re-solve c)
+10-10 05:19:43   [Mirror_Water_Images] Practice_en_Set_04.txt try 4: re-solve disagrees (Q89 key a vs re-solve ?, Q90 key c vs re-solve a, Q91 key d vs re-solve a, Q96 key d vs re-solve b, 
+10-10 05:19:43   [Mirror_Water_Images] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
+10-10 05:19:43   [Mirror_Water_Images] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
+10-10 05:20:00   [Mirror_Water_Images] Practice_en_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 05:21:44   [Statement_Assumption] Practice_en_Set_04.txt try 2: re-solve disagrees (Q81 key b vs re-solve c, Q97 key d vs re-solve c)
+10-10 05:21:59   [Statement_Argument] Practice_en_Set_03.txt try 2: re-solve disagrees (Q60 key c vs re-solve a)
+10-10 05:23:00   [Figure_Series] Practice_en_Set_06.txt try 1: rejected (Q128:leaked_reasoning,Q131:leaked_reasoning,Q133:leaked_reasoning,Q136:leaked_reasoning,Q149:leaked_reasoning)
+10-10 05:24:36   [Statement_Argument] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+10-10 05:25:03   [Statement_Assumption] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+10-10 05:25:07   [Paper_Folding_Cutting] Practice_en_Set_06.txt try 1: re-solve disagrees (Q126 key c vs re-solve -, Q127 key c vs re-solve -, Q128 key c vs re-solve -, Q129 key b vs re-solve
+10-10 05:26:22   [Syllogism] Practice_en_Set_04.txt try 4: re-solve disagrees (Q83 key c vs re-solve d, Q90 key c vs re-solve d)
+10-10 05:26:22   [Syllogism] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
+10-10 05:26:22   [Syllogism] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
+10-10 05:28:16   [Statement_Assumption] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+10-10 05:28:17   [Statement_Argument] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+10-10 05:32:15   [Statement_Assumption] Practice_en_Set_05.txt try 1: re-solve disagrees (Q116 key b vs re-solve c)
 ```
