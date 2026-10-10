@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 07:35 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
+**आख़िरी update:** 10-10-2026 07:36 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,13 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 23 Data Interpretation (Graduation Maths) | 🔎 review हो रहा है | 44 मिनट |
-| W2 | Chapter 26 Permutation Combination (Graduation Maths) | 🔧 सुधार रहा है | 0 मिनट |
-| W3 | Chapter 13 Mixture Alligation (Graduation Maths) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 27 Number Series (Graduation Maths) | ✍️ लिख रहा है | 56 मिनट |
-| W5 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 10 मिनट |
-| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 71 मिनट |
-| W7 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 42 मिनट |
+| W1 | Chapter 23 Data Interpretation (Graduation Maths) | 🔎 review हो रहा है | 46 मिनट |
+| W2 | Chapter 26 Permutation Combination (Graduation Maths) | 🔧 सुधार रहा है | 1 मिनट |
+| W4 | Chapter 27 Number Series (Graduation Maths) | ✍️ लिख रहा है | 58 मिनट |
+| W5 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 11 मिनट |
+| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 72 मिनट |
+| W7 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 44 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -30,9 +29,9 @@
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 20 | 3 | 5 |
 | Graduation GK | 27 | 1 | 0 |
-| Graduation Reasoning | 13 | 0 | 17 |
+| Graduation Reasoning | 14 | 0 | 16 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **247** | **6** | **43** |
+| **कुल** | **248** | **6** | **42** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -49,14 +48,11 @@
 - Chapter 22 Calculus (Maths) — 2 बार
 - Chapter 15 Geometry (Maths) — 2 बार
 - Chapter 19 Trigonometry (Maths) — 1 बार
-- Chapter 13 Mixture Alligation (Maths) — 1 बार
 - Chapter 26 Permutation Combination (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 07:18:12   [Probability] Practice_en_Set_04.txt try 2: rejected (parsed 20 questions, numbers 76…100)
-10-10 07:19:12   [Permutation_Combination] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 10-10 07:19:12   [Trigonometry] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 10-10 07:20:12   [Statistics] review Important_Formulas_en.txt: 2 issue(s): - The relation AM–GM–HM incorrectly states GM² = AM × HM as a general identity; it holds only for two nu
 10-10 07:21:26   [Probability] Practice_en_Set_04.txt try 3: rejected (parsed 22 questions, numbers 76…100)
@@ -95,4 +91,6 @@
 10-10 07:35:08   [Permutation_Combination] written 1, failed 0; AI calls today 215/100000
 10-10 07:35:14   [Mixture_Alligation] review: 1 section(s) corrected, 0 failed
 10-10 07:35:14   [Mixture_Alligation] written 1, failed 0; AI calls today 216/100000
+10-10 07:35:36 DONE Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_13_Mixture_Alligation in 8 min → aeda2e9d
+10-10 07:35:40 worker 2: nothing left
 ```
