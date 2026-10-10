@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 09:06 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 05:00 PM
+**आख़िरी update:** 10-10-2026 09:07 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 05:00 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -44,7 +44,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 17:38:38   [Dictionary_Order] Practice_en_Set_06.txt try 1: rejected (Q128:leaked_reasoning,Q129:leaked_reasoning,Q131:leaked_reasoning,Q134:leaked_reasoning,Q136:leaked_reasoning)
 10-10 17:44:27   [Advanced_Puzzles] Practice_en_Set_03.txt try 3: re-solve disagrees (Q63 key d vs re-solve a)
 10-10 17:51:03   [Dictionary_Order] Practice_en_Set_06.txt try 2: re-solve disagrees (Q126 key c vs re-solve ?, Q128 key d vs re-solve c, Q129 key a vs re-solve c, Q132 key d vs re-solve
 10-10 18:02:07   [Advanced_Puzzles] wrote Practice_en_Set_03.txt (write, 25 MCQs)
@@ -84,4 +83,5 @@
 10-10 21:01:49   [Advanced_Puzzles] written 0, failed 2; AI calls today 85/100000
 10-10 21:01:50 NOT OK Graduation_Level/Reasoning/Chapter_30_Advanced_Puzzles after 18 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems ['Important_Rules_hi.txt: much shorter than the English sectio']
 10-10 21:01:50 worker 6: nothing left
+10-10 21:07:05 autopilot end: done 2, failed 5
 ```
