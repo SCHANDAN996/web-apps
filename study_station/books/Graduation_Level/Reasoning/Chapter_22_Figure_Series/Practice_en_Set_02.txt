@@ -1,0 +1,151 @@
+Questions 26–50: Medium
+
+26. In a figure series, a dot moves one corner clockwise in each step while a cross moves two corners anticlockwise. If the dot is at the top-left corner in step 1, where will it be in step 4?
+(a) Bottom-left (b) Bottom-right (c) Top-left (d) Top-right
+Answer: (a)
+Solution: The tempting answer is bottom-right, obtained by counting only two moves from step 1. From step 1 to step 4 there are exactly three moves: top-left → top-right → bottom-right → bottom-left, and the cross's movement is irrelevant to the dot, a classic double-relationship trap. So the answer is bottom-left.
+Source: PYQ-style
+
+27. A series shows a triangle rotating 90° clockwise each step, with one extra line added inside at each step. Which figure comes next after a triangle pointing right with two internal lines?
+(a) Triangle pointing up with three lines (b) Triangle pointing down with three lines (c) Triangle pointing down with two lines (d) Triangle pointing right with three lines
+Answer: (b)
+Solution: The trap is the option with the triangle pointing up — candidates who rotate 180° by mistake pick it. Rotation is 90° clockwise: right → down, and lines increase by one: two → three. So the answer is triangle pointing down with three lines.
+Source: PYQ-style
+
+28. Find the odd figure out: four figures each contain a circle and a square. In three, the circle is inside the square; in one, the square is inside the circle.
+(a) The third figure (b) The figure with square inside circle (c) The second figure (d) The first figure
+Answer: (b)
+Solution: The trap is to look for size or shading differences, which are identical across all four. The only real difference is the inside-outside relationship of the two shapes. So the answer is the figure with the square inside the circle.
+Source: PYQ-style
+
+29. In a series, the number of sides of the outer figure increases by one each step (3, 4, 5, 6) while the number of inner dots decreases by one (6, 5, 4, 3). What comes next?
+(a) Heptagon with 3 dots (b) Hexagon with 2 dots (c) Heptagon with 2 dots (d) Pentagon with 2 dots
+Answer: (c)
+Solution: The tempting wrong choice keeps the hexagon, forgetting the outer figure must also advance. Outer: 6 → 7 sides (heptagon); inner: 3 → 2 dots. So the answer is heptagon with 2 dots.
+Source: PYQ-style
+
+30. A square is divided into 4 equal smaller squares. In each step, one more small square is shaded, moving clockwise from the top-left, and the pattern restarts once all four are shaded. How many small squares are shaded in step 5?
+(a) 4 (b) 1 (c) 2 (d) 3
+Answer: (b)
+Solution: The trap answer is 4, assuming shading keeps accumulating. With only 4 cells, after all four are shaded in step 4 the pattern cycles back, so step 5 restarts with one shaded square. So the answer is 1.
+Source: PYQ-style
+
+31. Five figures are given; four can be obtained from each other by rotation, one cannot. Which is the odd one?
+(a) The largest figure (b) The figure with darkest shading (c) The figure that is a mirror image of the others (d) The first figure
+Answer: (c)
+Solution: The trap is to classify by size or shading, which are irrelevant in rotation problems. A mirror image can never be produced by rotation alone, so the mirror-image figure is the odd one. So the answer is the figure that is a mirror image of the others.
+Source: PYQ-style
+
+32. In a series, an arrow rotates 45° clockwise in steps 1–2, 90° in steps 2–3, 135° in steps 3–4. By how much should it rotate next?
+(a) 180° (b) 135° (c) 225° (d) 90°
+Answer: (a)
+Solution: The trap is 135°, repeating the last increment. The increments themselves grow by 45°: 45, 90, 135, so the next increment is 180°. So the answer is 180°.
+Source: PYQ-style
+
+33. A figure series alternates: circle, square, circle, square… Inside each shape, the number of lines equals the position number of the term. What is the 5th figure?
+(a) Circle with 4 lines (b) Square with 5 lines (c) Square with 4 lines (d) Circle with 5 lines
+Answer: (d)
+Solution: The trap is square with 5 lines — candidates who miscount the alternation pick it. Odd positions are circles, so the 5th is a circle, and it contains 5 lines. So the answer is circle with 5 lines.
+Source: PYQ-style
+
+34. Four figures show a star inside different shapes. In three, the star touches the boundary of the outer shape; in one it does not. Identify the odd figure.
+(a) The figure with the largest star (b) The first figure (c) The figure with a circle outside (d) The figure where the star does not touch the boundary
+Answer: (d)
+Solution: The trap is to classify by the outer shape's type, which varies in all figures and is a deliberate distraction. The constant property in three figures is contact between star and boundary. So the answer is the figure where the star does not touch the boundary.
+Source: PYQ-style
+
+35. In a series, a black sector of a circle covers 45°, then 90°, then 135°. What does it cover next?
+(a) 270° (b) 180° (c) 135° (d) 225°
+Answer: (b)
+Solution: The trap is 225°, from adding 90° instead of 45°. The sector grows by a constant 45° each step: 45, 90, 135, 180. So the answer is 180°.
+Source: PYQ-style
+
+36. A 3×3 grid of figures follows the rule: figure in column 3 = superimposition of columns 1 and 2, with common lines cancelled. If row 2 column 1 has a vertical line and a horizontal line, and column 2 has a horizontal line and a dot, what is column 3?
+(a) Horizontal line and dot (b) Vertical line and dot (c) Vertical line only (d) Two horizontal lines and a dot
+Answer: (b)
+Solution: The trap is keeping the horizontal line, forgetting the cancellation rule. The horizontal line appears in both, so it cancels; the vertical line and dot remain. So the answer is vertical line and dot.
+Source: PYQ-style
+
+37. In a series, each figure has two elements: the left element of one step becomes the right element of the next, and a new element enters on the left. If step 3 has [triangle | circle], what is step 4?
+(a) [new element | triangle] (b) [circle | triangle] (c) [triangle | new element] (d) [circle | circle]
+Answer: (a)
+Solution: The trap is swapping the two existing elements, which mimics a simple interchange rule. Actually the left element (triangle) shifts right, and a fresh element enters on the left. So the answer is new element on the left and triangle on the right.
+Source: PYQ-style
+
+38. Find the odd figure: four figures show lines intersecting a circle. In three, the line passes through the centre; in one it is a tangent.
+(a) The figure with two lines (b) The figure with the largest circle (c) The figure with the tangent (d) The first figure
+Answer: (c)
+Solution: The trap is counting lines or comparing circle sizes, which are distractors. The defining property is whether the line passes through the centre; a tangent touches at one point only. So the answer is the figure with the tangent.
+Source: PYQ-style
+
+39. A series shows letter-like symbols made of straight lines only, with the number of line segments 2, 3, 4, 5. How many segments should the next figure have?
+(a) 7 (b) 5 (c) 6 (d) 4
+Answer: (c)
+Solution: The trap is 7, from adding 2 to the last term. The increase is a constant +1: 2, 3, 4, 5, 6. So the answer is 6.
+Source: PYQ-style
+
+40. In a figure classification question, figures are grouped by the rule "number of enclosed regions is even" versus "odd". A figure shows a square with both diagonals drawn. Which group does it belong to?
+(a) Even (2 regions) (b) Odd (3 regions) (c) Even (4 regions) (d) Odd (5 regions)
+Answer: (c)
+Solution: The trap is counting 3 regions by missing one triangle. Both diagonals divide the square into exactly 4 triangular regions, which is even. So the answer is even, with 4 regions.
+Source: PYQ-style
+
+41. A series shows a hexagon with one vertex marked; the mark moves 1 vertex, then 2 vertices, then 3 vertices clockwise. Where does it move next?
+(a) 4 vertices clockwise (b) 3 vertices clockwise (c) 4 vertices anticlockwise (d) 2 vertices clockwise
+Answer: (a)
+Solution: The trap is repeating 3 vertices, treating the last step as constant. The jumps grow by one each time: 1, 2, 3, then 4, all clockwise. So the answer is 4 vertices clockwise.
+Source: PYQ-style
+
+42. Four figures each contain three shapes. In three, the shapes are arranged small–medium–large from left to right; in one, the order is medium–small–large. Which is the odd one?
+(a) The first figure (b) The figure with circles (c) The largest figure (d) The figure with medium–small–large order
+Answer: (d)
+Solution: The trap is classifying by shape type, which differs across all figures and is a planted distraction. The invariant is the ascending size order, broken only by the medium–small–large figure. So the answer is the figure with medium–small–large order.
+Source: PYQ-style
+
+43. In a series, a shaded triangle inside a square occupies corners in the order: top-left, top-right, bottom-right. Which corner comes next?
+(a) Top-right (b) Top-left (c) Bottom-left (d) Centre
+Answer: (c)
+Solution: The trap is top-left, assuming the pattern restarts immediately. The triangle moves one corner clockwise: top-left → top-right → bottom-right → bottom-left. So the answer is bottom-left.
+Source: PYQ-style
+
+44. A figure series shows two independent patterns: the outer shape's sides increase by 1 each step, and the inner shape rotates 90° anticlockwise each step. If step 4 has a hexagon with an arrow pointing left, what is step 5?
+(a) Heptagon with arrow pointing up (b) Hexagon with arrow pointing down (c) Pentagon with arrow pointing down (d) Heptagon with arrow pointing down
+Answer: (d)
+Solution: This is a double-relationship trap: the option with the hexagon tempts those who track only the arrow, and the arrow-up option tempts those who rotate clockwise. Outer: hexagon → heptagon; inner arrow: left rotated 90° anticlockwise → down. So the answer is heptagon with arrow pointing down.
+Source: PYQ-style
+
+45. Find the odd figure: four figures show a line dividing a rectangle. In three, the two resulting parts are equal in area; in one they are unequal.
+(a) The figure with a vertical division (b) The figure with a diagonal division (c) The first figure (d) The figure with unequal parts
+Answer: (d)
+Solution: The trap is classifying by the direction of the dividing line — but diagonal, vertical and horizontal lines can all bisect a rectangle equally. The real criterion is equality of areas. So the answer is the figure with unequal parts.
+Source: PYQ-style
+
+46. In a series, the number of dots doubles each step: 1, 2, 4, 8. How many dots in the 6th figure?
+(a) 64 (b) 16 (c) 24 (d) 32
+Answer: (d)
+Solution: The trap is 16, which is the 5th figure, not the 6th — an off-by-one error. Step 5 = 16, step 6 = 32. So the answer is 32.
+Source: PYQ-style
+
+47. A series alternates shading: fully shaded, half shaded, unshaded, fully shaded, half shaded… What is the 7th figure?
+(a) Quarter shaded (b) Fully shaded (c) Unshaded (d) Half shaded
+Answer: (b)
+Solution: The trap is half shaded, from miscounting the cycle position. The cycle length is 3; positions 1, 4, 7 are fully shaded. So the answer is fully shaded.
+Source: PYQ-style
+
+48. In a 2×2 analogy, figure 1 becomes figure 2 by rotating 90° clockwise and swapping black for white. Figure 3 is a white circle with a black dot at the top. What is figure 4?
+(a) Black circle with white dot at the right (b) White circle with black dot at the right (c) Black circle with white dot at the left (d) Black circle with white dot at the bottom
+Answer: (a)
+Solution: The trap is keeping the circle white — candidates often apply the rotation but forget the colour swap, a double-transformation trap. Rotating the top dot 90° clockwise puts it at the right, and colours swap: black circle, white dot. So the answer is black circle with white dot at the right.
+Source: PYQ-style
+
+49. Four figures show arrows inside circles. In three, the arrow points toward the thicker arc of the circle; in one it points away. Which is the odd one?
+(a) The figure where the arrow points away from the thick arc (b) The figure with the longest arrow (c) The figure with the thickest arc (d) The first figure
+Answer: (a)
+Solution: The trap is comparing arrow lengths or arc thickness, which vary randomly as distractors. The consistent relation is arrow direction relative to the thick arc. So the answer is the figure where the arrow points away from the thick arc.
+Source: PYQ-style
+
+50. A series shows a plus sign whose arms lengthen alternately: horizontal arms grow in odd steps, vertical arms grow in even steps. After step 4 (long vertical, short horizontal), what changes in step 5?
+(a) Horizontal arms lengthen (b) Vertical arms lengthen (c) Both lengthen (d) Both shorten
+Answer: (a)
+Solution: The trap is "both lengthen", from assuming the growth accumulates in all directions. The rule is strictly alternating: step 5 is odd, so only the horizontal arms grow. So the answer is horizontal arms lengthen.
+Source: PYQ-style

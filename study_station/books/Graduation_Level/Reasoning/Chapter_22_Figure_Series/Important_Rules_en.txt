@@ -1,0 +1,44 @@
+# Important Rules & Approaches — Figure Series/Classification
+
+## Part 1: Key Rules/Approaches
+
+| Rule Name | Description | Example |
+|---|---|---|
+| Observe One Element at a Time | Track a single element (dot, arrow, line) across all figures instead of viewing the whole figure at once. | Follow only the black dot: it moves one corner clockwise in each step. |
+| Rotation Rule | Check if the figure or its element rotates by a fixed angle (45°, 90°, 135°, 180°), clockwise or anticlockwise. | An arrow rotates 90° clockwise in every successive figure. |
+| Movement Rule | Elements shift position along corners, sides, or rows in a fixed step pattern (1 step, 2 steps, alternating). | A star moves two sides anticlockwise each time. |
+| Addition/Deletion Rule | Elements are added or removed in a fixed order or count (one line added per step, one shape removed alternately). | Each figure gains one extra side: triangle → square → pentagon → hexagon. |
+| Mirror/Water Image Rule | The figure flips horizontally (mirror) or vertically (water image) at regular intervals. | Figure 3 is the mirror image of figure 1. |
+| Interchange/Swap Rule | Two or more elements swap positions following a fixed sequence. | The circle and square exchange places in every alternate figure. |
+| Shading Rule | Shaded/unshaded regions shift, increase, or alternate in a predictable order. | The shaded sector moves one segment clockwise per step. |
+| Size Change Rule | Elements grow, shrink, or alternate between large and small. | The inner circle enlarges while the outer one shrinks. |
+| Counting Rule | Number of lines, dots, angles, or shapes follows a number pattern (e.g., arithmetic +1, +2; geometric ×2; or Fibonacci-type addition). | Dots increase as 2, 4, 6, 8 (arithmetic, +2 each step). |
+| Alternating Pattern Rule | Two independent patterns run in alternate figures (odd positions follow one rule, even positions another). | Figures 1, 3, 5 rotate 90°; figures 2, 4, 6 add one line. |
+| Combination Rule | In analogy/series, figure 3 = combination (union, intersection, or difference) of figures 1 and 2. | Common lines of the first two figures disappear in the third (XOR rule). |
+| Odd-One-Out (Classification) | Compare all options on one property at a time: rotation vs reflection, number of elements, open/closed figure, symmetry. | Four figures are rotations of each other; one is a mirror image — that is the odd one. |
+| Elimination Approach | Rule out options that break any confirmed pattern before choosing the answer. | If the dot must move clockwise, reject all options where it moves anticlockwise. |
+| End-to-Start Check | In a series, verify whether the last figure connects back to the first (cyclic pattern). | After 4 rotations of 90°, the figure returns to its original position. |
+
+## Part 2: Time Management
+
+| Rule | Description | Action |
+|---|---|---|
+| 15-Second Rule | If the pattern is not identified within 15 seconds of scanning the figures, mark the question and move on. | Skip temporarily; return in the second round. |
+| 45-Second Rule | Spend a maximum of 45 seconds on any single figure series/classification question, even if the pattern seems close. | Pick the best option by elimination and proceed. |
+| First-Pass Strategy | In the first pass, solve only questions where the pattern is visible instantly (rotation, counting, simple movement). | Secure quick marks; build confidence. |
+| Second-Pass Strategy | Revisit marked questions with fresh eyes; alternating and combination patterns often click on a second look. | Attempt only if at least one option can be eliminated. |
+| Blind-Guess Ban | Never guess without eliminating at least two options; non-verbal questions have no partial logic credit. | No elimination → leave unattempted if negative marking applies. |
+| Practice Benchmark | During practice, aim for 30–35 seconds per question on easy sets and 45 seconds on moderate sets. | Use a timer in every practice set. |
+
+## Part 3: Logical/Mathematical Formulas
+
+| Formula | Application | Example |
+|---|---|---|
+| Number of sides progression: n, n+1, n+2, … | Figures where polygon sides increase by a fixed count. | 3, 4, 5, 6 sides → next figure has 7 sides (heptagon). |
+| Rotation cycle: 360° ÷ step angle = figures per full cycle | Predicts when a rotating element returns to its start position. | 90° steps → pattern repeats every 4 figures. |
+| Element count: a, a+d, a+2d, … (arithmetic) | Dots/lines/shapes increasing or decreasing by a constant difference. | 1, 3, 5, 7 dots → next has 9 dots. |
+| Element count: a, ar, ar², … (geometric) | Elements doubling or tripling per step. | 2, 4, 8, 16 regions → next has 32 regions. |
+| Position formula: (current position + step) mod total positions | Tracks an element moving around corners/sides of a figure. | Dot at corner 2, step 3, 4 corners → (2+3) mod 4 = corner 1. |
+| XOR (symmetric difference): lines common to both figures vanish; uncommon lines remain | Combination-type series and analogies. | Figure 1 ∪ Figure 2 minus common lines = Figure 3. |
+
+Note: Beyond these counting/position patterns, this chapter has no fixed formulas — pattern observation is the core skill.
