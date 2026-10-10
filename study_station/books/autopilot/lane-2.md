@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 10:55 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
+**आख़िरी update:** 10-10-2026 11:11 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W5 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 210 मिनट |
+| W5 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 226 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -20,13 +20,13 @@
 | 10th English | 17 | 0 | 3 |
 | 12th Maths | 19 | 0 | 4 |
 | 12th GK | 22 | 0 | 2 |
-| 12th Reasoning | 17 | 0 | 8 |
+| 12th Reasoning | 19 | 0 | 6 |
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 21 | 2 | 5 |
 | Graduation GK | 27 | 1 | 0 |
 | Graduation Reasoning | 18 | 0 | 12 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **256** | **5** | **35** |
+| **कुल** | **258** | **5** | **33** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -51,7 +51,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 09:51:31   [Linear_Programming] Important_Formulas_hi.txt try 1: answer too long — asking for a tighter version
 10-10 09:52:55   [Number_Series] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 10-10 09:54:15   [Probability] Practice_en_Set_04.txt try 4: rejected (parsed 22 questions, numbers 76…100)
 10-10 09:54:15   [Probability] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
@@ -91,4 +90,5 @@
 10-10 10:48:26   [Linear_Programming] Practice_en_Set_02.txt try 4: re-solve disagrees (Q42 key d vs re-solve b)
 10-10 10:48:26   [Linear_Programming] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
 10-10 10:48:26   [Linear_Programming] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+10-10 10:58:54   [Linear_Programming] Practice_en_Set_03.txt try 1: re-solve disagrees (Q71 key b vs re-solve ?, Q74 key a vs re-solve d)
 ```
