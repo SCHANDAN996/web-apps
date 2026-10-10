@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 11-10-2026 04:00 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:59 AM
+**आख़िरी update:** 11-10-2026 04:16 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:59 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,12 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | 🔧 सुधार रहा है | 1 मिनट |
-| W2 | Chapter 13 Dictionary Order (12th Reasoning) | 🔎 review हो रहा है | 0 मिनट |
-| W3 | Chapter 16 Statement Conclusion (12th Reasoning) | 🔧 सुधार रहा है | 0 मिनट |
-| W4 | Chapter 17 Course of Action (12th Reasoning) | 🔧 सुधार रहा है | 0 मिनट |
-| W5 | Chapter 20 Mirror Water Images (12th Reasoning) | 🔧 सुधार रहा है | 0 मिनट |
-| W6 | Chapter 24 Statement Assumption (12th Reasoning) | 🔧 सुधार रहा है | 0 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | 🔧 सुधार रहा है | 16 मिनट |
+| W2 | Chapter 13 Dictionary Order (12th Reasoning) | 🔎 review हो रहा है | 16 मिनट |
+| W3 | Chapter 16 Statement Conclusion (12th Reasoning) | 🔧 सुधार रहा है | 16 मिनट |
+| W4 | Chapter 17 Course of Action (12th Reasoning) | 🔧 सुधार रहा है | 3 मिनट |
+| W5 | Chapter 20 Mirror Water Images (12th Reasoning) | 🔧 सुधार रहा है | 16 मिनट |
+| W6 | Chapter 24 Statement Assumption (12th Reasoning) | 🔧 सुधार रहा है | 15 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -49,4 +49,7 @@
 11-10 04:00:16 START 12th_Level/Reasoning/Chapter_24_Statement_Assumption (FIX: todo 0, problems 1)
 11-10 04:00:21 worker 6: nothing left
 11-10 04:00:26 worker 7: nothing left
+11-10 04:03:15   [Dictionary_Order] review Flashcards_en.txt: 1 issue(s): - Card 14 claims "M is the middle letter of the alphabet (13 letters before it, 13 after it)" → M is the 13th le
+11-10 04:12:30   [Course_of_Action] repaired Short_Tricks_hi.txt (4822 chars)
+11-10 04:12:30   [Course_of_Action] written 1, failed 0; AI calls today 12/100000
 ```
