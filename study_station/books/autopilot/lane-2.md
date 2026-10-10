@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 11:45 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:29 AM
+**आख़िरी update:** 10-10-2026 11:55 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:29 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Awards (Graduation GK) | 🔧 सुधार रहा है | 16 मिनट |
-| W2 | Chapter 05 Percentage (Graduation Maths) | 🔧 सुधार रहा है | 4 मिनट |
-| W3 | Chapter 15 Geometry (Graduation Maths) | 🔧 सुधार रहा है | 13 मिनट |
-| W4 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 16 मिनट |
-| W5 | Chapter 22 Calculus (Graduation Maths) | 🔧 सुधार रहा है | 0 मिनट |
-| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 15 मिनट |
-| W7 | Chapter 26 Permutation Combination (Graduation Maths) | 🔎 review हो रहा है | 15 मिनट |
-| W8 | Chapter 27 Number Series (Graduation Maths) | ✍️ लिख रहा है | 15 मिनट |
+| W1 | Chapter 13 Awards (Graduation GK) | 🔧 सुधार रहा है | 0 मिनट |
+| W2 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 4 मिनट |
+| W3 | Chapter 15 Geometry (Graduation Maths) | 🔧 सुधार रहा है | 22 मिनट |
+| W4 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 25 मिनट |
+| W5 | Chapter 22 Calculus (Graduation Maths) | 🔧 सुधार रहा है | 9 मिनट |
+| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 25 मिनट |
+| W7 | Chapter 26 Permutation Combination (Graduation Maths) | 📤 push हो रहा है | 0 मिनट |
+| W8 | Chapter 27 Number Series (Graduation Maths) | ✍️ लिख रहा है | 25 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,29 +37,16 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 10-10 11:55 — Graduation Maths · Chapter 26 Permutation Combination
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 05 Percentage (Maths) — 1 बार
+- Chapter 05 Percentage (Maths) — 2 बार
+- Chapter 13 Awards (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 11:29:30 autopilot start: 8 workers, reverse=True
-10-10 11:29:31 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards (FIX: todo 0, problems 1)
-10-10 11:29:38 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_05_Percentage (FIX: todo 0, problems 1)
-10-10 11:29:44 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_15_Geometry (TODO: todo 1, problems 3)
-10-10 11:29:49 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_19_Trigonometry (TODO: todo 3, problems 0)
-10-10 11:29:54 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_22_Calculus (FIX: todo 0, problems 2)
-10-10 11:29:59 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability (TODO: todo 10, problems 3)
-10-10 11:30:04 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_26_Permutation_Combination (OK: todo 0, problems 0)
-10-10 11:30:09 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_27_Number_Series (TODO: todo 4, problems 2)
-10-10 11:32:49   [Geometry] wrote Feynman_en.txt (3417 chars)
-10-10 11:32:49   [Geometry] written 1, failed 0; AI calls today 9/100000
-10-10 11:32:50   [Permutation_Combination] review Content_hi.txt: 1 issue(s): - Hook title "एक ताला, जिसे खोलने में 3 साल लग सकते हैं" contradicts the example's calculation of 28 hours (10,000 
-10-10 11:33:14   [Percentage] repaired Feynman_hi.txt (2993 chars)
-10-10 11:33:14   [Percentage] written 1, failed 0; AI calls today 11/100000
 10-10 11:34:27   [Probability] Practice_en_Set_02.txt try 1: rejected (parsed 22 questions, numbers 26…49)
 10-10 11:34:41   [Trigonometry] Practice_hi_Set_05.txt try 1: rejected (parsed 24 questions, numbers 101…124)
 10-10 11:36:05   [Number_Series] wrote Feynman_en.txt (3585 chars)
@@ -77,4 +64,27 @@
 10-10 11:45:18   [Calculus] written 0, failed 1; AI calls today 28/100000
 10-10 11:46:09   [Percentage] repaired Feynman_hi.txt (2383 chars)
 10-10 11:46:09   [Percentage] written 1, failed 0; AI calls today 29/100000
+10-10 11:47:07   [Awards] FAILED Flashcards_hi.txt: too_long
+10-10 11:47:07   [Awards] written 0, failed 1; AI calls today 29/100000
+10-10 11:47:52   [Trigonometry] Practice_hi_Set_05.txt try 4: rejected (parsed 24 questions, numbers 101…124)
+10-10 11:47:52   [Trigonometry] REJECTED Practice_hi_Set_05.txt: no translation passed the checks — not written
+10-10 11:50:14   [Percentage] repaired Feynman_hi.txt (2632 chars)
+10-10 11:50:14   [Percentage] written 1, failed 0; AI calls today 32/100000
+10-10 11:50:14 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_05_Percentage after 8 min: todo [] problems ['Feynman_hi.txt: much shorter than the English section (2631 ']
+10-10 11:50:18 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming (TODO: todo 13, problems 1)
+10-10 11:51:19   [Awards] repaired Flashcards_hi.txt (4461 chars)
+10-10 11:51:19   [Awards] written 1, failed 0; AI calls today 34/100000
+10-10 11:51:19 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards after 22 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (44']
+10-10 11:51:21 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards (FIX: todo 0, problems 1)
+10-10 11:52:51   [Trigonometry] Practice_en_Set_06.txt try 1: rejected (parsed 22 questions, numbers 126…150)
+10-10 11:55:00   [Awards] repaired Flashcards_hi.txt (4039 chars)
+10-10 11:55:00   [Awards] written 1, failed 0; AI calls today 39/100000
+10-10 11:55:02   [Geometry] FAILED Feynman_hi.txt: too_long
+10-10 11:55:17   [Permutation_Combination] review: 2 section(s) corrected, 0 failed
+10-10 11:55:17   [Permutation_Combination] written 2, failed 0; AI calls today 40/100000
+10-10 11:55:28   [Calculus] repaired Feynman_hi.txt (7850 chars)
+10-10 11:55:28   [Calculus] written 1, failed 0; AI calls today 40/100000
+10-10 11:55:29 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_22_Calculus after 26 min: todo [] problems ['Feynman_hi.txt: Hindi file is mostly not in Hindi', 'Feynman_hi.txt: much shorter than the English section (7849 ']
+10-10 11:55:34   [Trigonometry] Practice_en_Set_06.txt try 2: rejected (parsed 0 questions, numbers -…-)
+10-10 11:55:36 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_22_Calculus (FIX: todo 0, problems 2)
 ```

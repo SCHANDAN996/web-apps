@@ -1,0 +1,32 @@
+# Important Formulas — Permutation & Combination
+
+| Formula Name | Formula | One-line Use-Hint |
+|---|---|---|
+| Fundamental Principle (Multiplication) | Total ways = m × n | Tasks done one after another (AND) |
+| Fundamental Principle (Addition) | Total ways = m + n | Mutually exclusive choices (OR) |
+| Factorial | n! = n × (n−1) × … × 2 × 1; 0! = 1 | Base of all counting |
+| Permutation (no repetition) | ⁿPᵣ = n! / (n−r)! | Arranging r out of n distinct items, order matters |
+| Permutation of all n | ⁿPₙ = n! | Arranging all n distinct items in a row |
+| Permutation with repetition allowed | nʳ | r places, each can be filled by any of n (e.g., PIN codes) |
+| Permutation with identical items | n! / (p! q! r! …) | n items with p, q, r… alike (e.g., letters of MISSISSIPPI) |
+| Circular Permutation (distinct) | (n−1)! | Round-table arrangements, rotations identical |
+| Circular Permutation (necklace/garland) | (n−1)! / 2 | Flips also identical (no clockwise/anticlockwise distinction) |
+| Combination | ⁿCᵣ = n! / [r!(n−r)!] | Selecting r out of n, order does not matter |
+| Complement Rule | ⁿCᵣ = ⁿCₙ₋ᵣ | Selecting r to keep = selecting (n−r) to leave out |
+| Pascal's Rule | ⁿCᵣ + ⁿCᵣ₋₁ = ⁿ⁺¹Cᵣ | Building Pascal's triangle; splitting selections |
+| Total Selections (any number) | 2ⁿ − 1 | Non-empty selections from n distinct items |
+| Total Selections (with empty) | 2ⁿ | All subsets of an n-element set |
+| Relation between P and C | ⁿPᵣ = ⁿCᵣ × r! | Selection first, then arrange |
+| Non-empty selection from alike items | (p+1)(q+1)(r+1)… − 1 | p alike of one kind, q of another…; any count of each kind, exclude the all-zero case |
+| Distribution into distinct groups (equal) | (mn)! / (n!)ᵐ | mn distinct items into m distinct groups of n each |
+| Distribution into identical groups (equal) | (mn)! / [(n!)ᵐ × m!] | Same, but groups unlabelled |
+| Non-negative integer solutions | x₁+x₂+…+xᵣ = n → ⁿ⁺ʳ⁻¹Cᵣ₋₁ | Stars and bars; identical items to distinct boxes (boxes may be empty) |
+| Positive integer solutions | x₁+x₂+…+xᵣ = n → ⁿ⁻¹Cᵣ₋₁ | Each box gets at least one |
+| Derangement | Dₙ = n! × Σ(−1)ᵏ/k! (k=0…n) | No object in its original place (wrong-envelope problem) |
+| Grid paths (m × n) | ᵐ⁺ⁿCₘ | Shortest paths using only right/up moves |
+| Number of diagonals in n-gon | n(n−3)/2 | ⁿC₂ minus the n sides |
+| Handshakes / matches | ⁿC₂ = n(n−1)/2 | Every pair meets once |
+| Sum of all numbers formed | (sum of digits) × (n−1)! × 111…1 (n ones) | All n-digit numbers from n distinct non-zero digits |
+| Gap method (no two together) | m! × ᵐ⁺¹Pᵣ | Arrange the m distinct others first, then place the r items in the (m+1) gaps — "no two vowels together" type |
+| String method (always together) | (n−k+1)! × k! | Treat k together as one unit — "all vowels together" type |
+| Rank of a word | Count words starting with each smaller letter + 1 | Dictionary order position of a word |

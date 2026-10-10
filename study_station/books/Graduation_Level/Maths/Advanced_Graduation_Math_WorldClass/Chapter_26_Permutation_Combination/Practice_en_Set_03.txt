@@ -1,0 +1,151 @@
+प्रश्न 51–70: आसान | प्रश्न 71–75: मध्यम
+
+51. In how many ways can 6 different books be arranged on a shelf so that two particular books are always together?
+(a) 240 (b) 48 (c) 720 (d) 120
+Answer: (a)
+Solution: The tempting wrong answer 720 is the total arrangements of 6 books ignoring the condition. Treat the two particular books as one unit, giving 5 units arranged in 5! = 120 ways; the two books can swap places in 2! = 2 ways. Total = 120 × 2 = 240, so the answer is 240.
+Source: NCERT Class 11 Mathematics
+
+52. How many 4-digit numbers can be formed using the digits 1, 2, 3, 4, 5 without repetition such that the number is even?
+(a) 24 (b) 120 (c) 48 (d) 60
+Answer: (c)
+Solution: The tempting wrong answer 120 is the total 4-digit numbers ignoring the even condition. The units digit must be 2 or 4, giving 2 choices; the remaining 3 places are filled from 4 digits in 4P3 = 24 ways. Total = 2 × 24 = 48, so the answer is 48.
+Source: NCERT Class 11 Mathematics
+
+53. In how many ways can a committee of 4 be chosen from 7 men and 5 women so that the committee has exactly 2 women?
+(a) 350 (b) 210 (c) 420 (d) 175
+Answer: (b)
+Solution: The tempting wrong answer 350 comes from choosing 2 women and then any 2 of the remaining 10 people, which double-counts committees with more women. Correctly, choose 2 women from 5 in C(5,2) = 10 ways and 2 men from 7 in C(7,2) = 21 ways. Total = 10 × 21 = 210, so the answer is 210.
+Source: NCERT Class 11 Mathematics
+
+54. How many words can be formed using all the letters of the word "BANANA"?
+(a) 720 (b) 360 (c) 120 (d) 60
+Answer: (d)
+Solution: The tempting wrong answer 720 is 6!, which ignores repeated letters. The word has 6 letters with A repeated 3 times and N repeated 2 times, so arrangements = 6!/(3! × 2!) = 720/12 = 60, so the answer is 60.
+Source: NCERT Class 11 Mathematics
+
+55. In how many ways can 3 different prizes be awarded to 5 students if no student receives more than one prize?
+(a) 125 (b) 10 (c) 60 (d) 120
+Answer: (c)
+Solution: The tempting wrong answer 125 computes 5³, which allows the same student to win several prizes, and 10 uses C(5,3), ignoring that the prizes are different. Since the prizes are distinct and no student repeats, the count is 5P3 = 5 × 4 × 3 = 60, so the answer is 60.
+Source: NCERT Class 11 Mathematics
+
+56. In how many ways can 5 boys and 5 girls be seated in a row so that no two girls sit together?
+(a) 5! × 5! (b) 5! × 6! (c) 6! × 5! / 2 (d) 10! / 2
+Answer: (b)
+Solution: The tempting wrong answer 5! × 5! only places girls in the 5 gaps between boys, missing the two end gaps. Arrange 5 boys in 5! ways; this creates 6 gaps (including both ends), and place 5 girls in these gaps in 6P5 = 6! ways. Total = 5! × 6!, so the answer is 5! × 6!.
+Source: NCERT Class 11 Mathematics
+
+57. How many diagonals does a polygon with 10 sides have?
+(a) 40 (b) 45 (c) 35 (d) 50
+Answer: (c)
+Solution: The tempting wrong answer 45 is C(10,2), which counts the 10 sides as well. Diagonals = C(n,2) − n = C(10,2) − 10 = 45 − 10 = 35, so the answer is 35.
+Source: NCERT Class 11 Mathematics
+
+58. In how many ways can the letters of the word "LEADING" be arranged so that the vowels always come together?
+(a) 720 (b) 576 (c) 144 (d) 360
+Answer: (a)
+Solution: The tempting wrong answer 576 wrongly shrinks the count of units. The vowels E, A, I form one block; together with the 4 consonants L, D, N, G there are 5 units arranged in 5! = 120 ways, and the 3 vowels arrange inside the block in 3! = 6 ways. Total = 120 × 6 = 720, so the answer is 720.
+Source: NCERT Class 11 Mathematics
+
+59. A box contains 4 red and 6 blue balls. In how many ways can 3 balls be drawn so that at least one is red?
+(a) 84 (b) 96 (c) 120 (d) 100
+Answer: (d)
+Solution: The tempting wrong answer 120 is C(10,3), the total ways ignoring the condition. "At least one red" = total − no red = C(10,3) − C(6,3) = 120 − 20 = 100, so the answer is 100.
+Source: NCERT Class 11 Mathematics
+
+60. How many 3-digit numbers greater than 400 can be formed from the digits 2, 3, 4, 5, 6 without repetition?
+(a) 48 (b) 36 (c) 60 (d) 24
+Answer: (b)
+Solution: The tempting wrong answer 60 is all 3-digit numbers from 5 digits, ignoring the "greater than 400" condition. The hundreds digit must be 4, 5, or 6, giving 3 choices; the remaining two places fill from 4 digits in 4P2 = 12 ways. Total = 3 × 12 = 36, so the answer is 36.
+Source: NCERT Class 11 Mathematics
+
+61. In how many ways can 8 people be seated around a circular table if two particular persons must sit together?
+(a) 720 (b) 10080 (c) 5040 (d) 1440
+Answer: (d)
+Solution: The tempting wrong answer 10080 uses the linear formula 7! × 2, forgetting that circular arrangements of n units are (n−1)!. Treat the pair as one unit: 7 units around a circle in 6! = 720 ways, times 2! for the pair's internal order. Total = 720 × 2 = 1440, so the answer is 1440.
+Source: NCERT Class 11 Mathematics
+
+62. How many words can be formed from the letters of "MATHEMATICS" so that the vowels are always together?
+(a) 60480 (b) 90720 (c) 120960 (d) 181440
+Answer: (c)
+Solution: The tempting wrong answer 90720 forgets to multiply by the internal arrangements of the vowel block. Vowels A, A, E, I form a block arranged in 4!/2! = 12 ways; the block plus consonants M, M, T, T, H, C, S gives 8 units arranged in 8!/(2! × 2!) = 10080 ways. Total = 10080 × 12 = 120960, so the answer is 120960.
+Source: PYQ-style
+
+63. From 6 gentlemen and 4 ladies, a committee of 5 is to be formed so that it includes at least 2 ladies. In how many ways can this be done?
+(a) 186 (b) 246 (c) 252 (d) 200
+Answer: (a)
+Solution: The tempting wrong answer 252 is C(10,5), the total committees ignoring the condition. Favourable = C(4,2)C(6,3) + C(4,3)C(6,2) + C(4,4)C(6,1) = 6×20 + 4×15 + 1×6 = 120 + 60 + 6 = 186, so the answer is 186.
+Source: NCERT Class 11 Mathematics
+
+64. How many different signals can be made by hoisting 5 flags of different colours, using any number of them at a time?
+(a) 300 (b) 325 (c) 120 (d) 250
+Answer: (b)
+Solution: The tempting wrong answer 120 counts only signals using all 5 flags. Signals can use 1, 2, 3, 4, or 5 flags: 5P1 + 5P2 + 5P3 + 5P4 + 5P5 = 5 + 20 + 60 + 120 + 120 = 325, so the answer is 325.
+Source: NCERT Class 11 Mathematics
+
+65. In how many ways can 10 identical balls be distributed among 3 distinct boxes so that each box gets at least one ball?
+(a) 45 (b) 28 (c) 66 (d) 36
+Answer: (d)
+Solution: The tempting wrong answer 66 is C(12,2), which allows empty boxes. Give one ball to each box first, then distribute the remaining 7 identical balls freely: C(7+3−1, 3−1) = C(9,2) = 36, so the answer is 36.
+Source: PYQ-style
+
+66. How many 5-letter words (meaningful or not) can be formed from the letters of "APPLE" using all letters?
+(a) 60 (b) 120 (c) 30 (d) 24
+Answer: (a)
+Solution: The tempting wrong answer 120 is 5!, ignoring the repeated P. The word has 5 letters with P repeated twice, so arrangements = 5!/2! = 60, so the answer is 60.
+Source: NCERT Class 11 Mathematics
+
+67. A cricket team of 11 is to be selected from 15 players, of whom 2 particular players must always be included. In how many ways can the team be formed?
+(a) 3003 (b) 715 (c) 455 (d) 1365
+Answer: (b)
+Solution: The tempting wrong answer 1365 is C(15,11) computed as C(15,4), ignoring the fixed players. With 2 players fixed, choose the remaining 9 from 13 players: C(13,9) = C(13,4) = 715, so the answer is 715.
+Source: NCERT Class 11 Mathematics
+
+68. In how many ways can 4 boys and 3 girls be seated in a row so that all the girls sit together?
+(a) 720 (b) 144 (c) 576 (d) 288
+Answer: (a)
+Solution: The tempting wrong answer 144 comes from treating the girls' block as fixed without arranging the units. Treat the 3 girls as one block; 5 units (4 boys + block) arrange in 5! = 120 ways, and the girls arrange within the block in 3! = 6 ways. Total = 120 × 6 = 720, so the answer is 720.
+Source: NCERT Class 11 Mathematics
+
+69. How many numbers between 100 and 1000 have all distinct digits?
+(a) 648 (b) 729 (c) 900 (d) 504
+Answer: (a)
+Solution: The tempting wrong answer 900 counts all 3-digit numbers, ignoring distinctness. Hundreds digit: 9 choices (1–9); tens digit: 9 choices (0–9 except the hundreds digit); units digit: 8 choices. Total = 9 × 9 × 8 = 648, so the answer is 648.
+Source: NCERT Class 11 Mathematics
+
+70. In how many ways can 5 different prizes be given to 4 students if each student can receive any number of prizes?
+(a) 625 (b) 1024 (c) 120 (d) 256
+Answer: (b)
+Solution: The tempting wrong answer 625 computes 5⁴, reversing base and power. Each of the 5 prizes can go to any of the 4 students independently, giving 4⁵ = 1024 ways, so the answer is 1024.
+Source: NCERT Class 11 Mathematics
+
+71. How many straight lines can be drawn through 10 points, no three of which are collinear?
+(a) 90 (b) 100 (c) 50 (d) 45
+Answer: (d)
+Solution: The tempting wrong answer 90 counts ordered pairs of points, but a line through two points is the same in either order. Lines = C(10,2) = 45, so the answer is 45.
+Source: NCERT Class 11 Mathematics
+
+72. In how many ways can the letters of "SUCCESS" be arranged?
+(a) 1260 (b) 840 (c) 420 (d) 5040
+Answer: (c)
+Solution: The tempting wrong answer 840 divides only by 3! for the three S letters, forgetting the repeated C. The word has 7 letters with S thrice and C twice: 7!/(3! × 2!) = 5040/12 = 420, so the answer is 420.
+Source: NCERT Class 11 Mathematics
+
+73. A bag has 5 white and 4 black balls. In how many ways can 4 balls be drawn so that exactly 2 are white?
+(a) 60 (b) 120 (c) 90 (d) 45
+Answer: (a)
+Solution: The tempting wrong answer 120 comes from choosing 2 white balls and then any 2 of the remaining 7 balls, which double-counts draws with more white balls. Correctly, C(5,2) × C(4,2) = 10 × 6 = 60, so the answer is 60.
+Source: NCERT Class 11 Mathematics
+
+74. How many 4-digit even numbers can be formed from the digits 0, 1, 2, 3, 4, 5 without repetition?
+(a) 300 (b) 180 (c) 156 (d) 96
+Answer: (c)
+Solution: The tempting wrong answer 180 ignores the restriction that 0 cannot lead. Case 1: units digit 0, then 5P3 = 60 numbers. Case 2: units digit 2 or 4 (2 choices); thousands digit has 4 choices (non-zero, excluding the used digit); middle two places from remaining 4 digits in 4P2 = 12 ways, giving 2 × 4 × 12 = 96. Total = 60 + 96 = 156, so the answer is 156.
+Source: PYQ-style
+
+75. In how many ways can 12 people be divided into two groups of 6 each?
+(a) 924 (b) 1848 (c) 231 (d) 462
+Answer: (d)
+Solution: The tempting wrong answer 924 is C(12,6), which counts each split twice because the two groups are of equal size and unlabelled. Number of divisions = C(12,6)/2! = 924/2 = 462, so the answer is 462.
+Source: PYQ-style
