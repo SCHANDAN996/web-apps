@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 07:11 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
+**आख़िरी update:** 10-10-2026 07:12 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 62 मिनट |
-| W2 | Chapter 10 Clock Calendar (12th Reasoning) | 🔎 review हो रहा है | 33 मिनट |
-| W3 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 23 मिनट |
-| W4 | Chapter 14 Alphabet Questions (12th Reasoning) | ⏳ अगला अध्याय चुन रहा है | -1 मिनट |
-| W5 | Chapter 22 Figure Series (12th Reasoning) | ✍️ लिख रहा है | 19 मिनट |
-| W6 | Chapter 19 Cubes Dice (12th Reasoning) | ✍️ लिख रहा है | 59 मिनट |
-| W7 | Chapter 20 Mirror Water Images (12th Reasoning) | ✍️ लिख रहा है | 42 मिनट |
-| W8 | Chapter 21 Paper Folding Cutting (12th Reasoning) | 🔎 review हो रहा है | 33 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 63 मिनट |
+| W2 | Chapter 10 Clock Calendar (12th Reasoning) | 🔎 review हो रहा है | 34 मिनट |
+| W3 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 24 मिनट |
+| W4 | Chapter 14 Alphabet Questions (12th Reasoning) | 🔎 review हो रहा है | 0 मिनट |
+| W5 | Chapter 22 Figure Series (12th Reasoning) | ✍️ लिख रहा है | 20 मिनट |
+| W6 | Chapter 19 Cubes Dice (12th Reasoning) | ✍️ लिख रहा है | 60 मिनट |
+| W7 | Chapter 20 Mirror Water Images (12th Reasoning) | ✍️ लिख रहा है | 43 मिनट |
+| W8 | Chapter 21 Paper Folding Cutting (12th Reasoning) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,6 +37,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 10-10 07:12 — 12th Reasoning · Chapter 21 Paper Folding Cutting
 - 10-10 06:51 — 12th Reasoning · Chapter 15 Mathematical Operations
 - 10-10 06:33 — 12th Reasoning · Chapter 18 Inequality
 
@@ -50,9 +51,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 06:51:38 START 12th_Level/Reasoning/Chapter_22_Figure_Series (TODO: todo 8, problems 3)
-10-10 06:51:52   [Cubes_Dice] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-10-10 06:53:07   [Clock_Calendar] review Feynman_hi.txt: 1 issue(s): - The text states "हर 1 मिनट में बड़ा भाई छोटे भाई से 5.5 मिनट की दूरी आगे निकल जाता है" (the minute hand gains 5.5
 10-10 06:53:48   [Figure_Series] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 10-10 06:54:21   [Cubes_Dice] Practice_en_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
 10-10 06:54:58   [Alphabet_Questions] review Feynman_en.txt: 1 issue(s): - The rule "Opposite direction words? The numbers add — but only after you flip everything to one side using 27" is
@@ -90,4 +88,7 @@
 10-10 07:11:37   [Alphabet_Questions] written 7, failed 2; AI calls today 213/100000
 10-10 07:11:37 NOT OK 12th_Level/Reasoning/Chapter_14_Alphabet_Questions after 62 min: todo [] problems []
 10-10 07:11:40 START 12th_Level/Reasoning/Chapter_14_Alphabet_Questions (OK: todo 0, problems 0)
+10-10 07:12:23   [Paper_Folding_Cutting] review: 3 section(s) corrected, 0 failed
+10-10 07:12:23   [Paper_Folding_Cutting] written 3, failed 0; AI calls today 215/100000
+10-10 07:12:31   [Alphabet_Questions] review Flashcards_en.txt: 1 issue(s): - Card 9 back states "Only one — M, the 14th letter" as the answer, but the correct answer is zero letters remai
 ```

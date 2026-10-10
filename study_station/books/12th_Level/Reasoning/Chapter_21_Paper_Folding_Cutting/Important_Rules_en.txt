@@ -1,0 +1,39 @@
+# Important Rules & Approaches — Paper Folding & Cutting
+
+## Part 1: Key Rules / Approaches
+
+| Rule / Approach | Description | Example |
+|---|---|---|
+| Reverse-Unfold Method | Always solve from the last fold backwards to the first fold; each unfold mirrors the cuts/holes across the fold line. | A hole punched after 2 folds → reflect it across the 2nd fold line, then across the 1st fold line. |
+| One Fold = One Mirror Image | Every fold doubles the holes/cuts when unfolded; the fold line acts as a mirror. | 1 fold + 1 punch = 2 holes in the opened sheet. |
+| Holes Multiply by 2 per Fold | If a punch is made through n folded layers, the opened sheet has 2ⁿ holes (when no fold overlaps another). | 3 folds → 1 punch gives 8 holes. |
+| Fold Line Never Gets a Hole | A punch exactly on a fold line produces half-shapes that join into one hole on the fold line, not two separate holes. | Punch on the crease → single symmetric hole on the crease. |
+| Symmetry Rule | The final pattern is always symmetric about every fold line. | Check options: any option breaking symmetry about a fold line is wrong. |
+| Track the Fold Direction | Note whether paper is folded left→right, bottom→top, or diagonally; mirror direction depends on it. | Bottom folded up → holes reflect vertically (top-bottom mirror). |
+| Diagonal Fold = Diagonal Mirror | For diagonal folds, reflect holes across the diagonal line, not horizontally/vertically. | Fold along main diagonal → hole at top-right reflects to bottom-left. |
+| Cutting Rule (Shape on Fold) | A shape cut along a fold edge opens into a complete, doubled symmetric shape. | Half-circle cut on fold edge → full circle when opened. |
+| Corner Cut Rule | A cut at a folded corner (where two fold lines meet) produces 4 symmetric cuts in the opened sheet. | Snip the doubly-folded corner → 4 identical notches, one near each corner. |
+| Layer Counting | Before punching, count how many paper layers lie under the punch point; holes = number of layers at that point. | Punch where only 2 layers overlap → 2 holes, even if 3 folds were made. |
+| Elimination by Position | First fix the position of one hole using the last fold; eliminate options that misplace it. | Last fold was vertical → hole must have a left-right partner; reject options without it. |
+| Draw-It-Out Approach | For 3+ folds, quickly sketch the unfolding steps on rough paper instead of imagining. | Draw square → unfold once → mark mirrored holes → unfold again. |
+
+## Part 2: Time Management
+
+| Rule | Description | Action |
+|---|---|---|
+| 15-Second Rule | If the fold sequence and punch position are not clear within 15 seconds, do not start guessing. | Mark the question and move on; return later. |
+| 45-Second Rule | A standard 1–2 fold question should be solved within 45 seconds using the reverse-unfold method. | If still unsolved at 45 sec, eliminate by symmetry and pick the best option or skip. |
+| 90-Second Cap | For 3+ fold or diagonal-fold questions, set a hard cap of 90 seconds. | Beyond 90 sec, skip — these questions cost more time than they earn. |
+| Symmetry First (10 sec) | Spend the first 10 seconds checking options for symmetry about fold lines. | Often 2 of 4 options are eliminated instantly. |
+| Skip Signal | If the figure shows overlapping folds where layer counting is unclear, treat it as a skip candidate. | Attempt only if time remains after solving easier questions. |
+
+## Part 3: Logical / Mathematical Formulas
+
+| Formula | Meaning | Condition |
+|---|---|---|
+| Number of holes = 2ⁿ | n = number of folds, for one punch through all layers | Only when every fold doubles the layers at the punch point |
+| Number of holes = number of layers at punch point | General rule replacing 2ⁿ | When folds overlap partially or punch is not through all layers |
+| Holes from punch on a fold line = 2ⁿ⁻¹ (per such punch) | A punch on one crease is shared by two layers | Applies when the punch lies exactly on one fold line |
+| Cuts on folded corner = 4 × (cuts made) | Corner where two fold lines meet has 4 layers | Standard double-fold corner cut |
+
+Note: If a question's fold pattern is irregular, do not apply 2ⁿ blindly — count actual layers at the punch point.
