@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 12:51 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:34 AM
+**आख़िरी update:** 10-10-2026 01:06 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:34 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,12 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 28 Critical Reasoning (Graduation Reasoning) | ✍️ लिख रहा है | 59 मिनट |
-| W2 | Chapter 29 Logical Consistency (Graduation Reasoning) | ✍️ लिख रहा है | 13 मिनट |
-| W4 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 13 मिनट |
-| W5 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 10 मिनट |
-| W7 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 30 मिनट |
-| W8 | Chapter 26 Data Sufficiency (Graduation Reasoning) | ✍️ लिख रहा है | 62 मिनट |
+| W1 | Chapter 28 Critical Reasoning (Graduation Reasoning) | ✍️ लिख रहा है | 74 मिनट |
+| W2 | Chapter 29 Logical Consistency (Graduation Reasoning) | ✍️ लिख रहा है | 28 मिनट |
+| W4 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 28 मिनट |
+| W5 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 25 मिनट |
+| W7 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | 🔎 review हो रहा है | 11 मिनट |
+| W8 | Chapter 26 Data Sufficiency (Graduation Reasoning) | ✍️ लिख रहा है | 77 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -31,9 +31,9 @@
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 21 | 0 | 7 |
 | Graduation GK | 27 | 0 | 1 |
-| Graduation Reasoning | 22 | 2 | 6 |
+| Graduation Reasoning | 23 | 2 | 5 |
 | Graduation English | 29 | 1 | 0 |
-| **कुल** | **262** | **5** | **29** |
+| **कुल** | **263** | **5** | **28** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -53,28 +53,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 12:38:08   [Dictionary_Order] FAILED Practice_en_Set_06.txt: too_long
-10-10 12:38:08   [Dictionary_Order] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-10-10 12:38:08   [Dictionary_Order] written 2, failed 4; AI calls today 196/100000
-10-10 12:38:08 NOT OK Graduation_Level/Reasoning/Chapter_13_Dictionary_Order after 63 min: todo ['Set 04 en: todo', 'Set 04 hi: todo', 'Set 06 en: todo', 'Set 06 hi: todo'] problems []
-10-10 12:38:09 START Graduation_Level/Reasoning/Chapter_13_Dictionary_Order (TODO: todo 4, problems 0)
-10-10 12:38:27   [Classification] FAILED review Important_Rules_hi.txt: too_long — the chapter must not be published unreviewed
-10-10 12:38:27   [Classification] review: 7 section(s) corrected, 1 failed
-10-10 12:38:27   [Classification] written 7, failed 1; AI calls today 198/100000
-10-10 12:38:27 NOT OK Graduation_Level/Reasoning/Chapter_02_Classification after 50 min: todo [] problems []
-10-10 12:38:29 START Graduation_Level/Reasoning/Chapter_29_Logical_Consistency (TODO: todo 10, problems 0)
-10-10 12:40:45   [Critical_Reasoning] Practice_en_Set_05.txt try 2: re-solve disagrees (Q101 key a vs re-solve ?)
-10-10 12:40:54   [Alphabet_Questions] review: 3 section(s) corrected, 0 failed
-10-10 12:40:54   [Alphabet_Questions] written 3, failed 0; AI calls today 204/100000
-10-10 12:41:08 DONE Graduation_Level/Reasoning/Chapter_14_Alphabet_Questions in 26 min → eef06cc2
-10-10 12:41:10 START Graduation_Level/Reasoning/Chapter_30_Advanced_Puzzles (TODO: todo 25, problems 0)
-10-10 12:41:12   [Mirror_Water_Images] review Important_Rules_hi.txt: 3 issue(s): - In Part 1, water reflection example "17:90 − 4:20 = 13:70 = 2:10" is wrong because 13:70 equals 14:10, no
-10-10 12:41:26   [Dictionary_Order] Practice_en_Set_04.txt try 1: rejected (Q76:leaked_reasoning,Q87:leaked_reasoning,Q88:leaked_reasoning,Q98:leaked_reasoning)
-10-10 12:42:04   [Statement_Argument] review Short_Tricks_en.txt: 1 issue(s): - The section contains only repeated filenames and markdown headers instead of actual short tricks, mnemonics,
-10-10 12:42:42   [Advanced_Puzzles] Content_en.txt try 1: rejected (chat debris "Here is the")
-10-10 12:43:08   [Mirror_Water_Images] review: 6 section(s) corrected, 0 failed
-10-10 12:43:08   [Mirror_Water_Images] written 6, failed 0; AI calls today 212/100000
-10-10 12:43:19 DONE Graduation_Level/Reasoning/Chapter_20_Mirror_Water_Images in 68 min → 51ce4bc1
 10-10 12:43:21 worker 5: nothing left
 10-10 12:44:05   [Advanced_Puzzles] wrote Content_en.txt (8314 chars)
 10-10 12:45:45   [Statement_Argument] review: 3 section(s) corrected, 1 failed
@@ -93,4 +71,26 @@
 10-10 12:50:07   [Advanced_Puzzles] wrote Flashcards_hi.txt (4646 chars)
 10-10 12:50:55   [Data_Sufficiency] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 10-10 12:51:26   [Dictionary_Order] Practice_en_Set_04.txt try 3: rejected (parsed 0 questions, numbers -…-)
+10-10 12:52:16   [Paper_Folding_Cutting] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+10-10 12:52:56   [Data_Sufficiency] Practice_en_Set_04.txt try 1: rejected (Q87:leaked_reasoning)
+10-10 12:52:59   [Critical_Reasoning] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+10-10 12:53:03   [Dictionary_Order] Practice_en_Set_04.txt try 4: rejected (parsed 0 questions, numbers -…-)
+10-10 12:53:03   [Dictionary_Order] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
+10-10 12:53:03   [Dictionary_Order] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
+10-10 12:53:24   [Dictionary_Order] Practice_en_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 12:53:41   [Logical_Consistency] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+10-10 12:55:04   [Paper_Folding_Cutting] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+10-10 12:55:04   [Paper_Folding_Cutting] written 2, failed 0; AI calls today 235/100000
+10-10 12:55:39   [Advanced_Puzzles] PYQ_en.txt try 1: rejected (corrupted characters)
+10-10 12:56:10   [Logical_Consistency] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+10-10 12:56:40   [Critical_Reasoning] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+10-10 12:56:41   [Advanced_Puzzles] wrote PYQ_en.txt (7242 chars)
+10-10 12:56:56   [Critical_Reasoning] Practice_hi_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 12:58:22   [Dictionary_Order] Practice_en_Set_06.txt try 2: rejected (Q126:leaked_reasoning,Q132:leaked_reasoning,Q134:leaked_reasoning,Q139:leaked_reasoning)
+10-10 12:59:14   [Advanced_Puzzles] wrote PYQ_hi.txt (9953 chars)
+10-10 13:00:02   [Advanced_Puzzles] wrote Short_Tricks_en.txt (4708 chars)
+10-10 13:01:07   [Logical_Consistency] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 13:02:28   [Advanced_Puzzles] wrote Short_Tricks_hi.txt (5913 chars)
+10-10 13:03:59   [Advanced_Puzzles] wrote Important_Rules_en.txt (12234 chars)
+10-10 13:04:53   [Advanced_Puzzles] wrote Important_Rules_hi.txt (3632 chars)
 ```
