@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 12:32 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:29 AM
+**आख़िरी update:** 10-10-2026 12:47 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:29 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 41 मिनट |
-| W3 | Chapter 15 Geometry (Graduation Maths) | 🔧 सुधार रहा है | 17 मिनट |
-| W4 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 14 मिनट |
-| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 62 मिनट |
-| W8 | Chapter 27 Number Series (Graduation Maths) | 🔎 review हो रहा है | 3 मिनट |
+| W2 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 57 मिनट |
+| W3 | Chapter 15 Geometry (Graduation Maths) | 🔧 सुधार रहा है | 3 मिनट |
+| W4 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 30 मिनट |
+| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 77 मिनट |
+| W8 | Chapter 27 Number Series (Graduation Maths) | 🔎 review हो रहा है | 18 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -28,9 +28,9 @@
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 22 | 3 | 3 |
 | Graduation GK | 27 | 1 | 0 |
-| Graduation Reasoning | 19 | 0 | 11 |
+| Graduation Reasoning | 21 | 0 | 9 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **260** | **6** | **30** |
+| **कुल** | **262** | **6** | **28** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -42,27 +42,11 @@
 - Chapter 13 Awards (GK) — 2 बार
 - Chapter 22 Calculus (Maths) — 2 बार
 - Chapter 19 Trigonometry (Maths) — 1 बार
+- Chapter 15 Geometry (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 11:57:39   [Probability] Practice_en_Set_02.txt try 3: rejected (parsed 22 questions, numbers 26…50)
-10-10 11:58:18   [Linear_Programming] wrote Mind_Map.txt (2256 chars)
-10-10 12:04:47   [Awards] repaired Flashcards_hi.txt (4390 chars)
-10-10 12:04:47   [Awards] written 1, failed 0; AI calls today 45/100000
-10-10 12:04:47 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards after 13 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (43']
-10-10 12:04:51 worker 0: nothing left
-10-10 12:05:24   [Calculus] repaired Feynman_hi.txt (2711 chars)
-10-10 12:05:24   [Calculus] written 1, failed 0; AI calls today 45/100000
-10-10 12:07:25   [Linear_Programming] Practice_en_Set_01.txt try 1: re-solve disagrees (Q22 key c vs re-solve a)
-10-10 12:07:56   [Probability] Practice_en_Set_02.txt try 4: rejected (parsed 22 questions, numbers 26…50)
-10-10 12:07:56   [Probability] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
-10-10 12:07:56   [Probability] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
-10-10 12:09:52   [Calculus] repaired Feynman_hi.txt (3561 chars)
-10-10 12:09:52   [Calculus] written 1, failed 0; AI calls today 50/100000
-10-10 12:09:52 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_22_Calculus after 14 min: todo [] problems ['Feynman_hi.txt: much shorter than the English section (3560 ']
-10-10 12:09:56 worker 4: nothing left
-10-10 12:12:44   [Probability] Practice_en_Set_03.txt try 1: rejected (parsed 22 questions, numbers 51…75)
 10-10 12:13:12   [Trigonometry] Practice_en_Set_06.txt try 3: rejected (parsed 0 questions, numbers -…-)
 10-10 12:13:18   [Number_Series] Practice_en_Set_02.txt try 2: re-solve disagrees (Q39 key b vs re-solve ?)
 10-10 12:14:26   [Geometry] repaired Short_Tricks_hi.txt (74174 chars)
@@ -86,4 +70,21 @@
 10-10 12:28:48   [Number_Series] written 1, failed 0; AI calls today 65/100000
 10-10 12:29:50   [Probability] Practice_en_Set_03.txt try 3: rejected (parsed 23 questions, numbers 51…75)
 10-10 12:30:48   [Trigonometry] Practice_hi_Set_05.txt try 3: rejected (parsed 24 questions, numbers 101…124)
+10-10 12:32:36   [Linear_Programming] Practice_en_Set_02.txt try 1: rejected (Q26:leaked_reasoning,Q35:leaked_reasoning,Q42:leaked_reasoning,Q47:leaked_reasoning,Q49:leaked_reasoning)
+10-10 12:33:17   [Number_Series] review Content_en.txt: 2 issue(s): - The hook presents an invented exam/year claim: "In 2019, a candidate in the IBPS PO Mains solved a 5-question ser
+10-10 12:34:03   [Probability] Practice_en_Set_03.txt try 4: rejected (parsed 21 questions, numbers 51…75)
+10-10 12:34:03   [Probability] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
+10-10 12:34:03   [Probability] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
+10-10 12:36:04   [Trigonometry] Practice_hi_Set_05.txt try 4: rejected (parsed 24 questions, numbers 101…124)
+10-10 12:36:04   [Trigonometry] REJECTED Practice_hi_Set_05.txt: no translation passed the checks — not written
+10-10 12:38:38   [Probability] Practice_en_Set_04.txt try 1: rejected (parsed 24 questions, numbers 76…100)
+10-10 12:39:59   [Geometry] FAILED Short_Tricks_hi.txt: too_long
+10-10 12:39:59   [Geometry] written 1, failed 1; AI calls today 73/100000
+10-10 12:40:00 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_15_Geometry after 70 min: todo [] problems ['Short_Tricks_hi.txt: Hindi file is mostly not in Hindi']
+10-10 12:40:03 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_15_Geometry (FIX: todo 0, problems 1)
+10-10 12:41:08   [Trigonometry] Practice_en_Set_06.txt try 1: rejected (parsed 23 questions, numbers 126…150)
+10-10 12:43:46   [Linear_Programming] Practice_en_Set_02.txt try 2: re-solve disagrees (Q50 key d vs re-solve ?)
+10-10 12:44:09   [Geometry] repaired Short_Tricks_hi.txt (2096 chars)
+10-10 12:44:09   [Geometry] written 1, failed 0; AI calls today 77/100000
+10-10 12:46:01   [Trigonometry] Practice_en_Set_06.txt try 2: rejected (parsed 24 questions, numbers 126…150)
 ```
