@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 06:02 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 05:00 PM
+**आख़िरी update:** 10-10-2026 06:18 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 05:00 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W4 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 62 मिनट |
-| W7 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 61 मिनट |
+| W4 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 2 मिनट |
+| W7 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 77 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -41,18 +41,11 @@
 - Chapter 22 Para Jumbles Adv (English) — 2 बार
 - Chapter 12 Missing Term (Reasoning) — 2 बार
 - Chapter 25 Statement Argument (Reasoning) — 2 बार
+- Chapter 13 Dictionary Order (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 17:05:40   [Missing_Term] repaired Important_Rules_hi.txt (3389 chars)
-10-10 17:05:40   [Missing_Term] written 1, failed 0; AI calls today 20/100000
-10-10 17:06:44   [Statement_Argument] repaired PYQ_hi.txt (8098 chars)
-10-10 17:06:44   [Statement_Argument] written 1, failed 0; AI calls today 24/100000
-10-10 17:06:44 NOT OK Graduation_Level/Reasoning/Chapter_25_Statement_Argument after 6 min: todo [] problems ['PYQ_hi.txt: much shorter than the English section (8097 vs 4']
-10-10 17:06:48 START Graduation_Level/Reasoning/Chapter_25_Statement_Argument (FIX: todo 0, problems 1)
-10-10 17:06:52   [Missing_Term] REJECTED Important_Rules_hi.txt: corrupted characters — not written
-10-10 17:06:52   [Missing_Term] written 0, failed 1; AI calls today 25/100000
 10-10 17:06:52 NOT OK Graduation_Level/Reasoning/Chapter_12_Missing_Term after 3 min: todo [] problems ['Important_Rules_hi.txt: much shorter than the English sectio']
 10-10 17:06:56 worker 2: nothing left
 10-10 17:08:00   [Classification] review Flashcards_en.txt: 1 issue(s): - Card 4: DFJ letter gaps described as "+2 then +3" → should be "+2 then +4" (D→F = +2, F→J = +4)
@@ -85,4 +78,12 @@
 10-10 17:51:03   [Dictionary_Order] Practice_en_Set_06.txt try 2: re-solve disagrees (Q126 key c vs re-solve ?, Q128 key d vs re-solve c, Q129 key a vs re-solve c, Q132 key d vs re-solve
 10-10 18:02:07   [Advanced_Puzzles] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 10-10 18:02:11   [Dictionary_Order] Practice_en_Set_06.txt try 3: re-solve disagrees (Q126 key a vs re-solve ?)
+10-10 18:06:18   [Advanced_Puzzles] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+10-10 18:13:05   [Advanced_Puzzles] Practice_en_Set_04.txt try 1: rejected (Q76:leaked_reasoning,Q77:leaked_reasoning,Q80:leaked_reasoning,Q86:leaked_reasoning,Q89:leaked_reasoning)
+10-10 18:15:57   [Dictionary_Order] Practice_en_Set_06.txt try 4: re-solve disagrees (Q126 key a vs re-solve ?, Q131 key a vs re-solve c, Q135 key a vs re-solve ?, Q142 key a vs re-solve
+10-10 18:15:57   [Dictionary_Order] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+10-10 18:15:57   [Dictionary_Order] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+10-10 18:15:57   [Dictionary_Order] written 0, failed 4; AI calls today 67/100000
+10-10 18:15:57 NOT OK Graduation_Level/Reasoning/Chapter_13_Dictionary_Order after 75 min: todo ['Set 04 en: todo', 'Set 04 hi: todo', 'Set 06 en: todo', 'Set 06 hi: todo'] problems []
+10-10 18:16:00 START Graduation_Level/Reasoning/Chapter_13_Dictionary_Order (TODO: todo 4, problems 0)
 ```
