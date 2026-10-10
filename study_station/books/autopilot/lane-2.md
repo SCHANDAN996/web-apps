@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 08:53 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
+**आख़िरी update:** 10-10-2026 09:08 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W4 | Chapter 27 Number Series (Graduation Maths) | ✍️ लिख रहा है | 134 मिनट |
-| W5 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 88 मिनट |
-| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 40 मिनट |
+| W4 | Chapter 27 Number Series (Graduation Maths) | ✍️ लिख रहा है | 150 मिनट |
+| W5 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 103 मिनट |
+| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 56 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -22,13 +22,13 @@
 | 10th English | 17 | 0 | 3 |
 | 12th Maths | 19 | 0 | 4 |
 | 12th GK | 22 | 0 | 2 |
-| 12th Reasoning | 16 | 0 | 9 |
+| 12th Reasoning | 17 | 0 | 8 |
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 21 | 2 | 5 |
 | Graduation GK | 27 | 1 | 0 |
 | Graduation Reasoning | 15 | 0 | 15 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **252** | **5** | **39** |
+| **कुल** | **253** | **5** | **38** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -52,12 +52,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 08:02:58   [Trigonometry] Practice_en_Set_06.txt try 4: rejected (parsed 24 questions, numbers 126…150)
-10-10 08:02:58   [Trigonometry] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
-10-10 08:02:58   [Trigonometry] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-10-10 08:02:58   [Trigonometry] written 2, failed 3; AI calls today 253/100000
-10-10 08:02:58 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_19_Trigonometry after 71 min: todo ['Set 05 hi: todo', 'Set 06 en: todo', 'Set 06 hi: todo'] problems []
-10-10 08:03:02 worker 6: nothing left
 10-10 08:03:22   [Probability] Practice_en_Set_06.txt try 2: rejected (parsed 23 questions, numbers 126…150)
 10-10 08:05:46   [Linear_Programming] Mind_Map.txt try 2: rejected (no usable mermaid graph)
 10-10 08:05:46   [Linear_Programming] REJECTED Mind_Map.txt: no usable mermaid graph — not written
@@ -92,4 +86,10 @@
 10-10 08:52:54   [Probability] Practice_en_Set_02.txt try 4: rejected (parsed 22 questions, numbers 26…50)
 10-10 08:52:54   [Probability] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
 10-10 08:52:54   [Probability] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+10-10 08:57:40   [Probability] Practice_en_Set_03.txt try 1: rejected (parsed 24 questions, numbers 51…75)
+10-10 09:02:33   [Probability] Practice_en_Set_03.txt try 2: rejected (parsed 23 questions, numbers 51…75)
+10-10 09:06:38   [Linear_Programming] Short_Tricks_hi.txt try 1: answer too long — asking for a tighter version
+10-10 09:06:44   [Probability] Practice_en_Set_03.txt try 3: rejected (parsed 22 questions, numbers 51…75)
+10-10 09:08:14   [Number_Series] FAILED Practice_en_Set_02.txt: too_long
+10-10 09:08:14   [Number_Series] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
 ```
