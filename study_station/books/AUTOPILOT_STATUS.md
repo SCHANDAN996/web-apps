@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 09:17 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
+**आख़िरी update:** 10-10-2026 09:28 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Figure Series (Graduation Reasoning) | 🔎 review हो रहा है | 48 मिनट |
-| W2 | Chapter 23 Syllogism (Graduation Reasoning) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 24 Statement Assumption (Graduation Reasoning) | ✍️ लिख रहा है | 15 मिनट |
-| W4 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 17 मिनट |
-| W5 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 95 मिनट |
-| W6 | Chapter 26 Data Sufficiency (Graduation Reasoning) | ✍️ लिख रहा है | 53 मिनट |
-| W7 | Chapter 25 Statement Argument (Graduation Reasoning) | ✍️ लिख रहा है | 70 मिनट |
-| W8 | Chapter 20 Mirror Water Images (Graduation Reasoning) | 🔧 सुधार रहा है | 33 मिनट |
+| W1 | Chapter 28 Critical Reasoning (Graduation Reasoning) | ✍️ लिख रहा है | 2 मिनट |
+| W2 | Chapter 27 Decision Making (Graduation Reasoning) | ✍️ लिख रहा है | 10 मिनट |
+| W3 | Chapter 24 Statement Assumption (Graduation Reasoning) | 🔎 review हो रहा है | 9 मिनट |
+| W4 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 28 मिनट |
+| W5 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 105 मिनट |
+| W6 | Chapter 26 Data Sufficiency (Graduation Reasoning) | ✍️ लिख रहा है | 64 मिनट |
+| W7 | Chapter 25 Statement Argument (Graduation Reasoning) | ✍️ लिख रहा है | 81 मिनट |
+| W8 | Chapter 20 Mirror Water Images (Graduation Reasoning) | 🔧 सुधार रहा है | 43 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -33,9 +33,9 @@
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 20 | 0 | 8 |
 | Graduation GK | 27 | 0 | 1 |
-| Graduation Reasoning | 17 | 2 | 11 |
+| Graduation Reasoning | 18 | 2 | 10 |
 | Graduation English | 29 | 1 | 0 |
-| **कुल** | **254** | **5** | **37** |
+| **कुल** | **255** | **5** | **36** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -48,30 +48,16 @@
 - Chapter 12 Missing Term (Reasoning) — 2 बार
 - Chapter 22 Para Jumbles Adv (English) — 2 बार
 - Chapter 02 Classification (Reasoning) — 2 बार
-- Chapter 22 Figure Series (Reasoning) — 1 बार
+- Chapter 22 Figure Series (Reasoning) — 2 बार
 - Chapter 14 Alphabet Questions (Reasoning) — 2 बार
 - Chapter 13 Dictionary Order (Reasoning) — 1 बार
 - Chapter 20 Mirror Water Images (Reasoning) — 1 बार
 - Chapter 21 Paper Folding Cutting (Reasoning) — 1 बार
 - Chapter 24 Statement Assumption (Reasoning) — 1 बार
-- Chapter 23 Syllogism (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 08:42:39   [Dictionary_Order] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
-10-10 08:44:31   [Mirror_Water_Images] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-10-10 08:44:31   [Mirror_Water_Images] written 2, failed 0; AI calls today 204/100000
-10-10 08:44:45   [Statement_Argument] Practice_en_Set_03.txt try 2: re-solve disagrees (Q52 key d vs re-solve b, Q65 key b vs re-solve a)
-10-10 08:48:57   [Data_Sufficiency] Practice_en_Set_01.txt try 1: re-solve disagrees (Q16 key d vs re-solve a)
-10-10 08:49:32   [Syllogism] FAILED review Short_Tricks_en.txt: rate_limited — the chapter must not be published unreviewed
-10-10 08:51:07   [Statement_Argument] Practice_en_Set_03.txt try 3: re-solve disagrees (Q60 key d vs re-solve c, Q65 key a vs re-solve c, Q69 key b vs re-solve d)
-10-10 08:52:27   [Syllogism] review Short_Tricks_hi.txt: 3 issue(s): - Trick 8: "जो निश्चित सही है, उसकी संभावना गलत मानी जाती है" → In syllogism, if a conclusion is definitely tr
-10-10 08:53:32   [Figure_Series] review PYQ_hi.txt: 1 issue(s): - Question 6 answer and explanation are wrong: the dot moves anti‑clockwise from left to bottom (down), not up; the cor
-10-10 08:53:34   [Dictionary_Order] Practice_en_Set_06.txt try 1: rejected (Q127:leaked_reasoning,Q128:leaked_reasoning,Q137:leaked_reasoning,Q138:leaked_reasoning,Q142:leaked_reasoning)
-10-10 08:55:04   [Data_Sufficiency] Practice_en_Set_01.txt try 2: re-solve disagrees (Q16 key b vs re-solve a)
-10-10 08:56:22   [Statement_Argument] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-10-10 08:58:06   [Figure_Series] review Short_Tricks_en.txt: 2 issue(s): - Box 1 claims "90% of series crack within these" (invented statistic) → remove the percentage claim
 10-10 09:00:11   [Paper_Folding_Cutting] FAILED Practice_en_Set_06.txt: too_long
 10-10 09:00:11   [Paper_Folding_Cutting] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
 10-10 09:00:11   [Paper_Folding_Cutting] written 2, failed 6; AI calls today 229/100000
@@ -99,4 +85,17 @@
 10-10 09:15:52   [Dictionary_Order] Practice_en_Set_06.txt try 2: re-solve disagrees (Q126 key c vs re-solve ?, Q140 key d vs re-solve b, Q143 key a vs re-solve ?)
 10-10 09:17:55   [Syllogism] review: 1 section(s) corrected, 0 failed
 10-10 09:17:55   [Syllogism] written 1, failed 0; AI calls today 244/100000
+10-10 09:18:12 DONE Graduation_Level/Reasoning/Chapter_23_Syllogism in 11 min → 5766432f
+10-10 09:18:15 START Graduation_Level/Reasoning/Chapter_27_Decision_Making (TODO: todo 3, problems 0)
+10-10 09:19:06   [Statement_Assumption] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+10-10 09:19:06   [Statement_Assumption] written 2, failed 0; AI calls today 245/100000
+10-10 09:19:32   [Figure_Series] FAILED review Short_Tricks_hi.txt: network — the chapter must not be published unreviewed
+10-10 09:20:42   [Figure_Series] review Important_Rules_en.txt: 1 issue(s): - Counting Rule description says "arithmetic pattern (+1, +2, ×2, etc.)" but ×2 is geometric, not arithmeti
+10-10 09:20:48   [Paper_Folding_Cutting] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+10-10 09:25:44   [Paper_Folding_Cutting] Practice_en_Set_03.txt try 1: rejected (parsed 22 questions, numbers 51…75)
+10-10 09:26:12   [Figure_Series] review: 5 section(s) corrected, 1 failed
+10-10 09:26:12   [Figure_Series] written 5, failed 1; AI calls today 261/100000
+10-10 09:26:12 NOT OK Graduation_Level/Reasoning/Chapter_22_Figure_Series after 108 min: todo [] problems []
+10-10 09:26:14 START Graduation_Level/Reasoning/Chapter_28_Critical_Reasoning (TODO: todo 25, problems 0)
+10-10 09:26:43   [Statement_Assumption] review Short_Tricks_hi.txt: 1 issue(s): - Skip Strategy point 2 states "guess की सफलता दर 25% से कम होती है" (guess success rate less than 25%), but f
 ```
