@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 11:25 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 09:07 PM
+**आख़िरी update:** 10-10-2026 11:40 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 09:07 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W3 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 72 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -40,17 +38,11 @@
 - Chapter 12 Missing Term (Reasoning) — 2 बार
 - Chapter 22 Para Jumbles Adv (English) — 2 बार
 - Chapter 25 Statement Argument (Reasoning) — 2 बार
-- Chapter 30 Advanced Puzzles (Reasoning) — 1 बार
+- Chapter 30 Advanced Puzzles (Reasoning) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 21:53:20 START Graduation_Level/Reasoning/Chapter_12_Missing_Term (FIX: todo 0, problems 1)
-10-10 21:53:42   [Para_Jumbles_Adv] FAILED Mind_Map_hi.txt: network
-10-10 21:53:42   [Para_Jumbles_Adv] written 0, failed 1; AI calls today 3/100000
-10-10 21:53:42 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv after 46 min: todo [] problems ['Mind_Map_hi.txt: much shorter than the English section (1349']
-10-10 21:53:43 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv (FIX: todo 0, problems 1)
-10-10 21:54:20   [Statement_Argument] FAILED PYQ_hi.txt: network
 10-10 21:54:20   [Statement_Argument] written 0, failed 1; AI calls today 3/100000
 10-10 21:54:20   [Dictionary_Order] FAILED Practice_en_Set_06.txt: network
 10-10 21:54:20   [Dictionary_Order] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
@@ -85,4 +77,10 @@
 10-10 22:41:09 worker 1: nothing left
 10-10 22:52:05   [Advanced_Puzzles] Practice_en_Set_06.txt try 2: re-solve disagrees (Q130 key b vs re-solve c)
 10-10 23:18:39   [Advanced_Puzzles] Practice_en_Set_06.txt try 3: re-solve disagrees (Q128 key a vs re-solve b, Q139 key d vs re-solve a)
+10-10 23:33:06   [Advanced_Puzzles] Practice_en_Set_06.txt try 4: rejected (parsed 0 questions, numbers -…-)
+10-10 23:33:06   [Advanced_Puzzles] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+10-10 23:33:06   [Advanced_Puzzles] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+10-10 23:33:06   [Advanced_Puzzles] written 0, failed 2; AI calls today 8/100000
+10-10 23:33:06 NOT OK Graduation_Level/Reasoning/Chapter_30_Advanced_Puzzles after 80 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems ['Important_Rules_hi.txt: much shorter than the English sectio']
+10-10 23:33:09 worker 2: nothing left
 ```
