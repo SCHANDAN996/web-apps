@@ -1,0 +1,151 @@
+Questions 1–20: Easy | Questions 21–25: Medium
+
+1. How many faces does a cube have?
+(a) 4 (b) 8 (c) 6 (d) 12
+Answer: (c)
+Solution: A cube has 6 square faces, 12 edges and 8 vertices. The tempting wrong option 8 is the number of vertices, not faces, so the answer is 6.
+Source: NCERT Class 8 Mathematics (Visualising Solid Shapes)
+
+2. How many edges does a cube have?
+(a) 6 (b) 8 (c) 16 (d) 12
+Answer: (d)
+Solution: Each of the 6 faces is a square, and counting shared edges gives 12 edges. The option 8 is the number of vertices, a common confusion, so the answer is 12.
+Source: NCERT Class 8 Mathematics (Visualising Solid Shapes)
+
+3. How many vertices (corners) does a cube have?
+(a) 4 (b) 6 (c) 12 (d) 8
+Answer: (d)
+Solution: A cube has 8 corners where three faces meet. The option 12 is the number of edges, so the answer is 8.
+Source: NCERT Class 8 Mathematics (Visualising Solid Shapes)
+
+4. A cube is painted on all its faces and cut into 64 equal smaller cubes. How many small cubes have exactly three faces painted?
+(a) 8 (b) 6 (c) 4 (d) 12
+Answer: (a)
+Solution: Only corner cubes have three painted faces, and a cube always has 8 corners. The option 12 tempts those who count edges instead of corners, so the answer is 8.
+Source: PYQ-style
+
+5. A cube is painted on all faces and cut into 27 equal smaller cubes. How many small cubes have no face painted?
+(a) 1 (b) 3 (c) 6 (d) 8
+Answer: (a)
+Solution: Unpainted cubes lie fully inside: (n − 2)³ where n = 3, giving 1³ = 1. The option 8 wrongly counts the corner cubes, so the answer is 1.
+Source: PYQ-style
+
+6. A cube is painted on all faces and cut into 64 equal smaller cubes. How many small cubes have exactly two faces painted?
+(a) 24 (b) 12 (c) 8 (d) 36
+Answer: (a)
+Solution: Two-face-painted cubes lie on edges but not corners: 12 × (n − 2) = 12 × 2 = 24, since n = 4. The option 12 counts only edges, not cubes per edge, so the answer is 24.
+Source: PYQ-style
+
+7. A cube is painted on all faces and cut into 125 equal smaller cubes. How many small cubes have exactly one face painted?
+(a) 36 (b) 54 (c) 64 (d) 96
+Answer: (b)
+Solution: One-face-painted cubes lie on face centres: 6 × (n − 2)² = 6 × 9 = 54, since n = 5. The option 36 uses n = 4 by mistake, so the answer is 54.
+Source: PYQ-style
+
+8. A cube is painted on all faces and cut into 27 equal smaller cubes. How many small cubes have exactly two faces painted?
+(a) 8 (b) 18 (c) 12 (d) 24
+Answer: (c)
+Solution: With n = 3, each of the 12 edges has (n − 2) = 1 such cube, giving 12. The option 24 wrongly uses n = 4, so the answer is 12.
+Source: PYQ-style
+
+9. On a standard die, the sum of numbers on any pair of opposite faces is always:
+(a) 6 (b) 8 (c) 7 (d) 9
+Answer: (c)
+Solution: On a standard die, opposite faces are 1–6, 2–5 and 3–4, each summing to 7. The option 6 tempts those who think of the highest face, so the answer is 7.
+Source: PYQ-style
+
+10. On a standard die, which number is opposite to 3?
+(a) 4 (b) 2 (c) 5 (d) 6
+Answer: (a)
+Solution: Opposite pairs sum to 7, so 7 − 3 = 4. The option 5 tempts those who pair 3 with 5 by adjacency, so the answer is 4.
+Source: PYQ-style
+
+11. On a standard die, which number is opposite to 1?
+(a) 6 (b) 5 (c) 4 (d) 2
+Answer: (a)
+Solution: Since opposite faces sum to 7, 7 − 1 = 6. The option 5 tempts those who subtract 1 from 6 instead, so the answer is 6.
+Source: PYQ-style
+
+12. Two positions of a die are shown. In the first, faces 1, 2, 3 are visible; in the second, faces 2, 3, 5 are visible. Which number is opposite to 2?
+(a) 1 (b) 3 (c) 6 (d) 5
+Answer: (c)
+Solution: Faces 1, 3, 5 are adjacent to 2 (seen with it), so the only remaining number, 6, is opposite to 2. The option 5 tempts because it appears with 2, but appearing together means adjacent, not opposite, so the answer is 6.
+Source: PYQ-style
+
+13. Two positions of a die are shown. In the first, faces 4, 5, 6 are visible; in the second, faces 5, 6, 2 are visible. Which number is opposite to 6?
+(a) 2 (b) 1 (c) 5 (d) 4
+Answer: (b)
+Solution: Faces 4, 5, 2 are adjacent to 6, so the only remaining number, 1, is opposite to 6. The option 5 tempts because it appears twice with 6, but that makes it adjacent, so the answer is 1.
+Source: PYQ-style
+
+14. A cube is painted red on all faces and cut into 8 equal smaller cubes. How many small cubes have no face painted?
+(a) 0 (b) 1 (c) 2 (d) 4
+Answer: (a)
+Solution: With n = 2, every small cube is a corner cube with three painted faces, so none is unpainted. The option 1 wrongly applies (n − 2)³ without noting n = 2 gives 0, so the answer is 0.
+Source: PYQ-style
+
+15. A cube is painted on all faces and cut into 216 equal smaller cubes. How many small cubes have exactly three faces painted?
+(a) 6 (b) 12 (c) 8 (d) 27
+Answer: (c)
+Solution: Three-face-painted cubes are always the 8 corner cubes, regardless of size. The option 27 tempts those who confuse it with the total cut count pattern, so the answer is 8.
+Source: PYQ-style
+
+16. A cube is painted on all faces and cut into 1000 equal smaller cubes. How many small cubes have no face painted?
+(a) 216 (b) 343 (c) 729 (d) 512
+Answer: (d)
+Solution: Here n = 10, so unpainted cubes = (n − 2)³ = 8³ = 512. The option 729 wrongly uses 9³, forgetting to subtract 2, so the answer is 512.
+Source: PYQ-style
+
+17. Two positions of the same die are shown. In the first, faces 1, 3, 4 are visible; in the second, faces 3, 4, 6 are visible. Which number is opposite to 4?
+(a) 2 (b) 3 (c) 6 (d) 1
+Answer: (a)
+Solution: Faces 1, 3, 6 are adjacent to 4, leaving 2 and 5; since 5 is not adjacent to 4 in either view and 2 must be opposite by elimination of the standard pairing, the opposite is 2. The option 6 tempts because it appears with 4, but that means adjacent, so the answer is 2.
+Source: PYQ-style
+
+18. A cube is painted on all faces and cut into 64 equal smaller cubes. How many small cubes have exactly one face painted?
+(a) 16 (b) 24 (c) 32 (d) 48
+Answer: (b)
+Solution: With n = 4, one-face-painted cubes = 6 × (n − 2)² = 6 × 4 = 24. The option 48 doubles the count by mistake, so the answer is 24.
+Source: PYQ-style
+
+19. A cube is painted on all faces and cut into 343 equal smaller cubes. How many small cubes have exactly two faces painted?
+(a) 48 (b) 84 (c) 72 (d) 60
+Answer: (d)
+Solution: Here n = 7, so two-face-painted cubes = 12 × (n − 2) = 12 × 5 = 60. The option 84 wrongly uses n = 9, so the answer is 60.
+Source: PYQ-style
+
+20. A standard die is thrown. What is the sum of the numbers on the top and bottom faces together?
+(a) 5 (b) 6 (c) 8 (d) 7
+Answer: (d)
+Solution: Top and bottom are opposite faces, and on a standard die opposite faces always sum to 7. The option 6 tempts those who think of the maximum single face, so the answer is 7.
+Source: PYQ-style
+
+21. A cube is painted red on two opposite faces, green on two opposite faces, and blue on the remaining two opposite faces. It is cut into 64 equal smaller cubes. How many small cubes have exactly two colours on them?
+(a) 16 (b) 24 (c) 32 (d) 48
+Answer: (b)
+Solution: Two-colour cubes lie on edges but not corners: 12 × (n − 2) = 12 × 2 = 24, since n = 4. The option 48 counts all edge cubes including corners, so the answer is 24.
+Source: PYQ-style
+
+22. A cube is painted on all faces and cut into 125 equal smaller cubes. How many small cubes have at least one face painted?
+(a) 124 (b) 100 (c) 117 (d) 98
+Answer: (d)
+Solution: Unpainted cubes = (5 − 2)³ = 27, so painted cubes = 125 − 27 = 98. The option 124 tempts those who subtract only 1 inner cube, so the answer is 98.
+Source: PYQ-style
+
+23. Two positions of a die are shown. In the first, faces 2, 4, 5 are visible; in the second, faces 4, 5, 6 are visible. Which number is opposite to 5?
+(a) 2 (b) 1 (c) 6 (d) 4
+Answer: (b)
+Solution: Faces 2, 4, 6 are adjacent to 5, so the only remaining number, 1, is opposite to 5. The option 6 tempts because it appears with 5 in the second view, but appearing together means adjacent, so the answer is 1.
+Source: PYQ-style
+
+24. A cube of side 6 cm is painted on all faces and cut into smaller cubes of side 1 cm. How many small cubes have exactly two faces painted?
+(a) 36 (b) 60 (c) 48 (d) 72
+Answer: (c)
+Solution: Here n = 6, so two-face-painted cubes = 12 × (n − 2) = 12 × 4 = 48. The option 36 wrongly uses (n − 2)² instead of the edge formula, so the answer is 48.
+Source: PYQ-style
+
+25. Three positions of the same die are shown. In the first, faces 1, 2, 3 are visible; in the second, faces 2, 3, 6 are visible; in the third, faces 1, 3, 5 are visible. Which number is opposite to 3?
+(a) 1 (b) 4 (c) 5 (d) 2
+Answer: (b)
+Solution: Faces 1, 2, 5, 6 all appear adjacent to 3 across the three views, so the only remaining number, 4, is opposite to 3. The option 5 tempts because it appears with 3, but appearing together means adjacent, so the answer is 4.
+Source: PYQ-style

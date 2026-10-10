@@ -1,0 +1,151 @@
+Questions 26–50: Medium
+
+26. A cube is painted red on all its faces and then cut into 64 equal smaller cubes. How many smaller cubes have exactly two faces painted?
+(a) 8 (b) 24 (c) 12 (d) 36
+Answer: (b)
+Solution: A cube cut into 64 pieces means 4 cubes along each edge (n = 4). Cubes with exactly two painted faces lie on the edges but not at corners: 12 edges × (n − 2) = 12 × 2 = 24. The tempting wrong answer 12 counts only one cube per edge, forgetting that with n = 4 each edge has two middle cubes, so the answer is 24.
+Source: PYQ-style
+
+27. A cube is painted on all faces and cut into 125 equal smaller cubes. How many smaller cubes have no face painted?
+(a) 8 (b) 64 (c) 27 (d) 125
+Answer: (c)
+Solution: With 125 cubes, n = 5. Unpainted cubes form the inner cube of side (n − 2) = 3, giving 3³ = 27. The tempting wrong answer 64 comes from wrongly using n = 4 (i.e., 4³), but the inner cube has side 3, so the answer is 27.
+Source: PYQ-style
+
+28. A cube is painted blue on all faces and cut into 27 equal smaller cubes. How many smaller cubes have exactly one face painted?
+(a) 9 (b) 8 (c) 12 (d) 6
+Answer: (d)
+Solution: With 27 cubes, n = 3. One-face-painted cubes lie at the centre of each face: 6 faces × (n − 2)² = 6 × 1 = 6. The tempting wrong answer 8 is the count of corner cubes (three faces painted), not one-face cubes, so the answer is 6.
+Source: PYQ-style
+
+29. A cube is painted on all faces and cut into 216 equal smaller cubes. How many smaller cubes have exactly three faces painted?
+(a) 6 (b) 12 (c) 8 (d) 24
+Answer: (c)
+Solution: Three-face-painted cubes are always the corner cubes, and every cube has exactly 8 corners regardless of size. The tempting wrong answer 24 confuses this with the two-face count formula, but corner cubes are always 8, so the answer is 8.
+Source: PYQ-style
+
+30. A cube is painted on all faces and cut into 1000 equal smaller cubes. How many smaller cubes have exactly two faces painted?
+(a) 80 (b) 96 (c) 64 (d) 120
+Answer: (b)
+Solution: With 1000 cubes, n = 10. Two-face cubes = 12 × (n − 2) = 12 × 8 = 96. The tempting wrong answer 80 comes from using 10 edges instead of 12, but a cube has 12 edges, so the answer is 96.
+Source: PYQ-style
+
+31. A cube is painted on all faces and cut into 343 equal smaller cubes. How many smaller cubes have at least one face painted?
+(a) 216 (b) 343 (c) 125 (d) 218
+Answer: (d)
+Solution: With 343 cubes, n = 7. Unpainted cubes = (n − 2)³ = 5³ = 125. Painted cubes = 343 − 125 = 218. The tempting wrong answer 216 comes from computing 6³, which mixes up the inner side length, so the answer is 218.
+Source: PYQ-style
+
+32. A cube is painted on all faces and cut into 64 equal smaller cubes. How many smaller cubes have at most one face painted?
+(a) 24 (b) 32 (c) 8 (d) 40
+Answer: (b)
+Solution: With n = 4: unpainted cubes = (4 − 2)³ = 8, and one-face cubes = 6 × (4 − 2)² = 24. At most one face painted = 8 + 24 = 32. The tempting wrong answer 24 counts only the one-face cubes and forgets the unpainted ones, so the answer is 32.
+Source: PYQ-style
+
+33. A wooden cube of side 6 cm is painted red on all faces and cut into 1 cm cubes. How many small cubes have exactly two faces painted?
+(a) 24 (b) 48 (c) 36 (d) 60
+Answer: (b)
+Solution: Here n = 6. Two-face cubes = 12 × (n − 2) = 12 × 4 = 48. The tempting wrong answer 36 comes from miscomputing (n − 2) as 3, but with n = 6 each edge contributes 4 middle cubes, so the answer is 48.
+Source: PYQ-style
+
+34. A cube is painted on all faces and cut into 512 equal smaller cubes. How many smaller cubes have no face painted?
+(a) 216 (b) 64 (c) 125 (d) 343
+Answer: (a)
+Solution: With 512 cubes, n = 8. Unpainted cubes = (n − 2)³ = 6³ = 216. The tempting wrong answer 343 is 7³, which wrongly uses (n − 1) instead of (n − 2), so the answer is 216.
+Source: PYQ-style
+
+35. Two positions of the same dice are shown. Position 1: top = 1, front = 2, right = 3. Position 2: top = 2, front = 5, right = 1. Which number is on the face opposite to 3?
+(a) 5 (b) 2 (c) 1 (d) 6
+Answer: (a)
+Solution: Faces 1 and 2 are common to both views. When two faces are common to two positions, the remaining visible faces are opposite to each other, so 3 (seen only in position 1) is opposite to 5 (seen only in position 2). The tempting wrong answers 1 and 2 are the common faces adjacent to 3, so the answer is 5.
+Source: PYQ-style
+
+36. A standard dice has opposite faces summing to 7. If the face showing 5 is on top, which number is on the bottom face?
+(a) 2 (b) 6 (c) 3 (d) 1
+Answer: (a)
+Solution: On a standard dice, opposite faces add up to 7, so the face opposite 5 is 7 − 5 = 2. The tempting wrong answer 1 confuses this with the opposite of 6, but for 5 the opposite is 2, so the answer is 2.
+Source: PYQ-style
+
+37. In a standard dice, opposite faces sum to 7. Which number is on the face opposite to the face showing 3?
+(a) 6 (b) 2 (c) 5 (d) 4
+Answer: (d)
+Solution: On a standard dice, opposite faces add up to 7, so the face opposite 3 is 7 − 3 = 4. The tempting wrong answer 6 is the opposite of 1, not of 3, so the answer is 4.
+Source: PYQ-style
+
+38. Two positions of a dice are shown. Position 1 shows faces 1, 2, 3 meeting at a corner. Position 2 shows faces 1, 4, 5 meeting at a corner. Which number is opposite to 1?
+(a) 2 (b) 3 (c) 6 (d) 4
+Answer: (c)
+Solution: Face 1 is adjacent to 2, 3, 4 and 5 (all seen touching it in the two views). A face has exactly four adjacent faces and one opposite face, so the only remaining number, 6, is opposite to 1. The tempting wrong answers 2, 3 and 4 are all adjacent to 1, so the answer is 6.
+Source: PYQ-style
+
+39. A cube is painted red on two opposite faces, green on two opposite faces, and blue on the remaining two opposite faces. It is cut into 64 equal smaller cubes. How many smaller cubes have exactly two colours on them?
+(a) 24 (b) 16 (c) 8 (d) 32
+Answer: (a)
+Solution: With n = 4, cubes with exactly two painted faces lie on edges excluding corners: 12 × (n − 2) = 24. Each such edge cube carries the two colours of the faces meeting at that edge. The tempting wrong answer 32 wrongly includes corner cubes, but corners have three colours, so the answer is 24.
+Source: PYQ-style
+
+40. A cube is painted red on two opposite faces and green on the other four faces, then cut into 27 equal cubes. How many small cubes have both red and green on them?
+(a) 4 (b) 12 (c) 8 (d) 6
+Answer: (c)
+Solution: With n = 3, each edge has exactly one middle cube. Each red face shares its 4 edges with green faces, giving 4 + 4 = 8 edge-middle cubes carrying both red and green; the 4 edges between two green faces carry only green. The tempting wrong answer 12 counts all two-face cubes including the green-green edges, so the answer is 8.
+Source: PYQ-style
+
+41. A dice is thrown and the top face shows 4. In a standard dice, what is the sum of the numbers on the four vertical (side) faces?
+(a) 16 (b) 14 (c) 12 (d) 10
+Answer: (b)
+Solution: The total of all six faces is 1 + 2 + 3 + 4 + 5 + 6 = 21. If the top is 4, the bottom is 7 − 4 = 3. The four side faces sum to 21 − 4 − 3 = 14. The tempting wrong answer 12 forgets that the bottom face must also be subtracted, so the answer is 14.
+Source: PYQ-style
+
+42. Two positions of the same dice are shown. Position 1: top = 6, front = 4. Position 2: top = 4, front = 5. Which number is opposite to 6?
+(a) 4 (b) 3 (c) 2 (d) 5
+Answer: (d)
+Solution: Face 4 is common to both views and moves from front to top. When the common face is kept fixed and the dice is rotated, the face that moves away from the top (6) and the face that takes its place (5) are opposite to each other. The tempting wrong answer 4 is the common adjacent face, not the opposite, so the answer is 5.
+Source: PYQ-style
+
+43. A cube of side 5 cm is painted on all faces and cut into 1 cm cubes. What is the ratio of cubes with exactly one face painted to cubes with no face painted?
+(a) 2 : 1 (b) 3 : 2 (c) 1 : 1 (d) 4 : 3
+Answer: (a)
+Solution: With n = 5: one-face cubes = 6 × (5 − 2)² = 6 × 9 = 54; unpainted cubes = (5 − 2)³ = 27. Ratio = 54 : 27 = 2 : 1. The tempting wrong answer 3 : 2 comes from comparing wrong categories, so the answer is 2 : 1.
+Source: PYQ-style
+
+44. A cube is painted on all faces and cut into 729 equal smaller cubes. How many smaller cubes have exactly one face painted?
+(a) 294 (b) 343 (c) 216 (d) 150
+Answer: (a)
+Solution: With 729 cubes, n = 9. One-face cubes = 6 × (n − 2)² = 6 × 49 = 294. The tempting wrong answer 343 is 7³, which is the unpainted count, not the one-face count, so the answer is 294.
+Source: PYQ-style
+
+45. Two positions of the same dice are shown. Position 1: top = 4, front = 2. Position 2: top = 2, front = 6. Which number is opposite to 4?
+(a) 2 (b) 1 (c) 6 (d) 3
+Answer: (c)
+Solution: Face 2 is common to both views and moves from front to top. When the common face is kept fixed and the dice is rotated, the face that leaves the top (4) and the face that replaces it (6) are opposite to each other. The tempting wrong answer 2 is the common adjacent face, not the opposite, so the answer is 6.
+Source: PYQ-style
+
+46. A cube is painted on all faces and cut into 64 equal smaller cubes. How many smaller cubes have at least two faces painted?
+(a) 40 (b) 24 (c) 32 (d) 36
+Answer: (c)
+Solution: With n = 4: three-face cubes = 8, two-face cubes = 12 × (4 − 2) = 24. At least two faces = 8 + 24 = 32. The tempting wrong answer 24 counts only the two-face cubes and omits the 8 corner cubes, so the answer is 32.
+Source: PYQ-style
+
+47. A large cube is made of 125 small cubes and painted on the outside. The outer layer of small cubes is removed. How many small cubes remain?
+(a) 27 (b) 64 (c) 8 (d) 125
+Answer: (a)
+Solution: Removing the outer layer leaves the inner cube of side (5 − 2) = 3, i.e., 3³ = 27 cubes. The tempting wrong answer 64 is 4³, which removes only one layer's thickness incorrectly, so the answer is 27.
+Source: PYQ-style
+
+48. On a standard dice, the numbers 1, 2 and 3 meet at one corner. If 1 is on top and 2 faces you, which number is on the right face?
+(a) 4 (b) 3 (c) 5 (d) 6
+Answer: (b)
+Solution: Since 1, 2 and 3 share a common corner, when 1 is on top and 2 is in front, the third face of that corner, 3, must be on the right. The tempting wrong answers 4, 5 and 6 are opposite to 3, 2 and 1 respectively and cannot touch that corner, so the answer is 3.
+Source: PYQ-style
+
+49. A cube is painted on all faces and cut into 216 equal smaller cubes. How many smaller cubes have exactly two or three faces painted?
+(a) 60 (b) 48 (c) 64 (d) 56
+Answer: (d)
+Solution: With n = 6: three-face cubes = 8, two-face cubes = 12 × (6 − 2) = 48. Total = 8 + 48 = 56. The tempting wrong answer 48 counts only the edge cubes and forgets the 8 corners, so the answer is 56.
+Source: PYQ-style
+
+50. Two positions of a dice are shown. Position 1: top = 3, front = 6, right = 2. Position 2: top = 6, front = 1, right = 3. Which number is opposite to 2?
+(a) 6 (b) 4 (c) 5 (d) 1
+Answer: (d)
+Solution: Faces 3 and 6 are common to both views. When two faces are common, the two non-common visible faces are opposite to each other, so 2 (seen only in position 1) is opposite to 1 (seen only in position 2). The tempting wrong answer 6 is a common face adjacent to 2, not opposite, so the answer is 1.
+Source: PYQ-style

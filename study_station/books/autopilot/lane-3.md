@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 08:28 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
+**आख़िरी update:** 10-10-2026 08:39 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,12 +8,11 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 138 मिनट |
-| W2 | Chapter 25 Statement Argument (12th Reasoning) | ✍️ लिख रहा है | 10 मिनट |
-| W5 | Chapter 22 Figure Series (12th Reasoning) | ✍️ लिख रहा है | 16 मिनट |
-| W6 | Chapter 19 Cubes Dice (12th Reasoning) | 🔎 review हो रहा है | 19 मिनट |
-| W7 | Chapter 20 Mirror Water Images (12th Reasoning) | ✍️ लिख रहा है | 38 मिनट |
-| W8 | Chapter 23 Syllogism (12th Reasoning) | ✍️ लिख रहा है | 75 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 8 मिनट |
+| W5 | Chapter 22 Figure Series (12th Reasoning) | ✍️ लिख रहा है | 27 मिनट |
+| W6 | Chapter 19 Cubes Dice (12th Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W7 | Chapter 20 Mirror Water Images (12th Reasoning) | ✍️ लिख रहा है | 50 मिनट |
+| W8 | Chapter 23 Syllogism (12th Reasoning) | 🔎 review हो रहा है | 7 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -25,16 +24,17 @@
 | 10th English | 17 | 0 | 3 |
 | 12th Maths | 19 | 0 | 4 |
 | 12th GK | 22 | 0 | 2 |
-| 12th Reasoning | 16 | 3 | 6 |
+| 12th Reasoning | 17 | 3 | 5 |
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 20 | 0 | 8 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 15 | 0 | 15 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **251** | **5** | **40** |
+| **कुल** | **252** | **5** | **39** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 10-10 08:39 — 12th Reasoning · Chapter 19 Cubes Dice
 - 10-10 07:38 — 12th Reasoning · Chapter 10 Clock Calendar
 - 10-10 07:15 — 12th Reasoning · Chapter 14 Alphabet Questions
 - 10-10 07:12 — 12th Reasoning · Chapter 21 Paper Folding Cutting
@@ -50,34 +50,12 @@
 - Chapter 24 Statement Assumption (Reasoning) — 2 बार
 - Chapter 20 Mirror Water Images (Reasoning) — 1 बार
 - Chapter 22 Figure Series (Reasoning) — 1 बार
-- Chapter 25 Statement Argument (Reasoning) — 1 बार
+- Chapter 25 Statement Argument (Reasoning) — 2 बार
+- Chapter 07 Sitting Arrangement (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 08:08:04   [Statement_Assumption] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-10-10 08:08:04   [Statement_Assumption] written 4, failed 0; AI calls today 349/100000
-10-10 08:08:27   [Statement_Assumption] REJECTED Short_Tricks_hi.txt: corrupted characters — not written
-10-10 08:08:27   [Statement_Assumption] written 0, failed 1; AI calls today 350/100000
-10-10 08:08:27   [Cubes_Dice] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-10-10 08:08:27   [Cubes_Dice] written 4, failed 0; AI calls today 350/100000
-10-10 08:09:36   [Statement_Assumption] repaired Short_Tricks_hi.txt (4175 chars)
-10-10 08:09:36   [Statement_Assumption] written 1, failed 0; AI calls today 353/100000
-10-10 08:09:36 NOT OK 12th_Level/Reasoning/Chapter_24_Statement_Assumption after 27 min: todo [] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
-10-10 08:09:39 worker 3: nothing left
-10-10 08:10:54   [Cubes_Dice] review Content_en.txt: 1 issue(s): - The claim "Every year, SSC, Banking and Railway exams ask 1–3 questions from this topic" is an invented exam stat
-10-10 08:11:26   [Syllogism] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-10-10 08:11:47   [Figure_Series] Practice_en_Set_04.txt try 4: re-solve disagrees (Q76 key b vs re-solve c)
-10-10 08:11:47   [Figure_Series] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
-10-10 08:11:47   [Figure_Series] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
-10-10 08:11:47   [Figure_Series] written 1, failed 7; AI calls today 356/100000
-10-10 08:11:47 NOT OK 12th_Level/Reasoning/Chapter_22_Figure_Series after 80 min: todo ['Set 01 hi: todo', 'Set 02 en: todo', 'Set 02 hi: todo', 'Set 03 en: todo'] problems ['Feynman_hi.txt: Hindi file is mostly not in Hindi', 'Feynman_hi.txt: much shorter than the English section (693 v', 'Short_Tricks_hi.txt: Hindi file is mostly not in Hindi']
-10-10 08:11:47   [Statement_Argument] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-10-10 08:11:50 START 12th_Level/Reasoning/Chapter_22_Figure_Series (TODO: todo 7, problems 3)
-10-10 08:13:28   [Cubes_Dice] review Content_hi.txt: 1 issue(s): - The example for Rule 1 (common face in same position) produces an invalid dice: it concludes 1 opposite 5, 4 oppo
-10-10 08:13:50   [Mirror_Water_Images] FAILED Practice_en_Set_01.txt: too_long
-10-10 08:13:50   [Mirror_Water_Images] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
-10-10 08:13:51   [Syllogism] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 10-10 08:14:12   [Figure_Series] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 10-10 08:15:42   [Cubes_Dice] review Feynman_en.txt: 1 issue(s): - "3 cuts along each edge" would produce 4 pieces per edge (64 cubes), not 27 → should be "2 cuts along each edge" 
 10-10 08:15:55   [Figure_Series] Practice_en_Set_02.txt try 1: rejected (Q35:leaked_reasoning,Q41:leaked_reasoning,Q46:leaked_reasoning)
@@ -95,4 +73,27 @@
 10-10 08:25:20   [Cubes_Dice] review PYQ_en.txt: 2 issue(s): - Q6 has two conflicting answers (initially (b) Ordinary, then revised (a) Standard) → keep only (a) Standard as the co
 10-10 08:26:47   [Syllogism] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 10-10 08:28:19   [Sitting_Arrangement] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+10-10 08:29:55   [Syllogism] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+10-10 08:29:55   [Syllogism] written 10, failed 0; AI calls today 389/100000
+10-10 08:31:05   [Sitting_Arrangement] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+10-10 08:31:05   [Sitting_Arrangement] written 2, failed 6; AI calls today 390/100000
+10-10 08:31:05 NOT OK 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement after 142 min: todo ['Set 01 en: todo', 'Set 01 hi: todo', 'Set 02 en: todo', 'Set 02 hi: todo'] problems ['PYQ_hi.txt: Hindi file is mostly not in Hindi']
+10-10 08:31:07 START 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement (TODO: todo 6, problems 1)
+10-10 08:31:08   [Syllogism] repaired Flashcards_hi.txt (3066 chars)
+10-10 08:31:51   [Syllogism] repaired Important_Rules_hi.txt (3799 chars)
+10-10 08:31:51   [Syllogism] written 2, failed 0; AI calls today 392/100000
+10-10 08:32:36   [Syllogism] review Content_en.txt: 2 issue(s): - "### **Syllogy**" → "### **Syllogism**"
+10-10 08:32:40   [Statement_Argument] FAILED Practice_en_Set_02.txt: too_long
+10-10 08:32:40   [Statement_Argument] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+10-10 08:32:40   [Statement_Argument] written 0, failed 2; AI calls today 393/100000
+10-10 08:32:40 NOT OK 12th_Level/Reasoning/Chapter_25_Statement_Argument after 15 min: todo ['Set 02 en: todo', 'Set 02 hi: todo'] problems ['PYQ_hi.txt: Hindi file is mostly not in Hindi', 'PYQ_hi.txt: much shorter than the English section (2089 vs 1']
+10-10 08:32:43 worker 1: nothing left
+10-10 08:33:39   [Sitting_Arrangement] Practice_en_Set_01.txt try 1: rejected (Q1:leaked_reasoning,Q16:leaked_reasoning,Q17:leaked_reasoning,Q21:leaked_reasoning,Q22:leaked_reasoning)
+10-10 08:33:40   [Cubes_Dice] review Short_Tricks_hi.txt: 1 issue(s): - Trick 11 claims “खुले पासे (open dice/net) में एक-एक फलक छोड़कर आने वाले फलक विपरीत होते हैं” as a universal
+10-10 08:34:47   [Mirror_Water_Images] Practice_en_Set_04.txt try 2: re-solve disagrees (Q86 key d vs re-solve a, Q87 key d vs re-solve c, Q89 key c vs re-solve d, Q94 key b vs re-solve c, 
+10-10 08:36:37   [Figure_Series] Practice_en_Set_02.txt try 3: re-solve disagrees (Q44 key b vs re-solve c)
+10-10 08:39:10   [Cubes_Dice] review Important_Rules_hi.txt: 1 issue(s): - Example for rule 'दो स्थितियों में एक उभयनिष्ठ फलक' wrongly concludes 1↔6 → The rule only yields 2↔4 and 
+10-10 08:39:16   [Syllogism] review Flashcards_en.txt: 2 issue(s): - Card 13 incorrectly includes "Some A are not B" as a complementary pair for "Some A are B" → The correct compl
+10-10 08:39:47   [Cubes_Dice] review: 9 section(s) corrected, 0 failed
+10-10 08:39:47   [Cubes_Dice] written 9, failed 0; AI calls today 409/100000
 ```

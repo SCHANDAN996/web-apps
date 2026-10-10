@@ -1,0 +1,42 @@
+# Important Rules & Approaches — Cubes & Dice
+
+## Part 1: Key Rules/Approaches
+
+| Rule Name | Description | Example |
+|---|---|---|
+| Standard Dice Rule | In a standard die, the sum of numbers on any two opposite faces is always 7. | 1 is opposite 6, 2 is opposite 5, 3 is opposite 4. |
+| Opposite Faces Never Touch | Two opposite faces can never be adjacent (visible together) in any view of a die. | If 1 and 6 are opposite, no view can show 1 and 6 side by side. |
+| Two Common Faces Rule | If two views of a die show two common faces, the remaining two faces are opposite to each other. | View 1: 1, 2, 3; View 2: 1, 2, 5 → 3 is opposite 5. |
+| One Common Face Rule (same position) | If two views have one common face in the same position, the other two pairs of faces are opposite to each other. | View 1: 4 top, 2 front, 3 side; View 2: 4 top, 5 front, 6 side → 2 opp 5, 3 opp 6. |
+| One Common Face Rule (different position) | If one common face appears in different positions, rotate mentally: faces adjacent to the common face in one view cannot be opposite to it. | Common face 3 in both views → list faces around 3; the missing number is opposite 3. |
+| Open Dice (Net) Rule | In a cube net, faces separated by exactly one face in a straight line are opposite; faces at the two ends of a "Z" or "L" fold may be opposite — always fold mentally. | In a row of 4 squares A-B-C-D, A is opposite C and B is opposite D. |
+| Painted Cube — 3 Faces Painted | Small cubes at the corners of a big cube have 3 painted faces. Count = 8 (always). | A 4×4×4 cube has 8 corner cubes with 3 painted faces. |
+| Painted Cube — 2 Faces Painted | Cubes on the edges (excluding corners) have 2 painted faces. Count = 12 × (n − 2). | n = 4 → 12 × 2 = 24 cubes. |
+| Painted Cube — 1 Face Painted | Cubes on the faces (excluding edges) have 1 painted face. Count = 6 × (n − 2)². | n = 4 → 6 × 4 = 24 cubes. |
+| Painted Cube — 0 Faces Painted | Inner cubes with no paint. Count = (n − 2)³. | n = 4 → 2³ = 8 cubes. |
+| Total Small Cubes | A big cube of side n units cut into unit cubes gives n³ small cubes. | n = 5 → 125 small cubes. |
+| Counting Cubes in a Figure | Count column by column; hidden cubes must be counted assuming the figure is solid (no gaps) unless stated. | A 3-layer stack: count visible top cubes per column × height. |
+| Dice Rotation Tracking | Track one face through rotations; fix one face and rotate the die step by step. | If top moves to front after a forward roll, the back face comes to top. |
+
+## Part 2: Time Management
+
+| Situation | Time Rule | Action |
+|---|---|---|
+| Opposite-face question (2 views given) | 15-second rule | If the common face is not spotted within 15 seconds, mark and skip; return later. |
+| Standard opposite-face question | 45-second rule | Must be solved within 45 seconds using the two-common-faces or one-common-face rule. |
+| Painted cube question | 45-second rule | Directly apply formulas (8 corners, 12(n−2), 6(n−2)², (n−2)³); never count manually. |
+| Cube net (open dice) question | 45-second rule | Mentally fold once; if opposite pairs are not clear in 45 seconds, skip. |
+| Counting cubes in a 3D figure | 45-second rule | Count layer by layer; if hidden cubes create confusion beyond 45 seconds, mark for review. |
+| Dice rotation/sequence question | 15-second rule | If the rotation pattern is not understood in 15 seconds, skip — these consume the most time. |
+
+## Part 3: Logical/Mathematical Formulas
+
+| Formula | Meaning |
+|---|---|
+| Opposite face sum = 7 | For a standard die only. |
+| Total small cubes = n³ | Big cube of side n cut into unit cubes. |
+| 3 faces painted = 8 | Corner cubes (constant for any n ≥ 2). |
+| 2 faces painted = 12(n − 2) | Edge cubes excluding corners. |
+| 1 face painted = 6(n − 2)² | Face-centre cubes. |
+| 0 faces painted = (n − 2)³ | Completely inner cubes. |
+| Check: 8 + 12(n−2) + 6(n−2)² + (n−2)³ = n³ | Sum of all categories equals total cubes — use to verify answers. |
