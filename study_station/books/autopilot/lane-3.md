@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 08:55 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
+**आख़िरी update:** 10-10-2026 08:58 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 24 मिनट |
-| W5 | Chapter 22 Figure Series (12th Reasoning) | ✍️ लिख रहा है | 43 मिनट |
-| W7 | Chapter 20 Mirror Water Images (12th Reasoning) | ✍️ लिख रहा है | 65 मिनट |
-| W8 | Chapter 23 Syllogism (12th Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 27 मिनट |
+| W5 | Chapter 22 Figure Series (12th Reasoning) | ✍️ लिख रहा है | 47 मिनट |
+| W7 | Chapter 20 Mirror Water Images (12th Reasoning) | ✍️ लिख रहा है | 69 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -55,10 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 08:29:55   [Syllogism] written 10, failed 0; AI calls today 389/100000
-10-10 08:31:05   [Sitting_Arrangement] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-10-10 08:31:05   [Sitting_Arrangement] written 2, failed 6; AI calls today 390/100000
-10-10 08:31:05 NOT OK 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement after 142 min: todo ['Set 01 en: todo', 'Set 01 hi: todo', 'Set 02 en: todo', 'Set 02 hi: todo'] problems ['PYQ_hi.txt: Hindi file is mostly not in Hindi']
 10-10 08:31:07 START 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement (TODO: todo 6, problems 1)
 10-10 08:31:08   [Syllogism] repaired Flashcards_hi.txt (3066 chars)
 10-10 08:31:51   [Syllogism] repaired Important_Rules_hi.txt (3799 chars)
@@ -95,4 +90,8 @@
 10-10 08:55:12   [Figure_Series] Practice_en_Set_03.txt try 2: rejected (Q64:leaked_reasoning)
 10-10 08:55:27   [Syllogism] review: 8 section(s) corrected, 0 failed
 10-10 08:55:27   [Syllogism] written 8, failed 0; AI calls today 432/100000
+10-10 08:55:48 DONE 12th_Level/Reasoning/Chapter_23_Syllogism in 103 min → dfc28017
+10-10 08:55:52 worker 7: nothing left
+10-10 08:56:36   [Figure_Series] Practice_en_Set_03.txt try 3: rejected (Q70:leaked_reasoning)
+10-10 08:58:05   [Sitting_Arrangement] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 ```
