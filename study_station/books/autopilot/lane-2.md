@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 12:47 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:29 AM
+**आख़िरी update:** 10-10-2026 01:02 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:29 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 57 मिनट |
-| W3 | Chapter 15 Geometry (Graduation Maths) | 🔧 सुधार रहा है | 3 मिनट |
-| W4 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 30 मिनट |
-| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 77 मिनट |
-| W8 | Chapter 27 Number Series (Graduation Maths) | 🔎 review हो रहा है | 18 मिनट |
+| W2 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 72 मिनट |
+| W3 | Chapter 15 Geometry (Graduation Maths) | 🔎 review हो रहा है | 12 मिनट |
+| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 92 मिनट |
+| W8 | Chapter 27 Number Series (Graduation Maths) | 🔎 review हो रहा है | 33 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -26,11 +25,11 @@
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 19 | 0 | 6 |
 | 12th English | 25 | 0 | 0 |
-| Graduation Maths | 22 | 3 | 3 |
+| Graduation Maths | 23 | 2 | 3 |
 | Graduation GK | 27 | 1 | 0 |
 | Graduation Reasoning | 21 | 0 | 9 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **262** | **6** | **28** |
+| **कुल** | **263** | **5** | **28** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -41,27 +40,12 @@
 - Chapter 05 Percentage (Maths) — 2 बार
 - Chapter 13 Awards (GK) — 2 बार
 - Chapter 22 Calculus (Maths) — 2 बार
-- Chapter 19 Trigonometry (Maths) — 1 बार
+- Chapter 19 Trigonometry (Maths) — 2 बार
 - Chapter 15 Geometry (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 12:13:12   [Trigonometry] Practice_en_Set_06.txt try 3: rejected (parsed 0 questions, numbers -…-)
-10-10 12:13:18   [Number_Series] Practice_en_Set_02.txt try 2: re-solve disagrees (Q39 key b vs re-solve ?)
-10-10 12:14:26   [Geometry] repaired Short_Tricks_hi.txt (74174 chars)
-10-10 12:14:26   [Geometry] written 2, failed 1; AI calls today 53/100000
-10-10 12:16:57   [Trigonometry] Practice_en_Set_06.txt try 4: rejected (parsed 23 questions, numbers 126…150)
-10-10 12:16:57   [Trigonometry] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
-10-10 12:16:57   [Trigonometry] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-10-10 12:16:57   [Trigonometry] written 0, failed 3; AI calls today 55/100000
-10-10 12:16:57 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_19_Trigonometry after 47 min: todo ['Set 05 hi: todo', 'Set 06 en: todo', 'Set 06 hi: todo'] problems []
-10-10 12:17:02 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_19_Trigonometry (TODO: todo 3, problems 0)
-10-10 12:18:02   [Probability] Practice_en_Set_03.txt try 2: rejected (parsed 23 questions, numbers 51…75)
-10-10 12:19:09   [Linear_Programming] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-10-10 12:19:26   [Number_Series] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-10-10 12:21:46   [Trigonometry] Practice_hi_Set_05.txt try 1: rejected (parsed 24 questions, numbers 101…124)
-10-10 12:23:56   [Number_Series] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 10-10 12:23:56   [Number_Series] written 4, failed 0; AI calls today 61/100000
 10-10 12:25:39   [Geometry] repaired Feynman_hi.txt (3685 chars)
 10-10 12:27:18   [Trigonometry] Practice_hi_Set_05.txt try 2: rejected (parsed 24 questions, numbers 101…124)
@@ -87,4 +71,19 @@
 10-10 12:44:09   [Geometry] repaired Short_Tricks_hi.txt (2096 chars)
 10-10 12:44:09   [Geometry] written 1, failed 0; AI calls today 77/100000
 10-10 12:46:01   [Trigonometry] Practice_en_Set_06.txt try 2: rejected (parsed 24 questions, numbers 126…150)
+10-10 12:49:56   [Geometry] repaired Short_Tricks_hi.txt (7591 chars)
+10-10 12:49:56   [Geometry] written 1, failed 0; AI calls today 83/100000
+10-10 12:50:19   [Trigonometry] Practice_en_Set_06.txt try 3: rejected (parsed 24 questions, numbers 126…150)
+10-10 12:53:57   [Number_Series] review Flashcards_hi.txt: 2 issue(s): - Card 13 claims “80% प्रश्न इन्हीं दो कदमों में हल हो जाते हैं” which is an invented exam statistic → Remove th
+10-10 12:53:59   [Linear_Programming] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+10-10 12:56:09   [Trigonometry] Practice_en_Set_06.txt try 4: rejected (parsed 24 questions, numbers 126…150)
+10-10 12:56:09   [Trigonometry] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+10-10 12:56:09   [Trigonometry] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+10-10 12:56:09   [Trigonometry] written 0, failed 3; AI calls today 94/100000
+10-10 12:56:09 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_19_Trigonometry after 39 min: todo ['Set 05 hi: todo', 'Set 06 en: todo', 'Set 06 hi: todo'] problems []
+10-10 12:56:13 worker 3: nothing left
+10-10 12:56:16   [Probability] FAILED Practice_en_Set_04.txt: too_long
+10-10 12:56:16   [Probability] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
+10-10 13:00:12   [Linear_Programming] Practice_hi_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 13:02:51   [Probability] Practice_en_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
 ```
