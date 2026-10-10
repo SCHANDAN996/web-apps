@@ -1,15 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 11-10-2026 05:02 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:59 AM
+**आख़िरी update:** 11-10-2026 05:17 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:59 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W1 | Chapter 13 Awards (Graduation GK) | 🔧 सुधार रहा है | 14 मिनट |
-| W4 | Chapter 28 Linear Programming (Graduation Maths) | 🔧 सुधार रहा है | 9 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,20 +34,12 @@
 
 - Chapter 25 Probability (Maths) — 2 बार
 - Chapter 05 Percentage (Maths) — 2 बार
-- Chapter 13 Awards (GK) — 1 बार
-- Chapter 28 Linear Programming (Maths) — 1 बार
+- Chapter 13 Awards (GK) — 2 बार
+- Chapter 28 Linear Programming (Maths) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 04:00:24 worker 6: nothing left
-11-10 04:00:29 worker 7: nothing left
-11-10 04:07:37   [Linear_Programming] repaired Content_hi.txt (8650 chars)
-11-10 04:07:37   [Linear_Programming] written 1, failed 0; AI calls today 4/100000
-11-10 04:19:18   [Percentage] FAILED Feynman_hi.txt: rate_limited
-11-10 04:19:18   [Percentage] written 0, failed 1; AI calls today 4/100000
-11-10 04:19:25   [Probability] FAILED Practice_en_Set_06.txt: network
-11-10 04:19:25   [Probability] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
 11-10 04:19:25   [Probability] written 0, failed 2; AI calls today 4/100000
 11-10 04:19:25 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability after 19 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems ['Flashcards_hi.txt: Hindi file is mostly not in Hindi', 'Flashcards_hi.txt: much shorter than the English section (46', 'Short_Tricks_hi.txt: much shorter than the English section (']
 11-10 04:19:29 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability (TODO: todo 2, problems 3)
@@ -83,4 +72,12 @@
 11-10 04:56:05   [Percentage] written 0, failed 1; AI calls today 8/100000
 11-10 04:56:05 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_05_Percentage after 24 min: todo [] problems ['Feynman_hi.txt: much shorter than the English section (1854 ']
 11-10 04:56:10 worker 1: nothing left
+11-10 05:07:47   [Awards] FAILED Flashcards_hi.txt: network
+11-10 05:07:47   [Awards] written 0, failed 1; AI calls today 7/100000
+11-10 05:07:47 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards after 25 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (38']
+11-10 05:07:52 worker 0: nothing left
+11-10 05:10:48   [Linear_Programming] repaired Content_hi.txt (7249 chars)
+11-10 05:10:48   [Linear_Programming] written 1, failed 0; AI calls today 7/100000
+11-10 05:10:48 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming after 23 min: todo [] problems ['Content_hi.txt: much shorter than the English section (7248 ']
+11-10 05:10:52 worker 3: nothing left
 ```
