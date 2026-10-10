@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 07:34 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 05:00 PM
+**आख़िरी update:** 10-10-2026 07:50 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 05:00 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W7 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 153 मिनट |
+| W7 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 169 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -20,7 +20,7 @@
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 20 | 2 | 0 |
 | 10th English | 18 | 0 | 2 |
-| 12th Maths | 19 | 0 | 4 |
+| 12th Maths | 19 | 1 | 3 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 19 | 0 | 6 |
 | 12th English | 25 | 0 | 0 |
@@ -28,7 +28,7 @@
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 26 | 2 | 2 |
 | Graduation English | 29 | 1 | 0 |
-| **कुल** | **269** | **5** | **22** |
+| **कुल** | **269** | **6** | **21** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -45,7 +45,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 17:16:18   [Classification] written 2, failed 0; AI calls today 45/100000
 10-10 17:16:40 DONE Graduation_Level/Reasoning/Chapter_02_Classification in 16 min → ae08a9df
 10-10 17:16:45 worker 1: nothing left
 10-10 17:19:49   [Paper_Folding_Cutting] review PYQ_hi.txt: 2 issue(s): - In Question 3, the phrase “ऊपर-बाएँ कोने (जो मुड़ा कोना नहीं है)” wrongly identifies the corner; the cut is actually 
@@ -85,4 +84,5 @@
 10-10 19:01:22 NOT OK Graduation_Level/Reasoning/Chapter_13_Dictionary_Order after 45 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems []
 10-10 19:01:27 worker 3: nothing left
 10-10 19:18:46   [Advanced_Puzzles] Practice_en_Set_05.txt try 2: re-solve disagrees (Q101 key a vs re-solve d, Q103 key c vs re-solve b, Q120 key b vs re-solve ?)
+10-10 19:38:19   [Advanced_Puzzles] Practice_en_Set_05.txt try 3: re-solve disagrees (Q101 key a vs re-solve c, Q105 key b vs re-solve c)
 ```
