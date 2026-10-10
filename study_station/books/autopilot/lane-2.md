@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 01:18 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:29 AM
+**आख़िरी update:** 10-10-2026 01:33 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:29 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 87 मिनट |
-| W3 | Chapter 15 Geometry (Graduation Maths) | 🔎 review हो रहा है | 28 मिनट |
-| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 108 मिनट |
-| W8 | Chapter 27 Number Series (Graduation Maths) | 🔎 review हो रहा है | 49 मिनट |
+| W2 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 103 मिनट |
+| W3 | Chapter 15 Geometry (Graduation Maths) | 🔎 review हो रहा है | 43 मिनट |
+| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 123 मिनट |
+| W8 | Chapter 27 Number Series (Graduation Maths) | 🔎 review हो रहा है | 64 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -46,12 +46,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 12:28:48   [Number_Series] repaired PYQ_hi.txt (6783 chars)
-10-10 12:28:48   [Number_Series] written 1, failed 0; AI calls today 65/100000
-10-10 12:29:50   [Probability] Practice_en_Set_03.txt try 3: rejected (parsed 23 questions, numbers 51…75)
-10-10 12:30:48   [Trigonometry] Practice_hi_Set_05.txt try 3: rejected (parsed 24 questions, numbers 101…124)
-10-10 12:32:36   [Linear_Programming] Practice_en_Set_02.txt try 1: rejected (Q26:leaked_reasoning,Q35:leaked_reasoning,Q42:leaked_reasoning,Q47:leaked_reasoning,Q49:leaked_reasoning)
-10-10 12:33:17   [Number_Series] review Content_en.txt: 2 issue(s): - The hook presents an invented exam/year claim: "In 2019, a candidate in the IBPS PO Mains solved a 5-question ser
 10-10 12:34:03   [Probability] Practice_en_Set_03.txt try 4: rejected (parsed 21 questions, numbers 51…75)
 10-10 12:34:03   [Probability] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
 10-10 12:34:03   [Probability] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
@@ -86,4 +80,10 @@
 10-10 13:15:09   [Probability] Practice_en_Set_05.txt try 3: rejected (parsed 22 questions, numbers 101…125)
 10-10 13:15:47   [Linear_Programming] Practice_hi_Set_02.txt try 2: rejected (parsed 0 questions, numbers -…-)
 10-10 13:18:12   [Geometry] review Flashcards_en.txt: 2 issue(s): - Missing answer for sum of exterior angles of any convex polygon → should be 360°
+10-10 13:27:37   [Linear_Programming] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+10-10 13:30:58   [Probability] Practice_en_Set_05.txt try 4: rejected (parsed 23 questions, numbers 101…125)
+10-10 13:30:58   [Probability] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
+10-10 13:30:58   [Probability] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
+10-10 13:32:00   [Linear_Programming] Practice_en_Set_03.txt try 1: rejected (Q57:leaked_reasoning,Q64:leaked_reasoning,Q75:answer_solution_conflict)
+10-10 13:32:49   [Number_Series] review PYQ_en.txt: 1 issue(s): - In Q6 solution, the example '15×2−2=28' incorrectly applies the stated rule '×2−1 each time' → it should be '15×2−1=2
 ```
