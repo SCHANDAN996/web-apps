@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 08:56 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
+**आख़िरी update:** 10-10-2026 09:11 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | 🔎 review हो रहा है | 4 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | 🔎 review हो रहा है | 20 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -44,8 +44,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 19:25:54 NOT OK 12th_Level/Reasoning/Chapter_17_Course_of_Action after 17 min: todo [] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
-10-10 19:25:56 START 12th_Level/Reasoning/Chapter_17_Course_of_Action (FIX: todo 0, problems 1)
 10-10 19:27:05   [Dictionary_Order] Practice_en_Set_02.txt try 4: re-solve disagrees (Q32 key d vs re-solve c)
 10-10 19:27:05   [Dictionary_Order] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
 10-10 19:27:05   [Dictionary_Order] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
@@ -84,4 +82,6 @@
 10-10 20:51:36   [Sitting_Arrangement] repaired PYQ_hi.txt (10506 chars)
 10-10 20:51:36   [Sitting_Arrangement] written 1, failed 0; AI calls today 42/100000
 10-10 20:51:46   [Sitting_Arrangement] review Content_en.txt: 3 issue(s): - The "Hook" section is corrupted with repetitive nonsense text ("This is the of. This is of. This of...") instead 
+10-10 20:58:46   [Sitting_Arrangement] review Feynman_en.txt: 1 issue(s): - The example states "Esha takes the last chair" after placing four people, but with six friends (Aarav, Bina, Chin
+10-10 21:07:04   [Sitting_Arrangement] review PYQ_en.txt: 6 issue(s): - Q1 answer (b) F is incorrect; with given clues F sits at position 4, not the right end (position 6). The right end is
 ```
