@@ -1,0 +1,36 @@
+```mermaid
+graph TD
+    A["संख्या श्रेणी<br>Number Series"] --> B["अंतर आधारित<br>Difference Based"]
+    A --> C["गुणन आधारित<br>Multiplication Based"]
+    A --> D["वर्ग / घन आधारित<br>Square / Cube Based"]
+    A --> E["अभाज्य संख्या<br>Prime Number Series"]
+    A --> F["मिश्रित श्रेणी<br>Mixed / Combined Series"]
+    A --> G["वैकल्पिक पद<br>Alternate Term Series"]
+
+    B --> B1["स्थिर अंतर<br>Constant Difference<br>जैसे: 3, 7, 11, 15 (+4)"]
+    B --> B2["बढ़ता अंतर<br>Increasing Difference<br>जैसे: 2, 4, 8, 14 (+2,+4,+6)"]
+    B --> B3["घटता अंतर<br>Decreasing Difference"]
+
+    C --> C1["स्थिर गुणक<br>Constant Multiplier<br>जैसे: 3, 6, 12, 24 (×2)"]
+    C --> C2["बढ़ता गुणक<br>Increasing Multiplier<br>जैसे: 2, 4, 12, 48 (×2,×3,×4)"]
+    C --> C3["गुणा + जोड़<br>Multiply + Add<br>जैसे: 2, 5, 11, 23 (×2+1)"]
+
+    D --> D1["वर्ग श्रेणी<br>Squares<br>जैसे: 1, 4, 9, 16, 25"]
+    D --> D2["घन श्रेणी<br>Cubes<br>जैसे: 1, 8, 27, 64"]
+    D --> D3["वर्ग ± संख्या<br>Square ± Number<br>जैसे: 2, 5, 10, 17 (n²+1)"]
+
+    E --> E1["क्रमागत अभाज्य<br>Consecutive Primes<br>जैसे: 2, 3, 5, 7, 11"]
+    E --> E2["अभाज्य + संचयन<br>Primes with Operation"]
+
+    F --> F1["दो नियम मिलकर<br>Two Rules Combined<br>जैसे: +2, ×3, +2, ×3"]
+    F --> F2["दो श्रेणियाँ मिली हुई<br>Two Interleaved Series"]
+
+    G --> G1["विषम स्थान की श्रेणी<br>Odd Position Series"]
+    G --> G2["सम स्थान की श्रेणी<br>Even Position Series"]
+
+    A --> H["हल करने की विधि<br>Solving Method"]
+    H --> H1["पहले अंतर देखें<br>Check Differences First"]
+    H --> H2["फिर गुणक / भाग<br>Then Check Multiplier"]
+    H --> H3["वर्ग-घन पहचानें<br>Recognise Squares / Cubes"]
+    H --> H4["वैकल्पिक पद जाँचें<br>Check Alternate Terms"]
+```

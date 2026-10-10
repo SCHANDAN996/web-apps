@@ -1,0 +1,149 @@
+51. Find the missing number: 4, 9, 19, 39, 79, ?
+(a) 149 (b) 139 (c) 169 (d) 159
+Answer: (d)
+Solution: The tempting wrong option 149 comes from doubling and adding 1 only at the last step, but the rule is consistent: each term is previous × 2 + 1. Check: 4×2+1 = 9, 9×2+1 = 19, 19×2+1 = 39, 39×2+1 = 79, so 79×2+1 = 159. The answer is 159.
+Source: PYQ-style
+
+52. Find the missing number: 7, 12, 19, 28, 39, ?
+(a) 50 (b) 54 (c) 52 (d) 48
+Answer: (c)
+Solution: The trap option 50 assumes differences increase by 4 each time, but the differences are 5, 7, 9, 11 — consecutive odd numbers. The next difference is 13, so 39 + 13 = 52. The answer is 52.
+Source: NCERT Class 8 Mathematics (pattern recognition)
+
+53. Find the missing number: 3, 6, 18, 72, 360, ?
+(a) 1800 (b) 2160 (c) 1440 (d) 2520
+Answer: (b)
+Solution: The tempting option 1800 comes from multiplying by 5 at the end, but the multipliers rise: ×2, ×3, ×4, ×5, so the next is ×6. Check: 3×2 = 6, 6×3 = 18, 18×4 = 72, 72×5 = 360, so 360×6 = 2160. The answer is 2160.
+Source: PYQ-style
+
+54. Find the missing number: 11, 13, 17, 19, 23, 29, ?
+(a) 37 (b) 33 (c) 35 (d) 31
+Answer: (d)
+Solution: The trap option 37 is a prime but skips one; the series is simply consecutive prime numbers starting from 11. After 29, the next prime is 31 (33 and 35 are composite). The answer is 31.
+Source: NCERT Class 6 Mathematics (prime numbers)
+
+55. Find the missing number: 2, 6, 12, 20, 30, ?
+(a) 42 (b) 40 (c) 44 (d) 36
+Answer: (a)
+Solution: The tempting option 40 comes from adding 10 to 30, but differences are 4, 6, 8, 10 — increasing by 2 — so the next difference is 12. Equivalently each term is n(n+1): 1×2, 2×3, 3×4, 4×5, 5×6, 6×7 = 42. The answer is 42.
+Source: NCERT Class 8 Mathematics
+
+56. Find the missing number: 5, 11, 23, 47, 95, ?
+(a) 191 (b) 189 (c) 193 (d) 187
+Answer: (a)
+Solution: The trap option 189 comes from doubling 95 and subtracting 1, but the rule is ×2 + 1 throughout: 5×2+1 = 11, 11×2+1 = 23, 23×2+1 = 47, 47×2+1 = 95, so 95×2+1 = 191. The answer is 191.
+Source: PYQ-style
+
+57. Find the missing number: 1, 4, 10, 22, 46, ?
+(a) 92 (b) 94 (c) 96 (d) 90
+Answer: (b)
+Solution: The tempting option 92 is just 46×2, but the rule is ×2 + 2: 1×2+2 = 4, 4×2+2 = 10, 10×2+2 = 22, 22×2+2 = 46, so 46×2+2 = 94. The answer is 94.
+Source: PYQ-style
+
+58. Find the missing number: 8, 15, 28, 53, 102, ?
+(a) 203 (b) 199 (c) 197 (d) 201
+Answer: (b)
+Solution: The trap option 203 comes from doubling 102 and subtracting 1, but the rule is ×2 − 1 applied consistently: 8×2−1 = 15, 15×2−1 = 29? No — check again: 8×2−1 = 15, 15×2−2 = 28, 28×2−3 = 53, 53×2−4 = 102, so the subtracted number grows by 1: 102×2−5 = 199. The answer is 199.
+Source: PYQ-style
+
+59. Find the missing number: 6, 11, 21, 36, 56, ?
+(a) 76 (b) 81 (c) 86 (d) 71
+Answer: (b)
+Solution: The tempting option 76 assumes the next difference is 20, but differences are 5, 10, 15, 20 — multiples of 5 — so the next difference is 25. Hence 56 + 25 = 81. The answer is 81.
+Source: NCERT Class 8 Mathematics (pattern recognition)
+
+60. Find the missing number: 2, 3, 8, 27, 112, ?
+(a) 560 (b) 570 (c) 565 (d) 555
+Answer: (c)
+Solution: The trap option 560 is 112×5, but the pattern is ×1+1, ×2+2, ×3+3, ×4+4, so next is ×5+5. Check: 2×1+1 = 3, 3×2+2 = 8, 8×3+3 = 27, 27×4+4 = 112, so 112×5+5 = 565. The answer is 565.
+Source: PYQ-style
+
+61. Find the missing number: 13, 17, 23, 31, 41, ?
+(a) 51 (b) 49 (c) 55 (d) 53
+Answer: (d)
+Solution: The tempting option 51 comes from adding 10, but differences are 4, 6, 8, 10 — increasing by 2 — so the next difference is 12. Hence 41 + 12 = 53. The answer is 53.
+Source: PYQ-style
+
+62. Find the missing number: 100, 50, 52, 26, 28, ?
+(a) 18 (b) 16 (c) 12 (d) 14
+Answer: (d)
+Solution: The trap option 16 comes from halving 28 and adding 2, but the pattern alternates ÷2, +2: 100÷2 = 50, 50+2 = 52, 52÷2 = 26, 26+2 = 28, so 28÷2 = 14. The answer is 14.
+Source: PYQ-style
+
+63. Find the missing number: 3, 10, 29, 66, 127, ?
+(a) 216 (b) 220 (c) 218 (d) 214
+Answer: (c)
+Solution: The tempting option 216 is 6³, but the series is n³ + 2: 1³+2 = 3, 2³+2 = 10, 3³+2 = 29, 4³+2 = 66, 5³+2 = 127, so 6³+2 = 218. The answer is 218.
+Source: NCERT Class 8 Mathematics (cubes)
+
+64. Find the missing number: 0, 6, 24, 60, 120, ?
+(a) 200 (b) 210 (c) 220 (d) 180
+Answer: (b)
+Solution: The trap option 200 comes from doubling the last difference, but the series is n³ − n: 1³−1 = 0, 2³−2 = 6, 3³−3 = 24, 4³−4 = 60, 5³−5 = 120, so 6³−6 = 210. The answer is 210.
+Source: NCERT Class 8 Mathematics (cubes)
+
+65. Find the missing number: 9, 27, 31, 155, 161, ?
+(a) 1134 (b) 1120 (c) 1127 (d) 1113
+Answer: (c)
+Solution: The tempting option 1120 is 161×7 rounded, but the pattern alternates ×3, +4: 9×3 = 27, 27+4 = 31, 31×5 = 155? No — check: 9×3 = 27, 27+4 = 31, 31×5 = 155, 155+6 = 161, so multipliers/addends grow: next is 161×7 = 1127. The answer is 1127.
+Source: PYQ-style
+
+66. Find the missing number: 17, 19, 23, 29, 31, 37, ?
+(a) 41 (b) 39 (c) 43 (d) 47
+Answer: (a)
+Solution: The trap option 39 is not prime at all (39 = 3×13); the series is consecutive primes from 17 onward. After 37 the next prime is 41. The answer is 41.
+Source: NCERT Class 6 Mathematics (prime numbers)
+
+67. Find the missing number: 5, 16, 49, 148, 445, ?
+(a) 1334 (b) 1330 (c) 1336 (d) 1340
+Answer: (c)
+Solution: The tempting option 1334 is 445×3 − 1, but the rule is ×3 + 1: 5×3+1 = 16, 16×3+1 = 49, 49×3+1 = 148, 148×3+1 = 445, so 445×3+1 = 1336. The answer is 1336.
+Source: PYQ-style
+
+68. Find the missing number: 12, 21, 23, 32, 34, ?
+(a) 44 (b) 45 (c) 41 (d) 43
+Answer: (d)
+Solution: The trap option 44 continues +10 from 34, but the pattern alternates +9, +2: 12+9 = 21, 21+2 = 23, 23+9 = 32, 32+2 = 34, so 34+9 = 43. The answer is 43.
+Source: PYQ-style
+
+69. Find the missing number: 1, 2, 6, 15, 31, ?
+(a) 54 (b) 60 (c) 56 (d) 62
+Answer: (c)
+Solution: The tempting option 60 comes from doubling 31 and subtracting 2, but the differences are 1, 4, 9, 16 — perfect squares — so the next difference is 25. Hence 31 + 25 = 56. The answer is 56.
+Source: NCERT Class 8 Mathematics (squares)
+
+70. Find the missing number: 7, 26, 63, 124, 215, ?
+(a) 342 (b) 340 (c) 344 (d) 336
+Answer: (a)
+Solution: The trap option 340 is close to 7³ but the series is n³ − 1: 2³−1 = 7, 3³−1 = 26, 4³−1 = 63, 5³−1 = 124, 6³−1 = 215, so 7³−1 = 342. The answer is 342.
+Source: NCERT Class 8 Mathematics (cubes)
+
+71. Find the missing number: 4, 18, 48, 100, 180, ?
+(a) 288 (b) 294 (c) 300 (d) 280
+Answer: (b)
+Solution: The tempting option 288 comes from treating differences as multiples of 14, but the series is n²(n+1): 1²×2 = 4, 2²×3 = 12? Check instead: 2²×1 = 4, 3²×2 = 18, 4²×3 = 48, 5²×4 = 100, 6²×5 = 180, so 7²×6 = 294. The answer is 294.
+Source: PYQ-style
+
+72. Find the missing number: 15, 31, 64, 131, 266, ?
+(a) 537 (b) 535 (c) 533 (d) 539
+Answer: (a)
+Solution: The trap option 535 is 266×2 + 3, but the rule is ×2 + n where n grows: 15×2+1 = 31, 31×2+2 = 64, 64×2+3 = 131, 131×2+4 = 266, so 266×2+5 = 537. The answer is 537.
+Source: PYQ-style
+
+73. Find the missing number: 8, 24, 12, 36, 18, ?
+(a) 54 (b) 48 (c) 60 (d) 42
+Answer: (a)
+Solution: The tempting option 48 doubles 24 again, but the pattern alternates ×3, ÷2: 8×3 = 24, 24÷2 = 12, 12×3 = 36, 36÷2 = 18, so 18×3 = 54. The answer is 54.
+Source: PYQ-style
+
+74. Find the missing number: 11, 24, 50, 102, 206, ?
+(a) 414 (b) 412 (c) 416 (d) 410
+Answer: (a)
+Solution: The trap option 412 is just 206×2, but the rule is ×2 + 2: 11×2+2 = 24, 24×2+2 = 50, 50×2+2 = 102, 102×2+2 = 206, so 206×2+2 = 414. The answer is 414.
+Source: PYQ-style
+
+75. Find the missing number: 2, 5, 11, 23, 47, ?
+(a) 93 (b) 91 (c) 97 (d) 95
+Answer: (d)
+Solution: The tempting option 93 is 47×2 − 1, but the rule is ×2 + 1: 2×2+1 = 5, 5×2+1 = 11, 11×2+1 = 23, 23×2+1 = 47, so 47×2+1 = 95. The answer is 95.
+Source: PYQ-style

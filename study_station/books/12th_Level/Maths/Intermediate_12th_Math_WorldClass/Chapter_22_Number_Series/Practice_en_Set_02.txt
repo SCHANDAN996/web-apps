@@ -1,0 +1,149 @@
+26. Find the missing number in the series: 4, 9, 19, 39, 79, ?
+(a) 159 (b) 149 (c) 169 (d) 139
+Answer: (a)
+Solution: The tempting wrong choice 149 comes from doubling and adding 1 only at the last step, but the rule is consistent: each term is double the previous term plus 1. 4×2+1 = 9, 9×2+1 = 19, 19×2+1 = 39, 39×2+1 = 79, so 79×2+1 = 159, so the answer is 159.
+Source: PYQ-style
+
+27. Find the missing number in the series: 7, 12, 19, 28, 39, ?
+(a) 52 (b) 50 (c) 54 (d) 48
+Answer: (a)
+Solution: The trap option 50 comes from assuming a constant difference of 11 at the end, but the differences themselves grow: +5, +7, +9, +11, so the next difference is +13. 39 + 13 = 52, so the answer is 52.
+Source: PYQ-style
+
+28. Find the missing number in the series: 3, 6, 18, 72, 360, ?
+(a) 1800 (b) 2160 (c) 1440 (d) 2520
+Answer: (b)
+Solution: The tempting wrong choice 1800 comes from multiplying the last term by 5, but the multipliers increase: ×2, ×3, ×4, ×5, so the next multiplier is ×6. 360 × 6 = 2160, so the answer is 2160.
+Source: PYQ-style
+
+29. Find the missing number in the series: 11, 13, 17, 19, 23, 29, ?
+(a) 35 (b) 33 (c) 31 (d) 37
+Answer: (c)
+Solution: The trap option 33 comes from treating the gaps as a simple +2, +4 pattern, but the series is simply the list of consecutive prime numbers starting from 11. The prime after 29 is 31, so the answer is 31.
+Source: NCERT Class 8 Mathematics
+
+30. Find the missing number in the series: 2, 6, 12, 20, 30, ?
+(a) 40 (b) 44 (c) 42 (d) 36
+Answer: (c)
+Solution: The tempting wrong choice 40 comes from adding 10 to 30 assuming equal gaps, but the differences are +4, +6, +8, +10, so the next difference is +12. Also note each term is n(n+1): 1×2, 2×3, 3×4, …, 6×7 = 42, so the answer is 42.
+Source: NCERT Class 8 Mathematics
+
+31. Find the missing number in the series: 1, 4, 27, 256, ?
+(a) 1024 (b) 3125 (c) 625 (d) 1296
+Answer: (b)
+Solution: The trap option 1024 comes from treating the terms as powers of 4, but the pattern is n raised to the power n: 1¹ = 1, 2² = 4, 3³ = 27, 4⁴ = 256, so the next term is 5⁵ = 3125, so the answer is 3125.
+Source: PYQ-style
+
+32. Find the missing number in the series: 5, 11, 23, 47, 95, ?
+(a) 189 (b) 193 (c) 191 (d) 187
+Answer: (c)
+Solution: The tempting wrong choice 189 comes from doubling 95 and subtracting 1 only at the last step, but the rule is consistent: each term is double the previous term plus 1. 5×2+1 = 11, 11×2+1 = 23, 23×2+1 = 47, 47×2+1 = 95, so 95×2+1 = 191, so the answer is 191.
+Source: PYQ-style
+
+33. Find the missing number in the series: 8, 15, 28, 53, 102, ?
+(a) 201 (b) 203 (c) 197 (d) 199
+Answer: (d)
+Solution: The trap option 203 comes from doubling 102 and subtracting 1, but the rule is: each term is double the previous term minus 1. 8×2−1 = 15, 15×2−2 = 28, 28×2−3 = 53, 53×2−4 = 102, so 102×2−5 = 199, so the answer is 199.
+Source: PYQ-style
+
+34. Find the missing number in the series: 6, 11, 21, 36, 56, ?
+(a) 81 (b) 76 (c) 86 (d) 71
+Answer: (a)
+Solution: The tempting wrong choice 76 comes from adding 20 to 56 assuming the last gap repeats, but the differences are +5, +10, +15, +20, so the next difference is +25. 56 + 25 = 81, so the answer is 81.
+Source: PYQ-style
+
+35. Find the missing number in the series: 1, 8, 27, 64, 125, ?
+(a) 256 (b) 196 (c) 216 (d) 225
+Answer: (c)
+Solution: The trap option 196 comes from confusing the series with squares (14² = 196), but these are cubes of natural numbers: 1³, 2³, 3³, 4³, 5³, so the next term is 6³ = 216, so the answer is 216.
+Source: NCERT Class 8 Mathematics
+
+36. Find the missing number in the series: 3, 10, 29, 66, 127, ?
+(a) 224 (b) 216 (c) 220 (d) 218
+Answer: (d)
+Solution: The tempting wrong choice 216 comes from writing 6³ directly, but the pattern is n³ + 2: 1³+2 = 3, 2³+2 = 10, 3³+2 = 29, 4³+2 = 66, 5³+2 = 127, so the next term is 6³+2 = 218, so the answer is 218.
+Source: PYQ-style
+
+37. Find the missing number in the series: 2, 3, 8, 27, 112, ?
+(a) 570 (b) 560 (c) 565 (d) 575
+Answer: (c)
+Solution: The trap option 560 comes from multiplying 112 by 5 exactly, but the rule is: multiply by increasing integers and add the same integer: 2×1+1 = 3, 3×2+2 = 8, 8×3+3 = 27, 27×4+4 = 112, so 112×5+5 = 565, so the answer is 565.
+Source: PYQ-style
+
+38. Find the missing number in the series: 17, 19, 23, 29, 31, 37, ?
+(a) 41 (b) 39 (c) 43 (d) 47
+Answer: (a)
+Solution: The tempting wrong choice 39 comes from adding 2 to 37 assuming a simple gap, but the series lists consecutive prime numbers: 17, 19, 23, 29, 31, 37, and the next prime is 41, so the answer is 41.
+Source: NCERT Class 8 Mathematics
+
+39. Find the missing number in the series: 9, 27, 31, 93, 97, ?
+(a) 291 (b) 289 (c) 293 (d) 287
+Answer: (a)
+Solution: The trap option 289 comes from adding 4 to 97 twice or squaring 17, but the pattern alternates: ×3, +4, ×3, +4. 9×3 = 27, 27+4 = 31, 31×3 = 93, 93+4 = 97, so 97×3 = 291, so the answer is 291.
+Source: PYQ-style
+
+40. Find the missing number in the series: 4, 18, 48, 100, 180, ?
+(a) 280 (b) 288 (c) 300 (d) 294
+Answer: (d)
+Solution: The tempting wrong choice 288 comes from doubling 144 as a square guess, but the pattern is n²(n+1): 1²×2 = 4, 2²×3 = 18, 3²×4 = 48, 4²×5 = 100, 5²×6 = 180, so the next term is 6²×7 = 252... checking by differences: +14, +30, +52, +80 with second differences +16, +22, +28, so next second difference is +34, next difference is +114, giving 180+114 = 294, so the answer is 294.
+Source: PYQ-style
+
+41. Find the missing number in the series: 13, 21, 34, 55, 89, ?
+(a) 138 (b) 134 (c) 142 (d) 144
+Answer: (d)
+Solution: The trap option 134 comes from adding 45 to 89 assuming the last gap repeats, but this is a Fibonacci-type series where each term is the sum of the previous two: 13+21 = 34, 21+34 = 55, 34+55 = 89, so 55+89 = 144, so the answer is 144.
+Source: PYQ-style
+
+42. Find the missing number in the series: 6, 13, 28, 59, 122, ?
+(a) 245 (b) 249 (c) 251 (d) 243
+Answer: (b)
+Solution: The tempting wrong choice 245 comes from doubling 122 and adding 1, but the rule alternates between ×2+1 and ×2+2: 6×2+1 = 13, 13×2+2 = 28, 28×2+3 = 59, 59×2+4 = 122, so 122×2+5 = 249, so the answer is 249.
+Source: PYQ-style
+
+43. Find the missing number in the series: 0, 6, 24, 60, 120, ?
+(a) 216 (b) 210 (c) 204 (d) 220
+Answer: (b)
+Solution: The trap option 216 comes from writing 6³ directly, but the pattern is n³ − n: 1³−1 = 0, 2³−2 = 6, 3³−3 = 24, 4³−4 = 60, 5³−5 = 120, so the next term is 6³−6 = 210, so the answer is 210.
+Source: PYQ-style
+
+44. Find the missing number in the series: 15, 31, 63, 127, 255, ?
+(a) 511 (b) 509 (c) 513 (d) 507
+Answer: (a)
+Solution: The tempting wrong choice 509 comes from doubling 255 and subtracting 1 incorrectly applied, but the rule is consistent: each term is double the previous term plus 1, i.e., terms are 2ⁿ−1: 2⁴−1 = 15 up to 2⁸−1 = 255, so the next term is 2⁹−1 = 511, so the answer is 511.
+Source: PYQ-style
+
+45. Find the missing number in the series: 11, 24, 50, 102, 206, ?
+(a) 410 (b) 412 (c) 416 (d) 414
+Answer: (d)
+Solution: The trap option 412 comes from doubling 206 exactly, but the rule is: each term is double the previous term plus 2. 11×2+2 = 24, 24×2+2 = 50, 50×2+2 = 102, 102×2+2 = 206, so 206×2+2 = 414, so the answer is 414.
+Source: PYQ-style
+
+46. Find the missing number in the series: 2, 5, 11, 23, 47, ?
+(a) 97 (b) 93 (c) 95 (d) 91
+Answer: (c)
+Solution: The tempting wrong choice 93 comes from doubling 47 and subtracting 1, but the rule is: each term is double the previous term plus 1. 2×2+1 = 5, 5×2+1 = 11, 11×2+1 = 23, 23×2+1 = 47, so 47×2+1 = 95, so the answer is 95.
+Source: PYQ-style
+
+47. Find the missing number in the series: 1, 2, 6, 15, 31, ?
+(a) 60 (b) 54 (c) 58 (d) 56
+Answer: (d)
+Solution: The trap option 54 comes from adding 23 to 31 by extending the wrong gap, but the differences are squares: +1², +2², +3², +4², so the next difference is +5² = 25. 31 + 25 = 56, so the answer is 56.
+Source: PYQ-style
+
+48. Find the missing number in the series: 7, 26, 63, 124, 215, ?
+(a) 342 (b) 336 (c) 340 (d) 348
+Answer: (a)
+Solution: The tempting wrong choice 336 comes from computing 7³−7, but the pattern is n³−1: 2³−1 = 7, 3³−1 = 26, 4³−1 = 63, 5³−1 = 124, 6³−1 = 215, so the next term is 7³−1 = 342, so the answer is 342.
+Source: PYQ-style
+
+49. Find the missing number in the series: 12, 21, 23, 32, 34, ?
+(a) 45 (b) 43 (c) 41 (d) 47
+Answer: (b)
+Solution: The trap option 45 comes from adding 11 to 34 assuming the larger gap repeats, but the differences alternate: +9, +2, +9, +2, so the next difference is +9. 34 + 9 = 43, so the answer is 43.
+Source: PYQ-style
+
+50. Find the missing number in the series: 3, 12, 27, 48, 75, ?
+(a) 102 (b) 108 (c) 112 (d) 98
+Answer: (b)
+Solution: The tempting wrong choice 102 comes from adding 27 to 75 assuming the last gap repeats, but the differences are +9, +15, +21, +27, increasing by 6, so the next difference is +33. Also each term is 3n²: 3×1, 3×4, 3×9, 3×16, 3×25, so the next term is 3×36 = 108, so the answer is 108.
+Source: PYQ-style

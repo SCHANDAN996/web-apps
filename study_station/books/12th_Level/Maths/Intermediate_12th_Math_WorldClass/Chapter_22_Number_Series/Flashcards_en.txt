@@ -1,0 +1,79 @@
+Card 1
+Front: What is the very first thing you should check when you see a number series in the exam?
+Back: The gap (difference) between consecutive terms — whether it is constant, increasing, or following a pattern.
+
+Card 2
+Front: In the series 3, 6, 12, 24, 48, … what is the rule and the next term?
+Back: Each term is multiplied by 2 (geometric series). Next term = 96.
+
+Card 3
+Front: What is an arithmetic series? Give the formula for its nth term.
+Back: A series with a constant difference d between terms. nth term = a + (n − 1)d, where a = first term.
+
+Card 4
+Front: What is a geometric series? Give the formula for its nth term.
+Back: A series where each term is multiplied by a fixed ratio r. nth term = a × r^(n−1).
+
+Card 5
+Front: The differences of a series are 2, 4, 6, 8, … What does this tell you about the original series?
+Back: The original series grows by increasing differences — it is a second-difference (quadratic-type) series; take differences of differences to find the constant.
+
+Card 6
+Front: What is the mnemonic to remember the order of checks for any series?
+Back: "D-M-S-P" — Difference, Multiplication, Squares/cubes, Prime numbers. Check in this order.
+
+Card 7
+Front: In the series 2, 3, 5, 7, 11, 13, … what is special about the terms?
+Back: They are consecutive prime numbers. Next term = 17.
+
+Card 8
+Front: What is a "mixed" or "alternate" series, and how do you crack it?
+Back: Two independent series are interleaved (odd positions follow one rule, even positions another). Separate the odd and even positioned terms and solve each separately.
+
+Card 9
+Front: Series: 1, 4, 9, 16, 25, … What is the pattern and the next term?
+Back: Perfect squares: 1², 2², 3², 4², 5². Next term = 36.
+
+Card 10
+Front: Series: 1, 8, 27, 64, 125, … What is the pattern and the next term?
+Back: Perfect cubes: 1³, 2³, 3³, 4³, 5³. Next term = 216.
+
+Card 11
+Front: What trick helps you spot a "square ± k" series like 2, 5, 10, 17, 26?
+Back: Compare each term with the nearest perfect square — here each term = n² + 1. Next term = 37.
+
+Card 12
+Front: In the series 5, 11, 23, 47, 95, … what is the hidden rule?
+Back: Each term = (previous term × 2) + 1. Next term = 191.
+
+Card 13
+Front: What is the mnemonic for remembering squares up to 25 quickly?
+Back: "Squares are your best friends" — memorize 1² to 25² by heart; most series questions hide squares or cubes.
+
+Card 14
+Front: Series: 1, 1, 2, 3, 5, 8, 13, … Name this famous series and its rule.
+Back: Fibonacci series — each term is the sum of the previous two terms. Next term = 21.
+
+Card 15
+Front: If a series alternates in sign (+, −, +, − …), what should you do first?
+Back: Ignore the signs, solve the series of absolute values, then re-apply the alternating sign pattern.
+
+Card 16
+Front: In a "wrong number" question, what is the fastest solving strategy?
+Back: Find the rule from 3–4 consistent terms first, then test each term against the rule — the one that breaks it is the wrong number.
+
+Card 17
+Front: Series: 4, 9, 19, 39, 79, … What is the rule?
+Back: Each term = (previous × 2) + 1. Next term = 159.
+
+Card 18
+Front: What does it mean when the second differences of a series are constant?
+Back: The series follows a quadratic pattern (based on n²); the nth term can be written as an² + bn + c.
+
+Card 19
+Front: Series: 2, 6, 12, 20, 30, … What is the compact formula for the nth term?
+Back: nth term = n(n + 1) — i.e., 1×2, 2×3, 3×4, 4×5, 5×6. Next term = 42.
+
+Card 20
+Front: What is the 15-second rule for number series in exams?
+Back: If no pattern is visible within 15 seconds of checking differences and ratios, mark it and move on — return only if time remains.

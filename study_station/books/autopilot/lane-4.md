@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 10-10-2026 05:36 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 05:19 AM
+**आख़िरी update:** 10-10-2026 05:39 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 05:19 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 23 Quadratic Equations (12th Maths) | 🔎 review हो रहा है | 12 मिनट |
-| W5 | Chapter 11 Time Work (12th Maths) | 🔧 सुधार रहा है | 12 मिनट |
-| W7 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 15 मिनट |
-| W8 | Chapter 22 Number Series (12th Maths) | 🔎 review हो रहा है | 15 मिनट |
+| W1 | Chapter 23 Quadratic Equations (12th Maths) | 🔎 review हो रहा है | 15 मिनट |
+| W5 | Chapter 11 Time Work (12th Maths) | 🔧 सुधार रहा है | 16 मिनट |
+| W7 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 19 मिनट |
+| W8 | Chapter 22 Number Series (12th Maths) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -33,7 +33,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 10-10 05:39 — 12th Maths · Chapter 22 Number Series
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
@@ -47,14 +47,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 05:23:53 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_14_Sports (FIX: todo 0, problems 1)
-10-10 05:23:58   [Mixture_Alligation] Feynman_en.txt try 2: rejected (chat debris "Here's the")
-10-10 05:23:58   [Mixture_Alligation] REJECTED Feynman_en.txt: chat debris "Here's the" — not written
-10-10 05:23:58   [Mixture_Alligation] written 0, failed 1; AI calls today 24/100000
-10-10 05:23:58 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation after 4 min: todo ['Feynman_en.txt'] problems []
-10-10 05:24:00 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation (TODO: todo 1, problems 0)
-10-10 05:24:03   [Biology] repaired Feynman_hi.txt (2844 chars)
-10-10 05:24:03   [Biology] written 1, failed 0; AI calls today 25/100000
 10-10 05:24:03 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_12_Biology after 2 min: todo [] problems ['Feynman_hi.txt: much shorter than the English section (2843 ']
 10-10 05:24:06 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_23_Quadratic_Equations (OK: todo 0, problems 0)
 10-10 05:24:19   [Compound_Interest] repaired Flashcards_hi.txt (3205 chars)
@@ -87,4 +79,12 @@
 10-10 05:29:19 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation after 5 min: todo ['Feynman_en.txt'] problems []
 10-10 05:29:21 worker 5: nothing left
 10-10 05:36:19   [Probability] Practice_en_Set_02.txt try 3: rejected (parsed 24 questions, numbers 26…50)
+10-10 05:36:48   [Number_Series] review Short_Tricks_en.txt: 1 issue(s): - Invented exam statistic: "90% of exam series crack within the first two checks" is an unsourced, made-up fig
+10-10 05:38:18   [Probability] Practice_en_Set_02.txt try 4: rejected (parsed 23 questions, numbers 26…50)
+10-10 05:38:18   [Probability] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
+10-10 05:38:18   [Probability] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+10-10 05:38:47   [Quadratic_Equations] review Feynman_en.txt: 3 issue(s): - The "Case 1" paragraph is followed by a massive block of corrupted, endlessly repeated text ("Two distinct real r
+10-10 05:39:30   [Quadratic_Equations] REJECTED review fix Feynman_en.txt: chat debris "Here's the"
+10-10 05:39:58   [Number_Series] review: 3 section(s) corrected, 0 failed
+10-10 05:39:58   [Number_Series] written 3, failed 0; AI calls today 55/100000
 ```

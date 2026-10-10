@@ -1,0 +1,149 @@
+76. Find the missing number: 4, 9, 25, 49, 121, ?
+(a) 144 (b) 196 (c) 169 (d) 225
+Answer: (c)
+Solution: The tempting option 144 comes from treating the series as squares of consecutive numbers, but the terms are squares of consecutive primes: 2², 3², 5², 7², 11², so the next term is 13² = 169. The answer is 169.
+Source: PYQ-style
+
+77. Find the missing number: 2, 6, 12, 20, 30, ?
+(a) 42 (b) 40 (c) 36 (d) 44
+Answer: (a)
+Solution: The tempting option 40 comes from assuming a constant difference of 10, but the differences are 4, 6, 8, 10, 12, so the next term is 30 + 12 = 42. The answer is 42.
+Source: NCERT Class 8 Mathematics
+
+78. Find the missing number: 3, 10, 29, 66, 127, ?
+(a) 216 (b) 220 (c) 218 (d) 224
+Answer: (c)
+Solution: The tempting option 216 comes from simply writing 6³, but the pattern is n³ + 2: 1³+2, 2³+2, 3³+2, 4³+2, 5³+2, so the next term is 6³ + 2 = 218. The answer is 218.
+Source: PYQ-style
+
+79. Find the missing number: 5, 11, 23, 47, 95, ?
+(a) 189 (b) 197 (c) 193 (d) 191
+Answer: (d)
+Solution: The tempting option 193 comes from doubling 95 and adding 3, but the rule is ×2 + 1 throughout: 5×2+1 = 11, 11×2+1 = 23, …, 95×2+1 = 191. The answer is 191.
+Source: PYQ-style
+
+80. Find the missing number: 7, 26, 63, 124, 215, ?
+(a) 340 (b) 342 (c) 344 (d) 346
+Answer: (b)
+Solution: The tempting option 344 comes from adding a wrong difference, but the pattern is n³ − 1: 2³−1, 3³−1, 4³−1, 5³−1, 6³−1, so the next term is 7³ − 1 = 342. The answer is 342.
+Source: PYQ-style
+
+81. Find the missing number: 1, 4, 10, 22, 46, ?
+(a) 94 (b) 92 (c) 96 (d) 98
+Answer: (a)
+Solution: The tempting option 92 comes from simply doubling 46, but the rule is ×2 + 2: 1×2+2 = 4, 4×2+2 = 10, …, 46×2+2 = 94. The answer is 94.
+Source: PYQ-style
+
+82. Find the missing number: 8, 15, 28, 53, 102, ?
+(a) 197 (b) 201 (c) 199 (d) 203
+Answer: (c)
+Solution: The tempting option 201 comes from doubling 102 and subtracting 3, but the rule is ×2 − 1: 8×2−1 = 15, 15×2−2 = 28 is wrong; instead check ×2−1, ×2−2, ×2−3, ×2−4, ×2−5: 8×2−1 = 15, 15×2−2 = 28, 28×2−3 = 53, 53×2−4 = 108 which fails, so use differences 7, 13, 25, 49 (each ×2−1), next difference 49×2−1 = 97, giving 102 + 97 = 199. The answer is 199.
+Source: PYQ-style
+
+83. Find the missing number: 6, 11, 21, 36, 56, ?
+(a) 79 (b) 85 (c) 83 (d) 81
+Answer: (d)
+Solution: The tempting option 83 comes from adding 27 to 56, but the differences are 5, 10, 15, 20, so the next difference is 25 and the term is 56 + 25 = 81. The answer is 81.
+Source: NCERT Class 8 Mathematics
+
+84. Find the missing number: 2, 3, 8, 27, 112, ?
+(a) 560 (b) 565 (c) 570 (d) 575
+Answer: (b)
+Solution: The tempting option 560 comes from multiplying 112 by 5, but the rule is ×1+1, ×2+2, ×3+3, ×4+4, ×5+5: 2×1+1 = 3, 3×2+2 = 8, 8×3+3 = 27, 27×4+4 = 112, so the next term is 112×5+5 = 565. The answer is 565.
+Source: PYQ-style
+
+85. Find the missing number: 11, 13, 17, 19, 23, 29, ?
+(a) 35 (b) 33 (c) 31 (d) 37
+Answer: (c)
+Solution: The tempting option 33 comes from continuing a +2, +4 pattern blindly, but the series is simply consecutive prime numbers, and the prime after 29 is 31. The answer is 31.
+Source: NCERT Class 6 Mathematics
+
+86. Find the missing number: 3, 7, 16, 35, 74, ?
+(a) 153 (b) 151 (c) 155 (d) 157
+Answer: (a)
+Solution: The tempting option 151 comes from doubling 74 and adding 3, but the rule is ×2+1, ×2+2, ×2+3, ×2+4, ×2+5: 3×2+1 = 7, 7×2+2 = 16, 16×2+3 = 35, 35×2+4 = 74, so the next term is 74×2+5 = 153. The answer is 153.
+Source: PYQ-style
+
+87. Find the missing number: 100, 50, 52, 26, 28, 14, ?
+(a) 16 (b) 14 (c) 12 (d) 18
+Answer: (a)
+Solution: The tempting option 12 comes from subtracting 2 from 14, but the pattern alternates ÷2, +2: 100÷2 = 50, 50+2 = 52, 52÷2 = 26, 26+2 = 28, 28÷2 = 14, so the next term is 14 + 2 = 16. The answer is 16.
+Source: PYQ-style
+
+88. Find the missing number: 1, 2, 6, 15, 31, ?
+(a) 54 (b) 58 (c) 56 (d) 60
+Answer: (c)
+Solution: The tempting option 54 comes from adding 23 to 31, but the differences are 1, 4, 9, 16 (perfect squares), so the next difference is 25 and the term is 31 + 25 = 56. The answer is 56.
+Source: NCERT Class 8 Mathematics
+
+89. Find the missing number: 9, 27, 31, 93, 97, 291, ?
+(a) 295 (b) 297 (c) 873 (d) 879
+Answer: (a)
+Solution: The tempting option 873 comes from multiplying 291 by 3, but the pattern alternates ×3, +4: 9×3 = 27, 27+4 = 31, 31×3 = 93, 93+4 = 97, 97×3 = 291, so the next step is +4, giving 295. The answer is 295.
+Source: PYQ-style
+
+90. Find the missing number: 4, 18, 48, 100, 180, ?
+(a) 292 (b) 300 (c) 296 (d) 294
+Answer: (d)
+Solution: The tempting option 300 comes from a rough difference guess, but the pattern is n²(n+1): 1²×2 = 4, 2²×3 = 18, 3²×4 = 48, 4²×5 = 100, 5²×6 = 180, so the next term is 6²×7 = 252, which fails; instead check differences 14, 30, 52, 80 with second differences 16, 22, 28 (increasing by 6), next second difference 34, next difference 114, giving 180 + 114 = 294. The answer is 294.
+Source: PYQ-style
+
+91. Find the missing number: 13, 25, 49, 97, 193, ?
+(a) 385 (b) 383 (c) 387 (d) 389
+Answer: (a)
+Solution: The tempting option 387 comes from doubling 193 and adding 1, but the rule is ×2 − 1: 13×2−1 = 25, 25×2−1 = 49, 49×2−1 = 97, 97×2−1 = 193, so the next term is 193×2−1 = 385. The answer is 385.
+Source: PYQ-style
+
+92. Find the missing number: 5, 7, 11, 19, 35, ?
+(a) 65 (b) 67 (c) 69 (d) 71
+Answer: (b)
+Solution: The tempting option 65 comes from doubling 35 and subtracting 5, but the differences are 2, 4, 8, 16 (doubling), so the next difference is 32 and the term is 35 + 32 = 67. The answer is 67.
+Source: PYQ-style
+
+93. Find the missing number: 2, 5, 11, 23, 47, ?
+(a) 93 (b) 95 (c) 97 (d) 99
+Answer: (b)
+Solution: The tempting option 93 comes from doubling 47 and subtracting 1, but the rule is ×2 + 1: 2×2+1 = 5, 5×2+1 = 11, 11×2+1 = 23, 23×2+1 = 47, so the next term is 47×2+1 = 95. The answer is 95.
+Source: PYQ-style
+
+94. Find the missing number: 17, 19, 23, 29, 31, 37, ?
+(a) 39 (b) 47 (c) 43 (d) 41
+Answer: (d)
+Solution: The tempting option 39 comes from adding 2 to 37, but the series is consecutive prime numbers, and the prime after 37 is 41. The answer is 41.
+Source: NCERT Class 6 Mathematics
+
+95. Find the missing number: 6, 13, 27, 55, 111, ?
+(a) 221 (b) 227 (c) 225 (d) 223
+Answer: (d)
+Solution: The tempting option 221 comes from doubling 111 and subtracting 1, but the rule is ×2 + 1: 6×2+1 = 13, 13×2+1 = 27, 27×2+1 = 55, 55×2+1 = 111, so the next term is 111×2+1 = 223. The answer is 223.
+Source: PYQ-style
+
+96. Find the missing number: 3, 12, 48, 192, 768, ?
+(a) 3068 (b) 3072 (c) 3076 (d) 3080
+Answer: (b)
+Solution: The tempting option 3068 comes from a multiplication slip, but the rule is ×4 throughout: 3×4 = 12, 12×4 = 48, …, so the next term is 768×4 = 3072. The answer is 3072.
+Source: NCERT Class 8 Mathematics
+
+97. Find the missing number: 10, 22, 46, 94, 190, ?
+(a) 380 (b) 382 (c) 384 (d) 386
+Answer: (b)
+Solution: The tempting option 380 comes from simply doubling 190, but the rule is ×2 + 2: 10×2+2 = 22, 22×2+2 = 46, 46×2+2 = 94, 94×2+2 = 190, so the next term is 190×2+2 = 382. The answer is 382.
+Source: PYQ-style
+
+98. Find the missing number: 1, 8, 27, 64, 125, ?
+(a) 224 (b) 218 (c) 220 (d) 216
+Answer: (d)
+Solution: The tempting option 218 comes from adding a fixed gap to 125, but the series is cubes of natural numbers: 1³, 2³, 3³, 4³, 5³, so the next term is 6³ = 216. The answer is 216.
+Source: NCERT Class 8 Mathematics
+
+99. Find the missing number: 4, 6, 10, 18, 34, ?
+(a) 64 (b) 68 (c) 66 (d) 70
+Answer: (c)
+Solution: The tempting option 64 comes from doubling 34 and subtracting 4, but the differences are 2, 4, 8, 16 (doubling), so the next difference is 32 and the term is 34 + 32 = 66. The answer is 66.
+Source: PYQ-style
+
+100. Find the missing number: 15, 31, 63, 127, 255, ?
+(a) 511 (b) 509 (c) 513 (d) 515
+Answer: (a)
+Solution: The tempting option 509 comes from doubling 255 and subtracting 1, but the rule is ×2 + 1 (equivalently 2ⁿ − 1): 15×2+1 = 31, 31×2+1 = 63, …, so the next term is 255×2+1 = 511. The answer is 511.
+Source: PYQ-style

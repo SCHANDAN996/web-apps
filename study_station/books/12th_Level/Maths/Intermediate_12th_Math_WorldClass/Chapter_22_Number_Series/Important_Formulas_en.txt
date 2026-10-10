@@ -1,0 +1,26 @@
+# Important Formulas — Number Series
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Arithmetic Series (AP) | aₙ = a + (n − 1)d | Constant difference between consecutive terms |
+| Sum of AP | Sₙ = n/2 [2a + (n − 1)d] | When sum of an arithmetic pattern is asked |
+| Geometric Series (GP) | aₙ = a × rⁿ⁻¹ | Constant ratio between consecutive terms |
+| Sum of GP (r ≠ 1) | Sₙ = a(rⁿ − 1)/(r − 1) | Sum of a multiplying pattern |
+| Difference Method | d₁ = a₂ − a₁, d₂ = a₃ − a₂, … | First check: subtract consecutive terms |
+| Second Difference | Δ² = d₂ − d₁, d₃ − d₂, … | If first differences vary, subtract again (quadratic series) |
+| Ratio Method | r = a₂ ÷ a₁ | When terms grow/shrink fast — check multiplication/division |
+| Square Series | n², n² ± k | Terms near perfect squares: 1, 4, 9, 16, 25, 36, 49, 64, 81, 100 |
+| Cube Series | n³, n³ ± k | Terms near perfect cubes: 1, 8, 27, 64, 125, 216, 343, 512, 729, 1000 |
+| Prime Number Series | 2, 3, 5, 7, 11, 13, 17, 19, 23, 29… | Differences irregular; terms divisible only by 1 and itself |
+| Fibonacci / Addition Series | aₙ = aₙ₋₁ + aₙ₋₂ | Each term = sum of previous two (e.g., 1, 1, 2, 3, 5, 8…) |
+| Mixed Operation Series | ×2 + 1, ×3 − 2, etc. | Growth too fast for AP, not exact GP — try "multiply then add/subtract" |
+| Alternating Series | Two interleaved sub-series | Odd-position and even-position terms follow separate rules |
+| Difference of Differences (GP-type) | dₙ = dₙ₋₁ × r | Differences themselves form a GP (e.g., +2, +4, +8, +16) |
+| Square Difference Series | aₙ = aₙ₋₁ + n² | Differences are 1, 4, 9, 16, 25… |
+| n² ± n Pattern | aₙ = n² + n or n² − n | Series like 2, 6, 12, 20, 30 (n² + n) |
+| n(n + 1) Pattern | aₙ = n × (n + 1) | Product of consecutive integers: 2, 6, 12, 20, 30… |
+| Factorial Series | n! = 1, 2, 6, 24, 120, 720… | Very rapid growth; ratios are 2, 3, 4, 5… |
+| Wrong-Number Check | Verify rule on ALL terms | Rule must hold for every term, not just the first few |
+| Missing-Term Position | Apply rule step-by-step from start | Never guess from the gap; build the pattern from term 1 |
+
+**Quick-Check Order (use in exam):** Difference → Ratio → Squares/Cubes → Prime/Fibonacci → Alternate terms → Mixed operation.
