@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 01:47 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:34 AM
+**आख़िरी update:** 10-10-2026 01:52 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:34 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 28 Critical Reasoning (Graduation Reasoning) | 📤 push हो रहा है | 0 मिनट |
-| W2 | Chapter 29 Logical Consistency (Graduation Reasoning) | ✍️ लिख रहा है | 68 मिनट |
-| W5 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 66 मिनट |
-| W7 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | 🔎 review हो रहा है | 52 मिनट |
-| W8 | Chapter 26 Data Sufficiency (Graduation Reasoning) | ✍️ लिख रहा है | 118 मिनट |
+| W2 | Chapter 29 Logical Consistency (Graduation Reasoning) | ✍️ लिख रहा है | 73 मिनट |
+| W5 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 71 मिनट |
+| W7 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | 🔎 review हो रहा है | 57 मिनट |
+| W8 | Chapter 26 Data Sufficiency (Graduation Reasoning) | ✍️ लिख रहा है | 123 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -23,7 +22,7 @@
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 20 | 2 | 0 |
-| 10th English | 17 | 0 | 3 |
+| 10th English | 18 | 0 | 2 |
 | 12th Maths | 19 | 0 | 4 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 19 | 0 | 6 |
@@ -32,7 +31,7 @@
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 24 | 2 | 4 |
 | Graduation English | 29 | 1 | 0 |
-| **कुल** | **264** | **5** | **27** |
+| **कुल** | **265** | **5** | **26** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -53,11 +52,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 12:56:56   [Critical_Reasoning] Practice_hi_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
-10-10 12:58:22   [Dictionary_Order] Practice_en_Set_06.txt try 2: rejected (Q126:leaked_reasoning,Q132:leaked_reasoning,Q134:leaked_reasoning,Q139:leaked_reasoning)
-10-10 12:59:14   [Advanced_Puzzles] wrote PYQ_hi.txt (9953 chars)
-10-10 13:00:02   [Advanced_Puzzles] wrote Short_Tricks_en.txt (4708 chars)
-10-10 13:01:07   [Logical_Consistency] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
 10-10 13:02:28   [Advanced_Puzzles] wrote Short_Tricks_hi.txt (5913 chars)
 10-10 13:03:59   [Advanced_Puzzles] wrote Important_Rules_en.txt (12234 chars)
 10-10 13:04:53   [Advanced_Puzzles] wrote Important_Rules_hi.txt (3632 chars)
@@ -93,4 +87,9 @@
 10-10 13:47:21   [Critical_Reasoning] review: 3 section(s) corrected, 0 failed
 10-10 13:47:21   [Critical_Reasoning] written 3, failed 0; AI calls today 298/100000
 10-10 13:47:27   [Data_Sufficiency] Practice_en_Set_05.txt try 2: re-solve disagrees (Q125 key d vs re-solve c)
+10-10 13:47:34 DONE Graduation_Level/Reasoning/Chapter_28_Critical_Reasoning in 115 min → 62ba40f2
+10-10 13:47:36 worker 0: nothing left
+10-10 13:47:49   [Advanced_Puzzles] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+10-10 13:48:12   [Logical_Consistency] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+10-10 13:50:55   [Advanced_Puzzles] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 ```
