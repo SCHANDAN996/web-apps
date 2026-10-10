@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 11-10-2026 05:17 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:59 AM
+**आख़िरी update:** 11-10-2026 05:18 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:59 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -40,7 +40,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 04:19:25   [Probability] written 0, failed 2; AI calls today 4/100000
 11-10 04:19:25 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability after 19 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems ['Flashcards_hi.txt: Hindi file is mostly not in Hindi', 'Flashcards_hi.txt: much shorter than the English section (46', 'Short_Tricks_hi.txt: much shorter than the English section (']
 11-10 04:19:29 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability (TODO: todo 2, problems 3)
 11-10 04:24:10   [Awards] FAILED Flashcards_hi.txt: network
@@ -80,4 +79,5 @@
 11-10 05:10:48   [Linear_Programming] written 1, failed 0; AI calls today 7/100000
 11-10 05:10:48 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming after 23 min: todo [] problems ['Content_hi.txt: much shorter than the English section (7248 ']
 11-10 05:10:52 worker 3: nothing left
+11-10 05:18:10 autopilot end: done 0, failed 4
 ```
