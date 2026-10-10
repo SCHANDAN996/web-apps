@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 10-10-2026 06:32 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:23 AM
+**आख़िरी update:** 10-10-2026 06:39 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:23 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 01 Number System (12th Maths) | 🔧 सुधार रहा है | 6 मिनट |
-| W5 | Chapter 11 Time Work (12th Maths) | 📤 push हो रहा है | 0 मिनट |
-| W7 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 9 मिनट |
+| W3 | Chapter 01 Number System (12th Maths) | 🔧 सुधार रहा है | 13 मिनट |
+| W7 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 15 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -22,13 +21,13 @@
 | 10th English | 17 | 0 | 3 |
 | 12th Maths | 19 | 2 | 2 |
 | 12th GK | 22 | 2 | 0 |
-| 12th Reasoning | 10 | 0 | 15 |
+| 12th Reasoning | 11 | 0 | 14 |
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 16 | 0 | 12 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 13 | 0 | 17 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **239** | **6** | **51** |
+| **कुल** | **240** | **6** | **50** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -45,15 +44,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 06:25:17 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest after 2 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (31']
-10-10 06:25:19 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest (FIX: todo 0, problems 1)
-10-10 06:25:25   [Probability] Practice_en_Set_02.txt try 1: rejected (parsed 23 questions, numbers 26…50)
-10-10 06:25:46   [Number_System] repaired Important_Formulas_hi.txt (3432 chars)
-10-10 06:25:46   [Number_System] written 1, failed 0; AI calls today 17/100000
-10-10 06:25:47 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System after 3 min: todo [] problems ['Important_Formulas_hi.txt: much shorter than the English sec']
-10-10 06:25:49 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System (FIX: todo 0, problems 1)
-10-10 06:26:17   [Sports] REJECTED Memory_Hooks_hi.txt: corrupted characters — not written
-10-10 06:26:17   [Sports] written 0, failed 1; AI calls today 19/100000
 10-10 06:26:57   [Probability] Practice_en_Set_02.txt try 2: rejected (parsed 22 questions, numbers 26…49)
 10-10 06:27:27   [Compound_Interest] repaired Flashcards_hi.txt (2872 chars)
 10-10 06:27:27   [Compound_Interest] written 1, failed 0; AI calls today 24/100000
@@ -85,4 +75,13 @@
 10-10 06:32:14 worker 1: nothing left
 10-10 06:32:39   [Time_Work] review: 0 section(s) corrected, 0 failed
 10-10 06:32:39   [Time_Work] written 0, failed 0; AI calls today 38/100000
+10-10 06:33:00 DONE 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_11_Time_Work in 9 min → d5d330cf
+10-10 06:33:03 worker 4: nothing left
+10-10 06:33:10   [Probability] Practice_hi_Set_03.txt try 1: rejected (parsed 24 questions, numbers 51…75)
+10-10 06:35:19   [Probability] Practice_hi_Set_03.txt try 2: rejected (parsed 24 questions, numbers 51…75)
+10-10 06:37:14   [Probability] Practice_hi_Set_03.txt try 3: rejected (parsed 24 questions, numbers 51…75)
+10-10 06:39:22   [Probability] Practice_hi_Set_03.txt try 4: rejected (parsed 24 questions, numbers 51…75)
+10-10 06:39:22   [Probability] REJECTED Practice_hi_Set_03.txt: no translation passed the checks — not written
+10-10 06:39:37   [Number_System] FAILED Important_Formulas_hi.txt: too_long
+10-10 06:39:37   [Number_System] written 0, failed 1; AI calls today 41/100000
 ```
