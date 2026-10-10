@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 06:55 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
+**आख़िरी update:** 10-10-2026 07:11 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:09 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Figure Series (Graduation Reasoning) | ✍️ लिख रहा है | 24 मिनट |
-| W2 | Chapter 23 Syllogism (Graduation Reasoning) | ✍️ लिख रहा है | 3 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🔎 review हो रहा है | 31 मिनट |
-| W4 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 37 मिनट |
-| W5 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 46 मिनट |
-| W6 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 46 मिनट |
-| W7 | Chapter 19 Cubes Dice (Graduation Reasoning) | ✍️ लिख रहा है | 46 मिनट |
-| W8 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 46 मिनट |
+| W1 | Chapter 22 Figure Series (Graduation Reasoning) | ✍️ लिख रहा है | 40 मिनट |
+| W2 | Chapter 23 Syllogism (Graduation Reasoning) | ✍️ लिख रहा है | 18 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🔎 review हो रहा है | 47 मिनट |
+| W4 | Chapter 21 Paper Folding Cutting (Graduation Reasoning) | ✍️ लिख रहा है | 53 मिनट |
+| W5 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 61 मिनट |
+| W6 | Chapter 14 Alphabet Questions (Graduation Reasoning) | ✍️ लिख रहा है | 61 मिनट |
+| W7 | Chapter 19 Cubes Dice (Graduation Reasoning) | 🔧 सुधार रहा है | 8 मिनट |
+| W8 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 61 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -33,9 +33,9 @@
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 16 | 0 | 12 |
 | Graduation GK | 27 | 0 | 1 |
-| Graduation Reasoning | 14 | 1 | 15 |
+| Graduation Reasoning | 14 | 2 | 14 |
 | Graduation English | 29 | 1 | 0 |
-| **कुल** | **242** | **4** | **50** |
+| **कुल** | **242** | **5** | **49** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -50,18 +50,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 06:29:59   [Classification] written 0, failed 1; AI calls today 33/100000
-10-10 06:30:00 NOT OK Graduation_Level/Reasoning/Chapter_02_Classification after 21 min: todo ['Set 01 hi: todo'] problems []
-10-10 06:30:01 START Graduation_Level/Reasoning/Chapter_02_Classification (TODO: todo 1, problems 0)
-10-10 06:30:49   [Sitting_Arrangement] review Feynman_hi.txt: 1 issue(s): - 'मामा जी बाहर की तरफ़ मुँह करके बैठेगा' → 'मामा जी बाहर की तरफ़ मुँह करके बैठेंगे'
-10-10 06:30:59   [Para_Jumbles_Adv] repaired Mind_Map_hi.txt (1348 chars)
-10-10 06:30:59   [Para_Jumbles_Adv] written 1, failed 0; AI calls today 35/100000
-10-10 06:30:59 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv after 5 min: todo [] problems ['Mind_Map_hi.txt: much shorter than the English section (1347']
-10-10 06:31:02 START Graduation_Level/Reasoning/Chapter_22_Figure_Series (TODO: todo 7, problems 3)
-10-10 06:32:33   [Dictionary_Order] FAILED Practice_en_Set_03.txt: too_long
-10-10 06:32:33   [Dictionary_Order] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
-10-10 06:33:28   [Classification] Practice_hi_Set_01.txt try 1: rejected (Q22:leaked_reasoning)
-10-10 06:33:40   [Figure_Series] wrote Feynman_en.txt (4363 chars)
 10-10 06:34:42   [Alphabet_Questions] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 10-10 06:37:07   [Dictionary_Order] Practice_en_Set_04.txt try 1: rejected (Q84:leaked_reasoning,Q90:leaked_reasoning,Q93:leaked_reasoning,Q97:leaked_reasoning,Q99:leaked_reasoning)
 10-10 06:37:53   [Paper_Folding_Cutting] FAILED Practice_en_Set_01.txt: too_long
@@ -90,4 +78,16 @@
 10-10 06:53:21   [Figure_Series] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 10-10 06:53:39   [Cubes_Dice] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 10-10 06:56:05   [Syllogism] wrote Content_en.txt (7083 chars)
+10-10 06:56:22   [Sitting_Arrangement] review Short_Tricks_en.txt: 1 issue(s): - Box 8 claims "side people have 3 neighbours" in a rectangle/square; in standard closed-loop seating puzzles 
+10-10 06:56:40   [Paper_Folding_Cutting] Practice_en_Set_02.txt try 1: re-solve disagrees (Q27 key b vs re-solve c, Q41 key b vs re-solve a)
+10-10 06:57:27   [Dictionary_Order] Practice_en_Set_06.txt try 1: rejected (Q128:leaked_reasoning,Q131:leaked_reasoning,Q139:leaked_reasoning,Q145:leaked_reasoning,Q146:leaked_reasoning)
+10-10 06:59:41   [Figure_Series] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+10-10 07:01:18   [Syllogism] wrote Content_hi.txt (7279 chars)
+10-10 07:01:33   [Mirror_Water_Images] Practice_en_Set_05.txt try 1: re-solve disagrees (Q101 key a vs re-solve b, Q105 key a vs re-solve -, Q106 key a vs re-solve -, Q107 key d vs re-solve
+10-10 07:02:24   [Cubes_Dice] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+10-10 07:02:24   [Cubes_Dice] written 2, failed 0; AI calls today 76/100000
+10-10 07:04:14   [Figure_Series] Practice_en_Set_06.txt try 1: rejected (Q150:leaked_reasoning)
+10-10 07:10:19   [Alphabet_Questions] Practice_en_Set_04.txt try 2: re-solve disagrees (Q76 key a vs re-solve c, Q77 key c vs re-solve a, Q79 key d vs re-solve b, Q81 key b vs re-solve a, 
+10-10 07:10:43   [Dictionary_Order] Practice_en_Set_06.txt try 2: re-solve disagrees (Q134 key d vs re-solve a, Q137 key a vs re-solve c)
+10-10 07:11:14   [Syllogism] wrote Feynman_en.txt (3597 chars)
 ```
