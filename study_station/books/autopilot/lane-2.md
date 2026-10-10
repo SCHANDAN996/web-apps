@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 09:54 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
+**आख़िरी update:** 10-10-2026 10:10 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W4 | Chapter 27 Number Series (Graduation Maths) | ✍️ लिख रहा है | 196 मिनट |
-| W5 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 149 मिनट |
-| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 102 मिनट |
+| W4 | Chapter 27 Number Series (Graduation Maths) | ✍️ लिख रहा है | 211 मिनट |
+| W5 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 164 मिनट |
+| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 117 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -52,13 +52,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 08:17:22   [Probability] Practice_en_Set_02.txt try 1: rejected (parsed 21 questions, numbers 26…50)
-10-10 08:19:11   [Number_Series] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-10-10 08:20:43   [Linear_Programming] wrote Flashcards_en.txt (3962 chars)
-10-10 08:22:53   [Permutation_Combination] review Important_Formulas_en.txt: 2 issue(s): - Selection with at least one of each type: formula (p+1)(q+1)(r+1)…−1 is for non-empty selection overal
-10-10 08:24:27   [Linear_Programming] wrote Flashcards_hi.txt (3416 chars)
-10-10 08:28:22   [Linear_Programming] wrote PYQ_en.txt (395 chars)
-10-10 08:29:07   [Number_Series] Practice_en_Set_02.txt try 1: rejected (Q34:leaked_reasoning,Q45:leaked_reasoning,Q46:leaked_reasoning)
 10-10 08:32:47   [Permutation_Combination] review: 3 section(s) corrected, 1 failed
 10-10 08:32:47   [Permutation_Combination] written 3, failed 1; AI calls today 272/100000
 10-10 08:32:47 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_26_Permutation_Combination after 61 min: todo [] problems []
@@ -92,4 +85,11 @@
 10-10 09:54:15   [Probability] Practice_en_Set_04.txt try 4: rejected (parsed 22 questions, numbers 76…100)
 10-10 09:54:15   [Probability] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
 10-10 09:54:15   [Probability] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
+10-10 09:57:19   [Linear_Programming] wrote Important_Formulas_hi.txt (3459 chars)
+10-10 09:57:24   [Number_Series] Practice_en_Set_04.txt try 1: rejected (Q93:leaked_reasoning,Q98:leaked_reasoning)
+10-10 09:58:21   [Probability] Practice_en_Set_05.txt try 1: rejected (parsed 22 questions, numbers 101…125)
+10-10 10:02:23   [Number_Series] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+10-10 10:03:46   [Probability] Practice_en_Set_05.txt try 2: rejected (parsed 22 questions, numbers 101…125)
+10-10 10:07:17   [Number_Series] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+10-10 10:08:11   [Probability] Practice_en_Set_05.txt try 3: rejected (parsed 23 questions, numbers 101…125)
 ```
