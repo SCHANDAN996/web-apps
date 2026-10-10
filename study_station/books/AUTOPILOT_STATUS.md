@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 05:47 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 05:00 PM
+**आख़िरी update:** 10-10-2026 06:02 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 05:00 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W4 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 46 मिनट |
-| W7 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 46 मिनट |
+| W4 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 62 मिनट |
+| W7 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 61 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -45,9 +45,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 17:04:15   [Missing_Term] written 1, failed 0; AI calls today 17/100000
-10-10 17:04:15 NOT OK Graduation_Level/Reasoning/Chapter_12_Missing_Term after 4 min: todo [] problems ['Important_Rules_hi.txt: much shorter than the English sectio']
-10-10 17:04:18 START Graduation_Level/Reasoning/Chapter_12_Missing_Term (FIX: todo 0, problems 1)
 10-10 17:05:40   [Missing_Term] repaired Important_Rules_hi.txt (3389 chars)
 10-10 17:05:40   [Missing_Term] written 1, failed 0; AI calls today 20/100000
 10-10 17:06:44   [Statement_Argument] repaired PYQ_hi.txt (8098 chars)
@@ -85,4 +82,7 @@
 10-10 17:37:45 worker 4: nothing left
 10-10 17:38:38   [Dictionary_Order] Practice_en_Set_06.txt try 1: rejected (Q128:leaked_reasoning,Q129:leaked_reasoning,Q131:leaked_reasoning,Q134:leaked_reasoning,Q136:leaked_reasoning)
 10-10 17:44:27   [Advanced_Puzzles] Practice_en_Set_03.txt try 3: re-solve disagrees (Q63 key d vs re-solve a)
+10-10 17:51:03   [Dictionary_Order] Practice_en_Set_06.txt try 2: re-solve disagrees (Q126 key c vs re-solve ?, Q128 key d vs re-solve c, Q129 key a vs re-solve c, Q132 key d vs re-solve
+10-10 18:02:07   [Advanced_Puzzles] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+10-10 18:02:11   [Dictionary_Order] Practice_en_Set_06.txt try 3: re-solve disagrees (Q126 key a vs re-solve ?)
 ```
