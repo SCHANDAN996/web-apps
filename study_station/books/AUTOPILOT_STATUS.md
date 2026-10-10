@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 06:48 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 05:00 PM
+**आख़िरी update:** 10-10-2026 07:04 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 05:00 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W4 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 32 मिनट |
-| W7 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 107 मिनट |
+| W7 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | ✍️ लिख रहा है | 123 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -41,17 +40,11 @@
 - Chapter 22 Para Jumbles Adv (English) — 2 बार
 - Chapter 12 Missing Term (Reasoning) — 2 बार
 - Chapter 25 Statement Argument (Reasoning) — 2 बार
-- Chapter 13 Dictionary Order (Reasoning) — 1 बार
+- Chapter 13 Dictionary Order (Reasoning) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 17:14:31   [Paper_Folding_Cutting] review PYQ_en.txt: 6 issue(s): - "Typical load: 1–2 questions per paper in SSC CGL/CHSL Tier-I; 1 question in most Railway and Banking prelims." is an
-10-10 17:14:37   [Classification] review Important_Rules_hi.txt: 3 issue(s): - "अंकों का योग/गुणनफल नियम" उदाहरण में 24, 42, 33, 51 दिए गए हैं और कहा गया है कि केवल 33 का अंक-योग 6 है,
-10-10 17:15:43   [Statement_Argument] repaired PYQ_hi.txt (10815 chars)
-10-10 17:15:43   [Statement_Argument] written 1, failed 0; AI calls today 44/100000
-10-10 17:15:44 NOT OK Graduation_Level/Reasoning/Chapter_25_Statement_Argument after 9 min: todo [] problems ['PYQ_hi.txt: much shorter than the English section (10814 vs ']
-10-10 17:15:48 worker 5: nothing left
 10-10 17:16:18   [Classification] review: 2 section(s) corrected, 0 failed
 10-10 17:16:18   [Classification] written 2, failed 0; AI calls today 45/100000
 10-10 17:16:40 DONE Graduation_Level/Reasoning/Chapter_02_Classification in 16 min → ae08a9df
@@ -86,4 +79,10 @@
 10-10 18:37:08   [Advanced_Puzzles] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 10-10 18:41:11   [Dictionary_Order] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 10-10 18:42:38   [Advanced_Puzzles] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+10-10 18:49:15   [Advanced_Puzzles] Practice_en_Set_05.txt try 1: rejected (Q104:leaked_reasoning,Q120:leaked_reasoning)
+10-10 19:01:22   [Dictionary_Order] FAILED Practice_en_Set_06.txt: too_long
+10-10 19:01:22   [Dictionary_Order] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+10-10 19:01:22   [Dictionary_Order] written 2, failed 2; AI calls today 78/100000
+10-10 19:01:22 NOT OK Graduation_Level/Reasoning/Chapter_13_Dictionary_Order after 45 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems []
+10-10 19:01:27 worker 3: nothing left
 ```
