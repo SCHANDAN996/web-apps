@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 11-10-2026 04:31 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:59 AM
+**आख़िरी update:** 11-10-2026 04:47 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:59 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,11 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 12 Biology (12th GK) | 🔧 सुधार रहा है | 3 मिनट |
-| W2 | Chapter 14 Sports (12th GK) | 🔧 सुधार रहा है | 7 मिनट |
-| W3 | Chapter 01 Number System (12th Maths) | 🔧 सुधार रहा है | 12 मिनट |
-| W4 | Chapter 10 Compound Interest (12th Maths) | 🔧 सुधार रहा है | 12 मिनट |
-| W5 | Chapter 13 Mixture Alligation (12th Maths) | 🔧 सुधार रहा है | 9 मिनट |
+| W1 | Chapter 12 Biology (12th GK) | 🔧 सुधार रहा है | 18 मिनट |
+| W2 | Chapter 14 Sports (12th GK) | 🔧 सुधार रहा है | 5 मिनट |
+| W4 | Chapter 10 Compound Interest (12th Maths) | 🔧 सुधार रहा है | 8 मिनट |
+| W5 | Chapter 13 Mixture Alligation (12th Maths) | 🔧 सुधार रहा है | 24 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,13 +38,13 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 12 Biology (GK) — 1 बार
+- Chapter 01 Number System (Maths) — 2 बार
+- Chapter 10 Compound Interest (Maths) — 1 बार
+- Chapter 14 Sports (GK) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 03:59:51 autopilot start: 8 workers, reverse=True
-11-10 03:59:52 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_12_Biology (FIX: todo 0, problems 1)
-11-10 03:59:57 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_14_Sports (FIX: todo 0, problems 1)
 11-10 04:00:03 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System (FIX: todo 0, problems 2)
 11-10 04:00:08 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest (FIX: todo 0, problems 1)
 11-10 04:00:13 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation (FIX: todo 0, problems 1)
@@ -66,4 +65,24 @@
 11-10 04:28:16   [Biology] written 0, failed 1; AI calls today 4/100000
 11-10 04:28:16 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_12_Biology after 28 min: todo [] problems ['Feynman_hi.txt: much shorter than the English section (2768 ']
 11-10 04:28:17 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_12_Biology (FIX: todo 0, problems 1)
+11-10 04:37:09   [Number_System] repaired Important_Formulas_hi.txt (5916 chars)
+11-10 04:37:09   [Number_System] written 1, failed 0; AI calls today 5/100000
+11-10 04:37:09 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System after 37 min: todo [] problems ['Important_Formulas_hi.txt: much shorter than the English sec']
+11-10 04:37:11 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System (FIX: todo 0, problems 1)
+11-10 04:38:50   [Compound_Interest] FAILED Flashcards_hi.txt: network
+11-10 04:38:50   [Compound_Interest] written 0, failed 1; AI calls today 5/100000
+11-10 04:38:50 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest after 39 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (29']
+11-10 04:38:53 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest (FIX: todo 0, problems 1)
+11-10 04:42:04   [Sports] FAILED Memory_Hooks_hi.txt: rate_limited
+11-10 04:42:04   [Sports] written 0, failed 1; AI calls today 5/100000
+11-10 04:42:04 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_14_Sports after 42 min: todo [] problems ['Memory_Hooks_hi.txt: much shorter than the English section (']
+11-10 04:42:06 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_14_Sports (FIX: todo 0, problems 1)
+11-10 04:42:13   [Number_System] repaired Important_Formulas_hi.txt (5265 chars)
+11-10 04:42:13   [Number_System] written 1, failed 0; AI calls today 6/100000
+11-10 04:46:36   [Number_System] repaired Important_Formulas_hi.txt (4789 chars)
+11-10 04:46:36   [Number_System] written 1, failed 0; AI calls today 7/100000
+11-10 04:46:36 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System after 9 min: todo [] problems ['Important_Formulas_hi.txt: much shorter than the English sec']
+11-10 04:46:40 worker 2: nothing left
+11-10 04:47:13   [Sports] repaired Memory_Hooks_hi.txt (8361 chars)
+11-10 04:47:13   [Sports] written 1, failed 0; AI calls today 7/100000
 ```
