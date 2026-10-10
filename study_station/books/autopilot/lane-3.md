@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 07:40 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
+**आख़िरी update:** 10-10-2026 07:55 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 07:08 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 31 मिनट |
-| W2 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 13 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | ✍️ लिख रहा है | 46 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,19 +38,11 @@
 - Chapter 16 Statement Conclusion (Reasoning) — 2 बार
 - Chapter 24 Statement Assumption (Reasoning) — 2 बार
 - Chapter 17 Course of Action (Reasoning) — 2 बार
-- Chapter 13 Dictionary Order (Reasoning) — 1 बार
+- Chapter 13 Dictionary Order (Reasoning) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 19:14:03 START 12th_Level/Reasoning/Chapter_24_Statement_Assumption (FIX: todo 0, problems 1)
-10-10 19:14:05   [Mirror_Water_Images] repaired Flashcards_hi.txt (3968 chars)
-10-10 19:14:05   [Mirror_Water_Images] written 1, failed 0; AI calls today 16/100000
-10-10 19:14:05 NOT OK 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images after 3 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (39']
-10-10 19:14:07 worker 4: nothing left
-10-10 19:15:10   [Statement_Conclusion] repaired Flashcards_hi.txt (3801 chars)
-10-10 19:15:10   [Statement_Conclusion] written 1, failed 0; AI calls today 16/100000
-10-10 19:16:33   [Statement_Assumption] repaired Short_Tricks_hi.txt (4201 chars)
 10-10 19:16:33   [Statement_Assumption] written 1, failed 0; AI calls today 17/100000
 10-10 19:17:24   [Statement_Conclusion] repaired Flashcards_hi.txt (3798 chars)
 10-10 19:17:24   [Statement_Conclusion] written 1, failed 0; AI calls today 19/100000
@@ -84,4 +75,12 @@
 10-10 19:30:35 worker 3: nothing left
 10-10 19:31:23   [Dictionary_Order] Practice_en_Set_02.txt try 1: rejected (parsed 23 questions, numbers 26…50)
 10-10 19:34:43   [Dictionary_Order] Practice_en_Set_02.txt try 2: rejected (Q26:leaked_reasoning,Q29:leaked_reasoning)
+10-10 19:43:54   [Sitting_Arrangement] Practice_en_Set_02.txt try 3: re-solve disagrees (Q46 key b vs re-solve c)
+10-10 19:44:03   [Dictionary_Order] Practice_en_Set_02.txt try 3: re-solve disagrees (Q26 key d vs re-solve ?, Q30 key a vs re-solve c)
+10-10 19:51:25   [Dictionary_Order] Practice_en_Set_02.txt try 4: re-solve disagrees (Q30 key d vs re-solve c)
+10-10 19:51:25   [Dictionary_Order] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
+10-10 19:51:25   [Dictionary_Order] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+10-10 19:51:26   [Dictionary_Order] written 0, failed 2; AI calls today 35/100000
+10-10 19:51:26 NOT OK 12th_Level/Reasoning/Chapter_13_Dictionary_Order after 24 min: todo ['Set 02 en: todo', 'Set 02 hi: todo'] problems ['PYQ_hi.txt: much shorter than the English section (447 vs 13']
+10-10 19:51:28 worker 1: nothing left
 ```
