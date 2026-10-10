@@ -1,15 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 03:05 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:29 AM
+**आख़िरी update:** 10-10-2026 03:20 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:29 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W2 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 1 मिनट |
-| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 72 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -41,25 +38,12 @@
 - Chapter 13 Awards (GK) — 2 बार
 - Chapter 22 Calculus (Maths) — 2 बार
 - Chapter 19 Trigonometry (Maths) — 2 बार
-- Chapter 25 Probability (Maths) — 1 बार
-- Chapter 28 Linear Programming (Maths) — 1 बार
+- Chapter 25 Probability (Maths) — 2 बार
+- Chapter 28 Linear Programming (Maths) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 14:04:40   [Geometry] written 4, failed 0; AI calls today 130/100000
-10-10 14:05:01 DONE Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_15_Geometry in 85 min → c9e5fee6
-10-10 14:05:05 worker 2: nothing left
-10-10 14:09:07   [Linear_Programming] Practice_en_Set_04.txt try 2: rejected (parsed 0 questions, numbers -…-)
-10-10 14:11:31   [Linear_Programming] Practice_en_Set_04.txt try 3: rejected (Q88:leaked_reasoning,Q91:leaked_reasoning,Q96:leaked_reasoning)
-10-10 14:12:56   [Number_Series] review Short_Tricks_en.txt: 1 issue(s): - Trick 10 anchor letters: Z=26 is not a multiple of 5; the multiples of 5 are E=5, J=10, O=15, T=20, Y=25 → c
-10-10 14:14:21   [Probability] FAILED Practice_en_Set_03.txt: too_long
-10-10 14:14:21   [Probability] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
-10-10 14:16:23   [Number_Series] review Short_Tricks_hi.txt: 2 issue(s): - Trick 4: Hindi typo "भीर में" → "भीतर में"
-10-10 14:16:53   [Probability] Practice_en_Set_04.txt try 1: rejected (parsed 23 questions, numbers 76…100)
-10-10 14:17:49   [Linear_Programming] Practice_en_Set_04.txt try 4: re-solve disagrees (Q88 key b vs re-solve a)
-10-10 14:17:49   [Linear_Programming] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
-10-10 14:17:49   [Linear_Programming] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
 10-10 14:18:09   [Probability] Practice_en_Set_04.txt try 2: rejected (parsed 23 questions, numbers 76…99)
 10-10 14:19:17   [Number_Series] review Important_Formulas_hi.txt: 1 issue(s): - Invented statistic "70% श्रेणियाँ यहीं सुलझती हैं" in step 1 of गति-सूत्र → Remove the unverified perc
 10-10 14:20:34   [Probability] Practice_en_Set_04.txt try 3: rejected (parsed 21 questions, numbers 76…99)
@@ -87,4 +71,17 @@
 10-10 15:03:51   [Linear_Programming] written 11, failed 2; AI calls today 158/100000
 10-10 15:03:52 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming after 194 min: todo ['Set 04 en: todo', 'Set 04 hi: todo'] problems ['Content_hi.txt: much shorter than the English section (8282 ']
 10-10 15:03:56 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming (TODO: todo 2, problems 1)
+10-10 15:08:06   [Probability] Practice_en_Set_06.txt try 3: rejected (parsed 24 questions, numbers 126…150)
+10-10 15:08:10   [Linear_Programming] Practice_en_Set_04.txt try 1: rejected (Q98:leaked_reasoning)
+10-10 15:10:35   [Probability] Practice_en_Set_06.txt try 4: rejected (parsed 23 questions, numbers 126…150)
+10-10 15:10:35   [Probability] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+10-10 15:10:35   [Probability] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+10-10 15:10:35   [Probability] written 0, failed 10; AI calls today 161/100000
+10-10 15:10:35 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability after 78 min: todo ['Set 02 en: todo', 'Set 02 hi: todo', 'Set 03 en: todo', 'Set 03 hi: todo'] problems ['Flashcards_hi.txt: Hindi file is mostly not in Hindi', 'Flashcards_hi.txt: much shorter than the English section (46', 'Short_Tricks_hi.txt: much shorter than the English section (']
+10-10 15:10:39 worker 5: nothing left
+10-10 15:20:46   [Linear_Programming] FAILED Practice_en_Set_04.txt: too_long
+10-10 15:20:46   [Linear_Programming] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
+10-10 15:20:46   [Linear_Programming] written 0, failed 2; AI calls today 160/100000
+10-10 15:20:46 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming after 17 min: todo ['Set 04 en: todo', 'Set 04 hi: todo'] problems ['Content_hi.txt: much shorter than the English section (8282 ']
+10-10 15:20:50 worker 1: nothing left
 ```
