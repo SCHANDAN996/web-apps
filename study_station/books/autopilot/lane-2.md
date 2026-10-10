@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 07:06 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
+**आख़िरी update:** 10-10-2026 07:21 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 23 Data Interpretation (Graduation Maths) | 🔎 review हो रहा है | 15 मिनट |
-| W2 | Chapter 26 Permutation Combination (Graduation Maths) | ✍️ लिख रहा है | 40 मिनट |
-| W3 | Chapter 13 Mixture Alligation (Graduation Maths) | 🔎 review हो रहा है | 43 मिनट |
-| W4 | Chapter 27 Number Series (Graduation Maths) | ✍️ लिख रहा है | 27 मिनट |
-| W5 | Chapter 24 Statistics (Graduation Maths) | 🔎 review हो रहा है | 17 मिनट |
-| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 42 मिनट |
-| W7 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 13 मिनट |
-| W8 | Chapter 20 Heights Distances (Graduation Maths) | 🔎 review हो रहा है | 34 मिनट |
+| W1 | Chapter 23 Data Interpretation (Graduation Maths) | 🔎 review हो रहा है | 30 मिनट |
+| W2 | Chapter 26 Permutation Combination (Graduation Maths) | ✍️ लिख रहा है | 56 मिनट |
+| W3 | Chapter 13 Mixture Alligation (Graduation Maths) | 🔎 review हो रहा है | 58 मिनट |
+| W4 | Chapter 27 Number Series (Graduation Maths) | ✍️ लिख रहा है | 42 मिनट |
+| W5 | Chapter 24 Statistics (Graduation Maths) | 🔎 review हो रहा है | 33 मिनट |
+| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 57 मिनट |
+| W7 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 29 मिनट |
+| W8 | Chapter 20 Heights Distances (Graduation Maths) | 🔎 review हो रहा है | 49 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -27,13 +27,13 @@
 | 10th English | 17 | 0 | 3 |
 | 12th Maths | 19 | 0 | 4 |
 | 12th GK | 22 | 0 | 2 |
-| 12th Reasoning | 12 | 0 | 13 |
+| 12th Reasoning | 14 | 0 | 11 |
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 20 | 2 | 6 |
 | Graduation GK | 27 | 1 | 0 |
 | Graduation Reasoning | 13 | 0 | 17 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **245** | **5** | **46** |
+| **कुल** | **247** | **5** | **44** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -51,26 +51,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 06:43:50   [Statistics] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-10-10 06:44:02   [Permutation_Combination] Practice_en_Set_04.txt try 1: rejected (Q94:leaked_reasoning)
-10-10 06:45:59   [Heights_Distances] review Content_hi.txt: 1 issue(s): - Mnemonic section's first bullet point contains draft text "**P**andit → **P**erpendicular (लंब) / **B**adri → **B
-10-10 06:46:13   [Probability] Practice_en_Set_03.txt try 1: rejected (parsed 22 questions, numbers 51…74)
-10-10 06:46:38   [Permutation_Combination] Practice_en_Set_04.txt try 2: rejected (parsed 0 questions, numbers -…-)
-10-10 06:46:46   [Number_Series] wrote Content_hi.txt (5945 chars)
-10-10 06:46:53   [Data_Interpretation] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-10-10 06:46:53   [Data_Interpretation] written 5, failed 0; AI calls today 117/100000
-10-10 06:47:43   [Mixture_Alligation] review PYQ_en.txt: 3 issue(s): - Q3 answer (b) 106:69 is incorrect for the given ratios 5:2 and 7:4 (correct ratio is 52:25) → change the second ratio
-10-10 06:48:14   [Statistics] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-10-10 06:48:14   [Statistics] written 3, failed 0; AI calls today 119/100000
-10-10 06:50:09   [Number_Series] Feynman_en.txt try 1: rejected (chat debris "Here's the")
-10-10 06:50:18   [Probability] Practice_en_Set_03.txt try 2: rejected (parsed 22 questions, numbers 51…75)
-10-10 06:50:40   [Statistics] review Content_en.txt: 1 issue(s): - The claim "This is 95% of what SSC, Banking, and CSAT ask" is an invented exam weightage statistic → Remove the u
-10-10 06:50:42   [Data_Interpretation] repaired Feynman_hi.txt (2322 chars)
-10-10 06:50:42   [Data_Interpretation] written 1, failed 0; AI calls today 124/100000
-10-10 06:51:12   [Data_Interpretation] review Content_en.txt: 3 issue(s): - The entire section is corrupted with markup artifacts (`<|close|>`, `<|open|>`, `think`) and nonsensical fragment
-10-10 06:51:43   [Heights_Distances] review Feynman_hi.txt: 1 issue(s): - The claim "इन तीनों से 90% सवाल बनते हैं" is an invented exam statistic with no source → Remove the percentage or
-10-10 06:52:16   [Permutation_Combination] Practice_en_Set_04.txt try 3: rejected (Q83:leaked_reasoning,Q98:leaked_reasoning)
-10-10 06:52:22   [Trigonometry] FAILED Practice_en_Set_06.txt: too_long
 10-10 06:52:22   [Trigonometry] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
 10-10 06:52:22   [Trigonometry] written 0, failed 5; AI calls today 128/100000
 10-10 06:52:22 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_19_Trigonometry after 48 min: todo ['Set 03 en: todo', 'Set 03 hi: todo', 'Set 05 hi: todo', 'Set 06 en: todo'] problems []
@@ -91,4 +71,24 @@
 10-10 07:02:48   [Permutation_Combination] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 10-10 07:04:15   [Number_Series] Flashcards_en.txt try 1: rejected (corrupted characters)
 10-10 07:05:52   [Data_Interpretation] review Mind_Map.txt: 1 issue(s): - B1: Hindi label "सांख्यिकीय डेटा" means "Statistical Data", not "Numerical Data" → use "संख्यात्मक डेटा" or "मात्रा
+10-10 07:06:43   [Statistics] review PYQ_hi.txt: 1 issue(s): - Question 8 header incorrectly states "उत्तर: (a)" while the correct answer is (b); also the self-correction line "ठीक
+10-10 07:07:25   [Heights_Distances] review Flashcards_hi.txt: 1 issue(s): - Card 18: The statement that angles of elevation to the top and base of a building are 60° and 30° is impossibl
+10-10 07:08:09   [Permutation_Combination] Practice_en_Set_05.txt try 1: rejected (Q108:leaked_reasoning,Q112:leaked_reasoning)
+10-10 07:08:48   [Probability] Practice_en_Set_03.txt try 4: rejected (parsed 23 questions, numbers 51…75)
+10-10 07:08:48   [Probability] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
+10-10 07:08:48   [Probability] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
+10-10 07:13:37   [Statistics] review Short_Tricks_hi.txt: 1 issue(s): - Trick 1: The mnemonic "मीना मोहन से मिली" gives the sequence Mean, Mode, Median, but the text explicitly say
+10-10 07:13:52   [Mixture_Alligation] FAILED review PYQ_hi.txt: too_long — the chapter must not be published unreviewed
+10-10 07:14:18   [Probability] Practice_en_Set_04.txt try 1: rejected (parsed 21 questions, numbers 76…99)
+10-10 07:14:38   [Trigonometry] Practice_en_Set_03.txt try 2: re-solve disagrees (Q71 key c vs re-solve ?)
+10-10 07:15:01   [Permutation_Combination] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+10-10 07:15:24   [Heights_Distances] review Short_Tricks_en.txt: 2 issue(s): - Trick 5: Claims AB = horizontal distance from B to tower foot; actually AB = slant distance BP (triangle ABP
+10-10 07:16:58   [Number_Series] Flashcards_en.txt try 2: rejected (corrupted characters)
+10-10 07:16:58   [Number_Series] REJECTED Flashcards_en.txt: corrupted characters — not written
+10-10 07:17:15   [Mixture_Alligation] review Important_Formulas_en.txt: 1 issue(s): - Two Vessels Mixed Together formula "Combined ratio = (A₁ + B₁) : (A₂ + B₂)" is incorrect as a general 
+10-10 07:18:12   [Probability] Practice_en_Set_04.txt try 2: rejected (parsed 20 questions, numbers 76…100)
+10-10 07:19:12   [Permutation_Combination] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+10-10 07:19:12   [Trigonometry] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+10-10 07:20:12   [Statistics] review Important_Formulas_en.txt: 2 issue(s): - The relation AM–GM–HM incorrectly states GM² = AM × HM as a general identity; it holds only for two nu
+10-10 07:21:26   [Probability] Practice_en_Set_04.txt try 3: rejected (parsed 22 questions, numbers 76…100)
 ```
