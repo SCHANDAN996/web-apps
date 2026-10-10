@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 11:55 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:29 AM
+**आख़िरी update:** 10-10-2026 12:01 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:29 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,13 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Awards (Graduation GK) | 🔧 सुधार रहा है | 0 मिनट |
-| W2 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 4 मिनट |
-| W3 | Chapter 15 Geometry (Graduation Maths) | 🔧 सुधार रहा है | 22 मिनट |
-| W4 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 25 मिनट |
-| W5 | Chapter 22 Calculus (Graduation Maths) | 🔧 सुधार रहा है | 9 मिनट |
-| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 25 मिनट |
-| W7 | Chapter 26 Permutation Combination (Graduation Maths) | 📤 push हो रहा है | 0 मिनट |
-| W8 | Chapter 27 Number Series (Graduation Maths) | ✍️ लिख रहा है | 25 मिनट |
+| W1 | Chapter 13 Awards (Graduation GK) | 🔧 सुधार रहा है | 6 मिनट |
+| W2 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 11 मिनट |
+| W3 | Chapter 15 Geometry (Graduation Maths) | 🔧 सुधार रहा है | 28 मिनट |
+| W4 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 31 मिनट |
+| W5 | Chapter 22 Calculus (Graduation Maths) | 🔧 सुधार रहा है | 5 मिनट |
+| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 31 मिनट |
+| W8 | Chapter 27 Number Series (Graduation Maths) | ✍️ लिख रहा है | 31 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -31,9 +30,9 @@
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 21 | 3 | 4 |
 | Graduation GK | 27 | 1 | 0 |
-| Graduation Reasoning | 18 | 0 | 12 |
+| Graduation Reasoning | 19 | 0 | 11 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **258** | **6** | **32** |
+| **कुल** | **259** | **6** | **31** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -43,15 +42,11 @@
 
 - Chapter 05 Percentage (Maths) — 2 बार
 - Chapter 13 Awards (GK) — 1 बार
+- Chapter 22 Calculus (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 11:34:27   [Probability] Practice_en_Set_02.txt try 1: rejected (parsed 22 questions, numbers 26…49)
-10-10 11:34:41   [Trigonometry] Practice_hi_Set_05.txt try 1: rejected (parsed 24 questions, numbers 101…124)
-10-10 11:36:05   [Number_Series] wrote Feynman_en.txt (3585 chars)
-10-10 11:37:34   [Geometry] repaired Content_hi.txt (7863 chars)
-10-10 11:38:31   [Probability] Practice_en_Set_02.txt try 2: rejected (parsed 23 questions, numbers 26…49)
 10-10 11:39:34   [Number_Series] wrote Flashcards_en.txt (3791 chars)
 10-10 11:39:50   [Trigonometry] Practice_hi_Set_05.txt try 2: rejected (parsed 24 questions, numbers 101…124)
 10-10 11:41:53   [Percentage] repaired Feynman_hi.txt (2010 chars)
@@ -87,4 +82,9 @@
 10-10 11:55:29 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_22_Calculus after 26 min: todo [] problems ['Feynman_hi.txt: Hindi file is mostly not in Hindi', 'Feynman_hi.txt: much shorter than the English section (7849 ']
 10-10 11:55:34   [Trigonometry] Practice_en_Set_06.txt try 2: rejected (parsed 0 questions, numbers -…-)
 10-10 11:55:36 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_22_Calculus (FIX: todo 0, problems 2)
+10-10 11:55:44 DONE Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_26_Permutation_Combination in 25 min → 06726a8a
+10-10 11:55:48 worker 6: nothing left
+10-10 11:56:04   [Number_Series] Practice_en_Set_02.txt try 1: rejected (Q39:leaked_reasoning)
+10-10 11:57:39   [Probability] Practice_en_Set_02.txt try 3: rejected (parsed 22 questions, numbers 26…50)
+10-10 11:58:18   [Linear_Programming] wrote Mind_Map.txt (2256 chars)
 ```
