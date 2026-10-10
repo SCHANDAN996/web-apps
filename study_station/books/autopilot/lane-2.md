@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 07:53 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
+**आख़िरी update:** 10-10-2026 08:07 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 06:03 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,12 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 23 Data Interpretation (Graduation Maths) | 📤 push हो रहा है | 0 मिनट |
-| W2 | Chapter 26 Permutation Combination (Graduation Maths) | 🔎 review हो रहा है | 9 मिनट |
-| W4 | Chapter 27 Number Series (Graduation Maths) | ✍️ लिख रहा है | 75 मिनट |
-| W5 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 28 मिनट |
-| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 89 मिनट |
-| W7 | Chapter 19 Trigonometry (Graduation Maths) | ✍️ लिख रहा है | 61 मिनट |
+| W2 | Chapter 26 Permutation Combination (Graduation Maths) | 🔎 review हो रहा है | 23 मिनट |
+| W4 | Chapter 27 Number Series (Graduation Maths) | ✍️ लिख रहा है | 88 मिनट |
+| W5 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 42 मिनट |
+| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 103 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -29,9 +27,9 @@
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 21 | 2 | 5 |
 | Graduation GK | 27 | 1 | 0 |
-| Graduation Reasoning | 14 | 0 | 16 |
+| Graduation Reasoning | 15 | 0 | 15 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **250** | **5** | **41** |
+| **कुल** | **251** | **5** | **40** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -48,32 +46,12 @@
 - Chapter 13 Awards (GK) — 2 बार
 - Chapter 22 Calculus (Maths) — 2 बार
 - Chapter 15 Geometry (Maths) — 2 बार
-- Chapter 19 Trigonometry (Maths) — 1 बार
+- Chapter 19 Trigonometry (Maths) — 2 बार
 - Chapter 26 Permutation Combination (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 07:28:30   [Data_Interpretation] review PYQ_en.txt: 1 issue(s): - Q5 answer is marked as (d) Neither, but the solution shows statement (2) is true, so the correct answer is (b) Only 2
-10-10 07:29:14   [Mixture_Alligation] review PYQ_hi.txt: 4 issue(s): - Heading "पृथ्थीकरण" is misspelled; the correct term is "पृथक्कीकरण" → Use "पृथक्कीकरण" instead of "पृथ्थीकरण".
-10-10 07:31:32   [Permutation_Combination] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-10-10 07:31:32   [Permutation_Combination] written 8, failed 1; AI calls today 210/100000
-10-10 07:31:32 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_26_Permutation_Combination after 66 min: todo ['Feynman_en.txt'] problems ['PYQ_hi.txt: Hindi file is mostly not in Hindi', 'PYQ_hi.txt: much shorter than the English section (514 vs 72']
-10-10 07:31:36 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_26_Permutation_Combination (TODO: todo 1, problems 2)
-10-10 07:33:05   [Data_Interpretation] review PYQ_hi.txt: 6 issue(s): - "THAT's" at start of section → Remove spurious text / replace with proper heading
-10-10 07:34:50   [Probability] Practice_en_Set_05.txt try 1: rejected (parsed 23 questions, numbers 101…125)
-10-10 07:34:53   [Trigonometry] Practice_hi_Set_05.txt try 2: rejected (parsed 24 questions, numbers 101…124)
-10-10 07:35:08   [Permutation_Combination] wrote Feynman_en.txt (3899 chars)
-10-10 07:35:08   [Permutation_Combination] written 1, failed 0; AI calls today 215/100000
-10-10 07:35:14   [Mixture_Alligation] review: 1 section(s) corrected, 0 failed
-10-10 07:35:14   [Mixture_Alligation] written 1, failed 0; AI calls today 216/100000
-10-10 07:35:36 DONE Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_13_Mixture_Alligation in 8 min → aeda2e9d
-10-10 07:35:40 worker 2: nothing left
-10-10 07:38:14   [Data_Interpretation] review Short_Tricks_hi.txt: 1 issue(s): - Invented exam statistic "30% DI सवाल दृश्य-अनुमान से हल!" → Remove the specific percentage claim or replace 
-10-10 07:38:54   [Linear_Programming] wrote Content_en.txt (48413 chars)
-10-10 07:39:06   [Probability] Practice_en_Set_05.txt try 2: rejected (parsed 23 questions, numbers 101…125)
-10-10 07:39:39   [Trigonometry] Practice_hi_Set_05.txt try 3: rejected (parsed 24 questions, numbers 101…124)
-10-10 07:41:25   [Number_Series] PYQ_hi.txt try 1: answer too long — asking for a tighter version
 10-10 07:42:53   [Probability] Practice_en_Set_05.txt try 3: rejected (parsed 21 questions, numbers 101…125)
 10-10 07:43:39   [Permutation_Combination] repaired PYQ_hi.txt (8803 chars)
 10-10 07:43:39   [Permutation_Combination] written 1, failed 0; AI calls today 224/100000
@@ -94,4 +72,24 @@
 10-10 07:52:59   [Probability] Practice_en_Set_06.txt try 1: rejected (parsed 23 questions, numbers 126…150)
 10-10 07:53:38   [Data_Interpretation] review: 9 section(s) corrected, 0 failed
 10-10 07:53:38   [Data_Interpretation] written 9, failed 0; AI calls today 243/100000
+10-10 07:53:57 DONE Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_23_Data_Interpretation in 101 min → 353af194
+10-10 07:54:01 worker 0: nothing left
+10-10 07:54:19   [Trigonometry] Practice_en_Set_06.txt try 2: rejected (parsed 24 questions, numbers 126…150)
+10-10 07:54:35   [Number_Series] wrote Short_Tricks_hi.txt (8816 chars)
+10-10 07:54:43   [Permutation_Combination] review PYQ_en.txt: 1 issue(s): - Q5: Option (b) is 604800 but the correct answer is 64800 → Option (b) should be 64800.
+10-10 07:56:20   [Linear_Programming] wrote Feynman_hi.txt (3836 chars)
+10-10 07:58:31   [Number_Series] wrote Important_Formulas_en.txt (3881 chars)
+10-10 07:59:03   [Trigonometry] Practice_en_Set_06.txt try 3: rejected (parsed 23 questions, numbers 126…150)
+10-10 08:00:48   [Linear_Programming] Mind_Map.txt try 1: rejected (no usable mermaid graph)
+10-10 08:02:21   [Number_Series] wrote Important_Formulas_hi.txt (4753 chars)
+10-10 08:02:58   [Trigonometry] Practice_en_Set_06.txt try 4: rejected (parsed 24 questions, numbers 126…150)
+10-10 08:02:58   [Trigonometry] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+10-10 08:02:58   [Trigonometry] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+10-10 08:02:58   [Trigonometry] written 2, failed 3; AI calls today 253/100000
+10-10 08:02:58 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_19_Trigonometry after 71 min: todo ['Set 05 hi: todo', 'Set 06 en: todo', 'Set 06 hi: todo'] problems []
+10-10 08:03:02 worker 6: nothing left
+10-10 08:03:22   [Probability] Practice_en_Set_06.txt try 2: rejected (parsed 23 questions, numbers 126…150)
+10-10 08:05:46   [Linear_Programming] Mind_Map.txt try 2: rejected (no usable mermaid graph)
+10-10 08:05:46   [Linear_Programming] REJECTED Mind_Map.txt: no usable mermaid graph — not written
+10-10 08:06:38   [Probability] Practice_en_Set_06.txt try 3: rejected (parsed 0 questions, numbers -…-)
 ```
