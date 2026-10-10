@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 10-10-2026 01:36 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:34 PM
+**आख़िरी update:** 10-10-2026 01:52 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:34 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W5 | Chapter 13 Mixture Alligation (12th Maths) | 🔎 review हो रहा है | 51 मिनट |
-| W6 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 62 मिनट |
+| W5 | Chapter 13 Mixture Alligation (12th Maths) | 🔎 review हो रहा है | 66 मिनट |
+| W6 | Chapter 20 Probability (12th Maths) | ✍️ लिख रहा है | 77 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -18,16 +18,16 @@
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 20 | 2 | 0 |
-| 10th English | 17 | 0 | 3 |
+| 10th English | 18 | 0 | 2 |
 | 12th Maths | 20 | 2 | 1 |
 | 12th GK | 22 | 2 | 0 |
 | 12th Reasoning | 19 | 0 | 6 |
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 21 | 0 | 7 |
 | Graduation GK | 27 | 0 | 1 |
-| Graduation Reasoning | 21 | 0 | 9 |
+| Graduation Reasoning | 22 | 0 | 8 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **262** | **6** | **28** |
+| **कुल** | **264** | **6** | **26** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
