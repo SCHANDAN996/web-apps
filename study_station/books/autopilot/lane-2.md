@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 01:48 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:29 AM
+**आख़िरी update:** 10-10-2026 02:04 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:29 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,10 +8,10 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 118 मिनट |
-| W3 | Chapter 15 Geometry (Graduation Maths) | 🔎 review हो रहा है | 58 मिनट |
-| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 138 मिनट |
-| W8 | Chapter 27 Number Series (Graduation Maths) | 🔎 review हो रहा है | 79 मिनट |
+| W2 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 133 मिनट |
+| W3 | Chapter 15 Geometry (Graduation Maths) | 🔎 review हो रहा है | 74 मिनट |
+| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 11 मिनट |
+| W8 | Chapter 27 Number Series (Graduation Maths) | 🔎 review हो रहा है | 95 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -20,7 +20,7 @@
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 20 | 2 | 0 |
-| 10th English | 17 | 0 | 3 |
+| 10th English | 18 | 0 | 2 |
 | 12th Maths | 19 | 0 | 4 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 19 | 0 | 6 |
@@ -29,7 +29,7 @@
 | Graduation GK | 27 | 1 | 0 |
 | Graduation Reasoning | 22 | 0 | 8 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **264** | **5** | **27** |
+| **कुल** | **265** | **5** | **26** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -42,29 +42,11 @@
 - Chapter 22 Calculus (Maths) — 2 बार
 - Chapter 19 Trigonometry (Maths) — 2 बार
 - Chapter 15 Geometry (Maths) — 1 बार
+- Chapter 25 Probability (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 12:36:04   [Trigonometry] Practice_hi_Set_05.txt try 4: rejected (parsed 24 questions, numbers 101…124)
-10-10 12:36:04   [Trigonometry] REJECTED Practice_hi_Set_05.txt: no translation passed the checks — not written
-10-10 12:38:38   [Probability] Practice_en_Set_04.txt try 1: rejected (parsed 24 questions, numbers 76…100)
-10-10 12:39:59   [Geometry] FAILED Short_Tricks_hi.txt: too_long
-10-10 12:39:59   [Geometry] written 1, failed 1; AI calls today 73/100000
-10-10 12:40:00 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_15_Geometry after 70 min: todo [] problems ['Short_Tricks_hi.txt: Hindi file is mostly not in Hindi']
-10-10 12:40:03 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_15_Geometry (FIX: todo 0, problems 1)
-10-10 12:41:08   [Trigonometry] Practice_en_Set_06.txt try 1: rejected (parsed 23 questions, numbers 126…150)
-10-10 12:43:46   [Linear_Programming] Practice_en_Set_02.txt try 2: re-solve disagrees (Q50 key d vs re-solve ?)
-10-10 12:44:09   [Geometry] repaired Short_Tricks_hi.txt (2096 chars)
-10-10 12:44:09   [Geometry] written 1, failed 0; AI calls today 77/100000
-10-10 12:46:01   [Trigonometry] Practice_en_Set_06.txt try 2: rejected (parsed 24 questions, numbers 126…150)
-10-10 12:49:56   [Geometry] repaired Short_Tricks_hi.txt (7591 chars)
-10-10 12:49:56   [Geometry] written 1, failed 0; AI calls today 83/100000
-10-10 12:50:19   [Trigonometry] Practice_en_Set_06.txt try 3: rejected (parsed 24 questions, numbers 126…150)
-10-10 12:53:57   [Number_Series] review Flashcards_hi.txt: 2 issue(s): - Card 13 claims “80% प्रश्न इन्हीं दो कदमों में हल हो जाते हैं” which is an invented exam statistic → Remove th
-10-10 12:53:59   [Linear_Programming] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-10-10 12:56:09   [Trigonometry] Practice_en_Set_06.txt try 4: rejected (parsed 24 questions, numbers 126…150)
-10-10 12:56:09   [Trigonometry] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
 10-10 12:56:09   [Trigonometry] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
 10-10 12:56:09   [Trigonometry] written 0, failed 3; AI calls today 94/100000
 10-10 12:56:09 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_19_Trigonometry after 39 min: todo ['Set 05 hi: todo', 'Set 06 en: todo', 'Set 06 hi: todo'] problems []
@@ -86,4 +68,23 @@
 10-10 13:35:00   [Probability] Practice_en_Set_06.txt try 1: rejected (parsed 24 questions, numbers 126…150)
 10-10 13:45:25   [Probability] Practice_en_Set_06.txt try 2: rejected (parsed 24 questions, numbers 126…150)
 10-10 13:46:38   [Geometry] review Flashcards_hi.txt: 1 issue(s): - कार्ड 1: '180° (अर्धवृत्त के कोण के बराबर)' incorrectly claims that the angle of a semicircle is 180°; the ang
+10-10 13:50:03   [Probability] Practice_en_Set_06.txt try 3: rejected (parsed 23 questions, numbers 126…150)
+10-10 13:52:48   [Probability] Practice_en_Set_06.txt try 4: rejected (parsed 23 questions, numbers 126…150)
+10-10 13:52:48   [Probability] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+10-10 13:52:48   [Probability] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+10-10 13:52:48   [Probability] written 0, failed 10; AI calls today 114/100000
+10-10 13:52:48 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability after 143 min: todo ['Set 02 en: todo', 'Set 02 hi: todo', 'Set 03 en: todo', 'Set 03 hi: todo'] problems ['Flashcards_hi.txt: Hindi file is mostly not in Hindi', 'Flashcards_hi.txt: much shorter than the English section (46', 'Short_Tricks_hi.txt: much shorter than the English section (']
+10-10 13:52:52 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability (TODO: todo 10, problems 3)
+10-10 13:54:58   [Probability] Practice_en_Set_02.txt try 1: rejected (parsed 23 questions, numbers 26…50)
+10-10 13:55:40   [Probability] Practice_en_Set_02.txt try 2: rejected (parsed 0 questions, numbers -…-)
+10-10 13:57:32   [Number_Series] review PYQ_hi.txt: 2 issue(s): - पहले अंतर, फिर गुणन, फिर वर्ग/घन — यह क्रम 90% श्रेणियों को 30 सेकंड में सुलझा देता है। → पहले अंतर, फिर गुणन, फिर वर
+10-10 13:57:44   [Linear_Programming] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+10-10 13:57:45   [Probability] Practice_en_Set_02.txt try 3: rejected (parsed 22 questions, numbers 26…50)
+10-10 13:59:20   [Probability] Practice_en_Set_02.txt try 4: rejected (parsed 22 questions, numbers 26…50)
+10-10 13:59:20   [Probability] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
+10-10 13:59:20   [Probability] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+10-10 14:00:55   [Linear_Programming] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+10-10 14:02:00   [Geometry] review Short_Tricks_en.txt: 1 issue(s): - Trick 6: The mnemonic "Odd-start triples: 3,5,7,8…" incorrectly includes 8 (even) and 20; the square-and-spl
+10-10 14:03:12   [Geometry] review Important_Formulas_en.txt: 1 issue(s): - File "Important_Formulas_en.txt" contains only a stream of numbers (mostly "1.") and a Thai character 
+10-10 14:03:48   [Linear_Programming] Practice_en_Set_04.txt try 1: rejected (Q80:leaked_reasoning,Q88:leaked_reasoning,Q92:answer_solution_conflict,Q94:leaked_reasoning,Q95:broken_questio
 ```
