@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 10-10-2026 05:17 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
+**आख़िरी update:** 10-10-2026 05:32 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 12:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,13 +8,13 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 96 मिनट |
-| W3 | Chapter 24 Statement Assumption (Graduation Reasoning) | ✍️ लिख रहा है | 75 मिनट |
-| W4 | Chapter 22 Figure Series (Graduation Reasoning) | ✍️ लिख रहा है | 220 मिनट |
-| W5 | Chapter 23 Syllogism (Graduation Reasoning) | ✍️ लिख रहा है | 210 मिनट |
-| W6 | Chapter 25 Statement Argument (Graduation Reasoning) | ✍️ लिख रहा है | 58 मिनट |
-| W7 | Chapter 27 Decision Making (Graduation Reasoning) | ✍️ लिख रहा है | 38 मिनट |
-| W8 | Chapter 26 Data Sufficiency (Graduation Reasoning) | ✍️ लिख रहा है | 49 मिनट |
+| W1 | Chapter 20 Mirror Water Images (Graduation Reasoning) | ✍️ लिख रहा है | 111 मिनट |
+| W3 | Chapter 24 Statement Assumption (Graduation Reasoning) | ✍️ लिख रहा है | 90 मिनट |
+| W4 | Chapter 22 Figure Series (Graduation Reasoning) | ✍️ लिख रहा है | 235 मिनट |
+| W5 | Chapter 23 Syllogism (Graduation Reasoning) | ✍️ लिख रहा है | 225 मिनट |
+| W6 | Chapter 25 Statement Argument (Graduation Reasoning) | ✍️ लिख रहा है | 73 मिनट |
+| W7 | Chapter 27 Decision Making (Graduation Reasoning) | ✍️ लिख रहा है | 54 मिनट |
+| W8 | Chapter 26 Data Sufficiency (Graduation Reasoning) | ✍️ लिख रहा है | 64 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -55,28 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 05:00:00   [Syllogism] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-10-10 05:00:09   [Statement_Assumption] Practice_en_Set_02.txt try 1: re-solve disagrees (Q45 key c vs re-solve a)
-10-10 05:00:37   [Mirror_Water_Images] Practice_en_Set_05.txt try 4: re-solve disagrees (Q114 key c vs re-solve b, Q117 key d vs re-solve c, Q124 key c vs re-solve b)
-10-10 05:00:37   [Mirror_Water_Images] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
-10-10 05:00:37   [Mirror_Water_Images] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
-10-10 05:00:57   [Statement_Argument] Practice_en_Set_01.txt try 2: re-solve disagrees (Q10 key a vs re-solve c, Q15 key a vs re-solve c, Q16 key b vs re-solve c)
-10-10 05:00:58   [Data_Sufficiency] wrote PYQ_en.txt (7270 chars)
-10-10 05:02:21   [Figure_Series] Practice_en_Set_03.txt try 3: re-solve disagrees (Q64 key a vs re-solve c)
-10-10 05:03:00   [Decision_Making] wrote Short_Tricks_hi.txt (6788 chars)
-10-10 05:04:24   [Syllogism] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-10-10 05:04:24   [Decision_Making] wrote Important_Rules_en.txt (594 chars)
-10-10 05:04:40   [Data_Sufficiency] PYQ_hi.txt try 1: rejected (too short)
-10-10 05:05:24   [Mirror_Water_Images] Practice_en_Set_06.txt try 1: rejected (Q148:leaked_reasoning)
-10-10 05:05:53   [Statement_Assumption] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-10-10 05:06:41   [Figure_Series] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-10-10 05:07:32   [Statement_Argument] Practice_en_Set_01.txt try 3: re-solve disagrees (Q13 key d vs re-solve c, Q15 key b vs re-solve a, Q22 key a vs re-solve c)
-10-10 05:08:09   [Data_Sufficiency] PYQ_hi.txt try 2: rejected (corrupted characters)
-10-10 05:08:09   [Data_Sufficiency] REJECTED PYQ_hi.txt: corrupted characters — not written
-10-10 05:08:28   [Decision_Making] wrote Important_Rules_hi.txt (465 chars)
-10-10 05:09:34   [Statement_Assumption] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-10-10 05:09:39   [Data_Sufficiency] wrote Short_Tricks_en.txt (5325 chars)
-10-10 05:10:56   [Decision_Making] Practice_en_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
 10-10 05:11:11   [Figure_Series] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 10-10 05:11:16   [Paper_Folding_Cutting] Practice_en_Set_06.txt try 4: re-solve disagrees (Q126 key b vs re-solve d, Q127 key c vs re-solve b, Q149 key b vs re-solve a)
 10-10 05:11:16   [Paper_Folding_Cutting] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
@@ -95,4 +73,26 @@
 10-10 05:16:19   [Data_Sufficiency] wrote Short_Tricks_hi.txt (6991 chars)
 10-10 05:16:47   [Mirror_Water_Images] Practice_en_Set_06.txt try 2: re-solve disagrees (Q135 key a vs re-solve d, Q137 key c vs re-solve ?, Q145 key b vs re-solve a, Q149 key a vs re-solve
 10-10 05:17:08   [Data_Sufficiency] wrote Important_Rules_en.txt (3959 chars)
+10-10 05:18:22   [Data_Sufficiency] wrote Important_Rules_hi.txt (3857 chars)
+10-10 05:19:04   [Decision_Making] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+10-10 05:19:45   [Statement_Argument] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+10-10 05:21:26   [Syllogism] Practice_en_Set_04.txt try 2: re-solve disagrees (Q76 key d vs re-solve b, Q81 key d vs re-solve b, Q82 key d vs re-solve a, Q91 key c vs re-solve d, 
+10-10 05:21:54   [Statement_Assumption] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+10-10 05:22:13   [Decision_Making] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+10-10 05:23:58   [Statement_Argument] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+10-10 05:24:20   [Figure_Series] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+10-10 05:24:46   [Mirror_Water_Images] Practice_en_Set_06.txt try 3: re-solve disagrees (Q135 key b vs re-solve d)
+10-10 05:26:33   [Statement_Assumption] Practice_en_Set_04.txt try 1: re-solve disagrees (Q76 key a vs re-solve b, Q77 key c vs re-solve d, Q87 key d vs re-solve c)
+10-10 05:26:58   [Statement_Argument] Practice_en_Set_03.txt try 1: re-solve disagrees (Q53 key d vs re-solve c)
+10-10 05:27:06   [Syllogism] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+10-10 05:28:15   [Decision_Making] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+10-10 05:29:08   [Figure_Series] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+10-10 05:29:55   [Syllogism] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+10-10 05:30:05   [Mirror_Water_Images] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+10-10 05:31:07   [Mirror_Water_Images] Practice_hi_Set_06.txt try 1: rejected (parsed 0 questions, numbers -…-)
+10-10 05:31:36   [Decision_Making] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+10-10 05:31:44   [Figure_Series] Practice_en_Set_05.txt try 1: rejected (Q101:leaked_reasoning,Q109:leaked_reasoning,Q116:leaked_reasoning,Q123:leaked_reasoning)
+10-10 05:32:19   [Data_Sufficiency] FAILED Practice_en_Set_01.txt: too_long
+10-10 05:32:19   [Data_Sufficiency] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
+10-10 05:32:38   [Mirror_Water_Images] Practice_hi_Set_06.txt try 2: rejected (parsed 0 questions, numbers -…-)
 ```
