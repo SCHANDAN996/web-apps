@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 10-10-2026 02:34 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:29 AM
+**आख़िरी update:** 10-10-2026 02:50 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 11:29 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 164 मिनट |
-| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 41 मिनट |
+| W2 | Chapter 28 Linear Programming (Graduation Maths) | ✍️ लिख रहा है | 179 मिनट |
+| W6 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 57 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -46,10 +46,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 13:52:48 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability after 143 min: todo ['Set 02 en: todo', 'Set 02 hi: todo', 'Set 03 en: todo', 'Set 03 hi: todo'] problems ['Flashcards_hi.txt: Hindi file is mostly not in Hindi', 'Flashcards_hi.txt: much shorter than the English section (46', 'Short_Tricks_hi.txt: much shorter than the English section (']
-10-10 13:52:52 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability (TODO: todo 10, problems 3)
-10-10 13:54:58   [Probability] Practice_en_Set_02.txt try 1: rejected (parsed 23 questions, numbers 26…50)
-10-10 13:55:40   [Probability] Practice_en_Set_02.txt try 2: rejected (parsed 0 questions, numbers -…-)
 10-10 13:57:32   [Number_Series] review PYQ_hi.txt: 2 issue(s): - पहले अंतर, फिर गुणन, फिर वर्ग/घन — यह क्रम 90% श्रेणियों को 30 सेकंड में सुलझा देता है। → पहले अंतर, फिर गुणन, फिर वर
 10-10 13:57:44   [Linear_Programming] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 10-10 13:57:45   [Probability] Practice_en_Set_02.txt try 3: rejected (parsed 22 questions, numbers 26…50)
@@ -86,4 +82,8 @@
 10-10 14:32:10   [Probability] Practice_en_Set_04.txt try 4: rejected (parsed 22 questions, numbers 76…100)
 10-10 14:32:10   [Probability] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
 10-10 14:32:10   [Probability] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
+10-10 14:37:19   [Probability] Practice_en_Set_05.txt try 1: rejected (parsed 21 questions, numbers 101…125)
+10-10 14:39:04   [Linear_Programming] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+10-10 14:41:42   [Probability] Practice_en_Set_05.txt try 2: rejected (parsed 23 questions, numbers 101…125)
+10-10 14:45:51   [Probability] Practice_en_Set_05.txt try 3: rejected (parsed 23 questions, numbers 101…125)
 ```
