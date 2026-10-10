@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 10-10-2026 11:49 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 10:31 AM
+**आख़िरी update:** 10-10-2026 12:04 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 10-10 10:31 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 16 मिनट |
+| W2 | Chapter 13 Dictionary Order (12th Reasoning) | ✍️ लिख रहा है | 31 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -22,11 +22,11 @@
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 19 | 4 | 2 |
 | 12th English | 25 | 0 | 0 |
-| Graduation Maths | 20 | 0 | 8 |
+| Graduation Maths | 21 | 0 | 7 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 19 | 0 | 11 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **258** | **6** | **32** |
+| **कुल** | **259** | **6** | **31** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -45,9 +45,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-10-10 11:11:27   [Mirror_Water_Images] repaired Flashcards_hi.txt (4488 chars)
-10-10 11:11:42   [Sitting_Arrangement] Practice_en_Set_02.txt try 1: re-solve disagrees (Q27 key a vs re-solve b, Q28 key d vs re-solve c, Q29 key a vs re-solve d, Q34 key a vs re-solve b, 
-10-10 11:11:50   [Sitting_Arrangement] Practice_en_Set_02.txt try 2: rejected (parsed 0 questions, numbers -…-)
 10-10 11:12:18   [Dictionary_Order] Practice_en_Set_03.txt try 4: re-solve disagrees (Q61 key c vs re-solve b, Q70 key a vs re-solve c, Q73 key c vs re-solve a)
 10-10 11:12:18   [Dictionary_Order] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
 10-10 11:12:18   [Dictionary_Order] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
@@ -85,4 +82,7 @@
 10-10 11:42:29   [Dictionary_Order] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
 10-10 11:42:48   [Dictionary_Order] Practice_en_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
 10-10 11:45:51   [Dictionary_Order] Practice_en_Set_03.txt try 2: rejected (Q60:leaked_reasoning,Q65:leaked_reasoning,Q69:leaked_reasoning,Q71:leaked_reasoning,Q73:leaked_reasoning)
+10-10 11:51:01   [Dictionary_Order] Practice_en_Set_03.txt try 3: re-solve disagrees (Q53 key c vs re-solve b)
+10-10 12:04:52   [Dictionary_Order] FAILED Practice_en_Set_03.txt: too_long
+10-10 12:04:52   [Dictionary_Order] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
 ```
