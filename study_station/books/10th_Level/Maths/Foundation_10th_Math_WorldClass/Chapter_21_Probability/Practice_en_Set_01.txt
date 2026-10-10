@@ -1,915 +1,151 @@
+Questions 1–20: Easy | Questions 21–25: Medium
+
 1. A fair coin is tossed once. What is the probability of getting a head?
-(A) 0  (B)
-1
-2
-2
-1
-	​
-
-  (C) 1  (D)
-1
-4
-4
-1
-	​
-
-Answer: (B)
-Solution: Total outcomes = {H, T} → 2. Favorable outcome (head) = 1. Probability =
-1
-2
-2
-1
-	​
-
-.
-Source: NCERT Class 10, Example 1.
-
-2. A fair coin is tossed once. What is the probability of getting a tail?
-(A)
-1
-2
-2
-1
-	​
-
-  (B) 0  (C) 1  (D)
-1
-3
-3
-1
-	​
-
-Answer: (A)
-Solution: Total outcomes = 2. Favorable (tail) = 1. Probability =
-1
-2
-2
-1
-	​
-
-.
-Source: NCERT Class 10, Ex 15.1 Q1.
-
-3. A die is thrown once. What is the probability of getting an even number?
-(A)
-1
-3
-3
-1
-	​
-
-  (B)
-1
-2
-2
-1
-	​
-
-  (C)
-2
-3
-3
-2
-	​
-
-  (D)
-1
-6
-6
-1
-	​
-
-Answer: (B)
-Solution: Sample space = {1,2,3,4,5,6} → 6 outcomes. Even numbers = {2,4,6} → 3. Probability =
-3
-6
-=
-1
-2
-6
-3
-	​
-
-=
-2
-1
-	​
-
-.
-Source: NCERT Class 10, Ex 15.1 Q2.
-
-4. A die is thrown once. What is the probability of getting a number greater than 4?
-(A)
-1
-6
-6
-1
-	​
-
-  (B)
-1
-3
-3
-1
-	​
-
-  (C)
-1
-2
-2
-1
-	​
-
-  (D)
-2
-3
-3
-2
-	​
-
-Answer: (B)
-Solution: Numbers greater than 4 are 5,6 → 2 outcomes out of 6. Probability =
-2
-6
-=
-1
-3
-6
-2
-	​
-
-=
-3
-1
-	​
-
-.
-Source: NCERT Class 10, Ex 15.1 Q3.
-
-5. One card is drawn from a well‑shuffled deck of 52 cards. Find the probability of getting a king.
-(A)
-1
-13
-13
-1
-	​
-
-  (B)
-4
-13
-13
-4
-	​
-
-  (C)
-1
-26
-26
-1
-	​
-
-  (D)
-1
-52
-52
-1
-	​
-
-Answer: (A)
-Solution: Total kings = 4. Probability =
-4
-52
-=
-1
-13
-52
-4
-	​
-
-=
-13
-1
-	​
-
-.
-Source: NCERT Class 10, Ex 15.1 Q14(i).
-
-6. One card is drawn from a deck of 52 cards. Find the probability of getting a red card.
-(A)
-1
-2
-2
-1
-	​
-
-  (B)
-1
-13
-13
-1
-	​
-
-  (C)
-2
-13
-13
-2
-	​
-
-  (D)
-3
-13
-13
-3
-	​
-
-Answer: (A)
-Solution: Total red cards = 26 (hearts + diamonds). Probability =
-26
-52
-=
-1
-2
-52
-26
-	​
-
-=
-2
-1
-	​
-
-.
-Source: NCERT Class 10, Ex 15.1 Q14(ii).
-
-7. A bag contains 3 red balls and 2 blue balls. One ball is drawn at random. What is the probability that it is red?
-(A)
-2
-5
-5
-2
-	​
-
-  (B)
-3
-5
-5
-3
-	​
-
-  (C)
-1
-2
-2
-1
-	​
-
-  (D)
-3
-10
-10
-3
-	​
-
-Answer: (B)
-Solution: Total balls = 3+2 = 5. Favorable red = 3. Probability =
-3
-5
-5
-3
-	​
-
-.
-Source: NCERT Class 10, Ex 15.1 Q5 (adapted).
-
-8. A bag contains 5 green and 3 yellow balls. One ball is drawn at random. Find the probability of drawing a yellow ball.
-(A)
-5
-8
-8
-5
-	​
-
-  (B)
-3
-8
-8
-3
-	​
-
-  (C)
-1
-2
-2
-1
-	​
-
-  (D)
-1
-8
-8
-1
-	​
-
-Answer: (B)
-Solution: Total balls = 8. Yellow = 3. Probability =
-3
-8
-8
-3
-	​
-
-.
-Source: Based on NCERT Class 10, Ex 15.1 Q4.
-
-9. Two fair coins are tossed together. Find the probability of getting exactly one head.
-(A)
-1
-4
-4
-1
-	​
-
-  (B)
-1
-2
-2
-1
-	​
-
-  (C)
-3
-4
-4
-3
-	​
-
-  (D) 1
-Answer: (B)
-Solution: Sample space = {HH, HT, TH, TT} → 4 outcomes. Exactly one head = {HT, TH} → 2. Probability =
-2
-4
-=
-1
-2
-4
-2
-	​
-
-=
-2
-1
-	​
-
-.
-Source: NCERT Class 10, Ex 15.1 Q7.
-
-10. Two fair coins are tossed simultaneously. What is the probability of getting at least one head?
-(A)
-1
-4
-4
-1
-	​
-
-  (B)
-1
-2
-2
-1
-	​
-
-  (C)
-3
-4
-4
-3
-	​
-
-  (D) 1
-Answer: (C)
-Solution: Total outcomes = 4. “At least one head” = all except TT. Favorable = {HH, HT, TH} → 3. Probability =
-3
-4
-4
-3
-	​
-
-.
-Source: NCERT Class 10, Ex 15.1 Q8.
-
-11. Two dice are thrown at the same time. Find the probability of getting a doublet (same number on both dice).
-(A)
-1
-6
-6
-1
-	​
-
-  (B)
-1
-12
-12
-1
-	​
-
-  (C)
-5
-36
-36
-5
-	​
-
-  (D)
-1
-3
-3
-1
-	​
-
-Answer: (A)
-Solution: Total outcomes = 36. Doublets: (1,1),(2,2),(3,3),(4,4),(5,5),(6,6) → 6. Probability =
-6
-36
-=
-1
-6
-36
-6
-	​
-
-=
-6
-1
-	​
-
-.
-Source: NCERT Class 10, Ex 15.1 Q13 (adapted).
-
-12. Two dice are thrown together. What is the probability that the sum of the numbers on the two faces is 8?
-(A)
-5
-36
-36
-5
-	​
-
-  (B)
-1
-6
-6
-1
-	​
-
-  (C)
-1
-12
-12
-1
-	​
-
-  (D)
-1
-9
-9
-1
-	​
-
-Answer: (A)
-Solution: Pairs summing to 8: (2,6),(3,5),(4,4),(5,3),(6,2) → 5 outcomes. Probability =
-5
-36
-36
-5
-	​
-
-.
-Source: NCERT Class 10, Ex 15.1 Q13 (adapted).
-
-13. Which of the following is the probability of a sure event?
-(A) 0  (B)
-1
-2
-2
-1
-	​
-
-  (C) 1  (D) Between 0 and 1
-Answer: (C)
-Solution: A sure event always occurs, so its probability is 1.
-Source: NCERT Class 10, Definition.
-
-14. The probability of an impossible event is:
-(A) 0  (B) 1  (C) 0.5  (D) Undefined
-Answer: (A)
-Solution: An impossible event cannot happen, so its probability is 0.
-Source: NCERT Class 10, Definition.
-
-15. A letter is chosen at random from the word “PROBABILITY”. Find the probability that the chosen letter is a vowel.
-(A)
-4
-11
-11
-4
-	​
-
-  (B)
-5
-11
-11
-5
-	​
-
-  (C)
-3
-11
-11
-3
-	​
-
-  (D)
-6
-11
-11
-6
-	​
-
-Answer: (A)
-Solution: Total letters = 11. Vowels O, A, I, I (O, A, I, I) — count: O(1), A(1), I(2) → 4 vowels. Probability =
-4
-11
-11
-4
-	​
-
-.
-Source: Based on NCERT Class 10, Ex 15.1 Q10.
-
-16. A number is chosen from the numbers 1 to 20 inclusive. Find the probability that it is a multiple of 3.
-(A)
-7
-20
-20
-7
-	​
-
-  (B)
-3
-10
-10
-3
-	​
-
-  (C)
-1
-4
-4
-1
-	​
-
-  (D)
-3
-20
-20
-3
-	​
-
-Answer: (B)
-Solution: Multiples of 3 between 1 and 20: 3,6,9,12,15,18 → 6 numbers. Probability =
-6
-20
-=
-3
-10
-20
-6
-	​
-
-=
-10
-3
-	​
-
-.
-Source: Based on NCERT Class 10, Ex 15.1 Q11.
-
-17. From a well‑shuffled deck of 52 cards, one card is drawn. Find the probability that it is a black queen.
-(A)
-1
-26
-26
-1
-	​
-
-  (B)
-1
-13
-13
-1
-	​
-
-  (C)
-1
-52
-52
-1
-	​
-
-  (D)
-2
-13
-13
-2
-	​
-
-Answer: (A)
-Solution: There are 2 black queens (♣Q and ♠Q) out of 52 cards. Probability =
-2
-52
-=
-1
-26
-52
-2
-	​
-
-=
-26
-1
-	​
-
-.
-Source: NCERT Class 10, Ex 15.1 Q14 (adapted).
-
-18. If P(E) = 0.65, what is P(not E)?
-(A) 0.35  (B) 0.45  (C) 0.55  (D) 0.25
-Answer: (A)
-Solution: P(not E) = 1 – P(E) = 1 – 0.65 = 0.35.
-Source: NCERT Class 10, Ex 15.1 Q5 (complement concept).
-
-19. A and B are mutually exclusive events. If P(A) = 0.3 and P(B) = 0.4, find P(A or B).
-(A) 0.12  (B) 0.7  (C) 0.1  (D) 0.58
-Answer: (B)
-Solution: For mutually exclusive events, P(A ∪ B) = P(A) + P(B) = 0.3 + 0.4 = 0.7.
-Source: NCERT Class 11 (Probability), but simplified.
-
-20. A bag contains 4 red and 5 black balls. One ball is drawn at random. What is the probability that the ball is not red?
-(A)
-4
-9
-9
-4
-	​
-
-  (B)
-5
-9
-9
-5
-	​
-
-  (C)
-1
-2
-2
-1
-	​
-
-  (D)
-4
-5
-5
-4
-	​
-
-Answer: (B)
-Solution: Not red means black. Total balls = 9, black = 5. Probability =
-5
-9
-9
-5
-	​
-
-.
-Source: Based on NCERT Class 10, Ex 15.1 Q5 (complement).
+(a) 0 (b) 1/2 (c) 1 (d) 1/4
+Answer: (b)
+Solution: The sample space is {H, T}, so there are 2 equally likely outcomes and 1 favourable outcome. The trap is option 1/4, which wrongly assumes four outcomes for one toss, so the answer is 1/2.
+Source: NCERT Class 10 Mathematics
+
+2. A fair die is thrown once. What is the probability of getting an even number?
+(a) 1/3 (b) 1/6 (c) 2/3 (d) 1/2
+Answer: (d)
+Solution: The sample space is {1,2,3,4,5,6} with 6 outcomes, and the even numbers are {2,4,6}, giving 3 favourable outcomes. The trap is 1/3, which forgets to divide by the total of 6, so the answer is 1/2.
+Source: NCERT Class 10 Mathematics
+
+3. A fair die is thrown once. What is the probability of getting a number greater than 4?
+(a) 1/6 (b) 1/2 (c) 1/3 (d) 2/3
+Answer: (c)
+Solution: Numbers greater than 4 are 5 and 6, so there are 2 favourable outcomes out of 6. The trap is 1/2, which comes from wrongly counting 4 as greater than 4, so the answer is 1/3.
+Source: NCERT Class 10 Mathematics
+
+4. One card is drawn from a well-shuffled deck of 52 cards. What is the probability of getting a king?
+(a) 1/13 (b) 4/13 (c) 1/26 (d) 1/52
+Answer: (a)
+Solution: There are 4 kings in 52 cards, so the probability is 4/52 = 1/13. The trap is 1/52, which counts only one king, so the answer is 1/13.
+Source: NCERT Class 10 Mathematics
+
+5. One card is drawn from a well-shuffled deck of 52 cards. What is the probability of getting a red card?
+(a) 1/2 (b) 2/13 (c) 1/4 (d) 1/13
+Answer: (a)
+Solution: There are 26 red cards (13 hearts and 13 diamonds) out of 52, giving 26/52 = 1/2. The trap is 1/4, which counts only one red suit, so the answer is 1/2.
+Source: NCERT Class 10 Mathematics
+
+6. A bag contains 3 red balls and 2 blue balls. One ball is drawn at random. What is the probability that it is red?
+(a) 2/5 (b) 1/2 (c) 3/10 (d) 3/5
+Answer: (d)
+Solution: Total balls = 3 + 2 = 5, and favourable red balls = 3, so the probability is 3/5. The trap is 2/5, which gives the probability of blue instead, so the answer is 3/5.
+Source: NCERT Class 10 Mathematics
+
+7. A bag contains 5 green and 3 yellow balls. One ball is drawn at random. What is the probability of drawing a yellow ball?
+(a) 5/8 (b) 1/2 (c) 3/8 (d) 1/8
+Answer: (c)
+Solution: Total balls = 5 + 3 = 8, and yellow balls = 3, so the probability is 3/8. The trap is 5/8, which is the probability of green, so the answer is 3/8.
+Source: NCERT Class 10 Mathematics
+
+8. Two fair coins are tossed together. What is the probability of getting exactly one head?
+(a) 1/4 (b) 1/2 (c) 3/4 (d) 1
+Answer: (b)
+Solution: The sample space is {HH, HT, TH, TT} with 4 outcomes, and exactly one head occurs in HT and TH, giving 2/4 = 1/2. The trap is 1/4, which counts only one of the two mixed outcomes, so the answer is 1/2.
+Source: NCERT Class 10 Mathematics
+
+9. Two fair coins are tossed simultaneously. What is the probability of getting at least one head?
+(a) 1/4 (b) 1/2 (c) 3/4 (d) 1
+Answer: (c)
+Solution: Of the 4 outcomes {HH, HT, TH, TT}, all except TT contain at least one head, giving 3/4. The trap is 1/2, which counts only the mixed outcomes and forgets HH, so the answer is 3/4.
+Source: NCERT Class 10 Mathematics
+
+10. Two dice are thrown at the same time. What is the probability of getting a doublet (same number on both dice)?
+(a) 1/6 (b) 1/12 (c) 5/36 (d) 1/3
+Answer: (a)
+Solution: There are 36 outcomes, and the doublets are (1,1), (2,2), (3,3), (4,4), (5,5), (6,6), giving 6/36 = 1/6. The trap is 1/12, which halves the correct count without reason, so the answer is 1/6.
+Source: NCERT Class 10 Mathematics
+
+11. Two dice are thrown together. What is the probability that the sum of the numbers is 8?
+(a) 1/9 (b) 1/6 (c) 1/12 (d) 5/36
+Answer: (d)
+Solution: The pairs summing to 8 are (2,6), (3,5), (4,4), (5,3), (6,2), which is 5 outcomes out of 36. The trap is 1/6, which wrongly counts 6 pairs, so the answer is 5/36.
+Source: NCERT Class 10 Mathematics
+
+12. What is the probability of a sure event?
+(a) 0 (b) 1 (c) 1/2 (d) Between 0 and 1
+Answer: (b)
+Solution: A sure event always occurs, so its probability equals 1. The trap is "between 0 and 1", which describes an ordinary random event, so the answer is 1.
+Source: NCERT Class 10 Mathematics
+
+13. The probability of an impossible event is:
+(a) Undefined (b) 1 (c) 1/2 (d) 0
+Answer: (d)
+Solution: An impossible event can never occur, so its probability is 0. The trap is "undefined", but probability is defined for every event, so the answer is 0.
+Source: NCERT Class 10 Mathematics
+
+14. A letter is chosen at random from the word "PROBABILITY". What is the probability that the chosen letter is a vowel?
+(a) 3/11 (b) 5/11 (c) 4/11 (d) 6/11
+Answer: (c)
+Solution: The word has 11 letters, and the vowels are O, A, I, I, which is 4 vowels, giving 4/11. The trap is 3/11, which counts the repeated I only once, so the answer is 4/11.
+Source: NCERT Class 10 Mathematics
+
+15. A number is chosen at random from the numbers 1 to 20 inclusive. What is the probability that it is a multiple of 3?
+(a) 3/10 (b) 7/20 (c) 1/4 (d) 3/20
+Answer: (a)
+Solution: The multiples of 3 from 1 to 20 are 3, 6, 9, 12, 15, 18, which is 6 numbers, giving 6/20 = 3/10. The trap is 7/20, which wrongly includes 21 or miscounts, so the answer is 3/10.
+Source: NCERT Class 10 Mathematics
+
+16. One card is drawn from a well-shuffled deck of 52 cards. What is the probability that it is a black queen?
+(a) 2/13 (b) 1/13 (c) 1/52 (d) 1/26
+Answer: (d)
+Solution: There are 2 black queens (queen of clubs and queen of spades) out of 52 cards, giving 2/52 = 1/26. The trap is 1/52, which counts only one black queen, so the answer is 1/26.
+Source: NCERT Class 10 Mathematics
+
+17. If P(E) = 0.65, what is the probability of "not E"?
+(a) 0.35 (b) 0.45 (c) 0.55 (d) 0.25
+Answer: (a)
+Solution: P(not E) = 1 − P(E) = 1 − 0.65 = 0.35. The trap is 0.45, which comes from a subtraction slip, so the answer is 0.35.
+Source: NCERT Class 10 Mathematics
+
+18. A and B are mutually exclusive events with P(A) = 0.3 and P(B) = 0.4. What is P(A or B)?
+(a) 0.12 (b) 0.7 (c) 0.1 (d) 0.58
+Answer: (b)
+Solution: For mutually exclusive events, P(A or B) = P(A) + P(B) = 0.3 + 0.4 = 0.7. The trap is 0.12, which multiplies the probabilities instead of adding, so the answer is 0.7.
+Source: NCERT Class 10 Mathematics
+
+19. A bag contains 4 red and 5 black balls. One ball is drawn at random. What is the probability that the ball is not red?
+(a) 5/9 (b) 4/9 (c) 1/2 (d) 4/5
+Answer: (a)
+Solution: "Not red" means black, and there are 5 black balls out of 9 total, giving 5/9. The trap is 4/9, which is the probability of red, so the answer is 5/9.
+Source: NCERT Class 10 Mathematics
+
+20. A fair die is thrown once. What is the probability of getting a prime number?
+(a) 1/3 (b) 2/3 (c) 1/2 (d) 1/6
+Answer: (c)
+Solution: The primes on a die are 2, 3, and 5, giving 3 favourable outcomes out of 6, so the probability is 1/2. The trap is 2/3, which wrongly counts 1 as prime, so the answer is 1/2.
+Source: NCERT Class 10 Mathematics
 
 21. Two coins are tossed simultaneously. What is the probability of getting at most one head?
-(A)
-1
-4
-4
-1
-	​
-
-  (B)
-1
-2
-2
-1
-	​
-
-  (C)
-3
-4
-4
-3
-	​
-
-  (D) 1
-Answer: (C)
-Solution: Total outcomes = 4: {HH, HT, TH, TT}. “At most one head” means 0 heads or 1 head. Favorable: HT, TH, TT → 3 outcomes. Probability =
-3
-4
-4
-3
-	​
-
-.
-Source: NCERT Class 10, Ex 15.1 Q8 (adapted).
+(a) 1/4 (b) 3/4 (c) 1/2 (d) 1
+Answer: (b)
+Solution: "At most one head" means 0 or 1 head, which covers HT, TH, and TT, giving 3 outcomes out of 4. The trap is 1/2, which excludes TT by misreading "at most" as "exactly one", so the answer is 3/4.
+Source: NCERT Class 10 Mathematics
 
 22. Two dice are rolled. What is the probability that the product of the numbers obtained is even?
-(A)
-1
-4
-4
-1
-	​
-
-  (B)
-3
-4
-4
-3
-	​
-
-  (C)
-1
-2
-2
-1
-	​
-
-  (D)
-5
-12
-12
-5
-	​
-
-Answer: (B)
-Solution: Total outcomes = 36. Product is odd only when both numbers are odd → each die has 3 odd numbers (1,3,5). Odd product outcomes = 3×3 = 9. So even product = 36 – 9 = 27. Probability =
-27
-36
-=
-3
-4
-36
-27
-	​
-
-=
-4
-3
-	​
-
-.
+(a) 1/4 (b) 5/12 (c) 1/2 (d) 3/4
+Answer: (d)
+Solution: The product is odd only when both dice show odd numbers, which happens in 3 × 3 = 9 of the 36 outcomes, so the product is even in 36 − 9 = 27 outcomes, giving 27/36 = 3/4. The trap is 1/2, which assumes even and odd products are equally likely, so the answer is 3/4.
 Source: PYQ-style
 
-23. A bag contains 3 red, 4 blue, and 5 green marbles. One marble is drawn at random. Find the probability that it is not green.
-(A)
-5
-12
-12
-5
-	​
+23. A bag contains 3 red, 4 blue, and 5 green marbles. One marble is drawn at random. What is the probability that it is not green?
+(a) 5/12 (b) 7/12 (c) 1/3 (d) 1/4
+Answer: (b)
+Solution: Total marbles = 3 + 4 + 5 = 12, and "not green" means red or blue, which is 3 + 4 = 7 marbles, giving 7/12. The trap is 5/12, which is the probability of green, so the answer is 7/12.
+Source: NCERT Class 10 Mathematics
 
-  (B)
-7
-12
-12
-7
-	​
-
-  (C)
-1
-3
-3
-1
-	​
-
-  (D)
-4
-12
-12
-4
-	​
-
-Answer: (B)
-Solution: Total marbles = 3+4+5 = 12. Not green = red or blue = 3+4 = 7. Probability =
-7
-12
-12
-7
-	​
-
-.
-Source: Based on NCERT Class 10, Ex 15.1 Q5.
-
-24. One card is drawn from a standard deck. Find the probability that it is either a king or a queen.
-(A)
-2
-13
-13
-2
-	​
-
-  (B)
-1
-13
-13
-1
-	​
-
-  (C)
-8
-13
-13
-8
-	​
-
-  (D)
-4
-13
-13
-4
-	​
-
-Answer: (A)
-Solution: Total kings = 4, total queens = 4. They are mutually exclusive. Favorable = 4+4 = 8. Probability =
-8
-52
-=
-2
-13
-52
-8
-	​
-
-=
-13
-2
-	​
-
-.
+24. One card is drawn from a standard deck of 52 cards. What is the probability that it is either a king or a queen?
+(a) 2/13 (b) 1/13 (c) 8/13 (d) 4/13
+Answer: (a)
+Solution: There are 4 kings and 4 queens, and the two events are mutually exclusive, so favourable cards = 8, giving 8/52 = 2/13. The trap is 4/13, which doubles the correct simplified fraction, so the answer is 2/13.
 Source: PYQ-style
 
 25. A box contains 2 red, 1 blue, and 1 green ball. Two balls are drawn at random without replacement. What is the probability that both are red?
-(A)
-1
-6
-6
-1
-	​
-
-  (B)
-1
-12
-12
-1
-	​
-
-  (C)
-1
-4
-4
-1
-	​
-
-  (D)
-1
-3
-3
-1
-	​
-
-Answer: (A)
-Solution: Total ways to choose 2 balls out of 4 =
-4
-𝐶
-2
-=
-6
-4
-C
-2
-	​
-
-=6. Favorable: both red = choosing 2 red from 2 red = 1 way. Probability =
-1
-6
-6
-1
-	​
-
-.
-Source: Bank Clerk Prelims 2020 (Simplified).
+(a) 1/12 (b) 1/6 (c) 1/4 (d) 1/3
+Answer: (b)
+Solution: The number of ways to choose 2 balls from 4 is 6, and only 1 of these pairs consists of both red balls, giving 1/6. The trap is 1/4, which multiplies 2/4 by 1/4 and wrongly assumes replacement, so the answer is 1/6.
+Source: PYQ-style

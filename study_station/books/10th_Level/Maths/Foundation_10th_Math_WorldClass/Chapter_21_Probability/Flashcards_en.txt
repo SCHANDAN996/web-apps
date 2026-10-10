@@ -1,79 +1,79 @@
-Flashcard 1
+Card 1
 Front: What two numbers bookmark the entire universe of probability, and what do they mean?
-Back: 0 means an impossible event (e.g., the sun rising in the west today). 1 means a certain event (e.g., you breathe in the next minute).
+Back: 0 means an impossible event (e.g., the sun rising in the west today). 1 means a certain event (e.g., getting a number less than 7 on a regular die).
 
-Flashcard 2
+Card 2
 Front: In plain English, how is the probability of an event calculated?
 Back: Probability = (Number of ways the event can happen) ÷ (Total number of possible outcomes).
 
-Flashcard 3
-Front: You toss a fair coin. What’s the sample space S?
+Card 3
+Front: You toss a fair coin. What's the sample space S?
 Back: S = {Head, Tail} — 2 outcomes.
 
-Flashcard 4
+Card 4
 Front: Two coins are tossed together. Why is the sample space {HH, HT, TH, TT} and not just {two heads, one head, no heads}?
 Back: Because HT and TH are two distinct, equally likely outcomes — order matters for counting equally likely possibilities.
 
-Flashcard 5
+Card 5
 Front: If an event E has probability 0.7, what is the probability that E does not occur?
 Back: 0.3. P(not E) = 1 – P(E) = 1 – 0.7 = 0.3.
 
-Flashcard 6
+Card 6
 Front: Two events are mutually exclusive. If P(A) = 0.2 and P(B) = 0.5, what is P(A or B)?
 Back: 0.7. For mutually exclusive events, P(A or B) = P(A) + P(B) = 0.2 + 0.5 = 0.7.
 
-Flashcard 7
-Front: What does 2ⁿ give you when you’re dealing with coin problems?
+Card 7
+Front: What does 2ⁿ give you when you're dealing with coin problems?
 Back: The total number of possible outcomes when tossing n fair coins. For 3 coins, 2³ = 8 outcomes.
 
-Flashcard 8
+Card 8
 Front: When rolling two dice, what is the total number of possible outcomes?
 Back: 6 × 6 = 36 outcomes.
 
-Flashcard 9
+Card 9
 Front: Why is the probability of getting a sum of 7 with two dice exactly 1/6?
 Back: Sum = 7 can occur in 6 ways (1+6, 2+5, 3+4, 4+3, 5+2, 6+1) out of 36 total outcomes. 6/36 = 1/6.
 
-Flashcard 10
+Card 10
 Front: From a standard deck of 52 cards, what is the probability of drawing a black queen?
 Back: There are 2 black queens (Queen of Clubs ♣Q, Queen of Spades ♠Q), so P = 2/52 = 1/26.
 
-Flashcard 11
-Front: What is a “sure event” and what is its probability?
+Card 11
+Front: What is a "sure event" and what is its probability?
 Back: An event that always happens — probability = 1. Example: Getting a number less than 7 on a regular die.
 
-Flashcard 12
-Front: What is a “complementary event”? Give an example.
-Back: The complement of event E is “E does not happen”. If E = getting a 5 on a die, then not E = not getting a 5.
+Card 12
+Front: What is a "complementary event"? Give an example.
+Back: The complement of event E is "E does not happen". If E = getting a 5 on a die, then not E = not getting a 5.
 
-Flashcard 13
-Front: You’re asked for the probability of “at least one head” in 3 coin tosses. What’s the smart one‑line trick?
-Back: Use “1 – P(no head at all)”. P(all tails) = (1/2)³ = 1/8, so P(at least one head) = 1 – 1/8 = 7/8.
+Card 13
+Front: You're asked for the probability of "at least one head" in 3 coin tosses. What's the smart one-line trick?
+Back: Use "1 – P(no head at all)". P(all tails) = (1/2)³ = 1/8, so P(at least one head) = 1 – 1/8 = 7/8.
 
-Flashcard 14
-Front: What is the “One Minus None” trick for “at least one” problems?
-Back: P(at least one success) = 1 – P(all failures). Count the chance of the do‑nothing, then subtract from 1.
+Card 14
+Front: What is the "One Minus None" trick for "at least one" problems?
+Back: P(at least one success) = 1 – P(all failures). Count the chance of the do-nothing, then subtract from 1.
 
-Flashcard 15
-Front: Recall the “Pizza Is PIE, Eat In” mnemonic. What do P, I, and E stand for?
+Card 15
+Front: Recall the "Pizza Is PIE, Eat In" mnemonic. What do P, I, and E stand for?
 Back: P = Probability, I = Interested (favorable) outcomes, E = Every outcome. The formula stays Inside the sample space.
 
-Flashcard 16
-Front: How does the “Pizza PIE” mnemonic help you remember the probability formula?
-Back: It reminds you: Probability = Interested outcomes / Every outcome, and that the calculation is always within the sample space (“Eat In”).
+Card 16
+Front: How does the "Pizza PIE" mnemonic help you remember the probability formula?
+Back: It reminds you: Probability = Interested outcomes / Every outcome, and that the calculation is always within the sample space ("Eat In").
 
-Flashcard 17
+Card 17
 Front: A die is rolled twice. Find P(at least one 6) using the complement trick.
 Back: P(no 6 in one roll) = 5/6. P(no 6 in two rolls) = (5/6)×(5/6) = 25/36. So P(at least one 6) = 1 – 25/36 = 11/36.
 
-Flashcard 18
+Card 18
 Front: What is the fastest way to calculate the probability that something happens at least once?
-Back: Calculate the probability it never happens, then subtract from 1. That’s the “One Minus None” dance.
+Back: Calculate the probability it never happens, then subtract from 1. That's the "One Minus None" dance.
 
-Flashcard 19
+Card 19
 Front: What is the probability of drawing a face card from a deck of 52 cards?
 Back: 12 face cards (Jack, Queen, King × 4 suits) → 12/52 = 3/13.
 
-Flashcard 20
+Card 20
 Front: Two events cannot both happen in a single trial. What are they called, and their probability rule?
 Back: Mutually exclusive events. P(A or B) = P(A) + P(B).

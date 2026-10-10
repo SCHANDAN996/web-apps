@@ -1,935 +1,151 @@
+Questions 76–95: Easy | Questions 96–100: Medium
+
 76. A fair coin is tossed 3 times. What is the probability of getting at least 2 heads?
-(A)
-1
-2
-2
-1
-	​
+(a) 5/8 (b) 3/8 (c) 1/4 (d) 1/2
+Answer: (d)
+Solution: Total outcomes = 2³ = 8. Favourable: exactly 2 heads (HHT, HTH, THH = 3 ways) plus 3 heads (HHH = 1 way) = 4 ways. The trap is counting only the 3 two-head cases and getting 3/8, so the answer is 1/2.
+Source: NCERT Class 10 Mathematics
 
-  (B)
-3
-8
-8
-3
-	​
-
-  (C)
-1
-4
-4
-1
-	​
-
-  (D)
-5
-8
-8
-5
-	​
-
-Answer: (A)
-Solution: Total outcomes = 2³ = 8. Favorable: 2 heads (3 ways: HHT, HTH, THH) + 3 heads (1 way: HHH) = 4 ways. Probability = 4/8 = 1/2.
-Source: NCERT Class 10, Ex 15.1 Q8 (adapted).
-
-77. A bag contains 4 red, 3 blue, and 2 green balls. Two balls are drawn at random without replacement. Find the probability that both are blue.
-(A)
-1
-12
-12
-1
-	​
-
-  (B)
-1
-6
-6
-1
-	​
-
-  (C)
-1
-4
-4
-1
-	​
-
-  (D)
-2
-9
-9
-2
-	​
-
-Answer: (A)
-Solution: Total balls = 9. Total ways to draw 2 =
-9
-𝐶
-2
-=
-36
-9
-C
-2
-	​
-
-=36. Ways to draw 2 blue from 3 =
-3
-𝐶
-2
-=
-3
-3
-C
-2
-	​
-
-=3. Probability = 3/36 = 1/12.
-Source: Bank Clerk Prelims 2020 (Memory Based).
+77. A bag contains 4 red, 3 blue and 2 green balls. Two balls are drawn at random without replacement. Find the probability that both are blue.
+(a) 1/4 (b) 1/6 (c) 1/12 (d) 2/9
+Answer: (c)
+Solution: Total balls = 9, so total ways to draw 2 = 9C2 = 36. Ways to draw 2 blue from 3 = 3C2 = 3, giving 3/36. The trap is computing (3/9)×(3/9) = 1/9 as if replacement occurred, so the answer is 1/12.
+Source: NCERT Class 11 Mathematics
 
 78. Two dice are rolled. What is the probability that the sum is 11?
-(A)
-1
-12
-12
-1
-	​
-
-  (B)
-1
-18
-18
-1
-	​
-
-  (C)
-1
-36
-36
-1
-	​
-
-  (D)
-5
-36
-36
-5
-	​
-
-Answer: (B)
-Solution: Total outcomes = 36. Pairs for sum 11: (5,6), (6,5) → 2 outcomes. Probability = 2/36 = 1/18.
-Source: NCERT Class 10, Ex 15.1 Q13.
+(a) 1/12 (b) 1/36 (c) 1/18 (d) 5/36
+Answer: (c)
+Solution: Total outcomes = 36. Pairs giving sum 11 are (5,6) and (6,5), i.e. 2 outcomes. The trap is counting only one ordered pair and getting 1/36, so the answer is 1/18.
+Source: NCERT Class 10 Mathematics
 
 79. One card is drawn from a standard deck of 52 cards. What is the probability that it is a black king?
-(A)
-1
-13
-13
-1
-	​
+(a) 1/13 (b) 1/26 (c) 1/52 (d) 2/13
+Answer: (b)
+Solution: Black kings are the king of spades and the king of clubs, i.e. 2 cards, giving 2/52. The trap is counting all 4 kings and getting 1/13, so the answer is 1/26.
+Source: NCERT Class 10 Mathematics
 
-  (B)
-1
-26
-26
-1
-	​
+80. If P(E) = 3/8, what is P(not E)?
+(a) 3/8 (b) 1/2 (c) 7/8 (d) 5/8
+Answer: (d)
+Solution: P(not E) = 1 − P(E) = 1 − 3/8. The trap is subtracting from the wrong base or simply repeating 3/8, so the answer is 5/8.
+Source: NCERT Class 10 Mathematics
 
-  (C)
-1
-52
-52
-1
-	​
-
-  (D)
-2
-13
-13
-2
-	​
-
-Answer: (B)
-Solution: Black kings: King of Spades, King of Clubs → 2. Probability = 2/52 = 1/26.
-Source: NCERT Class 10, Ex 15.1 Q14 (adapted).
-
-80. If P(E) =
-3
-8
-8
-3
-	​
-
-, what is P(not E)?
-(A)
-3
-8
-8
-3
-	​
-
-  (B)
-1
-2
-2
-1
-	​
-
-  (C)
-5
-8
-8
-5
-	​
-
-  (D)
-7
-8
-8
-7
-	​
-
-Answer: (C)
-Solution: P(not E) = 1 – P(E) = 1 – 3/8 = 5/8.
-Source: NCERT Class 10, Ex 15.1 Q5 (complement).
-
-81. A bag contains 5 green and 7 yellow marbles. One marble is drawn. Find the probability it is not yellow.
-(A)
-5
-12
-12
-5
-	​
-
-  (B)
-7
-12
-12
-7
-	​
-
-  (C)
-1
-2
-2
-1
-	​
-
-  (D)
-5
-7
-7
-5
-	​
-
-Answer: (A)
-Solution: Total = 12. Not yellow means green = 5. Probability = 5/12.
-Source: NCERT Class 10, Ex 15.1 Q5 (adapted).
+81. A bag contains 5 green and 7 yellow marbles. One marble is drawn. Find the probability that it is not yellow.
+(a) 5/7 (b) 7/12 (c) 1/2 (d) 5/12
+Answer: (d)
+Solution: Total marbles = 12; not yellow means green, which is 5 marbles. The trap is using 7 as the denominator and getting 5/7, so the answer is 5/12.
+Source: NCERT Class 10 Mathematics
 
 82. Two coins are tossed. Find the probability of getting exactly one tail.
-(A)
-1
-4
-4
-1
-	​
-
-  (B)
-1
-2
-2
-1
-	​
-
-  (C)
-3
-4
-4
-3
-	​
-
-  (D) 1
-Answer: (B)
-Solution: Outcomes: HH, HT, TH, TT. Exactly one tail: HT, TH → 2 outcomes. Probability = 2/4 = 1/2.
-Source: NCERT Class 10, Ex 15.1 Q7.
+(a) 1/4 (b) 1/2 (c) 3/4 (d) 1/3
+Answer: (b)
+Solution: Outcomes are HH, HT, TH, TT; exactly one tail occurs in HT and TH, i.e. 2 of 4. The trap is treating HT and TH as the same outcome and getting 1/3, so the answer is 1/2.
+Source: NCERT Class 10 Mathematics
 
 83. Three unbiased coins are tossed. What is the probability of getting all heads?
-(A)
-1
-4
-4
-1
-	​
-
-  (B)
-1
-8
-8
-1
-	​
-
-  (C)
-3
-8
-8
-3
-	​
-
-  (D)
-1
-2
-2
-1
-	​
-
-Answer: (B)
-Solution: Total outcomes = 8. Only HHH is favorable → 1 way. Probability = 1/8.
-Source: NCERT Class 10, Ex 15.1 Q7 (three coins).
+(a) 1/4 (b) 1/8 (c) 3/8 (d) 1/6
+Answer: (b)
+Solution: Total outcomes = 2³ = 8, and only HHH is favourable. The trap is dividing by 2×3 = 6 and getting 1/6, so the answer is 1/8.
+Source: NCERT Class 10 Mathematics
 
 84. Two dice are thrown simultaneously. Find the probability that both dice show the same number.
-(A)
-1
-6
-6
-1
-	​
+(a) 1/9 (b) 1/12 (c) 5/36 (d) 1/6
+Answer: (d)
+Solution: Total outcomes = 36; doublets are (1,1) to (6,6), i.e. 6 outcomes, giving 6/36. The trap is counting 12 outcomes by doubling the doublets, so the answer is 1/6.
+Source: NCERT Class 10 Mathematics
 
-  (B)
-1
-12
-12
-1
-	​
-
-  (C)
-5
-36
-36
-5
-	​
-
-  (D)
-1
-9
-9
-1
-	​
-
-Answer: (A)
-Solution: Total outcomes = 36. Doublets: (1,1) to (6,6) → 6 outcomes. Probability = 6/36 = 1/6.
-Source: NCERT Class 10, Ex 15.1 Q13 (adapted).
-
-85. A card is drawn from a deck. What is the probability it is either a heart or a king?
-(A)
-1
-13
-13
-1
-	​
-
-  (B)
-4
-13
-13
-4
-	​
-
-  (C)
-17
-52
-52
-17
-	​
-
-  (D)
-9
-26
-26
-9
-	​
-
-Answer: (B)
-Solution: Hearts = 13, Kings = 4. Overlap (King of Hearts) = 1. Favorable = 13 + 4 – 1 = 16. Probability = 16/52 = 4/13.
-Source: PYQ-style
+85. A card is drawn from a deck of 52 cards. What is the probability that it is either a heart or a king?
+(a) 1/13 (b) 17/52 (c) 4/13 (d) 9/26
+Answer: (c)
+Solution: Hearts = 13, kings = 4, overlap (king of hearts) = 1, so favourable = 13 + 4 − 1 = 16, giving 16/52. The trap is forgetting the overlap and getting 17/52, so the answer is 4/13.
+Source: NCERT Class 11 Mathematics
 
 86. A box contains 6 red and 4 blue balls. Two balls are drawn at random with replacement. What is the probability that both are red?
-(A)
-9
-25
-25
-9
-	​
+(a) 9/25 (b) 3/5 (c) 2/5 (d) 1/3
+Answer: (a)
+Solution: P(red) = 6/10 = 3/5; with replacement the draws are independent, so P(both red) = (3/5)×(3/5). The trap is using without-replacement logic and getting 1/3, so the answer is 9/25.
+Source: NCERT Class 11 Mathematics
 
-  (B)
-3
-5
-5
-3
-	​
-
-  (C)
-2
-5
-5
-2
-	​
-
-  (D)
-1
-3
-3
-1
-	​
-
-Answer: (A)
-Solution: P(red) = 6/10 = 3/5. With replacement, P(both red) = (3/5)×(3/5) = 9/25.
-Source: Bank Clerk Prelims 2021 (Memory Based).
-
-87. A bag contains 4 red, 5 black balls. Two balls are drawn without replacement. Find the probability that both are black.
-(A)
-5
-18
-18
-5
-	​
-
-  (B)
-1
-3
-3
-1
-	​
-
-  (C)
-2
-9
-9
-2
-	​
-
-  (D)
-4
-9
-9
-4
-	​
-
-Answer: (A)
-Solution: Total = 9. Total ways =
-9
-𝐶
-2
-=
-36
-9
-C
-2
-	​
-
-=36. Favorable =
-5
-𝐶
-2
-=
-10
-5
-C
-2
-	​
-
-=10. Probability = 10/36 = 5/18.
-Source: PYQ-style
+87. A bag contains 4 red and 5 black balls. Two balls are drawn without replacement. Find the probability that both are black.
+(a) 1/3 (b) 5/18 (c) 2/9 (d) 4/9
+Answer: (b)
+Solution: Total = 9 balls; total ways = 9C2 = 36, favourable = 5C2 = 10, giving 10/36. The trap is squaring 5/9 as if replacement occurred and getting 25/81-style errors near 4/9, so the answer is 5/18.
+Source: NCERT Class 11 Mathematics
 
 88. Two dice are rolled. What is the probability that the sum is at least 10?
-(A)
-1
-12
-12
-1
-	​
+(a) 1/12 (b) 5/36 (c) 1/6 (d) 1/9
+Answer: (c)
+Solution: Sum ≥ 10 means sums 10, 11, 12 with 3 + 2 + 1 = 6 outcomes out of 36. The trap is counting only sums 11 and 12 and getting 1/12, so the answer is 1/6.
+Source: NCERT Class 10 Mathematics
 
-  (B)
-1
-6
-6
-1
-	​
+89. A letter is chosen at random from the word "PROBABILITY". What is the probability that it is a vowel?
+(a) 6/11 (b) 5/11 (c) 3/11 (d) 4/11
+Answer: (d)
+Solution: The word has 11 letters; vowels are O, A, I, I, i.e. 4. The trap is counting Y as a vowel and getting 5/11, so the answer is 4/11.
+Source: NCERT Class 10 Mathematics
 
-  (C)
-5
-36
-36
-5
-	​
-
-  (D)
-1
-9
-9
-1
-	​
-
-Answer: (B)
-Solution: Sum ≥ 10: 10, 11, 12. Ways: 10→3, 11→2, 12→1 → total 6. Probability = 6/36 = 1/6.
-Source: NCERT Class 10, Ex 15.1 Q13 (concept).
-
-89. A letter is chosen from the word "PROBABILITY". What is the probability it is a vowel?
-(A)
-4
-11
-11
-4
-	​
-
-  (B)
-5
-11
-11
-5
-	​
-
-  (C)
-3
-11
-11
-3
-	​
-
-  (D)
-6
-11
-11
-6
-	​
-
-Answer: (A)
-Solution: Letters: P,R,O,B,A,B,I,L,I,T,Y → 11. Vowels: O, A, I, I → 4. Probability = 4/11.
-Source: NCERT Class 10, Ex 15.1 Q10.
-
-90. A number is selected from 1 to 20. What is the probability it is a prime number?
-(A)
-2
-5
-5
-2
-	​
-
-  (B)
-9
-20
-20
-9
-	​
-
-  (C)
-1
-2
-2
-1
-	​
-
-  (D)
-7
-20
-20
-7
-	​
-
-Answer: (A)
-Solution: Primes up to 20: 2,3,5,7,11,13,17,19 → 8 numbers. Probability = 8/20 = 2/5.
-Source: NCERT Class 10, Ex 15.1 Q11 (adapted).
+90. A number is selected at random from 1 to 20. What is the probability that it is a prime number?
+(a) 2/5 (b) 9/20 (c) 1/2 (d) 7/20
+Answer: (a)
+Solution: Primes up to 20 are 2, 3, 5, 7, 11, 13, 17, 19, i.e. 8 numbers, giving 8/20. The trap is counting 1 as prime and getting 9/20, so the answer is 2/5.
+Source: NCERT Class 10 Mathematics
 
 91. Three coins are tossed. Find the probability of getting exactly two tails.
-(A)
-1
-8
-8
-1
-	​
+(a) 3/8 (b) 1/8 (c) 1/2 (d) 5/8
+Answer: (a)
+Solution: Total outcomes = 8; exactly two tails occurs in TTH, THT, HTT, i.e. 3 outcomes. The trap is counting only one arrangement and getting 1/8, so the answer is 3/8.
+Source: NCERT Class 10 Mathematics
 
-  (B)
-3
-8
-8
-3
-	​
-
-  (C)
-1
-2
-2
-1
-	​
-
-  (D)
-5
-8
-8
-5
-	​
-
-Answer: (B)
-Solution: Total outcomes = 8. Exactly two tails: TTH, THT, HTT → 3 outcomes. Probability = 3/8.
-Source: NCERT Class 10, Ex 15.1 Q7 (three coins).
-
-92. A die is thrown once. Find the probability of getting a number that is either a multiple of 2 or 3.
-(A)
-1
-3
-3
-1
-	​
-
-  (B)
-2
-3
-3
-2
-	​
-
-  (C)
-5
-6
-6
-5
-	​
-
-  (D)
-1
-2
-2
-1
-	​
-
-Answer: (B)
-Solution: Multiples of 2: {2,4,6} → 3. Multiples of 3: {3,6} → 2. Overlap: {6} → 1. Favorable = 3+2-1 = 4. Probability = 4/6 = 2/3.
-Source: NCERT Class 10, Ex 15.1 Q2 (concept).
+92. A die is thrown once. Find the probability of getting a number that is a multiple of 2 or 3.
+(a) 1/3 (b) 2/3 (c) 5/6 (d) 1/2
+Answer: (b)
+Solution: Multiples of 2 are {2,4,6}, of 3 are {3,6}; union = {2,3,4,6}, i.e. 4 outcomes, giving 4/6. The trap is adding 3 + 2 = 5 without removing the overlap 6 and getting 5/6, so the answer is 2/3.
+Source: NCERT Class 10 Mathematics
 
 93. Two cards are drawn from a deck of 52 without replacement. What is the probability that both are queens?
-(A)
-1
-221
-221
-1
-	​
+(a) 1/169 (b) 2/221 (c) 1/221 (d) 4/221
+Answer: (c)
+Solution: Total ways = 52C2 = 1326; ways to pick 2 queens from 4 = 4C2 = 6, giving 6/1326. The trap is using with-replacement multiplication (4/52)×(4/52) = 1/169, so the answer is 1/221.
+Source: NCERT Class 11 Mathematics
 
-  (B)
-2
-221
-221
-2
-	​
-
-  (C)
-1
-169
-169
-1
-	​
-
-  (D)
-4
-221
-221
-4
-	​
-
-Answer: (A)
-Solution: Total ways =
-52
-𝐶
-2
-=
-1326
-52
-C
-2
-	​
-
-=1326. Ways to choose 2 queens from 4 =
-4
-𝐶
-2
-=
-6
-4
-C
-2
-	​
-
-=6. Probability = 6/1326 = 1/221.
-Source: Bank PO Mains 2018 (Memory Based).
-
-94. A bag contains 3 red, 4 white, and 2 blue balls. Two balls are drawn at random. What is the probability that one is red and the other blue?
-(A)
-1
-6
-6
-1
-	​
-
-  (B)
-1
-12
-12
-1
-	​
-
-  (C)
-1
-9
-9
-1
-	​
-
-  (D)
-2
-9
-9
-2
-	​
-
-Answer: (A)
-Solution: Total balls = 9. Total ways =
-9
-𝐶
-2
-=
-36
-9
-C
-2
-	​
-
-=36. Favorable: 1 red (3 choices) and 1 blue (2 choices) = 3×2 = 6. Probability = 6/36 = 1/6.
-Source: PYQ-style
+94. A bag contains 3 red, 4 white and 2 blue balls. Two balls are drawn at random. What is the probability that one is red and the other blue?
+(a) 1/6 (b) 1/12 (c) 1/9 (d) 2/9
+Answer: (a)
+Solution: Total = 9 balls, total ways = 9C2 = 36; favourable = 3 × 2 = 6, giving 6/36. The trap is forgetting that the pair can occur in either order and halving to 1/12, so the answer is 1/6.
+Source: NCERT Class 11 Mathematics
 
 95. A fair coin is tossed 4 times. What is the probability of getting at most 1 head?
-(A)
-5
-16
-16
-5
-	​
-
-  (B)
-3
-8
-8
-3
-	​
-
-  (C)
-1
-4
-4
-1
-	​
-
-  (D)
-1
-16
-16
-1
-	​
-
-Answer: (A)
-Solution: Total outcomes = 16. At most 1 head: 0 heads (TTTT) → 1, 1 head → 4 ways (HTTT, THTT, TTHT, TTTH). Total favorable = 5. Probability = 5/16.
-Source: NCERT Class 11, Ex 14.2 (adapted).
+(a) 5/16 (b) 3/8 (c) 1/4 (d) 1/16
+Answer: (a)
+Solution: Total outcomes = 16; at most 1 head means 0 heads (1 way) or 1 head (4 ways) = 5 ways. The trap is counting only the all-tails case and getting 1/16, so the answer is 5/16.
+Source: NCERT Class 11 Mathematics
 
 96. Two dice are thrown. Find the probability that the sum is an odd number.
-(A)
-1
-2
-2
-1
-	​
+(a) 7/12 (b) 5/12 (c) 1/2 (d) 1/3
+Answer: (c)
+Solution: The sum is odd when one die is even and the other odd: 3×3 + 3×3 = 18 outcomes out of 36. The trap is assuming odd sums are rarer and picking 1/3, so the answer is 1/2.
+Source: NCERT Class 10 Mathematics
 
-  (B)
-5
-12
-12
-5
-	​
-
-  (C)
-7
-12
-12
-7
-	​
-
-  (D)
-1
-3
-3
-1
-	​
-
-Answer: (A)
-Solution: Total outcomes = 36. Odd sum when one die even, one odd. Number of pairs: (even, odd) = 3×3=9, (odd, even)=3×3=9, total 18. Probability = 18/36 = 1/2.
-Source: NCERT Class 10, Ex 15.1 Q13 (concept).
-
-97. A box contains 10 light bulbs, of which 3 are defective. If two bulbs are selected at random without replacement, what is the probability that neither is defective?
-(A)
-7
-15
-15
-7
-	​
-
-  (B)
-8
-15
-15
-8
-	​
-
-  (C)
-1
-3
-3
-1
-	​
-
-  (D)
-2
-5
-5
-2
-	​
-
-Answer: (A)
-Solution: Total bulbs = 10. Good bulbs = 7. Total ways =
-10
-𝐶
-2
-=
-45
-10
-C
-2
-	​
-
-=45. Ways to select 2 good =
-7
-𝐶
-2
-=
-21
-7
-C
-2
-	​
-
-=21. Probability = 21/45 = 7/15.
-Source: PYQ-style
+97. A box contains 10 bulbs, of which 3 are defective. Two bulbs are selected at random without replacement. What is the probability that neither is defective?
+(a) 7/15 (b) 8/15 (c) 1/3 (d) 2/5
+Answer: (a)
+Solution: Good bulbs = 7; total ways = 10C2 = 45, favourable = 7C2 = 21, giving 21/45. The trap is computing (7/10)² = 49/100-style with-replacement logic, so the answer is 7/15.
+Source: NCERT Class 11 Mathematics
 
 98. A card is drawn from a standard deck. What is the probability that it is a diamond or a face card?
-(A)
-25
-52
-52
-25
-	​
-
-  (B)
-11
-26
-26
-11
-	​
-
-  (C)
-23
-52
-52
-23
-	​
-
-  (D)
-6
-13
-13
-6
-	​
-
-Answer: (B)
-Solution: Diamonds = 13, face cards = 12. Overlap (diamond face cards: J,Q,K of diamonds) = 3. Favorable = 13 + 12 – 3 = 22. Probability = 22/52 = 11/26.
-Source: PYQ-style
+(a) 25/52 (b) 6/13 (c) 23/52 (d) 11/26
+Answer: (d)
+Solution: Diamonds = 13, face cards = 12, overlap (J, Q, K of diamonds) = 3, so favourable = 13 + 12 − 3 = 22, giving 22/52. The trap is ignoring the overlap and getting 25/52, so the answer is 11/26.
+Source: NCERT Class 11 Mathematics
 
 99. Two dice are thrown. Find the probability that the sum is a multiple of 4.
-(A)
-1
-3
-3
-1
-	​
+(a) 1/3 (b) 1/4 (c) 7/36 (d) 1/6
+Answer: (b)
+Solution: Sums that are multiples of 4 are 4, 8, 12 with 3 + 5 + 1 = 9 outcomes out of 36. The trap is missing the sum 4 and getting 6/36 = 1/6, so the answer is 1/4.
+Source: NCERT Class 10 Mathematics
 
-  (B)
-1
-4
-4
-1
-	​
-
-  (C)
-7
-36
-36
-7
-	​
-
-  (D)
-1
-6
-6
-1
-	​
-
-Answer: (B)
-Solution: Sums that are multiples of 4: 4, 8, 12. Ways: sum 4 → 3, sum 8 → 5, sum 12 → 1. Total favorable = 9. Probability = 9/36 = 1/4.
-Source: PYQ-style
-
-100. A bag contains 5 red, 4 blue, and 3 green balls. Two balls are drawn at random. What is the probability that both are of the same colour?
-(A)
-19
-66
-66
-19
-	​
-
-  (B)
-20
-66
-66
-20
-	​
-
-  (C)
-19
-33
-33
-19
-	​
-
-  (D)
-10
-33
-33
-10
-	​
-
-Answer: (A)
-Solution: Total balls = 12. Total ways =
-12
-𝐶
-2
-=
-66
-12
-C
-2
-	​
-
-=66. Same colour: both red (5C2=10), both blue (4C2=6), both green (3C2=3). Sum = 10+6+3=19. Probability = 19/66.
-Source: Bank Clerk Mains 2020 (Memory Based).
+100. A bag contains 5 red, 4 blue and 3 green balls. Two balls are drawn at random without replacement. What is the probability that both are of the same colour?
+(a) 19/66 (b) 10/33 (c) 19/33 (d) 5/22
+Answer: (a)
+Solution: Total = 12 balls, total ways = 12C2 = 66; same colour = 5C2 + 4C2 + 3C2 = 10 + 6 + 3 = 19. The trap is counting only the red pairs and getting 10/66 = 5/33, so the answer is 19/66.
+Source: NCERT Class 11 Mathematics

@@ -1,1046 +1,151 @@
+Questions 26–45: Easy | Questions 46–50: Moderate
+
 26. Three unbiased coins are tossed simultaneously. What is the probability of getting exactly two heads?
-(A)
-1
-4
-4
-1
-	​
-
-  (B)
-3
-8
-8
-3
-	​
-
-  (C)
-1
-2
-2
-1
-	​
-
-  (D)
-5
-8
-8
-5
-	​
-
-Answer: (B)
-Solution: Total outcomes =
-2
-3
-=
-8
-2
-3
-=8. Favorable outcomes for exactly two heads: {HHT, HTH, THH} → 3. Probability =
-3
-8
-8
-3
-	​
-
-.
-Source: NCERT Class 10, Ex 15.1 Q7 (adapted).
+(a) 1/4 (b) 1/2 (c) 3/8 (d) 5/8
+Answer: (c)
+Solution: The tempting option 1/4 comes from counting only 2 favorable outcomes, but there are 3: HHT, HTH, THH. Total outcomes = 2³ = 8, so the answer is 3/8.
+Source: NCERT Class 10 Mathematics, Probability
 
 27. Three unbiased coins are tossed. Find the probability of getting at least two heads.
-(A)
-1
-4
-4
-1
-	​
-
-  (B)
-3
-8
-8
-3
-	​
-
-  (C)
-1
-2
-2
-1
-	​
-
-  (D)
-5
-8
-8
-5
-	​
-
-Answer: (C)
-Solution: Outcomes with at least two heads: exactly two heads (3 ways) + exactly three heads (1 way: HHH). Total favorable = 4. Probability =
-4
-/
-8
-=
-1
-/
-2
-4/8=1/2.
-Source: NCERT Class 10, Ex 15.1 Q8 (concept).
+(a) 1/2 (b) 3/8 (c) 1/4 (d) 5/8
+Answer: (a)
+Solution: The trap is 3/8, which counts only exactly two heads and forgets HHH. Favorable outcomes: HHT, HTH, THH, HHH = 4 out of 8, so the answer is 1/2.
+Source: NCERT Class 10 Mathematics, Probability
 
 28. Two dice are thrown simultaneously. What is the probability that the sum of the numbers is a multiple of 3?
-(A)
-1
-6
-6
-1
-	​
-
-  (B)
-1
-3
-3
-1
-	​
-
-  (C)
-5
-12
-12
-5
-	​
-
-  (D)
-1
-2
-2
-1
-	​
-
-Answer: (B)
-Solution: Total outcomes = 36. Sums that are multiples of 3: 3, 6, 9, 12. Ways: sum 3 → 2, sum 6 → 5, sum 9 → 4, sum 12 → 1. Total favorable = 2+5+4+1 = 12. Probability =
-12
-/
-36
-=
-1
-/
-3
-12/36=1/3.
+(a) 1/6 (b) 1/3 (c) 1/4 (d) 1/2
+Answer: (b)
+Solution: The trap is 1/4, from wrongly assuming 9 favorable outcomes. Sums that are multiples of 3 are 3, 6, 9, 12 with 2 + 5 + 4 + 1 = 12 ways out of 36, so the answer is 1/3.
 Source: PYQ-style
 
 29. In a single throw of two dice, what is the probability of getting a sum less than 5?
-(A)
-1
-12
-12
-1
-	​
-
-  (B)
-1
-6
-6
-1
-	​
-
-  (C)
-1
-4
-4
-1
-	​
-
-  (D)
-1
-3
-3
-1
-	​
-
-Answer: (B)
-Solution: Total outcomes = 36. Sums < 5: 2, 3, 4. Ways: sum 2 → 1, sum 3 → 2, sum 4 → 3. Total favorable = 6. Probability =
-6
-/
-36
-=
-1
-/
-6
-6/36=1/6.
-Source: NCERT Class 10, Ex 15.1 Q13 (adapted).
+(a) 1/12 (b) 1/6 (c) 1/4 (d) 1/3
+Answer: (b)
+Solution: The trap is 1/12, which counts only sums 2 and 3 and forgets sum 4. Sums less than 5 are 2, 3, 4 with 1 + 2 + 3 = 6 ways out of 36, so the answer is 1/6.
+Source: NCERT Class 10 Mathematics, Probability
 
 30. One card is drawn from a well-shuffled deck of 52 cards. What is the probability that it is either a face card or a red card?
-(A)
-8
-13
-13
-8
-	​
-
-  (B)
-19
-26
-26
-19
-	​
-
-  (C)
-7
-13
-13
-7
-	​
-
-  (D)
-15
-26
-26
-15
-	​
-
-Answer: (A)
-Solution: Face cards = 12, red cards = 26. Red face cards = 6 (♥J,Q,K + ♦J,Q,K). Using inclusion-exclusion: favorable =
-12
-+
-26
-−
-6
-=
-32
-12+26−6=32. Probability =
-32
-/
-52
-=
-8
-/
-13
-32/52=8/13.
+(a) 19/26 (b) 8/13 (c) 7/13 (d) 15/26
+Answer: (b)
+Solution: The trap is 19/26, from adding 12 + 26 = 38 without removing the 6 red face cards counted twice. Favorable = 12 + 26 − 6 = 32, so the answer is 32/52 = 8/13.
 Source: PYQ-style
 
 31. A bag contains 5 red and 4 black balls. Two balls are drawn at random without replacement. What is the probability that both balls are red?
-(A)
-5
-18
-18
-5
-	​
-
-  (B)
-10
-27
-27
-10
-	​
-
-  (C)
-2
-9
-9
-2
-	​
-
-  (D)
-4
-9
-9
-4
-	​
-
-Answer: (A)
-Solution: Total ways to draw 2 balls =
-9
-𝐶
-2
-=
-36
-9
-C
-2
-	​
-
-=36. Ways to draw 2 red from 5 =
-5
-𝐶
-2
-=
-10
-5
-C
-2
-	​
-
-=10. Probability =
-10
-/
-36
-=
-5
-/
-18
-10/36=5/18.
-Source: Bank Clerk Prelims 2020 (Memory Based).
+(a) 4/9 (b) 10/27 (c) 2/9 (d) 5/18
+Answer: (d)
+Solution: The trap is 4/9, from wrongly multiplying 5/9 by 4/9 as if the ball were replaced. Correct: (5/9) × (4/8) = 20/72, so the answer is 5/18.
+Source: PYQ-style
 
 32. A bag contains 6 white and 4 black balls. Two balls are drawn at random. What is the probability that one is white and one is black?
-(A)
-2
-5
-5
-2
-	​
-
-  (B)
-8
-15
-15
-8
-	​
-
-  (C)
-4
-15
-15
-4
-	​
-
-  (D)
-7
-15
-15
-7
-	​
-
-Answer: (B)
-Solution: Total ways =
-10
-𝐶
-2
-=
-45
-10
-C
-2
-	​
-
-=45. Favorable: choose 1 white from 6 and 1 black from 4 →
-6
-×
-4
-=
-24
-6×4=24. Probability =
-24
-/
-45
-=
-8
-/
-15
-24/45=8/15.
+(a) 2/5 (b) 4/15 (c) 8/15 (d) 7/15
+Answer: (c)
+Solution: The trap is 4/15, which counts only one order (white first, black second). Both orders give 6 × 4 = 24 favorable pairs out of ⁴⁵C₂ = 45, so the answer is 24/45 = 8/15.
 Source: PYQ-style
 
 33. A box contains 3 defective and 7 non-defective items. Two items are selected at random. What is the probability that both are non-defective?
-(A)
-7
-15
-15
-7
-	​
-
-  (B)
-2
-15
-15
-2
-	​
-
-  (C)
-7
-10
-10
-7
-	​
-
-  (D)
-1
-15
-15
-1
-	​
-
-Answer: (A)
-Solution: Total items = 10. Total ways =
-10
-𝐶
-2
-=
-45
-10
-C
-2
-	​
-
-=45. Ways to select 2 non-defective from 7 =
-7
-𝐶
-2
-=
-21
-7
-C
-2
-	​
-
-=21. Probability =
-21
-/
-45
-=
-7
-/
-15
-21/45=7/15.
+(a) 7/15 (b) 2/15 (c) 7/10 (d) 1/15
+Answer: (a)
+Solution: The trap is 7/10, which is the probability for only one item. Total ways = ¹⁰C₂ = 45, favorable = ⁷C₂ = 21, so the answer is 21/45 = 7/15.
 Source: PYQ-style
 
 34. A and B are two independent events. If P(A) = 0.4 and P(B) = 0.5, what is P(A ∩ B)?
-(A) 0.9  (B) 0.2  (C) 0.1  (D) 0.45
-Answer: (B)
-Solution: For independent events, P(A ∩ B) = P(A) × P(B) = 0.4 × 0.5 = 0.2.
-Source: NCERT Class 12, Probability Ex 13.2 (concept).
+(a) 0.9 (b) 0.1 (c) 0.45 (d) 0.2
+Answer: (d)
+Solution: The trap is 0.9, from adding the probabilities, which is wrong for intersection. For independent events P(A ∩ B) = P(A) × P(B) = 0.4 × 0.5, so the answer is 0.2.
+Source: NCERT Class 12 Mathematics, Probability
 
 35. For two events A and B, P(A) = 0.5, P(B) = 0.4, and P(A ∪ B) = 0.7. Find P(A ∩ B).
-(A) 0.1  (B) 0.2  (C) 0.3  (D) 0.9
-Answer: (B)
-Solution: Using addition rule: P(A ∪ B) = P(A) + P(B) – P(A ∩ B) ⇒ 0.7 = 0.5 + 0.4 – P(A ∩ B) ⇒ P(A ∩ B) = 0.2.
-Source: NCERT Class 11, Exercise 14.2 (concept).
+(a) 0.1 (b) 0.2 (c) 0.3 (d) 0.9
+Answer: (b)
+Solution: The trap is 0.1, from subtracting 0.7 from 0.5 only. Using P(A ∪ B) = P(A) + P(B) − P(A ∩ B): 0.7 = 0.9 − P(A ∩ B), so the answer is 0.2.
+Source: NCERT Class 11 Mathematics, Probability
 
 36. A fair die is thrown twice. What is the probability that the first throw gives a 6 and the second throw gives an odd number?
-(A)
-1
-6
-6
-1
-	​
-
-  (B)
-1
-9
-9
-1
-	​
-
-  (C)
-1
-12
-12
-1
-	​
-
-  (D)
-1
-18
-18
-1
-	​
-
-Answer: (C)
-Solution: P(first 6) = 1/6. P(second odd) = 3/6 = 1/2. Since throws are independent, P = (1/6)×(1/2) = 1/12.
-Source: NCERT Class 10, Ex 15.1 (adapted).
+(a) 1/6 (b) 1/9 (c) 1/18 (d) 1/12
+Answer: (d)
+Solution: The trap is 1/6, which ignores the second condition. P(first 6) = 1/6 and P(second odd) = 3/6 = 1/2; the throws are independent, so the answer is (1/6) × (1/2) = 1/12.
+Source: NCERT Class 10 Mathematics, Probability
 
 37. A coin is tossed three times. What is the probability of getting a head on the first toss and tails on the other two?
-(A)
-1
-4
-4
-1
-	​
-
-  (B)
-1
-6
-6
-1
-	​
-
-  (C)
-1
-8
-8
-1
-	​
-
-  (D)
-3
-8
-8
-3
-	​
-
-Answer: (C)
-Solution: The required sequence is HTT. Probability for each toss is 1/2, and tosses are independent. P(HTT) = 1/2 × 1/2 × 1/2 = 1/8.
-Source: NCERT Class 10, Ex 15.1 Q7 (adapted).
+(a) 1/4 (b) 1/8 (c) 3/8 (d) 1/6
+Answer: (b)
+Solution: The trap is 3/8, which counts all arrangements of one head and two tails, but here the order is fixed as HTT. Each toss has probability 1/2, so the answer is (1/2)³ = 1/8.
+Source: NCERT Class 10 Mathematics, Probability
 
 38. A bag contains 4 red, 5 green, and 3 blue marbles. One marble is drawn at random. Find the probability that it is red or blue.
-(A)
-7
-12
-12
-7
-	​
-
-  (B)
-1
-3
-3
-1
-	​
-
-  (C)
-1
-4
-4
-1
-	​
-
-  (D)
-5
-12
-12
-5
-	​
-
-Answer: (A)
-Solution: Total marbles = 4+5+3 = 12. Favorable (red or blue) = 4+3 = 7. Probability = 7/12.
-Source: NCERT Class 10, Ex 15.1 Q5 (adapted).
+(a) 7/12 (b) 1/3 (c) 1/4 (d) 5/12
+Answer: (a)
+Solution: The trap is 1/3, which counts only the red marbles. Red or blue marbles = 4 + 3 = 7 out of 12 total, so the answer is 7/12.
+Source: NCERT Class 10 Mathematics, Probability
 
 39. Two cards are drawn from a standard deck of 52 cards without replacement. What is the probability that both are aces?
-(A)
-1
-221
-221
-1
-	​
-
-  (B)
-2
-221
-221
-2
-	​
-
-  (C)
-1
-26
-26
-1
-	​
-
-  (D)
-1
-17
-17
-1
-	​
-
-Answer: (A)
-Solution: Total ways =
-52
-𝐶
-2
-=
-1326
-52
-C
-2
-	​
-
-=1326. Favorable ways =
-4
-𝐶
-2
-=
-6
-4
-C
-2
-	​
-
-=6. Probability = 6/1326 = 1/221.
-Source: Bank PO Mains 2018 (Memory Based).
+(a) 1/26 (b) 2/221 (c) 1/221 (d) 1/17
+Answer: (c)
+Solution: The trap is 1/26, from treating the draws as independent with replacement. Correct: (4/52) × (3/51) = 12/2652, so the answer is 1/221.
+Source: PYQ-style
 
 40. Two cards are drawn from a standard deck without replacement. What is the probability that at least one is an ace?
-(A)
-33
-221
-221
-33
-	​
-
-  (B)
-1
-221
-221
-1
-	​
-
-  (C)
-32
-221
-221
-32
-	​
-
-  (D)
-11
-26
-26
-11
-	​
-
-Answer: (A)
-Solution: Total ways =
-52
-𝐶
-2
-=
-1326
-52
-C
-2
-	​
-
-=1326. P(no ace) =
-48
-𝐶
-2
-/
-52
-𝐶
-2
-=
-48
-×
-47
-2
-/
-52
-×
-51
-2
-=
-1128
-/
-1326
-=
-188
-/
-221
-48
-C
-2
-	​
-
-/
-52
-C
-2
-	​
-
-=
-2
-48×47
-	​
-
-/
-2
-52×51
-	​
-
-=1128/1326=188/221. Then P(at least one ace) = 1 – 188/221 = 33/221.
+(a) 11/26 (b) 1/221 (c) 32/221 (d) 33/221
+Answer: (d)
+Solution: The trap is 32/221, an arithmetic slip in the complement. P(no ace) = (⁴⁸C₂)/(⁵²C₂) = 1128/1326 = 188/221, so P(at least one ace) = 1 − 188/221, and the answer is 33/221.
 Source: PYQ-style
 
 41. Two dice are rolled. Find the probability that the sum of the numbers is at most 6.
-(A)
-5
-12
-12
-5
-	​
-
-  (B)
-5
-18
-18
-5
-	​
-
-  (C)
-7
-12
-12
-7
-	​
-
-  (D)
-1
-3
-3
-1
-	​
-
-Answer: (A)
-Solution: Total outcomes = 36. Sums ≤ 6: 2,3,4,5,6. Ways: 2→1, 3→2, 4→3, 5→4, 6→5. Total favorable = 1+2+3+4+5 = 15. Probability = 15/36 = 5/12.
-Source: NCERT Class 10, Ex 15.1 Q13 (concept).
+(a) 1/3 (b) 5/18 (c) 7/12 (d) 5/12
+Answer: (d)
+Solution: The trap is 1/3, from counting 12 outcomes instead of 15. Sums 2 to 6 have 1 + 2 + 3 + 4 + 5 = 15 ways out of 36, so the answer is 15/36 = 5/12.
+Source: NCERT Class 10 Mathematics, Probability
 
 42. A number is selected at random from the integers 1 to 30. What is the probability that it is a prime number or a multiple of 7?
-(A)
-11
-30
-30
-11
-	​
-
-  (B)
-13
-30
-30
-13
-	​
-
-  (C)
-7
-15
-15
-7
-	​
-
-  (D)
-4
-15
-15
-4
-	​
-
-Answer: (B)
-Solution: Primes up to 30: 2,3,5,7,11,13,17,19,23,29 → 10 numbers. Multiples of 7: 7,14,21,28 → 4 numbers. Overlap (7) = 1. Favorable (prime or multiple of 7) = 10+4−1 = 13. Probability = 13/30.
+(a) 11/30 (b) 13/30 (c) 7/15 (d) 4/15
+Answer: (b)
+Solution: The trap is 7/15 (= 14/30), from adding 10 primes and 4 multiples of 7 without removing 7, which is counted twice. Favorable = 10 + 4 − 1 = 13, so the answer is 13/30.
 Source: PYQ-style
 
 43. From a group of 3 boys and 2 girls, two children are chosen at random. What is the probability that both are boys?
-(A)
-3
-10
-10
-3
-	​
-
-  (B)
-3
-5
-5
-3
-	​
-
-  (C)
-1
-10
-10
-1
-	​
-
-  (D)
-1
-5
-5
-1
-	​
-
-Answer: (A)
-Solution: Total ways =
-5
-𝐶
-2
-=
-10
-5
-C
-2
-	​
-
-=10. Ways to choose 2 boys from 3 =
-3
-𝐶
-2
-=
-3
-3
-C
-2
-	​
-
-=3. Probability = 3/10.
-Source: NCERT Class 11, Ex 14.2 (adapted).
+(a) 3/10 (b) 3/5 (c) 1/10 (d) 1/5
+Answer: (a)
+Solution: The trap is 3/5, which is just the fraction of boys in the group. Total ways = ⁵C₂ = 10, favorable = ³C₂ = 3, so the answer is 3/10.
+Source: NCERT Class 11 Mathematics, Probability
 
 44. A letter is chosen at random from the word "MATHEMATICS". What is the probability that it is a consonant?
-(A)
-4
-11
-11
-4
-	​
-
-  (B)
-7
-11
-11
-7
-	​
-
-  (C)
-5
-11
-11
-5
-	​
-
-  (D)
-8
-11
-11
-8
-	​
-
-Answer: (B)
-Solution: Total letters = 11. Vowels: A, A, E, I → 4. Consonants = 11 – 4 = 7. Probability = 7/11.
-Source: NCERT Class 10, Ex 15.1 Q10 (adapted).
+(a) 4/11 (b) 7/11 (c) 5/11 (d) 8/11
+Answer: (b)
+Solution: The trap is 4/11, which is the probability of a vowel, not a consonant. The word has 11 letters with 4 vowels (A, A, E, I), so consonants = 7 and the answer is 7/11.
+Source: NCERT Class 10 Mathematics, Probability
 
 45. A bag contains 8 red, 6 blue, and 4 green balls. Two balls are drawn at random. What is the probability that both are blue?
-(A)
-5
-51
-51
-5
-	​
-
-  (B)
-1
-17
-17
-1
-	​
-
-  (C)
-2
-51
-51
-2
-	​
-
-  (D)
-3
-17
-17
-3
-	​
-
-Answer: (A)
-Solution: Total balls = 18. Total ways =
-18
-𝐶
-2
-=
-153
-18
-C
-2
-	​
-
-=153. Ways to choose 2 blue =
-6
-𝐶
-2
-=
-15
-6
-C
-2
-	​
-
-=15. Probability = 15/153 = 5/51.
+(a) 5/51 (b) 1/17 (c) 2/51 (d) 3/17
+Answer: (a)
+Solution: The trap is 1/17, from using 18 × 17 in the denominator but forgetting the factor of 2 in combinations. Total ways = ¹⁸C₂ = 153, favorable = ⁶C₂ = 15, so the answer is 15/153 = 5/51.
 Source: PYQ-style
 
 46. The probability of rain on any given day in a city is 0.3. What is the probability that it does not rain on that day?
-(A) 0.3  (B) 0.7  (C) 0.5  (D) 0.9
-Answer: (B)
-Solution: P(no rain) = 1 – P(rain) = 1 – 0.3 = 0.7.
-Source: NCERT Class 10, Ex 15.1 Q5 (complement concept).
+(a) 0.3 (b) 0.5 (c) 0.7 (d) 0.9
+Answer: (c)
+Solution: The trap is 0.3, which simply repeats the given probability. Rain and no rain are complementary events, so P(no rain) = 1 − 0.3, and the answer is 0.7.
+Source: NCERT Class 10 Mathematics, Probability
 
 47. A fair coin is tossed 4 times. What is the probability of getting exactly 3 tails?
-(A)
-1
-4
-4
-1
-	​
-
-  (B)
-3
-8
-8
-3
-	​
-
-  (C)
-1
-2
-2
-1
-	​
-
-  (D)
-1
-8
-8
-1
-	​
-
-Answer: (A)
-Solution: Total outcomes =
-2
-4
-=
-16
-2
-4
-=16. Exactly 3 tails means choosing 3 tosses to be tails:
-4
-𝐶
-3
-=
-4
-4
-C
-3
-	​
-
-=4 ways. Probability = 4/16 = 1/4.
-Source: NCERT Class 11, Ex 14.2 (Binomial concept, simplified).
+(a) 1/2 (b) 3/8 (c) 1/4 (d) 1/8
+Answer: (c)
+Solution: The trap is 1/8, from using ⁴C₃ = 4 over a wrong denominator of 32. Total outcomes = 2⁴ = 16 and favorable = ⁴C₃ = 4, so the answer is 4/16 = 1/4.
+Source: NCERT Class 11 Mathematics, Probability
 
 48. Two dice are rolled. What is the probability that the sum is a perfect square?
-(A)
-7
-36
-36
-7
-	​
-
-  (B)
-1
-6
-6
-1
-	​
-
-  (C)
-5
-36
-36
-5
-	​
-
-  (D)
-1
-12
-12
-1
-	​
-
-Answer: (A)
-Solution: Perfect square sums possible: 4, 9. Ways: sum 4 → 3, sum 9 → 4. Total favorable = 7. Probability = 7/36.
+(a) 7/36 (b) 1/6 (c) 5/36 (d) 1/12
+Answer: (a)
+Solution: The trap is 5/36, which counts only the sum 9 and forgets the sum 4. Perfect square sums are 4 (3 ways) and 9 (4 ways), giving 7 favorable outcomes, so the answer is 7/36.
 Source: PYQ-style
 
 49. A card is drawn from a standard deck of 52 cards. Find the probability that it is a diamond or a queen.
-(A)
-4
-13
-13
-4
-	​
-
-  (B)
-17
-52
-52
-17
-	​
-
-  (C)
-9
-26
-26
-9
-	​
-
-  (D)
-15
-52
-52
-15
-	​
-
-Answer: (A)
-Solution: Diamonds = 13, Queens = 4. Overlap = queen of diamonds (1). Favorable = 13 + 4 – 1 = 16. Probability = 16/52 = 4/13.
-Source: Bank Clerk 2022 (Memory Based).
+(a) 17/52 (b) 9/26 (c) 15/52 (d) 4/13
+Answer: (d)
+Solution: The trap is 17/52, from adding 13 + 4 without removing the queen of diamonds counted twice. Favorable = 13 + 4 − 1 = 16, so the answer is 16/52 = 4/13.
+Source: PYQ-style
 
 50. A bag contains 5 red and 7 blue balls. Three balls are drawn at random. What is the probability that all three are red?
-(A)
-1
-22
-22
-1
-	​
-
-  (B)
-5
-33
-33
-5
-	​
-
-  (C)
-1
-11
-11
-1
-	​
-
-  (D)
-7
-44
-44
-7
-	​
-
-Answer: (A)
-Solution: Total balls = 12. Total ways =
-12
-𝐶
-3
-=
-220
-12
-C
-3
-	​
-
-=220. Ways to select 3 red from 5 =
-5
-𝐶
-3
-=
-10
-5
-C
-3
-	​
-
-=10. Probability = 10/220 = 1/22.
+(a) 1/11 (b) 5/33 (c) 1/22 (d) 7/44
+Answer: (c)
+Solution: The trap is 1/11, from doubling the favorable count by mistake. Total ways = ¹²C₃ = 220, favorable = ⁵C₃ = 10, so the answer is 10/220 = 1/22.
 Source: PYQ-style
