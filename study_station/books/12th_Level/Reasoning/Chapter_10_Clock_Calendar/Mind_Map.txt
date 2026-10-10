@@ -1,0 +1,57 @@
+```mermaid
+graph TD
+    A["घड़ी और कैलेंडर<br>Clock & Calendar"] --> B["घड़ी<br>Clock"]
+    A --> C["कैलेंडर<br>Calendar"]
+
+    B --> B1["मूल तथ्य<br>Basic Facts"]
+    B1 --> B1a["मिनट सुई: 6°/मिनट<br>Minute hand: 6°/min"]
+    B1 --> B1b["घंटे सुई: 0.5°/मिनट<br>Hour hand: 0.5°/min"]
+    B1 --> B1c["सापेक्ष चाल: 5.5°/मिनट<br>Relative speed: 5.5°/min"]
+
+    B --> B2["कोण सूत्र<br>Angle Formula"]
+    B2 --> B2a["कोण = |30H − 5.5M|<br>Angle = |30H − 5.5M|"]
+    B2 --> B2b["यदि > 180° तो 360° से घटाएँ<br>If > 180°, subtract from 360°"]
+
+    B --> B3["विशेष स्थितियाँ<br>Special Cases"]
+    B3 --> B3a["एक साथ: हर 65 5/11 मिनट<br>Together: every 65 5/11 min"]
+    B3 --> B3b["विपरीत (180°): हर 65 5/11 मिनट<br>Opposite: every 65 5/11 min"]
+    B3 --> B3c["समकोण (90°): हर 32 8/11 मिनट<br>Right angle: every 32 8/11 min"]
+    B3 --> B3d["12 घंटे में: 22 बार समकोण, 11 बार साथ<br>In 12 hrs: 22 right angles, 11 overlaps"]
+
+    B --> B4["दर्पण और जल प्रतिबिंब<br>Mirror & Water Image"]
+    B4 --> B4a["दर्पण: 11:60 − समय<br>Mirror: 11:60 − time"]
+    B4 --> B4b["जल: 17:90 − समय<br>Water: 17:90 − time"]
+
+    B --> B5["तेज/धीमी घड़ी<br>Fast/Slow Clock"]
+    B5 --> B5a["लाभ/हानि × समय<br>Gain/Loss × duration"]
+
+    C --> C1["मूल तथ्य<br>Basic Facts"]
+    C1 --> C1a["साधारण वर्ष: 365 दिन = 1 विषम दिन<br>Ordinary year: 1 odd day"]
+    C1 --> C1b["लीप वर्ष: 366 दिन = 2 विषम दिन<br>Leap year: 2 odd days"]
+
+    C --> C2["लीप वर्ष नियम<br>Leap Year Rule"]
+    C2 --> C2a["4 से भाज्य<br>Divisible by 4"]
+    C2 --> C2b["शताब्दी: 400 से भाज्य<br>Century: divisible by 400"]
+    C2 --> C2c["जाल: 1900 लीप नहीं, 2000 लीप है<br>Trap: 1900 not leap, 2000 is leap"]
+
+    C --> C3["विषम दिन गणना<br>Odd Days Count"]
+    C3 --> C3a["100 वर्ष = 5, 200 = 3<br>300 = 1, 400 = 0"]
+    C3 --> C3b["महीने के विषम दिन याद करें<br>Memorize month odd days"]
+
+    C --> C4["दिन कोड<br>Day Codes"]
+    C4 --> C4a["0=रविवार … 6=शनिवार<br>0=Sunday … 6=Saturday"]
+
+    C --> C5["कैलेंडर पुनरावृत्ति<br>Calendar Repetition"]
+    C5 --> C5a["साधारण: 6/11 वर्ष<br>Leap: 28 वर्ष"]
+
+    A --> D["रणनीति<br>Strategy"]
+    D --> D1["सूत्र पहले, फिर विकल्प जाँच<br>Formula first, then check options"]
+    D --> D2["15–45 सेकंड नियम<br>15–45 second rule"]
+    D --> D3["लंबी गणना हो तो skip<br>Skip if calculation is long"]
+
+    A --> E["परीक्षक के जाल<br>Examiner Traps"]
+    E --> E1["कोण > 180° वाला विकल्प<br>Option with angle > 180°"]
+    E --> E2["शताब्दी लीप वर्ष भ्रम<br>Century leap year confusion"]
+    E --> E3["दर्पण में 12:00 से घटाना<br>Subtracting from 12:00 in mirror"]
+    E --> E4["29 फरवरी की गिनती भूलना<br>Forgetting Feb 29 count"]
+```
