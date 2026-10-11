@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 11-10-2026 07:24 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:09 PM
+**आख़िरी update:** 11-10-2026 07:40 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:09 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (12th Reasoning) | 🔧 सुधार रहा है | 2 मिनट |
-| W2 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
-| W3 | Chapter 16 Statement Conclusion (12th Reasoning) | 🔧 सुधार रहा है | 3 मिनट |
+| W2 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 30 मिनट |
+| W3 | Chapter 20 Mirror Water Images (12th Reasoning) | 🔧 सुधार रहा है | 2 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -36,33 +35,13 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 16 Statement Conclusion (Reasoning) — 2 बार
-- Chapter 07 Sitting Arrangement (Reasoning) — 2 बार
+- Chapter 16 Statement Conclusion (Reasoning) — 4 बार
+- Chapter 07 Sitting Arrangement (Reasoning) — 4 बार
+- Chapter 20 Mirror Water Images (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 19:09:02 autopilot start: 3 workers, reverse=True
-11-10 19:09:04 START 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement (FIX: todo 0, problems 1)
-11-10 19:09:08 START 12th_Level/Reasoning/Chapter_08_Puzzles (OK: todo 0, problems 0)
-11-10 19:09:14 START 12th_Level/Reasoning/Chapter_16_Statement_Conclusion (FIX: todo 0, problems 1)
-11-10 19:12:05   [Statement_Conclusion] repaired Flashcards_hi.txt (4480 chars)
-11-10 19:12:05   [Statement_Conclusion] written 1, failed 0; AI calls today 3/100000
-11-10 19:12:11   [Sitting_Arrangement] repaired Short_Tricks_hi.txt (5090 chars)
-11-10 19:12:11   [Sitting_Arrangement] written 1, failed 0; AI calls today 4/100000
-11-10 19:14:19   [Statement_Conclusion] repaired Flashcards_hi.txt (3904 chars)
-11-10 19:14:19   [Statement_Conclusion] written 1, failed 0; AI calls today 5/100000
-11-10 19:14:19 NOT OK 12th_Level/Reasoning/Chapter_16_Statement_Conclusion after 5 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (39']
-11-10 19:14:20 START 12th_Level/Reasoning/Chapter_16_Statement_Conclusion (FIX: todo 0, problems 1)
-11-10 19:15:34   [Sitting_Arrangement] repaired Short_Tricks_hi.txt (5806 chars)
-11-10 19:15:34   [Sitting_Arrangement] written 1, failed 0; AI calls today 6/100000
-11-10 19:15:34 NOT OK 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement after 7 min: todo [] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
-11-10 19:15:35 START 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement (FIX: todo 0, problems 1)
-11-10 19:16:09   [Statement_Conclusion] repaired Flashcards_hi.txt (3924 chars)
-11-10 19:16:09   [Statement_Conclusion] written 1, failed 0; AI calls today 7/100000
-11-10 19:18:18   [Sitting_Arrangement] repaired Short_Tricks_hi.txt (6229 chars)
-11-10 19:18:18   [Sitting_Arrangement] written 1, failed 0; AI calls today 8/100000
-11-10 19:19:03   [Statement_Conclusion] repaired Flashcards_hi.txt (3946 chars)
 11-10 19:19:03   [Statement_Conclusion] written 1, failed 0; AI calls today 9/100000
 11-10 19:19:03 NOT OK 12th_Level/Reasoning/Chapter_16_Statement_Conclusion after 5 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (39']
 11-10 19:19:04 START 12th_Level/Reasoning/Chapter_16_Statement_Conclusion (FIX: todo 0, problems 1)
@@ -74,4 +53,33 @@
 11-10 19:20:58   [Statement_Conclusion] written 1, failed 0; AI calls today 11/100000
 11-10 19:22:34   [Sitting_Arrangement] repaired Short_Tricks_hi.txt (4487 chars)
 11-10 19:22:34   [Sitting_Arrangement] written 1, failed 0; AI calls today 12/100000
+11-10 19:25:19   [Statement_Conclusion] repaired Flashcards_hi.txt (3656 chars)
+11-10 19:25:19   [Statement_Conclusion] written 1, failed 0; AI calls today 14/100000
+11-10 19:25:19 NOT OK 12th_Level/Reasoning/Chapter_16_Statement_Conclusion after 6 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (36']
+11-10 19:25:20 START 12th_Level/Reasoning/Chapter_16_Statement_Conclusion (FIX: todo 0, problems 1)
+11-10 19:25:47   [Sitting_Arrangement] repaired Short_Tricks_hi.txt (5607 chars)
+11-10 19:25:47   [Sitting_Arrangement] written 1, failed 0; AI calls today 15/100000
+11-10 19:25:47 NOT OK 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement after 5 min: todo [] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
+11-10 19:25:49 START 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement (FIX: todo 0, problems 1)
+11-10 19:28:09   [Statement_Conclusion] repaired Flashcards_hi.txt (4516 chars)
+11-10 19:28:09   [Statement_Conclusion] written 1, failed 0; AI calls today 17/100000
+11-10 19:28:46   [Sitting_Arrangement] repaired Short_Tricks_hi.txt (4842 chars)
+11-10 19:28:46   [Sitting_Arrangement] written 1, failed 0; AI calls today 18/100000
+11-10 19:30:06   [Statement_Conclusion] repaired Flashcards_hi.txt (4014 chars)
+11-10 19:30:06   [Statement_Conclusion] written 1, failed 0; AI calls today 19/100000
+11-10 19:30:06 NOT OK 12th_Level/Reasoning/Chapter_16_Statement_Conclusion after 5 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (40']
+11-10 19:30:08 START 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images (FIX: todo 0, problems 1)
+11-10 19:31:23   [Sitting_Arrangement] repaired Short_Tricks_hi.txt (4832 chars)
+11-10 19:31:23   [Sitting_Arrangement] written 1, failed 0; AI calls today 20/100000
+11-10 19:31:23 NOT OK 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement after 6 min: todo [] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
+11-10 19:31:25 worker 0: nothing left
+11-10 19:32:34   [Mirror_Water_Images] repaired Flashcards_hi.txt (3052 chars)
+11-10 19:32:34   [Mirror_Water_Images] written 1, failed 0; AI calls today 20/100000
+11-10 19:34:56   [Mirror_Water_Images] repaired Flashcards_hi.txt (3842 chars)
+11-10 19:34:56   [Mirror_Water_Images] written 1, failed 0; AI calls today 21/100000
+11-10 19:34:56 NOT OK 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images after 5 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (38']
+11-10 19:34:58 START 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images (FIX: todo 0, problems 1)
+11-10 19:38:02   [Mirror_Water_Images] repaired Flashcards_hi.txt (3855 chars)
+11-10 19:38:02   [Mirror_Water_Images] written 1, failed 0; AI calls today 22/100000
+11-10 19:39:52   [Puzzles] set 01: key confirmed
 ```
