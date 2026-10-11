@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 11-10-2026 07:43 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:07 PM
+**आख़िरी update:** 11-10-2026 07:58 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:07 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 268 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 276 मिनट |
+| W1 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 283 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 291 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -43,7 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 15:26:45   [Order_Ranking] set 02: key confirmed
 11-10 15:31:14   [Sitting_Arrangement] set 01: Q4: the clues give "c" (option c), but the key says (d); Q5: clues contradict each other — no arrangement fits all of them; Q24: clues contrad
 11-10 15:34:01   [Puzzles] set 01: Q12: the clues give "6", which is not among the options; Q22: clues contradict each other — no arrangement fits all of them
 11-10 15:34:55   [Order_Ranking] set 03: Q59 key d vs re-solve ?, Q60 key c vs re-solve ?
@@ -83,4 +82,5 @@
 11-10 19:10:24 worker 1: nothing left
 11-10 19:14:41   [Puzzles] set 03: Q52 key d vs re-solve a, Q65 key b vs re-solve c
 11-10 19:36:19   [Sitting_Arrangement] set 02 try 3: re-solve disagrees (Q37: the clues give "2", which is not among the options; Q39: the clues allow more than one answer — add a clue so e
+11-10 19:44:54   [Puzzles] set 03 try 1: re-solve disagrees (Q65 key a vs re-solve c)
 ```
