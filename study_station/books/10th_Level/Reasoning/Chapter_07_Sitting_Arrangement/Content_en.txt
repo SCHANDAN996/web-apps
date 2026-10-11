@@ -9,7 +9,7 @@ Chapter 3: Sitting Arrangement (Basic)
 
 🎯 Hook: A Mind Opener Before We Begin
 
-Imagine you and your four friends — Aman, Beena, Chetan, Deepa, and Eshan — are sitting in a row at a cinema hall. All you remember is: "Aman is sitting immediately to the left of Beena", "Deepa is not at either end", and "There are exactly two persons between Chetan and Eshan." With just these three clues, your brain can deduce everyone's exact seat. That is Sitting Arrangement — not magic, but a structured logical puzzle whose rules you can master in 30–40 seconds. This chapter will give you the confidence to approach every sitting arrangement problem with a smile rather than hesitation.
+Imagine you and your four friends — Aman, Beena, Chetan, Deepa, and Eshan — are sitting in a row at a cinema hall. All you remember is: "Aman is sitting immediately to the left of Beena", "Deepa is not at either end", and "There is exactly one person between Chetan and Eshan." With just these three clues, your brain can deduce everyone's exact seat: Aman – Beena – Chetan – Deepa – Eshan. That is Sitting Arrangement — not magic, but a structured logical puzzle whose rules you can master in 30–40 seconds. This chapter will give you the confidence to approach every sitting arrangement problem with a smile rather than hesitation.
 
 🤔 Why Does This Topic Often Feel Difficult? (Common Struggles)
 
@@ -81,7 +81,9 @@ Example:
 - B sits immediately to the right of C.
 - Exactly one person sits between A and E.
 - D does not sit at either extreme end.
-Solution: C and B form the block [CB]. D must be in one of the three middle seats (2, 3, or 4). Testing [CB] and A-gap-E placements quickly leaves the unique valid arrangement: A - C - B - D - E (or E - C - B - D - A).
+Solution: C and B form the block [CB]. D must be in one of the three middle seats (2, 3, or 4). Testing the [CB] block and the A-gap-E placements against all clues leaves exactly four valid arrangements:
+C - B - A - D - E, C - B - E - D - A, A - D - E - C - B, and E - D - A - C - B.
+Lesson: when more than one arrangement satisfies all clues, answer only what is true in every valid case — this is exactly the trap examiners set.
 
 5. Circular Arrangements: Thinking in 360 Degrees
 

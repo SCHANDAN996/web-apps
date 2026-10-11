@@ -1,151 +1,151 @@
 Questions 1–15: Easy | Questions 16–25: Medium
 
-1. Five persons P, Q, R, S, and T are sitting in a row facing north. Q is to the immediate left of R. S is second to the right of P. T sits at the right end and is an immediate neighbour of S. Who sits exactly in the middle of the row?
-(a) R (b) P (c) Q (d) S
-Answer: (a)
-Solution: Arrangement (left to right): 1-Q, 2-P, 3-R, 4-S, 5-T. T(5) is at the right end adjacent to S(4). S is second to the right of P(2). Q(1) is immediate left of R(3). Exactly in the middle (seat 3) is R.
-Source: PYQ-style
-
-2. Six persons A, B, C, D, E, and F are sitting in a row facing north. A is second to the left of C. D is to the immediate right of B. E sits at the right end and is an immediate neighbour of F. B is not a neighbour of A. Who sits third to the right of A?
-(a) D (b) F (c) E (d) B
-Answer: (b)
-Solution: Arrangement (left to right): 1-B, 2-A, 3-D, 4-C, 5-F, 6-E. E(6) is at the right end with neighbour F(5). A(2) is second to the left of C(4). D(3) is immediate right of B(1). Third to the right of A(2) is seat 5, occupied by F.
-Source: PYQ-style
-
-3. Five persons A, B, C, D, and E are sitting around a circular table facing the centre. A is second to the left of B. C is to the immediate right of A. D is to the immediate left of E. Who sits to the immediate left of C?
-(a) A (b) D (c) B (d) E
-Answer: (c)
-Solution: Facing centre: left = clockwise. Clockwise 1 to 5: 1-B, 2-C, 3-A, 4-D, 5-E. A(3) is second to the left of B(1). C(2) is immediate right of A(3). Immediate left of C(2) in clockwise direction is B at seat 1.
-Source: PYQ-style
-
-4. Six persons P, Q, R, S, T, and U are sitting in a row facing north. P is second to the left of R. Q is to the immediate right of S. T sits at the left end. U sits at the right end. R is not a neighbour of U. Who sits second to the right of P?
-(a) Q (b) S (c) T (d) R
+1. Six persons A, B, C, D, E and F sit in a row facing north. E sits third to the left of D. A sits second to the right of E. C sits to the immediate right of D. F sits to the immediate right of C. Who sits third to the left of F?
+(a) C (b) E (c) D (d) A
 Answer: (d)
-Solution: Arrangement (left to right): 1-T, 2-P, 3-S, 4-R, 5-Q, 6-U. T(1) and U(6) are at the ends. R(4) is not adjacent to U. P(2) is second to the left of R. Second to the right of P(2) is R at seat 4.
+Solution: Fixing the clues one by one gives only one arrangement. From left to right: E, B, A, D, C, F. So the answer is A.
 Source: PYQ-style
 
-5. Seven persons A, B, C, D, E, F, and G are sitting in a row facing north. D is fourth to the left of G. B is second to the right of A. F is an immediate neighbour of C. E sits at the right end. A is not a neighbour of F. G is not a neighbour of E. Who sits second to the right of D?
-(a) C (b) B (c) F (d) E
-Answer: (a)
-Solution: Arrangement (left to right): 1-D, 2-F, 3-C, 4-A, 5-G, 6-B, 7-E. E(7) is at the right end. D(1) is fourth to the left of G(5). Second to the right of D(1) is C at seat 3.
-Source: PYQ-style
-
-6. Six persons A, B, C, D, E, and F are sitting in a circle facing the centre. A is third to the left of B. C is to the immediate right of A. D is second to the right of E. F is not a neighbour of C. Who sits directly opposite A?
-(a) D (b) B (c) E (d) F
-Answer: (b)
-Solution: Arrangement (clockwise): 1-B, 2-E, 3-C, 4-A, 5-F, 6-D. A(4) is third to the left of B(1) (opposite). Directly opposite A is B at seat 1.
-Source: PYQ-style
-
-7. Five persons P, Q, R, S, and T are sitting in a row facing north. Q is to the immediate right of P. R is to the immediate left of T. S sits at the left end. Q is not a neighbour of S. Who is to the immediate left of T?
-(a) P (b) Q (c) R (d) S
+2. Six persons A, B, C, D, E and F sit around a circular table, facing the centre. C sits second to the right of B. A sits to the immediate right of E. B sits second to the right of A. B sits to the immediate left of D. Who sits to the immediate right of F?
+(a) C (b) A (c) B (d) E
 Answer: (c)
-Solution: Arrangement (left to right): 1-S, 2-P, 3-Q, 4-R, 5-T. S(1) is at the left end. Q(3) is not adjacent to S. R(4) is immediately left of T(5). Immediate left of T is R.
+Solution: Fixing the clues one by one gives only one arrangement. Going clockwise: E, C, D, B, F, A (facing the centre, a person's left is clockwise). The trap is A, who is on the other side of F. So the answer is B.
 Source: PYQ-style
 
-8. Six persons A, B, C, D, E, and F are sitting in a row facing north. A is third to the left of F. B is to the immediate right of C. D sits at the left end. E is to the immediate right of D. F is not a neighbour of E. Who sits second to the right of C?
-(a) A (b) B (c) D (d) F
+3. Five persons P, Q, R, S and T sit in a row facing north. R sits third from the left end. R sits second to the left of T. Q sits second to the right of S. Who sits second to the right of P?
+(a) T (b) S (c) Q (d) R
 Answer: (d)
-Solution: Arrangement (left to right): 1-D, 2-E, 3-A, 4-C, 5-B, 6-F. D(1) is at left end with E(2) to his right. Second to the right of C(4) is F at seat 6.
+Solution: Fixing the clues one by one gives only one arrangement. From left to right: P, S, R, Q, T. So the answer is R.
 Source: PYQ-style
 
-9. Five persons A, B, C, D, and E are sitting in a row facing north. C is to the immediate right of B. A is second to the left of C. D sits at the left end. E is an immediate neighbour of D. Who is sitting to the immediate right of E?
-(a) A (b) B (c) C (d) D
-Answer: (a)
-Solution: Arrangement (left to right): 1-D, 2-E, 3-A, 4-B, 5-C. D(1) is at left end and E(2) is his neighbour. Immediate right of E(2) is A at seat 3.
-Source: PYQ-style
-
-10. Six persons P, Q, R, S, T, and U are sitting in a circle facing the centre. P is third to the left of Q. R is to the immediate right of P. S is second to the right of T. U is not a neighbour of R. Who is sitting directly opposite P?
-(a) T (b) Q (c) S (d) U
-Answer: (b)
-Solution: Arrangement (clockwise): 1-Q, 2-T, 3-R, 4-P, 5-U, 6-S. In a 6-person circle, third position is directly opposite. Directly opposite P(4) is Q at seat 1.
-Source: PYQ-style
-
-11. Six persons A, B, C, D, E, and F are sitting in a row facing north. A is second to the left of C. B is to the immediate right of D. E sits at the left end. F sits at the right end. C is not a neighbour of F. Who sits to the immediate left of D?
-(a) B (b) C (c) A (d) E
+4. Five persons A, B, C, D and E sit in a row facing north. E sits to the immediate right of A. B sits to the immediate right of D. D sits to the immediate right of E. Who sits third to the left of B?
+(a) E (b) C (c) A (d) D
 Answer: (c)
-Solution: Arrangement (left to right): 1-E, 2-A, 3-D, 4-C, 5-B, 6-F. E(1) and F(6) are at the ends. C(4) is not adjacent to F. Immediate left of D(3) is A at seat 2.
+Solution: Fixing the clues one by one gives only one arrangement. From left to right: C, A, E, D, B. So the answer is A.
 Source: PYQ-style
 
-12. Six persons P, Q, R, S, T, and U are sitting in a row facing north. P is to the immediate left of Q. R is second to the right of S. T sits at the left end. U sits at the right end. S is not a neighbour of T. Who sits to the immediate right of Q?
-(a) P (b) S (c) U (d) R
+5. Six persons S, T, U, V, W and X sit in a row facing north. X sits between T and W (next to both). S sits to the immediate left of V. T sits third to the left of S. T sits at one of the ends. Who sits third to the right of W?
+(a) V (b) X (c) T (d) U
 Answer: (d)
-Solution: Arrangement (left to right): 1-T, 2-P, 3-S, 4-Q, 5-R, 6-U. T(1) and U(6) are at the ends. S(3) is not neighbour of T. Immediate right of Q(4) is R at seat 5.
+Solution: Fixing the clues one by one gives only one arrangement. From left to right: T, X, W, S, V, U. So the answer is U.
 Source: PYQ-style
 
-13. Five persons A, B, C, D, and E are sitting in a row facing north. C is to the immediate right of A. B is second to the left of C. D sits at the left end. E is an immediate neighbour of D. Who sits to the immediate right of E?
-(a) B (b) A (c) C (d) D
-Answer: (a)
-Solution: Arrangement (left to right): 1-D, 2-E, 3-B, 4-A, 5-C. D(1) is at end with neighbour E(2). B, A, C occupy seats 3, 4, 5. Immediate right of E(2) is B at seat 3.
-Source: PYQ-style
-
-14. Six persons P, Q, R, S, T, and U are sitting in a circle facing the centre. P is third to the left of Q. R is to the immediate right of P. S is second to the right of T. U is not a neighbour of R. Who is sitting directly opposite Q?
-(a) R (b) P (c) S (d) T
+6. Six persons J, K, L, M, N and O sit in a row facing north. J sits third to the left of N. O sits to the immediate right of L. K sits second to the right of N. How many persons sit between K and L?
+(a) 0 (b) 3 (c) 1 (d) 4
 Answer: (b)
-Solution: Arrangement (clockwise): 1-Q, 2-T, 3-R, 4-P, 5-U, 6-S. In a 6-seat circle, 3 seats apart is directly opposite. Directly opposite Q(1) is P at seat 4.
+Solution: Fixing the clues one by one gives only one arrangement. From left to right: J, L, O, N, M, K. So the answer is 3.
 Source: PYQ-style
 
-15. Five persons A, B, C, D, and E are sitting in a row facing north. A is second to the left of C. B is to the immediate right of A. D sits at the right end. E is an immediate neighbour of D. Who sits to the immediate left of C?
-(a) A (b) D (c) B (d) E
+7. Five persons J, K, L, M and N sit in a row facing south. K sits second to the left of J. J sits to the immediate right of M. N sits third to the right of M. Who sits to the immediate right of J?
+(a) M (b) K (c) L (d) N
 Answer: (c)
-Solution: Arrangement (left to right): 1-A, 2-B, 3-C, 4-E, 5-D. D(5) is at right end with neighbour E(4). Immediate left of C(3) is B at seat 2.
+Solution: Fixing the clues one by one gives only one arrangement. As we look at them (they face us), from our left to our right: N, L, J, M, K. The trap is M, who is on the other side of J. So the answer is L.
 Source: PYQ-style
 
-16. Six persons A, B, C, D, E, and F are sitting in a row facing north. B is third to the left of D. C is to the immediate right of A. E sits at the left end. F is an immediate neighbour of E. A is not a neighbour of F. Who sits to the immediate left of D?
-(a) B (b) A (c) F (d) C
+8. Five persons J, K, L, M and N sit around a circular table, facing the centre. N sits second to the right of J. K sits third to the left of M. L sits second to the right of K. Who sits to the immediate left of J?
+(a) N (b) M (c) K (d) L
+Answer: (b)
+Solution: Fixing the clues one by one gives only one arrangement. Going clockwise: J, M, L, N, K (facing the centre, a person's left is clockwise). The trap is K, who is on the other side of J. So the answer is M.
+Source: PYQ-style
+
+9. Five persons A, B, C, D and E sit in a row facing north. C sits at the left end. A sits to the immediate right of E. C sits second to the left of D. Who sits to the immediate left of E?
+(a) B (b) C (c) A (d) D
 Answer: (d)
-Solution: Arrangement (left to right): 1-E, 2-F, 3-B, 4-A, 5-C, 6-D. E(1) is at end with neighbour F(2). B(3) is third to the left of D(6). Immediate left of D(6) is C at seat 5.
+Solution: Fixing the clues one by one gives only one arrangement. From left to right: C, B, D, E, A. The trap is A, who is on the other side of E. So the answer is D.
 Source: PYQ-style
 
-17. Six persons P, Q, R, S, T, and U are sitting in a circle facing the centre. P is second to the left of Q. R is to the immediate right of P. S is second to the right of T. U is not a neighbour of R. Who is sitting directly opposite R?
-(a) U (b) S (c) T (d) Q
+10. Five persons P, Q, R, S and T sit in a row facing north. Q sits second to the right of S. T sits at the left end. R sits to the immediate right of Q. Who sits second to the right of P?
+(a) R (b) T (c) S (d) Q
 Answer: (a)
-Solution: Arrangement (clockwise): 1-Q, 2-R, 3-P, 4-S, 5-U, 6-T. R is at seat 2, and directly opposite R (3 seats away) is U at seat 5.
+Solution: Fixing the clues one by one gives only one arrangement. From left to right: T, S, P, Q, R. The trap is T, who is on the other side of P. So the answer is R.
 Source: PYQ-style
 
-18. Five persons A, B, C, D, and E are sitting in a row facing north. B is second to the right of A. C is to the immediate left of B. D sits at the left end. E is an immediate neighbour of D. Who sits to the immediate right of C?
-(a) A (b) B (c) D (d) E
-Answer: (b)
-Solution: Arrangement (left to right): 1-D, 2-E, 3-A, 4-C, 5-B. D(1) is at end with neighbour E(2). C(4) is immediately left of B(5). Immediate right of C is B at seat 5.
-Source: PYQ-style
-
-19. Six persons A, B, C, D, E, and F are sitting in a row facing north. A is second to the left of C. D is to the immediate right of E. B sits at the right end. F sits at the left end. E is not a neighbour of A. Who sits to the immediate left of C?
-(a) A (b) E (c) D (d) F
+11. Six persons L, M, N, O, P and Q sit in a row facing north. L sits to the immediate right of P. M sits to the immediate right of Q. M sits third to the right of P. Who sits to the immediate right of L?
+(a) P (b) M (c) Q (d) O
 Answer: (c)
-Solution: Arrangement (left to right): 1-F, 2-A, 3-E, 4-D, 5-C, 6-B. F(1) and B(6) are at the ends. Immediate left of C(5) is D at seat 4.
+Solution: Fixing the clues one by one gives only one arrangement. From left to right: N, O, P, L, Q, M. The trap is P, who is on the other side of L. So the answer is Q.
 Source: PYQ-style
 
-20. Six persons A, B, C, D, E, and F are sitting around a circular table facing the centre. A sits directly opposite D. B sits to the immediate left of A. C sits exactly between B and D. E sits to the immediate right of A. F sits exactly between E and D. Who sits directly opposite B?
-(a) C (b) E (c) D (d) F
-Answer: (d)
-Solution: Arrangement (clockwise): 1-A, 2-B, 3-C, 4-D, 5-F, 6-E. In a 6-seat circle, seat 5 is directly opposite seat 2. Therefore, directly opposite B(2) is F at seat 5.
+12. Six persons P, Q, R, S, T and U sit in a row facing north. P sits second to the left of S. R sits at the left end. U sits to the immediate right of Q. Who sits to the immediate left of T?
+(a) Q (b) S (c) P (d) U
+Answer: (c)
+Solution: Fixing the clues one by one gives only one arrangement. From left to right: R, Q, U, P, T, S. The trap is S, who is on the other side of T. So the answer is P.
 Source: PYQ-style
 
-21. Seven persons P, Q, R, S, T, U, and V are sitting in a row facing north. R is second to the left of T. Q is to the immediate left of U. P is second to the right of S. V sits at the left end. T is not a neighbour of V. Who sits second to the left of R?
-(a) Q (b) S (c) T (d) U
+13. Five persons P, Q, R, S and T sit in a row facing south. R sits second to the right of S. P sits second to the right of Q. P sits second to the left of T. Who sits third to the right of S?
+(a) T (b) R (c) P (d) Q
 Answer: (a)
-Solution: Arrangement (left to right): 1-V, 2-Q, 3-U, 4-R, 5-S, 6-T, 7-P. V(1) is at the left end. Second to the left of R(4) is Q at seat 2.
+Solution: Fixing the clues one by one gives only one arrangement. As we look at them (they face us), from our left to our right: T, R, P, S, Q. So the answer is T.
 Source: PYQ-style
 
-22. Six persons P, Q, R, S, T, and U are sitting in a row facing north. P is second to the left of R and to the immediate left of Q. S is to the immediate right of T. U sits at the left end. Q is not a neighbour of T. Who sits second to the right of U?
-(a) P (b) Q (c) R (d) S
+14. Six persons J, K, L, M, N and O sit around a circular table, facing the centre. O sits second to the right of N. O sits to the immediate left of L. M sits to the immediate left of K. Who sits to the immediate right of J?
+(a) O (b) M (c) K (d) N
+Answer: (a)
+Solution: Fixing the clues one by one gives only one arrangement. Going clockwise: N, K, M, L, O, J (facing the centre, a person's left is clockwise). The trap is N, who is on the other side of J. So the answer is O.
+Source: PYQ-style
+
+15. Six persons L, M, N, O, P and Q sit in a row facing north. M sits to the immediate right of N. O sits to the immediate right of Q. Q sits at the left end. P sits third to the right of Q. How many persons sit between N and P?
+(a) 1 (b) 0 (c) 3 (d) 4
 Answer: (b)
-Solution: Arrangement (left to right): 1-U, 2-P, 3-Q, 4-R, 5-T, 6-S. U(1) is at the left end. Second to the right of U(1) is Q at seat 3.
+Solution: Fixing the clues one by one gives only one arrangement. From left to right: Q, O, L, P, N, M. So the answer is 0.
 Source: PYQ-style
 
-23. Seven persons A, B, C, D, E, F, and G are sitting in a row facing north. D is second to the right of B. C is to the immediate left of E. F is second to the left of G. A sits at the left end. B is not a neighbour of A. Which of the following is definitely false?
-(a) F sits to the immediate left of B. (b) C sits to the immediate right of D. (c) G sits second to the left of E. (d) E sits at the right end.
+16. Five persons L, M, N, O and P sit around a circular table, facing the centre. P sits to the immediate right of L. L sits third to the left of N. O sits to the immediate right of N. Who sits third to the left of M?
+(a) P (b) N (c) O (d) L
 Answer: (c)
-Solution: Arrangement (left to right): 1-A, 2-F, 3-B, 4-G, 5-D, 6-C, 7-E. G(4) is third to the left of E(7), not second. Hence, this statement is definitely false.
+Solution: Fixing the clues one by one gives only one arrangement. Going clockwise: N, M, P, L, O (facing the centre, a person's left is clockwise). The trap is L, who is on the other side of M. So the answer is O.
 Source: PYQ-style
 
-24. Eight persons A, B, C, D, E, F, G, and H are sitting in a row facing north. D is fourth to the left of H. B is to the immediate right of A. C is second to the right of E. F sits at the left end. G sits at the right end. H is not a neighbour of G. Who sits third to the left of G?
-(a) B (b) C (c) D (d) E
-Answer: (d)
-Solution: Arrangement (left to right): 1-F, 2-D, 3-A, 4-B, 5-E, 6-H, 7-C, 8-G. G(8) is at the right end. Third to the left of G is E at seat 5.
-Source: PYQ-style
-
-25. Six persons P, Q, R, S, T, and U are sitting in a row facing north. P is second to the left of S and to the immediate right of Q. T is to the immediate left of U. R sits at the right end. Q is not a neighbour of R. Who sits second to the left of R?
-(a) P (b) S (c) Q (d) T
+17. Five persons L, M, N, O and P sit around a circular table, facing the centre. N sits second to the left of L. P sits third to the left of O. M sits second to the right of L. Who sits third to the left of P?
+(a) L (b) N (c) O (d) M
 Answer: (b)
-Solution: Arrangement (left to right): 1-Q, 2-P, 3-T, 4-S, 5-U, 6-R. R(6) is at the right end. Second to the left of R is S at seat 4.
+Solution: Fixing the clues one by one gives only one arrangement. Going clockwise: O, N, M, P, L (facing the centre, a person's left is clockwise). The trap is O, who is on the other side of P. So the answer is N.
+Source: PYQ-style
+
+18. Six persons A, B, C, D, E and F sit around a circular table, facing the centre. A sits second to the left of D. D sits third to the right of E. C sits between B and E (next to both). Who sits second to the left of E?
+(a) A (b) C (c) F (d) B
+Answer: (d)
+Solution: Fixing the clues one by one gives only one arrangement. Going clockwise: D, F, A, E, C, B (facing the centre, a person's left is clockwise). The trap is F, who is on the other side of E. So the answer is B.
+Source: PYQ-style
+
+19. Six persons J, K, L, M, N and O sit in a row facing north. L sits between N and O (next to both). K sits third to the right of L. O sits third to the left of J. How many persons sit between K and J?
+(a) 0 (b) 2 (c) 3 (d) 4
+Answer: (a)
+Solution: Fixing the clues one by one gives only one arrangement. From left to right: O, L, N, J, K, M. So the answer is 0.
+Source: PYQ-style
+
+20. Six persons P, Q, R, S, T and U sit around a circular table, facing the centre. S sits second to the right of Q. U sits third to the left of R. T sits third to the right of Q. Who sits to the immediate left of Q?
+(a) S (b) P (c) U (d) T
+Answer: (b)
+Solution: Fixing the clues one by one gives only one arrangement. Going clockwise: U, Q, P, R, T, S (facing the centre, a person's left is clockwise). The trap is U, who is on the other side of Q. So the answer is P.
+Source: PYQ-style
+
+21. Five persons L, M, N, O and P sit in a row facing north. N sits third to the left of M. M sits between L and O (next to both). M sits to the immediate right of L. Who sits exactly in the middle of the row?
+(a) N (b) O (c) M (d) L
+Answer: (d)
+Solution: Fixing the clues one by one gives only one arrangement. From left to right: N, P, L, M, O. So the answer is L.
+Source: PYQ-style
+
+22. Six persons J, K, L, M, N and O sit in a row facing north. M sits second from the left end. M sits between L and O (next to both). K sits to the immediate right of N. J sits to the immediate right of L. Who sits second to the right of L?
+(a) N (b) K (c) O (d) J
+Answer: (a)
+Solution: Fixing the clues one by one gives only one arrangement. From left to right: O, M, L, J, N, K. The trap is O, who is on the other side of L. So the answer is N.
+Source: PYQ-style
+
+23. Five persons A, B, C, D and E sit in a row facing south. A sits third to the left of C. B sits second to the right of A. E sits second to the right of B. Who sits third to the left of E?
+(a) C (b) D (c) B (d) A
+Answer: (b)
+Solution: Fixing the clues one by one gives only one arrangement. As we look at them (they face us), from our left to our right: E, C, B, D, A. So the answer is D.
+Source: PYQ-style
+
+24. Five persons A, B, C, D and E sit in a row facing south. A sits at one of the ends. D sits to the immediate left of A. E sits to the immediate right of B. E sits to the immediate left of C. Who sits third to the right of E?
+(a) A (b) B (c) D (d) C
+Answer: (a)
+Solution: Fixing the clues one by one gives only one arrangement. As we look at them (they face us), from our left to our right: A, D, C, E, B. So the answer is A.
+Source: PYQ-style
+
+25. Five persons J, K, L, M and N sit around a circular table, facing the centre. J sits third to the left of K. M sits third to the left of N. L sits second to the right of J. Who sits third to the left of L?
+(a) N (b) J (c) K (d) M
+Answer: (a)
+Solution: Fixing the clues one by one gives only one arrangement. Going clockwise: J, N, K, L, M (facing the centre, a person's left is clockwise). The trap is J, who is on the other side of L. So the answer is N.
 Source: PYQ-style
