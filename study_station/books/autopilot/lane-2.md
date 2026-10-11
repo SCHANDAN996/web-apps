@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 11-10-2026 08:48 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 08:32 PM
+**आख़िरी update:** 11-10-2026 09:04 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 08:32 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -9,7 +9,6 @@
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
 | W1 | Chapter 13 Awards (Graduation GK) | 🔧 सुधार रहा है | 1 मिनट |
-| W2 | Chapter 28 Linear Programming (Graduation Maths) | 🔧 सुधार रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -35,7 +34,8 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 28 Linear Programming (Maths) — 3 बार
+- Chapter 28 Linear Programming (Maths) — 4 बार
+- Chapter 13 Awards (GK) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
@@ -66,4 +66,18 @@
 11-10 20:47:55   [Awards] written 0, failed 1; AI calls today 7/100000
 11-10 20:48:18   [Linear_Programming] repaired Content_hi.txt (7510 chars)
 11-10 20:48:18   [Linear_Programming] written 1, failed 0; AI calls today 8/100000
+11-10 20:49:55   [Awards] repaired Flashcards_hi.txt (404 chars)
+11-10 20:49:55   [Awards] written 1, failed 0; AI calls today 9/100000
+11-10 20:49:55 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards after 17 min: todo [] problems ['Flashcards_hi.txt: Hindi file is mostly not in Hindi', 'Flashcards_hi.txt: much shorter than the English section (40']
+11-10 20:49:56 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards (FIX: todo 0, problems 2)
+11-10 20:49:59   [Linear_Programming] repaired Content_hi.txt (3847 chars)
+11-10 20:49:59   [Linear_Programming] written 1, failed 0; AI calls today 10/100000
+11-10 20:50:00 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming after 6 min: todo [] problems ['Content_hi.txt: much shorter than the English section (3846 ']
+11-10 20:50:02   [Awards] REJECTED Flashcards_hi.txt: too short — not written
+11-10 20:50:04 worker 1: nothing left
+11-10 20:50:04   [Awards] written 0, failed 1; AI calls today 10/100000
+11-10 21:03:07   [Awards] FAILED Flashcards_hi.txt: empty
+11-10 21:03:07   [Awards] written 0, failed 1; AI calls today 10/100000
+11-10 21:03:08 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards after 13 min: todo [] problems ['Flashcards_hi.txt: Hindi file is mostly not in Hindi', 'Flashcards_hi.txt: much shorter than the English section (40']
+11-10 21:03:09 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards (FIX: todo 0, problems 2)
 ```
