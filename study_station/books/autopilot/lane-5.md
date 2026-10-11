@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 11-10-2026 08:52 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
+**आख़िरी update:** 11-10-2026 09:08 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 03 Adjective (10th English) | 🔧 सुधार रहा है | 4 मिनट |
-| W2 | Chapter 04 Verb (10th English) | 🔧 सुधार रहा है | 8 मिनट |
+| W1 | Chapter 03 Adjective (10th English) | 🔧 सुधार रहा है | 1 मिनट |
+| W2 | Chapter 04 Verb (10th English) | 🔧 सुधार रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -35,8 +35,8 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 04 Verb (English) — 2 बार
-- Chapter 03 Adjective (English) — 2 बार
+- Chapter 04 Verb (English) — 3 बार
+- Chapter 03 Adjective (English) — 3 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
@@ -73,4 +73,12 @@
 11-10 08:44:04   [Verb] written 0, failed 1; AI calls today 3/100000
 11-10 08:48:11   [Adjective] FAILED set 03: network
 11-10 08:48:11   [Adjective] written 0, failed 1; AI calls today 3/100000
+11-10 09:06:06   [Adjective] FAILED set 03: rate_limited
+11-10 09:06:06   [Adjective] written 0, failed 1; AI calls today 3/100000
+11-10 09:06:06 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective after 40 min: todo [] problems ['Set 03 hi: English sentence translated (keep it in English) ']
+11-10 09:06:06 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective (FIX: todo 0, problems 1)
+11-10 09:07:28   [Verb] FAILED set 01: network
+11-10 09:07:28   [Verb] written 0, failed 1; AI calls today 3/100000
+11-10 09:07:28 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb after 46 min: todo [] problems ['Set 01 hi: English sentence translated (keep it in English) ']
+11-10 09:07:28 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb (FIX: todo 0, problems 1)
 ```
