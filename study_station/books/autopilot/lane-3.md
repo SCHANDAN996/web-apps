@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 11-10-2026 09:26 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 08:55 AM
+**आख़िरी update:** 11-10-2026 09:42 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 08:55 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W2 | Chapter 16 Statement Conclusion (12th Reasoning) | 🔧 सुधार रहा है | 1 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -36,15 +34,11 @@
 
 - Chapter 07 Sitting Arrangement (Reasoning) — 4 बार
 - Chapter 20 Mirror Water Images (Reasoning) — 4 बार
-- Chapter 16 Statement Conclusion (Reasoning) — 3 बार
+- Chapter 16 Statement Conclusion (Reasoning) — 4 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 09:12:18   [Mirror_Water_Images] FAILED Flashcards_hi.txt: empty
-11-10 09:12:18   [Mirror_Water_Images] written 0, failed 1; AI calls today 12/100000
-11-10 09:12:19 NOT OK 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images after 10 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (37']
-11-10 09:12:22 START 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images (FIX: todo 0, problems 1)
 11-10 09:13:54   [Statement_Conclusion] repaired Flashcards_hi.txt (4048 chars)
 11-10 09:13:54   [Statement_Conclusion] written 1, failed 0; AI calls today 13/100000
 11-10 09:15:23   [Mirror_Water_Images] repaired Flashcards_hi.txt (4524 chars)
@@ -81,4 +75,8 @@
 11-10 09:26:45   [Mirror_Water_Images] written 1, failed 0; AI calls today 22/100000
 11-10 09:26:46 NOT OK 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images after 4 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (40']
 11-10 09:26:49 worker 2: nothing left
+11-10 09:30:46   [Statement_Conclusion] repaired Flashcards_hi.txt (3789 chars)
+11-10 09:30:46   [Statement_Conclusion] written 1, failed 0; AI calls today 22/100000
+11-10 09:30:46 NOT OK 12th_Level/Reasoning/Chapter_16_Statement_Conclusion after 8 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (37']
+11-10 09:30:50 worker 1: nothing left
 ```
