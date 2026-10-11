@@ -1,0 +1,52 @@
+```mermaid
+graph TD
+    A["खेल और प्रतियोगिताएँ<br>Sports & Competitions"] --> B["राष्ट्रीय खेल<br>National Games"]
+    A --> C["अंतरराष्ट्रीय प्रतियोगिताएँ<br>International Events"]
+    A --> D["खेल पुरस्कार<br>Sports Awards"]
+    A --> E["प्रमुख खेल और तथ्य<br>Major Sports & Facts"]
+    A --> F["परीक्षक के जाल<br>Examiner's Traps"]
+    A --> G["रणनीति<br>Strategy"]
+
+    B --> B1["राष्ट्रीय खेल 1924 से<br>National Games since 1924<br>(पहले Indian Olympic Games)"]
+    B --> B2["हॉकी = भारत का राष्ट्रीय खेल?<br>कोई आधिकारिक राष्ट्रीय खेल नहीं<br>(2012 RTI उत्तर)"]
+    B --> B3["खेलो इंडिया युवा खेल<br>Khelo India Youth Games<br>2018 से"]
+
+    C --> C1["ओलंपिक खेल<br>Olympic Games"]
+    C --> C2["एशियाई खेल<br>Asian Games"]
+    C --> C3["राष्ट्रमंडल खेल<br>Commonwealth Games"]
+    C --> C4["FIFA विश्व कप<br>FIFA World Cup"]
+    C --> C5["क्रिकेट विश्व कप<br>Cricket World Cup"]
+
+    C1 --> C1a["आधुनिक ओलंपिक 1896 एथेंस<br>Modern Olympics 1896 Athens"]
+    C1 --> C1b["ग्रीष्मकालीन + शीतकालीन<br>Summer + Winter"]
+    C1 --> C1c["IOC मुख्यालय लुसाने (स्विट्ज़रलैंड)<br>IOC HQ Lausanne"]
+    C1 --> C1d["भारत की पहली भागीदारी 1900 पेरिस<br>India's debut 1900 Paris"]
+
+    C2 --> C2a["पहले एशियाई खेल 1951 नई दिल्ली<br>First Asian Games 1951 New Delhi"]
+    C2 --> C2b["हर 4 वर्ष में<br>Every 4 years"]
+
+    C3 --> C3a["1930 से (पहले British Empire Games)<br>Since 1930"]
+    C3 --> C3b["भारत ने 2010 दिल्ली की मेज़बानी की<br>India hosted 2010 Delhi"]
+
+    D --> D1["मेजर ध्यानचंद खेल रत्न<br>Major Dhyan Chand Khel Ratna<br>(पहले राजीव गांधी खेल रत्न, 2021 में नाम बदला)"]
+    D --> D2["अर्जुन पुरस्कार 1961 से<br>Arjuna Award since 1961"]
+    D --> D3["द्रोणाचार्य पुरस्कार (कोच)<br>Dronacharya Award (Coaches)<br>1985 से"]
+    D --> D4["ध्यानचंद पुरस्कार (आजीवन योगदान)<br>Dhyan Chand Award (Lifetime)<br>2002 से"]
+    D --> D5["राष्ट्रीय खेल दिवस 29 अगस्त<br>National Sports Day 29 August<br>(ध्यानचंद जयंती)"]
+
+    E --> E1["हॉकी: 8 ओलंपिक स्वर्ण (पुरुष)<br>Hockey: 8 Olympic Golds<br>1928–1980"]
+    E --> E2["क्रिकेट: विश्व कप 1983, 2011<br>Cricket WC 1983, 2011"]
+    E --> E3["बैडमिंटन: पीवी सिंधु, साइना<br>Badminton: Sindhu, Saina"]
+    E --> E4["शतरंज: विश्वनाथन आनंद<br>Chess: Viswanathan Anand<br>5 बार विश्व चैंपियन"]
+    E --> E5["एथलेटिक्स: नीरज चोपड़ा<br>Athletics: Neeraj Chopra<br>2020 टोक्यो स्वर्ण (भाला फेंक)"]
+
+    F --> F1["जाल 1: 'हॉकी राष्ट्रीय खेल है'<br>Trap: Hockey is national game<br>→ गलत, कोई आधिकारिक घोषणा नहीं"]
+    F --> F2["जाल 2: खेल रत्न का पुराना/नया नाम<br>Trap: Old vs new Khel Ratna name"]
+    F --> F3["जाल 3: ओलंपिक वर्ष भ्रम<br>Trap: Olympic year confusion<br>(2020 टोक्यो 2021 में हुआ)"]
+    F --> F4["जाल 4: मिलते नाम<br>Trap: Similar names<br>ध्यानचंद पुरस्कार vs खेल रत्न"]
+    F --> F5["जाल 5: मेज़बान शहर/वर्ष मिलान<br>Trap: Host city-year mismatch"]
+
+    G --> G1["पुरस्कार + वर्ष + खेल याद करें<br>Remember Award + Year + Sport"]
+    G --> G2["समयबद्ध तथ्य साल के साथ पढ़ें<br>Read time-bound facts with year"]
+    G --> G3["15/45 सेकंड नियम<br>15/45 Second Rule<br>पक्का तथ्य = 15 सेकंड, शक = skip"]
+```
