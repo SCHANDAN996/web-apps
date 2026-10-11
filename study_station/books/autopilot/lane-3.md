@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 11-10-2026 08:44 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
+**आख़िरी update:** 11-10-2026 08:54 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W2 | Chapter 24 Statement Assumption (12th Reasoning) | 📤 push हो रहा है | 0 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,13 +37,10 @@
 - Chapter 07 Sitting Arrangement (Reasoning) — 4 बार
 - Chapter 16 Statement Conclusion (Reasoning) — 4 बार
 - Chapter 20 Mirror Water Images (Reasoning) — 4 बार
-- Chapter 24 Statement Assumption (Reasoning) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 07:50:59   [Statement_Assumption] written 1, failed 0; AI calls today 56/100000
-11-10 07:53:59   [Statement_Assumption] review Short_Tricks_en.txt: 1 issue(s): - The entire section is corrupted/unreadable garbage (code fragments, random characters, repeated "up+" patter
 11-10 07:56:11   [Statement_Assumption] review Important_Rules_en.txt: 1 issue(s): - File contains no educational content — only repetitive "15-second" strings with no rules, facts, or examp
 11-10 07:56:30   [Mirror_Water_Images] FAILED Flashcards_hi.txt: empty
 11-10 07:56:30   [Mirror_Water_Images] written 0, failed 1; AI calls today 69/100000
@@ -84,4 +79,6 @@
 11-10 08:36:42   [Statement_Assumption] review Important_Rules_en.txt: 1 issue(s): - File contains no educational content — only repetitive "15-second" strings and `<|close|>think` artifacts
 11-10 08:44:49   [Statement_Assumption] review: 1 section(s) corrected, 0 failed
 11-10 08:44:49   [Statement_Assumption] written 1, failed 0; AI calls today 79/100000
+11-10 08:45:10 DONE 12th_Level/Reasoning/Chapter_24_Statement_Assumption in 8 min → e9d9dbc5
+11-10 08:45:14 worker 1: nothing left
 ```
