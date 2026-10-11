@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 11-10-2026 07:22 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
+**आख़िरी update:** 11-10-2026 07:37 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 12 Biology (12th GK) | 🔧 सुधार रहा है | 16 मिनट |
-| W2 | Chapter 14 Sports (12th GK) | 🔧 सुधार रहा है | 15 मिनट |
-| W3 | Chapter 01 Number System (12th Maths) | 🔧 सुधार रहा है | 0 मिनट |
+| W1 | Chapter 12 Biology (12th GK) | 🔧 सुधार रहा है | 15 मिनट |
+| W2 | Chapter 14 Sports (12th GK) | 🔧 सुधार रहा है | 13 मिनट |
+| W3 | Chapter 01 Number System (12th Maths) | 🔧 सुधार रहा है | 15 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -55,4 +55,6 @@
 11-10 07:21:36   [Number_System] written 1, failed 0; AI calls today 5/100000
 11-10 07:22:02   [Biology] repaired Feynman_hi.txt (5346 chars)
 11-10 07:22:02   [Biology] written 1, failed 0; AI calls today 6/100000
+11-10 07:23:23   [Sports] FAILED Memory_Hooks_hi.txt: network
+11-10 07:23:23   [Sports] written 0, failed 1; AI calls today 6/100000
 ```
