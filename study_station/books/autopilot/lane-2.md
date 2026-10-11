@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 11-10-2026 10:10 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
+**आख़िरी update:** 11-10-2026 10:25 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 28 Linear Programming (Graduation Maths) | 🔧 सुधार रहा है | 8 मिनट |
+| W3 | Chapter 28 Linear Programming (Graduation Maths) | 🔧 सुधार रहा है | 5 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -42,8 +42,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 08:46:31 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards (FIX: todo 0, problems 1)
-11-10 08:48:30   [Percentage] FAILED Feynman_hi.txt: network
 11-10 08:48:30   [Percentage] written 0, failed 1; AI calls today 6/100000
 11-10 08:48:31 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_05_Percentage after 44 min: todo [] problems ['Feynman_hi.txt: much shorter than the English section (1854 ']
 11-10 08:48:33 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_05_Percentage (FIX: todo 0, problems 1)
@@ -82,4 +80,6 @@
 11-10 10:04:16   [Percentage] written 1, failed 0; AI calls today 7/100000
 11-10 10:04:16 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_05_Percentage after 32 min: todo [] problems ['Feynman_hi.txt: much shorter than the English section (2646 ']
 11-10 10:04:19 worker 1: nothing left
+11-10 10:19:33   [Linear_Programming] FAILED Content_hi.txt: network
+11-10 10:19:33   [Linear_Programming] written 0, failed 1; AI calls today 6/100000
 ```
