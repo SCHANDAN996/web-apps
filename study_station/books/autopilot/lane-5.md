@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 12-10-2026 03:19 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 03:03 AM
+**आख़िरी update:** 12-10-2026 03:35 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 03:03 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W1 | Chapter 04 Verb (10th English) | 🔧 सुधार रहा है | 0 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,7 +32,7 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 04 Verb (English) — 2 बार
+- Chapter 04 Verb (English) — 4 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
@@ -57,4 +55,14 @@
 12-10 03:16:27 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb (FIX: todo 0, problems 1)
 12-10 03:19:02   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
 12-10 03:19:02   [Verb] written 0, failed 1; AI calls today 5/100000
+12-10 03:20:39   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
+12-10 03:20:39   [Verb] written 0, failed 1; AI calls today 6/100000
+12-10 03:20:39 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb after 4 min: todo [] problems ['Set 01 hi: English sentence translated (keep it in English) ']
+12-10 03:20:40 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb (FIX: todo 0, problems 1)
+12-10 03:24:05   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
+12-10 03:24:05   [Verb] written 0, failed 1; AI calls today 7/100000
+12-10 03:25:48   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
+12-10 03:25:48   [Verb] written 0, failed 1; AI calls today 8/100000
+12-10 03:25:48 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb after 5 min: todo [] problems ['Set 01 hi: English sentence translated (keep it in English) ']
+12-10 03:25:50 worker 0: nothing left
 ```
