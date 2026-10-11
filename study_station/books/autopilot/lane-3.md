@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 11-10-2026 11:12 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:09 PM
+**आख़िरी update:** 12-10-2026 12:35 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 12:34 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 243 मिनट |
+| W1 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -20,65 +20,23 @@
 | 10th English | 19 | 0 | 1 |
 | 12th Maths | 20 | 0 | 3 |
 | 12th GK | 24 | 0 | 0 |
-| 12th Reasoning | 22 | 3 | 0 |
+| 12th Reasoning | 25 | 0 | 0 |
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 27 | 0 | 1 |
 | Graduation GK | 27 | 0 | 1 |
-| Graduation Reasoning | 27 | 0 | 3 |
-| Graduation English | 29 | 0 | 1 |
-| **कुल** | **283** | **3** | **10** |
+| Graduation Reasoning | 30 | 0 | 0 |
+| Graduation English | 30 | 0 | 0 |
+| **कुल** | **290** | **0** | **6** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
 - अभी कोई नहीं
 
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 16 Statement Conclusion (Reasoning) — 4 बार
-- Chapter 07 Sitting Arrangement (Reasoning) — 4 बार
-- Chapter 20 Mirror Water Images (Reasoning) — 4 बार
-
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 19:32:34   [Mirror_Water_Images] repaired Flashcards_hi.txt (3052 chars)
-11-10 19:32:34   [Mirror_Water_Images] written 1, failed 0; AI calls today 20/100000
-11-10 19:34:56   [Mirror_Water_Images] repaired Flashcards_hi.txt (3842 chars)
-11-10 19:34:56   [Mirror_Water_Images] written 1, failed 0; AI calls today 21/100000
-11-10 19:34:56 NOT OK 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images after 5 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (38']
-11-10 19:34:58 START 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images (FIX: todo 0, problems 1)
-11-10 19:38:02   [Mirror_Water_Images] repaired Flashcards_hi.txt (3855 chars)
-11-10 19:38:02   [Mirror_Water_Images] written 1, failed 0; AI calls today 22/100000
-11-10 19:39:52   [Puzzles] set 01: key confirmed
-11-10 19:40:22   [Mirror_Water_Images] repaired Flashcards_hi.txt (3944 chars)
-11-10 19:40:22   [Mirror_Water_Images] written 1, failed 0; AI calls today 24/100000
-11-10 19:40:23 NOT OK 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images after 5 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (39']
-11-10 19:40:24 START 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images (FIX: todo 0, problems 1)
-11-10 19:42:38   [Mirror_Water_Images] repaired Flashcards_hi.txt (4418 chars)
-11-10 19:42:38   [Mirror_Water_Images] written 1, failed 0; AI calls today 25/100000
-11-10 19:44:50   [Mirror_Water_Images] repaired Flashcards_hi.txt (3809 chars)
-11-10 19:44:50   [Mirror_Water_Images] written 1, failed 0; AI calls today 26/100000
-11-10 19:44:50 NOT OK 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images after 4 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (38']
-11-10 19:44:52 START 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images (FIX: todo 0, problems 1)
-11-10 19:47:38   [Mirror_Water_Images] repaired Flashcards_hi.txt (4012 chars)
-11-10 19:47:38   [Mirror_Water_Images] written 1, failed 0; AI calls today 27/100000
-11-10 19:49:33   [Mirror_Water_Images] repaired Flashcards_hi.txt (3200 chars)
-11-10 19:49:33   [Mirror_Water_Images] written 1, failed 0; AI calls today 28/100000
-11-10 19:49:33 NOT OK 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images after 5 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (31']
-11-10 19:49:35 worker 2: nothing left
-11-10 19:56:30   [Puzzles] set 02: Q28 key a vs re-solve b
-11-10 20:15:20   [Puzzles] set 02 try 1: re-solve disagrees (Q42 key d vs re-solve a)
-11-10 20:29:47   [Puzzles] set 02 try 2: re-solve disagrees (Q34 key c vs re-solve d)
-11-10 20:55:50   [Puzzles] set 02 try 3: re-solve disagrees (Q26: the clues allow more than one answer — add a clue so exactly one arrangement fits; Q46: the clues allow more th
-11-10 21:17:10   [Puzzles] set 02 try 4: re-solve disagrees (Q45: clues contradict each other — no arrangement fits all of them; Q46: the clues allow more than one answer — add 
-11-10 21:17:10   [Puzzles] FAILED set 02: no version passed the checks — files left as they were
-11-10 21:37:18   [Puzzles] set 03: Q51: clues contradict each other — no arrangement fits all of them; Q67: the clues allow more than one answer — add a clue so exactly one arra
-11-10 21:47:34   [Puzzles] set 03 try 1: rejected (parsed 0 questions, numbers -…-)
-11-10 22:06:08   [Puzzles] set 03 try 2: re-solve disagrees (Q67: the clues give "4", which is not among the options; Q74: the clues give "4", which is not among the options)
-11-10 22:13:03   [Puzzles] set 03 try 3: re-solve disagrees (Q52 key c vs re-solve b)
-11-10 22:25:21   [Puzzles] set 03 try 4: re-solve disagrees (Q67: the clues give "5", which is not among the options)
-11-10 22:25:21   [Puzzles] FAILED set 03: no version passed the checks — files left as they were
-11-10 22:31:07   [Puzzles] set 04: Q92 key b vs re-solve c
-11-10 22:52:16   [Puzzles] set 04 try 1: re-solve disagrees (Q76: the clues allow more than one answer — add a clue so exactly one arrangement fits; Q77: the clues allow more th
-11-10 23:08:28   [Puzzles] set 04 try 2: re-solve disagrees (Q91: clues contradict each other — no arrangement fits all of them; Q94: the clues give "6", which is not among the 
+12-10 00:34:36 autopilot start: 3 workers, reverse=True
+12-10 00:34:39 START 12th_Level/Reasoning/Chapter_08_Puzzles (OK: todo 0, problems 0)
+12-10 00:34:44 worker 1: nothing left
+12-10 00:34:49 worker 2: nothing left
 ```
