@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 11-10-2026 07:52 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
+**आख़िरी update:** 11-10-2026 08:08 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 20 Mirror Water Images (12th Reasoning) | 🔧 सुधार रहा है | 6 मिनट |
-| W2 | Chapter 24 Statement Assumption (12th Reasoning) | 🔎 review हो रहा है | 1 मिनट |
+| W1 | Chapter 20 Mirror Water Images (12th Reasoning) | 🔧 सुधार रहा है | 2 मिनट |
+| W2 | Chapter 24 Statement Assumption (12th Reasoning) | 🔎 review हो रहा है | 17 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -38,22 +38,11 @@
 
 - Chapter 07 Sitting Arrangement (Reasoning) — 4 बार
 - Chapter 16 Statement Conclusion (Reasoning) — 4 बार
+- Chapter 20 Mirror Water Images (Reasoning) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 07:24:11   [Statement_Conclusion] written 1, failed 0; AI calls today 23/100000
-11-10 07:24:11 NOT OK 12th_Level/Reasoning/Chapter_16_Statement_Conclusion after 6 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (37']
-11-10 07:24:14 START 12th_Level/Reasoning/Chapter_16_Statement_Conclusion (FIX: todo 0, problems 1)
-11-10 07:27:04   [Statement_Conclusion] repaired Flashcards_hi.txt (3920 chars)
-11-10 07:27:04   [Statement_Conclusion] written 1, failed 0; AI calls today 24/100000
-11-10 07:28:50   [Statement_Conclusion] REJECTED Flashcards_hi.txt: too short — not written
-11-10 07:28:50   [Statement_Conclusion] written 0, failed 1; AI calls today 25/100000
-11-10 07:28:50 NOT OK 12th_Level/Reasoning/Chapter_16_Statement_Conclusion after 5 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (39']
-11-10 07:28:54 START 12th_Level/Reasoning/Chapter_17_Course_of_Action (FIX: todo 0, problems 1)
-11-10 07:31:17   [Dictionary_Order] review Short_Tricks_hi.txt: 2 issue(s): - Title typo: "शबैक्रम" → "शब्दक्रम" (or "वर्णक्रम")
-11-10 07:31:24   [Course_of_Action] repaired Short_Tricks_hi.txt (8493 chars)
-11-10 07:31:24   [Course_of_Action] written 1, failed 0; AI calls today 30/100000
 11-10 07:31:40   [Course_of_Action] review Content_en.txt: 5 issue(s): - Corrupted markup tags (`<|open|>`, `<|close|>`, `<|sep|>`) appear throughout the text → remove all markup tags
 11-10 07:34:09   [Sitting_Arrangement] repaired Short_Tricks_hi.txt (62838 chars)
 11-10 07:34:09   [Sitting_Arrangement] written 1, failed 0; AI calls today 32/100000
@@ -82,4 +71,16 @@
 11-10 07:49:58 worker 2: nothing left
 11-10 07:50:59   [Statement_Assumption] repaired Short_Tricks_hi.txt (6902 chars)
 11-10 07:50:59   [Statement_Assumption] written 1, failed 0; AI calls today 56/100000
+11-10 07:53:59   [Statement_Assumption] review Short_Tricks_en.txt: 1 issue(s): - The entire section is corrupted/unreadable garbage (code fragments, random characters, repeated "up+" patter
+11-10 07:56:11   [Statement_Assumption] review Important_Rules_en.txt: 1 issue(s): - File contains no educational content — only repetitive "15-second" strings with no rules, facts, or examp
+11-10 07:56:30   [Mirror_Water_Images] FAILED Flashcards_hi.txt: empty
+11-10 07:56:30   [Mirror_Water_Images] written 0, failed 1; AI calls today 69/100000
+11-10 07:56:31 NOT OK 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images after 18 min: todo [] problems ['Flashcards_hi.txt: Hindi file is mostly not in Hindi', 'Flashcards_hi.txt: much shorter than the English section (22']
+11-10 07:56:34 START 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images (FIX: todo 0, problems 2)
+11-10 08:03:08   [Mirror_Water_Images] repaired Flashcards_hi.txt (3720 chars)
+11-10 08:03:08   [Mirror_Water_Images] written 1, failed 0; AI calls today 70/100000
+11-10 08:05:55   [Mirror_Water_Images] repaired Flashcards_hi.txt (2928 chars)
+11-10 08:05:55   [Mirror_Water_Images] written 1, failed 0; AI calls today 71/100000
+11-10 08:05:55 NOT OK 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images after 9 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (29']
+11-10 08:05:58 START 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images (FIX: todo 0, problems 1)
 ```
