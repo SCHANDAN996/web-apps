@@ -1,12 +1,14 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 12-10-2026 12:17 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 11:45 PM
+**आख़िरी update:** 12-10-2026 12:19 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 12:18 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
+| worker | अध्याय | काम | कब से |
+|---|---|---|---|
+| W1 | Chapter 04 Verb (10th English) | 🔧 सुधार रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -22,48 +24,19 @@
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 27 | 0 | 1 |
 | Graduation GK | 27 | 0 | 1 |
-| Graduation Reasoning | 29 | 0 | 1 |
-| Graduation English | 29 | 0 | 1 |
-| **कुल** | **288** | **1** | **7** |
+| Graduation Reasoning | 30 | 0 | 0 |
+| Graduation English | 30 | 0 | 0 |
+| **कुल** | **290** | **1** | **5** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
 - अभी कोई नहीं
 
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 04 Verb (English) — 4 बार
-
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 23:45:57 autopilot start: 3 workers, reverse=True
-11-10 23:45:58 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb (FIX: todo 0, problems 1)
-11-10 23:46:05 worker 1: nothing left
-11-10 23:46:10 worker 2: nothing left
-11-10 23:49:04   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
-11-10 23:49:04   [Verb] written 0, failed 1; AI calls today 1/100000
-11-10 23:51:03   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
-11-10 23:51:04   [Verb] written 0, failed 1; AI calls today 2/100000
-11-10 23:51:04 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb after 5 min: todo [] problems ['Set 01 hi: English sentence translated (keep it in English) ']
-11-10 23:51:04 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb (FIX: todo 0, problems 1)
-11-10 23:52:55   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
-11-10 23:52:55   [Verb] written 0, failed 1; AI calls today 3/100000
-11-10 23:56:42   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
-11-10 23:56:42   [Verb] written 0, failed 1; AI calls today 4/100000
-11-10 23:56:43 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb after 6 min: todo [] problems ['Set 01 hi: English sentence translated (keep it in English) ']
-11-10 23:56:43 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb (FIX: todo 0, problems 1)
-12-10 00:00:08   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
-12-10 00:00:08   [Verb] written 0, failed 1; AI calls today 0/100000
-12-10 00:03:14   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
-12-10 00:03:14   [Verb] written 0, failed 1; AI calls today 1/100000
-12-10 00:03:14 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb after 7 min: todo [] problems ['Set 01 hi: English sentence translated (keep it in English) ']
-12-10 00:03:15 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb (FIX: todo 0, problems 1)
-12-10 00:05:09   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
-12-10 00:05:09   [Verb] written 0, failed 1; AI calls today 2/100000
-12-10 00:07:03   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
-12-10 00:07:03   [Verb] written 0, failed 1; AI calls today 3/100000
-12-10 00:07:03 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb after 4 min: todo [] problems ['Set 01 hi: English sentence translated (keep it in English) ']
-12-10 00:07:06 worker 0: nothing left
-12-10 00:17:43 autopilot end: done 0, failed 1
+12-10 00:18:32 autopilot start: 3 workers, reverse=True
+12-10 00:18:32 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb (FIX: todo 0, problems 1)
+12-10 00:18:40 worker 1: nothing left
+12-10 00:18:45 worker 2: nothing left
 ```
