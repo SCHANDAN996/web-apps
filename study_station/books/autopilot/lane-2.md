@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 11-10-2026 11:39 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 10:07 PM
+**आख़िरी update:** 11-10-2026 11:55 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 10:07 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W1 | Chapter 13 Awards (Graduation GK) | 🔧 सुधार रहा है | 11 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -35,15 +33,11 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 28 Linear Programming (Maths) — 4 बार
-- Chapter 13 Awards (GK) — 3 बार
+- Chapter 13 Awards (GK) — 4 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 22:09:47 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming after 3 min: todo [] problems ['Content_hi.txt: much shorter than the English section (7850 ']
-11-10 22:09:51 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming (FIX: todo 0, problems 1)
-11-10 22:11:39   [Linear_Programming] repaired Content_hi.txt (6043 chars)
-11-10 22:11:39   [Linear_Programming] written 1, failed 0; AI calls today 4/100000
 11-10 22:13:41   [Linear_Programming] repaired Content_hi.txt (8535 chars)
 11-10 22:13:41   [Linear_Programming] written 1, failed 0; AI calls today 5/100000
 11-10 22:13:41 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming after 4 min: todo [] problems ['Content_hi.txt: much shorter than the English section (8534 ']
@@ -80,4 +74,8 @@
 11-10 23:15:17 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards (FIX: todo 0, problems 2)
 11-10 23:28:27   [Awards] FAILED Flashcards_hi.txt: empty
 11-10 23:28:27   [Awards] written 0, failed 1; AI calls today 9/100000
+11-10 23:42:28   [Awards] FAILED Flashcards_hi.txt: empty
+11-10 23:42:28   [Awards] written 0, failed 1; AI calls today 9/100000
+11-10 23:42:29 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards after 27 min: todo [] problems ['Flashcards_hi.txt: Hindi file is mostly not in Hindi', 'Flashcards_hi.txt: much shorter than the English section (33']
+11-10 23:42:33 worker 0: nothing left
 ```
