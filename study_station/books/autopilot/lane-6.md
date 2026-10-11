@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 11-10-2026 03:16 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
+**आख़िरी update:** 11-10-2026 03:22 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Analogy (10th Reasoning) | 🔎 review हो रहा है | 23 मिनट |
-| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 92 मिनट |
-| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 92 मिनट |
+| W1 | Chapter 01 Analogy (10th Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 98 मिनट |
+| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 98 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -32,17 +32,11 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 11-10 15:22 — 10th Reasoning · Chapter 01 Analogy
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 13:44:24   [Analogy] set 01: key confirmed
-11-10 13:44:42   [Classification] set 01: Q1 key a vs re-solve d, Q5 key a vs re-solve d, Q7 key c vs re-solve d, Q11 key c vs re-solve d, Q13 key a vs re-solve c, Q14 key b vs re-solv
-11-10 13:46:17   [Analogy] set 02: Q37 key d vs re-solve a, Q38 key a vs re-solve b, Q39 key b vs re-solve a
-11-10 13:52:31   [Classification] repaired set 01 (en + hi, key confirmed by an independent re-solve)
-11-10 13:54:19   [Analogy] repaired set 02 (en + hi, key confirmed by an independent re-solve)
-11-10 13:55:20   [Coding_Decoding] set 01: Q20 key d vs re-solve a, Q21 key a vs re-solve c
 11-10 13:55:40   [Classification] set 02: Q26 key a vs re-solve b, Q32 key c vs re-solve d, Q35 key b vs re-solve a, Q37 key d vs re-solve a, Q38 key a vs re-solve c, Q39 key b vs re-s
 11-10 13:57:32   [Analogy] set 03: Q54 key d vs re-solve a
 11-10 14:00:31   [Coding_Decoding] set 01 try 1: rejected (Q12:leaked_reasoning)
@@ -77,4 +71,10 @@
 11-10 15:10:08   [Coding_Decoding] set 03: Q60 key b vs re-solve a, Q68 key b vs re-solve a
 11-10 15:13:15   [Analogy] review PYQ_en.txt: 3 issue(s): - Introductory claim "2–4 questions appear in almost every exam" is an invented exam statistic with no source → Remove 
 11-10 15:16:33   [Analogy] review PYQ_hi.txt: 3 issue(s): - The year-wise frequency table (2014‑2023) for SSC, Banking, Railway and State Police presents invented statistics wit
+11-10 15:17:59   [Classification] set 05 try 1: re-solve disagrees (Q108 key b vs re-solve c, Q119 key a vs re-solve d, Q123 key b vs re-solve d)
+11-10 15:19:48   [Analogy] review Important_Rules_en.txt: 1 issue(s): - Example "8:27 → Cube" is incorrect; 8³ = 512, not 27 → Use a correct cube example like "3:27" or "4:64"
+11-10 15:21:18   [Analogy] review Important_Rules_hi.txt: 1 issue(s): - In 'पहले आम संख्या संक्रियाएँ देखें', the cube example '8:27 → घन' is incorrect because 8 is not the cube
+11-10 15:21:36   [Classification] set 05 try 2: re-solve disagrees (Q123 key b vs re-solve d)
+11-10 15:22:05   [Analogy] review: 8 section(s) corrected, 0 failed
+11-10 15:22:05   [Analogy] written 8, failed 0; AI calls today 90/100000
 ```
