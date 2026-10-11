@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 11-10-2026 07:02 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 05:17 PM
+**आख़िरी update:** 11-10-2026 07:06 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 05:17 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Simple Interest (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W2 | Chapter 06 Average (10th Maths) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 08 Profit Loss (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 20 मिनट |
+| W1 | Chapter 09 Simple Interest (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W3 | Chapter 08 Profit Loss (10th Maths) | 🔎 review हो रहा है | 2 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -47,11 +46,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 18:24:59 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_04_Fractions_Decimals in 38 min → c3799340
-11-10 18:25:01 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_06_Average (OK: todo 0, problems 0)
-11-10 18:25:40   [Percentage] set 06: key confirmed
-11-10 18:25:40   [Percentage] written 1, failed 0; AI calls today 123/100000
-11-10 18:25:58   [Simplification] review: 2 section(s) corrected, 0 failed
 11-10 18:25:58   [Simplification] written 2, failed 0; AI calls today 124/100000
 11-10 18:26:05   [Average] set 01: key confirmed
 11-10 18:26:19 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_03_Simplification in 44 min → 70d58a9b
@@ -87,4 +81,9 @@
 11-10 19:01:26 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_09_Simple_Interest (OK: todo 0, problems 0)
 11-10 19:02:20   [Average] review: 0 section(s) corrected, 0 failed
 11-10 19:02:20   [Average] written 0, failed 0; AI calls today 194/100000
+11-10 19:02:44 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_06_Average in 37 min → 8f63b5f0
+11-10 19:02:47 worker 1: nothing left
+11-10 19:03:25   [Profit_Loss] set 06: key confirmed
+11-10 19:03:25   [Profit_Loss] written 0, failed 0; AI calls today 194/100000
+11-10 19:05:21   [Simple_Interest] set 01: key confirmed
 ```
