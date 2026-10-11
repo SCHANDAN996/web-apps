@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 11-10-2026 07:48 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 05:17 PM
+**आख़िरी update:** 11-10-2026 07:52 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 05:17 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W1 | Chapter 09 Simple Interest (10th Maths) | 📤 push हो रहा है | 0 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -47,8 +45,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 18:44:22   [Average] set 04: key confirmed
-11-10 18:45:23   [Profit_Loss] set 01: key confirmed
 11-10 18:47:48   [Profit_Loss] set 02: key confirmed
 11-10 18:48:01   [Average] set 05: key confirmed
 11-10 18:48:34   [Ratio_Proportion] set 05: key confirmed
@@ -87,4 +83,6 @@
 11-10 19:41:56   [Simple_Interest] review Mind_Map.txt: 1 issue(s): - T4 English translation "Half-yearly rate: double T, halve R" contradicts Hindi "R आधा नहीं" (do not halve R) → Corr
 11-10 19:48:21   [Simple_Interest] review: 2 section(s) corrected, 0 failed
 11-10 19:48:21   [Simple_Interest] written 2, failed 0; AI calls today 231/100000
+11-10 19:48:45 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_09_Simple_Interest in 47 min → d89074ee
+11-10 19:48:48 worker 0: nothing left
 ```
