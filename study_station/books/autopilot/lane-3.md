@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 11-10-2026 08:23 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
+**आख़िरी update:** 11-10-2026 08:39 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 24 Statement Assumption (12th Reasoning) | 🔎 review हो रहा है | 7 मिनट |
+| W2 | Chapter 24 Statement Assumption (12th Reasoning) | 🔎 review हो रहा है | 2 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -38,17 +38,11 @@
 - Chapter 07 Sitting Arrangement (Reasoning) — 4 बार
 - Chapter 16 Statement Conclusion (Reasoning) — 4 बार
 - Chapter 20 Mirror Water Images (Reasoning) — 4 बार
-- Chapter 24 Statement Assumption (Reasoning) — 1 बार
+- Chapter 24 Statement Assumption (Reasoning) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 07:46:36   [Mirror_Water_Images] written 1, failed 0; AI calls today 50/100000
-11-10 07:46:52 DONE 12th_Level/Reasoning/Chapter_13_Dictionary_Order in 8 min → 62c6e159
-11-10 07:46:55 START 12th_Level/Reasoning/Chapter_24_Statement_Assumption (FIX: todo 0, problems 1)
-11-10 07:49:33   [Course_of_Action] review: 2 section(s) corrected, 0 failed
-11-10 07:49:33   [Course_of_Action] written 2, failed 0; AI calls today 56/100000
-11-10 07:49:55 DONE 12th_Level/Reasoning/Chapter_17_Course_of_Action in 21 min → 8e8b5771
 11-10 07:49:58 worker 2: nothing left
 11-10 07:50:59   [Statement_Assumption] repaired Short_Tricks_hi.txt (6902 chars)
 11-10 07:50:59   [Statement_Assumption] written 1, failed 0; AI calls today 56/100000
@@ -83,4 +77,10 @@
 11-10 08:21:04   [Mirror_Water_Images] written 0, failed 1; AI calls today 78/100000
 11-10 08:21:05 NOT OK 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images after 7 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (41']
 11-10 08:21:08 worker 0: nothing left
+11-10 08:36:34   [Statement_Assumption] FAILED review Important_Rules_en.txt: too_long — the chapter must not be published unreviewed
+11-10 08:36:34   [Statement_Assumption] review: 0 section(s) corrected, 1 failed
+11-10 08:36:34   [Statement_Assumption] written 0, failed 1; AI calls today 77/100000
+11-10 08:36:35 NOT OK 12th_Level/Reasoning/Chapter_24_Statement_Assumption after 20 min: todo [] problems []
+11-10 08:36:38 START 12th_Level/Reasoning/Chapter_24_Statement_Assumption (OK: todo 0, problems 0)
+11-10 08:36:42   [Statement_Assumption] review Important_Rules_en.txt: 1 issue(s): - File contains no educational content — only repetitive "15-second" strings and `<|close|>think` artifacts
 ```
