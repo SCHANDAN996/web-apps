@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 01:51 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 12:34 AM
+**आख़िरी update:** 12-10-2026 02:06 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 12:34 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 76 मिनट |
-| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 76 मिनट |
-| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 76 मिनट |
+| W1 | Chapter 01 Analogy (10th Reasoning) | 🔎 review हो रहा है | 1 मिनट |
+| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 91 मिनट |
+| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 91 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,12 +37,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 00:34:46 START 10th_Level/Reasoning/Chapter_02_Classification (OK: todo 0, problems 0)
-12-10 00:34:51 START 10th_Level/Reasoning/Chapter_03_Coding_Decoding (OK: todo 0, problems 0)
-12-10 00:35:50   [Analogy] set 01: Q11 key c vs re-solve a, Q24 key d vs re-solve a
-12-10 00:36:20   [Classification] set 01: Q1 key a vs re-solve d, Q5 key a vs re-solve d, Q7 key c vs re-solve d, Q11 key c vs re-solve d, Q13 key a vs re-solve c, Q14 key b vs re-solv
-12-10 00:40:36   [Classification] set 01 try 1: re-solve disagrees (Q5 key c vs re-solve d, Q17 key c vs re-solve d)
-12-10 00:41:56   [Analogy] repaired set 01 (en + hi, key confirmed by an independent re-solve)
 12-10 00:43:40   [Classification] set 01 try 2: re-solve disagrees (Q17 key b vs re-solve d)
 12-10 00:46:03   [Analogy] set 02: Q41 key b vs re-solve d
 12-10 00:47:07   [Classification] set 01 try 3: re-solve disagrees (Q17 key d vs re-solve b)
@@ -77,4 +71,10 @@
 12-10 01:45:11   [Classification] set 04: Q76 key a vs re-solve d, Q78 key c vs re-solve d, Q80 key a vs re-solve c, Q85 key b vs re-solve d, Q86 key c vs re-solve d, Q88 key a vs re-s
 12-10 01:50:06   [Analogy] repaired set 05 (en + hi, key confirmed by an independent re-solve)
 12-10 01:51:07   [Classification] set 04 try 1: re-solve disagrees (Q90 key b vs re-solve d, Q94 key d vs re-solve b)
+12-10 01:55:34   [Classification] set 04 try 2: re-solve disagrees (Q90 key c vs re-solve d, Q94 key c vs re-solve b)
+12-10 01:57:19   [Analogy] set 06: Q129 key b vs re-solve c, Q141 key a vs re-solve b, Q145 key b vs re-solve c
+12-10 02:00:12   [Analogy] set 06 try 1: re-solve disagrees (Q147 key a vs re-solve c)
+12-10 02:01:17   [Coding_Decoding] set 02 try 1: re-solve disagrees (Q30 key b vs re-solve a, Q38 key a vs re-solve d)
+12-10 02:04:49   [Analogy] repaired set 06 (en + hi, key confirmed by an independent re-solve)
+12-10 02:04:49   [Analogy] written 6, failed 0; AI calls today 93/100000
 ```
