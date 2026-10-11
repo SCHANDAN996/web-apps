@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 11-10-2026 07:46 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
+**आख़िरी update:** 11-10-2026 07:49 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 20 Mirror Water Images (12th Reasoning) | 🔧 सुधार रहा है | 8 मिनट |
-| W2 | Chapter 13 Dictionary Order (12th Reasoning) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 17 Course of Action (12th Reasoning) | 🔎 review हो रहा है | 15 मिनट |
+| W1 | Chapter 20 Mirror Water Images (12th Reasoning) | 🔧 सुधार रहा है | 2 मिनट |
+| W2 | Chapter 24 Statement Assumption (12th Reasoning) | 🔧 सुधार रहा है | 2 मिनट |
+| W3 | Chapter 17 Course of Action (12th Reasoning) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -32,21 +32,17 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 11-10 07:49 — 12th Reasoning · Chapter 17 Course of Action
 - 11-10 07:46 — 12th Reasoning · Chapter 13 Dictionary Order
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 07 Sitting Arrangement (Reasoning) — 4 बार
 - Chapter 16 Statement Conclusion (Reasoning) — 4 बार
-- Chapter 13 Dictionary Order (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 07:20:05   [Statement_Conclusion] repaired Flashcards_hi.txt (4408 chars)
-11-10 07:20:05   [Statement_Conclusion] written 1, failed 0; AI calls today 19/100000
-11-10 07:21:08   [Sitting_Arrangement] repaired Short_Tricks_hi.txt (4621 chars)
-11-10 07:21:08   [Sitting_Arrangement] written 1, failed 0; AI calls today 21/100000
 11-10 07:21:09 NOT OK 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement after 6 min: todo [] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
 11-10 07:21:11 START 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement (FIX: todo 0, problems 1)
 11-10 07:21:38   [Dictionary_Order] review PYQ_en.txt: 1 issue(s): - Q3 solution states Mango's 4th letter is 'o' and orders words as Manage, Manner, Mango, Mantle, Manual; actually Mang
@@ -83,4 +79,8 @@
 11-10 07:46:30   [Dictionary_Order] written 2, failed 0; AI calls today 50/100000
 11-10 07:46:36   [Mirror_Water_Images] repaired Flashcards_hi.txt (2288 chars)
 11-10 07:46:36   [Mirror_Water_Images] written 1, failed 0; AI calls today 50/100000
+11-10 07:46:52 DONE 12th_Level/Reasoning/Chapter_13_Dictionary_Order in 8 min → 62c6e159
+11-10 07:46:55 START 12th_Level/Reasoning/Chapter_24_Statement_Assumption (FIX: todo 0, problems 1)
+11-10 07:49:33   [Course_of_Action] review: 2 section(s) corrected, 0 failed
+11-10 07:49:33   [Course_of_Action] written 2, failed 0; AI calls today 56/100000
 ```

@@ -1,0 +1,39 @@
+```mermaid
+graph TD
+    A["कथन और कार्यवाही<br>Statement & Course of Action"] --> B["परिभाषा<br>Definition"]
+    A --> C["कार्यवाही की जाँच<br>Tests of Valid Action"]
+    A --> D["उत्तर विकल्प<br>Answer Options"]
+    A --> E["हल करने की रणनीति<br>Strategy"]
+    A --> F["समय प्रबंधन<br>Time Management"]
+    A --> G["परीक्षक के जाल<br>Examiner Traps"]
+
+    B --> B1["कथन = समस्या/स्थिति<br>Statement = Problem/Situation"]
+    B --> B2["कार्यवाही = तार्किक कदम<br>Action = Logical Step"]
+    B --> B3["कार्यवाही कथन से जुड़ी हो<br>Action must follow Statement"]
+
+    C --> C1["समस्या का समाधान करे?<br>Solves the Problem?"]
+    C --> C2["व्यावहारिक व संभव?<br>Practical & Feasible?"]
+    C --> C3["कानूनी व नैतिक?<br>Legal & Ethical?"]
+    C --> C4["कारण पर प्रहार, लक्षण पर नहीं<br>Attacks Cause, not Symptom"]
+
+    D --> D1["केवल I अनुसरण करता है<br>Only I follows"]
+    D --> D2["केवल II अनुसरण करता है<br>Only II follows"]
+    D --> D3["I या II अनुसरण करता है<br>Either I or II follows"]
+    D --> D4["न I न II<br>Neither I nor II"]
+    D --> D5["I और II दोनों<br>Both I and II"]
+
+    E --> E1["कथन की समस्या पहचानो<br>Identify the Problem"]
+    E --> E2["हर कार्यवाही अलग जाँचो<br>Test Each Action Separately"]
+    E --> E3["Either-Or: परस्पर विरोधी व पूर्ण<br>Either-Or: Mutually Exclusive & Exhaustive"]
+    E --> E4["दोनों सही हों तो 'दोनों'<br>Both Correct → Both"]
+
+    F --> F1["प्रति प्रश्न 30-40 सेकंड<br>30-40 Seconds per Question"]
+    F --> F2["पहले कथन, फिर कार्यवाही पढ़ो<br>Read Statement First, then Actions"]
+    F --> F3["अटकने पर छोड़ो, बाद में आओ<br>Skip if Stuck, Return Later"]
+
+    G --> G1["अत्यधिक/अव्यावहारिक कार्यवाही<br>Extreme/Impractical Action"]
+    G --> G2["कथन का पुनरावृत्ति = कार्यवाही नहीं<br>Restating Statement ≠ Action"]
+    G --> G3["भावनात्मक/दंडात्मक कदम से बचो<br>Avoid Emotional/Punitive Steps"]
+    G --> G4["Either-Or का गलत प्रयोग<br>Wrong Use of Either-Or"]
+    G --> G5["अधूरी जानकारी पर निर्णय<br>Judging on Incomplete Info"]
+```
