@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 11-10-2026 07:52 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
+**आख़िरी update:** 11-10-2026 08:07 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Awards (Graduation GK) | 🔧 सुधार रहा है | 1 मिनट |
-| W2 | Chapter 05 Percentage (Graduation Maths) | 🔧 सुधार रहा है | 24 मिनट |
-| W3 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 6 मिनट |
+| W1 | Chapter 13 Awards (Graduation GK) | 🔧 सुधार रहा है | 5 मिनट |
+| W2 | Chapter 05 Percentage (Graduation Maths) | 🔧 सुधार रहा है | 3 मिनट |
+| W3 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 22 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,7 +37,8 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 25 Probability (Maths) — 2 बार
-- Chapter 13 Awards (GK) — 1 बार
+- Chapter 13 Awards (GK) — 2 बार
+- Chapter 05 Percentage (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
@@ -64,4 +65,15 @@
 11-10 07:50:47   [Awards] written 0, failed 1; AI calls today 3/100000
 11-10 07:50:48 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards after 45 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (38']
 11-10 07:50:48 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards (FIX: todo 0, problems 1)
+11-10 07:56:05   [Probability] Practice_en_Set_06.txt try 1: rejected (Q136:leaked_reasoning)
+11-10 07:56:47   [Awards] repaired Flashcards_hi.txt (4133 chars)
+11-10 07:56:47   [Awards] written 1, failed 0; AI calls today 5/100000
+11-10 08:02:30   [Awards] repaired Flashcards_hi.txt (4555 chars)
+11-10 08:02:30   [Awards] written 1, failed 0; AI calls today 6/100000
+11-10 08:02:30 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards after 12 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (45']
+11-10 08:02:31 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards (FIX: todo 0, problems 1)
+11-10 08:04:30   [Percentage] FAILED Feynman_hi.txt: too_long
+11-10 08:04:30   [Percentage] written 0, failed 1; AI calls today 6/100000
+11-10 08:04:30 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_05_Percentage after 58 min: todo [] problems ['Feynman_hi.txt: much shorter than the English section (1854 ']
+11-10 08:04:32 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_05_Percentage (FIX: todo 0, problems 1)
 ```
