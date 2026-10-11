@@ -225,8 +225,11 @@ def verdict(spec, key_letter):
     return ''
 
 
-def formalize_request(text):
-    qs = parse_mcq_text(text)
+CHUNK = 7                            # questions per model call: a whole set of JSON is too long for one answer
+
+
+def formalize_request(text, qs=None):
+    qs = parse_mcq_text(text) if qs is None else qs
     body = '\n\n'.join(f'{q.number}. {q.text}\n' + ' '.join(f'({l}) {o}' for l, o in zip('abcd', q.options))
                        for q in qs)
     return f'<questions>\n{body}\n</questions>\n\nTranslate every question above (one JSON object each).'
@@ -245,9 +248,16 @@ def _parse_json_array(answer):
 
 def problems(ask, text):
     """Per-question problems of a practice set: ['Q12: …']. Questions the model skips are not judged."""
-    keys = {q.number: 'abcd'[q.answer_index] for q in parse_mcq_text(text)}
+    qs = parse_mcq_text(text)
+    keys = {q.number: 'abcd'[q.answer_index] for q in qs}
+    specs = []
+    for i in range(0, len(qs), CHUNK):
+        chunk = qs[i:i + CHUNK]
+        nums = {str(q.number) for q in chunk}
+        specs += [s for s in _parse_json_array(ask(FORMALIZE_SYSTEM, formalize_request(text, chunk)))
+                  if str(s.get('q')) in nums]
     out = []
-    for spec in _parse_json_array(ask(FORMALIZE_SYSTEM, formalize_request(text))):
+    for spec in specs:
         try:
             q = int(spec['q'])
             if spec.get('layout') == 'skip' or q not in keys:
