@@ -232,7 +232,7 @@ Answer: (d) 7
 | Zero Blindspot | Q2, Q4 | Bracket evaluates to 0 | Scan for (a – a) patterns early |
 | Fraction Overload | Q3, Q7 | Mixed fractions + nested brackets | Convert all to improper fractions first |
 | Sign Reversal | Q5, Q10 | Minus before bracket; double negatives | Bracket expansion: flip signs methodically |
-| DM Left-Right Violation | Q6 | ÷ and × in same expression | Underline DM and AS pairs; arrow left→right |
+| Running Subtraction Cascade | Q6 | Long chain of subtractions with an unknown | Go left to right, one operation at a time |
 | Percentage-Fraction Mix | Q9 | % and fraction "of" together | Memorize 1/2 to 1/20 fraction-% equivalents |
 
 📈 What to Prioritise
