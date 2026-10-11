@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 11-10-2026 04:24 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:07 PM
+**आख़िरी update:** 11-10-2026 04:39 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:07 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 69 मिनट |
-| W2 | Chapter 06 Order Ranking (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 77 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 77 मिनट |
+| W1 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 84 मिनट |
+| W2 | Chapter 06 Order Ranking (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 92 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 92 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -80,4 +80,6 @@
 11-10 16:10:04   [Sitting_Arrangement] set 01 try 1: re-solve disagrees (Q4: the clues give "s" (option b), but the key says (d); Q5: the clues allow more than one answer — add a clue so ex
 11-10 16:11:22   [Order_Ranking] set 04: Q81: the clues allow more than one answer — add a clue so exactly one arrangement fits; Q83: the clues allow more than one answer — add a clue
 11-10 16:21:51   [Puzzles] set 01 try 1: re-solve disagrees (Q18 key a vs re-solve c)
+11-10 16:26:05   [Puzzles] set 01 try 2: rejected (Q12:leaked_reasoning)
+11-10 16:27:36   [Order_Ranking] set 04 try 1: re-solve disagrees (Q81: the clues allow more than one answer — add a clue so exactly one arrangement fits; Q83: the clues allow more th
 ```
