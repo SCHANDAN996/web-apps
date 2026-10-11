@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 11-10-2026 08:37 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
+**आख़िरी update:** 11-10-2026 08:52 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 03 Adjective (10th English) | 🔧 सुधार रहा है | 11 मिनट |
-| W2 | Chapter 04 Verb (10th English) | 🔧 सुधार रहा है | 16 मिनट |
+| W1 | Chapter 03 Adjective (10th English) | 🔧 सुधार रहा है | 4 मिनट |
+| W2 | Chapter 04 Verb (10th English) | 🔧 सुधार रहा है | 8 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -21,13 +21,13 @@
 | 10th English | 18 | 2 | 0 |
 | 12th Maths | 20 | 0 | 3 |
 | 12th GK | 22 | 0 | 2 |
-| 12th Reasoning | 21 | 0 | 4 |
+| 12th Reasoning | 22 | 0 | 3 |
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 25 | 0 | 3 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 27 | 0 | 3 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **277** | **2** | **17** |
+| **कुल** | **278** | **2** | **16** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -69,4 +69,8 @@
 11-10 08:25:43   [Adjective] written 0, failed 1; AI calls today 3/100000
 11-10 08:25:43 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective after 44 min: todo [] problems ['Set 03 hi: English sentence translated (keep it in English) ']
 11-10 08:25:43 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective (FIX: todo 0, problems 1)
+11-10 08:44:04   [Verb] FAILED set 01: network
+11-10 08:44:04   [Verb] written 0, failed 1; AI calls today 3/100000
+11-10 08:48:11   [Adjective] FAILED set 03: network
+11-10 08:48:11   [Adjective] written 0, failed 1; AI calls today 3/100000
 ```
