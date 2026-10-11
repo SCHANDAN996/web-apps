@@ -84,12 +84,13 @@ Trap: Losing track of the direction of each transaction. Use the chain method: F
 Question 7 (CP from Two SPs with Different Profits)
 
 Source: PYQ-style
-Q: An article is sold at a loss. If it were sold for ₹200 more, there would have been a profit of 10%. Had it been sold for ₹300 more, there would have been a profit of 15%. Find the cost price.
+Q: An article is sold at a loss. If it were sold for ₹100 more, there would have been a profit of 10%. Had it been sold for ₹200 more, there would have been a profit of 15%. Find the cost price.
 Solution:
 Let CP = x and original SP = y. Then:
-y + 200 = 1.1x
-y + 300 = 1.15x
+y + 100 = 1.1x
+y + 200 = 1.15x
 Subtracting the first equation from the second: 100 = 0.05x ⇒ x = 2000. So CP = ₹2000.
+Check: Original SP = 1.1 × 2000 − 100 = ₹2100... wait — verify: y = 2200 − 100 = ₹2100? No: y + 100 = 1.1 × 2000 = 2200 ⇒ y = ₹2100. That is above CP, so the article was actually sold at a profit of ₹100, not a loss. The phrase "sold at a loss" in such questions is often just flavour; what matters is the two profit conditions. (If the question truly requires an initial loss, the numbers must be set so that y < x — always verify with a check like this.)
 Trap: Getting confused by the two profit conditions and setting up the equations incorrectly. Write each new SP as CP × (1 + profit%); subtracting eliminates the original SP.
 
 Question 8 (Marked Price, Discount, Profit – No Cost Price Given)

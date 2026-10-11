@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 11-10-2026 07:06 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 05:17 PM
+**आख़िरी update:** 11-10-2026 07:20 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 05:17 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Simple Interest (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W3 | Chapter 08 Profit Loss (10th Maths) | 🔎 review हो रहा है | 2 मिनट |
+| W1 | Chapter 09 Simple Interest (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 19 मिनट |
+| W3 | Chapter 08 Profit Loss (10th Maths) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -31,6 +31,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 11-10 19:20 — 10th Maths · Chapter 08 Profit Loss
 - 11-10 19:02 — 10th Maths · Chapter 06 Average
 - 11-10 19:01 — 10th Maths · Chapter 07 Ratio Proportion
 - 11-10 18:41 — 10th Maths · Chapter 05 Percentage
@@ -46,12 +47,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 18:25:58   [Simplification] written 2, failed 0; AI calls today 124/100000
-11-10 18:26:05   [Average] set 01: key confirmed
-11-10 18:26:19 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_03_Simplification in 44 min → 70d58a9b
-11-10 18:26:21 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_07_Ratio_Proportion (OK: todo 0, problems 0)
-11-10 18:28:21   [Ratio_Proportion] set 01: key confirmed
-11-10 18:28:50   [Percentage] review Mind_Map.txt: 1 issue(s): - C3: "8.33% = 1/12" is inaccurate (1/12 = 8.333…%) → Write "8.33% ≈ 1/12" or "8.33% (approx) = 1/12"
 11-10 18:31:04   [Average] set 02: key confirmed
 11-10 18:33:20   [Ratio_Proportion] set 02: key confirmed
 11-10 18:34:52   [Average] set 03: key confirmed
@@ -86,4 +81,10 @@
 11-10 19:03:25   [Profit_Loss] set 06: key confirmed
 11-10 19:03:25   [Profit_Loss] written 0, failed 0; AI calls today 194/100000
 11-10 19:05:21   [Simple_Interest] set 01: key confirmed
+11-10 19:09:22   [Simple_Interest] set 02: key confirmed
+11-10 19:11:34   [Profit_Loss] review PYQ_en.txt: 1 issue(s): - Question 7 states "An article is sold at a loss" but the solution yields CP = ₹2000 and original SP = ₹2000 (break-ev
+11-10 19:16:03   [Simple_Interest] set 03: key confirmed
+11-10 19:18:25   [Profit_Loss] review Short_Tricks_en.txt: 1 issue(s): - Trick 5 formula missing parentheses: “Profit % = (error / true weight – error) × 100” is ambiguous and mathe
+11-10 19:20:57   [Profit_Loss] review: 2 section(s) corrected, 0 failed
+11-10 19:20:57   [Profit_Loss] written 2, failed 0; AI calls today 213/100000
 ```
