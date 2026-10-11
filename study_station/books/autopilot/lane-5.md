@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 11-10-2026 03:27 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
+**आख़िरी update:** 11-10-2026 03:30 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 Fractions Decimals (10th Maths) | 📤 push हो रहा है | 0 मिनट |
-| W2 | Chapter 06 Average (10th Maths) | 🔎 review हो रहा है | 9 मिनट |
-| W3 | Chapter 07 Ratio Proportion (10th Maths) | 🔎 review हो रहा है | 1 मिनट |
+| W1 | Chapter 08 Profit Loss (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W2 | Chapter 06 Average (10th Maths) | 🔎 review हो रहा है | 13 मिनट |
+| W3 | Chapter 07 Ratio Proportion (10th Maths) | 🔎 review हो रहा है | 4 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -45,10 +45,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 14:51:44   [Fractions_Decimals] written 1, failed 0; AI calls today 85/100000
-11-10 14:53:23   [Fractions_Decimals] review Content_en.txt: 3 issue(s): - "In 1999, a Mars orbiter was lost because one team used miles while another used kilometres" → The Mars Climate O
-11-10 14:53:48   [Percentage] review Flashcards_en.txt: 1 issue(s): - Card 17 states "8.33% = 8.33/100 ≈ 1/12 exactly" which is contradictory and false; 8.33% is not exactly 1/12 →
-11-10 14:54:08   [Simplification] review PYQ_en.txt: 9 issue(s): - Frequency table (Avg Qs/Year) presents invented exam statistics without source → remove or cite authentic data source
 11-10 14:58:02   [Fractions_Decimals] review Content_hi.txt: 2 issue(s): - The Mars Climate Orbiter anecdote states the loss was “$300 million+ due to a decimal‑place mistake”; in fact the
 11-10 14:58:19   [Simplification] review PYQ_hi.txt: 3 issue(s): - The frequency and trend analysis table (आवृत्ति और रुझान विश्लेषण) presents invented statistics (average questions pe
 11-10 15:01:27   [Fractions_Decimals] review Feynman_en.txt: 1 issue(s): - The pani puri example states ⅔ ÷ ⅙ = 12 puris, but ⅔ ÷ ⅙ = (⅔) × 6 = 4 puris. → Correct answer: 4 puris.
@@ -85,4 +81,8 @@
 11-10 15:26:02   [Ratio_Proportion] written 1, failed 0; AI calls today 141/100000
 11-10 15:27:03   [Fractions_Decimals] review: 7 section(s) corrected, 0 failed
 11-10 15:27:03   [Fractions_Decimals] written 7, failed 0; AI calls today 142/100000
+11-10 15:27:14   [Ratio_Proportion] review Content_en.txt: 2 issue(s): - The claim that the cross-product rule solves 40% of exam problems is an invented exam statistic. → Remove the uns
+11-10 15:27:18 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_04_Fractions_Decimals in 55 min → 212e1608
+11-10 15:27:19 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_08_Profit_Loss (OK: todo 0, problems 0)
+11-10 15:28:25   [Profit_Loss] set 01: key confirmed
 ```
