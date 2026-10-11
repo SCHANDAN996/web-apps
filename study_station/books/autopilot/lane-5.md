@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 11-10-2026 02:26 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
+**आख़िरी update:** 11-10-2026 02:29 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 Verb (10th English) | 🔧 सुधार रहा है | 4 मिनट |
-| W2 | Chapter 01 Number System (10th Maths) | 🔎 review हो रहा है | 33 मिनट |
-| W3 | Chapter 02 LCM HCF (10th Maths) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 04 Verb (10th English) | 🔧 सुधार रहा है | 2 मिनट |
+| W2 | Chapter 01 Number System (10th Maths) | 🔎 review हो रहा है | 37 मिनट |
+| W3 | Chapter 03 Simplification (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -41,11 +41,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 13:45:13   [Number_System] set 02: key confirmed
-11-10 13:45:45   [Number_System] set 03: key confirmed
-11-10 13:46:08   [LCM_HCF] set 02: key confirmed
-11-10 13:47:39   [LCM_HCF] set 03: key confirmed
-11-10 13:48:21   [Number_System] set 04: key confirmed
 11-10 13:48:36   [LCM_HCF] set 04: key confirmed
 11-10 13:49:05   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
 11-10 13:49:05   [Verb] written 0, failed 1; AI calls today 11/100000
@@ -81,4 +76,9 @@
 11-10 14:23:54   [Number_System] review Short_Tricks_en.txt: 1 issue(s): - Trick 8 incorrectly claims 531 has only one digit → 531 has three digits; its last two digits are 31 (not di
 11-10 14:26:25   [LCM_HCF] review: 3 section(s) corrected, 0 failed
 11-10 14:26:25   [LCM_HCF] written 3, failed 0; AI calls today 48/100000
+11-10 14:26:40 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_02_LCM_HCF in 43 min → 205e2577
+11-10 14:26:41 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_03_Simplification (OK: todo 0, problems 0)
+11-10 14:27:30   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
+11-10 14:27:30   [Verb] written 0, failed 1; AI calls today 49/100000
+11-10 14:28:58   [Simplification] set 01: key confirmed
 ```
