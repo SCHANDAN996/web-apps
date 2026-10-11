@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 11-10-2026 05:03 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
+**आख़िरी update:** 11-10-2026 05:17 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W1 | Chapter 08 Profit Loss (10th Maths) | 📤 push हो रहा है | 0 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -47,8 +45,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 15:27:19 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_08_Profit_Loss (OK: todo 0, problems 0)
-11-10 15:28:25   [Profit_Loss] set 01: key confirmed
 11-10 15:31:01   [Profit_Loss] set 02: key confirmed
 11-10 15:32:43   [Profit_Loss] set 03: key confirmed
 11-10 15:32:45   [Ratio_Proportion] review Content_hi.txt: 2 issue(s): - "हर एक दिन, बिना किसी कैलकुलेटर के, आपका दिमाग 10,000 से ज्यादा अनुपात की गणनाएँ करता है" → यह दावा असत्यापित और 
@@ -87,4 +83,6 @@
 11-10 16:43:29   [Profit_Loss] review PYQ_hi.txt: 1 issue(s): - 'पिछले 10 वर्षों' का दावा लेकिन अवधि 2014-2024 (11 वर्ष) दी गई है → 'पिछले 11 वर्षों' लिखें या अवधि 2015-2024 करें
 11-10 17:03:43   [Profit_Loss] review: 5 section(s) corrected, 0 failed
 11-10 17:03:43   [Profit_Loss] written 5, failed 0; AI calls today 205/100000
+11-10 17:03:55 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_08_Profit_Loss in 96 min → 23ca4fe7
+11-10 17:03:57 worker 0: nothing left
 ```
