@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 11-10-2026 06:05 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
+**आख़िरी update:** 11-10-2026 06:20 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 42 मिनट |
-| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 101 मिनट |
-| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 261 मिनट |
+| W1 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 58 मिनट |
+| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 277 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -36,18 +35,12 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 02 Classification (Reasoning) — 1 बार
+- Chapter 02 Classification (Reasoning) — 2 बार
 - Chapter 04 Blood Relations (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 16:23:40   [Classification] FAILED set 06: no version passed the checks — files left as they were
-11-10 16:23:40   [Classification] written 4, failed 2; AI calls today 116/100000
-11-10 16:23:40 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_02_Classification: ['FAILED set 05: no version passed the checks — files left as they were', 'FAILED set 06: no version passed the checks — files left as they were']
-11-10 16:23:40 START 10th_Level/Reasoning/Chapter_02_Classification (OK: todo 0, problems 0)
-11-10 16:23:48   [Blood_Relations] set 04 try 1: re-solve disagrees (Q76 key c vs re-solve b)
-11-10 16:24:54   [Classification] set 01: key confirmed
 11-10 16:32:17   [Classification] set 02: Q30 key c vs re-solve a, Q33 key b vs re-solve c, Q39 key d vs re-solve b
 11-10 16:34:13   [Blood_Relations] repaired set 04 (en + hi, key confirmed by an independent re-solve)
 11-10 16:37:03   [Coding_Decoding] set 05 try 3: re-solve disagrees (Q118 key c vs re-solve b)
@@ -82,4 +75,10 @@
 11-10 17:58:22   [Coding_Decoding] set 06 try 2: re-solve disagrees (Q143 key a vs re-solve ?)
 11-10 18:00:15   [Coding_Decoding] set 06 try 3: rejected (Q143:duplicate_options)
 11-10 18:02:54   [Analogy] repaired set 03 (en + hi, key confirmed by an independent re-solve)
+11-10 18:11:05   [Classification] repaired set 06 (en + hi, key confirmed by an independent re-solve)
+11-10 18:11:05   [Classification] written 2, failed 1; AI calls today 184/100000
+11-10 18:11:06 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_02_Classification: ['FAILED set 05: no version passed the checks — files left as they were']
+11-10 18:11:06 worker 1: nothing left
+11-10 18:12:46   [Analogy] set 04: Q77 key a vs re-solve b, Q83 key c vs re-solve d
+11-10 18:17:44   [Analogy] set 04 try 1: re-solve disagrees (Q83 key d vs re-solve b)
 ```
