@@ -69,6 +69,12 @@ def test_ordinary_here_is_is_not_debris(tmp_path):
     assert check_chapter(ch) == ([], [])
 
 
+def test_book_prose_starting_with_heres_the_is_not_debris(tmp_path):
+    text = "## The Trick\n\nHere's the image to lock in your brain forever:\n\n" + 'A limit is a ghost you chase. ' * 20
+    ch = write_chapter(tmp_path, **{'Feynman_en.txt': text})
+    assert check_chapter(ch) == ([], [])
+
+
 def test_statement_question_is_self_contained():
     q = ParsedQuestion(1, 'नालंदा के संदर्भ में कथनों पर विचार करें:\n1. कुमारगुप्त ने स्थापना की\n'
                           '2. ह्वेनसांग ने अध्ययन किया\nउपरोक्त में से कौन-से कथन सही हैं?',

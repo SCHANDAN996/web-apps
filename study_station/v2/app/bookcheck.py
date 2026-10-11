@@ -28,7 +28,8 @@ KNOWN_TOPICS = {f'{subj}/{slug}' for subj, items in TOPICS.items() for slug, *_ 
 PROMPT_MARK = re.compile(r'^\s*# Chapter:|@content_agent|@mcq_generator', re.M)
 # Chat-UI debris and assistant chatter that must never be in a book.
 JUNK = re.compile(r'^\s*(?:text|Copy|Download|Diagram|Fullscreen|markdown|Copy code)\s*$|'
-                  r'^\s*(?:Here is (?:the|your)|Here\'s (?:the|your)|यह रहा आपका|I hope this|Let me know|As an AI|'
+                  r'^\s*(?:(?:Here is|Here\'s) (?:the|your) (?:\w+ ){0,3}?(?:file|section|content|chapter|translation|text|'
+                  r'version|analysis|PYQ|notes|mind map|flashcards|book|set|questions|answer)\b|यह रहा आपका|I hope this|Let me know|As an AI|'
                   r'मुझे उम्मीद है|Sure[,!])', re.M | re.I)
 # Claims a book must not make without a source we can check (CLAUDE.md rules 1-2).
 UNSOURCED = re.compile(r'अनुमानित संख्या|approximate(?:d)? (?:count|number)|\(concept\)', re.I)
