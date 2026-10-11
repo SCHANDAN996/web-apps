@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 11-10-2026 09:58 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:09 PM
+**आख़िरी update:** 11-10-2026 10:13 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:09 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 168 मिनट |
-| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 168 मिनट |
-| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 168 मिनट |
+| W1 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 184 मिनट |
+| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 184 मिनट |
+| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 183 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,12 +37,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 19:09:09 START 10th_Level/Reasoning/Chapter_01_Analogy (OK: todo 0, problems 0)
-11-10 19:09:14 START 10th_Level/Reasoning/Chapter_02_Classification (OK: todo 0, problems 0)
-11-10 19:09:19 START 10th_Level/Reasoning/Chapter_03_Coding_Decoding (OK: todo 0, problems 0)
-11-10 19:11:00   [Classification] set 01: Q1 key a vs re-solve d, Q5 key a vs re-solve d, Q7 key c vs re-solve d, Q11 key c vs re-solve d, Q13 key a vs re-solve c, Q14 key b vs re-solv
-11-10 19:15:14   [Analogy] set 01: Q18 key b vs re-solve a, Q24 key d vs re-solve a
-11-10 19:25:20   [Classification] set 01 try 1: re-solve disagrees (Q7 key a vs re-solve d, Q11 key a vs re-solve d, Q17 key b vs re-solve d)
 11-10 19:27:33   [Coding_Decoding] set 01: Q20 key d vs re-solve c, Q21 key a vs re-solve c
 11-10 19:34:05   [Classification] set 01 try 2: re-solve disagrees (Q5 key d vs re-solve b, Q7 key b vs re-solve d)
 11-10 19:39:08   [Coding_Decoding] set 01 try 1: rejected (Q20:duplicate_options)
@@ -77,4 +71,10 @@
 11-10 21:44:12   [Coding_Decoding] set 04 try 2: rejected (Q95:duplicate_options)
 11-10 21:54:59   [Analogy] set 05 try 1: re-solve disagrees (Q102 key d vs re-solve b)
 11-10 21:55:54   [Analogy] set 05 try 2: rejected (parsed 0 questions, numbers -…-)
+11-10 21:59:21   [Analogy] set 05 try 3: re-solve disagrees (Q102 key d vs re-solve b)
+11-10 22:01:42   [Coding_Decoding] FAILED set 04: too_long
+11-10 22:03:05   [Classification] set 03 try 2: re-solve disagrees (Q52 key c vs re-solve b)
+11-10 22:07:17   [Analogy] set 05 try 4: re-solve disagrees (Q121 key b vs re-solve d)
+11-10 22:07:17   [Analogy] FAILED set 05: no version passed the checks — files left as they were
+11-10 22:11:11   [Analogy] set 06: Q129 key b vs re-solve c
 ```
