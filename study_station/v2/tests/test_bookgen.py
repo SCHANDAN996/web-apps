@@ -369,13 +369,13 @@ def test_audit_confirms_good_keys_and_repairs_disputed_sets(chapter, db, monkeyp
     write(chapter / 'Practice_en_Set_01.txt', mcq_set('en'))
     write(chapter / 'Practice_hi_Set_01.txt', mcq_set('hi'))
     agree = '\n'.join(f'{i}: {"abcd"[i % 4]}' for i in range(1, 26))
-    monkeypatch.setattr(bookgen, '_ask_check', lambda db, user, system=None: agree)
+    monkeypatch.setattr(bookgen, '_ask_check', lambda db, user, system=None, model=None: agree)
     repaired = []
-    monkeypatch.setattr(bookgen, 'repair_set', lambda db, ch, n, problems, out: repaired.append((n, problems)) or True)
+    monkeypatch.setattr(bookgen, 'repair_set', lambda db, ch, n, problems, out, strict=False: repaired.append((n, problems)) or True)
     lines = []
     assert bookgen.audit(db, chapter, lines.append) == ([], [])
     assert lines == ['set 01: key confirmed'] and repaired == []
-    monkeypatch.setattr(bookgen, '_ask_check', lambda db, user, system=None: agree.replace('3: d', '3: a'))
+    monkeypatch.setattr(bookgen, '_ask_check', lambda db, user, system=None, model=None: agree.replace('3: d', '3: a'))
     assert bookgen.audit(db, chapter, lines.append) == (['set 01'], [])
     assert repaired[0][0] == 1 and 'Q3 key d vs re-solve a' in repaired[0][1][0]
     assert repaired[0][1][0].startswith('Set 01 en: answer check:')
@@ -385,7 +385,7 @@ def test_puzzle_chapters_also_run_the_solver(db, monkeypatch):
     text = mcq_set('en')
     agree = '\n'.join(f'{i}: {"abcd"[i % 4]}' for i in range(1, 26))
     asked = []
-    monkeypatch.setattr(bookgen, '_ask_check', lambda db, user, system=None: asked.append(system) or (
+    monkeypatch.setattr(bookgen, '_ask_check', lambda db, user, system=None, model=None: asked.append(system) or (
         agree if system is None else '[{"q": 2, "layout": "row", "n": 3, "people": ["A", "B", "C"], '
         '"clues": [["left_end", "A"], ["right_end", "A"]], "ask": ["who_middle"], '
         '"options": {"a": "A", "b": "B", "c": "C", "d": "cannot be determined"}}]'))
@@ -393,3 +393,15 @@ def test_puzzle_chapters_also_run_the_solver(db, monkeypatch):
     assert bookgen._key_problem(db, text, puzzles=True) == 'Q2: clues contradict each other — no arrangement fits all of them'
     assert bookgen.PUZZLE_CHAPTER.search('Chapter_07_Sitting_Arrangement')
     assert not bookgen.PUZZLE_CHAPTER.search('Chapter_23_Sentence_Arrangement')      # English para-jumbles
+
+
+def test_strict_audit_asks_a_second_model(db, monkeypatch):
+    agree = '\n'.join(f'{i}: {"abcd"[i % 4]}' for i in range(1, 26))
+    models = []
+    monkeypatch.setattr(config, 'NVIDIA_API_KEY', 'k')
+    monkeypatch.setattr(config, 'BOOKGEN_PROVIDER', 'nvidia')
+    monkeypatch.setattr(bookgen, '_ask_check', lambda db, user, system=None, model=None: models.append(model) or (
+        agree.replace('\n5: b', '\n5: c') if model else agree))
+    assert bookgen._key_problem(db, mcq_set('en')) == '' and models == [None]
+    assert bookgen._key_problem(db, mcq_set('en'), strict=True) == 'Q5 key b vs re-solve c'
+    assert models[1:] == [None, config.NVIDIA_MODEL]

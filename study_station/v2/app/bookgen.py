@@ -157,9 +157,10 @@ def _ask(db, user):
         raise
 
 
-def _nvidia_second_opinion(system, user):
+def _nvidia_second_opinion(system, user, model=None):
     """The checker model; when it keeps returning nothing, a different strong model takes over."""
-    models = [config.NVIDIA_CHECK_MODEL] + [m for m in config.NVIDIA_FALLBACK_MODELS if m != config.NVIDIA_CHECK_MODEL]
+    first = model or config.NVIDIA_CHECK_MODEL
+    models = [first] + [m for m in [config.NVIDIA_CHECK_MODEL, *config.NVIDIA_FALLBACK_MODELS] if m != first]
     for i, model in enumerate(models):
         try:
             return nvidia.call(system, user, max_tokens=MAX_TOKENS, temperature=0, model=model)
@@ -170,14 +171,14 @@ def _nvidia_second_opinion(system, user):
             log.warning('checker %s failed (%s) — trying %s', model, e, models[i + 1])
 
 
-def _ask_check(db, user, system=None):
+def _ask_check(db, user, system=None, model=None):
     """The independent answer re-solve: a different model when the provider is NVIDIA."""
     system = system or CHECK_SYSTEM
     if not ai.reserve(db, BOOK_USAGE_ID, config.AI_DAILY_BOOK_SECTIONS):
         raise ai.AIUnavailable('daily_limit')
     try:
         if provider() == 'nvidia':
-            return _nvidia_second_opinion(system, user)
+            return _nvidia_second_opinion(system, user, model)
         return ai.call(system, user, effort='high', max_tokens=MAX_TOKENS)
     except ai.AIUnavailable:
         ai.record_use(db, BOOK_USAGE_ID, -1)
@@ -344,20 +345,26 @@ def _set_problem(text, n, spread=True):
     return None
 
 
-def _resolve_mismatch(db, text):
+def _resolve_mismatch(db, text, model=None):
     """Independent re-solve of a practice set; '' when every key agrees, else a short description."""
     key = {q.number: 'abcd'[q.answer_index] for q in parse_mcq_text(text)}
-    got = {int(a): b.lower() for a, b in ANSWER_LINE.findall(_ask_check(db, check_request(text)))}
+    answer = _ask_check(db, check_request(text), model=model) if model else _ask_check(db, check_request(text))
+    got = {int(a): b.lower() for a, b in ANSWER_LINE.findall(answer)}
     diff = [k for k, v in key.items() if got.get(k) != v]
     return ', '.join(f'Q{k} key {key[k]} vs re-solve {got.get(k, "-")}' for k in diff[:10]) + (
         f' (+{len(diff) - 10} more)' if len(diff) > 10 else '')
 
 
-def _key_problem(db, text, puzzles=False):
+def _key_problem(db, text, puzzles=False, strict=False):
     """'' when the key survives the checks: an independent re-solve, and for seating/ordering chapters the puzzle
-    solver (a model only translates the clues; a program tries every arrangement)."""
-    if (mismatch := _resolve_mismatch(db, text)) or not puzzles:
+    solver (a model only translates the clues; a program tries every arrangement). strict (audits of old
+    chapters): a second re-solve by another model as well, so a wrong key one checker accepts is still caught."""
+    if mismatch := _resolve_mismatch(db, text):
         return mismatch
+    if strict and provider() == 'nvidia' and (mismatch := _resolve_mismatch(db, text, config.NVIDIA_MODEL)):
+        return mismatch
+    if not puzzles:
+        return ''
     found = puzzlecheck.problems(lambda system, user: _ask_check(db, user, system), text)
     return '; '.join(found[:10]) + (f' (+{len(found) - 10} more)' if len(found) > 10 else '')
 
@@ -483,7 +490,7 @@ def _keep_for_arbiter(name, n, text, mismatch, out=print):
     out(f'  {name}: kept for the arbiter ({p.name})')
 
 
-def repair_set(db, chapter, n, problems, out=print):
+def repair_set(db, chapter, n, problems, out=print, strict=False):
     """Repair one en/hi practice pair. Returns True when both files were written."""
     files = section_files(chapter)
     en_name, hi_name = f'Practice_en_Set_{n:02d}.txt', f'Practice_hi_Set_{n:02d}.txt'
@@ -499,7 +506,7 @@ def repair_set(db, chapter, n, problems, out=print):
             if (fixes := question_fixes(why)):        # keep the good questions of this attempt
                 src, mine = cand, fixes
             continue
-        if not (mismatch := _key_problem(db, cand, bool(PUZZLE_CHAPTER.search(Path(chapter).name)))):
+        if not (mismatch := _key_problem(db, cand, bool(PUZZLE_CHAPTER.search(Path(chapter).name)), strict)):
             text = cand
             break
         out(f'  set {n:02d} try {attempt}: re-solve disagrees ({mismatch[:120]})')
@@ -584,8 +591,8 @@ def repair(db, chapter, dry_run=False, out=print):
 
 
 def audit(db, chapter, out=print):
-    """Re-check the answer key of every finished practice set (independent re-solve; seating/ordering chapters also
-    the puzzle solver) and repair each set that fails. For chapters published before these checks existed.
+    """Re-check the answer key of every finished practice set (two independent re-solves by different models;
+    seating/ordering chapters also the puzzle solver) and repair each set that fails. For chapters published before these checks existed.
     Returns (written, failed)."""
     chapter = Path(chapter)
     puzzles = bool(PUZZLE_CHAPTER.search(chapter.name))
@@ -597,12 +604,12 @@ def audit(db, chapter, out=print):
         if not name:
             continue
         try:
-            found = _key_problem(db, files[name].read_text(encoding='utf-8', errors='replace'), puzzles)
+            found = _key_problem(db, files[name].read_text(encoding='utf-8', errors='replace'), puzzles, strict=True)
             if not found:
                 out(f'set {n:02d}: key confirmed')
                 continue
             out(f'set {n:02d}: {found[:200]}')
-            ok = repair_set(db, chapter, n, [f'Set {n:02d} en: answer check: {found}'], out)
+            ok = repair_set(db, chapter, n, [f'Set {n:02d} en: answer check: {found}'], out, strict=True)
         except ai.AIUnavailable as e:
             out(f'FAILED set {n:02d}: {e}')
             ok = False
