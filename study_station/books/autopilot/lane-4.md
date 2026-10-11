@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 11-10-2026 08:35 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:48 PM
+**आख़िरी update:** 11-10-2026 08:50 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:48 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Number System (12th Maths) | 🔧 सुधार रहा है | 5 मिनट |
-| W2 | Chapter 10 Compound Interest (12th Maths) | 🔧 सुधार रहा है | 13 मिनट |
-| W3 | Chapter 13 Mixture Alligation (12th Maths) | 🔧 सुधार रहा है | 2 मिनट |
+| W1 | Chapter 01 Number System (12th Maths) | 🔧 सुधार रहा है | 20 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -36,26 +34,12 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 10 Compound Interest (Maths) — 1 बार
-- Chapter 13 Mixture Alligation (Maths) — 2 बार
+- Chapter 10 Compound Interest (Maths) — 4 बार
+- Chapter 13 Mixture Alligation (Maths) — 4 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 19:48:22 autopilot start: 3 workers, reverse=True
-11-10 19:48:24 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System (FIX: todo 0, problems 1)
-11-10 19:48:29 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest (FIX: todo 0, problems 1)
-11-10 19:48:35 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation (FIX: todo 0, problems 1)
-11-10 19:54:33   [Mixture_Alligation] repaired Flashcards_hi.txt (3248 chars)
-11-10 19:54:33   [Mixture_Alligation] written 1, failed 0; AI calls today 3/100000
-11-10 19:57:42   [Compound_Interest] repaired Flashcards_hi.txt (3091 chars)
-11-10 19:57:42   [Compound_Interest] written 1, failed 0; AI calls today 4/100000
-11-10 20:02:30   [Compound_Interest] repaired Flashcards_hi.txt (3206 chars)
-11-10 20:02:30   [Compound_Interest] written 1, failed 0; AI calls today 5/100000
-11-10 20:02:30 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest after 14 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (32']
-11-10 20:02:33 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest (FIX: todo 0, problems 1)
-11-10 20:20:53   [Mixture_Alligation] repaired Flashcards_hi.txt (3734 chars)
-11-10 20:20:53   [Mixture_Alligation] written 1, failed 0; AI calls today 6/100000
 11-10 20:20:54 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation after 32 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (37']
 11-10 20:20:57 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation (FIX: todo 0, problems 1)
 11-10 20:21:48   [Compound_Interest] repaired Flashcards_hi.txt (3415 chars)
@@ -70,4 +54,30 @@
 11-10 20:30:08 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation (FIX: todo 0, problems 1)
 11-10 20:33:04   [Mixture_Alligation] repaired Flashcards_hi.txt (567 chars)
 11-10 20:33:04   [Mixture_Alligation] written 1, failed 0; AI calls today 10/100000
+11-10 20:36:37   [Compound_Interest] REJECTED Flashcards_hi.txt: too short — not written
+11-10 20:36:37   [Compound_Interest] written 0, failed 1; AI calls today 11/100000
+11-10 20:36:37 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest after 34 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (34']
+11-10 20:36:40 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest (FIX: todo 0, problems 1)
+11-10 20:42:27   [Mixture_Alligation] repaired Flashcards_hi.txt (3061 chars)
+11-10 20:42:27   [Mixture_Alligation] written 1, failed 0; AI calls today 12/100000
+11-10 20:42:27 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation after 12 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (30']
+11-10 20:42:30 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation (FIX: todo 0, problems 1)
+11-10 20:44:07   [Compound_Interest] REJECTED Flashcards_hi.txt: too short — not written
+11-10 20:44:07   [Compound_Interest] written 0, failed 1; AI calls today 13/100000
+11-10 20:44:52   [Mixture_Alligation] repaired Flashcards_hi.txt (3084 chars)
+11-10 20:44:52   [Mixture_Alligation] written 1, failed 0; AI calls today 14/100000
+11-10 20:45:43   [Compound_Interest] REJECTED Flashcards_hi.txt: too short — not written
+11-10 20:45:43   [Compound_Interest] written 0, failed 1; AI calls today 15/100000
+11-10 20:45:43 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest after 9 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (34']
+11-10 20:45:46 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest (FIX: todo 0, problems 1)
+11-10 20:46:51   [Mixture_Alligation] repaired Flashcards_hi.txt (3650 chars)
+11-10 20:46:51   [Mixture_Alligation] written 1, failed 0; AI calls today 16/100000
+11-10 20:46:51 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation after 4 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (36']
+11-10 20:46:55 worker 2: nothing left
+11-10 20:47:03   [Compound_Interest] REJECTED Flashcards_hi.txt: too short — not written
+11-10 20:47:03   [Compound_Interest] written 0, failed 1; AI calls today 16/100000
+11-10 20:48:14   [Compound_Interest] REJECTED Flashcards_hi.txt: too short — not written
+11-10 20:48:14   [Compound_Interest] written 0, failed 1; AI calls today 17/100000
+11-10 20:48:14 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest after 2 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (34']
+11-10 20:48:18 worker 1: nothing left
 ```
