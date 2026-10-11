@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 11-10-2026 05:40 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:07 PM
+**आख़िरी update:** 11-10-2026 05:56 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:07 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 145 मिनट |
-| W2 | Chapter 06 Order Ranking (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 153 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 153 मिनट |
+| W1 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 161 मिनट |
+| W2 | Chapter 06 Order Ranking (Graduation Reasoning) | 🔎 review हो रहा है | 2 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 168 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -43,9 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 15:09:00   [Para_Jumbles_Adv] repaired Mind_Map_hi.txt (1236 chars)
-11-10 15:09:00   [Para_Jumbles_Adv] written 1, failed 0; AI calls today 4/100000
-11-10 15:09:00 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv after 2 min: todo [] problems ['Mind_Map_hi.txt: much shorter than the English section (1235']
 11-10 15:09:02 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv (FIX: todo 0, problems 1)
 11-10 15:10:07   [Para_Jumbles_Adv] repaired Mind_Map_hi.txt (1469 chars)
 11-10 15:10:07   [Para_Jumbles_Adv] written 1, failed 0; AI calls today 5/100000
@@ -83,4 +80,7 @@
 11-10 17:28:04   [Order_Ranking] set 06: Q135: the clues allow more than one answer — add a clue so exactly one arrangement fits
 11-10 17:31:36   [Puzzles] repaired set 01 (en + hi, key confirmed by an independent re-solve)
 11-10 17:38:27   [Sitting_Arrangement] set 02: Q34: the clues allow more than one answer — add a clue so exactly one arrangement fits; Q40: the clues allow more than one answer — add a clue
+11-10 17:53:46   [Order_Ranking] repaired set 06 (en + hi, key confirmed by an independent re-solve)
+11-10 17:53:46   [Order_Ranking] written 3, failed 0; AI calls today 61/100000
+11-10 17:54:12   [Puzzles] set 02: Q26: the clues allow more than one answer — add a clue so exactly one arrangement fits; Q40: the clues give "5", which is not among the option
 ```
