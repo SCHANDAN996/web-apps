@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 11-10-2026 08:53 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
+**आख़िरी update:** 11-10-2026 09:09 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Awards (Graduation GK) | 🔧 सुधार रहा है | 7 मिनट |
-| W2 | Chapter 05 Percentage (Graduation Maths) | 🔧 सुधार रहा है | 5 मिनट |
-| W3 | Chapter 28 Linear Programming (Graduation Maths) | 🔧 सुधार रहा है | 4 मिनट |
+| W1 | Chapter 13 Awards (Graduation GK) | 🔧 सुधार रहा है | 0 मिनट |
+| W2 | Chapter 05 Percentage (Graduation Maths) | 🔧 सुधार रहा है | 20 मिनट |
+| W3 | Chapter 28 Linear Programming (Graduation Maths) | 🔧 सुधार रहा है | 13 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -43,10 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 07:45:34   [Probability] written 0, failed 2; AI calls today 3/100000
-11-10 07:45:34 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability after 22 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems ['Flashcards_hi.txt: Hindi file is mostly not in Hindi', 'Flashcards_hi.txt: much shorter than the English section (46', 'Short_Tricks_hi.txt: much shorter than the English section (']
-11-10 07:45:38 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability (TODO: todo 2, problems 3)
-11-10 07:50:47   [Awards] FAILED Flashcards_hi.txt: network
 11-10 07:50:47   [Awards] written 0, failed 1; AI calls today 3/100000
 11-10 07:50:48 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards after 45 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (38']
 11-10 07:50:48 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards (FIX: todo 0, problems 1)
@@ -83,4 +79,8 @@
 11-10 08:49:08   [Probability] written 0, failed 2; AI calls today 6/100000
 11-10 08:49:09 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability after 24 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems ['Flashcards_hi.txt: Hindi file is mostly not in Hindi', 'Flashcards_hi.txt: much shorter than the English section (46', 'Short_Tricks_hi.txt: much shorter than the English section (']
 11-10 08:49:12 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming (FIX: todo 0, problems 1)
+11-10 08:55:37   [Linear_Programming] repaired Content_hi.txt (7240 chars)
+11-10 08:55:37   [Linear_Programming] written 1, failed 0; AI calls today 7/100000
+11-10 09:08:32   [Awards] FAILED Flashcards_hi.txt: network
+11-10 09:08:32   [Awards] written 0, failed 1; AI calls today 7/100000
 ```
