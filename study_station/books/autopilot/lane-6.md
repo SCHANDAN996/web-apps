@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 04:38 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 12:34 AM
+**आख़िरी update:** 12-10-2026 04:54 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 12:34 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 131 मिनट |
-| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 73 मिनट |
-| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W1 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 146 मिनट |
+| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 88 मिनट |
+| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 25 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -42,13 +42,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 03:25:25   [Classification] repaired set 06 (en + hi, key confirmed by an independent re-solve)
-12-10 03:25:25   [Classification] written 3, failed 3; AI calls today 169/100000
-12-10 03:25:26 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_02_Classification: ['FAILED set 01: no version passed the checks — files left as they were', 'FAILED set 02: no version passed the checks — files left as they were']
-12-10 03:25:26 START 10th_Level/Reasoning/Chapter_02_Classification (OK: todo 0, problems 0)
-12-10 03:26:54   [Classification] set 01: Q1 key a vs re-solve d, Q5 key a vs re-solve d, Q7 key c vs re-solve d, Q11 key c vs re-solve d, Q13 key a vs re-solve c, Q14 key b vs re-solv
-12-10 03:29:55   [Classification] set 01 try 1: re-solve disagrees (Q17 key b vs re-solve d)
-12-10 03:30:21   [Coding_Decoding] set 05: Q116 key d vs re-solve a, Q118 key b vs re-solve a
 12-10 03:32:24   [Blood_Relations] set 04 try 1: re-solve disagrees (Q76 key a vs re-solve b)
 12-10 03:33:52   [Classification] set 01 try 2: re-solve disagrees (Q17 key c vs re-solve d)
 12-10 03:38:58   [Classification] set 01 try 3: re-solve disagrees (Q17 key c vs re-solve d)
@@ -82,4 +75,11 @@
 12-10 04:28:59   [Blood_Relations] set 06 try 1: re-solve disagrees (Q131 key d vs re-solve a)
 12-10 04:32:57   [Classification] set 04 try 3: re-solve disagrees (Q80 key a vs re-solve b, Q87 key d vs re-solve c)
 12-10 04:33:06   [Coding_Decoding] set 01: key confirmed
+12-10 04:40:59   [Blood_Relations] set 06 try 2: re-solve disagrees (Q148 key d vs re-solve a)
+12-10 04:43:30   [Coding_Decoding] set 02: key confirmed
+12-10 04:45:17   [Classification] repaired set 04 (en + hi, key confirmed by an independent re-solve)
+12-10 04:46:39   [Classification] set 05: Q108 key c vs re-solve d
+12-10 04:48:11   [Coding_Decoding] set 03: key confirmed
+12-10 04:51:16   [Blood_Relations] set 06 try 3: re-solve disagrees (Q127 key b vs re-solve a)
+12-10 04:53:38   [Classification] repaired set 05 (en + hi, key confirmed by an independent re-solve)
 ```
