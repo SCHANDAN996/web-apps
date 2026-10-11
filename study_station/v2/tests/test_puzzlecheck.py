@@ -53,3 +53,11 @@ def test_problems_uses_the_model_translation_only():
         'Q1: the clues allow more than one answer — add a clue so exactly one arrangement fits']
     assert problems(lambda system, user: '[{"q": 1, "layout": "skip"}]', text) == []
     assert problems(lambda system, user: 'no json here', text) == []
+
+
+def test_place_number_against_named_options_is_not_judged():
+    import pytest
+    s = {'layout': 'line', 'n': 3, 'people': ['A', 'B', 'C'], 'clues': [['place', 'A', 1], ['place', 'C', 3]],
+         'ask': ['place_of', 'B'], 'options': {'a': 'Monday', 'b': 'Friday', 'c': 'Wednesday', 'd': 'Thursday'}}
+    with pytest.raises(ValueError):
+        verdict(s, 'c')

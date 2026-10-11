@@ -218,6 +218,8 @@ def verdict(spec, key_letter):
     ans = _norm(next(iter(got)))
     match = [k for k, v in opts.items() if v == ans or v.removesuffix('th').removesuffix('rd').removesuffix('nd')
              .removesuffix('st') == ans]
+    if not match and ans.isdigit() and not any(re.search(r'\d', v) for v in opts.values()):
+        raise ValueError('place number vs named options (days, floors …) — not judged')
     if not match:
         return f'the clues give "{ans}", which is not among the options'
     if key_letter not in match:
