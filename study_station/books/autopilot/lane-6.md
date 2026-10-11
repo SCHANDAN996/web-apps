@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 11-10-2026 05:34 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
+**आख़िरी update:** 11-10-2026 05:50 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
-| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 71 मिनट |
-| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 231 मिनट |
+| W1 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 27 मिनट |
+| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 86 मिनट |
+| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 246 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -42,11 +42,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 15:55:14   [Classification] set 06 try 1: rejected (Q127:leaked_reasoning)
-11-10 15:58:43   [Coding_Decoding] set 05: Q118 key b vs re-solve a
-11-10 16:03:16   [Coding_Decoding] set 05 try 1: rejected (Q101:duplicate_options)
-11-10 16:05:02   [Blood_Relations] set 03: Q60 key b vs re-solve a, Q72 key b vs re-solve a, Q74 key d vs re-solve b
-11-10 16:07:49   [Classification] set 06 try 2: re-solve disagrees (Q133 key c vs re-solve d, Q135 key a vs re-solve c, Q142 key a vs re-solve c, Q144 key b vs re-solve d, Q147 key d v
 11-10 16:13:42   [Blood_Relations] repaired set 03 (en + hi, key confirmed by an independent re-solve)
 11-10 16:17:47   [Blood_Relations] set 04: Q85 key b vs re-solve c, Q86 key c vs re-solve d, Q94 key c vs re-solve b, Q99 key d vs re-solve a
 11-10 16:19:28   [Coding_Decoding] set 05 try 2: re-solve disagrees (Q118 key b vs re-solve a)
@@ -82,4 +77,9 @@
 11-10 17:31:50   [Classification] set 05 try 3: re-solve disagrees (Q108 key b vs re-solve d, Q119 key c vs re-solve a)
 11-10 17:33:43   [Analogy] set 01 try 2: re-solve disagrees (Q18 key a vs re-solve b)
 11-10 17:34:32   [Coding_Decoding] set 06 try 1: re-solve disagrees (Q143 key d vs re-solve ?)
+11-10 17:38:36   [Analogy] set 01 try 3: re-solve disagrees (Q11 key b vs re-solve a)
+11-10 17:38:41   [Classification] set 05 try 4: re-solve disagrees (Q108 key c vs re-solve b)
+11-10 17:38:41   [Classification] FAILED set 05: no version passed the checks — files left as they were
+11-10 17:47:26   [Analogy] repaired set 01 (en + hi, key confirmed by an independent re-solve)
+11-10 17:49:30   [Analogy] set 02: key confirmed
 ```
