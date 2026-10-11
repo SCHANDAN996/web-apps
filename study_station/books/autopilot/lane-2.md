@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 11-10-2026 09:35 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 08:32 PM
+**आख़िरी update:** 11-10-2026 09:50 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 08:32 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Awards (Graduation GK) | 🔧 सुधार रहा है | 5 मिनट |
+| W1 | Chapter 13 Awards (Graduation GK) | 🔧 सुधार रहा है | 8 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -40,8 +40,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 20:36:40   [Linear_Programming] repaired Content_hi.txt (6925 chars)
-11-10 20:36:40   [Linear_Programming] written 1, failed 0; AI calls today 3/100000
 11-10 20:36:41 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming after 4 min: todo [] problems ['Content_hi.txt: much shorter than the English section (6924 ']
 11-10 20:36:46 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming (FIX: todo 0, problems 1)
 11-10 20:40:26   [Linear_Programming] repaired Content_hi.txt (8178 chars)
@@ -80,4 +78,6 @@
 11-10 21:29:31   [Awards] written 0, failed 1; AI calls today 10/100000
 11-10 21:29:31 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards after 26 min: todo [] problems ['Flashcards_hi.txt: Hindi file is mostly not in Hindi', 'Flashcards_hi.txt: much shorter than the English section (40']
 11-10 21:29:32 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards (FIX: todo 0, problems 2)
+11-10 21:42:34   [Awards] FAILED Flashcards_hi.txt: empty
+11-10 21:42:34   [Awards] written 0, failed 1; AI calls today 10/100000
 ```
