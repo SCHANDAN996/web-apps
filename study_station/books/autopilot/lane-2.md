@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 11-10-2026 08:07 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
+**आख़िरी update:** 11-10-2026 08:23 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Awards (Graduation GK) | 🔧 सुधार रहा है | 5 मिनट |
-| W2 | Chapter 05 Percentage (Graduation Maths) | 🔧 सुधार रहा है | 3 मिनट |
-| W3 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 22 मिनट |
+| W1 | Chapter 13 Awards (Graduation GK) | 🔧 सुधार रहा है | 20 मिनट |
+| W2 | Chapter 05 Percentage (Graduation Maths) | 🔧 सुधार रहा है | 18 मिनट |
+| W3 | Chapter 25 Probability (Graduation Maths) | ✍️ लिख रहा है | 37 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -26,9 +26,9 @@
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 25 | 2 | 1 |
 | Graduation GK | 27 | 1 | 0 |
-| Graduation Reasoning | 26 | 0 | 4 |
+| Graduation Reasoning | 27 | 0 | 3 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **276** | **3** | **17** |
+| **कुल** | **277** | **3** | **16** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
