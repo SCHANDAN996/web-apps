@@ -39,7 +39,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 00:59:25   [Compound_Interest] REJECTED Flashcards_hi.txt: too short — not written
 12-10 00:59:25   [Compound_Interest] written 0, failed 1; AI calls today 14/100000
 12-10 00:59:25 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest after 0 min: todo [] problems ['Flashcards_hi.txt: Hindi file is mostly not in Hindi', 'Flashcards_hi.txt: much shorter than the English section (30']
 12-10 00:59:27 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest (FIX: todo 0, problems 2)
@@ -79,4 +78,5 @@
 12-10 01:07:16   [Mixture_Alligation] written 1, failed 0; AI calls today 24/100000
 12-10 01:07:16 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation after 3 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (31']
 12-10 01:07:19 worker 2: nothing left
+12-10 01:12:32 autopilot end: done 0, failed 3
 ```
