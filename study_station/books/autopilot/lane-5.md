@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 11-10-2026 03:07 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
+**आख़िरी update:** 11-10-2026 03:15 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 Fractions Decimals (10th Maths) | 🔎 review हो रहा है | 15 मिनट |
-| W2 | Chapter 06 Average (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W3 | Chapter 03 Simplification (10th Maths) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 04 Fractions Decimals (10th Maths) | 🔎 review हो रहा है | 23 मिनट |
+| W2 | Chapter 06 Average (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
+| W3 | Chapter 07 Ratio Proportion (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -44,13 +44,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 14:37:12   [Simplification] set 05: key confirmed
-11-10 14:38:12   [Fractions_Decimals] set 04: key confirmed
-11-10 14:38:41   [Simplification] set 06: key confirmed
-11-10 14:38:41   [Simplification] written 0, failed 0; AI calls today 62/100000
-11-10 14:39:11   [Number_System] review: 6 section(s) corrected, 0 failed
-11-10 14:39:11   [Number_System] written 6, failed 0; AI calls today 63/100000
-11-10 14:39:27 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_01_Number_System in 56 min → 29e61675
 11-10 14:39:28 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_05_Percentage (OK: todo 0, problems 0)
 11-10 14:39:28   [Fractions_Decimals] set 05: key confirmed
 11-10 14:40:19   [Percentage] set 01: key confirmed
@@ -84,4 +77,11 @@
 11-10 15:06:14   [Average] set 03: key confirmed
 11-10 15:07:21   [Simplification] review: 5 section(s) corrected, 0 failed
 11-10 15:07:21   [Simplification] written 5, failed 0; AI calls today 117/100000
+11-10 15:07:36 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_03_Simplification in 41 min → 9de62008
+11-10 15:07:37 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_07_Ratio_Proportion (OK: todo 0, problems 0)
+11-10 15:08:41   [Ratio_Proportion] set 01: key confirmed
+11-10 15:10:11   [Ratio_Proportion] set 02: key confirmed
+11-10 15:11:55   [Ratio_Proportion] set 03: Q73 key c vs re-solve a
+11-10 15:12:10   [Fractions_Decimals] review PYQ_en.txt: 13 issue(s): - The exam-wise weightage table presents specific average questions/year and percentages for 2015–2025 without any sou
+11-10 15:13:52   [Average] set 04: key confirmed
 ```
