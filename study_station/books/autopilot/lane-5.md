@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 11-10-2026 02:39 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
+**आख़िरी update:** 11-10-2026 02:45 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 Fractions Decimals (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W2 | Chapter 01 Number System (10th Maths) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 03 Simplification (10th Maths) | 🔎 review हो रहा है | 0 मिनट |
+| W1 | Chapter 04 Fractions Decimals (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
+| W2 | Chapter 05 Percentage (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W3 | Chapter 03 Simplification (10th Maths) | 🔎 review हो रहा है | 6 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -42,15 +42,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 14:05:08   [Number_System] review Flashcards_en.txt: 1 issue(s): - Flashcard 15: The mnemonic “Two Tigers Chased Five Elephants, Eleven Lions, Thirteen Monkeys, Seventeen Zebras
-11-10 14:07:01   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
-11-10 14:07:01   [Verb] written 0, failed 1; AI calls today 34/100000
-11-10 14:07:01 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb after 13 min: todo [] problems ['Set 01 hi: English sentence translated (keep it in English) ']
-11-10 14:07:02 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb (FIX: todo 0, problems 1)
-11-10 14:07:52   [LCM_HCF] review PYQ_hi.txt: 5 issue(s): - The table "परीक्षा स्रोत" lists specific exams/years (e.g., SSC CGL 2022) but solutions for Q1, Q2, Q3, Q5, Q6, Q7, Q
-11-10 14:13:11   [Number_System] review PYQ_en.txt: 2 issue(s): - The weightage percentages (25%, 20%, 20%, 15%, 10%, 10%) are presented as precise statistics from a 10-year PYQ analy
-11-10 14:14:40   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
-11-10 14:14:40   [Verb] written 0, failed 1; AI calls today 39/100000
 11-10 14:18:32   [Number_System] review PYQ_hi.txt: 1 issue(s): - The topic weightage percentages (Remainders ~25%, Divisibility Rules ~20%, LCM & HCF ~20%, Unit Digit/Cyclicity ~15%,
 11-10 14:20:50   [LCM_HCF] review Short_Tricks_hi.txt: 1 issue(s): - Trick 8: The example “5 से भाग दो तो 3 बचे, 7 से भाग दो तो 3 बचे” describes finding a number that when divid
 11-10 14:21:43   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
@@ -82,4 +73,13 @@
 11-10 14:38:41   [Simplification] written 0, failed 0; AI calls today 62/100000
 11-10 14:39:11   [Number_System] review: 6 section(s) corrected, 0 failed
 11-10 14:39:11   [Number_System] written 6, failed 0; AI calls today 63/100000
+11-10 14:39:27 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_01_Number_System in 56 min → 29e61675
+11-10 14:39:28 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_05_Percentage (OK: todo 0, problems 0)
+11-10 14:39:28   [Fractions_Decimals] set 05: key confirmed
+11-10 14:40:19   [Percentage] set 01: key confirmed
+11-10 14:41:14   [Simplification] review Content_en.txt: 1 issue(s): - The claim "This single shift in habit will eliminate 40% of simplification errors" is an invented statistic with 
+11-10 14:41:41   [Percentage] set 02: key confirmed
+11-10 14:42:21   [Fractions_Decimals] set 06: Q133 key d vs re-solve a
+11-10 14:42:58   [Percentage] set 03: key confirmed
+11-10 14:44:35   [Percentage] set 04: key confirmed
 ```
