@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 11-10-2026 03:23 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:07 PM
+**आख़िरी update:** 11-10-2026 03:38 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:07 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W2 | Chapter 06 Order Ranking (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
+| W1 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 23 मिनट |
+| W2 | Chapter 06 Order Ranking (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -72,4 +72,8 @@
 11-10 15:14:57 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv after 2 min: todo [] problems ['Mind_Map_hi.txt: much shorter than the English section (1128']
 11-10 15:14:59 START Graduation_Level/Reasoning/Chapter_08_Puzzles (OK: todo 0, problems 0)
 11-10 15:17:21   [Order_Ranking] set 01: key confirmed
+11-10 15:26:45   [Order_Ranking] set 02: key confirmed
+11-10 15:31:14   [Sitting_Arrangement] set 01: Q4: the clues give "c" (option c), but the key says (d); Q5: clues contradict each other — no arrangement fits all of them; Q24: clues contrad
+11-10 15:34:01   [Puzzles] set 01: Q12: the clues give "6", which is not among the options; Q22: clues contradict each other — no arrangement fits all of them
+11-10 15:34:55   [Order_Ranking] set 03: Q59 key d vs re-solve ?, Q60 key c vs re-solve ?
 ```
