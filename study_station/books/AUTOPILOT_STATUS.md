@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 11-10-2026 06:26 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:07 PM
+**आख़िरी update:** 11-10-2026 06:42 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:07 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 191 मिनट |
-| W2 | Chapter 06 Order Ranking (Graduation Reasoning) | 🔎 review हो रहा है | 33 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 199 मिनट |
+| W1 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 207 मिनट |
+| W2 | Chapter 06 Order Ranking (Graduation Reasoning) | 🔎 review हो रहा है | 48 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 214 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -43,7 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 15:10:49   [Para_Jumbles_Adv] written 1, failed 0; AI calls today 6/100000
 11-10 15:10:49 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv after 2 min: todo [] problems ['Mind_Map_hi.txt: much shorter than the English section (1380']
 11-10 15:10:50 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv (FIX: todo 0, problems 1)
 11-10 15:12:30   [Para_Jumbles_Adv] repaired Mind_Map_hi.txt (1726 chars)
@@ -83,4 +82,5 @@
 11-10 18:17:24   [Puzzles] set 02 try 1: re-solve disagrees (Q37: the clues allow more than one answer — add a clue so exactly one arrangement fits; Q40: the clues give "5", whi
 11-10 18:19:49   [Sitting_Arrangement] set 02 try 1: re-solve disagrees (Q37: the clues give "2", which is not among the options; Q39: the clues give "6", which is not among the options; Q4
 11-10 18:22:27   [Order_Ranking] review Flashcards_hi.txt: 1 issue(s): - Card 4: The statement "कुल = A का पुराना बाएँ स्थान + B का पुराना दाएँ स्थान − 1" is presented as a general ru
+11-10 18:38:18   [Order_Ranking] review PYQ_en.txt: 1 issue(s): - "SSC CGL / CHSL / NTPC" incorrectly groups RRB NTPC under SSC; NTPC is conducted by RRB, not SSC → Should be "SSC CGL
 ```
