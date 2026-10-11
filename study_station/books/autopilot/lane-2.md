@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 11-10-2026 11:09 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 10:07 PM
+**आख़िरी update:** 11-10-2026 11:24 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 10:07 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Awards (Graduation GK) | 🔧 सुधार रहा है | 8 मिनट |
+| W1 | Chapter 13 Awards (Graduation GK) | 🔧 सुधार रहा है | 9 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -20,13 +20,13 @@
 | 10th English | 19 | 0 | 1 |
 | 12th Maths | 20 | 0 | 3 |
 | 12th GK | 24 | 0 | 0 |
-| 12th Reasoning | 22 | 0 | 3 |
+| 12th Reasoning | 24 | 0 | 1 |
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 27 | 1 | 0 |
 | Graduation GK | 27 | 1 | 0 |
-| Graduation Reasoning | 27 | 0 | 3 |
+| Graduation Reasoning | 29 | 0 | 1 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **283** | **2** | **11** |
+| **कुल** | **287** | **2** | **7** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -35,15 +35,11 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 28 Linear Programming (Maths) — 4 बार
-- Chapter 13 Awards (GK) — 2 बार
+- Chapter 13 Awards (GK) — 3 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 22:07:15 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming (FIX: todo 0, problems 1)
-11-10 22:07:20 worker 2: nothing left
-11-10 22:08:17   [Linear_Programming] repaired Content_hi.txt (4781 chars)
-11-10 22:08:17   [Linear_Programming] written 1, failed 0; AI calls today 2/100000
 11-10 22:09:46   [Linear_Programming] repaired Content_hi.txt (7851 chars)
 11-10 22:09:46   [Linear_Programming] written 1, failed 0; AI calls today 3/100000
 11-10 22:09:47 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming after 3 min: todo [] problems ['Content_hi.txt: much shorter than the English section (7850 ']
@@ -80,4 +76,8 @@
 11-10 22:47:12 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards (FIX: todo 0, problems 2)
 11-10 23:00:23   [Awards] FAILED Flashcards_hi.txt: empty
 11-10 23:00:23   [Awards] written 0, failed 1; AI calls today 9/100000
+11-10 23:15:15   [Awards] FAILED Flashcards_hi.txt: empty
+11-10 23:15:15   [Awards] written 0, failed 1; AI calls today 9/100000
+11-10 23:15:15 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards after 28 min: todo [] problems ['Flashcards_hi.txt: Hindi file is mostly not in Hindi', 'Flashcards_hi.txt: much shorter than the English section (33']
+11-10 23:15:17 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards (FIX: todo 0, problems 2)
 ```
