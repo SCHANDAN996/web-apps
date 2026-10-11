@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 12-10-2026 03:51 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 03:35 AM
+**आख़िरी update:** 12-10-2026 04:07 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 03:35 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W1 | Chapter 04 Verb (10th English) | 🔧 सुधार रहा है | 1 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,7 +32,7 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 04 Verb (English) — 3 बार
+- Chapter 04 Verb (English) — 4 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
@@ -63,4 +61,8 @@
 12-10 03:48:40 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb (FIX: todo 0, problems 1)
 12-10 03:50:50   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
 12-10 03:50:50   [Verb] written 0, failed 1; AI calls today 7/100000
+12-10 03:52:50   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
+12-10 03:52:50   [Verb] written 0, failed 1; AI calls today 8/100000
+12-10 03:52:51 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb after 4 min: todo [] problems ['Set 01 hi: English sentence translated (keep it in English) ']
+12-10 03:52:54 worker 0: nothing left
 ```
