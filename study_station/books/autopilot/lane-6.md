@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 11-10-2026 04:33 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
+**आख़िरी update:** 11-10-2026 04:48 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 70 मिनट |
-| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 169 मिनट |
+| W1 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 86 मिनट |
+| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 25 मिनट |
+| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 185 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -41,12 +41,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 15:04:20   [Analogy] review Feynman_hi.txt: 1 issue(s): - “सूरजमुखी भी फूल है और रंग बदलता है (पीला, नारंगी, लाल)” → “सूरजमुखी भी फूल है और विभिन्न रंगों में पाया जाता है 
-11-10 15:07:29   [Classification] set 05: Q101 key a vs re-solve c, Q103 key c vs re-solve d, Q111 key c vs re-solve d, Q113 key a vs re-solve d, Q118 key b vs re-solve c, Q119 key c v
-11-10 15:07:33   [Analogy] review Flashcards_en.txt: 1 issue(s): - Flashcard 14 states the relationship as “number × 7 + 1” → The correct relationship is “number × number + 1” (
-11-10 15:10:08   [Coding_Decoding] set 03: Q60 key b vs re-solve a, Q68 key b vs re-solve a
-11-10 15:13:15   [Analogy] review PYQ_en.txt: 3 issue(s): - Introductory claim "2–4 questions appear in almost every exam" is an invented exam statistic with no source → Remove 
-11-10 15:16:33   [Analogy] review PYQ_hi.txt: 3 issue(s): - The year-wise frequency table (2014‑2023) for SSC, Banking, Railway and State Police presents invented statistics wit
 11-10 15:17:59   [Classification] set 05 try 1: re-solve disagrees (Q108 key b vs re-solve c, Q119 key a vs re-solve d, Q123 key b vs re-solve d)
 11-10 15:19:48   [Analogy] review Important_Rules_en.txt: 1 issue(s): - Example "8:27 → Cube" is incorrect; 8³ = 512, not 27 → Use a correct cube example like "3:27" or "4:64"
 11-10 15:21:18   [Analogy] review Important_Rules_hi.txt: 1 issue(s): - In 'पहले आम संख्या संक्रियाएँ देखें', the cube example '8:27 → घन' is incorrect because 8 is not the cube
@@ -81,4 +75,10 @@
 11-10 16:23:48   [Blood_Relations] set 04 try 1: re-solve disagrees (Q76 key c vs re-solve b)
 11-10 16:24:54   [Classification] set 01: key confirmed
 11-10 16:32:17   [Classification] set 02: Q30 key c vs re-solve a, Q33 key b vs re-solve c, Q39 key d vs re-solve b
+11-10 16:34:13   [Blood_Relations] repaired set 04 (en + hi, key confirmed by an independent re-solve)
+11-10 16:37:03   [Coding_Decoding] set 05 try 3: re-solve disagrees (Q118 key c vs re-solve b)
+11-10 16:39:05   [Classification] repaired set 02 (en + hi, key confirmed by an independent re-solve)
+11-10 16:41:42   [Classification] set 03: key confirmed
+11-10 16:43:28   [Blood_Relations] set 05: Q105 key a vs re-solve b, Q121 key a vs re-solve b
+11-10 16:44:40   [Classification] set 04: key confirmed
 ```
