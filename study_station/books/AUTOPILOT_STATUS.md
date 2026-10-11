@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 11-10-2026 09:04 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 08:32 PM
+**आख़िरी update:** 11-10-2026 09:19 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 08:32 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
-| W2 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 46 मिनट |
+| W2 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 46 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -45,4 +45,6 @@
 11-10 20:48:33   [Sitting_Arrangement] set 01: Q21 key a vs re-solve d
 11-10 20:49:50   [Puzzles] set 01: Q1 key a vs re-solve -, Q2 key d vs re-solve -, Q3 key a vs re-solve -, Q4 key b vs re-solve -, Q5 key b vs re-solve -, Q6 key d vs re-solve -
 11-10 20:50:58   [Sitting_Arrangement] set 01 try 1: rejected (Q21:leaked_reasoning)
+11-10 21:06:49   [Sitting_Arrangement] set 01 try 2: re-solve disagrees (Q24 key b vs re-solve a)
+11-10 21:19:25   [Puzzles] set 01 try 1: re-solve disagrees (Q12: the clues give "6", which is not among the options)
 ```
