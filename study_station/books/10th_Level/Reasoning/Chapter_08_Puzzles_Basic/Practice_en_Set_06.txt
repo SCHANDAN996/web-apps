@@ -114,10 +114,10 @@ Answer: (c)
 Solution: If B is right of A, B is 9th from left; if left of A, B is 3rd from left. Since relative position is not specified, it cannot be determined.
 Source: PYQ-style
 
-145. Six persons A, B, C, D, E, and F are sitting in a row facing north. A sits third to the left of B. C sits exactly between A and B. D sits to the immediate right of E. F sits at one of the ends. Who sits to the immediate left of A?
-(a) B (b) D (c) E (d) Cannot be determined
-Answer: (d)
-Solution: Multiple valid arrangements satisfy the clues, so who sits immediately left of A cannot be uniquely determined.
+145. Six persons A, B, C, D, E and F sit in a row facing north. F sits third to the left of B. E sits second from the left end. D sits between C and F (next to both). Who sits to the immediate right of E?
+(a) A (b) F (c) B (d) D
+Answer: (b)
+Solution: Fixing the clues one by one gives only one arrangement. From left to right: A, E, F, D, C, B. The trap is A, who is on the other side of E. So the answer is F.
 Source: PYQ-style
 
 146. Seven boxes A, B, C, D, E, F, and G are stacked (1=bottom, 7=top). A is on an even floor and F is on the 7th floor. B is three boxes above C. D is immediately above E. G is between A and B. Which box is on the 1st floor?
@@ -132,10 +132,10 @@ Answer: (b)
 Solution: According to the circular arrangement, the person sitting opposite E is D.
 Source: PYQ-style
 
-148. Seven persons P, Q, R, S, T, U, and V attend a seminar from Monday to Sunday. V attends on Monday and S on Friday. Three persons attend between R and S. T attends immediately before U. P attends before Q. Who attends on Tuesday?
-(a) P (b) Q (c) R (d) T
-Answer: (c)
-Solution: Schedule: Mon-V, Tue-R, Wed-P, Thu-Q, Fri-S, Sat-T, Sun-U. On Tuesday, person R attends.
+148. Eight persons A, B, C, D, E, F, G and H sit around a circular table, facing the centre. G sits opposite H. D sits second to the left of C. G sits third to the right of D. Who sits third to the right of H?
+(a) F (b) A (c) G (d) C
+Answer: (d)
+Solution: Fixing the clues one by one gives only one arrangement. Going clockwise: D, H, B, F, A, G, C, E (facing the centre, a person's left is clockwise). The trap is A, who is on the other side of H. So the answer is C.
 Source: PYQ-style
 
 149. Six persons A, B, C, D, E, and F have different heights. A is taller than B. B is taller than E. E is taller than F. D is taller than C. A is taller than D. Who is the shortest person?
@@ -144,8 +144,8 @@ Answer: (d)
 Solution: No comparative clue exists between F and C, so either could be the shortest. Hence, it cannot be determined.
 Source: PYQ-style
 
-150. Seven persons A, B, C, D, E, F, and G are sitting in a row facing north. F sits at the extreme right end. A sits fourth to the left of G. D sits to the immediate left of E. B sits second to the right of C. G does not sit at any extreme end. Who sits to the immediate left of F?
-(a) A (b) G (c) D (d) E
+150. Seven persons L, M, N, O, P, Q and R sit in a row facing south. R sits second to the left of O. R sits to the immediate left of P. N sits third to the left of O. How many persons sit between N and P?
+(a) 0 (b) 1 (c) 2 (d) 5
 Answer: (b)
-Solution: Order: 1-C, 2-A, 3-B, 4-D, 5-E, 6-G, 7-F. To the immediate left of F(7) sits G(6).
+Solution: Fixing the clues one by one gives only one arrangement. As we look at them (they face us), from our left to our right: L, O, P, R, N, Q, M. So the answer is 1.
 Source: PYQ-style

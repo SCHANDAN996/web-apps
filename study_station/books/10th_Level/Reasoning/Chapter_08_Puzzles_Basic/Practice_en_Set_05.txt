@@ -102,10 +102,10 @@ Answer: (a)
 Solution: A > E > C > D, and A > B. No one exceeds A. So A is the heaviest.
 Source: PYQ-style
 
-118. Seven persons A, B, C, D, E, F, G sit in a row facing north. C sits at the extreme left end. B sits immediate right of C. G sits at the extreme right end. A sits second to the left of D. E sits second to the right of F. Who sits immediate left of E?
+118. Seven persons A, B, C, D, E, F and G sit in a row facing north. C sits at the extreme left end. B sits to the immediate right of C. G sits at the extreme right end. F sits third from the left end. A sits second to the left of D. E sits second to the right of F. Who sits to the immediate left of E?
 (a) B (b) A (c) C (d) F
 Answer: (b)
-Solution: Positions 1–7. C=1, B=2, G=7. A second left of D ⇒ A = D – 2. E second right of F ⇒ E = F + 2. Remaining 3,4,5,6. Try D=6, A=4. Then E=F+2 on 3,5: F=3, E=5 works. Arrangement: 1:C,2:B,3:F,4:A,5:E,6:D,7:G. Immediate left of E(5) is 4 = A.
+Solution: From the left: C at 1, B at 2, F at 3, so E is at 5. A and D need two seats with one between them among seats 4 and 6, so A is at 4 and D at 6, with G at 7. The trap is F, who is two seats to the left of E; so the answer is A.
 Source: PYQ-style
 
 119. Seven persons A, B, C, D, E, F, G attend a seminar Monday to Sunday. A attends on Thursday. B attends immediately before C. D attends on Tuesday. E attends after F but before G. G attends on Sunday. Only two persons attend between A and F. Who attends on Friday?
@@ -120,10 +120,10 @@ Answer: (d)
 Solution: Prime floors: 2,3,5,7. F=6. G between E and A (E < G < A). B = C + 1. E = D + 3. Try A=7. E<7. E=D+3, D≥1⇒E≥4. If E=4, D=1, G between 4 and 7 ⇒ G=5 or 6(F). G=5 works. B=C+1 on remaining 2,3: B=3, C=2. Arrangement: 1:D,2:C,3:B,4:E,5:G,6:F,7:A. Floor 4 = E.
 Source: PYQ-style
 
-121. Eight persons A, B, C, D, E, F, G, and H live on floors 1 to 8 of a building (1 = bottom, 8 = top). A lives on an even-numbered floor. B lives immediately above C. D lives three floors below E. F lives on the top floor (8). G lives between A and F. H lives on the 5th floor. Only one person lives between B and H. Who lives on the 3rd floor?
-(a) B (b) A (c) C (d) D
+121. Eight persons A, B, C, D, E, F, G and H sit in a row facing north. E sits second from the left end. C sits third to the right of D. A sits third to the left of G. B sits second to the left of A. H sits second to the right of C. Who sits second to the left of C?
+(a) E (b) G (c) A (d) H
 Answer: (a)
-Solution: Floor arrangement (1 to 8): 1-D, 2-C, 3-B, 4-E, 5-H, 6-A, 7-G, 8-F. The person living on the 3rd floor is B.
+Solution: Fixing the clues one by one gives only one arrangement. From left to right: D, E, B, C, A, H, F, G. The trap is H, who is on the other side of C. So the answer is E.
 Source: PYQ-style
 
 122. Seven boxes A, B, C, D, E, F, and G are stacked one above another (1 = bottom, 7 = top). A is on the 6th floor. B is three boxes above C, and C is on floor 1. D is immediately above E. F is on the 7th floor. G is between A and B. Which box is on the 5th floor?
@@ -144,8 +144,8 @@ Answer: (d)
 Solution: Schedule: Mon-C, Tue-B, Wed-D, Thu-A, Fri-E, Sat-F, Sun-G. Thus, E attends on Friday.
 Source: PYQ-style
 
-125. Seven persons A, B, C, D, E, F, and G are sitting in a row facing north. F sits at the extreme right end. A sits fourth to the left of G. D sits to the immediate left of E. B sits second to the right of C. G does not sit at any extreme end. Who sits to the immediate left of F?
+125. Seven persons A, B, C, D, E, F and G are sitting in a row facing north. F sits at the extreme right end. C sits at the extreme left end. A sits fourth to the left of G. D sits to the immediate left of E. B sits second to the right of C. G does not sit at any extreme end. Who sits to the immediate left of F?
 (a) A (b) G (c) D (d) E
 Answer: (b)
-Solution: Row arrangement left to right: 1-C, 2-A, 3-B, 4-D, 5-E, 6-G, 7-F. To the immediate left of F(7) sits G(6).
+Solution: C is at seat 1, so B is at seat 3. A and G are four seats apart; with seats 1 and 3 taken, A is at 2 and G at 6. D and E take seats 4 and 5. The trap is E, who is two seats away; the seat just left of F is seat 6, so the answer is G.
 Source: PYQ-style

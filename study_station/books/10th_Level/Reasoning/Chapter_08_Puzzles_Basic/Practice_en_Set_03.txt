@@ -1,21 +1,21 @@
 Questions 51–65: Medium | Questions 66–75: Hard
 
-51. Six persons A, B, C, D, E, and F are sitting in a row facing north. B sits exactly between A and C. D sits second to the right of E. F sits at one of the extreme ends. C does not sit at any extreme end. Who sits to the immediate left of A?
-(a) Cannot be determined (b) B (c) D (d) E
-Answer: (a)
-Solution: Multiple valid arrangements satisfy all given clues, leading to different persons to the immediate left of A. Thus, it cannot be determined.
+51. Six persons A, B, C, D, E and F sit in a row facing north. D sits to the immediate left of B. C sits to the immediate left of A. A sits third to the left of F. Who sits second to the right of A?
+(a) C (b) E (c) F (d) B
+Answer: (d)
+Solution: Fixing the clues one by one gives only one arrangement. From left to right: E, C, A, D, B, F. The trap is E, who is on the other side of A. So the answer is B.
 Source: PYQ-style
 
-52. Seven boxes A, B, C, D, E, F, and G are kept one above another (1 = bottom, 7 = top). A is on floor 1. B is immediately above E. G is three boxes above C. D is immediately below F. Only one box is between D and B. Which box is on the 5th floor?
+52. Seven boxes A, B, C, D, E, F, and G are kept one above another (1 = bottom, 7 = top). A is at position 1 and C is at position 2. B is immediately above E. G is three boxes above C. D is immediately below F. Only one box is between D and B. Which box is at position 5?
 (a) A (b) G (c) C (d) F
 Answer: (b)
-Solution: Arrangement (1 to 7): 1-A, 2-C, 3-E, 4-B, 5-G, 6-D, 7-F. The box on the 5th floor is G.
+Solution: A is at 1 and C at 2, so G is at 5. The pairs E–B and D–F fill positions 3, 4, 6 and 7 with one box between D and B: E at 3, B at 4, D at 6, F at 7. The trap is F, which is at the top; so the answer is G.
 Source: PYQ-style
 
-53. Seven persons A, B, C, D, E, F, and G are sitting in a row facing north. A sits fourth to the right of D. B sits to the immediate left of C. E sits third to the left of F. G sits at the extreme right end. D does not sit at any extreme end. Who sits exactly between D and F?
-(a) A (b) C (c) B (d) E
-Answer: (c)
-Solution: Arrangement (left to right): 1-E, 2-D, 3-B, 4-F, 5-C, 6-A, 7-G. Exactly between D (seat 2) and F (seat 4) is B at seat 3.
+53. Seven persons S, T, U, V, W, X and Y sit in a row facing north. Y sits between S and T (next to both). U sits third to the left of T. T sits second to the left of W. Who sits second to the right of U?
+(a) S (b) Y (c) V (d) W
+Answer: (b)
+Solution: Fixing the clues one by one gives only one arrangement. From left to right: U, S, Y, T, X, W, V. So the answer is Y.
 Source: PYQ-style
 
 54. A, B, C, D, and E attend a meeting from Monday to Friday. A attends immediately before B. C attends on Thursday. D attends after A but before E. On which day does E attend?
@@ -72,16 +72,16 @@ Answer: (d)
 Solution: R > P > Q > U > S and T > S. Since T is not the tallest, R is the tallest.
 Source: PYQ-style
 
-63. Seven persons live on floors 1 to 7. A lives on floor 5. G lives on floor 6. D lives on the 4th floor. B lives immediately above C. E lives below F. Who lives on the 3rd floor?
+63. Seven persons A, B, C, D, E, F and G live on floors 1 to 7. A lives on floor 5. G lives on floor 6. D lives on the 4th floor. C lives on floor 1. B lives immediately above C. E lives below F. Who lives on the 3rd floor?
 (a) E (b) A (c) B (d) F
 Answer: (a)
-Solution: Arrangement (1 to 7): 1-C, 2-B, 3-E, 4-D, 5-A, 6-G, 7-F. E lives on the 3rd floor.
+Solution: C is on floor 1, so B is on floor 2. Floors 3 and 7 are left for E and F, and E is below F, so E is on floor 3 and F on floor 7. The trap is B, who is one floor lower; so the answer is E.
 Source: PYQ-style
 
-64. Six cars P, Q, R, S, T, and U are parked in a row facing north. P is parked 3rd to the left of Q. R is to the immediate right of S. T is parked at the extreme right end (6). U is 2nd to the right of P. Which car is parked immediately to the left of Q?
-(a) P (b) U (c) R (d) S
+64. Six persons A, B, C, D, E and F sit in a row facing south. C sits to the immediate left of D. F sits second to the right of A. E sits at one of the ends. E sits third to the right of A. Who sits second to the left of B?
+(a) F (b) D (c) E (d) A
 Answer: (b)
-Solution: P = Q - 3, U = P + 2 = Q - 1. Thus, U is parked immediately to the left of Q.
+Solution: Fixing the clues one by one gives only one arrangement. As we look at them (they face us), from our left to our right: E, F, B, A, D, C. The trap is E, who is on the other side of B. So the answer is D.
 Source: PYQ-style
 
 65. Five students A, B, C, D, and E scored different marks. A scored more than B. C scored more than D but less than E (E > C > D). B did not score the lowest marks. Who scored the lowest marks?
@@ -102,10 +102,10 @@ Answer: (a)
 Solution: By Pythagoras theorem: Distance = √(24² + 7²) = √(576 + 49) = √625 = 25 m.
 Source: PYQ-style
 
-68. Eight persons A to H sit around a circular table facing the centre. A is second to the left of B. C sits directly opposite D. E is third to the right of F. G is to the immediate left of H. B is not a neighbour of C. If A is at seat 7, who sits directly opposite A at seat 3?
-(a) F (b) E (c) G (d) H
-Answer: (b)
-Solution: Arrangement (1 to 8): 1:B, 2:D, 3:E, 4:G, 5:H, 6:C, 7:A, 8:F. Directly opposite A (seat 7) is E at seat 3.
+68. Eight persons J, K, L, M, N, O, P and Q sit around a circular table, facing the centre. O sits second to the right of P. Q sits second to the right of K. M sits third to the left of P. L sits second to the left of M. Q sits to the immediate left of J. Who sits third to the right of N?
+(a) Q (b) J (c) K (d) O
+Answer: (c)
+Solution: Fixing the clues one by one gives only one arrangement. Going clockwise: M, K, L, O, N, P, J, Q (facing the centre, a person's left is clockwise). The trap is Q, who is on the other side of N. So the answer is K.
 Source: PYQ-style
 
 69. Seven persons P, Q, R, S, T, U, and V attend a seminar from Monday to Sunday. P attends on Wednesday. Q attends immediately after P. R attends on Friday. S attends on Monday. T attends on Sunday. U attends before V. Who attends on Tuesday?
@@ -126,10 +126,10 @@ Answer: (a)
 Solution: Arrangement (1 to 7): 1-C, 2-B, 3-D, 4-A, 5-G, 6-E, 7-F. Box on the 5th floor is G.
 Source: PYQ-style
 
-72. Seven boxes A to G are kept (1 = bottom, 7 = top). A is on floor 6. F is on floor 7. B is on floor 4 and C is on floor 1. G is on floor 5. D is immediately above E. Which box is on the 2nd floor?
+72. Seven boxes A to G are kept one above another (1 = bottom, 7 = top). A is on floor 6. F is on floor 7. B is on floor 4 and C is on floor 1. G is on floor 5. D is immediately above E. Which box is on the 2nd floor?
 (a) C (b) D (c) E (d) G
-Answer: (b)
-Solution: Arrangement: Floor 1=C, Floor 2=D, Floor 3=E, Floor 4=B, Floor 5=G, Floor 6=A, Floor 7=F. Box on the 2nd floor is D.
+Answer: (c)
+Solution: Only floors 2 and 3 are free, and D must be directly above E, so E is on floor 2 and D on floor 3. The trap is D, which is one floor higher; so the answer is E.
 Source: PYQ-style
 
 73. Six persons A, B, C, D, E, and F have different incomes. A earns more than B. C earns less than D. E earns more than F. B earns more than E. Who earns the lowest?
@@ -138,10 +138,10 @@ Answer: (c)
 Solution: A > B > E > F and D > C. No comparison is given between C and F. Thus, the lowest earner cannot be determined.
 Source: PYQ-style
 
-74. Six persons A, B, C, D, E, and F are sitting in a row facing north. A sits third to the left of B. C sits to the immediate right of D. E sits at the extreme right end (6). F sits second to the right of A. Who sits to the immediate right of F (immediate left of B)?
-(a) A (b) C (c) D (d) F
-Answer: (d)
-Solution: A = B - 3, F = A + 2 = B - 1. F sits immediately to the left of B.
+74. Seven persons P, Q, R, S, T, U and V sit around a circular table, facing the centre. Q sits to the immediate right of P. T sits to the immediate left of S. S sits to the immediate left of U. V sits second to the right of Q. Who sits second to the right of P?
+(a) Q (b) S (c) R (d) U
+Answer: (c)
+Solution: Fixing the clues one by one gives only one arrangement. Going clockwise: R, Q, P, U, S, T, V (facing the centre, a person's left is clockwise). The trap is S, who is on the other side of P. So the answer is R.
 Source: PYQ-style
 
 75. Five persons A, B, C, D, and E have different heights. A is taller than B. C is shorter than D. E is taller than C. B is taller than E. Who is the tallest?
