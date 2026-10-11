@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 11-10-2026 03:30 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
+**आख़िरी update:** 11-10-2026 03:45 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Profit Loss (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W2 | Chapter 06 Average (10th Maths) | 🔎 review हो रहा है | 13 मिनट |
-| W3 | Chapter 07 Ratio Proportion (10th Maths) | 🔎 review हो रहा है | 4 मिनट |
+| W1 | Chapter 08 Profit Loss (10th Maths) | 🔎 review हो रहा है | 8 मिनट |
+| W2 | Chapter 06 Average (10th Maths) | 🔎 review हो रहा है | 28 मिनट |
+| W3 | Chapter 07 Ratio Proportion (10th Maths) | 🔎 review हो रहा है | 19 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -45,15 +45,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 14:58:02   [Fractions_Decimals] review Content_hi.txt: 2 issue(s): - The Mars Climate Orbiter anecdote states the loss was “$300 million+ due to a decimal‑place mistake”; in fact the
-11-10 14:58:19   [Simplification] review PYQ_hi.txt: 3 issue(s): - The frequency and trend analysis table (आवृत्ति और रुझान विश्लेषण) presents invented statistics (average questions pe
-11-10 15:01:27   [Fractions_Decimals] review Feynman_en.txt: 1 issue(s): - The pani puri example states ⅔ ÷ ⅙ = 12 puris, but ⅔ ÷ ⅙ = (⅔) × 6 = 4 puris. → Correct answer: 4 puris.
-11-10 15:02:26   [Percentage] review: 2 section(s) corrected, 0 failed
-11-10 15:02:26   [Percentage] written 2, failed 0; AI calls today 105/100000
-11-10 15:02:41 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_05_Percentage in 23 min → 6ef9005e
-11-10 15:02:42 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_06_Average (OK: todo 0, problems 0)
-11-10 15:02:52   [Fractions_Decimals] review Feynman_hi.txt: 1 issue(s): - The golgappa example calculation "⅔ ÷ ⅙ = 12" and "⅔ × 6 = 12" is incorrect; ⅔ ÷ ⅙ = ⅔ × 6 = 4 → The correct answ
-11-10 15:03:29   [Average] set 01: key confirmed
 11-10 15:04:00   [Simplification] review Short_Tricks_hi.txt: 1 issue(s): - ट्रिक 9 में कहा गया है "शून्य से गुणा या भाग की पूरी शृंखला शून्य बना देता है" → शून्य से गुणा करने पर परिणा
 11-10 15:05:01   [Average] set 02: key confirmed
 11-10 15:06:14   [Fractions_Decimals] review Flashcards_hi.txt: 1 issue(s): - Card 17 front shows “0.8̅3̅” labeled as मिश्रित आवर्ती, but that notation means both digits repeat (pure recur
@@ -85,4 +76,13 @@
 11-10 15:27:18 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_04_Fractions_Decimals in 55 min → 212e1608
 11-10 15:27:19 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_08_Profit_Loss (OK: todo 0, problems 0)
 11-10 15:28:25   [Profit_Loss] set 01: key confirmed
+11-10 15:31:01   [Profit_Loss] set 02: key confirmed
+11-10 15:32:43   [Profit_Loss] set 03: key confirmed
+11-10 15:32:45   [Ratio_Proportion] review Content_hi.txt: 2 issue(s): - "हर एक दिन, बिना किसी कैलकुलेटर के, आपका दिमाग 10,000 से ज्यादा अनुपात की गणनाएँ करता है" → यह दावा असत्यापित और 
+11-10 15:34:44   [Profit_Loss] set 04: key confirmed
+11-10 15:36:43   [Profit_Loss] set 05: key confirmed
+11-10 15:37:28   [Profit_Loss] set 06: key confirmed
+11-10 15:37:28   [Profit_Loss] written 0, failed 0; AI calls today 152/100000
+11-10 15:42:48   [Profit_Loss] review Mind_Map.txt: 1 issue(s): - F4: "SP = CP × 100+लाभ% ÷ 100" missing parentheses → "SP = CP × (100+लाभ%) ÷ 100"
+11-10 15:46:06   [Profit_Loss] review Flashcards_en.txt: 1 issue(s): - Flashcard 2 has a garbled question and an incorrect answer (640) for successive discounts of 20% and 25% on a 
 ```
