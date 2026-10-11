@@ -6,6 +6,7 @@ Write a book chapter's unfinished ("todo") sections with an AI API (Claude or NV
     python -m app.bookgen --chapter <dir> --dry-run          # list what would be written (no key needed)
     python -m app.bookgen --chapter <dir> --repair           # rewrite the sections bookcheck flags (fix mode)
     python -m app.bookgen --chapter <dir> --review           # independent reviewer reads every section, fixes errors
+    python -m app.bookgen --chapter <dir> --audit            # re-check every practice set key, repair failing sets
 
 For each todo section it sends Chapter_Intro_Prompt.txt (+ Master_Prompt_<lang>.txt if the book has one) and
 the section's own prompt; the system prompt is books/BOOK_RULES.md (fallback: the "Hard rules" of the
@@ -35,7 +36,7 @@ from pathlib import Path
 
 from sqlalchemy import select
 
-from . import ai, bookcheck, books, config, nvidia
+from . import ai, bookcheck, books, config, nvidia, puzzlecheck
 from .bookcheck import JUNK, is_prompt, section_files
 from .importers import parse_mcq_text
 from .models import AiUsage
@@ -45,6 +46,7 @@ BOOK_USAGE_ID = -1                 # AiUsage.device_id for the bookgen budget (n
 MAX_TOKENS = 16000                 # non-streaming calls must stay well under the SDK's 10-minute limit
 NVIDIA_MAX_TOKENS = 32000          # NVIDIA calls stream; long Hindi sections need more than 16k tokens
 PRACTICE = re.compile(r'^Practice_(en|hi)_Set_(\d+)\.txt$')
+PUZZLE_CHAPTER = re.compile(r'Sitting|Seating|Puzzle|Order_Ranking', re.I)   # gets the solver check too
 LANG_NAME = {'hi': 'Hindi (Devanagari)', 'en': 'English'}
 
 FALLBACK_RULES = """- Facts: stable, textbook-verifiable facts only (NCERT / official sources). If unsure of a fact, leave it out.
@@ -168,14 +170,15 @@ def _nvidia_second_opinion(system, user):
             log.warning('checker %s failed (%s) — trying %s', model, e, models[i + 1])
 
 
-def _ask_check(db, user):
+def _ask_check(db, user, system=None):
     """The independent answer re-solve: a different model when the provider is NVIDIA."""
+    system = system or CHECK_SYSTEM
     if not ai.reserve(db, BOOK_USAGE_ID, config.AI_DAILY_BOOK_SECTIONS):
         raise ai.AIUnavailable('daily_limit')
     try:
         if provider() == 'nvidia':
-            return _nvidia_second_opinion(CHECK_SYSTEM, user)
-        return ai.call(CHECK_SYSTEM, user, effort='high', max_tokens=MAX_TOKENS)
+            return _nvidia_second_opinion(system, user)
+        return ai.call(system, user, effort='high', max_tokens=MAX_TOKENS)
     except ai.AIUnavailable:
         ai.record_use(db, BOOK_USAGE_ID, -1)
         raise
@@ -301,8 +304,8 @@ def practice_repair_request(name, text, n, problems, mismatch=''):
     lang = _lang_of(name)
     labels = 'उत्तर:, हल:, स्रोत:' if lang == 'hi' else 'Answer:, Solution:, Source:'
     issues = '\n'.join(f'- {p}' for p in problems) or '- format'
-    redo = (f'\n\nAn independent re-solve disagreed with your previous key: {mismatch}. Re-calculate those '
-            f'questions carefully; fix the key, the options or the question so exactly one option is right.'
+    redo = (f'\n\nThe answer check of your previous version found: {mismatch}. Re-calculate those questions '
+            f'carefully; fix the key, the options or the question (clues) so exactly one option is right.'
             if mismatch else '')
     return (f'<current_set name="{name}">\n{text.strip()}\n</current_set>\n\n<problems_found>\n{issues}\n'
             f'</problems_found>\n\nRewrite this practice set in {LANG_NAME[lang]} as exactly 25 questions numbered '
@@ -348,6 +351,15 @@ def _resolve_mismatch(db, text):
     diff = [k for k, v in key.items() if got.get(k) != v]
     return ', '.join(f'Q{k} key {key[k]} vs re-solve {got.get(k, "-")}' for k in diff[:10]) + (
         f' (+{len(diff) - 10} more)' if len(diff) > 10 else '')
+
+
+def _key_problem(db, text, puzzles=False):
+    """'' when the key survives the checks: an independent re-solve, and for seating/ordering chapters the puzzle
+    solver (a model only translates the clues; a program tries every arrangement)."""
+    if (mismatch := _resolve_mismatch(db, text)) or not puzzles:
+        return mismatch
+    found = puzzlecheck.problems(lambda system, user: _ask_check(db, user, system), text)
+    return '; '.join(found[:10]) + (f' (+{len(found) - 10} more)' if len(found) > 10 else '')
 
 
 OPTS_LINE = re.compile(r'^(\s*)\(a\)\s*(.+?)\s+\(b\)\s*(.+?)\s+\(c\)\s*(.+?)\s+\(d\)\s*(.+?)\s*$', re.M)
@@ -434,7 +446,7 @@ def question_fixes(why):
     return [f'Q{n}: {QUESTION_PROBLEM_HELP.get(k, k)}' for n, k in items]
 
 
-def write_verified_set(db, user, name, n, out=print):
+def write_verified_set(db, user, name, n, out=print, puzzles=False):
     """Write a new practice set; keep it only once it passes the checks and an independent re-solve."""
     ask, last_disputed = user, None
     for attempt in range(1, MAX_REPAIR_TRIES + 1):
@@ -447,7 +459,7 @@ def write_verified_set(db, user, name, n, out=print):
             else:
                 ask = user + f'\n\nYour previous attempt was rejected: {why}. Follow the exact format and rules.'
             continue
-        if not (mismatch := _resolve_mismatch(db, text)):
+        if not (mismatch := _key_problem(db, text, puzzles)):
             return text
         out(f'  {name} try {attempt}: re-solve disagrees ({mismatch[:120]})')
         ask = practice_repair_request(name, text, n, [], mismatch)
@@ -487,7 +499,7 @@ def repair_set(db, chapter, n, problems, out=print):
             if (fixes := question_fixes(why)):        # keep the good questions of this attempt
                 src, mine = cand, fixes
             continue
-        if not (mismatch := _resolve_mismatch(db, cand)):
+        if not (mismatch := _key_problem(db, cand, bool(PUZZLE_CHAPTER.search(Path(chapter).name)))):
             text = cand
             break
         out(f'  set {n:02d} try {attempt}: re-solve disagrees ({mismatch[:120]})')
@@ -561,6 +573,36 @@ def repair(db, chapter, dry_run=False, out=print):
             continue
         try:
             ok = retranslate_set(db, chapter, n, out) if only_hi else repair_set(db, chapter, n, problems, out)
+        except ai.AIUnavailable as e:
+            out(f'FAILED set {n:02d}: {e}')
+            ok = False
+            if str(e) in ('daily_limit', 'not_configured', 'auth'):
+                failed.append(f'set {n:02d}')
+                break
+        (written if ok else failed).append(f'set {n:02d}')
+    return written, failed
+
+
+def audit(db, chapter, out=print):
+    """Re-check the answer key of every finished practice set (independent re-solve; seating/ordering chapters also
+    the puzzle solver) and repair each set that fails. For chapters published before these checks existed.
+    Returns (written, failed)."""
+    chapter = Path(chapter)
+    puzzles = bool(PUZZLE_CHAPTER.search(chapter.name))
+    files = section_files(chapter)
+    written, failed = [], []
+    for n in range(1, bookcheck.SETS_PER_LANG + 1):
+        name = next((f'Practice_{lang}_Set_{n:02d}.txt' for lang in ('en', 'hi')
+                     if f'Practice_{lang}_Set_{n:02d}.txt' in files), None)
+        if not name:
+            continue
+        try:
+            found = _key_problem(db, files[name].read_text(encoding='utf-8', errors='replace'), puzzles)
+            if not found:
+                out(f'set {n:02d}: key confirmed')
+                continue
+            out(f'set {n:02d}: {found[:200]}')
+            ok = repair_set(db, chapter, n, [f'Set {n:02d} en: answer check: {found}'], out)
         except ai.AIUnavailable as e:
             out(f'FAILED set {n:02d}: {e}')
             ok = False
@@ -710,7 +752,8 @@ def run(db, chapter, wanted=None, dry_run=False, out=print):
         try:
             if m:
                 n = int(m.group(2))
-                text = (write_verified_set(db, user, name, n, out) if how == 'write'
+                text = (write_verified_set(db, user, name, n, out, bool(PUZZLE_CHAPTER.search(chapter.name)))
+                        if how == 'write'
                         else translate_set(db, other, source, name, n, out, is_english_book(chapter)))
                 if text is None:
                     failed.append(name)
@@ -760,6 +803,8 @@ def main(argv=None):
     p.add_argument('--dry-run', action='store_true', help='only list what would be written')
     p.add_argument('--repair', action='store_true', help='rewrite the sections bookcheck reports problems for')
     p.add_argument('--review', action='store_true', help='independent review of every section; fix what it finds')
+    p.add_argument('--audit', action='store_true', help='re-check every practice set key (re-solve + puzzle solver); '
+                                                        'repair the sets that fail')
     p.add_argument('--provider', choices=('nvidia', 'anthropic'), help='AI provider (default: BOOKGEN_PROVIDER)')
     args = p.parse_args(argv)
     logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
@@ -778,7 +823,9 @@ def main(argv=None):
     from .db import SessionLocal, engine, ensure_schema
     ensure_schema(engine)
     with SessionLocal() as db:
-        if args.review:
+        if args.audit:
+            written, failed = audit(db, chapter)
+        elif args.review:
             written, failed = review(db, chapter)
         elif args.repair:
             written, failed = repair(db, chapter, args.dry_run)

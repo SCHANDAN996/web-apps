@@ -363,3 +363,33 @@ def test_question_fixes_turn_problems_into_targeted_instructions():
     fixes = bookgen.question_fixes('Q53:answer_solution_conflict,Q60:leaked_reasoning')
     assert fixes[0].startswith('Q53: the solution') and fixes[1].startswith('Q60: remove')
     assert bookgen.question_fixes('parsed 22 questions, numbers 1…25') is None
+
+
+def test_audit_confirms_good_keys_and_repairs_disputed_sets(chapter, db, monkeypatch):
+    write(chapter / 'Practice_en_Set_01.txt', mcq_set('en'))
+    write(chapter / 'Practice_hi_Set_01.txt', mcq_set('hi'))
+    agree = '\n'.join(f'{i}: {"abcd"[i % 4]}' for i in range(1, 26))
+    monkeypatch.setattr(bookgen, '_ask_check', lambda db, user, system=None: agree)
+    repaired = []
+    monkeypatch.setattr(bookgen, 'repair_set', lambda db, ch, n, problems, out: repaired.append((n, problems)) or True)
+    lines = []
+    assert bookgen.audit(db, chapter, lines.append) == ([], [])
+    assert lines == ['set 01: key confirmed'] and repaired == []
+    monkeypatch.setattr(bookgen, '_ask_check', lambda db, user, system=None: agree.replace('3: d', '3: a'))
+    assert bookgen.audit(db, chapter, lines.append) == (['set 01'], [])
+    assert repaired[0][0] == 1 and 'Q3 key d vs re-solve a' in repaired[0][1][0]
+    assert repaired[0][1][0].startswith('Set 01 en: answer check:')
+
+
+def test_puzzle_chapters_also_run_the_solver(db, monkeypatch):
+    text = mcq_set('en')
+    agree = '\n'.join(f'{i}: {"abcd"[i % 4]}' for i in range(1, 26))
+    asked = []
+    monkeypatch.setattr(bookgen, '_ask_check', lambda db, user, system=None: asked.append(system) or (
+        agree if system is None else '[{"q": 2, "layout": "row", "n": 3, "people": ["A", "B", "C"], '
+        '"clues": [["left_end", "A"], ["right_end", "A"]], "ask": ["who_middle"], '
+        '"options": {"a": "A", "b": "B", "c": "C", "d": "cannot be determined"}}]'))
+    assert bookgen._key_problem(db, text, puzzles=False) == '' and asked == [None]
+    assert bookgen._key_problem(db, text, puzzles=True) == 'Q2: clues contradict each other — no arrangement fits all of them'
+    assert bookgen.PUZZLE_CHAPTER.search('Chapter_07_Sitting_Arrangement')
+    assert not bookgen.PUZZLE_CHAPTER.search('Chapter_23_Sentence_Arrangement')      # English para-jumbles

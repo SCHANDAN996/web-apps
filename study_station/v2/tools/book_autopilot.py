@@ -41,7 +41,8 @@ SKIP_HOURS = 6
 STATUS_MINUTES = 15
 IST = ZoneInfo('Asia/Kolkata')
 STATUS_FILE = bookcheck.BOOKS_ROOT / 'AUTOPILOT_STATUS.md'
-STEP_HI = {'write': '✍️ लिख रहा है', 'repair': '🔧 सुधार रहा है', 'review': '🔎 review हो रहा है',
+AUDIT_FILE = bookcheck.BOOKS_ROOT / 'autopilot' / 'AUDIT.txt'     # published chapters whose keys are re-checked
+STEP_HI = {'audit': '🧮 उत्तर दोबारा जाँच रहा है', 'write': '✍️ लिख रहा है', 'repair': '🔧 सुधार रहा है', 'review': '🔎 review हो रहा है',
            'commit': '📤 push हो रहा है', 'pick': '⏳ अगला अध्याय चुन रहा है'}
 MAX_REPAIR_ROUNDS = 2
 
@@ -112,25 +113,33 @@ class Pilot:
     def uncommitted(self, ch):
         return bool(self.git('status', '--porcelain', '--', str(ch.relative_to(REPO)), check=False).stdout.strip())
 
-    def commit(self, ch, summary):
+    def commit(self, ch, summary, audited=False):
         rel = ch.relative_to(REPO)
+        key = str(ch.relative_to(bookcheck.BOOKS_ROOT))
 
         def do():
             self.write_status()
-            self.git('add', '--', str(rel), str(self.status_file.relative_to(REPO)))
+            extra = [str(self.status_file.relative_to(REPO))]
+            if audited:                                              # this chapter's audit is done: drop its line
+                lines = AUDIT_FILE.read_text(encoding='utf-8').splitlines()
+                AUDIT_FILE.write_text(''.join(l + '\n' for l in lines if l.split('#')[0].strip().rstrip('/') != key),
+                                      encoding='utf-8')
+                extra.append(str(AUDIT_FILE.relative_to(REPO)))
+            self.git('add', '--', str(rel), *extra)
             staged = self.git('diff', '--cached', '--name-only').stdout.split()
             if not staged:
                 return 'nothing to commit'
-            status_rel = str(self.status_file.relative_to(REPO))
-            outside = [p for p in staged if not p.startswith(str(rel) + '/') and p != status_rel]
+            outside = [p for p in staged if not p.startswith(str(rel) + '/') and p not in extra]
             if outside:
                 self.git('reset', '-q', '--', *outside)
-            msg = (f'Books: {summary} (draft, bookcheck OK, bookgen autopilot)\n\n'
-                   'Written with bookgen (NVIDIA); practice keys confirmed by an independent re-solve;\n'
-                   'every section read by an independent reviewer model and corrected before publishing.\n\n'
+            how = ('every practice key re-checked (independent re-solve; seating/ordering puzzles also by a solver '
+                   'program),\nfailing sets rewritten' if audited else
+                   'Written with bookgen (NVIDIA); practice keys confirmed by an independent re-solve')
+            msg = (f'Books: {summary} ({"audited" if audited else "draft"}, bookcheck OK, bookgen autopilot)\n\n'
+                   f'{how};\nevery changed section read by an independent reviewer model before publishing.\n\n'
                    'Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\n'
                    'Claude-Session: https://claude.ai/code/session_01NkSvMYCcJQMogjnRs94E6r')
-            self.git('commit', '-q', '-m', msg, '--', str(rel), status_rel)
+            self.git('commit', '-q', '-m', msg, '--', str(rel), *extra)
             for wait in (2, 4, 8, 16, None):
                 r = self.git('push', '-q', 'origin', f'HEAD:{self.args.branch}', check=False)
                 if r.returncode == 0:
@@ -159,6 +168,7 @@ class Pilot:
         if self.args.stop_new_after and time.time() - self.t_start > self.args.stop_new_after * 60:
             return None                                      # time budget: finish running chapters, start none
         skip = self.manual_chapters()
+        audit = self.audit_chapters()
         with self.lock:
             for ch in self.chapters():
                 key = str(ch.relative_to(bookcheck.BOOKS_ROOT))
@@ -166,7 +176,7 @@ class Pilot:
                     continue                                 # handled by hand (books/autopilot/MANUAL.txt)
                 if key in self.claimed or self.state['failed'].get(key, 0) >= self.args.max_fails:
                     continue
-                if bookcheck.chapter_status(ch)[0] == 'OK' and not self.uncommitted(ch):
+                if bookcheck.chapter_status(ch)[0] == 'OK' and not self.uncommitted(ch) and key not in audit:
                     continue                                 # done and published (OK + changes → review, commit)
                 if self.taken_by_other(ch):
                     if key not in self.state['skipped']:
@@ -184,6 +194,15 @@ class Pilot:
         p = bookcheck.BOOKS_ROOT / 'autopilot' / 'MANUAL.txt'
         try:
             lines = p.read_text(encoding='utf-8').splitlines()
+        except OSError:
+            return set()
+        return {l.split('#')[0].strip().rstrip('/') for l in lines if l.split('#')[0].strip()}
+
+    def audit_chapters(self):
+        """Published chapters whose practice keys must be re-checked (bookgen --audit), one per line in
+        books/autopilot/AUDIT.txt; a chapter's line is removed in the commit that publishes its audit."""
+        try:
+            lines = AUDIT_FILE.read_text(encoding='utf-8').splitlines()
         except OSError:
             return set()
         return {l.split('#')[0].strip().rstrip('/') for l in lines if l.split('#')[0].strip()}
@@ -230,6 +249,16 @@ class Pilot:
         self.log(f'START {key} ({status}: todo {len(todo)}, problems {len(problems)})')
         if self.args.dry_run:
             return
+        audited = key in self.audit_chapters()
+        if audited and not todo:
+            self.step(key, 'audit')
+            _, bad = self.bookgen(ch, '--audit')
+            if bad:
+                with self.lock:
+                    self.state['failed'][key] = self.state['failed'].get(key, 0) + 1
+                    self.save()
+                self.log(f'AUDIT NOT DONE {key}: {bad[:2]}')
+                return
         if todo:
             self.step(key, 'write')
             _, bad = self.bookgen(ch)
@@ -258,7 +287,7 @@ class Pilot:
             with self.lock:
                 self.state.setdefault('done_at', {})[key] = datetime.now(IST).strftime('%d-%m %H:%M')
                 self.state['done'].append(key)
-            sha = self.commit(ch, summary)
+            sha = self.commit(ch, summary, audited)
             with self.lock:
                 self.state['failed'].pop(key, None)
                 self.save()
