@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 11-10-2026 03:50 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:19 PM
+**आख़िरी update:** 11-10-2026 03:51 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:19 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -39,7 +39,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 15:26:23   [Mixture_Alligation] repaired Flashcards_hi.txt (2851 chars)
 11-10 15:26:23   [Mixture_Alligation] written 1, failed 0; AI calls today 14/100000
 11-10 15:27:06   [Compound_Interest] repaired Flashcards_hi.txt (2963 chars)
 11-10 15:27:06   [Compound_Interest] written 1, failed 0; AI calls today 15/100000
@@ -79,4 +78,5 @@
 11-10 15:49:06   [Mixture_Alligation] written 1, failed 0; AI calls today 23/100000
 11-10 15:49:06 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation after 4 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (33']
 11-10 15:49:10 worker 2: nothing left
+11-10 15:51:12 autopilot end: done 0, failed 3
 ```
