@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 11-10-2026 06:25 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 05:17 PM
+**आख़िरी update:** 11-10-2026 06:35 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 05:17 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 03 Simplification (10th Maths) | 📤 push हो रहा है | 0 मिनट |
-| W2 | Chapter 06 Average (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W3 | Chapter 05 Percentage (10th Maths) | 🔎 review हो रहा है | 0 मिनट |
+| W1 | Chapter 07 Ratio Proportion (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W2 | Chapter 06 Average (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W3 | Chapter 05 Percentage (10th Maths) | 🔎 review हो रहा है | 9 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -44,13 +44,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 17:46:34   [Number_System] written 0, failed 0; AI calls today 54/100000
-11-10 17:46:58 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_01_Number_System in 29 min → 1ed527f8
-11-10 17:47:00 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_04_Fractions_Decimals (OK: todo 0, problems 0)
-11-10 17:48:12   [Fractions_Decimals] set 01: key confirmed
-11-10 17:51:14   [Simplification] set 02: key confirmed
-11-10 17:51:34   [LCM_HCF] review Short_Tricks_hi.txt: 1 issue(s): - Trick 8 example (5, 7 with remainder 3) is invalid because the remainder 3 is greater than the resulting HCF
-11-10 17:51:58   [Fractions_Decimals] set 02: key confirmed
 11-10 17:52:58   [LCM_HCF] review: 1 section(s) corrected, 0 failed
 11-10 17:52:58   [LCM_HCF] written 1, failed 0; AI calls today 65/100000
 11-10 17:53:22 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_02_LCM_HCF in 35 min → bd298ad8
@@ -84,4 +77,11 @@
 11-10 18:25:58   [Simplification] review: 2 section(s) corrected, 0 failed
 11-10 18:25:58   [Simplification] written 2, failed 0; AI calls today 124/100000
 11-10 18:26:05   [Average] set 01: key confirmed
+11-10 18:26:19 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_03_Simplification in 44 min → 70d58a9b
+11-10 18:26:21 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_07_Ratio_Proportion (OK: todo 0, problems 0)
+11-10 18:28:21   [Ratio_Proportion] set 01: key confirmed
+11-10 18:28:50   [Percentage] review Mind_Map.txt: 1 issue(s): - C3: "8.33% = 1/12" is inaccurate (1/12 = 8.333…%) → Write "8.33% ≈ 1/12" or "8.33% (approx) = 1/12"
+11-10 18:31:04   [Average] set 02: key confirmed
+11-10 18:33:20   [Ratio_Proportion] set 02: key confirmed
+11-10 18:34:52   [Average] set 03: key confirmed
 ```
