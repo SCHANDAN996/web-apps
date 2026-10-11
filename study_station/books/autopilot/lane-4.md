@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 11-10-2026 05:55 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:51 PM
+**आख़िरी update:** 11-10-2026 05:56 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:51 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W2 | Chapter 10 Compound Interest (12th Maths) | 🔧 सुधार रहा है | 40 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -35,14 +33,12 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 13 Mixture Alligation (Maths) — 4 बार
-- Chapter 10 Compound Interest (Maths) — 3 बार
+- Chapter 10 Compound Interest (Maths) — 4 बार
 - Chapter 01 Number System (Maths) — 4 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 16:26:32   [Mixture_Alligation] written 1, failed 0; AI calls today 14/100000
-11-10 16:26:33 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation after 26 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (34']
 11-10 16:26:36 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation (FIX: todo 0, problems 1)
 11-10 16:30:21   [Mixture_Alligation] repaired Flashcards_hi.txt (2816 chars)
 11-10 16:30:21   [Mixture_Alligation] written 1, failed 0; AI calls today 15/100000
@@ -81,4 +77,6 @@
 11-10 17:55:58   [Compound_Interest] repaired Flashcards_hi.txt (3323 chars)
 11-10 17:55:58   [Compound_Interest] written 1, failed 0; AI calls today 23/100000
 11-10 17:55:59 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest after 50 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (33']
+11-10 17:56:05 worker 1: nothing left
+11-10 17:56:09 autopilot end: done 0, failed 3
 ```
