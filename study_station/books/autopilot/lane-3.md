@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 11-10-2026 02:15 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
+**आख़िरी update:** 11-10-2026 02:30 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 06 Order Ranking (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
-| W2 | Chapter 07 Sitting Arrangement (12th Reasoning) | 🔧 सुधार रहा है | 1 मिनट |
-| W3 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
+| W1 | Chapter 06 Order Ranking (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 47 मिनट |
+| W2 | Chapter 16 Statement Conclusion (12th Reasoning) | 🔧 सुधार रहा है | 1 मिनट |
+| W3 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 46 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -36,7 +36,7 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 07 Sitting Arrangement (Reasoning) — 3 बार
+- Chapter 07 Sitting Arrangement (Reasoning) — 4 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
@@ -68,4 +68,13 @@
 11-10 14:13:54 NOT OK 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement after 10 min: todo [] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
 11-10 14:13:57 START 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement (FIX: todo 0, problems 1)
 11-10 14:15:06   [Order_Ranking] set 04: key confirmed
+11-10 14:17:10   [Puzzles] set 01 try 1: re-solve disagrees (Q20 key d vs re-solve a)
+11-10 14:18:41   [Sitting_Arrangement] repaired Short_Tricks_hi.txt (5016 chars)
+11-10 14:18:41   [Sitting_Arrangement] written 1, failed 0; AI calls today 22/100000
+11-10 14:19:55   [Order_Ranking] set 05: Q104: the clues allow more than one answer — add a clue so exactly one arrangement fits
+11-10 14:29:17   [Sitting_Arrangement] repaired Short_Tricks_hi.txt (4797 chars)
+11-10 14:29:17   [Sitting_Arrangement] written 1, failed 0; AI calls today 28/100000
+11-10 14:29:17 NOT OK 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement after 15 min: todo [] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
+11-10 14:29:20 START 12th_Level/Reasoning/Chapter_16_Statement_Conclusion (FIX: todo 0, problems 1)
+11-10 14:30:30   [Puzzles] set 01 try 2: re-solve disagrees (Q23: the clues give "4", which is not among the options)
 ```
