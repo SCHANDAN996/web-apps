@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 11-10-2026 03:31 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
+**आख़िरी update:** 11-10-2026 03:47 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 108 मिनट |
-| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 108 मिनट |
+| W1 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 24 मिनट |
+| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 123 मिनट |
+| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 123 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,10 +37,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 14:07:49   [Analogy] set 04: Q89 key b vs re-solve a
-11-10 14:10:44   [Coding_Decoding] set 01 try 2: re-solve disagrees (Q18 key b vs re-solve a)
-11-10 14:15:43   [Classification] set 02 try 2: re-solve disagrees (Q39 key d vs re-solve c, Q47 key b vs re-solve a)
-11-10 14:17:08   [Analogy] repaired set 04 (en + hi, key confirmed by an independent re-solve)
 11-10 14:23:16   [Analogy] set 05: Q102 key b vs re-solve a, Q110 key b vs re-solve c, Q112 key d vs re-solve c, Q115 key c vs re-solve a, Q125 key b vs re-solve a
 11-10 14:25:10   [Classification] repaired set 02 (en + hi, key confirmed by an independent re-solve)
 11-10 14:25:11   [Coding_Decoding] repaired set 01 (en + hi, key confirmed by an independent re-solve)
@@ -77,4 +73,8 @@
 11-10 15:23:27   [Blood_Relations] set 01: Q2 key b vs re-solve c, Q3 key c vs re-solve a, Q4 key d vs re-solve a
 11-10 15:23:46   [Coding_Decoding] repaired set 03 (en + hi, key confirmed by an independent re-solve)
 11-10 15:29:54   [Classification] set 05 try 3: re-solve disagrees (Q108 key a vs re-solve b, Q119 key b vs re-solve a)
+11-10 15:32:46   [Blood_Relations] repaired set 01 (en + hi, key confirmed by an independent re-solve)
+11-10 15:36:56   [Classification] set 05 try 4: re-solve disagrees (Q119 key a vs re-solve b)
+11-10 15:36:56   [Classification] FAILED set 05: no version passed the checks — files left as they were
+11-10 15:46:29   [Coding_Decoding] FAILED set 04: too_long
 ```
