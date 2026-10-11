@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 11-10-2026 06:20 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 05:17 PM
+**आख़िरी update:** 11-10-2026 06:24 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 05:17 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 03 Simplification (10th Maths) | 🔎 review हो रहा है | 16 मिनट |
-| W2 | Chapter 04 Fractions Decimals (10th Maths) | 🔎 review हो रहा है | 13 मिनट |
-| W3 | Chapter 05 Percentage (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 26 मिनट |
+| W1 | Chapter 03 Simplification (10th Maths) | 🔎 review हो रहा है | 20 मिनट |
+| W2 | Chapter 04 Fractions Decimals (10th Maths) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 05 Percentage (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -32,6 +32,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 11-10 18:24 — 10th Maths · Chapter 04 Fractions Decimals
 - 11-10 17:52 — 10th Maths · Chapter 02 LCM HCF
 - 11-10 17:46 — 10th Maths · Chapter 01 Number System
 
@@ -42,10 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 17:38:22   [Verb] written 0, failed 1; AI calls today 30/100000
-11-10 17:38:46   [Number_System] set 06: key confirmed
-11-10 17:38:46   [Number_System] written 0, failed 0; AI calls today 31/100000
-11-10 17:40:44   [LCM_HCF] set 06: key confirmed
 11-10 17:40:44   [LCM_HCF] written 0, failed 0; AI calls today 36/100000
 11-10 17:42:12   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
 11-10 17:42:12   [Verb] written 0, failed 1; AI calls today 40/100000
@@ -82,4 +79,8 @@
 11-10 18:15:59   [Fractions_Decimals] review Flashcards_en.txt: 1 issue(s): - Card 18: The notation "0.8̅3̅" places a bar over both digits, which conventionally means both digits repeat; t
 11-10 18:16:31   [Percentage] repaired set 03 (en + hi, key confirmed by an independent re-solve)
 11-10 18:18:16   [Percentage] set 04: key confirmed
+11-10 18:21:25   [Percentage] set 05: key confirmed
+11-10 18:22:45   [Simplification] review Short_Tricks_en.txt: 2 issue(s): - Trick 10 states “roots and powers are solved individually right after brackets and ‘of’” which incorrectly p
+11-10 18:24:35   [Fractions_Decimals] review: 2 section(s) corrected, 0 failed
+11-10 18:24:35   [Fractions_Decimals] written 2, failed 0; AI calls today 121/100000
 ```
