@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 11-10-2026 03:01 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
+**आख़िरी update:** 11-10-2026 03:16 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Analogy (10th Reasoning) | 🔎 review हो रहा है | 7 मिनट |
-| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 77 मिनट |
-| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 77 मिनट |
+| W1 | Chapter 01 Analogy (10th Reasoning) | 🔎 review हो रहा है | 23 मिनट |
+| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 92 मिनट |
+| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 92 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,10 +37,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 13:43:29 autopilot start: 3 workers, reverse=True
-11-10 13:43:29 START 10th_Level/Reasoning/Chapter_01_Analogy (OK: todo 0, problems 0)
-11-10 13:43:34 START 10th_Level/Reasoning/Chapter_02_Classification (OK: todo 0, problems 0)
-11-10 13:43:39 START 10th_Level/Reasoning/Chapter_03_Coding_Decoding (OK: todo 0, problems 0)
 11-10 13:44:24   [Analogy] set 01: key confirmed
 11-10 13:44:42   [Classification] set 01: Q1 key a vs re-solve d, Q5 key a vs re-solve d, Q7 key c vs re-solve d, Q11 key c vs re-solve d, Q13 key a vs re-solve c, Q14 key b vs re-solv
 11-10 13:46:17   [Analogy] set 02: Q37 key d vs re-solve a, Q38 key a vs re-solve b, Q39 key b vs re-solve a
@@ -75,4 +71,10 @@
 11-10 14:56:22   [Coding_Decoding] repaired set 02 (en + hi, key confirmed by an independent re-solve)
 11-10 14:58:47   [Analogy] review Content_hi.txt: 2 issue(s): - The self-test answer for “WING का पूरा नाम बताइए” incorrectly states “Word, Integer, Number, General Knowledge” →
 11-10 15:01:19   [Classification] repaired set 04 (en + hi, key confirmed by an independent re-solve)
+11-10 15:04:20   [Analogy] review Feynman_hi.txt: 1 issue(s): - “सूरजमुखी भी फूल है और रंग बदलता है (पीला, नारंगी, लाल)” → “सूरजमुखी भी फूल है और विभिन्न रंगों में पाया जाता है 
+11-10 15:07:29   [Classification] set 05: Q101 key a vs re-solve c, Q103 key c vs re-solve d, Q111 key c vs re-solve d, Q113 key a vs re-solve d, Q118 key b vs re-solve c, Q119 key c v
+11-10 15:07:33   [Analogy] review Flashcards_en.txt: 1 issue(s): - Flashcard 14 states the relationship as “number × 7 + 1” → The correct relationship is “number × number + 1” (
+11-10 15:10:08   [Coding_Decoding] set 03: Q60 key b vs re-solve a, Q68 key b vs re-solve a
+11-10 15:13:15   [Analogy] review PYQ_en.txt: 3 issue(s): - Introductory claim "2–4 questions appear in almost every exam" is an invented exam statistic with no source → Remove 
+11-10 15:16:33   [Analogy] review PYQ_hi.txt: 3 issue(s): - The year-wise frequency table (2014‑2023) for SSC, Banking, Railway and State Police presents invented statistics wit
 ```
