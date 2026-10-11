@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 11-10-2026 04:48 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
+**आख़िरी update:** 11-10-2026 05:04 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 86 मिनट |
-| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 25 मिनट |
-| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 185 मिनट |
+| W1 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 101 मिनट |
+| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 40 मिनट |
+| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 200 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -41,10 +41,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 15:17:59   [Classification] set 05 try 1: re-solve disagrees (Q108 key b vs re-solve c, Q119 key a vs re-solve d, Q123 key b vs re-solve d)
-11-10 15:19:48   [Analogy] review Important_Rules_en.txt: 1 issue(s): - Example "8:27 → Cube" is incorrect; 8³ = 512, not 27 → Use a correct cube example like "3:27" or "4:64"
-11-10 15:21:18   [Analogy] review Important_Rules_hi.txt: 1 issue(s): - In 'पहले आम संख्या संक्रियाएँ देखें', the cube example '8:27 → घन' is incorrect because 8 is not the cube
-11-10 15:21:36   [Classification] set 05 try 2: re-solve disagrees (Q123 key b vs re-solve d)
 11-10 15:22:05   [Analogy] review: 8 section(s) corrected, 0 failed
 11-10 15:22:05   [Analogy] written 8, failed 0; AI calls today 90/100000
 11-10 15:22:30 DONE 10th_Level/Reasoning/Chapter_01_Analogy in 99 min → e75d60f7
@@ -81,4 +77,8 @@
 11-10 16:41:42   [Classification] set 03: key confirmed
 11-10 16:43:28   [Blood_Relations] set 05: Q105 key a vs re-solve b, Q121 key a vs re-solve b
 11-10 16:44:40   [Classification] set 04: key confirmed
+11-10 16:51:44   [Blood_Relations] repaired set 05 (en + hi, key confirmed by an independent re-solve)
+11-10 16:54:38   [Classification] set 05: Q103 key c vs re-solve d, Q111 key c vs re-solve d, Q113 key a vs re-solve d, Q118 key b vs re-solve c, Q119 key c vs re-solve d, Q124 key d v
+11-10 16:58:55   [Coding_Decoding] repaired set 05 (en + hi, key confirmed by an independent re-solve)
+11-10 17:02:44   [Blood_Relations] set 06: Q127 key b vs re-solve d, Q131 key b vs re-solve a, Q135 key b vs re-solve a, Q145 key d vs re-solve b, Q148 key c vs re-solve a
 ```
