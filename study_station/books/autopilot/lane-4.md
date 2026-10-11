@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 11-10-2026 08:04 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:48 PM
+**आख़िरी update:** 11-10-2026 08:19 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:48 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Number System (12th Maths) | 🔧 सुधार रहा है | 16 मिनट |
-| W2 | Chapter 10 Compound Interest (12th Maths) | 🔧 सुधार रहा है | 1 मिनट |
-| W3 | Chapter 13 Mixture Alligation (12th Maths) | 🔧 सुधार रहा है | 9 मिनट |
+| W1 | Chapter 01 Number System (12th Maths) | 🔧 सुधार रहा है | 31 मिनट |
+| W2 | Chapter 10 Compound Interest (12th Maths) | 🔧 सुधार रहा है | 17 मिनट |
+| W3 | Chapter 13 Mixture Alligation (12th Maths) | 🔧 सुधार रहा है | 25 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
