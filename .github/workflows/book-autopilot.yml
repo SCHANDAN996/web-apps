@@ -12,6 +12,7 @@ on:
 
 permissions:
   contents: write
+  actions: write                   # the last job starts the next run, so the lanes never sit idle
 
 jobs:
   write-books:
@@ -79,7 +80,8 @@ jobs:
         working-directory: study_station/v2
         timeout-minutes: 325           # step limit (not the job's) so the unfinished work is still packed
         env:
-          # a second key (optional secret NVIDIA_API_KEY_2) is shared out over the workers
+          # a second key (optional secret NVIDIA_API_KEY_2) is shared out over the workers; 3 workers per lane keep
+          # the free NVIDIA API under its rate limit (8 got mostly rate_limited/network/empty answers)
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }},${{ secrets.NVIDIA_API_KEY_2 }}
           BOOKGEN_REJECT_DIR: ${{ runner.temp }}/rejects
           PYTHONUNBUFFERED: '1'
@@ -87,7 +89,7 @@ jobs:
           git config user.name "study-station-book-autopilot"
           git config user.email "211449723+SCHANDAN996@users.noreply.github.com"
           mkdir -p ../books/autopilot
-          python tools/book_autopilot.py --workers 8 --reverse --only ${{ matrix.books }} \
+          python tools/book_autopilot.py --workers 3 --max-fails 4 --reverse --only ${{ matrix.books }} \
             --name "${{ matrix.lane }}" --status-file "${{ matrix.status }}" \
             --branch "$BOOKS_BRANCH" --state-dir "$RUNNER_TEMP/autopilot" --stop-new-after 240
       - name: Pack unfinished work
@@ -111,3 +113,21 @@ jobs:
             ${{ runner.temp }}/rejects
           if-no-files-found: ignore
           retention-days: 7
+
+  # GitHub often skips hourly cron runs, so a run that found work starts the next one itself. A run that ended
+  # within 20 minutes had nothing left it could do; then only the hourly cron tries again (no endless loop).
+  next-run:
+    needs: write-books
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start the next autopilot run
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          started=$(gh run view "${{ github.run_id }}" --repo "$REPO" --json startedAt -q .startedAt)
+          minutes=$(( ( $(date +%s) - $(date -d "$started" +%s) ) / 60 ))
+          echo "this run took $minutes minutes"
+          if [ "$minutes" -lt 20 ]; then echo "nothing left to do — waiting for the hourly cron"; exit 0; fi
+          gh workflow run book-autopilot.yml --repo "$REPO" --ref main
