@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 04:08 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 12:34 AM
+**आख़िरी update:** 12-10-2026 04:23 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 12:34 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 101 मिनट |
-| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 42 मिनट |
-| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 213 मिनट |
+| W1 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 116 मिनट |
+| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 58 मिनट |
+| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 228 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -41,13 +41,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 02:34:19   [Classification] set 05: Q103 key c vs re-solve d, Q111 key c vs re-solve d, Q113 key a vs re-solve d, Q116 key d vs re-solve b, Q118 key b vs re-solve c, Q119 key c v
-12-10 02:35:29   [Blood_Relations] set 01 try 2: re-solve disagrees (Q24 key b vs re-solve a)
-12-10 02:37:15   [Blood_Relations] set 01 try 3: re-solve disagrees (Q24 key c vs re-solve a)
-12-10 02:38:09   [Blood_Relations] set 01 try 4: rejected (Q24:leaked_reasoning)
-12-10 02:38:09   [Blood_Relations] FAILED set 01: no version passed the checks — files left as they were
-12-10 02:39:50   [Classification] set 05 try 1: re-solve disagrees (Q119 key c vs re-solve d)
-12-10 02:42:56   [Coding_Decoding] repaired set 03 (en + hi, key confirmed by an independent re-solve)
 12-10 02:45:06   [Classification] set 05 try 2: re-solve disagrees (Q119 key b vs re-solve d)
 12-10 02:45:33   [Blood_Relations] set 02: Q46 key a vs re-solve b
 12-10 02:53:03   [Blood_Relations] set 02 try 1: re-solve disagrees (Q48 key d vs re-solve ?)
@@ -81,4 +74,11 @@
 12-10 04:00:58   [Blood_Relations] repaired set 05 (en + hi, key confirmed by an independent re-solve)
 12-10 04:02:16   [Classification] set 02 try 3: re-solve disagrees (Q45 key d vs re-solve b)
 12-10 04:04:54   [Coding_Decoding] set 06: Q127 key b vs re-solve a, Q134 key a vs re-solve b, Q139 key b vs re-solve a
+12-10 04:08:53   [Classification] set 02 try 4: re-solve disagrees (Q32 key d vs re-solve c, Q37 key c vs re-solve b)
+12-10 04:08:53   [Classification] FAILED set 02: no version passed the checks — files left as they were
+12-10 04:13:11   [Classification] set 03: key confirmed
+12-10 04:15:47   [Blood_Relations] set 06: Q127 key b vs re-solve d, Q135 key b vs re-solve a, Q145 key d vs re-solve b
+12-10 04:16:52   [Classification] set 04: Q76 key a vs re-solve d, Q78 key c vs re-solve d, Q80 key a vs re-solve c, Q85 key b vs re-solve d, Q86 key c vs re-solve d, Q88 key a vs re-s
+12-10 04:18:10   [Classification] set 04 try 1: rejected (Q86:leaked_reasoning)
+12-10 04:21:20   [Coding_Decoding] Practice_hi_Set_06.txt try 1: rejected (Q140:leaked_reasoning)
 ```
