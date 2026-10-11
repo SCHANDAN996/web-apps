@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 11-10-2026 06:57 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:07 PM
+**आख़िरी update:** 11-10-2026 07:12 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:07 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 222 मिनट |
-| W2 | Chapter 12 Missing Term (Graduation Reasoning) | 🔧 सुधार रहा है | 3 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 230 मिनट |
+| W1 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 237 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 245 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -39,16 +38,11 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 22 Para Jumbles Adv (English) — 4 बार
+- Chapter 12 Missing Term (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 15:13:14 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv (FIX: todo 0, problems 1)
-11-10 15:14:11   [Para_Jumbles_Adv] repaired Mind_Map_hi.txt (1347 chars)
-11-10 15:14:11   [Para_Jumbles_Adv] written 1, failed 0; AI calls today 10/100000
-11-10 15:14:57   [Para_Jumbles_Adv] repaired Mind_Map_hi.txt (1129 chars)
-11-10 15:14:57   [Para_Jumbles_Adv] written 1, failed 0; AI calls today 11/100000
-11-10 15:14:57 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv after 2 min: todo [] problems ['Mind_Map_hi.txt: much shorter than the English section (1128']
 11-10 15:14:59 START Graduation_Level/Reasoning/Chapter_08_Puzzles (OK: todo 0, problems 0)
 11-10 15:17:21   [Order_Ranking] set 01: key confirmed
 11-10 15:26:45   [Order_Ranking] set 02: key confirmed
@@ -83,4 +77,10 @@
 11-10 18:54:19 DONE Graduation_Level/Reasoning/Chapter_06_Order_Ranking in 227 min → db8910bc
 11-10 18:54:21 START Graduation_Level/Reasoning/Chapter_12_Missing_Term (FIX: todo 0, problems 1)
 11-10 18:56:16   [Puzzles] repaired set 02 (en + hi, key confirmed by an independent re-solve)
+11-10 19:00:01   [Missing_Term] repaired Important_Rules_hi.txt (3111 chars)
+11-10 19:00:01   [Missing_Term] written 1, failed 0; AI calls today 92/100000
+11-10 19:10:24   [Missing_Term] repaired Important_Rules_hi.txt (3320 chars)
+11-10 19:10:24   [Missing_Term] written 1, failed 0; AI calls today 93/100000
+11-10 19:10:24 NOT OK Graduation_Level/Reasoning/Chapter_12_Missing_Term after 16 min: todo [] problems ['Important_Rules_hi.txt: much shorter than the English sectio']
+11-10 19:10:24 worker 1: nothing left
 ```
