@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 12-10-2026 05:25 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 05:09 AM
+**आख़िरी update:** 12-10-2026 05:26 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 05:09 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -38,7 +38,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 05:12:19   [Linear_Programming] REJECTED Content_hi.txt: too short — not written
 12-10 05:12:19   [Linear_Programming] written 0, failed 1; AI calls today 5/100000
 12-10 05:12:20 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming after 2 min: todo [] problems ['Content_hi.txt: much shorter than the English section (6321 ']
 12-10 05:12:24 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming (FIX: todo 0, problems 1)
@@ -78,4 +77,5 @@
 12-10 05:19:16   [Linear_Programming] written 0, failed 1; AI calls today 16/100000
 12-10 05:19:16 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming after 2 min: todo [] problems ['Content_hi.txt: much shorter than the English section (2986 ']
 12-10 05:19:21 worker 1: nothing left
+12-10 05:26:19 autopilot end: done 0, failed 2
 ```
