@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 11-10-2026 08:26 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:09 PM
+**आख़िरी update:** 11-10-2026 08:41 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:09 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 77 मिनट |
-| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 77 मिनट |
-| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 76 मिनट |
+| W1 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 92 मिनट |
+| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 92 मिनट |
+| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 92 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -53,4 +53,7 @@
 11-10 20:07:27   [Classification] set 01 try 3: re-solve disagrees (Q7 key d vs re-solve c)
 11-10 20:23:45   [Coding_Decoding] repaired set 01 (en + hi, key confirmed by an independent re-solve)
 11-10 20:24:11   [Analogy] Practice_hi_Set_01.txt try 1: rejected (parsed 24 questions, numbers 1…25)
+11-10 20:26:52   [Classification] repaired set 01 (en + hi, key confirmed by an independent re-solve)
+11-10 20:29:11   [Analogy] repaired set 01 (en + hi, key confirmed by an independent re-solve)
+11-10 20:36:04   [Analogy] set 02: Q41 key b vs re-solve d
 ```
