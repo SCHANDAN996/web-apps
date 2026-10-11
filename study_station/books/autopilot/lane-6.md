@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 02:27 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 12:34 AM
+**आख़िरी update:** 12-10-2026 02:37 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 12:34 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Analogy (10th Reasoning) | 📤 push हो रहा है | 0 मिनट |
-| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 112 मिनट |
-| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 112 मिनट |
+| W1 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 122 मिनट |
+| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 122 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,14 +37,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 01:07:01   [Classification] set 02 try 1: rejected (Q26:leaked_reasoning,Q33:leaked_reasoning,Q38:leaked_reasoning)
-12-10 01:08:09   [Classification] set 02 try 2: rejected (Q38:leaked_reasoning)
-12-10 01:15:00   [Analogy] set 04 try 1: re-solve disagrees (Q77 key c vs re-solve a, Q86 key a vs re-solve b)
-12-10 01:18:45   [Analogy] set 04 try 2: re-solve disagrees (Q83 key b vs re-solve c)
-12-10 01:20:30   [Coding_Decoding] set 01 try 2: re-solve disagrees (Q18 key c vs re-solve a)
-12-10 01:21:11   [Classification] set 02 try 3: re-solve disagrees (Q32 key b vs re-solve d, Q35 key a vs re-solve c, Q37 key d vs re-solve c, Q44 key c vs re-solve b, Q48 key d vs re-
-12-10 01:21:41   [Coding_Decoding] set 01 try 3: rejected (Q18:leaked_reasoning)
-12-10 01:22:30   [Analogy] set 04 try 3: re-solve disagrees (Q77 key d vs re-solve a)
 12-10 01:26:36   [Analogy] repaired set 04 (en + hi, key confirmed by an independent re-solve)
 12-10 01:30:15   [Coding_Decoding] repaired set 01 (en + hi, key confirmed by an independent re-solve)
 12-10 01:31:24   [Classification] set 02 try 4: re-solve disagrees (Q45 key d vs re-solve b, Q49 key b vs re-solve d)
@@ -77,4 +69,12 @@
 12-10 02:26:05   [Analogy] review Important_Rules_en.txt: 1 issue(s): - "aN alphabet" in WING Classification description → "an alphabet"
 12-10 02:27:02   [Analogy] review: 6 section(s) corrected, 0 failed
 12-10 02:27:02   [Analogy] written 6, failed 0; AI calls today 119/100000
+12-10 02:27:18 DONE 10th_Level/Reasoning/Chapter_01_Analogy in 112 min → 4375bff1
+12-10 02:27:18 START 10th_Level/Reasoning/Chapter_04_Blood_Relations (OK: todo 0, problems 0)
+12-10 02:29:09   [Coding_Decoding] set 03: Q68 key b vs re-solve a
+12-10 02:29:31   [Blood_Relations] set 01: Q2 key b vs re-solve c, Q3 key c vs re-solve a, Q4 key d vs re-solve a
+12-10 02:33:29   [Blood_Relations] set 01 try 1: re-solve disagrees (Q24 key c vs re-solve b)
+12-10 02:34:19   [Classification] set 05: Q103 key c vs re-solve d, Q111 key c vs re-solve d, Q113 key a vs re-solve d, Q116 key d vs re-solve b, Q118 key b vs re-solve c, Q119 key c v
+12-10 02:35:29   [Blood_Relations] set 01 try 2: re-solve disagrees (Q24 key b vs re-solve a)
+12-10 02:37:15   [Blood_Relations] set 01 try 3: re-solve disagrees (Q24 key c vs re-solve a)
 ```
