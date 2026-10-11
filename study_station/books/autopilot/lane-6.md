@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 02:21 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 12:34 AM
+**आख़िरी update:** 12-10-2026 02:27 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 12:34 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Analogy (10th Reasoning) | 🔎 review हो रहा है | 17 मिनट |
-| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 107 मिनट |
-| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 107 मिनट |
+| W1 | Chapter 01 Analogy (10th Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 112 मिनट |
+| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 112 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -32,14 +32,11 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 12-10 02:27 — 10th Reasoning · Chapter 01 Analogy
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 01:04:42   [Analogy] set 04: Q77 key a vs re-solve b
-12-10 01:05:09   [Classification] set 02: Q26 key a vs re-solve b, Q31 key b vs re-solve c, Q32 key c vs re-solve a, Q35 key b vs re-solve a, Q37 key d vs re-solve b, Q38 key a vs re-s
-12-10 01:06:39   [Coding_Decoding] set 01 try 1: re-solve disagrees (Q20 key c vs re-solve b)
 12-10 01:07:01   [Classification] set 02 try 1: rejected (Q26:leaked_reasoning,Q33:leaked_reasoning,Q38:leaked_reasoning)
 12-10 01:08:09   [Classification] set 02 try 2: rejected (Q38:leaked_reasoning)
 12-10 01:15:00   [Analogy] set 04 try 1: re-solve disagrees (Q77 key c vs re-solve a, Q86 key a vs re-solve b)
@@ -77,4 +74,7 @@
 12-10 02:20:32   [Analogy] review Flashcards_hi.txt: 1 issue(s): - Flashcard 4: "घोंसला मानव-निर्मित" is factually wrong → घोंसला पक्षी स्वयं बनाते हैं, मानव नहीं; पक्षी का प्रा
 12-10 02:20:36   [Classification] set 04 try 4: re-solve disagrees (Q90 key a vs re-solve c)
 12-10 02:20:36   [Classification] FAILED set 04: no version passed the checks — files left as they were
+12-10 02:26:05   [Analogy] review Important_Rules_en.txt: 1 issue(s): - "aN alphabet" in WING Classification description → "an alphabet"
+12-10 02:27:02   [Analogy] review: 6 section(s) corrected, 0 failed
+12-10 02:27:02   [Analogy] written 6, failed 0; AI calls today 119/100000
 ```
