@@ -1,0 +1,32 @@
+```mermaid
+graph TD
+    A["शब्दकोश क्रम<br>Dictionary Order"] --> B["मूल अवधारणा<br>Basic Concept"]
+    A --> C["प्रश्नों के प्रकार<br>Types of Questions"]
+    A --> D["हल करने की रणनीति<br>Solving Strategy"]
+    A --> E["समय प्रबंधन<br>Time Management"]
+    A --> F["परीक्षक के जाल<br>Examiner Traps"]
+
+    B --> B1["अंग्रेजी वर्णमाला क्रम<br>A → Z (26 अक्षर)"]
+    B --> B2["पहला अक्षर समान → दूसरा देखें<br>Same 1st letter → check 2nd"]
+    B --> B3["दूसरा समान → तीसरा देखें<br>Same 2nd → check 3rd"]
+    B --> B4["छोटा शब्द पहले आता है<br>Shorter word comes first<br>(CAT < CATCH)"]
+
+    C --> C1["शब्दों को शब्दकोश क्रम में लगाना<br>Arrange words in dictionary order"]
+    C --> C2["कौन-सा शब्द पहले/बाद में आएगा<br>Which word comes first/last"]
+    C --> C3["सही क्रमांक बताना (1,2,3,4)<br>Give correct sequence numbers"]
+    C --> C4["कौन-सा क्रम शब्दकोश क्रम में नहीं है<br>Which sequence is not in dictionary order"]
+
+    D --> D1["सभी शब्दों के पहले अक्षर लिखें<br>Write first letters of all words"]
+    D --> D2["समान अक्षरों को समूह में बाँटें<br>Group same letters"]
+    D --> D3["समूह के भीतर अगला अक्षर जाँचें<br>Check next letter within group"]
+    D --> D4["अंतिम क्रम संख्या लिखें<br>Assign final order numbers"]
+
+    E --> E1["आसान प्रश्न: 15–20 सेकंड<br>Easy: 15–20 seconds"]
+    E --> E2["कठिन (4+ समान अक्षर): 30–40 सेकंड<br>Tough: 30–40 seconds"]
+    E --> E3["पूरा शब्द न पढ़ें, केवल अक्षर तुलना<br>Compare letters, don't read words"]
+
+    F --> F1["लगभग समान शब्द<br>Similar words (MANAGE, MANNER, MANUAL)"]
+    F --> F2["छोटा बनाम लंबा शब्द भ्रम<br>Short vs long word confusion"]
+    F --> F3["क्रम उल्टा लिख देना<br>Writing reverse order"]
+    F --> F4["विकल्प में मिलते-जुलते क्रमांक<br>Close sequence options"]
+```
