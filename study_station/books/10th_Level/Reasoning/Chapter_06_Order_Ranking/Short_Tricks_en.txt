@@ -25,15 +25,17 @@ Never argue left vs right; bring them to the same side like two warring friends 
 
 📦 Mnemonic Box 5: Overlap Check – “Jab Sum Bada Ho Total Se”
 
-Rule: If L + R > T, persons overlap.
-Mnemonic: “L+R T ko cross kare, overlap ka rasta pakde!”
-If the sum of ranks from opposite ends exceeds total, they’ve crossed paths. Imagine two trains crossing – they overlapped!
+Rule: If L + R > T + 1, the two persons have crossed each other (overlap).
+Mnemonic: “L+R T+1 ko cross kare, overlap ka rasta pakde!”
+If the sum of ranks from opposite ends exceeds T + 1, they've crossed paths. Imagine two trains crossing – they overlapped!
+Special case: If L + R = T + 1, both ranks point to the SAME person (0 persons between). If L + R ≤ T, there is no overlap.
 
 📦 Mnemonic Box 6: Overlap Between Formula – “Sum Se T Ghato, Do Ghato”
 
-Rule: Persons between = (L₁ + R₂) – T – 2
+Rule: When L + R > T + 1 (genuine overlap of two different persons), persons between = (L₁ + R₂) – T – 2
 Mnemonic: “Sum of opposite, minus total, minus two – the magic between!”
 Think of it as a magic spell: “Summinus Totalminus Two! Abracadabra, between who!”
+Caution: Use this only after the Box 5 check confirms a real overlap. If L + R = T + 1, the answer is 0 (same person), not –1.
 
 📦 Mnemonic Box 7: Interchange – “Nayi Rank = Purani Dusre Ki”
 
@@ -41,23 +43,23 @@ Rule: After swap, new rank of one from an end = other’s old rank from that sam
 Mnemonic: “Adla-badli mein yaad rahe, nayi rank dusre ki purani hai!”
 Just like exchanging seats in a class, the new position is the old position of the friend you swapped with.
 
-📦 Mnemonic Box 8: Interchange Total Finder – “Naya Left + Unchanged Right – 1”
+📦 Mnemonic Box 8: Interchange Total Finder – “Naya Left + Purana Right – 1”
 
-Rule: T = New Left (of swapped person) + Unchanged Right (of the same person) – 1
-Mnemonic: “Jo badla uska naya left, jo na badla uska right, dono jodo, ek ghatao – total tight!”
-One rank changed, one didn’t. Add the new left and the old right (that stayed), minus 1.
+Rule: T = New Left rank (of the swapped person, after interchange) + Old Right rank (of the same person, before interchange) – 1
+Mnemonic: “Jo badla uska naya left, usi ka purana right, dono jodo, ek ghatao – total tight!”
+After the swap, the person's left rank changes but the right rank from before the swap still belongs to the same seat count. Add the new left and the old right, minus 1.
 
 📦 Mnemonic Box 9: Minimum Total – “Ek Hi Aadmi Maan Lo”
 
-Rule: Min total = L + R – 1 (assume same person)
+Rule: Min total = L + R – 1 (assume both ranks point to the same person)
 Mnemonic: “Minimum nikaalna hai to dono ko ek kar do, Jaise Batman aur Bruce Wayne ek hain!”
 Just like Bruce Wayne is Batman, consider both ranks point to the same person for minimal total.
 
-📦 Mnemonic Box 10: Maximum Total – “Door-Door Khade Hain”
+📦 Mnemonic Box 10: Maximum Total – “Sirf L Aur R Se Na Jaaye”
 
-Rule: Max total = L + R (no overlap, opposite extremes)
-Mnemonic: “Maximum mein door-door, dono chhoron par khade, beech mein koi nahin!”
-For maximum, imagine them at the two extreme ends, with no one between, so total = L + R.
+Rule: Maximum total CANNOT be found from L and R alone — the row can be arbitrarily long. A maximum exists only when extra information is given (e.g., number of persons between them, or their relative order with a fixed gap).
+Mnemonic: “Maximum ka sawaal ho, to pehle extra clue khojo; bina clue ke 'cannot be determined' bolo!”
+Don't fall for the trap of writing Max = L + R. Without a constraint on the gap between the two persons, the total has no upper limit.
 
 📦 Mnemonic Box 11: “Cannot be Determined” – “Dost Ya Dushman?”
 
