@@ -32,6 +32,6 @@ graph TD
     F --> F2["कुल = L + R (भूलकर −1 न करना)<br>Forgetting −1 in Total"]
     F --> F3["'के बीच' और 'के बाद' का अंतर<br>Between vs After"]
     F --> F4["स्थान बदलाव में दोनों के स्थान बदलते हैं<br>Both Positions Change in Swap"]
-    F --> F5["'कम से कम/अधिक से अधिक से अधिक' में दोनों सिरे जाँचें<br>Check Both Extremes"]
+    F --> F5["'कम से कम/अधिक से अधिक' में दोनों सिरे जाँचें<br>Check Both Extremes"]
     F --> F6["नकारात्मक वाक्य: 'नहीं है'<br>Negative Wording Trap"]
 ```

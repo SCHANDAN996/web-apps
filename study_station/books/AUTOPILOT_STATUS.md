@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 11-10-2026 06:42 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:07 PM
+**आख़िरी update:** 11-10-2026 06:53 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:07 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 207 मिनट |
-| W2 | Chapter 06 Order Ranking (Graduation Reasoning) | 🔎 review हो रहा है | 48 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 214 मिनट |
+| W1 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 218 मिनट |
+| W2 | Chapter 06 Order Ranking (Graduation Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 226 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -34,7 +34,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 11-10 18:53 — Graduation Reasoning · Chapter 06 Order Ranking
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
@@ -43,10 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 15:10:49 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv after 2 min: todo [] problems ['Mind_Map_hi.txt: much shorter than the English section (1380']
-11-10 15:10:50 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv (FIX: todo 0, problems 1)
-11-10 15:12:30   [Para_Jumbles_Adv] repaired Mind_Map_hi.txt (1726 chars)
-11-10 15:12:30   [Para_Jumbles_Adv] written 1, failed 0; AI calls today 8/100000
 11-10 15:13:12   [Para_Jumbles_Adv] repaired Mind_Map_hi.txt (1275 chars)
 11-10 15:13:12   [Para_Jumbles_Adv] written 1, failed 0; AI calls today 9/100000
 11-10 15:13:12 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv after 2 min: todo [] problems ['Mind_Map_hi.txt: much shorter than the English section (1274']
@@ -83,4 +79,8 @@
 11-10 18:19:49   [Sitting_Arrangement] set 02 try 1: re-solve disagrees (Q37: the clues give "2", which is not among the options; Q39: the clues give "6", which is not among the options; Q4
 11-10 18:22:27   [Order_Ranking] review Flashcards_hi.txt: 1 issue(s): - Card 4: The statement "कुल = A का पुराना बाएँ स्थान + B का पुराना दाएँ स्थान − 1" is presented as a general ru
 11-10 18:38:18   [Order_Ranking] review PYQ_en.txt: 1 issue(s): - "SSC CGL / CHSL / NTPC" incorrectly groups RRB NTPC under SSC; NTPC is conducted by RRB, not SSC → Should be "SSC CGL
+11-10 18:43:55   [Sitting_Arrangement] set 02 try 2: re-solve disagrees (Q37 key b vs re-solve c)
+11-10 18:44:01   [Order_Ranking] review Short_Tricks_en.txt: 1 issue(s): - Box 9: "Maximum = add them up" is incorrect for two ranks given from the same side; there is no fixed maximu
+11-10 18:53:58   [Order_Ranking] review: 4 section(s) corrected, 0 failed
+11-10 18:53:58   [Order_Ranking] written 4, failed 0; AI calls today 90/100000
 ```
