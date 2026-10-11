@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 11-10-2026 11:44 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 08:54 AM
+**आख़िरी update:** 11-10-2026 11:59 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 08:54 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W3 | Chapter 25 Statement Argument (Graduation Reasoning) | 🔧 सुधार रहा है | 7 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -19,7 +17,7 @@
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 22 | 0 | 0 |
-| 10th English | 18 | 0 | 2 |
+| 10th English | 19 | 0 | 1 |
 | 12th Maths | 20 | 0 | 3 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 22 | 0 | 3 |
@@ -28,7 +26,7 @@
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 27 | 2 | 1 |
 | Graduation English | 29 | 1 | 0 |
-| **कुल** | **278** | **4** | **14** |
+| **कुल** | **279** | **4** | **13** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -39,15 +37,11 @@
 - Chapter 13 Dictionary Order (Reasoning) — 4 बार
 - Chapter 22 Para Jumbles Adv (English) — 4 बार
 - Chapter 12 Missing Term (Reasoning) — 4 बार
-- Chapter 25 Statement Argument (Reasoning) — 3 बार
+- Chapter 25 Statement Argument (Reasoning) — 4 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 10:42:25   [Statement_Argument] repaired PYQ_hi.txt (9563 chars)
-11-10 10:42:25   [Statement_Argument] written 1, failed 0; AI calls today 9/100000
-11-10 10:42:26 NOT OK Graduation_Level/Reasoning/Chapter_25_Statement_Argument after 19 min: todo [] problems ['PYQ_hi.txt: much shorter than the English section (9562 vs 4']
-11-10 10:42:30 START Graduation_Level/Reasoning/Chapter_25_Statement_Argument (FIX: todo 0, problems 1)
 11-10 10:42:39   [Para_Jumbles_Adv] repaired Mind_Map_hi.txt (1394 chars)
 11-10 10:42:39   [Para_Jumbles_Adv] written 1, failed 0; AI calls today 10/100000
 11-10 10:42:40 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv after 23 min: todo [] problems ['Mind_Map_hi.txt: much shorter than the English section (1393']
@@ -84,4 +78,8 @@
 11-10 11:25:06 worker 1: nothing left
 11-10 11:36:26   [Statement_Argument] repaired PYQ_hi.txt (8586 chars)
 11-10 11:36:26   [Statement_Argument] written 1, failed 0; AI calls today 18/100000
+11-10 11:53:49   [Statement_Argument] repaired PYQ_hi.txt (8518 chars)
+11-10 11:53:49   [Statement_Argument] written 1, failed 0; AI calls today 19/100000
+11-10 11:53:49 NOT OK Graduation_Level/Reasoning/Chapter_25_Statement_Argument after 31 min: todo [] problems ['PYQ_hi.txt: much shorter than the English section (8517 vs 4']
+11-10 11:53:54 worker 2: nothing left
 ```
