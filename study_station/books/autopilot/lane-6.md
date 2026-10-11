@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 12:15 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:09 PM
+**आख़िरी update:** 12-10-2026 12:31 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:09 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 68 मिनट |
+| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 84 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -24,9 +24,9 @@
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 27 | 0 | 1 |
 | Graduation GK | 27 | 0 | 1 |
-| Graduation Reasoning | 29 | 0 | 1 |
-| Graduation English | 29 | 0 | 1 |
-| **कुल** | **288** | **0** | **8** |
+| Graduation Reasoning | 30 | 0 | 0 |
+| Graduation English | 30 | 0 | 0 |
+| **कुल** | **290** | **0** | **6** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -41,7 +41,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 23:00:41   [Analogy] repaired set 04 (en + hi, key confirmed by an independent re-solve)
 11-10 23:05:27   [Analogy] set 05: Q102 key a vs re-solve b, Q113 key d vs re-solve a
 11-10 23:06:56   [Coding_Decoding] repaired set 06 (en + hi, key confirmed by an independent re-solve)
 11-10 23:06:56   [Coding_Decoding] written 4, failed 2; AI calls today 135/100000
@@ -81,4 +80,5 @@
 12-10 00:12:33 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_02_Classification: ['FAILED set 02: no version passed the checks — files left as they were', 'FAILED set 03: too_long']
 12-10 00:12:33 worker 1: nothing left
 12-10 00:13:33   [Coding_Decoding] set 03: key confirmed
+12-10 00:28:15   [Coding_Decoding] set 04: Q83 key d vs re-solve c, Q86 key c vs re-solve d, Q92 key a vs re-solve c
 ```
