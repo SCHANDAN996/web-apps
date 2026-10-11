@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 11-10-2026 09:42 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:09 PM
+**आख़िरी update:** 11-10-2026 09:58 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:09 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 153 मिनट |
-| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 153 मिनट |
-| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 153 मिनट |
+| W1 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 168 मिनट |
+| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 168 मिनट |
+| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 168 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,7 +37,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 19:09:08 autopilot start: 3 workers, reverse=True
 11-10 19:09:09 START 10th_Level/Reasoning/Chapter_01_Analogy (OK: todo 0, problems 0)
 11-10 19:09:14 START 10th_Level/Reasoning/Chapter_02_Classification (OK: todo 0, problems 0)
 11-10 19:09:19 START 10th_Level/Reasoning/Chapter_03_Coding_Decoding (OK: todo 0, problems 0)
@@ -74,4 +73,8 @@
 11-10 21:38:16   [Analogy] FAILED set 04: too_long
 11-10 21:38:53   [Coding_Decoding] set 04: Q91 key d vs re-solve a, Q92 key a vs re-solve b
 11-10 21:41:24   [Coding_Decoding] set 04 try 1: rejected (Q76:leaked_reasoning,Q95:duplicate_options)
+11-10 21:43:33   [Analogy] set 05: Q102 key a vs re-solve b, Q113 key d vs re-solve a
+11-10 21:44:12   [Coding_Decoding] set 04 try 2: rejected (Q95:duplicate_options)
+11-10 21:54:59   [Analogy] set 05 try 1: re-solve disagrees (Q102 key d vs re-solve b)
+11-10 21:55:54   [Analogy] set 05 try 2: rejected (parsed 0 questions, numbers -…-)
 ```
