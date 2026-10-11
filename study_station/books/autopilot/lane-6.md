@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 11-10-2026 02:30 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
+**आख़िरी update:** 11-10-2026 02:45 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 46 मिनट |
-| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 46 मिनट |
-| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 46 मिनट |
+| W1 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 62 मिनट |
+| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 62 मिनट |
+| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 62 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -61,4 +61,9 @@
 11-10 14:25:11   [Coding_Decoding] repaired set 01 (en + hi, key confirmed by an independent re-solve)
 11-10 14:28:08   [Analogy] set 05 try 1: re-solve disagrees (Q102 key a vs re-solve b, Q113 key b vs re-solve c)
 11-10 14:28:25   [Classification] set 03: Q53 key c vs re-solve d, Q56 key b vs re-solve d, Q58 key d vs re-solve c, Q63 key a vs re-solve d, Q65 key c vs re-solve d, Q67 key a vs re-s
+11-10 14:36:09   [Classification] repaired set 03 (en + hi, key confirmed by an independent re-solve)
+11-10 14:36:57   [Analogy] set 05 try 2: re-solve disagrees (Q102 key a vs re-solve b, Q113 key d vs re-solve a)
+11-10 14:42:57   [Coding_Decoding] set 02: Q47 key b vs re-solve a
+11-10 14:44:08   [Analogy] repaired set 05 (en + hi, key confirmed by an independent re-solve)
+11-10 14:44:11   [Classification] set 04: Q76 key a vs re-solve d, Q78 key c vs re-solve d, Q80 key a vs re-solve c, Q85 key b vs re-solve d, Q86 key c vs re-solve a, Q87 key d vs re-s
 ```
