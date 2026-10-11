@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 03:07 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 12:34 AM
+**आख़िरी update:** 12-10-2026 03:22 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 12:34 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 40 मिनट |
-| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 152 मिनट |
-| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 152 मिनट |
+| W1 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 55 मिनट |
+| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 168 मिनट |
+| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 167 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,10 +37,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 01:45:11   [Classification] set 04: Q76 key a vs re-solve d, Q78 key c vs re-solve d, Q80 key a vs re-solve c, Q85 key b vs re-solve d, Q86 key c vs re-solve d, Q88 key a vs re-s
-12-10 01:50:06   [Analogy] repaired set 05 (en + hi, key confirmed by an independent re-solve)
-12-10 01:51:07   [Classification] set 04 try 1: re-solve disagrees (Q90 key b vs re-solve d, Q94 key d vs re-solve b)
-12-10 01:55:34   [Classification] set 04 try 2: re-solve disagrees (Q90 key c vs re-solve d, Q94 key c vs re-solve b)
 12-10 01:57:19   [Analogy] set 06: Q129 key b vs re-solve c, Q141 key a vs re-solve b, Q145 key b vs re-solve c
 12-10 02:00:12   [Analogy] set 06 try 1: re-solve disagrees (Q147 key a vs re-solve c)
 12-10 02:01:17   [Coding_Decoding] set 02 try 1: re-solve disagrees (Q30 key b vs re-solve a, Q38 key a vs re-solve d)
@@ -77,4 +73,8 @@
 12-10 02:55:13   [Classification] repaired set 05 (en + hi, key confirmed by an independent re-solve)
 12-10 02:57:47   [Coding_Decoding] set 04 try 1: rejected (Q77:leaked_reasoning)
 12-10 03:01:34   [Blood_Relations] repaired set 02 (en + hi, key confirmed by an independent re-solve)
+12-10 03:10:36   [Blood_Relations] set 03: Q60 key b vs re-solve a, Q74 key d vs re-solve b
+12-10 03:12:44   [Classification] set 06: Q128 key c vs re-solve d, Q130 key a vs re-solve d, Q134 key a vs re-solve d, Q135 key b vs re-solve a, Q137 key d vs re-solve c, Q138 key a v
+12-10 03:14:03   [Coding_Decoding] repaired set 04 (en + hi, key confirmed by an independent re-solve)
+12-10 03:18:41   [Blood_Relations] repaired set 03 (en + hi, key confirmed by an independent re-solve)
 ```
