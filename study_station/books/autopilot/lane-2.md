@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 12-10-2026 02:10 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 01:54 AM
+**आख़िरी update:** 12-10-2026 02:11 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 01:54 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -38,7 +38,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 01:57:32   [Linear_Programming] REJECTED Content_hi.txt: output still looks like a prompt — not written
 12-10 01:57:32   [Linear_Programming] written 0, failed 1; AI calls today 5/100000
 12-10 01:58:39   [Linear_Programming] repaired Content_hi.txt (6874 chars)
 12-10 01:58:39   [Linear_Programming] written 1, failed 0; AI calls today 6/100000
@@ -78,4 +77,5 @@
 12-10 02:10:40   [Awards] written 1, failed 0; AI calls today 16/100000
 12-10 02:10:40 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards after 4 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (41']
 12-10 02:10:44 worker 0: nothing left
+12-10 02:11:14 autopilot end: done 0, failed 2
 ```
