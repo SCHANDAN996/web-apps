@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 11-10-2026 04:01 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
+**आख़िरी update:** 11-10-2026 04:16 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Profit Loss (10th Maths) | 🔎 review हो रहा है | 23 मिनट |
-| W2 | Chapter 09 Simple Interest (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W3 | Chapter 07 Ratio Proportion (10th Maths) | 🔎 review हो रहा है | 35 मिनट |
+| W1 | Chapter 08 Profit Loss (10th Maths) | 🔎 review हो रहा है | 38 मिनट |
+| W2 | Chapter 09 Simple Interest (10th Maths) | 🔎 review हो रहा है | 5 मिनट |
+| W3 | Chapter 07 Ratio Proportion (10th Maths) | 🔎 review हो रहा है | 50 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -46,15 +46,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 15:08:41   [Ratio_Proportion] set 01: key confirmed
-11-10 15:10:11   [Ratio_Proportion] set 02: key confirmed
-11-10 15:11:55   [Ratio_Proportion] set 03: Q73 key c vs re-solve a
-11-10 15:12:10   [Fractions_Decimals] review PYQ_en.txt: 13 issue(s): - The exam-wise weightage table presents specific average questions/year and percentages for 2015–2025 without any sou
-11-10 15:13:52   [Average] set 04: key confirmed
-11-10 15:15:58   [Average] set 05: key confirmed
-11-10 15:17:27   [Average] set 06: key confirmed
-11-10 15:17:27   [Average] written 0, failed 0; AI calls today 128/100000
-11-10 15:18:42   [Average] review Content_en.txt: 1 issue(s): - Invented exam statistic/weightage claim: "80% of all average questions" in Section 3 → Remove the claim or replac
 11-10 15:20:37   [Average] review Content_hi.txt: 1 issue(s): - Invented exam statistic “80% प्रश्न सरलता से हल हो जाएँगे” → Remove the claim or replace with a non‑quantified st
 11-10 15:20:46   [Ratio_Proportion] repaired set 03 (en + hi, key confirmed by an independent re-solve)
 11-10 15:21:11   [Fractions_Decimals] review PYQ_hi.txt: 2 issue(s): - "पिछले 10 वर्षों का डेटा-संचालित विश्लेषण (2015–2025)" claims 10 years but 2015–2025 inclusive is 11 years → Use 2015
@@ -86,4 +77,13 @@
 11-10 15:57:34 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_06_Average in 55 min → 465df243
 11-10 15:57:35 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_09_Simple_Interest (OK: todo 0, problems 0)
 11-10 15:59:50   [Simple_Interest] set 01: key confirmed
+11-10 16:01:33   [Simple_Interest] set 02: key confirmed
+11-10 16:04:05   [Simple_Interest] set 03: key confirmed
+11-10 16:08:06   [Simple_Interest] set 04: key confirmed
+11-10 16:09:16   [Profit_Loss] review PYQ_en.txt: 3 issue(s): - The data-driven analysis invents exam statistics (percentage breakdown of question types) without a verifiable source
+11-10 16:10:30   [Ratio_Proportion] review PYQ_hi.txt: 3 issue(s): - PYQ analysis table presents invented exam statistics (year-wise question frequencies per shift for SSC, Bank, Railway
+11-10 16:10:30   [Simple_Interest] set 05: key confirmed
+11-10 16:11:03   [Simple_Interest] set 06: key confirmed
+11-10 16:11:03   [Simple_Interest] written 0, failed 0; AI calls today 186/100000
+11-10 16:15:08   [Simple_Interest] review Content_hi.txt: 2 issue(s): - "99% प्रश्नों में आप 365 ही इस्तेमाल करोगे" (invented exam statistic) → "अधिकांश प्रश्नों में आप 365 ही इस्तेमाल 
 ```
