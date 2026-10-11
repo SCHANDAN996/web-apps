@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 11-10-2026 09:41 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:09 PM
+**आख़िरी update:** 11-10-2026 09:56 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:09 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 152 मिनट |
+| W2 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 167 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -41,7 +41,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 19:30:06   [Statement_Conclusion] repaired Flashcards_hi.txt (4014 chars)
 11-10 19:30:06   [Statement_Conclusion] written 1, failed 0; AI calls today 19/100000
 11-10 19:30:06 NOT OK 12th_Level/Reasoning/Chapter_16_Statement_Conclusion after 5 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (40']
 11-10 19:30:08 START 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images (FIX: todo 0, problems 1)
@@ -81,4 +80,5 @@
 11-10 21:17:10   [Puzzles] set 02 try 4: re-solve disagrees (Q45: clues contradict each other — no arrangement fits all of them; Q46: the clues allow more than one answer — add 
 11-10 21:17:10   [Puzzles] FAILED set 02: no version passed the checks — files left as they were
 11-10 21:37:18   [Puzzles] set 03: Q51: clues contradict each other — no arrangement fits all of them; Q67: the clues allow more than one answer — add a clue so exactly one arra
+11-10 21:47:34   [Puzzles] set 03 try 1: rejected (parsed 0 questions, numbers -…-)
 ```
