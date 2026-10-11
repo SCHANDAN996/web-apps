@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 11-10-2026 03:57 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
+**आख़िरी update:** 11-10-2026 04:01 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Profit Loss (10th Maths) | 🔎 review हो रहा है | 19 मिनट |
-| W2 | Chapter 06 Average (10th Maths) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 07 Ratio Proportion (10th Maths) | 🔎 review हो रहा है | 31 मिनट |
+| W1 | Chapter 08 Profit Loss (10th Maths) | 🔎 review हो रहा है | 23 मिनट |
+| W2 | Chapter 09 Simple Interest (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W3 | Chapter 07 Ratio Proportion (10th Maths) | 🔎 review हो रहा है | 35 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -46,9 +46,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 15:07:21   [Simplification] written 5, failed 0; AI calls today 117/100000
-11-10 15:07:36 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_03_Simplification in 41 min → 9de62008
-11-10 15:07:37 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_07_Ratio_Proportion (OK: todo 0, problems 0)
 11-10 15:08:41   [Ratio_Proportion] set 01: key confirmed
 11-10 15:10:11   [Ratio_Proportion] set 02: key confirmed
 11-10 15:11:55   [Ratio_Proportion] set 03: Q73 key c vs re-solve a
@@ -86,4 +83,7 @@
 11-10 15:53:46   [Ratio_Proportion] review PYQ_en.txt: 5 issue(s): - The "Data-Driven Analysis of Last 10 Years" table shows only 9 years (2016–2024) → Change title to "Last 9 Years" or 
 11-10 15:57:19   [Average] review: 4 section(s) corrected, 0 failed
 11-10 15:57:19   [Average] written 4, failed 0; AI calls today 176/100000
+11-10 15:57:34 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_06_Average in 55 min → 465df243
+11-10 15:57:35 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_09_Simple_Interest (OK: todo 0, problems 0)
+11-10 15:59:50   [Simple_Interest] set 01: key confirmed
 ```
