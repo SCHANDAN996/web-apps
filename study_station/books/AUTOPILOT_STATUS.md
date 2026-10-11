@@ -1,12 +1,16 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 11-10-2026 03:06 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 12:00 PM
+**आख़िरी update:** 11-10-2026 03:07 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:07 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
+| worker | अध्याय | काम | कब से |
+|---|---|---|---|
+| W1 | Chapter 22 Para Jumbles Adv (Graduation English) | 🔧 सुधार रहा है | 0 मिनट |
+| W2 | Chapter 06 Order Ranking (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -32,54 +36,11 @@
 
 - अभी कोई नहीं
 
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 22 Para Jumbles Adv (English) — 4 बार
-- Chapter 12 Missing Term (Reasoning) — 4 बार
-- Chapter 25 Statement Argument (Reasoning) — 4 बार
-- Chapter 13 Dictionary Order (Reasoning) — 4 बार
-
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 12:40:07   [Statement_Argument] written 1, failed 0; AI calls today 24/100000
-11-10 12:40:07 NOT OK Graduation_Level/Reasoning/Chapter_25_Statement_Argument after 8 min: todo [] problems ['PYQ_hi.txt: much shorter than the English section (7855 vs 4']
-11-10 12:40:10 START Graduation_Level/Reasoning/Chapter_13_Dictionary_Order (TODO: todo 2, problems 0)
-11-10 12:45:20   [Dictionary_Order] Practice_en_Set_06.txt try 1: rejected (Q136:leaked_reasoning,Q139:leaked_reasoning,Q146:leaked_reasoning,Q149:leaked_reasoning)
-11-10 12:50:08   [Dictionary_Order] Practice_en_Set_06.txt try 2: rejected (Q128:leaked_reasoning)
-11-10 13:04:28   [Dictionary_Order] Practice_en_Set_06.txt try 3: re-solve disagrees (Q126 key a vs re-solve ?, Q128 key d vs re-solve ?, Q130 key a vs re-solve b, Q132 key b vs re-solve
-11-10 13:17:29   [Dictionary_Order] Practice_en_Set_06.txt try 4: re-solve disagrees (Q126 key a vs re-solve ?, Q140 key a vs re-solve ?, Q147 key b vs re-solve a)
-11-10 13:17:29   [Dictionary_Order] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
-11-10 13:17:29   [Dictionary_Order] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-11-10 13:17:29   [Dictionary_Order] written 0, failed 2; AI calls today 30/100000
-11-10 13:17:29 NOT OK Graduation_Level/Reasoning/Chapter_13_Dictionary_Order after 37 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems []
-11-10 13:17:32 START Graduation_Level/Reasoning/Chapter_13_Dictionary_Order (TODO: todo 2, problems 0)
-11-10 13:22:40   [Dictionary_Order] Practice_en_Set_06.txt try 1: rejected (Q139:leaked_reasoning,Q143:leaked_reasoning)
-11-10 13:27:48   [Dictionary_Order] Practice_en_Set_06.txt try 2: rejected (Q127:leaked_reasoning,Q145:leaked_reasoning)
-11-10 13:32:59   [Dictionary_Order] Practice_en_Set_06.txt try 3: rejected (Q145:leaked_reasoning)
-11-10 13:52:58   [Dictionary_Order] Practice_en_Set_06.txt try 4: re-solve disagrees (Q132 key d vs re-solve ?, Q139 key b vs re-solve a, Q145 key b vs re-solve a, Q147 key c vs re-solve
-11-10 13:52:58   [Dictionary_Order] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
-11-10 13:52:58   [Dictionary_Order] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-11-10 13:52:58   [Dictionary_Order] written 0, failed 2; AI calls today 35/100000
-11-10 13:52:58 NOT OK Graduation_Level/Reasoning/Chapter_13_Dictionary_Order after 35 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems []
-11-10 13:53:01 START Graduation_Level/Reasoning/Chapter_13_Dictionary_Order (TODO: todo 2, problems 0)
-11-10 13:57:25   [Dictionary_Order] Practice_en_Set_06.txt try 1: rejected (Q126:leaked_reasoning,Q127:leaked_reasoning,Q131:leaked_reasoning,Q134:leaked_reasoning)
-11-10 14:06:13   [Dictionary_Order] Practice_en_Set_06.txt try 2: re-solve disagrees (Q130 key b vs re-solve a, Q139 key a vs re-solve d)
-11-10 14:13:49   [Dictionary_Order] Practice_en_Set_06.txt try 3: re-solve disagrees (Q139 key a vs re-solve d)
-11-10 14:19:46   [Dictionary_Order] Practice_en_Set_06.txt try 4: re-solve disagrees (Q139 key c vs re-solve d)
-11-10 14:19:46   [Dictionary_Order] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
-11-10 14:19:46   [Dictionary_Order] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-11-10 14:19:46   [Dictionary_Order] written 0, failed 2; AI calls today 42/100000
-11-10 14:19:46 NOT OK Graduation_Level/Reasoning/Chapter_13_Dictionary_Order after 27 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems []
-11-10 14:19:49 START Graduation_Level/Reasoning/Chapter_13_Dictionary_Order (TODO: todo 2, problems 0)
-11-10 14:25:50   [Dictionary_Order] Practice_en_Set_06.txt try 1: rejected (Q130:leaked_reasoning,Q133:leaked_reasoning,Q137:leaked_reasoning,Q147:leaked_reasoning)
-11-10 14:37:13   [Dictionary_Order] Practice_en_Set_06.txt try 2: re-solve disagrees (Q127 key b vs re-solve c, Q128 key c vs re-solve a, Q132 key a vs re-solve d, Q133 key d vs re-solve
-11-10 14:50:08   [Dictionary_Order] Practice_en_Set_06.txt try 3: re-solve disagrees (Q129 key b vs re-solve d, Q133 key a vs re-solve c, Q135 key a vs re-solve c, Q137 key b vs re-solve
-11-10 15:03:43   [Dictionary_Order] Practice_en_Set_06.txt try 4: re-solve disagrees (Q144 key b vs re-solve c)
-11-10 15:03:43   [Dictionary_Order] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
-11-10 15:03:43   [Dictionary_Order] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-11-10 15:03:43   [Dictionary_Order] written 0, failed 2; AI calls today 49/100000
-11-10 15:03:44 NOT OK Graduation_Level/Reasoning/Chapter_13_Dictionary_Order after 44 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems []
-11-10 15:03:48 worker 2: nothing left
-11-10 15:06:22 autopilot end: done 0, failed 4
+11-10 15:07:08 autopilot start: 3 workers, reverse=True
+11-10 15:07:10 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv (FIX: todo 0, problems 1)
+11-10 15:07:15 START Graduation_Level/Reasoning/Chapter_06_Order_Ranking (OK: todo 0, problems 0)
+11-10 15:07:20 START Graduation_Level/Reasoning/Chapter_07_Sitting_Arrangement (OK: todo 0, problems 0)
 ```
