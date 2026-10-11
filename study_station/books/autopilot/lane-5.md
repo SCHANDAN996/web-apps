@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 11-10-2026 02:14 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
+**आख़िरी update:** 11-10-2026 02:26 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 Verb (10th English) | 🔧 सुधार रहा है | 7 मिनट |
-| W2 | Chapter 01 Number System (10th Maths) | 🔎 review हो रहा है | 21 मिनट |
-| W3 | Chapter 02 LCM HCF (10th Maths) | 🔎 review हो रहा है | 19 मिनट |
+| W1 | Chapter 04 Verb (10th English) | 🔧 सुधार रहा है | 4 मिनट |
+| W2 | Chapter 01 Number System (10th Maths) | 🔎 review हो रहा है | 33 मिनट |
+| W3 | Chapter 02 LCM HCF (10th Maths) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -32,21 +32,15 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 11-10 14:26 — 10th Maths · Chapter 02 LCM HCF
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 04 Verb (English) — 2 बार
+- Chapter 04 Verb (English) — 3 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 13:43:25 autopilot start: 3 workers, reverse=True
-11-10 13:43:25 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb (FIX: todo 0, problems 1)
-11-10 13:43:31 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_01_Number_System (OK: todo 0, problems 0)
-11-10 13:43:36 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_02_LCM_HCF (OK: todo 0, problems 0)
-11-10 13:44:15   [LCM_HCF] set 01: key confirmed
-11-10 13:44:49   [Number_System] set 01: key confirmed
 11-10 13:45:13   [Number_System] set 02: key confirmed
 11-10 13:45:45   [Number_System] set 03: key confirmed
 11-10 13:46:08   [LCM_HCF] set 02: key confirmed
@@ -78,4 +72,13 @@
 11-10 14:13:11   [Number_System] review PYQ_en.txt: 2 issue(s): - The weightage percentages (25%, 20%, 20%, 15%, 10%, 10%) are presented as precise statistics from a 10-year PYQ analy
 11-10 14:14:40   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
 11-10 14:14:40   [Verb] written 0, failed 1; AI calls today 39/100000
+11-10 14:18:32   [Number_System] review PYQ_hi.txt: 1 issue(s): - The topic weightage percentages (Remainders ~25%, Divisibility Rules ~20%, LCM & HCF ~20%, Unit Digit/Cyclicity ~15%,
+11-10 14:20:50   [LCM_HCF] review Short_Tricks_hi.txt: 1 issue(s): - Trick 8: The example “5 से भाग दो तो 3 बचे, 7 से भाग दो तो 3 बचे” describes finding a number that when divid
+11-10 14:21:43   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
+11-10 14:21:43   [Verb] written 0, failed 1; AI calls today 45/100000
+11-10 14:21:43 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb after 15 min: todo [] problems ['Set 01 hi: English sentence translated (keep it in English) ']
+11-10 14:21:43 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb (FIX: todo 0, problems 1)
+11-10 14:23:54   [Number_System] review Short_Tricks_en.txt: 1 issue(s): - Trick 8 incorrectly claims 531 has only one digit → 531 has three digits; its last two digits are 31 (not di
+11-10 14:26:25   [LCM_HCF] review: 3 section(s) corrected, 0 failed
+11-10 14:26:25   [LCM_HCF] written 3, failed 0; AI calls today 48/100000
 ```

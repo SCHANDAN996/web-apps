@@ -1,25 +1,25 @@
-📊 PYQ Analysis: LCM & HCF (2015–2025)
+📊 PYQ Analysis: LCM & HCF
 📌 Introduction
 
-An analysis of previous years' competitive examination data (SSC CGL, CHSL, MTS, Banking IBPS PO/Clerk, Railway RRB NTPC/Group D) shows that 1 to 2 questions on LCM and HCF are asked in virtually every exam paper. The difficulty level of these questions ranges from easy to medium, but tricky trap options often lead many candidates into negative marking.
+LCM and HCF is a regular feature of the quantitative aptitude sections of SSC (CGL, CHSL, MTS), Banking (IBPS PO/Clerk) and Railway (RRB NTPC, Group D) examinations. Questions from this chapter are usually of easy-to-medium difficulty, but cleverly placed trap options often push candidates into negative marking.
 
-Below are the Top 10 high-yield questions most frequently tested over the last decade, complete with step-by-step solutions and psychological trap explanations so you can avoid common pitfalls.
+This section is a **pattern analysis**: it shows the question types examiners repeatedly ask from this chapter, the sub-topics that keep returning, and the traps they set — near-correct statements, remainder confusion, and look-alike numbers. The 10 high-yield question types below cover almost the entire territory from which examiners frame LCM–HCF questions.
 
-🔥 Top 10 High-Yield PYQs (With Step-by-Step Solutions)
+🔥 Top 10 High-Yield Question Types (With Step-by-Step Solutions)
 
-# | Question Type | Exam Source | Difficulty | Trap
-1 | Product Rule: LCM × HCF = Product of Numbers | SSC CGL | Easy | None
-2 | Ratio + LCM/HCF | SSC CGL | Easy | None
-3 | Sum and Difference of LCM & HCF | SSC CGL / MTS | Medium | Caution
-4 | Bells Ringing Together | SSC CGL / RRB | Medium | Caution
-5 | Same Remainder (HCF of Differences) | SSC CGL | Medium-Hard | Caution
-6 | LCM and HCF of Fractions | SSC CGL | Medium | Caution
-7 | Smallest/Largest n-Digit Number | SSC CHSL | Medium | Caution
-8 | Ratio + LCM → HCF / Numbers | SSC CGL | Medium | Caution
-9 | Co-prime Numbers and LCM | SSC MTS | Medium | None
-10 | Measuring Rod / Tiling (HCF Application) | IBPS / RRB | Medium | Caution
+# | Question Type | Difficulty | Trap
+1 | Product Rule: LCM × HCF = Product of Numbers | Easy | None
+2 | Ratio + LCM → HCF | Easy | None
+3 | Sum and Difference of LCM & HCF | Medium | Caution
+4 | Bells Ringing Together | Medium | Caution
+5 | Same Remainder (HCF of Differences) | Medium-Hard | Caution
+6 | LCM and HCF of Fractions | Medium | Caution
+7 | Smallest/Largest n-Digit Number | Medium | Caution
+8 | Ratio + HCF → LCM / Numbers | Medium | Caution
+9 | Co-prime Numbers and LCM | Medium | None
+10 | Measuring Rod / Tiling (HCF Application) | Medium | Caution
 
-Question 1: Product Rule: LCM × HCF = Product of Numbers (SSC CGL)
+Question 1: Product Rule — LCM × HCF = Product of Numbers
 
 Question: The LCM of two numbers is 22 times their HCF. If one of the numbers is 132 and the sum of the LCM and HCF is 276, what is the other number?
 
@@ -44,11 +44,11 @@ Correct Answer: (d) 24
 
 </details>
 
-🧠 Psychological Trap: This is a direct formula-based question. The main risk is an arithmetic miscalculation during the addition 22H + H = 23H, which leads to an incorrect HCF. Ensure clean arithmetic.
+🧠 Psychological Trap: This is a direct formula-based question. The main risk is an arithmetic slip in 22H + H = 23H, which produces a wrong HCF and cascades through the whole solution. Keep the arithmetic clean.
 
-Source: SSC CGL
+Source: PYQ-style
 
-Question 2: Ratio + LCM → HCF (SSC CGL)
+Question 2: Ratio + LCM → HCF
 
 Question: Three numbers are in the ratio 2 : 3 : 5 and their LCM is 90. Find their HCF.
 
@@ -60,11 +60,8 @@ Step-by-step solution:
 Let the numbers be 2x, 3x, and 5x.
 Since 2, 3, and 5 are mutually co-prime, their LCM is 2 × 3 × 5 × x = 30x.
 Given: 30x = 90 ⇒ x = 3.
-The numbers are: 2(3) = 6, 3(3) = 9, and 5(3) = 15.
-Finding the HCF:
-6 = 2 × 3
-9 = 3²
-15 = 3 × 5
+The numbers are: 6, 9, and 15.
+6 = 2 × 3,  9 = 3²,  15 = 3 × 5.
 The only common prime factor is 3 with lowest power 1.
 Therefore, HCF = 3.
 
@@ -72,11 +69,11 @@ Correct Answer: (d) 3
 
 </details>
 
-🧠 Psychological Trap: Candidates often calculate x = 3 and then either choose 3 directly without understanding why, or confuse the common multiplier with the LCM. For co-prime ratio terms, the multiplier x is precisely the HCF.
+🧠 Psychological Trap: When the ratio terms are co-prime, the common multiplier x is itself the HCF. Candidates often recalculate from scratch or pick the LCM-related number by mistake.
 
-Source: SSC CGL
+Source: PYQ-style
 
-Question 3: Sum/Difference of LCM and HCF (SSC CGL / MTS)
+Question 3: Sum/Difference of LCM and HCF
 
 Question: The HCF of two numbers is 1/20 of their LCM. If the difference between their LCM and HCF is 456, and one of the numbers is 96, find the other number.
 
@@ -101,11 +98,11 @@ Correct Answer: (b) 120
 
 </details>
 
-🧠 Psychological Trap: Misreading "HCF is 1/20 of LCM" as "LCM is 1/20 of HCF" is a frequent reading trap. Additionally, seeing 96 in the question lures students into choosing option (c) 96. Always follow the algebraic relationship.
+🧠 Psychological Trap: Misreading "HCF is 1/20 of LCM" as "LCM is 1/20 of HCF" is a frequent reading trap. Also, seeing 96 in the question lures students into choosing option (c) 96. Always follow the algebraic relationship, not the visible numbers.
 
-Source: SSC CGL
+Source: PYQ-style
 
-Question 4: Bells Ringing Together (SSC CGL / RRB)
+Question 4: Bells Ringing Together (LCM Application)
 
 Question: Four bells ring at intervals of 8, 12, 16, and 28 seconds respectively. If they start tolling together at 1:00 AM, at what time will they toll together next?
 
@@ -121,19 +118,18 @@ Prime factorization of intervals:
 28 = 2² × 7
 
 LCM(8, 12, 16, 28) = 2⁴ × 3 × 7 = 16 × 21 = 336 seconds.
-Converting seconds to minutes:
-336 seconds = 5 minutes and 36 seconds.
+Converting: 336 seconds = 5 minutes 36 seconds.
 Adding to 1:00:00 AM gives 1:05:36 AM.
 
 Correct Answer: (c) 1:05:36 AM
 
 </details>
 
-🧠 Psychological Trap: "Toll together next" requires finding the elapsed time equal to the LCM. If the question asked "How many times do they toll together in 1 hour?", one would divide and add 1 for the initial toll. Here, only the next simultaneous toll time is required.
+🧠 Psychological Trap: "Toll together next" needs the elapsed time equal to the LCM. If the question instead asked "How many times do they toll together in 1 hour?", you would divide 3600 by the LCM and add 1 for the initial toll. Read which variant is being asked.
 
-Source: SSC CGL
+Source: PYQ-style
 
-Question 5: Same Remainder Case (HCF of Differences) (SSC CGL)
+Question 5: Same Remainder Case (HCF of Differences)
 
 Question: Find the greatest number that will divide 108, 124, and 156 so as to leave the same remainder in each case.
 
@@ -142,24 +138,23 @@ Options: (a) 16  (b) 12  (c) 8  (d) 4
 <details> <summary><b>✅ View Solution</b></summary>
 
 Step-by-step solution:
-Theorem: When different numbers leave the same remainder when divided by a common divisor D, the pairwise differences of the numbers are exactly divisible by D.
+Theorem: When different numbers leave the same remainder on division by a common divisor D, the pairwise differences of the numbers are exactly divisible by D.
 Computing differences:
 124 – 108 = 16
 156 – 124 = 32
 156 – 108 = 48
 
-Taking the HCF of the differences:
 HCF(16, 32, 48) = 16.
 
 Correct Answer: (a) 16
 
 </details>
 
-🧠 Psychological Trap: The common blunder is computing the HCF of the original numbers directly: HCF(108, 124, 156) = 4, which is prominently placed as option (d). For "same remainder" problems, always take the HCF of the differences!
+🧠 Psychological Trap: The classic blunder is computing the HCF of the original numbers directly: HCF(108, 124, 156) = 4, which is deliberately placed as option (d). For "same remainder" problems, always take the HCF of the differences.
 
-Source: SSC CGL
+Source: PYQ-style
 
-Question 6: LCM and HCF of Fractions (SSC CGL)
+Question 6: LCM and HCF of Fractions
 
 Question: Find the ratio of the LCM to the HCF of the fractions 2/7, 12/35, and 8/49.
 
@@ -172,28 +167,28 @@ Formulas for fractions:
 LCM of fractions = LCM of numerators / HCF of denominators
 HCF of fractions = HCF of numerators / LCM of denominators
 
-1. Calculate LCM:
+1. LCM:
 LCM(2, 12, 8) = 24
 HCF(7, 35, 49) = 7
 LCM = 24/7
 
-2. Calculate HCF:
+2. HCF:
 HCF(2, 12, 8) = 2
-LCM(7, 35, 49) = 7² × 5 = 245
+LCM(7, 35, 49) = 245
 HCF = 2/245
 
-3. Ratio of LCM to HCF:
-Ratio = (24/7) ÷ (2/245) = (24/7) × (245/2) = 12 × 35 = 420 : 1.
+3. Ratio:
+(24/7) ÷ (2/245) = (24/7) × (245/2) = 12 × 35 = 420 : 1.
 
 Correct Answer: (a) 420 : 1
 
 </details>
 
-🧠 Psychological Trap: Mixing up the fraction formulas. Memory rule: what you want to find goes to the numerators (LCM → LCM of numerators; HCF → HCF of numerators), while the opposite operation is applied to denominators.
+🧠 Psychological Trap: Mixing up the two fraction formulas. Memory rule: the quantity you want goes to the numerators (LCM → LCM of numerators; HCF → HCF of numerators), and the opposite operation is applied to the denominators.
 
-Source: SSC CGL
+Source: PYQ-style
 
-Question 7: Smallest n-Digit Number (SSC CHSL)
+Question 7: Smallest n-Digit Number Divisible by Given Numbers
 
 Question: Find the smallest 5-digit number which is completely divisible by 12, 15, and 18.
 
@@ -206,44 +201,46 @@ Prime factorization:
 12 = 2² × 3
 15 = 3 × 5
 18 = 2 × 3²
-LCM(12, 15, 18) = 2² × 3² × 5 = 4 × 9 × 5 = 180.
+LCM(12, 15, 18) = 2² × 3² × 5 = 180.
 
 The smallest 5-digit number is 10000.
-Dividing 10000 by 180:
-10000 = 180 × 55 + 100 (remainder = 100).
-To make it divisible and retain at least 5 digits, add (180 – 100) = 80:
+Dividing: 10000 = 180 × 55 + 100 (remainder = 100).
+To reach the next multiple, add (180 – 100) = 80:
 Smallest divisible number = 10000 + 80 = 10080.
 
 Correct Answer: (b) 10080
 
 </details>
 
-🧠 Psychological Trap: Adding the remainder (100) instead of (LCM – remainder) gives 10100, which is incorrect. For "smallest number greater than N", add (divisor – remainder).
+🧠 Psychological Trap: Adding the remainder (100) instead of (LCM – remainder) gives 10100, which is not divisible by 180. For "smallest number greater than or equal to N", always add (divisor – remainder). For the "largest n-digit number" variant, subtract the remainder instead.
 
-Source: SSC CHSL
+Source: PYQ-style
 
-Question 8: Ratio + LCM → HCF / Numbers (SSC CGL)
+Question 8: Ratio + HCF → LCM
 
-Question: Three numbers are in the ratio 2 : 3 : 5 and their LCM is 90. What is their HCF? (Pattern verification)
+Question: Two numbers are in the ratio 3 : 4 and their HCF is 4. Find their LCM.
 
-Options: (a) 9  (b) 1  (c) 6  (d) 3
+Options: (a) 12  (b) 24  (c) 36  (d) 48
 
 <details> <summary><b>✅ View Solution</b></summary>
 
 Step-by-step solution:
-Let the numbers be 2x, 3x, and 5x.
-Since 2, 3, and 5 are co-prime, LCM = 30x = 90 ⇒ x = 3.
-The common factor x is the HCF = 3.
+Let the numbers be 3x and 4x.
+Since 3 and 4 are co-prime, HCF(3x, 4x) = x.
+Given HCF = 4 ⇒ x = 4.
+The numbers are 12 and 16.
+LCM = 3 × 4 × x = 12 × 4 = 48.
+(Check by product rule: LCM = (12 × 16) / 4 = 192 / 4 = 48 ✓)
 
-Correct Answer: (d) 3
+Correct Answer: (d) 48
 
 </details>
 
-🧠 Psychological Trap: When the numbers are in ratio a : b : c with a, b, c co-prime, the common multiplier x is identical to the HCF. Do not recalculate from scratch.
+🧠 Psychological Trap: Candidates often stop at x = 4 and pick a multiple of it carelessly, or compute 3 × 4 = 12 (option a) by forgetting the multiplier. Remember: numbers = ratio terms × HCF, and LCM = product of ratio terms × HCF.
 
-Source: SSC CGL
+Source: PYQ-style
 
-Question 9: Co-prime Numbers and LCM (SSC MTS)
+Question 9: Co-prime Numbers and LCM
 
 Question: The product of two co-prime numbers is 117. What is their LCM?
 
@@ -252,7 +249,7 @@ Options: (a) 9  (b) 13  (c) 39  (d) 117
 <details> <summary><b>✅ View Solution</b></summary>
 
 Step-by-step solution:
-By definition, co-prime numbers have an HCF of 1.
+By definition, co-prime numbers have HCF = 1.
 Using the product formula:
 LCM × HCF = Product of numbers
 ⇒ LCM × 1 = 117
@@ -262,11 +259,11 @@ Correct Answer: (d) 117
 
 </details>
 
-🧠 Psychological Trap: Over-complicating by finding factors of 117 (9 × 13) and then computing their LCM. Simply apply HCF = 1 directly.
+🧠 Psychological Trap: Over-complicating by factorising 117 (9 × 13) and then computing the LCM of the factors. When numbers are co-prime, apply HCF = 1 directly — the LCM is simply the product.
 
-Source: SSC MTS
+Source: PYQ-style
 
-Question 10: Measuring Rod / Tiling — Practical HCF (IBPS / RRB)
+Question 10: Measuring Rod / Tiling — Practical HCF
 
 Question: A rectangular courtyard is 140 cm long and 525 cm broad. It is to be paved with square tiles of equal size. What is the largest possible length of the side of each tile?
 
@@ -275,7 +272,7 @@ Options: (a) 64 cm  (b) 35 cm  (c) 21 cm  (d) 28 cm
 <details> <summary><b>✅ View Solution</b></summary>
 
 Step-by-step solution:
-The "largest side" that divides both dimensions evenly requires the HCF of 140 and 525.
+The "largest side" that divides both dimensions evenly is the HCF of 140 and 525.
 140 = 2² × 5 × 7
 525 = 3 × 5² × 7
 Common prime factors: 5¹ and 7¹.
@@ -285,28 +282,34 @@ Correct Answer: (b) 35 cm
 
 </details>
 
-🧠 Psychological Trap: Confusing keywords: "largest", "maximum", "divide evenly" require HCF; "smallest", "meet together", "simultaneously" require LCM.
+🧠 Psychological Trap: Confusing the keywords: "largest", "maximum", "greatest size", "divide exactly" → HCF; "smallest", "meet together", "simultaneously", "next time" → LCM. Misreading the keyword flips the entire method.
 
-Source: IBPS RRB
+Source: PYQ-style
 
-📈 PYQ Data-Driven Insights
+📈 Pattern Insights from Previous Exams
 
-Analysis of questions from the last 10 years (2015–2025):
+How examiners use this chapter (qualitative pattern analysis, not a count of questions):
 
-# | Question Category | Exam Frequency | Mastery Priority
-1 | LCM × HCF = Product of Numbers | ⭐⭐⭐⭐⭐ (Every Year) | Mandatory
-2 | Ratio + LCM/HCF | ⭐⭐⭐⭐ (Every 2nd Shift) | Mandatory
-3 | Sum/Difference of LCM & HCF | ⭐⭐⭐⭐ | Mandatory
-4 | Bells / Traffic Lights (LCM) | ⭐⭐⭐ | High Priority
-5 | Same Remainder (HCF of Differences) | ⭐⭐⭐ | High Priority
-6 | Fractions LCM / HCF | ⭐⭐⭐ | High Priority
-7 | Smallest/Largest n-Digit Number | ⭐⭐⭐ | High Priority
-8 | Co-prime Numbers & LCM | ⭐⭐ | Medium Priority
-9 | Tiling / Measuring Rods (HCF) | ⭐⭐ | Medium Priority
-10 | Advanced Algebraic Combinations | ⭐ | Advanced
+# | Question Category | How Often It Appears | Mastery Priority
+1 | LCM × HCF = Product of Numbers | Appears in some form in almost every exam cycle | Mandatory
+2 | Ratio + LCM/HCF (find HCF, LCM or the numbers) | Very frequently repeated | Mandatory
+3 | Sum/Difference of LCM & HCF | Frequently repeated | Mandatory
+4 | Bells / Traffic Lights / Runners on a Track (LCM) | Regularly asked | High Priority
+5 | Same Remainder (HCF of Differences) | Regularly asked | High Priority
+6 | LCM / HCF of Fractions | Regularly asked | High Priority
+7 | Smallest/Largest n-Digit Number | Regularly asked | High Priority
+8 | Co-prime Numbers & LCM | Occasionally asked | Medium Priority
+9 | Tiling / Measuring Rods (HCF Application) | Occasionally asked | Medium Priority
+10 | Remainder-based LCM variants (e.g., smallest number leaving a fixed remainder) | Occasionally asked | Medium Priority
+
+Common examiner traps seen across these question types:
+- Placing the HCF of the original numbers as an option in "same remainder" questions.
+- Placing the number already given in the question as an option (as in Question 3).
+- Keyword inversion: framing an HCF problem with LCM-sounding language and vice versa.
+- Remainder vs (divisor – remainder) confusion in n-digit number questions.
 
 🎯 3 Golden Rules for Exam Success
 
-1. Master the Product Rule: "LCM × HCF = Product of Two Numbers". It directly solves over 50% of all examination questions.
+1. Master the Product Rule: "LCM × HCF = Product of Two Numbers". It directly or indirectly solves the majority of two-number questions asked from this chapter.
 2. Keyword Recognition: "Together", "Simultaneously", "Next Time" → LCM; "Maximum", "Largest size", "Divide exactly" → HCF.
-3. Verification Step: Verify your answer by plugging it back into the formula — spending 20 seconds can save negative marks.
+3. Verification Step: Plug your answer back into the formula or the divisibility condition — spending about 20 seconds on verification can save you from negative marking.
