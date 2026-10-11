@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 11-10-2026 04:21 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
+**आख़िरी update:** 11-10-2026 04:29 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Profit Loss (10th Maths) | 🔎 review हो रहा है | 44 मिनट |
-| W2 | Chapter 09 Simple Interest (10th Maths) | 🔎 review हो रहा है | 10 मिनट |
-| W3 | Chapter 07 Ratio Proportion (10th Maths) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 08 Profit Loss (10th Maths) | 🔎 review हो रहा है | 51 मिनट |
+| W2 | Chapter 09 Simple Interest (10th Maths) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -32,6 +31,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 11-10 16:29 — 10th Maths · Chapter 09 Simple Interest
 - 11-10 16:21 — 10th Maths · Chapter 07 Ratio Proportion
 - 11-10 15:57 — 10th Maths · Chapter 06 Average
 - 11-10 15:27 — 10th Maths · Chapter 04 Fractions Decimals
@@ -47,10 +47,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 15:22:51   [Ratio_Proportion] set 04: key confirmed
-11-10 15:23:01   [Average] review Feynman_hi.txt: 1 issue(s): - The claim "लगभग 95% विद्यार्थी परीक्षा में मात खा जाते हैं" is an invented exam statistic → remove the unsourced 
-11-10 15:24:14   [Ratio_Proportion] set 05: key confirmed
-11-10 15:26:02   [Ratio_Proportion] set 06: key confirmed
 11-10 15:26:02   [Ratio_Proportion] written 1, failed 0; AI calls today 141/100000
 11-10 15:27:03   [Fractions_Decimals] review: 7 section(s) corrected, 0 failed
 11-10 15:27:03   [Fractions_Decimals] written 7, failed 0; AI calls today 142/100000
@@ -87,4 +83,8 @@
 11-10 16:21:22   [Simple_Interest] review Mind_Map.txt: 1 issue(s): - A2 formula "A = P × 100 + RT ÷ 100" is incorrect due to missing parentheses → Correct formula: A = P × (100 + RT) ÷
 11-10 16:21:54   [Ratio_Proportion] review: 4 section(s) corrected, 0 failed
 11-10 16:21:54   [Ratio_Proportion] written 4, failed 0; AI calls today 195/100000
+11-10 16:22:09 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_07_Ratio_Proportion in 74 min → 57043080
+11-10 16:22:11 worker 2: nothing left
+11-10 16:29:26   [Simple_Interest] review: 2 section(s) corrected, 0 failed
+11-10 16:29:26   [Simple_Interest] written 2, failed 0; AI calls today 201/100000
 ```

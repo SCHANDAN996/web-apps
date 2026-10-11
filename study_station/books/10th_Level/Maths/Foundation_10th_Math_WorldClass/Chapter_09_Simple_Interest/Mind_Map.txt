@@ -1,24 +1,24 @@
 ```mermaid
 graph TD
     R["🏦 साधारण ब्याज<br>Simple Interest"]
-    R --> C["💡 अवधारणा"]
-    R --> F["📐 सूत्र"]
+    R --> C["💡 अवधारणा<br>Concept"]
+    R --> F["📐 सूत्र<br>Formulas"]
     R --> A["🧮 राशि<br>Amount"]
-    R --> T["🪄 ट्रिक्स"]
+    R --> T["🪄 ट्रिक्स<br>Tricks"]
 
-    C --> C1["ब्याज हर साल केवल<br>मूलधन पर लगता है"]
-    C --> C2["हर साल बराबर<br>ब्याज बनता है"]
+    C --> C1["ब्याज हर साल केवल<br>मूलधन पर लगता है<br>Interest only on Principal"]
+    C --> C2["हर साल बराबर<br>ब्याज बनता है<br>Equal interest every year"]
 
     F --> F1["SI = P × R × T ÷ 100"]
     F --> F2["P = मूलधन<br>Principal"]
-    F --> F3["R = वार्षिक दर %"]
-    F --> F4["T = समय — वर्षों में"]
+    F --> F3["R = वार्षिक दर %<br>Rate % per annum"]
+    F --> F4["T = समय — वर्षों में<br>Time in years"]
 
-    A --> A1["राशि A = P + SI"]
-    A --> A2["A = P × 100 + RT ÷ 100"]
+    A --> A1["राशि A = P + SI<br>Amount = Principal + SI"]
+    A --> A2["A = P × (100 + RT) ÷ 100"]
 
-    T --> T1["राशि दुगनी:<br>RT = 100"]
-    T --> T2["राशि तिगुनी:<br>RT = 200"]
-    T --> T3["महीनों को वर्ष में बदलो:<br>T = महीने ÷ 12"]
-    T --> T4["⚠️ दर छमाही हो तो<br>T दुगना, R आधा नहीं"]
+    T --> T1["राशि दुगनी: RT = 100<br>Amount doubles: RT = 100"]
+    T --> T2["राशि तिगुनी: RT = 200<br>Amount triples: RT = 200"]
+    T --> T3["महीनों को वर्ष में बदलो:<br>T = महीने ÷ 12<br>Months ÷ 12 = Years"]
+    T --> T4["⚠️ दर छमाही हो तो<br>T दुगना, R आधा नहीं<br>Half-yearly rate: double T, halve R"]
 ```
