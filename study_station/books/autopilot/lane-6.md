@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 11-10-2026 11:14 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:09 PM
+**आख़िरी update:** 11-10-2026 11:29 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:09 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 47 मिनट |
-| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 245 मिनट |
-| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W1 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 62 मिनट |
+| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 260 मिनट |
+| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 22 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -22,13 +22,13 @@
 | 10th English | 19 | 0 | 1 |
 | 12th Maths | 20 | 0 | 3 |
 | 12th GK | 24 | 0 | 0 |
-| 12th Reasoning | 23 | 0 | 2 |
+| 12th Reasoning | 24 | 0 | 1 |
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 27 | 0 | 1 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 29 | 0 | 1 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **286** | **0** | **10** |
+| **कुल** | **287** | **0** | **9** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -42,13 +42,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 21:54:59   [Analogy] set 05 try 1: re-solve disagrees (Q102 key d vs re-solve b)
-11-10 21:55:54   [Analogy] set 05 try 2: rejected (parsed 0 questions, numbers -…-)
-11-10 21:59:21   [Analogy] set 05 try 3: re-solve disagrees (Q102 key d vs re-solve b)
-11-10 22:01:42   [Coding_Decoding] FAILED set 04: too_long
-11-10 22:03:05   [Classification] set 03 try 2: re-solve disagrees (Q52 key c vs re-solve b)
-11-10 22:07:17   [Analogy] set 05 try 4: re-solve disagrees (Q121 key b vs re-solve d)
-11-10 22:07:17   [Analogy] FAILED set 05: no version passed the checks — files left as they were
 11-10 22:11:11   [Analogy] set 06: Q129 key b vs re-solve c
 11-10 22:15:16   [Analogy] set 06 try 1: re-solve disagrees (Q129 key d vs re-solve b)
 11-10 22:17:02   [Coding_Decoding] set 05: Q118 key b vs re-solve a
@@ -82,4 +75,11 @@
 11-10 23:06:56 START 10th_Level/Reasoning/Chapter_03_Coding_Decoding (OK: todo 0, problems 0)
 11-10 23:07:08   [Classification] set 05 try 1: re-solve disagrees (Q101 key d vs re-solve a)
 11-10 23:13:15   [Analogy] set 05 try 1: re-solve disagrees (Q102 key a vs re-solve b)
+11-10 23:18:27   [Classification] set 05 try 2: re-solve disagrees (Q101 key a vs re-solve c)
+11-10 23:19:46   [Coding_Decoding] set 01: key confirmed
+11-10 23:23:49   [Analogy] set 05 try 2: re-solve disagrees (Q116 key d vs re-solve a)
+11-10 23:26:14   [Classification] set 05 try 3: re-solve disagrees (Q108 key b vs re-solve d)
+11-10 23:27:41   [Analogy] set 05 try 3: re-solve disagrees (Q102 key a vs re-solve c)
+11-10 23:29:55   [Classification] set 05 try 4: re-solve disagrees (Q101 key c vs re-solve a)
+11-10 23:29:55   [Classification] FAILED set 05: no version passed the checks — files left as they were
 ```
