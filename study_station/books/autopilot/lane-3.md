@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 11-10-2026 05:47 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:59 AM
+**आख़िरी update:** 11-10-2026 06:03 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:59 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W2 | Chapter 13 Dictionary Order (12th Reasoning) | 🔎 review हो रहा है | 33 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,16 +37,11 @@
 - Chapter 17 Course of Action (Reasoning) — 2 बार
 - Chapter 16 Statement Conclusion (Reasoning) — 2 बार
 - Chapter 20 Mirror Water Images (Reasoning) — 2 बार
-- Chapter 13 Dictionary Order (Reasoning) — 1 बार
+- Chapter 13 Dictionary Order (Reasoning) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 04:42:18 START 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images (FIX: todo 0, problems 1)
-11-10 04:45:33   [Statement_Assumption] FAILED Short_Tricks_hi.txt: empty
-11-10 04:45:33   [Statement_Assumption] written 0, failed 1; AI calls today 19/100000
-11-10 04:51:45   [Dictionary_Order] review Short_Tricks_hi.txt: 1 issue(s): - File content is corrupted/garbled (only repetitive numbers like "3.", "4.", "5.") with no coherent education
-11-10 04:52:43   [Mirror_Water_Images] repaired Flashcards_hi.txt (3418 chars)
 11-10 04:52:43   [Mirror_Water_Images] written 1, failed 0; AI calls today 22/100000
 11-10 04:55:55   [Statement_Assumption] repaired Short_Tricks_hi.txt (3758 chars)
 11-10 04:55:55   [Statement_Assumption] written 1, failed 0; AI calls today 23/100000
@@ -84,4 +77,9 @@
 11-10 05:24:06 worker 3: nothing left
 11-10 05:38:39   [Dictionary_Order] FAILED review Flashcards_en.txt: network — the chapter must not be published unreviewed
 11-10 05:38:46   [Dictionary_Order] review Short_Tricks_hi.txt: 1 issue(s): - File content is corrupted/unreadable: contains only repetitive numeric noise (3., 4., 5., 0.) with no cohere
+11-10 06:02:00   [Dictionary_Order] FAILED review Short_Tricks_hi.txt: network — the chapter must not be published unreviewed
+11-10 06:02:00   [Dictionary_Order] review: 0 section(s) corrected, 2 failed
+11-10 06:02:00   [Dictionary_Order] written 0, failed 2; AI calls today 25/100000
+11-10 06:02:01 NOT OK 12th_Level/Reasoning/Chapter_13_Dictionary_Order after 47 min: todo [] problems []
+11-10 06:02:03 worker 1: nothing left
 ```
