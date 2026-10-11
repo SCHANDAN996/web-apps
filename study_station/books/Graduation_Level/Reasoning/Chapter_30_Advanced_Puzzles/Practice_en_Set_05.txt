@@ -144,8 +144,8 @@ Answer: (b)
 Solution: The trap is S, since R and U are both defined around S. The full chain is V > T > P > Q > R > S > U, so the shortest is U, so the answer is U.
 Source: PYQ-style
 
-125. Eight diplomats from countries A, B, C, D, E, F, G and H sit at a round table. A sits opposite B. C sits second to the right of A. F sits opposite C. D sits to the immediate right of B. E sits to the immediate left of A. G does not sit adjacent to A. Who sits to the immediate left of B?
+125. Eight diplomats from countries A, B, C, D, E, F, G and H sit at a round table facing the centre. A sits opposite B. C sits second to the right of A. F sits opposite C. D sits to the immediate right of B. E sits to the immediate left of A. G does not sit adjacent to A. Who sits to the immediate left of B?
 (a) D (b) G (c) F (d) H
 Answer: (b)
-Solution: The trap is D, who is named next to B but on the right side, not the left. Fix A at seat 1; then B is at seat 5, C at seat 3, F opposite C at seat 7, D at seat 6, E at seat 8. Seats 2 and 4 remain for G and H; seat 2 is adjacent to A, so G takes seat 4 and H takes seat 2. The seat immediately left of B (seat 5) is seat 4, which is G, so the answer is G.
+Solution: Number the seats clockwise with A at seat 0; facing the centre, left is clockwise. B is at 4, C at 6, F at 2, D at 3 and E at 1. Seats 5 and 7 remain, and seat 7 touches A, so G is at seat 5. The trap is D, who is on B's right, so the answer is G.
 Source: PYQ-style

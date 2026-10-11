@@ -12,10 +12,10 @@ Answer: (d)
 Solution: Many pick R since it is above P and Q, but the condition says R is not at the top. Order from top: T, S, R, P, Q satisfies all conditions (T immediately above S). The top box is T, so the answer is T.
 Source: PYQ-style
 
-53. Seven lectures on subjects M, N, O, P, Q, R, S are held Monday to Sunday. O is on Wednesday. M is before O but not on Monday. P is immediately after S. Q is on Sunday. N is before M. On which day is R?
+53. Seven lectures on subjects M, N, O, P, Q, R and S are held from Monday to Sunday, one each day. O is on Wednesday. M is before O but not on Monday. N is before M. Q is on Sunday. S is on Thursday. P is immediately after S. On which day is R?
 (a) Friday (b) Saturday (c) Monday (d) Tuesday
 Answer: (b)
-Solution: The trap is Friday, chosen by those who place the S–P pair on Friday–Saturday. But N before M before Wednesday forces N = Monday, M = Tuesday, O = Wednesday; S and P take Thursday–Friday and Q is on Sunday, leaving Saturday for R. So the answer is Saturday.
+Solution: M must be on Tuesday and N on Monday. S is on Thursday, so P is on Friday, and Q is on Sunday. The trap is Friday, which belongs to P, so R is on Saturday.
 Source: PYQ-style
 
 54. In a family of six, P is the son of Q. R is the daughter of P. S is the wife of P. T is the mother of S. U is the brother of S. How is U related to R?
@@ -36,10 +36,10 @@ Answer: (a)
 Solution: The trap is L, since O is mentioned only once. Order: N > M > K > L > O. The shortest is O, so the answer is O.
 Source: PYQ-style
 
-57. Six cities A, B, C, D, E, F are visited in some order. A is visited before B. C is visited immediately after D. F is visited last. B is visited before D. Which city is visited third?
+57. Six cities A, B, C, D, E and F are visited in some order, one after another. A is visited before B. B is visited before D. C is visited immediately after D. E is visited immediately before F. F is visited last. Which city is visited third?
 (a) A (b) B (c) D (d) C
 Answer: (c)
-Solution: The trap is B, but B must come before D and after A. Order: A, B, D, C, E, F (C immediately after D, F last). Third is D, so the answer is D.
+Solution: F is sixth and E fifth, so A, B, D and C fill the first four visits. A comes before B and B before D, with C right after D, so the order is A, B, D, C. The trap is B, which is second, so the answer is D.
 Source: PYQ-style
 
 58. Four teams W, X, Y, Z play each other once. W beats X. Y beats W and X. Z beats W and X but loses to Y. Which team wins the most matches?
@@ -60,10 +60,10 @@ Answer: (b)
 Solution: The trap is E, but E faces B, not C. Row 1 is A, B, C in order (B right of A), and in the facing row D sits opposite A and E opposite B, so the remaining person F sits opposite C; the condition that C is to F's left is consistent because the facing rows are mirror images. So the answer is F.
 Source: PYQ-style
 
-61. Seven people M, N, O, P, Q, R, S have birthdays in different months (January to July). M's birthday is in March. N is before M. O is immediately after P. Q is in July. R is before N. In which month is S's birthday?
+61. Seven people M, N, O, P, Q, R and S have birthdays in different months from January to July. M's birthday is in March. N's is before M's. R's is before N's. Q's is in July. P's is in April. O's is immediately after P's. In which month is S's birthday?
 (a) April (b) January (c) May (d) June
 Answer: (d)
-Solution: The trap is May, but the P–O pair must occupy consecutive months. R before N before M (March) forces R = January, N = February; P–O take April–May and Q is in July, leaving June for S. So the answer is June.
+Solution: R must be in January and N in February. P is in April, so O is in May, and Q is in July. The trap is May, which is O's, so S's birthday is in June.
 Source: PYQ-style
 
 62. In a row of students facing north, Ravi is 8th from the left and 12th from the right. How many students are in the row?
@@ -84,10 +84,10 @@ Answer: (b)
 Solution: The trap is D, but F earns more than D, pushing D to second. Order: F > D > C > A > B > E. Third highest is C, so the answer is C.
 Source: PYQ-style
 
-65. Four couples sit around a round table. Each husband sits opposite his wife. A (male) sits between B (female) and C (male). D (female) sits opposite C. If A's wife is E, who is B's husband?
+65. Eight persons A, B, C, D, E, F, G and H, four married couples, sit around a round table, and each husband sits opposite his wife. A (male) sits between B (female) and C (male). D (female) sits opposite C. F sits opposite B. Who is B's husband?
 (a) F (b) C (c) A (d) Cannot be determined
 Answer: (a)
-Solution: The trap is C, but C sits opposite D, so C is D's husband. A's wife is E, so A sits opposite E. The remaining male F must be B's husband, so the answer is F.
+Solution: Every person sits opposite his or her spouse, so whoever is opposite B is B's husband. The trap is A, who sits next to B but is opposite his own wife; F is opposite B, so the answer is F.
 Source: PYQ-style
 
 66. In a 5×5 seating grid, X sits in row 2, column 3. Z sits diagonally adjacent to X in row 1, column 2. W sits in the same row as Z but not adjacent to Z. In which column can W sit?
@@ -102,10 +102,10 @@ Answer: (d)
 Solution: The trap is M, but M is opposite L, not O. Numbering the seats clockwise with K at seat 1: L at seat 2, O at seat 6, N at seat 4, M at seat 5, leaving P at seat 3, which is opposite O at seat 6. So the answer is P.
 Source: PYQ-style
 
-68. Five books on Physics, Chemistry, Maths, Biology, English are arranged on a shelf. Maths is between Physics and Chemistry. Biology is at the right end. English is to the left of Physics. Which book is second from the left?
+68. Five books on Physics, Chemistry, Maths, Biology and English are arranged on a shelf. Maths is immediately between Physics and Chemistry. Biology is at the right end. English is immediately to the left of Physics. Which book is second from the left?
 (a) Physics (b) English (c) Maths (d) Chemistry
 Answer: (a)
-Solution: The trap is Maths, but Maths is in the middle. Order: English, Physics, Maths, Chemistry, Biology. Second from the left is Physics, so the answer is Physics.
+Solution: Biology takes position 5. English must touch Physics on its left, and Maths must touch Physics on the other side, so the order is English, Physics, Maths, Chemistry, Biology. The trap is English, which is first, so the answer is Physics.
 Source: PYQ-style
 
 69. In a family, A is the father of B. C is the sister of B. D is the son of C. E is the wife of A. F is the daughter of D. How is F related to E?
@@ -144,8 +144,8 @@ Answer: (a)
 Solution: The trap is B, but C is lighter than B and only E is lighter than C. Order: F > D > A > B > C > E. Second lightest is C, so the answer is C.
 Source: PYQ-style
 
-75. Seven boxes contain different items. The box with pens is immediately above the box with books. The box with toys is at the bottom. The box with files is above the box with pens. The box with clothes is below the box with books but above the box with toys. The box with shoes is at the top. Which box is third from the top?
+75. Six boxes contain different items. The box with pens is immediately above the box with books. The box with toys is at the bottom. The box with files is above the box with pens. The box with clothes is below the box with books but above the box with toys. The box with shoes is at the top. Which box is third from the top?
 (a) Clothes (b) Books (c) Files (d) Pens
 Answer: (d)
-Solution: The trap is Files, but Files is second from the top. Order top to bottom: Shoes, Files, Pens, Books, Clothes, then the seventh box (miscellaneous items), then Toys — the extra box sits between Clothes and Toys without breaking any condition. Third from the top is Pens, so the answer is Pens.
+Solution: From the top the order is shoes, files, pens, books, clothes, toys. The trap is files, which is second, so the box third from the top holds pens.
 Source: PYQ-style

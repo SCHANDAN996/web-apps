@@ -1,15 +1,15 @@
 Questions 76–95: Easy | Questions 96–100: Moderate
 
-76. Six persons P, Q, R, S, T and U sit in a row facing north. P sits third to the left of S. Q sits at one of the extreme ends. T sits immediately to the right of P. R is not adjacent to S. Who sits second to the right of U?
+76. Six persons P, Q, R, S, T and U sit in a row facing north. P sits third to the left of S. S is not at the right end. Q sits at one of the extreme ends. T sits immediately to the right of P. R is not adjacent to S. Who sits second to the right of U?
 (a) P (b) T (c) Q (d) R
 Answer: (c)
-Solution: The trap is T, because T sits immediately right of P and feels central. P third to the left of S with T right of P fixes P at position 2, T at 3 and S at 5. R cannot sit at 4 or 6 (both adjacent to S), so R is at 1; Q must then take the extreme end at 6, leaving U at 4. Second to the right of U is position 6, so the answer is Q.
+Solution: P at seat 1 would leave only seats 3 and 5 for R and U, both next to S at seat 4, so P is at seat 2, T at seat 3 and S at seat 5. If Q were at seat 1, R would have to sit next to S, so Q is at seat 6, R at seat 1 and U at seat 4. The trap is P; two seats to the right of U is seat 6, so the answer is Q.
 Source: PYQ-style
 
-77. Five boxes A, B, C, D and E are stacked one above another. A is immediately above C. B is above E but not at the top. D is below C. Which box is at the bottom?
+77. Five boxes A, B, C, D and E are stacked one above another. A is immediately above C. D is immediately below C. B is above E but not at the top. Which box is at the bottom?
 (a) A (b) C (c) D (d) E
 Answer: (d)
-Solution: The trap is D, since "D is below C" sounds like D sinks to the bottom. A–C–D form a consecutive block; if the block sits at positions 2–4, the top must be E, but then B cannot be above E, and at positions 3–5 the same problem occurs. So the block is at the top: A, C, D, then B above E at positions 4 and 5, so the answer is E.
+Solution: A, C and D form a block in that order. B cannot be at the top, so A is at the top, followed by C and D, and then B above E. The trap is D, which is third, so the box at the bottom is E.
 Source: PYQ-style
 
 78. In a family of six members A, B, C, D, E and F, there are two married couples. A is the father of C. D is the daughter of B. E is the wife of C. F is the sister of C. How is B related to E?
@@ -18,10 +18,10 @@ Answer: (b)
 Solution: The trap is Mother, because solvers stop at "B is C's mother" and forget the question asks about E. The two couples are A–B and C–E, so B is the mother of C, who is E's husband. The husband's mother is the mother-in-law, so the answer is Mother-in-law.
 Source: PYQ-style
 
-79. Seven lectures on subjects M, N, O, P, Q, R and S are held from Monday to Sunday. O is on Wednesday. M is held immediately before O. P is held after S but before R. N is held on neither Monday nor Sunday. Q is held on Sunday. On which day is P held?
+79. Seven lectures on subjects M, N, O, P, Q, R and S are held from Monday to Sunday, one each day. O is on Wednesday. M is held immediately before O. Q is on Sunday. N is on Thursday. P is held after S but before R. On which day is P held?
 (a) Saturday (b) Thursday (c) Friday (d) Monday
 Answer: (c)
-Solution: The trap is Saturday, since "after S but before R" feels like P is pushed late in the week. M is on Tuesday, O on Wednesday and Q on Sunday, leaving Monday, Thursday, Friday and Saturday. The chain S–P–R needs three of these days in order; placing S on Thursday forces N onto Monday, which is barred, so S is on Monday, N on Thursday, P on Friday and R on Saturday, so the answer is Friday.
+Solution: M is on Tuesday and N on Thursday, leaving Monday, Friday and Saturday for S, P and R in that order. The trap is Thursday, which is N's, so P is on Friday.
 Source: PYQ-style
 
 80. Eight friends sit around a circular table facing the centre. A sits second to the left of B. C sits opposite A. D is an immediate neighbour of both B and C. E sits third to the right of C. Who sits opposite D?
@@ -54,10 +54,10 @@ Answer: (c)
 Solution: The trap is Yellow, because "immediately after Red" can be misread as near the back. Green must be 2nd or 3rd, and the Red–Yellow block must fit before Blue; placing Red 2nd leaves Green no valid slot, so Red is 1st, Yellow 2nd, Green 3rd and Blue 4th, so the answer is Blue.
 Source: PYQ-style
 
-85. Six books of subjects Physics, Chemistry, Maths, Biology, English and Hindi are arranged on a shelf. Maths is between Physics and Chemistry. English is at the rightmost position. Biology is to the immediate left of Hindi. Physics is not at either end. Which book is at the leftmost position?
+85. Six books of subjects Physics, Chemistry, Maths, Biology, English and Hindi are arranged on a shelf. Maths is immediately between Physics and Chemistry. English is at the rightmost position. Biology is to the immediate left of Hindi. Biology is not at the left end. Physics is not at either end. Which book is at the leftmost position?
 (a) Chemistry (b) Biology (c) Hindi (d) Physics
 Answer: (a)
-Solution: The trap is Biology, because the Biology–Hindi pair looks like a left-end block. English is fixed at position 6, and the Physics–Maths–Chemistry triple must run as Chemistry, Maths, Physics from position 1, since Physics cannot be at an end. Biology and Hindi then take positions 4 and 5, so the answer is Chemistry.
+Solution: The Physics–Maths–Chemistry block and the Biology–Hindi pair fill positions 1 to 5. Biology cannot be first, so the block comes first, and Physics cannot be at an end, so the block reads Chemistry, Maths, Physics. The trap is Biology, so the answer is Chemistry.
 Source: PYQ-style
 
 86. A, B, C, D and E each like a different colour among red, blue, green, yellow and pink, and each was born in a different month from January to May. A likes red and was born in March. B was born immediately before the one who likes green. C likes blue and was born in January. D was born in May. Who likes green?
@@ -126,10 +126,10 @@ Answer: (d)
 Solution: The trap is D, because the chain F above D above C makes D feel mid-ranked. The full order is F, D, C, A, B, E from tallest to shortest. Counting down, F is first, D second and C third, so the answer is C.
 Source: PYQ-style
 
-97. In an office, five cabins are in a row. The Manager's cabin is at one end. The Clerk is immediately to the right of the Manager. The Accountant is between the Clerk and the Peon. The Officer's cabin is not adjacent to the Manager's. Whose cabin is at the other end?
+97. In an office, five cabins are in a row. The Manager's cabin is at one end. The Clerk's cabin is immediately to the right of the Manager's. The Accountant's cabin is immediately between the Clerk's and the Peon's. The Officer's cabin is not adjacent to the Manager's. Whose cabin is at the other end?
 (a) Officer (b) Peon (c) Accountant (d) Clerk
 Answer: (a)
-Solution: The trap is Peon, since the chain Manager–Clerk–Accountant–Peon seems to push the Peon to the far end. Manager is at position 1, Clerk at 2, Accountant at 3 and Peon at 4, leaving position 5 for the Officer — who is correctly not adjacent to the Manager. The far end is position 5, so the answer is Officer.
+Solution: The Clerk is to the right of the Manager, so the Manager is at the left end and the Clerk second. The Accountant is third and the Peon fourth, which leaves the fifth cabin. The trap is the Peon, so the cabin at the other end is the Officer's.
 Source: PYQ-style
 
 98. Seven friends A, B, C, D, E, F and G have birthdays in the same week (Monday to Sunday). A's birthday is on Wednesday. B's is two days before A's. C's is immediately after D's. E's is on Saturday. F's is on Sunday. G's is before E's. On which day is C's birthday?

@@ -1,9 +1,9 @@
 Questions 1–20: Easy | Questions 21–25: Moderate
 
-1. Six persons A, B, C, D, E and F sit in a row facing north. A sits at one of the extreme ends. B sits second to the right of A. C sits exactly between B and D. E sits to the immediate left of F. Who sits at the rightmost end?
+1. Six persons A, B, C, D, E and F sit in a row facing north. A sits at one of the extreme ends. B sits second to the right of A. C sits to the immediate right of B. E sits to the immediate left of F. Who sits at the rightmost end?
 (a) F (b) D (c) E (d) C
 Answer: (a)
-Solution: The tempting wrong choice is D, which sits second from the right, not at the end. Place A at the leftmost end (position 1); then B is at 3, C exactly between B and D gives C at 4 and D at 5, and E immediately left of F forces E at 2 and F at 6, so the answer is F.
+Solution: A cannot be at the right end, since B is to A's right, so A is at seat 1, B at seat 3 and C at seat 4. Seats 2, 5 and 6 are left, and only 5 and 6 are side by side, so E is at seat 5 and F at seat 6, with D at seat 2. The trap is D, who is fixed at the left side, so the answer is F.
 Source: PYQ-style
 
 2. Five boxes P, Q, R, S and T are stacked one above another. P is immediately above Q. R is above P but not at the top. T is at the bottom. Which box is at the top?
@@ -12,10 +12,10 @@ Answer: (a)
 Solution: Many students wrongly pick R because it is "above P", but the condition "not at the top" rules it out. From the bottom the order is T, Q, P, R, and the only remaining box S must occupy the top, so the answer is S.
 Source: PYQ-style
 
-3. In a family of six, M is the father of N. N is the sister of O. O is the son of P. Q is the daughter of P. R is the wife of M. How is Q related to N?
+3. In a family, M is the father of N. N is the sister of O. O is the son of R. Q is the daughter of R. R is the wife of M. How is Q related to N?
 (a) Sister (b) Cousin (c) Aunt (d) Mother
 Answer: (a)
-Solution: The trap is "cousin", chosen by those who assume M and P head different families; but O being the son of P and the brother of N forces one family with M and P as parents. Hence Q, the daughter of P, is the sister of N, so the answer is Sister.
+Solution: M and R are husband and wife, and N, O and Q are all their children. The trap is "Cousin", which needs different parents; Q and N share both parents, so the answer is Sister.
 Source: PYQ-style
 
 4. Seven lectures on subjects Hindi, English, Maths, Science, History, Geography and Art are held from Monday to Sunday, one each day. Maths is on Wednesday. English is immediately before Maths. History is on Friday. Hindi is immediately after History. Geography is on Sunday. Science is on Thursday. On which day is Art held?
@@ -42,10 +42,10 @@ Answer: (c)
 Solution: The trap is Mumbai, which is early but not first. Jaipur is last; Delhi before Mumbai, Mumbai before Kolkata, and Chennai immediately after Kolkata give the order Delhi, Mumbai, Kolkata, Chennai, Jaipur, so the answer is Delhi.
 Source: PYQ-style
 
-8. Four girls W, X, Y and Z like four different colours — red, blue, green and yellow. W does not like red or blue. X likes blue. Y likes red. Which colour does Z like?
+8. Four girls W, X, Y and Z like four different colours — red, blue, green and yellow. W does not like red, blue or yellow. X likes blue. Y likes red. Which colour does Z like?
 (a) Green (b) Blue (c) Red (d) Yellow
 Answer: (d)
-Solution: The trap is green, which W must take since W cannot take red or blue and blue is already X's. With X–blue, Y–red and W–green fixed, only yellow remains for Z, so the answer is Yellow.
+Solution: W can only like green, X likes blue and Y likes red. The trap is green, which is already W's, so the only colour left for Z is yellow.
 Source: PYQ-style
 
 9. Eight persons sit in two rows of four facing each other. Row 1 (facing south): A, B, C, D. Row 2 (facing north): E, F, G, H. A faces E. B sits to the right of A. F sits to the left of E. G faces C. Who faces D?
@@ -72,10 +72,10 @@ Answer: (b)
 Solution: The trap is S, but S is two seats away from R. P is at position 1, Q at 3, R at 6; S exactly between Q and T gives S at 4 and T at 5, with U at 2, so the person immediately left of R is T, so the answer is T.
 Source: PYQ-style
 
-13. In a group of five friends, each likes a different fruit: apple, banana, mango, orange and grapes. Amit likes mango. Bina does not like apple or banana. Chitra likes apple. Deepak does not like grapes. What does Esha like?
+13. In a group of five friends, each likes a different fruit: apple, banana, mango, orange and grapes. Amit likes mango. Bina does not like apple, banana or grapes. Chitra likes apple. Deepak does not like grapes. What does Esha like?
 (a) Orange (b) Banana (c) Grapes (d) Apple
 Answer: (c)
-Solution: The trap is banana, but Deepak takes it. Amit–mango and Chitra–apple are fixed; Bina can take only orange or grapes, and since Deepak cannot take grapes, Bina takes orange and Deepak takes banana, leaving grapes for Esha, so the answer is Grapes.
+Solution: Bina can only like orange. Deepak cannot have grapes, and mango, apple and orange are taken, so Deepak likes banana. The trap is orange, which is Bina's, so Esha likes grapes.
 Source: PYQ-style
 
 14. Seven persons A to G are standing in a queue. A is behind B. C is in front of B. D is behind A but in front of E. F is between C and B. G is at the back. Who is at the front?
@@ -84,10 +84,10 @@ Answer: (d)
 Solution: The trap is F, who is second, not first. C is in front of B with F between them, and A, D, E, G follow behind B in that order, giving C, F, B, A, D, E, G, so the answer is C.
 Source: PYQ-style
 
-15. Five houses in a row are coloured white, black, red, blue and green. The red house is immediately to the right of the white house. The blue house is at one end. The green house is to the immediate left of the black house. The white house is not at any end. Which colour is the middle house?
+15. Five houses in a row are coloured white, black, red, blue and green. The blue house is at the left end and the black house is at the right end. The red house is immediately to the right of the white house. The green house is immediately to the left of the black house. Which colour is the middle house?
 (a) Green (b) Red (c) White (d) Black
 Answer: (b)
-Solution: The trap is white, which is second, not in the middle. Blue at position 1 forces white at 2 and red at 3, with green at 4 and black at 5 satisfying the adjacency, so the middle house is red, so the answer is Red.
+Solution: Blue is at position 1 and black at position 5, so green is at position 4. White and red must fill positions 2 and 3 in that order. The trap is white, which is second, so the middle house is red.
 Source: PYQ-style
 
 16. Six employees work on six different floors (1 to 6). K works on floor 4. L works immediately above K. M works on floor 1. N works above O but below L. On which floor does P work?
@@ -132,10 +132,10 @@ Answer: (a)
 Solution: The trap is S, but B is married to S. A–R, C–T and D–P are fixed; B cannot marry P or Q, so B marries S, leaving Q for E, so the answer is Q.
 Source: PYQ-style
 
-23. Seven boxes contain different items: pen, book, key, watch, ring, coin and card. The pen box is immediately above the book box. The key box is at the top. The watch box is below the ring box. The coin box is immediately below the book box. The card box is at the bottom. The ring box is third from the top. Which item is in the box second from the bottom?
+23. Seven boxes contain different items: pen, book, key, watch, ring, coin and card. The pen box is immediately above the book box. The key box is at the top. The watch box is above the ring box. The coin box is immediately below the book box. The card box is at the bottom. The ring box is third from the top. Which item is in the box second from the bottom?
 (a) Book (b) Watch (c) Coin (d) Ring
 Answer: (c)
-Solution: The trap is watch, which is second from the top, not the bottom. From the top the order is key, watch, ring, pen, book, coin, card, so the box second from the bottom contains the coin, so the answer is Coin.
+Solution: From the top, key is first and ring third, so watch, being above ring, is second. Pen, book and coin must be three boxes in a row, which fit only at positions 4, 5 and 6, and card is seventh. The trap is book, which is third from the bottom, so the answer is coin.
 Source: PYQ-style
 
 24. Six persons M, N, O, P, Q and R are of different weights. M is heavier than N but lighter than O. P is heavier than O. Q is lighter than N. R is heavier than P. Who is the second heaviest?

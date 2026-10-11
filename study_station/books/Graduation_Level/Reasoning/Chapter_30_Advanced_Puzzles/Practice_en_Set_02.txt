@@ -1,9 +1,9 @@
 Questions 26–50: Medium
 
-26. Six persons P, Q, R, S, T and U sit in a row facing north. P sits third to the left of S. Q sits at one of the extreme ends. T sits immediately to the right of P. U does not sit adjacent to Q. Who sits second to the right of R?
+26. Six persons P, Q, R, S, T and U sit in a row facing north. P sits third to the left of S. S sits at the right end. Q sits at one of the extreme ends. T sits immediately to the right of P. U does not sit adjacent to Q. Who sits second to the right of R?
 (a) P (b) S (c) T (d) U
 Answer: (c)
-Solution: The tempting answer is U, picked by solvers who place P at position 1 and never test the other fits. P third to the left of S with T immediately right of P leaves only one workable pair: P at 3 and S at 6, so T is at 4. Q must then be at position 1; U cannot sit next to Q, so U is at 5 and R at 2. Second to the right of R is position 4, so the answer is T.
+Solution: S is at seat 6, so P is at seat 3 and T at seat 4, and Q takes the free end, seat 1. U cannot be next to Q at seat 2, so U is at seat 5 and R at seat 2. The trap is P, who is only one seat to R's right, so the answer is T.
 Source: PYQ-style
 
 27. Five boxes A, B, C, D and E are stacked one above another. Box C is immediately above box A. Box D is above box B but not at the top. Box E is at the bottom. Which box is at the top?
@@ -36,10 +36,10 @@ Answer: (b)
 Solution: Many mark Sohan, confusing "second highest" with "highest". The chain is: Sohan > Mohan > Ravi > Kiran > Tina. Highest is Sohan; second highest is Mohan, so the answer is Mohan.
 Source: PYQ-style
 
-32. Six persons A, B, C, D, E and F are of different heights. A is taller than only two persons. C is taller than A but shorter than B. D is taller than B. F is shorter than E but taller than D. Who is the shortest?
-(a) E (b) F (c) B (d) Cannot be determined uniquely from the clues
+32. Six persons A, B, C, D, E and F are of different heights. C is taller than A but shorter than B. D is taller than B. F is shorter than E but taller than D. A is taller than nobody. Who is the second shortest?
+(a) E (b) F (c) B (d) C
 Answer: (d)
-Solution: The trap is picking B by ignoring the two unnamed shorter persons. A is taller than exactly two persons, so A is third from the bottom, but the two persons below A are never named in the clues. The upper chain is E > F > D > B > C > A. Since the two persons shorter than A are unspecified, the shortest cannot be identified, so the answer is "Cannot be determined uniquely from the clues".
+Solution: The order from tallest is E, F, D, B, C, A. The trap is B, who is third from the bottom, so the second shortest is C.
 Source: PYQ-style
 
 33. In a row of students facing north, Asha is 8th from the left and 12th from the right. How many students are in the row?
