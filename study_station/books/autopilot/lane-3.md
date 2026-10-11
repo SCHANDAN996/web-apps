@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 11-10-2026 07:49 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
+**आख़िरी update:** 11-10-2026 07:52 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 20 Mirror Water Images (12th Reasoning) | 🔧 सुधार रहा है | 2 मिनट |
-| W2 | Chapter 24 Statement Assumption (12th Reasoning) | 🔧 सुधार रहा है | 2 मिनट |
-| W3 | Chapter 17 Course of Action (12th Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 20 Mirror Water Images (12th Reasoning) | 🔧 सुधार रहा है | 6 मिनट |
+| W2 | Chapter 24 Statement Assumption (12th Reasoning) | 🔎 review हो रहा है | 1 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -22,13 +21,13 @@
 | 10th English | 18 | 0 | 2 |
 | 12th Maths | 20 | 0 | 3 |
 | 12th GK | 22 | 0 | 2 |
-| 12th Reasoning | 21 | 4 | 0 |
+| 12th Reasoning | 22 | 3 | 0 |
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 25 | 0 | 3 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 26 | 0 | 4 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **276** | **4** | **16** |
+| **कुल** | **277** | **3** | **16** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -43,10 +42,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 07:21:09 NOT OK 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement after 6 min: todo [] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
-11-10 07:21:11 START 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement (FIX: todo 0, problems 1)
-11-10 07:21:38   [Dictionary_Order] review PYQ_en.txt: 1 issue(s): - Q3 solution states Mango's 4th letter is 'o' and orders words as Manage, Manner, Mango, Mantle, Manual; actually Mang
-11-10 07:24:11   [Statement_Conclusion] repaired Flashcards_hi.txt (3768 chars)
 11-10 07:24:11   [Statement_Conclusion] written 1, failed 0; AI calls today 23/100000
 11-10 07:24:11 NOT OK 12th_Level/Reasoning/Chapter_16_Statement_Conclusion after 6 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (37']
 11-10 07:24:14 START 12th_Level/Reasoning/Chapter_16_Statement_Conclusion (FIX: todo 0, problems 1)
@@ -83,4 +78,8 @@
 11-10 07:46:55 START 12th_Level/Reasoning/Chapter_24_Statement_Assumption (FIX: todo 0, problems 1)
 11-10 07:49:33   [Course_of_Action] review: 2 section(s) corrected, 0 failed
 11-10 07:49:33   [Course_of_Action] written 2, failed 0; AI calls today 56/100000
+11-10 07:49:55 DONE 12th_Level/Reasoning/Chapter_17_Course_of_Action in 21 min → 8e8b5771
+11-10 07:49:58 worker 2: nothing left
+11-10 07:50:59   [Statement_Assumption] repaired Short_Tricks_hi.txt (6902 chars)
+11-10 07:50:59   [Statement_Assumption] written 1, failed 0; AI calls today 56/100000
 ```
