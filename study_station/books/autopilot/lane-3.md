@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 11-10-2026 10:57 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:09 PM
+**आख़िरी update:** 11-10-2026 11:12 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:09 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 228 मिनट |
+| W2 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 243 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -41,7 +41,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 19:31:25 worker 0: nothing left
 11-10 19:32:34   [Mirror_Water_Images] repaired Flashcards_hi.txt (3052 chars)
 11-10 19:32:34   [Mirror_Water_Images] written 1, failed 0; AI calls today 20/100000
 11-10 19:34:56   [Mirror_Water_Images] repaired Flashcards_hi.txt (3842 chars)
@@ -81,4 +80,5 @@
 11-10 22:25:21   [Puzzles] FAILED set 03: no version passed the checks — files left as they were
 11-10 22:31:07   [Puzzles] set 04: Q92 key b vs re-solve c
 11-10 22:52:16   [Puzzles] set 04 try 1: re-solve disagrees (Q76: the clues allow more than one answer — add a clue so exactly one arrangement fits; Q77: the clues allow more th
+11-10 23:08:28   [Puzzles] set 04 try 2: re-solve disagrees (Q91: clues contradict each other — no arrangement fits all of them; Q94: the clues give "6", which is not among the 
 ```
