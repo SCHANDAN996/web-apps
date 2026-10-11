@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 11-10-2026 02:50 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 12:00 PM
+**आख़िरी update:** 11-10-2026 03:06 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 12:00 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W3 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 30 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -39,17 +37,11 @@
 - Chapter 22 Para Jumbles Adv (English) — 4 बार
 - Chapter 12 Missing Term (Reasoning) — 4 बार
 - Chapter 25 Statement Argument (Reasoning) — 4 बार
-- Chapter 13 Dictionary Order (Reasoning) — 3 बार
+- Chapter 13 Dictionary Order (Reasoning) — 4 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 12:31:47   [Statement_Argument] repaired PYQ_hi.txt (7903 chars)
-11-10 12:31:47   [Statement_Argument] written 1, failed 0; AI calls today 22/100000
-11-10 12:31:48 NOT OK Graduation_Level/Reasoning/Chapter_25_Statement_Argument after 10 min: todo [] problems ['PYQ_hi.txt: much shorter than the English section (7902 vs 4']
-11-10 12:31:52 START Graduation_Level/Reasoning/Chapter_25_Statement_Argument (FIX: todo 0, problems 1)
-11-10 12:35:44   [Statement_Argument] repaired PYQ_hi.txt (8424 chars)
-11-10 12:35:44   [Statement_Argument] written 1, failed 0; AI calls today 23/100000
 11-10 12:40:07   [Statement_Argument] repaired PYQ_hi.txt (7856 chars)
 11-10 12:40:07   [Statement_Argument] written 1, failed 0; AI calls today 24/100000
 11-10 12:40:07 NOT OK Graduation_Level/Reasoning/Chapter_25_Statement_Argument after 8 min: todo [] problems ['PYQ_hi.txt: much shorter than the English section (7855 vs 4']
@@ -84,4 +76,10 @@
 11-10 14:25:50   [Dictionary_Order] Practice_en_Set_06.txt try 1: rejected (Q130:leaked_reasoning,Q133:leaked_reasoning,Q137:leaked_reasoning,Q147:leaked_reasoning)
 11-10 14:37:13   [Dictionary_Order] Practice_en_Set_06.txt try 2: re-solve disagrees (Q127 key b vs re-solve c, Q128 key c vs re-solve a, Q132 key a vs re-solve d, Q133 key d vs re-solve
 11-10 14:50:08   [Dictionary_Order] Practice_en_Set_06.txt try 3: re-solve disagrees (Q129 key b vs re-solve d, Q133 key a vs re-solve c, Q135 key a vs re-solve c, Q137 key b vs re-solve
+11-10 15:03:43   [Dictionary_Order] Practice_en_Set_06.txt try 4: re-solve disagrees (Q144 key b vs re-solve c)
+11-10 15:03:43   [Dictionary_Order] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+11-10 15:03:43   [Dictionary_Order] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+11-10 15:03:43   [Dictionary_Order] written 0, failed 2; AI calls today 49/100000
+11-10 15:03:44 NOT OK Graduation_Level/Reasoning/Chapter_13_Dictionary_Order after 44 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems []
+11-10 15:03:48 worker 2: nothing left
 ```
