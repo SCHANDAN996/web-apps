@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 12-10-2026 01:20 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 01:04 AM
+**आख़िरी update:** 12-10-2026 01:21 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 01:04 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W1 | Chapter 13 Awards (Graduation GK) | 🔧 सुधार रहा है | 1 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -35,12 +33,11 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 28 Linear Programming (Maths) — 4 बार
-- Chapter 13 Awards (GK) — 3 बार
+- Chapter 13 Awards (GK) — 4 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 01:08:24   [Linear_Programming] repaired Content_hi.txt (4723 chars)
 12-10 01:08:24   [Linear_Programming] written 1, failed 0; AI calls today 5/100000
 12-10 01:08:30   [Awards] repaired Flashcards_hi.txt (3730 chars)
 12-10 01:08:30   [Awards] written 1, failed 0; AI calls today 6/100000
@@ -80,4 +77,5 @@
 12-10 01:21:06   [Awards] written 1, failed 0; AI calls today 16/100000
 12-10 01:21:06 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards after 3 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (36']
 12-10 01:21:15 worker 0: nothing left
+12-10 01:21:28 autopilot end: done 0, failed 2
 ```
