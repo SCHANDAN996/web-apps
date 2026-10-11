@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 11-10-2026 10:59 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:09 PM
+**आख़िरी update:** 11-10-2026 11:14 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:09 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 32 मिनट |
-| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 229 मिनट |
-| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 229 मिनट |
+| W1 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 47 मिनट |
+| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 245 मिनट |
+| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -22,13 +22,13 @@
 | 10th English | 19 | 0 | 1 |
 | 12th Maths | 20 | 0 | 3 |
 | 12th GK | 24 | 0 | 0 |
-| 12th Reasoning | 22 | 0 | 3 |
+| 12th Reasoning | 23 | 0 | 2 |
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 27 | 0 | 1 |
 | Graduation GK | 27 | 0 | 1 |
-| Graduation Reasoning | 27 | 0 | 3 |
+| Graduation Reasoning | 29 | 0 | 1 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **283** | **0** | **13** |
+| **कुल** | **286** | **0** | **10** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -37,18 +37,11 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 01 Analogy (Reasoning) — 1 बार
+- Chapter 03 Coding Decoding (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 21:19:00   [Classification] FAILED set 02: no version passed the checks — files left as they were
-11-10 21:31:13   [Classification] set 03: Q53 key c vs re-solve d, Q56 key b vs re-solve a, Q58 key d vs re-solve c, Q63 key a vs re-solve b, Q65 key c vs re-solve d, Q67 key a vs re-s
-11-10 21:38:16   [Classification] set 03 try 1: re-solve disagrees (Q62 key b vs re-solve d)
-11-10 21:38:16   [Analogy] FAILED set 04: too_long
-11-10 21:38:53   [Coding_Decoding] set 04: Q91 key d vs re-solve a, Q92 key a vs re-solve b
-11-10 21:41:24   [Coding_Decoding] set 04 try 1: rejected (Q76:leaked_reasoning,Q95:duplicate_options)
-11-10 21:43:33   [Analogy] set 05: Q102 key a vs re-solve b, Q113 key d vs re-solve a
-11-10 21:44:12   [Coding_Decoding] set 04 try 2: rejected (Q95:duplicate_options)
 11-10 21:54:59   [Analogy] set 05 try 1: re-solve disagrees (Q102 key d vs re-solve b)
 11-10 21:55:54   [Analogy] set 05 try 2: rejected (parsed 0 questions, numbers -…-)
 11-10 21:59:21   [Analogy] set 05 try 3: re-solve disagrees (Q102 key d vs re-solve b)
@@ -81,4 +74,12 @@
 11-10 22:49:29   [Classification] repaired set 04 (en + hi, key confirmed by an independent re-solve)
 11-10 22:56:27   [Analogy] set 04: Q77 key a vs re-solve b, Q83 key c vs re-solve d
 11-10 22:58:06   [Classification] set 05: Q103 key c vs re-solve d, Q111 key c vs re-solve d, Q113 key a vs re-solve d, Q116 key d vs re-solve b, Q118 key b vs re-solve c, Q119 key c v
+11-10 23:00:41   [Analogy] repaired set 04 (en + hi, key confirmed by an independent re-solve)
+11-10 23:05:27   [Analogy] set 05: Q102 key a vs re-solve b, Q113 key d vs re-solve a
+11-10 23:06:56   [Coding_Decoding] repaired set 06 (en + hi, key confirmed by an independent re-solve)
+11-10 23:06:56   [Coding_Decoding] written 4, failed 2; AI calls today 135/100000
+11-10 23:06:56 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_03_Coding_Decoding: ['FAILED set 02: too_long', 'FAILED set 04: too_long']
+11-10 23:06:56 START 10th_Level/Reasoning/Chapter_03_Coding_Decoding (OK: todo 0, problems 0)
+11-10 23:07:08   [Classification] set 05 try 1: re-solve disagrees (Q101 key d vs re-solve a)
+11-10 23:13:15   [Analogy] set 05 try 1: re-solve disagrees (Q102 key a vs re-solve b)
 ```
