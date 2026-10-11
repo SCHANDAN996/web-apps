@@ -1,12 +1,15 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 11-10-2026 10:41 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 09:54 AM
+**आख़िरी update:** 11-10-2026 11:28 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 11:27 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
+| worker | अध्याय | काम | कब से |
+|---|---|---|---|
+| W1 | Chapter 03 Adjective (10th English) | 🔧 सुधार रहा है | 0 मिनट |
+| W2 | Chapter 04 Verb (10th English) | 🔧 सुधार रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -20,62 +23,21 @@
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 22 | 0 | 3 |
 | 12th English | 25 | 0 | 0 |
-| Graduation Maths | 25 | 0 | 3 |
+| Graduation Maths | 26 | 0 | 2 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 27 | 0 | 3 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **278** | **2** | **16** |
+| **कुल** | **279** | **2** | **15** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
 - अभी कोई नहीं
 
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 04 Verb (English) — 4 बार
-- Chapter 03 Adjective (English) — 4 बार
-
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 10:00:26 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective (FIX: todo 0, problems 1)
-11-10 10:02:52   [Verb] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
-11-10 10:05:06   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
-11-10 10:05:06   [Verb] written 0, failed 1; AI calls today 7/100000
-11-10 10:09:08   [Adjective] FAILED set 03: re-translation still changes English sentences — left as it was
-11-10 10:09:08   [Adjective] written 0, failed 1; AI calls today 8/100000
-11-10 10:13:36   [Adjective] FAILED set 03: re-translation still changes English sentences — left as it was
-11-10 10:13:36   [Adjective] written 0, failed 1; AI calls today 9/100000
-11-10 10:13:36 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective after 13 min: todo [] problems ['Set 03 hi: English sentence translated (keep it in English) ']
-11-10 10:13:36 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective (FIX: todo 0, problems 1)
-11-10 10:14:04   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
-11-10 10:14:04   [Verb] written 0, failed 1; AI calls today 10/100000
-11-10 10:14:04 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb after 14 min: todo [] problems ['Set 01 hi: English sentence translated (keep it in English) ']
-11-10 10:14:04 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb (FIX: todo 0, problems 1)
-11-10 10:15:29   [Adjective] Practice_hi_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
-11-10 10:17:28   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
-11-10 10:17:28   [Verb] written 0, failed 1; AI calls today 12/100000
-11-10 10:19:58   [Adjective] FAILED set 03: re-translation still changes English sentences — left as it was
-11-10 10:19:58   [Adjective] written 0, failed 1; AI calls today 13/100000
-11-10 10:21:30   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
-11-10 10:21:30   [Verb] written 0, failed 1; AI calls today 14/100000
-11-10 10:21:30 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb after 7 min: todo [] problems ['Set 01 hi: English sentence translated (keep it in English) ']
-11-10 10:21:31 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb (FIX: todo 0, problems 1)
-11-10 10:23:04   [Adjective] FAILED set 03: re-translation still changes English sentences — left as it was
-11-10 10:23:04   [Adjective] written 0, failed 1; AI calls today 15/100000
-11-10 10:23:05 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective after 9 min: todo [] problems ['Set 03 hi: English sentence translated (keep it in English) ']
-11-10 10:23:05 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective (FIX: todo 0, problems 1)
-11-10 10:25:28   [Adjective] FAILED set 03: re-translation still changes English sentences — left as it was
-11-10 10:25:28   [Adjective] written 0, failed 1; AI calls today 16/100000
-11-10 10:26:22   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
-11-10 10:26:22   [Verb] written 0, failed 1; AI calls today 17/100000
-11-10 10:29:21   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
-11-10 10:29:21   [Verb] written 0, failed 1; AI calls today 18/100000
-11-10 10:29:22 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb after 8 min: todo [] problems ['Set 01 hi: English sentence translated (keep it in English) ']
-11-10 10:29:25 worker 1: nothing left
-11-10 10:29:36   [Adjective] FAILED set 03: re-translation still changes English sentences — left as it was
-11-10 10:29:36   [Adjective] written 0, failed 1; AI calls today 18/100000
-11-10 10:29:36 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective after 7 min: todo [] problems ['Set 03 hi: English sentence translated (keep it in English) ']
-11-10 10:29:39 worker 0: nothing left
-11-10 10:41:42 autopilot end: done 0, failed 2
+11-10 11:27:47 autopilot start: 3 workers, reverse=True
+11-10 11:27:47 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective (FIX: todo 0, problems 1)
+11-10 11:27:52 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb (FIX: todo 0, problems 1)
+11-10 11:27:58 worker 2: nothing left
 ```
