@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 11-10-2026 05:32 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:59 AM
+**आख़िरी update:** 11-10-2026 05:47 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:59 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 13 Dictionary Order (12th Reasoning) | 🔎 review हो रहा है | 18 मिनट |
+| W2 | Chapter 13 Dictionary Order (12th Reasoning) | 🔎 review हो रहा है | 33 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -44,8 +44,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 04:42:16   [Mirror_Water_Images] written 0, failed 1; AI calls today 19/100000
-11-10 04:42:16 NOT OK 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images after 42 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (42']
 11-10 04:42:18 START 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images (FIX: todo 0, problems 1)
 11-10 04:45:33   [Statement_Assumption] FAILED Short_Tricks_hi.txt: empty
 11-10 04:45:33   [Statement_Assumption] written 0, failed 1; AI calls today 19/100000
@@ -84,4 +82,6 @@
 11-10 05:24:03   [Course_of_Action] written 1, failed 0; AI calls today 25/100000
 11-10 05:24:03 NOT OK 12th_Level/Reasoning/Chapter_17_Course_of_Action after 48 min: todo [] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
 11-10 05:24:06 worker 3: nothing left
+11-10 05:38:39   [Dictionary_Order] FAILED review Flashcards_en.txt: network — the chapter must not be published unreviewed
+11-10 05:38:46   [Dictionary_Order] review Short_Tricks_hi.txt: 1 issue(s): - File content is corrupted/unreadable: contains only repetitive numeric noise (3., 4., 5., 0.) with no cohere
 ```
