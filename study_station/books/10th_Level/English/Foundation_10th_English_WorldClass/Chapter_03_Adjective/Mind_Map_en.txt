@@ -1,0 +1,42 @@
+```mermaid
+graph TD
+    A["ADJECTIVE<br>Word that describes a Noun or Pronoun"] --> B["Types of Adjectives"]
+    A --> C["Degrees of Comparison"]
+    A --> D["Position & Order"]
+    A --> E["12 Golden Rules"]
+    A --> F["Examiner's Traps"]
+    A --> G["Exam Strategy"]
+
+    B --> B1["Adjective of Quality<br>honest, tall, beautiful"]
+    B --> B2["Adjective of Quantity<br>some, much, little, whole"]
+    B --> B3["Adjective of Number<br>five, many, few, first"]
+    B --> B4["Demonstrative<br>this, that, these, those"]
+    B --> B5["Distributive<br>each, every, either, neither"]
+    B --> B6["Interrogative<br>what, which, whose"]
+    B --> B7["Possessive<br>my, your, his, their"]
+    B --> B8["Proper Adjective<br>Indian, French, Shakespearean"]
+
+    C --> C1["Positive: tall<br>no comparison"]
+    C --> C2["Comparative: taller<br>two things + than"]
+    C --> C3["Superlative: tallest<br>the + est, one of the"]
+    C --> C4["Irregular Forms<br>good-better-best<br>bad-worse-worst<br>much-more-most"]
+    C --> C5["Latin Comparatives<br>senior, junior, superior, inferior<br>take TO, never THAN"]
+
+    D --> D1["Before Noun<br>a red car"]
+    D --> D2["After Linking Verb<br>the car is red"]
+    D --> D3["Order: OSASCOMP<br>Opinion-Size-Age-Shape<br>Colour-Origin-Material-Purpose"]
+
+    E --> E1["Adjective modifies noun<br>Adverb modifies verb"]
+    E --> E2["No double comparative<br>more better is WRONG"]
+    E --> E3["Superlative needs THE<br>the best, not a best"]
+    E --> E4["Comparative + than<br>Superlative + of/in"]
+
+    F --> F1["Trap 1: more taller<br>double comparison"]
+    F --> F2["Trap 2: senior than<br>should be senior to"]
+    F --> F3["Trap 3: He is more cleverer<br>sound-right error"]
+    F --> F4["Trap 4: the two best<br>comparative for two only"]
+
+    G --> G1["15-sec Rule<br>Fact-based: degree forms,<br>identify the adjective type"]
+    G --> G2["45-sec Rule<br>Inference: error spotting<br>in long sentences"]
+    G --> G3["Skip Strategy<br>Skip if both options look<br>grammatical; return later"]
+```
