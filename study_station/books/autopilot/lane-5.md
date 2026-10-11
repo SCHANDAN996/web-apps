@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 11-10-2026 06:50 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 05:17 PM
+**आख़िरी update:** 11-10-2026 07:01 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 05:17 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Ratio Proportion (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 24 मिनट |
-| W2 | Chapter 06 Average (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 25 मिनट |
-| W3 | Chapter 08 Profit Loss (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W1 | Chapter 07 Ratio Proportion (10th Maths) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 06 Average (10th Maths) | 🔎 review हो रहा है | 8 मिनट |
+| W3 | Chapter 08 Profit Loss (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 18 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -32,6 +32,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 11-10 19:01 — 10th Maths · Chapter 07 Ratio Proportion
 - 11-10 18:41 — 10th Maths · Chapter 05 Percentage
 - 11-10 18:25 — 10th Maths · Chapter 03 Simplification
 - 11-10 18:24 — 10th Maths · Chapter 04 Fractions Decimals
@@ -45,16 +46,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 18:02:55   [Percentage] set 03: Q62 key d vs re-solve b
-11-10 18:03:45   [Simplification] set 06: key confirmed
-11-10 18:03:45   [Simplification] written 0, failed 0; AI calls today 85/100000
-11-10 18:06:22   [Fractions_Decimals] set 06: key confirmed
-11-10 18:06:22   [Fractions_Decimals] written 0, failed 0; AI calls today 88/100000
-11-10 18:10:25   [Fractions_Decimals] review Content_en.txt: 1 issue(s): - The Mars Climate Orbiter spacecraft cost is stated as "over $300 million", but the spacecraft development cost wa
-11-10 18:13:56   [Simplification] review PYQ_en.txt: 1 issue(s): - In the Trap Classification Summary table, Q6 is incorrectly categorized under "DM Left-Right Violation" (which involv
-11-10 18:15:59   [Fractions_Decimals] review Flashcards_en.txt: 1 issue(s): - Card 18: The notation "0.8̅3̅" places a bar over both digits, which conventionally means both digits repeat; t
-11-10 18:16:31   [Percentage] repaired set 03 (en + hi, key confirmed by an independent re-solve)
-11-10 18:18:16   [Percentage] set 04: key confirmed
 11-10 18:21:25   [Percentage] set 05: key confirmed
 11-10 18:22:45   [Simplification] review Short_Tricks_en.txt: 2 issue(s): - Trick 10 states “roots and powers are solved individually right after brackets and ‘of’” which incorrectly p
 11-10 18:24:35   [Fractions_Decimals] review: 2 section(s) corrected, 0 failed
@@ -85,4 +76,14 @@
 11-10 18:47:48   [Profit_Loss] set 02: key confirmed
 11-10 18:48:01   [Average] set 05: key confirmed
 11-10 18:48:34   [Ratio_Proportion] set 05: key confirmed
+11-10 18:52:00   [Average] set 06: key confirmed
+11-10 18:52:00   [Average] written 0, failed 0; AI calls today 164/100000
+11-10 18:52:08   [Profit_Loss] set 03: key confirmed
+11-10 18:52:30   [Ratio_Proportion] set 06: key confirmed
+11-10 18:52:30   [Ratio_Proportion] written 0, failed 0; AI calls today 166/100000
+11-10 18:57:21   [Profit_Loss] set 04: key confirmed
+11-10 18:57:31   [Ratio_Proportion] review PYQ_en.txt: 3 issue(s): - In the summary table, the "Order Reversal" trap incorrectly lists Question 1 (third proportional) as an example; Ques
+11-10 19:00:59   [Ratio_Proportion] review: 1 section(s) corrected, 0 failed
+11-10 19:00:59   [Ratio_Proportion] written 1, failed 0; AI calls today 189/100000
+11-10 19:01:03   [Profit_Loss] set 05: key confirmed
 ```
