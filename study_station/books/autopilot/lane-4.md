@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 11-10-2026 11:26 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
+**आख़िरी update:** 11-10-2026 11:27 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W1 | Chapter 13 Mixture Alligation (12th Maths) | 🔧 सुधार रहा है | 15 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -38,12 +36,11 @@
 - Chapter 14 Sports (GK) — 4 बार
 - Chapter 12 Biology (GK) — 4 बार
 - Chapter 10 Compound Interest (Maths) — 4 बार
-- Chapter 13 Mixture Alligation (Maths) — 2 बार
+- Chapter 13 Mixture Alligation (Maths) — 3 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 09:44:11   [Compound_Interest] FAILED Flashcards_hi.txt: rate_limited
 11-10 09:44:11   [Compound_Interest] written 0, failed 1; AI calls today 11/100000
 11-10 09:53:05   [Mixture_Alligation] FAILED Flashcards_hi.txt: network
 11-10 09:53:05   [Mixture_Alligation] written 0, failed 1; AI calls today 11/100000
@@ -83,4 +80,5 @@
 11-10 11:26:49   [Mixture_Alligation] written 1, failed 0; AI calls today 17/100000
 11-10 11:26:49 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation after 25 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (32']
 11-10 11:26:49 worker 0: nothing left
+11-10 11:27:04 autopilot end: done 0, failed 5
 ```
