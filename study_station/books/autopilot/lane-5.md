@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 11-10-2026 04:29 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
+**आख़िरी update:** 11-10-2026 04:31 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Profit Loss (10th Maths) | 🔎 review हो रहा है | 51 मिनट |
-| W2 | Chapter 09 Simple Interest (10th Maths) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 08 Profit Loss (10th Maths) | 🔎 review हो रहा है | 54 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -47,8 +46,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 15:26:02   [Ratio_Proportion] written 1, failed 0; AI calls today 141/100000
-11-10 15:27:03   [Fractions_Decimals] review: 7 section(s) corrected, 0 failed
 11-10 15:27:03   [Fractions_Decimals] written 7, failed 0; AI calls today 142/100000
 11-10 15:27:14   [Ratio_Proportion] review Content_en.txt: 2 issue(s): - The claim that the cross-product rule solves 40% of exam problems is an invented exam statistic. → Remove the uns
 11-10 15:27:18 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_04_Fractions_Decimals in 55 min → 212e1608
@@ -87,4 +84,6 @@
 11-10 16:22:11 worker 2: nothing left
 11-10 16:29:26   [Simple_Interest] review: 2 section(s) corrected, 0 failed
 11-10 16:29:26   [Simple_Interest] written 2, failed 0; AI calls today 201/100000
+11-10 16:29:41 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_09_Simple_Interest in 32 min → 60d64e15
+11-10 16:29:43 worker 1: nothing left
 ```
