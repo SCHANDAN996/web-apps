@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 11-10-2026 07:31 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:00 PM
+**आख़िरी update:** 11-10-2026 07:47 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:00 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W1 | Chapter 01 Number System (12th Maths) | 🔧 सुधार रहा है | 21 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -36,23 +34,11 @@
 
 - Chapter 10 Compound Interest (Maths) — 4 बार
 - Chapter 13 Mixture Alligation (Maths) — 4 बार
-- Chapter 01 Number System (Maths) — 2 बार
+- Chapter 01 Number System (Maths) — 4 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 19:07:49   [Mixture_Alligation] repaired Flashcards_hi.txt (3031 chars)
-11-10 19:07:49   [Mixture_Alligation] written 1, failed 0; AI calls today 10/100000
-11-10 19:08:36   [Number_System] repaired Important_Formulas_hi.txt (3929 chars)
-11-10 19:08:36   [Number_System] written 1, failed 0; AI calls today 11/100000
-11-10 19:09:17   [Compound_Interest] repaired Flashcards_hi.txt (3197 chars)
-11-10 19:09:17   [Compound_Interest] written 1, failed 0; AI calls today 12/100000
-11-10 19:09:17 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest after 4 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (31']
-11-10 19:09:20 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest (FIX: todo 0, problems 1)
-11-10 19:10:04   [Mixture_Alligation] repaired Flashcards_hi.txt (3266 chars)
-11-10 19:10:04   [Mixture_Alligation] written 1, failed 0; AI calls today 13/100000
-11-10 19:10:05 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation after 4 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (32']
-11-10 19:10:08 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation (FIX: todo 0, problems 1)
 11-10 19:10:28   [Number_System] repaired Important_Formulas_hi.txt (3916 chars)
 11-10 19:10:28   [Number_System] written 1, failed 0; AI calls today 14/100000
 11-10 19:10:28 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System after 4 min: todo [] problems ['Important_Formulas_hi.txt: much shorter than the English sec']
@@ -81,4 +67,16 @@
 11-10 19:20:03   [Mixture_Alligation] written 1, failed 0; AI calls today 21/100000
 11-10 19:20:03 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation after 4 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (36']
 11-10 19:20:07 worker 2: nothing left
+11-10 19:34:14   [Number_System] FAILED Important_Formulas_hi.txt: too_long
+11-10 19:34:14   [Number_System] written 0, failed 1; AI calls today 20/100000
+11-10 19:37:21   [Number_System] repaired Important_Formulas_hi.txt (4333 chars)
+11-10 19:37:21   [Number_System] written 1, failed 0; AI calls today 21/100000
+11-10 19:37:21 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System after 27 min: todo [] problems ['Important_Formulas_hi.txt: much shorter than the English sec']
+11-10 19:37:23 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System (FIX: todo 0, problems 1)
+11-10 19:39:41   [Number_System] repaired Important_Formulas_hi.txt (5234 chars)
+11-10 19:39:41   [Number_System] written 1, failed 0; AI calls today 22/100000
+11-10 19:43:05   [Number_System] repaired Important_Formulas_hi.txt (6011 chars)
+11-10 19:43:05   [Number_System] written 1, failed 0; AI calls today 23/100000
+11-10 19:43:05 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System after 6 min: todo [] problems ['Important_Formulas_hi.txt: much shorter than the English sec']
+11-10 19:43:09 worker 0: nothing left
 ```
