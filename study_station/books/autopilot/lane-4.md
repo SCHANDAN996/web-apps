@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 11-10-2026 07:16 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:00 PM
+**आख़िरी update:** 11-10-2026 07:31 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:00 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Number System (12th Maths) | 🔧 सुधार रहा है | 6 मिनट |
-| W2 | Chapter 10 Compound Interest (12th Maths) | 🔧 सुधार रहा है | 0 मिनट |
-| W3 | Chapter 13 Mixture Alligation (12th Maths) | 🔧 सुधार रहा है | 0 मिनट |
+| W1 | Chapter 01 Number System (12th Maths) | 🔧 सुधार रहा है | 21 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -36,23 +34,13 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 10 Compound Interest (Maths) — 3 बार
-- Chapter 13 Mixture Alligation (Maths) — 3 बार
+- Chapter 10 Compound Interest (Maths) — 4 बार
+- Chapter 13 Mixture Alligation (Maths) — 4 बार
 - Chapter 01 Number System (Maths) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 19:05:35   [Mixture_Alligation] repaired Flashcards_hi.txt (2846 chars)
-11-10 19:05:35   [Mixture_Alligation] written 1, failed 0; AI calls today 7/100000
-11-10 19:05:36 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation after 5 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (28']
-11-10 19:05:39 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation (FIX: todo 0, problems 1)
-11-10 19:06:19   [Number_System] repaired Important_Formulas_hi.txt (4267 chars)
-11-10 19:06:19   [Number_System] written 1, failed 0; AI calls today 8/100000
-11-10 19:06:20 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System after 6 min: todo [] problems ['Important_Formulas_hi.txt: much shorter than the English sec']
-11-10 19:06:22 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System (FIX: todo 0, problems 1)
-11-10 19:07:10   [Compound_Interest] repaired Flashcards_hi.txt (3367 chars)
-11-10 19:07:10   [Compound_Interest] written 1, failed 0; AI calls today 9/100000
 11-10 19:07:49   [Mixture_Alligation] repaired Flashcards_hi.txt (3031 chars)
 11-10 19:07:49   [Mixture_Alligation] written 1, failed 0; AI calls today 10/100000
 11-10 19:08:36   [Number_System] repaired Important_Formulas_hi.txt (3929 chars)
@@ -83,4 +71,14 @@
 11-10 19:15:44 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation (FIX: todo 0, problems 1)
 11-10 19:16:03   [Compound_Interest] repaired Flashcards_hi.txt (3523 chars)
 11-10 19:16:03   [Compound_Interest] written 1, failed 0; AI calls today 19/100000
+11-10 19:17:54   [Mixture_Alligation] repaired Flashcards_hi.txt (3040 chars)
+11-10 19:17:54   [Mixture_Alligation] written 1, failed 0; AI calls today 20/100000
+11-10 19:18:48   [Compound_Interest] repaired Flashcards_hi.txt (2620 chars)
+11-10 19:18:48   [Compound_Interest] written 1, failed 0; AI calls today 21/100000
+11-10 19:18:48 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest after 5 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (26']
+11-10 19:18:52 worker 1: nothing left
+11-10 19:20:03   [Mixture_Alligation] repaired Flashcards_hi.txt (3623 chars)
+11-10 19:20:03   [Mixture_Alligation] written 1, failed 0; AI calls today 21/100000
+11-10 19:20:03 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation after 4 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (36']
+11-10 19:20:07 worker 2: nothing left
 ```
