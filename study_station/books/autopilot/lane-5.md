@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 11-10-2026 07:36 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
+**आख़िरी update:** 11-10-2026 07:52 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 03 Adjective (10th English) | 🔧 सुधार रहा है | 12 मिनट |
-| W2 | Chapter 04 Verb (10th English) | 🔧 सुधार रहा है | 21 मिनट |
+| W1 | Chapter 03 Adjective (10th English) | 🔧 सुधार रहा है | 10 मिनट |
+| W2 | Chapter 04 Verb (10th English) | 🔧 सुधार रहा है | 14 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -21,17 +21,22 @@
 | 10th English | 18 | 2 | 0 |
 | 12th Maths | 20 | 0 | 3 |
 | 12th GK | 22 | 0 | 2 |
-| 12th Reasoning | 19 | 0 | 6 |
+| 12th Reasoning | 21 | 0 | 4 |
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 25 | 0 | 3 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 26 | 0 | 4 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **274** | **2** | **20** |
+| **कुल** | **276** | **2** | **18** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
 - अभी कोई नहीं
+
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 04 Verb (English) — 1 बार
+- Chapter 03 Adjective (English) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
@@ -44,4 +49,12 @@
 11-10 07:15:42   [Verb] written 0, failed 1; AI calls today 2/100000
 11-10 07:24:12   [Adjective] FAILED set 03: network
 11-10 07:24:12   [Adjective] written 0, failed 1; AI calls today 2/100000
+11-10 07:37:20   [Verb] FAILED set 01: network
+11-10 07:37:20   [Verb] written 0, failed 1; AI calls today 2/100000
+11-10 07:37:21 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb after 31 min: todo [] problems ['Set 01 hi: English sentence translated (keep it in English) ']
+11-10 07:37:21 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb (FIX: todo 0, problems 1)
+11-10 07:42:02   [Adjective] FAILED set 03: network
+11-10 07:42:02   [Adjective] written 0, failed 1; AI calls today 2/100000
+11-10 07:42:02 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective after 36 min: todo [] problems ['Set 03 hi: English sentence translated (keep it in English) ']
+11-10 07:42:02 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective (FIX: todo 0, problems 1)
 ```
