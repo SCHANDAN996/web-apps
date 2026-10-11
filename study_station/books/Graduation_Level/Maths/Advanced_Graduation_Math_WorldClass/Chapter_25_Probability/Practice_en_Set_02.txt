@@ -1,0 +1,151 @@
+Questions 26–45: Easy | Questions 46–50: Moderate
+
+26. A bag contains 5 red and 4 blue balls. Two balls are drawn at random without replacement. What is the probability that both are red?
+(a) 5/9 (b) 25/81 (c) 5/18 (d) 1/3
+Answer: (c)
+Solution: The tempting wrong option 25/81 comes from multiplying 5/9 by 5/9, which wrongly assumes replacement. Without replacement, the second probability becomes 4/8, so P = (5/9) × (4/8) = 20/72 = 5/18, so the answer is 5/18.
+Source: NCERT Class 11 Mathematics
+
+27. Two dice are thrown together. What is the probability that the sum of the numbers is 9?
+(a) 1/9 (b) 1/12 (c) 1/6 (d) 5/36
+Answer: (a)
+Solution: The trap option 5/36 counts an extra pair such as (6,3) twice. Favourable outcomes for sum 9 are (3,6), (4,5), (5,4), (6,3) — 4 outcomes out of 36, so P = 4/36 = 1/9, so the answer is 1/9.
+Source: NCERT Class 10 Mathematics
+
+28. A card is drawn from a well-shuffled deck of 52 cards. What is the probability that it is either a king or a heart?
+(a) 17/52 (b) 15/52 (c) 1/4 (d) 4/13
+Answer: (d)
+Solution: The trap option 17/52 simply adds 4 kings + 13 hearts, double-counting the king of hearts. Correct count = 4 + 13 − 1 = 16, so P = 16/52 = 4/13, so the answer is 4/13.
+Source: NCERT Class 11 Mathematics
+
+29. If P(A) = 0.5, P(B) = 0.4 and P(A ∩ B) = 0.2, then P(A ∪ B) equals:
+(a) 0.9 (b) 0.7 (c) 0.6 (d) 0.8
+Answer: (b)
+Solution: The trap option 0.9 comes from simply adding 0.5 + 0.4, ignoring the overlap. By the addition rule, P(A ∪ B) = 0.5 + 0.4 − 0.2 = 0.7, so the answer is 0.7.
+Source: NCERT Class 11 Mathematics
+
+30. Three coins are tossed simultaneously. What is the probability of getting at least two heads?
+(a) 1/2 (b) 3/8 (c) 5/8 (d) 7/8
+Answer: (a)
+Solution: The trap option 3/8 counts only exactly two heads and forgets HHH. Favourable outcomes are HHT, HTH, THH and HHH — 4 out of 8, so P = 4/8 = 1/2, so the answer is 1/2.
+Source: NCERT Class 10 Mathematics
+
+31. A speaks truth in 75% of cases and B in 80% of cases. What is the probability that they contradict each other in stating the same fact?
+(a) 13/20 (b) 3/20 (c) 1/4 (d) 7/20
+Answer: (d)
+Solution: The trap option 13/20 is the probability that they agree, the exact opposite event. Contradiction means one tells the truth and the other lies: P = (3/4)(1/5) + (1/4)(4/5) = 3/20 + 4/20 = 7/20, so the answer is 7/20.
+Source: NCERT Class 12 Mathematics
+
+32. A box contains 10 bulbs, of which 3 are defective. Two bulbs are drawn at random without replacement. What is the probability that both are non-defective?
+(a) 7/15 (b) 49/100 (c) 7/10 (d) 21/50
+Answer: (a)
+Solution: The trap option 49/100 assumes replacement, computing (7/10)². Without replacement, P = (7/10) × (6/9) = 42/90 = 7/15, so the answer is 7/15.
+Source: NCERT Class 12 Mathematics
+
+33. If two events A and B are independent with P(A) = 0.3 and P(B) = 0.5, then P(A ∪ B) is:
+(a) 0.8 (b) 0.65 (c) 0.15 (d) 0.55
+Answer: (b)
+Solution: The trap option 0.8 just adds the probabilities, ignoring the overlap. For independent events, P(A ∩ B) = 0.3 × 0.5 = 0.15, so P(A ∪ B) = 0.3 + 0.5 − 0.15 = 0.65, so the answer is 0.65.
+Source: NCERT Class 12 Mathematics
+
+34. A die is thrown twice. What is the probability of getting a sum of 7 given that the first throw shows an even number?
+(a) 1/3 (b) 1/9 (c) 1/4 (d) 1/6
+Answer: (d)
+Solution: The trap option 1/3 divides 6 favourable pairs by only 18 outcomes incorrectly. Given the first throw is even (2, 4 or 6), there are 3 × 6 = 18 outcomes, and sum 7 occurs as (2,5), (4,3), (6,1) — 3 outcomes, so P = 3/18 = 1/6, so the answer is 1/6.
+Source: NCERT Class 12 Mathematics
+
+35. From a group of 4 men and 3 women, a committee of 3 is chosen at random. What is the probability that it contains exactly 2 men?
+(a) 12/35 (b) 4/35 (c) 18/35 (d) 24/35
+Answer: (c)
+Solution: The trap option 12/35 slips in computing C(4,2) × C(3,1). Favourable ways = 6 × 3 = 18 and total ways = C(7,3) = 35, so P = 18/35, so the answer is 18/35.
+Source: NCERT Class 11 Mathematics
+
+36. The probability that a student passes Mathematics is 0.6 and the probability that he passes both Mathematics and English is 0.3. Given that he passed Mathematics, the probability that he passed English is:
+(a) 0.5 (b) 0.3 (c) 0.18 (d) 0.6
+Answer: (a)
+Solution: The trap option 0.18 is the product 0.6 × 0.3, which misuses the multiplication rule. Conditional probability gives P(E|M) = P(E ∩ M)/P(M) = 0.3/0.6 = 0.5, so the answer is 0.5.
+Source: NCERT Class 12 Mathematics
+
+37. A number is chosen at random from the first 100 natural numbers. What is the probability that it is divisible by 4 or 6?
+(a) 1/4 (b) 8/25 (c) 33/100 (d) 41/100
+Answer: (c)
+Solution: The trap option 41/100 forgets to subtract the overlap of multiples of 12. Multiples of 4: 25; multiples of 6: 16; multiples of 12: 8, so total = 25 + 16 − 8 = 33, so P = 33/100, so the answer is 33/100.
+Source: NCERT Class 11 Mathematics
+
+38. A bag contains 6 white and 4 black balls. Three balls are drawn one by one without replacement. What is the probability that they are drawn in the order white, black, white?
+(a) 5/36 (b) 3/20 (c) 1/8 (d) 1/6
+Answer: (d)
+Solution: The trap option 3/20 forgets that after two draws only 8 balls and 5 whites remain. P = (6/10) × (4/9) × (5/8) = 120/720 = 1/6, so the answer is 1/6.
+Source: NCERT Class 12 Mathematics
+
+39. Two cards are drawn at random from a deck of 52 cards without replacement. What is the probability that both are aces?
+(a) 1/169 (b) 1/221 (c) 1/26 (d) 2/51
+Answer: (b)
+Solution: The trap option 1/169 = (1/13)² assumes replacement. Without replacement, P = (4/52) × (3/51) = 12/2652 = 1/221, so the answer is 1/221.
+Source: NCERT Class 11 Mathematics
+
+40. If P(A) = 0.4, P(B) = 0.8 and P(B|A) = 0.6, then P(A|B) equals:
+(a) 0.3 (b) 0.24 (c) 0.48 (d) 0.6
+Answer: (a)
+Solution: The trap option 0.24 stops at the intersection P(A ∩ B) = 0.4 × 0.6 instead of completing the conditional probability. P(A|B) = 0.24/0.8 = 0.3, so the answer is 0.3.
+Source: NCERT Class 12 Mathematics
+
+41. A fair coin is tossed 5 times. What is the probability of getting exactly 3 heads?
+(a) 5/32 (b) 5/16 (c) 3/32 (d) 1/4
+Answer: (b)
+Solution: The trap option 5/32 miscounts C(5,3) as 5. Number of favourable ways = C(5,3) = 10 and total outcomes = 32, so P = 10/32 = 5/16, so the answer is 5/16.
+Source: NCERT Class 12 Mathematics
+
+42. The odds in favour of an event A are 3 : 2 and the odds against an independent event B are 5 : 2. What is the probability that at least one of A and B occurs?
+(a) 5/7 (b) 6/35 (c) 4/7 (d) 23/35
+Answer: (a)
+Solution: The trap option 23/35 comes from wrongly adding P(A) + P(B) = 3/5 + 2/7 = 31/35 and then adjusting carelessly. Here P(A) = 3/5 and P(B) = 2/7, so P(neither) = (2/5)(5/7) = 2/7 and P(at least one) = 1 − 2/7 = 5/7, so the answer is 5/7.
+Source: NCERT Class 12 Mathematics
+
+43. A problem is given to three students whose chances of solving it are 1/2, 1/3 and 1/4 respectively. What is the probability that the problem is solved?
+(a) 1/4 (b) 13/24 (c) 3/4 (d) 1/24
+Answer: (c)
+Solution: The trap option 1/24 multiplies the three solving chances, which gives the probability that all three solve it, not that it is solved at all. P(all fail) = (1/2)(2/3)(3/4) = 1/4, so P(solved) = 1 − 1/4 = 3/4, so the answer is 3/4.
+Source: NCERT Class 12 Mathematics
+
+44. A letter is chosen at random from the word "ASSASSINATION". What is the probability that it is a vowel?
+(a) 5/13 (b) 6/13 (c) 7/13 (d) 1/2
+Answer: (b)
+Solution: The trap option 5/13 misses one of the repeated vowels. The word has 13 letters and the vowels are A, A, A, I, I, O — 6 in all, so P = 6/13, so the answer is 6/13.
+Source: NCERT Class 10 Mathematics
+
+45. Two numbers are selected at random from 1 to 9 without replacement. What is the probability that their sum is even?
+(a) 5/9 (b) 4/9 (c) 1/2 (d) 13/18
+Answer: (b)
+Solution: The trap option 1/2 assumes both parities are equally likely without counting. Sum is even when both numbers are odd or both even: favourable pairs = C(5,2) + C(4,2) = 10 + 6 = 16 out of C(9,2) = 36, so P = 16/36 = 4/9, so the answer is 4/9.
+Source: NCERT Class 11 Mathematics
+
+46. A die is biased so that the probability of getting an even number is twice that of an odd number, with each even number equally likely and each odd number equally likely. What is the probability of getting a 6?
+(a) 2/9 (b) 1/6 (c) 1/9 (d) 1/3
+Answer: (a)
+Solution: The trap option 1/6 assumes a fair die. Let each odd number have probability x and each even number 2x; then 3x + 3(2x) = 9x = 1, so x = 1/9 and P(6) = 2x = 2/9, so the answer is 2/9.
+Source: NCERT Class 11 Mathematics
+
+47. A and B throw a pair of dice alternately. The first to throw a total of 9 wins. If A starts, what is the probability that A wins?
+(a) 8/17 (b) 1/2 (c) 9/17 (d) 5/9
+Answer: (c)
+Solution: The trap option 1/2 assumes equal chances, ignoring A's first-mover advantage. P(sum 9) = 4/36 = 1/9, so A wins with P = 1/9 + (8/9)²(1/9) + (8/9)⁴(1/9) + … = (1/9)/(1 − 64/81) = 9/17, so the answer is 9/17.
+Source: NCERT Class 12 Mathematics
+
+48. A bag contains 3 red, 4 white and 5 blue balls. Three balls are drawn at random. What is the probability that one ball of each colour is drawn?
+(a) 1/11 (b) 3/11 (c) 3/22 (d) 5/22
+Answer: (b)
+Solution: The trap option 3/22 halves the favourable count by an arithmetic slip. Favourable = C(3,1) × C(4,1) × C(5,1) = 60 and total = C(12,3) = 220, so P = 60/220 = 3/11, so the answer is 3/11.
+Source: NCERT Class 11 Mathematics
+
+49. If A and B are events such that P(A) = 1/3, P(B) = 1/4 and P(A ∪ B) = 1/2, then P(A ∩ B) equals:
+(a) 1/12 (b) 1/6 (c) 7/12 (d) 1/24
+Answer: (a)
+Solution: The trap option 7/12 is just the sum 1/3 + 1/4, which ignores the union value entirely. P(A ∩ B) = P(A) + P(B) − P(A ∪ B) = 4/12 + 3/12 − 6/12 = 1/12, so the answer is 1/12.
+Source: NCERT Class 11 Mathematics
+
+50. A family has two children. Given that at least one of them is a boy, what is the probability that both are boys?
+(a) 1/2 (b) 1/3 (c) 1/4 (d) 2/3
+Answer: (b)
+Solution: The trap option 1/2 treats the other child as an independent coin toss, ignoring the conditioning. Given at least one boy, the sample space is {BB, BG, GB} — 3 equally likely cases, of which only BB qualifies, so P = 1/3, so the answer is 1/3.
+Source: NCERT Class 12 Mathematics
