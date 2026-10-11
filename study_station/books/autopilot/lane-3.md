@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 11-10-2026 10:12 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:09 PM
+**आख़िरी update:** 11-10-2026 10:27 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:09 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 182 मिनट |
+| W2 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 198 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -41,9 +41,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 19:30:06 NOT OK 12th_Level/Reasoning/Chapter_16_Statement_Conclusion after 5 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (40']
-11-10 19:30:08 START 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images (FIX: todo 0, problems 1)
-11-10 19:31:23   [Sitting_Arrangement] repaired Short_Tricks_hi.txt (4832 chars)
 11-10 19:31:23   [Sitting_Arrangement] written 1, failed 0; AI calls today 20/100000
 11-10 19:31:23 NOT OK 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement after 6 min: todo [] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
 11-10 19:31:25 worker 0: nothing left
@@ -81,4 +78,7 @@
 11-10 21:37:18   [Puzzles] set 03: Q51: clues contradict each other — no arrangement fits all of them; Q67: the clues allow more than one answer — add a clue so exactly one arra
 11-10 21:47:34   [Puzzles] set 03 try 1: rejected (parsed 0 questions, numbers -…-)
 11-10 22:06:08   [Puzzles] set 03 try 2: re-solve disagrees (Q67: the clues give "4", which is not among the options; Q74: the clues give "4", which is not among the options)
+11-10 22:13:03   [Puzzles] set 03 try 3: re-solve disagrees (Q52 key c vs re-solve b)
+11-10 22:25:21   [Puzzles] set 03 try 4: re-solve disagrees (Q67: the clues give "5", which is not among the options)
+11-10 22:25:21   [Puzzles] FAILED set 03: no version passed the checks — files left as they were
 ```
