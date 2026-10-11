@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 11-10-2026 01:44 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
+**आख़िरी update:** 11-10-2026 01:59 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W1 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 16 मिनट |
+| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
+| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -42,4 +42,11 @@
 11-10 13:43:34 START 10th_Level/Reasoning/Chapter_02_Classification (OK: todo 0, problems 0)
 11-10 13:43:39 START 10th_Level/Reasoning/Chapter_03_Coding_Decoding (OK: todo 0, problems 0)
 11-10 13:44:24   [Analogy] set 01: key confirmed
+11-10 13:44:42   [Classification] set 01: Q1 key a vs re-solve d, Q5 key a vs re-solve d, Q7 key c vs re-solve d, Q11 key c vs re-solve d, Q13 key a vs re-solve c, Q14 key b vs re-solv
+11-10 13:46:17   [Analogy] set 02: Q37 key d vs re-solve a, Q38 key a vs re-solve b, Q39 key b vs re-solve a
+11-10 13:52:31   [Classification] repaired set 01 (en + hi, key confirmed by an independent re-solve)
+11-10 13:54:19   [Analogy] repaired set 02 (en + hi, key confirmed by an independent re-solve)
+11-10 13:55:20   [Coding_Decoding] set 01: Q20 key d vs re-solve a, Q21 key a vs re-solve c
+11-10 13:55:40   [Classification] set 02: Q26 key a vs re-solve b, Q32 key c vs re-solve d, Q35 key b vs re-solve a, Q37 key d vs re-solve a, Q38 key a vs re-solve c, Q39 key b vs re-s
+11-10 13:57:32   [Analogy] set 03: Q54 key d vs re-solve a
 ```
