@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 11-10-2026 11:29 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:09 PM
+**आख़िरी update:** 11-10-2026 11:45 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:09 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 62 मिनट |
-| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 260 मिनट |
-| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 22 मिनट |
+| W1 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 78 मिनट |
+| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 275 मिनट |
+| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 38 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -42,12 +42,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 22:11:11   [Analogy] set 06: Q129 key b vs re-solve c
-11-10 22:15:16   [Analogy] set 06 try 1: re-solve disagrees (Q129 key d vs re-solve b)
-11-10 22:17:02   [Coding_Decoding] set 05: Q118 key b vs re-solve a
-11-10 22:19:57   [Classification] FAILED set 03: too_long
-11-10 22:20:04   [Analogy] set 06 try 2: re-solve disagrees (Q132 key b vs re-solve a, Q144 key a vs re-solve c)
-11-10 22:20:12   [Coding_Decoding] set 05 try 1: rejected (Q103:duplicate_options)
 11-10 22:26:48   [Analogy] repaired set 06 (en + hi, key confirmed by an independent re-solve)
 11-10 22:26:48   [Analogy] written 4, failed 2; AI calls today 94/100000
 11-10 22:26:48 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_01_Analogy: ['FAILED set 04: too_long', 'FAILED set 05: no version passed the checks — files left as they were']
@@ -82,4 +76,10 @@
 11-10 23:27:41   [Analogy] set 05 try 3: re-solve disagrees (Q102 key a vs re-solve c)
 11-10 23:29:55   [Classification] set 05 try 4: re-solve disagrees (Q101 key c vs re-solve a)
 11-10 23:29:55   [Classification] FAILED set 05: no version passed the checks — files left as they were
+11-10 23:32:46   [Coding_Decoding] set 02: Q47 key b vs re-solve a
+11-10 23:35:26   [Coding_Decoding] set 02 try 1: rejected (Q26:duplicate_options)
+11-10 23:37:57   [Analogy] repaired set 05 (en + hi, key confirmed by an independent re-solve)
+11-10 23:40:32   [Analogy] set 06: Q135 key d vs re-solve a
+11-10 23:44:20   [Analogy] set 06 try 1: re-solve disagrees (Q141 key d vs re-solve a)
+11-10 23:44:53   [Analogy] set 06 try 2: rejected (parsed 0 questions, numbers -…-)
 ```
