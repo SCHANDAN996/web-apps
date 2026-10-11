@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 11-10-2026 03:47 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
+**आख़िरी update:** 11-10-2026 04:02 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 24 मिनट |
-| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 123 मिनट |
-| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 123 मिनट |
+| W1 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 40 मिनट |
+| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 139 मिनट |
+| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 138 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,10 +37,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 14:23:16   [Analogy] set 05: Q102 key b vs re-solve a, Q110 key b vs re-solve c, Q112 key d vs re-solve c, Q115 key c vs re-solve a, Q125 key b vs re-solve a
-11-10 14:25:10   [Classification] repaired set 02 (en + hi, key confirmed by an independent re-solve)
-11-10 14:25:11   [Coding_Decoding] repaired set 01 (en + hi, key confirmed by an independent re-solve)
-11-10 14:28:08   [Analogy] set 05 try 1: re-solve disagrees (Q102 key a vs re-solve b, Q113 key b vs re-solve c)
 11-10 14:28:25   [Classification] set 03: Q53 key c vs re-solve d, Q56 key b vs re-solve d, Q58 key d vs re-solve c, Q63 key a vs re-solve d, Q65 key c vs re-solve d, Q67 key a vs re-s
 11-10 14:36:09   [Classification] repaired set 03 (en + hi, key confirmed by an independent re-solve)
 11-10 14:36:57   [Analogy] set 05 try 2: re-solve disagrees (Q102 key a vs re-solve b, Q113 key d vs re-solve a)
@@ -77,4 +73,8 @@
 11-10 15:36:56   [Classification] set 05 try 4: re-solve disagrees (Q119 key a vs re-solve b)
 11-10 15:36:56   [Classification] FAILED set 05: no version passed the checks — files left as they were
 11-10 15:46:29   [Coding_Decoding] FAILED set 04: too_long
+11-10 15:53:08   [Blood_Relations] FAILED set 02: too_long
+11-10 15:53:08   [Classification] set 06: Q128 key c vs re-solve d, Q130 key a vs re-solve d, Q134 key a vs re-solve d, Q135 key b vs re-solve c, Q136 key c vs re-solve d, Q137 key d v
+11-10 15:55:14   [Classification] set 06 try 1: rejected (Q127:leaked_reasoning)
+11-10 15:58:43   [Coding_Decoding] set 05: Q118 key b vs re-solve a
 ```
