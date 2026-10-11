@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 11-10-2026 08:10 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:09 PM
+**आख़िरी update:** 11-10-2026 08:25 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:09 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 61 मिनट |
+| W2 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 76 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -41,7 +41,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 19:25:47 NOT OK 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement after 5 min: todo [] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
 11-10 19:25:49 START 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement (FIX: todo 0, problems 1)
 11-10 19:28:09   [Statement_Conclusion] repaired Flashcards_hi.txt (4516 chars)
 11-10 19:28:09   [Statement_Conclusion] written 1, failed 0; AI calls today 17/100000
@@ -81,4 +80,5 @@
 11-10 19:49:33 NOT OK 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images after 5 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (31']
 11-10 19:49:35 worker 2: nothing left
 11-10 19:56:30   [Puzzles] set 02: Q28 key a vs re-solve b
+11-10 20:15:20   [Puzzles] set 02 try 1: re-solve disagrees (Q42 key d vs re-solve a)
 ```
