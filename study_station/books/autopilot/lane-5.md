@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 11-10-2026 03:02 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
+**आख़िरी update:** 11-10-2026 03:07 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 Fractions Decimals (10th Maths) | 🔎 review हो रहा है | 10 मिनट |
-| W2 | Chapter 05 Percentage (10th Maths) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 03 Simplification (10th Maths) | 🔎 review हो रहा है | 23 मिनट |
+| W1 | Chapter 04 Fractions Decimals (10th Maths) | 🔎 review हो रहा है | 15 मिनट |
+| W2 | Chapter 06 Average (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W3 | Chapter 03 Simplification (10th Maths) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -32,6 +32,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 11-10 15:07 — 10th Maths · Chapter 03 Simplification
 - 11-10 15:02 — 10th Maths · Chapter 05 Percentage
 - 11-10 14:39 — 10th Maths · Chapter 01 Number System
 - 11-10 14:26 — 10th Maths · Chapter 02 LCM HCF
@@ -43,16 +44,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 14:32:19   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
-11-10 14:32:19   [Verb] written 0, failed 1; AI calls today 52/100000
-11-10 14:32:19 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb after 11 min: todo [] problems ['Set 01 hi: English sentence translated (keep it in English) ']
-11-10 14:32:20 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_04_Fractions_Decimals (OK: todo 0, problems 0)
-11-10 14:32:39   [Fractions_Decimals] set 01: key confirmed
-11-10 14:33:27   [Simplification] set 03: key confirmed
-11-10 14:34:51   [Number_System] review Short_Tricks_hi.txt: 1 issue(s): - Trick 14 title says “घनमूल की अदला-बदली (घनमूल का इकाई अंक)” but the trick explains unit digit of cubes (घन)
-11-10 14:35:40   [Simplification] set 04: key confirmed
-11-10 14:35:46   [Fractions_Decimals] set 02: key confirmed
-11-10 14:37:03   [Fractions_Decimals] set 03: key confirmed
 11-10 14:37:12   [Simplification] set 05: key confirmed
 11-10 14:38:12   [Fractions_Decimals] set 04: key confirmed
 11-10 14:38:41   [Simplification] set 06: key confirmed
@@ -83,4 +74,14 @@
 11-10 15:01:27   [Fractions_Decimals] review Feynman_en.txt: 1 issue(s): - The pani puri example states ⅔ ÷ ⅙ = 12 puris, but ⅔ ÷ ⅙ = (⅔) × 6 = 4 puris. → Correct answer: 4 puris.
 11-10 15:02:26   [Percentage] review: 2 section(s) corrected, 0 failed
 11-10 15:02:26   [Percentage] written 2, failed 0; AI calls today 105/100000
+11-10 15:02:41 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_05_Percentage in 23 min → 6ef9005e
+11-10 15:02:42 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_06_Average (OK: todo 0, problems 0)
+11-10 15:02:52   [Fractions_Decimals] review Feynman_hi.txt: 1 issue(s): - The golgappa example calculation "⅔ ÷ ⅙ = 12" and "⅔ × 6 = 12" is incorrect; ⅔ ÷ ⅙ = ⅔ × 6 = 4 → The correct answ
+11-10 15:03:29   [Average] set 01: key confirmed
+11-10 15:04:00   [Simplification] review Short_Tricks_hi.txt: 1 issue(s): - ट्रिक 9 में कहा गया है "शून्य से गुणा या भाग की पूरी शृंखला शून्य बना देता है" → शून्य से गुणा करने पर परिणा
+11-10 15:05:01   [Average] set 02: key confirmed
+11-10 15:06:14   [Fractions_Decimals] review Flashcards_hi.txt: 1 issue(s): - Card 17 front shows “0.8̅3̅” labeled as मिश्रित आवर्ती, but that notation means both digits repeat (pure recur
+11-10 15:06:14   [Average] set 03: key confirmed
+11-10 15:07:21   [Simplification] review: 5 section(s) corrected, 0 failed
+11-10 15:07:21   [Simplification] written 5, failed 0; AI calls today 117/100000
 ```
