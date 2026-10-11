@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 11-10-2026 09:25 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 08:54 AM
+**आख़िरी update:** 11-10-2026 09:41 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 08:54 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Para Jumbles Adv (Graduation English) | 🔧 सुधार रहा है | 14 मिनट |
-| W2 | Chapter 12 Missing Term (Graduation Reasoning) | 🔧 सुधार रहा है | 5 मिनट |
-| W3 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 11 मिनट |
+| W1 | Chapter 22 Para Jumbles Adv (Graduation English) | 🔧 सुधार रहा है | 5 मिनट |
+| W2 | Chapter 12 Missing Term (Graduation Reasoning) | 🔧 सुधार रहा है | 21 मिनट |
+| W3 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 3 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -38,7 +38,8 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 13 Dictionary Order (Reasoning) — 1 बार
+- Chapter 13 Dictionary Order (Reasoning) — 2 बार
+- Chapter 22 Para Jumbles Adv (English) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
@@ -56,4 +57,13 @@
 11-10 09:13:56 START Graduation_Level/Reasoning/Chapter_13_Dictionary_Order (TODO: todo 2, problems 0)
 11-10 09:19:59   [Missing_Term] repaired Important_Rules_hi.txt (3158 chars)
 11-10 09:19:59   [Missing_Term] written 1, failed 0; AI calls today 4/100000
+11-10 09:35:29   [Para_Jumbles_Adv] FAILED Mind_Map_hi.txt: network
+11-10 09:35:29   [Para_Jumbles_Adv] written 0, failed 1; AI calls today 4/100000
+11-10 09:35:29 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv after 41 min: todo [] problems ['Mind_Map_hi.txt: much shorter than the English section (1137']
+11-10 09:35:31 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv (FIX: todo 0, problems 1)
+11-10 09:37:54   [Dictionary_Order] FAILED Practice_en_Set_06.txt: network
+11-10 09:37:54   [Dictionary_Order] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+11-10 09:37:54   [Dictionary_Order] written 0, failed 2; AI calls today 4/100000
+11-10 09:37:54 NOT OK Graduation_Level/Reasoning/Chapter_13_Dictionary_Order after 24 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems []
+11-10 09:37:57 START Graduation_Level/Reasoning/Chapter_13_Dictionary_Order (TODO: todo 2, problems 0)
 ```
