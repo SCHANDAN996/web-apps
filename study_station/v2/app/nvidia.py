@@ -19,7 +19,7 @@ log = logging.getLogger('nvidia')
 THINK = re.compile(r'<think>.*?</think>\s*', re.S)     # some models print their reasoning inline
 
 
-RETRY_WAITS = (20, 60, 180)          # seconds between tries on rate limits / server or network errors
+RETRY_WAITS = (20, 60, 120, 240, 300)   # seconds between tries on rate limits / server or network errors (the free API is flaky)
 
 
 def call(system, user, *, max_tokens=16000, temperature=0.3, model=None):
