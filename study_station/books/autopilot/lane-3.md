@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 11-10-2026 06:21 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
+**आख़िरी update:** 11-10-2026 06:36 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 277 मिनट |
+| W3 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 292 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -41,7 +41,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 14:57:49   [Mirror_Water_Images] written 1, failed 0; AI calls today 57/100000
 11-10 14:59:46   [Mirror_Water_Images] repaired Flashcards_hi.txt (3797 chars)
 11-10 14:59:46   [Mirror_Water_Images] written 1, failed 0; AI calls today 58/100000
 11-10 14:59:46 NOT OK 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images after 4 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (37']
@@ -81,4 +80,5 @@
 11-10 17:23:40   [Puzzles] set 03 try 1: re-solve disagrees (Q51 key d vs re-solve c)
 11-10 17:40:45   [Puzzles] set 03 try 2: re-solve disagrees (Q61: the clues allow more than one answer — add a clue so exactly one arrangement fits; Q67: the clues give "4", whi
 11-10 18:08:17   [Puzzles] repaired set 03 (en + hi, key confirmed by an independent re-solve)
+11-10 18:21:50   [Puzzles] set 04: Q85: the clues allow more than one answer — add a clue so exactly one arrangement fits; Q94: the clues give "6", which is not among the option
 ```
