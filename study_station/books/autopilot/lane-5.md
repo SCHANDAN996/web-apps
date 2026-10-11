@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 11-10-2026 07:21 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 05:17 PM
+**आख़िरी update:** 11-10-2026 07:36 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 05:17 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Simple Interest (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 20 मिनट |
+| W1 | Chapter 09 Simple Interest (10th Maths) | 🔎 review हो रहा है | 3 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -46,11 +46,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 18:34:52   [Average] set 03: key confirmed
-11-10 18:36:16   [Percentage] review PYQ_hi.txt: 4 issue(s): - The claim “300 से अधिक प्रतिशत प्रश्नों का विश्लेषण” is an invented statistic without a verifiable source → remove or
-11-10 18:37:24   [Ratio_Proportion] set 03: key confirmed
-11-10 18:41:47   [Percentage] review: 2 section(s) corrected, 0 failed
-11-10 18:41:47   [Percentage] written 2, failed 0; AI calls today 148/100000
 11-10 18:42:12 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_05_Percentage in 48 min → 53a3e1f4
 11-10 18:42:14 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_08_Profit_Loss (OK: todo 0, problems 0)
 11-10 18:44:08   [Ratio_Proportion] set 04: key confirmed
@@ -86,4 +81,9 @@
 11-10 19:20:57   [Profit_Loss] written 2, failed 0; AI calls today 213/100000
 11-10 19:21:21 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_08_Profit_Loss in 39 min → dab9a8ed
 11-10 19:21:24 worker 2: nothing left
+11-10 19:25:26   [Simple_Interest] set 04: key confirmed
+11-10 19:29:37   [Simple_Interest] set 05: key confirmed
+11-10 19:33:09   [Simple_Interest] set 06: key confirmed
+11-10 19:33:09   [Simple_Interest] written 0, failed 0; AI calls today 218/100000
+11-10 19:35:47   [Simple_Interest] review Content_en.txt: 2 issue(s): - "This single insight solves 80% of the hard-looking SI problems in under 30 seconds." → Remove the invented stati
 ```
