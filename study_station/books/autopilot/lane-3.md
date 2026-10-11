@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 11-10-2026 04:18 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
+**आख़िरी update:** 11-10-2026 04:33 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 154 मिनट |
+| W3 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 169 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -41,7 +41,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 14:53:45   [Order_Ranking] review Flashcards_hi.txt: 1 issue(s): - Card 8: Front data inconsistent with solution (A initially 7th from left, after interchange B 15th from left, 
 11-10 14:55:18   [Statement_Conclusion] repaired Flashcards_hi.txt (3615 chars)
 11-10 14:55:18   [Statement_Conclusion] written 1, failed 0; AI calls today 54/100000
 11-10 14:55:18 NOT OK 12th_Level/Reasoning/Chapter_16_Statement_Conclusion after 6 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (36']
@@ -81,4 +80,5 @@
 11-10 15:15:28   [Puzzles] set 02: Q42 key a vs re-solve d
 11-10 15:48:12   [Puzzles] set 02 try 1: re-solve disagrees (Q26: the clues allow more than one answer — add a clue so exactly one arrangement fits; Q28: the clues allow more th
 11-10 16:10:05   [Puzzles] set 02 try 2: re-solve disagrees (Q34 key b vs re-solve d)
+11-10 16:22:37   [Puzzles] set 02 try 3: re-solve disagrees (Q46: the clues allow more than one answer — add a clue so exactly one arrangement fits)
 ```
