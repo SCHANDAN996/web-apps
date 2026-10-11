@@ -405,3 +405,18 @@ def test_strict_audit_asks_a_second_model(db, monkeypatch):
     assert bookgen._key_problem(db, mcq_set('en')) == '' and models == [None]
     assert bookgen._key_problem(db, mcq_set('en'), strict=True) == 'Q5 key b vs re-solve c'
     assert models[1:] == [None, config.NVIDIA_MODEL]
+
+
+def test_repair_translates_a_gutted_hindi_section_from_english(chapter, db, monkeypatch):
+    usage_reset(db)
+    english = 'Card 1: Trick for counting seats in a row. ' * 40
+    write(chapter / 'Flashcards_en.txt', english)
+    write(chapter / 'Flashcards_hi.txt', 'कार्ड 1: बहुत छोटा। ' * 12)
+    asked = []
+    monkeypatch.setattr(bookgen, 'repair_targets', lambda ch: (['Flashcards_hi.txt'], [], [
+        'Flashcards_hi.txt: much shorter than the English section (240 vs 1760 chars)']))
+    monkeypatch.setattr(bookgen, '_ask', lambda db, user: asked.append(user) or 'कार्ड 1: पंक्ति में सीटें गिनने की ट्रिक। ' * 40)
+    written, failed = bookgen.repair(db, chapter)
+    assert written == ['Flashcards_hi.txt'] and failed == []
+    assert '<section file="Flashcards_en.txt">' in asked[0] and english.strip() in asked[0]
+    assert 'translate the whole section above into natural, simple Hindi' in asked[0]

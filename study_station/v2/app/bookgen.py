@@ -257,6 +257,17 @@ def is_english_book(chapter):
     return '/English/' in str(Path(chapter).resolve())
 
 
+def section_translation_request(src_name, src_text, dst_name, english_book=False):
+    """A whole book section in Hindi, translated from the finished English one (same headings, same content)."""
+    keep = (' This is an English-language book: keep every English example sentence, word and option as it is.'
+            if english_book else '')
+    return (f'<section file="{src_name}">\n{src_text.strip()}\n</section>\n\n'
+            f'Write {dst_name}: translate the whole section above into natural, simple Hindi (Devanagari) for '
+            f'Hindi-medium students. Keep every heading, point, table, card, example and number — leave nothing out '
+            f'and add nothing. Keep technical terms with their English in brackets the first time, e.g. '
+            f'"क्रमचय (Permutation)".{keep} Output only the file content.')
+
+
 def translation_request(src_name, src_text, dst_name, english_book=False):
     src, dst = _lang_of(src_name), _lang_of(dst_name)
     words = ('उत्तर:, हल:, स्रोत:' if dst == 'hi' else 'Answer:, Solution:, Source:')
@@ -555,8 +566,13 @@ def repair(db, chapter, dry_run=False, out=print):
             continue
         path = section_files(chapter)[name]
         rewrite = any('does not mention the chapter topic' in p or 'much shorter than' in p for p in mine)
+        en_name = name.replace('_hi.txt', '_en.txt')
+        en_path = section_files(chapter).get(en_name) if name.endswith('_hi.txt') else None
         try:
-            if rewrite and prompt_file(chapter, name):       # wrong or gutted section: write it again from its prompt
+            if any('much shorter than' in p for p in mine) and en_path:     # gutted Hindi: translate the English one
+                user = section_translation_request(en_name, en_path.read_text(encoding='utf-8', errors='replace'),
+                                                   name, is_english_book(chapter))
+            elif rewrite and prompt_file(chapter, name):     # wrong or gutted section: write it again from its prompt
                 user = section_request(chapter, name)
             else:
                 user = repair_request(name, path.read_text(encoding='utf-8', errors='replace'), mine)
