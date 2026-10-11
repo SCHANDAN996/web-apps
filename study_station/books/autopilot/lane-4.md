@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 11-10-2026 11:11 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
+**आख़िरी update:** 11-10-2026 11:26 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Mixture Alligation (12th Maths) | 🔧 सुधार रहा है | 0 मिनट |
+| W1 | Chapter 13 Mixture Alligation (12th Maths) | 🔧 सुधार रहा है | 15 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -43,10 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 09:31:26 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_12_Biology after 35 min: todo [] problems ['Feynman_hi.txt: Hindi file is mostly not in Hindi', 'Feynman_hi.txt: much shorter than the English section (1895 ']
-11-10 09:31:28 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation (FIX: todo 0, problems 1)
-11-10 09:35:21   [Sports] FAILED Memory_Hooks_hi.txt: network
-11-10 09:35:21   [Sports] written 0, failed 1; AI calls today 11/100000
 11-10 09:44:11   [Compound_Interest] FAILED Flashcards_hi.txt: rate_limited
 11-10 09:44:11   [Compound_Interest] written 0, failed 1; AI calls today 11/100000
 11-10 09:53:05   [Mixture_Alligation] FAILED Flashcards_hi.txt: network
@@ -83,4 +79,8 @@
 11-10 11:01:27 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation (FIX: todo 0, problems 1)
 11-10 11:11:09   [Mixture_Alligation] repaired Flashcards_hi.txt (3049 chars)
 11-10 11:11:09   [Mixture_Alligation] written 1, failed 0; AI calls today 16/100000
+11-10 11:26:49   [Mixture_Alligation] repaired Flashcards_hi.txt (3287 chars)
+11-10 11:26:49   [Mixture_Alligation] written 1, failed 0; AI calls today 17/100000
+11-10 11:26:49 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation after 25 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (32']
+11-10 11:26:49 worker 0: nothing left
 ```
