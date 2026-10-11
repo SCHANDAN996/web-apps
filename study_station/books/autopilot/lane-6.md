@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 11-10-2026 10:28 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:09 PM
+**आख़िरी update:** 11-10-2026 10:43 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:09 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 199 मिनट |
-| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 199 मिनट |
+| W1 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 17 मिनट |
+| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 214 मिनट |
+| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 214 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -41,14 +41,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 20:29:11   [Analogy] repaired set 01 (en + hi, key confirmed by an independent re-solve)
-11-10 20:36:04   [Analogy] set 02: Q41 key b vs re-solve d
-11-10 20:47:39   [Analogy] repaired set 02 (en + hi, key confirmed by an independent re-solve)
-11-10 20:48:19   [Classification] set 02: Q26 key a vs re-solve b, Q32 key c vs re-solve a, Q35 key b vs re-solve a, Q37 key d vs re-solve ?, Q38 key a vs re-solve ?, Q39 key b vs re-s
-11-10 20:48:44   [Coding_Decoding] FAILED set 02: too_long
-11-10 20:51:02   [Analogy] set 03: Q71 key d vs re-solve a
-11-10 20:55:01   [Classification] set 02 try 1: rejected (Q26:leaked_reasoning,Q31:leaked_reasoning)
-11-10 20:56:23   [Classification] set 02 try 2: rejected (parsed 0 questions, numbers -…-)
 11-10 20:57:00   [Analogy] set 03 try 1: re-solve disagrees (Q63 key b vs re-solve a)
 11-10 21:02:40   [Coding_Decoding] set 03: Q68 key b vs re-solve a, Q75 key b vs re-solve a
 11-10 21:08:51   [Classification] set 02 try 3: re-solve disagrees (Q32 key b vs re-solve d, Q45 key d vs re-solve b, Q46 key a vs re-solve d, Q50 key a vs re-solve d)
@@ -81,4 +73,12 @@
 11-10 22:26:48 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_01_Analogy: ['FAILED set 04: too_long', 'FAILED set 05: no version passed the checks — files left as they were']
 11-10 22:26:48 START 10th_Level/Reasoning/Chapter_01_Analogy (OK: todo 0, problems 0)
 11-10 22:26:49   [Classification] set 04: Q76 key a vs re-solve d, Q78 key c vs re-solve d, Q80 key a vs re-solve c, Q85 key b vs re-solve d, Q86 key c vs re-solve d, Q88 key a vs re-s
+11-10 22:29:52   [Analogy] set 01: key confirmed
+11-10 22:31:10   [Coding_Decoding] repaired set 05 (en + hi, key confirmed by an independent re-solve)
+11-10 22:31:40   [Classification] set 04 try 1: re-solve disagrees (Q90 key a vs re-solve d)
+11-10 22:34:16   [Analogy] set 02: Q34 key b vs re-solve a
+11-10 22:36:49   [Classification] set 04 try 2: re-solve disagrees (Q90 key a vs re-solve d, Q94 key c vs re-solve a)
+11-10 22:41:06   [Analogy] repaired set 02 (en + hi, key confirmed by an independent re-solve)
+11-10 22:42:32   [Classification] set 04 try 3: re-solve disagrees (Q98 key b vs re-solve c)
+11-10 22:43:43   [Analogy] set 03: key confirmed
 ```
