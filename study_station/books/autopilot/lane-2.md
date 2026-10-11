@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 11-10-2026 11:46 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 11:45 AM
+**आख़िरी update:** 11-10-2026 12:01 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 11:45 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 28 Linear Programming (Graduation Maths) | 🔧 सुधार रहा है | 0 मिनट |
+| W1 | Chapter 28 Linear Programming (Graduation Maths) | 🔧 सुधार रहा है | 3 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -17,7 +17,7 @@
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 22 | 0 | 0 |
-| 10th English | 18 | 0 | 2 |
+| 10th English | 19 | 0 | 1 |
 | 12th Maths | 20 | 0 | 3 |
 | 12th GK | 22 | 0 | 2 |
 | 12th Reasoning | 22 | 0 | 3 |
@@ -26,7 +26,7 @@
 | Graduation GK | 27 | 1 | 0 |
 | Graduation Reasoning | 27 | 0 | 3 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **279** | **3** | **14** |
+| **कुल** | **280** | **3** | **13** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -39,4 +39,6 @@
 11-10 11:45:31 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming (FIX: todo 0, problems 1)
 11-10 11:45:36 worker 1: nothing left
 11-10 11:45:41 worker 2: nothing left
+11-10 11:57:27   [Linear_Programming] repaired Content_hi.txt (7617 chars)
+11-10 11:57:27   [Linear_Programming] written 1, failed 0; AI calls today 1/100000
 ```
