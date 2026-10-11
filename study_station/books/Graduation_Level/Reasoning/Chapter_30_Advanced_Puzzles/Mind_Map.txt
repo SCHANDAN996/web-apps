@@ -1,0 +1,40 @@
+```mermaid
+graph TD
+    A["उन्नत पहेलियाँ<br>Advanced Puzzles<br>(Multi-condition)"] --> B["मुख्य प्रकार<br>Main Types"]
+    A --> C["समाधान रणनीति<br>Solving Strategy"]
+    A --> D["समय प्रबंधन<br>Time Management"]
+    A --> E["परीक्षक के जाल<br>Examiner Traps"]
+
+    B --> B1["बैठक व्यवस्था<br>Seating Arrangement<br>(रेखीय/वृत्तीय/वर्ग)"]
+    B --> B2["फ्लोर-आधारित<br>Floor-based Puzzles"]
+    B --> B3["बॉक्स/स्टैक पहेली<br>Box / Stack Puzzle"]
+    B --> B4["दिन/माह/वर्ष आधारित<br>Day-Month-Year based"]
+    B --> B5["तुलना/क्रम पहेली<br>Comparison & Ranking"]
+    B --> B6["चयन/समूह बनाना<br>Selection & Grouping"]
+    B --> B7["रक्त-संबंध + व्यवस्था<br>Blood Relation + Arrangement"]
+
+    B1 --> B1a["Facing Inside/Outside<br>अंदर/बाहर मुख"]
+    B1 --> B1b["Left-Right भ्रम<br>बाएँ-दाएँ का ध्यान"]
+
+    C --> C1["सभी शर्तें पढ़ें<br>Read ALL conditions first"]
+    C --> C2["निश्चित सुराग से शुरू<br>Start with Definite Clue"]
+    C --> C3["तालिका/चित्र बनाएँ<br>Make Table / Diagram"]
+    C --> C4["संभावनाएँ अलग रखें<br>Track Possibilities Separately"]
+    C --> C5["नकारात्मक सुराग लगाएँ<br>Use Negative Clues<br>('नहीं' वाली शर्तें)"]
+    C --> C6["Case बनाएँ और काटें<br>Make Cases & Eliminate"]
+
+    C2 --> C2a["प्रत्यक्ष स्थिति<br>Direct Position Clue"]
+    C2 --> C2b["सबसे अधिक जुड़ी शर्त<br>Most Connected Condition"]
+
+    D --> D1["पहले 30-40 सेकंड में<br>पहेली का प्रकार पहचानें"]
+    D --> D2["5 प्रश्नों का सेट =<br>एक बार हल, कई उत्तर"]
+    D --> D3["2 मिनट में सुराग न मिले<br>तो Skip करें"]
+    D --> D4["आसान सेट पहले<br>कठिन सेट बाद में"]
+
+    E --> E1["'के बाएँ' vs 'के ठीक बाएँ'<br>Left vs Immediate Left"]
+    E --> E2["'बीच में' का अर्थ<br>Exactly between या Somewhere between"]
+    E --> E3["अधूरी शर्त से जल्दबाज़ निष्कर्ष<br>Hasty conclusion from partial clues"]
+    E --> E4["वृत्त में मुख की दिशा<br>Direction of facing in circle"]
+    E --> E5["'कम से कम/अधिक से अधिक'<br>At least / At most शर्तें"]
+    E --> E6["सभी Cases जाँचे बिना उत्तर<br>Answering without checking all cases"]
+```

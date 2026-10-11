@@ -1,0 +1,151 @@
+Questions 76–95: Easy | Questions 96–100: Moderate
+
+76. Six persons P, Q, R, S, T and U sit in a row facing north. P sits third to the left of S. Q sits at one of the extreme ends. T sits immediately to the right of P. R is not adjacent to S. Who sits second to the right of U?
+(a) P (b) T (c) Q (d) R
+Answer: (c)
+Solution: The trap is T, because T sits immediately right of P and feels central. P third to the left of S with T right of P fixes P at position 2, T at 3 and S at 5. R cannot sit at 4 or 6 (both adjacent to S), so R is at 1; Q must then take the extreme end at 6, leaving U at 4. Second to the right of U is position 6, so the answer is Q.
+Source: PYQ-style
+
+77. Five boxes A, B, C, D and E are stacked one above another. A is immediately above C. B is above E but not at the top. D is below C. Which box is at the bottom?
+(a) A (b) C (c) D (d) E
+Answer: (d)
+Solution: The trap is D, since "D is below C" sounds like D sinks to the bottom. A–C–D form a consecutive block; if the block sits at positions 2–4, the top must be E, but then B cannot be above E, and at positions 3–5 the same problem occurs. So the block is at the top: A, C, D, then B above E at positions 4 and 5, so the answer is E.
+Source: PYQ-style
+
+78. In a family of six members A, B, C, D, E and F, there are two married couples. A is the father of C. D is the daughter of B. E is the wife of C. F is the sister of C. How is B related to E?
+(a) Mother (b) Mother-in-law (c) Sister (d) Grandmother
+Answer: (b)
+Solution: The trap is Mother, because solvers stop at "B is C's mother" and forget the question asks about E. The two couples are A–B and C–E, so B is the mother of C, who is E's husband. The husband's mother is the mother-in-law, so the answer is Mother-in-law.
+Source: PYQ-style
+
+79. Seven lectures on subjects M, N, O, P, Q, R and S are held from Monday to Sunday. O is on Wednesday. M is held immediately before O. P is held after S but before R. N is held on neither Monday nor Sunday. Q is held on Sunday. On which day is P held?
+(a) Saturday (b) Thursday (c) Friday (d) Monday
+Answer: (c)
+Solution: The trap is Saturday, since "after S but before R" feels like P is pushed late in the week. M is on Tuesday, O on Wednesday and Q on Sunday, leaving Monday, Thursday, Friday and Saturday. The chain S–P–R needs three of these days in order; placing S on Thursday forces N onto Monday, which is barred, so S is on Monday, N on Thursday, P on Friday and R on Saturday, so the answer is Friday.
+Source: PYQ-style
+
+80. Eight friends sit around a circular table facing the centre. A sits second to the left of B. C sits opposite A. D is an immediate neighbour of both B and C. E sits third to the right of C. Who sits opposite D?
+(a) A (b) E (c) B (d) C
+Answer: (b)
+Solution: The trap is A, because A is defined relative to B just as the answer is defined relative to D. Number seats 1–8 clockwise with B at seat 1; second to the left (anticlockwise) puts A at seat 7, so C is opposite at seat 3. The only seat touching both B and C is seat 2, which is D. Third to the right (clockwise) of C is seat 6, which is E, and seat 6 is opposite seat 2, so the answer is E.
+Source: PYQ-style
+
+81. Six employees J, K, L, M, N and O work on six different floors (1 = lowest, 6 = highest). J works on an even floor. K is immediately above J. L works on floor 1. M is above N but below O. K is not on floor 3. On which floor does M work?
+(a) 2 (b) 5 (c) 4 (d) 3
+Answer: (d)
+Solution: The trap is floor 4, because "M above N but below O" sounds like a high-floor chain. J must be even with K directly above, so J is on 2 or 4; J on 2 puts K on floor 3, which is barred, so J is on 4 and K on 5. Floors 2, 3 and 6 remain for N, M and O in ascending order, placing M on floor 3, so the answer is 3.
+Source: PYQ-style
+
+82. Pointing to a photograph, Ravi said, "She is the daughter of the only son of my grandfather's only child." How is the woman in the photograph related to Ravi?
+(a) Daughter (b) Cousin (c) Niece (d) Sister
+Answer: (a)
+Solution: The trap is Sister, because "grandfather's only child" sounds like it refers to Ravi's parent, making the woman his sister. Grandfather's only child is Ravi's parent, and the only son of that person is Ravi himself. The daughter of Ravi is his daughter, so the answer is Daughter.
+Source: PYQ-style
+
+83. Five cars V, W, X, Y and Z are parked in a row facing east. X is at one end. V is to the immediate left of Y. W is not adjacent to X. Z is between W and Y. Which car is at the other end?
+(a) W (b) V (c) Y (d) Z
+Answer: (a)
+Solution: The trap is V, since the V–Y pair looks like an end block. Combining the clues gives the chain W, Z, V, Y in four consecutive positions. If X is at position 1, W falls at position 2 and becomes adjacent to X, which is barred, so X is at position 5 and the block occupies positions 1–4. The end opposite X is position 1, so the answer is W.
+Source: PYQ-style
+
+84. Four teams Red, Blue, Green and Yellow finished a race. Red finished before Blue. Green finished neither first nor last. Yellow finished immediately after Red. Which team finished last?
+(a) Green (b) Yellow (c) Blue (d) Red
+Answer: (c)
+Solution: The trap is Yellow, because "immediately after Red" can be misread as near the back. Green must be 2nd or 3rd, and the Red–Yellow block must fit before Blue; placing Red 2nd leaves Green no valid slot, so Red is 1st, Yellow 2nd, Green 3rd and Blue 4th, so the answer is Blue.
+Source: PYQ-style
+
+85. Six books of subjects Physics, Chemistry, Maths, Biology, English and Hindi are arranged on a shelf. Maths is between Physics and Chemistry. English is at the rightmost position. Biology is to the immediate left of Hindi. Physics is not at either end. Which book is at the leftmost position?
+(a) Chemistry (b) Biology (c) Hindi (d) Physics
+Answer: (a)
+Solution: The trap is Biology, because the Biology–Hindi pair looks like a left-end block. English is fixed at position 6, and the Physics–Maths–Chemistry triple must run as Chemistry, Maths, Physics from position 1, since Physics cannot be at an end. Biology and Hindi then take positions 4 and 5, so the answer is Chemistry.
+Source: PYQ-style
+
+86. A, B, C, D and E each like a different colour among red, blue, green, yellow and pink, and each was born in a different month from January to May. A likes red and was born in March. B was born immediately before the one who likes green. C likes blue and was born in January. D was born in May. Who likes green?
+(a) E (b) C (c) B (d) D
+Answer: (d)
+Solution: The trap is E, because E has no clues and feels like the default leftover. B and E must occupy February and April; if B were born in February, the green-lover would be born in March, but that is A, who likes red. So B is born in April and the green-lover is the May-born person, so the answer is D.
+Source: PYQ-style
+
+87. Seven people stand in a queue for tickets. G is ahead of H but behind F. E is immediately behind D. C is at the front. B is behind H. D is ahead of F. Who is exactly in the middle (4th position)?
+(a) G (b) F (c) E (d) D
+Answer: (b)
+Solution: The trap is G, because the F–G–H chain centres on G. C is 1st; the D–E block must come before F, and B comes after H, giving the full order C, D, E, F, G, H, B. The 4th position is F, so the answer is F.
+Source: PYQ-style
+
+88. In a 3×3 grid of nine houses, the Sharma family lives in the centre. The Verma family lives immediately to the north of the Sharmas. The Gupta family lives in a corner house but not adjacent to the Vermas. The Khan family lives immediately to the east of the Sharmas. Which family could live in the south-west corner?
+(a) Khan (b) Verma (c) Gupta (d) Sharma
+Answer: (c)
+Solution: The trap is Khan, since the Khan family's position is only loosely fixed in solvers' minds — but east of centre is the middle-right cell, not a corner. Verma occupies the top-middle cell, so the corners adjacent to Verma are the two top corners; Gupta must therefore take a bottom corner. The south-west corner can hold the Gupta family, so the answer is Gupta.
+Source: PYQ-style
+
+89. Five friends scored different marks in a test. R scored more than S but less than T. Q scored more than T. P scored less than S. Who scored the second highest?
+(a) Q (b) S (c) R (d) T
+Answer: (d)
+Solution: The trap is Q, because Q is clearly the highest and hasty readers pick it for "second highest". The chain is Q above T above R above S above P, so counting from the top, Q is first and T is second, so the answer is T.
+Source: PYQ-style
+
+90. Eight boxes contain different items. Box 1 contains pens. The box with books is immediately above the box with files. The box with toys is at the top. The box with files is not adjacent to Box 1. If Box 1 is at the bottom, which item is in Box 2?
+(a) Books (b) Files (c) Cannot be determined (d) Toys
+Answer: (c)
+Solution: The trap is Books, because the books–files pair feels forced near the bottom. Files cannot be in Box 2 (adjacent to Box 1), and books in Box 2 would require files in Box 1, which holds pens; toys are at the top. The books–files pair can sit at several higher positions, leaving Box 2 with an unspecified item, so the answer is Cannot be determined.
+Source: PYQ-style
+
+91. A man walks 5 km north, turns right and walks 3 km, turns right again and walks 5 km, then turns left and walks 2 km. In which direction is he from the starting point?
+(a) North (b) North-east (c) East (d) South-east
+Answer: (c)
+Solution: The trap is South-east, because the final left turn feels like heading south. The 5 km north and 5 km south legs cancel exactly; the two right turns send him 3 km east, and the left turn from a south-facing direction points east again for 2 km more. Net displacement is 5 km due east, so the answer is East.
+Source: PYQ-style
+
+92. Six plays are staged on six days of a week starting Monday. Play K is on Thursday. Play L is before K but not on Monday. Play M is immediately after Play N. Play O is on the last day. On which day is Play L staged?
+(a) Tuesday (b) Wednesday (c) Friday (d) Monday
+Answer: (b)
+Solution: The trap is Tuesday, since L only needs to be "before Thursday" and Tuesday is the first candidate. K is Thursday and O is Saturday, leaving Monday, Tuesday, Wednesday and Friday; the N–M pair needs two consecutive days, so it must take Monday–Tuesday or Tuesday–Wednesday. If the pair takes Tuesday–Wednesday, L has no valid day left, so N is Monday, M is Tuesday and L is Wednesday, so the answer is Wednesday.
+Source: PYQ-style
+
+93. Five girls sit in a row facing south. Meena is second to the left of Reena. Tina is at an extreme end. Seeta is to the immediate right of Meena. Geeta is not adjacent to Tina. Who sits in the middle?
+(a) Seeta (b) Meena (c) Reena (d) Geeta
+Answer: (a)
+Solution: The trap is Meena, because most clues revolve around her. Facing south, a girl's left is the viewer's right; Meena second to the left of Reena with Seeta immediately on Meena's other side forces the order Tina, Reena, Seeta, Meena, Geeta from one end (Geeta at the far end is not adjacent to Tina). The middle seat is the third one, so the answer is Seeta.
+Source: PYQ-style
+
+94. Four athletes W, X, Y and Z belong to four different cities — Delhi, Mumbai, Chennai and Kolkata — and play four different sports. W is from Delhi and plays cricket. X does not play football. The athlete from Mumbai plays hockey. Y is from Chennai. Z does not play football. Who plays football?
+(a) Y (b) X (c) Z (d) W
+Answer: (a)
+Solution: The trap is X, because two "does not play football" clues make solvers hunt only between X and Z. W plays cricket, and both X and Z are barred from football, leaving only Y; the city clues are distractors here, so the answer is Y.
+Source: PYQ-style
+
+95. A committee of 3 must be chosen from P, Q, R, S and T under these conditions: if P is chosen, Q must be chosen; R and S cannot both be chosen; T can be chosen only if S is chosen. Which is a valid committee?
+(a) P, R, T (b) P, Q, T (c) Q, R, S (d) P, Q, S
+Answer: (d)
+Solution: The trap is the committee P, Q, T: it satisfies the P–Q rule but T requires S, which is missing. The committee P, R, T breaks both the P–Q and T–S rules, and Q, R, S puts R and S together. The committee P, Q, S satisfies every condition, so the answer is P, Q, S.
+Source: PYQ-style
+
+96. Six poles of different heights stand in a row. Pole A is taller than B but shorter than C. Pole D is taller than C. Pole E is shorter than B. Pole F is taller than D. Which pole is the third tallest?
+(a) A (b) B (c) D (d) C
+Answer: (d)
+Solution: The trap is D, because the chain F above D above C makes D feel mid-ranked. The full order is F, D, C, A, B, E from tallest to shortest. Counting down, F is first, D second and C third, so the answer is C.
+Source: PYQ-style
+
+97. In an office, five cabins are in a row. The Manager's cabin is at one end. The Clerk is immediately to the right of the Manager. The Accountant is between the Clerk and the Peon. The Officer's cabin is not adjacent to the Manager's. Whose cabin is at the other end?
+(a) Officer (b) Peon (c) Accountant (d) Clerk
+Answer: (a)
+Solution: The trap is Peon, since the chain Manager–Clerk–Accountant–Peon seems to push the Peon to the far end. Manager is at position 1, Clerk at 2, Accountant at 3 and Peon at 4, leaving position 5 for the Officer — who is correctly not adjacent to the Manager. The far end is position 5, so the answer is Officer.
+Source: PYQ-style
+
+98. Seven friends A, B, C, D, E, F and G have birthdays in the same week (Monday to Sunday). A's birthday is on Wednesday. B's is two days before A's. C's is immediately after D's. E's is on Saturday. F's is on Sunday. G's is before E's. On which day is C's birthday?
+(a) Friday (b) Saturday (c) Thursday (d) Tuesday
+Answer: (a)
+Solution: The trap is Thursday, because Thursday is the first free day after Wednesday and solvers place C there hastily. A is Wednesday, B is Monday, E is Saturday and F is Sunday, leaving Tuesday, Thursday and Friday for C, D and G. The D–C pair needs two consecutive days, so D is Thursday and C is Friday, with G on Tuesday (before E), so the answer is Friday.
+Source: PYQ-style
+
+99. Five trains T1, T2, T3, T4 and T5 arrive at a station one after another. T3 arrives before T1 but after T4. T2 arrives immediately before T5. T1 does not arrive last. Which train arrives third?
+(a) T4 (b) T1 (c) T2 (d) T3
+Answer: (b)
+Solution: The trap is T3, because the chain T4–T3–T1 makes T3 look mid-placed. T4, T3 and T1 must arrive in that relative order, and the T2–T5 block takes two consecutive slots; every arrangement with the block before T1 pushes T1 to last place, which is barred. The only valid order is T4, T3, T1, T2, T5, so the answer is T1.
+Source: PYQ-style
+
+100. In a coded statement puzzle: "All teachers are readers. Some readers are writers. No writer is a singer." Which conclusion definitely follows?
+(a) Some teachers are writers (b) Some readers are not singers (c) All readers are teachers (d) No teacher is a singer
+Answer: (b)
+Solution: The trap is "No teacher is a singer", because chaining the premises feels like it should connect teachers to singers — but no premise links them. "Some teachers are writers" fails since the writers may lie outside the teachers, and "All readers are teachers" reverses the first premise. Since some readers are writers and no writer is a singer, those readers are definitely not singers, so the answer is Some readers are not singers.
+Source: PYQ-style

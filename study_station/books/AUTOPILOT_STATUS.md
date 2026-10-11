@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 11-10-2026 08:07 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
+**आख़िरी update:** 11-10-2026 08:17 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | 🔎 review हो रहा है | 14 मिनट |
-| W2 | Chapter 25 Statement Argument (Graduation Reasoning) | 🔧 सुधार रहा है | 2 मिनट |
-| W3 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 10 मिनट |
+| W1 | Chapter 30 Advanced Puzzles (Graduation Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 25 Statement Argument (Graduation Reasoning) | 🔧 सुधार रहा है | 7 मिनट |
+| W3 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 1 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -34,34 +34,19 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 11-10 08:17 — Graduation Reasoning · Chapter 30 Advanced Puzzles
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 22 Para Jumbles Adv (English) — 4 बार
 - Chapter 12 Missing Term (Reasoning) — 4 बार
-- Chapter 13 Dictionary Order (Reasoning) — 2 बार
+- Chapter 13 Dictionary Order (Reasoning) — 3 बार
 - Chapter 30 Advanced Puzzles (Reasoning) — 1 बार
-- Chapter 25 Statement Argument (Reasoning) — 2 बार
+- Chapter 25 Statement Argument (Reasoning) — 3 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 07:41:37   [Para_Jumbles_Adv] written 1, failed 0; AI calls today 23/100000
-11-10 07:42:21   [Statement_Argument] repaired PYQ_hi.txt (8351 chars)
-11-10 07:42:21   [Statement_Argument] written 1, failed 0; AI calls today 24/100000
-11-10 07:43:12   [Para_Jumbles_Adv] repaired Mind_Map_hi.txt (1276 chars)
-11-10 07:43:12   [Para_Jumbles_Adv] written 1, failed 0; AI calls today 25/100000
-11-10 07:43:12 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv after 8 min: todo [] problems ['Mind_Map_hi.txt: much shorter than the English section (1275']
-11-10 07:43:16 START Graduation_Level/Reasoning/Chapter_30_Advanced_Puzzles (FIX: todo 0, problems 1)
-11-10 07:43:29   [Dictionary_Order] Practice_en_Set_06.txt try 2: rejected (Q126:leaked_reasoning)
-11-10 07:47:22   [Advanced_Puzzles] repaired Important_Rules_hi.txt (652 chars)
-11-10 07:47:22   [Advanced_Puzzles] written 1, failed 0; AI calls today 28/100000
-11-10 07:49:06   [Advanced_Puzzles] repaired Important_Rules_hi.txt (3339 chars)
-11-10 07:49:06   [Advanced_Puzzles] written 1, failed 0; AI calls today 29/100000
-11-10 07:49:06 NOT OK Graduation_Level/Reasoning/Chapter_30_Advanced_Puzzles after 6 min: todo [] problems ['Important_Rules_hi.txt: much shorter than the English sectio']
-11-10 07:49:09 START Graduation_Level/Reasoning/Chapter_30_Advanced_Puzzles (FIX: todo 0, problems 1)
-11-10 07:50:45   [Dictionary_Order] Practice_en_Set_06.txt try 3: re-solve disagrees (Q143 key c vs re-solve b)
 11-10 07:51:55   [Statement_Argument] repaired PYQ_hi.txt (627 chars)
 11-10 07:51:55   [Statement_Argument] written 1, failed 0; AI calls today 31/100000
 11-10 07:51:55 NOT OK Graduation_Level/Reasoning/Chapter_25_Statement_Argument after 13 min: todo [] problems ['PYQ_hi.txt: much shorter than the English section (626 vs 45']
@@ -87,4 +72,19 @@
 11-10 08:03:44   [Dictionary_Order] Practice_en_Set_06.txt try 2: rejected (parsed 0 questions, numbers -…-)
 11-10 08:05:25   [Statement_Argument] repaired PYQ_hi.txt (16086 chars)
 11-10 08:05:25   [Statement_Argument] written 1, failed 0; AI calls today 49/100000
+11-10 08:08:12   [Dictionary_Order] Practice_en_Set_06.txt try 3: rejected (Q128:leaked_reasoning,Q130:leaked_reasoning,Q131:leaked_reasoning,Q132:leaked_reasoning,Q134:leaked_reasoning)
+11-10 08:08:42   [Advanced_Puzzles] review PYQ_hi.txt: 2 issue(s): - Question 1 (floor puzzle) answer (b) U is not uniquely determined from the given conditions; both U and T can occupy 
+11-10 08:09:24   [Statement_Argument] repaired PYQ_hi.txt (2522 chars)
+11-10 08:09:24   [Statement_Argument] written 1, failed 0; AI calls today 53/100000
+11-10 08:09:24 NOT OK Graduation_Level/Reasoning/Chapter_25_Statement_Argument after 9 min: todo [] problems ['PYQ_hi.txt: much shorter than the English section (2521 vs 4']
+11-10 08:09:27 START Graduation_Level/Reasoning/Chapter_25_Statement_Argument (FIX: todo 0, problems 1)
+11-10 08:14:39   [Advanced_Puzzles] review Short_Tricks_hi.txt: 1 issue(s): - Trick 8 rule incorrectly states “केंद्र की ओर मुख हो तो बाएँ-दाएँ घड़ी-विपरीत सोचो”; for persons facing the 
+11-10 08:15:08   [Dictionary_Order] Practice_en_Set_06.txt try 4: re-solve disagrees (Q142 key a vs re-solve c)
+11-10 08:15:08   [Dictionary_Order] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+11-10 08:15:08   [Dictionary_Order] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+11-10 08:15:08   [Dictionary_Order] written 0, failed 2; AI calls today 58/100000
+11-10 08:15:09 NOT OK Graduation_Level/Reasoning/Chapter_13_Dictionary_Order after 18 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems []
+11-10 08:15:11 START Graduation_Level/Reasoning/Chapter_13_Dictionary_Order (TODO: todo 2, problems 0)
+11-10 08:17:06   [Advanced_Puzzles] review: 5 section(s) corrected, 0 failed
+11-10 08:17:06   [Advanced_Puzzles] written 5, failed 0; AI calls today 61/100000
 ```

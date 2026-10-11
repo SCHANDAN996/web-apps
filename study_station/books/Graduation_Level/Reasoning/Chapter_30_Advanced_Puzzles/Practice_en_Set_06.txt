@@ -1,0 +1,151 @@
+प्रश्न 126–150: कठिन (Hard)
+
+126. Six boxes P, Q, R, S, T and U are stacked one above another, position 1 being the bottom and position 6 the top. R is at the top. U is at position 3. P is immediately above Q. S is below T, and T is not at position 2. Which box is at position 4?
+(a) Q (b) T (c) P (d) S
+Answer: (d)
+Solution: The tempting answer is T, but T must be above S, and the only adjacent pair left for P and Q after fixing R at 6 and U at 3 is positions 2 and 1, since T cannot be at position 2. So T is at 5 and S is at 4, with P at 2 and Q at 1. The box at position 4 is S.
+Source: PYQ-style
+
+127. Six persons A, B, C, D, E and F live on floors 1 to 6 of a building (floor 1 is the lowest). A lives on an odd-numbered floor above floor 3. C lives on floor 2. B lives immediately below D. E lives above F. Who lives on the topmost floor?
+(a) D (b) A (c) E (d) B
+Answer: (c)
+Solution: A must be on floor 5, the only odd floor above 3. The only adjacent pair available for B and D is floors 3 and 4, so B is on 3 and D on 4. E and F take floors 1 and 6, and since E is above F, E is on floor 6. The topmost resident is E.
+Source: PYQ-style
+
+128. Six lectures P, Q, R, S, T and U are held from Monday to Saturday, one per day. P is on Wednesday. Q is held before P with exactly one day between them. R is held immediately after S. T is on Saturday. On which day is U held?
+(a) Monday (b) Thursday (c) Friday (d) Tuesday
+Answer: (d)
+Solution: Q must be on Monday, with one day between it and Wednesday. The only adjacent pair left for S and R is Thursday–Friday, so S is on Thursday and R on Friday. With P on Wednesday and T on Saturday, the only free day is Tuesday, so U is held on Tuesday.
+Source: PYQ-style
+
+129. Eight persons P, Q, R, S, T, U, V and W sit around a circular table facing the centre. P sits second to the right of Q. R sits opposite P. U sits opposite Q. S sits between R and U. V sits adjacent to Q. T does not sit adjacent to P. Who sits opposite S?
+(a) V (b) W (c) T (d) U
+Answer: (a)
+Solution: Place Q at seat 0; then P is at seat 2, R at seat 6 opposite P, U at seat 4 opposite Q, and S at seat 5 between R and U. T cannot be at seats 1 or 3 adjacent to P, so T takes seat 7; V, adjacent to Q, takes seat 1; W takes seat 3. The seat opposite S at seat 5 is seat 1, so the person opposite S is V.
+Source: PYQ-style
+
+130. Pointing to a photograph, a man says, "She is the daughter of my grandfather's only son." How is the woman in the photograph related to the man?
+(a) Daughter (b) Sister (c) Mother (d) Aunt
+Answer: (b)
+Solution: The trap is to read "grandfather's only son" as the man himself; but the grandfather's only son is the man's father. The daughter of the man's father is his sister. The woman is his sister.
+Source: PYQ-style
+
+131. A team of 5 is to be selected from P, Q, R, S, T, U, V and W under these rules: if P is selected, Q must be selected; R and S cannot both be selected; T is selected only if U is selected. If P and T are both selected, which pair must also be selected?
+(a) R and S (b) Q and V (c) U and W (d) Q and U
+Answer: (d)
+Solution: The trap is to focus on the negative rule about R and S, which says nothing about what must be selected. The positive rules force the answer: P requires Q, and T requires U. The pair that must be selected is Q and U.
+Source: PYQ-style
+
+132. Five students A, B, C, D and E scored distinct marks. A scored more than B. C scored more than D. B scored more than C. E scored more than B but less than A. Who scored the third highest marks?
+(a) E (b) C (c) B (d) D
+Answer: (c)
+Solution: Combining the conditions gives the order A > E > B > C > D. The tempting choice is E, but E is second, not third. The third highest scorer is B.
+Source: PYQ-style
+
+133. Four persons P, Q, R and S are compared. P is taller than Q but lighter than Q. R is taller than P and heavier than Q. S is shorter than Q but heavier than R. Who is the heaviest?
+(a) Q (b) S (c) P (d) R
+Answer: (b)
+Solution: The trap is to mix the two attributes; height data is irrelevant to weight. For weight: Q is heavier than P, R is heavier than Q, and S is heavier than R, giving S > R > Q > P. The heaviest person is S.
+Source: PYQ-style
+
+134. Four persons A, B, C and D live on floors 1 to 4 (floor 1 lowest) and are a doctor, an engineer, a teacher and a lawyer, not in order. The teacher lives on floor 1. A is the doctor. The doctor lives immediately above the engineer. B lives on floor 4. D lives on floor 1. Who is the engineer?
+(a) D (b) B (c) A (d) C
+Answer: (d)
+Solution: A is the doctor and cannot be on floor 1, which has the teacher, or floor 4, which has B, and the doctor must be immediately above the engineer, so A is on floor 3 and the engineer is on floor 2. D is on floor 1, so floor 2 belongs to C. The engineer is C.
+Source: PYQ-style
+
+135. Six persons A, B, C, D, E and F sit around a circular table facing the centre. A sits opposite D. B sits second to the left of A. C sits to the immediate left of D. E sits to the immediate left of A. Who sits opposite B?
+(a) C (b) E (c) F (d) D
+Answer: (c)
+Solution: Number seats 1 to 6 clockwise with A at seat 1 and D opposite at seat 4. Facing the centre, left is clockwise, so B is at seat 3, C is at seat 5, and E is at seat 2, leaving F at seat 6. The tempting answer is C, but C at seat 5 is opposite E at seat 2. The seat opposite B at seat 3 is seat 6, so the person opposite B is F.
+Source: PYQ-style
+
+136. Six exams P, Q, R, S, T and U are scheduled from January to June, one per month. P is in March. Q is before P with exactly one exam between them. R is immediately after S. T is in June. In which month is U held?
+(a) January (b) February (c) April (d) May
+Answer: (b)
+Solution: Q must be in January, with one exam between it and March. The only adjacent pair left for S and R is April–May, so S is in April and R in May. With P in March and T in June, the only free month is February, so U is held in February.
+Source: PYQ-style
+
+137. M is the brother of N. N is the sister of O. O is the father of P. How is M related to P?
+(a) Uncle (b) Father (c) Grandfather (d) Brother
+Answer: (a)
+Solution: The trap is to assume M is related only through N; in fact M, N and O are siblings, and M is male. The brother of a parent is an uncle, so M is the uncle of P.
+Source: PYQ-style
+
+138. Five boxes are stacked from position 1 (bottom) to position 5 (top) and are coloured red, blue, green, yellow and white. The green box is at position 2. The white box is immediately below the yellow box. The red box is above the blue box with exactly one box between them. Which box is at the top?
+(a) Yellow (b) White (c) Red (d) Blue
+Answer: (a)
+Solution: The white–yellow pair can only fit at positions 4–5, since positions 3–4 would leave 1 and 5 for red and blue, which are not two apart. Then red is at 3 and blue at 1, satisfying the one-box gap. The top box is yellow.
+Source: PYQ-style
+
+139. Four persons A, B, C and D are compared for height and weight. A is taller than B. B is heavier than A. C is taller than A and heavier than B. D is shorter than B but heavier than C. Who is the tallest?
+(a) A (b) B (c) C (d) D
+Answer: (c)
+Solution: The trap is to let the weight clues distract from the height question. For height: C is taller than A, A is taller than B, and B is taller than D, giving C > A > B > D. The tallest person is C.
+Source: PYQ-style
+
+140. Eight persons A, B, C, D, E, F, G and H sit in a row facing north. A sits third from the left end. B sits to the immediate right of A. C sits at the right end. D sits second to the left of C. F sits to the immediate left of D. E sits to the right of D. G sits to the left of A. Who sits at position 7 from the left?
+(a) E (b) D (c) H (d) F
+Answer: (a)
+Solution: A is at 3, B at 4, C at 8, D at 6, F at 5. E must be to the right of D, and the only free seat to the right of 6 is 7, so E is at 7. G and H take seats 1 and 2. The person at position 7 is E.
+Source: PYQ-style
+
+141. Eight persons A, B, C, D, E, F, G and H sit in a row facing north. A sits third from the left end. B sits to the immediate right of A. C sits at the right end. D sits second to the left of C. F sits to the immediate left of D. E sits to the right of D. G sits to the left of A. Which statement is definitely true?
+(a) B sits fourth from the left (b) H sits at the left end (c) G sits at the left end (d) E sits at the right end
+Answer: (a)
+Solution: The trap is that G and H can swap seats 1 and 2, so neither statement about the left end is definite, and C, not E, is at the right end. B is fixed at position 4 in every valid arrangement. The definitely true statement is that B sits fourth from the left.
+Source: PYQ-style
+
+142. Six persons P, Q, R, S, T and U are ranked by score with no ties. P scored more than Q. R scored more than Q. P scored more than R. T scored more than Q but less than R. S scored the least. U scored more than S but less than Q. Who scored the second lowest?
+(a) U (b) Q (c) T (d) R
+Answer: (a)
+Solution: The full order is P > R > T > Q > U > S. The tempting answer is Q, but U lies between Q and S. The lowest is S and the one just above S is U, so the second lowest scorer is U.
+Source: PYQ-style
+
+143. Seven persons A, B, C, D, E, F and G live on floors 1 to 7 (floor 1 lowest). A lives on floor 4. B lives above A with exactly two floors between them. C lives immediately below B. E lives on floor 2. F lives on floor 5. D lives on floor 3. Who lives on floor 1?
+(a) D (b) E (c) F (d) G
+Answer: (d)
+Solution: B must be on floor 7, two floors above floor 4, and C is immediately below B on floor 6. With A on 4, D on 3, E on 2 and F on 5, the only person left for floor 1 is G. The resident of floor 1 is G.
+Source: PYQ-style
+
+144. Six persons A, B, C, D, E and F sit around a hexagonal table, seats numbered 1 to 6 clockwise. A sits at seat 1 facing the centre. B sits opposite A facing outside. C sits to the immediate right of A. D sits to the immediate left of B. E sits adjacent to A. Who sits at seat 2?
+(a) C (b) D (c) E (d) F
+Answer: (c)
+Solution: The trap is forgetting that facing direction flips left and right. A faces the centre, so A's right is anticlockwise and C is at seat 6. B at seat 4 faces outside, so B's left is also anticlockwise from B and D is at seat 3. E, adjacent to A, must take seat 2 since seat 6 is occupied by C, leaving F at seat 5. The person at seat 2 is E.
+Source: PYQ-style
+
+145. A committee of 4 is to be chosen from P, Q, R, S, T and U with these rules: exactly one of P and Q must be chosen; if R is chosen, S must be chosen; T is chosen only if Q is chosen. Which of the following is a valid committee?
+(a) P, R, S, T (b) Q, R, S, T (c) P, Q, R, S (d) P, S, T, U
+Answer: (b)
+Solution: The first option fails because T is chosen without Q; the second fails for the same reason; the third fails because both P and Q are chosen. The last option has exactly one of P and Q, R paired with S, and T supported by Q. The valid committee is Q, R, S, T.
+Source: PYQ-style
+
+146. Six classes P, Q, R, S, T and U are held from Monday to Saturday, one per day. Q is on Thursday. T is on Saturday. P is not on Monday, and S is held immediately after P. R is on Monday. On which day is S held?
+(a) Tuesday (b) Friday (c) Wednesday (d) Saturday
+Answer: (c)
+Solution: P cannot be on Monday, where R is, nor on Thursday or Saturday, and S must follow P immediately, so P cannot be on Friday either since Saturday is taken by T. Hence P is on Tuesday and S on Wednesday, leaving U for Friday. S is held on Wednesday.
+Source: PYQ-style
+
+147. In a code, "A × B" means A is the father of B, "A + B" means A is the sister of B, and "A − B" means A is the brother of B. Given P × Q + R − S, how is S related to P?
+(a) Son (b) Son or daughter — cannot be determined (c) Nephew (d) Daughter
+Answer: (b)
+Solution: The trap is to assign a gender to S from the order of symbols; no symbol fixes S's gender. P is the father of Q; Q is the sister of R; R is the brother of S, so Q, R and S are all children of P, but S may be male or female. S is the son or daughter of P, which cannot be determined.
+Source: PYQ-style
+
+148. Seven persons A, B, C, D, E, F and G are ranked from top (rank 1) to bottom (rank 7). A is above B, who is above C. D is above E. C is above D. F is between A and B. G is at the bottom. Who is ranked fourth?
+(a) B (b) F (c) D (d) C
+Answer: (d)
+Solution: The order is A, F, B, C, D, E, G. The tempting answer is B, but F sits between A and B, pushing B to third. The person ranked fourth is C.
+Source: PYQ-style
+
+149. Five friends A, B, C, D and E live in Delhi, Mumbai, Chennai, Kolkata and Jaipur and like red, blue, green, yellow and pink, not in order. A lives in Delhi and likes green. C lives in Chennai. The person in Mumbai likes red, and the person in Kolkata likes yellow. B likes blue. D lives in Mumbai. Who likes yellow?
+(a) C (b) E (c) D (d) B
+Answer: (b)
+Solution: B likes blue, so B cannot be in Mumbai, which likes red, or Kolkata, which likes yellow; with Delhi and Chennai taken by A and C, B is in Jaipur. D is in Mumbai liking red, leaving E in Kolkata, where the colour is yellow, and C likes pink. The person who likes yellow is E.
+Source: PYQ-style
+
+150. Two rows of four seats each face each other; seats in each row are numbered 1 to 4 from left to right, and seat n of one row faces seat n of the other. In row 1 (facing south) sit B, A, C and D in that order from seat 1 to seat 4. In row 2 (facing north), Q faces A, R faces C, and S faces D. Who faces B?
+(a) P (b) R (c) S (d) Q
+Answer: (a)
+Solution: The trap is to reverse the facing pairs; seat numbers align directly, so B at seat 1 faces row 2's seat 1. Q is at seat 2 facing A, R at seat 3 facing C, S at seat 4 facing D, leaving P at seat 1. The person facing B is P.
+Source: PYQ-style

@@ -1,0 +1,151 @@
+Questions 51–75: Medium
+
+51. Six persons A, B, C, D, E and F sit in a row facing north. A sits third to the left of F. B sits at an extreme end. C sits between A and D. E does not sit adjacent to A. Who sits second to the right of C?
+(a) D (b) E (c) F (d) B
+Answer: (c)
+Solution: The tempting answer is D, but C sits between A and D, so D is adjacent to C, not second to its right. The arrangement is B, A, C, D, F, E: A is third to the left of F, E is not adjacent to A, and second to the right of C is F, so the answer is F.
+Source: PYQ-style
+
+52. Five boxes P, Q, R, S, T are stacked. P is above Q but below R. T is immediately above S. R is not at the top. Which box is at the top?
+(a) R (b) P (c) S (d) T
+Answer: (d)
+Solution: Many pick R since it is above P and Q, but the condition says R is not at the top. Order from top: T, S, R, P, Q satisfies all conditions (T immediately above S). The top box is T, so the answer is T.
+Source: PYQ-style
+
+53. Seven lectures on subjects M, N, O, P, Q, R, S are held Monday to Sunday. O is on Wednesday. M is before O but not on Monday. P is immediately after S. Q is on Sunday. N is before M. On which day is R?
+(a) Friday (b) Saturday (c) Monday (d) Tuesday
+Answer: (b)
+Solution: The trap is Friday, chosen by those who place the S–P pair on Friday–Saturday. But N before M before Wednesday forces N = Monday, M = Tuesday, O = Wednesday; S and P take Thursday–Friday and Q is on Sunday, leaving Saturday for R. So the answer is Saturday.
+Source: PYQ-style
+
+54. In a family of six, P is the son of Q. R is the daughter of P. S is the wife of P. T is the mother of S. U is the brother of S. How is U related to R?
+(a) Grandfather (b) Cousin (c) Uncle (d) Father
+Answer: (c)
+Solution: The trap is Cousin, but U is S's brother and S is R's mother, making U R's maternal uncle. So the answer is Uncle.
+Source: PYQ-style
+
+55. Eight persons A, B, C, D, E, F, G and H sit in a row facing north. A is fourth from the left. B sits at the right end. C sits immediately to the right of A. D sits second to the left of A. E sits at the left end. F sits adjacent to B. G does not sit adjacent to A. Who sits third from the right?
+(a) F (b) G (c) C (d) H
+Answer: (b)
+Solution: The trap is F, but F sits second from the right, next to B. The row is E, D, H, A, C, G, F, B: G cannot take the seat beside A, so G takes the sixth seat, which is third from the right. So the answer is G.
+Source: PYQ-style
+
+56. Five friends have different heights. K is taller than L but shorter than M. N is taller than M. O is shorter than L. Who is the shortest?
+(a) O (b) M (c) L (d) K
+Answer: (a)
+Solution: The trap is L, since O is mentioned only once. Order: N > M > K > L > O. The shortest is O, so the answer is O.
+Source: PYQ-style
+
+57. Six cities A, B, C, D, E, F are visited in some order. A is visited before B. C is visited immediately after D. F is visited last. B is visited before D. Which city is visited third?
+(a) A (b) B (c) D (d) C
+Answer: (c)
+Solution: The trap is B, but B must come before D and after A. Order: A, B, D, C, E, F (C immediately after D, F last). Third is D, so the answer is D.
+Source: PYQ-style
+
+58. Four teams W, X, Y, Z play each other once. W beats X. Y beats W and X. Z beats W and X but loses to Y. Which team wins the most matches?
+(a) W (b) X (c) Y (d) Z
+Answer: (c)
+Solution: The trap is Z, which does beat two teams, but count all results: W has 1 win (over X), X has 0 wins, Y has 3 wins (over W, X and Z), Z has 2 wins (over W and X). Y wins the most matches, so the answer is Y.
+Source: PYQ-style
+
+59. Five persons P, Q, R, S, T live on floors 1–5. P lives above Q. R lives on floor 3. S lives immediately below T. Q does not live on floor 1. Who lives on floor 1?
+(a) Q (b) T (c) P (d) S
+Answer: (d)
+Solution: The trap is Q, but Q is not on floor 1. R is on floor 3, and the S–T pair must be on floors 1–2 or 4–5. If S–T take floors 4–5, then P and Q take floors 1–2 with P above Q, forcing Q onto floor 1, which is not allowed. So S is on floor 1, T on floor 2, and Q, P on floors 4 and 5. Floor 1 has S, so the answer is S.
+Source: PYQ-style
+
+60. A, B, C, D, E, F are seated in two rows of three facing each other; A, B, C are in one row and D, E, F in the other. A faces D. B is to the right of A. E faces B. C is to the left of F (as seen by F facing C). Who faces C?
+(a) B (b) F (c) A (d) E
+Answer: (b)
+Solution: The trap is E, but E faces B, not C. Row 1 is A, B, C in order (B right of A), and in the facing row D sits opposite A and E opposite B, so the remaining person F sits opposite C; the condition that C is to F's left is consistent because the facing rows are mirror images. So the answer is F.
+Source: PYQ-style
+
+61. Seven people M, N, O, P, Q, R, S have birthdays in different months (January to July). M's birthday is in March. N is before M. O is immediately after P. Q is in July. R is before N. In which month is S's birthday?
+(a) April (b) January (c) May (d) June
+Answer: (d)
+Solution: The trap is May, but the P–O pair must occupy consecutive months. R before N before M (March) forces R = January, N = February; P–O take April–May and Q is in July, leaving June for S. So the answer is June.
+Source: PYQ-style
+
+62. In a row of students facing north, Ravi is 8th from the left and 12th from the right. How many students are in the row?
+(a) 19 (b) 18 (c) 20 (d) 21
+Answer: (a)
+Solution: The trap is 20, obtained by simply adding 8 + 12. Total = 8 + 12 − 1 = 19, since Ravi is counted twice. So the answer is 19.
+Source: PYQ-style
+
+63. Five cars are parked in a row. The red car is between the blue and green cars. The white car is at one end and the green car is at the other end. The black car is next to the white car. Which car is in the middle?
+(a) Red (b) Blue (c) Green (d) Black
+Answer: (b)
+Solution: The trap is Red, since Red sits between Blue and Green, but that block of three occupies positions 3–5, not the centre. Order: White, Black, Blue, Red, Green, so the middle car is Blue. So the answer is Blue.
+Source: PYQ-style
+
+64. Six employees A–F have different salaries. A earns more than B but less than C. D earns more than C. E earns less than B. F earns more than D. Who earns the third highest?
+(a) A (b) C (c) D (d) B
+Answer: (b)
+Solution: The trap is D, but F earns more than D, pushing D to second. Order: F > D > C > A > B > E. Third highest is C, so the answer is C.
+Source: PYQ-style
+
+65. Four couples sit around a round table. Each husband sits opposite his wife. A (male) sits between B (female) and C (male). D (female) sits opposite C. If A's wife is E, who is B's husband?
+(a) F (b) C (c) A (d) Cannot be determined
+Answer: (a)
+Solution: The trap is C, but C sits opposite D, so C is D's husband. A's wife is E, so A sits opposite E. The remaining male F must be B's husband, so the answer is F.
+Source: PYQ-style
+
+66. In a 5×5 seating grid, X sits in row 2, column 3. Z sits diagonally adjacent to X in row 1, column 2. W sits in the same row as Z but not adjacent to Z. In which column can W sit?
+(a) Column 1 (b) Column 2 (c) Column 4 (d) Column 3
+Answer: (c)
+Solution: The trap is Column 3, but column 3 is adjacent to Z's column 2. W must be in row 1 with a column differing from 2 by more than 1, so only columns 4 and 5 qualify; among the options, only Column 4 works. So the answer is Column 4.
+Source: PYQ-style
+
+67. Six persons K, L, M, N, O, P sit in a circle facing the centre. K sits opposite N. L is immediately to the left of K. M sits opposite L. O is immediately to the right of K. Who sits opposite O?
+(a) M (b) N (c) K (d) P
+Answer: (d)
+Solution: The trap is M, but M is opposite L, not O. Numbering the seats clockwise with K at seat 1: L at seat 2, O at seat 6, N at seat 4, M at seat 5, leaving P at seat 3, which is opposite O at seat 6. So the answer is P.
+Source: PYQ-style
+
+68. Five books on Physics, Chemistry, Maths, Biology, English are arranged on a shelf. Maths is between Physics and Chemistry. Biology is at the right end. English is to the left of Physics. Which book is second from the left?
+(a) Physics (b) English (c) Maths (d) Chemistry
+Answer: (a)
+Solution: The trap is Maths, but Maths is in the middle. Order: English, Physics, Maths, Chemistry, Biology. Second from the left is Physics, so the answer is Physics.
+Source: PYQ-style
+
+69. In a family, A is the father of B. C is the sister of B. D is the son of C. E is the wife of A. F is the daughter of D. How is F related to E?
+(a) Great-granddaughter (b) Daughter (c) Niece (d) Granddaughter
+Answer: (a)
+Solution: The trap is Granddaughter, but count the generations: E → C (daughter) → D (grandson) → F. F is E's great-granddaughter, so the answer is Great-granddaughter.
+Source: PYQ-style
+
+70. Six matches are scheduled on six days. Match 1 is before Match 3. Match 4 is immediately before Match 5. Match 2 is on the last day. Match 3 is before Match 4. On which day is Match 1?
+(a) Day 1 (b) Day 4 (c) Day 2 (d) Day 3
+Answer: (a)
+Solution: The trap is Day 2, but the chain Match 1 < Match 3 < Match 4–Match 5 with Match 2 last forces: Day 1 = Match 1, Day 2 = Match 3, Day 3 = Match 4, Day 4 = Match 5, Day 5 = Match 6, Day 6 = Match 2. Match 1 is on Day 1, so the answer is Day 1.
+Source: PYQ-style
+
+71. Eight friends P, Q, R, S, T, U, V, W sit in two parallel rows of four, facing each other. In Row 1, R sits at the viewer's left end, P sits immediately to the right of R, and T sits at the viewer's right end. P faces Q. R faces S. V sits at the viewer's right end of Row 2. Who faces T?
+(a) S (b) Q (c) V (d) U
+Answer: (c)
+Solution: The trap is Q, but Q faces P, not T. Facing rows align column by column, so T at the viewer's right end of Row 1 faces the person at the viewer's right end of Row 2, which is V. So the answer is V.
+Source: PYQ-style
+
+72. Five runners finished a race. A finished before B but after C. D finished before C. E finished after B. Who finished third?
+(a) B (b) D (c) C (d) A
+Answer: (d)
+Solution: The trap is C, but D finished before C. Order: D, C, A, B, E. Third is A, so the answer is A.
+Source: PYQ-style
+
+73. Four houses in a row are coloured red, blue, green, yellow. The red house is not at either end. The blue house is immediately to the right of the green house. The green house is at an end. Which colour is the house at the left end?
+(a) Red (b) Green (c) Yellow (d) Blue
+Answer: (b)
+Solution: The trap is Yellow, but Yellow is the only colour left for the right end. Since Blue is immediately right of Green and Green is at an end, Green must be at the left end: Green, Blue, Red, Yellow, with Red safely inside. So the answer is Green.
+Source: PYQ-style
+
+74. Six persons A–F are compared by weight. A is heavier than B. C is lighter than B. D is heavier than A. E is lighter than C. F is heavier than D. Who is the second lightest?
+(a) C (b) B (c) E (d) A
+Answer: (a)
+Solution: The trap is B, but C is lighter than B and only E is lighter than C. Order: F > D > A > B > C > E. Second lightest is C, so the answer is C.
+Source: PYQ-style
+
+75. Seven boxes contain different items. The box with pens is immediately above the box with books. The box with toys is at the bottom. The box with files is above the box with pens. The box with clothes is below the box with books but above the box with toys. The box with shoes is at the top. Which box is third from the top?
+(a) Clothes (b) Books (c) Files (d) Pens
+Answer: (d)
+Solution: The trap is Files, but Files is second from the top. Order top to bottom: Shoes, Files, Pens, Books, Clothes, then the seventh box (miscellaneous items), then Toys — the extra box sits between Clothes and Toys without breaking any condition. Third from the top is Pens, so the answer is Pens.
+Source: PYQ-style
