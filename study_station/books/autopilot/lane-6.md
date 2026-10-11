@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 12:35 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 12:34 AM
+**आख़िरी update:** 12-10-2026 12:50 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 12:34 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W1 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
+| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
+| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -41,4 +41,13 @@
 12-10 00:34:41 START 10th_Level/Reasoning/Chapter_01_Analogy (OK: todo 0, problems 0)
 12-10 00:34:46 START 10th_Level/Reasoning/Chapter_02_Classification (OK: todo 0, problems 0)
 12-10 00:34:51 START 10th_Level/Reasoning/Chapter_03_Coding_Decoding (OK: todo 0, problems 0)
+12-10 00:35:50   [Analogy] set 01: Q11 key c vs re-solve a, Q24 key d vs re-solve a
+12-10 00:36:20   [Classification] set 01: Q1 key a vs re-solve d, Q5 key a vs re-solve d, Q7 key c vs re-solve d, Q11 key c vs re-solve d, Q13 key a vs re-solve c, Q14 key b vs re-solv
+12-10 00:40:36   [Classification] set 01 try 1: re-solve disagrees (Q5 key c vs re-solve d, Q17 key c vs re-solve d)
+12-10 00:41:56   [Analogy] repaired set 01 (en + hi, key confirmed by an independent re-solve)
+12-10 00:43:40   [Classification] set 01 try 2: re-solve disagrees (Q17 key b vs re-solve d)
+12-10 00:46:03   [Analogy] set 02: Q41 key b vs re-solve d
+12-10 00:47:07   [Classification] set 01 try 3: re-solve disagrees (Q17 key d vs re-solve b)
+12-10 00:49:29   [Classification] set 01 try 4: re-solve disagrees (Q17 key d vs re-solve b)
+12-10 00:49:29   [Classification] FAILED set 01: no version passed the checks — files left as they were
 ```
