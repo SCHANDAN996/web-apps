@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 11-10-2026 03:02 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 02:15 PM
+**आख़िरी update:** 11-10-2026 03:18 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 02:15 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W1 | Chapter 01 Number System (12th Maths) | 🔧 सुधार रहा है | 2 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -36,15 +34,11 @@
 
 - Chapter 10 Compound Interest (Maths) — 4 बार
 - Chapter 13 Mixture Alligation (Maths) — 4 बार
-- Chapter 01 Number System (Maths) — 3 बार
+- Chapter 01 Number System (Maths) — 4 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 14:37:01 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest after 6 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (29']
-11-10 14:37:04 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest (FIX: todo 0, problems 1)
-11-10 14:37:52   [Mixture_Alligation] repaired Flashcards_hi.txt (3420 chars)
-11-10 14:37:52   [Mixture_Alligation] written 1, failed 0; AI calls today 13/100000
 11-10 14:39:46   [Compound_Interest] repaired Flashcards_hi.txt (3370 chars)
 11-10 14:39:46   [Compound_Interest] written 1, failed 0; AI calls today 14/100000
 11-10 14:41:19   [Mixture_Alligation] repaired Flashcards_hi.txt (3601 chars)
@@ -81,4 +75,8 @@
 11-10 15:00:45 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System (FIX: todo 0, problems 1)
 11-10 15:02:56   [Number_System] repaired Important_Formulas_hi.txt (3574 chars)
 11-10 15:02:56   [Number_System] written 1, failed 0; AI calls today 22/100000
+11-10 15:08:26   [Number_System] repaired Important_Formulas_hi.txt (6213 chars)
+11-10 15:08:26   [Number_System] written 1, failed 0; AI calls today 23/100000
+11-10 15:08:26 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System after 8 min: todo [] problems ['Important_Formulas_hi.txt: much shorter than the English sec']
+11-10 15:08:30 worker 0: nothing left
 ```
