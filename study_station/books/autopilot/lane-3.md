@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 11-10-2026 02:46 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
+**आख़िरी update:** 11-10-2026 03:01 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 06 Order Ranking (12th Reasoning) | 🔎 review हो रहा है | 0 मिनट |
-| W2 | Chapter 16 Statement Conclusion (12th Reasoning) | 🔧 सुधार रहा है | 2 मिनट |
-| W3 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 62 मिनट |
+| W1 | Chapter 06 Order Ranking (12th Reasoning) | 🔎 review हो रहा है | 15 मिनट |
+| W2 | Chapter 20 Mirror Water Images (12th Reasoning) | 🔧 सुधार रहा है | 1 मिनट |
+| W3 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 77 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,33 +37,12 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 07 Sitting Arrangement (Reasoning) — 4 बार
-- Chapter 16 Statement Conclusion (Reasoning) — 2 बार
+- Chapter 16 Statement Conclusion (Reasoning) — 4 बार
+- Chapter 20 Mirror Water Images (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 13:58:43   [Order_Ranking] set 02: key confirmed
-11-10 14:03:04   [Puzzles] set 01: Q1: the clues allow more than one answer — add a clue so exactly one arrangement fits; Q6: the clues allow more than one answer — add a clue s
-11-10 14:04:00   [Sitting_Arrangement] repaired Short_Tricks_hi.txt (4490 chars)
-11-10 14:04:00   [Sitting_Arrangement] written 1, failed 0; AI calls today 13/100000
-11-10 14:04:01 NOT OK 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement after 13 min: todo [] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
-11-10 14:04:03 START 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement (FIX: todo 0, problems 1)
-11-10 14:04:31   [Order_Ranking] set 03: key confirmed
-11-10 14:09:00   [Sitting_Arrangement] repaired Short_Tricks_hi.txt (5150 chars)
-11-10 14:09:00   [Sitting_Arrangement] written 1, failed 0; AI calls today 17/100000
-11-10 14:13:54   [Sitting_Arrangement] repaired Short_Tricks_hi.txt (4691 chars)
-11-10 14:13:54   [Sitting_Arrangement] written 1, failed 0; AI calls today 18/100000
-11-10 14:13:54 NOT OK 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement after 10 min: todo [] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
-11-10 14:13:57 START 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement (FIX: todo 0, problems 1)
-11-10 14:15:06   [Order_Ranking] set 04: key confirmed
-11-10 14:17:10   [Puzzles] set 01 try 1: re-solve disagrees (Q20 key d vs re-solve a)
-11-10 14:18:41   [Sitting_Arrangement] repaired Short_Tricks_hi.txt (5016 chars)
-11-10 14:18:41   [Sitting_Arrangement] written 1, failed 0; AI calls today 22/100000
-11-10 14:19:55   [Order_Ranking] set 05: Q104: the clues allow more than one answer — add a clue so exactly one arrangement fits
-11-10 14:29:17   [Sitting_Arrangement] repaired Short_Tricks_hi.txt (4797 chars)
-11-10 14:29:17   [Sitting_Arrangement] written 1, failed 0; AI calls today 28/100000
-11-10 14:29:17 NOT OK 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement after 15 min: todo [] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
-11-10 14:29:20 START 12th_Level/Reasoning/Chapter_16_Statement_Conclusion (FIX: todo 0, problems 1)
 11-10 14:30:30   [Puzzles] set 01 try 2: re-solve disagrees (Q23: the clues give "4", which is not among the options)
 11-10 14:34:22   [Statement_Conclusion] repaired Flashcards_hi.txt (3969 chars)
 11-10 14:34:22   [Statement_Conclusion] written 1, failed 0; AI calls today 31/100000
@@ -82,4 +61,26 @@
 11-10 14:46:00   [Order_Ranking] written 1, failed 0; AI calls today 39/100000
 11-10 14:46:20   [Statement_Conclusion] repaired Flashcards_hi.txt (3679 chars)
 11-10 14:46:20   [Statement_Conclusion] written 1, failed 0; AI calls today 40/100000
+11-10 14:47:35   [Puzzles] set 01 try 3: re-solve disagrees (Q23: the clues give "4", which is not among the options)
+11-10 14:49:16   [Order_Ranking] review Flashcards_en.txt: 1 issue(s): - Card 1 Front is completely corrupted/unreadable: it starts with a coherent question fragment ("In a row, A is 
+11-10 14:49:44   [Statement_Conclusion] repaired Flashcards_hi.txt (3789 chars)
+11-10 14:49:44   [Statement_Conclusion] written 1, failed 0; AI calls today 48/100000
+11-10 14:49:44 NOT OK 12th_Level/Reasoning/Chapter_16_Statement_Conclusion after 7 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (37']
+11-10 14:49:47 START 12th_Level/Reasoning/Chapter_16_Statement_Conclusion (FIX: todo 0, problems 1)
+11-10 14:51:56   [Statement_Conclusion] repaired Flashcards_hi.txt (3173 chars)
+11-10 14:51:56   [Statement_Conclusion] written 1, failed 0; AI calls today 50/100000
+11-10 14:53:45   [Order_Ranking] review Flashcards_hi.txt: 1 issue(s): - Card 8: Front data inconsistent with solution (A initially 7th from left, after interchange B 15th from left, 
+11-10 14:55:18   [Statement_Conclusion] repaired Flashcards_hi.txt (3615 chars)
+11-10 14:55:18   [Statement_Conclusion] written 1, failed 0; AI calls today 54/100000
+11-10 14:55:18 NOT OK 12th_Level/Reasoning/Chapter_16_Statement_Conclusion after 6 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (36']
+11-10 14:55:22 START 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images (FIX: todo 0, problems 1)
+11-10 14:57:49   [Mirror_Water_Images] repaired Flashcards_hi.txt (3752 chars)
+11-10 14:57:49   [Mirror_Water_Images] written 1, failed 0; AI calls today 57/100000
+11-10 14:59:46   [Mirror_Water_Images] repaired Flashcards_hi.txt (3797 chars)
+11-10 14:59:46   [Mirror_Water_Images] written 1, failed 0; AI calls today 58/100000
+11-10 14:59:46 NOT OK 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images after 4 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (37']
+11-10 14:59:49 START 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images (FIX: todo 0, problems 1)
+11-10 15:00:19   [Puzzles] set 01 try 4: re-solve disagrees (Q23: the clues give "4", which is not among the options)
+11-10 15:00:19   [Puzzles] FAILED set 01: no version passed the checks — files left as they were
+11-10 15:00:21   [Order_Ranking] review PYQ_hi.txt: 1 issue(s): - Question 5 solution misstates Ravi's positions after interchange (claims "अब रवि का बाएँ से स्थान 20वाँ और दाएँ से स्
 ```
