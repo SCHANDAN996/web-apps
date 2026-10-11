@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 11-10-2026 03:09 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
+**आख़िरी update:** 11-10-2026 03:16 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 06 Order Ranking (12th Reasoning) | 📤 push हो रहा है | 0 मिनट |
-| W2 | Chapter 20 Mirror Water Images (12th Reasoning) | 🔧 सुधार रहा है | 1 मिनट |
-| W3 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 86 मिनट |
+| W3 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 93 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -38,24 +36,11 @@
 
 - Chapter 07 Sitting Arrangement (Reasoning) — 4 बार
 - Chapter 16 Statement Conclusion (Reasoning) — 4 बार
-- Chapter 20 Mirror Water Images (Reasoning) — 2 बार
+- Chapter 20 Mirror Water Images (Reasoning) — 4 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 14:43:07   [Statement_Conclusion] written 1, failed 0; AI calls today 38/100000
-11-10 14:43:07 NOT OK 12th_Level/Reasoning/Chapter_16_Statement_Conclusion after 6 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (36']
-11-10 14:43:10 START 12th_Level/Reasoning/Chapter_16_Statement_Conclusion (FIX: todo 0, problems 1)
-11-10 14:46:00   [Order_Ranking] set 06: key confirmed
-11-10 14:46:00   [Order_Ranking] written 1, failed 0; AI calls today 39/100000
-11-10 14:46:20   [Statement_Conclusion] repaired Flashcards_hi.txt (3679 chars)
-11-10 14:46:20   [Statement_Conclusion] written 1, failed 0; AI calls today 40/100000
-11-10 14:47:35   [Puzzles] set 01 try 3: re-solve disagrees (Q23: the clues give "4", which is not among the options)
-11-10 14:49:16   [Order_Ranking] review Flashcards_en.txt: 1 issue(s): - Card 1 Front is completely corrupted/unreadable: it starts with a coherent question fragment ("In a row, A is 
-11-10 14:49:44   [Statement_Conclusion] repaired Flashcards_hi.txt (3789 chars)
-11-10 14:49:44   [Statement_Conclusion] written 1, failed 0; AI calls today 48/100000
-11-10 14:49:44 NOT OK 12th_Level/Reasoning/Chapter_16_Statement_Conclusion after 7 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (37']
-11-10 14:49:47 START 12th_Level/Reasoning/Chapter_16_Statement_Conclusion (FIX: todo 0, problems 1)
 11-10 14:51:56   [Statement_Conclusion] repaired Flashcards_hi.txt (3173 chars)
 11-10 14:51:56   [Statement_Conclusion] written 1, failed 0; AI calls today 50/100000
 11-10 14:53:45   [Order_Ranking] review Flashcards_hi.txt: 1 issue(s): - Card 8: Front data inconsistent with solution (A initially 7th from left, after interchange B 15th from left, 
@@ -83,4 +68,17 @@
 11-10 15:08:39   [Mirror_Water_Images] written 1, failed 0; AI calls today 67/100000
 11-10 15:09:54   [Order_Ranking] review: 4 section(s) corrected, 0 failed
 11-10 15:09:54   [Order_Ranking] written 4, failed 0; AI calls today 69/100000
+11-10 15:10:18 DONE 12th_Level/Reasoning/Chapter_06_Order_Ranking in 86 min → 0f74c74f
+11-10 15:10:22 worker 0: nothing left
+11-10 15:10:39   [Mirror_Water_Images] repaired Flashcards_hi.txt (3293 chars)
+11-10 15:10:39   [Mirror_Water_Images] written 1, failed 0; AI calls today 69/100000
+11-10 15:10:40 NOT OK 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images after 6 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (32']
+11-10 15:10:43 START 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images (FIX: todo 0, problems 1)
+11-10 15:12:11   [Mirror_Water_Images] repaired Flashcards_hi.txt (3187 chars)
+11-10 15:12:11   [Mirror_Water_Images] written 1, failed 0; AI calls today 70/100000
+11-10 15:14:16   [Mirror_Water_Images] repaired Flashcards_hi.txt (3969 chars)
+11-10 15:14:16   [Mirror_Water_Images] written 1, failed 0; AI calls today 71/100000
+11-10 15:14:16 NOT OK 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images after 4 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (39']
+11-10 15:14:20 worker 1: nothing left
+11-10 15:15:28   [Puzzles] set 02: Q42 key a vs re-solve d
 ```
