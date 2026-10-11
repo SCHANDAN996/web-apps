@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 11-10-2026 04:31 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
+**आख़िरी update:** 11-10-2026 04:46 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Profit Loss (10th Maths) | 🔎 review हो रहा है | 54 मिनट |
+| W1 | Chapter 08 Profit Loss (10th Maths) | 🔎 review हो रहा है | 69 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -46,7 +46,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 15:27:03   [Fractions_Decimals] written 7, failed 0; AI calls today 142/100000
 11-10 15:27:14   [Ratio_Proportion] review Content_en.txt: 2 issue(s): - The claim that the cross-product rule solves 40% of exam problems is an invented exam statistic. → Remove the uns
 11-10 15:27:18 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_04_Fractions_Decimals in 55 min → 212e1608
 11-10 15:27:19 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_08_Profit_Loss (OK: todo 0, problems 0)
@@ -86,4 +85,5 @@
 11-10 16:29:26   [Simple_Interest] written 2, failed 0; AI calls today 201/100000
 11-10 16:29:41 DONE 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_09_Simple_Interest in 32 min → 60d64e15
 11-10 16:29:43 worker 1: nothing left
+11-10 16:43:29   [Profit_Loss] review PYQ_hi.txt: 1 issue(s): - 'पिछले 10 वर्षों' का दावा लेकिन अवधि 2014-2024 (11 वर्ष) दी गई है → 'पिछले 11 वर्षों' लिखें या अवधि 2015-2024 करें
 ```
