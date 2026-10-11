@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 11-10-2026 01:03 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 12:00 PM
+**आख़िरी update:** 11-10-2026 01:18 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 12:00 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 22 मिनट |
+| W3 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 0 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -39,17 +39,11 @@
 - Chapter 22 Para Jumbles Adv (English) — 4 बार
 - Chapter 12 Missing Term (Reasoning) — 4 बार
 - Chapter 25 Statement Argument (Reasoning) — 4 बार
+- Chapter 13 Dictionary Order (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 12:10:16   [Statement_Argument] repaired PYQ_hi.txt (7445 chars)
-11-10 12:10:16   [Statement_Argument] written 1, failed 0; AI calls today 15/100000
-11-10 12:10:17 NOT OK Graduation_Level/Reasoning/Chapter_25_Statement_Argument after 9 min: todo [] problems ['PYQ_hi.txt: much shorter than the English section (7444 vs 4']
-11-10 12:10:18   [Para_Jumbles_Adv] repaired Mind_Map_hi.txt (1226 chars)
-11-10 12:10:21   [Para_Jumbles_Adv] written 1, failed 0; AI calls today 15/100000
-11-10 12:10:21 START Graduation_Level/Reasoning/Chapter_25_Statement_Argument (FIX: todo 0, problems 1)
-11-10 12:10:21 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv after 2 min: todo [] problems ['Mind_Map_hi.txt: much shorter than the English section (1225']
 11-10 12:10:26 worker 0: nothing left
 11-10 12:11:15   [Missing_Term] repaired Important_Rules_hi.txt (3510 chars)
 11-10 12:11:15   [Missing_Term] written 1, failed 0; AI calls today 16/100000
@@ -83,4 +77,11 @@
 11-10 12:40:10 START Graduation_Level/Reasoning/Chapter_13_Dictionary_Order (TODO: todo 2, problems 0)
 11-10 12:45:20   [Dictionary_Order] Practice_en_Set_06.txt try 1: rejected (Q136:leaked_reasoning,Q139:leaked_reasoning,Q146:leaked_reasoning,Q149:leaked_reasoning)
 11-10 12:50:08   [Dictionary_Order] Practice_en_Set_06.txt try 2: rejected (Q128:leaked_reasoning)
+11-10 13:04:28   [Dictionary_Order] Practice_en_Set_06.txt try 3: re-solve disagrees (Q126 key a vs re-solve ?, Q128 key d vs re-solve ?, Q130 key a vs re-solve b, Q132 key b vs re-solve
+11-10 13:17:29   [Dictionary_Order] Practice_en_Set_06.txt try 4: re-solve disagrees (Q126 key a vs re-solve ?, Q140 key a vs re-solve ?, Q147 key b vs re-solve a)
+11-10 13:17:29   [Dictionary_Order] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+11-10 13:17:29   [Dictionary_Order] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+11-10 13:17:29   [Dictionary_Order] written 0, failed 2; AI calls today 30/100000
+11-10 13:17:29 NOT OK Graduation_Level/Reasoning/Chapter_13_Dictionary_Order after 37 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems []
+11-10 13:17:32 START Graduation_Level/Reasoning/Chapter_13_Dictionary_Order (TODO: todo 2, problems 0)
 ```
