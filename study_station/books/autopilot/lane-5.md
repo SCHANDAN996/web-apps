@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 11-10-2026 05:33 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 05:17 PM
+**आख़िरी update:** 11-10-2026 05:46 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 05:17 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 Verb (10th English) | 🔧 सुधार रहा है | 0 मिनट |
-| W2 | Chapter 01 Number System (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
-| W3 | Chapter 02 LCM HCF (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
+| W1 | Chapter 03 Simplification (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W2 | Chapter 01 Number System (10th Maths) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 02 LCM HCF (10th Maths) | 🔎 review हो रहा है | 5 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -32,20 +32,15 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 11-10 17:46 — 10th Maths · Chapter 01 Number System
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 04 Verb (English) — 2 बार
+- Chapter 04 Verb (English) — 4 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 17:17:57 autopilot start: 3 workers, reverse=True
-11-10 17:17:57 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb (FIX: todo 0, problems 1)
-11-10 17:18:03 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_01_Number_System (OK: todo 0, problems 0)
-11-10 17:18:08 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_02_LCM_HCF (OK: todo 0, problems 0)
-11-10 17:19:44   [Number_System] set 01: key confirmed
 11-10 17:20:32   [LCM_HCF] set 01: key confirmed
 11-10 17:21:23   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
 11-10 17:21:23   [Verb] written 0, failed 1; AI calls today 8/100000
@@ -68,4 +63,22 @@
 11-10 17:32:41   [Number_System] set 05: key confirmed
 11-10 17:33:08   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
 11-10 17:33:08   [Verb] written 0, failed 1; AI calls today 25/100000
+11-10 17:35:10   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
+11-10 17:35:10   [Verb] written 0, failed 1; AI calls today 27/100000
+11-10 17:35:10 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb after 4 min: todo [] problems ['Set 01 hi: English sentence translated (keep it in English) ']
+11-10 17:35:11 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb (FIX: todo 0, problems 1)
+11-10 17:35:37   [LCM_HCF] set 05: key confirmed
+11-10 17:38:22   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
+11-10 17:38:22   [Verb] written 0, failed 1; AI calls today 30/100000
+11-10 17:38:46   [Number_System] set 06: key confirmed
+11-10 17:38:46   [Number_System] written 0, failed 0; AI calls today 31/100000
+11-10 17:40:44   [LCM_HCF] set 06: key confirmed
+11-10 17:40:44   [LCM_HCF] written 0, failed 0; AI calls today 36/100000
+11-10 17:42:12   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
+11-10 17:42:12   [Verb] written 0, failed 1; AI calls today 40/100000
+11-10 17:42:13 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb after 7 min: todo [] problems ['Set 01 hi: English sentence translated (keep it in English) ']
+11-10 17:42:14 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_03_Simplification (OK: todo 0, problems 0)
+11-10 17:44:38   [Simplification] set 01: key confirmed
+11-10 17:46:34   [Number_System] review: 0 section(s) corrected, 0 failed
+11-10 17:46:34   [Number_System] written 0, failed 0; AI calls today 54/100000
 ```
