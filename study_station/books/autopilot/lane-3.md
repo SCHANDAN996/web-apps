@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 12-10-2026 05:12 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 12:34 AM
+**आख़िरी update:** 12-10-2026 05:27 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 12:34 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 277 मिनट |
+| W1 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 292 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -59,4 +59,5 @@
 12-10 04:49:33   [Puzzles] repaired set 05 (en + hi, key confirmed by an independent re-solve)
 12-10 05:00:45   [Puzzles] set 06: Q126 key c vs re-solve ?, Q129 key c vs re-solve ?
 12-10 05:11:58   [Puzzles] set 06 try 1: re-solve disagrees (Q137 key b vs re-solve a)
+12-10 05:26:03   [Puzzles] set 06 try 2: re-solve disagrees (Q137: clues contradict each other — no arrangement fits all of them; Q148: the clues allow more than one answer — ad
 ```
