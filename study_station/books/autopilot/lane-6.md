@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 11-10-2026 07:40 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:09 PM
+**आख़िरी update:** 11-10-2026 07:55 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:09 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
-| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
-| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
+| W1 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 46 मिनट |
+| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 46 मिनट |
+| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 46 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -47,4 +47,6 @@
 11-10 19:27:33   [Coding_Decoding] set 01: Q20 key d vs re-solve c, Q21 key a vs re-solve c
 11-10 19:34:05   [Classification] set 01 try 2: re-solve disagrees (Q5 key d vs re-solve b, Q7 key b vs re-solve d)
 11-10 19:39:08   [Coding_Decoding] set 01 try 1: rejected (Q20:duplicate_options)
+11-10 19:41:15   [Analogy] set 01 try 1: re-solve disagrees (Q18 key d vs re-solve a)
+11-10 19:53:21   [Analogy] set 01 try 2: re-solve disagrees (Q11 key c vs re-solve b)
 ```
