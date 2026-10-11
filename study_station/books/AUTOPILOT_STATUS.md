@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 11-10-2026 07:12 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:07 PM
+**आख़िरी update:** 11-10-2026 07:28 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:07 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 237 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 245 मिनट |
+| W1 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 253 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 260 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -43,7 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 15:14:59 START Graduation_Level/Reasoning/Chapter_08_Puzzles (OK: todo 0, problems 0)
 11-10 15:17:21   [Order_Ranking] set 01: key confirmed
 11-10 15:26:45   [Order_Ranking] set 02: key confirmed
 11-10 15:31:14   [Sitting_Arrangement] set 01: Q4: the clues give "c" (option c), but the key says (d); Q5: clues contradict each other — no arrangement fits all of them; Q24: clues contrad
@@ -83,4 +82,5 @@
 11-10 19:10:24   [Missing_Term] written 1, failed 0; AI calls today 93/100000
 11-10 19:10:24 NOT OK Graduation_Level/Reasoning/Chapter_12_Missing_Term after 16 min: todo [] problems ['Important_Rules_hi.txt: much shorter than the English sectio']
 11-10 19:10:24 worker 1: nothing left
+11-10 19:14:41   [Puzzles] set 03: Q52 key d vs re-solve a, Q65 key b vs re-solve c
 ```
