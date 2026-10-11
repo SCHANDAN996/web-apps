@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 11-10-2026 06:04 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 05:17 PM
+**आख़िरी update:** 11-10-2026 06:20 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 05:17 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 03 Simplification (10th Maths) | 🔎 review हो रहा है | 0 मिनट |
-| W2 | Chapter 04 Fractions Decimals (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 17 मिनट |
-| W3 | Chapter 05 Percentage (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W1 | Chapter 03 Simplification (10th Maths) | 🔎 review हो रहा है | 16 मिनट |
+| W2 | Chapter 04 Fractions Decimals (10th Maths) | 🔎 review हो रहा है | 13 मिनट |
+| W3 | Chapter 05 Percentage (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 26 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -42,13 +42,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 17:33:08   [Verb] written 0, failed 1; AI calls today 25/100000
-11-10 17:35:10   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
-11-10 17:35:10   [Verb] written 0, failed 1; AI calls today 27/100000
-11-10 17:35:10 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb after 4 min: todo [] problems ['Set 01 hi: English sentence translated (keep it in English) ']
-11-10 17:35:11 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb (FIX: todo 0, problems 1)
-11-10 17:35:37   [LCM_HCF] set 05: key confirmed
-11-10 17:38:22   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
 11-10 17:38:22   [Verb] written 0, failed 1; AI calls today 30/100000
 11-10 17:38:46   [Number_System] set 06: key confirmed
 11-10 17:38:46   [Number_System] written 0, failed 0; AI calls today 31/100000
@@ -82,4 +75,11 @@
 11-10 18:02:55   [Percentage] set 03: Q62 key d vs re-solve b
 11-10 18:03:45   [Simplification] set 06: key confirmed
 11-10 18:03:45   [Simplification] written 0, failed 0; AI calls today 85/100000
+11-10 18:06:22   [Fractions_Decimals] set 06: key confirmed
+11-10 18:06:22   [Fractions_Decimals] written 0, failed 0; AI calls today 88/100000
+11-10 18:10:25   [Fractions_Decimals] review Content_en.txt: 1 issue(s): - The Mars Climate Orbiter spacecraft cost is stated as "over $300 million", but the spacecraft development cost wa
+11-10 18:13:56   [Simplification] review PYQ_en.txt: 1 issue(s): - In the Trap Classification Summary table, Q6 is incorrectly categorized under "DM Left-Right Violation" (which involv
+11-10 18:15:59   [Fractions_Decimals] review Flashcards_en.txt: 1 issue(s): - Card 18: The notation "0.8̅3̅" places a bar over both digits, which conventionally means both digits repeat; t
+11-10 18:16:31   [Percentage] repaired set 03 (en + hi, key confirmed by an independent re-solve)
+11-10 18:18:16   [Percentage] set 04: key confirmed
 ```
