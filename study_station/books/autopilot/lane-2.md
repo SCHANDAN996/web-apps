@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 11-10-2026 11:13 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 11:12 AM
+**आख़िरी update:** 11-10-2026 11:28 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 11:12 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 28 Linear Programming (Graduation Maths) | 🔧 सुधार रहा है | 0 मिनट |
+| W1 | Chapter 28 Linear Programming (Graduation Maths) | 🔧 सुधार रहा है | 2 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -32,6 +32,10 @@
 
 - अभी कोई नहीं
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 28 Linear Programming (Maths) — 2 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
@@ -39,4 +43,16 @@
 11-10 11:12:59 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming (FIX: todo 0, problems 1)
 11-10 11:13:04 worker 1: nothing left
 11-10 11:13:09 worker 2: nothing left
+11-10 11:16:21   [Linear_Programming] repaired Content_hi.txt (9011 chars)
+11-10 11:16:21   [Linear_Programming] written 1, failed 0; AI calls today 1/100000
+11-10 11:19:47   [Linear_Programming] repaired Content_hi.txt (7737 chars)
+11-10 11:19:47   [Linear_Programming] written 1, failed 0; AI calls today 2/100000
+11-10 11:19:47 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming after 7 min: todo [] problems ['Content_hi.txt: much shorter than the English section (7736 ']
+11-10 11:19:52 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming (FIX: todo 0, problems 1)
+11-10 11:23:00   [Linear_Programming] repaired Content_hi.txt (7950 chars)
+11-10 11:23:00   [Linear_Programming] written 1, failed 0; AI calls today 3/100000
+11-10 11:26:15   [Linear_Programming] repaired Content_hi.txt (8155 chars)
+11-10 11:26:15   [Linear_Programming] written 1, failed 0; AI calls today 4/100000
+11-10 11:26:15 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming after 6 min: todo [] problems ['Content_hi.txt: much shorter than the English section (8154 ']
+11-10 11:26:19 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming (FIX: todo 0, problems 1)
 ```
