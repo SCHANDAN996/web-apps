@@ -1,0 +1,32 @@
+# Important Formulas — Percentage
+
+| Formula Name | Formula | One-line Use-Hint |
+|---|---|---|
+| Percentage Meaning | x% = x/100 | Convert any percentage into a fraction first |
+| Fraction → Percentage | (a/b) × 100% | Multiply the fraction by 100 |
+| Percentage of a Number | (x/100) × N | "x% of N" — replace "of" with multiplication |
+| Percentage Change | [(New − Old)/Old] × 100% | Base is always the original (old) value |
+| Percentage Increase | [(Increase)/Original] × 100% | Increase = New − Original |
+| Percentage Decrease | [(Decrease)/Original] × 100% | Decrease = Original − New |
+| Value after Increase | N × (1 + x/100) | Direct final value after x% rise |
+| Value after Decrease | N × (1 − x/100) | Direct final value after x% fall |
+| Successive Change (a%, b%) | a + b + (ab/100) % | Net % change; use − sign for decrease |
+| Two Successive Increases of x% | 2x + x²/100 % | Special case of successive formula |
+| Increase then Decrease of x% | −x²/100 % (net decrease) | Equal % up and down always ends lower |
+| A is x% more than B | B is [x/(100+x)] × 100% less than A | Reverse comparison changes the base |
+| A is x% less than B | B is [x/(100−x)] × 100% more than A | Reverse comparison changes the base |
+| Price ↑ x%, Consumption ↓ to keep expense same | Reduction = [x/(100+x)] × 100% | Expenditure constant: price–consumption trade-off |
+| Price ↓ x%, Consumption ↑ to keep expense same | Increase = [x/(100−x)] × 100% | Expenditure constant: price–consumption trade-off |
+| Population after n years (growth r%) | P × (1 + r/100)ⁿ | Compound growth, like compound interest |
+| Population n years ago (growth r%) | P / (1 + r/100)ⁿ | Work backwards from present population |
+| Depreciation after n years (r%) | V × (1 − r/100)ⁿ | Machine/asset value falling yearly |
+| Exam Marks: Pass % | Pass marks = (Pass%/100) × Max marks | Compare with marks scored to find pass/fail margin |
+| % of % | (x/100) × (y/100) × N | Chain percentages by multiplying |
+| x% of A = y% of B | A/B = y/x | Ratio inverts the percentages |
+| Net % change with 3 changes (a, b, c) | Apply successive formula twice | Combine two first, then the third |
+| Election: Winner gets x% of valid votes | Winner's votes = (x/100) × Valid votes | Exclude invalid votes before applying % |
+| Income–Expenditure: Savings % | Savings = Income × (Savings%/100) | Savings% + Expenditure% = 100% |
+| Mixture: Quantity of ingredient | (Ingredient%/100) × Total mixture | % composition of each component |
+| Error % in measurement | (Error/True value) × 100% | Base is the true value, not measured value |
+| Area change (sides ±a%, ±b%) | a + b + (ab/100) % | Same as successive formula on both dimensions |
+| Common Fraction Equivalents | 1/2=50%, 1/3=33.33%, 1/4=25%, 1/5=20%, 1/6=16.66%, 1/8=12.5%, 1/9=11.11%, 1/11=9.09%, 1/12=8.33% | Memorise for instant conversion in exams |
