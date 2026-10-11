@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 03:37 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 12:34 AM
+**आख़िरी update:** 12-10-2026 03:53 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 12:34 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 70 मिनट |
-| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
-| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 183 मिनट |
+| W1 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 85 मिनट |
+| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 27 मिनट |
+| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 198 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -41,13 +41,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 02:18:55   [Analogy] review Flashcards_en.txt: 1 issue(s): - Card 2: The mnemonic expansion “Word, Integer, Number (Letter), General Knowledge” is incorrect → The correct 
-12-10 02:20:32   [Analogy] review Flashcards_hi.txt: 1 issue(s): - Flashcard 4: "घोंसला मानव-निर्मित" is factually wrong → घोंसला पक्षी स्वयं बनाते हैं, मानव नहीं; पक्षी का प्रा
-12-10 02:20:36   [Classification] set 04 try 4: re-solve disagrees (Q90 key a vs re-solve c)
-12-10 02:20:36   [Classification] FAILED set 04: no version passed the checks — files left as they were
-12-10 02:26:05   [Analogy] review Important_Rules_en.txt: 1 issue(s): - "aN alphabet" in WING Classification description → "an alphabet"
-12-10 02:27:02   [Analogy] review: 6 section(s) corrected, 0 failed
-12-10 02:27:02   [Analogy] written 6, failed 0; AI calls today 119/100000
 12-10 02:27:18 DONE 10th_Level/Reasoning/Chapter_01_Analogy in 112 min → 4375bff1
 12-10 02:27:18 START 10th_Level/Reasoning/Chapter_04_Blood_Relations (OK: todo 0, problems 0)
 12-10 02:29:09   [Coding_Decoding] set 03: Q68 key b vs re-solve a
@@ -81,4 +74,11 @@
 12-10 03:30:21   [Coding_Decoding] set 05: Q116 key d vs re-solve a, Q118 key b vs re-solve a
 12-10 03:32:24   [Blood_Relations] set 04 try 1: re-solve disagrees (Q76 key a vs re-solve b)
 12-10 03:33:52   [Classification] set 01 try 2: re-solve disagrees (Q17 key c vs re-solve d)
+12-10 03:38:58   [Classification] set 01 try 3: re-solve disagrees (Q17 key c vs re-solve d)
+12-10 03:41:17   [Blood_Relations] repaired set 04 (en + hi, key confirmed by an independent re-solve)
+12-10 03:43:34   [Classification] set 01 try 4: re-solve disagrees (Q5 key d vs re-solve b, Q17 key a vs re-solve d)
+12-10 03:43:34   [Classification] FAILED set 01: no version passed the checks — files left as they were
+12-10 03:49:08   [Classification] set 02: Q26 key a vs re-solve d, Q31 key b vs re-solve c, Q32 key c vs re-solve d, Q35 key b vs re-solve a, Q38 key a vs re-solve c, Q39 key b vs re-s
+12-10 03:50:07   [Blood_Relations] set 05: Q123 key c vs re-solve d
+12-10 03:50:36   [Classification] set 02 try 1: rejected (Q38:leaked_reasoning)
 ```
