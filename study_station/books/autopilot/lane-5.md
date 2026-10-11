@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 11-10-2026 11:58 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 11:27 AM
+**आख़िरी update:** 11-10-2026 11:59 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 11:27 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W1 | Chapter 03 Adjective (10th English) | 📤 push हो रहा है | 0 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,7 +37,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 11:27:47 autopilot start: 3 workers, reverse=True
 11-10 11:27:47 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective (FIX: todo 0, problems 1)
 11-10 11:27:52 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb (FIX: todo 0, problems 1)
 11-10 11:27:58 worker 2: nothing left
@@ -78,4 +75,6 @@
 11-10 11:56:57   [Adjective] review Important_Rules_en.txt: 1 issue(s): - Rule 6 lists 'prefer' as a Latin comparative adjective, but 'prefer' is a verb → Remove 'prefer' from the
 11-10 11:58:51   [Adjective] review: 5 section(s) corrected, 0 failed
 11-10 11:58:51   [Adjective] written 5, failed 0; AI calls today 29/100000
+11-10 11:59:06 DONE 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective in 31 min → 29665401
+11-10 11:59:08 worker 0: nothing left
 ```
