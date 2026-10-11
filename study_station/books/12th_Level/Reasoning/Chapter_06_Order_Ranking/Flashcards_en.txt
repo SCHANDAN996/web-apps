@@ -1,2 +1,71 @@
 Card 1
-Front: In a row, A is 5th from the left. What is the minimum of people in the, B is 7, C 6th from the, and D is 8, and E is 9, and F is 10, and G is 11, and H is 12, and I is 13, and J is 14, and K is 15, and L is 16, and M is 17, and N is 18, and O is 19, and P is 20, and R is 21, and S is 23, and T. What is the,, and U is 27, and V is 29, and W is 31, and X is 33, and Y is 35, and Z is 37, and Z. What is the, and Z is 39, and Z. What is the, and Z is 39, and Z. What is the, and Z is 39, and Z. What. What is the, and Z is 39, and Z. What is. What is the,, and Z. 39. What is the, and Z. 39. What is the, and Z. 39. What is the,, and Z. 39. What is the, and. 39. What is the,, and. 39. What is the, and. 39. What is the, and. 39. What. What is the, and. 39. What is the, and. 39. What is the, and. 39. What is. What is. What is the, and. 39. What is the, and. 39. What is. What is. What is. What is. What is. What is. What is. What is. What is. What is. What is. What is. What is. What is. What is. What is. What is. What is. What is. What is. What is. What is. What. What is. What is. What is. What is. What is. What is. What is. What is. What is. What is. What is. What is. 39., and Z. 39. What is. What is. What. What is. What. What is. What. What is. 39. What is. What is. What is. 39. 39. What is. What is. 39., and. 39. What is. What is. What is. 39. 39. 39. 39. 39. 39. 39. 39. 39. 39. 39. 39. 39. 39. 39. 39. 39. 39. 39. 39. 39. 39. 39. 39. 39. 39. 39. 39. 39. 39. 39. 39
+Front: In a row of students, A is 5th from the left and B is 7th from the right. If there is no one between them, what is the total number of students in the row?
+Back: 5 + 7 = 12 students. When positions from opposite ends are given with no overlap, total = (position from left) + (position from right).
+
+Card 2
+Front: What is the formula for the total number of people in a row when a person's position from both ends is known?
+Back: Total = (position from left) + (position from right) − 1. The person is counted twice, so subtract 1.
+
+Card 3
+Front: Ravi is 12th from the top and 18th from the bottom in a class list. How many students are in the class?
+Back: 12 + 18 − 1 = 29 students.
+
+Card 4
+Front: In a row, P is 8th from the left and Q is 10th from the right, and P and Q interchange their positions. After interchanging, P becomes 15th from the left. How many people are in the row?
+Back: After interchange, P takes Q's place, so Q's original position is 15th from the left and 10th from the right. Total = 15 + 10 − 1 = 24.
+
+Card 5
+Front: What does "rank from the right" mean if a person is 6th from the left in a row of 20 people?
+Back: Position from right = Total − position from left + 1 = 20 − 6 + 1 = 15th from the right.
+
+Card 6
+Front: In a queue, Mohan is 9th from the front and Sohan is 14th from the back. There are 5 people between them. What is the total number of people (assuming Mohan is ahead of Sohan)?
+Back: Total = 9 + 5 + 14 = 28 people. Add the people between the two when their positions are from opposite ends without overlap.
+
+Card 7
+Front: In a row of 40 students, how many students sit between the 10th student from the left and the 12th student from the right?
+Back: 12th from right = 40 − 12 + 1 = 29th from left. Students between 10th and 29th = 29 − 10 − 1 = 18.
+
+Card 8
+Front: What is the quick formula to convert a position from one end to the other end in a row of N people?
+Back: Position from other end = N − (given position) + 1.
+
+Card 9
+Front: In an exam merit list, Asha ranks 7th from the top. If 35 students are below her, how many students appeared in the list?
+Back: 7 + 35 = 42 students. (Her rank counts herself; the 35 below are additional.)
+
+Card 10
+Front: Five friends A, B, C, D, E are standing in a row facing north. C is to the immediate right of A, and D is at the extreme left. Who can be at the extreme right?
+Back: B or E — the information fixes only D (extreme left) and the A–C pair; B and E can occupy the remaining spots, so the extreme right cannot be uniquely determined.
+
+Card 11
+Front: In a row facing north, "X is to the immediate left of Y" — what does this mean for their positions?
+Back: X sits exactly one place before Y on Y's left side; since they face north, left is the viewer's left, so X comes just before Y from the left end.
+
+Card 12
+Front: In a row of 25 boys, Ram is shifted 3 places to his right from his original 8th position from the left. What is his new position from the right?
+Back: New position from left = 8 + 3 = 11th. From right = 25 − 11 + 1 = 15th.
+
+Card 13
+Front: What is the common trap in "interchange of positions" questions in ranking?
+Back: After two people swap, each takes the other's position. Use the new rank of one person with the other person's old rank from the opposite end to find the total — do not add both new ranks.
+
+Card 14
+Front: In a class, Sita is taller than Gita but shorter than Rita. Mita is taller than Rita. Who is the tallest?
+Back: Mita. Order: Mita > Rita > Sita > Gita.
+
+Card 15
+Front: In a row of 30 students, how many students are there between the 7th and the 20th student from the left?
+Back: 20 − 7 − 1 = 12 students. Subtract 1 because the two endpoint students are not counted.
+
+Card 16
+Front: A is 4th from the left and B is 5th from the right in a row, and they are adjacent with A to the left of B. What is the total number of people?
+Back: Total = 4 + 5 = 9. Since A is immediately left of B, there is no one between them, so simply add the two positions.
+
+Card 17
+Front: What should you check first when positions from two ends are given along with "people between them"?
+Back: Check whether the two positions overlap (total would be less than the sum) or not. If they overlap, subtract: Total = (left position) + (right position) − (people between) − 2.
+
+Card 18
+Front: In a row of 50 people, a man is 17th from the right. What is his position from the left?
+Back: 50 − 17 + 1 = 34th from the left.

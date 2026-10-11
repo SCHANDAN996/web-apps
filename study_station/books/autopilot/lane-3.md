@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 11-10-2026 03:01 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
+**आख़िरी update:** 11-10-2026 03:09 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 06 Order Ranking (12th Reasoning) | 🔎 review हो रहा है | 15 मिनट |
+| W1 | Chapter 06 Order Ranking (12th Reasoning) | 📤 push हो रहा है | 0 मिनट |
 | W2 | Chapter 20 Mirror Water Images (12th Reasoning) | 🔧 सुधार रहा है | 1 मिनट |
-| W3 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 77 मिनट |
+| W3 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 86 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -32,28 +32,17 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 11-10 15:09 — 12th Reasoning · Chapter 06 Order Ranking
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 07 Sitting Arrangement (Reasoning) — 4 बार
 - Chapter 16 Statement Conclusion (Reasoning) — 4 बार
-- Chapter 20 Mirror Water Images (Reasoning) — 1 बार
+- Chapter 20 Mirror Water Images (Reasoning) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 14:30:30   [Puzzles] set 01 try 2: re-solve disagrees (Q23: the clues give "4", which is not among the options)
-11-10 14:34:22   [Statement_Conclusion] repaired Flashcards_hi.txt (3969 chars)
-11-10 14:34:22   [Statement_Conclusion] written 1, failed 0; AI calls today 31/100000
-11-10 14:36:58   [Statement_Conclusion] repaired Flashcards_hi.txt (4269 chars)
-11-10 14:36:58   [Statement_Conclusion] written 1, failed 0; AI calls today 33/100000
-11-10 14:36:58 NOT OK 12th_Level/Reasoning/Chapter_16_Statement_Conclusion after 8 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (42']
-11-10 14:37:01 START 12th_Level/Reasoning/Chapter_16_Statement_Conclusion (FIX: todo 0, problems 1)
-11-10 14:38:08   [Order_Ranking] repaired set 05 (en + hi, key confirmed by an independent re-solve)
-11-10 14:40:29   [Statement_Conclusion] repaired Flashcards_hi.txt (4014 chars)
-11-10 14:40:29   [Statement_Conclusion] written 1, failed 0; AI calls today 37/100000
-11-10 14:43:07   [Statement_Conclusion] repaired Flashcards_hi.txt (3679 chars)
 11-10 14:43:07   [Statement_Conclusion] written 1, failed 0; AI calls today 38/100000
 11-10 14:43:07 NOT OK 12th_Level/Reasoning/Chapter_16_Statement_Conclusion after 6 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (36']
 11-10 14:43:10 START 12th_Level/Reasoning/Chapter_16_Statement_Conclusion (FIX: todo 0, problems 1)
@@ -83,4 +72,15 @@
 11-10 15:00:19   [Puzzles] set 01 try 4: re-solve disagrees (Q23: the clues give "4", which is not among the options)
 11-10 15:00:19   [Puzzles] FAILED set 01: no version passed the checks — files left as they were
 11-10 15:00:21   [Order_Ranking] review PYQ_hi.txt: 1 issue(s): - Question 5 solution misstates Ravi's positions after interchange (claims "अब रवि का बाएँ से स्थान 20वाँ और दाएँ से स्
+11-10 15:01:52   [Mirror_Water_Images] repaired Flashcards_hi.txt (3213 chars)
+11-10 15:01:52   [Mirror_Water_Images] written 1, failed 0; AI calls today 61/100000
+11-10 15:04:26   [Mirror_Water_Images] repaired Flashcards_hi.txt (4056 chars)
+11-10 15:04:26   [Mirror_Water_Images] written 1, failed 0; AI calls today 63/100000
+11-10 15:04:27 NOT OK 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images after 5 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (40']
+11-10 15:04:30 START 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images (FIX: todo 0, problems 1)
+11-10 15:04:42   [Order_Ranking] review Short_Tricks_en.txt: 2 issue(s): - Box 4 title "Overlap Case" is incorrect; the formula and example are for the non-overlap case → Change title
+11-10 15:08:39   [Mirror_Water_Images] repaired Flashcards_hi.txt (4058 chars)
+11-10 15:08:39   [Mirror_Water_Images] written 1, failed 0; AI calls today 67/100000
+11-10 15:09:54   [Order_Ranking] review: 4 section(s) corrected, 0 failed
+11-10 15:09:54   [Order_Ranking] written 4, failed 0; AI calls today 69/100000
 ```

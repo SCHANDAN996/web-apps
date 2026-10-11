@@ -29,12 +29,13 @@ If A is 5th and B is 12th from the same end → 12 − 5 − 1 = 6 people betwee
 
 ---
 
-**Box 4 — Overlap Case (Total Given, Find Between)**
+**Box 4 — Non-Overlap Case (Total Given, Find Between)**
 > **"Total minus both ranks — what's left stands between the banks!"**
 
 If A is 7th from left, B is 9th from right, total = 25:
 People between = 25 − 7 − 9 = 9.
 Mnemonic: **"Whole minus the two ends, gives the middle friends."**
+(This works only when the two ranks add up to less than the total — otherwise see Box 5.)
 
 ---
 
@@ -50,8 +51,8 @@ Mnemonic: **"Sum too big? They did a jig — subtract total, minus two!"**
 **Box 6 — Interchange of Positions**
 > **"Swap and add — the new total isn't bad!"**
 
-When two people swap places and new positions are given:
-Total = (old position of one) + (new position of the other after swap) − 1.
+When two people swap places and one person's old and new positions (from the same end) are given:
+Total = (old position of that person) + (new position of the same person after swap) − 1.
 Mnemonic: **"Old plus new, minus one — swap problems are fun!"**
 
 ---
