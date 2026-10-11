@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 11-10-2026 03:15 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
+**आख़िरी update:** 11-10-2026 03:27 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 Fractions Decimals (10th Maths) | 🔎 review हो रहा है | 23 मिनट |
-| W2 | Chapter 06 Average (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
-| W3 | Chapter 07 Ratio Proportion (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W1 | Chapter 04 Fractions Decimals (10th Maths) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 06 Average (10th Maths) | 🔎 review हो रहा है | 9 मिनट |
+| W3 | Chapter 07 Ratio Proportion (10th Maths) | 🔎 review हो रहा है | 1 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -32,6 +32,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 11-10 15:27 — 10th Maths · Chapter 04 Fractions Decimals
 - 11-10 15:07 — 10th Maths · Chapter 03 Simplification
 - 11-10 15:02 — 10th Maths · Chapter 05 Percentage
 - 11-10 14:39 — 10th Maths · Chapter 01 Number System
@@ -44,20 +45,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 14:39:28 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_05_Percentage (OK: todo 0, problems 0)
-11-10 14:39:28   [Fractions_Decimals] set 05: key confirmed
-11-10 14:40:19   [Percentage] set 01: key confirmed
-11-10 14:41:14   [Simplification] review Content_en.txt: 1 issue(s): - The claim "This single shift in habit will eliminate 40% of simplification errors" is an invented statistic with 
-11-10 14:41:41   [Percentage] set 02: key confirmed
-11-10 14:42:21   [Fractions_Decimals] set 06: Q133 key d vs re-solve a
-11-10 14:42:58   [Percentage] set 03: key confirmed
-11-10 14:44:35   [Percentage] set 04: key confirmed
-11-10 14:45:29   [Simplification] review Content_hi.txt: 1 issue(s): - Invented statistic “40% गलतियाँ खत्म हो जाएँगी” → Remove the specific percentage or replace with a qualitative st
-11-10 14:46:12   [Percentage] set 05: key confirmed
-11-10 14:47:45   [Percentage] set 06: key confirmed
-11-10 14:47:45   [Percentage] written 0, failed 0; AI calls today 76/100000
-11-10 14:49:27   [Percentage] review Content_hi.txt: 1 issue(s): - The example "शतरंज" given as a derivative of the Sanskrit root "शत" (meaning hundred) is incorrect; "शतरंज" (ches
-11-10 14:51:44   [Fractions_Decimals] repaired set 06 (en + hi, key confirmed by an independent re-solve)
 11-10 14:51:44   [Fractions_Decimals] written 1, failed 0; AI calls today 85/100000
 11-10 14:53:23   [Fractions_Decimals] review Content_en.txt: 3 issue(s): - "In 1999, a Mars orbiter was lost because one team used miles while another used kilometres" → The Mars Climate O
 11-10 14:53:48   [Percentage] review Flashcards_en.txt: 1 issue(s): - Card 17 states "8.33% = 8.33/100 ≈ 1/12 exactly" which is contradictory and false; 8.33% is not exactly 1/12 →
@@ -84,4 +71,18 @@
 11-10 15:11:55   [Ratio_Proportion] set 03: Q73 key c vs re-solve a
 11-10 15:12:10   [Fractions_Decimals] review PYQ_en.txt: 13 issue(s): - The exam-wise weightage table presents specific average questions/year and percentages for 2015–2025 without any sou
 11-10 15:13:52   [Average] set 04: key confirmed
+11-10 15:15:58   [Average] set 05: key confirmed
+11-10 15:17:27   [Average] set 06: key confirmed
+11-10 15:17:27   [Average] written 0, failed 0; AI calls today 128/100000
+11-10 15:18:42   [Average] review Content_en.txt: 1 issue(s): - Invented exam statistic/weightage claim: "80% of all average questions" in Section 3 → Remove the claim or replac
+11-10 15:20:37   [Average] review Content_hi.txt: 1 issue(s): - Invented exam statistic “80% प्रश्न सरलता से हल हो जाएँगे” → Remove the claim or replace with a non‑quantified st
+11-10 15:20:46   [Ratio_Proportion] repaired set 03 (en + hi, key confirmed by an independent re-solve)
+11-10 15:21:11   [Fractions_Decimals] review PYQ_hi.txt: 2 issue(s): - "पिछले 10 वर्षों का डेटा-संचालित विश्लेषण (2015–2025)" claims 10 years but 2015–2025 inclusive is 11 years → Use 2015
+11-10 15:22:51   [Ratio_Proportion] set 04: key confirmed
+11-10 15:23:01   [Average] review Feynman_hi.txt: 1 issue(s): - The claim "लगभग 95% विद्यार्थी परीक्षा में मात खा जाते हैं" is an invented exam statistic → remove the unsourced 
+11-10 15:24:14   [Ratio_Proportion] set 05: key confirmed
+11-10 15:26:02   [Ratio_Proportion] set 06: key confirmed
+11-10 15:26:02   [Ratio_Proportion] written 1, failed 0; AI calls today 141/100000
+11-10 15:27:03   [Fractions_Decimals] review: 7 section(s) corrected, 0 failed
+11-10 15:27:03   [Fractions_Decimals] written 7, failed 0; AI calls today 142/100000
 ```
