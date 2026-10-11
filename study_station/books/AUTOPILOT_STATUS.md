@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 11-10-2026 11:28 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 08:54 AM
+**आख़िरी update:** 11-10-2026 11:44 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 08:54 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 25 Statement Argument (Graduation Reasoning) | 🔧 सुधार रहा है | 5 मिनट |
+| W3 | Chapter 25 Statement Argument (Graduation Reasoning) | 🔧 सुधार रहा है | 7 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -44,8 +44,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 10:31:09 NOT OK Graduation_Level/Reasoning/Chapter_12_Missing_Term after 47 min: todo [] problems ['Important_Rules_hi.txt: much shorter than the English sectio']
-11-10 10:31:12 START Graduation_Level/Reasoning/Chapter_12_Missing_Term (FIX: todo 0, problems 1)
 11-10 10:42:25   [Statement_Argument] repaired PYQ_hi.txt (9563 chars)
 11-10 10:42:25   [Statement_Argument] written 1, failed 0; AI calls today 9/100000
 11-10 10:42:26 NOT OK Graduation_Level/Reasoning/Chapter_25_Statement_Argument after 19 min: todo [] problems ['PYQ_hi.txt: much shorter than the English section (9562 vs 4']
@@ -84,4 +82,6 @@
 11-10 11:25:02   [Missing_Term] written 1, failed 0; AI calls today 18/100000
 11-10 11:25:02 NOT OK Graduation_Level/Reasoning/Chapter_12_Missing_Term after 11 min: todo [] problems ['Important_Rules_hi.txt: much shorter than the English sectio']
 11-10 11:25:06 worker 1: nothing left
+11-10 11:36:26   [Statement_Argument] repaired PYQ_hi.txt (8586 chars)
+11-10 11:36:26   [Statement_Argument] written 1, failed 0; AI calls today 18/100000
 ```
