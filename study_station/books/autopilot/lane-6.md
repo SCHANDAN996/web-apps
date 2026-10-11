@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 03:22 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 12:34 AM
+**आख़िरी update:** 12-10-2026 03:37 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 12:34 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 55 मिनट |
-| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 168 मिनट |
-| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 167 मिनट |
+| W1 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 70 मिनट |
+| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
+| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 183 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,19 +34,13 @@
 
 - 12-10 02:27 — 10th Reasoning · Chapter 01 Analogy
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 02 Classification (Reasoning) — 1 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 01:57:19   [Analogy] set 06: Q129 key b vs re-solve c, Q141 key a vs re-solve b, Q145 key b vs re-solve c
-12-10 02:00:12   [Analogy] set 06 try 1: re-solve disagrees (Q147 key a vs re-solve c)
-12-10 02:01:17   [Coding_Decoding] set 02 try 1: re-solve disagrees (Q30 key b vs re-solve a, Q38 key a vs re-solve d)
-12-10 02:04:49   [Analogy] repaired set 06 (en + hi, key confirmed by an independent re-solve)
-12-10 02:04:49   [Analogy] written 6, failed 0; AI calls today 93/100000
-12-10 02:07:26   [Analogy] review Content_en.txt: 1 issue(s): - The active recall example "Tree : Seed :: Human : Infant/Baby" states a human develops from an infant, which is b
-12-10 02:13:13   [Analogy] review Content_hi.txt: 2 issue(s): - "सादृश्यता के तीन मुख्य प्रकार — शब्द, संख्या, वर्णमाला" (दो स्थानों पर) → "सादृश्यता के चार मुख्य प्रकार — शब्द,
-12-10 02:15:08   [Classification] set 04 try 3: re-solve disagrees (Q86 key c vs re-solve d, Q90 key a vs re-solve d, Q95 key a vs re-solve c)
-12-10 02:17:44   [Analogy] review Mind_Map.txt: 1 issue(s): - G4 node: Hindi "वैज्ञानिक खोज एवं लेखक" translates to "Scientific discoveries and authors" but English label says "
-12-10 02:18:00   [Coding_Decoding] repaired set 02 (en + hi, key confirmed by an independent re-solve)
 12-10 02:18:55   [Analogy] review Flashcards_en.txt: 1 issue(s): - Card 2: The mnemonic expansion “Word, Integer, Number (Letter), General Knowledge” is incorrect → The correct 
 12-10 02:20:32   [Analogy] review Flashcards_hi.txt: 1 issue(s): - Flashcard 4: "घोंसला मानव-निर्मित" is factually wrong → घोंसला पक्षी स्वयं बनाते हैं, मानव नहीं; पक्षी का प्रा
 12-10 02:20:36   [Classification] set 04 try 4: re-solve disagrees (Q90 key a vs re-solve c)
@@ -77,4 +71,14 @@
 12-10 03:12:44   [Classification] set 06: Q128 key c vs re-solve d, Q130 key a vs re-solve d, Q134 key a vs re-solve d, Q135 key b vs re-solve a, Q137 key d vs re-solve c, Q138 key a v
 12-10 03:14:03   [Coding_Decoding] repaired set 04 (en + hi, key confirmed by an independent re-solve)
 12-10 03:18:41   [Blood_Relations] repaired set 03 (en + hi, key confirmed by an independent re-solve)
+12-10 03:24:06   [Blood_Relations] set 04: Q85 key b vs re-solve c, Q86 key c vs re-solve d, Q89 key b vs re-solve a, Q94 key c vs re-solve b, Q99 key d vs re-solve a
+12-10 03:25:25   [Classification] repaired set 06 (en + hi, key confirmed by an independent re-solve)
+12-10 03:25:25   [Classification] written 3, failed 3; AI calls today 169/100000
+12-10 03:25:26 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_02_Classification: ['FAILED set 01: no version passed the checks — files left as they were', 'FAILED set 02: no version passed the checks — files left as they were']
+12-10 03:25:26 START 10th_Level/Reasoning/Chapter_02_Classification (OK: todo 0, problems 0)
+12-10 03:26:54   [Classification] set 01: Q1 key a vs re-solve d, Q5 key a vs re-solve d, Q7 key c vs re-solve d, Q11 key c vs re-solve d, Q13 key a vs re-solve c, Q14 key b vs re-solv
+12-10 03:29:55   [Classification] set 01 try 1: re-solve disagrees (Q17 key b vs re-solve d)
+12-10 03:30:21   [Coding_Decoding] set 05: Q116 key d vs re-solve a, Q118 key b vs re-solve a
+12-10 03:32:24   [Blood_Relations] set 04 try 1: re-solve disagrees (Q76 key a vs re-solve b)
+12-10 03:33:52   [Classification] set 01 try 2: re-solve disagrees (Q17 key c vs re-solve d)
 ```
