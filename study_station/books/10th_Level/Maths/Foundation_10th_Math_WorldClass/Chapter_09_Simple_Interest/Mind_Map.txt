@@ -20,5 +20,5 @@ graph TD
     T --> T1["राशि दुगनी: RT = 100<br>Amount doubles: RT = 100"]
     T --> T2["राशि तिगुनी: RT = 200<br>Amount triples: RT = 200"]
     T --> T3["महीनों को वर्ष में बदलो:<br>T = महीने ÷ 12<br>Months ÷ 12 = Years"]
-    T --> T4["⚠️ दर छमाही हो तो<br>T दुगना, R आधा नहीं<br>Half-yearly rate: double T, halve R"]
+    T --> T4["⚠️ दर छमाही हो तो<br>T दुगना, R आधा नहीं<br>Half-yearly rate: double T, keep R same"]
 ```
