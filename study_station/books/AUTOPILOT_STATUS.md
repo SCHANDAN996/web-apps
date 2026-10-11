@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 11-10-2026 10:58 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 08:54 AM
+**आख़िरी update:** 11-10-2026 11:13 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 08:54 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 12 Missing Term (Graduation Reasoning) | 🔧 सुधार रहा है | 9 मिनट |
-| W3 | Chapter 25 Statement Argument (Graduation Reasoning) | 🔧 सुधार रहा है | 0 मिनट |
+| W2 | Chapter 12 Missing Term (Graduation Reasoning) | 🔧 सुधार रहा है | 24 मिनट |
+| W3 | Chapter 25 Statement Argument (Graduation Reasoning) | 🔧 सुधार रहा है | 16 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
