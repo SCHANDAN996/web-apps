@@ -1,12 +1,14 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 11-10-2026 11:12 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 10:41 PM
+**आख़िरी update:** 11-10-2026 11:14 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 11:13 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
+| worker | अध्याय | काम | कब से |
+|---|---|---|---|
+| W1 | Chapter 04 Verb (10th English) | 🔧 सुधार रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -30,41 +32,11 @@
 
 - अभी कोई नहीं
 
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 04 Verb (English) — 4 बार
-
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 22:41:10 autopilot start: 3 workers, reverse=True
-11-10 22:41:11 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb (FIX: todo 0, problems 1)
-11-10 22:41:18 worker 1: nothing left
-11-10 22:41:23 worker 2: nothing left
-11-10 22:44:39   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
-11-10 22:44:39   [Verb] written 0, failed 1; AI calls today 1/100000
-11-10 22:44:50   [Verb] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
-11-10 22:46:12   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
-11-10 22:46:12   [Verb] written 0, failed 1; AI calls today 3/100000
-11-10 22:46:13 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb after 5 min: todo [] problems ['Set 01 hi: English sentence translated (keep it in English) ']
-11-10 22:46:13 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb (FIX: todo 0, problems 1)
-11-10 22:49:06   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
-11-10 22:49:06   [Verb] written 0, failed 1; AI calls today 4/100000
-11-10 22:50:44   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
-11-10 22:50:44   [Verb] written 0, failed 1; AI calls today 5/100000
-11-10 22:50:44 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb after 5 min: todo [] problems ['Set 01 hi: English sentence translated (keep it in English) ']
-11-10 22:50:45 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb (FIX: todo 0, problems 1)
-11-10 22:52:34   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
-11-10 22:52:34   [Verb] written 0, failed 1; AI calls today 6/100000
-11-10 22:54:21   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
-11-10 22:54:21   [Verb] written 0, failed 1; AI calls today 7/100000
-11-10 22:54:22 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb after 4 min: todo [] problems ['Set 01 hi: English sentence translated (keep it in English) ']
-11-10 22:54:22 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb (FIX: todo 0, problems 1)
-11-10 22:55:59   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
-11-10 22:55:59   [Verb] written 0, failed 1; AI calls today 8/100000
-11-10 22:59:35   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
-11-10 22:59:35   [Verb] written 0, failed 1; AI calls today 9/100000
-11-10 22:59:35 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb after 5 min: todo [] problems ['Set 01 hi: English sentence translated (keep it in English) ']
-11-10 22:59:38 worker 0: nothing left
-11-10 23:12:40 autopilot end: done 0, failed 1
+11-10 23:13:21 autopilot start: 3 workers, reverse=True
+11-10 23:13:21 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb (FIX: todo 0, problems 1)
+11-10 23:13:29 worker 1: nothing left
+11-10 23:13:34 worker 2: nothing left
 ```
