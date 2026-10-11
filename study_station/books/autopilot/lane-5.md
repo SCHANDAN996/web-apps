@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 11-10-2026 07:21 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
+**आख़िरी update:** 11-10-2026 07:36 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 03 Adjective (10th English) | 🔧 सुधार रहा है | 15 मिनट |
-| W2 | Chapter 04 Verb (10th English) | 🔧 सुधार रहा है | 5 मिनट |
+| W1 | Chapter 03 Adjective (10th English) | 🔧 सुधार रहा है | 12 मिनट |
+| W2 | Chapter 04 Verb (10th English) | 🔧 सुधार रहा है | 21 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -42,4 +42,6 @@
 11-10 07:06:00 worker 2: nothing left
 11-10 07:15:42   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
 11-10 07:15:42   [Verb] written 0, failed 1; AI calls today 2/100000
+11-10 07:24:12   [Adjective] FAILED set 03: network
+11-10 07:24:12   [Adjective] written 0, failed 1; AI calls today 2/100000
 ```
