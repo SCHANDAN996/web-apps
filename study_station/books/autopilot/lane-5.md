@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 11-10-2026 03:00 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
+**आख़िरी update:** 11-10-2026 03:02 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 Fractions Decimals (10th Maths) | 🔎 review हो रहा है | 8 मिनट |
-| W2 | Chapter 05 Percentage (10th Maths) | 🔎 review हो रहा है | 12 मिनट |
-| W3 | Chapter 03 Simplification (10th Maths) | 🔎 review हो रहा है | 21 मिनट |
+| W1 | Chapter 04 Fractions Decimals (10th Maths) | 🔎 review हो रहा है | 10 मिनट |
+| W2 | Chapter 05 Percentage (10th Maths) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 03 Simplification (10th Maths) | 🔎 review हो रहा है | 23 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -32,6 +32,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 11-10 15:02 — 10th Maths · Chapter 05 Percentage
 - 11-10 14:39 — 10th Maths · Chapter 01 Number System
 - 11-10 14:26 — 10th Maths · Chapter 02 LCM HCF
 
@@ -42,9 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 14:27:30   [Verb] written 0, failed 1; AI calls today 49/100000
-11-10 14:28:58   [Simplification] set 01: key confirmed
-11-10 14:31:20   [Simplification] set 02: key confirmed
 11-10 14:32:19   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
 11-10 14:32:19   [Verb] written 0, failed 1; AI calls today 52/100000
 11-10 14:32:19 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb after 11 min: todo [] problems ['Set 01 hi: English sentence translated (keep it in English) ']
@@ -82,4 +80,7 @@
 11-10 14:54:08   [Simplification] review PYQ_en.txt: 9 issue(s): - Frequency table (Avg Qs/Year) presents invented exam statistics without source → remove or cite authentic data source
 11-10 14:58:02   [Fractions_Decimals] review Content_hi.txt: 2 issue(s): - The Mars Climate Orbiter anecdote states the loss was “$300 million+ due to a decimal‑place mistake”; in fact the
 11-10 14:58:19   [Simplification] review PYQ_hi.txt: 3 issue(s): - The frequency and trend analysis table (आवृत्ति और रुझान विश्लेषण) presents invented statistics (average questions pe
+11-10 15:01:27   [Fractions_Decimals] review Feynman_en.txt: 1 issue(s): - The pani puri example states ⅔ ÷ ⅙ = 12 puris, but ⅔ ÷ ⅙ = (⅔) × 6 = 4 puris. → Correct answer: 4 puris.
+11-10 15:02:26   [Percentage] review: 2 section(s) corrected, 0 failed
+11-10 15:02:26   [Percentage] written 2, failed 0; AI calls today 105/100000
 ```
