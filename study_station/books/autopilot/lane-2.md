@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 11-10-2026 10:25 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
+**आख़िरी update:** 11-10-2026 10:40 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 28 Linear Programming (Graduation Maths) | 🔧 सुधार रहा है | 5 मिनट |
+| W3 | Chapter 28 Linear Programming (Graduation Maths) | 🔧 सुधार रहा है | 4 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,15 +37,11 @@
 - Chapter 25 Probability (Maths) — 4 बार
 - Chapter 13 Awards (GK) — 4 बार
 - Chapter 05 Percentage (Maths) — 4 बार
-- Chapter 28 Linear Programming (Maths) — 2 बार
+- Chapter 28 Linear Programming (Maths) — 3 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 08:48:30   [Percentage] written 0, failed 1; AI calls today 6/100000
-11-10 08:48:31 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_05_Percentage after 44 min: todo [] problems ['Feynman_hi.txt: much shorter than the English section (1854 ']
-11-10 08:48:33 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_05_Percentage (FIX: todo 0, problems 1)
-11-10 08:49:08   [Probability] FAILED Practice_en_Set_06.txt: network
 11-10 08:49:08   [Probability] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
 11-10 08:49:08   [Probability] written 0, failed 2; AI calls today 6/100000
 11-10 08:49:09 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability after 24 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems ['Flashcards_hi.txt: Hindi file is mostly not in Hindi', 'Flashcards_hi.txt: much shorter than the English section (46', 'Short_Tricks_hi.txt: much shorter than the English section (']
@@ -82,4 +78,8 @@
 11-10 10:04:19 worker 1: nothing left
 11-10 10:19:33   [Linear_Programming] FAILED Content_hi.txt: network
 11-10 10:19:33   [Linear_Programming] written 0, failed 1; AI calls today 6/100000
+11-10 10:36:10   [Linear_Programming] repaired Content_hi.txt (7659 chars)
+11-10 10:36:10   [Linear_Programming] written 1, failed 0; AI calls today 7/100000
+11-10 10:36:11 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming after 35 min: todo [] problems ['Content_hi.txt: much shorter than the English section (7658 ']
+11-10 10:36:14 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming (FIX: todo 0, problems 1)
 ```
