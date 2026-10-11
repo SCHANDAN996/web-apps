@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 11-10-2026 08:38 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
+**आख़िरी update:** 11-10-2026 08:53 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W3 | Chapter 13 Dictionary Order (Graduation Reasoning) | ✍️ लिख रहा है | 22 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md)
 
@@ -22,13 +20,13 @@
 | 10th English | 18 | 0 | 2 |
 | 12th Maths | 20 | 0 | 3 |
 | 12th GK | 22 | 0 | 2 |
-| 12th Reasoning | 21 | 0 | 4 |
+| 12th Reasoning | 22 | 0 | 3 |
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 25 | 0 | 3 |
 | Graduation GK | 27 | 0 | 1 |
 | Graduation Reasoning | 27 | 2 | 1 |
 | Graduation English | 29 | 1 | 0 |
-| **कुल** | **277** | **3** | **16** |
+| **कुल** | **278** | **3** | **15** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -38,18 +36,12 @@
 
 - Chapter 22 Para Jumbles Adv (English) — 4 बार
 - Chapter 12 Missing Term (Reasoning) — 4 बार
-- Chapter 13 Dictionary Order (Reasoning) — 3 बार
+- Chapter 13 Dictionary Order (Reasoning) — 4 बार
 - Chapter 25 Statement Argument (Reasoning) — 4 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 07:56:53   [Dictionary_Order] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-11-10 07:56:53   [Dictionary_Order] written 0, failed 2; AI calls today 40/100000
-11-10 07:56:53 NOT OK Graduation_Level/Reasoning/Chapter_13_Dictionary_Order after 22 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems []
-11-10 07:56:56 START Graduation_Level/Reasoning/Chapter_13_Dictionary_Order (TODO: todo 2, problems 0)
-11-10 07:58:13   [Advanced_Puzzles] review Flashcards_en.txt: 1 issue(s): - Card 8: Claims outward-facing "immediate left" moves clockwise → Outward-facing "immediate left" moves anticlo
-11-10 08:00:03   [Statement_Argument] repaired PYQ_hi.txt (8637 chars)
 11-10 08:00:03   [Statement_Argument] written 1, failed 0; AI calls today 45/100000
 11-10 08:00:04 NOT OK Graduation_Level/Reasoning/Chapter_25_Statement_Argument after 8 min: todo [] problems ['PYQ_hi.txt: much shorter than the English section (8636 vs 4']
 11-10 08:00:07 START Graduation_Level/Reasoning/Chapter_25_Statement_Argument (FIX: todo 0, problems 1)
@@ -84,4 +76,10 @@
 11-10 08:32:05   [Statement_Argument] written 1, failed 0; AI calls today 65/100000
 11-10 08:32:05 NOT OK Graduation_Level/Reasoning/Chapter_25_Statement_Argument after 23 min: todo [] problems ['PYQ_hi.txt: much shorter than the English section (8307 vs 4']
 11-10 08:32:08 worker 1: nothing left
+11-10 08:41:00   [Dictionary_Order] Practice_en_Set_06.txt try 4: re-solve disagrees (Q137 key d vs re-solve c, Q141 key a vs re-solve b)
+11-10 08:41:00   [Dictionary_Order] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+11-10 08:41:00   [Dictionary_Order] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+11-10 08:41:00   [Dictionary_Order] written 0, failed 2; AI calls today 66/100000
+11-10 08:41:00 NOT OK Graduation_Level/Reasoning/Chapter_13_Dictionary_Order after 26 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems []
+11-10 08:41:04 worker 2: nothing left
 ```
