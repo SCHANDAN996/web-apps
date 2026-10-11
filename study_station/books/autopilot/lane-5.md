@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-5)
 
-**आख़िरी update:** 11-10-2026 02:29 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
+**आख़िरी update:** 11-10-2026 02:39 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 01:43 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 Verb (10th English) | 🔧 सुधार रहा है | 2 मिनट |
-| W2 | Chapter 01 Number System (10th Maths) | 🔎 review हो रहा है | 37 मिनट |
-| W3 | Chapter 03 Simplification (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W1 | Chapter 04 Fractions Decimals (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W2 | Chapter 01 Number System (10th Maths) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 03 Simplification (10th Maths) | 🔎 review हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -32,32 +32,16 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 11-10 14:39 — 10th Maths · Chapter 01 Number System
 - 11-10 14:26 — 10th Maths · Chapter 02 LCM HCF
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 04 Verb (English) — 3 बार
+- Chapter 04 Verb (English) — 4 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 13:48:36   [LCM_HCF] set 04: key confirmed
-11-10 13:49:05   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
-11-10 13:49:05   [Verb] written 0, failed 1; AI calls today 11/100000
-11-10 13:49:54   [Number_System] set 05: key confirmed
-11-10 13:49:57   [LCM_HCF] set 05: key confirmed
-11-10 13:52:39   [Number_System] set 06: key confirmed
-11-10 13:52:39   [Number_System] written 0, failed 0; AI calls today 14/100000
-11-10 13:54:14   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
-11-10 13:54:14   [Verb] written 0, failed 1; AI calls today 16/100000
-11-10 13:54:14 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb after 11 min: todo [] problems ['Set 01 hi: English sentence translated (keep it in English) ']
-11-10 13:54:14 START 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb (FIX: todo 0, problems 1)
-11-10 13:54:55   [Number_System] review Content_hi.txt: 1 issue(s): - पूर्णांक की परिभाषा में "ऋणात्मक पूर्ण संख्याएँ" शब्दावली गलत है क्योंकि इसी पाठ में "पूर्ण संख्याएँ" (Whole Numb
-11-10 13:55:23   [LCM_HCF] set 06: key confirmed
-11-10 13:55:23   [LCM_HCF] written 0, failed 0; AI calls today 18/100000
-11-10 13:59:14   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
-11-10 13:59:14   [Verb] written 0, failed 1; AI calls today 26/100000
-11-10 14:00:16   [LCM_HCF] review PYQ_en.txt: 2 issue(s): - Question 2 and Question 8 are identical duplicates (both ask: "Three numbers are in the ratio 2:3:5 and their LCM is 
 11-10 14:05:08   [Number_System] review Flashcards_en.txt: 1 issue(s): - Flashcard 15: The mnemonic “Two Tigers Chased Five Elephants, Eleven Lions, Thirteen Monkeys, Seventeen Zebras
 11-10 14:07:01   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
 11-10 14:07:01   [Verb] written 0, failed 1; AI calls today 34/100000
@@ -81,4 +65,21 @@
 11-10 14:27:30   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
 11-10 14:27:30   [Verb] written 0, failed 1; AI calls today 49/100000
 11-10 14:28:58   [Simplification] set 01: key confirmed
+11-10 14:31:20   [Simplification] set 02: key confirmed
+11-10 14:32:19   [Verb] FAILED set 01: re-translation still changes English sentences — left as it was
+11-10 14:32:19   [Verb] written 0, failed 1; AI calls today 52/100000
+11-10 14:32:19 NOT OK 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb after 11 min: todo [] problems ['Set 01 hi: English sentence translated (keep it in English) ']
+11-10 14:32:20 START 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_04_Fractions_Decimals (OK: todo 0, problems 0)
+11-10 14:32:39   [Fractions_Decimals] set 01: key confirmed
+11-10 14:33:27   [Simplification] set 03: key confirmed
+11-10 14:34:51   [Number_System] review Short_Tricks_hi.txt: 1 issue(s): - Trick 14 title says “घनमूल की अदला-बदली (घनमूल का इकाई अंक)” but the trick explains unit digit of cubes (घन)
+11-10 14:35:40   [Simplification] set 04: key confirmed
+11-10 14:35:46   [Fractions_Decimals] set 02: key confirmed
+11-10 14:37:03   [Fractions_Decimals] set 03: key confirmed
+11-10 14:37:12   [Simplification] set 05: key confirmed
+11-10 14:38:12   [Fractions_Decimals] set 04: key confirmed
+11-10 14:38:41   [Simplification] set 06: key confirmed
+11-10 14:38:41   [Simplification] written 0, failed 0; AI calls today 62/100000
+11-10 14:39:11   [Number_System] review: 6 section(s) corrected, 0 failed
+11-10 14:39:11   [Number_System] written 6, failed 0; AI calls today 63/100000
 ```
