@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 11-10-2026 03:07 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:07 PM
+**आख़िरी update:** 11-10-2026 03:23 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:07 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 22 Para Jumbles Adv (Graduation English) | 🔧 सुधार रहा है | 0 मिनट |
-| W2 | Chapter 06 Order Ranking (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W1 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W2 | Chapter 06 Order Ranking (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -36,6 +36,10 @@
 
 - अभी कोई नहीं
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 22 Para Jumbles Adv (English) — 4 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
@@ -43,4 +47,29 @@
 11-10 15:07:10 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv (FIX: todo 0, problems 1)
 11-10 15:07:15 START Graduation_Level/Reasoning/Chapter_06_Order_Ranking (OK: todo 0, problems 0)
 11-10 15:07:20 START Graduation_Level/Reasoning/Chapter_07_Sitting_Arrangement (OK: todo 0, problems 0)
+11-10 15:08:14   [Para_Jumbles_Adv] repaired Mind_Map_hi.txt (1290 chars)
+11-10 15:08:14   [Para_Jumbles_Adv] written 1, failed 0; AI calls today 3/100000
+11-10 15:09:00   [Para_Jumbles_Adv] repaired Mind_Map_hi.txt (1236 chars)
+11-10 15:09:00   [Para_Jumbles_Adv] written 1, failed 0; AI calls today 4/100000
+11-10 15:09:00 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv after 2 min: todo [] problems ['Mind_Map_hi.txt: much shorter than the English section (1235']
+11-10 15:09:02 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv (FIX: todo 0, problems 1)
+11-10 15:10:07   [Para_Jumbles_Adv] repaired Mind_Map_hi.txt (1469 chars)
+11-10 15:10:07   [Para_Jumbles_Adv] written 1, failed 0; AI calls today 5/100000
+11-10 15:10:49   [Para_Jumbles_Adv] repaired Mind_Map_hi.txt (1381 chars)
+11-10 15:10:49   [Para_Jumbles_Adv] written 1, failed 0; AI calls today 6/100000
+11-10 15:10:49 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv after 2 min: todo [] problems ['Mind_Map_hi.txt: much shorter than the English section (1380']
+11-10 15:10:50 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv (FIX: todo 0, problems 1)
+11-10 15:12:30   [Para_Jumbles_Adv] repaired Mind_Map_hi.txt (1726 chars)
+11-10 15:12:30   [Para_Jumbles_Adv] written 1, failed 0; AI calls today 8/100000
+11-10 15:13:12   [Para_Jumbles_Adv] repaired Mind_Map_hi.txt (1275 chars)
+11-10 15:13:12   [Para_Jumbles_Adv] written 1, failed 0; AI calls today 9/100000
+11-10 15:13:12 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv after 2 min: todo [] problems ['Mind_Map_hi.txt: much shorter than the English section (1274']
+11-10 15:13:14 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv (FIX: todo 0, problems 1)
+11-10 15:14:11   [Para_Jumbles_Adv] repaired Mind_Map_hi.txt (1347 chars)
+11-10 15:14:11   [Para_Jumbles_Adv] written 1, failed 0; AI calls today 10/100000
+11-10 15:14:57   [Para_Jumbles_Adv] repaired Mind_Map_hi.txt (1129 chars)
+11-10 15:14:57   [Para_Jumbles_Adv] written 1, failed 0; AI calls today 11/100000
+11-10 15:14:57 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv after 2 min: todo [] problems ['Mind_Map_hi.txt: much shorter than the English section (1128']
+11-10 15:14:59 START Graduation_Level/Reasoning/Chapter_08_Puzzles (OK: todo 0, problems 0)
+11-10 15:17:21   [Order_Ranking] set 01: key confirmed
 ```
