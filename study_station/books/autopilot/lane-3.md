@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 11-10-2026 08:08 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
+**आख़िरी update:** 11-10-2026 08:23 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 20 Mirror Water Images (12th Reasoning) | 🔧 सुधार रहा है | 2 मिनट |
-| W2 | Chapter 24 Statement Assumption (12th Reasoning) | 🔎 review हो रहा है | 17 मिनट |
+| W2 | Chapter 24 Statement Assumption (12th Reasoning) | 🔎 review हो रहा है | 7 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -25,9 +24,9 @@
 | 12th English | 25 | 0 | 0 |
 | Graduation Maths | 25 | 0 | 3 |
 | Graduation GK | 27 | 0 | 1 |
-| Graduation Reasoning | 26 | 0 | 4 |
+| Graduation Reasoning | 27 | 0 | 3 |
 | Graduation English | 29 | 0 | 1 |
-| **कुल** | **277** | **3** | **16** |
+| **कुल** | **278** | **3** | **15** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -38,30 +37,12 @@
 
 - Chapter 07 Sitting Arrangement (Reasoning) — 4 बार
 - Chapter 16 Statement Conclusion (Reasoning) — 4 बार
-- Chapter 20 Mirror Water Images (Reasoning) — 2 बार
+- Chapter 20 Mirror Water Images (Reasoning) — 4 बार
+- Chapter 24 Statement Assumption (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 07:31:40   [Course_of_Action] review Content_en.txt: 5 issue(s): - Corrupted markup tags (`<|open|>`, `<|close|>`, `<|sep|>`) appear throughout the text → remove all markup tags
-11-10 07:34:09   [Sitting_Arrangement] repaired Short_Tricks_hi.txt (62838 chars)
-11-10 07:34:09   [Sitting_Arrangement] written 1, failed 0; AI calls today 32/100000
-11-10 07:38:01   [Dictionary_Order] review: 3 section(s) corrected, 1 failed
-11-10 07:38:01   [Dictionary_Order] written 3, failed 1; AI calls today 43/100000
-11-10 07:38:01 NOT OK 12th_Level/Reasoning/Chapter_13_Dictionary_Order after 32 min: todo [] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
-11-10 07:38:04 START 12th_Level/Reasoning/Chapter_13_Dictionary_Order (FIX: todo 0, problems 1)
-11-10 07:38:21   [Sitting_Arrangement] repaired Short_Tricks_hi.txt (2370 chars)
-11-10 07:38:21   [Sitting_Arrangement] written 1, failed 0; AI calls today 44/100000
-11-10 07:38:21 NOT OK 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement after 17 min: todo [] problems ['Short_Tricks_hi.txt: much shorter than the English section (']
-11-10 07:38:24 START 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images (FIX: todo 0, problems 1)
-11-10 07:39:23   [Course_of_Action] review PYQ_hi.txt: 1 issue(s): - The claim that SSC (CGL/CHSL/MTS) sometimes has three courses of action is incorrect → SSC exams typically have only 
-11-10 07:40:15   [Dictionary_Order] repaired Short_Tricks_hi.txt (4326 chars)
-11-10 07:40:15   [Dictionary_Order] written 1, failed 0; AI calls today 46/100000
-11-10 07:41:05   [Dictionary_Order] review Flashcards_en.txt: 1 issue(s): - Card 14: M is said to have 13 letters before and 13 after; actually there are 12 before (A–L) and 13 after (N–
-11-10 07:44:42   [Dictionary_Order] review Short_Tricks_hi.txt: 1 issue(s): - Trick 9 includes an invented statistic "90% प्रश्न पहले 2-3 अक्षरों में हल!" → Remove the percentage or repl
-11-10 07:46:30   [Dictionary_Order] review: 2 section(s) corrected, 0 failed
-11-10 07:46:30   [Dictionary_Order] written 2, failed 0; AI calls today 50/100000
-11-10 07:46:36   [Mirror_Water_Images] repaired Flashcards_hi.txt (2288 chars)
 11-10 07:46:36   [Mirror_Water_Images] written 1, failed 0; AI calls today 50/100000
 11-10 07:46:52 DONE 12th_Level/Reasoning/Chapter_13_Dictionary_Order in 8 min → 62c6e159
 11-10 07:46:55 START 12th_Level/Reasoning/Chapter_24_Statement_Assumption (FIX: todo 0, problems 1)
@@ -83,4 +64,23 @@
 11-10 08:05:55   [Mirror_Water_Images] written 1, failed 0; AI calls today 71/100000
 11-10 08:05:55 NOT OK 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images after 9 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (29']
 11-10 08:05:58 START 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images (FIX: todo 0, problems 1)
+11-10 08:10:53   [Mirror_Water_Images] REJECTED Flashcards_hi.txt: corrupted characters — not written
+11-10 08:10:53   [Mirror_Water_Images] written 0, failed 1; AI calls today 72/100000
+11-10 08:13:37   [Mirror_Water_Images] repaired Flashcards_hi.txt (2992 chars)
+11-10 08:13:37   [Mirror_Water_Images] written 1, failed 0; AI calls today 73/100000
+11-10 08:13:37 NOT OK 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images after 8 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (29']
+11-10 08:13:41 START 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images (FIX: todo 0, problems 1)
+11-10 08:13:51   [Statement_Assumption] FAILED review Important_Rules_en.txt: too_long — the chapter must not be published unreviewed
+11-10 08:14:18   [Statement_Assumption] review Important_Rules_hi.txt: 1 issue(s): - Part 1, Row 6 (कथन की पुनरावृत्ति पूर्वधारणा नहीं): Example claims “राम नौकरी छोड़ देगा” is mere repetiti
+11-10 08:15:22   [Mirror_Water_Images] repaired Flashcards_hi.txt (4149 chars)
+11-10 08:15:22   [Mirror_Water_Images] written 1, failed 0; AI calls today 75/100000
+11-10 08:16:22   [Statement_Assumption] review: 2 section(s) corrected, 1 failed
+11-10 08:16:22   [Statement_Assumption] written 2, failed 1; AI calls today 76/100000
+11-10 08:16:23 NOT OK 12th_Level/Reasoning/Chapter_24_Statement_Assumption after 29 min: todo [] problems []
+11-10 08:16:26 START 12th_Level/Reasoning/Chapter_24_Statement_Assumption (OK: todo 0, problems 0)
+11-10 08:16:51   [Statement_Assumption] review Important_Rules_en.txt: 1 issue(s): - File contains no educational content — only repetitive "15-second" strings and `<|close|>think` artifacts
+11-10 08:21:04   [Mirror_Water_Images] REJECTED Flashcards_hi.txt: corrupted characters — not written
+11-10 08:21:04   [Mirror_Water_Images] written 0, failed 1; AI calls today 78/100000
+11-10 08:21:05 NOT OK 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images after 7 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (41']
+11-10 08:21:08 worker 0: nothing left
 ```
