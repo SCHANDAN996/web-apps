@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 11-10-2026 03:53 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:07 PM
+**आख़िरी update:** 11-10-2026 04:09 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 03:07 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 38 मिनट |
-| W2 | Chapter 06 Order Ranking (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 46 मिनट |
-| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 46 मिनट |
+| W1 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 54 मिनट |
+| W2 | Chapter 06 Order Ranking (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 61 मिनट |
+| W3 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 61 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -76,4 +76,5 @@
 11-10 15:31:14   [Sitting_Arrangement] set 01: Q4: the clues give "c" (option c), but the key says (d); Q5: clues contradict each other — no arrangement fits all of them; Q24: clues contrad
 11-10 15:34:01   [Puzzles] set 01: Q12: the clues give "6", which is not among the options; Q22: clues contradict each other — no arrangement fits all of them
 11-10 15:34:55   [Order_Ranking] set 03: Q59 key d vs re-solve ?, Q60 key c vs re-solve ?
+11-10 15:58:35   [Order_Ranking] repaired set 03 (en + hi, key confirmed by an independent re-solve)
 ```
