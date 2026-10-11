@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 01:05 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 12:34 AM
+**आख़िरी update:** 12-10-2026 01:21 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 12:34 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
-| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
-| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 30 मिनट |
+| W1 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 46 मिनट |
+| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 46 मिनट |
+| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 46 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -56,4 +56,11 @@
 12-10 01:01:37   [Analogy] repaired set 03 (en + hi, key confirmed by an independent re-solve)
 12-10 01:04:42   [Analogy] set 04: Q77 key a vs re-solve b
 12-10 01:05:09   [Classification] set 02: Q26 key a vs re-solve b, Q31 key b vs re-solve c, Q32 key c vs re-solve a, Q35 key b vs re-solve a, Q37 key d vs re-solve b, Q38 key a vs re-s
+12-10 01:06:39   [Coding_Decoding] set 01 try 1: re-solve disagrees (Q20 key c vs re-solve b)
+12-10 01:07:01   [Classification] set 02 try 1: rejected (Q26:leaked_reasoning,Q33:leaked_reasoning,Q38:leaked_reasoning)
+12-10 01:08:09   [Classification] set 02 try 2: rejected (Q38:leaked_reasoning)
+12-10 01:15:00   [Analogy] set 04 try 1: re-solve disagrees (Q77 key c vs re-solve a, Q86 key a vs re-solve b)
+12-10 01:18:45   [Analogy] set 04 try 2: re-solve disagrees (Q83 key b vs re-solve c)
+12-10 01:20:30   [Coding_Decoding] set 01 try 2: re-solve disagrees (Q18 key c vs re-solve a)
+12-10 01:21:11   [Classification] set 02 try 3: re-solve disagrees (Q32 key b vs re-solve d, Q35 key a vs re-solve c, Q37 key d vs re-solve c, Q44 key c vs re-solve b, Q48 key d vs re-
 ```
