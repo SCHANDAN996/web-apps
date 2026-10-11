@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 11-10-2026 10:25 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
+**आख़िरी update:** 11-10-2026 10:40 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:05 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Mixture Alligation (12th Maths) | 🔧 सुधार रहा है | 15 मिनट |
-| W3 | Chapter 10 Compound Interest (12th Maths) | 🔧 सुधार रहा है | 15 मिनट |
+| W1 | Chapter 13 Mixture Alligation (12th Maths) | 🔧 सुधार रहा है | 9 मिनट |
+| W3 | Chapter 10 Compound Interest (12th Maths) | 🔧 सुधार रहा है | 7 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -38,20 +38,12 @@
 - Chapter 01 Number System (Maths) — 4 बार
 - Chapter 14 Sports (GK) — 4 बार
 - Chapter 12 Biology (GK) — 4 बार
-- Chapter 10 Compound Interest (Maths) — 2 बार
+- Chapter 10 Compound Interest (Maths) — 3 बार
 - Chapter 13 Mixture Alligation (Maths) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 08:56:45   [Biology] FAILED Feynman_hi.txt: network
-11-10 08:56:45   [Biology] written 0, failed 1; AI calls today 11/100000
-11-10 08:56:45 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_12_Biology after 43 min: todo [] problems ['Feynman_hi.txt: Hindi file is mostly not in Hindi', 'Feynman_hi.txt: much shorter than the English section (1895 ']
-11-10 08:56:46 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_12_Biology (FIX: todo 0, problems 2)
-11-10 09:09:31   [Compound_Interest] FAILED Flashcards_hi.txt: network
-11-10 09:09:31   [Compound_Interest] written 0, failed 1; AI calls today 11/100000
-11-10 09:13:43   [Sports] FAILED Memory_Hooks_hi.txt: network
-11-10 09:13:43   [Sports] written 0, failed 1; AI calls today 11/100000
 11-10 09:13:43 NOT OK 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_14_Sports after 43 min: todo [] problems ['Memory_Hooks_hi.txt: much shorter than the English section (']
 11-10 09:13:44 START 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_14_Sports (FIX: todo 0, problems 1)
 11-10 09:14:08   [Biology] FAILED Feynman_hi.txt: rate_limited
@@ -84,4 +76,12 @@
 11-10 10:09:52 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation (FIX: todo 0, problems 1)
 11-10 10:10:39   [Compound_Interest] repaired Flashcards_hi.txt (2800 chars)
 11-10 10:10:39   [Compound_Interest] written 1, failed 0; AI calls today 11/100000
+11-10 10:28:42   [Compound_Interest] repaired Flashcards_hi.txt (3243 chars)
+11-10 10:28:42   [Compound_Interest] written 1, failed 0; AI calls today 12/100000
+11-10 10:28:42 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest after 23 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (32']
+11-10 10:28:44 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest (FIX: todo 0, problems 1)
+11-10 10:31:49   [Mixture_Alligation] repaired Flashcards_hi.txt (3020 chars)
+11-10 10:31:49   [Mixture_Alligation] written 1, failed 0; AI calls today 13/100000
+11-10 10:33:33   [Compound_Interest] repaired Flashcards_hi.txt (3447 chars)
+11-10 10:33:33   [Compound_Interest] written 1, failed 0; AI calls today 14/100000
 ```
