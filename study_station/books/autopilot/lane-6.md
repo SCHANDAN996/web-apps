@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 11-10-2026 08:41 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:09 PM
+**आख़िरी update:** 11-10-2026 08:56 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 07:09 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 92 मिनट |
-| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 92 मिनट |
-| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 92 मिनट |
+| W1 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 107 मिनट |
+| W2 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 107 मिनट |
+| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 107 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -56,4 +56,11 @@
 11-10 20:26:52   [Classification] repaired set 01 (en + hi, key confirmed by an independent re-solve)
 11-10 20:29:11   [Analogy] repaired set 01 (en + hi, key confirmed by an independent re-solve)
 11-10 20:36:04   [Analogy] set 02: Q41 key b vs re-solve d
+11-10 20:47:39   [Analogy] repaired set 02 (en + hi, key confirmed by an independent re-solve)
+11-10 20:48:19   [Classification] set 02: Q26 key a vs re-solve b, Q32 key c vs re-solve a, Q35 key b vs re-solve a, Q37 key d vs re-solve ?, Q38 key a vs re-solve ?, Q39 key b vs re-s
+11-10 20:48:44   [Coding_Decoding] FAILED set 02: too_long
+11-10 20:51:02   [Analogy] set 03: Q71 key d vs re-solve a
+11-10 20:55:01   [Classification] set 02 try 1: rejected (Q26:leaked_reasoning,Q31:leaked_reasoning)
+11-10 20:56:23   [Classification] set 02 try 2: rejected (parsed 0 questions, numbers -…-)
+11-10 20:57:00   [Analogy] set 03 try 1: re-solve disagrees (Q63 key b vs re-solve a)
 ```
