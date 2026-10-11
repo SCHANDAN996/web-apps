@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 11-10-2026 11:59 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 08:54 AM
+**आख़िरी update:** 11-10-2026 12:00 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 08:54 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -42,7 +42,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 10:42:39   [Para_Jumbles_Adv] repaired Mind_Map_hi.txt (1394 chars)
 11-10 10:42:39   [Para_Jumbles_Adv] written 1, failed 0; AI calls today 10/100000
 11-10 10:42:40 NOT OK Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv after 23 min: todo [] problems ['Mind_Map_hi.txt: much shorter than the English section (1393']
 11-10 10:42:43 START Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_22_Para_Jumbles_Adv (FIX: todo 0, problems 1)
@@ -82,4 +81,5 @@
 11-10 11:53:49   [Statement_Argument] written 1, failed 0; AI calls today 19/100000
 11-10 11:53:49 NOT OK Graduation_Level/Reasoning/Chapter_25_Statement_Argument after 31 min: todo [] problems ['PYQ_hi.txt: much shorter than the English section (8517 vs 4']
 11-10 11:53:54 worker 2: nothing left
+11-10 12:00:03 autopilot end: done 0, failed 4
 ```
