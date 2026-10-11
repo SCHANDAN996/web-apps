@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 11-10-2026 10:40 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 10:24 PM
+**आख़िरी update:** 11-10-2026 10:56 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 11-10 10:24 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W2 | Chapter 10 Compound Interest (12th Maths) | 🔧 सुधार रहा है | 12 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -35,18 +33,12 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 13 Mixture Alligation (Maths) — 4 बार
-- Chapter 10 Compound Interest (Maths) — 2 बार
+- Chapter 10 Compound Interest (Maths) — 4 बार
 - Chapter 01 Number System (Maths) — 4 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-11-10 22:27:56   [Number_System] repaired Important_Formulas_hi.txt (1515 chars)
-11-10 22:27:56   [Number_System] written 1, failed 0; AI calls today 12/100000
-11-10 22:28:26   [Mixture_Alligation] repaired Flashcards_hi.txt (3965 chars)
-11-10 22:28:26   [Mixture_Alligation] written 1, failed 0; AI calls today 13/100000
-11-10 22:28:43   [Number_System] repaired Important_Formulas_hi.txt (3265 chars)
-11-10 22:28:43   [Number_System] written 1, failed 0; AI calls today 14/100000
 11-10 22:28:43 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System after 1 min: todo [] problems ['Important_Formulas_hi.txt: much shorter than the English sec']
 11-10 22:28:45 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System (FIX: todo 0, problems 1)
 11-10 22:29:18   [Mixture_Alligation] repaired Flashcards_hi.txt (2968 chars)
@@ -81,4 +73,10 @@
 11-10 22:40:50   [Compound_Interest] written 1, failed 0; AI calls today 22/100000
 11-10 22:40:50 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest after 13 min: todo [] problems ['Flashcards_hi.txt: Hindi file is mostly not in Hindi', 'Flashcards_hi.txt: much shorter than the English section (44']
 11-10 22:40:53 START 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest (FIX: todo 0, problems 2)
+11-10 22:48:43   [Compound_Interest] REJECTED Flashcards_hi.txt: too short — not written
+11-10 22:48:43   [Compound_Interest] written 0, failed 1; AI calls today 23/100000
+11-10 22:49:15   [Compound_Interest] REJECTED Flashcards_hi.txt: too short — not written
+11-10 22:49:15   [Compound_Interest] written 0, failed 1; AI calls today 24/100000
+11-10 22:49:15 NOT OK 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_10_Compound_Interest after 8 min: todo [] problems ['Flashcards_hi.txt: Hindi file is mostly not in Hindi', 'Flashcards_hi.txt: much shorter than the English section (44']
+11-10 22:49:17 worker 1: nothing left
 ```
