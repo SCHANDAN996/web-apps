@@ -31,10 +31,10 @@ Use the mnemonic EJOTY: E=5, J=10, O=15, T=20, Y=25. Count forward or backward f
 
 Card 5
 🔹 Front:
-In ‘NUMBER’ = ‘MVLADQ’, what is the pattern?
+‘MANGO’ is coded as ‘LBMHN’. What is the pattern?
 
 🔸 Back:
-Each letter is moved one step backward: N→M, U→V? Wait, U→V is +1, not consistent. Let's check: N(14) -> M(13) (-1), U(21) -> V(22) (+1) – not uniform. So possibly mixed: first -1, second +1, third -1, fourth +1, etc. Or maybe it's a different logic. (This flashcard is just a prompt to think: not all shifts are uniform; sometimes alternating pattern.)
+The shifts alternate: M→L (–1), A→B (+1), N→M (–1), G→H (+1), O→N (–1). So the rule is –1, +1, –1, +1, –1. Lesson: not all shifts are uniform — always check every letter, because an alternating pattern can look like a mistake if you test only the first two letters.
 
 Card 6
 🔹 Front:
@@ -45,10 +45,10 @@ They provide options where more than one pattern seems to fit the given code. Al
 
 Card 7
 🔹 Front:
-‘SCHOOL’ is coded as ‘RBGNKK’. Is this a simple +1 or –1 shift?
+‘SCHOOL’ is coded as ‘TDDPPM’. Is this a simple +1 or –1 shift?
 
 🔸 Back:
-S→R (-1), C→B (-1), H→G (-1), O→N (-1), O→K? O→K is -4, not -1. So it’s not uniform. Possibly the pattern is -1, -1, -1, -1, -4? That seems inconsistent. Check: O (15) → N (14) is -1, next O (15) → K (11) is -4. Might be a different rule like – sum of position? No. Better to check if there is vowel/consonant rule: S (consonant) -1, C (consonant) -1, H (consonant) -1, O (vowel) -1, O (vowel) -4? Not clear. So this card reminds you that sometimes the pattern is broken; you need to look for another layer.
+Check letter by letter: S→T (+1), C→D (+1), H→D? That is –4, so it is not a uniform +1. Look deeper: S→T (+1), C→D (+1), H→D (–4), O→P (+1), O→P (+1), L→M (+1) — still inconsistent. This card reminds you: if the shift breaks even once, stop and look for another layer (reverse order, vowel/consonant rules) instead of forcing a uniform shift.
 
 Card 8
 🔹 Front:
@@ -90,7 +90,7 @@ Card 13
 If ‘ROAD’ is coded as ‘TQCF’, how do you detect if there’s a double-layer pattern?
 
 🔸 Back:
-R→T (+2), O→Q (+2), A→C (+2), D→F (+2) looks consistent. No double layer. But if the first letter shift didn’t match the second, you’d check if the word was reversed first, or if position-based rules apply.
+R→T (+2), O→Q (+2), A→C (+2), D→F (+2) — the shift is consistent, so there is no double layer here. But if the first letter’s shift didn’t match the second, you would check whether the word was reversed first or whether position-based rules apply.
 
 Card 14
 🔹 Front:
@@ -118,7 +118,7 @@ Card 17
 What if the coded word is shorter or longer than the original?
 
 🔸 Back:
-That’s a clue that the coding may involve dropping or adding letters, or using a completely different system like phonetic coding. In standard letter coding, lengths are usually the same. But in substitution, it could be different. Check if it's a different type.
+That’s a clue that the coding may involve dropping or adding letters, or using a completely different system. In standard letter coding, lengths are usually the same. If the length differs, check whether it is a different type of coding.
 
 Card 18
 🔹 Front:
@@ -140,4 +140,4 @@ What is the one formula you must remember for mirror images in the alphabet?
 
 🔸 Back:
 Mirror letter position = 27 – original position.
-Example: ‘G’ (7) → 27-7=20 → ‘T’.
+Example: ‘G’ (7) → 27–7 = 20 → ‘T’.

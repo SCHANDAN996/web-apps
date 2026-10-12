@@ -1,151 +1,151 @@
-Questions 76–95: Easy | Questions 96–100: Medium
+प्रश्न 76–95: आसान | प्रश्न 96–100: मध्यम
 
-76. यदि ‘CYCLE’ को ‘BXAKD’ और ‘MOTOR’ को ‘LNSNQ’ लिखा जाए, तो ‘SCOOTER’ का कोड क्या होगा?
-(a) RBNNSDQ (b) RBNNSEQ (c) RBNNSDR (d) RBNNSDP
-Answer: (a)
-Solution: CYCLE: C-1=B, Y-1=X, C-2=A, L-1=K, E-1=D. MOTOR: M-1=L, O-1=N, T-1=S, O-1=N, R-1=Q. पैटर्न: पहले दो अक्षर -1, तीसरा -2, शेष -1। SCOOTER में S, C, O, O, T, E, R हैं। S-1=R, C-1=B, O-2=M, O-1=N, T-1=S, E-1=D, R-1=Q → RBMNSDQ, पर विकल्प में RBNNSDQ है (M के बजाय N)। अतः दूसरे O पर -1=N, तीसरे O पर भी -1? SCOOTER में दो O हैं – पहला O (स्थान 3) -2 = M, दूसरा O (स्थान 4) -1 = N। लेकिन विकल्प में RBNNSDQ है जो सुझाता है कि तीसरा अक्षर (O) -2 = M न होकर -1 = N है। हम विकल्पानुसार चलते हैं। ⚠️ परीक्षक का जाल: समान अक्षरों (O,O) के लिए अलग-अलग शिफ्ट का आभास, पहले उदाहरण CYCLE में C,C के लिए -1 और -2 था।
-स्रोत: PYQ-शैली
+76. एक निश्चित कोड में DOG को CNF लिखा जाता है। उसी कोड में CAT को कैसे लिखा जाएगा?
+(a) BZS (b) AZS (c) BZR (d) BZT
+उत्तर: (a)
+हल: प्रत्येक अक्षर वर्णमाला में एक कदम पीछे खिसकता है: D→C, O→N, G→F। लुभाने वाला विकल्प BZR गलती से T को पीछे के बजाय आगे खिसकाता है। वही नियम लागू करने पर C→B, A→Z, T→S, इसलिए उत्तर BZS है।
+स्रोत: PYQ-style
 
-77. यदि ‘BRAVE’ को ‘DTGXC’ और ‘HEART’ को ‘JGXRV’ लिखा जाए, तो ‘LOVER’ का कोड क्या होगा?
-(a) NQXGS (b) NQXGT (c) NQXHT (d) NQXGU
-Answer: (b)
-Solution: दोनों उदाहरणों में पैटर्न स्पष्ट नहीं है। सरलीकरण: स्थान-आधारित शिफ्ट +1, +2, +3, +4, +5 अपनाएँ। माना कि ‘BRAVE’ = B+1=C, R+2=T, A+3=D, V+4=Z, E+5=J → CTDZJ; पर कोड DTGXC है। भिन्नता है। हम एक सामान्य मध्यम पैटर्न लेते हैं: सभी अक्षरों में +2। BRAVE: B+2=D, R+2=T, A+2=C, V+2=X, E+2=G → DTCXG, पर कोड DTGXC (A+2=C की जगह G है, V+2=X की जगह C?) नहीं। अतः प्रश्न में दिए कोड के अनुसार चलते हुए हम LOVER के लिए समान अनियमित पैटर्न अपनाते हैं, जिसका सही उत्तर NQXGT है।
-स्रोत: PYQ-शैली
+77. यदि MANGO को NBOHP कोड किया जाता है, तो APPLE को कैसे कोड किया जाएगा?
+(a) BPQMF (b) BQQME (c) BQQMF (d) BQQNF
+उत्तर: (c)
+हल: प्रत्येक अक्षर एक कदम आगे बढ़ता है: M→N, A→B, N→O, G→H, O→P। विकल्प BQQME एक जाल है जो अंतिम अक्षर E को खिसकाने में असफल रहता है। APPLE के लिए: A→B, P→Q, P→Q, L→M, E→F, इसलिए उत्तर BQQMF है।
+स्रोत: PYQ-style
 
-78. एक कोड भाषा में ‘nut bolt’ को ‘ta pa’, ‘bolt key’ को ‘pa sa’, ‘key chain’ को ‘sa ma’ लिखा जाता है। ‘nut’ का कोड क्या है?
-(a) sa (b) pa (c) ta (d) ma
-Answer: (c)
-Solution: ‘nut bolt’ = ta pa, ‘bolt key’ = pa sa. ‘bolt’ दोनों में उभयनिष्ठ, ‘pa’ उभयनिष्ठ → bolt = pa. ‘nut’ = ta (शेष).
-स्रोत: PYQ-शैली
+78. एक निश्चित कोड भाषा में 'red flower' को 'ta na' लिखा जाता है, 'flower bloom' को 'na pa' लिखा जाता है, और 'red rose' को 'ta sa' लिखा जाता है। 'flower' का कोड क्या है?
+(a) ta (b) na (c) pa (d) sa
+उत्तर: (b)
+हल: 'Flower' पहले दो वाक्यों में आता है, और उन दोनों में एकमात्र उभयनिष्ठ कोड 'na' है। जाल 'ta' है, जो पहले और तीसरे वाक्य में उभयनिष्ठ है और इसलिए 'red' के लिए है। इसलिए उत्तर na है।
+स्रोत: PYQ-style
 
-79. यदि ‘PENCIL’ को ‘QFOdHM’ लिखा जाए (जहाँ छोटे अक्षर स्वर को दर्शाते हैं, व्यंजन +1), तो ‘ERASER’ का कोड क्या होगा?
-(a) FTbTFS (b) FSbTFR (c) FSbTGS (d) FSbTFS
-Answer: (d)
-Solution: मान लें कि सभी अक्षरों में +1 किया जाता है और स्वरों को छोटे अक्षर में लिखा जाता है। PENCIL: P+1=Q, E+1=f, N+1=O, C+1=d, I+1=j, L+1=M → QfOdjM (पर कोड में QFOdHM है, जो सुझाता है कि I+1=J न होकर H (-1) है। फिर भी, ERASER के लिए हम सभी +1 और स्वर छोटे मानकर चलते हैं: E+1=f, R+1=S, A+1=b, S+1=T, E+1=f, R+1=S → fSbTfS → FSbTFS.
-स्रोत: PYQ-शैली
+79. यदि CHAIR = 39 और TABLE = 40 है, तो उसी कोड में DESK का मान क्या होगा?
+(a) 38 (b) 40 (c) 41 (d) 39
+उत्तर: (d)
+हल: कोड वर्णमाला स्थितियों का योग है: CHAIR = 3+8+1+9+18 = 39 और TABLE = 20+1+2+12+5 = 40। विकल्प 40 TABLE के मान से नकल किया गया जाल है। DESK के लिए: 4+5+19+11 = 39, इसलिए उत्तर 39 है।
+स्रोत: PYQ-style
 
-80. यदि ‘MIRROR’ को ‘13 9 18 18 15 18’ और ‘GLASS’ को ‘7 12 1 19 19’ लिखा जाए, तो ‘WINDOW’ का कोड क्या होगा?
-(a) 23 9 14 4 15 23 (b) 23 9 14 4 15 22 (c) 22 9 14 4 15 23 (d) 23 9 13 4 15 23
-Answer: (a)
-Solution: प्रत्येक अक्षर का स्थितीय मान सीधे अंकों में दिया गया है। W=23, I=9, N=14, D=4, O=15, W=23.
-स्रोत: PYQ-शैली
+80. यदि TRAIN को USBJO कोड किया जाता है, तो PLANE को कैसे कोड किया जाएगा?
+(a) QNBOF (b) QMBNF (c) QMBOE (d) QMBOF
+उत्तर: (d)
+हल: प्रत्येक अक्षर एक कदम आगे खिसकता है: T→U, R→S, A→B, I→J, N→O। विकल्प QMBNF एक जाल है जो A को गलत खिसकाता है। PLANE के लिए: P→Q, L→M, A→B, N→O, E→F, इसलिए उत्तर QMBOF है।
+स्रोत: PYQ-style
 
-81. यदि ‘PARK’ को ‘KRA P’ और ‘LANE’ को ‘ENAL’ लिखा जाए, तो ‘ROAD’ का कोड क्या होगा?
-(a) DORA (b) DAOR (c) RODA (d) ROAD
-Answer: (b)
-Solution: शब्द को उलटा गया है। PARK उलटा = KRAP (स्पेस के साथ KRA P). LANE उलटा = ENAL. ROAD उलटा = DAOR.
-स्रोत: PYQ-शैली
+81. यदि ROAD को DAOR कोड किया जाता है, तो PARK को कैसे कोड किया जाएगा?
+(a) KARP (b) KRAQ (c) KRAP (d) KRPA
+उत्तर: (c)
+हल: शब्द को बस उल्टे क्रम में लिखा जाता है: ROAD का उल्टा DAOR है। विकल्प KARP एक जाल है जो बीच के अक्षरों को आपस में बदल देता है। PARK को उलटने पर KRAP मिलता है, इसलिए उत्तर KRAP है।
+स्रोत: PYQ-style
 
-82. यदि ‘MOUNTAIN’ को ‘NPVOUCJO’ और ‘RIVER’ को ‘SJWFS’ लिखा जाए, तो ‘FOREST’ का कोड क्या होगा?
-(a) GPSFUU (b) GPSFTT (c) GPSFTU (d) GPSFTV
-Answer: (c)
-Solution: MOUNTAIN में M+1=N, O+1=P, U+1=V, N+1=O, T+1=U, A+1=B? पर कोड में A→C (+2). RIVER: R+1=S, I+1=J, V+1=W, E+1=F, R+1=S. अतः कुछ स्वरों पर +2 हो सकता है, पर अधिकांशतः +1. FOREST के लिए सभी +1 मानें: F+1=G, O+1=P, R+1=S, E+1=F, S+1=T, T+1=U → GPSFTU.
-स्रोत: PYQ-शैली
+82. यदि CAT को ECV कोड किया जाता है, तो DOG को कैसे कोड किया जाएगा?
+(a) FQH (b) FQI (c) FPI (d) EQI
+उत्तर: (b)
+हल: प्रत्येक अक्षर दो कदम आगे बढ़ता है: C→E, A→C, T→V। विकल्प FQH एक जाल है जो G को केवल एक कदम खिसकाता है। DOG के लिए: D→F, O→Q, G→I, इसलिए उत्तर FQI है।
+स्रोत: PYQ-style
 
-83. यदि ‘COMPUTER’ को ‘EQORWVGT’ लिखा जाए, तो ‘KEYBOARD’ का कोड क्या होगा?
-(a) MGAQDQT (b) MGAQDQUF (c) MGAQDQTG (d) MGAQDQTF
-Answer: (d)
-Solution: COMPUTER: C+2=E, O+2=Q, M+2=O, P+2=R, U+2=W, T+2=V, E+2=G, R+2=T. सभी +2. KEYBOARD: K+2=M, E+2=G, Y+2=A (25+2=27→1=A), B+2=D, O+2=Q, A+2=C, R+2=T, D+2=F → MGAQDQTF. ⚠️ परीक्षक का जाल: Y+2 = A (पुनरावृत्ति), कुछ छात्र 26+2=28 समझकर भटक सकते हैं।
-स्रोत: PYQ-शैली
+83. यदि PEN = 35 और INK = 34 है, तो उसी कोड में CUP का मान क्या होगा?
+(a) 40 (b) 39 (c) 41 (d) 42
+उत्तर: (a)
+हल: कोड वर्णमाला स्थितियों का योग है: PEN = 16+5+14 = 35 और INK = 9+14+11 = 34। विकल्प 39 U को 21 के बजाय 20 पढ़ने से बना जाल है। CUP के लिए: 3+21+16 = 40, इसलिए उत्तर 40 है।
+स्रोत: PYQ-style
 
-84. यदि ‘TRUTH’ = 95 और ‘FALSE’ = 52, तो ‘HONEST’ का कोड क्या होगा, यदि कोडिंग पद्धति स्थितीय मानों का योग है?
-(a) 81 (b) 82 (c) 83 (d) 84
-Answer: (a)
-Solution: TRUTH = 20+18+21+20+8 = 87, पर 95 है (8 अधिक). FALSE = 6+1+12+19+5 = 43, पर 52 (9 अधिक). पैटर्न अस्थिर है। सरलीकरण के लिए प्रश्न को संशोधित मानें: TRUTH = 87, FALSE = 43, HONEST = 8+15+14+5+19+20 = 81. अतः सही उत्तर 81 है।
-स्रोत: PYQ-शैली
+84. एक निश्चित कोड भाषा में 'pit na som' का अर्थ 'bring me water' है, 'na jo tod' का अर्थ 'water is life' है, और 'tub od pit' का अर्थ 'give me toy' है। 'me' का कोड क्या है?
+(a) pit (b) som (c) jo (d) na
+उत्तर: (a)
+हल: 'Me' पहले और तीसरे वाक्य में आता है, और उनका एकमात्र उभयनिष्ठ कोड 'pit' है। जाल 'na' है, जो पहले दो वाक्यों में उभयनिष्ठ है और 'water' के लिए है। इसलिए उत्तर pit है।
+स्रोत: PYQ-style
 
-85. एक निश्चित कोड भाषा में ‘123’ का अर्थ ‘good morning india’, ‘456’ का अर्थ ‘india is great’, ‘789’ का अर्थ ‘good night sleep’ है। ‘morning’ का कोड क्या है?
-(a) 1 (b) ज्ञात नहीं कर सकते (c) 3 (d) 2
-Answer: (b)
-Solution: 123 और 456 में ‘india’ उभयनिष्ठ, पर अंक उभयनिष्ठ नहीं (123 में 3, 456 में 4 नहीं) — इसलिए कोड शब्द-वार नहीं, वाक्य-वार है। अतः ‘morning’ का अलग कोड ज्ञात नहीं। ⚠️ परीक्षक का जाल: सामान्य वाक्य कोडिंग का भ्रम जहाँ उभयनिष्ठ अंक न हो।
-स्रोत: PYQ-शैली
+85. यदि BOY को 2-15-25 कोड किया जाता है, तो GIRL को कैसे कोड किया जाएगा?
+(a) 7-8-18-12 (b) 7-9-18-13 (c) 7-9-18-12 (d) 6-9-18-12
+उत्तर: (c)
+हल: प्रत्येक अक्षर को उसकी वर्णमाला स्थिति से बदला जाता है: B=2, O=15, Y=25। विकल्प 7-9-18-13 एक जाल है जो L को 12 के बजाय 13 लेता है। GIRL के लिए: G=7, I=9, R=18, L=12, इसलिए उत्तर 7-9-18-12 है।
+स्रोत: PYQ-style
 
-86. यदि ‘CHAIR’ को ‘EJEMT’ और ‘TABLE’ को ‘VCDNG’ लिखा जाए, तो ‘BENCH’ का कोड क्या होगा?
-(a) DGPFI (b) DGPFK (c) DGPFJ (d) DGPEJ
-Answer: (c)
-Solution: CHAIR में C+2=E, H+2=J, A+4=E, I+4=M, R+2=T. TABLE में सभी +2: T+2=V, A+2=C, B+2=D, L+2=N, E+2=G. BENCH के लिए यदि सभी +2 मानें: B+2=D, E+2=G, N+2=P, C+2=E, H+2=J → DGPEJ, पर विकल्प DGPFJ है। अतः पहले जैसा मिश्रित पैटर्न। हम DGPFJ को सही मानते हैं।
-स्रोत: PYQ-शैली
+86. यदि CHAIR को EJCKT और TABLE को VCDNG कोड किया जाता है, तो BENCH को कैसे कोड किया जाएगा?
+(a) DGPEJ (b) DGPEK (c) DGPEI (d) DGPFJ
+उत्तर: (a)
+हल: प्रत्येक अक्षर दो कदम आगे बढ़ता है: C→E, H→J, A→C, I→K, R→T, और TABLE के लिए भी यही। विकल्प DGPFJ एक जाल है जो C को तीन कदम खिसकाता है। BENCH के लिए: B→D, E→G, N→P, C→E, H→J, इसलिए उत्तर DGPEJ है।
+स्रोत: PYQ-style
 
-87. यदि ‘SCHOOL’ को ‘TDIPPM’ और ‘COLLEGE’ को ‘DPMNFIF’ लिखा जाए, तो ‘UNIVERSITY’ का कोड क्या होगा?
-(a) VOJWFSTJUX (b) VOJWFSTJTY (c) VOJWFSTJUY (d) VOJWFSTJUZ
-Answer: (d)
-Solution: SCHOOL: S+1=T, C+1=D, H+1=I, O+1=P, O+1=P, L+1=M. COLLEGE: C+1=D, O+1=P, L+1=M, L+1=N, E+1=F, G+2=I (अपवाद). UNIVERSITY के लिए सभी +1 मानें: U+1=V, N+1=O, I+1=J, V+1=W, E+1=F, R+1=S, S+1=T, I+1=J, T+1=U, Y+1=Z → VOJWFSTJUZ.
-स्रोत: PYQ-शैली
+87. यदि SCHOOL को TDIPPM कोड किया जाता है, तो CLASS को कैसे कोड किया जाएगा?
+(a) DMBTU (b) DMBTT (c) DMBST (d) DNBTT
+उत्तर: (b)
+हल: प्रत्येक अक्षर एक कदम आगे बढ़ता है: S→T, C→D, H→I, O→P, O→P, L→M। विकल्प DMBTU एक जाल है जो अंतिम S को दो कदम खिसकाता है। CLASS के लिए: C→D, L→M, A→B, S→T, S→T, इसलिए उत्तर DMBTT है।
+स्रोत: PYQ-style
 
-88. यदि ‘BANK’ = 28 और ‘LOAN’ = 42 हो, तो ‘CASH’ का कोड क्या होगा?
+88. यदि BAT = 23 और CAT = 24 है, तो उसी कोड में DOG का मान क्या होगा?
+(a) 26 (b) 25 (c) 27 (d) 28
+उत्तर: (a)
+हल: कोड वर्णमाला स्थितियों का योग है: BAT = 2+1+20 = 23 और CAT = 3+1+20 = 24। विकल्प 27 O को 15 के बजाय 16 लेने से बना जाल है। DOG के लिए: 4+15+7 = 26, इसलिए उत्तर 26 है।
+स्रोत: PYQ-style
+
+89. एक निश्चित कोड भाषा में 'ne la ta' का अर्थ 'see you there' है, 'la pa sa' का अर्थ 'you are good' है, और 'ta ra pa' का अर्थ 'good there here' है। 'good' का कोड क्या है?
+(a) la (b) pa (c) ta (d) ra
+उत्तर: (b)
+हल: 'Good' दूसरे और तीसरे वाक्य में आता है, और उनका एकमात्र उभयनिष्ठ कोड 'pa' है। जाल 'ta' है, जो 'there' के लिए है क्योंकि यह पहले और तीसरे वाक्य में उभयनिष्ठ है। इसलिए उत्तर pa है।
+स्रोत: PYQ-style
+
+90. यदि FISH को GJTI कोड किया जाता है, तो BIRD को कैसे कोड किया जाएगा?
+(a) CJSD (b) CJSE (c) CISE (d) CJTE
+उत्तर: (b)
+हल: प्रत्येक अक्षर एक कदम आगे बढ़ता है: F→G, I→J, S→T, H→I। विकल्प CJSD एक जाल है जो अंतिम अक्षर D को खिसकाने में असफल रहता है। BIRD के लिए: B→C, I→J, R→S, D→E, इसलिए उत्तर CJSE है।
+स्रोत: PYQ-style
+
+91. यदि LETTER को KDSSDQ कोड किया जाता है, तो WRITER को कैसे कोड किया जाएगा?
+(a) VQHSDR (b) VQHSDS (c) VQHSDP (d) VQHSDQ
+उत्तर: (d)
+हल: प्रत्येक अक्षर एक कदम पीछे खिसकता है: L→K, E→D, T→S, T→S, E→D, R→Q। विकल्प VQHSDR एक जाल है जो अंतिम अक्षर को बिना खिसकाए छोड़ देता है। WRITER के लिए: W→V, R→Q, I→H, T→S, E→D, R→Q, इसलिए उत्तर VQHSDQ है।
+स्रोत: PYQ-style
+
+92. यदि COW = 41 और HEN = 27 है, तो उसी कोड में PIG का मान क्या होगा?
 (a) 31 (b) 32 (c) 33 (d) 34
-Answer: (a)
-Solution: BANK = 2 + 1 + 14 + 11 = 28; LOAN = 12 + 15 + 1 + 14 = 42। नियम: अक्षरों के स्थितीय मानों का योग। CASH = 3 + 1 + 19 + 8 = 31। अतः सही उत्तर 31 है। अतः सही उत्तर 31 है।
-स्रोत: PYQ-शैली
+उत्तर: (b)
+हल: कोड वर्णमाला स्थितियों का योग है: COW = 3+15+23 = 41 और HEN = 8+5+14 = 27। विकल्प 31 P को 16 के बजाय 15 लेने से बना जाल है। PIG के लिए: 16+9+7 = 32, इसलिए उत्तर 32 है।
+स्रोत: PYQ-style
 
-89. एक कोड भाषा में ‘ne la ta’ का अर्थ ‘see you there’, ‘la pa sa’ का अर्थ ‘you are good’, ‘ta ra pa’ का अर्थ ‘good there here’ है। ‘see’ का कोड क्या है?
-(a) la (b) ne (c) ta (d) pa
-Answer: (b)
-Solution: ‘ne la ta’ और ‘la pa sa’ में la = you. ‘ta ra pa’ और ‘ne la ta’ में ta = there. ‘ne la ta’ में शेष ne = see.
-स्रोत: PYQ-शैली
+93. यदि GREAT को FQDZS कोड किया जाता है, तो LARGE को कैसे कोड किया जाएगा?
+(a) KZQFC (b) KZQFE (c) KZQFD (d) KAQFD
+उत्तर: (c)
+हल: प्रत्येक अक्षर एक कदम पीछे खिसकता है: G→F, R→Q, E→D, A→Z, T→S। विकल्प KZQFE एक जाल है जो अंतिम E को पीछे खिसकाने में असफल रहता है। LARGE के लिए: L→K, A→Z, R→Q, G→F, E→D, इसलिए उत्तर KZQFD है।
+स्रोत: PYQ-style
 
-90. यदि ‘FROZEN’ को ‘GSPYFO’ और ‘MELTED’ को ‘NFMUFE’ लिखा जाए, तो ‘THAWED’ का कोड क्या होगा?
-(a) UIBWFE (b) UIBXFD (c) UIBXFE (d) UIBXGE
-Answer: (c)
-Solution: FROZEN: F+1=G, R+1=S, O+1=P, Z-1=Y, E+1=F, N+1=O. MELTED: M+1=N, E+1=F, L+1=M, T+1=U, E+1=F, D+1=E. सभी +1, केवल Z के लिए -1 (क्योंकि Z+1 = A, पर Y दिया है). THAWED: T+1=U, H+1=I, A+1=B, W+1=X, E+1=F, D+1=E → UIBXFE. ⚠️ परीक्षक का जाल: Z→Y देखकर W के लिए भी -1 न करें; W+1=X.
-स्रोत: PYQ-शैली
+94. यदि BROTHER को CSPUIFS कोड किया जाता है, तो SISTER को कैसे कोड किया जाएगा?
+(a) TJTUFT (b) TJTVER (c) TJTUFR (d) TJTUFS
+उत्तर: (d)
+हल: प्रत्येक अक्षर एक कदम आगे बढ़ता है: B→C, R→S, O→P, T→U, H→I, E→F, R→S। विकल्प TJTUFT एक जाल है जो अंतिम R को पीछे खिसकाता है। SISTER के लिए: S→T, I→J, S→T, T→U, E→F, R→S, इसलिए उत्तर TJTUFS है।
+स्रोत: PYQ-style
 
-91. यदि ‘LETTER’ को ‘KDS S F’ और ‘PAPER’ को ‘OZODQ’ लिखा जाए, तो ‘WRITER’ का कोड क्या होगा?
-(a) VQHSDT (b) VQHSDR (c) VQHSES (d) VQHSDS
-Answer: (d)
-Solution: LETTER: L-1=K, E-1=D, T-1=S, T-1=S, E-1=D, R-1=Q? पर कोड में अंतिम F है (R-12?). PAPER: P-1=O, A-1=Z, P-1=O, E-1=D, R-1=Q. पैटर्न: अंतिम अक्षर पर अलग नियम। WRITER के लिए सभी -1 मानें, अंतिम R का कोड Q हो जाता है (PAPER के अनुसार). W-1=V, R-1=Q, I-1=H, T-1=S, E-1=D, R-1=Q → VQHSDQ, पर विकल्प VQHSDS है (अंतिम S). इसलिए हम VQHSDS को सही मानते हैं।
-स्रोत: PYQ-शैली
+95. यदि SUN को TVO कोड किया जाता है, तो MOON को कैसे कोड किया जाएगा?
+(a) NPPN (b) NQPO (c) NPPO (d) NPOP
+उत्तर: (c)
+हल: प्रत्येक अक्षर एक कदम आगे बढ़ता है: S→T, U→V, N→O। विकल्प NPPN एक जाल है जो अंतिम N को खिसकाने में असफल रहता है। MOON के लिए: M→N, O→P, O→P, N→O, इसलिए उत्तर NPPO है।
+स्रोत: PYQ-style
 
-92. यदि ‘HUNTER’ = 80 और ‘FOREST’ = 76, तो ‘RABBIT’ का कोड समान पद्धति में क्या होगा?
-(a) 54 (b) 55 (c) 56 (d) 57
-Answer: (a)
-Solution: स्थितीय मान योग: HUNTER = 8+21+14+20+5+18 = 86, पर 80 (6 कम). FOREST = 6+15+18+5+19+20 = 83, पर 76 (7 कम). पैटर्न नहीं। सरल योग मानें: RABBIT = 18+1+2+2+9+20 = 52, पर विकल्प 54 है। संभवतः अक्षरों की संख्या जोड़ी गई (6) तो 58. हम 54 को सही मानते हैं। अतः सही उत्तर 54 है।
-स्रोत: PYQ-शैली
+96. यदि ORANGE = 60 और MANGO = 50 है, तो उसी कोड में APPLE का मान क्या होगा?
+(a) 49 (b) 51 (c) 50 (d) 52
+उत्तर: (c)
+हल: कोड वर्णमाला स्थितियों का योग है: ORANGE = 15+18+1+14+7+5 = 60 और MANGO = 13+1+14+7+15 = 50। विकल्प 51 P को 16 के बजाय 17 लेने से बना जाल है। APPLE के लिए: 1+16+16+12+5 = 50, इसलिए उत्तर 50 है।
+स्रोत: PYQ-style
 
-93. यदि ‘GREAT’ को ‘FQDBS’ और ‘SMALL’ को ‘RLBKK’ लिखा जाए, तो ‘LARGE’ का कोड क्या होगा?
-(a) KBQFE (b) KBQFD (c) KBQGD (d) KBQHD
-Answer: (b)
-Solution: GREAT: G-1=F, R-1=Q, E-1=D, A+1=B, T-1=S. SMALL: S-1=R, M-1=L, A+1=B, L-1=K, L-1=K. पैटर्न: अक्षर A के लिए +1, शेष -1. LARGE: L-1=K, A+1=B, R-1=Q, G-1=F, E-1=D → KBQFD. ⚠️ परीक्षक का जाल: A के लिए अपवाद, अन्य सभी के लिए -1.
-स्रोत: PYQ-शैली
+97. यदि GREEN = 49 और BLUE = 40 है, तो उसी कोड में YELLOW का मान क्या होगा?
+(a) 92 (b) 93 (c) 91 (d) 94
+उत्तर: (a)
+हल: कोड वर्णमाला स्थितियों का योग है: GREEN = 7+18+5+5+14 = 49 और BLUE = 2+12+21+5 = 40। विकल्प 93 Y को 25 के बजाय 26 लेने से बना जाल है। YELLOW के लिए: 25+5+12+12+15+23 = 92, इसलिए उत्तर 92 है।
+स्रोत: PYQ-style
 
-94. यदि ‘BROTHER’ को ‘CSPUIFS’ और ‘SISTER’ को ‘TJT UFS’ लिखा जाए, तो ‘MOTHER’ का कोड क्या होगा?
-(a) NPTIFS (b) NPUIFT (c) NPUIFS (d) NPUIGS
-Answer: (c)
-Solution: BROTHER: B+1=C, R+1=S, O+1=P, T+1=U, H+1=I, E+1=F, R+1=S. SISTER: S+1=T, I+1=J, S+1=T, T+1=U, E+1=F, R+1=S. सभी +1. MOTHER: M+1=N, O+1=P, T+1=U, H+1=I, E+1=F, R+1=S → NPUIFS.
-स्रोत: PYQ-शैली
+98. एक निश्चित कोड भाषा में 'ta pa ma' का अर्थ 'birds fly high' है, 'ma na ka' का अर्थ 'high in sky' है, और 'pa ra na' का अर्थ 'fly in air' है। 'sky' का कोड क्या है?
+(a) ma (b) na (c) ta (d) ka
+उत्तर: (d)
+हल: 'High' पहले दो वाक्यों में उभयनिष्ठ है, इसलिए 'high' = 'ma'; 'in' अंतिम दो वाक्यों में उभयनिष्ठ है, इसलिए 'in' = 'na'। जाल 'na' है, जो वास्तव में 'in' के लिए है। दूसरे वाक्य में बचा एकमात्र कोड 'ka' है, इसलिए उत्तर ka है।
+स्रोत: PYQ-style
 
-95. यदि ‘PENCIL’ को ‘QFOdHM’ और ‘ERASER’ को ‘FSbTFS’ लिखा जाए, तो ‘SHARP’ का कोड क्या होगा?
-(a) TIbRR (b) TIbSR (c) TIbRQ (d) TIbSQ
-Answer: (d)
-Solution: माना सभी अक्षर +1 और स्वर छोटे। PENCIL में P+1=Q, E+1=f, N+1=O, C+1=d, I+1=j, L+1=M (QfOdjM). ERASER: E+1=f, R+1=S, A+1=b, S+1=T, E+1=f, R+1=S → fSbTfS. SHARP: S+1=T, H+1=I, A+1=b, R+1=S, P+1=Q → TIbSQ.
-स्रोत: PYQ-शैली
+99. यदि TIGER को UJHFS कोड किया जाता है, तो LION को कैसे कोड किया जाएगा?
+(a) MIPO (b) MJPN (c) MJPP (d) MJPO
+उत्तर: (d)
+हल: प्रत्येक अक्षर एक कदम आगे बढ़ता है: T→U, I→J, G→H, E→F, R→S। विकल्प MJPN एक जाल है जो अंतिम N को खिसकाने में असफल रहता है। LION के लिए: L→M, I→J, O→P, N→O, इसलिए उत्तर MJPO है।
+स्रोत: PYQ-style
 
-96. यदि ‘ORANGE’ = 60 और ‘MANGO’ = 50, तो ‘APPLE’ का कोड क्या होगा? (सभी स्थितीय मानों का योग)
-(a) 50 (b) 51 (c) 52 (d) 53
-Answer: (a)
-Solution: ORANGE = 15+18+1+14+7+5 = 60. MANGO = 13+1+14+7+15 = 50. APPLE = 1+16+16+12+5 = 50. अतः सही उत्तर 50 है।
-स्रोत: PYQ-शैली
-
-97. यदि ‘GREEN’ = 49 और ‘BLUE’ = 40, तो ‘YELLOW’ का कोड क्या होगा? (स्थितीय मान योग)
-(a) 93 (b) 92 (c) 94 (d) 95
-Answer: (b)
-Solution: GREEN = 7+18+5+5+14 = 49. BLUE = 2+12+21+5 = 40. YELLOW = 25+5+12+12+15+23 = 92. अतः सही उत्तर 92 है।
-स्रोत: PYQ-शैली
-
-98. एक कोड भाषा में ‘ta pa ma’ = ‘birds fly high’, ‘ma na ka’ = ‘high in sky’, ‘pa ra na’ = ‘fly in air’. ‘sky’ का कोड क्या है?
-(a) ma (b) na (c) ka (d) ta
-Answer: (c)
-Solution: ‘ta pa ma’ और ‘ma na ka’ में ma = high. ‘ma na ka’ में शेष na और ka = in, sky. ‘pa ra na’ में na = in, pa = fly. अतः ka = sky.
-स्रोत: PYQ-शैली
-
-99. यदि ‘ELEPHANT’ को ‘FKFQIBOU’ और ‘TIGER’ को ‘UJHFS’ लिखा जाए, तो ‘LION’ का कोड क्या होगा?
-(a) MIPO (b) MJPN (c) MJOO (d) MJPO
-Answer: (d)
-Solution: TIGER में सभी +1: T+1=U, I+1=J, G+1=H, E+1=F, R+1=S. ELEPHANT में E+1=F, L+1=M? पर कोड में दूसरा K है। अतः सभी +1 मानकर LION: L+1=M, I+1=J, O+1=P, N+1=O → MJPO.
-स्रोत: PYQ-शैली
-
-100. यदि ‘WATER’ को ‘XBUFS’ और ‘MILK’ को ‘NJML’ लिखा जाए, तो ‘DRINK’ का कोड क्या होगा?
-(a) ESJOM (b) ESJOL (c) ESJNL (d) ESJOK
-Answer: (b)
-Solution: WATER: W+1=X, A+1=B, T+1=U, E+1=F, R+1=S. MILK: M+1=N, I+1=J, L+1=M, K+1=L. सभी +1. DRINK: D+1=E, R+1=S, I+1=J, N+1=O, K+1=L → ESJOL. ⚠️ परीक्षक का जाल: विकल्पों में ESJOL और ESJNL रखकर O और N का भ्रम।
-स्रोत: PYQ-शैली
+100. यदि WATER को XBUFS कोड किया जाता है, तो DRINK को कैसे कोड किया जाएगा?
+(a) ESJOL (b) ESJOM (c) ESJNL (d) ESJOK
+उत्तर: (a)
+हल: प्रत्येक अक्षर एक कदम आगे बढ़ता है: W→X, A→B, T→U, E→F, R→S। विकल्प ESJOM एक जाल है जो K को दो कदम खिसकाता है। DRINK के लिए: D→E, R→S, I→J, N→O, K→L, इसलिए उत्तर ESJOL है।
+स्रोत: PYQ-style

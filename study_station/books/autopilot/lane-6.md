@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 10:06 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
+**आख़िरी update:** 12-10-2026 10:17 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
-| W2 | Chapter 03 Coding Decoding (10th Reasoning) | 🔎 review हो रहा है | 9 मिनट |
-| W3 | Chapter 05 Direction Sense (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 60 मिनट |
+| W1 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 26 मिनट |
+| W2 | Chapter 03 Coding Decoding (10th Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 05 Direction Sense (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 72 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -32,6 +32,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 12-10 10:17 — 10th Reasoning · Chapter 03 Coding Decoding
 - 12-10 09:05 — 10th Reasoning · Chapter 04 Blood Relations
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
@@ -42,16 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 09:03:58   [Classification] set 05 try 1: re-solve disagrees (Q105 key c vs re-solve d)
-12-10 09:05:17   [Blood_Relations] review: 7 section(s) corrected, 0 failed
-12-10 09:05:17   [Blood_Relations] written 7, failed 0; AI calls today 176/100000
-12-10 09:05:37 DONE 10th_Level/Reasoning/Chapter_04_Blood_Relations in 185 min → 5e9f6244
-12-10 09:05:37 START 10th_Level/Reasoning/Chapter_05_Direction_Sense (OK: todo 0, problems 0)
-12-10 09:07:20   [Direction_Sense] set 01: Q22 key b vs re-solve a, Q24 key d vs re-solve b
-12-10 09:09:56   [Classification] repaired set 05 (en + hi, key confirmed by an independent re-solve)
-12-10 09:12:02   [Coding_Decoding] set 02: key confirmed
-12-10 09:15:53   [Coding_Decoding] set 03: key confirmed
-12-10 09:16:46   [Direction_Sense] repaired set 01 (en + hi, key confirmed by an independent re-solve)
 12-10 09:18:56   [Coding_Decoding] set 04: key confirmed
 12-10 09:23:27   [Direction_Sense] set 02: Q36 key c vs re-solve a, Q43 key b vs re-solve a
 12-10 09:24:35   [Classification] set 06: Q128 key c vs re-solve d, Q130 key a vs re-solve d, Q132 key c vs re-solve b, Q134 key a vs re-solve d, Q135 key b vs re-solve c, Q137 key d v
@@ -82,4 +73,14 @@
 12-10 10:04:11   [Coding_Decoding] review Flashcards_en.txt: 1 issue(s): - Card 5 suggests an alternating shift pattern (‑1, +1, ‑1, +1) for NUMBER → MVLADQ, but the fourth letter shift
 12-10 10:05:06   [Classification] set 02: Q39 key b vs re-solve a
 12-10 10:06:20   [Coding_Decoding] review PYQ_en.txt: 6 issue(s): - Yearly Question Frequency table (2015–2024) presents invented statistics without source → Remove or replace with veri
+12-10 10:09:01   [Direction_Sense] set 05: Q107 key c vs re-solve b
+12-10 10:09:17   [Classification] repaired set 02 (en + hi, key confirmed by an independent re-solve)
+12-10 10:11:21   [Coding_Decoding] review PYQ_hi.txt: 6 issue(s): - Annual frequency table (2015-2024) presents invented statistics as factual data → Remove or label as approximate esti
+12-10 10:11:38   [Classification] set 03: Q56 key a vs re-solve b
+12-10 10:14:18   [Coding_Decoding] review Short_Tricks_en.txt: 1 issue(s): - Mnemonic 13 states "A=25 (the 5th letters from the end)" but the 25th letter from the end is B (Z=1, Y=2, …,
+12-10 10:15:57   [Coding_Decoding] review Important_Rules_en.txt: 2 issue(s): - Alternating pattern example "NUMBER → MVLADQ : 1st –1, 2nd +1, 3rd –1, etc." does not follow the describe
+12-10 10:17:22   [Coding_Decoding] review Important_Rules_hi.txt: 2 issue(s): - बारी-बारी पैटर्न उदाहरण: NUMBER → MVLADQ दिए गए पैटर्न (-1, +1, -1, +1…) का पालन नहीं करता → सही कोड MVLC
+12-10 10:17:30   [Classification] repaired set 03 (en + hi, key confirmed by an independent re-solve)
+12-10 10:17:50   [Coding_Decoding] review: 9 section(s) corrected, 0 failed
+12-10 10:17:50   [Coding_Decoding] written 9, failed 0; AI calls today 269/100000
 ```
