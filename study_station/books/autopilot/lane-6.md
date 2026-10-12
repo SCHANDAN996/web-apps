@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 07:02 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
+**आख़िरी update:** 12-10-2026 07:17 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 62 मिनट |
-| W2 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 61 मिनट |
-| W3 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 61 मिनट |
+| W1 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 77 मिनट |
+| W2 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 77 मिनट |
+| W3 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 77 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -67,4 +67,12 @@
 12-10 06:55:25   [Coding_Decoding] set 02: Q47 key b vs re-solve a
 12-10 06:55:46   [Classification] set 04: Q76 key a vs re-solve d, Q78 key c vs re-solve d, Q80 key a vs re-solve c, Q85 key b vs re-solve d, Q86 key c vs re-solve d, Q88 key a vs re-s
 12-10 06:59:35   [Blood_Relations] set 03: Q60 key b vs re-solve a, Q74 key d vs re-solve b
+12-10 07:03:09   [Classification] set 04 try 1: re-solve disagrees (Q90 key a vs re-solve d)
+12-10 07:05:21   [Classification] set 04 try 2: re-solve disagrees (Q94 key b vs re-solve d)
+12-10 07:06:25   [Blood_Relations] repaired set 03 (en + hi, key confirmed by an independent re-solve)
+12-10 07:07:11   [Classification] set 04 try 3: re-solve disagrees (Q90 key b vs re-solve d)
+12-10 07:11:32   [Blood_Relations] set 04: Q76 key a vs re-solve b, Q85 key b vs re-solve c, Q86 key c vs re-solve d, Q94 key c vs re-solve b, Q99 key d vs re-solve a
+12-10 07:12:33   [Classification] repaired set 04 (en + hi, key confirmed by an independent re-solve)
+12-10 07:12:33   [Coding_Decoding] repaired set 02 (en + hi, key confirmed by an independent re-solve)
+12-10 07:15:43   [Classification] set 05: Q103 key c vs re-solve d, Q111 key c vs re-solve d, Q113 key a vs re-solve d, Q116 key d vs re-solve a, Q118 key b vs re-solve c, Q119 key c v
 ```
