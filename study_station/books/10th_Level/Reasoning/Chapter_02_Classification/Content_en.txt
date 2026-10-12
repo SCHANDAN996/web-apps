@@ -119,10 +119,10 @@ These questions draw from static general knowledge across four key areas:
 In mixed classification, letters and numbers appear combined in alphanumeric tokens.
 Example: A3C, E5G, I7K, O9Q, U11W
 Let us trace the pattern:
-• First letter: A(1), E(5), I(9), O(15), U(21) — vowels!
-• Number: corresponds to the positional rank of the first letter! A=1 (wait, A3C has 3: 1+2=3).
-• Third letter: A(1) + 2 = C(3). E(5) + 2 = G(7).
-Rule: Trace the relation between the first letter and the number, then the number and the final letter.
+• First letter: A(1), E(5), I(9), O(15), U(21) — all vowels, in alphabetical order.
+• Number: 3, 5, 7, 9, 11 — consecutive odd numbers starting from 3. Note that these numbers do NOT equal the positional ranks of the first letters; they form their own independent sequence.
+• Third letter: first letter + 2 positions. A(1) + 2 = C(3), E(5) + 2 = G(7), I(9) + 2 = K(11), O(15) + 2 = Q(17), U(21) + 2 = W(23).
+Rule: In alphanumeric clusters, each component (first letter, number, last letter) may follow its own independent rule. Trace each component separately across all options; the odd one out breaks at least one of these rules.
 
 🧠 Active Recall: In M14O, P16R, S18U, T20W, which one is odd? (T20W — T=20, T+2 should be V(22), but W(23) is given. Hence T20W is odd.)
 

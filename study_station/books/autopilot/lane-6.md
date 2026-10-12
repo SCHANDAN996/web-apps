@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Classification (10th Reasoning) | 🔎 review हो रहा है | 29 मिनट |
+| W1 | Chapter 02 Classification (10th Reasoning) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -30,6 +30,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 12-10 11:07 — 10th Reasoning · Chapter 02 Classification
 - 12-10 10:54 — 10th Reasoning · Chapter 05 Direction Sense
 - 12-10 10:17 — 10th Reasoning · Chapter 03 Coding Decoding
 - 12-10 09:05 — 10th Reasoning · Chapter 04 Blood Relations
