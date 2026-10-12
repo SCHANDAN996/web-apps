@@ -1,101 +1,100 @@
 # Previous Years Questions (PYQ) Analysis: Direction Sense
 
-## 1. Yearly Frequency — SSC, Banking, Railway, Defence & Police (2015–2024)
+## 1. How Exams Test This Topic
 
-Direction Sense is a core topic in reasoning across all competitive exams, typically contributing between 2 to 5 questions per exam session.
+Direction Sense is a core reasoning topic in SSC (CGL, CHSL, MTS, GD), Banking (IBPS, SBI), Railway (RRB NTPC, Group D, ALP) and State Police/Defence exams. A few questions from this chapter appear in almost every reasoning paper, and they are usually quick to solve once the path is drawn correctly.
 
-| Year | SSC (CGL/CHSL/MTS) | Banking (IBPS/SBI) | Railway (RRB NTPC/Group D) | State Police & Defence | Total Questions |
-|------|--------------------|---------------------|----------------------------|------------------------|-----------------|
-| 2015 | 3–5 | 3–4 | 2–3 | 2–3 | 10–15 |
-| 2016 | 3–5 | 3–4 | 2–3 | 2–3 | 10–15 |
-| 2017 | 3–5 | 3–4 | 2–3 | 2–3 | 10–15 |
-| 2018 | 3–5 | 3–4 | 2–3 | 2–3 | 10–15 |
-| 2019 | 3–5 | 3–4 | 2–3 | 2–3 | 10–15 |
-| 2020 | 3–5 | 3–4 | 2–3 | 2–3 | 10–15 |
-| 2021 | 3–5 | 3–4 | 2–3 | 2–3 | 10–15 |
-| 2022 | 3–5 | 3–4 | 2–3 | 2–3 | 10–15 |
-| 2023 | 3–5 | 3–4 | 2–3 | 2–3 | 10–15 |
-| 2024 | 3–5 | 3–4 | 2–3 | 2–3 | 10–15 |
+## 2. Sub-Topics That Recur Most Often
 
-Note: These numbers reflect consistent historical exam trends across shifts.
+Based on the pattern of questions asked across these exams, the following sub-topics appear again and again:
 
-## 2. Sub-Topic Weightage
+| Sub-Topic | Typical Difficulty | What the Examiner Tests |
+|-----------|--------------------|--------------------------|
+| Simple Sequential Turns (2–3 turns) | Easy | Tracking facing direction and final position step by step |
+| Complex Multi-Turn Paths (4+ turns) | Medium | Careful diagram work; net displacement after many moves |
+| Shadow-Based Problems | Medium | Morning shadow → West; evening shadow → East; face-to-face conversations |
+| Distance & Displacement (Pythagoras) | Medium | Shortest distance using triplets like 3-4-5, 5-12-13, 8-15-17 |
+| Relative Direction (Point A w.r.t. Point B) | Medium | Fixing a reference point and reading direction from it |
+| Coded/Rotated Direction Sense | Hard | "If South-East becomes North…" — rotating the whole compass |
 
-| Sub-Topic | SSC (%) | Banking (%) | Railway (%) | Defence/Police (%) | Overall Weightage | Difficulty Level |
-|-----------|---------|-------------|-------------|--------------------|-------------------|------------------|
-| Simple Sequential Turns (2–3 turns) | 30% | 25% | 35% | 30% | 30% | Easy |
-| Complex Multi-Turn Paths (4+ turns) | 20% | 20% | 25% | 20% | 21% | Medium |
-| Shadow-Based Problems | 15% | 15% | 10% | 15% | 14% | Medium |
-| Distance & Displacement (Pythagoras) | 20% | 25% | 20% | 25% | 23% | Medium |
-| Relative Direction (Point A wrt Point B) | 10% | 10% | 5% | 10% | 8% | Medium |
-| Coded Direction Sense | 5% | 5% | 5% | 0% | 4% | Hard |
+Questions that combine sequential turns with a final distance-or-displacement calculation are the most common pattern in this chapter.
 
-Questions involving distance and displacement combined with sequential turns make up over 50% of all questions asked in this topic.
+## 3. Examiner's Traps to Watch For
 
-## 3. Exam-Wise Trends & Question Patterns
+- **Right/left confusion after a turn:** the next "right" is relative to the *new* facing direction, not the original one. Draw the path instead of solving mentally.
+- **Shadow reversal:** morning shadow falls West, evening shadow falls East. Many options are designed to catch students who mix these up.
+- **Distance vs displacement:** "total distance walked" and "shortest distance from start" are different quantities; read the question twice.
+- **Reference-point swap:** in "A with respect to C" questions, the direction must be read *from C*, not from B.
+- **Rotation direction:** in coded-direction questions, first find the angle and sense (clockwise/anticlockwise) of the given shift, then apply the *same* shift to the asked direction.
 
-- **SSC (CGL, CHSL, MTS, CPO, GD):** 2–4 questions per exam. Focus on direct distance calculation, final facing direction, and relative positions of points.
-- **Railway (RRB NTPC, Group D, ALP):** 2–3 questions per paper. Focus on simple sequential turns and shortest distance using Pythagorean triplets (3-4-5, 5-12-13, 8-15-17).
-- **State Police & Defence (Constable, SI, RPF):** 2–4 questions. Emphasis on compass direction shifts (e.g., If North becomes South-East...) and morning/evening shadow orientation.
-
-## 4. Top 10 High-Yield Exam Questions with Solutions
+## 4. High-Yield Exam-Style Questions with Solutions
 
 ### Question 1
 A man walks 5 km East, turns right and walks 4 km, then turns right again and walks 5 km. In which direction is he now from his starting point?
 - **Options:** (a) North (b) South (c) East (d) West
 - **Answer:** (b) South
 - **Solution:** Starting from (0,0), walking 5 km East brings him to (5,0). Turning right (facing South) and walking 4 km brings him to (5,-4). Turning right (facing West) and walking 5 km brings him to (0,-4). Point (0,-4) is directly South of the starting point.
+- **Source:** PYQ-style
 
 ### Question 2
 One morning after sunrise, Suresh was facing a pole. The shadow of the pole fell exactly to his right. In which direction was Suresh facing?
 - **Options:** (a) East (b) West (c) South (d) North
 - **Answer:** (c) South
 - **Solution:** In the morning, the Sun is in the East, so all shadows fall toward the West. If the shadow falls to Suresh's right, Suresh's right must be West. Therefore, Suresh is facing South.
+- **Source:** PYQ-style
 
 ### Question 3
 A person starts walking towards the North from point A. After walking 8 km, he turns right and walks 6 km to reach point B. What is the shortest distance between point A and point B?
 - **Options:** (a) 10 km (b) 12 km (c) 14 km (d) 8 km
 - **Answer:** (a) 10 km
 - **Solution:** By Pythagoras theorem, Shortest distance = √(8² + 6²) = √(64 + 36) = √100 = 10 km.
+- **Source:** PYQ-style
 
 ### Question 4
 If South-East becomes North, North-East becomes West, and so on, what will West become?
 - **Options:** (a) North-East (b) South-East (c) South-West (d) North-West
 - **Answer:** (b) South-East
 - **Solution:** South-East rotates 135° anticlockwise to become North. Applying the same 135° anticlockwise rotation to West brings it to South-East.
+- **Source:** PYQ-style
 
 ### Question 5
 Rohan walks 12 km North, then 5 km West, and finally 12 km South. How far and in which direction is he now from his starting point?
 - **Options:** (a) 5 km West (b) 5 km East (c) 12 km North (d) 10 km West
 - **Answer:** (a) 5 km West
 - **Solution:** The vertical movements (12 km North and 12 km South) cancel each other out. He is left 5 km West of his starting point.
+- **Source:** PYQ-style
 
 ### Question 6
 One evening before sunset, Rekha and Hema were talking to each other face to face. If Hema's shadow was exactly to the right of Hema, which direction was Rekha facing?
 - **Options:** (a) North (b) South (c) East (d) West
 - **Answer:** (b) South
 - **Solution:** In the evening, the Sun is in the West, so shadows fall toward the East. Since Hema's shadow falls to her right, Hema's right is East, meaning Hema is facing North. Since Rekha is facing Hema face to face, Rekha is facing South.
+- **Source:** PYQ-style
 
 ### Question 7
 Point P is 10 m North of point Q. Point R is 12 m East of point P. Point S is 10 m South of point R. What is the distance between point Q and point S?
 - **Options:** (a) 10 m (b) 12 m (c) 14 m (d) 22 m
 - **Answer:** (b) 12 m
 - **Solution:** Points P, Q, R, and S form a rectangle of dimensions 10 m × 12 m. Therefore, distance QS = PR = 12 m.
+- **Source:** PYQ-style
 
 ### Question 8
 A cyclist rides 4 km West, turns North and rides 3 km, then turns East and rides 8 km. What is the shortest distance from the start point?
 - **Options:** (a) 5 km (b) 6 km (c) 7 km (d) 8 km
 - **Answer:** (a) 5 km
 - **Solution:** Net displacement: East = 8 - 4 = 4 km; North = 3 km. Shortest distance = √(4² + 3²) = √(16 + 9) = 5 km.
+- **Source:** PYQ-style
 
 ### Question 9
 A person facing North turns 90° clockwise, then 180° anticlockwise, and then 45° clockwise. In which direction is he facing now?
 - **Options:** (a) North-West (b) North-East (c) South-West (d) South-East
 - **Answer:** (a) North-West
 - **Solution:** Net rotation = +90° - 180° + 45° = -45° (45° anticlockwise). Turning 45° anticlockwise from North points to North-West.
+- **Source:** PYQ-style
 
 ### Question 10
 If A is to the South of B, and C is to the East of B, in what direction is A with respect to C?
 - **Options:** (a) South-West (b) North-East (c) North-West (d) South-East
 - **Answer:** (a) South-West
 - **Solution:** With respect to C (which is to the East of B), B is West. Since A is South of B, A is situated to the South-West of C.
+- **Source:** PYQ-style

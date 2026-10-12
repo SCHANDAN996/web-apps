@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 10:52 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
+**आख़िरी update:** 12-10-2026 10:54 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Classification (10th Reasoning) | 🔎 review हो रहा है | 13 मिनट |
-| W3 | Chapter 05 Direction Sense (10th Reasoning) | 🔎 review हो रहा है | 15 मिनट |
+| W1 | Chapter 02 Classification (10th Reasoning) | 🔎 review हो रहा है | 15 मिनट |
+| W3 | Chapter 05 Direction Sense (10th Reasoning) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -31,6 +31,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 12-10 10:54 — 10th Reasoning · Chapter 05 Direction Sense
 - 12-10 10:17 — 10th Reasoning · Chapter 03 Coding Decoding
 - 12-10 09:05 — 10th Reasoning · Chapter 04 Blood Relations
 
@@ -41,10 +42,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 09:55:44   [Classification] set 01 try 2: re-solve disagrees (Q5 key a vs re-solve d)
-12-10 09:56:52   [Coding_Decoding] repaired set 06 (en + hi, key confirmed by an independent re-solve)
-12-10 09:56:52   [Coding_Decoding] written 2, failed 0; AI calls today 227/100000
-12-10 09:57:11   [Classification] set 01 try 3: re-solve disagrees (Q5 key c vs re-solve d, Q17 key c vs re-solve d)
 12-10 09:58:03   [Coding_Decoding] review Content_en.txt: 1 issue(s): - The anecdote about a 1942 British intelligence officer intercepting and decoding "GUR DHVXR OEBJA SBK WHZCF BIRE 
 12-10 10:00:08   [Coding_Decoding] review Content_hi.txt: 1 issue(s): - M = J(10) से 2 आगे = 12 गलत है → M की सही पोज़ीशन 13 है (J=10, K=11, L=12, M=13)
 12-10 10:01:07   [Direction_Sense] repaired set 04 (en + hi, key confirmed by an independent re-solve)
@@ -81,4 +78,8 @@
 12-10 10:43:59   [Direction_Sense] review PYQ_en.txt: 5 issue(s): - "between 2 to 5" is incorrect grammar → use "between 2 and 5" or "2 to 5"
 12-10 10:47:37   [Direction_Sense] review PYQ_hi.txt: 5 issue(s): - Yearly frequency table (2015–2024) shows identical question ranges for every year → fabricated data; replace with act
 12-10 10:50:37   [Classification] review Feynman_en.txt: 1 issue(s): - The final puzzle's hint "count vowels" does not produce a valid four‑yes‑one‑no pattern that makes APPLE the odd 
+12-10 10:52:55   [Classification] review Flashcards_en.txt: 1 issue(s): - Flashcard 3 (groups JMP, LOR, NQT, PRU, RTW) says only one group breaks the +3,+3 gap pattern, but PRU (+2,+3)
+12-10 10:53:37   [Direction_Sense] review Important_Rules_hi.txt: 1 issue(s): - The formula for न्यूनतम दूरी (समकोण पथ) incorrectly states d = a² + b² (missing square root) → It should 
+12-10 10:54:08   [Direction_Sense] review: 5 section(s) corrected, 0 failed
+12-10 10:54:08   [Direction_Sense] written 5, failed 0; AI calls today 313/100000
 ```
