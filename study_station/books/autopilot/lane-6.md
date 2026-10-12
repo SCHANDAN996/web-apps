@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 11:24 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
+**आख़िरी update:** 12-10-2026 11:39 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W2 | Chapter 10 Clock Calendar (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W3 | Chapter 11 Series (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
+| W2 | Chapter 10 Clock Calendar (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
+| W3 | Chapter 11 Series (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -42,4 +42,15 @@
 12-10 11:23:51 START 10th_Level/Reasoning/Chapter_10_Clock_Calendar (OK: todo 0, problems 0)
 12-10 11:23:56 START 10th_Level/Reasoning/Chapter_11_Series (OK: todo 0, problems 0)
 12-10 11:24:36   [Clock_Calendar] set 01: key confirmed
+12-10 11:24:38   [Series] set 01: key confirmed
+12-10 11:26:04   [Venn_Diagrams] set 01: Q8 key d vs re-solve ?, Q10 key b vs re-solve ?, Q21 key a vs re-solve b
+12-10 11:27:57   [Series] set 02: key confirmed
+12-10 11:29:10   [Venn_Diagrams] set 01 try 1: re-solve disagrees (Q4 key d vs re-solve b)
+12-10 11:30:02   [Series] set 03: key confirmed
+12-10 11:31:30   [Series] set 04: key confirmed
+12-10 11:33:12   [Series] set 05: Q112 key d vs re-solve b
+12-10 11:33:27   [Clock_Calendar] set 02: Q50 key b vs re-solve a
+12-10 11:35:23   [Venn_Diagrams] repaired set 01 (en + hi, key confirmed by an independent re-solve)
+12-10 11:37:56   [Venn_Diagrams] set 02: Q28 key c vs re-solve b, Q49 key d vs re-solve a
+12-10 11:39:03   [Series] repaired set 05 (en + hi, key confirmed by an independent re-solve)
 ```
