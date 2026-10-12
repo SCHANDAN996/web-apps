@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 09:04 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
+**आख़िरी update:** 12-10-2026 09:05 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -10,7 +10,7 @@
 |---|---|---|---|
 | W1 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 62 मिनट |
 | W2 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 26 मिनट |
-| W3 | Chapter 04 Blood Relations (10th Reasoning) | 🔎 review हो रहा है | 26 मिनट |
+| W3 | Chapter 04 Blood Relations (10th Reasoning) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -32,7 +32,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 12-10 09:05 — 10th Reasoning · Chapter 04 Blood Relations
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
@@ -42,8 +42,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 08:02:30   [Classification] set 06 try 4: re-solve disagrees (Q142 key a vs re-solve b)
-12-10 08:02:30   [Classification] FAILED set 06: no version passed the checks — files left as they were
 12-10 08:02:30   [Classification] written 3, failed 3; AI calls today 103/100000
 12-10 08:02:30 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_02_Classification: ['FAILED set 01: no version passed the checks — files left as they were', 'FAILED set 02: too_long']
 12-10 08:02:30 START 10th_Level/Reasoning/Chapter_02_Classification (OK: todo 0, problems 0)
@@ -82,4 +80,6 @@
 12-10 09:01:24   [Coding_Decoding] repaired set 01 (en + hi, key confirmed by an independent re-solve)
 12-10 09:03:47   [Blood_Relations] review Important_Rules_en.txt: 1 issue(s): - Direction Awareness rule incorrectly reads “A is B’s son” as A→B; with the parent-to-child downward conve
 12-10 09:03:58   [Classification] set 05 try 1: re-solve disagrees (Q105 key c vs re-solve d)
+12-10 09:05:17   [Blood_Relations] review: 7 section(s) corrected, 0 failed
+12-10 09:05:17   [Blood_Relations] written 7, failed 0; AI calls today 176/100000
 ```

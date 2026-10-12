@@ -1,120 +1,108 @@
 📊 PYQ Analysis: Blood Relations
 
-1. Yearly Frequency (Past 10 Years)
+1. How Exams Ask Questions from This Chapter
 
-| Year | SSC CGL | SSC CHSL | IBPS PO | RRB NTPC | State Police |
-|---|---|---|---|---|---|
-| 2014 | 1–2 | 1 | 2–3 | — | 1 |
-| 2015 | 2 | 1 | 3 | — | 2 |
-| 2016 | 1–2 | 1 | 2–3 | 1–2 | 1 |
-| 2017 | 2 | 2 | 3–4 | — | 2 |
-| 2018 | 1–2 | 1 | 2–3 | 2 | 1–2 |
-| 2019 | 2 | 1–2 | 3 | 1–2 | 2 |
-| 2020 | 1 | 1 | 2 | 1 | 1 |
-| 2021 | 2 | 1–2 | 3–4 | 2 | 1–2 |
-| 2022 | 1–2 | 2 | 3 | 1–2 | 2 |
-| 2023 | 2 | 1 | 2–3 | 2 | 2 |
+Blood Relations is a regular feature of the reasoning section in SSC (CGL, CHSL, MTS, GD), Banking (IBPS, SBI), Railway (NTPC, Group D) and State Police exams. Typically one or two questions appear per shift in SSC and Railway papers, while banking prelims often carry a small set of two to three questions, sometimes as a coded-relation mini-puzzle.
 
-2. Sub-Topic Weightage
+The questions fall into four broad types:
 
-| Sub-topic | SSC CGL | Banking | Railway | State Police |
-|---|---|---|---|---|
-| Statement / Puzzle Based | 40% | 30% | 50% | 45% |
-| Pointing / Photo Based | 25% | 15% | 20% | 35% |
-| Coded Relations | 20% | 45% | 15% | 5% |
-| Generation & Family Tree | 15% | 10% | 15% | 15% |
+• Pointing / Photograph based — "Pointing to a photo, Ravi said…" The solver must convert the spoken chain ("my mother's only son") into a family link. Very common in SSC and State Police exams.
+• Statement / Puzzle based — A set of statements about family members is given, and a specific relationship is asked. Common everywhere.
+• Coded relations — Symbols like +, –, ×, ÷ or @, #, * stand for relations. Favoured by banking exams (IBPS, SBI), where these often come in sets.
+• Generation / Family-tree based — Questions on generations, couples, or counting males and females in a family.
 
-3. Exam-wise Distribution & Time Standards
+2. Examiner's Traps (परीक्षक के जाल)
 
-| Exam | Questions per Shift | Difficulty | Predominant Type | Ideal Solving Time |
-|---|---|---|---|---|
-| SSC CGL (Tier-I) | 1–2 | Easy–Medium | Pointing, Statement | 30–45 seconds |
-| SSC CHSL | 1–2 | Easy | Pointing, Simple Tree | 30–40 seconds |
-| IBPS PO (Prelims) | 2–3 | Easy–Medium | Coded, Statement | 40–50 seconds |
-| IBPS PO (Mains) | 3–4 | Hard | Coded, Puzzle | 60–90 seconds |
-| RRB NTPC | 1–2 | Easy–Medium | Statement, Pointing | 30–45 seconds |
-| SSC GD / MTS | 1–2 | Medium | Pointing, Simple Tree | 45–60 seconds |
+• Gender assumption: Names like "Kiran" or expressions like "A is the child of B" do not reveal gender. Do not assume it unless stated.
+• "Only son / only daughter": "My mother's only son" usually means the speaker himself (if male) — the most-tested trap.
+• Chain confusion: In long chains ("the brother of the daughter of my father's wife"), solve from the end backwards, one link at a time.
+• Coded direction: In "A + B means A is the father of B", the relation runs from the first letter to the second. Reversing it is the most common error.
+• Near-correct options: "Uncle" vs "Father", "Sister" vs "Cousin" — options are designed to catch solvers who stop one step early.
 
-4. Top 10 High-Yield Questions with Complete Solutions
+3. Time Strategy
 
-Question 1 (SSC CGL 2020): Pointing to a photograph of a boy, Suresh said, "He is the son of the only son of my mother." How is Suresh related to that boy?
+A pointing or simple statement question should take 30–45 seconds if you draw a quick family tree (use △ for male, ○ for female, = for marriage, vertical line for parent–child). Coded questions in banking exams may take 45–60 seconds; if a coded set has 2–3 questions on the same code, decode the whole expression once and answer all parts together.
+
+4. High-Yield Questions with Complete Solutions
+
+Question 1: Pointing to a photograph of a boy, Suresh said, "He is the son of the only son of my mother." How is Suresh related to that boy?
 Solution:
 • Suresh's mother's only son = Suresh himself (since Suresh is male).
-• The boy is the son of Suresh himself.
+• The boy is the son of Suresh.
 • Therefore, Suresh is the father of the boy.
 Answer: Father
-Source: SSC CGL
+Source: PYQ-style
 
-Question 2 (IBPS PO 2019): If 'A + B' means 'A is the father of B', 'A – B' means 'A is the wife of B', 'A × B' means 'A is the brother of B', and 'A ÷ B' means 'A is the daughter of B', how is P related to T in 'P ÷ R + S × T'?
+Question 2: If 'A + B' means 'A is the father of B', 'A – B' means 'A is the wife of B', 'A × B' means 'A is the brother of B', and 'A ÷ B' means 'A is the daughter of B', how is P related to T in 'P ÷ R + S × T'?
 Solution:
 • P ÷ R: P is the daughter of R (P is female).
 • R + S: R is the father of S (R is male).
 • S × T: S is the brother of T (S is male).
-• Since R is the father of P, S, and T, P is the sister of T.
+• Since R is the father of P, S and T, P is the sister of T.
 Answer: Sister
-Source: IBPS PO
+Source: PYQ-style
 
-Question 3 (SSC MTS 2015): A man pointing to a woman said, "Her mother is the only daughter of my mother." How is the woman related to the man?
+Question 3: A man pointing to a woman said, "Her mother is the only daughter of my mother." How is the woman related to the man?
 Solution:
 • "My mother's only daughter" = the man's sister.
 • The woman's mother is the man's sister.
 • The daughter of one's sister is one's niece.
 Answer: Niece
-Source: SSC MTS
+Source: PYQ-style
 
-Question 4 (RRB NTPC 2016): Introducing a girl, Vipin said, "Her mother is the only daughter of my mother-in-law." How is Vipin related to that girl?
+Question 4: Introducing a girl, Vipin said, "Her mother is the only daughter of my mother-in-law." How is Vipin related to that girl?
 Solution:
 • Vipin's mother-in-law's only daughter = Vipin's wife.
 • The girl's mother is Vipin's wife.
 • Therefore, Vipin is the girl's father.
 Answer: Father
-Source: RRB NTPC
+Source: PYQ-style
 
-Question 5 (IBPS PO 2017): If 'P @ Q' means 'P is the husband of Q', 'P # Q' means 'P is the sister of Q', and 'P * Q' means 'P is the son of Q', which expression shows that A is the brother-in-law of C?
+Question 5: If 'P @ Q' means 'P is the husband of Q', 'P # Q' means 'P is the sister of Q', and 'P * Q' means 'P is the son of Q', which expression shows that A is the brother-in-law of C?
 Solution:
 • In 'A @ B # C', A is the husband of B, and B is the sister of C.
-• A is the sister's husband of C, meaning A is the brother-in-law of C (Jija).
+• The husband of one's sister is one's brother-in-law.
+• Hence A is the brother-in-law of C.
 Answer: A @ B # C
-Source: IBPS PO
+Source: PYQ-style
 
-Question 6 (RRB Group D 2018): 1. A is the brother of B. 2. C is the father of A. 3. D is the brother of E. 4. E is the daughter of B. Who is the uncle of D?
+Question 6: Given: (1) A is the brother of B. (2) C is the father of A. (3) D is the brother of E. (4) E is the daughter of B. Who is the uncle of D?
 Solution:
 • E is the daughter of B, and D is the brother of E ➜ D and E are children of B.
 • A is the brother of B.
-• The brother of one's parent (B) is an uncle ➜ A is the uncle of D.
+• The brother of one's parent is one's uncle ➜ A is the uncle of D.
 Answer: A
-Source: RRB Group D
+Source: PYQ-style
 
-Question 7 (SSC CHSL 2019): Showing a man in a picture, a woman said, "His brother's father is the only son of my grandfather." How is the woman related to the man?
+Question 7: Showing a man in a picture, a woman said, "His brother's father is the only son of my grandfather." How is the woman related to the man?
 Solution:
 • The man's brother's father = the man's father.
 • The woman's grandfather's only son = the woman's father.
-• The man and the woman share the same father ➜ the woman is his sister.
+• The man and the woman have the same father ➜ the woman is his sister.
 Answer: Sister
-Source: SSC CHSL
+Source: PYQ-style
 
-Question 8 (SBI PO 2020): Read the statements: 1. In a family of six, P, Q, R, S, T, and U, there are two married couples. 2. Q is a doctor and the mother of T and U. 3. R is a lawyer and the father of P. 4. S is the grandfather of T and is a contractor. 5. U is a student. How is P related to U?
+Question 8: A family consists of six members — P, Q, R, S, T and U. There are two married couples. Q is the mother of T. R is the husband of Q. S is the brother of R. U is the sister of T. P is the father of R. How is S related to T?
 Solution:
-• S (grandfather, male) married to grandmother (not explicitly named or deceased? Wait, 2 married couples).
-• Q (female, doctor) is mother of T and U; her husband must be P (since R is lawyer, father of P; S is grandfather).
-• P is the father of T and U.
-• Thus, P is the father of U.
-Answer: Father
-Source: SBI PO
+• R (male) is the husband of Q (female); Q is the mother of T, so R is the father of T.
+• S is the brother of R, T's father.
+• The brother of one's father is one's uncle.
+Answer: Uncle
+Source: PYQ-style
 
-Question 9 (SSC CGL 2018): In a gathering, A tells B, "That boy playing football is the younger of the two brothers of the daughter of my father's wife." How is the boy related to A?
+Question 9: In a gathering, A tells B, "That boy playing football is the younger of the two brothers of the daughter of my father's wife." How is the boy related to A?
 Solution:
 • "My father's wife" = A's mother.
 • Daughter of A's mother = A's sister.
 • The brother of A's sister = A's brother.
 • Therefore, the boy is A's brother.
 Answer: Brother
-Source: SSC CGL
+Source: PYQ-style
 
-Question 10 (SSC CGL 2018): A, B, C, D, and E are members of a family. There are two fathers, two sons, two wives, three males, and two females. The teacher was the wife of the lawyer, who was the son of the doctor. E is not male, nor is she the wife of any professional. C is the youngest and D is the oldest. B is male. How is D related to E?
+Question 10: Pointing to a lady, Mohan said, "She is the daughter of the wife of the only son of my grandfather." How is the lady related to Mohan?
 Solution:
-• D is the oldest (generation 1, doctor).
-• E is the wife of D (not the wife of a professional lawyer, but the matriarch).
-• Therefore, D is the husband of E.
-Answer: Husband
-Source: SSC CGL
+• "The only son of my grandfather" = Mohan's father.
+• "The wife of Mohan's father" = Mohan's mother.
+• The daughter of Mohan's mother = Mohan's sister.
+Answer: Sister
+Source: PYQ-style
