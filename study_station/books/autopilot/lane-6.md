@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 09:27 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 04:49 PM
+**आख़िरी update:** 12-10-2026 09:42 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 04:49 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 71 मिनट |
-| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 43 मिनट |
-| W3 | Chapter 18 Inequality (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 121 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 86 मिनट |
+| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 58 मिनट |
+| W3 | Chapter 18 Inequality (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 137 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -44,10 +44,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 19:24:46   [Course_of_Action] written 5, failed 0; AI calls today 170/100000
-12-10 19:25:09 DONE 10th_Level/Reasoning/Chapter_17_Course_of_Action in 43 min → f318f31f
-12-10 19:25:11 START 10th_Level/Reasoning/Chapter_18_Inequality (OK: todo 0, problems 0)
-12-10 19:27:17   [Inequality] set 01: key confirmed
 12-10 19:29:55   [Venn_Diagrams] set 06: Q133 key d vs re-solve a, Q148 key c vs re-solve a
 12-10 19:30:14   [Inequality] set 02: key confirmed
 12-10 19:35:36   [Inequality] set 03: Q60 key b vs re-solve ?, Q74 key d vs re-solve ?
@@ -84,4 +80,8 @@
 12-10 21:16:05   [Dictionary_Order] set 02 try 2: re-solve disagrees (Q45 key b vs re-solve ?)
 12-10 21:23:20   [Venn_Diagrams] repaired set 03 (en + hi, key confirmed by an independent re-solve)
 12-10 21:26:21   [Inequality] set 06: Q131 key b vs re-solve ?, Q138 key a vs re-solve ?, Q146 key a vs re-solve d
+12-10 21:27:43   [Dictionary_Order] set 02 try 3: re-solve disagrees (Q30 key c vs re-solve a, Q50 key d vs re-solve b)
+12-10 21:37:04   [Venn_Diagrams] set 04: Q88 key d vs re-solve c
+12-10 21:37:12   [Dictionary_Order] set 02 try 4: re-solve disagrees (Q35 key b vs re-solve c, Q44 key c vs re-solve a)
+12-10 21:37:12   [Dictionary_Order] FAILED set 02: no version passed the checks — files left as they were
 ```
