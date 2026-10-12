@@ -1,0 +1,27 @@
+# Feynman Technique — Linear Programming
+
+## The Hardest Idea: "Why is the best answer always at a corner?"
+
+Students learn the rule "check the corner points" but do not see why it works. Once you see it, you will never forget it.
+
+## A Story: Meena's Bakery
+
+Meena bakes cakes and cookies. Each cake needs 2 hours of oven time and each tray of cookies needs 1 hour; she has 10 oven hours a day. She also has only 8 kg of flour: a cake uses 1 kg, a tray of cookies 2 kg. A cake earns ₹300 and a tray of cookies ₹200.
+
+Every possible plan — 1 cake and 3 trays, 2 cakes and 2 trays, and so on — is a point on a graph. The plans she can actually make form a shaded shape: the **feasible region**.
+
+Now imagine a ruler lying across the graph for "profit = ₹1,000". Slide it outwards to "₹1,200", "₹1,400"… The profit line keeps moving in the same direction, parallel to itself. The last place it still touches the shaded shape is the best plan. A straight ruler leaving a shape with straight edges always leaves it **at a corner** (or along a whole edge, when two corners tie).
+
+For Meena, the corners are (0, 0), (5, 0), (0, 4) and (4, 2). Profit there is ₹0, ₹1,500, ₹800 and ₹1,600. The best plan is 4 cakes and 2 trays of cookies, earning ₹1,600.
+
+## The Unforgettable Trick: "Slide the ruler, stop at a corner"
+
+1. Draw the constraints and shade the region that obeys all of them.
+2. List the corner points (where two boundary lines meet inside the region).
+3. Put each corner into Z. The biggest value is the maximum, the smallest is the minimum.
+
+## Blurting Sheet
+
+Now try to write down all key points of this chapter on a blank sheet without looking up: what a constraint is, how to find corner points, why the optimum is at a corner, and what an unbounded region means.
+
+**Question for you:** If two corner points give the same maximum value of Z, what can you say about the points on the edge joining them?

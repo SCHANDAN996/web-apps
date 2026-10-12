@@ -1,0 +1,168 @@
+# Linear Programming
+
+## Outline & Learning Goals
+
+By the end of this chapter, you will be able to:
+
+1. Understand what Linear Programming (LP) is and where it is used.
+2. Formulate a real-life problem as a Linear Programming Problem (LPP) — objective function, decision variables, constraints.
+3. Solve an LPP graphically using the feasible region and corner-point method.
+4. Identify special cases: unbounded solutions, infeasible problems, multiple optimal solutions.
+5. Understand basic terms of the Simplex method and duality (concept level).
+6. Tackle exam questions based on the NCERT Class 12 syllabus with confidence.
+
+---
+
+## The Hook: How Airlines Decide Your Ticket Price
+
+Every day, an airline must decide: how many economy seats, how many business seats, which flights, which crew — so that profit is maximum, while fuel, crew hours, and aircraft are limited. Thousands of such decisions, made in seconds, run on one mathematical idea: **Linear Programming**.
+
+During World War II, the same idea was used to plan the movement of troops and supplies at minimum cost. Today it is applied in oil refineries, diet planning, and delivery routes. And in your studies, it appears as a deceptively simple question: *"A factory makes tables and chairs… find the maximum profit."*
+
+If you have ever felt that Linear Programming is "too mathematical" — this chapter will change your mind. It is really just **smart decision-making with straight lines**.
+
+---
+
+## 1. What is Linear Programming?
+
+**Linear Programming** is a method of finding the **best (optimal) value** — maximum or minimum — of a **linear objective function**, subject to a set of **linear constraints** (inequalities), where all variables are **non-negative**.
+
+Break the name down:
+
+- **Linear** → every relationship is a straight line (no x², no xy, no √x).
+- **Programming** → not computer coding! It means *planning* (the word is from the 1940s).
+
+The father of Linear Programming is **George Dantzig**, who developed the **Simplex Method in 1947**.
+
+🧠 **Active Recall:** Who developed the Simplex method, and in which year? What does "programming" mean in Linear Programming?
+
+---
+
+## 2. The Three Building Blocks of an LPP
+
+Every Linear Programming Problem has exactly three parts:
+
+**1. Decision Variables** — the unknowns you control (e.g., x = number of tables, y = number of chairs).
+
+**2. Objective Function** — the quantity to maximise or minimise, written as a linear expression:
+Z = c₁x + c₂y (e.g., profit Z = 50x + 30y).
+
+**3. Constraints** — linear inequalities representing limited resources:
+2x + 3y ≤ 120 (labour hours), x + y ≤ 50 (machine hours), and the **non-negativity restrictions** x ≥ 0, y ≥ 0.
+
+A problem in this form is called a **mathematical formulation** of the LPP. In exams, half the marks (and half the traps) lie in translating the word problem into these three parts correctly.
+
+🧠 **Active Recall:** Name the three components of an LPP. Why do we always add x ≥ 0, y ≥ 0?
+
+---
+
+## 3. Formulation: Turning Words into Mathematics
+
+**Example:** A factory produces tables (x) and chairs (y). Profit per table = ₹50, per chair = ₹30. Each table needs 2 labour-hours, each chair 1 labour-hour; only 100 labour-hours are available. Each table needs 3 units of wood, each chair 1 unit; only 120 units of wood are available.
+
+Formulation:
+
+- **Maximise** Z = 50x + 30y
+- Subject to: 2x + y ≤ 100 (labour)
+- 3x + y ≤ 120 (wood)
+- x ≥ 0, y ≥ 0
+
+**Exam trap:** Watch for words like *"at least"* (≥), *"at most"* (≤), *"exactly"* (=). Reversing an inequality is the most common formulation error.
+
+🧠 **Active Recall:** "A diet must contain **at least** 60 units of protein." Which inequality sign will you use?
+
+---
+
+## 4. Solving Graphically: The Corner-Point Method
+
+For two variables, we solve an LPP on a graph:
+
+**Step 1:** Convert each inequality into an equation and draw the line.
+
+**Step 2:** Shade the region satisfying each inequality (test with the origin (0,0) if the line doesn't pass through it).
+
+**Step 3:** The common shaded region is the **feasible region** — the set of all points satisfying *all* constraints. Any point inside it is a **feasible solution**.
+
+**Step 4:** Find the **corner points (vertices)** of the feasible region.
+
+**Step 5:** Evaluate Z at each corner point. The largest value (for maximisation) or smallest (for minimisation) is the **optimal solution**.
+
+**The Corner-Point Theorem (the heart of LP):** If an LPP has an optimal solution, it occurs at a **corner point (vertex)** of the feasible region. This is why we never check interior points — the answer always lives on a corner.
+
+**Solving our example:** The feasible region has corners (0,0), (40,0), (20,60), (0,100).
+
+- Z(0,0) = 0
+- Z(40,0) = 2000
+- Z(20,60) = 1000 + 1800 = 2800
+- Z(0,100): check feasibility — 2(0) + 100 = 100 ≤ 100 ✓, 3(0) + 100 = 100 ≤ 120 ✓ → Z = **3000** ← maximum!
+
+So the optimal solution is x = 0, y = 100, Z = ₹3000. (Lesson: always check *every* corner — intuition can mislead.)
+
+🧠 **Active Recall:** Why do we only evaluate Z at corner points and not at points inside the feasible region?
+
+---
+
+## 5. Special Cases (Favourite Exam Traps)
+
+**1. Multiple (alternative) optimal solutions:** If the objective function is **parallel to one edge** of the feasible region, every point on that edge gives the same optimal Z. Infinite solutions, same optimal value.
+
+**2. Unbounded solution:** If the feasible region is **open (unbounded)** and Z can increase forever, no finite maximum exists. (For minimisation over an unbounded region, a finite minimum may still exist — check whether the open side is in the direction of decrease.)
+
+**3. Infeasible problem:** If constraints contradict each other (e.g., x + y ≤ 5 and x + y ≥ 10), the feasible region is **empty** — no solution exists.
+
+**Memory trick — "C-U-M-I":** **C**orner gives the answer; **U**nbounded region → maybe no max; **M**ultiple optima when Z is parallel to an edge; **I**nfeasible when constraints fight each other.
+
+🧠 **Active Recall:** The objective function is parallel to a boundary edge of the feasible region. What special case arises?
+
+---
+
+## 6. Key Vocabulary (One Line Each)
+
+- **Feasible region:** common region satisfying all constraints including non-negativity.
+- **Feasible solution:** any point in the feasible region.
+- **Optimal solution:** the feasible point giving the best value of Z.
+- **Convex set:** a region where the line segment joining any two points lies entirely inside it — feasible regions of LPPs are always convex.
+- **Slack variable:** added to a "≤" constraint to convert it into an equation (unused resource).
+- **Surplus variable:** subtracted from a "≥" constraint (excess over the minimum).
+- **Basic feasible solution:** a corner-point solution in the Simplex method.
+
+---
+
+## 7. Beyond Graphs: Simplex Method & Duality (Concept Level)
+
+The graphical method works only for **two variables**. Real problems have hundreds. Dantzig's **Simplex Method (1947)** handles them: it starts at one corner of the feasible region and moves along edges to better corners, improving Z at each step, until no improvement is possible. You don't need to *perform* Simplex for most exams — but you must know *what it does* and the terms: slack/surplus variables, basic feasible solution, iterations, optimality.
+
+**Duality:** Every LPP (the **primal**) has a twin problem (the **dual**). If the primal is a maximisation with ≤ constraints, the dual is a minimisation with ≥ constraints — and remarkably, **the optimal values of both are equal** (Strong Duality Theorem). The dual variables represent the **shadow price** — the value of one extra unit of a resource.
+
+🧠 **Active Recall:** What does the Simplex method do at each iteration? What is the relationship between the optimal values of a primal and its dual?
+
+---
+
+## 8. Where LP Appears in Your Exams
+
+- **Class 12 Board exams (CBSE/State Boards):** Linear Programming is a full chapter in NCERT Class 12 Mathematics — formulation, graphical solution, and corner-point evaluation are asked directly.
+- **CUET and other university entrance tests based on the Class 12 syllabus:** objective questions on feasible region, corner points, and optimal value.
+- **Conceptual questions:** definitions (feasible region, convex set, unbounded solution), Dantzig, Simplex, duality.
+
+The winning strategy: **formulate carefully → draw (or imagine) the region → list corners → evaluate Z.** Never skip a corner.
+
+---
+
+## Summary Table
+
+| Concept | Meaning | Exam Cue |
+|---|---|---|
+| Objective function | Linear expression to maximise/minimise | "Maximum profit", "minimum cost" |
+| Constraints | Linear inequalities of limited resources | "at most" → ≤, "at least" → ≥ |
+| Feasible region | Common region of all constraints | Always convex; may be empty or unbounded |
+| Corner-point theorem | Optimum lies at a vertex | Evaluate Z at every corner |
+| Multiple optima | Z parallel to an edge | Infinite solutions, same Z |
+| Unbounded | Region open, Z grows without limit | No finite maximum |
+| Infeasible | Constraints contradict | Empty feasible region |
+| Simplex method | Dantzig, 1947; corner-to-corner improvement | For many variables |
+| Duality | Primal and dual have equal optimal values | Dual variables = shadow prices |
+| Slack/Surplus | Convert ≤ / ≥ into equations | Slack = unused resource |
+
+---
+
+📌 **Review this chapter after 2 days.** Redraw the factory example from memory, list its corners, and recompute the optimal Z. Then test yourself: can you state the corner-point theorem and all three special cases without looking?
