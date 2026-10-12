@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 10:36 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
+**आख़िरी update:** 12-10-2026 10:52 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 45 मिनट |
-| W3 | Chapter 05 Direction Sense (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 91 मिनट |
+| W1 | Chapter 02 Classification (10th Reasoning) | 🔎 review हो रहा है | 13 मिनट |
+| W3 | Chapter 05 Direction Sense (10th Reasoning) | 🔎 review हो रहा है | 15 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -41,15 +41,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 09:44:37   [Direction_Sense] repaired set 03 (en + hi, key confirmed by an independent re-solve)
-12-10 09:46:17   [Classification] set 06 try 3: re-solve disagrees (Q135 key a vs re-solve c, Q138 key c vs re-solve b)
-12-10 09:48:15   [Direction_Sense] set 04: Q81 key b vs re-solve a, Q83 key d vs re-solve b
-12-10 09:51:13   [Classification] repaired set 06 (en + hi, key confirmed by an independent re-solve)
-12-10 09:51:14   [Classification] written 4, failed 1; AI calls today 217/100000
-12-10 09:51:14 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_02_Classification: ['FAILED set 01: no version passed the checks — files left as they were']
-12-10 09:51:14 START 10th_Level/Reasoning/Chapter_02_Classification (OK: todo 0, problems 0)
-12-10 09:52:23   [Classification] set 01: Q1 key a vs re-solve d, Q5 key a vs re-solve d, Q7 key c vs re-solve d, Q11 key c vs re-solve d, Q13 key a vs re-solve c, Q14 key b vs re-solv
-12-10 09:54:00   [Classification] set 01 try 1: re-solve disagrees (Q5 key c vs re-solve d, Q25 key a vs re-solve b)
 12-10 09:55:44   [Classification] set 01 try 2: re-solve disagrees (Q5 key a vs re-solve d)
 12-10 09:56:52   [Coding_Decoding] repaired set 06 (en + hi, key confirmed by an independent re-solve)
 12-10 09:56:52   [Coding_Decoding] written 2, failed 0; AI calls today 227/100000
@@ -81,4 +72,13 @@
 12-10 10:32:25   [Classification] set 06 try 1: re-solve disagrees (Q149 key b vs re-solve d)
 12-10 10:37:01   [Direction_Sense] set 06: key confirmed
 12-10 10:37:01   [Direction_Sense] written 5, failed 0; AI calls today 284/100000
+12-10 10:37:51   [Direction_Sense] review Content_en.txt: 1 issue(s): - In the shadow example at 8 AM, the answer given is North; but with the shadow falling west and to the person's ri
+12-10 10:38:22   [Classification] repaired set 06 (en + hi, key confirmed by an independent re-solve)
+12-10 10:38:22   [Classification] written 4, failed 0; AI calls today 286/100000
+12-10 10:39:06   [Direction_Sense] review Content_hi.txt: 1 issue(s): - The active recall answer for Riya's shadow direction is incorrect: at 8 AM the sun is in the east so the shadow f
+12-10 10:40:39   [Classification] review Content_en.txt: 1 issue(s): - In the Mixed Classification example (A3C, E5G, I7K, O9Q, U11W), the explanation incorrectly states "Number: corre
+12-10 10:43:55   [Classification] review Content_hi.txt: 2 issue(s): - भाग 2 (संख्या आधारित) में अंकों के योग का उदाहरण: 567 का योग 19 बताया गया है, जबकि 5+6+7 = 18 होता है → 567 के अं
+12-10 10:43:59   [Direction_Sense] review PYQ_en.txt: 5 issue(s): - "between 2 to 5" is incorrect grammar → use "between 2 and 5" or "2 to 5"
+12-10 10:47:37   [Direction_Sense] review PYQ_hi.txt: 5 issue(s): - Yearly frequency table (2015–2024) shows identical question ranges for every year → fabricated data; replace with act
+12-10 10:50:37   [Classification] review Feynman_en.txt: 1 issue(s): - The final puzzle's hint "count vowels" does not produce a valid four‑yes‑one‑no pattern that makes APPLE the odd 
 ```
