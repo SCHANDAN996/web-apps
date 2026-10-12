@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 10:31 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 10:15 PM
+**आख़िरी update:** 12-10-2026 10:46 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 10:15 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
-| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
-| W3 | Chapter 18 Inequality (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
+| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
+| W3 | Chapter 18 Inequality (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -47,4 +47,8 @@
 12-10 22:20:58   [Inequality] set 02: key confirmed
 12-10 22:27:52   [Inequality] set 03: Q60 key b vs re-solve ?, Q74 key d vs re-solve ?
 12-10 22:28:00   [Dictionary_Order] set 02: Q29 key d vs re-solve a, Q31 key b vs re-solve a
+12-10 22:36:11   [Venn_Diagrams] repaired set 01 (en + hi, key confirmed by an independent re-solve)
+12-10 22:38:40   [Dictionary_Order] set 02 try 1: re-solve disagrees (Q45 key b vs re-solve ?)
+12-10 22:40:35   [Venn_Diagrams] set 02: Q28 key c vs re-solve b, Q49 key d vs re-solve a
+12-10 22:43:54   [Inequality] set 03 try 1: re-solve disagrees (Q60 key a vs re-solve b, Q66 key b vs re-solve c, Q74 key c vs re-solve b)
 ```
