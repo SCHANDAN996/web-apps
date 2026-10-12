@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 11:22 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
+**आख़िरी update:** 12-10-2026 11:23 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -36,7 +36,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 10:11:21   [Coding_Decoding] review PYQ_hi.txt: 6 issue(s): - Annual frequency table (2015-2024) presents invented statistics as factual data → Remove or label as approximate esti
 12-10 10:11:38   [Classification] set 03: Q56 key a vs re-solve b
 12-10 10:14:18   [Coding_Decoding] review Short_Tricks_en.txt: 1 issue(s): - Mnemonic 13 states "A=25 (the 5th letters from the end)" but the 25th letter from the end is B (Z=1, Y=2, …,
 12-10 10:15:57   [Coding_Decoding] review Important_Rules_en.txt: 2 issue(s): - Alternating pattern example "NUMBER → MVLADQ : 1st –1, 2nd +1, 3rd –1, etc." does not follow the describe
@@ -76,4 +75,5 @@
 12-10 11:07:42   [Classification] written 8, failed 0; AI calls today 323/100000
 12-10 11:08:07 DONE 10th_Level/Reasoning/Chapter_02_Classification in 76 min → 854cf49d
 12-10 11:08:07 worker 0: nothing left
+12-10 11:23:07 autopilot end: done 4, failed 0
 ```
