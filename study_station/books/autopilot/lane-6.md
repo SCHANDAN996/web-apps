@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 06:01 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 04:49 PM
+**आख़िरी update:** 12-10-2026 06:07 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 04:49 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 72 मिनट |
-| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 71 मिनट |
-| W3 | Chapter 15 Mathematical Operations (10th Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 77 मिनट |
+| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 77 मिनट |
+| W3 | Chapter 16 Statement Conclusion (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,8 +37,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 16:49:25 autopilot start: 3 workers, reverse=True
-12-10 16:49:26 START 10th_Level/Reasoning/Chapter_09_Venn_Diagrams (OK: todo 0, problems 0)
 12-10 16:49:31 START 10th_Level/Reasoning/Chapter_13_Dictionary_Order (OK: todo 0, problems 0)
 12-10 16:49:36 START 10th_Level/Reasoning/Chapter_15_Mathematical_Operations (OK: todo 0, problems 0)
 12-10 16:51:57   [Dictionary_Order] set 01: key confirmed
@@ -75,4 +73,8 @@
 12-10 17:59:16   [Dictionary_Order] repaired set 03 (en + hi, key confirmed by an independent re-solve)
 12-10 18:01:26   [Mathematical_Operations] review: 6 section(s) corrected, 0 failed
 12-10 18:01:26   [Mathematical_Operations] written 6, failed 0; AI calls today 76/100000
+12-10 18:01:53 DONE 10th_Level/Reasoning/Chapter_15_Mathematical_Operations in 72 min → e252b755
+12-10 18:01:54 START 10th_Level/Reasoning/Chapter_16_Statement_Conclusion (OK: todo 0, problems 0)
+12-10 18:04:52   [Statement_Conclusion] set 01: key confirmed
+12-10 18:05:48   [Dictionary_Order] set 04: Q80 key a vs re-solve ?, Q81 key b vs re-solve ?, Q90 key c vs re-solve ?, Q93 key b vs re-solve d
 ```
