@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 12-10-2026 06:51 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 01:58 AM
+**आख़िरी update:** 12-10-2026 07:06 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 01:58 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 292 मिनट |
-| W2 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 292 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 308 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -34,6 +33,10 @@
 ## ✅ autopilot से हाल में पूरे हुए
 
 - अभी कोई नहीं
+
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 08 Puzzles (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
@@ -70,4 +73,11 @@
 12-10 06:26:15   [Sitting_Arrangement] set 03 try 1: re-solve disagrees (Q56 key d vs re-solve c)
 12-10 06:36:57   [Puzzles] set 06 try 2: re-solve disagrees (Q134: the clues allow more than one answer — add a clue so exactly one arrangement fits)
 12-10 06:40:21   [Sitting_Arrangement] set 03 try 2: re-solve disagrees (Q64 key c vs re-solve b)
+12-10 06:52:19   [Sitting_Arrangement] set 03 try 3: re-solve disagrees (Q54 key c vs re-solve a, Q71 key c vs re-solve -, Q72 key d vs re-solve -, Q73 key b vs re-solve -, Q74 key b vs re-
+12-10 06:58:17   [Puzzles] repaired set 06 (en + hi, key confirmed by an independent re-solve)
+12-10 06:58:17   [Puzzles] written 5, failed 1; AI calls today 146/100000
+12-10 06:58:17 AUDIT NOT DONE Graduation_Level/Reasoning/Chapter_08_Puzzles: ['FAILED set 05: too_long']
+12-10 06:58:17 worker 1: nothing left
+12-10 07:05:53   [Sitting_Arrangement] set 03 try 4: re-solve disagrees (Q65 key d vs re-solve c)
+12-10 07:05:53   [Sitting_Arrangement] FAILED set 03: no version passed the checks — files left as they were
 ```
