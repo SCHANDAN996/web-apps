@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 12:33 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 10:15 PM
+**आख़िरी update:** 13-10-2026 12:34 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 10:15 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 138 मिनट |
-| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 138 मिनट |
-| W3 | Chapter 18 Inequality (10th Reasoning) | 🔎 review हो रहा है | 16 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 139 मिनट |
+| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 139 मिनट |
+| W3 | Chapter 18 Inequality (10th Reasoning) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -32,13 +32,11 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 13-10 00:34 — 10th Reasoning · Chapter 18 Inequality
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 22:28:00   [Dictionary_Order] set 02: Q29 key d vs re-solve a, Q31 key b vs re-solve a
-12-10 22:36:11   [Venn_Diagrams] repaired set 01 (en + hi, key confirmed by an independent re-solve)
 12-10 22:38:40   [Dictionary_Order] set 02 try 1: re-solve disagrees (Q45 key b vs re-solve ?)
 12-10 22:40:35   [Venn_Diagrams] set 02: Q28 key c vs re-solve b, Q49 key d vs re-solve a
 12-10 22:43:54   [Inequality] set 03 try 1: re-solve disagrees (Q60 key a vs re-solve b, Q66 key b vs re-solve c, Q74 key c vs re-solve b)
@@ -77,4 +75,6 @@
 13-10 00:25:51   [Inequality] review PYQ_en.txt: 3 issue(s): - Yearly Frequency & Trend table shows identical question ranges for every year 2016–2025 → This is invented statistics
 13-10 00:28:23   [Inequality] review PYQ_hi.txt: 6 issue(s): - Yearly frequency table (2016–2025) shows identical question ranges for every year → fabricated data, replace with act
 13-10 00:30:58   [Venn_Diagrams] repaired set 04 (en + hi, key confirmed by an independent re-solve)
+13-10 00:34:23   [Inequality] review: 3 section(s) corrected, 0 failed
+13-10 00:34:23   [Inequality] written 3, failed 0; AI calls today 34/100000
 ```
