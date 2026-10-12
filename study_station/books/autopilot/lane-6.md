@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 07:39 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 04:49 PM
+**आख़िरी update:** 12-10-2026 07:54 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 04:49 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 169 मिनट |
-| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 169 मिनट |
-| W3 | Chapter 18 Inequality (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 185 मिनट |
+| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 185 मिनट |
+| W3 | Chapter 18 Inequality (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 29 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,7 +39,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 18:30:08   [Venn_Diagrams] repaired set 04 (en + hi, key confirmed by an independent re-solve)
 12-10 18:32:29   [Statement_Conclusion] review PYQ_en.txt: 2 issue(s): - Yearly Frequency table includes data for 2025 (a future year) → Remove the 2025 row or label it as projected.
 12-10 18:34:55   [Dictionary_Order] set 04 try 3: re-solve disagrees (Q80 key c vs re-solve ?, Q93 key d vs re-solve b)
 12-10 18:36:05   [Statement_Conclusion] review PYQ_hi.txt: 5 issue(s): - The yearly frequency table (2016‑2025) gives exact question counts for every exam each year without any official sour
@@ -79,4 +78,5 @@
 12-10 19:30:14   [Inequality] set 02: key confirmed
 12-10 19:35:36   [Inequality] set 03: Q60 key b vs re-solve ?, Q74 key d vs re-solve ?
 12-10 19:39:20   [Venn_Diagrams] set 06 try 1: re-solve disagrees (Q133 key a vs re-solve b, Q148 key b vs re-solve d, Q150 key d vs re-solve a)
+12-10 19:41:42   [Dictionary_Order] repaired set 05 (en + hi, key confirmed by an independent re-solve)
 ```
