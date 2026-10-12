@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 01:41 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
+**आख़िरी update:** 12-10-2026 01:56 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 137 मिनट |
-| W2 | Chapter 10 Clock Calendar (10th Reasoning) | 🔎 review हो रहा है | 30 मिनट |
-| W3 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 152 मिनट |
+| W2 | Chapter 10 Clock Calendar (10th Reasoning) | 🔎 review हो रहा है | 45 मिनट |
+| W3 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 18 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -38,10 +38,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 12:29:30 DONE 10th_Level/Reasoning/Chapter_11_Series in 65 min → 6b27972b
-12-10 12:29:31 START 10th_Level/Reasoning/Chapter_12_Missing_Term (OK: todo 0, problems 0)
-12-10 12:29:35   [Clock_Calendar] set 05: Q103 key c vs re-solve a, Q105 key a vs re-solve b, Q110 key b vs re-solve a, Q112 key d vs re-solve b
-12-10 12:30:16   [Missing_Term] set 01: Q9 key a vs re-solve d
 12-10 12:33:24   [Venn_Diagrams] repaired set 03 (en + hi, key confirmed by an independent re-solve)
 12-10 12:37:59   [Venn_Diagrams] set 04: Q77 key b vs re-solve a
 12-10 12:38:33   [Missing_Term] repaired set 01 (en + hi, key confirmed by an independent re-solve)
@@ -78,4 +74,8 @@
 12-10 13:37:39 DONE 10th_Level/Reasoning/Chapter_12_Missing_Term in 68 min → a0c9f76b
 12-10 13:37:40 START 10th_Level/Reasoning/Chapter_13_Dictionary_Order (OK: todo 0, problems 0)
 12-10 13:41:11   [Dictionary_Order] set 01: key confirmed
+12-10 13:42:52   [Venn_Diagrams] repaired set 05 (en + hi, key confirmed by an independent re-solve)
+12-10 13:49:01   [Dictionary_Order] set 02: Q29 key d vs re-solve a, Q31 key b vs re-solve a
+12-10 13:49:13   [Clock_Calendar] review PYQ_hi.txt: 1 issue(s): - Q3 solution incorrectly sums odd days for years 2010–2015 to prove 2009 and 2015 calendars match → Correct method: su
+12-10 13:53:09   [Venn_Diagrams] set 06: Q127 key b vs re-solve d, Q130 key a vs re-solve b, Q133 key d vs re-solve a, Q148 key c vs re-solve a
 ```
