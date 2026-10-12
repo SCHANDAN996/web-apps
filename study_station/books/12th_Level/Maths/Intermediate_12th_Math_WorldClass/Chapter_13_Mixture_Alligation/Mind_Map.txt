@@ -1,0 +1,20 @@
+```mermaid
+graph TD
+    A["मिश्रण और एलिगेशन<br>Mixture & Alligation"] --> B["औसत मूल्य<br>Mean Price"]
+    A --> C["एलिगेशन क्रॉस<br>Alligation Cross"]
+    A --> D["प्रतिस्थापन<br>Replacement"]
+    A --> E["घोल का मिश्रण<br>Mixing Solutions"]
+    A --> F["अनुपात बदलना<br>Changing a Ratio"]
+    A --> G["जाल<br>Examiner's Traps"]
+
+    B --> B1["Σ(q × c) ÷ Σq"]
+    C --> C1["सस्ता : महँगा = (d − m) : (m − c)"]
+    C --> C2["दूरियाँ उलटें<br>Swap the Distances"]
+    D --> D1["V(1 − x/V)ⁿ"]
+    E --> E1["Σ(V × %) ÷ ΣV"]
+    F --> F1["भाग निकालें, जोड़ें, सरल करें<br>Split, Add, Simplify"]
+    A --> H["अन्य उपयोग<br>Speed, Marks, Profit"]
+    G --> G1["उल्टा अनुपात<br>Reversed Ratio"]
+    G --> G2["सीधा घटाना<br>Linear Subtraction"]
+    G --> G3["साधारण औसत<br>Simple Average"]
+```
