@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 01:26 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
+**आख़िरी update:** 12-10-2026 01:37 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 122 मिनट |
-| W2 | Chapter 10 Clock Calendar (10th Reasoning) | 🔎 review हो रहा है | 15 मिनट |
-| W3 | Chapter 12 Missing Term (10th Reasoning) | 🔎 review हो रहा है | 16 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 133 मिनट |
+| W2 | Chapter 10 Clock Calendar (10th Reasoning) | 🔎 review हो रहा है | 26 मिनट |
+| W3 | Chapter 12 Missing Term (10th Reasoning) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -32,17 +32,12 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 12-10 13:37 — 10th Reasoning · Chapter 12 Missing Term
 - 12-10 12:29 — 10th Reasoning · Chapter 11 Series
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 12:13:33   [Venn_Diagrams] set 03: Q51 key a vs re-solve d, Q55 key a vs re-solve b, Q60 key b vs re-solve c, Q66 key d vs re-solve c, Q73 key c vs re-solve a
-12-10 12:17:24   [Series] review PYQ_en.txt: 3 issue(s): - Heading "Yearly Frequency & Trend (2015–2024)" includes a row for 2025 → change heading to "2015–2025"
-12-10 12:20:22   [Venn_Diagrams] set 03 try 1: re-solve disagrees (Q55 key a vs re-solve d, Q60 key a vs re-solve c)
-12-10 12:23:46   [Series] review PYQ_hi.txt: 2 issue(s): - वर्ष-वार आवृत्ति और रुझान (2015–2024) शीर्षक 2015–2024 दर्शाता है लेकिन तालिका में 2025 की पंक्ति शामिल है → शीर्षक क
-12-10 12:24:43   [Clock_Calendar] set 04: key confirmed
-12-10 12:26:02   [Venn_Diagrams] set 03 try 2: re-solve disagrees (Q63 key a vs re-solve b, Q73 key d vs re-solve ?)
 12-10 12:26:15   [Series] review Short_Tricks_en.txt: 1 issue(s): - Box 2 title says “Perfect Squares up to 25” but the list stops at 15² (225); either change the title to “Per
 12-10 12:29:18   [Series] review: 6 section(s) corrected, 0 failed
 12-10 12:29:18   [Series] written 6, failed 0; AI calls today 79/100000
@@ -77,4 +72,10 @@
 12-10 13:20:49   [Clock_Calendar] review Content_en.txt: 3 issue(s): - Faulty clock example: "true time = 10:00 AM × (1440/1445) – adjust accordingly" is incorrect → Correct: true elap
 12-10 13:23:33   [Missing_Term] review PYQ_hi.txt: 4 issue(s): - The heading states "पिछले दस वर्षों" but the table includes data for 11 years (2015–2025) → Change heading to "पिछले 
 12-10 13:25:47   [Clock_Calendar] review Feynman_en.txt: 2 issue(s): - "For the 1900s, the dial starts at 0 (like Monday)" is incorrect because in the given day-code mapping 0 = Sunday
+12-10 13:27:00   [Venn_Diagrams] set 05 try 3: re-solve disagrees (Q116 key c vs re-solve d)
+12-10 13:27:56   [Missing_Term] review Short_Tricks_en.txt: 1 issue(s): - In 'Wrap-around' mnemonic, example "Y + 4 = 26+4? → 30, 30-26=4=D" is incorrect because Y is the 25th letter
+12-10 13:32:15   [Missing_Term] review Short_Tricks_hi.txt: 1 issue(s): - In trick 12 "ग्लोब रैप", the example "Y + 4 = 26+4 = 30, 30-26 = 4 = D" is wrong because Y is the 25th lette
+12-10 13:36:03   [Clock_Calendar] review Flashcards_en.txt: 5 issue(s): - Chat line: "🗺️ Mind Map (Clock & Calendar) – but the prompt requested flashcards. Let's do flashcards." → Remo
+12-10 13:37:24   [Missing_Term] review: 4 section(s) corrected, 0 failed
+12-10 13:37:24   [Missing_Term] written 4, failed 0; AI calls today 163/100000
 ```

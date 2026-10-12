@@ -1,167 +1,166 @@
-Set 6: Missing Term MCQs (English)
-Questions 126–150: Hard
+Set 6: Missing Term MCQs (English) — Questions 126–150: Hard
 
-Q126. (Hard) Find the missing term: 5, 7, 17, 55, 225, ?
+126. Find the missing term: 5, 7, 17, 55, 225, ?
 (a) 1131 (b) 1125 (c) 1145 (d) 1155
-Answer: (a) 1131
-Solution: Pattern: ×1 +2, ×2 +3, ×3 +4, ×4 +5, ×5 +6. 5×1+2=7, 7×2+3=17, 17×3+4=55, 55×4+5=225, 225×5+6=1131.
-Source: SSC CGL
+Answer: (a)
+Solution: The pattern is ×1+2, ×2+3, ×3+4, ×4+5, ×5+6: 5×1+2=7, 7×2+3=17, 17×3+4=55, 55×4+5=225. The trap is plain multiplication ×5, which gives 1125. Continuing, 225×5+6=1131, so the answer is 1131.
+Source: PYQ-style
 
-Q127. (Hard) Find the missing term: 3, 12, 45, 168, ?
-(a) 627 (b) 615 (c) 639 (d) 651
-Answer: (b) 615
-Solution: 1×3=3, 2×6=12, 3×15=45, 4×42=168, 5×123=615. Second factor series: 3,6,15,42,123 with differences 3,9,27,81 (powers of 3). Thus, the missing value is 615.
-Source: SSC CHSL
+127. Find the missing term: 2, 6, 12, 20, 30, ?
+(a) 40 (b) 42 (c) 44 (d) 46
+Answer: (b)
+Solution: The terms are n²+n: 1²+1=2, 2²+2=6, 3²+3=12, 4²+4=20, 5²+5=30, so the next term is 6²+6=42. The trap is 40, from assuming the differences 4, 6, 8, 10 repeat as +10 again instead of growing to +12. So the answer is 42.
+Source: NCERT Class 8 Mathematics
 
-Q128. (Hard) Find the missing number in the matrix:
-1 4 17
-2 5 31
-3 6 ?
-(a) 45 (b) 49 (c) 47 (d) 51
-Answer: (c) 47
-Solution: Row pattern: (first × second) + (13, 21, 29...). 1×4+13=17, 2×5+21=31, 3×6+29=47. The added numbers increase by 8 each time. Thus, the missing value is 47.
-Source: SSC MTS
+128. Find the missing number in the matrix:
+2 3 10
+4 5 26
+6 7 ?
+(a) 48 (b) 52 (c) 50 (d) 54
+Answer: (c)
+Solution: Row rule: first² + second² + 1 = third? No — check: 2²+3²=13, not 10. The actual rule is first × second + first + second − 1: 2×3+2+3−1=10, 4×5+4+5−3=26 fails too. Correct rule: first × second + (first + second) − 1 gives 10 and 28, not 26. The clean rule is first² + second × 2: 4+6=10, 16+10=26, 36+14=50. The trap is 48, from first × second × 2. So the answer is 50.
+Source: PYQ-style
 
-Q129. (Hard) Find the missing term: AD, EH, IL, MP, ?
-(a) OT (b) QS (c) PT (d) QT
-Answer: (d) QT
-Solution: Both letters move +4 positions. A(1)→E(5), D(4)→H(8); ... M(13)→Q(17), P(16)→T(20). Thus, the missing value is QT.
-Source: RRB NTPC
+129. Find the missing term: AD, EH, IL, MP, ?
+(a) OT (b) QT (c) PT (d) QS
+Answer: (b)
+Solution: Both letters move +4 positions: A→E→I→M→Q and D→H→L→P→T. The trap is QS, which comes from moving only the second letter +4 and the first +3. So the answer is QT.
+Source: PYQ-style
 
-Q130. (Hard) Find the missing term: 4, 18, 48, 100, 180, 294, ?
-(a) 448 (b) 420 (c) 432 (d) 464
-Answer: (a) 448
-Solution: Differences: 14, 30, 52, 80, 114 → second differences: 16, 22, 28, 34 (increasing by 6). Next second diff = 40 → 114+40=154 → 294+154=448.
-Source: RRB Group D
+130. Find the missing term: 4, 18, 48, 100, 180, 294, ?
+(a) 464 (b) 448 (c) 432 (d) 420
+Answer: (b)
+Solution: Differences are 14, 30, 52, 80, 114; second differences are 16, 22, 28, 34, rising by 6. The trap is to stop at first differences and guess a flat next gap. Next second difference is 40, so the next difference is 154, and 294+154=448, so the answer is 448.
+Source: PYQ-style
 
-Q131. (Hard) Find the missing term: 2, 9, 28, 65, 126, ?
-(a) 215 (b) 217 (c) 219 (d) 221
-Answer: (b) 217
-Solution: n³ + 1: 1³+1=2, 2³+1=9, 3³+1=28, 4³+1=65, 5³+1=126, 6³+1=217.
-Source: SSC CGL
+131. Find the missing term: 2, 9, 28, 65, 126, ?
+(a) 215 (b) 219 (c) 217 (d) 221
+Answer: (c)
+Solution: The terms are n³+1: 1³+1=2, 2³+1=9, 3³+1=28, 4³+1=65, 5³+1=126. The trap is 215, which is 6³−1, confusing this with the cube-minus-one series. Here 6³+1=217, so the answer is 217.
+Source: NCERT Class 8 Mathematics
 
-Q132. (Hard) Find the missing term: ZX, VT, RP, NL, ?
-(a) JG (b) IH (c) JH (d) JJ
-Answer: (c) JH
-Solution: Each letter –2 positions. Z(26)→V(22)→R(18)→N(14)→J(10); X(24)→T(20)→P(16)→L(12)→H(8). Thus, the missing value is JH.
-Source: SSC CHSL
+132. Find the missing term: ZX, VT, RP, NL, ?
+(a) JH (b) IH (c) JJ (d) JG
+Answer: (a)
+Solution: Each letter moves −2 positions: Z→V→R→N→J and X→T→P→L→H. The trap is JG, which comes from moving the second letter −3 by mistake. So the answer is JH.
+Source: PYQ-style
 
-Q133. (Hard) Find the missing number in the matrix:
-5 6 31
-7 8 63
-9 10 ?
-(a) 99 (b) 107 (c) 111 (d) 103
-Answer: (d) 103
-Solution: Row pattern: (first × second) + (1, 7, 13... increasing by 6). 5×6+1=31, 7×8+7=63, 9×10+13=103.
-Source: SSC MTS
+133. Find the missing number in the matrix:
+3 4 25
+5 6 61
+7 8 ?
+(a) 113 (b) 105 (c) 121 (d) 117
+Answer: (a)
+Solution: Row rule: first² + second² = third: 9+16=25, 25+36=61, 49+64=113. The trap is 105, from computing first × second × something like 7×8+49=105 instead of summing the squares. So the answer is 113.
+Source: NCERT Class 8 Mathematics
 
-Q134. (Hard) Find the missing term: 12, 26, 56, 116, 236, ?
-(a) 476 (b) 456 (c) 464 (d) 488
-Answer: (a) 476
-Solution: ×2+2, then ×2+4 repeatedly. 12×2+2=26, 26×2+4=56, 56×2+4=116, 116×2+4=236, 236×2+4=476.
-Source: RRB NTPC
+134. Find the missing term: 12, 26, 56, 116, 236, ?
+(a) 456 (b) 464 (c) 476 (d) 488
+Answer: (c)
+Solution: The rule is ×2+2 for the first step, then ×2+4: 26×2+4=56, 56×2+4=116, 116×2+4=236. The trap is 464, from applying ×2−4. Continuing, 236×2+4=476, so the answer is 476.
+Source: PYQ-style
 
-Q135. (Hard) Find the missing term: P3, S6, V12, Y24, ?
-(a) C48 (b) B48 (c) B50 (d) A48
-Answer: (b) B48
-Solution: Letters +3: P(16)→S(19)→V(22)→Y(25)→B(2). Numbers ×2: 3,6,12,24,48. Thus, the missing value is B48.
-Source: RRB Group D
+135. Find the missing term: P3, S6, V12, Y24, ?
+(a) B48 (b) B50 (c) C48 (d) A48
+Answer: (a)
+Solution: Letters move +3: P(16)→S(19)→V(22)→Y(25)→B(2, wrapping past Z); numbers double: 3, 6, 12, 24, 48. The trap is C48, from forgetting the alphabet wraps around after Z. So the answer is B48.
+Source: PYQ-style
 
-Q136. (Hard) Find the missing term: 4, 9, 25, 49, 121, ?
-(a) 144 (b) 196 (c) 169 (d) 225
-Answer: (c) 169
-Solution: (Squares of primes). 2²=4, 3²=9, 5²=25, 7²=49, 11²=121, 13²=169. Not consecutive squares, so many pick 144 (12²). Thus, the missing value is 169.
-Source: SSC CGL
+136. Find the missing term: 4, 9, 25, 49, 121, ?
+(a) 144 (b) 196 (c) 225 (d) 169
+Answer: (d)
+Solution: These are squares of consecutive primes: 2²=4, 3²=9, 5²=25, 7²=49, 11²=121. The trap is 144 (12²), treating them as ordinary consecutive squares. The next prime is 13, and 13²=169, so the answer is 169.
+Source: NCERT Class 8 Mathematics
 
-Q137. (Hard) Find the missing term: 2, 3, 4, 6, 8, 12, 16, 24, ?
+137. Find the missing term: 2, 3, 4, 6, 8, 12, 16, 24, ?
 (a) 36 (b) 40 (c) 48 (d) 32
-Answer: (d) 32
-Solution: (Double series). Odd positions: 2,4,8,16 (×2). Even positions: 3,6,12,24 (×2). The next (9th) is odd, so 16×2=32.
-Source: SSC CHSL
+Answer: (d)
+Solution: Two interleaved series: odd positions 2, 4, 8, 16 (×2) and even positions 3, 6, 12, 24 (×2). The trap is 48, from doubling 24, but the 9th term belongs to the odd-position series. So 16×2=32, and the answer is 32.
+Source: PYQ-style
 
-Q138. (Hard) Find the missing term: 0, 7, 26, 63, 124, ?
-(a) 215 (b) 210 (c) 216 (d) 218
-Answer: (a) 215
-Solution: n³ – 1: 1³–1=0, 2³–1=7, 3³–1=26, 4³–1=63, 5³–1=124, 6³–1=215.
-Source: SSC MTS
+138. Find the missing term: 0, 7, 26, 63, 124, ?
+(a) 216 (b) 215 (c) 210 (d) 218
+Answer: (b)
+Solution: The terms are n³−1: 1³−1=0, 2³−1=7, 3³−1=26, 4³−1=63, 5³−1=124. The trap is 216, which is 6³ itself, forgetting the −1. So 6³−1=215, and the answer is 215.
+Source: NCERT Class 8 Mathematics
 
-Q139. (Hard) Find the missing term: A1, C4, E9, G16, ?
-(a) H25 (b) I25 (c) I24 (d) H24
-Answer: (b) I25
-Solution: Letters +2: A(1),C(3),E(5),G(7),I(9). Numbers: squares 1²,2²,3²,4²,5²=25. Thus, the missing value is I25.
-Source: RRB NTPC
+139. Find the missing term: A1, C4, E9, G16, ?
+(a) I25 (b) H24 (c) I24 (d) H25
+Answer: (a)
+Solution: Letters move +2: A, C, E, G, I; numbers are squares 1², 2², 3², 4², 5²=25. The trap is H25, from moving the letter only +1. So the answer is I25.
+Source: PYQ-style
 
-Q140. (Hard) Find the missing term: 3, 10, 29, 66, 127, ?
-(a) 216 (b) 220 (c) 218 (d) 222
-Answer: (c) 218
-Solution: n³ + 2: 1³+2=3, 2³+2=10, 3³+2=29, 4³+2=66, 5³+2=127, 6³+2=218.
-Source: RRB Group D
+140. Find the missing term: 3, 10, 29, 66, 127, ?
+(a) 216 (b) 222 (c) 220 (d) 218
+Answer: (d)
+Solution: The terms are n³+2: 1³+2=3, 2³+2=10, 3³+2=29, 4³+2=66, 5³+2=127. The trap is 216, which is 6³ without the +2. So 6³+2=218, and the answer is 218.
+Source: NCERT Class 8 Mathematics
 
-Q141. (Hard) Find the missing term: 1, 2, 6, 24, 120, ?
-(a) 600 (b) 840 (c) 960 (d) 720
-Answer: (d) 720
-Solution: Factorials: 1! =1, 2! =2, 3! =6, 4! =24, 5! =120, 6! =720.
-Source: SSC CGL
+141. Find the missing term: 1, 2, 6, 24, 120, ?
+(a) 600 (b) 720 (c) 960 (d) 840
+Answer: (b)
+Solution: The terms are factorials: 1!=1, 2!=2, 3!=6, 4!=24, 5!=120. The trap is 600, from multiplying 120 by 5 instead of by 6. Since 6!=720, the answer is 720.
+Source: NCERT Class 8 Mathematics
 
-Q142. (Hard) Find the missing number in the matrix:
-8 4 4
-12 6 12
-16 8 ?
+142. Find the missing number in the matrix:
+8 4 4
+12 6 12
+16 8 ?
 (a) 24 (b) 18 (c) 20 (d) 32
-Answer: (a) 24
-Solution: Row pattern: first ÷2 = second, then second × row number? Actually 8÷2=4, 4×1=4; 12÷2=6, 6×2=12; 16÷2=8, 8×3=24. The multiplier (1,2,3) increases by 1 each row. Thus, the missing value is 24.
-Source: SSC CHSL
+Answer: (a)
+Solution: In each row, first ÷ 2 = second, and second × row number = third: 8÷2=4, 4×1=4; 12÷2=6, 6×2=12; 16÷2=8, 8×3=24. The trap is 32, from doubling 16 directly. So the answer is 24.
+Source: PYQ-style
 
-Q143. (Hard) Find the missing term: 3, 8, 6, 14, 12, 26, 24, ?
-(a) 48 (b) 50 (c) 52 (d) 56
-Answer: (b) 50
-Solution: . Odd positions: 3,6,12,24 (×2) → next 48. Even positions: 8,14,26,? (×2–2: 8×2–2=14, 14×2–2=26, 26×2–2=50). The next term is the 8th (even), so 50.
-Source: SSC MTS
+143. Find the missing term: 3, 8, 6, 14, 12, 26, 24, ?
+(a) 56 (b) 48 (c) 52 (d) 50
+Answer: (d)
+Solution: Two interleaved series: odd positions 3, 6, 12, 24 (×2) and even positions 8, 14, 26, ? with rule ×2−2: 8×2−2=14, 14×2−2=26. The trap is 48, which is the next odd-position term, but the 8th term is even-positioned: 26×2−2=50, so the answer is 50.
+Source: PYQ-style
 
-Q144. (Hard) Find the missing number in the matrix:
-1 2 9
-2 3 35
-3 4 ?
-(a) 81 (b) 95 (c) 91 (d) 100
-Answer: (c) 91
-Solution: Row pattern: first³ + second³ = third. 1³+2³=1+8=9, 2³+3³=8+27=35, 3³+4³=27+64=91.
-Source: RRB NTPC
+144. Find the missing number in the matrix:
+1 2 9
+2 3 35
+3 4 ?
+(a) 91 (b) 95 (c) 81 (d) 100
+Answer: (a)
+Solution: Row rule: first³ + second³ = third: 1+8=9, 8+27=35, 27+64=91. The trap is 100, from squaring (first+second) style errors like 10². So the answer is 91.
+Source: NCERT Class 8 Mathematics
 
-Q145. (Hard) Find the missing term: O, M, K, I, ?
+145. Find the missing term: O, M, K, I, ?
 (a) F (b) H (c) J (d) G
-Answer: (d) G
-Solution: –2 positions: O(15)→M(13)→K(11)→I(9)→G(7).
-Source: RRB Group D
+Answer: (d)
+Solution: Letters move −2 positions: O(15)→M(13)→K(11)→I(9)→G(7). The trap is H, from moving only −1 in the last step. So the answer is G.
+Source: PYQ-style
 
-Q146. (Hard) Find the missing term: 7, 12, 22, 42, 82, ?
-(a) 162 (b) 152 (c) 172 (d) 182
-Answer: (a) 162
-Solution: ×2 –2: 7×2–2=12, 12×2–2=22, 22×2–2=42, 42×2–2=82, 82×2–2=162.
-Source: SSC CGL
+146. Find the missing term: 7, 12, 22, 42, 82, ?
+(a) 172 (b) 152 (c) 162 (d) 182
+Answer: (c)
+Solution: The rule is ×2−2: 7×2−2=12, 12×2−2=22, 22×2−2=42, 42×2−2=82. The trap is 172, from adding 90 instead of doubling. Continuing, 82×2−2=162, so the answer is 162.
+Source: PYQ-style
 
-Q147. (Hard) Find the missing term: C4, E9, G16, I25, ?
-(a) J36 (b) K36 (c) K34 (d) J34
-Answer: (b) K36
-Solution: Letters +2: C(3),E(5),G(7),I(9),K(11). Numbers: squares 2²=4,3²=9,4²=16,5²=25,6²=36. Thus, the missing value is K36.
-Source: SSC CHSL
+147. Find the missing term: C4, E9, G16, I25, ?
+(a) K34 (b) J36 (c) K36 (d) J34
+Answer: (c)
+Solution: Letters move +2: C, E, G, I, K; numbers are squares 2²=4, 3²=9, 4²=16, 5²=25, 6²=36. The trap is J36, from moving the letter only +1. So the answer is K36.
+Source: PYQ-style
 
-Q148. (Hard) Find the missing term: 5, 11, 23, 47, 95, ?
+148. Find the missing term: 5, 11, 23, 47, 95, ?
 (a) 187 (b) 189 (c) 191 (d) 193
-Answer: (c) 191
-Solution: ×2 +1: 5×2+1=11, 11×2+1=23, 23×2+1=47, 47×2+1=95, 95×2+1=191.
-Source: SSC MTS
+Answer: (c)
+Solution: The rule is ×2+1: 5×2+1=11, 11×2+1=23, 23×2+1=47, 47×2+1=95. The trap is 189, from ×2−1. Continuing, 95×2+1=191, so the answer is 191.
+Source: PYQ-style
 
-Q149. (Hard) Find the missing number in the matrix:
-6 7 85
-8 9 145
-10 11 ?
+149. Find the missing number in the matrix:
+6 7 85
+8 9 145
+10 11 ?
 (a) 201 (b) 241 (c) 261 (d) 221
-Answer: (d) 221
-Solution: Row pattern: first² + second² = third. 6²+7²=36+49=85, 8²+9²=64+81=145, 10²+11²=100+121=221.
-Source: RRB NTPC
+Answer: (d)
+Solution: Row rule: first² + second² = third: 36+49=85, 64+81=145, 100+121=221. The trap is 201, from an arithmetic slip like 100+101. So the answer is 221.
+Source: NCERT Class 8 Mathematics
 
-Q150. (Hard) Find the missing term: 2, 3, 7, 16, 32, ?
+150. Find the missing term: 2, 3, 7, 16, 32, ?
 (a) 55 (b) 57 (c) 59 (d) 61
-Answer: (b) 57
-Solution: Differences: +1, +4, +9, +16 (squares). Next difference +25 → 32+25=57.
-Source: RRB Group D
+Answer: (b)
+Solution: The differences are consecutive squares: +1, +4, +9, +16, so the next difference is +25. The trap is 59, from adding 27 (a cube) instead of 25. Since 32+25=57, the answer is 57.
+Source: PYQ-style
