@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 154 मिनट |
-| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 154 मिनट |
-| W3 | Chapter 17 Course of Action (10th Reasoning) | 🔎 review हो रहा है | 24 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 155 मिनट |
+| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 155 मिनट |
+| W3 | Chapter 17 Course of Action (10th Reasoning) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -32,14 +32,13 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 12-10 19:24 — 10th Reasoning · Chapter 17 Course of Action
 - 12-10 18:41 — 10th Reasoning · Chapter 16 Statement Conclusion
 - 12-10 18:01 — 10th Reasoning · Chapter 15 Mathematical Operations
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 18:13:25   [Venn_Diagrams] set 04: Q77 key b vs re-solve a
-12-10 18:15:22   [Statement_Conclusion] set 04: key confirmed
 12-10 18:17:19   [Statement_Conclusion] set 05: key confirmed
 12-10 18:17:36   [Dictionary_Order] set 04 try 1: re-solve disagrees (Q80 key b vs re-solve ?, Q93 key b vs re-solve d)
 12-10 18:18:00   [Venn_Diagrams] set 04 try 1: re-solve disagrees (Q77 key c vs re-solve a)
@@ -78,4 +77,6 @@
 12-10 19:21:44   [Venn_Diagrams] repaired set 05 (en + hi, key confirmed by an independent re-solve)
 12-10 19:22:05   [Course_of_Action] review Short_Tricks_en.txt: 1 issue(s): - Mnemonic 11 example incorrectly states giving supplements is a root‑cause action for malnutrition; supplemen
 12-10 19:22:42   [Dictionary_Order] set 05 try 3: re-solve disagrees (Q116 key d vs re-solve b, Q124 key c vs re-solve b)
+12-10 19:24:46   [Course_of_Action] review: 5 section(s) corrected, 0 failed
+12-10 19:24:46   [Course_of_Action] written 5, failed 0; AI calls today 170/100000
 ```
