@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 02:57 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
+**आख़िरी update:** 12-10-2026 03:12 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 24 मिनट |
-| W2 | Chapter 14 Alphabet Questions (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 36 मिनट |
-| W3 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 79 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 40 मिनट |
+| W2 | Chapter 14 Alphabet Questions (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 51 मिनट |
+| W3 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 95 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -43,10 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 13:27:00   [Venn_Diagrams] set 05 try 3: re-solve disagrees (Q116 key c vs re-solve d)
-12-10 13:27:56   [Missing_Term] review Short_Tricks_en.txt: 1 issue(s): - In 'Wrap-around' mnemonic, example "Y + 4 = 26+4? → 30, 30-26=4=D" is incorrect because Y is the 25th letter
-12-10 13:32:15   [Missing_Term] review Short_Tricks_hi.txt: 1 issue(s): - In trick 12 "ग्लोब रैप", the example "Y + 4 = 26+4 = 30, 30-26 = 4 = D" is wrong because Y is the 25th lette
-12-10 13:36:03   [Clock_Calendar] review Flashcards_en.txt: 5 issue(s): - Chat line: "🗺️ Mind Map (Clock & Calendar) – but the prompt requested flashcards. Let's do flashcards." → Remo
 12-10 13:37:24   [Missing_Term] review: 4 section(s) corrected, 0 failed
 12-10 13:37:24   [Missing_Term] written 4, failed 0; AI calls today 163/100000
 12-10 13:37:39 DONE 10th_Level/Reasoning/Chapter_12_Missing_Term in 68 min → a0c9f76b
@@ -83,4 +79,8 @@
 12-10 14:56:38   [Alphabet_Questions] repaired set 02 (en + hi, key confirmed by an independent re-solve)
 12-10 14:56:48   [Dictionary_Order] set 04 try 1: re-solve disagrees (Q80 key b vs re-solve ?, Q93 key a vs re-solve d)
 12-10 14:57:08   [Venn_Diagrams] set 02 try 2: re-solve disagrees (Q28 key d vs re-solve c)
+12-10 14:57:55   [Alphabet_Questions] set 03: key confirmed
+12-10 15:01:36   [Alphabet_Questions] set 04: key confirmed
+12-10 15:03:41   [Venn_Diagrams] set 02 try 3: re-solve disagrees (Q28 key c vs re-solve d)
+12-10 15:06:10   [Dictionary_Order] set 04 try 2: re-solve disagrees (Q80 key b vs re-solve ?, Q93 key a vs re-solve d)
 ```
