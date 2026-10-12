@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 06:41 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 04:49 PM
+**आख़िरी update:** 12-10-2026 06:53 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 04:49 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 112 मिनट |
-| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 112 मिनट |
-| W3 | Chapter 16 Statement Conclusion (10th Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 123 मिनट |
+| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 123 मिनट |
+| W3 | Chapter 17 Course of Action (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -38,14 +38,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 17:26:28   [Mathematical_Operations] review Content_hi.txt: 1 issue(s): - In the caution box, the second symbol is missing (shown as ‘’); it should be a specific symbol like ‘#’ or ‘%’ → 
-12-10 17:26:33   [Dictionary_Order] set 02 try 3: re-solve disagrees (Q30 key b vs re-solve c, Q35 key c vs re-solve b)
-12-10 17:33:40   [Dictionary_Order] set 02 try 4: re-solve disagrees (Q30 key d vs re-solve b, Q35 key b vs re-solve c)
-12-10 17:33:40   [Dictionary_Order] FAILED set 02: no version passed the checks — files left as they were
-12-10 17:34:46   [Venn_Diagrams] set 03: Q51 key a vs re-solve d, Q55 key a vs re-solve b, Q60 key b vs re-solve c, Q63 key a vs re-solve c, Q66 key d vs re-solve c, Q73 key c vs re-s
-12-10 17:37:40   [Mathematical_Operations] review Flashcards_en.txt: 2 issue(s): - Card 2: The English mnemonic “Rohan’s grandmother makes” does not match the initials of Replace, Decode, BODMA
-12-10 17:40:16   [Venn_Diagrams] set 03 try 1: re-solve disagrees (Q67 key b vs re-solve a)
-12-10 17:41:38   [Dictionary_Order] set 03: Q58 key d vs re-solve a, Q68 key b vs re-solve ?, Q71 key a vs re-solve b, Q74 key d vs re-solve b
 12-10 17:43:25   [Mathematical_Operations] review PYQ_en.txt: 6 issue(s): - RRB NTPC total in Year-wise Frequency table shows 8 but column entries sum to 6 → correct total is 6 (or column entri
 12-10 17:49:41   [Venn_Diagrams] set 03 try 2: re-solve disagrees (Q60 key a vs re-solve d, Q67 key a vs re-solve b)
 12-10 17:54:41   [Mathematical_Operations] review PYQ_hi.txt: 7 issue(s): - Year-wise frequency table grand total (योग) shows 51 but sum of yearly totals is 50 → Grand total should be 50
@@ -78,4 +70,12 @@
 12-10 18:41:36   [Statement_Conclusion] review: 3 section(s) corrected, 0 failed
 12-10 18:41:36   [Statement_Conclusion] written 3, failed 0; AI calls today 120/100000
 12-10 18:41:40   [Venn_Diagrams] set 05: Q101 key a vs re-solve b, Q116 key d vs re-solve a, Q122 key b vs re-solve a, Q123 key c vs re-solve b, Q125 key b vs re-solve d
+12-10 18:42:00 DONE 10th_Level/Reasoning/Chapter_16_Statement_Conclusion in 40 min → 8d780901
+12-10 18:42:01 START 10th_Level/Reasoning/Chapter_17_Course_of_Action (OK: todo 0, problems 0)
+12-10 18:43:55   [Course_of_Action] set 01: key confirmed
+12-10 18:44:40   [Dictionary_Order] set 04 try 4: re-solve disagrees (Q80 key b vs re-solve ?, Q93 key c vs re-solve b)
+12-10 18:44:40   [Dictionary_Order] FAILED set 04: no version passed the checks — files left as they were
+12-10 18:51:30   [Course_of_Action] set 02: key confirmed
+12-10 18:52:05   [Venn_Diagrams] set 05 try 1: re-solve disagrees (Q111 key b vs re-solve a)
+12-10 18:53:23   [Course_of_Action] set 03: key confirmed
 ```
