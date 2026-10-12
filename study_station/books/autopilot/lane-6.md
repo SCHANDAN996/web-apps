@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 03:12 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
+**आख़िरी update:** 12-10-2026 03:27 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 40 मिनट |
-| W2 | Chapter 14 Alphabet Questions (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 51 मिनट |
-| W3 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 95 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 55 मिनट |
+| W2 | Chapter 14 Alphabet Questions (10th Reasoning) | 🔎 review हो रहा है | 6 मिनट |
+| W3 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 110 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -43,16 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 13:37:24   [Missing_Term] review: 4 section(s) corrected, 0 failed
-12-10 13:37:24   [Missing_Term] written 4, failed 0; AI calls today 163/100000
-12-10 13:37:39 DONE 10th_Level/Reasoning/Chapter_12_Missing_Term in 68 min → a0c9f76b
-12-10 13:37:40 START 10th_Level/Reasoning/Chapter_13_Dictionary_Order (OK: todo 0, problems 0)
-12-10 13:41:11   [Dictionary_Order] set 01: key confirmed
-12-10 13:42:52   [Venn_Diagrams] repaired set 05 (en + hi, key confirmed by an independent re-solve)
-12-10 13:49:01   [Dictionary_Order] set 02: Q29 key d vs re-solve a, Q31 key b vs re-solve a
-12-10 13:49:13   [Clock_Calendar] review PYQ_hi.txt: 1 issue(s): - Q3 solution incorrectly sums odd days for years 2010–2015 to prove 2009 and 2015 calendars match → Correct method: su
-12-10 13:53:09   [Venn_Diagrams] set 06: Q127 key b vs re-solve d, Q130 key a vs re-solve b, Q133 key d vs re-solve a, Q148 key c vs re-solve a
-12-10 13:59:18   [Clock_Calendar] review Important_Rules_en.txt: 4 issue(s): - In "Hands opposite (180°)" row: formula "M = (60H ± 180)/11" and example "5 hr 43⁷⁄₁₁ min" are for 90°, n
 12-10 14:03:15   [Dictionary_Order] repaired set 02 (en + hi, key confirmed by an independent re-solve)
 12-10 14:05:41   [Venn_Diagrams] set 06 try 1: re-solve disagrees (Q126 key c vs re-solve ?, Q130 key c vs re-solve a)
 12-10 14:09:06   [Dictionary_Order] set 03: Q58 key d vs re-solve a, Q68 key b vs re-solve ?, Q71 key a vs re-solve b, Q74 key d vs re-solve b
@@ -83,4 +73,14 @@
 12-10 15:01:36   [Alphabet_Questions] set 04: key confirmed
 12-10 15:03:41   [Venn_Diagrams] set 02 try 3: re-solve disagrees (Q28 key c vs re-solve d)
 12-10 15:06:10   [Dictionary_Order] set 04 try 2: re-solve disagrees (Q80 key b vs re-solve ?, Q93 key a vs re-solve d)
+12-10 15:13:14   [Alphabet_Questions] set 05: key confirmed
+12-10 15:15:43   [Dictionary_Order] set 04 try 3: re-solve disagrees (Q80 key b vs re-solve ?, Q93 key a vs re-solve d)
+12-10 15:15:51   [Venn_Diagrams] set 02 try 4: re-solve disagrees (Q26 key b vs re-solve a, Q27 key b vs re-solve a)
+12-10 15:15:51   [Venn_Diagrams] FAILED set 02: no version passed the checks — files left as they were
+12-10 15:21:27   [Alphabet_Questions] set 06: key confirmed
+12-10 15:21:27   [Alphabet_Questions] written 1, failed 0; AI calls today 240/100000
+12-10 15:21:37   [Venn_Diagrams] set 03: key confirmed
+12-10 15:24:35   [Venn_Diagrams] set 04: key confirmed
+12-10 15:27:25   [Dictionary_Order] set 04 try 4: re-solve disagrees (Q80 key b vs re-solve ?, Q93 key a vs re-solve d)
+12-10 15:27:25   [Dictionary_Order] FAILED set 04: no version passed the checks — files left as they were
 ```
