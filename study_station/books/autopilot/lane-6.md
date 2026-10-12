@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 10:54 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
+**आख़िरी update:** 12-10-2026 11:07 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Classification (10th Reasoning) | 🔎 review हो रहा है | 15 मिनट |
-| W3 | Chapter 05 Direction Sense (10th Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 02 Classification (10th Reasoning) | 🔎 review हो रहा है | 29 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -42,14 +41,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 09:58:03   [Coding_Decoding] review Content_en.txt: 1 issue(s): - The anecdote about a 1942 British intelligence officer intercepting and decoding "GUR DHVXR OEBJA SBK WHZCF BIRE 
-12-10 10:00:08   [Coding_Decoding] review Content_hi.txt: 1 issue(s): - M = J(10) से 2 आगे = 12 गलत है → M की सही पोज़ीशन 13 है (J=10, K=11, L=12, M=13)
-12-10 10:01:07   [Direction_Sense] repaired set 04 (en + hi, key confirmed by an independent re-solve)
-12-10 10:01:40   [Classification] repaired set 01 (en + hi, key confirmed by an independent re-solve)
-12-10 10:02:39   [Coding_Decoding] review Feynman_hi.txt: 1 issue(s): - The story states that M (13) and N (14) see their own reflection in the mirror and have no partner → In the Atbas
-12-10 10:04:11   [Coding_Decoding] review Flashcards_en.txt: 1 issue(s): - Card 5 suggests an alternating shift pattern (‑1, +1, ‑1, +1) for NUMBER → MVLADQ, but the fourth letter shift
-12-10 10:05:06   [Classification] set 02: Q39 key b vs re-solve a
-12-10 10:06:20   [Coding_Decoding] review PYQ_en.txt: 6 issue(s): - Yearly Question Frequency table (2015–2024) presents invented statistics without source → Remove or replace with veri
 12-10 10:09:01   [Direction_Sense] set 05: Q107 key c vs re-solve b
 12-10 10:09:17   [Classification] repaired set 02 (en + hi, key confirmed by an independent re-solve)
 12-10 10:11:21   [Coding_Decoding] review PYQ_hi.txt: 6 issue(s): - Annual frequency table (2015-2024) presents invented statistics as factual data → Remove or label as approximate esti
@@ -82,4 +73,12 @@
 12-10 10:53:37   [Direction_Sense] review Important_Rules_hi.txt: 1 issue(s): - The formula for न्यूनतम दूरी (समकोण पथ) incorrectly states d = a² + b² (missing square root) → It should 
 12-10 10:54:08   [Direction_Sense] review: 5 section(s) corrected, 0 failed
 12-10 10:54:08   [Direction_Sense] written 5, failed 0; AI calls today 313/100000
+12-10 10:54:28 DONE 10th_Level/Reasoning/Chapter_05_Direction_Sense in 109 min → 1e9357d6
+12-10 10:54:28 worker 2: nothing left
+12-10 10:54:58   [Classification] review Flashcards_hi.txt: 1 issue(s): - In the third flashcard, the back states "यहाँ सभी में +3, +3 का पैटर्न है, सिवाय एक के जो टूटता है" but actual
+12-10 10:58:25   [Classification] review PYQ_hi.txt: 4 issue(s): - Yearly Frequency table, 2019 row comment: mentions shifts on 4 June and 7 June, but SSC CGL 2019 Tier-I was held in M
+12-10 11:01:45   [Classification] review Short_Tricks_en.txt: 1 issue(s): - Trick 15 claims numbers are squares of consecutive numbers but example uses 17, 19, 21, 23 (not consecutive)
+12-10 11:03:32   [Classification] review Short_Tricks_hi.txt: 1 issue(s): - Trick 15 claims the numbers are squares of consecutive numbers but the example uses roots 17, 19, 21, 23 whi
+12-10 11:07:42   [Classification] review: 8 section(s) corrected, 0 failed
+12-10 11:07:42   [Classification] written 8, failed 0; AI calls today 323/100000
 ```
