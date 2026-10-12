@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 05:13 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 03:40 AM
+**आख़िरी update:** 13-10-2026 05:28 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 03:40 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 92 मिनट |
-| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 92 मिनट |
-| W3 | Chapter 19 Cubes Dice (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 92 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 108 मिनट |
+| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 107 मिनट |
+| W3 | Chapter 19 Cubes Dice (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 107 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -72,4 +72,9 @@
 13-10 05:09:22   [Dictionary_Order] FAILED set 03: no version passed the checks — files left as they were
 13-10 05:11:06   [Venn_Diagrams] set 05: Q101 key a vs re-solve b, Q105 key a vs re-solve b, Q111 key c vs re-solve a, Q116 key d vs re-solve a, Q121 key a vs re-solve b, Q122 key b v
 13-10 05:11:58   [Dictionary_Order] set 04: Q80 key a vs re-solve ?, Q81 key b vs re-solve ?, Q90 key c vs re-solve ?, Q93 key b vs re-solve d
+13-10 05:18:46   [Venn_Diagrams] set 05 try 1: re-solve disagrees (Q125 key d vs re-solve b)
+13-10 05:20:40   [Dictionary_Order] set 04 try 1: re-solve disagrees (Q80 key c vs re-solve ?, Q93 key b vs re-solve d)
+13-10 05:22:26   [Cubes_Dice] set 03 try 2: re-solve disagrees (Q53 key b vs re-solve c, Q67 key d vs re-solve c)
+13-10 05:27:16   [Dictionary_Order] set 04 try 2: re-solve disagrees (Q80 key b vs re-solve ?, Q93 key c vs re-solve d)
+13-10 05:27:54   [Venn_Diagrams] set 05 try 2: re-solve disagrees (Q116 key a vs re-solve d, Q122 key a vs re-solve c)
 ```
