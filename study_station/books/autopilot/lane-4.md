@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-4)
 
-**आख़िरी update:** 12-10-2026 11:25 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:24 AM
+**आख़िरी update:** 12-10-2026 12:50 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 12:49 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -15,8 +15,8 @@
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 22 | 0 | 0 |
-| 10th English | 19 | 0 | 1 |
-| 12th Maths | 20 | 3 | 0 |
+| 10th English | 20 | 0 | 0 |
+| 12th Maths | 23 | 0 | 0 |
 | 12th GK | 24 | 0 | 0 |
 | 12th Reasoning | 25 | 0 | 0 |
 | 12th English | 25 | 0 | 0 |
@@ -24,7 +24,7 @@
 | Graduation GK | 28 | 0 | 0 |
 | Graduation Reasoning | 30 | 0 | 0 |
 | Graduation English | 30 | 0 | 0 |
-| **कुल** | **292** | **3** | **1** |
+| **कुल** | **296** | **0** | **0** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -33,9 +33,8 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 11:24:23 autopilot start: 3 workers, reverse=True
-12-10 11:24:25 worker 0: nothing left
-12-10 11:24:30 worker 1: nothing left
-12-10 11:24:35 worker 2: nothing left
-12-10 11:25:19 autopilot end: done 0, failed 0
+12-10 12:49:38 autopilot start: 3 workers, reverse=True
+12-10 12:49:43 worker 0: nothing left
+12-10 12:49:47 worker 1: nothing left
+12-10 12:49:52 worker 2: nothing left
 ```
