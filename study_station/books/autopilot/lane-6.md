@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 08:18 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
+**आख़िरी update:** 12-10-2026 08:34 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 16 मिनट |
-| W2 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 138 मिनट |
-| W3 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 138 मिनट |
+| W1 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
+| W2 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 153 मिनट |
+| W3 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 153 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -41,10 +41,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 06:53:27   [Classification] repaired set 03 (en + hi, key confirmed by an independent re-solve)
-12-10 06:55:25   [Coding_Decoding] set 02: Q47 key b vs re-solve a
-12-10 06:55:46   [Classification] set 04: Q76 key a vs re-solve d, Q78 key c vs re-solve d, Q80 key a vs re-solve c, Q85 key b vs re-solve d, Q86 key c vs re-solve d, Q88 key a vs re-s
-12-10 06:59:35   [Blood_Relations] set 03: Q60 key b vs re-solve a, Q74 key d vs re-solve b
 12-10 07:03:09   [Classification] set 04 try 1: re-solve disagrees (Q90 key a vs re-solve d)
 12-10 07:05:21   [Classification] set 04 try 2: re-solve disagrees (Q94 key b vs re-solve d)
 12-10 07:06:25   [Blood_Relations] repaired set 03 (en + hi, key confirmed by an independent re-solve)
@@ -81,4 +77,8 @@
 12-10 08:16:00   [Classification] set 01 try 3: re-solve disagrees (Q17 key a vs re-solve d)
 12-10 08:18:35   [Classification] set 01 try 4: re-solve disagrees (Q17 key a vs re-solve d)
 12-10 08:18:35   [Classification] FAILED set 01: no version passed the checks — files left as they were
+12-10 08:20:24   [Coding_Decoding] repaired set 05 (en + hi, key confirmed by an independent re-solve)
+12-10 08:21:50   [Blood_Relations] set 06 try 2: re-solve disagrees (Q148 key c vs re-solve a)
+12-10 08:26:48   [Classification] set 02: Q26 key a vs re-solve d, Q31 key b vs re-solve c, Q32 key c vs re-solve d, Q35 key b vs re-solve a, Q36 key c vs re-solve d, Q37 key d vs re-s
+12-10 08:30:41   [Classification] set 02 try 1: re-solve disagrees (Q27 key c vs re-solve a, Q45 key d vs re-solve a, Q49 key d vs re-solve c)
 ```
