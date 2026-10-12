@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 09:20 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
+**आख़िरी update:** 12-10-2026 09:35 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 77 मिनट |
-| W2 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 41 मिनट |
-| W3 | Chapter 05 Direction Sense (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
+| W1 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 93 मिनट |
+| W2 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 57 मिनट |
+| W3 | Chapter 05 Direction Sense (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 29 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -42,11 +42,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 08:16:00   [Classification] set 01 try 3: re-solve disagrees (Q17 key a vs re-solve d)
-12-10 08:18:35   [Classification] set 01 try 4: re-solve disagrees (Q17 key a vs re-solve d)
-12-10 08:18:35   [Classification] FAILED set 01: no version passed the checks — files left as they were
-12-10 08:20:24   [Coding_Decoding] repaired set 05 (en + hi, key confirmed by an independent re-solve)
-12-10 08:21:50   [Blood_Relations] set 06 try 2: re-solve disagrees (Q148 key c vs re-solve a)
 12-10 08:26:48   [Classification] set 02: Q26 key a vs re-solve d, Q31 key b vs re-solve c, Q32 key c vs re-solve d, Q35 key b vs re-solve a, Q36 key c vs re-solve d, Q37 key d vs re-s
 12-10 08:30:41   [Classification] set 02 try 1: re-solve disagrees (Q27 key c vs re-solve a, Q45 key d vs re-solve a, Q49 key d vs re-solve c)
 12-10 08:36:09   [Classification] set 02 try 2: re-solve disagrees (Q35 key c vs re-solve d, Q39 key c vs re-solve b)
@@ -82,4 +77,9 @@
 12-10 09:15:53   [Coding_Decoding] set 03: key confirmed
 12-10 09:16:46   [Direction_Sense] repaired set 01 (en + hi, key confirmed by an independent re-solve)
 12-10 09:18:56   [Coding_Decoding] set 04: key confirmed
+12-10 09:23:27   [Direction_Sense] set 02: Q36 key c vs re-solve a, Q43 key b vs re-solve a
+12-10 09:24:35   [Classification] set 06: Q128 key c vs re-solve d, Q130 key a vs re-solve d, Q132 key c vs re-solve b, Q134 key a vs re-solve d, Q135 key b vs re-solve c, Q137 key d v
+12-10 09:27:04   [Classification] set 06 try 1: rejected (Q141:leaked_reasoning)
+12-10 09:29:29   [Coding_Decoding] set 05: key confirmed
+12-10 09:33:25   [Direction_Sense] repaired set 02 (en + hi, key confirmed by an independent re-solve)
 ```
