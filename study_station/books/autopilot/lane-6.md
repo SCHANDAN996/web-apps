@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 11:16 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 10:15 PM
+**आख़िरी update:** 12-10-2026 11:32 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 10:15 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 61 मिनट |
-| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 61 मिनट |
-| W3 | Chapter 18 Inequality (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 61 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 77 मिनट |
+| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 77 मिनट |
+| W3 | Chapter 18 Inequality (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 76 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -59,4 +59,9 @@
 12-10 23:13:07   [Dictionary_Order] FAILED set 02: no version passed the checks — files left as they were
 12-10 23:13:15   [Venn_Diagrams] repaired set 02 (en + hi, key confirmed by an independent re-solve)
 12-10 23:13:57   [Inequality] repaired set 03 (en + hi, key confirmed by an independent re-solve)
+12-10 23:20:56   [Dictionary_Order] set 03: Q58 key d vs re-solve a, Q68 key b vs re-solve ?, Q71 key a vs re-solve b, Q74 key d vs re-solve b
+12-10 23:22:07   [Inequality] set 04: key confirmed
+12-10 23:23:36   [Venn_Diagrams] set 03: Q51 key a vs re-solve d, Q55 key a vs re-solve d, Q60 key b vs re-solve a, Q63 key a vs re-solve b, Q66 key d vs re-solve a, Q71 key a vs re-s
+12-10 23:32:04   [Dictionary_Order] set 03 try 1: re-solve disagrees (Q72 key a vs re-solve c, Q74 key a vs re-solve b)
+12-10 23:32:24   [Venn_Diagrams] set 03 try 1: re-solve disagrees (Q55 key c vs re-solve d, Q60 key d vs re-solve b)
 ```
