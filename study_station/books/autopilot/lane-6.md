@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 10:21 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
+**आख़िरी update:** 12-10-2026 10:36 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 30 मिनट |
-| W3 | Chapter 05 Direction Sense (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 75 मिनट |
+| W1 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 45 मिनट |
+| W3 | Chapter 05 Direction Sense (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 91 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -23,11 +23,11 @@
 | 12th GK | 24 | 0 | 0 |
 | 12th Reasoning | 25 | 0 | 0 |
 | 12th English | 25 | 0 | 0 |
-| Graduation Maths | 27 | 0 | 1 |
-| Graduation GK | 27 | 0 | 1 |
+| Graduation Maths | 28 | 0 | 0 |
+| Graduation GK | 28 | 0 | 0 |
 | Graduation Reasoning | 30 | 0 | 0 |
 | Graduation English | 30 | 0 | 0 |
-| **कुल** | **290** | **0** | **6** |
+| **कुल** | **292** | **0** | **4** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -41,11 +41,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 09:29:29   [Coding_Decoding] set 05: key confirmed
-12-10 09:33:25   [Direction_Sense] repaired set 02 (en + hi, key confirmed by an independent re-solve)
-12-10 09:37:27   [Classification] set 06 try 2: re-solve disagrees (Q141 key a vs re-solve b)
-12-10 09:38:11   [Direction_Sense] set 03: Q54 key d vs re-solve b, Q66 key d vs re-solve ?, Q69 key c vs re-solve a
-12-10 09:41:23   [Coding_Decoding] set 06: Q134 key a vs re-solve b, Q139 key b vs re-solve a
 12-10 09:44:37   [Direction_Sense] repaired set 03 (en + hi, key confirmed by an independent re-solve)
 12-10 09:46:17   [Classification] set 06 try 3: re-solve disagrees (Q135 key a vs re-solve c, Q138 key c vs re-solve b)
 12-10 09:48:15   [Direction_Sense] set 04: Q81 key b vs re-solve a, Q83 key d vs re-solve b
@@ -81,4 +76,9 @@
 12-10 10:18:12 worker 1: nothing left
 12-10 10:19:07   [Classification] set 04: key confirmed
 12-10 10:21:32   [Classification] set 05: key confirmed
+12-10 10:23:54   [Classification] set 06: Q149 key c vs re-solve d
+12-10 10:25:24   [Direction_Sense] repaired set 05 (en + hi, key confirmed by an independent re-solve)
+12-10 10:32:25   [Classification] set 06 try 1: re-solve disagrees (Q149 key b vs re-solve d)
+12-10 10:37:01   [Direction_Sense] set 06: key confirmed
+12-10 10:37:01   [Direction_Sense] written 5, failed 0; AI calls today 284/100000
 ```
