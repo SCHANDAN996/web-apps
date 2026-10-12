@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 03:27 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
+**आख़िरी update:** 12-10-2026 03:43 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 55 मिनट |
-| W2 | Chapter 14 Alphabet Questions (10th Reasoning) | 🔎 review हो रहा है | 6 मिनट |
-| W3 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 110 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 70 मिनट |
+| W2 | Chapter 14 Alphabet Questions (10th Reasoning) | 🔎 review हो रहा है | 21 मिनट |
+| W3 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 125 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -43,11 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 14:03:15   [Dictionary_Order] repaired set 02 (en + hi, key confirmed by an independent re-solve)
-12-10 14:05:41   [Venn_Diagrams] set 06 try 1: re-solve disagrees (Q126 key c vs re-solve ?, Q130 key c vs re-solve a)
-12-10 14:09:06   [Dictionary_Order] set 03: Q58 key d vs re-solve a, Q68 key b vs re-solve ?, Q71 key a vs re-solve b, Q74 key d vs re-solve b
-12-10 14:13:10   [Dictionary_Order] set 03 try 1: rejected (Q72:leaked_reasoning)
-12-10 14:15:47   [Venn_Diagrams] set 06 try 2: re-solve disagrees (Q148 key d vs re-solve b)
 12-10 14:18:30   [Clock_Calendar] review Important_Rules_hi.txt: 1 issue(s): - "12:15 पर सूत्र से 277.5° → न्यून कोण 82.5°" → 12:15 पर सूत्र θ = |30×0 – 5.5×15| = 82.5° सीधे न्यून कोण 
 12-10 14:20:58   [Clock_Calendar] review: 6 section(s) corrected, 0 failed
 12-10 14:20:58   [Clock_Calendar] written 6, failed 0; AI calls today 192/100000
@@ -83,4 +78,9 @@
 12-10 15:24:35   [Venn_Diagrams] set 04: key confirmed
 12-10 15:27:25   [Dictionary_Order] set 04 try 4: re-solve disagrees (Q80 key b vs re-solve ?, Q93 key a vs re-solve d)
 12-10 15:27:25   [Dictionary_Order] FAILED set 04: no version passed the checks — files left as they were
+12-10 15:31:46   [Alphabet_Questions] review Feynman_en.txt: 1 issue(s): - The example "STUDENT" coded as "HFGVMG" has mismatched lengths (7 letters vs 6 letters) → ensure the coded word h
+12-10 15:36:14   [Venn_Diagrams] set 05: key confirmed
+12-10 15:37:27   [Alphabet_Questions] review Feynman_hi.txt: 1 issue(s): - Blurt sheet lists "EJOTY" and "शृंखला के प्रकार" as main chapter points, but the chapter does not cover them → Re
+12-10 15:38:47   [Dictionary_Order] set 05: Q109 key a vs re-solve b
+12-10 15:42:26   [Alphabet_Questions] review Flashcards_en.txt: 2 issue(s): - Card 11: Question asks for three pairs of opposites but answer lists five pairs (E↔V, J↔Q, O↔L, T↔G, Y↔B) → Ch
 ```
