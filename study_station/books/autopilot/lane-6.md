@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 10:17 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
+**आख़िरी update:** 12-10-2026 10:21 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 26 मिनट |
-| W2 | Chapter 03 Coding Decoding (10th Reasoning) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 05 Direction Sense (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 72 मिनट |
+| W1 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 30 मिनट |
+| W3 | Chapter 05 Direction Sense (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 75 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -38,15 +37,10 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 02 Classification (Reasoning) — 2 बार
-- Chapter 03 Coding Decoding (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 09:18:56   [Coding_Decoding] set 04: key confirmed
-12-10 09:23:27   [Direction_Sense] set 02: Q36 key c vs re-solve a, Q43 key b vs re-solve a
-12-10 09:24:35   [Classification] set 06: Q128 key c vs re-solve d, Q130 key a vs re-solve d, Q132 key c vs re-solve b, Q134 key a vs re-solve d, Q135 key b vs re-solve c, Q137 key d v
-12-10 09:27:04   [Classification] set 06 try 1: rejected (Q141:leaked_reasoning)
 12-10 09:29:29   [Coding_Decoding] set 05: key confirmed
 12-10 09:33:25   [Direction_Sense] repaired set 02 (en + hi, key confirmed by an independent re-solve)
 12-10 09:37:27   [Classification] set 06 try 2: re-solve disagrees (Q141 key a vs re-solve b)
@@ -83,4 +77,8 @@
 12-10 10:17:30   [Classification] repaired set 03 (en + hi, key confirmed by an independent re-solve)
 12-10 10:17:50   [Coding_Decoding] review: 9 section(s) corrected, 0 failed
 12-10 10:17:50   [Coding_Decoding] written 9, failed 0; AI calls today 269/100000
+12-10 10:18:12 DONE 10th_Level/Reasoning/Chapter_03_Coding_Decoding in 99 min → 1ddc1ef6
+12-10 10:18:12 worker 1: nothing left
+12-10 10:19:07   [Classification] set 04: key confirmed
+12-10 10:21:32   [Classification] set 05: key confirmed
 ```
