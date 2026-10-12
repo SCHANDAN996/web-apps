@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 01:04 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 10:15 PM
+**आख़िरी update:** 13-10-2026 01:19 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 10:15 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 168 मिनट |
-| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 168 मिनट |
-| W3 | Chapter 19 Cubes Dice (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 29 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 184 मिनट |
+| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 184 मिनट |
+| W3 | Chapter 19 Cubes Dice (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 44 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,8 +37,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 23:22:07   [Inequality] set 04: key confirmed
-12-10 23:23:36   [Venn_Diagrams] set 03: Q51 key a vs re-solve d, Q55 key a vs re-solve d, Q60 key b vs re-solve a, Q63 key a vs re-solve b, Q66 key d vs re-solve a, Q71 key a vs re-s
 12-10 23:32:04   [Dictionary_Order] set 03 try 1: re-solve disagrees (Q72 key a vs re-solve c, Q74 key a vs re-solve b)
 12-10 23:32:24   [Venn_Diagrams] set 03 try 1: re-solve disagrees (Q55 key c vs re-solve d, Q60 key d vs re-solve b)
 12-10 23:32:32   [Inequality] set 05: Q122 key b vs re-solve a
@@ -77,4 +75,6 @@
 13-10 00:56:37   [Dictionary_Order] FAILED set 04: no version passed the checks — files left as they were
 13-10 00:57:39   [Venn_Diagrams] set 05 try 2: re-solve disagrees (Q101 key b vs re-solve a, Q105 key b vs re-solve c, Q116 key d vs re-solve a)
 13-10 01:04:14   [Dictionary_Order] set 05: Q109 key a vs re-solve b, Q116 key d vs re-solve ?
+13-10 01:16:18   [Dictionary_Order] set 05 try 1: re-solve disagrees (Q116 key a vs re-solve b, Q118 key c vs re-solve a)
+13-10 01:16:21   [Cubes_Dice] set 02 try 1: re-solve disagrees (Q33 key b vs re-solve ?, Q49 key c vs re-solve b)
 ```
