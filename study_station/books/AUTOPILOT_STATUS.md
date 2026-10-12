@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 12-10-2026 08:03 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:15 PM
+**आख़िरी update:** 12-10-2026 08:18 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:15 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 108 मिनट |
-| W2 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 108 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 123 मिनट |
+| W2 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 123 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -48,4 +48,7 @@
 12-10 19:20:29   [Puzzles] set 01 try 1: re-solve disagrees (Q14: the clues allow more than one answer — add a clue so exactly one arrangement fits; Q18: clues contradict each o
 12-10 19:31:58   [Sitting_Arrangement] set 01 try 2: re-solve disagrees (Q5: clues contradict each other — no arrangement fits all of them; Q24: the clues allow more than one answer — add a
 12-10 19:46:50   [Sitting_Arrangement] set 01 try 3: re-solve disagrees (Q6 key a vs re-solve c)
+12-10 20:07:58   [Sitting_Arrangement] set 01 try 4: re-solve disagrees (Q18 key a vs re-solve b, Q21 key b vs re-solve c)
+12-10 20:07:58   [Sitting_Arrangement] FAILED set 01: no version passed the checks — files left as they were
+12-10 20:08:23   [Puzzles] repaired set 01 (en + hi, key confirmed by an independent re-solve)
 ```
