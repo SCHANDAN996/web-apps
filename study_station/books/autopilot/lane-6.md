@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 08:25 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 04:49 PM
+**आख़िरी update:** 12-10-2026 08:40 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 04:49 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 216 मिनट |
-| W3 | Chapter 18 Inequality (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 60 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 24 मिनट |
+| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 231 मिनट |
+| W3 | Chapter 18 Inequality (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 75 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -43,8 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 18:55:05   [Course_of_Action] set 04: key confirmed
-12-10 18:57:13   [Course_of_Action] set 05: key confirmed
 12-10 18:59:03   [Dictionary_Order] set 05: Q109 key a vs re-solve b, Q116 key d vs re-solve b
 12-10 18:59:27   [Course_of_Action] set 06: key confirmed
 12-10 18:59:27   [Course_of_Action] written 0, failed 0; AI calls today 138/100000
@@ -83,4 +81,6 @@
 12-10 20:19:36   [Inequality] set 04: key confirmed
 12-10 20:19:53   [Venn_Diagrams] set 01: key confirmed
 12-10 20:24:00   [Dictionary_Order] set 06 try 2: re-solve disagrees (Q126 key c vs re-solve ?, Q132 key b vs re-solve a, Q143 key a vs re-solve d)
+12-10 20:26:56   [Inequality] set 05: Q111 key c vs re-solve ?, Q122 key b vs re-solve a
+12-10 20:28:35   [Venn_Diagrams] set 02: Q26 key d vs re-solve b, Q27 key d vs re-solve c
 ```
