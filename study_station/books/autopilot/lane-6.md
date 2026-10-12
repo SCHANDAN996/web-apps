@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 12:18 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 10:15 PM
+**आख़िरी update:** 13-10-2026 12:33 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 10:15 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 123 मिनट |
-| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 122 मिनट |
-| W3 | Chapter 18 Inequality (10th Reasoning) | 🔎 review हो रहा है | 1 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 138 मिनट |
+| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 138 मिनट |
+| W3 | Chapter 18 Inequality (10th Reasoning) | 🔎 review हो रहा है | 16 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,12 +37,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 22:15:18 START 10th_Level/Reasoning/Chapter_18_Inequality (OK: todo 0, problems 0)
-12-10 22:17:25   [Dictionary_Order] set 01: key confirmed
-12-10 22:18:07   [Inequality] set 01: key confirmed
-12-10 22:20:00   [Venn_Diagrams] set 01: Q8 key d vs re-solve ?, Q10 key b vs re-solve ?, Q21 key a vs re-solve b
-12-10 22:20:58   [Inequality] set 02: key confirmed
-12-10 22:27:52   [Inequality] set 03: Q60 key b vs re-solve ?, Q74 key d vs re-solve ?
 12-10 22:28:00   [Dictionary_Order] set 02: Q29 key d vs re-solve a, Q31 key b vs re-solve a
 12-10 22:36:11   [Venn_Diagrams] repaired set 01 (en + hi, key confirmed by an independent re-solve)
 12-10 22:38:40   [Dictionary_Order] set 02 try 1: re-solve disagrees (Q45 key b vs re-solve ?)
@@ -77,4 +71,10 @@
 13-10 00:15:56   [Dictionary_Order] set 04: Q80 key a vs re-solve ?, Q81 key b vs re-solve ?, Q90 key c vs re-solve ?, Q93 key b vs re-solve d
 13-10 00:16:36   [Inequality] set 06: key confirmed
 13-10 00:16:36   [Inequality] written 2, failed 0; AI calls today 9/100000
+13-10 00:18:29   [Venn_Diagrams] set 04 try 1: re-solve disagrees (Q77 key b vs re-solve a)
+13-10 00:18:31   [Inequality] review Content_en.txt: 1 issue(s): - The statement “Some exams also treat ≥ and ≤ as complementary when all three possibilities (>, <, =) are not sett
+13-10 00:25:41   [Dictionary_Order] set 04 try 1: re-solve disagrees (Q80 key d vs re-solve ?, Q93 key c vs re-solve d)
+13-10 00:25:51   [Inequality] review PYQ_en.txt: 3 issue(s): - Yearly Frequency & Trend table shows identical question ranges for every year 2016–2025 → This is invented statistics
+13-10 00:28:23   [Inequality] review PYQ_hi.txt: 6 issue(s): - Yearly frequency table (2016–2025) shows identical question ranges for every year → fabricated data, replace with act
+13-10 00:30:58   [Venn_Diagrams] repaired set 04 (en + hi, key confirmed by an independent re-solve)
 ```
