@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 08:34 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
+**आख़िरी update:** 12-10-2026 08:49 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
-| W2 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 153 मिनट |
-| W3 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 153 मिनट |
+| W1 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 47 मिनट |
+| W2 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W3 | Chapter 04 Blood Relations (10th Reasoning) | 🔎 review हो रहा है | 11 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,24 +37,11 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 02 Classification (Reasoning) — 1 बार
+- Chapter 03 Coding Decoding (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 07:03:09   [Classification] set 04 try 1: re-solve disagrees (Q90 key a vs re-solve d)
-12-10 07:05:21   [Classification] set 04 try 2: re-solve disagrees (Q94 key b vs re-solve d)
-12-10 07:06:25   [Blood_Relations] repaired set 03 (en + hi, key confirmed by an independent re-solve)
-12-10 07:07:11   [Classification] set 04 try 3: re-solve disagrees (Q90 key b vs re-solve d)
-12-10 07:11:32   [Blood_Relations] set 04: Q76 key a vs re-solve b, Q85 key b vs re-solve c, Q86 key c vs re-solve d, Q94 key c vs re-solve b, Q99 key d vs re-solve a
-12-10 07:12:33   [Classification] repaired set 04 (en + hi, key confirmed by an independent re-solve)
-12-10 07:12:33   [Coding_Decoding] repaired set 02 (en + hi, key confirmed by an independent re-solve)
-12-10 07:15:43   [Classification] set 05: Q103 key c vs re-solve d, Q111 key c vs re-solve d, Q113 key a vs re-solve d, Q116 key d vs re-solve a, Q118 key b vs re-solve c, Q119 key c v
-12-10 07:19:05   [Classification] set 05 try 1: re-solve disagrees (Q109 key a vs re-solve c)
-12-10 07:19:55   [Blood_Relations] repaired set 04 (en + hi, key confirmed by an independent re-solve)
-12-10 07:22:54   [Coding_Decoding] set 03: Q58 key d vs re-solve a, Q60 key b vs re-solve a
-12-10 07:25:16   [Classification] repaired set 05 (en + hi, key confirmed by an independent re-solve)
-12-10 07:26:31   [Coding_Decoding] set 03 try 1: rejected (Q54:duplicate_options,Q70:duplicate_options)
-12-10 07:31:05   [Blood_Relations] set 05: Q121 key a vs re-solve b, Q123 key c vs re-solve d
 12-10 07:35:35   [Coding_Decoding] repaired set 03 (en + hi, key confirmed by an independent re-solve)
 12-10 07:37:49   [Classification] set 06: Q128 key c vs re-solve d, Q130 key a vs re-solve d, Q132 key c vs re-solve ?, Q134 key a vs re-solve d, Q135 key b vs re-solve a, Q136 key c v
 12-10 07:39:42   [Classification] set 06 try 1: rejected (Q127:answer_solution_conflict,Q133:leaked_reasoning,Q136:leaked_reasoning,Q140:leaked_reasoning,Q141:leaked_reasoning)
@@ -81,4 +68,18 @@
 12-10 08:21:50   [Blood_Relations] set 06 try 2: re-solve disagrees (Q148 key c vs re-solve a)
 12-10 08:26:48   [Classification] set 02: Q26 key a vs re-solve d, Q31 key b vs re-solve c, Q32 key c vs re-solve d, Q35 key b vs re-solve a, Q36 key c vs re-solve d, Q37 key d vs re-s
 12-10 08:30:41   [Classification] set 02 try 1: re-solve disagrees (Q27 key c vs re-solve a, Q45 key d vs re-solve a, Q49 key d vs re-solve c)
+12-10 08:36:09   [Classification] set 02 try 2: re-solve disagrees (Q35 key c vs re-solve d, Q39 key c vs re-solve b)
+12-10 08:38:01   [Blood_Relations] repaired set 06 (en + hi, key confirmed by an independent re-solve)
+12-10 08:38:01   [Blood_Relations] written 6, failed 0; AI calls today 133/100000
+12-10 08:38:27   [Coding_Decoding] FAILED set 06: too_long
+12-10 08:38:27   [Coding_Decoding] written 5, failed 1; AI calls today 133/100000
+12-10 08:38:28 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_03_Coding_Decoding: ['FAILED set 06: too_long']
+12-10 08:38:28 START 10th_Level/Reasoning/Chapter_03_Coding_Decoding (OK: todo 0, problems 0)
+12-10 08:39:07   [Classification] set 02 try 3: re-solve disagrees (Q35 key c vs re-solve d)
+12-10 08:39:23   [Blood_Relations] review Content_en.txt: 1 issue(s): - In the coded relations "Apply now" example, the answer states "Y as Z’s aunt" for X + Y - Z (where A+B means A is
+12-10 08:41:54   [Blood_Relations] review Content_hi.txt: 1 issue(s): - The example answer for X + Y - Z incorrectly states that Y is Z's aunt (बुआ); since Y - Z means Y is sister of Z,
+12-10 08:44:58   [Classification] repaired set 02 (en + hi, key confirmed by an independent re-solve)
+12-10 08:48:06   [Coding_Decoding] set 01: Q18 key d vs re-solve a
+12-10 08:49:16   [Blood_Relations] review Flashcards_en.txt: 1 issue(s): - The back of the flashcard "A girl says, 'He is the son of my mother's only brother-in-law.' The options are co
+12-10 08:49:25   [Classification] set 03: Q52 key b vs re-solve d
 ```
