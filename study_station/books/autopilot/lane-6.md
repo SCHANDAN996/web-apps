@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 06:16 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
+**आख़िरी update:** 12-10-2026 06:31 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 16 मिनट |
-| W2 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
-| W3 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
+| W1 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
+| W2 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
+| W3 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -53,4 +53,6 @@
 12-10 06:07:10   [Blood_Relations] set 01 try 3: re-solve disagrees (Q24 key d vs re-solve a)
 12-10 06:10:50   [Blood_Relations] repaired set 01 (en + hi, key confirmed by an independent re-solve)
 12-10 06:13:26   [Coding_Decoding] set 01: Q21 key a vs re-solve c
+12-10 06:17:38   [Classification] set 02: Q26 key a vs re-solve d, Q32 key c vs re-solve a, Q35 key b vs re-solve a, Q38 key a vs re-solve ?, Q39 key b vs re-solve d, Q42 key a vs re-s
+12-10 06:24:38   [Coding_Decoding] set 01 try 1: re-solve disagrees (Q20 key b vs re-solve a)
 ```
