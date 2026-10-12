@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 08:10 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 04:49 PM
+**आख़िरी update:** 12-10-2026 08:25 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 04:49 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 200 मिनट |
-| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 200 मिनट |
-| W3 | Chapter 18 Inequality (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 45 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 216 मिनट |
+| W3 | Chapter 18 Inequality (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 60 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -36,18 +36,13 @@
 - 12-10 18:41 — 10th Reasoning · Chapter 16 Statement Conclusion
 - 12-10 18:01 — 10th Reasoning · Chapter 15 Mathematical Operations
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 09 Venn Diagrams (Reasoning) — 1 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 18:41:40   [Venn_Diagrams] set 05: Q101 key a vs re-solve b, Q116 key d vs re-solve a, Q122 key b vs re-solve a, Q123 key c vs re-solve b, Q125 key b vs re-solve d
-12-10 18:42:00 DONE 10th_Level/Reasoning/Chapter_16_Statement_Conclusion in 40 min → 8d780901
-12-10 18:42:01 START 10th_Level/Reasoning/Chapter_17_Course_of_Action (OK: todo 0, problems 0)
-12-10 18:43:55   [Course_of_Action] set 01: key confirmed
-12-10 18:44:40   [Dictionary_Order] set 04 try 4: re-solve disagrees (Q80 key b vs re-solve ?, Q93 key c vs re-solve b)
-12-10 18:44:40   [Dictionary_Order] FAILED set 04: no version passed the checks — files left as they were
-12-10 18:51:30   [Course_of_Action] set 02: key confirmed
-12-10 18:52:05   [Venn_Diagrams] set 05 try 1: re-solve disagrees (Q111 key b vs re-solve a)
-12-10 18:53:23   [Course_of_Action] set 03: key confirmed
 12-10 18:55:05   [Course_of_Action] set 04: key confirmed
 12-10 18:57:13   [Course_of_Action] set 05: key confirmed
 12-10 18:59:03   [Dictionary_Order] set 05: Q109 key a vs re-solve b, Q116 key d vs re-solve b
@@ -79,4 +74,13 @@
 12-10 19:58:20   [Inequality] set 03 try 1: re-solve disagrees (Q60 key b vs re-solve a)
 12-10 20:05:13   [Venn_Diagrams] set 06 try 3: re-solve disagrees (Q130 key a vs re-solve b)
 12-10 20:05:44   [Dictionary_Order] set 06 try 1: re-solve disagrees (Q132 key d vs re-solve a, Q142 key c vs re-solve b)
+12-10 20:12:51   [Inequality] repaired set 03 (en + hi, key confirmed by an independent re-solve)
+12-10 20:16:01   [Venn_Diagrams] set 06 try 4: re-solve disagrees (Q143 key c vs re-solve a)
+12-10 20:16:01   [Venn_Diagrams] FAILED set 06: no version passed the checks — files left as they were
+12-10 20:16:01   [Venn_Diagrams] written 4, failed 2; AI calls today 199/100000
+12-10 20:16:01 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_09_Venn_Diagrams: ['FAILED set 03: no version passed the checks — files left as they were', 'FAILED set 06: no version passed the checks — files left as they were']
+12-10 20:16:02 START 10th_Level/Reasoning/Chapter_09_Venn_Diagrams (OK: todo 0, problems 0)
+12-10 20:19:36   [Inequality] set 04: key confirmed
+12-10 20:19:53   [Venn_Diagrams] set 01: key confirmed
+12-10 20:24:00   [Dictionary_Order] set 06 try 2: re-solve disagrees (Q126 key c vs re-solve ?, Q132 key b vs re-solve a, Q143 key a vs re-solve d)
 ```
