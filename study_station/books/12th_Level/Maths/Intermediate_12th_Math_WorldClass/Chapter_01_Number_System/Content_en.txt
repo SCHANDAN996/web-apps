@@ -1,0 +1,208 @@
+# Number System (Advanced)
+
+## The ₹1 Crore Question Hidden in a Remainder
+
+A candidate stares at this question: *"What is the remainder when 2^100 is divided by 7?"* He starts multiplying 2 × 2 × 2... and runs out of time. Another candidate solves it in **15 seconds** — because she knows one simple pattern.
+
+That is the entire secret of the Advanced Number System. It is not about harder calculation. It is about **seeing patterns that others miss**. In exams like SSC CGL, IBPS PO, and RRB NTPC, this chapter appears regularly — and most students lose those marks not because the maths is hard, but because nobody taught them the *shortcuts behind the shortcuts*.
+
+Today, that changes.
+
+---
+
+## Learning Goals
+
+By the end of this chapter, you will be able to:
+
+1. Classify numbers instantly (prime, composite, co-prime, perfect).
+2. Use divisibility rules — including the tricky ones for 7, 11, and 13.
+3. Find remainders of huge powers using cyclicity and the Remainder Theorem.
+4. Count factors, sum factors, and find unit digits in seconds.
+5. Handle HCF–LCM word problems and base conversions with confidence.
+
+---
+
+## 1. The Family Tree of Numbers
+
+Every number you'll ever meet in an exam belongs to a family:
+
+- **Natural numbers (N):** 1, 2, 3, ... — the counting numbers.
+- **Whole numbers (W):** 0, 1, 2, 3, ... — natural numbers plus zero.
+- **Integers (Z):** ..., −2, −1, 0, 1, 2, ...
+- **Rational numbers (Q):** numbers expressible as p/q, where q ≠ 0. Their decimals either *terminate* (0.25) or *repeat* (0.333...).
+- **Irrational numbers:** cannot be written as p/q — √2, √3, π. Their decimals never end and never repeat.
+- **Real numbers (R):** rational + irrational — the complete number line.
+
+**Exam trap:** Is 0.999... (repeating) rational? Yes! It equals exactly 1. Any repeating decimal is rational.
+
+🧠 **Active Recall:** Close the book. Is √9 irrational? (No — √9 = 3, a rational number. The root must be *non-terminating* to be irrational.) Is every integer a whole number? (No — negative integers are not whole numbers.)
+
+---
+
+## 2. Prime, Composite, and Co-prime — The VIP Club
+
+- **Prime number:** has exactly two factors — 1 and itself. Examples: 2, 3, 5, 7, 11, 13...
+- **Composite number:** more than two factors. Examples: 4, 6, 8, 9...
+- **1 is neither prime nor composite.** (Examiners love this trap!)
+- **2 is the only even prime.** Every other even number is divisible by 2.
+
+**Co-prime numbers** are pairs whose HCF is 1 — they share no common factor except 1. Example: (8, 15) are co-prime even though neither is prime. Co-prime ≠ prime!
+
+**How many primes below 100?** Exactly **25**. Memorize this — it appears directly in exams.
+
+🧠 **Active Recall:** Without looking — is 91 prime? (No! 91 = 7 × 13. This is the most common "fake prime" in exams. Others: 51 = 3 × 17, 57 = 3 × 19, 87 = 3 × 29.)
+
+---
+
+## 3. Divisibility Rules — Including the Ones Nobody Teaches
+
+You know 2, 3, 5, 10. Here is the complete arsenal:
+
+| Divisor | Rule |
+|---|---|
+| 2 | Last digit even |
+| 3 | Sum of digits divisible by 3 |
+| 4 | Last two digits divisible by 4 |
+| 5 | Last digit 0 or 5 |
+| 6 | Divisible by both 2 and 3 |
+| 7 | Double the last digit, subtract from the rest; result divisible by 7 |
+| 8 | Last three digits divisible by 8 |
+| 9 | Sum of digits divisible by 9 |
+| 11 | (Sum of odd-place digits) − (sum of even-place digits) = 0 or multiple of 11 |
+| 12 | Divisible by both 3 and 4 |
+| 13 | 4 × last digit + rest, divisible by 13 |
+
+**Example (7):** Is 203 divisible by 7? Take 20 − (2×3) = 20 − 6 = 14. Yes, 14 is divisible by 7. ✓
+
+**Example (11):** Is 918082 divisible by 11? Odd places: 9+8+8 = 25. Even places: 1+0+2 = 3. Difference = 22, a multiple of 11. ✓
+
+🧠 **Active Recall:** Test 1001 for divisibility by 7, 11, and 13. (Surprise: 1001 = 7 × 11 × 13 — divisible by all three! This fact alone solves many exam questions.)
+
+---
+
+## 4. Factors — Counting Them Like a Pro
+
+This is where toppers separate from the crowd. For any number, write its **prime factorization**:
+
+**N = a^p × b^q × c^r** (where a, b, c are primes)
+
+Then:
+
+- **Number of factors** = (p+1)(q+1)(r+1)
+- **Sum of factors** = (a⁰+a¹+...+a^p)(b⁰+...+b^q)(c⁰+...+c^r)
+- **Number of even factors** = p × (q+1)(r+1) — if a = 2
+- **Number of odd factors** = (q+1)(r+1) — just ignore the power of 2
+- **Product of factors** = N^(number of factors / 2)
+
+**Example:** N = 360 = 2³ × 3² × 5¹
+- Total factors = (3+1)(2+1)(1+1) = 4×3×2 = **24**
+- Odd factors = (2+1)(1+1) = **6**
+- Even factors = 24 − 6 = **18**
+
+**Perfect squares** always have an **odd** number of factors (one factor pairs with itself). This is a favourite statement-based question.
+
+🧠 **Active Recall:** How many factors does 72 have? (72 = 2³ × 3² → (3+1)(2+1) = 12.) Does 144 have an odd or even count of factors? (Odd — it's a perfect square, 12².)
+
+---
+
+## 5. Unit Digit and Cyclicity — The 15-Second Superpower
+
+Remember the opening story? Here is the trick. The unit digits of powers repeat in cycles:
+
+| Digit | Cycle of unit digits | Cycle length |
+|---|---|---|
+| 0, 1, 5, 6 | Always the same | 1 |
+| 2 | 2, 4, 8, 6 | 4 |
+| 3 | 3, 9, 7, 1 | 4 |
+| 4 | 4, 6 | 2 |
+| 7 | 7, 9, 3, 1 | 4 |
+| 8 | 8, 4, 2, 6 | 4 |
+| 9 | 9, 1 | 2 |
+
+**Method:** Divide the exponent by the cycle length. Use the remainder to pick the position. (If remainder = 0, take the *last* position of the cycle.)
+
+**Example:** Unit digit of 7^103? Cycle length 4. 103 ÷ 4 → remainder 3. Third position in (7, 9, 3, 1) = **3**.
+
+🧠 **Active Recall:** Unit digit of 2^100? (100 ÷ 4 → remainder 0 → last position of 2,4,8,6 → **6**.)
+
+---
+
+## 6. Remainders — The Heart of Advanced Number System
+
+**Basic rule:** Remainders behave like the numbers themselves under +, −, ×.
+
+If a ÷ n leaves remainder r₁ and b ÷ n leaves remainder r₂, then:
+- (a + b) ÷ n leaves remainder of (r₁ + r₂) ÷ n
+- (a × b) ÷ n leaves remainder of (r₁ × r₂) ÷ n
+
+**Negative remainders:** If remainder is −1, treat it as (divisor − 1). This makes huge problems tiny.
+
+**Example:** Remainder when 8^100 is divided by 7?
+8 ≡ 1 (mod 7), so 8^100 ≡ 1^100 = **1**. Done in 5 seconds.
+
+**Example:** Remainder when 2^100 ÷ 7? Powers of 2 mod 7: 2, 4, 1, 2, 4, 1... cycle of 3. 100 ÷ 3 → remainder 1 → answer **2**. (This was the opening story's question!)
+
+**Fermat's Little Theorem:** If p is prime and a is not divisible by p, then a^(p−1) ÷ p leaves remainder **1**. Example: 2^6 ÷ 7 → remainder 1.
+
+🧠 **Active Recall:** Remainder when 9^50 ÷ 8? (9 ≡ 1 mod 8 → answer 1.) Remainder when 5^3 ÷ 7? (125 ÷ 7 = 17×7 + 6 → **6**.)
+
+---
+
+## 7. HCF and LCM — Beyond the Basics
+
+- **HCF × LCM = Product of the two numbers** (works only for *two* numbers — a classic trap!).
+- HCF of fractions = HCF of numerators / LCM of denominators.
+- LCM of fractions = LCM of numerators / HCF of denominators.
+- If two numbers are in ratio a : b (co-prime) with HCF = h, the numbers are ah and bh, and LCM = abh.
+
+**Word-problem decoder:**
+- "Greatest number that divides..." → **HCF**
+- "Smallest number divisible by..." → **LCM**
+- "Bells toll together again" → **LCM**
+- "Maximum size of equal pieces" → **HCF**
+
+🧠 **Active Recall:** HCF × LCM for three numbers — does the product formula work? (No! Only for two numbers. Examiners test exactly this.)
+
+---
+
+## 8. Base Systems — The Silent Scorer
+
+We live in base 10, but exams visit other bases:
+
+- **Decimal → other base:** Divide repeatedly by the base, collect remainders bottom-to-top.
+- **Other base → decimal:** Multiply each digit by base^position and add.
+
+**Example:** (1011)₂ = 1×2³ + 0×2² + 1×2¹ + 1×2⁰ = 8 + 0 + 2 + 1 = **(11)₁₀**
+
+🧠 **Active Recall:** Convert 25 to binary. (25 = 16+8+1 → **11001**.)
+
+---
+
+## 🎭 The Mnemonic You'll Never Forget
+
+**"Lazy Elephants Jump Slowly"** — for the unit-digit cycle of 2: **2, 4, 8, 6** — imagine 2 Lazy elephants, then 4, then 8, then 6, jumping slowly in a loop forever. Weird? Yes. Unforgettable? Also yes.
+
+And for the fake primes: **"91 is a LIAR"** — it looks prime, smells prime, but 91 = 7 × 13. Whenever a number *feels* prime in an exam, interrogate it!
+
+---
+
+## 📌 Summary Table
+
+| Concept | Key Formula / Fact |
+|---|---|
+| Number of factors of N = a^p·b^q·c^r | (p+1)(q+1)(r+1) |
+| Perfect squares | Odd number of factors |
+| Primes below 100 | 25 |
+| 1001 | 7 × 11 × 13 |
+| Unit digit | Exponent ÷ cycle length, use remainder |
+| a^(p−1) mod p (p prime) | 1 (Fermat) |
+| HCF × LCM | Product of the two numbers (only two!) |
+| Co-prime | HCF = 1 (need not be prime) |
+| 1 | Neither prime nor composite |
+| Repeating decimals | Always rational |
+
+---
+
+## 🔁 Review Reminder
+
+**Review this chapter after 2 days.** Solve just 5 questions: one on factors, one on unit digits, one on remainders, one on HCF-LCM, one on divisibility. If you can do those without peeking, the patterns have moved into permanent memory — and those exam marks are yours.

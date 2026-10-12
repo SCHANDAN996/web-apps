@@ -1,0 +1,151 @@
+प्रश्न 26–45: आसान | प्रश्न 46–50: मध्यम
+
+26. What is the remainder when 7^84 is divided by 342?
+(a) 1 (b) 7 (c) 0 (d) 49
+Answer: (a)
+Solution: The trap is trying to compute powers of 7 directly, which is impossible by hand. Note 7^3 = 343 = 342 + 1, so 7^3 ≡ 1 (mod 342), and 7^84 = (7^3)^28 ≡ 1 (mod 342), so the answer is 1.
+Source: PYQ-style
+
+27. The number 3^12 − 1 is divisible by which of the following?
+(a) 11 (b) 89 (c) 73 (d) 97
+Answer: (c)
+Solution: The trap is testing 11 first; 3^5 = 243 ≡ 1 (mod 11) gives 3^12 ≡ 3^2 = 9 (mod 11), so 3^12 − 1 ≡ 8 (mod 11) and 11 fails. Factor: 3^12 − 1 = (3^6 − 1)(3^6 + 1) = 728 × 730, and 730 = 2 × 5 × 73, so the answer is 73.
+Source: NCERT Class 9 Mathematics (Number Systems)
+
+28. How many zeros are there at the end of 100!?
+(a) 22 (b) 25 (c) 20 (d) 24
+Answer: (d)
+Solution: The trap is counting only multiples of 5, which gives 20 and misses the extra 5s contributed by 25, 50, 75 and 100. Number of zeros = ⌊100/5⌋ + ⌊100/25⌋ = 20 + 4 = 24, so the answer is 24.
+Source: PYQ-style
+
+29. What is the unit digit of 1! + 2! + 3! + … + 49!?
+(a) 3 (b) 7 (c) 1 (d) 5
+Answer: (a)
+Solution: The trap is trying to sum all factorials; from 5! onward every factorial ends in 0, so only 1! to 4! matter. Unit digits: 1 + 2 + 6 + 4 = 13, so the answer is 3.
+Source: PYQ-style
+
+30. Find the remainder when 2^1000 is divided by 7.
+(a) 1 (b) 2 (c) 6 (d) 4
+Answer: (b)
+Solution: The trap is assuming the cycle of powers of 2 mod 7 has length 6; actually 2^3 = 8 ≡ 1 (mod 7), so the cycle length is 3. Since 1000 = 3 × 333 + 1, 2^1000 ≡ 2 (mod 7), so the answer is 2.
+Source: PYQ-style
+
+31. A number when divided by 5 leaves remainder 3, and when divided by 7 leaves remainder 4. What is the smallest such positive number?
+(a) 53 (b) 23 (c) 18 (d) 33
+Answer: (c)
+Solution: The trap is adding the remainders or multiplying the divisors blindly. Numbers leaving remainder 3 on division by 5 are 3, 8, 13, 18, 23…; 18 ÷ 7 leaves remainder 4, so the answer is 18.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+32. The HCF of two numbers is 13 and their LCM is 1976. If one number is 104, find the other.
+(a) 221 (b) 247 (c) 169 (d) 312
+Answer: (b)
+Solution: The trap is dividing the LCM by the given number directly, ignoring the HCF. Product of numbers = HCF × LCM = 13 × 1976 = 25688; other number = 25688 ÷ 104 = 247, so the answer is 247.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+33. What is the largest number that divides 398, 436 and 542 leaving remainders 7, 11 and 15 respectively?
+(a) 34 (b) 17 (c) 51 (d) 23
+Answer: (b)
+Solution: The trap is taking the HCF of the original numbers instead of subtracting the remainders first. Required number = HCF of 391, 425 and 527 = 17, so the answer is 17.
+Source: PYQ-style
+
+34. How many factors does 360 have?
+(a) 20 (b) 24 (c) 22 (d) 28
+Answer: (b)
+Solution: The trap is counting factors by listing, which is slow and error-prone. 360 = 2^3 × 3^2 × 5^1, so number of factors = (3+1)(2+1)(1+1) = 24, so the answer is 24.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+35. The sum of the first 50 natural numbers is:
+(a) 1275 (b) 1225 (c) 2550 (d) 1250
+Answer: (a)
+Solution: The trap is using n(n+1) instead of n(n+1)/2, which gives the doubled value 2550. Sum = 50 × 51 / 2 = 1275, so the answer is 1275.
+Source: NCERT Class 10 Mathematics (Arithmetic Progressions)
+
+36. What is the unit digit of (173)^45 × (152)^77 × (777)^999?
+(a) 8 (b) 6 (c) 2 (d) 4
+Answer: (a)
+Solution: The trap is computing full powers; only unit digits matter. Unit digit of 3^45 is 3 (cycle 3,9,7,1; 45 mod 4 = 1), of 2^77 is 2 (77 mod 4 = 1), of 7^999 is 3 (999 mod 4 = 3). Product: 3 × 2 × 3 = 18, so the answer is 8.
+Source: PYQ-style
+
+37. If the number 517*324 is completely divisible by 3, the smallest whole number in place of * is:
+(a) 0 (b) 1 (c) 2 (d) 3
+Answer: (c)
+Solution: The trap is applying the divisibility rule of 9 instead of 3. Sum of digits = 5+1+7+*+3+2+4 = 22 + *; the smallest digit making this divisible by 3 is 2 (giving 24), so the answer is 2.
+Source: NCERT Class 8 Mathematics (Playing with Numbers)
+
+38. The difference between a two-digit number and the number obtained by interchanging its digits is 36. What is the difference of the two digits?
+(a) 3 (b) 6 (c) 4 (d) 9
+Answer: (c)
+Solution: The trap is assuming the difference of the numbers equals the difference of the digits. If the digits are x and y, (10x + y) − (10y + x) = 9(x − y) = 36, so x − y = 4, so the answer is 4.
+Source: NCERT Class 8 Mathematics (Linear Equations)
+
+39. Which of the following is a prime number?
+(a) 247 (b) 229 (c) 323 (d) 221
+Answer: (b)
+Solution: The trap is assuming all such numbers are prime or testing only very small primes. 221 = 13 × 17, 323 = 17 × 19 and 247 = 13 × 19, but 229 has no prime factor up to √229 ≈ 15.1, so the answer is 229.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+40. The LCM of two numbers is 495 and their HCF is 5. If the sum of the numbers is 100, find their difference.
+(a) 10 (b) 45 (c) 70 (d) 90
+Answer: (a)
+Solution: The trap is taking the numbers as 495 and 5 directly. Let the numbers be 5a and 5b with HCF(a,b) = 1; then 5ab = 495 gives ab = 99 and 5(a+b) = 100 gives a + b = 20, so a = 11, b = 9. The numbers are 55 and 45, so the answer is 10.
+Source: PYQ-style
+
+41. What is the remainder when (17^23 + 19^23) is divided by 36?
+(a) 24 (b) 12 (c) 18 (d) 0
+Answer: (d)
+Solution: The trap is expanding the powers individually. Since 23 is odd, a^n + b^n is divisible by a + b; here 17 + 19 = 36, so the sum is divisible by 36 and the answer is 0.
+Source: PYQ-style
+
+42. How many numbers between 100 and 300 are divisible by both 7 and 11?
+(a) 3 (b) 4 (c) 2 (d) 5
+Answer: (c)
+Solution: The trap is counting multiples of 7 and 11 separately and adding. Numbers divisible by both are multiples of 77; between 100 and 300 these are only 154 and 231 (77 × 1 = 77 is too small, 77 × 4 = 308 is too big), so the answer is 2.
+Source: PYQ-style
+
+43. The sum of all two-digit numbers divisible by 6 is:
+(a) 720 (b) 780 (c) 810 (d) 750
+Answer: (c)
+Solution: The trap is taking the first term as 6 instead of 12. Two-digit multiples of 6 run from 12 to 96: number of terms = (96 − 12)/6 + 1 = 15; sum = 15 × (12 + 96)/2 = 810, so the answer is 810.
+Source: NCERT Class 10 Mathematics (Arithmetic Progressions)
+
+44. If x = 2 + √3, then the value of x + 1/x is:
+(a) 4 (b) 2 (c) 2√3 (d) 3
+Answer: (a)
+Solution: The trap is rationalising incorrectly or squaring first. 1/x = 1/(2 + √3) = 2 − √3, so x + 1/x = (2 + √3) + (2 − √3) = 4, so the answer is 4.
+Source: NCERT Class 9 Mathematics (Number Systems)
+
+45. A number divided by 56 gives remainder 29. What will be the remainder when the same number is divided by 8?
+(a) 3 (b) 1 (c) 7 (d) 5
+Answer: (d)
+Solution: The trap is assuming the remainder stays 29. Since 8 divides 56, the remainder on division by 8 equals the remainder when 29 is divided by 8, which is 5, so the answer is 5.
+Source: PYQ-style
+
+46. The product of two consecutive even numbers is 4224. The smaller number is:
+(a) 62 (b) 68 (c) 66 (d) 64
+Answer: (d)
+Solution: The trap is estimating √4224 ≈ 65 and picking 66 without checking. Let the numbers be n and n+2: n² + 2n − 4224 = 0 gives n = (−2 + √16900)/2 = 64. Check: 64 × 66 = 4224, so the answer is 64.
+Source: PYQ-style
+
+47. What is the greatest 4-digit number which when divided by 12, 15, 20 and 27 leaves remainder 5 in each case?
+(a) 9720 (b) 9185 (c) 9945 (d) 9725
+Answer: (d)
+Solution: The trap is subtracting 5 from the greatest 4-digit multiple of the LCM instead of adding. LCM of 12, 15, 20, 27 = 540; greatest 4-digit multiple of 540 is 9720; required number = 9720 + 5 = 9725, so the answer is 9725.
+Source: PYQ-style
+
+48. The number 2^32 + 1 is divisible by:
+(a) 641 (b) 3 (c) 5 (d) 7
+Answer: (a)
+Solution: The trap is testing only small primes; 2^32 + 1 = 4294967297 is odd, its digit sum 59 rules out 3, it does not end in 0 or 5, and division by 7 fails. Euler showed this Fermat number equals 641 × 6700417, so the answer is 641.
+Source: PYQ-style
+
+49. If the sum of the digits of a number is subtracted from the number, the result is always divisible by:
+(a) 5 (b) 8 (c) 11 (d) 9
+Answer: (d)
+Solution: The trap is guessing 11 by analogy with the alternating digit rule. Since 10 ≡ 1 (mod 9), every number equals (sum of its digits) + 9k, so number − (sum of digits) = 9k, always divisible by 9, so the answer is 9.
+Source: NCERT Class 8 Mathematics (Playing with Numbers)
+
+50. The least number which when divided by 4, 6, 8 and 9 leaves remainder 2 in each case, but is divisible by 13, is:
+(a) 722 (b) 650 (c) 434 (d) 578
+Answer: (b)
+Solution: The trap is taking LCM + 2 = 74 and stopping, but 74 is not divisible by 13. The number must be of the form 72k + 2 (LCM of 4, 6, 8, 9 is 72); checking 74, 146, 218, 290, 362, 434, 506, 578, 650 — the first divisible by 13 is 650 = 13 × 50, so the answer is 650.
+Source: PYQ-style

@@ -1,0 +1,142 @@
+# Important Formulas — Number System (Advanced)
+
+## 1. Divisibility Rules
+
+| Formula Name | Rule | Use-Hint |
+|---|---|---|
+| Divisibility by 2 | Last digit even (0, 2, 4, 6, 8) | Quick check for even numbers |
+| Divisibility by 3 | Sum of digits divisible by 3 | Large numbers, no long division |
+| Divisibility by 4 | Last two digits divisible by 4 | Numbers ending in 00 always pass |
+| Divisibility by 5 | Last digit 0 or 5 | Instant check |
+| Divisibility by 6 | Divisible by both 2 and 3 | Combine two rules |
+| Divisibility by 7 | Double the last digit, subtract from rest; result divisible by 7 | e.g., 203: 20 − 6 = 14 ✓ |
+| Divisibility by 8 | Last three digits divisible by 8 | Numbers ending in 000 always pass |
+| Divisibility by 9 | Sum of digits divisible by 9 | Also gives remainder when divided by 9 |
+| Divisibility by 11 | (Sum of digits at odd places) − (sum at even places) = 0 or multiple of 11 | Alternating sum test |
+| Divisibility by 12 | Divisible by both 3 and 4 | Co-prime factor split |
+| Divisibility by 13 | Add 4× last digit to rest; result divisible by 13 | e.g., 169: 16 + 36 = 52 ✓ |
+| Divisibility by 25 | Last two digits divisible by 25 (00, 25, 50, 75) | Instant check |
+| General rule | If N divisible by a and b (co-prime), N divisible by a×b | Split composite divisors into co-prime factors |
+
+## 2. Division & Remainders
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Division Algorithm | Dividend = Divisor × Quotient + Remainder, 0 ≤ R < Divisor | Base of all remainder problems |
+| Remainder of sum | Rem(a + b) = Rem(a) + Rem(b), reduce if ≥ divisor | Break big additions |
+| Remainder of product | Rem(a × b) = Rem(a) × Rem(b), reduce if ≥ divisor | Break big multiplications |
+| Remainder of power | Rem(aⁿ) = Rem(Rem(a))ⁿ, then use cyclicity | Huge exponents like 7^95 ÷ 5 |
+| Negative remainder | Remainder −d ≡ (divisor − d) | Convert −2 mod 7 to +5 |
+| Fermat's Little Theorem | a^(p−1) ≡ 1 (mod p), p prime, p ∤ a | Remainder of huge powers by a prime |
+| Euler's Theorem | a^φ(n) ≡ 1 (mod n), gcd(a,n)=1 | Composite divisor remainders |
+| Wilson's Theorem | (p−1)! ≡ −1 (mod p), p prime | Factorial remainder by prime |
+| Chinese-style successive division | Convert remainders step-by-step to new base | "Divided successively by a, b, c" problems |
+
+## 3. Cyclicity of Unit Digits
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Cyclicity of 0,1,5,6 | Unit digit always same (0,1,5,6) | Instant answer |
+| Cyclicity of 2 | 2,4,8,6 (cycle 4) | Divide power by 4 |
+| Cyclicity of 3 | 3,9,7,1 (cycle 4) | Divide power by 4 |
+| Cyclicity of 4 | 4,6 (cycle 2) | Odd power → 4, even → 6 |
+| Cyclicity of 7 | 7,9,3,1 (cycle 4) | Divide power by 4 |
+| Cyclicity of 8 | 8,4,2,6 (cycle 4) | Divide power by 4 |
+| Cyclicity of 9 | 9,1 (cycle 2) | Odd power → 9, even → 1 |
+| Power rule | If power ≡ 0 (mod cycle length), use the last position of cycle | Remainder 0 means 4th position, not 0th |
+
+## 4. Factors (Divisors)
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Prime factorization | N = a^p × b^q × c^r (a,b,c prime) | First step of every factor problem |
+| Number of factors | (p+1)(q+1)(r+1) | "How many divisors?" |
+| Sum of factors | (a^(p+1)−1)/(a−1) × (b^(q+1)−1)/(b−1) × … | "Sum of all divisors of N" |
+| Product of factors | N^(number of factors / 2) | "Product of all divisors" |
+| Number of even factors | p × (q+1)(r+1)… where a = 2 | Exclude the power+1 of 2 |
+| Number of odd factors | (q+1)(r+1)… (drop factor of 2) | Ignore prime 2 completely |
+| Number of ways as product of two factors | (number of factors)/2; if perfect square: (factors+1)/2 | Ordered vs unordered pairs |
+| Number of ways as product of two co-prime factors | 2^(n−1), n = number of distinct primes | Co-prime pair splitting |
+| Factors of a perfect square | Always odd count | Quick check for perfect squares |
+
+## 5. HCF & LCM
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Product rule | HCF × LCM = Product of two numbers | Only for TWO numbers |
+| HCF of fractions | HCF of numerators / LCM of denominators | Fraction problems |
+| LCM of fractions | LCM of numerators / HCF of denominators | Fraction problems |
+| HCF by prime factors | Take lowest power of common primes | Small numbers |
+| LCM by prime factors | Take highest power of all primes | Small numbers |
+| HCF of (a^m − 1, a^n − 1) | a^(HCF(m,n)) − 1 | e.g., HCF of 2^12−1 and 2^18−1 = 2^6−1 |
+| LCM model (bells/timers) | Events together again after LCM of intervals | "Ring together" problems |
+| HCF model (tiles/cuts) | Largest equal piece = HCF of dimensions | "Greatest length that measures all" |
+| Numbers in ratio | If numbers are Hx and Hy (x,y co-prime), LCM = Hxy | "HCF = H, numbers in ratio x:y" |
+
+## 6. Remainder-Based Number Puzzles
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Same remainder model | HCF of (a−r), (b−r), (c−r) | "Greatest number dividing a,b,c leaving remainder r" |
+| Same remainder (different given) | HCF of differences (b−a), (c−b), (c−a) | "Leaves same remainder" without knowing r |
+| Successive remainders | Work backwards: N = ((r₃ + q₂·c)·b + r₁)… | "Divided successively" problems |
+| Number ≡ r (mod m) | N = mk + r | General form for LCM/HCF + remainder problems |
+| Common remainder with LCM | N = LCM(a,b,c)×k + r | "Leaves remainder r when divided by a,b,c" |
+| Constant difference | N = LCM(a,b,c)×k − d, where d = divisor − remainder (same for all) | "Short by same amount" problems |
+
+## 7. Number of Zeros & Highest Power
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Trailing zeros in n! | ⌊n/5⌋ + ⌊n/25⌋ + ⌊n/125⌋ + … | Count pairs of 2×5; 5s are fewer |
+| Highest power of prime p in n! | ⌊n/p⌋ + ⌊n/p²⌋ + ⌊n/p³⌋ + … | Legendre's formula |
+| Highest power of composite in n! | Factor composite; compute for each prime; divide by needed count, take min | e.g., power of 10 = min(power of 2, power of 5) |
+
+## 8. Base Systems
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Base-b to decimal | (dₙ…d₁d₀)ᵦ = dₙbⁿ + … + d₁b + d₀ | Expand by place value |
+| Decimal to base-b | Repeated division by b; read remainders bottom-up | Conversion both ways |
+| Digits in base b | Only 0 to (b−1) allowed | Validity check |
+| Counting numbers | In base b, k-digit numbers count = (b−1)·b^(k−1) | Rare but asked |
+
+## 9. Algebraic Identities Used in Number System
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| aⁿ − bⁿ divisible by (a−b) | Always, for all n | Divisibility proofs |
+| aⁿ − bⁿ divisible by (a+b) | Only when n is even | Check parity of n |
+| aⁿ + bⁿ divisible by (a+b) | Only when n is odd | e.g., 7³+5³ divisible by 12 |
+| (a+b)² = a²+2ab+b² | — | Digit-sum and squaring shortcuts |
+| (a−b)² = a²−2ab+b² | — | Numbers near 100, 1000 |
+| a² − b² = (a+b)(a−b) | — | Difference of squares, factor problems |
+| Sum of first n naturals | n(n+1)/2 | Series questions |
+| Sum of first n squares | n(n+1)(2n+1)/6 | Series questions |
+| Sum of first n cubes | [n(n+1)/2]² | Series questions |
+| Sum of first n odd numbers | n² | Instant |
+| Sum of first n even numbers | n(n+1) | Instant |
+
+## 10. Digit & Place-Value Formulas
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Two-digit number | 10x + y (x = tens, y = units) | "Digits reversed" problems |
+| Reversed number | 10y + x | Pair with original |
+| Sum/difference on reversal | Sum = 11(x+y); Difference = 9(x−y) | Reversal problems solved in seconds |
+| Three-digit number | 100x + 10y + z | Three-digit reversal problems |
+| Digital root | dr(n) = 1 + ((n−1) mod 9); equivalently n mod 9 (with 0 → 9) | Fast checking of calculations |
+| Number of digits in aⁿ | ⌊n·log₁₀a⌋ + 1 | Rare, advanced |
+
+## 11. Special Number Facts
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Prime numbers | Only 2 is even prime; 1 is neither prime nor composite | Trap questions |
+| Co-prime numbers | HCF = 1 (need not be prime themselves) | e.g., 8 and 15 |
+| Twin primes | Prime pairs differing by 2 | e.g., (11,13), (17,19) |
+| Perfect number | Equals sum of its proper divisors | e.g., 6, 28 |
+| Armstrong (narcissistic) number | Sum of digits each raised to number of digits = number | e.g., 153 = 1³+5³+3³ |
+| Consecutive integers product | Product of n consecutive integers divisible by n! | Divisibility proofs |
+| Square endings | Perfect squares end only in 0,1,4,5,6,9 | Eliminate options instantly |
+| Square mod 4 | A perfect square leaves remainder 0 or 1 (mod 4) | "Can this be a square?" checks |

@@ -1,0 +1,151 @@
+प्रश्न 51–70: आसान | प्रश्न 71–75: मध्यम
+
+51. The remainder when 7^84 is divided by 342 is
+(a) 0 (b) 49 (c) 1 (d) 341
+Answer: (c)
+Solution: The tempting wrong choice is 49, which comes from stopping at 7^2 = 49 and forgetting the cube. Note 7^3 = 343 ≡ 1 (mod 342), and 84 = 3 × 28, so 7^84 = (7^3)^28 ≡ 1^28 = 1 (mod 342), so the answer is 1.
+Source: PYQ-style
+
+52. The unit digit of 3^2019 + 7^2019 is
+(a) 4 (b) 0 (c) 6 (d) 8
+Answer: (b)
+Solution: The trap is 6, obtained by adding the unit digits 7 and 9 wrongly as 16 → 6 without checking the cycle. Unit digit of 3^n cycles 3, 9, 7, 1; 2019 mod 4 = 3, so unit digit is 7. Unit digit of 7^n cycles 7, 9, 3, 1; 2019 mod 4 = 3, so unit digit is 3. Sum = 7 + 3 = 10, so the answer is 0.
+Source: PYQ-style
+
+53. How many zeros are there at the end of 125!?
+(a) 30 (b) 25 (c) 32 (d) 31
+Answer: (d)
+Solution: The tempting wrong answer is 25, which counts only multiples of 5. Count factors of 5: ⌊125/5⌋ + ⌊125/25⌋ + ⌊125/125⌋ = 25 + 5 + 1 = 31, so the answer is 31.
+Source: NCERT Class 10 Mathematics (concept extended)
+
+54. The remainder when 2^1000 is divided by 7 is
+(a) 2 (b) 1 (c) 4 (d) 6
+Answer: (a)
+Solution: The trap is 1, from assuming the exponent divides evenly by the cycle length. Powers of 2 mod 7 cycle as 2, 4, 1 with period 3; 1000 mod 3 = 1, so 2^1000 ≡ 2 (mod 7), so the answer is 2.
+Source: PYQ-style
+
+55. If the number 4567x32 is divisible by 8, where x is a digit, then the sum of all possible values of x is
+(a) 10 (b) 18 (c) 25 (d) 20
+Answer: (d)
+Solution: The trap is 10, from testing only a few digits and missing that every even digit works. Divisibility by 8 depends only on the last three digits x32; checking x = 0 to 9, the values 032, 232, 432, 632 and 832 are all divisible by 8, so x ∈ {0, 2, 4, 6, 8}. Sum = 0 + 2 + 4 + 6 + 8 = 20, so the answer is 20.
+Source: PYQ-style
+
+56. The HCF of two numbers is 13 and their LCM is 780. If one number is 65, the other number is
+(a) 156 (b) 104 (c) 52 (d) 195
+Answer: (a)
+Solution: The trap is 52, from dividing LCM by 13 and stopping. Product of numbers = HCF × LCM = 13 × 780 = 10140; other number = 10140 ÷ 65 = 156. Check: HCF(65, 156) = 13, so the answer is 156.
+Source: NCERT Class 10 Mathematics
+
+57. What is the least number which when divided by 12, 15, 20 and 27 leaves a remainder of 7 in each case?
+(a) 1087 (b) 527 (c) 547 (d) 540
+Answer: (c)
+Solution: The trap is 540, which is just the LCM with no remainder added. LCM of 12, 15, 20, 27 = 540; required number = 540 + 7 = 547, so the answer is 547.
+Source: NCERT Class 10 Mathematics
+
+58. The remainder when 17^200 is divided by 18 is
+(a) 2 (b) 17 (c) 0 (d) 1
+Answer: (d)
+Solution: The trap is 17, from writing 17 ≡ −1 and forgetting the exponent is even. 17 ≡ −1 (mod 18), so 17^200 ≡ (−1)^200 = 1 (mod 18), so the answer is 1.
+Source: PYQ-style
+
+59. A number when divided by 221 leaves a remainder of 64. The remainder when the same number is divided by 13 is
+(a) 0 (b) 1 (c) 12 (d) 11
+Answer: (c)
+Solution: The trap is 0, from assuming 64 is divisible by 13. Number = 221k + 64; since 221 = 13 × 17, remainder mod 13 = 64 mod 13 = 64 − 52 = 12, so the answer is 12.
+Source: PYQ-style
+
+60. The sum of the first 50 odd natural numbers is
+(a) 2500 (b) 2450 (c) 2550 (d) 2601
+Answer: (a)
+Solution: The trap is 2550, which is the sum of the first 50 natural numbers. Sum of first n odd numbers = n² = 50² = 2500, so the answer is 2500.
+Source: NCERT Class 10 Mathematics
+
+61. If x = 2^3 × 3^2 × 5 and y = 2^2 × 3^3 × 7, then HCF × LCM of x and y equals
+(a) xy (b) x + y (c) x²y² (d) 2xy
+Answer: (a)
+Solution: The trap is 2xy, from doubling the product formula. For any two positive integers, HCF × LCM = product of the numbers = xy, so the answer is xy.
+Source: NCERT Class 10 Mathematics
+
+62. The digit in the unit place of (257)^33 − (257)^32 is
+(a) 0 (b) 2 (c) 4 (d) 6
+Answer: (d)
+Solution: The trap is 0, from assuming the two terms cancel. Unit digit of 257^n is the unit digit of 7^n: 33 mod 4 = 1 gives 7, and 32 mod 4 = 0 gives 1. Difference = 7 − 1 = 6, so the answer is 6.
+Source: PYQ-style
+
+63. The smallest number that must be added to 803642 so that the sum is divisible by 11 is
+(a) 1 (b) 7 (c) 4 (d) 9
+Answer: (b)
+Solution: The trap is 4, which is the remainder itself rather than what must be added. Alternating sum of digits: (2 + 6 + 0) − (4 + 3 + 8) = 8 − 15 = −7 ≡ 4 (mod 11), so 803642 leaves remainder 4 on division by 11 (check: 11 × 73058 = 803638). Hence we must add 11 − 4 = 7, so the answer is 7.
+Source: PYQ-style
+
+64. How many numbers between 100 and 300 are divisible by both 7 and 11?
+(a) 2 (b) 3 (c) 5 (d) 4
+Answer: (a)
+Solution: The trap is 3, from counting 77 or 308 which lie outside the range. Numbers divisible by both 7 and 11 are multiples of 77; between 100 and 300 these are 77 × 2 = 154 and 77 × 3 = 231 only, since 77 × 4 = 308 exceeds 300, so the answer is 2.
+Source: PYQ-style
+
+65. The remainder when (67^67 + 67) is divided by 68 is
+(a) 67 (b) 1 (c) 0 (d) 66
+Answer: (d)
+Solution: The trap is 0, from assuming both terms vanish mod 68. 67 ≡ −1 (mod 68), so 67^67 ≡ −1 and 67 ≡ −1; sum ≡ −2 ≡ 66 (mod 68), so the answer is 66.
+Source: PYQ-style
+
+66. The remainder when 5^99 is divided by 8 is
+(a) 1 (b) 5 (c) 3 (d) 7
+Answer: (b)
+Solution: The trap is 1, from noting 5^2 = 25 ≡ 1 (mod 8) and forgetting that 99 is odd. 5^99 = 5^98 × 5 = (5^2)^49 × 5 ≡ 1^49 × 5 = 5 (mod 8), so the answer is 5.
+Source: PYQ-style
+
+67. The largest 4-digit number exactly divisible by 12, 15, 18 and 27 is
+(a) 9540 (b) 9960 (c) 9720 (d) 9990
+Answer: (c)
+Solution: The trap is 9990, which is divisible by 15 and 27 but not by 12 and 18 together. LCM of 12, 15, 18, 27 = 540; largest 4-digit multiple = 9999 − (9999 mod 540) = 9999 − 279 = 9720, so the answer is 9720.
+Source: NCERT Class 10 Mathematics
+
+68. The value of 1 + 2 + 3 + … + 100 − (2 + 4 + 6 + … + 100) is
+(a) 2500 (b) 2550 (c) 5050 (d) 5000
+Answer: (a)
+Solution: The trap is 2550, which is the sum of the even terms alone. Total sum = 5050; even sum = 2(1 + 2 + … + 50) = 2550; difference = 5050 − 2550 = 2500, which equals the sum of the first 50 odd numbers, so the answer is 2500.
+Source: NCERT Class 10 Mathematics
+
+69. When a number is divided by 5, the remainder is 3. What is the remainder when the square of the number is divided by 5?
+(a) 4 (b) 2 (c) 1 (d) 3
+Answer: (a)
+Solution: The trap is 3, from assuming the remainder stays the same after squaring. Number ≡ 3 (mod 5), so square ≡ 9 ≡ 4 (mod 5), so the answer is 4.
+Source: PYQ-style
+
+70. The number of prime factors of 6^10 × 7^17 × 55^5 is
+(a) 52 (b) 42 (c) 37 (d) 47
+Answer: (d)
+Solution: The trap is 37, from ignoring the factors contributed by 55^5. Prime factorisation: 6^10 = 2^10 × 3^10; 55^5 = 5^5 × 11^5. Total prime factors counted with multiplicity = 10 + 10 + 17 + 5 + 5 = 47, so the answer is 47.
+Source: PYQ-style
+
+71. The difference of two numbers is 1365. On dividing the larger by the smaller, the quotient is 6 and remainder is 15. The smaller number is
+(a) 360 (b) 270 (c) 295 (d) 240
+Answer: (b)
+Solution: The trap is 240, from dividing 1365 by 6 directly without subtracting the remainder. Larger = 6 × smaller + 15, so difference = 5 × smaller + 15 = 1365, giving smaller = (1365 − 15)/5 = 270, so the answer is 270.
+Source: PYQ-style
+
+72. The unit digit of 1! + 2! + 3! + … + 100! is
+(a) 1 (b) 3 (c) 5 (d) 7
+Answer: (b)
+Solution: The trap is 5, from adding unit digits of 1! to 4! wrongly. From 5! onward every factorial ends in 0, so only 1! + 2! + 3! + 4! = 1 + 2 + 6 + 24 = 33 matters; unit digit is 3, so the answer is 3.
+Source: PYQ-style
+
+73. If n is a natural number, then 6^n − 5^n always ends with the digit
+(a) 5 (b) 3 (c) 1 (d) 9
+Answer: (c)
+Solution: The trap is 5, from looking only at the unit digit of 5^n. 6^n always ends in 6 and 5^n always ends in 5, so their difference ends in 6 − 5 = 1, so the answer is 1.
+Source: PYQ-style
+
+74. The greatest number which divides 1657 and 2037 leaving remainders 6 and 5 respectively is
+(a) 123 (b) 127 (c) 235 (d) 305
+Answer: (b)
+Solution: The trap is 123, from taking HCF of the original numbers instead of the reduced ones. Required number = HCF of (1657 − 6) = 1651 and (2037 − 5) = 2032; HCF(1651, 2032) = 127 (1651 = 13 × 127, 2032 = 16 × 127), so the answer is 127.
+Source: PYQ-style
+
+75. The sum of all two-digit numbers divisible by 7 is
+(a) 945 (b) 1071 (c) 728 (d) 735
+Answer: (c)
+Solution: The trap is 945, from starting the series at 7 instead of 14. Two-digit multiples of 7 are 14, 21, …, 98: number of terms = (98 − 14)/7 + 1 = 13; sum = (13/2) × (14 + 98) = (13/2) × 112 = 13 × 56 = 728, so the answer is 728.
+Source: NCERT Class 10 Mathematics (concept extended)

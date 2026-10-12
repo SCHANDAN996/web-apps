@@ -1,0 +1,151 @@
+Questions 76–100: Medium
+
+76. What is the unit digit of 31^178?
+(a) 6 (b) 3 (c) 4 (d) 1
+Answer: (d)
+Solution: The unit digits of powers of 1 repeat in a cycle of 1: 1. 178 leaves remainder 1 in this cycle, so the unit digit is 1. So the answer is 1.
+Source: PYQ-style
+
+77. How many zeros are there at the end of 345! (345 factorial)?
+(a) 83 (b) 34 (c) 84 (d) 85
+Answer: (c)
+Solution: Count the factors of 5: 345/5 + 345/25 + 345/125 + … (whole parts) = 84. There are always more 2s, so the number of trailing zeros is 84. So the answer is 84.
+Source: PYQ-style
+
+78. How many factors (divisors) does 148225 have?
+(a) 27 (b) 54 (c) 7 (d) 26
+Answer: (a)
+Solution: 148225 = 7^2 × 11^2 × 5^2. Number of factors = (2+1) × (2+1) × (2+1) = 27. So the answer is 27.
+Source: PYQ-style
+
+79. What is the LCM of 32 and 20?
+(a) 320 (b) 80 (c) 160 (d) 640
+Answer: (c)
+Solution: HCF of 32 and 20 is 4; LCM = 32 × 20 ÷ 4 = 160. So the answer is 160.
+Source: PYQ-style
+
+80. What is the remainder when 6^41 is divided by 13?
+(a) 6 (b) 12 (c) 5 (d) 2
+Answer: (d)
+Solution: Remainders of powers of 6 on division by 13 repeat: 6, 10, 8, 9, 2, 12, 7, 3, 5, 4, 11, 1 (cycle of 12). 41 leaves remainder 5, so the remainder is 2. So the answer is 2.
+Source: PYQ-style
+
+81. What is the sum of the squares of the first 15 natural numbers?
+(a) 1240 (b) 1465 (c) 1800 (d) 14400
+Answer: (a)
+Solution: Sum = n(n + 1)(2n + 1)/6 = 15 × 16 × 31/6 = 1240. So the answer is 1240.
+Source: PYQ-style
+
+82. What is the unit digit of 56^216?
+(a) 1 (b) 6 (c) 7 (d) 8
+Answer: (b)
+Solution: The unit digits of powers of 6 repeat in a cycle of 1: 6. 216 leaves remainder 1 in this cycle, so the unit digit is 6. So the answer is 6.
+Source: PYQ-style
+
+83. How many zeros are there at the end of 92! (92 factorial)?
+(a) 9 (b) 22 (c) 21 (d) 18
+Answer: (c)
+Solution: Count the factors of 5: 92/5 + 92/25 + 92/125 + … (whole parts) = 21. There are always more 2s, so the number of trailing zeros is 21. So the answer is 21.
+Source: PYQ-style
+
+84. How many factors (divisors) does 2475 have?
+(a) 17 (b) 18 (c) 6 (d) 16
+Answer: (b)
+Solution: 2475 = 11 × 5^2 × 3^2. Number of factors = (1+1) × (2+1) × (2+1) = 18. So the answer is 18.
+Source: PYQ-style
+
+85. The HCF of two numbers is 9 and their LCM is 135. If one number is 45, what is the other number?
+(a) 15 (b) 27 (c) 3 (d) 18
+Answer: (b)
+Solution: HCF × LCM = product of the numbers, so the other number = 9 × 135 ÷ 45 = 27. So the answer is 27.
+Source: PYQ-style
+
+86. What is the remainder when 3^29 is divided by 13?
+(a) 0 (b) 12 (c) 11 (d) 9
+Answer: (d)
+Solution: Remainders of powers of 3 on division by 13 repeat: 3, 9, 1 (cycle of 3). 29 leaves remainder 2, so the remainder is 9. So the answer is 9.
+Source: PYQ-style
+
+87. What is the smallest digit that can replace * so that 9731* is divisible by 11?
+(a) 8 (b) 7 (c) 2 (d) 0
+Answer: (b)
+Solution: A number is divisible by 11 when the difference between the sums of digits in odd and even places is 0 or a multiple of 11. Trying digits from 0 upwards, the smallest that works is 7. So the answer is 7.
+Source: PYQ-style
+
+88. What is the sum of the first 50 natural numbers?
+(a) 1275 (b) 1325 (c) 2500 (d) 1225
+Answer: (a)
+Solution: Sum = n(n + 1)/2 = 50 × 51/2 = 1275. So the answer is 1275.
+Source: PYQ-style
+
+89. What is the unit digit of 25^342?
+(a) 2 (b) 7 (c) 8 (d) 5
+Answer: (d)
+Solution: The unit digits of powers of 5 repeat in a cycle of 1: 5. 342 leaves remainder 1 in this cycle, so the unit digit is 5. So the answer is 5.
+Source: PYQ-style
+
+90. How many zeros are there at the end of 480! (480 factorial)?
+(a) 120 (b) 117 (c) 96 (d) 118
+Answer: (d)
+Solution: Count the factors of 5: 480/5 + 480/25 + 480/125 + … (whole parts) = 118. There are always more 2s, so the number of trailing zeros is 118. So the answer is 118.
+Source: PYQ-style
+
+91. How many factors (divisors) does 1369599 have?
+(a) 32 (b) 30 (c) 34 (d) 31
+Answer: (a)
+Solution: 1369599 = 7^3 × 11^3 × 3. Number of factors = (3+1) × (3+1) × (1+1) = 32. So the answer is 32.
+Source: PYQ-style
+
+92. The HCF of two numbers is 14 and their LCM is 560. If one number is 70, what is the other number?
+(a) 112 (b) 98 (c) 126 (d) 40
+Answer: (a)
+Solution: HCF × LCM = product of the numbers, so the other number = 14 × 560 ÷ 70 = 112. So the answer is 112.
+Source: PYQ-style
+
+93. What is the remainder when 4^115 is divided by 11?
+(a) 1 (b) 2 (c) 5 (d) 10
+Answer: (a)
+Solution: Remainders of powers of 4 on division by 11 repeat: 4, 5, 9, 3, 1 (cycle of 5). 115 leaves remainder 5, so the remainder is 1. So the answer is 1.
+Source: PYQ-style
+
+94. What is the smallest digit that can replace * so that 6*475 is divisible by 3?
+(a) 7 (b) 3 (c) 2 (d) 6
+Answer: (c)
+Solution: A number is divisible by 3 when the sum of its digits is divisible by 3. Trying digits from 0 upwards, the smallest that works is 2. So the answer is 2.
+Source: PYQ-style
+
+95. What is the sum of the first 40 natural numbers?
+(a) 1600 (b) 820 (c) 780 (d) 860
+Answer: (b)
+Solution: Sum = n(n + 1)/2 = 40 × 41/2 = 820. So the answer is 820.
+Source: PYQ-style
+
+96. What is the unit digit of 30^287?
+(a) 2 (b) 1 (c) 0 (d) 7
+Answer: (c)
+Solution: The unit digits of powers of 0 repeat in a cycle of 1: 0. 287 leaves remainder 1 in this cycle, so the unit digit is 0. So the answer is 0.
+Source: PYQ-style
+
+97. How many zeros are there at the end of 248! (248 factorial)?
+(a) 61 (b) 60 (c) 49 (d) 59
+Answer: (d)
+Solution: Count the factors of 5: 248/5 + 248/25 + 248/125 + … (whole parts) = 59. There are always more 2s, so the number of trailing zeros is 59. So the answer is 59.
+Source: PYQ-style
+
+98. How many factors (divisors) does 266200 have?
+(a) 46 (b) 96 (c) 48 (d) 9
+Answer: (c)
+Solution: 266200 = 5^2 × 11^3 × 2^3. Number of factors = (2+1) × (3+1) × (3+1) = 48. So the answer is 48.
+Source: PYQ-style
+
+99. What is the LCM of 30 and 42?
+(a) 210 (b) 6 (c) 216 (d) 1260
+Answer: (a)
+Solution: HCF of 30 and 42 is 6; LCM = 30 × 42 ÷ 6 = 210. So the answer is 210.
+Source: PYQ-style
+
+100. What is the remainder when 2^66 is divided by 9?
+(a) 4 (b) 1 (c) 5 (d) 2
+Answer: (b)
+Solution: Remainders of powers of 2 on division by 9 repeat: 2, 4, 8, 7, 5, 1 (cycle of 6). 66 leaves remainder 6, so the remainder is 1. So the answer is 1.
+Source: PYQ-style
