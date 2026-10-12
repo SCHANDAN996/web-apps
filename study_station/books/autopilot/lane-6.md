@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 05:20 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 04:49 PM
+**आख़िरी update:** 12-10-2026 05:36 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 04:49 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
-| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
-| W3 | Chapter 15 Mathematical Operations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 46 मिनट |
+| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 46 मिनट |
+| W3 | Chapter 15 Mathematical Operations (10th Reasoning) | 🔎 review हो रहा है | 13 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -55,4 +55,13 @@
 12-10 17:17:42   [Mathematical_Operations] set 04: key confirmed
 12-10 17:19:24   [Dictionary_Order] set 02 try 2: re-solve disagrees (Q30 key a vs re-solve b, Q35 key d vs re-solve b, Q44 key b vs re-solve a)
 12-10 17:20:01   [Mathematical_Operations] set 05: key confirmed
+12-10 17:22:58   [Mathematical_Operations] set 06: key confirmed
+12-10 17:22:58   [Mathematical_Operations] written 1, failed 0; AI calls today 38/100000
+12-10 17:23:47   [Mathematical_Operations] review Content_en.txt: 1 issue(s): - The 'Fractional Division Trap' incorrectly states that division takes precedence over multiplication → In BODMAS,
+12-10 17:25:19   [Venn_Diagrams] repaired set 02 (en + hi, key confirmed by an independent re-solve)
+12-10 17:26:28   [Mathematical_Operations] review Content_hi.txt: 1 issue(s): - In the caution box, the second symbol is missing (shown as ‘’); it should be a specific symbol like ‘#’ or ‘%’ → 
+12-10 17:26:33   [Dictionary_Order] set 02 try 3: re-solve disagrees (Q30 key b vs re-solve c, Q35 key c vs re-solve b)
+12-10 17:33:40   [Dictionary_Order] set 02 try 4: re-solve disagrees (Q30 key d vs re-solve b, Q35 key b vs re-solve c)
+12-10 17:33:40   [Dictionary_Order] FAILED set 02: no version passed the checks — files left as they were
+12-10 17:34:46   [Venn_Diagrams] set 03: Q51 key a vs re-solve d, Q55 key a vs re-solve b, Q60 key b vs re-solve c, Q63 key a vs re-solve c, Q66 key d vs re-solve c, Q73 key c vs re-s
 ```
