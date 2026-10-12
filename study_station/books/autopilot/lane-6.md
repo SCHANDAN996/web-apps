@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 09:05 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
+**आख़िरी update:** 12-10-2026 09:20 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 62 मिनट |
-| W2 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 26 मिनट |
-| W3 | Chapter 04 Blood Relations (10th Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 77 मिनट |
+| W2 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 41 मिनट |
+| W3 | Chapter 05 Direction Sense (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -42,14 +42,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 08:02:30   [Classification] written 3, failed 3; AI calls today 103/100000
-12-10 08:02:30 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_02_Classification: ['FAILED set 01: no version passed the checks — files left as they were', 'FAILED set 02: too_long']
-12-10 08:02:30 START 10th_Level/Reasoning/Chapter_02_Classification (OK: todo 0, problems 0)
-12-10 08:03:17   [Classification] set 01: Q1 key a vs re-solve d, Q5 key a vs re-solve d, Q7 key c vs re-solve d, Q11 key c vs re-solve d, Q13 key a vs re-solve c, Q14 key b vs re-solv
-12-10 08:09:15   [Blood_Relations] set 06 try 1: re-solve disagrees (Q131 key b vs re-solve a)
-12-10 08:09:31   [Classification] set 01 try 1: re-solve disagrees (Q5 key a vs re-solve d, Q6 key a vs re-solve d)
-12-10 08:09:44   [Coding_Decoding] set 05: Q116 key d vs re-solve a
-12-10 08:13:14   [Classification] set 01 try 2: re-solve disagrees (Q16 key b vs re-solve a, Q17 key c vs re-solve d)
 12-10 08:16:00   [Classification] set 01 try 3: re-solve disagrees (Q17 key a vs re-solve d)
 12-10 08:18:35   [Classification] set 01 try 4: re-solve disagrees (Q17 key a vs re-solve d)
 12-10 08:18:35   [Classification] FAILED set 01: no version passed the checks — files left as they were
@@ -82,4 +74,12 @@
 12-10 09:03:58   [Classification] set 05 try 1: re-solve disagrees (Q105 key c vs re-solve d)
 12-10 09:05:17   [Blood_Relations] review: 7 section(s) corrected, 0 failed
 12-10 09:05:17   [Blood_Relations] written 7, failed 0; AI calls today 176/100000
+12-10 09:05:37 DONE 10th_Level/Reasoning/Chapter_04_Blood_Relations in 185 min → 5e9f6244
+12-10 09:05:37 START 10th_Level/Reasoning/Chapter_05_Direction_Sense (OK: todo 0, problems 0)
+12-10 09:07:20   [Direction_Sense] set 01: Q22 key b vs re-solve a, Q24 key d vs re-solve b
+12-10 09:09:56   [Classification] repaired set 05 (en + hi, key confirmed by an independent re-solve)
+12-10 09:12:02   [Coding_Decoding] set 02: key confirmed
+12-10 09:15:53   [Coding_Decoding] set 03: key confirmed
+12-10 09:16:46   [Direction_Sense] repaired set 01 (en + hi, key confirmed by an independent re-solve)
+12-10 09:18:56   [Coding_Decoding] set 04: key confirmed
 ```
