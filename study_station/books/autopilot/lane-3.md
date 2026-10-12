@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 12-10-2026 05:58 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 12:34 AM
+**आख़िरी update:** 12-10-2026 06:00 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W1 | Chapter 08 Puzzles (12th Reasoning) | 📤 push हो रहा है | 0 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -30,41 +28,13 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- 12-10 05:58 — 12th Reasoning · Chapter 08 Puzzles
+- अभी कोई नहीं
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 00:34:36 autopilot start: 3 workers, reverse=True
-12-10 00:34:39 START 12th_Level/Reasoning/Chapter_08_Puzzles (OK: todo 0, problems 0)
-12-10 00:34:44 worker 1: nothing left
-12-10 00:34:49 worker 2: nothing left
-12-10 00:50:12   [Puzzles] set 01: Q24 key d vs re-solve c
-12-10 01:10:14   [Puzzles] Practice_hi_Set_01.txt try 1: rejected (parsed 24 questions, numbers 1…25)
-12-10 01:13:51   [Puzzles] repaired set 01 (en + hi, key confirmed by an independent re-solve)
-12-10 01:25:22   [Puzzles] set 02: Q42 key a vs re-solve d
-12-10 01:48:37   [Puzzles] set 02 try 1: re-solve disagrees (Q26: the clues allow more than one answer — add a clue so exactly one arrangement fits; Q28: the clues allow more th
-12-10 01:57:09   [Puzzles] set 02 try 2: re-solve disagrees (Q34 key b vs re-solve d)
-12-10 02:12:00   [Puzzles] repaired set 02 (en + hi, key confirmed by an independent re-solve)
-12-10 02:26:21   [Puzzles] set 03: Q54 key b vs re-solve c
-12-10 02:36:40   [Puzzles] set 03 try 1: re-solve disagrees (Q51 key a vs re-solve d, Q67 key c vs re-solve a)
-12-10 02:45:26   [Puzzles] set 03 try 2: re-solve disagrees (Q52 key a vs re-solve b)
-12-10 02:59:02   [Puzzles] set 03 try 3: re-solve disagrees (Q61: the clues allow more than one answer — add a clue so exactly one arrangement fits)
-12-10 03:15:24   [Puzzles] repaired set 03 (en + hi, key confirmed by an independent re-solve)
-12-10 03:22:03   [Puzzles] set 04: Q76 key a vs re-solve d
-12-10 03:43:56   [Puzzles] set 04 try 1: re-solve disagrees (Q85: the clues allow more than one answer — add a clue so exactly one arrangement fits)
-12-10 04:07:18   [Puzzles] repaired set 04 (en + hi, key confirmed by an independent re-solve)
-12-10 04:14:35   [Puzzles] set 05: Q112 key d vs re-solve ?, Q121 key b vs re-solve -, Q122 key c vs re-solve -, Q123 key d vs re-solve -, Q124 key a vs re-solve -, Q125 key a v
-12-10 04:29:26   [Puzzles] set 05 try 1: re-solve disagrees (Q118: clues contradict each other — no arrangement fits all of them)
-12-10 04:49:33   [Puzzles] repaired set 05 (en + hi, key confirmed by an independent re-solve)
-12-10 05:00:45   [Puzzles] set 06: Q126 key c vs re-solve ?, Q129 key c vs re-solve ?
-12-10 05:11:58   [Puzzles] set 06 try 1: re-solve disagrees (Q137 key b vs re-solve a)
-12-10 05:26:03   [Puzzles] set 06 try 2: re-solve disagrees (Q137: clues contradict each other — no arrangement fits all of them; Q148: the clues allow more than one answer — ad
-12-10 05:43:11   [Puzzles] repaired set 06 (en + hi, key confirmed by an independent re-solve)
-12-10 05:43:11   [Puzzles] written 6, failed 0; AI calls today 104/100000
-12-10 05:44:34   [Puzzles] review Content_en.txt: 1 issue(s): - In Chunk 2's worked mini-example (Linear Seating), after placing S, R, Q, P the only empty seat is position 4, wh
-12-10 05:48:49   [Puzzles] review Content_hi.txt: 1 issue(s): - In भाग 4, the explanation for 'X, Y से दो दिन पहले' incorrectly states 'बीच में एक दिन का अंतर नहीं' (there is ac
-12-10 05:54:10   [Puzzles] review PYQ_hi.txt: 1 issue(s): - प्रश्न 2 (वृत्तीय व्यवस्था) का हल गलत क्रम (P, R, T, Q, S) देता है; सही क्रम P, S, Q, T, R (घड़ी-दिशा) है जिससे S, P 
-12-10 05:58:27   [Puzzles] review: 3 section(s) corrected, 0 failed
-12-10 05:58:27   [Puzzles] written 3, failed 0; AI calls today 120/100000
+12-10 06:00:09 autopilot start: 3 workers, reverse=True
+12-10 06:00:12 worker 0: nothing left
+12-10 06:00:17 worker 1: nothing left
+12-10 06:00:22 worker 2: nothing left
 ```
