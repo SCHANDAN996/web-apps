@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 07:17 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
+**आख़िरी update:** 12-10-2026 07:32 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 77 मिनट |
-| W2 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 77 मिनट |
-| W3 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 77 मिनट |
+| W1 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 92 मिनट |
+| W2 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 92 मिनट |
+| W3 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 92 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,10 +37,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 06:00:13 autopilot start: 3 workers, reverse=True
-12-10 06:00:14 START 10th_Level/Reasoning/Chapter_02_Classification (OK: todo 0, problems 0)
-12-10 06:00:18 START 10th_Level/Reasoning/Chapter_03_Coding_Decoding (OK: todo 0, problems 0)
-12-10 06:00:23 START 10th_Level/Reasoning/Chapter_04_Blood_Relations (OK: todo 0, problems 0)
 12-10 06:01:01   [Classification] set 01: Q1 key a vs re-solve d, Q5 key a vs re-solve d, Q7 key c vs re-solve d, Q11 key c vs re-solve d, Q13 key a vs re-solve c, Q14 key b vs re-solv
 12-10 06:01:04   [Blood_Relations] set 01: Q2 key b vs re-solve c, Q3 key c vs re-solve a, Q4 key d vs re-solve a
 12-10 06:02:46   [Blood_Relations] set 01 try 1: re-solve disagrees (Q24 key a vs re-solve b)
@@ -75,4 +71,10 @@
 12-10 07:12:33   [Classification] repaired set 04 (en + hi, key confirmed by an independent re-solve)
 12-10 07:12:33   [Coding_Decoding] repaired set 02 (en + hi, key confirmed by an independent re-solve)
 12-10 07:15:43   [Classification] set 05: Q103 key c vs re-solve d, Q111 key c vs re-solve d, Q113 key a vs re-solve d, Q116 key d vs re-solve a, Q118 key b vs re-solve c, Q119 key c v
+12-10 07:19:05   [Classification] set 05 try 1: re-solve disagrees (Q109 key a vs re-solve c)
+12-10 07:19:55   [Blood_Relations] repaired set 04 (en + hi, key confirmed by an independent re-solve)
+12-10 07:22:54   [Coding_Decoding] set 03: Q58 key d vs re-solve a, Q60 key b vs re-solve a
+12-10 07:25:16   [Classification] repaired set 05 (en + hi, key confirmed by an independent re-solve)
+12-10 07:26:31   [Coding_Decoding] set 03 try 1: rejected (Q54:duplicate_options,Q70:duplicate_options)
+12-10 07:31:05   [Blood_Relations] set 05: Q121 key a vs re-solve b, Q123 key c vs re-solve d
 ```
