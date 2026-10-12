@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 04:28 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
+**आख़िरी update:** 12-10-2026 04:44 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 171 मिनट |
+| W3 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 186 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -42,8 +42,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 14:56:38   [Alphabet_Questions] repaired set 02 (en + hi, key confirmed by an independent re-solve)
-12-10 14:56:48   [Dictionary_Order] set 04 try 1: re-solve disagrees (Q80 key b vs re-solve ?, Q93 key a vs re-solve d)
 12-10 14:57:08   [Venn_Diagrams] set 02 try 2: re-solve disagrees (Q28 key d vs re-solve c)
 12-10 14:57:55   [Alphabet_Questions] set 03: key confirmed
 12-10 15:01:36   [Alphabet_Questions] set 04: key confirmed
@@ -82,4 +80,6 @@
 12-10 16:10:07   [Dictionary_Order] set 05 try 3: rejected (Q116:leaked_reasoning)
 12-10 16:17:46   [Dictionary_Order] set 05 try 4: re-solve disagrees (Q110 key c vs re-solve d, Q111 key b vs re-solve a, Q113 key a vs re-solve b, Q116 key b vs re-solve d, Q120 key d v
 12-10 16:17:46   [Dictionary_Order] FAILED set 05: no version passed the checks — files left as they were
+12-10 16:31:53   [Dictionary_Order] set 06: Q142 key a vs re-solve b
+12-10 16:36:18   [Dictionary_Order] set 06 try 1: rejected (Q135:leaked_reasoning)
 ```
