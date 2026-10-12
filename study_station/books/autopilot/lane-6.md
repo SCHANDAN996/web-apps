@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 12:29 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
+**आख़िरी update:** 12-10-2026 12:40 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 65 मिनट |
-| W2 | Chapter 10 Clock Calendar (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 65 मिनट |
-| W3 | Chapter 11 Series (10th Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 76 मिनट |
+| W2 | Chapter 10 Clock Calendar (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 76 मिनट |
+| W3 | Chapter 12 Missing Term (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,14 +37,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 11:23:46 autopilot start: 3 workers, reverse=True
-12-10 11:23:47 START 10th_Level/Reasoning/Chapter_09_Venn_Diagrams (OK: todo 0, problems 0)
-12-10 11:23:51 START 10th_Level/Reasoning/Chapter_10_Clock_Calendar (OK: todo 0, problems 0)
-12-10 11:23:56 START 10th_Level/Reasoning/Chapter_11_Series (OK: todo 0, problems 0)
-12-10 11:24:36   [Clock_Calendar] set 01: key confirmed
-12-10 11:24:38   [Series] set 01: key confirmed
-12-10 11:26:04   [Venn_Diagrams] set 01: Q8 key d vs re-solve ?, Q10 key b vs re-solve ?, Q21 key a vs re-solve b
-12-10 11:27:57   [Series] set 02: key confirmed
 12-10 11:29:10   [Venn_Diagrams] set 01 try 1: re-solve disagrees (Q4 key d vs re-solve b)
 12-10 11:30:02   [Series] set 03: key confirmed
 12-10 11:31:30   [Series] set 04: key confirmed
@@ -76,4 +68,13 @@
 12-10 12:26:15   [Series] review Short_Tricks_en.txt: 1 issue(s): - Box 2 title says “Perfect Squares up to 25” but the list stops at 15² (225); either change the title to “Per
 12-10 12:29:18   [Series] review: 6 section(s) corrected, 0 failed
 12-10 12:29:18   [Series] written 6, failed 0; AI calls today 79/100000
+12-10 12:29:30 DONE 10th_Level/Reasoning/Chapter_11_Series in 65 min → 6b27972b
+12-10 12:29:31 START 10th_Level/Reasoning/Chapter_12_Missing_Term (OK: todo 0, problems 0)
+12-10 12:29:35   [Clock_Calendar] set 05: Q103 key c vs re-solve a, Q105 key a vs re-solve b, Q110 key b vs re-solve a, Q112 key d vs re-solve b
+12-10 12:30:16   [Missing_Term] set 01: Q9 key a vs re-solve d
+12-10 12:33:24   [Venn_Diagrams] repaired set 03 (en + hi, key confirmed by an independent re-solve)
+12-10 12:37:59   [Venn_Diagrams] set 04: Q77 key b vs re-solve a
+12-10 12:38:33   [Missing_Term] repaired set 01 (en + hi, key confirmed by an independent re-solve)
+12-10 12:39:41   [Missing_Term] set 02: Q35 key b vs re-solve a
+12-10 12:40:23   [Clock_Calendar] set 05 try 1: re-solve disagrees (Q105 key a vs re-solve b, Q110 key a vs re-solve b)
 ```
