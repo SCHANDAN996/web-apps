@@ -1,152 +1,151 @@
-Set 6: Series MCQs (English)
 Questions 126–150: Hard
 
-Q126. (Hard) (Hard) 2, 6, 15, 31, 56, ?
-(a) 92 (b) 88 (c) 96 (d) 100
-Answer: (a) 92
-Solution: Differences: +4, +9, +16, +25 (squares) → next +36 → 56+36=92.
-Source: SSC CGL
+126. 2, 6, 15, 31, 56, ?
+(a) 88 (b) 92 (c) 96 (d) 100
+Answer: (b)
+Solution: The differences are +4, +9, +16, +25, i.e. consecutive squares 2², 3², 4², 5². The next difference is 6² = 36, not 32, which is the trap behind 88. So the answer is 56 + 36 = 92.
+Source: PYQ-style
 
-Q127. (Hard) (Hard) 1, 3, 7, 15, 31, ?
-(a) 62 (b) 63 (c) 64 (d) 65
-Answer: (b) 63
-Solution: ×2+1: 1×2+1=3, 3×2+1=7, 7×2+1=15, 15×2+1=31, 31×2+1=63.
-Source: SSC CGL
+127. 1, 3, 7, 15, 31, ?
+(a) 62 (b) 65 (c) 64 (d) 63
+Answer: (d)
+Solution: Each term is previous × 2 + 1: 1×2+1=3, 3×2+1=7, 7×2+1=15, 15×2+1=31. The trap is doubling only, which gives 62. So the answer is 31×2+1 = 63.
+Source: PYQ-style
 
-Q128. (Hard) (Hard) 5, 6, 14, 45, 184, ?
+128. 5, 6, 14, 45, 184, ?
 (a) 920 (b) 930 (c) 925 (d) 935
-Answer: (c) 925
-Solution: ×1+1=6, ×2+2=14, ×3+3=45, ×4+4=184, ×5+5=925.
-Source: SSC CGL
+Answer: (c)
+Solution: The rule is ×1+1, ×2+2, ×3+3, ×4+4: 5×1+1=6, 6×2+2=14, 14×3+3=45, 45×4+4=184. The trap is multiplying by 5 without adding 5, giving 920. So the answer is 184×5+5 = 925.
+Source: PYQ-style
 
-Q129. (Hard) (Hard) 2, 5, 11, 23, 47, ?
-(a) 93 (b) 94 (c) 96 (d) 95
-Answer: (d) 95
-Solution: ×2+1: 2×2+1=5, 5×2+1=11, 11×2+1=23, 23×2+1=47, 47×2+1=95.
-Source: SSC CGL
+129. 2, 5, 11, 23, 47, ?
+(a) 93 (b) 95 (c) 96 (d) 94
+Answer: (b)
+Solution: Each term is previous × 2 + 1: 2×2+1=5, 5×2+1=11, 11×2+1=23, 23×2+1=47. The trap is plain doubling, which gives 94. So the answer is 47×2+1 = 95.
+Source: PYQ-style
 
-Q130. (Hard) (Hard) Find the wrong term: 6, 14, 30, 64, 126, 254
-(a) 64 (b) 14 (c) 30 (d) 126
-Answer: (a) 64
-Solution: Pattern: 2³−2=6, 2⁴−2=14, 2⁵−2=30, 2⁶−2=62 (not 64), 2⁷−2=126, 2⁸−2=254.
-Source: SSC CGL
+130. Find the wrong term in the series: 6, 14, 30, 64, 126, 254
+(a) 14 (b) 64 (c) 30 (d) 126
+Answer: (b)
+Solution: The pattern is 2ⁿ−2: 2³−2=6, 2⁴−2=14, 2⁵−2=30, 2⁶−2=62, 2⁷−2=126, 2⁸−2=254. The fourth term should be 62, not 64; 64 looks tempting because it is a familiar power of 2. So the wrong term is 64.
+Source: PYQ-style
 
-Q131. (Hard) (Hard) 1, 4, 9, 16, 25, 36, 49, ?
-(a) 56 (b) 64 (c) 72 (d) 81
-Answer: (b) 64
-Solution: Squares of natural numbers: 1²,2²,3²,4²,5²,6²,7²,8²=64.
-Source: SSC CGL
+131. 1, 4, 9, 16, 25, 36, 49, ?
+(a) 64 (b) 56 (c) 72 (d) 81
+Answer: (a)
+Solution: These are squares of natural numbers: 1², 2², 3², …, 7², so the next is 8². The trap is 81, which is 9² and skips a step. So the answer is 64.
+Source: NCERT Class 8 Mathematics
 
-Q132. (Hard) (Hard) A, E, J, P, ?
-(a) B (b) C (c) A (d) D
-Answer: (c) A
-Solution: Positions: A=1→E=5 (+4), E→J=10 (+5), J→P=16 (+6). Differences increase by 1 each time? Then next +7 → 23=W. Not in options. Instead, differences are consecutive primes: 4,5,7,11 → 16+11=27 → 27−26=1=A.
-Source: SSC CGL
+132. Z, X, V, T, ?
+(a) R (b) S (c) P (d) Q
+Answer: (a)
+Solution: Letters move back by 2 each time: Z(26)→X(24)→V(22)→T(20)→R(18). The trap is S, which comes from moving back only 1 from T. So the answer is R.
+Source: PYQ-style
 
-Q133. (Hard) (Hard) 0, 3, 8, 15, 24, ?
+133. 0, 3, 8, 15, 24, ?
 (a) 33 (b) 34 (c) 36 (d) 35
-Answer: (d) 35
-Solution: n²−1: 1²−1=0, 2²−1=3, 3²−1=8, 4²−1=15, 5²−1=24, 6²−1=35.
-Source: SSC CGL
+Answer: (d)
+Solution: The pattern is n²−1: 1²−1=0, 2²−1=3, 3²−1=8, 4²−1=15, 5²−1=24. The trap is 36, which is 6² without subtracting 1. So the answer is 6²−1 = 35.
+Source: NCERT Class 8 Mathematics
 
-Q134. (Hard) (Hard) 7, 13, 25, 49, 97, ?
-(a) 193 (b) 190 (c) 191 (d) 192
-Answer: (a) 193
-Solution: ×2−1: 7×2−1=13, 13×2−1=25, 25×2−1=49, 49×2−1=97, 97×2−1=193.
-Source: SSC CGL
+134. 7, 13, 25, 49, 97, ?
+(a) 190 (b) 193 (c) 191 (d) 192
+Answer: (b)
+Solution: Each term is previous × 2 − 1: 7×2−1=13, 13×2−1=25, 25×2−1=49, 49×2−1=97. The trap is 192, from adding 1 instead of subtracting. So the answer is 97×2−1 = 193.
+Source: PYQ-style
 
-Q135. (Hard) (Hard) 2, 5, 10, 17, 28, ?
-(a) 39 (b) 41 (c) 40 (d) 42
-Answer: (b) 41
-Solution: Differences: 3, 5, 7, 11 (consecutive primes) → next prime 13 → 28+13=41.
-Source: SSC CGL
+135. 3, 6, 11, 18, 27, ?
+(a) 36 (b) 37 (c) 38 (d) 40
+Answer: (c)
+Solution: The differences are +3, +5, +7, +9, consecutive odd numbers, so the next difference is +11. The trap is 36, which comes from repeating +9. So the answer is 27+11 = 38.
+Source: PYQ-style
 
-Q136. (Hard) (Hard) 1, 2, 6, 21, 88, ?
-(a) 425 (b) 465 (c) 445 (d) 485
-Answer: (c) 445
-Solution: ×1+1=2, ×2+2=6, ×3+3=21, ×4+4=88, ×5+5=445.
-Source: SSC CGL
+136. 1, 2, 6, 21, 88, ?
+(a) 425 (b) 465 (c) 485 (d) 445
+Answer: (d)
+Solution: The rule is ×1+1, ×2+2, ×3+3, ×4+4: 1×1+1=2, 2×2+2=6, 6×3+3=21, 21×4+4=88. The trap is 465, from adding a wrong constant after ×5. So the answer is 88×5+5 = 445.
+Source: PYQ-style
 
-Q137. (Hard) (Hard) 3, 7, 16, 35, 74, ?
-(a) 151 (b) 152 (c) 154 (d) 153
-Answer: (d) 153
-Solution: ×2+1, ×2+2, ×2+3, ×2+4, ×2+5: 3×2+1=7, 7×2+2=16, 16×2+3=35, 35×2+4=74, 74×2+5=153.
-Source: SSC CGL
+137. 3, 7, 16, 35, 74, ?
+(a) 151 (b) 152 (c) 153 (d) 154
+Answer: (c)
+Solution: The rule is ×2+1, ×2+2, ×2+3, ×2+4: 3×2+1=7, 7×2+2=16, 16×2+3=35, 35×2+4=74. The trap is 153's neighbour 151, from adding 3 instead of 5. So the answer is 74×2+5 = 153.
+Source: PYQ-style
 
-Q138. (Hard) (Hard) M, K, I, G, E, ?
+138. M, K, I, G, E, ?
 (a) C (b) D (c) B (d) A
-Answer: (a) C
-Solution: −2 each: M(13)→K(11)→I(9)→G(7)→E(5)→C(3).
-Source: SSC CGL
+Answer: (a)
+Solution: Letters move back by 2: M(13)→K(11)→I(9)→G(7)→E(5)→C(3). The trap is D, from moving back only 1 from E. So the answer is C.
+Source: PYQ-style
 
-Q139. (Hard) (Hard) 4, 6, 12, 30, 90, ?
-(a) 270 (b) 315 (c) 300 (d) 330
-Answer: (b) 315
-Solution: Multiply by 1.5, 2, 2.5, 3, 3.5: 4×1.5=6, 6×2=12, 12×2.5=30, 30×3=90, 90×3.5=315.
-Source: SSC CGL
+139. 4, 6, 12, 30, 90, ?
+(a) 270 (b) 300 (c) 315 (d) 330
+Answer: (c)
+Solution: Multipliers rise by 0.5: 4×1.5=6, 6×2=12, 12×2.5=30, 30×3=90. The trap is 270, from using ×3 again. So the answer is 90×3.5 = 315.
+Source: PYQ-style
 
-Q140. (Hard) (Hard) 1, 3, 8, 19, 42, ?
+140. 1, 3, 8, 19, 42, ?
 (a) 87 (b) 91 (c) 89 (d) 93
-Answer: (c) 89
-Solution: ×2+1, ×2+2, ×2+3, ×2+4, ×2+5: 1×2+1=3, 3×2+2=8, 8×2+3=19, 19×2+4=42, 42×2+5=89.
-Source: SSC CGL
+Answer: (c)
+Solution: The rule is ×2+1, ×2+2, ×2+3, ×2+4: 1×2+1=3, 3×2+2=8, 8×2+3=19, 19×2+4=42. The trap is 87, from adding 3 instead of 5. So the answer is 42×2+5 = 89.
+Source: PYQ-style
 
-Q141. (Hard) (Hard) B, G, L, Q, V, ?
-(a) B (b) Z (c) Y (d) A
-Answer: (d) A
-Solution: +5 each: B(2)→G(7)→L(12)→Q(17)→V(22)→27→27−26=1=A.
-Source: SSC CGL
+141. B, G, L, Q, V, ?
+(a) B (b) A (c) Y (d) Z
+Answer: (b)
+Solution: Letters move forward by 5: B(2)→G(7)→L(12)→Q(17)→V(22)→27, and 27−26=1=A. The trap is Z, from stopping at 26 instead of wrapping around. So the answer is A.
+Source: PYQ-style
 
-Q142. (Hard) (Hard) 1, 2, 8, 48, 384, ?
-(a) 3840 (b) 4224 (c) 4608 (d) 5040
-Answer: (a) 3840
-Solution: Multipliers: 2, 4, 6, 8 → next 10 → 384×10=3840.
-Source: SSC CGL
+142. 1, 2, 8, 48, 384, ?
+(a) 5040 (b) 4224 (c) 4608 (d) 3840
+Answer: (d)
+Solution: Multipliers are consecutive even numbers: 1×2=2, 2×4=8, 8×6=48, 48×8=384. The trap is 4608, from multiplying by 12 instead of 10. So the answer is 384×10 = 3840.
+Source: PYQ-style
 
-Q143. (Hard) (Hard) 2, 15, 4, 12, 6, 9, 8, ?
-(a) 5 (b) 6 (c) 4 (d) 3
-Answer: (b) 6
-Solution: Double series – odd positions: 2, 4, 6, 8 (+2); even positions: 15, 12, 9 (−3). The 8th term is even, so 9−3=6.
-Source: SSC CGL
+143. 2, 15, 4, 12, 6, 9, 8, ?
+(a) 5 (b) 4 (c) 6 (d) 3
+Answer: (c)
+Solution: This is a double series: odd positions 2, 4, 6, 8 increase by 2, while even positions 15, 12, 9 decrease by 3. The 8th term belongs to the even sub-series, and the trap is 5, from wrongly extending the odd sub-series. So the answer is 9−3 = 6.
+Source: PYQ-style
 
-Q144. (Hard) (Hard) 5, 7, 12, 19, 31, 50, ?
-(a) 79 (b) 80 (c) 81 (d) 82
-Answer: (c) 81
-Solution: Fibonacci-like: 5+7=12, 7+12=19, 12+19=31, 19+31=50, 31+50=81.
-Source: SSC CGL
+144. 5, 7, 12, 19, 31, 50, ?
+(a) 81 (b) 80 (c) 79 (d) 82
+Answer: (a)
+Solution: Each term is the sum of the previous two: 5+7=12, 7+12=19, 12+19=31, 19+31=50. The trap is 81's neighbour 79, from an arithmetic slip in 31+50. So the answer is 31+50 = 81.
+Source: PYQ-style
 
-Q145. (Hard) (Hard) 1, 5, 21, 85, ?
-(a) 337 (b) 338 (c) 339 (d) 341
-Answer: (d) 341
-Solution: ×4+1: 1×4+1=5, 5×4+1=21, 21×4+1=85, 85×4+1=341.
-Source: SSC CGL
+145. 1, 5, 21, 85, ?
+(a) 341 (b) 338 (c) 339 (d) 337
+Answer: (a)
+Solution: Each term is previous × 4 + 1: 1×4+1=5, 5×4+1=21, 21×4+1=85. The trap is 340+1 miscomputed as 339 or 337. So the answer is 85×4+1 = 341.
+Source: PYQ-style
 
-Q146. (Hard) (Hard) 3, 10, 29, 66, 127, ?
-(a) 218 (b) 210 (c) 216 (d) 220
-Answer: (a) 218
-Solution: n³+2: 1³+2=3, 2³+2=10, 3³+2=29, 4³+2=66, 5³+2=127, 6³+2=218.
-Source: SSC CGL
+146. 3, 10, 29, 66, 127, ?
+(a) 210 (b) 218 (c) 216 (d) 220
+Answer: (b)
+Solution: The pattern is n³+2: 1³+2=3, 2³+2=10, 3³+2=29, 4³+2=66, 5³+2=127. The trap is 216, which is 6³ without adding 2. So the answer is 6³+2 = 218.
+Source: NCERT Class 8 Mathematics
 
-Q147. (Hard) (Hard) 2, 6, 14, 30, 62, ?
-(a) 122 (b) 126 (c) 124 (d) 128
-Answer: (b) 126
-Solution: ×2+2: 2×2+2=6, 6×2+2=14, 14×2+2=30, 30×2+2=62, 62×2+2=126.
-Source: SSC CGL
+147. 2, 6, 14, 30, 62, ?
+(a) 126 (b) 122 (c) 124 (d) 128
+Answer: (a)
+Solution: Each term is previous × 2 + 2: 2×2+2=6, 6×2+2=14, 14×2+2=30, 30×2+2=62. The trap is 124, from plain doubling. So the answer is 62×2+2 = 126.
+Source: PYQ-style
 
-Q148. (Hard) (Hard) K, M, Q, W, ?
-(a) F (b) G (c) E (d) H
-Answer: (c) E
-Solution: Positions: K=11→M=13 (+2), M→Q=17 (+4), Q→W=23 (+6), next +8 → 31 → 31−26=5=E.
-Source: SSC CGL
+148. K, M, Q, W, ?
+(a) E (b) G (c) F (d) H
+Answer: (a)
+Solution: Gaps grow by 2: K(11)→M(13) is +2, M→Q(17) is +4, Q→W(23) is +6, so the next gap is +8: 23+8=31, and 31−26=5=E. The trap is G, from forgetting to wrap past Z. So the answer is E.
+Source: PYQ-style
 
-Q149. (Hard) (Hard) 6, 13, 25, 51, 103, ?
-(a) 205 (b) 209 (c) 211 (d) 207
-Answer: (d) 207
-Solution: Differences: +7, +12, +26, +52 → each difference roughly doubles: next +104 → 103+104=207. (Alternatively, ×2+1, ×2−1, ×2+1, ×2+1, ×2+1 yields 207).
-Source: SSC CGL
+149. 4, 9, 19, 39, 79, ?
+(a) 158 (b) 157 (c) 160 (d) 159
+Answer: (d)
+Solution: Each term is previous × 2 + 1: 4×2+1=9, 9×2+1=19, 19×2+1=39, 39×2+1=79. The trap is 158, from plain doubling. So the answer is 79×2+1 = 159.
+Source: PYQ-style
 
-Q150. (Hard) (Hard) 4, 6, 10, 18, 34, ?
-(a) 64 (b) 66 (c) 67 (d) 68
-Answer: (b) 66
-Solution: ×2−2: 4×2−2=6, 6×2−2=10, 10×2−2=18, 18×2−2=34, 34×2−2=66.
-Source: SSC CGL
+150. 4, 6, 10, 18, 34, ?
+(a) 64 (b) 68 (c) 67 (d) 66
+Answer: (d)
+Solution: Each term is previous × 2 − 2: 4×2−2=6, 6×2−2=10, 10×2−2=18, 18×2−2=34. The trap is 68, from plain doubling. So the answer is 34×2−2 = 66.
+Source: PYQ-style
