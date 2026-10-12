@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 03:43 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
+**आख़िरी update:** 12-10-2026 03:58 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 70 मिनट |
-| W2 | Chapter 14 Alphabet Questions (10th Reasoning) | 🔎 review हो रहा है | 21 मिनट |
-| W3 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 125 मिनट |
+| W2 | Chapter 14 Alphabet Questions (10th Reasoning) | 🔎 review हो रहा है | 36 मिनट |
+| W3 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 140 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -38,19 +37,11 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 09 Venn Diagrams (Reasoning) — 1 बार
+- Chapter 09 Venn Diagrams (Reasoning) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 14:18:30   [Clock_Calendar] review Important_Rules_hi.txt: 1 issue(s): - "12:15 पर सूत्र से 277.5° → न्यून कोण 82.5°" → 12:15 पर सूत्र θ = |30×0 – 5.5×15| = 82.5° सीधे न्यून कोण 
-12-10 14:20:58   [Clock_Calendar] review: 6 section(s) corrected, 0 failed
-12-10 14:20:58   [Clock_Calendar] written 6, failed 0; AI calls today 192/100000
-12-10 14:21:11 DONE 10th_Level/Reasoning/Chapter_10_Clock_Calendar in 177 min → 18f0dd44
-12-10 14:21:11 START 10th_Level/Reasoning/Chapter_14_Alphabet_Questions (OK: todo 0, problems 0)
-12-10 14:24:06   [Dictionary_Order] set 03 try 2: re-solve disagrees (Q64 key a vs re-solve d)
-12-10 14:25:00   [Alphabet_Questions] set 01: key confirmed
-12-10 14:31:20   [Alphabet_Questions] set 02: Q46 key a vs re-solve c
 12-10 14:32:33   [Venn_Diagrams] repaired set 06 (en + hi, key confirmed by an independent re-solve)
 12-10 14:32:33   [Venn_Diagrams] written 5, failed 1; AI calls today 201/100000
 12-10 14:32:33 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_09_Venn_Diagrams: ['FAILED set 02: no version passed the checks — files left as they were']
@@ -83,4 +74,12 @@
 12-10 15:37:27   [Alphabet_Questions] review Feynman_hi.txt: 1 issue(s): - Blurt sheet lists "EJOTY" and "शृंखला के प्रकार" as main chapter points, but the chapter does not cover them → Re
 12-10 15:38:47   [Dictionary_Order] set 05: Q109 key a vs re-solve b
 12-10 15:42:26   [Alphabet_Questions] review Flashcards_en.txt: 2 issue(s): - Card 11: Question asks for three pairs of opposites but answer lists five pairs (E↔V, J↔Q, O↔L, T↔G, Y↔B) → Ch
+12-10 15:44:33   [Venn_Diagrams] set 06: Q127 key c vs re-solve a, Q143 key d vs re-solve c
+12-10 15:46:00   [Alphabet_Questions] review Flashcards_hi.txt: 2 issue(s): - Card 2: Hindi mnemonic "विकल्प से पीछे हटो" does not correspond to the anchors V, Q, L, G, B → replace with a 
+12-10 15:52:16   [Alphabet_Questions] review PYQ_en.txt: 6 issue(s): - Yearly Trend table includes 2025 SSC CGL Tier-1 data (frequency, difficulty, observation) which is an invented exam c
+12-10 15:55:22   [Venn_Diagrams] repaired set 06 (en + hi, key confirmed by an independent re-solve)
+12-10 15:55:22   [Venn_Diagrams] written 1, failed 1; AI calls today 266/100000
+12-10 15:55:22 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_09_Venn_Diagrams: ['FAILED set 02: no version passed the checks — files left as they were']
+12-10 15:55:22 worker 0: nothing left
+12-10 15:56:54   [Alphabet_Questions] review PYQ_hi.txt: 5 issue(s): - वर्ष-वार आवृत्ति तालिका में 2025 SSC CGL टियर-1 और SSC CHSL 2025 टियर-1 के आंकड़े दिए गए हैं, जो भविष्य की परीक्षा के
 ```
