@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 09:57 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 04:49 PM
+**आख़िरी update:** 12-10-2026 10:13 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 04:49 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 101 मिनट |
-| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 73 मिनट |
-| W3 | Chapter 18 Inequality (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 152 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 117 मिनट |
+| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 89 मिनट |
+| W3 | Chapter 18 Inequality (10th Reasoning) | 🔎 review हो रहा है | 10 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -44,13 +44,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 19:39:20   [Venn_Diagrams] set 06 try 1: re-solve disagrees (Q133 key a vs re-solve b, Q148 key b vs re-solve d, Q150 key d vs re-solve a)
-12-10 19:41:42   [Dictionary_Order] repaired set 05 (en + hi, key confirmed by an independent re-solve)
-12-10 19:55:39   [Dictionary_Order] set 06: Q130 key a vs re-solve b, Q141 key d vs re-solve b, Q142 key a vs re-solve b, Q146 key a vs re-solve d
-12-10 19:55:49   [Venn_Diagrams] set 06 try 2: re-solve disagrees (Q130 key d vs re-solve b)
-12-10 19:58:20   [Inequality] set 03 try 1: re-solve disagrees (Q60 key b vs re-solve a)
-12-10 20:05:13   [Venn_Diagrams] set 06 try 3: re-solve disagrees (Q130 key a vs re-solve b)
-12-10 20:05:44   [Dictionary_Order] set 06 try 1: re-solve disagrees (Q132 key d vs re-solve a, Q142 key c vs re-solve b)
 12-10 20:12:51   [Inequality] repaired set 03 (en + hi, key confirmed by an independent re-solve)
 12-10 20:16:01   [Venn_Diagrams] set 06 try 4: re-solve disagrees (Q143 key c vs re-solve a)
 12-10 20:16:01   [Venn_Diagrams] FAILED set 06: no version passed the checks — files left as they were
@@ -84,4 +77,11 @@
 12-10 21:45:18   [Inequality] set 06 try 1: re-solve disagrees (Q131 key b vs re-solve a, Q137 key b vs re-solve c, Q147 key c vs re-solve d)
 12-10 21:45:36   [Dictionary_Order] set 03: key confirmed
 12-10 21:53:11   [Venn_Diagrams] repaired set 04 (en + hi, key confirmed by an independent re-solve)
+12-10 21:59:18   [Dictionary_Order] set 04: Q80 key a vs re-solve ?, Q81 key b vs re-solve ?, Q90 key c vs re-solve ?, Q93 key b vs re-solve d
+12-10 22:02:48   [Venn_Diagrams] set 05: Q105 key c vs re-solve b
+12-10 22:02:51   [Inequality] repaired set 06 (en + hi, key confirmed by an independent re-solve)
+12-10 22:02:51   [Inequality] written 3, failed 0; AI calls today 259/100000
+12-10 22:05:47   [Inequality] review Content_en.txt: 1 issue(s): - The claim that some exams treat ≥ and ≤ as complementary pairs for Either-Or cases is incorrect; ≥ and ≤ overlap 
+12-10 22:10:20   [Dictionary_Order] set 04 try 1: re-solve disagrees (Q80 key d vs re-solve ?, Q93 key a vs re-solve d)
+12-10 22:13:44   [Inequality] review PYQ_en.txt: 5 issue(s): - Yearly Frequency & Trend table shows identical question ranges for all years 2016–2025, including future year 2025; t
 ```
