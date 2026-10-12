@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 08:56 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 04:49 PM
+**आख़िरी update:** 12-10-2026 09:11 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 04:49 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 40 मिनट |
-| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
-| W3 | Chapter 18 Inequality (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 91 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 55 मिनट |
+| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 27 मिनट |
+| W3 | Chapter 18 Inequality (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 106 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -44,11 +44,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 19:08:23   [Course_of_Action] review PYQ_en.txt: 2 issue(s): - The 10-Year Frequency Analysis table includes a row for 2025 with specific question counts, but 2025 exam data cannot
-12-10 19:10:38   [Venn_Diagrams] set 05 try 3: re-solve disagrees (Q101 key b vs re-solve d)
-12-10 19:12:16   [Dictionary_Order] set 05 try 2: re-solve disagrees (Q111 key d vs re-solve c, Q114 key c vs re-solve d, Q116 key b vs re-solve d, Q120 key d vs re-solve a, Q124 key b v
-12-10 19:16:59   [Course_of_Action] review PYQ_hi.txt: 5 issue(s): - उप-विषय भार (Sub-Topic Weightage) में दिए गए प्रतिशत (50%, 30%, 15%, 5%) आविष्कृत हैं; इस खंड का कोई आधिकारिक भारांक 
-12-10 19:21:44   [Venn_Diagrams] repaired set 05 (en + hi, key confirmed by an independent re-solve)
 12-10 19:22:05   [Course_of_Action] review Short_Tricks_en.txt: 1 issue(s): - Mnemonic 11 example incorrectly states giving supplements is a root‑cause action for malnutrition; supplemen
 12-10 19:22:42   [Dictionary_Order] set 05 try 3: re-solve disagrees (Q116 key d vs re-solve b, Q124 key c vs re-solve b)
 12-10 19:24:46   [Course_of_Action] review: 5 section(s) corrected, 0 failed
@@ -84,4 +79,9 @@
 12-10 20:47:55   [Dictionary_Order] set 01: key confirmed
 12-10 20:48:35   [Venn_Diagrams] repaired set 02 (en + hi, key confirmed by an independent re-solve)
 12-10 20:54:29   [Venn_Diagrams] set 03: Q51 key a vs re-solve d, Q60 key b vs re-solve c
+12-10 20:56:51   [Dictionary_Order] set 02: Q29 key d vs re-solve a, Q31 key b vs re-solve a, Q47 key b vs re-solve a
+12-10 20:57:26   [Inequality] set 05 try 1: re-solve disagrees (Q111 key d vs re-solve a, Q124 key c vs re-solve a)
+12-10 21:03:28   [Venn_Diagrams] set 03 try 1: re-solve disagrees (Q63 key a vs re-solve b, Q66 key a vs re-solve d)
+12-10 21:05:52   [Dictionary_Order] set 02 try 1: re-solve disagrees (Q29 key d vs re-solve a)
+12-10 21:11:25   [Inequality] repaired set 05 (en + hi, key confirmed by an independent re-solve)
 ```
