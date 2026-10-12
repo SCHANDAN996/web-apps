@@ -1,0 +1,22 @@
+```mermaid
+graph TD
+    A["चक्रवृद्धि ब्याज<br>Compound Interest"] --> B["मूल सूत्र<br>A = P(1 + R/100)ⁿ"]
+    A --> C["चक्रवृद्धि अवधि<br>Compounding Periods"]
+    A --> D["CI − SI शॉर्टकट<br>Shortcuts"]
+    A --> E["दर / समय ज्ञात करना<br>Find Rate or Time"]
+    A --> F["वृद्धि / ह्रास<br>Growth & Depreciation"]
+    A --> G["जाल<br>Examiner's Traps"]
+
+    B --> B1["CI = A − P"]
+    C --> C1["अर्धवार्षिक: R/2, 2n<br>Half-yearly"]
+    C --> C2["त्रैमासिक: R/4, 4n<br>Quarterly"]
+    D --> D1["2 वर्ष: P(R/100)²"]
+    D --> D2["3 वर्ष: P(R/100)²(3 + R/100)"]
+    E --> E1["A/P का वर्गमूल<br>Square Root of A/P"]
+    E --> E2["दोगुना → 4 गुना → 8 गुना<br>Doubling Rule"]
+    F --> F1["जनसंख्या: (1 + R/100)ⁿ"]
+    F --> F2["मशीन का मूल्य: (1 − R/100)ⁿ"]
+    G --> G1["साधारण ब्याज वाला विकल्प<br>SI Option"]
+    G --> G2["अर्धवार्षिक में पूरी दर<br>Full Rate Used"]
+    G --> G3["राशि बनाम ब्याज<br>Amount vs Interest"]
+```
