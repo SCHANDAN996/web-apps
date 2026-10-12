@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 02:11 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
+**आख़िरी update:** 12-10-2026 02:20 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 168 मिनट |
-| W2 | Chapter 10 Clock Calendar (10th Reasoning) | 🔎 review हो रहा है | 60 मिनट |
-| W3 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 34 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 177 मिनट |
+| W2 | Chapter 10 Clock Calendar (10th Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 43 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -32,17 +32,13 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 12-10 14:20 — 10th Reasoning · Chapter 10 Clock Calendar
 - 12-10 13:37 — 10th Reasoning · Chapter 12 Missing Term
 - 12-10 12:29 — 10th Reasoning · Chapter 11 Series
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 12:40:23   [Clock_Calendar] set 05 try 1: re-solve disagrees (Q105 key a vs re-solve b, Q110 key a vs re-solve b)
-12-10 12:44:05   [Venn_Diagrams] set 04 try 1: re-solve disagrees (Q88 key d vs re-solve c)
-12-10 12:44:14   [Missing_Term] repaired set 02 (en + hi, key confirmed by an independent re-solve)
-12-10 12:46:26   [Clock_Calendar] set 05 try 2: re-solve disagrees (Q103 key a vs re-solve c, Q112 key a vs re-solve b, Q123 key d vs re-solve b)
-12-10 12:46:57   [Missing_Term] set 03: key confirmed
 12-10 12:48:23   [Missing_Term] set 04: key confirmed
 12-10 12:50:40   [Clock_Calendar] set 05 try 3: re-solve disagrees (Q103 key c vs re-solve a, Q112 key b vs re-solve a)
 12-10 12:50:51   [Missing_Term] set 05: key confirmed
@@ -78,4 +74,9 @@
 12-10 14:03:15   [Dictionary_Order] repaired set 02 (en + hi, key confirmed by an independent re-solve)
 12-10 14:05:41   [Venn_Diagrams] set 06 try 1: re-solve disagrees (Q126 key c vs re-solve ?, Q130 key c vs re-solve a)
 12-10 14:09:06   [Dictionary_Order] set 03: Q58 key d vs re-solve a, Q68 key b vs re-solve ?, Q71 key a vs re-solve b, Q74 key d vs re-solve b
+12-10 14:13:10   [Dictionary_Order] set 03 try 1: rejected (Q72:leaked_reasoning)
+12-10 14:15:47   [Venn_Diagrams] set 06 try 2: re-solve disagrees (Q148 key d vs re-solve b)
+12-10 14:18:30   [Clock_Calendar] review Important_Rules_hi.txt: 1 issue(s): - "12:15 पर सूत्र से 277.5° → न्यून कोण 82.5°" → 12:15 पर सूत्र θ = |30×0 – 5.5×15| = 82.5° सीधे न्यून कोण 
+12-10 14:20:58   [Clock_Calendar] review: 6 section(s) corrected, 0 failed
+12-10 14:20:58   [Clock_Calendar] written 6, failed 0; AI calls today 192/100000
 ```

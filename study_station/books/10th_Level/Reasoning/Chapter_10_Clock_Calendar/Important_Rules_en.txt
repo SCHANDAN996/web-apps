@@ -7,8 +7,8 @@
 | | Relative gain speed | 5.5° per minute (6° – 0.5°) | Hands overlap again after 360/5.5 = 65⁵⁄₁₁ min |
 | | Angle between hands (acute) | θ = \|30H – 5.5M\|; if θ > 180, use 360–θ | At 7:25, angle = \|210 – 137.5\| = 72.5° |
 | | Hands coincide (meeting) | In 12 hours, 11 times; formula: M = 60H/11 | Between 3 and 4, they meet at 3 hr 16⁴⁄₁₁ min |
-| | Hands opposite (180°) | In 12 hours, 11 times; M = (60H ± 180)/11 | Between 5 and 6, opposite at 5 hr (300+180)/11 = 5 hr 43⁷⁄₁₁ min (if >60, take plus 180 only after 6)|
-| | Hands at right angle (90°) | In 12 hours, 22 times; M = (60H ± 90)/11 | Between 2 and 3, right angle at 2 hr (120+90)/11 = 2 hr 19¹⁄₁₁ min |
+| | Hands opposite (180°) | In 12 hours, 11 times; M = (60H ± 360)/11 | Between 5 and 6, opposite at (300+360)/11 = 60 min, i.e., exactly 6:00 |
+| | Hands at right angle (90°) | In 12 hours, 22 times; M = (60H ± 180)/11 | Between 2 and 3, right angle at (120+180)/11 = 2 hr 27³⁄₁₁ min |
 | | Mirror time | Mirror time = 11:60 – given time (12‑hr format) | 3:25 → 11:60 – 3:25 = 8:35 |
 | | Water image time | Water image = 18:30 – given time | 10:10 → 18:30 – 10:10 = 8:20 |
 | | Faulty clock gain/loss | Correct time shown again after 720/(gain per day in min) days | Gains 5 min/day → 720/5 = 144 days |
@@ -32,5 +32,5 @@
 | | Day formula | Day = (Date + M‑code + (YY+⌊YY/4⌋) + C‑code) mod 7 | |
 | | Faulty clock correct time | Days = 720 ÷ (gain per day in min) | |
 | | Coincidence time | M = (60H)/11 | |
-| | Opposite time | M = (60H + 180)/11 or (60H – 180)/11 | |
-| | Right angle time | M = (60H + 90)/11 or (60H – 90)/11 | |
+| | Opposite time | M = (60H + 360)/11 or (60H – 360)/11 | |
+| | Right angle time | M = (60H + 180)/11 or (60H – 180)/11 | |

@@ -63,7 +63,7 @@ Chunk 4 – Mirror and Water Images
 Mirror image time (what you see in a mirror): Subtract the given time from 11:60.
 e.g., 3:25 → 11:60 – 3:25 = 8:35.
 
-Water image time (reflection in water): Subtract from 18:30 or think of it as 17:90 minus the given time.
+Water image time (reflection in water): Subtract the given time from 18:30.
 e.g., 3:25 → 18:30 – 3:25 = 15:05, which is 3:05 PM.
 
 Mnemonic: Mirror → Minus from Midnight (11:60). Water → Work with 18:30 (half past six). Silly, but it stays.
@@ -72,13 +72,16 @@ Mnemonic: Mirror → Minus from Midnight (11:60). Water → Work with 18:30 (hal
 
 Chunk 5 – Faulty Clock
 
-A faulty clock gains/loses time. The relationship:
-True time : Clock time = True interval : Clock interval
-If a clock gains 5 minutes in 24 hours, the ratio of true time to clock time is 24×60 : 24×60+5 = 1440:1445.
+A faulty clock gains or loses time at a steady rate. The key relationship compares elapsed times:
 
-So if the faulty clock shows 10:00 AM after 24 true hours, true time = 10:00 AM × (1440/1445) – adjust accordingly. But most questions ask “when will it show correct time again?” That happens after it has gained/lost exactly 12 hours (720 minutes). Time = 720 / gain per day × 1 day.
+True elapsed time = Clock elapsed time × (True minutes per cycle / Faulty minutes per cycle)
 
-🧠 *A watch gains 6 minutes per day. After how many days will it show the right time again? (720/6 = 120 days)*
+Example: A clock gains 5 minutes every 24 hours. So while 1445 minutes pass on this clock, only 1440 minutes of true time have passed. If this clock shows that 1445 minutes have elapsed since it was set right, the true elapsed time = 1445 × (1440/1445) = 1440 minutes = exactly 24 hours.
+
+The most common exam question: “When will it show the correct time again?” A clock shows the correct time again after it has gained (or lost) exactly 12 hours = 720 minutes.
+Days needed = 720 ÷ (minutes gained or lost per day).
+
+🧠 A watch gains 6 minutes per day. After how many days will it show the right time again? (720 ÷ 6 = 120 days)
 
 CALENDAR
 Chunk 1 – Odd Days: The Backbone
@@ -89,11 +92,11 @@ Leap year: 366 days → 52 weeks + 2 odd days.
 
 Leap year rule: Divisible by 4. Century years (like 1900) must be divisible by 400 to be leap. 2000 was leap, 1900 was not.
 
-🧠 *How many odd days in 3 ordinary years? (3 × 1 = 3 odd days, i.e., 3 days shift forward)*
+🧠 How many odd days in 3 ordinary years? (3 × 1 = 3 odd days, i.e., 3 days shift forward)
 
 Chunk 2 – Century Codes for Speed
 
-Memorise these four numbers:
+Memorise these numbers:
 
 Century	Code
 1600–1699	6
@@ -130,45 +133,50 @@ Day = (Date + Month Code + Year Code + Century Code) mod 7
 Year Code = (Last two digits of year + ⌊last two digits/4⌋) mod 7.
 Then add century code.
 
-After mod 7: 0 = Sunday, 1 = Monday, … 6 = Saturday. (Check your reference; this works for a common system where 0 = Sunday.)
+After mod 7: 0 = Sunday, 1 = Monday, … 6 = Saturday.
 
 Example: 15th August 1947
-Date = 15, Month code (Aug) = 2, Year (47) → 47 + 11 (⌊47/4⌋) = 58 mod 7 = 2 (since 56 is multiple of 7). Century code (1900) = 0. Sum = 15+2+2+0 = 19 → 19 mod 7 = 5 → Friday. Yes, India’s Independence Day was a Friday.
+Date = 15, Month code (Aug) = 2, Year (47) → 47 + ⌊47/4⌋ = 47 + 11 = 58 → 58 mod 7 = 2. Century code (1900s) = 0. Sum = 15 + 2 + 2 + 0 = 19 → 19 mod 7 = 5 → Friday. Yes, India’s Independence Day in 1947 was a Friday.
 
-🧠 Calculate 26th Jan 1950. (Republic Day was Thursday. Try it.)
+🧠 Calculate 26th January 1950. (It was a Thursday. Try it.)
 
 Chunk 5 – Same Calendar Year
 
-For an ordinary year, the calendar repeats after 6 years (sometimes 11). Leap year calendar repeats after 28 years. In exams, they often ask: “Which year after 2024 will have the same calendar as 2024?” 2024 is leap, so 2024 + 28 = 2052.
+A year’s calendar repeats when the total odd days accumulated in between become a multiple of 7 AND the leap/ordinary nature matches.
 
-🧠 *If 2025 is ordinary, the same calendar will be 2031? Yes, because 2025 odd days = 1, 2026:2, 2027:3, 2028 (leap):5, 2029:6, 2030:0, 2031:1 — after 6 years the odd day matches and the 2028 leap does not disturb.* (Wait, careful: after a leap year the gap changes. But for simplicity, the 6-year rule holds for many ordinary years between leaps; always calculate odd days if uncertain.)
+Ordinary years usually repeat after 6 or 11 years; a leap year’s calendar repeats after 28 years.
+
+Example: “Which year after 2024 will have the same calendar as 2024?” 2024 is a leap year, so 2024 + 28 = 2052.
+
+🧠 If 2025 is ordinary, will 2031 have the same calendar? Yes: odd days from 2025 to 2030 add up to 1+1+1+2+1+1 = 7 (a multiple of 7), and both 2025 and 2031 are ordinary years. When in doubt, always count odd days instead of blindly adding 6 or 11.
 
 ⚠️ Caution: Examiner's Trap
 
 Options with multiple plausible angles
-When you apply formula |30H – 5.5M|, you may get a number like 132°. The examiner will place 132°, 228°, 48°, and 130° as options. The trap: They want the smaller angle, so you must choose 132° if it’s ≤180°, else 360–θ. They also keep a slight off-by-one-degree option (130° instead of 132°) to catch those who approximate. Always calculate exact decimal: 5.5 × M exactly.
+When you apply the formula |30H – 5.5M|, you may get a number like 132°. The examiner will place 132°, 228°, 48°, and 130° as options. The trap: they want the smaller angle, so if θ > 180° you must take 360° – θ. They also keep a slightly-off option (130° instead of 132°) to catch those who approximate. Always compute 5.5 × M exactly, never round early.
 
-Difficult wording to confuse mirror/water
-“What time will a clock show in water if the clock’s reflection in water shows 3:40?” This double reflection question means you do the water image twice, or they just give a reflected time and ask for real time. Many students apply mirror rule instead of water rule. The trick: Water = subtract from 18:30; Mirror = subtract from 11:60. Underline the word “water” or “mirror” before touching numbers.
+Confusing mirror and water wording
+“What time will a clock show in water if the clock’s reflection in water shows 3:40?” Many students apply the mirror rule instead of the water rule, or panic at the double reflection. The trick: Water = subtract from 18:30; Mirror = subtract from 11:60. Underline the word “water” or “mirror” before touching numbers.
 
-Dual relationships in Calendar – same date, different century
-“Which year after 2004 will have the same calendar?” The straightforward 11-year shift fails because 2000 was a century leap, altering odd days. The examiner sets options: 2010, 2011, 2012, 2015. You must calculate exact odd day pattern instead of blindly adding 6 or 11. The trap preys on those who memorize a rigid pattern without checking leap year effects.
+Same-calendar questions across leap boundaries
+“Which year after 2004 will have the same calendar as 2004?” Blindly adding 6 or 11 fails here: 2004 is a leap year, so it can only match another leap year whose odd-day total in between is a multiple of 7 — that happens after 28 years (2032). Options like 2010, 2011, 2015 trap students who memorised a rigid “+6 or +11” pattern without checking whether the year is leap. Always check the leap/ordinary nature first, then count odd days.
 
-“Hands overlap” vs “hands coincide” in 12-hour period
-The phrasing “How many times do the hands of a clock overlap between 1 PM and 11:59 PM?” They expect 10 times (since at 12 they coincide exactly at 12:00 AM next day, not within). If the question says “from 1 to 12”, the count is 11, but they’ll put 11 and 10 both as options. Read boundaries.
+“Hands overlap” count within given boundaries
+“How many times do the hands of a clock coincide between 1 PM and 11 PM?” The hands coincide roughly every 65⁵⁄₁₁ minutes, but the count depends on the exact boundaries given. Examiners place both the inclusive and exclusive counts (e.g., 10 and 11) as options. Read the time limits carefully and check whether a coincidence falls exactly on a boundary.
 
 📋 Summary Table: Quick Revision
 Concept	Core Rule / Formula
 MH speed	6° per minute
 HH speed	0.5° per minute
 Relative gain	5.5° per minute
-Angle between hands		30H – 5.5M	, if >180 then 360–angle
+Angle between hands	θ = |30H – 5.5M|; if θ > 180°, use 360° – θ
 Mirror time	11:60 – given time
 Water time	18:30 – given time
 Odd days (ordinary/leap)	1 / 2
-Leap year check	÷4, but century ÷400
+Leap year check	÷4, but century years ÷400
 Day formula	(Date + Month code + Year code + Century code) mod 7
-Same calendar (ordinary)	Generally after 6 or 11 years; verify odd day pattern
+Faulty clock correct again	After gaining/losing 720 min; days = 720 ÷ daily gain/loss
+Same calendar	Count odd days to a multiple of 7; leap matches leap (usually 28 years)
 🧠 Review This After 2 Days
 
 When you revisit, try these without looking:
@@ -179,6 +187,6 @@ Find the day of 1st January 2000.
 
 Convert 9:10 into mirror time.
 
-Recall the three biggest examiner traps you just read.
+Recall the biggest examiner traps you just read.
 
 Self-testing after a gap is where speed is born.
