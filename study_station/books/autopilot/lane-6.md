@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 06:07 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 04:49 PM
+**आख़िरी update:** 12-10-2026 06:22 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 04:49 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 77 मिनट |
-| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 77 मिनट |
-| W3 | Chapter 16 Statement Conclusion (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 93 मिनट |
+| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 92 मिनट |
+| W3 | Chapter 16 Statement Conclusion (10th Reasoning) | 🔎 review हो रहा है | 2 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,17 +37,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 16:49:31 START 10th_Level/Reasoning/Chapter_13_Dictionary_Order (OK: todo 0, problems 0)
-12-10 16:49:36 START 10th_Level/Reasoning/Chapter_15_Mathematical_Operations (OK: todo 0, problems 0)
-12-10 16:51:57   [Dictionary_Order] set 01: key confirmed
-12-10 16:52:12   [Venn_Diagrams] set 01: Q4 key d vs re-solve b, Q8 key d vs re-solve ?, Q10 key b vs re-solve ?, Q21 key a vs re-solve b
-12-10 16:54:33   [Mathematical_Operations] set 01: Q24 key d vs re-solve ?
-12-10 16:59:43   [Venn_Diagrams] repaired set 01 (en + hi, key confirmed by an independent re-solve)
-12-10 17:02:08   [Dictionary_Order] set 02: Q29 key d vs re-solve a, Q31 key b vs re-solve a
-12-10 17:03:31   [Venn_Diagrams] set 02: Q28 key c vs re-solve b, Q49 key d vs re-solve a
-12-10 17:08:11   [Mathematical_Operations] repaired set 01 (en + hi, key confirmed by an independent re-solve)
-12-10 17:10:34   [Dictionary_Order] set 02 try 1: re-solve disagrees (Q29 key c vs re-solve a, Q31 key a vs re-solve b, Q45 key a vs re-solve ?)
-12-10 17:11:28   [Mathematical_Operations] set 02: key confirmed
 12-10 17:14:59   [Mathematical_Operations] set 03: key confirmed
 12-10 17:16:18   [Venn_Diagrams] set 02 try 1: re-solve disagrees (Q44 key c vs re-solve a, Q49 key a vs re-solve d)
 12-10 17:17:42   [Mathematical_Operations] set 04: key confirmed
@@ -77,4 +66,15 @@
 12-10 18:01:54 START 10th_Level/Reasoning/Chapter_16_Statement_Conclusion (OK: todo 0, problems 0)
 12-10 18:04:52   [Statement_Conclusion] set 01: key confirmed
 12-10 18:05:48   [Dictionary_Order] set 04: Q80 key a vs re-solve ?, Q81 key b vs re-solve ?, Q90 key c vs re-solve ?, Q93 key b vs re-solve d
+12-10 18:07:27   [Venn_Diagrams] set 03 try 4: re-solve disagrees (Q60 key a vs re-solve d, Q67 key c vs re-solve b)
+12-10 18:07:27   [Venn_Diagrams] FAILED set 03: no version passed the checks — files left as they were
+12-10 18:09:21   [Statement_Conclusion] set 02: key confirmed
+12-10 18:12:02   [Statement_Conclusion] set 03: key confirmed
+12-10 18:13:25   [Venn_Diagrams] set 04: Q77 key b vs re-solve a
+12-10 18:15:22   [Statement_Conclusion] set 04: key confirmed
+12-10 18:17:19   [Statement_Conclusion] set 05: key confirmed
+12-10 18:17:36   [Dictionary_Order] set 04 try 1: re-solve disagrees (Q80 key b vs re-solve ?, Q93 key b vs re-solve d)
+12-10 18:18:00   [Venn_Diagrams] set 04 try 1: re-solve disagrees (Q77 key c vs re-solve a)
+12-10 18:20:22   [Statement_Conclusion] set 06: key confirmed
+12-10 18:20:22   [Statement_Conclusion] written 0, failed 0; AI calls today 97/100000
 ```
