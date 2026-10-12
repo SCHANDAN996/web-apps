@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 04:08 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
+**आख़िरी update:** 12-10-2026 04:13 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 14 Alphabet Questions (10th Reasoning) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 150 मिनट |
+| W3 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 155 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -43,10 +42,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 14:36:58   [Venn_Diagrams] set 01: key confirmed
-12-10 14:39:27   [Dictionary_Order] repaired set 03 (en + hi, key confirmed by an independent re-solve)
-12-10 14:40:16   [Venn_Diagrams] set 02: Q28 key c vs re-solve b, Q49 key d vs re-solve a
-12-10 14:45:41   [Alphabet_Questions] set 02 try 1: re-solve disagrees (Q27 key a vs re-solve c, Q33 key c vs re-solve b, Q35 key d vs re-solve b)
 12-10 14:47:36   [Venn_Diagrams] set 02 try 1: re-solve disagrees (Q44 key d vs re-solve a, Q49 key d vs re-solve a)
 12-10 14:47:51   [Dictionary_Order] set 04: Q80 key a vs re-solve ?, Q81 key b vs re-solve ?, Q90 key c vs re-solve ?, Q93 key b vs re-solve d
 12-10 14:56:38   [Alphabet_Questions] repaired set 02 (en + hi, key confirmed by an independent re-solve)
@@ -83,4 +78,8 @@
 12-10 16:05:11   [Alphabet_Questions] review Short_Tricks_hi.txt: 2 issue(s): - Trick 13 (अक्षर-युग्म – उछलती गेंद) claims “अगर गेंद ने n बार उछाल खाई, तो बीच में n अक्षर हैं”, but the num
 12-10 16:08:09   [Alphabet_Questions] review: 7 section(s) corrected, 0 failed
 12-10 16:08:09   [Alphabet_Questions] written 7, failed 0; AI calls today 275/100000
+12-10 16:08:23   [Dictionary_Order] set 05 try 2: re-solve disagrees (Q116 key a vs re-solve b)
+12-10 16:08:25 DONE 10th_Level/Reasoning/Chapter_14_Alphabet_Questions in 107 min → 5db70045
+12-10 16:08:25 worker 1: nothing left
+12-10 16:10:07   [Dictionary_Order] set 05 try 3: rejected (Q116:leaked_reasoning)
 ```
