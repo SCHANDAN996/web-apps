@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 12:40 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
+**आख़िरी update:** 12-10-2026 12:55 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 76 मिनट |
-| W2 | Chapter 10 Clock Calendar (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 76 मिनट |
-| W3 | Chapter 12 Missing Term (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 92 मिनट |
+| W2 | Chapter 10 Clock Calendar (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 91 मिनट |
+| W3 | Chapter 12 Missing Term (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 26 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,15 +37,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 11:29:10   [Venn_Diagrams] set 01 try 1: re-solve disagrees (Q4 key d vs re-solve b)
-12-10 11:30:02   [Series] set 03: key confirmed
-12-10 11:31:30   [Series] set 04: key confirmed
-12-10 11:33:12   [Series] set 05: Q112 key d vs re-solve b
-12-10 11:33:27   [Clock_Calendar] set 02: Q50 key b vs re-solve a
-12-10 11:35:23   [Venn_Diagrams] repaired set 01 (en + hi, key confirmed by an independent re-solve)
-12-10 11:37:56   [Venn_Diagrams] set 02: Q28 key c vs re-solve b, Q49 key d vs re-solve a
-12-10 11:39:03   [Series] repaired set 05 (en + hi, key confirmed by an independent re-solve)
-12-10 11:44:07   [Venn_Diagrams] set 02 try 1: re-solve disagrees (Q28 key c vs re-solve b)
 12-10 11:44:31   [Clock_Calendar] repaired set 02 (en + hi, key confirmed by an independent re-solve)
 12-10 11:49:35   [Venn_Diagrams] set 02 try 2: re-solve disagrees (Q26 key a vs re-solve b, Q28 key b vs re-solve c)
 12-10 11:51:48   [Series] set 06: Q132 key c vs re-solve ?, Q135 key b vs re-solve a
@@ -77,4 +68,13 @@
 12-10 12:38:33   [Missing_Term] repaired set 01 (en + hi, key confirmed by an independent re-solve)
 12-10 12:39:41   [Missing_Term] set 02: Q35 key b vs re-solve a
 12-10 12:40:23   [Clock_Calendar] set 05 try 1: re-solve disagrees (Q105 key a vs re-solve b, Q110 key a vs re-solve b)
+12-10 12:44:05   [Venn_Diagrams] set 04 try 1: re-solve disagrees (Q88 key d vs re-solve c)
+12-10 12:44:14   [Missing_Term] repaired set 02 (en + hi, key confirmed by an independent re-solve)
+12-10 12:46:26   [Clock_Calendar] set 05 try 2: re-solve disagrees (Q103 key a vs re-solve c, Q112 key a vs re-solve b, Q123 key d vs re-solve b)
+12-10 12:46:57   [Missing_Term] set 03: key confirmed
+12-10 12:48:23   [Missing_Term] set 04: key confirmed
+12-10 12:50:40   [Clock_Calendar] set 05 try 3: re-solve disagrees (Q103 key c vs re-solve a, Q112 key b vs re-solve a)
+12-10 12:50:51   [Missing_Term] set 05: key confirmed
+12-10 12:52:05   [Venn_Diagrams] repaired set 04 (en + hi, key confirmed by an independent re-solve)
+12-10 12:55:26   [Missing_Term] set 06: Q127 key b vs re-solve a
 ```
