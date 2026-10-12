@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 01:11 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
+**आख़िरी update:** 12-10-2026 01:26 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 107 मिनट |
-| W2 | Chapter 10 Clock Calendar (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 107 मिनट |
-| W3 | Chapter 12 Missing Term (10th Reasoning) | 🔎 review हो रहा है | 1 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 122 मिनट |
+| W2 | Chapter 10 Clock Calendar (10th Reasoning) | 🔎 review हो रहा है | 15 मिनट |
+| W3 | Chapter 12 Missing Term (10th Reasoning) | 🔎 review हो रहा है | 16 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,12 +37,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 12:03:46   [Series] review Feynman_hi.txt: 1 issue(s): - The blurting sheet instruction claims the chapter covers “अंतर सीढ़ी, वर्ग-घन की सूची, विपरीत अक्षरों का जोड़ 27 
-12-10 12:04:25   [Venn_Diagrams] set 02 try 4: re-solve disagrees (Q27 key b vs re-solve a, Q44 key b vs re-solve d)
-12-10 12:04:25   [Venn_Diagrams] FAILED set 02: no version passed the checks — files left as they were
-12-10 12:06:46   [Series] review Flashcards_en.txt: 1 issue(s): - Card 15 claims a cubic pattern on 2, 4, 8, 16 gives 31, but a cubic fit yields 30; 31 comes from the circle-di
-12-10 12:10:48   [Series] review Flashcards_hi.txt: 1 issue(s): - Card 15: The claim that a “घनीय (अंतरों का अंतर)” pattern could yield 31 for the series 2, 4, 8, 16 is incorre
-12-10 12:11:26   [Clock_Calendar] repaired set 03 (en + hi, key confirmed by an independent re-solve)
 12-10 12:13:33   [Venn_Diagrams] set 03: Q51 key a vs re-solve d, Q55 key a vs re-solve b, Q60 key b vs re-solve c, Q66 key d vs re-solve c, Q73 key c vs re-solve a
 12-10 12:17:24   [Series] review PYQ_en.txt: 3 issue(s): - Heading "Yearly Frequency & Trend (2015–2024)" includes a row for 2025 → change heading to "2015–2025"
 12-10 12:20:22   [Venn_Diagrams] set 03 try 1: re-solve disagrees (Q55 key a vs re-solve d, Q60 key a vs re-solve c)
@@ -77,4 +71,10 @@
 12-10 13:10:01   [Missing_Term] written 3, failed 0; AI calls today 128/100000
 12-10 13:11:12   [Clock_Calendar] set 06: key confirmed
 12-10 13:11:12   [Clock_Calendar] written 3, failed 0; AI calls today 129/100000
+12-10 13:13:54   [Venn_Diagrams] set 05 try 1: re-solve disagrees (Q101 key d vs re-solve c, Q105 key b vs re-solve a, Q111 key b vs re-solve d, Q116 key a vs re-solve b, Q121 key a v
+12-10 13:18:17   [Missing_Term] review PYQ_en.txt: 3 issue(s): - The "10-Year Trends" table includes 11 years (2015–2025) → change to 10 years (2015–2024) or rename to "11-Year Trend
+12-10 13:19:37   [Venn_Diagrams] set 05 try 2: re-solve disagrees (Q105 key b vs re-solve a, Q122 key a vs re-solve d)
+12-10 13:20:49   [Clock_Calendar] review Content_en.txt: 3 issue(s): - Faulty clock example: "true time = 10:00 AM × (1440/1445) – adjust accordingly" is incorrect → Correct: true elap
+12-10 13:23:33   [Missing_Term] review PYQ_hi.txt: 4 issue(s): - The heading states "पिछले दस वर्षों" but the table includes data for 11 years (2015–2025) → Change heading to "पिछले 
+12-10 13:25:47   [Clock_Calendar] review Feynman_en.txt: 2 issue(s): - "For the 1900s, the dial starts at 0 (like Monday)" is incorrect because in the given day-code mapping 0 = Sunday
 ```
