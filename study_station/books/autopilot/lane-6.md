@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 06:53 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 04:49 PM
+**आख़िरी update:** 12-10-2026 07:08 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 04:49 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 123 मिनट |
-| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 123 मिनट |
-| W3 | Chapter 17 Course of Action (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 139 मिनट |
+| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 139 मिनट |
+| W3 | Chapter 17 Course of Action (10th Reasoning) | 🔎 review हो रहा है | 9 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -38,16 +38,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 17:43:25   [Mathematical_Operations] review PYQ_en.txt: 6 issue(s): - RRB NTPC total in Year-wise Frequency table shows 8 but column entries sum to 6 → correct total is 6 (or column entri
-12-10 17:49:41   [Venn_Diagrams] set 03 try 2: re-solve disagrees (Q60 key a vs re-solve d, Q67 key a vs re-solve b)
-12-10 17:54:41   [Mathematical_Operations] review PYQ_hi.txt: 7 issue(s): - Year-wise frequency table grand total (योग) shows 51 but sum of yearly totals is 50 → Grand total should be 50
-12-10 17:55:58   [Venn_Diagrams] set 03 try 3: re-solve disagrees (Q63 key c vs re-solve a)
-12-10 17:58:23   [Mathematical_Operations] review Short_Tricks_hi.txt: 1 issue(s): - “यह तिकड़ी 80% सवालों का ताला खोलती है” (invented exam statistic) → “यह तिकड़ी कई सवालों का ताला खोलती है”
-12-10 17:59:16   [Dictionary_Order] repaired set 03 (en + hi, key confirmed by an independent re-solve)
-12-10 18:01:26   [Mathematical_Operations] review: 6 section(s) corrected, 0 failed
-12-10 18:01:26   [Mathematical_Operations] written 6, failed 0; AI calls today 76/100000
-12-10 18:01:53 DONE 10th_Level/Reasoning/Chapter_15_Mathematical_Operations in 72 min → e252b755
-12-10 18:01:54 START 10th_Level/Reasoning/Chapter_16_Statement_Conclusion (OK: todo 0, problems 0)
 12-10 18:04:52   [Statement_Conclusion] set 01: key confirmed
 12-10 18:05:48   [Dictionary_Order] set 04: Q80 key a vs re-solve ?, Q81 key b vs re-solve ?, Q90 key c vs re-solve ?, Q93 key b vs re-solve d
 12-10 18:07:27   [Venn_Diagrams] set 03 try 4: re-solve disagrees (Q60 key a vs re-solve d, Q67 key c vs re-solve b)
@@ -78,4 +68,14 @@
 12-10 18:51:30   [Course_of_Action] set 02: key confirmed
 12-10 18:52:05   [Venn_Diagrams] set 05 try 1: re-solve disagrees (Q111 key b vs re-solve a)
 12-10 18:53:23   [Course_of_Action] set 03: key confirmed
+12-10 18:55:05   [Course_of_Action] set 04: key confirmed
+12-10 18:57:13   [Course_of_Action] set 05: key confirmed
+12-10 18:59:03   [Dictionary_Order] set 05: Q109 key a vs re-solve b, Q116 key d vs re-solve b
+12-10 18:59:27   [Course_of_Action] set 06: key confirmed
+12-10 18:59:27   [Course_of_Action] written 0, failed 0; AI calls today 138/100000
+12-10 19:01:08   [Course_of_Action] review Content_hi.txt: 1 issue(s): - In Example 1, the correct conclusion “अतः यहाँ एकमात्र I अनुसरण करता है” is incorrectly marked with a cross (❌) i
+12-10 19:02:05   [Dictionary_Order] set 05 try 1: rejected (Q111:duplicate_options)
+12-10 19:02:52   [Venn_Diagrams] set 05 try 2: re-solve disagrees (Q123 key d vs re-solve a)
+12-10 19:04:44   [Course_of_Action] review Feynman_en.txt: 1 issue(s): - Title attributes the method to Richard Feynman (“Richard Feynman’s Way”) but the described “Fire Extinguisher Tes
+12-10 19:08:23   [Course_of_Action] review PYQ_en.txt: 2 issue(s): - The 10-Year Frequency Analysis table includes a row for 2025 with specific question counts, but 2025 exam data cannot
 ```
