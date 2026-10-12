@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-3)
 
-**आख़िरी update:** 12-10-2026 05:42 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 12:34 AM
+**आख़िरी update:** 12-10-2026 05:58 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 12:34 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 308 मिनट |
+| W1 | Chapter 08 Puzzles (12th Reasoning) | 🔎 review हो रहा है | 15 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -62,4 +62,9 @@
 12-10 05:26:03   [Puzzles] set 06 try 2: re-solve disagrees (Q137: clues contradict each other — no arrangement fits all of them; Q148: the clues allow more than one answer — ad
 12-10 05:43:11   [Puzzles] repaired set 06 (en + hi, key confirmed by an independent re-solve)
 12-10 05:43:11   [Puzzles] written 6, failed 0; AI calls today 104/100000
+12-10 05:44:34   [Puzzles] review Content_en.txt: 1 issue(s): - In Chunk 2's worked mini-example (Linear Seating), after placing S, R, Q, P the only empty seat is position 4, wh
+12-10 05:48:49   [Puzzles] review Content_hi.txt: 1 issue(s): - In भाग 4, the explanation for 'X, Y से दो दिन पहले' incorrectly states 'बीच में एक दिन का अंतर नहीं' (there is ac
+12-10 05:54:10   [Puzzles] review PYQ_hi.txt: 1 issue(s): - प्रश्न 2 (वृत्तीय व्यवस्था) का हल गलत क्रम (P, R, T, Q, S) देता है; सही क्रम P, S, Q, T, R (घड़ी-दिशा) है जिससे S, P 
+12-10 05:58:27   [Puzzles] review: 3 section(s) corrected, 0 failed
+12-10 05:58:27   [Puzzles] written 3, failed 0; AI calls today 120/100000
 ```
