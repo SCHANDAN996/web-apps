@@ -1,15 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 12-10-2026 07:40 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 07:24 AM
+**आख़िरी update:** 12-10-2026 07:55 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 07:24 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W1 | Chapter 13 Awards (Graduation GK) | 🔧 सुधार रहा है | 3 मिनट |
-| W2 | Chapter 28 Linear Programming (Graduation Maths) | 🔧 सुधार रहा है | 2 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -35,24 +32,12 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 28 Linear Programming (Maths) — 3 बार
-- Chapter 13 Awards (GK) — 1 बार
+- Chapter 28 Linear Programming (Maths) — 4 बार
+- Chapter 13 Awards (GK) — 4 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 07:24:10 autopilot start: 3 workers, reverse=True
-12-10 07:24:11 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards (FIX: todo 0, problems 1)
-12-10 07:24:19 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming (FIX: todo 0, problems 2)
-12-10 07:24:24 worker 2: nothing left
-12-10 07:26:26   [Awards] repaired Flashcards_hi.txt (3154 chars)
-12-10 07:26:26   [Awards] written 1, failed 0; AI calls today 2/100000
-12-10 07:26:42   [Linear_Programming] repaired Content_hi.txt (3451 chars)
-12-10 07:26:42   [Linear_Programming] written 1, failed 0; AI calls today 3/100000
-12-10 07:28:55   [Linear_Programming] repaired Content_hi.txt (4061 chars)
-12-10 07:28:55   [Linear_Programming] written 1, failed 0; AI calls today 4/100000
-12-10 07:28:56 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming after 5 min: todo [] problems ['Content_hi.txt: much shorter than the English section (4060 ']
-12-10 07:29:00 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming (FIX: todo 0, problems 1)
 12-10 07:30:16   [Linear_Programming] REJECTED Content_hi.txt: too short — not written
 12-10 07:30:16   [Linear_Programming] written 0, failed 1; AI calls today 5/100000
 12-10 07:32:57   [Linear_Programming] repaired Content_hi.txt (4479 chars)
@@ -73,4 +58,24 @@
 12-10 07:37:51 START Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming (FIX: todo 0, problems 1)
 12-10 07:40:27   [Linear_Programming] repaired Content_hi.txt (10669 chars)
 12-10 07:40:27   [Linear_Programming] written 1, failed 0; AI calls today 11/100000
+12-10 07:42:21   [Linear_Programming] repaired Content_hi.txt (2368 chars)
+12-10 07:42:21   [Linear_Programming] written 1, failed 0; AI calls today 12/100000
+12-10 07:42:22 NOT OK Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming after 5 min: todo [] problems ['Content_hi.txt: much shorter than the English section (2367 ']
+12-10 07:42:26 worker 1: nothing left
+12-10 07:44:22   [Awards] repaired Flashcards_hi.txt (4158 chars)
+12-10 07:44:22   [Awards] written 1, failed 0; AI calls today 12/100000
+12-10 07:44:22 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards after 11 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (41']
+12-10 07:44:24 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards (FIX: todo 0, problems 1)
+12-10 07:47:11   [Awards] repaired Flashcards_hi.txt (3742 chars)
+12-10 07:47:11   [Awards] written 1, failed 0; AI calls today 13/100000
+12-10 07:49:36   [Awards] repaired Flashcards_hi.txt (3897 chars)
+12-10 07:49:36   [Awards] written 1, failed 0; AI calls today 14/100000
+12-10 07:49:36 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards after 5 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (38']
+12-10 07:49:37 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards (FIX: todo 0, problems 1)
+12-10 07:52:08   [Awards] repaired Flashcards_hi.txt (3126 chars)
+12-10 07:52:08   [Awards] written 1, failed 0; AI calls today 15/100000
+12-10 07:54:30   [Awards] repaired Flashcards_hi.txt (3945 chars)
+12-10 07:54:30   [Awards] written 1, failed 0; AI calls today 16/100000
+12-10 07:54:30 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards after 5 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (39']
+12-10 07:54:35 worker 0: nothing left
 ```
