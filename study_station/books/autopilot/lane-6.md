@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 05:39 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 12:34 AM
+**आख़िरी update:** 12-10-2026 05:54 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 12:34 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 71 मिनट |
+| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 86 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -41,8 +41,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 04:04:54   [Coding_Decoding] set 06: Q127 key b vs re-solve a, Q134 key a vs re-solve b, Q139 key b vs re-solve a
-12-10 04:08:53   [Classification] set 02 try 4: re-solve disagrees (Q32 key d vs re-solve c, Q37 key c vs re-solve b)
 12-10 04:08:53   [Classification] FAILED set 02: no version passed the checks — files left as they were
 12-10 04:13:11   [Classification] set 03: key confirmed
 12-10 04:15:47   [Blood_Relations] set 06: Q127 key b vs re-solve d, Q135 key b vs re-solve a, Q145 key d vs re-solve b
@@ -81,4 +79,6 @@
 12-10 05:15:29   [Coding_Decoding] set 05: key confirmed
 12-10 05:25:40   [Coding_Decoding] set 06: Q132 key c vs re-solve a, Q134 key a vs re-solve b, Q139 key b vs re-solve a
 12-10 05:36:08   [Coding_Decoding] set 06 try 1: re-solve disagrees (Q142 key d vs re-solve c)
+12-10 05:45:29   [Coding_Decoding] set 06 try 2: re-solve disagrees (Q139 key d vs re-solve c)
+12-10 05:54:23   [Coding_Decoding] set 06 try 3: re-solve disagrees (Q139 key d vs re-solve c)
 ```
