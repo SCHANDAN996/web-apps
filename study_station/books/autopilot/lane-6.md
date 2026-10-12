@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 11:07 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
+**आख़िरी update:** 12-10-2026 11:22 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W1 | Chapter 02 Classification (10th Reasoning) | 📤 push हो रहा है | 0 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -35,15 +33,9 @@
 - 12-10 10:17 — 10th Reasoning · Chapter 03 Coding Decoding
 - 12-10 09:05 — 10th Reasoning · Chapter 04 Blood Relations
 
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 02 Classification (Reasoning) — 2 बार
-
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 10:09:01   [Direction_Sense] set 05: Q107 key c vs re-solve b
-12-10 10:09:17   [Classification] repaired set 02 (en + hi, key confirmed by an independent re-solve)
 12-10 10:11:21   [Coding_Decoding] review PYQ_hi.txt: 6 issue(s): - Annual frequency table (2015-2024) presents invented statistics as factual data → Remove or label as approximate esti
 12-10 10:11:38   [Classification] set 03: Q56 key a vs re-solve b
 12-10 10:14:18   [Coding_Decoding] review Short_Tricks_en.txt: 1 issue(s): - Mnemonic 13 states "A=25 (the 5th letters from the end)" but the 25th letter from the end is B (Z=1, Y=2, …,
@@ -82,4 +74,6 @@
 12-10 11:03:32   [Classification] review Short_Tricks_hi.txt: 1 issue(s): - Trick 15 claims the numbers are squares of consecutive numbers but the example uses roots 17, 19, 21, 23 whi
 12-10 11:07:42   [Classification] review: 8 section(s) corrected, 0 failed
 12-10 11:07:42   [Classification] written 8, failed 0; AI calls today 323/100000
+12-10 11:08:07 DONE 10th_Level/Reasoning/Chapter_02_Classification in 76 min → 854cf49d
+12-10 11:08:07 worker 0: nothing left
 ```
