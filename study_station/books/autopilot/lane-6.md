@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 09:35 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
+**आख़िरी update:** 12-10-2026 09:50 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 93 मिनट |
-| W2 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 57 मिनट |
-| W3 | Chapter 05 Direction Sense (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 29 मिनट |
+| W1 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 108 मिनट |
+| W2 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 72 मिनट |
+| W3 | Chapter 05 Direction Sense (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 45 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -42,12 +42,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 08:26:48   [Classification] set 02: Q26 key a vs re-solve d, Q31 key b vs re-solve c, Q32 key c vs re-solve d, Q35 key b vs re-solve a, Q36 key c vs re-solve d, Q37 key d vs re-s
-12-10 08:30:41   [Classification] set 02 try 1: re-solve disagrees (Q27 key c vs re-solve a, Q45 key d vs re-solve a, Q49 key d vs re-solve c)
-12-10 08:36:09   [Classification] set 02 try 2: re-solve disagrees (Q35 key c vs re-solve d, Q39 key c vs re-solve b)
-12-10 08:38:01   [Blood_Relations] repaired set 06 (en + hi, key confirmed by an independent re-solve)
-12-10 08:38:01   [Blood_Relations] written 6, failed 0; AI calls today 133/100000
-12-10 08:38:27   [Coding_Decoding] FAILED set 06: too_long
 12-10 08:38:27   [Coding_Decoding] written 5, failed 1; AI calls today 133/100000
 12-10 08:38:28 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_03_Coding_Decoding: ['FAILED set 06: too_long']
 12-10 08:38:28 START 10th_Level/Reasoning/Chapter_03_Coding_Decoding (OK: todo 0, problems 0)
@@ -82,4 +76,10 @@
 12-10 09:27:04   [Classification] set 06 try 1: rejected (Q141:leaked_reasoning)
 12-10 09:29:29   [Coding_Decoding] set 05: key confirmed
 12-10 09:33:25   [Direction_Sense] repaired set 02 (en + hi, key confirmed by an independent re-solve)
+12-10 09:37:27   [Classification] set 06 try 2: re-solve disagrees (Q141 key a vs re-solve b)
+12-10 09:38:11   [Direction_Sense] set 03: Q54 key d vs re-solve b, Q66 key d vs re-solve ?, Q69 key c vs re-solve a
+12-10 09:41:23   [Coding_Decoding] set 06: Q134 key a vs re-solve b, Q139 key b vs re-solve a
+12-10 09:44:37   [Direction_Sense] repaired set 03 (en + hi, key confirmed by an independent re-solve)
+12-10 09:46:17   [Classification] set 06 try 3: re-solve disagrees (Q135 key a vs re-solve c, Q138 key c vs re-solve b)
+12-10 09:48:15   [Direction_Sense] set 04: Q81 key b vs re-solve a, Q83 key d vs re-solve b
 ```
