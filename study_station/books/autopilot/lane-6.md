@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 02:42 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
+**आख़िरी update:** 12-10-2026 02:57 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W2 | Chapter 14 Alphabet Questions (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 21 मिनट |
-| W3 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 64 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 24 मिनट |
+| W2 | Chapter 14 Alphabet Questions (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 36 मिनट |
+| W3 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 79 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -43,12 +43,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 13:13:54   [Venn_Diagrams] set 05 try 1: re-solve disagrees (Q101 key d vs re-solve c, Q105 key b vs re-solve a, Q111 key b vs re-solve d, Q116 key a vs re-solve b, Q121 key a v
-12-10 13:18:17   [Missing_Term] review PYQ_en.txt: 3 issue(s): - The "10-Year Trends" table includes 11 years (2015–2025) → change to 10 years (2015–2024) or rename to "11-Year Trend
-12-10 13:19:37   [Venn_Diagrams] set 05 try 2: re-solve disagrees (Q105 key b vs re-solve a, Q122 key a vs re-solve d)
-12-10 13:20:49   [Clock_Calendar] review Content_en.txt: 3 issue(s): - Faulty clock example: "true time = 10:00 AM × (1440/1445) – adjust accordingly" is incorrect → Correct: true elap
-12-10 13:23:33   [Missing_Term] review PYQ_hi.txt: 4 issue(s): - The heading states "पिछले दस वर्षों" but the table includes data for 11 years (2015–2025) → Change heading to "पिछले 
-12-10 13:25:47   [Clock_Calendar] review Feynman_en.txt: 2 issue(s): - "For the 1900s, the dial starts at 0 (like Monday)" is incorrect because in the given day-code mapping 0 = Sunday
 12-10 13:27:00   [Venn_Diagrams] set 05 try 3: re-solve disagrees (Q116 key c vs re-solve d)
 12-10 13:27:56   [Missing_Term] review Short_Tricks_en.txt: 1 issue(s): - In 'Wrap-around' mnemonic, example "Y + 4 = 26+4? → 30, 30-26=4=D" is incorrect because Y is the 25th letter
 12-10 13:32:15   [Missing_Term] review Short_Tricks_hi.txt: 1 issue(s): - In trick 12 "ग्लोब रैप", the example "Y + 4 = 26+4 = 30, 30-26 = 4 = D" is wrong because Y is the 25th lette
@@ -83,4 +77,10 @@
 12-10 14:36:58   [Venn_Diagrams] set 01: key confirmed
 12-10 14:39:27   [Dictionary_Order] repaired set 03 (en + hi, key confirmed by an independent re-solve)
 12-10 14:40:16   [Venn_Diagrams] set 02: Q28 key c vs re-solve b, Q49 key d vs re-solve a
+12-10 14:45:41   [Alphabet_Questions] set 02 try 1: re-solve disagrees (Q27 key a vs re-solve c, Q33 key c vs re-solve b, Q35 key d vs re-solve b)
+12-10 14:47:36   [Venn_Diagrams] set 02 try 1: re-solve disagrees (Q44 key d vs re-solve a, Q49 key d vs re-solve a)
+12-10 14:47:51   [Dictionary_Order] set 04: Q80 key a vs re-solve ?, Q81 key b vs re-solve ?, Q90 key c vs re-solve ?, Q93 key b vs re-solve d
+12-10 14:56:38   [Alphabet_Questions] repaired set 02 (en + hi, key confirmed by an independent re-solve)
+12-10 14:56:48   [Dictionary_Order] set 04 try 1: re-solve disagrees (Q80 key b vs re-solve ?, Q93 key a vs re-solve d)
+12-10 14:57:08   [Venn_Diagrams] set 02 try 2: re-solve disagrees (Q28 key d vs re-solve c)
 ```
