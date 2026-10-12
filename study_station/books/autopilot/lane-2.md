@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-2)
 
-**आख़िरी update:** 12-10-2026 06:16 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
+**आख़िरी update:** 12-10-2026 06:17 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -38,7 +38,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 06:03:12   [Awards] repaired Flashcards_hi.txt (4305 chars)
 12-10 06:03:13   [Awards] written 1, failed 0; AI calls today 5/100000
 12-10 06:03:13 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards after 3 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (43']
 12-10 06:03:13 START Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards (FIX: todo 0, problems 1)
@@ -78,4 +77,5 @@
 12-10 06:13:17   [Awards] written 1, failed 0; AI calls today 16/100000
 12-10 06:13:17 NOT OK Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards after 2 min: todo [] problems ['Flashcards_hi.txt: much shorter than the English section (45']
 12-10 06:13:20 worker 0: nothing left
+12-10 06:17:01 autopilot end: done 0, failed 2
 ```
