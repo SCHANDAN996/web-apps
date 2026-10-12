@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 08:49 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
+**आख़िरी update:** 12-10-2026 09:04 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 47 मिनट |
-| W2 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
-| W3 | Chapter 04 Blood Relations (10th Reasoning) | 🔎 review हो रहा है | 11 मिनट |
+| W1 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 62 मिनट |
+| W2 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 26 मिनट |
+| W3 | Chapter 04 Blood Relations (10th Reasoning) | 🔎 review हो रहा है | 26 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -42,15 +42,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 07:35:35   [Coding_Decoding] repaired set 03 (en + hi, key confirmed by an independent re-solve)
-12-10 07:37:49   [Classification] set 06: Q128 key c vs re-solve d, Q130 key a vs re-solve d, Q132 key c vs re-solve ?, Q134 key a vs re-solve d, Q135 key b vs re-solve a, Q136 key c v
-12-10 07:39:42   [Classification] set 06 try 1: rejected (Q127:answer_solution_conflict,Q133:leaked_reasoning,Q136:leaked_reasoning,Q140:leaked_reasoning,Q141:leaked_reasoning)
-12-10 07:43:34   [Blood_Relations] repaired set 05 (en + hi, key confirmed by an independent re-solve)
-12-10 07:48:43   [Coding_Decoding] set 04: Q86 key c vs re-solve d, Q92 key a vs re-solve b
-12-10 07:53:33   [Classification] set 06 try 2: re-solve disagrees (Q135 key a vs re-solve d, Q138 key d vs re-solve b)
-12-10 07:57:56   [Blood_Relations] set 06: Q127 key b vs re-solve d, Q135 key b vs re-solve a, Q145 key d vs re-solve b
-12-10 07:58:25   [Classification] set 06 try 3: re-solve disagrees (Q132 key d vs re-solve c)
-12-10 07:59:27   [Coding_Decoding] repaired set 04 (en + hi, key confirmed by an independent re-solve)
 12-10 08:02:30   [Classification] set 06 try 4: re-solve disagrees (Q142 key a vs re-solve b)
 12-10 08:02:30   [Classification] FAILED set 06: no version passed the checks — files left as they were
 12-10 08:02:30   [Classification] written 3, failed 3; AI calls today 103/100000
@@ -82,4 +73,13 @@
 12-10 08:48:06   [Coding_Decoding] set 01: Q18 key d vs re-solve a
 12-10 08:49:16   [Blood_Relations] review Flashcards_en.txt: 1 issue(s): - The back of the flashcard "A girl says, 'He is the son of my mother's only brother-in-law.' The options are co
 12-10 08:49:25   [Classification] set 03: Q52 key b vs re-solve d
+12-10 08:53:19   [Blood_Relations] review PYQ_en.txt: 5 issue(s): - Yearly Frequency table (Past 10 Years) presents invented exam statistics without verifiable source → Remove or replac
+12-10 08:55:39   [Classification] repaired set 03 (en + hi, key confirmed by an independent re-solve)
+12-10 08:57:35   [Blood_Relations] review PYQ_hi.txt: 8 issue(s): - Yearly frequency table (2014–2023) presents specific question counts as factual data but source admits it is an estim
+12-10 08:59:24   [Classification] set 04: key confirmed
+12-10 09:01:11   [Classification] set 05: Q109 key c vs re-solve d
+12-10 09:01:24   [Blood_Relations] review Short_Tricks_hi.txt: 1 issue(s): - "न खिंच पाए" in the Skip Strategy table (first row) → "न खींच पाए"
+12-10 09:01:24   [Coding_Decoding] repaired set 01 (en + hi, key confirmed by an independent re-solve)
+12-10 09:03:47   [Blood_Relations] review Important_Rules_en.txt: 1 issue(s): - Direction Awareness rule incorrectly reads “A is B’s son” as A→B; with the parent-to-child downward conve
+12-10 09:03:58   [Classification] set 05 try 1: re-solve disagrees (Q105 key c vs re-solve d)
 ```
