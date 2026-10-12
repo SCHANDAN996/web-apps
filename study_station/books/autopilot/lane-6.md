@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 02:20 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
+**आख़िरी update:** 12-10-2026 02:27 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 177 मिनट |
-| W2 | Chapter 10 Clock Calendar (10th Reasoning) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 43 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 183 मिनट |
+| W2 | Chapter 14 Alphabet Questions (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W3 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 49 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,10 +39,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 12:48:23   [Missing_Term] set 04: key confirmed
-12-10 12:50:40   [Clock_Calendar] set 05 try 3: re-solve disagrees (Q103 key c vs re-solve a, Q112 key b vs re-solve a)
-12-10 12:50:51   [Missing_Term] set 05: key confirmed
-12-10 12:52:05   [Venn_Diagrams] repaired set 04 (en + hi, key confirmed by an independent re-solve)
 12-10 12:55:26   [Missing_Term] set 06: Q127 key b vs re-solve a
 12-10 12:57:32   [Clock_Calendar] repaired set 05 (en + hi, key confirmed by an independent re-solve)
 12-10 13:01:33   [Venn_Diagrams] set 05: Q111 key c vs re-solve a, Q119 key c vs re-solve d, Q121 key a vs re-solve b, Q123 key c vs re-solve b, Q125 key b vs re-solve d
@@ -79,4 +75,8 @@
 12-10 14:18:30   [Clock_Calendar] review Important_Rules_hi.txt: 1 issue(s): - "12:15 पर सूत्र से 277.5° → न्यून कोण 82.5°" → 12:15 पर सूत्र θ = |30×0 – 5.5×15| = 82.5° सीधे न्यून कोण 
 12-10 14:20:58   [Clock_Calendar] review: 6 section(s) corrected, 0 failed
 12-10 14:20:58   [Clock_Calendar] written 6, failed 0; AI calls today 192/100000
+12-10 14:21:11 DONE 10th_Level/Reasoning/Chapter_10_Clock_Calendar in 177 min → 18f0dd44
+12-10 14:21:11 START 10th_Level/Reasoning/Chapter_14_Alphabet_Questions (OK: todo 0, problems 0)
+12-10 14:24:06   [Dictionary_Order] set 03 try 2: re-solve disagrees (Q64 key a vs re-solve d)
+12-10 14:25:00   [Alphabet_Questions] set 01: key confirmed
 ```
