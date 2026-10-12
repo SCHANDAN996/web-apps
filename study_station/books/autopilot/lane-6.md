@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 05:05 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 04:49 PM
+**आख़िरी update:** 12-10-2026 05:20 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 04:49 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 16 मिनट |
-| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 16 मिनट |
-| W3 | Chapter 15 Mathematical Operations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
+| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
+| W3 | Chapter 15 Mathematical Operations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -47,4 +47,12 @@
 12-10 16:59:43   [Venn_Diagrams] repaired set 01 (en + hi, key confirmed by an independent re-solve)
 12-10 17:02:08   [Dictionary_Order] set 02: Q29 key d vs re-solve a, Q31 key b vs re-solve a
 12-10 17:03:31   [Venn_Diagrams] set 02: Q28 key c vs re-solve b, Q49 key d vs re-solve a
+12-10 17:08:11   [Mathematical_Operations] repaired set 01 (en + hi, key confirmed by an independent re-solve)
+12-10 17:10:34   [Dictionary_Order] set 02 try 1: re-solve disagrees (Q29 key c vs re-solve a, Q31 key a vs re-solve b, Q45 key a vs re-solve ?)
+12-10 17:11:28   [Mathematical_Operations] set 02: key confirmed
+12-10 17:14:59   [Mathematical_Operations] set 03: key confirmed
+12-10 17:16:18   [Venn_Diagrams] set 02 try 1: re-solve disagrees (Q44 key c vs re-solve a, Q49 key a vs re-solve d)
+12-10 17:17:42   [Mathematical_Operations] set 04: key confirmed
+12-10 17:19:24   [Dictionary_Order] set 02 try 2: re-solve disagrees (Q30 key a vs re-solve b, Q35 key d vs re-solve b, Q44 key b vs re-solve a)
+12-10 17:20:01   [Mathematical_Operations] set 05: key confirmed
 ```
