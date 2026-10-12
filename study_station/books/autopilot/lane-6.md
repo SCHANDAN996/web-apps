@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 05:54 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 12:34 AM
+**आख़िरी update:** 12-10-2026 06:00 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 06:00 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 86 मिनट |
+| W1 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W2 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W3 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -30,55 +32,15 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- 12-10 02:27 — 10th Reasoning · Chapter 01 Analogy
-
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 02 Classification (Reasoning) — 2 बार
-- Chapter 03 Coding Decoding (Reasoning) — 1 बार
-- Chapter 04 Blood Relations (Reasoning) — 1 बार
+- अभी कोई नहीं
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 04:08:53   [Classification] FAILED set 02: no version passed the checks — files left as they were
-12-10 04:13:11   [Classification] set 03: key confirmed
-12-10 04:15:47   [Blood_Relations] set 06: Q127 key b vs re-solve d, Q135 key b vs re-solve a, Q145 key d vs re-solve b
-12-10 04:16:52   [Classification] set 04: Q76 key a vs re-solve d, Q78 key c vs re-solve d, Q80 key a vs re-solve c, Q85 key b vs re-solve d, Q86 key c vs re-solve d, Q88 key a vs re-s
-12-10 04:18:10   [Classification] set 04 try 1: rejected (Q86:leaked_reasoning)
-12-10 04:21:20   [Coding_Decoding] Practice_hi_Set_06.txt try 1: rejected (Q140:leaked_reasoning)
-12-10 04:23:48   [Coding_Decoding] Practice_hi_Set_06.txt try 2: rejected (Q140:leaked_reasoning)
-12-10 04:26:04   [Coding_Decoding] Practice_hi_Set_06.txt try 3: rejected (Q140:leaked_reasoning)
-12-10 04:26:44   [Classification] set 04 try 2: re-solve disagrees (Q90 key d vs re-solve b, Q94 key a vs re-solve d)
-12-10 04:28:35   [Coding_Decoding] Practice_hi_Set_06.txt try 4: rejected (Q140:leaked_reasoning)
-12-10 04:28:35   [Coding_Decoding] REJECTED Practice_hi_Set_06.txt: no translation passed the checks — not written
-12-10 04:28:35   [Coding_Decoding] FAILED set 06: Hindi translation rejected — files left as they were
-12-10 04:28:35   [Coding_Decoding] written 5, failed 1; AI calls today 221/100000
-12-10 04:28:35 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_03_Coding_Decoding: ['REJECTED Practice_hi_Set_06.txt: no translation passed the checks — not written', 'FAILED set 06: Hindi translation rejected — files left as they were']
-12-10 04:28:35 START 10th_Level/Reasoning/Chapter_03_Coding_Decoding (OK: todo 0, problems 0)
-12-10 04:28:59   [Blood_Relations] set 06 try 1: re-solve disagrees (Q131 key d vs re-solve a)
-12-10 04:32:57   [Classification] set 04 try 3: re-solve disagrees (Q80 key a vs re-solve b, Q87 key d vs re-solve c)
-12-10 04:33:06   [Coding_Decoding] set 01: key confirmed
-12-10 04:40:59   [Blood_Relations] set 06 try 2: re-solve disagrees (Q148 key d vs re-solve a)
-12-10 04:43:30   [Coding_Decoding] set 02: key confirmed
-12-10 04:45:17   [Classification] repaired set 04 (en + hi, key confirmed by an independent re-solve)
-12-10 04:46:39   [Classification] set 05: Q108 key c vs re-solve d
-12-10 04:48:11   [Coding_Decoding] set 03: key confirmed
-12-10 04:51:16   [Blood_Relations] set 06 try 3: re-solve disagrees (Q127 key b vs re-solve a)
-12-10 04:53:38   [Classification] repaired set 05 (en + hi, key confirmed by an independent re-solve)
-12-10 04:57:08   [Coding_Decoding] set 04: Q85 key d vs re-solve b
-12-10 05:02:53   [Classification] set 06: key confirmed
-12-10 05:02:53   [Classification] written 2, failed 2; AI calls today 250/100000
-12-10 05:02:53 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_02_Classification: ['FAILED set 01: no version passed the checks — files left as they were', 'FAILED set 02: no version passed the checks — files left as they were']
-12-10 05:02:53 worker 1: nothing left
-12-10 05:03:03   [Blood_Relations] repaired set 06 (en + hi, key confirmed by an independent re-solve)
-12-10 05:03:03   [Blood_Relations] written 5, failed 1; AI calls today 250/100000
-12-10 05:03:03 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_04_Blood_Relations: ['FAILED set 01: no version passed the checks — files left as they were']
-12-10 05:03:03 worker 0: nothing left
-12-10 05:09:04   [Coding_Decoding] repaired set 04 (en + hi, key confirmed by an independent re-solve)
-12-10 05:15:29   [Coding_Decoding] set 05: key confirmed
-12-10 05:25:40   [Coding_Decoding] set 06: Q132 key c vs re-solve a, Q134 key a vs re-solve b, Q139 key b vs re-solve a
-12-10 05:36:08   [Coding_Decoding] set 06 try 1: re-solve disagrees (Q142 key d vs re-solve c)
-12-10 05:45:29   [Coding_Decoding] set 06 try 2: re-solve disagrees (Q139 key d vs re-solve c)
-12-10 05:54:23   [Coding_Decoding] set 06 try 3: re-solve disagrees (Q139 key d vs re-solve c)
+12-10 06:00:13 autopilot start: 3 workers, reverse=True
+12-10 06:00:14 START 10th_Level/Reasoning/Chapter_02_Classification (OK: todo 0, problems 0)
+12-10 06:00:18 START 10th_Level/Reasoning/Chapter_03_Coding_Decoding (OK: todo 0, problems 0)
+12-10 06:00:23 START 10th_Level/Reasoning/Chapter_04_Blood_Relations (OK: todo 0, problems 0)
+12-10 06:01:01   [Classification] set 01: Q1 key a vs re-solve d, Q5 key a vs re-solve d, Q7 key c vs re-solve d, Q11 key c vs re-solve d, Q13 key a vs re-solve c, Q14 key b vs re-solv
+12-10 06:01:04   [Blood_Relations] set 01: Q2 key b vs re-solve c, Q3 key c vs re-solve a, Q4 key d vs re-solve a
 ```
