@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 08:40 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 04:49 PM
+**आख़िरी update:** 12-10-2026 08:56 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 04:49 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 24 मिनट |
-| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 231 मिनट |
-| W3 | Chapter 18 Inequality (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 75 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 40 मिनट |
+| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
+| W3 | Chapter 18 Inequality (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 91 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,17 +39,11 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 09 Venn Diagrams (Reasoning) — 1 बार
+- Chapter 13 Dictionary Order (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 18:59:03   [Dictionary_Order] set 05: Q109 key a vs re-solve b, Q116 key d vs re-solve b
-12-10 18:59:27   [Course_of_Action] set 06: key confirmed
-12-10 18:59:27   [Course_of_Action] written 0, failed 0; AI calls today 138/100000
-12-10 19:01:08   [Course_of_Action] review Content_hi.txt: 1 issue(s): - In Example 1, the correct conclusion “अतः यहाँ एकमात्र I अनुसरण करता है” is incorrectly marked with a cross (❌) i
-12-10 19:02:05   [Dictionary_Order] set 05 try 1: rejected (Q111:duplicate_options)
-12-10 19:02:52   [Venn_Diagrams] set 05 try 2: re-solve disagrees (Q123 key d vs re-solve a)
-12-10 19:04:44   [Course_of_Action] review Feynman_en.txt: 1 issue(s): - Title attributes the method to Richard Feynman (“Richard Feynman’s Way”) but the described “Fire Extinguisher Tes
 12-10 19:08:23   [Course_of_Action] review PYQ_en.txt: 2 issue(s): - The 10-Year Frequency Analysis table includes a row for 2025 with specific question counts, but 2025 exam data cannot
 12-10 19:10:38   [Venn_Diagrams] set 05 try 3: re-solve disagrees (Q101 key b vs re-solve d)
 12-10 19:12:16   [Dictionary_Order] set 05 try 2: re-solve disagrees (Q111 key d vs re-solve c, Q114 key c vs re-solve d, Q116 key b vs re-solve d, Q120 key d vs re-solve a, Q124 key b v
@@ -83,4 +77,11 @@
 12-10 20:24:00   [Dictionary_Order] set 06 try 2: re-solve disagrees (Q126 key c vs re-solve ?, Q132 key b vs re-solve a, Q143 key a vs re-solve d)
 12-10 20:26:56   [Inequality] set 05: Q111 key c vs re-solve ?, Q122 key b vs re-solve a
 12-10 20:28:35   [Venn_Diagrams] set 02: Q26 key d vs re-solve b, Q27 key d vs re-solve c
+12-10 20:43:53   [Dictionary_Order] repaired set 06 (en + hi, key confirmed by an independent re-solve)
+12-10 20:43:53   [Dictionary_Order] written 3, failed 2; AI calls today 215/100000
+12-10 20:43:54 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_13_Dictionary_Order: ['FAILED set 02: no version passed the checks — files left as they were', 'FAILED set 04: no version passed the checks — files left as they were']
+12-10 20:43:55 START 10th_Level/Reasoning/Chapter_13_Dictionary_Order (OK: todo 0, problems 0)
+12-10 20:47:55   [Dictionary_Order] set 01: key confirmed
+12-10 20:48:35   [Venn_Diagrams] repaired set 02 (en + hi, key confirmed by an independent re-solve)
+12-10 20:54:29   [Venn_Diagrams] set 03: Q51 key a vs re-solve d, Q60 key b vs re-solve c
 ```
