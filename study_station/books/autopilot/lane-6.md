@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 01:37 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
+**आख़िरी update:** 12-10-2026 01:41 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 133 मिनट |
-| W2 | Chapter 10 Clock Calendar (10th Reasoning) | 🔎 review हो रहा है | 26 मिनट |
-| W3 | Chapter 12 Missing Term (10th Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 137 मिनट |
+| W2 | Chapter 10 Clock Calendar (10th Reasoning) | 🔎 review हो रहा है | 30 मिनट |
+| W3 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -38,9 +38,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 12:26:15   [Series] review Short_Tricks_en.txt: 1 issue(s): - Box 2 title says “Perfect Squares up to 25” but the list stops at 15² (225); either change the title to “Per
-12-10 12:29:18   [Series] review: 6 section(s) corrected, 0 failed
-12-10 12:29:18   [Series] written 6, failed 0; AI calls today 79/100000
 12-10 12:29:30 DONE 10th_Level/Reasoning/Chapter_11_Series in 65 min → 6b27972b
 12-10 12:29:31 START 10th_Level/Reasoning/Chapter_12_Missing_Term (OK: todo 0, problems 0)
 12-10 12:29:35   [Clock_Calendar] set 05: Q103 key c vs re-solve a, Q105 key a vs re-solve b, Q110 key b vs re-solve a, Q112 key d vs re-solve b
@@ -78,4 +75,7 @@
 12-10 13:36:03   [Clock_Calendar] review Flashcards_en.txt: 5 issue(s): - Chat line: "🗺️ Mind Map (Clock & Calendar) – but the prompt requested flashcards. Let's do flashcards." → Remo
 12-10 13:37:24   [Missing_Term] review: 4 section(s) corrected, 0 failed
 12-10 13:37:24   [Missing_Term] written 4, failed 0; AI calls today 163/100000
+12-10 13:37:39 DONE 10th_Level/Reasoning/Chapter_12_Missing_Term in 68 min → a0c9f76b
+12-10 13:37:40 START 10th_Level/Reasoning/Chapter_13_Dictionary_Order (OK: todo 0, problems 0)
+12-10 13:41:11   [Dictionary_Order] set 01: key confirmed
 ```
