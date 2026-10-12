@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 04:58 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 03:40 AM
+**आख़िरी update:** 13-10-2026 05:13 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 03:40 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 77 मिनट |
-| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 77 मिनट |
-| W3 | Chapter 19 Cubes Dice (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 77 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 92 मिनट |
+| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 92 मिनट |
+| W3 | Chapter 19 Cubes Dice (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 92 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -65,4 +65,11 @@
 13-10 04:43:31   [Venn_Diagrams] repaired set 03 (en + hi, key confirmed by an independent re-solve)
 13-10 04:45:56   [Venn_Diagrams] set 04: Q77 key b vs re-solve a
 13-10 04:50:25   [Dictionary_Order] set 03 try 2: re-solve disagrees (Q72 key d vs re-solve a)
+13-10 04:59:14   [Dictionary_Order] set 03 try 3: re-solve disagrees (Q71 key b vs re-solve a, Q72 key a vs re-solve d)
+13-10 05:00:56   [Cubes_Dice] set 03 try 1: re-solve disagrees (Q71 key a vs re-solve b)
+13-10 05:05:26   [Venn_Diagrams] repaired set 04 (en + hi, key confirmed by an independent re-solve)
+13-10 05:09:22   [Dictionary_Order] set 03 try 4: re-solve disagrees (Q67 key a vs re-solve b, Q71 key d vs re-solve a, Q72 key c vs re-solve d)
+13-10 05:09:22   [Dictionary_Order] FAILED set 03: no version passed the checks — files left as they were
+13-10 05:11:06   [Venn_Diagrams] set 05: Q101 key a vs re-solve b, Q105 key a vs re-solve b, Q111 key c vs re-solve a, Q116 key d vs re-solve a, Q121 key a vs re-solve b, Q122 key b v
+13-10 05:11:58   [Dictionary_Order] set 04: Q80 key a vs re-solve ?, Q81 key b vs re-solve ?, Q90 key c vs re-solve ?, Q93 key b vs re-solve d
 ```
