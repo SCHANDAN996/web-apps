@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 02:27 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
+**आख़िरी update:** 12-10-2026 02:42 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 183 मिनट |
-| W2 | Chapter 14 Alphabet Questions (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W3 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 49 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W2 | Chapter 14 Alphabet Questions (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 21 मिनट |
+| W3 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 64 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -36,17 +36,13 @@
 - 12-10 13:37 — 10th Reasoning · Chapter 12 Missing Term
 - 12-10 12:29 — 10th Reasoning · Chapter 11 Series
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 09 Venn Diagrams (Reasoning) — 1 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 12:55:26   [Missing_Term] set 06: Q127 key b vs re-solve a
-12-10 12:57:32   [Clock_Calendar] repaired set 05 (en + hi, key confirmed by an independent re-solve)
-12-10 13:01:33   [Venn_Diagrams] set 05: Q111 key c vs re-solve a, Q119 key c vs re-solve d, Q121 key a vs re-solve b, Q123 key c vs re-solve b, Q125 key b vs re-solve d
-12-10 13:02:03   [Missing_Term] set 06 try 1: re-solve disagrees (Q128 key a vs re-solve b, Q133 key b vs re-solve c)
-12-10 13:10:01   [Missing_Term] repaired set 06 (en + hi, key confirmed by an independent re-solve)
-12-10 13:10:01   [Missing_Term] written 3, failed 0; AI calls today 128/100000
-12-10 13:11:12   [Clock_Calendar] set 06: key confirmed
-12-10 13:11:12   [Clock_Calendar] written 3, failed 0; AI calls today 129/100000
 12-10 13:13:54   [Venn_Diagrams] set 05 try 1: re-solve disagrees (Q101 key d vs re-solve c, Q105 key b vs re-solve a, Q111 key b vs re-solve d, Q116 key a vs re-solve b, Q121 key a v
 12-10 13:18:17   [Missing_Term] review PYQ_en.txt: 3 issue(s): - The "10-Year Trends" table includes 11 years (2015–2025) → change to 10 years (2015–2024) or rename to "11-Year Trend
 12-10 13:19:37   [Venn_Diagrams] set 05 try 2: re-solve disagrees (Q105 key b vs re-solve a, Q122 key a vs re-solve d)
@@ -79,4 +75,12 @@
 12-10 14:21:11 START 10th_Level/Reasoning/Chapter_14_Alphabet_Questions (OK: todo 0, problems 0)
 12-10 14:24:06   [Dictionary_Order] set 03 try 2: re-solve disagrees (Q64 key a vs re-solve d)
 12-10 14:25:00   [Alphabet_Questions] set 01: key confirmed
+12-10 14:31:20   [Alphabet_Questions] set 02: Q46 key a vs re-solve c
+12-10 14:32:33   [Venn_Diagrams] repaired set 06 (en + hi, key confirmed by an independent re-solve)
+12-10 14:32:33   [Venn_Diagrams] written 5, failed 1; AI calls today 201/100000
+12-10 14:32:33 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_09_Venn_Diagrams: ['FAILED set 02: no version passed the checks — files left as they were']
+12-10 14:32:33 START 10th_Level/Reasoning/Chapter_09_Venn_Diagrams (OK: todo 0, problems 0)
+12-10 14:36:58   [Venn_Diagrams] set 01: key confirmed
+12-10 14:39:27   [Dictionary_Order] repaired set 03 (en + hi, key confirmed by an independent re-solve)
+12-10 14:40:16   [Venn_Diagrams] set 02: Q28 key c vs re-solve b, Q49 key d vs re-solve a
 ```
