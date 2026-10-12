@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 05:36 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 04:49 PM
+**आख़िरी update:** 12-10-2026 05:51 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 04:49 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 46 मिनट |
-| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 46 मिनट |
-| W3 | Chapter 15 Mathematical Operations (10th Reasoning) | 🔎 review हो रहा है | 13 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 62 मिनट |
+| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 62 मिनट |
+| W3 | Chapter 15 Mathematical Operations (10th Reasoning) | 🔎 review हो रहा है | 28 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -64,4 +64,9 @@
 12-10 17:33:40   [Dictionary_Order] set 02 try 4: re-solve disagrees (Q30 key d vs re-solve b, Q35 key b vs re-solve c)
 12-10 17:33:40   [Dictionary_Order] FAILED set 02: no version passed the checks — files left as they were
 12-10 17:34:46   [Venn_Diagrams] set 03: Q51 key a vs re-solve d, Q55 key a vs re-solve b, Q60 key b vs re-solve c, Q63 key a vs re-solve c, Q66 key d vs re-solve c, Q73 key c vs re-s
+12-10 17:37:40   [Mathematical_Operations] review Flashcards_en.txt: 2 issue(s): - Card 2: The English mnemonic “Rohan’s grandmother makes” does not match the initials of Replace, Decode, BODMA
+12-10 17:40:16   [Venn_Diagrams] set 03 try 1: re-solve disagrees (Q67 key b vs re-solve a)
+12-10 17:41:38   [Dictionary_Order] set 03: Q58 key d vs re-solve a, Q68 key b vs re-solve ?, Q71 key a vs re-solve b, Q74 key d vs re-solve b
+12-10 17:43:25   [Mathematical_Operations] review PYQ_en.txt: 6 issue(s): - RRB NTPC total in Year-wise Frequency table shows 8 but column entries sum to 6 → correct total is 6 (or column entri
+12-10 17:49:41   [Venn_Diagrams] set 03 try 2: re-solve disagrees (Q60 key a vs re-solve d, Q67 key a vs re-solve b)
 ```
