@@ -143,7 +143,7 @@ def check_practice_pair(en_path, hi_path, english_book=False):
             problems.append(f'{lang}: answers not spread (one letter is correct in >15 of 25)')
         if '\ufffd' in text:
             problems.append(f'{lang}: corrupted characters (\ufffd)')
-        if (lp := language_problem(p.name, text, '/English/' in str(p))):
+        if (lp := language_problem(p.name, text, '/English/' in Path(p).as_posix())):
             problems.append(lp)
         problems += source_problems(p.name, text)
     if len(sets) == 2 and len(sets['en']) == len(sets['hi']):
@@ -210,7 +210,7 @@ def check_chapter(chapter):
             problems.append(f'{name}: unsourced claim "{m.group(0)}"')
         if name.startswith('Mind_Map') and not re.search(r'```mermaid\s*\n\s*(?:graph|flowchart|mindmap)', text):
             problems.append(f'{name}: no ```mermaid graph block')
-        if (lp := language_problem(name, text, '/English/' in str(chapter))):
+        if (lp := language_problem(name, text, '/English/' in Path(chapter).as_posix())):
             problems.append(lp)
         problems += source_problems(name, text)
         if '10th_Level' in str(chapter) and re.search(r'\bUPSC\b', text):
@@ -230,7 +230,7 @@ def check_chapter(chapter):
             if n == 1:
                 todo.append('Practice sets')
             break
-        for pr in check_practice_pair(en, hi, '/English/' in str(chapter)):
+        for pr in check_practice_pair(en, hi, '/English/' in Path(chapter).as_posix()):
             (todo if pr.endswith('todo') or pr.endswith('missing') else problems).append(f'Set {n:02d} {pr}')
     problems += meta_problems(chapter)
     links = [p.name for d in (Path(chapter), Path(chapter) / 'Prompts') if d.is_dir() for p in d.iterdir() if p.is_symlink()]

@@ -254,7 +254,7 @@ ENGLISH_BOOK_TRANSLATION = (
 
 
 def is_english_book(chapter):
-    return '/English/' in str(Path(chapter).resolve())
+    return '/English/' in Path(chapter).resolve().as_posix()
 
 
 def section_translation_request(src_name, src_text, dst_name, english_book=False):
