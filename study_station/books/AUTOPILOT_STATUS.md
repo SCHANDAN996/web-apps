@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 12-10-2026 12:32 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 07:23 AM
+**आख़िरी update:** 12-10-2026 12:47 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 07:23 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 308 मिनट |
-| W2 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 308 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 323 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -35,10 +34,13 @@
 
 - अभी कोई नहीं
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 08 Puzzles (Reasoning) — 1 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 07:23:56 autopilot start: 3 workers, reverse=True
 12-10 07:23:59 START Graduation_Level/Reasoning/Chapter_07_Sitting_Arrangement (OK: todo 0, problems 0)
 12-10 07:24:04 START Graduation_Level/Reasoning/Chapter_08_Puzzles (OK: todo 0, problems 0)
 12-10 07:24:11 worker 2: nothing left
@@ -75,4 +77,8 @@
 12-10 12:08:52   [Puzzles] set 06: Q137 key a vs re-solve ?, Q146 key a vs re-solve -, Q147 key a vs re-solve -, Q148 key a vs re-solve -, Q149 key d vs re-solve -, Q150 key a v
 12-10 12:21:12   [Puzzles] set 06 try 1: re-solve disagrees (Q133 key d vs re-solve ?, Q134 key d vs re-solve ?, Q146 key d vs re-solve -, Q147 key d vs re-solve -, Q148 key a v
 12-10 12:29:09   [Sitting_Arrangement] set 03 try 1: re-solve disagrees (Q54: clues contradict each other — no arrangement fits all of them; Q63: clues contradict each other — no arrangemen
+12-10 12:41:05   [Puzzles] repaired set 06 (en + hi, key confirmed by an independent re-solve)
+12-10 12:41:05   [Puzzles] written 5, failed 1; AI calls today 148/100000
+12-10 12:41:05 AUDIT NOT DONE Graduation_Level/Reasoning/Chapter_08_Puzzles: ['FAILED set 02: no version passed the checks — files left as they were']
+12-10 12:41:05 worker 1: nothing left
 ```
