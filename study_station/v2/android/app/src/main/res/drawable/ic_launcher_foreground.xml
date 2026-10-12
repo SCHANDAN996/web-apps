@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The book + tick from static/icon.svg, scaled into the adaptive icon's safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <group
+        android:pivotX="256"
+        android:pivotY="264"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:translateY="-8">
+        <path
+            android:pathData="M144 148a20 20 0 0 1 20-20h204v232H164a20 20 0 0 0-20 20z"
+            android:strokeColor="#FFFFFF"
+            android:strokeLineJoin="round"
+            android:strokeWidth="28" />
+        <path
+            android:pathData="M144 380a20 20 0 0 0 20 20h204"
+            android:strokeColor="#FFFFFF"
+            android:strokeLineCap="round"
+            android:strokeWidth="28" />
+        <path
+            android:pathData="m200 238 36 36 72-80"
+            android:strokeColor="#FBBF24"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:strokeWidth="30" />
+    </group>
+</vector>
