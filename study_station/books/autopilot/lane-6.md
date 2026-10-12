@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 12-10-2026 01:56 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
+**आख़िरी update:** 12-10-2026 02:11 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 11:23 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 152 मिनट |
-| W2 | Chapter 10 Clock Calendar (10th Reasoning) | 🔎 review हो रहा है | 45 मिनट |
-| W3 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 18 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 168 मिनट |
+| W2 | Chapter 10 Clock Calendar (10th Reasoning) | 🔎 review हो रहा है | 60 मिनट |
+| W3 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 34 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -38,10 +38,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-12-10 12:33:24   [Venn_Diagrams] repaired set 03 (en + hi, key confirmed by an independent re-solve)
-12-10 12:37:59   [Venn_Diagrams] set 04: Q77 key b vs re-solve a
-12-10 12:38:33   [Missing_Term] repaired set 01 (en + hi, key confirmed by an independent re-solve)
-12-10 12:39:41   [Missing_Term] set 02: Q35 key b vs re-solve a
 12-10 12:40:23   [Clock_Calendar] set 05 try 1: re-solve disagrees (Q105 key a vs re-solve b, Q110 key a vs re-solve b)
 12-10 12:44:05   [Venn_Diagrams] set 04 try 1: re-solve disagrees (Q88 key d vs re-solve c)
 12-10 12:44:14   [Missing_Term] repaired set 02 (en + hi, key confirmed by an independent re-solve)
@@ -78,4 +74,8 @@
 12-10 13:49:01   [Dictionary_Order] set 02: Q29 key d vs re-solve a, Q31 key b vs re-solve a
 12-10 13:49:13   [Clock_Calendar] review PYQ_hi.txt: 1 issue(s): - Q3 solution incorrectly sums odd days for years 2010–2015 to prove 2009 and 2015 calendars match → Correct method: su
 12-10 13:53:09   [Venn_Diagrams] set 06: Q127 key b vs re-solve d, Q130 key a vs re-solve b, Q133 key d vs re-solve a, Q148 key c vs re-solve a
+12-10 13:59:18   [Clock_Calendar] review Important_Rules_en.txt: 4 issue(s): - In "Hands opposite (180°)" row: formula "M = (60H ± 180)/11" and example "5 hr 43⁷⁄₁₁ min" are for 90°, n
+12-10 14:03:15   [Dictionary_Order] repaired set 02 (en + hi, key confirmed by an independent re-solve)
+12-10 14:05:41   [Venn_Diagrams] set 06 try 1: re-solve disagrees (Q126 key c vs re-solve ?, Q130 key c vs re-solve a)
+12-10 14:09:06   [Dictionary_Order] set 03: Q58 key d vs re-solve a, Q68 key b vs re-solve ?, Q71 key a vs re-solve b, Q74 key d vs re-solve b
 ```
