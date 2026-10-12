@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 02:05 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 10:15 PM
+**आख़िरी update:** 13-10-2026 02:20 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 12-10 10:15 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 230 मिनट |
-| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 230 मिनट |
-| W3 | Chapter 19 Cubes Dice (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 90 मिनट |
+| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 245 मिनट |
+| W3 | Chapter 19 Cubes Dice (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 105 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -34,18 +33,13 @@
 
 - 13-10 00:34 — 10th Reasoning · Chapter 18 Inequality
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 09 Venn Diagrams (Reasoning) — 1 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 00:00:40   [Venn_Diagrams] set 03 try 4: re-solve disagrees (Q59 key d vs re-solve a, Q66 key b vs re-solve d, Q73 key d vs re-solve a)
-13-10 00:00:40   [Venn_Diagrams] FAILED set 03: no version passed the checks — files left as they were
-13-10 00:05:18   [Venn_Diagrams] set 04: Q77 key b vs re-solve a
-13-10 00:13:17   [Inequality] repaired set 05 (en + hi, key confirmed by an independent re-solve)
-13-10 00:15:56   [Dictionary_Order] set 04: Q80 key a vs re-solve ?, Q81 key b vs re-solve ?, Q90 key c vs re-solve ?, Q93 key b vs re-solve d
-13-10 00:16:36   [Inequality] set 06: key confirmed
-13-10 00:16:36   [Inequality] written 2, failed 0; AI calls today 9/100000
-13-10 00:18:29   [Venn_Diagrams] set 04 try 1: re-solve disagrees (Q77 key b vs re-solve a)
-13-10 00:18:31   [Inequality] review Content_en.txt: 1 issue(s): - The statement “Some exams also treat ≥ and ≤ as complementary when all three possibilities (>, <, =) are not sett
 13-10 00:25:41   [Dictionary_Order] set 04 try 1: re-solve disagrees (Q80 key d vs re-solve ?, Q93 key c vs re-solve d)
 13-10 00:25:51   [Inequality] review PYQ_en.txt: 3 issue(s): - Yearly Frequency & Trend table shows identical question ranges for every year 2016–2025 → This is invented statistics
 13-10 00:28:23   [Inequality] review PYQ_hi.txt: 6 issue(s): - Yearly frequency table (2016–2025) shows identical question ranges for every year → fabricated data, replace with act
@@ -77,4 +71,13 @@
 13-10 01:54:52   [Dictionary_Order] set 05 try 4: re-solve disagrees (Q114 key b vs re-solve ?, Q118 key a vs re-solve d)
 13-10 01:54:52   [Dictionary_Order] FAILED set 05: no version passed the checks — files left as they were
 13-10 02:01:13   [Dictionary_Order] set 06: Q142 key a vs re-solve b
+13-10 02:06:29   [Venn_Diagrams] set 06 try 3: re-solve disagrees (Q126 key d vs re-solve c, Q130 key a vs re-solve c, Q134 key b vs re-solve d)
+13-10 02:10:30   [Cubes_Dice] repaired set 02 (en + hi, key confirmed by an independent re-solve)
+13-10 02:12:13   [Dictionary_Order] set 06 try 1: re-solve disagrees (Q132 key d vs re-solve c)
+13-10 02:16:01   [Venn_Diagrams] set 06 try 4: re-solve disagrees (Q143 key a vs re-solve c)
+13-10 02:16:01   [Venn_Diagrams] FAILED set 06: no version passed the checks — files left as they were
+13-10 02:16:01   [Venn_Diagrams] written 3, failed 3; AI calls today 84/100000
+13-10 02:16:01 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_09_Venn_Diagrams: ['FAILED set 03: no version passed the checks — files left as they were', 'FAILED set 05: too_long']
+13-10 02:16:01 worker 0: nothing left
+13-10 02:18:08   [Cubes_Dice] set 03: Q56 key b vs re-solve ?
 ```
