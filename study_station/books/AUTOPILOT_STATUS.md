@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 13-10-2026 11:57 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:23 PM
+**आख़िरी update:** 14-10-2026 12:13 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:23 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 154 मिनट |
-| W2 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 154 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 169 मिनट |
+| W2 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 169 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -52,4 +52,5 @@
 13-10 23:24:14   [Puzzles] set 02 try 1: re-solve disagrees (Q30 key a vs re-solve d, Q41 key b vs re-solve c)
 13-10 23:38:18   [Puzzles] set 02 try 2: re-solve disagrees (Q50 key c vs re-solve b)
 13-10 23:43:33   [Sitting_Arrangement] set 02: Q34: the clues allow more than one answer — add a clue so exactly one arrangement fits; Q37: clues contradict each other — no arrangement fits
+14-10 00:06:23   [Puzzles] set 02 try 3: re-solve disagrees (Q26: the clues allow more than one answer — add a clue so exactly one arrangement fits; Q37: clues contradict each o
 ```
