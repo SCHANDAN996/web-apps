@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 03:34 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
+**आख़िरी update:** 13-10-2026 03:44 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 62 मिनट |
-| W2 | Chapter 04 Constitution Basic (10th GK) | 🔎 review हो रहा है | 39 मिनट |
-| W3 | Chapter 05 Polity (10th GK) | 🔎 review हो रहा है | 15 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 72 मिनट |
+| W2 | Chapter 04 Constitution Basic (10th GK) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 05 Polity (10th GK) | 🔎 review हो रहा है | 25 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -32,16 +32,11 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 13-10 15:44 — 10th GK · Chapter 04 Constitution Basic
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 14:32:08 START 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_04_Constitution_Basic (OK: todo 0, problems 0)
-13-10 14:32:13 START 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_05_Polity (OK: todo 0, problems 0)
-13-10 14:33:01   [Dictionary_Order] set 01: Q24 key d vs re-solve b
-13-10 14:33:13   [Polity] set 01: key confirmed
-13-10 14:33:16   [Constitution_Basic] set 01: key confirmed
 13-10 14:35:05   [Constitution_Basic] set 02: key confirmed
 13-10 14:36:13   [Polity] set 02: key confirmed
 13-10 14:36:55   [Constitution_Basic] set 03: key confirmed
@@ -77,4 +72,9 @@
 13-10 15:30:33   [Constitution_Basic] review Flashcards_hi.txt: 2 issue(s): - Card 4 back: "O – Other Tribal Areas (अब हटा)" claims Schedule 6 is removed; actually Schedule 6 (Tribal Areas
 13-10 15:33:57   [Polity] review Content_hi.txt: 2 issue(s): - Fundamental Rights mnemonic mislabels first two rights: "स्वातंत्र्य (समता का अधिकार — अनु. 14–18)" and "समता (स्
 13-10 15:34:27   [Dictionary_Order] set 03 try 1: re-solve disagrees (Q58 key a vs re-solve d)
+13-10 15:36:53   [Constitution_Basic] review Memory_Hooks_en.txt: 1 issue(s): - The TEARS OF OLD PM mnemonic incorrectly states the 6th Schedule is "removed" → The 6th Schedule (Tribal Are
+13-10 15:40:21   [Constitution_Basic] review Memory_Hooks_hi.txt: 2 issue(s): - In mnemonic 5 (TEARS OF OLD PM), the 6th Schedule is described as "अब हटा दी गई" (removed) → The 6th Schedul
+13-10 15:41:25   [Dictionary_Order] set 03 try 2: re-solve disagrees (Q51 key b vs re-solve c, Q58 key c vs re-solve d, Q64 key a vs re-solve d, Q72 key b vs re-solve c, Q74 key b vs re-
+13-10 15:44:24   [Constitution_Basic] review: 8 section(s) corrected, 0 failed
+13-10 15:44:24   [Constitution_Basic] written 8, failed 0; AI calls today 91/100000
 ```
