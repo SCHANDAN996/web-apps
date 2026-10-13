@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 13-10-2026 03:53 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 10:32 AM
+**आख़िरी update:** 13-10-2026 03:58 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 03:57 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 321 मिनट |
-| W2 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 321 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W2 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -38,37 +38,8 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 10:32:07 autopilot start: 3 workers, reverse=True
-13-10 10:32:10 START Graduation_Level/Reasoning/Chapter_07_Sitting_Arrangement (OK: todo 0, problems 0)
-13-10 10:32:15 START Graduation_Level/Reasoning/Chapter_08_Puzzles (OK: todo 0, problems 0)
-13-10 10:32:21 worker 2: nothing left
-13-10 10:46:29   [Puzzles] set 01: Q18 key c vs re-solve b
-13-10 10:50:11   [Sitting_Arrangement] set 01: Q24 key d vs re-solve a
-13-10 10:57:09   [Puzzles] set 01 try 1: re-solve disagrees (Q18 key b vs re-solve d)
-13-10 11:04:03   [Sitting_Arrangement] set 01 try 1: re-solve disagrees (Q13 key b vs re-solve d, Q24 key a vs re-solve c)
-13-10 11:18:07   [Sitting_Arrangement] set 01 try 2: re-solve disagrees (Q2 key a vs re-solve b, Q13 key a vs re-solve b, Q16 key c vs re-solve a, Q18 key d vs re-solve b)
-13-10 11:20:29   [Puzzles] set 01 try 2: re-solve disagrees (Q18: clues contradict each other — no arrangement fits all of them; Q22: clues contradict each other — no arrangemen
-13-10 11:38:34   [Sitting_Arrangement] set 01 try 3: re-solve disagrees (Q2 key a vs re-solve c, Q18 key c vs re-solve a, Q21 key d vs re-solve a)
-13-10 11:42:14   [Puzzles] repaired set 01 (en + hi, key confirmed by an independent re-solve)
-13-10 11:52:13   [Puzzles] set 02: Q41 key b vs re-solve c
-13-10 12:14:43   [Sitting_Arrangement] set 01 try 4: re-solve disagrees (Q4: the clues give "c" (option c), but the key says (d); Q5: clues contradict each other — no arrangement fits all o
-13-10 12:14:43   [Sitting_Arrangement] FAILED set 01: no version passed the checks — files left as they were
-13-10 12:19:16   [Puzzles] set 02 try 1: re-solve disagrees (Q26: the clues allow more than one answer — add a clue so exactly one arrangement fits; Q41: clues contradict each o
-13-10 12:31:59   [Puzzles] set 02 try 2: re-solve disagrees (Q30 key b vs re-solve d, Q41 key c vs re-solve ?)
-13-10 12:45:46   [Puzzles] set 02 try 3: re-solve disagrees (Q30 key d vs re-solve b)
-13-10 12:56:28   [Sitting_Arrangement] set 02: Q34: the clues allow more than one answer — add a clue so exactly one arrangement fits; Q37: the clues give "2" (option d), but the key says (
-13-10 13:00:17   [Puzzles] set 02 try 4: re-solve disagrees (Q30 key d vs re-solve c)
-13-10 13:00:17   [Puzzles] FAILED set 02: no version passed the checks — files left as they were
-13-10 13:20:11   [Puzzles] set 03: Q52 key d vs re-solve a
-13-10 13:39:29   [Puzzles] set 03 try 1: re-solve disagrees (Q64 key c vs re-solve a)
-13-10 13:42:47   [Sitting_Arrangement] repaired set 02 (en + hi, key confirmed by an independent re-solve)
-13-10 13:56:55   [Puzzles] set 03 try 2: re-solve disagrees (Q53 key b vs re-solve c)
-13-10 13:56:55   [Sitting_Arrangement] set 03: Q54 key c vs re-solve a, Q56 key b vs re-solve c, Q61 key d vs re-solve b, Q68 key a vs re-solve b, Q74 key a vs re-solve d
-13-10 14:11:44   [Puzzles] set 03 try 3: re-solve disagrees (Q65 key d vs re-solve c, Q69 key a vs re-solve b)
-13-10 14:23:35   [Sitting_Arrangement] set 03 try 1: re-solve disagrees (Q56 key d vs re-solve a)
-13-10 14:49:23   [Puzzles] set 03 try 4: re-solve disagrees (Q55: clues contradict each other — no arrangement fits all of them)
-13-10 14:49:23   [Puzzles] FAILED set 03: no version passed the checks — files left as they were
-13-10 15:07:58   [Puzzles] set 04: Q90 key b vs re-solve d
-13-10 15:12:16   [Sitting_Arrangement] set 03 try 2: re-solve disagrees (Q54: the clues allow more than one answer — add a clue so exactly one arrangement fits; Q63: clues contradict each o
-13-10 15:25:08   [Puzzles] set 04 try 1: re-solve disagrees (Q90 key c vs re-solve b)
+13-10 15:57:39 autopilot start: 3 workers, reverse=True
+13-10 15:57:41 START Graduation_Level/Reasoning/Chapter_07_Sitting_Arrangement (OK: todo 0, problems 0)
+13-10 15:57:46 START Graduation_Level/Reasoning/Chapter_08_Puzzles (OK: todo 0, problems 0)
+13-10 15:57:52 worker 2: nothing left
 ```
