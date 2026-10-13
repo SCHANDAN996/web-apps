@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 11:03 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
+**आख़िरी update:** 13-10-2026 11:09 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 116 मिनट |
-| W2 | Chapter 20 Mirror Water Images (10th Reasoning) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 22 Figure Series (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 123 मिनट |
+| W2 | Chapter 01 Ancient History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W3 | Chapter 22 Figure Series (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -38,14 +38,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 09:37:58   [Mirror_Water_Images] written 0, failed 0; AI calls today 27/100000
-13-10 09:39:25   [Dictionary_Order] set 02 try 3: re-solve disagrees (Q29 key a vs re-solve d)
-13-10 09:42:58   [Paper_Folding_Cutting] repaired set 01 (en + hi, key confirmed by an independent re-solve)
-13-10 09:46:49   [Dictionary_Order] set 02 try 4: re-solve disagrees (Q29 key a vs re-solve d)
-13-10 09:46:49   [Dictionary_Order] FAILED set 02: no version passed the checks — files left as they were
-13-10 09:48:59   [Mirror_Water_Images] review Content_en.txt: 2 issue(s): - The claim that digits 0,1,3,8 stay recognisable in water image is wrong; only 0,1,8 stay same, while 3 becomes a 
-13-10 09:51:02   [Dictionary_Order] set 03: Q58 key d vs re-solve a, Q68 key b vs re-solve ?, Q71 key a vs re-solve b, Q74 key d vs re-solve b
-13-10 09:55:30   [Paper_Folding_Cutting] set 02: key confirmed
 13-10 09:57:40   [Mirror_Water_Images] review Content_hi.txt: 2 issue(s): - Water reflection symmetric letters list incorrectly includes S and Z (which are not horizontally symmetric) and o
 13-10 10:03:39   [Paper_Folding_Cutting] set 03: key confirmed
 13-10 10:07:13   [Dictionary_Order] repaired set 03 (en + hi, key confirmed by an independent re-solve)
@@ -78,4 +70,12 @@
 13-10 11:01:58   [Figure_Series] set 01: key confirmed
 13-10 11:03:27   [Mirror_Water_Images] review: 9 section(s) corrected, 0 failed
 13-10 11:03:27   [Mirror_Water_Images] written 9, failed 0; AI calls today 98/100000
+13-10 11:03:48 DONE 10th_Level/Reasoning/Chapter_20_Mirror_Water_Images in 117 min → 4cd4d75a
+13-10 11:03:50 START 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_01_Ancient_History (OK: todo 0, problems 0)
+13-10 11:04:55   [Figure_Series] set 02: key confirmed
+13-10 11:05:07   [Ancient_History] set 01: key confirmed
+13-10 11:06:25   [Ancient_History] set 02: key confirmed
+13-10 11:06:41   [Dictionary_Order] set 05 try 1: re-solve disagrees (Q116 key c vs re-solve ?)
+13-10 11:06:43   [Figure_Series] set 03: key confirmed
+13-10 11:08:50   [Ancient_History] set 03: key confirmed
 ```
