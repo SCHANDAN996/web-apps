@@ -9,8 +9,8 @@
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
 | W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 216 मिनट |
-| W2 | Chapter 14 Sports (10th GK) | 🔎 review हो रहा है | 61 मिनट |
-| W3 | Chapter 17 Culture Art (10th GK) | 🔎 review हो रहा है | 56 मिनट |
+| W2 | Chapter 14 Sports (10th GK) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 17 Culture Art (10th GK) | 🔎 review हो रहा है | 57 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -32,6 +32,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 13-10 18:08 — 10th GK · Chapter 14 Sports
 - 13-10 17:02 — 10th GK · Chapter 09 Economy Basic
 - 13-10 16:47 — 10th GK · Chapter 06 Physical Geography
 - 13-10 16:14 — 10th GK · Chapter 05 Polity
@@ -40,8 +41,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 16:59:35   [Dictionary_Order] FAILED set 04: no version passed the checks — files left as they were
-13-10 17:00:54   [Economy_Basic] review Memory_Hooks_en.txt: 1 issue(s): - Mnemonic 9 skips the 4th Five-Year Plan (1969–74) and implies the 5th plan came right after the plan holiday
 13-10 17:00:58   [Sports] set 06: Q135 key b vs re-solve ?, Q137 key b vs re-solve ?, Q139 key c vs re-solve ?, Q141 key c vs re-solve ?
 13-10 17:02:05   [Economy_Basic] review: 7 section(s) corrected, 0 failed
 13-10 17:02:05   [Economy_Basic] written 7, failed 0; AI calls today 196/100000
@@ -80,4 +79,6 @@
 13-10 18:01:41   [Sports] review PYQ_en.txt: 1 issue(s): - Question 10 presents a fabricated result for the 2025 ICC Women's ODI World Cup (India beating South Africa on 2 Nove
 13-10 18:02:09   [Culture_Art] review Flashcards_hi.txt: 1 issue(s): - Card 16: Invented 2026 statistic (45 World Heritage Sites, 37 cultural, 7 natural, 1 mixed) → As of 2024 India
 13-10 18:03:55   [Sports] review PYQ_hi.txt: 1 issue(s): - Question 10 states as fact that India won the 2025 ICC Women's ODI World Cup, beating South Africa in the final on 2 
+13-10 18:08:57   [Sports] review: 10 section(s) corrected, 0 failed
+13-10 18:08:57   [Sports] written 10, failed 0; AI calls today 266/100000
 ```
