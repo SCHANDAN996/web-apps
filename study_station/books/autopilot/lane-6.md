@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 05:52 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
+**आख़िरी update:** 13-10-2026 06:08 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 200 मिनट |
-| W2 | Chapter 14 Sports (10th GK) | 🔎 review हो रहा है | 45 मिनट |
-| W3 | Chapter 17 Culture Art (10th GK) | 🔎 review हो रहा है | 41 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 216 मिनट |
+| W2 | Chapter 14 Sports (10th GK) | 🔎 review हो रहा है | 61 मिनट |
+| W3 | Chapter 17 Culture Art (10th GK) | 🔎 review हो रहा है | 56 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -40,14 +40,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 16:49:41   [Sports] set 02: key confirmed
-13-10 16:49:52   [Dictionary_Order] set 04 try 3: re-solve disagrees (Q80 key b vs re-solve ?, Q90 key d vs re-solve a)
-13-10 16:50:41   [Sports] set 03: key confirmed
-13-10 16:51:53   [Sports] set 04: key confirmed
-13-10 16:53:17   [Sports] set 05: key confirmed
-13-10 16:54:16   [Economy_Basic] review Flashcards_en.txt: 1 issue(s): - Card 9 states "In March 2026 the government kept it for 2026–31" as a fact, but this is a future event that ha
-13-10 16:55:05   [Economy_Basic] review Flashcards_hi.txt: 1 issue(s): - Card 9 claims the government retained the inflation target in March 2026 for 2026‑31; this is a future event t
-13-10 16:59:35   [Dictionary_Order] set 04 try 4: re-solve disagrees (Q80 key b vs re-solve ?)
 13-10 16:59:35   [Dictionary_Order] FAILED set 04: no version passed the checks — files left as they were
 13-10 17:00:54   [Economy_Basic] review Memory_Hooks_en.txt: 1 issue(s): - Mnemonic 9 skips the 4th Five-Year Plan (1969–74) and implies the 5th plan came right after the plan holiday
 13-10 17:00:58   [Sports] set 06: Q135 key b vs re-solve ?, Q137 key b vs re-solve ?, Q139 key c vs re-solve ?, Q141 key c vs re-solve ?
@@ -80,4 +72,12 @@
 13-10 17:49:11   [Dictionary_Order] FAILED set 05: no version passed the checks — files left as they were
 13-10 17:51:28   [Sports] review Feynman_hi.txt: 1 issue(s): - "राष्ट्रीय खेल पुरस्कार 2024 में 'अर्जुन पुरस्कार (आजीवन)' के नाम से दिया गया" → यह गलत है; 2024 के राष्ट्रीय खेल
 13-10 17:52:39   [Culture_Art] review Key_Facts_hi.txt: 2 issue(s): - विश्व धरोहर स्थल (2026) 45 (37 सांस्कृतिक, 7 प्राकृतिक, 1 मिश्रित) in High-yield facts is an invented future st
+13-10 17:54:15   [Sports] review Mind_Map.txt: 3 issue(s): - CW2 node "अहमदाबाद 2030" presents Ahmedabad as confirmed 2030 Commonwealth Games host → 2030 host not yet decided; 
+13-10 17:57:28   [Dictionary_Order] set 06: Q142 key a vs re-solve b
+13-10 17:57:50   [Culture_Art] review Mind_Map.txt: 4 issue(s): - U1: "45 विश्व धरोहर स्थल - 2026" with breakdown 37 cultural, 7 natural, 1 mixed is incorrect → As of 2024, India ha
+13-10 17:58:16   [Sports] review Flashcards_hi.txt: 1 issue(s): - Card 12 incorrectly states that the Major Dhyan Chand Khel Ratna award started in 1991–92; it was originally t
+13-10 17:59:53   [Culture_Art] review Flashcards_en.txt: 1 issue(s): - Card 16 states India had 45 World Heritage sites in 2026 → As of 2024, India has 42 World Heritage sites (34 c
+13-10 18:01:41   [Sports] review PYQ_en.txt: 1 issue(s): - Question 10 presents a fabricated result for the 2025 ICC Women's ODI World Cup (India beating South Africa on 2 Nove
+13-10 18:02:09   [Culture_Art] review Flashcards_hi.txt: 1 issue(s): - Card 16: Invented 2026 statistic (45 World Heritage Sites, 37 cultural, 7 natural, 1 mixed) → As of 2024 India
+13-10 18:03:55   [Sports] review PYQ_hi.txt: 1 issue(s): - Question 10 states as fact that India won the 2025 ICC Women's ODI World Cup, beating South Africa in the final on 2 
 ```
