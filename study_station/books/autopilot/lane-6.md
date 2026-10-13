@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 06:23 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
+**आख़िरी update:** 13-10-2026 06:38 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 231 मिनट |
-| W2 | Chapter 18 Science Tech (10th GK) | 🔎 review हो रहा है | 1 मिनट |
-| W3 | Chapter 19 Environment (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 246 मिनट |
+| W2 | Chapter 18 Science Tech (10th GK) | 🔎 review हो रहा है | 16 मिनट |
+| W3 | Chapter 19 Environment (10th GK) | 🔎 review हो रहा है | 14 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -42,11 +42,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 17:34:56   [Culture_Art] review Content_hi.txt: 3 issue(s): - "2026 तक भारत के 45 विश्व धरोहर स्थल" और "सारनाथ का प्राचीन बौद्ध स्थल (2026)" → यह भविष्य का अनुमान है; 2025 तक 
-13-10 17:40:43   [Sports] review Key_Facts_en.txt: 2 issue(s): - High-Yield Facts: Modern Olympics – "IOC (1894) at Lausanne" → IOC founded 1894 in Paris; headquarters Lausanne
-13-10 17:41:52   [Dictionary_Order] set 05 try 3: re-solve disagrees (Q124 key a vs re-solve c)
-13-10 17:44:08   [Culture_Art] review Key_Facts_en.txt: 1 issue(s): - World Heritage sites count for 2026 given as 45 (37 cultural, 7 natural, 1 mixed) is speculative/incorrect → As
-13-10 17:44:53   [Sports] review Key_Facts_hi.txt: 1 issue(s): - Glasgow 2026 Commonwealth Games medal tally (39 medals) is fabricated; the games have not taken place yet → Rem
 13-10 17:47:37   [Sports] review Feynman_en.txt: 1 issue(s): - The lifetime award is the Dhyan Chand Award (instituted 2002), not "Arjuna Award (Lifetime)"; the National Sports
 13-10 17:49:11   [Dictionary_Order] set 05 try 4: re-solve disagrees (Q113 key b vs re-solve c, Q124 key d vs re-solve c)
 13-10 17:49:11   [Dictionary_Order] FAILED set 05: no version passed the checks — files left as they were
@@ -82,4 +77,9 @@
 13-10 18:22:26   [Science_Tech] set 06: key confirmed
 13-10 18:22:26   [Science_Tech] written 1, failed 0; AI calls today 296/100000
 13-10 18:22:44   [Environment] set 05: key confirmed
+13-10 18:24:54   [Environment] set 06: key confirmed
+13-10 18:24:54   [Environment] written 0, failed 0; AI calls today 299/100000
+13-10 18:25:50   [Dictionary_Order] set 06 try 2: re-solve disagrees (Q133 key c vs re-solve b, Q146 key c vs re-solve d, Q148 key a vs re-solve d)
+13-10 18:32:46   [Environment] review Content_en.txt: 4 issue(s): - Static-Dynamic Link claims "As announced by PIB on 3 August 2026, Glaw Lake became India's 101st Ramsar site" → t
+13-10 18:36:07   [Science_Tech] review Content_hi.txt: 3 issue(s): - Static-Dynamic Link: SpaDeX docking on 16 January 2025 is stated as a completed event, but as of 2024 it is a fut
 ```
