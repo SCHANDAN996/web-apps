@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 02:18 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
+**आख़िरी update:** 13-10-2026 02:28 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 119 मिनट |
-| W2 | Chapter 03 Modern History (10th GK) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 128 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -45,9 +44,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 12:43:32   [Dictionary_Order] set 02 try 1: re-solve disagrees (Q29 key a vs re-solve d, Q31 key a vs re-solve b)
-13-10 12:43:47   [Modern_History] set 03: key confirmed
-13-10 12:49:16   [Medieval_History] set 06: key confirmed
 13-10 12:49:16   [Medieval_History] written 3, failed 0; AI calls today 216/100000
 13-10 12:49:33   [Modern_History] set 04: Q79 key d vs re-solve a, Q94 key c vs re-solve a
 13-10 12:51:15   [Dictionary_Order] set 02 try 2: re-solve disagrees (Q30 key a vs re-solve b, Q44 key d vs re-solve a)
@@ -85,4 +81,7 @@
 13-10 14:14:15   [Dictionary_Order] set 05 try 1: rejected (Q111:duplicate_options)
 13-10 14:18:37   [Modern_History] review: 4 section(s) corrected, 0 failed
 13-10 14:18:37   [Modern_History] written 4, failed 0; AI calls today 290/100000
+13-10 14:18:54 DONE 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_03_Modern_History in 123 min → cd84371e
+13-10 14:18:54 worker 1: nothing left
+13-10 14:27:35   [Dictionary_Order] set 05 try 2: re-solve disagrees (Q116 key a vs re-solve b, Q118 key c vs re-solve a)
 ```
