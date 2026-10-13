@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 10:08 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
+**आख़िरी update:** 13-10-2026 10:23 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 61 मिनट |
-| W2 | Chapter 20 Mirror Water Images (10th Reasoning) | 🔎 review हो रहा है | 30 मिनट |
-| W3 | Chapter 21 Paper Folding Cutting (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 61 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 77 मिनट |
+| W2 | Chapter 20 Mirror Water Images (10th Reasoning) | 🔎 review हो रहा है | 45 मिनट |
+| W3 | Chapter 21 Paper Folding Cutting (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 76 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -63,4 +63,8 @@
 13-10 09:57:40   [Mirror_Water_Images] review Content_hi.txt: 2 issue(s): - Water reflection symmetric letters list incorrectly includes S and Z (which are not horizontally symmetric) and o
 13-10 10:03:39   [Paper_Folding_Cutting] set 03: key confirmed
 13-10 10:07:13   [Dictionary_Order] repaired set 03 (en + hi, key confirmed by an independent re-solve)
+13-10 10:11:48   [Dictionary_Order] set 04: Q80 key a vs re-solve ?, Q81 key b vs re-solve ?, Q90 key c vs re-solve ?, Q93 key b vs re-solve d
+13-10 10:16:26   [Mirror_Water_Images] review Mind_Map.txt: 2 issue(s): - अपरिवर्तित अक्षर: 9<br>B,C,D,E,H,I,K,O,X → अपरिवर्तित अक्षर: 8<br>B,C,D,E,H,I,O,X
+13-10 10:16:56   [Paper_Folding_Cutting] set 04: key confirmed
+13-10 10:21:01   [Dictionary_Order] set 04 try 1: re-solve disagrees (Q80 key a vs re-solve ?, Q93 key a vs re-solve d)
 ```
