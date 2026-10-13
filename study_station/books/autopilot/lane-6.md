@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 05:22 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
+**आख़िरी update:** 13-10-2026 05:37 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 169 मिनट |
-| W2 | Chapter 14 Sports (10th GK) | 🔎 review हो रहा है | 15 मिनट |
-| W3 | Chapter 17 Culture Art (10th GK) | 🔎 review हो रहा है | 10 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 185 मिनट |
+| W2 | Chapter 14 Sports (10th GK) | 🔎 review हो रहा है | 30 मिनट |
+| W3 | Chapter 17 Culture Art (10th GK) | 🔎 review हो रहा है | 25 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -40,10 +40,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 16:35:53   [Physical_Geography] review Flashcards_en.txt: 3 issue(s): - Mnemonic "Hina's Pet Parrot Dances Coolly In Moonlight" has 7 initials but only 6 physiographic divisions → Us
-13-10 16:36:16   [Economy_Basic] review Content_hi.txt: 1 issue(s): - The claim that the government retained the CPI inflation target for 2026‑2031 in March 2026 is presented as a pas
-13-10 16:39:09   [Physical_Geography] review Flashcards_hi.txt: 2 issue(s): - The mnemonic "हंसी पापा दीदी चाची मामा" does not correctly correspond to the six physical divisions of India (
-13-10 16:42:27   [Dictionary_Order] set 04 try 2: re-solve disagrees (Q80 key b vs re-solve ?, Q93 key a vs re-solve d)
 13-10 16:43:34   [Physical_Geography] review Memory_Hooks_en.txt: 1 issue(s): - Mahendragiri (1501 m) is not the highest peak of the Eastern Ghats; Arma Konda (1680 m) / Jindhagada (1690 m
 13-10 16:44:03   [Economy_Basic] review Key_Facts_en.txt: 1 issue(s): - Inflation target claims retention in March 2026 for 2026–31 → The current inflation target (4% ±2%) is for 2021
 13-10 16:46:35   [Physical_Geography] review Memory_Hooks_hi.txt: 1 issue(s): - Item 5 (हिमालय के प्रमुख दर्रे पश्चिम से पूर्व) का दिया गया मेमोनिक "जेल खाओ बो शिप नाथ" दर्रों को सही पश्चि
@@ -80,4 +76,8 @@
 13-10 17:14:55   [Dictionary_Order] set 05: Q109 key a vs re-solve b, Q113 key a vs re-solve b, Q116 key d vs re-solve ?
 13-10 17:15:06   [Sports] review Content_en.txt: 8 issue(s): - "India won the ICC Men's T20 World Cup in 2026 (final on 8 March 2026 at Ahmedabad, against New Zealand)" → The 2
 13-10 17:20:01   [Culture_Art] review Content_en.txt: 5 issue(s): - The Intangible Cultural Heritage list includes "Deepavali (2025)" as an inscribed element, but Deepavali has not 
+13-10 17:24:38   [Dictionary_Order] set 05 try 1: re-solve disagrees (Q116 key d vs re-solve ?)
+13-10 17:25:26   [Sports] review Content_hi.txt: 8 issue(s): - India winning the 2026 ICC Men's T20 World Cup is stated as fact → The 2026 ICC Men's T20 World Cup has not yet b
+13-10 17:32:58   [Dictionary_Order] set 05 try 2: re-solve disagrees (Q111 key a vs re-solve c, Q113 key b vs re-solve c, Q120 key c vs re-solve a, Q124 key c vs re-solve a)
+13-10 17:34:56   [Culture_Art] review Content_hi.txt: 3 issue(s): - "2026 तक भारत के 45 विश्व धरोहर स्थल" और "सारनाथ का प्राचीन बौद्ध स्थल (2026)" → यह भविष्य का अनुमान है; 2025 तक 
 ```
