@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 04:20 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
+**आख़िरी update:** 13-10-2026 04:35 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 108 मिनट |
-| W2 | Chapter 06 Physical Geography (10th GK) | 🔎 review हो रहा है | 10 मिनट |
-| W3 | Chapter 09 Economy Basic (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 123 मिनट |
+| W2 | Chapter 06 Physical Geography (10th GK) | 🔎 review हो रहा है | 26 मिनट |
+| W3 | Chapter 09 Economy Basic (10th GK) | 🔎 review हो रहा है | 12 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -38,13 +38,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 15:19:27   [Constitution_Basic] review Key_Facts_hi.txt: 2 issue(s): - 1ले संशोधन → प्रथम संशोधन
-13-10 15:23:16   [Dictionary_Order] set 03: Q58 key d vs re-solve a, Q68 key b vs re-solve ?, Q71 key a vs re-solve b, Q74 key d vs re-solve b
-13-10 15:24:29   [Polity] review Content_en.txt: 2 issue(s): - The Drafting Committee debated for 114 days → The Drafting Committee debated for 141 days (the Constituent Assemb
-13-10 15:26:30   [Constitution_Basic] review Flashcards_en.txt: 1 issue(s): - Flashcard 4 back: The schedule mapping for “TEARS OF OLD PM” incorrectly states that the 6th Schedule (Other T
-13-10 15:30:33   [Constitution_Basic] review Flashcards_hi.txt: 2 issue(s): - Card 4 back: "O – Other Tribal Areas (अब हटा)" claims Schedule 6 is removed; actually Schedule 6 (Tribal Areas
-13-10 15:33:57   [Polity] review Content_hi.txt: 2 issue(s): - Fundamental Rights mnemonic mislabels first two rights: "स्वातंत्र्य (समता का अधिकार — अनु. 14–18)" and "समता (स्
-13-10 15:34:27   [Dictionary_Order] set 03 try 1: re-solve disagrees (Q58 key a vs re-solve d)
 13-10 15:36:53   [Constitution_Basic] review Memory_Hooks_en.txt: 1 issue(s): - The TEARS OF OLD PM mnemonic incorrectly states the 6th Schedule is "removed" → The 6th Schedule (Tribal Are
 13-10 15:40:21   [Constitution_Basic] review Memory_Hooks_hi.txt: 2 issue(s): - In mnemonic 5 (TEARS OF OLD PM), the 6th Schedule is described as "अब हटा दी गई" (removed) → The 6th Schedul
 13-10 15:41:25   [Dictionary_Order] set 03 try 2: re-solve disagrees (Q51 key b vs re-solve c, Q58 key c vs re-solve d, Q64 key a vs re-solve d, Q72 key b vs re-solve c, Q74 key b vs re-
@@ -78,4 +71,11 @@
 13-10 16:17:05   [Economy_Basic] set 02: key confirmed
 13-10 16:18:59   [Economy_Basic] set 03: key confirmed
 13-10 16:19:58   [Economy_Basic] set 04: key confirmed
+13-10 16:21:25   [Economy_Basic] set 05: key confirmed
+13-10 16:22:40   [Dictionary_Order] set 04: Q80 key a vs re-solve ?, Q81 key b vs re-solve ?, Q90 key c vs re-solve ?, Q93 key b vs re-solve d
+13-10 16:23:30   [Economy_Basic] set 06: key confirmed
+13-10 16:23:30   [Economy_Basic] written 0, failed 0; AI calls today 142/100000
+13-10 16:27:54   [Economy_Basic] review Content_en.txt: 1 issue(s): - The claim "In March 2026 the government kept the same target for 1 April 2026 – 31 March 2031" (in Section 4 and 
+13-10 16:30:58   [Dictionary_Order] set 04 try 1: re-solve disagrees (Q80 key b vs re-solve ?, Q93 key a vs re-solve d)
+13-10 16:35:53   [Physical_Geography] review Flashcards_en.txt: 3 issue(s): - Mnemonic "Hina's Pet Parrot Dances Coolly In Moonlight" has 7 initials but only 6 physiographic divisions → Us
 ```
