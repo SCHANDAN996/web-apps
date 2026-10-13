@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 02:28 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
+**आख़िरी update:** 13-10-2026 02:32 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 128 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W2 | Chapter 04 Constitution Basic (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W3 | Chapter 05 Polity (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -30,58 +32,14 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- 13-10 14:18 — 10th GK · Chapter 03 Modern History
-- 13-10 13:19 — 10th GK · Chapter 02 Medieval History
-- 13-10 12:15 — 10th GK · Chapter 01 Ancient History
-- 13-10 11:53 — 10th Reasoning · Chapter 22 Figure Series
-- 13-10 11:03 — 10th Reasoning · Chapter 20 Mirror Water Images
-- 13-10 10:58 — 10th Reasoning · Chapter 21 Paper Folding Cutting
-
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 13 Dictionary Order (Reasoning) — 1 बार
+- अभी कोई नहीं
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 12:49:16   [Medieval_History] written 3, failed 0; AI calls today 216/100000
-13-10 12:49:33   [Modern_History] set 04: Q79 key d vs re-solve a, Q94 key c vs re-solve a
-13-10 12:51:15   [Dictionary_Order] set 02 try 2: re-solve disagrees (Q30 key a vs re-solve b, Q44 key d vs re-solve a)
-13-10 12:52:03   [Medieval_History] review Content_en.txt: 1 issue(s): - The claim "6 out of 10 questions in competitive exams come straight from these stories" is an invented exam stati
-13-10 12:56:51   [Medieval_History] review Content_hi.txt: 2 issue(s): - "प्रतियोगी परीक्षाओं के 10 में से 6 सवाल इन्हीं कहानियों से आते हैं" → invented exam statistic/weightage claim; r
-13-10 12:56:52   [Modern_History] repaired set 04 (en + hi, key confirmed by an independent re-solve)
-13-10 12:58:26   [Dictionary_Order] set 02 try 3: re-solve disagrees (Q29 key a vs re-solve d, Q30 key a vs re-solve b, Q44 key d vs re-solve a)
-13-10 13:02:49   [Modern_History] set 05: Q107 key d vs re-solve c, Q121 key c vs re-solve d
-13-10 13:06:09   [Dictionary_Order] set 02 try 4: re-solve disagrees (Q30 key a vs re-solve b, Q44 key d vs re-solve a)
-13-10 13:06:09   [Dictionary_Order] FAILED set 02: no version passed the checks — files left as they were
-13-10 13:08:21   [Modern_History] set 05 try 1: re-solve disagrees (Q122 key b vs re-solve ?)
-13-10 13:09:02   [Medieval_History] review Feynman_en.txt: 1 issue(s): - The section claims Din-i-Ilahi was not a religion and calling it one is an "exam trap" → Standard NCERT textbooks
-13-10 13:12:03   [Medieval_History] review Flashcards_hi.txt: 1 issue(s): - Card 3 states that Iltutmish completed the Qutub Minar → Iltutmish added three storeys, but the final two stor
-13-10 13:14:43   [Dictionary_Order] set 03: key confirmed
-13-10 13:16:13   [Modern_History] repaired set 05 (en + hi, key confirmed by an independent re-solve)
-13-10 13:16:54   [Medieval_History] review Memory_Hooks_en.txt: 1 issue(s): - In hook 3, the second Panipat battle lists "Hamu vs Akbar" but the correct name is Hemu (Hemu Vikramaditya) 
-13-10 13:18:34   [Modern_History] set 06: Q131 key d vs re-solve b
-13-10 13:19:12   [Medieval_History] review: 5 section(s) corrected, 0 failed
-13-10 13:19:12   [Medieval_History] written 5, failed 0; AI calls today 258/100000
-13-10 13:19:29 DONE 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_02_Medieval_History in 85 min → 4067c3b8
-13-10 13:19:29 worker 2: nothing left
-13-10 13:24:42   [Dictionary_Order] set 04: Q80 key a vs re-solve ?, Q81 key b vs re-solve ?, Q90 key c vs re-solve ?, Q93 key b vs re-solve d, Q100 key b vs re-solve a
-13-10 13:32:45   [Modern_History] repaired set 06 (en + hi, key confirmed by an independent re-solve)
-13-10 13:32:45   [Modern_History] written 4, failed 0; AI calls today 263/100000
-13-10 13:36:17   [Dictionary_Order] set 04 try 1: re-solve disagrees (Q80 key a vs re-solve ?, Q93 key a vs re-solve b)
-13-10 13:37:25   [Modern_History] review Content_en.txt: 2 issue(s): - The mnemonic for annexations under Dalhousie incorrectly includes Awadh as a Doctrine of Lapse annexation; Awadh 
-13-10 13:46:27   [Dictionary_Order] set 04 try 2: re-solve disagrees (Q80 key d vs re-solve ?, Q93 key b vs re-solve d)
-13-10 13:50:12   [Modern_History] review Content_hi.txt: 1 issue(s): - अवध (Awadh) को हड़प नीति (Doctrine of Lapse) के तहत हड़पे गए राज्यों की सूची में शामिल किया गया है → अवध को 1856 
-13-10 13:54:30   [Dictionary_Order] set 04 try 3: re-solve disagrees (Q93 key a vs re-solve d)
-13-10 14:00:29   [Modern_History] review Mind_Map.txt: 1 issue(s): - T3 labels the exact date of Jallianwala Bagh (13 April 1919) as 'Almost True' → Replace with 'True: Jallianwala Bag
-13-10 14:02:22   [Dictionary_Order] set 04 try 4: re-solve disagrees (Q86 key b vs re-solve a, Q93 key a vs re-solve d)
-13-10 14:02:22   [Dictionary_Order] FAILED set 04: no version passed the checks — files left as they were
-13-10 14:10:24   [Dictionary_Order] set 05: Q109 key a vs re-solve d, Q110 key b vs re-solve d, Q115 key c vs re-solve a, Q116 key d vs re-solve ?
-13-10 14:14:14   [Modern_History] review Memory_Hooks_en.txt: 1 issue(s): - The mnemonic states Dalhousie's annexation order as Satara, Jhansi, Nagpur, Awadh, Sambalpur; the correct ch
-13-10 14:14:15   [Dictionary_Order] set 05 try 1: rejected (Q111:duplicate_options)
-13-10 14:18:37   [Modern_History] review: 4 section(s) corrected, 0 failed
-13-10 14:18:37   [Modern_History] written 4, failed 0; AI calls today 290/100000
-13-10 14:18:54 DONE 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_03_Modern_History in 123 min → cd84371e
-13-10 14:18:54 worker 1: nothing left
-13-10 14:27:35   [Dictionary_Order] set 05 try 2: re-solve disagrees (Q116 key a vs re-solve b, Q118 key c vs re-solve a)
+13-10 14:32:01 autopilot start: 3 workers, reverse=True
+13-10 14:32:02 START 10th_Level/Reasoning/Chapter_13_Dictionary_Order (OK: todo 0, problems 0)
+13-10 14:32:08 START 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_04_Constitution_Basic (OK: todo 0, problems 0)
+13-10 14:32:13 START 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_05_Polity (OK: todo 0, problems 0)
+13-10 14:33:01   [Dictionary_Order] set 01: Q24 key d vs re-solve b
 ```
