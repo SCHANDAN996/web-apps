@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 04:14 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
+**आख़िरी update:** 13-10-2026 04:20 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 102 मिनट |
-| W2 | Chapter 06 Physical Geography (10th GK) | 🔎 review हो रहा है | 4 मिनट |
-| W3 | Chapter 05 Polity (10th GK) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 108 मिनट |
+| W2 | Chapter 06 Physical Geography (10th GK) | 🔎 review हो रहा है | 10 मिनट |
+| W3 | Chapter 09 Economy Basic (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -38,13 +38,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 15:08:05   [Constitution_Basic] review Key_Facts_en.txt: 1 issue(s): - Current Constitution data (~470 Articles, 25 Parts, 12 Schedules) given without a year → specify the year (e.g.
-13-10 15:14:51   [Polity] repaired set 04 (en + hi, key confirmed by an independent re-solve)
-13-10 15:16:24   [Polity] set 05: key confirmed
-13-10 15:16:24   [Dictionary_Order] set 02 try 4: re-solve disagrees (Q44 key c vs re-solve b)
-13-10 15:16:24   [Dictionary_Order] FAILED set 02: no version passed the checks — files left as they were
-13-10 15:18:49   [Polity] set 06: key confirmed
-13-10 15:18:49   [Polity] written 2, failed 0; AI calls today 65/100000
 13-10 15:19:27   [Constitution_Basic] review Key_Facts_hi.txt: 2 issue(s): - 1ले संशोधन → प्रथम संशोधन
 13-10 15:23:16   [Dictionary_Order] set 03: Q58 key d vs re-solve a, Q68 key b vs re-solve ?, Q71 key a vs re-solve b, Q74 key d vs re-solve b
 13-10 15:24:29   [Polity] review Content_en.txt: 2 issue(s): - The Drafting Committee debated for 114 days → The Drafting Committee debated for 141 days (the Constituent Assemb
@@ -78,4 +71,11 @@
 13-10 16:14:26   [Physical_Geography] review Content_en.txt: 3 issue(s): - The Deccan Plateau description incorrectly states that the Mahadev, Kaimur and Maikal ranges are its eastern exte
 13-10 16:14:35   [Polity] review: 9 section(s) corrected, 0 failed
 13-10 16:14:35   [Polity] written 9, failed 0; AI calls today 127/100000
+13-10 16:15:01 DONE 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_05_Polity in 102 min → 903f70e4
+13-10 16:15:03 START 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_09_Economy_Basic (OK: todo 0, problems 0)
+13-10 16:15:25   [Dictionary_Order] FAILED set 03: too_long
+13-10 16:15:54   [Economy_Basic] set 01: key confirmed
+13-10 16:17:05   [Economy_Basic] set 02: key confirmed
+13-10 16:18:59   [Economy_Basic] set 03: key confirmed
+13-10 16:19:58   [Economy_Basic] set 04: key confirmed
 ```
