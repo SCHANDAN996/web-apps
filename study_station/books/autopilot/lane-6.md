@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 03:18 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
+**आख़िरी update:** 13-10-2026 03:34 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 46 मिनट |
-| W2 | Chapter 04 Constitution Basic (10th GK) | 🔎 review हो रहा है | 23 मिनट |
-| W3 | Chapter 05 Polity (10th GK) | 🔎 review हो रहा है | 0 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 62 मिनट |
+| W2 | Chapter 04 Constitution Basic (10th GK) | 🔎 review हो रहा है | 39 मिनट |
+| W3 | Chapter 05 Polity (10th GK) | 🔎 review हो रहा है | 15 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,8 +37,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 14:32:01 autopilot start: 3 workers, reverse=True
-13-10 14:32:02 START 10th_Level/Reasoning/Chapter_13_Dictionary_Order (OK: todo 0, problems 0)
 13-10 14:32:08 START 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_04_Constitution_Basic (OK: todo 0, problems 0)
 13-10 14:32:13 START 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_05_Polity (OK: todo 0, problems 0)
 13-10 14:33:01   [Dictionary_Order] set 01: Q24 key d vs re-solve b
@@ -72,4 +70,11 @@
 13-10 15:16:24   [Dictionary_Order] FAILED set 02: no version passed the checks — files left as they were
 13-10 15:18:49   [Polity] set 06: key confirmed
 13-10 15:18:49   [Polity] written 2, failed 0; AI calls today 65/100000
+13-10 15:19:27   [Constitution_Basic] review Key_Facts_hi.txt: 2 issue(s): - 1ले संशोधन → प्रथम संशोधन
+13-10 15:23:16   [Dictionary_Order] set 03: Q58 key d vs re-solve a, Q68 key b vs re-solve ?, Q71 key a vs re-solve b, Q74 key d vs re-solve b
+13-10 15:24:29   [Polity] review Content_en.txt: 2 issue(s): - The Drafting Committee debated for 114 days → The Drafting Committee debated for 141 days (the Constituent Assemb
+13-10 15:26:30   [Constitution_Basic] review Flashcards_en.txt: 1 issue(s): - Flashcard 4 back: The schedule mapping for “TEARS OF OLD PM” incorrectly states that the 6th Schedule (Other T
+13-10 15:30:33   [Constitution_Basic] review Flashcards_hi.txt: 2 issue(s): - Card 4 back: "O – Other Tribal Areas (अब हटा)" claims Schedule 6 is removed; actually Schedule 6 (Tribal Areas
+13-10 15:33:57   [Polity] review Content_hi.txt: 2 issue(s): - Fundamental Rights mnemonic mislabels first two rights: "स्वातंत्र्य (समता का अधिकार — अनु. 14–18)" and "समता (स्
+13-10 15:34:27   [Dictionary_Order] set 03 try 1: re-solve disagrees (Q58 key a vs re-solve d)
 ```
