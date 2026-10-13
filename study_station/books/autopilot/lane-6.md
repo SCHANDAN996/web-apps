@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 11:55 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
+**आख़िरी update:** 13-10-2026 12:10 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 168 मिनट |
-| W2 | Chapter 01 Ancient History (10th GK) | 🔎 review हो रहा है | 12 मिनट |
-| W3 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 184 मिनट |
+| W2 | Chapter 01 Ancient History (10th GK) | 🔎 review हो रहा है | 27 मिनट |
+| W3 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 16 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,10 +39,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 11:01:58   [Figure_Series] set 01: key confirmed
-13-10 11:03:27   [Mirror_Water_Images] review: 9 section(s) corrected, 0 failed
-13-10 11:03:27   [Mirror_Water_Images] written 9, failed 0; AI calls today 98/100000
-13-10 11:03:48 DONE 10th_Level/Reasoning/Chapter_20_Mirror_Water_Images in 117 min → 4cd4d75a
 13-10 11:03:50 START 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_01_Ancient_History (OK: todo 0, problems 0)
 13-10 11:04:55   [Figure_Series] set 02: key confirmed
 13-10 11:05:07   [Ancient_History] set 01: key confirmed
@@ -79,4 +75,8 @@
 13-10 11:53:48   [Dictionary_Order] set 06 try 2: re-solve disagrees (Q142 key c vs re-solve a)
 13-10 11:53:52 DONE 10th_Level/Reasoning/Chapter_22_Figure_Series in 55 min → 78b35711
 13-10 11:53:53 START 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_02_Medieval_History (OK: todo 0, problems 0)
+13-10 11:56:36   [Medieval_History] set 01: Q22 key a vs re-solve ?
+13-10 12:05:51   [Medieval_History] repaired set 01 (en + hi, key confirmed by an independent re-solve)
+13-10 12:06:54   [Medieval_History] set 02: Q26 key a vs re-solve d
+13-10 12:10:08   [Ancient_History] review Memory_Hooks_en.txt: 2 issue(s): - Mnemonic 3: Heading "Maurya Rulers (First Four)" lists Chandragupta, Bindusara, Ashoka, Brihadratha, but Bri
 ```
